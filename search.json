@@ -3,13 +3,11 @@ layout: null
 ---
 
 [
-  {% for post in site.pages %}
-  {
-    "title": "{{ post.title | escape }}",
-    "url": "{{ post.url | relative_url }}",
-    "date": "{{ post.date | date: '%B %d, %Y' }}",
-    "categories": "{{ post.categories | join: ', ' }}",
-    "tags": "{{ post.tags | join: ', ' }}"
-  }{% if forloop.last %}{% else %},{% endif %}
+  {% for page in site.pages %}
+    {
+      "title": "{{ page.title | escape }}",
+      "url": "{{ page.url | relative_url }}",
+      "content": "{{ page.content | strip_html | strip_newlines | escape }}"
+    }{% if forloop.last %}{% else %},{% endif %}
   {% endfor %}
 ]
