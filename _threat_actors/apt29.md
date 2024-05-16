@@ -1,4 +1,3 @@
-
 ---
 layout: threat_actor
 title: "APT29"
