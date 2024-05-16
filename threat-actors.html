@@ -1,13 +1,12 @@
-
 ---
 layout: default
 title: Threat Actors
 ---
 
 <h2>Threat Actors</h2>
+
 <ul>
   {% for actor in site.data.threat_actors %}
-    <li><a href="{{ actor.url }}">{{ actor.name }}</a> - {{ actor.aliases | join: ,  }}</li>
+    <li>{{ actor.name }} - {{ actor.aliases | join: ', ' }}</li>
   {% endfor %}
 </ul>
-
