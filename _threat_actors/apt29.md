@@ -7,5 +7,5 @@ permalink: /apt29/
 ---
 
 ## Introduction
-APT29, also known as Cozy Bear or The Dukes, is known for its advanced cyber espionage tactics. The group is widely believed to be backed by the Russian government and has been active for several years.
+
 
