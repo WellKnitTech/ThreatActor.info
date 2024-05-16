@@ -1,8 +1,7 @@
-
 title: "Threat Actor Info"
 description: "A comprehensive wiki on threat actors"
-baseurl: ""
-url: "https://WellKnitTech.github.io"
+baseurl: "" # Your base URL
+url: "https://threatactor.info" # Your site URL
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-seo-tag
