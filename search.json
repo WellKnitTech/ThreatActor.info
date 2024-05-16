@@ -1,0 +1,15 @@
+ ---
+layout: null
+---
+[
+  {% for post in site.pages %}
+  {
+    "title": "{{ post.title | escape }}",
+    "url": "{{ post.url | relative_url }}",
+    "date": "{{ post.date | date: '%B %d, %Y' }}",
+    "categories": "{{ post.categories | join: ', ' }}",
+    "tags": "{{ post.tags | join: ', ' }}"
+  }{% if forloop.last %}{% else %},{% endif %}
+  {% endfor %}
+]
+
