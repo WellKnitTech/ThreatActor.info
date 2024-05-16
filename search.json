@@ -1,6 +1,7 @@
- ---
+---
 layout: null
 ---
+
 [
   {% for post in site.pages %}
   {
@@ -12,4 +13,3 @@ layout: null
   }{% if forloop.last %}{% else %},{% endif %}
   {% endfor %}
 ]
-
