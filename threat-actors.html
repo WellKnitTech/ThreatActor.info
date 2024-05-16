@@ -5,6 +5,9 @@ title: Threat Actors
 
 <h2>Threat Actors</h2>
 
+<p>Data file content:</p>
+<pre>{{ site.data.threat_actors | jsonify }}</pre>
+
 <ul>
   {% for actor in site.data.threat_actors %}
     <li>{{ actor.name }} - {{ actor.aliases | join: ', ' }}</li>
