@@ -7,6 +7,8 @@ title: Threat Actors
 
 <ul>
   {% for actor in site.data.threat_actors %}
-    <li>{{ actor.name }} - {{ actor.aliases | join: ', ' }}</li>
+    <li>
+      <a href="{{ actor.url | relative_url }}">{{ actor.name }}</a> - {{ actor.aliases | join: ', ' }}
+    </li>
   {% endfor %}
 </ul>
