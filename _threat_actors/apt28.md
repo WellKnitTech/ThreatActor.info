@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT28"
 aliases: ["Fancy Bear", "Sofacy Group"]
 description: "APT28 is a threat actor group known for its sophisticated cyber espionage activities."
-permalink: /apt28
+permalink: /apt28/
 ---
 
 ## Introduction
