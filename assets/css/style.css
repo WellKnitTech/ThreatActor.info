@@ -1,0 +1,34 @@
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+header h1, header nav {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  background: #333;
+  color: #fff;
+}
+

@@ -1,0 +1,22 @@
+
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+<p><strong>Also known as:</strong> {{ page.aliases | join: ,  }}</p>
+<p>{{ page.description }}</p>
+
+<div class="content">
+  {{ content }}
+</div>
+
+<footer>
+  <h2>References</h2>
+  <ul>
+    <li><a href="https://www.fireeye.com/current-threats/apt-groups/rpt-apt28.html">FireEye Report on APT28</a></li>
+    <li><a href="https://www.crowdstrike.com/blog/who-is-fancy-bear/">CrowdStrike Analysis</a></li>
+    <li><a href="https://www.dhs.gov/news/2021/10/07/joint-statement-apt28">U.S. Government Attribution</a></li>
+  </ul>
+</footer>
+
