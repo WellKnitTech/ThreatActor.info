@@ -29,7 +29,31 @@ layout: default
     <div class="stat-item">
       <span class="stat-icon">🌍</span>
       <span class="stat-label">Country</span>
-      <span class="stat-value">{{ page.country }}</span>
+      <span class="stat-value">
+      {% case page.country %}
+        {% when 'Russia' %}🇷🇺
+        {% when 'China' %}🇨🇳
+        {% when 'Iran' %}🇮🇷
+        {% when 'North Korea' %}🇰🇵
+        {% when 'South Korea' %}🇰🇷
+        {% when 'United States' %}🇺🇸
+        {% when 'United Kingdom' %}🇬🇧
+        {% when 'Vietnam' %}🇻🇳
+        {% when 'India' %}🇮🇳
+        {% when 'Pakistan' %}🇵🇰
+        {% when 'Israel' %}🇮🇱
+        {% when 'Turkey' %}🇹🇷
+        {% when 'Brazil' %}🇧🇷
+        {% when 'Ukraine' %}🇺🇦
+        {% when 'Japan' %}🇯🇵
+        {% when 'Germany' %}🇩🇪
+        {% when 'France' %}🇫🇷
+        {% when 'Nigeria' %}🇳🇬
+        {% when 'Romania' %}🇷🇴
+        {% else %}🏳️
+      {% endcase %}
+      {{ page.country }}
+      </span>
     </div>
     {% endif %}
     
