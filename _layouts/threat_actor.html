@@ -1,56 +1,73 @@
-
 ---
 layout: default
 ---
 
 <div class="threat-actor-header">
-  <h1>{{ page.title }}</h1>
-  
-  <div class="actor-metadata">
-    <div class="metadata-row">
-      <span class="metadata-label">Also known as:</span>
-      <span class="metadata-value">{{ page.aliases | join: ", " }}</span>
-    </div>
-    
-    {% if page.country %}
-    <div class="metadata-row">
-      <span class="metadata-label">Country:</span>
-      <span class="metadata-value">{{ page.country }}</span>
-    </div>
-    {% endif %}
-    
-    {% if page.sector_focus %}
-    <div class="metadata-row">
-      <span class="metadata-label">Sector Focus:</span>
-      <span class="metadata-value">{{ page.sector_focus | join: ", " }}</span>
-    </div>
-    {% endif %}
-    
-    {% if page.first_seen %}
-    <div class="metadata-row">
-      <span class="metadata-label">First Seen:</span>
-      <span class="metadata-value">{{ page.first_seen }}</span>
-    </div>
-    {% endif %}
-    
-    {% if page.last_activity %}
-    <div class="metadata-row">
-      <span class="metadata-label">Last Activity:</span>
-      <span class="metadata-value">{{ page.last_activity }}</span>
-    </div>
-    {% endif %}
-    
+  <div class="header-top">
+    <h1>{{ page.title }}</h1>
     {% if page.risk_level %}
-    <div class="metadata-row">
-      <span class="metadata-label">Risk Level:</span>
-      <span class="metadata-value risk-{{ page.risk_level | downcase }}">{{ page.risk_level }}</span>
-    </div>
+    <span class="risk-badge {{ page.risk_level | downcase }}">
+      {% if page.risk_level == 'Critical' %}⚠️{% elsif page.risk_level == 'High' %}🔴{% elsif page.risk_level == 'Medium' %}🟡{% else %}🟢{% endif %}
+      {{ page.risk_level }}
+    </span>
     {% endif %}
   </div>
+  
+  {% if page.aliases and page.aliases.size > 0 %}
+  <div class="aliases">
+    <span class="aliases-label">Also known as:</span>
+    <span class="aliases-list">{{ page.aliases | join: ", " }}</span>
+  </div>
+  {% endif %}
   
   <div class="actor-description">
     <p>{{ page.description }}</p>
   </div>
+  
+  <div class="actor-stats">
+    {% if page.country %}
+    <div class="stat-item">
+      <span class="stat-icon">🌍</span>
+      <span class="stat-label">Country</span>
+      <span class="stat-value">{{ page.country }}</span>
+    </div>
+    {% endif %}
+    
+    {% if page.first_seen or page.last_activity %}
+    <div class="stat-item">
+      <span class="stat-icon">📅</span>
+      <span class="stat-label">Activity</span>
+      <span class="stat-value">
+        {% if page.first_seen %}{{ page.first_seen }}{% else %}?{% endif %}
+        {% if page.last_activity %} — {{ page.last_activity }}{% endif %}
+      </span>
+    </div>
+    {% endif %}
+    
+    {% if page.risk_level %}
+    <div class="stat-item">
+      <span class="stat-icon">⚡</span>
+      <span class="stat-label">Risk Level</span>
+      <span class="stat-value risk-{{ page.risk_level | downcase }}">{{ page.risk_level }}</span>
+    </div>
+    {% endif %}
+  </div>
+  
+  {% if page.sector_focus and page.sector_focus.size > 0 %}
+  <div class="sector-tags">
+    {% for sector in page.sector_focus %}
+    <span class="sector-tag">{{ sector }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+  
+  {% if page.first_seen and page.last_activity %}
+  <div class="activity-timeline">
+    <span class="year">{{ page.first_seen }}</span>
+    <div class="timeline-bar"></div>
+    <span class="year">{{ page.last_activity }}</span>
+  </div>
+  {% endif %}
 </div>
 
 <div class="content">

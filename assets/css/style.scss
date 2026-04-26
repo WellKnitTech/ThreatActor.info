@@ -1,99 +1,499 @@
 ---
 ---
 
-@use "{{ site.theme }}";
+// Note: Not importing jekyll-theme-hacker - using custom theme
+
+// Solarized Color Palette
+$solarized-base03: #002b36;
+$solarized-base02: #073642;
+$solarized-base01: #586e75;
+$solarized-base00: #657b83;
+$solarized-base0: #839496;
+$solarized-base1: #93a1a1;
+$solarized-base2: #eee8d5;
+$solarized-base3: #fdf6e3;
+
+$solarized-yellow: #b58900;
+$solarized-orange: #cb4b16;
+$solarized-red: #dc322f;
+$solarized-magenta: #d33682;
+$solarized-violet: #6c71c4;
+$solarized-blue: #268bd2;
+$solarized-cyan: #2aa198;
+$solarized-green: #859900;
+
+// CSS Custom Properties for Theming (Dark Mode - Default)
+:root {
+  // Dark mode colors (Solarized dark)
+  --bg-primary: #002b36;
+  --bg-secondary: #073642;
+  --bg-tertiary: #073642;
+  --bg-card: #073642;
+  --text-primary: #eee8d5;
+  --text-secondary: #93a1a1;
+  --text-muted: #586e75;
+  --border-color: #586e75;
+  --accent: #268bd2;
+  --accent-hover: #2aa198;
+  
+  // Risk level colors
+  --risk-critical: #dc322f;
+  --risk-high: #cb4b16;
+  --risk-medium: #b58900;
+  --risk-low: #859900;
+  
+  // Header/footer
+  --header-bg: #073642;
+  --footer-bg: #073642;
+  
+  // Section backgrounds
+  --section-bg: #073642;
+  --section-bg-alt: #002b36;
+}
+
+// Light Theme - Clean high contrast light theme
+.light-theme {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --bg-tertiary: #e9ecef;
+  --bg-card: #ffffff;
+  --text-primary: #212529;
+  --text-secondary: #495057;
+  --text-muted: #6c757d;
+  --border-color: #dee2e6;
+  --accent: #0066cc;
+  --accent-hover: #0099cc;
+  
+  --header-bg: #f8f9fa;
+  --footer-bg: #f8f9fa;
+  
+  --section-bg: #f8f9fa;
+  --section-bg-alt: #ffffff;
+}
+
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
 
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  background-color: var(--bg-primary) !important;
+  color: var(--text-primary);
 }
+
 header {
-  background: #333;
-  color: #fff;
+  background: var(--header-bg) !important;
+  color: var(--text-primary);
   padding: 1rem 0;
+  border-bottom: 1px solid var(--border-color);
 }
+
 header h1, header nav {
   margin: 0;
   padding: 0;
   display: inline-block;
 }
+
 header nav ul {
   list-style: none;
 }
+
 header nav ul li {
   display: inline;
   margin-right: 1rem;
 }
+
 header nav ul li a {
-  color: #fff;
+  color: var(--text-primary);
   text-decoration: none;
 }
+
+header nav ul li a:hover {
+  color: var(--accent);
+}
+
 footer {
   text-align: center;
   margin-top: 2rem;
   padding: 1rem 0;
-  background: #333;
-  color: #fff;
+  background: var(--footer-bg) !important;
+  color: var(--text-secondary);
+}
+
+// Theme Toggle Button
+.theme-toggle {
+  background: var(--bg-primary);
+  border: 2px solid var(--border-color);
+  color: var(--text-primary);
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin-left: 1rem;
+  vertical-align: middle;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.header-controls {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+// Main content area
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--bg-primary);
+  min-height: 100vh;
+}
+
+// Force override theme styles
+html {
+  background-color: var(--bg-primary) !important;
+}
+
+.content {
+  color: var(--text-primary);
+}
+
+// Links
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+// Links
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-hover);
 }
 
 /* Threat Actor Page Styles */
 .threat-actor-header {
-  background: #f5f5f5;
+  background: var(--bg-secondary);
+  border-radius: 12px;
   padding: 2rem;
-  border-radius: 8px;
   margin-bottom: 2rem;
+  border: 1px solid var(--border-color);
+  position: relative;
+  overflow: hidden;
 }
 
-.actor-metadata {
-  margin: 1rem 0;
+.threat-actor-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-hover));
 }
 
-.metadata-row {
+.header-top {
   display: flex;
-  margin-bottom: 0.5rem;
   align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
-.metadata-label {
-  font-weight: bold;
-  min-width: 120px;
-  color: #333;
+.threat-actor-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: var(--text-primary);
+  font-weight: 700;
 }
 
-.metadata-value {
-  color: #666;
+.aliases {
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  background: var(--bg-tertiary);
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
 }
 
-.risk-high {
-  color: #ff6b6b;
-  font-weight: bold;
+.aliases-label {
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-right: 0.5rem;
 }
 
-.risk-critical {
-  color: #e74c3c;
-  font-weight: bold;
+.aliases-list {
+  color: var(--text-secondary);
+  font-style: italic;
 }
 
-.risk-medium {
-  color: #f39c12;
-  font-weight: bold;
+.actor-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
 }
 
-.risk-low {
-  color: #27ae60;
-  font-weight: bold;
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--bg-tertiary);
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+}
+
+.stat-icon {
+  font-size: 1.1rem;
+}
+
+.stat-label {
+  font-weight: 600;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.stat-value {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.stat-value.risk-critical {
+  color: var(--risk-critical);
+}
+
+.stat-value.risk-high {
+  color: var(--risk-high);
+}
+
+.stat-value.risk-medium {
+  color: var(--risk-medium);
+}
+
+.stat-value.risk-low {
+  color: var(--risk-low);
+}
+
+// Risk Level Badges
+.risk-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.risk-badge.critical {
+  background: rgba(220, 50, 47, 0.2);
+  color: var(--risk-critical);
+  border: 1px solid var(--risk-critical);
+}
+
+.risk-badge.high {
+  background: rgba(203, 75, 22, 0.2);
+  color: var(--risk-high);
+  border: 1px solid var(--risk-high);
+}
+
+.risk-badge.medium {
+  background: rgba(181, 137, 0, 0.2);
+  color: var(--risk-medium);
+  border: 1px solid var(--risk-medium);
+}
+
+.risk-badge.low {
+  background: rgba(133, 153, 0, 0.2);
+  color: var(--risk-low);
+  border: 1px solid var(--risk-low);
+}
+
+// Activity Timeline
+.activity-timeline {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  background: var(--bg-tertiary);
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+}
+
+.activity-timeline .year {
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.activity-timeline .timeline-bar {
+  flex: 1;
+  height: 6px;
+  background: var(--accent);
+  border-radius: 3px;
+  position: relative;
+}
+
+.activity-timeline .timeline-bar::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  background: var(--accent);
+  border-radius: 50%;
+  border: 2px solid var(--bg-secondary);
+}
+
+// Sector Tags
+.sector-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.sector-tag {
+  background: rgba(38, 139, 210, 0.15);
+  color: var(--accent);
+  padding: 0.3rem 0.7rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  border: 1px solid var(--accent);
 }
 
 .actor-description {
-  margin-top: 1rem;
-  padding-top: 1rem;
-  border-top: 1px solid #ddd;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color);
 }
 
 .actor-description p {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+// Section Styling
+.content h2 {
+  color: var(--text-primary);
+  font-size: 1.75rem;
+  margin: 2.5rem 0 1.25rem 0;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid var(--accent);
+  background: var(--section-bg);
+  border-radius: 0 8px 8px 0;
+}
+
+.content h3 {
+  color: var(--text-primary);
+  font-size: 1.35rem;
+  margin: 2rem 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.content ul, .content ol {
+  color: var(--text-secondary);
+  padding-left: 1.5rem;
+}
+
+.content li {
+  margin-bottom: 0.75rem;
   line-height: 1.6;
-  color: #444;
+}
+
+.content li::marker {
+  color: var(--accent);
+}
+
+// Campaign list styling
+.content ol li {
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.75rem;
+  background: var(--section-bg);
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  list-style-position: inside;
+}
+
+.content ol li strong {
+  color: var(--text-primary);
+}
+
+// IOC Styling
+.ioc-block {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  overflow-x: auto;
+}
+
+.ioc-block code {
+  color: var(--accent);
+  background: transparent;
+  padding: 0;
+}
+
+.ioc-block ul {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.ioc-block li {
+  margin-bottom: 0.5rem;
+  word-break: break-all;
+}
+
+// Table styling
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  background: var(--section-bg);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.content th, .content td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.content th {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.content tr:last-child td {
+  border-bottom: none;
+}
+
+.content tr:hover td {
+  background: var(--bg-card);
 }
 
 /* Threat Actors Grid */
@@ -105,30 +505,31 @@ footer {
 }
 
 .threat-actor-card {
-  background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
   padding: 1.5rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  transition: box-shadow 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
 }
 
 .threat-actor-card:hover {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  transform: translateY(-2px);
 }
 
 .threat-actor-card h3 {
   margin: 0 0 1rem 0;
-  color: #333;
+  color: var(--text-primary);
 }
 
 .threat-actor-card h3 a {
-  color: #333;
+  color: var(--text-primary);
   text-decoration: none;
 }
 
 .threat-actor-card h3 a:hover {
-  color: #007acc;
+  color: var(--accent);
 }
 
 .actor-card-metadata {
@@ -141,26 +542,40 @@ footer {
 }
 
 .metadata-item strong {
-  color: #333;
+  color: var(--text-muted);
 }
 
 .threat-actor-card .actor-description {
   font-size: 0.95rem;
   line-height: 1.5;
-  color: #666;
+  color: var(--text-secondary);
   margin: 0;
+  border-top: 1px solid var(--border-color);
+  padding-top: 1rem;
 }
 
 .source-attribution-panel {
   margin-top: 2rem;
   padding: 1rem 1.25rem;
-  border: 1px solid #d7e6d1;
+  border: 1px solid var(--accent);
   border-radius: 8px;
-  background: #f5fbf2;
+  background: var(--section-bg);
 }
 
 .source-attribution-panel h2 {
   margin-top: 0;
+  color: var(--text-primary);
+  font-size: 1.25rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.5rem;
+}
+
+.source-attribution-panel p {
+  color: var(--text-secondary);
+}
+
+.source-attribution-panel a {
+  color: var(--accent);
 }
 
 .source-attribution-panel p:last-child {
@@ -169,10 +584,11 @@ footer {
 
 /* Enhanced Search Styles */
 .search-container {
-  background: #f9f9f9;
+  background: var(--bg-secondary);
   padding: 2rem;
   border-radius: 8px;
   margin: 2rem 0;
+  border: 1px solid var(--border-color);
 }
 
 .search-input-container {
@@ -184,14 +600,16 @@ footer {
   width: 100%;
   padding: 1rem;
   font-size: 1.1rem;
-  border: 2px solid #ddd;
+  border: 2px solid var(--border-color);
   border-radius: 6px;
   box-sizing: border-box;
+  background: var(--bg-primary);
+  color: var(--text-primary);
 }
 
 .search-input-container input:focus {
   outline: none;
-  border-color: #007acc;
+  border-color: var(--accent);
 }
 
 #clear-search {
@@ -199,7 +617,7 @@ footer {
   right: 10px;
   top: 50%;
   transform: translateY(-50%);
-  background: #ff6b6b;
+  background: var(--risk-high);
   color: white;
   border: none;
   padding: 0.5rem 1rem;
@@ -209,7 +627,7 @@ footer {
 }
 
 #clear-search:hover {
-  background: #ff5252;
+  background: var(--risk-critical);
 }
 
 .search-filters {
@@ -225,22 +643,23 @@ footer {
 }
 
 .filter-group label {
-  font-weight: bold;
+  font-weight: 600;
   margin-bottom: 0.5rem;
-  color: #333;
+  color: var(--text-secondary);
 }
 
 .filter-group select {
   padding: 0.75rem;
-  border: 1px solid #ddd;
+  border: 1px solid var(--border-color);
   border-radius: 4px;
-  background: white;
+  background: var(--bg-primary);
+  color: var(--text-primary);
   font-size: 1rem;
 }
 
 .filter-group select:focus {
   outline: none;
-  border-color: #007acc;
+  border-color: var(--accent);
 }
 
 .search-results {
@@ -248,26 +667,25 @@ footer {
 }
 
 .search-result-item {
-  background: white;
-  border: 1px solid #ddd;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
   border-radius: 6px;
   padding: 1.5rem;
   margin-bottom: 1rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .search-result-item h3 {
   margin: 0 0 0.5rem 0;
-  color: #333;
+  color: var(--text-primary);
 }
 
 .search-result-item h3 a {
-  color: #333;
+  color: var(--text-primary);
   text-decoration: none;
 }
 
 .search-result-item h3 a:hover {
-  color: #007acc;
+  color: var(--accent);
 }
 
 .result-metadata {
@@ -281,8 +699,8 @@ footer {
 .result-metadata span {
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
-  background: #f0f0f0;
-  color: #666;
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
 }
 
 .result-metadata .risk {
@@ -291,13 +709,13 @@ footer {
 
 .result-description {
   margin: 0;
-  color: #666;
+  color: var(--text-secondary);
   line-height: 1.5;
 }
 
 #no-results {
   text-align: center;
   padding: 2rem;
-  color: #666;
+  color: var(--text-muted);
   font-style: italic;
 }

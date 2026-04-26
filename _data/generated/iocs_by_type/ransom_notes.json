@@ -59,9 +59,7 @@
       "normalized_value": "Content: Contains ransom demands and contact information",
       "canonical_value": "Content: Contains ransom demands and contact information",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Content: Contains ransom demands and contact information",
       "source_file": "_threat_actors/lockbit.md"
     },
@@ -79,9 +77,7 @@
       "normalized_value": "Language: Multiple language support including English, Spanish, French",
       "canonical_value": "Language: Multiple language support including English, Spanish, French",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Language: Multiple language support including English, Spanish, French",
       "source_file": "_threat_actors/lockbit.md"
     }

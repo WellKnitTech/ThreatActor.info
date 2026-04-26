@@ -18,9 +18,7 @@
       "normalized_value": "WhatsApp: Sending voice message threats to victims",
       "canonical_value": "WhatsApp: Sending voice message threats to victims",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "WhatsApp: Sending voice message threats to victims",
       "source_file": "_threat_actors/medusa.md"
     },
@@ -38,9 +36,7 @@
       "normalized_value": "Microsoft Teams: Platform for delivering voice message threats",
       "canonical_value": "Microsoft Teams: Platform for delivering voice message threats",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Microsoft Teams: Platform for delivering voice message threats",
       "source_file": "_threat_actors/medusa.md"
     },
@@ -58,9 +54,7 @@
       "normalized_value": "Telegram: Maintaining public-facing leak site operations and broadcasting new victims",
       "canonical_value": "Telegram: Maintaining public-facing leak site operations and broadcasting new victims",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Telegram: Maintaining public-facing leak site operations and broadcasting new victims",
       "source_file": "_threat_actors/medusa.md"
     }

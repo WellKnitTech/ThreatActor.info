@@ -18,9 +18,7 @@
       "normalized_value": "Credential Harvesting: Through compromised legitimate websites, employing fake Cloudflare verification pages",
       "canonical_value": "Credential Harvesting: Through compromised legitimate websites, employing fake Cloudflare verification pages",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Credential Harvesting: Through compromised legitimate websites, employing fake Cloudflare verification pages",
       "source_file": "_threat_actors/apt29.md"
     },
@@ -38,9 +36,7 @@
       "normalized_value": "Abuse of Microsoft Device Code: Authentication mechanisms for unauthorized access",
       "canonical_value": "Abuse of Microsoft Device Code: Authentication mechanisms for unauthorized access",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Abuse of Microsoft Device Code: Authentication mechanisms for unauthorized access",
       "source_file": "_threat_actors/apt29.md"
     }

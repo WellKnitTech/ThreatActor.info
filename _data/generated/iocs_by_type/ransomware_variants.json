@@ -18,9 +18,7 @@
       "normalized_value": "Akira Ransomware: Original C++-based ransomware strain targeting Windows and Linux systems",
       "canonical_value": "Akira Ransomware: Original C++-based ransomware strain targeting Windows and Linux systems",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Akira Ransomware: Original C++-based ransomware strain targeting Windows and Linux systems",
       "source_file": "_threat_actors/akira.md"
     },
@@ -58,9 +56,7 @@
       "normalized_value": "Play Ransomware: Custom ransomware that appends the \".play\" extension to encrypted files",
       "canonical_value": "Play Ransomware: Custom ransomware that appends the \".play\" extension to encrypted files",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Play Ransomware: Custom ransomware that appends the \".play\" extension to encrypted files",
       "source_file": "_threat_actors/play.md"
     },
@@ -78,9 +74,7 @@
       "normalized_value": "Linux ESXi Variant: Linux variant specifically targeting VMware ESXi environments",
       "canonical_value": "Linux ESXi Variant: Linux variant specifically targeting VMware ESXi environments",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Linux ESXi Variant: Linux variant specifically targeting VMware ESXi environments",
       "source_file": "_threat_actors/play.md"
     }

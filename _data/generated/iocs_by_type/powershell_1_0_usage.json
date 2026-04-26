@@ -18,9 +18,7 @@
       "normalized_value": "Defense Evasion: Use of PowerShell 1.0 to bypass script execution policy restrictions",
       "canonical_value": "Defense Evasion: Use of PowerShell 1.0 to bypass script execution policy restrictions",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Defense Evasion: Use of PowerShell 1.0 to bypass script execution policy restrictions",
       "source_file": "_threat_actors/medusa.md"
     },
@@ -38,9 +36,7 @@
       "normalized_value": "Antivirus Bypass: Adding core operating system directories to antivirus exclusion lists",
       "canonical_value": "Antivirus Bypass: Adding core operating system directories to antivirus exclusion lists",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Antivirus Bypass: Adding core operating system directories to antivirus exclusion lists",
       "source_file": "_threat_actors/medusa.md"
     },
@@ -58,9 +54,7 @@
       "normalized_value": "File Transfer Monitoring: Monitoring peer-to-peer file transfers within victim networks",
       "canonical_value": "File Transfer Monitoring: Monitoring peer-to-peer file transfers within victim networks",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "File Transfer Monitoring: Monitoring peer-to-peer file transfers within victim networks",
       "source_file": "_threat_actors/medusa.md"
     }

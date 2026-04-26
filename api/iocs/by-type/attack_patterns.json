@@ -18,9 +18,7 @@
       "normalized_value": "Credential Harvesting: Compromising legitimate websites and using fake verification pages to steal Microsoft 365 credentials",
       "canonical_value": "Credential Harvesting: Compromising legitimate websites and using fake verification pages to steal Microsoft 365 credentials",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Credential Harvesting: Compromising legitimate websites and using fake verification pages to steal Microsoft 365 credentials",
       "source_file": "_threat_actors/apt29.md"
     },
@@ -38,9 +36,7 @@
       "normalized_value": "Microsoft Device Code Abuse: Abuse of Microsoft device code authentication mechanisms",
       "canonical_value": "Microsoft Device Code Abuse: Abuse of Microsoft device code authentication mechanisms",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Microsoft Device Code Abuse: Abuse of Microsoft device code authentication mechanisms",
       "source_file": "_threat_actors/apt29.md"
     },
@@ -58,9 +54,7 @@
       "normalized_value": "Cloudflare Verification Pages: Fake Cloudflare verification pages for credential theft",
       "canonical_value": "Cloudflare Verification Pages: Fake Cloudflare verification pages for credential theft",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Cloudflare Verification Pages: Fake Cloudflare verification pages for credential theft",
       "source_file": "_threat_actors/apt29.md"
     },
@@ -78,9 +72,7 @@
       "normalized_value": "Supply Chain Attacks: Compromising software supply chains",
       "canonical_value": "Supply Chain Attacks: Compromising software supply chains",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Supply Chain Attacks: Compromising software supply chains",
       "source_file": "_threat_actors/lazarus.md"
     },
@@ -98,9 +90,7 @@
       "normalized_value": "Social Engineering: Sophisticated social engineering campaigns",
       "canonical_value": "Social Engineering: Sophisticated social engineering campaigns",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Social Engineering: Sophisticated social engineering campaigns",
       "source_file": "_threat_actors/lazarus.md"
     },
@@ -118,9 +108,7 @@
       "normalized_value": "Living off the Land: Extensive use of legitimate tools and techniques",
       "canonical_value": "Living off the Land: Extensive use of legitimate tools and techniques",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Living off the Land: Extensive use of legitimate tools and techniques",
       "source_file": "_threat_actors/lazarus.md"
     },
@@ -138,9 +126,7 @@
       "normalized_value": "Supply Chain Focus: Targeting managed file transfer (MFT) software used by service providers",
       "canonical_value": "Supply Chain Focus: Targeting managed file transfer (MFT) software used by service providers",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Supply Chain Focus: Targeting managed file transfer (MFT) software used by service providers",
       "source_file": "_threat_actors/cl0p.md"
     },
@@ -158,9 +144,7 @@
       "normalized_value": "Mass Data Exfiltration: Prioritizing data theft over encryption",
       "canonical_value": "Mass Data Exfiltration: Prioritizing data theft over encryption",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Mass Data Exfiltration: Prioritizing data theft over encryption",
       "source_file": "_threat_actors/cl0p.md"
     },
@@ -178,9 +162,7 @@
       "normalized_value": "Web Shell Deployment: Installing persistent web shells on compromised MFT servers",
       "canonical_value": "Web Shell Deployment: Installing persistent web shells on compromised MFT servers",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Web Shell Deployment: Installing persistent web shells on compromised MFT servers",
       "source_file": "_threat_actors/cl0p.md"
     },
@@ -198,9 +180,7 @@
       "normalized_value": "Phishing Campaigns: Gaining access through malicious attachments and social engineering",
       "canonical_value": "Phishing Campaigns: Gaining access through malicious attachments and social engineering",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Phishing Campaigns: Gaining access through malicious attachments and social engineering",
       "source_file": "_threat_actors/ransomhub.md"
     },
@@ -218,9 +198,7 @@
       "normalized_value": "Credential Abuse: Exploiting compromised credentials for initial access",
       "canonical_value": "Credential Abuse: Exploiting compromised credentials for initial access",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Credential Abuse: Exploiting compromised credentials for initial access",
       "source_file": "_threat_actors/ransomhub.md"
     },
@@ -238,9 +216,7 @@
       "normalized_value": "Double Extortion: Threatening to leak exfiltrated data to pressure victims",
       "canonical_value": "Double Extortion: Threatening to leak exfiltrated data to pressure victims",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Double Extortion: Threatening to leak exfiltrated data to pressure victims",
       "source_file": "_threat_actors/ransomhub.md"
     },
@@ -258,9 +234,7 @@
       "normalized_value": "VPN Exploitation: Targeting single-factor VPNs and external remote services",
       "canonical_value": "VPN Exploitation: Targeting single-factor VPNs and external remote services",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "VPN Exploitation: Targeting single-factor VPNs and external remote services",
       "source_file": "_threat_actors/akira.md"
     },
@@ -278,9 +252,7 @@
       "normalized_value": "Access Broker Networks: Utilizing third-party credential providers for faster intrusions",
       "canonical_value": "Access Broker Networks: Utilizing third-party credential providers for faster intrusions",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Access Broker Networks: Utilizing third-party credential providers for faster intrusions",
       "source_file": "_threat_actors/akira.md"
     },
@@ -298,9 +270,7 @@
       "normalized_value": "Multi-Platform Targeting: Targeting Windows, Linux, and ESXi systems",
       "canonical_value": "Multi-Platform Targeting: Targeting Windows, Linux, and ESXi systems",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Multi-Platform Targeting: Targeting Windows, Linux, and ESXi systems",
       "source_file": "_threat_actors/akira.md"
     },
@@ -318,9 +288,7 @@
       "normalized_value": "Public-Facing Application Exploitation: Exploiting vulnerabilities in public-facing applications and remote access services",
       "canonical_value": "Public-Facing Application Exploitation: Exploiting vulnerabilities in public-facing applications and remote access services",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Public-Facing Application Exploitation: Exploiting vulnerabilities in public-facing applications and remote access services",
       "source_file": "_threat_actors/play.md"
     },
@@ -338,9 +306,7 @@
       "normalized_value": "Linux ESXi Targeting: Deploying Linux variants specifically targeting VMware ESXi environments",
       "canonical_value": "Linux ESXi Targeting: Deploying Linux variants specifically targeting VMware ESXi environments",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Linux ESXi Targeting: Deploying Linux variants specifically targeting VMware ESXi environments",
       "source_file": "_threat_actors/play.md"
     },
@@ -358,9 +324,7 @@
       "normalized_value": "Tactical Sharing: Shares tactics with ransomware operations like Nokoyawa and Hive",
       "canonical_value": "Tactical Sharing: Shares tactics with ransomware operations like Nokoyawa and Hive",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Tactical Sharing: Shares tactics with ransomware operations like Nokoyawa and Hive",
       "source_file": "_threat_actors/play.md"
     },
@@ -378,9 +342,7 @@
       "normalized_value": "Phishing Campaigns: Gaining access through phishing campaigns and social engineering",
       "canonical_value": "Phishing Campaigns: Gaining access through phishing campaigns and social engineering",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Phishing Campaigns: Gaining access through phishing campaigns and social engineering",
       "source_file": "_threat_actors/safepay.md"
     },
@@ -398,9 +360,7 @@
       "normalized_value": "Public-Facing Application Exploitation: Exploiting vulnerabilities in public-facing applications",
       "canonical_value": "Public-Facing Application Exploitation: Exploiting vulnerabilities in public-facing applications",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Public-Facing Application Exploitation: Exploiting vulnerabilities in public-facing applications",
       "source_file": "_threat_actors/safepay.md"
     },
@@ -418,9 +378,7 @@
       "normalized_value": "Remote Access Service Exploitation: Targeting vulnerabilities in remote access services",
       "canonical_value": "Remote Access Service Exploitation: Targeting vulnerabilities in remote access services",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Remote Access Service Exploitation: Targeting vulnerabilities in remote access services",
       "source_file": "_threat_actors/safepay.md"
     }

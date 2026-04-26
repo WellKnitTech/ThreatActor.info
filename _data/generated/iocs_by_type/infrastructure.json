@@ -18,9 +18,7 @@
       "normalized_value": "Backblaze C2: Use of Backblaze-hosted command and control infrastructure",
       "canonical_value": "Backblaze C2: Use of Backblaze-hosted command and control infrastructure",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Backblaze C2: Use of Backblaze-hosted command and control infrastructure",
       "source_file": "_threat_actors/qilin.md"
     },
@@ -38,9 +36,7 @@
       "normalized_value": "CyberDuck: Deployment of CyberDuck for data exfiltration",
       "canonical_value": "CyberDuck: Deployment of CyberDuck for data exfiltration",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "CyberDuck: Deployment of CyberDuck for data exfiltration",
       "source_file": "_threat_actors/qilin.md"
     },
@@ -58,9 +54,7 @@
       "normalized_value": "Custom Encryptors: Hardcoded victim credentials in compiled encryptors",
       "canonical_value": "Custom Encryptors: Hardcoded victim credentials in compiled encryptors",
       "legacy_normalized_value": null,
-      "lookup_keys": [
-
-      ],
+      "lookup_keys": [],
       "source_text": "Custom Encryptors: Hardcoded victim credentials in compiled encryptors",
       "source_file": "_threat_actors/qilin.md"
     }

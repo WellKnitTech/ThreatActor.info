@@ -271,6 +271,40 @@ Actor records may also include optional source provenance fields such as `source
 - Imported content should stay conservative and avoid automatically seeding volatile IOCs into the static API
 - See `docs/importers.md` for commands and attribution requirements
 
+## Data Sources
+
+This project aggregates threat actor data from multiple authoritative sources. Each source has specific licensing terms that govern how the data can be used.
+
+### Primary Data Sources
+
+| Source | Description | License | Attribution Required |
+|--------|-------------|---------|---------------------|
+| **MITRE ATT&CK** | 170+ structured threat groups with aliases, descriptions, and technique mappings | Royalty-free | "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation." |
+| **MISP Galaxy** | 700+ threat actors with rich metadata (country, victims, sectors) | CC0 1.0 / MIT | Link back to MISP Galaxy |
+| **RansomLook** | Ransomware group tracking and victim data | CC BY 4.0 | See docs/importers.md |
+
+### How to Import Data
+
+```bash
+# Import MITRE ATT&CK actors (dry-run first)
+ruby scripts/import-mitre.rb --dry-run
+ruby scripts/import-mitre.rb
+
+# Import with options
+ruby scripts/import-mitre.rb --overwrite     # Overwrite existing actors
+ruby scripts/import-mitre.rb --include-revoked  # Include deprecated groups
+```
+
+### Attribution Requirements
+
+When importing data from external sources, attribution must be preserved:
+
+- **MITRE ATT&CK**: Add `source_attribution` field to imported actors
+- **MISP Galaxy**: Link to source in documentation
+- **RansomLook**: Follow CC BY 4.0 requirements in docs/importers.md
+
+See `docs/attribution.md` for full licensing details and copyright notices.
+
 ## IOC Query Patterns
 
 Because the API is static, queries are done by fetching a helper index and filtering client-side.

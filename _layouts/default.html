@@ -6,6 +6,15 @@
   <title>{{ page.title }} | {{ site.title }}</title>
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   {{ site.seo_tag }}
+  <script>
+    // Check for saved theme preference or default to dark
+    (function() {
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'light') {
+        document.documentElement.classList.add('light-theme');
+      }
+    })();
+  </script>
 </head>
 <body>
   <header>
@@ -16,6 +25,11 @@
         <li><a href="{{ site.baseurl }}/threat-actors">Threat Actors</a></li>
       </ul>
     </nav>
+    <div class="header-controls">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">
+        <span class="toggle-icon">☀️</span>
+      </button>
+    </div>
   </header>
   <main>
     {{ content }}
@@ -23,5 +37,24 @@
   <footer>
     <p>&copy; {{ "now" | date: "%Y" }} {{ site.title }}</p>
   </footer>
+  <script>
+    (function() {
+      const toggleBtn = document.getElementById('theme-toggle');
+      const toggleIcon = toggleBtn.querySelector('.toggle-icon');
+      
+      // Set initial icon based on current theme
+      if (document.documentElement.classList.contains('light-theme')) {
+        toggleIcon.textContent = '🌙';
+      } else {
+        toggleIcon.textContent = '☀️';
+      }
+      
+      toggleBtn.addEventListener('click', function() {
+        const isLight = document.documentElement.classList.toggle('light-theme');
+        localStorage.setItem('theme', isLight ? 'light' : 'dark');
+        toggleIcon.textContent = isLight ? '🌙' : '☀️';
+      });
+    })();
+  </script>
 </body>
 </html>
