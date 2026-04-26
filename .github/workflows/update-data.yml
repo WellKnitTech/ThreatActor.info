@@ -2,9 +2,9 @@
 name: Update Threat Data
 
 on:
-  # Run weekly on Sunday at 2am UTC
+  # Run daily at 2am UTC
   schedule:
-    - cron: '0 2 * * 0'
+    - cron: '0 2 * * *'
   # Allow manual trigger
   workflow_dispatch:
   # Run on push to main for relevant file changes
