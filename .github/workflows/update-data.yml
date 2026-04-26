@@ -2,7 +2,7 @@
 name: Update Threat Data
 
 on:
-  # Run daily at 2am UTC
+  # Daily at 2am UTC for all data (news daily, MITRE/MISP weekly)
   schedule:
     - cron: '0 2 * * *'
   # Allow manual trigger
@@ -35,43 +35,48 @@ jobs:
       - name: Install dependencies
         run: bundle install
           
+      # MISP reference data - with schedule
       - name: Fetch MISP Galaxy reference data
         run: ruby scripts/fetch-misp-references.rb
         continue-on-error: true
-        
+          
+      # MITRE - weekly is fine, changes slow
       - name: Fetch MITRE ATT&CK data
         run: ruby scripts/import-mitre.rb --write 2>&1 || echo "MITRE import skipped"
         continue-on-error: true
-        
+          
+      # MISP threat actors - with schedule  
       - name: Fetch MISP Galaxy actors
         run: |
           ruby scripts/import-misp-galaxy.rb fetch --output data/imports/misp-galaxy/$(date +%Y-%m-%d) 2>&1 || echo "MISP fetch skipped"
         continue-on-error: true
-        
+          
+      # CISA KEV - weekly is fine
       - name: Fetch CISA KEV data
         run: ruby scripts/import-cisa-kev.rb fetch 2>&1 || echo "CISA KEV fetch skipped"
         continue-on-error: true
-        
+          
       - name: Map CISA KEV CVEs to actors
         run: ruby scripts/import-cisa-kev.rb map 2>&1 || echo "CISA KEV mapping skipped"
         continue-on-error: true
-        
+          
+      # Security news - daily needed
       - name: Fetch security news
         run: ruby scripts/fetch-news.rb 2>&1 || echo "News fetch skipped"
         continue-on-error: true
-        
+          
       - name: Generate pages
         run: ruby scripts/generate-pages.rb --force
         continue-on-error: true
-        
+          
       - name: Validate content
         run: ruby scripts/validate-content.rb
         continue-on-error: true
-        
+          
       - name: Build site
         run: bundle exec jekyll build --safe
         continue-on-error: true
-        
+          
       - name: Commit changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -79,7 +84,7 @@ jobs:
           git add -A
           git diff --staged --quiet || git commit -m "Auto-update: Fetch latest threat data ($(date +'%Y-%m-%d'))"
         continue-on-error: true
-        
+          
       - name: Push changes
         run: git push
         continue-on-error: true
