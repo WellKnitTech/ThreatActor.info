@@ -38,3 +38,4 @@ RevengeHotels is a targeted cybercrime campaign that has been active since 2015,
 
 ## References
 *References pending cataloguing.*
+

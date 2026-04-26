@@ -50,4 +50,35 @@ Akira is a ransomware variant and ransomware deployment entity active since at l
 *Additional attribution information pending cataloguing.*
 
 ## References
-- [MITRE ATT&CK](https://attack.mitre.org/groups/G1024)
+[1] [MITRE ATT&CK](https://attack.mitre.org/groups/G1024)
+   MITRE ATT&CK entry
+[2] [Arctic Wolf Akira 2023](https://www.google.com/search?q=Arctic+Wolf+Akira+2023+threat+actor)
+   External citation
+[3] [Arctic Wolf Akira 2023](https://www.google.com/search?q=Arctic+Wolf+Akira+2023+threat+actor)
+   External citation
+[4] [Secureworks GOLD SAHARA](https://www.google.com/search?q=Secureworks+GOLD+SAHARA+threat+actor)
+   External citation
+[5] [BushidoToken Akira 2023](https://www.google.com/search?q=BushidoToken+Akira+2023+threat+actor)
+   External citation
+[6] [CISA Akira Ransomware APR 2024](https://www.google.com/search?q=CISA+Akira+Ransomware+APR+2024+threat+actor)
+   External citation
+[7] [Cisco Akira Ransomware OCT 2024](https://www.google.com/search?q=Cisco+Akira+Ransomware+OCT+2024+threat+actor)
+   External citation
+
+## CISA Known Exploited Vulnerabilities (KEV)
+*The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*
+
+| CVE ID | Vendor | Product | Date Added |
+|-------|-------|--------|----------|
+| CVE-2019-6693 | Fortinet | FortiOS | 2025-06-25 |
+| CVE-2024-40711 | Veeam | Backup & Replication | 2024-10-17 |
+| CVE-2024-40766 | SonicWall | SonicOS | 2024-09-09 |
+| CVE-2024-37085 | VMware | ESXi | 2024-07-30 |
+| CVE-2023-48788 | Fortinet | FortiClient EMS | 2024-03-25 |
+| CVE-2020-3259 | Cisco | Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) | 2024-02-15 |
+| CVE-2023-20269 | Cisco | Adaptive Security Appliance and Firepower Threat Defense | 2023-09-13 |
+| CVE-2023-27532 | Veeam | Backup & Replication | 2023-08-22 |
+| CVE-2023-28252 | Microsoft | Windows | 2023-04-11 |
+| CVE-2022-40684 | Fortinet | Multiple Products | 2022-10-11 |
+| CVE-2020-3580 | Cisco | Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) | 2021-11-03 |
+

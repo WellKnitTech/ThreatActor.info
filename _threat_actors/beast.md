@@ -38,3 +38,4 @@ Beast ransomware emerged in 2022 as an enhanced iteration of the earlier “Mons
 
 ## References
 *References pending cataloguing.*
+

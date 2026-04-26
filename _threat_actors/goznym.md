@@ -38,3 +38,4 @@ IBM X-Force Research uncovered a Trojan hybrid spawned from the Nymaim and Gozi 
 
 ## References
 *References pending cataloguing.*
+

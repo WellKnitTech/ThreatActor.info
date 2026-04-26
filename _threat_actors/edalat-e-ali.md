@@ -41,3 +41,4 @@ Edalat-e Ali is a hacktivist group known for disrupting Iranian state-run TV and
 
 ## References
 *References pending cataloguing.*
+

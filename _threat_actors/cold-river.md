@@ -38,3 +38,4 @@ In short, “Cold River” is a sophisticated threat (actor) that utilizes DNS s
 
 ## References
 *References pending cataloguing.*
+

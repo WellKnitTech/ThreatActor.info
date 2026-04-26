@@ -38,3 +38,4 @@ Coinbase Cartel is a ransomware threat actor that emerged in September 2025, foc
 
 ## References
 *References pending cataloguing.*
+

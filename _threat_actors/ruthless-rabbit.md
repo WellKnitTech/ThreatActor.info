@@ -41,3 +41,4 @@ Ruthless Rabbit has been running investment scam campaigns since November 2022, 
 
 ## References
 *References pending cataloguing.*
+

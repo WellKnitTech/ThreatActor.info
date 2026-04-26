@@ -38,3 +38,4 @@ permalink: /ghost-jackal/
 
 ## References
 *References pending cataloguing.*
+

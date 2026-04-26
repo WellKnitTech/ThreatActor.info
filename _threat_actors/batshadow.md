@@ -41,3 +41,4 @@ BatShadow is a Vietnamese threat actor that targets job seekers and digital mark
 
 ## References
 *References pending cataloguing.*
+

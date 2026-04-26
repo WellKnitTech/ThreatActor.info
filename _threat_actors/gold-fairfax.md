@@ -38,3 +38,4 @@ GOLD FAIRFAX is a financially motivated cybercriminal threat group responsible f
 
 ## References
 *References pending cataloguing.*
+

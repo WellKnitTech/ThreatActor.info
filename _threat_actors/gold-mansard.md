@@ -38,3 +38,4 @@ GOLD MANSARD is a financially motivated cybercriminal threat group that operated
 
 ## References
 *References pending cataloguing.*
+

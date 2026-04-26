@@ -38,3 +38,4 @@ Interlock is an active extortion or ransomware group tracked by RansomLook.
 
 ## References
 *References pending cataloguing.*
+

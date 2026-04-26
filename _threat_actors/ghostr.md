@@ -38,3 +38,4 @@ Ghostr is a financially motivated threat actor known for stealing a confidential
 
 ## References
 *References pending cataloguing.*
+

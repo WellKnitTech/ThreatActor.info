@@ -38,3 +38,4 @@ LilacSquid is an APT actor targeting a variety of industries worldwide since at 
 
 ## References
 *References pending cataloguing.*
+

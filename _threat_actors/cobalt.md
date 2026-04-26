@@ -38,3 +38,4 @@ A criminal group dubbed Cobalt is behind synchronized ATM heists that saw machin
 
 ## References
 *References pending cataloguing.*
+

@@ -38,3 +38,4 @@ In June 2019, CrowdStrike Intelligence observed a source code fork of BitPaymer 
 
 ## References
 *References pending cataloguing.*
+

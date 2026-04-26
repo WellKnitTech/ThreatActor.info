@@ -38,3 +38,4 @@ GOFFEE is a threat actor that has targeted entities in the Russian Federation si
 
 ## References
 *References pending cataloguing.*
+

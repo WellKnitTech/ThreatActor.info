@@ -50,4 +50,20 @@ OilRig is a suspected Iranian threat group that has targeted Middle Eastern and 
 *Additional attribution information pending cataloguing.*
 
 ## References
-- [MITRE ATT&CK](https://attack.mitre.org/groups/G0049)
+[1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0049)
+   MITRE ATT&CK entry
+[2] [FireEye APT34 Dec 2017](https://www.google.com/search?q=FireEye+APT34+Dec+2017+threat+actor)
+   External citation
+[3] [Palo Alto OilRig April 2017](https://www.google.com/search?q=Palo+Alto+OilRig+April+2017+threat+actor)
+   External citation
+[4] [ClearSky OilRig Jan 2017](https://www.google.com/search?q=ClearSky+OilRig+Jan+2017+threat+actor)
+   External citation
+[5] [Palo Alto OilRig May 2016](https://www.google.com/search?q=Palo+Alto+OilRig+May+2016+threat+actor)
+   External citation
+[6] [Palo Alto OilRig Oct 2016](https://www.google.com/search?q=Palo+Alto+OilRig+Oct+2016+threat+actor)
+   External citation
+[7] [Unit42 OilRig Playbook 2023](https://www.google.com/search?q=Unit42+OilRig+Playbook+2023+threat+actor)
+   External citation
+[8] [Unit 42 QUADAGENT July 2018](https://www.google.com/search?q=Unit+42+QUADAGENT+July+2018+threat+actor)
+   External citation
+

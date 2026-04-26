@@ -38,3 +38,4 @@ The Gentlemen is a ransomware group that employs a dual-extortion strategy, encr
 
 ## References
 *References pending cataloguing.*
+

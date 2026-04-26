@@ -41,3 +41,4 @@ TEMP_Heretic is a threat actor that has been observed engaging in targeted spear
 
 ## References
 *References pending cataloguing.*
+

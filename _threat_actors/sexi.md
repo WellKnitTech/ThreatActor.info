@@ -38,3 +38,4 @@ SEXi is a ransomware group that targets VMware ESXi servers, encrypting data and
 
 ## References
 *References pending cataloguing.*
+

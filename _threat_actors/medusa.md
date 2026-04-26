@@ -49,3 +49,4 @@ Medusa is a long-time presence in the ransomware scene that stepped up its activ
 
 ## References
 *References pending cataloguing.*
+

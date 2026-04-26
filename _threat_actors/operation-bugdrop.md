@@ -45,3 +45,4 @@ This threat actor targets critical infrastructure entities in the oil and gas se
 
 ## References
 *References pending cataloguing.*
+

@@ -14,6 +14,7 @@
 require 'fileutils'
 require 'yaml'
 require 'optparse'
+require 'cgi'
 
 PAGE_DIR = '_threat_actors'
 DATA_FILE = '_data/threat_actors.yml'
@@ -300,19 +301,152 @@ def build_body(actor)
   end
   sections << ""
   
-  # References
-  sections << "## References"
+  # Parse references and build citations
+  citations = []
+  citation_sources = {}  # URL -> citation ID (string keys)
+  source_name_to_url = {}  # Source name -> URL mapping for Citation: format
+  
   if actor['references'] && actor['references'].any?
-    actor['references'].each do |ref|
-      url = ref['url'] || ''
-      title = ref['title'] || ref['source'] || url
-      date = ref['date'] || ''
-      sections << "- [#{title}](#{url}) #{date}"
+    # Build citation map from references
+    actor['references'].each_with_index do |ref, idx|
+      next unless ref['url'] && !ref['url'].empty?
+      
+      ref_id = idx + 1
+      url = ref['url']
+      source = ref['source'] || 'source'
+      desc = ref['description']
+      
+      # Use string keys for consistency
+      citations << { 'id' => ref_id, 'source' => source, 'url' => url, 'description' => desc }
+      citation_sources[url] = ref_id  # Deduplicate by URL
+      source_name_to_url[source.downcase] = url  # Map source name to URL for Citation: parsing
+    end
+  end
+  
+  # Use external_url as fallback if exists
+  if actor['external_url'] && !citation_sources[actor['external_url']]
+    next_id = citations.size + 1
+    citations << { 'id' => next_id, 'source' => 'MITRE ATT&CK', 'url' => actor['external_url'], 'description' => 'MITRE ATT&CK entry' }
+    citation_sources[actor['external_url']] = next_id
+    source_name_to_url['mitre-attack'] = actor['external_url']
+  end
+  
+  description = actor['description'] || "No description available."
+  
+  # Process (Citation: Source name) format from MITRE
+  if description =~ /\(Citation:/
+    # Find all Citation: patterns and map to references
+    link_counter = citations.size
+    
+    description.gsub(/\(Citation: ([^)]+)\)/) do |match|
+      source_name = $1.strip
+      
+      # Try to find matching source
+      url = source_name_to_url[source_name.downcase]
+      
+      if url && citation_sources[url]
+        "[#{citation_sources[url]}]"
+      else
+        # Add new citation using source name (won't have URL, but will reference source)
+        link_counter += 1
+        # Check if we can find URL by partial match
+        found_url = nil
+        citation_sources.each do |u, id|
+          if source_name.downcase.include?(u.split('/').last.downcase) || 
+             u.downcase.include?(source_name.downcase)
+            found_url = u
+            break
+          end
+        end
+        
+        url_to_use = found_url || "https://www.google.com/search?q=#{CGI.escape(source_name)}+threat+actor"
+        citation_sources[url_to_use] = link_counter
+        citations << { 
+          'id' => link_counter, 
+          'source' => source_name, 
+          'url' => url_to_use, 
+          'description' => "External citation" 
+        }
+        "[#{link_counter}]"
+      end
+    end
+  end
+  
+  # Also convert inline markdown links to footnotes
+  if description =~ /\[([^\]]+)\]\(([^)]+)\)/ 
+    link_counter = citations.size
+    
+    description.gsub(/\[([^\]]+)\]\(([^)]+)\)/) do |match|
+      text = $1
+      url = $2
+      
+      # Skip if already in citations
+      if citation_sources[url]
+        "[#{citation_sources[url]}]"
+      else
+        # Add new citation
+        link_counter += 1
+        citation_sources[url] = link_counter
+        citations << { 
+          'id' => link_counter, 
+          'source' => text,  # Use link text as source
+          'url' => url, 
+          'description' => "Referenced in description" 
+        }
+        "[#{link_counter}]"
+      end
+    end
+  end
+  
+  # Replace custom citation placeholders with numbers
+  # Format: {{citation:1}} or [citation:1] or {{1}}
+  if citation_sources.any?
+    description = description.gsub(/\{\{(?:citation:)?(\d+)\}\}/) { |m| "[#$1]" }
+    description = description.gsub(/\[citation:(\d+)\]/) { |m| "[#$1]" }
+  end
+  
+  # Rebuild Introduction with processed description
+  sections[0] = "## Introduction"
+  sections[1] = description
+  
+  # References - numbered footnotes
+  sections << "## References"
+  if citations.any?
+    citations.each do |cite|
+      # Handle both symbol and string keys
+      url = cite[:url] || cite["url"] || ""
+      source = cite[:source] || cite["source"] || "source"
+      desc = cite[:description] || cite["description"] || ""
+      id_val = cite[:id] || cite["id"]
+      
+      next if id_val.nil? || url.empty?
+      
+      # Format: [1] Source: Description  
+      sections << "[#{id_val}] [#{source}](#{url})"
+      sections << "   #{desc}" if !desc.empty? && desc != "Referenced in description"
     end
   elsif actor['external_url']
-    sections << "- [MITRE ATT&CK](#{actor['external_url']})"
+    sections << "[1] [MITRE ATT&CK](#{actor['external_url']})"
   else
     sections << "*References pending cataloguing.*"
+  end
+  sections << ""
+  
+  # CISA KEV CVEs (if present)
+  if actor['cisa_kev_cves'] && actor['cisa_kev_cves'].any?
+    sections << "## CISA Known Exploited Vulnerabilities (KEV)"
+    sections << "*The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*"
+    sections << ""
+    sections << "| CVE ID | Vendor | Product | Date Added |"
+    sections << "|-------|-------|--------|----------|"
+    actor['cisa_kev_cves'].each do |cve|
+      cve_id = cve['cve'] || cve['cve_id'] || 'N/A'
+      vendor = cve['vendor'] || 'N/A'
+      product = cve['product'] || 'N/A'
+      date = cve['dateAdded'] || cve['date_added'] || 'N/A'
+      sections << "| #{cve_id} | #{vendor} | #{product} | #{date} |"
+    end
+    sections << ""
   end
   
   sections.join("\n")

@@ -49,3 +49,4 @@ SafePay is a ransomware group particularly active in Germany, responsible for 24
 
 ## References
 *References pending cataloguing.*
+

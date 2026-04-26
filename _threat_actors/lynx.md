@@ -38,3 +38,4 @@ Lynx is an active ransomware-as-a-service operation tracked by RansomLook.
 
 ## References
 *References pending cataloguing.*
+

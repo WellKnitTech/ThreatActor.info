@@ -50,4 +50,16 @@ Magic Hound is an Iranian-sponsored threat group that conducts long term, resour
 *Additional attribution information pending cataloguing.*
 
 ## References
-- [MITRE ATT&CK](https://attack.mitre.org/groups/G0059)
+[1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0059)
+   MITRE ATT&CK entry
+[2] [FireEye APT35 2018](https://www.google.com/search?q=FireEye+APT35+2018+threat+actor)
+   External citation
+[3] [ClearSky Kittens Back 3 August 2020](https://www.google.com/search?q=ClearSky+Kittens+Back+3+August+2020+threat+actor)
+   External citation
+[4] [Certfa Charming Kitten January 2021](https://www.google.com/search?q=Certfa+Charming+Kitten+January+2021+threat+actor)
+   External citation
+[5] [Secureworks COBALT ILLUSION Threat Profile](https://www.google.com/search?q=Secureworks+COBALT+ILLUSION+Threat+Profile+threat+actor)
+   External citation
+[6] [Proofpoint TA453 July2021](https://www.google.com/search?q=Proofpoint+TA453+July2021+threat+actor)
+   External citation
+

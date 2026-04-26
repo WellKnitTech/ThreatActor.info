@@ -38,3 +38,4 @@ Kaspersky researchers have identified a new APT group named BadRory that has mou
 
 ## References
 *References pending cataloguing.*
+

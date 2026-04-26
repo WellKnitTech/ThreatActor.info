@@ -38,3 +38,4 @@ permalink: /operation-cobalt-whisper/
 
 ## References
 *References pending cataloguing.*
+

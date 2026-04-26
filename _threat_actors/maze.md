@@ -49,3 +49,4 @@ Maze is a ransomware operation known for being the first to implement double ext
 
 ## References
 *References pending cataloguing.*
+

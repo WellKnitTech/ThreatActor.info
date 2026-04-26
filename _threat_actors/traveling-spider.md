@@ -38,3 +38,4 @@ Crowdstrike Tracks the criminal developer of Nemty ransomware as TRAVELING SPIDE
 
 ## References
 *References pending cataloguing.*
+

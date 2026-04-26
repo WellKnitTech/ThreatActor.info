@@ -38,3 +38,4 @@ Open-source reporting has claimed that the Hermes ransomware was developed by th
 
 ## References
 *References pending cataloguing.*
+

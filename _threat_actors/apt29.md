@@ -52,4 +52,34 @@ In April 2021, the US and UK governments attributed the SolarWinds Compromise to
 *Additional attribution information pending cataloguing.*
 
 ## References
-- [MITRE ATT&CK](https://attack.mitre.org/groups/G0016)
+[1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0016)
+   MITRE ATT&CK entry
+[2] [White House Imposing Costs RU Gov April 2021](https://www.google.com/search?q=White+House+Imposing+Costs+RU+Gov+April+2021+threat+actor)
+   External citation
+[3] [UK Gov Malign RIS Activity April 2021](https://www.google.com/search?q=UK+Gov+Malign+RIS+Activity+April+2021+threat+actor)
+   External citation
+[4] [F-Secure The Dukes](https://www.google.com/search?q=F-Secure+The+Dukes+threat+actor)
+   External citation
+[5] [GRIZZLY STEPPE JAR](https://www.google.com/search?q=GRIZZLY+STEPPE+JAR+threat+actor)
+   External citation
+[6] [Crowdstrike DNC June 2016](https://www.google.com/search?q=Crowdstrike+DNC+June+2016+threat+actor)
+   External citation
+[7] [UK Gov UK Exposes Russia SolarWinds April 2021](https://www.google.com/search?q=UK+Gov+UK+Exposes+Russia+SolarWinds+April+2021+threat+actor)
+   External citation
+[8] [NSA Joint Advisory SVR SolarWinds April 2021](https://www.google.com/search?q=NSA+Joint+Advisory+SVR+SolarWinds+April+2021+threat+actor)
+   External citation
+[9] [UK NSCS Russia SolarWinds April 2021](https://www.google.com/search?q=UK+NSCS+Russia+SolarWinds+April+2021+threat+actor)
+   External citation
+[10] [FireEye SUNBURST Backdoor December 2020](https://www.google.com/search?q=FireEye+SUNBURST+Backdoor+December+2020+threat+actor)
+   External citation
+[11] [MSTIC NOBELIUM Mar 2021](https://www.google.com/search?q=MSTIC+NOBELIUM+Mar+2021+threat+actor)
+   External citation
+[12] [CrowdStrike SUNSPOT Implant January 2021](https://www.google.com/search?q=CrowdStrike+SUNSPOT+Implant+January+2021+threat+actor)
+   External citation
+[13] [Volexity SolarWinds](https://www.google.com/search?q=Volexity+SolarWinds+threat+actor)
+   External citation
+[14] [Cybersecurity Advisory SVR TTP May 2021](https://www.google.com/search?q=Cybersecurity+Advisory+SVR+TTP+May+2021+threat+actor)
+   External citation
+[15] [Unit 42 SolarStorm December 2020](https://www.google.com/search?q=Unit+42+SolarStorm+December+2020+threat+actor)
+   External citation
+

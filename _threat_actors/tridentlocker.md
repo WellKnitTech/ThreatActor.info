@@ -38,3 +38,4 @@ TridentLocker is a ransomware group known for targeting organizations that manag
 
 ## References
 *References pending cataloguing.*
+

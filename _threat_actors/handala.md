@@ -38,3 +38,4 @@ Handala is a pro-Palestinian hacktivist group that targets Israeli organizations
 
 ## References
 *References pending cataloguing.*
+

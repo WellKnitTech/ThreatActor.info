@@ -41,3 +41,4 @@ Cyber Islamic Resistance is a hacktivist collective ideologically aligned with I
 
 ## References
 *References pending cataloguing.*
+

@@ -38,3 +38,4 @@ ShinyHunters is a cybercriminal group of unknown origin that is motivated by fin
 
 ## References
 *References pending cataloguing.*
+

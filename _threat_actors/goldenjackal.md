@@ -38,3 +38,4 @@ GoldenJackal activity is characterized by the use of compromised WordPress websi
 
 ## References
 *References pending cataloguing.*
+

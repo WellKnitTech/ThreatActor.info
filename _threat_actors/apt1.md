@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT1"
-aliases: ["APT1", "Comment Crew", "Comment Group", "Comment Panda", "COMMENT PANDA", "PLA Unit 61398", "Byzantine Candor", "Group 3", "TG-8223", "Brown Fox", "GIF89a", "ShadyRAT", "G0006"]
+aliases: ["APT1", "Brown Fox", "Byzantine Candor", "Comment Crew", "Comment Group", "Comment Panda", "COMMENT PANDA", "G0006", "GIF89a", "Group 3", "PLA Unit 61398", "ShadyRAT", "TG-8223"]
 description: "APT1 is a Chinese cyber espionage group that has been conducting cyber espionage against a broad range of victims."
 permalink: /apt1/
 country: "China"
@@ -50,4 +50,9 @@ APT1 is a Chinese cyber espionage group that has been conducting cyber espionage
 *Additional attribution information pending cataloguing.*
 
 ## References
-- [MITRE ATT&CK](https://attack.mitre.org/groups/G0006)
+[1] [mitre-attack](https://attack.mitre.org/groups/G0006)
+[3] [Mandiant APT1](https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf)
+   Mandiant. (n.d.). APT1 Exposing One of China’s Cyber Espionage Units. Retrieved July 18, 2016.
+[4] [CrowdStrike Putter Panda](http://cdn0.vox-cdn.com/assets/4589853/crowdstrike-intelligence-report-putter-panda.original.pdf)
+   Crowdstrike Global Intelligence Team. (2014, June 9). CrowdStrike Intelligence Report: Putter Panda. Retrieved January 22, 2016.
+

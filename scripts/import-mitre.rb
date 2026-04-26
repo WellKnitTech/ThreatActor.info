@@ -156,6 +156,22 @@ module ImportUtils
       merged['source_attribution'] = incoming['source_attribution']
     end
     
+    # Merge references - append new ones that don't already exist (dedupe by URL)
+    if incoming['references'] && incoming['references'].any?
+      existing_refs = Array(merged['references'])
+      existing_urls = existing_refs.map { |r| r['url'] }.compact
+      
+      incoming['references'].each do |ref|
+        url = ref['url']
+        if url && !existing_urls.include?(url)
+          existing_refs << ref
+          existing_urls << url
+        end
+      end
+      
+      merged['references'] = existing_refs
+    end
+    
     # Merge provenance
     existing_prov = existing['provenance'].is_a?(Hash) ? existing['provenance'] : {}
     incoming_prov = incoming['provenance'] || {}
@@ -241,11 +257,26 @@ def parse_mitre_actor(intrusion_set, opts)
   external_id = nil
   mitre_url = nil
   
+  # Extract all external references for citations
+  references = []
   (intrusion_set['external_references'] || []).each do |ref|
-    if ref['source_name'] == 'mitre-attack'
+    source = ref['source_name'] || ref['source'] || 'unknown'
+    raw_url = ref['url'] || ''
+    
+    # Clean URLs - truncate long PDF/tracking URLs
+    url = clean_ref_url(raw_url)
+    
+    ref_data = {
+      'source' => source,
+      'url' => url,
+      'description' => clean_ref_description(ref['description'])
+    }
+    references << ref_data
+    
+    # Track MITRE ATT&CK specific data
+    if source == 'mitre-attack'
       external_id = ref['external_id']
       mitre_url = ref['url']
-      break
     end
   end
   
@@ -262,6 +293,7 @@ def parse_mitre_actor(intrusion_set, opts)
     'mitre_id' => external_id,
     'external_url' => mitre_url,
     'mitre_url' => mitre_url,
+    'references' => references,
     'source' => 'MITRE ATT&CK',
     'source_attribution' => "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.",
     'provenance' => {
@@ -272,8 +304,41 @@ def parse_mitre_actor(intrusion_set, opts)
       }
     }
   }
-  
+
   actor
+end
+
+def clean_ref_description(desc)
+  return nil if desc.nil? || desc.empty?
+  
+  # Truncate if too long
+  if desc.length > 500
+    desc = desc[0..497] + "..."
+  end
+  
+  desc
+end
+
+def clean_ref_url(url)
+  return nil if url.nil? || url.empty?
+  
+  # Clean up long PDF URLs - remove tracking parameters
+  # Keep only the base URL
+  if url.include?('pdf') || url.include?('#zoom')
+    # Try to extract clean base URL
+    base = url.split('#').first.split('?').first
+    return base if base.length < url.length && base.length > 20
+  end
+  
+  # Truncate very long URLs
+  if url.length > 200
+    # Keep domain + first path segment
+    uri = URI.parse(url)
+    short = "#{uri.scheme}://#{uri.host}#{uri.path[/^\/[^\/]{1,30}/]}"
+    return short + "..." if short.length < url.length - 50
+  end
+  
+  url
 end
 
 def clean_description(desc)

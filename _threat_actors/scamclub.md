@@ -38,3 +38,4 @@ ScamClub is a threat actor involved in malvertising activities since 2018. They 
 
 ## References
 *References pending cataloguing.*
+

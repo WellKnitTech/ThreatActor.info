@@ -38,3 +38,4 @@ GambleForce is a threat actor specializing in SQL injection attacks. They have t
 
 ## References
 *References pending cataloguing.*
+

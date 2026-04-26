@@ -39,3 +39,4 @@ The Crimson Collective is a cybercrime group that claimed to have compromised Re
 
 ## References
 *References pending cataloguing.*
+

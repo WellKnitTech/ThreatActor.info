@@ -38,3 +38,4 @@ GOLD CABIN is a financially motivated cybercriminal threat group operating a mal
 
 ## References
 *References pending cataloguing.*
+

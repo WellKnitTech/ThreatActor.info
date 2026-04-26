@@ -38,3 +38,4 @@ Linkc is a newly emerged ransomware group that operates an onion-based data leak
 
 ## References
 *References pending cataloguing.*
+

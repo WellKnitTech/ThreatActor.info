@@ -38,3 +38,4 @@ GhostSec is a hacktivist group that emerged as an offshoot of Anonymous. They pr
 
 ## References
 *References pending cataloguing.*
+

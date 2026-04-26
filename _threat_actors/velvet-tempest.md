@@ -38,3 +38,4 @@ Velvet Tempest is a threat actor associated with the BlackCat ransomware group. 
 
 ## References
 *References pending cataloguing.*
+

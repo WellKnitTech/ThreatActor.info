@@ -38,3 +38,4 @@ Nwgen is a group that focuses on data exfiltration and ransomware activities. Th
 
 ## References
 *References pending cataloguing.*
+

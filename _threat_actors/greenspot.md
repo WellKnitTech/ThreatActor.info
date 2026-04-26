@@ -38,3 +38,4 @@ GreenSpot is an APT group believed to operate from Taiwan, active since at least
 
 ## References
 *References pending cataloguing.*
+

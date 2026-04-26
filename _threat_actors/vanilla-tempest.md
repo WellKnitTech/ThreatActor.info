@@ -38,3 +38,4 @@ Vice Society is a ransomware group that has been active since at least June 2021
 
 ## References
 *References pending cataloguing.*
+

@@ -38,3 +38,4 @@ DefrayX is a threat actor group known for their RansomExx ransomware operations.
 
 ## References
 *References pending cataloguing.*
+

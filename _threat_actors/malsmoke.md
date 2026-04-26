@@ -38,3 +38,4 @@ Malsmoke primarily targets Japanese users through malvertising campaigns that de
 
 ## References
 *References pending cataloguing.*
+

@@ -41,3 +41,4 @@ VulzSec, also known as VulzSecTeam, is a hacktivist group that has been involved
 
 ## References
 *References pending cataloguing.*
+

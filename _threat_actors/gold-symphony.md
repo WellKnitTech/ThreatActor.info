@@ -38,3 +38,4 @@ GOLD SYMPHONY is a financially motivated cybercrime group, likely based in Russi
 
 ## References
 *References pending cataloguing.*
+

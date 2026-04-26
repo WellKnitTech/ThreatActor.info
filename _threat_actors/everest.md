@@ -38,3 +38,4 @@ Everest is a ransomware group active since at least December 2020, known for its
 
 ## References
 *References pending cataloguing.*
+

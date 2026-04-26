@@ -7,13 +7,14 @@ on:
     - cron: '0 2 * * 0'
   # Allow manual trigger
   workflow_dispatch:
-  # Run on push to main
+  # Run on push to main for relevant file changes
   push:
     branches:
       - main
     paths:
-      - 'data/**'
       - 'scripts/**'
+      - '_data/threat_actors.yml'
+      - '_threat_actors/**'
 
 jobs:
   update-data:
@@ -45,6 +46,14 @@ jobs:
       - name: Fetch MISP Galaxy actors
         run: |
           ruby scripts/import-misp-galaxy.rb fetch --output data/imports/misp-galaxy/$(date +%Y-%m-%d) 2>&1 || echo "MISP fetch skipped"
+        continue-on-error: true
+        
+      - name: Fetch CISA KEV data
+        run: ruby scripts/import-cisa-kev.rb fetch 2>&1 || echo "CISA KEV fetch skipped"
+        continue-on-error: true
+        
+      - name: Map CISA KEV CVEs to actors
+        run: ruby scripts/import-cisa-kev.rb map 2>&1 || echo "CISA KEV mapping skipped"
         continue-on-error: true
         
       - name: Generate pages

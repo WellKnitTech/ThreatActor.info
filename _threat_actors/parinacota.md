@@ -42,3 +42,4 @@ The group adopted the RDP brute force technique that the older ransomware called
 
 ## References
 *References pending cataloguing.*
+

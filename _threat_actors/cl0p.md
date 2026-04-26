@@ -50,4 +50,16 @@ TA505 is a cyber criminal group that has been active since at least 2014. TA505 
 *Additional attribution information pending cataloguing.*
 
 ## References
-- [MITRE ATT&CK](https://attack.mitre.org/groups/G0092)
+[1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0092)
+   MITRE ATT&CK entry
+[2] [Proofpoint TA505 Sep 2017](https://www.google.com/search?q=Proofpoint+TA505+Sep+2017+threat+actor)
+   External citation
+[3] [Proofpoint TA505 June 2018](https://www.google.com/search?q=Proofpoint+TA505+June+2018+threat+actor)
+   External citation
+[4] [Proofpoint TA505 Jan 2019](https://www.google.com/search?q=Proofpoint+TA505+Jan+2019+threat+actor)
+   External citation
+[5] [NCC Group TA505](https://www.google.com/search?q=NCC+Group+TA505+threat+actor)
+   External citation
+[6] [Korean FSI TA505 2020](https://www.google.com/search?q=Korean+FSI+TA505+2020+threat+actor)
+   External citation
+

@@ -41,3 +41,4 @@ According to Crowdstrike, the NetWalker ransomware is being developed and mainta
 
 ## References
 *References pending cataloguing.*
+

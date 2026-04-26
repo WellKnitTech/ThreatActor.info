@@ -45,3 +45,4 @@ TrendMicro described Tropic Trooper in a 2015 report as: 'Taiwan and the Philipp
 
 ## References
 *References pending cataloguing.*
+

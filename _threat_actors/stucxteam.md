@@ -38,3 +38,4 @@ Stucx is a threat actor known for targeting Israeli systems, including SCADA sys
 
 ## References
 *References pending cataloguing.*
+

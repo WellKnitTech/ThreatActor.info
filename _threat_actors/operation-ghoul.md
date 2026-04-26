@@ -38,3 +38,4 @@ Operation Ghoul is a profit-driven threat actor that targeted over 130 organizat
 
 ## References
 *References pending cataloguing.*
+
