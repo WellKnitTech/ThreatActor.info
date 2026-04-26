@@ -5,6 +5,7 @@ aliases: ["SilkSpecter"]
 description: "SilkSpecter is a Chinese financially motivated threat actor that orchestrates phishing campaigns targeting e-commerce shoppers, particularly during peak shopping seasons. They exploit legitimate paymen"
 permalink: /silkspecter/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

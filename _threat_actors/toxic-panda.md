@@ -6,6 +6,7 @@ description: "A group targeting dissident groups in China and at the boundaries.
 permalink: /toxic-panda/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

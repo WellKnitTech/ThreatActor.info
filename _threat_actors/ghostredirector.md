@@ -5,6 +5,7 @@ aliases: ["GhostRedirector"]
 description: "GhostRedirector is a China-aligned threat actor that has compromised at least 65 Windows servers across various sectors, primarily in Brazil, Thailand, and Vietnam. It employs a passive C++ backdoor na"
 permalink: /ghostredirector/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

@@ -5,6 +5,7 @@ aliases: ["Curly COMrades"]
 description: "Curly COMrades is a threat actor identified by Amazon Threat Intelligence and Bitdefender, believed to operate in support of Russian interests. They employ techniques such as Hyper-V abuse for EDR evas"
 permalink: /curly-comrades/
 country: "Russia"
+country_flag: "🇷🇺"
 ---
 
 ## Introduction

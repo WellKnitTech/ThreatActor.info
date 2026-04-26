@@ -6,6 +6,7 @@ description: "The PassCV group continues to be one of the most successful and ac
 permalink: /passcv/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

@@ -6,6 +6,7 @@ description: "This threat actor targets organizations in the finance, defense, a
 permalink: /temptick/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Government", "Private sector"]
 ---
 

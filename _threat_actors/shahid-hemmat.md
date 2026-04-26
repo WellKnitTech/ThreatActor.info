@@ -5,6 +5,7 @@ aliases: ["Shahid Hemmat"]
 description: "Shahid Hemmat is an IRGC-CEC affiliated hacking group linked to cyberattacks targeting U.S. critical infrastructure, including the defense industry and international transportation sectors. The group h"
 permalink: /shahid-hemmat/
 country: "Iran"
+country_flag: "🇮🇷"
 ---
 
 ## Introduction

@@ -5,6 +5,7 @@ aliases: ["KelvinSecurity"]
 description: "KelvinSecurity is a hacker group that has been active since at least 2015. They are known for their hacktivist and black hat activities, targeting public and private organizations globally. The group s"
 permalink: /kelvinsecurity/
 country: "Spain"
+country_flag: "🏳️"
 ---
 
 ## Introduction

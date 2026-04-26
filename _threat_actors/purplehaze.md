@@ -5,6 +5,7 @@ aliases: ["PurpleHaze"]
 description: "PurpleHaze is a China-nexus threat actor tracked by SentinelLABS, linked to APT15, known for targeting critical infrastructure sectors such as telecommunications and government organizations. The actor"
 permalink: /purplehaze/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

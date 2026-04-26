@@ -6,6 +6,7 @@ description: ""
 permalink: /wet-panda/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

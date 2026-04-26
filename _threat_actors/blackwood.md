@@ -5,6 +5,7 @@ aliases: ["Blackwood"]
 description: "Blackwood is a China-aligned APT group that has been active since at least 2018. They primarily engage in cyberespionage operations targeting individuals and companies in China, Japan, and the United K"
 permalink: /blackwood/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

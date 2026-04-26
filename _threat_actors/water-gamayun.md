@@ -5,6 +5,7 @@ aliases: ["Water Gamayun"]
 description: "Water Gamayun exploits the MSC EvilTwin zero-day vulnerability to compromise systems and exfiltrate data, utilizing custom payloads and advanced data exfiltration techniques. Their arsenal includes bac"
 permalink: /water-gamayun/
 country: "Russia"
+country_flag: "🇷🇺"
 ---
 
 ## Introduction

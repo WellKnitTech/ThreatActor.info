@@ -6,6 +6,7 @@ description: ""
 permalink: /tianwu/
 country: "China"
 risk_level: "Critical"
+country_flag: "🇨🇳"
 sector_focus: ["Private Sector", "Gambling companies", "Gaming", "Information technology", "Telecommunications", "Government", "Transportation systems", "Dissident"]
 ---
 

@@ -5,6 +5,7 @@ aliases: ["Operation DRBControl"]
 description: "Operation DRBControl is a cyberespionage campaign targeting gambling companies in Southeast Asia, first identified in 2019. The operation involves the use of HyperBro malware and SysUpdate variants, wi"
 permalink: /operation-drbcontrol/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

@@ -6,6 +6,7 @@ description: "menuPass is a threat group that has been active since at least 200
 permalink: /apt10/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Private sector", "Government"]
 ---
 

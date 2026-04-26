@@ -5,6 +5,7 @@ aliases: ["Wassonite"]
 description: "WASSONITE is a North Korea-linked APT that has targeted industrial sectors, including electric generation, nuclear energy, manufacturing, and research entities in India, South Korea, and Japan since at"
 permalink: /wassonite/
 country: "North Korea"
+country_flag: "🇰🇵"
 ---
 
 ## Introduction

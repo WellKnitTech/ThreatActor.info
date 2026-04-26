@@ -6,6 +6,7 @@ description: "We have investigated their intrusions since 2013 and have been bat
 permalink: /hurricane-panda/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Technology", "Telecoms"]
 ---
 

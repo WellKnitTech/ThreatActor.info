@@ -5,6 +5,7 @@ aliases: ["TA-ShadowCricket", "Larva-24013", "Operation Shadow Force"]
 description: "Operation Shadow Force is a group of malware that is representative of Shadow Force and Wgdrop from 2013 to 2020, and is a group activity that attacks Korean companies and organizations. The group's fi"
 permalink: /operation-shadow-force/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

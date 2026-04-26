@@ -6,6 +6,7 @@ description: "The Pitty Tiger group has been active since at least 2011. They ha
 permalink: /apt24/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

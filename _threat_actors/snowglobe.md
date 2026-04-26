@@ -6,6 +6,7 @@ description: "In 2014, researchers at Kaspersky Lab discovered and reported on t
 permalink: /snowglobe/
 country: "France"
 risk_level: "High"
+country_flag: "🇫🇷"
 sector_focus: ["Government", "Private sector"]
 ---
 

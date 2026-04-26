@@ -5,6 +5,7 @@ aliases: ["SneakyChef"]
 description: "SneakyChef is a threat actor known for using the SugarGh0st RAT to target government agencies, research institutions, and organizations worldwide. They have been active since at least August 2023, with"
 permalink: /sneakychef/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

@@ -6,6 +6,7 @@ description: "The FBI issued a rare bulletin admitting that a group named Advanc
 permalink: /apt6/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

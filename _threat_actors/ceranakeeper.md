@@ -5,6 +5,7 @@ aliases: ["CeranaKeeper"]
 description: "CeranaKeeper is a China-aligned APT that has been active since at least early 2022, primarily targeting governmental institutions in Asian countries. The group employs custom backdoors like TONESHELL a"
 permalink: /ceranakeeper/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

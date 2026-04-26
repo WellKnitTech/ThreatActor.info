@@ -6,6 +6,7 @@ description: "Adversary targeting manufacturing and industrial organizations."
 permalink: /union-spider/
 country: "Russia"
 risk_level: "High"
+country_flag: "🇷🇺"
 sector_focus: ["Manufacturing", "Industrial"]
 ---
 

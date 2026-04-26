@@ -117,6 +117,12 @@ def build_front_matter(actor)
     lines << "#{field}: \"#{actor[field]}\"" if actor[field]
   end
   
+  # Add country_flag if country exists
+  if actor['country']
+    flag = get_country_flag(actor['country'])
+    lines << "country_flag: \"#{flag}\""
+  end
+  
   # Sector focus
   if actor['sector_focus'] && actor['sector_focus'].any?
     sectors = actor['sector_focus'].map { |s| "\"#{s}\"" }.join(', ')

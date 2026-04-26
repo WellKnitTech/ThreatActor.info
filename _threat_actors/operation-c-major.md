@@ -6,6 +6,7 @@ description: "Group targeting Indian Army or related assets in India, as well as
 permalink: /operation-c-major/
 country: "Pakistan"
 risk_level: "High"
+country_flag: "🇵🇰"
 sector_focus: ["Activists", "Civil society", "Military", "Government"]
 ---
 

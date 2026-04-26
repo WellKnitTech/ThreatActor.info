@@ -5,6 +5,7 @@ aliases: ["Cyber Av3ngers"]
 description: "The hacktivist group ‘Cyber Av3ngers’ has historically claimed attacks on Israel’s critical infrastructures. It has been launching DDoS attacks and claiming breach of Israeli networks with supporting d"
 permalink: /cyber-av3ngers/
 country: "Iran"
+country_flag: "🇮🇷"
 ---
 
 ## Introduction

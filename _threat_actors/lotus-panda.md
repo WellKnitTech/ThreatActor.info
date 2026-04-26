@@ -6,6 +6,7 @@ description: "Lotus Blossom is a threat group that has targeted government and m
 permalink: /lotus-panda/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Military", "Government, Administration", "Government"]
 ---
 

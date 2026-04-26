@@ -6,6 +6,7 @@ description: "One of the threat actors responsible for the denial of service att
 permalink: /cutting-kitten/
 country: "Iran"
 risk_level: "High"
+country_flag: "🇮🇷"
 ---
 
 ## Introduction

@@ -9,6 +9,7 @@ first_seen: "2006"
 last_activity: "2023"
 risk_level: "High"
 external_id: "G0006"
+country_flag: "🇨🇳"
 sector_focus: ["Government", "Defense", "Technology"]
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 ---

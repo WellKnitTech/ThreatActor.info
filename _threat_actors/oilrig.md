@@ -6,6 +6,7 @@ description: "OilRig is an Iranian threat group operating primarily in the Middl
 permalink: /oilrig/
 country: "Iran"
 risk_level: "High"
+country_flag: "🇮🇷"
 sector_focus: ["Chemical", "Energy", "Engineering", "Finance", "Government, Administration", "Telecoms", "Other", "Government", "Private sector", "Civil society"]
 ---
 

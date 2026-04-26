@@ -6,6 +6,7 @@ description: "Dropping Elephant (also known as “Chinastrats” and “Patchwor
 permalink: /quilted-tiger/
 country: "India"
 risk_level: "High"
+country_flag: "🇮🇳"
 sector_focus: ["Finance", "Diplomacy", "Private sector", "Military"]
 ---
 

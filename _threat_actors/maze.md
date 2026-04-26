@@ -8,6 +8,7 @@ country: "Unknown"
 first_seen: "2019"
 last_activity: "2020"
 risk_level: "High"
+country_flag: "🏳️"
 sector_focus: ["Healthcare", "Legal", "Technology"]
 ---
 

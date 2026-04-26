@@ -5,6 +5,7 @@ aliases: ["WARP PANDA"]
 description: "WARP PANDA is a China-nexus APT that targets VMware vCenter environments and Microsoft Azure infrastructures, primarily focusing on legal, technology, and manufacturing sectors in the U.S. The group ex"
 permalink: /warp-panda/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

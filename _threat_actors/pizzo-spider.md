@@ -6,6 +6,7 @@ description: ""
 permalink: /pizzo-spider/
 country: "United States"
 risk_level: "High"
+country_flag: "🇺🇸"
 ---
 
 ## Introduction

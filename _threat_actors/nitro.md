@@ -6,6 +6,7 @@ description: "These attackers were the subject of an extensive report by Symante
 permalink: /nitro/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Chemical"]
 ---
 

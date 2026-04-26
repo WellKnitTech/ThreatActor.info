@@ -5,6 +5,7 @@ aliases: ["RipperSec"]
 description: "RipperSec is a pro-Palestinian, likely Malaysian hacktivist group created in June 2023, known for conducting DDoS attacks, data breaches, and defacements primarily targeting government and educational "
 permalink: /rippersec/
 country: "Malaysia"
+country_flag: "🏳️"
 ---
 
 ## Introduction

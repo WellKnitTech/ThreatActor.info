@@ -6,6 +6,7 @@ description: "This threat actor targets organizations in the satellite communica
 permalink: /stealth-mango-and-tangelo/
 country: "Pakistan"
 risk_level: "High"
+country_flag: "🇵🇰"
 sector_focus: ["Government", "Civil society"]
 ---
 

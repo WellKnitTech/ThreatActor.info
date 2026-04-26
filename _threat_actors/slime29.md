@@ -6,6 +6,7 @@ description: ""
 permalink: /slime29/
 country: "China"
 risk_level: "Critical"
+country_flag: "🇨🇳"
 sector_focus: ["Private Sector"]
 ---
 

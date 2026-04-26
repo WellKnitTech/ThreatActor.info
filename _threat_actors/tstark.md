@@ -5,6 +5,7 @@ aliases: ["Tstark"]
 description: "TStark is a threat actor identified by X-Ops, associated with a cluster of devices that executed the bookmark buffer overflow exploit targeting CVE-2020-15069 (T1203). The actor exhibited odd telemetry"
 permalink: /tstark/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

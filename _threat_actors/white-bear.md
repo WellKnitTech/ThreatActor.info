@@ -6,6 +6,7 @@ description: "As a part of our Kaspersky APT Intelligence Reporting subscription
 permalink: /white-bear/
 country: "Russia"
 risk_level: "High"
+country_flag: "🇷🇺"
 sector_focus: ["Government", "Private sector"]
 ---
 

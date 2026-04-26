@@ -9,6 +9,7 @@ first_seen: "2015"
 last_activity: "2024"
 risk_level: "High"
 external_id: "G0046"
+country_flag: "🏳️"
 sector_focus: ["Retail", "Hospitality", "Financial"]
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 ---

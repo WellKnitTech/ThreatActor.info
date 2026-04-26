@@ -6,6 +6,7 @@ description: "Adversaries abusing ICS (based on Dragos Inc adversary list). This
 permalink: /chrysene/
 country: "Unknown"
 risk_level: "High"
+country_flag: "🏳️"
 sector_focus: ["Private sector"]
 ---
 

@@ -6,6 +6,7 @@ description: "Tick is a cyber espionage group with likely Chinese origins that h
 permalink: /tick/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Infrastructure", "Industrial", "Manufacturing", "Diplomacy", "News - Media", "Political party", "Engineering", "Private sector"]
 ---
 

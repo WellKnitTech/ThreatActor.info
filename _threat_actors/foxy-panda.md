@@ -6,6 +6,7 @@ description: "Adversary group targeting telecommunication and technology organiz
 permalink: /foxy-panda/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Technology", "Telecoms"]
 ---
 

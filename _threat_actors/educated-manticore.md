@@ -5,6 +5,7 @@ aliases: ["Educated Manticore"]
 description: "Educated Manticore is an Iranian APT group aligned with the Islamic Revolutionary Guard Corps, primarily engaged in espionage targeting government, military, and academic sectors. The group employs spe"
 permalink: /educated-manticore/
 country: "Iran"
+country_flag: "🇮🇷"
 ---
 
 ## Introduction

@@ -5,6 +5,7 @@ aliases: ["CIRCUS SPIDER"]
 description: "According to Crowdstrike, the NetWalker ransomware is being developed and maintained by a Russian-speaking actor designated as CIRCUS SPIDER. Initially discovered in September 2019and havinga compilati"
 permalink: /circus-spider/
 country: "Russia"
+country_flag: "🇷🇺"
 ---
 
 ## Introduction

@@ -5,6 +5,7 @@ aliases: ["TunnelSnake"]
 description: "The TunnelSnake campaign demonstrates the activity of a sophisticated actor that invests significant resources in designing an evasive toolset and infiltrating networks of high-profile organizations. B"
 permalink: /tunnelsnake/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

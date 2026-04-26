@@ -5,6 +5,7 @@ aliases: ["Ruthless Rabbit"]
 description: "Ruthless Rabbit has been running investment scam campaigns since November 2022, primarily targeting users in Russia, Poland, Romania, and Kazakhstan. The actor utilizes RDGA patterns to create over 2,6"
 permalink: /ruthless-rabbit/
 country: "Russia"
+country_flag: "🇷🇺"
 ---
 
 ## Introduction

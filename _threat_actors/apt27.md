@@ -6,6 +6,7 @@ description: "A China-based actor that targets foreign embassies to collect data
 permalink: /apt27/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Technology", "Government, Administration", "Defense", "Government", "Private sector"]
 ---
 

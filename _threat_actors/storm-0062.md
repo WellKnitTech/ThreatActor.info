@@ -5,6 +5,7 @@ aliases: ["Oro0lxy", "DarkShadow", "Storm-0062"]
 description: "The cyberattack campaign that Microsoft uncovered was launched by a China-linked hacking group called Storm-0062. According to the company, the group is launching cyberattacks by exploiting a vulnerabi"
 permalink: /storm-0062/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

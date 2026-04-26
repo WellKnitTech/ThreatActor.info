@@ -5,6 +5,7 @@ aliases: ["CopyCop", "Storm-1516"]
 description: "CopyCop is a Russian covert influence network that has established over 300 fictional media websites targeting the US, France, Canada, and other countries, primarily to disseminate pro-Russian and anti"
 permalink: /storm-1516/
 country: "Russia"
+country_flag: "🇷🇺"
 ---
 
 ## Introduction

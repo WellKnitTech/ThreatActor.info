@@ -6,6 +6,7 @@ description: "NightEagle is an advanced Threat Actor that targeted China's High-
 permalink: /nighteagle/
 country: "United States"
 risk_level: "Low"
+country_flag: "🇺🇸"
 sector_focus: ["Military", "Government, Administration", "Technology", "Government", "Private Sector"]
 ---
 

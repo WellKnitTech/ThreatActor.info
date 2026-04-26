@@ -5,6 +5,7 @@ aliases: ["Chaya_004"]
 description: "Chaya_004 is a Chinese threat actor identified through malicious infrastructure, including a network of servers hosting Supershell backdoors and various pen testing tools of Chinese origin. The actor's"
 permalink: /chaya-004/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

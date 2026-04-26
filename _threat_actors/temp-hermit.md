@@ -6,6 +6,7 @@ description: ""
 permalink: /temp-hermit/
 country: "North Korea"
 risk_level: "High"
+country_flag: "🇰🇵"
 ---
 
 ## Introduction

@@ -6,6 +6,7 @@ description: ""
 permalink: /viking-jackal/
 country: "United Arab Emirates"
 risk_level: "High"
+country_flag: "🏳️"
 ---
 
 ## Introduction

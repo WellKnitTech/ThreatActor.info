@@ -5,6 +5,7 @@ aliases: ["BRONZE SPIRAL"]
 description: "In December 2020, the IT management software provider SolarWinds announced that an unidentified threat actor had exploited a vulnerability in their Orion Platform software to deploy a web shell dubbed "
 permalink: /bronze-spiral/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

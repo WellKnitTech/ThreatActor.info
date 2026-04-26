@@ -5,6 +5,7 @@ aliases: ["Red Dev 17"]
 description: "In 2021, PwC started tracking a series of intrusions under the moniker of Red Dev 17 that they assess were highly likely conducted by a China-based threat actor. Their analysis suggests Red Dev 17 has "
 permalink: /red-dev-17/
 country: "China"
+country_flag: "🇨🇳"
 sector_focus: ["High-Tech", "Military", "Energy"]
 ---
 

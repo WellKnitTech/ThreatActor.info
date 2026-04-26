@@ -6,6 +6,7 @@ description: ""
 permalink: /cyber-fighters-of-izz-ad-din-al-qassam/
 country: "Iran"
 risk_level: "High"
+country_flag: "🇮🇷"
 ---
 
 ## Introduction

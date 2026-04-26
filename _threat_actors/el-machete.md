@@ -6,6 +6,7 @@ description: "El Machete is one of these threats that was first publicly disclos
 permalink: /el-machete/
 country: "Unknown"
 risk_level: "High"
+country_flag: "🏳️"
 sector_focus: ["Military", "Government"]
 ---
 

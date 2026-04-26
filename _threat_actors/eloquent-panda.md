@@ -6,6 +6,7 @@ description: ""
 permalink: /eloquent-panda/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

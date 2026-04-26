@@ -5,6 +5,7 @@ aliases: ["Void Manticore"]
 description: "Void Manticore is an Iranian APT group affiliated with MOIS, known for conducting destructive wiping attacks and influence operations. They collaborate with Scarred Manticore, sharing targets and condu"
 permalink: /void-manticore/
 country: "Iran"
+country_flag: "🇮🇷"
 ---
 
 ## Introduction

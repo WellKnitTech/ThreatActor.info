@@ -5,6 +5,7 @@ aliases: ["IcePeony"]
 description: "IcePeony is a China-nexus APT group that has been active since at least 2023, targeting government agencies, academic institutions, and political organizations in countries such as India, Mauritius, an"
 permalink: /icepeony/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

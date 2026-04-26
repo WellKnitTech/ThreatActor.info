@@ -6,6 +6,7 @@ description: "This threat actor targets Uighurs—a minority ethnic group locate
 permalink: /henbox/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Civil society"]
 ---
 

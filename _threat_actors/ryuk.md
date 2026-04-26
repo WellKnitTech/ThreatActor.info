@@ -8,6 +8,7 @@ country: "Russia"
 first_seen: "2018"
 last_activity: "2021"
 risk_level: "Critical"
+country_flag: "🇷🇺"
 sector_focus: ["Healthcare", "Government", "Education"]
 ---
 

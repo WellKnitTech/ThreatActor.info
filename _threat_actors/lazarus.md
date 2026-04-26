@@ -9,6 +9,7 @@ first_seen: "2009"
 last_activity: "2024"
 risk_level: "Critical"
 external_id: "G0032"
+country_flag: "🇰🇵"
 sector_focus: ["Financial", "Cryptocurrency", "Entertainment"]
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 ---

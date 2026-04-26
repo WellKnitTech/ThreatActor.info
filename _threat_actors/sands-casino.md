@@ -6,6 +6,7 @@ description: ""
 permalink: /sands-casino/
 country: "Iran"
 risk_level: "High"
+country_flag: "🇮🇷"
 ---
 
 ## Introduction

@@ -6,6 +6,7 @@ description: ""
 permalink: /cyber-berkut/
 country: "Russia"
 risk_level: "High"
+country_flag: "🇷🇺"
 ---
 
 ## Introduction

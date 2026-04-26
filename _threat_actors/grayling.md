@@ -6,6 +6,7 @@ description: "Grayling activity was first observed in early 2023, when a number 
 permalink: /grayling/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Biomedical", "Government", "Information technology"]
 ---
 

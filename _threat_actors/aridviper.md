@@ -5,6 +5,7 @@ aliases: ["Desert Falcon", "Arid Viper", "APT-C-23", "Bearded Barbie", "Two-tail
 description: "AridViper is a state-sponsored APT primarily targeting military personnel, journalists, and dissidents in the Middle East, with a focus on Israel and Palestine. The group employs custom-developed mobil"
 permalink: /aridviper/
 country: "Palestine"
+country_flag: "🏳️"
 sector_focus: ["Government", "Defense", "Energy", "Finance", "Education", "High-Tech", "Telecoms", "Transportation", "Media", "NGOs", "Civil Society", "Legal", "Military"]
 ---
 

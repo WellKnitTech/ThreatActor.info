@@ -5,6 +5,7 @@ aliases: ["TEMP.MixMaster", "GOLD BLACKBURN", "FIN12", "Periwinkle Tempest", "DE
 description: "Wizard Spider is reportedly associated with Grim Spider and Lunar Spider. The WIZARD SPIDER threat group is the Russia-based operator of the TrickBot banking malware. This group represents a growing cr"
 permalink: /wizard-spider/
 country: "Russia"
+country_flag: "🇷🇺"
 sector_focus: ["Defense", "Financial", "Government", "Healthcare", "Telecommunications"]
 ---
 

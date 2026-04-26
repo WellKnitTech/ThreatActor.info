@@ -6,6 +6,7 @@ description: "This threat actor uses spear-phishing techniques to compromise dip
 permalink: /hellsing/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Infrastructure", "Diplomacy", "Government"]
 ---
 

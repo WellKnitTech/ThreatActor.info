@@ -5,6 +5,7 @@ aliases: ["DEV-0228", "Cuboid Sandstorm"]
 description: "Cuboid Sandstorm is an Iranian threat actor that targeted an Israel-based IT company in July 2021. They gained access to the company's network and used it to compromise downstream customers in the defe"
 permalink: /cuboid-sandstorm/
 country: "Iran"
+country_flag: "🇮🇷"
 ---
 
 ## Introduction

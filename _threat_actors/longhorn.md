@@ -6,6 +6,7 @@ description: "Longhorn has been active since at least 2011. It has used a range 
 permalink: /longhorn/
 country: "United States"
 risk_level: "High"
+country_flag: "🇺🇸"
 sector_focus: ["Telecoms", "Aerospace", "Energy", "Education", "Government, Administration", "Finance", "News - Media", "Private sector", "Government"]
 ---
 

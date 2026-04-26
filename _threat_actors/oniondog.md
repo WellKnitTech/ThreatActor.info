@@ -6,6 +6,7 @@ description: "This threat actor targets the South Korean government, transportat
 permalink: /oniondog/
 country: "North Korea"
 risk_level: "High"
+country_flag: "🇰🇵"
 sector_focus: ["Government", "Private sector"]
 ---
 

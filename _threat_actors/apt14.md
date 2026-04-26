@@ -6,6 +6,7 @@ description: "PLA Navy Anchor Panda is an adversary that CrowdStrike has tracked
 permalink: /apt14/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Other", "Aerospace", "Defense", "Intelligence", "Maritime", "Military", "Space", "Government"]
 ---
 

@@ -5,6 +5,7 @@ aliases: ["Camaro Dragon"]
 description: "In early 2023, the Check Point Incident Response Team (CPIRT) team investigated a malware incident at a European healthcare institution involving a set of tools mentioned in the Avast report in late 20"
 permalink: /camaro-dragon/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

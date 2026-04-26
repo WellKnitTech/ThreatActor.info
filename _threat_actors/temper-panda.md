@@ -6,6 +6,7 @@ description: "China-based cyber threat group. It has previously used newsworthy 
 permalink: /temper-panda/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Activists", "Trade", "Finance", "Political party", "Government", "Private sector", "Civil society"]
 ---
 

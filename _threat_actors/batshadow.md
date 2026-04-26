@@ -5,6 +5,7 @@ aliases: ["BatShadow"]
 description: "BatShadow is a Vietnamese threat actor that targets job seekers and digital marketing professionals through social engineering campaigns, deploying the Go-based malware known as Vampire Bot. The group "
 permalink: /batshadow/
 country: "Vietnam"
+country_flag: "🇻🇳"
 ---
 
 ## Introduction

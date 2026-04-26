@@ -5,6 +5,7 @@ aliases: ["Retefe Gang", "Retefe Group", "Operation Emmental"]
 description: "Operation Emmental, also known as the Retefe gang, is a threat actor group that has been active since at least 2012. They primarily target customers of banks in countries such as Austria, Sweden, Switz"
 permalink: /operation-emmental/
 country: "Russia"
+country_flag: "🇷🇺"
 ---
 
 ## Introduction

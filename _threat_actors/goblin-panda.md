@@ -6,6 +6,7 @@ description: "Goblin Panda is one of a handful of elite Chinese advanced persist
 permalink: /goblin-panda/
 country: "China"
 risk_level: "Critical"
+country_flag: "🇨🇳"
 sector_focus: ["Private Sector"]
 ---
 

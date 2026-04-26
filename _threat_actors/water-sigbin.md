@@ -5,6 +5,7 @@ aliases: ["8220 Gang", "Water Sigbin"]
 description: "The 8220 Gang, also known as Water Sigbin, is a threat actor group that focuses on deploying cryptocurrency-mining malware. They exploit vulnerabilities in Oracle WebLogic servers, such as CVE-2017-350"
 permalink: /water-sigbin/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

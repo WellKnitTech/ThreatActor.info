@@ -6,6 +6,7 @@ description: "This group created a malware that takes over Android devices and g
 permalink: /hummingbad/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

@@ -8,6 +8,7 @@ country: "Unknown"
 first_seen: "2022"
 last_activity: "2025"
 risk_level: "High"
+country_flag: "🏳️"
 sector_focus: ["Critical Infrastructure", "Manufacturing", "Healthcare", "Government"]
 ---
 

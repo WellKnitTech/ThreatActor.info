@@ -6,6 +6,7 @@ description: "This threat actor targets governments, diplomatic missions, privat
 permalink: /careto/
 country: "Spain"
 risk_level: "High"
+country_flag: "🏳️"
 sector_focus: ["Government", "Private sector"]
 ---
 

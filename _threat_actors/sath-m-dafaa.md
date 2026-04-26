@@ -6,6 +6,7 @@ description: "A Turkish hacking group, Sath-ı Müdafaa, is encouraging individu
 permalink: /sath-m-dafaa/
 country: "Turkey"
 risk_level: "High"
+country_flag: "🇹🇷"
 ---
 
 ## Introduction

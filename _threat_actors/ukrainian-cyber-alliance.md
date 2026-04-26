@@ -5,6 +5,7 @@ aliases: ["UCA", "Ukrainian Cyber Alliance"]
 description: "Cyber Alliance is a hacktivist group that has demonstrated capabilities in exploiting vulnerabilities, such as CVE-2023-22515 in Confluence, to escalate privileges and access targeted infrastructure. T"
 permalink: /ukrainian-cyber-alliance/
 country: "Ukraine"
+country_flag: "🇺🇦"
 ---
 
 ## Introduction

@@ -6,6 +6,7 @@ description: "Symantec telemetry identified Cadelle and Chafer activity dating f
 permalink: /cadelle/
 country: "Iran"
 risk_level: "High"
+country_flag: "🇮🇷"
 ---
 
 ## Introduction

@@ -5,6 +5,7 @@ aliases: ["Smoke Sandstorm", "BOHRIUM", "IMPERIAL KITTEN", "Bohrium"]
 description: "Bohrium is an Iranian threat actor that has been involved in spear-phishing operations targeting organizations in the US, Middle East, and India. They often create fake social media profiles, particula"
 permalink: /bohrium/
 country: "Iran"
+country_flag: "🇮🇷"
 ---
 
 ## Introduction

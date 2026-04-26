@@ -6,6 +6,7 @@ description: ""
 permalink: /union-panda/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

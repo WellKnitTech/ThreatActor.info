@@ -5,6 +5,7 @@ aliases: ["TEMP_Heretic"]
 description: "TEMP_Heretic is a threat actor that has been observed engaging in targeted spear-phishing campaigns. They exploit vulnerabilities in email platforms, such as Zimbra, to exfiltrate emails from governmen"
 permalink: /temp-heretic/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

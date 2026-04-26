@@ -5,6 +5,7 @@ aliases: ["LongNosedGoblin"]
 description: "LongNosedGoblin is a China-aligned APT group targeting governmental entities in Southeast Asia and Japan for cyberespionage. The group employs Group Policy for malware deployment and utilizes cloud ser"
 permalink: /longnosedgoblin/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

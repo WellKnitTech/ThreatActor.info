@@ -5,6 +5,7 @@ aliases: ["PlushDaemon"]
 description: "PlushDaemon is a China-aligned APT group that has conducted cyberespionage operations against targets in China, Taiwan, Hong Kong, South Korea, the United States, and New Zealand. They executed a suppl"
 permalink: /plushdaemon/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

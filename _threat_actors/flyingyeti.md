@@ -5,6 +5,7 @@ aliases: ["Storm-1837", "Flying Yeti", "FlyingYeti"]
 description: "FlyingYeti is a Russia-aligned threat actor targeting Ukrainian military entities. They conduct reconnaissance activities and launch phishing campaigns using malware like COOKBOX. FlyingYeti exploits t"
 permalink: /flyingyeti/
 country: "Russia"
+country_flag: "🇷🇺"
 ---
 
 ## Introduction

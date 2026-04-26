@@ -6,6 +6,7 @@ description: "This threat actor compromises civil society groups the Chinese Com
 permalink: /unnamed-actor/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Civil society", "Government"]
 ---
 

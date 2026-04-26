@@ -6,6 +6,7 @@ description: "Worok is a cyber espionage group, mostly targeting Central Asia. T
 permalink: /worok/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Government", "Energy Company"]
 ---
 

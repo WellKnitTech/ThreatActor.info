@@ -6,6 +6,7 @@ description: "Putter Panda were the subject of an extensive report by CrowdStrik
 permalink: /apt2/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Private sector", "Government"]
 ---
 

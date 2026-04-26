@@ -6,6 +6,7 @@ description: "Researchers have uncovered a long-term cyber-espionage campaign th
 permalink: /teamspy-crew/
 country: "Russia"
 risk_level: "High"
+country_flag: "🇷🇺"
 sector_focus: ["Activists", "Intelligence", "Government, Administration", "Government", "Private sector"]
 ---
 

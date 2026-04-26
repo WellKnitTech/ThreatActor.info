@@ -5,6 +5,7 @@ aliases: ["UnsolicitedBooker"]
 description: "UnsolicitedBooker is a China-aligned APT group known for its persistent targeting of an unnamed international organization in Saudi Arabia, employing a backdoor called MarsSnake. The group utilizes spe"
 permalink: /unsolicitedbooker/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

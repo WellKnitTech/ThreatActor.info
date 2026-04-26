@@ -5,6 +5,7 @@ aliases: ["Space Pirates", "Webworm"]
 description: "Space Pirates is a cybercrime group that has been active since at least 2017. They primarily target Russian companies and have been observed using various malware, including Deed RAT and ShadowPad. The"
 permalink: /webworm/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

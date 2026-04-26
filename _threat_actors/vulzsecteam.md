@@ -5,6 +5,7 @@ aliases: ["VulzSec", "VulzSecTeam"]
 description: "VulzSec, also known as VulzSecTeam, is a hacktivist group that has been involved in various cyber-attacks. They have targeted government websites in retaliation for issues such as police brutality and "
 permalink: /vulzsecteam/
 country: "Indonesia"
+country_flag: "🏳️"
 ---
 
 ## Introduction

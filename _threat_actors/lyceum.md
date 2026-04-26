@@ -6,6 +6,7 @@ description: "Lyceum is an Iranian APT group that has been active since at least
 permalink: /lyceum/
 country: "Iran"
 risk_level: "High"
+country_flag: "🇮🇷"
 sector_focus: ["Government", "Energy", "High-Tech", "Telecomms", "Education", "Military", "Defense"]
 ---
 

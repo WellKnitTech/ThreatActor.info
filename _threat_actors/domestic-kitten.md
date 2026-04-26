@@ -5,6 +5,7 @@ aliases: ["Bouncing Golf", "APT-C-50", "Domestic Kitten"]
 description: "An extensive surveillance operation targets specific groups of individuals with malicious mobile apps that collect sensitive information on the device along with surrounding voice recordings. Researche"
 permalink: /domestic-kitten/
 country: "Iran"
+country_flag: "🇮🇷"
 ---
 
 ## Introduction

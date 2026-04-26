@@ -5,6 +5,7 @@ aliases: ["Storm-0978", "UAT-5647", "RomCom"]
 description: "ROMCOM is an evolving and sophisticated threat actor group that has been using the malware tool ROMCOM for espionage and financially motivated attacks. They have targeted organizations in Ukraine and N"
 permalink: /romcom/
 country: "Russia"
+country_flag: "🇷🇺"
 ---
 
 ## Introduction

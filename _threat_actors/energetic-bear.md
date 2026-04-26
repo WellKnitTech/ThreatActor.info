@@ -6,6 +6,7 @@ description: "A Russian group that collects intelligence on the energy industry.
 permalink: /energetic-bear/
 country: "Russia"
 risk_level: "Critical"
+country_flag: "🇷🇺"
 sector_focus: ["Energy", "Private sector", "Government"]
 ---
 

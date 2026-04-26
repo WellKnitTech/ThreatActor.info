@@ -6,6 +6,7 @@ description: ""
 permalink: /apt26/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

@@ -5,6 +5,7 @@ aliases: ["R00tK1T"]
 description: "R00TK1T is a hacking group known for sophisticated cyber attacks targeting governmental agencies in Malaysia, including data exfiltration from the National Population and Family Development Board. The "
 permalink: /r00tk1t/
 country: "Israel"
+country_flag: "🇮🇱"
 ---
 
 ## Introduction

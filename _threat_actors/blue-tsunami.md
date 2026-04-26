@@ -5,6 +5,7 @@ aliases: ["Black Cube", "Blue Tsunami"]
 description: "Blue Tsunami, also known as Black Cube, is a cyber mercenary group associated with the private intelligence firm Black Cube. They target individuals in various industries, including human rights, finan"
 permalink: /blue-tsunami/
 country: "Israel"
+country_flag: "🇮🇱"
 ---
 
 ## Introduction

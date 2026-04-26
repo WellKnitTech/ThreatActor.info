@@ -5,6 +5,7 @@ aliases: ["DragonSpark"]
 description: "DragonSpark is a threat actor that has been conducting attacks primarily targeting organizations in East Asia. They utilize the open-source tool SparkRAT, which is a multi-platform and frequently updat"
 permalink: /dragonspark/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

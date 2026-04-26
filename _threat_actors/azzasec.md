@@ -5,6 +5,7 @@ aliases: ["AzzaSec"]
 description: "AzzaSec is a hacktivist group that originated in Italy. Known for their pro-Palestine stance, they have been involved in various cyberattacks targeting Israel and pro-Israel countries. Additionally, Az"
 permalink: /azzasec/
 country: "Italy"
+country_flag: "🏳️"
 ---
 
 ## Introduction

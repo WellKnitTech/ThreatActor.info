@@ -5,6 +5,7 @@ aliases: ["Mora_001"]
 description: "Mora_001 is a threat actor exhibiting a distinct operational signature that combines opportunistic attacks with ties to the LockBit ecosystem. The actor has been observed exploiting CVE-2024-55591 and "
 permalink: /mora-001/
 country: "Russia"
+country_flag: "🇷🇺"
 ---
 
 ## Introduction

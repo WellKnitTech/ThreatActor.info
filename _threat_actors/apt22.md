@@ -6,6 +6,7 @@ description: "Suckfly is a China-based threat group that has been active since a
 permalink: /apt22/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

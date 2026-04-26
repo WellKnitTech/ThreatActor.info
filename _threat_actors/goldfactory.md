@@ -5,6 +5,7 @@ aliases: ["GoldFactory"]
 description: "GoldFactory is a threat actor group attributed to developing sophisticated mobile banking malware targeting victims primarily in the Asia-Pacific region, specifically Vietnam and Thailand. They utilize"
 permalink: /goldfactory/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

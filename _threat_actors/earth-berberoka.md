@@ -5,6 +5,7 @@ aliases: ["GamblingPuppet", "Earth Berberoka"]
 description: "According to TrendMicro, Earth Berberoka is a threat group originating from China that mainly focuses on targeting gambling websites. This group's campaign uses multiple malware families that target th"
 permalink: /earth-berberoka/
 country: "China"
+country_flag: "🇨🇳"
 sector_focus: ["Gambling Websites", "Information technology", "Electronics Manufacturers", "Education"]
 ---
 

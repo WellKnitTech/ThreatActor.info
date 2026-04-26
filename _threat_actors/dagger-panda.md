@@ -6,6 +6,7 @@ description: "Operate since at least 2011, from several locations in China, with
 permalink: /dagger-panda/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Other", "Maritime", "Military", "Government, Administration", "Telecoms", "Government"]
 ---
 

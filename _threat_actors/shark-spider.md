@@ -6,6 +6,7 @@ description: "This group's activity was first observed in November 2013. It leve
 permalink: /shark-spider/
 country: "Russia"
 risk_level: "High"
+country_flag: "🇷🇺"
 sector_focus: ["Bank"]
 ---
 

@@ -5,6 +5,7 @@ aliases: ["Scarred Manticore"]
 description: "Scarred Manticore has been pursuing high-value targets for years, utilizing a variety of IIS-based backdoors to attack Windows servers. These include a variety of custom web shells, custom DLL backdoor"
 permalink: /scarred-manticore/
 country: "Iran"
+country_flag: "🇮🇷"
 ---
 
 ## Introduction

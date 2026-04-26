@@ -6,6 +6,7 @@ description: "Charming Kitten (aka Parastoo, aka Newscaster) is an group with a 
 permalink: /charming-kitten/
 country: "Iran"
 risk_level: "High"
+country_flag: "🇮🇷"
 sector_focus: ["Defense", "Diplomacy", "Military", "Technology", "Government, Administration", "Government"]
 ---
 

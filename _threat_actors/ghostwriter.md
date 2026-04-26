@@ -6,6 +6,7 @@ description: "Ghostwriter is referred as an 'activity set', with various inciden
 permalink: /ghostwriter/
 country: "Belarus"
 risk_level: "High"
+country_flag: "🏳️"
 sector_focus: ["Government"]
 ---
 

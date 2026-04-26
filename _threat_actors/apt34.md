@@ -9,6 +9,7 @@ first_seen: "2014"
 last_activity: "2024"
 risk_level: "High"
 external_id: "G0049"
+country_flag: "🇮🇷"
 sector_focus: ["Energy", "Government", "Telecommunications"]
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 ---

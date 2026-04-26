@@ -6,6 +6,7 @@ description: "Andariel is a threat actor that primarily targets South Korean cor
 permalink: /silent-chollima/
 country: "North Korea"
 risk_level: "High"
+country_flag: "🇰🇵"
 ---
 
 ## Introduction

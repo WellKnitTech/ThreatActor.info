@@ -5,6 +5,7 @@ aliases: ["RedJuliett"]
 description: "RedJuliett is a likely Chinese state-sponsored threat actor targeting government, academic, technology, and diplomatic organizations in Taiwan. They exploit vulnerabilities in network edge devices for "
 permalink: /redjuliett/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

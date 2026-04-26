@@ -5,6 +5,7 @@ aliases: ["Earth Freybug"]
 description: "Earth Freybug, identified as a subset of APT41, is a cyberthreat group active since at least 2012, engaging in espionage and financially motivated activities across various sectors worldwide. The tacti"
 permalink: /earth-freybug/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

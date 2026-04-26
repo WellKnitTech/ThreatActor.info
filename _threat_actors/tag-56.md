@@ -5,6 +5,7 @@ aliases: ["TAG-56"]
 description: "TAG-56 is a threat actor group that shares similarities with the APT42 group. They use tactics such as fake registration pages and spearphishing to target victims, often using encrypted chat platforms "
 permalink: /tag-56/
 country: "Iran"
+country_flag: "🇮🇷"
 ---
 
 ## Introduction

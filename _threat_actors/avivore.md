@@ -5,6 +5,7 @@ aliases: ["Avivore"]
 description: "The group’s existence came to light during Context’s investigation of a number of attacks against multinational enterprises that compromise smaller engineering services and consultancies working in the"
 permalink: /avivore/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

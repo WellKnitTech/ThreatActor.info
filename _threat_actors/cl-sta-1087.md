@@ -5,6 +5,7 @@ aliases: ["CL-STA-1087"]
 description: "CL-STA-1087 is a suspected state-sponsored espionage campaign operating out of China, targeting military organizations in Southeast Asia. The actor has demonstrated operational patience, maintaining do"
 permalink: /cl-sta-1087/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

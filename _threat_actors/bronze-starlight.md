@@ -5,6 +5,7 @@ aliases: ["SLIME34", "DEV-0401", "Cinnamon Tempest", "Emperor Dragonfly", "BRONZ
 description: "BRONZE STARLIGHT has been active since mid 2021 and targets organizations globally across a range of industry verticals. The group leverages HUI Loader to load Cobalt Strike and PlugX payloads for comm"
 permalink: /bronze-starlight/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

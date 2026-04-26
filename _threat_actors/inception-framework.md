@@ -6,6 +6,7 @@ description: "This threat actor uses spear-phishing techniques to target private
 permalink: /inception-framework/
 country: "Russia"
 risk_level: "High"
+country_flag: "🇷🇺"
 sector_focus: ["Government", "Private sector"]
 ---
 

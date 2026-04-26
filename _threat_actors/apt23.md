@@ -6,6 +6,7 @@ description: "TrendMicro described Tropic Trooper in a 2015 report as: 'Taiwan a
 permalink: /apt23/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Military", "Government, Administration"]
 ---
 

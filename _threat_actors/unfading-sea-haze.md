@@ -5,6 +5,7 @@ aliases: ["Unfading Sea Haze"]
 description: "Unfading Sea Haze is a threat actor focused on espionage, targeting government and military organizations in the South China Sea region since 2018. They employ spear-phishing emails with malicious atta"
 permalink: /unfading-sea-haze/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

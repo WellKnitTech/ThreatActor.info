@@ -6,6 +6,7 @@ description: "Evasive Panda is an APT group that has been active since at least 
 permalink: /evasive-panda/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Government", "Individuals", "Universities"]
 ---
 

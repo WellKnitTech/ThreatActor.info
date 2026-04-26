@@ -6,6 +6,7 @@ description: "Groundbait is a group targeting anti-government separatists in the
 permalink: /groundbait/
 country: "Ukraine"
 risk_level: "High"
+country_flag: "🇺🇦"
 sector_focus: ["Separatists"]
 ---
 

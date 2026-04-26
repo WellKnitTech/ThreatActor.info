@@ -5,6 +5,7 @@ aliases: ["Dalbit"]
 description: "The group usually targets vulnerable servers to breach information including internal data from companies or encrypts files and demands money. Their targets of attack are usually Windows servers that a"
 permalink: /dalbit/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

@@ -6,6 +6,7 @@ description: ""
 permalink: /beijing-group/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Private sector", "Civil society"]
 ---
 

@@ -5,6 +5,7 @@ aliases: ["Famous Chollima", "UNC5267", "Wagemole", "Nickel Tapestry", "Storm-18
 description: "WageMole is a North Korean state-sponsored APT that employs social engineering and technology to secure remote job opportunities in Western countries, leveraging stolen personal data from the Contagiou"
 permalink: /wagemole/
 country: "North Korea"
+country_flag: "🇰🇵"
 ---
 
 ## Introduction

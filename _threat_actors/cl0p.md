@@ -9,6 +9,7 @@ first_seen: "2019"
 last_activity: "2025"
 risk_level: "Critical"
 external_id: "G0092"
+country_flag: "🇷🇺"
 sector_focus: ["Technology", "Healthcare", "Financial", "Government"]
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 ---

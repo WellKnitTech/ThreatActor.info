@@ -6,6 +6,7 @@ description: "Targets Saudi Arabia, Israel, US, Iran, high ranking defense offic
 permalink: /rocket-kitten/
 country: "Iran"
 risk_level: "High"
+country_flag: "🇮🇷"
 sector_focus: ["Activists", "Defense", "Journalist", "Research - Innovation", "Academia - University", "Government, Administration", "Government", "Military"]
 ---
 

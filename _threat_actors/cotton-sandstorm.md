@@ -6,6 +6,7 @@ description: "Cotton Sandstorm is an Iranian threat actor involved in hack-and-l
 permalink: /cotton-sandstorm/
 country: "Iran"
 risk_level: "High"
+country_flag: "🇮🇷"
 sector_focus: ["Government", "Finance", "High-Tech", "Telecoms", "NGOs", "Civil Society", "Rail", "Energy"]
 ---
 

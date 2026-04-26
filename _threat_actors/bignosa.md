@@ -5,6 +5,7 @@ aliases: ["Bignosa"]
 description: "Bignosa is a threat actor known for launching malware campaigns targeting Australian and US organizations using phishing emails with disguised Agent Tesla attachments protected by Cassandra Protector. "
 permalink: /bignosa/
 country: "Kenya"
+country_flag: "🏳️"
 ---
 
 ## Introduction

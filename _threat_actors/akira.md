@@ -9,6 +9,7 @@ first_seen: "2023"
 last_activity: "2025"
 risk_level: "High"
 external_id: "G1024"
+country_flag: "🏳️"
 sector_focus: ["Healthcare", "Education", "Government", "Technology"]
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 ---

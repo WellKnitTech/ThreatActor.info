@@ -5,6 +5,7 @@ aliases: ["Cyber Partisans"]
 description: "The Cyber Partisans, a hacktivist group based in Belarus, has been involved in various cyber-attacks targeting organizations and infrastructure in Belarus and Ukraine. They have hacked and wiped the ne"
 permalink: /cyber-partisans/
 country: "Belarus"
+country_flag: "🏳️"
 ---
 
 ## Introduction

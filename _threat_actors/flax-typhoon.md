@@ -5,6 +5,7 @@ aliases: ["Ethereal Panda", "Storm-0919", "Flax Typhoon"]
 description: "Flax Typhoon is a Chinese state-sponsored threat actor that primarily targets organizations in Taiwan. They conduct espionage campaigns and focus on gaining and maintaining long-term access to networks"
 permalink: /flax-typhoon/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

@@ -6,6 +6,7 @@ description: "Earliest activity back to November 2008. An established group of c
 permalink: /magic-kitten/
 country: "Iran"
 risk_level: "High"
+country_flag: "🇮🇷"
 sector_focus: ["Opposition", "Dissidents", "Political party"]
 ---
 

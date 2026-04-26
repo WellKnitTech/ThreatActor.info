@@ -6,6 +6,7 @@ description: "This threat actor targets industrial control systems, using a tool
 permalink: /sandworm/
 country: "Russia"
 risk_level: "High"
+country_flag: "🇷🇺"
 sector_focus: ["Electric", "Energy", "Industrial", "Private sector", "Government"]
 ---
 

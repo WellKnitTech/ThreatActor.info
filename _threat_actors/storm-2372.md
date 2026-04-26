@@ -5,6 +5,7 @@ aliases: ["Storm-2372"]
 description: "Storm-2372 is a suspected nation-state actor aligned with Russian interests, engaging in device code phishing campaigns targeting governments, NGOs, and various industries across Europe, North America,"
 permalink: /storm-2372/
 country: "Russia"
+country_flag: "🇷🇺"
 ---
 
 ## Introduction

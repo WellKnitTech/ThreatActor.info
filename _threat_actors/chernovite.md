@@ -5,6 +5,7 @@ aliases: ["Chernovite"]
 description: "Chernovite is a highly capable and sophisticated threat actor group that has developed a modular ICS malware framework called PIPEDREAM. They are known for targeting industrial control systems and oper"
 permalink: /chernovite/
 country: "Russia"
+country_flag: "🇷🇺"
 ---
 
 ## Introduction

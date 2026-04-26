@@ -6,6 +6,7 @@ description: "Buhtrap has been active since 2014, however their first attacks ag
 permalink: /buhtrap/
 country: "Russia"
 risk_level: "High"
+country_flag: "🇷🇺"
 sector_focus: ["Bank", "Payment", "Finance"]
 ---
 

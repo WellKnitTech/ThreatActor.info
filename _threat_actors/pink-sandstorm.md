@@ -5,6 +5,7 @@ aliases: ["AMERICIUM", "BlackShadow", "DEV-0022", "Agrius", "Agonizing Serpens",
 description: "Agonizing Serpens is an Iranian-linked APT group that has been active since 2020. They are known for their destructive wiper and fake-ransomware attacks, primarily targeting Israeli organizations in th"
 permalink: /pink-sandstorm/
 country: "Iran"
+country_flag: "🇮🇷"
 ---
 
 ## Introduction

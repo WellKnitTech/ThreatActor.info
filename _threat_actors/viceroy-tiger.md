@@ -6,6 +6,7 @@ description: "VICEROY TIGER is an adversary with a nexus to India that has histo
 permalink: /viceroy-tiger/
 country: "India"
 risk_level: "High"
+country_flag: "🇮🇳"
 sector_focus: ["Government, Administration", "Security Service"]
 ---
 

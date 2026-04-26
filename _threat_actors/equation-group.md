@@ -6,6 +6,7 @@ description: "The Equation Group is a highly sophisticated threat actor describe
 permalink: /equation-group/
 country: "United States"
 risk_level: "High"
+country_flag: "🇺🇸"
 sector_focus: ["Government", "Military"]
 ---
 

@@ -6,6 +6,7 @@ description: "ProjectSauron is the name for a top level modular cyber-espionage 
 permalink: /projectsauron/
 country: "United States"
 risk_level: "High"
+country_flag: "🇺🇸"
 sector_focus: ["Intelligence", "Government", "Military"]
 ---
 

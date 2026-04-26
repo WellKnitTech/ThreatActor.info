@@ -5,6 +5,7 @@ aliases: ["COLDRIVER", "SEABORGIUM", "TA446", "GOSSAMER BEAR", "BlueCharlie", "S
 description: "The Callisto Group is an advanced threat actor whose known targets include military personnel, government officials, think tanks, and journalists in Europe and the South Caucasus. Their primary interes"
 permalink: /callisto/
 country: "Russia"
+country_flag: "🇷🇺"
 sector_focus: ["Government Administration", "Military", "Think Tanks", "Journalist"]
 ---
 

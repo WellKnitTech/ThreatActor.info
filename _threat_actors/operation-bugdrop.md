@@ -6,6 +6,7 @@ description: "This threat actor targets critical infrastructure entities in the 
 permalink: /operation-bugdrop/
 country: "Russia"
 risk_level: "High"
+country_flag: "🇷🇺"
 sector_focus: ["Private sector"]
 ---
 

@@ -6,6 +6,7 @@ description: "Ayyıldız (Crescent and Star) Tim is a nationalist hacking group 
 permalink: /ayy-ld-z-tim/
 country: "Turkey"
 risk_level: "High"
+country_flag: "🇹🇷"
 sector_focus: ["Government, Administration"]
 ---
 

@@ -5,6 +5,7 @@ aliases: ["DEV-1167", "Storm-1167"]
 description: "Storm-1167 is a threat actor tracked by Microsoft, known for their use of an AiTM phishing kit. They were responsible for launching an attack that led to Business Email Compromise activity."
 permalink: /storm-1167/
 country: "Indonesia"
+country_flag: "🏳️"
 ---
 
 ## Introduction

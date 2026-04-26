@@ -5,6 +5,7 @@ aliases: ["Earth Alux"]
 description: "Earth Alux is a China-linked APT group known for conducting cyberespionage attacks across various sectors, including government, technology, and telecommunications. They primarily exploit vulnerable se"
 permalink: /earth-alux/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

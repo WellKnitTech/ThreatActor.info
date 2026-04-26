@@ -9,6 +9,7 @@ first_seen: "2013"
 last_activity: "2024"
 risk_level: "High"
 external_id: "G0065"
+country_flag: "🇨🇳"
 sector_focus: ["Maritime", "Government", "Defense"]
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 ---

@@ -5,6 +5,7 @@ aliases: ["FamousSparrow", "UNC2286", "Salt Typhoon", "RedMike", "OPERATOR PANDA
 description: "GhostEmperor is a Chinese-speaking threat actor that targets government entities and telecom companies in Southeast Asia. They employ a Windows kernel-mode rootkit called Demodex to gain remote control"
 permalink: /ghostemperor/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

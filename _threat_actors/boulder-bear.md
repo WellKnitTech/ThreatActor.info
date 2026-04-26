@@ -6,6 +6,7 @@ description: "First observed activity in December 2013."
 permalink: /boulder-bear/
 country: "Russia"
 risk_level: "High"
+country_flag: "🇷🇺"
 ---
 
 ## Introduction

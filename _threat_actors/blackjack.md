@@ -5,6 +5,7 @@ aliases: ["BlackJack"]
 description: "Blackjack, a threat actor linked to Ukraine's security apparatus, has targeted critical Russian entities such as ISPs, utilities, and military infrastructure. They have claimed responsibility for launc"
 permalink: /blackjack/
 country: "Ukraine"
+country_flag: "🇺🇦"
 ---
 
 ## Introduction

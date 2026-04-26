@@ -5,6 +5,7 @@ aliases: ["AppMilad"]
 description: "AppMilad is an Iranian hacking group that has been identified as the source of a spyware campaign called RatMilad. This spyware is designed to silently infiltrate victims' devices and gather personal a"
 permalink: /appmilad/
 country: "Iran"
+country_flag: "🇮🇷"
 ---
 
 ## Introduction

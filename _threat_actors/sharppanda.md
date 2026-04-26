@@ -5,6 +5,7 @@ aliases: ["Sharp Dragon", "SharpPanda"]
 description: "SharpPanda, an APT group originating from China, has seen a rise in its cyber-attack operations starting from at least 2018. The APT group utilizes spear-phishing techniques to obtain initial access, e"
 permalink: /sharppanda/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

@@ -5,6 +5,7 @@ aliases: ["OldGremlin"]
 description: "OldGremlin is a Russian-speaking ransomware group that has been active for several years. They primarily target organizations in Russia, including banks, logistics, industrial, insurance, retail, and I"
 permalink: /oldgremlin/
 country: "Russia"
+country_flag: "🇷🇺"
 ---
 
 ## Introduction

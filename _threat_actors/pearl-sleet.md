@@ -5,6 +5,7 @@ aliases: ["DEV-0215", "LAWRENCIUM", "Pearl Sleet"]
 description: "Pearl Sleet is a nation state activity group based in North Korea that has been active since at least 2012. They primarily target defectors from North Korea, media organizations in carrying out their c"
 permalink: /pearl-sleet/
 country: "North Korea"
+country_flag: "🇰🇵"
 ---
 
 ## Introduction

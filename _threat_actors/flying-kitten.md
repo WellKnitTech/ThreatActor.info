@@ -6,6 +6,7 @@ description: "Activity: defense and aerospace sectors, also interested in target
 permalink: /flying-kitten/
 country: "Iran"
 risk_level: "High"
+country_flag: "🇮🇷"
 sector_focus: ["Aerospace", "Defense", "Gas", "Oil", "Military", "Civil society"]
 ---
 

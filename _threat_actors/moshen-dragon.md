@@ -5,6 +5,7 @@ aliases: ["Moshen Dragon"]
 description: "Moshen Dragon is a Chinese-aligned cyberespionage threat actor operating in Central Asia. They have been observed deploying multiple malware triads and utilizing DLL search order hijacking to sideload "
 permalink: /moshen-dragon/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

@@ -6,6 +6,7 @@ description: "Greenbug was discovered targeting a range of organizations in the 
 permalink: /greenbug/
 country: "Iran"
 risk_level: "High"
+country_flag: "🇮🇷"
 sector_focus: ["Education", "Energy", "Investment", "Aerospace", "Government, Administration"]
 ---
 

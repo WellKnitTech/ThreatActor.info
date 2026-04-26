@@ -6,6 +6,7 @@ description: "Infy is a group of suspected Iranian origin. Since early 2013, we 
 permalink: /infy/
 country: "Iran"
 risk_level: "High"
+country_flag: "🇮🇷"
 sector_focus: ["Activists", "Civil society", "Government", "Private sector"]
 ---
 

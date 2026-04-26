@@ -6,6 +6,7 @@ description: "This threat actor uses spear-phishing techniques to target parliam
 permalink: /operation-parliament/
 country: "Unknown"
 risk_level: "High"
+country_flag: "🏳️"
 sector_focus: ["Government", "Civil society"]
 ---
 

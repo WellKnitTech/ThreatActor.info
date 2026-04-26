@@ -5,6 +5,7 @@ aliases: ["TAG-100", "RedNovember", "Storm-2077"]
 description: "TAG-100 is a cyber-espionage APT that targets government and private sector organizations globally, exploiting vulnerabilities in internet-facing devices such as Citrix NetScaler and F5 BIG-IP for init"
 permalink: /storm-2077/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

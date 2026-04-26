@@ -6,6 +6,7 @@ description: "Sima is a group of suspected Iranian origin targeting Iranians in 
 permalink: /sima/
 country: "Iran"
 risk_level: "High"
+country_flag: "🇮🇷"
 ---
 
 ## Introduction

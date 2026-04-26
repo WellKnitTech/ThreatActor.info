@@ -5,6 +5,7 @@ aliases: ["UNC302", "BRONZE SPRING"]
 description: "BRONZE SPRING is a threat group that CTU researchers assess with high confidence operates on behalf of China in the theft of intellectual property from defense, engineering, pharmaceutical and technolo"
 permalink: /bronze-spring/
 country: "China"
+country_flag: "🇨🇳"
 sector_focus: ["Information technology", "Medical", "Civil engineering", "Business", "Education", "Gaming", "Energy", "Pharmaceuticals", "Defense industrial base"]
 ---
 

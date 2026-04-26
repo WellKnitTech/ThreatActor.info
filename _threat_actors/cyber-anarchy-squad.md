@@ -5,6 +5,7 @@ aliases: ["Cyber Anarchy Squad", "Cyber.Anarchy.Squad"]
 description: "Cyber Anarchy Squad is a pro-Ukrainian hacktivist group known for targeting Russian companies and infrastructure. They have carried out cyberattacks on Russian telecom providers, financial institutions"
 permalink: /cyber-anarchy-squad/
 country: "Ukraine"
+country_flag: "🇺🇦"
 ---
 
 ## Introduction

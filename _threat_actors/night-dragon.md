@@ -6,6 +6,7 @@ description: ""
 permalink: /night-dragon/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

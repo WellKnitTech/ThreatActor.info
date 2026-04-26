@@ -6,6 +6,7 @@ description: "Shamoon Group is an Iran-linked threat actor associated with destr
 permalink: /shamoon-group/
 country: "Iran"
 risk_level: "High"
+country_flag: "🇮🇷"
 ---
 
 ## Introduction

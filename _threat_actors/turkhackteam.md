@@ -6,6 +6,7 @@ description: "Founded in 2004, Turkhackteam is one of Turkey’s oldest and most
 permalink: /turkhackteam/
 country: "Turkey"
 risk_level: "High"
+country_flag: "🇹🇷"
 ---
 
 ## Introduction

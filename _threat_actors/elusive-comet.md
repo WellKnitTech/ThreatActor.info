@@ -5,6 +5,7 @@ aliases: ["ELUSIVE COMET"]
 description: "ELUSIVE COMET is a threat actor responsible for significant cryptocurrency theft through sophisticated social engineering attacks, particularly leveraging Zoom's remote control feature. Their attack me"
 permalink: /elusive-comet/
 country: "North Korea"
+country_flag: "🇰🇵"
 ---
 
 ## Introduction

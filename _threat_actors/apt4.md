@@ -6,6 +6,7 @@ description: ""
 permalink: /apt4/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Private sector", "Military"]
 ---
 

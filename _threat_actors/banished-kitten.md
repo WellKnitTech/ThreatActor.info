@@ -6,6 +6,7 @@ description: "BANISHED KITTEN is an Iranian state-nexus adversary active since a
 permalink: /banished-kitten/
 country: "Iran"
 risk_level: "High"
+country_flag: "🇮🇷"
 sector_focus: ["Government", "Healthcare", "Pharmaceuticals", "High-Tech", "Telecomms", "Education", "Media", "NGOs", "Civil Society"]
 ---
 

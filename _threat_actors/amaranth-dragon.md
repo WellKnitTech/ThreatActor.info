@@ -5,6 +5,7 @@ aliases: ["Amaranth-Dragon"]
 description: "Amaranth-Dragon is a previously untracked threat actor assessed to be closely linked to the China-affiliated APT 41 ecosystem, exhibiting similar tooling and operational patterns. The group demonstrate"
 permalink: /amaranth-dragon/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

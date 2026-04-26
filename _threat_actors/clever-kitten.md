@@ -6,6 +6,7 @@ description: ""
 permalink: /clever-kitten/
 country: "Iran"
 risk_level: "High"
+country_flag: "🇮🇷"
 ---
 
 ## Introduction

@@ -5,6 +5,7 @@ aliases: ["DiceyF"]
 description: "DiceyF is an advanced persistent threat group that has been targeting online casinos and other victims in Southeast Asia for an extended period. They have exhibited overlapping activity with LuckyStar "
 permalink: /diceyf/
 country: "China"
+country_flag: "🇨🇳"
 ---
 
 ## Introduction

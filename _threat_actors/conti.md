@@ -8,6 +8,7 @@ country: "Russia"
 first_seen: "2020"
 last_activity: "2022"
 risk_level: "Critical"
+country_flag: "🇷🇺"
 sector_focus: ["Healthcare", "Critical Infrastructure", "Government"]
 ---
 

@@ -5,6 +5,7 @@ aliases: ["UserSec"]
 description: "UserSec is a pro-Russian hacking group that has been active since at least 2022. The group is known for its DDoS attacks and has collaborated with other pro-Russian hacking groups. In May 2023, UserSec"
 permalink: /usersec/
 country: "Russia"
+country_flag: "🇷🇺"
 ---
 
 ## Introduction

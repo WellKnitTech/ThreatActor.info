@@ -6,6 +6,7 @@ description: "Blue Termite is a group of suspected Chinese origin active in Japa
 permalink: /blue-termite/
 country: "China"
 risk_level: "High"
+country_flag: "🇨🇳"
 sector_focus: ["Government", "Private sector"]
 ---
 

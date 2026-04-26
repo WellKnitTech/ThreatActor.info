@@ -6,6 +6,7 @@ description: "Kaspersky Lab and Seculert worked together to sinkhole the Madi Co
 permalink: /madi/
 country: "Iran"
 risk_level: "High"
+country_flag: "🇮🇷"
 sector_focus: ["Infrastructure", "Engineering", "Government, Administration", "Finance", "Government", "Private sector"]
 ---
 

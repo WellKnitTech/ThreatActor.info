@@ -5,6 +5,7 @@ aliases: ["SpaceBears"]
 description: "SpaceBears is a ransomware group believed to be based in Moscow, Russia, that has taken credit for several high-profile cyberattacks while primarily operating as a Data Broker. They currently list eigh"
 permalink: /spacebears/
 country: "Russia"
+country_flag: "🇷🇺"
 ---
 
 ## Introduction

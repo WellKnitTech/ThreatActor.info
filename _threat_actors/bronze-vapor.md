@@ -5,6 +5,7 @@ aliases: ["BRONZE VAPOR"]
 description: "BRONZE VAPOR is a targeted threat group assessed with moderate confidence to be of Chinese origin. Artefacts from tools associated with this group and open source reporting on related incidents indicat"
 permalink: /bronze-vapor/
 country: "China"
+country_flag: "🇨🇳"
 sector_focus: ["Semiconductor Industry"]
 ---
 

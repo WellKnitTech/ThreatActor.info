@@ -5,6 +5,7 @@ aliases: ["Confucious"]
 description: "Confucius is an APT organization funded by India. It has been carrying out cyber attacks since 2013. Its main targets are India's neighbouring countries such as Pakistan and China. It has a strong inte"
 permalink: /confucious/
 country: "India"
+country_flag: "🇮🇳"
 ---
 
 ## Introduction

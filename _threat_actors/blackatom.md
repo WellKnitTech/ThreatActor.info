@@ -6,6 +6,7 @@ description: "Recent campaigns suggest Hamas-linked actors may be advancing thei
 permalink: /blackatom/
 country: "Palestine"
 risk_level: "High"
+country_flag: "🏳️"
 sector_focus: ["Military", "Defense", "Transportation"]
 ---
 
