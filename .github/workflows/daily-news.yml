@@ -1,0 +1,51 @@
+---
+name: Daily Security News
+
+on:
+  # Daily at 2am UTC for news
+  schedule:
+    - cron: '0 2 * * *'
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+          
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+          
+      - name: Install dependencies
+        run: bundle install
+          
+      # News changes constantly - needs daily
+      - name: Fetch security news
+        run: ruby scripts/fetch-news.rb 2>&1 || echo "News fetch skipped"
+        continue-on-error: true
+          
+      - name: Generate pages
+        run: ruby scripts/generate-pages.rb --force
+        continue-on-error: true
+          
+      - name: Build site
+        run: bundle exec jekyll build --safe
+        continue-on-error: true
+          
+      - name: Commit news changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git diff --staged --quiet || git commit -m "Daily news update ($(date +'%Y-%m-%d'))"
+        continue-on-error: true
+          
+      - name: Push changes
+        run: git push
+        continue-on-error: true

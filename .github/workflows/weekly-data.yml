@@ -1,20 +1,18 @@
 ---
-name: Update Threat Data
+name: Weekly Threat Data
 
 on:
-  # Daily at 2am UTC for all data (news daily, MITRE/MISP weekly)
+  # Weekly on Sunday at 3am UTC
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 3 * * 0'
   # Allow manual trigger
   workflow_dispatch:
-  # Run on push to main for relevant file changes
+  # Run on push to main for script changes
   push:
     branches:
       - main
     paths:
       - 'scripts/**'
-      - '_data/threat_actors.yml'
-      - '_threat_actors/**'
 
 jobs:
   update-data:
@@ -35,34 +33,25 @@ jobs:
       - name: Install dependencies
         run: bundle install
           
-      # MISP reference data - with schedule
-      - name: Fetch MISP Galaxy reference data
+      - name: Fetch MISP reference data
         run: ruby scripts/fetch-misp-references.rb
         continue-on-error: true
           
-      # MITRE - weekly is fine, changes slow
-      - name: Fetch MITRE ATT&CK data
-        run: ruby scripts/import-mitre.rb --write 2>&1 || echo "MITRE import skipped"
+      - name: Fetch MITRE ATT&CK
+        run: ruby scripts/import-mitre.rb --write 2>&1 || echo "MITRE skipped"
         continue-on-error: true
           
-      # MISP threat actors - with schedule  
-      - name: Fetch MISP Galaxy actors
+      - name: Fetch MISP threat actors
         run: |
-          ruby scripts/import-misp-galaxy.rb fetch --output data/imports/misp-galaxy/$(date +%Y-%m-%d) 2>&1 || echo "MISP fetch skipped"
+          ruby scripts/import-misp-galaxy.rb fetch --output data/imports/misp-galaxy/$(date +%Y-%m-%d) 2>&1 || echo "MISP skipped"
         continue-on-error: true
           
-      # CISA KEV - weekly is fine
-      - name: Fetch CISA KEV data
-        run: ruby scripts/import-cisa-kev.rb fetch 2>&1 || echo "CISA KEV fetch skipped"
+      - name: Fetch CISA KEV
+        run: ruby scripts/import-cisa-kev.rb fetch 2>&1 || echo "CISA skipped"
         continue-on-error: true
           
-      - name: Map CISA KEV CVEs to actors
-        run: ruby scripts/import-cisa-kev.rb map 2>&1 || echo "CISA KEV mapping skipped"
-        continue-on-error: true
-          
-      # Security news - daily needed
-      - name: Fetch security news
-        run: ruby scripts/fetch-news.rb 2>&1 || echo "News fetch skipped"
+      - name: Map CISA CVEs to actors
+        run: ruby scripts/import-cisa-kev.rb map 2>&1 || echo "CISA map skipped"
         continue-on-error: true
           
       - name: Generate pages
@@ -77,12 +66,12 @@ jobs:
         run: bundle exec jekyll build --safe
         continue-on-error: true
           
-      - name: Commit changes
+      - name: Commit data changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
-          git diff --staged --quiet || git commit -m "Auto-update: Fetch latest threat data ($(date +'%Y-%m-%d'))"
+          git diff --staged --quiet || git commit -m "Weekly threat data update ($(date +'%Y-%m-%d'))"
         continue-on-error: true
           
       - name: Push changes
