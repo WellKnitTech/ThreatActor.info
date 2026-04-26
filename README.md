@@ -9,37 +9,70 @@ A community-driven threat intelligence wiki that collects and organizes informat
 - **Searchable Database**: Provide advanced search and filtering capabilities
 - **Standardized Format**: Maintain consistent data structure and content format
 - **Open Source**: Keep the project open and accessible to the community
+- **Data-Driven**: Single source of truth in YAML, auto-generate pages
 
 ## 🚀 Features
 
 ### Current Features
-- **15+ Threat Actors**: Comprehensive database of major APT groups and cybercriminal organizations
+- **188+ Threat Actors**: Comprehensive database of major APT groups and cybercriminal organizations
 - **Advanced Search**: Filter by country, risk level, sector focus, and keywords
 - **Static JSON API**: Publish generated threat actor, IOC, and facet endpoints under `api/`
 - **Rich Metadata**: Country attribution, risk levels, sector focus, activity timelines
 - **Responsive Design**: Mobile-friendly interface with modern UI
-- **Fast Performance**: Static site generation for optimal loading speeds
+- **Dark/Light Theme**: Solarized color palette with toggle
+- **IOC Copy Tools**: Click-to-copy for individual IOCs, categories, and bulk
 
-### Threat Actor Information Includes
-- **Basic Information**: Names, aliases, descriptions
-- **Attribution**: Country of origin, sector focus
-- **Activity Timeline**: First seen, last activity dates
-- **Risk Assessment**: Risk level classification
-- **Tactics & Techniques**: TTPs, MITRE ATT&CK mappings
-- **Indicators of Compromise**: IPs, domains, file hashes
-- **Malware & Tools**: Associated malware families and tools
-- **Notable Campaigns**: Major attacks and operations
-- **References**: Links to reports and analysis
+### Data-Driven Architecture
+- **Single Source of Truth**: `_data/threat_actors.yml`
+- **Auto-Generated Pages**: Run generator to create all MD files from YAML
+- **Smart Merge**: Preserves manually-enriched pages when regenerating
+- **Import Ready**: Supports MITRE ATT&CK, MISP Galaxy, and other data sources
 
-## 🛠️ Technology Stack
+## 🔄 Data-Driven Workflow
 
-- **Jekyll 4.0**: Static site generator
-- **Liquid**: Templating engine
-- **YAML**: Data structure and configuration
-- **Markdown**: Content authoring
-- **CSS Grid/Flexbox**: Modern responsive design
-- **JavaScript**: Enhanced search and filtering
-- **GitHub Pages**: Hosting and deployment
+### Quick Start
+```bash
+# 1. Build the site (for local development)
+bundle exec jekyll build --safe
+
+# 2. Run local server
+bundle exec jekyll serve
+```
+
+### Adding/Updating Threat Actors
+
+**Option 1: Import from MITRE ATT&CK**
+```bash
+ruby scripts/import-mitre.rb           # Preview
+ruby scripts/import-mitre.rb --write   # Apply
+```
+
+**Option 2: Manual YAML Edit**
+```bash
+# Edit the YAML file directly
+nano _data/threat_actors.yml
+
+# Or use the helper to add a new actor
+ruby scripts/add-actor.rb "Actor Name"
+```
+
+**Option 3: Regenerate from YAML**
+```bash
+# Generate all pages from YAML data
+ruby scripts/generate-pages.rb
+
+# Preview without writing
+ruby scripts/generate-pages.rb --dry-run
+```
+
+### Build & Deploy
+```bash
+# Generate pages → Build site
+ruby scripts/generate-pages.rb && bundle exec jekyll build --safe
+
+# Full validation
+bash scripts/validate.sh
+```
 
 ## 📁 Project Structure
 
@@ -47,17 +80,21 @@ A community-driven threat intelligence wiki that collects and organizes informat
 threatactor-info/
 ├── _config.yml              # Jekyll configuration
 ├── _data/
-│   ├── threat_actors.yml    # Central threat actor database
-│   └── generated/           # Generated JSON artifacts for APIs/search
+│   ├── threat_actors.yml   # Central threat actor database (SOURCE OF TRUTH)
+│   └── generated/          # Generated JSON artifacts for APIs/search
 ├── _layouts/
-│   ├── default.html         # Base layout template
-│   └── threat_actor.html    # Threat actor page template
+│   ├── default.html       # Base layout template
+│   └── threat_actor.html  # Threat actor page template
 ├── _includes/
-│   └── search.html          # Search functionality
-├── _threat_actors/          # Individual threat actor pages
-│   ├── apt28.md
-│   ├── apt29.md
-│   └── ...
+│   └── search.html        # Search functionality
+├── _threat_actors/       # Auto-generated threat actor pages
+├── scripts/
+│   ├── generate-pages.rb   # Page generator from YAML
+│   ├── import-mitre.rb   # MITRE ATT&CK importer
+│   └── add-actor.rb     # Actor helper script
+└── docs/
+    └── schema.md        # YAML schema documentation
+```
 ├── api/
 │   ├── threat-actors.json   # Static threat actor API endpoint
 │   ├── iocs.json            # Static IOC API endpoint
