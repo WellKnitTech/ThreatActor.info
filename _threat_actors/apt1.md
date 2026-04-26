@@ -52,9 +52,6 @@ APT1 is a Chinese cyber espionage group that has been conducting cyber espionage
 *Additional attribution information pending cataloguing.*
 
 ## References
-[1] [mitre-attack](https://attack.mitre.org/groups/G0006)
-[3] [Mandiant APT1](https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf)
-   Mandiant. (n.d.). APT1 Exposing One of China’s Cyber Espionage Units. Retrieved July 18, 2016.
-[4] [CrowdStrike Putter Panda](http://cdn0.vox-cdn.com/assets/4589853/crowdstrike-intelligence-report-putter-panda.original.pdf)
-   Crowdstrike Global Intelligence Team. (2014, June 9). CrowdStrike Intelligence Report: Putter Panda. Retrieved January 22, 2016.
+[1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0006)
+   MITRE ATT&CK entry
 

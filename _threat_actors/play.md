@@ -50,9 +50,10 @@ Play is a ransomware group that has been active since at least 2022 deploying  P
 *Additional attribution information pending cataloguing.*
 
 ## References
-[1] [mitre-attack](https://attack.mitre.org/groups/G1040)
-[2] [CISA Play Ransomware Advisory December 2023](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a)
-   CISA. (2023, December 18). #StopRansomware: Play Ransomware AA23-352A. Retrieved September 24, 2024.
-[3] [Trend Micro Ransomware Spotlight Play July 2023](https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-play)
-   Trend Micro Research. (2023, July 21). Ransomware Spotlight: Play. Retrieved September 24, 2024.
+[1] [MITRE ATT&CK](https://attack.mitre.org/groups/G1040)
+   MITRE ATT&CK entry
+[2] [CISA Play Ransomware Advisory December 2023](https://www.google.com/search?q=CISA+Play+Ransomware+Advisory+December+2023+threat+actor)
+   External citation
+[3] [Trend Micro Ransomware Spotlight Play July 2023](https://www.google.com/search?q=Trend+Micro+Ransomware+Spotlight+Play+July+2023+threat+actor)
+   External citation
 

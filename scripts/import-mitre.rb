@@ -156,21 +156,8 @@ module ImportUtils
       merged['source_attribution'] = incoming['source_attribution']
     end
     
-    # Merge references - append new ones that don't already exist (dedupe by URL)
-    if incoming['references'] && incoming['references'].any?
-      existing_refs = Array(merged['references'])
-      existing_urls = existing_refs.map { |r| r['url'] }.compact
-      
-      incoming['references'].each do |ref|
-        url = ref['url']
-        if url && !existing_urls.include?(url)
-          existing_refs << ref
-          existing_urls << url
-        end
-      end
-      
-      merged['references'] = existing_refs
-    end
+    # Don't merge references into YAML (keeps YAML small)
+    # References are processed at page generation time
     
     # Merge provenance
     existing_prov = existing['provenance'].is_a?(Hash) ? existing['provenance'] : {}
@@ -474,6 +461,33 @@ end
 # Write updated YAML
 puts "\nWriting _data/threat_actors.yml..."
 File.write(DATA_FILE, existing_actors.to_yaml(line_width: -1))
+
+# Save references cache for page generation
+# Extract from actors that came from MITRE (have external_id)
+ref_cache = {}
+ref_count = 0
+
+existing_actors.each do |actor|
+  name = actor['name']
+  next unless name
+  
+  # Extract references from actor
+  refs = actor.delete('references') || []
+  if refs.any?
+    ref_cache[name] = refs
+    ref_count += refs.size
+  end
+end
+
+# Save cache to JSON
+ref_cache_file = "_data/references.json"
+File.write(ref_cache_file, JSON.pretty_generate(ref_cache))
+puts "Saved #{ref_cache.size} actor references (#{ref_count} total) to cache"
+
+# Restore references to actors (for in-memory processing)
+existing_actors.each do |actor|
+  actor['references'] = ref_cache[actor['name']] if ref_cache[actor['name']]
+end
 
 # Create/update markdown pages for new actors
 FileUtils.mkdir_p(THREAT_ACTORS_DIR)

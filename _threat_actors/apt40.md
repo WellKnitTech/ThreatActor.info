@@ -52,25 +52,16 @@ Leviathan is a Chinese state-sponsored cyber espionage group that has been attri
 *Additional attribution information pending cataloguing.*
 
 ## References
-[1] [mitre-attack](https://attack.mitre.org/groups/G0065)
-[3] [Accenture MUDCARP March 2019](https://www.accenture.com/us-en/blogs/cyber-defense/mudcarps-focus-on-submarine-technologies)
-   Accenture iDefense Unit. (2019, March 5). Mudcarp's Focus on Submarine Technologies. Retrieved August 24, 2021.
-[4] [Crowdstrike KRYPTONITE PANDA August 2018](https://www.crowdstrike.com/blog/two-birds-one-stone-panda/)
-   Adam Kozy. (2018, August 30). Two Birds, One Stone Panda. Retrieved August 24, 2021.
-[5] [Proofpoint Leviathan Oct 2017](https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets)
-   Axel F, Pierre T. (2017, October 16). Leviathan: Espionage actor spearphishes maritime and defense targets. Retrieved February 15, 2018.
-[6] [MSTIC GADOLINIUM September 2020](https://www.microsoft.com/security/blog/2020/09/24/gadolinium-detecting-empires-cloud/)
-   Ben Koehl, Joe Hannon. (2020, September 24). Microsoft Security - Detecting Empires in the Cloud. Retrieved August 24, 2021.
-[7] [CISA Leviathan 2024](https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-190a)
-   CISA et al. (2024, July 8). People’s Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action. Retrieved February 3, 2025.
-[8] [CISA AA21-200A APT40 July 2021](https://us-cert.cisa.gov/ncas/alerts/aa21-200a)
-   CISA. (2021, July 19). (AA21-200A) Joint Cybersecurity Advisory – Tactics, Techniques, and Procedures of Indicted APT40 Actors Associated with China’s MSS Hainan State Security Department. Retrieved August 12, 2021.
-[9] [FireEye Periscope March 2018](https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html)
-   FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018.
-[10] [Microsoft Threat Actor Naming July 2023](https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide)
-   Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.
-[11] [FireEye APT40 March 2019](https://www.fireeye.com/blog/threat-research/2019/03/apt40-examining-a-china-nexus-espionage-actor.html)
-   Plan, F., et al. (2019, March 4). APT40: Examining a China-Nexus Espionage Actor. Retrieved March 18, 2019.
-[12] [SecureWorks BRONZE MOHAWK n.d.](https://www.secureworks.com/research/threat-profiles/bronze-mohawk)
-   SecureWorks. (n.d.). Threat Profile - BRONZE MOHAWK. Retrieved August 24, 2021.
+[1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0065)
+   MITRE ATT&CK entry
+[2] [CISA AA21-200A APT40 July 2021](https://www.google.com/search?q=CISA+AA21-200A+APT40+July+2021+threat+actor)
+   External citation
+[3] [CISA AA21-200A APT40 July 2021](https://www.google.com/search?q=CISA+AA21-200A+APT40+July+2021+threat+actor)
+   External citation
+[4] [Proofpoint Leviathan Oct 2017](https://www.google.com/search?q=Proofpoint+Leviathan+Oct+2017+threat+actor)
+   External citation
+[5] [FireEye Periscope March 2018](https://www.google.com/search?q=FireEye+Periscope+March+2018+threat+actor)
+   External citation
+[6] [CISA Leviathan 2024](https://www.google.com/search?q=CISA+Leviathan+2024+threat+actor)
+   External citation
 

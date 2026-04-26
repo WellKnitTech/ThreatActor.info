@@ -16,9 +16,38 @@ require 'yaml'
 require 'json'
 require 'optparse'
 require 'cgi'
+require 'net/http'
 
 PAGE_DIR = '_threat_actors'
 DATA_FILE = '_data/threat_actors.yml'
+
+# Fetch references from MITRE for page generation
+def fetch_mitre_references
+  ref_cache = {}
+  begin
+    url = "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    data = JSON.parse(Net::HTTP.get(URI.parse(url)))
+    return {} unless data && data['objects']
+    
+    data['objects'].select { |o| o['type'] == 'intrusion-set' }.each do |intrusion|
+      name = intrusion['name']
+      next unless name && name['name']
+      
+      refs = (intrusion['external_references'] || []).map do |ref|
+        {
+          'source' => ref['source_name'] || 'unknown',
+          'url' => ref['url'] || '',
+          'description' => ref['description']
+        }
+      end.select { |r| r['url'] && !r['url'].empty? }
+      
+      ref_cache[name] = refs if refs.any?
+    end
+  rescue => e
+    puts "Warning: Could not fetch MITRE references: #{e.message[0..50]}"
+  end
+  ref_cache
+end
 
 # Placeholder patterns - if page contains these, it's not enriched
 PLACEHOLDER_PATTERNS = [
@@ -322,7 +351,31 @@ def build_body(actor)
   citation_sources = {}  # URL -> citation ID (string keys)
   source_name_to_url = {}  # Source name -> URL mapping for Citation: format
   
-  if actor['references'] && actor['references'].any?
+  # Load references from cache if not in YAML
+references_cache = nil
+ref_cache_file = "_data/references.json"
+
+# Try cache first, then fetch fresh from MITRE
+if File.exist?(ref_cache_file)
+  begin
+    references_cache = JSON.parse(File.read(ref_cache_file))
+  rescue
+    references_cache = nil
+  end
+end
+
+# If no cache or old, try to fetch fresh
+if references_cache.nil? || references_cache.empty?
+  references_cache = fetch_mitre_references
+end
+
+# Parse references from cache or YAML
+actor_refs = actor['references'] || []
+if references_cache && actor_refs.empty?
+  actor_refs = references_cache[actor['name']] || []
+end
+
+if actor_refs && actor_refs.any?
     # Build citation map from references
     actor['references'].each_with_index do |ref, idx|
       next unless ref['url'] && !ref['url'].empty?
