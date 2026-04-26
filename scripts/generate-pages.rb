@@ -13,6 +13,7 @@
 
 require 'fileutils'
 require 'yaml'
+require 'json'
 require 'optparse'
 require 'cgi'
 
@@ -425,7 +426,7 @@ def build_body(actor)
   sections[1] = description
   
   # References - numbered footnotes
-  sections << "## References"
+sections << "## References"
   if citations.any?
     citations.each do |cite|
       # Handle both symbol and string keys
@@ -446,6 +447,56 @@ def build_body(actor)
     sections << "*References pending cataloguing.*"
   end
   sections << ""
+  
+  # Recent News (from RSS feed)
+  news_file = '_data/news_feed.yml'
+  if File.exist?(news_file)
+    begin
+      # Try JSON format first, then YAML
+      news_data = nil
+      content = File.read(news_file).strip
+      if content.start_with?('{')
+        news_data = JSON.parse(content)
+      else
+        news_data = YAML.safe_load(content, permitted_classes: [], aliases: false)
+      end
+      
+      if news_data
+        actor_name = actor['name']
+        
+        # Use string keys
+        actor_news = news_data['actor_news'] && news_data['actor_news'][actor_name]
+        
+        if !actor_news && news_data['actor_news']
+          # Try case-insensitive match
+          news_data['actor_news'].each do |k, v|
+            if k.to_s.downcase == actor_name.to_s.downcase
+              actor_news = v
+              break
+            end
+          end
+        end
+        
+        if actor_news && actor_news.any?
+          sections << "## Recent News"
+          sections << "*Latest articles from security news feeds mentioning this actor.*"
+          sections << ""
+          actor_news.each do |news_item|
+            title = news_item['title'] || ''
+            link = news_item['link'] || ''
+            source = news_item['source'] || ''
+            date = news_item['date'] || ''
+            
+            sections << "- [#{title}](#{link})"
+            sections << "  #{source}#{date ? " - #{date[0..10]}" : ""}"
+          end
+          sections << ""
+        end
+      end
+    rescue
+      # Skip if news file has issues
+    end
+  end
   
   # CISA KEV CVEs (if present)
   if actor['cisa_kev_cves'] && actor['cisa_kev_cves'].any?
