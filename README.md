@@ -81,6 +81,18 @@ threatactor-info/
 ├── _config.yml              # Jekyll configuration
 ├── _data/
 │   ├── threat_actors.yml   # Central threat actor database (SOURCE OF TRUTH)
+│   ├── misp-reference/     # MISP Galaxy reference data (lookup only)
+│   └── generated/          # Generated JSON artifacts for APIs/search
+├── _layouts/
+│   ├── default.html       # Base layout template
+│   └── threat_actor.html  # Threat actor page template
+├── _includes/
+│   └── search.html        # Search functionality
+```
+threatactor-info/
+├── _config.yml              # Jekyll configuration
+├── _data/
+│   ├── threat_actors.yml   # Central threat actor database (SOURCE OF TRUTH)
 │   └── generated/          # Generated JSON artifacts for APIs/search
 ├── _layouts/
 │   ├── default.html       # Base layout template
