@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-26T06:53:03Z",
+  "updated": "2026-04-26T06:55:56Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -10,11 +10,23 @@
     "TechCrunch",
     "Wired",
     "Ars Technica",
-    "Schneier",
     "Unit 42",
-    "Elastic"
+    "Palo Alto Networks",
+    "Elastic",
+    "Cloudflare",
+    "Check Point",
+    "SentinelOne",
+    "Rapid7"
   ],
   "actor_news": {
+    "Metasploit": [
+      {
+        "title": "Metasploit Wrap-Up 04/25/2026",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-04-25-2026",
+        "date": "2026-04-24T20:17:56+00:00",
+        "source": "Rapid7"
+      }
+    ],
     "Conti": [
       {
         "title": "Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine",
@@ -28,14 +40,6 @@
         "title": "North Korea's Lazarus Targets macOS Users via ClickFix",
         "link": "https://www.darkreading.com/threat-intelligence/north-koreas-lazarus-targets-macos-users-clickfix",
         "date": "2026-04-24T13:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "BlackCat": [
-      {
-        "title": "Ransomware Negotiator Pleads Guilty to BlackCat Scheme",
-        "link": "https://www.darkreading.com/insider-threats/ransomware-negotiator-pleads-guilty-blackcat-scheme",
-        "date": "2026-04-21T21:12:43+00:00",
         "source": "DarkReading"
       }
     ]

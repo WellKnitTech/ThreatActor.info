@@ -28,11 +28,15 @@ RSS_FEEDS = [
   { name: 'TechCrunch', url: 'https://techcrunch.com/feed/', weight: 1 },
   { name: 'Wired', url: 'https://www.wired.com/feed/rss', weight: 1 },
   { name: 'Ars Technica', url: 'https://feeds.arstechnica.com/arstechnica/technology-lab', weight: 1 },
-  { name: 'Schneier', url: 'https://www.schneier.com/feed/atom/', weight: 1 },
   
   # Vendor blogs
   { name: 'Unit 42', url: 'https://unit42.paloaltonetworks.com/feed/', weight: 2 },
+  { name: 'Palo Alto Networks', url: 'https://blog.paloaltonetworks.com/feed/', weight: 2 },
   { name: 'Elastic', url: 'https://www.elastic.co/blog/feed', weight: 1 },
+  { name: 'Cloudflare', url: 'https://blog.cloudflare.com/rss/', weight: 1 },
+  { name: 'Check Point', url: 'https://blog.checkpoint.com/feed/', weight: 1 },
+  { name: 'SentinelOne', url: 'https://www.sentinelone.com/blog/feed/', weight: 1 },
+  { name: 'Rapid7', url: 'https://www.rapid7.com/blog/rss', weight: 1 },
 ].freeze
 
 # Actor name keywords for matching
