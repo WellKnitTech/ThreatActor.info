@@ -36,7 +36,7 @@ Antlion is a Chinese state-backed advanced persistent threat (APT) group, who ha
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+*Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
 **Country of Origin**: China

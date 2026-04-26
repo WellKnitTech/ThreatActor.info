@@ -33,7 +33,7 @@ Microsoft has tracked Raspberry Typhoon (RADIUM) as the primary threat group tar
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

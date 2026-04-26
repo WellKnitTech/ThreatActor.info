@@ -31,7 +31,9 @@ Phlox Tempest is a threat actor responsible for a large-scale click fraud campai
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Chrome Remote Desktop**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

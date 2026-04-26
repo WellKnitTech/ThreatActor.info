@@ -31,7 +31,8 @@ In September 2023, Cisco Talos identified a new malware family that it calls ‘
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Snoopy**: 
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

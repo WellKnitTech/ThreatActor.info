@@ -33,7 +33,7 @@ DRAGONBRIDGE is a Chinese state-sponsored threat actor known for engaging in inf
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

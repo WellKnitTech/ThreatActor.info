@@ -31,7 +31,8 @@ ZeroSevenGroup is a threat actor that claims to have breached a U.S. branch of T
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

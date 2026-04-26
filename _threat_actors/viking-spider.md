@@ -31,7 +31,7 @@ VIKING SPIDER is the criminal group behind the development and distribution of R
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Ragnatela**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

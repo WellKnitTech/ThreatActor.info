@@ -33,7 +33,15 @@ Blackwood is a China-aligned APT group that has been active since at least 2018.
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **BlackEnergy**: 
+- **China Chopper**: 
+- **BLACKCOFFEE**: 
+- **Blackshades**: 
+- **BlackNix**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **UNITEDRAKE**: 
+- **BlackHole**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

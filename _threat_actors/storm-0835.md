@@ -31,7 +31,9 @@ Cybercriminals have launched a phishing campaign targeting senior executives in 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

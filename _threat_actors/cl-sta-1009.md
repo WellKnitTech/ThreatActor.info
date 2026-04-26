@@ -31,7 +31,11 @@ CL-STA-1009 is a threat activity cluster associated with a suspected nation-stat
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **PowerDuke**: 
+- **POWERSTATS**: 
+- **Power Loader**: 
+- **POWERSOURCE**: 
+- **PowerRAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

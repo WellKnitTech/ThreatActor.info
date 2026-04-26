@@ -33,7 +33,11 @@ According to 360 TIC the actor has carried out continuous cyber espionage activi
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
+- **RTM**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Nuclear RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

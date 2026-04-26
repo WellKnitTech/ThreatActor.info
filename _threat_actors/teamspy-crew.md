@@ -41,7 +41,11 @@ Researchers at the CrySyS Lab in Hungary were alerted by the Hungarian National 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **TeamViewer**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xpert**: 
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

@@ -31,7 +31,10 @@ GOLD GARDEN was a financially motivated cybercriminal threat group that authored
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Unknown Logger**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

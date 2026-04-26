@@ -31,7 +31,11 @@ ESET research reveals a successor to the infamous BlackEnergy APT group targetin
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **BlackEnergy**: 
+- **BLACKCOFFEE**: 
+- **Blackshades**: 
+- **BlackNix**: 
+- **BlackHole**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

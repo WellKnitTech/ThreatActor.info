@@ -31,7 +31,8 @@ Hezb is a group deploying cryptominers when new exploit are available for public
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Miner-C**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

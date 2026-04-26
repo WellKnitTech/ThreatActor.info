@@ -31,7 +31,7 @@ Storm-2460 is a threat actor that has exploited elevation of privilege vulnerabi
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

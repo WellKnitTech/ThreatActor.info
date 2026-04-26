@@ -38,7 +38,7 @@ GRIM SPIDER is a sophisticated eCrime group that has been operating the Ryuk ran
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+*Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

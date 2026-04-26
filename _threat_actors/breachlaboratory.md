@@ -31,7 +31,9 @@ BreachLaboratory is a cybercrime actor that specializes in the extraction and sa
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **StreamEx**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

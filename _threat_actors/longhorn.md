@@ -39,7 +39,13 @@ Longhorn has been active since at least 2011. It has used a range of back door T
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **SPACESHIP**: 
+- **Trojan.Karagany**: 
+- **Trojan.Mebromi**: 
+- **Back Orifice**: 
+- **Back Orifice 2000**: 
+- **UNITEDRAKE**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 **Country of Origin**: United States

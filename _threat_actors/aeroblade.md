@@ -31,7 +31,14 @@ AeroBlade is a previously unknown threat actor that has been targeting an aerosp
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **SPACESHIP**: 
+- **Unknown Logger**: 
+- **RemoteCMD**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **UNITEDRAKE**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

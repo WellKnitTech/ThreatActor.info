@@ -31,7 +31,11 @@ This actor was identified by Juan Andres Guerrero-Saade from the SIG37 cluster a
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **SOUNDBITE**: 
+- **Back Orifice**: 
+- **Back Orifice 2000**: 
+- **Lost Door**: 
+- **Windows Remote Desktop**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

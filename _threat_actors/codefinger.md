@@ -31,7 +31,7 @@ Codefinger is a ransomware group that targets Amazon S3 buckets by exploiting AW
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

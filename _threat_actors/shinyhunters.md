@@ -31,7 +31,10 @@ ShinyHunters is a cybercriminal group of unknown origin that is motivated by fin
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Unknown Logger**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

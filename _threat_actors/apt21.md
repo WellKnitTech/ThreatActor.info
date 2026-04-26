@@ -39,7 +39,7 @@ sector_focus: ["Government", "Military"]
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+*Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -39,7 +39,7 @@ Lotus Blossom is a threat group that has targeted government and military organi
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+*Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
 **Country of Origin**: China

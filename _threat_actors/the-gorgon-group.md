@@ -31,7 +31,8 @@ Unit 42 researchers have been tracking Subaat, an attacker, since 2017. Recently
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Epic**: 
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

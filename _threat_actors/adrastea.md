@@ -31,7 +31,11 @@ Adrastea is a threat actor who has been active on cybercrime forums, claiming to
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xpert**: 
+- **Xploit**: 
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

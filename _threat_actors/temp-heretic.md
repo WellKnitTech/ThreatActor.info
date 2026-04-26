@@ -33,7 +33,7 @@ TEMP_Heretic is a threat actor that has been observed engaging in targeted spear
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

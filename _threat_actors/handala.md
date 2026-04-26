@@ -31,7 +31,10 @@ Handala is a pro-Palestinian hacktivist group that targets Israeli organizations
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **AutoIt backdoor**: 
+- **Wiper**: 
+- **Windows Remote Desktop**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

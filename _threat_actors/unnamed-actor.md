@@ -39,7 +39,7 @@ This threat actor compromises civil society groups the Chinese Communist Party v
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+*Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
 **Country of Origin**: China

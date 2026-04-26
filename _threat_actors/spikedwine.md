@@ -31,7 +31,8 @@ SPIKEDWINE is a threat actor targeting European officials with a new backdoor ca
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

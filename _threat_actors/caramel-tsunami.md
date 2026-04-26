@@ -31,7 +31,9 @@ Caramel Tsunami is a threat actor that specializes in spyware attacks. They have
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Windows Remote Desktop**: 
+- **Chrome Remote Desktop**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

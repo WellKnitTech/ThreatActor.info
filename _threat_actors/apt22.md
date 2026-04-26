@@ -35,7 +35,7 @@ Suckfly is a China-based threat group that has been active since at least 2014
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

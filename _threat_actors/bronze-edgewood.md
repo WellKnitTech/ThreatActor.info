@@ -34,7 +34,16 @@ In early 2021 CTU researchers observed BRONZE EDGEWOOD exploiting the Microsoft 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **PowerDuke**: 
+- **POWERSTATS**: 
+- **Power Loader**: 
+- **POWERSOURCE**: 
+- **China Chopper**: 
+- **Back Orifice**: 
+- **Back Orifice 2000**: 
+- **Xploit**: 
+- **Archelaus Beta**: 
+- **Cobalt Strike**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

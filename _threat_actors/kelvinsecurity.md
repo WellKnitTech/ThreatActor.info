@@ -33,7 +33,12 @@ KelvinSecurity is a hacker group that has been active since at least 2015. They 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **BlackEnergy**: 
+- **BLACKCOFFEE**: 
+- **Blackshades**: 
+- **BlackNix**: 
+- **Dark DDoSeR**: 
+- **BlackHole**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Spain

@@ -31,7 +31,7 @@ The CYFIRMA research team has identified a new up-and-coming European threat act
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Minimo**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

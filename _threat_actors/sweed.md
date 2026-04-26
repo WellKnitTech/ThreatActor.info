@@ -32,7 +32,13 @@ SWEED remains consistent across most of their campaigns in their use of spear-ph
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Agent.btz**: 
+- **Trojan.Karagany**: 
+- **RemoteCMD**: 
+- **Trojan.Mebromi**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

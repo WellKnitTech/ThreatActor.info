@@ -31,7 +31,9 @@ Anonymous 64 is a group accused by China's national security ministry of attempt
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

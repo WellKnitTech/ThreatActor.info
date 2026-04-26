@@ -33,7 +33,7 @@ CL-STA-0048 is a Chinese state-backed APT that targets strategic sectors in Sout
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

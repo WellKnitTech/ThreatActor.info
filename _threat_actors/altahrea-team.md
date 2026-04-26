@@ -31,7 +31,14 @@ Altahrea Team is a pro-Iranian hacking group that has been active since at least
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Hacking Team UEFI Rootkit**: 
+- **PowerDuke**: 
+- **POWERSTATS**: 
+- **Power Loader**: 
+- **POWERSOURCE**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **PowerRAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

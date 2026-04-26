@@ -33,7 +33,8 @@ This is a pro-Islamist organization that generally conducts attacks motivated by
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **jRAT**: 
+- **NJRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

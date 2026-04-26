@@ -35,7 +35,13 @@ The PassCV group continues to be one of the most successful and active threat gr
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
+- **RemoteCMD**: 
+- **Blue Banana**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **UNITEDRAKE**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -43,7 +43,8 @@ Magic Hound is an Iranian-sponsored threat group that conducts long term, resour
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Back Orifice**: 
+- **Back Orifice 2000**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

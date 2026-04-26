@@ -34,7 +34,7 @@ The title ‘Copy-paste compromises’ is derived from the actor’s heavy use o
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+*Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

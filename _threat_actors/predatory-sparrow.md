@@ -34,7 +34,7 @@ A self-proclaimed hacktivist group that carried out attacks against Iranian rail
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+*Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

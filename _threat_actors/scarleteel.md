@@ -31,7 +31,8 @@ SCARLETEEL is a threat actor that primarily targets cloud environments, specific
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CloudDuke**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

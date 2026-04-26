@@ -39,7 +39,10 @@ First disclosed in 2023, the Sandman APT is likely associated with suspected Chi
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **China Chopper**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

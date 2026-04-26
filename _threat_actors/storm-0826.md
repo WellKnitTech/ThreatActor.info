@@ -31,7 +31,13 @@ Storm-0826 is a financially motivated cybercriminal group operating as an affili
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **BlackEnergy**: 
+- **BLACKCOFFEE**: 
+- **Blackshades**: 
+- **BlackNix**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **BlackHole**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -39,7 +39,16 @@ This threat actor targets industrial control systems, using a tool called Black 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **BlackEnergy**: 
+- **PowerDuke**: 
+- **POWERSTATS**: 
+- **Power Loader**: 
+- **POWERSOURCE**: 
+- **BLACKCOFFEE**: 
+- **Blackshades**: 
+- **BlackNix**: 
+- **BlackHole**: 
+- **PowerRAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

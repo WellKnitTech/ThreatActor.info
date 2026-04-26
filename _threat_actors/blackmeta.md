@@ -31,7 +31,14 @@ BLACKMETA is a pro-Palestinian hacktivist group that has claimed responsibility 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **BlackEnergy**: 
+- **BLACKCOFFEE**: 
+- **Blackshades**: 
+- **BlackNix**: 
+- **CyberGate**: 
+- **Arabian-Attacker RAT**: 
+- **Cyber Eye RAT**: 
+- **BlackHole**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

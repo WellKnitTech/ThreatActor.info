@@ -31,7 +31,14 @@ RevengeHotels is a targeted cybercrime campaign that has been active since 2015,
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Trojan.Karagany**: 
+- **RemoteCMD**: 
+- **Trojan.Mebromi**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **Revenge-RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

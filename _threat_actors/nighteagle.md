@@ -39,7 +39,7 @@ NightEagle is an advanced Threat Actor that targeted China's High-Tech Industry 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
 
 ## Attribution and Evidence
 **Country of Origin**: United States

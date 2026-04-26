@@ -31,7 +31,7 @@ Earth Kurma is an APT group targeting government and telecommunications sectors 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CloudDuke**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

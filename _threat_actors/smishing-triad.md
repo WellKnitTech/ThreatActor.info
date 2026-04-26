@@ -33,7 +33,8 @@ The Smishing Triad is a Chinese-speaking threat group known for targeting postal
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

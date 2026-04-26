@@ -31,7 +31,16 @@ ExCobalt is an APT group that has been active since at least 2016 and is believe
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **RemoteCMD**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **Xploit**: 
+- **Archelaus Beta**: 
+- **Cobalt Strike**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

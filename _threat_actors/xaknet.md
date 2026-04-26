@@ -33,7 +33,8 @@ XakNet is a self-proclaimed hacktivist group that has targeted Ukraine. They cla
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

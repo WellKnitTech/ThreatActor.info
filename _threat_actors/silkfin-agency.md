@@ -31,7 +31,7 @@ SILKFIN AGENCY has claimed responsibility for multiple significant data breaches
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **RTM**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

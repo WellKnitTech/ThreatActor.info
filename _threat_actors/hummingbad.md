@@ -35,7 +35,10 @@ This group created a malware that takes over Android devices and generates $300,
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **MobileOrder**: 
+- **DroidJack**: 
+- **Androrat**: 
+- **Revenge-RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -32,7 +32,11 @@ Most recently, the actor claimed to have developed a credential-stealing botnet 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Net Crawler**: 
+- **RemoteCMD**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **DesktopNow**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

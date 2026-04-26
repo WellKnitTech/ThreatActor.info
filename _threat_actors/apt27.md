@@ -39,7 +39,7 @@ A China-based actor that targets foreign embassies to collect data on government
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

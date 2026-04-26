@@ -40,7 +40,16 @@ BRONZE VAPOR uses a set of tactics that, although not individually unique, when 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CloudDuke**: 
+- **RemoteCMD**: 
+- **Back Orifice**: 
+- **Back Orifice 2000**: 
+- **ClientMesh**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **SharpEye**: 
+- **Archelaus Beta**: 
+- **SharpBot**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

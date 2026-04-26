@@ -33,7 +33,11 @@ One of their notable tools is a custom backdoor called SockDetour, which operate
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **Windows Remote Desktop**: 
+- **Xploit**: 
+- **Socket23**: 
+- **SocketPlayer**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

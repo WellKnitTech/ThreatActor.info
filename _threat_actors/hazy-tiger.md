@@ -34,7 +34,8 @@ The Bitter threat group initially started using RAT tools in their campaigns, as
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **DroidJack**: 
+- **Androrat**: 
 
 ## Attribution and Evidence
 **Country of Origin**: India

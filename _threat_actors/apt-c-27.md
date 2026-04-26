@@ -31,7 +31,9 @@ A threat actor which is ac tive since at least November 2014. This group launche
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **DroidJack**: 
+- **Androrat**: 
+- **Windows Remote Desktop**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

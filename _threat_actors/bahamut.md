@@ -31,7 +31,8 @@ Bahamut is a threat actor primarily operating in Middle East and Central Asia, s
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **MobileOrder**: 
+- **DesktopNow**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

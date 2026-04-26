@@ -35,7 +35,10 @@ BRONZE SPIRAL has been associated with previous intrusions involving the targeti
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **WINDSHIELD**: 
+- **Nova**: 
+- **Xploit**: 
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

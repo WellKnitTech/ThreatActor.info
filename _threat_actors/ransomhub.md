@@ -41,7 +41,7 @@ RansomHub is a dominant ransomware-as-a-service operation that emerged in 2024 a
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Unknown

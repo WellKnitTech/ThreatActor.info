@@ -31,7 +31,10 @@ Daixin is a threat actor group that has been active since at least June 2022. Th
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **SPACESHIP**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

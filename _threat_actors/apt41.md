@@ -45,7 +45,8 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

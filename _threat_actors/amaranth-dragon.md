@@ -33,7 +33,7 @@ Amaranth-Dragon is a previously untracked threat actor assessed to be closely li
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

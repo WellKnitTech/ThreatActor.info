@@ -31,7 +31,9 @@ On April 7, 2017, Pytor Levashov — who predominantly used the alias Severa or 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **ZOMBIE SLAYER**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

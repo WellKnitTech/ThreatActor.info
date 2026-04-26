@@ -31,7 +31,9 @@ Water Bakunawa is a cybercriminal group identified by Trend Micro, responsible f
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

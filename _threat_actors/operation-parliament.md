@@ -42,7 +42,10 @@ With deception and false flags increasingly being employed by threat actors, att
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Unknown Logger**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **DesktopNow**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Unknown

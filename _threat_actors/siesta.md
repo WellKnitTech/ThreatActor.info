@@ -32,7 +32,10 @@ The Siesta campaign reinforces the fact that analysts and network defenders shou
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xpert**: 
+- **Deeper RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

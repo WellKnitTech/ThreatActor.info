@@ -31,7 +31,9 @@ Cosmic Lynx is a Russia-based BEC cybercriminal organization that has significan
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CosmicDuke**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

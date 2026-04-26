@@ -33,7 +33,8 @@ The group Microsoft tracks as Storm-2603 is assessed with medium confidence to b
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -31,7 +31,11 @@ Cloud security company Lacework says it discovered a threat actor group named Xc
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CloudDuke**: 
+- **gh0st**: 
+- **Gh0st RAT**: 
+- **Androrat**: 
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

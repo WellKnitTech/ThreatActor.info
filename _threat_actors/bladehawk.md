@@ -34,7 +34,7 @@ sector_focus: ["Government"]
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+*Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

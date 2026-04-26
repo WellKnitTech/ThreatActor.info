@@ -31,7 +31,12 @@ Trend Micro found that Earth Estries relies heavily on DLL sideloading to load v
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **PlugX**: 
+- **RemoteCMD**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **Cobalt Strike**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

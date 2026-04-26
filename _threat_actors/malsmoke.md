@@ -31,7 +31,9 @@ Malsmoke primarily targets Japanese users through malvertising campaigns that de
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Smoke Loader**: 
+- **Xploit**: 
+- **GraphicBooting**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

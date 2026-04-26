@@ -33,7 +33,9 @@ We believe this cluster of activity started in at least 2012 and was still activ
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Regin**: 
+- **TURNEDUP**: 
+- **Unknown Logger**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

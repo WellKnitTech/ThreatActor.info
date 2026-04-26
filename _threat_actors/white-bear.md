@@ -40,7 +40,8 @@ From February to September 2016, WhiteBear activity was narrowly focused on emba
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **RIPTIDE**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

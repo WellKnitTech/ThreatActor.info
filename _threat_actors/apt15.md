@@ -39,7 +39,7 @@ This threat actor uses phishing techniques to compromise the networks of foreign
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+*Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
 **Country of Origin**: China

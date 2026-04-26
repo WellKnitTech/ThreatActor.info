@@ -31,7 +31,9 @@ OilAlpha has almost exclusively relied on infrastructure associated with the Pub
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **DroidJack**: 
+- **Arabian-Attacker RAT**: 
+- **Androrat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

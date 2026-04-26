@@ -33,7 +33,8 @@ Curly COMrades is a threat actor identified by Amazon Threat Intelligence and Bi
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **ComRAT**: 
+- **Windows Remote Desktop**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

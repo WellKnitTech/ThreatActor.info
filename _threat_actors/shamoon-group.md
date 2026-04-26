@@ -35,7 +35,8 @@ Shamoon Group is an Iran-linked threat actor associated with destructive Shamoon
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Shamoon**: 
+- **Wiper**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

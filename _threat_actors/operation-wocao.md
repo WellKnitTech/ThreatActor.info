@@ -32,7 +32,8 @@ This report details the profile of a publicly underreported threat actor that Fo
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Hacking Team UEFI Rootkit**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

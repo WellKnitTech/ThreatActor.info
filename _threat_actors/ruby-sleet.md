@@ -33,7 +33,8 @@ Ruby Sleet is a threat actor linked to North Korea's Ministry of State Security.
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: North Korea

@@ -33,7 +33,7 @@ The campaign uses new delivery methods to deploy (most notably – HTML Smugglin
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **PlugX**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

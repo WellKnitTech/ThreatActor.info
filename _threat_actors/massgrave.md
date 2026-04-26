@@ -31,7 +31,10 @@ Massgrave is a hacking group that has developed a method to bypass Microsoft's s
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Hacking Team UEFI Rootkit**: 
+- **Agent.btz**: 
+- **Windows Remote Desktop**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

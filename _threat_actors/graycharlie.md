@@ -31,7 +31,8 @@ GrayCharlie is a threat actor that compromises WordPress sites to inject malicio
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CloudDuke**: 
+- **Netsupport Manager**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

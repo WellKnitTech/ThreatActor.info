@@ -33,7 +33,11 @@ The cyberattack campaign that Microsoft uncovered was launched by a China-linked
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Hacking Team UEFI Rootkit**: 
+- **China Chopper**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

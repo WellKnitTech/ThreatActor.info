@@ -33,7 +33,10 @@ Solntsepek is a threat actor group with ties to the Russian military unit GRU. T
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Hacking Team UEFI Rootkit**: 
+- **MobileOrder**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

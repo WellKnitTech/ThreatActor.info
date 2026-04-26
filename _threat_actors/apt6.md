@@ -39,7 +39,10 @@ Details regarding the actual attack and what government systems were infected ar
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Back Orifice**: 
+- **Back Orifice 2000**: 
+- **Xpert**: 
+- **Deeper RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

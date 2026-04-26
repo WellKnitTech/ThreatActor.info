@@ -43,7 +43,16 @@ The researchers say that PowerPool developers did not use the binary version of 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **PowerDuke**: 
+- **POWERSTATS**: 
+- **Power Loader**: 
+- **POWERSOURCE**: 
+- **Small-Net**: 
+- **Windows Remote Desktop**: 
+- **UNITEDRAKE**: 
+- **Xploit**: 
+- **Archelaus Beta**: 
+- **PowerRAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -39,7 +39,7 @@ menuPass is a threat group that has been active since at least 2006. Individual 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+*Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
 **Country of Origin**: China

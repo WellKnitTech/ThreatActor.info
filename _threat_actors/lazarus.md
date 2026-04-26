@@ -49,7 +49,10 @@ North Korea’s cyber operations have shown a consistent pattern of adaptation, 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Wiper**: 
+- **RemoteCMD**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
 
 ## Attribution and Evidence
 **Country of Origin**: North Korea

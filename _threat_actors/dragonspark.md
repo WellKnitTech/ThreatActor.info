@@ -33,7 +33,12 @@ DragonSpark is a threat actor that has been conducting attacks primarily targeti
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Trojan.Karagany**: 
+- **China Chopper**: 
+- **RemoteCMD**: 
+- **Trojan.Mebromi**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

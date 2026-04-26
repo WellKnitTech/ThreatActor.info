@@ -31,7 +31,7 @@ DarkGaboon is a financially motivated APT group that has been independently targ
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Revenge-RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

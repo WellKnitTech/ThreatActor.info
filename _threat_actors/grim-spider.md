@@ -33,7 +33,7 @@ Grim Spider is reportedly associated with Lunar Spider and Wizard Spider.
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

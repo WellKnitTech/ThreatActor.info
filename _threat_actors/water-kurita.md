@@ -31,7 +31,9 @@ Water Kurita is a financially motivated cybercriminal entity associated with the
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **RIPTIDE**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

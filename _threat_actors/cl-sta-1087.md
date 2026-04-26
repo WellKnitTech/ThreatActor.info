@@ -33,7 +33,10 @@ CL-STA-1087 is a suspected state-sponsored espionage campaign operating out of C
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CloudDuke**: 
+- **China Chopper**: 
+- **Back Orifice**: 
+- **Back Orifice 2000**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

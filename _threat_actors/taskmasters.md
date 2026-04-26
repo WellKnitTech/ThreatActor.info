@@ -33,7 +33,9 @@ TaskMasters is a state-sponsored Chinese APT that has been active since at least
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **Trojan.Karagany**: 
+- **Trojan.Mebromi**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

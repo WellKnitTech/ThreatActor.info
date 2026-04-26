@@ -35,7 +35,10 @@ A closer look at this campaign allowed us to tie it to other operations which we
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Unknown Logger**: 
+- **Back Orifice**: 
+- **Back Orifice 2000**: 
+- **Virus RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

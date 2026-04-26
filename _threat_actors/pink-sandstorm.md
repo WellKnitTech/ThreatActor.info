@@ -33,7 +33,7 @@ Agonizing Serpens is an Iranian-linked APT group that has been active since 2020
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Wiper**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

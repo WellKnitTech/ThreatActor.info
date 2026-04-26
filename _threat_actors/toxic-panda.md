@@ -35,7 +35,7 @@ A group targeting dissident groups in China and at the boundaries.
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

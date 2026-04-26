@@ -33,7 +33,7 @@ EvilWeb is a pro-Russian hacktivist group created in March 2024 that targets Ame
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Hacking Team UEFI Rootkit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

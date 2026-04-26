@@ -31,7 +31,9 @@ DarkCasino is an economically motivated APT group that targets online trading pl
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **DarkComet**: 
+- **Xploit**: 
+- **Killer RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

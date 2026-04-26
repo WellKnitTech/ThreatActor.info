@@ -33,7 +33,10 @@ Bignosa is a threat actor known for launching malware campaigns targeting Austra
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Agent.btz**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Sandro RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Kenya

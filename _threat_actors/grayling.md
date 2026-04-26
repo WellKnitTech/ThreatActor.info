@@ -38,7 +38,9 @@ Grayling activity was first observed in early 2023, when a number of victims wer
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Unknown Logger**: 
+- **UNITEDRAKE**: 
+- **Cobalt Strike**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -31,7 +31,9 @@ ThreatSec is a hacktivist group that has targeted various organizations, includi
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Ghost**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

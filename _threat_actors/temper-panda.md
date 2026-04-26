@@ -39,7 +39,11 @@ China-based cyber threat group. It has previously used newsworthy events as lure
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **PoisonIvy**: 
+- **China Chopper**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

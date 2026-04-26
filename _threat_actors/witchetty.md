@@ -33,7 +33,9 @@ Witchetty was first documented by ESET in April 2022, who concluded that it was 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

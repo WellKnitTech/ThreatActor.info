@@ -33,7 +33,14 @@ Earth Baxia is a threat actor opearting out of China, targeting government organ
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **China Chopper**: 
+- **RemoteCMD**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **Xploit**: 
+- **Cobalt Strike**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

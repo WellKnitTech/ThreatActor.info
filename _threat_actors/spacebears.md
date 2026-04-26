@@ -33,7 +33,10 @@ SpaceBears is a ransomware group believed to be based in Moscow, Russia, that ha
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **SPACESHIP**: 
+- **CyberGate**: 
+- **Small-Net**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

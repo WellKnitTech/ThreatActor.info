@@ -39,7 +39,11 @@ In 2014, researchers at Kaspersky Lab discovered and reported on three zero-days
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Back Orifice**: 
+- **Back Orifice 2000**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 **Country of Origin**: France

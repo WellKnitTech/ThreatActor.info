@@ -31,7 +31,7 @@ TetrisPhantom relies on compromising of certain type of secure USB drives that p
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xpert**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

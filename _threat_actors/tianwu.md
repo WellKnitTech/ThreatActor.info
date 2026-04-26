@@ -38,7 +38,7 @@ sector_focus: ["Private Sector", "Gambling companies", "Gaming", "Information te
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+*Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
 **Country of Origin**: China

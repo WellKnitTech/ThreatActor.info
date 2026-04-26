@@ -33,7 +33,7 @@ CrowdStrike Intelligence has recently observed PINCHY SPIDER affiliates deployin
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **PinchDuke**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -39,7 +39,7 @@ This threat actor targets the South Korean government, transportation, and energ
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+*Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
 **Country of Origin**: North Korea

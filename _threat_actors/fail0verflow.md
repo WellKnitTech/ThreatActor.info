@@ -31,7 +31,8 @@ Fail0verflow is a hacking group known for exploiting vulnerabilities in gaming c
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Hacking Team UEFI Rootkit**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

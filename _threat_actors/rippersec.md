@@ -33,7 +33,7 @@ RipperSec is a pro-Palestinian, likely Malaysian hacktivist group created in Jun
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Mega**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Malaysia

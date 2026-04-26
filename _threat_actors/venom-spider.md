@@ -31,7 +31,11 @@ VENOM SPIDER is the developer of a large toolset that includes SKID, VenomKit an
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **PinchDuke**: 
+- **Venomous Ivy**: 
+- **Xploit**: 
+- **Cobalt Strike**: 
+- **Cardinal**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

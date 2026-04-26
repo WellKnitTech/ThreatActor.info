@@ -36,7 +36,12 @@ An actor mainly targeting Pakistan military targets, active since at least 2012.
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **PowerDuke**: 
+- **POWERSTATS**: 
+- **Power Loader**: 
+- **POWERSOURCE**: 
+- **Xploit**: 
+- **PowerRAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: India

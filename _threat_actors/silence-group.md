@@ -33,7 +33,12 @@ Silence is a group of Russian-speaking hackers, based on their commands language
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **S-Type**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xpert**: 
+- **GraphicBooting**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

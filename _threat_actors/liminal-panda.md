@@ -33,7 +33,10 @@ LIMINAL PANDA is a China-nexus APT that targets telecommunications entities, emp
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **MobileOrder**: 
+- **SHIPSHAPE**: 
+- **China Chopper**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

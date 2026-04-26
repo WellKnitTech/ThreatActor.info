@@ -31,7 +31,9 @@ CashRewindo is a sophisticated threat actor leveraging aged domains in global ma
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Windows Remote Desktop**: 
+- **Xploit**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

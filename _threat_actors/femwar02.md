@@ -33,7 +33,11 @@ Femwar02 is a previously unknown pro-Russian ransomware threat actor that emerge
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Unknown Logger**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Windows Remote Desktop**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

@@ -34,7 +34,12 @@ SharpPanda, an APT group originating from China, has seen a rise in its cyber-at
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **China Chopper**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **SharpEye**: 
+- **SharpBot**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

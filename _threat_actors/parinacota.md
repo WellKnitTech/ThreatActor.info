@@ -35,7 +35,11 @@ The group adopted the RDP brute force technique that the older ransomware called
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **RemoteCMD**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **DesktopNow**: 
+- **Mega**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

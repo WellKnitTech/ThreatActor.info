@@ -31,7 +31,7 @@ GOLD WINTER are a financially motivated group, likely based in Russia, who opera
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -33,7 +33,8 @@ TStark is a threat actor identified by X-Ops, associated with a cluster of devic
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

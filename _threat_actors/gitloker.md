@@ -31,7 +31,7 @@ Gitloker is a threat actor group targeting GitHub repositories, wiping their con
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

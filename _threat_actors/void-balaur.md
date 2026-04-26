@@ -31,7 +31,9 @@ Void Balaur is a highly active hack-for-hire / cyber mercenary group with a wide
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

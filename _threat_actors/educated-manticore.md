@@ -33,7 +33,12 @@ Educated Manticore is an Iranian APT group aligned with the Islamic Revolutionar
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **PowerDuke**: 
+- **POWERSTATS**: 
+- **Power Loader**: 
+- **POWERSOURCE**: 
+- **PowerRAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

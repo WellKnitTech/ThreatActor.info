@@ -33,7 +33,7 @@ In March 2022, a hacking group calling themselves N4ughtySecTU claimed to have b
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Hacking Team UEFI Rootkit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Brazil

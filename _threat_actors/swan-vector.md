@@ -31,7 +31,8 @@ Seqrite Labs APT-Team has recently uncovered a campaign which we have termed as 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -31,7 +31,12 @@ The Gentlemen is a ransomware group that employs a dual-extortion strategy, encr
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **PowerDuke**: 
+- **POWERSTATS**: 
+- **Power Loader**: 
+- **POWERSOURCE**: 
+- **PowerRAT**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

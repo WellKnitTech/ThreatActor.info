@@ -47,7 +47,8 @@ APT28 reportedly compromised the Hillary Clinton campaign, the Democratic Nation
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

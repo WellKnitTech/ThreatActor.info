@@ -31,7 +31,9 @@ GOLD EVERGREEN was a financially motivated cybercriminal threat group that opera
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **P2P ZeuS**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

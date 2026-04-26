@@ -31,7 +31,8 @@ Kazu is a financially motivated ransomware group known for employing a double ex
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Dark DDoSeR**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

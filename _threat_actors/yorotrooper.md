@@ -31,7 +31,7 @@ YoroTrooper’s main targets are government or energy organizations in Azerbaija
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+*Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

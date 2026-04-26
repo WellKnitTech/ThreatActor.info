@@ -32,7 +32,8 @@ SHADOW-VOID-042 is a provisional intrusion set tracked by Trend Micro, active in
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

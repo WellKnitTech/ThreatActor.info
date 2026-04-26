@@ -31,7 +31,10 @@ Linkc is a newly emerged ransomware group that operates an onion-based data leak
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CloudDuke**: 
+- **OnionDuke**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

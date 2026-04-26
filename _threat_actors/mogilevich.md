@@ -31,7 +31,9 @@ Mogilevich is a ransomware group known for claiming to breach organizations like
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **RTM**: 
+- **Epic**: 
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

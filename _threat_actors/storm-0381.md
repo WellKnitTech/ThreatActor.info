@@ -33,7 +33,8 @@ Storm-0381 is a threat actor identified by Microsoft as a Russian cybercrime gro
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

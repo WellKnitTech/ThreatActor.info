@@ -33,7 +33,15 @@ puNK-003 is a North Korean APT group known for deploying the Lilith RAT, a sophi
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **SLOWDRIFT**: 
+- **AutoIt backdoor**: 
+- **Trojan.Karagany**: 
+- **RemoteCMD**: 
+- **Trojan.Mebromi**: 
+- **Virus RAT**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **Konni**: 
 
 ## Attribution and Evidence
 **Country of Origin**: North Korea

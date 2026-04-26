@@ -31,7 +31,7 @@ ViciousTrap has compromised over 5,500 edge devices, transforming them into hone
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Ghost**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

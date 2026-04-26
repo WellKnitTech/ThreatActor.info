@@ -6,6 +6,7 @@ require 'fileutils'
 require 'json'
 require 'net/http'
 require 'optparse'
+require 'set'
 require 'time'
 require 'uri'
 require 'yaml'
@@ -336,6 +337,9 @@ class MispGalaxyImporter
     # Extract incident type (motivation)
     incident_type = meta['cfr-type-of-incident']
     
+    # Extract malware from description by matching MITRE malware/rat names
+    malware_list = extract_malware_from_description(misp['description'])
+    
     # Clean up refs - truncate long PDF URLs
     refs = []
     (meta['refs'] || []).each do |ref_url|
@@ -359,17 +363,20 @@ class MispGalaxyImporter
     risk_level = nil
     if meta['attribution-confidence']
       confidence = meta['attribution-confidence'].to_i
-      risk_level = if confidence >= 70
-                  'Critical'
-                elsif confidence >= 50
-                  'High'
-                elsif confidence >= 30
-                  'Medium'
-                else
-                  'Low'
-                end
+risk_level = if confidence >= 70
+                   'Critical'
+                 elsif confidence >= 50
+                   'High'
+                 elsif confidence >= 30
+                   'Medium'
+                 else
+                   'Low'
+                 end
     end
-
+    
+    # Build malware list from description
+    malware_list = extract_malware_from_description(misp['description'])
+    
     # Build URL slug
     url = "/#{name.downcase.gsub(/[^a-z0-9]/, '-').squeeze('-').gsub(/^-|-$/, '')}"
 
@@ -383,10 +390,48 @@ class MispGalaxyImporter
       sector_focus: sector_focus,
       targeted_victims: targeted_victims,
       incident_type: incident_type,
+      malware: malware_list,
       refs: refs,
       misp_uuid: misp['uuid'],
       misp_meta: meta
     }
+  end
+  
+  # Extract malware names from description by matching MITRE reference data
+  def extract_malware_from_description(description)
+    return [] unless description
+    
+    malware_list = []
+    
+    # Load MITRE malware reference if not cached
+    @malware_names ||= begin
+      Set.new.tap do |set|
+        malware_file = 'data/misp-reference/malware.json'
+        if File.exist?(malware_file)
+          JSON.parse(File.read(malware_file))["values"].each do |v|
+            set << v["value"].split(" - ").first
+          end
+        end
+        
+        rat_file = 'data/misp-reference/rat.json'
+        if File.exist?(rat_file)
+          JSON.parse(File.read(rat_file))["values"].each do |v|
+            set << v["value"].split(" - ").first
+          end
+        end
+      end
+    end
+    
+    # Find malware in description
+    @malware_names.each do |mw|
+      mw_clean = mw.gsub(/[.\-]/, ' ').downcase
+      desc_clean = description.downcase
+      if desc_clean.include?(mw_clean) || mw_clean.length > 4 && desc_clean.include?(mw[0..4].downcase)
+        malware_list << { 'name' => mw }
+      end
+    end
+    
+    malware_list.first(10)  # Limit to 10 malware
   end
 
   # Load existing actors from YAML
@@ -471,6 +516,7 @@ class MispGalaxyImporter
     actor_entry['sector_focus'] = candidate[:sector_focus] if candidate[:sector_focus] && !candidate[:sector_focus].empty?
     actor_entry['targeted_victims'] = candidate[:targeted_victims] if candidate[:targeted_victims] && !candidate[:targeted_victims].empty?
     actor_entry['incident_type'] = candidate[:incident_type] if candidate[:incident_type]
+    actor_entry['malware'] = candidate[:malware] if candidate[:malware] && !candidate[:malware].empty?
 
     # Add provenance
     actor_entry['provenance'] = {
@@ -501,12 +547,13 @@ class MispGalaxyImporter
       new_aliases = candidate[:aliases] - existing_aliases
       actor['aliases'] = existing_aliases | new_aliases unless new_aliases.empty?
 
-      # Update missing fields
+# Update missing fields
       actor['risk_level'] ||= candidate[:risk_level]
       actor['sector_focus'] ||= candidate[:sector_focus] if candidate[:sector_focus] && !candidate[:sector_focus].empty?
-      actor['country'] ||= candidate[:country] if candidate[:country]
+      actor['country'] ||= candidate[:country]
       actor['targeted_victims'] ||= candidate[:targeted_victims] if candidate[:targeted_victims] && !candidate[:targeted_victims].empty?
       actor['incident_type'] ||= candidate[:incident_type] if candidate[:incident_type]
+      actor['malware'] ||= candidate[:malware] if candidate[:malware] && !candidate[:malware].empty?
 
       puts "Updated (additive): #{candidate[:name]}"
     else

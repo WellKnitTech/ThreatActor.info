@@ -32,7 +32,7 @@ SOLAR SPIDER’s phishing campaigns deliver the JSOutProx RAT to financial insti
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

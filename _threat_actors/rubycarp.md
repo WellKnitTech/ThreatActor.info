@@ -31,7 +31,8 @@ RUBYCARP is a financially-motivated threat actor group likely based in Romania, 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **StreamEx**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

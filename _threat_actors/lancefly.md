@@ -31,7 +31,9 @@ Lancefly targets government, aviation, and telecom organizations in South and So
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **PlugX**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

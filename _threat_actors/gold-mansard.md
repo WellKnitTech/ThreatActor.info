@@ -31,7 +31,8 @@ GOLD MANSARD is a financially motivated cybercriminal threat group that operated
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

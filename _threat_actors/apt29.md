@@ -47,7 +47,16 @@ In April 2021, the US and UK governments attributed the SolarWinds Compromise to
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CosmicDuke**: 
+- **PinchDuke**: 
+- **CloudDuke**: 
+- **HAMMERTOSS**: 
+- **GeminiDuke**: 
+- **MiniDuke**: 
+- **SeaDuke**: 
+- **RTM**: 
+- **OnionDuke**: 
+- **CyberGate**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

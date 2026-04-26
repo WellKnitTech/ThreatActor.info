@@ -32,7 +32,12 @@ The Crimson Collective is a cybercrime group that claimed to have compromised Re
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Crimson**: 
+- **ClientMesh**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xploit**: 
+- **Client Maximus**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -31,7 +31,10 @@ NSFOCUS Security Labs recently discovered a new attack process based on phishing
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Trojan.Karagany**: 
+- **Trojan.Mebromi**: 
+- **Deeper RAT**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

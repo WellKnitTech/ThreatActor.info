@@ -34,7 +34,7 @@ A group targeting various countries using Denial of Services attacked.
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+*Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

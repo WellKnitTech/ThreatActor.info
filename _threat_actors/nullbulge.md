@@ -31,7 +31,8 @@ NullBulge is a cybercriminal threat group targeting AI and gaming focused entiti
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

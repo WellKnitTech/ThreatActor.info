@@ -31,7 +31,8 @@ Void Banshee is an APT group targeting North America, Europe, and Southeast Asia
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Windows Remote Desktop**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

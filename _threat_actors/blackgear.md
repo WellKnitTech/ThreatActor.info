@@ -34,7 +34,12 @@ Like most campaigns, BLACKGEAR has evolved over time. Our research indicates tha
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **BlackEnergy**: 
+- **Backdoor.Oldrea**: 
+- **BLACKCOFFEE**: 
+- **Blackshades**: 
+- **BlackNix**: 
+- **BlackHole**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

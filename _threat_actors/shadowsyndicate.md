@@ -31,7 +31,7 @@ ShadowSyndicate is a threat actor associated with various ransomware groups, usi
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

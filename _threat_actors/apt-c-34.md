@@ -31,7 +31,10 @@ As reported by ZDNet, Chinese cyber-security vendor Qihoo 360 published a report
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Hacking Team UEFI Rootkit**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

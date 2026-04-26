@@ -31,7 +31,7 @@ NewsPenguin is threat actor that has been targeting organizations in Pakistan. T
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

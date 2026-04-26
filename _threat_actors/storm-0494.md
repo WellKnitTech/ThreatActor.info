@@ -31,7 +31,10 @@ Storm-0494 is a threat actor that facilitates Gootloader infections, which are t
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **AnyDesk**: 
+- **Xploit**: 
+- **Mega**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

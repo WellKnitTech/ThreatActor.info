@@ -31,7 +31,12 @@ Shadows in the Cloud documents a complex ecosystem of cyber espionage that syste
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CloudDuke**: 
+- **China Chopper**: 
+- **Unknown Logger**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **UNITEDRAKE**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -32,7 +32,11 @@ The vast majority of the victims were based in India, with some in Malaysia. The
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
+- **Arabian-Attacker RAT**: 
+- **Minimo**: 
+- **Xploit**: 
+- **Killer RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -31,7 +31,8 @@ What sets Urpage attacks apart is its targeting of InPage, a word processor for 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **Arabian-Attacker RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

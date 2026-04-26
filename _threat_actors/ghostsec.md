@@ -31,7 +31,7 @@ GhostSec is a hacktivist group that emerged as an offshoot of Anonymous. They pr
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Ghost**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

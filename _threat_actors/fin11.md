@@ -31,7 +31,9 @@ FIN11 is a well-established financial crime group that has recently focused its 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Net Devil**: 
+- **Xploit**: 
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

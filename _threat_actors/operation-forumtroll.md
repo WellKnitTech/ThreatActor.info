@@ -31,7 +31,10 @@ Operation ForumTroll is a sophisticated cyber espionage campaign discovered by K
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Chrome Remote Desktop**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

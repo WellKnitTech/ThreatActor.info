@@ -31,7 +31,8 @@ Prying Libra, also known as Pickaxe, is a threat actor active since at least Aug
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Miner-C**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -31,7 +31,8 @@ A criminal group dubbed Cobalt is behind synchronized ATM heists that saw machin
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Cobalt Strike**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

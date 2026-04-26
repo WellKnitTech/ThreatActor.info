@@ -39,7 +39,7 @@ A Russian group that collects intelligence on the energy industry.
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+*Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

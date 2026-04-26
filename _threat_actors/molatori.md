@@ -31,7 +31,12 @@ Molatori is a threat actor group identified by Malwarebytes researchers, known f
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **RemoteCMD**: 
+- **ClientMesh**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **Archelaus Beta**: 
+- **Client Maximus**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

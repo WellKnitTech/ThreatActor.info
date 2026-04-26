@@ -31,7 +31,9 @@ COBALT KATANA has been active since at least March 2018, and it focuses many of 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **Archelaus Beta**: 
+- **Cobalt Strike**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

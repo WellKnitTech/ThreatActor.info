@@ -31,7 +31,8 @@ GTFire is a threat actor that leverages Google Firebase for hosting phishing pag
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **HTTP WEB BACKDOOR**: 
+- **Minimo**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

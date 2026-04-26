@@ -31,7 +31,7 @@ In the first quarter of 2018, CrowdStrike Intelligence identified NOMAD PANDA ac
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

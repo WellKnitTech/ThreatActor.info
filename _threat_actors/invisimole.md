@@ -34,7 +34,7 @@ Adversary group targeting diplomatic missions, governmental and military organis
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+*Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

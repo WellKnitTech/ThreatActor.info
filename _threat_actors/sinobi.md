@@ -32,7 +32,8 @@ Sinobi is an active extortion or ransomware group tracked by RansomLook.
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

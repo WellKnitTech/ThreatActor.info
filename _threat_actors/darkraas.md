@@ -31,7 +31,8 @@ DarkRaaS is a threat actor specializing in selling unauthorized access to variou
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **DarkRat**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

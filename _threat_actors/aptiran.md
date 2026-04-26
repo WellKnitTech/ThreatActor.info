@@ -33,7 +33,8 @@ APTIran has claimed responsibility for a large-scale campaign targeting Israeli 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Offence**: 
+- **ZOMBIE SLAYER**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

@@ -32,7 +32,12 @@ Dragos has identified a new activity group targeting access operations in the el
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **RemoteCMD**: 
+- **Back Orifice**: 
+- **Back Orifice 2000**: 
+- **Remote Utilities**: 
+- **Windows Remote Desktop**: 
+- **RemotePC**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

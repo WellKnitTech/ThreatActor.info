@@ -31,7 +31,8 @@ Hellhounds is an APT group targeting organizations in Russia, using a modified v
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **SHIPSHAPE**: 
+- **Pupy**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

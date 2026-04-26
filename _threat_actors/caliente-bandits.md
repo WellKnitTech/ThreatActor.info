@@ -31,7 +31,12 @@ Caliente Bandits is a highly active threat group that targets multiple industrie
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Trojan.Karagany**: 
+- **RemoteCMD**: 
+- **Trojan.Mebromi**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **Bandook RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

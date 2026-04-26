@@ -32,7 +32,10 @@ Recently, Kaspersky has discovered that this group is testing a new monetization
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **DroidJack**: 
+- **Androrat**: 
+- **Chrome Remote Desktop**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

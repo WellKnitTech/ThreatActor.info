@@ -37,7 +37,8 @@ This group's activity was first observed in November 2013. It leverages a bankin
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Trojan.Karagany**: 
+- **Trojan.Mebromi**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

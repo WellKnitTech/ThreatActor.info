@@ -31,7 +31,10 @@ Desorden (Disorder in Spanish, previously known as ChaosCC), is a financially mo
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Hacking Team UEFI Rootkit**: 
+- **Chaos**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -33,7 +33,12 @@ GREF is a China-aligned APT group that has been active since at least March 2017
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **Trojan.Karagany**: 
+- **China Chopper**: 
+- **Trojan.Mebromi**: 
+- **DroidJack**: 
+- **Androrat**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

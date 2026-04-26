@@ -37,7 +37,7 @@ Curious Gorge, a group TAG attributes to China's PLA SSF, has conducted campaign
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

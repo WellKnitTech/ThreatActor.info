@@ -31,7 +31,8 @@ ScreamedJungle is a threat actor that exploits vulnerabilities in outdated Magen
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Agent.btz**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

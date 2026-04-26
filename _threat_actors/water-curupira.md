@@ -31,7 +31,12 @@ With its emergence in 2022, Water Curupira has established itself as a persisten
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **BlackEnergy**: 
+- **BLACKCOFFEE**: 
+- **Blackshades**: 
+- **BlackNix**: 
+- **BlackHole**: 
+- **Cobalt Strike**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

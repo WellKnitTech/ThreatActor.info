@@ -40,7 +40,9 @@ This threat actor targets organizations involved in oil, gas, and electricity pr
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Unknown

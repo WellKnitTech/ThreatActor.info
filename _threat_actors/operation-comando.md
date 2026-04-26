@@ -31,7 +31,12 @@ Operation Comando is a pure cybercrime campaign, possibly with Brazilian origin,
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **RemoteCMD**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **Minimo**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

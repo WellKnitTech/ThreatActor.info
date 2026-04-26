@@ -33,7 +33,9 @@ DiceyF is an advanced persistent threat group that has been targeting online cas
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **PlugX**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

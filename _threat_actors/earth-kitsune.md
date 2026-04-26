@@ -31,7 +31,7 @@ Earth Kitsune is an advanced persistent threat actor that has been active since 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

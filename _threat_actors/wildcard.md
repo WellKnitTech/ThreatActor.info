@@ -31,7 +31,7 @@ Wildcard is a threat actor that initially targeted Israel's educational sector w
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Unknown Logger**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

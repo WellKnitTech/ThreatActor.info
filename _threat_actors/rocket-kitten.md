@@ -39,7 +39,9 @@ Targets Saudi Arabia, Israel, US, Iran, high ranking defense officials, embassie
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Arabian-Attacker RAT**: 
+- **Nuclear RAT**: 
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

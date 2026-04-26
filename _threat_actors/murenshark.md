@@ -31,7 +31,8 @@ MurenShark is an advanced persistent threat group that operates primarily in the
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **SharK**: 
+- **Killer RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

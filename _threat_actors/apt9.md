@@ -36,7 +36,12 @@ APT9 engages in cyber operations where the goal is data theft, usually focusing 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **RemoteCMD**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

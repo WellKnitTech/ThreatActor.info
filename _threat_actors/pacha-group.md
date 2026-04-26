@@ -31,7 +31,7 @@ Antd is a miner found in the wild on September 18, 2018. Recently we discovered 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Miner-C**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

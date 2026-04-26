@@ -31,7 +31,11 @@ ByteToBreach is a prolific cybercriminal who operates across multiple platforms,
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CloudDuke**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xploit**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

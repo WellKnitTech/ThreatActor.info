@@ -33,7 +33,7 @@ Storm-0940 is a Chinese threat actor active since at least 2021, known for gaini
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

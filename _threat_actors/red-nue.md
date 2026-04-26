@@ -33,7 +33,10 @@ Red Nue, active since at least 2017, is known for its use of the multi-platform 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **DroidJack**: 
+- **Androrat**: 
+- **Windows Remote Desktop**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

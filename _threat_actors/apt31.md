@@ -33,7 +33,7 @@ FireEye characterizes APT31 as an actor specialized on intellectual property the
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **StreamEx**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

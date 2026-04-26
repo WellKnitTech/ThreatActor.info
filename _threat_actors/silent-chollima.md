@@ -35,7 +35,7 @@ Andariel is a threat actor that primarily targets South Korean corporations and 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: North Korea

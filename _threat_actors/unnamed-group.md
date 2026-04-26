@@ -35,7 +35,13 @@ Black Box–Unlike the previous two channels this has been around for a long tim
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **BlackEnergy**: 
+- **Unknown Logger**: 
+- **BLACKCOFFEE**: 
+- **Blackshades**: 
+- **BlackNix**: 
+- **Minimo**: 
+- **BlackHole**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -33,7 +33,7 @@ XinXin is a Chinese-speaking threat actor known for its phishing-as-a-service pl
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

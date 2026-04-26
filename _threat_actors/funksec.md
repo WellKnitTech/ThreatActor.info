@@ -31,7 +31,7 @@ Funksec is a newly identified extortion group that has claimed 11 victims across
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

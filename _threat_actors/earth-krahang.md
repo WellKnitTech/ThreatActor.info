@@ -33,7 +33,12 @@ Earth Krahang is an APT group targeting government organizations worldwide. They
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **China Chopper**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xploit**: 
+- **Cobalt Strike**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

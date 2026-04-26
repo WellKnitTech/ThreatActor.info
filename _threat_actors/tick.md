@@ -39,7 +39,9 @@ Tick is a cyber espionage group with likely Chinese origins that has been active
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **UNITEDRAKE**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -33,7 +33,9 @@ FrostyNeighbor is a Belarus-aligned APT group known for conducting influence and
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Belarus

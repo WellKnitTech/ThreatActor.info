@@ -31,7 +31,10 @@ WhiteCobra is a threat actor that has infiltrated the Visual Studio Code marketp
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Unknown Logger**: 
+- **Windows Remote Desktop**: 
+- **Archelaus Beta**: 
+- **Revenge-RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

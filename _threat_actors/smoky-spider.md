@@ -31,7 +31,7 @@ Mentioned as operator of SmokeLoader in CrowdStrike's 2020 Report.
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Smoke Loader**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

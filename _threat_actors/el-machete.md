@@ -39,7 +39,7 @@ El Machete is one of these threats that was first publicly disclosed and named b
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Minimo**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Unknown

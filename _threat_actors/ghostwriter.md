@@ -38,7 +38,7 @@ Ghostwriter is referred as an 'activity set', with various incidents tied togeth
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Ghost**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Belarus

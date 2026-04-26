@@ -31,7 +31,9 @@ CosmicBeetle is a threat actor known for deploying the ScRansom ransomware, whic
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CosmicDuke**: 
+- **SPACESHIP**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

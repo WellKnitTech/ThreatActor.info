@@ -31,7 +31,15 @@ Team46 is a sophisticated APT group active since at least late 2024, targeting R
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **PowerDuke**: 
+- **POWERSTATS**: 
+- **Power Loader**: 
+- **POWERSOURCE**: 
+- **Chrome Remote Desktop**: 
+- **Xploit**: 
+- **Cobalt Strike**: 
+- **PowerRAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

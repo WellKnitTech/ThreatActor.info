@@ -33,7 +33,7 @@ SilkSpecter is a Chinese financially motivated threat actor that orchestrates ph
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

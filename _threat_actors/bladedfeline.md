@@ -33,7 +33,10 @@ BladedFeline is an Iran-aligned APT group that has been active since at least 20
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

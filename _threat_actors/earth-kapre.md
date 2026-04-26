@@ -31,7 +31,13 @@ Earth Kapre is an APT group specializing in cyberespionage. They target organiza
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **PowerDuke**: 
+- **POWERSTATS**: 
+- **Power Loader**: 
+- **POWERSOURCE**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **PowerRAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -32,7 +32,7 @@ Since January 23, 2023, a threat actor identifying as "Anonymous Sudan" has been
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+*Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

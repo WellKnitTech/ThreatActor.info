@@ -31,7 +31,7 @@ Hagga is believed to have been using Agent Tesla, 2021’s sixth most prevalent 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Agent.btz**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -31,7 +31,9 @@ OverFlame is a hacktivist group known for executing DDoS attacks and website def
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Flame**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

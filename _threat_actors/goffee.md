@@ -31,7 +31,12 @@ GOFFEE is a threat actor that has targeted entities in the Russian Federation si
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **PowerDuke**: 
+- **POWERSTATS**: 
+- **Agent.btz**: 
+- **Power Loader**: 
+- **POWERSOURCE**: 
+- **PowerRAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

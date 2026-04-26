@@ -31,7 +31,9 @@ Rostelecom's security team has discovered a new APT group that is breaching comp
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Starloader**: 
+- **Back Orifice**: 
+- **Back Orifice 2000**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

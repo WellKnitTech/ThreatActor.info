@@ -33,7 +33,13 @@ Storm-1084 is a threat actor that has been observed collaborating with the Muddy
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **CloudDuke**: 
+- **PowerDuke**: 
+- **POWERSTATS**: 
+- **Power Loader**: 
+- **POWERSOURCE**: 
+- **PowerRAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

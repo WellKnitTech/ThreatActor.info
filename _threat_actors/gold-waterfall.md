@@ -31,7 +31,11 @@ GOLD WATERFALL is a group of financially motivated cybercriminals responsible fo
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **RemoteCMD**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

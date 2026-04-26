@@ -33,7 +33,8 @@ RaHDit is a pro-Kremlin hacktivist group known for orchestrating hack-and-leak o
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

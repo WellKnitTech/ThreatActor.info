@@ -34,7 +34,7 @@ ROMCOM is an evolving and sophisticated threat actor group that has been using t
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

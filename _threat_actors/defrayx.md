@@ -31,7 +31,7 @@ DefrayX is a threat actor group known for their RansomExx ransomware operations.
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Windows Remote Desktop**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

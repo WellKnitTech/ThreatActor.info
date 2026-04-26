@@ -31,7 +31,8 @@ ALPHA SPIDER is a threat actor known for developing and operating the Alphv rans
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Offence**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

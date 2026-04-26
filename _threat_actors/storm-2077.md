@@ -33,7 +33,9 @@ TAG-100 is a cyber-espionage APT that targets government and private sector orga
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

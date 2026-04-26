@@ -31,7 +31,7 @@ OVERLORD SPIDER, aka The Dark Overlord. Similar to ransomware operators today, O
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Dark DDoSeR**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

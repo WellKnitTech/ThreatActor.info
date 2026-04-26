@@ -33,7 +33,9 @@ Confucius is an APT organization funded by India. It has been carrying out cyber
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: India

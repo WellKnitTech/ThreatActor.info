@@ -34,7 +34,7 @@ NoName057(16) is performing DDoS attacks on websites belonging to governments, n
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+*Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

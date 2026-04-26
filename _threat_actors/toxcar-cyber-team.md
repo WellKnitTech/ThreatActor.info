@@ -31,7 +31,9 @@ The Toxcar Cyber Team has claimed responsibility for a data leak involving Maste
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Virus RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

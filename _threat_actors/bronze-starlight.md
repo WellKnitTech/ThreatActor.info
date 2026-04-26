@@ -34,7 +34,13 @@ CTU researchers assess with moderate confidence that BRONZE STARLIGHT is located
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Starloader**: 
+- **Smoke Loader**: 
+- **PlugX**: 
+- **China Chopper**: 
+- **Archelaus Beta**: 
+- **Cobalt Strike**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -33,7 +33,10 @@ Bearlyfy has been attributed to over 70 cyber attacks targeting Russian companie
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Windows Remote Desktop**: 
+- **Minimo**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Ukraine

@@ -31,7 +31,10 @@ Researchers at FireEye report finding a hacking group (dubbed NOTROBIN) that has
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **Hacking Team UEFI Rootkit**: 
+- **Xploit**: 
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

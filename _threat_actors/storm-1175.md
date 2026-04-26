@@ -33,7 +33,10 @@ Storm-1175 is a cybercriminal group known for deploying Medusa ransomware and ex
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xploit**: 
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

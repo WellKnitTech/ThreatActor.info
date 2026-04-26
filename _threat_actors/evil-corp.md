@@ -31,7 +31,8 @@ Evil Corp is an internaltional cybercrime network. In December of 2019 the US Fe
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

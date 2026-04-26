@@ -31,7 +31,11 @@ Storm-1674 is an access broker known for using tools based on the publicly avail
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **BlackEnergy**: 
+- **BLACKCOFFEE**: 
+- **Blackshades**: 
+- **BlackNix**: 
+- **BlackHole**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

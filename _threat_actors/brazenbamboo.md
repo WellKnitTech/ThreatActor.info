@@ -33,7 +33,9 @@ BrazenBamboo is a Chinese state-affiliated threat actor known for developing the
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **ClientMesh**: 
+- **Xploit**: 
+- **Client Maximus**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

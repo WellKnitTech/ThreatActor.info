@@ -31,7 +31,7 @@ SingularityMD is a threat actor group that has targeted educational institutions
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

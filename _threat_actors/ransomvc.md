@@ -31,7 +31,7 @@ Ransomed.VC burst onto the scene with a well-orchestrated PR campaign, encompass
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

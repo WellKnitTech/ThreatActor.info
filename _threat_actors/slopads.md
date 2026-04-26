@@ -31,7 +31,9 @@ SlopAds is a sophisticated ad fraud and click fraud operation involving a collec
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **MobileOrder**: 
+- **UNITEDRAKE**: 
+- **GraphicBooting**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

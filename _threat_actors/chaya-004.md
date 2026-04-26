@@ -33,7 +33,11 @@ Chaya_004 is a Chinese threat actor identified through malicious infrastructure,
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **CloudDuke**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

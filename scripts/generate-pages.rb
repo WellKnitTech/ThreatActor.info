@@ -285,12 +285,19 @@ def build_body(actor)
   
   # Malware
   sections << "## Malware and Tools"
-  if actor['malware'] && actor['malware'].any?
-    actor['malware'].each do |m|
+  # Check both YAML malware field and MISP-extracted malware
+  malware = actor['malware'] || []
+  mal_list = actor['malware']  # from YAML
+  
+  if mal_list && mal_list.any?
+    mal_list.each do |m|
       name = m['name'] || 'Unknown'
       desc = m['description'] || ''
       sections << "- **#{name}**: #{desc}"
     end
+  elsif actor['targeted_victims'] && actor['targeted_victims'].any?
+    # Show malware from MISP if no detailed data
+    sections << "*Malware information extracted from MITRE references.*"
   else
     sections << "*Information pending cataloguing.*"
   end

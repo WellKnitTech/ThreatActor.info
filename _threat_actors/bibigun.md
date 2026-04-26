@@ -31,7 +31,9 @@ A pro-Hamas hacktivist group developed a wiper called BiBi-Linux to target and d
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Wiper**: 
+- **Windows Remote Desktop**: 
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

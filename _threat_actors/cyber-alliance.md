@@ -33,7 +33,8 @@ The Ukrainian Cyber Alliance is a pro-Ukraine hacktivist group formed in 2016, p
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Ukraine

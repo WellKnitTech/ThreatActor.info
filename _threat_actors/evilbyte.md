@@ -33,7 +33,8 @@ EvilByte is a hacktivist group that has conducted several high-profile cyber att
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

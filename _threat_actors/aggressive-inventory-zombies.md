@@ -31,7 +31,8 @@ Aggressive Inventory Zombies is a threat actor involved in a large-scale phishin
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **ZOMBIE SLAYER**: 
+- **Cobalt Strike**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

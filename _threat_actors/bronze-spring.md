@@ -37,7 +37,13 @@ In July 2020 the U.S. Department of Justice indicted two Chinese hackers CTU res
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
+- **RemoteCMD**: 
+- **RTM**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **Xploit**: 
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

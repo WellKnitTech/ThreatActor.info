@@ -31,7 +31,15 @@ DragonRank is a threat actor primarily targeting web application services in Asi
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **BlackEnergy**: 
+- **Hacking Team UEFI Rootkit**: 
+- **PlugX**: 
+- **BLACKCOFFEE**: 
+- **Blackshades**: 
+- **BlackNix**: 
+- **Windows Remote Desktop**: 
+- **Xploit**: 
+- **BlackHole**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

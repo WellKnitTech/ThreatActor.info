@@ -31,7 +31,7 @@ Arcane Werewolf has been observed targeting Russian manufacturing enterprises th
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

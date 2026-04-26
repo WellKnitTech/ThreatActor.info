@@ -31,7 +31,15 @@ TRIPLESTRENGTH is a financially motivated threat actor targeting cloud environme
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **BlackEnergy**: 
+- **Hacking Team UEFI Rootkit**: 
+- **CloudDuke**: 
+- **Miner-C**: 
+- **BLACKCOFFEE**: 
+- **Blackshades**: 
+- **BlackNix**: 
+- **Xploit**: 
+- **BlackHole**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

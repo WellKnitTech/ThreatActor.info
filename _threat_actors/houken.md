@@ -33,7 +33,8 @@ Houken is a Chinese state-sponsored threat actor that exploits zero-day vulnerab
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CloudDuke**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

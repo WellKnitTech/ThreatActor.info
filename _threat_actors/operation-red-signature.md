@@ -33,7 +33,12 @@ The threat actors compromised the update server of a remote support solutions pr
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **RemoteCMD**: 
+- **ClientMesh**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **9002**: 
+- **Client Maximus**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

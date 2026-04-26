@@ -33,7 +33,7 @@ We were only able to gather a limited amount of information regarding the Taidoo
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Taidoor**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

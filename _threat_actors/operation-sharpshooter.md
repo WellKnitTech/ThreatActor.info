@@ -32,7 +32,13 @@ Operation Sharpshooter’s numerous technical links to the Lazarus Group seem to
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **Trojan.Karagany**: 
+- **Trojan.Mebromi**: 
+- **Nuclear RAT**: 
+- **Xploit**: 
+- **SharpEye**: 
+- **SharpBot**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

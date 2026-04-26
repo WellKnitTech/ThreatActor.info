@@ -33,7 +33,10 @@ UnsolicitedBooker is a China-aligned APT group known for its persistent targetin
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **China Chopper**: 
+- **Arabian-Attacker RAT**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

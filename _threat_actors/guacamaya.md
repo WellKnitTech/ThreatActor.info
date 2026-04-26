@@ -31,7 +31,7 @@ Guacamaya has conducted multiple hack and leak campaigns against military and po
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

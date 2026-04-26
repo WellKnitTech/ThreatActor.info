@@ -34,7 +34,8 @@ In this post, we will break down the attackers' methods and show how they used m
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **HTTP WEB BACKDOOR**: 
+- **UNITEDRAKE**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -34,7 +34,8 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

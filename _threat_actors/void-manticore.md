@@ -33,7 +33,7 @@ Void Manticore is an Iranian APT group affiliated with MOIS, known for conductin
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Wiper**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

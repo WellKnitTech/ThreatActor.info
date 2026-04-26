@@ -33,7 +33,11 @@ GhostEmperor is a Chinese-speaking threat actor that targets government entities
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **RemoteCMD**: 
+- **Remote Utilities**: 
+- **Windows Remote Desktop**: 
+- **RemotePC**: 
+- **Ghost**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

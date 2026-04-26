@@ -33,7 +33,13 @@ Earth Alux is a China-linked APT group known for conducting cyberespionage attac
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **CloudDuke**: 
+- **China Chopper**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xploit**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

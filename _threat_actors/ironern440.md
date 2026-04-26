@@ -31,7 +31,9 @@ IronErn440 is a threat actor tracked by Oligo Security for orchestrating the Sha
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
+- **Miner-C**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

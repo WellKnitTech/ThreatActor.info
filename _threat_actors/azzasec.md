@@ -42,7 +42,8 @@ AzzaSec is a hacktivist group that originated in Italy. Known for their pro-Pale
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Italy

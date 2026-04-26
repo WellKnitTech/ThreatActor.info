@@ -31,7 +31,11 @@ Iron group has developed multiple types of malware (backdoors, crypto-miners, an
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **Miner-C**: 
+- **DroidJack**: 
+- **Androrat**: 
+- **Windows Remote Desktop**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

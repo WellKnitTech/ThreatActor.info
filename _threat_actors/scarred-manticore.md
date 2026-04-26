@@ -33,7 +33,8 @@ Scarred Manticore has been pursuing high-value targets for years, utilizing a va
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **Windows Remote Desktop**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

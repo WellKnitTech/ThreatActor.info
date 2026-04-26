@@ -31,7 +31,8 @@ LabHost is a threat actor group targeting Canadian Banks with Phishing-as-a-Serv
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **RIPTIDE**: 
+- **Brat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

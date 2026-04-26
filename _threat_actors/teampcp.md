@@ -31,7 +31,8 @@ TeamPCP is a threat actor that has executed a coordinated series of supply chain
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **GraphicBooting**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

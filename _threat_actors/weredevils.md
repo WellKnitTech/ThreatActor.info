@@ -33,7 +33,10 @@ WeRedEvils is a hacking group that has claimed responsibility for multiple cyber
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Hacking Team UEFI Rootkit**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xpert**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Israel

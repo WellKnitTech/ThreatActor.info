@@ -32,7 +32,9 @@ The goal of the attack was to surgically target an unknown pool of users, which 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Trojan.Karagany**: 
+- **Unknown Logger**: 
+- **Trojan.Mebromi**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -31,7 +31,13 @@ PhantomControl is a sophisticated threat actor that emerged in November 2023. Th
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **PowerDuke**: 
+- **POWERSTATS**: 
+- **Power Loader**: 
+- **POWERSOURCE**: 
+- **ClientMesh**: 
+- **Client Maximus**: 
+- **PowerRAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -31,7 +31,7 @@ GoldenJackal activity is characterized by the use of compromised WordPress websi
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **GOlden Phoenix**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

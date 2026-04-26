@@ -31,7 +31,8 @@ GOLD FAIRFAX is a financially motivated cybercriminal threat group responsible f
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

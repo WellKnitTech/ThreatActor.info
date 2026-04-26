@@ -33,7 +33,7 @@ The TunnelSnake campaign demonstrates the activity of a sophisticated actor that
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Windows Remote Desktop**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

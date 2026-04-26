@@ -33,7 +33,9 @@ APT45 is a North Korean cyber threat actor that has been active since at least 2
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Nuclear RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: North Korea

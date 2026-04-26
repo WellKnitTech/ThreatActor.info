@@ -31,7 +31,12 @@ Treasury has identified a sophisticated cyber-enabled ATM cash out campaign we a
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **RemoteCMD**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -33,7 +33,7 @@ DEV-0665 is a threat actor associated with the HermeticWiper attacks. Their obje
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Wiper**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

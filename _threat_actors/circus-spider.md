@@ -33,7 +33,9 @@ According to Crowdstrike, the NetWalker ransomware is being developed and mainta
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Back Orifice**: 
+- **Back Orifice 2000**: 
+- **Revenge-RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

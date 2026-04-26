@@ -31,7 +31,9 @@ Awaken Likho is an APT group that has targeted Russian government agencies and i
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **RemoteCMD**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

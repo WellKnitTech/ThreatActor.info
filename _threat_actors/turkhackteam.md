@@ -35,7 +35,7 @@ Founded in 2004, Turkhackteam is one of Turkey’s oldest and most high-profile 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Hacking Team UEFI Rootkit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Turkey

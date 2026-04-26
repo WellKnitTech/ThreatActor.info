@@ -31,7 +31,7 @@ Team-Xecuter is a hacking group led by Gary Bowser, also known as GaryOPA. They 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Hacking Team UEFI Rootkit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -31,7 +31,9 @@ BlueHornet is an advanced persistent threat group targeting government organizat
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
+- **Dark DDoSeR**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

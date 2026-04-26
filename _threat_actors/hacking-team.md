@@ -35,7 +35,15 @@ Following the hack, the security community has been keeping a close eye on the c
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Hacking Team UEFI Rootkit**: 
+- **TURNEDUP**: 
+- **RemoteCMD**: 
+- **Back Orifice**: 
+- **Back Orifice 2000**: 
+- **Arabian-Attacker RAT**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

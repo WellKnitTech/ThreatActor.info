@@ -33,7 +33,16 @@ LongNosedGoblin is a China-aligned APT group targeting governmental entities in 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **CloudDuke**: 
+- **PowerDuke**: 
+- **POWERSTATS**: 
+- **Power Loader**: 
+- **POWERSOURCE**: 
+- **China Chopper**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **PowerRAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

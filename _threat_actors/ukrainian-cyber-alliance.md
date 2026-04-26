@@ -33,7 +33,9 @@ Cyber Alliance is a hacktivist group that has demonstrated capabilities in explo
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Ukraine

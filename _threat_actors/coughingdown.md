@@ -31,7 +31,11 @@ CoughingDown is a threat group attributed to various cyber campaigns, including 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **Trojan.Karagany**: 
+- **Trojan.Mebromi**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

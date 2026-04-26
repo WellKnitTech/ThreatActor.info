@@ -31,7 +31,8 @@ Operational since at least October 2020, GOLD NORTHFIELD is a financially motiva
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -33,7 +33,9 @@ CeranaKeeper is a China-aligned APT that has been active since at least early 20
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **CloudDuke**: 
+- **China Chopper**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

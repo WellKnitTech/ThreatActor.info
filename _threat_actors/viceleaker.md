@@ -32,7 +32,12 @@ During the course of our research, we noticed that we were not the only ones to 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **MobileOrder**: 
+- **ClientMesh**: 
+- **DroidJack**: 
+- **Androrat**: 
+- **Archelaus Beta**: 
+- **Client Maximus**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

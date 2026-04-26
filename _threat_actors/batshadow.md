@@ -33,7 +33,12 @@ BatShadow is a Vietnamese threat actor that targets job seekers and digital mark
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **RIPTIDE**: 
+- **Agent.btz**: 
+- **RemoteCMD**: 
+- **Quasar RAT**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Vietnam

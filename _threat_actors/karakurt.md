@@ -32,7 +32,7 @@ Karakurt actors have employed a variety of tactics, techniques, and procedures (
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+*Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

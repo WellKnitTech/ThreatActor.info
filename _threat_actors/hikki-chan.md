@@ -31,7 +31,7 @@ Hikki-Chan has claimed responsibility for multiple significant data breaches, in
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

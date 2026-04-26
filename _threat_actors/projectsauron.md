@@ -39,7 +39,10 @@ ProjectSauron is the name for a top level modular cyber-espionage platform, desi
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **XtremeRAT**: 
+- **Cyber Eye RAT**: 
+- **GraphicBooting**: 
 
 ## Attribution and Evidence
 **Country of Origin**: United States

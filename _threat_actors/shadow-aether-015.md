@@ -31,7 +31,9 @@ SHADOW-AETHER-015 is a highly adaptable cybercriminal group known for identity a
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CloudDuke**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

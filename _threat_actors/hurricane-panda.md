@@ -39,7 +39,8 @@ Once inside, the adversary immediately moves on to execution of a credential the
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
+- **TINY**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

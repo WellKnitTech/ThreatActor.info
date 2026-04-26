@@ -32,7 +32,10 @@ For the first time, the activity of the Calypso group was detected by specialist
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **RIPTIDE**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xpert**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

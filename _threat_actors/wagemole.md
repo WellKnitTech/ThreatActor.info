@@ -33,7 +33,10 @@ WageMole is a North Korean state-sponsored APT that employs social engineering a
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **RemoteCMD**: 
+- **Small-Net**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
 
 ## Attribution and Evidence
 **Country of Origin**: North Korea

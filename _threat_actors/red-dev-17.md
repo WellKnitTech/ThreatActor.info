@@ -36,7 +36,9 @@ In 2021, PwC started tracking a series of intrusions under the moniker of Red De
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **PoisonIvy**: 
+- **China Chopper**: 
+- **Windows Remote Desktop**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

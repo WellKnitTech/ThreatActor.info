@@ -33,7 +33,8 @@ IcePeony is a China-nexus APT group that has been active since at least 2023, ta
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

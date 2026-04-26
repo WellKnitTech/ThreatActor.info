@@ -35,7 +35,9 @@ RedDelta closely overlaps with public industry reporting under the aliases BRONZ
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **PlugX**: 
+- **RTM**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

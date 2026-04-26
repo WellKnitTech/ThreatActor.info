@@ -31,7 +31,9 @@ Malware experts at CSE Cybsec uncovered a massive malvertising campaign dubbed E
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xpert**: 
+- **Xploit**: 
+- **Revenge-RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

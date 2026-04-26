@@ -39,7 +39,8 @@ Evasive Panda is an APT group that has been active since at least 2012, conducti
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -32,7 +32,8 @@ DUNGEON SPIDER primarily relies on broad spam campaigns with malicious attachmen
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **GraphicBooting**: 
+- **Revenge-RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

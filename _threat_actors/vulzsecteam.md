@@ -33,7 +33,8 @@ VulzSec, also known as VulzSecTeam, is a hacktivist group that has been involved
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Indonesia

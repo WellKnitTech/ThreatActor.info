@@ -33,7 +33,9 @@ Cyber Islamic Resistance is a hacktivist collective ideologically aligned with I
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **MobileOrder**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

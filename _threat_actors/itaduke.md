@@ -31,7 +31,7 @@ ItaDuke is an actor known since 2013. It used PDF exploits for dropping malware 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -31,7 +31,9 @@ Bondnet is a threat actor that deploys backdoors and cryptocurrency miners. They
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **Miner-C**: 
+- **Windows Remote Desktop**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -33,7 +33,7 @@ The group usually targets vulnerable servers to breach information including int
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Windows Remote Desktop**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

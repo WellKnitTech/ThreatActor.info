@@ -31,7 +31,9 @@ The Belsen Group has exploited the CVE-2022-40684 vulnerability in Fortinet devi
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Net Devil**: 
+- **Xploit**: 
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

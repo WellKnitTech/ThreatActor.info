@@ -45,7 +45,12 @@ the Israeli military, as well as Israel’s aerospace and defense industry
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **SPACESHIP**: 
+- **BlackEnergy**: 
+- **BLACKCOFFEE**: 
+- **Blackshades**: 
+- **BlackNix**: 
+- **BlackHole**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Palestine

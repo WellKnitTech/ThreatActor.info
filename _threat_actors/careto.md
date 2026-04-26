@@ -41,7 +41,12 @@ The Mask is an advanced threat actor that has been involved in cyber-espionage o
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **XtremeRAT**: 
+- **DroidJack**: 
+- **Androrat**: 
+- **Cyber Eye RAT**: 
+- **Windows Remote Desktop**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Spain

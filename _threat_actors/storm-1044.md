@@ -31,7 +31,14 @@ Storm-1044 has been identified as part of a cyber campaign in collaboration with
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Trojan.Karagany**: 
+- **RemoteCMD**: 
+- **Trojan.Mebromi**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **DesktopNow**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

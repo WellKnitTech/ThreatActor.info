@@ -31,7 +31,9 @@ JabaRoot is an Algerian hacker group that has targeted Moroccan government syste
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xpert**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

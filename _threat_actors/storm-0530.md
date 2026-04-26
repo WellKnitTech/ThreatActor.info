@@ -33,7 +33,9 @@ H0lyGh0st is a North Korean threat actor that has been active since June 2021. T
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **gh0st**: 
+- **Small-Net**: 
+- **Gh0st RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: North Korea

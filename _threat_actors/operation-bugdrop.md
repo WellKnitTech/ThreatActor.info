@@ -39,7 +39,9 @@ This threat actor targets critical infrastructure entities in the oil and gas se
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **RemoteCMD**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

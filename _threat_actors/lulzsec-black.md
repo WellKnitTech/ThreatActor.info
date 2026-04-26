@@ -31,7 +31,13 @@ LulzSec Black is a hacktivist group that has claimed responsibility for coordina
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **BlackEnergy**: 
+- **BLACKCOFFEE**: 
+- **Blackshades**: 
+- **BlackNix**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **BlackHole**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

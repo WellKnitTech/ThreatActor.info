@@ -31,7 +31,7 @@ Ghostr is a financially motivated threat actor known for stealing a confidential
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Ghost**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

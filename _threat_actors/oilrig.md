@@ -51,7 +51,12 @@ Since at least 2014, an Iranian threat group tracked by FireEye as APT34 has con
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **RemoteCMD**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **DesktopNow**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

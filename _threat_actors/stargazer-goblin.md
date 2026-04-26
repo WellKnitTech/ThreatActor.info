@@ -31,7 +31,8 @@ Stargazer Goblin is a threat actor group that operates the Stargazers Ghost Netw
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Gazer**: 
+- **Ghost**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

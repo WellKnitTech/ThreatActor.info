@@ -33,7 +33,9 @@ Cyber Anarchy Squad is a pro-Ukrainian hacktivist group known for targeting Russ
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Hacking Team UEFI Rootkit**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Ukraine

@@ -33,7 +33,8 @@ Cyber Toufan is a threat actor group that has gained prominence for its cyberatt
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

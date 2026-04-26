@@ -31,7 +31,8 @@ CyberNiggers is a threat group known for breaching various organizations, includ
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -31,7 +31,16 @@ DarkPink is an APT group that has been active since mid-2021, primarily targetin
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **PowerDuke**: 
+- **POWERSTATS**: 
+- **Power Loader**: 
+- **Trojan.Karagany**: 
+- **POWERSOURCE**: 
+- **Trojan.Mebromi**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xploit**: 
+- **PowerRAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

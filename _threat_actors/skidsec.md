@@ -31,7 +31,8 @@ SkidSec is a threat group that has engaged in operations targeting exposed print
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **MobileOrder**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

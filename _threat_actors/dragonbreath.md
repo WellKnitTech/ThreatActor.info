@@ -31,7 +31,12 @@ Golden Eye Dog targets Chinese-speaking users engaged in online gambling, employ
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **PoisonIvy**: 
+- **Trojan.Karagany**: 
+- **gh0st**: 
+- **Trojan.Mebromi**: 
+- **Gh0st RAT**: 
+- **GOlden Phoenix**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

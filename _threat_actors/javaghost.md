@@ -31,7 +31,9 @@ JavaGhost is a threat actor group that has targeted cloud environments, particul
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CloudDuke**: 
+- **Xploit**: 
+- **Ghost**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

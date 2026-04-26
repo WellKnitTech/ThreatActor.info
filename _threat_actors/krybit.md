@@ -31,7 +31,8 @@ Krybit is a ransomware group that operates as a ransomware-as-a-service provider
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Pain RAT**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

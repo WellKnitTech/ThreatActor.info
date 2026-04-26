@@ -33,7 +33,7 @@ UNK_AcademicFlare is a suspected Russia-aligned threat actor that conducts devic
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CloudDuke**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

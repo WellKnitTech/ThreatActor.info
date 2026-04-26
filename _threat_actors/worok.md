@@ -39,7 +39,14 @@ Worok is a cyber espionage group, mostly targeting Central Asia. The group tools
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **PowerDuke**: 
+- **POWERSTATS**: 
+- **Power Loader**: 
+- **POWERSOURCE**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **PowerRAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

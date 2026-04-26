@@ -33,7 +33,7 @@ CopyCop is a Russian covert influence network that has established over 300 fict
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xpert**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

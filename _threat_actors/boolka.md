@@ -31,7 +31,8 @@ Boolka is a threat actor known for infecting websites with malicious JavaScript 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Trojan.Karagany**: 
+- **Trojan.Mebromi**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

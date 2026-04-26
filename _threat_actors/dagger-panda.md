@@ -39,7 +39,8 @@ Operate since at least 2011, from several locations in China, with  members in K
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
+- **OnionDuke**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

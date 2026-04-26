@@ -31,7 +31,9 @@ Kairos is an extortion group that emerged with a data-leak site on 13 November 2
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

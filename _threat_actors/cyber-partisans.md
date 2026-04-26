@@ -33,7 +33,10 @@ The Cyber Partisans, a hacktivist group based in Belarus, has been involved in v
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **GraphicBooting**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Belarus

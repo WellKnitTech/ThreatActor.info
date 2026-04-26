@@ -32,7 +32,12 @@ Publicly known as 'EmpireMonkey', ANTHROPOID SPIDER conducted phishing campaigns
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **PowerDuke**: 
+- **POWERSTATS**: 
+- **Power Loader**: 
+- **POWERSOURCE**: 
+- **Xploit**: 
+- **PowerRAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

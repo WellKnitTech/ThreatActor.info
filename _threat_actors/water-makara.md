@@ -31,7 +31,7 @@ Water Makara employs the Astaroth banking malware, which features a new defense 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -31,7 +31,10 @@ COBALT JUNO has operated since at least 2013 and focused on targets located in t
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **DroidJack**: 
+- **Androrat**: 
+- **Archelaus Beta**: 
+- **Cobalt Strike**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

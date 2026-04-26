@@ -33,7 +33,16 @@ Blue Tsunami, also known as Black Cube, is a cyber mercenary group associated wi
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **BlackEnergy**: 
+- **BLACKCOFFEE**: 
+- **Blackshades**: 
+- **BlackNix**: 
+- **Blue Banana**: 
+- **ClientMesh**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **BlackHole**: 
+- **Client Maximus**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Israel

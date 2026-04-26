@@ -33,7 +33,8 @@ Based on the evidence we have presented Symantec attributed the activity involvi
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Taidoor**: 
+- **Miner-C**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

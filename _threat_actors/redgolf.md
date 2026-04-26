@@ -36,7 +36,8 @@ Recorded Future’s Insikt Group has identified a large cluster of new operation
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **Windows Remote Desktop**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

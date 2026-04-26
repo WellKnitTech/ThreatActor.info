@@ -31,7 +31,7 @@ RedKitten is a campaign targeting Iranian interests, particularly NGOs and indiv
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

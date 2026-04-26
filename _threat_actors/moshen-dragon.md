@@ -33,7 +33,10 @@ Moshen Dragon is a Chinese-aligned cyberespionage threat actor operating in Cent
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **PlugX**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

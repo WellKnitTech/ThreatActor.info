@@ -31,7 +31,16 @@ GOLD RIVERVIEW was a financially motivated cybercriminal group that facilitated 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Net Crawler**: 
+- **BlackEnergy**: 
+- **BLACKCOFFEE**: 
+- **Blackshades**: 
+- **BlackNix**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **BlackHole**: 
+- **FlawedAmmyy**: 
+- **FlawedGrace**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

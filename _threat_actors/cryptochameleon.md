@@ -31,7 +31,8 @@ CryptoChameleon is a cybercriminal group known for targeting cryptocurrency exch
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

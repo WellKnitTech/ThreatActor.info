@@ -31,7 +31,8 @@ Sp1d3r, a threat actor, has been involved in multiple data breaches targeting co
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Hacking Team UEFI Rootkit**: 
+- **CloudDuke**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -33,7 +33,15 @@ Earth Freybug, identified as a subset of APT41, is a cyberthreat group active si
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **RemoteCMD**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Batch NET**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **Revenge-RAT**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

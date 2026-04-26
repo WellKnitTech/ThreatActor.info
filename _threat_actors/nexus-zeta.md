@@ -31,7 +31,7 @@ Nexus Zeta is no stranger when it comes to implementing SOAP related exploits. T
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

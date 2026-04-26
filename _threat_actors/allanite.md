@@ -34,7 +34,8 @@ ALLANITE conducts malware-less operations primarily leveraging legitimate and av
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Windows Remote Desktop**: 
+- **UNITEDRAKE**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

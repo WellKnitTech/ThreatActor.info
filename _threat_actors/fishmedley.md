@@ -31,7 +31,10 @@ Verticals targeted during Operation FishMedley include governments, NGOs, and th
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
+- **UNITEDRAKE**: 
+- **CrossRat**: 
+- **SodaMaster**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -33,7 +33,10 @@ Prodaft researchers have published a report on Paperbug, a cyber-espionage campa
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **MobileOrder**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

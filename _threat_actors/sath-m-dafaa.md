@@ -36,7 +36,8 @@ A Turkish hacking group, Sath-ı Müdafaa, is encouraging individuals to join it
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **Hacking Team UEFI Rootkit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Turkey

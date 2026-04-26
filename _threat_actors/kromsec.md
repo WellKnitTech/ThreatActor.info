@@ -31,7 +31,9 @@ KromSec is a hacktivist group that claims to be composed of hackers, activists, 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Offence**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

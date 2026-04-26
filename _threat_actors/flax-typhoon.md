@@ -33,7 +33,8 @@ Flax Typhoon is a Chinese state-sponsored threat actor that primarily targets or
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Minimo**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

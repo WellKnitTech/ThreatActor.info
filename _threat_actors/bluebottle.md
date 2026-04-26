@@ -31,7 +31,8 @@ Bluebottle, a cyber-crime group that specializes in targeted attacks against the
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

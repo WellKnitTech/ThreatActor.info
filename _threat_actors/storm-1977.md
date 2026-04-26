@@ -31,7 +31,10 @@ Storm-1977 is a sophisticated threat actor that conducts password-spraying attac
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CloudDuke**: 
+- **RIPTIDE**: 
+- **Xploit**: 
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

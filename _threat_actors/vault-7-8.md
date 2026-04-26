@@ -36,7 +36,16 @@ Recently, the CIA lost control of the majority of its hacking arsenal including 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Hacking Team UEFI Rootkit**: 
+- **Trojan.Karagany**: 
+- **TURNEDUP**: 
+- **RemoteCMD**: 
+- **Trojan.Mebromi**: 
+- **CyberGate**: 
+- **DroidJack**: 
+- **Androrat**: 
+- **Cyber Eye RAT**: 
+- **Virus RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

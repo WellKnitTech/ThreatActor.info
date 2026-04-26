@@ -31,7 +31,16 @@ GOLD REBELLION is a financially motivated cybercriminal threat group that operat
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **BlackEnergy**: 
+- **RemoteCMD**: 
+- **BLACKCOFFEE**: 
+- **Back Orifice**: 
+- **Blackshades**: 
+- **Back Orifice 2000**: 
+- **BlackNix**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Batch NET**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

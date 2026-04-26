@@ -31,7 +31,8 @@ ShadyPanda is a threat actor behind a 7-year campaign that has infected 4.3 mill
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **GraphicBooting**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

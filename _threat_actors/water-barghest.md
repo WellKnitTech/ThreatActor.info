@@ -31,7 +31,9 @@ Water Barghest is a cybercriminal group that has compromised over 20,000 IoT dev
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

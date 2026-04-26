@@ -33,7 +33,8 @@ SneakyChef is a threat actor known for using the SugarGh0st RAT to target govern
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **gh0st**: 
+- **Gh0st RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

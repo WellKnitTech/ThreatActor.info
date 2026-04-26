@@ -33,7 +33,9 @@ Void Blizzard’s cyberespionage operations tend to be highly targeted at specif
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Blizzard**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

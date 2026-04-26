@@ -33,7 +33,9 @@ Shahid Hemmat is an IRGC-CEC affiliated hacking group linked to cyberattacks tar
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Hacking Team UEFI Rootkit**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

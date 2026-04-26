@@ -33,7 +33,7 @@ OldGremlin is a Russian-speaking ransomware group that has been active for sever
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Windows Remote Desktop**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

@@ -31,7 +31,7 @@ Mocha Manakin is a threat actor that employs the paste and run technique for ini
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

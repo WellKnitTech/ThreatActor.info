@@ -33,7 +33,7 @@ Vice Spider is a Russian-speaking ransomware group that has been active since at
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

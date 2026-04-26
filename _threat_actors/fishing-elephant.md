@@ -31,7 +31,7 @@ Fishing Elephant is a threat actor that primarily targets victims in Bangladesh 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

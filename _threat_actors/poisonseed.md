@@ -31,7 +31,11 @@ PoisonSeed is a threat actor employing an MFA-resistant phishing kit to acquire 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CloudDuke**: 
+- **PoisonIvy**: 
+- **Xploit**: 
+- **Seed RAT**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

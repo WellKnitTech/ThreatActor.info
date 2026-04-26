@@ -33,7 +33,10 @@ TIDRONE is an unidentified threat actor linked to Chinese-speaking groups, with 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **RemoteCMD**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **DesktopNow**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

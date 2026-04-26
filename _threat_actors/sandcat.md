@@ -31,7 +31,10 @@ SandCat, on the other hand, is a group that was discovered more recently by Kasp
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **FinFisher**: 
+- **Windows Remote Desktop**: 
+- **Xploit**: 
+- **FINSPY**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

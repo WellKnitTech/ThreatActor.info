@@ -31,7 +31,8 @@ Operation Triangulation is an ongoing APT campaign targeting iOS devices with ze
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Xploit**: 
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

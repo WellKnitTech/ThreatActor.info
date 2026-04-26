@@ -39,7 +39,9 @@ The Equation Group is a highly sophisticated threat actor described by its disco
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Flame**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: United States

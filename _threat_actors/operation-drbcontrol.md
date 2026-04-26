@@ -33,7 +33,8 @@ Operation DRBControl is a cyberespionage campaign targeting gambling companies i
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

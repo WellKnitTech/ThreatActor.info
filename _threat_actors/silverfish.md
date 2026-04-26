@@ -31,7 +31,9 @@ SilverFish is believed to be a Russian cyberespionage group that has been involv
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **WINDSHIELD**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -33,7 +33,8 @@ FlyingYeti is a Russia-aligned threat actor targeting Ukrainian military entitie
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CloudDuke**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

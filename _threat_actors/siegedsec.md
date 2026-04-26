@@ -31,7 +31,7 @@ SiegedSec, a hacktivist collective, emerged coincidentally just days before Russ
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Ghost**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

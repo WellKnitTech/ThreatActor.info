@@ -33,7 +33,9 @@ R00TK1T is a hacking group known for sophisticated cyber attacks targeting gover
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Hacking Team UEFI Rootkit**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Israel

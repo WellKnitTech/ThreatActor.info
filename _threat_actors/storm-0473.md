@@ -31,7 +31,8 @@ Storm-0473 (Tomiris) is a threat actor that has been active since at least 2019.
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **Xploit**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -31,7 +31,9 @@ ESET researchers have discovered a new undocumented modular backdoor, SideWalk, 
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **Archelaus Beta**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

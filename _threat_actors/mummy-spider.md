@@ -34,7 +34,11 @@ After a 10 month hiatus, MUMMY SPIDER returned Emotet to operation in December 2
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Trojan.Karagany**: 
+- **TURNEDUP**: 
+- **Trojan.Mebromi**: 
+- **ClientMesh**: 
+- **Client Maximus**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

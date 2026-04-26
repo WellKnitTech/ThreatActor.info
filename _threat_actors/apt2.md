@@ -39,7 +39,8 @@ Putter Panda were the subject of an extensive report by CrowdStrike, which state
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Back Orifice**: 
+- **Back Orifice 2000**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

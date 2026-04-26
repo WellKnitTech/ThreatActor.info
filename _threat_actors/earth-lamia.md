@@ -33,7 +33,11 @@ Earth Lamia is a China-nexus APT that targets organizations across multiple sect
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Backdoor.Oldrea**: 
+- **China Chopper**: 
+- **Xploit**: 
+- **Cobalt Strike**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -39,7 +39,7 @@ Dropping Elephant (also known as “Chinastrats” and “Patchwork“) is a rel
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
 
 ## Attribution and Evidence
 **Country of Origin**: India

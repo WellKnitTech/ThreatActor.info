@@ -33,7 +33,9 @@ Storm-1152, a cybercriminal group, was recently taken down by Microsoft for ille
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Revenge-RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Vietnam

@@ -34,7 +34,16 @@ BRONZE HIGHLAND has been observed using spearphishing as an initial infection ve
 *Pending*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Trojan.Karagany**: 
+- **China Chopper**: 
+- **RemoteCMD**: 
+- **Trojan.Mebromi**: 
+- **DroidJack**: 
+- **Androrat**: 
+- **Remote Utilities**: 
+- **RemotePC**: 
+- **Archelaus Beta**: 
+- **Cobalt Strike**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China
