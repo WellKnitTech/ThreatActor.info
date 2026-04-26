@@ -439,6 +439,7 @@ results[:create].each do |actor|
   yaml_lines << "external_id: #{front_matter['external_id']}"
   yaml_lines << "source_attribution: \"#{front_matter['source_attribution'].gsub('"', '\\\\"')}\""
   
+  # Complete page with all standardized sections
   content = <<~CONTENT
 ---
 #{yaml_lines.join("\n")}
@@ -447,11 +448,41 @@ results[:create].each do |actor|
 ## Introduction
 #{actor['description']}
 
-## Source
-- **MITRE ATT&CK**: [#{actor['name']} (#{actor['external_id']})](#{actor['mitre_url']})
+## Activities and Tactics
+*Information pending cataloguing.*
 
-## Attribution
+### Notable Campaigns
+*Information pending cataloguing.*
+
+### Tactics, Techniques, and Procedures (TTPs)
+*Information pending cataloguing.*
+
+## Notable Indicators of Compromise (IOCs)
+*This section is pending cataloguing. Check upstream sources for current IOCs.*
+
+### IP Addresses
+*Pending*
+
+### File Hashes
+*Pending*
+
+### Domains
+*Pending*
+
+### URLs
+*Pending*
+
+## Malware and Tools
+*Information pending cataloguing.*
+
+## Attribution and Evidence
 #{actor['source_attribution']}
+
+### Attribution
+*Information pending cataloguing.*
+
+## References
+- [MITRE ATT&CK - #{actor['name']}](#{actor['mitre_url']})
   CONTENT
   
   File.write(filename, content)
