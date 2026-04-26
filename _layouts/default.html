@@ -42,7 +42,6 @@
       const toggleBtn = document.getElementById('theme-toggle');
       const toggleIcon = toggleBtn.querySelector('.toggle-icon');
       
-      // Set initial icon based on current theme
       if (document.documentElement.classList.contains('light-theme')) {
         toggleIcon.textContent = '🌙';
       } else {
@@ -56,66 +55,37 @@
       });
     })();
     
-    // IOC Copy Functionality - Find IOC sections and add copy to individual items
+    // Make all code elements click-to-copy
     (function() {
-      // Find the IOC section by looking for its heading
-      const content = document.querySelector('.content');
-      if (!content) return;
+      // Find all code elements in the page
+      const codes = document.querySelectorAll('.content code, .highlight code, code');
       
-      // Look for all h3 and h4 headings in IOC sections
-      const headings = content.querySelectorAll('h3, h4');
-      let inIOCSection = false;
-      
-      headings.forEach(function(heading) {
-        const text = heading.textContent.toLowerCase();
-        if (text.includes('indicator') || text.includes('ioc')) {
-          inIOCSection = true;
-        } else if (text.includes('introduction') || text.includes('malware') || text.includes('campaign') || text.includes('attribution') || text.includes('reference')) {
-          inIOCSection = false;
-        }
+      codes.forEach(function(code) {
+        const text = code.textContent.trim();
+        if (!text || text.length < 4) return;
         
-        if (inIOCSection) {
-          // Find all list items after this heading until the next heading
-          let sibling = heading.nextElementSibling;
-          while (sibling && !['H3', 'H4'].includes(sibling.tagName)) {
-            // Handle list items
-            const lis = sibling.querySelectorAll ? sibling.querySelectorAll('li') : [];
-            lis.forEach(function(li, idx) {
-              const text = li.textContent.trim();
-              if (!text || !text.includes('`')) return;
-              
-              // Extract IOC value from backticks
-              const codeMatch = text.match(/`([^`]+)`/);
-              if (!codeMatch) return;
-              
-              const iocValue = codeMatch[1].replace('[.]', '.').replace('(dot)', '.');
-              
-              // Create copy button
-              const copyBtn = document.createElement('button');
-              copyBtn.className = 'ioc-copy-btn';
-              copyBtn.textContent = 'Copy';
-              copyBtn.title = 'Click to copy: ' + iocValue.substring(0, 30) + '...';
-              
-              copyBtn.addEventListener('click', function(e) {
-                e.preventDefault();
-                e.stopPropagation();
-                navigator.clipboard.writeText(iocValue).then(function() {
-                  copyBtn.textContent = 'Copied!';
-                  copyBtn.classList.add('copied');
-                  setTimeout(function() {
-                    copyBtn.textContent = 'Copy';
-                    copyBtn.classList.remove('copied');
-                  }, 1500);
-                });
-              });
-              
-              // Style the list item
-              li.style.position = 'relative';
-              li.appendChild(copyBtn);
-            });
-            sibling = sibling.nextElementSibling;
-          }
-        }
+        // Only add to likely IOCs ( IPs, hashes, domains, etc )
+        const isIOC = /[\d:]/.test(text) || /^[a-f0-9]{32,}$/i.test(text) || /\./.test(text);
+        if (!isIOC) return;
+        
+        // Clean the IOC value
+        const iocValue = text.replace('[.]', '.').replace('(dot)', '.');
+        
+        const btn = document.createElement('button');
+        btn.innerHTML = '📋';
+        btn.title = 'Click to copy: ' + iocValue;
+        btn.style.cssText = 'margin-left:8px;padding:2px 6px;background:var(--accent);border:none;border-radius:3px;cursor:pointer;font-size:11px;vertical-align:middle;';
+        
+        btn.onclick = function() {
+          navigator.clipboard.writeText(iocValue).then(function() {
+            btn.innerHTML = '✓';
+            setTimeout(function() { btn.innerHTML = '📋'; }, 1000);
+          });
+        };
+        
+        code.parentNode.style.display = 'inline';
+        code.parentNode.style.position = 'relative';
+        code.parentNode.appendChild(btn);
       });
     })();
   </script>
