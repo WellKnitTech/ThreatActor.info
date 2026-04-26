@@ -14,11 +14,6 @@ sector_focus: ["Civil society"]
 This threat actor targets Uighurs—a minority ethnic group located primarily in northwestern China—and devices from Chinese mobile phone manufacturer Xiaomi, for espionage purposes.
 
 ## Activities and Tactics
-**Targeted Sectors**: Civil society
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: Uighurs
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -43,8 +38,6 @@ This threat actor targets Uighurs—a minority ethnic group located primarily in
 - **China Chopper**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

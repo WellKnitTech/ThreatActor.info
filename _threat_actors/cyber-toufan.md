@@ -12,7 +12,6 @@ country_flag: "🇮🇷"
 Cyber Toufan is a threat actor group that has gained prominence for its cyberattacks targeting Israeli organizations. The group's tactics suggest potential nation-state backing, possibly from Iran. They have been involved in hack-and-leak operations, data breaches, and data destruction, impacting over 100 organizations. Cyber Toufan's activities align with geopolitical tensions in the Middle East and their attacks are characterized by a combination of technical breaches and psychological warfare.
 
 ## Activities and Tactics
-**Country of Origin**: 🇮🇷 Iran
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -37,8 +36,6 @@ Cyber Toufan is a threat actor group that has gained prominence for its cyberatt
 - **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Iran
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -14,11 +14,6 @@ sector_focus: ["Military", "Government, Administration", "Government"]
 Lotus Blossom is a threat group that has targeted government and military organizations in Southeast Asia.
 
 ## Activities and Tactics
-**Targeted Sectors**: Military, Government, Administration, Government
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: Japan, Philippines, Hong Kong, Indonesia, Taiwan, Vietnam
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -42,8 +37,6 @@ Lotus Blossom is a threat group that has targeted government and military organi
 *Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

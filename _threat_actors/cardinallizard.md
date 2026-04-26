@@ -12,7 +12,6 @@ country_flag: "🇨🇳"
 CardinalLizard, a cyber threat actor linked to China, has targeted entities in Asia since 2018. Their methods include spear-phishing, custom malware with anti-detection features, and potentially shared infrastructure with other actors.
 
 ## Activities and Tactics
-**Country of Origin**: 🇨🇳 China
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -39,8 +38,6 @@ CardinalLizard, a cyber threat actor linked to China, has targeted entities in A
 - **Cardinal**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

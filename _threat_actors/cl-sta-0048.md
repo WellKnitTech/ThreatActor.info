@@ -12,7 +12,6 @@ country_flag: "🇨🇳"
 CL-STA-0048 is a Chinese state-backed APT that targets strategic sectors in South Asia, particularly government and telecommunications entities, with a focus on espionage. The group has been linked to SAP NetWeaver intrusions and employs techniques such as DNS beaconing using ping commands and exploiting unpatched vulnerabilities in services like IIS, Apache Tomcat, and MSSQL. Analysts have observed its use of reverse shell commands and command-and-control traffic directed to specific IP addresses. The actor adapts its methods to evade detection and maintain persistent access to high-value networks.
 
 ## Activities and Tactics
-**Country of Origin**: 🇨🇳 China
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -36,8 +35,6 @@ CL-STA-0048 is a Chinese state-backed APT that targets strategic sectors in Sout
 - **Xploit**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

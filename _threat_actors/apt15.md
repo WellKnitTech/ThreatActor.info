@@ -14,11 +14,6 @@ sector_focus: ["Government, Administration", "Government"]
 This threat actor uses phishing techniques to compromise the networks of foreign ministries of European countries for espionage purposes.
 
 ## Activities and Tactics
-**Targeted Sectors**: Government, Administration, Government
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: European Union, India, United Kingdom, Germany
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -42,8 +37,6 @@ This threat actor uses phishing techniques to compromise the networks of foreign
 *Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

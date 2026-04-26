@@ -16,11 +16,6 @@ sector_focus: ["Healthcare", "Legal", "Technology"]
 Maze is a ransomware operation known for being the first to implement double extortion tactics.
 
 ## Activities and Tactics
-**Targeted Sectors**: Healthcare, Legal, Technology
-**Country of Origin**: 🏳️ Unknown
-**Risk Level**: High
-**First Seen**: 2019
-**Last Activity**: 2020
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -44,8 +39,6 @@ Maze is a ransomware operation known for being the first to implement double ext
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-**Country of Origin**: Unknown
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

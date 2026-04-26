@@ -12,7 +12,6 @@ country_flag: "🇷🇺"
 DEV-0665 is a threat actor associated with the HermeticWiper attacks. Their objective is to disrupt, degrade, and destroy specific resources within a targeted country.
 
 ## Activities and Tactics
-**Country of Origin**: 🇷🇺 Russia
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -36,8 +35,6 @@ DEV-0665 is a threat actor associated with the HermeticWiper attacks. Their obje
 - **Wiper**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

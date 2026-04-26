@@ -12,7 +12,6 @@ country_flag: "🇰🇵"
 APT45 is a North Korean cyber threat actor that has been active since at least 2009. They have conducted espionage campaigns targeting government agencies and defense industries, as well as financially-motivated operations, including ransomware development. APT45 has targeted critical infrastructure, financial organizations, nuclear research facilities, and healthcare and pharmaceutical companies. They use a mix of publicly available tools, modified malware, and custom malware families in their operations.
 
 ## Activities and Tactics
-**Country of Origin**: 🇰🇵 North Korea
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -38,8 +37,6 @@ APT45 is a North Korean cyber threat actor that has been active since at least 2
 - **Nuclear RAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: North Korea
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -18,13 +18,6 @@ source_attribution: "© The MITRE Corporation. This work is reproduced and distr
 APT32 is a suspected Vietnam-based threat group that has been active since at least 2014. The group has targeted multiple private sector industries as well as foreign governments, dissidents, and journalists with a strong focus on Southeast Asian countries like Vietnam, the Philippines, Laos, and Cambodia. They have extensively used strategic web compromises to compromise victims.(Citation: FireEye APT32 May 2017)(Citation: Volexity OceanLotus Nov 2017)(Citation: ESET OceanLotus)
 
 ## Activities and Tactics
-**Targeted Sectors**: Government, Media, Technology
-**Country of Origin**: 🇻🇳 Vietnam
-**Risk Level**: High
-**First Seen**: 2012
-**Last Activity**: 2024
-**Incident Type**: Espionage
-**Suspected Victims**: China, Germany, United States, Vietnam, Philippines, Association of Southeast Asian Nations
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -50,8 +43,6 @@ APT32 is a suspected Vietnam-based threat group that has been active since at le
 - **CrossRat**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Vietnam
-*Additional attribution information pending cataloguing.*
 
 ## References
 [1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0050)

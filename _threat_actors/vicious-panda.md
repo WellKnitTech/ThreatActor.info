@@ -13,8 +13,6 @@ Check Point Research discovered a new campaign against the Mongolian public sect
 A closer look at this campaign allowed us to tie it to other operations which were carried out by the same anonymous group, dating back to at least 2016. Over the years, these operations targeted different sectors in multiple countries, such as Ukraine, Russia, and Belarus.
 
 ## Activities and Tactics
-**Country of Origin**: 🇨🇳 China
-**Suspected Victims**: Belarus, Russia, Mongolia, Ukraine
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -41,8 +39,6 @@ A closer look at this campaign allowed us to tie it to other operations which we
 - **Virus RAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

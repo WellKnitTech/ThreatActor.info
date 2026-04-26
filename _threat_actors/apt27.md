@@ -14,11 +14,6 @@ sector_focus: ["Technology", "Government, Administration", "Defense", "Governmen
 A China-based actor that targets foreign embassies to collect data on government, defence, and technology sectors.
 
 ## Activities and Tactics
-**Targeted Sectors**: Technology, Government, Administration, Defense, Government, Private sector
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: United States, United Kingdom, France, Japan, Taiwan, India, Canada, China, Thailand, Israel...
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -42,8 +37,6 @@ A China-based actor that targets foreign embassies to collect data on government
 - **China Chopper**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

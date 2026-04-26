@@ -15,11 +15,6 @@ Kaspersky Lab and Seculert worked together to sinkhole the Madi Command & Contro
 Common applications and websites that were spied on include accounts on Gmail, Hotmail, Yahoo! Mail, ICQ, Skype, Google+, and Facebook. Surveillance is also performed over integrated ERP/CRM systems, business contracts, and financial management systems.
 
 ## Activities and Tactics
-**Targeted Sectors**: Infrastructure, Engineering, Government, Administration, Finance, Government, Private sector
-**Country of Origin**: 🇮🇷 Iran
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: Iran, Pakistan, Israel, United States
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -43,8 +38,6 @@ Common applications and websites that were spied on include accounts on Gmail, H
 - **CrossRat**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Iran
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -11,9 +11,6 @@ sector_focus: ["Government"]
 A group targeting various countries using Denial of Services attacked.
 
 ## Activities and Tactics
-**Targeted Sectors**: Government
-**Incident Type**: Denial of service
-**Suspected Victims**: United States, Czech Republic
 
 ## Notable Campaigns
 *Information pending cataloguing.*

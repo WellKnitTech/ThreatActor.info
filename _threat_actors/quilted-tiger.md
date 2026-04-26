@@ -14,11 +14,6 @@ sector_focus: ["Finance", "Diplomacy", "Private sector", "Military"]
 Dropping Elephant (also known as “Chinastrats” and “Patchwork“) is a relatively new threat actor that is targeting a variety of high profile diplomatic and economic targets using a custom set of attack tools. Its victims are all involved with China’s foreign relations in some way, and are generally caught through spear-phishing or watering hole attacks.
 
 ## Activities and Tactics
-**Targeted Sectors**: Finance, Diplomacy, Private sector, Military
-**Country of Origin**: 🇮🇳 India
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: Bangladesh, Sri Lanka, Pakistan
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -42,8 +37,6 @@ Dropping Elephant (also known as “Chinastrats” and “Patchwork“) is a rel
 - **China Chopper**: 
 
 ## Attribution and Evidence
-**Country of Origin**: India
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

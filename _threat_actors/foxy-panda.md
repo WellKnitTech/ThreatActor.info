@@ -14,9 +14,6 @@ sector_focus: ["Technology", "Telecoms"]
 Adversary group targeting telecommunication and technology organizations.
 
 ## Activities and Tactics
-**Targeted Sectors**: Technology, Telecoms
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -40,8 +37,6 @@ Adversary group targeting telecommunication and technology organizations.
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

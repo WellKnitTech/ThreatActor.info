@@ -12,7 +12,6 @@ country_flag: "🇨🇳"
 IronHusky is a Chinese-based threat actor first attributed in July 2017 targeting Russian and Mongolian governments, as well as aviation companies and research institutes. Since their initial attacks ceased in 2018, they have been working on a new remote access trojan dubbed MysterySnail.
 
 ## Activities and Tactics
-**Country of Origin**: 🇨🇳 China
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -40,8 +39,6 @@ IronHusky is a Chinese-based threat actor first attributed in July 2017 targetin
 - **RemotePC**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

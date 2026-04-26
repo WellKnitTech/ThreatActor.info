@@ -14,9 +14,6 @@ sector_focus: ["Activists", "Civil society", "Military", "Government"]
 Group targeting Indian Army or related assets in India, as well as activists and civil society in Pakistan. Attribution to a Pakistani connection has been made by TrendMicro and others.
 
 ## Activities and Tactics
-**Targeted Sectors**: Activists, Civil society, Military, Government
-**Country of Origin**: 🇵🇰 Pakistan
-**Risk Level**: High
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -40,8 +37,6 @@ Group targeting Indian Army or related assets in India, as well as activists and
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-**Country of Origin**: Pakistan
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

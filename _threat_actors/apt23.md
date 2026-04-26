@@ -14,9 +14,6 @@ sector_focus: ["Military", "Government, Administration"]
 TrendMicro described Tropic Trooper in a 2015 report as: 'Taiwan and the Philippines have become the targets of an ongoing campaign called Operation TropicTrooper. Active since 2012, the attackers behind the campaign haveset their sights on the Taiwanese government as well as a number of companies in the heavy industry. The same campaign has also targeted key Philippine military agencies.'
 
 ## Activities and Tactics
-**Targeted Sectors**: Military, Government, Administration
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -40,8 +37,6 @@ TrendMicro described Tropic Trooper in a 2015 report as: 'Taiwan and the Philipp
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

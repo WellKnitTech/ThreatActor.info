@@ -13,8 +13,6 @@ country_flag: "🇨🇳"
 A group targeting dissident groups in China and at the boundaries.
 
 ## Activities and Tactics
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -38,8 +36,6 @@ A group targeting dissident groups in China and at the boundaries.
 - **China Chopper**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

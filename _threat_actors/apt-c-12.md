@@ -11,8 +11,6 @@ sector_focus: ["Private sector", "Government", "Military", "Scientific Research"
 According to 360 TIC the actor has carried out continuous cyber espionage activities since 2011 on key units and departments of the Chinese government, military industry, scientific research, and finance. The organization focuses on information related to the nuclear industry and scientific research. The targets were mainly concentrated in mainland China...[M]ore than 670 malware samples have been collected from the group, including more than 60 malicious plugins specifically for lateral movement; more than 40 C2 domain names and IPs related to the organization have also been discovered.
 
 ## Activities and Tactics
-**Targeted Sectors**: Private sector, Government, Military, Scientific Research, Finance
-**Incident Type**: Espionage
 
 ## Notable Campaigns
 *Information pending cataloguing.*

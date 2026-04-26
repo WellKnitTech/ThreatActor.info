@@ -14,9 +14,6 @@ BRONZE SPRING is a threat group that CTU researchers assess with high confidence
 In July 2020 the U.S. Department of Justice indicted two Chinese hackers CTU researchers assess are members of the BRONZE SPRING threat group. The Department of Justice allege these hackers were responsible for compromising networks of hundreds of organisations and individuals in the U.S. and abroad since 2009, and that exfiltrated data would be passed to the Chinese Ministry of State Security or sold for financial gain.
 
 ## Activities and Tactics
-**Targeted Sectors**: Information technology, Medical, Civil engineering, Business, Education, Gaming, Energy, Pharmaceuticals, Defense industrial base
-**Country of Origin**: 🇨🇳 China
-**Suspected Victims**: United States, Australia, Belgium, Germany, Japan, Lithuania, Netherlands, Spain, South Korea, Sweden...
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -46,8 +43,6 @@ In July 2020 the U.S. Department of Justice indicted two Chinese hackers CTU res
 - **Archelaus Beta**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

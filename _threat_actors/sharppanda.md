@@ -12,8 +12,6 @@ country_flag: "🇨🇳"
 SharpPanda, an APT group originating from China, has seen a rise in its cyber-attack operations starting from at least 2018. The APT group utilizes spear-phishing techniques to obtain initial access, employing a combination of outdated Microsoft Office document vulnerabilities, novel evasion techniques, and highly potent backdoor malware.
 
 ## Activities and Tactics
-**Country of Origin**: 🇨🇳 China
-**Suspected Victims**: Germany
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -42,8 +40,6 @@ SharpPanda, an APT group originating from China, has seen a rise in its cyber-at
 - **SharpBot**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

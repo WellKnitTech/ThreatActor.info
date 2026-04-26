@@ -14,10 +14,6 @@ sector_focus: ["Biomedical", "Government", "Information technology"]
 Grayling activity was first observed in early 2023, when a number of victims were identified with distinctive malicious DLL side-loading activity. Grayling appears to target organisations in Asia, however one unknown organisation in the United States was also targeted. Industries targeted include Biomedical, Government and Information Technology. Grayling use a variety of tools during their attacks, including well known tools such as Cobalt Strike and Havoc and also some others.
 
 ## Activities and Tactics
-**Targeted Sectors**: Biomedical, Government, Information technology
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
-**Suspected Victims**: Taiwan, United States, Vietnam, Solomon Islands
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -43,8 +39,6 @@ Grayling activity was first observed in early 2023, when a number of victims wer
 - **Cobalt Strike**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

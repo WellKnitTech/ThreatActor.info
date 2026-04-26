@@ -16,11 +16,6 @@ sector_focus: ["Healthcare", "Logistics", "Manufacturing", "Government"]
 SafePay is a ransomware group particularly active in Germany, responsible for 24% of the 74 ransomware victims reported in the country during Q1 2025.
 
 ## Activities and Tactics
-**Targeted Sectors**: Healthcare, Logistics, Manufacturing, Government
-**Country of Origin**: 🏳️ Unknown
-**Risk Level**: High
-**First Seen**: 2024
-**Last Activity**: 2025
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -44,8 +39,6 @@ SafePay is a ransomware group particularly active in Germany, responsible for 24
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-**Country of Origin**: Unknown
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

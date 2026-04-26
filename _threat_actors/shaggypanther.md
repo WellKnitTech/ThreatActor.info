@@ -12,7 +12,6 @@ country_flag: "🇨🇳"
 ShaggyPanther is a threat actor that primarily targets government entities in Taiwan and Malaysia. They have been active since 2008 and utilize hidden encrypted payloads in registry keys. Their activities have been detected in various locations, including Indonesia and Syria.
 
 ## Activities and Tactics
-**Country of Origin**: 🇨🇳 China
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -36,8 +35,6 @@ ShaggyPanther is a threat actor that primarily targets government entities in Ta
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -12,7 +12,6 @@ country_flag: "🇨🇳"
 DiceyF is an advanced persistent threat group that has been targeting online casinos and other victims in Southeast Asia for an extended period. They have exhibited overlapping activity with LuckyStar PlugX and Earth Berberoka/GamblingPuppet, as reported by various cybersecurity vendors. While their motivations remain unclear, previous incidents suggest a combination of espionage and intellectual property theft rather than immediate financial gain. DiceyF continuously evolves their codebase and adds encryption capabilities to enhance their stealthy cyberespionage activities.
 
 ## Activities and Tactics
-**Country of Origin**: 🇨🇳 China
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -38,8 +37,6 @@ DiceyF is an advanced persistent threat group that has been targeting online cas
 - **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

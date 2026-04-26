@@ -17,11 +17,6 @@ Operation Parliament appears to be another symptom of escalating tensions in the
 With deception and false flags increasingly being employed by threat actors, attribution is a hard and complicated task that requires solid evidence, especially in complex regions such as the Middle East.
 
 ## Activities and Tactics
-**Targeted Sectors**: Government, Civil society
-**Country of Origin**: 🏳️ Unknown
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: Palestine, United Arab Emirates, Qatar, Somalia, Syria, Canada, Germany, Serbia, Kuwait, Egypt...
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -48,8 +43,6 @@ With deception and false flags increasingly being employed by threat actors, att
 - **DesktopNow**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Unknown
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

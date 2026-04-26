@@ -19,12 +19,6 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 
 
 ## Activities and Tactics
-**Targeted Sectors**: Gaming, Technology, Healthcare
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
-**First Seen**: 2012
-**Last Activity**: 2024
-**Suspected Victims**: China, France, Hong Kong, India, Italy, Japan, Myanmar, Netherlands, Singapore, South Korea...
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -49,8 +43,6 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 - **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 [1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0096)

@@ -10,7 +10,6 @@ permalink: /rgb-team/
 RGB-TEAM is a previously unknown Russian-speaking threat actor. They describe themselves as “a community of anonymous hacktivists fighting for freedom.” The group stated that it doesn’t have enemies in the U.S., Europe, “in the East, or in the West.”
 
 ## Activities and Tactics
-**Suspected Victims**: Russia
 
 ## Notable Campaigns
 *Information pending cataloguing.*

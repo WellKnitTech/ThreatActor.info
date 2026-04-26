@@ -14,11 +14,6 @@ sector_focus: ["Activists", "Trade", "Finance", "Political party", "Government",
 China-based cyber threat group. It has previously used newsworthy events as lures to deliver malware and has primarily targeted organizations involved in financial, economic, and trade policy, typically using publicly available RATs such as PoisonIvy, as well as some non-public backdoors. This threat actor targets prodemocratic activists and organizations in Hong Kong, European and international financial institutions, and a U.S.-based think tank.
 
 ## Activities and Tactics
-**Targeted Sectors**: Activists, Trade, Finance, Political party, Government, Private sector, Civil society
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: Hong Kong, United States
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -46,8 +41,6 @@ China-based cyber threat group. It has previously used newsworthy events as lure
 - **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

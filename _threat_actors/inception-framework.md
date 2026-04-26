@@ -14,11 +14,6 @@ sector_focus: ["Government", "Private sector"]
 This threat actor uses spear-phishing techniques to target private-sector energy, defense, aerospace, research, and media organizations and embassies in Africa, Europe, and the Middle East, for the purpose of espionage.
 
 ## Activities and Tactics
-**Targeted Sectors**: Government, Private sector
-**Country of Origin**: 🇷🇺 Russia
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: Afghanistan, Armenia, Azerbaijan, Belarus, Belgium, Czech Republic, Greece, India, Iran, Italy...
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -42,8 +37,6 @@ This threat actor uses spear-phishing techniques to target private-sector energy
 - **SPACESHIP**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -11,8 +11,6 @@ sector_focus: ["Aviation", "Energy"]
 In Q2 2021, the PT Expert Security Center incident response team conducted an investigation in an energy company. The investigation revealed that the company's network had been compromised by an unknown group for the purpose of data theft. They gave the group the name ChamelGang (from the word "chameleon"), because the group disguised its malware and network infrastructure under legitimate services of Microsoft, TrendMicro, McAfee, IBM, and Google.
 
 ## Activities and Tactics
-**Targeted Sectors**: Aviation, Energy
-**Suspected Victims**: India, Japan, Nepal, Russia, Taiwan, United States
 
 ## Notable Campaigns
 *Information pending cataloguing.*

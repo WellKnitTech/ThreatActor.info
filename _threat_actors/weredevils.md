@@ -12,7 +12,6 @@ country_flag: "🇮🇱"
 WeRedEvils is a hacking group that has claimed responsibility for multiple cyber attacks. They targeted the Iranian Electric Grid and the Tasnimnews website, causing the latter to go offline. The group also claimed to have hacked into Iran's oil infrastructure, causing significant damage. They emerged in response to the Hamas massacre and are believed to be a group of Israeli cyber experts.
 
 ## Activities and Tactics
-**Country of Origin**: 🇮🇱 Israel
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -39,8 +38,6 @@ WeRedEvils is a hacking group that has claimed responsibility for multiple cyber
 - **Xpert**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Israel
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

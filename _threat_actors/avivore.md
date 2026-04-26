@@ -12,7 +12,6 @@ country_flag: "🇨🇳"
 The group’s existence came to light during Context’s investigation of a number of attacks against multinational enterprises that compromise smaller engineering services and consultancies working in their supply chains.
 
 ## Activities and Tactics
-**Country of Origin**: 🇨🇳 China
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -36,8 +35,6 @@ The group’s existence came to light during Context’s investigation of a numb
 - **Small-Net**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -14,10 +14,6 @@ sector_focus: ["Government"]
 Ghostwriter is referred as an 'activity set', with various incidents tied together by overlapping behavioral characteristics and personas, rather than as an actor or group in itself.
 
 ## Activities and Tactics
-**Targeted Sectors**: Government
-**Country of Origin**: 🏳️ Belarus
-**Risk Level**: High
-**Suspected Victims**: Germany, Latvia, Lithuania, Poland, Ukraine
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -41,8 +37,6 @@ Ghostwriter is referred as an 'activity set', with various incidents tied togeth
 - **Ghost**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Belarus
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

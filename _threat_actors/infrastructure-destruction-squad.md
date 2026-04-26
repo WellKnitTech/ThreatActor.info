@@ -12,7 +12,6 @@ country_flag: "🇷🇺"
 Dark Engine has emerged as a significant threat actor targeting industrial control systems and SCADA systems in sectors such as metallurgy and food processing. The group has conducted multiple ICS-targeted incidents, with a pronounced operational surge in June 2025. Additionally, Dark Engine is involved in a campaign that embeds fraudulent CAPTCHA prompts into legitimate WordPress sites, utilizing SEO poisoning to harvest login credentials. Reports also indicate a data leak from Dark Engine that exposed sensitive phone data in the U.S.
 
 ## Activities and Tactics
-**Country of Origin**: 🇷🇺 Russia
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -37,8 +36,6 @@ Dark Engine has emerged as a significant threat actor targeting industrial contr
 - **Dark DDoSeR**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

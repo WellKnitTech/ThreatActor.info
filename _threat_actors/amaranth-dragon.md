@@ -12,7 +12,6 @@ country_flag: "🇨🇳"
 Amaranth-Dragon is a previously untracked threat actor assessed to be closely linked to the China-affiliated APT 41 ecosystem, exhibiting similar tooling and operational patterns. The group demonstrated technical maturity by rapidly operationalizing CVE-2025-8088, a vulnerability in WinRAR, shortly after its public disclosure. Check Point Research has identified multiple campaigns targeting Cambodia, Thailand, Laos, Indonesia, Singapore, and the Philippines, with operations typically focused on one or two countries at a time. The overlaps in technical and operational indicators strongly suggest that Amaranth-Dragon is either affiliated with or part of the broader APT-41 ecosystem.
 
 ## Activities and Tactics
-**Country of Origin**: 🇨🇳 China
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -36,8 +35,6 @@ Amaranth-Dragon is a previously untracked threat actor assessed to be closely li
 - **China Chopper**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

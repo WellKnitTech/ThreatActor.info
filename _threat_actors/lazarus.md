@@ -22,13 +22,6 @@ North Korea’s cyber operations have shown a consistent pattern of adaptation, 
 
 
 ## Activities and Tactics
-**Targeted Sectors**: Financial, Cryptocurrency, Entertainment
-**Country of Origin**: 🇰🇵 North Korea
-**Risk Level**: Critical
-**First Seen**: 2009
-**Last Activity**: 2024
-**Incident Type**: ["Espionage", "Sabotage"]
-**Suspected Victims**: South Korea, Bangladesh Bank, Sony Pictures Entertainment, United States, Thailand, France, China, Hong Kong, United Kingdom, Guatemala...
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -55,8 +48,6 @@ North Korea’s cyber operations have shown a consistent pattern of adaptation, 
 - **RemotePC**: 
 
 ## Attribution and Evidence
-**Country of Origin**: North Korea
-*Additional attribution information pending cataloguing.*
 
 ## References
 [1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0032)

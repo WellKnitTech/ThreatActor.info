@@ -12,7 +12,6 @@ country_flag: "🇷🇺"
 Storm-2372 is a suspected nation-state actor aligned with Russian interests, engaging in device code phishing campaigns targeting governments, NGOs, and various industries across Europe, North America, Africa, and the Middle East. The actor employs tactics that involve impersonating prominent individuals through third-party messaging services like WhatsApp and Signal to gain rapport before sending phishing invitations. These invitations lure users into completing device code authentication requests, granting Storm-2372 initial access to victim accounts and enabling Graph API data collection activities, including email harvesting. Microsoft has observed the actor utilizing keyword searches within compromised accounts to exfiltrate sensitive information.
 
 ## Activities and Tactics
-**Country of Origin**: 🇷🇺 Russia
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -38,8 +37,6 @@ Storm-2372 is a suspected nation-state actor aligned with Russian interests, eng
 - **CrossRat**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

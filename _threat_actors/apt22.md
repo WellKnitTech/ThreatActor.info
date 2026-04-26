@@ -13,8 +13,6 @@ country_flag: "🇨🇳"
 Suckfly is a China-based threat group that has been active since at least 2014
 
 ## Activities and Tactics
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -38,8 +36,6 @@ Suckfly is a China-based threat group that has been active since at least 2014
 - **China Chopper**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

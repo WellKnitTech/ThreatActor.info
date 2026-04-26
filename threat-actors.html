@@ -6,13 +6,13 @@ title: Threat Actors
 <h2>Threat Actors</h2>
 
 <div class="threat-actors-grid">
-  {% assign sorted_actors = site.threat_actors | sort: "title" %}
+  {% assign sorted_actors = site.data.threat_actors | sort: "name" %}
   {% for actor in sorted_actors %}
     <div class="threat-actor-card">
-      <h3><a href="{{ actor.url | relative_url }}">{{ actor.title }}</a></h3>
+      <h3><a href="{{ actor.url | append: '/' | relative_url }}">{{ actor.name }}</a></h3>
       <div class="actor-card-metadata">
         <div class="metadata-item">
-          <strong>Aliases:</strong> {{ actor.aliases | join: ', ' }}
+          <strong>Aliases:</strong> {{ actor.aliases | uniq | join: ', ' }}
         </div>
         {% if actor.country %}
         <div class="metadata-item">

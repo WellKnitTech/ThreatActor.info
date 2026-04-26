@@ -16,11 +16,6 @@ The attack appears to be a years-long espionage campaign, but experts who have a
 Researchers at the CrySyS Lab in Hungary were alerted by the Hungarian National Security Authority to an attack against a high-profile target in the country and began looking into the campaign. They quickly discovered that some of the infrastructure being used in the attack had been in use for some time and that the target they were investigating was by no means the only one.
 
 ## Activities and Tactics
-**Targeted Sectors**: Activists, Intelligence, Government, Administration, Government, Private sector
-**Country of Origin**: 🇷🇺 Russia
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: Hungary, Belarus
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -48,8 +43,6 @@ Researchers at the CrySyS Lab in Hungary were alerted by the Hungarian National 
 - **Archelaus Beta**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

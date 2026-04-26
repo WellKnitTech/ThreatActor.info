@@ -16,11 +16,6 @@ sector_focus: ["Critical Infrastructure", "Healthcare", "Education"]
 LockBit is a ransomware-as-a-service operation known for its fast encryption and double extortion tactics.
 
 ## Activities and Tactics
-**Targeted Sectors**: Critical Infrastructure, Healthcare, Education
-**Country of Origin**: 🇷🇺 Russia
-**Risk Level**: Critical
-**First Seen**: 2019
-**Last Activity**: 2024
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -44,8 +39,6 @@ LockBit is a ransomware-as-a-service operation known for its fast encryption and
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

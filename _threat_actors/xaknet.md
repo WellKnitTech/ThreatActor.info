@@ -12,7 +12,6 @@ country_flag: "🇷🇺"
 XakNet is a self-proclaimed hacktivist group that has targeted Ukraine. They claim to be comprised of Russian patriotic volunteers and have conducted various threat activities, including DDoS attacks, compromises, data leaks, and website defacements. They coordinate their operations with other hacktivist groups and have connections to APT28, a cyber espionage group sponsored by the GRU.
 
 ## Activities and Tactics
-**Country of Origin**: 🇷🇺 Russia
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -37,8 +36,6 @@ XakNet is a self-proclaimed hacktivist group that has targeted Ukraine. They cla
 - **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

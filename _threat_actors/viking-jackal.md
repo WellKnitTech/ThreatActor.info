@@ -13,8 +13,6 @@ country_flag: "🏳️"
 
 
 ## Activities and Tactics
-**Country of Origin**: 🏳️ United Arab Emirates
-**Risk Level**: High
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -38,8 +36,6 @@ country_flag: "🏳️"
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-**Country of Origin**: United Arab Emirates
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

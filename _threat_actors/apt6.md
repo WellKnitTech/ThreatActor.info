@@ -17,8 +17,6 @@ Details regarding the actual attack and what government systems were infected ar
 “Given the nature of malware payload involved and the duration of this compromise being unnoticed – the scope of lateral movement inside the compromised network is very high possibly exposing all the critical systems,”Deepen said.
 
 ## Activities and Tactics
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -45,8 +43,6 @@ Details regarding the actual attack and what government systems were infected ar
 - **Deeper RAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

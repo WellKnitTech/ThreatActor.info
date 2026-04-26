@@ -18,11 +18,6 @@ source_attribution: "© The MITRE Corporation. This work is reproduced and distr
 TA505 is a cyber criminal group that has been active since at least 2014. TA505 is known for frequently changing malware, driving global trends in criminal malware distribution, and ransomware campaigns involving Clop.(Citation: Proofpoint TA505 Sep 2017)(Citation: Proofpoint TA505 June 2018)(Citation: Proofpoint TA505 Jan 2019)(Citation: NCC Group TA505)(Citation: Korean FSI TA505 2020)
 
 ## Activities and Tactics
-**Targeted Sectors**: Technology, Healthcare, Financial, Government
-**Country of Origin**: 🇷🇺 Russia
-**Risk Level**: Critical
-**First Seen**: 2019
-**Last Activity**: 2025
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -46,8 +41,6 @@ TA505 is a cyber criminal group that has been active since at least 2014. TA505 
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 [1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0092)

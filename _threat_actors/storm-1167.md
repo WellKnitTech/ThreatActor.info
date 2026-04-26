@@ -12,7 +12,6 @@ country_flag: "🏳️"
 Storm-1167 is a threat actor tracked by Microsoft, known for their use of an AiTM phishing kit. They were responsible for launching an attack that led to Business Email Compromise activity.
 
 ## Activities and Tactics
-**Country of Origin**: 🏳️ Indonesia
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -36,8 +35,6 @@ Storm-1167 is a threat actor tracked by Microsoft, known for their use of an AiT
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-**Country of Origin**: Indonesia
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

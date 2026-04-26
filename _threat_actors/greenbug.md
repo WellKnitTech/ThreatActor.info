@@ -14,9 +14,6 @@ sector_focus: ["Education", "Energy", "Investment", "Aerospace", "Government, Ad
 Greenbug was discovered targeting a range of organizations in the Middle East including companies in the aviation, energy, government, investment, and education sectors.
 
 ## Activities and Tactics
-**Targeted Sectors**: Education, Energy, Investment, Aerospace, Government, Administration
-**Country of Origin**: 🇮🇷 Iran
-**Risk Level**: High
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -40,8 +37,6 @@ Greenbug was discovered targeting a range of organizations in the Middle East in
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-**Country of Origin**: Iran
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

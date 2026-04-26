@@ -14,11 +14,6 @@ sector_focus: ["Energy", "Private sector", "Government"]
 A Russian group that collects intelligence on the energy industry.
 
 ## Activities and Tactics
-**Targeted Sectors**: Energy, Private sector, Government
-**Country of Origin**: 🇷🇺 Russia
-**Risk Level**: Critical
-**Incident Type**: Espionage
-**Suspected Victims**: United States, Germany, Turkey, China, Spain, France, Ireland, Japan, Italy, Poland
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -42,8 +37,6 @@ A Russian group that collects intelligence on the energy industry.
 *Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

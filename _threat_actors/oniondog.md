@@ -14,11 +14,6 @@ sector_focus: ["Government", "Private sector"]
 This threat actor targets the South Korean government, transportation, and energy sectors.
 
 ## Activities and Tactics
-**Targeted Sectors**: Government, Private sector
-**Country of Origin**: 🇰🇵 North Korea
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: South Korea
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -42,8 +37,6 @@ This threat actor targets the South Korean government, transportation, and energ
 *Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
-**Country of Origin**: North Korea
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

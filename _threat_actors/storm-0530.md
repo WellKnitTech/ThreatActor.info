@@ -12,7 +12,6 @@ country_flag: "🇰🇵"
 H0lyGh0st is a North Korean threat actor that has been active since June 2021. They are responsible for developing and deploying the H0lyGh0st ransomware, which targets small-to-medium businesses in various sectors. The group employs "double extortion" tactics, encrypting data and threatening to publish it if the ransom is not paid. There are connections between H0lyGh0st and the PLUTONIUM APT group, indicating a possible affiliation.
 
 ## Activities and Tactics
-**Country of Origin**: 🇰🇵 North Korea
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -38,8 +37,6 @@ H0lyGh0st is a North Korean threat actor that has been active since June 2021. T
 - **Gh0st RAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: North Korea
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

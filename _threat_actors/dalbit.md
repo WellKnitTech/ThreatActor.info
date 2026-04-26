@@ -12,7 +12,6 @@ country_flag: "🇨🇳"
 The group usually targets vulnerable servers to breach information including internal data from companies or encrypts files and demands money. Their targets of attack are usually Windows servers that are poorly managed or are not patched to the latest version. Besides these, there are also attack cases that targeted email servers or MS-SQL database servers.
 
 ## Activities and Tactics
-**Country of Origin**: 🇨🇳 China
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -36,8 +35,6 @@ The group usually targets vulnerable servers to breach information including int
 - **Windows Remote Desktop**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -14,11 +14,6 @@ sector_focus: ["Defense", "Diplomacy", "Military", "Technology", "Government, Ad
 Charming Kitten (aka Parastoo, aka Newscaster) is an group with a suspected nexus to Iran that targets organizations involved in government, defense technology, military, and diplomacy sectors.
 
 ## Activities and Tactics
-**Targeted Sectors**: Defense, Diplomacy, Military, Technology, Government, Administration, Government
-**Country of Origin**: 🇮🇷 Iran
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: U.S. government/defense sector websites, Saudi Arabia, Israel, Iraq, United Kingdom
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -42,8 +37,6 @@ Charming Kitten (aka Parastoo, aka Newscaster) is an group with a suspected nexu
 - **Parasite-HTTP-RAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Iran
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

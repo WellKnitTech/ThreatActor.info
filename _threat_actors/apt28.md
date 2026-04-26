@@ -20,13 +20,6 @@ APT28 is a threat group that has been attributed to Russia's General Staff Main 
 APT28 reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election.(Citation: Crowdstrike DNC June 2016) In 2018, the US indicted five GRU Unit 26165 officers associated with APT28 for cyber operations (including close-access operations) conducted between 2014 and 2018 against the World Anti-Doping Agency (WADA), the US Anti-Doping Agency, a US nuclear facility, the Organization for the Prohibition of Chemical Weapons (OPCW), the Spiez Swiss Chemicals Laboratory, and other organizations.(Citation: US District Court Indictment GRU Oct 2018) Some of these were conducted with the assistance of GRU Unit 74455, which is also referred to as Sandworm Team. 
 
 ## Activities and Tactics
-**Targeted Sectors**: Government, Military, Media
-**Country of Origin**: 🇷🇺 Russia
-**Risk Level**: High
-**First Seen**: 2007
-**Last Activity**: 2024
-**Incident Type**: Espionage
-**Suspected Victims**: Georgia, France, Jordan, United States, Hungary, World Anti-Doping Agency, Armenia, Tajikistan, Japan, NATO...
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -51,8 +44,6 @@ APT28 reportedly compromised the Hillary Clinton campaign, the Democratic Nation
 - **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 [1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0007)

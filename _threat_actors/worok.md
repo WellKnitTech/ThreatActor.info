@@ -14,11 +14,6 @@ sector_focus: ["Government", "Energy Company"]
 Worok is a cyber espionage group, mostly targeting Central Asia. The group toolset includes a C++ loader named CLRLoad, a PowerShell backdoor named PowHeartBeat, and a C# loader named PNGLoad.
 
 ## Activities and Tactics
-**Targeted Sectors**: Government, Energy Company
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: East Asia, Central Asia, Southeast Asia, The Middle East, Southern Africa
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -49,8 +44,6 @@ Worok is a cyber espionage group, mostly targeting Central Asia. The group tools
 - **PowerRAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

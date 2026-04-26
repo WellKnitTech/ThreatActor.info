@@ -12,8 +12,6 @@ sector_focus: ["Intelligence"]
 Libyan Scorpions is a malware operation in use since September 2015 and operated by a politically motivated group whose main objective is intelligence gathering, spying on influentials and political figures and operate an espionage campaign within Libya.
 
 ## Activities and Tactics
-**Targeted Sectors**: Intelligence
-**Risk Level**: High
 
 ## Notable Campaigns
 *Information pending cataloguing.*

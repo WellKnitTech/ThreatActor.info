@@ -14,11 +14,6 @@ sector_focus: ["Infrastructure", "Industrial", "Manufacturing", "Diplomacy", "Ne
 Tick is a cyber espionage group with likely Chinese origins that has been active since at least 2008. The group appears to have close ties to the Chinese National University of Defense and Technology, which is possibly linked to the PLA. This threat actor targets organizations in the critical infrastructure, heavy industry, manufacturing, and international relations sectors for espionage purposes.  The attacks appear to be centered on political, media, and engineering sectors. STALKER PANDA has been observed conducting targeted attacks against Japan, Taiwan, Hong Kong, and the United States.
 
 ## Activities and Tactics
-**Targeted Sectors**: Infrastructure, Industrial, Manufacturing, Diplomacy, News - Media, Political party, Engineering, Private sector
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: Japan, China, South Korea, Russian Federation
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -44,8 +39,6 @@ Tick is a cyber espionage group with likely Chinese origins that has been active
 - **UNITEDRAKE**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -14,11 +14,6 @@ sector_focus: ["Infrastructure", "Diplomacy", "Government"]
 This threat actor uses spear-phishing techniques to compromise diplomatic targets in Southeast Asia, India, and the United States. It also seems to have targeted the APT 30. Possibly uses the same infrastructure as Mirage
 
 ## Activities and Tactics
-**Targeted Sectors**: Infrastructure, Diplomacy, Government
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: Malaysia, Indonesia, Philippines, United States, India
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -42,8 +37,6 @@ This threat actor uses spear-phishing techniques to compromise diplomatic target
 - **UNITEDRAKE**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

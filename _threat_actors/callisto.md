@@ -13,8 +13,6 @@ sector_focus: ["Government Administration", "Military", "Think Tanks", "Journali
 The Callisto Group is an advanced threat actor whose known targets include military personnel, government officials, think tanks, and journalists in Europe and the South Caucasus. Their primary interest appears to be gathering intelligence related to foreign and security policy in the Eastern Europe and South Caucasus regions.
 
 ## Activities and Tactics
-**Targeted Sectors**: Government Administration, Military, Think Tanks, Journalist
-**Country of Origin**: 🇷🇺 Russia
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -38,8 +36,6 @@ The Callisto Group is an advanced threat actor whose known targets include milit
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -14,9 +14,6 @@ sector_focus: ["Bank"]
 This group's activity was first observed in November 2013. It leverages a banking Trojan more commonly known as Shylock which aims to compromise online banking credentials and credentials related to Bitcoin wallets.
 
 ## Activities and Tactics
-**Targeted Sectors**: Bank
-**Country of Origin**: 🇷🇺 Russia
-**Risk Level**: High
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -41,8 +38,6 @@ This group's activity was first observed in November 2013. It leverages a bankin
 - **Trojan.Mebromi**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

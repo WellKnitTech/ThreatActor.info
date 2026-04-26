@@ -141,28 +141,6 @@ def build_front_matter(actor)
   url = actor['url']&.gsub(/\/$/, '') || 'unknown'
   lines << "permalink: #{url}/"
   
-  # Optional fields
-  ['country', 'first_seen', 'last_activity', 'risk_level', 'external_id'].each do |field|
-    lines << "#{field}: \"#{actor[field]}\"" if actor[field]
-  end
-  
-  # Add country_flag if country exists
-  if actor['country']
-    flag = get_country_flag(actor['country'])
-    lines << "country_flag: \"#{flag}\""
-  end
-  
-  # Sector focus
-  if actor['sector_focus'] && actor['sector_focus'].any?
-    sectors = actor['sector_focus'].map { |s| "\"#{s}\"" }.join(', ')
-    lines << "sector_focus: [#{sectors}]"
-  end
-  
-  # Source attribution
-  if actor['source_attribution']
-    lines << "source_attribution: \"#{actor['source_attribution'].gsub('"', '\\"')}\""
-  end
-  
   lines.join("\n")
 end
 

@@ -13,9 +13,6 @@ sector_focus: ["Financial"]
 Antlion is a Chinese state-backed advanced persistent threat (APT) group, who has been targeting financial institutions in Taiwan. This persistent campaign has lasted over the course of at least 18 months.
 
 ## Activities and Tactics
-**Targeted Sectors**: Financial
-**Country of Origin**: 🇨🇳 China
-**Suspected Victims**: Taiwan
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -39,8 +36,6 @@ Antlion is a Chinese state-backed advanced persistent threat (APT) group, who ha
 *Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

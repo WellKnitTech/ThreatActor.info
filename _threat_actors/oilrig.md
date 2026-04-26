@@ -26,11 +26,6 @@ OilRig relies on stolen account credentials for lateral movement. After OilRig g
 Since at least 2014, an Iranian threat group tracked by FireEye as APT34 has conducted reconnaissance aligned with the strategic interests of Iran. The group conducts operations primarily in the Middle East, targeting financial, government, energy, chemical, telecommunications and other industries. Repeated targeting of Middle Eastern financial, energy and government organizations leads FireEye to assess that those sectors are a primary concern of APT34. The use of infrastructure tied to Iranian operations, timing and alignment with the national interests of Iran also lead FireEye to assess that APT34 acts on behalf of the Iranian government.
 
 ## Activities and Tactics
-**Targeted Sectors**: Chemical, Energy, Engineering, Finance, Government, Administration, Telecoms, Other, Government, Private sector, Civil society
-**Country of Origin**: 🇮🇷 Iran
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: Israel, Kuwait, United States, Turkey, Saudi Arabia, Qatar, Lebanon, Middle East
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -59,8 +54,6 @@ Since at least 2014, an Iranian threat group tracked by FireEye as APT34 has con
 - **Xploit**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Iran
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -11,9 +11,6 @@ sector_focus: ["Critical manufacturing", "Transportation systems"]
 A self-proclaimed hacktivist group that carried out attacks against Iranian railway systems and against Iranian steel plants.
 
 ## Activities and Tactics
-**Targeted Sectors**: Critical manufacturing, Transportation systems
-**Incident Type**: Sabotage
-**Suspected Victims**: Iran
 
 ## Notable Campaigns
 *Information pending cataloguing.*

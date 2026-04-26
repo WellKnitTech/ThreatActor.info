@@ -15,11 +15,6 @@ A previously undocumented attack group is using both custom and off-the-shelf ma
 The group, which we are calling Tortoiseshell, has been active since at least July 2018. Symantec has identified a total of 11 organizations hit by the group, the majority of which are based in Saudi Arabia. In at least two organizations, evidence suggests that the attackers gained domain admin-level access.
 
 ## Activities and Tactics
-**Targeted Sectors**: Defense, Government, Military, Finance, Energy, Healthcare, Pharmaceuticals, Telecoms, High-Tech, Media, NGOs, Civil Society, Legal, Rail, Transportation
-**Country of Origin**: 🇮🇷 Iran
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: United States, Israel, Middle East, Europe
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -43,8 +38,6 @@ The group, which we are calling Tortoiseshell, has been active since at least Ju
 - **Arabian-Attacker RAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Iran
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

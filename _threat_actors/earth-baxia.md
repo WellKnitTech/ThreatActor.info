@@ -12,7 +12,6 @@ country_flag: "🇨🇳"
 Earth Baxia is a threat actor opearting out of China, targeting government organizations in Taiwan and potentially across the APAC region, using spear-phishing emails and exploiting the GeoServer vulnerability CVE-2024-36401 for remote code execution, deploying customized Cobalt Strike components with altered signatures, leveraging GrimResource and AppDomainManager injection techniques to deliver additional payloads, and utilizing a new backdoor named EAGLEDOOR for multi-protocol communication and payload delivery.
 
 ## Activities and Tactics
-**Country of Origin**: 🇨🇳 China
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -43,8 +42,6 @@ Earth Baxia is a threat actor opearting out of China, targeting government organ
 - **CrossRat**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

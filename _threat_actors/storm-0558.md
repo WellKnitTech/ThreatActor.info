@@ -14,11 +14,6 @@ sector_focus: ["Government"]
 Storm-0558 is a China-based threat actor with espionage objectives. While there are some minimal overlaps with other Chinese groups such as Violet Typhoon (ZIRCONIUM, APT31), Microsoft maintain high confidence that Storm-0558 operates as its own distinct group
 
 ## Activities and Tactics
-**Targeted Sectors**: Government
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: United States, Germany
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -43,8 +38,6 @@ Storm-0558 is a China-based threat actor with espionage objectives. While there 
 - **Minimo**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

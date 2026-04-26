@@ -14,11 +14,6 @@ sector_focus: ["Private sector", "Military"]
 
 
 ## Activities and Tactics
-**Targeted Sectors**: Private sector, Military
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: United States, United Kingdom, Hong Kong
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -42,8 +37,6 @@ sector_focus: ["Private sector", "Military"]
 *Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

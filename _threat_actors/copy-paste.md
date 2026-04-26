@@ -11,9 +11,6 @@ sector_focus: ["Government"]
 The title ‘Copy-paste compromises’ is derived from the actor’s heavy use of tools copied almost identically from open source given by The Australian Government.
 
 ## Activities and Tactics
-**Targeted Sectors**: Government
-**Incident Type**: Espionage
-**Suspected Victims**: Australia
 
 ## Notable Campaigns
 *Information pending cataloguing.*

@@ -13,9 +13,6 @@ sector_focus: ["Government", "Education", "Logistics"]
 Since 2021, Red Menshen, a China based threat actor, which has been observed targeting telecommunications providers across the Middle East and Asia, as well as entities in the government, education, and logistics sectors using a custom backdoor referred as BPFDoor. This threat actor uses a variety of tools in its post-exploitation phase. This includes custom variants of the shared tool Mangzamel (including Golang variants), custom variants of Gh0st, and open source tools like Mimikatz and Metasploit to aid in its lateral movement across Windows systems. Also, They have been seen sending commands to BPFDoor victims via Virtual Privat Servers (VPSs) hosted at a well-known provider, and that these VPSs, in turn, are administered via compromised routers based in Taiwan, which the threat actor uses as VPN tunnels. Most Red Menshen activity that has been observed took place between Monday to Friday (with none observed on the weekends), with most communication taking place between 01:00 and 10:00 UTC.131 This pattern suggests a consistent 8 to 9-hour activity window for the threat actor, with realistic probability of it aligning to local working hours.
 
 ## Activities and Tactics
-**Targeted Sectors**: Government, Education, Logistics
-**Country of Origin**: 🇨🇳 China
-**Suspected Victims**: Middle East, Asia
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -45,8 +42,6 @@ Since 2021, Red Menshen, a China based threat actor, which has been observed tar
 - **CrossRat**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -12,7 +12,6 @@ country_flag: "🇮🇷"
 The hacktivist group ‘Cyber Av3ngers’ has historically claimed attacks on Israel’s critical infrastructures. It has been launching DDoS attacks and claiming breach of Israeli networks with supporting data leaks.
 
 ## Activities and Tactics
-**Country of Origin**: 🇮🇷 Iran
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -37,8 +36,6 @@ The hacktivist group ‘Cyber Av3ngers’ has historically claimed attacks on Is
 - **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Iran
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

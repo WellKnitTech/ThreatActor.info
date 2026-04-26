@@ -20,11 +20,6 @@ and reached out via LinkedIn to invite targets to apply for software development
 the Israeli military, as well as Israel’s aerospace and defense industry
 
 ## Activities and Tactics
-**Targeted Sectors**: Military, Defense, Transportation
-**Country of Origin**: 🏳️ Palestine
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: Israel
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -53,8 +48,6 @@ the Israeli military, as well as Israel’s aerospace and defense industry
 - **BlackHole**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Palestine
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

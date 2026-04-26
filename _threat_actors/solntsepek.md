@@ -12,7 +12,6 @@ country_flag: "🇷🇺"
 Solntsepek is a threat actor group with ties to the Russian military unit GRU. They have claimed responsibility for a cyberattack on Kyivstar, a Ukrainian mobile operator, and have been linked to previous attacks on Ukrainian infrastructure. Solntsepek has been associated with the Sandworm hacking group, known for their destructive cyberattacks, including the NotPetya worm. They have also engaged in hostile activities, such as revealing personal details of Ukrainian soldiers.
 
 ## Activities and Tactics
-**Country of Origin**: 🇷🇺 Russia
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -39,8 +38,6 @@ Solntsepek is a threat actor group with ties to the Russian military unit GRU. T
 - **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

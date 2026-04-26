@@ -12,7 +12,6 @@ country_flag: "🇮🇷"
 Edalat-e Ali is a hacktivist group known for disrupting Iranian state-run TV and radio transmissions during significant events, such as the Revolution Day ceremonies. They have also targeted government facilities, releasing security camera footage to expose abuses and draw attention to human rights violations. The group has used their hacks to call for protests against the Iranian regime and have displayed anti-government messages during their disruptions. Edalat-e Ali has been active in releasing sensitive information and footage to embarrass Iranian officials and highlight injustices within the country.
 
 ## Activities and Tactics
-**Country of Origin**: 🇮🇷 Iran
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -36,8 +35,6 @@ Edalat-e Ali is a hacktivist group known for disrupting Iranian state-run TV and
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-**Country of Origin**: Iran
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

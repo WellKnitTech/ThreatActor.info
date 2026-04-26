@@ -20,13 +20,6 @@ APT29 is threat group that has been attributed to Russia's Foreign Intelligence 
 In April 2021, the US and UK governments attributed the SolarWinds Compromise to the SVR; public statements included citations to APT29, Cozy Bear, and The Dukes.(Citation: NSA Joint Advisory SVR SolarWinds April 2021)(Citation: UK NSCS Russia SolarWinds April 2021) Industry reporting also referred to the actors involved in this campaign as UNC2452, NOBELIUM, StellarParticle, Dark Halo, and SolarStorm.(Citation: FireEye SUNBURST Backdoor December 2020)(Citation: MSTIC NOBELIUM Mar 2021)(Citation: CrowdStrike SUNSPOT Implant January 2021)(Citation: Volexity SolarWinds)(Citation: Cybersecurity Advisory SVR TTP May 2021)(Citation: Unit 42 SolarStorm December 2020)
 
 ## Activities and Tactics
-**Targeted Sectors**: Government, Healthcare, Energy
-**Country of Origin**: 🇷🇺 Russia
-**Risk Level**: High
-**First Seen**: 2008
-**Last Activity**: 2024
-**Incident Type**: Espionage
-**Suspected Victims**: United States, China, New Zealand, Ukraine, Romania, Georgia, Japan, South Korea, Belgium, Kazakhstan...
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -59,8 +52,6 @@ In April 2021, the US and UK governments attributed the SolarWinds Compromise to
 - **CyberGate**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 [1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0016)

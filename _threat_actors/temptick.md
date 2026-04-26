@@ -14,10 +14,6 @@ sector_focus: ["Government", "Private sector"]
 This threat actor targets organizations in the finance, defense, aerospace, technology, health-care, and automotive sectors and media organizations in East Asia for the purpose of espionage. Believed to be responsible for the targeting of South Korean actors prior to the meeting of Donald J. Trump and Kim Jong-un
 
 ## Activities and Tactics
-**Targeted Sectors**: Government, Private sector
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
-**Suspected Victims**: South Korea, Japan
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -41,8 +37,6 @@ This threat actor targets organizations in the finance, defense, aerospace, tech
 - **SPACESHIP**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -12,7 +12,6 @@ country_flag: "🇨🇳"
 Lilac Typhoon is a threat actor attributed to China. They have been identified as exploiting the Atlassian Confluence RCE vulnerability CVE-2022-26134, which allows for remote code execution. This vulnerability has been used in cryptojacking campaigns and is included in commercial exploit frameworks. Lilac Typhoon has also been involved in deploying various payloads such as Cobalt Strike, web shells, botnets, coin miners, and ransomware.
 
 ## Activities and Tactics
-**Country of Origin**: 🇨🇳 China
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -42,8 +41,6 @@ Lilac Typhoon is a threat actor attributed to China. They have been identified a
 - **Cobalt Strike**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

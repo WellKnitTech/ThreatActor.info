@@ -16,11 +16,6 @@ Anchor Panda is an adversary that CrowdStrike has tracked extensively over the l
 Not surprisingly, embassies and diplomatic missions in the region, foreign intelligence services, and foreign governments with space programs were also targeted.
 
 ## Activities and Tactics
-**Targeted Sectors**: Other, Aerospace, Defense, Intelligence, Maritime, Military, Space, Government
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: United States, United Kingdom, Germany, Australia, Sweden
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -44,8 +39,6 @@ Not surprisingly, embassies and diplomatic missions in the region, foreign intel
 - **SPACESHIP**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

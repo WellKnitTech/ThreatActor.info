@@ -12,8 +12,6 @@ sector_focus: ["Health", "Finance", "Pharmacy"]
 FIN4 is a financially-motivated threat group that has targeted confidential information related to the public financial market, particularly regarding healthcare and pharmaceutical companies, since at least 2013. FIN4 is unique in that they do not infect victims with typical persistent malware, but rather they focus on capturing credentials authorized to access email and other non-public correspondence.
 
 ## Activities and Tactics
-**Targeted Sectors**: Health, Finance, Pharmacy
-**Risk Level**: High
 
 ## Notable Campaigns
 *Information pending cataloguing.*

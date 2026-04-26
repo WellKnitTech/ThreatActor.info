@@ -17,9 +17,6 @@ Buhtrap is the first hacker group using a network worm to infect the overall ban
 Malicious programs intentionally scan for machines with an automated Bank-Customer system of the Central Bank of Russia (further referred to as BCS CBR). We have not identified incidents of attacks involving online money transfer systems, ATM machines or payment gates which are known to be of interest for other criminal groups.
 
 ## Activities and Tactics
-**Targeted Sectors**: Bank, Payment, Finance
-**Country of Origin**: 🇷🇺 Russia
-**Risk Level**: High
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -44,8 +41,6 @@ Malicious programs intentionally scan for machines with an automated Bank-Custom
 - **Client Maximus**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

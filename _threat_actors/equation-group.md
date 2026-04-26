@@ -14,11 +14,6 @@ sector_focus: ["Government", "Military"]
 The Equation Group is a highly sophisticated threat actor described by its discoverers at Kaspersky Labs as one of the most sophisticated cyber attack groups in the world, operating alongside but always from a position of superiority with the creators of Stuxnet and Flame
 
 ## Activities and Tactics
-**Targeted Sectors**: Government, Military
-**Country of Origin**: 🇺🇸 United States
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: Iran, Afghanistan, Syria, Yemen, Kenya, Russia, India, Mali, Algeria, United Kingdom...
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -44,8 +39,6 @@ The Equation Group is a highly sophisticated threat actor described by its disco
 - **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: United States
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

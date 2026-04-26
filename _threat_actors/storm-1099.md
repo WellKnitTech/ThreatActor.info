@@ -12,7 +12,6 @@ country_flag: "🇷🇺"
 Storm-1099 is a sophisticated Russia-affiliated influence actor that has been conducting pro-Russia influence operations targeting international supporters of Ukraine since Spring 2022. They are known for their website forgery operation called "Doppelganger" and have been actively spreading false information. They have been involved in pushing the claim that Hamas acquired Ukrainian weapons for an attack on Israel. Storm-1099 has also been implicated in amplifying images of graffiti in Paris, suggesting possible Russian involvement and aligning with Russia's Active Measures playbook.
 
 ## Activities and Tactics
-**Country of Origin**: 🇷🇺 Russia
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -36,8 +35,6 @@ Storm-1099 is a sophisticated Russia-affiliated influence actor that has been co
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

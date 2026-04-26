@@ -14,11 +14,6 @@ sector_focus: ["Government", "Military"]
 
 
 ## Activities and Tactics
-**Targeted Sectors**: Government, Military
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: Mongolia, Kazakhstan, Tajikistan, Germany, United Kingdom, India, Kyrgyzstan, South Korea, United States, Chile...
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -42,8 +37,6 @@ sector_focus: ["Government", "Military"]
 *Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

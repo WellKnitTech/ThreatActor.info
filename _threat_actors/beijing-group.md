@@ -14,11 +14,6 @@ sector_focus: ["Private sector", "Civil society"]
 
 
 ## Activities and Tactics
-**Targeted Sectors**: Private sector, Civil society
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: United States, Canada, United Kingdom, Switzerland, Hong Kong, Australia, India, Taiwan, China, Denmark
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -42,8 +37,6 @@ sector_focus: ["Private sector", "Civil society"]
 *Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

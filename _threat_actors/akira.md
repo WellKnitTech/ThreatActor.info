@@ -18,11 +18,6 @@ source_attribution: "© The MITRE Corporation. This work is reproduced and distr
 Akira is a ransomware variant and ransomware deployment entity active since at least March 2023.(Citation: Arctic Wolf Akira 2023) Akira uses compromised credentials to access single-factor external access mechanisms such as VPNs for initial access, then various publicly-available tools and techniques for lateral movement.(Citation: Arctic Wolf Akira 2023)(Citation: Secureworks GOLD SAHARA) Akira operations are associated with "double extortion" ransomware activity, where data is exfiltrated from victim environments prior to encryption, with threats to publish files if a ransom is not paid. Technical analysis of Akira ransomware indicates variants capable of targeting Windows or VMWare ESXi hypervisors and multiple overlaps with Conti ransomware.(Citation: BushidoToken Akira 2023)(Citation: CISA Akira Ransomware APR 2024)(Citation: Cisco Akira Ransomware OCT 2024)
 
 ## Activities and Tactics
-**Targeted Sectors**: Healthcare, Education, Government, Technology
-**Country of Origin**: 🏳️ Unknown
-**Risk Level**: High
-**First Seen**: 2023
-**Last Activity**: 2025
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -46,8 +41,6 @@ Akira is a ransomware variant and ransomware deployment entity active since at l
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-**Country of Origin**: Unknown
-*Additional attribution information pending cataloguing.*
 
 ## References
 [1] [MITRE ATT&CK](https://attack.mitre.org/groups/G1024)

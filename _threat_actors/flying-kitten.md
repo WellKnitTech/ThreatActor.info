@@ -14,11 +14,6 @@ sector_focus: ["Aerospace", "Defense", "Gas", "Oil", "Military", "Civil society"
 Activity: defense and aerospace sectors, also interested in targeting entities in the oil/gas industry.
 
 ## Activities and Tactics
-**Targeted Sectors**: Aerospace, Defense, Gas, Oil, Military, Civil society
-**Country of Origin**: 🇮🇷 Iran
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: United States, Iranian internet activists
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -42,8 +37,6 @@ Activity: defense and aerospace sectors, also interested in targeting entities i
 - **SPACESHIP**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Iran
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

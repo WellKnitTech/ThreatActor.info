@@ -14,11 +14,6 @@ sector_focus: ["Private sector"]
 This threat actor targets critical infrastructure entities in the oil and gas sector, primarily in Ukraine. The threat actors deploy the BugDrop malware to remotely access the microphones in their targets' computers to eavesdrop on conversations.
 
 ## Activities and Tactics
-**Targeted Sectors**: Private sector
-**Country of Origin**: 🇷🇺 Russia
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: Ukraine, Austria, Russia, Saudi Arabia
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -44,8 +39,6 @@ This threat actor targets critical infrastructure entities in the oil and gas se
 - **RemotePC**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -2,70 +2,145 @@
 layout: default
 ---
 
+{% assign actor_permalink = page.permalink | default: page.url %}
+{% assign current_actor = nil %}
+{% for actor_candidate in site.data.threat_actors %}
+  {% assign actor_candidate_permalink = actor_candidate.url | append: "/" %}
+  {% if actor_permalink == actor_candidate_permalink or page.url == actor_candidate_permalink or page.url == actor_candidate.url %}
+    {% assign current_actor = actor_candidate %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% assign profile_title = current_actor.name | default: page.title %}
+{% assign profile_aliases = current_actor.aliases | default: page.aliases %}
+{% assign profile_description = current_actor.description | default: page.description %}
+{% assign profile_country = current_actor.country | default: page.country %}
+{% assign profile_country_flag = current_actor.country_flag | default: page.country_flag %}
+{% assign profile_first_seen = current_actor.first_seen | default: page.first_seen %}
+{% assign profile_last_activity = current_actor.last_activity | default: page.last_activity %}
+{% assign profile_risk_level = current_actor.risk_level | default: page.risk_level %}
+{% assign profile_incident_type = current_actor.incident_type | default: page.incident_type %}
+{% assign profile_external_id = current_actor.external_id | default: page.external_id %}
+{% assign profile_external_url = current_actor.external_url | default: page.external_url %}
+{% assign profile_mitre_url = current_actor.mitre_url | default: page.mitre_url %}
+{% assign profile_sectors = current_actor.sector_focus | default: page.sector_focus %}
+{% assign profile_targeted_victims = current_actor.targeted_victims | default: page.targeted_victims %}
+{% assign profile_operations = current_actor.operations | default: page.operations %}
+{% assign profile_source_name = current_actor.source_name | default: page.source_name %}
+{% assign profile_source_attribution = current_actor.source_attribution | default: page.source_attribution %}
+{% assign profile_source_record_url = current_actor.source_record_url | default: page.source_record_url %}
+{% if profile_source_record_url == nil and current_actor and current_actor.provenance and current_actor.provenance.malpedia %}
+  {% assign profile_source_record_url = current_actor.provenance.malpedia.source_record_url %}
+{% endif %}
+{% assign profile_url = profile_external_url | default: profile_mitre_url %}
+
 <div class="threat-actor-header">
   <div class="header-top">
-    <h1>{{ page.title }}</h1>
-    {% if page.risk_level %}
-    <span class="risk-badge {{ page.risk_level | downcase }}">
-      {% if page.risk_level == 'Critical' %}⚠️{% elsif page.risk_level == 'High' %}🔴{% elsif page.risk_level == 'Medium' %}🟡{% else %}🟢{% endif %}
-      {{ page.risk_level }}
+    <h1>{{ profile_title }}</h1>
+    {% if profile_risk_level %}
+    <span class="risk-badge {{ profile_risk_level | downcase }}">
+      {% if profile_risk_level == 'Critical' %}⚠️{% elsif profile_risk_level == 'High' %}🔴{% elsif profile_risk_level == 'Medium' %}🟡{% else %}🟢{% endif %}
+      {{ profile_risk_level }}
     </span>
     {% endif %}
   </div>
   
-  {% if page.aliases and page.aliases.size > 0 %}
+  {% if profile_aliases and profile_aliases.size > 0 %}
   <div class="aliases">
     <span class="aliases-label">Also known as:</span>
-    <span class="aliases-list">{{ page.aliases | join: ", " }}</span>
+    <span class="aliases-list">{{ profile_aliases | uniq | join: ", " }}</span>
   </div>
   {% endif %}
   
   <div class="actor-description">
-    <p>{{ page.description }}</p>
+    <p>{{ profile_description }}</p>
   </div>
   
   <div class="actor-stats">
-    {% if page.country %}
+    {% if profile_country %}
     <div class="stat-item">
       <span class="stat-icon">🌍</span>
       <span class="stat-label">Country</span>
-      <span class="stat-value">{{ page.country_flag }} {{ page.country }}</span>
+      <span class="stat-value">{{ profile_country_flag }} {{ profile_country }}</span>
     </div>
     {% endif %}
     
-    {% if page.first_seen or page.last_activity %}
+    {% if profile_first_seen or profile_last_activity %}
     <div class="stat-item">
       <span class="stat-icon">📅</span>
       <span class="stat-label">Activity</span>
       <span class="stat-value">
-        {% if page.first_seen %}{{ page.first_seen }}{% else %}?{% endif %}
-        {% if page.last_activity %} — {{ page.last_activity }}{% endif %}
+        {% if profile_first_seen %}{{ profile_first_seen }}{% else %}?{% endif %}
+        {% if profile_last_activity %} — {{ profile_last_activity }}{% endif %}
       </span>
     </div>
     {% endif %}
     
-    {% if page.risk_level %}
+    {% if profile_risk_level %}
     <div class="stat-item">
       <span class="stat-icon">⚡</span>
       <span class="stat-label">Risk Level</span>
-      <span class="stat-value risk-{{ page.risk_level | downcase }}">{{ page.risk_level }}</span>
+      <span class="stat-value risk-{{ profile_risk_level | downcase }}">{{ profile_risk_level }}</span>
+    </div>
+    {% endif %}
+
+    {% if profile_incident_type %}
+    <div class="stat-item">
+      <span class="stat-icon">🎯</span>
+      <span class="stat-label">Incident Type</span>
+      <span class="stat-value">{{ profile_incident_type }}</span>
+    </div>
+    {% endif %}
+
+    {% if profile_external_id and profile_url %}
+    <div class="stat-item">
+      <span class="stat-icon">🧭</span>
+      <span class="stat-label">ATT&CK</span>
+      <span class="stat-value"><a href="{{ profile_url }}">{{ profile_external_id }}</a></span>
     </div>
     {% endif %}
   </div>
   
-  {% if page.sector_focus and page.sector_focus.size > 0 %}
+  {% if profile_sectors and profile_sectors.size > 0 %}
   <div class="sector-tags">
-    {% for sector in page.sector_focus %}
+    {% for sector in profile_sectors %}
     <span class="sector-tag">{{ sector }}</span>
     {% endfor %}
   </div>
   {% endif %}
   
-  {% if page.first_seen and page.last_activity %}
+  {% if profile_first_seen and profile_last_activity %}
   <div class="activity-timeline">
-    <span class="year">{{ page.first_seen }}</span>
+    <span class="year">{{ profile_first_seen }}</span>
     <div class="timeline-bar"></div>
-    <span class="year">{{ page.last_activity }}</span>
+    <span class="year">{{ profile_last_activity }}</span>
+  </div>
+  {% endif %}
+
+  {% if profile_targeted_victims or profile_operations %}
+  <div class="profile-metadata-grid">
+    {% if profile_targeted_victims and profile_targeted_victims.size > 0 %}
+    <section class="profile-metadata-card">
+      <h2>Targeted Victims</h2>
+      <div class="sector-tags">
+        {% for victim in profile_targeted_victims %}
+        <span class="sector-tag">{{ victim }}</span>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% if profile_operations and profile_operations.size > 0 %}
+    <section class="profile-metadata-card">
+      <h2>Associated Operations</h2>
+      <div class="sector-tags">
+        {% for operation in profile_operations %}
+        <span class="sector-tag">{{ operation }}</span>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
   </div>
   {% endif %}
 </div>
@@ -74,14 +149,20 @@ layout: default
   {{ content }}
 </div>
 
-{% if page.source_attribution or page.source_record_url %}
+{% if profile_source_attribution or profile_source_record_url or profile_source_name %}
 <aside class="source-attribution-panel">
   <h2>Source Attribution</h2>
-  {% if page.source_attribution %}
-  <p>{{ page.source_attribution }}</p>
+  {% if profile_source_name %}
+  <p><strong>Structured source:</strong> {{ profile_source_name }}</p>
   {% endif %}
-  {% if page.source_record_url %}
-  <p><a href="{{ page.source_record_url }}">View upstream source record</a></p>
+  {% if profile_source_attribution %}
+  <p>{{ profile_source_attribution }}</p>
+  {% endif %}
+  {% if profile_url %}
+  <p><a href="{{ profile_url }}">View ATT&CK group profile</a></p>
+  {% endif %}
+  {% if profile_source_record_url %}
+  <p><a href="{{ profile_source_record_url }}">View upstream source record</a></p>
   {% endif %}
 </aside>
 {% endif %}

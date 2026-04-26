@@ -11,7 +11,6 @@ sector_focus: ["Government, Administration"]
 On May 7, 2019, Mayor Bernard “Jack” Young confirmed that the network for the U.S. City of Baltimore (CoB) was infected with ransomware, which was announced via Twitter1. This infection was later confirmed to be conducted by OUTLAW SPIDER, which is the actor behind the RobbinHood ransomware. The actor demanded to be paid 3 BTC (approximately $17,600 USD at the time) per infected system, or 13 BTC (approximately $76,500 USD at the time) for all infected systems to recover the city’s files.
 
 ## Activities and Tactics
-**Targeted Sectors**: Government, Administration
 
 ## Notable Campaigns
 *Information pending cataloguing.*

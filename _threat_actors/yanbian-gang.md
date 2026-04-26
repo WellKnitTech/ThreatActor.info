@@ -10,7 +10,6 @@ permalink: /yanbian-gang/
 RiskIQ characterizes the Yanbian Gang as a group that targeted South Korean Android mobile banking customers since 2013 with malicious Android apps purporting to be from major banks, namely Shinhan Savings Bank, Saemaul Geumgo, Shinhan Finance, KB Kookmin Bank, and NH Savings Bank.
 
 ## Activities and Tactics
-**Suspected Victims**: South Korea, Japan
 
 ## Notable Campaigns
 *Information pending cataloguing.*

@@ -11,7 +11,6 @@ sector_focus: ["Energy"]
 Microsoft Threat Intelligence identified similarities between this recent attack and previous 2012 attacks against tens of thousands of computers belonging to organizations in the energy sector. Microsoft Threat Intelligence refers to the activity group behind these attacks as TERBIUM, following our internal practice of assigning rogue actors chemical element names.
 
 ## Activities and Tactics
-**Targeted Sectors**: Energy
 
 ## Notable Campaigns
 *Information pending cataloguing.*

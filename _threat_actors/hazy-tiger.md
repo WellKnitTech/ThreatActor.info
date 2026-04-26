@@ -12,8 +12,6 @@ country_flag: "🇮🇳"
 The Bitter threat group initially started using RAT tools in their campaigns, as the first Bitter versions, for Android released in 2014 were based on the AndroRAT framework. Over time, they switched to a custom version that has been known as BitterRAT ever since.
 
 ## Activities and Tactics
-**Country of Origin**: 🇮🇳 India
-**Suspected Victims**: Germany
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -38,8 +36,6 @@ The Bitter threat group initially started using RAT tools in their campaigns, as
 - **Androrat**: 
 
 ## Attribution and Evidence
-**Country of Origin**: India
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -14,11 +14,6 @@ sector_focus: ["Government", "Individuals", "Universities"]
 Evasive Panda is an APT group that has been active since at least 2012, conducting cyberespionage targeting individuals, government institutions and organizations.
 
 ## Activities and Tactics
-**Targeted Sectors**: Government, Individuals, Universities
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: Hong Kong, India, Malaysia, Taiwan
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -43,8 +38,6 @@ Evasive Panda is an APT group that has been active since at least 2012, conducti
 - **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

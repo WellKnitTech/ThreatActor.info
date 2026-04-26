@@ -15,11 +15,6 @@ As a part of our Kaspersky APT Intelligence Reporting subscription, customers re
 From February to September 2016, WhiteBear activity was narrowly focused on embassies and consular operations around the world. All of these early WhiteBear targets were related to embassies and diplomatic/foreign affair organizations. Continued WhiteBear activity later shifted to include defense-related organizations into June 2017. When compared to WhiteAtlas infections, WhiteBear deployments are relatively rare and represent a departure from the broader Skipper Turla target set. Additionally, a comparison of the WhiteAtlas framework to WhiteBear components indicates that the malware is the product of separate development efforts. WhiteBear infections appear to be preceded by a condensed spearphishing dropper, lack Firefox extension installer payloads, and contain several new components signed with a new code signing digital certificate, unlike WhiteAtlas incidents and modules.
 
 ## Activities and Tactics
-**Targeted Sectors**: Government, Private sector
-**Country of Origin**: 🇷🇺 Russia
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: United States, South Korea, United Kingdom, Uzbekistan
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -44,8 +39,6 @@ From February to September 2016, WhiteBear activity was narrowly focused on emba
 - **CrossRat**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

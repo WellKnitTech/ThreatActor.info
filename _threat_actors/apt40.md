@@ -18,13 +18,6 @@ source_attribution: "© The MITRE Corporation. This work is reproduced and distr
 Leviathan is a Chinese state-sponsored cyber espionage group that has been attributed to the Ministry of State Security's (MSS) Hainan State Security Department and an affiliated front company.(Citation: CISA AA21-200A APT40 July 2021) Active since at least 2009, Leviathan has targeted the following sectors: academia, aerospace/aviation, biomedical, defense industrial base, government, healthcare, manufacturing, maritime, and transportation across the US, Canada, Australia, Europe, the Middle East, and Southeast Asia.(Citation: CISA AA21-200A APT40 July 2021)(Citation: Proofpoint Leviathan Oct 2017)(Citation: FireEye Periscope March 2018)(Citation: CISA Leviathan 2024)
 
 ## Activities and Tactics
-**Targeted Sectors**: Maritime, Government, Defense
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
-**First Seen**: 2013
-**Last Activity**: 2024
-**Incident Type**: Espionage
-**Suspected Victims**: United States, Hong Kong, The Philippines, Asia Pacific Economic Cooperation, Cambodia, Belgium, Germany, Philippines, Malaysia, Norway...
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -48,8 +41,6 @@ Leviathan is a Chinese state-sponsored cyber espionage group that has been attri
 - **UNITEDRAKE**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 [1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0065)

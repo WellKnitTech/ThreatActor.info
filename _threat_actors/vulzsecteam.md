@@ -12,7 +12,6 @@ country_flag: "🏳️"
 VulzSec, also known as VulzSecTeam, is a hacktivist group that has been involved in various cyber-attacks. They have targeted government websites in retaliation for issues such as police brutality and the treatment of Indian Muslims. The group has been involved in campaigns like OpIndia2.0, where they planned to launch DDoS attacks on Indian government websites.
 
 ## Activities and Tactics
-**Country of Origin**: 🏳️ Indonesia
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -37,8 +36,6 @@ VulzSec, also known as VulzSecTeam, is a hacktivist group that has been involved
 - **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Indonesia
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

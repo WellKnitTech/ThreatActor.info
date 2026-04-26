@@ -13,9 +13,6 @@ sector_focus: ["Government", "Military", "Private Sector"]
 An actor mainly targeting Pakistan military targets, active since at least 2012. We have low confidence that this malware might be authored by an Indian company. To spread the malware, they use unique implementations to leverage the exploits of known vulnerabilities (such as CVE-2017-11882) and later deploy a Powershell payload in the final stages.
 
 ## Activities and Tactics
-**Targeted Sectors**: Government, Military, Private Sector
-**Country of Origin**: 🇮🇳 India
-**Suspected Victims**: China, Pakistan, Nepal, Afghanistan
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -44,8 +41,6 @@ An actor mainly targeting Pakistan military targets, active since at least 2012.
 - **PowerRAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: India
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

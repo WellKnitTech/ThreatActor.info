@@ -11,7 +11,6 @@ sector_focus: ["Private sector"]
 This group started operating during the first quarter of 2022. They published samples of alleged stolen data from companies on their site on Tor. It is unclear if they conducted the attacks themselves, or if they bought leaked databases from third parties.
 
 ## Activities and Tactics
-**Targeted Sectors**: Private sector
 
 ## Notable Campaigns
 *Information pending cataloguing.*

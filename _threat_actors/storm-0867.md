@@ -12,7 +12,6 @@ country_flag: "🏳️"
 Storm-0867 is a threat actor that has been active since 2012 and has targeted various industries and regions. They employ sophisticated phishing campaigns, utilizing social engineering techniques and a phishing as a service platform called Caffeine. Their attacks involve intercepting and manipulating communication between users and legitimate services, allowing them to steal passwords, hijack sign-in sessions, bypass multifactor authentication, and modify authentication methods.
 
 ## Activities and Tactics
-**Country of Origin**: 🏳️ Egypt
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -36,8 +35,6 @@ Storm-0867 is a threat actor that has been active since 2012 and has targeted va
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-**Country of Origin**: Egypt
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

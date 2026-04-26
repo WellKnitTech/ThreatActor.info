@@ -17,9 +17,6 @@ Prior to 2019 their operational focus, with some exceptions, revolved around tar
 BRONZE VAPOR uses a set of tactics that, although not individually unique, when viewed in aggregate create a relatively distinct playbook.  Intrusions begin with credential based attacks against an existing remote access solution (Citrix, VPN etc.) or B2B network access.  Cobalt Strike is deployed into the environment and further access is then conducted via Cobalt Strike Beacon and other features of the platform.  Sharphound is deployed to map out the victim's Active Directory infrastructure and and collect critical information about the domain including important account names.  Command and control infrastructure is hosted on subdomains of Azure and Appspot services to blend in with legitimate traffic. The threat actor also registers their own domains for command and control, often with a "sync" or "update" related theme. WinRAR is commonly used for compressing data prior to exfiltration.  Filenames for these archives often involve a string of numbers and variations of the word "update".  Data is exfiltrated using WATERCYCLE to cloud based platforms such as OneDrive and GoogleDrive.
 
 ## Activities and Tactics
-**Targeted Sectors**: Semiconductor Industry
-**Country of Origin**: 🇨🇳 China
-**Suspected Victims**: Taiwan
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -52,8 +49,6 @@ BRONZE VAPOR uses a set of tactics that, although not individually unique, when 
 - **SharpBot**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

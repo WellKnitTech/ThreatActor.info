@@ -12,7 +12,6 @@ country_flag: "🇮🇷"
 Ababil of Minab is an emerging pro-Iranian hacktivist group with a limited public profile and little verifiable prior activity in threat intelligence reporting. The group claims responsibility for a cyberattack and allegedly possesses administrative access to targeted systems. Their pro-Iran messaging and targeting of a major US public transit authority align with known patterns of Iranian-aligned actors targeting US critical infrastructure. The use of escalatory language suggests potential for further activity.
 
 ## Activities and Tactics
-**Country of Origin**: 🇮🇷 Iran
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -37,8 +36,6 @@ Ababil of Minab is an emerging pro-Iranian hacktivist group with a limited publi
 - **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Iran
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

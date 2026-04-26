@@ -16,9 +16,6 @@ HURRICANE PANDA's preferred initial vector of compromise and persistence is a Ch
 Once inside, the adversary immediately moves on to execution of a credential theft tool such as Mimikatz (repacked to avoid AV detection). If they are lucky to have caught an administrator who might be logged into that web server at the time, they will have gained domain administrator credentials and can now roam your network at will via ‘net use’ and ‘wmic’ commands executed through the webshell terminal.
 
 ## Activities and Tactics
-**Targeted Sectors**: Technology, Telecoms
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -43,8 +40,6 @@ Once inside, the adversary immediately moves on to execution of a credential the
 - **TINY**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

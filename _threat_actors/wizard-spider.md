@@ -15,9 +15,6 @@ The WIZARD SPIDER threat group is the Russia-based operator of the TrickBot bank
 GRIM SPIDER is a sophisticated eCrime group that has been operating the Ryuk ransomware since August 2018, targeting large organizations for a high-ransom return. This methodology, known as “big game hunting,” signals a shift in operations for WIZARD SPIDER, a criminal enterprise of which GRIM SPIDER appears to be a cell. The WIZARD SPIDER threat group, known as the Russia-based operator of the TrickBot banking malware, had focused primarily on wire fraud in the past.
 
 ## Activities and Tactics
-**Targeted Sectors**: Defense, Financial, Government, Healthcare, Telecommunications
-**Country of Origin**: 🇷🇺 Russia
-**Suspected Victims**: Australia, Bahamas, Canada, Costa Rica, France, Germany, India, Ireland, Italy, Japan...
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -41,8 +38,6 @@ GRIM SPIDER is a sophisticated eCrime group that has been operating the Ryuk ran
 *Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -14,11 +14,6 @@ sector_focus: ["Government", "Energy", "High-Tech", "Telecomms", "Education", "M
 Lyceum is an Iranian APT group that has been active since at least 2014. They primarily target Middle Eastern governments and organizations in the energy and telecommunications sectors. Lyceum is known for using cyber espionage techniques and has been linked to other Iranian threat groups such as APT34. They have developed and deployed malware families like Shark and Milan, and have been observed using DNS tunneling and HTTPfor command and control communication.
 
 ## Activities and Tactics
-**Targeted Sectors**: Government, Energy, High-Tech, Telecomms, Education, Military, Defense
-**Country of Origin**: 🇮🇷 Iran
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: Israel, Middle East
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -45,8 +40,6 @@ Lyceum is an Iranian APT group that has been active since at least 2014. They pr
 - **Milan**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Iran
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

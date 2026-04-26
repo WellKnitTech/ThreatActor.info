@@ -11,7 +11,6 @@ sector_focus: ["Finance"]
 SOLAR SPIDER’s phishing campaigns deliver the JSOutProx RAT to financial institutions across Africa, the Middle East, South Asia and Southeast Asia.
 
 ## Activities and Tactics
-**Targeted Sectors**: Finance
 
 ## Notable Campaigns
 *Information pending cataloguing.*

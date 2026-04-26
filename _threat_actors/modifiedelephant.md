@@ -11,7 +11,6 @@ sector_focus: ["Civil Society"]
 Our research into these intrusions revealed a decade of persistent malicious activity targeting specific groups and individuals that we now attribute to a previously unknown threat actor named ModifiedElephant. This actor has operated for years, evading research attention and detection due to their limited scope of operations, the mundane nature of their tools, and their regionally-specific targeting. ModifiedElephant is still active at the time of writing.
 
 ## Activities and Tactics
-**Targeted Sectors**: Civil Society
 
 ## Notable Campaigns
 *Information pending cataloguing.*

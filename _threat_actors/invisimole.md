@@ -11,9 +11,6 @@ sector_focus: ["Government"]
 Adversary group targeting diplomatic missions, governmental and military organisations, mainly in Ukraine.
 
 ## Activities and Tactics
-**Targeted Sectors**: Government
-**Incident Type**: Espionage
-**Suspected Victims**: Ukraine
 
 ## Notable Campaigns
 *Information pending cataloguing.*

@@ -14,9 +14,6 @@ sector_focus: ["Separatists"]
 Groundbait is a group targeting anti-government separatists in the self-declared Donetsk and Luhansk People’s Republics.
 
 ## Activities and Tactics
-**Targeted Sectors**: Separatists
-**Country of Origin**: 🇺🇦 Ukraine
-**Risk Level**: High
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -40,8 +37,6 @@ Groundbait is a group targeting anti-government separatists in the self-declared
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-**Country of Origin**: Ukraine
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

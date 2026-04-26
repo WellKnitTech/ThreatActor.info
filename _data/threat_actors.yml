@@ -11172,6 +11172,9 @@
   risk_level: High
   sector_focus:
   - Government
+  - Telecommunications
+  - Defense
+  - Oil and Gas
   country: Iran
   targeted_victims:
   - Saudi Arabia
@@ -11216,7 +11219,7 @@
   source_license: CC BY-NC-SA 3.0
   source_license_url: https://malpedia.caad.fkie.fraunhofer.de/legal
   source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/muddywater
-  first_seen: '2022'
+  first_seen: '2017'
   last_activity: '2023'
   operations:
   - BlackWater

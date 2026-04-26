@@ -14,11 +14,6 @@ sector_focus: ["Other", "Maritime", "Military", "Government, Administration", "T
 Operate since at least 2011, from several locations in China, with  members in Korea and Japan as well. Possibly linked to Onion Dog. This threat actor targets government institutions, military contractors, maritime and shipbuilding groups, telecommunications operators, and others, primarily in Japan and South Korea.
 
 ## Activities and Tactics
-**Targeted Sectors**: Other, Maritime, Military, Government, Administration, Telecoms, Government
-**Country of Origin**: 🇨🇳 China
-**Risk Level**: High
-**Incident Type**: Espionage
-**Suspected Victims**: South Korea, United States, Japan, Germany, China
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -43,8 +38,6 @@ Operate since at least 2011, from several locations in China, with  members in K
 - **OnionDuke**: 
 
 ## Attribution and Evidence
-**Country of Origin**: China
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

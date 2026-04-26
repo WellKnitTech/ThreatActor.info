@@ -21,7 +21,6 @@ AzzaSec is a hacktivist group that originated in Italy. Known for their pro-Pale
 
 
 ## Activities and Tactics
-**Country of Origin**: 🏳️ Italy
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -46,8 +45,6 @@ AzzaSec is a hacktivist group that originated in Italy. Known for their pro-Pale
 - **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
-**Country of Origin**: Italy
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -16,11 +16,6 @@ sector_focus: ["Technology", "Healthcare", "Legal"]
 REvil is a Russian ransomware-as-a-service operation that has targeted major corporations worldwide.
 
 ## Activities and Tactics
-**Targeted Sectors**: Technology, Healthcare, Legal
-**Country of Origin**: 🇷🇺 Russia
-**Risk Level**: Critical
-**First Seen**: 2019
-**Last Activity**: 2021
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -44,8 +39,6 @@ REvil is a Russian ransomware-as-a-service operation that has targeted major cor
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

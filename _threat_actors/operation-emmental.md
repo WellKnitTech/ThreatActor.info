@@ -12,7 +12,6 @@ country_flag: "🇷🇺"
 Operation Emmental, also known as the Retefe gang, is a threat actor group that has been active since at least 2012. They primarily target customers of banks in countries such as Austria, Sweden, Switzerland, and Japan. The group has developed sophisticated malware, including a Mac alternative called Dok, to bypass two-factor authentication and hijack network traffic. They have also been observed using phishing emails to spread their malware. The group is believed to be Russian-speaking and has continuously improved their malicious codes over the years.
 
 ## Activities and Tactics
-**Country of Origin**: 🇷🇺 Russia
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -36,8 +35,6 @@ Operation Emmental, also known as the Retefe gang, is a threat actor group that 
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-**Country of Origin**: Russia
-*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*
