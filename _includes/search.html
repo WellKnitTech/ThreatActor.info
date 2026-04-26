@@ -1,18 +1,176 @@
-<div>
-  <input type="text" id="search-input" placeholder="Search...">
-  <ul id="results-container"></ul>
+<div class="search-container">
+  <div class="search-input-container">
+    <input type="text" id="search-input" placeholder="Search threat actors...">
+    <button id="clear-search" style="display: none;">Clear</button>
+  </div>
+  
+  <div class="search-filters">
+    <div class="filter-group">
+      <label for="country-filter">Country:</label>
+      <select id="country-filter">
+        <option value="">All Countries</option>
+      </select>
+    </div>
+    
+    <div class="filter-group">
+      <label for="risk-filter">Risk Level:</label>
+      <select id="risk-filter">
+        <option value="">All Risk Levels</option>
+      </select>
+    </div>
+    
+    <div class="filter-group">
+      <label for="sector-filter">Sector:</label>
+      <select id="sector-filter">
+        <option value="">All Sectors</option>
+      </select>
+    </div>
+  </div>
+  
+  <div class="search-results">
+    <div id="results-container"></div>
+    <div id="no-results" style="display: none;">
+      <p>No threat actors found matching your criteria.</p>
+    </div>
+    <div id="search-error" style="display: none;">
+      <p>Search data is temporarily unavailable.</p>
+    </div>
+  </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/simple-jekyll-search/1.7.2/simple-jekyll-search.min.js"></script>
 <script>
-  SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '{{ site.baseurl }}/search.json',
-    searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
-    noResultsText: 'No results found',
-    limit: 10,
-    fuzzy: false,
-    debounceTime: 300
-  })
+  let allThreatActors = [];
+  let filteredResults = [];
+  const actorsEndpoint = '{{ "/api/threat-actors.json" | relative_url }}';
+  const facetsEndpoint = '{{ "/api/facets.json" | relative_url }}';
+
+  Promise.all([
+    fetch(actorsEndpoint).then(handleJsonResponse),
+    fetch(facetsEndpoint).then(handleJsonResponse)
+  ])
+    .then(([actors, facets]) => {
+      allThreatActors = actors;
+      filteredResults = [...allThreatActors];
+      populateFilters(facets);
+      displayResults();
+    })
+    .catch(() => {
+      document.getElementById('results-container').innerHTML = '';
+      document.getElementById('no-results').style.display = 'none';
+      document.getElementById('search-error').style.display = 'block';
+    });
+
+  function handleJsonResponse(response) {
+    if (!response.ok) {
+      throw new Error('Unable to load search data');
+    }
+
+    return response.json();
+  }
+
+  function populateFilters(facets) {
+    setOptions('country-filter', 'All Countries', facets.countries || []);
+    setOptions('risk-filter', 'All Risk Levels', facets.risk_levels || []);
+    setOptions('sector-filter', 'All Sectors', facets.sectors || []);
+  }
+
+  function setOptions(selectId, defaultLabel, values) {
+    const select = document.getElementById(selectId);
+    select.innerHTML = '';
+
+    const defaultOption = document.createElement('option');
+    defaultOption.value = '';
+    defaultOption.textContent = defaultLabel;
+    select.appendChild(defaultOption);
+
+    values.forEach(value => {
+      const option = document.createElement('option');
+      option.value = value;
+      option.textContent = value;
+      select.appendChild(option);
+    });
+  }
+
+  function displayResults() {
+    const container = document.getElementById('results-container');
+    const noResults = document.getElementById('no-results');
+    const searchError = document.getElementById('search-error');
+    searchError.style.display = 'none';
+    
+    if (filteredResults.length === 0) {
+      container.innerHTML = '';
+      noResults.style.display = 'block';
+      return;
+    }
+    
+    noResults.style.display = 'none';
+    
+    container.innerHTML = filteredResults.map(actor => `
+      <div class="search-result-item">
+        <h3><a href="${actor.permalink || actor.url}">${escapeHtml(actor.name)}</a></h3>
+        <div class="result-metadata">
+          <span class="aliases">${escapeHtml((actor.aliases || []).join(', '))}</span>
+          ${actor.country ? `<span class="country">${escapeHtml(actor.country)}</span>` : ''}
+          ${actor.risk_level ? `<span class="risk risk-${actor.risk_level.toLowerCase()}">${escapeHtml(actor.risk_level)}</span>` : ''}
+        </div>
+        <p class="result-description">${escapeHtml(actor.description || '')}</p>
+      </div>
+    `).join('');
+  }
+
+  function filterResults() {
+    const searchTerm = document.getElementById('search-input').value.toLowerCase();
+    const countryFilter = document.getElementById('country-filter').value;
+    const riskFilter = document.getElementById('risk-filter').value;
+    const sectorFilter = document.getElementById('sector-filter').value;
+    
+    filteredResults = allThreatActors.filter(actor => {
+      const description = (actor.description || '').toLowerCase();
+      const aliases = actor.aliases || [];
+      const sectors = actor.sector_focus || [];
+
+      const matchesSearch = !searchTerm || 
+        actor.name.toLowerCase().includes(searchTerm) ||
+        aliases.some(alias => alias.toLowerCase().includes(searchTerm)) ||
+        description.includes(searchTerm);
+      
+      const matchesCountry = !countryFilter || actor.country === countryFilter;
+      const matchesRisk = !riskFilter || actor.risk_level === riskFilter;
+      const matchesSector = !sectorFilter || sectors.includes(sectorFilter);
+      
+      return matchesSearch && matchesCountry && matchesRisk && matchesSector;
+    });
+    
+    displayResults();
+  }
+
+  // Event listeners
+  document.getElementById('search-input').addEventListener('input', filterResults);
+  document.getElementById('country-filter').addEventListener('change', filterResults);
+  document.getElementById('risk-filter').addEventListener('change', filterResults);
+  document.getElementById('sector-filter').addEventListener('change', filterResults);
+
+  // Clear search functionality
+  document.getElementById('clear-search').addEventListener('click', () => {
+    document.getElementById('search-input').value = '';
+    document.getElementById('country-filter').value = '';
+    document.getElementById('risk-filter').value = '';
+    document.getElementById('sector-filter').value = '';
+    filterResults();
+  });
+
+  // Show/hide clear button
+  document.getElementById('search-input').addEventListener('input', (e) => {
+    const clearBtn = document.getElementById('clear-search');
+    clearBtn.style.display = e.target.value ? 'block' : 'none';
+  });
+
+  function escapeHtml(value) {
+    return String(value)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
 </script>

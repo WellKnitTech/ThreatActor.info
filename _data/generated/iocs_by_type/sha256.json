@@ -1,0 +1,68 @@
+{
+  "type": "sha256",
+  "count": 3,
+  "atomic_count": 3,
+  "unique_values": 2,
+  "records": [
+    {
+      "actor_name": "APT28",
+      "actor_slug": "apt28",
+      "actor_url": "/apt28",
+      "actor_permalink": "/apt28/",
+      "type": "sha256",
+      "inferred_type": "sha256",
+      "atomic": true,
+      "heading": "File Hashes (SHA-256)",
+      "label": null,
+      "value": "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1",
+      "normalized_value": "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1",
+      "canonical_value": "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+        "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1"
+      ],
+      "source_text": "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1",
+      "source_file": "_threat_actors/apt28.md"
+    },
+    {
+      "actor_name": "APT29",
+      "actor_slug": "apt29",
+      "actor_url": "/apt29",
+      "actor_permalink": "/apt29/",
+      "type": "sha256",
+      "inferred_type": "sha256",
+      "atomic": true,
+      "heading": "File Hashes (SHA-256)",
+      "label": null,
+      "value": "7a9d7a91c3700d0afe5f05351de4b1b6a7c7316db21adce7da5a0c5733197a1c",
+      "normalized_value": "7a9d7a91c3700d0afe5f05351de4b1b6a7c7316db21adce7da5a0c5733197a1c",
+      "canonical_value": "7a9d7a91c3700d0afe5f05351de4b1b6a7c7316db21adce7da5a0c5733197a1c",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+        "7a9d7a91c3700d0afe5f05351de4b1b6a7c7316db21adce7da5a0c5733197a1c"
+      ],
+      "source_text": "7a9d7a91c3700d0afe5f05351de4b1b6a7c7316db21adce7da5a0c5733197a1c",
+      "source_file": "_threat_actors/apt29.md"
+    },
+    {
+      "actor_name": "Lazarus Group",
+      "actor_slug": "lazarus",
+      "actor_url": "/lazarus",
+      "actor_permalink": "/lazarus/",
+      "type": "sha256",
+      "inferred_type": "sha256",
+      "atomic": true,
+      "heading": "File Hashes (SHA-256)",
+      "label": null,
+      "value": "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1",
+      "normalized_value": "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1",
+      "canonical_value": "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+        "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1"
+      ],
+      "source_text": "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1",
+      "source_file": "_threat_actors/lazarus.md"
+    }
+  ]
+}

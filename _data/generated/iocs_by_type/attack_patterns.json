@@ -1,0 +1,428 @@
+{
+  "type": "attack_patterns",
+  "count": 21,
+  "atomic_count": 0,
+  "unique_values": 21,
+  "records": [
+    {
+      "actor_name": "APT29",
+      "actor_slug": "apt29",
+      "actor_url": "/apt29",
+      "actor_permalink": "/apt29/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "Credential Harvesting",
+      "value": "**Credential Harvesting**: Compromising legitimate websites and using fake verification pages to steal Microsoft 365 credentials",
+      "normalized_value": "Credential Harvesting: Compromising legitimate websites and using fake verification pages to steal Microsoft 365 credentials",
+      "canonical_value": "Credential Harvesting: Compromising legitimate websites and using fake verification pages to steal Microsoft 365 credentials",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Credential Harvesting: Compromising legitimate websites and using fake verification pages to steal Microsoft 365 credentials",
+      "source_file": "_threat_actors/apt29.md"
+    },
+    {
+      "actor_name": "APT29",
+      "actor_slug": "apt29",
+      "actor_url": "/apt29",
+      "actor_permalink": "/apt29/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "Microsoft Device Code Abuse",
+      "value": "**Microsoft Device Code Abuse**: Abuse of Microsoft device code authentication mechanisms",
+      "normalized_value": "Microsoft Device Code Abuse: Abuse of Microsoft device code authentication mechanisms",
+      "canonical_value": "Microsoft Device Code Abuse: Abuse of Microsoft device code authentication mechanisms",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Microsoft Device Code Abuse: Abuse of Microsoft device code authentication mechanisms",
+      "source_file": "_threat_actors/apt29.md"
+    },
+    {
+      "actor_name": "APT29",
+      "actor_slug": "apt29",
+      "actor_url": "/apt29",
+      "actor_permalink": "/apt29/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "Cloudflare Verification Pages",
+      "value": "**Cloudflare Verification Pages**: Fake Cloudflare verification pages for credential theft",
+      "normalized_value": "Cloudflare Verification Pages: Fake Cloudflare verification pages for credential theft",
+      "canonical_value": "Cloudflare Verification Pages: Fake Cloudflare verification pages for credential theft",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Cloudflare Verification Pages: Fake Cloudflare verification pages for credential theft",
+      "source_file": "_threat_actors/apt29.md"
+    },
+    {
+      "actor_name": "Lazarus Group",
+      "actor_slug": "lazarus",
+      "actor_url": "/lazarus",
+      "actor_permalink": "/lazarus/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "Supply Chain Attacks",
+      "value": "**Supply Chain Attacks**: Compromising software supply chains",
+      "normalized_value": "Supply Chain Attacks: Compromising software supply chains",
+      "canonical_value": "Supply Chain Attacks: Compromising software supply chains",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Supply Chain Attacks: Compromising software supply chains",
+      "source_file": "_threat_actors/lazarus.md"
+    },
+    {
+      "actor_name": "Lazarus Group",
+      "actor_slug": "lazarus",
+      "actor_url": "/lazarus",
+      "actor_permalink": "/lazarus/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "Social Engineering",
+      "value": "**Social Engineering**: Sophisticated social engineering campaigns",
+      "normalized_value": "Social Engineering: Sophisticated social engineering campaigns",
+      "canonical_value": "Social Engineering: Sophisticated social engineering campaigns",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Social Engineering: Sophisticated social engineering campaigns",
+      "source_file": "_threat_actors/lazarus.md"
+    },
+    {
+      "actor_name": "Lazarus Group",
+      "actor_slug": "lazarus",
+      "actor_url": "/lazarus",
+      "actor_permalink": "/lazarus/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "Living off the Land",
+      "value": "**Living off the Land**: Extensive use of legitimate tools and techniques",
+      "normalized_value": "Living off the Land: Extensive use of legitimate tools and techniques",
+      "canonical_value": "Living off the Land: Extensive use of legitimate tools and techniques",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Living off the Land: Extensive use of legitimate tools and techniques",
+      "source_file": "_threat_actors/lazarus.md"
+    },
+    {
+      "actor_name": "Cl0p",
+      "actor_slug": "cl0p",
+      "actor_url": "/cl0p",
+      "actor_permalink": "/cl0p/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "Supply Chain Focus",
+      "value": "**Supply Chain Focus**: Targeting managed file transfer (MFT) software used by service providers",
+      "normalized_value": "Supply Chain Focus: Targeting managed file transfer (MFT) software used by service providers",
+      "canonical_value": "Supply Chain Focus: Targeting managed file transfer (MFT) software used by service providers",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Supply Chain Focus: Targeting managed file transfer (MFT) software used by service providers",
+      "source_file": "_threat_actors/cl0p.md"
+    },
+    {
+      "actor_name": "Cl0p",
+      "actor_slug": "cl0p",
+      "actor_url": "/cl0p",
+      "actor_permalink": "/cl0p/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "Mass Data Exfiltration",
+      "value": "**Mass Data Exfiltration**: Prioritizing data theft over encryption",
+      "normalized_value": "Mass Data Exfiltration: Prioritizing data theft over encryption",
+      "canonical_value": "Mass Data Exfiltration: Prioritizing data theft over encryption",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Mass Data Exfiltration: Prioritizing data theft over encryption",
+      "source_file": "_threat_actors/cl0p.md"
+    },
+    {
+      "actor_name": "Cl0p",
+      "actor_slug": "cl0p",
+      "actor_url": "/cl0p",
+      "actor_permalink": "/cl0p/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "Web Shell Deployment",
+      "value": "**Web Shell Deployment**: Installing persistent web shells on compromised MFT servers",
+      "normalized_value": "Web Shell Deployment: Installing persistent web shells on compromised MFT servers",
+      "canonical_value": "Web Shell Deployment: Installing persistent web shells on compromised MFT servers",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Web Shell Deployment: Installing persistent web shells on compromised MFT servers",
+      "source_file": "_threat_actors/cl0p.md"
+    },
+    {
+      "actor_name": "RansomHub",
+      "actor_slug": "ransomhub",
+      "actor_url": "/ransomhub",
+      "actor_permalink": "/ransomhub/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "Phishing Campaigns",
+      "value": "**Phishing Campaigns**: Gaining access through malicious attachments and social engineering",
+      "normalized_value": "Phishing Campaigns: Gaining access through malicious attachments and social engineering",
+      "canonical_value": "Phishing Campaigns: Gaining access through malicious attachments and social engineering",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Phishing Campaigns: Gaining access through malicious attachments and social engineering",
+      "source_file": "_threat_actors/ransomhub.md"
+    },
+    {
+      "actor_name": "RansomHub",
+      "actor_slug": "ransomhub",
+      "actor_url": "/ransomhub",
+      "actor_permalink": "/ransomhub/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "Credential Abuse",
+      "value": "**Credential Abuse**: Exploiting compromised credentials for initial access",
+      "normalized_value": "Credential Abuse: Exploiting compromised credentials for initial access",
+      "canonical_value": "Credential Abuse: Exploiting compromised credentials for initial access",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Credential Abuse: Exploiting compromised credentials for initial access",
+      "source_file": "_threat_actors/ransomhub.md"
+    },
+    {
+      "actor_name": "RansomHub",
+      "actor_slug": "ransomhub",
+      "actor_url": "/ransomhub",
+      "actor_permalink": "/ransomhub/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "Double Extortion",
+      "value": "**Double Extortion**: Threatening to leak exfiltrated data to pressure victims",
+      "normalized_value": "Double Extortion: Threatening to leak exfiltrated data to pressure victims",
+      "canonical_value": "Double Extortion: Threatening to leak exfiltrated data to pressure victims",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Double Extortion: Threatening to leak exfiltrated data to pressure victims",
+      "source_file": "_threat_actors/ransomhub.md"
+    },
+    {
+      "actor_name": "Akira",
+      "actor_slug": "akira",
+      "actor_url": "/akira",
+      "actor_permalink": "/akira/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "VPN Exploitation",
+      "value": "**VPN Exploitation**: Targeting single-factor VPNs and external remote services",
+      "normalized_value": "VPN Exploitation: Targeting single-factor VPNs and external remote services",
+      "canonical_value": "VPN Exploitation: Targeting single-factor VPNs and external remote services",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "VPN Exploitation: Targeting single-factor VPNs and external remote services",
+      "source_file": "_threat_actors/akira.md"
+    },
+    {
+      "actor_name": "Akira",
+      "actor_slug": "akira",
+      "actor_url": "/akira",
+      "actor_permalink": "/akira/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "Access Broker Networks",
+      "value": "**Access Broker Networks**: Utilizing third-party credential providers for faster intrusions",
+      "normalized_value": "Access Broker Networks: Utilizing third-party credential providers for faster intrusions",
+      "canonical_value": "Access Broker Networks: Utilizing third-party credential providers for faster intrusions",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Access Broker Networks: Utilizing third-party credential providers for faster intrusions",
+      "source_file": "_threat_actors/akira.md"
+    },
+    {
+      "actor_name": "Akira",
+      "actor_slug": "akira",
+      "actor_url": "/akira",
+      "actor_permalink": "/akira/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "Multi-Platform Targeting",
+      "value": "**Multi-Platform Targeting**: Targeting Windows, Linux, and ESXi systems",
+      "normalized_value": "Multi-Platform Targeting: Targeting Windows, Linux, and ESXi systems",
+      "canonical_value": "Multi-Platform Targeting: Targeting Windows, Linux, and ESXi systems",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Multi-Platform Targeting: Targeting Windows, Linux, and ESXi systems",
+      "source_file": "_threat_actors/akira.md"
+    },
+    {
+      "actor_name": "Play",
+      "actor_slug": "play",
+      "actor_url": "/play",
+      "actor_permalink": "/play/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "Public-Facing Application Exploitation",
+      "value": "**Public-Facing Application Exploitation**: Exploiting vulnerabilities in public-facing applications and remote access services",
+      "normalized_value": "Public-Facing Application Exploitation: Exploiting vulnerabilities in public-facing applications and remote access services",
+      "canonical_value": "Public-Facing Application Exploitation: Exploiting vulnerabilities in public-facing applications and remote access services",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Public-Facing Application Exploitation: Exploiting vulnerabilities in public-facing applications and remote access services",
+      "source_file": "_threat_actors/play.md"
+    },
+    {
+      "actor_name": "Play",
+      "actor_slug": "play",
+      "actor_url": "/play",
+      "actor_permalink": "/play/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "Linux ESXi Targeting",
+      "value": "**Linux ESXi Targeting**: Deploying Linux variants specifically targeting VMware ESXi environments",
+      "normalized_value": "Linux ESXi Targeting: Deploying Linux variants specifically targeting VMware ESXi environments",
+      "canonical_value": "Linux ESXi Targeting: Deploying Linux variants specifically targeting VMware ESXi environments",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Linux ESXi Targeting: Deploying Linux variants specifically targeting VMware ESXi environments",
+      "source_file": "_threat_actors/play.md"
+    },
+    {
+      "actor_name": "Play",
+      "actor_slug": "play",
+      "actor_url": "/play",
+      "actor_permalink": "/play/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "Tactical Sharing",
+      "value": "**Tactical Sharing**: Shares tactics with ransomware operations like Nokoyawa and Hive",
+      "normalized_value": "Tactical Sharing: Shares tactics with ransomware operations like Nokoyawa and Hive",
+      "canonical_value": "Tactical Sharing: Shares tactics with ransomware operations like Nokoyawa and Hive",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Tactical Sharing: Shares tactics with ransomware operations like Nokoyawa and Hive",
+      "source_file": "_threat_actors/play.md"
+    },
+    {
+      "actor_name": "SafePay",
+      "actor_slug": "safepay",
+      "actor_url": "/safepay",
+      "actor_permalink": "/safepay/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "Phishing Campaigns",
+      "value": "**Phishing Campaigns**: Gaining access through phishing campaigns and social engineering",
+      "normalized_value": "Phishing Campaigns: Gaining access through phishing campaigns and social engineering",
+      "canonical_value": "Phishing Campaigns: Gaining access through phishing campaigns and social engineering",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Phishing Campaigns: Gaining access through phishing campaigns and social engineering",
+      "source_file": "_threat_actors/safepay.md"
+    },
+    {
+      "actor_name": "SafePay",
+      "actor_slug": "safepay",
+      "actor_url": "/safepay",
+      "actor_permalink": "/safepay/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "Public-Facing Application Exploitation",
+      "value": "**Public-Facing Application Exploitation**: Exploiting vulnerabilities in public-facing applications",
+      "normalized_value": "Public-Facing Application Exploitation: Exploiting vulnerabilities in public-facing applications",
+      "canonical_value": "Public-Facing Application Exploitation: Exploiting vulnerabilities in public-facing applications",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Public-Facing Application Exploitation: Exploiting vulnerabilities in public-facing applications",
+      "source_file": "_threat_actors/safepay.md"
+    },
+    {
+      "actor_name": "SafePay",
+      "actor_slug": "safepay",
+      "actor_url": "/safepay",
+      "actor_permalink": "/safepay/",
+      "type": "attack_patterns",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Attack Patterns",
+      "label": "Remote Access Service Exploitation",
+      "value": "**Remote Access Service Exploitation**: Targeting vulnerabilities in remote access services",
+      "normalized_value": "Remote Access Service Exploitation: Targeting vulnerabilities in remote access services",
+      "canonical_value": "Remote Access Service Exploitation: Targeting vulnerabilities in remote access services",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Remote Access Service Exploitation: Targeting vulnerabilities in remote access services",
+      "source_file": "_threat_actors/safepay.md"
+    }
+  ]
+}

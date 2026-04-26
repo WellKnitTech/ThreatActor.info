@@ -1,0 +1,208 @@
+{
+  "type": "file_extension",
+  "count": 10,
+  "atomic_count": 6,
+  "unique_values": 9,
+  "records": [
+    {
+      "actor_name": "LockBit",
+      "actor_slug": "lockbit",
+      "actor_url": "/lockbit",
+      "actor_permalink": "/lockbit/",
+      "type": "file_extension",
+      "inferred_type": "file_extension",
+      "atomic": true,
+      "heading": "File Extensions",
+      "label": "LockBit 2.0",
+      "value": ".lockbit",
+      "normalized_value": ".lockbit",
+      "canonical_value": ".lockbit",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+        ".lockbit"
+      ],
+      "source_text": "LockBit 2.0: .lockbit",
+      "source_file": "_threat_actors/lockbit.md"
+    },
+    {
+      "actor_name": "LockBit",
+      "actor_slug": "lockbit",
+      "actor_url": "/lockbit",
+      "actor_permalink": "/lockbit/",
+      "type": "file_extension",
+      "inferred_type": "file_extension",
+      "atomic": true,
+      "heading": "File Extensions",
+      "label": "LockBit 3.0",
+      "value": ".lockbit3",
+      "normalized_value": ".lockbit3",
+      "canonical_value": ".lockbit3",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+        ".lockbit3"
+      ],
+      "source_text": "LockBit 3.0: .lockbit3",
+      "source_file": "_threat_actors/lockbit.md"
+    },
+    {
+      "actor_name": "LockBit",
+      "actor_slug": "lockbit",
+      "actor_url": "/lockbit",
+      "actor_permalink": "/lockbit/",
+      "type": "file_extension",
+      "inferred_type": "file_extension",
+      "atomic": true,
+      "heading": "File Extensions",
+      "label": "LockBit 4.0",
+      "value": ".lockbit4",
+      "normalized_value": ".lockbit4",
+      "canonical_value": ".lockbit4",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+        ".lockbit4"
+      ],
+      "source_text": "LockBit 4.0: .lockbit4",
+      "source_file": "_threat_actors/lockbit.md"
+    },
+    {
+      "actor_name": "RansomHub",
+      "actor_slug": "ransomhub",
+      "actor_url": "/ransomhub",
+      "actor_permalink": "/ransomhub/",
+      "type": "file_extension",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "File Extensions",
+      "label": "RansomHub Ransomware",
+      "value": "**RansomHub Ransomware**: Custom file extensions for encrypted files",
+      "normalized_value": "RansomHub Ransomware: Custom file extensions for encrypted files",
+      "canonical_value": "RansomHub Ransomware: Custom file extensions for encrypted files",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "RansomHub Ransomware: Custom file extensions for encrypted files",
+      "source_file": "_threat_actors/ransomhub.md"
+    },
+    {
+      "actor_name": "RansomHub",
+      "actor_slug": "ransomhub",
+      "actor_url": "/ransomhub",
+      "actor_permalink": "/ransomhub/",
+      "type": "file_extension",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "File Extensions",
+      "label": "Ransom Notes",
+      "value": "**Ransom Notes**: Specific ransom note format and content",
+      "normalized_value": "Ransom Notes: Specific ransom note format and content",
+      "canonical_value": "Ransom Notes: Specific ransom note format and content",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Ransom Notes: Specific ransom note format and content",
+      "source_file": "_threat_actors/ransomhub.md"
+    },
+    {
+      "actor_name": "Akira",
+      "actor_slug": "akira",
+      "actor_url": "/akira",
+      "actor_permalink": "/akira/",
+      "type": "file_extension",
+      "inferred_type": "file_extension",
+      "atomic": true,
+      "heading": "File Extensions",
+      "label": "Akira",
+      "value": ".akira",
+      "normalized_value": ".akira",
+      "canonical_value": ".akira",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+        ".akira"
+      ],
+      "source_text": "Akira: .akira",
+      "source_file": "_threat_actors/akira.md"
+    },
+    {
+      "actor_name": "Akira",
+      "actor_slug": "akira",
+      "actor_url": "/akira",
+      "actor_permalink": "/akira/",
+      "type": "file_extension",
+      "inferred_type": "file_extension",
+      "atomic": true,
+      "heading": "File Extensions",
+      "label": "Megazord",
+      "value": ".powerranges",
+      "normalized_value": ".powerranges",
+      "canonical_value": ".powerranges",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+        ".powerranges"
+      ],
+      "source_text": "Megazord: .powerranges",
+      "source_file": "_threat_actors/akira.md"
+    },
+    {
+      "actor_name": "Play",
+      "actor_slug": "play",
+      "actor_url": "/play",
+      "actor_permalink": "/play/",
+      "type": "file_extension",
+      "inferred_type": "file_extension",
+      "atomic": true,
+      "heading": "File Extensions",
+      "label": "Play Ransomware",
+      "value": ".play",
+      "normalized_value": ".play",
+      "canonical_value": ".play",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+        ".play"
+      ],
+      "source_text": "Play Ransomware: .play",
+      "source_file": "_threat_actors/play.md"
+    },
+    {
+      "actor_name": "SafePay",
+      "actor_slug": "safepay",
+      "actor_url": "/safepay",
+      "actor_permalink": "/safepay/",
+      "type": "file_extension",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "File Extensions",
+      "label": "SafePay Ransomware",
+      "value": "**SafePay Ransomware**: Custom file extensions for encrypted files",
+      "normalized_value": "SafePay Ransomware: Custom file extensions for encrypted files",
+      "canonical_value": "SafePay Ransomware: Custom file extensions for encrypted files",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "SafePay Ransomware: Custom file extensions for encrypted files",
+      "source_file": "_threat_actors/safepay.md"
+    },
+    {
+      "actor_name": "SafePay",
+      "actor_slug": "safepay",
+      "actor_url": "/safepay",
+      "actor_permalink": "/safepay/",
+      "type": "file_extension",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "File Extensions",
+      "label": "Ransom Notes",
+      "value": "**Ransom Notes**: Specific ransom note format and content",
+      "normalized_value": "Ransom Notes: Specific ransom note format and content",
+      "canonical_value": "Ransom Notes: Specific ransom note format and content",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Ransom Notes: Specific ransom note format and content",
+      "source_file": "_threat_actors/safepay.md"
+    }
+  ]
+}

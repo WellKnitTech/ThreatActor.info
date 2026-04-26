@@ -5,10 +5,32 @@ title: Threat Actors
 
 <h2>Threat Actors</h2>
 
-<ul>
-  {% for actor in site.data.threat_actors %}
-    <li>
-      <a href="{{ actor.url | relative_url }}">{{ actor.name }}</a> - {{ actor.aliases | join: ', ' }}
-    </li>
+<div class="threat-actors-grid">
+  {% assign sorted_actors = site.threat_actors | sort: "title" %}
+  {% for actor in sorted_actors %}
+    <div class="threat-actor-card">
+      <h3><a href="{{ actor.url | relative_url }}">{{ actor.title }}</a></h3>
+      <div class="actor-card-metadata">
+        <div class="metadata-item">
+          <strong>Aliases:</strong> {{ actor.aliases | join: ', ' }}
+        </div>
+        {% if actor.country %}
+        <div class="metadata-item">
+          <strong>Country:</strong> {{ actor.country }}
+        </div>
+        {% endif %}
+        {% if actor.risk_level %}
+        <div class="metadata-item">
+          <strong>Risk Level:</strong> <span class="risk-{{ actor.risk_level | downcase }}">{{ actor.risk_level }}</span>
+        </div>
+        {% endif %}
+        {% if actor.sector_focus %}
+        <div class="metadata-item">
+          <strong>Sectors:</strong> {{ actor.sector_focus | join: ', ' }}
+        </div>
+        {% endif %}
+      </div>
+      <p class="actor-description">{{ actor.description }}</p>
+    </div>
   {% endfor %}
-</ul>
+</div>

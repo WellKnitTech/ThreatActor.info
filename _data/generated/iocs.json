@@ -1,0 +1,2052 @@
+[
+  {
+    "actor_name": "APT28",
+    "actor_slug": "apt28",
+    "actor_url": "/apt28",
+    "actor_permalink": "/apt28/",
+    "type": "ip_address",
+    "inferred_type": "ip_address",
+    "atomic": true,
+    "heading": "IP Addresses",
+    "label": null,
+    "value": "45.32.22[.]62",
+    "normalized_value": "45.32.22.62",
+    "canonical_value": "45.32.22.62",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+      "45.32.22.62"
+    ],
+    "source_text": "45.32.22[.]62",
+    "source_file": "_threat_actors/apt28.md"
+  },
+  {
+    "actor_name": "APT28",
+    "actor_slug": "apt28",
+    "actor_url": "/apt28",
+    "actor_permalink": "/apt28/",
+    "type": "ip_address",
+    "inferred_type": "ip_address",
+    "atomic": true,
+    "heading": "IP Addresses",
+    "label": null,
+    "value": "45.17.43[.]250",
+    "normalized_value": "45.17.43.250",
+    "canonical_value": "45.17.43.250",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+      "45.17.43.250"
+    ],
+    "source_text": "45.17.43[.]250",
+    "source_file": "_threat_actors/apt28.md"
+  },
+  {
+    "actor_name": "APT28",
+    "actor_slug": "apt28",
+    "actor_url": "/apt28",
+    "actor_permalink": "/apt28/",
+    "type": "ip_address",
+    "inferred_type": "ip_address",
+    "atomic": true,
+    "heading": "IP Addresses",
+    "label": null,
+    "value": "185.142.98[.]65",
+    "normalized_value": "185.142.98.65",
+    "canonical_value": "185.142.98.65",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+      "185.142.98.65"
+    ],
+    "source_text": "185.142.98[.]65",
+    "source_file": "_threat_actors/apt28.md"
+  },
+  {
+    "actor_name": "APT28",
+    "actor_slug": "apt28",
+    "actor_url": "/apt28",
+    "actor_permalink": "/apt28/",
+    "type": "md5",
+    "inferred_type": "md5",
+    "atomic": true,
+    "heading": "File Hashes (MD5)",
+    "label": null,
+    "value": "0777EA1D01DAD6DC261A6B602205E2C8",
+    "normalized_value": "0777ea1d01dad6dc261a6b602205e2c8",
+    "canonical_value": "0777ea1d01dad6dc261a6b602205e2c8",
+    "legacy_normalized_value": "0777EA1D01DAD6DC261A6B602205E2C8",
+    "lookup_keys": [
+      "0777ea1d01dad6dc261a6b602205e2c8",
+      "0777EA1D01DAD6DC261A6B602205E2C8"
+    ],
+    "source_text": "0777EA1D01DAD6DC261A6B602205E2C8 (China Chopper Web Shell)",
+    "source_file": "_threat_actors/apt28.md"
+  },
+  {
+    "actor_name": "APT28",
+    "actor_slug": "apt28",
+    "actor_url": "/apt28",
+    "actor_permalink": "/apt28/",
+    "type": "md5",
+    "inferred_type": "md5",
+    "atomic": true,
+    "heading": "File Hashes (MD5)",
+    "label": null,
+    "value": "feda15d3509b210cb05eacc22485a78c",
+    "normalized_value": "feda15d3509b210cb05eacc22485a78c",
+    "canonical_value": "feda15d3509b210cb05eacc22485a78c",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+      "feda15d3509b210cb05eacc22485a78c"
+    ],
+    "source_text": "feda15d3509b210cb05eacc22485a78c (Generic PHP Web Shell)",
+    "source_file": "_threat_actors/apt28.md"
+  },
+  {
+    "actor_name": "APT28",
+    "actor_slug": "apt28",
+    "actor_url": "/apt28",
+    "actor_permalink": "/apt28/",
+    "type": "md5",
+    "inferred_type": "md5",
+    "atomic": true,
+    "heading": "File Hashes (MD5)",
+    "label": null,
+    "value": "C9F4C41C195B25675BFA860EB9B45945",
+    "normalized_value": "c9f4c41c195b25675bfa860eb9b45945",
+    "canonical_value": "c9f4c41c195b25675bfa860eb9b45945",
+    "legacy_normalized_value": "C9F4C41C195B25675BFA860EB9B45945",
+    "lookup_keys": [
+      "c9f4c41c195b25675bfa860eb9b45945",
+      "C9F4C41C195B25675BFA860EB9B45945"
+    ],
+    "source_text": "C9F4C41C195B25675BFA860EB9B45945 (Linux Exploit CVE-2016-5195)",
+    "source_file": "_threat_actors/apt28.md"
+  },
+  {
+    "actor_name": "APT28",
+    "actor_slug": "apt28",
+    "actor_url": "/apt28",
+    "actor_permalink": "/apt28/",
+    "type": "md5",
+    "inferred_type": "cve",
+    "atomic": true,
+    "heading": "File Hashes (MD5)",
+    "label": null,
+    "value": "CVE-2016-5195",
+    "normalized_value": "cve-2016-5195",
+    "canonical_value": "cve-2016-5195",
+    "legacy_normalized_value": "CVE-2016-5195",
+    "lookup_keys": [
+      "cve-2016-5195",
+      "CVE-2016-5195"
+    ],
+    "source_text": "C9F4C41C195B25675BFA860EB9B45945 (Linux Exploit CVE-2016-5195)",
+    "source_file": "_threat_actors/apt28.md"
+  },
+  {
+    "actor_name": "APT28",
+    "actor_slug": "apt28",
+    "actor_url": "/apt28",
+    "actor_permalink": "/apt28/",
+    "type": "sha256",
+    "inferred_type": "sha256",
+    "atomic": true,
+    "heading": "File Hashes (SHA-256)",
+    "label": null,
+    "value": "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1",
+    "normalized_value": "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1",
+    "canonical_value": "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+      "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1"
+    ],
+    "source_text": "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1",
+    "source_file": "_threat_actors/apt28.md"
+  },
+  {
+    "actor_name": "APT28",
+    "actor_slug": "apt28",
+    "actor_url": "/apt28",
+    "actor_permalink": "/apt28/",
+    "type": "domain",
+    "inferred_type": "domain",
+    "atomic": true,
+    "heading": "Domains",
+    "label": null,
+    "value": "api-metrics-collector[.]com",
+    "normalized_value": "api-metrics-collector.com",
+    "canonical_value": "api-metrics-collector.com",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+      "api-metrics-collector.com"
+    ],
+    "source_text": "api-metrics-collector[.]com",
+    "source_file": "_threat_actors/apt28.md"
+  },
+  {
+    "actor_name": "APT28",
+    "actor_slug": "apt28",
+    "actor_url": "/apt28",
+    "actor_permalink": "/apt28/",
+    "type": "malware_and_tools",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Malware and Tools",
+    "label": "NotDoor Backdoor",
+    "value": "**NotDoor Backdoor**: Custom backdoor used in recent campaigns",
+    "normalized_value": "NotDoor Backdoor: Custom backdoor used in recent campaigns",
+    "canonical_value": "NotDoor Backdoor: Custom backdoor used in recent campaigns",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "NotDoor Backdoor: Custom backdoor used in recent campaigns",
+    "source_file": "_threat_actors/apt28.md"
+  },
+  {
+    "actor_name": "APT28",
+    "actor_slug": "apt28",
+    "actor_url": "/apt28",
+    "actor_permalink": "/apt28/",
+    "type": "malware_and_tools",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Malware and Tools",
+    "label": "Microsoft Outlook Exploitation",
+    "value": "**Microsoft Outlook Exploitation**: Targeting Outlook vulnerabilities for initial access",
+    "normalized_value": "Microsoft Outlook Exploitation: Targeting Outlook vulnerabilities for initial access",
+    "canonical_value": "Microsoft Outlook Exploitation: Targeting Outlook vulnerabilities for initial access",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Microsoft Outlook Exploitation: Targeting Outlook vulnerabilities for initial access",
+    "source_file": "_threat_actors/apt28.md"
+  },
+  {
+    "actor_name": "APT28",
+    "actor_slug": "apt28",
+    "actor_url": "/apt28",
+    "actor_permalink": "/apt28/",
+    "type": "malware_and_tools",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Malware and Tools",
+    "label": "ClickFix Technique",
+    "value": "**ClickFix Technique**: Social engineering method using dialogue boxes",
+    "normalized_value": "ClickFix Technique: Social engineering method using dialogue boxes",
+    "canonical_value": "ClickFix Technique: Social engineering method using dialogue boxes",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "ClickFix Technique: Social engineering method using dialogue boxes",
+    "source_file": "_threat_actors/apt28.md"
+  },
+  {
+    "actor_name": "APT29",
+    "actor_slug": "apt29",
+    "actor_url": "/apt29",
+    "actor_permalink": "/apt29/",
+    "type": "sha256",
+    "inferred_type": "sha256",
+    "atomic": true,
+    "heading": "File Hashes (SHA-256)",
+    "label": null,
+    "value": "7a9d7a91c3700d0afe5f05351de4b1b6a7c7316db21adce7da5a0c5733197a1c",
+    "normalized_value": "7a9d7a91c3700d0afe5f05351de4b1b6a7c7316db21adce7da5a0c5733197a1c",
+    "canonical_value": "7a9d7a91c3700d0afe5f05351de4b1b6a7c7316db21adce7da5a0c5733197a1c",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+      "7a9d7a91c3700d0afe5f05351de4b1b6a7c7316db21adce7da5a0c5733197a1c"
+    ],
+    "source_text": "7a9d7a91c3700d0afe5f05351de4b1b6a7c7316db21adce7da5a0c5733197a1c",
+    "source_file": "_threat_actors/apt29.md"
+  },
+  {
+    "actor_name": "APT29",
+    "actor_slug": "apt29",
+    "actor_url": "/apt29",
+    "actor_permalink": "/apt29/",
+    "type": "domain",
+    "inferred_type": "domain",
+    "atomic": true,
+    "heading": "Domains",
+    "label": null,
+    "value": "api-metrics-collector[.]com",
+    "normalized_value": "api-metrics-collector.com",
+    "canonical_value": "api-metrics-collector.com",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+      "api-metrics-collector.com"
+    ],
+    "source_text": "api-metrics-collector[.]com",
+    "source_file": "_threat_actors/apt29.md"
+  },
+  {
+    "actor_name": "APT29",
+    "actor_slug": "apt29",
+    "actor_url": "/apt29",
+    "actor_permalink": "/apt29/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "Credential Harvesting",
+    "value": "**Credential Harvesting**: Compromising legitimate websites and using fake verification pages to steal Microsoft 365 credentials",
+    "normalized_value": "Credential Harvesting: Compromising legitimate websites and using fake verification pages to steal Microsoft 365 credentials",
+    "canonical_value": "Credential Harvesting: Compromising legitimate websites and using fake verification pages to steal Microsoft 365 credentials",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Credential Harvesting: Compromising legitimate websites and using fake verification pages to steal Microsoft 365 credentials",
+    "source_file": "_threat_actors/apt29.md"
+  },
+  {
+    "actor_name": "APT29",
+    "actor_slug": "apt29",
+    "actor_url": "/apt29",
+    "actor_permalink": "/apt29/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "Microsoft Device Code Abuse",
+    "value": "**Microsoft Device Code Abuse**: Abuse of Microsoft device code authentication mechanisms",
+    "normalized_value": "Microsoft Device Code Abuse: Abuse of Microsoft device code authentication mechanisms",
+    "canonical_value": "Microsoft Device Code Abuse: Abuse of Microsoft device code authentication mechanisms",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Microsoft Device Code Abuse: Abuse of Microsoft device code authentication mechanisms",
+    "source_file": "_threat_actors/apt29.md"
+  },
+  {
+    "actor_name": "APT29",
+    "actor_slug": "apt29",
+    "actor_url": "/apt29",
+    "actor_permalink": "/apt29/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "Cloudflare Verification Pages",
+    "value": "**Cloudflare Verification Pages**: Fake Cloudflare verification pages for credential theft",
+    "normalized_value": "Cloudflare Verification Pages: Fake Cloudflare verification pages for credential theft",
+    "canonical_value": "Cloudflare Verification Pages: Fake Cloudflare verification pages for credential theft",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Cloudflare Verification Pages: Fake Cloudflare verification pages for credential theft",
+    "source_file": "_threat_actors/apt29.md"
+  },
+  {
+    "actor_name": "APT29",
+    "actor_slug": "apt29",
+    "actor_url": "/apt29",
+    "actor_permalink": "/apt29/",
+    "type": "ttps",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "TTPs",
+    "label": "Credential Harvesting",
+    "value": "**Credential Harvesting**: Through compromised legitimate websites, employing fake Cloudflare verification pages",
+    "normalized_value": "Credential Harvesting: Through compromised legitimate websites, employing fake Cloudflare verification pages",
+    "canonical_value": "Credential Harvesting: Through compromised legitimate websites, employing fake Cloudflare verification pages",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Credential Harvesting: Through compromised legitimate websites, employing fake Cloudflare verification pages",
+    "source_file": "_threat_actors/apt29.md"
+  },
+  {
+    "actor_name": "APT29",
+    "actor_slug": "apt29",
+    "actor_url": "/apt29",
+    "actor_permalink": "/apt29/",
+    "type": "ttps",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "TTPs",
+    "label": "Abuse of Microsoft Device Code",
+    "value": "**Abuse of Microsoft Device Code**: Authentication mechanisms for unauthorized access",
+    "normalized_value": "Abuse of Microsoft Device Code: Authentication mechanisms for unauthorized access",
+    "canonical_value": "Abuse of Microsoft Device Code: Authentication mechanisms for unauthorized access",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Abuse of Microsoft Device Code: Authentication mechanisms for unauthorized access",
+    "source_file": "_threat_actors/apt29.md"
+  },
+  {
+    "actor_name": "Lazarus Group",
+    "actor_slug": "lazarus",
+    "actor_url": "/lazarus",
+    "actor_permalink": "/lazarus/",
+    "type": "ip_address",
+    "inferred_type": "ip_address",
+    "atomic": true,
+    "heading": "IP Addresses",
+    "label": null,
+    "value": "185.142.98[.]65",
+    "normalized_value": "185.142.98.65",
+    "canonical_value": "185.142.98.65",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+      "185.142.98.65"
+    ],
+    "source_text": "185.142.98[.]65",
+    "source_file": "_threat_actors/lazarus.md"
+  },
+  {
+    "actor_name": "Lazarus Group",
+    "actor_slug": "lazarus",
+    "actor_url": "/lazarus",
+    "actor_permalink": "/lazarus/",
+    "type": "sha256",
+    "inferred_type": "sha256",
+    "atomic": true,
+    "heading": "File Hashes (SHA-256)",
+    "label": null,
+    "value": "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1",
+    "normalized_value": "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1",
+    "canonical_value": "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+      "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1"
+    ],
+    "source_text": "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1",
+    "source_file": "_threat_actors/lazarus.md"
+  },
+  {
+    "actor_name": "Lazarus Group",
+    "actor_slug": "lazarus",
+    "actor_url": "/lazarus",
+    "actor_permalink": "/lazarus/",
+    "type": "malware_and_tools",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Malware and Tools",
+    "label": "VMware Exploitation",
+    "value": "**VMware Exploitation**: Targeting VMware vulnerabilities for initial access",
+    "normalized_value": "VMware Exploitation: Targeting VMware vulnerabilities for initial access",
+    "canonical_value": "VMware Exploitation: Targeting VMware vulnerabilities for initial access",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "VMware Exploitation: Targeting VMware vulnerabilities for initial access",
+    "source_file": "_threat_actors/lazarus.md"
+  },
+  {
+    "actor_name": "Lazarus Group",
+    "actor_slug": "lazarus",
+    "actor_url": "/lazarus",
+    "actor_permalink": "/lazarus/",
+    "type": "malware_and_tools",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Malware and Tools",
+    "label": "Custom Malware",
+    "value": "**Custom Malware**: Development of sophisticated malware for data exfiltration",
+    "normalized_value": "Custom Malware: Development of sophisticated malware for data exfiltration",
+    "canonical_value": "Custom Malware: Development of sophisticated malware for data exfiltration",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Custom Malware: Development of sophisticated malware for data exfiltration",
+    "source_file": "_threat_actors/lazarus.md"
+  },
+  {
+    "actor_name": "Lazarus Group",
+    "actor_slug": "lazarus",
+    "actor_url": "/lazarus",
+    "actor_permalink": "/lazarus/",
+    "type": "malware_and_tools",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Malware and Tools",
+    "label": "Cryptocurrency Theft",
+    "value": "**Cryptocurrency Theft**: Specialized tools for stealing cryptocurrency",
+    "normalized_value": "Cryptocurrency Theft: Specialized tools for stealing cryptocurrency",
+    "canonical_value": "Cryptocurrency Theft: Specialized tools for stealing cryptocurrency",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Cryptocurrency Theft: Specialized tools for stealing cryptocurrency",
+    "source_file": "_threat_actors/lazarus.md"
+  },
+  {
+    "actor_name": "Lazarus Group",
+    "actor_slug": "lazarus",
+    "actor_url": "/lazarus",
+    "actor_permalink": "/lazarus/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "Supply Chain Attacks",
+    "value": "**Supply Chain Attacks**: Compromising software supply chains",
+    "normalized_value": "Supply Chain Attacks: Compromising software supply chains",
+    "canonical_value": "Supply Chain Attacks: Compromising software supply chains",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Supply Chain Attacks: Compromising software supply chains",
+    "source_file": "_threat_actors/lazarus.md"
+  },
+  {
+    "actor_name": "Lazarus Group",
+    "actor_slug": "lazarus",
+    "actor_url": "/lazarus",
+    "actor_permalink": "/lazarus/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "Social Engineering",
+    "value": "**Social Engineering**: Sophisticated social engineering campaigns",
+    "normalized_value": "Social Engineering: Sophisticated social engineering campaigns",
+    "canonical_value": "Social Engineering: Sophisticated social engineering campaigns",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Social Engineering: Sophisticated social engineering campaigns",
+    "source_file": "_threat_actors/lazarus.md"
+  },
+  {
+    "actor_name": "Lazarus Group",
+    "actor_slug": "lazarus",
+    "actor_url": "/lazarus",
+    "actor_permalink": "/lazarus/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "Living off the Land",
+    "value": "**Living off the Land**: Extensive use of legitimate tools and techniques",
+    "normalized_value": "Living off the Land: Extensive use of legitimate tools and techniques",
+    "canonical_value": "Living off the Land: Extensive use of legitimate tools and techniques",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Living off the Land: Extensive use of legitimate tools and techniques",
+    "source_file": "_threat_actors/lazarus.md"
+  },
+  {
+    "actor_name": "LockBit",
+    "actor_slug": "lockbit",
+    "actor_url": "/lockbit",
+    "actor_permalink": "/lockbit/",
+    "type": "known_infrastructure",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Known Infrastructure",
+    "label": "Leak Sites",
+    "value": "**Leak Sites**: Multiple Tor-based leak sites for victim shaming",
+    "normalized_value": "Leak Sites: Multiple Tor-based leak sites for victim shaming",
+    "canonical_value": "Leak Sites: Multiple Tor-based leak sites for victim shaming",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Leak Sites: Multiple Tor-based leak sites for victim shaming",
+    "source_file": "_threat_actors/lockbit.md"
+  },
+  {
+    "actor_name": "LockBit",
+    "actor_slug": "lockbit",
+    "actor_url": "/lockbit",
+    "actor_permalink": "/lockbit/",
+    "type": "known_infrastructure",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Known Infrastructure",
+    "label": "StealBit Tool",
+    "value": "**StealBit Tool**: Custom data exfiltration tool developed by LockBit",
+    "normalized_value": "StealBit Tool: Custom data exfiltration tool developed by LockBit",
+    "canonical_value": "StealBit Tool: Custom data exfiltration tool developed by LockBit",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "StealBit Tool: Custom data exfiltration tool developed by LockBit",
+    "source_file": "_threat_actors/lockbit.md"
+  },
+  {
+    "actor_name": "LockBit",
+    "actor_slug": "lockbit",
+    "actor_url": "/lockbit",
+    "actor_permalink": "/lockbit/",
+    "type": "known_infrastructure",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Known Infrastructure",
+    "label": "Affiliate Program",
+    "value": "**Affiliate Program**: Well-organized affiliate recruitment and management",
+    "normalized_value": "Affiliate Program: Well-organized affiliate recruitment and management",
+    "canonical_value": "Affiliate Program: Well-organized affiliate recruitment and management",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Affiliate Program: Well-organized affiliate recruitment and management",
+    "source_file": "_threat_actors/lockbit.md"
+  },
+  {
+    "actor_name": "LockBit",
+    "actor_slug": "lockbit",
+    "actor_url": "/lockbit",
+    "actor_permalink": "/lockbit/",
+    "type": "file_extension",
+    "inferred_type": "file_extension",
+    "atomic": true,
+    "heading": "File Extensions",
+    "label": "LockBit 2.0",
+    "value": ".lockbit",
+    "normalized_value": ".lockbit",
+    "canonical_value": ".lockbit",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+      ".lockbit"
+    ],
+    "source_text": "LockBit 2.0: .lockbit",
+    "source_file": "_threat_actors/lockbit.md"
+  },
+  {
+    "actor_name": "LockBit",
+    "actor_slug": "lockbit",
+    "actor_url": "/lockbit",
+    "actor_permalink": "/lockbit/",
+    "type": "file_extension",
+    "inferred_type": "file_extension",
+    "atomic": true,
+    "heading": "File Extensions",
+    "label": "LockBit 3.0",
+    "value": ".lockbit3",
+    "normalized_value": ".lockbit3",
+    "canonical_value": ".lockbit3",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+      ".lockbit3"
+    ],
+    "source_text": "LockBit 3.0: .lockbit3",
+    "source_file": "_threat_actors/lockbit.md"
+  },
+  {
+    "actor_name": "LockBit",
+    "actor_slug": "lockbit",
+    "actor_url": "/lockbit",
+    "actor_permalink": "/lockbit/",
+    "type": "file_extension",
+    "inferred_type": "file_extension",
+    "atomic": true,
+    "heading": "File Extensions",
+    "label": "LockBit 4.0",
+    "value": ".lockbit4",
+    "normalized_value": ".lockbit4",
+    "canonical_value": ".lockbit4",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+      ".lockbit4"
+    ],
+    "source_text": "LockBit 4.0: .lockbit4",
+    "source_file": "_threat_actors/lockbit.md"
+  },
+  {
+    "actor_name": "LockBit",
+    "actor_slug": "lockbit",
+    "actor_url": "/lockbit",
+    "actor_permalink": "/lockbit/",
+    "type": "ransom_notes",
+    "inferred_type": "domain",
+    "atomic": true,
+    "heading": "Ransom Notes",
+    "label": "Filename",
+    "value": "Restore-My-Files.txt",
+    "normalized_value": "restore-my-files.txt",
+    "canonical_value": "restore-my-files.txt",
+    "legacy_normalized_value": "Restore-My-Files.txt",
+    "lookup_keys": [
+      "restore-my-files.txt",
+      "Restore-My-Files.txt"
+    ],
+    "source_text": "Filename: Restore-My-Files.txt",
+    "source_file": "_threat_actors/lockbit.md"
+  },
+  {
+    "actor_name": "LockBit",
+    "actor_slug": "lockbit",
+    "actor_url": "/lockbit",
+    "actor_permalink": "/lockbit/",
+    "type": "ransom_notes",
+    "inferred_type": "filename",
+    "atomic": true,
+    "heading": "Ransom Notes",
+    "label": "Filename",
+    "value": "Restore-My-Files.txt",
+    "normalized_value": "Restore-My-Files.txt",
+    "canonical_value": "Restore-My-Files.txt",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+      "Restore-My-Files.txt"
+    ],
+    "source_text": "Filename: Restore-My-Files.txt",
+    "source_file": "_threat_actors/lockbit.md"
+  },
+  {
+    "actor_name": "LockBit",
+    "actor_slug": "lockbit",
+    "actor_url": "/lockbit",
+    "actor_permalink": "/lockbit/",
+    "type": "ransom_notes",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Ransom Notes",
+    "label": "Content",
+    "value": "**Content**: Contains ransom demands and contact information",
+    "normalized_value": "Content: Contains ransom demands and contact information",
+    "canonical_value": "Content: Contains ransom demands and contact information",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Content: Contains ransom demands and contact information",
+    "source_file": "_threat_actors/lockbit.md"
+  },
+  {
+    "actor_name": "LockBit",
+    "actor_slug": "lockbit",
+    "actor_url": "/lockbit",
+    "actor_permalink": "/lockbit/",
+    "type": "ransom_notes",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Ransom Notes",
+    "label": "Language",
+    "value": "**Language**: Multiple language support including English, Spanish, French",
+    "normalized_value": "Language: Multiple language support including English, Spanish, French",
+    "canonical_value": "Language: Multiple language support including English, Spanish, French",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Language: Multiple language support including English, Spanish, French",
+    "source_file": "_threat_actors/lockbit.md"
+  },
+  {
+    "actor_name": "Cl0p",
+    "actor_slug": "cl0p",
+    "actor_url": "/cl0p",
+    "actor_permalink": "/cl0p/",
+    "type": "vulnerabilities_exploited",
+    "inferred_type": "cve",
+    "atomic": true,
+    "heading": "Vulnerabilities Exploited",
+    "label": "MOVEit Transfer",
+    "value": "CVE-2023-34362",
+    "normalized_value": "cve-2023-34362",
+    "canonical_value": "cve-2023-34362",
+    "legacy_normalized_value": "CVE-2023-34362",
+    "lookup_keys": [
+      "cve-2023-34362",
+      "CVE-2023-34362"
+    ],
+    "source_text": "MOVEit Transfer: CVE-2023-34362 (SQL injection vulnerability)",
+    "source_file": "_threat_actors/cl0p.md"
+  },
+  {
+    "actor_name": "Cl0p",
+    "actor_slug": "cl0p",
+    "actor_url": "/cl0p",
+    "actor_permalink": "/cl0p/",
+    "type": "vulnerabilities_exploited",
+    "inferred_type": "cve",
+    "atomic": true,
+    "heading": "Vulnerabilities Exploited",
+    "label": "GoAnywhere MFT",
+    "value": "CVE-2023-0669",
+    "normalized_value": "cve-2023-0669",
+    "canonical_value": "cve-2023-0669",
+    "legacy_normalized_value": "CVE-2023-0669",
+    "lookup_keys": [
+      "cve-2023-0669",
+      "CVE-2023-0669"
+    ],
+    "source_text": "GoAnywhere MFT: CVE-2023-0669 (remote code execution vulnerability)",
+    "source_file": "_threat_actors/cl0p.md"
+  },
+  {
+    "actor_name": "Cl0p",
+    "actor_slug": "cl0p",
+    "actor_url": "/cl0p",
+    "actor_permalink": "/cl0p/",
+    "type": "vulnerabilities_exploited",
+    "inferred_type": "cve",
+    "atomic": true,
+    "heading": "Vulnerabilities Exploited",
+    "label": "Accellion FTA",
+    "value": "CVE-2021-27101",
+    "normalized_value": "cve-2021-27101",
+    "canonical_value": "cve-2021-27101",
+    "legacy_normalized_value": "CVE-2021-27101",
+    "lookup_keys": [
+      "cve-2021-27101",
+      "CVE-2021-27101"
+    ],
+    "source_text": "Accellion FTA: CVE-2021-27101, CVE-2021-27102, CVE-2021-27103, CVE-2021-27104",
+    "source_file": "_threat_actors/cl0p.md"
+  },
+  {
+    "actor_name": "Cl0p",
+    "actor_slug": "cl0p",
+    "actor_url": "/cl0p",
+    "actor_permalink": "/cl0p/",
+    "type": "vulnerabilities_exploited",
+    "inferred_type": "cve",
+    "atomic": true,
+    "heading": "Vulnerabilities Exploited",
+    "label": "Accellion FTA",
+    "value": "CVE-2021-27102",
+    "normalized_value": "cve-2021-27102",
+    "canonical_value": "cve-2021-27102",
+    "legacy_normalized_value": "CVE-2021-27102",
+    "lookup_keys": [
+      "cve-2021-27102",
+      "CVE-2021-27102"
+    ],
+    "source_text": "Accellion FTA: CVE-2021-27101, CVE-2021-27102, CVE-2021-27103, CVE-2021-27104",
+    "source_file": "_threat_actors/cl0p.md"
+  },
+  {
+    "actor_name": "Cl0p",
+    "actor_slug": "cl0p",
+    "actor_url": "/cl0p",
+    "actor_permalink": "/cl0p/",
+    "type": "vulnerabilities_exploited",
+    "inferred_type": "cve",
+    "atomic": true,
+    "heading": "Vulnerabilities Exploited",
+    "label": "Accellion FTA",
+    "value": "CVE-2021-27103",
+    "normalized_value": "cve-2021-27103",
+    "canonical_value": "cve-2021-27103",
+    "legacy_normalized_value": "CVE-2021-27103",
+    "lookup_keys": [
+      "cve-2021-27103",
+      "CVE-2021-27103"
+    ],
+    "source_text": "Accellion FTA: CVE-2021-27101, CVE-2021-27102, CVE-2021-27103, CVE-2021-27104",
+    "source_file": "_threat_actors/cl0p.md"
+  },
+  {
+    "actor_name": "Cl0p",
+    "actor_slug": "cl0p",
+    "actor_url": "/cl0p",
+    "actor_permalink": "/cl0p/",
+    "type": "vulnerabilities_exploited",
+    "inferred_type": "cve",
+    "atomic": true,
+    "heading": "Vulnerabilities Exploited",
+    "label": "Accellion FTA",
+    "value": "CVE-2021-27104",
+    "normalized_value": "cve-2021-27104",
+    "canonical_value": "cve-2021-27104",
+    "legacy_normalized_value": "CVE-2021-27104",
+    "lookup_keys": [
+      "cve-2021-27104",
+      "CVE-2021-27104"
+    ],
+    "source_text": "Accellion FTA: CVE-2021-27101, CVE-2021-27102, CVE-2021-27103, CVE-2021-27104",
+    "source_file": "_threat_actors/cl0p.md"
+  },
+  {
+    "actor_name": "Cl0p",
+    "actor_slug": "cl0p",
+    "actor_url": "/cl0p",
+    "actor_permalink": "/cl0p/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "Supply Chain Focus",
+    "value": "**Supply Chain Focus**: Targeting managed file transfer (MFT) software used by service providers",
+    "normalized_value": "Supply Chain Focus: Targeting managed file transfer (MFT) software used by service providers",
+    "canonical_value": "Supply Chain Focus: Targeting managed file transfer (MFT) software used by service providers",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Supply Chain Focus: Targeting managed file transfer (MFT) software used by service providers",
+    "source_file": "_threat_actors/cl0p.md"
+  },
+  {
+    "actor_name": "Cl0p",
+    "actor_slug": "cl0p",
+    "actor_url": "/cl0p",
+    "actor_permalink": "/cl0p/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "Mass Data Exfiltration",
+    "value": "**Mass Data Exfiltration**: Prioritizing data theft over encryption",
+    "normalized_value": "Mass Data Exfiltration: Prioritizing data theft over encryption",
+    "canonical_value": "Mass Data Exfiltration: Prioritizing data theft over encryption",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Mass Data Exfiltration: Prioritizing data theft over encryption",
+    "source_file": "_threat_actors/cl0p.md"
+  },
+  {
+    "actor_name": "Cl0p",
+    "actor_slug": "cl0p",
+    "actor_url": "/cl0p",
+    "actor_permalink": "/cl0p/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "Web Shell Deployment",
+    "value": "**Web Shell Deployment**: Installing persistent web shells on compromised MFT servers",
+    "normalized_value": "Web Shell Deployment: Installing persistent web shells on compromised MFT servers",
+    "canonical_value": "Web Shell Deployment: Installing persistent web shells on compromised MFT servers",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Web Shell Deployment: Installing persistent web shells on compromised MFT servers",
+    "source_file": "_threat_actors/cl0p.md"
+  },
+  {
+    "actor_name": "RansomHub",
+    "actor_slug": "ransomhub",
+    "actor_url": "/ransomhub",
+    "actor_permalink": "/ransomhub/",
+    "type": "edr_evasion_tools",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "EDR Evasion Tools",
+    "label": "EDRKillShifter",
+    "value": "**EDRKillShifter**: Custom EDR killer tool using Bring Your Own Vulnerable Driver (BYOVD) technique",
+    "normalized_value": "EDRKillShifter: Custom EDR killer tool using Bring Your Own Vulnerable Driver (BYOVD) technique",
+    "canonical_value": "EDRKillShifter: Custom EDR killer tool using Bring Your Own Vulnerable Driver (BYOVD) technique",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "EDRKillShifter: Custom EDR killer tool using Bring Your Own Vulnerable Driver (BYOVD) technique",
+    "source_file": "_threat_actors/ransomhub.md"
+  },
+  {
+    "actor_name": "RansomHub",
+    "actor_slug": "ransomhub",
+    "actor_url": "/ransomhub",
+    "actor_permalink": "/ransomhub/",
+    "type": "edr_evasion_tools",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "EDR Evasion Tools",
+    "label": "BYOVD Techniques",
+    "value": "**BYOVD Techniques**: Employing vulnerable drivers to terminate security solutions",
+    "normalized_value": "BYOVD Techniques: Employing vulnerable drivers to terminate security solutions",
+    "canonical_value": "BYOVD Techniques: Employing vulnerable drivers to terminate security solutions",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "BYOVD Techniques: Employing vulnerable drivers to terminate security solutions",
+    "source_file": "_threat_actors/ransomhub.md"
+  },
+  {
+    "actor_name": "RansomHub",
+    "actor_slug": "ransomhub",
+    "actor_url": "/ransomhub",
+    "actor_permalink": "/ransomhub/",
+    "type": "file_extension",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "File Extensions",
+    "label": "RansomHub Ransomware",
+    "value": "**RansomHub Ransomware**: Custom file extensions for encrypted files",
+    "normalized_value": "RansomHub Ransomware: Custom file extensions for encrypted files",
+    "canonical_value": "RansomHub Ransomware: Custom file extensions for encrypted files",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "RansomHub Ransomware: Custom file extensions for encrypted files",
+    "source_file": "_threat_actors/ransomhub.md"
+  },
+  {
+    "actor_name": "RansomHub",
+    "actor_slug": "ransomhub",
+    "actor_url": "/ransomhub",
+    "actor_permalink": "/ransomhub/",
+    "type": "file_extension",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "File Extensions",
+    "label": "Ransom Notes",
+    "value": "**Ransom Notes**: Specific ransom note format and content",
+    "normalized_value": "Ransom Notes: Specific ransom note format and content",
+    "canonical_value": "Ransom Notes: Specific ransom note format and content",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Ransom Notes: Specific ransom note format and content",
+    "source_file": "_threat_actors/ransomhub.md"
+  },
+  {
+    "actor_name": "RansomHub",
+    "actor_slug": "ransomhub",
+    "actor_url": "/ransomhub",
+    "actor_permalink": "/ransomhub/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "Phishing Campaigns",
+    "value": "**Phishing Campaigns**: Gaining access through malicious attachments and social engineering",
+    "normalized_value": "Phishing Campaigns: Gaining access through malicious attachments and social engineering",
+    "canonical_value": "Phishing Campaigns: Gaining access through malicious attachments and social engineering",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Phishing Campaigns: Gaining access through malicious attachments and social engineering",
+    "source_file": "_threat_actors/ransomhub.md"
+  },
+  {
+    "actor_name": "RansomHub",
+    "actor_slug": "ransomhub",
+    "actor_url": "/ransomhub",
+    "actor_permalink": "/ransomhub/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "Credential Abuse",
+    "value": "**Credential Abuse**: Exploiting compromised credentials for initial access",
+    "normalized_value": "Credential Abuse: Exploiting compromised credentials for initial access",
+    "canonical_value": "Credential Abuse: Exploiting compromised credentials for initial access",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Credential Abuse: Exploiting compromised credentials for initial access",
+    "source_file": "_threat_actors/ransomhub.md"
+  },
+  {
+    "actor_name": "RansomHub",
+    "actor_slug": "ransomhub",
+    "actor_url": "/ransomhub",
+    "actor_permalink": "/ransomhub/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "Double Extortion",
+    "value": "**Double Extortion**: Threatening to leak exfiltrated data to pressure victims",
+    "normalized_value": "Double Extortion: Threatening to leak exfiltrated data to pressure victims",
+    "canonical_value": "Double Extortion: Threatening to leak exfiltrated data to pressure victims",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Double Extortion: Threatening to leak exfiltrated data to pressure victims",
+    "source_file": "_threat_actors/ransomhub.md"
+  },
+  {
+    "actor_name": "Akira",
+    "actor_slug": "akira",
+    "actor_url": "/akira",
+    "actor_permalink": "/akira/",
+    "type": "ransomware_variants",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Ransomware Variants",
+    "label": "Akira Ransomware",
+    "value": "**Akira Ransomware**: Original C++-based ransomware strain targeting Windows and Linux systems",
+    "normalized_value": "Akira Ransomware: Original C++-based ransomware strain targeting Windows and Linux systems",
+    "canonical_value": "Akira Ransomware: Original C++-based ransomware strain targeting Windows and Linux systems",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Akira Ransomware: Original C++-based ransomware strain targeting Windows and Linux systems",
+    "source_file": "_threat_actors/akira.md"
+  },
+  {
+    "actor_name": "Akira",
+    "actor_slug": "akira",
+    "actor_url": "/akira",
+    "actor_permalink": "/akira/",
+    "type": "ransomware_variants",
+    "inferred_type": "file_extension",
+    "atomic": true,
+    "heading": "Ransomware Variants",
+    "label": "Megazord",
+    "value": ".powerranges",
+    "normalized_value": ".powerranges",
+    "canonical_value": ".powerranges",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+      ".powerranges"
+    ],
+    "source_text": "Megazord: Rust-based ransomware variant that encrypts files with a .powerranges extension",
+    "source_file": "_threat_actors/akira.md"
+  },
+  {
+    "actor_name": "Akira",
+    "actor_slug": "akira",
+    "actor_url": "/akira",
+    "actor_permalink": "/akira/",
+    "type": "file_extension",
+    "inferred_type": "file_extension",
+    "atomic": true,
+    "heading": "File Extensions",
+    "label": "Akira",
+    "value": ".akira",
+    "normalized_value": ".akira",
+    "canonical_value": ".akira",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+      ".akira"
+    ],
+    "source_text": "Akira: .akira",
+    "source_file": "_threat_actors/akira.md"
+  },
+  {
+    "actor_name": "Akira",
+    "actor_slug": "akira",
+    "actor_url": "/akira",
+    "actor_permalink": "/akira/",
+    "type": "file_extension",
+    "inferred_type": "file_extension",
+    "atomic": true,
+    "heading": "File Extensions",
+    "label": "Megazord",
+    "value": ".powerranges",
+    "normalized_value": ".powerranges",
+    "canonical_value": ".powerranges",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+      ".powerranges"
+    ],
+    "source_text": "Megazord: .powerranges",
+    "source_file": "_threat_actors/akira.md"
+  },
+  {
+    "actor_name": "Akira",
+    "actor_slug": "akira",
+    "actor_url": "/akira",
+    "actor_permalink": "/akira/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "VPN Exploitation",
+    "value": "**VPN Exploitation**: Targeting single-factor VPNs and external remote services",
+    "normalized_value": "VPN Exploitation: Targeting single-factor VPNs and external remote services",
+    "canonical_value": "VPN Exploitation: Targeting single-factor VPNs and external remote services",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "VPN Exploitation: Targeting single-factor VPNs and external remote services",
+    "source_file": "_threat_actors/akira.md"
+  },
+  {
+    "actor_name": "Akira",
+    "actor_slug": "akira",
+    "actor_url": "/akira",
+    "actor_permalink": "/akira/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "Access Broker Networks",
+    "value": "**Access Broker Networks**: Utilizing third-party credential providers for faster intrusions",
+    "normalized_value": "Access Broker Networks: Utilizing third-party credential providers for faster intrusions",
+    "canonical_value": "Access Broker Networks: Utilizing third-party credential providers for faster intrusions",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Access Broker Networks: Utilizing third-party credential providers for faster intrusions",
+    "source_file": "_threat_actors/akira.md"
+  },
+  {
+    "actor_name": "Akira",
+    "actor_slug": "akira",
+    "actor_url": "/akira",
+    "actor_permalink": "/akira/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "Multi-Platform Targeting",
+    "value": "**Multi-Platform Targeting**: Targeting Windows, Linux, and ESXi systems",
+    "normalized_value": "Multi-Platform Targeting: Targeting Windows, Linux, and ESXi systems",
+    "canonical_value": "Multi-Platform Targeting: Targeting Windows, Linux, and ESXi systems",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Multi-Platform Targeting: Targeting Windows, Linux, and ESXi systems",
+    "source_file": "_threat_actors/akira.md"
+  },
+  {
+    "actor_name": "Akira",
+    "actor_slug": "akira",
+    "actor_url": "/akira",
+    "actor_permalink": "/akira/",
+    "type": "remote_access_tools",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Remote Access Tools",
+    "label": "AnyDesk",
+    "value": "**AnyDesk**: Legitimate remote desktop software used for persistent access",
+    "normalized_value": "AnyDesk: Legitimate remote desktop software used for persistent access",
+    "canonical_value": "AnyDesk: Legitimate remote desktop software used for persistent access",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "AnyDesk: Legitimate remote desktop software used for persistent access",
+    "source_file": "_threat_actors/akira.md"
+  },
+  {
+    "actor_name": "Akira",
+    "actor_slug": "akira",
+    "actor_url": "/akira",
+    "actor_permalink": "/akira/",
+    "type": "remote_access_tools",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Remote Access Tools",
+    "label": "Radmin",
+    "value": "**Radmin**: Remote administration tool for maintaining access to compromised systems",
+    "normalized_value": "Radmin: Remote administration tool for maintaining access to compromised systems",
+    "canonical_value": "Radmin: Remote administration tool for maintaining access to compromised systems",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Radmin: Remote administration tool for maintaining access to compromised systems",
+    "source_file": "_threat_actors/akira.md"
+  },
+  {
+    "actor_name": "Qilin",
+    "actor_slug": "qilin",
+    "actor_url": "/qilin",
+    "actor_permalink": "/qilin/",
+    "type": "infrastructure",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Infrastructure",
+    "label": "Backblaze C2",
+    "value": "**Backblaze C2**: Use of Backblaze-hosted command and control infrastructure",
+    "normalized_value": "Backblaze C2: Use of Backblaze-hosted command and control infrastructure",
+    "canonical_value": "Backblaze C2: Use of Backblaze-hosted command and control infrastructure",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Backblaze C2: Use of Backblaze-hosted command and control infrastructure",
+    "source_file": "_threat_actors/qilin.md"
+  },
+  {
+    "actor_name": "Qilin",
+    "actor_slug": "qilin",
+    "actor_url": "/qilin",
+    "actor_permalink": "/qilin/",
+    "type": "infrastructure",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Infrastructure",
+    "label": "CyberDuck",
+    "value": "**CyberDuck**: Deployment of CyberDuck for data exfiltration",
+    "normalized_value": "CyberDuck: Deployment of CyberDuck for data exfiltration",
+    "canonical_value": "CyberDuck: Deployment of CyberDuck for data exfiltration",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "CyberDuck: Deployment of CyberDuck for data exfiltration",
+    "source_file": "_threat_actors/qilin.md"
+  },
+  {
+    "actor_name": "Qilin",
+    "actor_slug": "qilin",
+    "actor_url": "/qilin",
+    "actor_permalink": "/qilin/",
+    "type": "infrastructure",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Infrastructure",
+    "label": "Custom Encryptors",
+    "value": "**Custom Encryptors**: Hardcoded victim credentials in compiled encryptors",
+    "normalized_value": "Custom Encryptors: Hardcoded victim credentials in compiled encryptors",
+    "canonical_value": "Custom Encryptors: Hardcoded victim credentials in compiled encryptors",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Custom Encryptors: Hardcoded victim credentials in compiled encryptors",
+    "source_file": "_threat_actors/qilin.md"
+  },
+  {
+    "actor_name": "Qilin",
+    "actor_slug": "qilin",
+    "actor_url": "/qilin",
+    "actor_permalink": "/qilin/",
+    "type": "rmm_tools_used",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "RMM Tools Used",
+    "label": "TeamViewer",
+    "value": "**TeamViewer**: Remote access and control",
+    "normalized_value": "TeamViewer: Remote access and control",
+    "canonical_value": "TeamViewer: Remote access and control",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "TeamViewer: Remote access and control",
+    "source_file": "_threat_actors/qilin.md"
+  },
+  {
+    "actor_name": "Qilin",
+    "actor_slug": "qilin",
+    "actor_url": "/qilin",
+    "actor_permalink": "/qilin/",
+    "type": "rmm_tools_used",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "RMM Tools Used",
+    "label": "VNC",
+    "value": "**VNC**: Virtual Network Computing for remote access",
+    "normalized_value": "VNC: Virtual Network Computing for remote access",
+    "canonical_value": "VNC: Virtual Network Computing for remote access",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "VNC: Virtual Network Computing for remote access",
+    "source_file": "_threat_actors/qilin.md"
+  },
+  {
+    "actor_name": "Qilin",
+    "actor_slug": "qilin",
+    "actor_url": "/qilin",
+    "actor_permalink": "/qilin/",
+    "type": "rmm_tools_used",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "RMM Tools Used",
+    "label": "AnyDesk",
+    "value": "**AnyDesk**: Remote desktop software",
+    "normalized_value": "AnyDesk: Remote desktop software",
+    "canonical_value": "AnyDesk: Remote desktop software",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "AnyDesk: Remote desktop software",
+    "source_file": "_threat_actors/qilin.md"
+  },
+  {
+    "actor_name": "Qilin",
+    "actor_slug": "qilin",
+    "actor_url": "/qilin",
+    "actor_permalink": "/qilin/",
+    "type": "rmm_tools_used",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "RMM Tools Used",
+    "label": "Chrome Remote Desktop",
+    "value": "**Chrome Remote Desktop**: Google's remote access solution",
+    "normalized_value": "Chrome Remote Desktop: Google's remote access solution",
+    "canonical_value": "Chrome Remote Desktop: Google's remote access solution",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Chrome Remote Desktop: Google's remote access solution",
+    "source_file": "_threat_actors/qilin.md"
+  },
+  {
+    "actor_name": "Qilin",
+    "actor_slug": "qilin",
+    "actor_url": "/qilin",
+    "actor_permalink": "/qilin/",
+    "type": "rmm_tools_used",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "RMM Tools Used",
+    "label": "Distant Desktop",
+    "value": "**Distant Desktop**: Remote access tool",
+    "normalized_value": "Distant Desktop: Remote access tool",
+    "canonical_value": "Distant Desktop: Remote access tool",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Distant Desktop: Remote access tool",
+    "source_file": "_threat_actors/qilin.md"
+  },
+  {
+    "actor_name": "Qilin",
+    "actor_slug": "qilin",
+    "actor_url": "/qilin",
+    "actor_permalink": "/qilin/",
+    "type": "rmm_tools_used",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "RMM Tools Used",
+    "label": "QuickAssist",
+    "value": "**QuickAssist**: Microsoft's remote assistance tool",
+    "normalized_value": "QuickAssist: Microsoft's remote assistance tool",
+    "canonical_value": "QuickAssist: Microsoft's remote assistance tool",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "QuickAssist: Microsoft's remote assistance tool",
+    "source_file": "_threat_actors/qilin.md"
+  },
+  {
+    "actor_name": "Qilin",
+    "actor_slug": "qilin",
+    "actor_url": "/qilin",
+    "actor_permalink": "/qilin/",
+    "type": "rmm_tools_used",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "RMM Tools Used",
+    "label": "ToDesk",
+    "value": "**ToDesk**: Remote desktop software",
+    "normalized_value": "ToDesk: Remote desktop software",
+    "canonical_value": "ToDesk: Remote desktop software",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "ToDesk: Remote desktop software",
+    "source_file": "_threat_actors/qilin.md"
+  },
+  {
+    "actor_name": "Qilin",
+    "actor_slug": "qilin",
+    "actor_url": "/qilin",
+    "actor_permalink": "/qilin/",
+    "type": "persistence_mechanisms",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Persistence Mechanisms",
+    "label": "AutoRun Entries",
+    "value": "**AutoRun Entries**: Creation in Software registry Hive",
+    "normalized_value": "AutoRun Entries: Creation in Software registry Hive",
+    "canonical_value": "AutoRun Entries: Creation in Software registry Hive",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "AutoRun Entries: Creation in Software registry Hive",
+    "source_file": "_threat_actors/qilin.md"
+  },
+  {
+    "actor_name": "Qilin",
+    "actor_slug": "qilin",
+    "actor_url": "/qilin",
+    "actor_permalink": "/qilin/",
+    "type": "persistence_mechanisms",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Persistence Mechanisms",
+    "label": "Scheduled Tasks",
+    "value": "**Scheduled Tasks**: For persistent access and ransomware execution",
+    "normalized_value": "Scheduled Tasks: For persistent access and ransomware execution",
+    "canonical_value": "Scheduled Tasks: For persistent access and ransomware execution",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Scheduled Tasks: For persistent access and ransomware execution",
+    "source_file": "_threat_actors/qilin.md"
+  },
+  {
+    "actor_name": "Qilin",
+    "actor_slug": "qilin",
+    "actor_url": "/qilin",
+    "actor_permalink": "/qilin/",
+    "type": "persistence_mechanisms",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Persistence Mechanisms",
+    "label": "System Reboot Triggers",
+    "value": "**System Reboot Triggers**: Execution upon system reboot or user logon",
+    "normalized_value": "System Reboot Triggers: Execution upon system reboot or user logon",
+    "canonical_value": "System Reboot Triggers: Execution upon system reboot or user logon",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "System Reboot Triggers: Execution upon system reboot or user logon",
+    "source_file": "_threat_actors/qilin.md"
+  },
+  {
+    "actor_name": "Play",
+    "actor_slug": "play",
+    "actor_url": "/play",
+    "actor_permalink": "/play/",
+    "type": "file_extension",
+    "inferred_type": "file_extension",
+    "atomic": true,
+    "heading": "File Extensions",
+    "label": "Play Ransomware",
+    "value": ".play",
+    "normalized_value": ".play",
+    "canonical_value": ".play",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+      ".play"
+    ],
+    "source_text": "Play Ransomware: .play",
+    "source_file": "_threat_actors/play.md"
+  },
+  {
+    "actor_name": "Play",
+    "actor_slug": "play",
+    "actor_url": "/play",
+    "actor_permalink": "/play/",
+    "type": "edr_evasion_tools",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "EDR Evasion Tools",
+    "label": "EDRKillShifter",
+    "value": "**EDRKillShifter**: EDR killer tool using Bring Your Own Vulnerable Driver (BYOVD) technique",
+    "normalized_value": "EDRKillShifter: EDR killer tool using Bring Your Own Vulnerable Driver (BYOVD) technique",
+    "canonical_value": "EDRKillShifter: EDR killer tool using Bring Your Own Vulnerable Driver (BYOVD) technique",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "EDRKillShifter: EDR killer tool using Bring Your Own Vulnerable Driver (BYOVD) technique",
+    "source_file": "_threat_actors/play.md"
+  },
+  {
+    "actor_name": "Play",
+    "actor_slug": "play",
+    "actor_url": "/play",
+    "actor_permalink": "/play/",
+    "type": "ransomware_variants",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Ransomware Variants",
+    "label": "Play Ransomware",
+    "value": "**Play Ransomware**: Custom ransomware that appends the \".play\" extension to encrypted files",
+    "normalized_value": "Play Ransomware: Custom ransomware that appends the \".play\" extension to encrypted files",
+    "canonical_value": "Play Ransomware: Custom ransomware that appends the \".play\" extension to encrypted files",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Play Ransomware: Custom ransomware that appends the \".play\" extension to encrypted files",
+    "source_file": "_threat_actors/play.md"
+  },
+  {
+    "actor_name": "Play",
+    "actor_slug": "play",
+    "actor_url": "/play",
+    "actor_permalink": "/play/",
+    "type": "ransomware_variants",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Ransomware Variants",
+    "label": "Linux ESXi Variant",
+    "value": "**Linux ESXi Variant**: Linux variant specifically targeting VMware ESXi environments",
+    "normalized_value": "Linux ESXi Variant: Linux variant specifically targeting VMware ESXi environments",
+    "canonical_value": "Linux ESXi Variant: Linux variant specifically targeting VMware ESXi environments",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Linux ESXi Variant: Linux variant specifically targeting VMware ESXi environments",
+    "source_file": "_threat_actors/play.md"
+  },
+  {
+    "actor_name": "Play",
+    "actor_slug": "play",
+    "actor_url": "/play",
+    "actor_permalink": "/play/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "Public-Facing Application Exploitation",
+    "value": "**Public-Facing Application Exploitation**: Exploiting vulnerabilities in public-facing applications and remote access services",
+    "normalized_value": "Public-Facing Application Exploitation: Exploiting vulnerabilities in public-facing applications and remote access services",
+    "canonical_value": "Public-Facing Application Exploitation: Exploiting vulnerabilities in public-facing applications and remote access services",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Public-Facing Application Exploitation: Exploiting vulnerabilities in public-facing applications and remote access services",
+    "source_file": "_threat_actors/play.md"
+  },
+  {
+    "actor_name": "Play",
+    "actor_slug": "play",
+    "actor_url": "/play",
+    "actor_permalink": "/play/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "Linux ESXi Targeting",
+    "value": "**Linux ESXi Targeting**: Deploying Linux variants specifically targeting VMware ESXi environments",
+    "normalized_value": "Linux ESXi Targeting: Deploying Linux variants specifically targeting VMware ESXi environments",
+    "canonical_value": "Linux ESXi Targeting: Deploying Linux variants specifically targeting VMware ESXi environments",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Linux ESXi Targeting: Deploying Linux variants specifically targeting VMware ESXi environments",
+    "source_file": "_threat_actors/play.md"
+  },
+  {
+    "actor_name": "Play",
+    "actor_slug": "play",
+    "actor_url": "/play",
+    "actor_permalink": "/play/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "Tactical Sharing",
+    "value": "**Tactical Sharing**: Shares tactics with ransomware operations like Nokoyawa and Hive",
+    "normalized_value": "Tactical Sharing: Shares tactics with ransomware operations like Nokoyawa and Hive",
+    "canonical_value": "Tactical Sharing: Shares tactics with ransomware operations like Nokoyawa and Hive",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Tactical Sharing: Shares tactics with ransomware operations like Nokoyawa and Hive",
+    "source_file": "_threat_actors/play.md"
+  },
+  {
+    "actor_name": "Play",
+    "actor_slug": "play",
+    "actor_url": "/play",
+    "actor_permalink": "/play/",
+    "type": "operational_characteristics",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Operational Characteristics",
+    "label": "Infrastructure Sharing",
+    "value": "**Infrastructure Sharing**: Possible shared infrastructure with other ransomware groups",
+    "normalized_value": "Infrastructure Sharing: Possible shared infrastructure with other ransomware groups",
+    "canonical_value": "Infrastructure Sharing: Possible shared infrastructure with other ransomware groups",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Infrastructure Sharing: Possible shared infrastructure with other ransomware groups",
+    "source_file": "_threat_actors/play.md"
+  },
+  {
+    "actor_name": "SafePay",
+    "actor_slug": "safepay",
+    "actor_url": "/safepay",
+    "actor_permalink": "/safepay/",
+    "type": "geographic_focus",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Geographic Focus",
+    "label": "German Targeting",
+    "value": "**German Targeting**: Specific focus on German organizations, responsible for 24% of German ransomware victims in Q1 2025",
+    "normalized_value": "German Targeting: Specific focus on German organizations, responsible for 24% of German ransomware victims in Q1 2025",
+    "canonical_value": "German Targeting: Specific focus on German organizations, responsible for 24% of German ransomware victims in Q1 2025",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "German Targeting: Specific focus on German organizations, responsible for 24% of German ransomware victims in Q1 2025",
+    "source_file": "_threat_actors/safepay.md"
+  },
+  {
+    "actor_name": "SafePay",
+    "actor_slug": "safepay",
+    "actor_url": "/safepay",
+    "actor_permalink": "/safepay/",
+    "type": "geographic_focus",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Geographic Focus",
+    "label": "Regional Specialization",
+    "value": "**Regional Specialization**: Concentrated attacks on German healthcare, logistics, and manufacturing sectors",
+    "normalized_value": "Regional Specialization: Concentrated attacks on German healthcare, logistics, and manufacturing sectors",
+    "canonical_value": "Regional Specialization: Concentrated attacks on German healthcare, logistics, and manufacturing sectors",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Regional Specialization: Concentrated attacks on German healthcare, logistics, and manufacturing sectors",
+    "source_file": "_threat_actors/safepay.md"
+  },
+  {
+    "actor_name": "SafePay",
+    "actor_slug": "safepay",
+    "actor_url": "/safepay",
+    "actor_permalink": "/safepay/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "Phishing Campaigns",
+    "value": "**Phishing Campaigns**: Gaining access through phishing campaigns and social engineering",
+    "normalized_value": "Phishing Campaigns: Gaining access through phishing campaigns and social engineering",
+    "canonical_value": "Phishing Campaigns: Gaining access through phishing campaigns and social engineering",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Phishing Campaigns: Gaining access through phishing campaigns and social engineering",
+    "source_file": "_threat_actors/safepay.md"
+  },
+  {
+    "actor_name": "SafePay",
+    "actor_slug": "safepay",
+    "actor_url": "/safepay",
+    "actor_permalink": "/safepay/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "Public-Facing Application Exploitation",
+    "value": "**Public-Facing Application Exploitation**: Exploiting vulnerabilities in public-facing applications",
+    "normalized_value": "Public-Facing Application Exploitation: Exploiting vulnerabilities in public-facing applications",
+    "canonical_value": "Public-Facing Application Exploitation: Exploiting vulnerabilities in public-facing applications",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Public-Facing Application Exploitation: Exploiting vulnerabilities in public-facing applications",
+    "source_file": "_threat_actors/safepay.md"
+  },
+  {
+    "actor_name": "SafePay",
+    "actor_slug": "safepay",
+    "actor_url": "/safepay",
+    "actor_permalink": "/safepay/",
+    "type": "attack_patterns",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Attack Patterns",
+    "label": "Remote Access Service Exploitation",
+    "value": "**Remote Access Service Exploitation**: Targeting vulnerabilities in remote access services",
+    "normalized_value": "Remote Access Service Exploitation: Targeting vulnerabilities in remote access services",
+    "canonical_value": "Remote Access Service Exploitation: Targeting vulnerabilities in remote access services",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Remote Access Service Exploitation: Targeting vulnerabilities in remote access services",
+    "source_file": "_threat_actors/safepay.md"
+  },
+  {
+    "actor_name": "SafePay",
+    "actor_slug": "safepay",
+    "actor_url": "/safepay",
+    "actor_permalink": "/safepay/",
+    "type": "file_extension",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "File Extensions",
+    "label": "SafePay Ransomware",
+    "value": "**SafePay Ransomware**: Custom file extensions for encrypted files",
+    "normalized_value": "SafePay Ransomware: Custom file extensions for encrypted files",
+    "canonical_value": "SafePay Ransomware: Custom file extensions for encrypted files",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "SafePay Ransomware: Custom file extensions for encrypted files",
+    "source_file": "_threat_actors/safepay.md"
+  },
+  {
+    "actor_name": "SafePay",
+    "actor_slug": "safepay",
+    "actor_url": "/safepay",
+    "actor_permalink": "/safepay/",
+    "type": "file_extension",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "File Extensions",
+    "label": "Ransom Notes",
+    "value": "**Ransom Notes**: Specific ransom note format and content",
+    "normalized_value": "Ransom Notes: Specific ransom note format and content",
+    "canonical_value": "Ransom Notes: Specific ransom note format and content",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Ransom Notes: Specific ransom note format and content",
+    "source_file": "_threat_actors/safepay.md"
+  },
+  {
+    "actor_name": "SafePay",
+    "actor_slug": "safepay",
+    "actor_url": "/safepay",
+    "actor_permalink": "/safepay/",
+    "type": "persistence_mechanisms",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Persistence Mechanisms",
+    "label": "Scheduled Task Creation",
+    "value": "**Scheduled Task Creation**: Utilities for creating persistent scheduled tasks",
+    "normalized_value": "Scheduled Task Creation: Utilities for creating persistent scheduled tasks",
+    "canonical_value": "Scheduled Task Creation: Utilities for creating persistent scheduled tasks",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Scheduled Task Creation: Utilities for creating persistent scheduled tasks",
+    "source_file": "_threat_actors/safepay.md"
+  },
+  {
+    "actor_name": "SafePay",
+    "actor_slug": "safepay",
+    "actor_url": "/safepay",
+    "actor_permalink": "/safepay/",
+    "type": "persistence_mechanisms",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Persistence Mechanisms",
+    "label": "System Service Modification",
+    "value": "**System Service Modification**: Tools for creating or modifying system services",
+    "normalized_value": "System Service Modification: Tools for creating or modifying system services",
+    "canonical_value": "System Service Modification: Tools for creating or modifying system services",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "System Service Modification: Tools for creating or modifying system services",
+    "source_file": "_threat_actors/safepay.md"
+  },
+  {
+    "actor_name": "SafePay",
+    "actor_slug": "safepay",
+    "actor_url": "/safepay",
+    "actor_permalink": "/safepay/",
+    "type": "persistence_mechanisms",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Persistence Mechanisms",
+    "label": "User Account Management",
+    "value": "**User Account Management**: Tools for creating or modifying user accounts",
+    "normalized_value": "User Account Management: Tools for creating or modifying user accounts",
+    "canonical_value": "User Account Management: Tools for creating or modifying user accounts",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "User Account Management: Tools for creating or modifying user accounts",
+    "source_file": "_threat_actors/safepay.md"
+  },
+  {
+    "actor_name": "Medusa",
+    "actor_slug": "medusa",
+    "actor_url": "/medusa",
+    "actor_permalink": "/medusa/",
+    "type": "powershell_1_0_usage",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "PowerShell 1.0 Usage",
+    "label": "Defense Evasion",
+    "value": "**Defense Evasion**: Use of PowerShell 1.0 to bypass script execution policy restrictions",
+    "normalized_value": "Defense Evasion: Use of PowerShell 1.0 to bypass script execution policy restrictions",
+    "canonical_value": "Defense Evasion: Use of PowerShell 1.0 to bypass script execution policy restrictions",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Defense Evasion: Use of PowerShell 1.0 to bypass script execution policy restrictions",
+    "source_file": "_threat_actors/medusa.md"
+  },
+  {
+    "actor_name": "Medusa",
+    "actor_slug": "medusa",
+    "actor_url": "/medusa",
+    "actor_permalink": "/medusa/",
+    "type": "powershell_1_0_usage",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "PowerShell 1.0 Usage",
+    "label": "Antivirus Bypass",
+    "value": "**Antivirus Bypass**: Adding core operating system directories to antivirus exclusion lists",
+    "normalized_value": "Antivirus Bypass: Adding core operating system directories to antivirus exclusion lists",
+    "canonical_value": "Antivirus Bypass: Adding core operating system directories to antivirus exclusion lists",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Antivirus Bypass: Adding core operating system directories to antivirus exclusion lists",
+    "source_file": "_threat_actors/medusa.md"
+  },
+  {
+    "actor_name": "Medusa",
+    "actor_slug": "medusa",
+    "actor_url": "/medusa",
+    "actor_permalink": "/medusa/",
+    "type": "powershell_1_0_usage",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "PowerShell 1.0 Usage",
+    "label": "File Transfer Monitoring",
+    "value": "**File Transfer Monitoring**: Monitoring peer-to-peer file transfers within victim networks",
+    "normalized_value": "File Transfer Monitoring: Monitoring peer-to-peer file transfers within victim networks",
+    "canonical_value": "File Transfer Monitoring: Monitoring peer-to-peer file transfers within victim networks",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "File Transfer Monitoring: Monitoring peer-to-peer file transfers within victim networks",
+    "source_file": "_threat_actors/medusa.md"
+  },
+  {
+    "actor_name": "Medusa",
+    "actor_slug": "medusa",
+    "actor_url": "/medusa",
+    "actor_permalink": "/medusa/",
+    "type": "communication_methods",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Communication Methods",
+    "label": "WhatsApp",
+    "value": "**WhatsApp**: Sending voice message threats to victims",
+    "normalized_value": "WhatsApp: Sending voice message threats to victims",
+    "canonical_value": "WhatsApp: Sending voice message threats to victims",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "WhatsApp: Sending voice message threats to victims",
+    "source_file": "_threat_actors/medusa.md"
+  },
+  {
+    "actor_name": "Medusa",
+    "actor_slug": "medusa",
+    "actor_url": "/medusa",
+    "actor_permalink": "/medusa/",
+    "type": "communication_methods",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Communication Methods",
+    "label": "Microsoft Teams",
+    "value": "**Microsoft Teams**: Platform for delivering voice message threats",
+    "normalized_value": "Microsoft Teams: Platform for delivering voice message threats",
+    "canonical_value": "Microsoft Teams: Platform for delivering voice message threats",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Microsoft Teams: Platform for delivering voice message threats",
+    "source_file": "_threat_actors/medusa.md"
+  },
+  {
+    "actor_name": "Medusa",
+    "actor_slug": "medusa",
+    "actor_url": "/medusa",
+    "actor_permalink": "/medusa/",
+    "type": "communication_methods",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Communication Methods",
+    "label": "Telegram",
+    "value": "**Telegram**: Maintaining public-facing leak site operations and broadcasting new victims",
+    "normalized_value": "Telegram: Maintaining public-facing leak site operations and broadcasting new victims",
+    "canonical_value": "Telegram: Maintaining public-facing leak site operations and broadcasting new victims",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Telegram: Maintaining public-facing leak site operations and broadcasting new victims",
+    "source_file": "_threat_actors/medusa.md"
+  },
+  {
+    "actor_name": "Medusa",
+    "actor_slug": "medusa",
+    "actor_url": "/medusa",
+    "actor_permalink": "/medusa/",
+    "type": "multilingual_capabilities",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Multilingual Capabilities",
+    "label": "Native Language Communication",
+    "value": "**Native Language Communication**: Ability to communicate in victims' native languages",
+    "normalized_value": "Native Language Communication: Ability to communicate in victims' native languages",
+    "canonical_value": "Native Language Communication: Ability to communicate in victims' native languages",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Native Language Communication: Ability to communicate in victims' native languages",
+    "source_file": "_threat_actors/medusa.md"
+  },
+  {
+    "actor_name": "Medusa",
+    "actor_slug": "medusa",
+    "actor_url": "/medusa",
+    "actor_permalink": "/medusa/",
+    "type": "multilingual_capabilities",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Multilingual Capabilities",
+    "label": "Voice Message Delivery",
+    "value": "**Voice Message Delivery**: Sending threatening voice messages to increase pressure",
+    "normalized_value": "Voice Message Delivery: Sending threatening voice messages to increase pressure",
+    "canonical_value": "Voice Message Delivery: Sending threatening voice messages to increase pressure",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Voice Message Delivery: Sending threatening voice messages to increase pressure",
+    "source_file": "_threat_actors/medusa.md"
+  },
+  {
+    "actor_name": "Medusa",
+    "actor_slug": "medusa",
+    "actor_url": "/medusa",
+    "actor_permalink": "/medusa/",
+    "type": "multilingual_capabilities",
+    "inferred_type": null,
+    "atomic": false,
+    "heading": "Multilingual Capabilities",
+    "label": "Public Relations Operations",
+    "value": "**Public Relations Operations**: Maintaining Telegram channels for victim shaming",
+    "normalized_value": "Public Relations Operations: Maintaining Telegram channels for victim shaming",
+    "canonical_value": "Public Relations Operations: Maintaining Telegram channels for victim shaming",
+    "legacy_normalized_value": null,
+    "lookup_keys": [
+
+    ],
+    "source_text": "Public Relations Operations: Maintaining Telegram channels for victim shaming",
+    "source_file": "_threat_actors/medusa.md"
+  }
+]

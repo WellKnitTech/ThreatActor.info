@@ -1,0 +1,178 @@
+# AGENTS.md
+Guidance for coding agents working in `/home/ls-jacob/Documents/GitHub/threatactor-info`.
+This reflects the current repository, CI workflow, and validation scripts.
+
+## Repo Snapshot
+- Jekyll static site using Ruby + Bundler.
+- No `package.json`, no Node toolchain, no Makefile, no Rakefile.
+- No TypeScript and no conventional unit-test framework.
+- Main content lives in `_data/threat_actors.yml` and `_threat_actors/*.md`.
+- Layouts and shared UI live in `_layouts/` and `_includes/`.
+
+## Key Files
+- `_config.yml`: Jekyll config.
+- `Gemfile`: gem dependencies.
+- `_data/threat_actors.yml`: source-of-truth actor metadata.
+- `_threat_actors/*.md`: per-actor pages.
+- `_layouts/default.html`, `_layouts/threat_actor.html`: templates.
+- `_includes/search.html`: search/filter UI and client-side parser.
+- `assets/css/style.scss`: main stylesheet.
+- `scripts/validate-content.rb`: main validator.
+- `scripts/validate.sh`: full validation wrapper.
+- `.github/workflows/validate.yml`: CI commands.
+
+## Existing Agent Rules
+- No pre-existing `AGENTS.md` was found.
+- No `.cursorrules` file was found.
+- No `.cursor/rules/` directory was found.
+- No `.github/copilot-instructions.md` file was found.
+
+## Setup
+Run commands from the repo root.
+```bash
+gem install bundler -v 2.5.10
+bundle install
+```
+- Use Ruby `3.2.5` from `.ruby-version` and Bundler `2.5.10` from `Gemfile.lock`.
+
+## Development
+```bash
+bundle exec jekyll serve
+```
+- Starts the local site for manual verification.
+- Use after changing layouts, includes, CSS, Markdown pages, or YAML data.
+- Docs expect the site on `http://localhost:4000`.
+
+## Build
+```bash
+bundle exec jekyll build --safe
+```
+- Canonical build command.
+- Used in CI.
+- A successful build generates `_site/`.
+
+## Lint / Validation
+There is no RuboCop, ESLint, Prettier, Stylelint, or other dedicated linter configured here.
+Validation is done through Jekyll checks and custom scripts.
+```bash
+bundle exec jekyll doctor
+```
+- Best equivalent to a config lint.
+- Used inside `scripts/validate.sh`.
+```bash
+ruby scripts/validate-content.rb
+```
+- Main content/schema validator.
+- Checks YAML parsing, required files, duplicate names and URLs, page existence, front matter, and permalink/title alignment.
+- Run this after any content edit.
+```bash
+bash scripts/validate.sh
+```
+- Full validation pipeline.
+- Runs dependency checks, YAML validation, Jekyll doctor, required-file checks, page checks, Jekyll build, and the Ruby validator.
+- Best broad pre-PR verification command.
+
+## Test Commands
+This repo has no conventional test suite. In practice, "tests" mean validation plus a successful static-site build.
+Primary checks:
+```bash
+ruby scripts/validate-content.rb
+bundle exec jekyll build --safe
+```
+All-in-one check:
+```bash
+bash scripts/validate.sh
+```
+
+## Single-Test Guidance
+There is no built-in single-test or single-file test runner.
+- No `spec/`, `test/`, RSpec, Minitest, Jest, or Vitest setup exists.
+- No repo command targets one actor page or one isolated validation case.
+- The closest thing to a "single test" is rerunning `ruby scripts/validate-content.rb`, but it validates the whole dataset.
+- If you only changed rendering, `bundle exec jekyll serve` or `bundle exec jekyll build --safe` is the quickest focused feedback loop.
+- If you changed content, still run the full Ruby validator because it cross-checks YAML against page files.
+
+## Data Rules
+For each actor in `_data/threat_actors.yml`, the validator requires:
+- `name`
+- `aliases`
+- `description`
+- `url`
+Validated field rules:
+- `url` must start with `/`.
+- `risk_level`, when present, must be one of `Critical`, `High`, `Medium`, or `Low`.
+- `first_seen` and `last_activity`, when present, should be 4-digit years.
+- Duplicate actor names and duplicate URLs are errors.
+Each actor page front matter must include:
+- `layout`
+- `title`
+- `aliases`
+- `description`
+- `permalink`
+Page alignment rules:
+- `layout` must be `threat_actor`.
+- `title` must match the YAML `name`.
+- `permalink` must equal `#{url}/`.
+- File path must be `_threat_actors#{url}.md`.
+
+## Formatting and Style
+- Use 2-space indentation in YAML, HTML, Liquid, CSS, and Ruby.
+- Preserve standard front matter with triple-dash delimiters.
+- Prefer double-quoted YAML strings because existing content uses them consistently.
+- Keep `aliases` and `sector_focus` arrays inline in `_data/threat_actors.yml` and page front matter.
+- Avoid broad reformatting; keep edits small and local.
+
+## Imports and Dependencies
+- Ruby scripts use top-of-file `require` statements.
+- Existing Ruby uses single-quoted require paths such as `require 'yaml'`.
+- Frontend JavaScript does not use modules or a bundler.
+- External browser JS is loaded via CDN `<script>` tags in `_includes/search.html`.
+- Do not introduce Node-based tooling unless explicitly requested.
+
+## Naming Conventions
+- YAML keys use `snake_case` like `sector_focus` and `risk_level`.
+- CSS classes use lowercase hyphenated names like `threat-actor-card` and `metadata-row`.
+- Threat actor URLs use slug-style paths like `/apt28`.
+- Threat actor permalinks end with a trailing slash, for example `/apt28/`.
+- Keep the YAML `url`, page filename, and page `permalink` synchronized.
+
+## HTML / Liquid Conventions
+- Prefer semantic HTML already used in the repo: `header`, `nav`, `main`, `footer`.
+- Use Liquid conditionals for optional metadata rather than assuming fields exist.
+- Prefer `relative_url` where that pattern already exists in the file.
+- Do not mix `relative_url` and raw `site.baseurl` styles inside one small edit unless intentionally normalizing the file.
+- Match the local style of the file you are touching; this repo has minor inconsistencies.
+
+## JavaScript Conventions
+- Keep JavaScript simple and browser-native.
+- Existing async flow uses `fetch(...).then(...).then(...)`; preserve local style unless refactoring the whole block.
+- Be careful editing `_includes/search.html`; the parser reads `_data/threat_actors.yml` as raw text and depends on current formatting.
+- Do not convert YAML arrays to multi-line form or change quoting patterns without updating the parser.
+- Search filter options for countries and sectors are hardcoded, not data-driven.
+
+## CSS Conventions
+- Use `assets/css/style.scss` unless there is a clear reason to split styles.
+- Preserve the existing lowercase hyphenated class naming.
+- `CONTRIBUTING.md` mentions BEM, but the live code mostly uses descriptive class names; follow existing file-local patterns.
+- Match current spacing and selector style rather than introducing a new CSS architecture in a small task.
+
+## Ruby and Error Handling
+- Keep validator code readable and straightforward.
+- Prefer helper methods over metaprogramming.
+- Existing validator behavior accumulates errors and warnings instead of failing immediately; preserve that pattern in related changes.
+- Error messages should name the file and the exact mismatch.
+- Use warnings for recommended content sections or soft format issues, and hard failures for schema problems, duplicates, invalid URLs, missing files, or front matter mismatches.
+
+## Content Conventions
+- Keep a neutral, factual tone.
+- Include references and attribution where possible.
+- Follow the established section structure on actor pages.
+- The validator warns when these sections are missing: `Introduction`, `Activities and Tactics`, `Notable Campaigns`, `Tactics, Techniques, and Procedures (TTPs)`, `Notable Indicators of Compromise (IOCs)`, `Malware and Tools`, `Attribution and Evidence`, and `References`.
+- Some pages also include `Emulating TTPs with Atomic Red Team` and `External Links`; preserve useful existing structure when editing.
+
+## Agent Checklist
+- Update `_data/threat_actors.yml` and the matching `_threat_actors/*.md` page together.
+- Run `ruby scripts/validate-content.rb` after content changes.
+- Run `bundle exec jekyll build --safe` after layout, include, CSS, or config changes.
+- Do not edit generated output in `_site/`.
+- Do not edit vendored dependencies in `vendor/` unless the task explicitly targets them.

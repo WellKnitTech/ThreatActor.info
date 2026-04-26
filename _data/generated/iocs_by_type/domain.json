@@ -1,0 +1,48 @@
+{
+  "type": "domain",
+  "count": 2,
+  "atomic_count": 2,
+  "unique_values": 1,
+  "records": [
+    {
+      "actor_name": "APT28",
+      "actor_slug": "apt28",
+      "actor_url": "/apt28",
+      "actor_permalink": "/apt28/",
+      "type": "domain",
+      "inferred_type": "domain",
+      "atomic": true,
+      "heading": "Domains",
+      "label": null,
+      "value": "api-metrics-collector[.]com",
+      "normalized_value": "api-metrics-collector.com",
+      "canonical_value": "api-metrics-collector.com",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+        "api-metrics-collector.com"
+      ],
+      "source_text": "api-metrics-collector[.]com",
+      "source_file": "_threat_actors/apt28.md"
+    },
+    {
+      "actor_name": "APT29",
+      "actor_slug": "apt29",
+      "actor_url": "/apt29",
+      "actor_permalink": "/apt29/",
+      "type": "domain",
+      "inferred_type": "domain",
+      "atomic": true,
+      "heading": "Domains",
+      "label": null,
+      "value": "api-metrics-collector[.]com",
+      "normalized_value": "api-metrics-collector.com",
+      "canonical_value": "api-metrics-collector.com",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+        "api-metrics-collector.com"
+      ],
+      "source_text": "api-metrics-collector[.]com",
+      "source_file": "_threat_actors/apt29.md"
+    }
+  ]
+}

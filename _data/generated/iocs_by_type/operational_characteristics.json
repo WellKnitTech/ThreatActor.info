@@ -1,0 +1,28 @@
+{
+  "type": "operational_characteristics",
+  "count": 1,
+  "atomic_count": 0,
+  "unique_values": 1,
+  "records": [
+    {
+      "actor_name": "Play",
+      "actor_slug": "play",
+      "actor_url": "/play",
+      "actor_permalink": "/play/",
+      "type": "operational_characteristics",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Operational Characteristics",
+      "label": "Infrastructure Sharing",
+      "value": "**Infrastructure Sharing**: Possible shared infrastructure with other ransomware groups",
+      "normalized_value": "Infrastructure Sharing: Possible shared infrastructure with other ransomware groups",
+      "canonical_value": "Infrastructure Sharing: Possible shared infrastructure with other ransomware groups",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Infrastructure Sharing: Possible shared infrastructure with other ransomware groups",
+      "source_file": "_threat_actors/play.md"
+    }
+  ]
+}

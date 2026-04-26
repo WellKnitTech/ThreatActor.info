@@ -1,0 +1,88 @@
+{
+  "type": "ransomware_variants",
+  "count": 4,
+  "atomic_count": 1,
+  "unique_values": 4,
+  "records": [
+    {
+      "actor_name": "Akira",
+      "actor_slug": "akira",
+      "actor_url": "/akira",
+      "actor_permalink": "/akira/",
+      "type": "ransomware_variants",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Ransomware Variants",
+      "label": "Akira Ransomware",
+      "value": "**Akira Ransomware**: Original C++-based ransomware strain targeting Windows and Linux systems",
+      "normalized_value": "Akira Ransomware: Original C++-based ransomware strain targeting Windows and Linux systems",
+      "canonical_value": "Akira Ransomware: Original C++-based ransomware strain targeting Windows and Linux systems",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Akira Ransomware: Original C++-based ransomware strain targeting Windows and Linux systems",
+      "source_file": "_threat_actors/akira.md"
+    },
+    {
+      "actor_name": "Akira",
+      "actor_slug": "akira",
+      "actor_url": "/akira",
+      "actor_permalink": "/akira/",
+      "type": "ransomware_variants",
+      "inferred_type": "file_extension",
+      "atomic": true,
+      "heading": "Ransomware Variants",
+      "label": "Megazord",
+      "value": ".powerranges",
+      "normalized_value": ".powerranges",
+      "canonical_value": ".powerranges",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+        ".powerranges"
+      ],
+      "source_text": "Megazord: Rust-based ransomware variant that encrypts files with a .powerranges extension",
+      "source_file": "_threat_actors/akira.md"
+    },
+    {
+      "actor_name": "Play",
+      "actor_slug": "play",
+      "actor_url": "/play",
+      "actor_permalink": "/play/",
+      "type": "ransomware_variants",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Ransomware Variants",
+      "label": "Play Ransomware",
+      "value": "**Play Ransomware**: Custom ransomware that appends the \".play\" extension to encrypted files",
+      "normalized_value": "Play Ransomware: Custom ransomware that appends the \".play\" extension to encrypted files",
+      "canonical_value": "Play Ransomware: Custom ransomware that appends the \".play\" extension to encrypted files",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Play Ransomware: Custom ransomware that appends the \".play\" extension to encrypted files",
+      "source_file": "_threat_actors/play.md"
+    },
+    {
+      "actor_name": "Play",
+      "actor_slug": "play",
+      "actor_url": "/play",
+      "actor_permalink": "/play/",
+      "type": "ransomware_variants",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Ransomware Variants",
+      "label": "Linux ESXi Variant",
+      "value": "**Linux ESXi Variant**: Linux variant specifically targeting VMware ESXi environments",
+      "normalized_value": "Linux ESXi Variant: Linux variant specifically targeting VMware ESXi environments",
+      "canonical_value": "Linux ESXi Variant: Linux variant specifically targeting VMware ESXi environments",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Linux ESXi Variant: Linux variant specifically targeting VMware ESXi environments",
+      "source_file": "_threat_actors/play.md"
+    }
+  ]
+}

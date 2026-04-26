@@ -1,0 +1,65 @@
+{
+  "countries": [
+    "China",
+    "Iran",
+    "North Korea",
+    "Russia",
+    "Unknown",
+    "Vietnam"
+  ],
+  "risk_levels": [
+    "Critical",
+    "High"
+  ],
+  "sectors": [
+    "Academia",
+    "Critical Infrastructure",
+    "Cryptocurrency",
+    "Defense",
+    "Education",
+    "Energy",
+    "Entertainment",
+    "Financial",
+    "Gaming",
+    "Government",
+    "Healthcare",
+    "Hospitality",
+    "Legal",
+    "Logistics",
+    "Manufacturing",
+    "Maritime",
+    "Media",
+    "Military",
+    "Retail",
+    "Technology",
+    "Telecommunications"
+  ],
+  "ioc_types": [
+    "attack_patterns",
+    "communication_methods",
+    "domain",
+    "edr_evasion_tools",
+    "file_extension",
+    "geographic_focus",
+    "infrastructure",
+    "ip_address",
+    "known_infrastructure",
+    "malware_and_tools",
+    "md5",
+    "multilingual_capabilities",
+    "operational_characteristics",
+    "persistence_mechanisms",
+    "powershell_1_0_usage",
+    "ransom_notes",
+    "ransomware_variants",
+    "remote_access_tools",
+    "rmm_tools_used",
+    "sha256",
+    "ttps",
+    "vulnerabilities_exploited"
+  ],
+  "counts": {
+    "threat_actors": 22,
+    "iocs": 102
+  }
+}

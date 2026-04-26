@@ -1,0 +1,48 @@
+{
+  "type": "ttps",
+  "count": 2,
+  "atomic_count": 0,
+  "unique_values": 2,
+  "records": [
+    {
+      "actor_name": "APT29",
+      "actor_slug": "apt29",
+      "actor_url": "/apt29",
+      "actor_permalink": "/apt29/",
+      "type": "ttps",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "TTPs",
+      "label": "Credential Harvesting",
+      "value": "**Credential Harvesting**: Through compromised legitimate websites, employing fake Cloudflare verification pages",
+      "normalized_value": "Credential Harvesting: Through compromised legitimate websites, employing fake Cloudflare verification pages",
+      "canonical_value": "Credential Harvesting: Through compromised legitimate websites, employing fake Cloudflare verification pages",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Credential Harvesting: Through compromised legitimate websites, employing fake Cloudflare verification pages",
+      "source_file": "_threat_actors/apt29.md"
+    },
+    {
+      "actor_name": "APT29",
+      "actor_slug": "apt29",
+      "actor_url": "/apt29",
+      "actor_permalink": "/apt29/",
+      "type": "ttps",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "TTPs",
+      "label": "Abuse of Microsoft Device Code",
+      "value": "**Abuse of Microsoft Device Code**: Authentication mechanisms for unauthorized access",
+      "normalized_value": "Abuse of Microsoft Device Code: Authentication mechanisms for unauthorized access",
+      "canonical_value": "Abuse of Microsoft Device Code: Authentication mechanisms for unauthorized access",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Abuse of Microsoft Device Code: Authentication mechanisms for unauthorized access",
+      "source_file": "_threat_actors/apt29.md"
+    }
+  ]
+}

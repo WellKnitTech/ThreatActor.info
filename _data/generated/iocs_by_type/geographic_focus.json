@@ -1,0 +1,48 @@
+{
+  "type": "geographic_focus",
+  "count": 2,
+  "atomic_count": 0,
+  "unique_values": 2,
+  "records": [
+    {
+      "actor_name": "SafePay",
+      "actor_slug": "safepay",
+      "actor_url": "/safepay",
+      "actor_permalink": "/safepay/",
+      "type": "geographic_focus",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Geographic Focus",
+      "label": "German Targeting",
+      "value": "**German Targeting**: Specific focus on German organizations, responsible for 24% of German ransomware victims in Q1 2025",
+      "normalized_value": "German Targeting: Specific focus on German organizations, responsible for 24% of German ransomware victims in Q1 2025",
+      "canonical_value": "German Targeting: Specific focus on German organizations, responsible for 24% of German ransomware victims in Q1 2025",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "German Targeting: Specific focus on German organizations, responsible for 24% of German ransomware victims in Q1 2025",
+      "source_file": "_threat_actors/safepay.md"
+    },
+    {
+      "actor_name": "SafePay",
+      "actor_slug": "safepay",
+      "actor_url": "/safepay",
+      "actor_permalink": "/safepay/",
+      "type": "geographic_focus",
+      "inferred_type": null,
+      "atomic": false,
+      "heading": "Geographic Focus",
+      "label": "Regional Specialization",
+      "value": "**Regional Specialization**: Concentrated attacks on German healthcare, logistics, and manufacturing sectors",
+      "normalized_value": "Regional Specialization: Concentrated attacks on German healthcare, logistics, and manufacturing sectors",
+      "canonical_value": "Regional Specialization: Concentrated attacks on German healthcare, logistics, and manufacturing sectors",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+
+      ],
+      "source_text": "Regional Specialization: Concentrated attacks on German healthcare, logistics, and manufacturing sectors",
+      "source_file": "_threat_actors/safepay.md"
+    }
+  ]
+}

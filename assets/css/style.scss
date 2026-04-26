@@ -1,0 +1,287 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+header h1, header nav {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  background: #333;
+  color: #fff;
+}
+
+/* Threat Actor Page Styles */
+.threat-actor-header {
+  background: #f5f5f5;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.actor-metadata {
+  margin: 1rem 0;
+}
+
+.metadata-row {
+  display: flex;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+.metadata-label {
+  font-weight: bold;
+  min-width: 120px;
+  color: #333;
+}
+
+.metadata-value {
+  color: #666;
+}
+
+.risk-high {
+  color: #ff6b6b;
+  font-weight: bold;
+}
+
+.risk-critical {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.risk-medium {
+  color: #f39c12;
+  font-weight: bold;
+}
+
+.risk-low {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.actor-description {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+}
+
+.actor-description p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Threat Actors Grid */
+.threat-actors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.threat-actor-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.threat-actor-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.threat-actor-card h3 {
+  margin: 0 0 1rem 0;
+  color: #333;
+}
+
+.threat-actor-card h3 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.threat-actor-card h3 a:hover {
+  color: #007acc;
+}
+
+.actor-card-metadata {
+  margin-bottom: 1rem;
+}
+
+.metadata-item {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.metadata-item strong {
+  color: #333;
+}
+
+.threat-actor-card .actor-description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #666;
+  margin: 0;
+}
+
+/* Enhanced Search Styles */
+.search-container {
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.search-input-container {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.search-input-container input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.search-input-container input:focus {
+  outline: none;
+  border-color: #007acc;
+}
+
+#clear-search {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+#clear-search:hover {
+  background: #ff5252;
+}
+
+.search-filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-group label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.filter-group select {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  font-size: 1rem;
+}
+
+.filter-group select:focus {
+  outline: none;
+  border-color: #007acc;
+}
+
+.search-results {
+  margin-top: 2rem;
+}
+
+.search-result-item {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.search-result-item h3 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.search-result-item h3 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.search-result-item h3 a:hover {
+  color: #007acc;
+}
+
+.result-metadata {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.result-metadata span {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  background: #f0f0f0;
+  color: #666;
+}
+
+.result-metadata .risk {
+  font-weight: bold;
+}
+
+.result-description {
+  margin: 0;
+  color: #666;
+  line-height: 1.5;
+}
+
+#no-results {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+  font-style: italic;
+}
