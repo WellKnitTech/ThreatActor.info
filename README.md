@@ -99,13 +99,19 @@ threatactor-info/
    ruby scripts/generate-indexes.rb
    ```
 
-4. **Run locally**
+4. **Optional: prepare imported actor snapshots**
+   ```bash
+   ruby scripts/import-ransomlook.rb fetch --output data/imports/ransomlook/$(date +%F) --limit 10
+   ruby scripts/import-ransomlook.rb plan --snapshot data/imports/ransomlook/$(date +%F)
+   ```
+
+5. **Run locally**
    ```bash
    bundle exec jekyll serve
    ```
 
-5. **Access the site**
-   Open [http://localhost:4000](http://localhost:4000) in your browser
+6. **Access the site**
+    Open [http://localhost:4000](http://localhost:4000) in your browser
 
 ### Development
 
@@ -238,6 +244,7 @@ The site includes advanced search capabilities:
 - `_data/generated/ioc_lookup.json` stores IOC records keyed by normalized value for client-side lookup
 - `_data/generated/ioc_types.json` stores a manifest of IOC-type shard endpoints
 - `_data/generated/iocs_by_type/*.json` stores IOC shards grouped by IOC type
+- `docs/importers.md` documents manual source-import workflows and attribution requirements
 
 ## API Endpoints
 
@@ -254,6 +261,15 @@ The site includes advanced search capabilities:
 
 IOC records preserve the original heading bucket in `type` and also expose `inferred_type`, `atomic`, `canonical_value`, and `lookup_keys` for more precise querying.
 Actor records now also include additive generated structures for `campaigns`, `malware_and_tools`, `attack_mappings`, and `references`.
+Actor records may also include optional source provenance fields such as `source_name`, `source_attribution`, `source_record_url`, and `provenance`.
+
+## Source Imports
+
+- `scripts/import-ransomlook.rb` supports fetching, reviewing, and importing RansomLook-derived actor metadata snapshots
+- `data/imports/ransomlook/mapping_overrides.yml` stores reviewed rename and alias overrides for bulk import safety
+- Importers update canonical inputs only: `_data/threat_actors.yml` and `_threat_actors/*.md`
+- Imported content should stay conservative and avoid automatically seeding volatile IOCs into the static API
+- See `docs/importers.md` for commands and attribution requirements
 
 ## IOC Query Patterns
 

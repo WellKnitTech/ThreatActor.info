@@ -1,0 +1,422 @@
+[
+  {
+    "action": "update",
+    "reason": null,
+    "record": {
+      "raw_name": "dragonforce",
+      "display_name": "Dragonforce",
+      "canonical_key": "dragonforce",
+      "aliases": [
+
+      ],
+      "description": "DragonForce is a ransomware-as-a-service (RaaS) group first identified in late 2023. Originally linked to hacktivist activity, the group pivoted to financially motivated operations by early 2024. Since then, it has accelerated into a highly organized cartel-like network, providing customizable payloads to affiliates, a sophisticated affiliate portal, and shared infrastructure for leak sites and campaigns. The group has targeted a wide range of sectors globally, including major UK retailers such as M&S, Harrods, and Co-op, along with organizations in government, logistics, and manufacturing. Its operations are known for strategic branding flexibility, enabling affiliates to operate under their own labels using DragonForce’s backend services.",
+      "url": "/dragonforce",
+      "last_activity": null,
+      "raas": true,
+      "source_record_id": "dragonforce",
+      "source_record_url": "https://www.ransomlook.io/group/dragonforce",
+      "source_dataset_url": "https://www.ransomlook.io/api/groups",
+      "source_retrieved_at": "2026-04-26T02:08:49Z",
+      "source_transforms": [
+        "normalized-name",
+        "deduplicated-aliases",
+        "omitted-volatile-iocs",
+        "adapted-for-threatactor-info"
+      ]
+    },
+    "match_position": 22,
+    "existing_name": "Dragonforce",
+    "updates": {
+      "source_record_url": "https://www.ransomlook.io/group/dragonforce",
+      "provenance": {
+        "source_dataset_url": "https://www.ransomlook.io/api/groups",
+        "source_record_id": "dragonforce",
+        "source_retrieved_at": "2026-04-26T02:08:49Z",
+        "source_transforms": [
+          "normalized-name",
+          "deduplicated-aliases",
+          "omitted-volatile-iocs",
+          "adapted-for-threatactor-info"
+        ]
+      }
+    }
+  },
+  {
+    "action": "update",
+    "reason": null,
+    "record": {
+      "raw_name": "everest",
+      "display_name": "Everest",
+      "canonical_key": "everest",
+      "aliases": [
+
+      ],
+      "description": "Everest is a ransomware group active since at least December 2020, known for its double-extortion tactics. The group initially operated as a typical ransomware outfit, encrypting files with strong cryptography and appending victim-specific extensions, but later shifted toward pure data extortion—threatening to sell or release stolen data without necessarily deploying encryption. Everest targets a wide range of sectors, including government, healthcare, manufacturing, and IT services, with confirmed victims in North America, Europe, and Asia. Initial access vectors include exploitation of vulnerable public-facing applications, phishing campaigns, and credential theft for remote access services. The group maintains a Tor-based leak site to publish stolen information and advertise access to compromised networks.",
+      "url": "/everest",
+      "last_activity": null,
+      "raas": false,
+      "source_record_id": "everest",
+      "source_record_url": "https://www.ransomlook.io/group/everest",
+      "source_dataset_url": "https://www.ransomlook.io/api/groups",
+      "source_retrieved_at": "2026-04-26T02:08:51Z",
+      "source_transforms": [
+        "normalized-name",
+        "deduplicated-aliases",
+        "omitted-volatile-iocs",
+        "adapted-for-threatactor-info"
+      ]
+    },
+    "match_position": 23,
+    "existing_name": "Everest",
+    "updates": {
+      "source_record_url": "https://www.ransomlook.io/group/everest",
+      "provenance": {
+        "source_dataset_url": "https://www.ransomlook.io/api/groups",
+        "source_record_id": "everest",
+        "source_retrieved_at": "2026-04-26T02:08:51Z",
+        "source_transforms": [
+          "normalized-name",
+          "deduplicated-aliases",
+          "omitted-volatile-iocs",
+          "adapted-for-threatactor-info"
+        ]
+      }
+    }
+  },
+  {
+    "action": "update",
+    "reason": null,
+    "record": {
+      "raw_name": "worldleaks",
+      "display_name": "World Leaks",
+      "canonical_key": "worldleaks",
+      "aliases": [
+
+      ],
+      "description": "History and Origins Origins: Formerly known as \"Hunters International,\" active since late 2023, and believed to be a reincarnation of the Hive group. Rebranding: In January 2025, Hunters International ceased file-encrypting attacks and reemerged under the WorldLeaks banner, focusing solely on data theft and extortion. Tactics, Techniques, and Objectives Model: Operates as an \"extortion-as-a-service\" (EaaS) platform. Affiliates are provided with tools to automatically extract data. Exfiltration & Publication: Theft of sensitive data followed by a threat of publication on a Tor site if the victim refuses to pay No encryption: The group abandons file encryption to focus on theft, reducing complexity and risk",
+      "url": "/world-leaks",
+      "last_activity": null,
+      "raas": false,
+      "source_record_id": "worldleaks",
+      "source_record_url": "https://www.ransomlook.io/group/worldleaks",
+      "source_dataset_url": "https://www.ransomlook.io/api/groups",
+      "source_retrieved_at": "2026-04-26T02:08:52Z",
+      "source_transforms": [
+        "normalized-name",
+        "deduplicated-aliases",
+        "omitted-volatile-iocs",
+        "adapted-for-threatactor-info"
+      ]
+    },
+    "match_position": 24,
+    "existing_name": "World Leaks",
+    "updates": {
+      "source_record_url": "https://www.ransomlook.io/group/worldleaks",
+      "provenance": {
+        "source_dataset_url": "https://www.ransomlook.io/api/groups",
+        "source_record_id": "worldleaks",
+        "source_retrieved_at": "2026-04-26T02:08:52Z",
+        "source_transforms": [
+          "normalized-name",
+          "deduplicated-aliases",
+          "omitted-volatile-iocs",
+          "adapted-for-threatactor-info"
+        ]
+      }
+    }
+  },
+  {
+    "action": "update",
+    "reason": null,
+    "record": {
+      "raw_name": "interlock",
+      "display_name": "Interlock",
+      "canonical_key": "interlock",
+      "aliases": [
+
+      ],
+      "description": "",
+      "url": "/interlock",
+      "last_activity": null,
+      "raas": false,
+      "source_record_id": "interlock",
+      "source_record_url": "https://www.ransomlook.io/group/interlock",
+      "source_dataset_url": "https://www.ransomlook.io/api/groups",
+      "source_retrieved_at": "2026-04-26T02:08:56Z",
+      "source_transforms": [
+        "normalized-name",
+        "deduplicated-aliases",
+        "omitted-volatile-iocs",
+        "adapted-for-threatactor-info"
+      ]
+    },
+    "match_position": 25,
+    "existing_name": "Interlock",
+    "updates": {
+      "source_record_url": "https://www.ransomlook.io/group/interlock",
+      "provenance": {
+        "source_dataset_url": "https://www.ransomlook.io/api/groups",
+        "source_record_id": "interlock",
+        "source_retrieved_at": "2026-04-26T02:08:56Z",
+        "source_transforms": [
+          "normalized-name",
+          "deduplicated-aliases",
+          "omitted-volatile-iocs",
+          "adapted-for-threatactor-info"
+        ]
+      }
+    }
+  },
+  {
+    "action": "update",
+    "reason": null,
+    "record": {
+      "raw_name": "lynx",
+      "display_name": "Lynx",
+      "canonical_key": "lynx",
+      "aliases": [
+
+      ],
+      "description": "",
+      "url": "/lynx",
+      "last_activity": null,
+      "raas": true,
+      "source_record_id": "lynx",
+      "source_record_url": "https://www.ransomlook.io/group/lynx",
+      "source_dataset_url": "https://www.ransomlook.io/api/groups",
+      "source_retrieved_at": "2026-04-26T02:08:58Z",
+      "source_transforms": [
+        "normalized-name",
+        "deduplicated-aliases",
+        "omitted-volatile-iocs",
+        "adapted-for-threatactor-info"
+      ]
+    },
+    "match_position": 26,
+    "existing_name": "Lynx",
+    "updates": {
+      "source_record_url": "https://www.ransomlook.io/group/lynx",
+      "provenance": {
+        "source_dataset_url": "https://www.ransomlook.io/api/groups",
+        "source_record_id": "lynx",
+        "source_retrieved_at": "2026-04-26T02:08:58Z",
+        "source_transforms": [
+          "normalized-name",
+          "deduplicated-aliases",
+          "omitted-volatile-iocs",
+          "adapted-for-threatactor-info"
+        ]
+      }
+    }
+  },
+  {
+    "action": "update",
+    "reason": null,
+    "record": {
+      "raw_name": "anubis",
+      "display_name": "Anubis",
+      "canonical_key": "anubis",
+      "aliases": [
+
+      ],
+      "description": "Anubis is a financially motivated cybercrime group primarily known for its banking trojan operations but also linked to ransomware activity targeting corporate networks. First identified in 2016 and evolving over time, Anubis ransomware attacks have targeted Windows systems, often deployed after initial compromises by the Anubis banking malware or other access vectors such as phishing, malicious email attachments, or exploitation of unpatched vulnerabilities. The group’s ransomware encrypts files using strong symmetric encryption algorithms, appending distinctive extensions and delivering ransom notes with payment instructions via Tor. Anubis has targeted multiple sectors worldwide, including finance, retail, and government, often combining ransomware with credential theft and data exfiltration to maximize pressure on victims. Its infrastructure and tactics overlap with other financially motivated actors, suggesting possible affiliate or shared tool usage within broader cybercriminal ecosystems.",
+      "url": "/anubis",
+      "last_activity": null,
+      "raas": true,
+      "source_record_id": "anubis",
+      "source_record_url": "https://www.ransomlook.io/group/anubis",
+      "source_dataset_url": "https://www.ransomlook.io/api/groups",
+      "source_retrieved_at": "2026-04-26T02:08:59Z",
+      "source_transforms": [
+        "normalized-name",
+        "deduplicated-aliases",
+        "omitted-volatile-iocs",
+        "adapted-for-threatactor-info"
+      ]
+    },
+    "match_position": 27,
+    "existing_name": "Anubis",
+    "updates": {
+      "source_record_url": "https://www.ransomlook.io/group/anubis",
+      "provenance": {
+        "source_dataset_url": "https://www.ransomlook.io/api/groups",
+        "source_record_id": "anubis",
+        "source_retrieved_at": "2026-04-26T02:08:59Z",
+        "source_transforms": [
+          "normalized-name",
+          "deduplicated-aliases",
+          "omitted-volatile-iocs",
+          "adapted-for-threatactor-info"
+        ]
+      }
+    }
+  },
+  {
+    "action": "update",
+    "reason": null,
+    "record": {
+      "raw_name": "nightspire",
+      "display_name": "Nightspire",
+      "canonical_key": "nightspire",
+      "aliases": [
+
+      ],
+      "description": "",
+      "url": "/nightspire",
+      "last_activity": null,
+      "raas": false,
+      "source_record_id": "nightspire",
+      "source_record_url": "https://www.ransomlook.io/group/nightspire",
+      "source_dataset_url": "https://www.ransomlook.io/api/groups",
+      "source_retrieved_at": "2026-04-26T02:09:00Z",
+      "source_transforms": [
+        "normalized-name",
+        "deduplicated-aliases",
+        "omitted-volatile-iocs",
+        "adapted-for-threatactor-info"
+      ]
+    },
+    "match_position": 28,
+    "existing_name": "Nightspire",
+    "updates": {
+      "source_record_url": "https://www.ransomlook.io/group/nightspire",
+      "provenance": {
+        "source_dataset_url": "https://www.ransomlook.io/api/groups",
+        "source_record_id": "nightspire",
+        "source_retrieved_at": "2026-04-26T02:09:00Z",
+        "source_transforms": [
+          "normalized-name",
+          "deduplicated-aliases",
+          "omitted-volatile-iocs",
+          "adapted-for-threatactor-info"
+        ]
+      }
+    }
+  },
+  {
+    "action": "update",
+    "reason": null,
+    "record": {
+      "raw_name": "sinobi",
+      "display_name": "Sinobi",
+      "canonical_key": "sinobi",
+      "aliases": [
+
+      ],
+      "description": "",
+      "url": "/sinobi",
+      "last_activity": null,
+      "raas": false,
+      "source_record_id": "sinobi",
+      "source_record_url": "https://www.ransomlook.io/group/sinobi",
+      "source_dataset_url": "https://www.ransomlook.io/api/groups",
+      "source_retrieved_at": "2026-04-26T02:09:02Z",
+      "source_transforms": [
+        "normalized-name",
+        "deduplicated-aliases",
+        "omitted-volatile-iocs",
+        "adapted-for-threatactor-info"
+      ]
+    },
+    "match_position": 29,
+    "existing_name": "Sinobi",
+    "updates": {
+      "source_record_url": "https://www.ransomlook.io/group/sinobi",
+      "provenance": {
+        "source_dataset_url": "https://www.ransomlook.io/api/groups",
+        "source_record_id": "sinobi",
+        "source_retrieved_at": "2026-04-26T02:09:02Z",
+        "source_transforms": [
+          "normalized-name",
+          "deduplicated-aliases",
+          "omitted-volatile-iocs",
+          "adapted-for-threatactor-info"
+        ]
+      }
+    }
+  },
+  {
+    "action": "update",
+    "reason": null,
+    "record": {
+      "raw_name": "killsec",
+      "display_name": "Killsec",
+      "canonical_key": "killsec",
+      "aliases": [
+
+      ],
+      "description": "",
+      "url": "/killsec",
+      "last_activity": null,
+      "raas": null,
+      "source_record_id": "killsec",
+      "source_record_url": "https://www.ransomlook.io/group/killsec",
+      "source_dataset_url": "https://www.ransomlook.io/api/groups",
+      "source_retrieved_at": "2026-04-26T02:09:03Z",
+      "source_transforms": [
+        "normalized-name",
+        "deduplicated-aliases",
+        "omitted-volatile-iocs",
+        "adapted-for-threatactor-info"
+      ]
+    },
+    "match_position": 30,
+    "existing_name": "Killsec",
+    "updates": {
+      "source_record_url": "https://www.ransomlook.io/group/killsec",
+      "provenance": {
+        "source_dataset_url": "https://www.ransomlook.io/api/groups",
+        "source_record_id": "killsec",
+        "source_retrieved_at": "2026-04-26T02:09:03Z",
+        "source_transforms": [
+          "normalized-name",
+          "deduplicated-aliases",
+          "omitted-volatile-iocs",
+          "adapted-for-threatactor-info"
+        ]
+      }
+    }
+  },
+  {
+    "action": "update",
+    "reason": null,
+    "record": {
+      "raw_name": "beast",
+      "display_name": "Beast",
+      "canonical_key": "beast",
+      "aliases": [
+
+      ],
+      "description": "Beast ransomware emerged in 2022 as an enhanced iteration of the earlier “Monster” ransomware. It operates under a Ransomware-as-a-Service (RaaS) model, offering affiliates rich customization options to create tailored binaries targeting Windows, Linux, and VMware ESXi systems. Key technical capabilities include hybrid Elliptic-Curve + ChaCha20 encryption, segmented file encryption, ZIP wrapper mode (encrypting files into zip archives with embedded ransom notes), multithreaded processing, termination of services, shadow copy deletion, hidden partition usage, and subnet scanning. Affiliates are provided configurable offline builders, enabling streamlined deployment across multiple platforms. While Beast's functional power is well-documented, details on its specific victims, sectors targeted, and leak site activity remain limited in public sources.",
+      "url": "/beast",
+      "last_activity": null,
+      "raas": true,
+      "source_record_id": "beast",
+      "source_record_url": "https://www.ransomlook.io/group/beast",
+      "source_dataset_url": "https://www.ransomlook.io/api/groups",
+      "source_retrieved_at": "2026-04-26T02:09:04Z",
+      "source_transforms": [
+        "normalized-name",
+        "deduplicated-aliases",
+        "omitted-volatile-iocs",
+        "adapted-for-threatactor-info"
+      ]
+    },
+    "match_position": 31,
+    "existing_name": "Beast",
+    "updates": {
+      "source_record_url": "https://www.ransomlook.io/group/beast",
+      "provenance": {
+        "source_dataset_url": "https://www.ransomlook.io/api/groups",
+        "source_record_id": "beast",
+        "source_retrieved_at": "2026-04-26T02:09:04Z",
+        "source_transforms": [
+          "normalized-name",
+          "deduplicated-aliases",
+          "omitted-volatile-iocs",
+          "adapted-for-threatactor-info"
+        ]
+      }
+    }
+  }
+]

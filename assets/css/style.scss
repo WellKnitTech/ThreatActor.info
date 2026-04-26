@@ -151,6 +151,22 @@ footer {
   margin: 0;
 }
 
+.source-attribution-panel {
+  margin-top: 2rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid #d7e6d1;
+  border-radius: 8px;
+  background: #f5fbf2;
+}
+
+.source-attribution-panel h2 {
+  margin-top: 0;
+}
+
+.source-attribution-panel p:last-child {
+  margin-bottom: 0;
+}
+
 /* Enhanced Search Styles */
 .search-container {
   background: #f9f9f9;

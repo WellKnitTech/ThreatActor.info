@@ -57,12 +57,14 @@ layout: default
   {{ content }}
 </div>
 
-<footer>
-  <h2>References</h2>
-  <ul>
-    <li><a href="https://www.fireeye.com/current-threats/apt-groups/rpt-apt28.html">FireEye Report on APT28</a></li>
-    <li><a href="https://www.crowdstrike.com/blog/who-is-fancy-bear/">CrowdStrike Analysis</a></li>
-    <li><a href="https://www.dhs.gov/news/2021/10/07/joint-statement-apt28">U.S. Government Attribution</a></li>
-  </ul>
-</footer>
-
+{% if page.source_attribution or page.source_record_url %}
+<aside class="source-attribution-panel">
+  <h2>Source Attribution</h2>
+  {% if page.source_attribution %}
+  <p>{{ page.source_attribution }}</p>
+  {% endif %}
+  {% if page.source_record_url %}
+  <p><a href="{{ page.source_record_url }}">View upstream source record</a></p>
+  {% endif %}
+</aside>
+{% endif %}

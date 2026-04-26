@@ -18,8 +18,10 @@ This reflects the current repository, CI workflow, and validation scripts.
 - `_includes/search.html`: search/filter UI and client-side parser.
 - `assets/css/style.scss`: main stylesheet.
 - `scripts/validate-content.rb`: main validator.
+- `scripts/import-ransomlook.rb`: manual importer for RansomLook-derived actor metadata.
 - `scripts/validate.sh`: full validation wrapper.
 - `.github/workflows/validate.yml`: CI commands.
+- `docs/importers.md`: importer workflow and attribution rules.
 
 ## Existing Agent Rules
 - No pre-existing `AGENTS.md` was found.
@@ -176,3 +178,4 @@ Page alignment rules:
 - Run `bundle exec jekyll build --safe` after layout, include, CSS, or config changes.
 - Do not edit generated output in `_site/`.
 - Do not edit vendored dependencies in `vendor/` unless the task explicitly targets them.
+- If you use RansomLook-derived data, preserve CC BY 4.0 attribution and avoid automatically importing volatile IOCs or leak-site infrastructure.

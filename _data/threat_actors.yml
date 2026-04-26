@@ -1,198 +1,338 @@
 - name: "APT28"
-  aliases: ["Fancy Bear", "Sofacy Group"]
+  aliases: ["Fancy Bear","Sofacy Group"]
   description: "APT28 is a threat actor group known for its sophisticated cyber espionage activities."
   url: "/apt28"
   country: "Russia"
-  sector_focus: ["Government", "Military", "Media"]
   first_seen: "2007"
   last_activity: "2024"
   risk_level: "High"
+  sector_focus: ["Government","Military","Media"]
 - name: "APT29"
-  aliases: ["Cozy Bear", "The Dukes"]
+  aliases: ["Cozy Bear","The Dukes"]
   description: "APT29 is a Russian cyber espionage group believed to be associated with the Russian intelligence services."
   url: "/apt29"
   country: "Russia"
-  sector_focus: ["Government", "Healthcare", "Energy"]
   first_seen: "2008"
   last_activity: "2024"
   risk_level: "High"
+  sector_focus: ["Government","Healthcare","Energy"]
 - name: "APT1"
-  aliases: ["Comment Crew", "Comment Panda"]
+  aliases: ["Comment Crew","Comment Panda"]
   description: "APT1 is a Chinese cyber espionage group that has been conducting cyber espionage against a broad range of victims."
   url: "/apt1"
   country: "China"
-  sector_focus: ["Government", "Defense", "Technology"]
   first_seen: "2006"
   last_activity: "2023"
   risk_level: "High"
+  sector_focus: ["Government","Defense","Technology"]
 - name: "Lazarus Group"
-  aliases: ["Hidden Cobra", "Guardians of Peace"]
+  aliases: ["Hidden Cobra","Guardians of Peace"]
   description: "Lazarus Group is a North Korean state-sponsored cybercrime group known for destructive attacks and financial theft."
   url: "/lazarus"
   country: "North Korea"
-  sector_focus: ["Financial", "Cryptocurrency", "Entertainment"]
   first_seen: "2009"
   last_activity: "2024"
   risk_level: "Critical"
+  sector_focus: ["Financial","Cryptocurrency","Entertainment"]
 - name: "APT32"
-  aliases: ["OceanLotus", "APT-C-00"]
+  aliases: ["OceanLotus","APT-C-00"]
   description: "APT32 is a Vietnamese cyber espionage group targeting foreign corporations, journalists, and government entities."
   url: "/apt32"
   country: "Vietnam"
-  sector_focus: ["Government", "Media", "Technology"]
   first_seen: "2012"
   last_activity: "2024"
   risk_level: "High"
+  sector_focus: ["Government","Media","Technology"]
 - name: "Conti"
-  aliases: ["Ryuk", "Wizard Spider"]
+  aliases: ["Ryuk","Wizard Spider"]
   description: "Conti is a Russian ransomware-as-a-service operation known for targeting healthcare and critical infrastructure."
   url: "/conti"
   country: "Russia"
-  sector_focus: ["Healthcare", "Critical Infrastructure", "Government"]
   first_seen: "2020"
   last_activity: "2022"
   risk_level: "Critical"
+  sector_focus: ["Healthcare","Critical Infrastructure","Government"]
 - name: "REvil"
-  aliases: ["Sodinokibi", "Sodin"]
+  aliases: ["Sodinokibi","Sodin"]
   description: "REvil is a Russian ransomware-as-a-service operation that has targeted major corporations worldwide."
   url: "/revil"
   country: "Russia"
-  sector_focus: ["Technology", "Healthcare", "Legal"]
   first_seen: "2019"
   last_activity: "2021"
   risk_level: "Critical"
+  sector_focus: ["Technology","Healthcare","Legal"]
 - name: "LockBit"
   aliases: ["ABCD Ransomware"]
   description: "LockBit is a ransomware-as-a-service operation known for its fast encryption and double extortion tactics."
   url: "/lockbit"
   country: "Russia"
-  sector_focus: ["Critical Infrastructure", "Healthcare", "Education"]
   first_seen: "2019"
   last_activity: "2024"
   risk_level: "Critical"
+  sector_focus: ["Critical Infrastructure","Healthcare","Education"]
 - name: "APT40"
-  aliases: ["Kryptonite Panda", "Leviathan"]
+  aliases: ["Kryptonite Panda","Leviathan"]
   description: "APT40 is a Chinese cyber espionage group targeting maritime industries and government entities."
   url: "/apt40"
   country: "China"
-  sector_focus: ["Maritime", "Government", "Defense"]
   first_seen: "2013"
   last_activity: "2024"
   risk_level: "High"
+  sector_focus: ["Maritime","Government","Defense"]
 - name: "FIN7"
-  aliases: ["Carbanak", "Navigator Group"]
+  aliases: ["Carbanak","Navigator Group"]
   description: "FIN7 is a financially motivated cybercrime group known for targeting point-of-sale systems and retail."
   url: "/fin7"
   country: "Unknown"
-  sector_focus: ["Retail", "Hospitality", "Financial"]
   first_seen: "2015"
   last_activity: "2024"
   risk_level: "High"
+  sector_focus: ["Retail","Hospitality","Financial"]
 - name: "APT34"
-  aliases: ["OilRig", "Helix Kitten"]
+  aliases: ["OilRig","Helix Kitten"]
   description: "APT34 is an Iranian cyber espionage group targeting Middle Eastern governments and energy companies."
   url: "/apt34"
   country: "Iran"
-  sector_focus: ["Energy", "Government", "Telecommunications"]
   first_seen: "2014"
   last_activity: "2024"
   risk_level: "High"
+  sector_focus: ["Energy","Government","Telecommunications"]
 - name: "Maze"
   aliases: ["ChaCha"]
   description: "Maze is a ransomware operation known for being the first to implement double extortion tactics."
   url: "/maze"
   country: "Unknown"
-  sector_focus: ["Healthcare", "Legal", "Technology"]
   first_seen: "2019"
   last_activity: "2020"
   risk_level: "High"
+  sector_focus: ["Healthcare","Legal","Technology"]
 - name: "APT35"
-  aliases: ["Charming Kitten", "Phosphorus"]
+  aliases: ["Charming Kitten","Phosphorus"]
   description: "APT35 is an Iranian cyber espionage group targeting journalists, academics, and government officials."
   url: "/apt35"
   country: "Iran"
-  sector_focus: ["Media", "Academia", "Government"]
   first_seen: "2014"
   last_activity: "2024"
   risk_level: "High"
+  sector_focus: ["Media","Academia","Government"]
 - name: "Ryuk"
   aliases: ["Wizard Spider"]
   description: "Ryuk is a ransomware operation known for targeting large organizations and demanding high ransom payments."
   url: "/ryuk"
   country: "Russia"
-  sector_focus: ["Healthcare", "Government", "Education"]
   first_seen: "2018"
   last_activity: "2021"
   risk_level: "Critical"
+  sector_focus: ["Healthcare","Government","Education"]
 - name: "APT41"
-  aliases: ["Barium", "Winnti Group"]
+  aliases: ["Barium","Winnti Group"]
   description: "APT41 is a Chinese cybercrime group that conducts both espionage and financially motivated attacks."
   url: "/apt41"
   country: "China"
-  sector_focus: ["Gaming", "Technology", "Healthcare"]
   first_seen: "2012"
   last_activity: "2024"
   risk_level: "High"
+  sector_focus: ["Gaming","Technology","Healthcare"]
 - name: "Cl0p"
-  aliases: ["Clop", "TA505"]
+  aliases: ["Clop","TA505"]
   description: "Cl0p is a highly active ransomware group known for exploiting zero-day vulnerabilities in third-party platforms and conducting large-scale supply chain attacks."
   url: "/cl0p"
   country: "Russia"
-  sector_focus: ["Technology", "Healthcare", "Financial", "Government"]
   first_seen: "2019"
   last_activity: "2025"
   risk_level: "Critical"
+  sector_focus: ["Technology","Healthcare","Financial","Government"]
 - name: "RansomHub"
   aliases: ["RansomHub RaaS"]
   description: "RansomHub is a dominant ransomware-as-a-service operation that emerged in 2024 and quickly became the most prolific group with 736 disclosed victims."
   url: "/ransomhub"
   country: "Unknown"
-  sector_focus: ["Critical Infrastructure", "Healthcare", "Education", "Manufacturing"]
   first_seen: "2024"
   last_activity: "2025"
   risk_level: "Critical"
+  sector_focus: ["Critical Infrastructure","Healthcare","Education","Manufacturing"]
 - name: "Akira"
   aliases: ["Akira Ransomware"]
   description: "Akira is a ransomware group launched in 2023 that experienced a sharp rise in 2024, disclosing 349 victims and targeting various industries."
   url: "/akira"
   country: "Unknown"
-  sector_focus: ["Healthcare", "Education", "Government", "Technology"]
   first_seen: "2023"
   last_activity: "2025"
   risk_level: "High"
+  sector_focus: ["Healthcare","Education","Government","Technology"]
 - name: "Qilin"
   aliases: ["Qilin Ransomware"]
   description: "Qilin is a ransomware group that first appeared in 2022 but had a breakout year in 2024, with around 200 victims, 156 of them based in the U.S."
   url: "/qilin"
   country: "Unknown"
-  sector_focus: ["Critical Infrastructure", "Manufacturing", "Healthcare", "Government"]
   first_seen: "2022"
   last_activity: "2025"
   risk_level: "High"
+  sector_focus: ["Critical Infrastructure","Manufacturing","Healthcare","Government"]
 - name: "Play"
   aliases: ["Play Ransomware"]
   description: "Play is a ransomware group that emerged quietly in 2022, found its footing in 2023, and made a notable leap in 2024 with 369 disclosed victims."
   url: "/play"
   country: "Unknown"
-  sector_focus: ["Healthcare", "Education", "Government", "Technology"]
   first_seen: "2022"
   last_activity: "2025"
   risk_level: "High"
+  sector_focus: ["Healthcare","Education","Government","Technology"]
 - name: "SafePay"
   aliases: ["SafePay Ransomware"]
   description: "SafePay is a ransomware group particularly active in Germany, responsible for 24% of the 74 ransomware victims reported in the country during Q1 2025."
   url: "/safepay"
   country: "Unknown"
-  sector_focus: ["Healthcare", "Logistics", "Manufacturing", "Government"]
   first_seen: "2024"
   last_activity: "2025"
   risk_level: "High"
+  sector_focus: ["Healthcare","Logistics","Manufacturing","Government"]
 - name: "Medusa"
   aliases: ["Medusa Ransomware"]
   description: "Medusa is a long-time presence in the ransomware scene that stepped up its activities in late 2024, pushing past its previous limits."
   url: "/medusa"
   country: "Unknown"
-  sector_focus: ["Healthcare", "Education", "Government", "Technology"]
   first_seen: "2021"
   last_activity: "2025"
   risk_level: "High"
+  sector_focus: ["Healthcare","Education","Government","Technology"]
+- name: "Dragonforce"
+  aliases: []
+  description: "DragonForce is a ransomware-as-a-service (RaaS) group first identified in late 2023. Originally linked to hacktivist activity, the group pivoted to financially motivated operations by early 2024. Since then, it has accelerated into a highly organized cartel-like network, providing customizable payloads to affiliates, a sophisticated affiliate portal, and shared infrastructure for leak sites and campaigns. The group has targeted a wide range of sectors globally, including major UK retailers such as M&S, Harrods, and Co-op, along with organizations in government, logistics, and manufacturing. Its operations are known for strategic branding flexibility, enabling affiliates to operate under their own labels using DragonForce’s backend services."
+  url: "/dragonforce"
+  source_name: "RansomLook"
+  source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+  source_record_url: "https://www.ransomlook.io/group/dragonforce"
+  source_license: "CC BY 4.0"
+  source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+  provenance:
+    source_dataset_url: "https://www.ransomlook.io/api/groups"
+    source_record_id: "dragonforce"
+    source_retrieved_at: "2026-04-26T02:08:49Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]
+- name: "Everest"
+  aliases: []
+  description: "Everest is a ransomware group active since at least December 2020, known for its double-extortion tactics. The group initially operated as a typical ransomware outfit, encrypting files with strong cryptography and appending victim-specific extensions, but later shifted toward pure data extortion—threatening to sell or release stolen data without necessarily deploying encryption. Everest targets a wide range of sectors, including government, healthcare, manufacturing, and IT services, with confirmed victims in North America, Europe, and Asia. Initial access vectors include exploitation of vulnerable public-facing applications, phishing campaigns, and credential theft for remote access services. The group maintains a Tor-based leak site to publish stolen information and advertise access to compromised networks."
+  url: "/everest"
+  source_name: "RansomLook"
+  source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+  source_record_url: "https://www.ransomlook.io/group/everest"
+  source_license: "CC BY 4.0"
+  source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+  provenance:
+    source_dataset_url: "https://www.ransomlook.io/api/groups"
+    source_record_id: "everest"
+    source_retrieved_at: "2026-04-26T02:08:51Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]
+- name: "World Leaks"
+  aliases: []
+  description: "History and Origins Origins: Formerly known as \"Hunters International,\" active since late 2023, and believed to be a reincarnation of the Hive group. Rebranding: In January 2025, Hunters International ceased file-encrypting attacks and reemerged under the WorldLeaks banner, focusing solely on data theft and extortion. Tactics, Techniques, and Objectives Model: Operates as an \"extortion-as-a-service\" (EaaS) platform. Affiliates are provided with tools to automatically extract data. Exfiltration & Publication: Theft of sensitive data followed by a threat of publication on a Tor site if the victim refuses to pay No encryption: The group abandons file encryption to focus on theft, reducing complexity and risk"
+  url: "/world-leaks"
+  source_name: "RansomLook"
+  source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+  source_record_url: "https://www.ransomlook.io/group/worldleaks"
+  source_license: "CC BY 4.0"
+  source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+  provenance:
+    source_dataset_url: "https://www.ransomlook.io/api/groups"
+    source_record_id: "worldleaks"
+    source_retrieved_at: "2026-04-26T02:08:52Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]
+- name: "Interlock"
+  aliases: []
+  description: "Interlock is an active extortion or ransomware group tracked by RansomLook."
+  url: "/interlock"
+  source_name: "RansomLook"
+  source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+  source_record_url: "https://www.ransomlook.io/group/interlock"
+  source_license: "CC BY 4.0"
+  source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+  provenance:
+    source_dataset_url: "https://www.ransomlook.io/api/groups"
+    source_record_id: "interlock"
+    source_retrieved_at: "2026-04-26T02:08:56Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]
+- name: "Lynx"
+  aliases: []
+  description: "Lynx is an active ransomware-as-a-service operation tracked by RansomLook."
+  url: "/lynx"
+  source_name: "RansomLook"
+  source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+  source_record_url: "https://www.ransomlook.io/group/lynx"
+  source_license: "CC BY 4.0"
+  source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+  provenance:
+    source_dataset_url: "https://www.ransomlook.io/api/groups"
+    source_record_id: "lynx"
+    source_retrieved_at: "2026-04-26T02:08:58Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]
+- name: "Anubis"
+  aliases: []
+  description: "Anubis is a financially motivated cybercrime group primarily known for its banking trojan operations but also linked to ransomware activity targeting corporate networks. First identified in 2016 and evolving over time, Anubis ransomware attacks have targeted Windows systems, often deployed after initial compromises by the Anubis banking malware or other access vectors such as phishing, malicious email attachments, or exploitation of unpatched vulnerabilities. The group’s ransomware encrypts files using strong symmetric encryption algorithms, appending distinctive extensions and delivering ransom notes with payment instructions via Tor. Anubis has targeted multiple sectors worldwide, including finance, retail, and government, often combining ransomware with credential theft and data exfiltration to maximize pressure on victims. Its infrastructure and tactics overlap with other financially motivated actors, suggesting possible affiliate or shared tool usage within broader cybercriminal ecosystems."
+  url: "/anubis"
+  source_name: "RansomLook"
+  source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+  source_record_url: "https://www.ransomlook.io/group/anubis"
+  source_license: "CC BY 4.0"
+  source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+  provenance:
+    source_dataset_url: "https://www.ransomlook.io/api/groups"
+    source_record_id: "anubis"
+    source_retrieved_at: "2026-04-26T02:08:59Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]
+- name: "Nightspire"
+  aliases: []
+  description: "Nightspire is an active extortion or ransomware group tracked by RansomLook."
+  url: "/nightspire"
+  source_name: "RansomLook"
+  source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+  source_record_url: "https://www.ransomlook.io/group/nightspire"
+  source_license: "CC BY 4.0"
+  source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+  provenance:
+    source_dataset_url: "https://www.ransomlook.io/api/groups"
+    source_record_id: "nightspire"
+    source_retrieved_at: "2026-04-26T02:09:00Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]
+- name: "Sinobi"
+  aliases: []
+  description: "Sinobi is an active extortion or ransomware group tracked by RansomLook."
+  url: "/sinobi"
+  source_name: "RansomLook"
+  source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+  source_record_url: "https://www.ransomlook.io/group/sinobi"
+  source_license: "CC BY 4.0"
+  source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+  provenance:
+    source_dataset_url: "https://www.ransomlook.io/api/groups"
+    source_record_id: "sinobi"
+    source_retrieved_at: "2026-04-26T02:09:02Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]
+- name: "Killsec"
+  aliases: []
+  description: "Killsec is an active extortion or ransomware group tracked by RansomLook."
+  url: "/killsec"
+  source_name: "RansomLook"
+  source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+  source_record_url: "https://www.ransomlook.io/group/killsec"
+  source_license: "CC BY 4.0"
+  source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+  provenance:
+    source_dataset_url: "https://www.ransomlook.io/api/groups"
+    source_record_id: "killsec"
+    source_retrieved_at: "2026-04-26T02:09:03Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]
+- name: "Beast"
+  aliases: []
+  description: "Beast ransomware emerged in 2022 as an enhanced iteration of the earlier “Monster” ransomware. It operates under a Ransomware-as-a-Service (RaaS) model, offering affiliates rich customization options to create tailored binaries targeting Windows, Linux, and VMware ESXi systems. Key technical capabilities include hybrid Elliptic-Curve + ChaCha20 encryption, segmented file encryption, ZIP wrapper mode (encrypting files into zip archives with embedded ransom notes), multithreaded processing, termination of services, shadow copy deletion, hidden partition usage, and subnet scanning. Affiliates are provided configurable offline builders, enabling streamlined deployment across multiple platforms. While Beast's functional power is well-documented, details on its specific victims, sectors targeted, and leak site activity remain limited in public sources."
+  url: "/beast"
+  source_name: "RansomLook"
+  source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+  source_record_url: "https://www.ransomlook.io/group/beast"
+  source_license: "CC BY 4.0"
+  source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+  provenance:
+    source_dataset_url: "https://www.ransomlook.io/api/groups"
+    source_record_id: "beast"
+    source_retrieved_at: "2026-04-26T02:09:04Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

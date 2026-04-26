@@ -41,7 +41,7 @@ Thank you for your interest in contributing to ThreatActor.info! This guide will
    ```bash
    ruby scripts/generate-indexes.rb
    ruby scripts/validate-content.rb
-   bundle exec jekyll serve
+    bundle exec jekyll serve
    # Visit http://localhost:4000
    ```
 
@@ -150,6 +150,15 @@ Links to reports and analysis...
 5. **Test locally** to ensure everything works
 6. **Submit a pull request**
 
+### Importing Source Snapshots
+
+- Use `ruby scripts/import-ransomlook.rb fetch` to create a local RansomLook snapshot
+- Use `ruby scripts/import-ransomlook.rb plan --snapshot ...` before writing anything
+- Use `ruby scripts/import-ransomlook.rb import --snapshot ...` only after reviewing the proposed changes
+- Keep reviewed rename and alias exceptions in `data/imports/ransomlook/mapping_overrides.yml`
+- Keep imported content conservative; do not auto-import volatile IOCs or leak-site infrastructure
+- Preserve CC BY 4.0 attribution when using RansomLook-derived data
+
 ## 🔧 Technical Contributions
 
 ### Code Contributions
@@ -219,6 +228,7 @@ When requesting features, please include:
 - The search UI and static API endpoints under `api/` read those generated artifacts, so regenerate them after content edits
 - `ruby scripts/validate-content.rb` now checks collection config, exact section headings, orphan pages, generated JSON parseability, and IOC shard structure
 - `docs/api.md` documents the static API response shapes and IOC query patterns for downstream consumers
+- `docs/importers.md` documents the manual importer workflow and attribution requirements for source-derived content
 
 ### Pull Request Template
 

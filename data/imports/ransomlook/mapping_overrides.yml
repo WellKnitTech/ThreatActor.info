@@ -1,0 +1,40 @@
+excluded_group_keys:
+  - "handala"
+  - "alp-001"
+
+excluded_description_patterns:
+  - "not a ransomware group"
+  - "appears unreliable"
+  - "remove entries"
+
+match_overrides:
+  "alphv": "blackcat"
+  "blackcat": "blackcat"
+  "clop": "cl0p"
+  "coinbase cartel": "coinbasecartel"
+  "coinbasecartel": "coinbasecartel"
+  "hunters international": "hunters"
+  "inc ransom": "incransom"
+  "incransom": "incransom"
+  "lockbit3": "lockbit"
+  "lockbit4": "lockbit"
+  "lockbit5": "lockbit"
+  "playcrypt": "play"
+  "ralord": "nova"
+  "silent ransom": "silentransomgroup"
+  "silentransomgroup": "silentransomgroup"
+  "space bears": "spacebears"
+  "spacebears": "spacebears"
+  "the gentlemen": "thegentlemen"
+  "thegentlemen": "thegentlemen"
+  "world leaks": "worldleaks"
+  "worldleaks": "worldleaks"
+
+display_name_overrides:
+  "ailock": "AiLock"
+  "coinbasecartel": "CoinbaseCartel"
+  "incransom": "Inc Ransom"
+  "silentransomgroup": "SilentRansomGroup"
+  "spacebears": "Space Bears"
+  "thegentlemen": "The Gentlemen"
+  "worldleaks": "World Leaks"

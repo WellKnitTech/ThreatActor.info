@@ -44,6 +44,15 @@ Fields include:
 - `attack_mappings`
 - `references`
 
+Optional source provenance fields may also be present when an actor entry was imported from a licensed upstream dataset:
+
+- `source_name`
+- `source_attribution`
+- `source_record_url`
+- `source_license`
+- `source_license_url`
+- `provenance`
+
 ### `/api/campaigns.json`
 
 Array of flattened campaign entries extracted from `## Notable Campaigns`.
