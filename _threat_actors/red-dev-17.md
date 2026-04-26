@@ -15,6 +15,7 @@ In 2021, PwC started tracking a series of intrusions under the moniker of Red De
 ## Activities and Tactics
 **Targeted Sectors**: High-Tech, Military, Energy
 **Country of Origin**: 🇨🇳 China
+**Suspected Victims**: India
 
 ### Notable Campaigns
 *Information pending cataloguing.*

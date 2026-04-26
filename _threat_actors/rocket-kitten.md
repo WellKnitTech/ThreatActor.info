@@ -17,6 +17,8 @@ Targets Saudi Arabia, Israel, US, Iran, high ranking defense officials, embassie
 **Targeted Sectors**: Activists, Defense, Journalist, Research - Innovation, Academia - University, Government, Administration, Government, Military
 **Country of Origin**: 🇮🇷 Iran
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: Saudi Arabia, Venezuela, Afghanistan, United Arab Emirates, Iran, Israel, Iraq, Kuwait, Turkey, Canada...
 
 ### Notable Campaigns
 *Information pending cataloguing.*

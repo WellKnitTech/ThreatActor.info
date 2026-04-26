@@ -17,6 +17,8 @@ Activity: defense and aerospace sectors, also interested in targeting entities i
 **Targeted Sectors**: Aerospace, Defense, Gas, Oil, Military, Civil society
 **Country of Origin**: 🇮🇷 Iran
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: United States, Iranian internet activists
 
 ### Notable Campaigns
 *Information pending cataloguing.*

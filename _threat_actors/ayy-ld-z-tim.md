@@ -17,6 +17,7 @@ Ayyıldız (Crescent and Star) Tim is a nationalist hacking group founded in 200
 **Targeted Sectors**: Government, Administration
 **Country of Origin**: 🇹🇷 Turkey
 **Risk Level**: High
+**Incident Type**: Denial of service
 
 ### Notable Campaigns
 *Information pending cataloguing.*

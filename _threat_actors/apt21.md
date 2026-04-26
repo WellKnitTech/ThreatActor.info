@@ -17,6 +17,8 @@ sector_focus: ["Government", "Military"]
 **Targeted Sectors**: Government, Military
 **Country of Origin**: 🇨🇳 China
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: Mongolia, Kazakhstan, Tajikistan, Germany, United Kingdom, India, Kyrgyzstan, South Korea, United States, Chile...
 
 ### Notable Campaigns
 *Information pending cataloguing.*

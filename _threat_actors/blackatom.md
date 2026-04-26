@@ -23,6 +23,8 @@ the Israeli military, as well as Israel’s aerospace and defense industry
 **Targeted Sectors**: Military, Defense, Transportation
 **Country of Origin**: 🏳️ Palestine
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: Israel
 
 ### Notable Campaigns
 *Information pending cataloguing.*

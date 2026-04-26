@@ -12,6 +12,7 @@ According to 360 TIC the actor has carried out continuous cyber espionage activi
 
 ## Activities and Tactics
 **Targeted Sectors**: Private sector, Government, Military, Scientific Research, Finance
+**Incident Type**: Espionage
 
 ### Notable Campaigns
 *Information pending cataloguing.*

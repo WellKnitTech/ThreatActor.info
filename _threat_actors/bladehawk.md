@@ -12,6 +12,8 @@ sector_focus: ["Government"]
 
 ## Activities and Tactics
 **Targeted Sectors**: Government
+**Incident Type**: Espionage
+**Suspected Victims**: Kurdistan
 
 ### Notable Campaigns
 *Information pending cataloguing.*

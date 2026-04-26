@@ -17,6 +17,7 @@ Ghostwriter is referred as an 'activity set', with various incidents tied togeth
 **Targeted Sectors**: Government
 **Country of Origin**: 🏳️ Belarus
 **Risk Level**: High
+**Suspected Victims**: Germany, Latvia, Lithuania, Poland, Ukraine
 
 ### Notable Campaigns
 *Information pending cataloguing.*

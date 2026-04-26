@@ -325,11 +325,36 @@ class MispGalaxyImporter
                end
     end
 
-    # Build sector_focus from targeted-sector or cfr-target-category
+# Build sector_focus from targeted-sector or cfr-target-category
     sector_focus = []
     sector_focus |= meta['targeted-sector'] if meta['targeted-sector']
     sector_focus |= meta['cfr-target-category'] if meta['cfr-target-category']
-
+    
+    # Extract targeted victims
+    targeted_victims = meta['cfr-suspected-victims'] || []
+    
+    # Extract incident type (motivation)
+    incident_type = meta['cfr-type-of-incident']
+    
+    # Clean up refs - truncate long PDF URLs
+    refs = []
+    (meta['refs'] || []).each do |ref_url|
+      next unless ref_url && ref_url =~ /^https?:/
+      
+      # Truncate long PDF URLs
+      if ref_url.include?('pdf') && ref_url.length > 100
+        clean = ref_url.split('#').first.split('?').first
+        refs << clean if clean && clean.length > 20
+      elsif ref_url.length > 200
+        # Truncate very long URLs
+        uri = URI.parse(ref_url)
+        clean = "#{uri.scheme}://#{uri.host}#{uri.path[/^\/[^\/]{1,30}/]}..."
+        refs << clean
+      else
+        refs << ref_url
+      end
+    end
+    
     # Determine risk_level from attribution-confidence
     risk_level = nil
     if meta['attribution-confidence']
@@ -356,7 +381,9 @@ class MispGalaxyImporter
       country: country,
       risk_level: risk_level,
       sector_focus: sector_focus,
-      refs: meta['refs'] || [],
+      targeted_victims: targeted_victims,
+      incident_type: incident_type,
+      refs: refs,
       misp_uuid: misp['uuid'],
       misp_meta: meta
     }
@@ -427,7 +454,7 @@ class MispGalaxyImporter
     puts "\nImport complete: #{candidates.length} actors processed"
   end
 
-  # Create new actor entry
+# Create new actor entry
   def create_new_actor(candidate, existing_actors)
     puts "Creating: #{candidate[:name]}"
 
@@ -442,6 +469,8 @@ class MispGalaxyImporter
     actor_entry['country'] = candidate[:country] if candidate[:country]
     actor_entry['risk_level'] = candidate[:risk_level] if candidate[:risk_level]
     actor_entry['sector_focus'] = candidate[:sector_focus] if candidate[:sector_focus] && !candidate[:sector_focus].empty?
+    actor_entry['targeted_victims'] = candidate[:targeted_victims] if candidate[:targeted_victims] && !candidate[:targeted_victims].empty?
+    actor_entry['incident_type'] = candidate[:incident_type] if candidate[:incident_type]
 
     # Add provenance
     actor_entry['provenance'] = {
@@ -458,7 +487,7 @@ class MispGalaxyImporter
     create_page_file(candidate)
   end
 
-  # Update existing actor (additive only for aliases)
+# Update existing actor (additive only for aliases)
   def update_existing_actor(candidate, existing_actors)
     actor = existing_actors.find { |a| a['name'] == candidate[:name] || a['url'] == candidate[:url] }
     return unless actor
@@ -472,16 +501,12 @@ class MispGalaxyImporter
       new_aliases = candidate[:aliases] - existing_aliases
       actor['aliases'] = existing_aliases | new_aliases unless new_aliases.empty?
 
-      # Add last_activity if we could determine it
-      # (MISP doesn't have activity dates, so we skip)
-
-      # Update risk_level if not set
+      # Update missing fields
       actor['risk_level'] ||= candidate[:risk_level]
-
-      # Update sector_focus if not set
-      if actor['sector_focus'].nil? && candidate[:sector_focus] && !candidate[:sector_focus].empty?
-        actor['sector_focus'] = candidate[:sector_focus]
-      end
+      actor['sector_focus'] ||= candidate[:sector_focus] if candidate[:sector_focus] && !candidate[:sector_focus].empty?
+      actor['country'] ||= candidate[:country] if candidate[:country]
+      actor['targeted_victims'] ||= candidate[:targeted_victims] if candidate[:targeted_victims] && !candidate[:targeted_victims].empty?
+      actor['incident_type'] ||= candidate[:incident_type] if candidate[:incident_type]
 
       puts "Updated (additive): #{candidate[:name]}"
     else

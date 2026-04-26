@@ -10,7 +10,7 @@ permalink: /mirage-tiger/
 
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Suspected Victims**: Germany
 
 ### Notable Campaigns
 *Information pending cataloguing.*

@@ -15,6 +15,7 @@ A Turkish hacking group, Sath-ı Müdafaa, is encouraging individuals to join it
 ## Activities and Tactics
 **Country of Origin**: 🇹🇷 Turkey
 **Risk Level**: High
+**Incident Type**: Denial of service
 
 ### Notable Campaigns
 *Information pending cataloguing.*

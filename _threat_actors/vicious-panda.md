@@ -14,6 +14,7 @@ A closer look at this campaign allowed us to tie it to other operations which we
 
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
+**Suspected Victims**: Belarus, Russia, Mongolia, Ukraine
 
 ### Notable Campaigns
 *Information pending cataloguing.*

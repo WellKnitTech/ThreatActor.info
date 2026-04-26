@@ -20,6 +20,8 @@ With deception and false flags increasingly being employed by threat actors, att
 **Targeted Sectors**: Government, Civil society
 **Country of Origin**: 🏳️ Unknown
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: Palestine, United Arab Emirates, Qatar, Somalia, Syria, Canada, Germany, Serbia, Kuwait, Egypt...
 
 ### Notable Campaigns
 *Information pending cataloguing.*

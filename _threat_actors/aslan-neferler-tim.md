@@ -17,6 +17,7 @@ Turkish nationalist hacktivist group that has been active for roughly one year. 
 **Targeted Sectors**: Government, Administration, News - Media
 **Country of Origin**: 🇹🇷 Turkey
 **Risk Level**: High
+**Incident Type**: Denial of service
 
 ### Notable Campaigns
 *Information pending cataloguing.*

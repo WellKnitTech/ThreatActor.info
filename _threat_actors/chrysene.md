@@ -18,6 +18,8 @@ This threat actor targets organizations involved in oil, gas, and electricity pr
 **Targeted Sectors**: Private sector
 **Country of Origin**: 🏳️ Unknown
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: Iraq, United Kingdom, Pakistan, Israel
 
 ### Notable Campaigns
 *Information pending cataloguing.*

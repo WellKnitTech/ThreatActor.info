@@ -23,6 +23,8 @@ Leviathan is a Chinese state-sponsored cyber espionage group that has been attri
 **Risk Level**: High
 **First Seen**: 2013
 **Last Activity**: 2024
+**Incident Type**: Espionage
+**Suspected Victims**: United States, Hong Kong, The Philippines, Asia Pacific Economic Cooperation, Cambodia, Belgium, Germany, Philippines, Malaysia, Norway...
 
 ### Notable Campaigns
 *Information pending cataloguing.*

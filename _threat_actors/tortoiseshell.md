@@ -18,6 +18,8 @@ The group, which we are calling Tortoiseshell, has been active since at least Ju
 **Targeted Sectors**: Defense, Government, Military, Finance, Energy, Healthcare, Pharmaceuticals, Telecoms, High-Tech, Media, NGOs, Civil Society, Legal, Rail, Transportation
 **Country of Origin**: 🇮🇷 Iran
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: United States, Israel, Middle East, Europe
 
 ### Notable Campaigns
 *Information pending cataloguing.*

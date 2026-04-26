@@ -15,6 +15,7 @@ Earth Wendigo is a threat actor from China that has been targeting several organ
 ## Activities and Tactics
 **Targeted Sectors**: Government, Education
 **Country of Origin**: 🇨🇳 China
+**Suspected Victims**: Hong Kong, Taiwan
 
 ### Notable Campaigns
 *Information pending cataloguing.*

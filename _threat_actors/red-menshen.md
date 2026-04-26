@@ -15,6 +15,7 @@ Since 2021, Red Menshen, a China based threat actor, which has been observed tar
 ## Activities and Tactics
 **Targeted Sectors**: Government, Education, Logistics
 **Country of Origin**: 🇨🇳 China
+**Suspected Victims**: Middle East, Asia
 
 ### Notable Campaigns
 *Information pending cataloguing.*

@@ -29,6 +29,8 @@ Since at least 2014, an Iranian threat group tracked by FireEye as APT34 has con
 **Targeted Sectors**: Chemical, Energy, Engineering, Finance, Government, Administration, Telecoms, Other, Government, Private sector, Civil society
 **Country of Origin**: 🇮🇷 Iran
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: Israel, Kuwait, United States, Turkey, Saudi Arabia, Qatar, Lebanon, Middle East
 
 ### Notable Campaigns
 *Information pending cataloguing.*

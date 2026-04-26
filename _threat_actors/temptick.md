@@ -17,6 +17,7 @@ This threat actor targets organizations in the finance, defense, aerospace, tech
 **Targeted Sectors**: Government, Private sector
 **Country of Origin**: 🇨🇳 China
 **Risk Level**: High
+**Suspected Victims**: South Korea, Japan
 
 ### Notable Campaigns
 *Information pending cataloguing.*

@@ -10,7 +10,7 @@ permalink: /yorotrooper/
 YoroTrooper’s main targets are government or energy organizations in Azerbaijan, Tajikistan, Kyrgyzstan and other Commonwealth of Independent States, based on Cisco Talos analysis. YoroTrooper was also observed compromising accounts from at least two international organizations: a critical European Union health care agency and the World Intellectual Property Organization. Successful compromises also included Embassies of European countries including Azerbaijan and Turkmenistan.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Suspected Victims**: Germany
 
 ### Notable Campaigns
 *Information pending cataloguing.*

@@ -19,6 +19,8 @@ Not surprisingly, embassies and diplomatic missions in the region, foreign intel
 **Targeted Sectors**: Other, Aerospace, Defense, Intelligence, Maritime, Military, Space, Government
 **Country of Origin**: 🇨🇳 China
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: United States, United Kingdom, Germany, Australia, Sweden
 
 ### Notable Campaigns
 *Information pending cataloguing.*

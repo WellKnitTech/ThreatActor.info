@@ -25,6 +25,8 @@ In April 2021, the US and UK governments attributed the SolarWinds Compromise to
 **Risk Level**: High
 **First Seen**: 2008
 **Last Activity**: 2024
+**Incident Type**: Espionage
+**Suspected Victims**: United States, China, New Zealand, Ukraine, Romania, Georgia, Japan, South Korea, Belgium, Kazakhstan...
 
 ### Notable Campaigns
 *Information pending cataloguing.*

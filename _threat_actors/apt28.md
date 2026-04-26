@@ -25,6 +25,8 @@ APT28 reportedly compromised the Hillary Clinton campaign, the Democratic Nation
 **Risk Level**: High
 **First Seen**: 2007
 **Last Activity**: 2024
+**Incident Type**: Espionage
+**Suspected Victims**: Georgia, France, Jordan, United States, Hungary, World Anti-Doping Agency, Armenia, Tajikistan, Japan, NATO...
 
 ### Notable Campaigns
 *Information pending cataloguing.*

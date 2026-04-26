@@ -15,6 +15,7 @@ Recorded Future’s Insikt Group has identified a large cluster of new operation
 ## Activities and Tactics
 **Targeted Sectors**: Aviation, Automotive, Education, Intergovernmental, Media and Entertainment, Information Technology, Religious Organizations
 **Country of Origin**: 🇨🇳 China
+**Incident Type**: ["Financial Theft", "Espionage"]
 
 ### Notable Campaigns
 *Information pending cataloguing.*

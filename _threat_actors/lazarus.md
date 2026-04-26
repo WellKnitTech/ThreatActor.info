@@ -27,6 +27,8 @@ North Korea’s cyber operations have shown a consistent pattern of adaptation, 
 **Risk Level**: Critical
 **First Seen**: 2009
 **Last Activity**: 2024
+**Incident Type**: ["Espionage", "Sabotage"]
+**Suspected Victims**: South Korea, Bangladesh Bank, Sony Pictures Entertainment, United States, Thailand, France, China, Hong Kong, United Kingdom, Guatemala...
 
 ### Notable Campaigns
 *Information pending cataloguing.*

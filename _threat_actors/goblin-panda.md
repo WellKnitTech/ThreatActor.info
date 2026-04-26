@@ -17,6 +17,7 @@ Goblin Panda is one of a handful of elite Chinese advanced persistent threat (AP
 **Targeted Sectors**: Private Sector
 **Country of Origin**: 🇨🇳 China
 **Risk Level**: Critical
+**Suspected Victims**: Malaysia, India, Indonesia, Japan, Philippines, Southeast Asia, South Korea, Vietnam
 
 ### Notable Campaigns
 *Information pending cataloguing.*

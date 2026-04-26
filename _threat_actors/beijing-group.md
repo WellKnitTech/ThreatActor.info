@@ -17,6 +17,8 @@ sector_focus: ["Private sector", "Civil society"]
 **Targeted Sectors**: Private sector, Civil society
 **Country of Origin**: 🇨🇳 China
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: United States, Canada, United Kingdom, Switzerland, Hong Kong, Australia, India, Taiwan, China, Denmark
 
 ### Notable Campaigns
 *Information pending cataloguing.*

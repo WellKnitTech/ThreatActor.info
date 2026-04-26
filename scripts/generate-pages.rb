@@ -202,7 +202,7 @@ def build_body(actor)
   
   # Activities and Tactics
   sections << "## Activities and Tactics"
-  if actor['country'] || actor['sector_focus']
+  if actor['country'] || actor['sector_focus'] || actor['targeted_victims'] || actor['incident_type']
     details = []
     details << "**Targeted Sectors**: #{actor['sector_focus']&.join(', ') || 'Various'}" if actor['sector_focus']
     flag = get_country_flag(actor['country'])
@@ -210,6 +210,14 @@ def build_body(actor)
     details << "**Risk Level**: #{actor['risk_level'] || 'Medium'}" if actor['risk_level']
     details << "**First Seen**: #{actor['first_seen'] || 'Unknown'}" if actor['first_seen']
     details << "**Last Activity**: #{actor['last_activity'] || 'Unknown'}" if actor['last_activity']
+    details << "**Incident Type**: #{actor['incident_type'] || 'Unknown'}" if actor['incident_type']
+    
+    # Add targeted victims if present
+    if actor['targeted_victims'] && actor['targeted_victims'].any?
+      victims = actor['targeted_victims'].first(10)
+      details << "**Suspected Victims**: #{victims.join(', ')}#{actor['targeted_victims'].size > 10 ? '...' : ''}"
+    end
+    
     sections << details.join("\n")
   else
     sections << "*Information pending cataloguing.*"

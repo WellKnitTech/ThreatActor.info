@@ -17,6 +17,7 @@ sector_focus: ["Private Sector", "Gambling companies", "Gaming", "Information te
 **Targeted Sectors**: Private Sector, Gambling companies, Gaming, Information technology, Telecommunications, Government, Transportation systems, Dissident
 **Country of Origin**: 🇨🇳 China
 **Risk Level**: Critical
+**Suspected Victims**: China, Hong Kong, Kazakhstan, Taiwan, Philippines
 
 ### Notable Campaigns
 *Information pending cataloguing.*

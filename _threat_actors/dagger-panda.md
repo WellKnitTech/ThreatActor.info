@@ -17,6 +17,8 @@ Operate since at least 2011, from several locations in China, with  members in K
 **Targeted Sectors**: Other, Maritime, Military, Government, Administration, Telecoms, Government
 **Country of Origin**: 🇨🇳 China
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: South Korea, United States, Japan, Germany, China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

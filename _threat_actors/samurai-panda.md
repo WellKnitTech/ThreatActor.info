@@ -17,6 +17,8 @@ sector_focus: ["Private sector", "Military"]
 **Targeted Sectors**: Private sector, Military
 **Country of Origin**: 🇨🇳 China
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: United States, United Kingdom, Hong Kong
 
 ### Notable Campaigns
 *Information pending cataloguing.*

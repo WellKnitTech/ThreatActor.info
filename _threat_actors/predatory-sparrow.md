@@ -12,6 +12,8 @@ A self-proclaimed hacktivist group that carried out attacks against Iranian rail
 
 ## Activities and Tactics
 **Targeted Sectors**: Critical manufacturing, Transportation systems
+**Incident Type**: Sabotage
+**Suspected Victims**: Iran
 
 ### Notable Campaigns
 *Information pending cataloguing.*

@@ -17,6 +17,8 @@ The Equation Group is a highly sophisticated threat actor described by its disco
 **Targeted Sectors**: Government, Military
 **Country of Origin**: 🇺🇸 United States
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: Iran, Afghanistan, Syria, Yemen, Kenya, Russia, India, Mali, Algeria, United Kingdom...
 
 ### Notable Campaigns
 *Information pending cataloguing.*

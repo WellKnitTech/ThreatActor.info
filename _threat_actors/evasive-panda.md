@@ -17,6 +17,8 @@ Evasive Panda is an APT group that has been active since at least 2012, conducti
 **Targeted Sectors**: Government, Individuals, Universities
 **Country of Origin**: 🇨🇳 China
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: Hong Kong, India, Malaysia, Taiwan
 
 ### Notable Campaigns
 *Information pending cataloguing.*

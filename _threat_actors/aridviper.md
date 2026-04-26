@@ -15,6 +15,8 @@ AridViper is a state-sponsored APT primarily targeting military personnel, journ
 ## Activities and Tactics
 **Targeted Sectors**: Government, Defense, Energy, Finance, Education, High-Tech, Telecoms, Transportation, Media, NGOs, Civil Society, Legal, Military
 **Country of Origin**: 🏳️ Palestine
+**Incident Type**: Espionage
+**Suspected Victims**: United States, Israel, Palestine, Middle East, Europe
 
 ### Notable Campaigns
 *Information pending cataloguing.*

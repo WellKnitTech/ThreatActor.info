@@ -17,6 +17,8 @@ First disclosed in 2023, the Sandman APT is likely associated with suspected Chi
 **Targeted Sectors**: Government, Telecommunications
 **Country of Origin**: 🇨🇳 China
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: Middle East, Southeast Asian, France, Egypt, Sudan, South Sudan, Libya, Turkey, Saudi Arabia, Oman...
 
 ### Notable Campaigns
 *Information pending cataloguing.*

@@ -19,6 +19,8 @@ Thanks to information we have been able to collect during the course of our rese
 **Targeted Sectors**: Activists, Civil society, Government, Private sector
 **Country of Origin**: 🇮🇷 Iran
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: Israel, Iran, France, China, Sweden, United States, United Kingdom, Germany, Syria, Italy...
 
 ### Notable Campaigns
 *Information pending cataloguing.*

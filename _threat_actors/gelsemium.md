@@ -12,6 +12,7 @@ The Gelsemium group has been active since at least 2014 and was described in the
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Electronics Manufacturers, Universities, Religious organization
+**Suspected Victims**: North Korea, South Korea, Japan, China, Mongolia, Egypt, Saudi Arabia, Yemen, Oman, Iran...
 
 ### Notable Campaigns
 *Information pending cataloguing.*

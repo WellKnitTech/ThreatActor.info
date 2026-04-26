@@ -17,6 +17,8 @@ Blue Termite is a group of suspected Chinese origin active in Japan.
 **Targeted Sectors**: Government, Private sector
 **Country of Origin**: 🇨🇳 China
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: Japan
 
 ### Notable Campaigns
 *Information pending cataloguing.*

@@ -11,7 +11,8 @@ risk_level: "High"
 This is a pro-Islamist organization that generally conducts attacks motivated by real world events in which its members believe that members of the Muslim faith were wronged. Its attacks generally involve website defacements; however, the group did develop a RAT that it refers to as Fallaga RAT, but which appears to simply be a fork of the njRAT malware popular amongst hackers in the Middle East/North Africa region.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Risk Level**: High
+**Incident Type**: Defacement
 
 ### Notable Campaigns
 *Information pending cataloguing.*

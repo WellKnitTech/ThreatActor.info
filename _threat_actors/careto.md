@@ -19,6 +19,8 @@ The Mask is an advanced threat actor that has been involved in cyber-espionage o
 **Targeted Sectors**: Government, Private sector
 **Country of Origin**: 🏳️ Spain
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: Morocco, France, Libya, Venezuela, Poland, Brazil, Spain, United States, South Africa, Tunisia...
 
 ### Notable Campaigns
 *Information pending cataloguing.*

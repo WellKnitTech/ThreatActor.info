@@ -18,6 +18,8 @@ Common applications and websites that were spied on include accounts on Gmail, H
 **Targeted Sectors**: Infrastructure, Engineering, Government, Administration, Finance, Government, Private sector
 **Country of Origin**: 🇮🇷 Iran
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: Iran, Pakistan, Israel, United States
 
 ### Notable Campaigns
 *Information pending cataloguing.*

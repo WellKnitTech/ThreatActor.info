@@ -23,6 +23,7 @@ FIN7 is a financially-motivated threat group that has been active since 2013. FI
 **Risk Level**: High
 **First Seen**: 2015
 **Last Activity**: 2024
+**Incident Type**: Financial Theft
 
 ### Notable Campaigns
 *Information pending cataloguing.*

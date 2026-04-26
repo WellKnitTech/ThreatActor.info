@@ -17,6 +17,8 @@ A Russian group that collects intelligence on the energy industry.
 **Targeted Sectors**: Energy, Private sector, Government
 **Country of Origin**: 🇷🇺 Russia
 **Risk Level**: Critical
+**Incident Type**: Espionage
+**Suspected Victims**: United States, Germany, Turkey, China, Spain, France, Ireland, Japan, Italy, Poland
 
 ### Notable Campaigns
 *Information pending cataloguing.*

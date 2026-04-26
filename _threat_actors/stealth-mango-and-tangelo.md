@@ -17,6 +17,8 @@ This threat actor targets organizations in the satellite communications, telecom
 **Targeted Sectors**: Government, Civil society
 **Country of Origin**: 🇵🇰 Pakistan
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: Pakistan, Iraq, Australia, Afghanistan, United Arab Emirates, Germany, India, United States
 
 ### Notable Campaigns
 *Information pending cataloguing.*

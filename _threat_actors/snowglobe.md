@@ -17,6 +17,8 @@ In 2014, researchers at Kaspersky Lab discovered and reported on three zero-days
 **Targeted Sectors**: Government, Private sector
 **Country of Origin**: 🇫🇷 France
 **Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: Syria, United States, Netherlands, Russia, Spain, Iran, China, Germany, Algeria, Norway...
 
 ### Notable Campaigns
 *Information pending cataloguing.*
