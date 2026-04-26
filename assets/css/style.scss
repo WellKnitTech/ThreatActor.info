@@ -496,6 +496,20 @@ a:hover {
   word-break: break-all;
 }
 
+// IOC Copy button styling
+.ioc-copy-btn {
+  cursor: pointer;
+  margin-left: 6px;
+  font-size: 12px;
+  opacity: 0.6;
+  vertical-align: middle;
+  transition: opacity 0.2s;
+}
+
+.ioc-copy-btn:hover {
+  opacity: 1;
+}
+
 // Table styling
 .content table {
   width: 100%;

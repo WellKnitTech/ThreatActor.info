@@ -55,42 +55,96 @@
       });
     })();
     
-    // Make all code elements click-to-copy
+    // IOC Copy - Individual + Category + All
     (function() {
-      console.log('IOC copy init...');
+      const content = document.querySelector('.content');
+      if (!content) return;
       
-      // Find all code elements in the page
-      const codes = document.querySelectorAll('.content code, .highlight code, code');
-      console.log('Found codes:', codes.length);
+      // Find all code elements in list items within IOC sections
+      const codes = content.querySelectorAll('li code');
+      if (codes.length === 0) return;
       
+      // Track categories
+      const categories = {};
+      let totalCount = 0;
+      
+      // Process each IOC
       codes.forEach(function(code) {
-        const text = code.textContent.trim();
-        if (!text || text.length < 4) return;
+        const parent = code.parentNode;
+        if (parent.tagName !== 'LI') return;
         
-        // Only add to likely IOCs ( IPs, hashes, domains, etc )
-        const isIOC = /[\d:]/.test(text) || /^[a-f0-9]{32,}$/i.test(text) || /\./.test(text);
-        if (!isIOC) return;
+        // Get cleaned IOC value
+        let iocValue = code.textContent.trim().replace('[.]', '.').replace('(dot)', '.');
+        totalCount++;
         
-        console.log('Adding button to:', text);
+        // Determine category
+        let category = 'Other';
+        if (/^[\d.]+$/.test(iocValue)) category = 'IP Addresses';
+        else if (/^[a-f0-9]{32}$/i.test(iocValue)) category = 'MD5';
+        else if (/^[a-f0-9]{40}$/i.test(iocValue)) category = 'SHA1';
+        else if (/^[a-f0-9]{64}$/i.test(iocValue)) category = 'SHA256';
+        else if (/^[a-f0-9]{8,}$/i.test(iocValue)) category = 'Hashes';
+        else if (iocValue.includes('.')) category = 'Domains';
+        else if (iocValue.includes('://') || iocValue.startsWith('http')) category = 'URLs';
         
-        // Clean the IOC value
-        const iocValue = text.replace('[.]', '.').replace('(dot)', '.');
+        // Track category
+        if (!categories[category]) categories[category] = [];
+        categories[category].push(iocValue);
         
-        const btn = document.createElement('button');
-        btn.innerHTML = '📋';
-        btn.title = 'Click to copy: ' + iocValue;
-        btn.style.cssText = 'margin-left:8px;padding:2px 6px;background:var(--accent);border:none;border-radius:3px;cursor:pointer;font-size:11px;vertical-align:middle;';
-        
-        btn.onclick = function() {
+        // Add inline copy button to each IOC
+        const btn = document.createElement('span');
+        btn.innerHTML = '&#x1F4CB;';
+        btn.title = 'Copy: ' + iocValue;
+        btn.style.cssText = 'cursor:pointer;margin-left:6px;font-size:12px;opacity:0.6;vertical-align:middle;';
+        btn.onclick = function(e) {
+          e.preventDefault();
           navigator.clipboard.writeText(iocValue).then(function() {
-            btn.innerHTML = '✓';
-            setTimeout(function() { btn.innerHTML = '📋'; }, 1000);
+            btn.innerHTML = '&#x2714;';
+            setTimeout(function() { btn.innerHTML = '&#x1F4CB;'; }, 1000);
           });
         };
+        parent.insertBefore(btn, code.nextSibling);
+      });
+      
+      // Add bulk copy buttons after IOC heading
+      const headings = content.querySelectorAll('h2, h3, h4');
+      headings.forEach(function(h) {
+        if (!h.textContent.toLowerCase().includes('indicator')) return;
         
-        code.parentNode.style.display = 'inline';
-        code.parentNode.style.position = 'relative';
-        code.parentNode.appendChild(btn);
+        const container = document.createElement('span');
+        container.style.cssText = 'margin-left:16px;display:inline-flex;gap:8px;';
+        
+        // All IOCs button
+        const allBtn = document.createElement('button');
+        allBtn.textContent = 'Copy All (' + totalCount + ')';
+        allBtn.style.cssText = 'background:var(--accent);border:none;color:white;padding:4px 10px;border-radius:4px;cursor:pointer;font-size:12px;';
+        allBtn.title = 'Copy all IOCs';
+        allBtn.onclick = function() {
+          let allIocs = [];
+          Object.values(categories).forEach(function(arr) { allIocs = allIocs.concat(arr); });
+          navigator.clipboard.writeText(allIocs.join('\n')).then(function() {
+            allBtn.textContent = 'Copied!';
+            setTimeout(function() { allBtn.textContent = 'Copy All (' + totalCount + ')'; }, 1500);
+          });
+        };
+        container.appendChild(allBtn);
+        
+        // Per-category buttons
+        Object.keys(categories).forEach(function(cat) {
+          const catBtn = document.createElement('button');
+          catBtn.textContent = cat + ' (' + categories[cat].length + ')';
+          catBtn.style.cssText = 'background:var(--bg-tertiary);border:1px solid var(--border-color);color:var(--text-secondary);padding:4px 8px;border-radius:4px;cursor:pointer;font-size:11px;';
+          catBtn.title = 'Copy ' + cat;
+          catBtn.onclick = function() {
+            navigator.clipboard.writeText(categories[cat].join('\n')).then(function() {
+              catBtn.textContent = 'Copied!';
+              setTimeout(function() { catBtn.textContent = cat + ' (' + categories[cat].length + ')'; }, 1500);
+            });
+          };
+          container.appendChild(catBtn);
+        });
+        
+        h.parentNode.insertBefore(container, h.nextSibling);
       });
     })();
   </script>
