@@ -18,10 +18,10 @@ Curious Gorge, a group TAG attributes to China's PLA SSF, has conducted campaign
 **Incident Type**: Espionage
 **Suspected Victims**: Ukraine, Russia, Kazakhstan, Mongolia
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

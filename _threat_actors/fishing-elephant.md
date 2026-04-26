@@ -12,10 +12,10 @@ Fishing Elephant is a threat actor that primarily targets victims in Bangladesh 
 ## Activities and Tactics
 **Suspected Victims**: Germany
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

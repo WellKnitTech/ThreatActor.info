@@ -12,10 +12,10 @@ Team46 is a sophisticated APT group active since at least late 2024, targeting R
 ## Activities and Tactics
 *Information pending cataloguing.*
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

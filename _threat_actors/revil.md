@@ -22,10 +22,10 @@ REvil is a Russian ransomware-as-a-service operation that has targeted major cor
 **First Seen**: 2019
 **Last Activity**: 2021
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

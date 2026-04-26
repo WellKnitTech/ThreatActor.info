@@ -1,6 +1,7 @@
 ---
 layout: threat_actor
 title: "Lynx"
+aliases: []
 description: "Lynx is an active ransomware-as-a-service operation tracked by RansomLook."
 permalink: /lynx/
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
@@ -12,10 +13,10 @@ Lynx is an active ransomware-as-a-service operation tracked by RansomLook.
 ## Activities and Tactics
 *Information pending cataloguing.*
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

@@ -1,6 +1,7 @@
 ---
 layout: threat_actor
 title: "Beast"
+aliases: []
 description: "Beast ransomware emerged in 2022 as an enhanced iteration of the earlier “Monster” ransomware. It operates under a Ransomware-as-a-Service (RaaS) model, offering affiliates rich customization options t"
 permalink: /beast/
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
@@ -12,10 +13,10 @@ Beast ransomware emerged in 2022 as an enhanced iteration of the earlier “Mons
 ## Activities and Tactics
 *Information pending cataloguing.*
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

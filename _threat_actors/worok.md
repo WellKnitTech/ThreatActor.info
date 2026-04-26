@@ -20,10 +20,10 @@ Worok is a cyber espionage group, mostly targeting Central Asia. The group tools
 **Incident Type**: Espionage
 **Suspected Victims**: East Asia, Central Asia, Southeast Asia, The Middle East, Southern Africa
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

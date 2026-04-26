@@ -14,10 +14,10 @@ We believe this cluster of activity started in at least 2012 and was still activ
 ## Activities and Tactics
 *Information pending cataloguing.*
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

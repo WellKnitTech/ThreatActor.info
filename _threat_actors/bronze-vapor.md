@@ -21,10 +21,10 @@ BRONZE VAPOR uses a set of tactics that, although not individually unique, when 
 **Country of Origin**: 🇨🇳 China
 **Suspected Victims**: Taiwan
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

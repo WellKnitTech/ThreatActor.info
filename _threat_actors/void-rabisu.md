@@ -12,10 +12,10 @@ Void Rabisu is an intrusion set associated with both financially motivated ranso
 ## Activities and Tactics
 **Suspected Victims**: Ukraine, European Union
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

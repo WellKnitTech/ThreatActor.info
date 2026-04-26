@@ -12,10 +12,10 @@ GOFFEE is a threat actor that has targeted entities in the Russian Federation si
 ## Activities and Tactics
 *Information pending cataloguing.*
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

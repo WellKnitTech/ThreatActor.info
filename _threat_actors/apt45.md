@@ -14,10 +14,10 @@ APT45 is a North Korean cyber threat actor that has been active since at least 2
 ## Activities and Tactics
 **Country of Origin**: 🇰🇵 North Korea
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

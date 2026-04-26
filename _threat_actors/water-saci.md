@@ -14,10 +14,10 @@ Water Saci is a sophisticated cyber threat actor operating in Brazil, utilizing 
 ## Activities and Tactics
 **Country of Origin**: 🇧🇷 Brazil
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

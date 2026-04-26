@@ -24,10 +24,10 @@ Akira is a ransomware variant and ransomware deployment entity active since at l
 **First Seen**: 2023
 **Last Activity**: 2025
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

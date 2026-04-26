@@ -20,10 +20,10 @@ sector_focus: ["Private sector", "Military"]
 **Incident Type**: Espionage
 **Suspected Victims**: United States, United Kingdom, Hong Kong
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

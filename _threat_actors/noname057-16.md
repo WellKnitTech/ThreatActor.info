@@ -15,10 +15,10 @@ NoName057(16) is performing DDoS attacks on websites belonging to governments, n
 **Incident Type**: ["Denial of service"]
 **Suspected Victims**: Czech Republic, Denmark, Estonia, Lithuania, NATO, Norway, Poland, Ukraine
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

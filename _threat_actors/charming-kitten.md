@@ -20,10 +20,10 @@ Charming Kitten (aka Parastoo, aka Newscaster) is an group with a suspected nexu
 **Incident Type**: Espionage
 **Suspected Victims**: U.S. government/defense sector websites, Saudi Arabia, Israel, Iraq, United Kingdom
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

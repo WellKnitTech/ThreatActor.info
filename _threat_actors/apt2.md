@@ -20,10 +20,10 @@ Putter Panda were the subject of an extensive report by CrowdStrike, which state
 **Incident Type**: Espionage
 **Suspected Victims**: U.S. satellite and aerospace sector
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

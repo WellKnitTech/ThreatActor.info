@@ -13,10 +13,10 @@ GOLD BURLAP is a group of financially motivated criminals responsible for the de
 ## Activities and Tactics
 **Targeted Sectors**: Healthcare
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

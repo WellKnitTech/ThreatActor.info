@@ -21,10 +21,10 @@ From February to September 2016, WhiteBear activity was narrowly focused on emba
 **Incident Type**: Espionage
 **Suspected Victims**: United States, South Korea, United Kingdom, Uzbekistan
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

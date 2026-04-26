@@ -20,10 +20,10 @@ sector_focus: ["Private sector", "Civil society"]
 **Incident Type**: Espionage
 **Suspected Victims**: United States, Canada, United Kingdom, Switzerland, Hong Kong, Australia, India, Taiwan, China, Denmark
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

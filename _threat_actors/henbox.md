@@ -20,10 +20,10 @@ This threat actor targets Uighurs—a minority ethnic group located primarily in
 **Incident Type**: Espionage
 **Suspected Victims**: Uighurs
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

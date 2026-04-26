@@ -20,10 +20,10 @@ This threat actor targets critical infrastructure entities in the oil and gas se
 **Incident Type**: Espionage
 **Suspected Victims**: Ukraine, Austria, Russia, Saudi Arabia
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

@@ -20,10 +20,10 @@ This threat actor compromises civil society groups the Chinese Communist Party v
 **Incident Type**: Espionage
 **Suspected Victims**: China, Myanmar, Hong Kong, Taiwan
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

@@ -15,10 +15,10 @@ Libyan Scorpions is a malware operation in use since September 2015 and operated
 **Targeted Sectors**: Intelligence
 **Risk Level**: High
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

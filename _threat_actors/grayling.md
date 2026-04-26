@@ -19,10 +19,10 @@ Grayling activity was first observed in early 2023, when a number of victims wer
 **Risk Level**: High
 **Suspected Victims**: Taiwan, United States, Vietnam, Solomon Islands
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

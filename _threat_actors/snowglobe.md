@@ -20,10 +20,10 @@ In 2014, researchers at Kaspersky Lab discovered and reported on three zero-days
 **Incident Type**: Espionage
 **Suspected Victims**: Syria, United States, Netherlands, Russia, Spain, Iran, China, Germany, Algeria, Norway...
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

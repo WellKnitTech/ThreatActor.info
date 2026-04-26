@@ -18,10 +18,10 @@ Greenbug was discovered targeting a range of organizations in the Middle East in
 **Country of Origin**: 🇮🇷 Iran
 **Risk Level**: High
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

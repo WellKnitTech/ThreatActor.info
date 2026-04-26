@@ -19,10 +19,10 @@ VICEROY TIGER is an adversary with a nexus to India that has historically target
 **Risk Level**: High
 **Suspected Victims**: Germany
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

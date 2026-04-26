@@ -24,10 +24,10 @@ TA505 is a cyber criminal group that has been active since at least 2014. TA505 
 **First Seen**: 2019
 **Last Activity**: 2025
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

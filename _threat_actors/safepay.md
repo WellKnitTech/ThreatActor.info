@@ -22,10 +22,10 @@ SafePay is a ransomware group particularly active in Germany, responsible for 24
 **First Seen**: 2024
 **Last Activity**: 2025
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

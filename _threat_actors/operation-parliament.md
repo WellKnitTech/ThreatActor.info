@@ -23,10 +23,10 @@ With deception and false flags increasingly being employed by threat actors, att
 **Incident Type**: Espionage
 **Suspected Victims**: Palestine, United Arab Emirates, Qatar, Somalia, Syria, Canada, Germany, Serbia, Kuwait, Egypt...
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

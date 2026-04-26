@@ -14,10 +14,10 @@ Femwar02 is a previously unknown pro-Russian ransomware threat actor that emerge
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

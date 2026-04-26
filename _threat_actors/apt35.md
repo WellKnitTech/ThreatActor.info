@@ -24,10 +24,10 @@ Magic Hound is an Iranian-sponsored threat group that conducts long term, resour
 **First Seen**: 2014
 **Last Activity**: 2024
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

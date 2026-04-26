@@ -14,10 +14,10 @@ Educated Manticore is an Iranian APT group aligned with the Islamic Revolutionar
 ## Activities and Tactics
 **Country of Origin**: 🇮🇷 Iran
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

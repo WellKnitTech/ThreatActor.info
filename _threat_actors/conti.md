@@ -22,10 +22,10 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 **First Seen**: 2020
 **Last Activity**: 2022
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

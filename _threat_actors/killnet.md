@@ -15,10 +15,10 @@ A group targeting various countries using Denial of Services attacked.
 **Incident Type**: Denial of service
 **Suspected Victims**: United States, Czech Republic
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

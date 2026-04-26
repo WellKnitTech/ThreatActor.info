@@ -14,10 +14,10 @@ CL-STA-1087 is a suspected state-sponsored espionage campaign operating out of C
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

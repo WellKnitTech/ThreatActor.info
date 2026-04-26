@@ -22,10 +22,10 @@ RansomHub is a dominant ransomware-as-a-service operation that emerged in 2024 a
 **First Seen**: 2024
 **Last Activity**: 2025
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

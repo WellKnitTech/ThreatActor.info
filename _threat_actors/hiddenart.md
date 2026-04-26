@@ -14,10 +14,10 @@ It was observed that a mobile network threat actor designated as ‘HiddenArt’
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

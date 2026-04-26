@@ -20,10 +20,10 @@ This threat actor targets industrial control systems, using a tool called Black 
 **Incident Type**: Espionage
 **Suspected Victims**: Russia, Lithuania, Kyrgyzstan, Israel, Ukraine, Belarus, Kazakhstan, Georgia, Poland, Azerbaijan...
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

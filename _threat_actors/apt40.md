@@ -26,10 +26,10 @@ Leviathan is a Chinese state-sponsored cyber espionage group that has been attri
 **Incident Type**: Espionage
 **Suspected Victims**: United States, Hong Kong, The Philippines, Asia Pacific Economic Cooperation, Cambodia, Belgium, Germany, Philippines, Malaysia, Norway...
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

@@ -14,10 +14,10 @@ Zarya is a pro-Russian hacktivist group that emerged in March 2022. Initially op
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

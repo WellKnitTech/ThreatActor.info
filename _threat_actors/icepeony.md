@@ -14,10 +14,10 @@ IcePeony is a China-nexus APT group that has been active since at least 2023, ta
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

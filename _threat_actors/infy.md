@@ -22,10 +22,10 @@ Thanks to information we have been able to collect during the course of our rese
 **Incident Type**: Espionage
 **Suspected Victims**: Israel, Iran, France, China, Sweden, United States, United Kingdom, Germany, Syria, Italy...
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

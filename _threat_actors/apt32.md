@@ -26,10 +26,10 @@ APT32 is a suspected Vietnam-based threat group that has been active since at le
 **Incident Type**: Espionage
 **Suspected Victims**: China, Germany, United States, Vietnam, Philippines, Association of Southeast Asian Nations
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

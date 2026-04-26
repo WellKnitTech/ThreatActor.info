@@ -13,10 +13,10 @@ The Crimson Collective is a cybercrime group that claimed to have compromised Re
 ## Activities and Tactics
 **Targeted Sectors**: Technology
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

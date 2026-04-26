@@ -22,10 +22,10 @@ The Mask is an advanced threat actor that has been involved in cyber-espionage o
 **Incident Type**: Espionage
 **Suspected Victims**: Morocco, France, Libya, Venezuela, Poland, Brazil, Spain, United States, South Africa, Tunisia...
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

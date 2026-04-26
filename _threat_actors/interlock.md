@@ -1,6 +1,7 @@
 ---
 layout: threat_actor
 title: "Interlock"
+aliases: []
 description: "Interlock is an active extortion or ransomware group tracked by RansomLook."
 permalink: /interlock/
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
@@ -12,10 +13,10 @@ Interlock is an active extortion or ransomware group tracked by RansomLook.
 ## Activities and Tactics
 *Information pending cataloguing.*
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

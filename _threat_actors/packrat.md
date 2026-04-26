@@ -13,10 +13,10 @@ A threat group that has been active for at least seven years has used malware, p
 ## Activities and Tactics
 **Targeted Sectors**: Activists, Journalist, Political party
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

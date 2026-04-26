@@ -13,10 +13,10 @@ DangerousSavanna tends to install relatively unsophisticated software tools in t
 ## Activities and Tactics
 **Suspected Victims**: Ivory Coast, Morocco, Cameroon, Senegal, Togo
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

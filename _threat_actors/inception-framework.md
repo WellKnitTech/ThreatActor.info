@@ -20,10 +20,10 @@ This threat actor uses spear-phishing techniques to target private-sector energy
 **Incident Type**: Espionage
 **Suspected Victims**: Afghanistan, Armenia, Azerbaijan, Belarus, Belgium, Czech Republic, Greece, India, Iran, Italy...
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

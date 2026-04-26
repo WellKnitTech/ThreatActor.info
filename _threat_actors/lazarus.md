@@ -30,10 +30,10 @@ North Korea’s cyber operations have shown a consistent pattern of adaptation, 
 **Incident Type**: ["Espionage", "Sabotage"]
 **Suspected Victims**: South Korea, Bangladesh Bank, Sony Pictures Entertainment, United States, Thailand, France, China, Hong Kong, United Kingdom, Guatemala...
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

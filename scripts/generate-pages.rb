@@ -129,10 +129,8 @@ def build_front_matter(actor)
   lines << "title: \"#{actor['name']}\""
   
   # Aliases
-  if actor['aliases'] && actor['aliases'].any?
-    aliases = actor['aliases'].map { |a| "\"#{a}\"" }.join(', ')
-    lines << "aliases: [#{aliases}]"
-  end
+  aliases = Array(actor['aliases']).map { |a| "\"#{a}\"" }.join(', ')
+  lines << "aliases: [#{aliases}]"
   
   # Description
   if actor['description']
@@ -255,7 +253,7 @@ def build_body(actor)
   sections << ""
   
   # Notable Campaigns - from YAML if present
-  sections << "### Notable Campaigns"
+  sections << "## Notable Campaigns"
   if actor['campaigns'] && actor['campaigns'].any?
     actor['campaigns'].each do |campaign|
       name = campaign['name'] || 'Unnamed Campaign'
@@ -269,7 +267,7 @@ def build_body(actor)
   sections << ""
   
   # TTPs
-  sections << "### Tactics, Techniques, and Procedures (TTPs)"
+  sections << "## Tactics, Techniques, and Procedures (TTPs)"
   if actor['ttps'] && actor['ttps'].any?
     actor['ttps'].each do |ttp|
       tid = ttp['technique_id'] || ''
@@ -284,34 +282,39 @@ def build_body(actor)
   
   # IOCs section header
   sections << "## Notable Indicators of Compromise (IOCs)"
-  sections << "*This section is pending cataloguing. Check upstream sources for current IOCs.*"
-  sections << ""
-  sections << "### IP Addresses"
-  if actor['iocs'] && actor['iocs']['ips'] && actor['iocs']['ips'].any?
-    actor['iocs']['ips'].each do |ip|
-      sections << "- `#{ip}`"
+  iocs = actor['iocs'] || {}
+  ips = Array(iocs['ips']).reject { |value| value.to_s.strip.empty? }
+  md5_hashes = Array(iocs['md5']).reject { |value| value.to_s.strip.empty? }
+  sha256_hashes = Array(iocs['sha256']).reject { |value| value.to_s.strip.empty? }
+  domains = Array(iocs['domains']).reject { |value| value.to_s.strip.empty? }
+
+  if ips.empty? && md5_hashes.empty? && sha256_hashes.empty? && domains.empty?
+    sections << "*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*"
+    sections << ""
+  else
+    if ips.any?
+      sections << "### IP Addresses"
+      ips.each do |ip|
+        sections << "- `#{ip}`"
+      end
+      sections << ""
     end
-  else
-    sections << "*Pending*"
-  end
-  sections << ""
-  sections << "### File Hashes"
-  if actor['iocs'] && (actor['iocs']['md5'] || actor['iocs']['sha256'])
-    actor['iocs']['md5']&.each { |h| sections << "- `#{h}` (MD5)" }
-    actor['iocs']['sha256']&.each { |h| sections << "- `#{h}` (SHA256)" }
-  else
-    sections << "*Pending*"
-  end
-  sections << ""
-  sections << "### Domains"
-  if actor['iocs'] && actor['iocs']['domains'] && actor['iocs']['domains'].any?
-    actor['iocs']['domains'].each do |d|
-      sections << "- `#{d}`"
+
+    if md5_hashes.any? || sha256_hashes.any?
+      sections << "### File Hashes"
+      md5_hashes.each { |hash| sections << "- `#{hash}` (MD5)" }
+      sha256_hashes.each { |hash| sections << "- `#{hash}` (SHA256)" }
+      sections << ""
     end
-  else
-    sections << "*Pending*"
+
+    if domains.any?
+      sections << "### Domains"
+      domains.each do |domain|
+        sections << "- `#{domain}`"
+      end
+      sections << ""
+    end
   end
-  sections << ""
   
   # Malware
   sections << "## Malware and Tools"

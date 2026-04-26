@@ -25,10 +25,10 @@ FIN7 is a financially-motivated threat group that has been active since 2013. FI
 **Last Activity**: 2024
 **Incident Type**: Financial Theft
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

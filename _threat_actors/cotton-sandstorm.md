@@ -20,10 +20,10 @@ Cotton Sandstorm is an Iranian threat actor involved in hack-and-leak operations
 **Incident Type**: Information Operations
 **Suspected Victims**: United States, Israel, Middle East, Europe
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

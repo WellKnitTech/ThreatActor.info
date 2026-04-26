@@ -20,10 +20,10 @@ Storm-0558 is a China-based threat actor with espionage objectives. While there 
 **Incident Type**: Espionage
 **Suspected Victims**: United States, Germany
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

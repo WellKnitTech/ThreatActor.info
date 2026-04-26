@@ -14,10 +14,10 @@ In Q2 2021, the PT Expert Security Center incident response team conducted an in
 **Targeted Sectors**: Aviation, Energy
 **Suspected Victims**: India, Japan, Nepal, Russia, Taiwan, United States
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

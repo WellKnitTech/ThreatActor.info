@@ -14,10 +14,10 @@ BatShadow is a Vietnamese threat actor that targets job seekers and digital mark
 ## Activities and Tactics
 **Country of Origin**: 🇻🇳 Vietnam
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

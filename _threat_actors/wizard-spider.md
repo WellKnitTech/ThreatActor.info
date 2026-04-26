@@ -19,10 +19,10 @@ GRIM SPIDER is a sophisticated eCrime group that has been operating the Ryuk ran
 **Country of Origin**: 🇷🇺 Russia
 **Suspected Victims**: Australia, Bahamas, Canada, Costa Rica, France, Germany, India, Ireland, Italy, Japan...
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

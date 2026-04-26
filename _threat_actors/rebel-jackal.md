@@ -14,10 +14,10 @@ This is a pro-Islamist organization that generally conducts attacks motivated by
 **Risk Level**: High
 **Incident Type**: Defacement
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

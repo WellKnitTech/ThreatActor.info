@@ -12,10 +12,10 @@ Void Balaur is a highly active hack-for-hire / cyber mercenary group with a wide
 ## Activities and Tactics
 **Suspected Victims**: Brazil, Central African Republic, Georgia, Kazakhstan, Moldova, Russia, Spain, Sudan, Taiwan, Ukraine...
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

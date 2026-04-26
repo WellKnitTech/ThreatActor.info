@@ -12,10 +12,10 @@ Cosmic Lynx is a Russia-based BEC cybercriminal organization that has significan
 ## Activities and Tactics
 **Incident Type**: Business Email Compromise
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

@@ -14,10 +14,10 @@ Chaya_004 is a Chinese threat actor identified through malicious infrastructure,
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

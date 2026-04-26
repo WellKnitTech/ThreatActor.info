@@ -14,10 +14,10 @@ GoldFactory is a threat actor group attributed to developing sophisticated mobil
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

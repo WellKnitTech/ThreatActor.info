@@ -14,10 +14,10 @@ WASSONITE is a North Korea-linked APT that has targeted industrial sectors, incl
 ## Activities and Tactics
 **Country of Origin**: 🇰🇵 North Korea
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

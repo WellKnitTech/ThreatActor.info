@@ -14,10 +14,10 @@ KelvinSecurity is a hacker group that has been active since at least 2015. They 
 ## Activities and Tactics
 **Country of Origin**: 🏳️ Spain
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

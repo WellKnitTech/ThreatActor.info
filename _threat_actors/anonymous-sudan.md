@@ -13,10 +13,10 @@ Since January 23, 2023, a threat actor identifying as "Anonymous Sudan" has been
 **Incident Type**: ["Denial of service"]
 **Suspected Victims**: Denmark, Sweden
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

@@ -20,10 +20,10 @@ Lotus Blossom is a threat group that has targeted government and military organi
 **Incident Type**: Espionage
 **Suspected Victims**: Japan, Philippines, Hong Kong, Indonesia, Taiwan, Vietnam
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

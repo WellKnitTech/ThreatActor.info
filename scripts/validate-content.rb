@@ -62,6 +62,15 @@ class ContentValidator
     '_data/generated/ioc_lookup.json',
     '_data/generated/ioc_types.json'
   ].freeze
+  SKIPPED_IOC_HEADINGS = ['Sources'].freeze
+  IPV4_PATTERN = /\b(?:\d{1,3}\.){3}\d{1,3}\b/.freeze
+  DOMAIN_PATTERN = /\b(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+(?:[a-z]{2,63}|onion)\b/i.freeze
+  EMAIL_PATTERN = /\b[A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,63}\b/i.freeze
+  URL_PATTERN = %r{\b(?:https?|ftp)://[^\s<>()]+}i.freeze
+  FILE_EXTENSION_PATTERN = /\.[a-z0-9]{2,12}\b/i.freeze
+  FILENAME_PATTERN = /\b[\w.-]+\.[A-Za-z0-9]{2,12}\b/.freeze
+  CVE_PATTERN = /\bCVE-\d{4}-\d{4,7}\b/i.freeze
+  ATTACK_TECHNIQUE_PATTERN = /\bT\d{4}(?:\.\d{3})?\b/i.freeze
 
   def initialize
     @errors = []
@@ -69,7 +78,7 @@ class ContentValidator
     @threat_actors_data = []
     @pages = {}
     @config = {}
-    @ioc_section_signatures = {}
+    @ioc_occurrences = Hash.new { |hash, key| hash[key] = [] }
   end
 
   def validate_all
@@ -214,7 +223,7 @@ class ContentValidator
 
       validate_front_matter(page_path, actor, page[:front_matter])
       validate_required_sections(page_path, page[:body])
-      track_ioc_section_signature(page_path, page[:body])
+      track_ioc_occurrences(page_path, page[:body])
     end
   end
 
@@ -247,14 +256,166 @@ class ContentValidator
     end
   end
 
-  def track_ioc_section_signature(page_path, body)
+  def track_ioc_occurrences(page_path, body)
     ioc_section = extract_section(body, 'Notable Indicators of Compromise (IOCs)')
     return if ioc_section.empty?
 
-    signature = ioc_section.each_line.map { |line| normalize_ioc_line(line) }.reject(&:empty?).join("\n")
-    return if signature.empty?
+    extract_atomic_iocs(ioc_section).each do |ioc|
+      key = [ioc[:type], ioc[:normalized_value]]
+      @ioc_occurrences[key] << page_path unless @ioc_occurrences[key].include?(page_path)
+    end
+  end
 
-    @ioc_section_signatures[page_path] = signature
+  def extract_atomic_iocs(section)
+    current_heading = 'General'
+    seen = {}
+
+    section.each_line.each_with_object([]) do |line, records|
+      stripped = line.strip
+      next if stripped.empty?
+
+      if stripped.start_with?('### ')
+        current_heading = stripped.sub(/^###\s+/, '').strip
+        next
+      end
+
+      next unless stripped.match?(/^[-*]\s+/)
+      next if SKIPPED_IOC_HEADINGS.include?(current_heading)
+
+      content = stripped.sub(/^[-*]\s+/, '').strip
+      extract_indicator_candidates(content, current_heading).each do |candidate|
+        key = [candidate[:inferred_type], candidate[:normalized_value]].join('|')
+        next if candidate[:normalized_value].empty? || seen[key]
+
+        seen[key] = true
+        records << { type: candidate[:inferred_type], normalized_value: candidate[:normalized_value] }
+      end
+    end
+  end
+
+  def extract_indicator_candidates(content, heading)
+    candidates = []
+    normalized_heading = heading.to_s.downcase
+
+    content.scan(/`([^`]+)`/).flatten.each do |value|
+      inferred_type = infer_indicator_type(value, normalized_heading)
+      next unless inferred_type
+
+      normalized_value = normalize_indicator(value, inferred_type)
+      next if normalized_value.empty?
+
+      candidates << { inferred_type: inferred_type, normalized_value: normalized_value }
+    end
+
+    plain_text = normalize_text_for_extraction(content)
+    candidates.concat(scan_pattern_candidates(plain_text, normalized_heading))
+    dedupe_indicator_candidates(candidates)
+  end
+
+  def scan_pattern_candidates(content, normalized_heading)
+    candidates = []
+    candidates.concat(build_indicator_candidates(content.scan(URL_PATTERN), 'url'))
+    candidates.concat(build_indicator_candidates(content.scan(EMAIL_PATTERN), 'email'))
+    candidates.concat(build_indicator_candidates(content.scan(CVE_PATTERN), 'cve'))
+    candidates.concat(build_indicator_candidates(content.scan(ATTACK_TECHNIQUE_PATTERN), 'attack_technique'))
+    candidates.concat(build_indicator_candidates(content.scan(IPV4_PATTERN).select { |value| valid_ipv4?(value) }, 'ip_address'))
+    candidates.concat(build_indicator_candidates(content.scan(DOMAIN_PATTERN), 'domain'))
+
+    if normalized_heading.include?('file extension')
+      candidates.concat(build_indicator_candidates(content.scan(FILE_EXTENSION_PATTERN), 'file_extension'))
+    end
+
+    if normalized_heading.include?('ransom') || normalized_heading.include?('note') || normalized_heading.include?('filename')
+      candidates.concat(build_indicator_candidates(content.scan(FILENAME_PATTERN), 'filename'))
+    end
+
+    candidates
+  end
+
+  def build_indicator_candidates(values, inferred_type)
+    Array(values).flatten.filter_map do |value|
+      normalized_value = normalize_indicator(value, inferred_type)
+      next if normalized_value.empty?
+
+      { inferred_type: inferred_type, normalized_value: normalized_value }
+    end
+  end
+
+  def dedupe_indicator_candidates(candidates)
+    seen = {}
+
+    candidates.each_with_object([]) do |candidate, records|
+      key = [candidate[:inferred_type], candidate[:normalized_value]].join('|')
+      next if seen[key]
+
+      seen[key] = true
+      records << candidate
+    end
+  end
+
+  def infer_indicator_type(value, normalized_heading = nil)
+    normalized_value = normalize_text_for_extraction(value)
+
+    return 'sha256' if normalized_value.match?(/\A[a-f0-9]{64}\z/i)
+    return 'sha1' if normalized_value.match?(/\A[a-f0-9]{40}\z/i)
+    return 'md5' if normalized_value.match?(/\A[a-f0-9]{32}\z/i)
+    return 'cve' if normalized_value.match?(CVE_PATTERN)
+    return 'attack_technique' if normalized_value.match?(ATTACK_TECHNIQUE_PATTERN)
+    return 'url' if normalized_value.match?(URL_PATTERN)
+    return 'email' if normalized_value.match?(EMAIL_PATTERN)
+    return 'ip_address' if normalized_value.match?(IPV4_PATTERN) && valid_ipv4?(normalized_value)
+    return 'file_extension' if normalized_value.match?(/\A\.[a-z0-9]{2,12}\z/i)
+    return 'filename' if filename_candidate?(normalized_value, normalized_heading)
+    return 'domain' if normalized_value.match?(/\A#{DOMAIN_PATTERN.source}\z/i)
+
+    nil
+  end
+
+  def filename_candidate?(value, normalized_heading)
+    return false unless value.match?(/\A[\w.-]+\.[A-Za-z0-9]{2,12}\z/)
+    return false if value.include?('..')
+    return false if value.match?(/\A#{DOMAIN_PATTERN.source}\z/i)
+
+    normalized_heading.to_s.include?('ransom') || normalized_heading.to_s.include?('note') || normalized_heading.to_s.include?('filename')
+  end
+
+  def normalize_indicator(value, inferred_type = nil)
+    canonical_value = normalize_text_for_extraction(value)
+    canonical_value = canonical_value.gsub(/[\]\)>.,;:]+\z/, '')
+    canonical_value = canonical_value.gsub(/\A[\[(<"']+/, '')
+    canonical_value = canonical_value.gsub(/["']+\z/, '')
+
+    if %w[domain url email file_extension cve attack_technique md5 sha1 sha256].include?(inferred_type)
+      canonical_value = canonical_value.downcase
+    end
+
+    canonical_value
+  end
+
+  def normalize_text_for_extraction(text)
+    strip_markdown(text)
+      .gsub('[.]', '.')
+      .gsub('(.)', '.')
+      .gsub('[:]', ':')
+      .gsub('[://]', '://')
+      .gsub('[@]', '@')
+      .gsub(/^hxxps:/i, 'https:')
+      .gsub(/^hxxp:/i, 'http:')
+      .gsub(/\s+/, ' ')
+      .strip
+  end
+
+  def valid_ipv4?(value)
+    value.split('.').length == 4 && value.split('.').all? { |part| part.to_i.to_s == part && part.to_i.between?(0, 255) }
+  end
+
+  def strip_markdown(text)
+    text.to_s
+      .gsub(/`([^`]+)`/, '\1')
+      .gsub(/\*\*([^*]+)\*\*/, '\1')
+      .gsub(/\[([^\]]+)\]\([^\)]+\)/, '\1')
+      .gsub(/\s+/, ' ')
+      .strip
   end
 
   def validate_orphan_pages
@@ -337,15 +498,15 @@ class ContentValidator
   end
 
   def validate_duplicate_ioc_sections
-    puts 'Checking for duplicated IOC sections across pages...'
+    puts 'Checking for duplicated IOC indicators across pages...'
 
-    grouped = @ioc_section_signatures.group_by { |_path, signature| signature }
-    grouped.each_value do |entries|
-      next if entries.length < 2
+    @ioc_occurrences.each do |(type, normalized_value), page_paths|
+      next if page_paths.length < 2
 
-      page_paths = entries.map(&:first).sort
-      page_paths.each do |page_path|
-        add_warning(page_path, "IOC section content is duplicated across pages: #{page_paths.join(', ')}")
+      sorted_paths = page_paths.sort
+      warning = "IOC #{normalized_value.inspect} (#{type}) appears on multiple pages: #{sorted_paths.join(', ')}"
+      sorted_paths.each do |page_path|
+        add_warning(page_path, warning)
       end
     end
   end
@@ -354,14 +515,6 @@ class ContentValidator
     pattern = /^##\s+#{Regexp.escape(heading)}\s*$\n?(.*?)(?=^##\s+|\z)/m
     match = body.match(pattern)
     match ? match[1] : ''
-  end
-
-  def normalize_ioc_line(line)
-    line.to_s
-      .downcase
-      .gsub(/\[([^\]]+)\]\([^\)]+\)/, '\1')
-      .gsub(/\s+/, ' ')
-      .strip
   end
 
   def safe_load_yaml_file(path)

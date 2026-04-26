@@ -22,10 +22,10 @@ LockBit is a ransomware-as-a-service operation known for its fast encryption and
 **First Seen**: 2019
 **Last Activity**: 2024
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

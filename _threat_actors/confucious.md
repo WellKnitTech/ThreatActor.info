@@ -14,10 +14,10 @@ Confucius is an APT organization funded by India. It has been carrying out cyber
 ## Activities and Tactics
 **Country of Origin**: 🇮🇳 India
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

@@ -26,10 +26,10 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 **Last Activity**: 2024
 **Suspected Victims**: China, France, Hong Kong, India, Italy, Japan, Myanmar, Netherlands, Singapore, South Korea...
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

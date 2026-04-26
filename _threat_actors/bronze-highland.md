@@ -15,10 +15,10 @@ BRONZE HIGHLAND has been observed using spearphishing as an initial infection ve
 **Country of Origin**: 🇨🇳 China
 **Suspected Victims**: Hong Kong, Malaysia, India, Taiwan, Macao, Nigeria
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

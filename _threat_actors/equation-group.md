@@ -20,10 +20,10 @@ The Equation Group is a highly sophisticated threat actor described by its disco
 **Incident Type**: Espionage
 **Suspected Victims**: Iran, Afghanistan, Syria, Yemen, Kenya, Russia, India, Mali, Algeria, United Kingdom...
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

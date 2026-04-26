@@ -18,10 +18,10 @@ One of the threat actors responsible for the denial of service attacks against U
 **Incident Type**: ["Denial of service"]
 **Suspected Victims**: United States, Bank of America, US Bancorp, Fifth Third Bank, Citigroup, PNC, BB&T, Wells Fargo, Capital One, HSBC...
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

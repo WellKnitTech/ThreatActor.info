@@ -20,10 +20,10 @@ BANISHED KITTEN is an Iranian state-nexus adversary active since at least 2008. 
 **Incident Type**: ["Espionage", "Information Operations", "Sabotage"]
 **Suspected Victims**: United States, Israel, Middle East, Europe
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

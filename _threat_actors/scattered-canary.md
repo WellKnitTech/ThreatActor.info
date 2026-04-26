@@ -19,10 +19,10 @@ from targeting individuals to targeting enterprises, and the group’s BEC opera
 ## Activities and Tactics
 **Country of Origin**: 🇳🇬 Nigeria
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

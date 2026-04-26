@@ -14,10 +14,10 @@ H0lyGh0st is a North Korean threat actor that has been active since June 2021. T
 ## Activities and Tactics
 **Country of Origin**: 🇰🇵 North Korea
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

@@ -22,10 +22,10 @@ Ryuk is a ransomware operation known for targeting large organizations and deman
 **First Seen**: 2018
 **Last Activity**: 2021
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

@@ -19,10 +19,10 @@ Ghostwriter is referred as an 'activity set', with various incidents tied togeth
 **Risk Level**: High
 **Suspected Victims**: Germany, Latvia, Lithuania, Poland, Ukraine
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

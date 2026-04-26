@@ -20,10 +20,10 @@ China-based cyber threat group. It has previously used newsworthy events as lure
 **Incident Type**: Espionage
 **Suspected Victims**: Hong Kong, United States
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

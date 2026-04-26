@@ -14,10 +14,10 @@ Bearlyfy has been attributed to over 70 cyber attacks targeting Russian companie
 ## Activities and Tactics
 **Country of Origin**: 🇺🇦 Ukraine
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

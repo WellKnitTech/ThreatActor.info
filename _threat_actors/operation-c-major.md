@@ -18,10 +18,10 @@ Group targeting Indian Army or related assets in India, as well as activists and
 **Country of Origin**: 🇵🇰 Pakistan
 **Risk Level**: High
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

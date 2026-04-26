@@ -15,10 +15,10 @@ In early 2021 CTU researchers observed BRONZE EDGEWOOD exploiting the Microsoft 
 **Country of Origin**: 🇨🇳 China
 **Suspected Victims**: Kyrgyzstan, Malaysia, Vietnam
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

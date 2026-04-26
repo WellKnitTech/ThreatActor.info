@@ -14,10 +14,10 @@ Angry Likho is an APT group that has been active since 2023, primarily targeting
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

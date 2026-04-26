@@ -14,10 +14,10 @@ Storm-0867 is a threat actor that has been active since 2012 and has targeted va
 ## Activities and Tactics
 **Country of Origin**: 🏳️ Egypt
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

@@ -14,10 +14,10 @@ The Cyber Partisans, a hacktivist group based in Belarus, has been involved in v
 ## Activities and Tactics
 **Country of Origin**: 🏳️ Belarus
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

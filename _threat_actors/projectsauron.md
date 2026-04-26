@@ -20,10 +20,10 @@ ProjectSauron is the name for a top level modular cyber-espionage platform, desi
 **Incident Type**: Espionage
 **Suspected Victims**: Russia, Iran, Belgium, China, Sweden, Rwanda
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

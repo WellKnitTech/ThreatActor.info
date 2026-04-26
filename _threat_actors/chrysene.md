@@ -21,10 +21,10 @@ This threat actor targets organizations involved in oil, gas, and electricity pr
 **Incident Type**: Espionage
 **Suspected Victims**: Iraq, United Kingdom, Pakistan, Israel
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

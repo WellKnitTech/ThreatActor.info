@@ -16,10 +16,10 @@ The Callisto Group is an advanced threat actor whose known targets include milit
 **Targeted Sectors**: Government Administration, Military, Think Tanks, Journalist
 **Country of Origin**: 🇷🇺 Russia
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

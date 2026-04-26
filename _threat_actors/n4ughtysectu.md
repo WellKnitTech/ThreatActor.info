@@ -14,10 +14,10 @@ In March 2022, a hacking group calling themselves N4ughtySecTU claimed to have b
 ## Activities and Tactics
 **Country of Origin**: 🇧🇷 Brazil
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

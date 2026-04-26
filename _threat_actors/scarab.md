@@ -16,10 +16,10 @@ Scarab APT was first spotted in 2015, but is believed to have been active since 
 **Incident Type**: Espionage
 **Suspected Victims**: Russia, Ukraine, United States
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

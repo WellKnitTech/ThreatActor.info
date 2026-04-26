@@ -19,10 +19,10 @@ sector_focus: ["Private Sector", "Gambling companies", "Gaming", "Information te
 **Risk Level**: Critical
 **Suspected Victims**: China, Hong Kong, Kazakhstan, Taiwan, Philippines
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

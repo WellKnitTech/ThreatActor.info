@@ -14,10 +14,10 @@ The Ukrainian Cyber Alliance is a pro-Ukraine hacktivist group formed in 2016, p
 ## Activities and Tactics
 **Country of Origin**: 🇺🇦 Ukraine
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

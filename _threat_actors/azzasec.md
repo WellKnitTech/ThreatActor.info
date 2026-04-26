@@ -23,10 +23,10 @@ AzzaSec is a hacktivist group that originated in Italy. Known for their pro-Pale
 ## Activities and Tactics
 **Country of Origin**: 🏳️ Italy
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

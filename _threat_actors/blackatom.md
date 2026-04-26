@@ -26,10 +26,10 @@ the Israeli military, as well as Israel’s aerospace and defense industry
 **Incident Type**: Espionage
 **Suspected Victims**: Israel
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

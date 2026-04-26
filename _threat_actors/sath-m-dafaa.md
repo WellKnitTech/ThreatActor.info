@@ -17,10 +17,10 @@ A Turkish hacking group, Sath-ı Müdafaa, is encouraging individuals to join it
 **Risk Level**: High
 **Incident Type**: Denial of service
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

@@ -20,10 +20,10 @@ NightEagle is an advanced Threat Actor that targeted China's High-Tech Industry 
 **Incident Type**: Espionage
 **Suspected Victims**: China
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

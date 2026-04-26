@@ -13,10 +13,10 @@ Dragos has identified a new activity group targeting access operations in the el
 ## Activities and Tactics
 **Targeted Sectors**: Electric
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

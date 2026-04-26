@@ -20,10 +20,10 @@ A Russian group that collects intelligence on the energy industry.
 **Incident Type**: Espionage
 **Suspected Victims**: United States, Germany, Turkey, China, Spain, France, Ireland, Japan, Italy, Poland
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

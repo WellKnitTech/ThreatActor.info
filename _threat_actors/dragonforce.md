@@ -15,10 +15,10 @@ DragonForce is a ransomware-as-a-service (RaaS) group first identified in late 2
 ## Activities and Tactics
 **Country of Origin**: 🏳️ Malaysia
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

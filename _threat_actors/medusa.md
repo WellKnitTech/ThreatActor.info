@@ -22,10 +22,10 @@ Medusa is a long-time presence in the ransomware scene that stepped up its activ
 **First Seen**: 2021
 **Last Activity**: 2025
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

@@ -20,10 +20,10 @@ This threat actor targets organizations in the satellite communications, telecom
 **Incident Type**: Espionage
 **Suspected Victims**: Pakistan, Iraq, Australia, Afghanistan, United Arab Emirates, Germany, India, United States
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

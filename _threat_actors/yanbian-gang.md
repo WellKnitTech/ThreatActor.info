@@ -12,10 +12,10 @@ RiskIQ characterizes the Yanbian Gang as a group that targeted South Korean Andr
 ## Activities and Tactics
 **Suspected Victims**: South Korea, Japan
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

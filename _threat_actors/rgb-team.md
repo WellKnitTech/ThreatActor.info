@@ -12,10 +12,10 @@ RGB-TEAM is a previously unknown Russian-speaking threat actor. They describe th
 ## Activities and Tactics
 **Suspected Victims**: Russia
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

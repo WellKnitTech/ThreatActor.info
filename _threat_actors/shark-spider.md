@@ -18,10 +18,10 @@ This group's activity was first observed in November 2013. It leverages a bankin
 **Country of Origin**: 🇷🇺 Russia
 **Risk Level**: High
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

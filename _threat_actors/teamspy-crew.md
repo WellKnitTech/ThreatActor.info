@@ -22,10 +22,10 @@ Researchers at the CrySyS Lab in Hungary were alerted by the Hungarian National 
 **Incident Type**: Espionage
 **Suspected Victims**: Hungary, Belarus
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

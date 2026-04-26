@@ -20,10 +20,10 @@ El Machete is one of these threats that was first publicly disclosed and named b
 **Incident Type**: Espionage
 **Suspected Victims**: Venezuela, Russia, Cuba, China, Belgium, Ecuador, Brazil, Spain, Germany, France...
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

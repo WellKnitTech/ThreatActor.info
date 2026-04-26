@@ -20,10 +20,10 @@ Dropping Elephant (also known as “Chinastrats” and “Patchwork“) is a rel
 **Incident Type**: Espionage
 **Suspected Victims**: Bangladesh, Sri Lanka, Pakistan
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

@@ -13,10 +13,10 @@ On May 7, 2019, Mayor Bernard “Jack” Young confirmed that the network for th
 ## Activities and Tactics
 **Targeted Sectors**: Government, Administration
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

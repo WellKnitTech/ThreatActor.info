@@ -15,10 +15,10 @@ The Bitter threat group initially started using RAT tools in their campaigns, as
 **Country of Origin**: 🇮🇳 India
 **Suspected Victims**: Germany
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

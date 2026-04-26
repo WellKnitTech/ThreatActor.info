@@ -20,10 +20,10 @@ Tick is a cyber espionage group with likely Chinese origins that has been active
 **Incident Type**: Espionage
 **Suspected Victims**: Japan, China, South Korea, Russian Federation
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)

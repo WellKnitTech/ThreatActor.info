@@ -28,10 +28,10 @@ APT28 reportedly compromised the Hillary Clinton campaign, the Democratic Nation
 **Incident Type**: Espionage
 **Suspected Victims**: Georgia, France, Jordan, United States, Hungary, World Anti-Doping Agency, Armenia, Tajikistan, Japan, NATO...
 
-### Notable Campaigns
+## Notable Campaigns
 *Information pending cataloguing.*
 
-### Tactics, Techniques, and Procedures (TTPs)
+## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
