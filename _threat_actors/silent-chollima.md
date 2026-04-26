@@ -12,7 +12,7 @@ risk_level: "High"
 Andariel is a threat actor that primarily targets South Korean corporations and institutions. They are believed to collaborate with or operate as a subsidiary organization of the Lazarus threat group. WHOIS utilizes spear phishing attacks, watering hole attacks, and supply chain attacks for initial access. They have been known to exploit vulnerabilities and use malware such as Infostealer and TigerRAT.
 
 ## Activities and Tactics
-**Country of Origin**: North Korea
+**Country of Origin**: 🇰🇵 North Korea
 **Risk Level**: High
 
 ### Notable Campaigns

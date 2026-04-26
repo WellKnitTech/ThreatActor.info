@@ -12,7 +12,7 @@ risk_level: "High"
 Founded in 2004, Turkhackteam is one of Turkey’s oldest and most high-profile hacking collectives. According to a list compiled on Turkhackteam’s forum, the group has carried out almost 30 highly publicized hacking campaigns targeting foreign government and commercial websites, including websites of international corporations. 
 
 ## Activities and Tactics
-**Country of Origin**: Turkey
+**Country of Origin**: 🇹🇷 Turkey
 **Risk Level**: High
 
 ### Notable Campaigns

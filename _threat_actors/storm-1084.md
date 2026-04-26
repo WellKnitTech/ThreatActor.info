@@ -11,7 +11,7 @@ country: "Iran"
 Storm-1084 is a threat actor that has been observed collaborating with the MuddyWater group. They have used the DarkBit persona to mask their involvement in targeted attacks. Storm-1084 has been linked to destructive actions, including the encryption of on-premise devices and deletion of cloud resources. They have been observed using tools such as Rport, Ligolo, and a customized PowerShell backdoor. The extent of their autonomy or collaboration with other Iranian threat actors is currently unclear.
 
 ## Activities and Tactics
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 
 ### Notable Campaigns
 *Information pending cataloguing.*

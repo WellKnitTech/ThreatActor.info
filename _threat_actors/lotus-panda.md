@@ -14,7 +14,7 @@ Lotus Blossom is a threat group that has targeted government and military organi
 
 ## Activities and Tactics
 **Targeted Sectors**: Military, Government, Administration, Government
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 **Risk Level**: High
 
 ### Notable Campaigns

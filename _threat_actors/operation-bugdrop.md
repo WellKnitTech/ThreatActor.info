@@ -14,7 +14,7 @@ This threat actor targets critical infrastructure entities in the oil and gas se
 
 ## Activities and Tactics
 **Targeted Sectors**: Private sector
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 **Risk Level**: High
 
 ### Notable Campaigns

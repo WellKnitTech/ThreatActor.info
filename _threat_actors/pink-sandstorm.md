@@ -11,7 +11,7 @@ country: "Iran"
 Agonizing Serpens is an Iranian-linked APT group that has been active since 2020. They are known for their destructive wiper and fake-ransomware attacks, primarily targeting Israeli organizations in the education and technology sectors. The group has strong connections to Iran's Ministry of Intelligence and Security and has been observed using various tools and techniques to bypass security measures. They aim to steal sensitive information, including PII and intellectual property, and inflict damage by wiping endpoints.
 
 ## Activities and Tactics
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 
 ### Notable Campaigns
 *Information pending cataloguing.*

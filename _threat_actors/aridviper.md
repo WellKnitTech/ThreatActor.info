@@ -13,7 +13,7 @@ AridViper is a state-sponsored APT primarily targeting military personnel, journ
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Defense, Energy, Finance, Education, High-Tech, Telecoms, Transportation, Media, NGOs, Civil Society, Legal, Military
-**Country of Origin**: Palestine
+**Country of Origin**: 🏳️ Palestine
 
 ### Notable Campaigns
 *Information pending cataloguing.*

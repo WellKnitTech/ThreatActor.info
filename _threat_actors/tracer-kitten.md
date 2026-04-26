@@ -13,7 +13,7 @@ In April 2020, Crowstrike Falcon OverWatch discovered Iran-based adversary TRACE
 
 ## Activities and Tactics
 **Targeted Sectors**: Telecoms
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 
 ### Notable Campaigns
 *Information pending cataloguing.*

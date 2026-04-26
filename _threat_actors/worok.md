@@ -14,7 +14,7 @@ Worok is a cyber espionage group, mostly targeting Central Asia. The group tools
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Energy Company
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 **Risk Level**: High
 
 ### Notable Campaigns

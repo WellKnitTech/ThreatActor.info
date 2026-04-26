@@ -14,7 +14,7 @@ sector_focus: ["Government", "Military"]
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Military
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 **Risk Level**: High
 
 ### Notable Campaigns

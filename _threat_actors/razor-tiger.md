@@ -13,7 +13,7 @@ An actor mainly targeting Pakistan military targets, active since at least 2012.
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Military, Private Sector
-**Country of Origin**: India
+**Country of Origin**: 🇮🇳 India
 
 ### Notable Campaigns
 *Information pending cataloguing.*

@@ -18,7 +18,7 @@ Leviathan is a Chinese state-sponsored cyber espionage group that has been attri
 
 ## Activities and Tactics
 **Targeted Sectors**: Maritime, Government, Defense
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 **Risk Level**: High
 **First Seen**: 2013
 **Last Activity**: 2024

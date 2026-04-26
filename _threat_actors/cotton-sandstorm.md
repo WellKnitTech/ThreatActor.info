@@ -14,7 +14,7 @@ Cotton Sandstorm is an Iranian threat actor involved in hack-and-leak operations
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Finance, High-Tech, Telecoms, NGOs, Civil Society, Rail, Energy
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 **Risk Level**: High
 
 ### Notable Campaigns

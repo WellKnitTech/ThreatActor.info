@@ -14,7 +14,7 @@ sector_focus: ["Private sector", "Civil society"]
 
 ## Activities and Tactics
 **Targeted Sectors**: Private sector, Civil society
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 **Risk Level**: High
 
 ### Notable Campaigns

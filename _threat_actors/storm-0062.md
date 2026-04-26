@@ -11,7 +11,7 @@ country: "China"
 The cyberattack campaign that Microsoft uncovered was launched by a China-linked hacking group called Storm-0062. According to the company, the group is launching cyberattacks by exploiting a vulnerability in the Data Center and Server editions of Confluence. Those are versions of the application that companies run on-premises.
 
 ## Activities and Tactics
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

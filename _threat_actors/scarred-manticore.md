@@ -11,7 +11,7 @@ country: "Iran"
 Scarred Manticore has been pursuing high-value targets for years, utilizing a variety of IIS-based backdoors to attack Windows servers. These include a variety of custom web shells, custom DLL backdoors, and driver-based implants.
 
 ## Activities and Tactics
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 
 ### Notable Campaigns
 *Information pending cataloguing.*

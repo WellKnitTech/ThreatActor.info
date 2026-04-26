@@ -14,7 +14,7 @@ In 2014, researchers at Kaspersky Lab discovered and reported on three zero-days
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Private sector
-**Country of Origin**: France
+**Country of Origin**: 🇫🇷 France
 **Risk Level**: High
 
 ### Notable Campaigns

@@ -14,7 +14,7 @@ A Russian group that collects intelligence on the energy industry.
 
 ## Activities and Tactics
 **Targeted Sectors**: Energy, Private sector, Government
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 **Risk Level**: Critical
 
 ### Notable Campaigns

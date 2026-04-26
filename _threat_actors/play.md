@@ -18,7 +18,7 @@ Play is a ransomware group that has been active since at least 2022 deploying  P
 
 ## Activities and Tactics
 **Targeted Sectors**: Healthcare, Education, Government, Technology
-**Country of Origin**: Unknown
+**Country of Origin**: 🏳️ Unknown
 **Risk Level**: High
 **First Seen**: 2022
 **Last Activity**: 2025

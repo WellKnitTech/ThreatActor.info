@@ -11,7 +11,7 @@ country: "China"
 MirrorFace is a Chinese-speaking advanced persistent threat group that has been targeting high-value organizations in Japan, including media, government, diplomatic, and political entities. They have been conducting spear-phishing campaigns, utilizing malware such as LODEINFO and MirrorStealer to steal credentials and exfiltrate sensitive data. While there is speculation about their connection to APT10, ESET currently track them as a separate entity.
 
 ## Activities and Tactics
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

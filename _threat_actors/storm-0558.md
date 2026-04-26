@@ -14,7 +14,7 @@ Storm-0558 is a China-based threat actor with espionage objectives. While there 
 
 ## Activities and Tactics
 **Targeted Sectors**: Government
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 **Risk Level**: High
 
 ### Notable Campaigns

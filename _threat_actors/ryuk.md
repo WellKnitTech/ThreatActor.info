@@ -16,7 +16,7 @@ Ryuk is a ransomware operation known for targeting large organizations and deman
 
 ## Activities and Tactics
 **Targeted Sectors**: Healthcare, Government, Education
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 **Risk Level**: Critical
 **First Seen**: 2018
 **Last Activity**: 2021

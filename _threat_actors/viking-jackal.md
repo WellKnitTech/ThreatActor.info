@@ -12,7 +12,7 @@ risk_level: "High"
 
 
 ## Activities and Tactics
-**Country of Origin**: United Arab Emirates
+**Country of Origin**: 🏳️ United Arab Emirates
 **Risk Level**: High
 
 ### Notable Campaigns

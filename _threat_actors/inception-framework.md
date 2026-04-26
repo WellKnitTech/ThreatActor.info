@@ -14,7 +14,7 @@ This threat actor uses spear-phishing techniques to target private-sector energy
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Private sector
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 **Risk Level**: High
 
 ### Notable Campaigns

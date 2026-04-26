@@ -11,7 +11,7 @@ country: "Russia"
 Hunt3r Kill3rs is a newly emerged threat group claiming expertise in cyber operations, including ICS breaches and web application vulnerabilities exploitation. They have discussed using Java fuzzing in their exploits and have made unverified claims of joint attacks with other threat actors.
 
 ## Activities and Tactics
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 
 ### Notable Campaigns
 *Information pending cataloguing.*

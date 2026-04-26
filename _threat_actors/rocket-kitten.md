@@ -14,7 +14,7 @@ Targets Saudi Arabia, Israel, US, Iran, high ranking defense officials, embassie
 
 ## Activities and Tactics
 **Targeted Sectors**: Activists, Defense, Journalist, Research - Innovation, Academia - University, Government, Administration, Government, Military
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 **Risk Level**: High
 
 ### Notable Campaigns

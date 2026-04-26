@@ -16,7 +16,7 @@ Medusa is a long-time presence in the ransomware scene that stepped up its activ
 
 ## Activities and Tactics
 **Targeted Sectors**: Healthcare, Education, Government, Technology
-**Country of Origin**: Unknown
+**Country of Origin**: 🏳️ Unknown
 **Risk Level**: High
 **First Seen**: 2021
 **Last Activity**: 2025

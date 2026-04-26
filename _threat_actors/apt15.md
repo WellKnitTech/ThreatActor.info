@@ -14,7 +14,7 @@ This threat actor uses phishing techniques to compromise the networks of foreign
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Administration, Government
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 **Risk Level**: High
 
 ### Notable Campaigns

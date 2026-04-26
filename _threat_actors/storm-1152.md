@@ -11,7 +11,7 @@ country: "Vietnam"
 Storm-1152, a cybercriminal group, was recently taken down by Microsoft for illegally reselling Outlook accounts. They operated by creating approximately 750 million fraudulent Microsoft accounts and earned millions of dollars in illicit revenue. Storm-1152 also offered CAPTCHA-solving services and was connected to ransomware and extortion groups. Microsoft obtained a court order to seize their infrastructure and domains, disrupting their operations.
 
 ## Activities and Tactics
-**Country of Origin**: Vietnam
+**Country of Origin**: 🇻🇳 Vietnam
 
 ### Notable Campaigns
 *Information pending cataloguing.*

@@ -12,7 +12,7 @@ risk_level: "High"
 A group targeting dissident groups in China and at the boundaries.
 
 ## Activities and Tactics
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 **Risk Level**: High
 
 ### Notable Campaigns

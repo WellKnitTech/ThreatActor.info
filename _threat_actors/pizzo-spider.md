@@ -12,7 +12,7 @@ risk_level: "High"
 
 
 ## Activities and Tactics
-**Country of Origin**: United States
+**Country of Origin**: 🇺🇸 United States
 **Risk Level**: High
 
 ### Notable Campaigns

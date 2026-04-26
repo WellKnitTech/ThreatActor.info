@@ -11,7 +11,7 @@ country: "Russia"
 Void Blizzard’s cyberespionage operations tend to be highly targeted at specific organizations of interest to the Russian government, including in government, defense, transportation, media, non-governmental organizations (NGOs), and healthcare sectors primarily in Europe and North America. The threat actor uses stolen credentials—which are likely procured from commodity infostealer ecosystems—and collects a high volume of email and files from compromised organizations.
 
 ## Activities and Tactics
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 
 ### Notable Campaigns
 *Information pending cataloguing.*

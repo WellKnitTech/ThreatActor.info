@@ -11,7 +11,7 @@ country: "Russia"
 RuskiNet is a pro-Russian hacktivist collective associated with disruptive operations including DDoS attacks, website defacements, phishing, and data leaks against government, infrastructure, financial, and civil targets.
 
 ## Activities and Tactics
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 
 ### Notable Campaigns
 *Information pending cataloguing.*

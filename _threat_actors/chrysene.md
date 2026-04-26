@@ -15,7 +15,7 @@ This threat actor targets organizations involved in oil, gas, and electricity pr
 
 ## Activities and Tactics
 **Targeted Sectors**: Private sector
-**Country of Origin**: Unknown
+**Country of Origin**: 🏳️ Unknown
 **Risk Level**: High
 
 ### Notable Campaigns

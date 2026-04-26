@@ -11,7 +11,7 @@ country: "North Korea"
 Konni is a threat actor associated with APT37, a North Korean cyber crime group. They have been active since 2012 and are known for their cyber-espionage activities. Konni has targeted various sectors, including education, government, business organizations, and the cryptocurrency industry. They have exploited vulnerabilities such as CVE-2023-38831 and have used malware like KonniRAT to gain control of victim hosts and steal important information.
 
 ## Activities and Tactics
-**Country of Origin**: North Korea
+**Country of Origin**: 🇰🇵 North Korea
 
 ### Notable Campaigns
 *Information pending cataloguing.*

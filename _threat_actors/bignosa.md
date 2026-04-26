@@ -11,7 +11,7 @@ country: "Kenya"
 Bignosa is a threat actor known for launching malware campaigns targeting Australian and US organizations using phishing emails with disguised Agent Tesla attachments protected by Cassandra Protector. They compromised servers by installing Plesk and RoundCube, connected via SSH and RDP, and used advanced obfuscation methods to evade detection. Bignosa collaborated with another cybercriminal named Gods, who provided advice and assistance in their malicious activities. The actor has been linked to multiple phishing attacks and malware distribution campaigns, showcasing a high level of sophistication in their operations.
 
 ## Activities and Tactics
-**Country of Origin**: Kenya
+**Country of Origin**: 🏳️ Kenya
 
 ### Notable Campaigns
 *Information pending cataloguing.*

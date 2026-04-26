@@ -11,7 +11,7 @@ country: "China"
 In early 2023, the Check Point Incident Response Team (CPIRT) team investigated a malware incident at a European healthcare institution involving a set of tools mentioned in the Avast report in late 2022. The incident was attributed to Camaro Dragon, a Chinese-based espionage threat actor whose activities overlap with activities tracked by different researchers as Mustang Panda and LuminousMoth, whose focus is primarily on Southeast Asian countries and their close peers.
 
 ## Activities and Tactics
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

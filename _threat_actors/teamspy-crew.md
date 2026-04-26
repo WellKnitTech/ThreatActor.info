@@ -16,7 +16,7 @@ Researchers at the CrySyS Lab in Hungary were alerted by the Hungarian National 
 
 ## Activities and Tactics
 **Targeted Sectors**: Activists, Intelligence, Government, Administration, Government, Private sector
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 **Risk Level**: High
 
 ### Notable Campaigns

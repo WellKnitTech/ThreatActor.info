@@ -15,7 +15,7 @@ GRIM SPIDER is a sophisticated eCrime group that has been operating the Ryuk ran
 
 ## Activities and Tactics
 **Targeted Sectors**: Defense, Financial, Government, Healthcare, Telecommunications
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 
 ### Notable Campaigns
 *Information pending cataloguing.*

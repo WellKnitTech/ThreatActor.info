@@ -11,7 +11,7 @@ country: "China"
 Earth Krahang is an APT group targeting government organizations worldwide. They use spear-phishing emails, weak internet-facing servers, and custom backdoors like Cobalt Strike, RESHELL, and XDealer to conduct cyber espionage. The group creates VPN servers on infected systems, employs brute force attacks on email accounts, and exploits compromised government infrastructure to attack other governments. Earth Krahang has been linked to another China-linked actor, Earth Lusca, and is believed to be part of a specialized task force for cyber espionage against government institutions.
 
 ## Activities and Tactics
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

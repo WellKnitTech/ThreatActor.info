@@ -12,7 +12,7 @@ risk_level: "High"
 First observed activity in December 2013.
 
 ## Activities and Tactics
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 **Risk Level**: High
 
 ### Notable Campaigns

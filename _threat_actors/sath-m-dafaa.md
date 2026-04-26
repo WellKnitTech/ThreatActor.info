@@ -12,7 +12,7 @@ risk_level: "High"
 A Turkish hacking group, Sath-ı Müdafaa, is encouraging individuals to join its DDoS-for-Points platform that features points and prizes for carrying out distributed denial-of-service (DDoS) attacks against a list of predetermined targets. Their DDoS tool also contains a backdoor to hack the hackers. So the overarching motivation and allegiance of the group is not entirely clear.
 
 ## Activities and Tactics
-**Country of Origin**: Turkey
+**Country of Origin**: 🇹🇷 Turkey
 **Risk Level**: High
 
 ### Notable Campaigns

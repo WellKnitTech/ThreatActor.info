@@ -11,7 +11,7 @@ country: "Iran"
 APTIran has claimed responsibility for a large-scale campaign targeting Israeli critical infrastructure, asserting infiltration of government ministries, hospitals, universities, and financial institutions as retaliation for Israeli military operations. The group has leaked over 350,000 Israeli government login credentials and approximately 300 internal databases, while also threatening to create a 'zombie' network from infected devices. They have reportedly deployed ransomware strains such as ALPHV and LockBit as part of their offensive toolkit. Additionally, APTIran has made unverified claims of compromising Israeli water control systems and the state-owned food security agency Jordan Silos and Supply General Co.
 
 ## Activities and Tactics
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 
 ### Notable Campaigns
 *Information pending cataloguing.*

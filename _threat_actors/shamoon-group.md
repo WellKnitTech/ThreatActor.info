@@ -12,7 +12,7 @@ risk_level: "High"
 Shamoon Group is an Iran-linked threat actor associated with destructive Shamoon wiper operations targeting organizations in the Middle East, especially in the energy sector.
 
 ## Activities and Tactics
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 **Risk Level**: High
 
 ### Notable Campaigns

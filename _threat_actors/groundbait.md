@@ -14,7 +14,7 @@ Groundbait is a group targeting anti-government separatists in the self-declared
 
 ## Activities and Tactics
 **Targeted Sectors**: Separatists
-**Country of Origin**: Ukraine
+**Country of Origin**: 🇺🇦 Ukraine
 **Risk Level**: High
 
 ### Notable Campaigns

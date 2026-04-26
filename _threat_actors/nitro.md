@@ -14,7 +14,7 @@ These attackers were the subject of an extensive report by Symantec in 2011, whi
 
 ## Activities and Tactics
 **Targeted Sectors**: Chemical
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 **Risk Level**: High
 
 ### Notable Campaigns

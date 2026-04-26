@@ -14,7 +14,7 @@ Lyceum is an Iranian APT group that has been active since at least 2014. They pr
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Energy, High-Tech, Telecomms, Education, Military, Defense
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 **Risk Level**: High
 
 ### Notable Campaigns

@@ -12,7 +12,7 @@ risk_level: "High"
 
 
 ## Activities and Tactics
-**Country of Origin**: North Korea
+**Country of Origin**: 🇰🇵 North Korea
 **Risk Level**: High
 
 ### Notable Campaigns

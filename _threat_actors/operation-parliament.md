@@ -17,7 +17,7 @@ With deception and false flags increasingly being employed by threat actors, att
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Civil society
-**Country of Origin**: Unknown
+**Country of Origin**: 🏳️ Unknown
 **Risk Level**: High
 
 ### Notable Campaigns

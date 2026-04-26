@@ -14,7 +14,7 @@ China-based cyber threat group. It has previously used newsworthy events as lure
 
 ## Activities and Tactics
 **Targeted Sectors**: Activists, Trade, Finance, Political party, Government, Private sector, Civil society
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 **Risk Level**: High
 
 ### Notable Campaigns

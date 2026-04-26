@@ -18,7 +18,7 @@ OilRig is a suspected Iranian threat group that has targeted Middle Eastern and 
 
 ## Activities and Tactics
 **Targeted Sectors**: Energy, Government, Telecommunications
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 **Risk Level**: High
 **First Seen**: 2014
 **Last Activity**: 2024

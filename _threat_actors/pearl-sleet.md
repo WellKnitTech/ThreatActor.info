@@ -11,7 +11,7 @@ country: "North Korea"
 Pearl Sleet is a nation state activity group based in North Korea that has been active since at least 2012. They primarily target defectors from North Korea, media organizations in carrying out their cyber espionage activities.
 
 ## Activities and Tactics
-**Country of Origin**: North Korea
+**Country of Origin**: 🇰🇵 North Korea
 
 ### Notable Campaigns
 *Information pending cataloguing.*

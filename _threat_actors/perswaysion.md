@@ -11,7 +11,7 @@ country: "Vietnam"
 PerSwaysion is a threat actor known for conducting phishing campaigns targeting high-level executives. They have been active since at least August 2019 and are believed to be based in Vietnam. PerSwaysion has recently updated their techniques, using more direct phishing methods and leveraging Microsoft 365 to steal credentials.
 
 ## Activities and Tactics
-**Country of Origin**: Vietnam
+**Country of Origin**: 🇻🇳 Vietnam
 
 ### Notable Campaigns
 *Information pending cataloguing.*

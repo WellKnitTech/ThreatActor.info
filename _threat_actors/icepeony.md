@@ -11,7 +11,7 @@ country: "China"
 IcePeony is a China-nexus APT group that has been active since at least 2023, targeting government agencies, academic institutions, and political organizations in countries such as India, Mauritius, and Vietnam. They primarily employ SQL injection techniques to exploit vulnerabilities in publicly accessible web servers, subsequently installing web shells or executing malware like IceCache to facilitate credential theft. IcePeony operates under harsh work conditions, potentially adhering to the 996 working hour system, and shows a particular interest in the governments of Indian Ocean countries. Their activities suggest alignment with China's national interests, possibly related to maritime strategy.
 
 ## Activities and Tactics
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

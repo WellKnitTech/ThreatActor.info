@@ -14,7 +14,7 @@ Grayling activity was first observed in early 2023, when a number of victims wer
 
 ## Activities and Tactics
 **Targeted Sectors**: Biomedical, Government, Information technology
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 **Risk Level**: High
 
 ### Notable Campaigns

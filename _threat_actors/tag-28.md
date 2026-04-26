@@ -11,7 +11,7 @@ country: "China"
 TAG-28 is a Chinese state-sponsored threat actor that has been targeting Indian organizations, including media conglomerates and government agencies. They have been using the Winnti malware, which is commonly shared among Chinese state-sponsored groups. TAG-28's main objective is to gather intelligence on Indian targets, potentially for espionage purposes.
 
 ## Activities and Tactics
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

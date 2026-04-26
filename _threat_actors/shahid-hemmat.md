@@ -11,7 +11,7 @@ country: "Iran"
 Shahid Hemmat is an IRGC-CEC affiliated hacking group linked to cyberattacks targeting U.S. critical infrastructure, including the defense industry and international transportation sectors. The group has been implicated in the hack of a booster station at the Municipal Water Authority in Aliquippa, Pennsylvania, which disrupted drinking water supply. Key figures within Shahid Hemmat include Manouchehr Akbari, Amir Hossein Hoseini, Mohammad Hossein Moradi, and Mohammad Reza Rafatnejad. The U.S. government is offering a $10 million reward for information on these individuals.
 
 ## Activities and Tactics
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 
 ### Notable Campaigns
 *Information pending cataloguing.*

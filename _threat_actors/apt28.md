@@ -20,7 +20,7 @@ APT28 reportedly compromised the Hillary Clinton campaign, the Democratic Nation
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Military, Media
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 **Risk Level**: High
 **First Seen**: 2007
 **Last Activity**: 2024

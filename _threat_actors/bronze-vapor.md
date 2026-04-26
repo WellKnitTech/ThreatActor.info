@@ -17,7 +17,7 @@ BRONZE VAPOR uses a set of tactics that, although not individually unique, when 
 
 ## Activities and Tactics
 **Targeted Sectors**: Semiconductor Industry
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

@@ -11,7 +11,7 @@ country: "Iran"
 Gray Sandstorm is an Iran-linked threat actor that has been active since at least 2012. They have targeted defense technology companies, maritime transportation companies, and Persian Gulf ports of entry. Their primary method of attack is password spraying, and they have been observed using tools like o365spray. They have a specific focus on US and Israeli targets and are likely operating in support of Iranian interests.
 
 ## Activities and Tactics
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 
 ### Notable Campaigns
 *Information pending cataloguing.*

@@ -20,7 +20,7 @@ the Israeli military, as well as Israel’s aerospace and defense industry
 
 ## Activities and Tactics
 **Targeted Sectors**: Military, Defense, Transportation
-**Country of Origin**: Palestine
+**Country of Origin**: 🏳️ Palestine
 **Risk Level**: High
 
 ### Notable Campaigns

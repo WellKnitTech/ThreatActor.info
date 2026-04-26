@@ -11,7 +11,7 @@ country: "China"
 Storm Cloud is a Chinese espionage threat actor known for targeting organizations across Asia, particularly Tibetan organizations and individuals. They use a variety of malware families, including GIMMICK and GOSLU, which are feature-rich and multi-platform. Storm Cloud leverages public cloud hosting services like Google Drive for command-and-control channels, making it difficult to detect their activities.
 
 ## Activities and Tactics
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

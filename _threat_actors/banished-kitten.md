@@ -14,7 +14,7 @@ BANISHED KITTEN is an Iranian state-nexus adversary active since at least 2008. 
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Healthcare, Pharmaceuticals, High-Tech, Telecomms, Education, Media, NGOs, Civil Society
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 **Risk Level**: High
 
 ### Notable Campaigns

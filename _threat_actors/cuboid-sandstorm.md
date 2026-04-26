@@ -11,7 +11,7 @@ country: "Iran"
 Cuboid Sandstorm is an Iranian threat actor that targeted an Israel-based IT company in July 2021. They gained access to the company's network and used it to compromise downstream customers in the defense, energy, and legal sectors in Israel. The group also utilized custom implants, including a remote access Trojan disguised as RuntimeBroker.exe or svchost.exe, to establish persistence on victim hosts.
 
 ## Activities and Tactics
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 
 ### Notable Campaigns
 *Information pending cataloguing.*

@@ -14,7 +14,7 @@ This threat actor targets organizations in the satellite communications, telecom
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Civil society
-**Country of Origin**: Pakistan
+**Country of Origin**: 🇵🇰 Pakistan
 **Risk Level**: High
 
 ### Notable Campaigns

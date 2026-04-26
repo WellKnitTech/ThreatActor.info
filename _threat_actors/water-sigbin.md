@@ -11,7 +11,7 @@ country: "China"
 The 8220 Gang, also known as Water Sigbin, is a threat actor group that focuses on deploying cryptocurrency-mining malware. They exploit vulnerabilities in Oracle WebLogic servers, such as CVE-2017-3506 and CVE-2023-21839, to deliver cryptocurrency miners using PowerShell scripts. The group has demonstrated a sophisticated multistage loading technique to deploy the PureCrypter loader and XMRIG crypto miner. They are known for using obfuscation techniques, such as hexadecimal encoding and code obfuscation, to evade detection and compromise systems.
 
 ## Activities and Tactics
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

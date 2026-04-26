@@ -14,7 +14,7 @@ ProjectSauron is the name for a top level modular cyber-espionage platform, desi
 
 ## Activities and Tactics
 **Targeted Sectors**: Intelligence, Government, Military
-**Country of Origin**: United States
+**Country of Origin**: 🇺🇸 United States
 **Risk Level**: High
 
 ### Notable Campaigns

@@ -14,7 +14,7 @@ Greenbug was discovered targeting a range of organizations in the Middle East in
 
 ## Activities and Tactics
 **Targeted Sectors**: Education, Energy, Investment, Aerospace, Government, Administration
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 **Risk Level**: High
 
 ### Notable Campaigns

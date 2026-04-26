@@ -11,7 +11,7 @@ country: "Brazil"
 In March 2022, a hacking group calling themselves N4ughtySecTU claimed to have breached TransUnion’s systems and threatened to leak four terabytes of data if the credit bureau didn’t pay a $15-million (R242-million) ransom.
 
 ## Activities and Tactics
-**Country of Origin**: Brazil
+**Country of Origin**: 🇧🇷 Brazil
 
 ### Notable Campaigns
 *Information pending cataloguing.*

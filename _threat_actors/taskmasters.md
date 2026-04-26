@@ -11,7 +11,7 @@ country: "China"
 TaskMasters is a state-sponsored Chinese APT that has been active since at least 2010, primarily targeting industrial, energy, and government sectors in Russia and the CIS. The group has been linked to the Webdav-O Trojan, which employs techniques to bypass network defenses by connecting to legitimate services. Investigations suggest that TaskMasters may have been involved in attacks against Russian federal executive authorities in 2020, potentially alongside another Chinese group, TA428. Additionally, the group has been associated with the BackDoor.RemShell.24 malware, indicating a diverse toolkit in their operations.
 
 ## Activities and Tactics
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

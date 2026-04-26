@@ -11,7 +11,7 @@ country: "Ukraine"
 Cyber Anarchy Squad is a pro-Ukrainian hacktivist group known for targeting Russian companies and infrastructure. They have carried out cyberattacks on Russian telecom providers, financial institutions, and government agencies, causing disruptions to services and leaking stolen data. The group has used techniques such as wiping network equipment, defacing websites, and leaking sensitive documents to support their cause. Cyber Anarchy Squad has been active for at least four years, evolving from cyber-bullying to more sophisticated hacking activities.
 
 ## Activities and Tactics
-**Country of Origin**: Ukraine
+**Country of Origin**: 🇺🇦 Ukraine
 
 ### Notable Campaigns
 *Information pending cataloguing.*

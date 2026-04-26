@@ -16,7 +16,7 @@ Once inside, the adversary immediately moves on to execution of a credential the
 
 ## Activities and Tactics
 **Targeted Sectors**: Technology, Telecoms
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 **Risk Level**: High
 
 ### Notable Campaigns

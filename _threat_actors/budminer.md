@@ -11,7 +11,7 @@ country: "China"
 Based on the evidence we have presented Symantec attributed the activity involving theDripion malware to the Budminer advanced threat group. While we have not seen newcampaigns using Taidoor malware since 2014, we believe the Budminer group has changedtactics to avoid detection after being outed publicly in security white papers and blogs over thepast few years.
 
 ## Activities and Tactics
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

@@ -11,7 +11,7 @@ country: "Russia"
 UAC-0255 is a threat actor that conducted a phishing campaign impersonating CERT-UA to distribute the AGEWHEEZE RAT, targeting organizations in Ukraine's public and private sectors. The campaign is part of a broader trend of using trusted identities to enhance victim engagement, as seen in previous activities like UAC-0190 and UAC-0252. CERT-UA identified UAC-0255 after discovering links to the CyberSerp Telegram channel, which claimed responsibility for the attack. The activity is documented under the identifier CERT-UA#21075, with detection rules available for cybersecurity analysts.
 
 ## Activities and Tactics
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 
 ### Notable Campaigns
 *Information pending cataloguing.*

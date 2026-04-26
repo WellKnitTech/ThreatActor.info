@@ -14,7 +14,7 @@ Tick is a cyber espionage group with likely Chinese origins that has been active
 
 ## Activities and Tactics
 **Targeted Sectors**: Infrastructure, Industrial, Manufacturing, Diplomacy, News - Media, Political party, Engineering, Private sector
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 **Risk Level**: High
 
 ### Notable Campaigns

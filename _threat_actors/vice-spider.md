@@ -11,7 +11,7 @@ country: "Russia"
 Vice Spider is a Russian-speaking ransomware group that has been active since at least April 2021 and is linked to a significant increase in identity-based attacks, with a reported 583% rise in Kerberoasting incidents. CrowdStrike attributes 27% of these intrusions specifically to Vice Spider, which exploits vulnerabilities in the Kerberos authentication protocol to crack user passwords.
 
 ## Activities and Tactics
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 
 ### Notable Campaigns
 *Information pending cataloguing.*

@@ -11,7 +11,7 @@ country: "Ukraine"
 Blackjack, a threat actor linked to Ukraine's security apparatus, has targeted critical Russian entities such as ISPs, utilities, and military infrastructure. They have claimed responsibility for launching cyberattacks resulting in substantial damage and data exfiltration. The group allegedly used the Fuxnet malware to target sensor gateways connected to internet-connected sensors, impacting infrastructure monitoring systems. Blackjack has also been involved in attacks against companies like Moscollector, causing disruptions and stealing sensitive data.
 
 ## Activities and Tactics
-**Country of Origin**: Ukraine
+**Country of Origin**: 🇺🇦 Ukraine
 
 ### Notable Campaigns
 *Information pending cataloguing.*

@@ -11,7 +11,7 @@ country: "Iran"
 TAG-56 is a threat actor group that shares similarities with the APT42 group. They use tactics such as fake registration pages and spearphishing to target victims, often using encrypted chat platforms like WhatsApp or Telegram. TAG-56 is believed to be part of a broader campaign led by an Iran-nexus threat activity group. They have been observed using shared web hosts and recycled code, indicating a preference for acquiring purpose-built infrastructure rather than establishing their own.
 
 ## Activities and Tactics
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 
 ### Notable Campaigns
 *Information pending cataloguing.*

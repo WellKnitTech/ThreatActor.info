@@ -11,7 +11,7 @@ country: "China"
 ShaggyPanther is a threat actor that primarily targets government entities in Taiwan and Malaysia. They have been active since 2008 and utilize hidden encrypted payloads in registry keys. Their activities have been detected in various locations, including Indonesia and Syria.
 
 ## Activities and Tactics
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

@@ -11,7 +11,7 @@ country: "China"
 DriftingCloud is a persistent threat actor known for targeting various industries and locations. They are skilled at developing or acquiring zero-day exploits to gain unauthorized access to target networks. Compromising gateway devices is a common tactic used by DriftingCloud, making network monitoring solutions crucial for detecting their attacks.
 
 ## Activities and Tactics
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

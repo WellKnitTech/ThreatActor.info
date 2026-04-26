@@ -16,7 +16,7 @@ Thanks to information we have been able to collect during the course of our rese
 
 ## Activities and Tactics
 **Targeted Sectors**: Activists, Civil society, Government, Private sector
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 **Risk Level**: High
 
 ### Notable Campaigns

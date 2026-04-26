@@ -11,7 +11,7 @@ country: "China"
 WIP19 is a Chinese-speaking threat group involved in espionage targeting the Middle East and Asia. They utilize a stolen certificate to sign their malware, including SQLMaggie, ScreenCap, and a credential dumper. The group has been observed targeting telecommunications and IT service providers, using toolsets authored by WinEggDrop. WIP19's activities suggest they are after specific information and are part of the broader Chinese espionage landscape.
 
 ## Activities and Tactics
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

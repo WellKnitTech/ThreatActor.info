@@ -11,7 +11,7 @@ country: "China"
 Space Pirates is a cybercrime group that has been active since at least 2017. They primarily target Russian companies and have been observed using various malware, including Deed RAT and ShadowPad. The group uses a combination of publicly available tools and their own protocols to communicate with their command-and-control servers.
 
 ## Activities and Tactics
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

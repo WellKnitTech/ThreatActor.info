@@ -22,7 +22,7 @@ North Korea’s cyber operations have shown a consistent pattern of adaptation, 
 
 ## Activities and Tactics
 **Targeted Sectors**: Financial, Cryptocurrency, Entertainment
-**Country of Origin**: North Korea
+**Country of Origin**: 🇰🇵 North Korea
 **Risk Level**: Critical
 **First Seen**: 2009
 **Last Activity**: 2024

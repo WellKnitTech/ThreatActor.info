@@ -14,7 +14,7 @@ The Equation Group is a highly sophisticated threat actor described by its disco
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Military
-**Country of Origin**: United States
+**Country of Origin**: 🇺🇸 United States
 **Risk Level**: High
 
 ### Notable Campaigns

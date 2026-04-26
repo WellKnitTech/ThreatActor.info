@@ -11,7 +11,7 @@ country: "Russia"
 UserSec is a pro-Russian hacking group that has been active since at least 2022. The group is known for its DDoS attacks and has collaborated with other pro-Russian hacking groups. In May 2023, UserSec announced a cyber campaign targeting NATO member states and joined forces with KillNet to launch attacks against NATO.
 
 ## Activities and Tactics
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 
 ### Notable Campaigns
 *Information pending cataloguing.*

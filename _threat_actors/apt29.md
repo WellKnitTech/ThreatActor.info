@@ -20,7 +20,7 @@ In April 2021, the US and UK governments attributed the SolarWinds Compromise to
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Healthcare, Energy
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 **Risk Level**: High
 **First Seen**: 2008
 **Last Activity**: 2024

@@ -11,7 +11,7 @@ country: "China"
 TAG-100 is a cyber-espionage APT that targets government and private sector organizations globally, exploiting vulnerabilities in internet-facing devices such as Citrix NetScaler and F5 BIG-IP for initial access. The group employs open-source tools like Pantegana and SparkRAT for persistence and post-exploitation activities, including credential theft and email data exfiltration. TAG-100 has compromised entities in at least ten countries, including two Asia-Pacific intergovernmental organizations, and focuses on sectors like education, finance, and local government. Their operations highlight the challenges of attribution due to the use of off-the-shelf tools and techniques that overlap with other state-sponsored groups.
 
 ## Activities and Tactics
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

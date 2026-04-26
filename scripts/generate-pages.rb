@@ -130,6 +130,59 @@ def build_front_matter(actor)
   lines.join("\n")
 end
 
+# Country code to emoji flag mapping
+COUNTRY_FLAGS = {
+  "AF" => "🇦🇫", "AL" => "🇦🇱", "DZ" => "🇩🇿", "AR" => "🇦🇷", "AM" => "🇦🇲",
+  "AU" => "🇦🇺", "AT" => "🇦🇹", "AZ" => "🇦🇿", "BD" => "🇧🇩", "BY" => "🇧🇾",
+  "BE" => "🇧🇪", "BR" => "🇧🇷", "BG" => "🇧🇬", "KH" => "🇰🇭", "CM" => "🇨🇲",
+  "CA" => "🇨🇦", "CL" => "🇨🇱", "CN" => "🇨🇳", "CO" => "🇨🇴", "HR" => "🇭🇷",
+  "CU" => "🇨🇺", "CZ" => "🇨🇿", "DK" => "🇩🇰", "EG" => "🇪🇬", "ET" => "🇪🇹",
+  "FI" => "🇫🇮", "FR" => "🇫🇷", "GE" => "🇬🇪", "DE" => "🇩🇪", "GH" => "🇬🇭",
+  "GR" => "🇬🇷", "GT" => "🇬🇹", "HK" => "🇭🇰", "HU" => "🇭🇺", "IN" => "🇮🇳",
+  "ID" => "🇮🇩", "IR" => "🇮🇷", "IQ" => "🇮🇶", "IE" => "🇮🇪", "IL" => "🇮🇱",
+  "IT" => "🇮🇹", "JP" => "🇯🇵", "JO" => "🇯🇴", "KZ" => "🇰🇿", "KE" => "🇰🇪",
+  "KP" => "🇰🇵", "KR" => "🇰🇷", "KW" => "🇰🇼", "LV" => "🇱🇻", "LB" => "🇱🇧",
+  "LT" => "🇱🇹", "MY" => "🇲🇾", "MX" => "🇲🇽", "MN" => "🇲🇳", "MA" => "🇲🇦",
+  "MM" => "🇲🇲", "NP" => "🇳🇵", "NL" => "🇳🇱", "NZ" => "🇳🇿", "NG" => "🇳🇬",
+  "NO" => "🇳🇴", "PK" => "🇵🇰", "PS" => "🇵🇸", "PA" => "🇵🇦", "PE" => "🇵🇪",
+  "PH" => "🇵🇭", "PL" => "🇵🇱", "PT" => "🇵🇹", "RO" => "🇷🇴", "RU" => "🇷🇺",
+  "SA" => "🇸🇦", "RS" => "🇷🇸", "SG" => "🇸🇬", "SK" => "🇸🇰", "SI" => "🇸🇮",
+  "ZA" => "🇿🇦", "ES" => "🇪🇸", "LK" => "🇱🇰", "SE" => "🇸🇪", "CH" => "🇨🇭",
+  "SY" => "🇸🇾", "TW" => "🇹🇼", "TH" => "🇹🇭", "TR" => "🇹🇷", "UA" => "🇺🇦",
+  "AE" => "🇦🇪", "GB" => "🇬🇧", "US" => "🇺🇸", "UZ" => "🇺🇿", "VE" => "🇻🇪",
+  "VN" => "🇻🇳", "UA" => "🇺🇦",
+}.freeze
+
+def get_country_flag(country)
+  return "🏳️" if country.nil? || country.empty?
+  
+  # Try exact match first
+  country_flat = country.strip
+  if COUNTRY_FLAGS[country_flat]
+    return COUNTRY_FLAGS[country_flat]
+  end
+  
+  # Try case-insensitive
+  upper = country_flat.upcase
+  return COUNTRY_FLAGS[upper] if COUNTRY_FLAGS[upper]
+  
+  # Try partial name match
+  name_map = {
+    "russia" => "🇷🇺", "china" => "🇨🇳", "iran" => "🇮🇷", "north korea" => "🇰🇵",
+    "south korea" => "🇰🇷", "united states" => "🇺🇸", "united kingdom" => "🇬🇧",
+    "vietnam" => "🇻🇳", "india" => "🇮🇳", "pakistan" => "🇵🇰", "israel" => "🇮🇱",
+    "turkey" => "🇹🇷", "brazil" => "🇧🇷", "ukraine" => "🇺🇦", "japan" => "🇯🇵",
+    "germany" => "🇩🇪", "france" => "🇫🇷", "nigeria" => "🇳🇬", "romania" => "🇷🇴",
+  }
+  
+  lower = country_flat.downcase
+  name_map.each do |name, flag|
+    return flag if lower.include?(name)
+  end
+  
+  "🏳️"
+end
+
 # Build page body from YAML data
 def build_body(actor)
   sections = []
@@ -144,7 +197,8 @@ def build_body(actor)
   if actor['country'] || actor['sector_focus']
     details = []
     details << "**Targeted Sectors**: #{actor['sector_focus']&.join(', ') || 'Various'}" if actor['sector_focus']
-    details << "**Country of Origin**: #{actor['country'] || 'Unknown'}" if actor['country']
+    flag = get_country_flag(actor['country'])
+    details << "**Country of Origin**: #{flag} #{actor['country'] || 'Unknown'}" if actor['country']
     details << "**Risk Level**: #{actor['risk_level'] || 'Medium'}" if actor['risk_level']
     details << "**First Seen**: #{actor['first_seen'] || 'Unknown'}" if actor['first_seen']
     details << "**Last Activity**: #{actor['last_activity'] || 'Unknown'}" if actor['last_activity']

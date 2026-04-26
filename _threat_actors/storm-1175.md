@@ -11,7 +11,7 @@ country: "China"
 Storm-1175 is a cybercriminal group known for deploying Medusa ransomware and exploiting public-facing applications for initial access. They have been observed exploiting a critical deserialization vulnerability in GoAnywhere MFT, tracked as CVE-2025-10035, which could lead to command injection and potential RCE. Microsoft Defender researchers identified exploitation activity aligned with TTPs attributed to Storm-1175, including the use of post-compromise techniques that involve creating a group named “ESX Admins” in the domain.
 
 ## Activities and Tactics
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

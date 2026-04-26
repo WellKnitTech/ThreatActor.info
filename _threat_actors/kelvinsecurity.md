@@ -11,7 +11,7 @@ country: "Spain"
 KelvinSecurity is a hacker group that has been active since at least 2015. They are known for their hacktivist and black hat activities, targeting public and private organizations globally. The group sells and leaks databases, documents, and access belonging to their victims, often on the dark web or their own platforms. They have been involved in attacks against various sectors, including telecommunications, political parties, and healthcare.
 
 ## Activities and Tactics
-**Country of Origin**: Spain
+**Country of Origin**: 🏳️ Spain
 
 ### Notable Campaigns
 *Information pending cataloguing.*

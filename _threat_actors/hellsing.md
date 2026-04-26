@@ -14,7 +14,7 @@ This threat actor uses spear-phishing techniques to compromise diplomatic target
 
 ## Activities and Tactics
 **Targeted Sectors**: Infrastructure, Diplomacy, Government
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 **Risk Level**: High
 
 ### Notable Campaigns

@@ -14,7 +14,7 @@ Charming Kitten (aka Parastoo, aka Newscaster) is an group with a suspected nexu
 
 ## Activities and Tactics
 **Targeted Sectors**: Defense, Diplomacy, Military, Technology, Government, Administration, Government
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 **Risk Level**: High
 
 ### Notable Campaigns

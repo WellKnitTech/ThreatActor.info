@@ -14,7 +14,7 @@ Adversary targeting manufacturing and industrial organizations.
 
 ## Activities and Tactics
 **Targeted Sectors**: Manufacturing, Industrial
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 **Risk Level**: High
 
 ### Notable Campaigns

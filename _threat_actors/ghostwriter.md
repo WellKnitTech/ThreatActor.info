@@ -14,7 +14,7 @@ Ghostwriter is referred as an 'activity set', with various incidents tied togeth
 
 ## Activities and Tactics
 **Targeted Sectors**: Government
-**Country of Origin**: Belarus
+**Country of Origin**: 🏳️ Belarus
 **Risk Level**: High
 
 ### Notable Campaigns

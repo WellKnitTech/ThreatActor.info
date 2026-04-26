@@ -14,7 +14,7 @@ Activity: defense and aerospace sectors, also interested in targeting entities i
 
 ## Activities and Tactics
 **Targeted Sectors**: Aerospace, Defense, Gas, Oil, Military, Civil society
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 **Risk Level**: High
 
 ### Notable Campaigns

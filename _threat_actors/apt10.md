@@ -14,7 +14,7 @@ menuPass is a threat group that has been active since at least 2006. Individual 
 
 ## Activities and Tactics
 **Targeted Sectors**: Private sector, Government
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 **Risk Level**: High
 
 ### Notable Campaigns

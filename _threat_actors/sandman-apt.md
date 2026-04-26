@@ -14,7 +14,7 @@ First disclosed in 2023, the Sandman APT is likely associated with suspected Chi
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Telecommunications
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 **Risk Level**: High
 
 ### Notable Campaigns

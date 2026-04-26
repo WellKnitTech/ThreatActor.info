@@ -11,7 +11,7 @@ country: "Russia"
 Curly COMrades is a threat actor identified by Amazon Threat Intelligence and Bitdefender, believed to operate in support of Russian interests. They employ techniques such as Hyper-V abuse for EDR evasion and utilize proxy tools like Resocks, SSH, and Stunnel to gain access to internal networks. Their activities include repeated attempts to extract the NTDS database from domain controllers and establishing covert access through virtualization features on compromised Windows 10 machines.
 
 ## Activities and Tactics
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 
 ### Notable Campaigns
 *Information pending cataloguing.*

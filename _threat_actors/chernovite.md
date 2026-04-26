@@ -11,7 +11,7 @@ country: "Russia"
 Chernovite is a highly capable and sophisticated threat actor group that has developed a modular ICS malware framework called PIPEDREAM. They are known for targeting industrial control systems and operational technology environments, with the ability to disrupt, degrade, and potentially destroy physical processes. Chernovite has demonstrated a deep understanding of ICS protocols and intrusion techniques, making them a significant threat to critical infrastructure sectors.
 
 ## Activities and Tactics
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 
 ### Notable Campaigns
 *Information pending cataloguing.*

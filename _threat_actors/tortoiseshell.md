@@ -15,7 +15,7 @@ The group, which we are calling Tortoiseshell, has been active since at least Ju
 
 ## Activities and Tactics
 **Targeted Sectors**: Defense, Government, Military, Finance, Energy, Healthcare, Pharmaceuticals, Telecoms, High-Tech, Media, NGOs, Civil Society, Legal, Rail, Transportation
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 **Risk Level**: High
 
 ### Notable Campaigns

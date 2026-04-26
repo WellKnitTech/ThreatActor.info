@@ -12,7 +12,7 @@ risk_level: "High"
 Suckfly is a China-based threat group that has been active since at least 2014
 
 ## Activities and Tactics
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 **Risk Level**: High
 
 ### Notable Campaigns

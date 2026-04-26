@@ -11,7 +11,7 @@ country: "China"
 GhostRedirector is a China-aligned threat actor that has compromised at least 65 Windows servers across various sectors, primarily in Brazil, Thailand, and Vietnam. It employs a passive C++ backdoor named Rungan and a malicious IIS module called Gamshen to maintain persistent access and manipulate search engine results for SEO fraud. The actor utilizes public exploits like EfsPotato and BadPotato for privilege escalation and abuses code-signing certificates to evade detection. GhostRedirector's operations involve installing remote access tools, creating rogue administrator accounts, and leveraging SQL injection vulnerabilities to execute PowerShell for downloading malicious payloads.
 
 ## Activities and Tactics
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

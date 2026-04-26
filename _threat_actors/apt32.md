@@ -18,7 +18,7 @@ APT32 is a suspected Vietnam-based threat group that has been active since at le
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Media, Technology
-**Country of Origin**: Vietnam
+**Country of Origin**: 🇻🇳 Vietnam
 **Risk Level**: High
 **First Seen**: 2012
 **Last Activity**: 2024

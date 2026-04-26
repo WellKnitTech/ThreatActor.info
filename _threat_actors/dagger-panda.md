@@ -14,7 +14,7 @@ Operate since at least 2011, from several locations in China, with  members in K
 
 ## Activities and Tactics
 **Targeted Sectors**: Other, Maritime, Military, Government, Administration, Telecoms, Government
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 **Risk Level**: High
 
 ### Notable Campaigns

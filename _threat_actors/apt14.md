@@ -16,7 +16,7 @@ Not surprisingly, embassies and diplomatic missions in the region, foreign intel
 
 ## Activities and Tactics
 **Targeted Sectors**: Other, Aerospace, Defense, Intelligence, Maritime, Military, Space, Government
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 **Risk Level**: High
 
 ### Notable Campaigns

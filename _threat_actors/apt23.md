@@ -14,7 +14,7 @@ TrendMicro described Tropic Trooper in a 2015 report as: 'Taiwan and the Philipp
 
 ## Activities and Tactics
 **Targeted Sectors**: Military, Government, Administration
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 **Risk Level**: High
 
 ### Notable Campaigns

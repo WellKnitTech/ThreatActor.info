@@ -11,7 +11,7 @@ country: "North Korea"
 Ruby Sleet is a threat actor linked to North Korea's Ministry of State Security. Cerium has been involved in spear-phishing campaigns, compromising devices, and conducting cyberattacks alongside other North Korean threat actors. They have also targeted companies involved in COVID-19 research and vaccine development.
 
 ## Activities and Tactics
-**Country of Origin**: North Korea
+**Country of Origin**: 🇰🇵 North Korea
 
 ### Notable Campaigns
 *Information pending cataloguing.*

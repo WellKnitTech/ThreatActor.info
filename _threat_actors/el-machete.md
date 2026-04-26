@@ -14,7 +14,7 @@ El Machete is one of these threats that was first publicly disclosed and named b
 
 ## Activities and Tactics
 **Targeted Sectors**: Military, Government
-**Country of Origin**: Unknown
+**Country of Origin**: 🏳️ Unknown
 **Risk Level**: High
 
 ### Notable Campaigns

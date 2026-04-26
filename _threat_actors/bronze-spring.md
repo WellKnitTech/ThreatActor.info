@@ -14,7 +14,7 @@ In July 2020 the U.S. Department of Justice indicted two Chinese hackers CTU res
 
 ## Activities and Tactics
 **Targeted Sectors**: Information technology, Medical, Civil engineering, Business, Education, Gaming, Energy, Pharmaceuticals, Defense industrial base
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

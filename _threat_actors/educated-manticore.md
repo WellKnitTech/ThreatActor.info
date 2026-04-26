@@ -11,7 +11,7 @@ country: "Iran"
 Educated Manticore is an Iranian APT group aligned with the Islamic Revolutionary Guard Corps, primarily engaged in espionage targeting government, military, and academic sectors. The group employs spear-phishing tactics, utilizing custom backdoors like POWERLESS and phishing kits designed as SPAs to harvest credentials. Their operations have included impersonating credible figures to lure victims and using ISO images to initiate infection chains. Educated Manticore's activities are characterized by rapid domain setup and aggressive spear-phishing campaigns, particularly against Israeli individuals.
 
 ## Activities and Tactics
-**Country of Origin**: Iran
+**Country of Origin**: 🇮🇷 Iran
 
 ### Notable Campaigns
 *Information pending cataloguing.*

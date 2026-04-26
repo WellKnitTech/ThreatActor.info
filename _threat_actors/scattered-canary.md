@@ -16,7 +16,7 @@ had secured enough mules via their romance scams to launder their stolen money, 
 from targeting individuals to targeting enterprises, and the group’s BEC operation was born.
 
 ## Activities and Tactics
-**Country of Origin**: Nigeria
+**Country of Origin**: 🇳🇬 Nigeria
 
 ### Notable Campaigns
 *Information pending cataloguing.*

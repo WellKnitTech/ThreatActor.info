@@ -11,7 +11,7 @@ country: "Russia"
 Angry Likho is an APT group that has been active since 2023, primarily targeting large organizations and government agencies in Russia and Belarus. Their attacks typically involve spear-phishing emails with malicious attachments, such as RAR archives, and utilize a known payload, the Lumma stealer, for data exfiltration. The group employs a compact infrastructure and has been linked to espionage activities, particularly in sectors like aviation and pharmaceuticals. Their operations have shown a focus on collecting sensitive information, including cryptowallet files and user credentials.
 
 ## Activities and Tactics
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 
 ### Notable Campaigns
 *Information pending cataloguing.*

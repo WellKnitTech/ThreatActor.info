@@ -11,7 +11,7 @@ country: "North Korea"
 puNK-003 is a North Korean APT group known for deploying the Lilith RAT, a sophisticated C++ remote access trojan, and its AutoIt variant, CURKON, which functions as a downloader. The group primarily distributes malware through targeted phishing attacks using malicious LNK files. Analysis indicates that puNK-003 shares similarities with the KONNI group, particularly in the use of AutoIt scripts and specific coding functions. Key indicators of infection include unusual network activity and system slowdowns, with removal methods involving specialized antivirus software and manual techniques.
 
 ## Activities and Tactics
-**Country of Origin**: North Korea
+**Country of Origin**: 🇰🇵 North Korea
 
 ### Notable Campaigns
 *Information pending cataloguing.*

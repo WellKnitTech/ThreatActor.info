@@ -11,7 +11,7 @@ country: "Russia"
 FlyingYeti is a Russia-aligned threat actor targeting Ukrainian military entities. They conduct reconnaissance activities and launch phishing campaigns using malware like COOKBOX. FlyingYeti exploits the WinRAR vulnerability CVE-2023-38831 to infect targets with malicious payloads. Cloudforce One has successfully disrupted their operations and provided recommendations for defense against their phishing campaigns.
 
 ## Activities and Tactics
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 
 ### Notable Campaigns
 *Information pending cataloguing.*

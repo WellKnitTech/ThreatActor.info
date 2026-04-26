@@ -11,7 +11,7 @@ country: "Israel"
 R00TK1T is a hacking group known for sophisticated cyber attacks targeting governmental agencies in Malaysia, including data exfiltration from the National Population and Family Development Board. The group has publicized their successful attacks on social media, showcasing stolen data. R00TK1T has also targeted Malaysian telecom providers, defacing portals and potentially breaching user data. 
 
 ## Activities and Tactics
-**Country of Origin**: Israel
+**Country of Origin**: 🇮🇱 Israel
 
 ### Notable Campaigns
 *Information pending cataloguing.*

@@ -14,7 +14,7 @@ This threat actor targets the South Korean government, transportation, and energ
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Private sector
-**Country of Origin**: North Korea
+**Country of Origin**: 🇰🇵 North Korea
 **Risk Level**: High
 
 ### Notable Campaigns

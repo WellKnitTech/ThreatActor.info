@@ -13,7 +13,7 @@ In December 2020, the IT management software provider SolarWinds announced that 
 BRONZE SPIRAL has been associated with previous intrusions involving the targeting of ManageEngine servers, maintenance of long-term access to periodically harvest credentials and exfiltrate data, and espionage or theft of intellectual property. The threat group makes extensive use of native system tools and 'living off the land' techniques.
 
 ## Activities and Tactics
-**Country of Origin**: China
+**Country of Origin**: 🇨🇳 China
 
 ### Notable Campaigns
 *Information pending cataloguing.*

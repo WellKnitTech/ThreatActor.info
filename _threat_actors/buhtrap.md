@@ -17,7 +17,7 @@ Malicious programs intentionally scan for machines with an automated Bank-Custom
 
 ## Activities and Tactics
 **Targeted Sectors**: Bank, Payment, Finance
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 **Risk Level**: High
 
 ### Notable Campaigns

@@ -15,7 +15,7 @@ From February to September 2016, WhiteBear activity was narrowly focused on emba
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Private sector
-**Country of Origin**: Russia
+**Country of Origin**: 🇷🇺 Russia
 **Risk Level**: High
 
 ### Notable Campaigns
