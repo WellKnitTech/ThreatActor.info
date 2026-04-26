@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SandCat"
 aliases: ["SandCat"]
 description: "SandCat, on the other hand, is a group that was discovered more recently by Kaspersky. One of the Windows vulnerabilities patched by Microsoft in December had been exploited by both FruityArmor and San"
-permalink: /sandcat
+permalink: /sandcat/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "FIN1"
 aliases: ["FIN1"]
 description: "FireEye first identified this activity during a recent investigation at an organization in the financial industry. They identified the presence of a financially motivated threat group that they track a"
-permalink: /fin1
+permalink: /fin1/
 country: "Russia"
 ---
 

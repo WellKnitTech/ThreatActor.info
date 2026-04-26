@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Sands Casino"
 aliases: ["Sands Casino"]
 description: ""
-permalink: /sands-casino
+permalink: /sands-casino/
 country: "Iran"
 risk_level: "High"
 ---

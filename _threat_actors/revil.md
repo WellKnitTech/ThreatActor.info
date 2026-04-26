@@ -3,7 +3,7 @@ layout: threat_actor
 title: "REvil"
 aliases: ["Sodinokibi", "Sodin"]
 description: "REvil is a Russian ransomware-as-a-service operation that has targeted major corporations worldwide."
-permalink: /revil
+permalink: /revil/
 country: "Russia"
 first_seen: "2019"
 last_activity: "2021"

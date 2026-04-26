@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SAMURAI PANDA"
 aliases: ["PLA Navy", "Wisp Team", "SAMURAI PANDA"]
 description: ""
-permalink: /samurai-panda
+permalink: /samurai-panda/
 country: "China"
 risk_level: "High"
 sector_focus: ["Private sector", "Military"]

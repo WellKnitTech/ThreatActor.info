@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Returned Libra"
 aliases: ["8220 Mining Group", "Returned Libra"]
 description: "Returned Libra, also known as 8220 Mining Group, is a cloud threat actor group that has been active since at least 2017. Tools commonly employed during their operations are PwnRig or DBUsed which are c"
-permalink: /returned-libra
+permalink: /returned-libra/
 ---
 
 ## Introduction

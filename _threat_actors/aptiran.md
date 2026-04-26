@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APTIran"
 aliases: ["APTIran"]
 description: "APTIran has claimed responsibility for a large-scale campaign targeting Israeli critical infrastructure, asserting infiltration of government ministries, hospitals, universities, and financial institut"
-permalink: /aptiran
+permalink: /aptiran/
 country: "Iran"
 ---
 

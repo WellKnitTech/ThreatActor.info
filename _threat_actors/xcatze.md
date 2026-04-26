@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Xcatze"
 aliases: ["Xcatze"]
 description: "Cloud security company Lacework says it discovered a threat actor group named Xcatze that uses a Python named AndroxGh0st to take over AWS servers and send out massive email spam campaigns. Lacework sa"
-permalink: /xcatze
+permalink: /xcatze/
 ---
 
 ## Introduction

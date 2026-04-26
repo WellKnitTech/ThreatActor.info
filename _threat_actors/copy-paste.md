@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Copy-Paste"
 aliases: ["Copy-Paste"]
 description: "The title ‘Copy-paste compromises’ is derived from the actor’s heavy use of tools copied almost identically from open source given by The Australian Government."
-permalink: /copy-paste
+permalink: /copy-paste/
 sector_focus: ["Government"]
 ---
 

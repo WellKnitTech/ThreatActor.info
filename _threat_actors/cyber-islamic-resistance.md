@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Cyber Islamic Resistance"
 aliases: ["Cyber Islamic Resistance"]
 description: "Cyber Islamic Resistance is a hacktivist collective ideologically aligned with Iran, engaging in operations such as website defacements, DDoS attacks, and data exfiltration targeting Israeli and Wester"
-permalink: /cyber-islamic-resistance
+permalink: /cyber-islamic-resistance/
 country: "Iran"
 ---
 

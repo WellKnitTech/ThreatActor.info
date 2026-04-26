@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Pacha Group"
 aliases: ["Pacha Group"]
 description: "Antd is a miner found in the wild on September 18, 2018. Recently we discovered that the authors from Antd are actively delivering newer campaigns deploying a broad number of components, most of them c"
-permalink: /pacha-group
+permalink: /pacha-group/
 ---
 
 ## Introduction

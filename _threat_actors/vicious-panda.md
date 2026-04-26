@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Vicious Panda"
 aliases: ["SixLittleMonkeys", "Vicious Panda"]
 description: "Check Point Research discovered a new campaign against the Mongolian public sector, which takes advantage of the current Coronavirus scare, in order to deliver a previously unknown malware implant to t"
-permalink: /vicious-panda
+permalink: /vicious-panda/
 country: "China"
 ---
 

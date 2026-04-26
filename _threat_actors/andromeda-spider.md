@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ANDROMEDA SPIDER"
 aliases: ["ANDROMEDA SPIDER"]
 description: ""
-permalink: /andromeda-spider
+permalink: /andromeda-spider/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-0249"
 aliases: ["DEV-0249", "Storm-0249"]
 description: "Storm-0249 is an access broker active since 2021, known for distributing BazaLoader, IcedID, Bumblebee, and Emotet malware. The actor primarily employs phishing emails to deliver malware payloads, as e"
-permalink: /storm-0249
+permalink: /storm-0249/
 ---
 
 ## Introduction

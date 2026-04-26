@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-1575"
 aliases: ["Storm-1575"]
 description: "Storm-1575 is a threat actor identified by Microsoft as being involved in phishing campaigns using the Dadsec platform. They utilize hundreds of Domain Generated Algorithm domains to host credential ha"
-permalink: /storm-1575
+permalink: /storm-1575/
 ---
 
 ## Introduction

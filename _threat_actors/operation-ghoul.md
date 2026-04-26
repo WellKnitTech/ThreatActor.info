@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Operation Ghoul"
 aliases: ["Operation Ghoul"]
 description: "Operation Ghoul is a profit-driven threat actor that targeted over 130 organizations in 30 countries, primarily in the industrial and engineering sectors. They employed high-quality social engineering "
-permalink: /operation-ghoul
+permalink: /operation-ghoul/
 ---
 
 ## Introduction

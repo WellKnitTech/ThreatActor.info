@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SCULLY SPIDER"
 aliases: ["SCULLY SPIDER"]
 description: "Mentioned as operator of DanaBot in CrowdStrike's 2020 Report."
-permalink: /scully-spider
+permalink: /scully-spider/
 ---
 
 ## Introduction

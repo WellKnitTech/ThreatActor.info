@@ -3,7 +3,7 @@ layout: threat_actor
 title: "White Bear"
 aliases: ["Skipper Turla", "White Bear"]
 description: "As a part of our Kaspersky APT Intelligence Reporting subscription, customers received an update in mid-February 2017 on some interesting APT activity that we called WhiteBear. Much of the contents of "
-permalink: /white-bear
+permalink: /white-bear/
 country: "Russia"
 risk_level: "High"
 sector_focus: ["Government", "Private sector"]

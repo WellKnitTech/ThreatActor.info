@@ -3,7 +3,7 @@ layout: threat_actor
 title: " Stealth Mango and Tangelo "
 aliases: [" Stealth Mango and Tangelo "]
 description: "This threat actor targets organizations in the satellite communications, telecommunications, geospatial-imaging, and defense sectors in the United States and Southeast Asia for espionage purposes."
-permalink: /stealth-mango-and-tangelo
+permalink: /stealth-mango-and-tangelo/
 country: "Pakistan"
 risk_level: "High"
 sector_focus: ["Government", "Civil society"]

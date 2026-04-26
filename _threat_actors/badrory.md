@@ -3,7 +3,7 @@ layout: threat_actor
 title: "BadRory"
 aliases: ["BadRory"]
 description: "Kaspersky researchers have identified a new APT group named BadRory that has mounted two waves of spear-phishing attacks against Russian organizations. The campaigns took place in October 2022 and Apri"
-permalink: /badrory
+permalink: /badrory/
 ---
 
 ## Introduction

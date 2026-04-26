@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Gitloker"
 aliases: ["Gitloker"]
 description: "Gitloker is a threat actor group targeting GitHub repositories, wiping their contents, and extorting victims for their data. They use stolen credentials to compromise accounts, claim to have created a "
-permalink: /gitloker
+permalink: /gitloker/
 ---
 
 ## Introduction

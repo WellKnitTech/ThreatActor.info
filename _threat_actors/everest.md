@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "Everest"
 description: "Everest is a ransomware group active since at least December 2020, known for its double-extortion tactics. The group initially operated as a typical ransomware outfit, encrypting files with strong cryp"
-permalink: /everest
+permalink: /everest/
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 ---
 

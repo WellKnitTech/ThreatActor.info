@@ -3,7 +3,7 @@ layout: threat_actor
 title: "[Unnamed group]"
 aliases: ["[Unnamed group]"]
 description: "Over the last few weeks, several significant leaks regarding a number of Iranian APTs took place. After analyzing and investigating the documents we conclude that they are authentic. Consequently, this"
-permalink: /unnamed-group
+permalink: /unnamed-group/
 ---
 
 ## Introduction

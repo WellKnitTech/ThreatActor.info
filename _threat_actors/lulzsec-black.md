@@ -3,7 +3,7 @@ layout: threat_actor
 title: "LulzSec Black"
 aliases: ["LulzSec Black"]
 description: "LulzSec Black is a hacktivist group that has claimed responsibility for coordinated DDoS attacks against Cyprus' government and critical infrastructure in response to the country's support for Israel. "
-permalink: /lulzsec-black
+permalink: /lulzsec-black/
 ---
 
 ## Introduction

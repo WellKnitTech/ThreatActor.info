@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Lazarus Group"
 aliases: ["Diamond Sleet", "Guardians of Peace", "Hidden Cobra", "HIDDEN COBRA", "Labyrinth Chollima", "Lazarus Group", "NICKEL ACADEMY", "ZINC", "Operation DarkSeoul", "Dark Seoul", "Hastati Group", "Andariel", "Unit 121", "Bureau 121", "NewRomanic Cyber Army Team", "Bluenoroff", "Subgroup: Bluenoroff", "Group 77", "Operation Troy", "Operation GhostSecret", "Operation AppleJeus", "APT38", "APT 38", "Stardust Chollima", "Whois Hacking Team", "Zinc", "Appleworm", "Nickel Academy", "APT-C-26", "NICKEL GLADSTONE", "COVELLITE", "ATK3", "G0032", "ATK117", "G0082", "Citrine Sleet", "DEV-0139", "DEV-1222", "Sapphire Sleet", "COPERNICIUM", "TA404", "Lazarus group", "BeagleBoyz", "Moonstone Sleet", "Black Artemis"]
 description: "Lazarus Group is a North Korean state-sponsored cyber threat group attributed to the Reconnaissance General Bureau (RGB). (Citation: US-CERT HIDDEN COBRA June 2017) (Citation: Treasury North Korean Cyb"
-permalink: /lazarus
+permalink: /lazarus/
 country: "North Korea"
 first_seen: "2009"
 last_activity: "2024"

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "DangerousSavanna"
 aliases: ["DangerousSavanna"]
 description: "Malicious campaign called DangerousSavanna has been targeting multiple major financial service groups in French-speaking Africa for the last two years. The threat actors behind this campaign use spear-"
-permalink: /dangeroussavanna
+permalink: /dangeroussavanna/
 ---
 
 ## Introduction

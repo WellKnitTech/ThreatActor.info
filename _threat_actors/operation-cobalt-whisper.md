@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Operation Cobalt Whisper"
 aliases: ["Operation Cobalt Whisper"]
 description: ""
-permalink: /operation-cobalt-whisper
+permalink: /operation-cobalt-whisper/
 ---
 
 ## Introduction

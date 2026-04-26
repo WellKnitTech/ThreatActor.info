@@ -3,7 +3,7 @@ layout: threat_actor
 title: "InvisiMole"
 aliases: ["InvisiMole"]
 description: "Adversary group targeting diplomatic missions, governmental and military organisations, mainly in Ukraine."
-permalink: /invisimole
+permalink: /invisimole/
 sector_focus: ["Government"]
 ---
 

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Smishing Triad"
 aliases: ["Smishing Triad"]
 description: "The Smishing Triad is a Chinese-speaking threat group known for targeting postal services and their customers globally through smishing campaigns. They leverage compromised Apple iMessage accounts to s"
-permalink: /smishing-triad
+permalink: /smishing-triad/
 country: "China"
 ---
 

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ArcaneDoor"
 aliases: ["ArcaneDoor"]
 description: "ArcaneDoor is a campaign that is the latest example of state-sponsored actors targeting perimeter network devices from multiple vendors. Coveted by these actors, perimeter network devices are the perfe"
-permalink: /arcanedoor
+permalink: /arcanedoor/
 ---
 
 ## Introduction

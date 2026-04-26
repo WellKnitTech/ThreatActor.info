@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GreyEnergy"
 aliases: ["GreyEnergy"]
 description: "ESET research reveals a successor to the infamous BlackEnergy APT group targeting critical infrastructure, quite possibly in preparation for damaging attacks"
-permalink: /greyenergy
+permalink: /greyenergy/
 ---
 
 ## Introduction

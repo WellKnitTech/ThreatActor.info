@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GOLD GARDEN"
 aliases: ["GOLD GARDEN"]
 description: "GOLD GARDEN was a financially motivated cybercriminal threat group that authored and operated the GandCrab ransomware from January 2018 through May 2019. GandCrab was operated as a ransomware-as-a-serv"
-permalink: /gold-garden
+permalink: /gold-garden/
 ---
 
 ## Introduction

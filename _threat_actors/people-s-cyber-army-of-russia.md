@@ -3,7 +3,7 @@ layout: threat_actor
 title: "People's Cyber Army of Russia"
 aliases: ["People's Cyber Army of Russia"]
 description: ""
-permalink: /people-s-cyber-army-of-russia
+permalink: /people-s-cyber-army-of-russia/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GOLD WINTER"
 aliases: ["GOLD WINTER"]
 description: "GOLD WINTER are a financially motivated group, likely based in Russia, who operate the Hades ransomware. Hades activity was first identified in December 2020 and its lack of presence on underground for"
-permalink: /gold-winter
+permalink: /gold-winter/
 ---
 
 ## Introduction

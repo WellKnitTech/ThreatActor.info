@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Corsair Jackal"
 aliases: ["TunisianCyberArmy", "Corsair Jackal"]
 description: ""
-permalink: /corsair-jackal
+permalink: /corsair-jackal/
 risk_level: "High"
 ---
 

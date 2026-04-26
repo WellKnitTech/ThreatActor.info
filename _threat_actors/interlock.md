@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "Interlock"
 description: "Interlock is an active extortion or ransomware group tracked by RansomLook."
-permalink: /interlock
+permalink: /interlock/
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 ---
 

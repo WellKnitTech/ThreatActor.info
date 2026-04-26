@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Lancefly"
 aliases: ["Lancefly"]
 description: "Lancefly targets government, aviation, and telecom organizations in South and Southeast Asia. They use a custom backdoor named Merdoor, developed since 2018, and employ various tactics to gain access, "
-permalink: /lancefly
+permalink: /lancefly/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Cyber Army of Russia Reborn"
 aliases: ["Cyber Army of Russia Reborn"]
 description: ""
-permalink: /cyber-army-of-russia-reborn
+permalink: /cyber-army-of-russia-reborn/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Predatory Sparrow"
 aliases: ["Indra", "Gonjeshke Darande", "Predatory Sparrow"]
 description: "A self-proclaimed hacktivist group that carried out attacks against Iranian railway systems and against Iranian steel plants."
-permalink: /predatory-sparrow
+permalink: /predatory-sparrow/
 sector_focus: ["Critical manufacturing", "Transportation systems"]
 ---
 

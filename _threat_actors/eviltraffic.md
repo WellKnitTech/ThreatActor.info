@@ -3,7 +3,7 @@ layout: threat_actor
 title: "EvilTraffic"
 aliases: ["Operation EvilTraffic", "EvilTraffic"]
 description: "Malware experts at CSE Cybsec uncovered a massive malvertising campaign dubbed EvilTraffic leveraging tens of thousands compromised websites. Crooks exploited some CMS vulnerabilities to upload and exe"
-permalink: /eviltraffic
+permalink: /eviltraffic/
 ---
 
 ## Introduction

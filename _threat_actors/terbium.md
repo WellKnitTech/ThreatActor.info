@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TERBIUM"
 aliases: ["TERBIUM"]
 description: "Microsoft Threat Intelligence identified similarities between this recent attack and previous 2012 attacks against tens of thousands of computers belonging to organizations in the energy sector. Micros"
-permalink: /terbium
+permalink: /terbium/
 sector_focus: ["Energy"]
 ---
 

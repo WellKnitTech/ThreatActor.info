@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Belsen Group"
 aliases: ["Belsen Group"]
 description: "The Belsen Group has exploited the CVE-2022-40684 vulnerability in Fortinet devices to compromise over 15,000 FortiGate firewalls, releasing detailed configurations and plaintext VPN credentials. Their"
-permalink: /belsen-group
+permalink: /belsen-group/
 ---
 
 ## Introduction

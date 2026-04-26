@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-1044"
 aliases: ["DEV-1044", "Storm-1044"]
 description: "Storm-1044 has been identified as part of a cyber campaign in collaboration with Twisted Spider. They employ a strategic approach, targeting specific endpoints using an initial access trojan called Dan"
-permalink: /storm-1044
+permalink: /storm-1044/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-1099"
 aliases: ["Storm-1099"]
 description: "Storm-1099 is a sophisticated Russia-affiliated influence actor that has been conducting pro-Russia influence operations targeting international supporters of Ukraine since Spring 2022. They are known "
-permalink: /storm-1099
+permalink: /storm-1099/
 country: "Russia"
 ---
 

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "FusionCore"
 aliases: ["FusionCore"]
 description: "The CYFIRMA research team has identified a new up-and-coming European threat actor group known as FusionCore. Running Malware-as-a-service, along with the hacker-for- hire operation, they have a wide v"
-permalink: /fusioncore
+permalink: /fusioncore/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "EvilWeb"
 aliases: ["EvilWeb"]
 description: "EvilWeb is a pro-Russian hacktivist group created in March 2024 that targets American and European entities using a hack-and-leak method alongside DDoS attacks. The group claims to have obtained data f"
-permalink: /evilweb
+permalink: /evilweb/
 country: "Russia"
 ---
 

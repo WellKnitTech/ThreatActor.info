@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Cl0p"
 aliases: ["CHIMBORAZO", "Clop", "Hive0065", "Spandex Tempest", "TA505"]
 description: "TA505 is a cyber criminal group that has been active since at least 2014. TA505 is known for frequently changing malware, driving global trends in criminal malware distribution, and ransomware campaign"
-permalink: /cl0p
+permalink: /cl0p/
 country: "Russia"
 first_seen: "2019"
 last_activity: "2025"

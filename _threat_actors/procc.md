@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ProCC"
 aliases: ["ProCC"]
 description: "ProCC is a threat actor targeting the hospitality sector with remote access Trojan malware. They use email attachments to exploit vulnerabilities like CVE-2017-0199 and deploy customized versions of RA"
-permalink: /procc
+permalink: /procc/
 ---
 
 ## Introduction

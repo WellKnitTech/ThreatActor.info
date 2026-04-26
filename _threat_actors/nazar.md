@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Nazar"
 aliases: ["SIG37", "Nazar"]
 description: "This actor was identified by Juan Andres Guerrero-Saade from the SIG37 cluster as published in the ShadowBrokers' 'Lost in Translation' leak. Earliest known sighting potentially dates back to as far as"
-permalink: /nazar
+permalink: /nazar/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Markopolo"
 aliases: ["Markopolo"]
 description: "Markopolo is a threat actor known for running scams targeting cryptocurrency users through a fake app called Vortax. They use social media and a dedicated blog to legitimize their malicious activities."
-permalink: /markopolo
+permalink: /markopolo/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-0473"
 aliases: ["UNC2849", "Storm-0473"]
 description: "Storm-0473 (Tomiris) is a threat actor that has been active since at least 2019. They primarily target government and diplomatic entities in the Commonwealth of Independent States region, with occasion"
-permalink: /storm-0473
+permalink: /storm-0473/
 ---
 
 ## Introduction

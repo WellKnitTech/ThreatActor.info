@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Operation BugDrop"
 aliases: ["Operation BugDrop"]
 description: "This threat actor targets critical infrastructure entities in the oil and gas sector, primarily in Ukraine. The threat actors deploy the BugDrop malware to remotely access the microphones in their targ"
-permalink: /operation-bugdrop
+permalink: /operation-bugdrop/
 country: "Russia"
 risk_level: "High"
 sector_focus: ["Private sector"]

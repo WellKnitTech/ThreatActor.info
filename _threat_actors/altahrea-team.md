@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Altahrea Team"
 aliases: ["Altahrea Team"]
 description: "Altahrea Team is a pro-Iranian hacking group that has been active since at least 2020. The group has claimed responsibility for a number of cyberattacks, including DDoS attacks against Israeli websites"
-permalink: /altahrea-team
+permalink: /altahrea-team/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "WeedSec"
 aliases: ["WeedSec"]
 description: "WeedSec is a threat actor group that recently targeted the online learning and course management platform Moodle. They posted sample databases of Moodle on their Telegram channel, which is widely used "
-permalink: /weedsec
+permalink: /weedsec/
 ---
 
 ## Introduction

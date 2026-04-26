@@ -3,7 +3,7 @@ layout: threat_actor
 title: "MIMIC SPIDER"
 aliases: ["MIMIC SPIDER"]
 description: "MIMIC SPIDER is mentioned in two summary reports only"
-permalink: /mimic-spider
+permalink: /mimic-spider/
 ---
 
 ## Introduction

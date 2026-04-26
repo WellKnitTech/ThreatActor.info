@@ -3,7 +3,7 @@ layout: threat_actor
 title: "PIZZO SPIDER"
 aliases: ["DD4BC", "Ambiorx", "PIZZO SPIDER"]
 description: ""
-permalink: /pizzo-spider
+permalink: /pizzo-spider/
 country: "United States"
 risk_level: "High"
 ---

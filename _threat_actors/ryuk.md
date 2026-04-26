@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Ryuk"
 aliases: ["Wizard Spider"]
 description: "Ryuk is a ransomware operation known for targeting large organizations and demanding high ransom payments."
-permalink: /ryuk
+permalink: /ryuk/
 country: "Russia"
 first_seen: "2018"
 last_activity: "2021"

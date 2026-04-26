@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Alpha Spider"
 aliases: ["ALPHV Ransomware Group", "Alpha Spider"]
 description: "ALPHA SPIDER is a threat actor known for developing and operating the Alphv ransomware as a service. They have been observed using novel offensive techniques, such as exploiting software vulnerabilitie"
-permalink: /alpha-spider
+permalink: /alpha-spider/
 ---
 
 ## Introduction

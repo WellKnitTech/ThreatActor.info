@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Madi"
 aliases: ["Madi"]
 description: "Kaspersky Lab and Seculert worked together to sinkhole the Madi Command & Control (C&C) servers to monitor the campaign. Kaspersky Lab and Seculert identified more than 800 victims located in Iran, Isr"
-permalink: /madi
+permalink: /madi/
 country: "Iran"
 risk_level: "High"
 sector_focus: ["Infrastructure", "Engineering", "Government, Administration", "Finance", "Government", "Private sector"]

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Groundbait"
 aliases: ["Groundbait"]
 description: "Groundbait is a group targeting anti-government separatists in the self-declared Donetsk and Luhansk People’s Republics."
-permalink: /groundbait
+permalink: /groundbait/
 country: "Ukraine"
 risk_level: "High"
 sector_focus: ["Separatists"]

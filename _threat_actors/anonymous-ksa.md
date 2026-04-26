@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Anonymous KSA"
 aliases: ["Anonymous KSA"]
 description: "Anonymous KSA is a Saudi hacking group that has executed cyber attacks targeting Indian institutions, including a significant breach of UIDAI's data storage units, leading to access to sensitive inform"
-permalink: /anonymous-ksa
+permalink: /anonymous-ksa/
 ---
 
 ## Introduction

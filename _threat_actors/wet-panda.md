@@ -3,7 +3,7 @@ layout: threat_actor
 title: "WET PANDA"
 aliases: ["Red Chimera", "WET PANDA"]
 description: ""
-permalink: /wet-panda
+permalink: /wet-panda/
 country: "China"
 risk_level: "High"
 ---

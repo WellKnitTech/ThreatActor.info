@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Prolific Puma"
 aliases: ["Prolific Puma"]
 description: "Prolific Puma provides an underground link shortening service to criminals. Infoblox states that during analysis, no legitimate content was observed being served through their shortener. For operation "
-permalink: /prolific-puma
+permalink: /prolific-puma/
 ---
 
 ## Introduction

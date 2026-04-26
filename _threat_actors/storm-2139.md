@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-2139"
 aliases: ["Storm-2139"]
 description: "Storm-2139 is a cybercrime group that exploited stolen API keys from compromised Azure OpenAI Service accounts to generate harmful content, including non-consensual intimate imagery, using the DALL-E m"
-permalink: /storm-2139
+permalink: /storm-2139/
 ---
 
 ## Introduction

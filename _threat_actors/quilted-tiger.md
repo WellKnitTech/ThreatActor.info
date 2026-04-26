@@ -3,7 +3,7 @@ layout: threat_actor
 title: "QUILTED TIGER"
 aliases: ["Chinastrats", "Patchwork", "Monsoon", "Sarit", "Dropping Elephant", "APT-C-09", "ZINC EMERSON", "ATK11", "G0040", "Orange Athos", "Thirsty Gemini", "QUILTED TIGER"]
 description: "Dropping Elephant (also known as “Chinastrats” and “Patchwork“) is a relatively new threat actor that is targeting a variety of high profile diplomatic and economic targets using a custom set of attack"
-permalink: /quilted-tiger
+permalink: /quilted-tiger/
 country: "India"
 risk_level: "High"
 sector_focus: ["Finance", "Diplomacy", "Private sector", "Military"]

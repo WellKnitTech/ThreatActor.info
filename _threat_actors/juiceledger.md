@@ -3,7 +3,7 @@ layout: threat_actor
 title: "JuiceLedger"
 aliases: ["JuiceLedger"]
 description: "JuiceLedger is a threat actor known for infostealing through their JuiceStealer .NET assembly. They have evolved from spreading fraudulent applications to conducting supply chain attacks, targeting PyP"
-permalink: /juiceledger
+permalink: /juiceledger/
 ---
 
 ## Introduction

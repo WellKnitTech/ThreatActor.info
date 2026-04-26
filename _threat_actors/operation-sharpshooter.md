@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Operation Sharpshooter"
 aliases: ["Operation Sharpshooter"]
 description: "The McAfee Advanced Threat Research team and McAfee Labs Malware Operations Group have discovered a new global campaign targeting nuclear, defense, energy, and financial companies, based on McAfee® Glo"
-permalink: /operation-sharpshooter
+permalink: /operation-sharpshooter/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Red Charon"
 aliases: ["Red Charon"]
 description: "Throughout 2019, multiple companies in the Taiwan high-tech ecosystem were victims of an advanced persistent threat (APT) attack. Due to these APT attacks having similar behavior profiles (similar adve"
-permalink: /red-charon
+permalink: /red-charon/
 ---
 
 ## Introduction

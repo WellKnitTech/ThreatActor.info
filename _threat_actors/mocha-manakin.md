@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Mocha Manakin"
 aliases: ["Mocha Manakin"]
 description: "Mocha Manakin is a threat actor that employs the paste and run technique for initial access, tricking users into executing scripts that download various payloads, including LummaC2, HijackLoader, and V"
-permalink: /mocha-manakin
+permalink: /mocha-manakin/
 ---
 
 ## Introduction

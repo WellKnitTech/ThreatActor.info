@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ModifiedElephant"
 aliases: ["ModifiedElephant"]
 description: "Our research into these intrusions revealed a decade of persistent malicious activity targeting specific groups and individuals that we now attribute to a previously unknown threat actor named Modified"
-permalink: /modifiedelephant
+permalink: /modifiedelephant/
 sector_focus: ["Civil Society"]
 ---
 

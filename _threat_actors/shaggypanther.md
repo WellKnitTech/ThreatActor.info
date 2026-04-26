@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ShaggyPanther"
 aliases: ["ShaggyPanther"]
 description: "ShaggyPanther is a threat actor that primarily targets government entities in Taiwan and Malaysia. They have been active since 2008 and utilize hidden encrypted payloads in registry keys. Their activit"
-permalink: /shaggypanther
+permalink: /shaggypanther/
 country: "China"
 ---
 

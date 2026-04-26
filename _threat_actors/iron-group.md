@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Iron Group"
 aliases: ["Iron Cyber Group", "Iron Group"]
 description: "Iron group has developed multiple types of malware (backdoors, crypto-miners, and ransomware) for Windows, Linux and Android platforms. They have used their malware to successfully infect, at least, a "
-permalink: /iron-group
+permalink: /iron-group/
 ---
 
 ## Introduction

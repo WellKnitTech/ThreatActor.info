@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Larva-208"
 aliases: ["EncryptHub", "Larva-208"]
 description: "LARVA-208 is a financially motivated threat actor employing sophisticated phishing campaigns to harvest credentials and deploy ransomware. The actor uses multiple tactics, including Open URL Redirectio"
-permalink: /larva-208
+permalink: /larva-208/
 ---
 
 ## Introduction

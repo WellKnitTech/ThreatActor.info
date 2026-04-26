@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ResumeLooters"
 aliases: ["ResumeLooters"]
 description: "Since the beginning of 2023, ResumeLooters have been able to compromise at least 65 websites. The group employs a variety of simple techniques, including SQL injection and XSS. The threat actor attempt"
-permalink: /resumelooters
+permalink: /resumelooters/
 ---
 
 ## Introduction

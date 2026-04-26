@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ALLANITE"
 aliases: ["Palmetto Fusion", "Allanite", "ALLANITE"]
 description: "Adversaries abusing ICS (based on Dragos Inc adversary list). ALLANITE accesses business and industrial control (ICS) networks, conducts reconnaissance, and gathers intelligence in United States and Un"
-permalink: /allanite
+permalink: /allanite/
 ---
 
 ## Introduction

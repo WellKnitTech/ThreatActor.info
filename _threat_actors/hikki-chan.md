@@ -3,7 +3,7 @@ layout: threat_actor
 title: "HikkI-Chan"
 aliases: ["HikkI-Chan"]
 description: "Hikki-Chan has claimed responsibility for multiple significant data breaches, including the theft of data from 390.4 million users of VKontakte, which included sensitive personal information. The actor"
-permalink: /hikki-chan
+permalink: /hikki-chan/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "CyberNiggers"
 aliases: ["CyberNiggers"]
 description: "CyberNiggers is a threat group known for breaching various organizations, including the US military, federal contractors, and multinational corporations like General Electric. Led by the prominent memb"
-permalink: /cyberniggers
+permalink: /cyberniggers/
 ---
 
 ## Introduction

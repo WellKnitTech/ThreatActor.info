@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TheDarkOverlord"
 aliases: ["TheDarkOverlord"]
 description: "The Dark Overlord is a financially motivated ransomware group that has been active since 2016. The group is known for targeting large organizations, including Netflix, ABC, and Miramax."
-permalink: /thedarkoverlord
+permalink: /thedarkoverlord/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "PINCHY SPIDER"
 aliases: ["PINCHY SPIDER"]
 description: "First observed in January 2018, GandCrab ransomware quickly began to proliferate and receive regular updates from its developer, PINCHY SPIDER, which over the course of the year established a RaaS oper"
-permalink: /pinchy-spider
+permalink: /pinchy-spider/
 ---
 
 ## Introduction

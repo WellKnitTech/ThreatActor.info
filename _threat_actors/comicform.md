@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ComicForm"
 aliases: ["ComicForm"]
 description: "ComicForm is an emerging cyber threat actor tracked since at least April 2025, specializing in targeted phishing campaigns against organizations in Eurasian countries including Belarus, Kazakhstan, and"
-permalink: /comicform
+permalink: /comicform/
 ---
 
 ## Introduction

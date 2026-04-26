@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GOLD GALLEON"
 aliases: ["GOLD GALLEON"]
 description: "GOLD GALLEON is a financially motivated cybercriminal threat group comprised of at least 20 criminal associates that collectively carry out business email compromise (BEC) and spoofing (BES) campaigns."
-permalink: /gold-galleon
+permalink: /gold-galleon/
 ---
 
 ## Introduction

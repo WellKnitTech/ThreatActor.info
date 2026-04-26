@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-0835"
 aliases: ["Storm-0835"]
 description: "Cybercriminals have launched a phishing campaign targeting senior executives in U.S. firms, using the EvilProxy phishing toolkit for credential harvesting and account takeover attacks. This campaign, i"
-permalink: /storm-0835
+permalink: /storm-0835/
 ---
 
 ## Introduction

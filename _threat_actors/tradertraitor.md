@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TraderTraitor"
 aliases: ["Jade Sleet", "UNC4899", "Pukchong", "TraderTraitor"]
 description: "TraderTraitor targets blockchain companies through spear-phishing messages. The group sends these messages to employees, particularly those in system administration or software development roles, on va"
-permalink: /tradertraitor
+permalink: /tradertraitor/
 country: "North Korea"
 ---
 

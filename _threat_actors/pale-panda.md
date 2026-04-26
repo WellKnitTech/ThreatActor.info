@@ -3,7 +3,7 @@ layout: threat_actor
 title: "PALE PANDA"
 aliases: ["PALE PANDA"]
 description: ""
-permalink: /pale-panda
+permalink: /pale-panda/
 country: "China"
 risk_level: "High"
 ---

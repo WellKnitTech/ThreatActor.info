@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Reckless Rabbit"
 aliases: ["Reckless Rabbit"]
 description: "Reckless Rabbit lures victims into investment scams through malicious Facebook advertisements that lead to fake news articles with embedded web forms for personal information collection. They create do"
-permalink: /reckless-rabbit
+permalink: /reckless-rabbit/
 ---
 
 ## Introduction

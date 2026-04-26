@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TwoSail Junk"
 aliases: ["Operation Poisoned News", "TwoSail Junk"]
 description: "TwoSail Junk directs visitors to its exploit site by posting links within the threads of forum discussions, or creating new topic threads of their own. To date, dozens of visits were recorded from with"
-permalink: /twosail-junk
+permalink: /twosail-junk/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SYLHET GANG-SG"
 aliases: ["SYLHET GANG-SG"]
 description: "SYLHET GANG-SG is a hacktivist group that has targeted critical infrastructure and various entities, including the Central European University and the EU Parliament, often articulating their rationale "
-permalink: /sylhet-gang-sg
+permalink: /sylhet-gang-sg/
 ---
 
 ## Introduction

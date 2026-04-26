@@ -3,7 +3,7 @@ layout: threat_actor
 title: "RIDDLE SPIDER"
 aliases: ["RIDDLE SPIDER"]
 description: "According to Crowdstrike, RIDDLE SPIDER is the operator behind the avaddon ransomware"
-permalink: /riddle-spider
+permalink: /riddle-spider/
 ---
 
 ## Introduction

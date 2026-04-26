@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SOLAR SPIDER"
 aliases: ["SOLAR SPIDER"]
 description: "SOLAR SPIDER’s phishing campaigns deliver the JSOutProx RAT to financial institutions across Africa, the Middle East, South Asia and Southeast Asia."
-permalink: /solar-spider
+permalink: /solar-spider/
 sector_focus: ["Finance"]
 ---
 

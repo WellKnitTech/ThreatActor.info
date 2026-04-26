@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Chamelgang"
 aliases: ["CamoFei", "Chamelgang"]
 description: "In Q2 2021, the PT Expert Security Center incident response team conducted an investigation in an energy company. The investigation revealed that the company's network had been compromised by an unknow"
-permalink: /chamelgang
+permalink: /chamelgang/
 sector_focus: ["Aviation", "Energy"]
 ---
 

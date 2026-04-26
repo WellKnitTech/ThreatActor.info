@@ -3,7 +3,7 @@ layout: threat_actor
 title: "DustSquad"
 aliases: ["Nomadic Octopus", "DustSquad"]
 description: "Prodaft researchers have published a report on Paperbug, a cyber-espionage campaign carried out by suspected Russian-speaking group Nomadic Octopus and which targeted entities in Tajikistan. According "
-permalink: /dustsquad
+permalink: /dustsquad/
 country: "Russia"
 ---
 

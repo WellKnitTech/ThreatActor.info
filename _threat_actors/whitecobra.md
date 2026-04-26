@@ -3,7 +3,7 @@ layout: threat_actor
 title: "WhiteCobra"
 aliases: ["WhiteCobra"]
 description: "WhiteCobra is a threat actor that has infiltrated the Visual Studio Code marketplace and Open VSX registry, deploying 24 malicious extensions targeting cryptocurrency development tools, particularly So"
-permalink: /whitecobra
+permalink: /whitecobra/
 ---
 
 ## Introduction

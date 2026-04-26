@@ -3,7 +3,7 @@ layout: threat_actor
 title: "NewsPenguin"
 aliases: ["NewsPenguin"]
 description: "NewsPenguin is threat actor that has been targeting organizations in Pakistan. They use a complex payload delivery mechanism and exploit the upcoming Pakistan International Maritime Expo & Conference a"
-permalink: /newspenguin
+permalink: /newspenguin/
 ---
 
 ## Introduction

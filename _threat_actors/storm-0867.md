@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-0867"
 aliases: ["DEV-0867", "Storm-0867"]
 description: "Storm-0867 is a threat actor that has been active since 2012 and has targeted various industries and regions. They employ sophisticated phishing campaigns, utilizing social engineering techniques and a"
-permalink: /storm-0867
+permalink: /storm-0867/
 country: "Egypt"
 ---
 

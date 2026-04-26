@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Dalbit"
 aliases: ["Dalbit"]
 description: "The group usually targets vulnerable servers to breach information including internal data from companies or encrypts files and demands money. Their targets of attack are usually Windows servers that a"
-permalink: /dalbit
+permalink: /dalbit/
 country: "China"
 ---
 

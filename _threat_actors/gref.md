@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GREF"
 aliases: ["GREF"]
 description: "GREF is a China-aligned APT group that has been active since at least March 2017. They are known for using custom backdoors, loaders, and ancillary tools in their targeted attacks. Recently, they have "
-permalink: /gref
+permalink: /gref/
 country: "China"
 ---
 

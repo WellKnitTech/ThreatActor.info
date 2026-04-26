@@ -3,7 +3,7 @@ layout: threat_actor
 title: "CL-STA-0048"
 aliases: ["CL STA 0048", "CL-STA-0048"]
 description: "CL-STA-0048 is a Chinese state-backed APT that targets strategic sectors in South Asia, particularly government and telecommunications entities, with a focus on espionage. The group has been linked to "
-permalink: /cl-sta-0048
+permalink: /cl-sta-0048/
 country: "China"
 ---
 

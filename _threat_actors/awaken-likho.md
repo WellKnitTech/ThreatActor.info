@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Awaken Likho"
 aliases: ["Core Werewolf", "Awaken Likho"]
 description: "Awaken Likho is an APT group that has targeted Russian government agencies and industrial enterprises, employing techniques such as information gathering via search engines and using MeshCentral for re"
-permalink: /awaken-likho
+permalink: /awaken-likho/
 ---
 
 ## Introduction

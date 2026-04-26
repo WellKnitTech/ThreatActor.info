@@ -3,7 +3,7 @@ layout: threat_actor
 title: "LinkC Pub"
 aliases: ["LinkC", "LinkC Pub"]
 description: "Linkc is a newly emerged ransomware group that operates an onion-based data leak site and has claimed one victim, a U.S.-based AI and cloud service provider, H2O.ai, which was attacked on January 29, 2"
-permalink: /linkc-pub
+permalink: /linkc-pub/
 ---
 
 ## Introduction

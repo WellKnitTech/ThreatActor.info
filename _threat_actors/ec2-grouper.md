@@ -3,7 +3,7 @@ layout: threat_actor
 title: "EC2 Grouper"
 aliases: ["EC2 Grouper"]
 description: "EC2 Grouper is a prolific threat actor known for leveraging AWS tools for PowerShell to conduct automated attacks in cloud environments. They typically utilize the CreateSecurityGroup API to establish "
-permalink: /ec2-grouper
+permalink: /ec2-grouper/
 ---
 
 ## Introduction

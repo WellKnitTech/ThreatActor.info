@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Water Saci"
 aliases: ["Water Saci"]
 description: "Water Saci is a sophisticated cyber threat actor operating in Brazil, utilizing a multi-format attack chain that includes HTA files, ZIP archives, and PDFs to bypass security measures. The campaign emp"
-permalink: /water-saci
+permalink: /water-saci/
 country: "Brazil"
 ---
 

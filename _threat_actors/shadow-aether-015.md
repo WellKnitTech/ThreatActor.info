@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SHADOW-AETHER-015"
 aliases: ["SHADOW-AETHER-015"]
 description: "SHADOW-AETHER-015 is a highly adaptable cybercriminal group known for identity abuse and cloud compromise, primarily targeting identity and access management systems like Okta and Azure AD/Entra ID. Th"
-permalink: /shadow-aether-015
+permalink: /shadow-aether-015/
 ---
 
 ## Introduction

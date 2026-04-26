@@ -3,7 +3,7 @@ layout: threat_actor
 title: "LightBasin"
 aliases: ["UNC1945", "CL-CRI-0025", "LightBasin"]
 description: "UNC1945 is an APT group that has been targeting telecommunications companies globally. They use Linux-based implants to maintain long-term access in compromised networks. UNC1945 has demonstrated advan"
-permalink: /lightbasin
+permalink: /lightbasin/
 ---
 
 ## Introduction

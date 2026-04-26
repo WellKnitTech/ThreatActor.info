@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Keymous+"
 aliases: ["keymous", "Keymous Plus", "Keymous+"]
 description: "Keymous is a threat actor known for executing extensive DDoS attacks across multiple Arab countries, targeting government ministries and critical infrastructure. The group has claimed access to sensiti"
-permalink: /keymous
+permalink: /keymous/
 ---
 
 ## Introduction

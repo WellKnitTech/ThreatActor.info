@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Operation Comando"
 aliases: ["Operation Comando"]
 description: "Operation Comando is a pure cybercrime campaign, possibly with Brazilian origin, with a concrete and persistent focus on the hospitality sector, which proves how a threat actor can be successful in pur"
-permalink: /operation-comando
+permalink: /operation-comando/
 ---
 
 ## Introduction

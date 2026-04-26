@@ -3,7 +3,7 @@ layout: threat_actor
 title: "VENOM SPIDER"
 aliases: ["badbullzvenom", "badbullz", "VENOM SPIDER"]
 description: "VENOM SPIDER is the developer of a large toolset that includes SKID, VenomKit and Taurus Loader. Under the moniker 'badbullzvenom', the adversary has been an active member of Russian underground forums"
-permalink: /venom-spider
+permalink: /venom-spider/
 ---
 
 ## Introduction

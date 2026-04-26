@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Operation Soft Cell"
 aliases: ["Operation Soft Cell"]
 description: "In 2018, the Cybereason Nocturnus team identified an advanced, persistent attack targeting global telecommunications providers carried out by a threat actor using tools and techniques commonly associat"
-permalink: /operation-soft-cell
+permalink: /operation-soft-cell/
 ---
 
 ## Introduction

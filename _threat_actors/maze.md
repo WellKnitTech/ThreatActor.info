@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Maze"
 aliases: ["ChaCha"]
 description: "Maze is a ransomware operation known for being the first to implement double extortion tactics."
-permalink: /maze
+permalink: /maze/
 country: "Unknown"
 first_seen: "2019"
 last_activity: "2020"

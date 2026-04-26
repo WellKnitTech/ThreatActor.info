@@ -3,7 +3,7 @@ layout: threat_actor
 title: "FrostyNeighbor"
 aliases: ["FrostyNeighbor"]
 description: "FrostyNeighbor is a Belarus-aligned APT group known for conducting influence and disinformation campaigns, particularly targeting Ukraine, Poland, and Lithuania. They have compromised various governmen"
-permalink: /frostyneighbor
+permalink: /frostyneighbor/
 country: "Belarus"
 ---
 

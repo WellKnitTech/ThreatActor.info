@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Equation Group"
 aliases: ["Tilded Team", "EQGRP", "G0020", "Equation Group"]
 description: "The Equation Group is a highly sophisticated threat actor described by its discoverers at Kaspersky Labs as one of the most sophisticated cyber attack groups in the world, operating alongside but alway"
-permalink: /equation-group
+permalink: /equation-group/
 country: "United States"
 risk_level: "High"
 sector_focus: ["Government", "Military"]

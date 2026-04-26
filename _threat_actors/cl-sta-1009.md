@@ -3,7 +3,7 @@ layout: threat_actor
 title: "CL-STA-1009"
 aliases: ["CL-STA-1009"]
 description: "CL-STA-1009 is a threat activity cluster associated with a suspected nation-state actor utilizing the Airstalk malware family, which includes both PowerShell and .NET variants. The .NET variant feature"
-permalink: /cl-sta-1009
+permalink: /cl-sta-1009/
 ---
 
 ## Introduction

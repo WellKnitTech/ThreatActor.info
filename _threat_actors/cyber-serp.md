@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Cyber Serp"
 aliases: ["UAC-0255", "Cyber Serp"]
 description: "UAC-0255 is a threat actor that conducted a phishing campaign impersonating CERT-UA to distribute the AGEWHEEZE RAT, targeting organizations in Ukraine's public and private sectors. The campaign is par"
-permalink: /cyber-serp
+permalink: /cyber-serp/
 country: "Russia"
 ---
 

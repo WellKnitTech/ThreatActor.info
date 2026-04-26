@@ -3,7 +3,7 @@ layout: threat_actor
 title: "COBALT JUNO"
 aliases: ["APT-C-38 (QiAnXin)", "SABER LION", "TG-2884 (SCWX CTU)", "COBALT JUNO"]
 description: "COBALT JUNO has operated since at least 2013 and focused on targets located in the Middle East including Iran, Jordan, Egypt & Lebanon. COBALT JUNO custom spyware families SABER1 and SABER2, include su"
-permalink: /cobalt-juno
+permalink: /cobalt-juno/
 ---
 
 ## Introduction

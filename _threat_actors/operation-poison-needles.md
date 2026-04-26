@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Operation Poison Needles"
 aliases: ["Operation Poison Needles"]
 description: "What’s noteworthy is that according to the introduction on the compromised website of the polyclinic (http://www.p2f.ru), the institution was established in 1965 and it was founded by the Presidential "
-permalink: /operation-poison-needles
+permalink: /operation-poison-needles/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "HellHounds"
 aliases: ["HellHounds"]
 description: "Hellhounds is an APT group targeting organizations in Russia, using a modified version of Pupy RAT called Decoy Dog. They gain initial access through vulnerable web services and trusted relationships, "
-permalink: /hellhounds
+permalink: /hellhounds/
 ---
 
 ## Introduction

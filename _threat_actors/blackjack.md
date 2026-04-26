@@ -3,7 +3,7 @@ layout: threat_actor
 title: "BlackJack"
 aliases: ["BlackJack"]
 description: "Blackjack, a threat actor linked to Ukraine's security apparatus, has targeted critical Russian entities such as ISPs, utilities, and military infrastructure. They have claimed responsibility for launc"
-permalink: /blackjack
+permalink: /blackjack/
 country: "Ukraine"
 ---
 

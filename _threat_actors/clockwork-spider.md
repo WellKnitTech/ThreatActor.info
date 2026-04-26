@@ -3,7 +3,7 @@ layout: threat_actor
 title: "CLOCKWORK SPIDER"
 aliases: ["CLOCKWORK SPIDER"]
 description: "Opportunistic actor that installs custom root certificate on victim to support man-in-the-middle network monitoring."
-permalink: /clockwork-spider
+permalink: /clockwork-spider/
 ---
 
 ## Introduction

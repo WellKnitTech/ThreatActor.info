@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Prophet Spider"
 aliases: ["GOLD MELODY", "UNC961", "Prophet Spider"]
 description: "PROPHET SPIDER is an eCrime actor, active since at least May 2017, that primarily gains access to victims by compromising vulnerable web servers, which commonly involves leveraging a variety of publicl"
-permalink: /prophet-spider
+permalink: /prophet-spider/
 ---
 
 ## Introduction

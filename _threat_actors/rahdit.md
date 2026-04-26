@@ -3,7 +3,7 @@ layout: threat_actor
 title: "RaHDit"
 aliases: ["Russian Angry Hackers Did It", "RaHDit"]
 description: "RaHDit is a pro-Kremlin hacktivist group known for orchestrating hack-and-leak operations, including the publication of personal information about Ukrainian military intelligence personnel and their as"
-permalink: /rahdit
+permalink: /rahdit/
 country: "Russia"
 ---
 

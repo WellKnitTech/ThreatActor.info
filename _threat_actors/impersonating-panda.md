@@ -3,7 +3,7 @@ layout: threat_actor
 title: "IMPERSONATING PANDA"
 aliases: ["IMPERSONATING PANDA"]
 description: ""
-permalink: /impersonating-panda
+permalink: /impersonating-panda/
 country: "China"
 risk_level: "High"
 ---

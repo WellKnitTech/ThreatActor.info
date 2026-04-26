@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GozNym"
 aliases: ["GozNym"]
 description: "IBM X-Force Research uncovered a Trojan hybrid spawned from the Nymaim and Gozi ISFB malware. It appears that the operators of Nymaim have recompiled its source code with part of the Gozi ISFB source c"
-permalink: /goznym
+permalink: /goznym/
 ---
 
 ## Introduction

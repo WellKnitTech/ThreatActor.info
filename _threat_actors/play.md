@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Play"
 aliases: ["Play", "Play Ransomware"]
 description: "Play is a ransomware group that has been active since at least 2022 deploying  Playcrypt ransomware against the business, government, critical infrastructure, healthcare, and media sectors in North Ame"
-permalink: /play
+permalink: /play/
 country: "Unknown"
 first_seen: "2022"
 last_activity: "2025"

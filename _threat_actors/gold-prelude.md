@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GOLD PRELUDE"
 aliases: ["TA569", "UNC1543", "GOLD PRELUDE"]
 description: "GOLD PRELUDE is a financially motivated cybercriminal threat group that operates the SocGholish (aka FAKEUPDATES) malware distribution network. GOLD PRELUDE operates a large global network of compromis"
-permalink: /gold-prelude
+permalink: /gold-prelude/
 ---
 
 ## Introduction

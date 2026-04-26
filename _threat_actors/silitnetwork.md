@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SilitNetwork"
 aliases: ["SilitNetwork"]
 description: "SilitNetwork is a hacking group known for targeting high-profile entities, such as airlines, for various motives. They utilize sophisticated tactics to breach their targets, potentially including socia"
-permalink: /silitnetwork
+permalink: /silitnetwork/
 ---
 
 ## Introduction

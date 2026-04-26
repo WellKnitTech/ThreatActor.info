@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Libyan Scorpions"
 aliases: ["Libyan Scorpions"]
 description: "Libyan Scorpions is a malware operation in use since September 2015 and operated by a politically motivated group whose main objective is intelligence gathering, spying on influentials and political fi"
-permalink: /libyan-scorpions
+permalink: /libyan-scorpions/
 risk_level: "High"
 sector_focus: ["Intelligence"]
 ---

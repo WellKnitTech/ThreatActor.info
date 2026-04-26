@@ -3,7 +3,7 @@ layout: threat_actor
 title: "IRLeaks"
 aliases: ["IRLeaks"]
 description: "IRLeaks is a threat actor known for significant cyberattacks targeting Iranian organizations, including a major breach of SnappFood, where they exfiltrated 3TB of sensitive data from 20 million user pr"
-permalink: /irleaks
+permalink: /irleaks/
 ---
 
 ## Introduction

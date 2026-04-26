@@ -3,7 +3,7 @@ layout: threat_actor
 title: "MoneyTaker"
 aliases: ["MoneyTaker"]
 description: "In less than two years, this group has conducted over 20 successful attacks on financial institutions and legal firms in the USA, UK and Russia. The group has primarily been targeting card processing s"
-permalink: /moneytaker
+permalink: /moneytaker/
 ---
 
 ## Introduction

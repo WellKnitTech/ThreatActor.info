@@ -3,7 +3,7 @@ layout: threat_actor
 title: "CoralRaider"
 aliases: ["CoralRaider"]
 description: "CoralRaider is a financially motivated threat actor of Vietnamese origin, targeting victims in Asian and Southeast Asian countries since at least 2023. They use the RotBot loader family and XClient ste"
-permalink: /coralraider
+permalink: /coralraider/
 country: "Vietnam"
 ---
 

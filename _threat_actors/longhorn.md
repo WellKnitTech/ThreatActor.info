@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Longhorn"
 aliases: ["Lamberts", "the Lamberts", "APT-C-39", "PLATINUM TERMINAL", "Longhorn"]
 description: "Longhorn has been active since at least 2011. It has used a range of back door Trojans in addition to zero-day vulnerabilities to compromise its targets. Longhorn has infiltrated governments and intern"
-permalink: /longhorn
+permalink: /longhorn/
 country: "United States"
 risk_level: "High"
 sector_focus: ["Telecoms", "Aerospace", "Energy", "Education", "Government, Administration", "Finance", "News - Media", "Private sector", "Government"]

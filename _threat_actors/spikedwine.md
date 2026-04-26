@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SPIKEDWINE"
 aliases: ["SPIKEDWINE"]
 description: "SPIKEDWINE is a threat actor targeting European officials with a new backdoor called WINELOADER. They use a bait PDF document posing as an invitation letter from the Ambassador of India to lure diploma"
-permalink: /spikedwine
+permalink: /spikedwine/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-0940"
 aliases: ["CovertNetwork-1658", "ORB07", "Storm-0940"]
 description: "Storm-0940 is a Chinese threat actor active since at least 2021, known for gaining initial access through password spray and brute-force attacks, as well as exploiting network edge applications. Micros"
-permalink: /storm-0940
+permalink: /storm-0940/
 country: "China"
 ---
 

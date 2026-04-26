@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Team-Xecuter"
 aliases: ["Team-Xecuter"]
 description: "Team-Xecuter is a hacking group led by Gary Bowser, also known as GaryOPA. They were involved in a piracy conspiracy against Nintendo, creating and selling illegal circumvention devices that allowed us"
-permalink: /team-xecuter
+permalink: /team-xecuter/
 ---
 
 ## Introduction

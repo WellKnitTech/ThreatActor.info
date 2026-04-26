@@ -3,7 +3,7 @@ layout: threat_actor
 title: "POISON CARP"
 aliases: ["Evil Eye", "Red Dev 16", "Earth Empusa", "POISON CARP"]
 description: "Between November 2018 and May 2019, senior members of Tibetan groups received malicious links in individually tailored WhatsApp text exchanges with operators posing as NGO workers, journalists, and oth"
-permalink: /poison-carp
+permalink: /poison-carp/
 ---
 
 ## Introduction

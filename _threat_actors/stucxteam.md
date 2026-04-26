@@ -3,7 +3,7 @@ layout: threat_actor
 title: "StucxTeam"
 aliases: ["StucxTeam"]
 description: "Stucx is a threat actor known for targeting Israeli systems, including SCADA systems and the Red Alert missile protection system. Stucx Team has also developed a mobile application called MyOPECS for c"
-permalink: /stucxteam
+permalink: /stucxteam/
 ---
 
 ## Introduction

@@ -108,8 +108,9 @@ def build_front_matter(actor)
     lines << "description: \"#{actor['description'].gsub('"', '\\"').gsub("\n", ' ')[0..200]}\""
   end
   
-  # Permalink
-  lines << "permalink: #{actor['url']}"
+  # Permalink - ensure trailing slash
+  url = actor['url']&.gsub(/\/$/, '') || 'unknown'
+  lines << "permalink: #{url}/"
   
   # Optional fields
   ['country', 'first_seen', 'last_activity', 'risk_level', 'external_id'].each do |field|

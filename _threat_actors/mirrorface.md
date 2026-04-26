@@ -3,7 +3,7 @@ layout: threat_actor
 title: "MirrorFace"
 aliases: ["Earth Kasha", "MirrorFace"]
 description: "MirrorFace is a Chinese-speaking advanced persistent threat group that has been targeting high-value organizations in Japan, including media, government, diplomatic, and political entities. They have b"
-permalink: /mirrorface
+permalink: /mirrorface/
 country: "China"
 ---
 

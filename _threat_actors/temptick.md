@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TempTick"
 aliases: ["TempTick"]
 description: "This threat actor targets organizations in the finance, defense, aerospace, technology, health-care, and automotive sectors and media organizations in East Asia for the purpose of espionage. Believed t"
-permalink: /temptick
+permalink: /temptick/
 country: "China"
 risk_level: "High"
 sector_focus: ["Government", "Private sector"]

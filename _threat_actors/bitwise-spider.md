@@ -3,7 +3,7 @@ layout: threat_actor
 title: "BITWISE SPIDER"
 aliases: ["BITWISE SPIDER"]
 description: "BITWISE SPIDER has recently and quickly become a significant player in the big game hunting (BGH) landscape. Their dedicated leak site (DLS) has received the highest number of victims posted each month"
-permalink: /bitwise-spider
+permalink: /bitwise-spider/
 ---
 
 ## Introduction

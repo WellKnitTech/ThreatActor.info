@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TRAVELING SPIDER"
 aliases: ["TRAVELING SPIDER"]
 description: "Crowdstrike Tracks the criminal developer of Nemty ransomware as TRAVELING SPIDER. The actor has been observed to take advantage of single-factor authentication to gain access to victim organizations t"
-permalink: /traveling-spider
+permalink: /traveling-spider/
 ---
 
 ## Introduction

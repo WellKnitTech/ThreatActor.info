@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GOBLIN PANDA"
 aliases: ["Conimes", "Cycldek", "GOBLIN PANDA"]
 description: "Goblin Panda is one of a handful of elite Chinese advanced persistent threat (APT) groups. Most Chinese APTs target the United States and NATO, but Goblin Panda focuses primarily on Southeast Asia."
-permalink: /goblin-panda
+permalink: /goblin-panda/
 country: "China"
 risk_level: "Critical"
 sector_focus: ["Private Sector"]

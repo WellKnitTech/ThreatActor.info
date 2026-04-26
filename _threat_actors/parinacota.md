@@ -3,7 +3,7 @@ layout: threat_actor
 title: "PARINACOTA"
 aliases: ["Wine Tempest", "PARINACOTA"]
 description: "One actor that has emerged in this trend of human-operated attacks is an active, highly adaptive group that frequently drops Wadhrama as payload.  PARINACOTA impacts three to four organizations every w"
-permalink: /parinacota
+permalink: /parinacota/
 ---
 
 ## Introduction

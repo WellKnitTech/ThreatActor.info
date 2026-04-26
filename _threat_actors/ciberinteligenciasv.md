@@ -3,7 +3,7 @@ layout: threat_actor
 title: "CiberInteligenciaSV"
 aliases: ["CiberInteligenciaSV"]
 description: "CiberInteligenciaSV is a threat actor that leaked 5.1 million Salvadoran records on Breach Forums. They have also compromised El Salvador's state Bitcoin wallet, Chivo, leaking its source code and VPN "
-permalink: /ciberinteligenciasv
+permalink: /ciberinteligenciasv/
 ---
 
 ## Introduction

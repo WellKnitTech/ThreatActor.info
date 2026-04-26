@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Femwar02"
 aliases: ["Femwar02"]
 description: "Femwar02 is a previously unknown pro-Russian ransomware threat actor that emerged in early 2026, linked to a major cyberattack on Italy's Sapienza University of Rome in February 2026, which caused a fu"
-permalink: /femwar02
+permalink: /femwar02/
 country: "Russia"
 ---
 

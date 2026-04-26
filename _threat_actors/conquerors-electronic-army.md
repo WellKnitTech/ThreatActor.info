@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Conquerors Electronic Army"
 aliases: ["Conquerors Electronic Army"]
 description: "Conquerors Electronic Army operates under the “Wa’d al-Akhira” banner and has claimed multiple attacks against Israeli targets, including civil emergency alerting and healthcare sectors, utilizing rent"
-permalink: /conquerors-electronic-army
+permalink: /conquerors-electronic-army/
 ---
 
 ## Introduction

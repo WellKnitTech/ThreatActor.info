@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ShadyPanda"
 aliases: ["ShadyPanda"]
 description: "ShadyPanda is a threat actor behind a 7-year campaign that has infected 4.3 million users through extensions masquerading as productivity tools while functioning as comprehensive spyware. Their tactics"
-permalink: /shadypanda
+permalink: /shadypanda/
 ---
 
 ## Introduction

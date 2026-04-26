@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SkidSec"
 aliases: ["SkidSec Leaks", "SkidSec"]
 description: "SkidSec is a threat group that has engaged in operations targeting exposed printers in South Korea to disseminate North Korean propaganda, utilizing techniques such as printer exploitation and social e"
-permalink: /skidsec
+permalink: /skidsec/
 ---
 
 ## Introduction

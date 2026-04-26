@@ -3,7 +3,7 @@ layout: threat_actor
 title: "DragonBreath"
 aliases: ["Golden Eye Dog", "APT-Q-27,", "DragonBreath"]
 description: "Golden Eye Dog targets Chinese-speaking users engaged in online gambling, employing techniques such as SERP poisoning, social engineering, and DDoS attacks. The group utilizes trojanized NSIS installer"
-permalink: /dragonbreath
+permalink: /dragonbreath/
 ---
 
 ## Introduction

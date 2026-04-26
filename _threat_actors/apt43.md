@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT43"
 aliases: ["APT43"]
 description: "• APT43 is a prolific cyber operator that supports the interests of the North Korean regime. The group combines moderately-sophisticated technical capabilities with aggressive social engineering tactic"
-permalink: /apt43
+permalink: /apt43/
 ---
 
 ## Introduction

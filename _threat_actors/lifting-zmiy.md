@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Lifting Zmiy"
 aliases: ["Lifting Zmiy"]
 description: "Rostelecom's security team has discovered a new APT group that is breaching companies via industrial PLCs. Named Lifting Zmiy, the group's first attacks were traced back to October 2023. The group targ"
-permalink: /lifting-zmiy
+permalink: /lifting-zmiy/
 ---
 
 ## Introduction

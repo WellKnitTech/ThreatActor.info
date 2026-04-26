@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Unnamed Actor"
 aliases: ["Unnamed Actor"]
 description: "This threat actor compromises civil society groups the Chinese Communist Party views as hostile to its interests, such as Tibetan, Uyghur, Hong Kong, and Taiwanese activist. The threat actor also targe"
-permalink: /unnamed-actor
+permalink: /unnamed-actor/
 country: "China"
 risk_level: "High"
 sector_focus: ["Civil society", "Government"]

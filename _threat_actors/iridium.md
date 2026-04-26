@@ -3,7 +3,7 @@ layout: threat_actor
 title: "IRIDIUM"
 aliases: ["IRIDIUM"]
 description: "Resecurity’s research indicates that the attack on Parliament is a part of a multi-year cyberespionage campaign orchestrated by a nation-state actor whom we are calling IRIDIUM. This actor targets sens"
-permalink: /iridium
+permalink: /iridium/
 country: "Iran"
 risk_level: "Low"
 ---

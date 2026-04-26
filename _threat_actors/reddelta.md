@@ -3,7 +3,7 @@ layout: threat_actor
 title: "RedDelta"
 aliases: ["RedDelta"]
 description: "Likely Chinese state-sponsored threat activity group RedDelta targeting organizations within Europe and Southeast Asia using a customized variant of the PlugX backdoor. Since at least 2019, RedDelta ha"
-permalink: /reddelta
+permalink: /reddelta/
 ---
 
 ## Introduction

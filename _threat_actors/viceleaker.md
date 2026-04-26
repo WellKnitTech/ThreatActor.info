@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ViceLeaker"
 aliases: ["ViceLeaker"]
 description: "In May 2018, we discovered a campaign targeting dozens of mobile Android devices belonging to Israeli citizens. Kaspersky spyware sensors caught the signal of an attack from the device of one of the vi"
-permalink: /viceleaker
+permalink: /viceleaker/
 ---
 
 ## Introduction

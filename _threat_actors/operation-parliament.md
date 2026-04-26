@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Operation Parliament"
 aliases: ["Operation Parliament"]
 description: "This threat actor uses spear-phishing techniques to target parliaments, government ministries, academics, and media organizations, primarily in the Middle East, for the purpose of espionage. Based on o"
-permalink: /operation-parliament
+permalink: /operation-parliament/
 country: "Unknown"
 risk_level: "High"
 sector_focus: ["Government", "Civil society"]

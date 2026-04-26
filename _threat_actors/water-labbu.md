@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Water Labbu"
 aliases: ["Water Labbu"]
 description: "Trend Micro discovered a threat actor they named Water Labbu that was targeting cryptocurrency scam websites. Typically, cryptocurrency scammers use social engineering techniques,  interacting with vic"
-permalink: /water-labbu
+permalink: /water-labbu/
 ---
 
 ## Introduction

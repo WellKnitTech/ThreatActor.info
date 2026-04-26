@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Natohub"
 aliases: ["Natohub"]
 description: "Natohub is a hacker who claimed to have stolen 42,000 documents from the UN’s International Civil Aviation Organization and is offering the data for sale on underground forums. The compromised document"
-permalink: /natohub
+permalink: /natohub/
 ---
 
 ## Introduction

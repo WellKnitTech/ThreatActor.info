@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Scarab"
 aliases: ["Scarab"]
 description: "Scarab APT was first spotted in 2015, but is believed to have been active since at least 2012, conducting surgical attacks against a small number of individuals across the world, including Russia and t"
-permalink: /scarab
+permalink: /scarab/
 country: "China"
 ---
 

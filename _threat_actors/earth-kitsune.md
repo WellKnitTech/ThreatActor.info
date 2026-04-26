@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Earth Kitsune"
 aliases: ["Earth Kitsune"]
 description: "Earth Kitsune is an advanced persistent threat actor that has been active since at least 2019. They primarily target individuals interested in North Korea and use various tactics, such as compromising "
-permalink: /earth-kitsune
+permalink: /earth-kitsune/
 ---
 
 ## Introduction

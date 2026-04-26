@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Dark Basin"
 aliases: ["Dark Basin"]
 description: "Dark Basin is a hack-for-hire group that has targeted thousands of individuals and hundreds of institutions on six continents. Targets include advocacy groups and journalists, elected and senior govern"
-permalink: /dark-basin
+permalink: /dark-basin/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Ayyıldız Tim"
 aliases: ["Crescent and Star", "Ayyıldız Tim"]
 description: "Ayyıldız (Crescent and Star) Tim is a nationalist hacking group founded in 2002. It performs defacements and DDoS attacks against the websites of governments that it considers to be repressing Muslim m"
-permalink: /ayy-ld-z-tim
+permalink: /ayy-ld-z-tim/
 country: "Turkey"
 risk_level: "High"
 sector_focus: ["Government, Administration"]

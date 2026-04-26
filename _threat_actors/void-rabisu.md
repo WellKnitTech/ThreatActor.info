@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Void Rabisu"
 aliases: ["Tropical Scorpius", "Void Rabisu"]
 description: "Void Rabisu is an intrusion set associated with both financially motivated ransomware attacks and targeted campaigns on Ukraine and countries supporting Ukraine."
-permalink: /void-rabisu
+permalink: /void-rabisu/
 ---
 
 ## Introduction

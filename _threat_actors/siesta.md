@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Siesta"
 aliases: ["Siesta"]
 description: "FireEye recently looked deeper into the activity discussed in TrendMicro’s blog and dubbed the “Siesta” campaign. The tools, modus operandi, and infrastructure used in the campaign present two possibil"
-permalink: /siesta
+permalink: /siesta/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SABRE PANDA"
 aliases: ["SABRE PANDA"]
 description: ""
-permalink: /sabre-panda
+permalink: /sabre-panda/
 country: "China"
 risk_level: "High"
 ---

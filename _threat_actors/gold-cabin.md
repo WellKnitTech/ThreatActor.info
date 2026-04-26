@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GOLD CABIN"
 aliases: ["Shakthak", "TA551", "ATK236", "G0127", "Monster Libra", "GOLD CABIN"]
 description: "GOLD CABIN is a financially motivated cybercriminal threat group operating a malware distribution service on behalf of numerous customers since 2018. GOLD CABIN uses malicious documents, often containe"
-permalink: /gold-cabin
+permalink: /gold-cabin/
 ---
 
 ## Introduction

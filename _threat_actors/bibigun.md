@@ -3,7 +3,7 @@ layout: threat_actor
 title: "BiBiGun"
 aliases: ["BiBiGun"]
 description: "A pro-Hamas hacktivist group developed a wiper called BiBi-Linux to target and destroy data on Israeli systems. The malware impersonates ransomware but operates solely to corrupt and delete files, indi"
-permalink: /bibigun
+permalink: /bibigun/
 ---
 
 ## Introduction

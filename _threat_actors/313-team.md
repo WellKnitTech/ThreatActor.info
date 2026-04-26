@@ -3,7 +3,7 @@ layout: threat_actor
 title: "313 Team"
 aliases: ["313 Team"]
 description: "313 Team is an Iraq-based threat actor that has conducted coordinated DDoS campaigns targeting multiple government servers in the UAE, Kuwait, and Romania, often in response to political statements. Th"
-permalink: /313-team
+permalink: /313-team/
 ---
 
 ## Introduction

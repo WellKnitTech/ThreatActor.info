@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Saad Tycoon"
 aliases: ["Saad Tycoon"]
 description: "Saad Tycoon is the operator and alleged developer of the Tycoon 2FA PhaaS, a phishing service that targets users for financial gain. The actor utilizes Bitcoin transactions to generate significant prof"
-permalink: /saad-tycoon
+permalink: /saad-tycoon/
 ---
 
 ## Introduction

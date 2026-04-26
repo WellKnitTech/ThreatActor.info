@@ -3,7 +3,7 @@ layout: threat_actor
 title: "DarkRaaS"
 aliases: ["DarkRaaS"]
 description: "DarkRaaS is a threat actor specializing in selling unauthorized access to various organizations' systems and networks across multiple countries, with a recent focus on targets in Israel, UAE, Turkey, a"
-permalink: /darkraas
+permalink: /darkraas/
 ---
 
 ## Introduction

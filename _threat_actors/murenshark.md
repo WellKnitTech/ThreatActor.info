@@ -3,7 +3,7 @@ layout: threat_actor
 title: "MurenShark"
 aliases: ["Actor210426", "MurenShark"]
 description: "MurenShark is an advanced persistent threat group that operates primarily in the Middle East, with a focus on targeting Turkey. They have shown interest in military projects, as well as research instit"
-permalink: /murenshark
+permalink: /murenshark/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "CRYSTALRAY"
 aliases: ["CRYSTALRAY"]
 description: "CRYSTALRAY is a threat actor known for leveraging open source tools like zmap and SSH-Snake to conduct widespread vulnerability scanning and exploitation. They target victims to collect and sell creden"
-permalink: /crystalray
+permalink: /crystalray/
 ---
 
 ## Introduction

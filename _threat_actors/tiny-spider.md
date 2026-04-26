@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TINY SPIDER"
 aliases: ["TINY SPIDER"]
 description: "According to CrowdStrike, this actor is using TinyLoader and TinyPOS, potentially buying access through Dridex infections."
-permalink: /tiny-spider
+permalink: /tiny-spider/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "UNK_RemoteRogue"
 aliases: ["UNK_RemoteRogue"]
 description: "UNK_RemoteRogue is a suspected Russian threat actor that has been observed utilizing ClickFix in its infection chains, although this technique is not revolutionizing their operations but rather replaci"
-permalink: /unk-remoterogue
+permalink: /unk-remoterogue/
 country: "Russia"
 ---
 

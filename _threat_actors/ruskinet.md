@@ -3,7 +3,7 @@ layout: threat_actor
 title: "RuskiNet"
 aliases: ["RuskiNet"]
 description: "RuskiNet is a pro-Russian hacktivist collective associated with disruptive operations including DDoS attacks, website defacements, phishing, and data leaks against government, infrastructure, financial"
-permalink: /ruskinet
+permalink: /ruskinet/
 country: "Russia"
 ---
 

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Malsmoke"
 aliases: ["Malsmoke"]
 description: "Malsmoke primarily targets Japanese users through malvertising campaigns that deliver Zloader malware, often leveraging adult content lures and geographic IP information. The group has transitioned fro"
-permalink: /malsmoke
+permalink: /malsmoke/
 ---
 
 ## Introduction

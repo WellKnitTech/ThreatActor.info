@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Ruby Sleet"
 aliases: ["CERIUM", "Ruby Sleet"]
 description: "Ruby Sleet is a threat actor linked to North Korea's Ministry of State Security. Cerium has been involved in spear-phishing campaigns, compromising devices, and conducting cyberattacks alongside other "
-permalink: /ruby-sleet
+permalink: /ruby-sleet/
 country: "North Korea"
 ---
 

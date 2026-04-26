@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ChainedShark"
 aliases: ["Actor240820", "ChainedShark"]
 description: "ChainedShark is an APT group targeting China's scientific research sector, particularly professionals in international relations and marine technology, with the intent to steal sensitive data. The grou"
-permalink: /chainedshark
+permalink: /chainedshark/
 ---
 
 ## Introduction

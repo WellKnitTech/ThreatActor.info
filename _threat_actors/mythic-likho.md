@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Mythic Likho"
 aliases: ["Arcane Werewolf", "Mythic Likho"]
 description: "Arcane Werewolf has been observed targeting Russian manufacturing enterprises through phishing emails that lead to malicious links and spoofed websites. The actor has utilized ZIP archives containing m"
-permalink: /mythic-likho
+permalink: /mythic-likho/
 ---
 
 ## Introduction

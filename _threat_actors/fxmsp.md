@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Fxmsp"
 aliases: ["Fxmsp"]
 description: "Throughout 2017 and 2018, Fxmsp established a network of trusted proxy resellers to promote their breaches on the criminal underground. Some of the known Fxmsp TTPs included accessing network environme"
-permalink: /fxmsp
+permalink: /fxmsp/
 ---
 
 ## Introduction

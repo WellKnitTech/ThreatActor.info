@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Kairos"
 aliases: ["Kairos"]
 description: "Kairos is an extortion group that emerged with a data-leak site on 13 November 2024, claiming attacks against six organizations, primarily in the US healthcare sector. The group is financially motivate"
-permalink: /kairos
+permalink: /kairos/
 ---
 
 ## Introduction

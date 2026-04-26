@@ -3,7 +3,7 @@ layout: threat_actor
 title: "HummingBad"
 aliases: ["HummingBad"]
 description: "This group created a malware that takes over Android devices and generates $300,000 per month in fraudulent ad revenue.  The group effectively controls an arsenal of over 85 million mobile devices arou"
-permalink: /hummingbad
+permalink: /hummingbad/
 country: "China"
 risk_level: "High"
 ---

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GambleForce"
 aliases: ["GambleForce"]
 description: "GambleForce is a threat actor specializing in SQL injection attacks. They have targeted over 20 websites in various sectors across multiple countries, compromising six companies. GambleForce utilizes p"
-permalink: /gambleforce
+permalink: /gambleforce/
 ---
 
 ## Introduction

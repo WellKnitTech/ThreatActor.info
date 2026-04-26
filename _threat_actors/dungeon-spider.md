@@ -3,7 +3,7 @@ layout: threat_actor
 title: "DUNGEON SPIDER"
 aliases: ["DUNGEON SPIDER"]
 description: "DUNGEON SPIDER is a criminal group operating the ransomware most commonly known as Locky, which has been active since February 2016 and was last observed in late 2017. Locky is a ransomware tool that e"
-permalink: /dungeon-spider
+permalink: /dungeon-spider/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TheWizards"
 aliases: ["TheWizards"]
 description: "TheWizards is a China-aligned APT group that employs the Spellbinder tool for adversary-in-the-middle attacks, utilizing IPv6 SLAAC spoofing to redirect legitimate software updates to malicious servers"
-permalink: /thewizards
+permalink: /thewizards/
 ---
 
 ## Introduction

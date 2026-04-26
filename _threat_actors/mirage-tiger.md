@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Mirage Tiger"
 aliases: ["Mirage Tiger"]
 description: ""
-permalink: /mirage-tiger
+permalink: /mirage-tiger/
 ---
 
 ## Introduction

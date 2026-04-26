@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Codefinger"
 aliases: ["Codefinger"]
 description: "Codefinger is a ransomware group that targets Amazon S3 buckets by exploiting AWS’s Server-Side Encryption with Customer Provided Keys to encrypt victim data. They utilize compromised AWS credentials t"
-permalink: /codefinger
+permalink: /codefinger/
 ---
 
 ## Introduction

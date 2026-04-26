@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SHADOW-VOID-042"
 aliases: ["SHADOW-VOID-042"]
 description: "SHADOW-VOID-042 is a provisional intrusion set tracked by Trend Micro, active in October-November 2025, conducting spear-phishing campaigns against energy, defense, pharmaceutical, cybersecurity, and o"
-permalink: /shadow-void-042
+permalink: /shadow-void-042/
 ---
 
 ## Introduction

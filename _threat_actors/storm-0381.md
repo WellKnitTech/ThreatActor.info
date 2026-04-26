@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-0381"
 aliases: ["DEV-0381", "Storm-0381"]
 description: "Storm-0381 is a threat actor identified by Microsoft as a Russian cybercrime group. They are known for their use of malvertising to deploy Magniber, a type of ransomware."
-permalink: /storm-0381
+permalink: /storm-0381/
 country: "Russia"
 ---
 

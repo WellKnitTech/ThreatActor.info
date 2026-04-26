@@ -3,7 +3,7 @@ layout: threat_actor
 title: "OldGremlin"
 aliases: ["OldGremlin"]
 description: "OldGremlin is a Russian-speaking ransomware group that has been active for several years. They primarily target organizations in Russia, including banks, logistics, industrial, insurance, retail, and I"
-permalink: /oldgremlin
+permalink: /oldgremlin/
 country: "Russia"
 ---
 

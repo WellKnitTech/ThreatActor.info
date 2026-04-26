@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-0530"
 aliases: ["DEV-0530", "H0lyGh0st", "Storm-0530"]
 description: "H0lyGh0st is a North Korean threat actor that has been active since June 2021. They are responsible for developing and deploying the H0lyGh0st ransomware, which targets small-to-medium businesses in va"
-permalink: /storm-0530
+permalink: /storm-0530/
 country: "North Korea"
 ---
 

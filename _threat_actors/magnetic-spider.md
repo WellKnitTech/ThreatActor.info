@@ -3,7 +3,7 @@ layout: threat_actor
 title: "MAGNETIC SPIDER"
 aliases: ["MAGNETIC SPIDER"]
 description: ""
-permalink: /magnetic-spider
+permalink: /magnetic-spider/
 country: "Russia"
 risk_level: "High"
 ---

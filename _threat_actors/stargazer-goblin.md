@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Stargazer Goblin"
 aliases: ["Stargazer Goblin"]
 description: "Stargazer Goblin is a threat actor group that operates the Stargazers Ghost Network on GitHub, distributing malware and malicious links through multiple accounts. They utilize compromised and created a"
-permalink: /stargazer-goblin
+permalink: /stargazer-goblin/
 ---
 
 ## Introduction

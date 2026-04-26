@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-0826"
 aliases: ["Storm-0826"]
 description: "Storm-0826 is a financially motivated cybercriminal group operating as an affiliate within the Black Basta ransomware-as-a-service (RaaS) ecosystem. This actor's primary known method of obtaining initi"
-permalink: /storm-0826
+permalink: /storm-0826/
 ---
 
 ## Introduction

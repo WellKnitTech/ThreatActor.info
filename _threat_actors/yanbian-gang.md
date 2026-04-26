@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Yanbian Gang"
 aliases: ["Yanbian Gang"]
 description: "RiskIQ characterizes the Yanbian Gang as a group that targeted South Korean Android mobile banking customers since 2013 with malicious Android apps purporting to be from major banks, namely Shinhan Sav"
-permalink: /yanbian-gang
+permalink: /yanbian-gang/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "BreachLaboratory"
 aliases: ["BreachLaboratory"]
 description: "BreachLaboratory is a cybercrime actor that specializes in the extraction and sale of sensitive financial and identity datasets from various organizations. They have claimed to exfiltrate approximately"
-permalink: /breachlaboratory
+permalink: /breachlaboratory/
 ---
 
 ## Introduction

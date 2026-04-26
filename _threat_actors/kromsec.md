@@ -3,7 +3,7 @@ layout: threat_actor
 title: "KromSec"
 aliases: ["KromSec"]
 description: "KromSec is a hacktivist group that claims to be composed of hackers, activists, writers, and journalists. The group has been involved in a number of high-profile cyberattacks, including a cyber offensi"
-permalink: /kromsec
+permalink: /kromsec/
 ---
 
 ## Introduction

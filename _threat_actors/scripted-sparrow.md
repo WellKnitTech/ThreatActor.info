@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Scripted Sparrow"
 aliases: ["Scripted Sparrow"]
 description: "Scripted Sparrow is a prolific Business Email Compromise (BEC) collective that conducts highly targeted phishing campaigns, impersonating professional services firms to deceive finance teams into trans"
-permalink: /scripted-sparrow
+permalink: /scripted-sparrow/
 ---
 
 ## Introduction

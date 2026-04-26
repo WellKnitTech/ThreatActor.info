@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Threat Actor 888"
 aliases: ["Threat Actor 888"]
 description: "Threat actor 888 is a hacker active in 2024, targeting companies for data breaches. They've hit Microsoft, BMW (Hong Kong), and others in tech, freight, and oil & gas industries"
-permalink: /threat-actor-888
+permalink: /threat-actor-888/
 ---
 
 ## Introduction

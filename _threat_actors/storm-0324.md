@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-0324"
 aliases: ["DEV-0324", "Sagrid", "TA543", "Storm-0324"]
 description: "The threat actor that Microsoft tracks as Storm-0324 is a financially motivated group known to gain initial access using email-based initial infection vectors and then hand off access to compromised ne"
-permalink: /storm-0324
+permalink: /storm-0324/
 ---
 
 ## Introduction

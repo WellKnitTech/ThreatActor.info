@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Blackatom"
 aliases: ["Blackatom"]
 description: "Recent campaigns suggest Hamas-linked actors may be advancing their TTPs to include intricate social engineering lures specially crafted to appeal to a niche group of high value targets. In September 2"
-permalink: /blackatom
+permalink: /blackatom/
 country: "Palestine"
 risk_level: "High"
 sector_focus: ["Military", "Defense", "Transportation"]

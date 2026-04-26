@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GrayBravo"
 aliases: ["TAG-150", "GrayBravo"]
 description: "TAG-150, also known as GrayBravo, is a sophisticated threat actor responsible for developing multiple custom malware families, including CastleLoader and CastleRAT, and operates a large-scale, multi-la"
-permalink: /graybravo
+permalink: /graybravo/
 ---
 
 ## Introduction

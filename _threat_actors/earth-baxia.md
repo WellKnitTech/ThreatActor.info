@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Earth Baxia"
 aliases: ["Earth Baxia"]
 description: "Earth Baxia is a threat actor opearting out of China, targeting government organizations in Taiwan and potentially across the APAC region, using spear-phishing emails and exploiting the GeoServer vulne"
-permalink: /earth-baxia
+permalink: /earth-baxia/
 country: "China"
 ---
 

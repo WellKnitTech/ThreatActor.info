@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Grayling"
 aliases: ["Grayling"]
 description: "Grayling activity was first observed in early 2023, when a number of victims were identified with distinctive malicious DLL side-loading activity. Grayling appears to target organisations in Asia, howe"
-permalink: /grayling
+permalink: /grayling/
 country: "China"
 risk_level: "High"
 sector_focus: ["Biomedical", "Government", "Information technology"]

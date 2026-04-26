@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SilverFish"
 aliases: ["SilverFish"]
 description: "SilverFish is believed to be a Russian cyberespionage group that has been involved in various cyberattacks, including the use of the SolarWinds breach as an attack vector. SilverFish has been linked to"
-permalink: /silverfish
+permalink: /silverfish/
 ---
 
 ## Introduction

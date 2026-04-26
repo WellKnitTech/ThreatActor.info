@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT15"
 aliases: ["VIXEN PANDA", "Ke3Chang", "Playful Dragon", "Metushy", "Lurid", "Social Network Team", "Royal APT", "BRONZE PALACE", "BRONZE DAVENPORT", "BRONZE IDLEWOOD", "NICKEL", "G0004", "Red Vulture", "Nylon Typhoon", "Mirage", "APT15"]
 description: "This threat actor uses phishing techniques to compromise the networks of foreign ministries of European countries for espionage purposes."
-permalink: /apt15
+permalink: /apt15/
 country: "China"
 risk_level: "High"
 sector_focus: ["Government, Administration", "Government"]

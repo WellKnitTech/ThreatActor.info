@@ -3,7 +3,7 @@ layout: threat_actor
 title: "IronErn440"
 aliases: ["IronErn440"]
 description: "IronErn440 is a threat actor tracked by Oligo Security for orchestrating the ShadowRay 2.0 campaign, an evolution of attacks since September 2023 exploiting CVE-2023-48022, a missing authentication fla"
-permalink: /ironern440
+permalink: /ironern440/
 ---
 
 ## Introduction

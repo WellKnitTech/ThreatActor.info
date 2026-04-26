@@ -3,7 +3,7 @@ layout: threat_actor
 title: "RAZOR TIGER"
 aliases: ["SideWinder", "Rattlesnake", "APT-C-17", "T-APT-04", "RAZOR TIGER"]
 description: "An actor mainly targeting Pakistan military targets, active since at least 2012. We have low confidence that this malware might be authored by an Indian company. To spread the malware, they use unique "
-permalink: /razor-tiger
+permalink: /razor-tiger/
 country: "India"
 sector_focus: ["Government", "Military", "Private Sector"]
 ---

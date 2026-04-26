@@ -3,7 +3,7 @@ layout: threat_actor
 title: "PassCV"
 aliases: ["PassCV"]
 description: "The PassCV group continues to be one of the most successful and active threat groups that leverage a wide array of stolen Authenticode-signing certificates.  Snorre Fagerland of Blue Coat Systems first"
-permalink: /passcv
+permalink: /passcv/
 country: "China"
 risk_level: "High"
 ---

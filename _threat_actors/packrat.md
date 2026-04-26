@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Packrat"
 aliases: ["Packrat"]
 description: "A threat group that has been active for at least seven years has used malware, phishing and disinformation tactics to target activists, journalists, politicians and public figures in various Latin Amer"
-permalink: /packrat
+permalink: /packrat/
 sector_focus: ["Activists", "Journalist", "Political party"]
 ---
 

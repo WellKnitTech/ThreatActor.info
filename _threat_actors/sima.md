@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Sima"
 aliases: ["Sima"]
 description: "Sima is a group of suspected Iranian origin targeting Iranians in diaspora. In February 2016, Iran-focused individuals received messages purporting to be from Human RightsWatch's (HRW) Emergencies Dire"
-permalink: /sima
+permalink: /sima/
 country: "Iran"
 risk_level: "High"
 ---

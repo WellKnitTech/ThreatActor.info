@@ -3,7 +3,7 @@ layout: threat_actor
 title: "CL-STA-0043"
 aliases: ["TGR-STA-0043", "CL-STA-0043"]
 description: "CL-STA-0043 is a highly skilled and sophisticated threat actor, believed to be a nation-state, targeting governmental entities in the Middle East and Africa. They exploit vulnerabilities in on-premises"
-permalink: /cl-sta-0043
+permalink: /cl-sta-0043/
 ---
 
 ## Introduction

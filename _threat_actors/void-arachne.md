@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Void Arachne"
 aliases: ["Silver Fox", "Void Arachne"]
 description: "Void Arachne is a threat actor group targeting Chinese-speaking users with malicious MSI files containing legitimate software installers for AI software. They exploit public interest in VPN technology "
-permalink: /void-arachne
+permalink: /void-arachne/
 ---
 
 ## Introduction

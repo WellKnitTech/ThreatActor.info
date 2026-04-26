@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Gelsemium"
 aliases: ["狼毒草", "Gelsemium"]
 description: "The Gelsemium group has been active since at least 2014 and was described in the past by a few security companies. Gelsemium’s name comes from one possible translation ESET found while reading a report"
-permalink: /gelsemium
+permalink: /gelsemium/
 sector_focus: ["Government", "Electronics Manufacturers", "Universities", "Religious organization"]
 ---
 

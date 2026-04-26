@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Water Bakunawa"
 aliases: ["Water Bakunawa"]
 description: "Water Bakunawa is a cybercriminal group identified by Trend Micro, responsible for the RansomHub ransomware, which exploits the Zerologon vulnerability to gain unauthorized network access. The group em"
-permalink: /water-bakunawa
+permalink: /water-bakunawa/
 ---
 
 ## Introduction

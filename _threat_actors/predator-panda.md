@@ -3,7 +3,7 @@ layout: threat_actor
 title: "PREDATOR PANDA"
 aliases: ["PREDATOR PANDA"]
 description: ""
-permalink: /predator-panda
+permalink: /predator-panda/
 country: "China"
 risk_level: "High"
 ---

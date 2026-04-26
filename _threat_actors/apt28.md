@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT28"
 aliases: ["APT28", "Fancy Bear", "Forest Blizzard", "FROZENLAKE", "Group 74", "GruesomeLarch", "IRON TWILIGHT", "Pawn Storm", "Sednit", "SNAKEMACKEREL", "Sofacy", "Sofacy Group", "STRONTIUM", "Swallowtail", "TG-4127", "Threat Group-4127", "Tsar Team", "FANCY BEAR", "SIG40", "Grizzly Steppe", "G0007", "ATK5", "Fighting Ursa", "ITG05", "Blue Athena", "TA422", "T-APT-12", "APT-C-20", "UAC-0028", "UAC-0001", "BlueDelta"]
 description: "APT28 is a threat group that has been attributed to Russia's General Staff Main Intelligence Directorate (GRU) 85th Main Special Service Center (GTsSS) military unit 26165.(Citation: NSA/FBI Drovorub A"
-permalink: /apt28
+permalink: /apt28/
 country: "Russia"
 first_seen: "2007"
 last_activity: "2024"

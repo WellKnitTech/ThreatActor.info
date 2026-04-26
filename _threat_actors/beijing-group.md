@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Beijing Group"
 aliases: ["SNEAKY PANDA", "Elderwood", "Elderwood Gang", "SIG22", "G0066", "Beijing Group"]
 description: ""
-permalink: /beijing-group
+permalink: /beijing-group/
 country: "China"
 risk_level: "High"
 sector_focus: ["Private sector", "Civil society"]

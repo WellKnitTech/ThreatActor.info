@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Hellsing"
 aliases: ["Hellsing"]
 description: "This threat actor uses spear-phishing techniques to compromise diplomatic targets in Southeast Asia, India, and the United States. It also seems to have targeted the APT 30. Possibly uses the same infr"
-permalink: /hellsing
+permalink: /hellsing/
 country: "China"
 risk_level: "High"
 sector_focus: ["Infrastructure", "Diplomacy", "Government"]

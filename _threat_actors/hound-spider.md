@@ -3,7 +3,7 @@ layout: threat_actor
 title: "HOUND SPIDER"
 aliases: ["HOUND SPIDER"]
 description: "According to Crowdstrike, HOUND SPIDER affiliates arrested in Romania on December,2017"
-permalink: /hound-spider
+permalink: /hound-spider/
 ---
 
 ## Introduction

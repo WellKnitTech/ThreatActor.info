@@ -3,7 +3,7 @@ layout: threat_actor
 title: "LUNAR SPIDER"
 aliases: ["GOLD SWATHMORE", "LUNAR SPIDER"]
 description: "According to CrowdStrike, this actor is using BokBok/IcedID, potentially buying distribution through Emotet infections. On March 17, 2019, CrowdStrike Intelligence observed the use of a new BokBot (dev"
-permalink: /lunar-spider
+permalink: /lunar-spider/
 ---
 
 ## Introduction

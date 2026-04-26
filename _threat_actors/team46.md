@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Team46"
 aliases: ["TaxOff", "Team46"]
 description: "Team46 is a sophisticated APT group active since at least late 2024, targeting Russian government, academic, and media organizations through spearphishing emails disguised as forum invitations or servi"
-permalink: /team46
+permalink: /team46/
 ---
 
 ## Introduction

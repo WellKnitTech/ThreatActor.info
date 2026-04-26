@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-1133"
 aliases: ["Storm-1133"]
 description: "In early 2023, Microsoft In early 2023, observed a wave of activity from a Gaza-based group that we track as Storm-1133 targeting Israeli private sector energy, defense, and telecommunications organiza"
-permalink: /storm-1133
+permalink: /storm-1133/
 ---
 
 ## Introduction

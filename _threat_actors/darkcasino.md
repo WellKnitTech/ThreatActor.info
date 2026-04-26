@@ -3,7 +3,7 @@ layout: threat_actor
 title: "DarkCasino"
 aliases: ["DarkCasino"]
 description: "DarkCasino is an economically motivated APT group that targets online trading platforms, including cryptocurrencies, online casinos, network banks, and online credit platforms. They are skilled at stea"
-permalink: /darkcasino
+permalink: /darkcasino/
 ---
 
 ## Introduction

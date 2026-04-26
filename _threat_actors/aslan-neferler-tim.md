@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Aslan Neferler Tim"
 aliases: ["Lion Soldiers Team", "Phantom Turk", "Aslan Neferler Tim"]
 description: "Turkish nationalist hacktivist group that has been active for roughly one year. According to Domaintools, the group’s site has been registered since December 2015, with an active Twitter account since "
-permalink: /aslan-neferler-tim
+permalink: /aslan-neferler-tim/
 country: "Turkey"
 risk_level: "High"
 sector_focus: ["Government, Administration", "News - Media"]

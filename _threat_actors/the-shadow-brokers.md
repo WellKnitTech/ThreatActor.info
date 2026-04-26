@@ -3,7 +3,7 @@ layout: threat_actor
 title: "The Shadow Brokers"
 aliases: ["The ShadowBrokers", "TSB", "Shadow Brokers", "ShadowBrokers", "The Shadow Brokers"]
 description: "The Shadow Brokers (TSB) is a hacker group who first appeared in the summer of 2016. They published several leaks containing hacking tools from the National Security Agency (NSA, including several zero"
-permalink: /the-shadow-brokers
+permalink: /the-shadow-brokers/
 ---
 
 ## Introduction

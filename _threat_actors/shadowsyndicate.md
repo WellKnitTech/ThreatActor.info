@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ShadowSyndicate"
 aliases: ["ShadowSyndicate"]
 description: "ShadowSyndicate is a threat actor associated with various ransomware groups, using a consistent Secure Shell fingerprint across multiple servers. They have been linked to ransomware families such as Qu"
-permalink: /shadowsyndicate
+permalink: /shadowsyndicate/
 ---
 
 ## Introduction

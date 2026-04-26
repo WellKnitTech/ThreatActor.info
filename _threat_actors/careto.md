@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Careto"
 aliases: ["The Mask", "Mask", "Ugly Face", "Careto"]
 description: "This threat actor targets governments, diplomatic missions, private companies in the energy sector, and academics for espionage purposes. The Mask is an advanced threat actor that has been involved in "
-permalink: /careto
+permalink: /careto/
 country: "Spain"
 risk_level: "High"
 sector_focus: ["Government", "Private sector"]

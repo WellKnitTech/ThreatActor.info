@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Blue Termite"
 aliases: ["Cloudy Omega", "Emdivi", "Blue Termite"]
 description: "Blue Termite is a group of suspected Chinese origin active in Japan."
-permalink: /blue-termite
+permalink: /blue-termite/
 country: "China"
 risk_level: "High"
 sector_focus: ["Government", "Private sector"]

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Anonymous64"
 aliases: ["Anonymous 64", "Anonymous64"]
 description: "Anonymous 64 is a group accused by China's national security ministry of attempting to gain control of web portals, outdoor electronic screens, and network television. The Ministry of State Security cl"
-permalink: /anonymous64
+permalink: /anonymous64/
 ---
 
 ## Introduction

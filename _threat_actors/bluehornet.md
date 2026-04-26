@@ -3,7 +3,7 @@ layout: threat_actor
 title: "BlueHornet"
 aliases: ["APT49", "AgainstTheWest", "BlueHornet"]
 description: "BlueHornet is an advanced persistent threat group targeting government organizations in China, North Korea, Iran, and Russia. They have compromised and leaked data from other APT groups like Kryptonite"
-permalink: /bluehornet
+permalink: /bluehornet/
 ---
 
 ## Introduction

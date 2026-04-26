@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Budminer"
 aliases: ["Budminer cyberespionage group", "Budminer"]
 description: "Based on the evidence we have presented Symantec attributed the activity involving theDripion malware to the Budminer advanced threat group. While we have not seen newcampaigns using Taidoor malware si"
-permalink: /budminer
+permalink: /budminer/
 country: "China"
 ---
 

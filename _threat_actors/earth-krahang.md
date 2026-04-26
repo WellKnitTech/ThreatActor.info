@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Earth Krahang"
 aliases: ["Earth Krahang"]
 description: "Earth Krahang is an APT group targeting government organizations worldwide. They use spear-phishing emails, weak internet-facing servers, and custom backdoors like Cobalt Strike, RESHELL, and XDealer t"
-permalink: /earth-krahang
+permalink: /earth-krahang/
 country: "China"
 ---
 

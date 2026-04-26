@@ -3,7 +3,7 @@ layout: threat_actor
 title: "DarkSpectre"
 aliases: ["DarkSpectre"]
 description: ""
-permalink: /darkspectre
+permalink: /darkspectre/
 ---
 
 ## Introduction

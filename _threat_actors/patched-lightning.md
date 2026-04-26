@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Patched Lightning"
 aliases: ["Storm-0113", "Patched Lightning"]
 description: ""
-permalink: /patched-lightning
+permalink: /patched-lightning/
 ---
 
 ## Introduction

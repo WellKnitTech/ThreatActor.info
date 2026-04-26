@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-0506"
 aliases: ["Storm-0506"]
 description: "Storm-0506 (DEV-0506) is a financially motivated cybercriminal group operating as a core affiliate within the Black Basta ransomware-as-a-service (RaaS) ecosystem, having switched from deploying Conti "
-permalink: /storm-0506
+permalink: /storm-0506/
 ---
 
 ## Introduction

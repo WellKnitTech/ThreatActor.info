@@ -3,7 +3,7 @@ layout: threat_actor
 title: "IntelBroker"
 aliases: ["IntelBroker"]
 description: "IntelBroker is a threat actor known for orchestrating high-profile data breaches targeting companies like Apple, Zscaler, and Facebook Marketplace. They have a reputation for selling access to compromi"
-permalink: /intelbroker
+permalink: /intelbroker/
 ---
 
 ## Introduction

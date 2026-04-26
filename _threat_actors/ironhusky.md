@@ -3,7 +3,7 @@ layout: threat_actor
 title: "IronHusky"
 aliases: ["IronHusky"]
 description: "IronHusky is a Chinese-based threat actor first attributed in July 2017 targeting Russian and Mongolian governments, as well as aviation companies and research institutes. Since their initial attacks c"
-permalink: /ironhusky
+permalink: /ironhusky/
 country: "China"
 ---
 

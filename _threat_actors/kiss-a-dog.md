@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Kiss-a-Dog"
 aliases: ["Kiss-a-Dog"]
 description: "CrowdStrike identified a cryptojacking campaign targeting vulnerable Docker and Kubernetes infrastructure. Called “Kiss-a-dog,” the campaign targets Docker and Kubernetes infrastructure using an obscur"
-permalink: /kiss-a-dog
+permalink: /kiss-a-dog/
 ---
 
 ## Introduction

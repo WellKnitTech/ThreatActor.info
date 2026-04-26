@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TeamPCP"
 aliases: ["TeamPCP"]
 description: "TeamPCP is a threat actor that has executed a coordinated series of supply chain attacks, compromising widely-used open source tools such as Trivy, KICS, and LiteLLM to deploy credential-stealing malwa"
-permalink: /teampcp
+permalink: /teampcp/
 ---
 
 ## Introduction

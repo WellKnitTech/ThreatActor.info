@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Honeybee"
 aliases: ["G0072", "Honeybee"]
 description: "McAfee Advanced Threat Research analysts have discovered a new operation targeting humanitarian aid organizations and using North Korean political topics as bait to lure victims into opening malicious "
-permalink: /honeybee
+permalink: /honeybee/
 ---
 
 ## Introduction

@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "Killsec"
 description: "Killsec is an active extortion or ransomware group tracked by RansomLook."
-permalink: /killsec
+permalink: /killsec/
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 ---
 

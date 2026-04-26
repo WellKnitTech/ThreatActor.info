@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Starry Addax"
 aliases: ["Starry Addax"]
 description: "Starry Addax is a threat actor targeting human rights activists associated with the Sahrawi Arab Democratic Republic using a novel mobile malware called FlexStarling. They conduct phishing attacks to t"
-permalink: /starry-addax
+permalink: /starry-addax/
 ---
 
 ## Introduction

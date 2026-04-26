@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Witchetty"
 aliases: ["LookingFrog", "Witchetty"]
 description: "Witchetty was first documented by ESET in April 2022, who concluded that it was one of three sub-groups of TA410, a broad cyber-espionage operation with some links to the Cicada group (aka APT10). Witc"
-permalink: /witchetty
+permalink: /witchetty/
 country: "China"
 ---
 

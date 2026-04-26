@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TRIPLESTRENGTH"
 aliases: ["TRIPLESTRENGTH"]
 description: "TRIPLESTRENGTH is a financially motivated threat actor targeting cloud environments and on-premises infrastructures for cryptojacking, ransomware, and extortion. They exploit stolen credentials, cookie"
-permalink: /triplestrength
+permalink: /triplestrength/
 ---
 
 ## Introduction

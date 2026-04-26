@@ -3,7 +3,7 @@ layout: threat_actor
 title: "WOLF SPIDER"
 aliases: ["FIN4", "G0085", "WOLF SPIDER"]
 description: "FIN4 is a financially-motivated threat group that has targeted confidential information related to the public financial market, particularly regarding healthcare and pharmaceutical companies, since at "
-permalink: /wolf-spider
+permalink: /wolf-spider/
 risk_level: "High"
 sector_focus: ["Health", "Finance", "Pharmacy"]
 ---

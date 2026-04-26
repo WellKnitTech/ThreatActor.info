@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SEXi"
 aliases: ["SEXi"]
 description: "SEXi is a ransomware group that targets VMware ESXi servers, encrypting data and demanding ransom payments. They have been observed encrypting virtual machines and backups, causing significant disrupti"
-permalink: /sexi
+permalink: /sexi/
 ---
 
 ## Introduction

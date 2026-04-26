@@ -3,7 +3,7 @@ layout: threat_actor
 title: "DIZZY PANDA"
 aliases: ["LadyBoyle", "DIZZY PANDA"]
 description: ""
-permalink: /dizzy-panda
+permalink: /dizzy-panda/
 ---
 
 ## Introduction

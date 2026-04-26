@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Operation Wocao"
 aliases: ["Operation Wocao"]
 description: "Operation Wocao (我操, “Wǒ cāo”, used as “shit” or “damn”) is the name that Fox-IT uses to describe the hacking activities of a Chinese based hacking group. This report details the profile of a publicly "
-permalink: /operation-wocao
+permalink: /operation-wocao/
 ---
 
 ## Introduction

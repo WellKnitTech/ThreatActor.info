@@ -3,7 +3,7 @@ layout: threat_actor
 title: "MageCart"
 aliases: ["MageCart"]
 description: "Digital threat management company RiskIQ tracks the activity of MageCart group and reported their use of web-based card skimmers since 2016."
-permalink: /magecart
+permalink: /magecart/
 ---
 
 ## Introduction

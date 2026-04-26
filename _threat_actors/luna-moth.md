@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Luna Moth"
 aliases: ["Silent Ransom", "TG2729", "Luna Moth"]
 description: "Luna Moth conducts high-tempo callback phishing campaigns targeting legal and financial organizations in the U.S., using social engineering to lure victims into calling fake helpdesk numbers. Attackers"
-permalink: /luna-moth
+permalink: /luna-moth/
 ---
 
 ## Introduction

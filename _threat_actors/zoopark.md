@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ZooPark"
 aliases: ["ZooPark"]
 description: "ZooPark is a cyberespionage operation that has been focusing on Middle Eastern targets since at least June 2015. The threat actors behind ZooPark infect Android devices using several generations of mal"
-permalink: /zoopark
+permalink: /zoopark/
 ---
 
 ## Introduction

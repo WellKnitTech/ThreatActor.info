@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ALTDOS"
 aliases: ["ALTDOS"]
 description: "ALTDOS is a threat actor group that has targeted entities in Southeast Asia, including Singapore, Thailand, and Malaysia. They have been involved in data breaches of companies in various sectors, such "
-permalink: /altdos
+permalink: /altdos/
 ---
 
 ## Introduction

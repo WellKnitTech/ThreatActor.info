@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-2460"
 aliases: ["Storm-2460"]
 description: "Storm-2460 is a threat actor that has exploited elevation of privilege vulnerabilities to deploy PipeMagic malware and ransomware, enabling them to escalate access within compromised environments. They"
-permalink: /storm-2460
+permalink: /storm-2460/
 ---
 
 ## Introduction

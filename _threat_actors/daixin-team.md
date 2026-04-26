@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Daixin Team"
 aliases: ["Daixin Team"]
 description: "Daixin is a threat actor group that has been active since at least June 2022. They primarily target the healthcare and public health sector with ransomware attacks, stealing sensitive data and threaten"
-permalink: /daixin-team
+permalink: /daixin-team/
 ---
 
 ## Introduction

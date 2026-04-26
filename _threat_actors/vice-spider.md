@@ -3,7 +3,7 @@ layout: threat_actor
 title: "VICE SPIDER"
 aliases: ["VICE SPIDER"]
 description: "Vice Spider is a Russian-speaking ransomware group that has been active since at least April 2021 and is linked to a significant increase in identity-based attacks, with a reported 583% rise in Kerbero"
-permalink: /vice-spider
+permalink: /vice-spider/
 country: "Russia"
 ---
 

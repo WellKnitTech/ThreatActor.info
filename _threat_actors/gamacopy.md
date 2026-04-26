@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GamaCopy"
 aliases: ["GamaCopy"]
 description: "GamaCopy is a threat actor first discovered in June 2023, known for launching cyberattacks against Russia’s defense and critical infrastructure sectors by mimicking the TTPs of Gamaredon. The organizat"
-permalink: /gamacopy
+permalink: /gamacopy/
 ---
 
 ## Introduction

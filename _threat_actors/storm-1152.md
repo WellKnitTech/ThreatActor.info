@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-1152"
 aliases: ["Storm-1152"]
 description: "Storm-1152, a cybercriminal group, was recently taken down by Microsoft for illegally reselling Outlook accounts. They operated by creating approximately 750 million fraudulent Microsoft accounts and e"
-permalink: /storm-1152
+permalink: /storm-1152/
 country: "Vietnam"
 ---
 

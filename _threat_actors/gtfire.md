@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GTFire"
 aliases: ["GTFire"]
 description: "GTFire is a threat actor that leverages Google Firebase for hosting phishing pages and Google Translate to disguise malicious URLs, effectively bypassing security filters. The campaign employs a multi-"
-permalink: /gtfire
+permalink: /gtfire/
 ---
 
 ## Introduction

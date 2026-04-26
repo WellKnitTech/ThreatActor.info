@@ -3,7 +3,7 @@ layout: threat_actor
 title: "INDOHAXSEC TEAM"
 aliases: ["INDOHAXSEC TEAM"]
 description: "INDOHAXSEC TEAM is an Indonesian group that claims to have developed a web-based version of WannaCry, asserting the ability to encrypt websites and demand Bitcoin as ransom. However, their technical ca"
-permalink: /indohaxsec-team
+permalink: /indohaxsec-team/
 country: "Indonesia"
 ---
 

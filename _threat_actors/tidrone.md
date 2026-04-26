@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TIDRONE"
 aliases: ["Earth Ammit", "VENOM", "TIDRONE"]
 description: "TIDRONE is an unidentified threat actor linked to Chinese-speaking groups, with a focus on military-related industry chains, particularly drone manufacturers in Taiwan. The actor employs advanced malwa"
-permalink: /tidrone
+permalink: /tidrone/
 country: "China"
 ---
 

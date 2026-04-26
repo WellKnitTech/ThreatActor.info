@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TiltedTemple"
 aliases: ["DEV-0322", "Circle Typhoon", "TiltedTemple"]
 description: "One of their notable tools is a custom backdoor called SockDetour, which operates filelessly and socketlessly on compromised Windows servers. The group's activities have been linked to the exploitation"
-permalink: /tiltedtemple
+permalink: /tiltedtemple/
 country: "China"
 ---
 

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Red-Lili"
 aliases: ["Red-Lili"]
 description: "RED-LILI is an active threat actor that has been identified by Checkmarx SCS research team. They have been publishing malicious packages on NPM and PyPi platforms, and have recently automated the proce"
-permalink: /red-lili
+permalink: /red-lili/
 ---
 
 ## Introduction

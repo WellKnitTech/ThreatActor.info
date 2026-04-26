@@ -3,7 +3,7 @@ layout: threat_actor
 title: "UTG-Q-008"
 aliases: ["UTG-Q-008"]
 description: "UTG-Q-008 is a threat actor targeting Linux platforms, primarily focusing on government and enterprise entities in China. They utilize a massive botnet network for espionage activities, including recon"
-permalink: /utg-q-008
+permalink: /utg-q-008/
 ---
 
 ## Introduction

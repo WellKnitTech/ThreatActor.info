@@ -3,7 +3,7 @@ layout: threat_actor
 title: "FOXY PANDA"
 aliases: ["FOXY PANDA"]
 description: "Adversary group targeting telecommunication and technology organizations."
-permalink: /foxy-panda
+permalink: /foxy-panda/
 country: "China"
 risk_level: "High"
 sector_focus: ["Technology", "Telecoms"]

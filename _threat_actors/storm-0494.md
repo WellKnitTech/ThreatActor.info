@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-0494"
 aliases: ["Storm-0494"]
 description: "Storm-0494 is a threat actor that facilitates Gootloader infections, which are then exploited by groups like Vice Society to deploy tools such as the Supper backdoor, AnyDesk, and MEGA. They utilize RD"
-permalink: /storm-0494
+permalink: /storm-0494/
 ---
 
 ## Introduction

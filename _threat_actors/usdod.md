@@ -3,7 +3,7 @@ layout: threat_actor
 title: "USDoD"
 aliases: ["USDoD"]
 description: "USDoD is a threat actor known for leaking large databases of personal information, including from companies like Airbus and the U.S. Environmental Protection Agency. They have a history of engaging in "
-permalink: /usdod
+permalink: /usdod/
 ---
 
 ## Introduction

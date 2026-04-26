@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Danti"
 aliases: ["Danti"]
 description: ""
-permalink: /danti
+permalink: /danti/
 ---
 
 ## Introduction

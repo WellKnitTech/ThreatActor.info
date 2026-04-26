@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Crimson Collective"
 aliases: ["Crimson Collective"]
 description: "The Crimson Collective is a cybercrime group that claimed to have compromised Red Hat's private GitHub repositories in September 2025. The group asserted it had stolen 570GB of data from Red Hat's priv"
-permalink: /crimson-collective
+permalink: /crimson-collective/
 sector_focus: ["Technology"]
 ---
 

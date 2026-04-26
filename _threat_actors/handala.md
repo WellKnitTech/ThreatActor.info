@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Handala"
 aliases: ["Handala"]
 description: "Handala is a pro-Palestinian hacktivist group that targets Israeli organizations, employing tactics such as phishing, data theft, extortion, and destructive attacks using custom wiper malware. The grou"
-permalink: /handala
+permalink: /handala/
 ---
 
 ## Introduction

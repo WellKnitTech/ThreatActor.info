@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Night Dragon"
 aliases: ["G0014", "Night Dragon"]
 description: ""
-permalink: /night-dragon
+permalink: /night-dragon/
 country: "China"
 risk_level: "High"
 ---

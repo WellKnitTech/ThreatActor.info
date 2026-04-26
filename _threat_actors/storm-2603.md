@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-2603"
 aliases: ["Storm-2603"]
 description: "The group Microsoft tracks as Storm-2603 is assessed with medium confidence to be a China-based threat actor. Microsoft has not identified links between Storm-2603 and other known Chinese threat actors"
-permalink: /storm-2603
+permalink: /storm-2603/
 country: "China"
 ---
 

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Water Makara"
 aliases: ["Water Makara"]
 description: "Water Makara employs the Astaroth banking malware, which features a new defense evasion technique. Their spear phishing campaigns exploit human error by targeting users to click on malicious files. To "
-permalink: /water-makara
+permalink: /water-makara/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "NOTROBIN"
 aliases: ["NOTROBIN"]
 description: "Researchers at FireEye report finding a hacking group (dubbed NOTROBIN) that has been bundling mitigation code for NetScaler servers with its exploits. In effect, the hackers exploit the flaw to get ac"
-permalink: /notrobin
+permalink: /notrobin/
 ---
 
 ## Introduction

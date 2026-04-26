@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Asnarök"
 aliases: ["Personal Panda", "Asnarök"]
 description: "Asnarök is a threat actor that exploited CVE-2020-12271 and utilized command injection privilege escalation to gain root access to devices and install the Asnarök Trojan and demonstrated significant ch"
-permalink: /asnar-k
+permalink: /asnar-k/
 ---
 
 ## Introduction

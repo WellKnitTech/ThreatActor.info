@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT26"
 aliases: ["JerseyMikes", "TURBINE PANDA", "BRONZE EXPRESS", "TECHNETIUM", "Taffeta Typhoon", "APT26"]
 description: ""
-permalink: /apt26
+permalink: /apt26/
 country: "China"
 risk_level: "High"
 ---

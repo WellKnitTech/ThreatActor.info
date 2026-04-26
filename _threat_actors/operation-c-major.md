@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Operation C-Major"
 aliases: ["C-Major", "Transparent Tribe", "Mythic Leopard", "ProjectM", "APT36", "APT 36", "TMP.Lapis", "Green Havildar", "COPPER FIELDSTONE", "Earth Karkaddan", "Storm-0156", "Operation C-Major"]
 description: "Group targeting Indian Army or related assets in India, as well as activists and civil society in Pakistan. Attribution to a Pakistani connection has been made by TrendMicro and others."
-permalink: /operation-c-major
+permalink: /operation-c-major/
 country: "Pakistan"
 risk_level: "High"
 sector_focus: ["Activists", "Civil society", "Military", "Government"]

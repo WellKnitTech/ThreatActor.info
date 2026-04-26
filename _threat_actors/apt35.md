@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT35"
 aliases: ["APT35", "Charming Kitten", "COBALT ILLUSION", "ITG18", "Magic Hound", "Mint Sandstorm", "Newscaster", "Phosphorus", "TA453", "Newscaster Team", "G0059", "TunnelVision", "COBALT MIRAGE", "Agent Serpens"]
 description: "Magic Hound is an Iranian-sponsored threat group that conducts long term, resource-intensive cyber espionage operations, likely on behalf of the Islamic Revolutionary Guard Corps. They have targeted Eu"
-permalink: /apt35
+permalink: /apt35/
 country: "Iran"
 first_seen: "2014"
 last_activity: "2024"

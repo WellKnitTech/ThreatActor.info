@@ -3,7 +3,7 @@ layout: threat_actor
 title: "UTG-Q-010"
 aliases: ["UTG-Q-010"]
 description: "UTG-Q-010 is a financially motivated APT group from East Asia that has been active since late 2022, primarily targeting the pharmaceutical industry and cryptocurrency enthusiasts. They exploit legitima"
-permalink: /utg-q-010
+permalink: /utg-q-010/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GURU SPIDER"
 aliases: ["GURU SPIDER"]
 description: "Early in 2018, CrowdStrike Intelligence observed GURU SPIDER supporting the distribution of multiple crimeware families through its flagship malware loader, Quant Loader."
-permalink: /guru-spider
+permalink: /guru-spider/
 ---
 
 ## Introduction

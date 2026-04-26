@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GhostSec"
 aliases: ["Ghost Security", "GhostSec"]
 description: "GhostSec is a hacktivist group that emerged as an offshoot of Anonymous. They primarily focused on counterterrorism efforts and monitoring online activities associated with terrorism. They gained promi"
-permalink: /ghostsec
+permalink: /ghostsec/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Teleboyi"
 aliases: ["Teleboyi"]
 description: "Teleboyi is a threat actor reportedly based in China, associated with the PlugX RAT. TeamT5 identified a custom PlugX loader used by Teleboyi that employs a similar string decryption algorithm as seen "
-permalink: /teleboyi
+permalink: /teleboyi/
 country: "China"
 ---
 

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT41"
 aliases: ["APT41", "Barium", "BARIUM", "Blackfly", "Brass Typhoon", "Wicked Panda", "Winnti Group", "G0096", "TA415", "Grayfly", "LEAD", "WICKED SPIDER", "WICKED PANDA", "BRONZE ATLAS", "BRONZE EXPORT", "Red Kelpie", "G0044", "Earth Baku", "Amoeba", "HOODOO", "Winnti", "Double Dragon", "TG-2633", "Leopard Typhoon"]
 description: "APT41 is a threat group that researchers have assessed as Chinese state-sponsored espionage group that also conducts financially-motivated operations. Active since at least 2012, APT41 has been observe"
-permalink: /apt41
+permalink: /apt41/
 country: "China"
 first_seen: "2012"
 last_activity: "2024"

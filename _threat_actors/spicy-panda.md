@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SPICY PANDA"
 aliases: ["SPICY PANDA"]
 description: ""
-permalink: /spicy-panda
+permalink: /spicy-panda/
 country: "China"
 risk_level: "High"
 ---

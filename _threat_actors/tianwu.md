@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TianWu"
 aliases: ["TianWu"]
 description: ""
-permalink: /tianwu
+permalink: /tianwu/
 country: "China"
 risk_level: "Critical"
 sector_focus: ["Private Sector", "Gambling companies", "Gaming", "Information technology", "Telecommunications", "Government", "Transportation systems", "Dissident"]

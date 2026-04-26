@@ -3,7 +3,7 @@ layout: threat_actor
 title: "BrazenBamboo"
 aliases: ["BrazenBamboo"]
 description: "BrazenBamboo is a Chinese state-affiliated threat actor known for developing the LIGHTSPY, DEEPDATA, and DEEPPOST malware families. Their infrastructure includes capabilities for zero-day exploitation,"
-permalink: /brazenbamboo
+permalink: /brazenbamboo/
 country: "China"
 ---
 

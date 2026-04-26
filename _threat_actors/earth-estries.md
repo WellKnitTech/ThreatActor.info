@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Earth Estries"
 aliases: ["Earth Estries"]
 description: "Trend Micro found that Earth Estries relies heavily on DLL sideloading to load various tools within its arsenal. Aside from the backdoors previously mentioned, this intrusion set also utilizes commonly"
-permalink: /earth-estries
+permalink: /earth-estries/
 ---
 
 ## Introduction

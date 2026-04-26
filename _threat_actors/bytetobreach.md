@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ByteToBreach"
 aliases: ["ByteToBreach"]
 description: "ByteToBreach is a prolific cybercriminal who operates across multiple platforms, including DarkForums and Telegram, and has been active since at least June 2025. He exploits known vulnerabilities in cl"
-permalink: /bytetobreach
+permalink: /bytetobreach/
 ---
 
 ## Introduction

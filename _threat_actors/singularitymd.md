@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SingularityMD"
 aliases: ["SingularityMD"]
 description: "SingularityMD is a threat actor group that has targeted educational institutions in the US. They gained unauthorized access to their networks by exploiting weak security practices, such as using studen"
-permalink: /singularitymd
+permalink: /singularitymd/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "FIN11"
 aliases: ["TEMP.Warlock", "UNC902", "FIN11"]
 description: "FIN11 is a well-established financial crime group that has recently focused its operations on ransomware and extortion. The group has been active since 2017 and has been tracked under UNC902 and later "
-permalink: /fin11
+permalink: /fin11/
 ---
 
 ## Introduction

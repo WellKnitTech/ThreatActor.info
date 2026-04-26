@@ -3,7 +3,7 @@ layout: threat_actor
 title: "AeroBlade"
 aliases: ["AeroBlade"]
 description: "AeroBlade is a previously unknown threat actor that has been targeting an aerospace organization in the United States. Their objective appears to be conducting commercial and competitive cyber espionag"
-permalink: /aeroblade
+permalink: /aeroblade/
 ---
 
 ## Introduction

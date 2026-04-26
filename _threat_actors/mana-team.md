@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Mana Team"
 aliases: ["Mana Team"]
 description: ""
-permalink: /mana-team
+permalink: /mana-team/
 country: "China"
 risk_level: "High"
 ---

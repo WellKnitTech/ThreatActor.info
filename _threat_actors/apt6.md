@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT6"
 aliases: ["1.php Group", "APT6"]
 description: "The FBI issued a rare bulletin admitting that a group named Advanced Persistent Threat 6 (APT6) hacked into US government computer systems as far back as 2011 and for years stole sensitive data. The FB"
-permalink: /apt6
+permalink: /apt6/
 country: "China"
 risk_level: "High"
 ---

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "LockBit"
 aliases: ["ABCD Ransomware"]
 description: "LockBit is a ransomware-as-a-service operation known for its fast encryption and double extortion tactics."
-permalink: /lockbit
+permalink: /lockbit/
 country: "Russia"
 first_seen: "2019"
 last_activity: "2024"

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "CostaRicto"
 aliases: ["CostaRicto"]
 description: "CostaRicto is a cyber-espionage threat actor that operates as a mercenary group, offering its services to various clients globally. They use bespoke malware tools and sophisticated techniques like VPN "
-permalink: /costaricto
+permalink: /costaricto/
 ---
 
 ## Introduction

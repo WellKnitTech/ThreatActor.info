@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-1295"
 aliases: ["DEV-1295", "Storm-1295"]
 description: "Storm-1295 is a threat actor group that operates the Greatness phishing-as-a-service platform. They utilize synchronous relay servers to present targets with a replica of a sign-in page, resembling tra"
-permalink: /storm-1295
+permalink: /storm-1295/
 ---
 
 ## Introduction

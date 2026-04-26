@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Water Orthrus"
 aliases: ["Water Orthrus"]
 description: "Water Orthrus is a threat actor known for distributing CopperStealer and CopperPhish malware. They target Microsoft 365 users with phishing campaigns to steal credit card information. The actor has evo"
-permalink: /water-orthrus
+permalink: /water-orthrus/
 ---
 
 ## Introduction

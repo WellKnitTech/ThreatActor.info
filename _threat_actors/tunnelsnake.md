@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TunnelSnake"
 aliases: ["TunnelSnake"]
 description: "The TunnelSnake campaign demonstrates the activity of a sophisticated actor that invests significant resources in designing an evasive toolset and infiltrating networks of high-profile organizations. B"
-permalink: /tunnelsnake
+permalink: /tunnelsnake/
 country: "China"
 ---
 

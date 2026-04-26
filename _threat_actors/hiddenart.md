@@ -3,7 +3,7 @@ layout: threat_actor
 title: "HiddenArt"
 aliases: ["HiddenArt"]
 description: "It was observed that a mobile network threat actor designated as ‘HiddenArt’ actively sustains a capacity to remotely access the personal devices of targeted individuals around the world on an ongoing "
-permalink: /hiddenart
+permalink: /hiddenart/
 country: "Russia"
 ---
 

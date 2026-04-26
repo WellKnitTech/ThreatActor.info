@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Earth Kapre"
 aliases: ["RedCurl", "Red Wolf", "GOLD BLADE", "Earth Kapre"]
 description: "Earth Kapre is an APT group specializing in cyberespionage. They target organizations in various countries through phishing campaigns using malicious attachments to infect machines. Earth Kapre employs"
-permalink: /earth-kapre
+permalink: /earth-kapre/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Operation Kabar Cobra"
 aliases: ["Operation Kabar Cobra"]
 description: ""
-permalink: /operation-kabar-cobra
+permalink: /operation-kabar-cobra/
 ---
 
 ## Introduction

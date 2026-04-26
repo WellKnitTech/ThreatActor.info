@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-1113"
 aliases: ["APOTHECARY SPIDER", "Storm-1113"]
 description: "Storm-1113 is a threat actor that acts both as an access broker focused on malware distribution through search advertisements and as an “as-a-service” entity providing malicious installers and landing "
-permalink: /storm-1113
+permalink: /storm-1113/
 ---
 
 ## Introduction

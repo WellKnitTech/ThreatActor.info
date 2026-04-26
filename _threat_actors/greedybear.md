@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GreedyBear"
 aliases: ["GreedyBear"]
 description: "GreedyBear is a sophisticated threat actor responsible for over $1 million in cryptocurrency theft through a campaign involving 150 malicious Firefox extensions, nearly 500 malicious executables, and n"
-permalink: /greedybear
+permalink: /greedybear/
 country: "Russia"
 ---
 

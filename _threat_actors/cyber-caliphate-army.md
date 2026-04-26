@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Cyber Caliphate Army"
 aliases: ["Islamic State Hacking Division", "CCA", "United Cyber Caliphate", "UUC", "CyberCaliphate", "Cyber Caliphate Army"]
 description: ""
-permalink: /cyber-caliphate-army
+permalink: /cyber-caliphate-army/
 ---
 
 ## Introduction

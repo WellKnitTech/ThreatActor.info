@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT23"
 aliases: ["PIRATE PANDA", "KeyBoy", "Tropic Trooper", "BRONZE HOBART", "G0081", "Red Orthrus", "Earth Centaur", "APT23"]
 description: "TrendMicro described Tropic Trooper in a 2015 report as: 'Taiwan and the Philippines have become the targets of an ongoing campaign called Operation TropicTrooper. Active since 2012, the attackers behi"
-permalink: /apt23
+permalink: /apt23/
 country: "China"
 risk_level: "High"
 sector_focus: ["Military", "Government, Administration"]

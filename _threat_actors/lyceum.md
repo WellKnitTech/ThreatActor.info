@@ -3,7 +3,7 @@ layout: threat_actor
 title: "LYCEUM"
 aliases: ["COBALT LYCEUM", "HEXANE", "UNC1530", "Spirlin", "MYSTICDOME", "siamesekitten", "Chrono Kitten", "Storm-0133", "LYCEUM"]
 description: "Lyceum is an Iranian APT group that has been active since at least 2014. They primarily target Middle Eastern governments and organizations in the energy and telecommunications sectors. Lyceum is known"
-permalink: /lyceum
+permalink: /lyceum/
 country: "Iran"
 risk_level: "High"
 sector_focus: ["Government", "Energy", "High-Tech", "Telecomms", "Education", "Military", "Defense"]

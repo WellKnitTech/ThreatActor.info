@@ -3,7 +3,7 @@ layout: threat_actor
 title: "RansomHub"
 aliases: ["RansomHub RaaS", "RansomHub"]
 description: "RansomHub is a dominant ransomware-as-a-service operation that emerged in 2024 and quickly became the most prolific group with 736 disclosed victims."
-permalink: /ransomhub
+permalink: /ransomhub/
 country: "Unknown"
 first_seen: "2024"
 last_activity: "2025"

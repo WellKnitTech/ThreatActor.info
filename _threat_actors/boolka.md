@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Boolka"
 aliases: ["Boolka"]
 description: "Boolka is a threat actor known for infecting websites with malicious JavaScript scripts for data exfiltration. They have been carrying out opportunistic SQL injection attacks since at least 2022. Boolk"
-permalink: /boolka
+permalink: /boolka/
 ---
 
 ## Introduction

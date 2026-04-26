@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-1101"
 aliases: ["DEV-1101", "Storm-1101"]
 description: "DEV-1101 is a threat actor tracked by Microsoft who is responsible for developing and advertising phishing kits, specifically AiTM phishing kits. These kits are capable of bypassing multifactor authent"
-permalink: /storm-1101
+permalink: /storm-1101/
 ---
 
 ## Introduction

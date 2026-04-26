@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Earth Kurma"
 aliases: ["Earth Kurma"]
 description: "Earth Kurma is an APT group targeting government and telecommunications sectors in Southeast Asia, with a primary focus on data exfiltration. They employ advanced custom malware, including rootkits lik"
-permalink: /earth-kurma
+permalink: /earth-kurma/
 ---
 
 ## Introduction

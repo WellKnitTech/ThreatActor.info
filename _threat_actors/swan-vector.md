@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Swan Vector"
 aliases: ["Swan Vector"]
 description: "Seqrite Labs APT-Team has recently uncovered a campaign which we have termed as Swan Vector, that has been targeting the nations across the East China sea such as Taiwan and Japan. The campaign is aime"
-permalink: /swan-vector
+permalink: /swan-vector/
 ---
 
 ## Introduction

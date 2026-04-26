@@ -3,7 +3,7 @@ layout: threat_actor
 title: "DNSpionage"
 aliases: ["COBALT EDGEWATER", "DNSpionage"]
 description: "Cisco Talos recently discovered a new campaign targeting Lebanon and the United Arab Emirates (UAE) affecting .gov domains, as well as a private Lebanese airline company. Based on our research, it's cl"
-permalink: /dnspionage
+permalink: /dnspionage/
 ---
 
 ## Introduction

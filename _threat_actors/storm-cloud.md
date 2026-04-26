@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm Cloud"
 aliases: ["Storm Cloud"]
 description: "Storm Cloud is a Chinese espionage threat actor known for targeting organizations across Asia, particularly Tibetan organizations and individuals. They use a variety of malware families, including GIMM"
-permalink: /storm-cloud
+permalink: /storm-cloud/
 country: "China"
 ---
 

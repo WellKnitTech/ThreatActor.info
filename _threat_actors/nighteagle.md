@@ -3,7 +3,7 @@ layout: threat_actor
 title: "NightEagle"
 aliases: ["APT-Q-95", "NightEagle"]
 description: "NightEagle is an advanced Threat Actor that targeted China's High-Tech Industry and Military Organisation, leveraging sophisticated techniques, 0 days, and specialized detection avoiding malware. The t"
-permalink: /nighteagle
+permalink: /nighteagle/
 country: "United States"
 risk_level: "Low"
 sector_focus: ["Military", "Government, Administration", "Technology", "Government", "Private Sector"]

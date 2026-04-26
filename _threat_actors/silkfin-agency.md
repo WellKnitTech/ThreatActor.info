@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SILKFIN AGENCY"
 aliases: ["SILKFIN AGENCY"]
 description: "SILKFIN AGENCY has claimed responsibility for multiple significant data breaches, including the compromise of DimeCuba.com, which exposed over 1 million SMS records and more than 100,000 email records."
-permalink: /silkfin-agency
+permalink: /silkfin-agency/
 ---
 
 ## Introduction

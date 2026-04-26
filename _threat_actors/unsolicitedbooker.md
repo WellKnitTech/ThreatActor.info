@@ -3,7 +3,7 @@ layout: threat_actor
 title: "UnsolicitedBooker"
 aliases: ["UnsolicitedBooker"]
 description: "UnsolicitedBooker is a China-aligned APT group known for its persistent targeting of an unnamed international organization in Saudi Arabia, employing a backdoor called MarsSnake. The group utilizes spe"
-permalink: /unsolicitedbooker
+permalink: /unsolicitedbooker/
 country: "China"
 ---
 

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "COBALT KATANA"
 aliases: ["Hive0081 (IBM)", "SectorD01 (NHSC)", "xHunt campaign (Palo Alto)", "Hunter Serpens", "COBALT KATANA"]
 description: "COBALT KATANA has been active since at least March 2018, and it focuses many of its operations on organizations based in or associated with Kuwait. The group has targeted government, logistics, and shi"
-permalink: /cobalt-katana
+permalink: /cobalt-katana/
 ---
 
 ## Introduction

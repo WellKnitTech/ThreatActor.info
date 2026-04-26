@@ -3,7 +3,7 @@ layout: threat_actor
 title: "LofyGang"
 aliases: ["LofyGang"]
 description: "LofyGang has been found to be linked to more than 200 malicious packages, with thousands of installations throughout 2022. The group, believed to have been operating for more than a year, has multiple "
-permalink: /lofygang
+permalink: /lofygang/
 ---
 
 ## Introduction

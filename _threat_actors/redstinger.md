@@ -3,7 +3,7 @@ layout: threat_actor
 title: "RedStinger"
 aliases: ["Bad Magic", "RedStinger"]
 description: "In October 2022, Kaspersky identified an active infection of government, agriculture and transportation organizations located in the Donetsk, Lugansk, and Crimea regions. Although the initial vector of"
-permalink: /redstinger
+permalink: /redstinger/
 ---
 
 ## Introduction

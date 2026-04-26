@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Calypso"
 aliases: ["BRONZE MEDLEY", "Calypso"]
 description: "For the first time, the activity of the Calypso group was detected by specialists of PT Expert Security Center in March 2019, during the work to detect cyber threats. As a result, many malware samples "
-permalink: /calypso
+permalink: /calypso/
 sector_focus: ["Government, Administration"]
 ---
 

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Gnosticplayers"
 aliases: ["Gnosticplayers"]
 description: "The hacker said that he put up the data for sale mainly because these companies had failed to protect passwords with strong encryption algorithms like bcrypt. Most of the hashed passwords the hacker pu"
-permalink: /gnosticplayers
+permalink: /gnosticplayers/
 ---
 
 ## Introduction

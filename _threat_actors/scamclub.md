@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ScamClub"
 aliases: ["ScamClub"]
 description: "ScamClub is a threat actor involved in malvertising activities since 2018. They target the Mobile Web market segment, particularly on iOS devices, where security software is often lacking. ScamClub uti"
-permalink: /scamclub
+permalink: /scamclub/
 ---
 
 ## Introduction

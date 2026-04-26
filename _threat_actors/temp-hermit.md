@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TEMP.Hermit"
 aliases: ["TEMP.Hermit"]
 description: ""
-permalink: /temp-hermit
+permalink: /temp-hermit/
 country: "North Korea"
 risk_level: "High"
 ---

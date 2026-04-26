@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Threatsec"
 aliases: ["Threatsec"]
 description: "ThreatSec is a hacktivist group that has targeted various organizations, including internet service providers in Gaza. They claim to fight for the rights and freedom of the oppressed and do not priorit"
-permalink: /threatsec
+permalink: /threatsec/
 ---
 
 ## Introduction

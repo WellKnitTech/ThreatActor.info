@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Dust Storm"
 aliases: ["G0031", "Dust Storm"]
 description: "Threat actors behind the Operation Dust Storm have been active since at least 2010, the hackers targeted several organizations in Japan, South Korea, the US, Europe, and other Asian countries."
-permalink: /dust-storm
+permalink: /dust-storm/
 ---
 
 ## Introduction

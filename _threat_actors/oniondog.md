@@ -3,7 +3,7 @@ layout: threat_actor
 title: "OnionDog"
 aliases: ["OnionDog"]
 description: "This threat actor targets the South Korean government, transportation, and energy sectors."
-permalink: /oniondog
+permalink: /oniondog/
 country: "North Korea"
 risk_level: "High"
 sector_focus: ["Government", "Private sector"]

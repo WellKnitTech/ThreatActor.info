@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SparklingGoblin"
 aliases: ["SparklingGoblin"]
 description: "ESET researchers have discovered a new undocumented modular backdoor, SideWalk, being used by an APT group they’ve named SparklingGoblin; this backdoor was used during one of SparklingGoblin’s recent c"
-permalink: /sparklinggoblin
+permalink: /sparklinggoblin/
 ---
 
 ## Introduction

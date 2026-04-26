@@ -3,7 +3,7 @@ layout: threat_actor
 title: "puNK-003"
 aliases: ["puNK-003"]
 description: "puNK-003 is a North Korean APT group known for deploying the Lilith RAT, a sophisticated C++ remote access trojan, and its AutoIt variant, CURKON, which functions as a downloader. The group primarily d"
-permalink: /punk-003
+permalink: /punk-003/
 country: "North Korea"
 ---
 

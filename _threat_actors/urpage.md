@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Urpage"
 aliases: ["Urpage"]
 description: "What sets Urpage attacks apart is its targeting of InPage, a word processor for Urdu and Arabic languages. However, its Delphi backdoor component, which it has in common with Confucius and Patchwork, a"
-permalink: /urpage
+permalink: /urpage/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Cyber Toufan"
 aliases: ["Cyber Toufan"]
 description: "Cyber Toufan is a threat actor group that has gained prominence for its cyberattacks targeting Israeli organizations. The group's tactics suggest potential nation-state backing, possibly from Iran. The"
-permalink: /cyber-toufan
+permalink: /cyber-toufan/
 country: "Iran"
 ---
 

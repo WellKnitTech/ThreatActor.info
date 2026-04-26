@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Flash Kitten"
 aliases: ["Flash Kitten"]
 description: "This suspected Iran-based adversary conducted long-running SWC campaigns from December 2016 until public disclosure in July 2018. Like other Iran-based actors, the target scope for FLASH KITTEN appears"
-permalink: /flash-kitten
+permalink: /flash-kitten/
 ---
 
 ## Introduction

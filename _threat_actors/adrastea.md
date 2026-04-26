@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Adrastea"
 aliases: ["Adrastea"]
 description: "Adrastea is a threat actor who has been active on cybercrime forums, claiming to have breached organizations like MBDA and offering stolen data for sale. They describe themselves as a group of independ"
-permalink: /adrastea
+permalink: /adrastea/
 ---
 
 ## Introduction

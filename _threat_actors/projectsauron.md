@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ProjectSauron"
 aliases: ["Strider", "Sauron", "Project Sauron", "G0041", "ProjectSauron"]
 description: "ProjectSauron is the name for a top level modular cyber-espionage platform, designed to enable and manage long-term campaigns through stealthy survival mechanisms coupled with multiple exfiltration met"
-permalink: /projectsauron
+permalink: /projectsauron/
 country: "United States"
 risk_level: "High"
 sector_focus: ["Intelligence", "Government", "Military"]

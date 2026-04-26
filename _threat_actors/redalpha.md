@@ -3,7 +3,7 @@ layout: threat_actor
 title: "RedAlpha"
 aliases: ["DeepCliff", "Red Dev 3", "RedAlpha"]
 description: "Recorded Future’s Insikt Group has identified two new cyberespionage campaigns targeting the Tibetan Community over the past two years. The campaigns, which we are collectively naming RedAlpha, combine"
-permalink: /redalpha
+permalink: /redalpha/
 ---
 
 ## Introduction

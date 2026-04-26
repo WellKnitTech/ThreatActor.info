@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GRIM SPIDER"
 aliases: ["GOLD ULRICK", "GRIM SPIDER"]
 description: "GRIM SPIDER is a sophisticated eCrime group that has been operating the Ryuk ransomware since August 2018, targeting large organizations for a high-ransom return. This methodology, known as “big game h"
-permalink: /grim-spider
+permalink: /grim-spider/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Dancing Salome"
 aliases: ["Dancing Salome"]
 description: "Dancing Salome is the Kaspersky codename for an APT actor with a primary focus on ministries of foreign affairs, think tanks, and Ukraine. What makes Dancing Salome interesting and relevant is the atta"
-permalink: /dancing-salome
+permalink: /dancing-salome/
 sector_focus: ["Think Tanks", "Government, Administration"]
 ---
 

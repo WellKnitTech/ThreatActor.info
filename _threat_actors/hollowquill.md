@@ -3,7 +3,7 @@ layout: threat_actor
 title: "HollowQuill"
 aliases: ["HollowQuill"]
 description: "SEQRITE Labs APT-Team has been tracking and has uncovered a campaign targeting the Baltic State Technical University, a well-known institution for various defense, aerospace, and advanced engineering p"
-permalink: /hollowquill
+permalink: /hollowquill/
 ---
 
 ## Introduction

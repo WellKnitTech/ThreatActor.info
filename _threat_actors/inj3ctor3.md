@@ -3,7 +3,7 @@ layout: threat_actor
 title: "INJ3CTOR3"
 aliases: ["INJ3CTOR3"]
 description: "INJ3CTOR3 is a threat actor first identified in 2020, known for targeting vulnerabilities in VoIP systems, specifically CVE-2019-19006 and CVE-2021-45461. Their operations involve exploiting FreePBX vu"
-permalink: /inj3ctor3
+permalink: /inj3ctor3/
 ---
 
 ## Introduction

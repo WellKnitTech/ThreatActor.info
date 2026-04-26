@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Fail0verflow"
 aliases: ["Team Twiizer", "Fail0verflow"]
 description: "Fail0verflow is a hacking group known for exploiting vulnerabilities in gaming consoles, notably the Nintendo Wii and PlayStation 3. They utilized techniques such as RAM shorting, buffer overflow, and "
-permalink: /fail0verflow
+permalink: /fail0verflow/
 ---
 
 ## Introduction

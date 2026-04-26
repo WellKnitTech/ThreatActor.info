@@ -3,7 +3,7 @@ layout: threat_actor
 title: "RUBYCARP"
 aliases: ["RUBYCARP"]
 description: "RUBYCARP is a financially-motivated threat actor group likely based in Romania, with a history of at least 10 years of activity. They operate a botnet using public exploits and brute force attacks, com"
-permalink: /rubycarp
+permalink: /rubycarp/
 ---
 
 ## Introduction

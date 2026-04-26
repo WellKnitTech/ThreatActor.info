@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Moskalvzapoe"
 aliases: ["MAN1", "TA511", "Moskalvzapoe"]
 description: ""
-permalink: /moskalvzapoe
+permalink: /moskalvzapoe/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Operation WizardOpium"
 aliases: ["Operation WizardOpium"]
 description: "We are calling these attacks Operation WizardOpium. So far, we have been unable to establish a definitive link with any known threat actors. There are certain very weak code similarities with Lazarus a"
-permalink: /operation-wizardopium
+permalink: /operation-wizardopium/
 ---
 
 ## Introduction

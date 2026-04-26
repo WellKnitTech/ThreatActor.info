@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TOXCAR CYBER TEAM"
 aliases: ["TOXCAR CYBER TEAM"]
 description: "The Toxcar Cyber Team has claimed responsibility for a data leak involving Mastercard, asserting that the attack targeted the U.S. site and providing screenshots as purported evidence. They have also b"
-permalink: /toxcar-cyber-team
+permalink: /toxcar-cyber-team/
 ---
 
 ## Introduction

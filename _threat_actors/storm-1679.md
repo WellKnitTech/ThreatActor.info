@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-1679"
 aliases: ["Storm-1679"]
 description: "Storm-1679 is a Russian disinformation group believed to be a spinoff of the Internet Research Agency, actively engaged in influence operations targeting the International Olympic Committee and the 202"
-permalink: /storm-1679
+permalink: /storm-1679/
 country: "Russia"
 ---
 

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "STARDUST CHOLLIMA"
 aliases: ["Sapphire Sleet", "STARDUST CHOLLIMA"]
 description: "Open-source reporting has claimed that the Hermes ransomware was developed by the North Korean group STARDUST CHOLLIMA (activities of which have been public reported as part of the “Lazarus Group”), be"
-permalink: /stardust-chollima
+permalink: /stardust-chollima/
 ---
 
 ## Introduction

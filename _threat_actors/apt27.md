@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT27"
 aliases: ["GreedyTaotie", "TG-3390", "EMISSARY PANDA", "TEMP.Hippo", "Red Phoenix", "Budworm", "Group 35", "ZipToken", "Iron Tiger", "BRONZE UNION", "Lucky Mouse", "G0027", "Iron Taurus", "Earth Smilodon", "Circle Typhoon", "Linen Typhoon", "APT27"]
 description: "A China-based actor that targets foreign embassies to collect data on government, defence, and technology sectors."
-permalink: /apt27
+permalink: /apt27/
 country: "China"
 risk_level: "High"
 sector_focus: ["Technology", "Government, Administration", "Defense", "Government", "Private sector"]

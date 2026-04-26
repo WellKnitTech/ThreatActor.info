@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Jabaroot"
 aliases: ["Jabaroot DZ", "Jabaroot"]
 description: "JabaRoot is an Algerian hacker group that has targeted Moroccan government systems, successfully exfiltrating sensitive data from the Ministry of Economic Inclusion and the National Social Security Fun"
-permalink: /jabaroot
+permalink: /jabaroot/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "KAX17"
 aliases: ["KAX17"]
 description: "KAX17 is a sophisticated threat actor that has been active since at least 2017. They have operated hundreds of malicious servers within the Tor network, primarily as entry and middle points. Their main"
-permalink: /kax17
+permalink: /kax17/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "XakNet"
 aliases: ["UAC-0100", "UAC-0106", "XakNet"]
 description: "XakNet is a self-proclaimed hacktivist group that has targeted Ukraine. They claim to be comprised of Russian patriotic volunteers and have conducted various threat activities, including DDoS attacks, "
-permalink: /xaknet
+permalink: /xaknet/
 country: "Russia"
 ---
 

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ShroudedSnooper"
 aliases: ["ShroudedSnooper"]
 description: "In September 2023, Cisco Talos identified a new malware family that it calls ‘HTTPSnoop’ being deployed against telecommunications providers in the Middle East. They also discovered a sister implant to"
-permalink: /shroudedsnooper
+permalink: /shroudedsnooper/
 ---
 
 ## Introduction

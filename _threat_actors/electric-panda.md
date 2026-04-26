@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ELECTRIC PANDA"
 aliases: ["ELECTRIC PANDA"]
 description: ""
-permalink: /electric-panda
+permalink: /electric-panda/
 country: "China"
 risk_level: "High"
 ---

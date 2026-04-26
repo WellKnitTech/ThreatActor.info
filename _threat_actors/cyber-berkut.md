@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Cyber Berkut"
 aliases: ["Cyber Berkut"]
 description: ""
-permalink: /cyber-berkut
+permalink: /cyber-berkut/
 country: "Russia"
 risk_level: "High"
 ---

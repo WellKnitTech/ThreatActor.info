@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT-C-60"
 aliases: ["APT-Q-12", "APT-C-60"]
 description: "APT-C-60"
-permalink: /apt-c-60
+permalink: /apt-c-60/
 ---
 
 ## Introduction

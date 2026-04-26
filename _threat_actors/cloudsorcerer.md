@@ -3,7 +3,7 @@ layout: threat_actor
 title: "CloudSorcerer"
 aliases: ["CloudSorcerer"]
 description: "CloudSorcerer is a sophisticated APT targeting Russian government entities, utilizing cloud infrastructure for stealth monitoring and data exfiltration. The malware leverages APIs and authentication to"
-permalink: /cloudsorcerer
+permalink: /cloudsorcerer/
 ---
 
 ## Introduction

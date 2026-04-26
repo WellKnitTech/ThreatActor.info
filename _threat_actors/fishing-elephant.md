@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Fishing Elephant"
 aliases: ["Outrider Tiger", "Fishing Elephant"]
 description: "Fishing Elephant is a threat actor that primarily targets victims in Bangladesh and Pakistan. They rely on consistent TTPs, including payload and communication patterns, while occasionally incorporatin"
-permalink: /fishing-elephant
+permalink: /fishing-elephant/
 ---
 
 ## Introduction

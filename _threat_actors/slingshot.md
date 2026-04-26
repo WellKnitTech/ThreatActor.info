@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Slingshot"
 aliases: ["Slingshot"]
 description: "While analysing an incident which involved a suspected keylogger, we identified a malicious library able to interact with a virtual file system, which is usually the sign of an advanced APT actor. This"
-permalink: /slingshot
+permalink: /slingshot/
 ---
 
 ## Introduction

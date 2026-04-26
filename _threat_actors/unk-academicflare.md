@@ -3,7 +3,7 @@ layout: threat_actor
 title: "UNK_AcademicFlare"
 aliases: ["UNK_AcademicFlare"]
 description: "UNK_AcademicFlare is a suspected Russia-aligned threat actor that conducts device code phishing campaigns by leveraging compromised email addresses from government and military organizations. The actor"
-permalink: /unk-academicflare
+permalink: /unk-academicflare/
 country: "Russia"
 ---
 

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Xiaoqiying"
 aliases: ["Genesis Day", "Teng Snake", "Xiaoqiying"]
 description: "Xiaoqiying is a primarily Chinese-speaking threat group that is most well known for conducting website defacement and data exfiltration attacks on more than a dozen South Korean research and academic i"
-permalink: /xiaoqiying
+permalink: /xiaoqiying/
 country: "China"
 ---
 

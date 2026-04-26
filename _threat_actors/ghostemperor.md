@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GhostEmperor"
 aliases: ["FamousSparrow", "UNC2286", "Salt Typhoon", "RedMike", "OPERATOR PANDA", "GhostEmperor"]
 description: "GhostEmperor is a Chinese-speaking threat actor that targets government entities and telecom companies in Southeast Asia. They employ a Windows kernel-mode rootkit called Demodex to gain remote control"
-permalink: /ghostemperor
+permalink: /ghostemperor/
 country: "China"
 ---
 

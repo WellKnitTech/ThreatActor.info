@@ -3,7 +3,7 @@ layout: threat_actor
 title: "DragonRank"
 aliases: ["DragonRank"]
 description: "DragonRank is a threat actor primarily targeting web application services in Asia and Europe, utilizing TTPs associated with Simplified Chinese-speaking hacking groups. They exploit vulnerabilities in "
-permalink: /dragonrank
+permalink: /dragonrank/
 ---
 
 ## Introduction

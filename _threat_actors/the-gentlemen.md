@@ -3,7 +3,7 @@ layout: threat_actor
 title: "The Gentlemen"
 aliases: ["The Gentlemen"]
 description: "The Gentlemen is a ransomware group that employs a dual-extortion strategy, encrypting sensitive files while exfiltrating critical business data to pressure victims into paying ransoms. Their operation"
-permalink: /the-gentlemen
+permalink: /the-gentlemen/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ZeroSevenGroup"
 aliases: ["ZeroSevenGroup"]
 description: "ZeroSevenGroup is a threat actor that claims to have breached a U.S. branch of Toyota, stealing 240GB of sensitive data, including employee and customer information, contracts, and financial details. T"
-permalink: /zerosevengroup
+permalink: /zerosevengroup/
 ---
 
 ## Introduction

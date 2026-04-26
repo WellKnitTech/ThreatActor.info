@@ -3,7 +3,7 @@ layout: threat_actor
 title: "WildPressure"
 aliases: ["WildPressure"]
 description: "WildPressure is a threat actor that targets industrial-related entities in the Middle East. They use a variety of programming languages, including C++, VBScript, and Python, to develop their malware. T"
-permalink: /wildpressure
+permalink: /wildpressure/
 ---
 
 ## Introduction

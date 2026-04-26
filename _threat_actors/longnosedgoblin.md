@@ -3,7 +3,7 @@ layout: threat_actor
 title: "LongNosedGoblin"
 aliases: ["LongNosedGoblin"]
 description: "LongNosedGoblin is a China-aligned APT group targeting governmental entities in Southeast Asia and Japan for cyberespionage. The group employs Group Policy for malware deployment and utilizes cloud ser"
-permalink: /longnosedgoblin
+permalink: /longnosedgoblin/
 country: "China"
 ---
 

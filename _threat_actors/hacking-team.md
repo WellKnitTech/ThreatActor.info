@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Hacking Team"
 aliases: ["Hacking Team"]
 description: "The many 0-days that had been collected by Hacking Team and which became publicly available during the breach of their organization in 2015, have been used by several APT groups since. Since being foun"
-permalink: /hacking-team
+permalink: /hacking-team/
 ---
 
 ## Introduction

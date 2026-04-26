@@ -3,7 +3,7 @@ layout: threat_actor
 title: "PhantomControl"
 aliases: ["PhantomControl"]
 description: "PhantomControl is a sophisticated threat actor that emerged in November 2023. They utilize phishing emails as their initial infection vector and employ a ScreenConnect client to establish a connection "
-permalink: /phantomcontrol
+permalink: /phantomcontrol/
 ---
 
 ## Introduction

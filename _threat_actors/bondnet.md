@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Bondnet"
 aliases: ["Bondnet"]
 description: "Bondnet is a threat actor that deploys backdoors and cryptocurrency miners. They use high-performance bots as C2 servers and configure reverse RDP environments on compromised systems. Bondnet has infec"
-permalink: /bondnet
+permalink: /bondnet/
 ---
 
 ## Introduction

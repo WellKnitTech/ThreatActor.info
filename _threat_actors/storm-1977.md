@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-1977"
 aliases: ["Storm-1977"]
 description: "Storm-1977 is a sophisticated threat actor that conducts password-spraying attacks targeting cloud tenants, particularly in the education sector, utilizing the AzureChecker.exe CLI tool as their primar"
-permalink: /storm-1977
+permalink: /storm-1977/
 ---
 
 ## Introduction

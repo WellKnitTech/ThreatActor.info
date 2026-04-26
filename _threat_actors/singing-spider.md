@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SINGING SPIDER"
 aliases: ["SINGING SPIDER"]
 description: ""
-permalink: /singing-spider
+permalink: /singing-spider/
 ---
 
 ## Introduction

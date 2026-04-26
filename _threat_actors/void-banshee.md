@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Void Banshee"
 aliases: ["Void Banshee"]
 description: "Void Banshee is an APT group targeting North America, Europe, and Southeast Asia for information theft and financial gain. They exploit vulnerabilities like CVE-2024-38112 to deliver the Atlantida info"
-permalink: /void-banshee
+permalink: /void-banshee/
 ---
 
 ## Introduction

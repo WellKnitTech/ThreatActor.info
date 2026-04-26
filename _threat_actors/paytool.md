@@ -3,7 +3,7 @@ layout: threat_actor
 title: "PayTool"
 aliases: ["PayTool"]
 description: "PayTool is a threat actor that operates a phishing ecosystem focused on traffic violation and fine payment scams targeting Canadians through SMS-based social engineering. Their campaigns impersonate Ca"
-permalink: /paytool
+permalink: /paytool/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "CosmicBeetle"
 aliases: ["CosmicBeetle"]
 description: "CosmicBeetle is a threat actor known for deploying the ScRansom ransomware, which has replaced its previous variant, Scarab. The actor utilizes a custom toolset called Spacecolon, consisting of ScHackT"
-permalink: /cosmicbeetle
+permalink: /cosmicbeetle/
 ---
 
 ## Introduction

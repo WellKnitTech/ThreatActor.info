@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Void Balaur"
 aliases: ["Void Balaur"]
 description: "Void Balaur is a highly active hack-for-hire / cyber mercenary group with a wide range of known target types across the globe. Their services have been observed for sale to the public online since at l"
-permalink: /void-balaur
+permalink: /void-balaur/
 ---
 
 ## Introduction

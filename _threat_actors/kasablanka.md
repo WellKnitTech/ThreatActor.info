@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Kasablanka"
 aliases: ["Kasablanka"]
 description: "The Kasablanka group is a cyber-criminal organization that has specifically targeted Russia between September and December 2022, using various payloads delivered through phishing emails containing soci"
-permalink: /kasablanka
+permalink: /kasablanka/
 ---
 
 ## Introduction

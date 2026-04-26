@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Kazu"
 aliases: ["Kazu"]
 description: "Kazu is a financially motivated ransomware group known for employing a double extortion model, targeting sectors such as healthcare and government. The group has claimed responsibility for multiple hig"
-permalink: /kazu
+permalink: /kazu/
 ---
 
 ## Introduction

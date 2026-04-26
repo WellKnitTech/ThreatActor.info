@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SongXY"
 aliases: ["SongXY"]
 description: "SongXY is a Chinese APT group that employs phishing tactics to initiate cyberespionage campaigns. They utilize the Royal Road RTF builder, exploiting the CVE-2018-0798 vulnerability in Microsoft Equati"
-permalink: /songxy
+permalink: /songxy/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "UNION PANDA"
 aliases: ["UNION PANDA"]
 description: ""
-permalink: /union-panda
+permalink: /union-panda/
 country: "China"
 risk_level: "High"
 ---

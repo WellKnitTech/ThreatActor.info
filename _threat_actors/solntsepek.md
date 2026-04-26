@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Solntsepek"
 aliases: ["Solntsepek"]
 description: "Solntsepek is a threat actor group with ties to the Russian military unit GRU. They have claimed responsibility for a cyberattack on Kyivstar, a Ukrainian mobile operator, and have been linked to previ"
-permalink: /solntsepek
+permalink: /solntsepek/
 country: "Russia"
 ---
 

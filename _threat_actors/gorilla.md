@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Gorilla"
 aliases: ["Gorilla"]
 description: "Gorilla is a threat-actor operating a DoS-as-a-service service controlled on Telegram."
-permalink: /gorilla
+permalink: /gorilla/
 ---
 
 ## Introduction

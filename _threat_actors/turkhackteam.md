@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TurkHackTeam"
 aliases: ["Turk Hack Team", "TurkHackTeam"]
 description: "Founded in 2004, Turkhackteam is one of Turkey’s oldest and most high-profile hacking collectives. According to a list compiled on Turkhackteam’s forum, the group has carried out almost 30 highly publi"
-permalink: /turkhackteam
+permalink: /turkhackteam/
 country: "Turkey"
 risk_level: "High"
 ---

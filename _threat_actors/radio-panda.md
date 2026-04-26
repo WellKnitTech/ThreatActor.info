@@ -3,7 +3,7 @@ layout: threat_actor
 title: "RADIO PANDA"
 aliases: ["Shrouded Crossbow", "RADIO PANDA"]
 description: ""
-permalink: /radio-panda
+permalink: /radio-panda/
 country: "China"
 risk_level: "High"
 ---

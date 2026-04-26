@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-1286"
 aliases: ["Storm-1286"]
 description: "Storm-1286 is a threat actor that engages in large-scale spamming activities, primarily targeting user accounts without multifactor authentication enabled. They employ password spraying attacks to comp"
-permalink: /storm-1286
+permalink: /storm-1286/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Operation ShadowHammer"
 aliases: ["Operation ShadowHammer"]
 description: "Newly discovered supply chain attack that leveraged ASUS Live Update software. The goal of the attack was to surgically target an unknown pool of users, which were identified by their network adapters’"
-permalink: /operation-shadowhammer
+permalink: /operation-shadowhammer/
 ---
 
 ## Introduction

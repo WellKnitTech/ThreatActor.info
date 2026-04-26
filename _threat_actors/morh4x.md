@@ -3,7 +3,7 @@ layout: threat_actor
 title: "MORH4x"
 aliases: ["MORH4x"]
 description: "MORH4x is a self-proclaimed Moroccan hacking group that claimed responsibility for a data leak from Algeria's pharmaceutical industry ministry. The group announced the breach on the BreachForums websit"
-permalink: /morh4x
+permalink: /morh4x/
 ---
 
 ## Introduction

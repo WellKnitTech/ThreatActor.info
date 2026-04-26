@@ -3,7 +3,7 @@ layout: threat_actor
 title: "RedGolf"
 aliases: ["RedGolf"]
 description: "Recorded Future’s Insikt Group has identified a large cluster of new operational infrastructure associated with use of the custom Windows and Linux backdoor KEYPLUG. We attribute this activity to a thr"
-permalink: /redgolf
+permalink: /redgolf/
 country: "China"
 sector_focus: ["Aviation", "Automotive", "Education", "Intergovernmental", "Media and Entertainment", "Information Technology", "Religious Organizations"]
 ---

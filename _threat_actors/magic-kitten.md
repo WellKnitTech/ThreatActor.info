@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Magic Kitten"
 aliases: ["Group 42", "VOYEUR", "Magic Kitten"]
 description: "Earliest activity back to November 2008. An established group of cyber attackers based in Iran, who carried on several campaigns in 2013, including a series of attacks targeting political dissidents an"
-permalink: /magic-kitten
+permalink: /magic-kitten/
 country: "Iran"
 risk_level: "High"
 sector_focus: ["Opposition", "Dissidents", "Political party"]

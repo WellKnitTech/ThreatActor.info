@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ShinyHunters"
 aliases: ["ShinyHunters"]
 description: "ShinyHunters is a cybercriminal group of unknown origin that is motivated by financial gain. The group is known for its sophisticated attacks against a wide range of targets, including businesses, orga"
-permalink: /shinyhunters
+permalink: /shinyhunters/
 ---
 
 ## Introduction

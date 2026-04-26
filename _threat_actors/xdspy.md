@@ -3,7 +3,7 @@ layout: threat_actor
 title: "XDSpy"
 aliases: ["XDSpy"]
 description: "Rare is the APT group that goes largely undetected for nine years, but XDSpy is just that; a previously undocumented espionage group that has been active since 2011. It has attracted very little public"
-permalink: /xdspy
+permalink: /xdspy/
 sector_focus: ["Government, Administration"]
 ---
 

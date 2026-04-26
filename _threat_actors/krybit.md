@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Krybit"
 aliases: ["Krybit"]
 description: "Krybit is a ransomware group that operates as a ransomware-as-a-service provider, offering affiliates 80% of ransom proceeds in exchange for technical support and a malware suite. The group has claimed"
-permalink: /krybit
+permalink: /krybit/
 ---
 
 ## Introduction

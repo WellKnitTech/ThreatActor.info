@@ -3,7 +3,7 @@ layout: threat_actor
 title: "The Gorgon Group"
 aliases: ["Gorgon Group", "Subaat", "ATK92", "G0078", "Pasty Gemini", "The Gorgon Group"]
 description: "Unit 42 researchers have been tracking Subaat, an attacker, since 2017. Recently Subaat drew our attention due to renewed targeted attack activity. Part of monitoring Subaat included realizing the acto"
-permalink: /the-gorgon-group
+permalink: /the-gorgon-group/
 ---
 
 ## Introduction

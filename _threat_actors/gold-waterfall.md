@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GOLD WATERFALL"
 aliases: ["GOLD WATERFALL"]
 description: "GOLD WATERFALL is a group of financially motivated cybercriminals responsible for the creation, distribution, and operation of the Darkside ransomware. Active since August 2020, GOLD WATERFALL uses a v"
-permalink: /gold-waterfall
+permalink: /gold-waterfall/
 ---
 
 ## Introduction

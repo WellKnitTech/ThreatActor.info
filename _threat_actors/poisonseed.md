@@ -3,7 +3,7 @@ layout: threat_actor
 title: "PoisonSeed"
 aliases: ["PoisonSeed"]
 description: "PoisonSeed is a threat actor employing an MFA-resistant phishing kit to acquire credentials from individuals and organizations, primarily targeting email infrastructure for cryptocurrency-related spam."
-permalink: /poisonseed
+permalink: /poisonseed/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "EvilPost"
 aliases: ["EvilPost"]
 description: ""
-permalink: /evilpost
+permalink: /evilpost/
 ---
 
 ## Introduction

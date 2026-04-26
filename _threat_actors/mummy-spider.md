@@ -3,7 +3,7 @@ layout: threat_actor
 title: "MUMMY SPIDER"
 aliases: ["TA542", "GOLD CRESTWOOD", "MUMMY SPIDER"]
 description: "MUMMY SPIDER is a criminal entity linked to the core development of the malware most commonly known as Emotet or Geodo. First observed in mid-2014, this malware shared code with the Bugat (aka Feodo) b"
-permalink: /mummy-spider
+permalink: /mummy-spider/
 ---
 
 ## Introduction

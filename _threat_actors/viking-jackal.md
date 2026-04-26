@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Viking Jackal"
 aliases: ["Vikingdom", "Viking Jackal"]
 description: ""
-permalink: /viking-jackal
+permalink: /viking-jackal/
 country: "United Arab Emirates"
 risk_level: "High"
 ---

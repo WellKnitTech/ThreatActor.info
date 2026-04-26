@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SmugX"
 aliases: ["SmugX"]
 description: "The campaign, called SmugX, overlaps with previously reported activity by Chinese APT actors RedDelta and Mustang Panda. Although those two correlate to some extent with Camaro Dragon, there is insuffi"
-permalink: /smugx
+permalink: /smugx/
 ---
 
 ## Introduction

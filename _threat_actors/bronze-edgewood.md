@@ -3,7 +3,7 @@ layout: threat_actor
 title: "BRONZE EDGEWOOD"
 aliases: ["Red Hariasa", "BRONZE EDGEWOOD"]
 description: "In early 2021 CTU researchers observed BRONZE EDGEWOOD exploiting the Microsoft Exchange Server of an organization in Southeast Asia. The threat group deployed a China Chopper webshell and ran the Nish"
-permalink: /bronze-edgewood
+permalink: /bronze-edgewood/
 country: "China"
 ---
 

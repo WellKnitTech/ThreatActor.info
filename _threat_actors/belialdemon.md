@@ -3,7 +3,7 @@ layout: threat_actor
 title: "BelialDemon"
 aliases: ["Matanbuchus", "BelialDemon"]
 description: "Mentioned as operator of TriumphLoader and Matanbuchus"
-permalink: /belialdemon
+permalink: /belialdemon/
 ---
 
 ## Introduction

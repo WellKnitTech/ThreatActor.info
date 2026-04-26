@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Sandman APT"
 aliases: ["Sandman APT"]
 description: "First disclosed in 2023, the Sandman APT is likely associated with suspected China-based threat clusters known for using the KEYPLUG backdoor, specifically STORM-0866/Red Dev 40. Sandman is tracked as "
-permalink: /sandman-apt
+permalink: /sandman-apt/
 country: "China"
 risk_level: "High"
 sector_focus: ["Government", "Telecommunications"]

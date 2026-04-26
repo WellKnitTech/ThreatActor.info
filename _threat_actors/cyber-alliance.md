@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Cyber Alliance"
 aliases: ["Cyber Alliance"]
 description: "The Ukrainian Cyber Alliance is a pro-Ukraine hacktivist group formed in 2016, primarily targeting Russian entities since the invasion of Ukraine in 2022. They have claimed responsibility for significa"
-permalink: /cyber-alliance
+permalink: /cyber-alliance/
 country: "Ukraine"
 ---
 

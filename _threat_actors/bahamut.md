@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Bahamut"
 aliases: ["Bahamut"]
 description: "Bahamut is a threat actor primarily operating in Middle East and Central Asia, suspected to be a private contractor to several state sponsored actors. They were observed conduct phishing as well as des"
-permalink: /bahamut
+permalink: /bahamut/
 ---
 
 ## Introduction

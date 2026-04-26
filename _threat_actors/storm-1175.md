@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-1175"
 aliases: ["Storm-1175"]
 description: "Storm-1175 is a cybercriminal group known for deploying Medusa ransomware and exploiting public-facing applications for initial access. They have been observed exploiting a critical deserialization vul"
-permalink: /storm-1175
+permalink: /storm-1175/
 country: "China"
 ---
 

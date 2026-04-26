@@ -3,7 +3,7 @@ layout: threat_actor
 title: "VIKING SPIDER"
 aliases: ["VIKING SPIDER"]
 description: "VIKING SPIDER is the criminal group behind the development and distribution of Ragnar Locker ransomware. While public reporting indicates the group began threatening to leak victim data in February 202"
-permalink: /viking-spider
+permalink: /viking-spider/
 ---
 
 ## Introduction

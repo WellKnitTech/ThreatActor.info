@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Evilbyte"
 aliases: ["Evilbyte"]
 description: "EvilByte is a hacktivist group that has conducted several high-profile cyber attacks in 2024, including breaching MyFatoorah's banking system in retaliation against Saudi media 1 and targeting Radio 10"
-permalink: /evilbyte
+permalink: /evilbyte/
 ---
 
 ## Introduction

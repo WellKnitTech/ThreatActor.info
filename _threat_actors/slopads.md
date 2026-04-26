@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SlopAds"
 aliases: ["SlopAds"]
 description: "SlopAds is a sophisticated ad fraud and click fraud operation involving a collection of 224 apps, downloaded over 38 million times globally. The threat actors utilize steganography, hidden WebViews, an"
-permalink: /slopads
+permalink: /slopads/
 ---
 
 ## Introduction

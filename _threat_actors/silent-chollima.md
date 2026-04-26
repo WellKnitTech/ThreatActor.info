@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Silent Chollima"
 aliases: ["OperationTroy", "Guardian of Peace", "GOP", "WHOis Team", "Andariel", "Subgroup: Andariel", "Onyx Sleet", "PLUTONIUM", "Silent Chollima"]
 description: "Andariel is a threat actor that primarily targets South Korean corporations and institutions. They are believed to collaborate with or operate as a subsidiary organization of the Lazarus threat group. "
-permalink: /silent-chollima
+permalink: /silent-chollima/
 country: "North Korea"
 risk_level: "High"
 ---

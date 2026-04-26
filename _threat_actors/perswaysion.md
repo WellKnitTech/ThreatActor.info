@@ -3,7 +3,7 @@ layout: threat_actor
 title: "PerSwaysion"
 aliases: ["PerSwaysion"]
 description: "PerSwaysion is a threat actor known for conducting phishing campaigns targeting high-level executives. They have been active since at least August 2019 and are believed to be based in Vietnam. PerSways"
-permalink: /perswaysion
+permalink: /perswaysion/
 country: "Vietnam"
 ---
 

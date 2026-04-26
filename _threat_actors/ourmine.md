@@ -3,7 +3,7 @@ layout: threat_actor
 title: "OurMine"
 aliases: ["OurMine"]
 description: "OurMine is known for celebrity internet accounts, often causing cyber vandalism, to advertise their commercial services. (Trend Micro) In light of the recent report detailing its willingness to pay US$"
-permalink: /ourmine
+permalink: /ourmine/
 ---
 
 ## Introduction

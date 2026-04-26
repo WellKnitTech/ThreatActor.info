@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Blackgear"
 aliases: ["Topgear", "Comnie", "BLACKGEAR", "Blackgear"]
 description: "BLACKGEAR is an espionage campaign which has targeted users in Taiwan for many years. Multiple papers and talks have been released covering this campaign, which used the ELIRKS backdoor when it was fir"
-permalink: /blackgear
+permalink: /blackgear/
 country: "China"
 ---
 

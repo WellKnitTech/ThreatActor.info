@@ -3,7 +3,7 @@ layout: threat_actor
 title: "N4ughtysecTU"
 aliases: ["N4ughtysecTU"]
 description: "In March 2022, a hacking group calling themselves N4ughtySecTU claimed to have breached TransUnion’s systems and threatened to leak four terabytes of data if the credit bureau didn’t pay a $15-million "
-permalink: /n4ughtysectu
+permalink: /n4ughtysectu/
 country: "Brazil"
 ---
 

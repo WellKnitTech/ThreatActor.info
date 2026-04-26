@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Hagga"
 aliases: ["Aggah", "TH-157", "Hagga"]
 description: "Hagga is believed to have been using Agent Tesla, 2021’s sixth most prevalent malware, to steal sensitive information from his victims since the latter part of 2021."
-permalink: /hagga
+permalink: /hagga/
 ---
 
 ## Introduction

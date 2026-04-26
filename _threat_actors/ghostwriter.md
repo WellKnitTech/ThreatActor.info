@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Ghostwriter"
 aliases: ["UNC1151", "TA445", "PUSHCHA", "Storm-0257", "DEV-0257", "UAC-0057", "Ghostwriter"]
 description: "Ghostwriter is referred as an 'activity set', with various incidents tied together by overlapping behavioral characteristics and personas, rather than as an actor or group in itself."
-permalink: /ghostwriter
+permalink: /ghostwriter/
 country: "Belarus"
 risk_level: "High"
 sector_focus: ["Government"]

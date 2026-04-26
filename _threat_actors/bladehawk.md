@@ -3,7 +3,7 @@ layout: threat_actor
 title: "BladeHawk"
 aliases: ["BladeHawk"]
 description: ""
-permalink: /bladehawk
+permalink: /bladehawk/
 sector_focus: ["Government"]
 ---
 

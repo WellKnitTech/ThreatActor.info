@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Rebel Jackal"
 aliases: ["FallagaTeam", "Rebel Jackal"]
 description: "This is a pro-Islamist organization that generally conducts attacks motivated by real world events in which its members believe that members of the Muslim faith were wronged. Its attacks generally invo"
-permalink: /rebel-jackal
+permalink: /rebel-jackal/
 risk_level: "High"
 ---
 

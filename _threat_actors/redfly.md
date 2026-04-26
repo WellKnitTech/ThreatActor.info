@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Redfly"
 aliases: ["Redfly"]
 description: "Redfly hacked a national electricity grid organization in Asia and maintained persistent access to the network for about six months. Researchers discovered evidence for this attack between 28 February "
-permalink: /redfly
+permalink: /redfly/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "HenBox"
 aliases: ["HenBox"]
 description: "This threat actor targets Uighurs—a minority ethnic group located primarily in northwestern China—and devices from Chinese mobile phone manufacturer Xiaomi, for espionage purposes."
-permalink: /henbox
+permalink: /henbox/
 country: "China"
 risk_level: "High"
 sector_focus: ["Civil society"]

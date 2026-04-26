@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Taidoor"
 aliases: ["G0015", "Earth Aughisky", "Taidoor"]
 description: "The Taidoor attackers have been actively engaging in targeted attacks since at least March 4, 2009. Despite some exceptions, the Taidoor campaign often used Taiwanese IP addresses as C&C servers and em"
-permalink: /taidoor
+permalink: /taidoor/
 ---
 
 ## Introduction

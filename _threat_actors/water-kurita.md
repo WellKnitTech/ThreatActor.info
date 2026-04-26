@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Water Kurita"
 aliases: ["Water Kurita"]
 description: "Water Kurita is a financially motivated cybercriminal entity associated with the Lumma Stealer infostealer-as-a-service operation, primarily active on underground forums and marketplaces. It focuses on"
-permalink: /water-kurita
+permalink: /water-kurita/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SHARK SPIDER"
 aliases: ["SHARK SPIDER"]
 description: "This group's activity was first observed in November 2013. It leverages a banking Trojan more commonly known as Shylock which aims to compromise online banking credentials and credentials related to Bi"
-permalink: /shark-spider
+permalink: /shark-spider/
 country: "Russia"
 risk_level: "High"
 sector_focus: ["Bank"]

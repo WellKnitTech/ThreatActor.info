@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SMOKY SPIDER"
 aliases: ["SMOKY SPIDER"]
 description: "Mentioned as operator of SmokeLoader in CrowdStrike's 2020 Report."
-permalink: /smoky-spider
+permalink: /smoky-spider/
 ---
 
 ## Introduction

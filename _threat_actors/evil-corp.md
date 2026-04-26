@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Evil Corp"
 aliases: ["GOLD DRAKE", "Evil Corp"]
 description: "Evil Corp is an internaltional cybercrime network. In December of 2019 the US Federal Government offered a $5M bounty for information leading to the arrest and conviction of Maksim V. Yakubets for alle"
-permalink: /evil-corp
+permalink: /evil-corp/
 ---
 
 ## Introduction

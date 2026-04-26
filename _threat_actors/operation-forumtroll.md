@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Operation ForumTroll"
 aliases: ["Operation ForumTroll"]
 description: "Operation ForumTroll is a sophisticated cyber espionage campaign discovered by Kaspersky in mid-March 2025. The attack exploited a zero-day vulnerability in Google Chrome, identified as CVE-2025-2783, "
-permalink: /operation-forumtroll
+permalink: /operation-forumtroll/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SafePay"
 aliases: ["SafePay Ransomware"]
 description: "SafePay is a ransomware group particularly active in Germany, responsible for 24% of the 74 ransomware victims reported in the country during Q1 2025."
-permalink: /safepay
+permalink: /safepay/
 country: "Unknown"
 first_seen: "2024"
 last_activity: "2025"

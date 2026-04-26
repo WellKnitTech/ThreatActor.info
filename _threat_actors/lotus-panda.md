@@ -3,7 +3,7 @@ layout: threat_actor
 title: "LOTUS PANDA"
 aliases: ["Spring Dragon", "ST Group", "DRAGONFISH", "BRONZE ELGIN", "ATK1", "G0030", "Red Salamander", "Lotus BLossom", "Billbug", "Lotus Blossom", "LOTUS PANDA"]
 description: "Lotus Blossom is a threat group that has targeted government and military organizations in Southeast Asia."
-permalink: /lotus-panda
+permalink: /lotus-panda/
 country: "China"
 risk_level: "High"
 sector_focus: ["Military", "Government, Administration", "Government"]

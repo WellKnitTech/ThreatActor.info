@@ -3,7 +3,7 @@ layout: threat_actor
 title: "luoxk"
 aliases: ["luoxk"]
 description: "Luoxk is a malware campaign targeting web servers throughout Asia, Europe and North America."
-permalink: /luoxk
+permalink: /luoxk/
 ---
 
 ## Introduction

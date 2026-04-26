@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ViciousTrap"
 aliases: ["ViciousTrap"]
 description: "ViciousTrap has compromised over 5,500 edge devices, transforming them into honeypots and utilizing a shell script called NetGhost to redirect incoming traffic from specific ports to their infrastructu"
-permalink: /vicioustrap
+permalink: /vicioustrap/
 ---
 
 ## Introduction

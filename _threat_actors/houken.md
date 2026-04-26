@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Houken"
 aliases: ["Houken"]
 description: "Houken is a Chinese state-sponsored threat actor that exploits zero-day vulnerabilities in Ivanti Cloud Services Appliance devices to gain initial access to critical infrastructure networks, particular"
-permalink: /houken
+permalink: /houken/
 country: "China"
 ---
 

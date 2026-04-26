@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Aggressive Inventory Zombies"
 aliases: ["AIZ", "Aggressive Inventory Zombies"]
 description: "Aggressive Inventory Zombies is a threat actor involved in a large-scale phishing and pig-butchering network targeting retail brands and cryptocurrency users. They create fraudulent sites using a popul"
-permalink: /aggressive-inventory-zombies
+permalink: /aggressive-inventory-zombies/
 ---
 
 ## Introduction

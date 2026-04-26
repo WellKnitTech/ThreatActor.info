@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Common Raven"
 aliases: ["OPERA1ER", "NXSMS", "DESKTOP-GROUP", "Common Raven"]
 description: "Threat actor Common Raven has been actively targeting financial sector institutions, compromising their SWIFT payment infrastructure to send out fraudulent payments."
-permalink: /common-raven
+permalink: /common-raven/
 ---
 
 ## Introduction

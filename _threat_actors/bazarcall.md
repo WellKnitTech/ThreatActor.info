@@ -3,7 +3,7 @@ layout: threat_actor
 title: "BazarCall"
 aliases: ["BazzarCall", "BazaCall", "BazarCall"]
 description: "BazarCall campaigns forgo malicious links or attachments in email messages in favor of phone numbers that recipients are misled into calling. It’s a technique reminiscent of vishing and tech support sc"
-permalink: /bazarcall
+permalink: /bazarcall/
 ---
 
 ## Introduction

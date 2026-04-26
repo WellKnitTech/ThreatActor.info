@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT31"
 aliases: ["ZIRCONIUM", "JUDGMENT PANDA", "BRONZE VINEWOOD", "Red keres", "Violet Typhoon", "TA412", "Zirconium", "APT31"]
 description: "FireEye characterizes APT31 as an actor specialized on intellectual property theft, focusing on data and projects that make a particular organization competetive in its field. Based on available data ("
-permalink: /apt31
+permalink: /apt31/
 country: "China"
 ---
 

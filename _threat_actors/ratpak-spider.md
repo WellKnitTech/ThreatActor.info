@@ -3,7 +3,7 @@ layout: threat_actor
 title: "RATPAK SPIDER"
 aliases: ["RATPAK SPIDER"]
 description: "In July 2018, the source code of Pegasus, RATPAK SPIDER’s malware framework, was anonymously leaked. This malware has been linked to the targeting of Russia’s financial sector. Associated malware, Buht"
-permalink: /ratpak-spider
+permalink: /ratpak-spider/
 ---
 
 ## Introduction

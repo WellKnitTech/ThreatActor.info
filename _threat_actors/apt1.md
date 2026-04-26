@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT1"
 aliases: ["APT1", "Comment Crew", "Comment Group", "Comment Panda", "COMMENT PANDA", "PLA Unit 61398", "Byzantine Candor", "Group 3", "TG-8223", "Brown Fox", "GIF89a", "ShadyRAT", "G0006"]
 description: "APT1 is a Chinese cyber espionage group that has been conducting cyber espionage against a broad range of victims."
-permalink: /apt1
+permalink: /apt1/
 country: "China"
 first_seen: "2006"
 last_activity: "2023"

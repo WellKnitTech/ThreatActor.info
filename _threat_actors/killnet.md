@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Killnet"
 aliases: ["Killnet"]
 description: "A group targeting various countries using Denial of Services attacked."
-permalink: /killnet
+permalink: /killnet/
 sector_focus: ["Government"]
 ---
 

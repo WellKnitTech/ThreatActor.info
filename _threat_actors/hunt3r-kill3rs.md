@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Hunt3r Kill3rs"
 aliases: ["Hunt3r Kill3rs"]
 description: "Hunt3r Kill3rs is a newly emerged threat group claiming expertise in cyber operations, including ICS breaches and web application vulnerabilities exploitation. They have discussed using Java fuzzing in"
-permalink: /hunt3r-kill3rs
+permalink: /hunt3r-kill3rs/
 country: "Russia"
 ---
 

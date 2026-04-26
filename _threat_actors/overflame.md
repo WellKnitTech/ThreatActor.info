@@ -3,7 +3,7 @@ layout: threat_actor
 title: "OverFlame"
 aliases: ["OverFlame"]
 description: "OverFlame is a hacktivist group known for executing DDoS attacks and website defacements, primarily targeting government institutions and corporations in Europe and North America. The group has been in"
-permalink: /overflame
+permalink: /overflame/
 ---
 
 ## Introduction

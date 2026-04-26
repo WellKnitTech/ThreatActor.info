@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GOLD MANSARD"
 aliases: ["GOLD MANSARD"]
 description: "GOLD MANSARD is a financially motivated cybercriminal threat group that operated the Nemty ransomware from August 2019. The threat actor behind Nemty is known on Russian underground forums as 'jsworm'."
-permalink: /gold-mansard
+permalink: /gold-mansard/
 ---
 
 ## Introduction

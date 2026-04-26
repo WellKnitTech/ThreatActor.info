@@ -3,7 +3,7 @@ layout: threat_actor
 title: "HURRICANE PANDA"
 aliases: ["HURRICANE PANDA"]
 description: "We have investigated their intrusions since 2013 and have been battling them nonstop over the last year at several large telecommunications and technology companies. The determination of this China-bas"
-permalink: /hurricane-panda
+permalink: /hurricane-panda/
 country: "China"
 risk_level: "High"
 sector_focus: ["Technology", "Telecoms"]

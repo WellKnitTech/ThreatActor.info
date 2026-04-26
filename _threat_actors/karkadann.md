@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Karkadann"
 aliases: ["Piwiks", "Karkadann"]
 description: "Karkadann is a threat actor that has been active since at least October 2020, targeting government bodies and news outlets in the Middle East. They have been involved in watering hole attacks, compromi"
-permalink: /karkadann
+permalink: /karkadann/
 ---
 
 ## Introduction

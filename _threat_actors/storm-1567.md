@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-1567"
 aliases: ["Akira", "PUNK SPIDER", "GOLD SAHARA", "Storm-1567"]
 description: "Storm-1567 is the threat actor behind the Ransomware-as-a-Service Akira. They attacked Swedish organizations in March 2023. This ransomware utilizes the ChaCha encryption algorithm, PowerShell, and Win"
-permalink: /storm-1567
+permalink: /storm-1567/
 ---
 
 ## Introduction

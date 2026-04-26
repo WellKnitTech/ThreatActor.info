@@ -3,7 +3,7 @@ layout: threat_actor
 title: "HAZY TIGER"
 aliases: ["Bitter", "T-APT-17", "APT-C-08", "Orange Yali", "TA397", "HAZY TIGER"]
 description: "The Bitter threat group initially started using RAT tools in their campaigns, as the first Bitter versions, for Android released in 2014 were based on the AndroRAT framework. Over time, they switched t"
-permalink: /hazy-tiger
+permalink: /hazy-tiger/
 country: "India"
 ---
 

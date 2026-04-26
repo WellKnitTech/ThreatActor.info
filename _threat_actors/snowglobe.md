@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SNOWGLOBE"
 aliases: ["Animal Farm", "Snowglobe", "ATK8", "SNOWGLOBE"]
 description: "In 2014, researchers at Kaspersky Lab discovered and reported on three zero-days that were being used in cyberattacks in the wild. Two of these zero-day vulnerabilities are associated with an advanced "
-permalink: /snowglobe
+permalink: /snowglobe/
 country: "France"
 risk_level: "High"
 sector_focus: ["Government", "Private sector"]

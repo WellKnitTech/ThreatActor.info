@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Educated Manticore"
 aliases: ["Educated Manticore"]
 description: "Educated Manticore is an Iranian APT group aligned with the Islamic Revolutionary Guard Corps, primarily engaged in espionage targeting government, military, and academic sectors. The group employs spe"
-permalink: /educated-manticore
+permalink: /educated-manticore/
 country: "Iran"
 ---
 

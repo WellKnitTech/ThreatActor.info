@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GrayCharlie"
 aliases: ["GrayCharlie"]
 description: "GrayCharlie is a threat actor that compromises WordPress sites to inject malicious JavaScript, redirecting visitors to NetSupport RAT payloads via fake browser update pages or ClickFix mechanisms. Insi"
-permalink: /graycharlie
+permalink: /graycharlie/
 ---
 
 ## Introduction

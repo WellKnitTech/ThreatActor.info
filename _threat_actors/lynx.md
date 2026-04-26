@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "Lynx"
 description: "Lynx is an active ransomware-as-a-service operation tracked by RansomLook."
-permalink: /lynx
+permalink: /lynx/
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 ---
 

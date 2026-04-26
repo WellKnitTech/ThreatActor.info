@@ -3,7 +3,7 @@ layout: threat_actor
 title: "FIN7"
 aliases: ["Anunak", "Carbanak", "Carbon Spider", "ELBRUS", "FIN7", "GOLD NIAGARA", "ITG14", "Navigator Group", "Sangria Tempest", "CARBON SPIDER", "Calcium", "ATK32", "G0046", "G0008", "Coreid", "JokerStash"]
 description: "FIN7 is a financially-motivated threat group that has been active since 2013. FIN7 has targeted the retail, restaurant, hospitality, software, consulting, financial services, medical equipment, cloud s"
-permalink: /fin7
+permalink: /fin7/
 country: "Unknown"
 first_seen: "2015"
 last_activity: "2024"

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "UNION SPIDER"
 aliases: ["UNION SPIDER"]
 description: "Adversary targeting manufacturing and industrial organizations."
-permalink: /union-spider
+permalink: /union-spider/
 country: "Russia"
 risk_level: "High"
 sector_focus: ["Manufacturing", "Industrial"]

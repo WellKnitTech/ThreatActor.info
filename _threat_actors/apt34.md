@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT34"
 aliases: ["APT34", "COBALT GYPSY", "Crambus", "Earth Simnavaz", "EUROPIUM", "Evasive Serpens", "Hazel Sandstorm", "Helix Kitten", "IRN2", "ITG13", "OilRig", "TA452"]
 description: "OilRig is a suspected Iranian threat group that has targeted Middle Eastern and international victims since at least 2014. The group has targeted a variety of sectors, including financial, government, "
-permalink: /apt34
+permalink: /apt34/
 country: "Iran"
 first_seen: "2014"
 last_activity: "2024"

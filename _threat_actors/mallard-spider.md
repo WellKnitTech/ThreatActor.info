@@ -3,7 +3,7 @@ layout: threat_actor
 title: "MALLARD SPIDER"
 aliases: ["GOLD LAGOON", "MALLARD SPIDER"]
 description: "Crowdstrike tarcks the operators behind the Qbot as MALLARD SPIDER"
-permalink: /mallard-spider
+permalink: /mallard-spider/
 ---
 
 ## Introduction

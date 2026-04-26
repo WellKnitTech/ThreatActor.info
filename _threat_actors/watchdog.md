@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Watchdog"
 aliases: ["Thief Libra", "Watchdog"]
 description: "Thief Libra is a cloud-focused threat group that has a history of cryptojacking operations as well as cloud service platform credential scraping. They were first known to operate on January 27, 2019. T"
-permalink: /watchdog
+permalink: /watchdog/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GOFFEE"
 aliases: ["GOFFEE"]
 description: "GOFFEE is a threat actor that has targeted entities in the Russian Federation since early 2022, employing spear phishing emails with malicious attachments, including modified Owowa and patched explorer"
-permalink: /goffee
+permalink: /goffee/
 ---
 
 ## Introduction

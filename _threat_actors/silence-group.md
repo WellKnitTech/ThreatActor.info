@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Silence group"
 aliases: ["Silence", "WHISPER SPIDER", "Silence group"]
 description: "a relatively new threat actor that’s been operating since mid-2016 Group-IB has exposed the attacks committed by Silence cybercriminal group. While the gang had previously targeted Russian banks, Group"
-permalink: /silence-group
+permalink: /silence-group/
 ---
 
 ## Introduction

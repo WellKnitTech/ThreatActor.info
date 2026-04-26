@@ -3,7 +3,7 @@ layout: threat_actor
 title: "WildCard"
 aliases: ["WildCard"]
 description: "Wildcard is a threat actor that initially targeted Israel's educational sector with the SysJoker malware. They have since expanded their operations and developed additional malware variants, disguised "
-permalink: /wildcard
+permalink: /wildcard/
 ---
 
 ## Introduction

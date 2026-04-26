@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Worok"
 aliases: ["Worok"]
 description: "Worok is a cyber espionage group, mostly targeting Central Asia. The group toolset includes a C++ loader named CLRLoad, a PowerShell backdoor named PowHeartBeat, and a C# loader named PNGLoad."
-permalink: /worok
+permalink: /worok/
 country: "China"
 risk_level: "High"
 sector_focus: ["Government", "Energy Company"]

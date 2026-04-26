@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Tick"
 aliases: ["Nian", "BRONZE BUTLER", "REDBALDKNIGHT", "STALKER PANDA", "G0060", "Stalker Taurus", "PLA Unit 61419", "Swirl Typhoon", "Tick"]
 description: "Tick is a cyber espionage group with likely Chinese origins that has been active since at least 2008. The group appears to have close ties to the Chinese National University of Defense and Technology, "
-permalink: /tick
+permalink: /tick/
 country: "China"
 risk_level: "High"
 sector_focus: ["Infrastructure", "Industrial", "Manufacturing", "Diplomacy", "News - Media", "Political party", "Engineering", "Private sector"]

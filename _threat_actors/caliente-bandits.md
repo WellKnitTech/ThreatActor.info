@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Caliente Bandits"
 aliases: ["TA2721", "Caliente Bandits"]
 description: "Caliente Bandits is a highly active threat group that targets multiple industries, including finance and entertainment. They distribute the Bandook remote access trojan using Spanish-language lures thr"
-permalink: /caliente-bandits
+permalink: /caliente-bandits/
 ---
 
 ## Introduction

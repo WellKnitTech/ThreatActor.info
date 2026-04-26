@@ -3,7 +3,7 @@ layout: threat_actor
 title: "DEXTOROUS SPIDER"
 aliases: ["DEXTOROUS SPIDER"]
 description: ""
-permalink: /dextorous-spider
+permalink: /dextorous-spider/
 ---
 
 ## Introduction

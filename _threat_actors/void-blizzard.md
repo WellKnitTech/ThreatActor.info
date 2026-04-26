@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Void Blizzard"
 aliases: ["LAUNDRY BEAR", "UAC-0190", "Void Blizzard"]
 description: "Void Blizzard’s cyberespionage operations tend to be highly targeted at specific organizations of interest to the Russian government, including in government, defense, transportation, media, non-govern"
-permalink: /void-blizzard
+permalink: /void-blizzard/
 country: "Russia"
 ---
 

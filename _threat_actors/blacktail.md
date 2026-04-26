@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Blacktail"
 aliases: ["Blacktail"]
 description: "Blacktail is a cybercrime group that has gained attention for its ransomware campaigns, particularly the Buhti ransomware. They are known for using custom-built data exfiltration tools and have been ob"
-permalink: /blacktail
+permalink: /blacktail/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SALTY SPIDER"
 aliases: ["SALTY SPIDER"]
 description: "Beginning in January 2018 and persisting through the first half of the year, CrowdStrike Intelligence observed SALTY SPIDER, developer and operator of the long-running Sality botnet, distribute malware"
-permalink: /salty-spider
+permalink: /salty-spider/
 ---
 
 ## Introduction

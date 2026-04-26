@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Shadow Network"
 aliases: ["Shadow Network"]
 description: "Shadows in the Cloud documents a complex ecosystem of cyber espionage that systematically compromised government, business, academic, and other computer network systems in India, the Offices of the Dal"
-permalink: /shadow-network
+permalink: /shadow-network/
 ---
 
 ## Introduction

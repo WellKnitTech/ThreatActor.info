@@ -3,7 +3,7 @@ layout: threat_actor
 title: "BladedFeline"
 aliases: ["BladedFeline"]
 description: "BladedFeline is an Iran-aligned APT group that has been active since at least 2017, targeting Iraqi and Kurdish government officials for cyberespionage. The group employs a variety of tools, including "
-permalink: /bladedfeline
+permalink: /bladedfeline/
 country: "Iran"
 ---
 

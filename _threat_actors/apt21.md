@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT21"
 aliases: ["HAMMER PANDA", "TEMP.Zhenbao", "NetTraveler", "APT21"]
 description: ""
-permalink: /apt21
+permalink: /apt21/
 country: "China"
 risk_level: "High"
 sector_focus: ["Government", "Military"]

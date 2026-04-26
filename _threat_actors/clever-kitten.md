@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Clever Kitten"
 aliases: ["Group 41", "Clever Kitten"]
 description: ""
-permalink: /clever-kitten
+permalink: /clever-kitten/
 country: "Iran"
 risk_level: "High"
 ---

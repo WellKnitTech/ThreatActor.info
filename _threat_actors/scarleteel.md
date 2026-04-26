@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SCARLETEEL"
 aliases: ["SCARLETEEL"]
 description: "SCARLETEEL is a threat actor that primarily targets cloud environments, specifically AWS and Kubernetes. They have been observed stealing proprietary data and intellectual property, as well as conducti"
-permalink: /scarleteel
+permalink: /scarleteel/
 ---
 
 ## Introduction

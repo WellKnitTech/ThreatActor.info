@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Cyber fighters of Izz Ad-Din Al Qassam"
 aliases: ["Fraternal Jackal", "Cyber fighters of Izz Ad-Din Al Qassam"]
 description: ""
-permalink: /cyber-fighters-of-izz-ad-din-al-qassam
+permalink: /cyber-fighters-of-izz-ad-din-al-qassam/
 country: "Iran"
 risk_level: "High"
 ---

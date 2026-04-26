@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Edalat-e Ali"
 aliases: ["Edalat-e Ali"]
 description: "Edalat-e Ali is a hacktivist group known for disrupting Iranian state-run TV and radio transmissions during significant events, such as the Revolution Day ceremonies. They have also targeted government"
-permalink: /edalat-e-ali
+permalink: /edalat-e-ali/
 country: "Iran"
 ---
 

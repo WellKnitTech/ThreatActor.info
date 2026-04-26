@@ -3,7 +3,7 @@ layout: threat_actor
 title: "RedKitten"
 aliases: ["RedKitten"]
 description: "RedKitten is a campaign targeting Iranian interests, particularly NGOs and individuals documenting human rights abuses, first observed in January 2026. The malware utilizes GitHub and Google Drive for "
-permalink: /redkitten
+permalink: /redkitten/
 ---
 
 ## Introduction

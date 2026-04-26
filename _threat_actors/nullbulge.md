@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Nullbulge"
 aliases: ["Nullbulge"]
 description: "NullBulge is a cybercriminal threat group targeting AI and gaming focused entities. They weaponize code in publicly available repositories to distribute malware, including LockBit ransomware. The group"
-permalink: /nullbulge
+permalink: /nullbulge/
 ---
 
 ## Introduction

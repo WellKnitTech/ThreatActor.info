@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SloppyLemming"
 aliases: ["SloppyLemming"]
 description: "SloppyLemming is an advanced actor that uses multiple cloud service providers to facilitate different aspects of their activities, such as credential harvesting, malware delivery and command and contro"
-permalink: /sloppylemming
+permalink: /sloppylemming/
 ---
 
 ## Introduction

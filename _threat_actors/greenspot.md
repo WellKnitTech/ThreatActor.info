@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GreenSpot"
 aliases: ["PoisonVine", "APT-Q-20", "GreenSpot"]
 description: "GreenSpot is an APT group believed to operate from Taiwan, active since at least 2007, primarily targeting government, academic, and military entities in China through phishing campaigns. The group fre"
-permalink: /greenspot
+permalink: /greenspot/
 ---
 
 ## Introduction

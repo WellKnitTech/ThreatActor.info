@@ -3,7 +3,7 @@ layout: threat_actor
 title: "[Vault 7/8]"
 aliases: ["[Vault 7/8]"]
 description: "An unnamed source leaked almost 10,000 documents describing a large number of 0-day vulnerabilities, methodologies and tools that had been collected by the CIA. This leaking was done through WikiLeaks,"
-permalink: /vault-7-8
+permalink: /vault-7-8/
 ---
 
 ## Introduction

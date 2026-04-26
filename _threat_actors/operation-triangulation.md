@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Operation Triangulation"
 aliases: ["Operation Triangulation"]
 description: "Operation Triangulation is an ongoing APT campaign targeting iOS devices with zero-click iMessage exploits. The threat actor behind the campaign has been active since at least 2019 and continues to ope"
-permalink: /operation-triangulation
+permalink: /operation-triangulation/
 ---
 
 ## Introduction

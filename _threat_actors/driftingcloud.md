@@ -3,7 +3,7 @@ layout: threat_actor
 title: "DriftingCloud"
 aliases: ["DriftingCloud"]
 description: "DriftingCloud is a persistent threat actor known for targeting various industries and locations. They are skilled at developing or acquiring zero-day exploits to gain unauthorized access to target netw"
-permalink: /driftingcloud
+permalink: /driftingcloud/
 country: "China"
 ---
 

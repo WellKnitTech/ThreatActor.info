@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Massgrave"
 aliases: ["Massgrave"]
 description: "Massgrave is a hacking group that has developed a method to bypass Microsoft's software licensing for Windows and Office, enabling permanent activation of versions from Windows Vista to Windows 11. The"
-permalink: /massgrave
+permalink: /massgrave/
 ---
 
 ## Introduction

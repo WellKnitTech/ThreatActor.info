@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Ghost Jackal"
 aliases: ["Ghost Jackal"]
 description: ""
-permalink: /ghost-jackal
+permalink: /ghost-jackal/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ENERGETIC BEAR"
 aliases: ["BERSERK BEAR", "ALLANITE", "CASTLE", "DYMALLOY", "TG-4192", "Dragonfly", "Crouching Yeti", "Group 24", "Havex", "Koala Team", "IRON LIBERTY", "G0035", "ATK6", "ITG15", "BROMINE", "Blue Kraken", "Ghost Blizzard", "ENERGETIC BEAR"]
 description: "A Russian group that collects intelligence on the energy industry."
-permalink: /energetic-bear
+permalink: /energetic-bear/
 country: "Russia"
 risk_level: "Critical"
 sector_focus: ["Energy", "Private sector", "Government"]

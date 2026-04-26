@@ -3,7 +3,7 @@ layout: threat_actor
 title: "DieNet"
 aliases: ["Shiite_Harvest", "DieNet"]
 description: "DieNet is a hacktivist group that emerged in March 2025, known for conducting DDoS attacks targeting entities associated with political figures, such as Trump businesses. The group has claimed responsi"
-permalink: /dienet
+permalink: /dienet/
 ---
 
 ## Introduction

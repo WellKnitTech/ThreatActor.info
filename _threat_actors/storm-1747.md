@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-1747"
 aliases: ["Storm-1747"]
 description: "Storm-1747 is an intrusion set that develops and operates the Tycoon 2FA phishing kit, which has been active since at least mid-2023 and is known for its sophisticated obfuscation and exfiltration tech"
-permalink: /storm-1747
+permalink: /storm-1747/
 ---
 
 ## Introduction

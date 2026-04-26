@@ -3,7 +3,7 @@ layout: threat_actor
 title: "FunkSec"
 aliases: ["FunkSec"]
 description: "Funksec is a newly identified extortion group that has claimed 11 victims across various sectors, including media, IT, and education, operating a Tor-based DLS to centralize its ransomware activities. "
-permalink: /funksec
+permalink: /funksec/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Altoufan Team"
 aliases: ["Altoufan Team"]
 description: "ALTOUFAN TEAM is a politically motivated hacktivist group with anti-Zionism, anti-monarchy, and pro-14-February movement sentiments. They have targeted government agencies and organizations in Bahrain "
-permalink: /altoufan-team
+permalink: /altoufan-team/
 ---
 
 ## Introduction

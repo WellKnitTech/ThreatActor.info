@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TAG-28"
 aliases: ["TAG-28"]
 description: "TAG-28 is a Chinese state-sponsored threat actor that has been targeting Indian organizations, including media conglomerates and government agencies. They have been using the Winnti malware, which is c"
-permalink: /tag-28
+permalink: /tag-28/
 country: "China"
 ---
 

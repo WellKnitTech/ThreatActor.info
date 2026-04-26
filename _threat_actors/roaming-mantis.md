@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Roaming Mantis"
 aliases: ["Roaming Mantis Group", "Roaming Mantis"]
 description: "According to new research by Kaspersky's GReAT team, the online criminal activities of the Roaming Mantis Group have continued to evolve since they were first discovered in April 2018. As part of their"
-permalink: /roaming-mantis
+permalink: /roaming-mantis/
 ---
 
 ## Introduction

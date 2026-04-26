@@ -3,7 +3,7 @@ layout: threat_actor
 title: "The Big Bang"
 aliases: ["The Big Bang"]
 description: "While it is not clear exactly what the attacker is looking for, what is clear is that once he finds it, a second stage of the attack awaits, fetching additional modules and/or malware from the Command "
-permalink: /the-big-bang
+permalink: /the-big-bang/
 ---
 
 ## Introduction

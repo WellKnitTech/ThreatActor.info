@@ -3,7 +3,7 @@ layout: threat_actor
 title: "NOCTURNAL SPIDER"
 aliases: ["NOCTURNAL SPIDER"]
 description: "Mentioned as MaaS operator in CrowdStrike's 2020 Report."
-permalink: /nocturnal-spider
+permalink: /nocturnal-spider/
 ---
 
 ## Introduction

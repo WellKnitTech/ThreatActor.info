@@ -3,7 +3,7 @@ layout: threat_actor
 title: "CardinalLizard"
 aliases: ["CardinalLizard"]
 description: "CardinalLizard, a cyber threat actor linked to China, has targeted entities in Asia since 2018. Their methods include spear-phishing, custom malware with anti-detection features, and potentially shared"
-permalink: /cardinallizard
+permalink: /cardinallizard/
 country: "China"
 ---
 

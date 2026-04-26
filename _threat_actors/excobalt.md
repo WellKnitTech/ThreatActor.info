@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ExCobalt"
 aliases: ["ExCobalt"]
 description: "ExCobalt is an APT group that has been active since at least 2016 and is believed to be linked to the notorious Cobalt Gang. The group primarily targets Russian organizations across sectors—including m"
-permalink: /excobalt
+permalink: /excobalt/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Caramel Tsunami"
 aliases: ["SOURGUM", "Candiru", "Caramel Tsunami"]
 description: "Caramel Tsunami is a threat actor that specializes in spyware attacks. They have recently resurfaced with an updated toolset and zero-day exploits, targeting specific victims through watering hole atta"
-permalink: /caramel-tsunami
+permalink: /caramel-tsunami/
 ---
 
 ## Introduction

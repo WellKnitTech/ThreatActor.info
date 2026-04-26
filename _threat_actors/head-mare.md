@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Head Mare"
 aliases: ["Head Mare"]
 description: "Head Mare is a hacktivism focussed threat actor group known for targeting Russia and Belarus sectors using a remote access malware called PhantomRAT. They have been observed executing malicious code th"
-permalink: /head-mare
+permalink: /head-mare/
 ---
 
 ## Introduction

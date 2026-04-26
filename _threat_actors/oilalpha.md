@@ -3,7 +3,7 @@ layout: threat_actor
 title: "OilAlpha"
 aliases: ["OilAlpha"]
 description: "OilAlpha has almost exclusively relied on infrastructure associated with the Public Telecommunication Corporation (PTC), a Yemeni government-owned enterprise reported to be under the direct control of "
-permalink: /oilalpha
+permalink: /oilalpha/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ELOQUENT PANDA"
 aliases: ["ELOQUENT PANDA"]
 description: ""
-permalink: /eloquent-panda
+permalink: /eloquent-panda/
 country: "China"
 risk_level: "High"
 ---

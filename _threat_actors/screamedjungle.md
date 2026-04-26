@@ -3,7 +3,7 @@ layout: threat_actor
 title: "ScreamedJungle"
 aliases: ["ScreamedJungle"]
 description: "ScreamedJungle is a threat actor that exploits vulnerabilities in outdated Magento e-commerce platforms to inject malicious JavaScript code, specifically Bablosoft JS, into compromised websites. This a"
-permalink: /screamedjungle
+permalink: /screamedjungle/
 ---
 
 ## Introduction

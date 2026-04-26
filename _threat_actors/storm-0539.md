@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-0539"
 aliases: ["Storm-0539"]
 description: "Storm-0539 is a financially motivated threat actor that has been active since at least 2021. They primarily target retail organizations for gift card fraud and theft. Their tactics include phishing via"
-permalink: /storm-0539
+permalink: /storm-0539/
 ---
 
 ## Introduction

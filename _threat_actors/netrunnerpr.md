@@ -3,7 +3,7 @@ layout: threat_actor
 title: "NetRunnerPR"
 aliases: ["NetRunnerPR"]
 description: "NetRunnerPR has claimed to breach the networks of Shiraume Hospital and Nippon Medical School Musashi Kosugi Hospital in Japan, exfiltrating patient PII and medical records. The actor announced plans t"
-permalink: /netrunnerpr
+permalink: /netrunnerpr/
 ---
 
 ## Introduction

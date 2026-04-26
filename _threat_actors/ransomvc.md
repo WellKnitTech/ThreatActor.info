@@ -3,7 +3,7 @@ layout: threat_actor
 title: "RansomVC"
 aliases: ["Ransomed.vc", "RansomVC"]
 description: "Ransomed.VC burst onto the scene with a well-orchestrated PR campaign, encompassing a clearnet site and multiple communication channels including Telegram and Twitter/X profiles. Their operations are h"
-permalink: /ransomvc
+permalink: /ransomvc/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Attor"
 aliases: ["Attor"]
 description: "Adversary group targeting diplomatic missions and governmental organisations."
-permalink: /attor
+permalink: /attor/
 sector_focus: ["Private sector", "Government"]
 ---
 

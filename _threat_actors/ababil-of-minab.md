@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Ababil of Minab"
 aliases: ["Ababil of Minab"]
 description: "Ababil of Minab is an emerging pro-Iranian hacktivist group with a limited public profile and little verifiable prior activity in threat intelligence reporting. The group claims responsibility for a cy"
-permalink: /ababil-of-minab
+permalink: /ababil-of-minab/
 country: "Iran"
 ---
 

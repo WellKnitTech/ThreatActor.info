@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-1283"
 aliases: ["Storm-1283"]
 description: "Storm-1283 is a threat actor that targeted Microsoft Azure cloud platform. They gained access to user accounts and created OAuth applications using stolen credentials, allowing them to control resource"
-permalink: /storm-1283
+permalink: /storm-1283/
 ---
 
 ## Introduction

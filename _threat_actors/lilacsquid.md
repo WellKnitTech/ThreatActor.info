@@ -3,7 +3,7 @@ layout: threat_actor
 title: "LilacSquid"
 aliases: ["LilacSquid"]
 description: "LilacSquid is an APT actor targeting a variety of industries worldwide since at least 2021. They use tactics such as exploiting vulnerabilities and compromised RDP credentials to gain access to victim "
-permalink: /lilacsquid
+permalink: /lilacsquid/
 ---
 
 ## Introduction

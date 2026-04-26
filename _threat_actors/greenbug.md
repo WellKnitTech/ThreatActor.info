@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Greenbug"
 aliases: ["Greenbug"]
 description: "Greenbug was discovered targeting a range of organizations in the Middle East including companies in the aviation, energy, government, investment, and education sectors."
-permalink: /greenbug
+permalink: /greenbug/
 country: "Iran"
 risk_level: "High"
 sector_focus: ["Education", "Energy", "Investment", "Aerospace", "Government, Administration"]

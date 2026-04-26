@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT40"
 aliases: ["APT40", "BRONZE MOHAWK", "Gadolinium", "Gingham Typhoon", "Kryptonite Panda", "Leviathan", "MUDCARP", "TEMP.Jumper", "TEMP.Periscope", "GADOLINIUM", "KRYPTONITE PANDA", "G0065", "ATK29", "TA423", "Red Ladon", "ITG09", "ISLANDDREAMS"]
 description: "Leviathan is a Chinese state-sponsored cyber espionage group that has been attributed to the Ministry of State Security's (MSS) Hainan State Security Department and an affiliated front company.(Citatio"
-permalink: /apt40
+permalink: /apt40/
 country: "China"
 first_seen: "2013"
 last_activity: "2024"

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Earth Yako"
 aliases: ["Operation RestyLink", "Enelink", "Earth Yako"]
 description: "Earth Yako is a threat actor that has been actively targeting researchers in academic organizations and think tanks in Japan. They use spearphishing emails with malicious attachments to gain initial ac"
-permalink: /earth-yako
+permalink: /earth-yako/
 ---
 
 ## Introduction

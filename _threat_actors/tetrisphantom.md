@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TetrisPhantom"
 aliases: ["TetrisPhantom"]
 description: "TetrisPhantom relies on compromising of certain type of secure USB drives that provide hardware encryption and is commonly used by government organizations. While investigating this threat, experts ide"
-permalink: /tetrisphantom
+permalink: /tetrisphantom/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Earth Lamia"
 aliases: ["UNC5454", "Earth Lamia"]
 description: "Earth Lamia is a China-nexus APT that targets organizations across multiple sectors, including finance, logistics, and government, primarily in Latin America, the Middle East, and Southeast Asia. The a"
-permalink: /earth-lamia
+permalink: /earth-lamia/
 country: "China"
 ---
 

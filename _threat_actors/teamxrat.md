@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TeamXRat"
 aliases: ["CorporacaoXRat", "CorporationXRat", "TeamXRat"]
 description: ""
-permalink: /teamxrat
+permalink: /teamxrat/
 ---
 
 ## Introduction

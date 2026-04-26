@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Guacamaya"
 aliases: ["Guacamaya"]
 description: "Guacamaya has conducted multiple hack and leak campaigns against military and police agencies and mining companies across Latin America, which they believe have played a role in the region’s environmen"
-permalink: /guacamaya
+permalink: /guacamaya/
 ---
 
 ## Introduction

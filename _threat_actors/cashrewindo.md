@@ -3,7 +3,7 @@ layout: threat_actor
 title: "CashRewindo"
 aliases: ["CashRewindo"]
 description: "CashRewindo is a sophisticated threat actor leveraging aged domains in global malvertising campaigns to direct victims to investment scam sites. The group employs TTPs such as flipping between scam ads"
-permalink: /cashrewindo
+permalink: /cashrewindo/
 ---
 
 ## Introduction

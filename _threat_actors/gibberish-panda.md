@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GIBBERISH PANDA"
 aliases: ["GIBBERISH PANDA"]
 description: ""
-permalink: /gibberish-panda
+permalink: /gibberish-panda/
 country: "China"
 risk_level: "High"
 ---

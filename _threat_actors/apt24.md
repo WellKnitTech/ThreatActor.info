@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT24"
 aliases: ["PITTY PANDA", "G0011", "Temp.Pittytiger", "APT24"]
 description: "The Pitty Tiger group has been active since at least 2011. They have been seen using HeartBleed vulnerability in order to directly get valid credentials"
-permalink: /apt24
+permalink: /apt24/
 country: "China"
 risk_level: "High"
 ---

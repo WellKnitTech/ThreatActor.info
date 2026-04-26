@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Zarya"
 aliases: ["UAC-0109", "Zarya"]
 description: "Zarya is a pro-Russian hacktivist group that emerged in March 2022. Initially operating as a special forces unit under the command of Killnet, Zarya has since become an independent entity. The group is"
-permalink: /zarya
+permalink: /zarya/
 country: "Russia"
 ---
 

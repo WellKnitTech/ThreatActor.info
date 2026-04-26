@@ -3,7 +3,7 @@ layout: threat_actor
 title: "YoroTrooper"
 aliases: ["Salted Earth", "Sturgeon Fisher", "ShadowSilk", "Silent Lynx", "Cavalry Werewolf", "SturgeonPhisher", "Comrade Saiga", "YoroTrooper"]
 description: "YoroTrooper’s main targets are government or energy organizations in Azerbaijan, Tajikistan, Kyrgyzstan and other Commonwealth of Independent States, based on Cisco Talos analysis. YoroTrooper was also"
-permalink: /yorotrooper
+permalink: /yorotrooper/
 ---
 
 ## Introduction

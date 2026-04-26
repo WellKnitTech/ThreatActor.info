@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT14"
 aliases: ["ANCHOR PANDA", "QAZTeam", "ALUMINUM", "APT14"]
 description: "PLA Navy Anchor Panda is an adversary that CrowdStrike has tracked extensively over the last year targeting both civilian and military maritime operations in the green/brown water regions primarily in "
-permalink: /apt14
+permalink: /apt14/
 country: "China"
 risk_level: "High"
 sector_focus: ["Other", "Aerospace", "Defense", "Intelligence", "Maritime", "Military", "Space", "Government"]

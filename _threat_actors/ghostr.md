@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GhostR"
 aliases: ["GhostR"]
 description: "Ghostr is a financially motivated threat actor known for stealing a confidential database containing 5.3 million records from the World-Check and leaking about 186GB of data from a stock trading platfo"
-permalink: /ghostr
+permalink: /ghostr/
 ---
 
 ## Introduction

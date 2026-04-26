@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Lilac Typhoon"
 aliases: ["DEV-0234", "Lilac Typhoon"]
 description: "Lilac Typhoon is a threat actor attributed to China. They have been identified as exploiting the Atlassian Confluence RCE vulnerability CVE-2022-26134, which allows for remote code execution. This vuln"
-permalink: /lilac-typhoon
+permalink: /lilac-typhoon/
 country: "China"
 ---
 

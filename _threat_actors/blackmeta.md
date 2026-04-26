@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Blackmeta"
 aliases: ["SN Blackmeta", "Blackmeta"]
 description: "BLACKMETA is a pro-Palestinian hacktivist group that has claimed responsibility for a series of DDoS attacks and data breaches targeting organizations perceived as supportive of Israel, including the I"
-permalink: /blackmeta
+permalink: /blackmeta/
 ---
 
 ## Introduction

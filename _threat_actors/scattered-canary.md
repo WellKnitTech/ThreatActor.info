@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Scattered Canary"
 aliases: ["Scattered Canary"]
 description: "When the first member of Scattered Canary, who, for the purposes of this report, we call Alpha, began his operations, he was a lone wolf—working mostly Craigslist scams as he learned the tricks of the "
-permalink: /scattered-canary
+permalink: /scattered-canary/
 country: "Nigeria"
 ---
 

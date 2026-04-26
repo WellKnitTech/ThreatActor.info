@@ -3,7 +3,7 @@ layout: threat_actor
 title: "OilRig"
 aliases: ["Twisted Kitten", "Cobalt Gypsy", "Crambus", "Helix Kitten", "APT 34", "APT34", "IRN2", "ATK40", "G0049", "Evasive Serpens", "Hazel Sandstorm", "EUROPIUM", "TA452", "Earth Simnavaz", "OilRig"]
 description: "OilRig is an Iranian threat group operating primarily in the Middle East by targeting organizations in this region that are in a variety of different industries; however, this group has occasionally ta"
-permalink: /oilrig
+permalink: /oilrig/
 country: "Iran"
 risk_level: "High"
 sector_focus: ["Chemical", "Energy", "Engineering", "Finance", "Government, Administration", "Telecoms", "Other", "Government", "Private sector", "Civil society"]

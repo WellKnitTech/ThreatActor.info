@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Medusa"
 aliases: ["Medusa Ransomware"]
 description: "Medusa is a long-time presence in the ransomware scene that stepped up its activities in late 2024, pushing past its previous limits."
-permalink: /medusa
+permalink: /medusa/
 country: "Unknown"
 first_seen: "2021"
 last_activity: "2025"

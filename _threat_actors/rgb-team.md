@@ -3,7 +3,7 @@ layout: threat_actor
 title: "RGB-TEAM"
 aliases: ["RGB-TEAM"]
 description: "RGB-TEAM is a previously unknown Russian-speaking threat actor. They describe themselves as “a community of anonymous hacktivists fighting for freedom.” The group stated that it doesn’t have enemies in"
-permalink: /rgb-team
+permalink: /rgb-team/
 ---
 
 ## Introduction

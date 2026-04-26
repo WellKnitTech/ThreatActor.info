@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Keksec"
 aliases: ["Keksec"]
 description: "The threat group behind EnemyBot, Keksec, is well-resourced and has the ability to update and add new capabilities to its arsenal of malware on a daily basis (see below for more detail on Keksec)"
-permalink: /keksec
+permalink: /keksec/
 ---
 
 ## Introduction

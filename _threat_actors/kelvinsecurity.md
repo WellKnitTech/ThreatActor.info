@@ -3,7 +3,7 @@ layout: threat_actor
 title: "KelvinSecurity"
 aliases: ["KelvinSecurity"]
 description: "KelvinSecurity is a hacker group that has been active since at least 2015. They are known for their hacktivist and black hat activities, targeting public and private organizations globally. The group s"
-permalink: /kelvinsecurity
+permalink: /kelvinsecurity/
 country: "Spain"
 ---
 

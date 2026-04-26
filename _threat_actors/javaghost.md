@@ -3,7 +3,7 @@ layout: threat_actor
 title: "JavaGhost"
 aliases: ["JavaGhost"]
 description: "JavaGhost is a threat actor group that has targeted cloud environments, particularly AWS, for phishing campaigns without engaging in data theft for extortion. They exploit overly permissive IAM permiss"
-permalink: /javaghost
+permalink: /javaghost/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Roaming Tiger"
 aliases: ["BRONZE WOODLAND", "Rotten Tomato", "Roaming Tiger"]
 description: ""
-permalink: /roaming-tiger
+permalink: /roaming-tiger/
 ---
 
 ## Introduction

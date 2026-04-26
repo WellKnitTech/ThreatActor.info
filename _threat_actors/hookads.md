@@ -3,7 +3,7 @@ layout: threat_actor
 title: "HookAds"
 aliases: ["HookAds"]
 description: "HookAds is a malvertising campaign that purchases cheap ad space on low quality ad networks commonly used by adult web sites, online games, or blackhat seo sites. These ads will include JavaScript that"
-permalink: /hookads
+permalink: /hookads/
 ---
 
 ## Introduction

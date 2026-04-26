@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Cutting Kitten"
 aliases: ["ITsecTeam", "Cutting Kitten"]
 description: "One of the threat actors responsible for the denial of service attacks against U.S in 2012–2013. Three individuals associated with the group—believed to be have been working on behalf of Iran’s Islamic"
-permalink: /cutting-kitten
+permalink: /cutting-kitten/
 country: "Iran"
 risk_level: "High"
 ---

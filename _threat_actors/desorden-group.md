@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Desorden Group"
 aliases: ["Desorden Group"]
 description: "Desorden (Disorder in Spanish, previously known as ChaosCC), is a financially motivated hacker group. The group first emerged under the new name Desorden in September 2021, on Raidforums. Today the gro"
-permalink: /desorden-group
+permalink: /desorden-group/
 ---
 
 ## Introduction

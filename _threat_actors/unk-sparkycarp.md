@@ -3,7 +3,7 @@ layout: threat_actor
 title: "UNK_SparkyCarp"
 aliases: ["UNK_SparkyCarp"]
 description: "Between March and June 2025, Proofpoint identified multiple China-aligned threat actors specifically targeting Taiwanese organizations within the semiconductor industry. This included a China-aligned t"
-permalink: /unk-sparkycarp
+permalink: /unk-sparkycarp/
 ---
 
 ## Introduction

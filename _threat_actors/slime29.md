@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SLIME29"
 aliases: ["SLIME29"]
 description: ""
-permalink: /slime29
+permalink: /slime29/
 country: "China"
 risk_level: "Critical"
 sector_focus: ["Private Sector"]

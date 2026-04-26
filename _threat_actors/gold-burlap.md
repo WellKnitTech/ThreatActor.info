@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GOLD BURLAP"
 aliases: ["CYBORG SPIDER", "GOLD BURLAP"]
 description: "GOLD BURLAP is a group of financially motivated criminals responsible for the development of the Pysa ransomware, also referred to as Mespinoza. Pysa is a cross-platform ransomware with known versions "
-permalink: /gold-burlap
+permalink: /gold-burlap/
 sector_focus: ["Healthcare"]
 ---
 

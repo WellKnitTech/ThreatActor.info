@@ -3,7 +3,7 @@ layout: threat_actor
 title: "DefrayX"
 aliases: ["Hive0091", "DefrayX"]
 description: "DefrayX is a threat actor group known for their RansomExx ransomware operations. They primarily target Linux operating systems, but also release versions for Windows. The group has been active since 20"
-permalink: /defrayx
+permalink: /defrayx/
 ---
 
 ## Introduction

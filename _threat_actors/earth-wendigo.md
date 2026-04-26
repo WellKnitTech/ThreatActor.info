@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Earth Wendigo"
 aliases: ["Earth Wendigo"]
 description: "Earth Wendigo is a threat actor from China that has been targeting several organizations — including government organizations, research institutions, and universities in Taiwan — since May 2019, aiming"
-permalink: /earth-wendigo
+permalink: /earth-wendigo/
 country: "China"
 sector_focus: ["Government", "Education"]
 ---

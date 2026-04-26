@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GOLD REBELLION"
 aliases: ["WANDERING SPIDER", "White Dev 115", "Dark Scorpius", "GOLD REBELLION"]
 description: "GOLD REBELLION is a financially motivated cybercriminal threat group that operates the Black Basta name-and-shame ransomware. The group posted its first victim to its leak site in April 2022 and has co"
-permalink: /gold-rebellion
+permalink: /gold-rebellion/
 ---
 
 ## Introduction

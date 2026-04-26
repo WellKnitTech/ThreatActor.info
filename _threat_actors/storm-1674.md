@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Storm-1674"
 aliases: ["Storm-1674"]
 description: "Storm-1674 is an access broker known for using tools based on the publicly available TeamsPhisher tool to distribute DarkGate malware. Storm-1674 campaigns have typically relied on phishing lures sent "
-permalink: /storm-1674
+permalink: /storm-1674/
 ---
 
 ## Introduction

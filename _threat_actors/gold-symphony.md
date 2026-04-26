@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GOLD SYMPHONY"
 aliases: ["GOLD SYMPHONY"]
 description: "GOLD SYMPHONY is a financially motivated cybercrime group, likely based in Russia, that is responsible for the development and sale on underground forums of the Buer Loader malware. First discovered ar"
-permalink: /gold-symphony
+permalink: /gold-symphony/
 ---
 
 ## Introduction

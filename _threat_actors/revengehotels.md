@@ -3,7 +3,7 @@ layout: threat_actor
 title: "RevengeHotels"
 aliases: ["RevengeHotels"]
 description: "RevengeHotels is a targeted cybercrime campaign that has been active since 2015, primarily targeting hotels, hostels, and tourism companies. The threat actor uses remote access Trojan malware to infilt"
-permalink: /revengehotels
+permalink: /revengehotels/
 ---
 
 ## Introduction

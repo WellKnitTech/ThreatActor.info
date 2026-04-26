@@ -3,7 +3,7 @@ layout: threat_actor
 title: "LabHost"
 aliases: ["LabHost"]
 description: "LabHost is a threat actor group targeting Canadian Banks with Phishing-as-a-Service attacks. They have been observed using tools like LabRat and LabSend for real-time campaign management and SMS lures."
-permalink: /labhost
+permalink: /labhost/
 ---
 
 ## Introduction

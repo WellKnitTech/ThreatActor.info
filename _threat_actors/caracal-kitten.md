@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Caracal Kitten"
 aliases: ["APT-Q-58", "Caracal Kitten"]
 description: "Caracal Kitten is an APT group that has been targeting activists associated with the Kurdistan Democratic Party. They employ a mobile remote access Trojan to gain unauthorized access to victims' device"
-permalink: /caracal-kitten
+permalink: /caracal-kitten/
 ---
 
 ## Introduction

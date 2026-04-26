@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT2"
 aliases: ["PLA Unit 61486", "PUTTER PANDA", "MSUpdater", "4HCrew", "SULPHUR", "SearchFire", "TG-6952", "G0024", "APT2"]
 description: "Putter Panda were the subject of an extensive report by CrowdStrike, which stated: 'The CrowdStrike Intelligence team has been tracking this particular unit since2012, under the codename PUTTER PANDA, "
-permalink: /apt2
+permalink: /apt2/
 country: "China"
 risk_level: "High"
 sector_focus: ["Private sector", "Government"]

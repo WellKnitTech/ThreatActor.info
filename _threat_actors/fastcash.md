@@ -3,7 +3,7 @@ layout: threat_actor
 title: "FASTCash"
 aliases: ["FASTCash"]
 description: "Treasury has identified a sophisticated cyber-enabled ATM cash out campaign we are calling FASTCash. FASTCash has been active since late 2016 targeting banks in Africa and Asia to remotely compromise p"
-permalink: /fastcash
+permalink: /fastcash/
 ---
 
 ## Introduction

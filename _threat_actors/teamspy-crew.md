@@ -3,7 +3,7 @@ layout: threat_actor
 title: "TeamSpy Crew"
 aliases: ["TeamSpy", "Team Bear", "Anger Bear", "IRON LYRIC", "TeamSpy Crew"]
 description: "Researchers have uncovered a long-term cyber-espionage campaign that used a combination of legitimate software packages and commodity malware tools to target a variety of heavy industry, government int"
-permalink: /teamspy-crew
+permalink: /teamspy-crew/
 country: "Russia"
 risk_level: "High"
 sector_focus: ["Activists", "Intelligence", "Government, Administration", "Government", "Private sector"]

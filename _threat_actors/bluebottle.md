@@ -3,7 +3,7 @@ layout: threat_actor
 title: "BlueBottle"
 aliases: ["BlueBottle"]
 description: "Bluebottle, a cyber-crime group that specializes in targeted attacks against the financial sector, is continuing to mount attacks on banks in Francophone countries. The group makes extensive use of liv"
-permalink: /bluebottle
+permalink: /bluebottle/
 ---
 
 ## Introduction

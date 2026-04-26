@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Bearlyfy"
 aliases: ["Labubu", "Bearlyfy"]
 description: "Bearlyfy has been attributed to over 70 cyber attacks targeting Russian companies since its emergence in January 2025, employing a custom Windows ransomware strain known as GenieLocker. The group opera"
-permalink: /bearlyfy
+permalink: /bearlyfy/
 country: "Ukraine"
 ---
 

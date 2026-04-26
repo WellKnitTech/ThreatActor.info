@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Charming Kitten"
 aliases: ["Newscaster", "Parastoo", "iKittens", "Group 83", "NewsBeef", "G0058", "CharmingCypress", "Mint Sandstorm", "Charming Kitten"]
 description: "Charming Kitten (aka Parastoo, aka Newscaster) is an group with a suspected nexus to Iran that targets organizations involved in government, defense technology, military, and diplomacy sectors."
-permalink: /charming-kitten
+permalink: /charming-kitten/
 country: "Iran"
 risk_level: "High"
 sector_focus: ["Defense", "Diplomacy", "Military", "Technology", "Government, Administration", "Government"]

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Cosmic Lynx"
 aliases: ["Cosmic Lynx"]
 description: "Cosmic Lynx is a Russia-based BEC cybercriminal organization that has significantly impacted the email threat landscape with sophisticated, high-dollar phishing attacks."
-permalink: /cosmic-lynx
+permalink: /cosmic-lynx/
 ---
 
 ## Introduction

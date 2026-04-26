@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Nexus Zeta"
 aliases: ["Nexus Zeta"]
 description: "Nexus Zeta is no stranger when it comes to implementing SOAP related exploits. The threat actor has already been observed in implementing two other known SOAP related exploits, CVE-2014–8361 and CVE-20"
-permalink: /nexus-zeta
+permalink: /nexus-zeta/
 ---
 
 ## Introduction

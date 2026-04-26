@@ -3,7 +3,7 @@ layout: threat_actor
 title: "DOPPEL SPIDER"
 aliases: ["GOLD HERON", "DOPPEL SPIDER"]
 description: "In June 2019, CrowdStrike Intelligence observed a source code fork of BitPaymer and began tracking the new ransomware strain as DoppelPaymer. Further technical analysis revealed an increasing divergenc"
-permalink: /doppel-spider
+permalink: /doppel-spider/
 ---
 
 ## Introduction

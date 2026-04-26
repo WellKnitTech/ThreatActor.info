@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT4"
 aliases: ["PLA Navy", "MAVERICK PANDA", "BRONZE EDISON", "SODIUM", "Salmon Typhoon", "APT4"]
 description: ""
-permalink: /apt4
+permalink: /apt4/
 country: "China"
 risk_level: "High"
 sector_focus: ["Private sector", "Military"]

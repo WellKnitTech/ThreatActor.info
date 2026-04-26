@@ -3,7 +3,7 @@ layout: threat_actor
 title: "SAMBASPIDER"
 aliases: ["SAMBASPIDER"]
 description: "SAMBASPIDER is a threat actor associated to the Mispadu malware. On July 24, USDoD allegedly scraped and leaked a 100,000-line Indicator of Compromise list from CrowdStrike, revealing detailed threat i"
-permalink: /sambaspider
+permalink: /sambaspider/
 ---
 
 ## Introduction

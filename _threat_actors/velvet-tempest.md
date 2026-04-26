@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Velvet Tempest"
 aliases: ["DEV-0504", "Velvet Tempest"]
 description: "Velvet Tempest is a threat actor associated with the BlackCat ransomware group. They have been observed deploying multiple ransomware payloads, including BlackCat, and have targeted various industries "
-permalink: /velvet-tempest
+permalink: /velvet-tempest/
 ---
 
 ## Introduction

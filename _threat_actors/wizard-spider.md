@@ -3,7 +3,7 @@ layout: threat_actor
 title: "WIZARD SPIDER"
 aliases: ["TEMP.MixMaster", "GOLD BLACKBURN", "FIN12", "Periwinkle Tempest", "DEV-0193", "Storm-0193", "Trickbot LLC", "UNC2053", "Pistachio Tempest", "DEV-0237", "Storm-0230", "WIZARD SPIDER"]
 description: "Wizard Spider is reportedly associated with Grim Spider and Lunar Spider. The WIZARD SPIDER threat group is the Russia-based operator of the TrickBot banking malware. This group represents a growing cr"
-permalink: /wizard-spider
+permalink: /wizard-spider/
 country: "Russia"
 sector_focus: ["Defense", "Financial", "Government", "Healthcare", "Telecommunications"]
 ---

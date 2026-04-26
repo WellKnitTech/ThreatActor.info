@@ -3,7 +3,7 @@ layout: threat_actor
 title: "AtlasCross"
 aliases: ["AtlasCross"]
 description: "NSFOCUS Security Labs recently discovered a new attack process based on phishing documents in their daily threat-hunting operations. Delving deeper into this finding through extensive research, they co"
-permalink: /atlascross
+permalink: /atlascross/
 ---
 
 ## Introduction

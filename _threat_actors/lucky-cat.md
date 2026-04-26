@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Lucky Cat"
 aliases: ["TA413", "White Dev 9", "Lucky Cat"]
 description: "A series of attacks, targeting both Indian military research and south Asian shipping organizations, demonstrate the minimum level of effort required to successfully compromise a target and steal sensi"
-permalink: /lucky-cat
+permalink: /lucky-cat/
 ---
 
 ## Introduction

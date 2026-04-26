@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT20"
 aliases: ["VIOLIN PANDA", "TH3Bug", "Crawling Taurus", "APT20"]
 description: "We’ve uncovered some new data and likely attribution regarding a series of APT watering hole attacks this past summer. Watering hole attacks are an increasingly popular component of APT campaigns, as m"
-permalink: /apt20
+permalink: /apt20/
 country: "China"
 risk_level: "High"
 ---

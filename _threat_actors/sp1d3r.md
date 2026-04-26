@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Sp1d3r"
 aliases: ["Sp1d3r"]
 description: "Sp1d3r, a threat actor, has been involved in multiple data breaches targeting companies like Truist Bank, Cylance, and Advance Auto Parts. They have stolen and attempted to sell sensitive information, "
-permalink: /sp1d3r
+permalink: /sp1d3r/
 ---
 
 ## Introduction

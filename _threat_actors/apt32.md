@@ -3,7 +3,7 @@ layout: threat_actor
 title: "APT32"
 aliases: ["APT-C-00", "APT32", "BISMUTH", "Canvas Cyclone", "OceanLotus", "SeaLotus", "OceanLotus Group", "Ocean Lotus", "Cobalt Kitty", "Sea Lotus", "APT-32", "APT 32", "Ocean Buffalo", "POND LOACH", "TIN WOODLAWN", "ATK17", "G0050"]
 description: "APT32 is a suspected Vietnam-based threat group that has been active since at least 2014. The group has targeted multiple private sector industries as well as foreign governments, dissidents, and journ"
-permalink: /apt32
+permalink: /apt32/
 country: "Vietnam"
 first_seen: "2012"
 last_activity: "2024"

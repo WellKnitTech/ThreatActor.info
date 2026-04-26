@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Opal Sleet"
 aliases: ["OSMIUM", "Konni", "Vedalia", "Opal Sleet"]
 description: "Konni is a threat actor associated with APT37, a North Korean cyber crime group. They have been active since 2012 and are known for their cyber-espionage activities. Konni has targeted various sectors,"
-permalink: /opal-sleet
+permalink: /opal-sleet/
 country: "North Korea"
 ---
 

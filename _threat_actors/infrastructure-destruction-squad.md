@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Infrastructure Destruction Squad"
 aliases: ["Dark Engine", "Infrastructure Destruction Squad"]
 description: "Dark Engine has emerged as a significant threat actor targeting industrial control systems and SCADA systems in sectors such as metallurgy and food processing. The group has conducted multiple ICS-targ"
-permalink: /infrastructure-destruction-squad
+permalink: /infrastructure-destruction-squad/
 country: "Russia"
 ---
 

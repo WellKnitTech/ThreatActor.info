@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Snake Wine"
 aliases: ["Snake Wine"]
 description: "While investigating some of the smaller name servers that APT28/Sofacy routinely use to host their infrastructure, Cylance discovered another prolonged campaign that appeared to exclusively target Japa"
-permalink: /snake-wine
+permalink: /snake-wine/
 ---
 
 ## Introduction

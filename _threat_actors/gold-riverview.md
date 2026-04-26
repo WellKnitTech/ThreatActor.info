@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GOLD RIVERVIEW"
 aliases: ["GOLD RIVERVIEW"]
 description: "GOLD RIVERVIEW was a financially motivated cybercriminal group that facilitated the distribution of malware- and scam-laden spam email on behalf of its customers. This threat group authored and sold th"
-permalink: /gold-riverview
+permalink: /gold-riverview/
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Carderbee"
 aliases: ["Carderbee"]
 description: "Symantec recently reported on activity attributed to a threat actor group dubbed Carderbee. In the campaign, the threat actors target entities in Hong Kong and other regions of Asia via a supply chain "
-permalink: /carderbee
+permalink: /carderbee/
 ---
 
 ## Introduction

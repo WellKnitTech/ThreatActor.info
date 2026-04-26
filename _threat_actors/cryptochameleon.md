@@ -3,7 +3,7 @@ layout: threat_actor
 title: "CryptoChameleon"
 aliases: ["UNC5356", "CryptoChameleon"]
 description: "CryptoChameleon is a cybercriminal group known for targeting cryptocurrency exchanges and users to steal digital assets, employing tactics such as VIP spear phishing, SIM swapping, and email hacks. The"
-permalink: /cryptochameleon
+permalink: /cryptochameleon/
 ---
 
 ## Introduction

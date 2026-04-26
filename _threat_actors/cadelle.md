@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Cadelle"
 aliases: ["Cadelle"]
 description: "Symantec telemetry identified Cadelle and Chafer activity dating from as far back as July 2014, however, it’s likely that activity began well before this date. Command-and-control (C&C) registrant info"
-permalink: /cadelle
+permalink: /cadelle/
 country: "Iran"
 risk_level: "High"
 ---

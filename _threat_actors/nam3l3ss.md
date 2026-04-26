@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Nam3L3ss"
 aliases: ["Nam3L3ss"]
 description: "Nam3L3ss is a threat actor who has leaked data from 25 companies, including over 2.8 million lines of Amazon employee data, which was confirmed to be stolen from a third-party service provider. The act"
-permalink: /nam3l3ss
+permalink: /nam3l3ss/
 ---
 
 ## Introduction

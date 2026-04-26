@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Pickaxe"
 aliases: ["Prying Libra", "Pickaxe"]
 description: "Prying Libra, also known as Pickaxe, is a threat actor active since at least August 2017, and continues to remain active to this day. The adversary's goal is to install and maintain a popular cryptocur"
-permalink: /pickaxe
+permalink: /pickaxe/
 ---
 
 ## Introduction

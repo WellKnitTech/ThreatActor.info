@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Water Curupira"
 aliases: ["Water Curupira"]
 description: "With its emergence in 2022, Water Curupira has established itself as a persistent threat actor targeting organizations primarily in South America and Europe. Their modus operandi involves a combination"
-permalink: /water-curupira
+permalink: /water-curupira/
 ---
 
 ## Introduction

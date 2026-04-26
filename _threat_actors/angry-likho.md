@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Angry Likho"
 aliases: ["Sticky Werewolf", "Angry Likho"]
 description: "Angry Likho is an APT group that has been active since 2023, primarily targeting large organizations and government agencies in Russia and Belarus. Their attacks typically involve spear-phishing emails"
-permalink: /angry-likho
+permalink: /angry-likho/
 country: "Russia"
 ---
 

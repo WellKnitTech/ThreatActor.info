@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Water Barghest"
 aliases: ["Water Barghest"]
 description: "Water Barghest is a cybercriminal group that has compromised over 20,000 IoT devices by October 2024, monetizing them through a residential proxy marketplace. They automate the entire process from iden"
-permalink: /water-barghest
+permalink: /water-barghest/
 ---
 
 ## Introduction

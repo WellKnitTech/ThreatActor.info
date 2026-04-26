@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Boulder Bear"
 aliases: ["Boulder Bear"]
 description: "First observed activity in December 2013."
-permalink: /boulder-bear
+permalink: /boulder-bear/
 country: "Russia"
 risk_level: "High"
 ---

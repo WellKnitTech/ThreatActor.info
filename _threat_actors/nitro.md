@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Nitro"
 aliases: ["Covert Grove", "Nitro"]
 description: "These attackers were the subject of an extensive report by Symantec in 2011, which termed the attackers Nitro and stated: 'The goal of the attackers appears to be to collect intellectual property such "
-permalink: /nitro
+permalink: /nitro/
 country: "China"
 risk_level: "High"
 sector_focus: ["Chemical"]

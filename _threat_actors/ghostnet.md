@@ -3,7 +3,7 @@ layout: threat_actor
 title: "GhostNet"
 aliases: ["Snooping Dragon", "GhostNet"]
 description: "Cyber espionage is an issue whose time has come. In this second report from the Information Warfare Monitor, we lay out the findings of a 10-month investigation of alleged Chinese cyber spying against "
-permalink: /ghostnet
+permalink: /ghostnet/
 ---
 
 ## Introduction

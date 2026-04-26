@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Karakurt"
 aliases: ["Karakurt Lair", "Karakurt"]
 description: "Karakurt actors have employed a variety of tactics, techniques, and procedures (TTPs), creating significant challenges for defense and mitigation. Karakurt victims have not reported encryption of compr"
-permalink: /karakurt
+permalink: /karakurt/
 ---
 
 ## Introduction

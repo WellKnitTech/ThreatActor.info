@@ -3,7 +3,7 @@ layout: threat_actor
 title: "MalKamak"
 aliases: ["MalKamak"]
 description: "MalKamak is an Iranian threat actor that has been operating since at least 2018. They have been involved in highly targeted cyber espionage campaigns against global aerospace and telecommunications com"
-permalink: /malkamak
+permalink: /malkamak/
 country: "Iran"
 ---
 

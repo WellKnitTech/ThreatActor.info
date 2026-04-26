@@ -3,7 +3,7 @@ layout: threat_actor
 title: "CoughingDown"
 aliases: ["CoughingDown"]
 description: "CoughingDown is a threat group attributed to various cyber campaigns, including the deployment of the EAGERBEE backdoor, which utilizes service manipulation and privilege escalation techniques. The gro"
-permalink: /coughingdown
+permalink: /coughingdown/
 ---
 
 ## Introduction

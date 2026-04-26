@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Molatori"
 aliases: ["Molatori"]
 description: "Molatori is a threat actor group identified by Malwarebytes researchers, known for utilizing malicious ScreenConnect clients hosted on domains like atmolatori.icu and gomolatori.cyou. They employ phish"
-permalink: /molatori
+permalink: /molatori/
 ---
 
 ## Introduction

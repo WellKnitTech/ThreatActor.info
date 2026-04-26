@@ -3,7 +3,7 @@ layout: threat_actor
 title: "Inception Framework"
 aliases: ["Clean Ursa", "Cloud Atlas", "OXYGEN", "G0100", "ATK116", "Blue Odin", "Inception Framework"]
 description: "This threat actor uses spear-phishing techniques to target private-sector energy, defense, aerospace, research, and media organizations and embassies in Africa, Europe, and the Middle East, for the pur"
-permalink: /inception-framework
+permalink: /inception-framework/
 country: "Russia"
 risk_level: "High"
 sector_focus: ["Government", "Private sector"]
