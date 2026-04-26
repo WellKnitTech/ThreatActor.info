@@ -1408,6 +1408,10 @@
   - Tsar Team
   - UAC-0001
   - UAC-0028
+  - APT 28
+  - TsarTeam
+  - Group-4127
+  - Grey-Cloud
   description: "APT28 is a threat group that has been attributed to Russia's General Staff Main Intelligence Directorate (GRU) 85th Main Special Service Center (GTsSS) military unit 26165.(Citation: NSA/FBI Drovorub August 2020)(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021) This group has been active since at least 2004.(Citation: DOJ GRU Indictment Jul 2018)(Citation: Ars Technica GRU indictment Jul 2018)(Citation: Crowdstrike DNC June 2016)(Citation: FireEye APT28)(Citation: SecureWorks TG-4127)(Citation: FireEye APT28 January 2017)(Citation: GRIZZLY STEPPE JAR)(Citation: Sofacy DealersChoice)(Citation: Palo Alto Sofacy 06-2018)(Citation: Symantec APT28 Oct 2018)(Citation: ESET Zebrocy May 2019)\n\nAPT28 reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election.(Citation: Crowdstrike DNC June 2016) In 2018, the US indicted five GRU Unit 26165 officers associated with APT28 for cyber operations (including close-access operations) conducted between 2014 and 2018 against the World Anti-Doping Agency (WADA), the US Anti-Doping Agency, a US nuclear facility, the Organization for the Prohibition of Chemical Weapons (OPCW), the Spiez Swiss Chemicals Laboratory, and other organizations.(Citation: US District Court Indictment GRU Oct 2018) Some of these were conducted with the assistance of GRU Unit 74455, which is also referred to as Sandworm Team. "
   url: "/apt28"
   country: Russia
@@ -1418,6 +1422,8 @@
   - Government
   - Military
   - Media
+  - Government, Administration
+  - Security Service
   external_id: G0007
   external_url: https://attack.mitre.org/groups/G0007
   mitre_id: G0007
@@ -1428,6 +1434,67 @@
       source_retrieved_at: '2026-04-26T07:05:44Z'
       source_record_id: G0007
       source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    malpedia:
+      source_retrieved_at: '2026-04-26T22:14:32Z'
+      source_record_id: apt28
+      source_uuid: 5b4ee3ea-eee3-4c8e-8323-85ae32658754
+      source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
+      source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/apt28
+    aptnotes:
+      source_retrieved_at: '2026-04-26T22:14:32Z'
+      source_dataset_url: https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
+      source_repository: https://github.com/aptnotes/data
+      report_count: 26
+      earliest_report_year: '2014'
+      latest_report_year: '2023'
+      sources:
+      - Bitdefender
+      - CERT-UA
+      - Crowdstrike
+      - Dell Secureworks
+      - ESET
+      - FireEye
+      - IBM
+      - McAfee
+      - PWC
+      - Palo Alto
+      - Palo Alto Networks
+      - Secureworks
+      - Trend Micro
+      - root9b
+      - tr1adx
+      sample_titles:
+      - Tactical Intelligence Bulletin Sofacy Phishing
+      - Operation Pawn Storm Using Decoys To Evade Detection
+      - 'Apt28: A Window Into Russia''s Cyber Espionage Operations'
+      - 'Pawn Storm Update: Ios Espionage App Found'
+      - 'Operation Russiandoll: Adobe & Windows ZeroDay Exploits Likely leveraged By Russia''s APT28'
+      - Sofacy II_ Same Sofacy, Different Day
+      - 'APT28 Targets Financial Markets: Zero Day Hashes Released'
+      - 'A Look Into Fysbis: Sofacy''s Linux Backdoor'
+      - New Sofacy Attacks Against US Government Agency
+      - Threat Group-4127 Targets Hillary Clinton Presidential Campaign
+      sample_links:
+      - https://app.box.com/s/th78b3w9bhr1cpdtn9gmmm9v7j2vuq47
+      - https://app.box.com/s/t2flymgu0ct5s3z487oedaq8dycsge77
+      - https://app.box.com/s/2e7s0j3cuuswoplyvaqdz4kdudvvr7x7
+      - https://app.box.com/s/9b7dfetwel6ywbcfai2wa0ja20cym721
+      - https://app.box.com/s/oj4sr8vifeb03qe51newafin81tu8poy
+      - https://app.box.com/s/dm3fbeb7hl95ilno014ftskoc1vi7n1r
+      - https://app.box.com/s/g55oxdd3q63hyngbjm4fbipfct94wrye
+      - https://app.box.com/s/2x3mrik225skob8rxd50rp63wlq0fp6v
+      - https://app.box.com/s/49rs6u4cyq43khamdah90y9zyacjzmbr
+      - https://app.box.com/s/uy6iv3fj7akwzrj9zq1gv403b35twaoy
+      - https://app.box.com/s/jfku9mhjnf150uokw2owfxy0isj3pi28
+      - https://app.box.com/s/2y2p7im0bp3o5myvi5s9cxfchddn2zbd
+      - https://app.box.com/s/w1qrcz1z9bx2dwt4gegv0h940ex35hlt
+      - https://app.box.com/s/c7oz0zci5gxsbgnucxwah82bfdj0boe0
+      - https://app.box.com/s/lmaensc7vzdugsy1nsh4bwligl07q53b
+      - https://app.box.com/s/p4ywd9iqr5fr48nbz5o0nfwwgjkq5itk
+      - https://app.box.com/s/7u92nzu48zg6kq0pmtlh9pj8p6jmjmrt
+      - https://app.box.com/s/77t5ropot0e1yy0r1i5g8s9bsvvnq6t3
+      - https://app.box.com/s/8lj785rl608lsmf80bwvtuxb7b9mscxy
+      - https://app.box.com/s/py4k1124p7hqacfb6dlkghvsh5xte2zw
   targeted_victims:
   - Georgia
   - France
@@ -1458,6 +1525,48 @@
   malware:
   - name: CyberGate
   - name: Cyber Eye RAT
+  - name: X-Agent
+  - name: Komplex
+  - name: ArguePatch
+  - name: Cannon
+  - name: DriveOcean
+  - name: Unidentified 114 (APT28 InfoStealer)
+  - name: XP PrivEsc (CVE-2014-4076)
+  - name: X-Tunnel (.NET)
+  - name: Zebrocy (AutoIT)
+  - name: LoJax
+  - name: CredoMap
+  - name: Mocky LNK
+  - name: OCEANMAP
+  - name: SpyPress
+  - name: STEELHOOK
+  - name: MASEPIE
+  - name: LAMEHUG
+  - name: CaddyWiper
+  - name: Computrace
+  - name: Coreshell
+  - name: Downdelph
+  - name: FusionDrive
+  - name: GooseEgg
+  - name: Graphite
+  - name: Koadic
+  - name: OLDBAIT
+  - name: PocoDown
+  - name: Sedreco
+  - name: Seduploader
+  - name: Unidentified 078 (Zebrocy Nim Loader?)
+  - name: Zebrocy
+  - name: GONEPOSTAL
+  - name: BadPaw
+  - name: BEARDSHELL
+  - name: SLIMAGENT
+  - name: XTunnel
+  - name: Unidentified JS 007 (Zimbra Stealer)
+  - name: PixyNetLoader
+  source_name: Malpedia (Fraunhofer FKIE)
+  source_license: CC BY-NC-SA 3.0
+  source_license_url: https://malpedia.caad.fkie.fraunhofer.de/legal
+  source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/apt28
 - name: APT29
   aliases:
   - APT29
@@ -10990,6 +11099,10 @@
   - Static Kitten
   - TA450
   - TEMP.Zagros
+  - Cobalt Ulster
+  - SectorD02
+  - Muddy Water
+  - DarkBit
   description: 'MuddyWater is a cyber espionage group assessed to be a subordinate element within Iran''s Ministry of Intelligence and Security (MOIS).(Citation: CYBERCOM Iranian Intel Cyber January 2022) Since at least 2017, MuddyWater has targeted a range of government and private organizations across sectors, including telecommunications, local government, defense, and oil and natural gas organizations, in the Middle East, Asia, Africa, Europe, and North America.(Citation: Unit 42 MuddyWater Nov 2017)(Citation: Symantec MuddyWater Dec 2018)(Citation: ClearSky MuddyWater Nov 2018)(Citation: ClearSky MuddyWater June 2019)(Citation: Reaqta MuddyWater November 2017)(Citation: DHS CISA AA22-055A MuddyWater February 2022)(Citation: Talos MuddyWater Jan 2022)'
   url: "/apt0069"
   external_id: G0069
@@ -11003,6 +11116,59 @@
       source_retrieved_at: '2026-04-26T07:05:44Z'
       source_record_id: G0069
       source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    malpedia:
+      source_retrieved_at: '2026-04-26T22:14:32Z'
+      source_record_id: muddywater
+      source_uuid: a29af069-03c3-4534-b78b-7d1a77ea085b
+      source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
+      source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/muddywater
+    aptnotes:
+      source_retrieved_at: '2026-04-26T22:14:32Z'
+      source_dataset_url: https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
+      source_repository: https://github.com/aptnotes/data
+      report_count: 3
+      earliest_report_year: '2022'
+      latest_report_year: '2023'
+      sources:
+      - Symantec
+      - deepinstinct
+      - talosintelligence
+      sample_titles:
+      - Iranian linked conglomerate MuddyWater comprised of regionally focused subgroups
+      - MuddyWater eN-Able spear-phishing with new TTPs
+      - 'Seedworm: Iranian Hackers Target Telecoms Orgs in North and East Africa'
+      sample_links:
+      - https://app.box.com/s/r0nmwkejtgytsl6q6i60hrwxgbdbzetz
+      - https://app.box.com/s/gqeknolwao8lmfefd96uu2ilva5i67cs
+      - https://app.box.com/s/hn3cttmgg2ijnz0qr41iwh6kpgenapvr
+    apt_groups_operations:
+      source_retrieved_at: '2026-04-26T22:14:32Z'
+      source_dataset_url: https://apt.threattracking.com/
+      sheet_id: 1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU
+      tab_name: iran
+      matched_mitre_ids:
+      - G0069
+      source_links:
+      - https://researchcenter.paloaltonetworks.com/2017/11/unit42-muddying-the-water-targeted-attacks-in-the-middle-east/
+      - https://sec0wn.blogspot.co.il/2018/03/a-quick-dip-into-muddywaters-recent.html
+      - https://blog.trendmicro.com/trendlabs-security-intelligence/campaign-possibly-connected-muddywater-surfaces-middle-east-central-asia/
+      - https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html
+      - https://www.symantec.com/blogs/threat-intelligence/seedworm-espionage-group
+      - https://www.clearskysec.com/wp-content/uploads/2018/11/MuddyWater-Operations-in-Lebanon-and-Oman.pdf
+      - https://sec0wn.blogspot.com/2018/02/burping-on-muddywater.html
+      - https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report/
+      - https://threatrecon.nshc.net/2019/03/07/sectord02-powershell-backdoor-analysis/
+      - https://blog.talosintelligence.com/2019/05/recent-muddywater-associated-blackwater.html
+      - https://blog.trendmicro.com/trendlabs-security-intelligence/muddywater-resurfaces-uses-multi-stage-backdoor-powerstats-v3-and-new-post-exploitation-tools/
+      - https://documents.trendmicro.com/assets/white_papers/wp_new_muddywater_findings_uncovered.pdf
+      - https://www.clearskysec.com/wp-content/uploads/2019/06/Clearsky-Iranian-APT-group-%E2%80%98MuddyWater%E2%80%99-Adds-Exploits-to-Their-Arsenal.pdf
+      - https://securelist.com/muddywaters-arsenal/90659/
+      - https://www.prevailion.com/summer-mirage-2/
+      - https://www.secureworks.com/blog/business-as-usual-for-iranian-operations-despite-increased-tensions
+      - https://www.bleepingcomputer.com/news/security/microsoft-iranian-hackers-actively-exploiting-windows-zerologon-flaw/
+      - https://www.clearskysec.com/wp-content/uploads/2020/10/Operation-Quicksand.pdf
+      - https://www.telsy.com/operation-space-race-reaching-the-stars-through-professional-social-networks/
+      - https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/seedworm-apt-iran-middle-east
   risk_level: High
   sector_focus:
   - Government
@@ -11026,6 +11192,35 @@
   - name: POWERSOURCE
   - name: TINY
   - name: PowerRAT
+  - name: Mudwater
+  - name: PhonyC2
+  - name: PowGoop
+  - name: STARWHALE
+  - name: Unidentified VBS 004 (RAT)
+  - name: Covicli
+  - name: GRAMDOOR
+  - name: MuddyC2Go
+  - name: SHARPSTATS
+  - name: DCHSpy
+  - name: MoriAgent
+  - name: Tsundere
+  - name: PoweMuddy
+  - name: LaZagne
+  - name: Crackmapexec
+  - name: ScreenConnect
+  - name: Pudpoul
+  - name: Thanos Ransomware
+  - name: DarkBit
+  - name: MuddyRot
+  source_name: Malpedia (Fraunhofer FKIE)
+  source_license: CC BY-NC-SA 3.0
+  source_license_url: https://malpedia.caad.fkie.fraunhofer.de/legal
+  source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/muddywater
+  first_seen: '2022'
+  last_activity: '2023'
+  operations:
+  - BlackWater
+  - Operation Quicksand
 - name: MUMMY SPIDER
   aliases:
   - TA542
@@ -17779,6 +17974,9 @@
   - UAC-0144
   - UAC-0024
   - UAC-0003
+  - Turla Team
+  - Турла
+  - Turla Group
   description: 'Turla is a cyber espionage threat group that has been attributed to Russia''s Federal Security Service (FSB).  They have compromised victims in over 50 countries since at least 2004, spanning a range of industries including government, embassies, military, education, research and pharmaceutical companies. Turla is known for conducting watering hole and spearphishing campaigns, and leveraging in-house tools and malware, such as Uroburos.(Citation: Kaspersky Turla)(Citation: ESET Gazer Aug 2017)(Citation: CrowdStrike VENOMOUS BEAR)(Citation: ESET Turla Mosquito Jan 2018)(Citation: Joint Cybersecurity Advisory AA23-129A Snake Malware May 2023)'
   url: "/apt0010"
   external_id: G0010
@@ -17792,6 +17990,84 @@
       source_retrieved_at: '2026-04-26T05:24:31Z'
       source_record_id: G0010
       source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    malpedia:
+      source_retrieved_at: '2026-04-26T22:14:32Z'
+      source_record_id: turla
+      source_uuid: fa80877c-f509-4daf-8b62-20aba1635f68
+      source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
+      source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/turla
+    aptnotes:
+      source_retrieved_at: '2026-04-26T22:14:32Z'
+      source_dataset_url: https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
+      source_repository: https://github.com/aptnotes/data
+      report_count: 14
+      earliest_report_year: '2014'
+      latest_report_year: '2019'
+      sources:
+      - BAE Systems
+      - Bitdefender
+      - Bluecoat
+      - CIRCL
+      - ESET
+      - Gdata
+      - Kaspersky
+      - NCSC
+      - Reuters
+      - Symantec
+      sample_titles:
+      - Uroburos Highly Complex Espionage Software With Russian Roots
+      - Snake Campaign & Cyber Espionage Toolkit
+      - Suspected Russian Spyware Turla Targets Europe, United States
+      - 'Snake In The Grass: Python-based Malware Used For Targeted Attacks'
+      - Tr-25 Analysis - Turla / PNet / Snake/ Uroburos
+      - 'The Epic Turla Operation: Solving Some Of The Mysteries Of Snake/Uroboros'
+      - 'The Uroburos Case: New Sophisticated Rat Identified'
+      - The 'Penquin' Turla
+      - The Waterbug Attack Group
+      - Pacifier APT
+      sample_links:
+      - https://app.box.com/s/dokswmrkrxmipfmdpsvelnq18w4ypogw
+      - https://app.box.com/s/xmeq5ajvmzux1appt1qvd8wme7k13o63
+      - https://app.box.com/s/n9zt53c246ltmhhjkcfay9xq8mee09yo
+      - https://app.box.com/s/4n263mzodo4mb7jz1w3deidg9xuu2teh
+      - https://app.box.com/s/54kvbxp9nc0xtme1omd1xpxcckwm945g
+      - https://app.box.com/s/9rsegtgvnwe9n2lrk6ezxfv8mnpfhpk3
+      - https://app.box.com/s/sg4cyodukt7edmmba6bfikuiu1jgzv59
+      - https://app.box.com/s/5gfajyyz8firhnttdo72j0iz6uo4eo6q
+      - https://app.box.com/s/nrf432kfdk6kadkvbclgykekocn4pzzu
+      - https://app.box.com/s/xcu346jhiokohlj9300q6hif06swac57
+      - https://app.box.com/s/vmzqwqfrmtdjemtdaei60jqu5qrouwrt
+      - https://app.box.com/s/316mbg901wxjdarmtdlj6v4qv29a0ge8
+      - https://app.box.com/s/o72u9tsw4zifxmktac4oreizhlud67ga
+      - https://app.box.com/s/u5p5eae02amqr2n0zg7017cx43t1icwz
+    apt_groups_operations:
+      source_retrieved_at: '2026-04-26T22:14:32Z'
+      source_dataset_url: https://apt.threattracking.com/
+      sheet_id: 1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU
+      tab_name: russia
+      matched_mitre_ids:
+      - G0010
+      source_links:
+      - https://securelist.com/analysis/publications/65545/the-epic-turla-operation/
+      - https://securelist.com/blog/research/72081/satellite-turla-apt-command-and-control-in-the-sky/
+      - https://securelist.com/blog/research/67962/the-penquin-turla-2/
+      - https://www2.fireeye.com/rs/848-DID-242/images/rpt-witchcoven.pdf
+      - https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/waterbug-attack-group.pdf
+      - https://www.welivesecurity.com/2017/03/30/carbon-paper-peering-turlas-second-stage-backdoor/
+      - https://www.welivesecurity.com/2017/06/06/turlas-watering-hole-campaign-updated-firefox-extension-abusing-instagram/
+      - https://securelist.com/kopiluwak-a-new-javascript-payload-from-turla/77429/
+      - https://www.proofpoint.com/us/threat-insight/post/turla-apt-actor-refreshes-kopiluwak-javascript-backdoor-use-g20-themed-attack
+      - https://www.welivesecurity.com/2017/08/30/eset-research-cyberespionage-gazer/
+      - https://www.govcert.admin.ch/blog/22/technical-report-about-the-ruag-espionage-case
+      - http://www.sueddeutsche.de/digital/it-sicherheit-einbrechen-ausbreiten-abgreifen-1.3887843
+      - https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/
+      - https://www.ncsc.gov.uk/alerts/turla-group-malware
+      - https://motherboard.vice.com/en_us/article/vvk83b/moonlight-maze-turla-link
+      - https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07180251/Penquins_Moonlit_Maze_PDF_eng.pdf
+      - https://www.wired.com/2017/04/russian-hackers-used-backdoor-two-decades/
+      - https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-march-venomous-bear/
+      - https://www.symantec.com/blogs/threat-intelligence/waterbug-espionage-governments
+      - https://securelist.com/turla-renews-its-arsenal-with-topinambour/91687/
   risk_level: High
   sector_focus:
   - Government, Administration
@@ -17828,6 +18104,71 @@
   - name: Archelaus Beta
   - name: PowerRAT
   - name: CrossRat
+  - name: CyberAzov
+  - name: Unidentified ASP 001 (Webshell)
+  - name: Penquin Turla
+  - name: KopiLuwak
+  - name: MiniJS
+  - name: HTML5 Encoding
+  - name: Maintools.js
+  - name: Uroburos
+  - name: DeliveryCheck
+  - name: LunarMail
+  - name: NetFlash
+  - name: Neuron
+  - name: QUIETCANARY
+  - name: Pelmeni
+  - name: TwoDash
+  - name: TwoFace
+  - name: Agent.BTZ
+  - name: ApolloShadow
+  - name: Cobra Carbon System
+  - name: ComLook
+  - name: Crutch
+  - name: Gazer
+  - name: KSL0T
+  - name: LightNeuron
+  - name: MiniPocket
+  - name: Mosquito
+  - name: Nautilus
+  - name: NewPass
+  - name: Outlook Backdoor
+  - name: PowerShellRunner
+  - name: Satellite Turla
+  - name: Skipper
+  - name: TinyTurla
+  - name: TinyTurlaNG
+  - name: TurlaRPC
+  - name: Turla SilentMoon
+  - name: Wipbot
+  - name: Kazuar
+  - name: systeminfo
+  - name: net
+  - name: tasklist
+  - name: gpresult
+  - name: wce
+  - name: pwdump
+  - name: Turla
+  - name: Tavdig
+  - name: Agent.dne
+  - name: AdobeARM
+  - name: ATI-Agent
+  - name: MiniDionis
+  - name: WhiteBear
+  source_name: Malpedia (Fraunhofer FKIE)
+  source_license: CC BY-NC-SA 3.0
+  source_license_url: https://malpedia.caad.fkie.fraunhofer.de/legal
+  source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/turla
+  first_seen: '2014'
+  last_activity: '2019'
+  operations:
+  - Satellite Turla
+  - Epic Turla
+  - The 'Penquin' Turla
+  - Witchcoven
+  - RUAG hack
+  - Mosquito
+  - Moonlight Maze
 - name: TwoSail Junk
   aliases:
   - Operation Poisoned News

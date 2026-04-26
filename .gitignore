@@ -46,3 +46,14 @@ _site/
 data/cisa-kev/
 data/imports/
 data/misp-reference/
+!data/imports/
+data/imports/*
+!data/imports/malpedia/
+data/imports/malpedia/*
+!data/imports/malpedia/mapping_overrides.yml
+!data/imports/aptnotes/
+data/imports/aptnotes/*
+!data/imports/aptnotes/mapping_overrides.yml
+!data/imports/apt-groups-operations/
+data/imports/apt-groups-operations/*
+!data/imports/apt-groups-operations/mapping_overrides.yml
