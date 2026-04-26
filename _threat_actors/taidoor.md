@@ -1,0 +1,42 @@
+---
+layout: threat_actor
+title: "Taidoor"
+aliases: ["G0015", "Earth Aughisky", "Taidoor"]
+description: "The Taidoor attackers have been actively engaging in targeted attacks since at least March 4, 2009. Despite some exceptions, the Taidoor campaign often used Taiwanese IP addresses as C&C servers and em"
+permalink: /taidoor
+---
+
+## Introduction
+The Taidoor attackers have been actively engaging in targeted attacks since at least March 4, 2009. Despite some exceptions, the Taidoor campaign often used Taiwanese IP addresses as C&C servers and email addresses to send out socially engineered emails with malware as attachments. One of the primary targets of the Taidoor campaign appeared to be the Taiwanese government. The attackers spoofed Taiwanese government email addresses to send out socially engineered emails in the Chinese language that typically leveraged Taiwan-themed issues. The attackers actively sent out malicious documents and maintained several IP addresses for command and control.
+As part of their social engineering ploy, the Taidoor attackers attach a decoy document to their emails that, when opened, displays the contents of a legitimate document but executes a malicious payload in the background.
+We were only able to gather a limited amount of information regarding the Taidoor attackers’ activities after they have compromised a target. We did, however, find that the Taidoor malware allowed attackers to operate an interactive shell on compromised computers and to upload and download files. In order to determine the operational capabilities of the attackers behind the Taidoor campaign, we monitored a compromised honeypot. The attackers issued out some basic commands in an attempt to map out the extent of the network compromise but quickly realized that the honeypot was not an intended targeted and so promptly disabled the Taidoor malware running on it. This indicated that while Taidoor malware were more widely distributed compared with those tied to other targeted campaigns, the attackers could quickly assess their targets and distinguish these from inadvertently compromised computers and honeypots.
+
+## Activities and Tactics
+*Information pending cataloguing.*
+
+### Notable Campaigns
+*Information pending cataloguing.*
+
+### Tactics, Techniques, and Procedures (TTPs)
+*Information pending cataloguing.*
+
+## Notable Indicators of Compromise (IOCs)
+*This section is pending cataloguing. Check upstream sources for current IOCs.*
+
+### IP Addresses
+*Pending*
+
+### File Hashes
+*Pending*
+
+### Domains
+*Pending*
+
+## Malware and Tools
+*Information pending cataloguing.*
+
+## Attribution and Evidence
+*Information pending cataloguing.*
+
+## References
+*References pending cataloguing.*

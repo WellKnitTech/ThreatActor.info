@@ -57,6 +57,66 @@ Write a machine-readable review report:
 ruby scripts/import-ransomlook.rb plan --snapshot data/imports/ransomlook/2026-04-25 --report-json tmp/ransomlook-report.json
 ```
 
+## MISP Galaxy Importer
+
+`scripts/import-misp-galaxy.rb` imports threat actor data from the MISP Galaxy threat-actor cluster.
+
+Source: https://github.com/MISP/misp-galaxy (Apache 2.0 / CC0 licensed)
+
+### Commands
+
+Fetch a snapshot:
+
+```bash
+ruby scripts/import-misp-galaxy.rb fetch --output data/imports/misp-galaxy/2026-04-26
+```
+
+Preview changes:
+
+```bash
+ruby scripts/import-misp-galaxy.rb plan --snapshot data/imports/misp-galaxy/2026-04-26
+```
+
+Apply import:
+
+```bash
+ruby scripts/import-misp-galaxy.rb import --snapshot data/imports/misp-galaxy/2026-04-26
+```
+
+Limit to specific actors:
+
+```bash
+ruby scripts/import-misp-galaxy.rb plan --snapshot data/imports/misp-galaxy/2026-04-26 --actor APT1 --actor APT28
+```
+
+Only create new actors:
+
+```bash
+ruby scripts/import-misp-galaxy.rb import --snapshot data/imports/misp-galaxy/2026-04-26 --new-only
+```
+
+### Field mapping
+
+| MISP Galaxy Field | Our Schema Field | Notes |
+|-----------------|----------------|-------|
+| `value` | `name` | Primary actor name |
+| `meta.synonyms` | `aliases` | Combined with primary name |
+| `description` | `description` | Full description |
+| `meta.country` | `country` | ISO 3166-1 alpha-2 mapping |
+| `meta.cfr-suspected-state-sponsor` | `country` | Fallback when no country code |
+| `meta.targeted-sector` | `sector_focus` | Direct mapping |
+| `meta.cfr-target-category` | `sector_focus` | Combined with targeted-sector |
+| `meta.attribution-confidence` | `risk_level` | 50+ = High, 70+ = Critical |
+| `meta.refs` | `References` section | List of source URLs |
+| `uuid` | `provenance` | Source record ID |
+
+### Safe defaults
+
+- `--new-only` skips existing actors (recommended for initial imports)
+- Protected fields (name, aliases, description) are only updated with `--force`
+- Additive updates for existing actors (new aliases merged)
+- Page files are only created for new actors
+
 ## What the importer updates
 
 - Creates or updates actor metadata in `_data/threat_actors.yml`
@@ -67,39 +127,13 @@ It does not automatically import volatile IOCs, leak-site mirrors, or other fast
 
 ## Attribution
 
-RansomLook website content, API responses, and datasets are provided under CC BY 4.0.
+MISP Galaxy is dual-licensed under Apache 2.0 and CC0 1.0.
 
 The importer preserves and emits attribution using the pattern:
 
-`Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/`
+`Contains data derived from MISP Galaxy, used under Apache 2.0 / CC0. Source: https://github.com/MISP/misp-galaxy`
 
-Imported records can also preserve provenance fields such as:
-
-- `source_name`
-- `source_attribution`
-- `source_record_url`
-- `source_license`
-- `source_license_url`
-- `provenance.source_dataset_url`
-- `provenance.source_retrieved_at`
-- `provenance.source_record_id`
-- `provenance.source_transforms`
-
-## Safe defaults
-
-- Auto-create new pages only for high-confidence, non-excluded groups
-- Auto-update existing actors only for additive alias and `last_activity` changes
-- Skip or flag ambiguous matches for review
-- Preserve curated markdown body content when updating existing actors
-- Keep reviewed rename and alias exceptions in `data/imports/ransomlook/mapping_overrides.yml`
-
-## Future automation direction
-
-The importer is intentionally structured so it can evolve toward scheduled snapshot ingestion later.
-
-Recommended future path:
-
-1. Fetch RansomLook snapshots in CI or an external job.
-2. Open review PRs from machine-generated snapshot reports.
-3. Keep automatic writes limited to additive, high-confidence metadata.
-4. Continue treating the repo YAML and Markdown as the source of truth.
+Imported records preserve provenance fields such as:
+- `provenance.misp_galaxy.source_retrieved_at`
+- `provenance.misp_galaxy.source_record_id`
+- `provenance.misp_galaxy.source_dataset_url`

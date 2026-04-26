@@ -1,0 +1,42 @@
+---
+layout: threat_actor
+title: "AppMilad"
+aliases: ["AppMilad"]
+description: "AppMilad is an Iranian hacking group that has been identified as the source of a spyware campaign called RatMilad. This spyware is designed to silently infiltrate victims' devices and gather personal a"
+permalink: /appmilad
+country: "Iran"
+---
+
+## Introduction
+AppMilad is an Iranian hacking group that has been identified as the source of a spyware campaign called RatMilad. This spyware is designed to silently infiltrate victims' devices and gather personal and corporate information, including private communications and photos. The group has been distributing the spyware through fake apps and targeting primarily Middle Eastern enterprises.
+
+## Activities and Tactics
+**Country of Origin**: Iran
+
+### Notable Campaigns
+*Information pending cataloguing.*
+
+### Tactics, Techniques, and Procedures (TTPs)
+*Information pending cataloguing.*
+
+## Notable Indicators of Compromise (IOCs)
+*This section is pending cataloguing. Check upstream sources for current IOCs.*
+
+### IP Addresses
+*Pending*
+
+### File Hashes
+*Pending*
+
+### Domains
+*Pending*
+
+## Malware and Tools
+*Information pending cataloguing.*
+
+## Attribution and Evidence
+**Country of Origin**: Iran
+*Additional attribution information pending cataloguing.*
+
+## References
+*References pending cataloguing.*

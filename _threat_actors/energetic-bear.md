@@ -1,0 +1,46 @@
+---
+layout: threat_actor
+title: "ENERGETIC BEAR"
+aliases: ["BERSERK BEAR", "ALLANITE", "CASTLE", "DYMALLOY", "TG-4192", "Dragonfly", "Crouching Yeti", "Group 24", "Havex", "Koala Team", "IRON LIBERTY", "G0035", "ATK6", "ITG15", "BROMINE", "Blue Kraken", "Ghost Blizzard", "ENERGETIC BEAR"]
+description: "A Russian group that collects intelligence on the energy industry."
+permalink: /energetic-bear
+country: "Russia"
+risk_level: "Critical"
+sector_focus: ["Energy", "Private sector", "Government"]
+---
+
+## Introduction
+A Russian group that collects intelligence on the energy industry.
+
+## Activities and Tactics
+**Targeted Sectors**: Energy, Private sector, Government
+**Country of Origin**: Russia
+**Risk Level**: Critical
+
+### Notable Campaigns
+*Information pending cataloguing.*
+
+### Tactics, Techniques, and Procedures (TTPs)
+*Information pending cataloguing.*
+
+## Notable Indicators of Compromise (IOCs)
+*This section is pending cataloguing. Check upstream sources for current IOCs.*
+
+### IP Addresses
+*Pending*
+
+### File Hashes
+*Pending*
+
+### Domains
+*Pending*
+
+## Malware and Tools
+*Information pending cataloguing.*
+
+## Attribution and Evidence
+**Country of Origin**: Russia
+*Additional attribution information pending cataloguing.*
+
+## References
+*References pending cataloguing.*

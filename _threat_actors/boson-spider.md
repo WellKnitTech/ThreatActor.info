@@ -1,0 +1,40 @@
+---
+layout: threat_actor
+title: "BOSON SPIDER"
+aliases: ["BOSON SPIDER"]
+description: "BOSON SPIDER is a cyber criminal group, which was first identified in 2015, recently and inexplicably went dark in the spring of 2016, appears to be a tightly knit group operating out of Eastern Europe"
+permalink: /boson-spider
+---
+
+## Introduction
+BOSON SPIDER is a cyber criminal group, which was first identified in 2015, recently and inexplicably went dark in the spring of 2016, appears to be a tightly knit group operating out of Eastern Europe. They have used a variety of distribution mechanisms such as the infamous (and now defunct) angler exploit kit, and obfuscated JavaScript to reduce the detection by antivirus solutions.
+
+## Activities and Tactics
+*Information pending cataloguing.*
+
+### Notable Campaigns
+*Information pending cataloguing.*
+
+### Tactics, Techniques, and Procedures (TTPs)
+*Information pending cataloguing.*
+
+## Notable Indicators of Compromise (IOCs)
+*This section is pending cataloguing. Check upstream sources for current IOCs.*
+
+### IP Addresses
+*Pending*
+
+### File Hashes
+*Pending*
+
+### Domains
+*Pending*
+
+## Malware and Tools
+*Information pending cataloguing.*
+
+## Attribution and Evidence
+*Information pending cataloguing.*
+
+## References
+*References pending cataloguing.*
