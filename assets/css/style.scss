@@ -456,6 +456,36 @@ a:hover {
   padding: 0;
 }
 
+.ioc-block {
+  position: relative;
+}
+
+.ioc-copy-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  opacity: 0.7;
+}
+
+.ioc-copy-btn:hover {
+  background: var(--accent);
+  color: white;
+  opacity: 1;
+}
+
+.ioc-copy-btn.copied {
+  background: var(--risk-low);
+  color: white;
+}
+
 .ioc-block ul {
   margin: 0;
   padding-left: 1rem;

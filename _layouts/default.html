@@ -55,6 +55,50 @@
         toggleIcon.textContent = isLight ? '🌙' : '☀️';
       });
     })();
+    
+    // IOC Copy Functionality
+    (function() {
+      // Find all IOC blocks in the content
+      const iocBlocks = document.querySelectorAll('.ioc-block');
+      
+      iocBlocks.forEach(function(block) {
+        // Get the IOC value(s) from the block
+        const codeElement = block.querySelector('code');
+        const liElements = block.querySelectorAll('li');
+        
+        let iocValue = '';
+        if (codeElement) {
+          iocValue = codeElement.textContent.trim();
+        } else if (liElements.length > 0) {
+          iocValue = Array.from(liElements).map(li => li.textContent.trim()).join('\n');
+        }
+        
+        if (!iocValue) return;
+        
+        // Create copy button
+        const copyBtn = document.createElement('button');
+        copyBtn.className = 'ioc-copy-btn';
+        copyBtn.textContent = 'Copy';
+        copyBtn.title = 'Click to copy IOC';
+        
+        copyBtn.addEventListener('click', function(e) {
+          e.preventDefault();
+          navigator.clipboard.writeText(iocValue).then(function() {
+            copyBtn.textContent = 'Copied!';
+            copyBtn.classList.add('copied');
+            setTimeout(function() {
+              copyBtn.textContent = 'Copy';
+              copyBtn.classList.remove('copied');
+            }, 2000);
+          }).catch(function(err) {
+            console.error('Failed to copy:', err);
+            copyBtn.textContent = 'Error';
+          });
+        });
+        
+        block.appendChild(copyBtn);
+      });
+    })();
   </script>
 </body>
 </html>
