@@ -56,47 +56,66 @@
       });
     })();
     
-    // IOC Copy Functionality
+    // IOC Copy Functionality - Find IOC sections and add copy to individual items
     (function() {
-      // Find all IOC blocks in the content
-      const iocBlocks = document.querySelectorAll('.ioc-block');
+      // Find the IOC section by looking for its heading
+      const content = document.querySelector('.content');
+      if (!content) return;
       
-      iocBlocks.forEach(function(block) {
-        // Get the IOC value(s) from the block
-        const codeElement = block.querySelector('code');
-        const liElements = block.querySelectorAll('li');
-        
-        let iocValue = '';
-        if (codeElement) {
-          iocValue = codeElement.textContent.trim();
-        } else if (liElements.length > 0) {
-          iocValue = Array.from(liElements).map(li => li.textContent.trim()).join('\n');
+      // Look for all h3 and h4 headings in IOC sections
+      const headings = content.querySelectorAll('h3, h4');
+      let inIOCSection = false;
+      
+      headings.forEach(function(heading) {
+        const text = heading.textContent.toLowerCase();
+        if (text.includes('indicator') || text.includes('ioc')) {
+          inIOCSection = true;
+        } else if (text.includes('introduction') || text.includes('malware') || text.includes('campaign') || text.includes('attribution') || text.includes('reference')) {
+          inIOCSection = false;
         }
         
-        if (!iocValue) return;
-        
-        // Create copy button
-        const copyBtn = document.createElement('button');
-        copyBtn.className = 'ioc-copy-btn';
-        copyBtn.textContent = 'Copy';
-        copyBtn.title = 'Click to copy IOC';
-        
-        copyBtn.addEventListener('click', function(e) {
-          e.preventDefault();
-          navigator.clipboard.writeText(iocValue).then(function() {
-            copyBtn.textContent = 'Copied!';
-            copyBtn.classList.add('copied');
-            setTimeout(function() {
+        if (inIOCSection) {
+          // Find all list items after this heading until the next heading
+          let sibling = heading.nextElementSibling;
+          while (sibling && !['H3', 'H4'].includes(sibling.tagName)) {
+            // Handle list items
+            const lis = sibling.querySelectorAll ? sibling.querySelectorAll('li') : [];
+            lis.forEach(function(li, idx) {
+              const text = li.textContent.trim();
+              if (!text || !text.includes('`')) return;
+              
+              // Extract IOC value from backticks
+              const codeMatch = text.match(/`([^`]+)`/);
+              if (!codeMatch) return;
+              
+              const iocValue = codeMatch[1].replace('[.]', '.').replace('(dot)', '.');
+              
+              // Create copy button
+              const copyBtn = document.createElement('button');
+              copyBtn.className = 'ioc-copy-btn';
               copyBtn.textContent = 'Copy';
-              copyBtn.classList.remove('copied');
-            }, 2000);
-          }).catch(function(err) {
-            console.error('Failed to copy:', err);
-            copyBtn.textContent = 'Error';
-          });
-        });
-        
-        block.appendChild(copyBtn);
+              copyBtn.title = 'Click to copy: ' + iocValue.substring(0, 30) + '...';
+              
+              copyBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                navigator.clipboard.writeText(iocValue).then(function() {
+                  copyBtn.textContent = 'Copied!';
+                  copyBtn.classList.add('copied');
+                  setTimeout(function() {
+                    copyBtn.textContent = 'Copy';
+                    copyBtn.classList.remove('copied');
+                  }, 1500);
+                });
+              });
+              
+              // Style the list item
+              li.style.position = 'relative';
+              li.appendChild(copyBtn);
+            });
+            sibling = sibling.nextElementSibling;
+          }
+        }
       });
     })();
   </script>
