@@ -1,6 +1,7 @@
 ---
 layout: threat_actor
 title: "Dragonforce"
+aliases: ["DragonForce"]
 description: "DragonForce is a ransomware-as-a-service (RaaS) group first identified in late 2023. Originally linked to hacktivist activity, the group pivoted to financially motivated operations by early 2024. Since"
 permalink: /dragonforce
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"

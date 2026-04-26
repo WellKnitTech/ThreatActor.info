@@ -1,84 +1,56 @@
 ---
 layout: threat_actor
 title: "Lazarus Group"
-aliases: ["Hidden Cobra", "Guardians of Peace"]
-description: "Lazarus Group is a North Korean state-sponsored cybercrime group known for destructive attacks and financial theft."
-permalink: /lazarus/
+aliases: ["Diamond Sleet", "Guardians of Peace", "Hidden Cobra", "HIDDEN COBRA", "Labyrinth Chollima", "Lazarus Group", "NICKEL ACADEMY", "ZINC", "Operation DarkSeoul", "Dark Seoul", "Hastati Group", "Andariel", "Unit 121", "Bureau 121", "NewRomanic Cyber Army Team", "Bluenoroff", "Subgroup: Bluenoroff", "Group 77", "Operation Troy", "Operation GhostSecret", "Operation AppleJeus", "APT38", "APT 38", "Stardust Chollima", "Whois Hacking Team", "Zinc", "Appleworm", "Nickel Academy", "APT-C-26", "NICKEL GLADSTONE", "COVELLITE", "ATK3", "G0032", "ATK117", "G0082", "Citrine Sleet", "DEV-0139", "DEV-1222", "Sapphire Sleet", "COPERNICIUM", "TA404", "Lazarus group", "BeagleBoyz", "Moonstone Sleet", "Black Artemis"]
+description: "Lazarus Group is a North Korean state-sponsored cyber threat group attributed to the Reconnaissance General Bureau (RGB). (Citation: US-CERT HIDDEN COBRA June 2017) (Citation: Treasury North Korean Cyb"
+permalink: /lazarus
 country: "North Korea"
-sector_focus: ["Financial", "Cryptocurrency", "Entertainment"]
 first_seen: "2009"
 last_activity: "2024"
 risk_level: "Critical"
+external_id: "G0032"
+sector_focus: ["Financial", "Cryptocurrency", "Entertainment"]
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 ---
 
 ## Introduction
-Lazarus Group, also known as Hidden Cobra or Guardians of Peace, is a North Korean state-sponsored cybercrime group that has been active since at least 2009. The group is known for conducting both destructive attacks and financially motivated operations, including cryptocurrency theft and ransomware attacks.
+Lazarus Group is a North Korean state-sponsored cyber threat group attributed to the Reconnaissance General Bureau (RGB). (Citation: US-CERT HIDDEN COBRA June 2017) (Citation: Treasury North Korean Cyber Groups September 2019) Lazarus Group has been active since at least 2009 and is reportedly responsible for the November 2014 destructive wiper attack on Sony Pictures Entertainment, identified by Novetta as part of Operation Blockbuster. Malware used by Lazarus Group correlates to other reported campaigns, including Operation Flame, Operation 1Mission, Operation Troy, DarkSeoul, and Ten Days of Rain.(Citation: Novetta Blockbuster)
+
+North Korea’s cyber operations have shown a consistent pattern of adaptation, forming and reorganizing units as national priorities shift. These units frequently share personnel, infrastructure, malware, and tradecraft, making it difficult to attribute specific operations with high confidence. Public reporting often uses “Lazarus Group” as an umbrella term for multiple North Korean cyber operators conducting espionage, destructive attacks, and financially motivated campaigns.(Citation: Mandiant DPRK Laz Org Breakdown 2022)(Citation: Mandiant DPRK Groups 2023)(Citation: JPCert Blog Laz Subgroups 2025)
+
+
 
 ## Activities and Tactics
-Lazarus Group employs a wide range of tactics, from sophisticated cyber espionage to destructive attacks and financial theft. The group has been responsible for some of the most high-profile cyber attacks in recent years.
+**Targeted Sectors**: Financial, Cryptocurrency, Entertainment
+**Country of Origin**: North Korea
+**Risk Level**: Critical
+**First Seen**: 2009
+**Last Activity**: 2024
 
-## Notable Campaigns
-1. **Sony Pictures Hack (2014)**: Destructive attack on Sony Pictures Entertainment
-2. **WannaCry Ransomware (2017)**: Global ransomware attack affecting hundreds of thousands of systems
-3. **Cryptocurrency Exchange Attacks**: Multiple attacks on cryptocurrency exchanges, including the 2018 Coincheck hack
-4. **Bangladesh Bank Heist (2016)**: Attempted theft of $1 billion from Bangladesh Bank
+### Notable Campaigns
+*Information pending cataloguing.*
 
-## Tactics, Techniques, and Procedures (TTPs)
-Lazarus Group is known for the following TTPs:
-- **Destructive Malware**: Use of wiper malware to destroy data
-- **Cryptocurrency Theft**: Targeting cryptocurrency exchanges and wallets
-- **Supply Chain Attacks**: Compromising software supply chains
-- **Social Engineering**: Sophisticated social engineering campaigns
-- **Living off the Land**: Use of legitimate tools and techniques
+### Tactics, Techniques, and Procedures (TTPs)
+*Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-Based on recent threat intelligence from reliable sources (2025):
-
-### Lazarus Group-Specific IOCs
-**Note**: Lazarus Group is a North Korean state-sponsored threat group known for cryptocurrency theft and cyber espionage.
+*This section is pending cataloguing. Check upstream sources for current IOCs.*
 
 ### IP Addresses
-- `185.142.98[.]65`
+*Pending*
 
-### File Hashes (SHA-256)
-- `e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1`
+### File Hashes
+*Pending*
 
-### Malware and Tools
-- **VMware Exploitation**: Targeting VMware vulnerabilities for initial access
-- **Custom Malware**: Development of sophisticated malware for data exfiltration
-- **Cryptocurrency Theft**: Specialized tools for stealing cryptocurrency
-
-### Attack Patterns
-- **Supply Chain Attacks**: Compromising software supply chains
-- **Social Engineering**: Sophisticated social engineering campaigns
-- **Living off the Land**: Extensive use of legitimate tools and techniques
-
-### Sources
-- [Klavan Security Threat Intel Report](https://www.klavansecurity.com/news/security-threat-intel-report-2025-03-28) - March 2025
-- [CISA StopRansomware Official Alerts](https://www.cisa.gov/stopransomware/official-alerts-statements-cisa) - 2025
-- [FBI Flash Alert on Lazarus Group](https://www.ic3.gov/Media/News/2023/230601.pdf) - June 2023
-
-## Emulating TTPs with Atomic Red Team
-To emulate Lazarus Group's TTPs, you can use Atomic Red Team's tests:
-- **Destructive Malware**: [T1485 - Data Destruction](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1485/T1485.md)
-- **Cryptocurrency Mining**: [T1496 - Resource Hijacking](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1496/T1496.md)
-- **Supply Chain Compromise**: [T1195 - Supply Chain Compromise](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1195/T1195.md)
+### Domains
+*Pending*
 
 ## Malware and Tools
-Lazarus Group uses a range of custom malware and tools, including:
-- **WannaCry**: Ransomware used in the 2017 global attack
-- **Bankshot**: Backdoor used in financial attacks
-- **Fallchill**: Remote access trojan
-- **Hoplight**: Backdoor used for persistence
+*Information pending cataloguing.*
 
 ## Attribution and Evidence
-The U.S. government and cybersecurity researchers have attributed Lazarus Group's activities to North Korea based on various pieces of evidence, including malware code similarities, operational patterns, and the targeting of specific geopolitical interests.
+**Country of Origin**: North Korea
+*Additional attribution information pending cataloguing.*
 
 ## References
-1. **FBI Alert on Hidden Cobra**: [Link to alert](https://www.ic3.gov/Media/News/2017/170609.pdf)
-2. **CISA Analysis**: [Link to analysis](https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-048a)
-3. **Microsoft Analysis**: [Link to analysis](https://www.microsoft.com/security/blog/2021/04/16/north-korean-threat-actor-group-targets-security-researchers/)
-
-## External Links
-- [Wikipedia on Lazarus Group](https://en.wikipedia.org/wiki/Lazarus_Group)
-- [MITRE ATT&CK - Lazarus Group](https://attack.mitre.org/groups/G0032/)
+- [MITRE ATT&CK](https://attack.mitre.org/groups/G0032)

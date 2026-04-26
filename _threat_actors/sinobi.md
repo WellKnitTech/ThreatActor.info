@@ -1,6 +1,7 @@
 ---
 layout: threat_actor
 title: "Sinobi"
+aliases: ["Sinobi"]
 description: "Sinobi is an active extortion or ransomware group tracked by RansomLook."
 permalink: /sinobi
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
