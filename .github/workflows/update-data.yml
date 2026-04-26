@@ -56,6 +56,10 @@ jobs:
         run: ruby scripts/import-cisa-kev.rb map 2>&1 || echo "CISA KEV mapping skipped"
         continue-on-error: true
         
+      - name: Fetch security news
+        run: ruby scripts/fetch-news.rb 2>&1 || echo "News fetch skipped"
+        continue-on-error: true
+        
       - name: Generate pages
         run: ruby scripts/generate-pages.rb --force
         continue-on-error: true

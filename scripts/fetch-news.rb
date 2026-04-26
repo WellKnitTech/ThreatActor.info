@@ -16,12 +16,23 @@ OUTPUT_FILE = '_data/news_feed.yml'
 
 # Security RSS feeds
 RSS_FEEDS = [
+  # Major security news
   { name: 'BleepingComputer', url: 'https://www.bleepingcomputer.com/feed/', weight: 2 },
   { name: 'The Hacker News', url: 'https://feeds.feedburner.com/TheHackersNews', weight: 2 },
   { name: 'KrebsOnSecurity', url: 'https://krebsonsecurity.com/feed/', weight: 2 },
   { name: 'DarkReading', url: 'https://www.darkreading.com/rss.xml', weight: 1 },
   { name: 'SecurityWeek', url: 'https://www.securityweek.com/feed', weight: 1 },
   { name: 'Threatpost', url: 'https://threatpost.com/feed/', weight: 1 },
+  
+  # Tech/news
+  { name: 'TechCrunch', url: 'https://techcrunch.com/feed/', weight: 1 },
+  { name: 'Wired', url: 'https://www.wired.com/feed/rss', weight: 1 },
+  { name: 'Ars Technica', url: 'https://feeds.arstechnica.com/arstechnica/technology-lab', weight: 1 },
+  { name: 'Schneier', url: 'https://www.schneier.com/feed/atom/', weight: 1 },
+  
+  # Vendor blogs
+  { name: 'Unit 42', url: 'https://unit42.paloaltonetworks.com/feed/', weight: 2 },
+  { name: 'Elastic', url: 'https://www.elastic.co/blog/feed', weight: 1 },
 ].freeze
 
 # Actor name keywords for matching
