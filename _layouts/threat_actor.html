@@ -3,9 +3,55 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-<p><strong>Also known as:</strong> {{ page.aliases | join: ,  }}</p>
-<p>{{ page.description }}</p>
+<div class="threat-actor-header">
+  <h1>{{ page.title }}</h1>
+  
+  <div class="actor-metadata">
+    <div class="metadata-row">
+      <span class="metadata-label">Also known as:</span>
+      <span class="metadata-value">{{ page.aliases | join: ", " }}</span>
+    </div>
+    
+    {% if page.country %}
+    <div class="metadata-row">
+      <span class="metadata-label">Country:</span>
+      <span class="metadata-value">{{ page.country }}</span>
+    </div>
+    {% endif %}
+    
+    {% if page.sector_focus %}
+    <div class="metadata-row">
+      <span class="metadata-label">Sector Focus:</span>
+      <span class="metadata-value">{{ page.sector_focus | join: ", " }}</span>
+    </div>
+    {% endif %}
+    
+    {% if page.first_seen %}
+    <div class="metadata-row">
+      <span class="metadata-label">First Seen:</span>
+      <span class="metadata-value">{{ page.first_seen }}</span>
+    </div>
+    {% endif %}
+    
+    {% if page.last_activity %}
+    <div class="metadata-row">
+      <span class="metadata-label">Last Activity:</span>
+      <span class="metadata-value">{{ page.last_activity }}</span>
+    </div>
+    {% endif %}
+    
+    {% if page.risk_level %}
+    <div class="metadata-row">
+      <span class="metadata-label">Risk Level:</span>
+      <span class="metadata-value risk-{{ page.risk_level | downcase }}">{{ page.risk_level }}</span>
+    </div>
+    {% endif %}
+  </div>
+  
+  <div class="actor-description">
+    <p>{{ page.description }}</p>
+  </div>
+</div>
 
 <div class="content">
   {{ content }}
