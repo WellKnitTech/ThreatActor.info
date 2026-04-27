@@ -203,7 +203,7 @@ layout: default
       <h4>Top Malware</h4>
       <ul class="sidebar-list">
         {% for item in site.data.generated.facets.malware_counts limit: 5 %}
-        <li><span class="malware-name">{{ item[0] }}</span> <span class="count">{{ item[1] }}</span></li>
+        <li><a href="/malware/{{ item[0] | slugify }}/">{{ item[0] }}</a> <span class="count">{{ item[1] }}</span></li>
         {% endfor %}
       </ul>
     </div>

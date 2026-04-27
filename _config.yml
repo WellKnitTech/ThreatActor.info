@@ -9,6 +9,8 @@ sass:
 collections:
   threat_actors:
     output: true
+  malware:
+    output: true
 
 plugins:
   - jekyll-seo-tag

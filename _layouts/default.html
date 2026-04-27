@@ -23,6 +23,7 @@
       <ul>
         <li><a href="{{ site.baseurl }}/">Home</a></li>
         <li><a href="{{ site.baseurl }}/threat-actors">Threat Actors</a></li>
+        <li><a href="{{ site.baseurl }}/malware">Malware</a></li>
       </ul>
     </nav>
     <div class="header-controls">
@@ -198,6 +199,33 @@
         });
         
         h.parentNode.insertBefore(container, h.nextSibling);
+      });
+      
+      // Linkify malware names in Malware and Tools section
+      const malwareHeadings = content.querySelectorAll('h2, h3, h4');
+      malwareHeadings.forEach(function(h) {
+        if (!h.textContent.toLowerCase().includes('malware') && !h.textContent.toLowerCase().includes('tool')) return;
+        
+        let section = h.nextElementSibling;
+        while (section && section.tagName !== 'H2' && section.tagName !== 'H3') {
+          if (section.tagName === 'UL' || section.tagName === 'OL') {
+            const items = section.querySelectorAll('li');
+            items.forEach(function(li) {
+              const strong = li.querySelector('strong');
+              if (strong) {
+                const malwareName = strong.textContent.trim();
+                const slug = malwareName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+                const link = document.createElement('a');
+                link.href = '/malware/' + slug + '/';
+                link.textContent = ' → View';
+                link.style.cssText = 'margin-left:8px;font-size:0.8rem;color:var(--accent);';
+                link.title = 'View malware details';
+                strong.parentNode.appendChild(link);
+              }
+            });
+          }
+          section = section.nextElementSibling;
+        }
       });
     })();
   </script>

@@ -1344,3 +1344,149 @@ footer {
     position: static;
   }
 }
+
+/* Malware Index Styles */
+.malware-index {
+  padding: 0;
+}
+
+.malware-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.malware-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.25rem;
+  transition: all 0.2s ease;
+}
+
+.malware-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.malware-card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+.malware-card h3 a {
+  color: var(--text-primary);
+}
+
+.malware-card .category {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+  border-radius: 4px;
+}
+
+.malware-card .card-desc {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.malware-card .card-link {
+  color: var(--accent);
+  font-size: 0.85rem;
+}
+
+/* Malware Header */
+.malware-header {
+  background: var(--bg-secondary);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid var(--border-color);
+}
+
+.malware-header .header-top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.malware-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: var(--text-primary);
+}
+
+.malware-header .category-badge {
+  background: var(--risk-medium);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+.malware-description {
+  margin: 1rem 0;
+  color: var(--text-secondary);
+}
+
+.malware-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.malware-header .stat-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--bg-tertiary);
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+}
+
+/* Malware Actors Section */
+.malware-actors-section h2 {
+  margin: 2rem 0 1rem 0;
+}
+
+.actors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.actor-card-mini {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.actor-card-mini h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+.actor-card-mini h3 a {
+  color: var(--text-primary);
+}
+
+.actor-card-mini .card-meta {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.actor-card-mini .country {
+  color: var(--text-muted);
+}

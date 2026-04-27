@@ -79,6 +79,9 @@ class ThreatActorIndexGenerator
     write_json('ioc_lookup.json', ioc_lookup)
     write_json('ioc_types.json', ioc_type_manifest)
     write_ioc_type_shards(ioc_documents)
+    
+    # Generate malware pages from extracted data
+    write_malware_pages(malware_documents, actor_documents)
     # Primary API endpoints are rendered via Liquid wrappers in /api.
     # Keep writing type shards directly because they are data-heavy static payloads.
 
@@ -324,6 +327,94 @@ class ThreatActorIndexGenerator
       write_json(File.join('iocs_by_type', "#{type}.json"), payload)
       write_api_json(File.join('iocs', 'by-type', "#{type}.json"), payload)
     end
+  end
+  
+  # Generate malware pages from extracted data
+  def write_malware_pages(malware_documents, actor_documents)
+    malware_dir = '_malware'
+    FileUtils.mkdir_p(malware_dir)
+    
+    # Group malware by name and find associated actors
+    malware_by_name = malware_documents.group_by { |m| m[:name] }
+    
+    # Build actor lookup for linking
+    actor_lookup = actor_documents.each_with_object({}) do |actor, lookup|
+      lookup[actor[:name]] = actor
+    end
+    
+    malware_by_name.each do |name, entries|
+      # Generate slug from name
+      slug = name.downcase.gsub(/[^a-z0-9]+/, '-').gsub(/^-|-$/, '')
+      
+      # Collect actor references
+      actors = entries.map do |entry|
+        actor = actor_lookup[entry[:actor_name]]
+        next nil unless actor
+        {
+          name: actor[:name],
+          url: actor[:permalink],
+          country: actor[:country],
+          risk_level: actor[:risk_level]
+        }
+      end.compact.uniq { |a| a[:name] }
+      
+      # Build front matter
+      front_matter = {
+        'layout' => 'malware',
+        'title' => name,
+        'category' => entries.first[:category],
+        'actor_count' => actors.length,
+        'permalink' => "/malware/#{slug}/"
+      }
+      
+      # Build actor links data (for layout to use)
+      actors_data = actors.map do |a|
+        { 'name' => a[:name], 'url' => a[:url], 'country' => a[:country], 'risk_level' => a[:risk_level] }
+      end
+      
+      # Write malware data for Liquid access
+      data_file = File.join(malware_dir, "#{slug}.data.json")
+      File.write(data_file, JSON.pretty_generate({
+        name: name,
+        slug: slug,
+        category: entries.first[:category],
+        actor_count: actors.length,
+        actors: actors_data
+      }))
+      
+      # Write markdown page
+      content = front_matter.to_yaml.lines.join + "---\n\n"
+      content += "## Overview\n\n"
+      content += "This page lists all known threat actors that have been observed using **#{name}**.\n\n"
+      content += "## Threat Actors\n\n"
+      actors.each do |a|
+        content += "- [#{a[:name]}](#{a[:url]})"
+        content += " (#{a[:country]})" if a[:country]
+        content += " - #{a[:risk_level]}" if a[:risk_level]
+        content += "\n"
+      end
+      
+      page_file = File.join(malware_dir, "#{slug}.md")
+      File.write(page_file, content)
+    end
+    
+    # Write index of all malware
+    index_content = {
+      malware: malware_by_name.keys.sort.map do |name|
+        slug = name.downcase.gsub(/[^a-z0-9]+/, '-').gsub(/^-|-$/, '')
+        entries = malware_by_name[name]
+        {
+          name: name,
+          slug: slug,
+          url: "/malware/#{slug}/",
+          category: entries.first[:category],
+          actor_count: entries.length
+        }
+      end
+    }
+    File.write(File.join(OUTPUT_DIR, 'malware_index.json'), JSON.pretty_generate(index_content))
+    
+    puts "Generated #{malware_by_name.length} malware pages in #{malware_dir}"
   end
 
   def clear_existing_shards(directory)
