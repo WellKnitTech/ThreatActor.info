@@ -8,6 +8,10 @@ on:
   # Allow manual trigger
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: read
+
 jobs:
   update-news:
     runs-on: ubuntu-latest

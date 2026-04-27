@@ -1,4 +1,9 @@
 name: Content Validation
+permissions:
+  contents: read
+  pages: read
+  statuses: read
+
 
 on:
   push:
