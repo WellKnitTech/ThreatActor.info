@@ -354,22 +354,16 @@ class ThreatActorIndexGenerator
       entries = group[:entries]
       actor_list = build_malware_actor_list(entries, actor_lookup)
       
-      escaped_name = name.to_s.gsub('"', '""')
-      
-      lines = []
-      lines << "---"
-      lines << "layout: malware"
-      lines << "title: \"#{escaped_name}\""
-      lines << "category: \"#{entries.first[:category]}\""
-      lines << "actor_count: #{actor_list.length}"
-      lines << "permalink: /malware/#{slug}/"
-      lines << "actors:"
-      actor_list.each do |a|
-        lines << "  - name: \"#{a['name'].to_s.gsub('"', '""')}\""
-        lines << "    url: \"#{a['url']}\""
-        lines << "    country: \"#{a['country']}\"" if a['country']
-        lines << "    risk_level: \"#{a['risk_level']}\"" if a['risk_level']
-      end
+      front_matter = {
+        'layout' => 'malware',
+        'title' => name,
+        'category' => entries.first[:category],
+        'actor_count' => actor_list.length,
+        'permalink' => "/malware/#{slug}/",
+        'actors' => actor_list.map { |actor| actor.reject { |_, value| value.nil? } }
+      }
+
+      lines = front_matter.to_yaml.lines.map(&:chomp)
       lines << "---"
       lines << ""
       lines << "## Overview"
