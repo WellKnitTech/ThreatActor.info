@@ -78,6 +78,18 @@ jobs:
           RUN_DATE=$(date +%Y-%m-%d)
           ruby scripts/import-aptnotes.rb fetch --output "data/imports/aptnotes/${RUN_DATE}"
         continue-on-error: true
+
+      - name: Fetch RansomLook groups
+        run: |
+          RUN_DATE=$(date +%Y-%m-%d)
+          if [ -n "${RANSOMLOOK_API_KEY:-}" ]; then
+            ruby scripts/import-ransomlook.rb fetch --output "data/imports/ransomlook/${RUN_DATE}" --export
+          else
+            ruby scripts/import-ransomlook.rb fetch --output "data/imports/ransomlook/${RUN_DATE}"
+          fi
+        env:
+          RANSOMLOOK_API_KEY: ${{ secrets.RANSOMLOOK_API_KEY }}
+        continue-on-error: true
           
       - name: Enrich existing actors from MISP (additive updates only)
         run: |
@@ -118,6 +130,16 @@ jobs:
             ruby scripts/import-aptnotes.rb import --snapshot "$LATEST_APTNOTES"
           fi
         continue-on-error: true
+
+      - name: Import RansomLook additions
+        run: |
+          mkdir -p tmp/import-reports
+          LATEST_RANSOMLOOK=$(ls -d data/imports/ransomlook/*/ 2>/dev/null | sort -V | tail -1)
+          if [ -n "$LATEST_RANSOMLOOK" ]; then
+            ruby scripts/import-ransomlook.rb plan --snapshot "$LATEST_RANSOMLOOK" --new-only --report-json tmp/import-reports/ransomlook-plan.json
+            ruby scripts/import-ransomlook.rb import --snapshot "$LATEST_RANSOMLOOK" --new-only --report-json tmp/import-reports/ransomlook-import.json
+          fi
+        continue-on-error: true
           
       - name: Fetch CISA KEV
         run: ruby scripts/import-cisa-kev.rb fetch
@@ -146,6 +168,9 @@ jobs:
           
       - name: Validate content
         run: ruby scripts/validate-content.rb
+
+      - name: Validate JSON schemas
+        run: ruby scripts/validate-json-schemas.rb
           
       - name: Build site
         run: bundle exec jekyll build --safe
