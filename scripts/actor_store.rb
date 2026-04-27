@@ -114,10 +114,33 @@ module ActorStore
       end
       rows
     elsif value.is_a?(Array)
-      ["#{prefix}#{key}: #{value.map(&:to_s).uniq.to_json}"]
+      serialize_array_field(key, value, indent)
     else
       ["#{prefix}#{key}: #{value.to_json}"]
     end
+  end
+
+  def serialize_array_field(key, value, indent)
+    prefix = '  ' * indent
+    return ["#{prefix}#{key}: #{value.map(&:to_s).uniq.to_json}"] unless value.any? { |entry| entry.is_a?(Hash) || entry.is_a?(Array) }
+
+    rows = ["#{prefix}#{key}:"]
+    value.each do |entry|
+      if entry.is_a?(Hash)
+        rows << "#{prefix}  -"
+        entry.keys.sort.each do |child_key|
+          child_value = entry[child_key]
+          next if child_value.nil? || child_value == '' || child_value == []
+
+          rows.concat(serialize_field(child_key.to_s, child_value, indent + 2))
+        end
+      elsif entry.is_a?(Array)
+        rows << "#{prefix}  - #{entry.map(&:to_s).uniq.to_json}"
+      else
+        rows << "#{prefix}  - #{entry.to_json}"
+      end
+    end
+    rows
   end
 
   def clear_existing_shards

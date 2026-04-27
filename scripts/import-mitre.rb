@@ -163,10 +163,17 @@ module ImportUtils
     existing_prov = existing['provenance'].is_a?(Hash) ? existing['provenance'] : {}
     incoming_prov = incoming['provenance'] || {}
     
-    # Add source to provenance with timestamp
+    # Add source to provenance. Preserve the original retrieval timestamp when
+    # reprocessing the same dataset so scheduled imports remain idempotent.
     source_key = source_name.downcase.gsub(/\s+/, '_')
+    existing_source_prov = existing_prov[source_key].is_a?(Hash) ? existing_prov[source_key] : {}
+    retrieved_at = if existing_source_prov['source_dataset_url'] == MITRE_STIX_URL && existing_source_prov['source_retrieved_at']
+                     existing_source_prov['source_retrieved_at']
+                   else
+                     Time.now.utc.iso8601
+                   end
     existing_prov[source_key] = {
-      'source_retrieved_at' => Time.now.utc.iso8601,
+      'source_retrieved_at' => retrieved_at,
       'source_record_id' => incoming['external_id'] || incoming['mitre_id'],
       'source_dataset_url' => MITRE_STIX_URL
     }

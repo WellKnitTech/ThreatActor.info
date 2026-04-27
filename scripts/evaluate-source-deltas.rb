@@ -48,9 +48,25 @@ def load_actor_collection(path)
   end
 end
 
+def canonicalize(value)
+  case value
+  when Hash
+    value.keys.sort.each_with_object({}) do |key, memo|
+      child_value = canonicalize(value[key])
+      next if child_value.nil? || child_value == '' || child_value == []
+
+      memo[key] = child_value
+    end
+  when Array
+    normalized = value.map { |entry| canonicalize(entry) }
+    normalized.any? { |entry| entry.is_a?(Hash) || entry.is_a?(Array) } ? normalized : normalized.uniq
+  else
+    value
+  end
+end
+
 def canonical_hash(actor)
-  stable = actor.sort.to_h
-  Digest::SHA256.hexdigest(JSON.generate(stable))
+  Digest::SHA256.hexdigest(JSON.generate(canonicalize(actor)))
 end
 
 current = load_actor_collection(options[:current])
