@@ -29,6 +29,10 @@ jobs:
       run: |
         bundle install
 
+    - name: Generate pages
+      run: |
+        ruby scripts/generate-pages.rb --force
+
     - name: Generate JSON indexes
       run: |
         ruby scripts/generate-indexes.rb

@@ -37,11 +37,13 @@ check_command bundle
 
 check_dir "_data/actors"
 check_file "_config.yml"
+check_file "scripts/generate-pages.rb"
 check_file "scripts/generate-indexes.rb"
 check_file "scripts/evaluate-source-deltas.rb"
 check_file "scripts/validate-content.rb"
 
-echo "Running index generator..."
+echo "Running page and index generators..."
+ruby scripts/generate-pages.rb --force
 ruby scripts/generate-indexes.rb
 
 echo "Running content validator..."
