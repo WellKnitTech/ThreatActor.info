@@ -26,6 +26,24 @@ layout: default
 {% if profile_source_record_url == nil and current_actor and current_actor.provenance and current_actor.provenance.malpedia %}
   {% assign profile_source_record_url = current_actor.provenance.malpedia.source_record_url %}
 {% endif %}
+{% assign generated_actor = nil %}
+{% if current_actor %}
+  {% for actor in site.data.generated.threat_actors %}
+    {% if actor.url == current_actor.url %}
+      {% assign generated_actor = actor %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{% assign profile_last_updated = generated_actor.last_updated | default: current_actor.last_updated | default: page.last_updated %}
+{% if profile_last_updated == nil and current_actor and current_actor.provenance %}
+  {% for provenance_entry in current_actor.provenance %}
+    {% assign provenance_timestamp = provenance_entry[1].source_retrieved_at | default: provenance_entry[1].last_imported | default: provenance_entry[1].last_updated %}
+    {% if provenance_timestamp and profile_last_updated == nil %}
+      {% assign profile_last_updated = provenance_timestamp %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
 {% assign profile_url = profile_external_url | default: profile_mitre_url %}
 {% assign profile_analyst_notes = current_actor.analyst_notes %}
 
@@ -95,6 +113,14 @@ layout: default
           <span class="stat-icon">🧭</span>
           <span class="stat-label">ATT&CK</span>
           <span class="stat-value"><a href="{{ profile_url }}">{{ profile_external_id }}</a></span>
+        </div>
+        {% endif %}
+
+        {% if profile_last_updated %}
+        <div class="stat-item">
+          <span class="stat-icon">🕒</span>
+          <span class="stat-label">Last Updated</span>
+          <span class="stat-value">{{ profile_last_updated | date: "%Y-%m-%d" }}</span>
         </div>
         {% endif %}
       </div>

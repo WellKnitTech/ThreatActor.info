@@ -5,32 +5,6 @@ title: Threat Actors
 
 <h2>Threat Actors</h2>
 
-<div class="threat-actors-grid">
-  {% for actor_entry in site.data.actors %}
-    {% assign actor = actor_entry[1] %}
-    <div class="threat-actor-card">
-      <h3><a href="{{ actor.url | append: '/' | relative_url }}">{{ actor.name }}</a></h3>
-      <div class="actor-card-metadata">
-        <div class="metadata-item">
-          <strong>Aliases:</strong> {{ actor.aliases | uniq | join: ', ' }}
-        </div>
-        {% if actor.country %}
-        <div class="metadata-item">
-          <strong>Country:</strong> {{ actor.country }}
-        </div>
-        {% endif %}
-        {% if actor.risk_level %}
-        <div class="metadata-item">
-          <strong>Risk Level:</strong> <span class="risk-{{ actor.risk_level | downcase }}">{{ actor.risk_level }}</span>
-        </div>
-        {% endif %}
-        {% if actor.sector_focus %}
-        <div class="metadata-item">
-          <strong>Sectors:</strong> {{ actor.sector_focus | join: ', ' }}
-        </div>
-        {% endif %}
-      </div>
-      <p class="actor-description">{{ actor.description }}</p>
-    </div>
-  {% endfor %}
-</div>
+<p class="page-intro">Use the pinned advanced search to filter actors by keyword, country, risk, and sector.</p>
+
+{% include search.html %}

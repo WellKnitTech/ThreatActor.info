@@ -34,6 +34,42 @@ title: Home
     </div>
   </section>
 
+  <section class="advanced-search-section" id="advanced-search">
+    <div class="section-header">
+      <div>
+        <h2>Advanced Search</h2>
+        <p class="section-kicker">Pinned filters stay visible while reviewing results.</p>
+      </div>
+    </div>
+    {% include search.html search_id="home-advanced-search" %}
+  </section>
+
+  {% assign recently_updated = site.data.generated.facets.recently_updated %}
+  {% if recently_updated and recently_updated.size > 0 %}
+  <section class="recently-updated-section" aria-labelledby="recently-updated-heading">
+    <div class="section-header">
+      <div>
+        <h2 id="recently-updated-heading">Recently Updated</h2>
+        <p class="section-kicker">Latest actor records refreshed from structured source data.</p>
+      </div>
+      <a class="section-link" href="{{ '/threat-actors' | relative_url }}">View all actors</a>
+    </div>
+    <div class="recently-updated-carousel" tabindex="0" aria-label="Recently updated threat actors">
+      {% for actor in recently_updated %}
+      <article class="recent-update-card">
+        <div class="card-meta">
+          {% if actor.country %}<span class="country">{{ actor.country }}</span>{% endif %}
+          {% if actor.risk_level %}<span class="risk risk-{{ actor.risk_level | downcase }}">{{ actor.risk_level }}</span>{% endif %}
+        </div>
+        <h3><a href="{{ actor.permalink | relative_url }}">{{ actor.name }}</a></h3>
+        <time datetime="{{ actor.last_updated }}">{{ actor.last_updated | date: "%b %-d, %Y" }}</time>
+        <p>{{ actor.description | strip_html | truncate: 120 }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
   <!-- Quick Filters (prominent) -->
   <section class="quick-filters">
     <h2>Quick Filters</h2>
@@ -78,6 +114,7 @@ title: Home
 
 <script>
   const ITEMS_PER_PAGE = 24;
+  let sourceActors = [];
   let allActors = [];
   let displayedCount = ITEMS_PER_PAGE;
 
@@ -86,7 +123,8 @@ title: Home
     fetch('/api/threat-actors.json').then(r => r.json()),
     fetch('/api/facets.json').then(r => r.json())
   ]).then(([actors, facets]) => {
-    allActors = actors;
+    sourceActors = actors;
+    allActors = [...sourceActors];
     populateFilters(facets);
     renderActors();
     setupEventListeners();
@@ -138,7 +176,7 @@ title: Home
     const sector = document.getElementById('home-sector-filter').value;
     const search = document.getElementById('quick-search-input').value.toLowerCase();
     
-    allActors = allActors.filter(a => {
+    allActors = sourceActors.filter(a => {
       const matchCountry = !country || a.country === country;
       const matchRisk = !risk || a.risk_level === risk;
       const matchSector = !sector || (a.sector_focus || []).includes(sector);
@@ -165,7 +203,9 @@ title: Home
       document.getElementById('home-risk-filter').value = '';
       document.getElementById('home-sector-filter').value = '';
       document.getElementById('quick-search-input').value = '';
-      location.reload();
+      allActors = [...sourceActors];
+      displayedCount = ITEMS_PER_PAGE;
+      renderActors();
     };
     
     document.getElementById('quick-search-btn').onclick = filterAndRender;

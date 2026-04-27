@@ -1,4 +1,8 @@
 <div class="search-container">
+  <div class="advanced-search-header">
+    <h2>Advanced Search</h2>
+    <p>Filter by keyword, country, risk, and sector.</p>
+  </div>
   <div class="search-input-container">
     <input type="text" id="search-input" placeholder="Search threat actors...">
     <button id="clear-search" style="display: none;">Clear</button>
@@ -39,6 +43,7 @@
 </div>
 
 <script>
+  (function() {
   let allThreatActors = [];
   let filteredResults = [];
   const actorsEndpoint = '{{ "/api/threat-actors.json" | relative_url }}';
@@ -173,4 +178,5 @@
       .replace(/"/g, '&quot;')
       .replace(/'/g, '&#39;');
   }
+  }());
 </script>

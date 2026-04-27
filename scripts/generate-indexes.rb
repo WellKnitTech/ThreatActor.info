@@ -4,6 +4,7 @@ require 'json'
 require 'yaml'
 require 'fileutils'
 require 'set'
+require 'time'
 require_relative 'actor_store'
 
 class ThreatActorIndexGenerator
@@ -204,6 +205,7 @@ class ThreatActorIndexGenerator
       sector_focus: actor['sector_focus'] || [],
       first_seen: actor['first_seen'],
       last_activity: actor['last_activity'],
+      last_updated: latest_actor_timestamp(actor),
       risk_level: actor['risk_level'],
       source_name: actor['source_name'] || front_matter['source_name'],
       source_attribution: actor['source_attribution'] || front_matter['source_attribution'],
@@ -254,7 +256,22 @@ class ThreatActorIndexGenerator
       # Precomputed counts for sidebar
       country_counts: country_counts,
       risk_counts: risk_counts,
-      sector_counts: sector_counts
+      sector_counts: sector_counts,
+      recently_updated: actors
+        .select { |actor| actor[:last_updated] }
+        .sort_by { |actor| actor[:last_updated] }
+        .reverse
+        .first(12)
+        .map do |actor|
+          {
+            name: actor[:name],
+            permalink: actor[:permalink],
+            country: actor[:country],
+            risk_level: actor[:risk_level],
+            description: actor[:description],
+            last_updated: actor[:last_updated]
+          }
+        end
     }
   end
   
@@ -428,6 +445,42 @@ class ThreatActorIndexGenerator
 
   def slugify(value)
     value.to_s.downcase.gsub(/[^a-z0-9]+/, '-').gsub(/^-|-$/, '')
+  end
+
+  def latest_actor_timestamp(actor)
+    timestamps = collect_timestamp_candidates(actor)
+    timestamps.filter_map { |value| parse_timestamp(value) }.max&.utc&.iso8601
+  end
+
+  def collect_timestamp_candidates(value)
+    case value
+    when Hash
+      value.flat_map do |key, child|
+        timestamp_key?(key) ? [child] : collect_timestamp_candidates(child)
+      end
+    when Array
+      value.flat_map { |child| collect_timestamp_candidates(child) }
+    else
+      []
+    end
+  end
+
+  def timestamp_key?(key)
+    %w[
+      last_updated
+      last_imported
+      source_retrieved_at
+      retrieved_at
+      updated_at
+    ].include?(key.to_s)
+  end
+
+  def parse_timestamp(value)
+    return if value.nil?
+
+    Time.parse(value.to_s)
+  rescue ArgumentError
+    nil
   end
 
   def clear_existing_shards(directory)

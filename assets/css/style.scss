@@ -245,6 +245,12 @@ a:hover {
   margin: 1.5rem 0;
 }
 
+.actor-updated-meta {
+  margin-top: 1rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
 .stat-item {
   display: flex;
   align-items: center;
@@ -467,74 +473,88 @@ a:hover {
 }
 
 // IOC Styling
-.ioc-block {
+.ioc-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: -0.25rem 0 1rem;
+}
+
+.ioc-section-list {
   background: var(--bg-tertiary);
   border: 1px solid var(--border-color);
-  border-radius: 6px;
-  padding: 1rem;
-  margin: 1rem 0;
-  font-family: 'Courier New', monospace;
-  font-size: 0.9rem;
-  overflow-x: auto;
+  border-radius: 8px;
+  padding: 1rem 1rem 1rem 2rem;
 }
 
-.ioc-block code {
+.ioc-section-list li {
+  margin-bottom: 0.5rem;
+  word-break: break-word;
+}
+
+.ioc-value {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
   color: var(--accent);
-  background: transparent;
-  padding: 0;
+  cursor: copy;
+  padding: 0.1rem 0.35rem;
 }
 
-.ioc-block {
-  position: relative;
+.ioc-value.copied {
+  background: var(--risk-low);
+  border-color: var(--risk-low);
+  color: white;
+}
+
+.ioc-link {
+  margin-left: 0.4rem;
+  font-size: 0.8rem;
+}
+
+.ioc-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: -0.25rem 0 1rem;
 }
 
 .ioc-copy-btn {
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
-  color: var(--text-secondary);
-  padding: 0.3rem 0.6rem;
   border-radius: 4px;
-  font-size: 0.8rem;
+  color: var(--text-secondary);
   cursor: pointer;
+  font-size: 0.8rem;
+  margin-left: 0.4rem;
+  padding: 0.2rem 0.5rem;
+  vertical-align: middle;
   transition: all 0.2s ease;
-  opacity: 0.7;
 }
 
 .ioc-copy-btn:hover {
   background: var(--accent);
+  border-color: var(--accent);
   color: white;
-  opacity: 1;
 }
 
 .ioc-copy-btn.copied {
   background: var(--risk-low);
+  border-color: var(--risk-low);
   color: white;
 }
 
-.ioc-block ul {
-  margin: 0;
-  padding-left: 1rem;
-}
-
-.ioc-block li {
-  margin-bottom: 0.5rem;
-  word-break: break-all;
-}
-
-// IOC Copy button styling
-.ioc-copy-btn {
+.ioc-copy-inline {
+  color: var(--text-secondary);
   cursor: pointer;
-  margin-left: 6px;
-  font-size: 12px;
-  opacity: 0.6;
-  vertical-align: middle;
-  transition: opacity 0.2s;
+  font-size: 0.8rem;
+  margin-left: 0.4rem;
+  opacity: 0.75;
 }
 
-.ioc-copy-btn:hover {
+.ioc-copy-inline:hover,
+.ioc-copy-inline.copied {
+  color: var(--accent);
   opacity: 1;
 }
 
@@ -688,6 +708,39 @@ a:hover {
   border: 1px solid var(--border-color);
 }
 
+.advanced-search-section .search-container,
+.threat-actors-search .search-container {
+  box-shadow: 0 0 0 1px rgba(38, 139, 210, 0.2), 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+.advanced-search-panel {
+  box-shadow: 0 0 0 1px rgba(38, 139, 210, 0.2), 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+.advanced-search-header {
+  margin-bottom: 1.5rem;
+}
+
+.advanced-search-header h2 {
+  margin: 0 0 0.35rem;
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+.advanced-search-header p {
+  margin: 0;
+  color: var(--text-secondary);
+}
+
+.advanced-search-section {
+  margin-bottom: 2rem;
+}
+
+.advanced-search-section .section-header {
+  align-items: flex-end;
+}
+
 .search-input-container {
   position: relative;
   margin-bottom: 1.5rem;
@@ -728,10 +781,26 @@ a:hover {
 }
 
 .search-filters {
+  position: sticky;
+  top: 0.75rem;
+  z-index: 20;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
   margin-bottom: 2rem;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.search-filter-label {
+  align-items: center;
+  color: var(--accent);
+  display: flex;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
 .filter-group {
@@ -964,6 +1033,68 @@ a:hover {
   background: var(--bg-tertiary);
   color: var(--text-secondary);
   border: 1px solid var(--border-color);
+}
+
+/* Recently Updated */
+.recently-updated-section {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  padding: 1.5rem 2rem;
+}
+
+.recently-updated-section h2 {
+  margin: 0;
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+.section-kicker {
+  color: var(--text-muted);
+  margin: 0.25rem 0 1rem;
+}
+
+.recently-updated-carousel {
+  display: grid;
+  grid-auto-columns: minmax(260px, 1fr);
+  grid-auto-flow: column;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  scroll-snap-type: x mandatory;
+}
+
+.recent-update-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  min-width: 260px;
+  padding: 1rem;
+  scroll-snap-align: start;
+}
+
+.recent-update-card h3 {
+  margin: 0 0 0.5rem;
+  border: none;
+  padding: 0;
+  background: none;
+  font-size: 1.05rem;
+}
+
+.recent-update-card time {
+  color: var(--text-muted);
+  display: block;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.recent-update-card p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0.5rem 0 0;
 }
 
 /* Actors Section */
@@ -1341,6 +1472,10 @@ footer {
   }
   
   .actor-sidebar {
+    position: static;
+  }
+
+  .search-filters {
     position: static;
   }
 }
