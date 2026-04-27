@@ -22,6 +22,7 @@ class EtdaThaicertImporter
   SOURCE_URL = 'https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g'.freeze
   SOURCE_MIRROR_URL = 'https://huggingface.co/datasets/threatactor-info/etda-thaicert-threat-groups/raw/main/groups.json'.freeze
   SOURCE_REPOSITORY = 'https://apt.etda.or.th/'.freeze
+  MANUAL_SOURCE_NAMES = ['Manual Entry', 'Analyst Notes'].freeze
   SOURCE_ATTRIBUTION = 'Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment.'.freeze
 
   REQUIRED_HEADINGS = [
@@ -327,6 +328,11 @@ class EtdaThaicertImporter
       updates['source_name'] = SOURCE_NAME
       updates['source_attribution'] = SOURCE_ATTRIBUTION
     end
+
+    # Handle takeover: if manual entry found by importer, convert manual data to analyst notes
+    if MANUAL_SOURCE_NAMES.include?(existing_actor['source_name'])
+      updates = handle_manual_takeover(updates, existing_actor, record)
+    end
     if !record[:source_record_url].to_s.empty? && (existing_actor['source_record_url'].to_s.empty? || existing_actor['source_name'] == SOURCE_NAME)
       updates['source_record_url'] = record[:source_record_url]
     end
@@ -379,6 +385,98 @@ class EtdaThaicertImporter
       'mitre_technique_ids' => record[:mitre_technique_ids],
       'source_transforms' => record[:source_transforms]
     }.reject { |_key, value| value.nil? || value == [] || value == '' }
+  end
+
+  # Handle takeover: convert manual entry to analyst notes when importer finds it
+  def handle_manual_takeover(updates, existing_actor, record)
+    # Extract existing manual data
+    manual_description = existing_actor['description'].to_s.strip
+    manual_country = existing_actor['country'].to_s.strip
+    manual_aliases = Array(existing_actor['aliases'])
+    manual_sectors = Array(existing_actor['sector_focus'])
+    manual_targets = Array(existing_actor['targeted_victims'])
+    manual_first_seen = existing_actor['first_seen'].to_s.strip
+    manual_last_activity = existing_actor['last_activity'].to_s.strip
+    manual_external_id = existing_actor['external_id'].to_s.strip
+    manual_external_url = existing_actor['external_url'].to_s.strip
+    manual_source_attribution = existing_actor['source_attribution'].to_s.strip
+
+    # Generate analyst notes from manual entry
+    analyst_notes_parts = []
+
+    if !manual_description.empty?
+      analyst_notes_parts << "Previous description: #{manual_description}"
+    end
+
+    if manual_aliases.any?
+      analyst_notes_parts << "Previous aliases: #{manual_aliases.join(', ')}"
+    end
+
+    if manual_country
+      analyst_notes_parts << "Previous country: #{manual_country}"
+    end
+
+    if manual_sectors.any?
+      analyst_notes_parts << "Previous sectors: #{manual_sectors.join(', ')}"
+    end
+
+    if manual_targets.any?
+      analyst_notes_parts << "Previous targets: #{manual_targets.join(', ')}"
+    end
+
+    if !manual_first_seen.empty? || !manual_last_activity.empty?
+      activity = []
+      activity << "first seen: #{manual_first_seen}" if !manual_first_seen.empty?
+      activity << "last active: #{manual_last_activity}" if !manual_last_activity.empty?
+      analyst_notes_parts << "Previous activity: #{activity.join(', ')}"
+    end
+
+    if !manual_external_id.empty?
+      analyst_notes_parts << "Previous external ID: #{manual_external_id}"
+    end
+
+    if !manual_external_url.empty?
+      analyst_notes_parts << "Previous reference: #{manual_external_url}"
+    end
+
+    # Add summary of what importer found
+    analyst_notes_parts << ""
+    analyst_notes_parts << "=== Automated import from #{record[:display_name] || record[:name]} ==="
+
+    if record[:description] && !record[:description].empty?
+      analyst_notes_parts << "New description sourced from #{SOURCE_NAME}"
+    end
+
+    # Merge all analyst notes
+    analyst_notes = analyst_notes_parts.join("\n")
+    if !analyst_notes.nil?
+      existing_notes = existing_actor['analyst_notes'].to_s.strip
+      if existing_notes.empty?
+        updates['analyst_notes'] = analyst_notes
+      else
+        updates['analyst_notes'] = "#{existing_notes}\n\n---\n\n#{analyst_notes}"
+      end
+    end
+
+    # Now apply the importer's updates (replace empty fields)
+    updates['source_name'] = SOURCE_NAME
+    updates['source_attribution'] = SOURCE_ATTRIBUTION
+
+    # Import fields that were empty in manual entry
+    updates['description'] = record[:description] if !record[:description].to_s.empty? && existing_actor['description'].to_s.empty?
+    updates['country'] = record[:country] if !record[:country].to_s.empty? && existing_actor['country'].to_s.empty?
+    updates['name'] = record[:display_name] if !record[:display_name].to_s.empty? && record[:display_name] != existing_actor['name']
+
+    # Merge aliases
+    merged_aliases = (manual_aliases + record[:aliases]).uniq.sort
+    updates['aliases'] = merged_aliases if merged_aliases != manual_aliases
+
+    # Merge sectors if importer provides them and manual had some
+    merge_array_field(updates, existing_actor, 'sector_focus', record[:sector_focus])
+
+    puts "  TAKEOVER: Converted manual entry '#{existing_actor['name']}' to analyst notes"
+
+    updates
   end
 
   def apply_results(evaluation, existing_actors, existing_pages)

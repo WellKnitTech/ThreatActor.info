@@ -18,6 +18,7 @@ class RansomLookImporter
   LICENSE_NAME = 'CC BY 4.0'.freeze
   LICENSE_URL = 'https://creativecommons.org/licenses/by/4.0/'.freeze
   SOURCE_NAME = 'RansomLook'.freeze
+  MANUAL_SOURCE_NAMES = ['Manual Entry', 'Analyst Notes'].freeze
   SOURCE_REPOSITORY = 'https://github.com/RansomLook/RansomLook'.freeze
   REQUIRED_HEADINGS = [
     'Introduction',
@@ -379,6 +380,11 @@ class RansomLookImporter
       updates['source_license_url'] = LICENSE_URL
     end
 
+    # Handle takeover: if manual entry found by importer, convert manual data to analyst notes
+    if MANUAL_SOURCE_NAMES.include?(existing_actor['source_name'])
+      updates = handle_manual_takeover(updates, existing_actor, record)
+    end
+
     if record[:source_record_url] && (existing_actor['source_record_url'].to_s.empty? || existing_actor['source_name'] == SOURCE_NAME)
       updates['source_record_url'] = record[:source_record_url]
     end
@@ -403,6 +409,58 @@ class RansomLookImporter
       'source_retrieved_at' => record[:source_retrieved_at],
       'source_transforms' => record[:source_transforms]
     }.reject { |_key, value| value.nil? || value == [] || value == '' }
+  end
+
+  # Handle takeover: convert manual entry to analyst notes when importer finds it
+  def handle_manual_takeover(updates, existing_actor, record)
+    manual_description = existing_actor['description'].to_s.strip
+    manual_country = existing_actor['country'].to_s.strip
+    manual_aliases = Array(existing_actor['aliases'])
+    manual_sectors = Array(existing_actor['sector_focus'])
+    manual_targets = Array(existing_actor['targeted_victims'])
+    manual_first_seen = existing_actor['first_seen'].to_s.strip
+    manual_last_activity = existing_actor['last_activity'].to_s.strip
+
+    analyst_notes_parts = []
+
+    if !manual_description.empty?
+      analyst_notes_parts << "Previous description: #{manual_description}"
+    end
+
+    if manual_aliases.any?
+      analyst_notes_parts << "Previous aliases: #{manual_aliases.join(', ')}"
+    end
+
+    if manual_country
+      analyst_notes_parts << "Previous country: #{manual_country}"
+    end
+
+    if !manual_first_seen.empty? || !manual_last_activity.empty?
+      activity = []
+      activity << "first seen: #{manual_first_seen}" if !manual_first_seen.empty?
+      activity << "last active: #{manual_last_activity}" if !manual_last_activity.empty?
+      analyst_notes_parts << "Previous activity: #{activity.join(', ')}"
+    end
+
+    analyst_notes_parts << ""
+    analyst_notes_parts << "=== Automated import from #{record[:name] || 'RansomLook'} ==="
+
+    analyst_notes = analyst_notes_parts.join("\n")
+    if !analyst_notes.nil?
+      existing_notes = existing_actor['analyst_notes'].to_s.strip
+      if existing_notes.empty?
+        updates['analyst_notes'] = analyst_notes
+      else
+        updates['analyst_notes'] = "#{existing_notes}\n\n---\n\n#{analyst_notes}"
+      end
+    end
+
+    updates['source_name'] = SOURCE_NAME
+    updates['source_attribution'] = source_attribution_text
+
+    puts "  TAKEOVER: Converted manual entry '#{existing_actor['name']}' to analyst notes"
+
+    updates
   end
 
   def build_description(record)
