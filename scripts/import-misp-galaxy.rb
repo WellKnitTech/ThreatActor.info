@@ -570,18 +570,34 @@ risk_level = if confidence >= 70
       new_aliases = candidate[:aliases] - existing_aliases
       actor['aliases'] = existing_aliases | new_aliases unless new_aliases.empty?
 
-# Update missing fields
+      # Update missing fields
       actor['risk_level'] ||= candidate[:risk_level]
       actor['sector_focus'] ||= candidate[:sector_focus] if candidate[:sector_focus] && !candidate[:sector_focus].empty?
       actor['country'] ||= candidate[:country]
-      actor['targeted_victims'] ||= candidate[:targeted_victims] if candidate[:targeted_victims] && !candidate[:targeted_victims].empty?
+      actor['targeted_victims'] ||= candidate[:targeted_victims'] if candidate['targeted_victims'] && !candidate['targeted_victims'].empty?
       actor['incident_type'] ||= candidate[:incident_type] if candidate[:incident_type]
       actor['malware'] ||= candidate[:malware] if candidate[:malware] && !candidate[:malware].empty?
+
+      # Replace placeholder description with real data from MISP
+      if candidate[:description] && !candidate[:description].strip.empty?
+        is_placeholder = actor['provenance'] && actor['provenance']['placeholder_description']
+        if is_placeholder || !actor['description'] || actor['description'].include?('pending cataloguing')
+          actor['description'] = candidate[:description]
+          # Clear placeholder provenance when real data replaces it
+          if actor['provenance']
+            actor['provenance'].delete('placeholder_description')
+            actor['provenance'].delete('placeholder_reason')
+            actor['provenance'].delete('auto_generated_at')
+            actor['provenance'].compact!
+          end
+        end
+      end
 
       puts "Updated (additive): #{candidate[:name]}"
     else
       # Full update with --force
       actor['aliases'] = candidate[:aliases] if candidate[:aliases]
+      actor['description'] = candidate[:description] if candidate[:description] && !candidate[:description].strip.empty?
       actor['risk_level'] = candidate[:risk_level] if candidate[:risk_level]
       actor['sector_focus'] = candidate[:sector_focus] if candidate[:sector_focus] && !candidate[:sector_focus].empty?
       actor['country'] = candidate[:country] if candidate[:country]
@@ -591,6 +607,10 @@ risk_level = if confidence >= 70
         'source_record_id' => candidate[:misp_uuid],
         'source_dataset_url' => SOURCE_URL
       }
+      # Clear placeholder flags on forced update
+      actor['provenance'].delete('placeholder_description')
+      actor['provenance'].delete('placeholder_reason')
+      actor['provenance'].delete('auto_generated_at')
 
       puts "Updated (forced): #{candidate[:name]}"
     end
