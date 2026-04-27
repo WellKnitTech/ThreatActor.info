@@ -1,9 +1,13 @@
-name: "DEV-1028"
-aliases: ["DEV-1028"]
-description: "Microsoft reported on MCCrash, an IoT botnet operated by the DEV-1028 threat actor and used to launch DDoS attacks against private Minecraft servers."
+---
+name: DEV-1028
+aliases:
+- DEV-1028
+description: Microsoft reported on MCCrash, an IoT botnet operated by the DEV-1028
+  threat actor and used to launch DDoS attacks against private Minecraft servers.
 url: "/dev-1028"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "6616d2ac-2025-47f8-bb1a-1ece2b627c16"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 6616d2ac-2025-47f8-bb1a-1ece2b627c16
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

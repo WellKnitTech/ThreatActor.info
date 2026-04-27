@@ -1,10 +1,25 @@
-name: "Daixin Team"
-aliases: ["Daixin Team"]
-description: "Daixin is a threat actor group that has been active since at least June 2022. They primarily target the healthcare and public health sector with ransomware attacks, stealing sensitive data and threatening to release it if a ransom is not paid. They have successfully targeted various industries, including healthcare, aerospace, automotive, and packaged foods. Daixin gains initial access through VPN servers and exploits vulnerabilities or uses phishing attacks to obtain credentials. They have been responsible for cyberattacks on organizations such as the North Texas Municipal Water District and TransForm Shared Service Org, impacting their networks and stealing customer and patient information."
+---
+name: Daixin Team
+aliases:
+- Daixin Team
+description: Daixin is a threat actor group that has been active since at least June
+  2022. They primarily target the healthcare and public health sector with ransomware
+  attacks, stealing sensitive data and threatening to release it if a ransom is not
+  paid. They have successfully targeted various industries, including healthcare,
+  aerospace, automotive, and packaged foods. Daixin gains initial access through VPN
+  servers and exploits vulnerabilities or uses phishing attacks to obtain credentials.
+  They have been responsible for cyberattacks on organizations such as the North Texas
+  Municipal Water District and TransForm Shared Service Org, impacting their networks
+  and stealing customer and patient information.
 url: "/daixin-team"
-malware: ["{\"name\" => \"SPACESHIP\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"Xploit\"}"]
+malware:
+- '{"name" => "SPACESHIP"}'
+- '{"name" => "CyberGate"}'
+- '{"name" => "Cyber Eye RAT"}'
+- '{"name" => "Xploit"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "5e32baed-f4b5-4149-8540-7515ad8c4dc0"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 5e32baed-f4b5-4149-8540-7515ad8c4dc0
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

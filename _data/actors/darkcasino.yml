@@ -1,10 +1,21 @@
-name: "DarkCasino"
-aliases: ["DarkCasino"]
-description: "DarkCasino is an economically motivated APT group that targets online trading platforms, including cryptocurrencies, online casinos, network banks, and online credit platforms. They are skilled at stealing passwords to access victims' online accounts and have been active for over a year. DarkCasino exploits vulnerabilities, such as the WinRAR vulnerability CVE-2023-38831, to launch phishing attacks and steal online property."
+---
+name: DarkCasino
+aliases:
+- DarkCasino
+description: DarkCasino is an economically motivated APT group that targets online
+  trading platforms, including cryptocurrencies, online casinos, network banks, and
+  online credit platforms. They are skilled at stealing passwords to access victims'
+  online accounts and have been active for over a year. DarkCasino exploits vulnerabilities,
+  such as the WinRAR vulnerability CVE-2023-38831, to launch phishing attacks and
+  steal online property.
 url: "/darkcasino"
-malware: ["{\"name\" => \"DarkComet\"}","{\"name\" => \"Xploit\"}","{\"name\" => \"Killer RAT\"}"]
+malware:
+- '{"name" => "DarkComet"}'
+- '{"name" => "Xploit"}'
+- '{"name" => "Killer RAT"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "b9128c29-8941-48a8-a5be-8076dde03a08"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: b9128c29-8941-48a8-a5be-8076dde03a08
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

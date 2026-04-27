@@ -1,10 +1,23 @@
-name: "Adrastea"
-aliases: ["Adrastea"]
-description: "Adrastea is a threat actor who has been active on cybercrime forums, claiming to have breached organizations like MBDA and offering stolen data for sale. They describe themselves as a group of independent cybersecurity experts and researchers. Adrastea has been linked to ransomware operations, data leak platforms, and network access groups. The actor has been known to exploit critical vulnerabilities in target organizations' infrastructure to gain access to sensitive data."
+---
+name: Adrastea
+aliases:
+- Adrastea
+description: Adrastea is a threat actor who has been active on cybercrime forums,
+  claiming to have breached organizations like MBDA and offering stolen data for sale.
+  They describe themselves as a group of independent cybersecurity experts and researchers.
+  Adrastea has been linked to ransomware operations, data leak platforms, and network
+  access groups. The actor has been known to exploit critical vulnerabilities in target
+  organizations' infrastructure to gain access to sensitive data.
 url: "/adrastea"
-malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"Xpert\"}","{\"name\" => \"Xploit\"}","{\"name\" => \"Archelaus Beta\"}"]
+malware:
+- '{"name" => "CyberGate"}'
+- '{"name" => "Cyber Eye RAT"}'
+- '{"name" => "Xpert"}'
+- '{"name" => "Xploit"}'
+- '{"name" => "Archelaus Beta"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "b7f37e61-0e1c-4818-9a04-8f83afdd337c"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: b7f37e61-0e1c-4818-9a04-8f83afdd337c
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

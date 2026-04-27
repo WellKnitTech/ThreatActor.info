@@ -1,9 +1,20 @@
-name: "Water Labbu"
-aliases: ["Water Labbu"]
-description: "Trend Micro discovered a threat actor they named Water Labbu that was targeting cryptocurrency scam websites. Typically, cryptocurrency scammers use social engineering techniques,  interacting with victims to gain their trust and then manipulating them into providing the permissions needed to transfer cryptocurrency assets. While Water Labbu managed to steal cryptocurrencies via a similar method by obtaining access permissions and token allowances from their victim’s wallets, unlike other similar campaigns, they did not use any kind of social engineering — at least not directly. Instead, Water Labbu lets other scammers use their social engineering tricks to scam unsuspecting victims."
+---
+name: Water Labbu
+aliases:
+- Water Labbu
+description: Trend Micro discovered a threat actor they named Water Labbu that was
+  targeting cryptocurrency scam websites. Typically, cryptocurrency scammers use social
+  engineering techniques,  interacting with victims to gain their trust and then manipulating
+  them into providing the permissions needed to transfer cryptocurrency assets. While
+  Water Labbu managed to steal cryptocurrencies via a similar method by obtaining
+  access permissions and token allowances from their victim’s wallets, unlike other
+  similar campaigns, they did not use any kind of social engineering — at least not
+  directly. Instead, Water Labbu lets other scammers use their social engineering
+  tricks to scam unsuspecting victims.
 url: "/water-labbu"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "7f24740c-9370-4968-a92e-667ef2591abe"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 7f24740c-9370-4968-a92e-667ef2591abe
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

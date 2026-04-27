@@ -1,10 +1,25 @@
-name: "APT43"
-aliases: ["APT43"]
-description: "• APT43 is a prolific cyber operator that supports the interests of the North Korean regime. The group combines moderately-sophisticated technical capabilities with aggressive social engineering tactics, especially against South Korean and U.S.-based government organizations, academics, and think tanks focused on Korean peninsula geopolitical issues. \n• In addition to its espionage campaigns, we believe APT43 funds itself through cybercrime operations to support its primary mission of collecting strategic intelligence. \n• The group creates numerous spoofed and fraudulent personas for use in social engineering, as well as cover identities for purchasing operational tooling and infrastructure. \n• APT43 has collaborated with other North Korean espionage operators on multiple operations, underscoring the major role APT43 plays in the regime’s cyber apparatus."
+---
+name: APT43
+aliases:
+- APT43
+description: "• APT43 is a prolific cyber operator that supports the interests of
+  the North Korean regime. The group combines moderately-sophisticated technical capabilities
+  with aggressive social engineering tactics, especially against South Korean and
+  U.S.-based government organizations, academics, and think tanks focused on Korean
+  peninsula geopolitical issues. \n• In addition to its espionage campaigns, we believe
+  APT43 funds itself through cybercrime operations to support its primary mission
+  of collecting strategic intelligence. \n• The group creates numerous spoofed and
+  fraudulent personas for use in social engineering, as well as cover identities for
+  purchasing operational tooling and infrastructure. \n• APT43 has collaborated with
+  other North Korean espionage operators on multiple operations, underscoring the
+  major role APT43 plays in the regime’s cyber apparatus."
 url: "/apt43"
-malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
+malware:
+- '{"name" => "CyberGate"}'
+- '{"name" => "Cyber Eye RAT"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "aac49b4e-74e9-49fa-84f9-e340cf8bafbc"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: aac49b4e-74e9-49fa-84f9-e340cf8bafbc
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

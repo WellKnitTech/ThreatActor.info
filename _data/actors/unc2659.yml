@@ -1,10 +1,19 @@
-name: "UNC2659"
-aliases: ["UNC2659"]
-description: "UNC2659 has been active since at least January 2021. We have observed the threat actor move through the whole attack lifecycle in under 10 days. UNC2659 is notable given their use of an exploit in the SonicWall SMA100 SSL VPN product, which has since been patched by SonicWall. The threat actor appeared to download several tools used for various phases of the attack lifecycle directly from those tools’ legitimate public websites."
+---
+name: UNC2659
+aliases:
+- UNC2659
+description: UNC2659 has been active since at least January 2021. We have observed
+  the threat actor move through the whole attack lifecycle in under 10 days. UNC2659
+  is notable given their use of an exploit in the SonicWall SMA100 SSL VPN product,
+  which has since been patched by SonicWall. The threat actor appeared to download
+  several tools used for various phases of the attack lifecycle directly from those
+  tools’ legitimate public websites.
 url: "/unc2659"
-malware: ["{\"name\" => \"Xploit\"}"]
+malware:
+- '{"name" => "Xploit"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "697cb051-5315-4026-bf4c-553b49f817a9"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 697cb051-5315-4026-bf4c-553b49f817a9
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

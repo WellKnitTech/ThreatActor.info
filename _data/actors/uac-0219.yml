@@ -1,10 +1,30 @@
-name: "UAC-0219"
-aliases: ["UAC-0219"]
-description: "UAC-0219 is a hacking group observed conducting cyber-espionage operations targeting Ukrainian critical sectors, primarily utilising WRECKSTEEL malware for file exfiltration in both VBScript and PowerShell variants. Their activities focus on gathering intelligence from military innovation hubs, armed forces, law enforcement, and regional government institutions. CERT-UA has linked multiple cyber-attacks against government agencies and critical infrastructure in Ukraine to UAC-0219, emphasizing their reliance on specialized malware for sensitive information theft. The group’s operations are characterized by stealthy access and data exfiltration tactics, consistent with state-sponsored APT behavior."
+---
+name: UAC-0219
+aliases:
+- UAC-0219
+description: UAC-0219 is a hacking group observed conducting cyber-espionage operations
+  targeting Ukrainian critical sectors, primarily utilising WRECKSTEEL malware for
+  file exfiltration in both VBScript and PowerShell variants. Their activities focus
+  on gathering intelligence from military innovation hubs, armed forces, law enforcement,
+  and regional government institutions. CERT-UA has linked multiple cyber-attacks
+  against government agencies and critical infrastructure in Ukraine to UAC-0219,
+  emphasizing their reliance on specialized malware for sensitive information theft.
+  The group’s operations are characterized by stealthy access and data exfiltration
+  tactics, consistent with state-sponsored APT behavior.
 url: "/uac-0219"
-malware: ["{\"name\" => \"Hacking Team UEFI Rootkit\"}","{\"name\" => \"PowerDuke\"}","{\"name\" => \"POWERSTATS\"}","{\"name\" => \"Power Loader\"}","{\"name\" => \"POWERSOURCE\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"Nova\"}","{\"name\" => \"PowerRAT\"}"]
+malware:
+- '{"name" => "Hacking Team UEFI Rootkit"}'
+- '{"name" => "PowerDuke"}'
+- '{"name" => "POWERSTATS"}'
+- '{"name" => "Power Loader"}'
+- '{"name" => "POWERSOURCE"}'
+- '{"name" => "CyberGate"}'
+- '{"name" => "Cyber Eye RAT"}'
+- '{"name" => "Nova"}'
+- '{"name" => "PowerRAT"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "0bcd32bc-a241-44aa-a3eb-492eecb004eb"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 0bcd32bc-a241-44aa-a3eb-492eecb004eb
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

@@ -1,11 +1,25 @@
-name: "UTA0178"
-aliases: ["UNC5221","Red Dev 61","UTA0178"]
-description: "While Volexity largely observed the attacker essentially living off the land, they still deployed a handful of malware files and tools during the course of the incident which primarily consisted of webshells, proxy utilities, and file modifications to allow credential harvesting. Once UTA0178 had access into the network via the ICS VPN appliance, their general approach was to pivot from system to system using compromised credentials. They would then further compromise credentials of users on any new system that was breached, and use these credentials to log into additional systems via RDP. Volexity observed the attacker obtaining credentials in a variety of ways."
+---
+name: UTA0178
+aliases:
+- UNC5221
+- Red Dev 61
+- UTA0178
+description: While Volexity largely observed the attacker essentially living off the
+  land, they still deployed a handful of malware files and tools during the course
+  of the incident which primarily consisted of webshells, proxy utilities, and file
+  modifications to allow credential harvesting. Once UTA0178 had access into the network
+  via the ICS VPN appliance, their general approach was to pivot from system to system
+  using compromised credentials. They would then further compromise credentials of
+  users on any new system that was breached, and use these credentials to log into
+  additional systems via RDP. Volexity observed the attacker obtaining credentials
+  in a variety of ways.
 url: "/uta0178"
-country: "China"
-targeted_victims: ["Germany"]
+country: China
+targeted_victims:
+- Germany
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "f288f686-b5b3-4c86-9960-5f8fb18709a3"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: f288f686-b5b3-4c86-9960-5f8fb18709a3
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

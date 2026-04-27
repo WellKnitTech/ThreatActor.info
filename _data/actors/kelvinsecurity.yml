@@ -1,11 +1,25 @@
-name: "KelvinSecurity"
-aliases: ["KelvinSecurity"]
-description: "KelvinSecurity is a hacker group that has been active since at least 2015. They are known for their hacktivist and black hat activities, targeting public and private organizations globally. The group sells and leaks databases, documents, and access belonging to their victims, often on the dark web or their own platforms. They have been involved in attacks against various sectors, including telecommunications, political parties, and healthcare."
+---
+name: KelvinSecurity
+aliases:
+- KelvinSecurity
+description: KelvinSecurity is a hacker group that has been active since at least
+  2015. They are known for their hacktivist and black hat activities, targeting public
+  and private organizations globally. The group sells and leaks databases, documents,
+  and access belonging to their victims, often on the dark web or their own platforms.
+  They have been involved in attacks against various sectors, including telecommunications,
+  political parties, and healthcare.
 url: "/kelvinsecurity"
-country: "Spain"
-malware: ["{\"name\" => \"BlackEnergy\"}","{\"name\" => \"BLACKCOFFEE\"}","{\"name\" => \"Blackshades\"}","{\"name\" => \"BlackNix\"}","{\"name\" => \"Dark DDoSeR\"}","{\"name\" => \"BlackHole\"}"]
+country: Spain
+malware:
+- '{"name" => "BlackEnergy"}'
+- '{"name" => "BLACKCOFFEE"}'
+- '{"name" => "Blackshades"}'
+- '{"name" => "BlackNix"}'
+- '{"name" => "Dark DDoSeR"}'
+- '{"name" => "BlackHole"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "7b8845d9-d7f5-4895-9dcc-54da3492bd55"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 7b8845d9-d7f5-4895-9dcc-54da3492bd55
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

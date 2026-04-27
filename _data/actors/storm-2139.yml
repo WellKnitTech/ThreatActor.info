@@ -1,10 +1,23 @@
-name: "Storm-2139"
-aliases: ["Storm-2139"]
-description: "Storm-2139 is a cybercrime group that exploited stolen API keys from compromised Azure OpenAI Service accounts to generate harmful content, including non-consensual intimate imagery, using the DALL-E model. The group utilized reverse proxy infrastructure and custom software to bypass guardrails in Microsoft’s GenAI services. Microsoft has filed a lawsuit against four individuals associated with Storm-2139, alleging they modified customer systems and resold access to these capabilities. The group systematically harvested authentication tokens from U.S.-based enterprises and is linked to a broader network of illicit AI tool development and distribution."
+---
+name: Storm-2139
+aliases:
+- Storm-2139
+description: Storm-2139 is a cybercrime group that exploited stolen API keys from
+  compromised Azure OpenAI Service accounts to generate harmful content, including
+  non-consensual intimate imagery, using the DALL-E model. The group utilized reverse
+  proxy infrastructure and custom software to bypass guardrails in Microsoft’s GenAI
+  services. Microsoft has filed a lawsuit against four individuals associated with
+  Storm-2139, alleging they modified customer systems and resold access to these capabilities.
+  The group systematically harvested authentication tokens from U.S.-based enterprises
+  and is linked to a broader network of illicit AI tool development and distribution.
 url: "/storm-2139"
-malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"Xploit\"}"]
+malware:
+- '{"name" => "CyberGate"}'
+- '{"name" => "Cyber Eye RAT"}'
+- '{"name" => "Xploit"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "07e1bbc4-19ad-4706-a5fe-cf28f0b67300"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 07e1bbc4-19ad-4706-a5fe-cf28f0b67300
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

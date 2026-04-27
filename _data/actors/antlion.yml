@@ -1,12 +1,19 @@
-name: "Antlion"
-aliases: ["Antlion"]
-description: "Antlion is a Chinese state-backed advanced persistent threat (APT) group, who has been targeting financial institutions in Taiwan. This persistent campaign has lasted over the course of at least 18 months."
+---
+name: Antlion
+aliases:
+- Antlion
+description: Antlion is a Chinese state-backed advanced persistent threat (APT) group,
+  who has been targeting financial institutions in Taiwan. This persistent campaign
+  has lasted over the course of at least 18 months.
 url: "/antlion"
-country: "China"
-sector_focus: ["Financial"]
-targeted_victims: ["Taiwan"]
+country: China
+sector_focus:
+- Financial
+targeted_victims:
+- Taiwan
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "8482f350-867c-11ec-a8a3-0242ac120002"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 8482f350-867c-11ec-a8a3-0242ac120002
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

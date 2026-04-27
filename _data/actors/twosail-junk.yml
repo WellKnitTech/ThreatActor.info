@@ -1,10 +1,20 @@
-name: "TwoSail Junk"
-aliases: ["Operation Poisoned News","TwoSail Junk"]
-description: "TwoSail Junk directs visitors to its exploit site by posting links within the threads of forum discussions, or creating new topic threads of their own. To date, dozens of visits were recorded from within Hong Kong, with a couple from Macau. The technical details around the functionality of the iOS implant, called LightSpy, and related infrastructure, reveal a low-to-mid capable actor. However, the iOS implant is a modular and exhaustively functional iOS surveillance framework."
+---
+name: TwoSail Junk
+aliases:
+- Operation Poisoned News
+- TwoSail Junk
+description: TwoSail Junk directs visitors to its exploit site by posting links within
+  the threads of forum discussions, or creating new topic threads of their own. To
+  date, dozens of visits were recorded from within Hong Kong, with a couple from Macau.
+  The technical details around the functionality of the iOS implant, called LightSpy,
+  and related infrastructure, reveal a low-to-mid capable actor. However, the iOS
+  implant is a modular and exhaustively functional iOS surveillance framework.
 url: "/twosail-junk"
-malware: ["{\"name\" => \"Xploit\"}"]
+malware:
+- '{"name" => "Xploit"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "533af03d-e160-4312-a92f-0500055f2b56"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 533af03d-e160-4312-a92f-0500055f2b56
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

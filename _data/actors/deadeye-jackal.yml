@@ -1,12 +1,34 @@
-name: "Deadeye Jackal"
-aliases: ["SyrianElectronicArmy","SEA","Deadeye Jackal"]
-description: "The Syrian Electronic Army (SEA) is a group of computer hackers which first surfaced online in 2011 to support the government of Syrian President Bashar al-Assad. Using spamming, website defacement, malware, phishing, and denial of service attacks, it has targeted political opposition groups, western news organizations, human rights groups and websites that are seemingly neutral to the Syrian conflict. It has also hacked government websites in the Middle East and Europe, as well as US defense contractors. As of 2011 the SEA has been *the first Arab country to have a public Internet Army hosted on its national networks to openly launch cyber attacks on its enemies*. The precise nature of SEA's relationship with the Syrian government has changed over time and is unclear"
+---
+name: Deadeye Jackal
+aliases:
+- SyrianElectronicArmy
+- SEA
+- Deadeye Jackal
+description: The Syrian Electronic Army (SEA) is a group of computer hackers which
+  first surfaced online in 2011 to support the government of Syrian President Bashar
+  al-Assad. Using spamming, website defacement, malware, phishing, and denial of service
+  attacks, it has targeted political opposition groups, western news organizations,
+  human rights groups and websites that are seemingly neutral to the Syrian conflict.
+  It has also hacked government websites in the Middle East and Europe, as well as
+  US defense contractors. As of 2011 the SEA has been *the first Arab country to have
+  a public Internet Army hosted on its national networks to openly launch cyber attacks
+  on its enemies*. The precise nature of SEA's relationship with the Syrian government
+  has changed over time and is unclear
 url: "/deadeye-jackal"
-sector_focus: ["Country","Defense","Opposition","Political party","News - Media","Government, Administration"]
-risk_level: "High"
-malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
+sector_focus:
+- Country
+- Defense
+- Opposition
+- Political party
+- News - Media
+- Government, Administration
+risk_level: High
+malware:
+- '{"name" => "CyberGate"}'
+- '{"name" => "Cyber Eye RAT"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "4265d44e-8372-4ed0-b428-b331a5443d7d"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 4265d44e-8372-4ed0-b428-b331a5443d7d
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

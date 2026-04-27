@@ -1,10 +1,24 @@
-name: "Caracal Kitten"
-aliases: ["APT-Q-58","Caracal Kitten"]
-description: "Caracal Kitten is an APT group that has been targeting activists associated with the Kurdistan Democratic Party. They employ a mobile remote access Trojan to gain unauthorized access to victims' devices. The group disguises their malware as legitimate mobile apps, tricking users into installing them and granting the hackers access to their personal data."
+---
+name: Caracal Kitten
+aliases:
+- APT-Q-58
+- Caracal Kitten
+description: Caracal Kitten is an APT group that has been targeting activists associated
+  with the Kurdistan Democratic Party. They employ a mobile remote access Trojan to
+  gain unauthorized access to victims' devices. The group disguises their malware
+  as legitimate mobile apps, tricking users into installing them and granting the
+  hackers access to their personal data.
 url: "/caracal-kitten"
-malware: ["{\"name\" => \"MobileOrder\"}","{\"name\" => \"Trojan.Karagany\"}","{\"name\" => \"RemoteCMD\"}","{\"name\" => \"Trojan.Mebromi\"}","{\"name\" => \"Remote Utilities\"}","{\"name\" => \"RemotePC\"}"]
+malware:
+- '{"name" => "MobileOrder"}'
+- '{"name" => "Trojan.Karagany"}'
+- '{"name" => "RemoteCMD"}'
+- '{"name" => "Trojan.Mebromi"}'
+- '{"name" => "Remote Utilities"}'
+- '{"name" => "RemotePC"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "46a67fdf-5376-4d01-8092-6549a20030af"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 46a67fdf-5376-4d01-8092-6549a20030af
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

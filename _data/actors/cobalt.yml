@@ -1,10 +1,24 @@
-name: "Cobalt"
-aliases: ["Cobalt Group","Cobalt Gang","GOLD KINGSWOOD","COBALT SPIDER","G0080","Mule Libra","Cobalt"]
-description: "A criminal group dubbed Cobalt is behind synchronized ATM heists that saw machines across Europe, CIS countries (including Russia), and Malaysia being raided simultaneously, in the span of a few hours. The group has been active since June 2016, and their latest attacks happened in July and August."
+---
+name: Cobalt
+aliases:
+- Cobalt Group
+- Cobalt Gang
+- GOLD KINGSWOOD
+- COBALT SPIDER
+- G0080
+- Mule Libra
+- Cobalt
+description: A criminal group dubbed Cobalt is behind synchronized ATM heists that
+  saw machines across Europe, CIS countries (including Russia), and Malaysia being
+  raided simultaneously, in the span of a few hours. The group has been active since
+  June 2016, and their latest attacks happened in July and August.
 url: "/cobalt"
-malware: ["{\"name\" => \"Cobalt Strike\"}","{\"name\" => \"CrossRat\"}"]
+malware:
+- '{"name" => "Cobalt Strike"}'
+- '{"name" => "CrossRat"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "01967480-c49b-4d4a-a7fa-aef0eaf535fe"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: '01967480-c49b-4d4a-a7fa-aef0eaf535fe'
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

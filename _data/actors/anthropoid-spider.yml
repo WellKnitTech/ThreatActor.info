@@ -1,11 +1,28 @@
-name: "ANTHROPOID SPIDER"
-aliases: ["Empire Monkey","CobaltGoblin","ANTHROPOID SPIDER"]
-description: "Publicly known as 'EmpireMonkey', ANTHROPOID SPIDER conducted phishing campaigns in February and March 2019, spoofing French, Norwegian and Belizean financial regulators and institutions. These campaigns used macro-enabled Microsoft documents to deliver the PowerShell Empire post-exploitation framework. ANTHROPOID SPIDER likely enabled a breach that allegedly involved fraudulent transfers over the SWIFT network."
+---
+name: ANTHROPOID SPIDER
+aliases:
+- Empire Monkey
+- CobaltGoblin
+- ANTHROPOID SPIDER
+description: Publicly known as 'EmpireMonkey', ANTHROPOID SPIDER conducted phishing
+  campaigns in February and March 2019, spoofing French, Norwegian and Belizean financial
+  regulators and institutions. These campaigns used macro-enabled Microsoft documents
+  to deliver the PowerShell Empire post-exploitation framework. ANTHROPOID SPIDER
+  likely enabled a breach that allegedly involved fraudulent transfers over the SWIFT
+  network.
 url: "/anthropoid-spider"
-sector_focus: ["Finance"]
-malware: ["{\"name\" => \"PowerDuke\"}","{\"name\" => \"POWERSTATS\"}","{\"name\" => \"Power Loader\"}","{\"name\" => \"POWERSOURCE\"}","{\"name\" => \"Xploit\"}","{\"name\" => \"PowerRAT\"}"]
+sector_focus:
+- Finance
+malware:
+- '{"name" => "PowerDuke"}'
+- '{"name" => "POWERSTATS"}'
+- '{"name" => "Power Loader"}'
+- '{"name" => "POWERSOURCE"}'
+- '{"name" => "Xploit"}'
+- '{"name" => "PowerRAT"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "559a64d8-8657-4a93-9208-060d52efdec4"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 559a64d8-8657-4a93-9208-060d52efdec4
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

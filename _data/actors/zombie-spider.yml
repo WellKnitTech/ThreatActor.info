@@ -1,10 +1,22 @@
-name: "ZOMBIE SPIDER"
-aliases: ["ZOMBIE SPIDER"]
-description: "On April 7, 2017, Pytor Levashov — who predominantly used the alias Severa or Peter Severa and whom Falcon Intelligence tracks as ZOMBIE SPIDER — was arrested in an international law enforcement operation led by the FBI. ZOMBIE SPIDER’s specialty was large-scale spam distribution, a fundamental component of cybercrime operations. Levashov was the primary threat actor behind a botnet known as Kelihos and its predecessors, Waledac and Storm. In addition to Levashov’s arrest, there was a technical operation conducted by Falcon Intelligence to seize control of the Kelihos botnet."
+---
+name: ZOMBIE SPIDER
+aliases:
+- ZOMBIE SPIDER
+description: On April 7, 2017, Pytor Levashov — who predominantly used the alias Severa
+  or Peter Severa and whom Falcon Intelligence tracks as ZOMBIE SPIDER — was arrested
+  in an international law enforcement operation led by the FBI. ZOMBIE SPIDER’s specialty
+  was large-scale spam distribution, a fundamental component of cybercrime operations.
+  Levashov was the primary threat actor behind a botnet known as Kelihos and its predecessors,
+  Waledac and Storm. In addition to Levashov’s arrest, there was a technical operation
+  conducted by Falcon Intelligence to seize control of the Kelihos botnet.
 url: "/zombie-spider"
-malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"ZOMBIE SLAYER\"}"]
+malware:
+- '{"name" => "CyberGate"}'
+- '{"name" => "Cyber Eye RAT"}'
+- '{"name" => "ZOMBIE SLAYER"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "e01b8f3a-9366-11e9-9c6f-17ba128aa4b6"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: e01b8f3a-9366-11e9-9c6f-17ba128aa4b6
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

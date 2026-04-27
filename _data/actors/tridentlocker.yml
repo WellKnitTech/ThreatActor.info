@@ -1,10 +1,22 @@
-name: "TridentLocker"
-aliases: ["TridentLocker"]
-description: "TridentLocker is a ransomware group known for targeting organizations that manage high volumes of regulated or third-party data, including government services and telecom providers. They have claimed breaches of multiple victims, such as TMPartner, Sedgwick, and Advantage 360, often exfiltrating sensitive data before deploying ransomware. The group employs techniques such as stolen credentials, phishing, and exploitation of unpatched software to gain initial access and move laterally within networks. Their operations are characterized by high visibility postings on their leak portal, which include detailed victim profiles and countdown timers to create public pressure."
+---
+name: TridentLocker
+aliases:
+- TridentLocker
+description: TridentLocker is a ransomware group known for targeting organizations
+  that manage high volumes of regulated or third-party data, including government
+  services and telecom providers. They have claimed breaches of multiple victims,
+  such as TMPartner, Sedgwick, and Advantage 360, often exfiltrating sensitive data
+  before deploying ransomware. The group employs techniques such as stolen credentials,
+  phishing, and exploitation of unpatched software to gain initial access and move
+  laterally within networks. Their operations are characterized by high visibility
+  postings on their leak portal, which include detailed victim profiles and countdown
+  timers to create public pressure.
 url: "/tridentlocker"
-malware: ["{\"name\" => \"Xploit\"}"]
+malware:
+- '{"name" => "Xploit"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "9efccf75-35c2-4d45-8e54-22cdbe52f0e9"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 9efccf75-35c2-4d45-8e54-22cdbe52f0e9
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

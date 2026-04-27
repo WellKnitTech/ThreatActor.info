@@ -1,11 +1,23 @@
-name: "SilkSpecter"
-aliases: ["SilkSpecter"]
-description: "SilkSpecter is a Chinese financially motivated threat actor that orchestrates phishing campaigns targeting e-commerce shoppers, particularly during peak shopping seasons. They exploit legitimate payment processors like Stripe to exfiltrate Cardholder Data and Personally Identifiable Information through convincing fake e-commerce sites created using the oemapps SaaS platform. Their phishing infrastructure relies on Chinese-hosted CDN servers and utilizes deceptive elements such as the \"trusttollsvg\" icon and a \"/homeapi/collect\" endpoint to track victim interactions. Analysts have linked SilkSpecter to over 89 IP addresses and more than 4,000 domain names associated with phishing activities, predominantly using .top, .shop, .store, and .vip TLDs."
+---
+name: SilkSpecter
+aliases:
+- SilkSpecter
+description: SilkSpecter is a Chinese financially motivated threat actor that orchestrates
+  phishing campaigns targeting e-commerce shoppers, particularly during peak shopping
+  seasons. They exploit legitimate payment processors like Stripe to exfiltrate Cardholder
+  Data and Personally Identifiable Information through convincing fake e-commerce
+  sites created using the oemapps SaaS platform. Their phishing infrastructure relies
+  on Chinese-hosted CDN servers and utilizes deceptive elements such as the "trusttollsvg"
+  icon and a "/homeapi/collect" endpoint to track victim interactions. Analysts have
+  linked SilkSpecter to over 89 IP addresses and more than 4,000 domain names associated
+  with phishing activities, predominantly using .top, .shop, .store, and .vip TLDs.
 url: "/silkspecter"
-country: "China"
-malware: ["{\"name\" => \"Xploit\"}"]
+country: China
+malware:
+- '{"name" => "Xploit"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "0f4c942f-9491-4844-b782-4ee65033c7e0"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 0f4c942f-9491-4844-b782-4ee65033c7e0
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

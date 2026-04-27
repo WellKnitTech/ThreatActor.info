@@ -1,11 +1,28 @@
-name: "Wassonite"
-aliases: ["Wassonite"]
-description: "WASSONITE is a North Korea-linked APT that has targeted industrial sectors, including electric generation, nuclear energy, manufacturing, and research entities in India, South Korea, and Japan since at least 2018. The group employs DTrack RAT for remote access, Mimikatz for credential capture, and various system tools for lateral movement and file transfers. WASSONITE has been observed using nuclear energy-themed spear phishing lures to deploy the AppleSeed backdoor, which can take screenshots, log keystrokes, and execute commands from a C2 server. Their operations focus on initial access, reconnaissance, and data collection without demonstrating disruptive capabilities."
+---
+name: Wassonite
+aliases:
+- Wassonite
+description: WASSONITE is a North Korea-linked APT that has targeted industrial sectors,
+  including electric generation, nuclear energy, manufacturing, and research entities
+  in India, South Korea, and Japan since at least 2018. The group employs DTrack RAT
+  for remote access, Mimikatz for credential capture, and various system tools for
+  lateral movement and file transfers. WASSONITE has been observed using nuclear energy-themed
+  spear phishing lures to deploy the AppleSeed backdoor, which can take screenshots,
+  log keystrokes, and execute commands from a C2 server. Their operations focus on
+  initial access, reconnaissance, and data collection without demonstrating disruptive
+  capabilities.
 url: "/wassonite"
-country: "North Korea"
-malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"RemoteCMD\"}","{\"name\" => \"Nuclear RAT\"}","{\"name\" => \"Remote Utilities\"}","{\"name\" => \"RemotePC\"}","{\"name\" => \"Seed RAT\"}"]
+country: North Korea
+malware:
+- '{"name" => "Backdoor.Oldrea"}'
+- '{"name" => "RemoteCMD"}'
+- '{"name" => "Nuclear RAT"}'
+- '{"name" => "Remote Utilities"}'
+- '{"name" => "RemotePC"}'
+- '{"name" => "Seed RAT"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "fba00660-d18c-4af7-831c-25757e495907"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: fba00660-d18c-4af7-831c-25757e495907
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

@@ -1,11 +1,20 @@
-name: "Dancing Salome"
-aliases: ["Dancing Salome"]
-description: "Dancing Salome is the Kaspersky codename for an APT actor with a primary focus on ministries of foreign affairs, think tanks, and Ukraine. What makes Dancing Salome interesting and relevant is the attacker’s penchant for leveraging HackingTeam RCS implants compiled after the public breach."
+---
+name: Dancing Salome
+aliases:
+- Dancing Salome
+description: Dancing Salome is the Kaspersky codename for an APT actor with a primary
+  focus on ministries of foreign affairs, think tanks, and Ukraine. What makes Dancing
+  Salome interesting and relevant is the attacker’s penchant for leveraging HackingTeam
+  RCS implants compiled after the public breach.
 url: "/dancing-salome"
-sector_focus: ["Think Tanks","Government, Administration"]
-malware: ["{\"name\" => \"Hacking Team UEFI Rootkit\"}"]
+sector_focus:
+- Think Tanks
+- Government, Administration
+malware:
+- '{"name" => "Hacking Team UEFI Rootkit"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "3d5192f2-f235-46fd-aa68-dd00cc17d632"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 3d5192f2-f235-46fd-aa68-dd00cc17d632
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

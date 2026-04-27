@@ -1,10 +1,21 @@
-name: "INJ3CTOR3"
-aliases: ["INJ3CTOR3"]
-description: "INJ3CTOR3 is a threat actor first identified in 2020, known for targeting vulnerabilities in VoIP systems, specifically CVE-2019-19006 and CVE-2021-45461. Their operations involve exploiting FreePBX vulnerabilities to deploy PHP web shells for data exfiltration and persistence. The group utilizes tools for SIP server exploitation, including brute-force scripts and authentication bypass techniques. Observations indicate a resurgence of their attack patterns, reflecting historical behaviors while adapting to current vulnerabilities."
+---
+name: INJ3CTOR3
+aliases:
+- INJ3CTOR3
+description: INJ3CTOR3 is a threat actor first identified in 2020, known for targeting
+  vulnerabilities in VoIP systems, specifically CVE-2019-19006 and CVE-2021-45461.
+  Their operations involve exploiting FreePBX vulnerabilities to deploy PHP web shells
+  for data exfiltration and persistence. The group utilizes tools for SIP server exploitation,
+  including brute-force scripts and authentication bypass techniques. Observations
+  indicate a resurgence of their attack patterns, reflecting historical behaviors
+  while adapting to current vulnerabilities.
 url: "/inj3ctor3"
-malware: ["{\"name\" => \"BX\"}","{\"name\" => \"Xploit\"}"]
+malware:
+- '{"name" => "BX"}'
+- '{"name" => "Xploit"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "2bc5a93f-53f0-4af3-9065-c7cf74da12c7"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 2bc5a93f-53f0-4af3-9065-c7cf74da12c7
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

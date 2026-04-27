@@ -1,10 +1,23 @@
-name: "UAT-8616"
-aliases: ["UAT-8616"]
-description: "UAT-8616 is a highly sophisticated cyber threat actor attributed by Cisco Talos, with evidence of activity dating back to at least 2023. They have been observed exploiting CVE-2026-20127 in the wild and previously exploited CVE-2022-20775 by escalating to root user access through a software version downgrade. Their operations indicate a focus on targeting network edge devices to establish persistent footholds in high-value organizations, including Critical Infrastructure sectors."
+---
+name: UAT-8616
+aliases:
+- UAT-8616
+description: UAT-8616 is a highly sophisticated cyber threat actor attributed by Cisco
+  Talos, with evidence of activity dating back to at least 2023. They have been observed
+  exploiting CVE-2026-20127 in the wild and previously exploited CVE-2022-20775 by
+  escalating to root user access through a software version downgrade. Their operations
+  indicate a focus on targeting network edge devices to establish persistent footholds
+  in high-value organizations, including Critical Infrastructure sectors.
 url: "/uat-8616"
-malware: ["{\"name\" => \"Back Orifice\"}","{\"name\" => \"Back Orifice 2000\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"Xploit\"}"]
+malware:
+- '{"name" => "Back Orifice"}'
+- '{"name" => "Back Orifice 2000"}'
+- '{"name" => "CyberGate"}'
+- '{"name" => "Cyber Eye RAT"}'
+- '{"name" => "Xploit"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "c368d31a-8fd1-4d51-8fc4-9ea597bfe5b5"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: c368d31a-8fd1-4d51-8fc4-9ea597bfe5b5
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

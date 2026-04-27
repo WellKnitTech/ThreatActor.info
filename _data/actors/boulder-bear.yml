@@ -1,11 +1,14 @@
-name: "Boulder Bear"
-aliases: ["Boulder Bear"]
-description: "First observed activity in December 2013."
+---
+name: Boulder Bear
+aliases:
+- Boulder Bear
+description: First observed activity in December 2013.
 url: "/boulder-bear"
-country: "Russia"
-risk_level: "High"
+country: Russia
+risk_level: High
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "85b40169-3d1c-491b-9fbf-877ed57f32e0"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 85b40169-3d1c-491b-9fbf-877ed57f32e0
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

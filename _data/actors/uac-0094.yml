@@ -1,11 +1,22 @@
-name: "UAC-0094"
-aliases: ["UAC-0094"]
-description: "State Service of Special Communication and Information Protection of Ukraine spotted a new wave of cyber attacks aimed at gaining access to users’ Telegram accounts. The Ukrainian CERT attributes the hacking campaign to threat actors tracked as UAC-0094. Threat actors are targeting Telegram users by sending Telegram messages with malicious links to the Telegram website in order to gain unauthorized access to the records and transfer a one-time code from SMS."
+---
+name: UAC-0094
+aliases:
+- UAC-0094
+description: State Service of Special Communication and Information Protection of
+  Ukraine spotted a new wave of cyber attacks aimed at gaining access to users’ Telegram
+  accounts. The Ukrainian CERT attributes the hacking campaign to threat actors tracked
+  as UAC-0094. Threat actors are targeting Telegram users by sending Telegram messages
+  with malicious links to the Telegram website in order to gain unauthorized access
+  to the records and transfer a one-time code from SMS.
 url: "/uac-0094"
-country: "Russia"
-malware: ["{\"name\" => \"Hacking Team UEFI Rootkit\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
+country: Russia
+malware:
+- '{"name" => "Hacking Team UEFI Rootkit"}'
+- '{"name" => "CyberGate"}'
+- '{"name" => "Cyber Eye RAT"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "def3c4e4-9d59-478f-8895-d3850cfa99c3"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: def3c4e4-9d59-478f-8895-d3850cfa99c3
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

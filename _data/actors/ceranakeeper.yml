@@ -1,11 +1,23 @@
-name: "CeranaKeeper"
-aliases: ["CeranaKeeper"]
-description: "CeranaKeeper is a China-aligned APT that has been active since at least early 2022, primarily targeting governmental institutions in Asian countries. The group employs custom backdoors like TONESHELL and OneDoor, leveraging cloud services such as Dropbox and OneDrive for data exfiltration. CeranaKeeper utilizes techniques like side-loading, brute-force attacks, and the deployment of BAT scripts to extend its reach within compromised networks. Their operations are characterized by a relentless pursuit of sensitive data, adapting their toolset and methods to evade detection."
+---
+name: CeranaKeeper
+aliases:
+- CeranaKeeper
+description: CeranaKeeper is a China-aligned APT that has been active since at least
+  early 2022, primarily targeting governmental institutions in Asian countries. The
+  group employs custom backdoors like TONESHELL and OneDoor, leveraging cloud services
+  such as Dropbox and OneDrive for data exfiltration. CeranaKeeper utilizes techniques
+  like side-loading, brute-force attacks, and the deployment of BAT scripts to extend
+  its reach within compromised networks. Their operations are characterized by a relentless
+  pursuit of sensitive data, adapting their toolset and methods to evade detection.
 url: "/ceranakeeper"
-country: "China"
-malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"CloudDuke\"}","{\"name\" => \"China Chopper\"}"]
+country: China
+malware:
+- '{"name" => "Backdoor.Oldrea"}'
+- '{"name" => "CloudDuke"}'
+- '{"name" => "China Chopper"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "a798eb63-b0b2-4da5-8a9e-d6e821f775eb"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: a798eb63-b0b2-4da5-8a9e-d6e821f775eb
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

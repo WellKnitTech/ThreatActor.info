@@ -1,12 +1,36 @@
-name: "NoName057(16)"
-aliases: ["NoName057","NoName05716","05716nnm","Nnm05716","NoName057(16)"]
-description: "NoName057(16) is performing DDoS attacks on websites belonging to governments, news agencies, armies, suppliers, telecommunications companies, transportation authorities, financial institutions, and more in Ukraine and neighboring countries supporting Ukraine, like Ukraine itself, Estonia, Lithuania, Norway, and Poland."
+---
+name: NoName057(16)
+aliases:
+- NoName057
+- NoName05716
+- 05716nnm
+- Nnm05716
+- NoName057(16)
+description: NoName057(16) is performing DDoS attacks on websites belonging to governments,
+  news agencies, armies, suppliers, telecommunications companies, transportation authorities,
+  financial institutions, and more in Ukraine and neighboring countries supporting
+  Ukraine, like Ukraine itself, Estonia, Lithuania, Norway, and Poland.
 url: "/noname057-16"
-sector_focus: ["Financial","Government","Military","Telecommunications","Transportation"]
-targeted_victims: ["Czech Republic","Denmark","Estonia","Lithuania","NATO","Norway","Poland","Ukraine"]
-incident_type: ["Denial of service"]
+sector_focus:
+- Financial
+- Government
+- Military
+- Telecommunications
+- Transportation
+targeted_victims:
+- Czech Republic
+- Denmark
+- Estonia
+- Lithuania
+- NATO
+- Norway
+- Poland
+- Ukraine
+incident_type:
+- Denial of service
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "e62937d0-dec6-4c39-a836-e43b1d138df4"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: e62937d0-dec6-4c39-a836-e43b1d138df4
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

@@ -1,11 +1,30 @@
-name: "Packrat"
-aliases: ["Packrat"]
-description: "A threat group that has been active for at least seven years has used malware, phishing and disinformation tactics to target activists, journalists, politicians and public figures in various Latin American countries.  The threat actor, dubbed Packrat based on its preference for remote access Trojans (RATs) and because it has used the same infrastructure for several years, has been analyzed by Citizen Lab researchers John Scott-Railton, Morgan Marquis-Boire, and Claudio Guarnieri, and Cyphort researcher Marion Marschalek, best known for her extensive analysis of state-sponsored threats."
+---
+name: Packrat
+aliases:
+- Packrat
+description: A threat group that has been active for at least seven years has used
+  malware, phishing and disinformation tactics to target activists, journalists, politicians
+  and public figures in various Latin American countries.  The threat actor, dubbed
+  Packrat based on its preference for remote access Trojans (RATs) and because it
+  has used the same infrastructure for several years, has been analyzed by Citizen
+  Lab researchers John Scott-Railton, Morgan Marquis-Boire, and Claudio Guarnieri,
+  and Cyphort researcher Marion Marschalek, best known for her extensive analysis
+  of state-sponsored threats.
 url: "/packrat"
-sector_focus: ["Activists","Journalist","Political party"]
-malware: ["{\"name\" => \"Trojan.Karagany\"}","{\"name\" => \"RemoteCMD\"}","{\"name\" => \"Trojan.Mebromi\"}","{\"name\" => \"Remote Utilities\"}","{\"name\" => \"RemotePC\"}","{\"name\" => \"Archelaus Beta\"}"]
+sector_focus:
+- Activists
+- Journalist
+- Political party
+malware:
+- '{"name" => "Trojan.Karagany"}'
+- '{"name" => "RemoteCMD"}'
+- '{"name" => "Trojan.Mebromi"}'
+- '{"name" => "Remote Utilities"}'
+- '{"name" => "RemotePC"}'
+- '{"name" => "Archelaus Beta"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "fe344665-d153-4d31-a32a-1509efde1ca7"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: fe344665-d153-4d31-a32a-1509efde1ca7
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

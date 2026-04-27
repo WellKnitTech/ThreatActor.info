@@ -1,9 +1,20 @@
-name: "Conquerors Electronic Army"
-aliases: ["Conquerors Electronic Army"]
-description: "Conquerors Electronic Army operates under the “Wa’d al-Akhira” banner and has claimed multiple attacks against Israeli targets, including civil emergency alerting and healthcare sectors, utilizing rented stresser infrastructure and CheckHost proof-of-disruption links. The group has embedded links to a UK-registered charity in their operations, suggesting a potential disruption attempt rather than solely an information operation. Security company Radware identified Conquerors Electronic Army as one of the primary actors behind a series of DDoS attacks targeting government entities in the Middle East. Their activities indicate a focus on both disruptive and influence operations."
+---
+name: Conquerors Electronic Army
+aliases:
+- Conquerors Electronic Army
+description: Conquerors Electronic Army operates under the “Wa’d al-Akhira” banner
+  and has claimed multiple attacks against Israeli targets, including civil emergency
+  alerting and healthcare sectors, utilizing rented stresser infrastructure and CheckHost
+  proof-of-disruption links. The group has embedded links to a UK-registered charity
+  in their operations, suggesting a potential disruption attempt rather than solely
+  an information operation. Security company Radware identified Conquerors Electronic
+  Army as one of the primary actors behind a series of DDoS attacks targeting government
+  entities in the Middle East. Their activities indicate a focus on both disruptive
+  and influence operations.
 url: "/conquerors-electronic-army"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "20912a84-43b0-4fad-a30b-9ee3253da721"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 20912a84-43b0-4fad-a30b-9ee3253da721
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

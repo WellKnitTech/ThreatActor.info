@@ -1,9 +1,16 @@
-name: "Maze"
-aliases: ["ChaCha"]
-description: "Maze is a ransomware operation known for being the first to implement double extortion tactics."
+---
+name: Maze
+aliases:
+- ChaCha
+description: Maze is a ransomware operation known for being the first to implement
+  double extortion tactics.
 url: "/maze"
-country: "Unknown"
-sector_focus: ["Healthcare","Legal","Technology"]
-first_seen: "2019"
-last_activity: "2020"
-risk_level: "High"
+country: Unknown
+sector_focus:
+- Healthcare
+- Legal
+- Technology
+first_seen: '2019'
+last_activity: '2020'
+risk_level: High
+source_attribution: Manually curated from open source intelligence

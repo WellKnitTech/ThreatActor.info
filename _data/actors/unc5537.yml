@@ -1,9 +1,15 @@
-name: "UNC5537"
-aliases: ["UNC5537"]
-description: "UNC5537 is a financially motivated threat actor targeting Snowflake customer databases. They use stolen credentials obtained from infostealer malware to access and exfiltrate large volumes of data. The compromised accounts lack multi-factor authentication, allowing UNC5537 to conduct data theft and extortion."
+---
+name: UNC5537
+aliases:
+- UNC5537
+description: UNC5537 is a financially motivated threat actor targeting Snowflake customer
+  databases. They use stolen credentials obtained from infostealer malware to access
+  and exfiltrate large volumes of data. The compromised accounts lack multi-factor
+  authentication, allowing UNC5537 to conduct data theft and extortion.
 url: "/unc5537"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "b8c6da46-4c9a-4075-b9f3-3b5ef7bd3534"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: b8c6da46-4c9a-4075-b9f3-3b5ef7bd3534
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

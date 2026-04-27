@@ -1,10 +1,18 @@
-name: "NewsPenguin"
-aliases: ["NewsPenguin"]
-description: "NewsPenguin is threat actor that has been targeting organizations in Pakistan. They use a complex payload delivery mechanism and exploit the upcoming Pakistan International Maritime Expo & Conference as a lure to trick their victims. The group has been linked to a phishing campaign that leverages spear-phishing emails and weaponized documents to deliver an advanced espionage tool."
+---
+name: NewsPenguin
+aliases:
+- NewsPenguin
+description: NewsPenguin is threat actor that has been targeting organizations in
+  Pakistan. They use a complex payload delivery mechanism and exploit the upcoming
+  Pakistan International Maritime Expo & Conference as a lure to trick their victims.
+  The group has been linked to a phishing campaign that leverages spear-phishing emails
+  and weaponized documents to deliver an advanced espionage tool.
 url: "/newspenguin"
-malware: ["{\"name\" => \"Xploit\"}"]
+malware:
+- '{"name" => "Xploit"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "4c4a8cb7-b4c4-4637-8e41-dfe19a6b40c7"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 4c4a8cb7-b4c4-4637-8e41-dfe19a6b40c7
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

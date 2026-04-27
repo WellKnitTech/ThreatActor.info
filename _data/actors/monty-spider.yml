@@ -1,9 +1,14 @@
-name: "MONTY SPIDER"
-aliases: ["Spandex Tempest","MONTY SPIDER"]
-description: "Spambots continued to decline in 2019, with MONTY SPIDER’s CraP2P spambot falling silent in April."
+---
+name: MONTY SPIDER
+aliases:
+- Spandex Tempest
+- MONTY SPIDER
+description: Spambots continued to decline in 2019, with MONTY SPIDER’s CraP2P spambot
+  falling silent in April.
 url: "/monty-spider"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "168a9e38-70e3-4542-b78f-afa2414436bb"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 168a9e38-70e3-4542-b78f-afa2414436bb
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

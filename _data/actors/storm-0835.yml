@@ -1,10 +1,27 @@
-name: "Storm-0835"
-aliases: ["Storm-0835"]
-description: "Cybercriminals have launched a phishing campaign targeting senior executives in U.S. firms, using the EvilProxy phishing toolkit for credential harvesting and account takeover attacks. This campaign, initiated in July 2023, primarily targets sectors such as banking, financial services, insurance, property management, real estate, and manufacturing. The attackers exploit an open redirection vulnerability on the job search platform \"indeed.com,\" redirecting victims to malicious phishing pages impersonating Microsoft. EvilProxy functions as a reverse proxy, intercepting credentials, two-factor authentication codes, and session cookies to hijack accounts. The threat actors, known as Storm-0835 by Microsoft, have hundreds of customers who pay monthly fees for their services, making attribution difficult. The attacks involve sending phishing emails with deceptive links to Indeed, redirecting victims to EvilProxy pages for credential harvesting."
+---
+name: Storm-0835
+aliases:
+- Storm-0835
+description: Cybercriminals have launched a phishing campaign targeting senior executives
+  in U.S. firms, using the EvilProxy phishing toolkit for credential harvesting and
+  account takeover attacks. This campaign, initiated in July 2023, primarily targets
+  sectors such as banking, financial services, insurance, property management, real
+  estate, and manufacturing. The attackers exploit an open redirection vulnerability
+  on the job search platform "indeed.com," redirecting victims to malicious phishing
+  pages impersonating Microsoft. EvilProxy functions as a reverse proxy, intercepting
+  credentials, two-factor authentication codes, and session cookies to hijack accounts.
+  The threat actors, known as Storm-0835 by Microsoft, have hundreds of customers
+  who pay monthly fees for their services, making attribution difficult. The attacks
+  involve sending phishing emails with deceptive links to Indeed, redirecting victims
+  to EvilProxy pages for credential harvesting.
 url: "/storm-0835"
-malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"Xploit\"}"]
+malware:
+- '{"name" => "CyberGate"}'
+- '{"name" => "Cyber Eye RAT"}'
+- '{"name" => "Xploit"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "2da09284-be56-49cd-ad18-993a6eb17af2"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 2da09284-be56-49cd-ad18-993a6eb17af2
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

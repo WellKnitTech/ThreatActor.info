@@ -1,9 +1,18 @@
-name: "Larva-208"
-aliases: ["EncryptHub","Larva-208"]
-description: "LARVA-208 is a financially motivated threat actor employing sophisticated phishing campaigns to harvest credentials and deploy ransomware. The actor uses multiple tactics, including Open URL Redirection, fake login pages, and social engineering, to bypass MFA and gain access to corporate networks. LARVA-208 has compromised over 618 organizations since June 2024, often deploying ransomware payloads. The threat actor is linked to LARVA-148, a threat actor managing domain acquisitions and attacks."
+---
+name: Larva-208
+aliases:
+- EncryptHub
+- Larva-208
+description: LARVA-208 is a financially motivated threat actor employing sophisticated
+  phishing campaigns to harvest credentials and deploy ransomware. The actor uses
+  multiple tactics, including Open URL Redirection, fake login pages, and social engineering,
+  to bypass MFA and gain access to corporate networks. LARVA-208 has compromised over
+  618 organizations since June 2024, often deploying ransomware payloads. The threat
+  actor is linked to LARVA-148, a threat actor managing domain acquisitions and attacks.
 url: "/larva-208"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "22bdf6e8-49c8-42a9-994e-9b6e90868543"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 22bdf6e8-49c8-42a9-994e-9b6e90868543
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

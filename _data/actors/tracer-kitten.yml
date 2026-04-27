@@ -1,12 +1,23 @@
-name: "TRACER KITTEN"
-aliases: ["TRACER KITTEN"]
-description: "In April 2020, Crowstrike Falcon OverWatch discovered Iran-based adversary TRACER KITTEN conducting malicious interactive activity against multiple hosts at a telecommunications company in the Europe, Middle East and Africa (EMEA) region. The actor was found operating under valid user accounts, using custom backdoors in combination with SSH tunnels for C2. The adversary leveraged their foothold to conduct a variety of reconnaissance activities, undertake credential harvesting and prepare for data exfiltration."
+---
+name: TRACER KITTEN
+aliases:
+- TRACER KITTEN
+description: In April 2020, Crowstrike Falcon OverWatch discovered Iran-based adversary
+  TRACER KITTEN conducting malicious interactive activity against multiple hosts at
+  a telecommunications company in the Europe, Middle East and Africa (EMEA) region.
+  The actor was found operating under valid user accounts, using custom backdoors
+  in combination with SSH tunnels for C2. The adversary leveraged their foothold to
+  conduct a variety of reconnaissance activities, undertake credential harvesting
+  and prepare for data exfiltration.
 url: "/tracer-kitten"
-country: "Iran"
-sector_focus: ["Telecoms"]
-malware: ["{\"name\" => \"Backdoor.Oldrea\"}"]
+country: Iran
+sector_focus:
+- Telecoms
+malware:
+- '{"name" => "Backdoor.Oldrea"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "6cc574c0-3dfa-459c-933a-4c63490c4e93"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 6cc574c0-3dfa-459c-933a-4c63490c4e93
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

@@ -1,11 +1,17 @@
-name: "Avivore"
-aliases: ["Avivore"]
-description: "The group’s existence came to light during Context’s investigation of a number of attacks against multinational enterprises that compromise smaller engineering services and consultancies working in their supply chains."
+---
+name: Avivore
+aliases:
+- Avivore
+description: The group’s existence came to light during Context’s investigation of
+  a number of attacks against multinational enterprises that compromise smaller engineering
+  services and consultancies working in their supply chains.
 url: "/avivore"
-country: "China"
-malware: ["{\"name\" => \"Small-Net\"}"]
+country: China
+malware:
+- '{"name" => "Small-Net"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "8045fc09-13d6-4f90-b239-ed5060b9297b"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 8045fc09-13d6-4f90-b239-ed5060b9297b
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

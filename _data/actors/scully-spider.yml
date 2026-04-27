@@ -1,9 +1,12 @@
-name: "SCULLY SPIDER"
-aliases: ["SCULLY SPIDER"]
-description: "Mentioned as operator of DanaBot in CrowdStrike's 2020 Report."
+---
+name: SCULLY SPIDER
+aliases:
+- SCULLY SPIDER
+description: Mentioned as operator of DanaBot in CrowdStrike's 2020 Report.
 url: "/scully-spider"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "7fb1662e-0257-4606-b3a2-bf294c64c098"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 7fb1662e-0257-4606-b3a2-bf294c64c098
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

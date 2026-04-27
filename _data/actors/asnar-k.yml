@@ -1,10 +1,25 @@
-name: "Asnarök"
-aliases: ["Personal Panda","Asnarök"]
-description: "Asnarök is a threat actor that exploited CVE-2020-12271 and utilized command injection privilege escalation to gain root access to devices and install the Asnarök Trojan and demonstrated significant changes in TTPs, including the deployment of a web shell that did not reach out to external C2 for commands. X-Ops identified a patient-zero device linked to the attack and observed the use of an IC.sh script that stole local user account data. The actor's activities were linked to a broader pattern of malicious exploit research and targeted vulnerabilities disclosed by bug bounty researchers."
+---
+name: Asnarök
+aliases:
+- Personal Panda
+- Asnarök
+description: Asnarök is a threat actor that exploited CVE-2020-12271 and utilized
+  command injection privilege escalation to gain root access to devices and install
+  the Asnarök Trojan and demonstrated significant changes in TTPs, including the deployment
+  of a web shell that did not reach out to external C2 for commands. X-Ops identified
+  a patient-zero device linked to the attack and observed the use of an IC.sh script
+  that stole local user account data. The actor's activities were linked to a broader
+  pattern of malicious exploit research and targeted vulnerabilities disclosed by
+  bug bounty researchers.
 url: "/asnar-k"
-malware: ["{\"name\" => \"Trojan.Karagany\"}","{\"name\" => \"Trojan.Mebromi\"}","{\"name\" => \"Xploit\"}","{\"name\" => \"Archelaus Beta\"}"]
+malware:
+- '{"name" => "Trojan.Karagany"}'
+- '{"name" => "Trojan.Mebromi"}'
+- '{"name" => "Xploit"}'
+- '{"name" => "Archelaus Beta"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "4e26b4ac-5530-428b-8694-3dd6d24ee286"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 4e26b4ac-5530-428b-8694-3dd6d24ee286
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

@@ -1,13 +1,39 @@
-name: "Red Dev 17"
-aliases: ["Red Dev 17"]
-description: "In 2021, PwC started tracking a series of intrusions under the moniker of Red Dev 17 that they assess were highly likely conducted by a China-based threat actor. Their analysis suggests Red Dev 17 has been active since at least 2017. Red Dev 17's observed targets are mainly in India, and include the Indian military, a multinational India-based technology company, and a state energy company. They assess that it is highly probable that the threat actor behind intrusions associated with Red Dev 17 is also responsible for the campaign known in open source as Operation NightScout. Red Dev 17 is a user of the 8.t document weaponisation framework (also known as RoyalRoad), and abuses benign utilities such as Logitech or Windows Defender binaries to sideload and execute Chinoxy or PoisonIvy variants on victim systems. They identified capability and infrastructure links between Red Dev 17 and the threat actor they call Red Hariasa (aka FunnyDream APT), as well as infrastructure overlaps with Red Wendigo (aka Icefog, RedFoxtrot), and with ShadowPad C2 servers. At this time, they do not have sufficient evidence to directly link Red Dev 17 to any of these threat actors. However, They assess with realistic probability that Red Dev 17 operates within a cluster of threat actors that share tools and infrastructure, as well as a strong targeting focus on Southeast Asia and Central Asia."
+---
+name: Red Dev 17
+aliases:
+- Red Dev 17
+description: In 2021, PwC started tracking a series of intrusions under the moniker
+  of Red Dev 17 that they assess were highly likely conducted by a China-based threat
+  actor. Their analysis suggests Red Dev 17 has been active since at least 2017. Red
+  Dev 17's observed targets are mainly in India, and include the Indian military,
+  a multinational India-based technology company, and a state energy company. They
+  assess that it is highly probable that the threat actor behind intrusions associated
+  with Red Dev 17 is also responsible for the campaign known in open source as Operation
+  NightScout. Red Dev 17 is a user of the 8.t document weaponisation framework (also
+  known as RoyalRoad), and abuses benign utilities such as Logitech or Windows Defender
+  binaries to sideload and execute Chinoxy or PoisonIvy variants on victim systems.
+  They identified capability and infrastructure links between Red Dev 17 and the threat
+  actor they call Red Hariasa (aka FunnyDream APT), as well as infrastructure overlaps
+  with Red Wendigo (aka Icefog, RedFoxtrot), and with ShadowPad C2 servers. At this
+  time, they do not have sufficient evidence to directly link Red Dev 17 to any of
+  these threat actors. However, They assess with realistic probability that Red Dev
+  17 operates within a cluster of threat actors that share tools and infrastructure,
+  as well as a strong targeting focus on Southeast Asia and Central Asia.
 url: "/red-dev-17"
-country: "China"
-sector_focus: ["High-Tech","Military","Energy"]
-targeted_victims: ["India"]
-malware: ["{\"name\" => \"PoisonIvy\"}","{\"name\" => \"China Chopper\"}","{\"name\" => \"Windows Remote Desktop\"}"]
+country: China
+sector_focus:
+- High-Tech
+- Military
+- Energy
+targeted_victims:
+- India
+malware:
+- '{"name" => "PoisonIvy"}'
+- '{"name" => "China Chopper"}'
+- '{"name" => "Windows Remote Desktop"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "50d61877-bfc7-4c65-980e-c0589b5561fa"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 50d61877-bfc7-4c65-980e-c0589b5561fa
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

@@ -1,10 +1,24 @@
-name: "Void Arachne"
-aliases: ["Silver Fox","Void Arachne"]
-description: "Void Arachne is a threat actor group targeting Chinese-speaking users with malicious MSI files containing legitimate software installers for AI software. They exploit public interest in VPN technology and AI software to distribute malware through SEO poisoning and Chinese-language-themed Telegram channels. The group's campaign includes bundling malicious Winos payloads with deepfake pornography-generating AI software and voice-and-face-swapping AI software. Void Arachne also promotes AI technologies for virtual kidnapping and uses AI voice-alternating technology to pressure victims into paying ransom."
+---
+name: Void Arachne
+aliases:
+- Silver Fox
+- Void Arachne
+description: Void Arachne is a threat actor group targeting Chinese-speaking users
+  with malicious MSI files containing legitimate software installers for AI software.
+  They exploit public interest in VPN technology and AI software to distribute malware
+  through SEO poisoning and Chinese-language-themed Telegram channels. The group's
+  campaign includes bundling malicious Winos payloads with deepfake pornography-generating
+  AI software and voice-and-face-swapping AI software. Void Arachne also promotes
+  AI technologies for virtual kidnapping and uses AI voice-alternating technology
+  to pressure victims into paying ransom.
 url: "/void-arachne"
-malware: ["{\"name\" => \"PoisonIvy\"}","{\"name\" => \"Xploit\"}","{\"name\" => \"GraphicBooting\"}"]
+malware:
+- '{"name" => "PoisonIvy"}'
+- '{"name" => "Xploit"}'
+- '{"name" => "GraphicBooting"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "2ac0db88-8e88-447b-ad44-f781326f5884"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 2ac0db88-8e88-447b-ad44-f781326f5884
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

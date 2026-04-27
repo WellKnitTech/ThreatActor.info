@@ -1,9 +1,13 @@
-name: "RIDDLE SPIDER"
-aliases: ["RIDDLE SPIDER"]
-description: "According to Crowdstrike, RIDDLE SPIDER is the operator behind the avaddon ransomware"
+---
+name: RIDDLE SPIDER
+aliases:
+- RIDDLE SPIDER
+description: According to Crowdstrike, RIDDLE SPIDER is the operator behind the avaddon
+  ransomware
 url: "/riddle-spider"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "090d0553-cdcf-4f4e-ae3b-b5d751acaf5d"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: '090d0553-cdcf-4f4e-ae3b-b5d751acaf5d'
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

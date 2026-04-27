@@ -1,10 +1,19 @@
-name: "Zarya"
-aliases: ["UAC-0109","Zarya"]
-description: "Zarya is a pro-Russian hacktivist group that emerged in March 2022. Initially operating as a special forces unit under the command of Killnet, Zarya has since become an independent entity. The group is primarily known for engaging in Denial-of-Service attacks, website defacement campaigns, and data leaks. Zarya targets government agencies, service providers, critical infrastructure, and civil service employees, both domestically and internationally."
+---
+name: Zarya
+aliases:
+- UAC-0109
+- Zarya
+description: Zarya is a pro-Russian hacktivist group that emerged in March 2022. Initially
+  operating as a special forces unit under the command of Killnet, Zarya has since
+  become an independent entity. The group is primarily known for engaging in Denial-of-Service
+  attacks, website defacement campaigns, and data leaks. Zarya targets government
+  agencies, service providers, critical infrastructure, and civil service employees,
+  both domestically and internationally.
 url: "/zarya"
-country: "Russia"
+country: Russia
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "3689f0e2-6c39-4864-ae0b-cc03e4cb695a"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 3689f0e2-6c39-4864-ae0b-cc03e4cb695a
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

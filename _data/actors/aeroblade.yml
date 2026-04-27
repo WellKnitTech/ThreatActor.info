@@ -1,10 +1,27 @@
-name: "AeroBlade"
-aliases: ["AeroBlade"]
-description: "AeroBlade is a previously unknown threat actor that has been targeting an aerospace organization in the United States. Their objective appears to be conducting commercial and competitive cyber espionage. They employ spear-phishing as a delivery mechanism, using weaponized documents with embedded remote template injection techniques and malicious VBA macro code. The attacks have been ongoing since September 2022, with multiple phases identified in the attack chain. The origin and precise objective of AeroBlade remain unknown."
+---
+name: AeroBlade
+aliases:
+- AeroBlade
+description: AeroBlade is a previously unknown threat actor that has been targeting
+  an aerospace organization in the United States. Their objective appears to be conducting
+  commercial and competitive cyber espionage. They employ spear-phishing as a delivery
+  mechanism, using weaponized documents with embedded remote template injection techniques
+  and malicious VBA macro code. The attacks have been ongoing since September 2022,
+  with multiple phases identified in the attack chain. The origin and precise objective
+  of AeroBlade remain unknown.
 url: "/aeroblade"
-malware: ["{\"name\" => \"SPACESHIP\"}","{\"name\" => \"Unknown Logger\"}","{\"name\" => \"RemoteCMD\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"Remote Utilities\"}","{\"name\" => \"RemotePC\"}","{\"name\" => \"UNITEDRAKE\"}"]
+malware:
+- '{"name" => "SPACESHIP"}'
+- '{"name" => "Unknown Logger"}'
+- '{"name" => "RemoteCMD"}'
+- '{"name" => "CyberGate"}'
+- '{"name" => "Cyber Eye RAT"}'
+- '{"name" => "Remote Utilities"}'
+- '{"name" => "RemotePC"}'
+- '{"name" => "UNITEDRAKE"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "47739f40-c80c-435a-bedc-0d2b38e87ddc"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 47739f40-c80c-435a-bedc-0d2b38e87ddc
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

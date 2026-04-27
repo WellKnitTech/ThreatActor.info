@@ -1,11 +1,23 @@
-name: "UNC5337"
-aliases: ["UNC5337"]
-description: "UNC5337 is a suspected China-nexus espionage actor that compromised Ivanti Connect Secure VPN appliances as early as Jan. 2024. UNC5337 is suspected to exploit CVE-2023-46805 (authentication bypass) and CVE-2024-21887 (command injection) for infecting Ivanti Connect Secure appliances. UNC5337 leveraged multiple custom malware families including the SPAWNSNAIL passive backdoor, SPAWNMOLE tunneler, SPAWNANT installer, and SPAWNSLOTH log tampering utility. Mandiant suspects with medium confidence that UNC5337 is UNC5221."
+---
+name: UNC5337
+aliases:
+- UNC5337
+description: UNC5337 is a suspected China-nexus espionage actor that compromised Ivanti
+  Connect Secure VPN appliances as early as Jan. 2024. UNC5337 is suspected to exploit
+  CVE-2023-46805 (authentication bypass) and CVE-2024-21887 (command injection) for
+  infecting Ivanti Connect Secure appliances. UNC5337 leveraged multiple custom malware
+  families including the SPAWNSNAIL passive backdoor, SPAWNMOLE tunneler, SPAWNANT
+  installer, and SPAWNSLOTH log tampering utility. Mandiant suspects with medium confidence
+  that UNC5337 is UNC5221.
 url: "/unc5337"
-country: "China"
-malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"China Chopper\"}","{\"name\" => \"Xploit\"}"]
+country: China
+malware:
+- '{"name" => "Backdoor.Oldrea"}'
+- '{"name" => "China Chopper"}'
+- '{"name" => "Xploit"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "6fcf8d1f-2e68-4982-a579-2ca5595e4990"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 6fcf8d1f-2e68-4982-a579-2ca5595e4990
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

@@ -1,11 +1,23 @@
-name: "FlyingYeti"
-aliases: ["Storm-1837","Flying Yeti","FlyingYeti"]
-description: "FlyingYeti is a Russia-aligned threat actor targeting Ukrainian military entities. They conduct reconnaissance activities and launch phishing campaigns using malware like COOKBOX. FlyingYeti exploits the WinRAR vulnerability CVE-2023-38831 to infect targets with malicious payloads. Cloudforce One has successfully disrupted their operations and provided recommendations for defense against their phishing campaigns."
+---
+name: FlyingYeti
+aliases:
+- Storm-1837
+- Flying Yeti
+- FlyingYeti
+description: FlyingYeti is a Russia-aligned threat actor targeting Ukrainian military
+  entities. They conduct reconnaissance activities and launch phishing campaigns using
+  malware like COOKBOX. FlyingYeti exploits the WinRAR vulnerability CVE-2023-38831
+  to infect targets with malicious payloads. Cloudforce One has successfully disrupted
+  their operations and provided recommendations for defense against their phishing
+  campaigns.
 url: "/flyingyeti"
-country: "Russia"
-malware: ["{\"name\" => \"CloudDuke\"}","{\"name\" => \"Xploit\"}"]
+country: Russia
+malware:
+- '{"name" => "CloudDuke"}'
+- '{"name" => "Xploit"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "1dcbad05-c5b7-4ec3-8920-45f396554f7a"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 1dcbad05-c5b7-4ec3-8920-45f396554f7a
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

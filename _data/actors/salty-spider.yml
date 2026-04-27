@@ -1,9 +1,15 @@
-name: "SALTY SPIDER"
-aliases: ["SALTY SPIDER"]
-description: "Beginning in January 2018 and persisting through the first half of the year, CrowdStrike Intelligence observed SALTY SPIDER, developer and operator of the long-running Sality botnet, distribute malware designed to target cryptocurrency users."
+---
+name: SALTY SPIDER
+aliases:
+- SALTY SPIDER
+description: Beginning in January 2018 and persisting through the first half of the
+  year, CrowdStrike Intelligence observed SALTY SPIDER, developer and operator of
+  the long-running Sality botnet, distribute malware designed to target cryptocurrency
+  users.
 url: "/salty-spider"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "7e37be6b-5a94-45f3-bdeb-f494c520eee3"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 7e37be6b-5a94-45f3-bdeb-f494c520eee3
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

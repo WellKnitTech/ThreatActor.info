@@ -1,10 +1,23 @@
-name: "Earth Estries"
-aliases: ["Earth Estries"]
-description: "Trend Micro found that Earth Estries relies heavily on DLL sideloading to load various tools within its arsenal. Aside from the backdoors previously mentioned, this intrusion set also utilizes commonly used remote control tools like Cobalt Strike, PlugX, or Meterpreter stagers interchangeably in various attack stages. These tools come as encrypted payloads loaded by custom loader DLLs."
+---
+name: Earth Estries
+aliases:
+- Earth Estries
+description: Trend Micro found that Earth Estries relies heavily on DLL sideloading
+  to load various tools within its arsenal. Aside from the backdoors previously mentioned,
+  this intrusion set also utilizes commonly used remote control tools like Cobalt
+  Strike, PlugX, or Meterpreter stagers interchangeably in various attack stages.
+  These tools come as encrypted payloads loaded by custom loader DLLs.
 url: "/earth-estries"
-malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"PlugX\"}","{\"name\" => \"RemoteCMD\"}","{\"name\" => \"Remote Utilities\"}","{\"name\" => \"RemotePC\"}","{\"name\" => \"Cobalt Strike\"}"]
+malware:
+- '{"name" => "Backdoor.Oldrea"}'
+- '{"name" => "PlugX"}'
+- '{"name" => "RemoteCMD"}'
+- '{"name" => "Remote Utilities"}'
+- '{"name" => "RemotePC"}'
+- '{"name" => "Cobalt Strike"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "1f7f4a51-c4a8-4365-ade3-83b222e7cb67"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 1f7f4a51-c4a8-4365-ade3-83b222e7cb67
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

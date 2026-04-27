@@ -1,10 +1,19 @@
-name: "Dark Basin"
-aliases: ["Dark Basin"]
-description: "Dark Basin is a hack-for-hire group that has targeted thousands of individuals and hundreds of institutions on six continents. Targets include advocacy groups and journalists, elected and senior government officials, hedge funds, and multiple industries.\nDark Basin extensively targeted American nonprofits, including organisations working on a campaign called #ExxonKnew, which asserted that ExxonMobil hid information about climate change for decades.\nWe also identify Dark Basin as the group behind the phishing of organizations working on net neutrality advocacy, previously reported by the Electronic Frontier Foundation.\nWe link Dark Basin with high confidence to an Indian company, BellTroX InfoTech Services, and related entitie"
+---
+name: Dark Basin
+aliases:
+- Dark Basin
+description: |-
+  Dark Basin is a hack-for-hire group that has targeted thousands of individuals and hundreds of institutions on six continents. Targets include advocacy groups and journalists, elected and senior government officials, hedge funds, and multiple industries.
+  Dark Basin extensively targeted American nonprofits, including organisations working on a campaign called #ExxonKnew, which asserted that ExxonMobil hid information about climate change for decades.
+  We also identify Dark Basin as the group behind the phishing of organizations working on net neutrality advocacy, previously reported by the Electronic Frontier Foundation.
+  We link Dark Basin with high confidence to an Indian company, BellTroX InfoTech Services, and related entitie
 url: "/dark-basin"
-malware: ["{\"name\" => \"MobileOrder\"}","{\"name\" => \"Dark DDoSeR\"}"]
+malware:
+- '{"name" => "MobileOrder"}'
+- '{"name" => "Dark DDoSeR"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "3cbc52d5-fe4d-4d7a-a5e9-641b7c073d62"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 3cbc52d5-fe4d-4d7a-a5e9-641b7c073d62
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

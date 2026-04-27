@@ -1,10 +1,19 @@
-name: "SloppyLemming"
-aliases: ["SloppyLemming"]
-description: "SloppyLemming is an advanced actor that uses multiple cloud service providers to facilitate different aspects of their activities, such as credential harvesting, malware delivery and command and control (C2). This actor conducts extensive operations targeting Pakistani, Sri Lanka, Bangladesh, and China. Industries targeted include government, law enforcement, energy, telecommunications, and technology entitie"
+---
+name: SloppyLemming
+aliases:
+- SloppyLemming
+description: SloppyLemming is an advanced actor that uses multiple cloud service providers
+  to facilitate different aspects of their activities, such as credential harvesting,
+  malware delivery and command and control (C2). This actor conducts extensive operations
+  targeting Pakistani, Sri Lanka, Bangladesh, and China. Industries targeted include
+  government, law enforcement, energy, telecommunications, and technology entitie
 url: "/sloppylemming"
-malware: ["{\"name\" => \"CloudDuke\"}","{\"name\" => \"China Chopper\"}"]
+malware:
+- '{"name" => "CloudDuke"}'
+- '{"name" => "China Chopper"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "6f7489f5-7edc-4693-b35a-44e79c969678"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 6f7489f5-7edc-4693-b35a-44e79c969678
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

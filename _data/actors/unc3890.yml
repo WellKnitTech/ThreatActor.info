@@ -1,11 +1,29 @@
-name: "UNC3890"
-aliases: ["UNC3890"]
-description: "A suspected Iranian threat activity cluster has been linked to attacks aimed at Israeli shipping, government, energy, and healthcare organizations, in a campaign stretching back to late 2020. Researchers believe that the data harvested during the campaign could be used to support various activities. UNC3890, the threat actor behind the attacks, deployed two proprietary pieces of malware – a backdoor named “SUGARUSH” and a browser credential stealer called “SUGARDUMP”, which exfiltrates password information to email addresses registered with Gmail, ProtonMail, Yahoo and Yandex email services. The threat actor also employs a network of C&C servers that host fake login pages impersonating legitimate platforms such as Office 365, LinkedIn and Facebook. These servers are designed to communicate with the targets and also with a watering hole hosted on the login page of a legitimate Israeli shipping company."
+---
+name: UNC3890
+aliases:
+- UNC3890
+description: A suspected Iranian threat activity cluster has been linked to attacks
+  aimed at Israeli shipping, government, energy, and healthcare organizations, in
+  a campaign stretching back to late 2020. Researchers believe that the data harvested
+  during the campaign could be used to support various activities. UNC3890, the threat
+  actor behind the attacks, deployed two proprietary pieces of malware – a backdoor
+  named “SUGARUSH” and a browser credential stealer called “SUGARDUMP”, which exfiltrates
+  password information to email addresses registered with Gmail, ProtonMail, Yahoo
+  and Yandex email services. The threat actor also employs a network of C&C servers
+  that host fake login pages impersonating legitimate platforms such as Office 365,
+  LinkedIn and Facebook. These servers are designed to communicate with the targets
+  and also with a watering hole hosted on the login page of a legitimate Israeli shipping
+  company.
 url: "/unc3890"
-country: "Iran"
-malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"Back Orifice\"}","{\"name\" => \"Back Orifice 2000\"}","{\"name\" => \"Archelaus Beta\"}"]
+country: Iran
+malware:
+- '{"name" => "Backdoor.Oldrea"}'
+- '{"name" => "Back Orifice"}'
+- '{"name" => "Back Orifice 2000"}'
+- '{"name" => "Archelaus Beta"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "27e11cc5-1688-4aea-a98d-96e6c275d005"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 27e11cc5-1688-4aea-a98d-96e6c275d005
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

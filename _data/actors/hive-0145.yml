@@ -1,9 +1,20 @@
-name: "HIVE-0145"
-aliases: ["Hive0145","HIVE-0145"]
-description: "Hive0145 is a financially motivated initial access broker that has been active since late 2022, primarily utilizing Strela Stealer malware to target email credentials. The group has evolved its tactics from generic phishing emails to using stolen legitimate emails with real invoice attachments, focusing on victims in Spain, Germany, and Ukraine. Strela Stealer is configured to extract data from Microsoft Outlook and Mozilla Thunderbird, and the group's operations have shown increased complexity and automation. Threat intelligence indicates that Hive0145's campaigns are characterized by credential theft and espionage-driven activities."
+---
+name: HIVE-0145
+aliases:
+- Hive0145
+- HIVE-0145
+description: Hive0145 is a financially motivated initial access broker that has been
+  active since late 2022, primarily utilizing Strela Stealer malware to target email
+  credentials. The group has evolved its tactics from generic phishing emails to using
+  stolen legitimate emails with real invoice attachments, focusing on victims in Spain,
+  Germany, and Ukraine. Strela Stealer is configured to extract data from Microsoft
+  Outlook and Mozilla Thunderbird, and the group's operations have shown increased
+  complexity and automation. Threat intelligence indicates that Hive0145's campaigns
+  are characterized by credential theft and espionage-driven activities.
 url: "/hive-0145"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "d1416b15-4f3d-41c9-80c4-c9764d83b327"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: d1416b15-4f3d-41c9-80c4-c9764d83b327
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

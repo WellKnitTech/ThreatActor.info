@@ -1,11 +1,23 @@
-name: "UAT-9686"
-aliases: ["UAT-9686"]
-description: "UAT-9686 is a Chinese state-sponsored APT known for targeting networking infrastructure and edge appliances through a sophisticated espionage campaign. They exploit a critical flaw in the Cisco AsyncOS Spam Quarantine interface to gain root access and deploy custom malware, including AquaShell, along with Python scripts that execute natively. Their operations involve reverse tunneling and log purging, demonstrating a methodical approach to compromising communication infrastructure. Talos has observed overlaps in TTPs and tooling with other Chinese-nexus threat actors, indicating a consistent operational pattern."
+---
+name: UAT-9686
+aliases:
+- UAT-9686
+description: UAT-9686 is a Chinese state-sponsored APT known for targeting networking
+  infrastructure and edge appliances through a sophisticated espionage campaign. They
+  exploit a critical flaw in the Cisco AsyncOS Spam Quarantine interface to gain root
+  access and deploy custom malware, including AquaShell, along with Python scripts
+  that execute natively. Their operations involve reverse tunneling and log purging,
+  demonstrating a methodical approach to compromising communication infrastructure.
+  Talos has observed overlaps in TTPs and tooling with other Chinese-nexus threat
+  actors, indicating a consistent operational pattern.
 url: "/uat-9686"
-country: "China"
-malware: ["{\"name\" => \"Xploit\"}","{\"name\" => \"AsyncRAT\"}"]
+country: China
+malware:
+- '{"name" => "Xploit"}'
+- '{"name" => "AsyncRAT"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "72075688-b6e6-4324-849a-77041a54bc09"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 72075688-b6e6-4324-849a-77041a54bc09
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

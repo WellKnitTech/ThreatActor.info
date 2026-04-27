@@ -1,14 +1,38 @@
-name: "Cotton Sandstorm"
-aliases: ["Emennet Pasargad","Holy Souls","MARNANBRIDGE","NEPTUNIUM","HAYWIRE KITTEN","Cotton Sandstorm"]
-description: "Cotton Sandstorm is an Iranian threat actor involved in hack-and-leak operations. They have targeted various organizations, including the French satirical magazine Charlie Hebdo, where they obtained and leaked personal information of over 200,000 customers. The group has been linked to the Iranian government and has been sanctioned by the US Treasury"
+---
+name: Cotton Sandstorm
+aliases:
+- Emennet Pasargad
+- Holy Souls
+- MARNANBRIDGE
+- NEPTUNIUM
+- HAYWIRE KITTEN
+- Cotton Sandstorm
+description: Cotton Sandstorm is an Iranian threat actor involved in hack-and-leak
+  operations. They have targeted various organizations, including the French satirical
+  magazine Charlie Hebdo, where they obtained and leaked personal information of over
+  200,000 customers. The group has been linked to the Iranian government and has been
+  sanctioned by the US Treasury
 url: "/cotton-sandstorm"
-country: "Iran"
-sector_focus: ["Government","Finance","High-Tech","Telecoms","NGOs","Civil Society","Rail","Energy"]
-targeted_victims: ["United States","Israel","Middle East","Europe"]
-incident_type: "Information Operations"
-risk_level: "High"
+country: Iran
+sector_focus:
+- Government
+- Finance
+- High-Tech
+- Telecoms
+- NGOs
+- Civil Society
+- Rail
+- Energy
+targeted_victims:
+- United States
+- Israel
+- Middle East
+- Europe
+incident_type: Information Operations
+risk_level: High
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "bbb389f2-344f-4ca8-a9c9-902061f88deb"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: bbb389f2-344f-4ca8-a9c9-902061f88deb
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

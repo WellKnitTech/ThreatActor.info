@@ -1,10 +1,18 @@
-name: "TERBIUM"
-aliases: ["TERBIUM"]
-description: "Microsoft Threat Intelligence identified similarities between this recent attack and previous 2012 attacks against tens of thousands of computers belonging to organizations in the energy sector. Microsoft Threat Intelligence refers to the activity group behind these attacks as TERBIUM, following our internal practice of assigning rogue actors chemical element names."
+---
+name: TERBIUM
+aliases:
+- TERBIUM
+description: Microsoft Threat Intelligence identified similarities between this recent
+  attack and previous 2012 attacks against tens of thousands of computers belonging
+  to organizations in the energy sector. Microsoft Threat Intelligence refers to the
+  activity group behind these attacks as TERBIUM, following our internal practice
+  of assigning rogue actors chemical element names.
 url: "/terbium"
-sector_focus: ["Energy"]
+sector_focus:
+- Energy
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "46670c51-fea4-45d6-bdd4-62e85a5c7404"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 46670c51-fea4-45d6-bdd4-62e85a5c7404
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

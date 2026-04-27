@@ -1,10 +1,25 @@
-name: "LinkC Pub"
-aliases: ["LinkC","LinkC Pub"]
-description: "Linkc is a newly emerged ransomware group that operates an onion-based data leak site and has claimed one victim, a U.S.-based AI and cloud service provider, H2O.ai, which was attacked on January 29, 2025. The group demanded a ransom of $15 million for data decryption and removal, showcasing access to sensitive information, including GPT model source code and customer data. Linkc's DLS is well-constructed and quick to load, indicating potential for future victim listings. However, there is currently no public acknowledgment from the victim, and the group has not engaged in discussions on cybercrime forums."
+---
+name: LinkC Pub
+aliases:
+- LinkC
+- LinkC Pub
+description: Linkc is a newly emerged ransomware group that operates an onion-based
+  data leak site and has claimed one victim, a U.S.-based AI and cloud service provider,
+  H2O.ai, which was attacked on January 29, 2025. The group demanded a ransom of $15
+  million for data decryption and removal, showcasing access to sensitive information,
+  including GPT model source code and customer data. Linkc's DLS is well-constructed
+  and quick to load, indicating potential for future victim listings. However, there
+  is currently no public acknowledgment from the victim, and the group has not engaged
+  in discussions on cybercrime forums.
 url: "/linkc-pub"
-malware: ["{\"name\" => \"CloudDuke\"}","{\"name\" => \"OnionDuke\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
+malware:
+- '{"name" => "CloudDuke"}'
+- '{"name" => "OnionDuke"}'
+- '{"name" => "CyberGate"}'
+- '{"name" => "Cyber Eye RAT"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "7e3427c0-12d9-4fe4-a98e-0fe43db0ca28"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 7e3427c0-12d9-4fe4-a98e-0fe43db0ca28
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

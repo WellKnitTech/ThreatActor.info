@@ -1,14 +1,32 @@
-name: "Ghostwriter"
-aliases: ["UNC1151","TA445","PUSHCHA","Storm-0257","DEV-0257","UAC-0057","Ghostwriter"]
-description: "Ghostwriter is referred as an 'activity set', with various incidents tied together by overlapping behavioral characteristics and personas, rather than as an actor or group in itself."
+---
+name: Ghostwriter
+aliases:
+- UNC1151
+- TA445
+- PUSHCHA
+- Storm-0257
+- DEV-0257
+- UAC-0057
+- Ghostwriter
+description: Ghostwriter is referred as an 'activity set', with various incidents
+  tied together by overlapping behavioral characteristics and personas, rather than
+  as an actor or group in itself.
 url: "/ghostwriter"
-country: "Belarus"
-sector_focus: ["Government"]
-targeted_victims: ["Germany","Latvia","Lithuania","Poland","Ukraine"]
-risk_level: "High"
-malware: ["{\"name\" => \"Ghost\"}"]
+country: Belarus
+sector_focus:
+- Government
+targeted_victims:
+- Germany
+- Latvia
+- Lithuania
+- Poland
+- Ukraine
+risk_level: High
+malware:
+- '{"name" => "Ghost"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "749aaa11-f0fd-416b-bf6c-112f9b5930a5"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 749aaa11-f0fd-416b-bf6c-112f9b5930a5
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

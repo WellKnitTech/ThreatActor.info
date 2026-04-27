@@ -1,9 +1,15 @@
-name: "Kiss-a-Dog"
-aliases: ["Kiss-a-Dog"]
-description: "CrowdStrike identified a cryptojacking campaign targeting vulnerable Docker and Kubernetes infrastructure. Called “Kiss-a-dog,” the campaign targets Docker and Kubernetes infrastructure using an obscure domain from the payload, container escape attempt and anonymized “dog” mining pools."
+---
+name: Kiss-a-Dog
+aliases:
+- Kiss-a-Dog
+description: CrowdStrike identified a cryptojacking campaign targeting vulnerable
+  Docker and Kubernetes infrastructure. Called “Kiss-a-dog,” the campaign targets
+  Docker and Kubernetes infrastructure using an obscure domain from the payload, container
+  escape attempt and anonymized “dog” mining pools.
 url: "/kiss-a-dog"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "1db6375f-0471-47c5-8128-5ab1519b01ab"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 1db6375f-0471-47c5-8128-5ab1519b01ab
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

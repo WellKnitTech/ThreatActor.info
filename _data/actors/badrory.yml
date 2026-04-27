@@ -1,10 +1,18 @@
-name: "BadRory"
-aliases: ["BadRory"]
-description: "Kaspersky researchers have identified a new APT group named BadRory that has mounted two waves of spear-phishing attacks against Russian organizations. The campaigns took place in October 2022 and April 2023 and leveraged boobytrapped Office emails. Targets included government entities, military contractors, universities, and hospitals."
+---
+name: BadRory
+aliases:
+- BadRory
+description: Kaspersky researchers have identified a new APT group named BadRory that
+  has mounted two waves of spear-phishing attacks against Russian organizations. The
+  campaigns took place in October 2022 and April 2023 and leveraged boobytrapped Office
+  emails. Targets included government entities, military contractors, universities,
+  and hospitals.
 url: "/badrory"
-malware: ["{\"name\" => \"Archelaus Beta\"}"]
+malware:
+- '{"name" => "Archelaus Beta"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "aa74d1f3-b294-405b-bb18-3ac1c13560a1"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: aa74d1f3-b294-405b-bb18-3ac1c13560a1
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

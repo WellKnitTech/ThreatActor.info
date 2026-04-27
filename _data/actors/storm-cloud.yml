@@ -1,11 +1,20 @@
-name: "Storm Cloud"
-aliases: ["Storm Cloud"]
-description: "Storm Cloud is a Chinese espionage threat actor known for targeting organizations across Asia, particularly Tibetan organizations and individuals. They use a variety of malware families, including GIMMICK and GOSLU, which are feature-rich and multi-platform. Storm Cloud leverages public cloud hosting services like Google Drive for command-and-control channels, making it difficult to detect their activities."
+---
+name: Storm Cloud
+aliases:
+- Storm Cloud
+description: Storm Cloud is a Chinese espionage threat actor known for targeting organizations
+  across Asia, particularly Tibetan organizations and individuals. They use a variety
+  of malware families, including GIMMICK and GOSLU, which are feature-rich and multi-platform.
+  Storm Cloud leverages public cloud hosting services like Google Drive for command-and-control
+  channels, making it difficult to detect their activities.
 url: "/storm-cloud"
-country: "China"
-malware: ["{\"name\" => \"CloudDuke\"}","{\"name\" => \"CrossRat\"}"]
+country: China
+malware:
+- '{"name" => "CloudDuke"}'
+- '{"name" => "CrossRat"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "3baec27f-3827-4a38-82c8-7195a18193f9"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 3baec27f-3827-4a38-82c8-7195a18193f9
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

@@ -1,10 +1,19 @@
-name: "MirrorFace"
-aliases: ["Earth Kasha","MirrorFace"]
-description: "MirrorFace is a Chinese-speaking advanced persistent threat group that has been targeting high-value organizations in Japan, including media, government, diplomatic, and political entities. They have been conducting spear-phishing campaigns, utilizing malware such as LODEINFO and MirrorStealer to steal credentials and exfiltrate sensitive data. While there is speculation about their connection to APT10, ESET currently track them as a separate entity."
+---
+name: MirrorFace
+aliases:
+- Earth Kasha
+- MirrorFace
+description: MirrorFace is a Chinese-speaking advanced persistent threat group that
+  has been targeting high-value organizations in Japan, including media, government,
+  diplomatic, and political entities. They have been conducting spear-phishing campaigns,
+  utilizing malware such as LODEINFO and MirrorStealer to steal credentials and exfiltrate
+  sensitive data. While there is speculation about their connection to APT10, ESET
+  currently track them as a separate entity.
 url: "/mirrorface"
-country: "China"
+country: China
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "e992d874-604b-4a09-9c6c-0319d5be652a"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: e992d874-604b-4a09-9c6c-0319d5be652a
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

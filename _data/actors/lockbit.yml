@@ -1,10 +1,51 @@
-name: "LockBit"
-aliases: ["ABCD Ransomware"]
-description: "LockBit is a ransomware-as-a-service operation known for its fast encryption and double extortion tactics."
+---
+name: LockBit
+aliases:
+- ABCD Ransomware
+description: LockBit is a ransomware-as-a-service operation known for its fast encryption
+  and double extortion tactics.
 url: "/lockbit"
-country: "Russia"
-sector_focus: ["Critical Infrastructure","Healthcare","Education"]
-first_seen: "2019"
-last_activity: "2024"
-risk_level: "Critical"
-cisa_kev_cves: ["{\"cve\" => \"CVE-2024-1709\", \"dateAdded\" => \"2024-02-22\", \"vendor\" => \"ConnectWise\", \"product\" => \"ScreenConnect\"}","{\"cve\" => \"CVE-2023-4966\", \"dateAdded\" => \"2023-10-18\", \"vendor\" => \"Citrix\", \"product\" => \"NetScaler ADC and NetScaler Gateway\"}","{\"cve\" => \"CVE-2022-36537\", \"dateAdded\" => \"2023-02-27\", \"vendor\" => \"ZK Framework\", \"product\" => \"AuUploader\"}","{\"cve\" => \"CVE-2022-22965\", \"dateAdded\" => \"2022-04-04\", \"vendor\" => \"VMware\", \"product\" => \"Spring Framework\"}","{\"cve\" => \"CVE-2021-20028\", \"dateAdded\" => \"2022-03-28\", \"vendor\" => \"SonicWall\", \"product\" => \"Secure Remote Access (SRA)\"}","{\"cve\" => \"CVE-2022-21999\", \"dateAdded\" => \"2022-03-25\", \"vendor\" => \"Microsoft\", \"product\" => \"Windows\"}","{\"cve\" => \"CVE-2021-44228\", \"dateAdded\" => \"2021-12-10\", \"vendor\" => \"Apache\", \"product\" => \"Log4j2\"}","{\"cve\" => \"CVE-2019-19781\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Citrix\", \"product\" => \"Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance\"}","{\"cve\" => \"CVE-2021-22986\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"F5\", \"product\" => \"BIG-IP and BIG-IQ Centralized Management\"}","{\"cve\" => \"CVE-2021-34523\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Microsoft\", \"product\" => \"Exchange Server\"}","{\"cve\" => \"CVE-2019-0708\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Microsoft\", \"product\" => \"Remote Desktop Services\"}","{\"cve\" => \"CVE-2021-34473\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Microsoft\", \"product\" => \"Exchange Server\"}","{\"cve\" => \"CVE-2021-31207\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Microsoft\", \"product\" => \"Exchange Server\"}","{\"cve\" => \"CVE-2021-36942\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Microsoft\", \"product\" => \"Windows\"}","{\"cve\" => \"CVE-2019-11510\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Ivanti\", \"product\" => \"Pulse Connect Secure\"}","{\"cve\" => \"CVE-2019-7481\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"SonicWall\", \"product\" => \"SMA100\"}"]
+country: Russia
+sector_focus:
+- Critical Infrastructure
+- Healthcare
+- Education
+first_seen: '2019'
+last_activity: '2024'
+risk_level: Critical
+cisa_kev_cves:
+- '{"cve" => "CVE-2024-1709", "dateAdded" => "2024-02-22", "vendor" => "ConnectWise",
+  "product" => "ScreenConnect"}'
+- '{"cve" => "CVE-2023-4966", "dateAdded" => "2023-10-18", "vendor" => "Citrix", "product"
+  => "NetScaler ADC and NetScaler Gateway"}'
+- '{"cve" => "CVE-2022-36537", "dateAdded" => "2023-02-27", "vendor" => "ZK Framework",
+  "product" => "AuUploader"}'
+- '{"cve" => "CVE-2022-22965", "dateAdded" => "2022-04-04", "vendor" => "VMware",
+  "product" => "Spring Framework"}'
+- '{"cve" => "CVE-2021-20028", "dateAdded" => "2022-03-28", "vendor" => "SonicWall",
+  "product" => "Secure Remote Access (SRA)"}'
+- '{"cve" => "CVE-2022-21999", "dateAdded" => "2022-03-25", "vendor" => "Microsoft",
+  "product" => "Windows"}'
+- '{"cve" => "CVE-2021-44228", "dateAdded" => "2021-12-10", "vendor" => "Apache",
+  "product" => "Log4j2"}'
+- '{"cve" => "CVE-2019-19781", "dateAdded" => "2021-11-03", "vendor" => "Citrix",
+  "product" => "Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance"}'
+- '{"cve" => "CVE-2021-22986", "dateAdded" => "2021-11-03", "vendor" => "F5", "product"
+  => "BIG-IP and BIG-IQ Centralized Management"}'
+- '{"cve" => "CVE-2021-34523", "dateAdded" => "2021-11-03", "vendor" => "Microsoft",
+  "product" => "Exchange Server"}'
+- '{"cve" => "CVE-2019-0708", "dateAdded" => "2021-11-03", "vendor" => "Microsoft",
+  "product" => "Remote Desktop Services"}'
+- '{"cve" => "CVE-2021-34473", "dateAdded" => "2021-11-03", "vendor" => "Microsoft",
+  "product" => "Exchange Server"}'
+- '{"cve" => "CVE-2021-31207", "dateAdded" => "2021-11-03", "vendor" => "Microsoft",
+  "product" => "Exchange Server"}'
+- '{"cve" => "CVE-2021-36942", "dateAdded" => "2021-11-03", "vendor" => "Microsoft",
+  "product" => "Windows"}'
+- '{"cve" => "CVE-2019-11510", "dateAdded" => "2021-11-03", "vendor" => "Ivanti",
+  "product" => "Pulse Connect Secure"}'
+- '{"cve" => "CVE-2019-7481", "dateAdded" => "2021-11-03", "vendor" => "SonicWall",
+  "product" => "SMA100"}'
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  under CC BY 4.0 license."
+source_name: MITRE CISA KEV

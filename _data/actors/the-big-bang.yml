@@ -1,9 +1,17 @@
-name: "The Big Bang"
-aliases: ["The Big Bang"]
-description: "While it is not clear exactly what the attacker is looking for, what is clear is that once he finds it, a second stage of the attack awaits, fetching additional modules and/or malware from the Command and Control server. This then is a surveillance attack in progress and has been dubbed ‘Big Bang’ due to the attacker’s fondness for the ‘Big Bang Theory’ TV show, after which some of the malware’s modules are named."
+---
+name: The Big Bang
+aliases:
+- The Big Bang
+description: While it is not clear exactly what the attacker is looking for, what
+  is clear is that once he finds it, a second stage of the attack awaits, fetching
+  additional modules and/or malware from the Command and Control server. This then
+  is a surveillance attack in progress and has been dubbed ‘Big Bang’ due to the attacker’s
+  fondness for the ‘Big Bang Theory’ TV show, after which some of the malware’s modules
+  are named.
 url: "/the-big-bang"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "a3cc5105-3bc6-498b-8d53-981e12d86909"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: a3cc5105-3bc6-498b-8d53-981e12d86909
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

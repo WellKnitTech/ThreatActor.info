@@ -1,11 +1,27 @@
-name: "Carmine Tsunami"
-aliases: ["DEV-0196","QuaDream","Carmine Tsunami"]
-description: "Carmine Tsunami is a threat actor linked to an Israel-based private sector offensive actor called QuaDream. QuaDream sells a platform called REIGN to governments for law enforcement purposes, which includes exploits, malware, and infrastructure for data exfiltration from mobile devices. Carmine Tsunami is associated with the iOS malware called KingsPawn and has targeted civil society victims, including journalists, political opposition figures, and NGO workers, in various regions. They utilize domain registrars and inexpensive cloud hosting providers, often using single domains per IP address and deploying free Let's Encrypt SSL certificates."
+---
+name: Carmine Tsunami
+aliases:
+- DEV-0196
+- QuaDream
+- Carmine Tsunami
+description: Carmine Tsunami is a threat actor linked to an Israel-based private sector
+  offensive actor called QuaDream. QuaDream sells a platform called REIGN to governments
+  for law enforcement purposes, which includes exploits, malware, and infrastructure
+  for data exfiltration from mobile devices. Carmine Tsunami is associated with the
+  iOS malware called KingsPawn and has targeted civil society victims, including journalists,
+  political opposition figures, and NGO workers, in various regions. They utilize
+  domain registrars and inexpensive cloud hosting providers, often using single domains
+  per IP address and deploying free Let's Encrypt SSL certificates.
 url: "/carmine-tsunami"
-country: "Israel"
-malware: ["{\"name\" => \"CloudDuke\"}","{\"name\" => \"MobileOrder\"}","{\"name\" => \"Offence\"}","{\"name\" => \"Xploit\"}"]
+country: Israel
+malware:
+- '{"name" => "CloudDuke"}'
+- '{"name" => "MobileOrder"}'
+- '{"name" => "Offence"}'
+- '{"name" => "Xploit"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "fa76ce6a-f434-4d4a-817f-c4bd0a3f803c"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: fa76ce6a-f434-4d4a-817f-c4bd0a3f803c
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

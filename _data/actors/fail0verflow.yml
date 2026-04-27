@@ -1,10 +1,23 @@
-name: "Fail0verflow"
-aliases: ["Team Twiizer","Fail0verflow"]
-description: "Fail0verflow is a hacking group known for exploiting vulnerabilities in gaming consoles, notably the Nintendo Wii and PlayStation 3. They utilized techniques such as RAM shorting, buffer overflow, and a signing bug to achieve code execution and develop the Homebrew Channel for the Wii. In 2010, they compromised an ECDSA key for the PS3, and later announced the retrieval of PS5 symmetric root keys, enabling the potential for custom firmware and homebrew software. Their exploits often involve kernel access and have raised concerns about the implications for piracy and litigation in the gaming community."
+---
+name: Fail0verflow
+aliases:
+- Team Twiizer
+- Fail0verflow
+description: Fail0verflow is a hacking group known for exploiting vulnerabilities
+  in gaming consoles, notably the Nintendo Wii and PlayStation 3. They utilized techniques
+  such as RAM shorting, buffer overflow, and a signing bug to achieve code execution
+  and develop the Homebrew Channel for the Wii. In 2010, they compromised an ECDSA
+  key for the PS3, and later announced the retrieval of PS5 symmetric root keys, enabling
+  the potential for custom firmware and homebrew software. Their exploits often involve
+  kernel access and have raised concerns about the implications for piracy and litigation
+  in the gaming community.
 url: "/fail0verflow"
-malware: ["{\"name\" => \"Hacking Team UEFI Rootkit\"}","{\"name\" => \"Xploit\"}"]
+malware:
+- '{"name" => "Hacking Team UEFI Rootkit"}'
+- '{"name" => "Xploit"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "096c57c1-263f-463e-8089-e553872db149"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: '096c57c1-263f-463e-8089-e553872db149'
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

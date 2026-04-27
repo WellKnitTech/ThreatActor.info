@@ -1,11 +1,20 @@
-name: "EvilWeb"
-aliases: ["EvilWeb"]
-description: "EvilWeb is a pro-Russian hacktivist group created in March 2024 that targets American and European entities using a hack-and-leak method alongside DDoS attacks. The group claims to have obtained data from various high-profile American organizations. EvilWeb announced its participation in the #FreeDurov operation on August 25, 2024, and began executing DDoS and hacking attacks. As of September 3, 2024, their Telegram channel has 1,146 members."
+---
+name: EvilWeb
+aliases:
+- EvilWeb
+description: 'EvilWeb is a pro-Russian hacktivist group created in March 2024 that
+  targets American and European entities using a hack-and-leak method alongside DDoS
+  attacks. The group claims to have obtained data from various high-profile American
+  organizations. EvilWeb announced its participation in the #FreeDurov operation on
+  August 25, 2024, and began executing DDoS and hacking attacks. As of September 3,
+  2024, their Telegram channel has 1,146 members.'
 url: "/evilweb"
-country: "Russia"
-malware: ["{\"name\" => \"Hacking Team UEFI Rootkit\"}"]
+country: Russia
+malware:
+- '{"name" => "Hacking Team UEFI Rootkit"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "c8ade1b0-befd-490e-8888-656dffee4d1c"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: c8ade1b0-befd-490e-8888-656dffee4d1c
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

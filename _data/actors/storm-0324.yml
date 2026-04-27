@@ -1,9 +1,18 @@
-name: "Storm-0324"
-aliases: ["DEV-0324","Sagrid","TA543","Storm-0324"]
-description: "The threat actor that Microsoft tracks as Storm-0324 is a financially motivated group known to gain initial access using email-based initial infection vectors and then hand off access to compromised networks to other threat actors. These handoffs frequently lead to ransomware deployment."
+---
+name: Storm-0324
+aliases:
+- DEV-0324
+- Sagrid
+- TA543
+- Storm-0324
+description: The threat actor that Microsoft tracks as Storm-0324 is a financially
+  motivated group known to gain initial access using email-based initial infection
+  vectors and then hand off access to compromised networks to other threat actors.
+  These handoffs frequently lead to ransomware deployment.
 url: "/storm-0324"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "8cb6f57b-9ebb-45a6-a89f-9efdb8065d70"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 8cb6f57b-9ebb-45a6-a89f-9efdb8065d70
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

@@ -1,10 +1,22 @@
-name: "DEV-0569"
-aliases: ["Storm-0569","DEV-0569"]
-description: "DEV-0569, also known as Storm-0569, is a threat actor group that has been observed deploying the Royal ransomware. They utilize malicious ads and phishing techniques to distribute malware and gain initial access to networks. The group has been linked to the distribution of payloads such as Batloader and has forged relationships with other threat actors. DEV-0569 has targeted various sectors, including healthcare, communications, manufacturing, and education in the United States and Brazil."
+---
+name: DEV-0569
+aliases:
+- Storm-0569
+- DEV-0569
+description: DEV-0569, also known as Storm-0569, is a threat actor group that has
+  been observed deploying the Royal ransomware. They utilize malicious ads and phishing
+  techniques to distribute malware and gain initial access to networks. The group
+  has been linked to the distribution of payloads such as Batloader and has forged
+  relationships with other threat actors. DEV-0569 has targeted various sectors, including
+  healthcare, communications, manufacturing, and education in the United States and
+  Brazil.
 url: "/dev-0569"
-malware: ["{\"name\" => \"SHIPSHAPE\"}","{\"name\" => \"UNITEDRAKE\"}"]
+malware:
+- '{"name" => "SHIPSHAPE"}'
+- '{"name" => "UNITEDRAKE"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "e883458d-496f-4a94-b916-4b7b83e3d525"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: e883458d-496f-4a94-b916-4b7b83e3d525
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

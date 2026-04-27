@@ -1,10 +1,20 @@
-name: "ShroudedSnooper"
-aliases: ["ShroudedSnooper"]
-description: "In September 2023, Cisco Talos identified a new malware family that it calls ‘HTTPSnoop’ being deployed against telecommunications providers in the Middle East. They also discovered a sister implant to 'HTTPSnoop,’ that they are naming ‘PipeSnoop,’ which can accept arbitrary shellcode from a named pipe and execute it on the infected endpoint. Based on these findings, the researchers assess with high confidence that both implants belong to a new intrusion set that it named ‘ShroudedSnooper.’"
+---
+name: ShroudedSnooper
+aliases:
+- ShroudedSnooper
+description: In September 2023, Cisco Talos identified a new malware family that it
+  calls ‘HTTPSnoop’ being deployed against telecommunications providers in the Middle
+  East. They also discovered a sister implant to 'HTTPSnoop,’ that they are naming
+  ‘PipeSnoop,’ which can accept arbitrary shellcode from a named pipe and execute
+  it on the infected endpoint. Based on these findings, the researchers assess with
+  high confidence that both implants belong to a new intrusion set that it named ‘ShroudedSnooper.’
 url: "/shroudedsnooper"
-malware: ["{\"name\" => \"Snoopy\"}","{\"name\" => \"Archelaus Beta\"}"]
+malware:
+- '{"name" => "Snoopy"}'
+- '{"name" => "Archelaus Beta"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "3437c5a5-4c42-4665-99df-b17bc57a7ba6"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 3437c5a5-4c42-4665-99df-b17bc57a7ba6
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

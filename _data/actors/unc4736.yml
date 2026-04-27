@@ -1,11 +1,22 @@
-name: "UNC4736"
-aliases: ["UNC4736"]
-description: "UNC4736 is a North Korean threat actor that has been involved in supply chain attacks targeting software chains of 3CX and X_TRADER. They have used malware strains such as TAXHAUL, Coldcat, and VEILEDSIGNAL to compromise Windows and macOS systems. UNC4736 has been linked to financially motivated cybercrime operations, particularly focused on cryptocurrency and fintech-related services. They have also demonstrated infrastructure overlap with other North Korean and APT43 activity."
+---
+name: UNC4736
+aliases:
+- UNC4736
+description: UNC4736 is a North Korean threat actor that has been involved in supply
+  chain attacks targeting software chains of 3CX and X_TRADER. They have used malware
+  strains such as TAXHAUL, Coldcat, and VEILEDSIGNAL to compromise Windows and macOS
+  systems. UNC4736 has been linked to financially motivated cybercrime operations,
+  particularly focused on cryptocurrency and fintech-related services. They have also
+  demonstrated infrastructure overlap with other North Korean and APT43 activity.
 url: "/unc4736"
-country: "North Korea"
-malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"Windows Remote Desktop\"}"]
+country: North Korea
+malware:
+- '{"name" => "CyberGate"}'
+- '{"name" => "Cyber Eye RAT"}'
+- '{"name" => "Windows Remote Desktop"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "afe5526e-e5e4-4b05-bc69-2bfb6785fc7e"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: afe5526e-e5e4-4b05-bc69-2bfb6785fc7e
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

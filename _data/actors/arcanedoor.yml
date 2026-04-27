@@ -1,9 +1,23 @@
-name: "ArcaneDoor"
-aliases: ["ArcaneDoor"]
-description: "ArcaneDoor is a campaign that is the latest example of state-sponsored actors targeting perimeter network devices from multiple vendors. Coveted by these actors, perimeter network devices are the perfect intrusion point for espionage-focused campaigns. As a critical path for data into and out of the network, these devices need to be routinely and promptly patched; using up-to-date hardware and software versions and configurations; and be closely monitored from a security perspective. Gaining a foothold on these devices allows an actor to directly pivot into an organization, reroute or modify traffic and monitor network communications. In the past two years, we have seen a dramatic and sustained increase in the targeting of these devices in areas such as telecommunications providers and energy sector organizations — critical infrastructure entities that are likely strategic targets of interest for many foreign governments."
+---
+name: ArcaneDoor
+aliases:
+- ArcaneDoor
+description: ArcaneDoor is a campaign that is the latest example of state-sponsored
+  actors targeting perimeter network devices from multiple vendors. Coveted by these
+  actors, perimeter network devices are the perfect intrusion point for espionage-focused
+  campaigns. As a critical path for data into and out of the network, these devices
+  need to be routinely and promptly patched; using up-to-date hardware and software
+  versions and configurations; and be closely monitored from a security perspective.
+  Gaining a foothold on these devices allows an actor to directly pivot into an organization,
+  reroute or modify traffic and monitor network communications. In the past two years,
+  we have seen a dramatic and sustained increase in the targeting of these devices
+  in areas such as telecommunications providers and energy sector organizations —
+  critical infrastructure entities that are likely strategic targets of interest for
+  many foreign governments.
 url: "/arcanedoor"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "97a10d3b-5cb5-4df9-856c-515994f3e953"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 97a10d3b-5cb5-4df9-856c-515994f3e953
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

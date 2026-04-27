@@ -1,10 +1,20 @@
-name: "Kasablanka"
-aliases: ["Kasablanka"]
-description: "The Kasablanka group is a cyber-criminal organization that has\nspecifically targeted Russia between September and December 2022,\nusing various payloads delivered through phishing emails containing\nsocially engineered lnk files, zip packages, and executables attached to\nvirtual disk image files."
+---
+name: Kasablanka
+aliases:
+- Kasablanka
+description: |-
+  The Kasablanka group is a cyber-criminal organization that has
+  specifically targeted Russia between September and December 2022,
+  using various payloads delivered through phishing emails containing
+  socially engineered lnk files, zip packages, and executables attached to
+  virtual disk image files.
 url: "/kasablanka"
-malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
+malware:
+- '{"name" => "CyberGate"}'
+- '{"name" => "Cyber Eye RAT"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "6db3ad41-6b47-43c8-b94b-98853749ee02"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 6db3ad41-6b47-43c8-b94b-98853749ee02
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

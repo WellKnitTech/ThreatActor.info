@@ -1,11 +1,27 @@
-name: "Denim Tsunami"
-aliases: ["KNOTWEED","DSIRF","Denim Tsunami"]
-description: "Denim Tsunami is a threat actor group that has been involved in targeted attacks against European and Central American customers. They have been observed using multiple Windows and Adobe 0-day exploits, including one for CVE-2022-22047, which is a privilege escalation vulnerability. Denim Tsunami developed a custom malware called Subzero, which has capabilities such as keylogging, capturing screenshots, data exfiltration, and running remote shells. They have also been associated with the Austrian spyware distributor DSIRF."
+---
+name: Denim Tsunami
+aliases:
+- KNOTWEED
+- DSIRF
+- Denim Tsunami
+description: Denim Tsunami is a threat actor group that has been involved in targeted
+  attacks against European and Central American customers. They have been observed
+  using multiple Windows and Adobe 0-day exploits, including one for CVE-2022-22047,
+  which is a privilege escalation vulnerability. Denim Tsunami developed a custom
+  malware called Subzero, which has capabilities such as keylogging, capturing screenshots,
+  data exfiltration, and running remote shells. They have also been associated with
+  the Austrian spyware distributor DSIRF.
 url: "/denim-tsunami"
-country: "Austria"
-malware: ["{\"name\" => \"RemoteCMD\"}","{\"name\" => \"Remote Utilities\"}","{\"name\" => \"Windows Remote Desktop\"}","{\"name\" => \"RemotePC\"}","{\"name\" => \"Xploit\"}"]
+country: Austria
+malware:
+- '{"name" => "RemoteCMD"}'
+- '{"name" => "Remote Utilities"}'
+- '{"name" => "Windows Remote Desktop"}'
+- '{"name" => "RemotePC"}'
+- '{"name" => "Xploit"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "79a347d9-1938-4550-8836-98e4ed95f77c"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 79a347d9-1938-4550-8836-98e4ed95f77c
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

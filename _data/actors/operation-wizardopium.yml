@@ -1,9 +1,16 @@
-name: "Operation WizardOpium"
-aliases: ["Operation WizardOpium"]
-description: "We are calling these attacks Operation WizardOpium. So far, we have been unable to establish a definitive link with any known threat actors. There are certain very weak code similarities with Lazarus attacks, although these could very well be a false flag. The profile of the targeted website is more in line with earlier DarkHotel attacks that have recently deployed similar false flag attacks."
+---
+name: Operation WizardOpium
+aliases:
+- Operation WizardOpium
+description: We are calling these attacks Operation WizardOpium. So far, we have been
+  unable to establish a definitive link with any known threat actors. There are certain
+  very weak code similarities with Lazarus attacks, although these could very well
+  be a false flag. The profile of the targeted website is more in line with earlier
+  DarkHotel attacks that have recently deployed similar false flag attacks.
 url: "/operation-wizardopium"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "75db4269-924b-4771-8f62-0de600a43634"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 75db4269-924b-4771-8f62-0de600a43634
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

@@ -1,9 +1,16 @@
-name: "Earth Longzhi"
-aliases: ["SnakeCharmer","Earth Longzhi"]
-description: "Earth Longzhi is a subgroup of APT41 targeting organizations based in Taiwan, Thailand, the Philippines, and Fiji, and using “stack rumbling” via Image File Execution Options (IFEO), a new denial-of-service (DoS) technique to disable security software."
+---
+name: Earth Longzhi
+aliases:
+- SnakeCharmer
+- Earth Longzhi
+description: Earth Longzhi is a subgroup of APT41 targeting organizations based in
+  Taiwan, Thailand, the Philippines, and Fiji, and using “stack rumbling” via Image
+  File Execution Options (IFEO), a new denial-of-service (DoS) technique to disable
+  security software.
 url: "/earth-longzhi"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "b21dbf83-3459-44f4-b91b-6157379e430a"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: b21dbf83-3459-44f4-b91b-6157379e430a
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

@@ -1,9 +1,18 @@
-name: "Natohub"
-aliases: ["Natohub"]
-description: "Natohub is a hacker who claimed to have stolen 42,000 documents from the UN’s International Civil Aviation Organization and is offering the data for sale on underground forums. The compromised documents allegedly contain personal records of ICAO staff and others associated with the agency. While ICAO is investigating the potential breach, Natohub has also made unverified claims about accessing personal data on thousands of UN delegates. The actor's track record of leaks is limited, raising questions about the credibility of their assertions."
+---
+name: Natohub
+aliases:
+- Natohub
+description: Natohub is a hacker who claimed to have stolen 42,000 documents from
+  the UN’s International Civil Aviation Organization and is offering the data for
+  sale on underground forums. The compromised documents allegedly contain personal
+  records of ICAO staff and others associated with the agency. While ICAO is investigating
+  the potential breach, Natohub has also made unverified claims about accessing personal
+  data on thousands of UN delegates. The actor's track record of leaks is limited,
+  raising questions about the credibility of their assertions.
 url: "/natohub"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "43e2a6bc-0b62-456a-b5ae-a40770b8b8e1"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 43e2a6bc-0b62-456a-b5ae-a40770b8b8e1
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

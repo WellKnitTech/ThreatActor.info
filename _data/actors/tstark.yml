@@ -1,11 +1,23 @@
-name: "Tstark"
-aliases: ["Tstark"]
-description: "TStark is a threat actor identified by X-Ops, associated with a cluster of devices that executed the bookmark buffer overflow exploit targeting CVE-2020-15069 (T1203). The actor exhibited odd telemetry behavior indicative of intermittent VPN usage, switching between IP addresses geolocated to Hong Kong and Chengdu. Analysis revealed malware samples for Mac OS X and iOS, as well as IFRAME injection code exploiting a WebAssembly vulnerability (T1189). Additionally, TStark was linked to the development of libsophos.so and the deployment of malicious payloads across their devices."
+---
+name: Tstark
+aliases:
+- Tstark
+description: TStark is a threat actor identified by X-Ops, associated with a cluster
+  of devices that executed the bookmark buffer overflow exploit targeting CVE-2020-15069
+  (T1203). The actor exhibited odd telemetry behavior indicative of intermittent VPN
+  usage, switching between IP addresses geolocated to Hong Kong and Chengdu. Analysis
+  revealed malware samples for Mac OS X and iOS, as well as IFRAME injection code
+  exploiting a WebAssembly vulnerability (T1189). Additionally, TStark was linked
+  to the development of libsophos.so and the deployment of malicious payloads across
+  their devices.
 url: "/tstark"
-country: "China"
-malware: ["{\"name\" => \"Xploit\"}","{\"name\" => \"CrossRat\"}"]
+country: China
+malware:
+- '{"name" => "Xploit"}'
+- '{"name" => "CrossRat"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "7c1af433-bde1-4c35-85d3-e951b5020187"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 7c1af433-bde1-4c35-85d3-e951b5020187
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

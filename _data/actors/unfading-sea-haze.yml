@@ -1,11 +1,30 @@
-name: "Unfading Sea Haze"
-aliases: ["Unfading Sea Haze"]
-description: "Unfading Sea Haze is a threat actor focused on espionage, targeting government and military organizations in the South China Sea region since 2018. They employ spear-phishing emails with malicious attachments to gain initial access, followed by the deployment of custom malware such as Gh0st RAT variants and SharpJSHandler. The group utilizes scheduled tasks and manipulates local administrator accounts for persistence, while also incorporating Remote Monitoring and Management tools into their attacks. Unfading Sea Haze demonstrates a sophisticated and patient approach, remaining undetected for years and showing adaptability through evolving exfiltration tactics and malware arsenal."
+---
+name: Unfading Sea Haze
+aliases:
+- Unfading Sea Haze
+description: Unfading Sea Haze is a threat actor focused on espionage, targeting government
+  and military organizations in the South China Sea region since 2018. They employ
+  spear-phishing emails with malicious attachments to gain initial access, followed
+  by the deployment of custom malware such as Gh0st RAT variants and SharpJSHandler.
+  The group utilizes scheduled tasks and manipulates local administrator accounts
+  for persistence, while also incorporating Remote Monitoring and Management tools
+  into their attacks. Unfading Sea Haze demonstrates a sophisticated and patient approach,
+  remaining undetected for years and showing adaptability through evolving exfiltration
+  tactics and malware arsenal.
 url: "/unfading-sea-haze"
-country: "China"
-malware: ["{\"name\" => \"China Chopper\"}","{\"name\" => \"gh0st\"}","{\"name\" => \"RemoteCMD\"}","{\"name\" => \"Gh0st RAT\"}","{\"name\" => \"Remote Utilities\"}","{\"name\" => \"RemotePC\"}","{\"name\" => \"SharpEye\"}","{\"name\" => \"SharpBot\"}"]
+country: China
+malware:
+- '{"name" => "China Chopper"}'
+- '{"name" => "gh0st"}'
+- '{"name" => "RemoteCMD"}'
+- '{"name" => "Gh0st RAT"}'
+- '{"name" => "Remote Utilities"}'
+- '{"name" => "RemotePC"}'
+- '{"name" => "SharpEye"}'
+- '{"name" => "SharpBot"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "58e75098-8edc-48ce-b1de-c1a8647e33d3"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 58e75098-8edc-48ce-b1de-c1a8647e33d3
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

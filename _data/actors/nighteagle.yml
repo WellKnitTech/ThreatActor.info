@@ -1,15 +1,31 @@
-name: "NightEagle"
-aliases: ["APT-Q-95","NightEagle"]
-description: "NightEagle is an advanced Threat Actor that targeted China's High-Tech Industry and Military Organisation, leveraging sophisticated techniques, 0 days, and specialized detection avoiding malware. The threat actor seems to have access to significant funding, with dedicated infrastructure, and focuses on low-noise, low-impact intelligence gathering operations. NightEagle is identified as a North-American, state-sponsored or affiliated group that has been active since at least 2023."
+---
+name: NightEagle
+aliases:
+- APT-Q-95
+- NightEagle
+description: NightEagle is an advanced Threat Actor that targeted China's High-Tech
+  Industry and Military Organisation, leveraging sophisticated techniques, 0 days,
+  and specialized detection avoiding malware. The threat actor seems to have access
+  to significant funding, with dedicated infrastructure, and focuses on low-noise,
+  low-impact intelligence gathering operations. NightEagle is identified as a North-American,
+  state-sponsored or affiliated group that has been active since at least 2023.
 url: "/nighteagle"
-country: "United States"
-sector_focus: ["Military","Government, Administration","Technology","Government","Private Sector"]
-targeted_victims: ["China"]
-incident_type: "Espionage"
-risk_level: "Low"
-malware: ["{\"name\" => \"China Chopper\"}"]
+country: United States
+sector_focus:
+- Military
+- Government, Administration
+- Technology
+- Government
+- Private Sector
+targeted_victims:
+- China
+incident_type: Espionage
+risk_level: Low
+malware:
+- '{"name" => "China Chopper"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "1b54a3c1-023b-4a3c-8f11-50d811cced88"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 1b54a3c1-023b-4a3c-8f11-50d811cced88
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

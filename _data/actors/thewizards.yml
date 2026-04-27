@@ -1,10 +1,26 @@
-name: "TheWizards"
-aliases: ["TheWizards"]
-description: "TheWizards is a China-aligned APT group that employs the Spellbinder tool for adversary-in-the-middle attacks, utilizing IPv6 SLAAC spoofing to redirect legitimate software updates to malicious servers. They have developed the WizardNet backdoor for Windows and serve DarkNights to Android applications, indicating a connection to Dianke Network Security Technology. The group targets individuals and companies in the Philippines, Cambodia, the UAE, mainland China, and Hong Kong. ESET has observed their infrastructure and tools, including the acquisition of servers for hosting C&C and malicious updates."
+---
+name: TheWizards
+aliases:
+- TheWizards
+description: TheWizards is a China-aligned APT group that employs the Spellbinder
+  tool for adversary-in-the-middle attacks, utilizing IPv6 SLAAC spoofing to redirect
+  legitimate software updates to malicious servers. They have developed the WizardNet
+  backdoor for Windows and serve DarkNights to Android applications, indicating a
+  connection to Dianke Network Security Technology. The group targets individuals
+  and companies in the Philippines, Cambodia, the UAE, mainland China, and Hong Kong.
+  ESET has observed their infrastructure and tools, including the acquisition of servers
+  for hosting C&C and malicious updates.
 url: "/thewizards"
-malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"China Chopper\"}","{\"name\" => \"DroidJack\"}","{\"name\" => \"Androrat\"}","{\"name\" => \"Windows Remote Desktop\"}","{\"name\" => \"Darknet RAT\"}"]
+malware:
+- '{"name" => "Backdoor.Oldrea"}'
+- '{"name" => "China Chopper"}'
+- '{"name" => "DroidJack"}'
+- '{"name" => "Androrat"}'
+- '{"name" => "Windows Remote Desktop"}'
+- '{"name" => "Darknet RAT"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "834558f0-7961-48b3-b77a-7d4b6c66038e"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 834558f0-7961-48b3-b77a-7d4b6c66038e
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

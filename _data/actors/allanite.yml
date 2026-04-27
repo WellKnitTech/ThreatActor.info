@@ -1,10 +1,21 @@
-name: "ALLANITE"
-aliases: ["Palmetto Fusion","Allanite","ALLANITE"]
-description: "Adversaries abusing ICS (based on Dragos Inc adversary list).\nALLANITE accesses business and industrial control (ICS) networks, conducts reconnaissance, and gathers intelligence in United States and United Kingdom electric utility sectors. Dragos assesses with moderate confidence that ALLANITE operators continue to maintain ICS network access to: (1) understand the operational environment necessary to develop disruptive capabilities, (2) have ready access from which to disrupt electric utilities.\nALLANITE uses email phishing campaigns and compromised websites called watering holes to steal credentials and gain access to target networks, including collecting and distributing screenshots of industrial control systems. ALLANITE operations limit themselves to information gathering and have not demonstrated any disruptive or damaging capabilities.\nALLANITE conducts malware-less operations primarily leveraging legitimate and available tools in the Windows operating system."
+---
+name: ALLANITE
+aliases:
+- Palmetto Fusion
+- Allanite
+- ALLANITE
+description: |-
+  Adversaries abusing ICS (based on Dragos Inc adversary list).
+  ALLANITE accesses business and industrial control (ICS) networks, conducts reconnaissance, and gathers intelligence in United States and United Kingdom electric utility sectors. Dragos assesses with moderate confidence that ALLANITE operators continue to maintain ICS network access to: (1) understand the operational environment necessary to develop disruptive capabilities, (2) have ready access from which to disrupt electric utilities.
+  ALLANITE uses email phishing campaigns and compromised websites called watering holes to steal credentials and gain access to target networks, including collecting and distributing screenshots of industrial control systems. ALLANITE operations limit themselves to information gathering and have not demonstrated any disruptive or damaging capabilities.
+  ALLANITE conducts malware-less operations primarily leveraging legitimate and available tools in the Windows operating system.
 url: "/allanite"
-malware: ["{\"name\" => \"Windows Remote Desktop\"}","{\"name\" => \"UNITEDRAKE\"}"]
+malware:
+- '{"name" => "Windows Remote Desktop"}'
+- '{"name" => "UNITEDRAKE"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "a9000eaf-2b75-4ec7-8dcf-fe1bb5c77470"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: a9000eaf-2b75-4ec7-8dcf-fe1bb5c77470
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

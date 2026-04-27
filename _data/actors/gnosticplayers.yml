@@ -1,9 +1,19 @@
-name: "Gnosticplayers"
-aliases: ["Gnosticplayers"]
-description: "The hacker said that he put up the data for sale mainly because these companies had failed to protect passwords with strong encryption algorithms like bcrypt.\nMost of the hashed passwords the hacker put up for sale today can cracked with various levels of difficulty --but they can be cracked.\n\"I got upset because I feel no one is learning,\" the hacker told ZDNet in an online chat earlier today. \"I just felt upset at this particular moment, because seeing this lack of security in 2019 is making me angry.\"\nIn a conversation with ZDNet last month, the hacker told us he wanted to hack and put up for sale more than one billion records and then retire and disappear with the money.\nBut in a conversation today, the hacker says this is not his target anymore, as he learned that other hackers have already achieved the same goal before him.\n Gnosticplayers also revealed that not all the data he obtained from hacked companies had been put up for sale. Some companies gave into extortion demands and paid fees so breaches would remain private.\n\"I came to an agreement with some companies, but the concerned startups won't see their data for sale,\" he said. \"I did it that's why I can't publish the rest of my databases or even name them.\""
+---
+name: Gnosticplayers
+aliases:
+- Gnosticplayers
+description: |-
+  The hacker said that he put up the data for sale mainly because these companies had failed to protect passwords with strong encryption algorithms like bcrypt.
+  Most of the hashed passwords the hacker put up for sale today can cracked with various levels of difficulty --but they can be cracked.
+  "I got upset because I feel no one is learning," the hacker told ZDNet in an online chat earlier today. "I just felt upset at this particular moment, because seeing this lack of security in 2019 is making me angry."
+  In a conversation with ZDNet last month, the hacker told us he wanted to hack and put up for sale more than one billion records and then retire and disappear with the money.
+  But in a conversation today, the hacker says this is not his target anymore, as he learned that other hackers have already achieved the same goal before him.
+   Gnosticplayers also revealed that not all the data he obtained from hacked companies had been put up for sale. Some companies gave into extortion demands and paid fees so breaches would remain private.
+  "I came to an agreement with some companies, but the concerned startups won't see their data for sale," he said. "I did it that's why I can't publish the rest of my databases or even name them."
 url: "/gnosticplayers"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "f32e3682-9298-11e9-8dcb-639156d97cd1"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: f32e3682-9298-11e9-8dcb-639156d97cd1
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

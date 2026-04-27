@@ -1,9 +1,17 @@
-name: "SafePay"
-aliases: ["SafePay Ransomware"]
-description: "SafePay is a ransomware group particularly active in Germany, responsible for 24% of the 74 ransomware victims reported in the country during Q1 2025."
+---
+name: SafePay
+aliases:
+- SafePay Ransomware
+description: SafePay is a ransomware group particularly active in Germany, responsible
+  for 24% of the 74 ransomware victims reported in the country during Q1 2025.
 url: "/safepay"
-country: "Unknown"
-sector_focus: ["Healthcare","Logistics","Manufacturing","Government"]
-first_seen: "2024"
-last_activity: "2025"
-risk_level: "High"
+country: Unknown
+sector_focus:
+- Healthcare
+- Logistics
+- Manufacturing
+- Government
+first_seen: '2024'
+last_activity: '2025'
+risk_level: High
+source_attribution: Manually curated from open source intelligence

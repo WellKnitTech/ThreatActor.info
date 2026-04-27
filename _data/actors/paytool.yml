@@ -1,10 +1,27 @@
-name: "PayTool"
-aliases: ["PayTool"]
-description: "PayTool is a threat actor that operates a phishing ecosystem focused on traffic violation and fine payment scams targeting Canadians through SMS-based social engineering. Their campaigns impersonate Canadian government traffic enforcement services, utilizing a federal-style \"Traffic Ticket Search Portal\" model that aggregates provincial fine payment portals. PayTool maintains a pool of generic domains to ensure continuity when specific provincial domains are blacklisted, exploiting brand trust with disposable domains. Recommendations include implementing DNS and web gateway controls to block newly registered domains and known PayTool-related IP ranges."
+---
+name: PayTool
+aliases:
+- PayTool
+description: PayTool is a threat actor that operates a phishing ecosystem focused
+  on traffic violation and fine payment scams targeting Canadians through SMS-based
+  social engineering. Their campaigns impersonate Canadian government traffic enforcement
+  services, utilizing a federal-style "Traffic Ticket Search Portal" model that aggregates
+  provincial fine payment portals. PayTool maintains a pool of generic domains to
+  ensure continuity when specific provincial domains are blacklisted, exploiting brand
+  trust with disposable domains. Recommendations include implementing DNS and web
+  gateway controls to block newly registered domains and known PayTool-related IP
+  ranges.
 url: "/paytool"
-malware: ["{\"name\" => \"BlackEnergy\"}","{\"name\" => \"BLACKCOFFEE\"}","{\"name\" => \"Blackshades\"}","{\"name\" => \"BlackNix\"}","{\"name\" => \"Xploit\"}","{\"name\" => \"BlackHole\"}"]
+malware:
+- '{"name" => "BlackEnergy"}'
+- '{"name" => "BLACKCOFFEE"}'
+- '{"name" => "Blackshades"}'
+- '{"name" => "BlackNix"}'
+- '{"name" => "Xploit"}'
+- '{"name" => "BlackHole"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "e08ab051-f2d5-42c3-960f-efffebaa7f7c"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: e08ab051-f2d5-42c3-960f-efffebaa7f7c
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

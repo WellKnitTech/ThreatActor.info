@@ -1,14 +1,34 @@
-name: "Curious Gorge"
-aliases: ["UNC3742","Curious Gorge"]
-description: "Curious Gorge, a group TAG attributes to China's PLA SSF, has conducted campaigns against government and military organizations in Ukraine, Russia, Kazakhstan, and Mongolia. The actor has remained active against government, military, logistics and manufacturing organizations in Ukraine, Russia and Central Asia. In Russia, long running campaigns against multiple government organizations have continued, including the Ministry of Foreign Affairs. Over the past week, TAG identified additional compromises impacting multiple Russian defense contractors and manufacturers and a Russian logistics company."
+---
+name: Curious Gorge
+aliases:
+- UNC3742
+- Curious Gorge
+description: Curious Gorge, a group TAG attributes to China's PLA SSF, has conducted
+  campaigns against government and military organizations in Ukraine, Russia, Kazakhstan,
+  and Mongolia. The actor has remained active against government, military, logistics
+  and manufacturing organizations in Ukraine, Russia and Central Asia. In Russia,
+  long running campaigns against multiple government organizations have continued,
+  including the Ministry of Foreign Affairs. Over the past week, TAG identified additional
+  compromises impacting multiple Russian defense contractors and manufacturers and
+  a Russian logistics company.
 url: "/curious-gorge"
-country: "China"
-sector_focus: ["Government","Military","Logistics","Defense Contractor"]
-targeted_victims: ["Ukraine","Russia","Kazakhstan","Mongolia"]
-incident_type: "Espionage"
-malware: ["{\"name\" => \"China Chopper\"}"]
+country: China
+sector_focus:
+- Government
+- Military
+- Logistics
+- Defense Contractor
+targeted_victims:
+- Ukraine
+- Russia
+- Kazakhstan
+- Mongolia
+incident_type: Espionage
+malware:
+- '{"name" => "China Chopper"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "6ee284d9-2742-4468-851c-a61366cc9a20"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 6ee284d9-2742-4468-851c-a61366cc9a20
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

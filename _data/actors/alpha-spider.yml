@@ -1,10 +1,23 @@
-name: "Alpha Spider"
-aliases: ["ALPHV Ransomware Group","Alpha Spider"]
-description: "ALPHA SPIDER is a threat actor known for developing and operating the Alphv ransomware as a service. They have been observed using novel offensive techniques, such as exploiting software vulnerabilities and leveraging legitimate administration tools for malicious activities. ALPHA SPIDER affiliates have demonstrated persistence in exfiltrating data and have shown the ability to bypass security measures like DNS-based filtering and multifactor authentication. Despite lacking specific operational security measures, defenders have opportunities to detect and respond to ALPHA SPIDER's operations effectively."
+---
+name: Alpha Spider
+aliases:
+- ALPHV Ransomware Group
+- Alpha Spider
+description: ALPHA SPIDER is a threat actor known for developing and operating the
+  Alphv ransomware as a service. They have been observed using novel offensive techniques,
+  such as exploiting software vulnerabilities and leveraging legitimate administration
+  tools for malicious activities. ALPHA SPIDER affiliates have demonstrated persistence
+  in exfiltrating data and have shown the ability to bypass security measures like
+  DNS-based filtering and multifactor authentication. Despite lacking specific operational
+  security measures, defenders have opportunities to detect and respond to ALPHA SPIDER's
+  operations effectively.
 url: "/alpha-spider"
-malware: ["{\"name\" => \"Offence\"}","{\"name\" => \"Xploit\"}"]
+malware:
+- '{"name" => "Offence"}'
+- '{"name" => "Xploit"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "6149f3b6-510d-4e45-bf88-cd25c7193702"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 6149f3b6-510d-4e45-bf88-cd25c7193702
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

@@ -1,10 +1,27 @@
-name: "Nazar"
-aliases: ["SIG37","Nazar"]
-description: "This actor was identified by Juan Andres Guerrero-Saade from the SIG37 cluster as published in the ShadowBrokers' 'Lost in Translation' leak. Earliest known sighting potentially dates back to as far as 2008 with a confirmed center of activity around 2010-2013. The actor name is derived from a PDB debug string fragment: 'khzer'. Victimology indicates targeting of Iran, assessed with low confidence based on VT file submission locations. Nazar employs a modular toolkit where a main dropper silently registers multiple DLLs as OLE controls in the Windows registry. Functionality includes keylogging, sound and screen grabbing, as well as traffic capture using the MicroOlap Packet Sniffer library."
+---
+name: Nazar
+aliases:
+- SIG37
+- Nazar
+description: 'This actor was identified by Juan Andres Guerrero-Saade from the SIG37
+  cluster as published in the ShadowBrokers'' ''Lost in Translation'' leak. Earliest
+  known sighting potentially dates back to as far as 2008 with a confirmed center
+  of activity around 2010-2013. The actor name is derived from a PDB debug string
+  fragment: ''khzer''. Victimology indicates targeting of Iran, assessed with low
+  confidence based on VT file submission locations. Nazar employs a modular toolkit
+  where a main dropper silently registers multiple DLLs as OLE controls in the Windows
+  registry. Functionality includes keylogging, sound and screen grabbing, as well
+  as traffic capture using the MicroOlap Packet Sniffer library.'
 url: "/nazar"
-malware: ["{\"name\" => \"SOUNDBITE\"}","{\"name\" => \"Back Orifice\"}","{\"name\" => \"Back Orifice 2000\"}","{\"name\" => \"Lost Door\"}","{\"name\" => \"Windows Remote Desktop\"}"]
+malware:
+- '{"name" => "SOUNDBITE"}'
+- '{"name" => "Back Orifice"}'
+- '{"name" => "Back Orifice 2000"}'
+- '{"name" => "Lost Door"}'
+- '{"name" => "Windows Remote Desktop"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "169187c5-9fbe-42df-ae92-6e35846db021"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 169187c5-9fbe-42df-ae92-6e35846db021
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

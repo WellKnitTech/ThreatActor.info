@@ -1,9 +1,17 @@
-name: "UAC-0239"
-aliases: ["UAC-0239"]
-description: "UAC-0239 has been observed conducting spearphishing attacks targeting the Defence Forces and local state agencies of Ukraine, impersonating the Security Service of Ukraine. The group employs the OrcaC2 framework and FILEMESS stealer to compromise these organizations. Their campaigns often utilize themes related to \"countering russian sabotage-reconnaissance groups\" to disguise their malicious intent."
+---
+name: UAC-0239
+aliases:
+- UAC-0239
+description: UAC-0239 has been observed conducting spearphishing attacks targeting
+  the Defence Forces and local state agencies of Ukraine, impersonating the Security
+  Service of Ukraine. The group employs the OrcaC2 framework and FILEMESS stealer
+  to compromise these organizations. Their campaigns often utilize themes related
+  to "countering russian sabotage-reconnaissance groups" to disguise their malicious
+  intent.
 url: "/uac-0239"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "4bc6fddc-3395-4dad-a84a-81184ac20585"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 4bc6fddc-3395-4dad-a84a-81184ac20585
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

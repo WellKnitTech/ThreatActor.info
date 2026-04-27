@@ -1,10 +1,29 @@
-name: "VENOM SPIDER"
-aliases: ["badbullzvenom","badbullz","VENOM SPIDER"]
-description: "VENOM SPIDER is the developer of a large toolset that includes SKID, VenomKit and Taurus Loader. Under the moniker 'badbullzvenom', the adversary has been an active member of Russian underground forums since at least 2012, specializing in the identification of vulnerabilities and the subsequent development of tools for exploitation, as well as for gaining and maintaining access to victim machines and carding services. Recent advertisements for the malware indicate that VENOM SPIDER limits the sale and use of its tools, selling modules only to trusted affiliates. This preference can be seen in the fact that adversaries observed using the tools include the targeted criminal adversary COBALT SPIDER and BGH adversaries WIZARD SPIDER and PINCHY SPIDER."
+---
+name: VENOM SPIDER
+aliases:
+- badbullzvenom
+- badbullz
+- VENOM SPIDER
+description: VENOM SPIDER is the developer of a large toolset that includes SKID,
+  VenomKit and Taurus Loader. Under the moniker 'badbullzvenom', the adversary has
+  been an active member of Russian underground forums since at least 2012, specializing
+  in the identification of vulnerabilities and the subsequent development of tools
+  for exploitation, as well as for gaining and maintaining access to victim machines
+  and carding services. Recent advertisements for the malware indicate that VENOM
+  SPIDER limits the sale and use of its tools, selling modules only to trusted affiliates.
+  This preference can be seen in the fact that adversaries observed using the tools
+  include the targeted criminal adversary COBALT SPIDER and BGH adversaries WIZARD
+  SPIDER and PINCHY SPIDER.
 url: "/venom-spider"
-malware: ["{\"name\" => \"PinchDuke\"}","{\"name\" => \"Venomous Ivy\"}","{\"name\" => \"Xploit\"}","{\"name\" => \"Cobalt Strike\"}","{\"name\" => \"Cardinal\"}"]
+malware:
+- '{"name" => "PinchDuke"}'
+- '{"name" => "Venomous Ivy"}'
+- '{"name" => "Xploit"}'
+- '{"name" => "Cobalt Strike"}'
+- '{"name" => "Cardinal"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "86b4e2f3-8bbf-48fd-9d27-034d3ac3b187"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 86b4e2f3-8bbf-48fd-9d27-034d3ac3b187
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

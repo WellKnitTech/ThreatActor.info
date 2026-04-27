@@ -1,10 +1,29 @@
-name: "UNC6619"
-aliases: ["TGR-STA-1030","Shadow Campaigns","UNC6619"]
-description: "TGR-STA-1030 is a state-aligned cyberespionage group operating out of Asia, known for compromising government and critical infrastructure organizations across 37 countries. The group frequently deploys web shells, such as Behinder, Neo-reGeorg, and Godzilla, on both external and internal web servers to maintain access and enable lateral movement. TGR-STA-1030 has conducted extensive reconnaissance against government infrastructure, particularly focusing on nations in the South China Sea and Gulf of Thailand regions, as well as European countries like Germany. The group primarily targets government ministries and departments for espionage purposes, especially those exploring specific economic partnerships."
+---
+name: UNC6619
+aliases:
+- TGR-STA-1030
+- Shadow Campaigns
+- UNC6619
+description: TGR-STA-1030 is a state-aligned cyberespionage group operating out of
+  Asia, known for compromising government and critical infrastructure organizations
+  across 37 countries. The group frequently deploys web shells, such as Behinder,
+  Neo-reGeorg, and Godzilla, on both external and internal web servers to maintain
+  access and enable lateral movement. TGR-STA-1030 has conducted extensive reconnaissance
+  against government infrastructure, particularly focusing on nations in the South
+  China Sea and Gulf of Thailand regions, as well as European countries like Germany.
+  The group primarily targets government ministries and departments for espionage
+  purposes, especially those exploring specific economic partnerships.
 url: "/unc6619"
-malware: ["{\"name\" => \"SHIPSHAPE\"}","{\"name\" => \"China Chopper\"}","{\"name\" => \"RTM\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"CrossRat\"}"]
+malware:
+- '{"name" => "SHIPSHAPE"}'
+- '{"name" => "China Chopper"}'
+- '{"name" => "RTM"}'
+- '{"name" => "CyberGate"}'
+- '{"name" => "Cyber Eye RAT"}'
+- '{"name" => "CrossRat"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "1006069d-722f-4149-8609-2d524b8ba9dd"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 1006069d-722f-4149-8609-2d524b8ba9dd
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

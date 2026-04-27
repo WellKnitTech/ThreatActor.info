@@ -1,10 +1,19 @@
-name: "Scattered Canary"
-aliases: ["Scattered Canary"]
-description: "When the first member of Scattered Canary, who, for the purposes of this report, we call\nAlpha, began his operations, he was a lone wolf—working mostly Craigslist scams as he learned\nthe tricks of the trade from a mentor. However, within a few years, he had honed his craft\nenough to expand into romance scams, where he met his first “employee,” Beta. Once they\nhad secured enough mules via their romance scams to launder their stolen money, they shifted\nfrom targeting individuals to targeting enterprises, and the group’s BEC operation was born."
+---
+name: Scattered Canary
+aliases:
+- Scattered Canary
+description: |-
+  When the first member of Scattered Canary, who, for the purposes of this report, we call
+  Alpha, began his operations, he was a lone wolf—working mostly Craigslist scams as he learned
+  the tricks of the trade from a mentor. However, within a few years, he had honed his craft
+  enough to expand into romance scams, where he met his first “employee,” Beta. Once they
+  had secured enough mules via their romance scams to launder their stolen money, they shifted
+  from targeting individuals to targeting enterprises, and the group’s BEC operation was born.
 url: "/scattered-canary"
-country: "Nigeria"
+country: Nigeria
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "fde2d0f9-ed23-4cdc-96d3-f0a01f804707"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: fde2d0f9-ed23-4cdc-96d3-f0a01f804707
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

@@ -1,12 +1,21 @@
-name: "Predatory Sparrow"
-aliases: ["Indra","Gonjeshke Darande","Predatory Sparrow"]
-description: "A self-proclaimed hacktivist group that carried out attacks against Iranian railway systems and against Iranian steel plants."
+---
+name: Predatory Sparrow
+aliases:
+- Indra
+- Gonjeshke Darande
+- Predatory Sparrow
+description: A self-proclaimed hacktivist group that carried out attacks against Iranian
+  railway systems and against Iranian steel plants.
 url: "/predatory-sparrow"
-sector_focus: ["Critical manufacturing","Transportation systems"]
-targeted_victims: ["Iran"]
-incident_type: "Sabotage"
+sector_focus:
+- Critical manufacturing
+- Transportation systems
+targeted_victims:
+- Iran
+incident_type: Sabotage
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "e665ac2f-87b4-4c2e-bef7-78bf0a8af87b"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: e665ac2f-87b4-4c2e-bef7-78bf0a8af87b
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

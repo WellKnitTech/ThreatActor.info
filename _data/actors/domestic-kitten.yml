@@ -1,11 +1,22 @@
-name: "Domestic Kitten"
-aliases: ["Bouncing Golf","APT-C-50","Domestic Kitten"]
-description: "An extensive surveillance operation targets specific groups of individuals with malicious mobile apps that collect sensitive information on the device along with surrounding voice recordings. Researchers with CheckPoint discovered the attack and named it Domestic Kitten. The targets are Kurdish and Turkish natives, and ISIS supporters, all Iranian citizens."
+---
+name: Domestic Kitten
+aliases:
+- Bouncing Golf
+- APT-C-50
+- Domestic Kitten
+description: An extensive surveillance operation targets specific groups of individuals
+  with malicious mobile apps that collect sensitive information on the device along
+  with surrounding voice recordings. Researchers with CheckPoint discovered the attack
+  and named it Domestic Kitten. The targets are Kurdish and Turkish natives, and ISIS
+  supporters, all Iranian citizens.
 url: "/domestic-kitten"
-country: "Iran"
-malware: ["{\"name\" => \"MobileOrder\"}","{\"name\" => \"Archelaus Beta\"}"]
+country: Iran
+malware:
+- '{"name" => "MobileOrder"}'
+- '{"name" => "Archelaus Beta"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "dda1b28e-c558-11e8-8666-27cf61d1d7ee"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: dda1b28e-c558-11e8-8666-27cf61d1d7ee
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

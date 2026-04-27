@@ -1,11 +1,23 @@
-name: "TA455"
-aliases: ["TA455"]
-description: "TA455 is an Iranian APT group targeting the aerospace industry through a campaign known as the “Iranian Dream Job Campaign,” utilizing deceptive job offers to lure victims. They employ spearphishing tactics with malicious ZIP files containing the executable “secur32[.]dll” and disguise their C2 communications within the traffic of reputable services like Cloudflare and GitHub. The group intentionally mimics the TTPs of the North Korean Lazarus group to mislead investigators and complicate attribution. Their multi-stage infection strategy enhances the likelihood of success while evading detection."
+---
+name: TA455
+aliases:
+- TA455
+description: TA455 is an Iranian APT group targeting the aerospace industry through
+  a campaign known as the “Iranian Dream Job Campaign,” utilizing deceptive job offers
+  to lure victims. They employ spearphishing tactics with malicious ZIP files containing
+  the executable “secur32[.]dll” and disguise their C2 communications within the traffic
+  of reputable services like Cloudflare and GitHub. The group intentionally mimics
+  the TTPs of the North Korean Lazarus group to mislead investigators and complicate
+  attribution. Their multi-stage infection strategy enhances the likelihood of success
+  while evading detection.
 url: "/ta455"
-country: "Iran"
-malware: ["{\"name\" => \"SPACESHIP\"}","{\"name\" => \"CloudDuke\"}"]
+country: Iran
+malware:
+- '{"name" => "SPACESHIP"}'
+- '{"name" => "CloudDuke"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "c2f1f2e3-9573-49be-b01e-6ffff9a9571b"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: c2f1f2e3-9573-49be-b01e-6ffff9a9571b
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

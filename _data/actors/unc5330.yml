@@ -1,11 +1,18 @@
-name: "UNC5330"
-aliases: ["UNC5330"]
-description: "UNC5330 is a suspected China-nexus espionage actor. UNC5330 has been observed chaining CVE-2024-21893 and CVE-2024-21887 to compromise Ivanti Connect Secure VPN appliances as early as Feb. 2024. Post-compromise activity by UNC5330 includes deployment of PHANTOMNET and TONERJAM. UNC5330 has employed Windows Management Instrumentation (WMI) to perform reconnaissance, move laterally, manipulate registry entries, and establish persistence.\nMandiant observed UNC5330 operating a server since Dec. 6, 2021, which the group used as a GOST proxy to help facilitate malicious tool deployment to endpoints. The default certificate for GOST proxy was observed from Sept. 1, 2022 through Jan. 1, 2024. UNC5330 also attempted to download Fast Reverse Proxy (FRP) from this server on Feb. 3, 2024, from a compromised Ivanti Connect Secure device. Given the SSH key reuse in conjunction with the temporal proximity of these events, Mandiant assesses with moderate confidence UNC5330 has been operating through this server since at least 2021."
+---
+name: UNC5330
+aliases:
+- UNC5330
+description: |-
+  UNC5330 is a suspected China-nexus espionage actor. UNC5330 has been observed chaining CVE-2024-21893 and CVE-2024-21887 to compromise Ivanti Connect Secure VPN appliances as early as Feb. 2024. Post-compromise activity by UNC5330 includes deployment of PHANTOMNET and TONERJAM. UNC5330 has employed Windows Management Instrumentation (WMI) to perform reconnaissance, move laterally, manipulate registry entries, and establish persistence.
+  Mandiant observed UNC5330 operating a server since Dec. 6, 2021, which the group used as a GOST proxy to help facilitate malicious tool deployment to endpoints. The default certificate for GOST proxy was observed from Sept. 1, 2022 through Jan. 1, 2024. UNC5330 also attempted to download Fast Reverse Proxy (FRP) from this server on Feb. 3, 2024, from a compromised Ivanti Connect Secure device. Given the SSH key reuse in conjunction with the temporal proximity of these events, Mandiant assesses with moderate confidence UNC5330 has been operating through this server since at least 2021.
 url: "/unc5330"
-country: "China"
-malware: ["{\"name\" => \"China Chopper\"}","{\"name\" => \"Windows Remote Desktop\"}"]
+country: China
+malware:
+- '{"name" => "China Chopper"}'
+- '{"name" => "Windows Remote Desktop"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "c5ea778c-df2f-4c63-b401-dded9cb2419c"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: c5ea778c-df2f-4c63-b401-dded9cb2419c
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

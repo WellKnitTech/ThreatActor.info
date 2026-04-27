@@ -1,11 +1,23 @@
-name: "Moshen Dragon"
-aliases: ["Moshen Dragon"]
-description: "Moshen Dragon is a Chinese-aligned cyberespionage threat actor operating in Central Asia. They have been observed deploying multiple malware triads and utilizing DLL search order hijacking to sideload ShadowPad and PlugX variants. The threat actor also employs various tools, including an LSA notification package and a passive backdoor known as GUNTERS. Their activities involve targeting the telecommunication sector and leveraging Impacket for lateral movement and data exfiltration."
+---
+name: Moshen Dragon
+aliases:
+- Moshen Dragon
+description: Moshen Dragon is a Chinese-aligned cyberespionage threat actor operating
+  in Central Asia. They have been observed deploying multiple malware triads and utilizing
+  DLL search order hijacking to sideload ShadowPad and PlugX variants. The threat
+  actor also employs various tools, including an LSA notification package and a passive
+  backdoor known as GUNTERS. Their activities involve targeting the telecommunication
+  sector and leveraging Impacket for lateral movement and data exfiltration.
 url: "/moshen-dragon"
-country: "China"
-malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"PlugX\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
+country: China
+malware:
+- '{"name" => "Backdoor.Oldrea"}'
+- '{"name" => "PlugX"}'
+- '{"name" => "CyberGate"}'
+- '{"name" => "Cyber Eye RAT"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "41243ff2-e4f1-4605-9259-ab494c1c8c04"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 41243ff2-e4f1-4605-9259-ab494c1c8c04
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

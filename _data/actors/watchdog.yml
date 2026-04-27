@@ -1,10 +1,20 @@
-name: "Watchdog"
-aliases: ["Thief Libra","Watchdog"]
-description: "Thief Libra is a cloud-focused threat group that has a history of cryptojacking operations as well as cloud service platform credential scraping. They were first known to operate on January 27, 2019. They use a variety of custom build Go Scripts as well as repurposed cryptojacking scripts from other groups including TeamTNT. They are currently considered to be an opportunistic threat group that targets exposed cloud instances and applications."
+---
+name: Watchdog
+aliases:
+- Thief Libra
+- Watchdog
+description: Thief Libra is a cloud-focused threat group that has a history of cryptojacking
+  operations as well as cloud service platform credential scraping. They were first
+  known to operate on January 27, 2019. They use a variety of custom build Go Scripts
+  as well as repurposed cryptojacking scripts from other groups including TeamTNT.
+  They are currently considered to be an opportunistic threat group that targets exposed
+  cloud instances and applications.
 url: "/watchdog"
-malware: ["{\"name\" => \"CloudDuke\"}"]
+malware:
+- '{"name" => "CloudDuke"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "4b4b4717-d31e-4be6-a3ba-b13edb42decd"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 4b4b4717-d31e-4be6-a3ba-b13edb42decd
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

@@ -1,10 +1,31 @@
-name: "AtlasCross"
-aliases: ["AtlasCross"]
-description: "NSFOCUS Security Labs recently discovered a new attack process based on phishing documents in their daily threat-hunting operations. Delving deeper into this finding through extensive research, they confirmed two new Trojan horse programs and many rare attack techniques and tactics. NSFOCUS Security Labs believes that this new attack process comes from a new APT attacker, who has a high technical level and cautious attack attitude. The phishing attack activity captured this time is part of the attacker’s targeted strike on specific targets and is its main means to achieve in-domain penetration. NSFOCUS Security Labs validated the high-level threat attributes of AtlasCross in terms of development technology and attack strategy through an in-depth analysis of its attack metrics. At this current stage, AtlasCross has a relatively limited scope of activity, primarily focusing on targeted attacks against specific hosts within a network domain. However, the attack processes they employ are highly robust and mature. NSFOCUS Security Labs deduce that this attacker is highly likely to deploy this attack process into larger-scale network attack operations."
+---
+name: AtlasCross
+aliases:
+- AtlasCross
+description: NSFOCUS Security Labs recently discovered a new attack process based
+  on phishing documents in their daily threat-hunting operations. Delving deeper into
+  this finding through extensive research, they confirmed two new Trojan horse programs
+  and many rare attack techniques and tactics. NSFOCUS Security Labs believes that
+  this new attack process comes from a new APT attacker, who has a high technical
+  level and cautious attack attitude. The phishing attack activity captured this time
+  is part of the attacker’s targeted strike on specific targets and is its main means
+  to achieve in-domain penetration. NSFOCUS Security Labs validated the high-level
+  threat attributes of AtlasCross in terms of development technology and attack strategy
+  through an in-depth analysis of its attack metrics. At this current stage, AtlasCross
+  has a relatively limited scope of activity, primarily focusing on targeted attacks
+  against specific hosts within a network domain. However, the attack processes they
+  employ are highly robust and mature. NSFOCUS Security Labs deduce that this attacker
+  is highly likely to deploy this attack process into larger-scale network attack
+  operations.
 url: "/atlascross"
-malware: ["{\"name\" => \"Trojan.Karagany\"}","{\"name\" => \"Trojan.Mebromi\"}","{\"name\" => \"Deeper RAT\"}","{\"name\" => \"CrossRat\"}"]
+malware:
+- '{"name" => "Trojan.Karagany"}'
+- '{"name" => "Trojan.Mebromi"}'
+- '{"name" => "Deeper RAT"}'
+- '{"name" => "CrossRat"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "32eebd31-5e0f-4fb9-b478-26ff4e48aaf4"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 32eebd31-5e0f-4fb9-b478-26ff4e48aaf4
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

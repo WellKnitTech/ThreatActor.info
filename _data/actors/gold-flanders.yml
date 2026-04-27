@@ -1,9 +1,20 @@
-name: "GOLD FLANDERS"
-aliases: ["GOLD FLANDERS"]
-description: "GOLD FLANDERS is a financially motivated group responsible for distributed denial of service (DDOS) attacks linked to extortion emails demanding between 5 and 30 bitcoins. The attacks consist mostly of fragmented UDP packets (DNS and NTP reflection) as well as other traffic that can vary per victim. The arrival of the extortion email is timed to coincide with a DDOS attack consisting of traffic between 20 Gbps and 200 Gbps and 12-15 million packets per second, lasting between 20 and 70 minutes targeted at a particular Autonomous System Number (ASN) or group of IP addresses. In some cases victim organisations have replied to these extortion emails and received personal replies from GOLD FLANDERS operators within 20 minutes. "
+---
+name: GOLD FLANDERS
+aliases:
+- GOLD FLANDERS
+description: 'GOLD FLANDERS is a financially motivated group responsible for distributed
+  denial of service (DDOS) attacks linked to extortion emails demanding between 5
+  and 30 bitcoins. The attacks consist mostly of fragmented UDP packets (DNS and NTP
+  reflection) as well as other traffic that can vary per victim. The arrival of the
+  extortion email is timed to coincide with a DDOS attack consisting of traffic between
+  20 Gbps and 200 Gbps and 12-15 million packets per second, lasting between 20 and
+  70 minutes targeted at a particular Autonomous System Number (ASN) or group of IP
+  addresses. In some cases victim organisations have replied to these extortion emails
+  and received personal replies from GOLD FLANDERS operators within 20 minutes. '
 url: "/gold-flanders"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "20180cbb-27e3-49d5-922e-1e3bddc6c085"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 20180cbb-27e3-49d5-922e-1e3bddc6c085
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

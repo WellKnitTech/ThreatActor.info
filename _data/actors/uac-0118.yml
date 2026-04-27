@@ -1,10 +1,22 @@
-name: "UAC-0118"
-aliases: ["FRwL","FromRussiaWithLove","UAC-0118"]
-description: "From Russia with Love, is a threat actor group that emerged during the Russia-Ukraine war in 2022. They primarily engage in DDoS attacks and have targeted critical infrastructure, media, energy, and government entities. FRwL has been linked to the use of the Somnia ransomware, which they employ as a wiper rather than for financial gain. While there is no direct evidence linking FRwL to the Russian Main Intelligence Directorate, it is possible that they coordinate activities with state-aligned hacktivist groups."
+---
+name: UAC-0118
+aliases:
+- FRwL
+- FromRussiaWithLove
+- UAC-0118
+description: From Russia with Love, is a threat actor group that emerged during the
+  Russia-Ukraine war in 2022. They primarily engage in DDoS attacks and have targeted
+  critical infrastructure, media, energy, and government entities. FRwL has been linked
+  to the use of the Somnia ransomware, which they employ as a wiper rather than for
+  financial gain. While there is no direct evidence linking FRwL to the Russian Main
+  Intelligence Directorate, it is possible that they coordinate activities with state-aligned
+  hacktivist groups.
 url: "/uac-0118"
-malware: ["{\"name\" => \"Wiper\"}"]
+malware:
+- '{"name" => "Wiper"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "d869486a-ec70-4a74-897e-31aa7b3df48d"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: d869486a-ec70-4a74-897e-31aa7b3df48d
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

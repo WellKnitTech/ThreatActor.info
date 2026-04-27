@@ -1,9 +1,13 @@
-name: "luoxk"
-aliases: ["luoxk"]
-description: "Luoxk is a malware campaign targeting web servers throughout Asia, Europe and North America."
+---
+name: luoxk
+aliases:
+- luoxk
+description: Luoxk is a malware campaign targeting web servers throughout Asia, Europe
+  and North America.
 url: "/luoxk"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "69e11692-691e-4bfb-9557-4e2a271684ed"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 69e11692-691e-4bfb-9557-4e2a271684ed
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

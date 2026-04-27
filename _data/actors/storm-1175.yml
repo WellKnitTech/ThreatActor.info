@@ -1,11 +1,24 @@
-name: "Storm-1175"
-aliases: ["Storm-1175"]
-description: "Storm-1175 is a cybercriminal group known for deploying Medusa ransomware and exploiting public-facing applications for initial access. They have been observed exploiting a critical deserialization vulnerability in GoAnywhere MFT, tracked as CVE-2025-10035, which could lead to command injection and potential RCE. Microsoft Defender researchers identified exploitation activity aligned with TTPs attributed to Storm-1175, including the use of post-compromise techniques that involve creating a group named “ESX Admins” in the domain."
+---
+name: Storm-1175
+aliases:
+- Storm-1175
+description: Storm-1175 is a cybercriminal group known for deploying Medusa ransomware
+  and exploiting public-facing applications for initial access. They have been observed
+  exploiting a critical deserialization vulnerability in GoAnywhere MFT, tracked as
+  CVE-2025-10035, which could lead to command injection and potential RCE. Microsoft
+  Defender researchers identified exploitation activity aligned with TTPs attributed
+  to Storm-1175, including the use of post-compromise techniques that involve creating
+  a group named “ESX Admins” in the domain.
 url: "/storm-1175"
-country: "China"
-malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"Xploit\"}","{\"name\" => \"Archelaus Beta\"}"]
+country: China
+malware:
+- '{"name" => "CyberGate"}'
+- '{"name" => "Cyber Eye RAT"}'
+- '{"name" => "Xploit"}'
+- '{"name" => "Archelaus Beta"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "313d6dbd-e2fc-4336-b6ae-053665f00ba1"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 313d6dbd-e2fc-4336-b6ae-053665f00ba1
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

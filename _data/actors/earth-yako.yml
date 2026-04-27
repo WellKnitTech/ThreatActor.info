@@ -1,10 +1,22 @@
-name: "Earth Yako"
-aliases: ["Operation RestyLink","Enelink","Earth Yako"]
-description: "Earth Yako is a threat actor that has been actively targeting researchers in academic organizations and think tanks in Japan. They use spearphishing emails with malicious attachments to gain initial access to their targets' systems. Earth Yako's objectives and patterns suggest a possible connection to a Chinese APT group, but conclusive proof of their nationality is lacking. They have been observed using various malware delivery methods and techniques, such as the use of Winword.exe for DLL Hijacking."
+---
+name: Earth Yako
+aliases:
+- Operation RestyLink
+- Enelink
+- Earth Yako
+description: Earth Yako is a threat actor that has been actively targeting researchers
+  in academic organizations and think tanks in Japan. They use spearphishing emails
+  with malicious attachments to gain initial access to their targets' systems. Earth
+  Yako's objectives and patterns suggest a possible connection to a Chinese APT group,
+  but conclusive proof of their nationality is lacking. They have been observed using
+  various malware delivery methods and techniques, such as the use of Winword.exe
+  for DLL Hijacking.
 url: "/earth-yako"
-malware: ["{\"name\" => \"Archelaus Beta\"}"]
+malware:
+- '{"name" => "Archelaus Beta"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "2875aff1-2a0f-4e82-ae42-607a3a74d129"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 2875aff1-2a0f-4e82-ae42-607a3a74d129
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

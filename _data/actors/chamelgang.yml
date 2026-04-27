@@ -1,12 +1,31 @@
-name: "Chamelgang"
-aliases: ["CamoFei","Chamelgang"]
-description: "In Q2 2021, the PT Expert Security Center incident response team conducted an investigation in an energy company. The investigation revealed that the company's network had been compromised by an unknown group for the purpose of data theft. They gave the group the name ChamelGang (from the word \"chameleon\"), because the group disguised its malware and network infrastructure under legitimate services of Microsoft, TrendMicro, McAfee, IBM, and Google."
+---
+name: Chamelgang
+aliases:
+- CamoFei
+- Chamelgang
+description: In Q2 2021, the PT Expert Security Center incident response team conducted
+  an investigation in an energy company. The investigation revealed that the company's
+  network had been compromised by an unknown group for the purpose of data theft.
+  They gave the group the name ChamelGang (from the word "chameleon"), because the
+  group disguised its malware and network infrastructure under legitimate services
+  of Microsoft, TrendMicro, McAfee, IBM, and Google.
 url: "/chamelgang"
-sector_focus: ["Aviation","Energy"]
-targeted_victims: ["India","Japan","Nepal","Russia","Taiwan","United States"]
-malware: ["{\"name\" => \"Unknown Logger\"}","{\"name\" => \"Xpert\"}"]
+sector_focus:
+- Aviation
+- Energy
+targeted_victims:
+- India
+- Japan
+- Nepal
+- Russia
+- Taiwan
+- United States
+malware:
+- '{"name" => "Unknown Logger"}'
+- '{"name" => "Xpert"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "eafdd27f-a3e2-4bb1-ae03-bf9ca5ff0355"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: eafdd27f-a3e2-4bb1-ae03-bf9ca5ff0355
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

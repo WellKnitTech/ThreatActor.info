@@ -1,11 +1,29 @@
-name: "GhostEmperor"
-aliases: ["FamousSparrow","UNC2286","Salt Typhoon","RedMike","OPERATOR PANDA","GhostEmperor"]
-description: "GhostEmperor is a Chinese-speaking threat actor that targets government entities and telecom companies in Southeast Asia. They employ a Windows kernel-mode rootkit called Demodex to gain remote control over their targeted servers. The actor demonstrates a high level of sophistication and uses various anti-forensic and anti-analysis techniques to evade detection. They have been active for a significant period of time and continue to pose a threat to their targets."
+---
+name: GhostEmperor
+aliases:
+- FamousSparrow
+- UNC2286
+- Salt Typhoon
+- RedMike
+- OPERATOR PANDA
+- GhostEmperor
+description: GhostEmperor is a Chinese-speaking threat actor that targets government
+  entities and telecom companies in Southeast Asia. They employ a Windows kernel-mode
+  rootkit called Demodex to gain remote control over their targeted servers. The actor
+  demonstrates a high level of sophistication and uses various anti-forensic and anti-analysis
+  techniques to evade detection. They have been active for a significant period of
+  time and continue to pose a threat to their targets.
 url: "/ghostemperor"
-country: "China"
-malware: ["{\"name\" => \"RemoteCMD\"}","{\"name\" => \"Remote Utilities\"}","{\"name\" => \"Windows Remote Desktop\"}","{\"name\" => \"RemotePC\"}","{\"name\" => \"Ghost\"}"]
+country: China
+malware:
+- '{"name" => "RemoteCMD"}'
+- '{"name" => "Remote Utilities"}'
+- '{"name" => "Windows Remote Desktop"}'
+- '{"name" => "RemotePC"}'
+- '{"name" => "Ghost"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "3c3ca8f3-c6ab-4c5d-9bd0-be6677d6cdeb"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 3c3ca8f3-c6ab-4c5d-9bd0-be6677d6cdeb
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

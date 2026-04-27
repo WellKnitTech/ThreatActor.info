@@ -1,11 +1,24 @@
-name: "UAC-0194"
-aliases: ["UAC-0194"]
-description: "UAC-0194 is a Russian threat actor linked to the exploitation of the Windows zero-day CVE-2024-43451, which was used in attacks against Ukrainian organizations. The group delivered phishing emails containing .url files that, when interacted with, exploited the vulnerability to facilitate the installation of additional payloads, including the SparkRAT trojan. They also exploited the Server Message Block protocol for NTLM hash exfiltration. CERT-UA has associated UAC-0194's activities with social engineering tactics to convince victims to execute malicious files."
+---
+name: UAC-0194
+aliases:
+- UAC-0194
+description: UAC-0194 is a Russian threat actor linked to the exploitation of the
+  Windows zero-day CVE-2024-43451, which was used in attacks against Ukrainian organizations.
+  The group delivered phishing emails containing .url files that, when interacted
+  with, exploited the vulnerability to facilitate the installation of additional payloads,
+  including the SparkRAT trojan. They also exploited the Server Message Block protocol
+  for NTLM hash exfiltration. CERT-UA has associated UAC-0194's activities with social
+  engineering tactics to convince victims to execute malicious files.
 url: "/uac-0194"
-country: "Russia"
-malware: ["{\"name\" => \"Trojan.Karagany\"}","{\"name\" => \"Trojan.Mebromi\"}","{\"name\" => \"Windows Remote Desktop\"}","{\"name\" => \"Xploit\"}"]
+country: Russia
+malware:
+- '{"name" => "Trojan.Karagany"}'
+- '{"name" => "Trojan.Mebromi"}'
+- '{"name" => "Windows Remote Desktop"}'
+- '{"name" => "Xploit"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "714f76b2-a8fd-49b0-8605-0eb1c9703140"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 714f76b2-a8fd-49b0-8605-0eb1c9703140
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

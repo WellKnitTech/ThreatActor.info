@@ -1,10 +1,21 @@
-name: "Bondnet"
-aliases: ["Bondnet"]
-description: "Bondnet is a threat actor that deploys backdoors and cryptocurrency miners. They use high-performance bots as C2 servers and configure reverse RDP environments on compromised systems. Bondnet has infected over 15,000 Windows server machines worldwide, primarily targeting Windows Server 2008 R2 systems. The botnet is used for mining cryptocurrencies like Monero, ByteCoin, RieCoin, and ZCash, potentially earning the operator thousands of dollars per day."
+---
+name: Bondnet
+aliases:
+- Bondnet
+description: Bondnet is a threat actor that deploys backdoors and cryptocurrency miners.
+  They use high-performance bots as C2 servers and configure reverse RDP environments
+  on compromised systems. Bondnet has infected over 15,000 Windows server machines
+  worldwide, primarily targeting Windows Server 2008 R2 systems. The botnet is used
+  for mining cryptocurrencies like Monero, ByteCoin, RieCoin, and ZCash, potentially
+  earning the operator thousands of dollars per day.
 url: "/bondnet"
-malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"Miner-C\"}","{\"name\" => \"Windows Remote Desktop\"}"]
+malware:
+- '{"name" => "Backdoor.Oldrea"}'
+- '{"name" => "Miner-C"}'
+- '{"name" => "Windows Remote Desktop"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "78e8bc1a-0be3-4792-a911-9d4813dd7bc3"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 78e8bc1a-0be3-4792-a911-9d4813dd7bc3
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

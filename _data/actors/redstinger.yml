@@ -1,9 +1,17 @@
-name: "RedStinger"
-aliases: ["Bad Magic","RedStinger"]
-description: "In October 2022, Kaspersky identified an active infection of government, agriculture and transportation organizations located in the Donetsk, Lugansk, and Crimea regions. Although the initial vector of compromise is unclear, the details of the next stage imply the use of spear phishing or similar methods. The victims navigated to a URL pointing to a ZIP archive hosted on a malicious web server."
+---
+name: RedStinger
+aliases:
+- Bad Magic
+- RedStinger
+description: In October 2022, Kaspersky identified an active infection of government,
+  agriculture and transportation organizations located in the Donetsk, Lugansk, and
+  Crimea regions. Although the initial vector of compromise is unclear, the details
+  of the next stage imply the use of spear phishing or similar methods. The victims
+  navigated to a URL pointing to a ZIP archive hosted on a malicious web server.
 url: "/redstinger"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "b813c6a2-f8c7-4071-83bd-24c181ff2bd4"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: b813c6a2-f8c7-4071-83bd-24c181ff2bd4
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

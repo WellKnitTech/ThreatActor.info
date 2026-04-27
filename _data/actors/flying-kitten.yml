@@ -1,15 +1,34 @@
-name: "Flying Kitten"
-aliases: ["SaffronRose","Saffron Rose","AjaxSecurityTeam","Ajax Security Team","Group 26","Sayad","Flying Kitten"]
-description: "Activity: defense and aerospace sectors, also interested in targeting entities in the oil/gas industry."
+---
+name: Flying Kitten
+aliases:
+- SaffronRose
+- Saffron Rose
+- AjaxSecurityTeam
+- Ajax Security Team
+- Group 26
+- Sayad
+- Flying Kitten
+description: 'Activity: defense and aerospace sectors, also interested in targeting
+  entities in the oil/gas industry.'
 url: "/flying-kitten"
-country: "Iran"
-sector_focus: ["Aerospace","Defense","Gas","Oil","Military","Civil society"]
-targeted_victims: ["United States","Iranian internet activists"]
-incident_type: "Espionage"
-risk_level: "High"
-malware: ["{\"name\" => \"SPACESHIP\"}"]
+country: Iran
+sector_focus:
+- Aerospace
+- Defense
+- Gas
+- Oil
+- Military
+- Civil society
+targeted_victims:
+- United States
+- Iranian internet activists
+incident_type: Espionage
+risk_level: High
+malware:
+- '{"name" => "SPACESHIP"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "ba724df5-9aa0-45ca-8e0e-7101c208ae48"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: ba724df5-9aa0-45ca-8e0e-7101c208ae48
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

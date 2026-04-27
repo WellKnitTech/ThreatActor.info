@@ -1,11 +1,22 @@
-name: "UNK_AcademicFlare"
-aliases: ["UNK_AcademicFlare"]
-description: "UNK_AcademicFlare is a suspected Russia-aligned threat actor that conducts device code phishing campaigns by leveraging compromised email addresses from government and military organizations. The actor engages in rapport building through benign outreach, ultimately leading to a phishing attempt via a Cloudflare Worker URL that spoofs a OneDrive account. Targeted sectors include government, think tanks, higher education, and transportation in the U.S. and Europe, with a focus on Russia and Ukraine-themed content. Their tactics include using compromised accounts for initial contact and employing device code phishing techniques to extract credentials."
+---
+name: UNK_AcademicFlare
+aliases:
+- UNK_AcademicFlare
+description: UNK_AcademicFlare is a suspected Russia-aligned threat actor that conducts
+  device code phishing campaigns by leveraging compromised email addresses from government
+  and military organizations. The actor engages in rapport building through benign
+  outreach, ultimately leading to a phishing attempt via a Cloudflare Worker URL that
+  spoofs a OneDrive account. Targeted sectors include government, think tanks, higher
+  education, and transportation in the U.S. and Europe, with a focus on Russia and
+  Ukraine-themed content. Their tactics include using compromised accounts for initial
+  contact and employing device code phishing techniques to extract credentials.
 url: "/unk-academicflare"
-country: "Russia"
-malware: ["{\"name\" => \"CloudDuke\"}"]
+country: Russia
+malware:
+- '{"name" => "CloudDuke"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "25768037-105d-4234-8b51-846ec614ecfa"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 25768037-105d-4234-8b51-846ec614ecfa
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

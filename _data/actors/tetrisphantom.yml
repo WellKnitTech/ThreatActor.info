@@ -1,10 +1,19 @@
-name: "TetrisPhantom"
-aliases: ["TetrisPhantom"]
-description: "TetrisPhantom relies on compromising of certain type of secure USB drives that provide hardware encryption and is commonly used by government organizations. While investigating this threat, experts identified an entire spying campaign that uses a range of malicious modules to execute commands, collect files and information from compromised computers and transfer them to other machines also using secure USB drives."
+---
+name: TetrisPhantom
+aliases:
+- TetrisPhantom
+description: TetrisPhantom relies on compromising of certain type of secure USB drives
+  that provide hardware encryption and is commonly used by government organizations.
+  While investigating this threat, experts identified an entire spying campaign that
+  uses a range of malicious modules to execute commands, collect files and information
+  from compromised computers and transfer them to other machines also using secure
+  USB drives.
 url: "/tetrisphantom"
-malware: ["{\"name\" => \"Xpert\"}"]
+malware:
+- '{"name" => "Xpert"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "5368c0a2-eb79-420c-b808-85ae719efccd"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 5368c0a2-eb79-420c-b808-85ae719efccd
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

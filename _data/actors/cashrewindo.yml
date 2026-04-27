@@ -1,10 +1,23 @@
-name: "CashRewindo"
-aliases: ["CashRewindo"]
-description: "CashRewindo is a sophisticated threat actor leveraging aged domains in global malvertising campaigns to direct victims to investment scam sites. The group employs TTPs such as flipping between scam ads and innocuous content, as well as A/B testing to exploit time-based creative verification systems. Their operations are characterized by tailored campaigns that utilize localized language and imagery across diverse regions, including Europe, Asia, Africa, and the Americas. Additionally, CashRewindo smuggles malicious code within common JavaScript libraries to enhance their effectiveness."
+---
+name: CashRewindo
+aliases:
+- CashRewindo
+description: CashRewindo is a sophisticated threat actor leveraging aged domains in
+  global malvertising campaigns to direct victims to investment scam sites. The group
+  employs TTPs such as flipping between scam ads and innocuous content, as well as
+  A/B testing to exploit time-based creative verification systems. Their operations
+  are characterized by tailored campaigns that utilize localized language and imagery
+  across diverse regions, including Europe, Asia, Africa, and the Americas. Additionally,
+  CashRewindo smuggles malicious code within common JavaScript libraries to enhance
+  their effectiveness.
 url: "/cashrewindo"
-malware: ["{\"name\" => \"Windows Remote Desktop\"}","{\"name\" => \"Xploit\"}","{\"name\" => \"CrossRat\"}"]
+malware:
+- '{"name" => "Windows Remote Desktop"}'
+- '{"name" => "Xploit"}'
+- '{"name" => "CrossRat"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "cdacd83a-d89e-4101-b1ae-f5da5041eba1"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: cdacd83a-d89e-4101-b1ae-f5da5041eba1
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

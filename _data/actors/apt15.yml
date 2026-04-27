@@ -1,14 +1,39 @@
-name: "APT15"
-aliases: ["VIXEN PANDA","Ke3Chang","Playful Dragon","Metushy","Lurid","Social Network Team","Royal APT","BRONZE PALACE","BRONZE DAVENPORT","BRONZE IDLEWOOD","NICKEL","G0004","Red Vulture","Nylon Typhoon","Mirage","APT15"]
-description: "This threat actor uses phishing techniques to compromise the networks of foreign ministries of European countries for espionage purposes."
+---
+name: APT15
+aliases:
+- VIXEN PANDA
+- Ke3Chang
+- Playful Dragon
+- Metushy
+- Lurid
+- Social Network Team
+- Royal APT
+- BRONZE PALACE
+- BRONZE DAVENPORT
+- BRONZE IDLEWOOD
+- NICKEL
+- G0004
+- Red Vulture
+- Nylon Typhoon
+- Mirage
+- APT15
+description: This threat actor uses phishing techniques to compromise the networks
+  of foreign ministries of European countries for espionage purposes.
 url: "/apt15"
-country: "China"
-sector_focus: ["Government, Administration","Government"]
-targeted_victims: ["European Union","India","United Kingdom","Germany"]
-incident_type: "Espionage"
-risk_level: "High"
+country: China
+sector_focus:
+- Government, Administration
+- Government
+targeted_victims:
+- European Union
+- India
+- United Kingdom
+- Germany
+incident_type: Espionage
+risk_level: High
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "3501fbf2-098f-47e7-be6a-6b0ff5742ce8"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 3501fbf2-098f-47e7-be6a-6b0ff5742ce8
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

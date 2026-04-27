@@ -1,10 +1,20 @@
-name: "Boolka"
-aliases: ["Boolka"]
-description: "Boolka is a threat actor known for infecting websites with malicious JavaScript scripts for data exfiltration. They have been carrying out opportunistic SQL injection attacks since at least 2022. Boolka has developed a malware delivery platform based on the BeEF framework and has been distributing the BMANAGER trojan. Their activities demonstrate a progression from basic website infections to more sophisticated malware operations."
+---
+name: Boolka
+aliases:
+- Boolka
+description: Boolka is a threat actor known for infecting websites with malicious
+  JavaScript scripts for data exfiltration. They have been carrying out opportunistic
+  SQL injection attacks since at least 2022. Boolka has developed a malware delivery
+  platform based on the BeEF framework and has been distributing the BMANAGER trojan.
+  Their activities demonstrate a progression from basic website infections to more
+  sophisticated malware operations.
 url: "/boolka"
-malware: ["{\"name\" => \"Trojan.Karagany\"}","{\"name\" => \"Trojan.Mebromi\"}"]
+malware:
+- '{"name" => "Trojan.Karagany"}'
+- '{"name" => "Trojan.Mebromi"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "99ad0cef-c53a-44d5-85d4-5459e59a06d5"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 99ad0cef-c53a-44d5-85d4-5459e59a06d5
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

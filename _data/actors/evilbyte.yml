@@ -1,10 +1,19 @@
-name: "Evilbyte"
-aliases: ["Evilbyte"]
-description: "EvilByte is a hacktivist group that has conducted several high-profile cyber attacks in 2024, including breaching MyFatoorah's banking system in retaliation against Saudi media 1 and targeting Radio 10 Rosario in Argentina 2. The group has also claimed responsibility for breaching Israeli government websites and leaking data of government employees and intelligence agencies 4.\n\n"
+---
+name: Evilbyte
+aliases:
+- Evilbyte
+description: "EvilByte is a hacktivist group that has conducted several high-profile
+  cyber attacks in 2024, including breaching MyFatoorah's banking system in retaliation
+  against Saudi media 1 and targeting Radio 10 Rosario in Argentina 2. The group has
+  also claimed responsibility for breaching Israeli government websites and leaking
+  data of government employees and intelligence agencies 4.\n\n"
 url: "/evilbyte"
-malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
+malware:
+- '{"name" => "CyberGate"}'
+- '{"name" => "Cyber Eye RAT"}'
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "fa65c8b2-50ce-4dea-86a3-8c6b960ce1dd"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: fa65c8b2-50ce-4dea-86a3-8c6b960ce1dd
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
