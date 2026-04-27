@@ -57,3 +57,6 @@ data/imports/aptnotes/*
 !data/imports/apt-groups-operations/
 data/imports/apt-groups-operations/*
 !data/imports/apt-groups-operations/mapping_overrides.yml
+!data/imports/etda-thaicert/
+data/imports/etda-thaicert/*
+!data/imports/etda-thaicert/mapping_overrides.yml

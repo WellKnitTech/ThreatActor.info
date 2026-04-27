@@ -1,0 +1,12 @@
+excluded_group_keys: []
+
+match_overrides: {}
+
+display_name_overrides: {}
+
+country_overrides: {}
+
+alias_drop_list:
+  - "apt"
+  - "group"
+  - "threat actor"
