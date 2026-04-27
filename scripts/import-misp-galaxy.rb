@@ -3,6 +3,7 @@
 # frozen_string_literal: true
 
 require 'fileutils'
+require 'digest'
 require 'json'
 require 'net/http'
 require 'optparse'
@@ -10,11 +11,11 @@ require 'set'
 require 'time'
 require 'uri'
 require 'yaml'
+require_relative 'actor_store'
 
 # Importer for MISP Galaxy threat actor data
 # Source: https://github.com/MISP/misp-galaxy
 class MispGalaxyImporter
-  DATA_FILE = '_data/threat_actors.yml'.freeze
   PAGE_DIR = '_threat_actors'.freeze
   SOURCE_NAME = 'MISP Galaxy'.freeze
   SOURCE_REPOSITORY = 'https://github.com/MISP/misp-galaxy'.freeze
@@ -154,7 +155,7 @@ class MispGalaxyImporter
       Commands:
         fetch   Download MISP Galaxy threat-actor cluster for later import.
         plan    Preview changes that would be made from a snapshot.
-        import  Apply a snapshot to `_data/threat_actors.yml` and `_threat_actors/*.md`.
+        import  Apply a snapshot to `_data/actors/*.yml` and `_threat_actors/*.md`.
 
       Examples:
         ruby scripts/import-misp-galaxy.rb fetch --output data/imports/misp-galaxy/2026-04-26
@@ -219,8 +220,17 @@ class MispGalaxyImporter
     output_dir = @options[:output]
     FileUtils.mkdir_p(output_dir)
     output_file = File.join(output_dir, 'threat-actor.json')
+    manifest_file = File.join(output_dir, 'manifest.yml')
 
     File.write(output_file, JSON.pretty_generate(data))
+    File.write(manifest_file, YAML.dump({
+                                           'source_name' => SOURCE_NAME,
+                                           'source_url' => SOURCE_URL,
+                                           'retrieved_at' => Time.now.utc.iso8601,
+                                           'record_count' => actors.length,
+                                           'source_checksum_sha256' => Digest::SHA256.hexdigest(JSON.generate(data)),
+                                           'cluster_file' => 'threat-actor.json'
+                                         }))
     puts "Saved to: #{output_file}"
   end
 
@@ -436,9 +446,7 @@ risk_level = if confidence >= 70
 
   # Load existing actors from YAML
   def load_existing_actors
-    return [] unless File.exist?(DATA_FILE)
-
-    YAML.safe_load(File.read(DATA_FILE), permitted_classes: [Date]) || []
+    ActorStore.load_all
   end
 
   # Generate import report
@@ -627,11 +635,8 @@ YAML
 
   # Save existing actors to YAML
   def save_existing_actors(actors)
-    # Sort by name
-    sorted = actors.sort_by { |a| a['name']&.downcase || '' }
-
-    File.write(DATA_FILE, YAML.dump(sorted))
-    puts "Updated: #{DATA_FILE}"
+    ActorStore.save_all(actors)
+    puts 'Updated: _data/actors/*.yml'
   end
 
   # Normalize actor name for matching

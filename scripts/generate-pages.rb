@@ -8,7 +8,7 @@
 #   ruby scripts/generate-pages.rb --force    # Overwrite existing pages
 #   ruby scripts/generate-pages.rb --dry-run   # Preview without writing
 #
-# This script reads from _data/threat_actors.yml and generates page content
+# This script reads from _data/actors/*.yml and generates page content
 # from the YAML data, preserving manually-enriched pages.
 
 require 'fileutils'
@@ -17,37 +17,17 @@ require 'json'
 require 'optparse'
 require 'cgi'
 require 'net/http'
+require 'digest'
+require_relative 'actor_store'
 
 PAGE_DIR = '_threat_actors'
-DATA_FILE = '_data/threat_actors.yml'
 
-# Fetch references from MITRE for page generation
-def fetch_mitre_references
-  ref_cache = {}
-  begin
-    url = "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    data = JSON.parse(Net::HTTP.get(URI.parse(url)))
-    return {} unless data && data['objects']
-    
-    data['objects'].select { |o| o['type'] == 'intrusion-set' }.each do |intrusion|
-      name = intrusion['name']
-      next unless name && name['name']
-      
-      refs = (intrusion['external_references'] || []).map do |ref|
-        {
-          'source' => ref['source_name'] || 'unknown',
-          'url' => ref['url'] || '',
-          'description' => ref['description']
-        }
-      end.select { |r| r['url'] && !r['url'].empty? }
-      
-      ref_cache[name] = refs if refs.any?
-    end
-  rescue => e
-    puts "Warning: Could not fetch MITRE references: #{e.message[0..50]}"
-  end
-  ref_cache
-end
+DESCRIPTION_SOURCE_ORDER = %w[
+  mitre
+  misp_galaxy
+  ransomlook
+  malpedia
+].freeze
 
 # Placeholder patterns - if page contains these, it's not enriched
 PLACEHOLDER_PATTERNS = [
@@ -200,10 +180,11 @@ end
 # Build page body from YAML data
 def build_body(actor)
   sections = []
+  narrative = build_deterministic_narrative(actor)
   
   # Introduction
   sections << "## Introduction"
-  sections << actor['description'] || "No description available."
+  sections << narrative
   sections << ""
   
   # Activities and Tactics
@@ -336,18 +317,13 @@ def build_body(actor)
 references_cache = nil
 ref_cache_file = "_data/references.json"
 
-# Try cache first, then fetch fresh from MITRE
+# Use cached references only to keep builds deterministic/offline-safe.
 if File.exist?(ref_cache_file)
   begin
     references_cache = JSON.parse(File.read(ref_cache_file))
   rescue
     references_cache = nil
   end
-end
-
-# If no cache or old, try to fetch fresh
-if references_cache.nil? || references_cache.empty?
-  references_cache = fetch_mitre_references
 end
 
 # Parse references from cache or YAML
@@ -358,7 +334,7 @@ end
 
 if actor_refs && actor_refs.any?
     # Build citation map from references
-    actor['references'].each_with_index do |ref, idx|
+    actor_refs.each_with_index do |ref, idx|
       next unless ref['url'] && !ref['url'].empty?
       
       ref_id = idx + 1
@@ -381,7 +357,7 @@ if actor_refs && actor_refs.any?
     source_name_to_url['mitre-attack'] = actor['external_url']
   end
   
-  description = actor['description'] || "No description available."
+  description = narrative
   
   # Process (Citation: Source name) format from MITRE
   if description =~ /\(Citation:/
@@ -552,24 +528,64 @@ sections << "## References"
   sections.join("\n")
 end
 
+def build_deterministic_narrative(actor)
+  normalized_description = sanitize_description(actor['description'])
+  return normalized_description unless normalized_description.empty?
+
+  # Explicit source description precedence if future importers provide source-specific fields.
+  DESCRIPTION_SOURCE_ORDER.each do |source_key|
+    field_name = "description_#{source_key}"
+    source_description = sanitize_description(actor[field_name])
+    return source_description unless source_description.empty?
+  end
+
+  build_metadata_fallback_description(actor)
+end
+
+def sanitize_description(value)
+  value.to_s
+       .gsub(/\s+/, ' ')
+       .gsub(/\(Citation:\s*[^)]+\)/i, '')
+       .strip
+end
+
+def build_metadata_fallback_description(actor)
+  actor_name = actor['name'] || 'This threat actor'
+  sectors = Array(actor['sector_focus']).reject { |entry| entry.to_s.strip.empty? }
+  country = actor['country'].to_s.strip
+  incident = actor['incident_type'].to_s.strip
+  first_seen = actor['first_seen'].to_s.strip
+  last_activity = actor['last_activity'].to_s.strip
+
+  fragments = []
+  fragments << "#{actor_name} is tracked in this repository based on upstream intelligence sources."
+  fragments << "Primary incident classification: #{incident}." unless incident.empty?
+  fragments << "Attributed country of origin: #{country}." unless country.empty?
+  fragments << "Targeted sectors include #{sectors.first(5).join(', ')}." unless sectors.empty?
+  if !first_seen.empty? || !last_activity.empty?
+    timeline = []
+    timeline << "first seen #{first_seen}" unless first_seen.empty?
+    timeline << "active through #{last_activity}" unless last_activity.empty?
+    fragments << "Observed timeline: #{timeline.join(', ')}."
+  end
+  fragments << "This profile is generated automatically and should be interpreted alongside cited source material."
+
+  fragments.join(' ')
+end
+
 # Main execution
 puts "=" * 60
 puts "Threat Actor Page Generator"
 puts "=" * 60
 
-# Check for required files
-unless File.exist?(DATA_FILE)
-  abort "Error: #{DATA_FILE} not found!"
-end
-
 FileUtils.mkdir_p(PAGE_DIR)
 
 # Load actor data
-puts "Loading actors from #{DATA_FILE}..."
-data = YAML.safe_load(File.read(DATA_FILE), permitted_classes: [], aliases: false)
+puts 'Loading actors from _data/actors/*.yml...'
+data = ActorStore.load_all
 
 unless data.is_a?(Array) && data.any?
-  abort "Error: No actors found in #{DATA_FILE}"
+  abort 'Error: No actors found in _data/actors/*.yml'
 end
 
 puts "Found #{data.length} actors"

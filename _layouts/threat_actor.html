@@ -2,15 +2,8 @@
 layout: default
 ---
 
-{% assign actor_permalink = page.permalink | default: page.url %}
-{% assign current_actor = nil %}
-{% for actor_candidate in site.data.threat_actors %}
-  {% assign actor_candidate_permalink = actor_candidate.url | append: "/" %}
-  {% if actor_permalink == actor_candidate_permalink or page.url == actor_candidate_permalink or page.url == actor_candidate.url %}
-    {% assign current_actor = actor_candidate %}
-    {% break %}
-  {% endif %}
-{% endfor %}
+{% assign actor_key = page.url | remove: '/'.prepend | remove: '/' | replace: '/', '_' %}
+{% assign current_actor = site.data.actors[actor_key] %}
 
 {% assign profile_title = current_actor.name | default: page.title %}
 {% assign profile_aliases = current_actor.aliases | default: page.aliases %}

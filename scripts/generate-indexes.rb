@@ -3,9 +3,9 @@
 require 'json'
 require 'yaml'
 require 'fileutils'
+require_relative 'actor_store'
 
 class ThreatActorIndexGenerator
-  DATA_FILE = '_data/threat_actors.yml'.freeze
   PAGES_GLOB = '_threat_actors/*.md'.freeze
   OUTPUT_DIR = '_data/generated'.freeze
   API_DIR = 'api'.freeze
@@ -74,12 +74,8 @@ class ThreatActorIndexGenerator
     write_json('ioc_lookup.json', ioc_lookup)
     write_json('ioc_types.json', ioc_type_manifest)
     write_ioc_type_shards(ioc_documents)
-    write_api_json('campaigns.json', campaign_documents)
-    write_api_json('malware.json', malware_documents)
-    write_api_json('attack-mappings.json', attack_mapping_documents)
-    write_api_json('references.json', reference_documents)
-    write_api_json('ioc-lookup.json', ioc_lookup)
-    write_api_json('ioc-types.json', ioc_type_manifest)
+    # Primary API endpoints are rendered via Liquid wrappers in /api.
+    # Keep writing type shards directly because they are data-heavy static payloads.
 
     puts "Generated #{actor_documents.length} threat actors and #{ioc_documents.length} IOC records in #{OUTPUT_DIR}"
   end
@@ -87,7 +83,7 @@ class ThreatActorIndexGenerator
   private
 
   def load_actors
-    safe_load_yaml_file(DATA_FILE)
+    ActorStore.load_all
   end
 
   def load_pages

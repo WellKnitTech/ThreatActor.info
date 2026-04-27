@@ -18,7 +18,7 @@ class ContentValidator
   ].freeze
   REQUIRED_FILES = [
     '_config.yml',
-    '_data/threat_actors.yml',
+    '_data/actors/',
     '_layouts/default.html',
     '_layouts/threat_actor.html',
     '_includes/search.html',
@@ -26,6 +26,7 @@ class ContentValidator
     'index.html',
     'threat-actors.html',
     'scripts/generate-indexes.rb',
+    'scripts/evaluate-source-deltas.rb',
     'scripts/import-ransomlook.rb',
     'scripts/validate-content.rb',
     'scripts/validate.sh',
@@ -62,6 +63,17 @@ class ContentValidator
     '_data/generated/ioc_lookup.json',
     '_data/generated/ioc_types.json'
   ].freeze
+  GENERATED_API_WRAPPERS = {
+    'api/threat-actors.json' => 'site.data.generated.threat_actors',
+    'api/iocs.json' => 'site.data.generated.iocs',
+    'api/facets.json' => 'site.data.generated.facets',
+    'api/campaigns.json' => 'site.data.generated.campaigns',
+    'api/malware.json' => 'site.data.generated.malware',
+    'api/attack-mappings.json' => 'site.data.generated.attack_mappings',
+    'api/references.json' => 'site.data.generated.references',
+    'api/ioc-lookup.json' => 'site.data.generated.ioc_lookup',
+    'api/ioc-types.json' => 'site.data.generated.ioc_types'
+  }.freeze
   SKIPPED_IOC_HEADINGS = ['Sources'].freeze
   IPV4_PATTERN = /\b(?:\d{1,3}\.){3}\d{1,3}\b/.freeze
   DOMAIN_PATTERN = /\b(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+(?:[a-z]{2,63}|onion)\b/i.freeze
@@ -91,7 +103,9 @@ class ContentValidator
     validate_threat_actor_pages
     validate_orphan_pages
     validate_urls
+    validate_source_attribution
     validate_generated_json
+    validate_api_wrapper_bindings
     validate_ioc_shards
     validate_duplicate_ioc_sections
 
@@ -126,41 +140,37 @@ class ContentValidator
   def validate_yaml_data
     puts 'Validating YAML data...'
 
-    @threat_actors_data = safe_load_yaml_file('_data/threat_actors.yml')
-    unless @threat_actors_data.is_a?(Array)
-      add_error('_data/threat_actors.yml', 'Root element must be an array')
+    actor_files = Dir.glob('_data/actors/*.yml').sort
+    if actor_files.empty?
+      add_error('_data/actors/', 'No actor YAML files found in _data/actors/')
       @threat_actors_data = []
       return
     end
 
-    @threat_actors_data.each_with_index do |actor, index|
-      validate_threat_actor_data(actor, index)
-    end
-  rescue StandardError => e
-    add_error('_data/threat_actors.yml', "YAML parsing error: #{e.message}")
     @threat_actors_data = []
-  end
-
-  def load_pages
-    puts 'Loading threat actor pages...'
-
-    Dir.glob('_threat_actors/*.md').sort.each do |path|
-      @pages[path] = parse_page(path)
-    rescue StandardError => e
-      add_error(path, "Page parsing error: #{e.message}")
+    actor_files.each do |file|
+      begin
+        actor = safe_load_yaml_file(file)
+        if actor
+          @threat_actors_data << actor
+          validate_threat_actor_data(actor, file)
+        end
+      rescue StandardError => e
+        add_error(file, "YAML parsing error: #{e.message}")
+      end
     end
   end
 
-  def validate_threat_actor_data(actor, index)
+  def validate_threat_actor_data(actor, file_path)
     REQUIRED_ACTOR_FIELDS.each do |field|
-      add_error("_data/threat_actors.yml[#{index}]", "Missing required field: #{field}") unless actor.key?(field)
+      add_error(file_path, "Missing required field: #{field}") unless actor.key?(field)
     end
 
-    validate_field_types(actor, index)
-    validate_field_values(actor, index)
+    validate_field_types(actor, file_path)
+    validate_field_values(actor, file_path)
   end
 
-  def validate_field_types(actor, index)
+  def validate_field_types(actor, file_path)
     {
       'name' => String,
       'aliases' => Array,
@@ -170,30 +180,40 @@ class ContentValidator
       next unless actor.key?(field)
 
       unless actor[field].is_a?(expected_type)
-        add_error("_data/threat_actors.yml[#{index}]", "Field '#{field}' must be #{expected_type}, got #{actor[field].class}")
+        add_error(file_path, "Field '#{field}' must be #{expected_type}, got #{actor[field].class}")
       end
     end
   end
 
-  def validate_field_values(actor, index)
+  def validate_field_values(actor, file_path)
     if actor['url'] && !actor['url'].start_with?('/')
-      add_error("_data/threat_actors.yml[#{index}]", "URL must start with '/': #{actor['url']}")
+      add_error(file_path, "URL must start with '/': #{actor['url']}")
     end
 
     if actor['risk_level'] && !%w[Critical High Medium Low].include?(actor['risk_level'])
-      add_error("_data/threat_actors.yml[#{index}]", "Invalid risk level: #{actor['risk_level']}")
+      add_error(file_path, "Invalid risk level: #{actor['risk_level']}")
     end
 
     if actor['country'] && actor['country'].length < 2
-      add_warning("_data/threat_actors.yml[#{index}]", "Country name seems too short: #{actor['country']}")
+      add_warning(file_path, "Country name seems too short: #{actor['country']}")
     end
 
     if actor['first_seen'] && !actor['first_seen'].match?(/^\d{4}$/)
-      add_warning("_data/threat_actors.yml[#{index}]", "First seen should be a 4-digit year: #{actor['first_seen']}")
+      add_warning(file_path, "First seen should be a 4-digit year: #{actor['first_seen']}")
     end
 
     if actor['last_activity'] && !actor['last_activity'].match?(/^\d{4}$/)
-      add_warning("_data/threat_actors.yml[#{index}]", "Last activity should be a 4-digit year: #{actor['last_activity']}")
+      add_warning(file_path, "Last activity should be a 4-digit year: #{actor['last_activity']}")
+    end
+  end
+
+  def load_pages
+    puts 'Loading threat actor pages...'
+
+    Dir.glob('_threat_actors/*.md').sort.each do |path|
+      @pages[path] = parse_page(path)
+    rescue StandardError => e
+      add_error(path, "Page parsing error: #{e.message}")
     end
   end
 
@@ -425,7 +445,7 @@ class ContentValidator
     @pages.keys.sort.each do |page_path|
       next if expected_paths.include?(page_path)
 
-      add_error(page_path, 'Orphan threat actor page is not referenced in _data/threat_actors.yml')
+      add_error(page_path, 'Orphan threat actor page is not referenced in _data/actors/*.yml')
     end
   end
 
@@ -436,11 +456,29 @@ class ContentValidator
     names = @threat_actors_data.map { |actor| actor['name'] }.compact
 
     urls.tally.each do |url, count|
-      add_error('_data/threat_actors.yml', "Duplicate URL found: #{url}") if count > 1
+      add_error('_data/actors/*.yml', "Duplicate URL found: #{url}") if count > 1
     end
 
     names.tally.each do |name, count|
-      add_error('_data/threat_actors.yml', "Duplicate name found: #{name}") if count > 1
+      add_error('_data/actors/*.yml', "Duplicate name found: #{name}") if count > 1
+    end
+  end
+
+  def validate_source_attribution
+    puts 'Validating source attribution consistency...'
+
+    @threat_actors_data.each do |actor|
+      actor_name = actor['name'] || 'unknown'
+      file_label = "_data/actors/#{actor['url'].to_s.sub(%r{^/}, '')}.yml"
+      has_source_signal = !actor['source_name'].to_s.empty? ||
+                          !actor['source_record_url'].to_s.empty? ||
+                          (actor['provenance'].is_a?(Hash) && !actor['provenance'].empty?)
+
+      next unless has_source_signal
+
+      if actor['source_attribution'].to_s.strip.empty?
+        add_warning(file_label, "Actor '#{actor_name}' has source metadata but missing source_attribution")
+      end
     end
   end
 
@@ -476,6 +514,19 @@ class ContentValidator
 
     validate_json_glob('_data/generated/iocs_by_type/*.json', 'generated IOC type shard')
     validate_json_glob('api/iocs/by-type/*.json', 'API IOC type shard')
+  end
+
+  def validate_api_wrapper_bindings
+    puts 'Validating API wrapper bindings...'
+
+    GENERATED_API_WRAPPERS.each do |path, expected_binding|
+      content = File.read(path)
+      unless content.include?(expected_binding)
+        add_error(path, "API wrapper must reference #{expected_binding}")
+      end
+    rescue StandardError => e
+      add_error(path, "Unable to validate API wrapper binding: #{e.message}")
+    end
   end
 
   def validate_json_glob(pattern, label)

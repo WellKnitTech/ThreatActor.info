@@ -3,6 +3,7 @@
 # frozen_string_literal: true
 
 require 'fileutils'
+require 'digest'
 require 'json'
 require 'net/http'
 require 'optparse'
@@ -10,9 +11,9 @@ require 'set'
 require 'time'
 require 'uri'
 require 'yaml'
+require_relative 'actor_store'
 
 class MalpediaImporter
-  DATA_FILE = '_data/threat_actors.yml'.freeze
   DEFAULT_BASE_URL = 'https://malpedia.caad.fkie.fraunhofer.de'.freeze
   DEFAULT_SNAPSHOT_ROOT = 'data/imports/malpedia'.freeze
   DEFAULT_OVERRIDES_FILE = 'data/imports/malpedia/mapping_overrides.yml'.freeze
@@ -240,6 +241,7 @@ class MalpediaImporter
       'retrieved_at' => Time.now.utc.iso8601,
       'record_count' => selected_actors.length,
       'detail_count' => actor_details.length,
+      'source_checksum_sha256' => Digest::SHA256.hexdigest(JSON.generate(selected_actors)),
       'details_included' => @options[:include_details],
       'actors_file' => 'actors.json',
       'actor_ids_file' => 'actor_ids.json',
@@ -278,7 +280,7 @@ class MalpediaImporter
 
   def import_snapshot
     actors, details = load_snapshot_payloads
-    existing_actors = safe_load_yaml_file(DATA_FILE) || []
+    existing_actors = ActorStore.load_all
     existing_lookup = build_existing_lookup(existing_actors)
     candidates = build_candidates(actors, details, existing_lookup)
     candidates = candidates.first(@options[:limit]) if @options[:limit]
@@ -289,7 +291,7 @@ class MalpediaImporter
     return unless @options[:write]
 
     apply_candidates(candidates, existing_actors)
-    File.write(DATA_FILE, existing_actors.sort_by { |actor| actor['name'].to_s.downcase }.to_yaml(line_width: -1))
+    ActorStore.save_all(existing_actors)
     puts "Applied #{candidates.count { |candidate| candidate[:action] == 'update' }} Malpedia enrichments"
   end
 

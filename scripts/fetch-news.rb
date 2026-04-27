@@ -11,7 +11,6 @@ require 'open-uri'
 require 'yaml'
 require 'json'
 
-DATA_FILE = '_data/threat_actors.yml'
 OUTPUT_FILE = '_data/news_feed.yml'
 
 # Security RSS feeds

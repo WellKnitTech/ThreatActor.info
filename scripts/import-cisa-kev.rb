@@ -16,9 +16,9 @@ require 'net/http'
 require 'uri'
 require 'fileutils'
 require 'yaml'
+require_relative 'actor_store'
 
 KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
-DATA_FILE = "_data/threat_actors.yml"
 KEV_FILE = "data/cisa-kev/catalog.json"
 
 COMMAND = ARGV[0] || "help"
@@ -267,7 +267,7 @@ end
 def update_actors_with_cves(actor_cves)
   puts "Updating actors with CVE data..."
   
-  actors = YAML.load_file(DATA_FILE)
+  actors = ActorStore.load_all
   updated = 0
   
   actors.each do |actor|
@@ -282,7 +282,7 @@ def update_actors_with_cves(actor_cves)
     puts "  #{actor_name}: #{cves.length} CVEs"
   end
   
-  File.write(DATA_FILE, actors.to_yaml(line_width: -1))
+  ActorStore.save_all(actors)
   puts "Updated #{updated} actors with CVE data"
 end
 
@@ -343,6 +343,6 @@ else
     
     Output:
       - data/cisa-kev/catalog.json (local cache)
-      - Updated _data/threat_actors.yml with cisa_kev_cves field
+      - Updated _data/actors/*.yml with cisa_kev_cves field
   HELP
 end
