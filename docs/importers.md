@@ -413,7 +413,7 @@ ruby scripts/import-etda-thaicert.rb fetch --output data/imports/etda-thaicert/2
 Fetch from a custom endpoint:
 
 ```bash
-ruby scripts/import-etda-thaicert.rb fetch --source-url "https://apt.etda.or.th/cgi-bin/getcard.cgi?g=all&j=1" --output data/imports/etda-thaicert/2026-04-27
+ruby scripts/import-etda-thaicert.rb fetch --source-url "https://apt.etda.or.th/cgi-bin/getcard.cgi?g=all&o=j" --output data/imports/etda-thaicert/2026-04-27
 ```
 
 Preview changes:

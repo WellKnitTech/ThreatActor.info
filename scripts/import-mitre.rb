@@ -159,19 +159,17 @@ module ImportUtils
     # Don't merge references into YAML (keeps YAML small)
     # References are processed at page generation time
     
-    # Merge provenance
-    existing_prov = existing['provenance'].is_a?(Hash) ? existing['provenance'] : {}
-    incoming_prov = incoming['provenance'] || {}
-    
-    # Add source to provenance with timestamp
+    # Merge provenance without refreshing stable records on every run.
+    existing_prov = existing['provenance'].is_a?(Hash) ? JSON.parse(JSON.generate(existing['provenance'])) : {}
     source_key = source_name.downcase.gsub(/\s+/, '_')
-    existing_prov[source_key] = {
-      'source_retrieved_at' => Time.now.utc.iso8601,
+    existing_source_prov = existing_prov[source_key].is_a?(Hash) ? existing_prov[source_key] : {}
+    incoming_source_prov = {
       'source_record_id' => incoming['external_id'] || incoming['mitre_id'],
       'source_dataset_url' => MITRE_STIX_URL
     }
-    
-    merged['provenance'] = existing_prov
+    incoming_source_prov['source_retrieved_at'] = existing_source_prov['source_retrieved_at'] || Time.now.utc.iso8601
+    existing_prov[source_key] = existing_source_prov.merge(incoming_source_prov)
+    merged['provenance'] = existing_prov if existing_prov != existing['provenance']
     
     merged
   end

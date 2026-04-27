@@ -48,8 +48,23 @@ def load_actor_collection(path)
   end
 end
 
+def stable_for_delta(value)
+  case value
+  when Hash
+    value.each_with_object({}) do |(key, child_value), memo|
+      next if key.to_s == 'source_retrieved_at'
+
+      memo[key] = stable_for_delta(child_value)
+    end.sort.to_h
+  when Array
+    value.map { |child_value| stable_for_delta(child_value) }
+  else
+    value
+  end
+end
+
 def canonical_hash(actor)
-  stable = actor.sort.to_h
+  stable = stable_for_delta(actor)
   Digest::SHA256.hexdigest(JSON.generate(stable))
 end
 
@@ -74,7 +89,7 @@ common_urls.each do |url|
 
   updated_urls << url
   changed_fields = (current_actor.keys | previous_actor.keys).select do |field|
-    current_actor[field] != previous_actor[field]
+    stable_for_delta(current_actor[field]) != stable_for_delta(previous_actor[field])
   end
   high_impact = changed_fields & HIGH_IMPACT_FIELDS
   high_impact_changes << { url: url, fields: high_impact } unless high_impact.empty?
