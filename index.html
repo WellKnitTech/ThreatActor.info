@@ -34,16 +34,6 @@ title: Home
     </div>
   </section>
 
-  <section class="advanced-search-section" id="advanced-search">
-    <div class="section-header">
-      <div>
-        <h2>Advanced Search</h2>
-        <p class="section-kicker">Pinned filters stay visible while reviewing results.</p>
-      </div>
-    </div>
-    {% include search.html search_id="home-advanced-search" %}
-  </section>
-
   {% assign recently_updated = site.data.generated.facets.recently_updated %}
   {% if recently_updated and recently_updated.size > 0 %}
   <section class="recently-updated-section" aria-labelledby="recently-updated-heading">
@@ -69,6 +59,18 @@ title: Home
     </div>
   </section>
   {% endif %}
+
+  <section class="advanced-search-section" id="advanced-search">
+    <div class="section-header">
+      <div>
+        <h2>Advanced Search</h2>
+        <p class="section-kicker">Pinned filters stay visible while reviewing results.</p>
+      </div>
+    </div>
+    {% include search.html search_id="home-advanced-search" %}
+  </section>
+
+  {% assign recently_updated = nil %}
 
   <!-- Quick Filters (prominent) -->
   <section class="quick-filters">

@@ -59,6 +59,9 @@ layout: default
           {{ profile_risk_level }}
         </span>
         {% endif %}
+        {% if profile_last_updated %}
+        <span class="last-updated-badge">Last Updated {{ profile_last_updated | date: "%Y-%m-%d" }}</span>
+        {% endif %}
       </div>
       
       {% if profile_aliases and profile_aliases.size > 0 %}

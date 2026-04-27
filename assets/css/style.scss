@@ -238,6 +238,15 @@ a:hover {
   font-style: italic;
 }
 
+.last-updated-pill {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  padding: 0.4rem 0.8rem;
+}
+
 .actor-stats {
   display: flex;
   flex-wrap: wrap;
