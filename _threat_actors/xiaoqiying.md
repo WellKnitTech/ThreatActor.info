@@ -26,9 +26,9 @@ Xiaoqiying is a primarily Chinese-speaking threat group that is most well known 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "China Chopper"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
+- **China Chopper**
+- **CyberGate**
+- **Cyber Eye RAT**
 
 ## Attribution and Evidence
 **Country of Origin**: China

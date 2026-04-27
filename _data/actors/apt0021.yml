@@ -1,20 +1,53 @@
-name: "Molerats"
-aliases: ["ALUMINUM SARATOGA","BLACKSTEM","Extreme Jackal","G0021","Gaza Cybergang","Gaza cybergang","Gaza Hackers Team","Molerats","Moonlight","Operation Molerats"]
-description: "Molerats is an Arabic-speaking, politically-motivated threat group that has been operating since 2012. The group's victims have primarily been in the Middle East, Europe, and the United States.(Citation: DustySky)(Citation: DustySky2)(Citation: Kaspersky MoleRATs April 2019)(Citation: Cybereason Molerats Dec 2020)"
+---
+name: Molerats
+aliases:
+- ALUMINUM SARATOGA
+- BLACKSTEM
+- Extreme Jackal
+- G0021
+- Gaza Cybergang
+- Gaza cybergang
+- Gaza Hackers Team
+- Molerats
+- Moonlight
+- Operation Molerats
+description: 'Molerats is an Arabic-speaking, politically-motivated threat group that
+  has been operating since 2012. The group''s victims have primarily been in the Middle
+  East, Europe, and the United States.(Citation: DustySky)(Citation: DustySky2)(Citation:
+  Kaspersky MoleRATs April 2019)(Citation: Cybereason Molerats Dec 2020)'
 url: "/apt0021"
-country: "Palestine"
-sector_focus: ["Government","Defense","Energy","Finance","Healthcare","Pharmaceuticals","Education","Media","NGOs","Civil Society","Legal","Military"]
-targeted_victims: ["United States","Israel","Palestine","Middle East","Europe"]
-incident_type: "Espionage"
-external_id: "G0021"
-external_url: "https://attack.mitre.org/groups/G0021"
-mitre_id: "G0021"
-mitre_url: "https://attack.mitre.org/groups/G0021"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-malware: ["{\"name\" => \"Archelaus Beta\"}"]
+country: Palestine
+sector_focus:
+- Government
+- Defense
+- Energy
+- Finance
+- Healthcare
+- Pharmaceuticals
+- Education
+- Media
+- NGOs
+- Civil Society
+- Legal
+- Military
+targeted_victims:
+- United States
+- Israel
+- Palestine
+- Middle East
+- Europe
+incident_type: Espionage
+external_id: G0021
+external_url: https://attack.mitre.org/groups/G0021
+mitre_id: G0021
+mitre_url: https://attack.mitre.org/groups/G0021
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+malware:
+- Archelaus Beta
 provenance:
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G0021"
-    source_retrieved_at: "2026-04-26T07:05:44Z"
-source: "MITRE ATT&CK"
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_record_id: G0021
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+source: MITRE ATT&CK

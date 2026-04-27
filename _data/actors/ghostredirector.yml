@@ -14,16 +14,16 @@ description: GhostRedirector is a China-aligned threat actor that has compromise
 url: "/ghostredirector"
 country: China
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "PowerDuke"}'
-- '{"name" => "POWERSTATS"}'
-- '{"name" => "Power Loader"}'
-- '{"name" => "POWERSOURCE"}'
-- '{"name" => "China Chopper"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "Windows Remote Desktop"}'
-- '{"name" => "RemotePC"}'
+- Backdoor.Oldrea
+- PowerDuke
+- POWERSTATS
+- Power Loader
+- POWERSOURCE
+- China Chopper
+- RemoteCMD
+- Remote Utilities
+- Windows Remote Desktop
+- RemotePC
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

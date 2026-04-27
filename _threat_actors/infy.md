@@ -32,8 +32,8 @@ Infy is a group of suspected Iranian origin. Since early 2013, we have observed 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Backdoor.Oldrea"}**
-- **{"name" => "Agent.btz"}**
+- **Backdoor.Oldrea**
+- **Agent.btz**
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

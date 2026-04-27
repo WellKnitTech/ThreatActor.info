@@ -22,10 +22,10 @@ Verticals targeted during Operation FishMedley include governments, NGOs, and th
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "China Chopper"}**
-- **{"name" => "UNITEDRAKE"}**
-- **{"name" => "CrossRat"}**
-- **{"name" => "SodaMaster"}**
+- **China Chopper**
+- **UNITEDRAKE**
+- **CrossRat**
+- **SodaMaster**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

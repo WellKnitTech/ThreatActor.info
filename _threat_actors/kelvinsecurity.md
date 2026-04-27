@@ -26,12 +26,12 @@ KelvinSecurity is a hacker group that has been active since at least 2015. They 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "BlackEnergy"}**
-- **{"name" => "BLACKCOFFEE"}**
-- **{"name" => "Blackshades"}**
-- **{"name" => "BlackNix"}**
-- **{"name" => "Dark DDoSeR"}**
-- **{"name" => "BlackHole"}**
+- **BlackEnergy**
+- **BLACKCOFFEE**
+- **Blackshades**
+- **BlackNix**
+- **Dark DDoSeR**
+- **BlackHole**
 
 ## Attribution and Evidence
 **Country of Origin**: Spain

@@ -7,7 +7,7 @@ description: This suspected Iran-based adversary conducted long-running SWC camp
   the target scope for FLASH KITTEN appears to be focused on the MENA region.
 url: "/flash-kitten"
 malware:
-- '{"name" => "FLASHFLOOD"}'
+- FLASHFLOOD
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

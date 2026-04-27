@@ -30,7 +30,7 @@ One of the threat actors responsible for the denial of service attacks against U
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "RTM"}**
+- **RTM**
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

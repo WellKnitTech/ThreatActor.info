@@ -26,10 +26,10 @@ Hunt3r Kill3rs is a newly emerged threat group claiming expertise in cyber opera
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Xpert"}**
-- **{"name" => "Xploit"}**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **Xpert**
+- **Xploit**
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

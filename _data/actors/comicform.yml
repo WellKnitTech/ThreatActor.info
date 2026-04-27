@@ -18,9 +18,9 @@ description: 'ComicForm is an emerging cyber threat actor tracked since at least
   and regional targeting.'
 url: "/comicform"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Virus RAT"}'
+- CyberGate
+- Cyber Eye RAT
+- Virus RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

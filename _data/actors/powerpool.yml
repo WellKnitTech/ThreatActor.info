@@ -19,16 +19,16 @@ description: |-
   The researchers say that PowerPool developers did not use the binary version of the exploit, deciding instead to make some subtle changes to the source code before recompiling it.
 url: "/powerpool"
 malware:
-- '{"name" => "PowerDuke"}'
-- '{"name" => "POWERSTATS"}'
-- '{"name" => "Power Loader"}'
-- '{"name" => "POWERSOURCE"}'
-- '{"name" => "Small-Net"}'
-- '{"name" => "Windows Remote Desktop"}'
-- '{"name" => "UNITEDRAKE"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Archelaus Beta"}'
-- '{"name" => "PowerRAT"}'
+- PowerDuke
+- POWERSTATS
+- Power Loader
+- POWERSOURCE
+- Small-Net
+- Windows Remote Desktop
+- UNITEDRAKE
+- Xploit
+- Archelaus Beta
+- PowerRAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

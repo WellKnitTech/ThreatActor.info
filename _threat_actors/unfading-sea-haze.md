@@ -26,14 +26,14 @@ Unfading Sea Haze is a threat actor focused on espionage, targeting government a
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "China Chopper"}**
-- **{"name" => "gh0st"}**
-- **{"name" => "RemoteCMD"}**
-- **{"name" => "Gh0st RAT"}**
-- **{"name" => "Remote Utilities"}**
-- **{"name" => "RemotePC"}**
-- **{"name" => "SharpEye"}**
-- **{"name" => "SharpBot"}**
+- **China Chopper**
+- **gh0st**
+- **RemoteCMD**
+- **Gh0st RAT**
+- **Remote Utilities**
+- **RemotePC**
+- **SharpEye**
+- **SharpBot**
 
 ## Attribution and Evidence
 **Country of Origin**: China

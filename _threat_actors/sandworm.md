@@ -32,16 +32,16 @@ This threat actor targets industrial control systems, using a tool called Black 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "BlackEnergy"}**
-- **{"name" => "PowerDuke"}**
-- **{"name" => "POWERSTATS"}**
-- **{"name" => "Power Loader"}**
-- **{"name" => "POWERSOURCE"}**
-- **{"name" => "BLACKCOFFEE"}**
-- **{"name" => "Blackshades"}**
-- **{"name" => "BlackNix"}**
-- **{"name" => "BlackHole"}**
-- **{"name" => "PowerRAT"}**
+- **BlackEnergy**
+- **PowerDuke**
+- **POWERSTATS**
+- **Power Loader**
+- **POWERSOURCE**
+- **BLACKCOFFEE**
+- **Blackshades**
+- **BlackNix**
+- **BlackHole**
+- **PowerRAT**
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

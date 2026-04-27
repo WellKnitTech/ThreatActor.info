@@ -11,7 +11,7 @@ description: OVERLORD SPIDER, aka The Dark Overlord. Similar to ransomware opera
   underground market.
 url: "/overlord-spider"
 malware:
-- '{"name" => "Dark DDoSeR"}'
+- Dark DDoSeR
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

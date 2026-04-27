@@ -7,8 +7,8 @@ description: Bahamut is a threat actor primarily operating in Middle East and Ce
   were observed conduct phishing as well as desktop and mobile malware campaigns.
 url: "/bahamut"
 malware:
-- '{"name" => "MobileOrder"}'
-- '{"name" => "DesktopNow"}'
+- MobileOrder
+- DesktopNow
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

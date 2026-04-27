@@ -26,10 +26,10 @@ WeRedEvils is a hacking group that has claimed responsibility for multiple cyber
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Hacking Team UEFI Rootkit"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Xpert"}**
+- **Hacking Team UEFI Rootkit**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **Xpert**
 
 ## Attribution and Evidence
 **Country of Origin**: Israel

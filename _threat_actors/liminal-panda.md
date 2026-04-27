@@ -26,10 +26,10 @@ LIMINAL PANDA is a China-nexus APT that targets telecommunications entities, emp
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "MobileOrder"}**
-- **{"name" => "SHIPSHAPE"}**
-- **{"name" => "China Chopper"}**
-- **{"name" => "Xploit"}**
+- **MobileOrder**
+- **SHIPSHAPE**
+- **China Chopper**
+- **Xploit**
 
 ## Attribution and Evidence
 **Country of Origin**: China

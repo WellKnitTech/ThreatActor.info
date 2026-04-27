@@ -12,9 +12,9 @@ description: CeranaKeeper is a China-aligned APT that has been active since at l
 url: "/ceranakeeper"
 country: China
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "CloudDuke"}'
-- '{"name" => "China Chopper"}'
+- Backdoor.Oldrea
+- CloudDuke
+- China Chopper
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

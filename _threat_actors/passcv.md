@@ -27,13 +27,13 @@ The PassCV group continues to be one of the most successful and active threat gr
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "China Chopper"}**
-- **{"name" => "RemoteCMD"}**
-- **{"name" => "Blue Banana"}**
-- **{"name" => "Remote Utilities"}**
-- **{"name" => "RemotePC"}**
-- **{"name" => "UNITEDRAKE"}**
-- **{"name" => "CrossRat"}**
+- **China Chopper**
+- **RemoteCMD**
+- **Blue Banana**
+- **Remote Utilities**
+- **RemotePC**
+- **UNITEDRAKE**
+- **CrossRat**
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -22,8 +22,8 @@ SloppyLemming is an advanced actor that uses multiple cloud service providers to
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CloudDuke"}**
-- **{"name" => "China Chopper"}**
+- **CloudDuke**
+- **China Chopper**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

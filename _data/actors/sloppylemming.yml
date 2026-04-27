@@ -9,8 +9,8 @@ description: SloppyLemming is an advanced actor that uses multiple cloud service
   government, law enforcement, energy, telecommunications, and technology entitie
 url: "/sloppylemming"
 malware:
-- '{"name" => "CloudDuke"}'
-- '{"name" => "China Chopper"}'
+- CloudDuke
+- China Chopper
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -26,16 +26,16 @@ GhostRedirector is a China-aligned threat actor that has compromised at least 65
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Backdoor.Oldrea"}**
-- **{"name" => "PowerDuke"}**
-- **{"name" => "POWERSTATS"}**
-- **{"name" => "Power Loader"}**
-- **{"name" => "POWERSOURCE"}**
-- **{"name" => "China Chopper"}**
-- **{"name" => "RemoteCMD"}**
-- **{"name" => "Remote Utilities"}**
-- **{"name" => "Windows Remote Desktop"}**
-- **{"name" => "RemotePC"}**
+- **Backdoor.Oldrea**
+- **PowerDuke**
+- **POWERSTATS**
+- **Power Loader**
+- **POWERSOURCE**
+- **China Chopper**
+- **RemoteCMD**
+- **Remote Utilities**
+- **Windows Remote Desktop**
+- **RemotePC**
 
 ## Attribution and Evidence
 **Country of Origin**: China

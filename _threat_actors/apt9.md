@@ -30,12 +30,12 @@ APT9 engages in cyber operations where the goal is data theft, usually focusing 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Backdoor.Oldrea"}**
-- **{"name" => "RemoteCMD"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Remote Utilities"}**
-- **{"name" => "RemotePC"}**
+- **Backdoor.Oldrea**
+- **RemoteCMD**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **Remote Utilities**
+- **RemotePC**
 
 ## Attribution and Evidence
 **Country of Origin**: China

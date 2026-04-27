@@ -22,8 +22,8 @@ Dark Basin is a hack-for-hire group that has targeted thousands of individuals a
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "MobileOrder"}**
-- **{"name" => "Dark DDoSeR"}**
+- **MobileOrder**
+- **Dark DDoSeR**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

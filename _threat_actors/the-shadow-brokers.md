@@ -22,9 +22,9 @@ The Shadow Brokers (TSB) is a hacker group who first appeared in the summer of 2
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Hacking Team UEFI Rootkit"}**
-- **{"name" => "Virus RAT"}**
-- **{"name" => "Xploit"}**
+- **Hacking Team UEFI Rootkit**
+- **Virus RAT**
+- **Xploit**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

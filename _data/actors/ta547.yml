@@ -9,9 +9,9 @@ description: TA547 is responsible for many other campaigns since at least Novemb
   Alert Android malware.
 url: "/ta547"
 malware:
-- '{"name" => "DroidJack"}'
-- '{"name" => "Androrat"}'
-- '{"name" => "UNITEDRAKE"}'
+- DroidJack
+- Androrat
+- UNITEDRAKE
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

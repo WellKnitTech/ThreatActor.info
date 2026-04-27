@@ -26,9 +26,9 @@ Storm-1152, a cybercriminal group, was recently taken down by Microsoft for ille
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Revenge-RAT"}**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **Revenge-RAT**
 
 ## Attribution and Evidence
 **Country of Origin**: Vietnam

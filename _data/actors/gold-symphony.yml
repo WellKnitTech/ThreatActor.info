@@ -11,14 +11,14 @@ description: GOLD SYMPHONY is a financially motivated cybercrime group, likely b
   Cobalt Strike and other tools for use in post-intrusion ransomware attacks.
 url: "/gold-symphony"
 malware:
-- '{"name" => "BlackEnergy"}'
-- '{"name" => "BLACKCOFFEE"}'
-- '{"name" => "Blackshades"}'
-- '{"name" => "BlackNix"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "BlackHole"}'
-- '{"name" => "Cobalt Strike"}'
+- BlackEnergy
+- BLACKCOFFEE
+- Blackshades
+- BlackNix
+- CyberGate
+- Cyber Eye RAT
+- BlackHole
+- Cobalt Strike
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

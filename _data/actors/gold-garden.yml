@@ -18,10 +18,10 @@ description: GOLD GARDEN was a financially motivated cybercriminal threat group 
   and other groups recruited from underground forums.
 url: "/gold-garden"
 malware:
-- '{"name" => "Unknown Logger"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Xploit"}'
+- Unknown Logger
+- CyberGate
+- Cyber Eye RAT
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

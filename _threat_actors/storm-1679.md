@@ -26,7 +26,7 @@ Storm-1679 is a Russian disinformation group believed to be a spinoff of the Int
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CrossRat"}**
+- **CrossRat**
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

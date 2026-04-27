@@ -22,15 +22,15 @@ The many 0-days that had been collected by Hacking Team and which became publicl
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Hacking Team UEFI Rootkit"}**
-- **{"name" => "TURNEDUP"}**
-- **{"name" => "RemoteCMD"}**
-- **{"name" => "Back Orifice"}**
-- **{"name" => "Back Orifice 2000"}**
-- **{"name" => "Arabian-Attacker RAT"}**
-- **{"name" => "Remote Utilities"}**
-- **{"name" => "RemotePC"}**
-- **{"name" => "CrossRat"}**
+- **Hacking Team UEFI Rootkit**
+- **TURNEDUP**
+- **RemoteCMD**
+- **Back Orifice**
+- **Back Orifice 2000**
+- **Arabian-Attacker RAT**
+- **Remote Utilities**
+- **RemotePC**
+- **CrossRat**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

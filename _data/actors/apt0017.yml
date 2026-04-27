@@ -1,21 +1,38 @@
-name: "DragonOK"
-aliases: ["BRONZE OVERBROOK","DragonOK","G0002","G0017","Moafee","Shallow Taurus"]
-description: "DragonOK is a threat group that has targeted Japanese organizations with phishing emails. Due to overlapping TTPs, including similar custom tools, DragonOK is thought to have a direct or indirect relationship with the threat group Moafee. (Citation: Operation Quantum Entanglement) It is known to use a variety of malware, including Sysget/HelloBridge, PlugX, PoisonIvy, FormerFirstRat, NFlog, and NewCT. (Citation: New DragonOK)"
+---
+name: DragonOK
+aliases:
+- BRONZE OVERBROOK
+- DragonOK
+- G0002
+- G0017
+- Moafee
+- Shallow Taurus
+description: 'DragonOK is a threat group that has targeted Japanese organizations
+  with phishing emails. Due to overlapping TTPs, including similar custom tools, DragonOK
+  is thought to have a direct or indirect relationship with the threat group Moafee.
+  (Citation: Operation Quantum Entanglement) It is known to use a variety of malware,
+  including Sysget/HelloBridge, PlugX, PoisonIvy, FormerFirstRat, NFlog, and NewCT.
+  (Citation: New DragonOK)'
 url: "/apt0017"
-country: "China"
-sector_focus: ["Private sector"]
-targeted_victims: ["United States"]
-incident_type: "Espionage"
-risk_level: "High"
-external_id: "G0017"
-external_url: "https://attack.mitre.org/groups/G0017"
-mitre_id: "G0017"
-mitre_url: "https://attack.mitre.org/groups/G0017"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-malware: ["{\"name\" => \"PlugX\"}","{\"name\" => \"PoisonIvy\"}"]
+country: China
+sector_focus:
+- Private sector
+targeted_victims:
+- United States
+incident_type: Espionage
+risk_level: High
+external_id: G0017
+external_url: https://attack.mitre.org/groups/G0017
+mitre_id: G0017
+mitre_url: https://attack.mitre.org/groups/G0017
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+malware:
+- PlugX
+- PoisonIvy
 provenance:
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G0017"
-    source_retrieved_at: "2026-04-26T07:05:44Z"
-source: "MITRE ATT&CK"
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_record_id: G0017
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+source: MITRE ATT&CK

@@ -26,12 +26,12 @@ WASSONITE is a North Korea-linked APT that has targeted industrial sectors, incl
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Backdoor.Oldrea"}**
-- **{"name" => "RemoteCMD"}**
-- **{"name" => "Nuclear RAT"}**
-- **{"name" => "Remote Utilities"}**
-- **{"name" => "RemotePC"}**
-- **{"name" => "Seed RAT"}**
+- **Backdoor.Oldrea**
+- **RemoteCMD**
+- **Nuclear RAT**
+- **Remote Utilities**
+- **RemotePC**
+- **Seed RAT**
 
 ## Attribution and Evidence
 **Country of Origin**: North Korea

@@ -14,13 +14,13 @@ description: TAG-140 is a threat actor group that primarily targets Indian gover
 url: "/tag-140"
 country: Pakistan
 malware:
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "drat"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "Xploit"}'
+- RemoteCMD
+- CyberGate
+- Cyber Eye RAT
+- drat
+- Remote Utilities
+- RemotePC
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

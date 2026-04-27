@@ -15,9 +15,9 @@ description: The Shadow Brokers (TSB) is a hacker group who first appeared in th
   unit.
 url: "/the-shadow-brokers"
 malware:
-- '{"name" => "Hacking Team UEFI Rootkit"}'
-- '{"name" => "Virus RAT"}'
-- '{"name" => "Xploit"}'
+- Hacking Team UEFI Rootkit
+- Virus RAT
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

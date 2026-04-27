@@ -13,8 +13,8 @@ description: SEQRITE Labs APT-Team has been tracking and has uncovered a campaig
   a decoy-based PDF with a final Cobalt Strike payload.
 url: "/hollowquill"
 malware:
-- '{"name" => "SPACESHIP"}'
-- '{"name" => "Cobalt Strike"}'
+- SPACESHIP
+- Cobalt Strike
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

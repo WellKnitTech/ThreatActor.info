@@ -7,10 +7,10 @@ description: |-
   The Siesta campaign reinforces the fact that analysts and network defenders should remain on the lookout for known, public indicators and for shared attributes that allow security experts to detect multiple actors with one signature.
 url: "/siesta"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Xpert"}'
-- '{"name" => "Deeper RAT"}'
+- CyberGate
+- Cyber Eye RAT
+- Xpert
+- Deeper RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -22,9 +22,9 @@ DarkCasino is an economically motivated APT group that targets online trading pl
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "DarkComet"}**
-- **{"name" => "Xploit"}**
-- **{"name" => "Killer RAT"}**
+- **DarkComet**
+- **Xploit**
+- **Killer RAT**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

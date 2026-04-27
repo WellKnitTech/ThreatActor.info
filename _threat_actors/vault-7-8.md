@@ -22,16 +22,16 @@ An unnamed source leaked almost 10,000 documents describing a large number of 0-
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Hacking Team UEFI Rootkit"}**
-- **{"name" => "Trojan.Karagany"}**
-- **{"name" => "TURNEDUP"}**
-- **{"name" => "RemoteCMD"}**
-- **{"name" => "Trojan.Mebromi"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "DroidJack"}**
-- **{"name" => "Androrat"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Virus RAT"}**
+- **Hacking Team UEFI Rootkit**
+- **Trojan.Karagany**
+- **TURNEDUP**
+- **RemoteCMD**
+- **Trojan.Mebromi**
+- **CyberGate**
+- **DroidJack**
+- **Androrat**
+- **Cyber Eye RAT**
+- **Virus RAT**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

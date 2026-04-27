@@ -26,11 +26,11 @@ One of their notable tools is a custom backdoor called SockDetour, which operate
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Backdoor.Oldrea"}**
-- **{"name" => "Windows Remote Desktop"}**
-- **{"name" => "Xploit"}**
-- **{"name" => "Socket23"}**
-- **{"name" => "SocketPlayer"}**
+- **Backdoor.Oldrea**
+- **Windows Remote Desktop**
+- **Xploit**
+- **Socket23**
+- **SocketPlayer**
 
 ## Attribution and Evidence
 **Country of Origin**: China

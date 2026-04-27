@@ -9,11 +9,11 @@ description: IronHusky is a Chinese-based threat actor first attributed in July 
 url: "/ironhusky"
 country: China
 malware:
-- '{"name" => "Trojan.Karagany"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Trojan.Mebromi"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
+- Trojan.Karagany
+- RemoteCMD
+- Trojan.Mebromi
+- Remote Utilities
+- RemotePC
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

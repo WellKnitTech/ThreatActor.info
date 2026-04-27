@@ -32,8 +32,8 @@ This threat actor targets Uighurs—a minority ethnic group located primarily in
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "MobileOrder"}**
-- **{"name" => "China Chopper"}**
+- **MobileOrder**
+- **China Chopper**
 
 ## Attribution and Evidence
 **Country of Origin**: China

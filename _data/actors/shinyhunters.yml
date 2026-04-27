@@ -10,10 +10,10 @@ description: ShinyHunters is a cybercriminal group of unknown origin that is mot
   addresses, phone numbers, Social Security numbers, and credit card information.
 url: "/shinyhunters"
 malware:
-- '{"name" => "Unknown Logger"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Xploit"}'
+- Unknown Logger
+- CyberGate
+- Cyber Eye RAT
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

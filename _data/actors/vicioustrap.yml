@@ -12,7 +12,7 @@ description: ViciousTrap has compromised over 5,500 edge devices, transforming t
   activities suggest a honeypot-style network aimed at intercepting network flows.
 url: "/vicioustrap"
 malware:
-- '{"name" => "Ghost"}'
+- Ghost
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

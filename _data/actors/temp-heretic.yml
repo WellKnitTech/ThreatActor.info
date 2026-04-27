@@ -10,7 +10,7 @@ description: TEMP_Heretic is a threat actor that has been observed engaging in t
 url: "/temp-heretic"
 country: China
 malware:
-- '{"name" => "Xploit"}'
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

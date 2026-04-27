@@ -12,8 +12,8 @@ description: DEV-0569, also known as Storm-0569, is a threat actor group that ha
   Brazil.
 url: "/dev-0569"
 malware:
-- '{"name" => "SHIPSHAPE"}'
-- '{"name" => "UNITEDRAKE"}'
+- SHIPSHAPE
+- UNITEDRAKE
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

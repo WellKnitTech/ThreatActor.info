@@ -13,9 +13,9 @@ description: Caramel Tsunami is a threat actor that specializes in spyware attac
   tools.
 url: "/caramel-tsunami"
 malware:
-- '{"name" => "Windows Remote Desktop"}'
-- '{"name" => "Chrome Remote Desktop"}'
-- '{"name" => "Xploit"}'
+- Windows Remote Desktop
+- Chrome Remote Desktop
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

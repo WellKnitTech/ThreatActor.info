@@ -14,13 +14,13 @@ description: IBM X-Force Research uncovered a Trojan hybrid spawned from the Nym
   the wild.
 url: "/goznym"
 malware:
-- '{"name" => "PowerDuke"}'
-- '{"name" => "POWERSTATS"}'
-- '{"name" => "Power Loader"}'
-- '{"name" => "Trojan.Karagany"}'
-- '{"name" => "POWERSOURCE"}'
-- '{"name" => "Trojan.Mebromi"}'
-- '{"name" => "PowerRAT"}'
+- PowerDuke
+- POWERSTATS
+- Power Loader
+- Trojan.Karagany
+- POWERSOURCE
+- Trojan.Mebromi
+- PowerRAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

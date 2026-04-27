@@ -26,12 +26,12 @@ PlushDaemon is a China-aligned APT group that has conducted cyberespionage opera
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Backdoor.Oldrea"}**
-- **{"name" => "China Chopper"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "UNITEDRAKE"}**
-- **{"name" => "Xploit"}**
+- **Backdoor.Oldrea**
+- **China Chopper**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **UNITEDRAKE**
+- **Xploit**
 
 ## Attribution and Evidence
 **Country of Origin**: China

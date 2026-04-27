@@ -12,9 +12,9 @@ description: SlopAds is a sophisticated ad fraud and click fraud operation invol
   United States, India, and Brazil.
 url: "/slopads"
 malware:
-- '{"name" => "MobileOrder"}'
-- '{"name" => "UNITEDRAKE"}'
-- '{"name" => "GraphicBooting"}'
+- MobileOrder
+- UNITEDRAKE
+- GraphicBooting
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

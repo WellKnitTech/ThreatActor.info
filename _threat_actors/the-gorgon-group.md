@@ -22,8 +22,8 @@ Unit 42 researchers have been tracking Subaat, an attacker, since 2017. Recently
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Epic"}**
-- **{"name" => "Archelaus Beta"}**
+- **Epic**
+- **Archelaus Beta**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -19,15 +19,15 @@ description: Team46 is a sophisticated APT group active since at least late 2024
   ms-appdata-*.global.ssl.fastly.net).
 url: "/team46"
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "PowerDuke"}'
-- '{"name" => "POWERSTATS"}'
-- '{"name" => "Power Loader"}'
-- '{"name" => "POWERSOURCE"}'
-- '{"name" => "Chrome Remote Desktop"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Cobalt Strike"}'
-- '{"name" => "PowerRAT"}'
+- Backdoor.Oldrea
+- PowerDuke
+- POWERSTATS
+- Power Loader
+- POWERSOURCE
+- Chrome Remote Desktop
+- Xploit
+- Cobalt Strike
+- PowerRAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

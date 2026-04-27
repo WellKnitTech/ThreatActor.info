@@ -9,8 +9,8 @@ description: Seqrite Labs APT-Team has recently uncovered a campaign which we ha
   which acts as a decoy.
 url: "/swan-vector"
 malware:
-- '{"name" => "China Chopper"}'
-- '{"name" => "CrossRat"}'
+- China Chopper
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

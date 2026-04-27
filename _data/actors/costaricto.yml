@@ -9,11 +9,11 @@ description: CostaRicto is a cyber-espionage threat actor that operates as a mer
   Asia.
 url: "/costaricto"
 malware:
-- '{"name" => "ClientMesh"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Client Maximus"}'
-- '{"name" => "CrossRat"}'
+- ClientMesh
+- CyberGate
+- Cyber Eye RAT
+- Client Maximus
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

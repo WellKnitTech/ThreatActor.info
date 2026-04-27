@@ -1,16 +1,29 @@
-name: "Orangeworm"
-aliases: ["Orangeworm"]
-description: "Orangeworm is a group that has targeted organizations in the healthcare sector in the United States, Europe, and Asia since at least 2015, likely for the purpose of corporate espionage.(Citation: Symantec Orangeworm April 2018) Reverse engineering of Kwampirs, directly associated with Orangeworm activity, indicates significant functional and development overlaps with Shamoon.(Citation: Cylera Kwampirs 2022)"
+---
+name: Orangeworm
+aliases:
+- Orangeworm
+description: 'Orangeworm is a group that has targeted organizations in the healthcare
+  sector in the United States, Europe, and Asia since at least 2015, likely for the
+  purpose of corporate espionage.(Citation: Symantec Orangeworm April 2018) Reverse
+  engineering of Kwampirs, directly associated with Orangeworm activity, indicates
+  significant functional and development overlaps with Shamoon.(Citation: Cylera Kwampirs
+  2022)'
 url: "/apt0071"
-external_id: "G0071"
-external_url: "https://attack.mitre.org/groups/G0071"
-mitre_id: "G0071"
-mitre_url: "https://attack.mitre.org/groups/G0071"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"Trojan.Karagany\"}","{\"name\" => \"Unknown Logger\"}","{\"name\" => \"Trojan.Mebromi\"}","{\"name\" => \"UNITEDRAKE\"}"]
+external_id: G0071
+external_url: https://attack.mitre.org/groups/G0071
+mitre_id: G0071
+mitre_url: https://attack.mitre.org/groups/G0071
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+malware:
+- Backdoor.Oldrea
+- Trojan.Karagany
+- Unknown Logger
+- Trojan.Mebromi
+- UNITEDRAKE
 provenance:
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G0071"
-    source_retrieved_at: "2026-04-26T07:05:44Z"
-source: "MITRE ATT&CK"
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_record_id: G0071
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+source: MITRE ATT&CK

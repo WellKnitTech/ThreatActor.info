@@ -22,11 +22,11 @@ ChainedShark is an APT group targeting China's scientific research sector, parti
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Trojan.Karagany"}**
-- **{"name" => "China Chopper"}**
-- **{"name" => "Trojan.Mebromi"}**
-- **{"name" => "SharK"}**
-- **{"name" => "Xploit"}**
+- **Trojan.Karagany**
+- **China Chopper**
+- **Trojan.Mebromi**
+- **SharK**
+- **Xploit**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

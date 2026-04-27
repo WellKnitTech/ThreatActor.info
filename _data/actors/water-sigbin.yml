@@ -13,13 +13,13 @@ description: The 8220 Gang, also known as Water Sigbin, is a threat actor group 
 url: "/water-sigbin"
 country: China
 malware:
-- '{"name" => "PowerDuke"}'
-- '{"name" => "POWERSTATS"}'
-- '{"name" => "Power Loader"}'
-- '{"name" => "POWERSOURCE"}'
-- '{"name" => "Miner-C"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "PowerRAT"}'
+- PowerDuke
+- POWERSTATS
+- Power Loader
+- POWERSOURCE
+- Miner-C
+- Xploit
+- PowerRAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

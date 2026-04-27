@@ -8,7 +8,7 @@ description: In March 2022, a hacking group calling themselves N4ughtySecTU clai
 url: "/n4ughtysectu"
 country: Brazil
 malware:
-- '{"name" => "Hacking Team UEFI Rootkit"}'
+- Hacking Team UEFI Rootkit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -32,12 +32,12 @@ This threat actor targets governments, diplomatic missions, private companies in
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CyberGate"}**
-- **{"name" => "XtremeRAT"}**
-- **{"name" => "DroidJack"}**
-- **{"name" => "Androrat"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Windows Remote Desktop"}**
+- **CyberGate**
+- **XtremeRAT**
+- **DroidJack**
+- **Androrat**
+- **Cyber Eye RAT**
+- **Windows Remote Desktop**
 
 ## Attribution and Evidence
 **Country of Origin**: Spain

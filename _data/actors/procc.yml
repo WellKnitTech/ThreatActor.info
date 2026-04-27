@@ -9,16 +9,16 @@ description: ProCC is a threat actor targeting the hospitality sector with remot
   clipboard and printer spooler, as well as capturing screenshots on infected machines.
 url: "/procc"
 malware:
-- '{"name" => "Trojan.Karagany"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Trojan.Mebromi"}'
-- '{"name" => "jRAT"}'
-- '{"name" => "NJRat"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "NanoCore"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Revenge-RAT"}'
+- Trojan.Karagany
+- RemoteCMD
+- Trojan.Mebromi
+- jRAT
+- NJRat
+- Remote Utilities
+- RemotePC
+- NanoCore
+- Xploit
+- Revenge-RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

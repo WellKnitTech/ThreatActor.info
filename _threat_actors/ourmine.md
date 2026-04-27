@@ -22,9 +22,9 @@ OurMine is known for celebrity internet accounts, often causing cyber vandalism,
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Hacking Team UEFI Rootkit"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
+- **Hacking Team UEFI Rootkit**
+- **CyberGate**
+- **Cyber Eye RAT**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

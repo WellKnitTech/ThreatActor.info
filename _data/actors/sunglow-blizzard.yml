@@ -9,7 +9,7 @@ description: DEV-0665 is a threat actor associated with the HermeticWiper attack
 url: "/sunglow-blizzard"
 country: Russia
 malware:
-- '{"name" => "Wiper"}'
+- Wiper
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

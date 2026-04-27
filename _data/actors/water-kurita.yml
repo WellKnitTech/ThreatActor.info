@@ -12,9 +12,9 @@ description: Water Kurita is a financially motivated cybercriminal entity associ
   and drove customers toward competing infostealers.
 url: "/water-kurita"
 malware:
-- '{"name" => "RIPTIDE"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- RIPTIDE
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

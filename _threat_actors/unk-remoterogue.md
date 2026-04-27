@@ -26,10 +26,10 @@ UNK_RemoteRogue is a suspected Russian threat actor that has been observed utili
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "StreamEx"}**
-- **{"name" => "RemoteCMD"}**
-- **{"name" => "Remote Utilities"}**
-- **{"name" => "RemotePC"}**
+- **StreamEx**
+- **RemoteCMD**
+- **Remote Utilities**
+- **RemotePC**
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

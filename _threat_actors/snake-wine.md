@@ -22,8 +22,8 @@ While investigating some of the smaller name servers that APT28/Sofacy routinely
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Backdoor.Oldrea"}**
-- **{"name" => "Small-Net"}**
+- **Backdoor.Oldrea**
+- **Small-Net**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -22,7 +22,7 @@ The Taidoor attackers have been actively engaging in targeted attacks since at l
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Taidoor"}**
+- **Taidoor**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

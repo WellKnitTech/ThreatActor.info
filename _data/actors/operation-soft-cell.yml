@@ -9,8 +9,8 @@ description: In 2018, the Cybereason Nocturnus team identified an advanced, pers
   targets and resulted in a complete takeover of the network.
 url: "/operation-soft-cell"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -22,13 +22,13 @@ Over the last few weeks, several significant leaks regarding a number of Iranian
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "BlackEnergy"}**
-- **{"name" => "Unknown Logger"}**
-- **{"name" => "BLACKCOFFEE"}**
-- **{"name" => "Blackshades"}**
-- **{"name" => "BlackNix"}**
-- **{"name" => "Minimo"}**
-- **{"name" => "BlackHole"}**
+- **BlackEnergy**
+- **Unknown Logger**
+- **BLACKCOFFEE**
+- **Blackshades**
+- **BlackNix**
+- **Minimo**
+- **BlackHole**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

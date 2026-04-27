@@ -1,21 +1,48 @@
-name: "APT18"
-aliases: ["APT18","Dynamite Panda","DYNAMITE PANDA","G0026","PLA Navy","Satin Typhoon","SCANDIUM","TG-0416","Threat Group-0416","Wekby"]
-description: "APT18 is a threat group that has operated since at least 2009 and has targeted a range of industries, including technology, manufacturing, human rights groups, government, and medical. (Citation: Dell Lateral Movement)"
+---
+name: APT18
+aliases:
+- APT18
+- Dynamite Panda
+- DYNAMITE PANDA
+- G0026
+- PLA Navy
+- Satin Typhoon
+- SCANDIUM
+- TG-0416
+- Threat Group-0416
+- Wekby
+description: 'APT18 is a threat group that has operated since at least 2009 and has
+  targeted a range of industries, including technology, manufacturing, human rights
+  groups, government, and medical. (Citation: Dell Lateral Movement)'
 url: "/apt0026"
-country: "China"
-sector_focus: ["Aerospace","Defense","Health","High tech","Telecoms","Government","Private sector","Civil society"]
-targeted_victims: ["United States"]
-incident_type: "Espionage"
-risk_level: "High"
-external_id: "G0026"
-external_url: "https://attack.mitre.org/groups/G0026"
-mitre_id: "G0026"
-mitre_url: "https://attack.mitre.org/groups/G0026"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-malware: ["{\"name\" => \"SPACESHIP\"}","{\"name\" => \"Hacking Team UEFI Rootkit\"}","{\"name\" => \"FLASHFLOOD\"}","{\"name\" => \"Xploit\"}"]
+country: China
+sector_focus:
+- Aerospace
+- Defense
+- Health
+- High tech
+- Telecoms
+- Government
+- Private sector
+- Civil society
+targeted_victims:
+- United States
+incident_type: Espionage
+risk_level: High
+external_id: G0026
+external_url: https://attack.mitre.org/groups/G0026
+mitre_id: G0026
+mitre_url: https://attack.mitre.org/groups/G0026
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+malware:
+- SPACESHIP
+- Hacking Team UEFI Rootkit
+- FLASHFLOOD
+- Xploit
 provenance:
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G0026"
-    source_retrieved_at: "2026-04-26T07:05:44Z"
-source: "MITRE ATT&CK"
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_record_id: G0026
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+source: MITRE ATT&CK

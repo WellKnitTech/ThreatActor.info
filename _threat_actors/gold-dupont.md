@@ -22,16 +22,16 @@ GOLD DUPONT is a financially motivated cybercriminal threat group that specializ
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "BlackEnergy"}**
-- **{"name" => "RemoteCMD"}**
-- **{"name" => "BLACKCOFFEE"}**
-- **{"name" => "Blackshades"}**
-- **{"name" => "BlackNix"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Remote Utilities"}**
-- **{"name" => "RemotePC"}**
-- **{"name" => "DesktopNow"}**
+- **BlackEnergy**
+- **RemoteCMD**
+- **BLACKCOFFEE**
+- **Blackshades**
+- **BlackNix**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **Remote Utilities**
+- **RemotePC**
+- **DesktopNow**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

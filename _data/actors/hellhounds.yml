@@ -11,8 +11,8 @@ description: Hellhounds is an APT group targeting organizations in Russia, using
   a telecom operator where they disrupted services.
 url: "/hellhounds"
 malware:
-- '{"name" => "SHIPSHAPE"}'
-- '{"name" => "Pupy"}'
+- SHIPSHAPE
+- Pupy
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

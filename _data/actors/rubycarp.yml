@@ -11,8 +11,8 @@ description: RUBYCARP is a financially-motivated threat actor group likely based
   and have a diverse set of illicit income streams.
 url: "/rubycarp"
 malware:
-- '{"name" => "StreamEx"}'
-- '{"name" => "Xploit"}'
+- StreamEx
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -13,9 +13,9 @@ description: SHADOW-AETHER-015 is a highly adaptable cybercriminal group known f
   with a focus on sectors rich in sensitive data.
 url: "/shadow-aether-015"
 malware:
-- '{"name" => "CloudDuke"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- CloudDuke
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

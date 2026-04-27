@@ -8,15 +8,15 @@ description: Blacktail is a cybercrime group that has gained attention for its r
   Windows and Linux systems.
 url: "/blacktail"
 malware:
-- '{"name" => "BlackEnergy"}'
-- '{"name" => "BLACKCOFFEE"}'
-- '{"name" => "Blackshades"}'
-- '{"name" => "BlackNix"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Windows Remote Desktop"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "BlackHole"}'
+- BlackEnergy
+- BLACKCOFFEE
+- Blackshades
+- BlackNix
+- CyberGate
+- Cyber Eye RAT
+- Windows Remote Desktop
+- Xploit
+- BlackHole
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

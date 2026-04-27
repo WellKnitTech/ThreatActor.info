@@ -31,7 +31,7 @@ This threat actor targets organizations in the finance, defense, aerospace, tech
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "SPACESHIP"}**
+- **SPACESHIP**
 
 ## Attribution and Evidence
 **Country of Origin**: China

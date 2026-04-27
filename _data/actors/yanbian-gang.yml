@@ -11,9 +11,9 @@ targeted_victims:
 - South Korea
 - Japan
 malware:
-- '{"name" => "MobileOrder"}'
-- '{"name" => "DroidJack"}'
-- '{"name" => "Androrat"}'
+- MobileOrder
+- DroidJack
+- Androrat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

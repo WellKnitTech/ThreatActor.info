@@ -26,13 +26,13 @@ description: Proofpoint researchers detected campaigns from a relatively new act
 url: "/ta2101"
 country: Russia
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "Trojan.Karagany"}'
-- '{"name" => "Trojan.Mebromi"}'
-- '{"name" => "UNITEDRAKE"}'
-- '{"name" => "Archelaus Beta"}'
-- '{"name" => "Cobalt Strike"}'
-- '{"name" => "Revenge-RAT"}'
+- Backdoor.Oldrea
+- Trojan.Karagany
+- Trojan.Mebromi
+- UNITEDRAKE
+- Archelaus Beta
+- Cobalt Strike
+- Revenge-RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

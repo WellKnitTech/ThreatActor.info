@@ -13,8 +13,8 @@ description: UAT-9686 is a Chinese state-sponsored APT known for targeting netwo
 url: "/uat-9686"
 country: China
 malware:
-- '{"name" => "Xploit"}'
-- '{"name" => "AsyncRAT"}'
+- Xploit
+- AsyncRAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

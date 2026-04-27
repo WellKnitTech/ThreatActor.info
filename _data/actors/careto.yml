@@ -32,12 +32,12 @@ targeted_victims:
 incident_type: Espionage
 risk_level: High
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "XtremeRAT"}'
-- '{"name" => "DroidJack"}'
-- '{"name" => "Androrat"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Windows Remote Desktop"}'
+- CyberGate
+- XtremeRAT
+- DroidJack
+- Androrat
+- Cyber Eye RAT
+- Windows Remote Desktop
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

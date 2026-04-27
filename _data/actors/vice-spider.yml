@@ -10,7 +10,7 @@ description: Vice Spider is a Russian-speaking ransomware group that has been ac
 url: "/vice-spider"
 country: Russia
 malware:
-- '{"name" => "Xploit"}'
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

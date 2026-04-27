@@ -13,9 +13,9 @@ description: RedJuliett is a likely Chinese state-sponsored threat actor targeti
 url: "/redjuliett"
 country: China
 malware:
-- '{"name" => "China Chopper"}'
-- '{"name" => "UNITEDRAKE"}'
-- '{"name" => "Xploit"}'
+- China Chopper
+- UNITEDRAKE
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

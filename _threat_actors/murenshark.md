@@ -22,8 +22,8 @@ MurenShark is an advanced persistent threat group that operates primarily in the
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "SharK"}**
-- **{"name" => "Killer RAT"}**
+- **SharK**
+- **Killer RAT**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -13,12 +13,12 @@ description: GOFFEE is a threat actor that has targeted entities in the Russian 
   characteristics that attribute their campaigns with high confidence.
 url: "/goffee"
 malware:
-- '{"name" => "PowerDuke"}'
-- '{"name" => "POWERSTATS"}'
-- '{"name" => "Agent.btz"}'
-- '{"name" => "Power Loader"}'
-- '{"name" => "POWERSOURCE"}'
-- '{"name" => "PowerRAT"}'
+- PowerDuke
+- POWERSTATS
+- Agent.btz
+- Power Loader
+- POWERSOURCE
+- PowerRAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

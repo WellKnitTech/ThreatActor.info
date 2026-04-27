@@ -26,10 +26,10 @@ Storm-1175 is a cybercriminal group known for deploying Medusa ransomware and ex
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Xploit"}**
-- **{"name" => "Archelaus Beta"}**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **Xploit**
+- **Archelaus Beta**
 
 ## Attribution and Evidence
 **Country of Origin**: China

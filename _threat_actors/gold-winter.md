@@ -22,7 +22,7 @@ GOLD WINTER are a financially motivated group, likely based in Russia, who opera
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Archelaus Beta"}**
+- **Archelaus Beta**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

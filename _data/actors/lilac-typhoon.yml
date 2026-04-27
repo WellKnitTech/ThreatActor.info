@@ -12,13 +12,13 @@ description: Lilac Typhoon is a threat actor attributed to China. They have been
 url: "/lilac-typhoon"
 country: China
 malware:
-- '{"name" => "China Chopper"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Miner-C"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Cobalt Strike"}'
+- China Chopper
+- RemoteCMD
+- Miner-C
+- Remote Utilities
+- RemotePC
+- Xploit
+- Cobalt Strike
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

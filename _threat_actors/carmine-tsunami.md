@@ -26,10 +26,10 @@ Carmine Tsunami is a threat actor linked to an Israel-based private sector offen
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CloudDuke"}**
-- **{"name" => "MobileOrder"}**
-- **{"name" => "Offence"}**
-- **{"name" => "Xploit"}**
+- **CloudDuke**
+- **MobileOrder**
+- **Offence**
+- **Xploit**
 
 ## Attribution and Evidence
 **Country of Origin**: Israel

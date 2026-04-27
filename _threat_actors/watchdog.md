@@ -22,7 +22,7 @@ Thief Libra is a cloud-focused threat group that has a history of cryptojacking 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CloudDuke"}**
+- **CloudDuke**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

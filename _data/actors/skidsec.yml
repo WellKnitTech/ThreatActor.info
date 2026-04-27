@@ -13,8 +13,8 @@ description: SkidSec is a threat group that has engaged in operations targeting 
   to leak sensitive information from compromised devices.
 url: "/skidsec"
 malware:
-- '{"name" => "MobileOrder"}'
-- '{"name" => "Xploit"}'
+- MobileOrder
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

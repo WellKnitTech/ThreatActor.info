@@ -26,13 +26,13 @@ description: "Over the last few weeks, several significant leaks regarding a num
   related to Iranian attack groups' activity."
 url: "/unnamed-group"
 malware:
-- '{"name" => "BlackEnergy"}'
-- '{"name" => "Unknown Logger"}'
-- '{"name" => "BLACKCOFFEE"}'
-- '{"name" => "Blackshades"}'
-- '{"name" => "BlackNix"}'
-- '{"name" => "Minimo"}'
-- '{"name" => "BlackHole"}'
+- BlackEnergy
+- Unknown Logger
+- BLACKCOFFEE
+- Blackshades
+- BlackNix
+- Minimo
+- BlackHole
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -12,11 +12,11 @@ description: Vice Society is a ransomware group that has been active since at le
   a potential connection or rebranding.
 url: "/vanilla-tempest"
 malware:
-- '{"name" => "PowerDuke"}'
-- '{"name" => "POWERSTATS"}'
-- '{"name" => "Power Loader"}'
-- '{"name" => "POWERSOURCE"}'
-- '{"name" => "PowerRAT"}'
+- PowerDuke
+- POWERSTATS
+- Power Loader
+- POWERSOURCE
+- PowerRAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

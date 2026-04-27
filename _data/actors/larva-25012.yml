@@ -11,7 +11,7 @@ description: Larva‑25012 is a threat actor known for deploying Proxyware, util
   DigitalPulse, Honeygain, and Infatica.
 url: "/larva-25012"
 malware:
-- '{"name" => "Windows Remote Desktop"}'
+- Windows Remote Desktop
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

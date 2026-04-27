@@ -12,12 +12,12 @@ description: UNC2465 is a threat actor known for deploying the SMOKEDHAM .NET ba
   data.
 url: "/unc2465"
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "Smoke Loader"}'
-- '{"name" => "Trojan.Karagany"}'
-- '{"name" => "Trojan.Mebromi"}'
-- '{"name" => "Ultra VNC"}'
-- '{"name" => "Cobalt Strike"}'
+- Backdoor.Oldrea
+- Smoke Loader
+- Trojan.Karagany
+- Trojan.Mebromi
+- Ultra VNC
+- Cobalt Strike
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

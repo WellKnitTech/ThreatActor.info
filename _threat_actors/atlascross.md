@@ -22,10 +22,10 @@ NSFOCUS Security Labs recently discovered a new attack process based on phishing
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Trojan.Karagany"}**
-- **{"name" => "Trojan.Mebromi"}**
-- **{"name" => "Deeper RAT"}**
-- **{"name" => "CrossRat"}**
+- **Trojan.Karagany**
+- **Trojan.Mebromi**
+- **Deeper RAT**
+- **CrossRat**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

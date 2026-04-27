@@ -26,8 +26,8 @@ GOLD BURLAP is a group of financially motivated criminals responsible for the de
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Archelaus Beta"}**
-- **{"name" => "CrossRat"}**
+- **Archelaus Beta**
+- **CrossRat**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

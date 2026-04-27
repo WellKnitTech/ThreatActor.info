@@ -22,10 +22,10 @@ Handala is a pro-Palestinian hacktivist group that targets Israeli organizations
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "AutoIt backdoor"}**
-- **{"name" => "Wiper"}**
-- **{"name" => "Windows Remote Desktop"}**
-- **{"name" => "Xploit"}**
+- **AutoIt backdoor**
+- **Wiper**
+- **Windows Remote Desktop**
+- **Xploit**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -22,8 +22,8 @@ Adversaries abusing ICS (based on Dragos Inc adversary list). ALLANITE accesses 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Windows Remote Desktop"}**
-- **{"name" => "UNITEDRAKE"}**
+- **Windows Remote Desktop**
+- **UNITEDRAKE**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

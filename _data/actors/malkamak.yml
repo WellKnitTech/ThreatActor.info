@@ -10,16 +10,16 @@ description: MalKamak is an Iranian threat actor that has been operating since a
 url: "/malkamak"
 country: Iran
 malware:
-- '{"name" => "SPACESHIP"}'
-- '{"name" => "CloudDuke"}'
-- '{"name" => "Trojan.Karagany"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Trojan.Mebromi"}'
-- '{"name" => "ClientMesh"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Virus RAT"}'
-- '{"name" => "Remote Utilities"}'
+- SPACESHIP
+- CloudDuke
+- Trojan.Karagany
+- RemoteCMD
+- Trojan.Mebromi
+- ClientMesh
+- CyberGate
+- Cyber Eye RAT
+- Virus RAT
+- Remote Utilities
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

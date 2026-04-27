@@ -11,9 +11,9 @@ description: Storm-1152, a cybercriminal group, was recently taken down by Micro
 url: "/storm-1152"
 country: Vietnam
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Revenge-RAT"}'
+- CyberGate
+- Cyber Eye RAT
+- Revenge-RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -22,16 +22,16 @@ description: 'Storm-0506 (DEV-0506) is a financially motivated cybercriminal gro
   Storm-0506 represents within the ransomware landscape.'
 url: "/storm-0506"
 malware:
-- '{"name" => "BlackEnergy"}'
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "PoisonIvy"}'
-- '{"name" => "CORESHELL"}'
-- '{"name" => "BLACKCOFFEE"}'
-- '{"name" => "Blackshades"}'
-- '{"name" => "BlackNix"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Xploit"}'
+- BlackEnergy
+- Backdoor.Oldrea
+- PoisonIvy
+- CORESHELL
+- BLACKCOFFEE
+- Blackshades
+- BlackNix
+- CyberGate
+- Cyber Eye RAT
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

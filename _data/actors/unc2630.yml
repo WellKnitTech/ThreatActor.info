@@ -11,8 +11,8 @@ description: UNC2630 is a threat actor believed to be affiliated with the Chines
 url: "/unc2630"
 country: China
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

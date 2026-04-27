@@ -13,10 +13,10 @@ description: TA829 is a Russia-aligned threat actor that employs the RomCom RAT 
 url: "/ta829"
 country: Russia
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Windows Remote Desktop"}'
-- '{"name" => "Xploit"}'
+- CyberGate
+- Cyber Eye RAT
+- Windows Remote Desktop
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -22,11 +22,11 @@ LilacSquid is an APT actor targeting a variety of industries worldwide since at 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Agent.btz"}**
-- **{"name" => "Quasar RAT"}**
-- **{"name" => "Xploit"}**
-- **{"name" => "Socket23"}**
-- **{"name" => "SocketPlayer"}**
+- **Agent.btz**
+- **Quasar RAT**
+- **Xploit**
+- **Socket23**
+- **SocketPlayer**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

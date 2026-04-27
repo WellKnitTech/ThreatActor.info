@@ -22,8 +22,8 @@ A criminal group dubbed Cobalt is behind synchronized ATM heists that saw machin
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Cobalt Strike"}**
-- **{"name" => "CrossRat"}**
+- **Cobalt Strike**
+- **CrossRat**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

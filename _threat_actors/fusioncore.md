@@ -22,7 +22,7 @@ The CYFIRMA research team has identified a new up-and-coming European threat act
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Minimo"}**
+- **Minimo**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

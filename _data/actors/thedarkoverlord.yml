@@ -7,7 +7,7 @@ description: The Dark Overlord is a financially motivated ransomware group that 
   Netflix, ABC, and Miramax.
 url: "/thedarkoverlord"
 malware:
-- '{"name" => "Dark DDoSeR"}'
+- Dark DDoSeR
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

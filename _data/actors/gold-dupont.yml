@@ -13,16 +13,16 @@ description: GOLD DUPONT is a financially motivated cybercriminal threat group t
   SWATHMORE's IcedID (Bokbot) malware as an IAV in some intrusions.
 url: "/gold-dupont"
 malware:
-- '{"name" => "BlackEnergy"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "BLACKCOFFEE"}'
-- '{"name" => "Blackshades"}'
-- '{"name" => "BlackNix"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "DesktopNow"}'
+- BlackEnergy
+- RemoteCMD
+- BLACKCOFFEE
+- Blackshades
+- BlackNix
+- CyberGate
+- Cyber Eye RAT
+- Remote Utilities
+- RemotePC
+- DesktopNow
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

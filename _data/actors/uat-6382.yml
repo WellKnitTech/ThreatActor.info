@@ -13,9 +13,9 @@ description: UAT-6382 is a Chinese-speaking threat actor that exploits CVE-2025-
 url: "/uat-6382"
 country: China
 malware:
-- '{"name" => "China Chopper"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Cobalt Strike"}'
+- China Chopper
+- Xploit
+- Cobalt Strike
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

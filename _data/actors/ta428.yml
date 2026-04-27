@@ -24,9 +24,9 @@ description: Proofpoint researchers have identified a targeted APT campaign that
 url: "/ta428"
 country: China
 malware:
-- '{"name" => "PoisonIvy"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Archelaus Beta"}'
+- PoisonIvy
+- Xploit
+- Archelaus Beta
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

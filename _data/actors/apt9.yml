@@ -26,12 +26,12 @@ sector_focus:
 targeted_victims:
 - United States
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
+- Backdoor.Oldrea
+- RemoteCMD
+- CyberGate
+- Cyber Eye RAT
+- Remote Utilities
+- RemotePC
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

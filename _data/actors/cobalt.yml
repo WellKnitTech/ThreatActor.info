@@ -14,8 +14,8 @@ description: A criminal group dubbed Cobalt is behind synchronized ATM heists th
   June 2016, and their latest attacks happened in July and August.
 url: "/cobalt"
 malware:
-- '{"name" => "Cobalt Strike"}'
-- '{"name" => "CrossRat"}'
+- Cobalt Strike
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

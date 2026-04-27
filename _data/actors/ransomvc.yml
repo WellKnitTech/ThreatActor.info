@@ -10,7 +10,7 @@ description: Ransomed.VC burst onto the scene with a well-orchestrated PR campai
   repercussions in case of data leaks.
 url: "/ransomvc"
 malware:
-- '{"name" => "Xploit"}'
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

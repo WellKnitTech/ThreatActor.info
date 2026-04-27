@@ -10,8 +10,8 @@ description: Teleboyi is a threat actor reportedly based in China, associated wi
 url: "/teleboyi"
 country: China
 malware:
-- '{"name" => "PlugX"}'
-- '{"name" => "China Chopper"}'
+- PlugX
+- China Chopper
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

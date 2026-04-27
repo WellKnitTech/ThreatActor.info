@@ -22,8 +22,8 @@ Cisco Talos recently discovered a new campaign targeting Lebanon and the United 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "HTTP WEB BACKDOOR"}**
-- **{"name" => "UNITEDRAKE"}**
+- **HTTP WEB BACKDOOR**
+- **UNITEDRAKE**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

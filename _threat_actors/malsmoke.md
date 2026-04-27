@@ -22,9 +22,9 @@ Malsmoke primarily targets Japanese users through malvertising campaigns that de
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Smoke Loader"}**
-- **{"name" => "Xploit"}**
-- **{"name" => "GraphicBooting"}**
+- **Smoke Loader**
+- **Xploit**
+- **GraphicBooting**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -22,7 +22,7 @@ TridentLocker is a ransomware group known for targeting organizations that manag
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Xploit"}**
+- **Xploit**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

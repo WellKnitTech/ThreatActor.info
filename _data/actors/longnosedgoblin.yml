@@ -13,16 +13,16 @@ description: LongNosedGoblin is a China-aligned APT group targeting governmental
 url: "/longnosedgoblin"
 country: China
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "CloudDuke"}'
-- '{"name" => "PowerDuke"}'
-- '{"name" => "POWERSTATS"}'
-- '{"name" => "Power Loader"}'
-- '{"name" => "POWERSOURCE"}'
-- '{"name" => "China Chopper"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "PowerRAT"}'
+- Backdoor.Oldrea
+- CloudDuke
+- PowerDuke
+- POWERSTATS
+- Power Loader
+- POWERSOURCE
+- China Chopper
+- CyberGate
+- Cyber Eye RAT
+- PowerRAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

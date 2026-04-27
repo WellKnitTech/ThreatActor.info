@@ -1,18 +1,30 @@
-name: "Poseidon Group"
-aliases: ["G0033","Poseidon Group"]
-description: "Poseidon Group is a Portuguese-speaking threat group that has been active since at least 2005. The group has a history of using information exfiltrated from victims to blackmail victim companies into contracting the Poseidon Group as a security firm. (Citation: Kaspersky Poseidon Group)"
+---
+name: Poseidon Group
+aliases:
+- G0033
+- Poseidon Group
+description: 'Poseidon Group is a Portuguese-speaking threat group that has been active
+  since at least 2005. The group has a history of using information exfiltrated from
+  victims to blackmail victim companies into contracting the Poseidon Group as a security
+  firm. (Citation: Kaspersky Poseidon Group)'
 url: "/apt0033"
-country: "Brazil"
-risk_level: "High"
-external_id: "G0033"
-external_url: "https://attack.mitre.org/groups/G0033"
-mitre_id: "G0033"
-mitre_url: "https://attack.mitre.org/groups/G0033"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-malware: ["{\"name\" => \"BlackEnergy\"}","{\"name\" => \"BLACKCOFFEE\"}","{\"name\" => \"Blackshades\"}","{\"name\" => \"BlackNix\"}","{\"name\" => \"BlackHole\"}"]
+country: Brazil
+risk_level: High
+external_id: G0033
+external_url: https://attack.mitre.org/groups/G0033
+mitre_id: G0033
+mitre_url: https://attack.mitre.org/groups/G0033
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+malware:
+- BlackEnergy
+- BLACKCOFFEE
+- Blackshades
+- BlackNix
+- BlackHole
 provenance:
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G0033"
-    source_retrieved_at: "2026-04-26T07:05:44Z"
-source: "MITRE ATT&CK"
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_record_id: G0033
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+source: MITRE ATT&CK

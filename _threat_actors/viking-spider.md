@@ -22,7 +22,7 @@ VIKING SPIDER is the criminal group behind the development and distribution of R
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Ragnatela"}**
+- **Ragnatela**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

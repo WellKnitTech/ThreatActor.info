@@ -14,10 +14,10 @@ description: PurpleHaze is a China-nexus threat actor tracked by SentinelLABS, l
 url: "/purplehaze"
 country: China
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "China Chopper"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- Backdoor.Oldrea
+- China Chopper
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

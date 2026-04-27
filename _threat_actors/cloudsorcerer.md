@@ -22,8 +22,8 @@ CloudSorcerer is a sophisticated APT targeting Russian government entities, util
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CloudDuke"}**
-- **{"name" => "Windows Remote Desktop"}**
+- **CloudDuke**
+- **Windows Remote Desktop**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

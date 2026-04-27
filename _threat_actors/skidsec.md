@@ -22,8 +22,8 @@ SkidSec is a threat group that has engaged in operations targeting exposed print
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "MobileOrder"}**
-- **{"name" => "Xploit"}**
+- **MobileOrder**
+- **Xploit**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

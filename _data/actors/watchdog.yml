@@ -11,7 +11,7 @@ description: Thief Libra is a cloud-focused threat group that has a history of c
   cloud instances and applications.
 url: "/watchdog"
 malware:
-- '{"name" => "CloudDuke"}'
+- CloudDuke
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

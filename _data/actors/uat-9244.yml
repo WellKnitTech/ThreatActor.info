@@ -15,13 +15,13 @@ description: 'UAT-9244 is a China-nexus APT actor, disclosed by Cisco Talos on M
 url: "/uat-9244"
 country: China
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "China Chopper"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "Windows Remote Desktop"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "CrossRat"}'
+- Backdoor.Oldrea
+- China Chopper
+- RemoteCMD
+- Remote Utilities
+- Windows Remote Desktop
+- RemotePC
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

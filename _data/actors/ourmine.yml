@@ -9,9 +9,9 @@ description: |-
   This is not the first time that OurMine has claimed responsibility for hacking high- profile social networking accounts. Last year, the group victimized Marvel, The New York Times, and even the heads of some of the biggest technology companies in the world. Mark Zuckerberg, Jack Dorsey, Sundar Pichai, and Daniel Ek — the CEOs of Facebook, Twitter, Google and Spotify, respectively — have also fallen victim to the hackers, dispelling the notion that a career in software and technology exempts one from being compromised.
 url: "/ourmine"
 malware:
-- '{"name" => "Hacking Team UEFI Rootkit"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- Hacking Team UEFI Rootkit
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

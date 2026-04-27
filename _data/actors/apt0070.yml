@@ -1,17 +1,25 @@
-name: "Dark Caracal"
-aliases: ["Dark Caracal","G0070"]
-description: "Dark Caracal is threat group that has been attributed to the Lebanese General Directorate of General Security (GDGS) and has operated since at least 2012. (Citation: Lookout Dark Caracal Jan 2018)"
+---
+name: Dark Caracal
+aliases:
+- Dark Caracal
+- G0070
+description: 'Dark Caracal is threat group that has been attributed to the Lebanese
+  General Directorate of General Security (GDGS) and has operated since at least 2012.
+  (Citation: Lookout Dark Caracal Jan 2018)'
 url: "/apt0070"
-risk_level: "High"
-external_id: "G0070"
-external_url: "https://attack.mitre.org/groups/G0070"
-mitre_id: "G0070"
-mitre_url: "https://attack.mitre.org/groups/G0070"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-malware: ["{\"name\" => \"Dark DDoSeR\"}","{\"name\" => \"CrossRat\"}"]
+risk_level: High
+external_id: G0070
+external_url: https://attack.mitre.org/groups/G0070
+mitre_id: G0070
+mitre_url: https://attack.mitre.org/groups/G0070
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+malware:
+- Dark DDoSeR
+- CrossRat
 provenance:
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G0070"
-    source_retrieved_at: "2026-04-26T07:05:44Z"
-source: "MITRE ATT&CK"
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_record_id: G0070
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+source: MITRE ATT&CK

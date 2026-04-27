@@ -32,9 +32,9 @@ This threat actor targets critical infrastructure entities in the oil and gas se
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "RemoteCMD"}**
-- **{"name" => "Remote Utilities"}**
-- **{"name" => "RemotePC"}**
+- **RemoteCMD**
+- **Remote Utilities**
+- **RemotePC**
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

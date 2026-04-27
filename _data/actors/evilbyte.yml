@@ -9,8 +9,8 @@ description: "EvilByte is a hacktivist group that has conducted several high-pro
   data of government employees and intelligence agencies 4.\n\n"
 url: "/evilbyte"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

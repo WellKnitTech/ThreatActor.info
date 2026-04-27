@@ -11,12 +11,12 @@ description: Caliente Bandits is a highly active threat group that targets multi
   or Gmail email addresses.
 url: "/caliente-bandits"
 malware:
-- '{"name" => "Trojan.Karagany"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Trojan.Mebromi"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "Bandook RAT"}'
+- Trojan.Karagany
+- RemoteCMD
+- Trojan.Mebromi
+- Remote Utilities
+- RemotePC
+- Bandook RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -12,12 +12,12 @@ description: UAC-0063 is a threat actor linked to Russian APT28, known for targe
   servers.
 url: "/uac-0063"
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "Cherry Picker"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "HTTP WEB BACKDOOR"}'
-- '{"name" => "Xploit"}'
+- Backdoor.Oldrea
+- Cherry Picker
+- CyberGate
+- Cyber Eye RAT
+- HTTP WEB BACKDOOR
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

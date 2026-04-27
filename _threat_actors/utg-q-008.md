@@ -22,9 +22,9 @@ UTG-Q-008 is a threat actor targeting Linux platforms, primarily focusing on gov
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Trojan.Karagany"}**
-- **{"name" => "China Chopper"}**
-- **{"name" => "Trojan.Mebromi"}**
+- **Trojan.Karagany**
+- **China Chopper**
+- **Trojan.Mebromi**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

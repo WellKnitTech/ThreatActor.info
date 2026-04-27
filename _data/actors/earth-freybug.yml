@@ -20,15 +20,15 @@ description: Earth Freybug, identified as a subset of APT41, is a cyberthreat gr
 url: "/earth-freybug"
 country: China
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Batch NET"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "Revenge-RAT"}'
-- '{"name" => "CrossRat"}'
+- Backdoor.Oldrea
+- RemoteCMD
+- CyberGate
+- Cyber Eye RAT
+- Batch NET
+- Remote Utilities
+- RemotePC
+- Revenge-RAT
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

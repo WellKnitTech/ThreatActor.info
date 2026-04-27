@@ -22,14 +22,14 @@ GOLD SYMPHONY is a financially motivated cybercrime group, likely based in Russi
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "BlackEnergy"}**
-- **{"name" => "BLACKCOFFEE"}**
-- **{"name" => "Blackshades"}**
-- **{"name" => "BlackNix"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "BlackHole"}**
-- **{"name" => "Cobalt Strike"}**
+- **BlackEnergy**
+- **BLACKCOFFEE**
+- **Blackshades**
+- **BlackNix**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **BlackHole**
+- **Cobalt Strike**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

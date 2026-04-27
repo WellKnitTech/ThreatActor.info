@@ -13,9 +13,9 @@ description: Cyber Islamic Resistance is a hacktivist collective ideologically a
 url: "/cyber-islamic-resistance"
 country: Iran
 malware:
-- '{"name" => "MobileOrder"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- MobileOrder
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

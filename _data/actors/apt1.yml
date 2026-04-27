@@ -1,22 +1,57 @@
-name: "APT1"
-aliases: ["APT1","Brown Fox","Byzantine Candor","Comment Crew","Comment Group","Comment Panda","COMMENT PANDA","G0006","GIF89a","Group 3","PLA Unit 61398","ShadyRAT","TG-8223"]
-description: "APT1 is a Chinese cyber espionage group that has been conducting cyber espionage against a broad range of victims."
+---
+name: APT1
+aliases:
+- APT1
+- Brown Fox
+- Byzantine Candor
+- Comment Crew
+- Comment Group
+- Comment Panda
+- COMMENT PANDA
+- G0006
+- GIF89a
+- Group 3
+- PLA Unit 61398
+- ShadyRAT
+- TG-8223
+description: APT1 is a Chinese cyber espionage group that has been conducting cyber
+  espionage against a broad range of victims.
 url: "/apt1"
-country: "China"
-sector_focus: ["Government","Defense","Technology"]
-targeted_victims: ["United States","Taiwan","Israel","Norway","United Arab Emirates","United Kingdom","Singapore","India","Belgium","South Africa","Switzerland","Canada","France","Luxembourg","Japan"]
-incident_type: "Espionage"
-first_seen: "2006"
-last_activity: "2023"
-risk_level: "High"
-external_id: "G0006"
-external_url: "https://attack.mitre.org/groups/G0006"
-mitre_id: "G0006"
-mitre_url: "https://attack.mitre.org/groups/G0006"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-malware: ["{\"name\" => \"Hacking Team UEFI Rootkit\"}"]
+country: China
+sector_focus:
+- Government
+- Defense
+- Technology
+targeted_victims:
+- United States
+- Taiwan
+- Israel
+- Norway
+- United Arab Emirates
+- United Kingdom
+- Singapore
+- India
+- Belgium
+- South Africa
+- Switzerland
+- Canada
+- France
+- Luxembourg
+- Japan
+incident_type: Espionage
+first_seen: '2006'
+last_activity: '2023'
+risk_level: High
+external_id: G0006
+external_url: https://attack.mitre.org/groups/G0006
+mitre_id: G0006
+mitre_url: https://attack.mitre.org/groups/G0006
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+malware:
+- Hacking Team UEFI Rootkit
 provenance:
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G0006"
-    source_retrieved_at: "2026-04-26T07:05:44Z"
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_record_id: G0006
+    source_retrieved_at: '2026-04-26T07:05:44Z'

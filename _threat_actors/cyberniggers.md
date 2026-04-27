@@ -22,8 +22,8 @@ CyberNiggers is a threat group known for breaching various organizations, includ
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
+- **CyberGate**
+- **Cyber Eye RAT**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -26,10 +26,10 @@ Prodaft researchers have published a report on Paperbug, a cyber-espionage campa
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "MobileOrder"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Archelaus Beta"}**
+- **MobileOrder**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **Archelaus Beta**
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

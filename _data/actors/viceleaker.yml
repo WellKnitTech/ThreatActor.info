@@ -7,12 +7,12 @@ description: |-
   During the course of our research, we noticed that we were not the only ones to have found the operation. Researchers from Bitdefender also released an analysis of one of the samples in a blogpost. Although something had already been published, we decided to do something different with the data we acquired. The following month, we released a private report on our Threat Intelligence Portal to alert our clients about this newly discovered operation and began writing YARA rules in order to catch more samples. We decided to call the operation “ViceLeaker”, because of strings and variables in its code.
 url: "/viceleaker"
 malware:
-- '{"name" => "MobileOrder"}'
-- '{"name" => "ClientMesh"}'
-- '{"name" => "DroidJack"}'
-- '{"name" => "Androrat"}'
-- '{"name" => "Archelaus Beta"}'
-- '{"name" => "Client Maximus"}'
+- MobileOrder
+- ClientMesh
+- DroidJack
+- Androrat
+- Archelaus Beta
+- Client Maximus
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

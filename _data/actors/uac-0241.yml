@@ -13,13 +13,13 @@ description: UAC-0241 is a threat actor tracked by CERT-UA, active from May to N
   lateral movement.
 url: "/uac-0241"
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "PowerDuke"}'
-- '{"name" => "POWERSTATS"}'
-- '{"name" => "Power Loader"}'
-- '{"name" => "POWERSOURCE"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "PowerRAT"}'
+- Backdoor.Oldrea
+- PowerDuke
+- POWERSTATS
+- Power Loader
+- POWERSOURCE
+- Xploit
+- PowerRAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -1,18 +1,42 @@
-name: "APT5"
-aliases: ["APT5","BRONZE FLEETWOOD","Keyhole Panda","MANGANESE","Mulberry Typhoon","UNC2630","KEYHOLE PANDA","TEMP.Bottle","Poisoned Flight"]
-description: "APT5 is a China-based espionage actor that has been active since at least 2007 primarily targeting the telecommunications, aerospace, and defense industries throughout the U.S., Europe, and Asia. APT5 has displayed advanced tradecraft and significant interest in compromising networking devices and their underlying software including through the use of zero-day exploits.(Citation: NSA APT5 Citrix Threat Hunting December 2022)(Citation: Microsoft East Asia Threats September 2023)(Citation: Mandiant Pulse Secure Zero-Day April 2021)(Citation: Mandiant Pulse Secure Update May 2021)(Citation: FireEye Southeast Asia Threat Landscape March 2015)(Citation: Mandiant Advanced Persistent Threats)  "
+---
+name: APT5
+aliases:
+- APT5
+- BRONZE FLEETWOOD
+- Keyhole Panda
+- MANGANESE
+- Mulberry Typhoon
+- UNC2630
+- KEYHOLE PANDA
+- TEMP.Bottle
+- Poisoned Flight
+description: 'APT5 is a China-based espionage actor that has been active since at
+  least 2007 primarily targeting the telecommunications, aerospace, and defense industries
+  throughout the U.S., Europe, and Asia. APT5 has displayed advanced tradecraft and
+  significant interest in compromising networking devices and their underlying software
+  including through the use of zero-day exploits.(Citation: NSA APT5 Citrix Threat
+  Hunting December 2022)(Citation: Microsoft East Asia Threats September 2023)(Citation:
+  Mandiant Pulse Secure Zero-Day April 2021)(Citation: Mandiant Pulse Secure Update
+  May 2021)(Citation: FireEye Southeast Asia Threat Landscape March 2015)(Citation:
+  Mandiant Advanced Persistent Threats)  '
 url: "/apt1023"
-country: "China"
-sector_focus: ["Electronic","Telecoms","Technology"]
-external_id: "G1023"
-external_url: "https://attack.mitre.org/groups/G1023"
-mitre_id: "G1023"
-mitre_url: "https://attack.mitre.org/groups/G1023"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-malware: ["{\"name\" => \"SHIPSHAPE\"}","{\"name\" => \"CrossRat\"}"]
+country: China
+sector_focus:
+- Electronic
+- Telecoms
+- Technology
+external_id: G1023
+external_url: https://attack.mitre.org/groups/G1023
+mitre_id: G1023
+mitre_url: https://attack.mitre.org/groups/G1023
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+malware:
+- SHIPSHAPE
+- CrossRat
 provenance:
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G1023"
-    source_retrieved_at: "2026-04-26T05:24:31Z"
-source: "MITRE ATT&CK"
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_record_id: G1023
+    source_retrieved_at: '2026-04-26T05:24:31Z'
+source: MITRE ATT&CK

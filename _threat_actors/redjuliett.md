@@ -26,9 +26,9 @@ RedJuliett is a likely Chinese state-sponsored threat actor targeting government
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "China Chopper"}**
-- **{"name" => "UNITEDRAKE"}**
-- **{"name" => "Xploit"}**
+- **China Chopper**
+- **UNITEDRAKE**
+- **Xploit**
 
 ## Attribution and Evidence
 **Country of Origin**: China

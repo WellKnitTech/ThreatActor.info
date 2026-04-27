@@ -14,7 +14,7 @@ description: CL-STA-0048 is a Chinese state-backed APT that targets strategic se
 url: "/cl-sta-0048"
 country: China
 malware:
-- '{"name" => "Xploit"}'
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

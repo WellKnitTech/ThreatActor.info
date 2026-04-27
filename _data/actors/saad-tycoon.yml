@@ -9,7 +9,7 @@ description: Saad Tycoon is the operator and alleged developer of the Tycoon 2FA
   protection.
 url: "/saad-tycoon"
 malware:
-- '{"name" => "CloudDuke"}'
+- CloudDuke
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -30,16 +30,16 @@ BRONZE VAPOR is a targeted threat group assessed with moderate confidence to be 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CloudDuke"}**
-- **{"name" => "RemoteCMD"}**
-- **{"name" => "Back Orifice"}**
-- **{"name" => "Back Orifice 2000"}**
-- **{"name" => "ClientMesh"}**
-- **{"name" => "Remote Utilities"}**
-- **{"name" => "RemotePC"}**
-- **{"name" => "SharpEye"}**
-- **{"name" => "Archelaus Beta"}**
-- **{"name" => "SharpBot"}**
+- **CloudDuke**
+- **RemoteCMD**
+- **Back Orifice**
+- **Back Orifice 2000**
+- **ClientMesh**
+- **Remote Utilities**
+- **RemotePC**
+- **SharpEye**
+- **Archelaus Beta**
+- **SharpBot**
 
 ## Attribution and Evidence
 **Country of Origin**: China

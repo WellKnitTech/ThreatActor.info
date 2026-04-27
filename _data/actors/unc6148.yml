@@ -13,9 +13,9 @@ description: UNC6148 is a financially motivated threat actor that targets SonicW
   allowing continued access even after security patches are applied.
 url: "/unc6148"
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "MobileOrder"}'
-- '{"name" => "Xploit"}'
+- Backdoor.Oldrea
+- MobileOrder
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

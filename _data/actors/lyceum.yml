@@ -32,10 +32,10 @@ targeted_victims:
 incident_type: Espionage
 risk_level: High
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "SharK"}'
-- '{"name" => "Milan"}'
+- CyberGate
+- Cyber Eye RAT
+- SharK
+- Milan
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

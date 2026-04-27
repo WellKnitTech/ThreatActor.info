@@ -13,9 +13,9 @@ description: Scripted Sparrow is a prolific Business Email Compromise (BEC) coll
   across 42 financial institutions for cash-out operations.
 url: "/scripted-sparrow"
 malware:
-- '{"name" => "Small-Net"}'
-- '{"name" => "Batch NET"}'
-- '{"name" => "CrossRat"}'
+- Small-Net
+- Batch NET
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

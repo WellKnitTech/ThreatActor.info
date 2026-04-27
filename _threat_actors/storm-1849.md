@@ -22,7 +22,7 @@ UAT4356 is a state-sponsored threat actor that targeted government networks glob
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Xploit"}**
+- **Xploit**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

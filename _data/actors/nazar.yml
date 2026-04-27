@@ -14,11 +14,11 @@ description: 'This actor was identified by Juan Andres Guerrero-Saade from the S
   as traffic capture using the MicroOlap Packet Sniffer library.'
 url: "/nazar"
 malware:
-- '{"name" => "SOUNDBITE"}'
-- '{"name" => "Back Orifice"}'
-- '{"name" => "Back Orifice 2000"}'
-- '{"name" => "Lost Door"}'
-- '{"name" => "Windows Remote Desktop"}'
+- SOUNDBITE
+- Back Orifice
+- Back Orifice 2000
+- Lost Door
+- Windows Remote Desktop
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

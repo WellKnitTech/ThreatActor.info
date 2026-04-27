@@ -1,21 +1,77 @@
-name: "APT41"
-aliases: ["Amoeba","APT41","Barium","BARIUM","Blackfly","Brass Typhoon","BRONZE ATLAS","BRONZE EXPORT","Double Dragon","Earth Baku","G0044","G0096","Grayfly","HOODOO","LEAD","Leopard Typhoon","Red Kelpie","TA415","TG-2633","Wicked Panda","WICKED PANDA","WICKED SPIDER","Winnti","Winnti Group"]
-description: "APT41 is a threat group that researchers have assessed as Chinese state-sponsored espionage group that also conducts financially-motivated operations. Active since at least 2012, APT41 has been observed targeting various industries, including but not limited to healthcare, telecom, technology, finance, education, retail and video game industries in 14 countries.(Citation: apt41_mandiant) Notable behaviors include using a wide range of malware and tools to complete mission objectives. APT41 overlaps at least partially with public reporting on groups including BARIUM and Winnti Group.(Citation: FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021)\n"
+---
+name: APT41
+aliases:
+- Amoeba
+- APT41
+- Barium
+- BARIUM
+- Blackfly
+- Brass Typhoon
+- BRONZE ATLAS
+- BRONZE EXPORT
+- Double Dragon
+- Earth Baku
+- G0044
+- G0096
+- Grayfly
+- HOODOO
+- LEAD
+- Leopard Typhoon
+- Red Kelpie
+- TA415
+- TG-2633
+- Wicked Panda
+- WICKED PANDA
+- WICKED SPIDER
+- Winnti
+- Winnti Group
+description: 'APT41 is a threat group that researchers have assessed as Chinese state-sponsored
+  espionage group that also conducts financially-motivated operations. Active since
+  at least 2012, APT41 has been observed targeting various industries, including but
+  not limited to healthcare, telecom, technology, finance, education, retail and video
+  game industries in 14 countries.(Citation: apt41_mandiant) Notable behaviors include
+  using a wide range of malware and tools to complete mission objectives. APT41 overlaps
+  at least partially with public reporting on groups including BARIUM and Winnti Group.(Citation:
+  FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021)
+
+  '
 url: "/apt41"
-country: "China"
-sector_focus: ["Gaming","Technology","Healthcare"]
-targeted_victims: ["China","France","Hong Kong","India","Italy","Japan","Myanmar","Netherlands","Singapore","South Korea","South Africa","Switzerland","Thailand","Turkey","United Kingdom","United States"]
-first_seen: "2012"
-last_activity: "2024"
-risk_level: "High"
-external_id: "G0096"
-external_url: "https://attack.mitre.org/groups/G0096"
-mitre_id: "G0096"
-mitre_url: "https://attack.mitre.org/groups/G0096"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
+country: China
+sector_focus:
+- Gaming
+- Technology
+- Healthcare
+targeted_victims:
+- China
+- France
+- Hong Kong
+- India
+- Italy
+- Japan
+- Myanmar
+- Netherlands
+- Singapore
+- South Korea
+- South Africa
+- Switzerland
+- Thailand
+- Turkey
+- United Kingdom
+- United States
+first_seen: '2012'
+last_activity: '2024'
+risk_level: High
+external_id: G0096
+external_url: https://attack.mitre.org/groups/G0096
+mitre_id: G0096
+mitre_url: https://attack.mitre.org/groups/G0096
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+malware:
+- CyberGate
+- Cyber Eye RAT
 provenance:
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G0044"
-    source_retrieved_at: "2026-04-26T07:05:44Z"
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_record_id: G0044
+    source_retrieved_at: '2026-04-26T07:05:44Z'

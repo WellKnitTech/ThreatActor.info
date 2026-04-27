@@ -22,11 +22,11 @@ VENOM SPIDER is the developer of a large toolset that includes SKID, VenomKit an
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "PinchDuke"}**
-- **{"name" => "Venomous Ivy"}**
-- **{"name" => "Xploit"}**
-- **{"name" => "Cobalt Strike"}**
-- **{"name" => "Cardinal"}**
+- **PinchDuke**
+- **Venomous Ivy**
+- **Xploit**
+- **Cobalt Strike**
+- **Cardinal**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -29,9 +29,9 @@ description: FIN11 is a well-established financial crime group that has recently
   and sophistication of their operations.
 url: "/fin11"
 malware:
-- '{"name" => "Net Devil"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Archelaus Beta"}'
+- Net Devil
+- Xploit
+- Archelaus Beta
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

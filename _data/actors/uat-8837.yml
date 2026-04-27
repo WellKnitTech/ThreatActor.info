@@ -13,12 +13,12 @@ description: UAT-8837 is a sophisticated China-linked APT group exploiting criti
 url: "/uat-8837"
 country: China
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "China Chopper"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "Xploit"}'
+- Backdoor.Oldrea
+- China Chopper
+- RemoteCMD
+- Remote Utilities
+- RemotePC
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

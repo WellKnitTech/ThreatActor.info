@@ -12,12 +12,12 @@ description: With its emergence in 2022, Water Curupira has established itself a
   loader malware with similarities to Qakbot, in spam campaigns throughout 2023.
 url: "/water-curupira"
 malware:
-- '{"name" => "BlackEnergy"}'
-- '{"name" => "BLACKCOFFEE"}'
-- '{"name" => "Blackshades"}'
-- '{"name" => "BlackNix"}'
-- '{"name" => "BlackHole"}'
-- '{"name" => "Cobalt Strike"}'
+- BlackEnergy
+- BLACKCOFFEE
+- Blackshades
+- BlackNix
+- BlackHole
+- Cobalt Strike
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

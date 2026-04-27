@@ -13,13 +13,13 @@ description: Storm-1084 is a threat actor that has been observed collaborating w
 url: "/storm-1084"
 country: Iran
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "CloudDuke"}'
-- '{"name" => "PowerDuke"}'
-- '{"name" => "POWERSTATS"}'
-- '{"name" => "Power Loader"}'
-- '{"name" => "POWERSOURCE"}'
-- '{"name" => "PowerRAT"}'
+- Backdoor.Oldrea
+- CloudDuke
+- PowerDuke
+- POWERSTATS
+- Power Loader
+- POWERSOURCE
+- PowerRAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

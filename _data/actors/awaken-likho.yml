@@ -12,9 +12,9 @@ description: Awaken Likho is an APT group that has targeted Russian government a
   a new version that is still in development, suggesting ongoing operational capabilities.
 url: "/awaken-likho"
 malware:
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
+- RemoteCMD
+- Remote Utilities
+- RemotePC
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

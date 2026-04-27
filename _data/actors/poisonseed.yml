@@ -12,11 +12,11 @@ description: PoisonSeed is a threat actor employing an MFA-resistant phishing ki
   with a focus on phishing CRM and bulk email provider credentials.
 url: "/poisonseed"
 malware:
-- '{"name" => "CloudDuke"}'
-- '{"name" => "PoisonIvy"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Seed RAT"}'
-- '{"name" => "CrossRat"}'
+- CloudDuke
+- PoisonIvy
+- Xploit
+- Seed RAT
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

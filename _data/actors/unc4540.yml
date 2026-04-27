@@ -13,14 +13,14 @@ description: UNC4540 is a suspected Chinese threat actor targeting unpatched Son
 url: "/unc4540"
 country: China
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "MobileOrder"}'
-- '{"name" => "Back Orifice"}'
-- '{"name" => "Back Orifice 2000"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "TINY"}'
-- '{"name" => "Xploit"}'
+- Backdoor.Oldrea
+- MobileOrder
+- Back Orifice
+- Back Orifice 2000
+- CyberGate
+- Cyber Eye RAT
+- TINY
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

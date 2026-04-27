@@ -26,7 +26,7 @@ GoldenJackal activity is characterized by the use of compromised WordPress websi
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "GOlden Phoenix"}**
+- **GOlden Phoenix**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

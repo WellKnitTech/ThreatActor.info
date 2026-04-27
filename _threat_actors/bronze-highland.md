@@ -28,16 +28,16 @@ BRONZE HIGHLAND has been observed using spearphishing as an initial infection ve
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Trojan.Karagany"}**
-- **{"name" => "China Chopper"}**
-- **{"name" => "RemoteCMD"}**
-- **{"name" => "Trojan.Mebromi"}**
-- **{"name" => "DroidJack"}**
-- **{"name" => "Androrat"}**
-- **{"name" => "Remote Utilities"}**
-- **{"name" => "RemotePC"}**
-- **{"name" => "Archelaus Beta"}**
-- **{"name" => "Cobalt Strike"}**
+- **Trojan.Karagany**
+- **China Chopper**
+- **RemoteCMD**
+- **Trojan.Mebromi**
+- **DroidJack**
+- **Androrat**
+- **Remote Utilities**
+- **RemotePC**
+- **Archelaus Beta**
+- **Cobalt Strike**
 
 ## Attribution and Evidence
 **Country of Origin**: China

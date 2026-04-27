@@ -14,14 +14,14 @@ description: Unfading Sea Haze is a threat actor focused on espionage, targeting
 url: "/unfading-sea-haze"
 country: China
 malware:
-- '{"name" => "China Chopper"}'
-- '{"name" => "gh0st"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Gh0st RAT"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "SharpEye"}'
-- '{"name" => "SharpBot"}'
+- China Chopper
+- gh0st
+- RemoteCMD
+- Gh0st RAT
+- Remote Utilities
+- RemotePC
+- SharpEye
+- SharpBot
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

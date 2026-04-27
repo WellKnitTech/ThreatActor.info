@@ -22,9 +22,9 @@ ComicForm is an emerging cyber threat actor tracked since at least April 2025, s
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Virus RAT"}**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **Virus RAT**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

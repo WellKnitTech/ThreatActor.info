@@ -22,9 +22,9 @@ KromSec is a hacktivist group that claims to be composed of hackers, activists, 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Offence"}**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **Offence**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

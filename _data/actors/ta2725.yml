@@ -11,8 +11,8 @@ description: TA2725 is a threat actor that has been tracked since March 2022. Th
   to spoof legitimate companies, such as ÉSECÈ Group, to deceive their victims.
 url: "/ta2725"
 malware:
-- '{"name" => "CloudDuke"}'
-- '{"name" => "Pain RAT"}'
+- CloudDuke
+- Pain RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -11,8 +11,8 @@ description: The Larva-24010 threat actor is distributing malware through the we
   VPN is installed and steal sensitive information stored on those systems.
 url: "/larva-24010"
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "Agent.btz"}'
+- Backdoor.Oldrea
+- Agent.btz
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

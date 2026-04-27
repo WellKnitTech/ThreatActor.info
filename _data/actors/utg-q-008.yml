@@ -10,9 +10,9 @@ description: UTG-Q-008 is a threat actor targeting Linux platforms, primarily fo
   working hours in the UTC+8 time zone, with potential ties to Eastern Europe.
 url: "/utg-q-008"
 malware:
-- '{"name" => "Trojan.Karagany"}'
-- '{"name" => "China Chopper"}'
-- '{"name" => "Trojan.Mebromi"}'
+- Trojan.Karagany
+- China Chopper
+- Trojan.Mebromi
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

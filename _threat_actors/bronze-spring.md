@@ -30,13 +30,13 @@ BRONZE SPRING is a threat group that CTU researchers assess with high confidence
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "China Chopper"}**
-- **{"name" => "RemoteCMD"}**
-- **{"name" => "RTM"}**
-- **{"name" => "Remote Utilities"}**
-- **{"name" => "RemotePC"}**
-- **{"name" => "Xploit"}**
-- **{"name" => "Archelaus Beta"}**
+- **China Chopper**
+- **RemoteCMD**
+- **RTM**
+- **Remote Utilities**
+- **RemotePC**
+- **Xploit**
+- **Archelaus Beta**
 
 ## Attribution and Evidence
 **Country of Origin**: China

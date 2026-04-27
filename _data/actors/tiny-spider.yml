@@ -6,7 +6,7 @@ description: According to CrowdStrike, this actor is using TinyLoader and TinyPO
   potentially buying access through Dridex infections.
 url: "/tiny-spider"
 malware:
-- '{"name" => "TINY"}'
+- TINY
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

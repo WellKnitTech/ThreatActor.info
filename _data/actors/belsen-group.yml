@@ -13,9 +13,9 @@ description: The Belsen Group has exploited the CVE-2022-40684 vulnerability in 
   from any recent incidents.
 url: "/belsen-group"
 malware:
-- '{"name" => "Net Devil"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Archelaus Beta"}'
+- Net Devil
+- Xploit
+- Archelaus Beta
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

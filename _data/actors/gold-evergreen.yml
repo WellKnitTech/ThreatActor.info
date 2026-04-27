@@ -12,9 +12,9 @@ description: GOLD EVERGREEN was a financially motivated cybercriminal threat gro
   'slavik') who was indicted by the U.S. DOJ in 2014 and remains a fugitive.
 url: "/gold-evergreen"
 malware:
-- '{"name" => "P2P ZeuS"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- P2P ZeuS
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

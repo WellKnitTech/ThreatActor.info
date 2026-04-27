@@ -11,14 +11,14 @@ description: AeroBlade is a previously unknown threat actor that has been target
   of AeroBlade remain unknown.
 url: "/aeroblade"
 malware:
-- '{"name" => "SPACESHIP"}'
-- '{"name" => "Unknown Logger"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "UNITEDRAKE"}'
+- SPACESHIP
+- Unknown Logger
+- RemoteCMD
+- CyberGate
+- Cyber Eye RAT
+- Remote Utilities
+- RemotePC
+- UNITEDRAKE
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

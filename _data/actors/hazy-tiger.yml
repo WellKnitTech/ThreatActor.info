@@ -16,8 +16,8 @@ country: India
 targeted_victims:
 - Germany
 malware:
-- '{"name" => "DroidJack"}'
-- '{"name" => "Androrat"}'
+- DroidJack
+- Androrat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

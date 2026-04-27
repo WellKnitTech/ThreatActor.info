@@ -14,9 +14,9 @@ description: According to Crowdstrike, the NetWalker ransomware is being develop
 url: "/circus-spider"
 country: Russia
 malware:
-- '{"name" => "Back Orifice"}'
-- '{"name" => "Back Orifice 2000"}'
-- '{"name" => "Revenge-RAT"}'
+- Back Orifice
+- Back Orifice 2000
+- Revenge-RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

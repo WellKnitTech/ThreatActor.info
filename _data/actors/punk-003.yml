@@ -13,15 +13,15 @@ description: puNK-003 is a North Korean APT group known for deploying the Lilith
 url: "/punk-003"
 country: North Korea
 malware:
-- '{"name" => "SLOWDRIFT"}'
-- '{"name" => "AutoIt backdoor"}'
-- '{"name" => "Trojan.Karagany"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Trojan.Mebromi"}'
-- '{"name" => "Virus RAT"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "Konni"}'
+- SLOWDRIFT
+- AutoIt backdoor
+- Trojan.Karagany
+- RemoteCMD
+- Trojan.Mebromi
+- Virus RAT
+- Remote Utilities
+- RemotePC
+- Konni
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

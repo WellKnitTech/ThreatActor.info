@@ -13,10 +13,10 @@ description: Between November 2018 and May 2019, senior members of Tibetan group
   by what appears to be a single operator that we call POISON CARP.
 url: "/poison-carp"
 malware:
-- '{"name" => "PoisonIvy"}'
-- '{"name" => "DroidJack"}'
-- '{"name" => "Androrat"}'
-- '{"name" => "Xploit"}'
+- PoisonIvy
+- DroidJack
+- Androrat
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -35,11 +35,11 @@ targeted_victims:
 incident_type: Espionage
 risk_level: High
 malware:
-- '{"name" => "Back Orifice"}'
-- '{"name" => "Back Orifice 2000"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Archelaus Beta"}'
+- Back Orifice
+- Back Orifice 2000
+- CyberGate
+- Cyber Eye RAT
+- Archelaus Beta
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

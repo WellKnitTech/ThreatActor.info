@@ -10,9 +10,9 @@ description: Mogilevich is a ransomware group known for claiming to breach organ
   tactics and website design suggest they may not be a sophisticated threat actor.
 url: "/mogilevich"
 malware:
-- '{"name" => "RTM"}'
-- '{"name" => "Epic"}'
-- '{"name" => "Archelaus Beta"}'
+- RTM
+- Epic
+- Archelaus Beta
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -26,7 +26,7 @@ Void Manticore is an Iranian APT group affiliated with MOIS, known for conductin
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Wiper"}**
+- **Wiper**
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

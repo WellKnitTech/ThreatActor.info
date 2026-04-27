@@ -9,8 +9,8 @@ description: |-
   We link Dark Basin with high confidence to an Indian company, BellTroX InfoTech Services, and related entitie
 url: "/dark-basin"
 malware:
-- '{"name" => "MobileOrder"}'
-- '{"name" => "Dark DDoSeR"}'
+- MobileOrder
+- Dark DDoSeR
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

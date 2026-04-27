@@ -16,9 +16,9 @@ description: IronErn440 is a threat actor tracked by Oligo Security for orchestr
   involve firewalling, authorization, and Anyscale's port checker.
 url: "/ironern440"
 malware:
-- '{"name" => "China Chopper"}'
-- '{"name" => "Miner-C"}'
-- '{"name" => "Xploit"}'
+- China Chopper
+- Miner-C
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

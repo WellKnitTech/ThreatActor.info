@@ -26,10 +26,10 @@ In December 2020, the IT management software provider SolarWinds announced that 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "WINDSHIELD"}**
-- **{"name" => "Nova"}**
-- **{"name" => "Xploit"}**
-- **{"name" => "Archelaus Beta"}**
+- **WINDSHIELD**
+- **Nova**
+- **Xploit**
+- **Archelaus Beta**
 
 ## Attribution and Evidence
 **Country of Origin**: China

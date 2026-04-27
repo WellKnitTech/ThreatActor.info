@@ -11,8 +11,8 @@ description: UTA0218 is a threat actor with advanced capabilities, targeting org
   and compromised routers to store malicious files.
 url: "/uta0218"
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "Xploit"}'
+- Backdoor.Oldrea
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -9,12 +9,12 @@ description: Trend Micro found that Earth Estries relies heavily on DLL sideload
   These tools come as encrypted payloads loaded by custom loader DLLs.
 url: "/earth-estries"
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "PlugX"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "Cobalt Strike"}'
+- Backdoor.Oldrea
+- PlugX
+- RemoteCMD
+- Remote Utilities
+- RemotePC
+- Cobalt Strike
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -10,9 +10,9 @@ description: ThreatSec is a hacktivist group that has targeted various organizat
   and ransomware activities.
 url: "/threatsec"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Ghost"}'
+- CyberGate
+- Cyber Eye RAT
+- Ghost
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

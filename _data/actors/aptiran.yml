@@ -14,8 +14,8 @@ description: APTIran has claimed responsibility for a large-scale campaign targe
 url: "/aptiran"
 country: Iran
 malware:
-- '{"name" => "Offence"}'
-- '{"name" => "ZOMBIE SLAYER"}'
+- Offence
+- ZOMBIE SLAYER
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

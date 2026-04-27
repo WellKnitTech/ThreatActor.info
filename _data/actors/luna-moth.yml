@@ -13,8 +13,8 @@ description: Luna Moth conducts high-tempo callback phishing campaigns targeting
   tactics to data breach extortion, leveraging trusted systems to evade detection.
 url: "/luna-moth"
 malware:
-- '{"name" => "Back Orifice"}'
-- '{"name" => "Back Orifice 2000"}'
+- Back Orifice
+- Back Orifice 2000
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

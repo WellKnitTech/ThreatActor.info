@@ -22,10 +22,10 @@ Researchers at FireEye report finding a hacking group (dubbed NOTROBIN) that has
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Backdoor.Oldrea"}**
-- **{"name" => "Hacking Team UEFI Rootkit"}**
-- **{"name" => "Xploit"}**
-- **{"name" => "Archelaus Beta"}**
+- **Backdoor.Oldrea**
+- **Hacking Team UEFI Rootkit**
+- **Xploit**
+- **Archelaus Beta**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -14,13 +14,13 @@ description: Earth Alux is a China-linked APT group known for conducting cyberes
 url: "/earth-alux"
 country: China
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "CloudDuke"}'
-- '{"name" => "China Chopper"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "CrossRat"}'
+- Backdoor.Oldrea
+- CloudDuke
+- China Chopper
+- CyberGate
+- Cyber Eye RAT
+- Xploit
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

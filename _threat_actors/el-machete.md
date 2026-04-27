@@ -32,7 +32,7 @@ El Machete is one of these threats that was first publicly disclosed and named b
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Minimo"}**
+- **Minimo**
 
 ## Attribution and Evidence
 **Country of Origin**: Unknown

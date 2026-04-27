@@ -12,7 +12,7 @@ description: UNC6032 is a threat actor that weaponizes interest in AI tools, spe
 url: "/unc6032"
 country: Vietnam
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
+- Backdoor.Oldrea
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

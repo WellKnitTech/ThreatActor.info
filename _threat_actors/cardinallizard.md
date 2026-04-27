@@ -26,10 +26,10 @@ CardinalLizard, a cyber threat actor linked to China, has targeted entities in A
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "China Chopper"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Cardinal"}**
+- **China Chopper**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **Cardinal**
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -26,7 +26,7 @@ RGB-TEAM is a previously unknown Russian-speaking threat actor. They describe th
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Unknown Logger"}**
+- **Unknown Logger**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

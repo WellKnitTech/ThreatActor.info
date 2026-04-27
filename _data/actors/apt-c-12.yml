@@ -22,11 +22,11 @@ sector_focus:
 - Finance
 incident_type: Espionage
 malware:
-- '{"name" => "China Chopper"}'
-- '{"name" => "RTM"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Nuclear RAT"}'
+- China Chopper
+- RTM
+- CyberGate
+- Cyber Eye RAT
+- Nuclear RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -12,10 +12,10 @@ description: Storm-1977 is a sophisticated threat actor that conducts password-s
   compromised accounts as a primary attack surface in their operations.
 url: "/storm-1977"
 malware:
-- '{"name" => "CloudDuke"}'
-- '{"name" => "RIPTIDE"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Archelaus Beta"}'
+- CloudDuke
+- RIPTIDE
+- Xploit
+- Archelaus Beta
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -12,12 +12,12 @@ description: TheWizards is a China-aligned APT group that employs the Spellbinde
   for hosting C&C and malicious updates.
 url: "/thewizards"
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "China Chopper"}'
-- '{"name" => "DroidJack"}'
-- '{"name" => "Androrat"}'
-- '{"name" => "Windows Remote Desktop"}'
-- '{"name" => "Darknet RAT"}'
+- Backdoor.Oldrea
+- China Chopper
+- DroidJack
+- Androrat
+- Windows Remote Desktop
+- Darknet RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

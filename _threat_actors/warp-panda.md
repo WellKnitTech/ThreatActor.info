@@ -26,9 +26,9 @@ WARP PANDA is a China-nexus APT that targets VMware vCenter environments and Mic
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Backdoor.Oldrea"}**
-- **{"name" => "China Chopper"}**
-- **{"name" => "Xploit"}**
+- **Backdoor.Oldrea**
+- **China Chopper**
+- **Xploit**
 
 ## Attribution and Evidence
 **Country of Origin**: China

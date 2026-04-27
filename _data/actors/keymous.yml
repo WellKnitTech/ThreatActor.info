@@ -14,9 +14,9 @@ description: Keymous is a threat actor known for executing extensive DDoS attack
   cyberattacks, particularly in the context of regional conflicts.
 url: "/keymous"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "CrossRat"}'
+- CyberGate
+- Cyber Eye RAT
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

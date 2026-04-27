@@ -9,7 +9,7 @@ description: |-
   Grim Spider is reportedly associated with Lunar Spider and Wizard Spider.
 url: "/grim-spider"
 malware:
-- '{"name" => "CrossRat"}'
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

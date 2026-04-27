@@ -10,7 +10,7 @@ description: Gitloker is a threat actor group targeting GitHub repositories, wip
   combat these evolving attacks and the vulnerabilities they exploit.
 url: "/gitloker"
 malware:
-- '{"name" => "Xploit"}'
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

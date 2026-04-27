@@ -11,7 +11,7 @@ description: SiegedSec, a hacktivist collective, emerged coincidentally just day
   consists of members aged between 18 and 26.
 url: "/siegedsec"
 malware:
-- '{"name" => "Ghost"}'
+- Ghost
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

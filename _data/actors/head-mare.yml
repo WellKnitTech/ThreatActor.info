@@ -11,11 +11,11 @@ description: Head Mare is a hacktivism focussed threat actor group known for tar
   in other threat actor groups like Forest Blizzard.
 url: "/head-mare"
 malware:
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Blizzard"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "Xploit"}'
+- RemoteCMD
+- Blizzard
+- Remote Utilities
+- RemotePC
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

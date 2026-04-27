@@ -7,8 +7,8 @@ description: Hezb is a group deploying cryptominers when new exploit are availab
   for public facing vulnerabilities. The name is after the miner process they deploy.
 url: "/hezb"
 malware:
-- '{"name" => "Miner-C"}'
-- '{"name" => "Xploit"}'
+- Miner-C
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

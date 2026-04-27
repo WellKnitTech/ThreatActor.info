@@ -13,10 +13,10 @@ description: UTG-Q-010 is a financially motivated APT group from East Asia that 
   vulnerabilities and their ability to evade detection.
 url: "/utg-q-010"
 malware:
-- '{"name" => "RTM"}'
-- '{"name" => "Pupy"}'
-- '{"name" => "Windows Remote Desktop"}'
-- '{"name" => "Xploit"}'
+- RTM
+- Pupy
+- Windows Remote Desktop
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

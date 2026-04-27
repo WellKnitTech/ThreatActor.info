@@ -1,16 +1,34 @@
-name: "Dragonforce"
-aliases: ["DragonForce"]
-description: "DragonForce is a ransomware-as-a-service (RaaS) group first identified in late 2023. Originally linked to hacktivist activity, the group pivoted to financially motivated operations by early 2024. Since then, it has accelerated into a highly organized cartel-like network, providing customizable payloads to affiliates, a sophisticated affiliate portal, and shared infrastructure for leak sites and campaigns. The group has targeted a wide range of sectors globally, including major UK retailers such as M&S, Harrods, and Co-op, along with organizations in government, logistics, and manufacturing. Its operations are known for strategic branding flexibility, enabling affiliates to operate under their own labels using DragonForce’s backend services."
+---
+name: Dragonforce
+aliases:
+- DragonForce
+description: DragonForce is a ransomware-as-a-service (RaaS) group first identified
+  in late 2023. Originally linked to hacktivist activity, the group pivoted to financially
+  motivated operations by early 2024. Since then, it has accelerated into a highly
+  organized cartel-like network, providing customizable payloads to affiliates, a
+  sophisticated affiliate portal, and shared infrastructure for leak sites and campaigns.
+  The group has targeted a wide range of sectors globally, including major UK retailers
+  such as M&S, Harrods, and Co-op, along with organizations in government, logistics,
+  and manufacturing. Its operations are known for strategic branding flexibility,
+  enabling affiliates to operate under their own labels using DragonForce’s backend
+  services.
 url: "/dragonforce"
-country: "Malaysia"
-source_name: "RansomLook"
-source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
-source_record_url: "https://www.ransomlook.io/group/dragonforce"
-source_license: "CC BY 4.0"
-source_license_url: "https://creativecommons.org/licenses/by/4.0/"
-malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
+country: Malaysia
+source_name: RansomLook
+source_attribution: 'Contains data derived from RansomLook, used under CC BY 4.0.
+  Source: https://www.ransomlook.io/'
+source_record_url: https://www.ransomlook.io/group/dragonforce
+source_license: CC BY 4.0
+source_license_url: https://creativecommons.org/licenses/by/4.0/
+malware:
+- CyberGate
+- Cyber Eye RAT
 provenance:
-  source_dataset_url: "https://www.ransomlook.io/api/groups"
-  source_record_id: "dragonforce"
-  source_retrieved_at: "2026-04-26T02:08:49Z"
-  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]
+  source_dataset_url: https://www.ransomlook.io/api/groups
+  source_record_id: dragonforce
+  source_retrieved_at: '2026-04-26T02:08:49Z'
+  source_transforms:
+  - normalized-name
+  - deduplicated-aliases
+  - omitted-volatile-iocs
+  - adapted-for-threatactor-info

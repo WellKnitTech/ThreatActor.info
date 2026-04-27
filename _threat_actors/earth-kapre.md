@@ -22,13 +22,13 @@ Earth Kapre is an APT group specializing in cyberespionage. They target organiza
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "PowerDuke"}**
-- **{"name" => "POWERSTATS"}**
-- **{"name" => "Power Loader"}**
-- **{"name" => "POWERSOURCE"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "PowerRAT"}**
+- **PowerDuke**
+- **POWERSTATS**
+- **Power Loader**
+- **POWERSOURCE**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **PowerRAT**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

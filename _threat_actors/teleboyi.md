@@ -26,8 +26,8 @@ Teleboyi is a threat actor reportedly based in China, associated with the PlugX 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "PlugX"}**
-- **{"name" => "China Chopper"}**
+- **PlugX**
+- **China Chopper**
 
 ## Attribution and Evidence
 **Country of Origin**: China

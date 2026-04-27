@@ -13,16 +13,16 @@ description: DarkPink is an APT group that has been active since mid-2021, prima
   making them a significant threat in the cyber landscape.
 url: "/darkpink"
 malware:
-- '{"name" => "PowerDuke"}'
-- '{"name" => "POWERSTATS"}'
-- '{"name" => "Power Loader"}'
-- '{"name" => "Trojan.Karagany"}'
-- '{"name" => "POWERSOURCE"}'
-- '{"name" => "Trojan.Mebromi"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "PowerRAT"}'
+- PowerDuke
+- POWERSTATS
+- Power Loader
+- Trojan.Karagany
+- POWERSOURCE
+- Trojan.Mebromi
+- CyberGate
+- Cyber Eye RAT
+- Xploit
+- PowerRAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

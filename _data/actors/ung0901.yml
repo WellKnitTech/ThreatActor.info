@@ -12,10 +12,10 @@ description: UNG0901 is a cyber-espionage threat actor targeting Russian entitie
   the connection between UNG0901 and Head Mare.
 url: "/ung0901"
 malware:
-- '{"name" => "SPACESHIP"}'
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- SPACESHIP
+- Backdoor.Oldrea
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

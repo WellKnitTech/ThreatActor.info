@@ -13,9 +13,9 @@ description: BrazenBamboo is a Chinese state-affiliated threat actor known for d
 url: "/brazenbamboo"
 country: China
 malware:
-- '{"name" => "ClientMesh"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Client Maximus"}'
+- ClientMesh
+- Xploit
+- Client Maximus
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

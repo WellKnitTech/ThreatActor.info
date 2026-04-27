@@ -12,8 +12,8 @@ description: UAT-5918 is an APT group that targets entities in Taiwan, primarily
   overlap with other APT groups in terms of TTPs and targeted industries.
 url: "/uat-5918"
 malware:
-- '{"name" => "Xploit"}'
-- '{"name" => "CrossRat"}'
+- Xploit
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

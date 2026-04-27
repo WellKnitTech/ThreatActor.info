@@ -11,10 +11,10 @@ description: A group monitored as REF2924 by Elastic Security Labs is wielding n
 url: "/ref2924"
 country: China
 malware:
-- '{"name" => "HTTP WEB BACKDOOR"}'
-- '{"name" => "Archelaus Beta"}'
-- '{"name" => "Revenge-RAT"}'
-- '{"name" => "Remcos"}'
+- HTTP WEB BACKDOOR
+- Archelaus Beta
+- Revenge-RAT
+- Remcos
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

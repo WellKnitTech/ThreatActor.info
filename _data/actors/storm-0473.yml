@@ -14,8 +14,8 @@ description: Storm-0473 (Tomiris) is a threat actor that has been active since a
   tradecraft by Kaspersky.
 url: "/storm-0473"
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "Xploit"}'
+- Backdoor.Oldrea
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

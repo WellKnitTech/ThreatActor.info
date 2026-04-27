@@ -15,7 +15,7 @@ description: TAG-124 is a threat actor that employs a traffic distribution syste
   and the Economic Community of West African States (ECOWAS).
 url: "/tag-124"
 malware:
-- '{"name" => "Chrome Remote Desktop"}'
+- Chrome Remote Desktop
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

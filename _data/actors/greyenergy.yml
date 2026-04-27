@@ -6,11 +6,11 @@ description: ESET research reveals a successor to the infamous BlackEnergy APT g
   targeting critical infrastructure, quite possibly in preparation for damaging attacks
 url: "/greyenergy"
 malware:
-- '{"name" => "BlackEnergy"}'
-- '{"name" => "BLACKCOFFEE"}'
-- '{"name" => "Blackshades"}'
-- '{"name" => "BlackNix"}'
-- '{"name" => "BlackHole"}'
+- BlackEnergy
+- BLACKCOFFEE
+- Blackshades
+- BlackNix
+- BlackHole
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

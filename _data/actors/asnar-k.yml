@@ -13,10 +13,10 @@ description: Asnarök is a threat actor that exploited CVE-2020-12271 and utiliz
   bug bounty researchers.
 url: "/asnar-k"
 malware:
-- '{"name" => "Trojan.Karagany"}'
-- '{"name" => "Trojan.Mebromi"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Archelaus Beta"}'
+- Trojan.Karagany
+- Trojan.Mebromi
+- Xploit
+- Archelaus Beta
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

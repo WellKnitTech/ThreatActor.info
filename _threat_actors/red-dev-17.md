@@ -30,9 +30,9 @@ In 2021, PwC started tracking a series of intrusions under the moniker of Red De
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "PoisonIvy"}**
-- **{"name" => "China Chopper"}**
-- **{"name" => "Windows Remote Desktop"}**
+- **PoisonIvy**
+- **China Chopper**
+- **Windows Remote Desktop**
 
 ## Attribution and Evidence
 **Country of Origin**: China

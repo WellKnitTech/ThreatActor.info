@@ -11,7 +11,7 @@ description: Hikki-Chan has claimed responsibility for multiple significant data
   across various industries.
 url: "/hikki-chan"
 malware:
-- '{"name" => "CrossRat"}'
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

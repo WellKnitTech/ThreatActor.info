@@ -13,7 +13,7 @@ description: Larva-24005 is a threat actor that breaches servers in Korea to est
 url: "/larva-24005"
 country: North Korea
 malware:
-- '{"name" => "Xploit"}'
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

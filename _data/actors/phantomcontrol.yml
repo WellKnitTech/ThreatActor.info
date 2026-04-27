@@ -11,13 +11,13 @@ description: PhantomControl is a sophisticated threat actor that emerged in Nove
   and reach.
 url: "/phantomcontrol"
 malware:
-- '{"name" => "PowerDuke"}'
-- '{"name" => "POWERSTATS"}'
-- '{"name" => "Power Loader"}'
-- '{"name" => "POWERSOURCE"}'
-- '{"name" => "ClientMesh"}'
-- '{"name" => "Client Maximus"}'
-- '{"name" => "PowerRAT"}'
+- PowerDuke
+- POWERSTATS
+- Power Loader
+- POWERSOURCE
+- ClientMesh
+- Client Maximus
+- PowerRAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

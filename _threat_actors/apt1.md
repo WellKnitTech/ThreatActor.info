@@ -34,7 +34,7 @@ APT1 is a Chinese cyber espionage group that has been conducting cyber espionage
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Hacking Team UEFI Rootkit"}**
+- **Hacking Team UEFI Rootkit**
 
 ## Attribution and Evidence
 **Country of Origin**: China

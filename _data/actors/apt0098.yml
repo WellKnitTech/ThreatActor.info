@@ -1,17 +1,47 @@
-name: "BlackTech"
-aliases: ["BlackTech","Canary Typhoon","CIRCUIT PANDA","Earth Hundun","G0098","HUAPI","Manga Taurus","Mobwork","Palmerworm","Red Djinn","T-APT-03","Temp.Overboard"]
-description: "BlackTech is a suspected Chinese cyber espionage group that has primarily targeted organizations in East Asia--particularly Taiwan, Japan, and Hong Kong--and the US since at least 2013. BlackTech has used a combination of custom malware, dual-use tools, and living off the land tactics to compromise media, construction, engineering, electronics, and financial company networks.(Citation: TrendMicro BlackTech June 2017)(Citation: Symantec Palmerworm Sep 2020)(Citation: Reuters Taiwan BlackTech August 2020)"
+---
+name: BlackTech
+aliases:
+- BlackTech
+- Canary Typhoon
+- CIRCUIT PANDA
+- Earth Hundun
+- G0098
+- HUAPI
+- Manga Taurus
+- Mobwork
+- Palmerworm
+- Red Djinn
+- T-APT-03
+- Temp.Overboard
+description: 'BlackTech is a suspected Chinese cyber espionage group that has primarily
+  targeted organizations in East Asia--particularly Taiwan, Japan, and Hong Kong--and
+  the US since at least 2013. BlackTech has used a combination of custom malware,
+  dual-use tools, and living off the land tactics to compromise media, construction,
+  engineering, electronics, and financial company networks.(Citation: TrendMicro BlackTech
+  June 2017)(Citation: Symantec Palmerworm Sep 2020)(Citation: Reuters Taiwan BlackTech
+  August 2020)'
 url: "/apt0098"
-country: "China"
-external_id: "G0098"
-external_url: "https://attack.mitre.org/groups/G0098"
-mitre_id: "G0098"
-mitre_url: "https://attack.mitre.org/groups/G0098"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-malware: ["{\"name\" => \"BlackEnergy\"}","{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"CloudDuke\"}","{\"name\" => \"Rover\"}","{\"name\" => \"BLACKCOFFEE\"}","{\"name\" => \"Blackshades\"}","{\"name\" => \"BlackNix\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"HTTP WEB BACKDOOR\"}"]
+country: China
+external_id: G0098
+external_url: https://attack.mitre.org/groups/G0098
+mitre_id: G0098
+mitre_url: https://attack.mitre.org/groups/G0098
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+malware:
+- BlackEnergy
+- Backdoor.Oldrea
+- CloudDuke
+- Rover
+- BLACKCOFFEE
+- Blackshades
+- BlackNix
+- CyberGate
+- Cyber Eye RAT
+- HTTP WEB BACKDOOR
 provenance:
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G0098"
-    source_retrieved_at: "2026-04-26T07:05:44Z"
-source: "MITRE ATT&CK"
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_record_id: G0098
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+source: MITRE ATT&CK

@@ -13,7 +13,7 @@ description: RipperSec is a pro-Palestinian, likely Malaysian hacktivist group c
 url: "/rippersec"
 country: Malaysia
 malware:
-- '{"name" => "Mega"}'
+- Mega
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

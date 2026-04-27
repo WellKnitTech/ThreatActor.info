@@ -31,7 +31,7 @@ Curious Gorge, a group TAG attributes to China's PLA SSF, has conducted campaign
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "China Chopper"}**
+- **China Chopper**
 
 ## Attribution and Evidence
 **Country of Origin**: China

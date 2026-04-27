@@ -13,9 +13,9 @@ description: WARP PANDA is a China-nexus APT that targets VMware vCenter environ
 url: "/warp-panda"
 country: China
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "China Chopper"}'
-- '{"name" => "Xploit"}'
+- Backdoor.Oldrea
+- China Chopper
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

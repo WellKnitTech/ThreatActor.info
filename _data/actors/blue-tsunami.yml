@@ -13,16 +13,16 @@ description: Blue Tsunami, also known as Black Cube, is a cyber mercenary group 
 url: "/blue-tsunami"
 country: Israel
 malware:
-- '{"name" => "BlackEnergy"}'
-- '{"name" => "BLACKCOFFEE"}'
-- '{"name" => "Blackshades"}'
-- '{"name" => "BlackNix"}'
-- '{"name" => "Blue Banana"}'
-- '{"name" => "ClientMesh"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "BlackHole"}'
-- '{"name" => "Client Maximus"}'
+- BlackEnergy
+- BLACKCOFFEE
+- Blackshades
+- BlackNix
+- Blue Banana
+- ClientMesh
+- CyberGate
+- Cyber Eye RAT
+- BlackHole
+- Client Maximus
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

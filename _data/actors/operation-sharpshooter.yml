@@ -7,13 +7,13 @@ description: |-
   Operation Sharpshooter’s numerous technical links to the Lazarus Group seem too obvious to immediately draw the conclusion that they are responsible for the attacks, and instead indicate a potential for false flags. Our research focuses on how this actor operates, the global impact, and how to detect the attack. We shall leave attribution to the broader security community.
 url: "/operation-sharpshooter"
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "Trojan.Karagany"}'
-- '{"name" => "Trojan.Mebromi"}'
-- '{"name" => "Nuclear RAT"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "SharpEye"}'
-- '{"name" => "SharpBot"}'
+- Backdoor.Oldrea
+- Trojan.Karagany
+- Trojan.Mebromi
+- Nuclear RAT
+- Xploit
+- SharpEye
+- SharpBot
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

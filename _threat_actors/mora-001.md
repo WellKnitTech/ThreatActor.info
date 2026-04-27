@@ -26,8 +26,8 @@ Mora_001 is a threat actor exhibiting a distinct operational signature that comb
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Net Devil"}**
-- **{"name" => "Xploit"}**
+- **Net Devil**
+- **Xploit**
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

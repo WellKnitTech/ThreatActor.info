@@ -22,8 +22,8 @@ Operation Wocao (我操, “Wǒ cāo”, used as “shit” or “damn”) is th
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Hacking Team UEFI Rootkit"}**
-- **{"name" => "CrossRat"}**
+- **Hacking Team UEFI Rootkit**
+- **CrossRat**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

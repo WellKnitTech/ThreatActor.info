@@ -13,12 +13,12 @@ description: Earth Krahang is an APT group targeting government organizations wo
 url: "/earth-krahang"
 country: China
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "China Chopper"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Cobalt Strike"}'
+- Backdoor.Oldrea
+- China Chopper
+- CyberGate
+- Cyber Eye RAT
+- Xploit
+- Cobalt Strike
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

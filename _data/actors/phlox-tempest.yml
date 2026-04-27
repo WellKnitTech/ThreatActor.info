@@ -12,9 +12,9 @@ description: Phlox Tempest is a threat actor responsible for a large-scale click
   ongoing and prevalent campaign.
 url: "/phlox-tempest"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Chrome Remote Desktop"}'
+- CyberGate
+- Cyber Eye RAT
+- Chrome Remote Desktop
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -22,11 +22,11 @@ ESET research reveals a successor to the infamous BlackEnergy APT group targetin
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "BlackEnergy"}**
-- **{"name" => "BLACKCOFFEE"}**
-- **{"name" => "Blackshades"}**
-- **{"name" => "BlackNix"}**
-- **{"name" => "BlackHole"}**
+- **BlackEnergy**
+- **BLACKCOFFEE**
+- **Blackshades**
+- **BlackNix**
+- **BlackHole**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

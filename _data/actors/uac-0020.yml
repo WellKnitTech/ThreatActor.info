@@ -14,9 +14,9 @@ description: Vermin is a threat actor group linked to the Luhansk People’s Rep
 url: "/uac-0020"
 country: Russia
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Quasar RAT"}'
-- '{"name" => "Cyber Eye RAT"}'
+- CyberGate
+- Quasar RAT
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

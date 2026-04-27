@@ -26,9 +26,9 @@ DriftingCloud is a persistent threat actor known for targeting various industrie
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CloudDuke"}**
-- **{"name" => "Xploit"}**
-- **{"name" => "Killer RAT"}**
+- **CloudDuke**
+- **Xploit**
+- **Killer RAT**
 
 ## Attribution and Evidence
 **Country of Origin**: China

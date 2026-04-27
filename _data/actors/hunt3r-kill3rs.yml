@@ -9,10 +9,10 @@ description: Hunt3r Kill3rs is a newly emerged threat group claiming expertise i
 url: "/hunt3r-kill3rs"
 country: Russia
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Xpert"}'
-- '{"name" => "Xploit"}'
+- CyberGate
+- Cyber Eye RAT
+- Xpert
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

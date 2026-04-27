@@ -26,7 +26,7 @@ The TunnelSnake campaign demonstrates the activity of a sophisticated actor that
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Windows Remote Desktop"}**
+- **Windows Remote Desktop**
 
 ## Attribution and Evidence
 **Country of Origin**: China

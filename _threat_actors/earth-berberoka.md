@@ -30,11 +30,11 @@ According to TrendMicro, Earth Berberoka is a threat group originating from Chin
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "PlugX"}**
-- **{"name" => "China Chopper"}**
-- **{"name" => "gh0st"}**
-- **{"name" => "Gh0st RAT"}**
-- **{"name" => "Windows Remote Desktop"}**
+- **PlugX**
+- **China Chopper**
+- **gh0st**
+- **Gh0st RAT**
+- **Windows Remote Desktop**
 
 ## Attribution and Evidence
 **Country of Origin**: China

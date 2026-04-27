@@ -10,7 +10,7 @@ description: SingularityMD is a threat actor group that has targeted educational
   and have already leaked some data.
 url: "/singularitymd"
 malware:
-- '{"name" => "Xploit"}'
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

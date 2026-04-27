@@ -11,7 +11,7 @@ description: VIKING SPIDER is the criminal group behind the development and dist
   'Cartel News' and included details of a victim of VIKING SPIDER’s Ragnar Locker
 url: "/viking-spider"
 malware:
-- '{"name" => "Ragnatela"}'
+- Ragnatela
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

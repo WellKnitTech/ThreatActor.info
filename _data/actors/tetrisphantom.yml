@@ -10,7 +10,7 @@ description: TetrisPhantom relies on compromising of certain type of secure USB 
   USB drives.
 url: "/tetrisphantom"
 malware:
-- '{"name" => "Xpert"}'
+- Xpert
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

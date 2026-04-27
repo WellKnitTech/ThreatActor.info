@@ -26,7 +26,7 @@ Amaranth-Dragon is a previously untracked threat actor assessed to be closely li
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "China Chopper"}**
+- **China Chopper**
 
 ## Attribution and Evidence
 **Country of Origin**: China

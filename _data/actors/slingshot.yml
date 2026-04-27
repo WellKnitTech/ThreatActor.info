@@ -8,9 +8,9 @@ description: |-
   We believe this cluster of activity started in at least 2012 and was still active at the time of this analysis (February 2018).
 url: "/slingshot"
 malware:
-- '{"name" => "Regin"}'
-- '{"name" => "TURNEDUP"}'
-- '{"name" => "Unknown Logger"}'
+- Regin
+- TURNEDUP
+- Unknown Logger
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

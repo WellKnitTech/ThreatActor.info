@@ -14,11 +14,11 @@ description: Denim Tsunami is a threat actor group that has been involved in tar
 url: "/denim-tsunami"
 country: Austria
 malware:
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "Windows Remote Desktop"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "Xploit"}'
+- RemoteCMD
+- Remote Utilities
+- Windows Remote Desktop
+- RemotePC
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -22,10 +22,10 @@ Desorden (Disorder in Spanish, previously known as ChaosCC), is a financially mo
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Hacking Team UEFI Rootkit"}**
-- **{"name" => "Chaos"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
+- **Hacking Team UEFI Rootkit**
+- **Chaos**
+- **CyberGate**
+- **Cyber Eye RAT**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

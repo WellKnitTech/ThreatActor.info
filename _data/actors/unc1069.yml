@@ -16,7 +16,7 @@ description: CryptoCore is a North Korean APT known for targeting cryptocurrency
 url: "/unc1069"
 country: North Korea
 malware:
-- '{"name" => "GeminiDuke"}'
+- GeminiDuke
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

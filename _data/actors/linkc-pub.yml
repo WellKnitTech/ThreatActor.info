@@ -13,10 +13,10 @@ description: Linkc is a newly emerged ransomware group that operates an onion-ba
   in discussions on cybercrime forums.
 url: "/linkc-pub"
 malware:
-- '{"name" => "CloudDuke"}'
-- '{"name" => "OnionDuke"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- CloudDuke
+- OnionDuke
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

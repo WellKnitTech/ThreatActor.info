@@ -26,9 +26,9 @@ CoralRaider is a financially motivated threat actor of Vietnamese origin, target
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CORALDECK"}**
-- **{"name" => "ClientMesh"}**
-- **{"name" => "Client Maximus"}**
+- **CORALDECK**
+- **ClientMesh**
+- **Client Maximus**
 
 ## Attribution and Evidence
 **Country of Origin**: Vietnam

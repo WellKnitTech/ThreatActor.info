@@ -12,9 +12,9 @@ description: 'Mandiant created UNC5266 to track post-disclosure exploitation lea
   to target environments. '
 url: "/unc5266"
 malware:
-- '{"name" => "China Chopper"}'
-- '{"name" => "DesktopNow"}'
-- '{"name" => "Xploit"}'
+- China Chopper
+- DesktopNow
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

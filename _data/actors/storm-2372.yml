@@ -15,9 +15,9 @@ description: Storm-2372 is a suspected nation-state actor aligned with Russian i
 url: "/storm-2372"
 country: Russia
 malware:
-- '{"name" => "GraphicBooting"}'
-- '{"name" => "Archelaus Beta"}'
-- '{"name" => "CrossRat"}'
+- GraphicBooting
+- Archelaus Beta
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

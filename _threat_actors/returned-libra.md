@@ -22,8 +22,8 @@ Returned Libra, also known as 8220 Mining Group, is a cloud threat actor group t
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CloudDuke"}**
-- **{"name" => "TURNEDUP"}**
+- **CloudDuke**
+- **TURNEDUP**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

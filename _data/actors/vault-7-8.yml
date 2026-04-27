@@ -11,16 +11,16 @@ description: |-
   "Year Zero" introduces the scope and direction of the CIA's global covert hacking program, its malware arsenal and dozens of "zero day" weaponized exploits against a wide range of U.S. and European company products, include Apple's iPhone, Google's Android and Microsoft's Windows and even Samsung TVs, which are turned into covert microphones.
 url: "/vault-7-8"
 malware:
-- '{"name" => "Hacking Team UEFI Rootkit"}'
-- '{"name" => "Trojan.Karagany"}'
-- '{"name" => "TURNEDUP"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Trojan.Mebromi"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "DroidJack"}'
-- '{"name" => "Androrat"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Virus RAT"}'
+- Hacking Team UEFI Rootkit
+- Trojan.Karagany
+- TURNEDUP
+- RemoteCMD
+- Trojan.Mebromi
+- CyberGate
+- DroidJack
+- Androrat
+- Cyber Eye RAT
+- Virus RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

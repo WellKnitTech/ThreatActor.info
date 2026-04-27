@@ -10,9 +10,9 @@ description: |-
   RedDelta closely overlaps with public industry reporting under the aliases BRONZE PRESIDENT, Mustang Panda, TA416, Red Lich, and HoneyMyte.
 url: "/reddelta"
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "PlugX"}'
-- '{"name" => "RTM"}'
+- Backdoor.Oldrea
+- PlugX
+- RTM
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

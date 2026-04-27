@@ -15,9 +15,9 @@ description: Xiaoqiying is a primarily Chinese-speaking threat group that is mos
 url: "/xiaoqiying"
 country: China
 malware:
-- '{"name" => "China Chopper"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- China Chopper
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

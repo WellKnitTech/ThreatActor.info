@@ -32,10 +32,10 @@ Lyceum is an Iranian APT group that has been active since at least 2014. They pr
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "SharK"}**
-- **{"name" => "Milan"}**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **SharK**
+- **Milan**
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

@@ -11,9 +11,9 @@ description: Space Pirates is a cybercrime group that has been active since at l
 url: "/webworm"
 country: China
 malware:
-- '{"name" => "SPACESHIP"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- SPACESHIP
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

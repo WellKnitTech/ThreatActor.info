@@ -12,9 +12,9 @@ description: UAC-0215 is an APT group that has orchestrated a phishing campaign 
   geographical footprint suggests a potential for broader cyberattacks beyond Ukraine.
 url: "/uac-0215"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "GraphicBooting"}'
+- CyberGate
+- Cyber Eye RAT
+- GraphicBooting
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -22,8 +22,8 @@ SEQRITE Labs APT-Team has been tracking and has uncovered a campaign targeting t
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "SPACESHIP"}**
-- **{"name" => "Cobalt Strike"}**
+- **SPACESHIP**
+- **Cobalt Strike**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

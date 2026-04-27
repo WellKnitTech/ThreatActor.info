@@ -22,10 +22,10 @@ UTG-Q-010 is a financially motivated APT group from East Asia that has been acti
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "RTM"}**
-- **{"name" => "Pupy"}**
-- **{"name" => "Windows Remote Desktop"}**
-- **{"name" => "Xploit"}**
+- **RTM**
+- **Pupy**
+- **Windows Remote Desktop**
+- **Xploit**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

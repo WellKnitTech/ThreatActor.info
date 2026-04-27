@@ -22,14 +22,14 @@ BLACKMETA is a pro-Palestinian hacktivist group that has claimed responsibility 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "BlackEnergy"}**
-- **{"name" => "BLACKCOFFEE"}**
-- **{"name" => "Blackshades"}**
-- **{"name" => "BlackNix"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Arabian-Attacker RAT"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "BlackHole"}**
+- **BlackEnergy**
+- **BLACKCOFFEE**
+- **Blackshades**
+- **BlackNix**
+- **CyberGate**
+- **Arabian-Attacker RAT**
+- **Cyber Eye RAT**
+- **BlackHole**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -9,7 +9,7 @@ description: Hagga is believed to have been using Agent Tesla, 2021’s sixth mo
   2021.
 url: "/hagga"
 malware:
-- '{"name" => "Agent.btz"}'
+- Agent.btz
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

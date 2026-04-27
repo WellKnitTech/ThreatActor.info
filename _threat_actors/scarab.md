@@ -29,10 +29,10 @@ Scarab APT was first spotted in 2015, but is believed to have been active since 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Backdoor.Oldrea"}**
-- **{"name" => "Small-Net"}**
-- **{"name" => "UNITEDRAKE"}**
-- **{"name" => "CrossRat"}**
+- **Backdoor.Oldrea**
+- **Small-Net**
+- **UNITEDRAKE**
+- **CrossRat**
 
 ## Attribution and Evidence
 **Country of Origin**: China

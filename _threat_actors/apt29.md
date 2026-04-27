@@ -34,16 +34,16 @@ APT29 is threat group that has been attributed to Russia's Foreign Intelligence 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CosmicDuke"}**
-- **{"name" => "PinchDuke"}**
-- **{"name" => "CloudDuke"}**
-- **{"name" => "HAMMERTOSS"}**
-- **{"name" => "GeminiDuke"}**
-- **{"name" => "MiniDuke"}**
-- **{"name" => "SeaDuke"}**
-- **{"name" => "RTM"}**
-- **{"name" => "OnionDuke"}**
-- **{"name" => "CyberGate"}**
+- **CosmicDuke**
+- **PinchDuke**
+- **CloudDuke**
+- **HAMMERTOSS**
+- **GeminiDuke**
+- **MiniDuke**
+- **SeaDuke**
+- **RTM**
+- **OnionDuke**
+- **CyberGate**
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

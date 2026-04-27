@@ -12,8 +12,8 @@ description: ShadyPanda is a threat actor behind a 7-year campaign that has infe
   persistent access through shared infrastructure across their extensions.
 url: "/shadypanda"
 malware:
-- '{"name" => "GraphicBooting"}'
-- '{"name" => "CrossRat"}'
+- GraphicBooting
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

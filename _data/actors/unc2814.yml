@@ -14,11 +14,11 @@ description: UNC2814 is a suspected PRC-nexus cyber espionage group that has tar
 url: "/unc2814"
 country: China
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "CloudDuke"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "CrossRat"}'
+- Backdoor.Oldrea
+- CloudDuke
+- CyberGate
+- Cyber Eye RAT
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

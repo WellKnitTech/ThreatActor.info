@@ -22,9 +22,9 @@ GOLD PRELUDE is a financially motivated cybercriminal threat group that operates
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Archelaus Beta"}**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **Archelaus Beta**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

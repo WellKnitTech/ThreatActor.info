@@ -13,11 +13,11 @@ description: GOLD WATERFALL is a group of financially motivated cybercriminals r
   forums, marking GOLD WATERFALL's entry into the ransomware-as-a-service (RaaS) landscape.
 url: "/gold-waterfall"
 malware:
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
+- RemoteCMD
+- CyberGate
+- Cyber Eye RAT
+- Remote Utilities
+- RemotePC
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

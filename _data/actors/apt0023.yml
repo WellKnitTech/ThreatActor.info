@@ -1,21 +1,36 @@
-name: "APT16"
-aliases: ["APT16","G0023","SVCMONDR"]
-description: "APT16 is a China-based threat group that has launched spearphishing campaigns targeting Japanese and Taiwanese organizations. (Citation: FireEye EPS Awakens Part 2)"
+---
+name: APT16
+aliases:
+- APT16
+- G0023
+- SVCMONDR
+description: 'APT16 is a China-based threat group that has launched spearphishing
+  campaigns targeting Japanese and Taiwanese organizations. (Citation: FireEye EPS
+  Awakens Part 2)'
 url: "/apt0023"
-country: "China"
-sector_focus: ["Private sector"]
-targeted_victims: ["Japan","Taiwan"]
-incident_type: "Espionage"
-risk_level: "High"
-external_id: "G0023"
-external_url: "https://attack.mitre.org/groups/G0023"
-mitre_id: "G0023"
-mitre_url: "https://attack.mitre.org/groups/G0023"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"China Chopper\"}","{\"name\" => \"ELMER\"}","{\"name\" => \"Windows Remote Desktop\"}","{\"name\" => \"Xploit\"}"]
+country: China
+sector_focus:
+- Private sector
+targeted_victims:
+- Japan
+- Taiwan
+incident_type: Espionage
+risk_level: High
+external_id: G0023
+external_url: https://attack.mitre.org/groups/G0023
+mitre_id: G0023
+mitre_url: https://attack.mitre.org/groups/G0023
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+malware:
+- Backdoor.Oldrea
+- China Chopper
+- ELMER
+- Windows Remote Desktop
+- Xploit
 provenance:
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G0023"
-    source_retrieved_at: "2026-04-26T07:05:44Z"
-source: "MITRE ATT&CK"
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_record_id: G0023
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+source: MITRE ATT&CK

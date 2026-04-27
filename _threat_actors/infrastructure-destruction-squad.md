@@ -26,8 +26,8 @@ Dark Engine has emerged as a significant threat actor targeting industrial contr
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "PoisonIvy"}**
-- **{"name" => "Dark DDoSeR"}**
+- **PoisonIvy**
+- **Dark DDoSeR**
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

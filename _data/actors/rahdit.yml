@@ -14,8 +14,8 @@ description: RaHDit is a pro-Kremlin hacktivist group known for orchestrating ha
 url: "/rahdit"
 country: Russia
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

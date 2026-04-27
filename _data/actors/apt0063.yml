@@ -1,16 +1,32 @@
-name: "BlackOasis"
-aliases: ["BlackOasis","G0063"]
-description: "BlackOasis is a Middle Eastern threat group that is believed to be a customer of Gamma Group. The group has shown interest in prominent figures in the United Nations, as well as opposition bloggers, activists, regional news correspondents, and think tanks. (Citation: Securelist BlackOasis Oct 2017) (Citation: Securelist APT Trends Q2 2017) A group known by Microsoft as NEODYMIUM is reportedly associated closely with BlackOasis operations, but evidence that the group names are aliases has not been identified. (Citation: CyberScoop BlackOasis Oct 2017)"
+---
+name: BlackOasis
+aliases:
+- BlackOasis
+- G0063
+description: 'BlackOasis is a Middle Eastern threat group that is believed to be a
+  customer of Gamma Group. The group has shown interest in prominent figures in the
+  United Nations, as well as opposition bloggers, activists, regional news correspondents,
+  and think tanks. (Citation: Securelist BlackOasis Oct 2017) (Citation: Securelist
+  APT Trends Q2 2017) A group known by Microsoft as NEODYMIUM is reportedly associated
+  closely with BlackOasis operations, but evidence that the group names are aliases
+  has not been identified. (Citation: CyberScoop BlackOasis Oct 2017)'
 url: "/apt0063"
-external_id: "G0063"
-external_url: "https://attack.mitre.org/groups/G0063"
-mitre_id: "G0063"
-mitre_url: "https://attack.mitre.org/groups/G0063"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-malware: ["{\"name\" => \"BlackEnergy\"}","{\"name\" => \"BLACKCOFFEE\"}","{\"name\" => \"Blackshades\"}","{\"name\" => \"BlackNix\"}","{\"name\" => \"UNITEDRAKE\"}","{\"name\" => \"BlackHole\"}"]
+external_id: G0063
+external_url: https://attack.mitre.org/groups/G0063
+mitre_id: G0063
+mitre_url: https://attack.mitre.org/groups/G0063
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+malware:
+- BlackEnergy
+- BLACKCOFFEE
+- Blackshades
+- BlackNix
+- UNITEDRAKE
+- BlackHole
 provenance:
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G0063"
-    source_retrieved_at: "2026-04-26T07:05:44Z"
-source: "MITRE ATT&CK"
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_record_id: G0063
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+source: MITRE ATT&CK

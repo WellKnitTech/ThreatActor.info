@@ -22,9 +22,9 @@ ESET researchers have discovered a new undocumented modular backdoor, SideWalk, 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Backdoor.Oldrea"}**
-- **{"name" => "Archelaus Beta"}**
-- **{"name" => "CrossRat"}**
+- **Backdoor.Oldrea**
+- **Archelaus Beta**
+- **CrossRat**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

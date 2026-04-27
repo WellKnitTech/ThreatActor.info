@@ -10,9 +10,9 @@ description: A threat actor which is ac tive since at least November 2014. This 
   and Windows malwares. Its objective is the theft of sensitive information.
 url: "/apt-c-27"
 malware:
-- '{"name" => "DroidJack"}'
-- '{"name" => "Androrat"}'
-- '{"name" => "Windows Remote Desktop"}'
+- DroidJack
+- Androrat
+- Windows Remote Desktop
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -12,9 +12,9 @@ url: "/iridium"
 country: Iran
 risk_level: Low
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "UNITEDRAKE"}'
+- CyberGate
+- Cyber Eye RAT
+- UNITEDRAKE
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

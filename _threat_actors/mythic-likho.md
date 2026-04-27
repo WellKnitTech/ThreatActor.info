@@ -22,7 +22,7 @@ Arcane Werewolf has been observed targeting Russian manufacturing enterprises th
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Archelaus Beta"}**
+- **Archelaus Beta**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

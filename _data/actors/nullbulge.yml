@@ -9,8 +9,8 @@ description: NullBulge is a cybercriminal threat group targeting AI and gaming f
   code in public repositories and malicious mods to target their victims.
 url: "/nullbulge"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

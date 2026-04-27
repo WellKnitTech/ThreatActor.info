@@ -16,9 +16,9 @@ description: UNC6384 (also tracked as Vertigo Panda) is a Chinese-affiliated APT
 url: "/unc6384"
 country: China
 malware:
-- '{"name" => "PlugX"}'
-- '{"name" => "Windows Remote Desktop"}'
-- '{"name" => "Xploit"}'
+- PlugX
+- Windows Remote Desktop
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -10,7 +10,7 @@ description: TA402 is an APT group that has been tracked by Proofpoint since  20
   Drive for hosting malicious payloads and command-and-control infrastructure.
 url: "/ta402"
 malware:
-- '{"name" => "CloudDuke"}'
+- CloudDuke
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

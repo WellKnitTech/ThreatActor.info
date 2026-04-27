@@ -22,13 +22,13 @@ Storm-0826 is a financially motivated cybercriminal group operating as an affili
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "BlackEnergy"}**
-- **{"name" => "BLACKCOFFEE"}**
-- **{"name" => "Blackshades"}**
-- **{"name" => "BlackNix"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "BlackHole"}**
+- **BlackEnergy**
+- **BLACKCOFFEE**
+- **Blackshades**
+- **BlackNix**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **BlackHole**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -31,7 +31,7 @@ Goblin Panda is one of a handful of elite Chinese advanced persistent threat (AP
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "UNITEDRAKE"}**
+- **UNITEDRAKE**
 
 ## Attribution and Evidence
 **Country of Origin**: China

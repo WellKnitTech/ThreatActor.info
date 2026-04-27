@@ -13,9 +13,9 @@ description: BlueHornet is an advanced persistent threat group targeting governm
   and have recently disclosed a zero-day exploit in NGINX 1.18.
 url: "/bluehornet"
 malware:
-- '{"name" => "China Chopper"}'
-- '{"name" => "Dark DDoSeR"}'
-- '{"name" => "Xploit"}'
+- China Chopper
+- Dark DDoSeR
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -24,12 +24,12 @@ description: Shadows in the Cloud documents a complex ecosystem of cyber espiona
   and field research, to track and uncover the Shadow cyber espionage network.
 url: "/shadow-network"
 malware:
-- '{"name" => "CloudDuke"}'
-- '{"name" => "China Chopper"}'
-- '{"name" => "Unknown Logger"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "UNITEDRAKE"}'
+- CloudDuke
+- China Chopper
+- Unknown Logger
+- CyberGate
+- Cyber Eye RAT
+- UNITEDRAKE
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

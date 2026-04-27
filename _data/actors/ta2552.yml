@@ -17,9 +17,9 @@ description: "Since January 2020, Proofpoint researchers have tracked an actor a
   they appear to choose recipients who are likely Spanish speakers. \n\n"
 url: "/ta2552"
 malware:
-- '{"name" => "Back Orifice"}'
-- '{"name" => "Back Orifice 2000"}'
-- '{"name" => "Archelaus Beta"}'
+- Back Orifice
+- Back Orifice 2000
+- Archelaus Beta
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

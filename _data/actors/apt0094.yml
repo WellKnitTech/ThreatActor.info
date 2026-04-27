@@ -1,21 +1,58 @@
-name: "Kimsuky"
-aliases: ["APT43","Black Banshee","Emerald Sleet","Kimsuky","Springtail","TA427","THALLIUM","Velvet Chollima","Thallium","Operation Stolen Pencil","G0086","Sparkling Pisces"]
-description: "Kimsuky is a North Korea-based cyber espionage group that has been active since at least 2012. The group initially targeted South Korean government agencies, think tanks, and subject-matter experts in various fields. Its operations expanded to include the United Nations and organizations in the government, education, business services, and manufacturing sectors across the United States, Japan, Russia, and Europe. Kimsuky has focused collection on foreign policy and national security issues tied to the Korean Peninsula, nuclear policy, and sanctions. Its operations have overlapped with other DPRK actors, likely due to ad hoc collaboration or limited resource sharing.(Citation: EST Kimsuky April 2019)(Citation: Cybereason Kimsuky November 2020)(Citation: Malwarebytes Kimsuky June 2021)(Citation: CISA AA20-301A Kimsuky)(Citation: Mandiant APT43 March 2024)(Citation: Proofpoint TA427 April 2024) Because of overlapping operations, some researchers group a wide range of North Korean state-sponsored cyber activity under the broader Lazarus Group umbrella rather than tracking separate subgroup or cluster distinctions.\n\nKimsuky was assessed to be responsible for the 2014 Korea Hydro & Nuclear Power Co. compromise; other notable campaigns include Operation STOLEN PENCIL (2018), Operation Kabar Cobra (2019), and Operation Smoke Screen (2019).(Citation: Netscout Stolen Pencil Dec 2018)(Citation: EST Kimsuky SmokeScreen April 2019)(Citation: AhnLab Kimsuky Kabar Cobra Feb 2019)\n\nIn 2023, Kimsuky was observed using commercial large language models to assist with vulnerability research, scripting, social engineering and reconnaissance.(Citation: MSFT-AI)"
+---
+name: Kimsuky
+aliases:
+- APT43
+- Black Banshee
+- Emerald Sleet
+- Kimsuky
+- Springtail
+- TA427
+- THALLIUM
+- Velvet Chollima
+- Thallium
+- Operation Stolen Pencil
+- G0086
+- Sparkling Pisces
+description: |-
+  Kimsuky is a North Korea-based cyber espionage group that has been active since at least 2012. The group initially targeted South Korean government agencies, think tanks, and subject-matter experts in various fields. Its operations expanded to include the United Nations and organizations in the government, education, business services, and manufacturing sectors across the United States, Japan, Russia, and Europe. Kimsuky has focused collection on foreign policy and national security issues tied to the Korean Peninsula, nuclear policy, and sanctions. Its operations have overlapped with other DPRK actors, likely due to ad hoc collaboration or limited resource sharing.(Citation: EST Kimsuky April 2019)(Citation: Cybereason Kimsuky November 2020)(Citation: Malwarebytes Kimsuky June 2021)(Citation: CISA AA20-301A Kimsuky)(Citation: Mandiant APT43 March 2024)(Citation: Proofpoint TA427 April 2024) Because of overlapping operations, some researchers group a wide range of North Korean state-sponsored cyber activity under the broader Lazarus Group umbrella rather than tracking separate subgroup or cluster distinctions.
+
+  Kimsuky was assessed to be responsible for the 2014 Korea Hydro & Nuclear Power Co. compromise; other notable campaigns include Operation STOLEN PENCIL (2018), Operation Kabar Cobra (2019), and Operation Smoke Screen (2019).(Citation: Netscout Stolen Pencil Dec 2018)(Citation: EST Kimsuky SmokeScreen April 2019)(Citation: AhnLab Kimsuky Kabar Cobra Feb 2019)
+
+  In 2023, Kimsuky was observed using commercial large language models to assist with vulnerability research, scripting, social engineering and reconnaissance.(Citation: MSFT-AI)
 url: "/apt0094"
-country: "North Korea"
-sector_focus: ["Research - Innovation","Energy","Defense","Diplomacy","Academia - University ","News - Media","Government","Private sector"]
-targeted_victims: ["Ministry of Unification","Sejong Institute","Korea Institute for Defense Analyses","Germany"]
-incident_type: "Espionage"
-risk_level: "High"
-external_id: "G0094"
-external_url: "https://attack.mitre.org/groups/G0094"
-mitre_id: "G0094"
-mitre_url: "https://attack.mitre.org/groups/G0094"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-malware: ["{\"name\" => \"PowerDuke\"}","{\"name\" => \"POWERSTATS\"}","{\"name\" => \"Power Loader\"}","{\"name\" => \"POWERSOURCE\"}","{\"name\" => \"Nuclear RAT\"}","{\"name\" => \"PowerRAT\"}"]
+country: North Korea
+sector_focus:
+- Research - Innovation
+- Energy
+- Defense
+- Diplomacy
+- 'Academia - University '
+- News - Media
+- Government
+- Private sector
+targeted_victims:
+- Ministry of Unification
+- Sejong Institute
+- Korea Institute for Defense Analyses
+- Germany
+incident_type: Espionage
+risk_level: High
+external_id: G0094
+external_url: https://attack.mitre.org/groups/G0094
+mitre_id: G0094
+mitre_url: https://attack.mitre.org/groups/G0094
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+malware:
+- PowerDuke
+- POWERSTATS
+- Power Loader
+- POWERSOURCE
+- Nuclear RAT
+- PowerRAT
 provenance:
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G0094"
-    source_retrieved_at: "2026-04-26T05:24:31Z"
-source: "MITRE ATT&CK"
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_record_id: G0094
+    source_retrieved_at: '2026-04-26T05:24:31Z'
+source: MITRE ATT&CK

@@ -11,9 +11,9 @@ description: Cyber Alliance is a hacktivist group that has demonstrated capabili
 url: "/ukrainian-cyber-alliance"
 country: Ukraine
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Xploit"}'
+- CyberGate
+- Cyber Eye RAT
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

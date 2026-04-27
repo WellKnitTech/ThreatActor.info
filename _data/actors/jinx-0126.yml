@@ -13,7 +13,7 @@ description: Wiz Threat Research identified a new variant of an ongoing maliciou
   on file hash reputation.
 url: "/jinx-0126"
 malware:
-- '{"name" => "Miner-C"}'
+- Miner-C
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

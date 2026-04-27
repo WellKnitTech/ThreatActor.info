@@ -10,7 +10,7 @@ description: Nexus Zeta is no stranger when it comes to implementing SOAP relate
   wild by IoT botnets.
 url: "/nexus-zeta"
 malware:
-- '{"name" => "Xploit"}'
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

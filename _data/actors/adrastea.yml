@@ -10,11 +10,11 @@ description: Adrastea is a threat actor who has been active on cybercrime forums
   organizations' infrastructure to gain access to sensitive data.
 url: "/adrastea"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Xpert"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Archelaus Beta"}'
+- CyberGate
+- Cyber Eye RAT
+- Xpert
+- Xploit
+- Archelaus Beta
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

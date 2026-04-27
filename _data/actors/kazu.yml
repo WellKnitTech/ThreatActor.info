@@ -13,8 +13,8 @@ description: Kazu is a financially motivated ransomware group known for employin
   presence on dark web leak sites.
 url: "/kazu"
 malware:
-- '{"name" => "Dark DDoSeR"}'
-- '{"name" => "Xploit"}'
+- Dark DDoSeR
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -8,10 +8,10 @@ description: CardinalLizard, a cyber threat actor linked to China, has targeted 
 url: "/cardinallizard"
 country: China
 malware:
-- '{"name" => "China Chopper"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Cardinal"}'
+- China Chopper
+- CyberGate
+- Cyber Eye RAT
+- Cardinal
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

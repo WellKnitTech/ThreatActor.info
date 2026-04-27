@@ -22,9 +22,9 @@ A corporate espionage group has compromised a string of major corporations over 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Windows Remote Desktop"}**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **Windows Remote Desktop**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

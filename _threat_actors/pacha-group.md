@@ -22,7 +22,7 @@ Antd is a miner found in the wild on September 18, 2018. Recently we discovered 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Miner-C"}**
+- **Miner-C**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

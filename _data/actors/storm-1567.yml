@@ -13,13 +13,13 @@ description: Storm-1567 is the threat actor behind the Ransomware-as-a-Service A
   solution.
 url: "/storm-1567"
 malware:
-- '{"name" => "Hacking Team UEFI Rootkit"}'
-- '{"name" => "PowerDuke"}'
-- '{"name" => "POWERSTATS"}'
-- '{"name" => "Power Loader"}'
-- '{"name" => "POWERSOURCE"}'
-- '{"name" => "Windows Remote Desktop"}'
-- '{"name" => "PowerRAT"}'
+- Hacking Team UEFI Rootkit
+- PowerDuke
+- POWERSTATS
+- Power Loader
+- POWERSOURCE
+- Windows Remote Desktop
+- PowerRAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -16,11 +16,11 @@ description: GhostEmperor is a Chinese-speaking threat actor that targets govern
 url: "/ghostemperor"
 country: China
 malware:
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "Windows Remote Desktop"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "Ghost"}'
+- RemoteCMD
+- Remote Utilities
+- Windows Remote Desktop
+- RemotePC
+- Ghost
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

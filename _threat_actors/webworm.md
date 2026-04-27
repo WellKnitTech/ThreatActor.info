@@ -26,9 +26,9 @@ Space Pirates is a cybercrime group that has been active since at least 2017. Th
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "SPACESHIP"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
+- **SPACESHIP**
+- **CyberGate**
+- **Cyber Eye RAT**
 
 ## Attribution and Evidence
 **Country of Origin**: China

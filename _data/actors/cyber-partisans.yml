@@ -13,10 +13,10 @@ description: The Cyber Partisans, a hacktivist group based in Belarus, has been 
 url: "/cyber-partisans"
 country: Belarus
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "GraphicBooting"}'
-- '{"name" => "CrossRat"}'
+- CyberGate
+- Cyber Eye RAT
+- GraphicBooting
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

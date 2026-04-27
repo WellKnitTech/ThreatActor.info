@@ -31,7 +31,7 @@ AridViper is a state-sponsored APT primarily targeting military personnel, journ
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "MobileOrder"}**
+- **MobileOrder**
 
 ## Attribution and Evidence
 **Country of Origin**: Palestine

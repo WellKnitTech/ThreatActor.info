@@ -31,8 +31,8 @@ Magic Hound is an Iranian-sponsored threat group that conducts long term, resour
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Back Orifice"}**
-- **{"name" => "Back Orifice 2000"}**
+- **Back Orifice**
+- **Back Orifice 2000**
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

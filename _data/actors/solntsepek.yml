@@ -11,10 +11,10 @@ description: Solntsepek is a threat actor group with ties to the Russian militar
 url: "/solntsepek"
 country: Russia
 malware:
-- '{"name" => "Hacking Team UEFI Rootkit"}'
-- '{"name" => "MobileOrder"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- Hacking Team UEFI Rootkit
+- MobileOrder
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

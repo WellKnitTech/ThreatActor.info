@@ -14,12 +14,12 @@ description: The Gentlemen is a ransomware group that employs a dual-extortion s
   encrypted channels for data exfiltration.
 url: "/the-gentlemen"
 malware:
-- '{"name" => "PowerDuke"}'
-- '{"name" => "POWERSTATS"}'
-- '{"name" => "Power Loader"}'
-- '{"name" => "POWERSOURCE"}'
-- '{"name" => "PowerRAT"}'
-- '{"name" => "CrossRat"}'
+- PowerDuke
+- POWERSTATS
+- Power Loader
+- POWERSOURCE
+- PowerRAT
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -14,10 +14,10 @@ description: Konni is a threat actor associated with APT37, a North Korean cyber
 url: "/opal-sleet"
 country: North Korea
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Konni"}'
+- CyberGate
+- Cyber Eye RAT
+- Xploit
+- Konni
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

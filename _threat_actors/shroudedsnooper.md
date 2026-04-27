@@ -22,8 +22,8 @@ In September 2023, Cisco Talos identified a new malware family that it calls ‘
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Snoopy"}**
-- **{"name" => "Archelaus Beta"}**
+- **Snoopy**
+- **Archelaus Beta**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

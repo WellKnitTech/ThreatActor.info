@@ -15,16 +15,16 @@ sector_focus:
 targeted_victims:
 - Taiwan
 malware:
-- '{"name" => "CloudDuke"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Back Orifice"}'
-- '{"name" => "Back Orifice 2000"}'
-- '{"name" => "ClientMesh"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "SharpEye"}'
-- '{"name" => "Archelaus Beta"}'
-- '{"name" => "SharpBot"}'
+- CloudDuke
+- RemoteCMD
+- Back Orifice
+- Back Orifice 2000
+- ClientMesh
+- Remote Utilities
+- RemotePC
+- SharpEye
+- Archelaus Beta
+- SharpBot
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

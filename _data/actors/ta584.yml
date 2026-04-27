@@ -14,7 +14,7 @@ description: TA584 is a prominent initial access broker tracked by Proofpoint si
   for detection.
 url: "/ta584"
 malware:
-- '{"name" => "GraphicBooting"}'
+- GraphicBooting
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

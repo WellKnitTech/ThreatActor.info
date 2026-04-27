@@ -14,12 +14,12 @@ description: WASSONITE is a North Korea-linked APT that has targeted industrial 
 url: "/wassonite"
 country: North Korea
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Nuclear RAT"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "Seed RAT"}'
+- Backdoor.Oldrea
+- RemoteCMD
+- Nuclear RAT
+- Remote Utilities
+- RemotePC
+- Seed RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

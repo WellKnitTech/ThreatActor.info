@@ -9,10 +9,10 @@ description: Verticals targeted during Operation FishMedley include governments,
   by the FishMonger APT group.
 url: "/fishmedley"
 malware:
-- '{"name" => "China Chopper"}'
-- '{"name" => "UNITEDRAKE"}'
-- '{"name" => "CrossRat"}'
-- '{"name" => "SodaMaster"}'
+- China Chopper
+- UNITEDRAKE
+- CrossRat
+- SodaMaster
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

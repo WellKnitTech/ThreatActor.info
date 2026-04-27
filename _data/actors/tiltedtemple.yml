@@ -11,11 +11,11 @@ description: One of their notable tools is a custom backdoor called SockDetour, 
 url: "/tiltedtemple"
 country: China
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "Windows Remote Desktop"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Socket23"}'
-- '{"name" => "SocketPlayer"}'
+- Backdoor.Oldrea
+- Windows Remote Desktop
+- Xploit
+- Socket23
+- SocketPlayer
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -9,7 +9,7 @@ description: ScamClub is a threat actor involved in malvertising activities sinc
   leading to forced redirects and various scams such as phishing and gift card scams.
 url: "/scamclub"
 malware:
-- '{"name" => "MobileOrder"}'
+- MobileOrder
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

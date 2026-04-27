@@ -22,10 +22,10 @@ Between November 2018 and May 2019, senior members of Tibetan groups received ma
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "PoisonIvy"}**
-- **{"name" => "DroidJack"}**
-- **{"name" => "Androrat"}**
-- **{"name" => "Xploit"}**
+- **PoisonIvy**
+- **DroidJack**
+- **Androrat**
+- **Xploit**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

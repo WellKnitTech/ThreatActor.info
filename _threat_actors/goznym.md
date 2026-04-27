@@ -22,13 +22,13 @@ IBM X-Force Research uncovered a Trojan hybrid spawned from the Nymaim and Gozi 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "PowerDuke"}**
-- **{"name" => "POWERSTATS"}**
-- **{"name" => "Power Loader"}**
-- **{"name" => "Trojan.Karagany"}**
-- **{"name" => "POWERSOURCE"}**
-- **{"name" => "Trojan.Mebromi"}**
-- **{"name" => "PowerRAT"}**
+- **PowerDuke**
+- **POWERSTATS**
+- **Power Loader**
+- **Trojan.Karagany**
+- **POWERSOURCE**
+- **Trojan.Mebromi**
+- **PowerRAT**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

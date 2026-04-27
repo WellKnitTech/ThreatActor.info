@@ -9,11 +9,11 @@ description: |-
   The vast majority of the victims were based in India, with some in Malaysia. The victim industry was mostly military research and also shipping based in the Arabian and South China seas. In some instances the attackers appeared to have a clear goal, whereby specific files were retrieved from certain compromised computers. In other cases, the attackers used more of a ‘shotgun’ like approach, copying every file from a computer. Military technologies were obviously the focus of one particular attack with what appeared to be source code stolen. 45 different attacker IP addresses were observed. Out of those, 43 were within the same IP address range based in Sichuan province, China. The remaining two were based in South Korea. The pattern of attacker connections implies that the IP addresses are being used as a VPN, probably in an attempt to render the attackers anonymous.ænThe attacks have been active from at least April 2011 up to February 2012. The attackers are intelligent and focused, employing the minimum amount of work necessary for the maximum gain. They do not use zero day exploits or complicated threats, instead they rely on effective social engineering and lax security measures on the part of the victims.
 url: "/lucky-cat"
 malware:
-- '{"name" => "China Chopper"}'
-- '{"name" => "Arabian-Attacker RAT"}'
-- '{"name" => "Minimo"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Killer RAT"}'
+- China Chopper
+- Arabian-Attacker RAT
+- Minimo
+- Xploit
+- Killer RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

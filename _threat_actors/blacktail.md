@@ -22,15 +22,15 @@ Blacktail is a cybercrime group that has gained attention for its ransomware cam
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "BlackEnergy"}**
-- **{"name" => "BLACKCOFFEE"}**
-- **{"name" => "Blackshades"}**
-- **{"name" => "BlackNix"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Windows Remote Desktop"}**
-- **{"name" => "Xploit"}**
-- **{"name" => "BlackHole"}**
+- **BlackEnergy**
+- **BLACKCOFFEE**
+- **Blackshades**
+- **BlackNix**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **Windows Remote Desktop**
+- **Xploit**
+- **BlackHole**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

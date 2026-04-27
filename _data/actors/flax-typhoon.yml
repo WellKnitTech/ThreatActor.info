@@ -14,8 +14,8 @@ description: Flax Typhoon is a Chinese state-sponsored threat actor that primari
 url: "/flax-typhoon"
 country: China
 malware:
-- '{"name" => "Minimo"}'
-- '{"name" => "Xploit"}'
+- Minimo
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

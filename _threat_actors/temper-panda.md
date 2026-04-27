@@ -32,11 +32,11 @@ China-based cyber threat group. It has previously used newsworthy events as lure
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Backdoor.Oldrea"}**
-- **{"name" => "PoisonIvy"}**
-- **{"name" => "China Chopper"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
+- **Backdoor.Oldrea**
+- **PoisonIvy**
+- **China Chopper**
+- **CyberGate**
+- **Cyber Eye RAT**
 
 ## Attribution and Evidence
 **Country of Origin**: China

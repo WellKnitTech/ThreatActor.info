@@ -12,8 +12,8 @@ description: DarkRaaS is a threat actor specializing in selling unauthorized acc
   to have access to multiple terabytes of sensitive data 7 19.
 url: "/darkraas"
 malware:
-- '{"name" => "DarkRat"}'
-- '{"name" => "CrossRat"}'
+- DarkRat
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

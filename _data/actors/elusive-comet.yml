@@ -13,10 +13,10 @@ description: ELUSIVE COMET is a threat actor responsible for significant cryptoc
 url: "/elusive-comet"
 country: North Korea
 malware:
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "Xploit"}'
+- RemoteCMD
+- Remote Utilities
+- RemotePC
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

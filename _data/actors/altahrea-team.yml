@@ -8,14 +8,14 @@ description: Altahrea Team is a pro-Iranian hacking group that has been active s
   website, and a cyberattack on the Orot Yosef power plant in Israel.
 url: "/altahrea-team"
 malware:
-- '{"name" => "Hacking Team UEFI Rootkit"}'
-- '{"name" => "PowerDuke"}'
-- '{"name" => "POWERSTATS"}'
-- '{"name" => "Power Loader"}'
-- '{"name" => "POWERSOURCE"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "PowerRAT"}'
+- Hacking Team UEFI Rootkit
+- PowerDuke
+- POWERSTATS
+- Power Loader
+- POWERSOURCE
+- CyberGate
+- Cyber Eye RAT
+- PowerRAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

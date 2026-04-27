@@ -13,9 +13,9 @@ description: JabaRoot is an Algerian hacker group that has targeted Moroccan gov
   part of a broader trend of APT targeting government entities in the region.
 url: "/jabaroot"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Xpert"}'
+- CyberGate
+- Cyber Eye RAT
+- Xpert
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

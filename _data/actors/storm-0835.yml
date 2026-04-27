@@ -16,9 +16,9 @@ description: Cybercriminals have launched a phishing campaign targeting senior e
   to EvilProxy pages for credential harvesting.
 url: "/storm-0835"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Xploit"}'
+- CyberGate
+- Cyber Eye RAT
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

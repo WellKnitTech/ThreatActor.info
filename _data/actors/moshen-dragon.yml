@@ -11,10 +11,10 @@ description: Moshen Dragon is a Chinese-aligned cyberespionage threat actor oper
 url: "/moshen-dragon"
 country: China
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "PlugX"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- Backdoor.Oldrea
+- PlugX
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

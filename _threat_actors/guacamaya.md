@@ -22,7 +22,7 @@ Guacamaya has conducted multiple hack and leak campaigns against military and po
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CrossRat"}**
+- **CrossRat**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

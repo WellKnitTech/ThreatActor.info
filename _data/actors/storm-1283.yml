@@ -10,8 +10,8 @@ description: Storm-1283 is a threat actor that targeted Microsoft Azure cloud pl
   to carry out their illicit activities.
 url: "/storm-1283"
 malware:
-- '{"name" => "CloudDuke"}'
-- '{"name" => "RIPTIDE"}'
+- CloudDuke
+- RIPTIDE
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

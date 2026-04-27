@@ -15,7 +15,7 @@ description: CopyCop is a Russian covert influence network that has established 
 url: "/storm-1516"
 country: Russia
 malware:
-- '{"name" => "Xpert"}'
+- Xpert
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

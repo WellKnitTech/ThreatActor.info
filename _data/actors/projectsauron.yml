@@ -35,10 +35,10 @@ targeted_victims:
 incident_type: Espionage
 risk_level: High
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "XtremeRAT"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "GraphicBooting"}'
+- CyberGate
+- XtremeRAT
+- Cyber Eye RAT
+- GraphicBooting
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

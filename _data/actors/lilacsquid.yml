@@ -10,11 +10,11 @@ description: LilacSquid is an APT actor targeting a variety of industries worldw
   like Secure Socket Funneling for data exfiltration.
 url: "/lilacsquid"
 malware:
-- '{"name" => "Agent.btz"}'
-- '{"name" => "Quasar RAT"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Socket23"}'
-- '{"name" => "SocketPlayer"}'
+- Agent.btz
+- Quasar RAT
+- Xploit
+- Socket23
+- SocketPlayer
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

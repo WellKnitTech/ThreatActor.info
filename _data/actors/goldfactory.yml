@@ -14,11 +14,11 @@ description: GoldFactory is a threat actor group attributed to developing sophis
 url: "/goldfactory"
 country: China
 malware:
-- '{"name" => "MobileOrder"}'
-- '{"name" => "Trojan.Karagany"}'
-- '{"name" => "Trojan.Mebromi"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- MobileOrder
+- Trojan.Karagany
+- Trojan.Mebromi
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -13,9 +13,9 @@ description: 'DieNet is a hacktivist group that emerged in March 2025, known for
   offline sectarian tensions.'
 url: "/dienet"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Offence"}'
+- CyberGate
+- Cyber Eye RAT
+- Offence
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

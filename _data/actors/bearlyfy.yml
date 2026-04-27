@@ -15,10 +15,10 @@ description: Bearlyfy has been attributed to over 70 cyber attacks targeting Rus
 url: "/bearlyfy"
 country: Ukraine
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Windows Remote Desktop"}'
-- '{"name" => "Minimo"}'
+- CyberGate
+- Cyber Eye RAT
+- Windows Remote Desktop
+- Minimo
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

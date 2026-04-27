@@ -13,10 +13,10 @@ description: Bignosa is a threat actor known for launching malware campaigns tar
 url: "/bignosa"
 country: Kenya
 malware:
-- '{"name" => "Agent.btz"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Sandro RAT"}'
+- Agent.btz
+- CyberGate
+- Cyber Eye RAT
+- Sandro RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

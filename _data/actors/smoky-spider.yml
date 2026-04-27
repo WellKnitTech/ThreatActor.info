@@ -5,7 +5,7 @@ aliases:
 description: Mentioned as operator of SmokeLoader in CrowdStrike's 2020 Report.
 url: "/smoky-spider"
 malware:
-- '{"name" => "Smoke Loader"}'
+- Smoke Loader
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

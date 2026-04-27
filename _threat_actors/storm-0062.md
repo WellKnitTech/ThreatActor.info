@@ -26,11 +26,11 @@ The cyberattack campaign that Microsoft uncovered was launched by a China-linked
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Hacking Team UEFI Rootkit"}**
-- **{"name" => "China Chopper"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Xploit"}**
+- **Hacking Team UEFI Rootkit**
+- **China Chopper**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **Xploit**
 
 ## Attribution and Evidence
 **Country of Origin**: China

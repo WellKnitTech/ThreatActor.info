@@ -20,7 +20,7 @@ description: FireEye characterizes APT31 as an actor specialized on intellectual
 url: "/apt31"
 country: China
 malware:
-- '{"name" => "StreamEx"}'
+- StreamEx
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

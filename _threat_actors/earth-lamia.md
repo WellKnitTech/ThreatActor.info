@@ -26,11 +26,11 @@ Earth Lamia is a China-nexus APT that targets organizations across multiple sect
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Backdoor.Oldrea"}**
-- **{"name" => "China Chopper"}**
-- **{"name" => "Xploit"}**
-- **{"name" => "Cobalt Strike"}**
-- **{"name" => "CrossRat"}**
+- **Backdoor.Oldrea**
+- **China Chopper**
+- **Xploit**
+- **Cobalt Strike**
+- **CrossRat**
 
 ## Attribution and Evidence
 **Country of Origin**: China

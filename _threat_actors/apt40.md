@@ -34,7 +34,7 @@ Leviathan is a Chinese state-sponsored cyber espionage group that has been attri
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "UNITEDRAKE"}**
+- **UNITEDRAKE**
 
 ## Attribution and Evidence
 **Country of Origin**: China

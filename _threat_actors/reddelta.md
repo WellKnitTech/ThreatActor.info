@@ -22,9 +22,9 @@ Likely Chinese state-sponsored threat activity group RedDelta targeting organiza
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Backdoor.Oldrea"}**
-- **{"name" => "PlugX"}**
-- **{"name" => "RTM"}**
+- **Backdoor.Oldrea**
+- **PlugX**
+- **RTM**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

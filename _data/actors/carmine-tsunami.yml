@@ -15,10 +15,10 @@ description: Carmine Tsunami is a threat actor linked to an Israel-based private
 url: "/carmine-tsunami"
 country: Israel
 malware:
-- '{"name" => "CloudDuke"}'
-- '{"name" => "MobileOrder"}'
-- '{"name" => "Offence"}'
-- '{"name" => "Xploit"}'
+- CloudDuke
+- MobileOrder
+- Offence
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -12,9 +12,9 @@ description: GamaCopy is a threat actor first discovered in June 2023, known for
   sensitive information in the context of the Russia-Ukraine conflict.
 url: "/gamacopy"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Ultra VNC"}'
+- CyberGate
+- Cyber Eye RAT
+- Ultra VNC
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

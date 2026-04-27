@@ -11,16 +11,16 @@ description: UAC-0154 is a threat actor orchestrating the STARK#VORTEX phishing 
   sent via email to @ukr.net addresses.
 url: "/uac-0154"
 malware:
-- '{"name" => "PowerDuke"}'
-- '{"name" => "POWERSTATS"}'
-- '{"name" => "Agent.btz"}'
-- '{"name" => "Power Loader"}'
-- '{"name" => "POWERSOURCE"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "VorteX"}'
-- '{"name" => "PowerRAT"}'
+- PowerDuke
+- POWERSTATS
+- Agent.btz
+- Power Loader
+- POWERSOURCE
+- RemoteCMD
+- Remote Utilities
+- RemotePC
+- VorteX
+- PowerRAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -32,11 +32,11 @@ Researchers have uncovered a long-term cyber-espionage campaign that used a comb
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "TeamViewer"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Xpert"}**
-- **{"name" => "Archelaus Beta"}**
+- **TeamViewer**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **Xpert**
+- **Archelaus Beta**
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

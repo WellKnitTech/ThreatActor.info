@@ -1,16 +1,32 @@
-name: "Mustard Tempest"
-aliases: ["DEV-0206","GOLD PRELUDE","Mustard Tempest","TA569","UNC1543","Purple Vallhund"]
-description: "Mustard Tempest is an initial access broker that has operated the SocGholish distribution network since at least 2017. Mustard Tempest has partnered with Indrik Spider to provide access for the download of additional malware including LockBit, WastedLocker, and remote access tools.(Citation: Microsoft Ransomware as a Service)(Citation: Microsoft Threat Actor Naming July 2023)(Citation: Secureworks Gold Prelude Profile)(Citation: SocGholish-update)"
+---
+name: Mustard Tempest
+aliases:
+- DEV-0206
+- GOLD PRELUDE
+- Mustard Tempest
+- TA569
+- UNC1543
+- Purple Vallhund
+description: 'Mustard Tempest is an initial access broker that has operated the SocGholish
+  distribution network since at least 2017. Mustard Tempest has partnered with Indrik
+  Spider to provide access for the download of additional malware including LockBit,
+  WastedLocker, and remote access tools.(Citation: Microsoft Ransomware as a Service)(Citation:
+  Microsoft Threat Actor Naming July 2023)(Citation: Secureworks Gold Prelude Profile)(Citation:
+  SocGholish-update)'
 url: "/apt1020"
-external_id: "G1020"
-external_url: "https://attack.mitre.org/groups/G1020"
-mitre_id: "G1020"
-mitre_url: "https://attack.mitre.org/groups/G1020"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"Cobalt Strike\"}"]
+external_id: G1020
+external_url: https://attack.mitre.org/groups/G1020
+mitre_id: G1020
+mitre_url: https://attack.mitre.org/groups/G1020
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+malware:
+- CyberGate
+- Cyber Eye RAT
+- Cobalt Strike
 provenance:
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G1020"
-    source_retrieved_at: "2026-04-26T05:24:31Z"
-source: "MITRE ATT&CK"
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_record_id: G1020
+    source_retrieved_at: '2026-04-26T05:24:31Z'
+source: MITRE ATT&CK

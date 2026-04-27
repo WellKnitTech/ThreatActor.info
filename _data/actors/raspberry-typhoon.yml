@@ -14,7 +14,7 @@ description: Microsoft has tracked Raspberry Typhoon (RADIUM) as the primary thr
 url: "/raspberry-typhoon"
 country: China
 malware:
-- '{"name" => "China Chopper"}'
+- China Chopper
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

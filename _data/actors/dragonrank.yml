@@ -12,15 +12,15 @@ description: DragonRank is a threat actor primarily targeting web application se
   engine rankings and distributing scam websites through compromised Windows IIS servers.
 url: "/dragonrank"
 malware:
-- '{"name" => "BlackEnergy"}'
-- '{"name" => "Hacking Team UEFI Rootkit"}'
-- '{"name" => "PlugX"}'
-- '{"name" => "BLACKCOFFEE"}'
-- '{"name" => "Blackshades"}'
-- '{"name" => "BlackNix"}'
-- '{"name" => "Windows Remote Desktop"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "BlackHole"}'
+- BlackEnergy
+- Hacking Team UEFI Rootkit
+- PlugX
+- BLACKCOFFEE
+- Blackshades
+- BlackNix
+- Windows Remote Desktop
+- Xploit
+- BlackHole
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

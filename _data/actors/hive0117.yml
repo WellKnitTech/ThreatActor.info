@@ -14,11 +14,11 @@ description: Hive0117 is a financially motivated cybercriminal group that conduc
   in their TTPs.
 url: "/hive0117"
 malware:
-- '{"name" => "RIPTIDE"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "CrossRat"}'
-- '{"name" => "DarkWatchman"}'
+- RIPTIDE
+- CyberGate
+- Cyber Eye RAT
+- CrossRat
+- DarkWatchman
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

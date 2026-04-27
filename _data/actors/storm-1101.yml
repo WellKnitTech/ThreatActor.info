@@ -12,9 +12,9 @@ description: DEV-1101 is a threat actor tracked by Microsoft who is responsible 
   and is sold for $300 with VIP licenses available for $1,000.
 url: "/storm-1101"
 malware:
-- '{"name" => "MobileOrder"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- MobileOrder
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

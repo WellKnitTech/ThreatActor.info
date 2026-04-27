@@ -13,8 +13,8 @@ description: UNC5291 is a cluster of targeted probing activity that we assess wi
   and was potentially interested in Ivanti Connect Secure devices for initial access.
 url: "/unc5291"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

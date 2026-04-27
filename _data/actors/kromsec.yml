@@ -11,9 +11,9 @@ description: KromSec is a hacktivist group that claims to be composed of hackers
   and organizations around the world.
 url: "/kromsec"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Offence"}'
+- CyberGate
+- Cyber Eye RAT
+- Offence
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

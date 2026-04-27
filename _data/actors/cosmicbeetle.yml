@@ -12,9 +12,9 @@ description: CosmicBeetle is a threat actor known for deploying the ScRansom ran
   credential dumping and data destruction.
 url: "/cosmicbeetle"
 malware:
-- '{"name" => "CosmicDuke"}'
-- '{"name" => "SPACESHIP"}'
-- '{"name" => "Xploit"}'
+- CosmicDuke
+- SPACESHIP
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

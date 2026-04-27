@@ -26,11 +26,11 @@ GoldFactory is a threat actor group attributed to developing sophisticated mobil
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "MobileOrder"}**
-- **{"name" => "Trojan.Karagany"}**
-- **{"name" => "Trojan.Mebromi"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
+- **MobileOrder**
+- **Trojan.Karagany**
+- **Trojan.Mebromi**
+- **CyberGate**
+- **Cyber Eye RAT**
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -9,13 +9,13 @@ description: UAC-0184 is a threat actor targeting Ukrainian organizations in Fin
   processes to infect systems with the Remcos RAT.
 url: "/uac-0184"
 malware:
-- '{"name" => "Trojan.Karagany"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Trojan.Mebromi"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "GraphicBooting"}'
-- '{"name" => "Remcos"}'
+- Trojan.Karagany
+- RemoteCMD
+- Trojan.Mebromi
+- Remote Utilities
+- RemotePC
+- GraphicBooting
+- Remcos
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

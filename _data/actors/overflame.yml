@@ -13,9 +13,9 @@ description: OverFlame is a hacktivist group known for executing DDoS attacks an
   on disrupting critical infrastructure.
 url: "/overflame"
 malware:
-- '{"name" => "Flame"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- Flame
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

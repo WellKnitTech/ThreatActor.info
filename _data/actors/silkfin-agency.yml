@@ -11,7 +11,7 @@ description: SILKFIN AGENCY has claimed responsibility for multiple significant 
   and transaction details.
 url: "/silkfin-agency"
 malware:
-- '{"name" => "RTM"}'
+- RTM
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

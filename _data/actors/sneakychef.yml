@@ -12,8 +12,8 @@ description: SneakyChef is a threat actor known for using the SugarGh0st RAT to 
 url: "/sneakychef"
 country: China
 malware:
-- '{"name" => "gh0st"}'
-- '{"name" => "Gh0st RAT"}'
+- gh0st
+- Gh0st RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

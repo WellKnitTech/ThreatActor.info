@@ -15,12 +15,12 @@ description: TGR-STA-1030 is a state-aligned cyberespionage group operating out 
   purposes, especially those exploring specific economic partnerships.
 url: "/unc6619"
 malware:
-- '{"name" => "SHIPSHAPE"}'
-- '{"name" => "China Chopper"}'
-- '{"name" => "RTM"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "CrossRat"}'
+- SHIPSHAPE
+- China Chopper
+- RTM
+- CyberGate
+- Cyber Eye RAT
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -15,12 +15,12 @@ description: BatShadow is a Vietnamese threat actor that targets job seekers and
 url: "/batshadow"
 country: Vietnam
 malware:
-- '{"name" => "RIPTIDE"}'
-- '{"name" => "Agent.btz"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Quasar RAT"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
+- RIPTIDE
+- Agent.btz
+- RemoteCMD
+- Quasar RAT
+- Remote Utilities
+- RemotePC
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

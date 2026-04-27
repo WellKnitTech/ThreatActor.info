@@ -26,10 +26,10 @@ For the first time, the activity of the Calypso group was detected by specialist
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "RIPTIDE"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Xpert"}**
+- **RIPTIDE**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **Xpert**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

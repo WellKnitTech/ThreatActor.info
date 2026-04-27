@@ -11,7 +11,7 @@ description: TA4903 is a financially motivated threat actor known for conducting
   follow-on BEC activities.
 url: "/ta4903"
 malware:
-- '{"name" => "CrossRat"}'
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

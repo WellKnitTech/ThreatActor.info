@@ -7,8 +7,8 @@ description: |-
   The Snake Wine group has proven to be highly adaptable and has continued to adopt new tactics in order to establish footholds inside victim environments. The exclusive interest in Japanese government, education, and commerce will likely continue into the future as the group is just starting to build and utilize their existing current attack infrastructure.
 url: "/snake-wine"
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "Small-Net"}'
+- Backdoor.Oldrea
+- Small-Net
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

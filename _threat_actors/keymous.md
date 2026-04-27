@@ -22,9 +22,9 @@ Keymous is a threat actor known for executing extensive DDoS attacks across mult
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "CrossRat"}**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **CrossRat**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

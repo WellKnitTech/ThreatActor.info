@@ -11,11 +11,11 @@ description: It was observed that a mobile network threat actor designated as â€
 url: "/hiddenart"
 country: Russia
 malware:
-- '{"name" => "MobileOrder"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "GraphicBooting"}'
+- MobileOrder
+- RemoteCMD
+- Remote Utilities
+- RemotePC
+- GraphicBooting
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

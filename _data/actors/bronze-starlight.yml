@@ -20,13 +20,13 @@ description: "BRONZE STARLIGHT has been active since mid 2021 and targets organi
 url: "/bronze-starlight"
 country: China
 malware:
-- '{"name" => "Starloader"}'
-- '{"name" => "Smoke Loader"}'
-- '{"name" => "PlugX"}'
-- '{"name" => "China Chopper"}'
-- '{"name" => "Archelaus Beta"}'
-- '{"name" => "Cobalt Strike"}'
-- '{"name" => "CrossRat"}'
+- Starloader
+- Smoke Loader
+- PlugX
+- China Chopper
+- Archelaus Beta
+- Cobalt Strike
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

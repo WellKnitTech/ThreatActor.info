@@ -22,7 +22,7 @@ Ghostr is a financially motivated threat actor known for stealing a confidential
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Ghost"}**
+- **Ghost**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

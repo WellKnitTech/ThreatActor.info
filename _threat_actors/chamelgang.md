@@ -28,8 +28,8 @@ In Q2 2021, the PT Expert Security Center incident response team conducted an in
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Unknown Logger"}**
-- **{"name" => "Xpert"}**
+- **Unknown Logger**
+- **Xpert**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

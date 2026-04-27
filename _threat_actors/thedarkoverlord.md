@@ -22,7 +22,7 @@ The Dark Overlord is a financially motivated ransomware group that has been acti
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Dark DDoSeR"}**
+- **Dark DDoSeR**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

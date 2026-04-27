@@ -17,9 +17,9 @@ description: Between March and June 2025, Proofpoint identified multiple China-a
   using a custom Adversary in the Middle (AiTM) phishing kit.
 url: "/unk-fistbump"
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "China Chopper"}'
-- '{"name" => "Cobalt Strike"}'
+- Backdoor.Oldrea
+- China Chopper
+- Cobalt Strike
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

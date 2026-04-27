@@ -7,7 +7,7 @@ description: |-
   Since it is the first detection of this APT attack by 360 Security on a global scale, we code-named it as “Operation Poison Needles”, considering that the target was a medical institution. Currently, the attribution of the attacker is still under investigation. However, the special background of the polyclinic and the sensitiveness of the group it served both indicate the attack is highly targeted. Simultaneously, the attack occurred at a very sensitive timing of the Kerch Strait Incident, so it also aroused the assumption on the political attribution of the attack.
 url: "/operation-poison-needles"
 malware:
-- '{"name" => "PoisonIvy"}'
+- PoisonIvy
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -13,16 +13,16 @@ description: UNC4536 is a threat actor that distributes malware, including ICEDI
   Ads.
 url: "/unc4536"
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "PowerDuke"}'
-- '{"name" => "PoisonIvy"}'
-- '{"name" => "Carbanak"}'
-- '{"name" => "POWERSTATS"}'
-- '{"name" => "Power Loader"}'
-- '{"name" => "Trojan.Karagany"}'
-- '{"name" => "POWERSOURCE"}'
-- '{"name" => "Trojan.Mebromi"}'
-- '{"name" => "Netsupport Manager"}'
+- Backdoor.Oldrea
+- PowerDuke
+- PoisonIvy
+- Carbanak
+- POWERSTATS
+- Power Loader
+- Trojan.Karagany
+- POWERSOURCE
+- Trojan.Mebromi
+- Netsupport Manager
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

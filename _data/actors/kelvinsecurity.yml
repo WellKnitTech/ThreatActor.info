@@ -11,12 +11,12 @@ description: KelvinSecurity is a hacker group that has been active since at leas
 url: "/kelvinsecurity"
 country: Spain
 malware:
-- '{"name" => "BlackEnergy"}'
-- '{"name" => "BLACKCOFFEE"}'
-- '{"name" => "Blackshades"}'
-- '{"name" => "BlackNix"}'
-- '{"name" => "Dark DDoSeR"}'
-- '{"name" => "BlackHole"}'
+- BlackEnergy
+- BLACKCOFFEE
+- Blackshades
+- BlackNix
+- Dark DDoSeR
+- BlackHole
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

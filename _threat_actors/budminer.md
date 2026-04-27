@@ -26,8 +26,8 @@ Based on the evidence we have presented Symantec attributed the activity involvi
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Taidoor"}**
-- **{"name" => "Miner-C"}**
+- **Taidoor**
+- **Miner-C**
 
 ## Attribution and Evidence
 **Country of Origin**: China

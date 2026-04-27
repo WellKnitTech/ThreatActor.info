@@ -16,11 +16,11 @@ description: VENOM SPIDER is the developer of a large toolset that includes SKID
   SPIDER and PINCHY SPIDER.
 url: "/venom-spider"
 malware:
-- '{"name" => "PinchDuke"}'
-- '{"name" => "Venomous Ivy"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Cobalt Strike"}'
-- '{"name" => "Cardinal"}'
+- PinchDuke
+- Venomous Ivy
+- Xploit
+- Cobalt Strike
+- Cardinal
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

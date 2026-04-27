@@ -14,10 +14,10 @@ description: LIMINAL PANDA is a China-nexus APT that targets telecommunications 
 url: "/liminal-panda"
 country: China
 malware:
-- '{"name" => "MobileOrder"}'
-- '{"name" => "SHIPSHAPE"}'
-- '{"name" => "China Chopper"}'
-- '{"name" => "Xploit"}'
+- MobileOrder
+- SHIPSHAPE
+- China Chopper
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

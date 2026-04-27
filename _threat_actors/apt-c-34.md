@@ -22,10 +22,10 @@ As reported by ZDNet, Chinese cyber-security vendor Qihoo 360 published a report
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Hacking Team UEFI Rootkit"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Archelaus Beta"}**
+- **Hacking Team UEFI Rootkit**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **Archelaus Beta**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -12,8 +12,8 @@ description: NetRunnerPR has claimed to breach the networks of Shiraume Hospital
   breaches, raising questions about the credibility of the claims.
 url: "/netrunnerpr"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

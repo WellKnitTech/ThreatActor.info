@@ -10,15 +10,15 @@ description: |-
   Following the hack, the security community has been keeping a close eye on the company’s efforts to get back on its feet. The first reports suggesting Hacking Team’s resumed operations came six months later – a new sample of Hacking Team’s Mac spyware was apparently in the wild. A year after the breach, an investment by a company named Tablem Limited brought changes to Hacking Team’s shareholder structure, with Tablem Limited taking 20% of Hacking Team’s shareholding. Tablem Limited is officially based in Cyprus; however, recent news suggests it has ties to Saudi Arabia.
 url: "/hacking-team"
 malware:
-- '{"name" => "Hacking Team UEFI Rootkit"}'
-- '{"name" => "TURNEDUP"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Back Orifice"}'
-- '{"name" => "Back Orifice 2000"}'
-- '{"name" => "Arabian-Attacker RAT"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "CrossRat"}'
+- Hacking Team UEFI Rootkit
+- TURNEDUP
+- RemoteCMD
+- Back Orifice
+- Back Orifice 2000
+- Arabian-Attacker RAT
+- Remote Utilities
+- RemotePC
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

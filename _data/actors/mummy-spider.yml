@@ -11,11 +11,11 @@ description: |-
    MUMMY SPIDER advertised Emotet on underground forums until 2015, at which time it became private. Therefore, it is highly likely that Emotet is operate
 url: "/mummy-spider"
 malware:
-- '{"name" => "Trojan.Karagany"}'
-- '{"name" => "TURNEDUP"}'
-- '{"name" => "Trojan.Mebromi"}'
-- '{"name" => "ClientMesh"}'
-- '{"name" => "Client Maximus"}'
+- Trojan.Karagany
+- TURNEDUP
+- Trojan.Mebromi
+- ClientMesh
+- Client Maximus
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

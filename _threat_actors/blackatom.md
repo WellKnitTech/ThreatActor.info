@@ -32,12 +32,12 @@ Recent campaigns suggest Hamas-linked actors may be advancing their TTPs to incl
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "SPACESHIP"}**
-- **{"name" => "BlackEnergy"}**
-- **{"name" => "BLACKCOFFEE"}**
-- **{"name" => "Blackshades"}**
-- **{"name" => "BlackNix"}**
-- **{"name" => "BlackHole"}**
+- **SPACESHIP**
+- **BlackEnergy**
+- **BLACKCOFFEE**
+- **Blackshades**
+- **BlackNix**
+- **BlackHole**
 
 ## Attribution and Evidence
 **Country of Origin**: Palestine

@@ -13,8 +13,8 @@ description: GOLD FAIRFAX is a financially motivated cybercriminal threat group 
   of web browser behavior ('man-in-the-browser').
 url: "/gold-fairfax"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

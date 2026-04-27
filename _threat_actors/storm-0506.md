@@ -22,16 +22,16 @@ Storm-0506 (DEV-0506) is a financially motivated cybercriminal group operating a
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "BlackEnergy"}**
-- **{"name" => "Backdoor.Oldrea"}**
-- **{"name" => "PoisonIvy"}**
-- **{"name" => "CORESHELL"}**
-- **{"name" => "BLACKCOFFEE"}**
-- **{"name" => "Blackshades"}**
-- **{"name" => "BlackNix"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Xploit"}**
+- **BlackEnergy**
+- **Backdoor.Oldrea**
+- **PoisonIvy**
+- **CORESHELL**
+- **BLACKCOFFEE**
+- **Blackshades**
+- **BlackNix**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **Xploit**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

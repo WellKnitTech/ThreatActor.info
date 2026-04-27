@@ -32,7 +32,7 @@ Charming Kitten (aka Parastoo, aka Newscaster) is an group with a suspected nexu
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Parasite-HTTP-RAT"}**
+- **Parasite-HTTP-RAT**
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

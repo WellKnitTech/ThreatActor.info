@@ -10,8 +10,8 @@ description: GTFire is a threat actor that leverages Google Firebase for hosting
   HTTP GET request, with minimal operational overhead.
 url: "/gtfire"
 malware:
-- '{"name" => "HTTP WEB BACKDOOR"}'
-- '{"name" => "Minimo"}'
+- HTTP WEB BACKDOOR
+- Minimo
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

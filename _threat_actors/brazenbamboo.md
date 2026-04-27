@@ -26,9 +26,9 @@ BrazenBamboo is a Chinese state-affiliated threat actor known for developing the
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "ClientMesh"}**
-- **{"name" => "Xploit"}**
-- **{"name" => "Client Maximus"}**
+- **ClientMesh**
+- **Xploit**
+- **Client Maximus**
 
 ## Attribution and Evidence
 **Country of Origin**: China

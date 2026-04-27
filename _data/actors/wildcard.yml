@@ -10,7 +10,7 @@ description: Wildcard is a threat actor that initially targeted Israel's educati
   sectors within Israel.
 url: "/wildcard"
 malware:
-- '{"name" => "Unknown Logger"}'
+- Unknown Logger
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

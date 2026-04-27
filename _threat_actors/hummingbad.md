@@ -27,10 +27,10 @@ This group created a malware that takes over Android devices and generates $300,
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "MobileOrder"}**
-- **{"name" => "DroidJack"}**
-- **{"name" => "Androrat"}**
-- **{"name" => "Revenge-RAT"}**
+- **MobileOrder**
+- **DroidJack**
+- **Androrat**
+- **Revenge-RAT**
 
 ## Attribution and Evidence
 **Country of Origin**: China

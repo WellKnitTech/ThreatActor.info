@@ -12,8 +12,8 @@ description: Stargazer Goblin is a threat actor group that operates the Stargaze
   including Atlantida Stealer, Rhadamanthys, RisePro, Lumma Stealer, and RedLine.
 url: "/stargazer-goblin"
 malware:
-- '{"name" => "Gazer"}'
-- '{"name" => "Ghost"}'
+- Gazer
+- Ghost
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

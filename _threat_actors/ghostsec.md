@@ -22,7 +22,7 @@ GhostSec is a hacktivist group that emerged as an offshoot of Anonymous. They pr
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Ghost"}**
+- **Ghost**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

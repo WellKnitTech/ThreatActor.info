@@ -13,8 +13,8 @@ description: UAT-9921 is a China-nexus threat actor active since 2019, tracked b
 url: "/uat-9921"
 country: China
 malware:
-- '{"name" => "China Chopper"}'
-- '{"name" => "Xploit"}'
+- China Chopper
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

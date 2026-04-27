@@ -26,7 +26,7 @@ FireEye characterizes APT31 as an actor specialized on intellectual property the
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "StreamEx"}**
+- **StreamEx**
 
 ## Attribution and Evidence
 **Country of Origin**: China

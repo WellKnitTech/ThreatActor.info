@@ -10,7 +10,7 @@ description: Stucx is a threat actor known for targeting Israeli systems, includ
   and have a history of making threats against those who cooperate with Israel.
 url: "/stucxteam"
 malware:
-- '{"name" => "MobileOrder"}'
+- MobileOrder
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

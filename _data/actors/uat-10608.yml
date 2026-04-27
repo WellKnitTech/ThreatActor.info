@@ -10,8 +10,8 @@ description: UAT-10608 is a threat cluster observed by Cisco Talos conducting a 
   766 compromised hosts across multiple regions and cloud providers.
 url: "/uat-10608"
 malware:
-- '{"name" => "CloudDuke"}'
-- '{"name" => "CrossRat"}'
+- CloudDuke
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

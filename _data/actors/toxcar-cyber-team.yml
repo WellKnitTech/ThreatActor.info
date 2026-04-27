@@ -11,9 +11,9 @@ description: The Toxcar Cyber Team has claimed responsibility for a data leak in
   landscape.
 url: "/toxcar-cyber-team"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Virus RAT"}'
+- CyberGate
+- Cyber Eye RAT
+- Virus RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

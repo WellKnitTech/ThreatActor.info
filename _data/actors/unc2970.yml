@@ -13,9 +13,9 @@ description: UNC2970 is a North Korean threat actor that primarily targets organ
 url: "/unc2970"
 country: North Korea
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Archelaus Beta"}'
+- Backdoor.Oldrea
+- Xploit
+- Archelaus Beta
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

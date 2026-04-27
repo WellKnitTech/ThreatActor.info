@@ -22,11 +22,11 @@ BOSON SPIDER is a cyber criminal group, which was first identified in 2015, rece
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CyberGate"}**
-- **{"name" => "Dark DDoSeR"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Virus RAT"}**
-- **{"name" => "Xploit"}**
+- **CyberGate**
+- **Dark DDoSeR**
+- **Cyber Eye RAT**
+- **Virus RAT**
+- **Xploit**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

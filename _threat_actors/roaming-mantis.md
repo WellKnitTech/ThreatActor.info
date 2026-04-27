@@ -22,10 +22,10 @@ According to new research by Kaspersky's GReAT team, the online criminal activit
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "DroidJack"}**
-- **{"name" => "Androrat"}**
-- **{"name" => "Chrome Remote Desktop"}**
-- **{"name" => "Xploit"}**
+- **DroidJack**
+- **Androrat**
+- **Chrome Remote Desktop**
+- **Xploit**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

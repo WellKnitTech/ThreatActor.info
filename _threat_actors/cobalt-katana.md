@@ -22,9 +22,9 @@ COBALT KATANA has been active since at least March 2018, and it focuses many of 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Backdoor.Oldrea"}**
-- **{"name" => "Archelaus Beta"}**
-- **{"name" => "Cobalt Strike"}**
+- **Backdoor.Oldrea**
+- **Archelaus Beta**
+- **Cobalt Strike**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

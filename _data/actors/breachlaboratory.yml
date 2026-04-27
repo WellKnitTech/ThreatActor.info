@@ -12,9 +12,9 @@ description: BreachLaboratory is a cybercrime actor that specializes in the extr
   monetization through direct database sales and potential downstream fraud enablement.
 url: "/breachlaboratory"
 malware:
-- '{"name" => "StreamEx"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- StreamEx
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

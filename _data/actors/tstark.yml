@@ -13,8 +13,8 @@ description: TStark is a threat actor identified by X-Ops, associated with a clu
 url: "/tstark"
 country: China
 malware:
-- '{"name" => "Xploit"}'
-- '{"name" => "CrossRat"}'
+- Xploit
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

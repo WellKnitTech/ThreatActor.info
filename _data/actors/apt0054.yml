@@ -1,21 +1,36 @@
-name: "Sowbug"
-aliases: ["G0054","Sowbug"]
-description: "Sowbug is a threat group that has conducted targeted attacks against organizations in South America and Southeast Asia, particularly government entities, since at least 2015. (Citation: Symantec Sowbug Nov 2017)"
+---
+name: Sowbug
+aliases:
+- G0054
+- Sowbug
+description: 'Sowbug is a threat group that has conducted targeted attacks against
+  organizations in South America and Southeast Asia, particularly government entities,
+  since at least 2015. (Citation: Symantec Sowbug Nov 2017)'
 url: "/apt0054"
-country: "Unknown"
-sector_focus: ["Government"]
-targeted_victims: ["Argentina","Ecuador","Brazil","Brunei","Peru","Malaysia"]
-incident_type: "Espionage"
-risk_level: "High"
-external_id: "G0054"
-external_url: "https://attack.mitre.org/groups/G0054"
-mitre_id: "G0054"
-mitre_url: "https://attack.mitre.org/groups/G0054"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
+country: Unknown
+sector_focus:
+- Government
+targeted_victims:
+- Argentina
+- Ecuador
+- Brazil
+- Brunei
+- Peru
+- Malaysia
+incident_type: Espionage
+risk_level: High
+external_id: G0054
+external_url: https://attack.mitre.org/groups/G0054
+mitre_id: G0054
+mitre_url: https://attack.mitre.org/groups/G0054
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+malware:
+- CyberGate
+- Cyber Eye RAT
 provenance:
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G0054"
-    source_retrieved_at: "2026-04-26T07:05:44Z"
-source: "MITRE ATT&CK"
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_record_id: G0054
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+source: MITRE ATT&CK

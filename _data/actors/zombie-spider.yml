@@ -11,9 +11,9 @@ description: On April 7, 2017, Pytor Levashov — who predominantly used the ali
   conducted by Falcon Intelligence to seize control of the Kelihos botnet.
 url: "/zombie-spider"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "ZOMBIE SLAYER"}'
+- CyberGate
+- Cyber Eye RAT
+- ZOMBIE SLAYER
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

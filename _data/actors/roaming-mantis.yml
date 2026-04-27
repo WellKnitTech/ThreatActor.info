@@ -8,10 +8,10 @@ description: |-
   Recently, Kaspersky has discovered that this group is testing a new monetization scheme by redirecting iOS users to pages that contain the Coinhive in-browser mining script rather than the normal Apple phishing page. When users are redirected to these pages, they will be shown a blank page in the browser, but their CPU utilization will jump to 90% or higher.
 url: "/roaming-mantis"
 malware:
-- '{"name" => "DroidJack"}'
-- '{"name" => "Androrat"}'
-- '{"name" => "Chrome Remote Desktop"}'
-- '{"name" => "Xploit"}'
+- DroidJack
+- Androrat
+- Chrome Remote Desktop
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

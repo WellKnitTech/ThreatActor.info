@@ -13,7 +13,7 @@ description: From Russia with Love, is a threat actor group that emerged during 
   hacktivist groups.
 url: "/uac-0118"
 malware:
-- '{"name" => "Wiper"}'
+- Wiper
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

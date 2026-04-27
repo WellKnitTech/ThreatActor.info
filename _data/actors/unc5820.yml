@@ -11,8 +11,8 @@ description: UNC5820 is a threat actor exploiting the CVE-2024-47575 vulnerabili
   whether UNC5820 is state-sponsored or identified its geographic location.
 url: "/unc5820"
 malware:
-- '{"name" => "Xploit"}'
-- '{"name" => "GraphicBooting"}'
+- Xploit
+- GraphicBooting
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

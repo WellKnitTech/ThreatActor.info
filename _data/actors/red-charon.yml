@@ -15,9 +15,9 @@ description: Throughout 2019, multiple companies in the Taiwan high-tech ecosyst
   Skeleton Key.
 url: "/red-charon"
 malware:
-- '{"name" => "Skeleton Key"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- Skeleton Key
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

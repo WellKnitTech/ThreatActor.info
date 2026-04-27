@@ -10,8 +10,8 @@ description: Actor240524 is a newly identified APT group that targeted Azerbaija
   various countermeasures to obscure their attack tactics and techniques.
 url: "/actor240524"
 malware:
-- '{"name" => "Trojan.Karagany"}'
-- '{"name" => "Trojan.Mebromi"}'
+- Trojan.Karagany
+- Trojan.Mebromi
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

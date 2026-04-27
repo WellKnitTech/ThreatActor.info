@@ -22,10 +22,10 @@ SandCat, on the other hand, is a group that was discovered more recently by Kasp
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "FinFisher"}**
-- **{"name" => "Windows Remote Desktop"}**
-- **{"name" => "Xploit"}**
-- **{"name" => "FINSPY"}**
+- **FinFisher**
+- **Windows Remote Desktop**
+- **Xploit**
+- **FINSPY**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -10,8 +10,8 @@ description: Ruby Sleet is a threat actor linked to North Korea's Ministry of St
 url: "/ruby-sleet"
 country: North Korea
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

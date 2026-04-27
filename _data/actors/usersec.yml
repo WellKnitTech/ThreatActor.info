@@ -9,9 +9,9 @@ description: UserSec is a pro-Russian hacking group that has been active since a
 url: "/usersec"
 country: Russia
 malware:
-- '{"name" => "Hacking Team UEFI Rootkit"}'
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- Hacking Team UEFI Rootkit
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

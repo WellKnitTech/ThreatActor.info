@@ -11,7 +11,7 @@ description: TA2723 is a financially-motivated, high-volume credential phishing 
   data exfiltration, and lateral movement.
 url: "/ta2723"
 malware:
-- '{"name" => "GraphicBooting"}'
+- GraphicBooting
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

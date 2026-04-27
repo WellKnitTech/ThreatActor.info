@@ -10,8 +10,8 @@ description: SPIKEDWINE is a threat actor targeting European officials with a ne
   relations between India and European nations.
 url: "/spikedwine"
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "Xploit"}'
+- Backdoor.Oldrea
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

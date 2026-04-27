@@ -26,9 +26,9 @@ Storm-2372 is a suspected nation-state actor aligned with Russian interests, eng
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "GraphicBooting"}**
-- **{"name" => "Archelaus Beta"}**
-- **{"name" => "CrossRat"}**
+- **GraphicBooting**
+- **Archelaus Beta**
+- **CrossRat**
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

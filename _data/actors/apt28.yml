@@ -1,42 +1,213 @@
-name: "APT28"
-aliases: ["APT-C-20","APT28","ATK5","Blue Athena","BlueDelta","Fancy Bear","FANCY BEAR","Fighting Ursa","Forest Blizzard","FROZENLAKE","G0007","Grizzly Steppe","Group 74","GruesomeLarch","IRON TWILIGHT","ITG05","Pawn Storm","Sednit","SIG40","SNAKEMACKEREL","Sofacy","Sofacy Group","STRONTIUM","Swallowtail","T-APT-12","TA422","TG-4127","Threat Group-4127","Tsar Team","UAC-0001","UAC-0028","APT 28","TsarTeam","Group-4127","Grey-Cloud"]
-description: "APT28 is a threat group that has been attributed to Russia's General Staff Main Intelligence Directorate (GRU) 85th Main Special Service Center (GTsSS) military unit 26165.(Citation: NSA/FBI Drovorub August 2020)(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021) This group has been active since at least 2004.(Citation: DOJ GRU Indictment Jul 2018)(Citation: Ars Technica GRU indictment Jul 2018)(Citation: Crowdstrike DNC June 2016)(Citation: FireEye APT28)(Citation: SecureWorks TG-4127)(Citation: FireEye APT28 January 2017)(Citation: GRIZZLY STEPPE JAR)(Citation: Sofacy DealersChoice)(Citation: Palo Alto Sofacy 06-2018)(Citation: Symantec APT28 Oct 2018)(Citation: ESET Zebrocy May 2019)\n\nAPT28 reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election.(Citation: Crowdstrike DNC June 2016) In 2018, the US indicted five GRU Unit 26165 officers associated with APT28 for cyber operations (including close-access operations) conducted between 2014 and 2018 against the World Anti-Doping Agency (WADA), the US Anti-Doping Agency, a US nuclear facility, the Organization for the Prohibition of Chemical Weapons (OPCW), the Spiez Swiss Chemicals Laboratory, and other organizations.(Citation: US District Court Indictment GRU Oct 2018) Some of these were conducted with the assistance of GRU Unit 74455, which is also referred to as Sandworm Team. "
+---
+name: APT28
+aliases:
+- APT-C-20
+- APT28
+- ATK5
+- Blue Athena
+- BlueDelta
+- Fancy Bear
+- FANCY BEAR
+- Fighting Ursa
+- Forest Blizzard
+- FROZENLAKE
+- G0007
+- Grizzly Steppe
+- Group 74
+- GruesomeLarch
+- IRON TWILIGHT
+- ITG05
+- Pawn Storm
+- Sednit
+- SIG40
+- SNAKEMACKEREL
+- Sofacy
+- Sofacy Group
+- STRONTIUM
+- Swallowtail
+- T-APT-12
+- TA422
+- TG-4127
+- Threat Group-4127
+- Tsar Team
+- UAC-0001
+- UAC-0028
+- APT 28
+- TsarTeam
+- Group-4127
+- Grey-Cloud
+description: "APT28 is a threat group that has been attributed to Russia's General
+  Staff Main Intelligence Directorate (GRU) 85th Main Special Service Center (GTsSS)
+  military unit 26165.(Citation: NSA/FBI Drovorub August 2020)(Citation: Cybersecurity
+  Advisory GRU Brute Force Campaign July 2021) This group has been active since at
+  least 2004.(Citation: DOJ GRU Indictment Jul 2018)(Citation: Ars Technica GRU indictment
+  Jul 2018)(Citation: Crowdstrike DNC June 2016)(Citation: FireEye APT28)(Citation:
+  SecureWorks TG-4127)(Citation: FireEye APT28 January 2017)(Citation: GRIZZLY STEPPE
+  JAR)(Citation: Sofacy DealersChoice)(Citation: Palo Alto Sofacy 06-2018)(Citation:
+  Symantec APT28 Oct 2018)(Citation: ESET Zebrocy May 2019)\n\nAPT28 reportedly compromised
+  the Hillary Clinton campaign, the Democratic National Committee, and the Democratic
+  Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S.
+  presidential election.(Citation: Crowdstrike DNC June 2016) In 2018, the US indicted
+  five GRU Unit 26165 officers associated with APT28 for cyber operations (including
+  close-access operations) conducted between 2014 and 2018 against the World Anti-Doping
+  Agency (WADA), the US Anti-Doping Agency, a US nuclear facility, the Organization
+  for the Prohibition of Chemical Weapons (OPCW), the Spiez Swiss Chemicals Laboratory,
+  and other organizations.(Citation: US District Court Indictment GRU Oct 2018) Some
+  of these were conducted with the assistance of GRU Unit 74455, which is also referred
+  to as Sandworm Team. "
 url: "/apt28"
-country: "Russia"
-sector_focus: ["Government","Military","Media","Government, Administration","Security Service"]
-targeted_victims: ["Georgia","France","Jordan","United States","Hungary","World Anti-Doping Agency","Armenia","Tajikistan","Japan","NATO","Ukraine","Belgium","Pakistan","Asia Pacific Economic Cooperation","International Association of Athletics Federations","Turkey","Mongolia","OSCE","United Kingdom","Germany","Poland","European Commission","Afghanistan","Kazakhstan","China"]
-incident_type: "Espionage"
-first_seen: "2007"
-last_activity: "2024"
-risk_level: "High"
-external_id: "G0007"
-external_url: "https://attack.mitre.org/groups/G0007"
-mitre_id: "G0007"
-mitre_url: "https://attack.mitre.org/groups/G0007"
-source_name: "Malpedia (Fraunhofer FKIE)"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt28"
-source_license: "CC BY-NC-SA 3.0"
-source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"X-Agent\"}","{\"name\" => \"Komplex\"}","{\"name\" => \"ArguePatch\"}","{\"name\" => \"Cannon\"}","{\"name\" => \"DriveOcean\"}","{\"name\" => \"Unidentified 114 (APT28 InfoStealer)\"}","{\"name\" => \"XP PrivEsc (CVE-2014-4076)\"}","{\"name\" => \"X-Tunnel (.NET)\"}","{\"name\" => \"Zebrocy (AutoIT)\"}","{\"name\" => \"LoJax\"}","{\"name\" => \"CredoMap\"}","{\"name\" => \"Mocky LNK\"}","{\"name\" => \"OCEANMAP\"}","{\"name\" => \"SpyPress\"}","{\"name\" => \"STEELHOOK\"}","{\"name\" => \"MASEPIE\"}","{\"name\" => \"LAMEHUG\"}","{\"name\" => \"CaddyWiper\"}","{\"name\" => \"Computrace\"}","{\"name\" => \"Coreshell\"}","{\"name\" => \"Downdelph\"}","{\"name\" => \"FusionDrive\"}","{\"name\" => \"GooseEgg\"}","{\"name\" => \"Graphite\"}","{\"name\" => \"Koadic\"}","{\"name\" => \"OLDBAIT\"}","{\"name\" => \"PocoDown\"}","{\"name\" => \"Sedreco\"}","{\"name\" => \"Seduploader\"}","{\"name\" => \"Unidentified 078 (Zebrocy Nim Loader?)\"}","{\"name\" => \"Zebrocy\"}","{\"name\" => \"GONEPOSTAL\"}","{\"name\" => \"BadPaw\"}","{\"name\" => \"BEARDSHELL\"}","{\"name\" => \"SLIMAGENT\"}","{\"name\" => \"XTunnel\"}","{\"name\" => \"Unidentified JS 007 (Zimbra Stealer)\"}","{\"name\" => \"PixyNetLoader\"}"]
+country: Russia
+sector_focus:
+- Government
+- Military
+- Media
+- Government, Administration
+- Security Service
+targeted_victims:
+- Georgia
+- France
+- Jordan
+- United States
+- Hungary
+- World Anti-Doping Agency
+- Armenia
+- Tajikistan
+- Japan
+- NATO
+- Ukraine
+- Belgium
+- Pakistan
+- Asia Pacific Economic Cooperation
+- International Association of Athletics Federations
+- Turkey
+- Mongolia
+- OSCE
+- United Kingdom
+- Germany
+- Poland
+- European Commission
+- Afghanistan
+- Kazakhstan
+- China
+incident_type: Espionage
+first_seen: '2007'
+last_activity: '2024'
+risk_level: High
+external_id: G0007
+external_url: https://attack.mitre.org/groups/G0007
+mitre_id: G0007
+mitre_url: https://attack.mitre.org/groups/G0007
+source_name: Malpedia (Fraunhofer FKIE)
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/apt28
+source_license: CC BY-NC-SA 3.0
+source_license_url: https://malpedia.caad.fkie.fraunhofer.de/legal
+malware:
+- CyberGate
+- Cyber Eye RAT
+- X-Agent
+- Komplex
+- ArguePatch
+- Cannon
+- DriveOcean
+- Unidentified 114 (APT28 InfoStealer)
+- XP PrivEsc (CVE-2014-4076)
+- X-Tunnel (.NET)
+- Zebrocy (AutoIT)
+- LoJax
+- CredoMap
+- Mocky LNK
+- OCEANMAP
+- SpyPress
+- STEELHOOK
+- MASEPIE
+- LAMEHUG
+- CaddyWiper
+- Computrace
+- Coreshell
+- Downdelph
+- FusionDrive
+- GooseEgg
+- Graphite
+- Koadic
+- OLDBAIT
+- PocoDown
+- Sedreco
+- Seduploader
+- Unidentified 078 (Zebrocy Nim Loader?)
+- Zebrocy
+- GONEPOSTAL
+- BadPaw
+- BEARDSHELL
+- SLIMAGENT
+- XTunnel
+- Unidentified JS 007 (Zimbra Stealer)
+- PixyNetLoader
 provenance:
   aptnotes:
-    earliest_report_year: "2014"
-    latest_report_year: "2023"
+    earliest_report_year: '2014'
+    latest_report_year: '2023'
     report_count: 26
-    sample_links: ["https://app.box.com/s/th78b3w9bhr1cpdtn9gmmm9v7j2vuq47","https://app.box.com/s/t2flymgu0ct5s3z487oedaq8dycsge77","https://app.box.com/s/2e7s0j3cuuswoplyvaqdz4kdudvvr7x7","https://app.box.com/s/9b7dfetwel6ywbcfai2wa0ja20cym721","https://app.box.com/s/oj4sr8vifeb03qe51newafin81tu8poy","https://app.box.com/s/dm3fbeb7hl95ilno014ftskoc1vi7n1r","https://app.box.com/s/g55oxdd3q63hyngbjm4fbipfct94wrye","https://app.box.com/s/2x3mrik225skob8rxd50rp63wlq0fp6v","https://app.box.com/s/49rs6u4cyq43khamdah90y9zyacjzmbr","https://app.box.com/s/uy6iv3fj7akwzrj9zq1gv403b35twaoy","https://app.box.com/s/jfku9mhjnf150uokw2owfxy0isj3pi28","https://app.box.com/s/2y2p7im0bp3o5myvi5s9cxfchddn2zbd","https://app.box.com/s/w1qrcz1z9bx2dwt4gegv0h940ex35hlt","https://app.box.com/s/c7oz0zci5gxsbgnucxwah82bfdj0boe0","https://app.box.com/s/lmaensc7vzdugsy1nsh4bwligl07q53b","https://app.box.com/s/p4ywd9iqr5fr48nbz5o0nfwwgjkq5itk","https://app.box.com/s/7u92nzu48zg6kq0pmtlh9pj8p6jmjmrt","https://app.box.com/s/77t5ropot0e1yy0r1i5g8s9bsvvnq6t3","https://app.box.com/s/8lj785rl608lsmf80bwvtuxb7b9mscxy","https://app.box.com/s/py4k1124p7hqacfb6dlkghvsh5xte2zw"]
-    sample_titles: ["Tactical Intelligence Bulletin Sofacy Phishing","Operation Pawn Storm Using Decoys To Evade Detection","Apt28: A Window Into Russia's Cyber Espionage Operations","Pawn Storm Update: Ios Espionage App Found","Operation Russiandoll: Adobe & Windows ZeroDay Exploits Likely leveraged By Russia's APT28","Sofacy II_ Same Sofacy, Different Day","APT28 Targets Financial Markets: Zero Day Hashes Released","A Look Into Fysbis: Sofacy's Linux Backdoor","New Sofacy Attacks Against US Government Agency","Threat Group-4127 Targets Hillary Clinton Presidential Campaign"]
-    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
-    source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-04-26T22:14:32Z"
-    sources: ["Bitdefender","CERT-UA","Crowdstrike","Dell Secureworks","ESET","FireEye","IBM","McAfee","PWC","Palo Alto","Palo Alto Networks","Secureworks","Trend Micro","root9b","tr1adx"]
+    sample_links:
+    - https://app.box.com/s/th78b3w9bhr1cpdtn9gmmm9v7j2vuq47
+    - https://app.box.com/s/t2flymgu0ct5s3z487oedaq8dycsge77
+    - https://app.box.com/s/2e7s0j3cuuswoplyvaqdz4kdudvvr7x7
+    - https://app.box.com/s/9b7dfetwel6ywbcfai2wa0ja20cym721
+    - https://app.box.com/s/oj4sr8vifeb03qe51newafin81tu8poy
+    - https://app.box.com/s/dm3fbeb7hl95ilno014ftskoc1vi7n1r
+    - https://app.box.com/s/g55oxdd3q63hyngbjm4fbipfct94wrye
+    - https://app.box.com/s/2x3mrik225skob8rxd50rp63wlq0fp6v
+    - https://app.box.com/s/49rs6u4cyq43khamdah90y9zyacjzmbr
+    - https://app.box.com/s/uy6iv3fj7akwzrj9zq1gv403b35twaoy
+    - https://app.box.com/s/jfku9mhjnf150uokw2owfxy0isj3pi28
+    - https://app.box.com/s/2y2p7im0bp3o5myvi5s9cxfchddn2zbd
+    - https://app.box.com/s/w1qrcz1z9bx2dwt4gegv0h940ex35hlt
+    - https://app.box.com/s/c7oz0zci5gxsbgnucxwah82bfdj0boe0
+    - https://app.box.com/s/lmaensc7vzdugsy1nsh4bwligl07q53b
+    - https://app.box.com/s/p4ywd9iqr5fr48nbz5o0nfwwgjkq5itk
+    - https://app.box.com/s/7u92nzu48zg6kq0pmtlh9pj8p6jmjmrt
+    - https://app.box.com/s/77t5ropot0e1yy0r1i5g8s9bsvvnq6t3
+    - https://app.box.com/s/8lj785rl608lsmf80bwvtuxb7b9mscxy
+    - https://app.box.com/s/py4k1124p7hqacfb6dlkghvsh5xte2zw
+    sample_titles:
+    - Tactical Intelligence Bulletin Sofacy Phishing
+    - Operation Pawn Storm Using Decoys To Evade Detection
+    - 'Apt28: A Window Into Russia''s Cyber Espionage Operations'
+    - 'Pawn Storm Update: Ios Espionage App Found'
+    - 'Operation Russiandoll: Adobe & Windows ZeroDay Exploits Likely leveraged By
+      Russia''s APT28'
+    - Sofacy II_ Same Sofacy, Different Day
+    - 'APT28 Targets Financial Markets: Zero Day Hashes Released'
+    - 'A Look Into Fysbis: Sofacy''s Linux Backdoor'
+    - New Sofacy Attacks Against US Government Agency
+    - Threat Group-4127 Targets Hillary Clinton Presidential Campaign
+    source_dataset_url: https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
+    source_repository: https://github.com/aptnotes/data
+    source_retrieved_at: '2026-04-26T22:14:32Z'
+    sources:
+    - Bitdefender
+    - CERT-UA
+    - Crowdstrike
+    - Dell Secureworks
+    - ESET
+    - FireEye
+    - IBM
+    - McAfee
+    - PWC
+    - Palo Alto
+    - Palo Alto Networks
+    - Secureworks
+    - Trend Micro
+    - root9b
+    - tr1adx
   malpedia:
-    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
-    source_record_id: "apt28"
-    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt28"
-    source_retrieved_at: "2026-04-26T22:14:32Z"
-    source_uuid: "5b4ee3ea-eee3-4c8e-8323-85ae32658754"
+    source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
+    source_record_id: apt28
+    source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/apt28
+    source_retrieved_at: '2026-04-26T22:14:32Z'
+    source_uuid: 5b4ee3ea-eee3-4c8e-8323-85ae32658754
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G0007"
-    source_retrieved_at: "2026-04-26T07:05:44Z"
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_record_id: G0007
+    source_retrieved_at: '2026-04-26T07:05:44Z'

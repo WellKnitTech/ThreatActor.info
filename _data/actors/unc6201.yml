@@ -11,9 +11,9 @@ description: UNC6201 is a sophisticated Chinese state-sponsored hacking group th
 url: "/unc6201"
 country: China
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "Hacking Team UEFI Rootkit"}'
-- '{"name" => "Xploit"}'
+- Backdoor.Oldrea
+- Hacking Team UEFI Rootkit
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

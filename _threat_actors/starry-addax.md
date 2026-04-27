@@ -22,11 +22,11 @@ Starry Addax is a threat actor targeting human rights activists associated with 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Starloader"}**
-- **{"name" => "MobileOrder"}**
-- **{"name" => "DroidJack"}**
-- **{"name" => "Androrat"}**
-- **{"name" => "Windows Remote Desktop"}**
+- **Starloader**
+- **MobileOrder**
+- **DroidJack**
+- **Androrat**
+- **Windows Remote Desktop**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

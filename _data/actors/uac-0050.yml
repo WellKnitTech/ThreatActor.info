@@ -13,11 +13,11 @@ url: "/uac-0050"
 targeted_victims:
 - Germany
 malware:
-- '{"name" => "Hacking Team UEFI Rootkit"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "Remcos"}'
+- Hacking Team UEFI Rootkit
+- RemoteCMD
+- Remote Utilities
+- RemotePC
+- Remcos
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

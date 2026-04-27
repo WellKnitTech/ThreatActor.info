@@ -12,7 +12,7 @@ description: Antd is a miner found in the wild on September 18, 2018. Recently w
   classified the threat actor as Pacha Group.
 url: "/pacha-group"
 malware:
-- '{"name" => "Miner-C"}'
+- Miner-C
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

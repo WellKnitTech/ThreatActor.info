@@ -11,8 +11,8 @@ description: What sets Urpage attacks apart is its targeting of InPage, a word p
   connected to the two.
 url: "/urpage"
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "Arabian-Attacker RAT"}'
+- Backdoor.Oldrea
+- Arabian-Attacker RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

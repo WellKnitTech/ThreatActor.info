@@ -9,10 +9,10 @@ description: Researchers at FireEye report finding a hacking group (dubbed NOTRO
   exploit attempts by mitigation.
 url: "/notrobin"
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "Hacking Team UEFI Rootkit"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Archelaus Beta"}'
+- Backdoor.Oldrea
+- Hacking Team UEFI Rootkit
+- Xploit
+- Archelaus Beta
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

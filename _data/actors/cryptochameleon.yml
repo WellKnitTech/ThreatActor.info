@@ -13,8 +13,8 @@ description: CryptoChameleon is a cybercriminal group known for targeting crypto
   to evade detection by automated scanners.
 url: "/cryptochameleon"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
+- CyberGate
+- Cyber Eye RAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

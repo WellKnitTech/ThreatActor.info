@@ -22,9 +22,9 @@ Between March and June 2025, Proofpoint identified multiple China-aligned threat
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Backdoor.Oldrea"}**
-- **{"name" => "China Chopper"}**
-- **{"name" => "Cobalt Strike"}**
+- **Backdoor.Oldrea**
+- **China Chopper**
+- **Cobalt Strike**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

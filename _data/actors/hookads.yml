@@ -10,13 +10,13 @@ description: HookAds is a malvertising campaign that purchases cheap ad space on
   silently load the Fallout exploit kit, which will try and install its malware payload.
 url: "/hookads"
 malware:
-- '{"name" => "SPACESHIP"}'
-- '{"name" => "BlackEnergy"}'
-- '{"name" => "BLACKCOFFEE"}'
-- '{"name" => "Blackshades"}'
-- '{"name" => "BlackNix"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "BlackHole"}'
+- SPACESHIP
+- BlackEnergy
+- BLACKCOFFEE
+- Blackshades
+- BlackNix
+- Xploit
+- BlackHole
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

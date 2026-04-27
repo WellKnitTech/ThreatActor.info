@@ -39,13 +39,13 @@ targeted_victims:
 - Sweden
 - United Kingdom
 malware:
-- '{"name" => "China Chopper"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "RTM"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Archelaus Beta"}'
+- China Chopper
+- RemoteCMD
+- RTM
+- Remote Utilities
+- RemotePC
+- Xploit
+- Archelaus Beta
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

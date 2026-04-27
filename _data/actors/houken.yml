@@ -12,8 +12,8 @@ description: Houken is a Chinese state-sponsored threat actor that exploits zero
 url: "/houken"
 country: China
 malware:
-- '{"name" => "CloudDuke"}'
-- '{"name" => "Xploit"}'
+- CloudDuke
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -22,9 +22,9 @@ description: COBALT KATANA has been active since at least March 2018, and it foc
   to COBALT GYPSY and COBALT EDGEWATER.
 url: "/cobalt-katana"
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "Archelaus Beta"}'
-- '{"name" => "Cobalt Strike"}'
+- Backdoor.Oldrea
+- Archelaus Beta
+- Cobalt Strike
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

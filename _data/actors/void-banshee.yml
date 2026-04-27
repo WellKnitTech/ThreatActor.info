@@ -11,8 +11,8 @@ description: Void Banshee is an APT group targeting North America, Europe, and S
   window sizes in IE and using HTML files to hide malicious downloads from victims.
 url: "/void-banshee"
 malware:
-- '{"name" => "Windows Remote Desktop"}'
-- '{"name" => "Xploit"}'
+- Windows Remote Desktop
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

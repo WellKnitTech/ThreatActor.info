@@ -9,11 +9,11 @@ description: BOSON SPIDER is a cyber criminal group, which was first identified 
   and obfuscated JavaScript to reduce the detection by antivirus solutions.
 url: "/boson-spider"
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Dark DDoSeR"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "Virus RAT"}'
-- '{"name" => "Xploit"}'
+- CyberGate
+- Dark DDoSeR
+- Cyber Eye RAT
+- Virus RAT
+- Xploit
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

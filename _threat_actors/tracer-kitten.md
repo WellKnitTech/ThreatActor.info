@@ -28,7 +28,7 @@ In April 2020, Crowstrike Falcon OverWatch discovered Iran-based adversary TRACE
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Backdoor.Oldrea"}**
+- **Backdoor.Oldrea**
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

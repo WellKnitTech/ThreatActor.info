@@ -31,12 +31,12 @@ VICEROY TIGER is an adversary with a nexus to India that has historically target
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "MobileOrder"}**
-- **{"name" => "Unknown Logger"}**
-- **{"name" => "Back Orifice"}**
-- **{"name" => "Back Orifice 2000"}**
-- **{"name" => "DroidJack"}**
-- **{"name" => "Androrat"}**
+- **MobileOrder**
+- **Unknown Logger**
+- **Back Orifice**
+- **Back Orifice 2000**
+- **DroidJack**
+- **Androrat**
 
 ## Attribution and Evidence
 **Country of Origin**: India

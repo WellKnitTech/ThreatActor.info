@@ -22,8 +22,8 @@ INJ3CTOR3 is a threat actor first identified in 2020, known for targeting vulner
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "BX"}**
-- **{"name" => "Xploit"}**
+- **BX**
+- **Xploit**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

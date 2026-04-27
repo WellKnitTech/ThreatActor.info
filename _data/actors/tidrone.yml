@@ -13,10 +13,10 @@ description: TIDRONE is an unidentified threat actor linked to Chinese-speaking 
 url: "/tidrone"
 country: China
 malware:
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "DesktopNow"}'
+- RemoteCMD
+- Remote Utilities
+- RemotePC
+- DesktopNow
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

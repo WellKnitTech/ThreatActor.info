@@ -11,14 +11,14 @@ description: Larva-26002 targets improperly managed MS-SQL servers, exploiting v
   infected environment.
 url: "/larva-26002"
 malware:
-- '{"name" => "CloudDuke"}'
-- '{"name" => "RemoteCMD"}'
-- '{"name" => "ClientMesh"}'
-- '{"name" => "Remote Utilities"}'
-- '{"name" => "RemotePC"}'
-- '{"name" => "AnyDesk"}'
-- '{"name" => "Xploit"}'
-- '{"name" => "Client Maximus"}'
+- CloudDuke
+- RemoteCMD
+- ClientMesh
+- Remote Utilities
+- RemotePC
+- AnyDesk
+- Xploit
+- Client Maximus
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -16,9 +16,9 @@ description: REF7707 is a cyber campaign targeting government entities, particul
 url: "/ref7707"
 country: China
 malware:
-- '{"name" => "CyberGate"}'
-- '{"name" => "Cyber Eye RAT"}'
-- '{"name" => "GraphicBooting"}'
+- CyberGate
+- Cyber Eye RAT
+- GraphicBooting
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

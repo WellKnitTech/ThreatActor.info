@@ -22,10 +22,10 @@ Asnarök is a threat actor that exploited CVE-2020-12271 and utilized command in
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Trojan.Karagany"}**
-- **{"name" => "Trojan.Mebromi"}**
-- **{"name" => "Xploit"}**
-- **{"name" => "Archelaus Beta"}**
+- **Trojan.Karagany**
+- **Trojan.Mebromi**
+- **Xploit**
+- **Archelaus Beta**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -22,9 +22,9 @@ On April 7, 2017, Pytor Levashov — who predominantly used the alias Severa or 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "ZOMBIE SLAYER"}**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **ZOMBIE SLAYER**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

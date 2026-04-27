@@ -13,15 +13,15 @@ description: This actor typically distributes instances of the SmokeLoader inter
   the same campaigns.
 url: "/ta516"
 malware:
-- '{"name" => "Smoke Loader"}'
-- '{"name" => "PowerDuke"}'
-- '{"name" => "POWERSTATS"}'
-- '{"name" => "Power Loader"}'
-- '{"name" => "Trojan.Karagany"}'
-- '{"name" => "POWERSOURCE"}'
-- '{"name" => "Miner-C"}'
-- '{"name" => "Trojan.Mebromi"}'
-- '{"name" => "PowerRAT"}'
+- Smoke Loader
+- PowerDuke
+- POWERSTATS
+- Power Loader
+- Trojan.Karagany
+- POWERSOURCE
+- Miner-C
+- Trojan.Mebromi
+- PowerRAT
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

@@ -22,11 +22,11 @@ GOLD WATERFALL is a group of financially motivated cybercriminals responsible fo
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "RemoteCMD"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Remote Utilities"}**
-- **{"name" => "RemotePC"}**
+- **RemoteCMD**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **Remote Utilities**
+- **RemotePC**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

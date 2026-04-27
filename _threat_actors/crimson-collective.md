@@ -26,12 +26,12 @@ The Crimson Collective is a cybercrime group that claimed to have compromised Re
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Crimson"}**
-- **{"name" => "ClientMesh"}**
-- **{"name" => "CyberGate"}**
-- **{"name" => "Cyber Eye RAT"}**
-- **{"name" => "Xploit"}**
-- **{"name" => "Client Maximus"}**
+- **Crimson**
+- **ClientMesh**
+- **CyberGate**
+- **Cyber Eye RAT**
+- **Xploit**
+- **Client Maximus**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -13,10 +13,10 @@ description: UnsolicitedBooker is a China-aligned APT group known for its persis
 url: "/unsolicitedbooker"
 country: China
 malware:
-- '{"name" => "Backdoor.Oldrea"}'
-- '{"name" => "China Chopper"}'
-- '{"name" => "Arabian-Attacker RAT"}'
-- '{"name" => "CrossRat"}'
+- Backdoor.Oldrea
+- China Chopper
+- Arabian-Attacker RAT
+- CrossRat
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

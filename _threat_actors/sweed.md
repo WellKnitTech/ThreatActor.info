@@ -22,13 +22,13 @@ Cisco Talos recently identified a large number of ongoing malware distribution c
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **{"name" => "Agent.btz"}**
-- **{"name" => "Trojan.Karagany"}**
-- **{"name" => "RemoteCMD"}**
-- **{"name" => "Trojan.Mebromi"}**
-- **{"name" => "Remote Utilities"}**
-- **{"name" => "RemotePC"}**
-- **{"name" => "CrossRat"}**
+- **Agent.btz**
+- **Trojan.Karagany**
+- **RemoteCMD**
+- **Trojan.Mebromi**
+- **Remote Utilities**
+- **RemotePC**
+- **CrossRat**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

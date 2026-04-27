@@ -8,7 +8,7 @@ description: Redfly hacked a national electricity grid organization in Asia and 
   malware activity within the organization’s network.
 url: "/redfly"
 malware:
-- '{"name" => "Archelaus Beta"}'
+- Archelaus Beta
 provenance:
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
