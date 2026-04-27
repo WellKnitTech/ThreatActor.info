@@ -1,6 +1,14 @@
 # ThreatActor.info
 
+[![Jekyll](https://img.shields.io/badge/Jekyll-4.4+-2e2642?style=flat&logo=jekyll)](https://jekyllrb.com)
+[![Ruby](https://img.shields.io/badge/Ruby-3.2+-CC342D?style=flat&logo=ruby)](https://www.ruby-lang.org)
+[![License: Unlicense](https://img.shields.io/badge/License-Public%20Domain-_success?style=flat)](LICENSE)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Active-327GC4?style=flat&logo=github)](https://wellknittech.github.io/ThreatActor.info/)
+[![Actors](https://img.shields.io/badge/1%2C062-Threat%20Actors-8B5CF6?style=flat)](https://wellknittech.github.io/ThreatActor.info/threat-actors/)
+
 A community-driven threat intelligence wiki that collects and organizes information about various threat actors, APT groups, and cybercriminal organizations. This project aims to provide a centralized, searchable database of threat actor information that the cybersecurity community can contribute to and benefit from.
+
+**[View Live Wiki →](https://wellknittech.github.io/ThreatActor.info/)**
 
 ## 🎯 Project Goals
 
@@ -414,7 +422,7 @@ bash scripts/validate.sh
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under **The Unlicense** (public domain) - see the [LICENSE](LICENSE) file for details. This maximizes reusability for the threat intelligence community.
 
 ## ⚠️ Disclaimer
 

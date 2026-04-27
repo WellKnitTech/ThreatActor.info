@@ -371,7 +371,7 @@ Contributors will be recognized in:
 
 ## 📄 License
 
-By contributing to ThreatActor.info, you agree that your contributions will be licensed under the MIT License.
+By contributing to ThreatActor.info, you agree that your contributions will be licensed under **The Unlicense** (public domain).
 
 ---
 
