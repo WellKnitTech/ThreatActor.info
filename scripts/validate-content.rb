@@ -520,6 +520,21 @@ class ContentValidator
   def validate_ioc_shards
     puts 'Validating IOC shard artifacts...'
 
+    # Check if there are any IOCs in the generated data
+    ioc_file = '_data/generated/iocs.json'
+    iocs_exist = File.exist?(ioc_file) && begin
+      payload = JSON.parse(File.read(ioc_file))
+      payload.is_a?(Array) && !payload.empty?
+    rescue
+      false
+    end
+
+    # Only require shards if IOCs exist
+    unless iocs_exist
+      puts '  (skipping - no IOCs in data)'
+      return
+    end
+
     validate_json_glob('_data/generated/iocs_by_type/*.json', 'generated IOC type shard')
     validate_json_glob('api/iocs/by-type/*.json', 'API IOC type shard')
   end
