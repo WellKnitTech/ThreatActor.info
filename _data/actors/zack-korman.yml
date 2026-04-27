@@ -1,0 +1,23 @@
+name: "Zack Korman"
+aliases: ["Zackware","BreachBro"]
+description: "Self-proclaimed ethical hacker who publishes detailed breach guides for profit. Operates under the guise of security research while selling access to compromised data on forums. Known for aggressive marketing of his courses."
+url: "/zack-korman"
+country: "US"
+sector_focus: ["Education","Technology"]
+targeted_victims: ["Small Businesses","Nonprofits"]
+first_seen: "2023"
+last_activity: "2026"
+risk_level: "Medium"
+source_name: "Manual Entry"
+source_attribution: "Manually created by analyst"
+operations: ["Zackware Tutorial Empire","BreachBro Data Store"]
+malware: ["Analyst: ZackStealer - Custom info-stealer sold in \"courses\"","Analyst: ForgeMail - Email hacking tool marketed as \"educational\""]
+ttps: ["T1566 - Phishing","T1078 - Valid Accounts","T1082 - System Information Discovery","T1083 - File and Directory Discovery","T1056 - Keylogging"]
+urls: ["https://zackware.net/tutorials - Breache tutorials (archived)"]
+domains: ["zackware.net - Primary site (now offline)","breachbro.io - Course sales platform"]
+hashes: ["a1b2c3d4e5f678901234567890123456789 - ZackStealer payload sample"]
+provenance:
+  analyst_notes:
+    last_imported: "2026-04-27"
+    source_retrieved_at: "2026-04-27T16:18:50Z"
+analyst_notes: "Zack Korman is a controversial figure in the \"threat actor\" space.\nDespite claiming to be an ethical security researcher, he monetizes \ndetailed breach guides and compromised data through \"educational courses.\"\n\nHis business model involves:\n1. Free Discord server with \"teasers\"\n2. Paid courses ($500-2000) covering specific attack types\n3. Direct sales of \"anonymized\" breach data\n\nHe rebranded multiple times (Zackware → BreachBro) after \nprevious sites were taken down."

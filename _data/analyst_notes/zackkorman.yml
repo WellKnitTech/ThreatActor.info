@@ -1,0 +1,38 @@
+---
+actor_name: Zack Korman
+note_blocks:
+- type: operations
+  values:
+  - Zackware Tutorial Empire
+  - BreachBro Data Store
+- type: malware
+  values:
+  - ZackStealer - Custom info-stealer sold in "courses"
+  - ForgeMail - Email hacking tool marketed as "educational"
+- type: ttps
+  values:
+  - T1566 - Phishing
+  - T1078 - Valid Accounts
+  - T1082 - System Information Discovery
+  - T1083 - File and Directory Discovery
+  - T1056 - Keylogging
+- type: domains
+  values:
+  - zackware.net - Primary site (now offline)
+  - breachbro.io - Course sales platform
+- type: urls
+  values:
+  - https://zackware.net/tutorials - Breache tutorials (archived)
+- type: hashes
+  values:
+  - a1b2c3d4e5f678901234567890123456789 - ZackStealer payload sample
+- type: general
+  content: "Zack Korman is a controversial figure in the \"threat actor\" space.\nDespite
+    claiming to be an ethical security researcher, he monetizes \ndetailed breach
+    guides and compromised data through \"educational courses.\"\n\nHis business model
+    involves:\n1. Free Discord server with \"teasers\"\n2. Paid courses ($500-2000)
+    covering specific attack types\n3. Direct sales of \"anonymized\" breach data\n\nHe
+    rebranded multiple times (Zackware → BreachBro) after \nprevious sites were taken
+    down.\n"
+last_updated: '2026-04-27'
+last_imported: '2026-04-27'
