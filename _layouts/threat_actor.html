@@ -146,6 +146,53 @@ layout: default
       {{ content }}
     </div>
 
+    <script>
+      (function () {
+        var content = document.currentScript.previousElementSibling;
+        if (!content) return;
+
+        var malwareHeading = Array.prototype.find.call(content.querySelectorAll('h2'), function (heading) {
+          return heading.textContent.trim() === 'Malware and Tools';
+        });
+        if (!malwareHeading) return;
+
+        fetch('{{ "/api/malware_index.json" | relative_url }}')
+          .then(function (response) { return response.json(); })
+          .then(function (data) {
+            var malwareLinks = {};
+            (data.malware || []).forEach(function (malware) {
+              malwareLinks[malware.name.toLowerCase()] = malware.url;
+              malwareLinks[malware.slug] = malware.url;
+            });
+
+            var node = malwareHeading.nextElementSibling;
+            while (node && node.tagName !== 'H2') {
+              if (node.tagName === 'UL' || node.tagName === 'OL') {
+                Array.prototype.forEach.call(node.querySelectorAll('li'), function (item) {
+                  if (item.querySelector('a')) return;
+
+                  var label = item.querySelector('strong') || item;
+                  var name = label.textContent.trim();
+                  var url = malwareLinks[name.toLowerCase()] || malwareLinks[slugify(name)];
+                  if (!url) return;
+
+                  var link = document.createElement('a');
+                  link.href = url;
+                  link.textContent = label.textContent;
+                  label.textContent = '';
+                  label.appendChild(link);
+                });
+              }
+              node = node.nextElementSibling;
+            }
+          });
+
+        function slugify(value) {
+          return String(value).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+        }
+      }());
+    </script>
+
     {% if profile_analyst_notes %}
     <aside class="analyst-notes-panel">
       <h2>Analyst Notes</h2>

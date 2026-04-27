@@ -112,6 +112,7 @@ class ContentValidator
     validate_api_wrapper_bindings
     validate_ioc_shards
     validate_malware_actor_links
+    validate_threat_actor_malware_links
     validate_duplicate_ioc_sections
 
     print_results
@@ -605,6 +606,27 @@ class ContentValidator
     end
   end
 
+  def validate_threat_actor_malware_links
+    puts 'Validating threat actor malware links...'
+
+    malware_urls = JSON.parse(File.read('_data/generated/malware_index.json')).fetch('malware', []).map { |entry| entry['url'] }.to_set
+    Dir.glob('_threat_actors/*.md').sort.each do |file|
+      page = parse_page(file)
+      section = extract_section(page[:body], 'Malware and Tools')
+      next if section.empty?
+
+      extract_malware_names(section).each do |name|
+        slug = slugify(name)
+        next if slug.empty?
+
+        url = "/malware/#{slug}/"
+        add_error(file, "Malware entry '#{name}' does not resolve to #{url}") unless malware_urls.include?(url)
+      end
+    end
+  rescue StandardError => e
+    add_error('_data/generated/malware_index.json', "Unable to validate threat actor malware links: #{e.message}")
+  end
+
   def validate_duplicate_ioc_sections
     puts 'Checking for duplicated IOC indicators across pages...'
 
@@ -631,6 +653,24 @@ class ContentValidator
 
   def safe_load_yaml(content)
     YAML.safe_load(content, permitted_classes: [], aliases: false)
+  end
+
+  def extract_malware_names(section)
+    section.each_line.filter_map do |line|
+      stripped = line.strip
+      next unless stripped.match?(/^[-*]\s+/)
+
+      content = stripped.sub(/^[-*]\s+/, '').strip
+      if (match = content.match(/^\*\*(.+?)\*\*/))
+        match[1].strip
+      else
+        content.gsub(/\[([^\]]+)\]\([^\)]+\)/, '\1').gsub(/[*_`]/, '').strip
+      end
+    end.reject { |name| name.empty? || name.match?(/information pending/i) }
+  end
+
+  def slugify(value)
+    value.to_s.downcase.gsub(/[^a-z0-9]+/, '-').gsub(/^-|-$/, '')
   end
 
   def add_error(file, message)
