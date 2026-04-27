@@ -12,6 +12,10 @@ Operation Emmental, also known as the Retefe gang, is a threat actor group that 
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

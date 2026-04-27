@@ -11,9 +11,15 @@ Infy is a group of suspected Iranian origin. Since early 2013, we have observed 
 
 ## Activities and Tactics
 **Targeted Sectors**: Activists, Civil society, Government, Private sector
+
 **Country of Origin**: 🇮🇷 Iran
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Israel, Iran, France, China, Sweden, United States, United Kingdom, Germany, Syria, Italy...
 
 ## Notable Campaigns

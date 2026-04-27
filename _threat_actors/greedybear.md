@@ -12,6 +12,10 @@ GreedyBear is a sophisticated threat actor responsible for over $1 million in cr
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

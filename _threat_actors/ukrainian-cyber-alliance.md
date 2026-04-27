@@ -12,6 +12,10 @@ Cyber Alliance is a hacktivist group that has demonstrated capabilities in explo
 ## Activities and Tactics
 **Country of Origin**: 🇺🇦 Ukraine
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

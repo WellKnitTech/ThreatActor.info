@@ -12,6 +12,10 @@ TraderTraitor targets blockchain companies through spear-phishing messages. The 
 ## Activities and Tactics
 **Country of Origin**: 🇰🇵 North Korea
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

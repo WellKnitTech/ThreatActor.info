@@ -11,7 +11,13 @@ BRONZE SPRING is a threat group that CTU researchers assess with high confidence
 
 ## Activities and Tactics
 **Targeted Sectors**: Information technology, Medical, Civil engineering, Business, Education, Gaming, Energy, Pharmaceuticals, Defense industrial base
+
 **Country of Origin**: 🇨🇳 China
+
+
+
+
+
 **Suspected Victims**: United States, Australia, Belgium, Germany, Japan, Lithuania, Netherlands, Spain, South Korea, Sweden...
 
 ## Notable Campaigns

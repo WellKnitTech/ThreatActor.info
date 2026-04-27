@@ -12,6 +12,10 @@ A threat group that has been active for at least seven years has used malware, p
 ## Activities and Tactics
 **Targeted Sectors**: Activists, Journalist, Political party
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

@@ -12,6 +12,10 @@ BrazenBamboo is a Chinese state-affiliated threat actor known for developing the
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

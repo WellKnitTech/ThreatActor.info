@@ -11,10 +11,16 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 
 ## Activities and Tactics
 **Targeted Sectors**: Gaming, Technology, Healthcare
+
 **Country of Origin**: 🇨🇳 China
+
 **Risk Level**: High
+
 **First Seen**: 2012
+
 **Last Activity**: 2024
+
+
 **Suspected Victims**: China, France, Hong Kong, India, Italy, Japan, Myanmar, Netherlands, Singapore, South Korea...
 
 ## Notable Campaigns

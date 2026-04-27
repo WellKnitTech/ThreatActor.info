@@ -12,6 +12,10 @@ Mora_001 is a threat actor exhibiting a distinct operational signature that comb
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

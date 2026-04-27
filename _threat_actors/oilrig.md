@@ -11,9 +11,15 @@ OilRig is an Iranian threat group operating primarily in the Middle East by targ
 
 ## Activities and Tactics
 **Targeted Sectors**: Chemical, Energy, Engineering, Finance, Government, Administration, Telecoms, Other, Government, Private sector, Civil society
+
 **Country of Origin**: 🇮🇷 Iran
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Israel, Kuwait, United States, Turkey, Saudi Arabia, Qatar, Lebanon, Middle East
 
 ## Notable Campaigns

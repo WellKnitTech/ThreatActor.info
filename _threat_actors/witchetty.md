@@ -12,6 +12,10 @@ Witchetty was first documented by ESET in April 2022, who concluded that it was 
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

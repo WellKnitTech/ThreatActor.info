@@ -11,9 +11,15 @@ A previously undocumented attack group is using both custom and off-the-shelf ma
 
 ## Activities and Tactics
 **Targeted Sectors**: Defense, Government, Military, Finance, Energy, Healthcare, Pharmaceuticals, Telecoms, High-Tech, Media, NGOs, Civil Society, Legal, Rail, Transportation
+
 **Country of Origin**: 🇮🇷 Iran
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: United States, Israel, Middle East, Europe
 
 ## Notable Campaigns

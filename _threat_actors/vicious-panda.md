@@ -11,6 +11,11 @@ Check Point Research discovered a new campaign against the Mongolian public sect
 
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
+
+
+
+
+
 **Suspected Victims**: Belarus, Russia, Mongolia, Ukraine
 
 ## Notable Campaigns

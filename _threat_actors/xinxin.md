@@ -12,6 +12,10 @@ XinXin is a Chinese-speaking threat actor known for its phishing-as-a-service pl
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

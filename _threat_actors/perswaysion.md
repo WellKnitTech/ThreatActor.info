@@ -12,6 +12,10 @@ PerSwaysion is a threat actor known for conducting phishing campaigns targeting 
 ## Activities and Tactics
 **Country of Origin**: 🇻🇳 Vietnam
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

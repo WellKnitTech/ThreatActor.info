@@ -11,7 +11,11 @@ TEMP.Hermit is a threat actor tracked by MISP Galaxy. Additional information pen
 
 ## Activities and Tactics
 **Country of Origin**: 🇰🇵 North Korea
+
 **Risk Level**: High
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

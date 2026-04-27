@@ -11,10 +11,15 @@ Akira is a ransomware variant and ransomware deployment entity active since at l
 
 ## Activities and Tactics
 **Targeted Sectors**: Healthcare, Education, Government, Technology
+
 **Country of Origin**: 🏳️ Unknown
+
 **Risk Level**: High
+
 **First Seen**: 2023
+
 **Last Activity**: 2025
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

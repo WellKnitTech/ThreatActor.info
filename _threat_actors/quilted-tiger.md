@@ -11,9 +11,15 @@ Dropping Elephant (also known as “Chinastrats” and “Patchwork“) is a rel
 
 ## Activities and Tactics
 **Targeted Sectors**: Finance, Diplomacy, Private sector, Military
+
 **Country of Origin**: 🇮🇳 India
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Bangladesh, Sri Lanka, Pakistan
 
 ## Notable Campaigns

@@ -11,9 +11,15 @@ This threat actor compromises civil society groups the Chinese Communist Party v
 
 ## Activities and Tactics
 **Targeted Sectors**: Civil society, Government
+
 **Country of Origin**: 🇨🇳 China
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: China, Myanmar, Hong Kong, Taiwan
 
 ## Notable Campaigns

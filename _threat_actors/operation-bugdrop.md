@@ -11,9 +11,15 @@ This threat actor targets critical infrastructure entities in the oil and gas se
 
 ## Activities and Tactics
 **Targeted Sectors**: Private sector
+
 **Country of Origin**: 🇷🇺 Russia
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Ukraine, Austria, Russia, Saudi Arabia
 
 ## Notable Campaigns

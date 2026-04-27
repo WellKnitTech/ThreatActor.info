@@ -12,6 +12,10 @@ When the first member of Scattered Canary, who, for the purposes of this report,
 ## Activities and Tactics
 **Country of Origin**: 🇳🇬 Nigeria
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

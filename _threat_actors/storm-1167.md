@@ -12,6 +12,10 @@ Storm-1167 is a threat actor tracked by Microsoft, known for their use of an AiT
 ## Activities and Tactics
 **Country of Origin**: 🏳️ Indonesia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

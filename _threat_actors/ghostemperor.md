@@ -12,6 +12,10 @@ GhostEmperor is a Chinese-speaking threat actor that targets government entities
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

@@ -12,6 +12,10 @@ The hacktivist group ‘Cyber Av3ngers’ has historically claimed attacks on Is
 ## Activities and Tactics
 **Country of Origin**: 🇮🇷 Iran
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

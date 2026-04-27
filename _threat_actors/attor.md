@@ -11,6 +11,10 @@ Adversary group targeting diplomatic missions and governmental organisations.
 
 ## Activities and Tactics
 **Targeted Sectors**: Private sector, Government
+
+
+
+
 **Incident Type**: Espionage
 
 ## Notable Campaigns

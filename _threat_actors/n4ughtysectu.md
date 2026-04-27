@@ -12,6 +12,10 @@ In March 2022, a hacking group calling themselves N4ughtySecTU claimed to have b
 ## Activities and Tactics
 **Country of Origin**: 🇧🇷 Brazil
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

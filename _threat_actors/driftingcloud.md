@@ -12,6 +12,10 @@ DriftingCloud is a persistent threat actor known for targeting various industrie
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

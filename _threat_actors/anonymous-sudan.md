@@ -10,7 +10,11 @@ permalink: /anonymous-sudan/
 Since January 23, 2023, a threat actor identifying as "Anonymous Sudan" has been conducting denial of service (DDoS) attacks against multiple organizations in Sweden. This group claims to be "hacktivists," politically motivated hackers from Sudan. According to Truesec’s report, the threat actor has nothing to do with the online activists collectively known as Anonymous.
 
 ## Activities and Tactics
+
+
+
 **Incident Type**: ["Denial of service"]
+
 **Suspected Victims**: Denmark, Sweden
 
 ## Notable Campaigns

@@ -11,9 +11,15 @@ Adversaries abusing ICS (based on Dragos Inc adversary list). This threat actor 
 
 ## Activities and Tactics
 **Targeted Sectors**: Private sector
+
 **Country of Origin**: 🏳️ Unknown
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Iraq, United Kingdom, Pakistan, Israel
 
 ## Notable Campaigns

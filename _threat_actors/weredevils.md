@@ -12,6 +12,10 @@ WeRedEvils is a hacking group that has claimed responsibility for multiple cyber
 ## Activities and Tactics
 **Country of Origin**: 🇮🇱 Israel
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

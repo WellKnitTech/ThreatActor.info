@@ -12,6 +12,10 @@ Storm-1152, a cybercriminal group, was recently taken down by Microsoft for ille
 ## Activities and Tactics
 **Country of Origin**: 🇻🇳 Vietnam
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

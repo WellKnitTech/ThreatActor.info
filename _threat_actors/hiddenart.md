@@ -12,6 +12,10 @@ It was observed that a mobile network threat actor designated as ‘HiddenArt’
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

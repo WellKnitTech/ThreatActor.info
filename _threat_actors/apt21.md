@@ -11,9 +11,15 @@ APT21 is a threat actor tracked by MISP Galaxy. Additional information pending c
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Military
+
 **Country of Origin**: 🇨🇳 China
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Mongolia, Kazakhstan, Tajikistan, Germany, United Kingdom, India, Kyrgyzstan, South Korea, United States, Chile...
 
 ## Notable Campaigns

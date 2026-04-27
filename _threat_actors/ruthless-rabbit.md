@@ -12,6 +12,10 @@ Ruthless Rabbit has been running investment scam campaigns since November 2022, 
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

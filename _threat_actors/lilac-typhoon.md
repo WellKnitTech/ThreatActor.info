@@ -12,6 +12,10 @@ Lilac Typhoon is a threat actor attributed to China. They have been identified a
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

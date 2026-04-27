@@ -12,6 +12,10 @@ Educated Manticore is an Iranian APT group aligned with the Islamic Revolutionar
 ## Activities and Tactics
 **Country of Origin**: 🇮🇷 Iran
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

@@ -12,6 +12,10 @@ Cyber Toufan is a threat actor group that has gained prominence for its cyberatt
 ## Activities and Tactics
 **Country of Origin**: 🇮🇷 Iran
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

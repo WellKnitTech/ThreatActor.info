@@ -10,6 +10,10 @@ permalink: /mirage-tiger/
 Mirage Tiger is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing.
 
 ## Activities and Tactics
+
+
+
+
 **Suspected Victims**: Germany
 
 ## Notable Campaigns

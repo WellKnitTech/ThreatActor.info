@@ -12,6 +12,10 @@ Hunt3r Kill3rs is a newly emerged threat group claiming expertise in cyber opera
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

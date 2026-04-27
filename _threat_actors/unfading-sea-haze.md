@@ -12,6 +12,10 @@ Unfading Sea Haze is a threat actor focused on espionage, targeting government a
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

@@ -12,6 +12,10 @@ TAG-56 is a threat actor group that shares similarities with the APT42 group. Th
 ## Activities and Tactics
 **Country of Origin**: 🇮🇷 Iran
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

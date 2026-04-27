@@ -12,6 +12,10 @@ TEMP_Heretic is a threat actor that has been observed engaging in targeted spear
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

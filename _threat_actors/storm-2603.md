@@ -12,6 +12,10 @@ The group Microsoft tracks as Storm-2603 is assessed with medium confidence to b
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

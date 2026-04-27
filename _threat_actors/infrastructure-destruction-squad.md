@@ -12,6 +12,10 @@ Dark Engine has emerged as a significant threat actor targeting industrial contr
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

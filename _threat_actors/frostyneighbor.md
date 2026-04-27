@@ -12,6 +12,10 @@ FrostyNeighbor is a Belarus-aligned APT group known for conducting influence and
 ## Activities and Tactics
 **Country of Origin**: 🏳️ Belarus
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

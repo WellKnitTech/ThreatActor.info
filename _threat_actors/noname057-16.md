@@ -11,7 +11,12 @@ NoName057(16) is performing DDoS attacks on websites belonging to governments, n
 
 ## Activities and Tactics
 **Targeted Sectors**: Financial, Government, Military, Telecommunications, Transportation
+
+
+
+
 **Incident Type**: ["Denial of service"]
+
 **Suspected Victims**: Czech Republic, Denmark, Estonia, Lithuania, NATO, Norway, Poland, Ukraine
 
 ## Notable Campaigns

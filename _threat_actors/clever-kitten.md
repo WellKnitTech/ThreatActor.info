@@ -11,7 +11,11 @@ Clever Kitten is a threat actor tracked by MISP Galaxy. Additional information p
 
 ## Activities and Tactics
 **Country of Origin**: 🇮🇷 Iran
+
 **Risk Level**: High
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

@@ -11,10 +11,15 @@ Magic Hound is an Iranian-sponsored threat group that conducts long term, resour
 
 ## Activities and Tactics
 **Targeted Sectors**: Media, Academia, Government
+
 **Country of Origin**: 🇮🇷 Iran
+
 **Risk Level**: High
+
 **First Seen**: 2014
+
 **Last Activity**: 2024
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

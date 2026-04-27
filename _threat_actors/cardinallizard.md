@@ -12,6 +12,10 @@ CardinalLizard, a cyber threat actor linked to China, has targeted entities in A
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

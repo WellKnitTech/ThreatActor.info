@@ -12,6 +12,10 @@ AppMilad is an Iranian hacking group that has been identified as the source of a
 ## Activities and Tactics
 **Country of Origin**: 🇮🇷 Iran
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

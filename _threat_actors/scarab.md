@@ -11,7 +11,12 @@ Scarab APT was first spotted in 2015, but is believed to have been active since 
 
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
+
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Russia, Ukraine, United States
 
 ## Notable Campaigns

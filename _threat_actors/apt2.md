@@ -11,9 +11,15 @@ Putter Panda were the subject of an extensive report by CrowdStrike, which state
 
 ## Activities and Tactics
 **Targeted Sectors**: Private sector, Government
+
 **Country of Origin**: 🇨🇳 China
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: U.S. satellite and aerospace sector
 
 ## Notable Campaigns

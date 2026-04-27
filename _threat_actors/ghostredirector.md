@@ -12,6 +12,10 @@ GhostRedirector is a China-aligned threat actor that has compromised at least 65
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

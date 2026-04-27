@@ -12,6 +12,10 @@ BRONZE STARLIGHT has been active since mid 2021 and targets organizations global
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

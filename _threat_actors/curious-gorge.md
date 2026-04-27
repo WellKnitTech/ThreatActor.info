@@ -11,8 +11,14 @@ Curious Gorge, a group TAG attributes to China's PLA SSF, has conducted campaign
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Military, Logistics, Defense Contractor
+
 **Country of Origin**: 🇨🇳 China
+
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Ukraine, Russia, Kazakhstan, Mongolia
 
 ## Notable Campaigns

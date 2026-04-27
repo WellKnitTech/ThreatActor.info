@@ -12,6 +12,10 @@ OldGremlin is a Russian-speaking ransomware group that has been active for sever
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

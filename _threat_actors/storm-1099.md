@@ -12,6 +12,10 @@ Storm-1099 is a sophisticated Russia-affiliated influence actor that has been co
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

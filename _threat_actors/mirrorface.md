@@ -12,6 +12,10 @@ MirrorFace is a Chinese-speaking advanced persistent threat group that has been 
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

@@ -12,6 +12,10 @@ Prodaft researchers have published a report on Paperbug, a cyber-espionage campa
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

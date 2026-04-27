@@ -11,7 +11,11 @@ Cyber fighters of Izz Ad-Din Al Qassam is a threat actor tracked by MISP Galaxy.
 
 ## Activities and Tactics
 **Country of Origin**: 🇮🇷 Iran
+
 **Risk Level**: High
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

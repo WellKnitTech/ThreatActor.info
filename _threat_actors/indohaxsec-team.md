@@ -12,6 +12,10 @@ INDOHAXSEC TEAM is an Indonesian group that claims to have developed a web-based
 ## Activities and Tactics
 **Country of Origin**: 🏳️ Indonesia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

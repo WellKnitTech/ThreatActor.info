@@ -12,6 +12,10 @@ Amaranth-Dragon is a previously untracked threat actor assessed to be closely li
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

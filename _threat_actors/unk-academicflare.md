@@ -12,6 +12,10 @@ UNK_AcademicFlare is a suspected Russia-aligned threat actor that conducts devic
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

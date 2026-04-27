@@ -12,6 +12,10 @@ BLACKGEAR is an espionage campaign which has targeted users in Taiwan for many y
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

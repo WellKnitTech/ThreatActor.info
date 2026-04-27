@@ -11,7 +11,11 @@ Cyber Berkut is a threat actor tracked by MISP Galaxy. Additional information pe
 
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
+
 **Risk Level**: High
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

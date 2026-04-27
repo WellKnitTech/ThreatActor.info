@@ -11,9 +11,15 @@ Longhorn has been active since at least 2011. It has used a range of back door T
 
 ## Activities and Tactics
 **Targeted Sectors**: Telecoms, Aerospace, Energy, Education, Government, Administration, Finance, News - Media, Private sector, Government
+
 **Country of Origin**: 🇺🇸 United States
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Global
 
 ## Notable Campaigns

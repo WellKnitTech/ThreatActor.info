@@ -12,6 +12,10 @@ TAG-28 is a Chinese state-sponsored threat actor that has been targeting Indian 
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

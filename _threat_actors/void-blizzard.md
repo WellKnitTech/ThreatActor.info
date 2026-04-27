@@ -12,6 +12,10 @@ Void Blizzard’s cyberespionage operations tend to be highly targeted at specif
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

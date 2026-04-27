@@ -12,6 +12,10 @@ Denim Tsunami is a threat actor group that has been involved in targeted attacks
 ## Activities and Tactics
 **Country of Origin**: 🏳️ Austria
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

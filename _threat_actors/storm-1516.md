@@ -12,6 +12,10 @@ CopyCop is a Russian covert influence network that has established over 300 fict
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

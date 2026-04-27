@@ -12,6 +12,10 @@ FlyingYeti is a Russia-aligned threat actor targeting Ukrainian military entitie
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

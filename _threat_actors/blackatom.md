@@ -11,9 +11,15 @@ Recent campaigns suggest Hamas-linked actors may be advancing their TTPs to incl
 
 ## Activities and Tactics
 **Targeted Sectors**: Military, Defense, Transportation
+
 **Country of Origin**: 🏳️ Palestine
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Israel
 
 ## Notable Campaigns

@@ -12,6 +12,10 @@ Cuboid Sandstorm is an Iranian threat actor that targeted an Israel-based IT com
 ## Activities and Tactics
 **Country of Origin**: 🇮🇷 Iran
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

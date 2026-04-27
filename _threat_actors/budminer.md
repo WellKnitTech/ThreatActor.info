@@ -12,6 +12,10 @@ Based on the evidence we have presented Symantec attributed the activity involvi
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

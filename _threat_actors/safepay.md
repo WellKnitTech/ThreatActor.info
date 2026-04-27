@@ -11,10 +11,15 @@ SafePay is a ransomware group particularly active in Germany, responsible for 24
 
 ## Activities and Tactics
 **Targeted Sectors**: Healthcare, Logistics, Manufacturing, Government
+
 **Country of Origin**: 🏳️ Unknown
+
 **Risk Level**: High
+
 **First Seen**: 2024
+
 **Last Activity**: 2025
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

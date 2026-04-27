@@ -12,6 +12,10 @@ SpaceBears is a ransomware group believed to be based in Moscow, Russia, that ha
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

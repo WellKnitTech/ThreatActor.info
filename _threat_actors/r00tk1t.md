@@ -12,6 +12,10 @@ R00TK1T is a hacking group known for sophisticated cyber attacks targeting gover
 ## Activities and Tactics
 **Country of Origin**: 🇮🇱 Israel
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

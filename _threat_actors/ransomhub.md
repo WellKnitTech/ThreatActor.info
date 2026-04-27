@@ -11,10 +11,15 @@ RansomHub is a dominant ransomware-as-a-service operation that emerged in 2024 a
 
 ## Activities and Tactics
 **Targeted Sectors**: Critical Infrastructure, Healthcare, Education, Manufacturing
+
 **Country of Origin**: 🏳️ Unknown
+
 **Risk Level**: Critical
+
 **First Seen**: 2024
+
 **Last Activity**: 2025
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

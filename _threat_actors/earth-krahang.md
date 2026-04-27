@@ -12,6 +12,10 @@ Earth Krahang is an APT group targeting government organizations worldwide. They
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

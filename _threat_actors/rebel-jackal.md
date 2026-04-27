@@ -11,6 +11,9 @@ This is a pro-Islamist organization that generally conducts attacks motivated by
 
 ## Activities and Tactics
 **Risk Level**: High
+
+
+
 **Incident Type**: Defacement
 
 ## Notable Campaigns

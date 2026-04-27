@@ -12,6 +12,10 @@ Blackwood is a China-aligned APT group that has been active since at least 2018.
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

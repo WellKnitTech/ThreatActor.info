@@ -12,6 +12,10 @@ Bignosa is a threat actor known for launching malware campaigns targeting Austra
 ## Activities and Tactics
 **Country of Origin**: 🏳️ Kenya
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

@@ -12,6 +12,10 @@ Bohrium is an Iranian threat actor that has been involved in spear-phishing oper
 ## Activities and Tactics
 **Country of Origin**: 🇮🇷 Iran
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

@@ -11,8 +11,13 @@ Group targeting Indian Army or related assets in India, as well as activists and
 
 ## Activities and Tactics
 **Targeted Sectors**: Activists, Civil society, Military, Government
+
 **Country of Origin**: 🇵🇰 Pakistan
+
 **Risk Level**: High
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

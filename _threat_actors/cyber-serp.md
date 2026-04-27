@@ -12,6 +12,10 @@ UAC-0255 is a threat actor that conducted a phishing campaign impersonating CERT
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

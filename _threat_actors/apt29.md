@@ -11,11 +11,17 @@ APT29 is threat group that has been attributed to Russia's Foreign Intelligence 
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Healthcare, Energy
+
 **Country of Origin**: 🇷🇺 Russia
+
 **Risk Level**: High
+
 **First Seen**: 2008
+
 **Last Activity**: 2024
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: United States, China, New Zealand, Ukraine, Romania, Georgia, Japan, South Korea, Belgium, Kazakhstan...
 
 ## Notable Campaigns

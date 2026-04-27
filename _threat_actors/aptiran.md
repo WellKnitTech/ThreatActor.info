@@ -12,6 +12,10 @@ APTIran has claimed responsibility for a large-scale campaign targeting Israeli 
 ## Activities and Tactics
 **Country of Origin**: 🇮🇷 Iran
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

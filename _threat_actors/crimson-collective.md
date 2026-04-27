@@ -12,6 +12,10 @@ The Crimson Collective is a cybercrime group that claimed to have compromised Re
 ## Activities and Tactics
 **Targeted Sectors**: Technology
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

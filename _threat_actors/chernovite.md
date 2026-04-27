@@ -12,6 +12,10 @@ Chernovite is a highly capable and sophisticated threat actor group that has dev
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

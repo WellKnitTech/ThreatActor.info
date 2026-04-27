@@ -11,7 +11,13 @@ APT9 engages in cyber operations where the goal is data theft, usually focusing 
 
 ## Activities and Tactics
 **Targeted Sectors**: Pharmaceuticals, Healthcare, Construction, Aerospace, Defense industrial base
+
 **Country of Origin**: 🇨🇳 China
+
+
+
+
+
 **Suspected Victims**: United States
 
 ## Notable Campaigns

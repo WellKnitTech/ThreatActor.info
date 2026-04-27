@@ -11,7 +11,12 @@ BladeHawk is a threat actor tracked by MISP Galaxy. Additional information pendi
 
 ## Activities and Tactics
 **Targeted Sectors**: Government
+
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Kurdistan
 
 ## Notable Campaigns

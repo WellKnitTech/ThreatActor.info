@@ -12,6 +12,10 @@ UserSec is a pro-Russian hacking group that has been active since at least 2022.
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

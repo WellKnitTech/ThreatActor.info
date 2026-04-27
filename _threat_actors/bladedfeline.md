@@ -12,6 +12,10 @@ BladedFeline is an Iran-aligned APT group that has been active since at least 20
 ## Activities and Tactics
 **Country of Origin**: 🇮🇷 Iran
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

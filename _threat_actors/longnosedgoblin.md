@@ -12,6 +12,10 @@ LongNosedGoblin is a China-aligned APT group targeting governmental entities in 
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

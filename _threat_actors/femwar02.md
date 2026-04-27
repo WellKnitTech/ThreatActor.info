@@ -12,6 +12,10 @@ Femwar02 is a previously unknown pro-Russian ransomware threat actor that emerge
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

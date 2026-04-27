@@ -11,9 +11,15 @@ This threat actor uses spear-phishing techniques to target parliaments, governme
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Civil society
+
 **Country of Origin**: 🏳️ Unknown
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Palestine, United Arab Emirates, Qatar, Somalia, Syria, Canada, Germany, Serbia, Kuwait, Egypt...
 
 ## Notable Campaigns

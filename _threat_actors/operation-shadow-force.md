@@ -12,6 +12,10 @@ Operation Shadow Force is a group of malware that is representative of Shadow Fo
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

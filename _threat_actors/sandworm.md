@@ -11,9 +11,15 @@ This threat actor targets industrial control systems, using a tool called Black 
 
 ## Activities and Tactics
 **Targeted Sectors**: Electric, Energy, Industrial, Private sector, Government
+
 **Country of Origin**: 🇷🇺 Russia
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Russia, Lithuania, Kyrgyzstan, Israel, Ukraine, Belarus, Kazakhstan, Georgia, Poland, Azerbaijan...
 
 ## Notable Campaigns

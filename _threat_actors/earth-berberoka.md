@@ -11,7 +11,13 @@ According to TrendMicro, Earth Berberoka is a threat group originating from Chin
 
 ## Activities and Tactics
 **Targeted Sectors**: Gambling Websites, Information technology, Electronics Manufacturers, Education
+
 **Country of Origin**: 🇨🇳 China
+
+
+
+
+
 **Suspected Victims**: China, United States, Hong Kong, Malaysia, Taiwan
 
 ## Notable Campaigns

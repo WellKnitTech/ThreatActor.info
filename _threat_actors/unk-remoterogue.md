@@ -12,6 +12,10 @@ UNK_RemoteRogue is a suspected Russian threat actor that has been observed utili
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

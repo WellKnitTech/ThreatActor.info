@@ -11,7 +11,11 @@ FIN4 is a financially-motivated threat group that has targeted confidential info
 
 ## Activities and Tactics
 **Targeted Sectors**: Health, Finance, Pharmacy
+
 **Risk Level**: High
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

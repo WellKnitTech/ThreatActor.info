@@ -12,6 +12,10 @@ Blackjack, a threat actor linked to Ukraine's security apparatus, has targeted c
 ## Activities and Tactics
 **Country of Origin**: 🇺🇦 Ukraine
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

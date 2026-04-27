@@ -11,10 +11,15 @@ Qilin is a ransomware group that first appeared in 2022 but had a breakout year 
 
 ## Activities and Tactics
 **Targeted Sectors**: Critical Infrastructure, Manufacturing, Healthcare, Government
+
 **Country of Origin**: 🏳️ Unknown
+
 **Risk Level**: High
+
 **First Seen**: 2022
+
 **Last Activity**: 2025
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

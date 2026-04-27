@@ -11,9 +11,15 @@ PLA Navy Anchor Panda is an adversary that CrowdStrike has tracked extensively o
 
 ## Activities and Tactics
 **Targeted Sectors**: Other, Aerospace, Defense, Intelligence, Maritime, Military, Space, Government
+
 **Country of Origin**: 🇨🇳 China
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: United States, United Kingdom, Germany, Australia, Sweden
 
 ## Notable Campaigns

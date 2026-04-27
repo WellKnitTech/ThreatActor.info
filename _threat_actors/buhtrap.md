@@ -11,8 +11,13 @@ Buhtrap has been active since 2014, however their first attacks against financia
 
 ## Activities and Tactics
 **Targeted Sectors**: Bank, Payment, Finance
+
 **Country of Origin**: 🇷🇺 Russia
+
 **Risk Level**: High
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

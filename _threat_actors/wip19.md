@@ -12,6 +12,10 @@ WIP19 is a Chinese-speaking threat group involved in espionage targeting the Mid
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

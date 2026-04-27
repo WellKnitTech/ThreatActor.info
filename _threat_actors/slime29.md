@@ -11,8 +11,13 @@ SLIME29 is a threat actor tracked by MISP Galaxy. Additional information pending
 
 ## Activities and Tactics
 **Targeted Sectors**: Private Sector
+
 **Country of Origin**: 🇨🇳 China
+
 **Risk Level**: Critical
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

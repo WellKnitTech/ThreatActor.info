@@ -12,6 +12,10 @@ Scarred Manticore has been pursuing high-value targets for years, utilizing a va
 ## Activities and Tactics
 **Country of Origin**: 🇮🇷 Iran
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

@@ -12,6 +12,10 @@ RuskiNet is a pro-Russian hacktivist collective associated with disruptive opera
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

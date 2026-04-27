@@ -12,6 +12,10 @@ FireEye first identified this activity during a recent investigation at an organ
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

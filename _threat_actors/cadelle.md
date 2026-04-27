@@ -11,7 +11,11 @@ Symantec telemetry identified Cadelle and Chafer activity dating from as far bac
 
 ## Activities and Tactics
 **Country of Origin**: 🇮🇷 Iran
+
 **Risk Level**: High
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

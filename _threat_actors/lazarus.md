@@ -11,11 +11,17 @@ Lazarus Group is a North Korean state-sponsored cyber threat group attributed to
 
 ## Activities and Tactics
 **Targeted Sectors**: Financial, Cryptocurrency, Entertainment
+
 **Country of Origin**: 🇰🇵 North Korea
+
 **Risk Level**: Critical
+
 **First Seen**: 2009
+
 **Last Activity**: 2024
+
 **Incident Type**: ["Espionage", "Sabotage"]
+
 **Suspected Victims**: South Korea, Bangladesh Bank, Sony Pictures Entertainment, United States, Thailand, France, China, Hong Kong, United Kingdom, Guatemala...
 
 ## Notable Campaigns

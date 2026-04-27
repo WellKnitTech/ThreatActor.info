@@ -11,10 +11,15 @@ TA505 is a cyber criminal group that has been active since at least 2014. TA505 
 
 ## Activities and Tactics
 **Targeted Sectors**: Technology, Healthcare, Financial, Government
+
 **Country of Origin**: 🇷🇺 Russia
+
 **Risk Level**: Critical
+
 **First Seen**: 2019
+
 **Last Activity**: 2025
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

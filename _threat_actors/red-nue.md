@@ -12,6 +12,10 @@ Red Nue, active since at least 2017, is known for its use of the multi-platform 
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

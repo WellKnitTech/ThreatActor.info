@@ -12,6 +12,10 @@ Storm-2372 is a suspected nation-state actor aligned with Russian interests, eng
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

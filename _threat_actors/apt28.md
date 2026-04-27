@@ -11,11 +11,17 @@ APT28 is a threat group that has been attributed to Russia's General Staff Main 
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Military, Media, Government, Administration, Security Service
+
 **Country of Origin**: 🇷🇺 Russia
+
 **Risk Level**: High
+
 **First Seen**: 2007
+
 **Last Activity**: 2024
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Georgia, France, Jordan, United States, Hungary, World Anti-Doping Agency, Armenia, Tajikistan, Japan, NATO...
 
 ## Notable Campaigns

@@ -11,9 +11,15 @@ El Machete is one of these threats that was first publicly disclosed and named b
 
 ## Activities and Tactics
 **Targeted Sectors**: Military, Government
+
 **Country of Origin**: 🏳️ Unknown
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Venezuela, Russia, Cuba, China, Belgium, Ecuador, Brazil, Spain, Germany, France...
 
 ## Notable Campaigns

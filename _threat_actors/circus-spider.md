@@ -12,6 +12,10 @@ According to Crowdstrike, the NetWalker ransomware is being developed and mainta
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

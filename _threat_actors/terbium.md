@@ -12,6 +12,10 @@ Microsoft Threat Intelligence identified similarities between this recent attack
 ## Activities and Tactics
 **Targeted Sectors**: Energy
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

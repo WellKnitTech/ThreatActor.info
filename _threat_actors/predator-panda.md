@@ -11,7 +11,11 @@ PREDATOR PANDA is a threat actor tracked by MISP Galaxy. Additional information 
 
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
+
 **Risk Level**: High
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

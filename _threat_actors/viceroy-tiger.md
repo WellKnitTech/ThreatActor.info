@@ -11,8 +11,14 @@ VICEROY TIGER is an adversary with a nexus to India that has historically target
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Administration, Security Service
+
 **Country of Origin**: 🇮🇳 India
+
 **Risk Level**: High
+
+
+
+
 **Suspected Victims**: Germany
 
 ## Notable Campaigns

@@ -12,6 +12,10 @@ Ababil of Minab is an emerging pro-Iranian hacktivist group with a limited publi
 ## Activities and Tactics
 **Country of Origin**: 🇮🇷 Iran
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

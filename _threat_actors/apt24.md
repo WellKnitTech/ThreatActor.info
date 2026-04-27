@@ -11,7 +11,11 @@ The Pitty Tiger group has been active since at least 2011. They have been seen u
 
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
+
 **Risk Level**: High
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

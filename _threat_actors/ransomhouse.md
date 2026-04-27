@@ -12,6 +12,10 @@ This group started operating during the first quarter of 2022. They published sa
 ## Activities and Tactics
 **Targeted Sectors**: Private sector
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

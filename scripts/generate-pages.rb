@@ -190,26 +190,34 @@ def build_body(actor)
   # Activities and Tactics
   sections << "## Activities and Tactics"
   if actor['country'] || actor['sector_focus'] || actor['targeted_victims'] || actor['incident_type']
-    details = []
-    details << "**Targeted Sectors**: #{actor['sector_focus']&.join(', ') || 'Various'}" if actor['sector_focus']
-    flag = get_country_flag(actor['country'])
-    details << "**Country of Origin**: #{flag} #{actor['country'] || 'Unknown'}" if actor['country']
-    details << "**Risk Level**: #{actor['risk_level'] || 'Medium'}" if actor['risk_level']
-    details << "**First Seen**: #{actor['first_seen'] || 'Unknown'}" if actor['first_seen']
-    details << "**Last Activity**: #{actor['last_activity'] || 'Unknown'}" if actor['last_activity']
-    details << "**Incident Type**: #{actor['incident_type'] || 'Unknown'}" if actor['incident_type']
+    if actor['sector_focus']
+      sections << "**Targeted Sectors**: #{actor['sector_focus']&.join(', ') || 'Various'}"
+      sections << ""
+    end
+    if actor['country']
+      flag = get_country_flag(actor['country'])
+      sections << "**Country of Origin**: #{flag} #{actor['country']}"
+      sections << ""
+    end
+    sections << "**Risk Level**: #{actor['risk_level'] || 'Medium'}" if actor['risk_level']
+    sections << ""
+    sections << "**First Seen**: #{actor['first_seen'] || 'Unknown'}" if actor['first_seen']
+    sections << ""
+    sections << "**Last Activity**: #{actor['last_activity'] || 'Unknown'}" if actor['last_activity']
+    sections << ""
+    sections << "**Incident Type**: #{actor['incident_type'] || 'Unknown'}" if actor['incident_type']
+    sections << ""
     
     # Add targeted victims if present
     if actor['targeted_victims'] && actor['targeted_victims'].any?
       victims = actor['targeted_victims'].first(10)
-      details << "**Suspected Victims**: #{victims.join(', ')}#{actor['targeted_victims'].size > 10 ? '...' : ''}"
+      sections << "**Suspected Victims**: #{victims.join(', ')}#{actor['targeted_victims'].size > 10 ? '...' : ''}"
+      sections << ""
     end
-    
-    sections << details.join("\n")
   else
     sections << "*Information pending cataloguing.*"
+    sections << ""
   end
-  sections << ""
   
   # Notable Campaigns - from YAML if present
   sections << "## Notable Campaigns"
@@ -314,6 +322,23 @@ def build_body(actor)
     sections << "*Information pending cataloguing.*"
   end
   sections << ""
+  
+  # Analyst Notes - format multi-line text with proper spacing
+  if actor['analyst_notes'] && !actor['analyst_notes'].to_s.strip.empty?
+    sections << "## Analyst Notes"
+    # Process analyst_notes to ensure proper line breaks
+    notes = actor['analyst_notes'].to_s
+    # Convert literal \n to actual newlines
+    notes = notes.gsub('\\n', "\n")
+    # Ensure blank lines around section dividers
+    notes = notes.gsub(/\n---\n/, "\n\n---\n\n")
+    # Add blank line before list items that follow text
+    notes = notes.gsub(/([^\n])\n(- )/, "\\1\n\n\\2")
+    # Add blank line before uppercase section headers
+    notes = notes.gsub(/([^\n])\n([A-Z][A-Z\s]+:)/, "\\1\n\n\\2")
+    sections << notes.strip
+    sections << ""
+  end
   
   # Parse references and build citations
   citations = []

@@ -11,9 +11,15 @@ Kaspersky Lab and Seculert worked together to sinkhole the Madi Command & Contro
 
 ## Activities and Tactics
 **Targeted Sectors**: Infrastructure, Engineering, Government, Administration, Finance, Government, Private sector
+
 **Country of Origin**: 🇮🇷 Iran
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Iran, Pakistan, Israel, United States
 
 ## Notable Campaigns

@@ -12,6 +12,10 @@ RaHDit is a pro-Kremlin hacktivist group known for orchestrating hack-and-leak o
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

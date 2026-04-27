@@ -12,6 +12,10 @@ Void Manticore is an Iranian APT group affiliated with MOIS, known for conductin
 ## Activities and Tactics
 **Country of Origin**: 🇮🇷 Iran
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

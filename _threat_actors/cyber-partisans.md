@@ -12,6 +12,10 @@ The Cyber Partisans, a hacktivist group based in Belarus, has been involved in v
 ## Activities and Tactics
 **Country of Origin**: 🏳️ Belarus
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

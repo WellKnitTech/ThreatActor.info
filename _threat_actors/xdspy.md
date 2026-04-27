@@ -12,6 +12,10 @@ Rare is the APT group that goes largely undetected for nine years, but XDSpy is 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Administration
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

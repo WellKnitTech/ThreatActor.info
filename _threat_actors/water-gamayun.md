@@ -12,6 +12,10 @@ Water Gamayun exploits the MSC EvilTwin zero-day vulnerability to compromise sys
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

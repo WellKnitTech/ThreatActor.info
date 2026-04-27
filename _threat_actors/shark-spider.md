@@ -11,8 +11,13 @@ This group's activity was first observed in November 2013. It leverages a bankin
 
 ## Activities and Tactics
 **Targeted Sectors**: Bank
+
 **Country of Origin**: 🇷🇺 Russia
+
 **Risk Level**: High
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

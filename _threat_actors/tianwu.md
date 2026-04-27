@@ -11,8 +11,14 @@ TianWu is a threat actor tracked by MISP Galaxy. Additional information pending 
 
 ## Activities and Tactics
 **Targeted Sectors**: Private Sector, Gambling companies, Gaming, Information technology, Telecommunications, Government, Transportation systems, Dissident
+
 **Country of Origin**: 🇨🇳 China
+
 **Risk Level**: Critical
+
+
+
+
 **Suspected Victims**: China, Hong Kong, Kazakhstan, Taiwan, Philippines
 
 ## Notable Campaigns

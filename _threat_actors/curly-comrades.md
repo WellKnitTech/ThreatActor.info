@@ -12,6 +12,10 @@ Curly COMrades is a threat actor identified by Amazon Threat Intelligence and Bi
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

@@ -11,10 +11,15 @@ Maze is a ransomware operation known for being the first to implement double ext
 
 ## Activities and Tactics
 **Targeted Sectors**: Healthcare, Legal, Technology
+
 **Country of Origin**: 🏳️ Unknown
+
 **Risk Level**: High
+
 **First Seen**: 2019
+
 **Last Activity**: 2020
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

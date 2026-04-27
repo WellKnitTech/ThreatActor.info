@@ -11,9 +11,15 @@ As a part of our Kaspersky APT Intelligence Reporting subscription, customers re
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Private sector
+
 **Country of Origin**: 🇷🇺 Russia
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: United States, South Korea, United Kingdom, Uzbekistan
 
 ## Notable Campaigns

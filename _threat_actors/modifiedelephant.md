@@ -12,6 +12,10 @@ Our research into these intrusions revealed a decade of persistent malicious act
 ## Activities and Tactics
 **Targeted Sectors**: Civil Society
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

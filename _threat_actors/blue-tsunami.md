@@ -12,6 +12,10 @@ Blue Tsunami, also known as Black Cube, is a cyber mercenary group associated wi
 ## Activities and Tactics
 **Country of Origin**: 🇮🇱 Israel
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

@@ -12,6 +12,10 @@ XakNet is a self-proclaimed hacktivist group that has targeted Ukraine. They cla
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

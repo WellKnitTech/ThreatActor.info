@@ -11,7 +11,12 @@ The title ‘Copy-paste compromises’ is derived from the actor’s heavy use o
 
 ## Activities and Tactics
 **Targeted Sectors**: Government
+
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Australia
 
 ## Notable Campaigns

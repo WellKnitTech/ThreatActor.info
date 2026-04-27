@@ -11,7 +11,13 @@ BRONZE VAPOR is a targeted threat group assessed with moderate confidence to be 
 
 ## Activities and Tactics
 **Targeted Sectors**: Semiconductor Industry
+
 **Country of Origin**: 🇨🇳 China
+
+
+
+
+
 **Suspected Victims**: Taiwan
 
 ## Notable Campaigns

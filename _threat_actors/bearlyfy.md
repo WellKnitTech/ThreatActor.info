@@ -12,6 +12,10 @@ Bearlyfy has been attributed to over 70 cyber attacks targeting Russian companie
 ## Activities and Tactics
 **Country of Origin**: 🇺🇦 Ukraine
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

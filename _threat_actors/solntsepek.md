@@ -12,6 +12,10 @@ Solntsepek is a threat actor group with ties to the Russian military unit GRU. T
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

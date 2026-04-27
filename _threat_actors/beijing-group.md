@@ -11,9 +11,15 @@ Beijing Group is a threat actor tracked by MISP Galaxy. Additional information p
 
 ## Activities and Tactics
 **Targeted Sectors**: Private sector, Civil society
+
 **Country of Origin**: 🇨🇳 China
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: United States, Canada, United Kingdom, Switzerland, Hong Kong, Australia, India, Taiwan, China, Denmark
 
 ## Notable Campaigns

@@ -12,6 +12,10 @@ Publicly known as 'EmpireMonkey', ANTHROPOID SPIDER conducted phishing campaigns
 ## Activities and Tactics
 **Targeted Sectors**: Finance
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

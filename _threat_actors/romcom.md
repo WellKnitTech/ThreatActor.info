@@ -11,6 +11,11 @@ ROMCOM is an evolving and sophisticated threat actor group that has been using t
 
 ## Activities and Tactics
 **Country of Origin**: 🇷🇺 Russia
+
+
+
+
+
 **Suspected Victims**: Germany
 
 ## Notable Campaigns

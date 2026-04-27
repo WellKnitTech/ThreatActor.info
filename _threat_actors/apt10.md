@@ -11,9 +11,15 @@ menuPass is a threat group that has been active since at least 2006. Individual 
 
 ## Activities and Tactics
 **Targeted Sectors**: Private sector, Government
+
 **Country of Origin**: 🇨🇳 China
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Japan, India, South Africa, South Korea, Sweden, United States, Canada, Australia, France, Finland...
 
 ## Notable Campaigns

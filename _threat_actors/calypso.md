@@ -12,6 +12,10 @@ For the first time, the activity of the Calypso group was detected by specialist
 ## Activities and Tactics
 **Targeted Sectors**: Government, Administration
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

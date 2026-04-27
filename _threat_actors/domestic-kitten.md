@@ -12,6 +12,10 @@ An extensive surveillance operation targets specific groups of individuals with 
 ## Activities and Tactics
 **Country of Origin**: 🇮🇷 Iran
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

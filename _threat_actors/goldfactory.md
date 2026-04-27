@@ -12,6 +12,10 @@ GoldFactory is a threat actor group attributed to developing sophisticated mobil
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

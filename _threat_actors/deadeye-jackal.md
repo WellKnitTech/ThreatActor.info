@@ -11,7 +11,11 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 
 ## Activities and Tactics
 **Targeted Sectors**: Country, Defense, Opposition, Political party, News - Media, Government, Administration
+
 **Risk Level**: High
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

@@ -11,7 +11,11 @@ Founded in 2004, Turkhackteam is one of Turkey’s oldest and most high-profile 
 
 ## Activities and Tactics
 **Country of Origin**: 🇹🇷 Turkey
+
 **Risk Level**: High
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

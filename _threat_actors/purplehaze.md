@@ -12,6 +12,10 @@ PurpleHaze is a China-nexus threat actor tracked by SentinelLABS, linked to APT1
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

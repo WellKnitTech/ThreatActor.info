@@ -12,6 +12,10 @@ RedJuliett is a likely Chinese state-sponsored threat actor targeting government
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

@@ -12,6 +12,10 @@ CoralRaider is a financially motivated threat actor of Vietnamese origin, target
 ## Activities and Tactics
 **Country of Origin**: 🇻🇳 Vietnam
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

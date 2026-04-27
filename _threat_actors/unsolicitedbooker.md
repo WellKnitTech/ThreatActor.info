@@ -12,6 +12,10 @@ UnsolicitedBooker is a China-aligned APT group known for its persistent targetin
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

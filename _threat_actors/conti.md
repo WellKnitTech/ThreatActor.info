@@ -11,10 +11,15 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 
 ## Activities and Tactics
 **Targeted Sectors**: Healthcare, Critical Infrastructure, Government
+
 **Country of Origin**: 🇷🇺 Russia
+
 **Risk Level**: Critical
+
 **First Seen**: 2020
+
 **Last Activity**: 2022
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*

@@ -12,6 +12,10 @@ SOLAR SPIDER’s phishing campaigns deliver the JSOutProx RAT to financial insti
 ## Activities and Tactics
 **Targeted Sectors**: Finance
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

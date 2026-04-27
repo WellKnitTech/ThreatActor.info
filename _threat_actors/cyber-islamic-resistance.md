@@ -12,6 +12,10 @@ Cyber Islamic Resistance is a hacktivist collective ideologically aligned with I
 ## Activities and Tactics
 **Country of Origin**: 🇮🇷 Iran
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

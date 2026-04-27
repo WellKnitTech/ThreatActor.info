@@ -12,6 +12,10 @@ One of their notable tools is a custom backdoor called SockDetour, which operate
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

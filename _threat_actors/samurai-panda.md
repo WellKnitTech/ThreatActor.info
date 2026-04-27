@@ -11,9 +11,15 @@ SAMURAI PANDA is a threat actor tracked by MISP Galaxy. Additional information p
 
 ## Activities and Tactics
 **Targeted Sectors**: Private sector, Military
+
 **Country of Origin**: 🇨🇳 China
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: United States, United Kingdom, Hong Kong
 
 ## Notable Campaigns

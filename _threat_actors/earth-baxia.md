@@ -12,6 +12,10 @@ Earth Baxia is a threat actor opearting out of China, targeting government organ
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

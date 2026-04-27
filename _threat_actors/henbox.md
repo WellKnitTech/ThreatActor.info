@@ -11,9 +11,15 @@ This threat actor targets Uighurs—a minority ethnic group located primarily in
 
 ## Activities and Tactics
 **Targeted Sectors**: Civil society
+
 **Country of Origin**: 🇨🇳 China
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Uighurs
 
 ## Notable Campaigns

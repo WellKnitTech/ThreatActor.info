@@ -12,6 +12,10 @@ TaskMasters is a state-sponsored Chinese APT that has been active since at least
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

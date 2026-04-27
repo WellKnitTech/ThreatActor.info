@@ -12,6 +12,10 @@ DRAGONBRIDGE is a Chinese state-sponsored threat actor known for engaging in inf
 ## Activities and Tactics
 **Country of Origin**: 🇨🇳 China
 
+
+
+
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

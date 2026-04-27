@@ -11,9 +11,15 @@ Researchers have uncovered a long-term cyber-espionage campaign that used a comb
 
 ## Activities and Tactics
 **Targeted Sectors**: Activists, Intelligence, Government, Administration, Government, Private sector
+
 **Country of Origin**: 🇷🇺 Russia
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Hungary, Belarus
 
 ## Notable Campaigns

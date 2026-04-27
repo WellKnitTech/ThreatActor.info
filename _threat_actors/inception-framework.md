@@ -11,9 +11,15 @@ This threat actor uses spear-phishing techniques to target private-sector energy
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Private sector
+
 **Country of Origin**: 🇷🇺 Russia
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Afghanistan, Armenia, Azerbaijan, Belarus, Belgium, Czech Republic, Greece, India, Iran, Italy...
 
 ## Notable Campaigns

@@ -11,7 +11,13 @@ An actor mainly targeting Pakistan military targets, active since at least 2012.
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Military, Private Sector
+
 **Country of Origin**: 🇮🇳 India
+
+
+
+
+
 **Suspected Victims**: China, Pakistan, Nepal, Afghanistan
 
 ## Notable Campaigns

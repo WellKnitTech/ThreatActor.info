@@ -11,9 +11,15 @@ This threat actor targets governments, diplomatic missions, private companies in
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Private sector
+
 **Country of Origin**: 🏳️ Spain
+
 **Risk Level**: High
+
+
+
 **Incident Type**: Espionage
+
 **Suspected Victims**: Morocco, France, Libya, Venezuela, Poland, Brazil, Spain, United States, South Africa, Tunisia...
 
 ## Notable Campaigns
