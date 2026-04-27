@@ -23,9 +23,9 @@ A community-driven threat intelligence wiki that collects and organizes informat
 - **IOC Copy Tools**: Click-to-copy for individual IOCs, categories, and bulk
 
 ### Data-Driven Architecture
-- **Single Source of Truth**: `_data/threat_actors.yml`
+- **Single Source of Truth**: `_data/actors/*.yml`
 - **Auto-Generated Pages**: Run generator to create all MD files from YAML
-- **Smart Merge**: Preserves manually-enriched pages when regenerating
+- **Deterministic Generation**: Actor pages are regenerated from source-backed data and stable templates
 - **Import Ready**: Supports MITRE ATT&CK, MISP Galaxy, and other data sources
 
 ## 🔄 Data-Driven Workflow
@@ -47,13 +47,13 @@ ruby scripts/import-mitre.rb           # Preview
 ruby scripts/import-mitre.rb --write   # Apply
 ```
 
-**Option 2: Manual YAML Edit**
+**Option 2: Run source importers and regeneration pipeline**
 ```bash
-# Edit the YAML file directly
-nano _data/threat_actors.yml
-
-# Or use the helper to add a new actor
-ruby scripts/add-actor.rb "Actor Name"
+# Example source update flow
+ruby scripts/import-misp-galaxy.rb fetch --output data/imports/misp-galaxy/$(date +%F)
+ruby scripts/import-cisa-kev.rb full
+ruby scripts/generate-pages.rb --force
+ruby scripts/generate-indexes.rb
 ```
 
 **Option 3: Regenerate from YAML**
@@ -80,7 +80,7 @@ bash scripts/validate.sh
 threatactor-info/
 ├── _config.yml              # Jekyll configuration
 ├── _data/
-│   ├── threat_actors.yml   # Central threat actor database (SOURCE OF TRUTH)
+│   ├── actors/             # Sharded threat actor metadata (SOURCE OF TRUTH)
 │   ├── misp-reference/     # MISP Galaxy reference data (lookup only)
 │   └── generated/          # Generated JSON artifacts for APIs/search
 ├── _layouts/
@@ -92,7 +92,7 @@ threatactor-info/
 threatactor-info/
 ├── _config.yml              # Jekyll configuration
 ├── _data/
-│   ├── threat_actors.yml   # Central threat actor database (SOURCE OF TRUTH)
+│   ├── actors/             # Sharded threat actor metadata (SOURCE OF TRUTH)
 │   └── generated/          # Generated JSON artifacts for APIs/search
 ├── _layouts/
 │   ├── default.html       # Base layout template
@@ -177,7 +177,7 @@ We welcome contributions from the cybersecurity community! Here's how you can he
 
 ### Adding New Threat Actors
 
-1. **Update the database** (`_data/threat_actors.yml`):
+1. **Update source snapshots and importers** (preferred, no manual page edits):
    ```yaml
    - name: "Threat Actor Name"
      aliases: ["Alias 1", "Alias 2"]
@@ -190,7 +190,7 @@ We welcome contributions from the cybersecurity community! Here's how you can he
      risk_level: "High|Critical|Medium|Low"
    ```
 
-2. **Create the threat actor page** (`_threat_actors/threat-actor-name.md`):
+2. **Regenerate the threat actor page** (`_threat_actors/threat-actor-name.md`) via scripts:
    ```markdown
    ---
    layout: threat_actor
@@ -232,8 +232,8 @@ We welcome contributions from the cybersecurity community! Here's how you can he
 
 ### Updating Existing Information
 
-1. **Edit the YAML data** in `_data/threat_actors.yml`
-2. **Update the markdown content** in `_threat_actors/`
+1. **Refresh upstream source snapshots/importers**
+2. **Regenerate pages** with `ruby scripts/generate-pages.rb --force`
 3. **Regenerate JSON artifacts** with `ruby scripts/generate-indexes.rb`
 4. **Run validation** with `ruby scripts/validate-content.rb`
 5. **Test locally** to ensure everything works
@@ -282,7 +282,7 @@ The site includes advanced search capabilities:
 
 ### Generated Artifacts
 
-- `ruby scripts/generate-indexes.rb` reads `_data/threat_actors.yml` and `_threat_actors/*.md`
+- `ruby scripts/generate-indexes.rb` reads `_data/actors/*.yml` and `_threat_actors/*.md`
 - `_data/generated/threat_actors.json` stores actor metadata for the UI and API
 - `_data/generated/iocs.json` stores a first-pass IOC index extracted from each `## Notable Indicators of Compromise (IOCs)` section
 - `_data/generated/facets.json` stores countries, risk levels, sectors, IOC types, and counts for filters
@@ -293,7 +293,7 @@ The site includes advanced search capabilities:
 - `_data/generated/ioc_lookup.json` stores IOC records keyed by normalized value for client-side lookup
 - `_data/generated/ioc_types.json` stores a manifest of IOC-type shard endpoints
 - `_data/generated/iocs_by_type/*.json` stores IOC shards grouped by IOC type
-- `docs/importers.md` documents manual source-import workflows and attribution requirements
+- `docs/importers.md` documents automated source-import workflows, delta gating, and attribution requirements
 
 ## API Endpoints
 
@@ -316,7 +316,7 @@ Actor records may also include optional source provenance fields such as `source
 
 - `scripts/import-ransomlook.rb` supports fetching, reviewing, and importing RansomLook-derived actor metadata snapshots
 - `data/imports/ransomlook/mapping_overrides.yml` stores reviewed rename and alias overrides for bulk import safety
-- Importers update canonical inputs only: `_data/threat_actors.yml` and `_threat_actors/*.md`
+- Importers and generators update canonical inputs automatically: `_data/actors/*.yml` and `_threat_actors/*.md`
 - Imported content should stay conservative and avoid automatically seeding volatile IOCs into the static API
 - See `docs/importers.md` for commands and attribution requirements
 

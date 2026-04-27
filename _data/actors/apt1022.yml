@@ -1,0 +1,46 @@
+name: ToddyCat
+aliases:
+- ToddyCat
+- Websiic
+description: 'ToddyCat is a sophisticated threat group that has been active since
+  at least 2020 using custom loaders and malware in multi-stage infection chains against
+  government and military targets across Europe and Asia.(Citation: Kaspersky ToddyCat
+  June 2022)(Citation: Kaspersky ToddyCat Check Logs October 2023)'
+url: /apt1022
+external_id: G1022
+mitre_id: G1022
+external_url: https://attack.mitre.org/groups/G1022
+mitre_url: https://attack.mitre.org/groups/G1022
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+    source_record_id: G1022
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+risk_level: null
+sector_focus:
+- Military
+- Government
+targeted_victims:
+- Afghanistan
+- India
+- Indonesia
+- Iran
+- Kyrgyzstan
+- Malaysia
+- Pakistan
+- Russia
+- Slovakia
+- Taiwan
+- Thailand
+- United Kingdom
+- Uzbekistan
+- Vietnam
+country: null
+malware:
+- name: Backdoor.Oldrea
+- name: Trojan.Karagany
+- name: Unknown Logger
+- name: Trojan.Mebromi

@@ -1,0 +1,21 @@
+name: Operation Triangulation
+aliases:
+- Operation Triangulation
+description: Operation Triangulation is an ongoing APT campaign targeting iOS devices
+  with zero-click iMessage exploits. The threat actor behind the campaign has been
+  active since at least 2019 and continues to operate. The attack chain involves the
+  delivery of a malicious iMessage attachment that launches a series of exploits,
+  ultimately leading to the deployment of the TriangleDB implant. Kaspersky researchers
+  have discovered and reported multiple vulnerabilities used in the campaign, with
+  patches released by Apple.
+url: /operation-triangulation
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 220001c6-c976-4cad-a356-4d8c2dd2b1c1
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Xploit
+- name: Archelaus Beta

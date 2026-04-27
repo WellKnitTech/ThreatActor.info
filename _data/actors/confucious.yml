@@ -1,0 +1,19 @@
+name: Confucious
+aliases:
+- Confucious
+description: Confucius is an APT organization funded by India. It has been carrying
+  out cyber attacks since 2013. Its main targets are India's neighbouring countries
+  such as Pakistan and China. It has a strong interest in targets in the fields of
+  military, government and energy.
+url: /confucious
+country: India
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 54618130-55d3-4506-b62b-67f2dca12b04
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: China Chopper
+- name: CyberGate
+- name: Cyber Eye RAT

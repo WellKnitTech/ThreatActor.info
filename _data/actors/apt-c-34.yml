@@ -1,0 +1,27 @@
+name: APT-C-34
+aliases:
+- Golden Falcon
+- APT-C-34
+description: As reported by ZDNet, Chinese cyber-security vendor Qihoo 360 published
+  a report on 2019-11-29 exposing an extensive hacking operation targeting the country
+  of Kazakhstan. Targets included individuals and organizations involving all walks
+  of life, such as government agencies, military personnel, foreign diplomats, researchers,
+  journalists, private companies, the educational sector, religious figures, government
+  dissidents, and foreign diplomats alike. The campaign, Qihoo 360 said, was broad,
+  and appears to have been carried by a threat actor with considerable resources,
+  and one who had the ability to develop their private hacking tools, buy expensive
+  spyware off the surveillance market, and even invest in radio communications interception
+  hardware.
+url: /apt-c-34
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: feb0cfef-0472-4108-83d7-1a322d8ab86b
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Hacking Team UEFI Rootkit
+- name: CyberGate
+- name: Cyber Eye RAT
+- name: Archelaus Beta

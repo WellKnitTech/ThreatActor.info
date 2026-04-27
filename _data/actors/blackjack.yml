@@ -1,0 +1,26 @@
+name: BlackJack
+aliases:
+- BlackJack
+description: Blackjack, a threat actor linked to Ukraine's security apparatus, has
+  targeted critical Russian entities such as ISPs, utilities, and military infrastructure.
+  They have claimed responsibility for launching cyberattacks resulting in substantial
+  damage and data exfiltration. The group allegedly used the Fuxnet malware to target
+  sensor gateways connected to internet-connected sensors, impacting infrastructure
+  monitoring systems. Blackjack has also been involved in attacks against companies
+  like Moscollector, causing disruptions and stealing sensitive data.
+url: /blackjack
+country: Ukraine
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: a5aa9b72-2bfb-427c-97fc-6ec04357233b
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: BlackEnergy
+- name: BLACKCOFFEE
+- name: Blackshades
+- name: BlackNix
+- name: CyberGate
+- name: Cyber Eye RAT
+- name: BlackHole

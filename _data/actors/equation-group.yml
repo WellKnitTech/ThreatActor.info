@@ -1,0 +1,42 @@
+name: Equation Group
+aliases:
+- Tilded Team
+- EQGRP
+- G0020
+- Equation Group
+description: The Equation Group is a highly sophisticated threat actor described by
+  its discoverers at Kaspersky Labs as one of the most sophisticated cyber attack
+  groups in the world, operating alongside but always from a position of superiority
+  with the creators of Stuxnet and Flame
+url: /equation-group
+country: United States
+risk_level: High
+sector_focus:
+- Government
+- Military
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 7036fb3d-86b7-4d9c-bc66-1e1ead8b7840
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+targeted_victims:
+- Iran
+- Afghanistan
+- Syria
+- Yemen
+- Kenya
+- Russia
+- India
+- Mali
+- Algeria
+- United Kingdom
+- Pakistan
+- China
+- Lebanon
+- United Arab Emirates
+- Libya
+incident_type: Espionage
+malware:
+- name: Flame
+- name: CyberGate
+- name: Cyber Eye RAT

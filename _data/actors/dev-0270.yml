@@ -1,0 +1,18 @@
+name: DEV-0270
+aliases:
+- Nemesis Kitten
+- Storm-0270
+- DEV-0270
+description: Microsoft threat intelligence teams have been tracking multiple ransomware
+  campaigns and have tied these attacks to DEV-0270, also known as Nemesis Kitten,
+  a sub-group of Iranian actor PHOSPHORUS. Microsoft assesses with moderate confidence
+  that DEV-0270 conducts malicious network operations, including widespread vulnerability
+  scanning, on behalf of the government of Iran.
+url: /dev-0270
+country: Iran
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 7b90319a-9f7b-466d-9f90-7fcc270ed505
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null

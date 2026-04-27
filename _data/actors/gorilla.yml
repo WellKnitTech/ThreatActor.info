@@ -1,0 +1,13 @@
+name: Gorilla
+aliases:
+- Gorilla
+description: Gorilla is a threat-actor operating a DoS-as-a-service service controlled
+  on Telegram.
+url: /gorilla
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 192be820-af1a-4967-b38c-73326fa9ca9f
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null

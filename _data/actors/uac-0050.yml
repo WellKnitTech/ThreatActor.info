@@ -1,0 +1,26 @@
+name: UAC-0050
+aliases:
+- UAC-0050
+description: UAC-0050 is a threat actor that has been active since 2020, targeting
+  government agencies in Ukraine. They have been distributing the Remcos RAT malware
+  through phishing campaigns, using tactics such as impersonating the Security Service
+  of Ukraine and sending emails with malicious attachments. The group has also been
+  linked to other hacking collectives, such as UAC-0096, and has previously used remote
+  administration tools like Remote Utilities. The motive behind their attacks is likely
+  espionage.
+url: /uac-0050
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: e3ff56b6-2663-46bd-9e5c-017a350896d9
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+targeted_victims:
+- Germany
+country: null
+malware:
+- name: Hacking Team UEFI Rootkit
+- name: RemoteCMD
+- name: Remote Utilities
+- name: RemotePC
+- name: Remcos

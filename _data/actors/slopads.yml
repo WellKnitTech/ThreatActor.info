@@ -1,0 +1,23 @@
+name: SlopAds
+aliases:
+- SlopAds
+description: SlopAds is a sophisticated ad fraud and click fraud operation involving
+  a collection of 224 apps, downloaded over 38 million times globally. The threat
+  actors utilize steganography, hidden WebViews, and a mobile marketing attribution
+  platform to execute their fraud schemes, which include generating fraudulent ad
+  impressions and clicks. Their infrastructure comprises multiple C2 servers and over
+  300 related domains, indicating plans for expansion. The operation has been linked
+  to 2.3 billion bid requests per day, with significant traffic originating from the
+  United States, India, and Brazil.
+url: /slopads
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 10cc894e-13e6-4903-a762-7d997658d5c0
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: MobileOrder
+- name: UNITEDRAKE
+- name: GraphicBooting

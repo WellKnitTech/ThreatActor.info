@@ -1,0 +1,28 @@
+name: UAC-0241
+aliases:
+- UAC-0241
+description: UAC-0241 is a threat actor tracked by CERT-UA, active from May to November
+  2025, targeting educational institutions and government bodies in eastern Ukraine
+  via spear-phishing emails from compromised Gmail accounts. These emails deliver
+  password-protected ZIP archives with malicious LNK files that trigger an HTA → JavaScript
+  → PowerShell chain, deploying credential harvester LaZagne, file-stealer scripts,
+  and the Go-based GAMYBEAR backdoor for command execution, data exfiltration over
+  HTTP, and persistence via registry Run keys. Initial access stemmed from a May 26
+  phishing spoofing a local emergency agency, with compromised systems exploited for
+  lateral movement.
+url: /uac-0241
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 65842a65-0ef4-49e2-b951-0fc5d1ba8c2a
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Backdoor.Oldrea
+- name: PowerDuke
+- name: POWERSTATS
+- name: Power Loader
+- name: POWERSOURCE
+- name: Xploit
+- name: PowerRAT

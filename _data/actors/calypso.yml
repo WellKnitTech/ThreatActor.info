@@ -1,0 +1,27 @@
+name: Calypso
+aliases:
+- BRONZE MEDLEY
+- Calypso
+description: For the first time, the activity of the Calypso group was detected by
+  specialists of PT Expert Security Center in March 2019, during the work to detect
+  cyber threats. As a result, many malware samples of this group were obtained, affected
+  organizations and control servers of intruders were identified. According to our
+  data, the group has been active since at least September 2016. The main goal of
+  the group is to steal confidential data, the main victims are government agencies
+  from Brazil, India, Kazakhstan, Russia, Thailand, Turkey. Our data suggest that
+  the group has Asian roots. Description translated from Russian.
+url: /calypso
+sector_focus:
+- Government, Administration
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 200d04c8-a11f-45c4-86fd-35bb5de3f7a3
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: RIPTIDE
+- name: CyberGate
+- name: Cyber Eye RAT
+- name: Xpert

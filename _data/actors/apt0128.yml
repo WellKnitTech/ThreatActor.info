@@ -1,0 +1,23 @@
+name: ZIRCONIUM
+aliases:
+- APT31
+- Violet Typhoon
+- ZIRCONIUM
+description: 'ZIRCONIUM is a threat group operating out of China, active since at
+  least 2017, that has targeted individuals associated with the 2020 US presidential
+  election and prominent leaders in the international affairs community.(Citation:
+  Microsoft Targeting Elections September 2020)(Citation: Check Point APT31 February
+  2021)'
+url: /apt0128
+external_id: G0128
+mitre_id: G0128
+external_url: https://attack.mitre.org/groups/G0128
+mitre_url: https://attack.mitre.org/groups/G0128
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T05:24:31Z'
+    source_record_id: G0128
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json

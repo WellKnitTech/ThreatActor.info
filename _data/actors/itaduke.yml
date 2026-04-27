@@ -1,0 +1,18 @@
+name: ItaDuke
+aliases:
+- DarkUniverse
+- SIG27
+- ItaDuke
+description: ItaDuke is an actor known since 2013. It used PDF exploits for dropping
+  malware and Twitter accounts to store C2 server urls. On 2018, an actor named DarkUniverse,
+  which was active between 2009 to 2017, was attributed to this ItaDuke by Kaspersky.
+url: /itaduke
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: d0b900fa-84b4-11ea-bc55-0242ac130003
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Xploit

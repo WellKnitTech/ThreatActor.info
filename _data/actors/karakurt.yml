@@ -1,0 +1,25 @@
+name: Karakurt
+aliases:
+- Karakurt Lair
+- Karakurt
+description: Karakurt actors have employed a variety of tactics, techniques, and procedures
+  (TTPs), creating significant challenges for defense and mitigation. Karakurt victims
+  have not reported encryption of compromised machines or files; rather, Karakurt
+  actors have claimed to steal data and threatened to auction it off or release it
+  to the public unless they receive payment of the demanded ransom. Known ransom demands
+  have ranged from $25,000 to $13,000,000 in Bitcoin, with payment deadlines typically
+  set to expire within a week of first contact with the victim.
+url: /karakurt
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 035fbd5c-e4a1-4c7b-80fb-f5a89a361aed
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+targeted_victims:
+- Canada
+- Germany
+- United Kingdom
+- United States
+incident_type: Extortion
+country: null

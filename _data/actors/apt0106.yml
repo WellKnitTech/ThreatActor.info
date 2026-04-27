@@ -1,0 +1,25 @@
+name: Rocke
+aliases:
+- Aged Libra
+- Rocke
+description: 'Rocke is an alleged Chinese-speaking adversary whose primary objective
+  appeared to be cryptojacking, or stealing victim system resources for the purposes
+  of mining cryptocurrency. The name Rocke comes from the email address "rocke@live.cn"
+  used to create the wallet which held collected cryptocurrency. Researchers have
+  detected overlaps between Rocke and the Iron Cybercrime Group, though this attribution
+  has not been confirmed.(Citation: Talos Rocke August 2018)'
+url: /apt0106
+external_id: G0106
+mitre_id: G0106
+external_url: https://attack.mitre.org/groups/G0106
+mitre_url: https://attack.mitre.org/groups/G0106
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+    source_record_id: G0106
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+risk_level: null
+country: null

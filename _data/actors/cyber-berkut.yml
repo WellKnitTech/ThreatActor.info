@@ -1,0 +1,12 @@
+name: Cyber Berkut
+aliases:
+- Cyber Berkut
+description: ''
+url: /cyber-berkut
+country: Russia
+risk_level: High
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 4d9f68ba-cb2b-40bf-ba4b-6a5a9f2e1cf8
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

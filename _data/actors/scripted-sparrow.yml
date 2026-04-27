@@ -1,0 +1,24 @@
+name: Scripted Sparrow
+aliases:
+- Scripted Sparrow
+description: Scripted Sparrow is a prolific Business Email Compromise (BEC) collective
+  that conducts highly targeted phishing campaigns, impersonating professional services
+  firms to deceive finance teams into transferring funds. The group employs a disciplined
+  approach, utilizing consistent language and familiar tones in their communications,
+  while sending between 10,000 and 50,000 emails daily in small batches. They have
+  developed a sophisticated understanding of corporate communication, crafting messages
+  that mimic internal formats and urgency without raising suspicion. Scripted Sparrow
+  relies on a network of US-based mule accounts, with 249 unique bank accounts identified
+  across 42 financial institutions for cash-out operations.
+url: /scripted-sparrow
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: deba565b-3313-425b-aaa3-2c6034257913
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Small-Net
+- name: Batch NET
+- name: CrossRat

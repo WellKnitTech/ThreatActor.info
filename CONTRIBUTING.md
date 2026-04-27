@@ -49,9 +49,9 @@ Thank you for your interest in contributing to ThreatActor.info! This guide will
 
 ### Adding New Threat Actors
 
-#### Step 1: Update the Database
+#### Step 1: Update Source Snapshots
 
-Edit `_data/threat_actors.yml` and add your threat actor:
+Run source importers first and let the automation update actor shards:
 
 ```yaml
 - name: "Threat Actor Name"
@@ -65,9 +65,14 @@ Edit `_data/threat_actors.yml` and add your threat actor:
   risk_level: "High|Critical|Medium|Low"
 ```
 
-#### Step 2: Create the Threat Actor Page
+#### Step 2: Regenerate Threat Actor Pages
 
-Create `_threat_actors/threat-actor-name.md`:
+Generate `_threat_actors/*.md` with:
+```bash
+ruby scripts/generate-pages.rb --force
+```
+
+Generated pages follow this structure:
 
 ```markdown
 ---
@@ -143,8 +148,8 @@ Links to reports and analysis...
 
 ### Updating Existing Information
 
-1. **Edit the YAML data** in `_data/threat_actors.yml`
-2. **Update the markdown content** in `_threat_actors/`
+1. **Refresh source snapshots/importers**
+2. **Regenerate pages** with `ruby scripts/generate-pages.rb --force`
 3. **Regenerate JSON artifacts** with `ruby scripts/generate-indexes.rb`
 4. **Run validation** with `ruby scripts/validate-content.rb`
 5. **Test locally** to ensure everything works
@@ -222,7 +227,7 @@ When requesting features, please include:
 
 ### Generated Data and API Workflow
 
-- `_threat_actors/` is a Jekyll collection and each page must stay aligned with `_data/threat_actors.yml`
+- `_threat_actors/` is generated from `_data/actors/*.yml`; avoid manual page edits unless debugging generation logic
 - `ruby scripts/generate-indexes.rb` rebuilds actor, IOC, facet, campaign, malware, ATT&CK mapping, reference, IOC lookup, and IOC type-shard artifacts under `_data/generated/`
 - The generator also refreshes static query helpers under `api/`, including `/api/ioc-lookup.json`, `/api/ioc-types.json`, and `/api/iocs/by-type/*.json`
 - The search UI and static API endpoints under `api/` read those generated artifacts, so regenerate them after content edits

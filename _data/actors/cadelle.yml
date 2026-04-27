@@ -1,0 +1,20 @@
+name: Cadelle
+aliases:
+- Cadelle
+description: Symantec telemetry identified Cadelle and Chafer activity dating from
+  as far back as July 2014, however, it’s likely that activity began well before this
+  date. Command-and-control (C&C) registrant information points to activity possibly
+  as early as 2011, while executable compilation times suggest early 2012. Their attacks
+  continue to the present day. Symantec estimates that each team is made up of between
+  5 and 10 people.
+url: /cadelle
+country: Iran
+risk_level: High
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 03f13462-003c-4296-8784-bccea16710a9
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+malware:
+- name: Back Orifice
+- name: Back Orifice 2000

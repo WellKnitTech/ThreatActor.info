@@ -1,0 +1,46 @@
+name: Sandman APT
+aliases:
+- Sandman APT
+description: First disclosed in 2023, the Sandman APT is likely associated with suspected
+  China-based threat clusters known for using the KEYPLUG backdoor, specifically STORM-0866/Red
+  Dev 40. Sandman is tracked as a distinct cluster, pending additional conclusive
+  information. A notable characteristic is its use of the LuaDream backdoor. LuaDream
+  is based on the Lua platform, a relatively rare occurrence in the cyberespionage
+  domain, historically associated with APTs considered Western or Western-aligned.
+url: /sandman-apt
+country: China
+risk_level: High
+sector_focus:
+- Government
+- Telecommunications
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 00b84012-fa25-4942-ad64-c76be24828a8
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+targeted_victims:
+- Middle East
+- Southeast Asian
+- France
+- Egypt
+- Sudan
+- South Sudan
+- Libya
+- Turkey
+- Saudi Arabia
+- Oman
+- Yemen
+- Sri Lanka
+- India
+- Pakistan
+- Iran
+- Afghanistan
+- Kuwait
+- Iraq
+- United Arab Emirates
+incident_type: Espionage
+malware:
+- name: Backdoor.Oldrea
+- name: China Chopper
+- name: CyberGate
+- name: Cyber Eye RAT

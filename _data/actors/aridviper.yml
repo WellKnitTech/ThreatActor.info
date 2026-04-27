@@ -1,0 +1,48 @@
+name: AridViper
+aliases:
+- Desert Falcon
+- Arid Viper
+- APT-C-23
+- Bearded Barbie
+- Two-tailed Scorpion
+- AridViper
+description: AridViper is a state-sponsored APT primarily targeting military personnel,
+  journalists, and dissidents in the Middle East, with a focus on Israel and Palestine.
+  The group employs custom-developed mobile malware, including variants like AridSpy,
+  GnatSpy, and Micropsia, often delivered through spear-phishing emails and deceptive
+  applications. Their operations involve sophisticated social engineering tactics,
+  including the use of fake social media profiles and weaponized apps masquerading
+  as legitimate services. AridViper's activities are characterized by a blend of technical
+  sophistication and psychological manipulation, aiming to exfiltrate sensitive data
+  from compromised systems.
+url: /aridviper
+country: Palestine
+sector_focus:
+- Government
+- Defense
+- Energy
+- Finance
+- Education
+- High-Tech
+- Telecoms
+- Transportation
+- Media
+- NGOs
+- Civil Society
+- Legal
+- Military
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 0cfff0f4-868c-40a1-b9b4-0d153c0b33b6
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+targeted_victims:
+- United States
+- Israel
+- Palestine
+- Middle East
+- Europe
+incident_type: Espionage
+malware:
+- name: MobileOrder

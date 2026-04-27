@@ -1,0 +1,20 @@
+name: Greenbug
+aliases:
+- Greenbug
+description: Greenbug was discovered targeting a range of organizations in the Middle
+  East including companies in the aviation, energy, government, investment, and education
+  sectors.
+url: /greenbug
+country: Iran
+risk_level: High
+sector_focus:
+- Education
+- Energy
+- Investment
+- Aerospace
+- Government, Administration
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 47204403-34c9-4d25-a006-296a0939d1a2
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

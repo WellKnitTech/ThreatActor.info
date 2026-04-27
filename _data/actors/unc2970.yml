@@ -1,0 +1,23 @@
+name: UNC2970
+aliases:
+- UNC2970
+description: UNC2970 is a North Korean threat actor that primarily targets organizations
+  through spear-phishing emails with job recruitment themes, often utilizing fake
+  LinkedIn accounts to engage victims. The group employs the PLANKWALK backdoor and
+  other malware families, leveraging compromised WordPress sites for command and control.
+  They have been observed using BYOVD techniques to exploit vulnerable drivers for
+  evading detection. Mandiant has noted a shift in UNC2970's targeting strategy, including
+  a focus on security researchers and advancements in their operational capabilities
+  against EDR tools.
+url: /unc2970
+country: North Korea
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: e40cf515-f155-46d4-b174-88b38383f9bb
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: Backdoor.Oldrea
+- name: Xploit
+- name: Archelaus Beta

@@ -1,0 +1,22 @@
+name: BiBiGun
+aliases:
+- BiBiGun
+description: A pro-Hamas hacktivist group developed a wiper called BiBi-Linux to target
+  and destroy data on Israeli systems. The malware impersonates ransomware but operates
+  solely to corrupt and delete files, indicating no data theft. A Windows variant,
+  BiBi-Windows, was also discovered, sharing similarities with BiBi-Linux but targeting
+  all files except executables. ESET researchers have named the group behind the wipers
+  BiBiGun. The group's TTPs have shown overlaps with Moses Staff, which is believed
+  to have an Iran nexus.
+url: /bibigun
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: f8054f5b-45e5-4624-b8d0-1b9c30aa084e
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Wiper
+- name: Windows Remote Desktop
+- name: Archelaus Beta

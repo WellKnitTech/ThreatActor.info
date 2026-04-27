@@ -1,0 +1,27 @@
+name: HEXANE
+aliases:
+- HEXANE
+- Lyceum
+- Siamesekitten
+- Spirlin
+description: 'HEXANE is a cyber espionage threat group that has targeted oil & gas,
+  telecommunications, aviation, and internet service provider organizations since
+  at least 2017. Targeted companies have been located in the Middle East and Africa,
+  including Israel, Saudi Arabia, Kuwait, Morocco, and Tunisia. HEXANE''s TTPs appear
+  similar to APT33 and OilRig but due to differences in victims and tools it is tracked
+  as a separate entity.(Citation: Dragos Hexane)(Citation: Kaspersky Lyceum October
+  2021)(Citation: ClearSky Siamesekitten August 2021)(Citation: Accenture Lyceum Targets
+  November 2021)'
+url: /apt1001
+external_id: G1001
+mitre_id: G1001
+external_url: https://attack.mitre.org/groups/G1001
+mitre_url: https://attack.mitre.org/groups/G1001
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T05:24:31Z'
+    source_record_id: G1001
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json

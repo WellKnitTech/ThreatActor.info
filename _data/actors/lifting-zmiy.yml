@@ -1,0 +1,24 @@
+name: Lifting Zmiy
+aliases:
+- Lifting Zmiy
+description: Rostelecom's security team has discovered a new APT group that is breaching
+  companies via industrial PLCs. Named Lifting Zmiy, the group's first attacks were
+  traced back to October 2023. The group targeted PLCs from Russian company Tech-Automatics
+  usually used with elevators and which were still using their default passwords.
+  Rostelecom has linked the group to intrusions at a Russian government contractor,
+  two telecom operators, and an IT company. The company says the group collected and
+  exfiltrated data and then destroyed the victim's infrastructure. Rostelecom says
+  Lifting Zmiy uses Starlink infrastructure for attacks and appears to operate out
+  of Eastern Europe.
+url: /lifting-zmiy
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: b9968b5f-0a5a-4be6-9dd2-428244741323
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Starloader
+- name: Back Orifice
+- name: Back Orifice 2000

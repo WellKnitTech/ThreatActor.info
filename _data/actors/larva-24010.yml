@@ -1,0 +1,21 @@
+name: Larva-24010
+aliases:
+- Larva-24010
+description: The Larva-24010 threat actor is distributing malware through the website
+  of a Korean VPN service provider. As a result, when a user downloads and runs the
+  installer from the VPN website, malware can be installed on the system. Since at
+  least 2023, the Larva-24010 threat actor has been targeting Korean VPN users to
+  spread malware, ultimately installing various backdoors such as MeshAgent, gs-netcat,
+  and NKNShell. Through this, the attacker can control infected systems where the
+  VPN is installed and steal sensitive information stored on those systems.
+url: /larva-24010
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 6e5eb2f5-bc36-4ba8-95ff-c31a21098d40
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Backdoor.Oldrea
+- name: Agent.btz

@@ -1,0 +1,23 @@
+name: UNC5325
+aliases:
+- UNC5325
+description: UNC5325 is a suspected Chinese cyber espionage operator that exploited
+  CVE-2024-21893 to compromise Ivanti Connect Secure appliances. UNC5325 leveraged
+  code from open-source projects, installed custom malware, and modified the appliance's
+  settings in order to evade detection and attempt to maintain persistence. UNC5325
+  has been observed deploying LITTLELAMB.WOOLTEA, PITSTOP, PITDOG, PITJET, and PITHOOK.
+  Mandiant identified TTPs and malware code overlaps in LITTLELAMB.WOOLTEA and PITHOOK
+  with malware leveraged by UNC3886. Mandiant assesses with moderate confidence that
+  UNC5325 is associated with UNC3886.
+url: /unc5325
+country: China
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: ffb28c09-16a6-483a-817a-89c89751c9d4
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: CyberGate
+- name: Cyber Eye RAT
+- name: Xploit

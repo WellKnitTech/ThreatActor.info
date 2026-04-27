@@ -1,0 +1,28 @@
+name: The Gentlemen
+aliases:
+- The Gentlemen
+description: The Gentlemen is a ransomware group that employs a dual-extortion strategy,
+  encrypting sensitive files while exfiltrating critical business data to pressure
+  victims into paying ransoms. Their operations leverage advanced techniques such
+  as abusing legitimate utilities like PowerRun.exe for privilege escalation, using
+  custom-built tools for defense evasion, and employing flexible encryption methods
+  based on file size. The group targets medium to large organizations across various
+  sectors, particularly in the Asia-Pacific region, and has demonstrated a high level
+  of technical maturity and operational discipline. Their activities include systematic
+  compromise of enterprise environments, mass account enumeration, and the use of
+  encrypted channels for data exfiltration.
+url: /the-gentlemen
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 1c047671-227b-466f-9929-37df40abd485
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: PowerDuke
+- name: POWERSTATS
+- name: Power Loader
+- name: POWERSOURCE
+- name: PowerRAT
+- name: CrossRat

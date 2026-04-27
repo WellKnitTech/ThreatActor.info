@@ -1,0 +1,14 @@
+name: Mirage Tiger
+aliases:
+- Mirage Tiger
+description: ''
+url: /mirage-tiger
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: da89d534-5be8-414b-832c-3e9d0d66b4e0
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+targeted_victims:
+- Germany
+country: null

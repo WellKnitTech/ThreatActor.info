@@ -1,0 +1,23 @@
+name: Silence
+aliases:
+- Silence
+- Whisper Spider
+description: 'Silence is a financially motivated threat actor targeting financial
+  institutions in different countries. The group was first seen in June 2016. Their
+  main targets reside in Russia, Ukraine, Belarus, Azerbaijan, Poland and Kazakhstan.
+  They compromised various banking systems, including the Russian Central Bank''s
+  Automated Workstation Client, ATMs, and card processing.(Citation: Cyber Forensicator
+  Silence Jan 2019)(Citation: SecureList Silence Nov 2017) '
+url: /apt0091
+external_id: G0091
+mitre_id: G0091
+external_url: https://attack.mitre.org/groups/G0091
+mitre_url: https://attack.mitre.org/groups/G0091
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T05:24:31Z'
+    source_record_id: G0091
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json

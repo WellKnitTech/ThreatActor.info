@@ -1,0 +1,20 @@
+name: DriftingCloud
+aliases:
+- DriftingCloud
+description: DriftingCloud is a persistent threat actor known for targeting various
+  industries and locations. They are skilled at developing or acquiring zero-day exploits
+  to gain unauthorized access to target networks. Compromising gateway devices is
+  a common tactic used by DriftingCloud, making network monitoring solutions crucial
+  for detecting their attacks.
+url: /driftingcloud
+country: China
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 6f6b187b-971b-4df9-a7ef-9b3fd7e092f7
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: CloudDuke
+- name: Xploit
+- name: Killer RAT

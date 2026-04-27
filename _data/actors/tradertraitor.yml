@@ -1,0 +1,19 @@
+name: TraderTraitor
+aliases:
+- Jade Sleet
+- UNC4899
+- Pukchong
+- TraderTraitor
+description: TraderTraitor targets blockchain companies through spear-phishing messages.
+  The group sends these messages to employees, particularly those in system administration
+  or software development roles, on various communication platforms, intended to gain
+  access to these start-up and high-tech companies. TraderTraitor may be the work
+  of operators previously responsible for APT38 activity.
+url: /tradertraitor
+country: North Korea
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 825abfd9-7238-4438-a9e7-c08791f4df4e
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null

@@ -1,0 +1,17 @@
+name: Hezb
+aliases:
+- Mimo
+- Hezb
+description: Hezb is a group deploying cryptominers when new exploit are available
+  for public facing vulnerabilities. The name is after the miner process they deploy.
+url: /hezb
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: fd82cd40-9306-4285-8fae-ad29a9711603
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Miner-C
+- name: Xploit

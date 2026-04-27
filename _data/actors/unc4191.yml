@@ -1,0 +1,21 @@
+name: UNC4191
+aliases:
+- UNC4191
+description: UNC4191 is a China-linked threat actor that has been involved in cyber
+  espionage campaigns targeting public and private sectors primarily in Southeast
+  Asia. They have been known to use USB devices as an initial infection vector and
+  have been observed deploying various malware families on infected systems. UNC4191's
+  operations have also extended to the US, Europe, and the Asia Pacific Japan region,
+  with a particular focus on the Philippines.
+url: /unc4191
+country: China
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: df697450-57e0-496b-982c-a167ed41f023
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: China Chopper
+- name: CyberGate
+- name: Cyber Eye RAT

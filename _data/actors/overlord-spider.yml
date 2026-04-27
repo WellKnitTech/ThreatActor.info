@@ -1,0 +1,20 @@
+name: OVERLORD SPIDER
+aliases:
+- OVERLORD SPIDER
+description: OVERLORD SPIDER, aka The Dark Overlord. Similar to ransomware operators
+  today, OVERLORD SPIDER likely purchased RDP access to compromised servers on underground
+  forums in order to exfiltrate data from corporate networks. The actor was known
+  to attempt to “sell back” the data to the respective victims, threatening to sell
+  the data to interested parties should the victim refuse to pay. There was at least
+  one identified instance of OVERLORD SPIDER successfully selling victim data on an
+  underground market.
+url: /overlord-spider
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: b43ce229-feaa-4731-9926-e0970140ab0b
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Dark DDoSeR

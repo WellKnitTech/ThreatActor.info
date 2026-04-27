@@ -6,13 +6,13 @@ This reflects the current repository, CI workflow, and validation scripts.
 - Jekyll static site using Ruby + Bundler.
 - No `package.json`, no Node toolchain, no Makefile, no Rakefile.
 - No TypeScript and no conventional unit-test framework.
-- Main content lives in `_data/threat_actors.yml` and `_threat_actors/*.md`.
+- Main content lives in `_data/actors/*.yml` and `_threat_actors/*.md`.
 - Layouts and shared UI live in `_layouts/` and `_includes/`.
 
 ## Key Files
 - `_config.yml`: Jekyll config.
 - `Gemfile`: gem dependencies.
-- `_data/threat_actors.yml`: source-of-truth actor metadata.
+- `_data/actors/*.yml`: source-of-truth actor metadata.
 - `_threat_actors/*.md`: per-actor pages.
 - `_layouts/default.html`, `_layouts/threat_actor.html`: templates.
 - `_includes/search.html`: search/filter UI and client-side parser.
@@ -95,7 +95,7 @@ There is no built-in single-test or single-file test runner.
 - If you changed content, still run the full Ruby validator because it cross-checks YAML against page files.
 
 ## Data Rules
-For each actor in `_data/threat_actors.yml`, the validator requires:
+For each actor in `_data/actors/*.yml`, the validator requires:
 - `name`
 - `aliases`
 - `description`
@@ -121,7 +121,7 @@ Page alignment rules:
 - Use 2-space indentation in YAML, HTML, Liquid, CSS, and Ruby.
 - Preserve standard front matter with triple-dash delimiters.
 - Prefer double-quoted YAML strings because existing content uses them consistently.
-- Keep `aliases` and `sector_focus` arrays inline in `_data/threat_actors.yml` and page front matter.
+- Keep `aliases` and `sector_focus` arrays inline in `_data/actors/*.yml` and page front matter.
 - Avoid broad reformatting; keep edits small and local.
 
 ## Imports and Dependencies
@@ -148,7 +148,7 @@ Page alignment rules:
 ## JavaScript Conventions
 - Keep JavaScript simple and browser-native.
 - Existing async flow uses `fetch(...).then(...).then(...)`; preserve local style unless refactoring the whole block.
-- Be careful editing `_includes/search.html`; the parser reads `_data/threat_actors.yml` as raw text and depends on current formatting.
+- Be careful editing `_includes/search.html`; search depends on generated `/api/threat-actors.json` and `/api/facets.json` payload shape.
 - Do not convert YAML arrays to multi-line form or change quoting patterns without updating the parser.
 - Search filter options for countries and sectors are hardcoded, not data-driven.
 
@@ -173,7 +173,7 @@ Page alignment rules:
 - Some pages also include `Emulating TTPs with Atomic Red Team` and `External Links`; preserve useful existing structure when editing.
 
 ## Agent Checklist
-- Update `_data/threat_actors.yml` and the matching `_threat_actors/*.md` page together.
+- Update `_data/actors/*.yml` and the matching `_threat_actors/*.md` page together.
 - Run `ruby scripts/validate-content.rb` after content changes.
 - Run `bundle exec jekyll build --safe` after layout, include, CSS, or config changes.
 - Do not edit generated output in `_site/`.

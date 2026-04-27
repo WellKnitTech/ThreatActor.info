@@ -1,0 +1,24 @@
+name: Operation Red Signature
+aliases:
+- Operation Red Signature
+description: The threat actors compromised the update server of a remote support solutions
+  provider to deliver a remote access tool called 9002 RAT to their targets of interest
+  through the update process. They carried this out by first stealing the company’s
+  certificate then using it to sign the malware. They also configured the update server
+  to only deliver malicious files if the client is located in the range of IP addresses
+  of their target organisations.
+url: /operation-red-signature
+country: China
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 3e9b98d9-0c61-4050-bafa-486622de0080
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: RemoteCMD
+- name: ClientMesh
+- name: Remote Utilities
+- name: RemotePC
+- name: '9002'
+- name: Client Maximus

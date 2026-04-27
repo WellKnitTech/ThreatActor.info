@@ -1,0 +1,36 @@
+name: APT-C-36
+aliases:
+- APT-C-36
+- Blind Eagle
+description: 'APT-C-36 is a suspected South America espionage group that has been
+  active since at least 2018. The group mainly targets Colombian government institutions
+  as well as important corporations in the financial sector, petroleum industry, and
+  professional manufacturing.(Citation: QiAnXin APT-C-36 Feb2019)'
+url: /apt0099
+external_id: G0099
+mitre_id: G0099
+external_url: https://attack.mitre.org/groups/G0099
+mitre_url: https://attack.mitre.org/groups/G0099
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+    source_record_id: G0099
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+risk_level: null
+sector_focus:
+- Petroleum
+- Manufacturing
+- Financial
+- Private sector
+- Government
+targeted_victims:
+- Ecuador
+- Colombia
+- Spain
+- Panama
+- Chile
+incident_type: Espionage
+country: null

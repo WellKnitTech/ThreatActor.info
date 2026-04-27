@@ -1,0 +1,24 @@
+name: UAT-7237
+aliases:
+- UAT-7237
+description: UAT-7237 is a Chinese-speaking APT group that has been active since at
+  least 2022, primarily targeting web infrastructure entities in Taiwan. They utilize
+  a customized Shellcode loader known as “SoundBill” to execute shellcode, including
+  Cobalt Strike payloads, and rely on SoftEther VPN clients and RDP for persistence
+  and access. UAT-7237 employs techniques such as credential extraction using Mimikatz,
+  reconnaissance with WMI-based tools, and selective deployment of web shells. Their
+  operations indicate a focus on long-term persistence and stealth, with a preference
+  for open-sourced and customized tooling.
+url: /uat-7237
+country: China
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: a1e84808-6540-42bd-a3f8-c3c724ba5203
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: SOUNDBITE
+- name: ClientMesh
+- name: Cobalt Strike
+- name: Client Maximus

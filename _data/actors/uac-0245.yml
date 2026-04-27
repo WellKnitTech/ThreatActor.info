@@ -1,0 +1,13 @@
+name: UAC-0245
+aliases:
+- UAC-0245
+description: Threat actors, tracked under the identifier UAC-0245 and targeting Ukraine,
+  employ malicious XLL files disguised as critical documents.
+url: /uac-0245
+country: Russia
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 04928d77-9ec9-4627-ad08-7f0f8b6de4d4
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null

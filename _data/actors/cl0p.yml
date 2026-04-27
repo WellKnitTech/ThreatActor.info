@@ -1,0 +1,33 @@
+name: Cl0p
+aliases:
+- CHIMBORAZO
+- Clop
+- Hive0065
+- Spandex Tempest
+- TA505
+description: 'TA505 is a cyber criminal group that has been active since at least
+  2014. TA505 is known for frequently changing malware, driving global trends in criminal
+  malware distribution, and ransomware campaigns involving Clop.(Citation: Proofpoint
+  TA505 Sep 2017)(Citation: Proofpoint TA505 June 2018)(Citation: Proofpoint TA505
+  Jan 2019)(Citation: NCC Group TA505)(Citation: Korean FSI TA505 2020)'
+url: /cl0p
+country: Russia
+first_seen: '2019'
+last_activity: '2025'
+risk_level: Critical
+sector_focus:
+- Technology
+- Healthcare
+- Financial
+- Government
+external_id: G0092
+external_url: https://attack.mitre.org/groups/G0092
+mitre_id: G0092
+mitre_url: https://attack.mitre.org/groups/G0092
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T05:24:31Z'
+    source_record_id: G0092
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json

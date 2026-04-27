@@ -1,0 +1,22 @@
+name: UNC6395
+aliases:
+- UNC6395
+description: The actor systematically exported large volumes of data from numerous
+  corporate Salesforce instances. GTIG assesses the primary intent of the threat actor
+  is to harvest credentials. After the data was exfiltrated, the actor searched through
+  the data to look for secrets that could be potentially used to compromise victim
+  environments. GTIG observed UNC6395 targeting sensitive credentials such as Amazon
+  Web Services (AWS) access keys (AKIA), passwords, and Snowflake-related access tokens.
+  UNC6395 demonstrated operational security awareness by deleting query jobs, however
+  logs were not impacted and organizations should still review relevant logs for evidence
+  of data exposure.
+url: /unc6395
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 12503160-884d-40b8-b4cf-9a4d11a769cf
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Archelaus Beta

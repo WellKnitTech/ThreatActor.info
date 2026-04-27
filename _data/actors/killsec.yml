@@ -1,0 +1,19 @@
+name: Killsec
+aliases: []
+description: Killsec is an active extortion or ransomware group tracked by RansomLook.
+url: /killsec
+source_name: RansomLook
+source_attribution: 'Contains data derived from RansomLook, used under CC BY 4.0.
+  Source: https://www.ransomlook.io/'
+source_record_url: https://www.ransomlook.io/group/killsec
+source_license: CC BY 4.0
+source_license_url: https://creativecommons.org/licenses/by/4.0/
+provenance:
+  source_dataset_url: https://www.ransomlook.io/api/groups
+  source_record_id: killsec
+  source_retrieved_at: '2026-04-26T02:09:03Z'
+  source_transforms:
+  - normalized-name
+  - deduplicated-aliases
+  - omitted-volatile-iocs
+  - adapted-for-threatactor-info

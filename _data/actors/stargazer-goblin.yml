@@ -1,0 +1,22 @@
+name: Stargazer Goblin
+aliases:
+- Stargazer Goblin
+description: Stargazer Goblin is a threat actor group that operates the Stargazers
+  Ghost Network on GitHub, distributing malware and malicious links through multiple
+  accounts. They utilize compromised and created accounts to evade detection and quickly
+  replace banned components to continue their operations. The group has been estimated
+  to have earned approximately $100,000 from their malicious activities, offering
+  a Distribution as a Service platform for other threat actors to distribute their
+  malware. Stargazer Goblin has been involved in distributing various malware families,
+  including Atlantida Stealer, Rhadamanthys, RisePro, Lumma Stealer, and RedLine.
+url: /stargazer-goblin
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: a86e4a0d-95cf-4ce0-b26c-d1fbb7cc84bc
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Gazer
+- name: Ghost

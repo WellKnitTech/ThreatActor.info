@@ -1,0 +1,50 @@
+name: APT3
+aliases:
+- APT3
+- BORON
+- Boyusec
+- Brocade Typhoon
+- BRONZE MAYFAIR
+- Buckeye
+- Gothic Panda
+- GOTHIC PANDA
+- Group 6
+- Pirpi
+- Red Sylvan
+- TG-0110
+- Threat Group-0110
+- UPS
+- UPS Team
+description: 'APT3 is a China-based threat group that researchers have attributed
+  to China''s Ministry of State Security.(Citation: FireEye Clandestine Wolf)(Citation:
+  Recorded Future APT3 May 2017) This group is responsible for the campaigns known
+  as Operation Clandestine Fox, Operation Clandestine Wolf, and Operation Double Tap.(Citation:
+  FireEye Clandestine Wolf)(Citation: FireEye Operation Double Tap) As of June 2015,
+  the group appears to have shifted from targeting primarily US victims to primarily
+  political organizations in Hong Kong.(Citation: Symantec Buckeye)'
+url: /apt0022
+external_id: G0022
+mitre_id: G0022
+external_url: https://attack.mitre.org/groups/G0022
+mitre_url: https://attack.mitre.org/groups/G0022
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+    source_record_id: G0022
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+risk_level: High
+sector_focus:
+- Political party
+- Private sector
+country: China
+targeted_victims:
+- United States
+- United Kingdom
+- Hong Kong
+incident_type: Espionage
+malware:
+- name: CyberGate
+- name: Cyber Eye RAT

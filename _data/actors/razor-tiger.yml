@@ -1,0 +1,36 @@
+name: RAZOR TIGER
+aliases:
+- SideWinder
+- Rattlesnake
+- APT-C-17
+- T-APT-04
+- RAZOR TIGER
+description: An actor mainly targeting Pakistan military targets, active since at
+  least 2012. We have low confidence that this malware might be authored by an Indian
+  company. To spread the malware, they use unique implementations to leverage the
+  exploits of known vulnerabilities (such as CVE-2017-11882) and later deploy a Powershell
+  payload in the final stages.
+url: /razor-tiger
+country: India
+sector_focus:
+- Government
+- Military
+- Private Sector
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: c4ce1174-9462-47e9-8038-794f40a184b3
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+targeted_victims:
+- China
+- Pakistan
+- Nepal
+- Afghanistan
+malware:
+- name: PowerDuke
+- name: POWERSTATS
+- name: Power Loader
+- name: POWERSOURCE
+- name: Xploit
+- name: PowerRAT

@@ -1,0 +1,14 @@
+name: Keksec
+aliases:
+- Keksec
+description: The threat group behind EnemyBot, Keksec, is well-resourced and has the
+  ability to update and add new capabilities to its arsenal of malware on a daily
+  basis (see below for more detail on Keksec)
+url: /keksec
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 39ef9941-4f9c-4807-ab10-88e863ce7953
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null

@@ -1,0 +1,149 @@
+name: MuddyWater
+aliases:
+- ATK51
+- Boggy Serpens
+- COBALT ULSTER
+- Earth Vetala
+- G0069
+- Mango Sandstorm
+- MERCURY
+- MuddyWater
+- Seedworm
+- Static Kitten
+- TA450
+- TEMP.Zagros
+- Cobalt Ulster
+- SectorD02
+- Muddy Water
+- DarkBit
+description: 'MuddyWater is a cyber espionage group assessed to be a subordinate element
+  within Iran''s Ministry of Intelligence and Security (MOIS).(Citation: CYBERCOM
+  Iranian Intel Cyber January 2022) Since at least 2017, MuddyWater has targeted a
+  range of government and private organizations across sectors, including telecommunications,
+  local government, defense, and oil and natural gas organizations, in the Middle
+  East, Asia, Africa, Europe, and North America.(Citation: Unit 42 MuddyWater Nov
+  2017)(Citation: Symantec MuddyWater Dec 2018)(Citation: ClearSky MuddyWater Nov
+  2018)(Citation: ClearSky MuddyWater June 2019)(Citation: Reaqta MuddyWater November
+  2017)(Citation: DHS CISA AA22-055A MuddyWater February 2022)(Citation: Talos MuddyWater
+  Jan 2022)'
+url: /apt0069
+external_id: G0069
+mitre_id: G0069
+external_url: https://attack.mitre.org/groups/G0069
+mitre_url: https://attack.mitre.org/groups/G0069
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+    source_record_id: G0069
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+  malpedia:
+    source_retrieved_at: '2026-04-26T22:14:32Z'
+    source_record_id: muddywater
+    source_uuid: a29af069-03c3-4534-b78b-7d1a77ea085b
+    source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
+    source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/muddywater
+  aptnotes:
+    source_retrieved_at: '2026-04-26T22:14:32Z'
+    source_dataset_url: https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
+    source_repository: https://github.com/aptnotes/data
+    report_count: 3
+    earliest_report_year: '2022'
+    latest_report_year: '2023'
+    sources:
+    - Symantec
+    - deepinstinct
+    - talosintelligence
+    sample_titles:
+    - Iranian linked conglomerate MuddyWater comprised of regionally focused subgroups
+    - MuddyWater eN-Able spear-phishing with new TTPs
+    - 'Seedworm: Iranian Hackers Target Telecoms Orgs in North and East Africa'
+    sample_links:
+    - https://app.box.com/s/r0nmwkejtgytsl6q6i60hrwxgbdbzetz
+    - https://app.box.com/s/gqeknolwao8lmfefd96uu2ilva5i67cs
+    - https://app.box.com/s/hn3cttmgg2ijnz0qr41iwh6kpgenapvr
+  apt_groups_operations:
+    source_retrieved_at: '2026-04-26T22:14:32Z'
+    source_dataset_url: https://apt.threattracking.com/
+    sheet_id: 1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU
+    tab_name: iran
+    matched_mitre_ids:
+    - G0069
+    source_links:
+    - https://researchcenter.paloaltonetworks.com/2017/11/unit42-muddying-the-water-targeted-attacks-in-the-middle-east/
+    - https://sec0wn.blogspot.co.il/2018/03/a-quick-dip-into-muddywaters-recent.html
+    - https://blog.trendmicro.com/trendlabs-security-intelligence/campaign-possibly-connected-muddywater-surfaces-middle-east-central-asia/
+    - https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html
+    - https://www.symantec.com/blogs/threat-intelligence/seedworm-espionage-group
+    - https://www.clearskysec.com/wp-content/uploads/2018/11/MuddyWater-Operations-in-Lebanon-and-Oman.pdf
+    - https://sec0wn.blogspot.com/2018/02/burping-on-muddywater.html
+    - https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report/
+    - https://threatrecon.nshc.net/2019/03/07/sectord02-powershell-backdoor-analysis/
+    - https://blog.talosintelligence.com/2019/05/recent-muddywater-associated-blackwater.html
+    - https://blog.trendmicro.com/trendlabs-security-intelligence/muddywater-resurfaces-uses-multi-stage-backdoor-powerstats-v3-and-new-post-exploitation-tools/
+    - https://documents.trendmicro.com/assets/white_papers/wp_new_muddywater_findings_uncovered.pdf
+    - https://www.clearskysec.com/wp-content/uploads/2019/06/Clearsky-Iranian-APT-group-%E2%80%98MuddyWater%E2%80%99-Adds-Exploits-to-Their-Arsenal.pdf
+    - https://securelist.com/muddywaters-arsenal/90659/
+    - https://www.prevailion.com/summer-mirage-2/
+    - https://www.secureworks.com/blog/business-as-usual-for-iranian-operations-despite-increased-tensions
+    - https://www.bleepingcomputer.com/news/security/microsoft-iranian-hackers-actively-exploiting-windows-zerologon-flaw/
+    - https://www.clearskysec.com/wp-content/uploads/2020/10/Operation-Quicksand.pdf
+    - https://www.telsy.com/operation-space-race-reaching-the-stars-through-professional-social-networks/
+    - https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/seedworm-apt-iran-middle-east
+risk_level: High
+sector_focus:
+- Government
+- Telecommunications
+- Defense
+- Oil and Gas
+country: Iran
+targeted_victims:
+- Saudi Arabia
+- Georgia
+- Turkey
+- Iraq
+- Israel
+- India
+- United Arab Emirates
+- Pakistan
+- United States
+incident_type: Espionage
+malware:
+- name: Backdoor.Oldrea
+- name: PowerDuke
+- name: POWERSTATS
+- name: Power Loader
+- name: POWERSOURCE
+- name: TINY
+- name: PowerRAT
+- name: Mudwater
+- name: PhonyC2
+- name: PowGoop
+- name: STARWHALE
+- name: Unidentified VBS 004 (RAT)
+- name: Covicli
+- name: GRAMDOOR
+- name: MuddyC2Go
+- name: SHARPSTATS
+- name: DCHSpy
+- name: MoriAgent
+- name: Tsundere
+- name: PoweMuddy
+- name: LaZagne
+- name: Crackmapexec
+- name: ScreenConnect
+- name: Pudpoul
+- name: Thanos Ransomware
+- name: DarkBit
+- name: MuddyRot
+source_name: Malpedia (Fraunhofer FKIE)
+source_license: CC BY-NC-SA 3.0
+source_license_url: https://malpedia.caad.fkie.fraunhofer.de/legal
+source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/muddywater
+first_seen: '2017'
+last_activity: '2023'
+operations:
+- BlackWater
+- Operation Quicksand

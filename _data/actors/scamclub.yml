@@ -1,0 +1,18 @@
+name: ScamClub
+aliases:
+- ScamClub
+description: ScamClub is a threat actor involved in malvertising activities since
+  2018. They target the Mobile Web market segment, particularly on iOS devices, where
+  security software is often lacking. ScamClub utilizes obfuscation techniques and
+  real-time bidding integration with ad exchanges to push malicious JavaScript payloads,
+  leading to forced redirects and various scams such as phishing and gift card scams.
+url: /scamclub
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: dae45b1c-f957-4242-aa5b-f36b08994bad
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: MobileOrder

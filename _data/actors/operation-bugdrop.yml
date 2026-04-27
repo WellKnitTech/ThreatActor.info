@@ -1,0 +1,26 @@
+name: Operation BugDrop
+aliases:
+- Operation BugDrop
+description: This threat actor targets critical infrastructure entities in the oil
+  and gas sector, primarily in Ukraine. The threat actors deploy the BugDrop malware
+  to remotely access the microphones in their targets' computers to eavesdrop on conversations.
+url: /operation-bugdrop
+country: Russia
+risk_level: High
+sector_focus:
+- Private sector
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 75ae52b2-bca3-11e8-af90-a78f33eee6c1
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+targeted_victims:
+- Ukraine
+- Austria
+- Russia
+- Saudi Arabia
+incident_type: Espionage
+malware:
+- name: RemoteCMD
+- name: Remote Utilities
+- name: RemotePC

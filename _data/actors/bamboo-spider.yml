@@ -1,0 +1,12 @@
+name: BAMBOO SPIDER
+aliases:
+- BAMBOO SPIDER
+description: Crowdstrike tracks the developer of Panda Zeus as BAMBOO SPIDER
+url: /bamboo-spider
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 419599eb-c1ea-4d32-8c9e-0ad61d7c5ba5
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null

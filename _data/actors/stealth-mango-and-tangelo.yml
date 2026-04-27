@@ -1,0 +1,29 @@
+name: ' Stealth Mango and Tangelo '
+aliases:
+- ' Stealth Mango and Tangelo '
+description: This threat actor targets organizations in the satellite communications,
+  telecommunications, geospatial-imaging, and defense sectors in the United States
+  and Southeast Asia for espionage purposes.
+url: /stealth-mango-and-tangelo
+country: Pakistan
+risk_level: High
+sector_focus:
+- Government
+- Civil society
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: f82b352e-a9f8-11e8-8be8-fbcf6eddd58c
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+targeted_victims:
+- Pakistan
+- Iraq
+- Australia
+- Afghanistan
+- United Arab Emirates
+- Germany
+- India
+- United States
+incident_type: Espionage
+malware:
+- name: UNITEDRAKE

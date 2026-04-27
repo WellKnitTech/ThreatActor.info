@@ -1,0 +1,25 @@
+name: CL-STA-1009
+aliases:
+- CL-STA-1009
+description: CL-STA-1009 is a threat activity cluster associated with a suspected
+  nation-state actor utilizing the Airstalk malware family, which includes both PowerShell
+  and .NET variants. The .NET variant features a multi-threaded C2 protocol, versioning,
+  and complex tasks, employing defense evasion techniques such as signed binaries
+  with a revoked certificate and manipulation of PE timestamps. The malware is believed
+  to have been used in supply chain attacks, with a development timeline established
+  through signed timestamps. The persistent threat posed by this actor is underscored
+  by the adaptive nature of the malware.
+url: /cl-sta-1009
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 2462885d-f49e-4731-a163-da704e50aca7
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: PowerDuke
+- name: POWERSTATS
+- name: Power Loader
+- name: POWERSOURCE
+- name: PowerRAT

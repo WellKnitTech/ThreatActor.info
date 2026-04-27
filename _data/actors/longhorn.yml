@@ -1,0 +1,50 @@
+name: Longhorn
+aliases:
+- Lamberts
+- the Lamberts
+- APT-C-39
+- PLATINUM TERMINAL
+- Longhorn
+description: Longhorn has been active since at least 2011. It has used a range of
+  back door Trojans in addition to zero-day vulnerabilities to compromise its targets.
+  Longhorn has infiltrated governments and internationally operating organizations,
+  in addition to targets in the financial, telecoms, energy, aerospace, information
+  technology, education, and natural resources sectors. All of the organizations targeted
+  would be of interest to a nation-state attacker.  Longhorn has infected 40 targets
+  in at least 16 countries across the Middle East, Europe, Asia, and Africa. On one
+  occasion a computer in the United States was compromised but, following infection,
+  an uninstaller was launched within hours, which may indicate this victim was infected
+  unintentionally. According to cfr, this threat actor compromises governments, international
+  organizations, academic institutions, and financial, telecommunications, energy,
+  aerospace, information technology, and natural resource  industries for espionage
+  purposes. Some of the tools used by this threat actor were released by Wikileaks
+  under the name "Vault 7."
+url: /longhorn
+country: United States
+risk_level: High
+sector_focus:
+- Telecoms
+- Aerospace
+- Energy
+- Education
+- Government, Administration
+- Finance
+- News - Media
+- Private sector
+- Government
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 2f3311cd-8476-4be7-9005-ead920afc781
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+targeted_victims:
+- Global
+incident_type: Espionage
+malware:
+- name: SPACESHIP
+- name: Trojan.Karagany
+- name: Trojan.Mebromi
+- name: Back Orifice
+- name: Back Orifice 2000
+- name: UNITEDRAKE
+- name: CrossRat

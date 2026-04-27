@@ -1,0 +1,31 @@
+name: GOLD GALLEON
+aliases:
+- GOLD GALLEON
+description: GOLD GALLEON is a financially motivated cybercriminal threat group comprised
+  of at least 20 criminal associates that collectively carry out business email compromise
+  (BEC) and spoofing (BES) campaigns. The group appears to specifically target maritime
+  organizations and their customers. CTU researchers have observed GOLD GALLEON targeting
+  firms in South Korea, Japan, Singapore, Philippines, Norway, U.S., Egypt, Saudi
+  Arabia, and Colombia. The threat actors leverage tools, tactics, and procedures
+  that are similar to those used by other BEC/BES groups CTU researchers have previously
+  investigated, such as GOLD SKYLINE. The groups have used the same caliber of publicly
+  available malware (inexpensive and commodity remote access trojans), crypters, and
+  email lures.
+url: /gold-galleon
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 6976b33c-a45b-4330-b0d8-8ef029ef830e
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Trojan.Karagany
+- name: RemoteCMD
+- name: Trojan.Mebromi
+- name: CyberGate
+- name: Arabian-Attacker RAT
+- name: Cyber Eye RAT
+- name: Remote Utilities
+- name: RemotePC
+- name: Archelaus Beta

@@ -1,0 +1,20 @@
+name: Velvet Ant
+aliases:
+- Velvet Ant
+description: 'Velvet Ant is a threat actor operating since at least 2021. Velvet Ant
+  is associated with complex persistence mechanisms, the targeting of network devices
+  and appliances during operations, and the use of zero day exploits.(Citation: Sygnia
+  VelvetAnt 2024A)(Citation: Sygnia VelvetAnt 2024B)'
+url: /apt1047
+external_id: G1047
+mitre_id: G1047
+external_url: https://attack.mitre.org/groups/G1047
+mitre_url: https://attack.mitre.org/groups/G1047
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+    source_record_id: G1047
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json

@@ -1,0 +1,16 @@
+name: Attor
+aliases:
+- Attor
+description: Adversary group targeting diplomatic missions and governmental organisations.
+url: /attor
+sector_focus:
+- Private sector
+- Government
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 947a450a-df6c-4c2e-807b-0da8ecea1d26
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+incident_type: Espionage
+country: null

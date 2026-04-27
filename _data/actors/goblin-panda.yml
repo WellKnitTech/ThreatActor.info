@@ -1,0 +1,29 @@
+name: GOBLIN PANDA
+aliases:
+- Conimes
+- Cycldek
+- GOBLIN PANDA
+description: Goblin Panda is one of a handful of elite Chinese advanced persistent
+  threat (APT) groups. Most Chinese APTs target the United States and NATO, but Goblin
+  Panda focuses primarily on Southeast Asia.
+url: /goblin-panda
+country: China
+risk_level: Critical
+sector_focus:
+- Private Sector
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 8d73715a-8bbd-4eaa-ae24-2f1b1c84cf21
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+targeted_victims:
+- Malaysia
+- India
+- Indonesia
+- Japan
+- Philippines
+- Southeast Asia
+- South Korea
+- Vietnam
+malware:
+- name: UNITEDRAKE

@@ -1,0 +1,24 @@
+name: TAG-124
+aliases:
+- LandUpdate808
+- TAG-124
+description: TAG-124 is a threat actor that employs a traffic distribution system
+  to distribute malware, primarily using MintsLoader and targeting various sectors
+  through phishing emails and compromised websites. The actor injects malicious JavaScript
+  into WordPress sites, leading victims to fake Google Chrome update landing pages
+  that facilitate malware downloads, often masquerading as legitimate updates. TAG-124
+  has been linked to multiple ransomware groups, including Rhysida and Interlock,
+  and demonstrates high activity levels by regularly updating its infrastructure and
+  refining its infection tactics, such as the ClickFix technique. Notable compromised
+  sites include those associated with the Polish Centre for Testing and Certification
+  and the Economic Community of West African States (ECOWAS).
+url: /tag-124
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 8a1b831c-e07e-43ad-933a-7fe7a9a1e449
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Chrome Remote Desktop

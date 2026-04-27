@@ -1,0 +1,26 @@
+name: TEMP.Veles
+aliases:
+- ATK91
+- G0088
+- TEMP.Veles
+- XENOTIME
+- Xenotime
+description: 'TEMP.Veles is a Russia-based threat group that has targeted critical
+  infrastructure. The group has been observed utilizing TRITON, a malware framework
+  designed to manipulate industrial safety systems.(Citation: FireEye TRITON 2019)(Citation:
+  FireEye TEMP.Veles 2018)(Citation: FireEye TEMP.Veles JSON April 2019)'
+url: /apt0088
+external_id: G0088
+mitre_id: G0088
+external_url: https://attack.mitre.org/groups/G0088
+mitre_url: https://attack.mitre.org/groups/G0088
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+    source_record_id: G0088
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+risk_level: null
+country: null
