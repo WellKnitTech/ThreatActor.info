@@ -589,3 +589,100 @@ note_blocks:
 3. During `import`, the structured values are split across the appropriate actor fields
 4. Multiple entries of the same type are merged (additive)
 5. Plain text notes go to `analyst_notes` field in the YAML
+
+---
+
+## Manual Threat Actor Creation
+
+When an analyst discovers a threat actor not yet in any automated source, there are two methods to add it manually:
+
+### Method 1: actor-creator.rb (CLI)
+
+Create a new threat actor directly from command line:
+
+```bash
+# Simple creation
+ruby scripts/actor-creator.rb new --name "APT29" --country "CN" --description "Chinese state-sponsored actor"
+
+# Full options
+ruby scripts/actor-creator.rb new \
+  --name "APT29" \
+  --country "CN" \
+  --description "Chinese state-sponsored actor targeting government" \
+  --alias "Barium" \
+  --alias "APT-C3" \
+  --url "/apt29" \
+  --risk "High" \
+  --sector "Government" \
+  --sector "Defense" \
+  --victim "United States" \
+  --victim "Germany" \
+  --first-seen 2020 \
+  --last-active 2024 \
+  --external-id "G0016"
+```
+
+This creates:
+- `_data/actors/apt29.yml` - Actor YAML with `source_name: Manual Entry`
+- `_threat_actors/apt29.md` - Template page
+
+### Method 2: import-analyst-notes.rb new
+
+Create a new actor and initialize analyst notes simultaneously:
+
+```bash
+ruby scripts/import-analyst-notes.rb new \
+  --actor "NewActor" \
+  --country "IR" \
+  --description "New Iranian actor" \
+  --url "/newactor"
+```
+
+This creates both the actor and the `_data/analyst_notes/newactor.yml` file ready for structured notes.
+
+---
+
+## How Manual Entries Merge with Automated Imports
+
+Manual entries are designed to work cleanly when automated importers eventually find the same actor:
+
+### Protection Rules
+
+| Field | Behavior |
+|-------|----------|
+| `source_name` | Sticky - won't be overwritten |
+| `source_attribution` | Sticky - won't be overwritten |
+| `description` | Protected unless empty |
+| `name`, `aliases`, `country` | Merged additively |
+
+Importers check these conditions:
+```ruby
+# Only set source if empty
+if existing_actor['source_name'].to_s.empty?
+  updates['source_name'] = SOURCE_NAME
+end
+```
+
+### Takeover Behavior
+
+When an importer finds an existing manual entry (source_name is `'Manual Entry'` or `'Analyst Notes'`):
+
+1. **Converts manual entry to analyst notes** - All original manual data (description, aliases, country, etc.) is preserved in the `analyst_notes` field
+2. **Takes over** - The automated source becomes the new `source_name` and `source_attribution`
+3. **Logs the takeover** - Shows `TAKEOVER: Converted manual entry 'X' to analyst notes`
+
+This ensures:
+- No data is lost - original manual notes preserved
+- Automated attribution replaces manual
+- Both sources are tracked in history
+
+---
+
+## Workflow Summary
+
+| Scenario | Action |
+|----------|--------|
+| Add new TA from scratch | Use `actor-creator.rb new` |
+| Add structured notes | Use `import-analyst-notes.rb init` + edit YAML |
+| Enrich existing TA | Use `import-analyst-notes.rb import` |
+| Automated source finds manual TA | Automatic conversion + takeover |
