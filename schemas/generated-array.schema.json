@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://threatactor.info/schemas/generated-array.schema.json",
+  "title": "ThreatActor.info generated array payload",
+  "type": "array",
+  "items": {
+    "type": "object"
+  }
+}

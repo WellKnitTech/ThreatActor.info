@@ -41,10 +41,14 @@ check_file "scripts/generate-pages.rb"
 check_file "scripts/generate-indexes.rb"
 check_file "scripts/evaluate-source-deltas.rb"
 check_file "scripts/validate-content.rb"
+check_file "scripts/validate-json-schemas.rb"
 
 echo "Running page and index generators..."
 ruby scripts/generate-pages.rb --force
 ruby scripts/generate-indexes.rb
+
+echo "Running JSON Schema validator..."
+ruby scripts/validate-json-schemas.rb
 
 echo "Running content validator..."
 ruby scripts/validate-content.rb

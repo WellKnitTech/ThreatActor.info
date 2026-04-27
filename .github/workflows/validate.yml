@@ -41,6 +41,10 @@ jobs:
       run: |
         ruby scripts/validate-content.rb
         
+    - name: Validate JSON Schemas
+      run: |
+        ruby scripts/validate-json-schemas.rb
+        
     - name: Build Jekyll site
       run: |
         bundle exec jekyll build --safe

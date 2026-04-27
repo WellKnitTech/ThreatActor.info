@@ -20,6 +20,9 @@ class ContentValidator
   REQUIRED_FILES = [
     '_config.yml',
     '_data/actors/',
+    'schemas/threat-actor.schema.json',
+    'schemas/generated-array.schema.json',
+    'schemas/generated-object.schema.json',
     '_layouts/default.html',
     '_layouts/threat_actor.html',
     '_includes/search.html',
@@ -29,6 +32,7 @@ class ContentValidator
     'scripts/generate-indexes.rb',
     'scripts/evaluate-source-deltas.rb',
     'scripts/import-ransomlook.rb',
+    'scripts/validate-json-schemas.rb',
     'scripts/validate-content.rb',
     'scripts/validate.sh',
     'docs/api.md',
