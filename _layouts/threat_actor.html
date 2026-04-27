@@ -146,7 +146,8 @@ layout: default
 {% if profile_analyst_notes %}
 <aside class="analyst-notes-panel">
   <h2>Analyst Notes</h2>
-  <p>{{ profile_analyst_notes }}</p>
+  {% assign formatted_notes = profile_analyst_notes | replace: '\n', '<br>' | replace: '<br><br>', '</p><p>' %}
+  <p>{{ formatted_notes }}</p>
 </aside>
 {% endif %}
 
