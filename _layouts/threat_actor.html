@@ -43,6 +43,10 @@ layout: default
         </span>
         {% endif %}
       </div>
+
+      {% if profile_last_updated %}
+      <p class="last-updated-pill">Last Updated <time datetime="{{ profile_last_updated }}">{{ profile_last_updated | date: "%b %-d, %Y" }}</time></p>
+      {% endif %}
       
       {% if profile_aliases and profile_aliases.size > 0 %}
       <div class="aliases">

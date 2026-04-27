@@ -72,7 +72,7 @@ title: Home
   <section class="quick-filters">
     <div class="quick-filters-header">
       <h2>Advanced Search Filters</h2>
-      <span>Pin filters while browsing actors</span>
+      <span>Sticky while browsing</span>
     </div>
     <div class="filter-chips">
       <div class="filter-group">
@@ -118,6 +118,7 @@ title: Home
   let sourceActors = [];
   let allActors = [];
   let displayedCount = ITEMS_PER_PAGE;
+  let filterBarOffset = null;
 
   // Load actor data
   Promise.all([
@@ -168,7 +169,8 @@ title: Home
       </div>
     `).join('');
     
-    countEl.textContent = `${allActors.length} actors`;
+    const activeSearch = document.getElementById('quick-search-input').value.trim();
+    countEl.textContent = activeSearch ? `${allActors.length} actors match "${activeSearch}"` : `${allActors.length} actors`;
     
     // Show/hide load more
     document.getElementById('load-more-btn').style.display = 
@@ -244,6 +246,30 @@ title: Home
         filterAndRender();
         document.getElementById('actors-grid').scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
+    });
+    setupPinnedFilters();
+  }
+
+  function setupPinnedFilters() {
+    const filterBar = document.querySelector('.quick-filters');
+    if (!filterBar) return;
+
+    function syncPinnedFilters() {
+      if (filterBarOffset === null || !filterBar.classList.contains('is-pinned')) {
+        filterBarOffset = filterBar.getBoundingClientRect().top + window.scrollY;
+      }
+      const shouldPin = window.scrollY >= filterBarOffset;
+      filterBar.classList.toggle('is-pinned', shouldPin);
+      document.body.classList.toggle('has-pinned-filters', shouldPin);
+    }
+
+    syncPinnedFilters();
+    window.addEventListener('scroll', syncPinnedFilters, { passive: true });
+    window.addEventListener('resize', function() {
+      filterBar.classList.remove('is-pinned');
+      document.body.classList.remove('has-pinned-filters');
+      filterBarOffset = null;
+      syncPinnedFilters();
     });
   }
 

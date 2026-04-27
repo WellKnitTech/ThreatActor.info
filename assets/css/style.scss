@@ -290,6 +290,13 @@ a:hover {
   color: var(--risk-low);
 }
 
+.last-updated-inline {
+  color: var(--accent);
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0.25rem 0 0;
+}
+
 // Risk Level Badges
 .risk-badge {
   display: inline-flex;
@@ -929,8 +936,26 @@ a:hover {
   border: 1px solid var(--accent);
   box-shadow: 0 8px 24px rgba(0,0,0,0.18);
   position: sticky;
+  top: 0.5rem;
+  z-index: 100;
+}
+
+.quick-filters.is-fixed {
+  left: 50%;
+  max-width: 1136px;
+  position: fixed;
+  right: auto;
   top: 0;
-  z-index: 20;
+  transform: translateX(-50%);
+  width: calc(100% - 4rem);
+}
+
+.quick-filters-spacer {
+  display: none;
+}
+
+.quick-filters-spacer.active {
+  display: block;
 }
 
 .quick-filters h2 {
@@ -949,7 +974,7 @@ a:hover {
 }
 
 .quick-filters-header span {
-  color: var(--accent);
+  color: var(--text-muted);
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -1116,6 +1141,11 @@ a:hover {
 .actor-count {
   color: var(--text-muted);
   font-size: 0.9rem;
+}
+
+.actor-count.filtered {
+  color: var(--accent);
+  font-weight: 700;
 }
 
 /* Actor Cards Grid */
