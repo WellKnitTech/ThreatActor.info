@@ -1,32 +1,32 @@
 ---
-name: Weekly Threat Data
+name: Weekly Auto Import
 
 on:
-  # Weekly on Sunday at 3am UTC
   schedule:
     - cron: '0 3 * * 0'
-  # Allow manual trigger
   workflow_dispatch:
-  # Run on push to main for script changes
   push:
     branches:
       - main
     paths:
       - 'scripts/**'
+      - 'schemas/**'
+      - '.github/workflows/weekly-data.yml'
 
 permissions:
   contents: write
+  pull-requests: write
   pages: read
 
 jobs:
-  update-data:
+  auto-import:
     runs-on: ubuntu-latest
     
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
           
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
@@ -34,13 +34,18 @@ jobs:
           ruby-version: '3.2.5'
           bundler-cache: true
           
-      - name: Install dependencies
-        run: bundle install
-          
       - name: Capture actor baseline
         run: |
           mkdir -p tmp/delta-baseline
           cp -R _data/actors tmp/delta-baseline/actors
+
+      - name: Configure import branch
+        run: |
+          RUN_DATE=$(date -u +%Y-%m-%d)
+          BRANCH_NAME="automation/weekly-auto-import-${RUN_DATE}"
+          echo "RUN_DATE=${RUN_DATE}" >> "$GITHUB_ENV"
+          echo "BRANCH_NAME=${BRANCH_NAME}" >> "$GITHUB_ENV"
+          git checkout -B "$BRANCH_NAME"
 
       - name: Fetch MISP reference data
         run: ruby scripts/fetch-misp-references.rb
@@ -51,71 +56,66 @@ jobs:
           
       - name: Fetch MISP threat actors
         run: |
-          RUN_DATE=$(date +%Y-%m-%d)
           ruby scripts/import-misp-galaxy.rb fetch --output "data/imports/misp-galaxy/${RUN_DATE}"
         continue-on-error: true
           
       - name: Fetch ETDA ThaiCERT
         run: |
-          RUN_DATE=$(date +%Y-%m-%d)
           ruby scripts/import-etda-thaicert.rb fetch --output "data/imports/etda-thaicert/${RUN_DATE}"
         continue-on-error: true
           
       - name: Fetch Malpedia enrichment data
         run: |
-          RUN_DATE=$(date +%Y-%m-%d)
           ruby scripts/import-malpedia.rb fetch --output "data/imports/malpedia/${RUN_DATE}" --no-details
         continue-on-error: true
           
       - name: Fetch APT Groups & Operations
         run: |
-          RUN_DATE=$(date +%Y-%m-%d)
           ruby scripts/import-apt-groups-operations.rb fetch --output "data/imports/apt-groups-operations/${RUN_DATE}"
         continue-on-error: true
           
       - name: Fetch APTnotes references
         run: |
-          RUN_DATE=$(date +%Y-%m-%d)
           ruby scripts/import-aptnotes.rb fetch --output "data/imports/aptnotes/${RUN_DATE}"
         continue-on-error: true
           
       - name: Enrich existing actors from MISP (additive updates only)
         run: |
-          LATEST_MISP=$(ls -d data/imports/misp-galaxy/*/ 2>/dev/null | sort -V | tail -1)
-          if [ -n "$LATEST_MISP" ]; then
-            ruby scripts/import-misp-galaxy.rb import --snapshot "$LATEST_MISP"
+          SNAPSHOT="data/imports/misp-galaxy/${RUN_DATE}"
+          if [ -d "$SNAPSHOT" ]; then
+            ruby scripts/import-misp-galaxy.rb import --snapshot "$SNAPSHOT" --new-only --report-json "tmp/misp-galaxy-report.json"
           fi
         continue-on-error: true
           
       - name: Enrich existing actors from ETDA (additive updates only)
         run: |
-          LATEST_ETDA=$(ls -d data/imports/etda-thaicert/*/ 2>/dev/null | sort -V | tail -1)
-          if [ -n "$LATEST_ETDA" ]; then
-            ruby scripts/import-etda-thaicert.rb import --snapshot "$LATEST_ETDA"
+          SNAPSHOT="data/imports/etda-thaicert/${RUN_DATE}"
+          if [ -d "$SNAPSHOT" ]; then
+            ruby scripts/import-etda-thaicert.rb import --snapshot "$SNAPSHOT" --new-only --report-json "tmp/etda-thaicert-report.json"
           fi
         continue-on-error: true
           
       - name: Enrich from Malpedia
         run: |
-          LATEST_MALPEDIA=$(ls -d data/imports/malpedia/*/ 2>/dev/null | sort -V | tail -1)
-          if [ -n "$LATEST_MALPEDIA" ]; then
-            ruby scripts/import-malpedia.rb import --snapshot "$LATEST_MALPEDIA"
+          SNAPSHOT="data/imports/malpedia/${RUN_DATE}"
+          if [ -d "$SNAPSHOT" ]; then
+            ruby scripts/import-malpedia.rb import --snapshot "$SNAPSHOT" --report-json "tmp/malpedia-report.json"
           fi
         continue-on-error: true
           
       - name: Enrich from APT Groups & Operations
         run: |
-          LATEST_APTGO=$(ls -d data/imports/apt-groups-operations/*/ 2>/dev/null | sort -V | tail -1)
-          if [ -n "$LATEST_APTGO" ]; then
-            ruby scripts/import-apt-groups-operations.rb import --snapshot "$LATEST_APTGO"
+          SNAPSHOT="data/imports/apt-groups-operations/${RUN_DATE}"
+          if [ -d "$SNAPSHOT" ]; then
+            ruby scripts/import-apt-groups-operations.rb import --snapshot "$SNAPSHOT" --report-json "tmp/apt-groups-operations-report.json"
           fi
         continue-on-error: true
           
       - name: Enrich from APTnotes
         run: |
-          LATEST_APTNOTES=$(ls -d data/imports/aptnotes/*/ 2>/dev/null | sort -V | tail -1)
-          if [ -n "$LATEST_APTNOTES" ]; then
-            ruby scripts/import-aptnotes.rb import --snapshot "$LATEST_APTNOTES"
+          SNAPSHOT="data/imports/aptnotes/${RUN_DATE}"
+          if [ -d "$SNAPSHOT" ]; then
+            ruby scripts/import-aptnotes.rb import --snapshot "$SNAPSHOT" --report-json "tmp/aptnotes-report.json"
           fi
         continue-on-error: true
           
@@ -125,15 +125,9 @@ jobs:
       - name: Map CISA CVEs to actors
         run: ruby scripts/import-cisa-kev.rb map
           
-      - name: Generate pages
-        run: ruby scripts/generate-pages.rb --force
-
       - name: Backfill source attribution
         run: ruby scripts/backfill-source-attribution.rb
         continue-on-error: true
-
-      - name: Generate API indexes
-        run: ruby scripts/generate-indexes.rb
 
       - name: Evaluate source deltas
         run: |
@@ -144,19 +138,38 @@ jobs:
             --max-change-ratio 0.10 \
             --max-identity-change-ratio 0.02
           
-      - name: Validate content
-        run: ruby scripts/validate-content.rb
-          
-      - name: Build site
-        run: bundle exec jekyll build --safe
+      - name: Validate content and build
+        run: bash scripts/validate.sh
           
       - name: Commit data changes
+        id: commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
-          git diff --staged --quiet || git commit -m "Weekly threat data update ($(date +'%Y-%m-%d'))"
+          if git diff --staged --quiet; then
+            echo "changes=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Weekly threat data import (${RUN_DATE})"
+            echo "changes=true" >> "$GITHUB_OUTPUT"
+          fi
           
       - name: Push changes
-        run: git push
-        continue-on-error: true
+        if: steps.commit.outputs.changes == 'true'
+        run: git push --set-upstream origin "$BRANCH_NAME"
+
+      - name: Open import pull request
+        if: steps.commit.outputs.changes == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: ${{ env.BRANCH_NAME }}
+          base: main
+          draft: true
+          title: "Weekly threat data import (${{ env.RUN_DATE }})"
+          body: |
+            Automated weekly source import.
+
+            Validation performed:
+            - `ruby scripts/evaluate-source-deltas.rb`
+            - `bash scripts/validate.sh`
+          labels: automated-import

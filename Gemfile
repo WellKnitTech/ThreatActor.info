@@ -8,3 +8,5 @@ gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
 gem "jekyll-paginate"
 gem "json"
+
+gem "json_schemer", "~> 2.5"

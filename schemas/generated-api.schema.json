@@ -1,0 +1,245 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://threatactor.info/schemas/generated-api.schema.json",
+  "title": "Generated API payloads",
+  "anyOf": [
+    { "$ref": "#/$defs/threatActorList" },
+    { "$ref": "#/$defs/recentlyUpdatedList" },
+    { "$ref": "#/$defs/iocList" },
+    { "$ref": "#/$defs/facets" },
+    { "$ref": "#/$defs/campaignList" },
+    { "$ref": "#/$defs/malwareList" },
+    { "$ref": "#/$defs/malwareIndex" },
+    { "$ref": "#/$defs/attackMappingList" },
+    { "$ref": "#/$defs/referenceList" },
+    { "$ref": "#/$defs/iocLookup" },
+    { "$ref": "#/$defs/iocTypes" },
+    { "$ref": "#/$defs/malwareActorLookup" },
+    { "$ref": "#/$defs/iocShard" }
+  ],
+  "$defs": {
+    "nullableString": {
+      "type": ["string", "null"]
+    },
+    "stringArray": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "actorSummary": {
+      "type": "object",
+      "required": ["name", "aliases", "description", "url", "permalink"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "aliases": { "$ref": "#/$defs/stringArray" },
+        "description": { "type": "string" },
+        "url": { "type": "string", "pattern": "^/" },
+        "permalink": { "type": "string", "pattern": "^/.*/$" },
+        "country": { "$ref": "#/$defs/nullableString" },
+        "sector_focus": { "$ref": "#/$defs/stringArray" },
+        "first_seen": { "$ref": "#/$defs/nullableString" },
+        "last_activity": { "$ref": "#/$defs/nullableString" },
+        "last_updated": { "$ref": "#/$defs/nullableString" },
+        "risk_level": { "type": ["string", "null"], "enum": ["Critical", "High", "Medium", "Low", null] }
+      }
+    },
+    "threatActor": {
+      "allOf": [
+        { "$ref": "#/$defs/actorSummary" },
+        {
+          "type": "object",
+          "required": [
+            "page_path",
+            "headings",
+            "ioc_count",
+            "ioc_types",
+            "campaigns",
+            "malware_and_tools",
+            "attack_mappings",
+            "references",
+            "campaign_count",
+            "malware_count",
+            "reference_count",
+            "attack_mapping_count"
+          ],
+          "properties": {
+            "source_name": { "$ref": "#/$defs/nullableString" },
+            "source_attribution": { "$ref": "#/$defs/nullableString" },
+            "source_record_url": { "$ref": "#/$defs/nullableString" },
+            "source_license": { "$ref": "#/$defs/nullableString" },
+            "source_license_url": { "$ref": "#/$defs/nullableString" },
+            "provenance": { "type": ["object", "null"] },
+            "page_path": { "type": "string", "pattern": "^_threat_actors/.+\\.md$" },
+            "headings": { "$ref": "#/$defs/stringArray" },
+            "ioc_count": { "type": "integer", "minimum": 0 },
+            "ioc_types": { "$ref": "#/$defs/stringArray" },
+            "campaigns": { "type": "array" },
+            "malware_and_tools": {
+              "type": "array",
+              "items": { "$ref": "#/$defs/malwareEntry" }
+            },
+            "attack_mappings": {
+              "type": "object",
+              "required": ["group_ids", "techniques"],
+              "properties": {
+                "group_ids": { "$ref": "#/$defs/stringArray" },
+                "techniques": { "type": "array" }
+              },
+              "additionalProperties": true
+            },
+            "references": { "type": "array" },
+            "campaign_count": { "type": "integer", "minimum": 0 },
+            "malware_count": { "type": "integer", "minimum": 0 },
+            "reference_count": { "type": "integer", "minimum": 0 },
+            "attack_mapping_count": { "type": "integer", "minimum": 0 }
+          }
+        }
+      ]
+    },
+    "threatActorList": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/threatActor" }
+    },
+    "recentlyUpdatedList": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/actorSummary" }
+    },
+    "iocEntry": {
+      "type": "object",
+      "required": ["actor_name", "actor_url", "type", "value", "normalized_value", "source_file"],
+      "properties": {
+        "actor_name": { "type": "string", "minLength": 1 },
+        "actor_url": { "type": "string", "pattern": "^/" },
+        "type": { "type": "string", "minLength": 1 },
+        "value": { "type": "string", "minLength": 1 },
+        "normalized_value": { "type": "string", "minLength": 1 },
+        "source_file": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": true
+    },
+    "iocList": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/iocEntry" }
+    },
+    "facets": {
+      "type": "object",
+      "required": [
+        "countries",
+        "risk_levels",
+        "sectors",
+        "ioc_types",
+        "counts",
+        "country_counts",
+        "risk_counts",
+        "sector_counts",
+        "malware_counts"
+      ],
+      "properties": {
+        "countries": { "$ref": "#/$defs/stringArray" },
+        "risk_levels": { "$ref": "#/$defs/stringArray" },
+        "sectors": { "$ref": "#/$defs/stringArray" },
+        "ioc_types": { "$ref": "#/$defs/stringArray" },
+        "counts": { "type": "object" },
+        "country_counts": { "type": "object" },
+        "risk_counts": { "type": "object" },
+        "sector_counts": { "type": "object" },
+        "malware_counts": { "type": "object" }
+      },
+      "additionalProperties": false
+    },
+    "campaignList": {
+      "type": "array",
+      "items": { "type": "object" }
+    },
+    "malwareEntry": {
+      "type": "object",
+      "required": [
+        "actor_name",
+        "actor_slug",
+        "actor_url",
+        "actor_permalink",
+        "category",
+        "name",
+        "is_software",
+        "source_section",
+        "source_file"
+      ],
+      "properties": {
+        "actor_name": { "type": "string", "minLength": 1 },
+        "actor_slug": { "type": "string", "minLength": 1 },
+        "actor_url": { "type": "string", "pattern": "^/" },
+        "actor_permalink": { "type": "string", "pattern": "^/.*/$" },
+        "category": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "summary": { "$ref": "#/$defs/nullableString" },
+        "is_software": { "type": "boolean" },
+        "source_section": { "type": "string", "minLength": 1 },
+        "source_file": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "malwareList": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/malwareEntry" }
+    },
+    "malwareIndex": {
+      "type": "object",
+      "required": ["malware"],
+      "properties": {
+        "malware": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "slug", "url", "category", "actor_count"],
+            "properties": {
+              "name": { "type": "string", "minLength": 1 },
+              "slug": { "type": "string", "minLength": 1 },
+              "url": { "type": "string", "pattern": "^/malware/.+/$" },
+              "category": { "type": "string", "minLength": 1 },
+              "actor_count": { "type": "integer", "minimum": 0 }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "malwareActorLookup": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "type": "string", "minLength": 1 }
+      }
+    },
+    "attackMappingList": {
+      "type": "array",
+      "items": { "type": "object" }
+    },
+    "referenceList": {
+      "type": "array",
+      "items": { "type": "object" }
+    },
+    "iocLookup": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "$ref": "#/$defs/iocEntry" }
+      }
+    },
+    "iocTypes": {
+      "type": "object",
+      "additionalProperties": { "type": "integer", "minimum": 0 }
+    },
+    "iocShard": {
+      "type": "object",
+      "required": ["type", "records"],
+      "properties": {
+        "type": { "type": "string", "minLength": 1 },
+        "records": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/iocEntry" }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

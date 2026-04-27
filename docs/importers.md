@@ -25,6 +25,8 @@ Reviewed name and rename handling lives in `data/imports/ransomlook/mapping_over
 - Regenerate pages with `ruby scripts/generate-pages.rb --force` after source updates.
 - Regenerate APIs with `ruby scripts/generate-indexes.rb` in the same run.
 - Use `ruby scripts/evaluate-source-deltas.rb` to enforce update thresholds before publishing large changes.
+- The weekly GitHub Actions import workflow opens a draft pull request instead of pushing importer output directly to `main`.
+- Run `bash scripts/validate.sh` before merging importer output; it includes JSON Schema checks for actor YAML and generated API payloads.
 
 ## Commands
 

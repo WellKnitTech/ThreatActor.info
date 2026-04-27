@@ -25,35 +25,5 @@ jobs:
         ruby-version: '3.2.5'
         bundler-cache: true
         
-    - name: Install dependencies
-      run: |
-        bundle install
-
-    - name: Generate pages
-      run: |
-        ruby scripts/generate-pages.rb --force
-
-    - name: Generate JSON indexes
-      run: |
-        ruby scripts/generate-indexes.rb
-
-    - name: Validate content
-      run: |
-        ruby scripts/validate-content.rb
-        
-    - name: Build Jekyll site
-      run: |
-        bundle exec jekyll build --safe
-
-    - name: Validate built API JSON
-      run: |
-        ruby -e "require 'json'; %w[_site/api/threat-actors.json _site/api/iocs.json _site/api/facets.json _site/api/campaigns.json _site/api/malware.json _site/api/malware_index.json _site/api/attack-mappings.json _site/api/references.json _site/api/ioc-lookup.json _site/api/ioc-types.json].each { |path| JSON.parse(File.read(path)) }; Dir.glob('_site/api/iocs/by-type/*.json').each { |path| JSON.parse(File.read(path)) }"
-        
-    - name: Check for build errors
-      run: |
-        if [ -d "_site" ]; then
-          echo "✅ Jekyll build successful"
-        else
-          echo "❌ Jekyll build failed"
-          exit 1
-        fi
+    - name: Run validation pipeline
+      run: bash scripts/validate.sh

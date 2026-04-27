@@ -28,9 +28,12 @@ class ContentValidator
     'threat-actors.html',
     'scripts/generate-indexes.rb',
     'scripts/evaluate-source-deltas.rb',
+    'scripts/validate-json-schemas.rb',
     'scripts/import-ransomlook.rb',
     'scripts/validate-content.rb',
     'scripts/validate.sh',
+    'schemas/actor.schema.json',
+    'schemas/generated-api.schema.json',
     'docs/api.md',
     'docs/importers.md',
     'docs/roadmap.md',
@@ -54,7 +57,8 @@ class ContentValidator
     '_data/generated/attack_mappings.json',
     '_data/generated/references.json',
     '_data/generated/ioc_lookup.json',
-    '_data/generated/ioc_types.json'
+    '_data/generated/ioc_types.json',
+    '_data/generated/malware_actor_lookup.json'
   ].freeze
   GENERATED_JSON_FILES = [
     '_data/generated/threat_actors.json',
@@ -67,7 +71,8 @@ class ContentValidator
     '_data/generated/references.json',
     '_data/generated/ioc_lookup.json',
     '_data/generated/ioc_types.json',
-    '_data/generated/malware_index.json'
+    '_data/generated/malware_index.json',
+    '_data/generated/malware_actor_lookup.json'
   ].freeze
   GENERATED_API_WRAPPERS = {
     'api/threat-actors.json' => 'site.data.generated.threat_actors',

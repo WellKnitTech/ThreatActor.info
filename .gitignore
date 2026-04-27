@@ -60,4 +60,7 @@ data/imports/apt-groups-operations/*
 !data/imports/etda-thaicert/
 data/imports/etda-thaicert/*
 !data/imports/etda-thaicert/mapping_overrides.yml
+!data/imports/ransomlook/
+data/imports/ransomlook/*
+!data/imports/ransomlook/mapping_overrides.yml
 vendor/
