@@ -22,10 +22,10 @@ ELUSIVE COMET is a threat actor responsible for significant cryptocurrency theft
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "RemoteCMD"}**
+- **{"name" => "Remote Utilities"}**
+- **{"name" => "RemotePC"}**
+- **{"name" => "Xploit"}**
 
 ## Attribution and Evidence
 **Country of Origin**: North Korea

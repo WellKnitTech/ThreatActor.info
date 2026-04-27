@@ -21,25 +21,25 @@ Self-proclaimed ethical hacker who publishes detailed breach guides for profit. 
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-- ** **: 
-- ** **: 
-- ** **: 
-- ** **: 
-- ** **: 
-- ** **: 
-- ** **: 
-- ** **: 
-- ** **: 
-- ** **: 
-- ** **: 
+- **T1566 - Phishing**
+- **T1078 - Valid Accounts**
+- **T1082 - System Information Discovery**
+- **T1083 - File and Directory Discovery**
+- **T1056 - Keylogging**
+- **T1566 - Prompt Injection**
+- **T1565 - Social Media C2 via X**
+- **T1078 - Account takeover research**
+- **T1485 - Data exfiltration**
+- **T1190 - Supply chain research**
+- **T1629 - Product development as lateral movement**
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **Unknown**: 
-- **Unknown**: 
-- **Unknown**: 
+- **Analyst: ZackStealer - Custom info-stealer sold in "courses"**
+- **Analyst: ForgeMail - Email hacking tool marketed as "educational"**
+- **Analyst: Custom Skill Collections - GitHub-hosted persistence lures**
 
 ## Attribution and Evidence
 **Country of Origin**: US

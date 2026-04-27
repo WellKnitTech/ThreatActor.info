@@ -22,12 +22,12 @@ In May 2018, we discovered a campaign targeting dozens of mobile Android devices
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "MobileOrder"}**
+- **{"name" => "ClientMesh"}**
+- **{"name" => "DroidJack"}**
+- **{"name" => "Androrat"}**
+- **{"name" => "Archelaus Beta"}**
+- **{"name" => "Client Maximus"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

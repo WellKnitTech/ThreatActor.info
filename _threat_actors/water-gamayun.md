@@ -22,9 +22,9 @@ Water Gamayun exploits the MSC EvilTwin zero-day vulnerability to compromise sys
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Backdoor.Oldrea"}**
+- **{"name" => "Xploit"}**
+- **{"name" => "DarkWatchman"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

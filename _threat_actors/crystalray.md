@@ -22,9 +22,9 @@ CRYSTALRAY is a threat actor known for leveraging open source tools like zmap an
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Backdoor.Oldrea"}**
+- **{"name" => "Miner-C"}**
+- **{"name" => "Xploit"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

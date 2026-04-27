@@ -28,46 +28,46 @@ APT28 is a threat group that has been attributed to Russia's General Staff Main 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
+- **{"name" => "X-Agent"}**
+- **{"name" => "Komplex"}**
+- **{"name" => "ArguePatch"}**
+- **{"name" => "Cannon"}**
+- **{"name" => "DriveOcean"}**
+- **{"name" => "Unidentified 114 (APT28 InfoStealer)"}**
+- **{"name" => "XP PrivEsc (CVE-2014-4076)"}**
+- **{"name" => "X-Tunnel (.NET)"}**
+- **{"name" => "Zebrocy (AutoIT)"}**
+- **{"name" => "LoJax"}**
+- **{"name" => "CredoMap"}**
+- **{"name" => "Mocky LNK"}**
+- **{"name" => "OCEANMAP"}**
+- **{"name" => "SpyPress"}**
+- **{"name" => "STEELHOOK"}**
+- **{"name" => "MASEPIE"}**
+- **{"name" => "LAMEHUG"}**
+- **{"name" => "CaddyWiper"}**
+- **{"name" => "Computrace"}**
+- **{"name" => "Coreshell"}**
+- **{"name" => "Downdelph"}**
+- **{"name" => "FusionDrive"}**
+- **{"name" => "GooseEgg"}**
+- **{"name" => "Graphite"}**
+- **{"name" => "Koadic"}**
+- **{"name" => "OLDBAIT"}**
+- **{"name" => "PocoDown"}**
+- **{"name" => "Sedreco"}**
+- **{"name" => "Seduploader"}**
+- **{"name" => "Unidentified 078 (Zebrocy Nim Loader?)"}**
+- **{"name" => "Zebrocy"}**
+- **{"name" => "GONEPOSTAL"}**
+- **{"name" => "BadPaw"}**
+- **{"name" => "BEARDSHELL"}**
+- **{"name" => "SLIMAGENT"}**
+- **{"name" => "XTunnel"}**
+- **{"name" => "Unidentified JS 007 (Zimbra Stealer)"}**
+- **{"name" => "PixyNetLoader"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

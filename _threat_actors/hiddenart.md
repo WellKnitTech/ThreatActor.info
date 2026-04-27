@@ -22,11 +22,11 @@ It was observed that a mobile network threat actor designated as ‘HiddenArt’
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "MobileOrder"}**
+- **{"name" => "RemoteCMD"}**
+- **{"name" => "Remote Utilities"}**
+- **{"name" => "RemotePC"}**
+- **{"name" => "GraphicBooting"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

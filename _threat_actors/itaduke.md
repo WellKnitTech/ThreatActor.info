@@ -22,7 +22,7 @@ ItaDuke is an actor known since 2013. It used PDF exploits for dropping malware 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "Xploit"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

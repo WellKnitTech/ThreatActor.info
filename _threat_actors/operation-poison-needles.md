@@ -22,7 +22,7 @@ What’s noteworthy is that according to the introduction on the compromised web
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "PoisonIvy"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

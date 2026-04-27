@@ -23,8 +23,8 @@ Sima is a group of suspected Iranian origin targeting Iranians in diaspora. In F
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
+- **{"name" => "GraphicBooting"}**
+- **{"name" => "Deeper RAT"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

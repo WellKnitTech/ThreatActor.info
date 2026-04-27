@@ -22,9 +22,9 @@ Malware experts at CSE Cybsec uncovered a massive malvertising campaign dubbed E
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Xpert"}**
+- **{"name" => "Xploit"}**
+- **{"name" => "Revenge-RAT"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -22,13 +22,13 @@ Blackjack, a threat actor linked to Ukraine's security apparatus, has targeted c
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "BlackEnergy"}**
+- **{"name" => "BLACKCOFFEE"}**
+- **{"name" => "Blackshades"}**
+- **{"name" => "BlackNix"}**
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
+- **{"name" => "BlackHole"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Ukraine

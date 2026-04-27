@@ -22,9 +22,9 @@ DieNet is a hacktivist group that emerged in March 2025, known for conducting DD
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
+- **{"name" => "Offence"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

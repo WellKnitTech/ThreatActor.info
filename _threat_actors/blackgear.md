@@ -22,12 +22,12 @@ BLACKGEAR is an espionage campaign which has targeted users in Taiwan for many y
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "BlackEnergy"}**
+- **{"name" => "Backdoor.Oldrea"}**
+- **{"name" => "BLACKCOFFEE"}**
+- **{"name" => "Blackshades"}**
+- **{"name" => "BlackNix"}**
+- **{"name" => "BlackHole"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -22,7 +22,7 @@ Nexus Zeta is no stranger when it comes to implementing SOAP related exploits. T
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "Xploit"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

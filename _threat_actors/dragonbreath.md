@@ -22,12 +22,12 @@ Golden Eye Dog targets Chinese-speaking users engaged in online gambling, employ
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "PoisonIvy"}**
+- **{"name" => "Trojan.Karagany"}**
+- **{"name" => "gh0st"}**
+- **{"name" => "Trojan.Mebromi"}**
+- **{"name" => "Gh0st RAT"}**
+- **{"name" => "GOlden Phoenix"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

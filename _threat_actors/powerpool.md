@@ -22,16 +22,16 @@ Malware developers have started to use the zero-day exploit for Task Scheduler c
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "PowerDuke"}**
+- **{"name" => "POWERSTATS"}**
+- **{"name" => "Power Loader"}**
+- **{"name" => "POWERSOURCE"}**
+- **{"name" => "Small-Net"}**
+- **{"name" => "Windows Remote Desktop"}**
+- **{"name" => "UNITEDRAKE"}**
+- **{"name" => "Xploit"}**
+- **{"name" => "Archelaus Beta"}**
+- **{"name" => "PowerRAT"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

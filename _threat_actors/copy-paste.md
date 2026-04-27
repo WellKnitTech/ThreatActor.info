@@ -24,7 +24,7 @@ The title ‘Copy-paste compromises’ is derived from the actor’s heavy use o
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Malware information extracted from MITRE references.*
+*Information pending cataloguing.*
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

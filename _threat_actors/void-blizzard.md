@@ -22,9 +22,9 @@ Void Blizzard’s cyberespionage operations tend to be highly targeted at specif
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
+- **{"name" => "Blizzard"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

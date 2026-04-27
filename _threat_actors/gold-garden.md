@@ -22,10 +22,10 @@ GOLD GARDEN was a financially motivated cybercriminal threat group that authored
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Unknown Logger"}**
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
+- **{"name" => "Xploit"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

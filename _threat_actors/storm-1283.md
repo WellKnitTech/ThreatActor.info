@@ -22,8 +22,8 @@ Storm-1283 is a threat actor that targeted Microsoft Azure cloud platform. They 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
+- **{"name" => "CloudDuke"}**
+- **{"name" => "RIPTIDE"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

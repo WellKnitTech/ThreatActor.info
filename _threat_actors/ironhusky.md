@@ -22,11 +22,11 @@ IronHusky is a Chinese-based threat actor first attributed in July 2017 targetin
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Trojan.Karagany"}**
+- **{"name" => "RemoteCMD"}**
+- **{"name" => "Trojan.Mebromi"}**
+- **{"name" => "Remote Utilities"}**
+- **{"name" => "RemotePC"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

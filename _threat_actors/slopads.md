@@ -22,9 +22,9 @@ SlopAds is a sophisticated ad fraud and click fraud operation involving a collec
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "MobileOrder"}**
+- **{"name" => "UNITEDRAKE"}**
+- **{"name" => "GraphicBooting"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

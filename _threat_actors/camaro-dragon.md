@@ -22,8 +22,8 @@ In early 2023, the Check Point Incident Response Team (CPIRT) team investigated 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
+- **{"name" => "Luminosity Link"}**
+- **{"name" => "Archelaus Beta"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

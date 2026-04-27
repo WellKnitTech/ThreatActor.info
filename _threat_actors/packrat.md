@@ -22,12 +22,12 @@ A threat group that has been active for at least seven years has used malware, p
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Trojan.Karagany"}**
+- **{"name" => "RemoteCMD"}**
+- **{"name" => "Trojan.Mebromi"}**
+- **{"name" => "Remote Utilities"}**
+- **{"name" => "RemotePC"}**
+- **{"name" => "Archelaus Beta"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

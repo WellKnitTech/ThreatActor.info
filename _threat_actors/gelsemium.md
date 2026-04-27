@@ -23,7 +23,7 @@ The Gelsemium group has been active since at least 2014 and was described in the
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Malware information extracted from MITRE references.*
+*Information pending cataloguing.*
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

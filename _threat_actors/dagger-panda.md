@@ -26,8 +26,8 @@ Operate since at least 2011, from several locations in China, with members in Ko
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
+- **{"name" => "China Chopper"}**
+- **{"name" => "OnionDuke"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

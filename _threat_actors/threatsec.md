@@ -22,9 +22,9 @@ ThreatSec is a hacktivist group that has targeted various organizations, includi
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
+- **{"name" => "Ghost"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

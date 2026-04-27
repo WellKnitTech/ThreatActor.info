@@ -22,11 +22,11 @@ CostaRicto is a cyber-espionage threat actor that operates as a mercenary group,
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "ClientMesh"}**
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
+- **{"name" => "Client Maximus"}**
+- **{"name" => "CrossRat"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

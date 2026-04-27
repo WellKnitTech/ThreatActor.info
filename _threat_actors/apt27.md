@@ -26,7 +26,7 @@ A China-based actor that targets foreign embassies to collect data on government
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "China Chopper"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -22,7 +22,7 @@ The campaign, called SmugX, overlaps with previously reported activity by Chines
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "PlugX"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

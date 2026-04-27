@@ -26,9 +26,9 @@ Adversaries abusing ICS (based on Dragos Inc adversary list). This threat actor 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
+- **{"name" => "Xploit"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Unknown

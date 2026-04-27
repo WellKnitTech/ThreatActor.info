@@ -22,9 +22,9 @@ Cyber Alliance is a hacktivist group that has demonstrated capabilities in explo
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
+- **{"name" => "Xploit"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Ukraine

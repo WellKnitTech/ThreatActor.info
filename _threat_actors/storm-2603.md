@@ -22,8 +22,8 @@ The group Microsoft tracks as Storm-2603 is assessed with medium confidence to b
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
+- **{"name" => "China Chopper"}**
+- **{"name" => "Xploit"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

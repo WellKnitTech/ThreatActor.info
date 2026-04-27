@@ -22,13 +22,13 @@ The McAfee Advanced Threat Research team and McAfee Labs Malware Operations Grou
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Backdoor.Oldrea"}**
+- **{"name" => "Trojan.Karagany"}**
+- **{"name" => "Trojan.Mebromi"}**
+- **{"name" => "Nuclear RAT"}**
+- **{"name" => "Xploit"}**
+- **{"name" => "SharpEye"}**
+- **{"name" => "SharpBot"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

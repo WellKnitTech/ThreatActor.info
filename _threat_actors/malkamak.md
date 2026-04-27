@@ -22,16 +22,16 @@ MalKamak is an Iranian threat actor that has been operating since at least 2018.
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "SPACESHIP"}**
+- **{"name" => "CloudDuke"}**
+- **{"name" => "Trojan.Karagany"}**
+- **{"name" => "RemoteCMD"}**
+- **{"name" => "Trojan.Mebromi"}**
+- **{"name" => "ClientMesh"}**
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
+- **{"name" => "Virus RAT"}**
+- **{"name" => "Remote Utilities"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

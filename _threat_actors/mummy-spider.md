@@ -22,11 +22,11 @@ MUMMY SPIDER is a criminal entity linked to the core development of the malware 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Trojan.Karagany"}**
+- **{"name" => "TURNEDUP"}**
+- **{"name" => "Trojan.Mebromi"}**
+- **{"name" => "ClientMesh"}**
+- **{"name" => "Client Maximus"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

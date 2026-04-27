@@ -22,9 +22,9 @@ GamaCopy is a threat actor first discovered in June 2023, known for launching cy
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
+- **{"name" => "Ultra VNC"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

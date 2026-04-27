@@ -23,12 +23,12 @@ SharpPanda, an APT group originating from China, has seen a rise in its cyber-at
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Backdoor.Oldrea"}**
+- **{"name" => "China Chopper"}**
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
+- **{"name" => "SharpEye"}**
+- **{"name" => "SharpBot"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

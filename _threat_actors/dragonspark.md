@@ -22,12 +22,12 @@ DragonSpark is a threat actor that has been conducting attacks primarily targeti
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Trojan.Karagany"}**
+- **{"name" => "China Chopper"}**
+- **{"name" => "RemoteCMD"}**
+- **{"name" => "Trojan.Mebromi"}**
+- **{"name" => "Remote Utilities"}**
+- **{"name" => "RemotePC"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -23,11 +23,11 @@ According to 360 TIC the actor has carried out continuous cyber espionage activi
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "China Chopper"}**
+- **{"name" => "RTM"}**
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
+- **{"name" => "Nuclear RAT"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

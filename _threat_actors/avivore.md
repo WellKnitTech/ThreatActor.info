@@ -22,7 +22,7 @@ The group’s existence came to light during Context’s investigation of a numb
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "Small-Net"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

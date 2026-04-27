@@ -22,7 +22,7 @@ DarkGaboon is a financially motivated APT group that has been independently targ
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "Revenge-RAT"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

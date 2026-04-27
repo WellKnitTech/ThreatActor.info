@@ -22,9 +22,9 @@ DEV-1101 is a threat actor tracked by Microsoft who is responsible for developin
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "MobileOrder"}**
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

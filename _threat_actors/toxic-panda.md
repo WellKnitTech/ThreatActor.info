@@ -23,7 +23,7 @@ A group targeting dissident groups in China and at the boundaries.
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "China Chopper"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

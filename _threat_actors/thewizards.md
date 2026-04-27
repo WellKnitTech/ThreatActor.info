@@ -22,12 +22,12 @@ TheWizards is a China-aligned APT group that employs the Spellbinder tool for ad
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Backdoor.Oldrea"}**
+- **{"name" => "China Chopper"}**
+- **{"name" => "DroidJack"}**
+- **{"name" => "Androrat"}**
+- **{"name" => "Windows Remote Desktop"}**
+- **{"name" => "Darknet RAT"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

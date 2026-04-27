@@ -22,7 +22,7 @@ ScamClub is a threat actor involved in malvertising activities since 2018. They 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "MobileOrder"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -22,7 +22,7 @@ Dancing Salome is the Kaspersky codename for an APT actor with a primary focus o
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "Hacking Team UEFI Rootkit"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

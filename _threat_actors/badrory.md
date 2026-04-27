@@ -22,7 +22,7 @@ Kaspersky researchers have identified a new APT group named BadRory that has mou
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "Archelaus Beta"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

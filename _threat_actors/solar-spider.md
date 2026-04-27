@@ -22,7 +22,7 @@ SOLAR SPIDER’s phishing campaigns deliver the JSOutProx RAT to financial insti
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "CrossRat"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

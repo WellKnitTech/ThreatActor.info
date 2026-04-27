@@ -22,11 +22,11 @@ Head Mare is a hacktivism focussed threat actor group known for targeting Russia
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "RemoteCMD"}**
+- **{"name" => "Blizzard"}**
+- **{"name" => "Remote Utilities"}**
+- **{"name" => "RemotePC"}**
+- **{"name" => "Xploit"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

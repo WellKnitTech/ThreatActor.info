@@ -26,13 +26,13 @@ Longhorn has been active since at least 2011. It has used a range of back door T
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "SPACESHIP"}**
+- **{"name" => "Trojan.Karagany"}**
+- **{"name" => "Trojan.Mebromi"}**
+- **{"name" => "Back Orifice"}**
+- **{"name" => "Back Orifice 2000"}**
+- **{"name" => "UNITEDRAKE"}**
+- **{"name" => "CrossRat"}**
 
 ## Attribution and Evidence
 **Country of Origin**: United States

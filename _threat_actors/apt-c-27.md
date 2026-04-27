@@ -22,9 +22,9 @@ A threat actor which is ac tive since at least November 2014. This group launche
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "DroidJack"}**
+- **{"name" => "Androrat"}**
+- **{"name" => "Windows Remote Desktop"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -22,7 +22,7 @@ TetrisPhantom relies on compromising of certain type of secure USB drives that p
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "Xpert"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -24,7 +24,7 @@ Adversary group targeting diplomatic missions, governmental and military organis
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Malware information extracted from MITRE references.*
+*Information pending cataloguing.*
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

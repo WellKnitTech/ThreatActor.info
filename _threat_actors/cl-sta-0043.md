@@ -22,9 +22,9 @@ CL-STA-0043 is a highly skilled and sophisticated threat actor, believed to be a
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Windows Remote Desktop"}**
+- **{"name" => "Xploit"}**
+- **{"name" => "Killer RAT"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

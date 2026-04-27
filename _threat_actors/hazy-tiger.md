@@ -23,8 +23,8 @@ The Bitter threat group initially started using RAT tools in their campaigns, as
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
+- **{"name" => "DroidJack"}**
+- **{"name" => "Androrat"}**
 
 ## Attribution and Evidence
 **Country of Origin**: India

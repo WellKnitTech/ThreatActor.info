@@ -22,10 +22,10 @@ Water Saci is a sophisticated cyber threat actor operating in Brazil, utilizing 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Trojan.Karagany"}**
+- **{"name" => "Trojan.Mebromi"}**
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Brazil

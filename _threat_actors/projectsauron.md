@@ -26,10 +26,10 @@ ProjectSauron is the name for a top level modular cyber-espionage platform, desi
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "CyberGate"}**
+- **{"name" => "XtremeRAT"}**
+- **{"name" => "Cyber Eye RAT"}**
+- **{"name" => "GraphicBooting"}**
 
 ## Attribution and Evidence
 **Country of Origin**: United States

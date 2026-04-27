@@ -22,7 +22,7 @@ AppMilad is an Iranian hacking group that has been identified as the source of a
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "Hacking Team UEFI Rootkit"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

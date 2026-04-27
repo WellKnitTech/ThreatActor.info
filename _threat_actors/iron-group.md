@@ -22,11 +22,11 @@ Iron group has developed multiple types of malware (backdoors, crypto-miners, an
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Backdoor.Oldrea"}**
+- **{"name" => "Miner-C"}**
+- **{"name" => "DroidJack"}**
+- **{"name" => "Androrat"}**
+- **{"name" => "Windows Remote Desktop"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

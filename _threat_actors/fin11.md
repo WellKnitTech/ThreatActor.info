@@ -22,9 +22,9 @@ FIN11 is a well-established financial crime group that has recently focused its 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Net Devil"}**
+- **{"name" => "Xploit"}**
+- **{"name" => "Archelaus Beta"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

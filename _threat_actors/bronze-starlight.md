@@ -22,13 +22,13 @@ BRONZE STARLIGHT has been active since mid 2021 and targets organizations global
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Starloader"}**
+- **{"name" => "Smoke Loader"}**
+- **{"name" => "PlugX"}**
+- **{"name" => "China Chopper"}**
+- **{"name" => "Archelaus Beta"}**
+- **{"name" => "Cobalt Strike"}**
+- **{"name" => "CrossRat"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

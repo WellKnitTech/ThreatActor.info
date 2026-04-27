@@ -22,12 +22,12 @@ Shadows in the Cloud documents a complex ecosystem of cyber espionage that syste
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "CloudDuke"}**
+- **{"name" => "China Chopper"}**
+- **{"name" => "Unknown Logger"}**
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
+- **{"name" => "UNITEDRAKE"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

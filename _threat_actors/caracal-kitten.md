@@ -22,12 +22,12 @@ Caracal Kitten is an APT group that has been targeting activists associated with
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "MobileOrder"}**
+- **{"name" => "Trojan.Karagany"}**
+- **{"name" => "RemoteCMD"}**
+- **{"name" => "Trojan.Mebromi"}**
+- **{"name" => "Remote Utilities"}**
+- **{"name" => "RemotePC"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

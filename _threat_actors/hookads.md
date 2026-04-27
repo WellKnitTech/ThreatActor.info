@@ -22,13 +22,13 @@ HookAds is a malvertising campaign that purchases cheap ad space on low quality 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "SPACESHIP"}**
+- **{"name" => "BlackEnergy"}**
+- **{"name" => "BLACKCOFFEE"}**
+- **{"name" => "Blackshades"}**
+- **{"name" => "BlackNix"}**
+- **{"name" => "Xploit"}**
+- **{"name" => "BlackHole"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

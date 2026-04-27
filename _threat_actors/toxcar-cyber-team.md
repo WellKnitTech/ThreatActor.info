@@ -22,9 +22,9 @@ The Toxcar Cyber Team has claimed responsibility for a data leak involving Maste
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
+- **{"name" => "Virus RAT"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

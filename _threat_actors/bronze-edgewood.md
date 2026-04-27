@@ -23,16 +23,16 @@ In early 2021 CTU researchers observed BRONZE EDGEWOOD exploiting the Microsoft 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "PowerDuke"}**
+- **{"name" => "POWERSTATS"}**
+- **{"name" => "Power Loader"}**
+- **{"name" => "POWERSOURCE"}**
+- **{"name" => "China Chopper"}**
+- **{"name" => "Back Orifice"}**
+- **{"name" => "Back Orifice 2000"}**
+- **{"name" => "Xploit"}**
+- **{"name" => "Archelaus Beta"}**
+- **{"name" => "Cobalt Strike"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

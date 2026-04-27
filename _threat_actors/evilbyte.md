@@ -22,8 +22,8 @@ EvilByte is a hacktivist group that has conducted several high-profile cyber att
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

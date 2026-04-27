@@ -22,12 +22,12 @@ The threat actors compromised the update server of a remote support solutions pr
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "RemoteCMD"}**
+- **{"name" => "ClientMesh"}**
+- **{"name" => "Remote Utilities"}**
+- **{"name" => "RemotePC"}**
+- **{"name" => "9002"}**
+- **{"name" => "Client Maximus"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

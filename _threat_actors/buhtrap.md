@@ -24,8 +24,8 @@ Buhtrap has been active since 2014, however their first attacks against financia
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
+- **{"name" => "ClientMesh"}**
+- **{"name" => "Client Maximus"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

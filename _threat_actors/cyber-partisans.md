@@ -22,10 +22,10 @@ The Cyber Partisans, a hacktivist group based in Belarus, has been involved in v
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
+- **{"name" => "GraphicBooting"}**
+- **{"name" => "CrossRat"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Belarus

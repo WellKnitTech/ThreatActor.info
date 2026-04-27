@@ -22,7 +22,7 @@ TAG-28 is a Chinese state-sponsored threat actor that has been targeting Indian 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "Winnti"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

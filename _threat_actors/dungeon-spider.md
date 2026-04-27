@@ -22,8 +22,8 @@ DUNGEON SPIDER is a criminal group operating the ransomware most commonly known 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
+- **{"name" => "GraphicBooting"}**
+- **{"name" => "Revenge-RAT"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

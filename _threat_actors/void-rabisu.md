@@ -22,7 +22,7 @@ Void Rabisu is an intrusion set associated with both financially motivated ranso
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Malware information extracted from MITRE references.*
+*Information pending cataloguing.*
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

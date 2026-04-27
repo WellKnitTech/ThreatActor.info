@@ -22,12 +22,12 @@ a relatively new threat actor that’s been operating since mid-2016 Group-IB ha
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Backdoor.Oldrea"}**
+- **{"name" => "S-Type"}**
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
+- **{"name" => "Xpert"}**
+- **{"name" => "GraphicBooting"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

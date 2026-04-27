@@ -22,12 +22,12 @@ Earth Krahang is an APT group targeting government organizations worldwide. They
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Backdoor.Oldrea"}**
+- **{"name" => "China Chopper"}**
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
+- **{"name" => "Xploit"}**
+- **{"name" => "Cobalt Strike"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

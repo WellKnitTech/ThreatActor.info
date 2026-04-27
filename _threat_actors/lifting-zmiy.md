@@ -22,9 +22,9 @@ Rostelecom's security team has discovered a new APT group that is breaching comp
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Starloader"}**
+- **{"name" => "Back Orifice"}**
+- **{"name" => "Back Orifice 2000"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

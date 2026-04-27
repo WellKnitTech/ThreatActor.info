@@ -22,13 +22,13 @@ Storm-1567 is the threat actor behind the Ransomware-as-a-Service Akira. They at
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Hacking Team UEFI Rootkit"}**
+- **{"name" => "PowerDuke"}**
+- **{"name" => "POWERSTATS"}**
+- **{"name" => "Power Loader"}**
+- **{"name" => "POWERSOURCE"}**
+- **{"name" => "Windows Remote Desktop"}**
+- **{"name" => "PowerRAT"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

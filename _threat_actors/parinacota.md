@@ -22,11 +22,11 @@ One actor that has emerged in this trend of human-operated attacks is an active,
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "RemoteCMD"}**
+- **{"name" => "Remote Utilities"}**
+- **{"name" => "RemotePC"}**
+- **{"name" => "DesktopNow"}**
+- **{"name" => "Mega"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

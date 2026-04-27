@@ -22,7 +22,7 @@ Storm-0249 is an access broker active since 2021, known for distributing BazaLoa
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "Xploit"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

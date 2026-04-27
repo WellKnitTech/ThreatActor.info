@@ -24,8 +24,8 @@ Recorded Future’s Insikt Group has identified a large cluster of new operation
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
+- **{"name" => "Backdoor.Oldrea"}**
+- **{"name" => "Windows Remote Desktop"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

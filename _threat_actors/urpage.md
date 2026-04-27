@@ -22,8 +22,8 @@ What sets Urpage attacks apart is its targeting of InPage, a word processor for 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
+- **{"name" => "Backdoor.Oldrea"}**
+- **{"name" => "Arabian-Attacker RAT"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

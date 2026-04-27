@@ -25,9 +25,9 @@ Grayling activity was first observed in early 2023, when a number of victims wer
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Unknown Logger"}**
+- **{"name" => "UNITEDRAKE"}**
+- **{"name" => "Cobalt Strike"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

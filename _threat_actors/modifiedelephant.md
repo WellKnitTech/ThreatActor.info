@@ -22,7 +22,7 @@ Our research into these intrusions revealed a decade of persistent malicious act
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "Unknown Logger"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

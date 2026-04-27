@@ -22,8 +22,8 @@ LofyGang has been found to be linked to more than 200 malicious packages, with t
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
+- **{"name" => "Hacking Team UEFI Rootkit"}**
+- **{"name" => "StreamEx"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

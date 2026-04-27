@@ -26,7 +26,7 @@ Kaspersky Lab and Seculert worked together to sinkhole the Madi Command & Contro
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "CrossRat"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

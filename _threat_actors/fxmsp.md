@@ -22,11 +22,11 @@ Throughout 2017 and 2018, Fxmsp established a network of trusted proxy resellers
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Net Crawler"}**
+- **{"name" => "RemoteCMD"}**
+- **{"name" => "Remote Utilities"}**
+- **{"name" => "RemotePC"}**
+- **{"name" => "DesktopNow"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

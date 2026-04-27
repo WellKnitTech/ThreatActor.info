@@ -22,16 +22,16 @@ ProCC is a threat actor targeting the hospitality sector with remote access Troj
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Trojan.Karagany"}**
+- **{"name" => "RemoteCMD"}**
+- **{"name" => "Trojan.Mebromi"}**
+- **{"name" => "jRAT"}**
+- **{"name" => "NJRat"}**
+- **{"name" => "Remote Utilities"}**
+- **{"name" => "RemotePC"}**
+- **{"name" => "NanoCore"}**
+- **{"name" => "Xploit"}**
+- **{"name" => "Revenge-RAT"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

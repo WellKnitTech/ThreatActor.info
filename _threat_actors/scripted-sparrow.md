@@ -22,9 +22,9 @@ Scripted Sparrow is a prolific Business Email Compromise (BEC) collective that c
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Small-Net"}**
+- **{"name" => "Batch NET"}**
+- **{"name" => "CrossRat"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -22,11 +22,11 @@ Storm-1674 is an access broker known for using tools based on the publicly avail
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "BlackEnergy"}**
+- **{"name" => "BLACKCOFFEE"}**
+- **{"name" => "Blackshades"}**
+- **{"name" => "BlackNix"}**
+- **{"name" => "BlackHole"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

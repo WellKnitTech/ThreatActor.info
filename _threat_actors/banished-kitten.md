@@ -26,7 +26,7 @@ BANISHED KITTEN is an Iranian state-nexus adversary active since at least 2008. 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Malware information extracted from MITRE references.*
+*Information pending cataloguing.*
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

@@ -22,11 +22,11 @@ A series of attacks, targeting both Indian military research and south Asian shi
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "China Chopper"}**
+- **{"name" => "Arabian-Attacker RAT"}**
+- **{"name" => "Minimo"}**
+- **{"name" => "Xploit"}**
+- **{"name" => "Killer RAT"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

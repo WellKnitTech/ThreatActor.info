@@ -26,7 +26,7 @@ Cotton Sandstorm is an Iranian threat actor involved in hack-and-leak operations
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Malware information extracted from MITRE references.*
+*Information pending cataloguing.*
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

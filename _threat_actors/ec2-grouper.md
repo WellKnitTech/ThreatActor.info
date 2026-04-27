@@ -22,15 +22,15 @@ EC2 Grouper is a prolific threat actor known for leveraging AWS tools for PowerS
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "CloudDuke"}**
+- **{"name" => "PowerDuke"}**
+- **{"name" => "POWERSTATS"}**
+- **{"name" => "Power Loader"}**
+- **{"name" => "POWERSOURCE"}**
+- **{"name" => "RemoteCMD"}**
+- **{"name" => "Remote Utilities"}**
+- **{"name" => "RemotePC"}**
+- **{"name" => "PowerRAT"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -22,8 +22,8 @@ IntelBroker is a threat actor known for orchestrating high-profile data breaches
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
+- **{"name" => "RTM"}**
+- **{"name" => "PentagonRAT"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -22,7 +22,7 @@ Malicious campaign called DangerousSavanna has been targeting multiple major fin
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "AsyncRAT"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

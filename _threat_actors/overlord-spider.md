@@ -22,7 +22,7 @@ OVERLORD SPIDER, aka The Dark Overlord. Similar to ransomware operators today, O
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "Dark DDoSeR"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

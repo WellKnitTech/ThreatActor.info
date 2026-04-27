@@ -22,7 +22,7 @@ Mentioned as operator of SmokeLoader in CrowdStrike's 2020 Report.
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "Smoke Loader"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

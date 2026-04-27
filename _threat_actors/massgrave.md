@@ -22,10 +22,10 @@ Massgrave is a hacking group that has developed a method to bypass Microsoft's s
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Hacking Team UEFI Rootkit"}**
+- **{"name" => "Agent.btz"}**
+- **{"name" => "Windows Remote Desktop"}**
+- **{"name" => "Xploit"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

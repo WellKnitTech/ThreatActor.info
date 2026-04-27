@@ -24,13 +24,13 @@ Since 2021, Red Menshen, a China based threat actor, which has been observed tar
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Backdoor.Oldrea"}**
+- **{"name" => "China Chopper"}**
+- **{"name" => "gh0st"}**
+- **{"name" => "Gh0st RAT"}**
+- **{"name" => "Windows Remote Desktop"}**
+- **{"name" => "Xploit"}**
+- **{"name" => "CrossRat"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

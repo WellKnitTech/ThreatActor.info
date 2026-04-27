@@ -22,7 +22,7 @@ RipperSec is a pro-Palestinian, likely Malaysian hacktivist group created in Jun
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "Mega"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Malaysia

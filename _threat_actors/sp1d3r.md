@@ -22,8 +22,8 @@ Sp1d3r, a threat actor, has been involved in multiple data breaches targeting co
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
+- **{"name" => "Hacking Team UEFI Rootkit"}**
+- **{"name" => "CloudDuke"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -24,12 +24,12 @@ An actor mainly targeting Pakistan military targets, active since at least 2012.
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "PowerDuke"}**
+- **{"name" => "POWERSTATS"}**
+- **{"name" => "Power Loader"}**
+- **{"name" => "POWERSOURCE"}**
+- **{"name" => "Xploit"}**
+- **{"name" => "PowerRAT"}**
 
 ## Attribution and Evidence
 **Country of Origin**: India

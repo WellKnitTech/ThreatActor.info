@@ -22,13 +22,13 @@ Lilac Typhoon is a threat actor attributed to China. They have been identified a
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "China Chopper"}**
+- **{"name" => "RemoteCMD"}**
+- **{"name" => "Miner-C"}**
+- **{"name" => "Remote Utilities"}**
+- **{"name" => "RemotePC"}**
+- **{"name" => "Xploit"}**
+- **{"name" => "Cobalt Strike"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

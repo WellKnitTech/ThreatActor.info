@@ -26,12 +26,12 @@ OilRig is an Iranian threat group operating primarily in the Middle East by targ
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Backdoor.Oldrea"}**
+- **{"name" => "RemoteCMD"}**
+- **{"name" => "Remote Utilities"}**
+- **{"name" => "RemotePC"}**
+- **{"name" => "DesktopNow"}**
+- **{"name" => "Xploit"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

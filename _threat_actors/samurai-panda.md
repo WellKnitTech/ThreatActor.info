@@ -26,7 +26,7 @@ SAMURAI PANDA is a threat actor tracked by MISP Galaxy. Additional information p
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Malware information extracted from MITRE references.*
+*Information pending cataloguing.*
 
 ## Attribution and Evidence
 **Country of Origin**: China

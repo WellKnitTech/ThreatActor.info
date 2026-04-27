@@ -22,9 +22,9 @@ Newly discovered supply chain attack that leveraged ASUS Live Update software. T
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Trojan.Karagany"}**
+- **{"name" => "Unknown Logger"}**
+- **{"name" => "Trojan.Mebromi"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

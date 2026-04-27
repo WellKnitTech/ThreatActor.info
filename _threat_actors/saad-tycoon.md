@@ -22,7 +22,7 @@ Saad Tycoon is the operator and alleged developer of the Tycoon 2FA PhaaS, a phi
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "CloudDuke"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

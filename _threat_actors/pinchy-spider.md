@@ -22,7 +22,7 @@ First observed in January 2018, GandCrab ransomware quickly began to proliferate
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "PinchDuke"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

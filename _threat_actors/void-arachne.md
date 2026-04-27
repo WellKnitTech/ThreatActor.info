@@ -22,9 +22,9 @@ Void Arachne is a threat actor group targeting Chinese-speaking users with malic
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "PoisonIvy"}**
+- **{"name" => "Xploit"}**
+- **{"name" => "GraphicBooting"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

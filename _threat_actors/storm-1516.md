@@ -22,7 +22,7 @@ CopyCop is a Russian covert influence network that has established over 300 fict
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "Xpert"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

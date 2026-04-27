@@ -22,9 +22,9 @@ According to Crowdstrike, the NetWalker ransomware is being developed and mainta
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Back Orifice"}**
+- **{"name" => "Back Orifice 2000"}**
+- **{"name" => "Revenge-RAT"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

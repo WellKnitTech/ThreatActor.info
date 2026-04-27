@@ -23,10 +23,10 @@ The FBI issued a rare bulletin admitting that a group named Advanced Persistent 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Back Orifice"}**
+- **{"name" => "Back Orifice 2000"}**
+- **{"name" => "Xpert"}**
+- **{"name" => "Deeper RAT"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

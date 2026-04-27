@@ -26,7 +26,7 @@ Activity: defense and aerospace sectors, also interested in targeting entities i
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "SPACESHIP"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

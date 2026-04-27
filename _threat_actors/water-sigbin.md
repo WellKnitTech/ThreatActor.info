@@ -22,13 +22,13 @@ The 8220 Gang, also known as Water Sigbin, is a threat actor group that focuses 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "PowerDuke"}**
+- **{"name" => "POWERSTATS"}**
+- **{"name" => "Power Loader"}**
+- **{"name" => "POWERSOURCE"}**
+- **{"name" => "Miner-C"}**
+- **{"name" => "Xploit"}**
+- **{"name" => "PowerRAT"}**
 
 ## Attribution and Evidence
 **Country of Origin**: China

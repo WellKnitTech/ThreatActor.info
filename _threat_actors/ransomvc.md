@@ -22,7 +22,7 @@ Ransomed.VC burst onto the scene with a well-orchestrated PR campaign, encompass
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
+- **{"name" => "Xploit"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

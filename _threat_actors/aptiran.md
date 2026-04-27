@@ -22,8 +22,8 @@ APTIran has claimed responsibility for a large-scale campaign targeting Israeli 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
+- **{"name" => "Offence"}**
+- **{"name" => "ZOMBIE SLAYER"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

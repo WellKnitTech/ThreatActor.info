@@ -26,9 +26,9 @@ Targets Saudi Arabia, Israel, US, Iran, high ranking defense officials, embassie
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Arabian-Attacker RAT"}**
+- **{"name" => "Nuclear RAT"}**
+- **{"name" => "Archelaus Beta"}**
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

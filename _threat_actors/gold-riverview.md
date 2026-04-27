@@ -22,16 +22,16 @@ GOLD RIVERVIEW was a financially motivated cybercriminal group that facilitated 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
-- **name**: 
+- **{"name" => "Net Crawler"}**
+- **{"name" => "BlackEnergy"}**
+- **{"name" => "BLACKCOFFEE"}**
+- **{"name" => "Blackshades"}**
+- **{"name" => "BlackNix"}**
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
+- **{"name" => "BlackHole"}**
+- **{"name" => "FlawedAmmyy"}**
+- **{"name" => "FlawedGrace"}**
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

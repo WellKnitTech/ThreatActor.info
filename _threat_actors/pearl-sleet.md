@@ -22,8 +22,8 @@ Pearl Sleet is a nation state activity group based in North Korea that has been 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **name**: 
-- **name**: 
+- **{"name" => "CyberGate"}**
+- **{"name" => "Cyber Eye RAT"}**
 
 ## Attribution and Evidence
 **Country of Origin**: North Korea
