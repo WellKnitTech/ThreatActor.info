@@ -107,19 +107,42 @@
         let iocValue = code.textContent.trim().replace('[.]', '.').replace('(dot)', '.');
         totalCount++;
         
-        // Determine category
+        // Determine category and icon
         let category = 'Other';
-        if (/^[\d.]+$/.test(iocValue)) category = 'IP Addresses';
-        else if (/^[a-f0-9]{32}$/i.test(iocValue)) category = 'MD5';
-        else if (/^[a-f0-9]{40}$/i.test(iocValue)) category = 'SHA1';
-        else if (/^[a-f0-9]{64}$/i.test(iocValue)) category = 'SHA256';
-        else if (/^[a-f0-9]{8,}$/i.test(iocValue)) category = 'Hashes';
-        else if (iocValue.includes('.')) category = 'Domains';
-        else if (iocValue.includes('://') || iocValue.startsWith('http')) category = 'URLs';
+        let icon = '📋';
+        if (/^[\d.]+$/.test(iocValue)) {
+          category = 'IP Addresses';
+          icon = '🖥️';
+        } else if (/^[a-f0-9]{32}$/i.test(iocValue)) {
+          category = 'MD5';
+          icon = '🔐';
+        } else if (/^[a-f0-9]{40}$/i.test(iocValue)) {
+          category = 'SHA1';
+          icon = '🔐';
+        } else if (/^[a-f0-9]{64}$/i.test(iocValue)) {
+          category = 'SHA256';
+          icon = '🔐';
+        } else if (/^[a-f0-9]{8,}$/i.test(iocValue)) {
+          category = 'Hashes';
+          icon = '🔐';
+        } else if (iocValue.includes('://') || iocValue.startsWith('http')) {
+          category = 'URLs';
+          icon = '🔗';
+        } else if (iocValue.includes('.') || /^[a-z0-9.-]+\.[a-z]/i.test(iocValue)) {
+          category = 'Domains';
+          icon = '🌐';
+        }
         
         // Track category
         if (!categories[category]) categories[category] = [];
         categories[category].push(iocValue);
+        
+        // Add IOC type icon
+        const iconSpan = document.createElement('span');
+        iconSpan.textContent = icon + ' ';
+        iconSpan.style.marginRight = '4px';
+        iconSpan.title = category;
+        parent.insertBefore(iconSpan, code);
         
         // Add inline copy button to each IOC
         const btn = document.createElement('span');

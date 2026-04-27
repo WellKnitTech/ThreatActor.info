@@ -66,7 +66,12 @@ class ThreatActorIndexGenerator
 
     write_json('threat_actors.json', actor_documents)
     write_json('iocs.json', ioc_documents)
-    write_json('facets.json', build_facets(actor_documents, ioc_documents))
+    
+    # Build facets with malware counts
+    facets = build_facets(actor_documents, ioc_documents)
+    facets[:malware_counts] = build_malware_counts(malware_documents)
+    write_json('facets.json', facets)
+    
     write_json('campaigns.json', campaign_documents)
     write_json('malware.json', malware_documents)
     write_json('attack_mappings.json', attack_mapping_documents)
@@ -217,6 +222,21 @@ class ThreatActorIndexGenerator
   end
 
   def build_facets(actors, iocs)
+    # Precompute counts for sidebar
+    country_counts = actors.each_with_object(Hash.new(0)) do |actor, counts|
+      counts[actor[:country]] += 1 if actor[:country]
+    end.sort_by { |_, count| -count }.first(10).to_h
+    
+    risk_counts = actors.each_with_object(Hash.new(0)) do |actor, counts|
+      counts[actor[:risk_level]] += 1 if actor[:risk_level]
+    end
+    
+    sector_counts = actors.each_with_object(Hash.new(0)) do |actor, counts|
+      (actor[:sector_focus] || []).each do |sector|
+        counts[sector] += 1
+      end
+    end.sort_by { |_, count| -count }.first(10).to_h
+    
     {
       countries: unique_sorted(actors.map { |actor| actor[:country] }),
       risk_levels: risk_levels_in_order(actors.map { |actor| actor[:risk_level] }),
@@ -225,8 +245,21 @@ class ThreatActorIndexGenerator
       counts: {
         threat_actors: actors.length,
         iocs: iocs.length
-      }
+      },
+      # Precomputed counts for sidebar
+      country_counts: country_counts,
+      risk_counts: risk_counts,
+      sector_counts: sector_counts
     }
+  end
+  
+  # Add malware counts to facets (called from main)
+  def build_malware_counts(malware_documents)
+    malware_counts = malware_documents.each_with_object(Hash.new(0)) do |entry, counts|
+      counts[entry[:name]] += 1 if entry[:name]
+    end.sort_by { |_, count| -count }.first(10).to_h
+    
+    malware_counts
   end
 
   def build_ioc_lookup(iocs)

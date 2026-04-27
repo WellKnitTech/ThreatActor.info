@@ -150,5 +150,47 @@
   "counts": {
     "threat_actors": 1062,
     "iocs": 0
+  },
+  "country_counts": {
+    "China": 198,
+    "Russia": 78,
+    "Iran": 59,
+    "North Korea": 24,
+    "Unknown": 13,
+    "Turkey": 7,
+    "Ukraine": 6,
+    "Vietnam": 6,
+    "United States": 5,
+    "India": 5
+  },
+  "risk_counts": {
+    "High": 159,
+    "Critical": 14,
+    "Low": 2,
+    "Medium": 1
+  },
+  "sector_counts": {
+    "Government": 99,
+    "Private sector": 46,
+    "Military": 35,
+    "Government, Administration": 26,
+    "Education": 23,
+    "Healthcare": 22,
+    "Defense": 22,
+    "Technology": 20,
+    "Energy": 20,
+    "Finance": 17
+  },
+  "malware_counts": {
+    "CyberGate": 227,
+    "Cyber Eye RAT": 226,
+    "Xploit": 187,
+    "Backdoor.Oldrea": 104,
+    "China Chopper": 92,
+    "Archelaus Beta": 71,
+    "RemoteCMD": 70,
+    "CrossRat": 67,
+    "Remote Utilities": 67,
+    "RemotePC": 66
   }
 }

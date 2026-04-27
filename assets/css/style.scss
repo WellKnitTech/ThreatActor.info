@@ -538,6 +538,27 @@ a:hover {
   opacity: 1;
 }
 
+/* IOC Type Icons */
+.ioc-block li span[title="IP Addresses"],
+.ioc-block li span[title="ip"] {
+  color: var(--accent);
+}
+
+.ioc-block li span[title="Domains"] {
+  color: var(--risk-low);
+}
+
+.ioc-block li span[title="URLs"] {
+  color: var(--solarized-cyan);
+}
+
+.ioc-block li span[title="MD5"],
+.ioc-block li span[title="SHA1"],
+.ioc-block li span[title="SHA256"],
+.ioc-block li span[title="Hashes"] {
+  color: var(--solarized-violet);
+}
+
 // Table styling
 .content table {
   width: 100%;
@@ -1133,4 +1154,193 @@ footer {
   font-size: 0.85rem;
   padding-top: 1rem;
   border-top: 1px solid var(--border-color);
+}
+
+/* Actor Page with Sidebar */
+.actor-page-container {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 2rem;
+  align-items: start;
+}
+
+.actor-main {
+  min-width: 0;
+}
+
+.actor-sidebar {
+  position: sticky;
+  top: 2rem;
+}
+
+.actor-sidebar .sidebar-section {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.actor-sidebar h3 {
+  font-size: 1rem;
+  color: var(--text-primary);
+  margin: 0 0 1rem 0;
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+.actor-sidebar h4 {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 1rem 0 0.5rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.actor-sidebar .sidebar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.actor-sidebar .sidebar-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--border-color);
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.actor-sidebar .sidebar-list li:last-child {
+  border-bottom: none;
+}
+
+.actor-sidebar .sidebar-list a {
+  color: var(--text-primary);
+}
+
+.actor-sidebar .sidebar-list .count {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.actor-sidebar .malware-name {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+/* Risk Distribution Bars */
+.risk-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.risk-bar-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.risk-bar-item .risk-label {
+  width: 60px;
+  color: var(--text-secondary);
+}
+
+.risk-bar-item .risk-bar {
+  flex: 1;
+  height: 8px;
+  background: var(--bg-tertiary);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.risk-bar-item .risk-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.risk-bar-item .risk-bar-fill.risk-critical { background: var(--risk-critical); }
+.risk-bar-item .risk-bar-fill.risk-high { background: var(--risk-high); }
+.risk-bar-item .risk-bar-fill.risk-medium { background: var(--risk-medium); }
+.risk-bar-item .risk-bar-fill.risk-low { background: var(--risk-low); }
+
+.risk-bar-item .risk-count {
+  color: var(--text-muted);
+  width: 30px;
+  text-align: right;
+}
+
+/* TTP Table */
+.ttp-table-container {
+  margin-top: 2rem;
+}
+
+.ttp-table-container h2 {
+  margin-bottom: 1rem;
+}
+
+.ttp-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--section-bg);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ttp-table th,
+.ttp-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.ttp-table th {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.ttp-table td code {
+  color: var(--accent);
+  background: transparent;
+}
+
+/* Sidebar Stats */
+.sidebar-stats {
+  display: flex;
+  gap: 1rem;
+}
+
+.sidebar-stat {
+  text-align: center;
+  flex: 1;
+}
+
+.sidebar-stat .stat-number {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.sidebar-stat .stat-label {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .actor-page-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .actor-sidebar {
+    position: static;
+  }
 }

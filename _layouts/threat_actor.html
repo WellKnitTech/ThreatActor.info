@@ -29,144 +29,193 @@ layout: default
 {% assign profile_url = profile_external_url | default: profile_mitre_url %}
 {% assign profile_analyst_notes = current_actor.analyst_notes %}
 
-<div class="threat-actor-header">
-  <div class="header-top">
-    <h1>{{ profile_title }}</h1>
-    {% if profile_risk_level %}
-    <span class="risk-badge {{ profile_risk_level | downcase }}">
-      {% if profile_risk_level == 'Critical' %}⚠️{% elsif profile_risk_level == 'High' %}🔴{% elsif profile_risk_level == 'Medium' %}🟡{% else %}🟢{% endif %}
-      {{ profile_risk_level }}
-    </span>
-    {% endif %}
-  </div>
-  
-  {% if profile_aliases and profile_aliases.size > 0 %}
-  <div class="aliases">
-    <span class="aliases-label">Also known as:</span>
-    <span class="aliases-list">{{ profile_aliases | uniq | join: ", " }}</span>
-  </div>
-  {% endif %}
-  
-  <div class="actor-description">
-    <p>{{ profile_description }}</p>
-  </div>
-  
-  <div class="actor-stats">
-    {% if profile_country %}
-    <div class="stat-item">
-      <span class="stat-icon">🌍</span>
-      <span class="stat-label">Country</span>
-      <span class="stat-value">{{ profile_country_flag }} {{ profile_country }}</span>
-    </div>
-    {% endif %}
-    
-    {% if profile_first_seen or profile_last_activity %}
-    <div class="stat-item">
-      <span class="stat-icon">📅</span>
-      <span class="stat-label">Activity</span>
-      <span class="stat-value">
-        {% if profile_first_seen %}{{ profile_first_seen }}{% else %}?{% endif %}
-        {% if profile_last_activity %} — {{ profile_last_activity }}{% endif %}
-      </span>
-    </div>
-    {% endif %}
-    
-    {% if profile_risk_level %}
-    <div class="stat-item">
-      <span class="stat-icon">⚡</span>
-      <span class="stat-label">Risk Level</span>
-      <span class="stat-value risk-{{ profile_risk_level | downcase }}">{{ profile_risk_level }}</span>
-    </div>
-    {% endif %}
+<div class="actor-page-container">
+  <!-- Main Actor Info -->
+  <div class="actor-main">
+    <div class="threat-actor-header">
+      <div class="header-top">
+        <h1>{{ profile_title }}</h1>
+        {% if profile_risk_level %}
+        <span class="risk-badge {{ profile_risk_level | downcase }}">
+          {% if profile_risk_level == 'Critical' %}⚠️{% elsif profile_risk_level == 'High' %}🔴{% elsif profile_risk_level == 'Medium' %}🟡{% else %}🟢{% endif %}
+          {{ profile_risk_level }}
+        </span>
+        {% endif %}
+      </div>
+      
+      {% if profile_aliases and profile_aliases.size > 0 %}
+      <div class="aliases">
+        <span class="aliases-label">Also known as:</span>
+        <span class="aliases-list">{{ profile_aliases | uniq | join: ", " }}</span>
+      </div>
+      {% endif %}
+      
+      <div class="actor-description">
+        <p>{{ profile_description }}</p>
+      </div>
+      
+      <div class="actor-stats">
+        {% if profile_country %}
+        <div class="stat-item">
+          <span class="stat-icon">🌍</span>
+          <span class="stat-label">Country</span>
+          <span class="stat-value">{{ profile_country_flag }} {{ profile_country }}</span>
+        </div>
+        {% endif %}
+        
+        {% if profile_first_seen or profile_last_activity %}
+        <div class="stat-item">
+          <span class="stat-icon">📅</span>
+          <span class="stat-label">Activity</span>
+          <span class="stat-value">
+            {% if profile_first_seen %}{{ profile_first_seen }}{% else %}?{% endif %}
+            {% if profile_last_activity %} — {{ profile_last_activity }}{% endif %}
+          </span>
+        </div>
+        {% endif %}
+        
+        {% if profile_risk_level %}
+        <div class="stat-item">
+          <span class="stat-icon">⚡</span>
+          <span class="stat-label">Risk Level</span>
+          <span class="stat-value risk-{{ profile_risk_level | downcase }}">{{ profile_risk_level }}</span>
+        </div>
+        {% endif %}
 
-    {% if profile_incident_type %}
-    <div class="stat-item">
-      <span class="stat-icon">🎯</span>
-      <span class="stat-label">Incident Type</span>
-      <span class="stat-value">{{ profile_incident_type }}</span>
-    </div>
-    {% endif %}
+        {% if profile_incident_type %}
+        <div class="stat-item">
+          <span class="stat-icon">🎯</span>
+          <span class="stat-label">Incident Type</span>
+          <span class="stat-value">{{ profile_incident_type }}</span>
+        </div>
+        {% endif %}
 
-    {% if profile_external_id and profile_url %}
-    <div class="stat-item">
-      <span class="stat-icon">🧭</span>
-      <span class="stat-label">ATT&CK</span>
-      <span class="stat-value"><a href="{{ profile_url }}">{{ profile_external_id }}</a></span>
-    </div>
-    {% endif %}
-  </div>
-  
-  {% if profile_sectors and profile_sectors.size > 0 %}
-  <div class="sector-tags">
-    {% for sector in profile_sectors %}
-    <span class="sector-tag">{{ sector }}</span>
-    {% endfor %}
-  </div>
-  {% endif %}
-  
-  {% if profile_first_seen and profile_last_activity %}
-  <div class="activity-timeline">
-    <span class="year">{{ profile_first_seen }}</span>
-    <div class="timeline-bar"></div>
-    <span class="year">{{ profile_last_activity }}</span>
-  </div>
-  {% endif %}
-
-  {% if profile_targeted_victims or profile_operations %}
-  <div class="profile-metadata-grid">
-    {% if profile_targeted_victims and profile_targeted_victims.size > 0 %}
-    <section class="profile-metadata-card">
-      <h2>Targeted Victims</h2>
+        {% if profile_external_id and profile_url %}
+        <div class="stat-item">
+          <span class="stat-icon">🧭</span>
+          <span class="stat-label">ATT&CK</span>
+          <span class="stat-value"><a href="{{ profile_url }}">{{ profile_external_id }}</a></span>
+        </div>
+        {% endif %}
+      </div>
+      
+      {% if profile_sectors and profile_sectors.size > 0 %}
       <div class="sector-tags">
-        {% for victim in profile_targeted_victims %}
-        <span class="sector-tag">{{ victim }}</span>
+        {% for sector in profile_sectors %}
+        <span class="sector-tag">{{ sector }}</span>
         {% endfor %}
       </div>
-    </section>
+      {% endif %}
+      
+      {% if profile_first_seen and profile_last_activity %}
+      <div class="activity-timeline">
+        <span class="year">{{ profile_first_seen }}</span>
+        <div class="timeline-bar"></div>
+        <span class="year">{{ profile_last_activity }}</span>
+      </div>
+      {% endif %}
+
+      {% if profile_targeted_victims or profile_operations %}
+      <div class="profile-metadata-grid">
+        {% if profile_targeted_victims and profile_targeted_victims.size > 0 %}
+        <section class="profile-metadata-card">
+          <h2>Targeted Victims</h2>
+          <div class="sector-tags">
+            {% for victim in profile_targeted_victims %}
+            <span class="sector-tag">{{ victim }}</span>
+            {% endfor %}
+          </div>
+        </section>
+        {% endif %}
+
+        {% if profile_operations and profile_operations.size > 0 %}
+        <section class="profile-metadata-card">
+          <h2>Associated Operations</h2>
+          <div class="sector-tags">
+            {% for operation in profile_operations %}
+            <span class="sector-tag">{{ operation }}</span>
+            {% endfor %}
+          </div>
+        </section>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="content">
+      {{ content }}
+    </div>
+
+    {% if profile_analyst_notes %}
+    <aside class="analyst-notes-panel">
+      <h2>Analyst Notes</h2>
+      {% assign notes_with_newlines = profile_analyst_notes | replace: '\n', 'NEWLINE_PLACEHOLDER' %}
+      {% assign notes_converted = notes_with_newlines | replace: '\\n', 'NEWLINE_PLACEHOLDER' %}
+      {% assign formatted_notes = notes_converted | replace: 'NEWLINE_PLACEHOLDER', '<br>' | replace: '<br><br>', '</p><p>' %}
+      <p>{{ formatted_notes }}</p>
+    </aside>
     {% endif %}
 
-    {% if profile_operations and profile_operations.size > 0 %}
-    <section class="profile-metadata-card">
-      <h2>Associated Operations</h2>
-      <div class="sector-tags">
-        {% for operation in profile_operations %}
-        <span class="sector-tag">{{ operation }}</span>
-        {% endfor %}
-      </div>
-    </section>
+    {% if profile_source_attribution or profile_source_record_url or profile_source_name %}
+    <aside class="source-attribution-panel">
+      <h2>Source Attribution</h2>
+      {% if profile_source_name %}
+      <p><strong>Structured source:</strong> {{ profile_source_name }}</p>
+      {% endif %}
+      {% if profile_source_attribution %}
+      <p>{{ profile_source_attribution }}</p>
+      {% endif %}
+      {% if profile_url %}
+      <p><a href="{{ profile_url }}">View ATT&CK group profile</a></p>
+      {% endif %}
+      {% if profile_source_record_url %}
+      <p><a href="{{ profile_source_record_url }}">View upstream source record</a></p>
+      {% endif %}
+    </aside>
     {% endif %}
   </div>
-  {% endif %}
+
+  <!-- Sidebar -->
+  <aside class="actor-sidebar">
+    <div class="sidebar-section">
+      <h3>🔍 Quick Filters</h3>
+      
+      <h4>Top Countries</h4>
+      <ul class="sidebar-list">
+        {% for item in site.data.generated.facets.country_counts limit: 5 %}
+        <li><a href="/?country={{ item[0] | uri_escape }}">{{ item[0] }}</a> <span class="count">{{ item[1] }}</span></li>
+        {% endfor %}
+      </ul>
+      
+      <h4>Risk Distribution</h4>
+      <div class="risk-bars">
+        {% for level in site.data.generated.facets.risk_counts %}
+        <div class="risk-bar-item">
+          <span class="risk-label">{{ level[0] }}</span>
+          <div class="risk-bar">
+            <div class="risk-bar-fill risk-{{ level[0] | downcase }}" style="width: {% if site.data.generated.facets.counts.threat_actors > 0 %}{{ level[1] | times: 100.0 | divided_by: site.data.generated.facets.counts.threat_actors }}{% else %}0{% endif %}%"></div>
+          </div>
+          <span class="risk-count">{{ level[1] }}</span>
+        </div>
+        {% endfor %}
+      </div>
+      
+      <h4>Top Malware</h4>
+      <ul class="sidebar-list">
+        {% for item in site.data.generated.facets.malware_counts limit: 5 %}
+        <li><span class="malware-name">{{ item[0] }}</span> <span class="count">{{ item[1] }}</span></li>
+        {% endfor %}
+      </ul>
+    </div>
+    
+    <div class="sidebar-section">
+      <h3>📊 Stats</h3>
+      <div class="sidebar-stats">
+        <div class="sidebar-stat">
+          <span class="stat-number">{{ site.data.generated.facets.counts.threat_actors }}</span>
+          <span class="stat-label">Total Actors</span>
+        </div>
+      </div>
+    </div>
+  </aside>
 </div>
-
-<div class="content">
-  {{ content }}
-</div>
-
-{% if profile_analyst_notes %}
-<aside class="analyst-notes-panel">
-  <h2>Analyst Notes</h2>
-  {% assign notes_with_newlines = profile_analyst_notes | replace: '\n', 'NEWLINE_PLACEHOLDER' %}
-  {% assign notes_converted = notes_with_newlines | replace: '\\n', 'NEWLINE_PLACEHOLDER' %}
-  {% assign formatted_notes = notes_converted | replace: 'NEWLINE_PLACEHOLDER', '<br>' | replace: '<br><br>', '</p><p>' %}
-  <p>{{ formatted_notes }}</p>
-</aside>
-{% endif %}
-
-{% if profile_source_attribution or profile_source_record_url or profile_source_name %}
-<aside class="source-attribution-panel">
-  <h2>Source Attribution</h2>
-  {% if profile_source_name %}
-  <p><strong>Structured source:</strong> {{ profile_source_name }}</p>
-  {% endif %}
-  {% if profile_source_attribution %}
-  <p>{{ profile_source_attribution }}</p>
-  {% endif %}
-  {% if profile_url %}
-  <p><a href="{{ profile_url }}">View ATT&CK group profile</a></p>
-  {% endif %}
-  {% if profile_source_record_url %}
-  <p><a href="{{ profile_source_record_url }}">View upstream source record</a></p>
-  {% endif %}
-</aside>
-{% endif %}
