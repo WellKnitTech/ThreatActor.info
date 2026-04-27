@@ -1,13 +1,21 @@
-name: "Nightspire"
-description: "Nightspire is an active extortion or ransomware group tracked by RansomLook."
+---
+name: Nightspire
+description: Nightspire is an active extortion or ransomware group tracked by RansomLook.
 url: "/nightspire"
-source_name: "RansomLook"
-source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
-source_record_url: "https://www.ransomlook.io/group/nightspire"
-source_license: "CC BY 4.0"
-source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+source_name: RansomLook
+source_attribution: 'Contains data derived from RansomLook, used under CC BY 4.0.
+  Source: https://www.ransomlook.io/'
+source_record_url: https://www.ransomlook.io/group/nightspire
+source_license: CC BY 4.0
+source_license_url: https://creativecommons.org/licenses/by/4.0/
 provenance:
-  source_dataset_url: "https://www.ransomlook.io/api/groups"
-  source_record_id: "nightspire"
-  source_retrieved_at: "2026-04-26T02:09:00Z"
-  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]
+  source_dataset_url: https://www.ransomlook.io/api/groups
+  source_record_id: nightspire
+  source_retrieved_at: '2026-04-26T02:09:00Z'
+  source_transforms:
+  - normalized-name
+  - deduplicated-aliases
+  - omitted-volatile-iocs
+  - adapted-for-threatactor-info
+aliases:
+- Nightspire

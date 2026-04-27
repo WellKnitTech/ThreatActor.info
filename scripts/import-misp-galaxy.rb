@@ -472,10 +472,15 @@ risk_level = if confidence >= 70
 
   # Show plan (preview)
   def show_plan(candidates, _existing_actors)
+    # Filter out actors with empty descriptions
+    valid_candidates = candidates.reject { |c| c[:description].to_s.strip.empty? }
+    skipped = candidates.length - valid_candidates.length
+    
     puts "\n=== Import Plan ==="
     puts "Total: #{candidates.length} (#{candidates.count { |c| c[:is_new] }} new, #{candidates.count { |c| !c[:is_new] }} updates)"
+    puts "Skipped (empty description): #{skipped}" if skipped > 0
 
-    candidates.each do |c|
+    valid_candidates.each do |c|
       action = c[:is_new] ? 'CREATE' : 'UPDATE'
       puts "\n#{action}: #{c[:name]}"
       puts "  URL: #{c[:url]}"
@@ -492,8 +497,18 @@ risk_level = if confidence >= 70
   def apply_import(candidates, existing_actors)
     puts "\nApplying import..."
 
+    # Filter out candidates with no description (MISP entries without meaningful data)
+    candidates_to_import = candidates.reject do |c|
+      c[:description].to_s.strip.empty?
+    end
+    
+    if candidates_to_import.length < candidates.length
+      skipped = candidates.length - candidates_to_import.length
+      puts "Skipped #{skipped} actors with empty descriptions"
+    end
+
     # Process each candidate
-    candidates.each do |c|
+    candidates_to_import.each do |c|
       if c[:is_new]
         create_new_actor(c, existing_actors)
       else
@@ -504,7 +519,7 @@ risk_level = if confidence >= 70
     # Save updated YAML
     save_existing_actors(existing_actors)
 
-    puts "\nImport complete: #{candidates.length} actors processed"
+    puts "\nImport complete: #{candidates_to_import.length} actors processed"
   end
 
 # Create new actor entry

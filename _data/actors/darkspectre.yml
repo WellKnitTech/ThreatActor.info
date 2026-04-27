@@ -1,8 +1,12 @@
-name: "DarkSpectre"
-aliases: ["DarkSpectre"]
+---
+name: DarkSpectre
+aliases:
+- DarkSpectre
 url: "/darkspectre"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "61ebbff4-6727-43e9-a505-5510af4fdd68"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 61ebbff4-6727-43e9-a505-5510af4fdd68
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+description: DarkSpectre is a threat actor tracked by MISP Galaxy. Additional information
+  pending cataloguing.

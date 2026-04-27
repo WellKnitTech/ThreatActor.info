@@ -1,13 +1,27 @@
-name: "APT4"
-aliases: ["PLA Navy","MAVERICK PANDA","BRONZE EDISON","SODIUM","Salmon Typhoon","APT4"]
+---
+name: APT4
+aliases:
+- PLA Navy
+- MAVERICK PANDA
+- BRONZE EDISON
+- SODIUM
+- Salmon Typhoon
+- APT4
 url: "/apt4"
-country: "China"
-sector_focus: ["Private sector","Military"]
-targeted_victims: ["United States","United Kingdom","Hong Kong"]
-incident_type: "Espionage"
-risk_level: "High"
+country: China
+sector_focus:
+- Private sector
+- Military
+targeted_victims:
+- United States
+- United Kingdom
+- Hong Kong
+incident_type: Espionage
+risk_level: High
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "8e28dbee-4e9e-4491-9a6c-ee9c9ec4b28b"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 8e28dbee-4e9e-4491-9a6c-ee9c9ec4b28b
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+description: APT4 is a threat actor tracked by MISP Galaxy. Additional information
+  pending cataloguing.

@@ -166,6 +166,14 @@ class ContentValidator
       add_error(file_path, "Missing required field: #{field}") unless actor.key?(field)
     end
 
+    # Check for empty required fields (importer artifacts)
+    if actor['aliases'].is_a?(Array) && actor['aliases'].empty?
+      add_error(file_path, "Missing required field: aliases (empty array)")
+    end
+    if actor['description'].is_a?(String) && actor['description'].strip.empty?
+      add_error(file_path, "Missing required field: description (empty string)")
+    end
+
     validate_field_types(actor, file_path)
     validate_field_values(actor, file_path)
   end

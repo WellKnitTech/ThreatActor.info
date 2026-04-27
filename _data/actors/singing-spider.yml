@@ -1,8 +1,12 @@
-name: "SINGING SPIDER"
-aliases: ["SINGING SPIDER"]
+---
+name: SINGING SPIDER
+aliases:
+- SINGING SPIDER
 url: "/singing-spider"
 provenance:
   misp_galaxy:
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "769bf551-ff39-4f84-b7f2-654a28df1e50"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 769bf551-ff39-4f84-b7f2-654a28df1e50
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+description: SINGING SPIDER is a threat actor tracked by MISP Galaxy. Additional information
+  pending cataloguing.
