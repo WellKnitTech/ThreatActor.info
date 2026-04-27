@@ -35,8 +35,38 @@
     {{ content }}
   </main>
   <footer>
-    <p>&copy; {{ "now" | date: "%Y" }} {{ site.title }}</p>
-  </footer>
+  <div class="footer-content">
+    <div class="footer-section">
+      <h3>Resources</h3>
+      <ul>
+        <li><a href="/api/">API Docs</a></li>
+        <li><a href="https://github.com/WellKnitTech/ThreatActor.info">GitHub</a></li>
+        <li><a href="/docs/schema.html">Data Schema</a></li>
+        <li><a href="/docs/importers.html">Importers</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Data Sources</h3>
+      <ul>
+        <li><a href="https://attack.mitre.org/">MITRE ATT&CK</a></li>
+        <li><a href="https://github.com/MISP/misp-galaxy">MISP Galaxy</a></li>
+        <li><a href="https://www.cisa.gov/KEV">CISA KEV</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Contribute</h3>
+      <ul>
+        <li><a href="https://github.com/WellKnitTech/ThreatActor.info/issues/new?template=new_actor.md">Report New Actor</a></li>
+        <li><a href="https://github.com/WellKnitTech/ThreatActor.info">Submit PR</a></li>
+      </ul>
+    </div>
+    <div class="footer-section disclaimer">
+      <h3>⚠️ Disclaimer</h3>
+      <p>This site is for <strong>educational and research purposes only</strong>. Information is based on publicly available sources and should not be considered official threat intelligence. Verify independently before use.</p>
+    </div>
+  </div>
+  <p class="footer-bottom">&copy; {{ "now" | date: "%Y" }} {{ site.title }} — Licensed under <a href="/LICENSE">The Unlicense</a></p>
+</footer>
   <script>
     (function() {
       const toggleBtn = document.getElementById('theme-toggle');

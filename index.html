@@ -3,7 +3,178 @@ layout: default
 title: Home
 ---
 
-<h2>Welcome to Threat Actor Info</h2>
-<p>This is an attempt to build a wiki on known threat actors. Use the search bar below to find specific threat actors.</p>
+<div class="homepage">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>🔍 Threat Actor Database</h1>
+      <p class="hero-subtitle">Comprehensive threat intelligence on 1,000+ APT groups, ransomware operations, and cybercriminal organizations.</p>
+      
+      <!-- Quick Search (prominent) -->
+      <div class="quick-search">
+        <input type="text" id="quick-search-input" placeholder="Search actors, malware, campaigns...">
+        <button id="quick-search-btn">Search</button>
+      </div>
+      
+      <!-- Quick Stats -->
+      <div class="quick-stats">
+        <div class="stat">
+          <span class="stat-number">{{ site.data.generated.facets.counts.threat_actors | default: "1,062" }}</span>
+          <span class="stat-label">Threat Actors</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">{{ site.data.generated.facets.countries.size | default: "27" }}</span>
+          <span class="stat-label">Countries</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">{{ site.data.generated.facets.risk_levels.size | default: "4" }}</span>
+          <span class="stat-label">Risk Levels</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-{% include search.html %}
+  <!-- Quick Filters (prominent) -->
+  <section class="quick-filters">
+    <h2>Quick Filters</h2>
+    <div class="filter-chips">
+      <div class="filter-group">
+        <label>Country:</label>
+        <select id="home-country-filter">
+          <option value="">All Countries</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>Risk:</label>
+        <select id="home-risk-filter">
+          <option value="">All Risk Levels</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>Sector:</label>
+        <select id="home-sector-filter">
+          <option value="">All Sectors</option>
+        </select>
+      </div>
+      <button id="apply-filters-btn">Apply Filters</button>
+      <button id="clear-filters-btn" class="secondary">Clear</button>
+    </div>
+  </section>
+
+  <!-- Actor Cards Grid -->
+  <section class="actors-section">
+    <div class="section-header">
+      <h2>Threat Actors</h2>
+      <span class="actor-count" id="actor-count"></span>
+    </div>
+    <div class="actors-grid" id="actors-grid">
+      <!-- Cards loaded via JS -->
+    </div>
+    <div class="load-more-container">
+      <button id="load-more-btn" class="load-more-btn">Load More</button>
+    </div>
+  </section>
+</div>
+
+<script>
+  const ITEMS_PER_PAGE = 24;
+  let allActors = [];
+  let displayedCount = ITEMS_PER_PAGE;
+
+  // Load actor data
+  Promise.all([
+    fetch('/api/threat-actors.json').then(r => r.json()),
+    fetch('/api/facets.json').then(r => r.json())
+  ]).then(([actors, facets]) => {
+    allActors = actors;
+    populateFilters(facets);
+    renderActors();
+    setupEventListeners();
+  });
+
+  function populateFilters(facets) {
+    populateSelect('home-country-filter', facets.countries || []);
+    populateSelect('home-risk-filter', facets.risk_levels || []);
+    populateSelect('home-sector-filter', facets.sectors || []);
+  }
+
+  function populateSelect(id, values) {
+    const select = document.getElementById(id);
+    values.forEach(v => {
+      const opt = document.createElement('option');
+      opt.value = v;
+      opt.textContent = v;
+      select.appendChild(opt);
+    });
+  }
+
+  function renderActors() {
+    const grid = document.getElementById('actors-grid');
+    const countEl = document.getElementById('actor-count');
+    const toShow = allActors.slice(0, displayedCount);
+    
+    grid.innerHTML = toShow.map(a => `
+      <div class="actor-card">
+        <h3><a href="${a.url || a.permalink}">${esc(a.name)}</a></h3>
+        <div class="card-meta">
+          ${a.country ? `<span class="country">${esc(a.country)}</span>` : ''}
+          ${a.risk_level ? `<span class="risk risk-${a.risk_level.toLowerCase()}">${esc(a.risk_level)}</span>` : ''}
+        </div>
+        <p class="card-desc">${esc(a.description || '').substring(0, 120)}${(a.description || '').length > 120 ? '...' : ''}</p>
+        ${a.sector_focus?.length ? `<div class="card-sectors">${a.sector_focus.slice(0,3).map(s => `<span class="sector-tag">${esc(s)}</span>`).join('')}</div>` : ''}
+      </div>
+    `).join('');
+    
+    countEl.textContent = `${allActors.length} actors`;
+    
+    // Show/hide load more
+    document.getElementById('load-more-btn').style.display = 
+      displayedCount >= allActors.length ? 'none' : 'block';
+  }
+
+  function filterAndRender() {
+    const country = document.getElementById('home-country-filter').value;
+    const risk = document.getElementById('home-risk-filter').value;
+    const sector = document.getElementById('home-sector-filter').value;
+    const search = document.getElementById('quick-search-input').value.toLowerCase();
+    
+    allActors = allActors.filter(a => {
+      const matchCountry = !country || a.country === country;
+      const matchRisk = !risk || a.risk_level === risk;
+      const matchSector = !sector || (a.sector_focus || []).includes(sector);
+      const matchSearch = !search || 
+        a.name.toLowerCase().includes(search) ||
+        (a.aliases || []).some(alias => alias.toLowerCase().includes(search)) ||
+        (a.description || '').toLowerCase().includes(search);
+      return matchCountry && matchRisk && matchSector && matchSearch;
+    });
+    
+    displayedCount = ITEMS_PER_PAGE;
+    renderActors();
+  }
+
+  function setupEventListeners() {
+    document.getElementById('load-more-btn').onclick = () => {
+      displayedCount += ITEMS_PER_PAGE;
+      renderActors();
+    };
+    
+    document.getElementById('apply-filters-btn').onclick = filterAndRender;
+    document.getElementById('clear-filters-btn').onclick = () => {
+      document.getElementById('home-country-filter').value = '';
+      document.getElementById('home-risk-filter').value = '';
+      document.getElementById('home-sector-filter').value = '';
+      document.getElementById('quick-search-input').value = '';
+      location.reload();
+    };
+    
+    document.getElementById('quick-search-btn').onclick = filterAndRender;
+    document.getElementById('quick-search-input').addEventListener('keypress', e => {
+      if (e.key === 'Enter') filterAndRender();
+    });
+  }
+
+  function esc(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+</script>
