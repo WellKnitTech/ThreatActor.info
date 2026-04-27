@@ -3,6 +3,7 @@
 
 require 'fileutils'
 require 'json'
+require 'set'
 require 'yaml'
 
 module ActorStore
@@ -52,7 +53,7 @@ module ActorStore
 
   def save_all(actors)
     FileUtils.mkdir_p(ACTORS_DIR)
-    clear_existing_shards
+    desired_paths = []
 
     Array(actors)
       .sort_by { |actor| actor['name'].to_s.downcase }
@@ -60,7 +61,36 @@ module ActorStore
       next if actor['url'].to_s.empty?
 
       path = File.join(ACTORS_DIR, "#{slug_for(actor['url'])}.yml")
+      desired_paths << path
+      next if unchanged_actor_file?(path, actor)
+
       File.write(path, serialize_actor(actor))
+    end
+
+    delete_stale_shards(desired_paths)
+  end
+
+  def unchanged_actor_file?(path, actor)
+    return false unless File.exist?(path)
+
+    canonical_actor(safe_load_yaml_file(path)) == canonical_actor(actor)
+  rescue StandardError
+    false
+  end
+
+  def canonical_actor(value)
+    case value
+    when Hash
+      value.each_with_object({}) do |(key, child_value), memo|
+        canonical_value = canonical_actor(child_value)
+        next if blank_value?(canonical_value)
+
+        memo[key.to_s] = canonical_value
+      end.sort.to_h
+    when Array
+      value.map { |entry| canonical_actor(entry) }.reject { |entry| blank_value?(entry) }
+    else
+      value
     end
   end
 
@@ -114,14 +144,91 @@ module ActorStore
       end
       rows
     elsif value.is_a?(Array)
-      ["#{prefix}#{key}: #{value.map(&:to_s).uniq.to_json}"]
+      serialize_array_field(key, value, indent)
     else
       ["#{prefix}#{key}: #{value.to_json}"]
     end
   end
 
-  def clear_existing_shards
+  def serialize_array_field(key, value, indent)
+    prefix = '  ' * indent
+    compact_value = value.reject { |entry| entry.nil? || entry == '' || entry == [] || entry == {} }
+    return [] if compact_value.empty?
+
+    if compact_value.none? { |entry| entry.is_a?(Hash) || entry.is_a?(Array) }
+      return ["#{prefix}#{key}: #{compact_value.map(&:to_s).uniq.to_json}"]
+    end
+
+    rows = ["#{prefix}#{key}:"]
+    compact_value.each do |entry|
+      rows.concat(serialize_array_entry(entry, indent + 1))
+    end
+    rows
+  end
+
+  def serialize_array_entry(entry, indent)
+    prefix = '  ' * indent
+    case entry
+    when Hash
+      serialize_hash_array_entry(entry, indent)
+    when Array
+      ["#{prefix}- #{entry.to_json}"]
+    else
+      ["#{prefix}- #{entry.to_json}"]
+    end
+  end
+
+  def serialize_hash_array_entry(entry, indent)
+    prefix = '  ' * indent
+    normalized = normalize_actor(entry)
+    keys = normalized.keys.sort.reject do |child_key|
+      value = normalized[child_key]
+      value.nil? || value == '' || value == [] || value == {}
+    end
+    return [] if keys.empty?
+
+    rows = []
+    keys.each_with_index do |child_key, index|
+      child_value = normalized[child_key]
+      if child_value.is_a?(Hash) || child_value.is_a?(Array)
+        rows << "#{index.zero? ? "#{prefix}-" : "#{'  ' * (indent + 1)}"} #{child_key}:"
+        rows.concat(serialize_nested_value(child_value, indent + 2))
+      else
+        rows << if index.zero?
+                  "#{prefix}- #{child_key}: #{child_value.to_json}"
+                else
+                  "#{'  ' * (indent + 1)}#{child_key}: #{child_value.to_json}"
+                end
+      end
+    end
+    rows
+  end
+
+  def serialize_nested_value(value, indent)
+    case value
+    when Hash
+      value.keys.sort.flat_map do |child_key|
+        child_value = value[child_key]
+        next [] if child_value.nil? || child_value == '' || child_value == [] || child_value == {}
+
+        serialize_field(child_key.to_s, child_value, indent)
+      end
+    when Array
+      value.flat_map { |entry| serialize_array_entry(entry, indent) }
+    else
+      ["#{'  ' * indent}#{value.to_json}"]
+    end
+  end
+
+  def blank_value?(value)
+    value.nil? || value == '' || value == [] || value == {}
+  end
+
+  def delete_stale_shards(desired_paths)
+    desired = desired_paths.to_set
     Dir.glob(File.join(ACTORS_DIR, '*.yml')).each do |path|
+      next if desired.include?(path)
+
       File.delete(path)
     end
   end

@@ -8,6 +8,7 @@ require 'time'
 require 'yaml'
 
 HIGH_IMPACT_FIELDS = %w[name url description aliases source_name source_attribution source_record_url].freeze
+VOLATILE_FIELDS = %w[source_retrieved_at retrieved_at generated_at].freeze
 
 options = {
   current: '_data/actors',
@@ -48,8 +49,23 @@ def load_actor_collection(path)
   end
 end
 
+def stable_value(value)
+  case value
+  when Hash
+    value.each_with_object({}) do |(key, child_value), memo|
+      next if VOLATILE_FIELDS.include?(key.to_s)
+
+      memo[key.to_s] = stable_value(child_value)
+    end.sort.to_h
+  when Array
+    value.map { |entry| stable_value(entry) }
+  else
+    value
+  end
+end
+
 def canonical_hash(actor)
-  stable = actor.sort.to_h
+  stable = stable_value(actor)
   Digest::SHA256.hexdigest(JSON.generate(stable))
 end
 
@@ -74,7 +90,7 @@ common_urls.each do |url|
 
   updated_urls << url
   changed_fields = (current_actor.keys | previous_actor.keys).select do |field|
-    current_actor[field] != previous_actor[field]
+    stable_value(current_actor[field]) != stable_value(previous_actor[field])
   end
   high_impact = changed_fields & HIGH_IMPACT_FIELDS
   high_impact_changes << { url: url, fields: high_impact } unless high_impact.empty?

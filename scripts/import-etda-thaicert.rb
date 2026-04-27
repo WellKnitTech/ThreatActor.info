@@ -19,7 +19,7 @@ class EtdaThaicertImporter
   DEFAULT_SNAPSHOT_ROOT = 'data/imports/etda-thaicert'.freeze
   DEFAULT_OVERRIDES_FILE = 'data/imports/etda-thaicert/mapping_overrides.yml'.freeze
   SOURCE_NAME = 'ETDA / ThaiCERT Threat Group Cards'.freeze
-  SOURCE_URL = 'https://apt.etda.or.th/cgi-bin/getcard.cgi?g=all&j=1'.freeze
+  SOURCE_URL = 'https://apt.etda.or.th/cgi-bin/getcard.cgi?g=all&o=j'.freeze
   SOURCE_MIRROR_URL = 'https://huggingface.co/datasets/threatactor-info/etda-thaicert-threat-groups/raw/main/groups.json'.freeze
   SOURCE_REPOSITORY = 'https://apt.etda.or.th/'.freeze
   SOURCE_ATTRIBUTION = 'Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment.'.freeze
@@ -130,8 +130,7 @@ class EtdaThaicertImporter
 
   def fetch_snapshot
     FileUtils.mkdir_p(@options[:output])
-    payload, used_url = fetch_source_payload
-    records = normalize_source_payload(payload)
+    records, used_url = fetch_source_records
     records = records.first(@options[:limit]) if @options[:limit]
 
     groups_path = File.join(@options[:output], 'groups.json')
@@ -151,12 +150,15 @@ class EtdaThaicertImporter
     puts "Fetched #{records.length} ETDA/ThaiCERT records into #{@options[:output]}"
   end
 
-  def fetch_source_payload
+  def fetch_source_records
     [@options[:source_url], @options[:mirror_url]].uniq.each do |url|
       next if sanitize_text(url).empty?
 
       payload = http_get(url)
-      return [payload, url]
+      records = normalize_source_payload(payload)
+      raise 'no records found in response' if records.empty?
+
+      return [records, url]
     rescue StandardError => e
       warn "Fetch failed for #{url}: #{e.message}"
     end
@@ -500,7 +502,7 @@ class EtdaThaicertImporter
     records = if payload.is_a?(Array)
                 payload
               elsif payload.is_a?(Hash)
-                payload['data'] || payload['groups'] || payload['cards'] || payload['results'] || payload['value'] || payload.values.find { |v| v.is_a?(Array) } || []
+                payload['data'] || payload['groups'] || payload['cards'] || payload['results'] || payload['values'] || payload['value'] || payload.values.find { |v| v.is_a?(Array) } || []
               else
                 []
               end
@@ -509,6 +511,13 @@ class EtdaThaicertImporter
 
   def normalize_record(record)
     return nil unless record.is_a?(Hash)
+
+    if record['display_name'] || record[:display_name]
+      normalized_record = record.each_with_object({}) { |(key, value), memo| memo[key.to_sym] = value }
+      normalized_record[:canonical_key] = normalize_key(normalized_record[:display_name] || normalized_record[:raw_name])
+      normalized_record[:aliases] = Array(normalized_record[:aliases])
+      return normalized_record
+    end
 
     raw_name = first_non_empty(record['name'], record['group_name'], record['group'], record['title'], record['actor'])
     raw_name = first_non_empty(record[:name], record[:group_name], record[:group], record[:title], record[:actor]) if raw_name.nil?
@@ -522,14 +531,14 @@ class EtdaThaicertImporter
     display_name = @overrides[:display_name_overrides][canonical] || raw_name
     aliases = extract_aliases(record, display_name)
     aliases.reject! { |value| @overrides[:alias_drop_list].include?(normalize_key(value)) }
-    country = resolve_country(record, canonical)
+    country = normalize_string_array(resolve_country(record, canonical)).first
 
     source_record_id = first_non_empty(record['id'], record['uuid'], record['group_id'], canonical) || canonical
     source_record_url = first_non_empty(record['url'], record['reference'], record['card_url'])
     description = sanitize_text(first_non_empty(record['description'], record['detail'], record['summary'], record['about']))
     description = "#{display_name} is tracked in ETDA/ThaiCERT threat group card data." if description.empty?
-    first_seen = extract_year(first_non_empty(record['first_seen'], record['firstseen'], record['firstSeen']))
-    last_activity = extract_year(first_non_empty(record['last_activity'], record['lastseen'], record['updated'], record['last_seen']))
+    first_seen = extract_year(first_non_empty(record['first_seen'], record['first-seen'], record['firstseen'], record['firstSeen']))
+    last_activity = extract_year(first_non_empty(record['last_activity'], record['last-card-change'], record['lastseen'], record['updated'], record['last_seen']))
     mitre_group_ids = extract_ids(record, /G\d{4}/i)
     mitre_technique_ids = extract_ids(record, /T\d{4}(?:\.\d{3})?/i)
 
@@ -541,7 +550,7 @@ class EtdaThaicertImporter
       description: description,
       url: "/#{slugify(display_name)}",
       country: country,
-      sector_focus: normalize_string_array(first_non_empty(record['sector_focus'], record['sectors'], record['targeted_sectors'], record['targets'])),
+      sector_focus: normalize_string_array(first_non_empty(record['sector_focus'], record['observed-sectors'], record['sectors'], record['targeted_sectors'], record['targets'])),
       operations: normalize_string_array(first_non_empty(record['operations'], record['campaigns'], record['notable_campaigns'])),
       malware: normalize_string_array(first_non_empty(record['malware'], record['tools'], record['toolset'])),
       first_seen: first_seen,
@@ -567,10 +576,12 @@ class EtdaThaicertImporter
       record['alias'],
       record['other_names'],
       record['synonyms'],
+      record['names'],
       record[:aliases],
       record[:alias],
       record[:other_names],
-      record[:synonyms]
+      record[:synonyms],
+      record[:names]
     ]
     values = sources.flat_map { |value| normalize_string_array(value) }
     values.reject { |value| normalize_key(value) == normalize_key(display_name) }.uniq.sort
@@ -580,7 +591,7 @@ class EtdaThaicertImporter
     override = @overrides[:country_overrides][canonical_key]
     return override unless override.to_s.empty?
 
-    sanitize_text(first_non_empty(record['country'], record['origin_country'], record['state_sponsor'], record[:country], record[:origin_country], record[:state_sponsor]))
+    first_non_empty(record['country'], record['origin_country'], record['state_sponsor'], record[:country], record[:origin_country], record[:state_sponsor])
   end
 
   def extract_ids(record, regex)
@@ -595,7 +606,11 @@ class EtdaThaicertImporter
     when Array
       value.flat_map { |entry| normalize_string_array(entry) }
     when Hash
-      value.values.flat_map { |entry| normalize_string_array(entry) }
+      if value.key?('name') || value.key?(:name)
+        [sanitize_text(value['name'] || value[:name])].reject(&:empty?)
+      else
+        value.values.flat_map { |entry| normalize_string_array(entry) }
+      end
     else
       value.to_s.split(/[,;\n]/).map { |entry| sanitize_text(entry) }.reject(&:empty?)
     end
