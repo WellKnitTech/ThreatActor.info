@@ -1,4 +1,8 @@
-<div class="search-container">
+<div class="search-container advanced-search-container">
+  <div class="advanced-search-header">
+    <p class="section-kicker">Advanced Search</p>
+    <h2>Find threat actors faster</h2>
+  </div>
   <div class="search-input-container">
     <input type="text" id="search-input" placeholder="Search threat actors...">
     <button id="clear-search" style="display: none;">Clear</button>
@@ -112,6 +116,7 @@
           <span class="aliases">${escapeHtml((actor.aliases || []).join(', '))}</span>
           ${actor.country ? `<span class="country">${escapeHtml(actor.country)}</span>` : ''}
           ${actor.risk_level ? `<span class="risk risk-${actor.risk_level.toLowerCase()}">${escapeHtml(actor.risk_level)}</span>` : ''}
+          ${actor.last_updated_date ? `<span class="updated">Updated ${escapeHtml(actor.last_updated_date)}</span>` : ''}
         </div>
         <p class="result-description">${escapeHtml(actor.description || '')}</p>
       </div>

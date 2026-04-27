@@ -146,7 +146,9 @@
     "Transportation systems",
     "Universities"
   ],
-  "ioc_types": [],
+  "ioc_types": [
+
+  ],
   "counts": {
     "threat_actors": 1062,
     "iocs": 0
@@ -158,9 +160,9 @@
     "North Korea": 24,
     "Unknown": 13,
     "Turkey": 7,
-    "Ukraine": 6,
     "Vietnam": 6,
-    "United States": 5,
+    "Ukraine": 6,
+    "Israel": 5,
     "India": 5
   },
   "risk_counts": {
@@ -181,6 +183,116 @@
     "Energy": 20,
     "Finance": 17
   },
+  "recent_updates": [
+    {
+      "name": "Zack Korman",
+      "permalink": "/zack-korman/",
+      "country": "US",
+      "risk_level": "Medium",
+      "description": "Self-proclaimed ethical hacker who publishes detailed breach guides for profit. Operates under the guise of security research while selling access to compromised data on forums. Known for aggressive marketing of his courses.",
+      "last_updated": "2026-04-27T16:22:12Z",
+      "last_updated_date": "2026-04-27"
+    },
+    {
+      "name": "APT28",
+      "permalink": "/apt28/",
+      "country": "Russia",
+      "risk_level": "High",
+      "description": "APT28 is a threat group that has been attributed to Russia's General Staff Main Intelligence Directorate (GRU) 85th Main Special Service Center (GTsSS) military unit 26165.(Citation: NSA/FBI Drovorub August 2020)(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021) This group has been active since at least 2004.(Citation: DOJ GRU Indictment Jul 2018)(Citation: Ars Technica GRU indictment Jul 2018)(Citation: Crowdstrike DNC June 2016)(Citation: FireEye APT28)(Citation: SecureWorks TG-4127)(Citation: FireEye APT28 January 2017)(Citation: GRIZZLY STEPPE JAR)(Citation: Sofacy DealersChoice)(Citation: Palo Alto Sofacy 06-2018)(Citation: Symantec APT28 Oct 2018)(Citation: ESET Zebrocy May 2019)\n\nAPT28 reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election.(Citation: Crowdstrike DNC June 2016) In 2018, the US indicted five GRU Unit 26165 officers associated with APT28 for cyber operations (including close-access operations) conducted between 2014 and 2018 against the World Anti-Doping Agency (WADA), the US Anti-Doping Agency, a US nuclear facility, the Organization for the Prohibition of Chemical Weapons (OPCW), the Spiez Swiss Chemicals Laboratory, and other organizations.(Citation: US District Court Indictment GRU Oct 2018) Some of these were conducted with the assistance of GRU Unit 74455, which is also referred to as Sandworm Team. ",
+      "last_updated": "2026-04-26T22:14:32Z",
+      "last_updated_date": "2026-04-26"
+    },
+    {
+      "name": "MuddyWater",
+      "permalink": "/apt0069/",
+      "country": "Iran",
+      "risk_level": "High",
+      "description": "MuddyWater is a cyber espionage group assessed to be a subordinate element within Iran's Ministry of Intelligence and Security (MOIS).(Citation: CYBERCOM Iranian Intel Cyber January 2022) Since at least 2017, MuddyWater has targeted a range of government and private organizations across sectors, including telecommunications, local government, defense, and oil and natural gas organizations, in the Middle East, Asia, Africa, Europe, and North America.(Citation: Unit 42 MuddyWater Nov 2017)(Citation: Symantec MuddyWater Dec 2018)(Citation: ClearSky MuddyWater Nov 2018)(Citation: ClearSky MuddyWater June 2019)(Citation: Reaqta MuddyWater November 2017)(Citation: DHS CISA AA22-055A MuddyWater February 2022)(Citation: Talos MuddyWater Jan 2022)",
+      "last_updated": "2026-04-26T22:14:32Z",
+      "last_updated_date": "2026-04-26"
+    },
+    {
+      "name": "Turla",
+      "permalink": "/apt0010/",
+      "country": "Russia",
+      "risk_level": "High",
+      "description": "Turla is a cyber espionage threat group that has been attributed to Russia's Federal Security Service (FSB).  They have compromised victims in over 50 countries since at least 2004, spanning a range of industries including government, embassies, military, education, research and pharmaceutical companies. Turla is known for conducting watering hole and spearphishing campaigns, and leveraging in-house tools and malware, such as Uroburos.(Citation: Kaspersky Turla)(Citation: ESET Gazer Aug 2017)(Citation: CrowdStrike VENOMOUS BEAR)(Citation: ESET Turla Mosquito Jan 2018)(Citation: Joint Cybersecurity Advisory AA23-129A Snake Malware May 2023)",
+      "last_updated": "2026-04-26T22:14:32Z",
+      "last_updated_date": "2026-04-26"
+    },
+    {
+      "name": "Play",
+      "permalink": "/play/",
+      "country": "Unknown",
+      "risk_level": "High",
+      "description": "Play is a ransomware group that has been active since at least 2022 deploying  Playcrypt ransomware against the business, government, critical infrastructure, healthcare, and media sectors in North America, South America, and Europe. Play actors employ a double-extortion model, encrypting systems after exfiltrating data, and are presumed by security researchers to operate as a closed group.(Citation: CISA Play Ransomware Advisory December 2023)(Citation: Trend Micro Ransomware Spotlight Play July 2023)",
+      "last_updated": "2026-04-26T07:05:44Z",
+      "last_updated_date": "2026-04-26"
+    },
+    {
+      "name": "Lazarus Group",
+      "permalink": "/lazarus/",
+      "country": "North Korea",
+      "risk_level": "Critical",
+      "description": "Lazarus Group is a North Korean state-sponsored cyber threat group attributed to the Reconnaissance General Bureau (RGB). (Citation: US-CERT HIDDEN COBRA June 2017) (Citation: Treasury North Korean Cyber Groups September 2019) Lazarus Group has been active since at least 2009 and is reportedly responsible for the November 2014 destructive wiper attack on Sony Pictures Entertainment, identified by Novetta as part of Operation Blockbuster. Malware used by Lazarus Group correlates to other reported campaigns, including Operation Flame, Operation 1Mission, Operation Troy, DarkSeoul, and Ten Days of Rain.(Citation: Novetta Blockbuster)\n\nNorth Korea’s cyber operations have shown a consistent pattern of adaptation, forming and reorganizing units as national priorities shift. These units frequently share personnel, infrastructure, malware, and tradecraft, making it difficult to attribute specific operations with high confidence. Public reporting often uses “Lazarus Group” as an umbrella term for multiple North Korean cyber operators conducting espionage, destructive attacks, and financially motivated campaigns.(Citation: Mandiant DPRK Laz Org Breakdown 2022)(Citation: Mandiant DPRK Groups 2023)(Citation: JPCert Blog Laz Subgroups 2025)\n\n",
+      "last_updated": "2026-04-26T07:05:44Z",
+      "last_updated_date": "2026-04-26"
+    },
+    {
+      "name": "FIN7",
+      "permalink": "/fin7/",
+      "country": "Unknown",
+      "risk_level": "High",
+      "description": "FIN7 is a financially-motivated threat group that has been active since 2013. FIN7 has targeted the retail, restaurant, hospitality, software, consulting, financial services, medical equipment, cloud services, media, food and beverage, transportation, pharmaceutical, and utilities industries in the United States. A portion of FIN7 was operated out of a front company called Combi Security and often used point-of-sale malware for targeting efforts. Since 2020, FIN7 shifted operations to big game hunting (BGH), including use of REvil ransomware and their own Ransomware-as-a-Service (RaaS), Darkside. FIN7 may be linked to the Carbanak Group, but multiple threat groups have been observed using Carbanak, leading these groups to be tracked separately.(Citation: FireEye FIN7 March 2017)(Citation: FireEye FIN7 April 2017)(Citation: FireEye CARBANAK June 2017)(Citation: FireEye FIN7 Aug 2018)(Citation: CrowdStrike Carbon Spider August 2021)(Citation: Mandiant FIN7 Apr 2022)(Citation: BiZone Lizar May 2021)",
+      "last_updated": "2026-04-26T07:05:44Z",
+      "last_updated_date": "2026-04-26"
+    },
+    {
+      "name": "APT41",
+      "permalink": "/apt41/",
+      "country": "China",
+      "risk_level": "High",
+      "description": "APT41 is a threat group that researchers have assessed as Chinese state-sponsored espionage group that also conducts financially-motivated operations. Active since at least 2012, APT41 has been observed targeting various industries, including but not limited to healthcare, telecom, technology, finance, education, retail and video game industries in 14 countries.(Citation: apt41_mandiant) Notable behaviors include using a wide range of malware and tools to complete mission objectives. APT41 overlaps at least partially with public reporting on groups including BARIUM and Winnti Group.(Citation: FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021)\n",
+      "last_updated": "2026-04-26T07:05:44Z",
+      "last_updated_date": "2026-04-26"
+    },
+    {
+      "name": "APT40",
+      "permalink": "/apt40/",
+      "country": "China",
+      "risk_level": "High",
+      "description": "Leviathan is a Chinese state-sponsored cyber espionage group that has been attributed to the Ministry of State Security's (MSS) Hainan State Security Department and an affiliated front company.(Citation: CISA AA21-200A APT40 July 2021) Active since at least 2009, Leviathan has targeted the following sectors: academia, aerospace/aviation, biomedical, defense industrial base, government, healthcare, manufacturing, maritime, and transportation across the US, Canada, Australia, Europe, the Middle East, and Southeast Asia.(Citation: CISA AA21-200A APT40 July 2021)(Citation: Proofpoint Leviathan Oct 2017)(Citation: FireEye Periscope March 2018)(Citation: CISA Leviathan 2024)",
+      "last_updated": "2026-04-26T07:05:44Z",
+      "last_updated_date": "2026-04-26"
+    },
+    {
+      "name": "APT32",
+      "permalink": "/apt32/",
+      "country": "Vietnam",
+      "risk_level": "High",
+      "description": "APT32 is a suspected Vietnam-based threat group that has been active since at least 2014. The group has targeted multiple private sector industries as well as foreign governments, dissidents, and journalists with a strong focus on Southeast Asian countries like Vietnam, the Philippines, Laos, and Cambodia. They have extensively used strategic web compromises to compromise victims.(Citation: FireEye APT32 May 2017)(Citation: Volexity OceanLotus Nov 2017)(Citation: ESET OceanLotus)",
+      "last_updated": "2026-04-26T07:05:44Z",
+      "last_updated_date": "2026-04-26"
+    },
+    {
+      "name": "Storm-0501",
+      "permalink": "/apt1053/",
+      "country": null,
+      "risk_level": null,
+      "description": "Storm-0501 is a financially motivated cyber criminal group that uses commodity and open-source tools to conduct ransomware operations. Storm-0501 has been active since 2021 and has previously been affiliated with Sabbath Ransomware and other Ransomware-as-a-Service (RaaS) variants such as Hive, BlackCat, Hunters International, LockBit 3.0, and Embargo ransomware.(Citation: Avertium Storm-0501 Sabbath Ransomware Arcane January 2022)(Citation: Microsoft Storm-501 Sabbath Ransomware Embargo September 2024)(Citation: Microsoft Storm-0501 Embargo Ransomware August 2025)(Citation: Google Mandiant Storm-0501 Sabbath Ransomware November 2021)",
+      "last_updated": "2026-04-26T07:05:44Z",
+      "last_updated_date": "2026-04-26"
+    },
+    {
+      "name": "Medusa Group",
+      "permalink": "/apt1051/",
+      "country": null,
+      "risk_level": null,
+      "description": "Medusa Group has been active since at least 2021 and was initially operated as a closed ransomware group before evolving into a Ransomware-as-a-Service (RaaS) operation. Some reporting indicates that certain attacks may still be conducted directly by the ransomware’s core developers. Public sources have also referred to the group as “Spearwing” or “Medusa Actors.” (Citation: CISA Medusa Group Medusa Ransomware March 2025) (Citation: Broadcom Medusa Ransomware Medusa Group March 2025) Medusa Group employs living-off-the-land techniques, frequently leveraging publicly available tools and common remote management software to conduct operations. The group engages in double extortion tactics, exfiltrating data prior to encryption and threatening to publish stolen information if ransom demands are not met. (Citation: Security Scorecard Medusa Ransomware January 2024) For initial access, Medusa Group has exploited publicly known vulnerabilities, conducted phishing campaigns, and used credentials or access purchased from Initial Access Brokers (IABs). The group is opportunistic and has targeted a wide range of sectors globally. (Citation: Intel471 Medusa Ransomware May 2025)",
+      "last_updated": "2026-04-26T07:05:44Z",
+      "last_updated_date": "2026-04-26"
+    }
+  ],
   "malware_counts": {
     "CyberGate": 227,
     "Cyber Eye RAT": 226,
@@ -189,8 +301,8 @@
     "China Chopper": 92,
     "Archelaus Beta": 71,
     "RemoteCMD": 70,
-    "CrossRat": 67,
     "Remote Utilities": 67,
+    "CrossRat": 67,
     "RemotePC": 66
   }
 }

@@ -4,6 +4,7 @@ require 'json'
 require 'yaml'
 require 'fileutils'
 require 'set'
+require 'time'
 require_relative 'actor_store'
 
 class ThreatActorIndexGenerator
@@ -23,6 +24,7 @@ class ThreatActorIndexGenerator
   FILENAME_PATTERN = /\b[\w.-]+\.[A-Za-z0-9]{2,12}\b/.freeze
   CVE_PATTERN = /\bCVE-\d{4}-\d{4,7}\b/i.freeze
   ATTACK_TECHNIQUE_PATTERN = /\bT\d{4}(?:\.\d{3})?\b/i.freeze
+  UPDATE_TIMESTAMP_KEYS = %w[last_updated updated_at source_retrieved_at last_imported].freeze
 
   def initialize
     @actors = load_actors
@@ -193,6 +195,7 @@ class ThreatActorIndexGenerator
 
   def build_actor_document(actor, page, actor_iocs, body, campaigns, malware_entries, attack_mappings, references)
     front_matter = page[:front_matter]
+    last_update = latest_update_timestamp(actor, front_matter)
 
     {
       name: actor['name'],
@@ -211,6 +214,8 @@ class ThreatActorIndexGenerator
       source_license: actor['source_license'] || front_matter['source_license'],
       source_license_url: actor['source_license_url'] || front_matter['source_license_url'],
       provenance: actor['provenance'] || {},
+      last_updated: last_update&.iso8601,
+      last_updated_date: last_update&.strftime('%Y-%m-%d'),
       page_path: page[:path],
       headings: extract_h2_headings(body),
       ioc_count: actor_iocs.length,
@@ -254,7 +259,8 @@ class ThreatActorIndexGenerator
       # Precomputed counts for sidebar
       country_counts: country_counts,
       risk_counts: risk_counts,
-      sector_counts: sector_counts
+      sector_counts: sector_counts,
+      recent_updates: build_recent_updates(actors)
     }
   end
   
@@ -265,6 +271,51 @@ class ThreatActorIndexGenerator
     end.sort_by { |_, count| -count }.first(10).to_h
     
     malware_counts
+  end
+
+  def build_recent_updates(actors)
+    actors
+      .select { |actor| actor[:last_updated] }
+      .sort_by { |actor| actor[:last_updated] }
+      .reverse
+      .first(12)
+      .map do |actor|
+        {
+          name: actor[:name],
+          permalink: actor[:permalink],
+          country: actor[:country],
+          risk_level: actor[:risk_level],
+          description: actor[:description],
+          last_updated: actor[:last_updated],
+          last_updated_date: actor[:last_updated_date]
+        }
+      end
+  end
+
+  def latest_update_timestamp(*sources)
+    update_timestamp_candidates(sources).compact.max
+  end
+
+  def update_timestamp_candidates(value)
+    case value
+    when Hash
+      value.flat_map do |key, child|
+        timestamp_values = UPDATE_TIMESTAMP_KEYS.include?(key.to_s) ? [parse_update_timestamp(child)] : []
+        timestamp_values.concat(update_timestamp_candidates(child))
+      end
+    when Array
+      value.flat_map { |child| update_timestamp_candidates(child) }
+    else
+      []
+    end
+  end
+
+  def parse_update_timestamp(value)
+    return nil if value.to_s.strip.empty?
+
+    Time.parse(value.to_s).utc
+  rescue ArgumentError
+    nil
   end
 
   def build_ioc_lookup(iocs)

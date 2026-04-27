@@ -34,6 +34,36 @@ title: Home
     </div>
   </section>
 
+  {% assign recent_updates = site.data.generated.facets.recent_updates | default: empty %}
+  {% if recent_updates.size > 0 %}
+  <section class="recent-updates-section" aria-labelledby="recent-updates-heading">
+    <div class="section-header">
+      <div>
+        <h2 id="recent-updates-heading">Recently Updated</h2>
+        <p class="section-kicker">Latest actor profiles refreshed from curated source data.</p>
+      </div>
+      <a class="section-link" href="{{ "/threat-actors" | relative_url }}">Advanced search</a>
+    </div>
+    <div class="recent-updates-carousel" aria-label="Recently updated threat actors">
+      {% for actor in recent_updates limit: 8 %}
+      <article class="recent-update-card">
+        <div class="recent-update-meta">
+          <time datetime="{{ actor.last_updated_date }}">{{ actor.last_updated_date }}</time>
+          {% if actor.risk_level %}
+          <span class="risk risk-{{ actor.risk_level | downcase }}">{{ actor.risk_level }}</span>
+          {% endif %}
+        </div>
+        <h3><a href="{{ actor.permalink | relative_url }}">{{ actor.name }}</a></h3>
+        {% if actor.country %}
+        <p class="recent-update-country">{{ actor.country }}</p>
+        {% endif %}
+        <p>{{ actor.description | truncate: 130 }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
   <!-- Quick Filters (prominent) -->
   <section class="quick-filters">
     <h2>Quick Filters</h2>
@@ -78,6 +108,7 @@ title: Home
 
 <script>
   const ITEMS_PER_PAGE = 24;
+  let originalActors = [];
   let allActors = [];
   let displayedCount = ITEMS_PER_PAGE;
 
@@ -86,6 +117,7 @@ title: Home
     fetch('/api/threat-actors.json').then(r => r.json()),
     fetch('/api/facets.json').then(r => r.json())
   ]).then(([actors, facets]) => {
+    originalActors = actors;
     allActors = actors;
     populateFilters(facets);
     renderActors();
@@ -115,10 +147,11 @@ title: Home
     
     grid.innerHTML = toShow.map(a => `
       <div class="actor-card">
-        <h3><a href="${a.url || a.permalink}">${esc(a.name)}</a></h3>
+        <h3><a href="${a.permalink || a.url}">${esc(a.name)}</a></h3>
         <div class="card-meta">
           ${a.country ? `<span class="country">${esc(a.country)}</span>` : ''}
           ${a.risk_level ? `<span class="risk risk-${a.risk_level.toLowerCase()}">${esc(a.risk_level)}</span>` : ''}
+          ${a.last_updated_date ? `<span class="updated">Updated ${esc(a.last_updated_date)}</span>` : ''}
         </div>
         <p class="card-desc">${esc(a.description || '').substring(0, 120)}${(a.description || '').length > 120 ? '...' : ''}</p>
         ${a.sector_focus?.length ? `<div class="card-sectors">${a.sector_focus.slice(0,3).map(s => `<span class="sector-tag">${esc(s)}</span>`).join('')}</div>` : ''}
@@ -138,7 +171,7 @@ title: Home
     const sector = document.getElementById('home-sector-filter').value;
     const search = document.getElementById('quick-search-input').value.toLowerCase();
     
-    allActors = allActors.filter(a => {
+    allActors = originalActors.filter(a => {
       const matchCountry = !country || a.country === country;
       const matchRisk = !risk || a.risk_level === risk;
       const matchSector = !sector || (a.sector_focus || []).includes(sector);
@@ -165,7 +198,9 @@ title: Home
       document.getElementById('home-risk-filter').value = '';
       document.getElementById('home-sector-filter').value = '';
       document.getElementById('quick-search-input').value = '';
-      location.reload();
+      allActors = originalActors;
+      displayedCount = ITEMS_PER_PAGE;
+      renderActors();
     };
     
     document.getElementById('quick-search-btn').onclick = filterAndRender;

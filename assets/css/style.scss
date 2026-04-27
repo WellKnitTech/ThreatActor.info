@@ -478,20 +478,30 @@ a:hover {
   overflow-x: auto;
 }
 
+.ioc-item {
+  position: relative;
+  padding-right: 0.5rem;
+}
+
+.ioc-type-icon {
+  display: inline-block;
+  margin-right: 0.35rem;
+}
+
 .ioc-block code {
   color: var(--accent);
   background: transparent;
   padding: 0;
 }
 
-.ioc-block {
-  position: relative;
+.ioc-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.75rem 0 1rem;
 }
 
 .ioc-copy-btn {
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
   color: var(--text-secondary);
@@ -500,18 +510,26 @@ a:hover {
   font-size: 0.8rem;
   cursor: pointer;
   transition: all 0.2s ease;
-  opacity: 0.7;
+}
+
+.ioc-copy-btn-inline {
+  margin-left: 0.5rem;
+  padding: 0.2rem 0.45rem;
+  font-size: 0.72rem;
 }
 
 .ioc-copy-btn:hover {
   background: var(--accent);
   color: white;
-  opacity: 1;
 }
 
 .ioc-copy-btn.copied {
   background: var(--risk-low);
   color: white;
+}
+
+.content .ioc-item code a {
+  color: var(--accent);
 }
 
 .ioc-block ul {
@@ -522,20 +540,6 @@ a:hover {
 .ioc-block li {
   margin-bottom: 0.5rem;
   word-break: break-all;
-}
-
-// IOC Copy button styling
-.ioc-copy-btn {
-  cursor: pointer;
-  margin-left: 6px;
-  font-size: 12px;
-  opacity: 0.6;
-  vertical-align: middle;
-  transition: opacity 0.2s;
-}
-
-.ioc-copy-btn:hover {
-  opacity: 1;
 }
 
 /* IOC Type Icons */
@@ -688,6 +692,36 @@ a:hover {
   border: 1px solid var(--border-color);
 }
 
+.page-intro {
+  color: var(--text-secondary);
+  margin: -0.5rem 0 1.5rem;
+}
+
+.advanced-search-container {
+  border: 2px solid var(--accent);
+  box-shadow: 0 8px 28px rgba(38, 139, 210, 0.12);
+}
+
+.advanced-search-header {
+  margin-bottom: 1rem;
+}
+
+.advanced-search-header h2 {
+  margin: 0;
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+.section-kicker {
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin: 0 0 0.2rem;
+  text-transform: uppercase;
+}
+
 .search-input-container {
   position: relative;
   margin-bottom: 1.5rem;
@@ -732,6 +766,17 @@ a:hover {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
   margin-bottom: 2rem;
+}
+
+.advanced-search-container .search-filters {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+  padding: 1rem;
 }
 
 .filter-group {
@@ -802,6 +847,10 @@ a:hover {
 
 .result-metadata .risk {
   font-weight: bold;
+}
+
+.result-metadata .updated {
+  color: var(--accent);
 }
 
 .result-description {
@@ -902,6 +951,72 @@ a:hover {
 .quick-stats .stat-label {
   color: var(--text-muted);
   font-size: 0.9rem;
+}
+
+.recent-updates-section {
+  margin-bottom: 2rem;
+}
+
+.section-link {
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.recent-updates-carousel {
+  display: grid;
+  grid-auto-columns: minmax(240px, 1fr);
+  grid-auto-flow: column;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 0.75rem;
+  scroll-snap-type: x proximity;
+}
+
+.recent-update-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  min-width: 240px;
+  padding: 1rem;
+  scroll-snap-align: start;
+}
+
+.recent-update-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.recent-update-meta time,
+.recent-update-meta .risk,
+.card-meta .updated {
+  background: var(--bg-tertiary);
+  border-radius: 4px;
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.recent-update-card h3 {
+  border: none;
+  font-size: 1.05rem;
+  margin: 0 0 0.4rem;
+  padding: 0;
+  background: none;
+}
+
+.recent-update-card p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.recent-update-country {
+  color: var(--text-muted) !important;
+  font-size: 0.8rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 /* Quick Filters */
@@ -1342,6 +1457,14 @@ footer {
   
   .actor-sidebar {
     position: static;
+  }
+
+  .advanced-search-container .search-filters {
+    position: static;
+  }
+
+  .recent-updates-carousel {
+    grid-auto-columns: minmax(220px, 86%);
   }
 }
 
