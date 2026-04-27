@@ -45,6 +45,47 @@ Thank you for your interest in contributing to ThreatActor.info! This guide will
    # Visit http://localhost:4000
    ```
 
+---
+
+## ⚡ Add One New Actor (< 2 minutes)
+
+This command adds a new threat actor to `_data/actors/` and generates the page:
+
+```bash
+ruby scripts/actor-creator.rb new --name "Name" --alias "Alias1" --alias "Alias2" --country "Country" --description "Brief description"
+```
+
+**What it does:**
+1. Creates `_data/actors/<url>.yml` with required fields
+2. Generates `_threat_actors/<url>.md` from template
+3. Runs `generate-indexes.rb` to update JSON artifacts
+
+**Example:**
+```bash
+ruby scripts/actor-creator.rb new \
+  --name "Lazarus Group" \
+  --alias "Hidden Cobra" \
+  --alias "Guardians of the Peace" \
+  --alias "Zinc" \
+  --country "KP" \
+  --description "North Korea state-sponsored threat actor" \
+  --risk-level "Critical" \
+  --url "/lazarus-group"
+```
+
+**After running:**
+- Edit `_data/actors/lazarus-group.yml` to add more fields (sector_focus, first_seen, etc.)
+- Edit `_threat_actors/lazarus-group.md` to add detailed content sections
+- Run `ruby scripts/validate-content.rb` to verify
+- Commit and submit PR
+
+---
+
+## 📖 Documentation References
+
+- **[Schema Reference](docs/schema.md)**: YAML fields, types, and validation rules for threat actor data
+- **[Importer Guide](docs/importers.md)**: Source import workflows (MITRE ATT&CK, MISP Galaxy, RansomLook)
+
 ## 📝 Content Contribution Guidelines
 
 ### Adding New Threat Actors
