@@ -10,6 +10,7 @@ class ThreatActorIndexGenerator
   PAGES_GLOB = '_threat_actors/*.md'.freeze
   OUTPUT_DIR = '_data/generated'.freeze
   API_DIR = 'api'.freeze
+  MALWARE_DIR = '_malware'.freeze
   TYPE_SHARDS_DIR = File.join(OUTPUT_DIR, 'iocs_by_type').freeze
   API_TYPE_SHARDS_DIR = File.join(API_DIR, 'iocs', 'by-type').freeze
   REQUIRED_IOC_HEADING = 'Notable Indicators of Compromise (IOCs)'.freeze
@@ -330,44 +331,31 @@ class ThreatActorIndexGenerator
     end
   end
   
-  # Generate malware pages from extracted data
   def write_malware_pages(malware_documents, actor_documents)
-    malware_dir = '_malware'
-    FileUtils.mkdir_p(malware_dir)
+    FileUtils.mkdir_p(MALWARE_DIR)
     
-    # Group malware by name and find associated actors
-    malware_by_name = malware_documents.group_by { |m| m[:name] }
+    malware_by_slug = malware_documents.each_with_object({}) do |document, groups|
+      name = document[:name].to_s.strip
+      next if name.empty?
+
+      slug = slugify(name)
+      next if slug.empty?
+
+      groups[slug] ||= { name: name, entries: [] }
+      groups[slug][:entries] << document
+    end
     
-    malware_by_name.each do |name, entries|
-      # Skip nil names
-      next if name.nil? || name.to_s.strip.empty?
+    actor_lookup = actor_documents.each_with_object({}) do |actor, lookup|
+      lookup[actor[:name]] = actor
+    end
+
+    malware_by_slug.sort.each do |slug, group|
+      name = group[:name]
+      entries = group[:entries]
+      actor_list = build_malware_actor_list(entries, actor_lookup)
       
-      # Generate slug from name
-      slug = name.to_s.downcase.gsub(/[^a-z0-9]+/, '-').gsub(/^-|-$/, '')
-      next if slug.empty?  # Skip if slug is empty
-      
-      # Collect actor references by looking up in actor_documents
-      actor_list = []
-      seen_actors = Set.new
-      entries.each do |entry|
-        actor_name = entry[:actor_name]
-        actor = actor_documents.find { |a| a[:name] == actor_name }
-        next nil if actor.nil?
-        next if seen_actors.include?(actor[:name])
-        seen_actors << actor[:name]
-        
-        actor_list << {
-          'name' => actor[:name],
-          'url' => actor[:permalink],
-          'country' => actor[:country] || nil,
-          'risk_level' => actor[:risk_level] || nil
-        }
-      end
-      
-      # Escape name for YAML
       escaped_name = name.to_s.gsub('"', '""')
       
-      # Build front matter manually to control array format
       lines = []
       lines << "---"
       lines << "layout: malware"
@@ -377,10 +365,10 @@ class ThreatActorIndexGenerator
       lines << "permalink: /malware/#{slug}/"
       lines << "actors:"
       actor_list.each do |a|
-        lines << "  - name: \"#{a[:name].to_s.gsub('"', '""')}\""
-        lines << "    url: \"#{a[:url]}\""
-        lines << "    country: \"#{a[:country]}\"" if a[:country]
-        lines << "    risk_level: \"#{a[:risk_level]}\"" if a[:risk_level]
+        lines << "  - name: \"#{a['name'].to_s.gsub('"', '""')}\""
+        lines << "    url: \"#{a['url']}\""
+        lines << "    country: \"#{a['country']}\"" if a['country']
+        lines << "    risk_level: \"#{a['risk_level']}\"" if a['risk_level']
       end
       lines << "---"
       lines << ""
@@ -391,30 +379,61 @@ class ThreatActorIndexGenerator
       lines << "## Threat Actors"
       lines << ""
       actor_list.each do |a|
-        lines << "- [#{a[:name]}](#{a[:url]})#{a[:country] ? " (#{a[:country]})" : ""}#{a[:risk_level] ? " - #{a[:risk_level]}" : ""}"
+        lines << "- [#{a['name']}](#{a['url']})#{a['country'] ? " (#{a['country']})" : ""}#{a['risk_level'] ? " - #{a['risk_level']}" : ""}"
       end
-      
-      page_file = File.join(malware_dir, "#{slug}.md")
+      page_file = File.join(MALWARE_DIR, "#{slug}.md")
       File.write(page_file, lines.join("\n"))
+
+      data_content = {
+        name: name,
+        slug: slug,
+        category: entries.first[:category],
+        actor_count: actor_list.length,
+        actors: actor_list
+      }
+      File.write(File.join(MALWARE_DIR, "#{slug}.data.json"), JSON.pretty_generate(data_content))
     end
     
-    # Write index of all malware
     index_content = {
-      malware: malware_by_name.keys.sort.map do |name|
-        slug = name.downcase.gsub(/[^a-z0-9]+/, '-').gsub(/^-|-$/, '')
-        entries = malware_by_name[name]
+      malware: malware_by_slug.sort.map do |slug, group|
+        entries = group[:entries]
         {
-          name: name,
+          name: group[:name],
           slug: slug,
           url: "/malware/#{slug}/",
           category: entries.first[:category],
-          actor_count: entries.map { |e| e[:actor_name] }.uniq.length
+          actor_count: build_malware_actor_list(entries, actor_lookup).length
         }
       end
     }
     File.write(File.join(OUTPUT_DIR, 'malware_index.json'), JSON.pretty_generate(index_content))
     
-    puts "Generated #{malware_by_name.length} malware pages in #{malware_dir}"
+    puts "Generated #{malware_by_slug.length} malware pages in #{MALWARE_DIR}"
+  end
+
+  def build_malware_actor_list(entries, actor_lookup)
+    actor_list = []
+    seen_actors = Set.new
+
+    entries.each do |entry|
+      actor = actor_lookup[entry[:actor_name]]
+      next unless actor
+      next if seen_actors.include?(actor[:name])
+
+      seen_actors << actor[:name]
+      actor_list << {
+        'name' => actor[:name],
+        'url' => actor[:permalink],
+        'country' => actor[:country],
+        'risk_level' => actor[:risk_level]
+      }
+    end
+
+    actor_list.sort_by { |actor| actor['name'].downcase }
+  end
+
+  def slugify(value)
+    value.to_s.downcase.gsub(/[^a-z0-9]+/, '-').gsub(/^-|-$/, '')
   end
 
   def clear_existing_shards(directory)

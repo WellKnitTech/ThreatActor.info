@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'json'
+require 'set'
 require 'yaml'
 
 class ContentValidator
@@ -38,6 +39,7 @@ class ContentValidator
     'api/facets.json',
     'api/campaigns.json',
     'api/malware.json',
+    'api/malware_index.json',
     'api/attack-mappings.json',
     'api/references.json',
     'api/ioc-lookup.json',
@@ -61,7 +63,8 @@ class ContentValidator
     '_data/generated/attack_mappings.json',
     '_data/generated/references.json',
     '_data/generated/ioc_lookup.json',
-    '_data/generated/ioc_types.json'
+    '_data/generated/ioc_types.json',
+    '_data/generated/malware_index.json'
   ].freeze
   GENERATED_API_WRAPPERS = {
     'api/threat-actors.json' => 'site.data.generated.threat_actors',
@@ -69,6 +72,7 @@ class ContentValidator
     'api/facets.json' => 'site.data.generated.facets',
     'api/campaigns.json' => 'site.data.generated.campaigns',
     'api/malware.json' => 'site.data.generated.malware',
+    'api/malware_index.json' => 'site.data.generated.malware_index',
     'api/attack-mappings.json' => 'site.data.generated.attack_mappings',
     'api/references.json' => 'site.data.generated.references',
     'api/ioc-lookup.json' => 'site.data.generated.ioc_lookup',
@@ -107,6 +111,7 @@ class ContentValidator
     validate_generated_json
     validate_api_wrapper_bindings
     validate_ioc_shards
+    validate_malware_actor_links
     validate_duplicate_ioc_sections
 
     print_results
@@ -512,7 +517,7 @@ class ContentValidator
     case File.basename(file)
     when 'threat_actors.json', 'iocs.json', 'campaigns.json', 'malware.json', 'attack_mappings.json', 'references.json'
       add_error(file, 'Generated JSON root must be an array') unless payload.is_a?(Array)
-    when 'facets.json', 'ioc_lookup.json', 'ioc_types.json'
+    when 'facets.json', 'ioc_lookup.json', 'ioc_types.json', 'malware_index.json'
       add_error(file, 'Generated JSON root must be an object') unless payload.is_a?(Hash)
     end
   end
@@ -568,6 +573,35 @@ class ContentValidator
       add_error(file, "#{label.capitalize} is not parseable: #{e.message}")
     rescue StandardError => e
       add_error(file, "Unable to read #{label}: #{e.message}")
+    end
+  end
+
+  def validate_malware_actor_links
+    puts 'Validating malware actor links...'
+
+    actor_permalinks = @threat_actors_data.each_with_object(Set.new) do |actor, urls|
+      next unless actor['url'].is_a?(String)
+
+      urls << "#{actor['url'].sub(%r{/\z}, '')}/"
+    end
+
+    Dir.glob('_malware/*.md').sort.each do |file|
+      page = parse_page(file)
+      actors = page[:front_matter]['actors']
+      next unless actors.is_a?(Array)
+
+      actors.each do |actor|
+        name = actor['name'].to_s.strip
+        url = actor['url'].to_s.strip
+
+        add_error(file, 'Malware actor entry has blank name') if name.empty?
+        add_error(file, "Malware actor '#{name}' has blank URL") if url.empty?
+        next if url.empty?
+
+        unless actor_permalinks.include?(url)
+          add_error(file, "Malware actor '#{name}' links to unknown actor URL: #{url}")
+        end
+      end
     end
   end
 
