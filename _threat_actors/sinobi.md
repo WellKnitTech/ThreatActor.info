@@ -4,7 +4,6 @@ title: "Sinobi"
 aliases: ["Sinobi"]
 description: "Sinobi is an active extortion or ransomware group tracked by RansomLook."
 permalink: /sinobi/
-source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 ---
 
 ## Introduction
@@ -20,20 +19,11 @@ Sinobi is an active extortion or ransomware group tracked by RansomLook.
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **Xploit**: 
-- **CrossRat**: 
+- **name**: 
+- **name**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

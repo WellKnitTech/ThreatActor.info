@@ -7,11 +7,7 @@ permalink: /kasablanka/
 ---
 
 ## Introduction
-The Kasablanka group is a cyber-criminal organization that has
-specifically targeted Russia between September and December 2022,
-using various payloads delivered through phishing emails containing
-socially engineered lnk files, zip packages, and executables attached to
-virtual disk image files.
+The Kasablanka group is a cyber-criminal organization that has specifically targeted Russia between September and December 2022, using various payloads delivered through phishing emails containing socially engineered lnk files, zip packages, and executables attached to virtual disk image files.
 
 ## Activities and Tactics
 *Information pending cataloguing.*
@@ -23,20 +19,11 @@ virtual disk image files.
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **CyberGate**: 
-- **Cyber Eye RAT**: 
+- **name**: 
+- **name**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -4,16 +4,17 @@ title: "Worok"
 aliases: ["Worok"]
 description: "Worok is a cyber espionage group, mostly targeting Central Asia. The group toolset includes a C++ loader named CLRLoad, a PowerShell backdoor named PowHeartBeat, and a C# loader named PNGLoad."
 permalink: /worok/
-country: "China"
-risk_level: "High"
-country_flag: "🇨🇳"
-sector_focus: ["Government", "Energy Company"]
 ---
 
 ## Introduction
 Worok is a cyber espionage group, mostly targeting Central Asia. The group toolset includes a C++ loader named CLRLoad, a PowerShell backdoor named PowHeartBeat, and a C# loader named PNGLoad.
 
 ## Activities and Tactics
+**Targeted Sectors**: Government, Energy Company
+**Country of Origin**: 🇨🇳 China
+**Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: East Asia, Central Asia, Southeast Asia, The Middle East, Southern Africa
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -22,28 +23,21 @@ Worok is a cyber espionage group, mostly targeting Central Asia. The group tools
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **Backdoor.Oldrea**: 
-- **PowerDuke**: 
-- **POWERSTATS**: 
-- **Power Loader**: 
-- **POWERSOURCE**: 
-- **CyberGate**: 
-- **Cyber Eye RAT**: 
-- **PowerRAT**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
 
 ## Attribution and Evidence
+**Country of Origin**: China
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

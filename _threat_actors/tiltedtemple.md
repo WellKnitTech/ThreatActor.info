@@ -4,14 +4,13 @@ title: "TiltedTemple"
 aliases: ["DEV-0322", "Circle Typhoon", "TiltedTemple"]
 description: "One of their notable tools is a custom backdoor called SockDetour, which operates filelessly and socketlessly on compromised Windows servers. The group's activities have been linked to the exploitation"
 permalink: /tiltedtemple/
-country: "China"
-country_flag: "🇨🇳"
 ---
 
 ## Introduction
 One of their notable tools is a custom backdoor called SockDetour, which operates filelessly and socketlessly on compromised Windows servers. The group's activities have been linked to the exploitation of vulnerabilities in Zoho ManageEngine ADSelfService Plus and ServiceDesk Plus.
 
 ## Activities and Tactics
+**Country of Origin**: 🇨🇳 China
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -20,25 +19,18 @@ One of their notable tools is a custom backdoor called SockDetour, which operate
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **Backdoor.Oldrea**: 
-- **Windows Remote Desktop**: 
-- **Xploit**: 
-- **Socket23**: 
-- **SocketPlayer**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
 
 ## Attribution and Evidence
+**Country of Origin**: China
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -4,14 +4,13 @@ title: "Operation Red Signature"
 aliases: ["Operation Red Signature"]
 description: "The threat actors compromised the update server of a remote support solutions provider to deliver a remote access tool called 9002 RAT to their targets of interest through the update process. They carr"
 permalink: /operation-red-signature/
-country: "China"
-country_flag: "🇨🇳"
 ---
 
 ## Introduction
 The threat actors compromised the update server of a remote support solutions provider to deliver a remote access tool called 9002 RAT to their targets of interest through the update process. They carried this out by first stealing the company’s certificate then using it to sign the malware. They also configured the update server to only deliver malicious files if the client is located in the range of IP addresses of their target organisations.
 
 ## Activities and Tactics
+**Country of Origin**: 🇨🇳 China
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -20,26 +19,19 @@ The threat actors compromised the update server of a remote support solutions pr
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **RemoteCMD**: 
-- **ClientMesh**: 
-- **Remote Utilities**: 
-- **RemotePC**: 
-- **9002**: 
-- **Client Maximus**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
 
 ## Attribution and Evidence
+**Country of Origin**: China
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

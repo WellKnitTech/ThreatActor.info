@@ -4,14 +4,13 @@ title: "Void Blizzard"
 aliases: ["LAUNDRY BEAR", "UAC-0190", "Void Blizzard"]
 description: "Void Blizzard’s cyberespionage operations tend to be highly targeted at specific organizations of interest to the Russian government, including in government, defense, transportation, media, non-govern"
 permalink: /void-blizzard/
-country: "Russia"
-country_flag: "🇷🇺"
 ---
 
 ## Introduction
 Void Blizzard’s cyberespionage operations tend to be highly targeted at specific organizations of interest to the Russian government, including in government, defense, transportation, media, non-governmental organizations (NGOs), and healthcare sectors primarily in Europe and North America. The threat actor uses stolen credentials—which are likely procured from commodity infostealer ecosystems—and collects a high volume of email and files from compromised organizations.
 
 ## Activities and Tactics
+**Country of Origin**: 🇷🇺 Russia
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -20,23 +19,16 @@ Void Blizzard’s cyberespionage operations tend to be highly targeted at specif
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **CyberGate**: 
-- **Cyber Eye RAT**: 
-- **Blizzard**: 
+- **name**: 
+- **name**: 
+- **name**: 
 
 ## Attribution and Evidence
+**Country of Origin**: Russia
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

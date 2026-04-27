@@ -4,16 +4,15 @@ title: "SHARK SPIDER"
 aliases: ["SHARK SPIDER"]
 description: "This group's activity was first observed in November 2013. It leverages a banking Trojan more commonly known as Shylock which aims to compromise online banking credentials and credentials related to Bi"
 permalink: /shark-spider/
-country: "Russia"
-risk_level: "High"
-country_flag: "🇷🇺"
-sector_focus: ["Bank"]
 ---
 
 ## Introduction
 This group's activity was first observed in November 2013. It leverages a banking Trojan more commonly known as Shylock which aims to compromise online banking credentials and credentials related to Bitcoin wallets.
 
 ## Activities and Tactics
+**Targeted Sectors**: Bank
+**Country of Origin**: 🇷🇺 Russia
+**Risk Level**: High
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -22,22 +21,15 @@ This group's activity was first observed in November 2013. It leverages a bankin
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **Trojan.Karagany**: 
-- **Trojan.Mebromi**: 
+- **name**: 
+- **name**: 
 
 ## Attribution and Evidence
+**Country of Origin**: Russia
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -19,21 +19,12 @@ On April 7, 2017, Pytor Levashov — who predominantly used the alias Severa or 
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **CyberGate**: 
-- **Cyber Eye RAT**: 
-- **ZOMBIE SLAYER**: 
+- **name**: 
+- **name**: 
+- **name**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

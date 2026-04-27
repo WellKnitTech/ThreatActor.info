@@ -7,7 +7,7 @@ permalink: /evil-corp/
 ---
 
 ## Introduction
-Evil Corp is an internaltional cybercrime network. In December of 2019 the US Federal Government offered a $5M bounty for information leading to the arrest and conviction of Maksim V. Yakubets for allegedly orchestrating Evil Corp operations.  Responsible for stealing over $100M from businesses and consumers.  The Evil Corp organization is known for utilizing custom strains of malware such as JabberZeus, Bugat and Dridex to steal banking credentials.
+Evil Corp is an internaltional cybercrime network. In December of 2019 the US Federal Government offered a $5M bounty for information leading to the arrest and conviction of Maksim V. Yakubets for allegedly orchestrating Evil Corp operations. Responsible for stealing over $100M from businesses and consumers. The Evil Corp organization is known for utilizing custom strains of malware such as JabberZeus, Bugat and Dridex to steal banking credentials.
 
 ## Activities and Tactics
 *Information pending cataloguing.*
@@ -19,20 +19,11 @@ Evil Corp is an internaltional cybercrime network. In December of 2019 the US Fe
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **CyberGate**: 
-- **Cyber Eye RAT**: 
+- **name**: 
+- **name**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

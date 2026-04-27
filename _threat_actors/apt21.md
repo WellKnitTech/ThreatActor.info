@@ -2,18 +2,19 @@
 layout: threat_actor
 title: "APT21"
 aliases: ["HAMMER PANDA", "TEMP.Zhenbao", "NetTraveler", "APT21"]
-description: ""
+description: "APT21 is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /apt21/
-country: "China"
-risk_level: "High"
-country_flag: "🇨🇳"
-sector_focus: ["Government", "Military"]
 ---
 
 ## Introduction
-
+APT21 is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing.
 
 ## Activities and Tactics
+**Targeted Sectors**: Government, Military
+**Country of Origin**: 🇨🇳 China
+**Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: Mongolia, Kazakhstan, Tajikistan, Germany, United Kingdom, India, Kyrgyzstan, South Korea, United States, Chile...
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -22,21 +23,14 @@ sector_focus: ["Government", "Military"]
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 *Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
+**Country of Origin**: China
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -4,14 +4,13 @@ title: "VICE SPIDER"
 aliases: ["VICE SPIDER"]
 description: "Vice Spider is a Russian-speaking ransomware group that has been active since at least April 2021 and is linked to a significant increase in identity-based attacks, with a reported 583% rise in Kerbero"
 permalink: /vice-spider/
-country: "Russia"
-country_flag: "🇷🇺"
 ---
 
 ## Introduction
 Vice Spider is a Russian-speaking ransomware group that has been active since at least April 2021 and is linked to a significant increase in identity-based attacks, with a reported 583% rise in Kerberoasting incidents. CrowdStrike attributes 27% of these intrusions specifically to Vice Spider, which exploits vulnerabilities in the Kerberos authentication protocol to crack user passwords.
 
 ## Activities and Tactics
+**Country of Origin**: 🇷🇺 Russia
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -20,21 +19,14 @@ Vice Spider is a Russian-speaking ransomware group that has been active since at
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **Xploit**: 
+- **name**: 
 
 ## Attribution and Evidence
+**Country of Origin**: Russia
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

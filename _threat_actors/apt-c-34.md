@@ -19,22 +19,13 @@ As reported by ZDNet, Chinese cyber-security vendor Qihoo 360 published a report
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **Hacking Team UEFI Rootkit**: 
-- **CyberGate**: 
-- **Cyber Eye RAT**: 
-- **Archelaus Beta**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -4,13 +4,13 @@ title: "ANTHROPOID SPIDER"
 aliases: ["Empire Monkey", "CobaltGoblin", "ANTHROPOID SPIDER"]
 description: "Publicly known as 'EmpireMonkey', ANTHROPOID SPIDER conducted phishing campaigns in February and March 2019, spoofing French, Norwegian and Belizean financial regulators and institutions. These campaig"
 permalink: /anthropoid-spider/
-sector_focus: ["Finance"]
 ---
 
 ## Introduction
 Publicly known as 'EmpireMonkey', ANTHROPOID SPIDER conducted phishing campaigns in February and March 2019, spoofing French, Norwegian and Belizean financial regulators and institutions. These campaigns used macro-enabled Microsoft documents to deliver the PowerShell Empire post-exploitation framework. ANTHROPOID SPIDER likely enabled a breach that allegedly involved fraudulent transfers over the SWIFT network.
 
 ## Activities and Tactics
+**Targeted Sectors**: Finance
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -19,24 +19,15 @@ Publicly known as 'EmpireMonkey', ANTHROPOID SPIDER conducted phishing campaigns
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **PowerDuke**: 
-- **POWERSTATS**: 
-- **Power Loader**: 
-- **POWERSOURCE**: 
-- **Xploit**: 
-- **PowerRAT**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

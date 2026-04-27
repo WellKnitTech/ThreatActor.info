@@ -4,19 +4,15 @@ title: "BRONZE VAPOR"
 aliases: ["BRONZE VAPOR"]
 description: "BRONZE VAPOR is a targeted threat group assessed with moderate confidence to be of Chinese origin. Artefacts from tools associated with this group and open source reporting on related incidents indicat"
 permalink: /bronze-vapor/
-country: "China"
-country_flag: "🇨🇳"
-sector_focus: ["Semiconductor Industry"]
 ---
 
 ## Introduction
-BRONZE VAPOR is a targeted threat group assessed with moderate confidence to be of Chinese origin. Artefacts from tools associated with this group and open source reporting on related incidents indicate that BRONZE VAPOR have operated since at least 2017.  The group conducts espionage against multiple industries including semiconductors, aviation and telecommunications.  CTU researchers assess BRONZE VAPOR's intent to be information theft, with operations focused on intellectual property (semiconductors) and personally identifiable information such as traveller records (aviation).  Compromise of telecommunications companies can yield personally identifiable information and meta data on client communications such as Call Data Records (CDR).
-
-Prior to 2019 their operational focus, with some exceptions, revolved around targets in East Asia particularity Taiwan with it's thriving semiconductor industry. In 2021 details emerged in open source of attacks on at least one European semiconductor company believed to date back to 2017.  In 2019 BRONZE VAPOR attacked one of more entities in the European airlines sector. The group gains initial access via VPN services, may use spearphishing with 'Letter of Appointment' themed lures, and deploys Cobalt Strike along with custom data exfiltration tools to target organizations.  Post-intrusion activity involves living-of-the-land using legitimate tools and commands available within victim environment as well as using AceHash for credential harvesting, WATERCYCLE for data exfiltration and STOCKPIPE for proxying information through Microsoft Exchange servers over email.
-
-BRONZE VAPOR uses a set of tactics that, although not individually unique, when viewed in aggregate create a relatively distinct playbook.  Intrusions begin with credential based attacks against an existing remote access solution (Citrix, VPN etc.) or B2B network access.  Cobalt Strike is deployed into the environment and further access is then conducted via Cobalt Strike Beacon and other features of the platform.  Sharphound is deployed to map out the victim's Active Directory infrastructure and and collect critical information about the domain including important account names.  Command and control infrastructure is hosted on subdomains of Azure and Appspot services to blend in with legitimate traffic. The threat actor also registers their own domains for command and control, often with a "sync" or "update" related theme. WinRAR is commonly used for compressing data prior to exfiltration.  Filenames for these archives often involve a string of numbers and variations of the word "update".  Data is exfiltrated using WATERCYCLE to cloud based platforms such as OneDrive and GoogleDrive.
+BRONZE VAPOR is a targeted threat group assessed with moderate confidence to be of Chinese origin. Artefacts from tools associated with this group and open source reporting on related incidents indicate that BRONZE VAPOR have operated since at least 2017. The group conducts espionage against multiple industries including semiconductors, aviation and telecommunications. CTU researchers assess BRONZE VAPOR's intent to be information theft, with operations focused on intellectual property (semiconductors) and personally identifiable information such as traveller records (aviation). Compromise of telecommunications companies can yield personally identifiable information and meta data on client communications such as Call Data Records (CDR). Prior to 2019 their operational focus, with some exceptions, revolved around targets in East Asia particularity Taiwan with it's thriving semiconductor industry. In 2021 details emerged in open source of attacks on at least one European semiconductor company believed to date back to 2017. In 2019 BRONZE VAPOR attacked one of more entities in the European airlines sector. The group gains initial access via VPN services, may use spearphishing with 'Letter of Appointment' themed lures, and deploys Cobalt Strike along with custom data exfiltration tools to target organizations. Post-intrusion activity involves living-of-the-land using legitimate tools and commands available within victim environment as well as using AceHash for credential harvesting, WATERCYCLE for data exfiltration and STOCKPIPE for proxying information through Microsoft Exchange servers over email. BRONZE VAPOR uses a set of tactics that, although not individually unique, when viewed in aggregate create a relatively distinct playbook. Intrusions begin with credential based attacks against an existing remote access solution (Citrix, VPN etc.) or B2B network access. Cobalt Strike is deployed into the environment and further access is then conducted via Cobalt Strike Beacon and other features of the platform. Sharphound is deployed to map out the victim's Active Directory infrastructure and and collect critical information about the domain including important account names. Command and control infrastructure is hosted on subdomains of Azure and Appspot services to blend in with legitimate traffic. The threat actor also registers their own domains for command and control, often with a "sync" or "update" related theme. WinRAR is commonly used for compressing data prior to exfiltration. Filenames for these archives often involve a string of numbers and variations of the word "update". Data is exfiltrated using WATERCYCLE to cloud based platforms such as OneDrive and GoogleDrive.
 
 ## Activities and Tactics
+**Targeted Sectors**: Semiconductor Industry
+**Country of Origin**: 🇨🇳 China
+**Suspected Victims**: Taiwan
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -25,30 +21,23 @@ BRONZE VAPOR uses a set of tactics that, although not individually unique, when 
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **CloudDuke**: 
-- **RemoteCMD**: 
-- **Back Orifice**: 
-- **Back Orifice 2000**: 
-- **ClientMesh**: 
-- **Remote Utilities**: 
-- **RemotePC**: 
-- **SharpEye**: 
-- **Archelaus Beta**: 
-- **SharpBot**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
 
 ## Attribution and Evidence
+**Country of Origin**: China
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

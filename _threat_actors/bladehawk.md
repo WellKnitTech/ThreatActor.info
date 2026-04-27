@@ -2,15 +2,17 @@
 layout: threat_actor
 title: "BladeHawk"
 aliases: ["BladeHawk"]
-description: ""
+description: "BladeHawk is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /bladehawk/
-sector_focus: ["Government"]
 ---
 
 ## Introduction
-
+BladeHawk is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing.
 
 ## Activities and Tactics
+**Targeted Sectors**: Government
+**Incident Type**: Espionage
+**Suspected Victims**: Kurdistan
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -19,16 +21,7 @@ sector_focus: ["Government"]
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 *Malware information extracted from MITRE references.*

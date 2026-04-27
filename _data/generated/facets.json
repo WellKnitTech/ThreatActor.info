@@ -22,6 +22,7 @@
     "South Korea",
     "Spain",
     "Turkey",
+    "US",
     "Ukraine",
     "United Arab Emirates",
     "United States",
@@ -31,9 +32,11 @@
   "risk_levels": [
     "Critical",
     "High",
+    "Medium",
     "Low"
   ],
   "sectors": [
+    "AI/ML Platforms",
     "Academia",
     "Academia - University",
     "Academia - University ",
@@ -48,6 +51,7 @@
     "Civil Society",
     "Civil engineering",
     "Civil society",
+    "Cloud Infrastructure",
     "Construction",
     "Country",
     "Covid-19 research organizations",
@@ -127,6 +131,7 @@
     "Research - Innovation",
     "Retail",
     "Scientific Research",
+    "Security Awareness Vendors",
     "Security Service",
     "Semiconductor Industry",
     "Separatists",
@@ -145,7 +150,7 @@
     "general"
   ],
   "counts": {
-    "threat_actors": 1061,
+    "threat_actors": 1062,
     "iocs": 3
   }
 }

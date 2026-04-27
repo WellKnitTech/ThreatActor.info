@@ -4,13 +4,15 @@ title: "InvisiMole"
 aliases: ["InvisiMole"]
 description: "Adversary group targeting diplomatic missions, governmental and military organisations, mainly in Ukraine."
 permalink: /invisimole/
-sector_focus: ["Government"]
 ---
 
 ## Introduction
 Adversary group targeting diplomatic missions, governmental and military organisations, mainly in Ukraine.
 
 ## Activities and Tactics
+**Targeted Sectors**: Government
+**Incident Type**: Espionage
+**Suspected Victims**: Ukraine
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -19,16 +21,7 @@ Adversary group targeting diplomatic missions, governmental and military organis
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 *Malware information extracted from MITRE references.*

@@ -4,13 +4,15 @@ title: "Predatory Sparrow"
 aliases: ["Indra", "Gonjeshke Darande", "Predatory Sparrow"]
 description: "A self-proclaimed hacktivist group that carried out attacks against Iranian railway systems and against Iranian steel plants."
 permalink: /predatory-sparrow/
-sector_focus: ["Critical manufacturing", "Transportation systems"]
 ---
 
 ## Introduction
 A self-proclaimed hacktivist group that carried out attacks against Iranian railway systems and against Iranian steel plants.
 
 ## Activities and Tactics
+**Targeted Sectors**: Critical manufacturing, Transportation systems
+**Incident Type**: Sabotage
+**Suspected Victims**: Iran
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -19,16 +21,7 @@ A self-proclaimed hacktivist group that carried out attacks against Iranian rail
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 *Malware information extracted from MITRE references.*

@@ -1,10 +1,9 @@
 ---
 layout: threat_actor
 title: "Nightspire"
-aliases: []
+aliases: ["Nightspire"]
 description: "Nightspire is an active extortion or ransomware group tracked by RansomLook."
 permalink: /nightspire/
-source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 ---
 
 ## Introduction
@@ -20,16 +19,7 @@ Nightspire is an active extortion or ransomware group tracked by RansomLook.
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 *Information pending cataloguing.*

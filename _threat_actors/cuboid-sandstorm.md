@@ -4,14 +4,13 @@ title: "Cuboid Sandstorm"
 aliases: ["DEV-0228", "Cuboid Sandstorm"]
 description: "Cuboid Sandstorm is an Iranian threat actor that targeted an Israel-based IT company in July 2021. They gained access to the company's network and used it to compromise downstream customers in the defe"
 permalink: /cuboid-sandstorm/
-country: "Iran"
-country_flag: "🇮🇷"
 ---
 
 ## Introduction
 Cuboid Sandstorm is an Iranian threat actor that targeted an Israel-based IT company in July 2021. They gained access to the company's network and used it to compromise downstream customers in the defense, energy, and legal sectors in Israel. The group also utilized custom implants, including a remote access Trojan disguised as RuntimeBroker.exe or svchost.exe, to establish persistence on victim hosts.
 
 ## Activities and Tactics
+**Country of Origin**: 🇮🇷 Iran
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -20,26 +19,19 @@ Cuboid Sandstorm is an Iranian threat actor that targeted an Israel-based IT com
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **StreamEx**: 
-- **Trojan.Karagany**: 
-- **RemoteCMD**: 
-- **Trojan.Mebromi**: 
-- **Remote Utilities**: 
-- **RemotePC**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
 
 ## Attribution and Evidence
+**Country of Origin**: Iran
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

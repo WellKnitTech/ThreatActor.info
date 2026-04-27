@@ -4,14 +4,13 @@ title: "Earth Baxia"
 aliases: ["Earth Baxia"]
 description: "Earth Baxia is a threat actor opearting out of China, targeting government organizations in Taiwan and potentially across the APAC region, using spear-phishing emails and exploiting the GeoServer vulne"
 permalink: /earth-baxia/
-country: "China"
-country_flag: "🇨🇳"
 ---
 
 ## Introduction
 Earth Baxia is a threat actor opearting out of China, targeting government organizations in Taiwan and potentially across the APAC region, using spear-phishing emails and exploiting the GeoServer vulnerability CVE-2024-36401 for remote code execution, deploying customized Cobalt Strike components with altered signatures, leveraging GrimResource and AppDomainManager injection techniques to deliver additional payloads, and utilizing a new backdoor named EAGLEDOOR for multi-protocol communication and payload delivery.
 
 ## Activities and Tactics
+**Country of Origin**: 🇨🇳 China
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -20,28 +19,21 @@ Earth Baxia is a threat actor opearting out of China, targeting government organ
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **Backdoor.Oldrea**: 
-- **China Chopper**: 
-- **RemoteCMD**: 
-- **Remote Utilities**: 
-- **RemotePC**: 
-- **Xploit**: 
-- **Cobalt Strike**: 
-- **CrossRat**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
 
 ## Attribution and Evidence
+**Country of Origin**: China
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

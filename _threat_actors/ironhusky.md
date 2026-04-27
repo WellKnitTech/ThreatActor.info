@@ -4,14 +4,13 @@ title: "IronHusky"
 aliases: ["IronHusky"]
 description: "IronHusky is a Chinese-based threat actor first attributed in July 2017 targeting Russian and Mongolian governments, as well as aviation companies and research institutes. Since their initial attacks c"
 permalink: /ironhusky/
-country: "China"
-country_flag: "🇨🇳"
 ---
 
 ## Introduction
 IronHusky is a Chinese-based threat actor first attributed in July 2017 targeting Russian and Mongolian governments, as well as aviation companies and research institutes. Since their initial attacks ceased in 2018, they have been working on a new remote access trojan dubbed MysterySnail.
 
 ## Activities and Tactics
+**Country of Origin**: 🇨🇳 China
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -20,25 +19,18 @@ IronHusky is a Chinese-based threat actor first attributed in July 2017 targetin
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **Trojan.Karagany**: 
-- **RemoteCMD**: 
-- **Trojan.Mebromi**: 
-- **Remote Utilities**: 
-- **RemotePC**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
 
 ## Attribution and Evidence
+**Country of Origin**: China
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

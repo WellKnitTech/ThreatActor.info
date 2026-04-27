@@ -2,14 +2,15 @@
 layout: threat_actor
 title: "Mirage Tiger"
 aliases: ["Mirage Tiger"]
-description: ""
+description: "Mirage Tiger is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /mirage-tiger/
 ---
 
 ## Introduction
-
+Mirage Tiger is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing.
 
 ## Activities and Tactics
+**Suspected Victims**: Germany
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -18,16 +19,7 @@ permalink: /mirage-tiger/
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 *Malware information extracted from MITRE references.*

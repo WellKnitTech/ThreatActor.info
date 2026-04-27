@@ -2,12 +2,12 @@
 layout: threat_actor
 title: "People's Cyber Army of Russia"
 aliases: ["People's Cyber Army of Russia"]
-description: ""
+description: "People's Cyber Army of Russia is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /people-s-cyber-army-of-russia/
 ---
 
 ## Introduction
-
+People's Cyber Army of Russia is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing.
 
 ## Activities and Tactics
 *Information pending cataloguing.*
@@ -19,16 +19,7 @@ permalink: /people-s-cyber-army-of-russia/
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 *Information pending cataloguing.*

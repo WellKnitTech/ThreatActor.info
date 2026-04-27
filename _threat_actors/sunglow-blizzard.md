@@ -4,14 +4,13 @@ title: "Sunglow Blizzard"
 aliases: ["DEV-0665", "Sunglow Blizzard"]
 description: "DEV-0665 is a threat actor associated with the HermeticWiper attacks. Their objective is to disrupt, degrade, and destroy specific resources within a targeted country."
 permalink: /sunglow-blizzard/
-country: "Russia"
-country_flag: "🇷🇺"
 ---
 
 ## Introduction
 DEV-0665 is a threat actor associated with the HermeticWiper attacks. Their objective is to disrupt, degrade, and destroy specific resources within a targeted country.
 
 ## Activities and Tactics
+**Country of Origin**: 🇷🇺 Russia
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -20,21 +19,14 @@ DEV-0665 is a threat actor associated with the HermeticWiper attacks. Their obje
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **Wiper**: 
+- **name**: 
 
 ## Attribution and Evidence
+**Country of Origin**: Russia
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

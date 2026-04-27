@@ -4,13 +4,14 @@ title: "Attor"
 aliases: ["Attor"]
 description: "Adversary group targeting diplomatic missions and governmental organisations."
 permalink: /attor/
-sector_focus: ["Private sector", "Government"]
 ---
 
 ## Introduction
 Adversary group targeting diplomatic missions and governmental organisations.
 
 ## Activities and Tactics
+**Targeted Sectors**: Private sector, Government
+**Incident Type**: Espionage
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -19,16 +20,7 @@ Adversary group targeting diplomatic missions and governmental organisations.
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 *Information pending cataloguing.*

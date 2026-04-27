@@ -4,16 +4,17 @@ title: "Blue Termite"
 aliases: ["Cloudy Omega", "Emdivi", "Blue Termite"]
 description: "Blue Termite is a group of suspected Chinese origin active in Japan."
 permalink: /blue-termite/
-country: "China"
-risk_level: "High"
-country_flag: "🇨🇳"
-sector_focus: ["Government", "Private sector"]
 ---
 
 ## Introduction
 Blue Termite is a group of suspected Chinese origin active in Japan.
 
 ## Activities and Tactics
+**Targeted Sectors**: Government, Private sector
+**Country of Origin**: 🇨🇳 China
+**Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: Japan
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -22,21 +23,14 @@ Blue Termite is a group of suspected Chinese origin active in Japan.
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **Blue Banana**: 
+- **name**: 
 
 ## Attribution and Evidence
+**Country of Origin**: China
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

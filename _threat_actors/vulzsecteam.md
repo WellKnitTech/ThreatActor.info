@@ -4,14 +4,13 @@ title: "VulzSecTeam"
 aliases: ["VulzSec", "VulzSecTeam"]
 description: "VulzSec, also known as VulzSecTeam, is a hacktivist group that has been involved in various cyber-attacks. They have targeted government websites in retaliation for issues such as police brutality and "
 permalink: /vulzsecteam/
-country: "Indonesia"
-country_flag: "🏳️"
 ---
 
 ## Introduction
 VulzSec, also known as VulzSecTeam, is a hacktivist group that has been involved in various cyber-attacks. They have targeted government websites in retaliation for issues such as police brutality and the treatment of Indian Muslims. The group has been involved in campaigns like OpIndia2.0, where they planned to launch DDoS attacks on Indian government websites.
 
 ## Activities and Tactics
+**Country of Origin**: 🏳️ Indonesia
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -20,22 +19,15 @@ VulzSec, also known as VulzSecTeam, is a hacktivist group that has been involved
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **CyberGate**: 
-- **Cyber Eye RAT**: 
+- **name**: 
+- **name**: 
 
 ## Attribution and Evidence
+**Country of Origin**: Indonesia
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

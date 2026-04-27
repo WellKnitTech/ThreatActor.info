@@ -1,10 +1,9 @@
 ---
 layout: threat_actor
 title: "Anubis"
-aliases: []
+aliases: ["Anubis"]
 description: "Anubis is a financially motivated cybercrime group primarily known for its banking trojan operations but also linked to ransomware activity targeting corporate networks. First identified in 2016 and ev"
 permalink: /anubis/
-source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 ---
 
 ## Introduction
@@ -20,16 +19,7 @@ Anubis is a financially motivated cybercrime group primarily known for its banki
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 *Information pending cataloguing.*

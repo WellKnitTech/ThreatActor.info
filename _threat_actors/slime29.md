@@ -2,18 +2,17 @@
 layout: threat_actor
 title: "SLIME29"
 aliases: ["SLIME29"]
-description: ""
+description: "SLIME29 is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /slime29/
-country: "China"
-risk_level: "Critical"
-country_flag: "🇨🇳"
-sector_focus: ["Private Sector"]
 ---
 
 ## Introduction
-
+SLIME29 is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing.
 
 ## Activities and Tactics
+**Targeted Sectors**: Private Sector
+**Country of Origin**: 🇨🇳 China
+**Risk Level**: Critical
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -22,21 +21,14 @@ sector_focus: ["Private Sector"]
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
+**Country of Origin**: China
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

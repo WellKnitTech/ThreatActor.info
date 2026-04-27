@@ -4,14 +4,13 @@ title: "Avivore"
 aliases: ["Avivore"]
 description: "The group’s existence came to light during Context’s investigation of a number of attacks against multinational enterprises that compromise smaller engineering services and consultancies working in the"
 permalink: /avivore/
-country: "China"
-country_flag: "🇨🇳"
 ---
 
 ## Introduction
 The group’s existence came to light during Context’s investigation of a number of attacks against multinational enterprises that compromise smaller engineering services and consultancies working in their supply chains.
 
 ## Activities and Tactics
+**Country of Origin**: 🇨🇳 China
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -20,21 +19,14 @@ The group’s existence came to light during Context’s investigation of a numb
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **Small-Net**: 
+- **name**: 
 
 ## Attribution and Evidence
+**Country of Origin**: China
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

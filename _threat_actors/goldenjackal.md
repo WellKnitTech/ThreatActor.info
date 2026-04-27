@@ -10,6 +10,7 @@ permalink: /goldenjackal/
 GoldenJackal activity is characterized by the use of compromised WordPress websites as a method to host C2-related logic. Kaspersky believes the attackers upload a malicious PHP file that is used as a relay to forward web requests to another backbone C2 server. They developed a collection of .NET malware tools known as Jackal.
 
 ## Activities and Tactics
+**Suspected Victims**: Germany
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -18,19 +19,10 @@ GoldenJackal activity is characterized by the use of compromised WordPress websi
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **GOlden Phoenix**: 
+- **name**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

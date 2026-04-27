@@ -1,10 +1,9 @@
 ---
 layout: threat_actor
 title: "World Leaks"
-aliases: []
+aliases: ["World Leaks"]
 description: "History and Origins Origins: Formerly known as \"Hunters International,\" active since late 2023, and believed to be a reincarnation of the Hive group. Rebranding: In January 2025, Hunters Internationa"
 permalink: /world-leaks/
-source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 ---
 
 ## Introduction
@@ -20,16 +19,7 @@ History and Origins Origins: Formerly known as "Hunters International," active s
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 *Information pending cataloguing.*

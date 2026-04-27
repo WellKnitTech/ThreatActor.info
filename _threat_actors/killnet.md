@@ -4,13 +4,15 @@ title: "Killnet"
 aliases: ["Killnet"]
 description: "A group targeting various countries using Denial of Services attacked."
 permalink: /killnet/
-sector_focus: ["Government"]
 ---
 
 ## Introduction
 A group targeting various countries using Denial of Services attacked.
 
 ## Activities and Tactics
+**Targeted Sectors**: Government
+**Incident Type**: Denial of service
+**Suspected Victims**: United States, Czech Republic
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -19,16 +21,7 @@ A group targeting various countries using Denial of Services attacked.
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 *Malware information extracted from MITRE references.*

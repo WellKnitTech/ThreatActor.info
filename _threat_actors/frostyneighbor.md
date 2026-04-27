@@ -4,14 +4,13 @@ title: "FrostyNeighbor"
 aliases: ["FrostyNeighbor"]
 description: "FrostyNeighbor is a Belarus-aligned APT group known for conducting influence and disinformation campaigns, particularly targeting Ukraine, Poland, and Lithuania. They have compromised various governmen"
 permalink: /frostyneighbor/
-country: "Belarus"
-country_flag: "🏳️"
 ---
 
 ## Introduction
 FrostyNeighbor is a Belarus-aligned APT group known for conducting influence and disinformation campaigns, particularly targeting Ukraine, Poland, and Lithuania. They have compromised various governmental and private sector entities, including the Polish Anti-Doping Agency, through hack-and-leak operations. The group is believed to collaborate with initial access brokers to exploit high-value targets, utilizing techniques such as zero-day vulnerabilities. Their operations are linked to cyber-enabled disinformation campaigns critical of the North Atlantic Alliance.
 
 ## Activities and Tactics
+**Country of Origin**: 🏳️ Belarus
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -20,23 +19,16 @@ FrostyNeighbor is a Belarus-aligned APT group known for conducting influence and
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **CyberGate**: 
-- **Cyber Eye RAT**: 
-- **Xploit**: 
+- **name**: 
+- **name**: 
+- **name**: 
 
 ## Attribution and Evidence
+**Country of Origin**: Belarus
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

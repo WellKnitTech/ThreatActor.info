@@ -4,23 +4,13 @@ title: "AzzaSec"
 aliases: ["AzzaSec"]
 description: "AzzaSec is a hacktivist group that originated in Italy. Known for their pro-Palestine stance, they have been involved in various cyberattacks targeting Israel and pro-Israel countries. Additionally, Az"
 permalink: /azzasec/
-country: "Italy"
-country_flag: "🏳️"
 ---
 
 ## Introduction
 AzzaSec is a hacktivist group that originated in Italy. Known for their pro-Palestine stance, they have been involved in various cyberattacks targeting Israel and pro-Israel countries. Additionally, AzzaSec has engaged in ransomware activities and has been known to collaborate with other cybercriminal groups.
 
-
-
-
-
-
-
-
-
-
 ## Activities and Tactics
+**Country of Origin**: 🏳️ Italy
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -29,22 +19,15 @@ AzzaSec is a hacktivist group that originated in Italy. Known for their pro-Pale
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **CyberGate**: 
-- **Cyber Eye RAT**: 
+- **name**: 
+- **name**: 
 
 ## Attribution and Evidence
+**Country of Origin**: Italy
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

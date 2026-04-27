@@ -4,16 +4,15 @@ title: "Groundbait"
 aliases: ["Groundbait"]
 description: "Groundbait is a group targeting anti-government separatists in the self-declared Donetsk and Luhansk People’s Republics."
 permalink: /groundbait/
-country: "Ukraine"
-risk_level: "High"
-country_flag: "🇺🇦"
-sector_focus: ["Separatists"]
 ---
 
 ## Introduction
 Groundbait is a group targeting anti-government separatists in the self-declared Donetsk and Luhansk People’s Republics.
 
 ## Activities and Tactics
+**Targeted Sectors**: Separatists
+**Country of Origin**: 🇺🇦 Ukraine
+**Risk Level**: High
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -22,21 +21,14 @@ Groundbait is a group targeting anti-government separatists in the self-declared
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
+**Country of Origin**: Ukraine
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

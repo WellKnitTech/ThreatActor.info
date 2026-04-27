@@ -4,14 +4,13 @@ title: "Hunt3r Kill3rs"
 aliases: ["Hunt3r Kill3rs"]
 description: "Hunt3r Kill3rs is a newly emerged threat group claiming expertise in cyber operations, including ICS breaches and web application vulnerabilities exploitation. They have discussed using Java fuzzing in"
 permalink: /hunt3r-kill3rs/
-country: "Russia"
-country_flag: "🇷🇺"
 ---
 
 ## Introduction
 Hunt3r Kill3rs is a newly emerged threat group claiming expertise in cyber operations, including ICS breaches and web application vulnerabilities exploitation. They have discussed using Java fuzzing in their exploits and have made unverified claims of joint attacks with other threat actors.
 
 ## Activities and Tactics
+**Country of Origin**: 🇷🇺 Russia
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -20,24 +19,17 @@ Hunt3r Kill3rs is a newly emerged threat group claiming expertise in cyber opera
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-- **CyberGate**: 
-- **Cyber Eye RAT**: 
-- **Xpert**: 
-- **Xploit**: 
+- **name**: 
+- **name**: 
+- **name**: 
+- **name**: 
 
 ## Attribution and Evidence
+**Country of Origin**: Russia
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

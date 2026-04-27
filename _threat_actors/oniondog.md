@@ -4,16 +4,17 @@ title: "OnionDog"
 aliases: ["OnionDog"]
 description: "This threat actor targets the South Korean government, transportation, and energy sectors."
 permalink: /oniondog/
-country: "North Korea"
-risk_level: "High"
-country_flag: "🇰🇵"
-sector_focus: ["Government", "Private sector"]
 ---
 
 ## Introduction
 This threat actor targets the South Korean government, transportation, and energy sectors.
 
 ## Activities and Tactics
+**Targeted Sectors**: Government, Private sector
+**Country of Origin**: 🇰🇵 North Korea
+**Risk Level**: High
+**Incident Type**: Espionage
+**Suspected Victims**: South Korea
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -22,21 +23,14 @@ This threat actor targets the South Korean government, transportation, and energ
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 *Malware information extracted from MITRE references.*
 
 ## Attribution and Evidence
+**Country of Origin**: North Korea
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

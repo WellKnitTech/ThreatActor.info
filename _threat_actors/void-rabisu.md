@@ -10,6 +10,7 @@ permalink: /void-rabisu/
 Void Rabisu is an intrusion set associated with both financially motivated ransomware attacks and targeted campaigns on Ukraine and countries supporting Ukraine.
 
 ## Activities and Tactics
+**Suspected Victims**: Ukraine, European Union
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -18,16 +19,7 @@ Void Rabisu is an intrusion set associated with both financially motivated ranso
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*This section is pending cataloguing. Check upstream sources for current IOCs.*
-
-### IP Addresses
-*Pending*
-
-### File Hashes
-*Pending*
-
-### Domains
-*Pending*
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 *Malware information extracted from MITRE references.*
