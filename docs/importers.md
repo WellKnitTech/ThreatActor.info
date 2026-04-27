@@ -387,3 +387,103 @@ Imported provenance fields include:
 - `provenance.apt_groups_operations.sheet_id`
 - `provenance.apt_groups_operations.tab_name`
 - `provenance.apt_groups_operations.matched_mitre_ids`
+
+## ETDA / ThaiCERT Threat Group Cards Importer
+
+`scripts/import-etda-thaicert.rb` adds ETDA/ThaiCERT Threat Group Cards as a reviewed threat-group enrichment source.
+
+Source: https://apt.etda.or.th/
+
+### Why this importer is conservative
+
+- ETDA/ThaiCERT cards are high-value reference content but still require normalization and local curation.
+- Matching across multiple public naming conventions can collide; ambiguous matches are review-only.
+- By default, existing curated name/description fields are protected and only updated with `--force`.
+
+Reviewed matching overrides live in `data/imports/etda-thaicert/mapping_overrides.yml`.
+
+### Commands
+
+Fetch a snapshot from ETDA (with mirror fallback):
+
+```bash
+ruby scripts/import-etda-thaicert.rb fetch --output data/imports/etda-thaicert/2026-04-27
+```
+
+Fetch from a custom endpoint:
+
+```bash
+ruby scripts/import-etda-thaicert.rb fetch --source-url "https://apt.etda.or.th/cgi-bin/getcard.cgi?g=all&j=1" --output data/imports/etda-thaicert/2026-04-27
+```
+
+Preview changes:
+
+```bash
+ruby scripts/import-etda-thaicert.rb plan --snapshot data/imports/etda-thaicert/2026-04-27
+```
+
+Restrict to a specific actor:
+
+```bash
+ruby scripts/import-etda-thaicert.rb plan --snapshot data/imports/etda-thaicert/2026-04-27 --actor APT28
+```
+
+Apply import:
+
+```bash
+ruby scripts/import-etda-thaicert.rb import --snapshot data/imports/etda-thaicert/2026-04-27
+```
+
+Only create new actors:
+
+```bash
+ruby scripts/import-etda-thaicert.rb import --snapshot data/imports/etda-thaicert/2026-04-27 --new-only
+```
+
+Allow protected-field overwrite when explicitly needed:
+
+```bash
+ruby scripts/import-etda-thaicert.rb import --snapshot data/imports/etda-thaicert/2026-04-27 --force
+```
+
+Write a machine-readable review report:
+
+```bash
+ruby scripts/import-etda-thaicert.rb plan --snapshot data/imports/etda-thaicert/2026-04-27 --report-json tmp/etda-thaicert-report.json
+```
+
+### Field mapping
+
+| ETDA/ThaiCERT Field (normalized) | Our Schema Field | Notes |
+|----------------------------------|------------------|-------|
+| `name` / `group_name` / `title` | `name` + matching keys | Used for matching and new actor identity |
+| `aliases` / `synonyms` | `aliases` | Additive merge only |
+| `description` / `summary` / `about` | `description` | Protected on existing actors unless `--force` |
+| `country` / `origin_country` / `state_sponsor` | `country` | Used when actor country is blank (or override) |
+| `sector_focus` / `targets` | `sector_focus` | Additive merge |
+| `operations` / `campaigns` | `operations` | Additive merge |
+| `malware` / `tools` / `toolset` | `malware` | Additive merge as malware names |
+| `first_seen` | `first_seen` | Imported when valid year and target is blank |
+| `last_activity` / `updated` | `last_activity` | Imported when newer year |
+| MITRE IDs in source text | `provenance.etda_thaicert.mitre_*` | Stored as provenance hints for later curation |
+
+### Guardrails
+
+- Ambiguous multi-match records are reported as `review` and never auto-applied.
+- `excluded_group_keys` and `alias_drop_list` suppress low-quality rows/aliases.
+- Volatile IOC content is intentionally not auto-imported into actor pages.
+- Page synchronization updates front matter for existing files and only creates full markdown files for new actors.
+
+### Attribution
+
+The importer preserves source attribution using the pattern:
+
+`Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment.`
+
+Imported provenance fields include:
+- `provenance.etda_thaicert.source_retrieved_at`
+- `provenance.etda_thaicert.source_dataset_url`
+- `provenance.etda_thaicert.source_record_id`
+- `provenance.etda_thaicert.source_record_url`
+- `provenance.etda_thaicert.mitre_group_ids`
+- `provenance.etda_thaicert.mitre_technique_ids`
