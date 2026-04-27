@@ -178,9 +178,9 @@ class EtdaThaicertImporter
 
     return unless @options[:write]
 
-    apply_results(evaluation, existing_actors, existing_pages)
-    ActorStore.save_all(existing_actors)
-    puts "Applied #{evaluation.count { |item| item[:action] == 'create' }} creates and #{evaluation.count { |item| item[:action] == 'update' }} updates"
+    applied = apply_results(evaluation, existing_actors, existing_pages)
+    ActorStore.save_all(existing_actors) if applied[:creates].positive? || applied[:updates].positive?
+    puts "Applied #{applied[:creates]} creates and #{applied[:updates]} updates"
   end
 
   def load_snapshot_records
@@ -385,18 +385,22 @@ class EtdaThaicertImporter
   end
 
   def apply_results(evaluation, existing_actors, existing_pages)
+    applied = { creates: 0, updates: 0 }
     evaluation.each do |item|
       case item[:action]
       when 'create'
         actor = item[:actor]
         existing_actors << actor
         write_page(page_path_for(actor['url']), build_front_matter(actor), build_new_page_body(actor))
+        applied[:creates] += 1
       when 'update'
         actor = existing_actors[item[:match_position]]
         actor.merge!(item[:updates])
         synchronize_existing_page(actor, existing_pages)
+        applied[:updates] += 1
       end
     end
+    applied
   end
 
   def synchronize_existing_page(actor, existing_pages)

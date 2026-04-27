@@ -1,6 +1,9 @@
 ---
 name: Weekly Threat Data
 
+permissions:
+  contents: write
+
 on:
   # Weekly on Sunday at 3am UTC
   schedule:
@@ -49,6 +52,17 @@ jobs:
         run: |
           ruby scripts/import-misp-galaxy.rb fetch --output data/imports/misp-galaxy/$(date +%Y-%m-%d)
         continue-on-error: true
+
+      - name: Import ETDA ThaiCERT threat groups
+        run: |
+          snapshot="data/imports/etda-thaicert/$(date +%Y-%m-%d)"
+          ruby scripts/import-etda-thaicert.rb fetch --output "$snapshot"
+          ruby scripts/import-etda-thaicert.rb plan \
+            --snapshot "$snapshot" \
+            --report-json tmp/etda-thaicert-report.json
+          ruby scripts/import-etda-thaicert.rb import \
+            --snapshot "$snapshot" \
+            --new-only
           
       - name: Fetch CISA KEV
         run: ruby scripts/import-cisa-kev.rb fetch

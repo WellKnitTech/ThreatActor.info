@@ -469,6 +469,9 @@ ruby scripts/import-etda-thaicert.rb plan --snapshot data/imports/etda-thaicert/
 
 ### Guardrails
 
+- Weekly automation runs this importer snapshot-first, writes a review report to
+  `tmp/etda-thaicert-report.json`, and applies `--new-only` so existing actor
+  enrichments stay manual until mapping overrides have been reviewed.
 - Ambiguous multi-match records are reported as `review` and never auto-applied.
 - `excluded_group_keys` and `alias_drop_list` suppress low-quality rows/aliases.
 - Volatile IOC content is intentionally not auto-imported into actor pages.
