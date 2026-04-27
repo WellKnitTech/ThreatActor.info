@@ -229,10 +229,16 @@ def build_body(actor)
   sections << "## Tactics, Techniques, and Procedures (TTPs)"
   if actor['ttps'] && actor['ttps'].any?
     actor['ttps'].each do |ttp|
-      tid = ttp['technique_id'] || ''
-      tname =ttp['technique_name'] || ''
-      desc = ttp['description'] || ''
-      sections << "- **#{tid} #{tname}**: #{desc}"
+      # Handle both object format (with keys) and string format (e.g., "T1566 - Phishing")
+      if ttp.is_a?(Hash)
+        tid = ttp['technique_id'] || ''
+        tname = ttp['technique_name'] || ''
+        desc = ttp['description'] || ''
+        sections << "- **#{tid} #{tname}**: #{desc}"
+      else
+        # String format: "T1566 - Phishing" or just "Phishing"
+        sections << "- **#{ttp}**"
+      end
     end
   else
     sections << "*Information pending cataloguing.*"
@@ -277,19 +283,20 @@ def build_body(actor)
   
   # Malware
   sections << "## Malware and Tools"
-  # Check both YAML malware field and MISP-extracted malware
-  malware = actor['malware'] || []
-  mal_list = actor['malware']  # from YAML
+  mal_list = actor['malware'] || []
   
   if mal_list && mal_list.any?
     mal_list.each do |m|
-      name = m['name'] || 'Unknown'
-      desc = m['description'] || ''
-      sections << "- **#{name}**: #{desc}"
+      # Handle both object format (with keys) and string format
+      if m.is_a?(Hash)
+        name = m['name'] || 'Unknown'
+        desc = m['description'] || ''
+        sections << "- **#{name}**: #{desc}"
+      else
+        # String format: "ZackStealer - Custom info-stealer"
+        sections << "- **#{m}**"
+      end
     end
-  elsif actor['targeted_victims'] && actor['targeted_victims'].any?
-    # Show malware from MISP if no detailed data
-    sections << "*Malware information extracted from MITRE references.*"
   else
     sections << "*Information pending cataloguing.*"
   end
