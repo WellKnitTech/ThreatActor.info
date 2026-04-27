@@ -1,0 +1,15 @@
+name: Groundbait
+aliases:
+- Groundbait
+description: Groundbait is a group targeting anti-government separatists in the self-declared
+  Donetsk and Luhansk People’s Republics.
+url: /groundbait
+country: Ukraine
+risk_level: High
+sector_focus:
+- Separatists
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 8ed5e3f0-ed30-4eb8-bbee-4e221bd76d73
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

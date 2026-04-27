@@ -1,0 +1,25 @@
+name: Water Saci
+aliases:
+- Water Saci
+description: Water Saci is a sophisticated cyber threat actor operating in Brazil,
+  utilizing a multi-format attack chain that includes HTA files, ZIP archives, and
+  PDFs to bypass security measures. The campaign employs an email-based C&C infrastructure
+  using IMAP connections to terra.com.br accounts, enhancing its resilience and evasion
+  tactics. It leverages social engineering through WhatsApp to propagate malware,
+  specifically the SORVEPOTEL banking trojan, and incorporates advanced techniques
+  for infection and persistence. The modular architecture of the malware allows for
+  dynamic adaptation and extraction of sensitive credentials, indicating a significant
+  evolution in adversarial capabilities.
+url: /water-saci
+country: Brazil
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 6f6d828b-b2ac-471c-b2a3-c49d0f49789f
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: Trojan.Karagany
+- name: Trojan.Mebromi
+- name: CyberGate
+- name: Cyber Eye RAT

@@ -1,0 +1,26 @@
+name: UNC2814
+aliases:
+- UNC2814
+description: UNC2814 is a suspected PRC-nexus cyber espionage group that has targeted
+  telecommunications providers and government entities globally since at least 2017.
+  The group employs the GRIDTIDE backdoor to blend malicious traffic with legitimate
+  cloud API activity and utilizes living-off-the-land techniques, including SSH lateral
+  movement and the creation of malicious systemd services. GTIG has confirmed 53 intrusions
+  across 42 countries and identified suspected activity in at least 20 additional
+  nations, with a focus on exfiltrating sensitive communications data. Google has
+  taken significant disruption actions against UNC2814, including infrastructure takedowns
+  and the release of IOCs to aid in detection.
+url: /unc2814
+country: China
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 18d4647b-2be2-4c50-87dc-8fdcec4d2664
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: Backdoor.Oldrea
+- name: CloudDuke
+- name: CyberGate
+- name: Cyber Eye RAT
+- name: CrossRat

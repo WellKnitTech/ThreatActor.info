@@ -1,0 +1,23 @@
+name: Aggressive Inventory Zombies
+aliases:
+- AIZ
+- Aggressive Inventory Zombies
+description: Aggressive Inventory Zombies is a threat actor involved in a large-scale
+  phishing and pig-butchering network targeting retail brands and cryptocurrency users.
+  They create fraudulent sites using a popular website template that scrapes product
+  details from legitimate e-commerce platforms and integrate chat services for phishing.
+  Financial ties to India have been identified, and collaboration with Stark Industries
+  has led to the dismantling of parts of their infrastructure, revealing the network's
+  breadth. AIZ is also linked to Entropy ransomware infections, which were preceded
+  by detections of Cobalt Strike beacons and Dridex malware.
+url: /aggressive-inventory-zombies
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: ceabe862-3d89-4696-9d7f-32a4850334d9
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: ZOMBIE SLAYER
+- name: Cobalt Strike

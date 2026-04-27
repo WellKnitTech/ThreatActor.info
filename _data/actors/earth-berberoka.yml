@@ -1,0 +1,36 @@
+name: Earth Berberoka
+aliases:
+- GamblingPuppet
+- Earth Berberoka
+description: According to TrendMicro, Earth Berberoka is a threat group originating
+  from China that mainly focuses on targeting gambling websites. This group's campaign
+  uses multiple malware families that target the Windows, Linux, and macOS platforms
+  that have been attributed to Chinese-speaking actors. Aside from using tried-and-tested
+  malware families that have been upgraded, such as PlugX and Gh0st RAT, Earth Berberoka
+  has also developed a brand-new complex, multistage malware family, which has been
+  dubbed PuppetLoader.
+url: /earth-berberoka
+country: China
+sector_focus:
+- Gambling Websites
+- Information technology
+- Electronics Manufacturers
+- Education
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 9d82077b-7e95-4b22-8762-3224797ff5f0
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+targeted_victims:
+- China
+- United States
+- Hong Kong
+- Malaysia
+- Taiwan
+malware:
+- name: PlugX
+- name: China Chopper
+- name: gh0st
+- name: Gh0st RAT
+- name: Windows Remote Desktop

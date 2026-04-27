@@ -1,0 +1,23 @@
+name: Luna Moth
+aliases:
+- Silent Ransom
+- TG2729
+- Luna Moth
+description: Luna Moth conducts high-tempo callback phishing campaigns targeting legal
+  and financial organizations in the U.S., using social engineering to lure victims
+  into calling fake helpdesk numbers. Attackers impersonate IT staff to install legitimate
+  RMM tools, enabling direct access to victim systems for data exfiltration. The group
+  demands ransoms between $1 million and $8 million, threatening to leak stolen data
+  if payments are not made. Their operations reflect a shift from traditional ransomware
+  tactics to data breach extortion, leveraging trusted systems to evade detection.
+url: /luna-moth
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: f5022a01-27c3-4cff-bc64-9980dc003a66
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Back Orifice
+- name: Back Orifice 2000

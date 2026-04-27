@@ -1,0 +1,20 @@
+name: Strider
+aliases:
+- ProjectSauron
+- Strider
+description: 'Strider is a threat group that has been active since at least 2011 and
+  has targeted victims in Russia, China, Sweden, Belgium, Iran, and Rwanda.(Citation:
+  Symantec Strider Blog)(Citation: Kaspersky ProjectSauron Blog)'
+url: /apt0041
+external_id: G0041
+mitre_id: G0041
+external_url: https://attack.mitre.org/groups/G0041
+mitre_url: https://attack.mitre.org/groups/G0041
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T05:24:31Z'
+    source_record_id: G0041
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json

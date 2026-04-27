@@ -1,0 +1,16 @@
+name: STARDUST CHOLLIMA
+aliases:
+- Sapphire Sleet
+- STARDUST CHOLLIMA
+description: 'Open-source reporting has claimed that the Hermes ransomware was developed
+  by the North Korean group STARDUST CHOLLIMA (activities of which have been public
+  reported as part of the “Lazarus Group”), because Hermes was executed on a host
+  during the SWIFT compromise of FEIB in October 2017. '
+url: /stardust-chollima
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: d8e1762a-0063-48c2-9ea1-8d176d14b70f
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null

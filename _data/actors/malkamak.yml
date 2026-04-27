@@ -1,0 +1,27 @@
+name: MalKamak
+aliases:
+- MalKamak
+description: MalKamak is an Iranian threat actor that has been operating since at
+  least 2018. They have been involved in highly targeted cyber espionage campaigns
+  against global aerospace and telecommunications companies. MalKamak utilizes a sophisticated
+  remote access Trojan called ShellClient, which evades antivirus tools and uses cloud
+  services like Dropbox for command and control.
+url: /malkamak
+country: Iran
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 4915bfa3-5f0a-48ec-8ed5-bcd878cba504
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: SPACESHIP
+- name: CloudDuke
+- name: Trojan.Karagany
+- name: RemoteCMD
+- name: Trojan.Mebromi
+- name: ClientMesh
+- name: CyberGate
+- name: Cyber Eye RAT
+- name: Virus RAT
+- name: Remote Utilities

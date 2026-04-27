@@ -1,0 +1,42 @@
+name: Red Menshen
+aliases:
+- Red Dev 18
+- Earth Bluecrow
+- Red Menshen
+description: Since 2021, Red Menshen, a China based threat actor, which has been observed
+  targeting telecommunications providers across the Middle East and Asia, as well
+  as entities in the government, education, and logistics sectors using a custom backdoor
+  referred as BPFDoor. This threat actor uses a variety of tools in its post-exploitation
+  phase. This includes custom variants of the shared tool Mangzamel (including Golang
+  variants), custom variants of Gh0st, and open source tools like Mimikatz and Metasploit
+  to aid in its lateral movement across Windows systems. Also, They have been seen
+  sending commands to BPFDoor victims via Virtual Privat Servers (VPSs) hosted at
+  a well-known provider, and that these VPSs, in turn, are administered via compromised
+  routers based in Taiwan, which the threat actor uses as VPN tunnels. Most Red Menshen
+  activity that has been observed took place between Monday to Friday (with none observed
+  on the weekends), with most communication taking place between 01:00 and 10:00 UTC.131
+  This pattern suggests a consistent 8 to 9-hour activity window for the threat actor,
+  with realistic probability of it aligning to local working hours.
+url: /red-menshen
+country: China
+sector_focus:
+- Government
+- Education
+- Logistics
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: bfe66711-32dc-4c1f-b78b-9b2f9e4c1525
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+targeted_victims:
+- Middle East
+- Asia
+malware:
+- name: Backdoor.Oldrea
+- name: China Chopper
+- name: gh0st
+- name: Gh0st RAT
+- name: Windows Remote Desktop
+- name: Xploit
+- name: CrossRat

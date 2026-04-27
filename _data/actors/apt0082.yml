@@ -1,0 +1,38 @@
+name: APT38
+aliases:
+- APT38
+- BeagleBoyz
+- Bluenoroff
+- COPERNICIUM
+- NICKEL GLADSTONE
+- Sapphire Sleet
+- Stardust Chollima
+description: 'APT38 is a North Korean state-sponsored threat group that specializes
+  in financial cyber operations; it has been attributed to the Reconnaissance General
+  Bureau.(Citation: CISA AA20-239A BeagleBoyz August 2020) Active since at least 2014,
+  APT38 has targeted banks, financial institutions, casinos, cryptocurrency exchanges,
+  SWIFT system endpoints, and ATMs in at least 38 countries worldwide. Significant
+  operations include the 2016 Bank of Bangladesh heist, during which APT38 stole $81
+  million, as well as attacks against Bancomext (Citation: FireEye APT38 Oct 2018)
+  and Banco de Chile (Citation: FireEye APT38 Oct 2018); some of their attacks have
+  been destructive.(Citation: CISA AA20-239A BeagleBoyz August 2020)(Citation: FireEye
+  APT38 Oct 2018)(Citation: DOJ North Korea Indictment Feb 2021)(Citation: Kaspersky
+  Lazarus Under The Hood Blog 2017)
+
+
+  North Korean group definitions are known to have significant overlap, and some security
+  researchers report all North Korean state-sponsored cyber activity under the name
+  Lazarus Group instead of tracking clusters or subgroups.'
+url: /apt0082
+external_id: G0082
+mitre_id: G0082
+external_url: https://attack.mitre.org/groups/G0082
+mitre_url: https://attack.mitre.org/groups/G0082
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T05:24:31Z'
+    source_record_id: G0082
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json

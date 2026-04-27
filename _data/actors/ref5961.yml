@@ -1,0 +1,19 @@
+name: REF5961
+aliases:
+- REF5961
+description: Elastic's security team has published a report on REF5961, a cyber-espionage
+  group they found on the network of a Foreign Affairs Ministry from a member of the
+  Association of Southeast Asian Nations (ASEAN). Elastic says it found the group's
+  tools next to the malware of another cyber-espionage group it tracks as REF2924.
+  REF5961's arsenal includes malware such as EAGERBEE, RUDEBIRD, and DOWNTOWN.
+url: /ref5961
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 64234b2e-0c78-466d-8253-0df339f99f5f
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: CyberGate
+- name: Cyber Eye RAT

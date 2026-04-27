@@ -1,0 +1,23 @@
+name: LilacSquid
+aliases:
+- LilacSquid
+description: LilacSquid is an APT actor targeting a variety of industries worldwide
+  since at least 2021. They use tactics such as exploiting vulnerabilities and compromised
+  RDP credentials to gain access to victim organizations. Their post-compromise activities
+  involve deploying MeshAgent and a customized version of QuasarRAT known as PurpleInk
+  to maintain control over infected systems. LilacSquid has been observed using tools
+  like Secure Socket Funneling for data exfiltration.
+url: /lilacsquid
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: efacc258-fa0e-4686-99d2-03bab14a640e
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Agent.btz
+- name: Quasar RAT
+- name: Xploit
+- name: Socket23
+- name: SocketPlayer

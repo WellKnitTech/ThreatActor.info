@@ -1,0 +1,21 @@
+name: Pacha Group
+aliases:
+- Pacha Group
+description: Antd is a miner found in the wild on September 18, 2018. Recently we
+  discovered that the authors from Antd are actively delivering newer campaigns deploying
+  a broad number of components, most of them completely undetected and operating within
+  compromised third party Linux servers. Furthermore, we have observed that some of
+  the techniques implemented by this group are unconventional, and there is an element
+  of sophistication to them. We believe the authors behind this malware are from Chinese
+  origin. We have labeled the undetected Linux.Antd variants, Linux.GreedyAntd and
+  classified the threat actor as Pacha Group.
+url: /pacha-group
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: aa469d96-9357-11e9-bd7d-df125c7cba53
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Miner-C

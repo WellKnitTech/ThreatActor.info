@@ -1,0 +1,22 @@
+name: Water Bakunawa
+aliases:
+- Water Bakunawa
+description: Water Bakunawa is a cybercriminal group identified by Trend Micro, responsible
+  for the RansomHub ransomware, which exploits the Zerologon vulnerability to gain
+  unauthorized network access. The group employs EDRKillShifter to evade detection
+  and disrupt security monitoring processes, utilizing advanced anti-EDR techniques.
+  Their targets include sectors such as water and wastewater, IT, healthcare, and
+  financial services. Members of the group and related affiliates have linked by association
+  with other high-profile RaaS groups like Scattered Spider and ALPHV.
+url: /water-bakunawa
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 8472ca74-ecc9-48f1-9f13-8e60b69187e8
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: CyberGate
+- name: Cyber Eye RAT
+- name: Xploit

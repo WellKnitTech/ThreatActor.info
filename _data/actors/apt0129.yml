@@ -1,0 +1,44 @@
+name: Mustang Panda
+aliases:
+- Mustang Panda
+- TA416
+- RedDelta
+- BRONZE PRESIDENT
+- STATELY TAURUS
+- FIREANT
+- CAMARO DRAGON
+- EARTH PRETA
+- HIVE0154
+- TWILL TYPHOON
+- TANTALUM
+- LUMINOUS MOTH
+- UNC6384
+- TEMP.Hex
+- Red Lich
+description: 'Mustang Panda is a China-based cyber espionage threat actor that has
+  been conducting operations since at least 2012. Mustang Panda has been known to
+  use tailored phishing lures and decoy documents to deliver malicious payloads.  Mustang
+  Panda has targeted government, diplomatic, and non-governmental organizations, including
+  think tanks, religious institutions, and research entities, across the United States,
+  Europe, and Asia, with notable activity in Russia, Mongolia, Myanmar, Pakistan,
+  and Vietnam. (Citation: BlackBerry MUSTANG PANDA October 2022)(Citation: Eset PlugX
+  Korplug Mustang Panda March 2022)(Citation: Anomali MUSTANG PANDA October 2019)(Citation:
+  Cisco Talos MUSTANG PANDA PLUGX PUBLOAD MAY 2022)(Citation: Secureworks BRONZE PRESIDENT
+  December 2019)(Citation: DOJ Affidavit Search and Seizure PlugX December 2024)(Citation:
+  EclecticIQ Mustang Panda PlugX)(Citation: ATTACKIQ MUSTANG PANDA TONESHELL March
+  2023)(Citation: Crowdstrike MUSTANG PANDA June 2018)(Citation: Palo Alto Networks,
+  Unit 42)(Citation: Sophos PlugX September 2022)(Citation: Sophos Mustang Panda PLUGX)(Citation:
+  Zscaler)'
+url: /apt0129
+external_id: G0129
+mitre_id: G0129
+external_url: https://attack.mitre.org/groups/G0129
+mitre_url: https://attack.mitre.org/groups/G0129
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T05:01:37Z'
+    source_record_id: G0129
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json

@@ -1,0 +1,24 @@
+name: XinXin
+aliases:
+- changqixinyun
+- Black Technology
+- XinXin
+description: XinXin is a Chinese-speaking threat actor known for its phishing-as-a-service
+  platform, Lucid, which targets global organizations to steal credit card details
+  and personally identifiable information through smishing campaigns. The group employs
+  advanced techniques such as exploiting Rich Communication Services and Apple's iMessage
+  protocol to bypass traditional SMS filters. XinXin also develops and utilizes other
+  phishing kits like Lighthouse and Darcula, facilitating large-scale phishing operations
+  with automated tools and evasion techniques. The group operates a structured hierarchy
+  and monetizes stolen data while actively supporting the development of similar PhaaS
+  services.
+url: /xinxin
+country: China
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: dfae3e01-aa44-417b-b7be-73ef8e93633f
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: Xploit

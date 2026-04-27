@@ -1,0 +1,35 @@
+name: LOTUS PANDA
+aliases:
+- Spring Dragon
+- ST Group
+- DRAGONFISH
+- BRONZE ELGIN
+- ATK1
+- G0030
+- Red Salamander
+- Lotus BLossom
+- Billbug
+- Lotus Blossom
+- LOTUS PANDA
+description: Lotus Blossom is a threat group that has targeted government and military
+  organizations in Southeast Asia.
+url: /lotus-panda
+country: China
+risk_level: High
+sector_focus:
+- Military
+- Government, Administration
+- Government
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 32fafa69-fe3c-49db-afd4-aac2664bcf0d
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+targeted_victims:
+- Japan
+- Philippines
+- Hong Kong
+- Indonesia
+- Taiwan
+- Vietnam
+incident_type: Espionage

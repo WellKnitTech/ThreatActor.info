@@ -1,0 +1,25 @@
+name: Operation Comando
+aliases:
+- Operation Comando
+description: 'Operation Comando is a pure cybercrime campaign, possibly with Brazilian
+  origin, with a concrete and persistent focus on the hospitality sector, which proves
+  how a threat actor can be successful in pursuing its objectives while maintaining
+  a cheap budget. The use of DDNS services, publicly available remote access tools,
+  and having a minimum knowledge on software development (in this case VB.NET) has
+  been enough for running a campaign lasting month, and potentially gathering credit
+  card information and other possible data. '
+url: /operation-comando
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 35c40ce2-57c0-479e-8a56-efbb8695e395
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: RemoteCMD
+- name: CyberGate
+- name: Cyber Eye RAT
+- name: Remote Utilities
+- name: RemotePC
+- name: Minimo

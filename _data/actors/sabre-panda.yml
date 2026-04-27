@@ -1,0 +1,12 @@
+name: SABRE PANDA
+aliases:
+- SABRE PANDA
+description: ''
+url: /sabre-panda
+country: China
+risk_level: High
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 67adfa07-869f-4052-9d56-b88a51489902
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

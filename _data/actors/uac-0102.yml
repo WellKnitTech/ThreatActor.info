@@ -1,0 +1,16 @@
+name: UAC-0102
+aliases:
+- UAC-0102
+description: UAC-0102 is a threat actor group targeting UKR.NET users through phishing
+  attacks. They distribute emails with HTML file attachments that redirect users to
+  a fraudulent website to steal authentication data. Security teams can use Sigma
+  rules to detect their phishing campaigns and leverage IOCs provided by CERT-UA to
+  hunt for their activity in SIEM or EDR environments.
+url: /uac-0102
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 7dd2e8ee-4232-43f5-9866-006160f19aea
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null

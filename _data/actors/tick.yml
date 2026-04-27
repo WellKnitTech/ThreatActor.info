@@ -1,0 +1,46 @@
+name: Tick
+aliases:
+- Nian
+- BRONZE BUTLER
+- REDBALDKNIGHT
+- STALKER PANDA
+- G0060
+- Stalker Taurus
+- PLA Unit 61419
+- Swirl Typhoon
+- Tick
+description: Tick is a cyber espionage group with likely Chinese origins that has
+  been active since at least 2008. The group appears to have close ties to the Chinese
+  National University of Defense and Technology, which is possibly linked to the PLA.
+  This threat actor targets organizations in the critical infrastructure, heavy industry,
+  manufacturing, and international relations sectors for espionage purposes.  The
+  attacks appear to be centered on political, media, and engineering sectors. STALKER
+  PANDA has been observed conducting targeted attacks against Japan, Taiwan, Hong
+  Kong, and the United States.
+url: /tick
+country: China
+risk_level: High
+sector_focus:
+- Infrastructure
+- Industrial
+- Manufacturing
+- Diplomacy
+- News - Media
+- Political party
+- Engineering
+- Private sector
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: add6554a-815a-4ac3-9b22-9337b9661ab8
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+targeted_victims:
+- Japan
+- China
+- South Korea
+- Russian Federation
+incident_type: Espionage
+malware:
+- name: CyberGate
+- name: Cyber Eye RAT
+- name: UNITEDRAKE

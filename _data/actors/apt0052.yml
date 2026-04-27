@@ -1,0 +1,36 @@
+name: CopyKittens
+aliases:
+- CopyKittens
+- G0052
+- Slayer Kitten
+description: 'CopyKittens is an Iranian cyber espionage group that has been operating
+  since at least 2013. It has targeted countries including Israel, Saudi Arabia, Turkey,
+  the U.S., Jordan, and Germany. The group is responsible for the campaign known as
+  Operation Wilted Tulip.(Citation: ClearSky CopyKittens March 2017)(Citation: ClearSky
+  Wilted Tulip July 2017)(Citation: CopyKittens Nov 2015)'
+url: /apt0052
+external_id: G0052
+mitre_id: G0052
+external_url: https://attack.mitre.org/groups/G0052
+mitre_url: https://attack.mitre.org/groups/G0052
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+    source_record_id: G0052
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+risk_level: High
+sector_focus:
+- Government
+- Private sector
+- Civil society
+country: Iran
+targeted_victims:
+- Israel
+- Jordan
+- Saudi Arabia
+- Germany
+- United States
+incident_type: Espionage

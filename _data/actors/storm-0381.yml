@@ -1,0 +1,18 @@
+name: Storm-0381
+aliases:
+- DEV-0381
+- Storm-0381
+description: Storm-0381 is a threat actor identified by Microsoft as a Russian cybercrime
+  group. They are known for their use of malvertising to deploy Magniber, a type of
+  ransomware.
+url: /storm-0381
+country: Russia
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 874860fe-5aee-4c94-aee1-2166c225c41e
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: CyberGate
+- name: Cyber Eye RAT

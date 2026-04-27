@@ -1,0 +1,17 @@
+name: Red-Lili
+aliases:
+- Red-Lili
+description: RED-LILI is an active threat actor that has been identified by Checkmarx
+  SCS research team. They have been publishing malicious packages on NPM and PyPi
+  platforms, and have recently automated the process of creating NPM users for package
+  publication. The Checkmarx team has detected around 1500 malicious packages associated
+  with RED-LILI and has continuously disclosed their findings to the respective security
+  teams.
+url: /red-lili
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 99d188cf-31e5-440d-a114-297cb2242d73
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null

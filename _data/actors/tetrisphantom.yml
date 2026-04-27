@@ -1,0 +1,19 @@
+name: TetrisPhantom
+aliases:
+- TetrisPhantom
+description: TetrisPhantom relies on compromising of certain type of secure USB drives
+  that provide hardware encryption and is commonly used by government organizations.
+  While investigating this threat, experts identified an entire spying campaign that
+  uses a range of malicious modules to execute commands, collect files and information
+  from compromised computers and transfer them to other machines also using secure
+  USB drives.
+url: /tetrisphantom
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 5368c0a2-eb79-420c-b808-85ae719efccd
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Xpert

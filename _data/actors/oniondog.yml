@@ -1,0 +1,19 @@
+name: OnionDog
+aliases:
+- OnionDog
+description: This threat actor targets the South Korean government, transportation,
+  and energy sectors.
+url: /oniondog
+country: North Korea
+risk_level: High
+sector_focus:
+- Government
+- Private sector
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 5898e11e-a023-464d-975c-b36fb1639e69
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+targeted_victims:
+- South Korea
+incident_type: Espionage

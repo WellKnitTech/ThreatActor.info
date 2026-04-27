@@ -1,0 +1,28 @@
+name: UNC4540
+aliases:
+- UNC4540
+description: UNC4540 is a suspected Chinese threat actor targeting unpatched SonicWall
+  Secure Mobile Access appliances to deploy custom malware that establishes long-term
+  persistence for cyber espionage. The malware is designed to steal hashed credentials,
+  provide shell access, and persist through firmware upgrades, utilizing a variant
+  of the TinyShell backdoor. Mandiant has tracked UNC4540's activities back to 2021,
+  noting their focus on maintaining access to compromised devices. The group's tactics
+  are consistent with patterns observed in other Chinese threat actor campaigns targeting
+  network devices for zero-day exploits.
+url: /unc4540
+country: China
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: e6b27374-5055-4c2c-950b-06b4fc75a210
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: Backdoor.Oldrea
+- name: MobileOrder
+- name: Back Orifice
+- name: Back Orifice 2000
+- name: CyberGate
+- name: Cyber Eye RAT
+- name: TINY
+- name: Xploit

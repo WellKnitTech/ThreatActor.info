@@ -1,0 +1,39 @@
+name: APT9
+aliases:
+- NIGHTSHADE PANDA
+- Red Pegasus
+- Group 27
+- APT9
+description: APT9 engages in cyber operations where the goal is data theft, usually
+  focusing on the data and projects that make a particular organization competitive
+  within its field. APT9 was historically very active in the pharmaceuticals and biotechnology
+  industry. We have observed this actor use spearphishing, valid accounts, as well
+  as remote services for Initial Access. On at least one occasion, Mandiant observed
+  APT9 at two companies in the biotechnology industry and suspect that APT9 actors
+  may have gained initial access to one of the companies by using a trusted relationship
+  between the two companies. APT9 use a wide range of backdoors, including publicly
+  available backdoors, as well as backdoors that are believed to be custom, but are
+  used by multiple APT groups.
+url: /apt9
+country: China
+sector_focus:
+- Pharmaceuticals
+- Healthcare
+- Construction
+- Aerospace
+- Defense industrial base
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 7e6d82a4-3b7d-4c24-a2c5-e211ce6eafc5
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+targeted_victims:
+- United States
+malware:
+- name: Backdoor.Oldrea
+- name: RemoteCMD
+- name: CyberGate
+- name: Cyber Eye RAT
+- name: Remote Utilities
+- name: RemotePC

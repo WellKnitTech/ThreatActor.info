@@ -1,6 +1,6 @@
 # ThreatActor.info YAML Schema
 
-This document describes the schema for `_data/threat_actors.yml` - the single source of truth for all threat actor data.
+This document describes the schema for `_data/actors/*.yml` - the single source of truth for all threat actor data.
 
 ## Overview
 
@@ -145,7 +145,7 @@ ruby scripts/generate-pages.rb --force
 ```
 
 The generator:
-- Reads `_data/threat_actors.yml`
+- Reads `_data/actors/*.yml`
 - Creates `_threat_actors/*.md` for each actor
 - Preserves manually-enriched pages (detected by content markers)
 

@@ -1,0 +1,23 @@
+name: Storm-2603
+aliases:
+- Storm-2603
+description: The group Microsoft tracks as Storm-2603 is assessed with medium confidence
+  to be a China-based threat actor. Microsoft has not identified links between Storm-2603
+  and other known Chinese threat actors. Microsoft tracks this threat actor in association
+  with attempts to steal MachineKeys via the on-premises SharePoint vulnerabilities.
+  Although Microsoft has observed this threat actor deploying Warlock and Lockbit
+  ransomware in the past, Microsoft is currently unable to confidently assess the
+  threat actor’s objectives.  Additional actors may use these exploits to target unpatched
+  on-premises SharePoint systems, further emphasizing the need for organizations to
+  implement mitigations and security updates immediately.
+url: /storm-2603
+country: China
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 981402be-3b2d-4310-a7c6-c773aec869c1
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: China Chopper
+- name: Xploit

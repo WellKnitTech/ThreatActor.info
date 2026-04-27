@@ -1,0 +1,22 @@
+name: UAT-5918
+aliases:
+- UAT-5918
+description: UAT-5918 is an APT group that targets entities in Taiwan, primarily in
+  telecommunications, healthcare, and IT sectors, to establish long-term access for
+  information theft. They exploit N-day vulnerabilities in unpatched web and application
+  servers to gain initial access and utilize web shells, credential harvesting tools
+  like Mimikatz and LaZagne, and red-teaming tools for post-compromise activities.
+  UAT-5918 conducts network reconnaissance to pivot across endpoints, harvesting credentials
+  and sensitive data, including database backups. Their operations show significant
+  overlap with other APT groups in terms of TTPs and targeted industries.
+url: /uat-5918
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 82c0ebc5-0986-42cd-acd4-7c1888a0518e
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Xploit
+- name: CrossRat

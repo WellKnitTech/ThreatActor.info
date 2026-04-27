@@ -1,0 +1,17 @@
+name: NARWHAL SPIDER
+aliases:
+- GOLD ESSEX
+- TA544
+- Storm-0302
+- NARWHAL SPIDER
+description: NARWHAL SPIDER’s operation of Cutwail v2 was limited to country-specific
+  spam campaigns, although late in 2019 there appeared to be an effort to expand by
+  bringing in INDRIK SPIDER as a customer.
+url: /narwhal-spider
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: fda9cdea-0017-495e-879d-0f348db2aa07
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null

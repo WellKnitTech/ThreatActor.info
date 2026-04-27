@@ -1,15 +1,16 @@
 #!/usr/bin/env ruby
 
 require 'fileutils'
+require 'digest'
 require 'json'
 require 'net/http'
 require 'optparse'
 require 'time'
 require 'uri'
 require 'yaml'
+require_relative 'actor_store'
 
 class RansomLookImporter
-  DATA_FILE = '_data/threat_actors.yml'.freeze
   PAGE_DIR = '_threat_actors'.freeze
   DEFAULT_BASE_URL = 'https://www.ransomlook.io'.freeze
   DEFAULT_SNAPSHOT_ROOT = 'data/imports/ransomlook'.freeze
@@ -115,7 +116,7 @@ class RansomLookImporter
       Commands:
         fetch   Create a local RansomLook snapshot for later review/import.
         plan    Read a snapshot and print the changes that would be made.
-        import  Apply a snapshot to `_data/threat_actors.yml` and `_threat_actors/*.md`.
+        import  Apply a snapshot to `_data/actors/*.yml` and `_threat_actors/*.md`.
     TEXT
   end
 
@@ -173,6 +174,7 @@ class RansomLookImporter
       'source_base_url' => @options[:base_url],
       'retrieved_at' => Time.now.utc.iso8601,
       'record_count' => records.length,
+      'source_checksum_sha256' => Digest::SHA256.hexdigest(JSON.generate(records)),
       'fetch_mode' => @options[:use_export] ? 'export' : 'public-api',
       'groups_file' => 'groups.json'
     }
@@ -214,7 +216,7 @@ class RansomLookImporter
     records = filter_records(records)
     records = records.first(@options[:limit]) if @options[:limit]
 
-    existing_actors = safe_load_yaml_file(DATA_FILE)
+    existing_actors = ActorStore.load_all
     existing_pages = load_pages
     evaluation = evaluate_records(records, existing_actors)
 
@@ -496,8 +498,7 @@ class RansomLookImporter
   end
 
   def write_actor_yaml(actors)
-    content = actors.map { |actor| serialize_actor(actor) }.join
-    File.write(DATA_FILE, content)
+    ActorStore.save_all(actors)
   end
 
   def serialize_actor(actor)

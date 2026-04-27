@@ -1,0 +1,28 @@
+name: TA406
+aliases:
+- TA406
+description: TA406 is engaging in malware distribution, phishing, intelligence collection,
+  and cryptocurrency theft, resulting in a wide range of criminal activities.
+url: /ta406
+country: North Korea
+sector_focus:
+- Government
+- Journalists
+- NGOs
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 89f005f9-22e9-4c50-9b48-e94c521266e5
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+targeted_victims:
+- China
+- France
+- Germany
+- India
+- Japan
+- North America
+- Russia
+- South Africa
+- South Korea
+- United Kingdom

@@ -1,0 +1,25 @@
+name: Opal Sleet
+aliases:
+- OSMIUM
+- Konni
+- Vedalia
+- Opal Sleet
+description: Konni is a threat actor associated with APT37, a North Korean cyber crime
+  group. They have been active since 2012 and are known for their cyber-espionage
+  activities. Konni has targeted various sectors, including education, government,
+  business organizations, and the cryptocurrency industry. They have exploited vulnerabilities
+  such as CVE-2023-38831 and have used malware like KonniRAT to gain control of victim
+  hosts and steal important information.
+url: /opal-sleet
+country: North Korea
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 5f71a9ea-511d-4fdd-9807-271ef613f488
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: CyberGate
+- name: Cyber Eye RAT
+- name: Xploit
+- name: Konni

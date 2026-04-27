@@ -1,0 +1,23 @@
+name: Tropic Trooper
+aliases:
+- KeyBoy
+- Pirate Panda
+- Tropic Trooper
+description: 'Tropic Trooper is an unaffiliated threat group that has led targeted
+  campaigns against targets in Taiwan, the Philippines, and Hong Kong. Tropic Trooper
+  focuses on targeting government, healthcare, transportation, and high-tech industries
+  and has been active since 2011.(Citation: TrendMicro Tropic Trooper Mar 2018)(Citation:
+  Unit 42 Tropic Trooper Nov 2016)(Citation: TrendMicro Tropic Trooper May 2020)'
+url: /apt0081
+external_id: G0081
+mitre_id: G0081
+external_url: https://attack.mitre.org/groups/G0081
+mitre_url: https://attack.mitre.org/groups/G0081
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T05:24:31Z'
+    source_record_id: G0081
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json

@@ -19,10 +19,10 @@ require 'optparse'
 require 'net/http'
 require 'uri'
 require 'time'
+require_relative 'actor_store'
 
 # Configuration
 MITRE_STIX_URL = "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-DATA_FILE = "_data/threat_actors.yml"
 THREAT_ACTORS_DIR = "_threat_actors"
 
 # Options
@@ -198,12 +198,7 @@ def slugify(name)
 end
 
 def load_existing_actors
-  return [] unless File.exist?(DATA_FILE)
-  
-  data = YAML.load_file(DATA_FILE)
-  return [] unless data
-  
-  data.is_a?(Array) ? data : (data['threat_actors'] || [])
+  ActorStore.load_all
 end
 
 def fetch_mitre_data
@@ -459,8 +454,8 @@ results[:create].each do |actor|
 end
 
 # Write updated YAML
-puts "\nWriting _data/threat_actors.yml..."
-File.write(DATA_FILE, existing_actors.to_yaml(line_width: -1))
+puts "\nWriting _data/actors/*.yml..."
+ActorStore.save_all(existing_actors)
 
 # Save references cache for page generation
 # Extract from actors that came from MITRE (have external_id)

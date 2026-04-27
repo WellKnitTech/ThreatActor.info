@@ -1,0 +1,30 @@
+name: LongNosedGoblin
+aliases:
+- LongNosedGoblin
+description: LongNosedGoblin is a China-aligned APT group targeting governmental entities
+  in Southeast Asia and Japan for cyberespionage. The group employs Group Policy for
+  malware deployment and utilizes cloud services like Microsoft OneDrive and Google
+  Drive as C&C servers. Their operations feature a modular malware ecosystem, including
+  backdoors, browser data stealers, and PowerShell-based downloaders that execute
+  multi-stage payloads in memory. LongNosedGoblin's tactics emphasize reconnaissance-driven
+  targeting and the abuse of trusted enterprise mechanisms, allowing for stealthy
+  persistence within compromised networks.
+url: /longnosedgoblin
+country: China
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: f2e81e5f-33ab-47c0-89e4-c5420bfe7b9d
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: Backdoor.Oldrea
+- name: CloudDuke
+- name: PowerDuke
+- name: POWERSTATS
+- name: Power Loader
+- name: POWERSOURCE
+- name: China Chopper
+- name: CyberGate
+- name: Cyber Eye RAT
+- name: PowerRAT

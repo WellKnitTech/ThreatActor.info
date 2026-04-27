@@ -1,0 +1,74 @@
+name: Earth Lusca
+aliases:
+- AQUATIC PANDA
+- BountyGlad
+- BRONZE UNIVERSITY
+- Charcoal Typhoon
+- CHROMIUM
+- ControlX
+- Earth Lusca
+- FISHMONGER
+- Red Dev 10
+- Red Scylla
+- RedHotel
+- TAG-22
+description: 'Earth Lusca is a suspected China-based cyber espionage group that has
+  been active since at least April 2019. Earth Lusca has targeted organizations in
+  Australia, China, Hong Kong, Mongolia, Nepal, the Philippines, Taiwan, Thailand,
+  Vietnam, the United Arab Emirates, Nigeria, Germany, France, and the United States.
+  Targets included government institutions, news media outlets, gambling companies,
+  educational institutions, COVID-19 research organizations, telecommunications companies,
+  religious movements banned in China, and cryptocurrency trading platforms; security
+  researchers assess some Earth Lusca operations may be financially motivated.(Citation:
+  TrendMicro EarthLusca 2022)
+
+
+  Earth Lusca has used malware commonly used by other Chinese threat groups, including
+  APT41 and the Winnti Group cluster, however security researchers assess Earth Lusca''s
+  techniques and infrastructure are separate.(Citation: TrendMicro EarthLusca 2022)'
+url: /apt1006
+external_id: G1006
+mitre_id: G1006
+external_url: https://attack.mitre.org/groups/G1006
+mitre_url: https://attack.mitre.org/groups/G1006
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+    source_record_id: G1006
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+risk_level: null
+sector_focus:
+- Gambling companies
+- Government Institutions
+- Education
+- Media and Entertainment
+- Pro-democracy and human rights political organizations
+- Telecommunications
+- Religious organization
+- Cryptocurrency
+- Medical
+- Covid-19 research organizations
+country: China
+targeted_victims:
+- Australia
+- China
+- France
+- Germany
+- Hong Kong
+- Japan
+- Mongolia
+- Nepal
+- Nigeria
+- Philippines
+- Taiwan
+- Thailand
+- United Arab Emirates
+- United States
+- Vietnam
+malware:
+- name: Umbreon
+- name: China Chopper
+- name: Winnti

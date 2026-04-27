@@ -1,0 +1,18 @@
+name: Prophet Spider
+aliases:
+- GOLD MELODY
+- UNC961
+- Prophet Spider
+description: PROPHET SPIDER is an eCrime actor, active since at least May 2017, that
+  primarily gains access to victims by compromising vulnerable web servers, which
+  commonly involves leveraging a variety of publicly disclosed vulnerabilities. The
+  adversary has likely functioned as an access broker — handing off access to a third
+  party to deploy ransomware — in multiple instances.
+url: /prophet-spider
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: eb0b100c-8a4e-4859-b6f8-eebd66c3d20c
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null

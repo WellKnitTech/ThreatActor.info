@@ -1,0 +1,14 @@
+name: NB65
+aliases:
+- Network Battalion 65
+- NB65
+description: Network Battalion 65 is an hactivist group with ties to Anonymous, known
+  for attacking Russian companies and performing hack-and-leak operations.
+url: /nb65
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: e1941666-dcde-4f31-8a56-8041ac82bb99
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null

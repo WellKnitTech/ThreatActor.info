@@ -3,6 +3,7 @@
 # frozen_string_literal: true
 
 require 'csv'
+require 'digest'
 require 'fileutils'
 require 'json'
 require 'net/http'
@@ -11,9 +12,9 @@ require 'set'
 require 'time'
 require 'uri'
 require 'yaml'
+require_relative 'actor_store'
 
 class AptnotesImporter
-  DATA_FILE = '_data/threat_actors.yml'.freeze
   DEFAULT_SOURCE_URL = 'https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv'.freeze
   DEFAULT_SNAPSHOT_ROOT = 'data/imports/aptnotes'.freeze
   DEFAULT_OVERRIDES_FILE = 'data/imports/aptnotes/mapping_overrides.yml'.freeze
@@ -133,6 +134,7 @@ class AptnotesImporter
                                           'source_url' => @options[:source_url],
                                           'retrieved_at' => Time.now.utc.iso8601,
                                           'record_count' => rows.length,
+                                          'source_checksum_sha256' => Digest::SHA256.hexdigest(response.body),
                                           'csv_file' => 'APTnotes.csv'
                                         }))
 
@@ -141,7 +143,7 @@ class AptnotesImporter
 
   def import_snapshot
     records = load_snapshot_records
-    existing_actors = safe_load_yaml_file(DATA_FILE) || []
+    existing_actors = ActorStore.load_all
     actor_lookup, actor_slug_lookup, existing_by_name = build_actor_indexes(existing_actors)
     evaluations = evaluate_records(records, actor_lookup, actor_slug_lookup, existing_by_name)
     actor_updates = build_actor_updates(evaluations, existing_by_name)
@@ -155,7 +157,7 @@ class AptnotesImporter
     return unless @options[:write]
 
     apply_updates(actor_updates, existing_actors)
-    File.write(DATA_FILE, existing_actors.sort_by { |actor| actor['name'].to_s.downcase }.to_yaml(line_width: -1))
+    ActorStore.save_all(existing_actors)
     puts "Applied APTnotes provenance updates to #{actor_updates.length} actors"
   end
 

@@ -1,0 +1,40 @@
+name: TEMPER PANDA
+aliases:
+- Admin338
+- Team338
+- MAGNESIUM
+- admin@338
+- G0018
+- TEMPER PANDA
+description: China-based cyber threat group. It has previously used newsworthy events
+  as lures to deliver malware and has primarily targeted organizations involved in
+  financial, economic, and trade policy, typically using publicly available RATs such
+  as PoisonIvy, as well as some non-public backdoors. This threat actor targets prodemocratic
+  activists and organizations in Hong Kong, European and international financial institutions,
+  and a U.S.-based think tank.
+url: /temper-panda
+country: China
+risk_level: High
+sector_focus:
+- Activists
+- Trade
+- Finance
+- Political party
+- Government
+- Private sector
+- Civil society
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: ac4bce1f-b3ec-4c44-bd36-b6cc986b319b
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+targeted_victims:
+- Hong Kong
+- United States
+incident_type: Espionage
+malware:
+- name: Backdoor.Oldrea
+- name: PoisonIvy
+- name: China Chopper
+- name: CyberGate
+- name: Cyber Eye RAT

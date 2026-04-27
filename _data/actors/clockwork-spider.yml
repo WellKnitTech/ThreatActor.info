@@ -1,0 +1,13 @@
+name: CLOCKWORK SPIDER
+aliases:
+- CLOCKWORK SPIDER
+description: Opportunistic actor that installs custom root certificate on victim to
+  support man-in-the-middle network monitoring.
+url: /clockwork-spider
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 2d2f3b53-c544-4823-a65f-da53ff8f594e
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null

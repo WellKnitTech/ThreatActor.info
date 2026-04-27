@@ -1,0 +1,17 @@
+name: TA570
+aliases:
+- DEV-0450
+- TA570
+description: One of the most active Qbot malware affiliates, Proofpoint has tracked
+  the large cybercrime threat actor TA570 since 2018.
+url: /ta570
+country: Russia
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 82a808ad-3f2f-43c0-bd15-848a6e27da95
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: CyberGate
+- name: Cyber Eye RAT

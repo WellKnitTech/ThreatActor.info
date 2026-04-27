@@ -1,0 +1,24 @@
+name: Red Nue
+aliases:
+- LuoYu
+- Red Nue
+description: Red Nue, active since at least 2017, is known for its use of the multi-platform
+  LootRAt backdoor, also known as ReverseWindow. LootRAT has variants for Windows
+  and Macintosh (reported in open source as Demsty), as well as an Android variant
+  known as SpyDealer. Red Nue has also used another Windows backdoor known as WinDealer
+  since at least 2019, when it deployed it to targets as part of a watering hole campaign
+  on a Chinese news website for the Chinese diaspora community. Parts of Asia feature
+  heavily in Red Nue's victimology.
+url: /red-nue
+country: China
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: c73c8a76-1e44-44d6-b955-79f3a73582a1
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: Backdoor.Oldrea
+- name: DroidJack
+- name: Androrat
+- name: Windows Remote Desktop

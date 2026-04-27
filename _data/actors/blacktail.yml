@@ -1,0 +1,25 @@
+name: Blacktail
+aliases:
+- Blacktail
+description: Blacktail is a cybercrime group that has gained attention for its ransomware
+  campaigns, particularly the Buhti ransomware. They are known for using custom-built
+  data exfiltration tools and have been observed exploiting vulnerabilities in both
+  Windows and Linux systems.
+url: /blacktail
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: e06e1bcd-7da2-4732-934a-9fa1efa427ad
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: BlackEnergy
+- name: BLACKCOFFEE
+- name: Blackshades
+- name: BlackNix
+- name: CyberGate
+- name: Cyber Eye RAT
+- name: Windows Remote Desktop
+- name: Xploit
+- name: BlackHole

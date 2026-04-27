@@ -1,0 +1,12 @@
+name: Sands Casino
+aliases:
+- Sands Casino
+description: ''
+url: /sands-casino
+country: Iran
+risk_level: High
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 1de1a64e-ea14-4e79-9e41-6958bdb6c0ff
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

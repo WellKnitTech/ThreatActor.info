@@ -1,0 +1,15 @@
+name: TA575
+aliases:
+- TA575
+description: TA575 is a Dridex affiliate tracked by Proofpoint since late 2020. This
+  group distributes malware such as Dridex, Qakbot, and WastedLocker via malicious
+  URLs, Office attachments, and password-protected files. On average, TA575 distributes
+  almost 4,000 messages per campaign impacting hundreds of organizations.
+url: /ta575
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: fbb04514-f71d-4a95-a1af-727d21ef12a2
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null

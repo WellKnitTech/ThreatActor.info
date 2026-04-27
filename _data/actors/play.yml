@@ -1,0 +1,32 @@
+name: Play
+aliases:
+- Play
+- Play Ransomware
+description: 'Play is a ransomware group that has been active since at least 2022
+  deploying  Playcrypt ransomware against the business, government, critical infrastructure,
+  healthcare, and media sectors in North America, South America, and Europe. Play
+  actors employ a double-extortion model, encrypting systems after exfiltrating data,
+  and are presumed by security researchers to operate as a closed group.(Citation:
+  CISA Play Ransomware Advisory December 2023)(Citation: Trend Micro Ransomware Spotlight
+  Play July 2023)'
+url: /play
+country: Unknown
+first_seen: '2022'
+last_activity: '2025'
+risk_level: High
+sector_focus:
+- Healthcare
+- Education
+- Government
+- Technology
+external_id: G1040
+external_url: https://attack.mitre.org/groups/G1040
+mitre_id: G1040
+mitre_url: https://attack.mitre.org/groups/G1040
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+    source_record_id: G1040
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json

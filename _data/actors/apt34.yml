@@ -1,0 +1,45 @@
+name: APT34
+aliases:
+- APT34
+- COBALT GYPSY
+- Crambus
+- Earth Simnavaz
+- EUROPIUM
+- Evasive Serpens
+- Hazel Sandstorm
+- Helix Kitten
+- IRN2
+- ITG13
+- OilRig
+- TA452
+description: 'OilRig is a suspected Iranian threat group that has targeted Middle
+  Eastern and international victims since at least 2014. The group has targeted a
+  variety of sectors, including financial, government, energy, chemical, and telecommunications.
+  It appears the group carries out supply chain attacks, leveraging the trust relationship
+  between organizations to attack their primary targets. The group works on behalf
+  of the Iranian government based on infrastructure details that contain references
+  to Iran, use of Iranian infrastructure, and targeting that aligns with nation-state
+  interests.(Citation: FireEye APT34 Dec 2017)(Citation: Palo Alto OilRig April 2017)(Citation:
+  ClearSky OilRig Jan 2017)(Citation: Palo Alto OilRig May 2016)(Citation: Palo Alto
+  OilRig Oct 2016)(Citation: Unit42 OilRig Playbook 2023)(Citation: Unit 42 QUADAGENT
+  July 2018)'
+url: /apt34
+country: Iran
+first_seen: '2014'
+last_activity: '2024'
+risk_level: High
+sector_focus:
+- Energy
+- Government
+- Telecommunications
+external_id: G0049
+external_url: https://attack.mitre.org/groups/G0049
+mitre_id: G0049
+mitre_url: https://attack.mitre.org/groups/G0049
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T05:24:31Z'
+    source_record_id: G0049
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json

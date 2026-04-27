@@ -1,0 +1,20 @@
+name: UNC1878
+aliases:
+- UNC1878
+description: UNC1878 is a financially motivated threat actor that monetizes network
+  access via the deployment of RYUK ransomware. Earlier this year, Mandiant published
+  a blog on a fast-moving adversary deploying RYUK ransomware, UNC1878. Shortly after
+  its release, there was a significant decrease in observed UNC1878 intrusions and
+  RYUK activity overall almost completely vanishing over the summer. But beginning
+  in early fall, Mandiant has seen a resurgence of RYUK along with TTP overlaps indicating
+  that UNC1878 has returned from the grave and resumed their operations.
+url: /unc1878
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 3c2bb7d7-a085-4594-adc7-4a20cf724abb
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: TURNEDUP

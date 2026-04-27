@@ -1,0 +1,24 @@
+name: Head Mare
+aliases:
+- Head Mare
+description: Head Mare is a hacktivism focussed threat actor group known for targeting
+  Russia and Belarus sectors using a remote access malware called PhantomRAT. They
+  have been observed executing malicious code through specially crafted RAR archives,
+  different from previous attacks exploiting vulnerabilities. The attribution of their
+  campaign to Ukraine is uncertain due to limited visibility inside Russian networks.
+  PhantomCore's use of RAR archives in their attack chain has been previously observed
+  in other threat actor groups like Forest Blizzard.
+url: /head-mare
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 485947c7-edb6-4a07-9276-2114dc767551
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: RemoteCMD
+- name: Blizzard
+- name: Remote Utilities
+- name: RemotePC
+- name: Xploit

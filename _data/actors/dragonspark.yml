@@ -1,0 +1,25 @@
+name: DragonSpark
+aliases:
+- DragonSpark
+description: DragonSpark is a threat actor that has been conducting attacks primarily
+  targeting organizations in East Asia. They utilize the open-source tool SparkRAT,
+  which is a multi-platform and frequently updated remote access Trojan. The threat
+  actor is believed to be Chinese-speaking based on their use of Chinese language
+  support and compromised infrastructure located in China and Taiwan. They employ
+  various techniques to evade detection, including Golang source code interpretation
+  and the use of the China Chopper webshell.
+url: /dragonspark
+country: China
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: a219a78b-7b91-41b1-bf14-91e31e0bb9da
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: Trojan.Karagany
+- name: China Chopper
+- name: RemoteCMD
+- name: Trojan.Mebromi
+- name: Remote Utilities
+- name: RemotePC

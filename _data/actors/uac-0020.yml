@@ -1,0 +1,24 @@
+name: UAC-0020
+aliases:
+- Vermin
+- SickSync
+- UAC-0020
+description: Vermin is a threat actor group linked to the Luhansk People’s Republic
+  and believed to be acting on behalf of the Kremlin. They have targeted Ukrainian
+  government infrastructure using malware like Spectr and legitimate tools like SyncThing
+  for data exfiltration. Vermin has been active since at least 2018, using custom-made
+  RATs like Vermin and open-source tools like Quasar for cyber-espionage. The group
+  has resurfaced after periods of inactivity to conduct espionage operations against
+  Ukraine's military and defense sectors.
+url: /uac-0020
+country: Russia
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 318be739-26fd-4f4d-bac8-aa20ec8273b7
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: CyberGate
+- name: Quasar RAT
+- name: Cyber Eye RAT

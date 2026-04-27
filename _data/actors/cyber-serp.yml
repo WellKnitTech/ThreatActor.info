@@ -1,0 +1,22 @@
+name: Cyber Serp
+aliases:
+- UAC-0255
+- Cyber Serp
+description: UAC-0255 is a threat actor that conducted a phishing campaign impersonating
+  CERT-UA to distribute the AGEWHEEZE RAT, targeting organizations in Ukraine's public
+  and private sectors. The campaign is part of a broader trend of using trusted identities
+  to enhance victim engagement, as seen in previous activities like UAC-0190 and UAC-0252.
+  CERT-UA identified UAC-0255 after discovering links to the CyberSerp Telegram channel,
+  which claimed responsibility for the attack. The activity is documented under the
+  identifier CERT-UA#21075, with detection rules available for cybersecurity analysts.
+url: /cyber-serp
+country: Russia
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 898033a1-8e4c-400d-b4a2-c59bfc64970a
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: CyberGate
+- name: Cyber Eye RAT

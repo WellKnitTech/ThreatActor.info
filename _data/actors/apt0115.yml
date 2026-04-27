@@ -1,0 +1,31 @@
+name: GOLD SOUTHFIELD
+aliases:
+- GOLD SOUTHFIELD
+- Pinchy Spider
+description: 'GOLD SOUTHFIELD is a financially motivated threat group active since
+  at least 2018 that operates the REvil Ransomware-as-a Service (RaaS). GOLD SOUTHFIELD
+  provides backend infrastructure for affiliates recruited on underground forums to
+  perpetrate high value deployments. By early 2020, GOLD SOUTHFIELD started capitalizing
+  on the new trend of stealing data and further extorting the victim to pay for their
+  data to not get publicly leaked.(Citation: Secureworks REvil September 2019)(Citation:
+  Secureworks GandCrab and REvil September 2019)(Citation: Secureworks GOLD SOUTHFIELD)(Citation:
+  CrowdStrike Evolution of Pinchy Spider July 2021)'
+url: /apt0115
+external_id: G0115
+mitre_id: G0115
+external_url: https://attack.mitre.org/groups/G0115
+mitre_url: https://attack.mitre.org/groups/G0115
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T05:24:31Z'
+    source_record_id: G0115
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+risk_level: null
+country: null
+malware:
+- name: CyberGate
+- name: Cyber Eye RAT
+- name: Archelaus Beta

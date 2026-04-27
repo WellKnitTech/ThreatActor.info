@@ -1,0 +1,23 @@
+name: Storm-1674
+aliases:
+- Storm-1674
+description: Storm-1674 is an access broker known for using tools based on the publicly
+  available TeamsPhisher tool to distribute DarkGate malware. Storm-1674 campaigns
+  have typically relied on phishing lures sent over Teams with malicious attachments,
+  such as ZIP files containing a LNK file that ultimately drops DarkGate and Pikabot.
+  In September 2023, Microsoft observed handoffs from Storm-1674 to ransomware operators
+  that have led to Black Basta ransomware deployment.
+url: /storm-1674
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: eb7b5ed7-cf9d-4c72-8f89-a2ee070b89b6
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: BlackEnergy
+- name: BLACKCOFFEE
+- name: Blackshades
+- name: BlackNix
+- name: BlackHole

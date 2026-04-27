@@ -3,6 +3,7 @@
 # frozen_string_literal: true
 
 require 'csv'
+require 'digest'
 require 'fileutils'
 require 'json'
 require 'net/http'
@@ -11,9 +12,9 @@ require 'set'
 require 'time'
 require 'uri'
 require 'yaml'
+require_relative 'actor_store'
 
 class AptGroupsOperationsImporter
-  DATA_FILE = '_data/threat_actors.yml'.freeze
   SHEET_ID = '1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU'.freeze
   DEFAULT_SNAPSHOT_ROOT = 'data/imports/apt-groups-operations'.freeze
   DEFAULT_OVERRIDES_FILE = 'data/imports/apt-groups-operations/mapping_overrides.yml'.freeze
@@ -126,19 +127,25 @@ class AptGroupsOperationsImporter
       File.write(File.join(@options[:output], "#{tab_name}.csv"), csv)
     end
 
+    tab_checksums = tabs.keys.sort.each_with_object({}) do |tab_name, memo|
+      csv_path = File.join(@options[:output], "#{tab_name}.csv")
+      memo[tab_name] = Digest::SHA256.hexdigest(File.read(csv_path))
+    end
+
     File.write(File.join(@options[:output], 'manifest.yml'), YAML.dump({
                                                                          'source_name' => SOURCE_NAME,
                                                                          'source_url' => SOURCE_URL,
                                                                          'sheet_id' => SHEET_ID,
                                                                          'retrieved_at' => Time.now.utc.iso8601,
-                                                                         'tabs' => tabs.transform_values { |config| config[:gid] }
+                                                                         'tabs' => tabs.transform_values { |config| config[:gid] },
+                                                                         'tab_checksums_sha256' => tab_checksums
                                                                        }))
     puts "Fetched #{tabs.length} spreadsheet tabs into #{@options[:output]}"
   end
 
   def import_snapshot
     rows = load_snapshot_rows
-    existing_actors = safe_load_yaml_file(DATA_FILE) || []
+    existing_actors = ActorStore.load_all
     existing_lookup, external_id_lookup, existing_by_name = build_existing_indexes(existing_actors)
     candidates = build_candidates(rows, existing_lookup, external_id_lookup, existing_by_name)
     candidates.select! { |candidate| actor_filter_match?(candidate[:existing_actor_name] || candidate[:name]) } unless @options[:actor_filters].empty?
@@ -151,7 +158,7 @@ class AptGroupsOperationsImporter
     return unless @options[:write]
 
     apply_candidates(candidates, existing_actors)
-    File.write(DATA_FILE, existing_actors.sort_by { |actor| actor['name'].to_s.downcase }.to_yaml(line_width: -1))
+    ActorStore.save_all(existing_actors)
     puts "Applied spreadsheet enrichments to #{candidates.count { |candidate| candidate[:action] == 'update' }} actors"
   end
 

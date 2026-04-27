@@ -1,0 +1,29 @@
+name: Ke3chang
+aliases:
+- APT15
+- GREF
+- Ke3chang
+- Mirage
+- NICKEL
+- Nylon Typhoon
+- Playful Dragon
+- RoyalAPT
+- Vixen Panda
+description: 'Ke3chang is a threat group attributed to actors operating out of China.
+  Ke3chang has targeted oil, government, diplomatic, military, and NGOs in Central
+  and South America, the Caribbean, Europe, and North America since at least 2010.(Citation:
+  Mandiant Operation Ke3chang November 2014)(Citation: NCC Group APT15 Alive and Strong)(Citation:
+  APT15 Intezer June 2018)(Citation: Microsoft NICKEL December 2021)'
+url: /apt0004
+external_id: G0004
+mitre_id: G0004
+external_url: https://attack.mitre.org/groups/G0004
+mitre_url: https://attack.mitre.org/groups/G0004
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T05:24:31Z'
+    source_record_id: G0004
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json

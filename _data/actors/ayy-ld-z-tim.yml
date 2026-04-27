@@ -1,0 +1,21 @@
+name: Ayyıldız Tim
+aliases:
+- Crescent and Star
+- Ayyıldız Tim
+description: Ayyıldız (Crescent and Star) Tim is a nationalist hacking group founded
+  in 2002. It performs defacements and DDoS attacks against the websites of governments
+  that it considers to be repressing Muslim minorities or engaged in Islamophobic
+  policies.
+url: /ayy-ld-z-tim
+country: Turkey
+risk_level: High
+sector_focus:
+- Government, Administration
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: ab1771de-25bb-4688-b132-eabb5d6452a1
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+incident_type: Denial of service
+malware:
+- name: Hacking Team UEFI Rootkit

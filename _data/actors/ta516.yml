@@ -1,0 +1,30 @@
+name: TA516
+aliases:
+- TA516
+description: This actor typically distributes instances of the SmokeLoader intermediate
+  downloader, which, in turn, downloads additional malware of the actor’s choice --
+  often banking Trojans. Figure 3 shows a lure document from a November campaign in
+  which TA516 distributed fake resumes with malicious macros that, if enabled, launch
+  a PowerShell script that downloads SmokeLoader. In this instance, we observed SmokeLoader
+  downloading a Monero coinminer. Since the middle of 2017, TA516 has used similar
+  macro-laden documents as well as malicious JavaScript hosted on Google Drive to
+  distribute both Panda Banker and a coinminer executable via SmokeLoader, often in
+  the same campaigns.
+url: /ta516
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 0466bbf1-a187-4b3d-b558-a31e5ca11ea7
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Smoke Loader
+- name: PowerDuke
+- name: POWERSTATS
+- name: Power Loader
+- name: Trojan.Karagany
+- name: POWERSOURCE
+- name: Miner-C
+- name: Trojan.Mebromi
+- name: PowerRAT

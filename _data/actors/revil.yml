@@ -1,0 +1,32 @@
+name: REvil
+aliases:
+- Sodinokibi
+- Sodin
+description: REvil is a Russian ransomware-as-a-service operation that has targeted
+  major corporations worldwide.
+url: /revil
+country: Russia
+first_seen: '2019'
+last_activity: '2021'
+risk_level: Critical
+sector_focus:
+- Technology
+- Healthcare
+- Legal
+cisa_kev_cves:
+- cve: CVE-2018-8453
+  dateAdded: '2022-01-21'
+  vendor: Microsoft
+  product: Win32k
+- cve: CVE-2019-2725
+  dateAdded: '2022-01-10'
+  vendor: Oracle
+  product: WebLogic Server
+- cve: CVE-2021-30116
+  dateAdded: '2021-11-03'
+  vendor: Kaseya
+  product: Virtual System/Server Administrator (VSA)
+- cve: CVE-2019-11539
+  dateAdded: '2021-11-03'
+  vendor: Ivanti
+  product: Pulse Connect Secure and Pulse Policy Secure

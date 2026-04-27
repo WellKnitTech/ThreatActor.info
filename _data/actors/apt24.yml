@@ -1,0 +1,16 @@
+name: APT24
+aliases:
+- PITTY PANDA
+- G0011
+- Temp.Pittytiger
+- APT24
+description: The Pitty Tiger group has been active since at least 2011. They have
+  been seen using HeartBleed vulnerability in order to directly get valid credentials
+url: /apt24
+country: China
+risk_level: High
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 4d37813c-b8e9-4e58-a758-03168d8aa189
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

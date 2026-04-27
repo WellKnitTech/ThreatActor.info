@@ -1,0 +1,15 @@
+name: Carderbee
+aliases:
+- Carderbee
+description: Symantec recently reported on activity attributed to a threat actor group
+  dubbed Carderbee. In the campaign, the threat actors target entities in Hong Kong
+  and other regions of Asia via a supply chain attack leveraging the legitimate Cobra
+  DocGuard software. The activity began as early as September 2022.
+url: /carderbee
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: ce793b99-0cf2-4148-831c-ea5f6a9e0a76
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null

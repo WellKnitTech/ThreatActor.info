@@ -11,8 +11,6 @@ require 'uri'
 
 BASE_URL = "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters"
 REF_DIR = "data/misp-reference"
-DATA_FILE = "_data/threat_actors.yml"
-
 CLUSTERS = {
   "ransomware" => "#{BASE_URL}/ransomware.json",
   "sigma-rules" => "#{BASE_URL}/sigma-rules.json", 

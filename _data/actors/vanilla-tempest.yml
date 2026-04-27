@@ -1,0 +1,25 @@
+name: Vanilla Tempest
+aliases:
+- DEV-0832
+- Vice Society
+- Vanilla Tempest
+description: Vice Society is a ransomware group that has been active since at least
+  June 2021. They primarily target the education and healthcare sectors, but have
+  also been observed targeting the manufacturing industry. The group has used multiple
+  ransomware families and has been known to utilize PowerShell scripts for their attacks.
+  There are similarities between Vice Society and the Rhysida ransomware group, suggesting
+  a potential connection or rebranding.
+url: /vanilla-tempest
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: c4132d43-2405-43ca-9940-a6f78e007861
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: PowerDuke
+- name: POWERSTATS
+- name: Power Loader
+- name: POWERSOURCE
+- name: PowerRAT

@@ -1,0 +1,25 @@
+name: PoisonSeed
+aliases:
+- PoisonSeed
+description: PoisonSeed is a threat actor employing an MFA-resistant phishing kit
+  to acquire credentials from individuals and organizations, primarily targeting email
+  infrastructure for cryptocurrency-related spam. They utilize spear-phishing emails
+  with malicious links, automate bulk downloading of email lists, and capture authentication
+  cookies to bypass MFA. PoisonSeed has been linked to campaigns that exploit cross-device
+  sign-in features and employ tactics such as cryptocurrency seed phrase poisoning.
+  Their infrastructure includes domains registered through NICENIC and hosted on Cloudflare,
+  with a focus on phishing CRM and bulk email provider credentials.
+url: /poisonseed
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: d536294f-fb0a-470b-a6d5-89e057bda61e
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: CloudDuke
+- name: PoisonIvy
+- name: Xploit
+- name: Seed RAT
+- name: CrossRat

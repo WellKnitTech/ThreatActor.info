@@ -1,0 +1,23 @@
+name: Unnamed Actor
+aliases:
+- Unnamed Actor
+description: 'This threat actor compromises civil society groups the Chinese Communist
+  Party views as hostile to its interests, such as Tibetan, Uyghur, Hong Kong, and
+  Taiwanese activist. The threat actor also targeted the Myanmar electoral commission. '
+url: /unnamed-actor
+country: China
+risk_level: High
+sector_focus:
+- Civil society
+- Government
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: bea5e256-bcc0-11e8-a478-bbf7e7585a1e
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+targeted_victims:
+- China
+- Myanmar
+- Hong Kong
+- Taiwan
+incident_type: Espionage

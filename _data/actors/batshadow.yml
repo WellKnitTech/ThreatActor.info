@@ -1,0 +1,28 @@
+name: BatShadow
+aliases:
+- BatShadow
+description: BatShadow is a Vietnamese threat actor that targets job seekers and digital
+  marketing professionals through social engineering campaigns, deploying the Go-based
+  malware known as Vampire Bot. The group impersonates recruiters and distributes
+  malicious job descriptions and corporate PDFs, triggering a multi-stage infection
+  chain that enables remote surveillance and data theft. Analysts have linked BatShadow
+  to Vietnam based on infrastructure reuse and targeting patterns, noting its history
+  of using domains like samsung-work.com to distribute various malware families, including
+  Agent Tesla and Quasar RAT. The actor employs techniques such as filename tricks
+  and coercive browser actions to evade detection and increase the likelihood of successful
+  compromises.
+url: /batshadow
+country: Vietnam
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: b2a577e6-67ed-4b01-8fc2-a6df22b25b00
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: RIPTIDE
+- name: Agent.btz
+- name: RemoteCMD
+- name: Quasar RAT
+- name: Remote Utilities
+- name: RemotePC

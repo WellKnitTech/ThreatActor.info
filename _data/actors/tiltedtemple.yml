@@ -1,0 +1,23 @@
+name: TiltedTemple
+aliases:
+- DEV-0322
+- Circle Typhoon
+- TiltedTemple
+description: One of their notable tools is a custom backdoor called SockDetour, which
+  operates filelessly and socketlessly on compromised Windows servers. The group's
+  activities have been linked to the exploitation of vulnerabilities in Zoho ManageEngine
+  ADSelfService Plus and ServiceDesk Plus.
+url: /tiltedtemple
+country: China
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: aca6b3d2-1c3b-4674-9de8-975e35723bcf
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: Backdoor.Oldrea
+- name: Windows Remote Desktop
+- name: Xploit
+- name: Socket23
+- name: SocketPlayer

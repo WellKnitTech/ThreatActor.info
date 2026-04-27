@@ -1,0 +1,31 @@
+name: GOLD DUPONT
+aliases:
+- SPRITE SPIDER
+- GOLD DUPONT
+description: GOLD DUPONT is a financially motivated cybercriminal threat group that
+  specializes in post-intrusion ransomware attacks using 777 (aka Defray777 or RansomExx)
+  malware. Active since November 2018, GOLD DUPONT establishes initial access into
+  victim networks using stolen credentials to remote access services like virtual
+  desktop infrastructure (VDI) or virtual private networks (VPN). From October 2019
+  to early 2020 the group used GOLD BLACKBURN's TrickBot malware as an initial access
+  vector (IAV) during some intrusions. Since July 2020, the group has also used GOLD
+  SWATHMORE's IcedID (Bokbot) malware as an IAV in some intrusions.
+url: /gold-dupont
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 3570552c-c46f-428e-9472-744a14e6ece7
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: BlackEnergy
+- name: RemoteCMD
+- name: BLACKCOFFEE
+- name: Blackshades
+- name: BlackNix
+- name: CyberGate
+- name: Cyber Eye RAT
+- name: Remote Utilities
+- name: RemotePC
+- name: DesktopNow

@@ -1,0 +1,20 @@
+name: SPIKEDWINE
+aliases:
+- SPIKEDWINE
+description: SPIKEDWINE is a threat actor targeting European officials with a new
+  backdoor called WINELOADER. They use a bait PDF document posing as an invitation
+  letter from the Ambassador of India to lure diplomats. The attack is characterized
+  by advanced tactics, techniques, and procedures in the malware and command and control
+  infrastructure. The motivation behind the attacks seems to be exploiting the geopolitical
+  relations between India and European nations.
+url: /spikedwine
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: d3cda6b1-a5da-4afc-bee4-80ea2cf05e5e
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Backdoor.Oldrea
+- name: Xploit

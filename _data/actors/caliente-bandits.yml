@@ -1,0 +1,25 @@
+name: Caliente Bandits
+aliases:
+- TA2721
+- Caliente Bandits
+description: Caliente Bandits is a highly active threat group that targets multiple
+  industries, including finance and entertainment. They distribute the Bandook remote
+  access trojan using Spanish-language lures through low-volume email campaigns. The
+  group primarily impacts individuals with Spanish surnames and conducts reconnaissance
+  to obtain employee data. They masquerade as companies in South America and use Hotmail
+  or Gmail email addresses.
+url: /caliente-bandits
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 6a77a337-bfa0-416c-8c06-1d489d0d6838
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Trojan.Karagany
+- name: RemoteCMD
+- name: Trojan.Mebromi
+- name: Remote Utilities
+- name: RemotePC
+- name: Bandook RAT

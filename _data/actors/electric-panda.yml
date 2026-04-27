@@ -1,0 +1,12 @@
+name: ELECTRIC PANDA
+aliases:
+- ELECTRIC PANDA
+description: ''
+url: /electric-panda
+country: China
+risk_level: High
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 69059ec9-45c9-4961-a07e-6b2f2228f0ce
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

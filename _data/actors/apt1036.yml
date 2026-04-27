@@ -1,0 +1,24 @@
+name: Moonstone Sleet
+aliases:
+- Moonstone Sleet
+- Storm-1789
+description: 'Moonstone Sleet is a North Korean-linked threat actor executing both
+  financially motivated attacks and espionage operations. The group previously overlapped
+  significantly with another North Korean-linked entity, Lazarus Group, but has differentiated
+  its tradecraft since 2023. Moonstone Sleet is notable for creating fake companies
+  and personas to interact with victim entities, as well as developing unique malware
+  such as a variant delivered via a fully functioning game.(Citation: Microsoft Moonstone
+  Sleet 2024)'
+url: /apt1036
+external_id: G1036
+mitre_id: G1036
+external_url: https://attack.mitre.org/groups/G1036
+mitre_url: https://attack.mitre.org/groups/G1036
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T05:24:31Z'
+    source_record_id: G1036
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json

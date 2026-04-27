@@ -1,0 +1,20 @@
+name: Camaro Dragon
+aliases:
+- Camaro Dragon
+description: In early 2023, the Check Point Incident Response Team (CPIRT) team investigated
+  a malware incident at a European healthcare institution involving a set of tools
+  mentioned in the Avast report in late 2022. The incident was attributed to Camaro
+  Dragon, a Chinese-based espionage threat actor whose activities overlap with activities
+  tracked by different researchers as Mustang Panda and LuminousMoth, whose focus
+  is primarily on Southeast Asian countries and their close peers.
+url: /camaro-dragon
+country: China
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 9ee446fd-b0cd-4662-9cd1-a60b429192db
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: Luminosity Link
+- name: Archelaus Beta

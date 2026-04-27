@@ -1,0 +1,51 @@
+name: APT19
+aliases:
+- APT19
+- Black Vine
+- BRONZE FIRESTONE
+- C0d0so0
+- Checkered Typhoon
+- Codoso
+- Codoso Team
+- DEEP PANDA
+- G0009
+- G0073
+- Group 13
+- KungFu Kittens
+- PinkPanther
+- Pupa
+- Shell Crew
+- Sunshop Group
+- TEMP.Avengers
+- WebMasters
+description: 'APT19 is a Chinese-based threat group that has targeted a variety of
+  industries, including defense, finance, energy, pharmaceutical, telecommunications,
+  high tech, education, manufacturing, and legal services. In 2017, a phishing campaign
+  was used to target seven law and investment firms. (Citation: FireEye APT19) Some
+  analysts track APT19 and Deep Panda as the same group, but it is unclear from open
+  source information if the groups are the same. (Citation: ICIT China''s Espionage
+  Jul 2016) (Citation: FireEye APT Groups) (Citation: Unit 42 C0d0so0 Jan 2016)'
+url: /apt0073
+external_id: G0073
+mitre_id: G0073
+external_url: https://attack.mitre.org/groups/G0073
+mitre_url: https://attack.mitre.org/groups/G0073
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+    source_record_id: G0073
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+risk_level: High
+sector_focus:
+- Technology
+- Finance
+- Non-profit organisation
+- Private sector
+- Military
+country: China
+targeted_victims:
+- United States
+incident_type: Espionage

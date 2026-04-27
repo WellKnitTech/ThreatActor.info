@@ -1,0 +1,18 @@
+name: Storm-0829
+aliases:
+- DEV-0829
+- Nwgen Team
+- Storm-0829
+description: Nwgen is a group that focuses on data exfiltration and ransomware activities.
+  They have been found to share techniques with other threat groups such as Karakurt,
+  Lapsus$, and Yanluowang. Nwgen has been observed carrying out attacks and deploying
+  ransomware, encrypting files and demanding a ransom of $150,000 in Monero cryptocurrency
+  for the decryption software.
+url: /storm-0829
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 3e595289-05b8-43fc-bd88-f8650436447f
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null

@@ -1,0 +1,21 @@
+name: Lancefly
+aliases:
+- Lancefly
+description: Lancefly targets government, aviation, and telecom organizations in South
+  and Southeast Asia. They use a custom backdoor named Merdoor, developed since 2018,
+  and employ various tactics to gain access, including phishing emails, SSH credential
+  brute-forcing, and exploiting server vulnerabilities. Additionally, Lancefly has
+  been observed using a newer version of the ZXShell rootkit and tools like PlugX
+  and ShadowPad RAT, which are typically associated with Chinese-speaking APT groups.
+url: /lancefly
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 2ceeab57-85e3-468b-a1b8-c035c496dcdc
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Backdoor.Oldrea
+- name: PlugX
+- name: Xploit

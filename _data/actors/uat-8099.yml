@@ -1,0 +1,30 @@
+name: UAT-8099
+aliases:
+- UAT-8099
+description: UAT-8099 is a Chinese-speaking cybercrime group primarily engaged in
+  SEO fraud and the theft of high-value credentials, configuration files, and certificate
+  data from vulnerable IIS servers. They utilize web shells and PowerShell to deploy
+  the GotoHTTP tool for remote access, while also employing techniques such as DLL
+  sideloading and RDP for persistence. The group has been observed using BadIIS variants
+  for SEO manipulation and executing reconnaissance commands to gather system information.
+  Additionally, they create hidden accounts and utilize VPN tools to maintain long-term
+  access to compromised systems.
+url: /uat-8099
+country: China
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 284151b2-6f0b-4835-9589-68a8c3287e1e
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: PowerDuke
+- name: POWERSTATS
+- name: Power Loader
+- name: POWERSOURCE
+- name: RemoteCMD
+- name: CyberGate
+- name: Cyber Eye RAT
+- name: HTTP WEB BACKDOOR
+- name: Remote Utilities
+- name: RemotePC

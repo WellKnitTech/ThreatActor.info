@@ -1,0 +1,19 @@
+name: Pearl Sleet
+aliases:
+- DEV-0215
+- LAWRENCIUM
+- Pearl Sleet
+description: Pearl Sleet is a nation state activity group based in North Korea that
+  has been active since at least 2012. They primarily target defectors from North
+  Korea, media organizations in carrying out their cyber espionage activities.
+url: /pearl-sleet
+country: North Korea
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: ef0d776a-51de-4965-ba1c-69ed256e0e5d
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: CyberGate
+- name: Cyber Eye RAT

@@ -1,0 +1,38 @@
+name: BRONZE HIGHLAND
+aliases:
+- Evasive Panda
+- ' Daggerfly'
+- BRONZE HIGHLAND
+description: BRONZE HIGHLAND has been observed using spearphishing as an initial infection
+  vector to deploy the MgBot remote access trojan against targets in Hong Kong. Third
+  party reporting suggests the threat group also targets India, Malaysia and Taiwan
+  and leverages Cobalt Strike and KsRemote Android Rat. CTU researchers assess with
+  moderate confidence that BRONZE HIGHLAND operates on behalf of China and has a remit
+  covering espionage against domestic human rights and pro-democracy advocates and
+  nations neighbouring China
+url: /bronze-highland
+country: China
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 62710572-e416-419d-bb1f-81ffc1ddc976
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+targeted_victims:
+- Hong Kong
+- Malaysia
+- India
+- Taiwan
+- Macao
+- Nigeria
+malware:
+- name: Trojan.Karagany
+- name: China Chopper
+- name: RemoteCMD
+- name: Trojan.Mebromi
+- name: DroidJack
+- name: Androrat
+- name: Remote Utilities
+- name: RemotePC
+- name: Archelaus Beta
+- name: Cobalt Strike

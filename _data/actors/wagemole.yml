@@ -1,0 +1,33 @@
+name: WageMole
+aliases:
+- Famous Chollima
+- UNC5267
+- Wagemole
+- Nickel Tapestry
+- Storm-1877
+- Void Dokkaebi
+- WaterPlum
+- PurpleBravo
+- WageMole
+description: WageMole is a North Korean state-sponsored APT that employs social engineering
+  and technology to secure remote job opportunities in Western countries, leveraging
+  stolen personal data from the Contagious Interview campaign. Threat actors create
+  fake identities, including passports and driver's licenses, and prepare study guides
+  for interviews, often utilizing generative AI for well-structured responses. They
+  target small to mid-sized businesses and utilize job platforms like Upwork and Indeed,
+  while employing automation scripts for account creation. WageMole's activities include
+  sharing code within their group and requesting payments through platforms like PayPal
+  to conceal their identity.
+url: /wagemole
+country: North Korea
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 09aa3edb-e956-43f0-9fcb-a3154b47d202
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: RemoteCMD
+- name: Small-Net
+- name: Remote Utilities
+- name: RemotePC

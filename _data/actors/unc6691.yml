@@ -1,0 +1,14 @@
+name: UNC6691
+aliases:
+- UNC6691
+description: financially motivated threat actor operating from China
+url: /unc6691
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 989a795c-efed-4528-90c8-9807a49f84ce
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: China Chopper

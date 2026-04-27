@@ -1,0 +1,54 @@
+name: TA505
+aliases:
+- SectorJ04
+- SectorJ04 Group
+- GRACEFUL SPIDER
+- GOLD TAHOE
+- Dudear
+- G0092
+- ATK103
+- Hive0065
+- CHIMBORAZO
+- Spandex Tempest
+- TA505
+description: TA505, the name given by Proofpoint, has been in the cybercrime business
+  for at least four years. This is the group behind the infamous Dridex banking trojan
+  and Locky ransomware, delivered through malicious email campaigns via Necurs botnet.
+  Other malware associated with TA505 include Philadelphia and GlobeImposter ransomware
+  families.
+url: /ta505
+country: Russia
+sector_focus:
+- Education
+- Finance
+- Health
+- Retail
+- Hospitality
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 03c80674-35f8-4fe0-be2b-226ed0fcd69f
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+targeted_victims:
+- Australia
+- Canada
+- Czech Republic
+- Germany
+- Hungary
+- India
+- Japan
+- Romania
+- Serbia
+- Singapore
+- South Korea
+- Spain
+- Thailand
+- Turkey
+- United Kingdom
+- United States
+malware:
+- name: Trojan.Karagany
+- name: Trojan.Mebromi
+- name: CyberGate
+- name: Cyber Eye RAT

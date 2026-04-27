@@ -23,12 +23,22 @@ check_file() {
   fi
 }
 
+check_dir() {
+  local dir_path="$1"
+
+  if [ ! -d "$dir_path" ]; then
+    echo "Missing required directory: $dir_path"
+    exit 1
+  fi
+}
+
 check_command ruby
 check_command bundle
 
-check_file "_data/threat_actors.yml"
+check_dir "_data/actors"
 check_file "_config.yml"
 check_file "scripts/generate-indexes.rb"
+check_file "scripts/evaluate-source-deltas.rb"
 check_file "scripts/validate-content.rb"
 
 echo "Running index generator..."

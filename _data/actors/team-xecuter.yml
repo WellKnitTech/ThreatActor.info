@@ -1,0 +1,18 @@
+name: Team-Xecuter
+aliases:
+- Team-Xecuter
+description: Team-Xecuter is a hacking group led by Gary Bowser, also known as GaryOPA.
+  They were involved in a piracy conspiracy against Nintendo, creating and selling
+  illegal circumvention devices that allowed users to hack video game consoles for
+  playing pirated games. Gary Bowser has admitted his participation in this activity
+  and is facing legal consequences.
+url: /team-xecuter
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: ef9f4e6d-4262-4fca-9535-56af9e46281f
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Hacking Team UEFI Rootkit

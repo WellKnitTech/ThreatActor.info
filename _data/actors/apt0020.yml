@@ -1,0 +1,20 @@
+name: Equation
+aliases:
+- Equation
+description: 'Equation is a sophisticated threat group that employs multiple remote
+  access tools. The group is known to use zero-day exploits and has developed the
+  capability to overwrite the firmware of hard disk drives. (Citation: Kaspersky Equation
+  QA)'
+url: /apt0020
+external_id: G0020
+mitre_id: G0020
+external_url: https://attack.mitre.org/groups/G0020
+mitre_url: https://attack.mitre.org/groups/G0020
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+    source_record_id: G0020
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json

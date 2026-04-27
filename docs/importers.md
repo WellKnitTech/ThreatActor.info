@@ -1,12 +1,12 @@
 # Importers
 
-This repository supports manual source importers that update `_data/threat_actors.yml` and `_threat_actors/*.md` without introducing build-time network dependencies.
+This repository supports source importers that update `_data/actors/*.yml` and regenerate `_threat_actors/*.md` without introducing build-time network dependencies.
 
 ## RansomLook Importer
 
 `scripts/import-ransomlook.rb` is the first importer.
 
-It is designed for two steps:
+It is designed for automated snapshot + apply flow:
 
 1. Fetch a local snapshot from RansomLook.
 2. Review or apply the snapshot to the repo.
@@ -16,8 +16,15 @@ Reviewed name and rename handling lives in `data/imports/ransomlook/mapping_over
 ### Why this workflow exists
 
 - Jekyll builds must stay offline and deterministic.
-- Canonical repo inputs remain `_data/threat_actors.yml` and `_threat_actors/*.md`.
-- Imported metadata needs review, attribution, and safe handling before it becomes part of the site.
+- Canonical repo inputs remain `_data/actors/*.yml` and `_threat_actors/*.md`.
+- Imported metadata is snapshot-backed, attribution-preserving, and intended for deterministic regeneration of all actor pages.
+
+## Automation Policy
+
+- Treat importer snapshots in `data/imports/*` as the operational cache layer.
+- Regenerate pages with `ruby scripts/generate-pages.rb --force` after source updates.
+- Regenerate APIs with `ruby scripts/generate-indexes.rb` in the same run.
+- Use `ruby scripts/evaluate-source-deltas.rb` to enforce update thresholds before publishing large changes.
 
 ## Commands
 
@@ -119,7 +126,7 @@ ruby scripts/import-misp-galaxy.rb import --snapshot data/imports/misp-galaxy/20
 
 ## What the importer updates
 
-- Creates or updates actor metadata in `_data/threat_actors.yml`
+- Creates or updates actor metadata in `_data/actors/*.yml`
 - Creates new actor pages in `_threat_actors/*.md`
 - Synchronizes front matter on updated pages
 

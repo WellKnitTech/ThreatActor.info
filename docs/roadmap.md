@@ -5,7 +5,7 @@ This roadmap turns the current modernization slice into a maintainable plan for 
 ## Near-Term
 
 - Treat `_threat_actors/` as the canonical Jekyll collection for rendered actor pages
-- Keep `_data/threat_actors.yml` and collection pages synchronized through validation
+- Keep `_data/actors/*.yml` and collection pages synchronized through validation
 - Generate static JSON artifacts for actors, IOCs, facets, IOC lookup, and IOC type shards
 - Keep the search UI powered by generated JSON rather than raw YAML parsing
 - Document the content workflow so contributors regenerate indexes after content edits

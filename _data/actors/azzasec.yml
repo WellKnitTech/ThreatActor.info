@@ -1,0 +1,28 @@
+name: AzzaSec
+aliases:
+- AzzaSec
+description: 'AzzaSec is a hacktivist group that originated in Italy. Known for their
+  pro-Palestine stance, they have been involved in various cyberattacks targeting
+  Israel and pro-Israel countries. Additionally, AzzaSec has engaged in ransomware
+  activities and has been known to collaborate with other cybercriminal groups.
+
+
+
+
+
+
+
+
+
+  '
+url: /azzasec
+country: Italy
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 7d067b1a-89df-46ff-a2fc-d688da721236
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: CyberGate
+- name: Cyber Eye RAT

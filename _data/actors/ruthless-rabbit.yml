@@ -1,0 +1,19 @@
+name: Ruthless Rabbit
+aliases:
+- Ruthless Rabbit
+description: Ruthless Rabbit has been running investment scam campaigns since November
+  2022, primarily targeting users in Russia, Poland, Romania, and Kazakhstan. The
+  actor utilizes RDGA patterns to create over 2,600 domains, hosted on multiple dedicated
+  IPs, and employs a cloaking service for validation checks on user leads. Their campaigns
+  have included themes such as Baltic Pipe financial scams and spoofing well-known
+  platforms like WhatsApp and Google Finance. The most prevalent campaign theme involves
+  a spoofed news article from "Channel One" promoting the "GazInvest" platform with
+  promises of high returns.
+url: /ruthless-rabbit
+country: Russia
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 8b04c61d-be69-4246-901f-88f588520e4c
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null

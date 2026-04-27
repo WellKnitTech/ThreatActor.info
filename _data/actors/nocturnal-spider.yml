@@ -1,0 +1,12 @@
+name: NOCTURNAL SPIDER
+aliases:
+- NOCTURNAL SPIDER
+description: Mentioned as MaaS operator in CrowdStrike's 2020 Report.
+url: /nocturnal-spider
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: c042c592-25f6-4887-8a1b-6b8e3bfdcf0c
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null

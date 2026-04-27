@@ -1,0 +1,23 @@
+name: Salt Typhoon
+aliases:
+- Salt Typhoon
+description: 'Salt Typhoon is a People''s Republic of China (PRC) state-backed actor
+  that has been active since at least 2019 and responsible for numerous compromises
+  of network infrastructure at major U.S. telecommunication and internet service providers
+  (ISP).(Citation: US Dept. of Treasury Salt Typhoon JAN 2025)(Citation: Cisco Salt
+  Typhoon FEB 2025)
+
+  '
+url: /apt1045
+external_id: G1045
+mitre_id: G1045
+external_url: https://attack.mitre.org/groups/G1045
+mitre_url: https://attack.mitre.org/groups/G1045
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T05:24:31Z'
+    source_record_id: G1045
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json

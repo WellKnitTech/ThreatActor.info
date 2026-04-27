@@ -1,0 +1,34 @@
+name: Stealth Falcon
+aliases:
+- FruityArmor
+- G0038
+- Stealth Falcon
+description: 'Stealth Falcon is a threat group that has conducted targeted spyware
+  attacks against Emirati journalists, activists, and dissidents since at least 2012.
+  Circumstantial evidence suggests there could be a link between this group and the
+  United Arab Emirates (UAE) government, but that has not been confirmed. (Citation:
+  Citizen Lab Stealth Falcon May 2016)'
+url: /apt0038
+external_id: G0038
+mitre_id: G0038
+external_url: https://attack.mitre.org/groups/G0038
+mitre_url: https://attack.mitre.org/groups/G0038
+source: MITRE ATT&CK
+source_attribution: © The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation.
+provenance:
+  mitre:
+    source_retrieved_at: '2026-04-26T07:05:44Z'
+    source_record_id: G0038
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+risk_level: High
+sector_focus:
+- Activists
+- Dissidents
+- Journalist
+- Civil society
+country: United Arab Emirates
+targeted_victims:
+- United Arab Emirates
+- United Kingdom
+incident_type: Espionage

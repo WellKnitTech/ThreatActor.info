@@ -1,0 +1,25 @@
+name: SHADOW-VOID-042
+aliases:
+- SHADOW-VOID-042
+description: 'SHADOW-VOID-042 is a provisional intrusion set tracked by Trend Micro,
+  active in October-November 2025, conducting spear-phishing campaigns against energy,
+  defense, pharmaceutical, cybersecurity, and other sectors using lures like HR complaints,
+  research surveys, and fake Trend Micro security updates urging browser fixes. Attacks
+  employ multi-stage loaders: shellcode generates machine-specific IDs for C2 "get_module_hello"
+  requests fetching encrypted Stage 2 (SystemProcessHost.exe) with scheduled tasks
+  for persistence, followed by Stage 3 fetching additional payloads via API hashing
+  and retries on hardcoded C2s. Infrastructure overlaps with Void Rabisu (ROMCOM/Storm-0978),
+  but lacks confirmed ROMCOM deployment or Ukraine focus, warranting separate tracking.
+
+  '
+url: /shadow-void-042
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 9551c163-4be3-4f05-b9a3-660238583644
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: CyberGate
+- name: Cyber Eye RAT

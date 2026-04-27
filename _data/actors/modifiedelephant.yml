@@ -1,0 +1,21 @@
+name: ModifiedElephant
+aliases:
+- ModifiedElephant
+description: Our research into these intrusions revealed a decade of persistent malicious
+  activity targeting specific groups and individuals that we now attribute to a previously
+  unknown threat actor named ModifiedElephant. This actor has operated for years,
+  evading research attention and detection due to their limited scope of operations,
+  the mundane nature of their tools, and their regionally-specific targeting. ModifiedElephant
+  is still active at the time of writing.
+url: /modifiedelephant
+sector_focus:
+- Civil Society
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 6cce6ecc-e6f5-4ae5-b8c5-cf633b7cf973
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: Unknown Logger

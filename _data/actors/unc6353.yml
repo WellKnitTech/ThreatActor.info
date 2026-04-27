@@ -1,0 +1,12 @@
+name: UNC6353
+aliases:
+- UNC6353
+description: suspected Russian espionage group.
+url: /unc6353
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 5efaf215-0daa-4ce4-b672-d02c9429e34f
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null

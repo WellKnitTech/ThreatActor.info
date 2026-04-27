@@ -1,0 +1,23 @@
+name: UNC5266
+aliases:
+- UNC5266
+description: 'Mandiant created UNC5266 to track post-disclosure exploitation leading
+  to deployment of Bishop Fox''s SLIVER implant framework, a WARPWIRE variant, and
+  a new malware family that Mandiant has named TERRIBLETEA. At this time, based on
+  observed infrastructure usage similarities, Mandiant suspects with moderate confidence
+  that UNC5266 overlaps in part with UNC3569, a China-nexus espionage actor that has
+  been observed exploiting vulnerabilities in Aspera Faspex, Microsoft Exchange, and
+  Oracle Web Applications Desktop Integrator, among others, to gain initial access
+  to target environments. '
+url: /unc5266
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 083a637b-c58c-4ccb-ab59-81d783873e80
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: China Chopper
+- name: DesktopNow
+- name: Xploit

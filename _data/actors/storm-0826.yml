@@ -1,0 +1,23 @@
+name: Storm-0826
+aliases:
+- Storm-0826
+description: Storm-0826 is a financially motivated cybercriminal group operating as
+  an affiliate within the Black Basta ransomware-as-a-service (RaaS) ecosystem. This
+  actor's primary known method of obtaining initial access is through handoffs from
+  Storm-0464, a known distributor of the Qakbot malware
+url: /storm-0826
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 102b6626-1576-4034-83bb-bd9d54ae0e5e
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+country: null
+malware:
+- name: BlackEnergy
+- name: BLACKCOFFEE
+- name: Blackshades
+- name: BlackNix
+- name: CyberGate
+- name: Cyber Eye RAT
+- name: BlackHole

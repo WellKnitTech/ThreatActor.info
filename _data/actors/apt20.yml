@@ -1,0 +1,27 @@
+name: APT20
+aliases:
+- VIOLIN PANDA
+- TH3Bug
+- Crawling Taurus
+- APT20
+description: 'We’ve uncovered some new data and likely attribution regarding a series
+  of APT watering hole attacks this past summer. Watering hole attacks are an increasingly
+  popular component of APT campaigns, as many people are more aware of spear phishing
+  and are less likely to open documents or click on links in unsolicited emails. Watering
+  hole attacks offer a much better chance of success because they involve compromising
+  legitimate websites and installing malware intended to compromise website visitors.
+  These are often popular websites frequented by people who work in specific industries
+  or have political sympathies to which the actors want to gain access.
+
+  In contrast to many other APT campaigns, which tend to rely heavily on spear phishing
+  to gain victims, “th3bug” is known for compromising legitimate websites their intended
+  visitors are likely to frequent. Over the summer they compromised several sites,
+  including a well-known Uyghur website written in that native language.'
+url: /apt20
+country: China
+risk_level: High
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 8bcd855f-a4c1-453a-bede-ff36582f4f40
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json

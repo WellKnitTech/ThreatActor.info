@@ -1,0 +1,21 @@
+name: DEV-0586
+aliases:
+- Ruinous Ursa
+- Cadet Blizzard
+- DEV-0586
+description: MSTIC has not found any notable associations between this observed activity,
+  tracked as DEV-0586, and other known activity groups. MSTIC assesses that the malware
+  (WhisperGate), which is designed to look like ransomware but lacking a ransom recovery
+  mechanism, is intended to be destructive and designed to render targeted devices
+  inoperable rather than to obtain a ransom.
+url: /dev-0586
+country: Russia
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: a5f64c1a-c829-4855-903d-e0ff2098b2d7
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+targeted_victims:
+- Ukraine
+incident_type: Sabotage

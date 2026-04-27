@@ -1,0 +1,22 @@
+name: UTA0352
+aliases:
+- UTA0352
+description: UTA0352 is a Russian threat actor attributed to phishing campaigns that
+  exploit Microsoft OAuth 2.0 authentication workflows, often impersonating government
+  officials to lure targets into providing sensitive information. The actor has been
+  observed using malicious URLs disguised as legitimate services, such as a Romanian
+  government authentication system. UTA0352 has also targeted Microsoft Teams and
+  employed social engineering tactics via messaging platforms like Signal and WhatsApp.
+  Volexity assesses with medium confidence that UTA0352 is involved in operations
+  themed around Ukraine, targeting individuals and organizations historically associated
+  with Russian threat activities.
+url: /uta0352
+country: Russia
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: 63305373-15a8-4f84-ab09-27ffeaa99ae2
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: Xploit

@@ -1,0 +1,21 @@
+name: Storm-1152
+aliases:
+- Storm-1152
+description: Storm-1152, a cybercriminal group, was recently taken down by Microsoft
+  for illegally reselling Outlook accounts. They operated by creating approximately
+  750 million fraudulent Microsoft accounts and earned millions of dollars in illicit
+  revenue. Storm-1152 also offered CAPTCHA-solving services and was connected to ransomware
+  and extortion groups. Microsoft obtained a court order to seize their infrastructure
+  and domains, disrupting their operations.
+url: /storm-1152
+country: Vietnam
+provenance:
+  misp_galaxy:
+    source_retrieved_at: '2026-04-26T05:47:15Z'
+    source_record_id: e18dca82-0524-4338-9a66-e13e67c81ac4
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+risk_level: null
+malware:
+- name: CyberGate
+- name: Cyber Eye RAT
+- name: Revenge-RAT
