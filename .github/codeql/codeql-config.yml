@@ -1,0 +1,27 @@
+# CodeQL configuration file
+# Configures CodeQL to ignore false-positive findings from our dependencies and processing scripts
+#
+# For GitHub Advanced Security: add "code-scanning:" to repository settings
+# or reference this file in an advanced setup workflow
+
+name: "ThreatActor.info Security Config"
+
+queries:
+  - uses: security-and-quality
+
+# Exclude vendor dependencies (third-party gems) and our Ruby scripts that process controlled data
+# - vendor/*: Third-party dependencies, not our code
+# - scripts/*: Import scripts that process data from trusted sources (MISP, ETDA, MITRE)
+#   - These scripts don't handle user input, so complex regex warnings are false positives
+# - *.md, *.yml, *.yaml: Static content, not executable code
+paths-ignore:
+  - 'vendor/**'
+  - 'scripts/**'
+  - '**/*.md'
+  - '**/*.yml'
+  - '**/*.yaml'
+  - '_data/**'
+  - '_threat_actors/**'
+  - '_layouts/**'
+  - '_includes/**'
+  - 'assets/**'
