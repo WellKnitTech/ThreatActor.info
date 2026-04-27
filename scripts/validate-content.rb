@@ -1,10 +1,17 @@
 #!/usr/bin/env ruby
 
+begin
+  require 'bundler/setup'
+rescue LoadError
+  nil
+end
 require 'json'
+require 'json_schemer'
 require 'set'
 require 'yaml'
 
 class ContentValidator
+  ACTOR_SCHEMA_FILE = '_schemas/actor.schema.json'.freeze
   REQUIRED_ACTOR_FIELDS = %w[name aliases description url].freeze
   REQUIRED_FRONT_MATTER_FIELDS = %w[layout title aliases description permalink].freeze
   REQUIRED_SECTION_HEADINGS = [
@@ -31,6 +38,7 @@ class ContentValidator
     'scripts/import-ransomlook.rb',
     'scripts/validate-content.rb',
     'scripts/validate.sh',
+    ACTOR_SCHEMA_FILE,
     'docs/api.md',
     'docs/importers.md',
     'docs/roadmap.md',
@@ -99,6 +107,7 @@ class ContentValidator
     @pages = {}
     @config = {}
     @ioc_occurrences = Hash.new { |hash, key| hash[key] = [] }
+    @actor_schema = nil
   end
 
   def validate_all
@@ -163,6 +172,7 @@ class ContentValidator
         actor = safe_load_yaml_file(file)
         if actor
           @threat_actors_data << actor
+          validate_actor_schema(actor, file)
           validate_threat_actor_data(actor, file)
         end
       rescue StandardError => e
@@ -186,6 +196,16 @@ class ContentValidator
 
     validate_field_types(actor, file_path)
     validate_field_values(actor, file_path)
+  end
+
+  def validate_actor_schema(actor, file_path)
+    actor_schema.validate(actor).each do |schema_error|
+      pointer = schema_error.fetch('data_pointer', '')
+      location = pointer.empty? ? 'record' : pointer.sub(%r{\A/}, '').tr('/', '.')
+      add_error(file_path, "Schema violation at #{location}: #{schema_error.fetch('type')}")
+    end
+  rescue StandardError => e
+    add_error(file_path, "Schema validation error: #{e.message}")
   end
 
   def validate_field_types(actor, file_path)
@@ -661,6 +681,10 @@ class ContentValidator
 
   def safe_load_yaml(content)
     YAML.safe_load(content, permitted_classes: [], aliases: false)
+  end
+
+  def actor_schema
+    @actor_schema ||= JSONSchemer.schema(JSON.parse(File.read(ACTOR_SCHEMA_FILE)))
   end
 
   def extract_malware_names(section)

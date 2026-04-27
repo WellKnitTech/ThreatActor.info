@@ -1,0 +1,97 @@
+name: Weekly RansomLook Import
+
+permissions:
+  contents: write
+  pull-requests: write
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Maximum number of RansomLook records to process"
+        required: false
+        default: ""
+      new_only:
+        description: "Only create new actors, leaving existing records unchanged"
+        required: false
+        default: true
+        type: boolean
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2.5"
+          bundler-cache: true
+
+      - name: Fetch RansomLook snapshot
+        run: |
+          ruby scripts/import-ransomlook.rb fetch --output "${RUNNER_TEMP}/ransomlook-snapshot"
+
+      - name: Import new RansomLook actors
+        run: |
+          args=(--snapshot "${RUNNER_TEMP}/ransomlook-snapshot" --report-json "${RUNNER_TEMP}/ransomlook-import-report.json")
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.new_only }}" = "true" ]; then
+            args+=(--new-only)
+          fi
+          if [ -n "${{ inputs.limit }}" ]; then
+            args+=(--limit "${{ inputs.limit }}")
+          fi
+          ruby scripts/import-ransomlook.rb import "${args[@]}"
+
+      - name: Regenerate pages and indexes
+        run: |
+          ruby scripts/generate-pages.rb --force
+          ruby scripts/generate-indexes.rb
+
+      - name: Validate generated changes
+        run: |
+          bash scripts/validate.sh
+
+      - name: Create import pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automated/weekly-ransomlook-import
+          commit-message: "Import weekly RansomLook actor updates"
+          title: "Import weekly RansomLook actor updates"
+          body: |
+            ## Description
+            Automated weekly import from RansomLook.
+
+            ## Related Issue
+            N/A
+
+            ## Type of Change
+            - [x] New threat actor (non-breaking change)
+            - [ ] Bug fix (non-breaking change)
+            - [ ] Documentation update
+            - [ ] Code quality improvement
+
+            ## Testing
+            - [x] `bash scripts/validate.sh`
+
+            ## Checklists
+            - [x] My code follows the style guidelines
+            - [x] I have performed a self-review
+            - [x] I have commented my code where necessary
+            - [x] I have updated the documentation
+            - [x] My changes generate no new warnings
+            - [x] I have added tests that prove my fix works
+            - [x] New and existing tests pass
+
+            ## Source Attribution
+            For threat actor data changes, confirm source licensing:
+            - [ ] Data is CC0 licensed
+            - [x] Data is CC BY 4.0 licensed
+            - [ ] I have permission to use this data
+            - [x] Data is from a public source with attribution
+          delete-branch: true
