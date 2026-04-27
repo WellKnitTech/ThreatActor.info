@@ -487,3 +487,105 @@ Imported provenance fields include:
 - `provenance.etda_thaicert.source_record_url`
 - `provenance.etda_thaicert.mitre_group_ids`
 - `provenance.etda_thaicert.mitre_technique_ids`
+
+## Analyst Notes Importer
+
+`scripts/import-analyst-notes.rb` adds manually curated analyst notes as an enrichment source for existing actors.
+
+### Per-Actor Notes Files
+
+Each threat actor gets their own analyst notes file in `_data/analyst_notes/`. This allows for granular, manual curation.
+
+File naming convention: `_data/analyst_notes/{actor-slug}.yml`
+
+For example:
+- APT28 → `_data/analyst_notes/apt28.yml`
+- Fancy Bear → `_data/analyst_notes/fancybear.yml`
+
+### Commands
+
+Initialize an empty analyst notes file for a specific actor:
+
+```bash
+ruby scripts/import-analyst-notes.rb init --actor APT28
+```
+
+Preview which analyst notes would be applied:
+
+```bash
+ruby scripts/import-analyst-notes.rb plan
+```
+
+Apply all analyst notes to actors:
+
+```bash
+ruby scripts/import-analyst-notes.rb import
+```
+
+### Structured Note Format
+
+Each note file contains `note_blocks` with structured data that maps to specific TA page sections:
+
+```yaml
+actor_name: "APT28"
+last_updated: "2026-04-27"
+note_blocks:
+  - type: targeted_countries
+    values:
+      - "Germany"
+      - "United States"
+      - "Ukraine"
+  - type: operations
+    values:
+      - "Operation Olympic Destroyer"
+      - "Operation GhostSecret"
+  - type: malware
+    values:
+      - "Olympic Destroyer"
+      - "Destructive wiper with GPS probing"
+  - type: ips
+    values:
+      - "192.0.2.1 - C2 server"
+      - "198.51.100.1 - Staging server"
+  - type: hashes
+    values:
+      - "a1b2c3d4e5f6... - Destructive payload"
+      - "6f7e8d9c0b1a... - Loader"
+  - type: ttps
+    values:
+      - "T1047 - Windows Management Instrumentation"
+      - "T1059 - Command and Scripting Interpreter"
+  - type: cves
+    values:
+      - "CVE-2024-12345"
+  - type: general
+    content: |
+      This actor has been observed conducting extensive reconnaissance
+      against government ministries in NATO member states since 2024.
+```
+
+### Supported Note Types
+
+| Note Type | Target Field | Description |
+|-----------|-------------|-------------|
+| `targeted_countries` | `targeted_victims` | Countries targeted by this actor |
+| `targeted_sectors` | `sector_focus` | Sectors targeted by this actor |
+| `operations` | `operations` | Named operations/campaigns |
+| `malware` | `malware` | Malware names with descriptions |
+| `tools` | `malware` | Tool names |
+| `ttps` | `TTPS` | MITRE ATT&CK technique IDs |
+| `cves` | `cisa_kev_cves` | Known exploited vulnerabilities |
+| `urls` | `urls` | Malicious URLs |
+| `domains` | `domains` | Malicious domains |
+| `ips` | `ips` | IP addresses (C2, staging, etc.) |
+| `hashes` | `hashes` | File hashes (MD5, SHA1, SHA256) |
+| `campaigns` | `campaigns` | Named campaigns |
+| `general` | `analyst_notes` | Free-form analysis text |
+
+### How It Works
+
+1. Analyst creates/edits a note file for the actor in `_data/analyst_notes/`
+2. Each `note_block` has a `type` (required) and either `values` (array) or `content` (text)
+3. During `import`, the structured values are split across the appropriate actor fields
+4. Multiple entries of the same type are merged (additive)
+5. Plain text notes go to `analyst_notes` field in the YAML

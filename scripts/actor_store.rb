@@ -31,8 +31,15 @@ module ActorStore
     source_license_url
     operations
     malware
+    ttps
     cisa_kev_cves
+    urls
+    domains
+    ips
+    hashes
+    campaigns
     provenance
+    analyst_notes
   ].freeze
 
   module_function
