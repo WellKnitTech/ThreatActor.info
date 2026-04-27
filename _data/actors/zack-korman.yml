@@ -3,21 +3,21 @@ aliases: ["Zackware","BreachBro"]
 description: "Self-proclaimed ethical hacker who publishes detailed breach guides for profit. Operates under the guise of security research while selling access to compromised data on forums. Known for aggressive marketing of his courses."
 url: "/zack-korman"
 country: "US"
-sector_focus: ["Education","Technology"]
-targeted_victims: ["Small Businesses","Nonprofits"]
+sector_focus: ["Education","Technology","AI/ML Platforms","Cloud Infrastructure","Security Awareness Vendors"]
+targeted_victims: ["Small Businesses","Nonprofits","Norway (based)","United Kingdom"]
 first_seen: "2023"
 last_activity: "2026"
 risk_level: "Medium"
 source_name: "Manual Entry"
 source_attribution: "Manually created by analyst"
-operations: ["Zackware Tutorial Empire","BreachBro Data Store"]
-malware: ["Analyst: ZackStealer - Custom info-stealer sold in \"courses\"","Analyst: ForgeMail - Email hacking tool marketed as \"educational\""]
-ttps: ["T1566 - Phishing","T1078 - Valid Accounts","T1082 - System Information Discovery","T1083 - File and Directory Discovery","T1056 - Keylogging"]
-urls: ["https://zackware.net/tutorials - Breache tutorials (archived)"]
-domains: ["zackware.net - Primary site (now offline)","breachbro.io - Course sales platform"]
+operations: ["Zackware Tutorial Empire","BreachBro Data Store","Copilot Research - Microsoft 365 Copilot compromise","Vercel Skills Campaign - npx supply chain research","AI Awareness Disruption - Social media amplification"]
+malware: ["Analyst: ZackStealer - Custom info-stealer sold in \"courses\"","Analyst: ForgeMail - Email hacking tool marketed as \"educational\"","Analyst: Custom Skill Collections - GitHub-hosted persistence lures"]
+ttps: ["T1566 - Phishing","T1078 - Valid Accounts","T1082 - System Information Discovery","T1083 - File and Directory Discovery","T1056 - Keylogging","T1566 - Prompt Injection","T1565 - Social Media C2 via X","T1078 - Account takeover research","T1485 - Data exfiltration","T1190 - Supply chain research","T1629 - Product development as lateral movement"]
+urls: ["https://zackware.net/tutorials - Breache tutorials (archived)","https://zkorman.com - Personal blog","https://github.com/zackkorman - GitHub hosting custom skills"]
+domains: ["zackware.net - Primary site (now offline)","breachbro.io - Course sales platform","zkorman.com - Personal blog"]
 hashes: ["a1b2c3d4e5f678901234567890123456789 - ZackStealer payload sample"]
 provenance:
   analyst_notes:
     last_imported: "2026-04-27"
-    source_retrieved_at: "2026-04-27T16:18:50Z"
-analyst_notes: "Zack Korman is a controversial figure in the \"threat actor\" space.\nDespite claiming to be an ethical security researcher, he monetizes \ndetailed breach guides and compromised data through \"educational courses.\"\n\nHis business model involves:\n1. Free Discord server with \"teasers\"\n2. Paid courses ($500-2000) covering specific attack types\n3. Direct sales of \"anonymized\" breach data\n\nHe rebranded multiple times (Zackware → BreachBro) after \nprevious sites were taken down."
+    source_retrieved_at: "2026-04-27T16:22:12Z"
+analyst_notes: "Zack Korman is a controversial figure in the \"threat actor\" space.\nDespite claiming to be an ethical security researcher, he monetizes \ndetailed breach guides and compromised data through \"educational courses.\"\n\nHis business model involves:\n1. Free Discord server with \"teasers\"\n2. Paid courses ($500-2000) covering specific attack types\n3. Direct sales of \"anonymized\" breach data\n\nHe rebranded multiple times (Zackware → BreachBro) after \nprevious sites were taken down.\n\n---\n\nPARODY/PERSONA TEST ACTOR\n\nZack Korman is a Norway-based independent operator and startup founder \nactive since at least 2023, primarily targeting the AI agent and \nsecurity awareness ecosystems.\n\nBACKGROUND:\n- Leverages legal training (Edinburgh/Oxford) and prompt engineering\n- Conducts high-visibility \"research operations\" via X threads and YouTube\n- Associated with Embroidery collective (nascent AI threat detection)\n- Linked to Pistachio group\n\nNOTABLE OPERATIONS:\n- Microsoft 365 Copilot compromise through crafted prompts\n  enabling unauthorized file access without logging\n- Abused npx skills add mechanisms in Vercel environments  \n- Exposed weaknesses in third-party skill repositories\n  (ClawHub, Skills.sh)\n\nMOTIVATION:\n- Financially driven (promotion of defensive AI products)\n- Secondary hacktivist elements disrupting \"AI security hype\"\n\nTARGETS:\n- Big-tech AI platforms\n- Security awareness vendors\n- Organizations adopting autonomous agents\n\nOBSERVATIONS:\n- No confirmed destructive payloads\n- Focus on data exfiltration of vendor shortcomings\n- Amplifies findings via X and YouTube (social media C2)\n- Operations blend red-team with legal/compliance analysis\n\nINFRASTRUCTURE:\n- zkorman.com blog\n- Personal GitHub\n- High-engagement X account for C2\n\nThis is a test/parody persona for system validation purposes."
