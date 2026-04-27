@@ -34,9 +34,46 @@ title: Home
     </div>
   </section>
 
-  <!-- Quick Filters (prominent) -->
+  {% assign recently_updated = site.data.generated.recently_updated %}
+  {% if recently_updated and recently_updated.size > 0 %}
+  <!-- Recently Updated -->
+  <section class="recently-updated-section" aria-labelledby="recently-updated-heading">
+    <div class="section-header">
+      <div>
+        <h2 id="recently-updated-heading">Recently Updated</h2>
+        <p>Freshly reviewed actor profiles from the precomputed index.</p>
+      </div>
+      <a class="section-link" href="{{ "/api/recently-updated.json" | relative_url }}">View JSON</a>
+    </div>
+    <div class="recently-updated-carousel" aria-label="Recently updated threat actors">
+      {% for actor in recently_updated limit: 8 %}
+      <article class="recent-update-card">
+        <div class="recent-update-meta">
+          {% if actor.last_updated %}
+          <span class="updated-date"><time datetime="{{ actor.last_updated }}">{{ actor.last_updated | date: "%b %-d, %Y" }}</time></span>
+          {% endif %}
+          {% if actor.risk_level %}
+          <span class="risk risk-{{ actor.risk_level | downcase }}">{{ actor.risk_level }}</span>
+          {% endif %}
+        </div>
+        <h3><a href="{{ actor.permalink | default: actor.url | relative_url }}">{{ actor.name }}</a></h3>
+        <p>{{ actor.description | truncate: 130 }}</p>
+        <div class="recent-update-footer">
+          {% if actor.country %}<span>{{ actor.country }}</span>{% endif %}
+          {% if actor.ioc_count %}<span>{{ actor.ioc_count }} IOCs</span>{% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- Advanced Filters (prominent) -->
   <section class="quick-filters">
-    <h2>Quick Filters</h2>
+    <div class="quick-filters-header">
+      <h2>Advanced Search Filters</h2>
+      <span>Pin filters while browsing actors</span>
+    </div>
     <div class="filter-chips">
       <div class="filter-group">
         <label>Country:</label>
@@ -56,7 +93,7 @@ title: Home
           <option value="">All Sectors</option>
         </select>
       </div>
-      <button id="apply-filters-btn">Apply Filters</button>
+      <button id="apply-filters-btn">Search Actors</button>
       <button id="clear-filters-btn" class="secondary">Clear</button>
     </div>
   </section>
@@ -78,6 +115,7 @@ title: Home
 
 <script>
   const ITEMS_PER_PAGE = 24;
+  let sourceActors = [];
   let allActors = [];
   let displayedCount = ITEMS_PER_PAGE;
 
@@ -86,10 +124,15 @@ title: Home
     fetch('/api/threat-actors.json').then(r => r.json()),
     fetch('/api/facets.json').then(r => r.json())
   ]).then(([actors, facets]) => {
+    sourceActors = actors;
     allActors = actors;
     populateFilters(facets);
+    applyFiltersFromUrl();
     renderActors();
     setupEventListeners();
+  }).catch(error => {
+    console.error('Unable to load threat actor index', error);
+    document.getElementById('actors-grid').innerHTML = '<p class="load-error">Unable to load threat actor data.</p>';
   });
 
   function populateFilters(facets) {
@@ -138,7 +181,7 @@ title: Home
     const sector = document.getElementById('home-sector-filter').value;
     const search = document.getElementById('quick-search-input').value.toLowerCase();
     
-    allActors = allActors.filter(a => {
+    allActors = sourceActors.filter(a => {
       const matchCountry = !country || a.country === country;
       const matchRisk = !risk || a.risk_level === risk;
       const matchSector = !sector || (a.sector_focus || []).includes(sector);
@@ -153,24 +196,54 @@ title: Home
     renderActors();
   }
 
+  function applyFiltersFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    setSelectFromParam('home-country-filter', params.get('country'));
+    setSelectFromParam('home-risk-filter', params.get('risk'));
+    setSelectFromParam('home-sector-filter', params.get('sector'));
+    if (params.get('q')) {
+      document.getElementById('quick-search-input').value = params.get('q');
+    }
+    if (params.toString()) filterAndRender();
+  }
+
+  function setSelectFromParam(id, value) {
+    const select = document.getElementById(id);
+    if (value && Array.prototype.some.call(select.options, opt => opt.value === value)) {
+      select.value = value;
+    }
+  }
+
   function setupEventListeners() {
     document.getElementById('load-more-btn').onclick = () => {
       displayedCount += ITEMS_PER_PAGE;
       renderActors();
     };
     
-    document.getElementById('apply-filters-btn').onclick = filterAndRender;
+    document.getElementById('apply-filters-btn').onclick = () => {
+      filterAndRender();
+      document.getElementById('actors-grid').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
     document.getElementById('clear-filters-btn').onclick = () => {
       document.getElementById('home-country-filter').value = '';
       document.getElementById('home-risk-filter').value = '';
       document.getElementById('home-sector-filter').value = '';
       document.getElementById('quick-search-input').value = '';
-      location.reload();
+      allActors = sourceActors;
+      displayedCount = ITEMS_PER_PAGE;
+      renderActors();
+      history.replaceState(null, '', window.location.pathname);
     };
     
-    document.getElementById('quick-search-btn').onclick = filterAndRender;
+    document.getElementById('quick-search-btn').onclick = () => {
+      filterAndRender();
+      document.getElementById('actors-grid').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
     document.getElementById('quick-search-input').addEventListener('keypress', e => {
-      if (e.key === 'Enter') filterAndRender();
+      if (e.key === 'Enter') {
+        filterAndRender();
+        document.getElementById('actors-grid').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
     });
   }
 

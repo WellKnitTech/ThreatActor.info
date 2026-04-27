@@ -13,6 +13,7 @@ This document describes the schema for `_data/actors/*.yml` - the single source 
   sector_focus: ["Government", "Defense"]
   first_seen: "2007"
   last_activity: "2024"
+  last_updated: "2026-04-27"
   risk_level: "High"
   
   # Extended fields (optional)
@@ -41,6 +42,7 @@ This document describes the schema for `_data/actors/*.yml` - the single source 
 | `sector_focus` | Array | Target sectors | ["Government", "Defense", "Healthcare"] |
 | `first_seen` | String | Year first observed | "2007" |
 | `last_activity` | String | Year last observed | "2024" |
+| `last_updated` | String | Optional editorial review/update date in YYYY-MM-DD format | "2026-04-27" |
 
 ## Extended Fields
 

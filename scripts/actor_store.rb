@@ -19,6 +19,7 @@ module ActorStore
     incident_type
     first_seen
     last_activity
+    last_updated
     risk_level
     external_id
     external_url
