@@ -37,6 +37,7 @@ class ContentValidator
     'api/threat-actors.json',
     'api/iocs.json',
     'api/facets.json',
+    'api/recently-updated.json',
     'api/campaigns.json',
     'api/malware.json',
     'api/malware_index.json',
@@ -47,6 +48,7 @@ class ContentValidator
     '_data/generated/threat_actors.json',
     '_data/generated/iocs.json',
     '_data/generated/facets.json',
+    '_data/generated/recently_updated.json',
     '_data/generated/campaigns.json',
     '_data/generated/malware.json',
     '_data/generated/attack_mappings.json',
@@ -58,6 +60,7 @@ class ContentValidator
     '_data/generated/threat_actors.json',
     '_data/generated/iocs.json',
     '_data/generated/facets.json',
+    '_data/generated/recently_updated.json',
     '_data/generated/campaigns.json',
     '_data/generated/malware.json',
     '_data/generated/attack_mappings.json',
@@ -70,6 +73,7 @@ class ContentValidator
     'api/threat-actors.json' => 'site.data.generated.threat_actors',
     'api/iocs.json' => 'site.data.generated.iocs',
     'api/facets.json' => 'site.data.generated.facets',
+    'api/recently-updated.json' => 'site.data.generated.recently_updated',
     'api/campaigns.json' => 'site.data.generated.campaigns',
     'api/malware.json' => 'site.data.generated.malware',
     'api/malware_index.json' => 'site.data.generated.malware_index',
@@ -218,6 +222,10 @@ class ContentValidator
 
     if actor['last_activity'] && !actor['last_activity'].match?(/^\d{4}$/)
       add_warning(file_path, "Last activity should be a 4-digit year: #{actor['last_activity']}")
+    end
+
+    if actor['last_updated'] && !actor['last_updated'].match?(/^\d{4}-\d{2}-\d{2}$/)
+      add_warning(file_path, "Last updated should use YYYY-MM-DD format: #{actor['last_updated']}")
     end
   end
 
@@ -516,7 +524,7 @@ class ContentValidator
 
   def validate_generated_payload_shape(file, payload)
     case File.basename(file)
-    when 'threat_actors.json', 'iocs.json', 'campaigns.json', 'malware.json', 'attack_mappings.json', 'references.json'
+    when 'threat_actors.json', 'recently_updated.json', 'iocs.json', 'campaigns.json', 'malware.json', 'attack_mappings.json', 'references.json'
       add_error(file, 'Generated JSON root must be an array') unless payload.is_a?(Array)
     when 'facets.json', 'ioc_lookup.json', 'ioc_types.json', 'malware_index.json'
       add_error(file, 'Generated JSON root must be an object') unless payload.is_a?(Hash)

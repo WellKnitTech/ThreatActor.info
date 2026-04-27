@@ -12,6 +12,7 @@ layout: default
 {% assign profile_country_flag = current_actor.country_flag | default: page.country_flag %}
 {% assign profile_first_seen = current_actor.first_seen | default: page.first_seen %}
 {% assign profile_last_activity = current_actor.last_activity | default: page.last_activity %}
+{% assign profile_last_updated = current_actor.last_updated | default: page.last_updated %}
 {% assign profile_risk_level = current_actor.risk_level | default: page.risk_level %}
 {% assign profile_incident_type = current_actor.incident_type | default: page.incident_type %}
 {% assign profile_external_id = current_actor.external_id | default: page.external_id %}
@@ -42,6 +43,10 @@ layout: default
         </span>
         {% endif %}
       </div>
+
+      {% if profile_last_updated %}
+      <p class="last-updated-pill">Last Updated <time datetime="{{ profile_last_updated }}">{{ profile_last_updated | date: "%b %-d, %Y" }}</time></p>
+      {% endif %}
       
       {% if profile_aliases and profile_aliases.size > 0 %}
       <div class="aliases">
@@ -71,6 +76,14 @@ layout: default
             {% if profile_first_seen %}{{ profile_first_seen }}{% else %}?{% endif %}
             {% if profile_last_activity %} — {{ profile_last_activity }}{% endif %}
           </span>
+        </div>
+        {% endif %}
+
+        {% if profile_last_updated %}
+        <div class="stat-item">
+          <span class="stat-icon">📝</span>
+          <span class="stat-label">Last Updated</span>
+          <span class="stat-value"><time datetime="{{ profile_last_updated }}">{{ profile_last_updated | date: "%b %-d, %Y" }}</time></span>
         </div>
         {% endif %}
         
@@ -146,9 +159,18 @@ layout: default
       {{ content }}
     </div>
 
+    <section class="actor-ioc-panel" id="actor-ioc-panel" hidden>
+      <div class="section-header">
+        <h2>Clickable IOC Blocks</h2>
+        <button type="button" id="copy-actor-iocs" class="ioc-copy-all">Copy All</button>
+      </div>
+      <p class="section-subtitle">Click an indicator to copy it.</p>
+      <div class="actor-ioc-blocks" id="actor-ioc-blocks"></div>
+    </section>
+
     <script>
       (function () {
-        var content = document.currentScript.previousElementSibling;
+        var content = document.querySelector('.content');
         if (!content) return;
 
         var malwareHeading = Array.prototype.find.call(content.querySelectorAll('h2'), function (heading) {
@@ -189,6 +211,58 @@ layout: default
 
         function slugify(value) {
           return String(value).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+        }
+      }());
+
+      (function () {
+        var panel = document.getElementById('actor-ioc-panel');
+        var blocks = document.getElementById('actor-ioc-blocks');
+        var copyAll = document.getElementById('copy-actor-iocs');
+        var actorSlug = '{{ page.url | remove_first: "/" | remove: "/" }}';
+        if (!panel || !blocks || !actorSlug) return;
+
+        fetch('{{ "/api/iocs.json" | relative_url }}')
+          .then(function (response) { return response.json(); })
+          .then(function (iocs) {
+            var actorIocs = (iocs || []).filter(function (ioc) {
+              return ioc.actor_slug === actorSlug && ioc.atomic !== false;
+            });
+            if (actorIocs.length === 0) return;
+
+            panel.hidden = false;
+            blocks.innerHTML = actorIocs.map(function (ioc) {
+              var rawValue = ioc.normalized_value || ioc.value || '';
+              var value = escapeHtml(rawValue);
+              var type = escapeHtml(ioc.inferred_type || ioc.type || 'ioc');
+              return '<button type="button" class="actor-ioc-block" data-ioc="' + escapeAttribute(rawValue) + '"><span>' + type + '</span><code>' + value + '</code></button>';
+            }).join('');
+
+            blocks.querySelectorAll('.actor-ioc-block').forEach(function (button) {
+              button.addEventListener('click', function () {
+                copyValue(button.dataset.ioc, button);
+              });
+            });
+
+            copyAll.addEventListener('click', function () {
+              copyValue(actorIocs.map(function (ioc) {
+                return ioc.normalized_value || ioc.value;
+              }).join('\n'), copyAll);
+            });
+          });
+
+        function copyValue(value, target) {
+          navigator.clipboard.writeText(value).then(function () {
+            target.classList.add('copied');
+            setTimeout(function () { target.classList.remove('copied'); }, 1000);
+          });
+        }
+
+        function escapeHtml(value) {
+          return String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
+
+        function escapeAttribute(value) {
+          return escapeHtml(value).replace(/'/g, '&#39;');
         }
       }());
     </script>

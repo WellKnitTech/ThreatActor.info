@@ -90,6 +90,20 @@
     (function() {
       const content = document.querySelector('.content');
       if (!content) return;
+
+      window.copyThreatActorIoc = function(value, target) {
+        navigator.clipboard.writeText(value).then(function() {
+          if (!target) return;
+
+          const originalText = target.textContent;
+          target.classList.add('copied');
+          target.textContent = 'Copied';
+          setTimeout(function() {
+            target.classList.remove('copied');
+            target.textContent = originalText;
+          }, 1000);
+        });
+      };
       
       // Find all code elements in list items within IOC sections
       const codes = content.querySelectorAll('li code');
@@ -145,19 +159,41 @@
         iconSpan.title = category;
         parent.insertBefore(iconSpan, code);
         
+        code.classList.add('ioc-copy-target');
+        code.setAttribute('tabindex', '0');
+        code.setAttribute('role', 'button');
+        code.title = 'Copy IOC: ' + iocValue;
+
         // Add inline copy button to each IOC
-        const btn = document.createElement('span');
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'ioc-copy-button';
         btn.innerHTML = '&#x1F4CB;';
         btn.title = 'Copy: ' + iocValue;
-        btn.style.cssText = 'cursor:pointer;margin-left:6px;font-size:12px;opacity:0.6;vertical-align:middle;';
         btn.onclick = function(e) {
           e.preventDefault();
-          navigator.clipboard.writeText(iocValue).then(function() {
-            btn.innerHTML = '&#x2714;';
-            setTimeout(function() { btn.innerHTML = '&#x1F4CB;'; }, 1000);
-          });
+          copyIocValue(iocValue, btn, '&#x1F4CB;');
         };
+        code.addEventListener('click', function() {
+          copyIocValue(iocValue, code, iocValue);
+        });
+        code.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            copyIocValue(iocValue, code, iocValue);
+          }
+        });
         parent.insertBefore(btn, code.nextSibling);
+
+        function copyIocValue(value, target, resetText) {
+          window.copyThreatActorIoc(value, target);
+          if (target !== btn) return;
+
+          btn.innerHTML = '&#x2714;';
+          setTimeout(function() {
+            btn.innerHTML = resetText;
+          }, 1000);
+        }
       });
       
       // Add bulk copy buttons after IOC heading

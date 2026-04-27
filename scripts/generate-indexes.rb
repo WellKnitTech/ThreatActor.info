@@ -67,6 +67,7 @@ class ThreatActorIndexGenerator
     ioc_type_manifest = build_ioc_type_manifest(ioc_documents)
 
     write_json('threat_actors.json', actor_documents)
+    write_json('recently_updated.json', build_recently_updated(actor_documents))
     write_json('iocs.json', ioc_documents)
     
     # Build facets with malware counts
@@ -204,6 +205,7 @@ class ThreatActorIndexGenerator
       sector_focus: actor['sector_focus'] || [],
       first_seen: actor['first_seen'],
       last_activity: actor['last_activity'],
+      last_updated: actor['last_updated'] || front_matter['last_updated'],
       risk_level: actor['risk_level'],
       source_name: actor['source_name'] || front_matter['source_name'],
       source_attribution: actor['source_attribution'] || front_matter['source_attribution'],
@@ -256,6 +258,29 @@ class ThreatActorIndexGenerator
       risk_counts: risk_counts,
       sector_counts: sector_counts
     }
+  end
+
+  def build_recently_updated(actors)
+    actors
+      .select { |actor| actor[:last_updated].to_s.match?(/\A\d{4}-\d{2}-\d{2}\z/) }
+      .sort_by { |actor| actor[:last_updated] }
+      .reverse
+      .first(12)
+      .map do |actor|
+        {
+          name: actor[:name],
+          aliases: actor[:aliases],
+          description: actor[:description],
+          url: actor[:url],
+          permalink: actor[:permalink],
+          country: actor[:country],
+          sector_focus: actor[:sector_focus],
+          risk_level: actor[:risk_level],
+          last_updated: actor[:last_updated],
+          last_activity: actor[:last_activity],
+          ioc_count: actor[:ioc_count]
+        }
+      end
   end
   
   # Add malware counts to facets (called from main)

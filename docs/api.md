@@ -34,6 +34,7 @@ Fields include:
 - `sector_focus`
 - `first_seen`
 - `last_activity`
+- `last_updated`
 - `risk_level`
 - `page_path`
 - `headings`
@@ -52,6 +53,24 @@ Optional source provenance fields may also be present when an actor entry was im
 - `source_license`
 - `source_license_url`
 - `provenance`
+
+### `/api/recently-updated.json`
+
+Array of actor records with `last_updated` values, sorted newest first for homepage freshness cards.
+
+Fields include:
+
+- `name`
+- `aliases`
+- `description`
+- `url`
+- `permalink`
+- `country`
+- `sector_focus`
+- `risk_level`
+- `last_updated`
+- `last_activity`
+- `ioc_count`
 
 ### `/api/campaigns.json`
 
