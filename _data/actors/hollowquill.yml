@@ -1,23 +1,10 @@
-name: HollowQuill
-aliases:
-- HollowQuill
-description: SEQRITE Labs APT-Team has been tracking and has uncovered a campaign
-  targeting the Baltic State Technical University, a well-known institution for various
-  defense, aerospace, and advanced engineering programs that contribute to Russia’s
-  military-industrial complex. Tracked as Operation HollowQuill, the campaign leverages
-  weaponized decoy documents masquerading as official research invitations to infiltrate
-  academic, governmental, and defense-related networks. The threat entity delivers
-  a malicious RAR file which contains a .NET malware dropper, which further drops
-  other Golang based shellcode loader along with legitimate OneDrive application and
-  a decoy-based PDF with a final Cobalt Strike payload.
-url: /hollowquill
+name: "HollowQuill"
+aliases: ["HollowQuill"]
+description: "SEQRITE Labs APT-Team has been tracking and has uncovered a campaign targeting the Baltic State Technical University, a well-known institution for various defense, aerospace, and advanced engineering programs that contribute to Russia’s military-industrial complex. Tracked as Operation HollowQuill, the campaign leverages weaponized decoy documents masquerading as official research invitations to infiltrate academic, governmental, and defense-related networks. The threat entity delivers a malicious RAR file which contains a .NET malware dropper, which further drops other Golang based shellcode loader along with legitimate OneDrive application and a decoy-based PDF with a final Cobalt Strike payload."
+url: "/hollowquill"
+malware: ["{\"name\" => \"SPACESHIP\"}","{\"name\" => \"Cobalt Strike\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 20860242-71c8-43d6-925f-dfa79901c084
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: SPACESHIP
-- name: Cobalt Strike
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "20860242-71c8-43d6-925f-dfa79901c084"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

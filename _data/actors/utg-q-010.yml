@@ -1,25 +1,10 @@
-name: UTG-Q-010
-aliases:
-- UTG-Q-010
-description: UTG-Q-010 is a financially motivated APT group from East Asia that has
-  been active since late 2022, primarily targeting the pharmaceutical industry and
-  cryptocurrency enthusiasts. They exploit legitimate Windows processes, such as "WerFault.exe,"
-  to sideload malicious DLLs like "faultrep.dll" and employ sophisticated phishing
-  campaigns to deliver malware disguised as enticing content. Their recent campaigns
-  have involved the use of the Pupy RAT and advanced defense evasion techniques, including
-  in-memory execution and reflective DLL loading. UTG-Q-010's strategic focus on HR
-  departments and the cryptocurrency sector highlights their understanding of target
-  vulnerabilities and their ability to evade detection.
-url: /utg-q-010
+name: "UTG-Q-010"
+aliases: ["UTG-Q-010"]
+description: "UTG-Q-010 is a financially motivated APT group from East Asia that has been active since late 2022, primarily targeting the pharmaceutical industry and cryptocurrency enthusiasts. They exploit legitimate Windows processes, such as \"WerFault.exe,\" to sideload malicious DLLs like \"faultrep.dll\" and employ sophisticated phishing campaigns to deliver malware disguised as enticing content. Their recent campaigns have involved the use of the Pupy RAT and advanced defense evasion techniques, including in-memory execution and reflective DLL loading. UTG-Q-010's strategic focus on HR departments and the cryptocurrency sector highlights their understanding of target vulnerabilities and their ability to evade detection."
+url: "/utg-q-010"
+malware: ["{\"name\" => \"RTM\"}","{\"name\" => \"Pupy\"}","{\"name\" => \"Windows Remote Desktop\"}","{\"name\" => \"Xploit\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 279ca8a7-1d04-4d95-aa8c-32c758c2de2b
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: RTM
-- name: Pupy
-- name: Windows Remote Desktop
-- name: Xploit
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "279ca8a7-1d04-4d95-aa8c-32c758c2de2b"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

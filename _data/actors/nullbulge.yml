@@ -1,19 +1,10 @@
-name: Nullbulge
-aliases:
-- Nullbulge
-description: NullBulge is a cybercriminal threat group targeting AI and gaming focused
-  entities. They weaponize code in publicly available repositories to distribute malware,
-  including LockBit ransomware. The group claims to be motivated by a pro-art, anti-AI
-  cause, but their activities indicate a financial focus. NullBulge uses obfuscated
-  code in public repositories and malicious mods to target their victims.
-url: /nullbulge
+name: "Nullbulge"
+aliases: ["Nullbulge"]
+description: "NullBulge is a cybercriminal threat group targeting AI and gaming focused entities. They weaponize code in publicly available repositories to distribute malware, including LockBit ransomware. The group claims to be motivated by a pro-art, anti-AI cause, but their activities indicate a financial focus. NullBulge uses obfuscated code in public repositories and malicious mods to target their victims."
+url: "/nullbulge"
+malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 000d8bbf-cb6f-4f7b-89a4-9c136ac4bc5a
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: CyberGate
-- name: Cyber Eye RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "000d8bbf-cb6f-4f7b-89a4-9c136ac4bc5a"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

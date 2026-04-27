@@ -1,22 +1,11 @@
-name: CL-STA-0048
-aliases:
-- CL STA 0048
-- CL-STA-0048
-description: CL-STA-0048 is a Chinese state-backed APT that targets strategic sectors
-  in South Asia, particularly government and telecommunications entities, with a focus
-  on espionage. The group has been linked to SAP NetWeaver intrusions and employs
-  techniques such as DNS beaconing using ping commands and exploiting unpatched vulnerabilities
-  in services like IIS, Apache Tomcat, and MSSQL. Analysts have observed its use of
-  reverse shell commands and command-and-control traffic directed to specific IP addresses.
-  The actor adapts its methods to evade detection and maintain persistent access to
-  high-value networks.
-url: /cl-sta-0048
-country: China
+name: "CL-STA-0048"
+aliases: ["CL STA 0048","CL-STA-0048"]
+description: "CL-STA-0048 is a Chinese state-backed APT that targets strategic sectors in South Asia, particularly government and telecommunications entities, with a focus on espionage. The group has been linked to SAP NetWeaver intrusions and employs techniques such as DNS beaconing using ping commands and exploiting unpatched vulnerabilities in services like IIS, Apache Tomcat, and MSSQL. Analysts have observed its use of reverse shell commands and command-and-control traffic directed to specific IP addresses. The actor adapts its methods to evade detection and maintain persistent access to high-value networks."
+url: "/cl-sta-0048"
+country: "China"
+malware: ["{\"name\" => \"Xploit\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 93ed34c6-5501-4993-9c47-6b53a8d3c36d
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: Xploit
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "93ed34c6-5501-4993-9c47-6b53a8d3c36d"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

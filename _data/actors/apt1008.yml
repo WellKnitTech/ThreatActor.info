@@ -1,23 +1,16 @@
-name: SideCopy
-aliases:
-- SideCopy
-description: 'SideCopy is a Pakistani threat group that has primarily targeted South
-  Asian countries, including Indian and Afghani government personnel, since at least
-  2019. SideCopy''s name comes from its infection chain that tries to mimic that of
-  Sidewinder, a suspected Indian threat group.(Citation: MalwareBytes SideCopy Dec
-  2021)'
-url: /apt1008
-external_id: G1008
-mitre_id: G1008
-external_url: https://attack.mitre.org/groups/G1008
-mitre_url: https://attack.mitre.org/groups/G1008
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "SideCopy"
+aliases: ["SideCopy"]
+description: "SideCopy is a Pakistani threat group that has primarily targeted South Asian countries, including Indian and Afghani government personnel, since at least 2019. SideCopy's name comes from its infection chain that tries to mimic that of Sidewinder, a suspected Indian threat group.(Citation: MalwareBytes SideCopy Dec 2021)"
+url: "/apt1008"
+country: "Pakistan"
+external_id: "G1008"
+external_url: "https://attack.mitre.org/groups/G1008"
+mitre_id: "G1008"
+mitre_url: "https://attack.mitre.org/groups/G1008"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G1008
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: null
-country: Pakistan
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G1008"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

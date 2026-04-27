@@ -1,23 +1,10 @@
-name: Awaken Likho
-aliases:
-- Core Werewolf
-- Awaken Likho
-description: Awaken Likho is an APT group that has targeted Russian government agencies
-  and industrial enterprises, employing techniques such as information gathering via
-  search engines and using MeshCentral for remote access. The group has been active
-  since at least December 2021 and has ramped up its activities following the Russo-Ukrainian
-  conflict. Recent reports indicate that they are focusing on espionage against critical
-  infrastructure in the defense and energy sectors. Analysis of their malware reveals
-  a new version that is still in development, suggesting ongoing operational capabilities.
-url: /awaken-likho
+name: "Awaken Likho"
+aliases: ["Core Werewolf","Awaken Likho"]
+description: "Awaken Likho is an APT group that has targeted Russian government agencies and industrial enterprises, employing techniques such as information gathering via search engines and using MeshCentral for remote access. The group has been active since at least December 2021 and has ramped up its activities following the Russo-Ukrainian conflict. Recent reports indicate that they are focusing on espionage against critical infrastructure in the defense and energy sectors. Analysis of their malware reveals a new version that is still in development, suggesting ongoing operational capabilities."
+url: "/awaken-likho"
+malware: ["{\"name\" => \"RemoteCMD\"}","{\"name\" => \"Remote Utilities\"}","{\"name\" => \"RemotePC\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: b3a4c34f-0ad6-4083-938a-958deb34b6c7
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: RemoteCMD
-- name: Remote Utilities
-- name: RemotePC
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "b3a4c34f-0ad6-4083-938a-958deb34b6c7"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

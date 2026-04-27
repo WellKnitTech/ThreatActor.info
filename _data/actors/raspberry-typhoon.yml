@@ -1,22 +1,11 @@
-name: Raspberry Typhoon
-aliases:
-- RADIUM
-- Raspberry Typhoon
-description: Microsoft has tracked Raspberry Typhoon (RADIUM) as the primary threat
-  group targeting nations that ring the South China Sea. Raspberry Typhoon consistently
-  targets government ministries, military entities, and corporate entities connected
-  to critical infrastructure, particularly telecoms. Since January 2023, Raspberry
-  Typhoon has been particularly persistent. When targeting government ministries or
-  infrastructure, Raspberry Typhoon typically conducts intelligence collection and
-  malware execution. In many countries, targets vary from defense and intelligence-related
-  ministries to economic and trade-related ministries
-url: /raspberry-typhoon
-country: China
+name: "Raspberry Typhoon"
+aliases: ["RADIUM","Raspberry Typhoon"]
+description: "Microsoft has tracked Raspberry Typhoon (RADIUM) as the primary threat group targeting nations that ring the South China Sea. Raspberry Typhoon consistently targets government ministries, military entities, and corporate entities connected to critical infrastructure, particularly telecoms. Since January 2023, Raspberry Typhoon has been particularly persistent. When targeting government ministries or infrastructure, Raspberry Typhoon typically conducts intelligence collection and malware execution. In many countries, targets vary from defense and intelligence-related ministries to economic and trade-related ministries"
+url: "/raspberry-typhoon"
+country: "China"
+malware: ["{\"name\" => \"China Chopper\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 37f012df-54d8-4b3d-a288-af47240430ea
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: China Chopper
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "37f012df-54d8-4b3d-a288-af47240430ea"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

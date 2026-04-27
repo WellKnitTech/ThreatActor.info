@@ -1,15 +1,9 @@
-name: Qilin
-aliases:
-- Qilin Ransomware
-description: Qilin is a ransomware group that first appeared in 2022 but had a breakout
-  year in 2024, with around 200 victims, 156 of them based in the U.S.
-url: /qilin
-country: Unknown
-first_seen: '2022'
-last_activity: '2025'
-risk_level: High
-sector_focus:
-- Critical Infrastructure
-- Manufacturing
-- Healthcare
-- Government
+name: "Qilin"
+aliases: ["Qilin Ransomware"]
+description: "Qilin is a ransomware group that first appeared in 2022 but had a breakout year in 2024, with around 200 victims, 156 of them based in the U.S."
+url: "/qilin"
+country: "Unknown"
+sector_focus: ["Critical Infrastructure","Manufacturing","Healthcare","Government"]
+first_seen: "2022"
+last_activity: "2025"
+risk_level: "High"

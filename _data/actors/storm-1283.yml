@@ -1,20 +1,10 @@
-name: Storm-1283
-aliases:
-- Storm-1283
-description: Storm-1283 is a threat actor that targeted Microsoft Azure cloud platform.
-  They gained access to user accounts and created OAuth applications using stolen
-  credentials, allowing them to control resources and deploy virtual machines for
-  cryptomining. The targeted organizations incurred significant financial losses ranging
-  from $10,000 to $1.5 million. Storm-1283 utilized compromised accounts and subscriptions
-  to carry out their illicit activities.
-url: /storm-1283
+name: "Storm-1283"
+aliases: ["Storm-1283"]
+description: "Storm-1283 is a threat actor that targeted Microsoft Azure cloud platform. They gained access to user accounts and created OAuth applications using stolen credentials, allowing them to control resources and deploy virtual machines for cryptomining. The targeted organizations incurred significant financial losses ranging from $10,000 to $1.5 million. Storm-1283 utilized compromised accounts and subscriptions to carry out their illicit activities."
+url: "/storm-1283"
+malware: ["{\"name\" => \"CloudDuke\"}","{\"name\" => \"RIPTIDE\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: c9ffcc82-f7ac-46ce-9ea2-91e51d14e11b
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: CloudDuke
-- name: RIPTIDE
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "c9ffcc82-f7ac-46ce-9ea2-91e51d14e11b"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,53 +1,19 @@
-name: Gamaredon Group
-aliases:
-- ACTINIUM
-- Actinium
-- Aqua Blizzard
-- Armageddon
-- Blue Otso
-- BlueAlpha
-- DEV-0157
-- G0047
-- Gamaredon Group
-- IRON TILDEN
-- Primitive Bear
-- PRIMITIVE BEAR
-- Shuckworm
-- Trident Ursa
-- UAC-0010
-- Winterflounder
-description: 'Gamaredon Group is a suspected Russian cyber espionage group that has
-  targeted military, law enforcement, judiciary, non-profit, and non-governmental
-  organizations in Ukraine since at least 2013. The name Gamaredon Group derives from
-  a misspelling of the word "Armageddon," found in early campaigns.(Citation: Palo
-  Alto Gamaredon Feb 2017)(Citation: TrendMicro Gamaredon April 2020)(Citation: ESET
-  Gamaredon June 2020)(Citation: Symantec Shuckworm January 2022)(Citation: Microsoft
-  Actinium February 2022)
-
-
-  In November 2021, the Ukrainian government publicly attributed Gamaredon Group to
-  Russia’s Federal Security Service (FSB) Center 18, an assessment later supported
-  by multiple independent cybersecurity researchers. (Citation: Bleepingcomputer Gamardeon
-  FSB November 2021)(Citation: Microsoft Actinium February 2022)'
-url: /apt0047
-external_id: G0047
-mitre_id: G0047
-external_url: https://attack.mitre.org/groups/G0047
-mitre_url: https://attack.mitre.org/groups/G0047
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "Gamaredon Group"
+aliases: ["ACTINIUM","Actinium","Aqua Blizzard","Armageddon","Blue Otso","BlueAlpha","DEV-0157","G0047","Gamaredon Group","IRON TILDEN","Primitive Bear","PRIMITIVE BEAR","Shuckworm","Trident Ursa","UAC-0010","Winterflounder"]
+description: "Gamaredon Group is a suspected Russian cyber espionage group that has targeted military, law enforcement, judiciary, non-profit, and non-governmental organizations in Ukraine since at least 2013. The name Gamaredon Group derives from a misspelling of the word \"Armageddon,\" found in early campaigns.(Citation: Palo Alto Gamaredon Feb 2017)(Citation: TrendMicro Gamaredon April 2020)(Citation: ESET Gamaredon June 2020)(Citation: Symantec Shuckworm January 2022)(Citation: Microsoft Actinium February 2022)\n\nIn November 2021, the Ukrainian government publicly attributed Gamaredon Group to Russia’s Federal Security Service (FSB) Center 18, an assessment later supported by multiple independent cybersecurity researchers. (Citation: Bleepingcomputer Gamardeon FSB November 2021)(Citation: Microsoft Actinium February 2022)"
+url: "/apt0047"
+country: "Russia"
+sector_focus: ["Government"]
+targeted_victims: ["Ukraine","Germany"]
+external_id: "G0047"
+external_url: "https://attack.mitre.org/groups/G0047"
+mitre_id: "G0047"
+mitre_url: "https://attack.mitre.org/groups/G0047"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["{\"name\" => \"Archelaus Beta\"}"]
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G0047
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: null
-sector_focus:
-- Government
-country: Russia
-targeted_victims:
-- Ukraine
-- Germany
-malware:
-- name: Archelaus Beta
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0047"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

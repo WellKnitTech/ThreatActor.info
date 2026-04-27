@@ -1,21 +1,11 @@
-name: Operation DRBControl
-aliases:
-- Operation DRBControl
-description: Operation DRBControl is a cyberespionage campaign targeting gambling
-  companies in Southeast Asia, first identified in 2019. The operation involves the
-  use of HyperBro malware and SysUpdate variants, with evidence of customer database
-  and source code exfiltration. The threat actor has employed domain spoofing for
-  command and control and has shown a consistent interest in the gambling industry.
-  Trend Micro's analysis linked multiple tools and malware families to this campaign,
-  indicating a sophisticated and evolving threat landscape.
-url: /operation-drbcontrol
-country: China
+name: "Operation DRBControl"
+aliases: ["Operation DRBControl"]
+description: "Operation DRBControl is a cyberespionage campaign targeting gambling companies in Southeast Asia, first identified in 2019. The operation involves the use of HyperBro malware and SysUpdate variants, with evidence of customer database and source code exfiltration. The threat actor has employed domain spoofing for command and control and has shown a consistent interest in the gambling industry. Trend Micro's analysis linked multiple tools and malware families to this campaign, indicating a sophisticated and evolving threat landscape."
+url: "/operation-drbcontrol"
+country: "China"
+malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: dda55447-f7bc-405a-ab2e-c9be9fc1c53f
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: CyberGate
-- name: Cyber Eye RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "dda55447-f7bc-405a-ab2e-c9be9fc1c53f"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,21 +1,11 @@
-name: RipperSec
-aliases:
-- RipperSec
-description: RipperSec is a pro-Palestinian, likely Malaysian hacktivist group created
-  in June 2023, known for conducting DDoS attacks, data breaches, and defacements
-  primarily targeting government and educational websites, as well as organizations
-  perceived to support Israel. The group has claimed 196 DDoS attacks, with a significant
-  portion directed at Israel, and utilizes a tool called MegaMedusa for their operations.
-  RipperSec operates on Telegram, where it has amassed over 2,000 members, and collaborates
-  with various like-minded hacktivist groups. Their attack strategy relies heavily
-  on community involvement rather than sophisticated infrastructure.
-url: /rippersec
-country: Malaysia
+name: "RipperSec"
+aliases: ["RipperSec"]
+description: "RipperSec is a pro-Palestinian, likely Malaysian hacktivist group created in June 2023, known for conducting DDoS attacks, data breaches, and defacements primarily targeting government and educational websites, as well as organizations perceived to support Israel. The group has claimed 196 DDoS attacks, with a significant portion directed at Israel, and utilizes a tool called MegaMedusa for their operations. RipperSec operates on Telegram, where it has amassed over 2,000 members, and collaborates with various like-minded hacktivist groups. Their attack strategy relies heavily on community involvement rather than sophisticated infrastructure."
+url: "/rippersec"
+country: "Malaysia"
+malware: ["{\"name\" => \"Mega\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 70d09d1f-15fb-4003-bd9a-b52250d9d57e
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: Mega
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "70d09d1f-15fb-4003-bd9a-b52250d9d57e"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,32 +1,13 @@
-name: RedGolf
-aliases:
-- RedGolf
-description: Recorded Future’s Insikt Group has identified a large cluster of new
-  operational infrastructure associated with use of the custom Windows and Linux backdoor
-  KEYPLUG. We attribute this activity to a threat activity group tracked as RedGolf,
-  which is highly likely to be a Chinese state-sponsored group. RedGolf closely overlaps
-  with threat activity reported in open sources under the aliases APT41/BARIUM and
-  has likely carried out state-sponsored espionage activity in parallel with financially
-  motivated operations for personal gain from at least 2014 onward.
-url: /redgolf
-country: China
-sector_focus:
-- Aviation
-- Automotive
-- Education
-- Intergovernmental
-- Media and Entertainment
-- Information Technology
-- Religious Organizations
+name: "RedGolf"
+aliases: ["RedGolf"]
+description: "Recorded Future’s Insikt Group has identified a large cluster of new operational infrastructure associated with use of the custom Windows and Linux backdoor KEYPLUG. We attribute this activity to a threat activity group tracked as RedGolf, which is highly likely to be a Chinese state-sponsored group. RedGolf closely overlaps with threat activity reported in open sources under the aliases APT41/BARIUM and has likely carried out state-sponsored espionage activity in parallel with financially motivated operations for personal gain from at least 2014 onward."
+url: "/redgolf"
+country: "China"
+sector_focus: ["Aviation","Automotive","Education","Intergovernmental","Media and Entertainment","Information Technology","Religious Organizations"]
+incident_type: ["Financial Theft","Espionage"]
+malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"Windows Remote Desktop\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: eff0c059-5449-4207-9860-715475139595
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-incident_type:
-- Financial Theft
-- Espionage
-malware:
-- name: Backdoor.Oldrea
-- name: Windows Remote Desktop
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "eff0c059-5449-4207-9860-715475139595"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

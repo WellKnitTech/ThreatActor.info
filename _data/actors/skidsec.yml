@@ -1,23 +1,10 @@
-name: SkidSec
-aliases:
-- SkidSec Leaks
-- SkidSec
-description: SkidSec is a threat group that has engaged in operations targeting exposed
-  printers in South Korea to disseminate North Korean propaganda, utilizing techniques
-  such as printer exploitation and social engineering for evidence collection. The
-  group has also experienced a leadership change following the loss of their leader,
-  Govadmin, while continuing to mobilize their followers for various missions. They
-  have humorously solicited financial support for their activities, framing it as
-  a means to support their cause. Additionally, they have been noted for their potential
-  to leak sensitive information from compromised devices.
-url: /skidsec
+name: "SkidSec"
+aliases: ["SkidSec Leaks","SkidSec"]
+description: "SkidSec is a threat group that has engaged in operations targeting exposed printers in South Korea to disseminate North Korean propaganda, utilizing techniques such as printer exploitation and social engineering for evidence collection. The group has also experienced a leadership change following the loss of their leader, Govadmin, while continuing to mobilize their followers for various missions. They have humorously solicited financial support for their activities, framing it as a means to support their cause. Additionally, they have been noted for their potential to leak sensitive information from compromised devices."
+url: "/skidsec"
+malware: ["{\"name\" => \"MobileOrder\"}","{\"name\" => \"Xploit\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: afca4b9c-2bdb-47ef-becc-1d5683d3d2fb
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: MobileOrder
-- name: Xploit
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "afca4b9c-2bdb-47ef-becc-1d5683d3d2fb"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

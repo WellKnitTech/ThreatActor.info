@@ -1,28 +1,11 @@
-name: TAG-140
-aliases:
-- TAG-140
-description: TAG-140 is a threat actor group that primarily targets Indian government
-  entities, employing cyber espionage tactics such as phishing and malware campaigns.
-  They have deployed a new variant of the DRAT RAT, known as DRAT V2, which utilizes
-  a ClickFix lure and executes a remote script via mshta.exe to establish persistence
-  and facilitate data exfiltration. Their operations include the use of the BroaderAspect
-  loader and a custom TCP-based C2 protocol, enabling a range of post-exploitation
-  activities. TAG-140's activities reflect a pattern of iterative advancement in their
-  malware arsenal and delivery techniques, complicating detection and attribution
-  efforts.
-url: /tag-140
-country: Pakistan
+name: "TAG-140"
+aliases: ["TAG-140"]
+description: "TAG-140 is a threat actor group that primarily targets Indian government entities, employing cyber espionage tactics such as phishing and malware campaigns. They have deployed a new variant of the DRAT RAT, known as DRAT V2, which utilizes a ClickFix lure and executes a remote script via mshta.exe to establish persistence and facilitate data exfiltration. Their operations include the use of the BroaderAspect loader and a custom TCP-based C2 protocol, enabling a range of post-exploitation activities. TAG-140's activities reflect a pattern of iterative advancement in their malware arsenal and delivery techniques, complicating detection and attribution efforts."
+url: "/tag-140"
+country: "Pakistan"
+malware: ["{\"name\" => \"RemoteCMD\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"drat\"}","{\"name\" => \"Remote Utilities\"}","{\"name\" => \"RemotePC\"}","{\"name\" => \"Xploit\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: f7359c2b-c151-4f5c-816e-cdff255db0de
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: RemoteCMD
-- name: CyberGate
-- name: Cyber Eye RAT
-- name: drat
-- name: Remote Utilities
-- name: RemotePC
-- name: Xploit
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "f7359c2b-c151-4f5c-816e-cdff255db0de"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,37 +1,10 @@
-name: STAC5143
-aliases:
-- STAC5143
-description: STAC5143 is a threat actor group tracked by Sophos, notable for its sophisticated
-  use of Microsoft Office 365's legitimate services to conduct ransomware and data
-  extortion campaigns. Unlike FIN7, which typically targets larger organizations through
-  phishing and malicious Google Ads, STAC5143 focuses on smaller victims across diverse
-  business sectors. Their operations begin with overwhelming targeted individuals
-  with email bombing, followed by Microsoft Teams messages impersonating tech support
-  to initiate a remote screen control session. Utilizing Microsoft's Quick Assist
-  or direct Teams screen sharing, they deploy malware, including Java Archive (JAR)
-  files and Python-based backdoors, from external SharePoint file stores. This cluster
-  exploits legitimate services within the Microsoft Office 365 platform, using a Java-based
-  proxy to execute PowerShell commands and download malicious payloads. While employing
-  publicly available tools like RPivot, their obfuscation methods and the use of side-loaded
-  DLLs for command and control, combined with the deployment of Black Basta ransomware
-  in one instance, indicate a sophisticated and evolving threat actor adapting known
-  techniques for their specific objectives.
-url: /stac5143
+name: "STAC5143"
+aliases: ["STAC5143"]
+description: "STAC5143 is a threat actor group tracked by Sophos, notable for its sophisticated use of Microsoft Office 365's legitimate services to conduct ransomware and data extortion campaigns. Unlike FIN7, which typically targets larger organizations through phishing and malicious Google Ads, STAC5143 focuses on smaller victims across diverse business sectors. Their operations begin with overwhelming targeted individuals with email bombing, followed by Microsoft Teams messages impersonating tech support to initiate a remote screen control session. Utilizing Microsoft's Quick Assist or direct Teams screen sharing, they deploy malware, including Java Archive (JAR) files and Python-based backdoors, from external SharePoint file stores. This cluster exploits legitimate services within the Microsoft Office 365 platform, using a Java-based proxy to execute PowerShell commands and download malicious payloads. While employing publicly available tools like RPivot, their obfuscation methods and the use of side-loaded DLLs for command and control, combined with the deployment of Black Basta ransomware in one instance, indicate a sophisticated and evolving threat actor adapting known techniques for their specific objectives."
+url: "/stac5143"
+malware: ["{\"name\" => \"BlackEnergy\"}","{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"PowerDuke\"}","{\"name\" => \"POWERSTATS\"}","{\"name\" => \"Power Loader\"}","{\"name\" => \"POWERSOURCE\"}","{\"name\" => \"Helminth\"}","{\"name\" => \"RemoteCMD\"}","{\"name\" => \"BLACKCOFFEE\"}","{\"name\" => \"Blackshades\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 019514dc-c894-751f-8cfd-ff2b932ff451
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: BlackEnergy
-- name: Backdoor.Oldrea
-- name: PowerDuke
-- name: POWERSTATS
-- name: Power Loader
-- name: POWERSOURCE
-- name: Helminth
-- name: RemoteCMD
-- name: BLACKCOFFEE
-- name: Blackshades
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "019514dc-c894-751f-8cfd-ff2b932ff451"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,28 +1,15 @@
-name: Saint Bear
-aliases:
-- Saint Bear
-- Storm-0587
-- TA471
-- UAC-0056
-- Lorec53
-description: 'Saint Bear is a Russian-nexus threat actor active since early 2021,
-  primarily targeting entities in Ukraine and Georgia. The group is notable for a
-  specific remote access tool, Saint Bot, and information stealer, OutSteel in campaigns.
-  Saint Bear typically relies on phishing or web staging of malicious documents and
-  related file types for initial access, spoofing government or related entities.(Citation:
-  Palo Alto Unit 42 OutSteel SaintBot February 2022 )(Citation: Cadet Blizzard emerges
-  as novel threat actor) Saint Bear has previously been confused with Ember Bear operations,
-  but analysis of behaviors, tools, and targeting indicates these are distinct clusters.'
-url: /apt1031
-external_id: G1031
-mitre_id: G1031
-external_url: https://attack.mitre.org/groups/G1031
-mitre_url: https://attack.mitre.org/groups/G1031
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "Saint Bear"
+aliases: ["Saint Bear","Storm-0587","TA471","UAC-0056","Lorec53"]
+description: "Saint Bear is a Russian-nexus threat actor active since early 2021, primarily targeting entities in Ukraine and Georgia. The group is notable for a specific remote access tool, Saint Bot, and information stealer, OutSteel in campaigns. Saint Bear typically relies on phishing or web staging of malicious documents and related file types for initial access, spoofing government or related entities.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )(Citation: Cadet Blizzard emerges as novel threat actor) Saint Bear has previously been confused with Ember Bear operations, but analysis of behaviors, tools, and targeting indicates these are distinct clusters."
+url: "/apt1031"
+external_id: "G1031"
+external_url: "https://attack.mitre.org/groups/G1031"
+mitre_id: "G1031"
+mitre_url: "https://attack.mitre.org/groups/G1031"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T05:01:37Z'
-    source_record_id: G1031
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G1031"
+    source_retrieved_at: "2026-04-26T05:01:37Z"
+source: "MITRE ATT&CK"

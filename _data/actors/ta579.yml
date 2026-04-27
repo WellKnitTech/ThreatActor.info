@@ -1,16 +1,10 @@
-name: TA579
-aliases:
-- TA579
-description: TA579, a threat actor that Proofpoint researchers have been tracking
-  since August 2021. This actor frequently delivered BazaLoader and IcedID in past
-  campaigns.
-url: /ta579
+name: "TA579"
+aliases: ["TA579"]
+description: "TA579, a threat actor that Proofpoint researchers have been tracking since August 2021. This actor frequently delivered BazaLoader and IcedID in past campaigns."
+url: "/ta579"
+malware: ["{\"name\" => \"Archelaus Beta\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 7ab283ac-b78f-42db-b564-0550b9637b0b
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Archelaus Beta
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "7ab283ac-b78f-42db-b564-0550b9637b0b"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

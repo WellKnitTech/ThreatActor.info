@@ -1,40 +1,18 @@
-name: HAFNIUM
-aliases:
-- ATK233
-- G0125
-- HAFNIUM
-- MURKY PANDA
-- Operation Exchange Marauder
-- Red Dev 13
-- Silk Typhoon
-description: 'HAFNIUM is a likely state-sponsored cyber espionage group operating
-  out of China that has been active since at least January 2021. HAFNIUM primarily
-  targets entities in the US across a number of industry sectors, including infectious
-  disease researchers, law firms, higher education institutions, defense contractors,
-  policy think tanks, and NGOs. HAFNIUM has targeted remote management tools and cloud
-  software for intial access and has demonstrated an ability to quickly operationalize
-  exploits for identified vulnerabilities in edge devices.(Citation: Microsoft HAFNIUM
-  March 2020)(Citation: Volexity Exchange Marauder March 2021)(Citation: Microsoft
-  Silk Typhoon MAR 2025)'
-url: /apt0125
-external_id: G0125
-mitre_id: G0125
-external_url: https://attack.mitre.org/groups/G0125
-mitre_url: https://attack.mitre.org/groups/G0125
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "HAFNIUM"
+aliases: ["ATK233","G0125","HAFNIUM","MURKY PANDA","Operation Exchange Marauder","Red Dev 13","Silk Typhoon"]
+description: "HAFNIUM is a likely state-sponsored cyber espionage group operating out of China that has been active since at least January 2021. HAFNIUM primarily targets entities in the US across a number of industry sectors, including infectious disease researchers, law firms, higher education institutions, defense contractors, policy think tanks, and NGOs. HAFNIUM has targeted remote management tools and cloud software for intial access and has demonstrated an ability to quickly operationalize exploits for identified vulnerabilities in edge devices.(Citation: Microsoft HAFNIUM March 2020)(Citation: Volexity Exchange Marauder March 2021)(Citation: Microsoft Silk Typhoon MAR 2025)"
+url: "/apt0125"
+country: "China"
+risk_level: "Critical"
+external_id: "G0125"
+external_url: "https://attack.mitre.org/groups/G0125"
+mitre_id: "G0125"
+mitre_url: "https://attack.mitre.org/groups/G0125"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["{\"name\" => \"China Chopper\"}","{\"name\" => \"UNITEDRAKE\"}","{\"name\" => \"Xploit\"}","{\"name\" => \"Archelaus Beta\"}","{\"name\" => \"Mega\"}","{\"name\" => \"CrossRat\"}"]
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G0125
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: Critical
-country: China
-malware:
-- name: China Chopper
-- name: UNITEDRAKE
-- name: Xploit
-- name: Archelaus Beta
-- name: Mega
-- name: CrossRat
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0125"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

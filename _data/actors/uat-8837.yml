@@ -1,26 +1,11 @@
-name: UAT-8837
-aliases:
-- UAT-8837
-description: UAT-8837 is a sophisticated China-linked APT group exploiting critical
-  zero-day vulnerabilities, such as CVE-2025-53690 in the Sitecore platform, to achieve
-  remote code execution and deploy the WeepSteel backdoor for espionage and data exfiltration.
-  The group targets high-value enterprise and government sectors, focusing on public-facing
-  applications to gain initial access and conducting stealthy reconnaissance. UAT-8837
-  employs techniques like privilege escalation by creating administrative accounts
-  and is linked to targeted intrusions aimed at credential harvesting and internal
-  reconnaissance.
-url: /uat-8837
-country: China
+name: "UAT-8837"
+aliases: ["UAT-8837"]
+description: "UAT-8837 is a sophisticated China-linked APT group exploiting critical zero-day vulnerabilities, such as CVE-2025-53690 in the Sitecore platform, to achieve remote code execution and deploy the WeepSteel backdoor for espionage and data exfiltration. The group targets high-value enterprise and government sectors, focusing on public-facing applications to gain initial access and conducting stealthy reconnaissance. UAT-8837 employs techniques like privilege escalation by creating administrative accounts and is linked to targeted intrusions aimed at credential harvesting and internal reconnaissance."
+url: "/uat-8837"
+country: "China"
+malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"China Chopper\"}","{\"name\" => \"RemoteCMD\"}","{\"name\" => \"Remote Utilities\"}","{\"name\" => \"RemotePC\"}","{\"name\" => \"Xploit\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 560095df-ac68-4769-8811-6daa4b6f3583
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: Backdoor.Oldrea
-- name: China Chopper
-- name: RemoteCMD
-- name: Remote Utilities
-- name: RemotePC
-- name: Xploit
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "560095df-ac68-4769-8811-6daa4b6f3583"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

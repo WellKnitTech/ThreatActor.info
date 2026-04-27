@@ -1,19 +1,10 @@
-name: DefrayX
-aliases:
-- Hive0091
-- DefrayX
-description: DefrayX is a threat actor group known for their RansomExx ransomware
-  operations. They primarily target Linux operating systems, but also release versions
-  for Windows. The group has been active since 2018 and has targeted various sectors,
-  including healthcare and manufacturing. They have also developed other malware strains
-  such as PyXie RAT, Vatet loader, and Defray ransomware.
-url: /defrayx
+name: "DefrayX"
+aliases: ["Hive0091","DefrayX"]
+description: "DefrayX is a threat actor group known for their RansomExx ransomware operations. They primarily target Linux operating systems, but also release versions for Windows. The group has been active since 2018 and has targeted various sectors, including healthcare and manufacturing. They have also developed other malware strains such as PyXie RAT, Vatet loader, and Defray ransomware."
+url: "/defrayx"
+malware: ["{\"name\" => \"Windows Remote Desktop\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 9c102b55-29ea-4d90-9b36-33ba42f65d79
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Windows Remote Desktop
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "9c102b55-29ea-4d90-9b36-33ba42f65d79"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

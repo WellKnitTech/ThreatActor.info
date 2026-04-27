@@ -1,19 +1,13 @@
-name: Lynx
-aliases: []
-description: Lynx is an active ransomware-as-a-service operation tracked by RansomLook.
-url: /lynx
-source_name: RansomLook
-source_attribution: 'Contains data derived from RansomLook, used under CC BY 4.0.
-  Source: https://www.ransomlook.io/'
-source_record_url: https://www.ransomlook.io/group/lynx
-source_license: CC BY 4.0
-source_license_url: https://creativecommons.org/licenses/by/4.0/
+name: "Lynx"
+description: "Lynx is an active ransomware-as-a-service operation tracked by RansomLook."
+url: "/lynx"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/lynx"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
 provenance:
-  source_dataset_url: https://www.ransomlook.io/api/groups
-  source_record_id: lynx
-  source_retrieved_at: '2026-04-26T02:08:58Z'
-  source_transforms:
-  - normalized-name
-  - deduplicated-aliases
-  - omitted-volatile-iocs
-  - adapted-for-threatactor-info
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "lynx"
+  source_retrieved_at: "2026-04-26T02:08:58Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

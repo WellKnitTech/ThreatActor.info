@@ -1,60 +1,21 @@
-name: APT17
-aliases:
-- APT17
-- AURORA PANDA
-- Axiom
-- BRONZE KEYSTONE
-- Deputy Dog
-- Dogfish
-- G0001
-- G0025
-- Group 72
-- Group 8
-- Heart Typhoon
-- HELIUM
-- Hidden Lynx
-- Tailgater Team
-description: 'APT17 is a China-based threat group that has conducted network intrusions
-  against U.S. government entities, the defense industry, law firms, information technology
-  companies, mining companies, and non-government organizations. (Citation: FireEye
-  APT17)'
-url: /apt0025
-external_id: G0025
-mitre_id: G0025
-external_url: https://attack.mitre.org/groups/G0025
-mitre_url: https://attack.mitre.org/groups/G0025
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "APT17"
+aliases: ["APT17","AURORA PANDA","Axiom","BRONZE KEYSTONE","Deputy Dog","Dogfish","G0001","G0025","Group 72","Group 8","Heart Typhoon","HELIUM","Hidden Lynx","Tailgater Team"]
+description: "APT17 is a China-based threat group that has conducted network intrusions against U.S. government entities, the defense industry, law firms, information technology companies, mining companies, and non-government organizations. (Citation: FireEye APT17)"
+url: "/apt0025"
+country: "China"
+sector_focus: ["Defense","Intelligence","Technology","Mining","Government, Administration","Justice","Government","Private sector","Civil society"]
+targeted_victims: ["United States","Netherlands","Italy","Japan","United Kingdom","Belgium","Russia","Indonesia","Germany","Switzerland","China"]
+incident_type: "Espionage"
+risk_level: "High"
+external_id: "G0025"
+external_url: "https://attack.mitre.org/groups/G0025"
+mitre_id: "G0025"
+mitre_url: "https://attack.mitre.org/groups/G0025"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["{\"name\" => \"China Chopper\"}"]
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G0025
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: High
-sector_focus:
-- Defense
-- Intelligence
-- Technology
-- Mining
-- Government, Administration
-- Justice
-- Government
-- Private sector
-- Civil society
-country: China
-targeted_victims:
-- United States
-- Netherlands
-- Italy
-- Japan
-- United Kingdom
-- Belgium
-- Russia
-- Indonesia
-- Germany
-- Switzerland
-- China
-incident_type: Espionage
-malware:
-- name: China Chopper
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0025"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

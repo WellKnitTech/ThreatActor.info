@@ -1,23 +1,15 @@
-name: INC Ransom
-aliases:
-- GOLD IONIC
-- INC Ransom
-description: 'INC Ransom is a ransomware and data extortion threat group associated
-  with the deployment of INC Ransomware that has been active since at least July 2023.
-  INC Ransom  has targeted organizations worldwide most commonly in the industrial,
-  healthcare, and education sectors in the US and Europe.(Citation: Bleeping Computer
-  INC Ransomware March 2024)(Citation: Cybereason INC Ransomware November 2023)(Citation:
-  Secureworks GOLD IONIC April 2024)(Citation: SentinelOne INC Ransomware)'
-url: /apt1032
-external_id: G1032
-mitre_id: G1032
-external_url: https://attack.mitre.org/groups/G1032
-mitre_url: https://attack.mitre.org/groups/G1032
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "INC Ransom"
+aliases: ["GOLD IONIC","INC Ransom"]
+description: "INC Ransom is a ransomware and data extortion threat group associated with the deployment of INC Ransomware that has been active since at least July 2023. INC Ransom  has targeted organizations worldwide most commonly in the industrial, healthcare, and education sectors in the US and Europe.(Citation: Bleeping Computer INC Ransomware March 2024)(Citation: Cybereason INC Ransomware November 2023)(Citation: Secureworks GOLD IONIC April 2024)(Citation: SentinelOne INC Ransomware)"
+url: "/apt1032"
+external_id: "G1032"
+external_url: "https://attack.mitre.org/groups/G1032"
+mitre_id: "G1032"
+mitre_url: "https://attack.mitre.org/groups/G1032"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G1032
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G1032"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

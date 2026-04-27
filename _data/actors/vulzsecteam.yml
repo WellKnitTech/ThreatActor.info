@@ -1,20 +1,11 @@
-name: VulzSecTeam
-aliases:
-- VulzSec
-- VulzSecTeam
-description: VulzSec, also known as VulzSecTeam, is a hacktivist group that has been
-  involved in various cyber-attacks. They have targeted government websites in retaliation
-  for issues such as police brutality and the treatment of Indian Muslims. The group
-  has been involved in campaigns like OpIndia2.0, where they planned to launch DDoS
-  attacks on Indian government websites.
-url: /vulzsecteam
-country: Indonesia
+name: "VulzSecTeam"
+aliases: ["VulzSec","VulzSecTeam"]
+description: "VulzSec, also known as VulzSecTeam, is a hacktivist group that has been involved in various cyber-attacks. They have targeted government websites in retaliation for issues such as police brutality and the treatment of Indian Muslims. The group has been involved in campaigns like OpIndia2.0, where they planned to launch DDoS attacks on Indian government websites."
+url: "/vulzsecteam"
+country: "Indonesia"
+malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: fcb18ca2-ea45-4f5c-a827-ed8b6b697a08
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: CyberGate
-- name: Cyber Eye RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "fcb18ca2-ea45-4f5c-a827-ed8b6b697a08"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

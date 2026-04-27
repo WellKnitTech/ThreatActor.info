@@ -1,20 +1,10 @@
-name: EvilTraffic
-aliases:
-- Operation EvilTraffic
-- EvilTraffic
-description: Malware experts at CSE Cybsec uncovered a massive malvertising campaign
-  dubbed EvilTraffic leveraging tens of thousands compromised websites. Crooks exploited
-  some CMS vulnerabilities to upload and execute arbitrary PHP pages used to generate
-  revenues via advertising.
-url: /eviltraffic
+name: "EvilTraffic"
+aliases: ["Operation EvilTraffic","EvilTraffic"]
+description: "Malware experts at CSE Cybsec uncovered a massive malvertising campaign dubbed EvilTraffic leveraging tens of thousands compromised websites. Crooks exploited some CMS vulnerabilities to upload and execute arbitrary PHP pages used to generate revenues via advertising."
+url: "/eviltraffic"
+malware: ["{\"name\" => \"Xpert\"}","{\"name\" => \"Xploit\"}","{\"name\" => \"Revenge-RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: c2d5a052-dc30-11e8-9643-d76f3b9c94fa
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Xpert
-- name: Xploit
-- name: Revenge-RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "c2d5a052-dc30-11e8-9643-d76f3b9c94fa"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

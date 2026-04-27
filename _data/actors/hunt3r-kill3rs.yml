@@ -1,20 +1,11 @@
-name: Hunt3r Kill3rs
-aliases:
-- Hunt3r Kill3rs
-description: Hunt3r Kill3rs is a newly emerged threat group claiming expertise in
-  cyber operations, including ICS breaches and web application vulnerabilities exploitation.
-  They have discussed using Java fuzzing in their exploits and have made unverified
-  claims of joint attacks with other threat actors.
-url: /hunt3r-kill3rs
-country: Russia
+name: "Hunt3r Kill3rs"
+aliases: ["Hunt3r Kill3rs"]
+description: "Hunt3r Kill3rs is a newly emerged threat group claiming expertise in cyber operations, including ICS breaches and web application vulnerabilities exploitation. They have discussed using Java fuzzing in their exploits and have made unverified claims of joint attacks with other threat actors."
+url: "/hunt3r-kill3rs"
+country: "Russia"
+malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"Xpert\"}","{\"name\" => \"Xploit\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 4b32ad58-972e-4aa2-be3d-ff875ed06eba
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: CyberGate
-- name: Cyber Eye RAT
-- name: Xpert
-- name: Xploit
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "4b32ad58-972e-4aa2-be3d-ff875ed06eba"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,31 +1,11 @@
-name: GhostRedirector
-aliases:
-- GhostRedirector
-description: GhostRedirector is a China-aligned threat actor that has compromised
-  at least 65 Windows servers across various sectors, primarily in Brazil, Thailand,
-  and Vietnam. It employs a passive C++ backdoor named Rungan and a malicious IIS
-  module called Gamshen to maintain persistent access and manipulate search engine
-  results for SEO fraud. The actor utilizes public exploits like EfsPotato and BadPotato
-  for privilege escalation and abuses code-signing certificates to evade detection.
-  GhostRedirector's operations involve installing remote access tools, creating rogue
-  administrator accounts, and leveraging SQL injection vulnerabilities to execute
-  PowerShell for downloading malicious payloads.
-url: /ghostredirector
-country: China
+name: "GhostRedirector"
+aliases: ["GhostRedirector"]
+description: "GhostRedirector is a China-aligned threat actor that has compromised at least 65 Windows servers across various sectors, primarily in Brazil, Thailand, and Vietnam. It employs a passive C++ backdoor named Rungan and a malicious IIS module called Gamshen to maintain persistent access and manipulate search engine results for SEO fraud. The actor utilizes public exploits like EfsPotato and BadPotato for privilege escalation and abuses code-signing certificates to evade detection. GhostRedirector's operations involve installing remote access tools, creating rogue administrator accounts, and leveraging SQL injection vulnerabilities to execute PowerShell for downloading malicious payloads."
+url: "/ghostredirector"
+country: "China"
+malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"PowerDuke\"}","{\"name\" => \"POWERSTATS\"}","{\"name\" => \"Power Loader\"}","{\"name\" => \"POWERSOURCE\"}","{\"name\" => \"China Chopper\"}","{\"name\" => \"RemoteCMD\"}","{\"name\" => \"Remote Utilities\"}","{\"name\" => \"Windows Remote Desktop\"}","{\"name\" => \"RemotePC\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: a298949b-4f98-4432-8b5d-ca0503ef3c2d
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: Backdoor.Oldrea
-- name: PowerDuke
-- name: POWERSTATS
-- name: Power Loader
-- name: POWERSOURCE
-- name: China Chopper
-- name: RemoteCMD
-- name: Remote Utilities
-- name: Windows Remote Desktop
-- name: RemotePC
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "a298949b-4f98-4432-8b5d-ca0503ef3c2d"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,24 +1,10 @@
-name: UAC-0184
-aliases:
-- UAC-0184
-description: UAC-0184 is a threat actor targeting Ukrainian organizations in Finland,
-  using the Remcos Remote Access Trojan in their attacks. They have been observed
-  utilizing steganographic image files and the IDAT Loader to deliver the malware.
-  The group has targeted the Armed Forces of Ukraine and impersonated military recruitment
-  processes to infect systems with the Remcos RAT.
-url: /uac-0184
+name: "UAC-0184"
+aliases: ["UAC-0184"]
+description: "UAC-0184 is a threat actor targeting Ukrainian organizations in Finland, using the Remcos Remote Access Trojan in their attacks. They have been observed utilizing steganographic image files and the IDAT Loader to deliver the malware. The group has targeted the Armed Forces of Ukraine and impersonated military recruitment processes to infect systems with the Remcos RAT."
+url: "/uac-0184"
+malware: ["{\"name\" => \"Trojan.Karagany\"}","{\"name\" => \"RemoteCMD\"}","{\"name\" => \"Trojan.Mebromi\"}","{\"name\" => \"Remote Utilities\"}","{\"name\" => \"RemotePC\"}","{\"name\" => \"GraphicBooting\"}","{\"name\" => \"Remcos\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 0e3224a0-3544-47d7-b1ce-fb3eb21286ad
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Trojan.Karagany
-- name: RemoteCMD
-- name: Trojan.Mebromi
-- name: Remote Utilities
-- name: RemotePC
-- name: GraphicBooting
-- name: Remcos
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "0e3224a0-3544-47d7-b1ce-fb3eb21286ad"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,23 +1,11 @@
-name: UTA0388
-aliases:
-- UTA0388
-description: UTA0388 is a China-aligned APT known for spear-phishing campaigns targeting
-  organizations in North America, Asia, and Europe, primarily to deliver a Go-based
-  implant called GOVERSHELL. The group employs "rapport-building phishing" tactics,
-  engaging targets in benign conversations before sending malicious links, and has
-  been linked to the use of Large Language Models for crafting phishing emails in
-  multiple languages. Technical analysis indicates that UTA0388 operates in the interests
-  of the Chinese state, with a focus on Asian geopolitical issues, as evidenced by
-  the use of Simplified Chinese in its development environment. Volexity assesses
-  that UTA0388's operations reflect a sophisticated blend of traditional phishing
-  techniques and modern automation.
-url: /uta0388
-country: China
+name: "UTA0388"
+aliases: ["UTA0388"]
+description: "UTA0388 is a China-aligned APT known for spear-phishing campaigns targeting organizations in North America, Asia, and Europe, primarily to deliver a Go-based implant called GOVERSHELL. The group employs \"rapport-building phishing\" tactics, engaging targets in benign conversations before sending malicious links, and has been linked to the use of Large Language Models for crafting phishing emails in multiple languages. Technical analysis indicates that UTA0388 operates in the interests of the Chinese state, with a focus on Asian geopolitical issues, as evidenced by the use of Simplified Chinese in its development environment. Volexity assesses that UTA0388's operations reflect a sophisticated blend of traditional phishing techniques and modern automation."
+url: "/uta0388"
+country: "China"
+malware: ["{\"name\" => \"China Chopper\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 4606a1b5-6c3c-453c-aeef-2530676c2e89
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: China Chopper
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "4606a1b5-6c3c-453c-aeef-2530676c2e89"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

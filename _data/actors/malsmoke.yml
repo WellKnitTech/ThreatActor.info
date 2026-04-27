@@ -1,24 +1,10 @@
-name: Malsmoke
-aliases:
-- Malsmoke
-description: Malsmoke primarily targets Japanese users through malvertising campaigns
-  that deliver Zloader malware, often leveraging adult content lures and geographic
-  IP information. The group has transitioned from exploit kits, such as Fallout, to
-  social engineering tactics, including fake Java updates, while maintaining a focus
-  on high-traffic adult websites. Their operations are characterized by the use of
-  DGA for C2 server domains and the distribution of payloads via a custom loader,
-  previously relying on Smoke Loader. Connections to past campaigns are evident through
-  similarities in malware masquerading as Java plugins and shared registrar information
-  among domains.
-url: /malsmoke
+name: "Malsmoke"
+aliases: ["Malsmoke"]
+description: "Malsmoke primarily targets Japanese users through malvertising campaigns that deliver Zloader malware, often leveraging adult content lures and geographic IP information. The group has transitioned from exploit kits, such as Fallout, to social engineering tactics, including fake Java updates, while maintaining a focus on high-traffic adult websites. Their operations are characterized by the use of DGA for C2 server domains and the distribution of payloads via a custom loader, previously relying on Smoke Loader. Connections to past campaigns are evident through similarities in malware masquerading as Java plugins and shared registrar information among domains."
+url: "/malsmoke"
+malware: ["{\"name\" => \"Smoke Loader\"}","{\"name\" => \"Xploit\"}","{\"name\" => \"GraphicBooting\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: e2dd2808-5a3c-4437-a626-0b550433e7e5
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Smoke Loader
-- name: Xploit
-- name: GraphicBooting
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "e2dd2808-5a3c-4437-a626-0b550433e7e5"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

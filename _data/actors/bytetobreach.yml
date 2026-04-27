@@ -1,25 +1,10 @@
-name: ByteToBreach
-aliases:
-- ByteToBreach
-description: ByteToBreach is a prolific cybercriminal who operates across multiple
-  platforms, including DarkForums and Telegram, and has been active since at least
-  June 2025. He exploits known vulnerabilities in cloud and corporate infrastructure,
-  reuses stolen credentials, and employs brute force or misconfiguration tactics for
-  initial access, focusing on data exfiltration of sensitive information from high-value
-  targets. ByteToBreach has established a professional-looking website to promote
-  his services and has demonstrated credible activity, with many of his claims supported
-  by verifiable proof.
-url: /bytetobreach
+name: "ByteToBreach"
+aliases: ["ByteToBreach"]
+description: "ByteToBreach is a prolific cybercriminal who operates across multiple platforms, including DarkForums and Telegram, and has been active since at least June 2025. He exploits known vulnerabilities in cloud and corporate infrastructure, reuses stolen credentials, and employs brute force or misconfiguration tactics for initial access, focusing on data exfiltration of sensitive information from high-value targets. ByteToBreach has established a professional-looking website to promote his services and has demonstrated credible activity, with many of his claims supported by verifiable proof."
+url: "/bytetobreach"
+malware: ["{\"name\" => \"CloudDuke\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"Xploit\"}","{\"name\" => \"CrossRat\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: f145cc75-45c0-4d14-a8fd-4ed444d0f7b9
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: CloudDuke
-- name: CyberGate
-- name: Cyber Eye RAT
-- name: Xploit
-- name: CrossRat
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "f145cc75-45c0-4d14-a8fd-4ed444d0f7b9"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

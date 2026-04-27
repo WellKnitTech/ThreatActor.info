@@ -1,19 +1,11 @@
-name: UserSec
-aliases:
-- UserSec
-description: UserSec is a pro-Russian hacking group that has been active since at
-  least 2022. The group is known for its DDoS attacks and has collaborated with other
-  pro-Russian hacking groups. In May 2023, UserSec announced a cyber campaign targeting
-  NATO member states and joined forces with KillNet to launch attacks against NATO.
-url: /usersec
-country: Russia
+name: "UserSec"
+aliases: ["UserSec"]
+description: "UserSec is a pro-Russian hacking group that has been active since at least 2022. The group is known for its DDoS attacks and has collaborated with other pro-Russian hacking groups. In May 2023, UserSec announced a cyber campaign targeting NATO member states and joined forces with KillNet to launch attacks against NATO."
+url: "/usersec"
+country: "Russia"
+malware: ["{\"name\" => \"Hacking Team UEFI Rootkit\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: d0e1811e-53f9-48b5-b2ef-107e0f53239b
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: Hacking Team UEFI Rootkit
-- name: CyberGate
-- name: Cyber Eye RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "d0e1811e-53f9-48b5-b2ef-107e0f53239b"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

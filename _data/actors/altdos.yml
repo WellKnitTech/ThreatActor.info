@@ -1,18 +1,9 @@
-name: ALTDOS
-aliases:
-- ALTDOS
-description: ALTDOS is a threat actor group that has targeted entities in Southeast
-  Asia, including Singapore, Thailand, and Malaysia. They have been involved in data
-  breaches of companies in various sectors, such as real estate and retail, compromising
-  sensitive information like customer names, bank account numbers, and transaction
-  details. ALTDOS uses tactics like ransomware attacks, data exfiltration, and dumping
-  data publicly or for sale on underground forums. The group has been known to demand
-  ransom payments from victims, but also leaks data if demands are not met.
-url: /altdos
+name: "ALTDOS"
+aliases: ["ALTDOS"]
+description: "ALTDOS is a threat actor group that has targeted entities in Southeast Asia, including Singapore, Thailand, and Malaysia. They have been involved in data breaches of companies in various sectors, such as real estate and retail, compromising sensitive information like customer names, bank account numbers, and transaction details. ALTDOS uses tactics like ransomware attacks, data exfiltration, and dumping data publicly or for sale on underground forums. The group has been known to demand ransom payments from victims, but also leaks data if demands are not met."
+url: "/altdos"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 2bd6c045-2ec2-438e-af66-0d97a0163290
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "2bd6c045-2ec2-438e-af66-0d97a0163290"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

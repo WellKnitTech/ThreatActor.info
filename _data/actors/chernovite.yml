@@ -1,17 +1,10 @@
-name: Chernovite
-aliases:
-- Chernovite
-description: Chernovite is a highly capable and sophisticated threat actor group that
-  has developed a modular ICS malware framework called PIPEDREAM. They are known for
-  targeting industrial control systems and operational technology environments, with
-  the ability to disrupt, degrade, and potentially destroy physical processes. Chernovite
-  has demonstrated a deep understanding of ICS protocols and intrusion techniques,
-  making them a significant threat to critical infrastructure sectors.
-url: /chernovite
-country: Russia
+name: "Chernovite"
+aliases: ["Chernovite"]
+description: "Chernovite is a highly capable and sophisticated threat actor group that has developed a modular ICS malware framework called PIPEDREAM. They are known for targeting industrial control systems and operational technology environments, with the ability to disrupt, degrade, and potentially destroy physical processes. Chernovite has demonstrated a deep understanding of ICS protocols and intrusion techniques, making them a significant threat to critical infrastructure sectors."
+url: "/chernovite"
+country: "Russia"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 2ce00149-9a25-4dea-8dd5-59bdb68d11a1
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "2ce00149-9a25-4dea-8dd5-59bdb68d11a1"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

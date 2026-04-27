@@ -1,16 +1,11 @@
-name: N4ughtysecTU
-aliases:
-- N4ughtysecTU
-description: In March 2022, a hacking group calling themselves N4ughtySecTU claimed
-  to have breached TransUnion’s systems and threatened to leak four terabytes of data
-  if the credit bureau didn’t pay a $15-million (R242-million) ransom.
-url: /n4ughtysectu
-country: Brazil
+name: "N4ughtysecTU"
+aliases: ["N4ughtysecTU"]
+description: "In March 2022, a hacking group calling themselves N4ughtySecTU claimed to have breached TransUnion’s systems and threatened to leak four terabytes of data if the credit bureau didn’t pay a $15-million (R242-million) ransom."
+url: "/n4ughtysectu"
+country: "Brazil"
+malware: ["{\"name\" => \"Hacking Team UEFI Rootkit\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 43236d8e-27ee-40f1-ad15-a2ad23738a76
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: Hacking Team UEFI Rootkit
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "43236d8e-27ee-40f1-ad15-a2ad23738a76"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

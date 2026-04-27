@@ -1,18 +1,12 @@
-name: InvisiMole
-aliases:
-- InvisiMole
-description: Adversary group targeting diplomatic missions, governmental and military
-  organisations, mainly in Ukraine.
-url: /invisimole
-sector_focus:
-- Government
+name: "InvisiMole"
+aliases: ["InvisiMole"]
+description: "Adversary group targeting diplomatic missions, governmental and military organisations, mainly in Ukraine."
+url: "/invisimole"
+sector_focus: ["Government"]
+targeted_victims: ["Ukraine"]
+incident_type: "Espionage"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 87af83a4-ced4-4e7c-96a6-86612dc095b1
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-targeted_victims:
-- Ukraine
-incident_type: Espionage
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "87af83a4-ced4-4e7c-96a6-86612dc095b1"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

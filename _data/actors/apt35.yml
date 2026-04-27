@@ -1,47 +1,20 @@
-name: APT35
-aliases:
-- APT35
-- Charming Kitten
-- COBALT ILLUSION
-- ITG18
-- Magic Hound
-- Mint Sandstorm
-- Newscaster
-- Phosphorus
-- TA453
-- Newscaster Team
-- G0059
-- TunnelVision
-- COBALT MIRAGE
-- Agent Serpens
-description: 'Magic Hound is an Iranian-sponsored threat group that conducts long
-  term, resource-intensive cyber espionage operations, likely on behalf of the Islamic
-  Revolutionary Guard Corps. They have targeted European, U.S., and Middle Eastern
-  government and military personnel, academics, journalists, and organizations such
-  as the World Health Organization (WHO), via complex social engineering campaigns
-  since at least 2014.(Citation: FireEye APT35 2018)(Citation: ClearSky Kittens Back
-  3 August 2020)(Citation: Certfa Charming Kitten January 2021)(Citation: Secureworks
-  COBALT ILLUSION Threat Profile)(Citation: Proofpoint TA453 July2021)'
-url: /apt35
-country: Iran
-first_seen: '2014'
-last_activity: '2024'
-risk_level: High
-sector_focus:
-- Media
-- Academia
-- Government
-external_id: G0059
-external_url: https://attack.mitre.org/groups/G0059
-mitre_id: G0059
-mitre_url: https://attack.mitre.org/groups/G0059
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "APT35"
+aliases: ["APT35","Charming Kitten","COBALT ILLUSION","ITG18","Magic Hound","Mint Sandstorm","Newscaster","Phosphorus","TA453","Newscaster Team","G0059","TunnelVision","COBALT MIRAGE","Agent Serpens"]
+description: "Magic Hound is an Iranian-sponsored threat group that conducts long term, resource-intensive cyber espionage operations, likely on behalf of the Islamic Revolutionary Guard Corps. They have targeted European, U.S., and Middle Eastern government and military personnel, academics, journalists, and organizations such as the World Health Organization (WHO), via complex social engineering campaigns since at least 2014.(Citation: FireEye APT35 2018)(Citation: ClearSky Kittens Back 3 August 2020)(Citation: Certfa Charming Kitten January 2021)(Citation: Secureworks COBALT ILLUSION Threat Profile)(Citation: Proofpoint TA453 July2021)"
+url: "/apt35"
+country: "Iran"
+sector_focus: ["Media","Academia","Government"]
+first_seen: "2014"
+last_activity: "2024"
+risk_level: "High"
+external_id: "G0059"
+external_url: "https://attack.mitre.org/groups/G0059"
+mitre_id: "G0059"
+mitre_url: "https://attack.mitre.org/groups/G0059"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["{\"name\" => \"Back Orifice\"}","{\"name\" => \"Back Orifice 2000\"}"]
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T05:24:31Z'
-    source_record_id: G0059
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-malware:
-- name: Back Orifice
-- name: Back Orifice 2000
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0059"
+    source_retrieved_at: "2026-04-26T05:24:31Z"

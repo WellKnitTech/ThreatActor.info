@@ -1,30 +1,11 @@
-name: Blue Tsunami
-aliases:
-- Black Cube
-- Blue Tsunami
-description: Blue Tsunami, also known as Black Cube, is a cyber mercenary group associated
-  with the private intelligence firm Black Cube. They target individuals in various
-  industries, including human rights, finance, and consulting. Blue Tsunami engages
-  in social engineering and uses techniques such as honeypot profiles, fake jobs,
-  and fake companies to gather human intelligence for their clients. LinkedIn and
-  Microsoft recently took down numerous fake accounts and company pages linked to
-  Blue Tsunami.
-url: /blue-tsunami
-country: Israel
+name: "Blue Tsunami"
+aliases: ["Black Cube","Blue Tsunami"]
+description: "Blue Tsunami, also known as Black Cube, is a cyber mercenary group associated with the private intelligence firm Black Cube. They target individuals in various industries, including human rights, finance, and consulting. Blue Tsunami engages in social engineering and uses techniques such as honeypot profiles, fake jobs, and fake companies to gather human intelligence for their clients. LinkedIn and Microsoft recently took down numerous fake accounts and company pages linked to Blue Tsunami."
+url: "/blue-tsunami"
+country: "Israel"
+malware: ["{\"name\" => \"BlackEnergy\"}","{\"name\" => \"BLACKCOFFEE\"}","{\"name\" => \"Blackshades\"}","{\"name\" => \"BlackNix\"}","{\"name\" => \"Blue Banana\"}","{\"name\" => \"ClientMesh\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"BlackHole\"}","{\"name\" => \"Client Maximus\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 46104ded-49f5-4440-bd25-e05c1126f0ba
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: BlackEnergy
-- name: BLACKCOFFEE
-- name: Blackshades
-- name: BlackNix
-- name: Blue Banana
-- name: ClientMesh
-- name: CyberGate
-- name: Cyber Eye RAT
-- name: BlackHole
-- name: Client Maximus
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "46104ded-49f5-4440-bd25-e05c1126f0ba"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

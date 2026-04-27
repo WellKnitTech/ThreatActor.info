@@ -1,45 +1,14 @@
-name: ENERGETIC BEAR
-aliases:
-- BERSERK BEAR
-- ALLANITE
-- CASTLE
-- DYMALLOY
-- TG-4192
-- Dragonfly
-- Crouching Yeti
-- Group 24
-- Havex
-- Koala Team
-- IRON LIBERTY
-- G0035
-- ATK6
-- ITG15
-- BROMINE
-- Blue Kraken
-- Ghost Blizzard
-- ENERGETIC BEAR
-description: A Russian group that collects intelligence on the energy industry.
-url: /energetic-bear
-country: Russia
-risk_level: Critical
-sector_focus:
-- Energy
-- Private sector
-- Government
+name: "ENERGETIC BEAR"
+aliases: ["BERSERK BEAR","ALLANITE","CASTLE","DYMALLOY","TG-4192","Dragonfly","Crouching Yeti","Group 24","Havex","Koala Team","IRON LIBERTY","G0035","ATK6","ITG15","BROMINE","Blue Kraken","Ghost Blizzard","ENERGETIC BEAR"]
+description: "A Russian group that collects intelligence on the energy industry."
+url: "/energetic-bear"
+country: "Russia"
+sector_focus: ["Energy","Private sector","Government"]
+targeted_victims: ["United States","Germany","Turkey","China","Spain","France","Ireland","Japan","Italy","Poland"]
+incident_type: "Espionage"
+risk_level: "Critical"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 64d6559c-6d5c-4585-bbf9-c17868f763ee
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-targeted_victims:
-- United States
-- Germany
-- Turkey
-- China
-- Spain
-- France
-- Ireland
-- Japan
-- Italy
-- Poland
-incident_type: Espionage
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "64d6559c-6d5c-4585-bbf9-c17868f763ee"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

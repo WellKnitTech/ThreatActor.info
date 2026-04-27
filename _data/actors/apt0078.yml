@@ -1,21 +1,15 @@
-name: Gorgon Group
-aliases:
-- Gorgon Group
-description: 'Gorgon Group is a threat group consisting of members who are suspected
-  to be Pakistan-based or have other connections to Pakistan. The group has performed
-  a mix of criminal and targeted attacks, including campaigns against government organizations
-  in the United Kingdom, Spain, Russia, and the United States. (Citation: Unit 42
-  Gorgon Group Aug 2018)'
-url: /apt0078
-external_id: G0078
-mitre_id: G0078
-external_url: https://attack.mitre.org/groups/G0078
-mitre_url: https://attack.mitre.org/groups/G0078
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "Gorgon Group"
+aliases: ["Gorgon Group"]
+description: "Gorgon Group is a threat group consisting of members who are suspected to be Pakistan-based or have other connections to Pakistan. The group has performed a mix of criminal and targeted attacks, including campaigns against government organizations in the United Kingdom, Spain, Russia, and the United States. (Citation: Unit 42 Gorgon Group Aug 2018)"
+url: "/apt0078"
+external_id: "G0078"
+external_url: "https://attack.mitre.org/groups/G0078"
+mitre_id: "G0078"
+mitre_url: "https://attack.mitre.org/groups/G0078"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T05:24:31Z'
-    source_record_id: G0078
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0078"
+    source_retrieved_at: "2026-04-26T05:24:31Z"
+source: "MITRE ATT&CK"

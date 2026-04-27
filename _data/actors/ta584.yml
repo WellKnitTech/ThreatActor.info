@@ -1,23 +1,10 @@
-name: TA584
-aliases:
-- Storm-0900
-- TA584
-description: TA584 is a prominent initial access broker tracked by Proofpoint since
-  November 2020, known for its high-volume campaigns targeting organizations globally.
-  The actor employs various TTPs, including macro-enabled Excel documents, aggressive
-  URL filtering, and geo-fenced landing pages, while frequently changing lures and
-  delivery methods to evade detection. In 2025, TA584 expanded its geographic targeting
-  to include Germany and Australia, while also introducing new malware such as Tsundere
-  Bot alongside XWorm with the "P0WER" configuration. The actor's campaigns are characterized
-  by rapid turnover and deliberate variability, making static indicators less effective
-  for detection.
-url: /ta584
+name: "TA584"
+aliases: ["Storm-0900","TA584"]
+description: "TA584 is a prominent initial access broker tracked by Proofpoint since November 2020, known for its high-volume campaigns targeting organizations globally. The actor employs various TTPs, including macro-enabled Excel documents, aggressive URL filtering, and geo-fenced landing pages, while frequently changing lures and delivery methods to evade detection. In 2025, TA584 expanded its geographic targeting to include Germany and Australia, while also introducing new malware such as Tsundere Bot alongside XWorm with the \"P0WER\" configuration. The actor's campaigns are characterized by rapid turnover and deliberate variability, making static indicators less effective for detection."
+url: "/ta584"
+malware: ["{\"name\" => \"GraphicBooting\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 670b3faa-10ab-4501-a982-e1b36233ed02
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: GraphicBooting
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "670b3faa-10ab-4501-a982-e1b36233ed02"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

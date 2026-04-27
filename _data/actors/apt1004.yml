@@ -1,25 +1,15 @@
-name: LAPSUS$
-aliases:
-- DEV-0537
-- LAPSUS$
-- Strawberry Tempest
-description: 'LAPSUS$ is cyber criminal threat group that has been active since at
-  least mid-2021. LAPSUS$ specializes in large-scale social engineering and extortion
-  operations, including destructive attacks without the use of ransomware. The group
-  has targeted organizations globally, including in the government, manufacturing,
-  higher education, energy, healthcare, technology, telecommunications, and media
-  sectors.(Citation: BBC LAPSUS Apr 2022)(Citation: MSTIC DEV-0537 Mar 2022)(Citation:
-  UNIT 42 LAPSUS Mar 2022)'
-url: /apt1004
-external_id: G1004
-mitre_id: G1004
-external_url: https://attack.mitre.org/groups/G1004
-mitre_url: https://attack.mitre.org/groups/G1004
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "LAPSUS$"
+aliases: ["DEV-0537","LAPSUS$","Strawberry Tempest"]
+description: "LAPSUS$ is cyber criminal threat group that has been active since at least mid-2021. LAPSUS$ specializes in large-scale social engineering and extortion operations, including destructive attacks without the use of ransomware. The group has targeted organizations globally, including in the government, manufacturing, higher education, energy, healthcare, technology, telecommunications, and media sectors.(Citation: BBC LAPSUS Apr 2022)(Citation: MSTIC DEV-0537 Mar 2022)(Citation: UNIT 42 LAPSUS Mar 2022)"
+url: "/apt1004"
+external_id: "G1004"
+external_url: "https://attack.mitre.org/groups/G1004"
+mitre_id: "G1004"
+mitre_url: "https://attack.mitre.org/groups/G1004"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G1004
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G1004"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

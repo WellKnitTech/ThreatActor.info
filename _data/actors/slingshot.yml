@@ -1,28 +1,10 @@
-name: Slingshot
-aliases:
-- Slingshot
-description: 'While analysing an incident which involved a suspected keylogger, we
-  identified a malicious library able to interact with a virtual file system, which
-  is usually the sign of an advanced APT actor. This turned out to be a malicious
-  loader internally named ‘Slingshot’, part of a new, and highly sophisticated attack
-  platform that rivals Project Sauron and Regin in complexity.
-
-  While for most victims the infection vector for Slingshot remains unknown, we were
-  able to find several cases where the attackers got access to MikroTik routers and
-  placed a component downloaded by Winbox Loader, a management suite for MikroTik
-  routers. In turn, this infected the administrator of the router.
-
-  We believe this cluster of activity started in at least 2012 and was still active
-  at the time of this analysis (February 2018).'
-url: /slingshot
+name: "Slingshot"
+aliases: ["Slingshot"]
+description: "While analysing an incident which involved a suspected keylogger, we identified a malicious library able to interact with a virtual file system, which is usually the sign of an advanced APT actor. This turned out to be a malicious loader internally named ‘Slingshot’, part of a new, and highly sophisticated attack platform that rivals Project Sauron and Regin in complexity.\nWhile for most victims the infection vector for Slingshot remains unknown, we were able to find several cases where the attackers got access to MikroTik routers and placed a component downloaded by Winbox Loader, a management suite for MikroTik routers. In turn, this infected the administrator of the router.\nWe believe this cluster of activity started in at least 2012 and was still active at the time of this analysis (February 2018)."
+url: "/slingshot"
+malware: ["{\"name\" => \"Regin\"}","{\"name\" => \"TURNEDUP\"}","{\"name\" => \"Unknown Logger\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 4fcbd08a-8ea6-11e9-8bf2-970182ab6bb5
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Regin
-- name: TURNEDUP
-- name: Unknown Logger
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "4fcbd08a-8ea6-11e9-8bf2-970182ab6bb5"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

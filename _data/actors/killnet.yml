@@ -1,18 +1,12 @@
-name: Killnet
-aliases:
-- Killnet
-description: A group targeting various countries using Denial of Services attacked.
-url: /killnet
-sector_focus:
-- Government
+name: "Killnet"
+aliases: ["Killnet"]
+description: "A group targeting various countries using Denial of Services attacked."
+url: "/killnet"
+sector_focus: ["Government"]
+targeted_victims: ["United States","Czech Republic"]
+incident_type: "Denial of service"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: ad2d6946-1ec2-4d77-b864-39980af4e103
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-targeted_victims:
-- United States
-- Czech Republic
-incident_type: Denial of service
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "ad2d6946-1ec2-4d77-b864-39980af4e103"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

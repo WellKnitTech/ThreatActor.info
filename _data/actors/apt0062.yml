@@ -1,22 +1,17 @@
-name: TA459
-aliases:
-- G0062
-- TA459
-description: 'TA459 is a threat group believed to operate out of China that has targeted
-  countries including Russia, Belarus, Mongolia, and others. (Citation: Proofpoint
-  TA459 April 2017)'
-url: /apt0062
-external_id: G0062
-mitre_id: G0062
-external_url: https://attack.mitre.org/groups/G0062
-mitre_url: https://attack.mitre.org/groups/G0062
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "TA459"
+aliases: ["G0062","TA459"]
+description: "TA459 is a threat group believed to operate out of China that has targeted countries including Russia, Belarus, Mongolia, and others. (Citation: Proofpoint TA459 April 2017)"
+url: "/apt0062"
+country: "China"
+risk_level: "High"
+external_id: "G0062"
+external_url: "https://attack.mitre.org/groups/G0062"
+mitre_id: "G0062"
+mitre_url: "https://attack.mitre.org/groups/G0062"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G0062
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: High
-country: China
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0062"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

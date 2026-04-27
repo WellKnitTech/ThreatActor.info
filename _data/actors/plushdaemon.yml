@@ -1,27 +1,11 @@
-name: PlushDaemon
-aliases:
-- PlushDaemon
-description: PlushDaemon is a China-aligned APT group that has conducted cyberespionage
-  operations against targets in China, Taiwan, Hong Kong, South Korea, the United
-  States, and New Zealand. They executed a supply chain attack on the South Korean
-  VPN provider IPany, compromising its installer to deploy the SlowStepper backdoor,
-  which features a toolkit of over 30 components. PlushDaemon primarily gains initial
-  access by hijacking legitimate updates of Chinese applications and has also exploited
-  vulnerabilities in legitimate web servers. Additionally, they have utilized the
-  Visual Studio command line utility regcap.exe to side-load a malicious DLL named
-  lregdll.dll.
-url: /plushdaemon
-country: China
+name: "PlushDaemon"
+aliases: ["PlushDaemon"]
+description: "PlushDaemon is a China-aligned APT group that has conducted cyberespionage operations against targets in China, Taiwan, Hong Kong, South Korea, the United States, and New Zealand. They executed a supply chain attack on the South Korean VPN provider IPany, compromising its installer to deploy the SlowStepper backdoor, which features a toolkit of over 30 components. PlushDaemon primarily gains initial access by hijacking legitimate updates of Chinese applications and has also exploited vulnerabilities in legitimate web servers. Additionally, they have utilized the Visual Studio command line utility regcap.exe to side-load a malicious DLL named lregdll.dll."
+url: "/plushdaemon"
+country: "China"
+malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"China Chopper\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"UNITEDRAKE\"}","{\"name\" => \"Xploit\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: bdb9ac86-fd43-41e1-a06e-7cff2b5a922d
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: Backdoor.Oldrea
-- name: China Chopper
-- name: CyberGate
-- name: Cyber Eye RAT
-- name: UNITEDRAKE
-- name: Xploit
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "bdb9ac86-fd43-41e1-a06e-7cff2b5a922d"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

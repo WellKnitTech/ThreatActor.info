@@ -1,33 +1,17 @@
-name: PLATINUM
-aliases:
-- ATK33
-- G0068
-- PLATINUM
-- TwoForOne
-description: 'PLATINUM is an activity group that has targeted victims since at least
-  2009. The group has focused on targets associated with governments and related organizations
-  in South and Southeast Asia. (Citation: Microsoft PLATINUM April 2016)'
-url: /apt0068
-external_id: G0068
-mitre_id: G0068
-external_url: https://attack.mitre.org/groups/G0068
-mitre_url: https://attack.mitre.org/groups/G0068
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "PLATINUM"
+aliases: ["ATK33","G0068","PLATINUM","TwoForOne"]
+description: "PLATINUM is an activity group that has targeted victims since at least 2009. The group has focused on targets associated with governments and related organizations in South and Southeast Asia. (Citation: Microsoft PLATINUM April 2016)"
+url: "/apt0068"
+sector_focus: ["Defense","Government, Administration","Diplomacy","Intelligence","Telecoms"]
+external_id: "G0068"
+external_url: "https://attack.mitre.org/groups/G0068"
+mitre_id: "G0068"
+mitre_url: "https://attack.mitre.org/groups/G0068"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["{\"name\" => \"Xploit\"}","{\"name\" => \"GraphicBooting\"}"]
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G0068
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: null
-sector_focus:
-- Defense
-- Government, Administration
-- Diplomacy
-- Intelligence
-- Telecoms
-country: null
-malware:
-- name: Xploit
-- name: GraphicBooting
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0068"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

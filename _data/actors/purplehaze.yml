@@ -1,25 +1,11 @@
-name: PurpleHaze
-aliases:
-- PurpleHaze
-description: PurpleHaze is a China-nexus threat actor tracked by SentinelLABS, linked
-  to APT15, known for targeting critical infrastructure sectors such as telecommunications
-  and government organizations. The actor has been associated with reconnaissance
-  attempts against SentinelOne and has utilized ShadowPad, a modular backdoor platform,
-  for cyberespionage and potential ransomware deployment. Investigations are ongoing
-  to determine overlaps between ShadowPad intrusions and PurpleHaze activity, highlighting
-  the extensive sharing of malware and operational practices among Chinese threat
-  groups. The targeting of third-party service providers has raised significant concerns
-  regarding operational security and supply chain monitoring.
-url: /purplehaze
-country: China
+name: "PurpleHaze"
+aliases: ["PurpleHaze"]
+description: "PurpleHaze is a China-nexus threat actor tracked by SentinelLABS, linked to APT15, known for targeting critical infrastructure sectors such as telecommunications and government organizations. The actor has been associated with reconnaissance attempts against SentinelOne and has utilized ShadowPad, a modular backdoor platform, for cyberespionage and potential ransomware deployment. Investigations are ongoing to determine overlaps between ShadowPad intrusions and PurpleHaze activity, highlighting the extensive sharing of malware and operational practices among Chinese threat groups. The targeting of third-party service providers has raised significant concerns regarding operational security and supply chain monitoring."
+url: "/purplehaze"
+country: "China"
+malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"China Chopper\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 40418a3e-fc51-4d24-9f88-aecbfcc0ef2e
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: Backdoor.Oldrea
-- name: China Chopper
-- name: CyberGate
-- name: Cyber Eye RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "40418a3e-fc51-4d24-9f88-aecbfcc0ef2e"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

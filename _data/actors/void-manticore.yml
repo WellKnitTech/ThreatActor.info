@@ -1,20 +1,11 @@
-name: Void Manticore
-aliases:
-- Void Manticore
-description: Void Manticore is an Iranian APT group affiliated with MOIS, known for
-  conducting destructive wiping attacks and influence operations. They collaborate
-  with Scarred Manticore, sharing targets and conducting disruptive operations using
-  custom wipers. Void Manticore's TTPs involve manual file deletion, lateral movement
-  via RDP, and the deployment of custom wipers like the BiBi wiper. The group utilizes
-  online personas like 'Karma' and 'Homeland Justice' to leak information and amplify
-  the impact of their attacks.
-url: /void-manticore
-country: Iran
+name: "Void Manticore"
+aliases: ["Void Manticore"]
+description: "Void Manticore is an Iranian APT group affiliated with MOIS, known for conducting destructive wiping attacks and influence operations. They collaborate with Scarred Manticore, sharing targets and conducting disruptive operations using custom wipers. Void Manticore's TTPs involve manual file deletion, lateral movement via RDP, and the deployment of custom wipers like the BiBi wiper. The group utilizes online personas like 'Karma' and 'Homeland Justice' to leak information and amplify the impact of their attacks."
+url: "/void-manticore"
+country: "Iran"
+malware: ["{\"name\" => \"Wiper\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 53ac2695-35ba-4ab2-a5cd-48ca533f1b72
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: Wiper
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "53ac2695-35ba-4ab2-a5cd-48ca533f1b72"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

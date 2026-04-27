@@ -1,24 +1,11 @@
-name: CL-STA-1087
-aliases:
-- CL-STA-1087
-description: CL-STA-1087 is a suspected state-sponsored espionage campaign operating
-  out of China, targeting military organizations in Southeast Asia. The actor has
-  demonstrated operational patience, maintaining dormant access for extended periods
-  while focusing on precision intelligence collection and employing robust operational
-  security measures. Their infrastructure includes the use of a legitimate cloud service
-  for C2 operations, indicating a cloud-native approach. File timestamps and other
-  indicators trace the campaign's activity back to 2020, suggesting a long-running
-  operation.
-url: /cl-sta-1087
-country: China
+name: "CL-STA-1087"
+aliases: ["CL-STA-1087"]
+description: "CL-STA-1087 is a suspected state-sponsored espionage campaign operating out of China, targeting military organizations in Southeast Asia. The actor has demonstrated operational patience, maintaining dormant access for extended periods while focusing on precision intelligence collection and employing robust operational security measures. Their infrastructure includes the use of a legitimate cloud service for C2 operations, indicating a cloud-native approach. File timestamps and other indicators trace the campaign's activity back to 2020, suggesting a long-running operation."
+url: "/cl-sta-1087"
+country: "China"
+malware: ["{\"name\" => \"CloudDuke\"}","{\"name\" => \"China Chopper\"}","{\"name\" => \"Back Orifice\"}","{\"name\" => \"Back Orifice 2000\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 8d8cbe24-0552-421e-9a3f-42bd2b6c8824
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: CloudDuke
-- name: China Chopper
-- name: Back Orifice
-- name: Back Orifice 2000
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "8d8cbe24-0552-421e-9a3f-42bd2b6c8824"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,37 +1,18 @@
-name: APT39
-aliases:
-- APT39
-- Burgundy Sandstorm
-- Chafer
-- COBALT HICKMAN
-- G0087
-- ITG07
-- Radio Serpens
-- Remix Kitten
-- REMIX KITTEN
-- TA454
-description: 'APT39 is one of several names for cyber espionage activity conducted
-  by the Iranian Ministry of Intelligence and Security (MOIS) through the front company
-  Rana Intelligence Computing since at least 2014. APT39 has primarily targeted the
-  travel, hospitality, academic, and telecommunications industries in Iran and across
-  Asia, Africa, Europe, and North America to track individuals and entities considered
-  to be a threat by the MOIS.(Citation: FireEye APT39 Jan 2019)(Citation: Symantec
-  Chafer Dec 2015)(Citation: FBI FLASH APT39 September 2020)(Citation: Dept. of Treasury
-  Iran Sanctions September 2020)(Citation: DOJ Iran Indictments September 2020)'
-url: /apt0087
-external_id: G0087
-mitre_id: G0087
-external_url: https://attack.mitre.org/groups/G0087
-mitre_url: https://attack.mitre.org/groups/G0087
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "APT39"
+aliases: ["APT39","Burgundy Sandstorm","Chafer","COBALT HICKMAN","G0087","ITG07","Radio Serpens","Remix Kitten","REMIX KITTEN","TA454"]
+description: "APT39 is one of several names for cyber espionage activity conducted by the Iranian Ministry of Intelligence and Security (MOIS) through the front company Rana Intelligence Computing since at least 2014. APT39 has primarily targeted the travel, hospitality, academic, and telecommunications industries in Iran and across Asia, Africa, Europe, and North America to track individuals and entities considered to be a threat by the MOIS.(Citation: FireEye APT39 Jan 2019)(Citation: Symantec Chafer Dec 2015)(Citation: FBI FLASH APT39 September 2020)(Citation: Dept. of Treasury Iran Sanctions September 2020)(Citation: DOJ Iran Indictments September 2020)"
+url: "/apt0087"
+country: "Iran"
+risk_level: "High"
+external_id: "G0087"
+external_url: "https://attack.mitre.org/groups/G0087"
+mitre_id: "G0087"
+mitre_url: "https://attack.mitre.org/groups/G0087"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["{\"name\" => \"Backdoor.Oldrea\"}"]
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G0087
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: High
-country: Iran
-malware:
-- name: Backdoor.Oldrea
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0087"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

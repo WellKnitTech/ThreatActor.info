@@ -1,25 +1,15 @@
-name: Sinobi
-aliases:
-- Sinobi
-description: Sinobi is an active extortion or ransomware group tracked by RansomLook.
-url: /sinobi
-source_name: RansomLook
-source_attribution: 'Contains data derived from RansomLook, used under CC BY 4.0.
-  Source: https://www.ransomlook.io/'
-source_record_url: https://www.ransomlook.io/group/sinobi
-source_license: CC BY 4.0
-source_license_url: https://creativecommons.org/licenses/by/4.0/
+name: "Sinobi"
+aliases: ["Sinobi"]
+description: "Sinobi is an active extortion or ransomware group tracked by RansomLook."
+url: "/sinobi"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/sinobi"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+malware: ["{\"name\" => \"Xploit\"}","{\"name\" => \"CrossRat\"}"]
 provenance:
-  source_dataset_url: https://www.ransomlook.io/api/groups
-  source_record_id: sinobi
-  source_retrieved_at: '2026-04-26T02:09:02Z'
-  source_transforms:
-  - normalized-name
-  - deduplicated-aliases
-  - omitted-volatile-iocs
-  - adapted-for-threatactor-info
-risk_level: null
-country: null
-malware:
-- name: Xploit
-- name: CrossRat
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "sinobi"
+  source_retrieved_at: "2026-04-26T02:09:02Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

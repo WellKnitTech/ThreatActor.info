@@ -1,18 +1,9 @@
-name: Coinbase Cartel
-aliases:
-- Coinbase Cartel
-description: Coinbase Cartel is a ransomware threat actor that emerged in September
-  2025, focusing on data exfiltration rather than encryption, and has claimed over
-  60 victims, primarily in the healthcare, technology, and transportation sectors.
-  The group employs TTPs such as social engineering, credential harvesting, and collaboration
-  with Initial Access Brokers to gain initial access. They operate a data leak site
-  where they publish victim names and issue ransom demands, requiring payment via
-  Bitcoin.
-url: /coinbase-cartel
+name: "Coinbase Cartel"
+aliases: ["Coinbase Cartel"]
+description: "Coinbase Cartel is a ransomware threat actor that emerged in September 2025, focusing on data exfiltration rather than encryption, and has claimed over 60 victims, primarily in the healthcare, technology, and transportation sectors. The group employs TTPs such as social engineering, credential harvesting, and collaboration with Initial Access Brokers to gain initial access. They operate a data leak site where they publish victim names and issue ransom demands, requiring payment via Bitcoin."
+url: "/coinbase-cartel"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: bebcafbd-49ec-442f-9184-260c8c327f89
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "bebcafbd-49ec-442f-9184-260c8c327f89"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

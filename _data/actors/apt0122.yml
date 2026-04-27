@@ -1,31 +1,16 @@
-name: Silent Librarian
-aliases:
-- COBALT DICKENS
-- Mabna Institute
-- Mabna Institute Group
-- Silent Librarian
-- TA407
-- TA4900
-- Yellow Nabu
-description: 'Silent Librarian is a group that has targeted research and proprietary
-  data at universities, government agencies, and private sector companies worldwide
-  since at least 2013. Members of  Silent Librarian are known to have been affiliated
-  with the Iran-based Mabna Institute which has conducted cyber intrusions at the
-  behest of the government of Iran, specifically the Islamic Revolutionary Guard Corps
-  (IRGC).(Citation: DOJ Iran Indictments March 2018)(Citation: Phish Labs Silent Librarian)(Citation:
-  Malwarebytes Silent Librarian October 2020)'
-url: /apt0122
-external_id: G0122
-mitre_id: G0122
-external_url: https://attack.mitre.org/groups/G0122
-mitre_url: https://attack.mitre.org/groups/G0122
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "Silent Librarian"
+aliases: ["COBALT DICKENS","Mabna Institute","Mabna Institute Group","Silent Librarian","TA407","TA4900","Yellow Nabu"]
+description: "Silent Librarian is a group that has targeted research and proprietary data at universities, government agencies, and private sector companies worldwide since at least 2013. Members of  Silent Librarian are known to have been affiliated with the Iran-based Mabna Institute which has conducted cyber intrusions at the behest of the government of Iran, specifically the Islamic Revolutionary Guard Corps (IRGC).(Citation: DOJ Iran Indictments March 2018)(Citation: Phish Labs Silent Librarian)(Citation: Malwarebytes Silent Librarian October 2020)"
+url: "/apt0122"
+country: "Iran"
+external_id: "G0122"
+external_url: "https://attack.mitre.org/groups/G0122"
+mitre_id: "G0122"
+mitre_url: "https://attack.mitre.org/groups/G0122"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G0122
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: null
-country: Iran
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0122"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

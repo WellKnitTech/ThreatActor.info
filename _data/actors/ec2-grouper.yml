@@ -1,28 +1,10 @@
-name: EC2 Grouper
-aliases:
-- EC2 Grouper
-description: EC2 Grouper is a prolific threat actor known for leveraging AWS tools
-  for PowerShell to conduct automated attacks in cloud environments. They typically
-  utilize the CreateSecurityGroup API to establish remote access and exhibit a consistent
-  security group naming convention. Credential acquisition is believed to stem from
-  compromised cloud access keys, often sourced from public code repositories. Notably,
-  their activities do not include calls to AuthorizeSecurityGroupIngress, suggesting
-  a selective approach to escalation.
-url: /ec2-grouper
+name: "EC2 Grouper"
+aliases: ["EC2 Grouper"]
+description: "EC2 Grouper is a prolific threat actor known for leveraging AWS tools for PowerShell to conduct automated attacks in cloud environments. They typically utilize the CreateSecurityGroup API to establish remote access and exhibit a consistent security group naming convention. Credential acquisition is believed to stem from compromised cloud access keys, often sourced from public code repositories. Notably, their activities do not include calls to AuthorizeSecurityGroupIngress, suggesting a selective approach to escalation."
+url: "/ec2-grouper"
+malware: ["{\"name\" => \"CloudDuke\"}","{\"name\" => \"PowerDuke\"}","{\"name\" => \"POWERSTATS\"}","{\"name\" => \"Power Loader\"}","{\"name\" => \"POWERSOURCE\"}","{\"name\" => \"RemoteCMD\"}","{\"name\" => \"Remote Utilities\"}","{\"name\" => \"RemotePC\"}","{\"name\" => \"PowerRAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 7f7b20e7-e704-4b47-b230-b5d232493fce
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: CloudDuke
-- name: PowerDuke
-- name: POWERSTATS
-- name: Power Loader
-- name: POWERSOURCE
-- name: RemoteCMD
-- name: Remote Utilities
-- name: RemotePC
-- name: PowerRAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "7f7b20e7-e704-4b47-b230-b5d232493fce"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

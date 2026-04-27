@@ -1,23 +1,15 @@
-name: Confucius
-aliases:
-- Confucius
-- Confucius APT
-description: 'Confucius is a cyber espionage group that has primarily targeted military
-  personnel, high-profile personalities, business persons, and government organizations
-  in South Asia since at least 2013. Security researchers have noted similarities
-  between Confucius and Patchwork, particularly in their respective custom malware
-  code and targets.(Citation: TrendMicro Confucius APT Feb 2018)(Citation: TrendMicro
-  Confucius APT Aug 2021)(Citation: Uptycs Confucius APT Jan 2021)'
-url: /apt0142
-external_id: G0142
-mitre_id: G0142
-external_url: https://attack.mitre.org/groups/G0142
-mitre_url: https://attack.mitre.org/groups/G0142
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "Confucius"
+aliases: ["Confucius","Confucius APT"]
+description: "Confucius is a cyber espionage group that has primarily targeted military personnel, high-profile personalities, business persons, and government organizations in South Asia since at least 2013. Security researchers have noted similarities between Confucius and Patchwork, particularly in their respective custom malware code and targets.(Citation: TrendMicro Confucius APT Feb 2018)(Citation: TrendMicro Confucius APT Aug 2021)(Citation: Uptycs Confucius APT Jan 2021)"
+url: "/apt0142"
+external_id: "G0142"
+external_url: "https://attack.mitre.org/groups/G0142"
+mitre_id: "G0142"
+mitre_url: "https://attack.mitre.org/groups/G0142"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G0142
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0142"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

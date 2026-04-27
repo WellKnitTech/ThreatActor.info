@@ -1,21 +1,10 @@
-name: CL-STA-0043
-aliases:
-- TGR-STA-0043
-- CL-STA-0043
-description: CL-STA-0043 is a highly skilled and sophisticated threat actor, believed
-  to be a nation-state, targeting governmental entities in the Middle East and Africa.
-  They exploit vulnerabilities in on-premises Internet Information Services and Microsoft
-  Exchange servers to infiltrate target networks. They engage in reconnaissance, locate
-  vital assets, and have been observed using native Windows tools for privilege escalation.
-url: /cl-sta-0043
+name: "CL-STA-0043"
+aliases: ["TGR-STA-0043","CL-STA-0043"]
+description: "CL-STA-0043 is a highly skilled and sophisticated threat actor, believed to be a nation-state, targeting governmental entities in the Middle East and Africa. They exploit vulnerabilities in on-premises Internet Information Services and Microsoft Exchange servers to infiltrate target networks. They engage in reconnaissance, locate vital assets, and have been observed using native Windows tools for privilege escalation."
+url: "/cl-sta-0043"
+malware: ["{\"name\" => \"Windows Remote Desktop\"}","{\"name\" => \"Xploit\"}","{\"name\" => \"Killer RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 5d0aee14-f18a-44da-a44d-28d950f06b9c
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Windows Remote Desktop
-- name: Xploit
-- name: Killer RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "5d0aee14-f18a-44da-a44d-28d950f06b9c"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

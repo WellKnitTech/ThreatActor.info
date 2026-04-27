@@ -1,35 +1,12 @@
-name: APT-C-12
-aliases:
-- Sapphire Mushroom
-- Blue Mushroom
-- NuclearCrisis
-- APT-C-12
-description: According to 360 TIC the actor has carried out continuous cyber espionage
-  activities since 2011 on key units and departments of the Chinese government, military
-  industry, scientific research, and finance. The organization focuses on information
-  related to the nuclear industry and scientific research. The targets were mainly
-  concentrated in mainland China...[M]ore than 670 malware samples have been collected
-  from the group, including more than 60 malicious plugins specifically for lateral
-  movement; more than 40 C2 domain names and IPs related to the organization have
-  also been discovered.
-url: /apt-c-12
-sector_focus:
-- Private sector
-- Government
-- Military
-- Scientific Research
-- Finance
+name: "APT-C-12"
+aliases: ["Sapphire Mushroom","Blue Mushroom","NuclearCrisis","APT-C-12"]
+description: "According to 360 TIC the actor has carried out continuous cyber espionage activities since 2011 on key units and departments of the Chinese government, military industry, scientific research, and finance. The organization focuses on information related to the nuclear industry and scientific research. The targets were mainly concentrated in mainland China...[M]ore than 670 malware samples have been collected from the group, including more than 60 malicious plugins specifically for lateral movement; more than 40 C2 domain names and IPs related to the organization have also been discovered."
+url: "/apt-c-12"
+sector_focus: ["Private sector","Government","Military","Scientific Research","Finance"]
+incident_type: "Espionage"
+malware: ["{\"name\" => \"China Chopper\"}","{\"name\" => \"RTM\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"Nuclear RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 53771ca5-f1cb-47b6-a92a-53a485307cf7
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-incident_type: Espionage
-country: null
-malware:
-- name: China Chopper
-- name: RTM
-- name: CyberGate
-- name: Cyber Eye RAT
-- name: Nuclear RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "53771ca5-f1cb-47b6-a92a-53a485307cf7"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

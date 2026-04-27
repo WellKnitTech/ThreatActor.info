@@ -1,13 +1,9 @@
-name: Corsair Jackal
-aliases:
-- TunisianCyberArmy
-- Corsair Jackal
-description: ''
-url: /corsair-jackal
-risk_level: High
+name: "Corsair Jackal"
+aliases: ["TunisianCyberArmy","Corsair Jackal"]
+url: "/corsair-jackal"
+risk_level: "High"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 59d63dd6-f46f-4334-ad15-30d2e1ee0623
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "59d63dd6-f46f-4334-ad15-30d2e1ee0623"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

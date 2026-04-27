@@ -1,21 +1,10 @@
-name: Void Banshee
-aliases:
-- Void Banshee
-description: Void Banshee is an APT group targeting North America, Europe, and Southeast
-  Asia for information theft and financial gain. They exploit vulnerabilities like
-  CVE-2024-38112 to deliver the Atlantida info-stealer through malicious PDFs disguised
-  as book files. The group uses internet shortcuts with MHTML protocol handlers to
-  access and execute files through disabled Internet Explorer, posing a significant
-  threat to organizations. Void Banshee's TTPs include crafting URL strings to control
-  window sizes in IE and using HTML files to hide malicious downloads from victims.
-url: /void-banshee
+name: "Void Banshee"
+aliases: ["Void Banshee"]
+description: "Void Banshee is an APT group targeting North America, Europe, and Southeast Asia for information theft and financial gain. They exploit vulnerabilities like CVE-2024-38112 to deliver the Atlantida info-stealer through malicious PDFs disguised as book files. The group uses internet shortcuts with MHTML protocol handlers to access and execute files through disabled Internet Explorer, posing a significant threat to organizations. Void Banshee's TTPs include crafting URL strings to control window sizes in IE and using HTML files to hide malicious downloads from victims."
+url: "/void-banshee"
+malware: ["{\"name\" => \"Windows Remote Desktop\"}","{\"name\" => \"Xploit\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: df584835-97da-4e27-ab35-bcd3c5bf7815
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Windows Remote Desktop
-- name: Xploit
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "df584835-97da-4e27-ab35-bcd3c5bf7815"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

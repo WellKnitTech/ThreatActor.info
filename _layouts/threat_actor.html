@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign actor_key = page.url | remove: '/'.prepend | remove: '/' | replace: '/', '_' %}
+{% assign actor_key = page.url | remove: '/' | replace: '/', '_' %}
 {% assign current_actor = site.data.actors[actor_key] %}
 
 {% assign profile_title = current_actor.name | default: page.title %}
@@ -27,6 +27,7 @@ layout: default
   {% assign profile_source_record_url = current_actor.provenance.malpedia.source_record_url %}
 {% endif %}
 {% assign profile_url = profile_external_url | default: profile_mitre_url %}
+{% assign profile_analyst_notes = current_actor.analyst_notes %}
 
 <div class="threat-actor-header">
   <div class="header-top">
@@ -141,6 +142,13 @@ layout: default
 <div class="content">
   {{ content }}
 </div>
+
+{% if profile_analyst_notes %}
+<aside class="analyst-notes-panel">
+  <h2>Analyst Notes</h2>
+  <p>{{ profile_analyst_notes }}</p>
+</aside>
+{% endif %}
 
 {% if profile_source_attribution or profile_source_record_url or profile_source_name %}
 <aside class="source-attribution-panel">

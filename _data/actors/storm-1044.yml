@@ -1,28 +1,10 @@
-name: Storm-1044
-aliases:
-- DEV-1044
-- Storm-1044
-description: Storm-1044 has been identified as part of a cyber campaign in collaboration
-  with Twisted Spider. They employ a strategic approach, targeting specific endpoints
-  using an initial access trojan called DanaBot. Once they gain access, Storm-1044
-  initiates lateral movement through Remote Desktop Protocol sign-in attempts, passing
-  control to Twisted Spider. Twisted Spider then compromises the endpoints by introducing
-  the CACTUS ransomware. Microsoft has detected ongoing malvertising attacks involving
-  Storm-1044, leading to the deployment of CACTUS ransomware.
-url: /storm-1044
+name: "Storm-1044"
+aliases: ["DEV-1044","Storm-1044"]
+description: "Storm-1044 has been identified as part of a cyber campaign in collaboration with Twisted Spider. They employ a strategic approach, targeting specific endpoints using an initial access trojan called DanaBot. Once they gain access, Storm-1044 initiates lateral movement through Remote Desktop Protocol sign-in attempts, passing control to Twisted Spider. Twisted Spider then compromises the endpoints by introducing the CACTUS ransomware. Microsoft has detected ongoing malvertising attacks involving Storm-1044, leading to the deployment of CACTUS ransomware."
+url: "/storm-1044"
+malware: ["{\"name\" => \"Trojan.Karagany\"}","{\"name\" => \"RemoteCMD\"}","{\"name\" => \"Trojan.Mebromi\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"Remote Utilities\"}","{\"name\" => \"RemotePC\"}","{\"name\" => \"DesktopNow\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 5ec7a98e-9725-4f87-8a6e-91e2b4ba04ac
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Trojan.Karagany
-- name: RemoteCMD
-- name: Trojan.Mebromi
-- name: CyberGate
-- name: Cyber Eye RAT
-- name: Remote Utilities
-- name: RemotePC
-- name: DesktopNow
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "5ec7a98e-9725-4f87-8a6e-91e2b4ba04ac"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

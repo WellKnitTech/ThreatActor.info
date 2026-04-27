@@ -1,22 +1,10 @@
-name: Krybit
-aliases:
-- Krybit
-description: Krybit is a ransomware group that operates as a ransomware-as-a-service
-  provider, offering affiliates 80% of ransom proceeds in exchange for technical support
-  and a malware suite. The group has claimed attacks on various organizations across
-  multiple countries, including asesoriauriel.com in Spain and fraper.com in Spain,
-  without disclosing the volume of data exfiltrated. Krybit is currently engaged in
-  a turf war with another group, 0APT, and has been accused of fabricating victim
-  claims. Their leak site has been used to publish compromised data and to issue threats
-  to rivals and victims alike.
-url: /krybit
+name: "Krybit"
+aliases: ["Krybit"]
+description: "Krybit is a ransomware group that operates as a ransomware-as-a-service provider, offering affiliates 80% of ransom proceeds in exchange for technical support and a malware suite. The group has claimed attacks on various organizations across multiple countries, including asesoriauriel.com in Spain and fraper.com in Spain, without disclosing the volume of data exfiltrated. Krybit is currently engaged in a turf war with another group, 0APT, and has been accused of fabricating victim claims. Their leak site has been used to publish compromised data and to issue threats to rivals and victims alike."
+url: "/krybit"
+malware: ["{\"name\" => \"Pain RAT\"}","{\"name\" => \"CrossRat\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: d73792c0-97d3-4aff-8e34-96bf335bf54b
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Pain RAT
-- name: CrossRat
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "d73792c0-97d3-4aff-8e34-96bf335bf54b"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

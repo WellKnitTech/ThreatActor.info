@@ -1,19 +1,9 @@
-name: GrayBravo
-aliases:
-- TAG-150
-- GrayBravo
-description: TAG-150, also known as GrayBravo, is a sophisticated threat actor responsible
-  for developing multiple custom malware families, including CastleLoader and CastleRAT,
-  and operates a large-scale, multi-layered infrastructure. The group employs the
-  ClickFix technique to distribute malware through phishing attacks that impersonate
-  legitimate services, leveraging deceptive domains and fake repositories. Insikt
-  Group has identified four distinct activity clusters associated with TAG-150, each
-  targeting different victim profiles and utilizing unique TTPs.
-url: /graybravo
+name: "GrayBravo"
+aliases: ["TAG-150","GrayBravo"]
+description: "TAG-150, also known as GrayBravo, is a sophisticated threat actor responsible for developing multiple custom malware families, including CastleLoader and CastleRAT, and operates a large-scale, multi-layered infrastructure. The group employs the ClickFix technique to distribute malware through phishing attacks that impersonate legitimate services, leveraging deceptive domains and fake repositories. Insikt Group has identified four distinct activity clusters associated with TAG-150, each targeting different victim profiles and utilizing unique TTPs."
+url: "/graybravo"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 1dc3ec7d-32f6-43f1-8686-c35c44b9a83d
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "1dc3ec7d-32f6-43f1-8686-c35c44b9a83d"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

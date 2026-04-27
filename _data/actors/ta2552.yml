@@ -1,29 +1,10 @@
-name: TA2552
-aliases:
-- TA2552
-description: "Since January 2020, Proofpoint researchers have tracked an actor abusing\
-  \ Microsoft Office 365 (O365) third-party application (3PA) access, with suspected\
-  \ activity dating back to August 2019. The actor, known as TA2552, uses well-crafted\
-  \ Spanish language lures that leverage a narrow range of themes and brands. The\
-  \ lures entice users to click a link in the message, taking them to the legitimate\
-  \ Microsoft third-party apps consent page. There they are prompted to grant a third-party\
-  \ application read-only user permissions to their O365 account via OAuth2 or other\
-  \ token-based authorization methods. TA2552 seeks access to specific account resources\
-  \ like the user’s contacts and mail. Requesting read-only permissions for such account\
-  \ resources could be used to conduct account reconnaissance, silently steal data,\
-  \ or to intercept password reset messages from other accounts such as those at financial\
-  \ institutions. While organizations with global presence have received messages\
-  \ from this group, they appear to choose recipients who are likely Spanish speakers.\
-  \ \n\n"
-url: /ta2552
+name: "TA2552"
+aliases: ["TA2552"]
+description: "Since January 2020, Proofpoint researchers have tracked an actor abusing Microsoft Office 365 (O365) third-party application (3PA) access, with suspected activity dating back to August 2019. The actor, known as TA2552, uses well-crafted Spanish language lures that leverage a narrow range of themes and brands. The lures entice users to click a link in the message, taking them to the legitimate Microsoft third-party apps consent page. There they are prompted to grant a third-party application read-only user permissions to their O365 account via OAuth2 or other token-based authorization methods. TA2552 seeks access to specific account resources like the user’s contacts and mail. Requesting read-only permissions for such account resources could be used to conduct account reconnaissance, silently steal data, or to intercept password reset messages from other accounts such as those at financial institutions. While organizations with global presence have received messages from this group, they appear to choose recipients who are likely Spanish speakers. \n\n"
+url: "/ta2552"
+malware: ["{\"name\" => \"Back Orifice\"}","{\"name\" => \"Back Orifice 2000\"}","{\"name\" => \"Archelaus Beta\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: e9de47f0-3e68-465c-b91e-7a2b7371955c
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Back Orifice
-- name: Back Orifice 2000
-- name: Archelaus Beta
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "e9de47f0-3e68-465c-b91e-7a2b7371955c"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

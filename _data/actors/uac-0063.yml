@@ -1,26 +1,10 @@
-name: UAC-0063
-aliases:
-- UAC-0063
-description: UAC-0063 is a threat actor linked to Russian APT28, known for targeting
-  government entities in Ukraine and Central Asia for cyber espionage operations.
-  They utilize keyloggers, backdoors, and malware like Hatvibe and Cherryspy to compromise
-  systems and exfiltrate sensitive information. The group has been active since at
-  least 2021 and has shown interest in targeting organizations in Mongolia, Kazakhstan,
-  Kyrgyzstan, Israel, and India. Their TTPs include spear-phishing campaigns and exploiting
-  vulnerabilities in software products like HFS HTTP File Server and Rejetto file-sharing
-  servers.
-url: /uac-0063
+name: "UAC-0063"
+aliases: ["UAC-0063"]
+description: "UAC-0063 is a threat actor linked to Russian APT28, known for targeting government entities in Ukraine and Central Asia for cyber espionage operations. They utilize keyloggers, backdoors, and malware like Hatvibe and Cherryspy to compromise systems and exfiltrate sensitive information. The group has been active since at least 2021 and has shown interest in targeting organizations in Mongolia, Kazakhstan, Kyrgyzstan, Israel, and India. Their TTPs include spear-phishing campaigns and exploiting vulnerabilities in software products like HFS HTTP File Server and Rejetto file-sharing servers."
+url: "/uac-0063"
+malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"Cherry Picker\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"HTTP WEB BACKDOOR\"}","{\"name\" => \"Xploit\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 9565bf78-7c9c-41cd-9ed0-58031f6d8978
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Backdoor.Oldrea
-- name: Cherry Picker
-- name: CyberGate
-- name: Cyber Eye RAT
-- name: HTTP WEB BACKDOOR
-- name: Xploit
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "9565bf78-7c9c-41cd-9ed0-58031f6d8978"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

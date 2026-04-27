@@ -1,23 +1,15 @@
-name: Axiom
-aliases:
-- Axiom
-- Group 72
-description: 'Axiom is a suspected Chinese cyber espionage group that has targeted
-  the aerospace, defense, government, manufacturing, and media sectors since at least
-  2008. Some reporting suggests a degree of overlap between Axiom and Winnti Group
-  but the two groups appear to be distinct based on differences in reporting on TTPs
-  and targeting.(Citation: Kaspersky Winnti April 2013)(Citation: Kaspersky Winnti
-  June 2015)(Citation: Novetta Winnti April 2015)'
-url: /apt0001
-external_id: G0001
-mitre_id: G0001
-external_url: https://attack.mitre.org/groups/G0001
-mitre_url: https://attack.mitre.org/groups/G0001
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "Axiom"
+aliases: ["Axiom","Group 72"]
+description: "Axiom is a suspected Chinese cyber espionage group that has targeted the aerospace, defense, government, manufacturing, and media sectors since at least 2008. Some reporting suggests a degree of overlap between Axiom and Winnti Group but the two groups appear to be distinct based on differences in reporting on TTPs and targeting.(Citation: Kaspersky Winnti April 2013)(Citation: Kaspersky Winnti June 2015)(Citation: Novetta Winnti April 2015)"
+url: "/apt0001"
+external_id: "G0001"
+external_url: "https://attack.mitre.org/groups/G0001"
+mitre_id: "G0001"
+mitre_url: "https://attack.mitre.org/groups/G0001"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T05:24:31Z'
-    source_record_id: G0001
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0001"
+    source_retrieved_at: "2026-04-26T05:24:31Z"
+source: "MITRE ATT&CK"

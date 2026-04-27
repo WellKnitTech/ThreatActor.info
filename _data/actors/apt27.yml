@@ -1,54 +1,15 @@
-name: APT27
-aliases:
-- GreedyTaotie
-- TG-3390
-- EMISSARY PANDA
-- TEMP.Hippo
-- Red Phoenix
-- Budworm
-- Group 35
-- ZipToken
-- Iron Tiger
-- BRONZE UNION
-- Lucky Mouse
-- G0027
-- Iron Taurus
-- Earth Smilodon
-- Circle Typhoon
-- Linen Typhoon
-- APT27
-description: A China-based actor that targets foreign embassies to collect data on
-  government, defence, and technology sectors.
-url: /apt27
-country: China
-risk_level: High
-sector_focus:
-- Technology
-- Government, Administration
-- Defense
-- Government
-- Private sector
+name: "APT27"
+aliases: ["GreedyTaotie","TG-3390","EMISSARY PANDA","TEMP.Hippo","Red Phoenix","Budworm","Group 35","ZipToken","Iron Tiger","BRONZE UNION","Lucky Mouse","G0027","Iron Taurus","Earth Smilodon","Circle Typhoon","Linen Typhoon","APT27"]
+description: "A China-based actor that targets foreign embassies to collect data on government, defence, and technology sectors."
+url: "/apt27"
+country: "China"
+sector_focus: ["Technology","Government, Administration","Defense","Government","Private sector"]
+targeted_victims: ["United States","United Kingdom","France","Japan","Taiwan","India","Canada","China","Thailand","Israel","Australia","South Korea","Russia","Iran","Turkey"]
+incident_type: "Espionage"
+risk_level: "High"
+malware: ["{\"name\" => \"China Chopper\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 834e0acd-d92a-4e38-bb14-dc4159d7cb32
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-targeted_victims:
-- United States
-- United Kingdom
-- France
-- Japan
-- Taiwan
-- India
-- Canada
-- China
-- Thailand
-- Israel
-- Australia
-- South Korea
-- Russia
-- Iran
-- Turkey
-incident_type: Espionage
-malware:
-- name: China Chopper
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "834e0acd-d92a-4e38-bb14-dc4159d7cb32"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

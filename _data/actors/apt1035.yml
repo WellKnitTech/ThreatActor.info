@@ -1,41 +1,18 @@
-name: Winter Vivern
-aliases:
-- TA-473
-- TA473
-- TAG-70
-- UAC-0114
-- Winter Vivern
-description: 'Winter Vivern is a group linked to Russian and Belorussian interests
-  active since at least 2020 targeting various European government and NGO entities,
-  along with sporadic targeting of Indian and US victims. The group leverages a combination
-  of document-based phishing activity and server-side exploitation for initial access,
-  leveraging adversary-controlled and -created infrastructure for follow-on command
-  and control.(Citation: DomainTools WinterVivern 2021)(Citation: SentinelOne WinterVivern
-  2023)(Citation: CERT-UA WinterVivern 2023)(Citation: ESET WinterVivern 2023)(Citation:
-  Proofpoint WinterVivern 2023)'
-url: /apt1035
-external_id: G1035
-mitre_id: G1035
-external_url: https://attack.mitre.org/groups/G1035
-mitre_url: https://attack.mitre.org/groups/G1035
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "Winter Vivern"
+aliases: ["TA-473","TA473","TAG-70","UAC-0114","Winter Vivern"]
+description: "Winter Vivern is a group linked to Russian and Belorussian interests active since at least 2020 targeting various European government and NGO entities, along with sporadic targeting of Indian and US victims. The group leverages a combination of document-based phishing activity and server-side exploitation for initial access, leveraging adversary-controlled and -created infrastructure for follow-on command and control.(Citation: DomainTools WinterVivern 2021)(Citation: SentinelOne WinterVivern 2023)(Citation: CERT-UA WinterVivern 2023)(Citation: ESET WinterVivern 2023)(Citation: Proofpoint WinterVivern 2023)"
+url: "/apt1035"
+country: "Russia"
+targeted_victims: ["Germany"]
+external_id: "G1035"
+external_url: "https://attack.mitre.org/groups/G1035"
+mitre_id: "G1035"
+mitre_url: "https://attack.mitre.org/groups/G1035"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"PowerDuke\"}","{\"name\" => \"POWERSTATS\"}","{\"name\" => \"Power Loader\"}","{\"name\" => \"POWERSOURCE\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"PowerRAT\"}"]
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G1035
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: null
-country: Russia
-targeted_victims:
-- Germany
-malware:
-- name: Backdoor.Oldrea
-- name: PowerDuke
-- name: POWERSTATS
-- name: Power Loader
-- name: POWERSOURCE
-- name: CyberGate
-- name: Cyber Eye RAT
-- name: PowerRAT
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G1035"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

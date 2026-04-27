@@ -1,19 +1,12 @@
-name: Copy-Paste
-aliases:
-- Copy-Paste
-description: The title ‘Copy-paste compromises’ is derived from the actor’s heavy
-  use of tools copied almost identically from open source given by The Australian
-  Government.
-url: /copy-paste
-sector_focus:
-- Government
+name: "Copy-Paste"
+aliases: ["Copy-Paste"]
+description: "The title ‘Copy-paste compromises’ is derived from the actor’s heavy use of tools copied almost identically from open source given by The Australian Government."
+url: "/copy-paste"
+sector_focus: ["Government"]
+targeted_victims: ["Australia"]
+incident_type: "Espionage"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 38d75c89-f243-45ee-87e7-e4675f0c53b3
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-targeted_victims:
-- Australia
-incident_type: Espionage
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "38d75c89-f243-45ee-87e7-e4675f0c53b3"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

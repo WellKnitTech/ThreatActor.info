@@ -1,20 +1,11 @@
-name: Budminer
-aliases:
-- Budminer cyberespionage group
-- Budminer
-description: Based on the evidence we have presented Symantec attributed the activity
-  involving theDripion malware to the Budminer advanced threat group. While we have
-  not seen newcampaigns using Taidoor malware since 2014, we believe the Budminer
-  group has changedtactics to avoid detection after being outed publicly in security
-  white papers and blogs over thepast few years.
-url: /budminer
-country: China
+name: "Budminer"
+aliases: ["Budminer cyberespionage group","Budminer"]
+description: "Based on the evidence we have presented Symantec attributed the activity involving theDripion malware to the Budminer advanced threat group. While we have not seen newcampaigns using Taidoor malware since 2014, we believe the Budminer group has changedtactics to avoid detection after being outed publicly in security white papers and blogs over thepast few years."
+url: "/budminer"
+country: "China"
+malware: ["{\"name\" => \"Taidoor\"}","{\"name\" => \"Miner-C\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 2eb0dc7a-cef6-4744-92ac-2fe269dacb95
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: Taidoor
-- name: Miner-C
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "2eb0dc7a-cef6-4744-92ac-2fe269dacb95"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

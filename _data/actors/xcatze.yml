@@ -1,24 +1,10 @@
-name: Xcatze
-aliases:
-- Xcatze
-description: Cloud security company Lacework says it discovered a threat actor group
-  named Xcatze that uses a Python named AndroxGh0st to take over AWS servers and send
-  out massive email spam campaigns. Lacework says the malware operates by scanning
-  web apps written in the Laravel PHP framework for exposed configuration files to
-  identify and steal server credentials. Researchers said AndroxGh0st specifically
-  searches for AWS, SendGrid, and Twilio credentials, which it uses to take control
-  of email servers and accounts and send out the spam campaigns.
-url: /xcatze
+name: "Xcatze"
+aliases: ["Xcatze"]
+description: "Cloud security company Lacework says it discovered a threat actor group named Xcatze that uses a Python named AndroxGh0st to take over AWS servers and send out massive email spam campaigns. Lacework says the malware operates by scanning web apps written in the Laravel PHP framework for exposed configuration files to identify and steal server credentials. Researchers said AndroxGh0st specifically searches for AWS, SendGrid, and Twilio credentials, which it uses to take control of email servers and accounts and send out the spam campaigns."
+url: "/xcatze"
+malware: ["{\"name\" => \"CloudDuke\"}","{\"name\" => \"gh0st\"}","{\"name\" => \"Gh0st RAT\"}","{\"name\" => \"Androrat\"}","{\"name\" => \"Archelaus Beta\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 83764206-8012-47c6-9c7a-dc04c99559e7
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: CloudDuke
-- name: gh0st
-- name: Gh0st RAT
-- name: Androrat
-- name: Archelaus Beta
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "83764206-8012-47c6-9c7a-dc04c99559e7"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

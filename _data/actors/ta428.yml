@@ -1,34 +1,11 @@
-name: TA428
-aliases:
-- Colourful Panda
-- BRONZE DUDLEY
-- TA428
-description: Proofpoint researchers have identified a targeted APT campaign that utilized
-  malicious RTF documents to deliver custom malware to unsuspecting victims. We dubbed
-  this campaign “Operation LagTime IT” based on entities that were targeted and the
-  distinctive domains registered to C&C IP infrastructure. Beginning in early 2019,
-  these threat actors targeted a number of government agencies in East Asia overseeing
-  government information technology, domestic affairs, foreign affairs, economic development,
-  and political processes. We determined that the infection vector observed in this
-  campaign was spear phishing, with emails originating from both free email accounts
-  and compromised user accounts. Attackers relied on Microsoft Equation Editor exploit
-  CVE-2018-0798 to deliver a custom malware that Proofpoint researchers have dubbed
-  Cotx RAT. Additionally, this APT group utilizes Poison Ivy payloads that share overlapping
-  command and control (C&C) infrastructure with the newly identified Cotx campaigns.
-  Based on infrastructure overlaps, post-exploitation techniques, and historic TTPs
-  utilized in this operation, Proofpoint analysts attribute this activity to the Chinese
-  APT group tracked internally as TA428. Researchers believe that this activity has
-  an operational and tactical resemblance to the Maudi Surveillance Operation which
-  was previously reported in 2013.
-url: /ta428
-country: China
+name: "TA428"
+aliases: ["Colourful Panda","BRONZE DUDLEY","TA428"]
+description: "Proofpoint researchers have identified a targeted APT campaign that utilized malicious RTF documents to deliver custom malware to unsuspecting victims. We dubbed this campaign “Operation LagTime IT” based on entities that were targeted and the distinctive domains registered to C&C IP infrastructure. Beginning in early 2019, these threat actors targeted a number of government agencies in East Asia overseeing government information technology, domestic affairs, foreign affairs, economic development, and political processes. We determined that the infection vector observed in this campaign was spear phishing, with emails originating from both free email accounts and compromised user accounts. Attackers relied on Microsoft Equation Editor exploit CVE-2018-0798 to deliver a custom malware that Proofpoint researchers have dubbed Cotx RAT. Additionally, this APT group utilizes Poison Ivy payloads that share overlapping command and control (C&C) infrastructure with the newly identified Cotx campaigns. Based on infrastructure overlaps, post-exploitation techniques, and historic TTPs utilized in this operation, Proofpoint analysts attribute this activity to the Chinese APT group tracked internally as TA428. Researchers believe that this activity has an operational and tactical resemblance to the Maudi Surveillance Operation which was previously reported in 2013."
+url: "/ta428"
+country: "China"
+malware: ["{\"name\" => \"PoisonIvy\"}","{\"name\" => \"Xploit\"}","{\"name\" => \"Archelaus Beta\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 5533d062-18ab-4c70-9472-0eac03f95a1d
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: PoisonIvy
-- name: Xploit
-- name: Archelaus Beta
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "5533d062-18ab-4c70-9472-0eac03f95a1d"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

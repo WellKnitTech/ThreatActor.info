@@ -1,21 +1,10 @@
-name: Urpage
-aliases:
-- Urpage
-description: What sets Urpage attacks apart is its targeting of InPage, a word processor
-  for Urdu and Arabic languages. However, its Delphi backdoor component, which it
-  has in common with Confucius and Patchwork, and its apparent use of Bahamut-like
-  malware, is what makes it more intriguing as it connects Urpage to these other known
-  threats. Trend Micro covered the Delphi component in the context of the Confucius
-  and Patchwork connection. They mentioned Urpage as a third unnamed threat actor
-  connected to the two.
-url: /urpage
+name: "Urpage"
+aliases: ["Urpage"]
+description: "What sets Urpage attacks apart is its targeting of InPage, a word processor for Urdu and Arabic languages. However, its Delphi backdoor component, which it has in common with Confucius and Patchwork, and its apparent use of Bahamut-like malware, is what makes it more intriguing as it connects Urpage to these other known threats. Trend Micro covered the Delphi component in the context of the Confucius and Patchwork connection. They mentioned Urpage as a third unnamed threat actor connected to the two."
+url: "/urpage"
+malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"Arabian-Attacker RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 4e137d53-b9cf-4b9a-88c2-f29dd27ac302
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Backdoor.Oldrea
-- name: Arabian-Attacker RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "4e137d53-b9cf-4b9a-88c2-f29dd27ac302"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

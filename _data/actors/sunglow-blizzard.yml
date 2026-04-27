@@ -1,17 +1,11 @@
-name: Sunglow Blizzard
-aliases:
-- DEV-0665
-- Sunglow Blizzard
-description: DEV-0665 is a threat actor associated with the HermeticWiper attacks.
-  Their objective is to disrupt, degrade, and destroy specific resources within a
-  targeted country.
-url: /sunglow-blizzard
-country: Russia
+name: "Sunglow Blizzard"
+aliases: ["DEV-0665","Sunglow Blizzard"]
+description: "DEV-0665 is a threat actor associated with the HermeticWiper attacks. Their objective is to disrupt, degrade, and destroy specific resources within a targeted country."
+url: "/sunglow-blizzard"
+country: "Russia"
+malware: ["{\"name\" => \"Wiper\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 9c0f0db1-b773-42ff-a6f7-d4b6c1d28ca4
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: Wiper
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "9c0f0db1-b773-42ff-a6f7-d4b6c1d28ca4"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

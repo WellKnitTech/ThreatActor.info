@@ -1,16 +1,10 @@
-name: TheDarkOverlord
-aliases:
-- TheDarkOverlord
-description: The Dark Overlord is a financially motivated ransomware group that has
-  been active since 2016. The group is known for targeting large organizations, including
-  Netflix, ABC, and Miramax.
-url: /thedarkoverlord
+name: "TheDarkOverlord"
+aliases: ["TheDarkOverlord"]
+description: "The Dark Overlord is a financially motivated ransomware group that has been active since 2016. The group is known for targeting large organizations, including Netflix, ABC, and Miramax."
+url: "/thedarkoverlord"
+malware: ["{\"name\" => \"Dark DDoSeR\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 167bd5f9-fa61-4a4e-91bc-3ca0d17294b2
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Dark DDoSeR
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "167bd5f9-fa61-4a4e-91bc-3ca0d17294b2"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

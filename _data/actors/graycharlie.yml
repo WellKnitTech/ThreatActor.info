@@ -1,23 +1,10 @@
-name: GrayCharlie
-aliases:
-- GrayCharlie
-description: GrayCharlie is a threat actor that compromises WordPress sites to inject
-  malicious JavaScript, redirecting visitors to NetSupport RAT payloads via fake browser
-  update pages or ClickFix mechanisms. Insikt Group has identified extensive infrastructure
-  linked to GrayCharlie, primarily associated with MivoCloud and HZ Hosting Ltd.,
-  including command-and-control servers and staging infrastructure. The group employs
-  two primary attack chains to deliver the NetSupport RAT, utilizing both fake updates
-  and ClickFix techniques. GrayCharlie targets organizations worldwide, with a particular
-  focus on the US, and has shown persistent behavior in its operations since its emergence
-  in 2023.
-url: /graycharlie
+name: "GrayCharlie"
+aliases: ["GrayCharlie"]
+description: "GrayCharlie is a threat actor that compromises WordPress sites to inject malicious JavaScript, redirecting visitors to NetSupport RAT payloads via fake browser update pages or ClickFix mechanisms. Insikt Group has identified extensive infrastructure linked to GrayCharlie, primarily associated with MivoCloud and HZ Hosting Ltd., including command-and-control servers and staging infrastructure. The group employs two primary attack chains to deliver the NetSupport RAT, utilizing both fake updates and ClickFix techniques. GrayCharlie targets organizations worldwide, with a particular focus on the US, and has shown persistent behavior in its operations since its emergence in 2023."
+url: "/graycharlie"
+malware: ["{\"name\" => \"CloudDuke\"}","{\"name\" => \"Netsupport Manager\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 6ec20d92-b194-40dc-a486-af335cf85a78
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: CloudDuke
-- name: Netsupport Manager
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "6ec20d92-b194-40dc-a486-af335cf85a78"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

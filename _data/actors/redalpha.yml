@@ -1,22 +1,10 @@
-name: RedAlpha
-aliases:
-- DeepCliff
-- Red Dev 3
-- RedAlpha
-description: Recorded Future’s Insikt Group has identified two new cyberespionage
-  campaigns targeting the Tibetan Community over the past two years. The campaigns,
-  which we are collectively naming RedAlpha, combine light reconnaissance, selective
-  targeting, and diverse malicious tooling. We discovered this activity as the result
-  of pivoting off of a new malware sample observed targeting the Tibetan community
-  based in India.
-url: /redalpha
+name: "RedAlpha"
+aliases: ["DeepCliff","Red Dev 3","RedAlpha"]
+description: "Recorded Future’s Insikt Group has identified two new cyberespionage campaigns targeting the Tibetan Community over the past two years. The campaigns, which we are collectively naming RedAlpha, combine light reconnaissance, selective targeting, and diverse malicious tooling. We discovered this activity as the result of pivoting off of a new malware sample observed targeting the Tibetan community based in India."
+url: "/redalpha"
+malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 71a3b962-9a36-11e8-88f8-b31d20c6fa2a
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: CyberGate
-- name: Cyber Eye RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "71a3b962-9a36-11e8-88f8-b31d20c6fa2a"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

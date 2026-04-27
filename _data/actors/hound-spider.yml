@@ -1,13 +1,9 @@
-name: HOUND SPIDER
-aliases:
-- HOUND SPIDER
-description: According to Crowdstrike, HOUND SPIDER affiliates arrested in Romania
-  on December,2017
-url: /hound-spider
+name: "HOUND SPIDER"
+aliases: ["HOUND SPIDER"]
+description: "According to Crowdstrike, HOUND SPIDER affiliates arrested in Romania on December,2017"
+url: "/hound-spider"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 22dd1608-272c-4243-9bda-25eec834a24d
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "22dd1608-272c-4243-9bda-25eec834a24d"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

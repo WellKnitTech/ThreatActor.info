@@ -1,16 +1,10 @@
-name: UNC6293
-aliases:
-- UNC6293
-description: UNC6293 is a Russian state-sponsored threat actor identified by Google's
-  Threat Intelligence Group (GTIG), which associates them with APT29 with low confidence.
-  They have conducted campaigns utilizing social engineering tactics, including leveraging
-  App-Specific Passwords for account compromises. GTIG has also noted a second campaign
-  by UNC6293 that incorporates Ukrainian themes.
-url: /unc6293
-country: Russia
+name: "UNC6293"
+aliases: ["UNC6293"]
+description: "UNC6293 is a Russian state-sponsored threat actor identified by Google's Threat Intelligence Group (GTIG), which associates them with APT29 with low confidence. They have conducted campaigns utilizing social engineering tactics, including leveraging App-Specific Passwords for account compromises. GTIG has also noted a second campaign by UNC6293 that incorporates Ukrainian themes."
+url: "/unc6293"
+country: "Russia"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 4fc6dfbc-90de-47d2-82af-f271eb972fa0
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "4fc6dfbc-90de-47d2-82af-f271eb972fa0"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

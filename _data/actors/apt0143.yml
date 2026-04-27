@@ -1,20 +1,15 @@
-name: Aquatic Panda
-aliases:
-- Aquatic Panda
-description: 'Aquatic Panda is a suspected China-based threat group with a dual mission
-  of intelligence collection and industrial espionage. Active since at least May 2020,
-  Aquatic Panda has primarily targeted entities in the telecommunications, technology,
-  and government sectors.(Citation: CrowdStrike AQUATIC PANDA December 2021)'
-url: /apt0143
-external_id: G0143
-mitre_id: G0143
-external_url: https://attack.mitre.org/groups/G0143
-mitre_url: https://attack.mitre.org/groups/G0143
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "Aquatic Panda"
+aliases: ["Aquatic Panda"]
+description: "Aquatic Panda is a suspected China-based threat group with a dual mission of intelligence collection and industrial espionage. Active since at least May 2020, Aquatic Panda has primarily targeted entities in the telecommunications, technology, and government sectors.(Citation: CrowdStrike AQUATIC PANDA December 2021)"
+url: "/apt0143"
+external_id: "G0143"
+external_url: "https://attack.mitre.org/groups/G0143"
+mitre_id: "G0143"
+mitre_url: "https://attack.mitre.org/groups/G0143"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T05:24:31Z'
-    source_record_id: G0143
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0143"
+    source_retrieved_at: "2026-04-26T05:24:31Z"
+source: "MITRE ATT&CK"

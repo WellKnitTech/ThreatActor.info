@@ -1,38 +1,20 @@
-name: Mofang
-aliases:
-- BRONZE WALKER
-- Mofang
-- Superman
-description: 'Mofang is a likely China-based cyber espionage group, named for its
-  frequent practice of imitating a victim''s infrastructure. This adversary has been
-  observed since at least May 2012 conducting focused attacks against government and
-  critical infrastructure in Myanmar, as well as several other countries and sectors
-  including military, automobile, and weapons industries.(Citation: FOX-IT May 2016
-  Mofang)'
-url: /apt0103
-external_id: G0103
-mitre_id: G0103
-external_url: https://attack.mitre.org/groups/G0103
-mitre_url: https://attack.mitre.org/groups/G0103
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "Mofang"
+aliases: ["BRONZE WALKER","Mofang","Superman"]
+description: "Mofang is a likely China-based cyber espionage group, named for its frequent practice of imitating a victim's infrastructure. This adversary has been observed since at least May 2012 conducting focused attacks against government and critical infrastructure in Myanmar, as well as several other countries and sectors including military, automobile, and weapons industries.(Citation: FOX-IT May 2016 Mofang)"
+url: "/apt0103"
+country: "China"
+sector_focus: ["Government","Private sector"]
+targeted_victims: ["Myanmar","Germany","Singapore","Canada","India","United States","South Korea"]
+incident_type: "Espionage"
+risk_level: "High"
+external_id: "G0103"
+external_url: "https://attack.mitre.org/groups/G0103"
+mitre_id: "G0103"
+mitre_url: "https://attack.mitre.org/groups/G0103"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G0103
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: High
-sector_focus:
-- Government
-- Private sector
-country: China
-targeted_victims:
-- Myanmar
-- Germany
-- Singapore
-- Canada
-- India
-- United States
-- South Korea
-incident_type: Espionage
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0103"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

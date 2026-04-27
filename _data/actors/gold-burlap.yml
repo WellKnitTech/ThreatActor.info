@@ -1,25 +1,11 @@
-name: GOLD BURLAP
-aliases:
-- CYBORG SPIDER
-- GOLD BURLAP
-description: GOLD BURLAP is a group of financially motivated criminals responsible
-  for the development of the Pysa ransomware, also referred to as Mespinoza. Pysa
-  is a cross-platform ransomware with known versions written in C++ and Python. As
-  of December 2020, approximately 50 organizations had reportedly been targeted in
-  Pysa ransomware attacks. The operators leverage 'name and shame' tactics to apply
-  additional pressure to victims. As of January 2021, CTU researchers had found no
-  Pysa advertisements on underground forums, which likely indicates that it is not
-  operated as ransomware as a service (RaaS).
-url: /gold-burlap
-sector_focus:
-- Healthcare
+name: "GOLD BURLAP"
+aliases: ["CYBORG SPIDER","GOLD BURLAP"]
+description: "GOLD BURLAP is a group of financially motivated criminals responsible for the development of the Pysa ransomware, also referred to as Mespinoza. Pysa is a cross-platform ransomware with known versions written in C++ and Python. As of December 2020, approximately 50 organizations had reportedly been targeted in Pysa ransomware attacks. The operators leverage 'name and shame' tactics to apply additional pressure to victims. As of January 2021, CTU researchers had found no Pysa advertisements on underground forums, which likely indicates that it is not operated as ransomware as a service (RaaS)."
+url: "/gold-burlap"
+sector_focus: ["Healthcare"]
+malware: ["{\"name\" => \"Archelaus Beta\"}","{\"name\" => \"CrossRat\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: d34ca487-1613-4ee5-8930-2ac8a60f945f
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Archelaus Beta
-- name: CrossRat
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "d34ca487-1613-4ee5-8930-2ac8a60f945f"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,17 +1,11 @@
-name: Libyan Scorpions
-aliases:
-- Libyan Scorpions
-description: Libyan Scorpions is a malware operation in use since September 2015 and
-  operated by a politically motivated group whose main objective is intelligence gathering,
-  spying on influentials and political figures and operate an espionage campaign within
-  Libya.
-url: /libyan-scorpions
-risk_level: High
-sector_focus:
-- Intelligence
+name: "Libyan Scorpions"
+aliases: ["Libyan Scorpions"]
+description: "Libyan Scorpions is a malware operation in use since September 2015 and operated by a politically motivated group whose main objective is intelligence gathering, spying on influentials and political figures and operate an espionage campaign within Libya."
+url: "/libyan-scorpions"
+sector_focus: ["Intelligence"]
+risk_level: "High"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 815cbe98-e157-4078-9caa-c5a25dd64731
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "815cbe98-e157-4078-9caa-c5a25dd64731"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

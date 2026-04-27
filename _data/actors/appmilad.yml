@@ -1,18 +1,11 @@
-name: AppMilad
-aliases:
-- AppMilad
-description: AppMilad is an Iranian hacking group that has been identified as the
-  source of a spyware campaign called RatMilad. This spyware is designed to silently
-  infiltrate victims' devices and gather personal and corporate information, including
-  private communications and photos. The group has been distributing the spyware through
-  fake apps and targeting primarily Middle Eastern enterprises.
-url: /appmilad
-country: Iran
+name: "AppMilad"
+aliases: ["AppMilad"]
+description: "AppMilad is an Iranian hacking group that has been identified as the source of a spyware campaign called RatMilad. This spyware is designed to silently infiltrate victims' devices and gather personal and corporate information, including private communications and photos. The group has been distributing the spyware through fake apps and targeting primarily Middle Eastern enterprises."
+url: "/appmilad"
+country: "Iran"
+malware: ["{\"name\" => \"Hacking Team UEFI Rootkit\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: e284c356-4b77-4f86-a8f2-7793cbe8662b
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: Hacking Team UEFI Rootkit
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "e284c356-4b77-4f86-a8f2-7793cbe8662b"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

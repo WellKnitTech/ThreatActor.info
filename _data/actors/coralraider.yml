@@ -1,22 +1,11 @@
-name: CoralRaider
-aliases:
-- CoralRaider
-description: CoralRaider is a financially motivated threat actor of Vietnamese origin,
-  targeting victims in Asian and Southeast Asian countries since at least 2023. They
-  use the RotBot loader family and XClient stealer to steal victim information, with
-  hardcoded Vietnamese words in their payloads. CoralRaider operates from Hanoi, Vietnam,
-  and uses a Telegram bot as a C2 channel for their malicious campaigns. Their activities
-  include system reconnaissance, data exfiltration, and targeting victims in multiple
-  countries in the region.
-url: /coralraider
-country: Vietnam
+name: "CoralRaider"
+aliases: ["CoralRaider"]
+description: "CoralRaider is a financially motivated threat actor of Vietnamese origin, targeting victims in Asian and Southeast Asian countries since at least 2023. They use the RotBot loader family and XClient stealer to steal victim information, with hardcoded Vietnamese words in their payloads. CoralRaider operates from Hanoi, Vietnam, and uses a Telegram bot as a C2 channel for their malicious campaigns. Their activities include system reconnaissance, data exfiltration, and targeting victims in multiple countries in the region."
+url: "/coralraider"
+country: "Vietnam"
+malware: ["{\"name\" => \"CORALDECK\"}","{\"name\" => \"ClientMesh\"}","{\"name\" => \"Client Maximus\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 20927a3f-d011-4e22-8268-0938d6816a13
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: CORALDECK
-- name: ClientMesh
-- name: Client Maximus
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "20927a3f-d011-4e22-8268-0938d6816a13"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

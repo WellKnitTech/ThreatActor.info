@@ -1,18 +1,10 @@
-name: UNC4841
-aliases:
-- SLIME57
-- UNC4841
-description: UNC4841 is a well-resourced threat actor that has utilized a wide range
-  of malware and purpose-built tooling to enable their global espionage operations.
-  They have been observed selectively deploying specific malware families at high
-  priority targets, with SKIPJACK being the most widely deployed. UNC4841 primarily
-  targeted government and technology organizations, but they have also been observed
-  targeting other verticals.
-url: /unc4841
-country: China
+name: "UNC4841"
+aliases: ["SLIME57","UNC4841"]
+description: "UNC4841 is a well-resourced threat actor that has utilized a wide range of malware and purpose-built tooling to enable their global espionage operations. They have been observed selectively deploying specific malware families at high priority targets, with SKIPJACK being the most widely deployed. UNC4841 primarily targeted government and technology organizations, but they have also been observed targeting other verticals."
+url: "/unc4841"
+country: "China"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 8959fbb4-95f0-485d-bba2-db9140b95386
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "8959fbb4-95f0-485d-bba2-db9140b95386"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,31 +1,10 @@
-name: DarkPink
-aliases:
-- Saaiwc
-- DarkPink
-description: DarkPink is an APT group that has been active since mid-2021, primarily
-  targeting government, military, and non-profit organizations in Southeast Asia and
-  Europe. The group employs spear phishing techniques, utilizing ISO images and malicious
-  PDF files to deliver custom Trojan programs like TelePowerBot and KamiKakaBot for
-  information theft. They have exploited vulnerabilities such as CVE-2023-38831 to
-  enhance their attack processes and maintain persistence through DLL side-loading
-  and scheduled tasks. DarkPink's operations are characterized by stealth and precision,
-  making them a significant threat in the cyber landscape.
-url: /darkpink
+name: "DarkPink"
+aliases: ["Saaiwc","DarkPink"]
+description: "DarkPink is an APT group that has been active since mid-2021, primarily targeting government, military, and non-profit organizations in Southeast Asia and Europe. The group employs spear phishing techniques, utilizing ISO images and malicious PDF files to deliver custom Trojan programs like TelePowerBot and KamiKakaBot for information theft. They have exploited vulnerabilities such as CVE-2023-38831 to enhance their attack processes and maintain persistence through DLL side-loading and scheduled tasks. DarkPink's operations are characterized by stealth and precision, making them a significant threat in the cyber landscape."
+url: "/darkpink"
+malware: ["{\"name\" => \"PowerDuke\"}","{\"name\" => \"POWERSTATS\"}","{\"name\" => \"Power Loader\"}","{\"name\" => \"Trojan.Karagany\"}","{\"name\" => \"POWERSOURCE\"}","{\"name\" => \"Trojan.Mebromi\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"Xploit\"}","{\"name\" => \"PowerRAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 8456c6f1-bdbb-436e-bd9e-c170b0c510ff
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: PowerDuke
-- name: POWERSTATS
-- name: Power Loader
-- name: Trojan.Karagany
-- name: POWERSOURCE
-- name: Trojan.Mebromi
-- name: CyberGate
-- name: Cyber Eye RAT
-- name: Xploit
-- name: PowerRAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "8456c6f1-bdbb-436e-bd9e-c170b0c510ff"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

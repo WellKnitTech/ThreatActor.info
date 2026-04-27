@@ -1,18 +1,9 @@
-name: TA499
-aliases:
-- Vovan
-- Lexus
-- TA499
-description: TA499, also known as Vovan and Lexus, is a Russia-aligned threat actor
-  that has aggressively engaged in email campaigns since at least 2021.  The threat
-  actor’s campaigns attempt to convince high-profile North American and European government
-  officials as well as CEOs of prominent companies and celebrities into participating
-  in recorded phone calls or video chats.
-url: /ta499
+name: "TA499"
+aliases: ["Vovan","Lexus","TA499"]
+description: "TA499, also known as Vovan and Lexus, is a Russia-aligned threat actor that has aggressively engaged in email campaigns since at least 2021.  The threat actor’s campaigns attempt to convince high-profile North American and European government officials as well as CEOs of prominent companies and celebrities into participating in recorded phone calls or video chats."
+url: "/ta499"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 0e9bbcf1-9273-4438-b437-287317bfb989
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "0e9bbcf1-9273-4438-b437-287317bfb989"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

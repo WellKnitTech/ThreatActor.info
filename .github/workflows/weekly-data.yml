@@ -47,7 +47,72 @@ jobs:
           
       - name: Fetch MISP threat actors
         run: |
-          ruby scripts/import-misp-galaxy.rb fetch --output data/imports/misp-galaxy/$(date +%Y-%m-%d)
+          RUN_DATE=$(date +%Y-%m-%d)
+          ruby scripts/import-misp-galaxy.rb fetch --output "data/imports/misp-galaxy/${RUN_DATE}"
+        continue-on-error: true
+          
+      - name: Fetch ETDA ThaiCERT
+        run: |
+          RUN_DATE=$(date +%Y-%m-%d)
+          ruby scripts/import-etda-thaicert.rb fetch --output "data/imports/etda-thaicert/${RUN_DATE}"
+        continue-on-error: true
+          
+      - name: Fetch Malpedia enrichment data
+        run: |
+          RUN_DATE=$(date +%Y-%m-%d)
+          ruby scripts/import-malpedia.rb fetch --output "data/imports/malpedia/${RUN_DATE}" --no-details
+        continue-on-error: true
+          
+      - name: Fetch APT Groups & Operations
+        run: |
+          RUN_DATE=$(date +%Y-%m-%d)
+          ruby scripts/import-apt-groups-operations.rb fetch --output "data/imports/apt-groups-operations/${RUN_DATE}"
+        continue-on-error: true
+          
+      - name: Fetch APTnotes references
+        run: |
+          RUN_DATE=$(date +%Y-%m-%d)
+          ruby scripts/import-aptnotes.rb fetch --output "data/imports/aptnotes/${RUN_DATE}"
+        continue-on-error: true
+          
+      - name: Enrich existing actors from MISP (additive updates only)
+        run: |
+          LATEST_MISP=$(ls -d data/imports/misp-galaxy/*/ 2>/dev/null | sort -V | tail -1)
+          if [ -n "$LATEST_MISP" ]; then
+            ruby scripts/import-misp-galaxy.rb import --snapshot "$LATEST_MISP"
+          fi
+        continue-on-error: true
+          
+      - name: Enrich existing actors from ETDA (additive updates only)
+        run: |
+          LATEST_ETDA=$(ls -d data/imports/etda-thaicert/*/ 2>/dev/null | sort -V | tail -1)
+          if [ -n "$LATEST_ETDA" ]; then
+            ruby scripts/import-etda-thaicert.rb import --snapshot "$LATEST_ETDA"
+          fi
+        continue-on-error: true
+          
+      - name: Enrich from Malpedia
+        run: |
+          LATEST_MALPEDIA=$(ls -d data/imports/malpedia/*/ 2>/dev/null | sort -V | tail -1)
+          if [ -n "$LATEST_MALPEDIA" ]; then
+            ruby scripts/import-malpedia.rb import --snapshot "$LATEST_MALPEDIA"
+          fi
+        continue-on-error: true
+          
+      - name: Enrich from APT Groups & Operations
+        run: |
+          LATEST_APTGO=$(ls -d data/imports/apt-groups-operations/*/ 2>/dev/null | sort -V | tail -1)
+          if [ -n "$LATEST_APTGO" ]; then
+            ruby scripts/import-apt-groups-operations.rb import --snapshot "$LATEST_APTGO"
+          fi
+        continue-on-error: true
+          
+      - name: Enrich from APTnotes
+        run: |
+          LATEST_APTNOTES=$(ls -d data/imports/aptnotes/*/ 2>/dev/null | sort -V | tail -1)
+          if [ -n "$LATEST_APTNOTES" ]; then
+            ruby scripts/import-aptnotes.rb import --snapshot "$LATEST_APTNOTES"
+          fi
         continue-on-error: true
           
       - name: Fetch CISA KEV
@@ -58,6 +123,10 @@ jobs:
           
       - name: Generate pages
         run: ruby scripts/generate-pages.rb --force
+
+      - name: Backfill source attribution
+        run: ruby scripts/backfill-source-attribution.rb
+        continue-on-error: true
 
       - name: Generate API indexes
         run: ruby scripts/generate-indexes.rb

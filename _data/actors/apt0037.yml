@@ -1,35 +1,15 @@
-name: FIN6
-aliases:
-- ATK88
-- Camouflage Tempest
-- FIN6
-- G0037
-- GOLD FRANKLIN
-- ITG08
-- Magecart Group 6
-- MageCart Group 6
-- Skeleton Spider
-- SKELETON SPIDER
-- Storm-0538
-- TA4557
-- TAAL
-- White Giant
-description: 'FIN6 is a cyber crime group that has stolen payment card data and sold
-  it for profit on underground marketplaces. This group has aggressively targeted
-  and compromised point of sale (PoS) systems in the hospitality and retail sectors.(Citation:
-  FireEye FIN6 April 2016)(Citation: FireEye FIN6 Apr 2019)'
-url: /apt0037
-external_id: G0037
-mitre_id: G0037
-external_url: https://attack.mitre.org/groups/G0037
-mitre_url: https://attack.mitre.org/groups/G0037
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "FIN6"
+aliases: ["ATK88","Camouflage Tempest","FIN6","G0037","GOLD FRANKLIN","ITG08","Magecart Group 6","MageCart Group 6","Skeleton Spider","SKELETON SPIDER","Storm-0538","TA4557","TAAL","White Giant"]
+description: "FIN6 is a cyber crime group that has stolen payment card data and sold it for profit on underground marketplaces. This group has aggressively targeted and compromised point of sale (PoS) systems in the hospitality and retail sectors.(Citation: FireEye FIN6 April 2016)(Citation: FireEye FIN6 Apr 2019)"
+url: "/apt0037"
+external_id: "G0037"
+external_url: "https://attack.mitre.org/groups/G0037"
+mitre_id: "G0037"
+mitre_url: "https://attack.mitre.org/groups/G0037"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G0037
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: null
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0037"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

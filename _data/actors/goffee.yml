@@ -1,27 +1,10 @@
-name: GOFFEE
-aliases:
-- GOFFEE
-description: GOFFEE is a threat actor that has targeted entities in the Russian Federation
-  since early 2022, employing spear phishing emails with malicious attachments, including
-  modified Owowa and patched explorer.exe. They have utilized PowerTaskel, a non-public
-  Mythic agent in PowerShell, and introduced a new implant called "PowerModul" for
-  attacks against sectors such as media, telecommunications, and government. GOFFEE
-  has increasingly shifted to a binary Mythic agent for lateral movement and has incorporated
-  Word documents with malicious VBA scripts in their infection chains. The group has
-  demonstrated a consistent evolution in their TTPs while maintaining identifiable
-  characteristics that attribute their campaigns with high confidence.
-url: /goffee
+name: "GOFFEE"
+aliases: ["GOFFEE"]
+description: "GOFFEE is a threat actor that has targeted entities in the Russian Federation since early 2022, employing spear phishing emails with malicious attachments, including modified Owowa and patched explorer.exe. They have utilized PowerTaskel, a non-public Mythic agent in PowerShell, and introduced a new implant called \"PowerModul\" for attacks against sectors such as media, telecommunications, and government. GOFFEE has increasingly shifted to a binary Mythic agent for lateral movement and has incorporated Word documents with malicious VBA scripts in their infection chains. The group has demonstrated a consistent evolution in their TTPs while maintaining identifiable characteristics that attribute their campaigns with high confidence."
+url: "/goffee"
+malware: ["{\"name\" => \"PowerDuke\"}","{\"name\" => \"POWERSTATS\"}","{\"name\" => \"Agent.btz\"}","{\"name\" => \"Power Loader\"}","{\"name\" => \"POWERSOURCE\"}","{\"name\" => \"PowerRAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 785b33c9-9da5-4561-bee9-0acb00a5406c
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: PowerDuke
-- name: POWERSTATS
-- name: Agent.btz
-- name: Power Loader
-- name: POWERSOURCE
-- name: PowerRAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "785b33c9-9da5-4561-bee9-0acb00a5406c"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

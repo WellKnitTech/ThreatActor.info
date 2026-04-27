@@ -1,29 +1,13 @@
-name: Beast
-aliases: []
-description: Beast ransomware emerged in 2022 as an enhanced iteration of the earlier
-  “Monster” ransomware. It operates under a Ransomware-as-a-Service (RaaS) model,
-  offering affiliates rich customization options to create tailored binaries targeting
-  Windows, Linux, and VMware ESXi systems. Key technical capabilities include hybrid
-  Elliptic-Curve + ChaCha20 encryption, segmented file encryption, ZIP wrapper mode
-  (encrypting files into zip archives with embedded ransom notes), multithreaded processing,
-  termination of services, shadow copy deletion, hidden partition usage, and subnet
-  scanning. Affiliates are provided configurable offline builders, enabling streamlined
-  deployment across multiple platforms. While Beast's functional power is well-documented,
-  details on its specific victims, sectors targeted, and leak site activity remain
-  limited in public sources.
-url: /beast
-source_name: RansomLook
-source_attribution: 'Contains data derived from RansomLook, used under CC BY 4.0.
-  Source: https://www.ransomlook.io/'
-source_record_url: https://www.ransomlook.io/group/beast
-source_license: CC BY 4.0
-source_license_url: https://creativecommons.org/licenses/by/4.0/
+name: "Beast"
+description: "Beast ransomware emerged in 2022 as an enhanced iteration of the earlier “Monster” ransomware. It operates under a Ransomware-as-a-Service (RaaS) model, offering affiliates rich customization options to create tailored binaries targeting Windows, Linux, and VMware ESXi systems. Key technical capabilities include hybrid Elliptic-Curve + ChaCha20 encryption, segmented file encryption, ZIP wrapper mode (encrypting files into zip archives with embedded ransom notes), multithreaded processing, termination of services, shadow copy deletion, hidden partition usage, and subnet scanning. Affiliates are provided configurable offline builders, enabling streamlined deployment across multiple platforms. While Beast's functional power is well-documented, details on its specific victims, sectors targeted, and leak site activity remain limited in public sources."
+url: "/beast"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/beast"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
 provenance:
-  source_dataset_url: https://www.ransomlook.io/api/groups
-  source_record_id: beast
-  source_retrieved_at: '2026-04-26T02:09:04Z'
-  source_transforms:
-  - normalized-name
-  - deduplicated-aliases
-  - omitted-volatile-iocs
-  - adapted-for-threatactor-info
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "beast"
+  source_retrieved_at: "2026-04-26T02:09:04Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

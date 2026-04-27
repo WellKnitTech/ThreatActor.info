@@ -1,27 +1,16 @@
-name: Metador
-aliases:
-- Metador
-description: 'Metador is a suspected cyber espionage group that was first reported
-  in September 2022. Metador has targeted a limited number of telecommunication companies,
-  internet service providers, and universities in the Middle East and Africa. Security
-  researchers named the group Metador based on the "I am meta" string in one of the
-  group''s malware samples and the expectation of Spanish-language responses from
-  C2 servers.(Citation: SentinelLabs Metador Sept 2022)'
-url: /apt1013
-external_id: G1013
-mitre_id: G1013
-external_url: https://attack.mitre.org/groups/G1013
-mitre_url: https://attack.mitre.org/groups/G1013
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "Metador"
+aliases: ["Metador"]
+description: "Metador is a suspected cyber espionage group that was first reported in September 2022. Metador has targeted a limited number of telecommunication companies, internet service providers, and universities in the Middle East and Africa. Security researchers named the group Metador based on the \"I am meta\" string in one of the group's malware samples and the expectation of Spanish-language responses from C2 servers.(Citation: SentinelLabs Metador Sept 2022)"
+url: "/apt1013"
+external_id: "G1013"
+external_url: "https://attack.mitre.org/groups/G1013"
+mitre_id: "G1013"
+mitre_url: "https://attack.mitre.org/groups/G1013"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["{\"name\" => \"Windows Remote Desktop\"}","{\"name\" => \"Archelaus Beta\"}"]
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G1013
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: null
-country: null
-malware:
-- name: Windows Remote Desktop
-- name: Archelaus Beta
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G1013"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

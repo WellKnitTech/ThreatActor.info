@@ -1,20 +1,9 @@
-name: LightBasin
-aliases:
-- UNC1945
-- CL-CRI-0025
-- LightBasin
-description: UNC1945 is an APT group that has been targeting telecommunications companies
-  globally. They use Linux-based implants to maintain long-term access in compromised
-  networks. UNC1945 has demonstrated advanced technical abilities, utilizing various
-  tools and techniques to evade detection and move laterally through networks. They
-  have also been observed targeting other industries, such as financial and professional
-  consulting, and have been linked to other threat actors, including MustangPanada
-  and RedDelta.
-url: /lightbasin
+name: "LightBasin"
+aliases: ["UNC1945","CL-CRI-0025","LightBasin"]
+description: "UNC1945 is an APT group that has been targeting telecommunications companies globally. They use Linux-based implants to maintain long-term access in compromised networks. UNC1945 has demonstrated advanced technical abilities, utilizing various tools and techniques to evade detection and move laterally through networks. They have also been observed targeting other industries, such as financial and professional consulting, and have been linked to other threat actors, including MustangPanada and RedDelta."
+url: "/lightbasin"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: a1955738-563c-413c-8602-ea5b8c89ce21
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "a1955738-563c-413c-8602-ea5b8c89ce21"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

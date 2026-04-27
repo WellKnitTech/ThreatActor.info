@@ -1,22 +1,10 @@
-name: IntelBroker
-aliases:
-- IntelBroker
-description: IntelBroker is a threat actor known for orchestrating high-profile data
-  breaches targeting companies like Apple, Zscaler, and Facebook Marketplace. They
-  have a reputation for selling access to compromised systems and data on underground
-  forums like BreachForums. IntelBroker has claimed responsibility for breaches involving
-  government agencies such as Europol, the U.S. Department of Transportation, and
-  the Pentagon, leaking sensitive information and classified documents. The actor
-  has been linked to breaches at companies like Acuity, General Electric, and Home
-  Depot, showcasing a pattern of targeting critical infrastructure and major corporations.
-url: /intelbroker
+name: "IntelBroker"
+aliases: ["IntelBroker"]
+description: "IntelBroker is a threat actor known for orchestrating high-profile data breaches targeting companies like Apple, Zscaler, and Facebook Marketplace. They have a reputation for selling access to compromised systems and data on underground forums like BreachForums. IntelBroker has claimed responsibility for breaches involving government agencies such as Europol, the U.S. Department of Transportation, and the Pentagon, leaking sensitive information and classified documents. The actor has been linked to breaches at companies like Acuity, General Electric, and Home Depot, showcasing a pattern of targeting critical infrastructure and major corporations."
+url: "/intelbroker"
+malware: ["{\"name\" => \"RTM\"}","{\"name\" => \"PentagonRAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 849d16c8-eaa3-46e7-9c1c-179ef680922e
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: RTM
-- name: PentagonRAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "849d16c8-eaa3-46e7-9c1c-179ef680922e"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

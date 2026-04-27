@@ -1,18 +1,10 @@
-name: RansomHub
-aliases:
-- RansomHub RaaS
-- RansomHub
-description: RansomHub is a dominant ransomware-as-a-service operation that emerged
-  in 2024 and quickly became the most prolific group with 736 disclosed victims.
-url: /ransomhub
-country: Unknown
-first_seen: '2024'
-last_activity: '2025'
-risk_level: Critical
-sector_focus:
-- Critical Infrastructure
-- Healthcare
-- Education
-- Manufacturing
-malware:
-- name: Xploit
+name: "RansomHub"
+aliases: ["RansomHub RaaS","RansomHub"]
+description: "RansomHub is a dominant ransomware-as-a-service operation that emerged in 2024 and quickly became the most prolific group with 736 disclosed victims."
+url: "/ransomhub"
+country: "Unknown"
+sector_focus: ["Critical Infrastructure","Healthcare","Education","Manufacturing"]
+first_seen: "2024"
+last_activity: "2025"
+risk_level: "Critical"
+malware: ["{\"name\" => \"Xploit\"}"]

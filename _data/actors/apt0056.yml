@@ -1,28 +1,18 @@
-name: PROMETHIUM
-aliases:
-- G0056
-- PROMETHIUM
-- StrongPity
-description: 'PROMETHIUM is an activity group focused on espionage that has been active
-  since at least 2012. The group has conducted operations globally with a heavy emphasis
-  on Turkish targets. PROMETHIUM has demonstrated similarity to another activity group
-  called NEODYMIUM due to overlapping victim and campaign characteristics.(Citation:
-  Microsoft NEODYMIUM Dec 2016)(Citation: Microsoft SIR Vol 21)(Citation: Talos Promethium
-  June 2020)'
-url: /apt0056
-external_id: G0056
-mitre_id: G0056
-external_url: https://attack.mitre.org/groups/G0056
-mitre_url: https://attack.mitre.org/groups/G0056
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "PROMETHIUM"
+aliases: ["G0056","PROMETHIUM","StrongPity"]
+description: "PROMETHIUM is an activity group focused on espionage that has been active since at least 2012. The group has conducted operations globally with a heavy emphasis on Turkish targets. PROMETHIUM has demonstrated similarity to another activity group called NEODYMIUM due to overlapping victim and campaign characteristics.(Citation: Microsoft NEODYMIUM Dec 2016)(Citation: Microsoft SIR Vol 21)(Citation: Talos Promethium June 2020)"
+url: "/apt0056"
+country: "Turkey"
+risk_level: "High"
+external_id: "G0056"
+external_url: "https://attack.mitre.org/groups/G0056"
+mitre_id: "G0056"
+mitre_url: "https://attack.mitre.org/groups/G0056"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["{\"name\" => \"Truvasys\"}"]
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G0056
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: High
-country: Turkey
-malware:
-- name: Truvasys
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0056"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

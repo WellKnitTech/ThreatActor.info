@@ -1,19 +1,10 @@
-name: Edalat-e Ali
-aliases:
-- Edalat-e Ali
-description: Edalat-e Ali is a hacktivist group known for disrupting Iranian state-run
-  TV and radio transmissions during significant events, such as the Revolution Day
-  ceremonies. They have also targeted government facilities, releasing security camera
-  footage to expose abuses and draw attention to human rights violations. The group
-  has used their hacks to call for protests against the Iranian regime and have displayed
-  anti-government messages during their disruptions. Edalat-e Ali has been active
-  in releasing sensitive information and footage to embarrass Iranian officials and
-  highlight injustices within the country.
-url: /edalat-e-ali
-country: Iran
+name: "Edalat-e Ali"
+aliases: ["Edalat-e Ali"]
+description: "Edalat-e Ali is a hacktivist group known for disrupting Iranian state-run TV and radio transmissions during significant events, such as the Revolution Day ceremonies. They have also targeted government facilities, releasing security camera footage to expose abuses and draw attention to human rights violations. The group has used their hacks to call for protests against the Iranian regime and have displayed anti-government messages during their disruptions. Edalat-e Ali has been active in releasing sensitive information and footage to embarrass Iranian officials and highlight injustices within the country."
+url: "/edalat-e-ali"
+country: "Iran"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 1759f8f2-e6ef-4683-a9e4-44984b9deaba
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "1759f8f2-e6ef-4683-a9e4-44984b9deaba"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

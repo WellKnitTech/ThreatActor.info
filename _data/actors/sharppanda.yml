@@ -1,26 +1,12 @@
-name: SharpPanda
-aliases:
-- Sharp Dragon
-- SharpPanda
-description: SharpPanda, an APT group originating from China, has seen a rise in its
-  cyber-attack operations starting from at least 2018. The APT group utilizes spear-phishing
-  techniques to obtain initial access, employing a combination of outdated Microsoft
-  Office document vulnerabilities, novel evasion techniques, and highly potent backdoor
-  malware.
-url: /sharppanda
-country: China
+name: "SharpPanda"
+aliases: ["Sharp Dragon","SharpPanda"]
+description: "SharpPanda, an APT group originating from China, has seen a rise in its cyber-attack operations starting from at least 2018. The APT group utilizes spear-phishing techniques to obtain initial access, employing a combination of outdated Microsoft Office document vulnerabilities, novel evasion techniques, and highly potent backdoor malware."
+url: "/sharppanda"
+country: "China"
+targeted_victims: ["Germany"]
+malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"China Chopper\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"SharpEye\"}","{\"name\" => \"SharpBot\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 7133a722-088c-4d5a-b2e0-a1f9915f807d
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-targeted_victims:
-- Germany
-malware:
-- name: Backdoor.Oldrea
-- name: China Chopper
-- name: CyberGate
-- name: Cyber Eye RAT
-- name: SharpEye
-- name: SharpBot
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "7133a722-088c-4d5a-b2e0-a1f9915f807d"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

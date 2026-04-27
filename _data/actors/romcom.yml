@@ -1,23 +1,12 @@
-name: RomCom
-aliases:
-- Storm-0978
-- UAT-5647
-- RomCom
-description: ROMCOM is an evolving and sophisticated threat actor group that has been
-  using the malware tool ROMCOM for espionage and financially motivated attacks. They
-  have targeted organizations in Ukraine and NATO countries, including military personnel,
-  government agencies, and political leaders. The ROMCOM backdoor is capable of stealing
-  sensitive information and deploying other malware, showcasing the group's adaptability
-  and growing sophistication.
-url: /romcom
-country: Russia
+name: "RomCom"
+aliases: ["Storm-0978","UAT-5647","RomCom"]
+description: "ROMCOM is an evolving and sophisticated threat actor group that has been using the malware tool ROMCOM for espionage and financially motivated attacks. They have targeted organizations in Ukraine and NATO countries, including military personnel, government agencies, and political leaders. The ROMCOM backdoor is capable of stealing sensitive information and deploying other malware, showcasing the group's adaptability and growing sophistication."
+url: "/romcom"
+country: "Russia"
+targeted_victims: ["Germany"]
+malware: ["{\"name\" => \"Backdoor.Oldrea\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: ba9e1ed2-e142-48d0-a593-f73ac6d59ccd
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-targeted_victims:
-- Germany
-malware:
-- name: Backdoor.Oldrea
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "ba9e1ed2-e142-48d0-a593-f73ac6d59ccd"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

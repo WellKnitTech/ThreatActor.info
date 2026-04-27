@@ -19,7 +19,7 @@ class EtdaThaicertImporter
   DEFAULT_SNAPSHOT_ROOT = 'data/imports/etda-thaicert'.freeze
   DEFAULT_OVERRIDES_FILE = 'data/imports/etda-thaicert/mapping_overrides.yml'.freeze
   SOURCE_NAME = 'ETDA / ThaiCERT Threat Group Cards'.freeze
-  SOURCE_URL = 'https://apt.etda.or.th/cgi-bin/getcard.cgi?g=all&j=1'.freeze
+  SOURCE_URL = 'https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g'.freeze
   SOURCE_MIRROR_URL = 'https://huggingface.co/datasets/threatactor-info/etda-thaicert-threat-groups/raw/main/groups.json'.freeze
   SOURCE_REPOSITORY = 'https://apt.etda.or.th/'.freeze
   SOURCE_ATTRIBUTION = 'Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment.'.freeze
@@ -500,7 +500,8 @@ class EtdaThaicertImporter
     records = if payload.is_a?(Array)
                 payload
               elsif payload.is_a?(Hash)
-                payload['data'] || payload['groups'] || payload['cards'] || payload['results'] || payload['value'] || payload.values.find { |v| v.is_a?(Array) } || []
+                # Handle MISP galaxy format with "values" array
+                payload['values'] || payload['data'] || payload['groups'] || payload['cards'] || payload['results'] || payload['value'] || payload.values.find { |v| v.is_a?(Array) } || []
               else
                 []
               end
@@ -510,8 +511,9 @@ class EtdaThaicertImporter
   def normalize_record(record)
     return nil unless record.is_a?(Hash)
 
-    raw_name = first_non_empty(record['name'], record['group_name'], record['group'], record['title'], record['actor'])
-    raw_name = first_non_empty(record[:name], record[:group_name], record[:group], record[:title], record[:actor]) if raw_name.nil?
+    # Handle both direct format and MISP galaxy format (value/description/meta)
+    raw_name = first_non_empty(record['name'], record['group_name'], record['group'], record['title'], record['actor'], record['value'])
+    raw_name = first_non_empty(record[:name], record[:group_name], record[:group], record[:title], record[:actor], record[:value]) if raw_name.nil?
     raw_name = sanitize_text(raw_name)
     return nil if raw_name.empty?
 
@@ -520,18 +522,32 @@ class EtdaThaicertImporter
     return nil if @overrides[:excluded_group_keys].include?(canonical)
 
     display_name = @overrides[:display_name_overrides][canonical] || raw_name
+    
+    # Handle MISP format: record['meta'] is a Hash with keys like 'synonyms', 'country', etc.
+    meta = record['meta'] || {}
     aliases = extract_aliases(record, display_name)
+    # Also extract from meta.synonyms for MISP format
+    if meta['synonyms'] && !aliases.any?
+      aliases = normalize_string_array(meta['synonyms'])
+    end
     aliases.reject! { |value| @overrides[:alias_drop_list].include?(normalize_key(value)) }
     country = resolve_country(record, canonical)
+    # Also check meta.country for MISP format
+    country = meta['country'] if country.to_s.empty? && meta['country']
 
     source_record_id = first_non_empty(record['id'], record['uuid'], record['group_id'], canonical) || canonical
-    source_record_url = first_non_empty(record['url'], record['reference'], record['card_url'])
-    description = sanitize_text(first_non_empty(record['description'], record['detail'], record['summary'], record['about']))
+    source_record_url = first_non_empty(record['url'], record['reference'], record['card_url'], meta['url'])
+    # Also use description from meta for MISP format
+    desc_from_meta = meta['description'] || meta['detail'] || meta['summary']
+    description = sanitize_text(first_non_empty(record['description'], record['detail'], record['summary'], record['about'], desc_from_meta))
     description = "#{display_name} is tracked in ETDA/ThaiCERT threat group card data." if description.empty?
-    first_seen = extract_year(first_non_empty(record['first_seen'], record['firstseen'], record['firstSeen']))
-    last_activity = extract_year(first_non_empty(record['last_activity'], record['lastseen'], record['updated'], record['last_seen']))
-    mitre_group_ids = extract_ids(record, /G\d{4}/i)
-    mitre_technique_ids = extract_ids(record, /T\d{4}(?:\.\d{3})?/i)
+    first_seen = extract_year(first_non_empty(record['first_seen'], record['firstseen'], record['firstSeen'], meta['first_seen']))
+    last_activity = extract_year(first_non_empty(record['last_activity'], record['lastseen'], record['updated'], record['last_seen'], meta['last_activity']))
+    # Extract MITRE IDs from record fields and meta fields (MISP format)
+    combined_record = record.dup
+    meta.each { |k, v| combined_record[k] = v } if meta.is_a?(Hash)
+    mitre_group_ids = extract_ids(combined_record, /G\d{4}/i)
+    mitre_technique_ids = extract_ids(combined_record, /T\d{4}(?:\.\d{3})?/i)
 
     {
       raw_name: raw_name,

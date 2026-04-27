@@ -1,23 +1,10 @@
-name: CyberNiggers
-aliases:
-- CyberNiggers
-description: CyberNiggers is a threat group known for breaching various organizations,
-  including the US military, federal contractors, and multinational corporations like
-  General Electric. Led by the prominent member IntelBroker, they specialize in selling
-  access to compromised systems and stealing sensitive data, such as military files
-  and personally identifiable information. The group has targeted a diverse portfolio
-  of organizations, showcasing their strategic approach to gathering varied sets of
-  information. Their activities raise concerns about national security, individual
-  privacy, and the need for robust cybersecurity measures to mitigate the impact of
-  cyber adversaries.
-url: /cyberniggers
+name: "CyberNiggers"
+aliases: ["CyberNiggers"]
+description: "CyberNiggers is a threat group known for breaching various organizations, including the US military, federal contractors, and multinational corporations like General Electric. Led by the prominent member IntelBroker, they specialize in selling access to compromised systems and stealing sensitive data, such as military files and personally identifiable information. The group has targeted a diverse portfolio of organizations, showcasing their strategic approach to gathering varied sets of information. Their activities raise concerns about national security, individual privacy, and the need for robust cybersecurity measures to mitigate the impact of cyber adversaries."
+url: "/cyberniggers"
+malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 21ad5aad-0a55-457d-b94d-3b4565e82e0a
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: CyberGate
-- name: Cyber Eye RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "21ad5aad-0a55-457d-b94d-3b4565e82e0a"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

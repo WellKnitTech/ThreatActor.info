@@ -1,31 +1,10 @@
-name: Blackmeta
-aliases:
-- SN Blackmeta
-- Blackmeta
-description: BLACKMETA is a pro-Palestinian hacktivist group that has claimed responsibility
-  for a series of DDoS attacks and data breaches targeting organizations perceived
-  as supportive of Israel, including the Internet Archive and various entities in
-  the UAE and Saudi Arabia. The group employs DDoS attacks, website defacement, and
-  data exfiltration, with motivations rooted in political ideology and retribution
-  for perceived injustices against Palestinians. Their operations have been linked
-  to a Telegram channel, where they publicize their activities and collaborate with
-  other hacktivist groups. Additionally, they have been attributed to significant
-  cyber disruptions, including a 100-hour DDoS campaign against a UAE bank, showcasing
-  their operational capabilities.
-url: /blackmeta
+name: "Blackmeta"
+aliases: ["SN Blackmeta","Blackmeta"]
+description: "BLACKMETA is a pro-Palestinian hacktivist group that has claimed responsibility for a series of DDoS attacks and data breaches targeting organizations perceived as supportive of Israel, including the Internet Archive and various entities in the UAE and Saudi Arabia. The group employs DDoS attacks, website defacement, and data exfiltration, with motivations rooted in political ideology and retribution for perceived injustices against Palestinians. Their operations have been linked to a Telegram channel, where they publicize their activities and collaborate with other hacktivist groups. Additionally, they have been attributed to significant cyber disruptions, including a 100-hour DDoS campaign against a UAE bank, showcasing their operational capabilities."
+url: "/blackmeta"
+malware: ["{\"name\" => \"BlackEnergy\"}","{\"name\" => \"BLACKCOFFEE\"}","{\"name\" => \"Blackshades\"}","{\"name\" => \"BlackNix\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Arabian-Attacker RAT\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"BlackHole\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 969753d8-3cc9-43a2-9b8d-753d2bb385b4
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: BlackEnergy
-- name: BLACKCOFFEE
-- name: Blackshades
-- name: BlackNix
-- name: CyberGate
-- name: Arabian-Attacker RAT
-- name: Cyber Eye RAT
-- name: BlackHole
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "969753d8-3cc9-43a2-9b8d-753d2bb385b4"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

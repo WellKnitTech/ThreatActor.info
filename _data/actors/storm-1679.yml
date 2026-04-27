@@ -1,23 +1,11 @@
-name: Storm-1679
-aliases:
-- Storm-1679
-description: Storm-1679 is a Russian disinformation group believed to be a spinoff
-  of the Internet Research Agency, actively engaged in influence operations targeting
-  the International Olympic Committee and the 2024 Olympic Games. The group has employed
-  AI-generated content, including deepfake videos and fabricated narratives about
-  violence, to discredit the IOC and instill fear among potential attendees. Their
-  campaigns have been identified across multiple languages and platforms, utilizing
-  techniques such as impersonation of media outlets and the creation of disinformation
-  websites. Microsoft attributes significant disinformation activities related to
-  the Olympics to Storm-1679, highlighting their focus on spreading falsehoods and
-  promoting anti-Olympics messaging.
-url: /storm-1679
-country: Russia
+name: "Storm-1679"
+aliases: ["Storm-1679"]
+description: "Storm-1679 is a Russian disinformation group believed to be a spinoff of the Internet Research Agency, actively engaged in influence operations targeting the International Olympic Committee and the 2024 Olympic Games. The group has employed AI-generated content, including deepfake videos and fabricated narratives about violence, to discredit the IOC and instill fear among potential attendees. Their campaigns have been identified across multiple languages and platforms, utilizing techniques such as impersonation of media outlets and the creation of disinformation websites. Microsoft attributes significant disinformation activities related to the Olympics to Storm-1679, highlighting their focus on spreading falsehoods and promoting anti-Olympics messaging."
+url: "/storm-1679"
+country: "Russia"
+malware: ["{\"name\" => \"CrossRat\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 10582c97-90de-4f2b-8e4d-21513c3971fc
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: CrossRat
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "10582c97-90de-4f2b-8e4d-21513c3971fc"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

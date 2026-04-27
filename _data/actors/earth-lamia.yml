@@ -1,25 +1,11 @@
-name: Earth Lamia
-aliases:
-- UNC5454
-- Earth Lamia
-description: Earth Lamia is a China-nexus APT that targets organizations across multiple
-  sectors, including finance, logistics, and government, primarily in Latin America,
-  the Middle East, and Southeast Asia. The actor exploits web application vulnerabilities,
-  such as CVE-2025-55182, and employs techniques like SQL injection, DLL sideloading,
-  and the deployment of custom backdoors like PULSEPACK and BypassBoss. Earth Lamia
-  conducts reconnaissance, file operations, and credential theft, often utilizing
-  tools like Cobalt Strike and VShell.
-url: /earth-lamia
-country: China
+name: "Earth Lamia"
+aliases: ["UNC5454","Earth Lamia"]
+description: "Earth Lamia is a China-nexus APT that targets organizations across multiple sectors, including finance, logistics, and government, primarily in Latin America, the Middle East, and Southeast Asia. The actor exploits web application vulnerabilities, such as CVE-2025-55182, and employs techniques like SQL injection, DLL sideloading, and the deployment of custom backdoors like PULSEPACK and BypassBoss. Earth Lamia conducts reconnaissance, file operations, and credential theft, often utilizing tools like Cobalt Strike and VShell."
+url: "/earth-lamia"
+country: "China"
+malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"China Chopper\"}","{\"name\" => \"Xploit\"}","{\"name\" => \"Cobalt Strike\"}","{\"name\" => \"CrossRat\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 2828da6c-12d0-4287-9938-531165e19b47
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: Backdoor.Oldrea
-- name: China Chopper
-- name: Xploit
-- name: Cobalt Strike
-- name: CrossRat
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "2828da6c-12d0-4287-9938-531165e19b47"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,23 +1,10 @@
-name: UNC2565
-aliases:
-- Hive0127
-- UNC2565
-description: UNC2565 is a threat group that has used the GOOTLOADER downloader to
-  deliver Cobalt Strike BEACON. These intrusions have stemmed from victims accessing
-  malicious websites that use SEO techniques to improve Google search rankings. After
-  obtaining a foothold in the environment, UNC2565 has conducted reconnaissance and
-  credential harvesting activity using common tools such as BLOODHOUND and KERBEROAST.
-  UNC2565's motivations are currently unknown but overlaps with activity that has
-  led to SODINOKIBI ransomware. This suggests that the threat group may be financially
-  motivated.
-url: /unc2565
+name: "UNC2565"
+aliases: ["Hive0127","UNC2565"]
+description: "UNC2565 is a threat group that has used the GOOTLOADER downloader to deliver Cobalt Strike BEACON. These intrusions have stemmed from victims accessing malicious websites that use SEO techniques to improve Google search rankings. After obtaining a foothold in the environment, UNC2565 has conducted reconnaissance and credential harvesting activity using common tools such as BLOODHOUND and KERBEROAST. UNC2565's motivations are currently unknown but overlaps with activity that has led to SODINOKIBI ransomware. This suggests that the threat group may be financially motivated."
+url: "/unc2565"
+malware: ["{\"name\" => \"Unknown Logger\"}","{\"name\" => \"Cobalt Strike\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: d7d270d2-b91f-4978-a9e9-76fa7f0d8f06
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Unknown Logger
-- name: Cobalt Strike
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "d7d270d2-b91f-4978-a9e9-76fa7f0d8f06"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,25 +1,11 @@
-name: TAG-112
-aliases:
-- TAG-112
-description: TAG-112 is a Chinese state-sponsored APT that compromised Tibetan websites,
-  including Tibet Post and Gyudmed Tantric University, to deliver Cobalt Strike malware.
-  The group exploited vulnerabilities in the Joomla CMS to embed malicious JavaScript
-  that spoofed a TLS certificate error, tricking users into downloading a compromised
-  security certificate. TAG-112's infrastructure, concealed using Cloudflare, shows
-  notable overlap with TAG-102, but it employs less sophisticated tactics, relying
-  on Cobalt Strike rather than custom malware. The campaign reflects ongoing cyber-espionage
-  efforts targeting Tibetan entities, likely for information collection and surveillance.
-url: /tag-112
-country: China
+name: "TAG-112"
+aliases: ["TAG-112"]
+description: "TAG-112 is a Chinese state-sponsored APT that compromised Tibetan websites, including Tibet Post and Gyudmed Tantric University, to deliver Cobalt Strike malware. The group exploited vulnerabilities in the Joomla CMS to embed malicious JavaScript that spoofed a TLS certificate error, tricking users into downloading a compromised security certificate. TAG-112's infrastructure, concealed using Cloudflare, shows notable overlap with TAG-102, but it employs less sophisticated tactics, relying on Cobalt Strike rather than custom malware. The campaign reflects ongoing cyber-espionage efforts targeting Tibetan entities, likely for information collection and surveillance."
+url: "/tag-112"
+country: "China"
+malware: ["{\"name\" => \"CloudDuke\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"Xploit\"}","{\"name\" => \"Cobalt Strike\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 9eeb11a0-3fcf-4036-844a-2500c72f8b69
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: CloudDuke
-- name: CyberGate
-- name: Cyber Eye RAT
-- name: Xploit
-- name: Cobalt Strike
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "9eeb11a0-3fcf-4036-844a-2500c72f8b69"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

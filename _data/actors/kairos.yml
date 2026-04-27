@@ -1,23 +1,10 @@
-name: Kairos
-aliases:
-- Kairos
-description: Kairos is an extortion group that emerged with a data-leak site on 13
-  November 2024, claiming attacks against six organizations, primarily in the US healthcare
-  sector. The group is financially motivated, demanding Bitcoin payments for the secure
-  deletion of stolen files and threatening to leak data if victims do not comply.
-  While no specific TTPs are publicly known, common techniques among extortion groups
-  include phishing and scanning for exposed internet-facing devices. There is a potential
-  link to a user on a Russian-language cybercriminal forum who shares a post-exploitation
-  script, but attribution remains uncertain.
-url: /kairos
+name: "Kairos"
+aliases: ["Kairos"]
+description: "Kairos is an extortion group that emerged with a data-leak site on 13 November 2024, claiming attacks against six organizations, primarily in the US healthcare sector. The group is financially motivated, demanding Bitcoin payments for the secure deletion of stolen files and threatening to leak data if victims do not comply. While no specific TTPs are publicly known, common techniques among extortion groups include phishing and scanning for exposed internet-facing devices. There is a potential link to a user on a Russian-language cybercriminal forum who shares a post-exploitation script, but attribution remains uncertain."
+url: "/kairos"
+malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"Xploit\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 4d3c9666-6e08-4186-854c-cc0f8c28f5b6
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: CyberGate
-- name: Cyber Eye RAT
-- name: Xploit
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "4d3c9666-6e08-4186-854c-cc0f8c28f5b6"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

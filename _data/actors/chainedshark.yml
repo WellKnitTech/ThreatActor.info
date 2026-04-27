@@ -1,27 +1,10 @@
-name: ChainedShark
-aliases:
-- Actor240820
-- ChainedShark
-description: ChainedShark is an APT group targeting China's scientific research sector,
-  particularly professionals in international relations and marine technology, with
-  the intent to steal sensitive data. The group employs advanced techniques, including
-  executable file reconstruction to create fragmented shellcode, and utilizes social
-  engineering tactics to exploit professional scenarios for deceptive attacks. ChainedShark
-  demonstrates a high level of technical sophistication, integrating N-day vulnerability
-  exploits and custom trojans within meticulously designed attack chains. Its operations
-  reflect a mature attack infrastructure and a clear evolutionary trajectory in tactics
-  and execution.
-url: /chainedshark
+name: "ChainedShark"
+aliases: ["Actor240820","ChainedShark"]
+description: "ChainedShark is an APT group targeting China's scientific research sector, particularly professionals in international relations and marine technology, with the intent to steal sensitive data. The group employs advanced techniques, including executable file reconstruction to create fragmented shellcode, and utilizes social engineering tactics to exploit professional scenarios for deceptive attacks. ChainedShark demonstrates a high level of technical sophistication, integrating N-day vulnerability exploits and custom trojans within meticulously designed attack chains. Its operations reflect a mature attack infrastructure and a clear evolutionary trajectory in tactics and execution."
+url: "/chainedshark"
+malware: ["{\"name\" => \"Trojan.Karagany\"}","{\"name\" => \"China Chopper\"}","{\"name\" => \"Trojan.Mebromi\"}","{\"name\" => \"SharK\"}","{\"name\" => \"Xploit\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 65e448d3-aff5-4fb4-9aec-d73daabd1aad
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Trojan.Karagany
-- name: China Chopper
-- name: Trojan.Mebromi
-- name: SharK
-- name: Xploit
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "65e448d3-aff5-4fb4-9aec-d73daabd1aad"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

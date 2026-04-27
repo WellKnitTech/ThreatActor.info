@@ -1,25 +1,15 @@
-name: DarkHydrus
-aliases:
-- DarkHydrus
-- G0079
-- LazyMeerkat
-- Obscure Serpens
-description: 'DarkHydrus is a threat group that has targeted government agencies and
-  educational institutions in the Middle East since at least 2016. The group heavily
-  leverages open-source tools and custom payloads for carrying out attacks. (Citation:
-  Unit 42 DarkHydrus July 2018) (Citation: Unit 42 Playbook Dec 2017)'
-url: /apt0079
-external_id: G0079
-mitre_id: G0079
-external_url: https://attack.mitre.org/groups/G0079
-mitre_url: https://attack.mitre.org/groups/G0079
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "DarkHydrus"
+aliases: ["DarkHydrus","G0079","LazyMeerkat","Obscure Serpens"]
+description: "DarkHydrus is a threat group that has targeted government agencies and educational institutions in the Middle East since at least 2016. The group heavily leverages open-source tools and custom payloads for carrying out attacks. (Citation: Unit 42 DarkHydrus July 2018) (Citation: Unit 42 Playbook Dec 2017)"
+url: "/apt0079"
+external_id: "G0079"
+external_url: "https://attack.mitre.org/groups/G0079"
+mitre_id: "G0079"
+mitre_url: "https://attack.mitre.org/groups/G0079"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G0079
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: null
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0079"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

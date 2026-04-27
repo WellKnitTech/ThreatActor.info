@@ -1,26 +1,17 @@
-name: IndigoZebra
-aliases:
-- IndigoZebra
-description: 'IndigoZebra is a suspected Chinese cyber espionage group that has been
-  targeting Central Asian governments since at least 2014.(Citation: HackerNews IndigoZebra
-  July 2021)(Citation: Checkpoint IndigoZebra July 2021)(Citation: Securelist APT
-  Trends Q2 2017)'
-url: /apt0136
-external_id: G0136
-mitre_id: G0136
-external_url: https://attack.mitre.org/groups/G0136
-mitre_url: https://attack.mitre.org/groups/G0136
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "IndigoZebra"
+aliases: ["IndigoZebra"]
+description: "IndigoZebra is a suspected Chinese cyber espionage group that has been targeting Central Asian governments since at least 2014.(Citation: HackerNews IndigoZebra July 2021)(Citation: Checkpoint IndigoZebra July 2021)(Citation: Securelist APT Trends Q2 2017)"
+url: "/apt0136"
+country: "China"
+external_id: "G0136"
+external_url: "https://attack.mitre.org/groups/G0136"
+mitre_id: "G0136"
+mitre_url: "https://attack.mitre.org/groups/G0136"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"PoisonIvy\"}","{\"name\" => \"Unknown Logger\"}"]
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G0136
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: null
-country: China
-malware:
-- name: Backdoor.Oldrea
-- name: PoisonIvy
-- name: Unknown Logger
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0136"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

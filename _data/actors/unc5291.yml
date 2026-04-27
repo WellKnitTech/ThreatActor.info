@@ -1,23 +1,10 @@
-name: UNC5291
-aliases:
-- UNC5291
-description: UNC5291 is a cluster of targeted probing activity that we assess with
-  moderate confidence is associated with UNC3236, also known publicly as Volt Typhoon.
-  Activity for this cluster started in December 2023 focusing on Citrix Netscaler
-  ADC and then shifted to focus on Ivanti Connect Secure devices after details were
-  made public in mid-Jan. 2024. Probing has been observed against the academic, energy,
-  defense, and health sectors, which aligns with past Volt Typhoon interest in critical
-  infrastructure. In Feb. 2024, the Cybersecurity and Infrastructure Security Agency
-  (CISA) released an advisory warning that Volt Typhoon was targeting critical infrastructure
-  and was potentially interested in Ivanti Connect Secure devices for initial access.
-url: /unc5291
+name: "UNC5291"
+aliases: ["UNC5291"]
+description: "UNC5291 is a cluster of targeted probing activity that we assess with moderate confidence is associated with UNC3236, also known publicly as Volt Typhoon. Activity for this cluster started in December 2023 focusing on Citrix Netscaler ADC and then shifted to focus on Ivanti Connect Secure devices after details were made public in mid-Jan. 2024. Probing has been observed against the academic, energy, defense, and health sectors, which aligns with past Volt Typhoon interest in critical infrastructure. In Feb. 2024, the Cybersecurity and Infrastructure Security Agency (CISA) released an advisory warning that Volt Typhoon was targeting critical infrastructure and was potentially interested in Ivanti Connect Secure devices for initial access."
+url: "/unc5291"
+malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: b2535333-629d-4cd6-a98b-14c86f6a57ee
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: CyberGate
-- name: Cyber Eye RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "b2535333-629d-4cd6-a98b-14c86f6a57ee"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

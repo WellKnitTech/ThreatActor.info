@@ -1,21 +1,10 @@
-name: UNC5820
-aliases:
-- UNC5820
-description: UNC5820 is a threat actor exploiting the CVE-2024-47575 vulnerability
-  in Fortinet's FortiManager, allowing them to bypass authentication and execute arbitrary
-  commands. They have been observed exfiltrating configuration data, user information,
-  and FortiOS256-hashed passwords from managed FortiGate devices. While the actor
-  has staged and exfiltrated sensitive data, there is currently no evidence of lateral
-  movement or further compromise of additional environments. Mandiant has not determined
-  whether UNC5820 is state-sponsored or identified its geographic location.
-url: /unc5820
+name: "UNC5820"
+aliases: ["UNC5820"]
+description: "UNC5820 is a threat actor exploiting the CVE-2024-47575 vulnerability in Fortinet's FortiManager, allowing them to bypass authentication and execute arbitrary commands. They have been observed exfiltrating configuration data, user information, and FortiOS256-hashed passwords from managed FortiGate devices. While the actor has staged and exfiltrated sensitive data, there is currently no evidence of lateral movement or further compromise of additional environments. Mandiant has not determined whether UNC5820 is state-sponsored or identified its geographic location."
+url: "/unc5820"
+malware: ["{\"name\" => \"Xploit\"}","{\"name\" => \"GraphicBooting\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: e13e36e7-a75b-42fa-8d51-35f9eeafebfc
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Xploit
-- name: GraphicBooting
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "e13e36e7-a75b-42fa-8d51-35f9eeafebfc"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,21 +1,9 @@
-name: TA410
-aliases:
-- TA410
-description: 'Early in August 2019, Proofpoint described what appeared to be state-sponsored
-  activity targeting the US utilities sector with malware that we dubbed “Lookback”.
-  Between August 21 and August 29, 2019, several spear phishing emails were identified
-  targeting additional US companies in the utilities sector. The phishing emails originated
-  from what appears to be an actor-controlled domain: globalenergycertification[.]net.
-  This domain, like those used in previous campaigns, impersonated a licensing body
-  related to the utilities sector. In this case, it masqueraded as the legitimate
-  domain for Global Energy Certification (“GEC”). The emails include a GEC examination-themed
-  body and a malicious Microsoft Word attachment that uses macros to install and run
-  LookBack. (Note confusion between Malware, Campaign and ThreatActor)'
-url: /ta410
+name: "TA410"
+aliases: ["TA410"]
+description: "Early in August 2019, Proofpoint described what appeared to be state-sponsored activity targeting the US utilities sector with malware that we dubbed “Lookback”. Between August 21 and August 29, 2019, several spear phishing emails were identified targeting additional US companies in the utilities sector. The phishing emails originated from what appears to be an actor-controlled domain: globalenergycertification[.]net. This domain, like those used in previous campaigns, impersonated a licensing body related to the utilities sector. In this case, it masqueraded as the legitimate domain for Global Energy Certification (“GEC”). The emails include a GEC examination-themed body and a malicious Microsoft Word attachment that uses macros to install and run LookBack. (Note confusion between Malware, Campaign and ThreatActor)"
+url: "/ta410"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 5cd95926-0098-435e-892d-9c9f61763ad7
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "5cd95926-0098-435e-892d-9c9f61763ad7"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,22 +1,9 @@
-name: DOPPEL SPIDER
-aliases:
-- GOLD HERON
-- DOPPEL SPIDER
-description: In June 2019, CrowdStrike Intelligence observed a source code fork of
-  BitPaymer and began tracking the new ransomware strain as DoppelPaymer. Further
-  technical analysis revealed an increasing divergence between two versions of Dridex,
-  with the new version dubbed DoppelDridex. Based on this evidence, CrowdStrike Intelligence
-  assessed with high confidence that a new group split off from INDRIK SPIDER to form
-  the adversary DOPPEL SPIDER. Following DOPPEL SPIDER’s inception, CrowdStrike Intelligence
-  observed multiple BGH incidents attributed to the group, with the largest known
-  ransomware demand being 250 BTC. Other demands were not nearly as high, suggesting
-  that the group conducts network reconnaissance to determine the value of the victim
-  organization.
-url: /doppel-spider
+name: "DOPPEL SPIDER"
+aliases: ["GOLD HERON","DOPPEL SPIDER"]
+description: "In June 2019, CrowdStrike Intelligence observed a source code fork of BitPaymer and began tracking the new ransomware strain as DoppelPaymer. Further technical analysis revealed an increasing divergence between two versions of Dridex, with the new version dubbed DoppelDridex. Based on this evidence, CrowdStrike Intelligence assessed with high confidence that a new group split off from INDRIK SPIDER to form the adversary DOPPEL SPIDER. Following DOPPEL SPIDER’s inception, CrowdStrike Intelligence observed multiple BGH incidents attributed to the group, with the largest known ransomware demand being 250 BTC. Other demands were not nearly as high, suggesting that the group conducts network reconnaissance to determine the value of the victim organization."
+url: "/doppel-spider"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 2154b183-c5c5-418f-8e47-f6e999b64e30
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "2154b183-c5c5-418f-8e47-f6e999b64e30"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

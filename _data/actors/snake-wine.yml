@@ -1,28 +1,10 @@
-name: Snake Wine
-aliases:
-- Snake Wine
-description: 'While investigating some of the smaller name servers that APT28/Sofacy
-  routinely use to host their infrastructure, Cylance discovered another prolonged
-  campaign that appeared to exclusively target Japanese companies and individuals
-  that began around August 2016. The later registration style was eerily close to
-  previously registered APT28 domains, however, the malware used in the attacks did
-  not seem to line up at all. During the course of our investigation, JPCERT published
-  this analysis of one of the group’s backdoors. Cylance tracks this threat group
-  internally as ‘Snake Wine’.
-
-  The Snake Wine group has proven to be highly adaptable and has continued to adopt
-  new tactics in order to establish footholds inside victim environments. The exclusive
-  interest in Japanese government, education, and commerce will likely continue into
-  the future as the group is just starting to build and utilize their existing current
-  attack infrastructure.'
-url: /snake-wine
+name: "Snake Wine"
+aliases: ["Snake Wine"]
+description: "While investigating some of the smaller name servers that APT28/Sofacy routinely use to host their infrastructure, Cylance discovered another prolonged campaign that appeared to exclusively target Japanese companies and individuals that began around August 2016. The later registration style was eerily close to previously registered APT28 domains, however, the malware used in the attacks did not seem to line up at all. During the course of our investigation, JPCERT published this analysis of one of the group’s backdoors. Cylance tracks this threat group internally as ‘Snake Wine’.\nThe Snake Wine group has proven to be highly adaptable and has continued to adopt new tactics in order to establish footholds inside victim environments. The exclusive interest in Japanese government, education, and commerce will likely continue into the future as the group is just starting to build and utilize their existing current attack infrastructure."
+url: "/snake-wine"
+malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"Small-Net\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 7b6ba207-94de-4f94-bc7f-52cd0dafade5
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Backdoor.Oldrea
-- name: Small-Net
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "7b6ba207-94de-4f94-bc7f-52cd0dafade5"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

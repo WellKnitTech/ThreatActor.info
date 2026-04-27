@@ -1,51 +1,16 @@
-name: Scattered Spider
-aliases:
-- 0ktapus
-- DEV-0971
-- Muddled Libra
-- Octo Tempest
-- Oktapus
-- Roasted 0ktapus
-- Scatter Swine
-- Scattered Spider
-- Scattered Swine
-- Starfraud
-- Storm-0875
-- Storm-0971
-- UNC3944
-description: 'Scattered Spider is a native English-speaking cybercriminal group active
-  since at least 2022. (Citation: CrowdStrike Scattered Spider Profile) (Citation:
-  MSTIC Octo Tempest Operations October 2023) The group initially targeted customer
-  relationship management (CRM) providers, business process outsourcing (BPO) firms,
-  and telecommunications and technology companies before expanding in 2023 to gaming,
-  hospitality, retail, managed service provider (MSP), manufacturing, and financial
-  sectors. (Citation: MSTIC Octo Tempest Operations October 2023)
-
-  Scattered Spider relies heavily on social engineering, including impersonating IT
-  and help-desk staff, to gain initial access, bypass multi-factor authentication
-  (MFA), and compromise enterprise networks. The group has adapted its tooling to
-  evade endpoint detection and response (EDR) defenses and used ransomware for financial
-  gain. (Citation: CISA Scattered Spider Advisory November 2023) (Citation: CrowdStrike
-  Scattered Spider BYOVD January 2023) (Citation: Crowdstrike TELCO BPO Campaign December
-  2022)
-
-  Scattered Spider had expanded into hybrid cloud and identity environments, using
-  help-desk impersonation and MFA bypass to obtain administrator access in Okta, AWS,
-  and Office 365. (Citation: Mandiant UNC3944 May 2025)'
-url: /apt1015
-external_id: G1015
-mitre_id: G1015
-external_url: https://attack.mitre.org/groups/G1015
-mitre_url: https://attack.mitre.org/groups/G1015
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "Scattered Spider"
+aliases: ["0ktapus","DEV-0971","Muddled Libra","Octo Tempest","Oktapus","Roasted 0ktapus","Scatter Swine","Scattered Spider","Scattered Swine","Starfraud","Storm-0875","Storm-0971","UNC3944"]
+description: "Scattered Spider is a native English-speaking cybercriminal group active since at least 2022. (Citation: CrowdStrike Scattered Spider Profile) (Citation: MSTIC Octo Tempest Operations October 2023) The group initially targeted customer relationship management (CRM) providers, business process outsourcing (BPO) firms, and telecommunications and technology companies before expanding in 2023 to gaming, hospitality, retail, managed service provider (MSP), manufacturing, and financial sectors. (Citation: MSTIC Octo Tempest Operations October 2023)\nScattered Spider relies heavily on social engineering, including impersonating IT and help-desk staff, to gain initial access, bypass multi-factor authentication (MFA), and compromise enterprise networks. The group has adapted its tooling to evade endpoint detection and response (EDR) defenses and used ransomware for financial gain. (Citation: CISA Scattered Spider Advisory November 2023) (Citation: CrowdStrike Scattered Spider BYOVD January 2023) (Citation: Crowdstrike TELCO BPO Campaign December 2022)\nScattered Spider had expanded into hybrid cloud and identity environments, using help-desk impersonation and MFA bypass to obtain administrator access in Okta, AWS, and Office 365. (Citation: Mandiant UNC3944 May 2025)"
+url: "/apt1015"
+external_id: "G1015"
+external_url: "https://attack.mitre.org/groups/G1015"
+mitre_id: "G1015"
+mitre_url: "https://attack.mitre.org/groups/G1015"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["{\"name\" => \"Hacking Team UEFI Rootkit\"}"]
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G1015
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: null
-country: null
-malware:
-- name: Hacking Team UEFI Rootkit
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G1015"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

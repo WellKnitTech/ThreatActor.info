@@ -1,24 +1,15 @@
-name: RedCurl
-aliases:
-- RedCurl
-description: 'RedCurl is a threat actor active since 2018 notable for corporate espionage
-  targeting a variety of locations, including Ukraine, Canada and the United Kingdom,
-  and a variety of industries, including but not limited to travel agencies, insurance
-  companies, and banks.(Citation: group-ib_redcurl1) RedCurl is allegedly a Russian-speaking
-  threat actor.(Citation: group-ib_redcurl1)(Citation: group-ib_redcurl2) The group’s
-  operations typically start with spearphishing emails to gain initial access, then
-  the group executes discovery and collection commands and scripts to find corporate
-  data. The group concludes operations by exfiltrating files to the C2 servers. '
-url: /apt1039
-external_id: G1039
-mitre_id: G1039
-external_url: https://attack.mitre.org/groups/G1039
-mitre_url: https://attack.mitre.org/groups/G1039
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "RedCurl"
+aliases: ["RedCurl"]
+description: "RedCurl is a threat actor active since 2018 notable for corporate espionage targeting a variety of locations, including Ukraine, Canada and the United Kingdom, and a variety of industries, including but not limited to travel agencies, insurance companies, and banks.(Citation: group-ib_redcurl1) RedCurl is allegedly a Russian-speaking threat actor.(Citation: group-ib_redcurl1)(Citation: group-ib_redcurl2) The group’s operations typically start with spearphishing emails to gain initial access, then the group executes discovery and collection commands and scripts to find corporate data. The group concludes operations by exfiltrating files to the C2 servers. "
+url: "/apt1039"
+external_id: "G1039"
+external_url: "https://attack.mitre.org/groups/G1039"
+mitre_id: "G1039"
+mitre_url: "https://attack.mitre.org/groups/G1039"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T05:24:31Z'
-    source_record_id: G1039
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G1039"
+    source_retrieved_at: "2026-04-26T05:24:31Z"
+source: "MITRE ATT&CK"

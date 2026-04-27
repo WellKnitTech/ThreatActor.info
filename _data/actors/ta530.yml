@@ -1,13 +1,11 @@
-name: TA530
-aliases:
-- TA530
-description: TA530, who we previously examined in relation to large-scale personalized
-  phishing campaigns
-url: /ta530
-country: China
-risk_level: High
+name: "TA530"
+aliases: ["TA530"]
+description: "TA530, who we previously examined in relation to large-scale personalized phishing campaigns"
+url: "/ta530"
+country: "China"
+risk_level: "High"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 4b79d1f6-8333-44b6-ac32-d1ea7e47e77f
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "4b79d1f6-8333-44b6-ac32-d1ea7e47e77f"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

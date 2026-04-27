@@ -1,22 +1,11 @@
-name: Cyber Alliance
-aliases:
-- Cyber Alliance
-description: The Ukrainian Cyber Alliance is a pro-Ukraine hacktivist group formed
-  in 2016, primarily targeting Russian entities since the invasion of Ukraine in 2022.
-  They have claimed responsibility for significant cyberattacks, including the destruction
-  of infrastructure at Russian internet provider Nodex and a breach of the microfinance
-  company CarMoney, linked to Vladimir Putin's ex-wife. Their operations involve data
-  destruction and disruption of IT infrastructure, utilizing techniques such as malware
-  attacks and social engineering tactics. The group has positioned itself as a pro-military
-  force, leveraging social media to communicate its activities and objectives.
-url: /cyber-alliance
-country: Ukraine
+name: "Cyber Alliance"
+aliases: ["Cyber Alliance"]
+description: "The Ukrainian Cyber Alliance is a pro-Ukraine hacktivist group formed in 2016, primarily targeting Russian entities since the invasion of Ukraine in 2022. They have claimed responsibility for significant cyberattacks, including the destruction of infrastructure at Russian internet provider Nodex and a breach of the microfinance company CarMoney, linked to Vladimir Putin's ex-wife. Their operations involve data destruction and disruption of IT infrastructure, utilizing techniques such as malware attacks and social engineering tactics. The group has positioned itself as a pro-military force, leveraging social media to communicate its activities and objectives."
+url: "/cyber-alliance"
+country: "Ukraine"
+malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 77f0ec2e-11fe-4699-9679-a6cd3570fbca
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: CyberGate
-- name: Cyber Eye RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "77f0ec2e-11fe-4699-9679-a6cd3570fbca"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,30 +1,10 @@
-name: TRIPLESTRENGTH
-aliases:
-- TRIPLESTRENGTH
-description: TRIPLESTRENGTH is a financially motivated threat actor targeting cloud
-  environments and on-premises infrastructures for cryptojacking, ransomware, and
-  extortion. They exploit stolen credentials, cookies, and information stealer logs
-  to gain unauthorized access to platforms like Google Cloud, AWS, and Microsoft Azure,
-  deploying the unMiner application for cryptocurrency mining. Their ransomware operations
-  utilize lockers such as Phobos, LokiLocker, and RCRU64, involving lateral movement
-  and mass encryption. TRIPLESTRENGTH also engages in account hijacking and collaborates
-  with partners for ransomware and blackmail operations, advertising their services
-  in hacking-focused Telegram channels.
-url: /triplestrength
+name: "TRIPLESTRENGTH"
+aliases: ["TRIPLESTRENGTH"]
+description: "TRIPLESTRENGTH is a financially motivated threat actor targeting cloud environments and on-premises infrastructures for cryptojacking, ransomware, and extortion. They exploit stolen credentials, cookies, and information stealer logs to gain unauthorized access to platforms like Google Cloud, AWS, and Microsoft Azure, deploying the unMiner application for cryptocurrency mining. Their ransomware operations utilize lockers such as Phobos, LokiLocker, and RCRU64, involving lateral movement and mass encryption. TRIPLESTRENGTH also engages in account hijacking and collaborates with partners for ransomware and blackmail operations, advertising their services in hacking-focused Telegram channels."
+url: "/triplestrength"
+malware: ["{\"name\" => \"BlackEnergy\"}","{\"name\" => \"Hacking Team UEFI Rootkit\"}","{\"name\" => \"CloudDuke\"}","{\"name\" => \"Miner-C\"}","{\"name\" => \"BLACKCOFFEE\"}","{\"name\" => \"Blackshades\"}","{\"name\" => \"BlackNix\"}","{\"name\" => \"Xploit\"}","{\"name\" => \"BlackHole\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 4d1692ca-8022-4258-9f35-149e3d0564bb
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: BlackEnergy
-- name: Hacking Team UEFI Rootkit
-- name: CloudDuke
-- name: Miner-C
-- name: BLACKCOFFEE
-- name: Blackshades
-- name: BlackNix
-- name: Xploit
-- name: BlackHole
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "4d1692ca-8022-4258-9f35-149e3d0564bb"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

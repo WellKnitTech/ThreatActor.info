@@ -1,28 +1,16 @@
-name: FIN10
-aliases:
-- FIN10
-- G0051
-description: 'FIN10 is a financially motivated threat group that has targeted organizations
-  in North America since at least 2013 through 2016. The group uses stolen data exfiltrated
-  from victims to extort organizations. (Citation: FireEye FIN10 June 2017)'
-url: /apt0051
-external_id: G0051
-mitre_id: G0051
-external_url: https://attack.mitre.org/groups/G0051
-mitre_url: https://attack.mitre.org/groups/G0051
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "FIN10"
+aliases: ["FIN10","G0051"]
+description: "FIN10 is a financially motivated threat group that has targeted organizations in North America since at least 2013 through 2016. The group uses stolen data exfiltrated from victims to extort organizations. (Citation: FireEye FIN10 June 2017)"
+url: "/apt0051"
+external_id: "G0051"
+external_url: "https://attack.mitre.org/groups/G0051"
+mitre_id: "G0051"
+mitre_url: "https://attack.mitre.org/groups/G0051"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["{\"name\" => \"SHUTTERSPEED\"}","{\"name\" => \"Back Orifice\"}","{\"name\" => \"Back Orifice 2000\"}","{\"name\" => \"Windows Remote Desktop\"}","{\"name\" => \"CrossRat\"}"]
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G0051
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: null
-country: null
-malware:
-- name: SHUTTERSPEED
-- name: Back Orifice
-- name: Back Orifice 2000
-- name: Windows Remote Desktop
-- name: CrossRat
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0051"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

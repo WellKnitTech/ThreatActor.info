@@ -1,22 +1,10 @@
-name: GreenSpot
-aliases:
-- PoisonVine
-- APT-Q-20
-- GreenSpot
-description: GreenSpot is an APT group believed to operate from Taiwan, active since
-  at least 2007, primarily targeting government, academic, and military entities in
-  China through phishing campaigns. The group frequently targets 163.com, aiming to
-  steal login credentials using deceptive domains, manipulated TLS certificates, and
-  counterfeit interfaces. Their tactics highlight the sophistication of modern credential
-  theft operations, necessitating detection efforts focused on irregular domain registrations
-  and certificate anomalies.
-url: /greenspot
+name: "GreenSpot"
+aliases: ["PoisonVine","APT-Q-20","GreenSpot"]
+description: "GreenSpot is an APT group believed to operate from Taiwan, active since at least 2007, primarily targeting government, academic, and military entities in China through phishing campaigns. The group frequently targets 163.com, aiming to steal login credentials using deceptive domains, manipulated TLS certificates, and counterfeit interfaces. Their tactics highlight the sophistication of modern credential theft operations, necessitating detection efforts focused on irregular domain registrations and certificate anomalies."
+url: "/greenspot"
+malware: ["{\"name\" => \"China Chopper\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: cff9cc85-6f34-4deb-9239-730e34e639f3
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: China Chopper
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "cff9cc85-6f34-4deb-9239-730e34e639f3"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

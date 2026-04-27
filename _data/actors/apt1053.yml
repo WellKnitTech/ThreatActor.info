@@ -1,34 +1,16 @@
-name: Storm-0501
-aliases:
-- Storm-0501
-description: 'Storm-0501 is a financially motivated cyber criminal group that uses
-  commodity and open-source tools to conduct ransomware operations. Storm-0501 has
-  been active since 2021 and has previously been affiliated with Sabbath Ransomware
-  and other Ransomware-as-a-Service (RaaS) variants such as Hive, BlackCat, Hunters
-  International, LockBit 3.0, and Embargo ransomware.(Citation: Avertium Storm-0501
-  Sabbath Ransomware Arcane January 2022)(Citation: Microsoft Storm-501 Sabbath Ransomware
-  Embargo September 2024)(Citation: Microsoft Storm-0501 Embargo Ransomware August
-  2025)(Citation: Google Mandiant Storm-0501 Sabbath Ransomware November 2021)'
-url: /apt1053
-external_id: G1053
-mitre_id: G1053
-external_url: https://attack.mitre.org/groups/G1053
-mitre_url: https://attack.mitre.org/groups/G1053
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "Storm-0501"
+aliases: ["Storm-0501"]
+description: "Storm-0501 is a financially motivated cyber criminal group that uses commodity and open-source tools to conduct ransomware operations. Storm-0501 has been active since 2021 and has previously been affiliated with Sabbath Ransomware and other Ransomware-as-a-Service (RaaS) variants such as Hive, BlackCat, Hunters International, LockBit 3.0, and Embargo ransomware.(Citation: Avertium Storm-0501 Sabbath Ransomware Arcane January 2022)(Citation: Microsoft Storm-501 Sabbath Ransomware Embargo September 2024)(Citation: Microsoft Storm-0501 Embargo Ransomware August 2025)(Citation: Google Mandiant Storm-0501 Sabbath Ransomware November 2021)"
+url: "/apt1053"
+external_id: "G1053"
+external_url: "https://attack.mitre.org/groups/G1053"
+mitre_id: "G1053"
+mitre_url: "https://attack.mitre.org/groups/G1053"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["{\"name\" => \"Backdoor.Oldrea\"}","{\"name\" => \"CloudDuke\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"UNITEDRAKE\"}","{\"name\" => \"Xploit\"}","{\"name\" => \"Cobalt Strike\"}"]
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G1053
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: null
-country: null
-malware:
-- name: Backdoor.Oldrea
-- name: CloudDuke
-- name: CyberGate
-- name: Cyber Eye RAT
-- name: UNITEDRAKE
-- name: Xploit
-- name: Cobalt Strike
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G1053"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

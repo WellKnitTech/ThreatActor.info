@@ -1,17 +1,10 @@
-name: Bahamut
-aliases:
-- Bahamut
-description: Bahamut is a threat actor primarily operating in Middle East and Central
-  Asia, suspected to be a private contractor to several state sponsored actors. They
-  were observed conduct phishing as well as desktop and mobile malware campaigns.
-url: /bahamut
+name: "Bahamut"
+aliases: ["Bahamut"]
+description: "Bahamut is a threat actor primarily operating in Middle East and Central Asia, suspected to be a private contractor to several state sponsored actors. They were observed conduct phishing as well as desktop and mobile malware campaigns."
+url: "/bahamut"
+malware: ["{\"name\" => \"MobileOrder\"}","{\"name\" => \"DesktopNow\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: dc3edacc-bb24-11e8-81fb-8c16458922a7
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: MobileOrder
-- name: DesktopNow
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "dc3edacc-bb24-11e8-81fb-8c16458922a7"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

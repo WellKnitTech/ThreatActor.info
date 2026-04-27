@@ -1,18 +1,10 @@
-name: UNC5342
-aliases:
-- UNC5342
-description: UNC5342 is a North Korea-linked APT that employs the EtherHiding technique
-  to deliver malware and facilitate cryptocurrency theft. The actor has been observed
-  deploying EtherRAT and JADESNOW malware, utilizing transaction history as a Dead
-  Drop Resolver to embed payloads directly into the calldata of blockchain transactions.
-  Their operations involve leveraging centralized API services to interact with public
-  blockchains like Ethereum and BNB Smart Chain. The malware is designed to exfiltrate
-  sensitive data, particularly targeting cryptocurrency wallets and credentials.
-url: /unc5342
-country: North Korea
+name: "UNC5342"
+aliases: ["UNC5342"]
+description: "UNC5342 is a North Korea-linked APT that employs the EtherHiding technique to deliver malware and facilitate cryptocurrency theft. The actor has been observed deploying EtherRAT and JADESNOW malware, utilizing transaction history as a Dead Drop Resolver to embed payloads directly into the calldata of blockchain transactions. Their operations involve leveraging centralized API services to interact with public blockchains like Ethereum and BNB Smart Chain. The malware is designed to exfiltrate sensitive data, particularly targeting cryptocurrency wallets and credentials."
+url: "/unc5342"
+country: "North Korea"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 6c253a07-b75d-4c3c-a93d-13aed83662f1
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "6c253a07-b75d-4c3c-a93d-13aed83662f1"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

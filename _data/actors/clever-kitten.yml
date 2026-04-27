@@ -1,13 +1,10 @@
-name: Clever Kitten
-aliases:
-- Group 41
-- Clever Kitten
-description: ''
-url: /clever-kitten
-country: Iran
-risk_level: High
+name: "Clever Kitten"
+aliases: ["Group 41","Clever Kitten"]
+url: "/clever-kitten"
+country: "Iran"
+risk_level: "High"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: d56c99fa-4710-472c-81a6-41b7a84ea4be
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "d56c99fa-4710-472c-81a6-41b7a84ea4be"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

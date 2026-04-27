@@ -1,29 +1,17 @@
-name: Ferocious Kitten
-aliases:
-- Ferocious Kitten
-description: 'Ferocious Kitten is a threat group that has primarily targeted Persian-speaking
-  individuals in Iran since at least 2015.(Citation: Kaspersky Ferocious Kitten Jun
-  2021)'
-url: /apt0137
-external_id: G0137
-mitre_id: G0137
-external_url: https://attack.mitre.org/groups/G0137
-mitre_url: https://attack.mitre.org/groups/G0137
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "Ferocious Kitten"
+aliases: ["Ferocious Kitten"]
+description: "Ferocious Kitten is a threat group that has primarily targeted Persian-speaking individuals in Iran since at least 2015.(Citation: Kaspersky Ferocious Kitten Jun 2021)"
+url: "/apt0137"
+country: "Iran"
+external_id: "G0137"
+external_url: "https://attack.mitre.org/groups/G0137"
+mitre_id: "G0137"
+mitre_url: "https://attack.mitre.org/groups/G0137"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["{\"name\" => \"Back Orifice\"}","{\"name\" => \"Back Orifice 2000\"}","{\"name\" => \"Virus RAT\"}","{\"name\" => \"Sky Wyder\"}","{\"name\" => \"Chrome Remote Desktop\"}","{\"name\" => \"Archelaus Beta\"}","{\"name\" => \"CrossRat\"}"]
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G0137
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: null
-country: Iran
-malware:
-- name: Back Orifice
-- name: Back Orifice 2000
-- name: Virus RAT
-- name: Sky Wyder
-- name: Chrome Remote Desktop
-- name: Archelaus Beta
-- name: CrossRat
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0137"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

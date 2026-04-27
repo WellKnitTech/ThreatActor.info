@@ -1,20 +1,9 @@
-name: BazarCall
-aliases:
-- BazzarCall
-- BazaCall
-- BazarCall
-description: BazarCall campaigns forgo malicious links or attachments in email messages
-  in favor of phone numbers that recipients are misled into calling. It’s a technique
-  reminiscent of vishing and tech support scams where potential victims are being
-  cold called by the attacker, except in BazarCall’s case, targeted users must dial
-  the number. And when they do, the users are connected with actual humans on the
-  other end of the line, who then provide step-by-step instructions for installing
-  malware into their devices.
-url: /bazarcall
+name: "BazarCall"
+aliases: ["BazzarCall","BazaCall","BazarCall"]
+description: "BazarCall campaigns forgo malicious links or attachments in email messages in favor of phone numbers that recipients are misled into calling. It’s a technique reminiscent of vishing and tech support scams where potential victims are being cold called by the attacker, except in BazarCall’s case, targeted users must dial the number. And when they do, the users are connected with actual humans on the other end of the line, who then provide step-by-step instructions for installing malware into their devices."
+url: "/bazarcall"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 906e2091-cc32-499e-a799-2b9b15e45042
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "906e2091-cc32-499e-a799-2b9b15e45042"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

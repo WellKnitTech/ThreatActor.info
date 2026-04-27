@@ -1,21 +1,11 @@
-name: Mora_001
-aliases:
-- Mora_001
-description: Mora_001 is a threat actor exhibiting a distinct operational signature
-  that combines opportunistic attacks with ties to the LockBit ecosystem. The actor
-  has been observed exploiting CVE-2024-55591 and CVE-2025-24472 vulnerabilities affecting
-  Fortinet devices. The ransom note associated with Mora_001 includes the same TOX
-  ID used by LockBit, indicating a potential affiliation or shared communication channels.
-  Their post-exploitation patterns suggest a structured playbook that differentiates
-  them from other ransomware operators, including LockBit affiliates.
-url: /mora-001
-country: Russia
+name: "Mora_001"
+aliases: ["Mora_001"]
+description: "Mora_001 is a threat actor exhibiting a distinct operational signature that combines opportunistic attacks with ties to the LockBit ecosystem. The actor has been observed exploiting CVE-2024-55591 and CVE-2025-24472 vulnerabilities affecting Fortinet devices. The ransom note associated with Mora_001 includes the same TOX ID used by LockBit, indicating a potential affiliation or shared communication channels. Their post-exploitation patterns suggest a structured playbook that differentiates them from other ransomware operators, including LockBit affiliates."
+url: "/mora-001"
+country: "Russia"
+malware: ["{\"name\" => \"Net Devil\"}","{\"name\" => \"Xploit\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 5326f3c4-fd3d-450a-811b-cbb2dbcf6371
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: Net Devil
-- name: Xploit
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "5326f3c4-fd3d-450a-811b-cbb2dbcf6371"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

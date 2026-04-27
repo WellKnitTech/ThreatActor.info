@@ -1,27 +1,10 @@
-name: Hive0117
-aliases:
-- Hive0117
-description: Hive0117 is a financially motivated cybercriminal group that conducts
-  phishing campaigns to deliver the fileless malware DarkWatchman, which is capable
-  of keylogging and collecting system information. The group targets individuals in
-  the energy, finance, transport, and software security sectors across Russia, Kazakhstan,
-  Latvia, and Estonia, often imitating official Russian government communications
-  to induce urgency. Their operations leverage emergent policies related to conscription
-  and utilize a UID string for identification, with malware capable of querying for
-  smartcard readers, indicating a focus on higher security targets. The malware's
-  fileless nature and ability to erase traces of its presence suggest moderate sophistication
-  in their TTPs.
-url: /hive0117
+name: "Hive0117"
+aliases: ["Hive0117"]
+description: "Hive0117 is a financially motivated cybercriminal group that conducts phishing campaigns to deliver the fileless malware DarkWatchman, which is capable of keylogging and collecting system information. The group targets individuals in the energy, finance, transport, and software security sectors across Russia, Kazakhstan, Latvia, and Estonia, often imitating official Russian government communications to induce urgency. Their operations leverage emergent policies related to conscription and utilize a UID string for identification, with malware capable of querying for smartcard readers, indicating a focus on higher security targets. The malware's fileless nature and ability to erase traces of its presence suggest moderate sophistication in their TTPs."
+url: "/hive0117"
+malware: ["{\"name\" => \"RIPTIDE\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"CrossRat\"}","{\"name\" => \"DarkWatchman\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 6acc54ac-f19d-4396-8de3-6906c5b9fda8
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: RIPTIDE
-- name: CyberGate
-- name: Cyber Eye RAT
-- name: CrossRat
-- name: DarkWatchman
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "6acc54ac-f19d-4396-8de3-6906c5b9fda8"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

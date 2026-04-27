@@ -1,17 +1,10 @@
-name: WIP19
-aliases:
-- WIP19
-description: WIP19 is a Chinese-speaking threat group involved in espionage targeting
-  the Middle East and Asia. They utilize a stolen certificate to sign their malware,
-  including SQLMaggie, ScreenCap, and a credential dumper. The group has been observed
-  targeting telecommunications and IT service providers, using toolsets authored by
-  WinEggDrop. WIP19's activities suggest they are after specific information and are
-  part of the broader Chinese espionage landscape.
-url: /wip19
-country: China
+name: "WIP19"
+aliases: ["WIP19"]
+description: "WIP19 is a Chinese-speaking threat group involved in espionage targeting the Middle East and Asia. They utilize a stolen certificate to sign their malware, including SQLMaggie, ScreenCap, and a credential dumper. The group has been observed targeting telecommunications and IT service providers, using toolsets authored by WinEggDrop. WIP19's activities suggest they are after specific information and are part of the broader Chinese espionage landscape."
+url: "/wip19"
+country: "China"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 21bb2dab-4125-4ae8-8966-c7381659e180
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "21bb2dab-4125-4ae8-8966-c7381659e180"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,25 +1,10 @@
-name: Keymous+
-aliases:
-- keymous
-- Keymous Plus
-- Keymous+
-description: Keymous is a threat actor known for executing extensive DDoS attacks
-  across multiple Arab countries, targeting government ministries and critical infrastructure.
-  The group has claimed access to sensitive data, including over 300,000 records from
-  Israel's Ministry of Education, and has engaged in reconnaissance activities against
-  various ministries in Bahrain and other nations. Keymous employs diverse infrastructure,
-  including compromised IoT devices and DDoS-for-hire platforms, to amplify attack
-  bandwidth. Their operations have been characterized by a focus on politically motivated
-  cyberattacks, particularly in the context of regional conflicts.
-url: /keymous
+name: "Keymous+"
+aliases: ["keymous","Keymous Plus","Keymous+"]
+description: "Keymous is a threat actor known for executing extensive DDoS attacks across multiple Arab countries, targeting government ministries and critical infrastructure. The group has claimed access to sensitive data, including over 300,000 records from Israel's Ministry of Education, and has engaged in reconnaissance activities against various ministries in Bahrain and other nations. Keymous employs diverse infrastructure, including compromised IoT devices and DDoS-for-hire platforms, to amplify attack bandwidth. Their operations have been characterized by a focus on politically motivated cyberattacks, particularly in the context of regional conflicts."
+url: "/keymous"
+malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"CrossRat\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: c6e6d7fe-e8c3-4a33-8603-4bf44dec3b75
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: CyberGate
-- name: Cyber Eye RAT
-- name: CrossRat
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "c6e6d7fe-e8c3-4a33-8603-4bf44dec3b75"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

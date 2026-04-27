@@ -1,20 +1,10 @@
-name: UAT-10608
-aliases:
-- UAT-10608
-description: UAT-10608 is a threat cluster observed by Cisco Talos conducting a large-scale,
-  automated credential-harvesting campaign against public-facing web applications,
-  especially Next.js deployments, using a custom framework called NEXUS Listener to
-  extract and exfiltrate secrets such as credentials, SSH keys, cloud tokens, and
-  API keys. The activity has been linked to broad opportunistic scanning and at least
-  766 compromised hosts across multiple regions and cloud providers.
-url: /uat-10608
+name: "UAT-10608"
+aliases: ["UAT-10608"]
+description: "UAT-10608 is a threat cluster observed by Cisco Talos conducting a large-scale, automated credential-harvesting campaign against public-facing web applications, especially Next.js deployments, using a custom framework called NEXUS Listener to extract and exfiltrate secrets such as credentials, SSH keys, cloud tokens, and API keys. The activity has been linked to broad opportunistic scanning and at least 766 compromised hosts across multiple regions and cloud providers."
+url: "/uat-10608"
+malware: ["{\"name\" => \"CloudDuke\"}","{\"name\" => \"CrossRat\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 88ba3275-6eda-4ff4-b54e-1be126e13bec
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: CloudDuke
-- name: CrossRat
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "88ba3275-6eda-4ff4-b54e-1be126e13bec"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

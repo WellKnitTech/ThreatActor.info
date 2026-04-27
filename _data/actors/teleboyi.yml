@@ -1,19 +1,11 @@
-name: Teleboyi
-aliases:
-- Teleboyi
-description: Teleboyi is a threat actor reportedly based in China, associated with
-  the PlugX RAT. TeamT5 identified a custom PlugX loader used by Teleboyi that employs
-  a similar string decryption algorithm as seen in the McUtil.dll loader from Operation
-  Harvest. While there are weak links to the dsqurey[.]com domain, the connection
-  remains uncertain due to the domain's registration history.
-url: /teleboyi
-country: China
+name: "Teleboyi"
+aliases: ["Teleboyi"]
+description: "Teleboyi is a threat actor reportedly based in China, associated with the PlugX RAT. TeamT5 identified a custom PlugX loader used by Teleboyi that employs a similar string decryption algorithm as seen in the McUtil.dll loader from Operation Harvest. While there are weak links to the dsqurey[.]com domain, the connection remains uncertain due to the domain's registration history."
+url: "/teleboyi"
+country: "China"
+malware: ["{\"name\" => \"PlugX\"}","{\"name\" => \"China Chopper\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 60b13884-76cf-4152-b78f-85ba2c4faf67
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: PlugX
-- name: China Chopper
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "60b13884-76cf-4152-b78f-85ba2c4faf67"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

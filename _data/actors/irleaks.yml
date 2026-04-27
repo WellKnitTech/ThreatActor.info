@@ -1,22 +1,10 @@
-name: IRLeaks
-aliases:
-- IRLeaks
-description: IRLeaks is a threat actor known for significant cyberattacks targeting
-  Iranian organizations, including a major breach of SnappFood, where they exfiltrated
-  3TB of sensitive data from 20 million user profiles. They have also compromised
-  data from 23 leading Iranian insurance companies, offering over 160 million records
-  for sale. Their operations involve extortion tactics, as seen in the ransom negotiations
-  with Tosan, and they utilize malware such as StealC for data extraction. IRLeaks
-  communicates primarily in Persian and has been active in selling stolen data on
-  cybercriminal marketplaces.
-url: /irleaks
+name: "IRLeaks"
+aliases: ["IRLeaks"]
+description: "IRLeaks is a threat actor known for significant cyberattacks targeting Iranian organizations, including a major breach of SnappFood, where they exfiltrated 3TB of sensitive data from 20 million user profiles. They have also compromised data from 23 leading Iranian insurance companies, offering over 160 million records for sale. Their operations involve extortion tactics, as seen in the ransom negotiations with Tosan, and they utilize malware such as StealC for data extraction. IRLeaks communicates primarily in Persian and has been active in selling stolen data on cybercriminal marketplaces."
+url: "/irleaks"
+malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: f0a50fa0-25ca-4346-a666-390923f2c5a1
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: CyberGate
-- name: Cyber Eye RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "f0a50fa0-25ca-4346-a666-390923f2c5a1"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,25 +1,10 @@
-name: DarkGaboon
-aliases:
-- Vengeful Wolf
-- room155
-- DarkGaboon
-description: DarkGaboon is a financially motivated APT group that has been independently
-  targeting Russian organizations since May 2023, primarily using phishing emails
-  to deliver malware such as Revenge RAT and LockBit 3.0 ransomware. Their operations
-  demonstrate advanced operational security practices, including the use of homoglyphs
-  in file names and decoy documents sourced from legitimate Russian templates to evade
-  detection. The group has shown a disciplined approach to updating their toolkit,
-  with 369 unique files identified, and employs command-and-control infrastructure
-  located outside Russia. DarkGaboon's linguistic proficiency in Russian suggests
-  a deep understanding of the local context, enhancing the effectiveness of their
-  phishing lures.
-url: /darkgaboon
+name: "DarkGaboon"
+aliases: ["Vengeful Wolf","room155","DarkGaboon"]
+description: "DarkGaboon is a financially motivated APT group that has been independently targeting Russian organizations since May 2023, primarily using phishing emails to deliver malware such as Revenge RAT and LockBit 3.0 ransomware. Their operations demonstrate advanced operational security practices, including the use of homoglyphs in file names and decoy documents sourced from legitimate Russian templates to evade detection. The group has shown a disciplined approach to updating their toolkit, with 369 unique files identified, and employs command-and-control infrastructure located outside Russia. DarkGaboon's linguistic proficiency in Russian suggests a deep understanding of the local context, enhancing the effectiveness of their phishing lures."
+url: "/darkgaboon"
+malware: ["{\"name\" => \"Revenge-RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: c2f849ae-9413-4351-b905-354657fe2405
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Revenge-RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "c2f849ae-9413-4351-b905-354657fe2405"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

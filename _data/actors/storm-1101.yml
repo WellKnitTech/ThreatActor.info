@@ -1,23 +1,10 @@
-name: Storm-1101
-aliases:
-- DEV-1101
-- Storm-1101
-description: DEV-1101 is a threat actor tracked by Microsoft who is responsible for
-  developing and advertising phishing kits, specifically AiTM phishing kits. These
-  kits are capable of bypassing multifactor authentication and are available for purchase
-  or rent by other cybercriminals. DEV-1101 offers an open-source kit with various
-  enhancements, such as mobile device management and CAPTCHA evasion. Their tool has
-  been used in high-volume phishing campaigns by multiple actors, including DEV-0928,
-  and is sold for $300 with VIP licenses available for $1,000.
-url: /storm-1101
+name: "Storm-1101"
+aliases: ["DEV-1101","Storm-1101"]
+description: "DEV-1101 is a threat actor tracked by Microsoft who is responsible for developing and advertising phishing kits, specifically AiTM phishing kits. These kits are capable of bypassing multifactor authentication and are available for purchase or rent by other cybercriminals. DEV-1101 offers an open-source kit with various enhancements, such as mobile device management and CAPTCHA evasion. Their tool has been used in high-volume phishing campaigns by multiple actors, including DEV-0928, and is sold for $300 with VIP licenses available for $1,000."
+url: "/storm-1101"
+malware: ["{\"name\" => \"MobileOrder\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 8081af2c-442f-4487-9cf7-022cbe010b8f
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: MobileOrder
-- name: CyberGate
-- name: Cyber Eye RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "8081af2c-442f-4487-9cf7-022cbe010b8f"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,24 +1,10 @@
-name: OverFlame
-aliases:
-- OverFlame
-description: OverFlame is a hacktivist group known for executing DDoS attacks and
-  website defacements, primarily targeting government institutions and corporations
-  in Europe and North America. The group has been involved in coordinated attacks
-  alongside other pro-Russian threat actors, such as NoName057and the People’s Cyber
-  Army, often motivated by anti-government and anti-corporate sentiments. OverFlame
-  operates through underground forums and encrypted messaging platforms to coordinate
-  attacks and recruit members. Their activities have included targeting financial
-  services, political parties, and educational institutions, demonstrating a focus
-  on disrupting critical infrastructure.
-url: /overflame
+name: "OverFlame"
+aliases: ["OverFlame"]
+description: "OverFlame is a hacktivist group known for executing DDoS attacks and website defacements, primarily targeting government institutions and corporations in Europe and North America. The group has been involved in coordinated attacks alongside other pro-Russian threat actors, such as NoName057and the People’s Cyber Army, often motivated by anti-government and anti-corporate sentiments. OverFlame operates through underground forums and encrypted messaging platforms to coordinate attacks and recruit members. Their activities have included targeting financial services, political parties, and educational institutions, demonstrating a focus on disrupting critical infrastructure."
+url: "/overflame"
+malware: ["{\"name\" => \"Flame\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 8bd29f1a-ea33-49c2-a783-42cd2a193f83
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Flame
-- name: CyberGate
-- name: Cyber Eye RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "8bd29f1a-ea33-49c2-a783-42cd2a193f83"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

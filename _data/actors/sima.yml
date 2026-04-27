@@ -1,36 +1,12 @@
-name: Sima
-aliases:
-- Sima
-description: 'Sima is a group of suspected Iranian origin targeting Iranians in diaspora.
-
-  In February 2016, Iran-focused individuals received messages purporting to be from
-  Human RightsWatch''s (HRW) Emergencies Director, requesting that they read an article
-  about Iran pressing Afghanr efugees to fight in Syria. While referencing a real
-  report published by HRW, the links provided for the Director’s biography and article
-  directed the recipient to malware hosted elsewhere. These spear-phishing attempts
-  represent an evolution of Iranian actors based on their social engineering tactics
-  and narrow targeting. Although the messages still had minor grammatical and stylistic
-  errors that would be obvious to a native speaker, the actors demonstrated stronger
-  English-language proficiency than past intrusion sets and a deeper investment in
-  background research prior to the attempt. The actors appropriated a real identity
-  that would be expected to professionally interact with the subject, then offered
-  validation through links to their biography and social media, the former of which
-  itself was malware as well. The bait documents contained a real article relevant
-  to their interests and topic referenced, and the message attempted to address to
-  how it aligned with their professional research or field of employment. The referenced
-  documents sent were malware binaries posing as legitimate files using the common
-  right-to-left filenames tactic in order to conceal the actual file extension. All
-  of these techniques, while common pretexting mechanisms, are a refinement compared
-  to a tendency amongst other groups to simply continually send different forms of
-  generic malware or phishing, in the hopes that one would eventually be successful.'
-url: /sima
-country: Iran
-risk_level: High
+name: "Sima"
+aliases: ["Sima"]
+description: "Sima is a group of suspected Iranian origin targeting Iranians in diaspora.\nIn February 2016, Iran-focused individuals received messages purporting to be from Human RightsWatch's (HRW) Emergencies Director, requesting that they read an article about Iran pressing Afghanr efugees to fight in Syria. While referencing a real report published by HRW, the links provided for the Director’s biography and article directed the recipient to malware hosted elsewhere. These spear-phishing attempts represent an evolution of Iranian actors based on their social engineering tactics and narrow targeting. Although the messages still had minor grammatical and stylistic errors that would be obvious to a native speaker, the actors demonstrated stronger English-language proficiency than past intrusion sets and a deeper investment in background research prior to the attempt. The actors appropriated a real identity that would be expected to professionally interact with the subject, then offered validation through links to their biography and social media, the former of which itself was malware as well. The bait documents contained a real article relevant to their interests and topic referenced, and the message attempted to address to how it aligned with their professional research or field of employment. The referenced documents sent were malware binaries posing as legitimate files using the common right-to-left filenames tactic in order to conceal the actual file extension. All of these techniques, while common pretexting mechanisms, are a refinement compared to a tendency amongst other groups to simply continually send different forms of generic malware or phishing, in the hopes that one would eventually be successful."
+url: "/sima"
+country: "Iran"
+risk_level: "High"
+malware: ["{\"name\" => \"GraphicBooting\"}","{\"name\" => \"Deeper RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 80f9184d-1df3-4ad0-a452-cdb90fe57216
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-malware:
-- name: GraphicBooting
-- name: Deeper RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "80f9184d-1df3-4ad0-a452-cdb90fe57216"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

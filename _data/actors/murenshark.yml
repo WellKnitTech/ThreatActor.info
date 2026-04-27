@@ -1,22 +1,10 @@
-name: MurenShark
-aliases:
-- Actor210426
-- MurenShark
-description: MurenShark is an advanced persistent threat group that operates primarily
-  in the Middle East, with a focus on targeting Turkey. They have shown interest in
-  military projects, as well as research institutes and universities. This group is
-  highly skilled in counter-analysis and reverse traceability, using sophisticated
-  tactics to avoid detection. They utilize compromised websites as file servers and
-  command and control servers, and have been known to use attack tools like NiceRender
-  for phishing purposes.
-url: /murenshark
+name: "MurenShark"
+aliases: ["Actor210426","MurenShark"]
+description: "MurenShark is an advanced persistent threat group that operates primarily in the Middle East, with a focus on targeting Turkey. They have shown interest in military projects, as well as research institutes and universities. This group is highly skilled in counter-analysis and reverse traceability, using sophisticated tactics to avoid detection. They utilize compromised websites as file servers and command and control servers, and have been known to use attack tools like NiceRender for phishing purposes."
+url: "/murenshark"
+malware: ["{\"name\" => \"SharK\"}","{\"name\" => \"Killer RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: e5c78742-bf60-4da8-b038-d548ae3f4ecb
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: SharK
-- name: Killer RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "e5c78742-bf60-4da8-b038-d548ae3f4ecb"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

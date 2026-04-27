@@ -1,19 +1,11 @@
-name: Ruby Sleet
-aliases:
-- CERIUM
-- Ruby Sleet
-description: Ruby Sleet is a threat actor linked to North Korea's Ministry of State
-  Security. Cerium has been involved in spear-phishing campaigns, compromising devices,
-  and conducting cyberattacks alongside other North Korean threat actors. They have
-  also targeted companies involved in COVID-19 research and vaccine development.
-url: /ruby-sleet
-country: North Korea
+name: "Ruby Sleet"
+aliases: ["CERIUM","Ruby Sleet"]
+description: "Ruby Sleet is a threat actor linked to North Korea's Ministry of State Security. Cerium has been involved in spear-phishing campaigns, compromising devices, and conducting cyberattacks alongside other North Korean threat actors. They have also targeted companies involved in COVID-19 research and vaccine development."
+url: "/ruby-sleet"
+country: "North Korea"
+malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 03ff54cf-f7d4-4606-a531-2ca6d4fa6a54
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: CyberGate
-- name: Cyber Eye RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "03ff54cf-f7d4-4606-a531-2ca6d4fa6a54"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

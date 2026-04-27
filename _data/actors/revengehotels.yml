@@ -1,27 +1,10 @@
-name: RevengeHotels
-aliases:
-- RevengeHotels
-description: RevengeHotels is a targeted cybercrime campaign that has been active
-  since 2015, primarily targeting hotels, hostels, and tourism companies. The threat
-  actor uses remote access Trojan malware to infiltrate hotel front desks and steal
-  credit card data from guests and travelers. The campaign has impacted hotels in
-  multiple countries, including Brazil, Argentina, Chile, and Mexico. The threat actor
-  employs social engineering techniques and sells credentials from infected systems
-  to other cybercriminals for remote access.
-url: /revengehotels
+name: "RevengeHotels"
+aliases: ["RevengeHotels"]
+description: "RevengeHotels is a targeted cybercrime campaign that has been active since 2015, primarily targeting hotels, hostels, and tourism companies. The threat actor uses remote access Trojan malware to infiltrate hotel front desks and steal credit card data from guests and travelers. The campaign has impacted hotels in multiple countries, including Brazil, Argentina, Chile, and Mexico. The threat actor employs social engineering techniques and sells credentials from infected systems to other cybercriminals for remote access."
+url: "/revengehotels"
+malware: ["{\"name\" => \"Trojan.Karagany\"}","{\"name\" => \"RemoteCMD\"}","{\"name\" => \"Trojan.Mebromi\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"Remote Utilities\"}","{\"name\" => \"RemotePC\"}","{\"name\" => \"Revenge-RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 083acee6-6969-4c74-80c2-5d442936aa97
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Trojan.Karagany
-- name: RemoteCMD
-- name: Trojan.Mebromi
-- name: CyberGate
-- name: Cyber Eye RAT
-- name: Remote Utilities
-- name: RemotePC
-- name: Revenge-RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "083acee6-6969-4c74-80c2-5d442936aa97"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,25 +1,10 @@
-name: Handala
-aliases:
-- Handala
-description: Handala is a pro-Palestinian hacktivist group that targets Israeli organizations,
-  employing tactics such as phishing, data theft, extortion, and destructive attacks
-  using custom wiper malware. The group utilizes a multi-stage loading process, including
-  a Delphi-coded second-stage loader and an AutoIT injector, to deliver wiper malware
-  that specifically targets Windows and Linux environments. Their phishing campaigns
-  often exploit major events and critical vulnerabilities, masquerading as legitimate
-  organizations to gain initial access. Handala operates a data leak site to publicize
-  stolen data, although claims of successful attacks are sometimes disputed by targeted
-  organizations.
-url: /handala
+name: "Handala"
+aliases: ["Handala"]
+description: "Handala is a pro-Palestinian hacktivist group that targets Israeli organizations, employing tactics such as phishing, data theft, extortion, and destructive attacks using custom wiper malware. The group utilizes a multi-stage loading process, including a Delphi-coded second-stage loader and an AutoIT injector, to deliver wiper malware that specifically targets Windows and Linux environments. Their phishing campaigns often exploit major events and critical vulnerabilities, masquerading as legitimate organizations to gain initial access. Handala operates a data leak site to publicize stolen data, although claims of successful attacks are sometimes disputed by targeted organizations."
+url: "/handala"
+malware: ["{\"name\" => \"AutoIt backdoor\"}","{\"name\" => \"Wiper\"}","{\"name\" => \"Windows Remote Desktop\"}","{\"name\" => \"Xploit\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 7b14f285-86e9-47da-be1a-16ce566c428b
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: AutoIt backdoor
-- name: Wiper
-- name: Windows Remote Desktop
-- name: Xploit
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "7b14f285-86e9-47da-be1a-16ce566c428b"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

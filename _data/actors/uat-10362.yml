@@ -1,17 +1,9 @@
-name: UAT-10362
-aliases:
-- UAT-10362
-description: UAT-10362 is a threat actor identified by Cisco Talos, conducting spear-phishing
-  campaigns targeting Taiwanese NGOs and suspected universities to deploy the malware
-  "LucidRook." The malware features a multi-language modular design, layered anti-analysis
-  capabilities, and stealth-focused payload handling. UAT-10362's operations rely
-  on compromised or public infrastructure, indicating a mature level of operational
-  tradecraft.
-url: /uat-10362
+name: "UAT-10362"
+aliases: ["UAT-10362"]
+description: "UAT-10362 is a threat actor identified by Cisco Talos, conducting spear-phishing campaigns targeting Taiwanese NGOs and suspected universities to deploy the malware \"LucidRook.\" The malware features a multi-language modular design, layered anti-analysis capabilities, and stealth-focused payload handling. UAT-10362's operations rely on compromised or public infrastructure, indicating a mature level of operational tradecraft."
+url: "/uat-10362"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 367a3c6c-8291-4428-8670-da0f9a59300e
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "367a3c6c-8291-4428-8670-da0f9a59300e"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

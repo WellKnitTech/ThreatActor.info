@@ -1,16 +1,9 @@
-name: SAMBASPIDER
-aliases:
-- SAMBASPIDER
-description: SAMBASPIDER is a threat actor associated to the Mispadu malware. On July
-  24, USDoD allegedly scraped and leaked a 100,000-line Indicator of Compromise list
-  from CrowdStrike, revealing detailed threat intelligence data. The leak, posted
-  on Breach Forums, includes critical insights into the Mispadu malware and SAMBASPIDER
-  threat actor.
-url: /sambaspider
+name: "SAMBASPIDER"
+aliases: ["SAMBASPIDER"]
+description: "SAMBASPIDER is a threat actor associated to the Mispadu malware. On July 24, USDoD allegedly scraped and leaked a 100,000-line Indicator of Compromise list from CrowdStrike, revealing detailed threat intelligence data. The leak, posted on Breach Forums, includes critical insights into the Mispadu malware and SAMBASPIDER threat actor."
+url: "/sambaspider"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 0b71d2db-93fe-49b5-a9fd-7f8c94b86637
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "0b71d2db-93fe-49b5-a9fd-7f8c94b86637"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

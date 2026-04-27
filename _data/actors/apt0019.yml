@@ -1,54 +1,20 @@
-name: Naikon
-aliases:
-- BRONZE GENEVA
-- BRONZE STERLING
-- Camerashy
-- G0013
-- G0019
-- Naikon
-- OVERRIDE PANDA
-- PLA Unit 78020
-description: "Naikon is assessed to be a state-sponsored cyber espionage group attributed\
-  \ to the Chinese People’s Liberation Army’s (PLA) Chengdu Military Region Second\
-  \ Technical Reconnaissance Bureau (Military Unit Cover Designator 78020).(Citation:\
-  \ CameraShy) Active since at least 2010, Naikon has primarily conducted operations\
-  \ against government, military, and civil organizations in Southeast Asia, as well\
-  \ as against international bodies such as the United Nations Development Programme\
-  \ (UNDP) and the Association of Southeast Asian Nations (ASEAN).(Citation: CameraShy)(Citation:\
-  \ Baumgartner Naikon 2015) \n\nWhile Naikon shares some characteristics with APT30,\
-  \ the two groups do not appear to be exact matches.(Citation: Baumgartner Golovkin\
-  \ Naikon 2015)"
-url: /apt0019
-external_id: G0019
-mitre_id: G0019
-external_url: https://attack.mitre.org/groups/G0019
-mitre_url: https://attack.mitre.org/groups/G0019
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "Naikon"
+aliases: ["BRONZE GENEVA","BRONZE STERLING","Camerashy","G0013","G0019","Naikon","OVERRIDE PANDA","PLA Unit 78020"]
+description: "Naikon is assessed to be a state-sponsored cyber espionage group attributed to the Chinese People’s Liberation Army’s (PLA) Chengdu Military Region Second Technical Reconnaissance Bureau (Military Unit Cover Designator 78020).(Citation: CameraShy) Active since at least 2010, Naikon has primarily conducted operations against government, military, and civil organizations in Southeast Asia, as well as against international bodies such as the United Nations Development Programme (UNDP) and the Association of Southeast Asian Nations (ASEAN).(Citation: CameraShy)(Citation: Baumgartner Naikon 2015) \n\nWhile Naikon shares some characteristics with APT30, the two groups do not appear to be exact matches.(Citation: Baumgartner Golovkin Naikon 2015)"
+url: "/apt0019"
+country: "China"
+sector_focus: ["Government","Private sector"]
+targeted_victims: ["India","Saudi Arabia","Vietnam","Myanmar","Singapore","Thailand","Malaysia","Cambodia","China","Philippines","South Korea","United States","Indonesia","Laos"]
+incident_type: "Espionage"
+risk_level: "High"
+external_id: "G0019"
+external_url: "https://attack.mitre.org/groups/G0019"
+mitre_id: "G0019"
+mitre_url: "https://attack.mitre.org/groups/G0019"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G0019
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: High
-sector_focus:
-- Government
-- Private sector
-country: China
-targeted_victims:
-- India
-- Saudi Arabia
-- Vietnam
-- Myanmar
-- Singapore
-- Thailand
-- Malaysia
-- Cambodia
-- China
-- Philippines
-- South Korea
-- United States
-- Indonesia
-- Laos
-incident_type: Espionage
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0019"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

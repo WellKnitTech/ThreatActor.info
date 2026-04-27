@@ -1,22 +1,11 @@
-name: Shahid Hemmat
-aliases:
-- Shahid Hemmat
-description: Shahid Hemmat is an IRGC-CEC affiliated hacking group linked to cyberattacks
-  targeting U.S. critical infrastructure, including the defense industry and international
-  transportation sectors. The group has been implicated in the hack of a booster station
-  at the Municipal Water Authority in Aliquippa, Pennsylvania, which disrupted drinking
-  water supply. Key figures within Shahid Hemmat include Manouchehr Akbari, Amir Hossein
-  Hoseini, Mohammad Hossein Moradi, and Mohammad Reza Rafatnejad. The U.S. government
-  is offering a $10 million reward for information on these individuals.
-url: /shahid-hemmat
-country: Iran
+name: "Shahid Hemmat"
+aliases: ["Shahid Hemmat"]
+description: "Shahid Hemmat is an IRGC-CEC affiliated hacking group linked to cyberattacks targeting U.S. critical infrastructure, including the defense industry and international transportation sectors. The group has been implicated in the hack of a booster station at the Municipal Water Authority in Aliquippa, Pennsylvania, which disrupted drinking water supply. Key figures within Shahid Hemmat include Manouchehr Akbari, Amir Hossein Hoseini, Mohammad Hossein Moradi, and Mohammad Reza Rafatnejad. The U.S. government is offering a $10 million reward for information on these individuals."
+url: "/shahid-hemmat"
+country: "Iran"
+malware: ["{\"name\" => \"Hacking Team UEFI Rootkit\"}","{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: ae17fcf4-1335-4dec-9976-e26d2e5f7290
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: Hacking Team UEFI Rootkit
-- name: CyberGate
-- name: Cyber Eye RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "ae17fcf4-1335-4dec-9976-e26d2e5f7290"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

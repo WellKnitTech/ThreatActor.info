@@ -1,15 +1,9 @@
-name: CiberInteligenciaSV
-aliases:
-- CiberInteligenciaSV
-description: CiberInteligenciaSV is a threat actor that leaked 5.1 million Salvadoran
-  records on Breach Forums. They have also compromised El Salvador's state Bitcoin
-  wallet, Chivo, leaking its source code and VPN credentials. The group aims to obscure
-  their involvement by associating with the Guacamaya group and its proxies.
-url: /ciberinteligenciasv
+name: "CiberInteligenciaSV"
+aliases: ["CiberInteligenciaSV"]
+description: "CiberInteligenciaSV is a threat actor that leaked 5.1 million Salvadoran records on Breach Forums. They have also compromised El Salvador's state Bitcoin wallet, Chivo, leaking its source code and VPN credentials. The group aims to obscure their involvement by associating with the Guacamaya group and its proxies."
+url: "/ciberinteligenciasv"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 0558bc64-21d9-43e4-8b12-18172d9b5c7d
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "0558bc64-21d9-43e4-8b12-18172d9b5c7d"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

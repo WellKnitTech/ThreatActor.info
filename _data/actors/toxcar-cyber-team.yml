@@ -1,22 +1,10 @@
-name: TOXCAR CYBER TEAM
-aliases:
-- TOXCAR CYBER TEAM
-description: The Toxcar Cyber Team has claimed responsibility for a data leak involving
-  Mastercard, asserting that the attack targeted the U.S. site and providing screenshots
-  as purported evidence. They have also been linked to the sale of an undetectable
-  ransomware designed to bypass major antivirus software. Additionally, the group
-  has shared the source code of Elusive Stealer, a data theft malware. Their activities
-  highlight a focus on data breaches and malware distribution within the cyber threat
-  landscape.
-url: /toxcar-cyber-team
+name: "TOXCAR CYBER TEAM"
+aliases: ["TOXCAR CYBER TEAM"]
+description: "The Toxcar Cyber Team has claimed responsibility for a data leak involving Mastercard, asserting that the attack targeted the U.S. site and providing screenshots as purported evidence. They have also been linked to the sale of an undetectable ransomware designed to bypass major antivirus software. Additionally, the group has shared the source code of Elusive Stealer, a data theft malware. Their activities highlight a focus on data breaches and malware distribution within the cyber threat landscape."
+url: "/toxcar-cyber-team"
+malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"Virus RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 8a67a86f-48d2-4dd0-824c-22fcfa9bf09d
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: CyberGate
-- name: Cyber Eye RAT
-- name: Virus RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "8a67a86f-48d2-4dd0-824c-22fcfa9bf09d"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

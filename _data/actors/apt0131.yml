@@ -1,48 +1,19 @@
-name: Tonto Team
-aliases:
-- BRONZE HUNTLEY
-- CactusPete
-- COPPER
-- Earth Akhlut
-- G0131
-- Karma Panda
-- KARMA PANDA
-- PLA Unit 65017
-- Red Beifang
-- TAG-74
-- Tonto Team
-description: 'Tonto Team is a suspected Chinese state-sponsored cyber espionage threat
-  group that has primarily targeted South Korea, Japan, Taiwan, and the United States
-  since at least 2009; by 2020 they expanded operations to include other Asian as
-  well as Eastern European countries. Tonto Team has targeted government, military,
-  energy, mining, financial, education, healthcare, and technology organizations,
-  including through the Heartbeat Campaign (2009-2012) and Operation Bitter Biscuit
-  (2017).(Citation: Kaspersky CactusPete Aug 2020)(Citation: ESET Exchange Mar 2021)(Citation:
-  FireEye Chinese Espionage October 2019)(Citation: ARS Technica China Hack SK April
-  2017)(Citation: Trend Micro HeartBeat Campaign January 2013)(Citation: Talos Bisonal
-  10 Years March 2020)'
-url: /apt0131
-external_id: G0131
-mitre_id: G0131
-external_url: https://attack.mitre.org/groups/G0131
-mitre_url: https://attack.mitre.org/groups/G0131
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "Tonto Team"
+aliases: ["BRONZE HUNTLEY","CactusPete","COPPER","Earth Akhlut","G0131","Karma Panda","KARMA PANDA","PLA Unit 65017","Red Beifang","TAG-74","Tonto Team"]
+description: "Tonto Team is a suspected Chinese state-sponsored cyber espionage threat group that has primarily targeted South Korea, Japan, Taiwan, and the United States since at least 2009; by 2020 they expanded operations to include other Asian as well as Eastern European countries. Tonto Team has targeted government, military, energy, mining, financial, education, healthcare, and technology organizations, including through the Heartbeat Campaign (2009-2012) and Operation Bitter Biscuit (2017).(Citation: Kaspersky CactusPete Aug 2020)(Citation: ESET Exchange Mar 2021)(Citation: FireEye Chinese Espionage October 2019)(Citation: ARS Technica China Hack SK April 2017)(Citation: Trend Micro HeartBeat Campaign January 2013)(Citation: Talos Bisonal 10 Years March 2020)"
+url: "/apt0131"
+country: "China"
+sector_focus: ["Military","Government","Private sector"]
+targeted_victims: ["Eastern Europe","Japan","South Korea","Taiwan","United States"]
+risk_level: "High"
+external_id: "G0131"
+external_url: "https://attack.mitre.org/groups/G0131"
+mitre_id: "G0131"
+mitre_url: "https://attack.mitre.org/groups/G0131"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G0131
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: High
-sector_focus:
-- Military
-- Government
-- Private sector
-country: China
-targeted_victims:
-- Eastern Europe
-- Japan
-- South Korea
-- Taiwan
-- United States
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0131"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

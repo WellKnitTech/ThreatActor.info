@@ -1,38 +1,15 @@
-name: menuPass
-aliases:
-- APT10
-- BRONZE RIVERSIDE
-- Cicada
-- CVNX
-- HOGFISH
-- menuPass
-- POTASSIUM
-- Red Apollo
-- Stone Panda
-description: 'menuPass is a threat group that has been active since at least 2006.
-  Individual members of menuPass are known to have acted in association with the Chinese
-  Ministry of State Security''s (MSS) Tianjin State Security Bureau and worked for
-  the Huaying Haitai Science and Technology Development Company.(Citation: DOJ APT10
-  Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)
-
-
-  menuPass has targeted healthcare, defense, aerospace, finance, maritime, biotechnology,
-  energy, and government sectors globally, with an emphasis on Japanese organizations.
-  In 2016 and 2017, the group is known to have targeted managed IT service providers
-  (MSPs), manufacturing and mining companies, and a university.(Citation: Palo Alto
-  menuPass Feb 2017)(Citation: Crowdstrike CrowdCast Oct 2013)(Citation: FireEye Poison
-  Ivy)(Citation: PWC Cloud Hopper April 2017)(Citation: FireEye APT10 April 2017)(Citation:
-  DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)'
-url: /apt0045
-external_id: G0045
-mitre_id: G0045
-external_url: https://attack.mitre.org/groups/G0045
-mitre_url: https://attack.mitre.org/groups/G0045
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "menuPass"
+aliases: ["APT10","BRONZE RIVERSIDE","Cicada","CVNX","HOGFISH","menuPass","POTASSIUM","Red Apollo","Stone Panda"]
+description: "menuPass is a threat group that has been active since at least 2006. Individual members of menuPass are known to have acted in association with the Chinese Ministry of State Security's (MSS) Tianjin State Security Bureau and worked for the Huaying Haitai Science and Technology Development Company.(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)\n\nmenuPass has targeted healthcare, defense, aerospace, finance, maritime, biotechnology, energy, and government sectors globally, with an emphasis on Japanese organizations. In 2016 and 2017, the group is known to have targeted managed IT service providers (MSPs), manufacturing and mining companies, and a university.(Citation: Palo Alto menuPass Feb 2017)(Citation: Crowdstrike CrowdCast Oct 2013)(Citation: FireEye Poison Ivy)(Citation: PWC Cloud Hopper April 2017)(Citation: FireEye APT10 April 2017)(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)"
+url: "/apt0045"
+external_id: "G0045"
+external_url: "https://attack.mitre.org/groups/G0045"
+mitre_id: "G0045"
+mitre_url: "https://attack.mitre.org/groups/G0045"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T05:24:31Z'
-    source_record_id: G0045
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0045"
+    source_retrieved_at: "2026-04-26T05:24:31Z"
+source: "MITRE ATT&CK"

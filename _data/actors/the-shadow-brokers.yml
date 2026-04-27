@@ -1,26 +1,10 @@
-name: The Shadow Brokers
-aliases:
-- The ShadowBrokers
-- TSB
-- Shadow Brokers
-- ShadowBrokers
-- The Shadow Brokers
-description: The Shadow Brokers (TSB) is a hacker group who first appeared in the
-  summer of 2016. They published several leaks containing hacking tools from the National
-  Security Agency (NSA, including several zero-day exploits.[1] Specifically, these
-  exploits and vulnerabilities targeted enterprise firewalls, antivirus software,
-  and Microsoft products. The Shadow Brokers originally attributed the leaks to the
-  Equation Group threat actor, who have been tied to the NSA's Tailored Access Operations
-  unit.
-url: /the-shadow-brokers
+name: "The Shadow Brokers"
+aliases: ["The ShadowBrokers","TSB","Shadow Brokers","ShadowBrokers","The Shadow Brokers"]
+description: "The Shadow Brokers (TSB) is a hacker group who first appeared in the summer of 2016. They published several leaks containing hacking tools from the National Security Agency (NSA, including several zero-day exploits.[1] Specifically, these exploits and vulnerabilities targeted enterprise firewalls, antivirus software, and Microsoft products. The Shadow Brokers originally attributed the leaks to the Equation Group threat actor, who have been tied to the NSA's Tailored Access Operations unit."
+url: "/the-shadow-brokers"
+malware: ["{\"name\" => \"Hacking Team UEFI Rootkit\"}","{\"name\" => \"Virus RAT\"}","{\"name\" => \"Xploit\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: d5e90854-d5c9-11e8-98b9-1f98eb80d30a
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Hacking Team UEFI Rootkit
-- name: Virus RAT
-- name: Xploit
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "d5e90854-d5c9-11e8-98b9-1f98eb80d30a"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

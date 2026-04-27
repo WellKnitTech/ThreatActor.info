@@ -1,20 +1,10 @@
-name: VIKING SPIDER
-aliases:
-- VIKING SPIDER
-description: VIKING SPIDER is the criminal group behind the development and distribution
-  of Ragnar Locker ransomware. While public reporting indicates the group began threatening
-  to leak victim data in February 2020, a DLS was not observed until April 2020. The
-  DLS is hosted on Tor, and similar to other actors, proof of data exfiltration is
-  provided before the stolen data is fully leaked. It was also noted that On Dec.
-  22, 2020, a new post made to MountLocker ransomware’s Tor-hosted DLS was titled
-  'Cartel News' and included details of a victim of VIKING SPIDER’s Ragnar Locker
-url: /viking-spider
+name: "VIKING SPIDER"
+aliases: ["VIKING SPIDER"]
+description: "VIKING SPIDER is the criminal group behind the development and distribution of Ragnar Locker ransomware. While public reporting indicates the group began threatening to leak victim data in February 2020, a DLS was not observed until April 2020. The DLS is hosted on Tor, and similar to other actors, proof of data exfiltration is provided before the stolen data is fully leaked. It was also noted that On Dec. 22, 2020, a new post made to MountLocker ransomware’s Tor-hosted DLS was titled 'Cartel News' and included details of a victim of VIKING SPIDER’s Ragnar Locker"
+url: "/viking-spider"
+malware: ["{\"name\" => \"Ragnatela\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: ffc02459-3d94-4558-bff0-2e7f0bbf70c6
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Ragnatela
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "ffc02459-3d94-4558-bff0-2e7f0bbf70c6"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

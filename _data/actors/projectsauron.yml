@@ -1,45 +1,15 @@
-name: ProjectSauron
-aliases:
-- Strider
-- Sauron
-- Project Sauron
-- G0041
-- ProjectSauron
-description: ProjectSauron is the name for a top level modular cyber-espionage platform,
-  designed to enable and manage long-term campaigns through stealthy survival mechanisms
-  coupled with multiple exfiltration methods.  Technical details show how attackers
-  learned from other extremely advanced actors in order to avoid repeating their mistakes.
-  As such, all artifacts are customized per given target, reducing their value as
-  indicators of compromise for any other victim.  Usually APT campaigns have a geographical
-  nexus, aimed at extracting information within a specific region or from a given
-  industry. That usually results in several infections in countries within that region,
-  or in the targeted industry around the world. Interestingly, ProjectSauron seems
-  to be dedicated to just a couple of countries, focused on collecting high value
-  intelligence by compromising almost all key entities it could possibly reach within
-  the target area.  The name, ProjectSauron reflects the fact that the code authors
-  refer to ‘Sauron’ in the Lua scripts.
-url: /projectsauron
-country: United States
-risk_level: High
-sector_focus:
-- Intelligence
-- Government
-- Military
+name: "ProjectSauron"
+aliases: ["Strider","Sauron","Project Sauron","G0041","ProjectSauron"]
+description: "ProjectSauron is the name for a top level modular cyber-espionage platform, designed to enable and manage long-term campaigns through stealthy survival mechanisms coupled with multiple exfiltration methods.  Technical details show how attackers learned from other extremely advanced actors in order to avoid repeating their mistakes. As such, all artifacts are customized per given target, reducing their value as indicators of compromise for any other victim.  Usually APT campaigns have a geographical nexus, aimed at extracting information within a specific region or from a given industry. That usually results in several infections in countries within that region, or in the targeted industry around the world. Interestingly, ProjectSauron seems to be dedicated to just a couple of countries, focused on collecting high value intelligence by compromising almost all key entities it could possibly reach within the target area.  The name, ProjectSauron reflects the fact that the code authors refer to ‘Sauron’ in the Lua scripts."
+url: "/projectsauron"
+country: "United States"
+sector_focus: ["Intelligence","Government","Military"]
+targeted_victims: ["Russia","Iran","Belgium","China","Sweden","Rwanda"]
+incident_type: "Espionage"
+risk_level: "High"
+malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"XtremeRAT\"}","{\"name\" => \"Cyber Eye RAT\"}","{\"name\" => \"GraphicBooting\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: f3179cfb-9c86-4980-bd6b-e4fa74adaaa7
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-targeted_victims:
-- Russia
-- Iran
-- Belgium
-- China
-- Sweden
-- Rwanda
-incident_type: Espionage
-malware:
-- name: CyberGate
-- name: XtremeRAT
-- name: Cyber Eye RAT
-- name: GraphicBooting
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "f3179cfb-9c86-4980-bd6b-e4fa74adaaa7"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

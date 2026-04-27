@@ -1,18 +1,9 @@
-name: Altoufan Team
-aliases:
-- Altoufan Team
-description: ALTOUFAN TEAM is a politically motivated hacktivist group with anti-Zionism,
-  anti-monarchy, and pro-14-February movement sentiments. They have targeted government
-  agencies and organizations in Bahrain and Israel, claiming to support political
-  causes in the region. The group has employed techniques such as credential theft
-  to compromise systems, as demonstrated by their attack on Bahrain's Social Insurance
-  Organization. ALTOUFAN maintains a presence on social media platforms to disseminate
-  their messages and showcase their activities.
-url: /altoufan-team
+name: "Altoufan Team"
+aliases: ["Altoufan Team"]
+description: "ALTOUFAN TEAM is a politically motivated hacktivist group with anti-Zionism, anti-monarchy, and pro-14-February movement sentiments. They have targeted government agencies and organizations in Bahrain and Israel, claiming to support political causes in the region. The group has employed techniques such as credential theft to compromise systems, as demonstrated by their attack on Bahrain's Social Insurance Organization. ALTOUFAN maintains a presence on social media platforms to disseminate their messages and showcase their activities."
+url: "/altoufan-team"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 42d50dda-75e1-4364-8c83-37e2765bb3db
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "42d50dda-75e1-4364-8c83-37e2765bb3db"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

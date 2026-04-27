@@ -1,30 +1,15 @@
-name: Threat Group-3390
-aliases:
-- APT27
-- BRONZE UNION
-- Earth Smilodon
-- Emissary Panda
-- Iron Tiger
-- Linen Typhoon
-- LuckyMouse
-- TG-3390
-- Threat Group-3390
-description: 'Threat Group-3390 is a Chinese threat group that has extensively used
-  strategic Web compromises to target victims.(Citation: Dell TG-3390) The group has
-  been active since at least 2010 and has targeted organizations in the aerospace,
-  government, defense, technology, energy, manufacturing and gambling/betting sectors.(Citation:
-  SecureWorks BRONZE UNION June 2017)(Citation: Securelist LuckyMouse June 2018)(Citation:
-  Trend Micro DRBControl February 2020)'
-url: /apt0027
-external_id: G0027
-mitre_id: G0027
-external_url: https://attack.mitre.org/groups/G0027
-mitre_url: https://attack.mitre.org/groups/G0027
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "Threat Group-3390"
+aliases: ["APT27","BRONZE UNION","Earth Smilodon","Emissary Panda","Iron Tiger","Linen Typhoon","LuckyMouse","TG-3390","Threat Group-3390"]
+description: "Threat Group-3390 is a Chinese threat group that has extensively used strategic Web compromises to target victims.(Citation: Dell TG-3390) The group has been active since at least 2010 and has targeted organizations in the aerospace, government, defense, technology, energy, manufacturing and gambling/betting sectors.(Citation: SecureWorks BRONZE UNION June 2017)(Citation: Securelist LuckyMouse June 2018)(Citation: Trend Micro DRBControl February 2020)"
+url: "/apt0027"
+external_id: "G0027"
+external_url: "https://attack.mitre.org/groups/G0027"
+mitre_id: "G0027"
+mitre_url: "https://attack.mitre.org/groups/G0027"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T05:24:31Z'
-    source_record_id: G0027
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0027"
+    source_retrieved_at: "2026-04-26T05:24:31Z"
+source: "MITRE ATT&CK"

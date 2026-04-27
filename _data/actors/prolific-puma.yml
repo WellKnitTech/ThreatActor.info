@@ -1,15 +1,9 @@
-name: Prolific Puma
-aliases:
-- Prolific Puma
-description: Prolific Puma provides an underground link shortening service to criminals.
-  Infoblox states that during analysis, no legitimate content was observed being served
-  through their shortener. For operation they use a registered domain generation algorithm
-  (RDGA), based upon which they registered between 35k-75k domain names.
-url: /prolific-puma
+name: "Prolific Puma"
+aliases: ["Prolific Puma"]
+description: "Prolific Puma provides an underground link shortening service to criminals. Infoblox states that during analysis, no legitimate content was observed being served through their shortener. For operation they use a registered domain generation algorithm (RDGA), based upon which they registered between 35k-75k domain names."
+url: "/prolific-puma"
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: c8782e46-447c-4c6e-90c0-82f3bf49d64b
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "c8782e46-447c-4c6e-90c0-82f3bf49d64b"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

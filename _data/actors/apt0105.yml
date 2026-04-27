@@ -1,24 +1,16 @@
-name: DarkVishnya
-aliases:
-- DarkVishnya
-description: 'DarkVishnya is a financially motivated threat actor targeting financial
-  institutions in Eastern Europe. In 2017-2018 the group attacked at least 8 banks
-  in this region.(Citation: Securelist DarkVishnya Dec 2018)'
-url: /apt0105
-external_id: G0105
-mitre_id: G0105
-external_url: https://attack.mitre.org/groups/G0105
-mitre_url: https://attack.mitre.org/groups/G0105
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "DarkVishnya"
+aliases: ["DarkVishnya"]
+description: "DarkVishnya is a financially motivated threat actor targeting financial institutions in Eastern Europe. In 2017-2018 the group attacked at least 8 banks in this region.(Citation: Securelist DarkVishnya Dec 2018)"
+url: "/apt0105"
+external_id: "G0105"
+external_url: "https://attack.mitre.org/groups/G0105"
+mitre_id: "G0105"
+mitre_url: "https://attack.mitre.org/groups/G0105"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["{\"name\" => \"FLASHFLOOD\"}","{\"name\" => \"MINI-MO\"}"]
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-    source_record_id: G0105
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-risk_level: null
-country: null
-malware:
-- name: FLASHFLOOD
-- name: MINI-MO
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0105"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

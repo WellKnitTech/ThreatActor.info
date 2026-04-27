@@ -1,35 +1,15 @@
-name: Ember Bear
-aliases:
-- Ember Bear
-- UNC2589
-- Bleeding Bear
-- DEV-0586
-- Cadet Blizzard
-- Frozenvista
-- UAC-0056
-description: 'Ember Bear is a Russian state-sponsored cyber espionage group that has
-  been active since at least 2020, linked to Russia''s General Staff Main Intelligence
-  Directorate (GRU) 161st Specialist Training Center (Unit 29155).(Citation: CISA
-  GRU29155 2024) Ember Bear has primarily focused operations against Ukrainian government
-  and telecommunication entities, but has also operated against critical infrastructure
-  entities in Europe and the Americas.(Citation: Cadet Blizzard emerges as novel threat
-  actor) Ember Bear conducted the WhisperGate destructive wiper attacks against Ukraine
-  in early 2022.(Citation: CrowdStrike Ember Bear Profile March 2022)(Citation: Mandiant
-  UNC2589 March 2022)(Citation: CISA GRU29155 2024) There is some confusion as to
-  whether Ember Bear overlaps with another Russian-linked entity referred to as Saint
-  Bear. At present available evidence strongly suggests these are distinct activities
-  with different behavioral profiles.(Citation: Cadet Blizzard emerges as novel threat
-  actor)(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )'
-url: /apt1003
-external_id: G1003
-mitre_id: G1003
-external_url: https://attack.mitre.org/groups/G1003
-mitre_url: https://attack.mitre.org/groups/G1003
-source: MITRE ATT&CK
-source_attribution: © The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation.
+name: "Ember Bear"
+aliases: ["Ember Bear","UNC2589","Bleeding Bear","DEV-0586","Cadet Blizzard","Frozenvista","UAC-0056"]
+description: "Ember Bear is a Russian state-sponsored cyber espionage group that has been active since at least 2020, linked to Russia's General Staff Main Intelligence Directorate (GRU) 161st Specialist Training Center (Unit 29155).(Citation: CISA GRU29155 2024) Ember Bear has primarily focused operations against Ukrainian government and telecommunication entities, but has also operated against critical infrastructure entities in Europe and the Americas.(Citation: Cadet Blizzard emerges as novel threat actor) Ember Bear conducted the WhisperGate destructive wiper attacks against Ukraine in early 2022.(Citation: CrowdStrike Ember Bear Profile March 2022)(Citation: Mandiant UNC2589 March 2022)(Citation: CISA GRU29155 2024) There is some confusion as to whether Ember Bear overlaps with another Russian-linked entity referred to as Saint Bear. At present available evidence strongly suggests these are distinct activities with different behavioral profiles.(Citation: Cadet Blizzard emerges as novel threat actor)(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )"
+url: "/apt1003"
+external_id: "G1003"
+external_url: "https://attack.mitre.org/groups/G1003"
+mitre_id: "G1003"
+mitre_url: "https://attack.mitre.org/groups/G1003"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   mitre:
-    source_retrieved_at: '2026-04-26T05:01:37Z'
-    source_record_id: G1003
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G1003"
+    source_retrieved_at: "2026-04-26T05:01:37Z"
+source: "MITRE ATT&CK"

@@ -1,18 +1,10 @@
-name: GhostSec
-aliases:
-- Ghost Security
-- GhostSec
-description: GhostSec is a hacktivist group that emerged as an offshoot of Anonymous.
-  They primarily focused on counterterrorism efforts and monitoring online activities
-  associated with terrorism. They gained prominence following the 2015 Charlie Hebdo
-  shooting in Paris and the rise of ISIS.
-url: /ghostsec
+name: "GhostSec"
+aliases: ["Ghost Security","GhostSec"]
+description: "GhostSec is a hacktivist group that emerged as an offshoot of Anonymous. They primarily focused on counterterrorism efforts and monitoring online activities associated with terrorism. They gained prominence following the 2015 Charlie Hebdo shooting in Paris and the rise of ISIS."
+url: "/ghostsec"
+malware: ["{\"name\" => \"Ghost\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: a1315451-326f-4185-8d71-80f9243f395f
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: Ghost
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "a1315451-326f-4185-8d71-80f9243f395f"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,23 +1,10 @@
-name: UNC5174
-aliases:
-- Uteus
-- UNC5174
-description: UNC5174, a Chinese state-sponsored threat actor, has been identified
-  by Mandiant for exploiting critical vulnerabilities in F5 BIG-IP and ScreenConnect.
-  They have been linked to targeting research and education institutions, businesses,
-  charities, NGOs, and government organizations in Southeast Asia, the U.S., and the
-  UK. UNC5174 is believed to have connections to China's Ministry of State Security
-  and has been observed using custom tooling and the SUPERSHELL framework in their
-  operations. The actor has shown indications of transitioning from hacktivist collectives
-  to working as a contractor for Chinese intelligence agencies.
-url: /unc5174
+name: "UNC5174"
+aliases: ["Uteus","UNC5174"]
+description: "UNC5174, a Chinese state-sponsored threat actor, has been identified by Mandiant for exploiting critical vulnerabilities in F5 BIG-IP and ScreenConnect. They have been linked to targeting research and education institutions, businesses, charities, NGOs, and government organizations in Southeast Asia, the U.S., and the UK. UNC5174 is believed to have connections to China's Ministry of State Security and has been observed using custom tooling and the SUPERSHELL framework in their operations. The actor has shown indications of transitioning from hacktivist collectives to working as a contractor for Chinese intelligence agencies."
+url: "/unc5174"
+malware: ["{\"name\" => \"China Chopper\"}","{\"name\" => \"Xploit\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 0b158297-ee47-48ef-9346-0cb0f9cb348a
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-country: null
-malware:
-- name: China Chopper
-- name: Xploit
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "0b158297-ee47-48ef-9346-0cb0f9cb348a"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

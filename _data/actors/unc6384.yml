@@ -1,26 +1,11 @@
-name: UNC6384
-aliases:
-- Vertigo Panda
-- UNC6384
-description: UNC6384 (also tracked as Vertigo Panda) is a Chinese-affiliated APT that
-  conducts targeted espionage campaigns primarily against diplomatic entities in Southeast
-  Asia and Europe, specifically Belgium and Hungary. The group exploits the ZDI-CAN-25373
-  Windows shortcut vulnerability to gain initial code execution via malicious .LNK
-  files, deploying the PlugX RAT through sophisticated delivery mechanisms, including
-  DLL side-loading and adversary-in-the-middle attacks. Their operations involve social
-  engineering tactics, such as spear-phishing emails themed around diplomatic events,
-  to entice victims into executing malicious payloads. UNC6384's use of valid code
-  signing and HTTPS hosting enhances their evasion of detection and increases the
-  likelihood of user interaction.
-url: /unc6384
-country: China
+name: "UNC6384"
+aliases: ["Vertigo Panda","UNC6384"]
+description: "UNC6384 (also tracked as Vertigo Panda) is a Chinese-affiliated APT that conducts targeted espionage campaigns primarily against diplomatic entities in Southeast Asia and Europe, specifically Belgium and Hungary. The group exploits the ZDI-CAN-25373 Windows shortcut vulnerability to gain initial code execution via malicious .LNK files, deploying the PlugX RAT through sophisticated delivery mechanisms, including DLL side-loading and adversary-in-the-middle attacks. Their operations involve social engineering tactics, such as spear-phishing emails themed around diplomatic events, to entice victims into executing malicious payloads. UNC6384's use of valid code signing and HTTPS hosting enhances their evasion of detection and increases the likelihood of user interaction."
+url: "/unc6384"
+country: "China"
+malware: ["{\"name\" => \"PlugX\"}","{\"name\" => \"Windows Remote Desktop\"}","{\"name\" => \"Xploit\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: a3e4a57e-4b50-4bca-9282-3307e92e5539
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: PlugX
-- name: Windows Remote Desktop
-- name: Xploit
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "a3e4a57e-4b50-4bca-9282-3307e92e5539"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

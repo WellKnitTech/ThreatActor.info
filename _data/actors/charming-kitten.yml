@@ -1,38 +1,15 @@
-name: Charming Kitten
-aliases:
-- Newscaster
-- Parastoo
-- iKittens
-- Group 83
-- NewsBeef
-- G0058
-- CharmingCypress
-- Mint Sandstorm
-- Charming Kitten
-description: Charming Kitten (aka Parastoo, aka Newscaster) is an group with a suspected
-  nexus to Iran that targets organizations involved in government, defense technology,
-  military, and diplomacy sectors.
-url: /charming-kitten
-country: Iran
-risk_level: High
-sector_focus:
-- Defense
-- Diplomacy
-- Military
-- Technology
-- Government, Administration
-- Government
+name: "Charming Kitten"
+aliases: ["Newscaster","Parastoo","iKittens","Group 83","NewsBeef","G0058","CharmingCypress","Mint Sandstorm","Charming Kitten"]
+description: "Charming Kitten (aka Parastoo, aka Newscaster) is an group with a suspected nexus to Iran that targets organizations involved in government, defense technology, military, and diplomacy sectors."
+url: "/charming-kitten"
+country: "Iran"
+sector_focus: ["Defense","Diplomacy","Military","Technology","Government, Administration","Government"]
+targeted_victims: ["U.S. government/defense sector websites","Saudi Arabia","Israel","Iraq","United Kingdom"]
+incident_type: "Espionage"
+risk_level: "High"
+malware: ["{\"name\" => \"Parasite-HTTP-RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: f98bac6b-12fd-4cad-be84-c84666932232
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-targeted_victims:
-- U.S. government/defense sector websites
-- Saudi Arabia
-- Israel
-- Iraq
-- United Kingdom
-incident_type: Espionage
-malware:
-- name: Parasite-HTTP-RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "f98bac6b-12fd-4cad-be84-c84666932232"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,21 +1,11 @@
-name: Cyber Toufan
-aliases:
-- Cyber Toufan
-description: Cyber Toufan is a threat actor group that has gained prominence for its
-  cyberattacks targeting Israeli organizations. The group's tactics suggest potential
-  nation-state backing, possibly from Iran. They have been involved in hack-and-leak
-  operations, data breaches, and data destruction, impacting over 100 organizations.
-  Cyber Toufan's activities align with geopolitical tensions in the Middle East and
-  their attacks are characterized by a combination of technical breaches and psychological
-  warfare.
-url: /cyber-toufan
-country: Iran
+name: "Cyber Toufan"
+aliases: ["Cyber Toufan"]
+description: "Cyber Toufan is a threat actor group that has gained prominence for its cyberattacks targeting Israeli organizations. The group's tactics suggest potential nation-state backing, possibly from Iran. They have been involved in hack-and-leak operations, data breaches, and data destruction, impacting over 100 organizations. Cyber Toufan's activities align with geopolitical tensions in the Middle East and their attacks are characterized by a combination of technical breaches and psychological warfare."
+url: "/cyber-toufan"
+country: "Iran"
+malware: ["{\"name\" => \"CyberGate\"}","{\"name\" => \"Cyber Eye RAT\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 3decddc7-e554-48d8-8304-38b243fc9ccb
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-risk_level: null
-malware:
-- name: CyberGate
-- name: Cyber Eye RAT
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "3decddc7-e554-48d8-8304-38b243fc9ccb"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

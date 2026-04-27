@@ -1,41 +1,15 @@
-name: Blackatom
-aliases:
-- Blackatom
-description: 'Recent campaigns suggest Hamas-linked actors may be advancing their
-
-  TTPs to include intricate social engineering lures specially crafted to
-
-  appeal to a niche group of high value targets. In September 2023, a Palestine-based
-  group likely linked to Hamas targeted Israeli software engineers
-
-  using an elaborate social engineering ruse that ultimately installed malware
-
-  and stole cookies. The attackers, which Google’s Threat Analysis Group (TAG) tracks
-  as BLACKATOM, posed as employees of legitimate companies
-
-  and reached out via LinkedIn to invite targets to apply for software development
-  freelance opportunities. Targets included software engineers in
-
-  the Israeli military, as well as Israel’s aerospace and defense industry'
-url: /blackatom
-country: Palestine
-risk_level: High
-sector_focus:
-- Military
-- Defense
-- Transportation
+name: "Blackatom"
+aliases: ["Blackatom"]
+description: "Recent campaigns suggest Hamas-linked actors may be advancing their\nTTPs to include intricate social engineering lures specially crafted to\nappeal to a niche group of high value targets. In September 2023, a Palestine-based group likely linked to Hamas targeted Israeli software engineers\nusing an elaborate social engineering ruse that ultimately installed malware\nand stole cookies. The attackers, which Google’s Threat Analysis Group (TAG) tracks as BLACKATOM, posed as employees of legitimate companies\nand reached out via LinkedIn to invite targets to apply for software development freelance opportunities. Targets included software engineers in\nthe Israeli military, as well as Israel’s aerospace and defense industry"
+url: "/blackatom"
+country: "Palestine"
+sector_focus: ["Military","Defense","Transportation"]
+targeted_victims: ["Israel"]
+incident_type: "Espionage"
+risk_level: "High"
+malware: ["{\"name\" => \"SPACESHIP\"}","{\"name\" => \"BlackEnergy\"}","{\"name\" => \"BLACKCOFFEE\"}","{\"name\" => \"Blackshades\"}","{\"name\" => \"BlackNix\"}","{\"name\" => \"BlackHole\"}"]
 provenance:
   misp_galaxy:
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-    source_record_id: 264687b8-82f4-43b5-b7bb-dc3e0b9246bc
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-targeted_victims:
-- Israel
-incident_type: Espionage
-malware:
-- name: SPACESHIP
-- name: BlackEnergy
-- name: BLACKCOFFEE
-- name: Blackshades
-- name: BlackNix
-- name: BlackHole
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "264687b8-82f4-43b5-b7bb-dc3e0b9246bc"
+    source_retrieved_at: "2026-04-26T05:47:15Z"
