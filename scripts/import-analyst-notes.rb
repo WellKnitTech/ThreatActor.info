@@ -55,6 +55,9 @@ class AnalystNotesImporter
     when 'init'
       parse_init_options
       initialize_actor_notes
+    when 'new'
+      parse_new_actor_options
+      create_actor_from_notes
     when 'plan'
       parse_import_options
       load_overrides
@@ -76,11 +79,13 @@ class AnalystNotesImporter
     <<~TEXT
       Usage:
         ruby scripts/import-analyst-notes.rb init --actor ACTOR_NAME
+        ruby scripts/import-analyst-notes.rb new --actor ACTOR_NAME [options]
         ruby scripts/import-analyst-notes.rb plan [options]
         ruby scripts/import-analyst-notes.rb import [options]
 
       Commands:
         init  - Create analyst notes file for a specific actor
+        new   - Create a new actor from analyst notes (if actor doesn't exist)
         plan  - Preview analyst notes that would be applied
         import - Apply analyst notes to actors
 
@@ -90,6 +95,7 @@ class AnalystNotesImporter
 
       Notes:
         - Each threat actor has their own notes file in #{DEFAULT_NOTES_DIR}/
+        - Use 'new' to create entirely new actors from analyst notes
         - Structured notes are split across appropriate TA page fields
         - Plain text notes are added to analyst_notes field
     TEXT
@@ -107,6 +113,96 @@ class AnalystNotesImporter
       puts usage
       exit 1
     end
+  end
+
+  def parse_new_actor_options
+    parser = OptionParser.new do |opts|
+      opts.banner = 'Usage: ruby scripts/import-analyst-notes.rb new --actor ACTOR_NAME [options]'
+      opts.on('--actor NAME', 'Actor name to create') { |value| @options[:actor_name] = value }
+      opts.on('--description DESC', 'Brief description') { |value| @options[:description] = value }
+      opts.on('--country CODE', 'Country code') { |value| @options[:country] = value }
+      opts.on('--url PATH', 'URL path') { |value| @options[:url] = value }
+      opts.on('--risk LEVEL', 'Risk level') { |value| @options[:risk_level] = value }
+      opts.on('--force', 'Overwrite if exists') { |value| @options[:force] = true }
+    end
+
+    parser.parse!(@argv)
+    unless @options[:actor_name]
+      warn 'An actor name is required for new.'
+      puts usage
+      exit 1
+    end
+  end
+
+  def create_actor_from_notes
+    return if actor_exists?(@options[:actor_name]) && !@options[:force]
+
+    name = @options[:actor_name]
+    url = @options[:url] || "/#{slugify(name)}"
+    description = @options[:description] || "Manually created threat actor based on analyst research."
+
+    actor = {
+      'name' => name,
+      'description' => description,
+      'url' => url,
+      'country' => @options[:country],
+      'risk_level' => @options[:risk_level],
+      'source_name' => 'Analyst Notes',
+      'source_attribution' => 'Manually created by analyst'
+    }
+
+    actor.reject! { |_, v| v.nil? || (v.respond_to?(:empty?) && v.empty?) }
+
+    actor_file = File.join('_data/actors', "#{slugify(url)}.yml")
+    File.write(actor_file, YAML.dump(actor))
+
+    # Create markdown page
+    page_file = File.join('_threat_actors', "#{slugify(url)}.md")
+    page_content = build_actor_page(actor)
+    File.write(page_file, page_content)
+
+    puts "Created actor: #{actor_file}"
+    puts "Created page: #{page_file}"
+    puts "\nEdit the notes file to add structured data:"
+    puts "  _data/analyst_notes/#{slugify(name)}.yml"
+  end
+
+  def actor_exists?(name)
+    name_key = slugify(name)
+    File.exist?(File.join('_data/actors', "#{name_key}.yml"))
+  end
+
+  def slugify(value)
+    value.to_s.downcase.gsub(/[^a-z0-9]+/, '-').gsub(/^-|-$/, '')
+  end
+
+  def build_actor_page(actor)
+    <<~YAML
+---
+layout: threat_actor
+title: "#{actor['name']}"
+description: "#{actor['description']}"
+permalink: #{actor['url']}/
+---
+
+## Introduction
+
+#{actor['description']}
+
+## Activities and Tactics
+
+## Notable Campaigns
+
+## Tactics, Techniques, and Procedures (TTPs)
+
+## Notable Indicators of Compromise (IOCs)
+
+## Malware and Tools
+
+## Attribution and Evidence
+
+## References
+    YAML
   end
 
   def parse_import_options
