@@ -18,6 +18,7 @@ require_relative 'mitre/mitre_common'
 require_relative 'mitre/stix_loader'
 require_relative 'mitre/relationship_resolver'
 require_relative 'mitre/entity_writers'
+require_relative 'mitre/version_resolver'
 
 class MitreAttackImporter
   DEFAULT_SNAPSHOT_ROOT = 'data/imports/mitre-attack'.freeze
@@ -37,7 +38,8 @@ class MitreAttackImporter
       force: false,
       write: false,
       report_json: nil,
-      verbose: false
+      verbose: false,
+      write_active: true
     }
   end
 
@@ -66,7 +68,7 @@ class MitreAttackImporter
       Usage:
         ruby scripts/import-mitre.rb fetch --output DIR [--domain enterprise] [--domain mobile] [--domain ics] [--version X.Y]
         ruby scripts/import-mitre.rb plan --snapshot DIR [--report-json PATH]
-        ruby scripts/import-mitre.rb import --snapshot DIR [--report-json PATH] [--new-only] [--force]
+        ruby scripts/import-mitre.rb import --snapshot DIR [--report-json PATH] [--new-only] [--force] [--no-write-active]
 
       Source: https://github.com/mitre-attack/attack-stix-data
     TEXT
@@ -74,11 +76,14 @@ class MitreAttackImporter
 
   def parse_fetch_options
     @options[:domains] = []
+    @options[:write_active] = true
     parser = OptionParser.new do |opts|
       opts.banner = 'Usage: ruby scripts/import-mitre.rb fetch [options]'
       opts.on('--output DIR', 'Snapshot directory') { |v| @options[:output] = v }
       opts.on('--domain NAME', 'enterprise | mobile | ics (repeatable)') { |v| @options[:domains] << v }
       opts.on('--version VER', 'Pin ATT&CK version (e.g. 19.0); uses versioned JSON filenames') { |v| @options[:version] = v }
+      opts.on('--write-active', 'Copy bundles to data/mitre-cache/ and write active.yml (default)') { @options[:write_active] = true }
+      opts.on('--no-write-active', 'Skip updating data/mitre-cache/ after fetch') { @options[:write_active] = false }
     end
     parser.parse!(@argv)
     @options[:output] ||= File.join(DEFAULT_SNAPSHOT_ROOT, Time.now.utc.strftime('%Y-%m-%d'))
@@ -95,6 +100,8 @@ class MitreAttackImporter
       opts.on('--new-only', 'Import only new actors; skip merges') { @options[:new_only] = true }
       opts.on('--force', 'Overwrite malware summaries/descriptions when merging MITRE software pages') { @options[:force] = true }
       opts.on('-v', '--verbose') { @options[:verbose] = true }
+      opts.on('--write-active', 'Copy snapshot bundles to data/mitre-cache/ and write active.yml (default)') { @options[:write_active] = true }
+      opts.on('--no-write-active', 'Skip writing data/mitre-cache/active.yml from this snapshot') { @options[:write_active] = false }
     end
     parser.parse!(@argv)
     abort 'Missing --snapshot' if @options[:snapshot].to_s.empty?
@@ -105,7 +112,7 @@ class MitreAttackImporter
     manifest = { 'retrieved_at' => Time.now.utc.iso8601, 'bundles' => {} }
 
     @options[:domains].each do |domain|
-      filename = versioned_filename(domain, @options[:version])
+      filename = MitreCommon.versioned_bundle_filename(domain, @options[:version])
       url = MitreCommon.bundle_url(domain)
       unless @options[:version].nil?
         folder = MitreCommon::DOMAIN_FILES[domain][:folder]
@@ -116,21 +123,50 @@ class MitreAttackImporter
       puts "Fetching #{domain}: #{url}"
       download(url, path)
 
+      attack_version = begin
+        MitreCommon.attack_version_from_bundle(JSON.parse(File.read(path)))
+      rescue StandardError
+        nil
+      end
+
       manifest['bundles'][domain] = {
         'url' => url,
-        'filename' => filename
+        'filename' => filename,
+        'attack_version' => attack_version
       }
     end
 
     File.write(File.join(@options[:output], 'manifest.yml'), YAML.dump(manifest))
     puts "Wrote #{File.join(@options[:output], 'manifest.yml')}"
+
+    copy_snapshot_to_mitre_cache(@options[:output], manifest) if @options[:write_active]
   end
 
-  def versioned_filename(domain, ver)
-    base = MitreCommon::DOMAIN_FILES[domain][:file].sub(/\.json\z/, '')
-    return "#{base}.json" if ver.nil?
+  def copy_snapshot_to_mitre_cache(snapshot_root, manifest)
+    FileUtils.mkdir_p(MitreVersionResolver::CACHE_DIR)
+    domains_meta = {}
+    (manifest['bundles'] || {}).each do |domain, info|
+      src = File.join(snapshot_root, info['filename'])
+      next unless File.exist?(src)
 
-    "#{base}-#{ver}.json"
+      dest = File.join(MitreVersionResolver::CACHE_DIR, info['filename'])
+      FileUtils.cp(src, dest)
+      domains_meta[domain] = {
+        'version' => info['attack_version'],
+        'source_url' => info['url'],
+        'path' => dest,
+        'filename' => info['filename'],
+        'retrieved_at' => manifest['retrieved_at']
+      }
+    end
+    active_ver = MitreVersionResolver.unified_version(domains_meta)
+    payload = {
+      'retrieved_at' => manifest['retrieved_at'],
+      'active_version' => active_ver,
+      'domains' => domains_meta
+    }
+    File.write(MitreVersionResolver::ACTIVE_FILE, YAML.dump(payload))
+    puts "Wrote #{MitreVersionResolver::ACTIVE_FILE}"
   end
 
   def download(url, path)
@@ -151,6 +187,7 @@ class MitreAttackImporter
     abort "Missing #{manifest_file}" unless File.exist?(manifest_file)
 
     manifest = YAML.safe_load(File.read(manifest_file), permitted_classes: [Time, Date], aliases: true) || {}
+    @current_manifest = manifest
     bundle_paths = {}
     (manifest['bundles'] || {}).each do |domain, info|
       fn = info['filename']
@@ -238,8 +275,14 @@ class MitreAttackImporter
     group_slug_map = build_group_slug_map(resolver, existing_actors, alias_index, opts_actor)
 
     puts 'Writing MITRE entity pages...'
+    attack_version_by_domain = {}
+    (manifest['bundles'] || {}).each do |domain, info|
+      attack_version_by_domain[domain] = info['attack_version'] if info.is_a?(Hash)
+    end
+
     writers = MitreEntityWriters.new(resolver, data[:domains_by_id], group_slug_map: group_slug_map,
-                                                                      skip_revoked: @options[:skip_revoked])
+                                                                      skip_revoked: @options[:skip_revoked],
+                                                                      attack_version_by_domain: attack_version_by_domain)
     wt = writers.write_techniques!
     wta = writers.write_tactics!
     wc = writers.write_campaigns!
@@ -308,6 +351,8 @@ class MitreAttackImporter
     }
     write_report(stats)
 
+    copy_snapshot_to_mitre_cache(manifest_path, manifest) if @options[:write_active]
+
     puts "\n✓ Import complete. Run: ruby scripts/validate-content.rb"
   end
 
@@ -373,6 +418,18 @@ class MitreAttackImporter
 
     url_slug = MitreCommon.slugify_group(external_id, name)
 
+    bundles = (@current_manifest && @current_manifest['bundles']) || {}
+    attack_version_by_domain = {}
+    version_rows = {}
+    bundles.each do |domain, info|
+      next unless info.is_a?(Hash)
+
+      attack_version_by_domain[domain] = info['attack_version']
+      version_rows[domain] = { 'version' => info['attack_version'] }
+    end
+    unified_attack_version = MitreVersionResolver.unified_version(version_rows)
+    enterprise_url = bundles.dig('enterprise', 'url') || MitreCommon.bundle_url('enterprise')
+
     {
       'name' => name,
       'aliases' => intrusion_set['aliases'] || [],
@@ -389,7 +446,9 @@ class MitreAttackImporter
         'mitre' => {
           'source_retrieved_at' => Time.now.utc.iso8601,
           'source_record_id' => external_id || name,
-          'source_dataset_url' => MitreCommon.bundle_url('enterprise')
+          'source_dataset_url' => enterprise_url,
+          'attack_version' => unified_attack_version,
+          'attack_version_by_domain' => attack_version_by_domain
         }
       }
     }

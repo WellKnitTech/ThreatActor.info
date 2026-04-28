@@ -61,6 +61,7 @@ class ContentValidator
     'api/actors_by_technique.json',
     'api/actors_by_tactic.json',
     'api/technique-tactics.json',
+    'api/attack-version.json',
     'api/software_by_actor.json',
     'api/search-index.json',
     'api/ioc-summary.json',
@@ -105,7 +106,8 @@ class ContentValidator
     '_data/generated/search_index.json',
     '_data/generated/ioc_summary.json',
     '_data/generated/actors_by_tactic.json',
-    '_data/generated/technique_tactics.json'
+    '_data/generated/technique_tactics.json',
+    '_data/generated/attack_version.json'
   ].freeze
   GENERATED_JSON_FILES = [
     '_data/generated/threat_actors.json',
@@ -128,7 +130,8 @@ class ContentValidator
     '_data/generated/search_index.json',
     '_data/generated/ioc_summary.json',
     '_data/generated/actors_by_tactic.json',
-    '_data/generated/technique_tactics.json'
+    '_data/generated/technique_tactics.json',
+    '_data/generated/attack_version.json'
   ].freeze
   GENERATED_API_WRAPPERS = {
     'api/threat-actors.json' => 'site.data.generated.threat_actors',
@@ -149,6 +152,7 @@ class ContentValidator
     'api/actors_by_technique.json' => 'site.data.generated.actors_by_technique',
     'api/actors_by_tactic.json' => 'site.data.generated.actors_by_tactic',
     'api/technique-tactics.json' => 'site.data.generated.technique_tactics',
+    'api/attack-version.json' => 'site.data.generated.attack_version',
     'api/software_by_actor.json' => 'site.data.generated.software_by_actor',
     'api/search-index.json' => 'site.data.generated.search_index',
     'api/ioc-summary.json' => 'site.data.generated.ioc_summary'
@@ -186,6 +190,7 @@ class ContentValidator
     validate_source_attribution
     validate_generated_json
     validate_api_wrapper_bindings
+    validate_cited_technique_pages
     validate_ioc_shards
     validate_ioc_manifest_pages
     validate_malware_actor_links
@@ -334,6 +339,9 @@ class ContentValidator
   def validate_mitre_collection_pages
     puts 'Validating MITRE collection pages...'
 
+    missing_attack_version = { '_techniques' => 0, '_tactics' => 0 }
+    missing_domains = { '_techniques' => 0, '_tactics' => 0 }
+
     {
       '_techniques' => 'technique',
       '_tactics' => 'tactic',
@@ -352,7 +360,20 @@ class ContentValidator
           add_error(path, "Layout must be '#{expected_layout}', got #{fm['layout'].inspect}")
         end
         add_error(path, 'mitre_id must be present') if fm['mitre_id'].to_s.strip.empty?
+
+        if dir == '_techniques' || dir == '_tactics'
+          missing_attack_version[dir] += 1 if fm['attack_version'].to_s.strip.empty?
+          missing_domains[dir] += 1 if fm['domains'].to_a.empty? && fm['domain'].to_s.strip.empty?
+        end
       end
+    end
+
+    %w[_techniques _tactics].each do |dir|
+      n = missing_attack_version[dir]
+      add_warning(dir, "#{n} #{dir.sub('_', '')} page(s) lack attack_version in front matter (re-import MITRE or add manually)") if n.positive?
+
+      d = missing_domains[dir]
+      add_warning(dir, "#{d} #{dir.sub('_', '')} page(s) lack domains/domain in front matter") if d.positive?
     end
   end
 
@@ -643,7 +664,41 @@ class ContentValidator
           add_error(file, "ioc_summary.json missing key: #{k}") unless payload.key?(k)
         end
       end
+    when 'attack_version.json'
+      add_error(file, 'attack_version.json root must be an object') unless payload.is_a?(Hash)
+      if payload.is_a?(Hash)
+        add_error(file, 'attack_version.json missing active_version') unless payload.key?('active_version')
+        if payload['active_version'].to_s.strip.empty?
+          add_error(file, 'attack_version.json active_version must be non-empty (run scripts/generate-indexes.rb with MITRE bundles available)')
+        end
+      end
     end
+  end
+
+  def validate_cited_technique_pages
+    puts 'Validating actor-cited techniques have technique pages...'
+
+    path = '_data/generated/actors_by_technique.json'
+    return unless File.exist?(path)
+
+    payload = JSON.parse(File.read(path))
+    return unless payload.is_a?(Hash)
+
+    payload.each_key do |tid|
+      tid_s = tid.to_s.upcase
+      next unless tid_s.match?(/\AT\d{4}(?:\.\d{3})?\z/)
+
+      # Match on-disk filenames: parent techniques use t1234.md; sub-techniques use t1234.001.md
+      slug_file = "#{tid_s.downcase}.md"
+      md_path = File.join('_techniques', slug_file)
+      next if File.exist?(md_path)
+
+      add_error(path, "Technique #{tid_s} is cited by actors but #{md_path} is missing")
+    end
+  rescue JSON::ParserError => e
+    add_error(path, "Unable to parse actors_by_technique.json: #{e.message}")
+  rescue StandardError => e
+    add_error(path, "Technique page validation failed: #{e.message}")
   end
 
   def validate_ioc_shards

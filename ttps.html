@@ -8,9 +8,10 @@ permalink: /ttps/
   <section class="hero">
     <h1>ATT&amp;CK Matrix</h1>
     <p class="hero-subtitle">
-      Enterprise ATT&amp;CK techniques arranged by tactic (columns). Actor counts come from technique citations on project threat actor pages.
+      MITRE ATT&amp;CK techniques arranged by tactic (columns). Choose Enterprise, Mobile, or ICS. Actor counts come from technique citations on project threat actor pages.
       Regenerate indexes after fetching MITRE data: <code>ruby scripts/generate-indexes.rb</code>.
     </p>
+    <p class="matrix-version-label" id="matrix-domain-label" aria-live="polite"></p>
     <div class="quick-stats">
       <div class="stat">
         <span class="stat-number" id="matrix-stat-tech">-</span>
@@ -35,6 +36,14 @@ permalink: /ttps/
         <select id="matrix-scope">
           <option value="linked" selected>Only with linked threat actors</option>
           <option value="all">All techniques</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="matrix-domain">Framework:</label>
+        <select id="matrix-domain">
+          <option value="enterprise" selected>Enterprise</option>
+          <option value="mobile">Mobile</option>
+          <option value="ics">ICS</option>
         </select>
       </div>
       <div class="filter-group matrix-option">
@@ -63,7 +72,8 @@ permalink: /ttps/
     techniques: BASE + '/api/techniques.json',
     techniqueTactics: BASE + '/api/technique-tactics.json',
     actorsByTechnique: BASE + '/api/actors_by_technique.json',
-    actorsByTactic: BASE + '/api/actors_by_tactic.json'
+    actorsByTactic: BASE + '/api/actors_by_tactic.json',
+    attackVersion: BASE + '/api/attack-version.json'
   };
 
   function esc(s) {
@@ -90,37 +100,102 @@ permalink: /ttps/
     fetch(endpoints.techniques).then(function (r) { return r.json(); }),
     fetch(endpoints.techniqueTactics).then(function (r) { return r.json(); }).catch(function () { return {}; }),
     fetch(endpoints.actorsByTechnique).then(function (r) { return r.json(); }).catch(function () { return {}; }),
-    fetch(endpoints.actorsByTactic).then(function (r) { return r.json(); }).catch(function () { return {}; })
+    fetch(endpoints.actorsByTactic).then(function (r) { return r.json(); }).catch(function () { return {}; }),
+    fetch(endpoints.attackVersion).then(function (r) { return r.json(); }).catch(function () { return {}; })
   ]).then(function (results) {
     document.getElementById('matrix-loading').hidden = true;
 
-    var tactics = results[0] || [];
-    var techniques = results[1] || [];
+    var tacticsAll = results[0] || [];
+    var techniquesAll = results[1] || [];
     var techToTactics = results[2] || {};
     var actorsByTech = results[3] || {};
     var actorsByTactic = results[4] || {};
+    var attackPayload = results[5] || {};
 
-    document.getElementById('matrix-stat-tech').textContent = techniques.length;
-    document.getElementById('matrix-stat-tactics').textContent = tactics.length;
-
-    var tacticMeta = {};
-    tactics.forEach(function (t) {
-      var id = (t.mitre_id || '').toUpperCase();
-      if (id) tacticMeta[id] = t;
-    });
-
-    var techById = {};
-    techniques.forEach(function (t) {
-      var id = (t.mitre_id || '').toUpperCase();
-      if (id) techById[id] = t;
-    });
-
-    function tacticsForTechnique(tid) {
-      var list = techToTactics[tid] || techToTactics[tid.toUpperCase()] || [];
-      return list.map(function (x) { return String(x).toUpperCase(); });
+    function techDomainMatches(t, dom) {
+      var d = (t.domain || 'enterprise').toLowerCase();
+      return d === dom;
     }
 
+    function tacticDomainMatches(t, dom) {
+      var d = (t.domain || 'enterprise').toLowerCase();
+      return d === dom;
+    }
+
+    function matrixDomain() {
+      var el = document.getElementById('matrix-domain');
+      return (el && el.value) ? el.value : 'enterprise';
+    }
+
+    function tacticsForTechnique(tid, dom) {
+      var list = techToTactics[tid] || techToTactics[tid.toUpperCase()] || [];
+      if (!list.length) return [];
+      if (typeof list[0] === 'object' && list[0].tactic_id) {
+        return list.filter(function (e) {
+          return ((e.domain || 'enterprise') + '').toLowerCase() === dom;
+        }).map(function (e) { return String(e.tactic_id).toUpperCase(); });
+      }
+      return dom === 'enterprise' ? list.map(function (x) { return String(x).toUpperCase(); }) : [];
+    }
+
+    function refreshDomainLabel() {
+      var dom = matrixDomain();
+      var labels = { enterprise: 'Enterprise', mobile: 'Mobile', ics: 'ICS' };
+      var info = attackPayload.domains && attackPayload.domains[dom];
+      var v = info && info.version;
+      var el = document.getElementById('matrix-domain-label');
+      if (!el) return;
+      el.textContent = 'ATT&CK ' + labels[dom] + (v ? ' v' + v : '') +
+        (attackPayload.active_version && attackPayload.active_version !== v ? ' (release ' + attackPayload.active_version + ')' : '');
+    }
+
+    function filteredByDomain() {
+      var dom = matrixDomain();
+      var tactics = tacticsAll.filter(function (t) { return tacticDomainMatches(t, dom); });
+      var techniques = techniquesAll.filter(function (t) { return techDomainMatches(t, dom); });
+      return { tactics: tactics, techniques: techniques, dom: dom };
+    }
+
+    function updateStats() {
+      var f = filteredByDomain();
+      document.getElementById('matrix-stat-tech').textContent = f.techniques.length;
+      document.getElementById('matrix-stat-tactics').textContent = f.tactics.length;
+    }
+
+    updateStats();
+    refreshDomainLabel();
+
+    var tacticMeta = {};
+    function rebuildTacticMeta(tactics) {
+      tacticMeta = {};
+      tactics.forEach(function (t) {
+        var id = (t.mitre_id || '').toUpperCase();
+        if (id) tacticMeta[id] = t;
+      });
+    }
+
+    var techById = {};
+    function rebuildTechById(techniques) {
+      techById = {};
+      techniques.forEach(function (t) {
+        var id = (t.mitre_id || '').toUpperCase();
+        if (id) techById[id] = t;
+      });
+    }
+
+    rebuildTacticMeta(filteredByDomain().tactics);
+    rebuildTechById(filteredByDomain().techniques);
+
     function applyFilters() {
+      var fd = filteredByDomain();
+      var tactics = fd.tactics;
+      var techniques = fd.techniques;
+      var dom = fd.dom;
+      rebuildTacticMeta(tactics);
+      rebuildTechById(techniques);
+      updateStats();
+      refreshDomainLabel();
+
       var term = document.getElementById('matrix-search').value.trim().toLowerCase();
       var scope = document.getElementById('matrix-scope').value;
       var hideSubs = document.getElementById('matrix-hide-subs').checked;
@@ -170,7 +245,7 @@ permalink: /ttps/
 
         var inColumn = base.filter(function (t) {
           var tid = (t.mitre_id || '').toUpperCase();
-          var tas = tacticsForTechnique(tid);
+          var tas = tacticsForTechnique(tid, dom);
           if (tas.indexOf(ta) === -1) return false;
           return termMatchesTech(t, ta, taTitle);
         });
@@ -292,10 +367,12 @@ permalink: /ttps/
       document.getElementById('matrix-search').value = '';
       document.getElementById('matrix-scope').value = 'linked';
       document.getElementById('matrix-hide-subs').checked = false;
+      document.getElementById('matrix-domain').value = 'enterprise';
       applyFilters();
     };
     document.getElementById('matrix-scope').addEventListener('change', applyFilters);
     document.getElementById('matrix-hide-subs').addEventListener('change', applyFilters);
+    document.getElementById('matrix-domain').addEventListener('change', applyFilters);
     document.getElementById('matrix-search').addEventListener('keypress', function (e) {
       if (e.key === 'Enter') applyFilters();
     });

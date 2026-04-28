@@ -11,6 +11,7 @@ require_relative 'actor_store'
 require_relative 'mitre/stix_loader'
 require_relative 'mitre/relationship_resolver'
 require_relative 'mitre/mitre_common'
+require_relative 'mitre/version_resolver'
 
 class ThreatActorIndexGenerator
   PAGES_GLOB = '_threat_actors/*.md'.freeze
@@ -19,8 +20,6 @@ class ThreatActorIndexGenerator
   MALWARE_DIR = '_malware'.freeze
   TECHNIQUES_DIR = '_techniques'.freeze
   TACTICS_DIR = '_tactics'.freeze
-  # Cached Enterprise bundle for full ATT&CK indexes when no importer snapshot exists (gitignored).
-  ENTERPRISE_BUNDLE_CACHE = 'data/mitre-cache/enterprise-attack.json'.freeze
   TYPE_SHARDS_DIR = File.join(OUTPUT_DIR, 'iocs_by_type').freeze
   API_TYPE_SHARDS_DIR = File.join(API_DIR, 'iocs', 'by-type').freeze
   REQUIRED_IOC_HEADING = 'Notable Indicators of Compromise (IOCs)'.freeze
@@ -137,6 +136,7 @@ class ThreatActorIndexGenerator
     @actors = load_actors
     @pages = load_pages
     @mitre_counts = {}
+    @mitre_bundle_meta = {}
   end
 
   def run
@@ -177,8 +177,19 @@ class ThreatActorIndexGenerator
     technique_tactics_map = mitre_resolver ? build_technique_tactics_map(mitre_resolver) : {}
 
     technique_documents = build_mitre_collection_index('_techniques')
-    if technique_documents.empty? && mitre_resolver
-      technique_documents = build_techniques_from_resolver(mitre_resolver)
+    if mitre_resolver
+      from_resolver = build_techniques_from_resolver(mitre_resolver)
+      if technique_documents.empty?
+        technique_documents = from_resolver
+      else
+        by_id = {}
+        technique_documents.each { |t| by_id[t[:mitre_id].to_s.upcase] = t }
+        from_resolver.each do |t|
+          id = t[:mitre_id].to_s.upcase
+          by_id[id] ||= t
+        end
+        technique_documents = by_id.values.sort_by { |x| x[:mitre_id].to_s }
+      end
     elsif technique_documents.empty?
       technique_documents = build_technique_index_from_actor_yaml(@actors)
     end
@@ -232,6 +243,7 @@ class ThreatActorIndexGenerator
     write_json('actors_by_tactic.json', actors_by_tactic)
     write_json('technique_tactics.json', technique_tactics_map)
     write_json('software_by_actor.json', software_by_actor)
+    write_json('attack_version.json', build_attack_version_payload(mitre_resolver))
     search_payload = build_search_index(actor_documents, technique_documents, campaign_mitre_documents)
     write_json('search_index.json', search_payload)
     write_json('ioc_lookup.json', ioc_lookup)
@@ -1334,12 +1346,17 @@ class ThreatActorIndexGenerator
       mid = fm['mitre_id']
       next if mid.to_s.strip.empty?
 
+      domains_arr = fm['domains'] || []
+      raw_dom = fm['domain']
+      domain_tag = (!raw_dom.nil? && !raw_dom.to_s.strip.empty?) ? raw_dom.to_s.strip : primary_domain_token(domains_arr)
       docs << {
         title: fm['title'],
         mitre_id: mid,
         permalink: collection_permalink(collection_dir, mid, fm['permalink']),
         mitre_url: fm['mitre_url'],
-        domains: fm['domains'] || [],
+        domains: domains_arr,
+        domain: domain_tag,
+        attack_version: fm['attack_version'],
         layout: fm['layout']
       }
     end
@@ -1368,8 +1385,12 @@ class ThreatActorIndexGenerator
 
     actor_documents.each do |ad|
       actor_technique_ids_for_index(ad).each do |tid|
-        (technique_to_tactics[tid] || []).each do |ta|
-          taup = ta.to_s.upcase
+        (technique_to_tactics[tid] || []).each do |entry|
+          taup = if entry.is_a?(Hash)
+                   (entry['tactic_id'] || entry[:tactic_id]).to_s.upcase
+                 else
+                   entry.to_s.upcase
+                 end
           next if taup.empty?
 
           out[taup] << {
@@ -1411,61 +1432,62 @@ class ThreatActorIndexGenerator
     ids.uniq
   end
 
-  def load_newest_mitre_resolver
-    manifest = newest_mitre_manifest_path
-    return nil unless manifest
-
-    yml = YAML.safe_load(File.read(manifest), permitted_classes: [Time, Date], aliases: true) || {}
-    root = File.dirname(manifest)
-    bundle_paths = {}
-    (yml['bundles'] || {}).each do |domain, info|
-      fn = info['filename']
-      p = File.join(root, fn)
-      bundle_paths[domain] = p if File.exist?(p)
-    end
-    return nil if bundle_paths.empty?
-
-    data = MitreStixLoader.load_and_merge(bundle_paths)
-    MitreRelationshipResolver.new(data[:objects], data[:relationships], data[:domains_by_id])
-  rescue StandardError => e
-    warn "MITRE snapshot unavailable for indexes (#{e.message})"
-    nil
-  end
-
-  def newest_mitre_manifest_path
-    Dir.glob('data/imports/mitre-attack/*/manifest.yml').max_by { |p| File.mtime(p) }
-  end
-
   def resolve_mitre_resolver_for_indexes
-    r = load_newest_mitre_resolver
-    return r if r
+    paths, meta = MitreVersionResolver.resolve(fetch_network: true)
+    @mitre_bundle_meta = meta || {}
+    return nil if paths.nil? || paths.empty?
 
-    load_mitre_resolver_from_enterprise_bundle_cache
-  end
-
-  def load_mitre_resolver_from_enterprise_bundle_cache
-    path = ENTERPRISE_BUNDLE_CACHE
-    fetch_enterprise_attack_bundle!(path) unless File.exist?(path) && File.size(path) > 100_000
-    return nil unless File.exist?(path)
-
-    bundle_paths = { 'enterprise' => path }
-    data = MitreStixLoader.load_and_merge(bundle_paths)
+    data = MitreStixLoader.load_and_merge(paths)
     MitreRelationshipResolver.new(data[:objects], data[:relationships], data[:domains_by_id])
   rescue StandardError => e
-    warn "Enterprise ATT&CK bundle resolver unavailable (#{e.message})"
+    warn "MITRE bundle resolver unavailable for indexes (#{e.message})"
+    @mitre_bundle_meta = {}
     nil
   end
 
-  def fetch_enterprise_attack_bundle!(path)
-    FileUtils.mkdir_p(File.dirname(path))
-    uri = URI.parse(MitreCommon.bundle_url('enterprise'))
-    Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == 'https', read_timeout: 180, open_timeout: 30) do |http|
-      req = Net::HTTP::Get.new(uri)
-      res = http.request(req)
-      raise "HTTP #{res.code}" unless res.is_a?(Net::HTTPSuccess)
+  def build_attack_version_payload(resolver)
+    base = {
+      'active_version' => @mitre_bundle_meta['active_version'],
+      'retrieved_at' => @mitre_bundle_meta['retrieved_at'],
+      'domains' => {}
+    }
+    return base if resolver.nil?
 
-      File.binwrite(path, res.body)
+    %w[enterprise mobile ics].each do |dom|
+      tech_n = resolver.technique_objects.count do |o|
+        next false if o['revoked'] == true || o['x_mitre_deprecated'] == true
+
+        MitreCommon.mitre_external_id(o).to_s.match?(/\AT\d/i) &&
+          (resolver.domains_by_id[o['id']] || []).include?(dom)
+      end
+      tac_n = resolver.tactic_objects.count do |o|
+        next false if o['revoked'] == true || o['x_mitre_deprecated'] == true
+
+        MitreCommon.mitre_external_id(o).to_s.match?(/\ATA\d/i) &&
+          (resolver.domains_by_id[o['id']] || []).include?(dom)
+      end
+      info = (@mitre_bundle_meta['domains'] && @mitre_bundle_meta['domains'][dom]) || {}
+      base['domains'][dom] = {
+        'version' => info['version'],
+        'source_url' => info['source_url'],
+        'path' => info['path'],
+        'techniques' => tech_n,
+        'tactics' => tac_n
+      }
     end
+    base
+  end
+
+  def primary_domain_token(domains_arr)
+    list = Array(domains_arr).map(&:to_s)
+    %w[enterprise mobile ics].each do |k|
+      return k if list.any? { |d| d.casecmp(k).zero? } || list.any? { |d| d.downcase.include?(k) }
+    end
+    'enterprise'
+  end
+
+  def attack_version_for_domain_key(domain_key)
+    @mitre_bundle_meta&.dig('domains', domain_key, 'version')
   end
 
   def build_fallback_enterprise_tactics_documents
@@ -1477,6 +1499,7 @@ class ThreatActorIndexGenerator
         permalink: "/tactics/#{id}/",
         mitre_url: "https://attack.mitre.org/tactics/#{slug}/",
         domains: ['enterprise-attack'],
+        domain: 'enterprise',
         layout: 'tactic',
         shortname: slug.tr('-', '_')
       }
@@ -1484,7 +1507,7 @@ class ThreatActorIndexGenerator
   end
 
   def build_technique_tactics_map(resolver)
-    h = {}
+    h = Hash.new { |hh, k| hh[k] = [] }
     resolver.technique_objects.each do |obj|
       next if obj['revoked'] == true || obj['x_mitre_deprecated'] == true
 
@@ -1494,7 +1517,17 @@ class ThreatActorIndexGenerator
       tid = eid.upcase
       stix_id = obj['id']
       tas = resolver.tactics_for_technique(stix_id).map(&:upcase).uniq
-      h[tid] = tas unless tas.empty?
+      next if tas.empty?
+
+      dlist = (resolver.domains_by_id[stix_id] || []) & %w[enterprise mobile ics]
+      dlist = %w[enterprise] if dlist.empty?
+
+      tas.each do |ta|
+        dlist.each do |dom|
+          h[tid] << { 'tactic_id' => ta, 'domain' => dom }
+        end
+      end
+      h[tid].uniq! { |e| [e['tactic_id'], e['domain']] }
     end
     h.sort.to_h
   end
@@ -1509,14 +1542,20 @@ class ThreatActorIndexGenerator
       eidu = eid.upcase
       sid = obj['id']
       url = MitreCommon.mitre_external_url(obj) || MitreCommon.technique_url(eidu)
-      {
+      doms = (resolver.domains_by_id[sid] || []).uniq
+      dom = (doms & %w[enterprise mobile ics]).first || 'enterprise'
+      av = attack_version_for_domain_key(dom)
+      row = {
         title: obj['name'],
         mitre_id: eidu,
         permalink: technique_site_permalink(eidu),
         mitre_url: url,
-        domains: (resolver.domains_by_id[sid] || []).uniq,
+        domains: doms,
+        domain: dom,
         layout: 'technique'
       }
+      row[:attack_version] = av if av && !av.to_s.empty?
+      row
     end.sort_by { |t| t[:mitre_id] }
   end
 
@@ -1529,15 +1568,21 @@ class ThreatActorIndexGenerator
 
       eidu = eid.upcase
       sid = obj['id']
-      {
+      doms = (resolver.domains_by_id[sid] || []).uniq
+      dom = (doms & %w[enterprise mobile ics]).first || 'enterprise'
+      av = attack_version_for_domain_key(dom)
+      row = {
         title: obj['name'],
         mitre_id: eidu,
         permalink: "/tactics/#{eidu}/",
         mitre_url: MitreCommon.mitre_external_url(obj) || "https://attack.mitre.org/tactics/#{eidu}/",
-        domains: (resolver.domains_by_id[sid] || []).uniq,
+        domains: doms,
+        domain: dom,
         layout: 'tactic',
         shortname: obj['x_mitre_shortname']
       }
+      row[:attack_version] = av if av && !av.to_s.empty?
+      row
     end.uniq { |t| t[:mitre_id] }.sort_by { |t| t[:mitre_id] }
   end
 
@@ -1558,9 +1603,12 @@ class ThreatActorIndexGenerator
         'permalink' => "/tactics/#{mid}/",
         'mitre_url' => t[:mitre_url],
         'domains' => t[:domains] || [],
+        'domain' => t[:domain] || primary_domain_token(t[:domains] || []),
         'shortname' => t[:shortname],
         'source_attribution' => MitreCommon::SOURCE_ATTRIBUTION
       }
+      av = t[:attack_version] || @mitre_bundle_meta['active_version']
+      fm['attack_version'] = av if av && !av.to_s.empty?
 
       body = +<<"BODY"
 ## Description
@@ -1598,9 +1646,12 @@ BODY
         'permalink' => technique_site_permalink(mid),
         'mitre_url' => t[:mitre_url] || technique_permalink_or_url(mid),
         'domains' => t[:domains] || [],
+        'domain' => t[:domain] || primary_domain_token(t[:domains] || []),
         'parent_mitre_id' => parent_id,
         'source_attribution' => MitreCommon::SOURCE_ATTRIBUTION
       }.compact
+      av = t[:attack_version] || @mitre_bundle_meta['active_version']
+      fm['attack_version'] = av if av && !av.to_s.empty?
 
       body = +<<"BODY"
 ## Description
@@ -1652,6 +1703,7 @@ BODY
           permalink: technique_site_permalink(id),
           mitre_url: technique_permalink_or_url(id),
           domains: [],
+          domain: 'enterprise',
           layout: 'technique'
         }
       end

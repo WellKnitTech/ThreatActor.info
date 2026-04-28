@@ -18,12 +18,13 @@ This reflects the current repository, CI workflow, and validation scripts.
 - `_layouts/default.html`, `_layouts/threat_actor.html`: templates.
 - `_includes/search.html`: search/filter UI and client-side parser.
 - `iocs/index.html` and `iocs/<type>.html`: IOC hub and per-type browsers; shared UI in `_layouts/ioc_type.html` and `_includes/ioc-browser.html`.
-- `ttps.html`: Enterprise ATT&CK matrix at `/ttps/` (client-built from `/api/tactics.json`, `/api/techniques.json`, `/api/technique-tactics.json`, `/api/actors_by_technique.json`, `/api/actors_by_tactic.json`). Legacy `/attack-tactics/` redirects here.
+- `ttps.html`: ATT&CK matrix at `/ttps/` with Enterprise / Mobile / ICS switcher (client-built from `/api/tactics.json`, `/api/techniques.json`, `/api/technique-tactics.json`, `/api/attack-version.json`, `/api/actors_by_technique.json`, `/api/actors_by_tactic.json`). Legacy `/attack-tactics/` redirects here.
 - `assets/css/style.scss`: main stylesheet.
 - `scripts/validate-content.rb`: main validator.
 - `scripts/import-ransomlook.rb`: manual importer for RansomLook-derived actor metadata.
-- `scripts/import-mitre.rb`: MITRE ATT&CK STIX importer (`fetch` / `plan` / `import`) reading snapshots from `data/imports/mitre-attack/<date>/`.
-- `scripts/generate-indexes.rb`: emits grouped IOC shards (`_data/generated/iocs_by_type/`, `ioc_types.json`, `ioc_summary.json`), MITRE-derived indexes (`techniques.json`, `tactics.json`, `technique_tactics.json`, `actors_by_tactic.json`), optional Enterprise bundle cache under `data/mitre-cache/`, and other API indexes.
+- `scripts/import-mitre.rb`: MITRE ATT&CK STIX importer (`fetch` / `plan` / `import`) reading snapshots from `data/imports/mitre-attack/<date>/`; records ATT&CK version in `manifest.yml`, actor `provenance.mitre.attack_version`, and copies versioned bundles into `data/mitre-cache/` when `--write-active` (default).
+- `scripts/mitre/version_resolver.rb`: resolves active Enterprise/Mobile/ICS STIX bundle paths and versions (snapshot manifest → `data/mitre-cache/active.yml` → network fetch); used by `scripts/generate-indexes.rb`.
+- `scripts/generate-indexes.rb`: emits grouped IOC shards (`_data/generated/iocs_by_type/`, `ioc_types.json`, `ioc_summary.json`), MITRE-derived indexes (`techniques.json`, `tactics.json`, `technique_tactics.json`, `actors_by_tactic.json`, `attack_version.json`), version-pinned bundle cache under `data/mitre-cache/`, and other API indexes.
 - `scripts/validate.sh`: full validation wrapper.
 - `.github/workflows/validate.yml`: CI commands.
 - `docs/importers.md`: importer workflow and attribution rules.
