@@ -272,7 +272,15 @@ Array of MITRE campaign summaries from `_campaigns/*.md` (distinct from `/api/ca
 
 ### `/api/actors_by_technique.json`
 
-Object keyed by technique ID (for example `T1059`) listing actors that use that technique (from actor YAML `ttps`).
+Object keyed by technique ID (for example `T1059`) listing actors that reference that technique — parsed from actor YAML `ttps` strings, structured `ttps` entries where present, and technique IDs extracted from page **TTPs** / Atomic mappings (`attack_mappings`).
+
+### `/api/actors_by_tactic.json`
+
+Object keyed by tactic ID (for example `TA0007`) listing actors whose cited techniques map to that tactic under Enterprise ATT&CK. Requires `technique_tactics` mappings from `scripts/generate-indexes.rb` (Enterprise bundle cache or importer snapshot).
+
+### `/api/technique-tactics.json`
+
+Object keyed by technique ID; each value is an array of tactic IDs (`TA####`) for Enterprise ATT&CK, derived from MITRE STIX `kill_chain_phases`. Populated when an Enterprise bundle is available (cached copy or importer snapshot).
 
 ### `/api/software_by_actor.json`
 

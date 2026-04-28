@@ -25,6 +25,20 @@ layout: default
     {{ content }}
   </div>
 
+  <section class="tactic-project-actors" aria-labelledby="tactic-actors-heading">
+    <h2 id="tactic-actors-heading">Threat actors in this project</h2>
+    <p class="tactic-actors-lead">
+      Actors whose cited ATT&CK techniques fall under this tactic (Enterprise mappings).
+      See also the <a href="{{ '/attack-tactics/' | relative_url }}">tactics overview</a>.
+    </p>
+    <div
+      id="tactic-actors-root"
+      data-baseurl="{{ site.baseurl }}"
+      data-tactic-id="{{ page.mitre_id }}"></div>
+  </section>
+
+  {% include tactic-actors.html %}
+
   {% if page.source_attribution %}
   <aside class="source-attribution-panel">
     <h2>Source Attribution</h2>

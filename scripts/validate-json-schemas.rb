@@ -33,6 +33,8 @@ class JsonSchemaValidator
     _data/generated/software_by_actor.json
     _data/generated/search_index.json
     _data/generated/ioc_summary.json
+    _data/generated/actors_by_tactic.json
+    _data/generated/technique_tactics.json
   ].freeze
 
   def initialize

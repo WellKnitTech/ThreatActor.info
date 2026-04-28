@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "title": "Initial Access",
+    "mitre_id": "TA0001",
+    "permalink": "/tactics/TA0001/",
+    "mitre_url": "https://attack.mitre.org/tactics/initial-access/",
+    "domains": [
+      "enterprise-attack"
+    ],
+    "layout": "tactic"
+  },
+  {
+    "title": "Execution",
+    "mitre_id": "TA0002",
+    "permalink": "/tactics/TA0002/",
+    "mitre_url": "https://attack.mitre.org/tactics/execution/",
+    "domains": [
+      "enterprise-attack"
+    ],
+    "layout": "tactic"
+  },
+  {
+    "title": "Persistence",
+    "mitre_id": "TA0003",
+    "permalink": "/tactics/TA0003/",
+    "mitre_url": "https://attack.mitre.org/tactics/persistence/",
+    "domains": [
+      "enterprise-attack"
+    ],
+    "layout": "tactic"
+  },
+  {
+    "title": "Privilege Escalation",
+    "mitre_id": "TA0004",
+    "permalink": "/tactics/TA0004/",
+    "mitre_url": "https://attack.mitre.org/tactics/privilege-escalation/",
+    "domains": [
+      "enterprise-attack"
+    ],
+    "layout": "tactic"
+  },
+  {
+    "title": "Defense Evasion",
+    "mitre_id": "TA0005",
+    "permalink": "/tactics/TA0005/",
+    "mitre_url": "https://attack.mitre.org/tactics/defense-evasion/",
+    "domains": [
+      "enterprise-attack"
+    ],
+    "layout": "tactic"
+  },
+  {
+    "title": "Credential Access",
+    "mitre_id": "TA0006",
+    "permalink": "/tactics/TA0006/",
+    "mitre_url": "https://attack.mitre.org/tactics/credential-access/",
+    "domains": [
+      "enterprise-attack"
+    ],
+    "layout": "tactic"
+  },
+  {
+    "title": "Discovery",
+    "mitre_id": "TA0007",
+    "permalink": "/tactics/TA0007/",
+    "mitre_url": "https://attack.mitre.org/tactics/discovery/",
+    "domains": [
+      "enterprise-attack"
+    ],
+    "layout": "tactic"
+  },
+  {
+    "title": "Lateral Movement",
+    "mitre_id": "TA0008",
+    "permalink": "/tactics/TA0008/",
+    "mitre_url": "https://attack.mitre.org/tactics/lateral-movement/",
+    "domains": [
+      "enterprise-attack"
+    ],
+    "layout": "tactic"
+  },
+  {
+    "title": "Collection",
+    "mitre_id": "TA0009",
+    "permalink": "/tactics/TA0009/",
+    "mitre_url": "https://attack.mitre.org/tactics/collection/",
+    "domains": [
+      "enterprise-attack"
+    ],
+    "layout": "tactic"
+  },
+  {
+    "title": "Exfiltration",
+    "mitre_id": "TA0010",
+    "permalink": "/tactics/TA0010/",
+    "mitre_url": "https://attack.mitre.org/tactics/exfiltration/",
+    "domains": [
+      "enterprise-attack"
+    ],
+    "layout": "tactic"
+  },
+  {
+    "title": "Command and Control",
+    "mitre_id": "TA0011",
+    "permalink": "/tactics/TA0011/",
+    "mitre_url": "https://attack.mitre.org/tactics/command-and-control/",
+    "domains": [
+      "enterprise-attack"
+    ],
+    "layout": "tactic"
+  },
+  {
+    "title": "Impact",
+    "mitre_id": "TA0040",
+    "permalink": "/tactics/TA0040/",
+    "mitre_url": "https://attack.mitre.org/tactics/impact/",
+    "domains": [
+      "enterprise-attack"
+    ],
+    "layout": "tactic"
+  },
+  {
+    "title": "Resource Development",
+    "mitre_id": "TA0042",
+    "permalink": "/tactics/TA0042/",
+    "mitre_url": "https://attack.mitre.org/tactics/resource-development/",
+    "domains": [
+      "enterprise-attack"
+    ],
+    "layout": "tactic"
+  },
+  {
+    "title": "Reconnaissance",
+    "mitre_id": "TA0043",
+    "permalink": "/tactics/TA0043/",
+    "mitre_url": "https://attack.mitre.org/tactics/reconnaissance/",
+    "domains": [
+      "enterprise-attack"
+    ],
+    "layout": "tactic"
+  }
+]

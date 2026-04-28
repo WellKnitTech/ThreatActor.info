@@ -59,6 +59,8 @@ class ContentValidator
     'api/mitigations.json',
     'api/campaigns_mitre.json',
     'api/actors_by_technique.json',
+    'api/actors_by_tactic.json',
+    'api/technique-tactics.json',
     'api/software_by_actor.json',
     'api/search-index.json',
     'api/ioc-summary.json',
@@ -68,6 +70,8 @@ class ContentValidator
     '_layouts/mitigation.html',
     '_layouts/ioc_type.html',
     '_includes/ioc-browser.html',
+    '_includes/tactic-actors.html',
+    'attack-tactics.html',
     'iocs/index.html',
     'iocs/ip-address.html',
     'iocs/domain.html',
@@ -99,7 +103,9 @@ class ContentValidator
     '_data/generated/actors_by_technique.json',
     '_data/generated/software_by_actor.json',
     '_data/generated/search_index.json',
-    '_data/generated/ioc_summary.json'
+    '_data/generated/ioc_summary.json',
+    '_data/generated/actors_by_tactic.json',
+    '_data/generated/technique_tactics.json'
   ].freeze
   GENERATED_JSON_FILES = [
     '_data/generated/threat_actors.json',
@@ -120,7 +126,9 @@ class ContentValidator
     '_data/generated/actors_by_technique.json',
     '_data/generated/software_by_actor.json',
     '_data/generated/search_index.json',
-    '_data/generated/ioc_summary.json'
+    '_data/generated/ioc_summary.json',
+    '_data/generated/actors_by_tactic.json',
+    '_data/generated/technique_tactics.json'
   ].freeze
   GENERATED_API_WRAPPERS = {
     'api/threat-actors.json' => 'site.data.generated.threat_actors',
@@ -139,6 +147,8 @@ class ContentValidator
     'api/mitigations.json' => 'site.data.generated.mitigations',
     'api/campaigns_mitre.json' => 'site.data.generated.campaigns_mitre',
     'api/actors_by_technique.json' => 'site.data.generated.actors_by_technique',
+    'api/actors_by_tactic.json' => 'site.data.generated.actors_by_tactic',
+    'api/technique-tactics.json' => 'site.data.generated.technique_tactics',
     'api/software_by_actor.json' => 'site.data.generated.software_by_actor',
     'api/search-index.json' => 'site.data.generated.search_index',
     'api/ioc-summary.json' => 'site.data.generated.ioc_summary'
@@ -624,7 +634,7 @@ class ContentValidator
          'campaigns_mitre.json'
       add_error(file, 'Generated JSON root must be an array') unless payload.is_a?(Array)
     when 'facets.json', 'ioc_lookup.json', 'ioc_types.json', 'malware_index.json', 'actors_by_technique.json',
-         'software_by_actor.json', 'search_index.json'
+         'actors_by_tactic.json', 'technique_tactics.json', 'software_by_actor.json', 'search_index.json'
       add_error(file, 'Generated JSON root must be an object') unless payload.is_a?(Hash)
     when 'ioc_summary.json'
       add_error(file, 'Generated JSON root must be an object') unless payload.is_a?(Hash)
