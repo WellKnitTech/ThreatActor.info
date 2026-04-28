@@ -1,27 +1,11 @@
----
-name: The Gorgon Group
-aliases:
-- Gorgon Group
-- Subaat
-- ATK92
-- G0078
-- Pasty Gemini
-- The Gorgon Group
-description: Unit 42 researchers have been tracking Subaat, an attacker, since 2017.
-  Recently Subaat drew our attention due to renewed targeted attack activity. Part
-  of monitoring Subaat included realizing the actor was possibly part of a larger
-  crew of individuals responsible for carrying out targeted attacks against worldwide
-  governmental organizations. Technical analysis on some of the attacks as well as
-  attribution links with Pakistan actors have been already depicted by 360 and Tuisec,
-  in which they found interesting connections to a larger group of attackers Unit
-  42 researchers have been tracking, which we are calling Gorgon Group.
+name: "The Gorgon Group"
+aliases: ["Gorgon Group","Subaat","ATK92","G0078","Pasty Gemini","The Gorgon Group"]
+description: "Unit 42 researchers have been tracking Subaat, an attacker, since 2017. Recently Subaat drew our attention due to renewed targeted attack activity. Part of monitoring Subaat included realizing the actor was possibly part of a larger crew of individuals responsible for carrying out targeted attacks against worldwide governmental organizations. Technical analysis on some of the attacks as well as attribution links with Pakistan actors have been already depicted by 360 and Tuisec, in which they found interesting connections to a larger group of attackers Unit 42 researchers have been tracking, which we are calling Gorgon Group."
 url: "/the-gorgon-group"
-malware:
-- Epic
-- Archelaus Beta
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Epic","Archelaus Beta"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: e47c2c4d-706b-4098-92a2-b93e7103e131
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "e47c2c4d-706b-4098-92a2-b93e7103e131"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

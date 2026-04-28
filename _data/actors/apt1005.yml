@@ -11,8 +11,15 @@ external_id: "G1005"
 external_url: "https://attack.mitre.org/groups/G1005"
 mitre_id: "G1005"
 mitre_url: "https://attack.mitre.org/groups/G1005"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.microsoft.com/security/blog/2022/06/02/exposing-polonium-activity-and-infrastructure-targeting-israeli-organizations/","https://www.welivesecurity.com/2022/10/11/polonium-targets-israel-creepy-malware/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "middle-east"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1005"

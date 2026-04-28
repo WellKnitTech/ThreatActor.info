@@ -1,18 +1,11 @@
----
-name: Operation ShadowHammer
-aliases:
-- Operation ShadowHammer
-description: |-
-  Newly discovered supply chain attack that leveraged ASUS Live Update software.
-  The goal of the attack was to surgically target an unknown pool of users, which were identified by their network adapters’ MAC addresses. To achieve this, the attackers had hardcoded a list of MAC addresses in the trojanized samples and this list was used to identify the actual intended targets of this massive operation. We were able to extract more than 600 unique MAC addresses from over 200 samples used in this attack. Of course, there might be other samples out there with different MAC addresses in their list.
+name: "Operation ShadowHammer"
+aliases: ["Operation ShadowHammer"]
+description: "Newly discovered supply chain attack that leveraged ASUS Live Update software.\nThe goal of the attack was to surgically target an unknown pool of users, which were identified by their network adapters’ MAC addresses. To achieve this, the attackers had hardcoded a list of MAC addresses in the trojanized samples and this list was used to identify the actual intended targets of this massive operation. We were able to extract more than 600 unique MAC addresses from over 200 samples used in this attack. Of course, there might be other samples out there with different MAC addresses in their list."
 url: "/operation-shadowhammer"
-malware:
-- Trojan.Karagany
-- Unknown Logger
-- Trojan.Mebromi
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Trojan.Karagany","Unknown Logger","Trojan.Mebromi"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 401c30c7-4317-458a-9b0a-379a44d63457
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "401c30c7-4317-458a-9b0a-379a44d63457"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

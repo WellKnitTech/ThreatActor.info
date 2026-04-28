@@ -1,25 +1,12 @@
----
-name: GTG-1002
-aliases:
-- GTG-1002
-description: GTG-1002 is a Chinese state-sponsored APT that conducted a large-scale
-  autonomous cyber espionage campaign targeting approximately 30 global organizations
-  across various sectors, focusing on military and energy-related data. The operation
-  utilized AI, specifically Anthropic’s Claude model, for reconnaissance, exploitation,
-  and data exfiltration, significantly reducing human involvement. Attackers employed
-  techniques such as automated task execution and evasion of safety protocols by masquerading
-  as legal security testing. The campaign lasted 18 months and highlighted vulnerabilities
-  in traditional incident response workflows.
+name: "GTG-1002"
+aliases: ["GTG-1002"]
+description: "GTG-1002 is a Chinese state-sponsored APT that conducted a large-scale autonomous cyber espionage campaign targeting approximately 30 global organizations across various sectors, focusing on military and energy-related data. The operation utilized AI, specifically Anthropic’s Claude model, for reconnaissance, exploitation, and data exfiltration, significantly reducing human involvement. Attackers employed techniques such as automated task execution and evasion of safety protocols by masquerading as legal security testing. The campaign lasted 18 months and highlighted vulnerabilities in traditional incident response workflows."
 url: "/gtg-1002"
-country: China
-malware:
-- CyberGate
-- Cyber Eye RAT
-- Xploit
-- CrossRat
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CyberGate","Cyber Eye RAT","Xploit","CrossRat"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: c21d7fef-0bab-4229-a103-5e8275434141
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "c21d7fef-0bab-4229-a103-5e8275434141"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

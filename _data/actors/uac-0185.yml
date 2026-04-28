@@ -1,26 +1,11 @@
----
-name: UAC-0185
-aliases:
-- UNC4221
-- UAC-0185
-description: UAC-0185 has been active since at least 2022, primarily targeting Ukrainian
-  defense organizations through credential theft via messaging apps like Signal, Telegram,
-  and WhatsApp, as well as military systems such as DELTA, TENETA, and Kropyva. The
-  group employs phishing attacks, often impersonating the Ukrainian Union of Industrialists
-  and Entrepreneurs (UUIE), to gain unauthorized access to the PCs of defense sector
-  employees. They utilize custom tools, including MESHAGENT and UltraVNC, to facilitate
-  their operations. Their activities are mapped to MITRE ATT&CK, focusing on tactics
-  related to credential theft and remote access.
+name: "UAC-0185"
+aliases: ["UNC4221","UAC-0185"]
+description: "UAC-0185 has been active since at least 2022, primarily targeting Ukrainian defense organizations through credential theft via messaging apps like Signal, Telegram, and WhatsApp, as well as military systems such as DELTA, TENETA, and Kropyva. The group employs phishing attacks, often impersonating the Ukrainian Union of Industrialists and Entrepreneurs (UUIE), to gain unauthorized access to the PCs of defense sector employees. They utilize custom tools, including MESHAGENT and UltraVNC, to facilitate their operations. Their activities are mapped to MITRE ATT&CK, focusing on tactics related to credential theft and remote access."
 url: "/uac-0185"
-malware:
-- Agent.btz
-- RemoteCMD
-- Remote Utilities
-- Ultra VNC
-- RemotePC
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Agent.btz","RemoteCMD","Remote Utilities","Ultra VNC","RemotePC"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: d44be76b-07ad-47b3-a296-3899f27f0702
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "d44be76b-07ad-47b3-a296-3899f27f0702"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

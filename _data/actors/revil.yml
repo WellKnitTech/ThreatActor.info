@@ -1,5 +1,5 @@
 name: "REvil"
-aliases: ["Sodinokibi","Sodin"]
+aliases: ["Sodinokibi","Sodin","Water Mare","GrandCrab","Revil"]
 description: "REvil is a Russian ransomware-as-a-service operation that has targeted major corporations worldwide."
 url: "/revil"
 country: "Russia"
@@ -10,8 +10,21 @@ last_updated: "2026-04-28"
 risk_level: "Critical"
 source_name: "MITRE CISA KEV"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed under CC BY 4.0 license."
+operations: ["Medibank November 2022"]
+malware:
+  - name: "Sodinokibi"
+  - name: "IcedID"
+  - name: "Qakbot"
+  - name: "PsExec"
+  - name: "FileZilla"
 cisa_kev_cves: ["{\"cve\" => \"CVE-2018-8453\", \"dateAdded\" => \"2022-01-21\", \"vendor\" => \"Microsoft\", \"product\" => \"Win32k\"}","{\"cve\" => \"CVE-2019-2725\", \"dateAdded\" => \"2022-01-10\", \"vendor\" => \"Oracle\", \"product\" => \"WebLogic Server\"}","{\"cve\" => \"CVE-2021-30116\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Kaseya\", \"product\" => \"Virtual System/Server Administrator (VSA)\"}","{\"cve\" => \"CVE-2019-11539\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Ivanti\", \"product\" => \"Pulse Connect Secure and Pulse Policy Secure\"}"]
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.cyjax.com/2021/07/09/revilevolution/","https://www.nomios.com/resources/what-is-revil-ransomware/","https://img.nomios.com/images/Resources/2021/revil-ransomware-execution-flaw.png?auto=compress%2Cformat&fit=max&fm=jpg&q=70&w=2800&s=48724d52aa9478208925e681d6a332d6","https://unit42.paloaltonetworks.com/tutorial-qakbot-infection/","https://de.tenable.com/blog/cve-2019-11510-critical-pulse-connect-secure-vulnerability-used-in-sodinokibi-ransomware","https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil","https://thedfirreport.com/2021/03/29/sodinokibi-aka-revil-ransomware/","https://www.hhs.gov/sites/default/files/revil-update-tlpwhite.pdf"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "russia"
   bushido_breach_reports:
     reports:
       - organization: "Kaseya"

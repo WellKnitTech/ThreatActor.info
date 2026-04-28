@@ -8,8 +8,23 @@ external_id: "G0062"
 external_url: "https://attack.mitre.org/groups/G0062"
 mitre_id: "G0062"
 mitre_url: "https://attack.mitre.org/groups/G0062"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware:
+  - name: "PlugX"
+  - name: "NetTraveler"
+  - name: "ZeroT"
+  - name: "PCrat"
+  - name: "Gh0st"
+  - name: "RoyalRoad RTF Weaponizer"
 provenance:
+  apt_groups_operations:
+    matched_mitre_ids: ["G0062"]
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts#.WS3IBVFV4no.twitter","https://www.proofpoint.com/us/blog/threat-insight/above-fold-and-your-inbox-tracing-state-aligned-activity-targeting-journalists"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0062"

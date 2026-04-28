@@ -1,24 +1,12 @@
----
-name: IcePeony
-aliases:
-- IcePeony
-description: IcePeony is a China-nexus APT group that has been active since at least
-  2023, targeting government agencies, academic institutions, and political organizations
-  in countries such as India, Mauritius, and Vietnam. They primarily employ SQL injection
-  techniques to exploit vulnerabilities in publicly accessible web servers, subsequently
-  installing web shells or executing malware like IceCache to facilitate credential
-  theft. IcePeony operates under harsh work conditions, potentially adhering to the
-  996 working hour system, and shows a particular interest in the governments of Indian
-  Ocean countries. Their activities suggest alignment with China's national interests,
-  possibly related to maritime strategy.
+name: "IcePeony"
+aliases: ["IcePeony"]
+description: "IcePeony is a China-nexus APT group that has been active since at least 2023, targeting government agencies, academic institutions, and political organizations in countries such as India, Mauritius, and Vietnam. They primarily employ SQL injection techniques to exploit vulnerabilities in publicly accessible web servers, subsequently installing web shells or executing malware like IceCache to facilitate credential theft. IcePeony operates under harsh work conditions, potentially adhering to the 996 working hour system, and shows a particular interest in the governments of Indian Ocean countries. Their activities suggest alignment with China's national interests, possibly related to maritime strategy."
 url: "/icepeony"
-country: China
-malware:
-- China Chopper
-- Xploit
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["China Chopper","Xploit"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 793280d5-d28c-4d4a-87b6-487ba9d9fbd1
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "793280d5-d28c-4d4a-87b6-487ba9d9fbd1"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

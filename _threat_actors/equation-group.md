@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Equation Group"
-aliases: ["Tilded Team", "EQGRP", "G0020", "Equation Group"]
+aliases: ["Tilded Team", "EQGRP", "G0020", "Equation Group", "Housefly", "Remsec"]
 description: "The Equation Group is a highly sophisticated threat actor described by its discoverers at Kaspersky Labs as one of the most sophisticated cyber attack groups in the world, operating alongside but alway"
 permalink: /equation-group/
 ---
@@ -35,6 +35,16 @@ The Equation Group is a highly sophisticated threat actor described by its disco
 - **Flame**
 - **CyberGate**
 - **Cyber Eye RAT**
+- **Regin**: 
+- **EquationLaser**: 
+- **EquationDrug**: 
+- **DoubleFantasy**: 
+- **TripleFantasy**: 
+- **Fanny**: 
+- **Grayfish**: 
+- **RemSec**: 
+- **Gauss**: 
+- **Apple iOS 0days**: 
 
 ## Attribution and Evidence
 **Country of Origin**: United States

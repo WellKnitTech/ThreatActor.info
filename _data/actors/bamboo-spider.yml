@@ -1,12 +1,19 @@
----
-name: BAMBOO SPIDER
-aliases:
-- BAMBOO SPIDER
-description: Crowdstrike tracks the developer of Panda Zeus as BAMBOO SPIDER
+name: "BAMBOO SPIDER"
+aliases: ["BAMBOO SPIDER","Bamboo Spider"]
+description: "Crowdstrike tracks the developer of Panda Zeus as BAMBOO SPIDER"
 url: "/bamboo-spider"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Developed Panda Zeus"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2018GlobalThreatReport.pdf page 19"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 419599eb-c1ea-4d32-8c9e-0ad61d7c5ba5
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "419599eb-c1ea-4d32-8c9e-0ad61d7c5ba5"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

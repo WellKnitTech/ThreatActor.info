@@ -1,16 +1,19 @@
----
-name: LUNAR SPIDER
-aliases:
-- GOLD SWATHMORE
-- LUNAR SPIDER
-description: |-
-  According to CrowdStrike, this actor is using BokBok/IcedID, potentially buying distribution through Emotet infections.
-  On March 17, 2019, CrowdStrike Intelligence observed the use of a new BokBot (developed and operated by LUNAR SPIDER) proxy module in conjunction with TrickBot (developed and operated by WIZARD SPIDER), which may provide WIZARD SPIDER with additional tools to steal sensitive information and conduct fraudulent wire transfers. This activity also provides further evidence to support the existence of a flourishing relationship between these two actors.
-  Lunar Spider is reportedly associated withGrim Spider and Wizard Spider.
+name: "LUNAR SPIDER"
+aliases: ["GOLD SWATHMORE","LUNAR SPIDER","Lunar Spider"]
+description: "According to CrowdStrike, this actor is using BokBok/IcedID, potentially buying distribution through Emotet infections.\nOn March 17, 2019, CrowdStrike Intelligence observed the use of a new BokBot (developed and operated by LUNAR SPIDER) proxy module in conjunction with TrickBot (developed and operated by WIZARD SPIDER), which may provide WIZARD SPIDER with additional tools to steal sensitive information and conduct fraudulent wire transfers. This activity also provides further evidence to support the existence of a flourishing relationship between these two actors.\nLunar Spider is reportedly associated withGrim Spider and Wizard Spider."
 url: "/lunar-spider"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "IcedID (BokBot)"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module/","https://www.crowdstrike.com/blog/bokbots-man-in-the-browser-overview/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 0db4c708-f33d-4d46-906d-12fdf7415f62
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "0db4c708-f33d-4d46-906d-12fdf7415f62"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

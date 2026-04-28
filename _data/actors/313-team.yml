@@ -1,20 +1,10 @@
----
-name: 313 Team
-aliases:
-- 313 Team
-description: 313 Team is an Iraq-based threat actor that has conducted coordinated
-  DDoS campaigns targeting multiple government servers in the UAE, Kuwait, and Romania,
-  often in response to political statements. They have claimed responsibility for
-  significant disruptions, including a one-hour shutdown of Romania’s National Tax
-  Agency and an 18-hour outage of Kuwait's national e-government portal. The group
-  has also engaged in website defacements, showcasing coordinated branding with other
-  aligned groups. Their operations reflect a focus on government infrastructure, employing
-  DDoS techniques and leveraging public political discourse as justification for their
-  attacks.
+name: "313 Team"
+aliases: ["313 Team"]
+description: "313 Team is an Iraq-based threat actor that has conducted coordinated DDoS campaigns targeting multiple government servers in the UAE, Kuwait, and Romania, often in response to political statements. They have claimed responsibility for significant disruptions, including a one-hour shutdown of Romania’s National Tax Agency and an 18-hour outage of Kuwait's national e-government portal. The group has also engaged in website defacements, showcasing coordinated branding with other aligned groups. Their operations reflect a focus on government infrastructure, employing DDoS techniques and leveraging public political discourse as justification for their attacks."
 url: "/313-team"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: ffd700a7-c540-421f-a52a-9fd6fba8d18b
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "ffd700a7-c540-421f-a52a-9fd6fba8d18b"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

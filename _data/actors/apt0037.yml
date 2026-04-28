@@ -1,13 +1,25 @@
 name: "FIN6"
-aliases: ["ATK88","Camouflage Tempest","FIN6","G0037","GOLD FRANKLIN","ITG08","Magecart Group 6","MageCart Group 6","Skeleton Spider","SKELETON SPIDER","Storm-0538","TA4557","TAAL","White Giant"]
+aliases: ["ATK88","Camouflage Tempest","FIN6","G0037","GOLD FRANKLIN","ITG08","Magecart Group 6","MageCart Group 6","Skeleton Spider","SKELETON SPIDER","Storm-0538","TA4557","TAAL","White Giant","Gold Franklin","Trinity"]
 description: "FIN6 is a cyber crime group that has stolen payment card data and sold it for profit on underground marketplaces. This group has aggressively targeted and compromised point of sale (PoS) systems in the hospitality and retail sectors.(Citation: FireEye FIN6 April 2016)(Citation: FireEye FIN6 Apr 2019)"
 url: "/apt0037"
+country: "Russia"
 external_id: "G0037"
 external_url: "https://attack.mitre.org/groups/G0037"
 mitre_id: "G0037"
 mitre_url: "https://attack.mitre.org/groups/G0037"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware:
+  - name: "FrameworkPoS"
+  - name: "Vawtrak/Neverquest"
+  - name: "Ransomware"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2018GlobalThreatReport.pdf","https://www.fireeye.com/blog/threat-research/2016/04/follow_the_money.html","https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf","https://webcache.googleusercontent.com/search?q=cache:wMkxJorBEKIJ:https://securityintelligence.com/x-force-iris-identifies-fin6-activity-on-pos-networks/+&cd=1&hl=en&ct=clnk&gl=uk&client=firefox-b","https://exchange.xforce.ibmcloud.com/collection/FIN6-Financial-Crime-Actor-f55930eb9f4438efe9101a618d6a8703","https://www.proofpoint.com/us/search/site?search_text=TA530&language=en","https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html","https://securityintelligence.com/posts/more_eggs-anyone-threat-actor-itg08-strikes-again/","https://blog.trendmicro.com/trendlabs-security-intelligence/fin6-compromised-e-commerce-platform-via-magecart-to-inject-credit-card-skimmers-into-thousands-of-online-shops/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0037"

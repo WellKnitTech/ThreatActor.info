@@ -1,23 +1,11 @@
----
-name: Water Kurita
-aliases:
-- Water Kurita
-description: Water Kurita is a financially motivated cybercriminal entity associated
-  with the Lumma Stealer infostealer-as-a-service operation, primarily active on underground
-  forums and marketplaces. It focuses on credential and information theft at scale,
-  monetizing access via subscription-based malware distribution and resale of stolen
-  data to other actors. The group demonstrates solid operational security and marketing
-  tactics typical of mature MaaS ecosystems, although a 2025 doxxing campaign exposing
-  alleged core members (personal and financial data) significantly disrupted its activity
-  and drove customers toward competing infostealers.
+name: "Water Kurita"
+aliases: ["Water Kurita"]
+description: "Water Kurita is a financially motivated cybercriminal entity associated with the Lumma Stealer infostealer-as-a-service operation, primarily active on underground forums and marketplaces. It focuses on credential and information theft at scale, monetizing access via subscription-based malware distribution and resale of stolen data to other actors. The group demonstrates solid operational security and marketing tactics typical of mature MaaS ecosystems, although a 2025 doxxing campaign exposing alleged core members (personal and financial data) significantly disrupted its activity and drove customers toward competing infostealers."
 url: "/water-kurita"
-malware:
-- RIPTIDE
-- CyberGate
-- Cyber Eye RAT
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["RIPTIDE","CyberGate","Cyber Eye RAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 9b3df41b-4078-4f83-92df-d7d132c619cd
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "9b3df41b-4078-4f83-92df-d7d132c619cd"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

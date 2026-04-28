@@ -1,16 +1,11 @@
----
-name: Storm-1167
-aliases:
-- DEV-1167
-- Storm-1167
-description: Storm-1167 is a threat actor tracked by Microsoft, known for their use
-  of an AiTM phishing kit. They were responsible for launching an attack that led
-  to Business Email Compromise activity.
+name: "Storm-1167"
+aliases: ["DEV-1167","Storm-1167"]
+description: "Storm-1167 is a threat actor tracked by Microsoft, known for their use of an AiTM phishing kit. They were responsible for launching an attack that led to Business Email Compromise activity."
 url: "/storm-1167"
-country: Indonesia
+country: "Indonesia"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 17fb8267-44a3-405b-b6b9-ba7fdeb56693
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "17fb8267-44a3-405b-b6b9-ba7fdeb56693"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,17 +1,19 @@
----
-name: PIZZO SPIDER
-aliases:
-- DD4BC
-- Ambiorx
-- PIZZO SPIDER
+name: "PIZZO SPIDER"
+aliases: ["DD4BC","Ambiorx","PIZZO SPIDER","Pizzo Spider"]
+description: "PIZZO SPIDER is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/pizzo-spider"
-country: United States
-risk_level: High
+country: "United States"
+risk_level: "High"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.sig-switzerland.ch/wp-content/uploads/2016/03/SIGS_SOC_Forum_Sep2017_CrowdStrike_On_the_Hunt_for_Pandas_Kittens_and_Bears.pdf see slide 15"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: dd9806a9-a600-48f8-81fb-07f0f1b7690d
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-description: PIZZO SPIDER is a threat actor tracked by MISP Galaxy. Additional information
-  pending cataloguing.
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "dd9806a9-a600-48f8-81fb-07f0f1b7690d"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

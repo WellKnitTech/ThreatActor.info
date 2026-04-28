@@ -1,23 +1,11 @@
----
-name: UAC-0215
-aliases:
-- UAC-0215
-description: UAC-0215 is an APT group that has orchestrated a phishing campaign targeting
-  public institutions, major industries, and military units in Ukraine, utilizing
-  rogue RDP files to gain unauthorized access. The malicious emails are designed to
-  appear legitimate, enticing recipients to open attachments that connect their systems
-  to the attacker's server, allowing extensive access to local resources. CERT-UA
-  has identified this activity as high-risk and has advised organizations to block
-  RDP files at mail gateways and restrict RDP connection capabilities. The campaign's
-  geographical footprint suggests a potential for broader cyberattacks beyond Ukraine.
+name: "UAC-0215"
+aliases: ["UAC-0215"]
+description: "UAC-0215 is an APT group that has orchestrated a phishing campaign targeting public institutions, major industries, and military units in Ukraine, utilizing rogue RDP files to gain unauthorized access. The malicious emails are designed to appear legitimate, enticing recipients to open attachments that connect their systems to the attacker's server, allowing extensive access to local resources. CERT-UA has identified this activity as high-risk and has advised organizations to block RDP files at mail gateways and restrict RDP connection capabilities. The campaign's geographical footprint suggests a potential for broader cyberattacks beyond Ukraine."
 url: "/uac-0215"
-malware:
-- CyberGate
-- Cyber Eye RAT
-- GraphicBooting
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CyberGate","Cyber Eye RAT","GraphicBooting"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 0debc8ab-1449-4915-aa33-f6a54df2b2d7
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "0debc8ab-1449-4915-aa33-f6a54df2b2d7"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

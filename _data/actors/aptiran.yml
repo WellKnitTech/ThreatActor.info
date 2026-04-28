@@ -1,24 +1,12 @@
----
-name: APTIran
-aliases:
-- APTIran
-description: APTIran has claimed responsibility for a large-scale campaign targeting
-  Israeli critical infrastructure, asserting infiltration of government ministries,
-  hospitals, universities, and financial institutions as retaliation for Israeli military
-  operations. The group has leaked over 350,000 Israeli government login credentials
-  and approximately 300 internal databases, while also threatening to create a 'zombie'
-  network from infected devices. They have reportedly deployed ransomware strains
-  such as ALPHV and LockBit as part of their offensive toolkit. Additionally, APTIran
-  has made unverified claims of compromising Israeli water control systems and the
-  state-owned food security agency Jordan Silos and Supply General Co.
+name: "APTIran"
+aliases: ["APTIran"]
+description: "APTIran has claimed responsibility for a large-scale campaign targeting Israeli critical infrastructure, asserting infiltration of government ministries, hospitals, universities, and financial institutions as retaliation for Israeli military operations. The group has leaked over 350,000 Israeli government login credentials and approximately 300 internal databases, while also threatening to create a 'zombie' network from infected devices. They have reportedly deployed ransomware strains such as ALPHV and LockBit as part of their offensive toolkit. Additionally, APTIran has made unverified claims of compromising Israeli water control systems and the state-owned food security agency Jordan Silos and Supply General Co."
 url: "/aptiran"
-country: Iran
-malware:
-- Offence
-- ZOMBIE SLAYER
+country: "Iran"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Offence","ZOMBIE SLAYER"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 207fea73-aebd-40c0-a8de-63bb605cada2
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "207fea73-aebd-40c0-a8de-63bb605cada2"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT9"
-aliases: ["NIGHTSHADE PANDA", "Red Pegasus", "Group 27", "APT9"]
+aliases: ["NIGHTSHADE PANDA", "Red Pegasus", "Group 27", "APT9", "FlowerLady", "Nightshade Panda"]
 description: "APT9 engages in cyber operations where the goal is data theft, usually focusing on the data and projects that make a particular organization competitive within its field. APT9 was historically very act"
 permalink: /apt9/
 ---
@@ -36,6 +36,24 @@ APT9 engages in cyber operations where the goal is data theft, usually focusing 
 - **Cyber Eye RAT**
 - **Remote Utilities**
 - **RemotePC**
+- **Trochilus RAT**: 
+- **PlugX**: 
+- **EvilGrab**: 
+- **3102 variant of 9002 RAT**: 
+- **Poison Ivy**: 
+- **BIGJOLT**: 
+- **FUNRUN**: 
+- **GH0ST**: 
+- **HOMEUNIX**: 
+- **JIM A**: 
+- **PHOTO**: 
+- **SKINNYGENE**: 
+- **SOGU**: 
+- **VICEROY**: 
+- **VIPSH ELL**: 
+- **WETHEAD**: 
+- **XDOOR**: 
+- **ZXSHELL**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

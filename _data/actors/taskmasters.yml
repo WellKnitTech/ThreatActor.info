@@ -1,25 +1,26 @@
----
-name: TaskMasters
-aliases:
-- BlueTraveller
-- TaskMasters
-description: TaskMasters is a state-sponsored Chinese APT that has been active since
-  at least 2010, primarily targeting industrial, energy, and government sectors in
-  Russia and the CIS. The group has been linked to the Webdav-O Trojan, which employs
-  techniques to bypass network defenses by connecting to legitimate services. Investigations
-  suggest that TaskMasters may have been involved in attacks against Russian federal
-  executive authorities in 2020, potentially alongside another Chinese group, TA428.
-  Additionally, the group has been associated with the BackDoor.RemShell.24 malware,
-  indicating a diverse toolkit in their operations.
+name: "TaskMasters"
+aliases: ["BlueTraveller","TaskMasters","Taskmasters"]
+description: "TaskMasters is a state-sponsored Chinese APT that has been active since at least 2010, primarily targeting industrial, energy, and government sectors in Russia and the CIS. The group has been linked to the Webdav-O Trojan, which employs techniques to bypass network defenses by connecting to legitimate services. Investigations suggest that TaskMasters may have been involved in attacks against Russian federal executive authorities in 2020, potentially alongside another Chinese group, TA428. Additionally, the group has been associated with the BackDoor.RemShell.24 malware, indicating a diverse toolkit in their operations."
 url: "/taskmasters"
-country: China
+country: "China"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware:
-- Backdoor.Oldrea
-- Trojan.Karagany
-- Trojan.Mebromi
+  - "Backdoor.Oldrea"
+  - "Trojan.Karagany"
+  - "Trojan.Mebromi"
+  - name: "RemShell"
+  - name: "404-Input-shell"
+  - name: "Eternal Blue"
+  - name: "Scheduled Tasks"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.ptsecurity.com/ww-en/analytics/operation-taskmasters-2019/","https://www.youtube.com/watch?v=XYuclHsoQO4&feature=youtu.be","https://blog.group-ib.com/task"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: f6134b6c-56f1-4eda-be0f-79411d627f19
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "f6134b6c-56f1-4eda-be0f-79411d627f19"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

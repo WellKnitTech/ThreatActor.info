@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Cyber Caliphate Army"
-aliases: ["Islamic State Hacking Division", "CCA", "United Cyber Caliphate", "UUC", "CyberCaliphate", "Cyber Caliphate Army"]
+aliases: ["Islamic State Hacking Division", "CCA", "United Cyber Caliphate", "UUC", "CyberCaliphate", "Cyber Caliphate Army", "United Cyber Caliphate (UCC)", "Cyber Caliphate Army (CCA)"]
 description: "Cyber Caliphate Army is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /cyber-caliphate-army/
 ---

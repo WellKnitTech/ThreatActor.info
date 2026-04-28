@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "UNION PANDA"
-aliases: ["UNION PANDA"]
+aliases: ["UNION PANDA", "Union Panda"]
 description: "UNION PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /union-panda/
 ---

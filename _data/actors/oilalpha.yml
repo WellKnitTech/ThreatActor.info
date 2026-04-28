@@ -1,22 +1,11 @@
----
-name: OilAlpha
-aliases:
-- OilAlpha
-description: OilAlpha has almost exclusively relied on infrastructure associated with
-  the Public Telecommunication Corporation (PTC), a Yemeni government-owned enterprise
-  reported to be under the direct control of the Houthi authorities. OilAlpha used
-  encrypted chat messengers like WhatsApp to launch social engineering attacks against
-  its targets. It has also used URL link shorteners. Per victimology assessment, it
-  appears a majority of the targeted entities were Arabic-language speakers and operated
-  Android devices.
+name: "OilAlpha"
+aliases: ["OilAlpha"]
+description: "OilAlpha has almost exclusively relied on infrastructure associated with the Public Telecommunication Corporation (PTC), a Yemeni government-owned enterprise reported to be under the direct control of the Houthi authorities. OilAlpha used encrypted chat messengers like WhatsApp to launch social engineering attacks against its targets. It has also used URL link shorteners. Per victimology assessment, it appears a majority of the targeted entities were Arabic-language speakers and operated Android devices."
 url: "/oilalpha"
-malware:
-- DroidJack
-- Arabian-Attacker RAT
-- Androrat
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["DroidJack","Arabian-Attacker RAT","Androrat"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: ae2b897d-f285-4d03-9bab-0ff59d6657a7
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "ae2b897d-f285-4d03-9bab-0ff59d6657a7"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

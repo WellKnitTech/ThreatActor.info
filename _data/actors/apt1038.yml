@@ -1,24 +1,16 @@
----
-name: TA578
-aliases:
-- TA578
-description: 'TA578 is a threat actor that has used contact forms and email to initiate
-  communications with victims and to distribute malware including Latrodectus, IcedID,
-  and Bumblebee.(Citation: Latrodectus APR 2024)(Citation: Bitsight Latrodectus June
-  2024)'
+name: "TA578"
+aliases: ["TA578"]
+description: "TA578 is a threat actor that has used contact forms and email to initiate communications with victims and to distribute malware including Latrodectus, IcedID, and Bumblebee.(Citation: Latrodectus APR 2024)(Citation: Bitsight Latrodectus June 2024)"
 url: "/apt1038"
-external_id: G1038
-external_url: https://attack.mitre.org/groups/G1038
-mitre_id: G1038
-mitre_url: https://attack.mitre.org/groups/G1038
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
-malware:
-- Archelaus Beta
-- Cobalt Strike
+external_id: "G1038"
+external_url: "https://attack.mitre.org/groups/G1038"
+mitre_id: "G1038"
+mitre_url: "https://attack.mitre.org/groups/G1038"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["Archelaus Beta","Cobalt Strike"]
 provenance:
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G1038
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-source: MITRE ATT&CK
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G1038"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

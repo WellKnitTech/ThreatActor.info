@@ -1,44 +1,37 @@
----
-name: Equation Group
-aliases:
-- Tilded Team
-- EQGRP
-- G0020
-- Equation Group
-description: The Equation Group is a highly sophisticated threat actor described by
-  its discoverers at Kaspersky Labs as one of the most sophisticated cyber attack
-  groups in the world, operating alongside but always from a position of superiority
-  with the creators of Stuxnet and Flame
+name: "Equation Group"
+aliases: ["Tilded Team","EQGRP","G0020","Equation Group","Housefly","Remsec"]
+description: "The Equation Group is a highly sophisticated threat actor described by its discoverers at Kaspersky Labs as one of the most sophisticated cyber attack groups in the world, operating alongside but always from a position of superiority with the creators of Stuxnet and Flame"
 url: "/equation-group"
-country: United States
-sector_focus:
-- Government
-- Military
-targeted_victims:
-- Iran
-- Afghanistan
-- Syria
-- Yemen
-- Kenya
-- Russia
-- India
-- Mali
-- Algeria
-- United Kingdom
-- Pakistan
-- China
-- Lebanon
-- United Arab Emirates
-- Libya
-incident_type: Espionage
-risk_level: High
+country: "United States"
+sector_focus: ["Government","Military"]
+targeted_victims: ["Iran","Afghanistan","Syria","Yemen","Kenya","Russia","India","Mali","Algeria","United Kingdom","Pakistan","China","Lebanon","United Arab Emirates","Libya"]
+incident_type: "Espionage"
+risk_level: "High"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+operations: ["Socialist","Olympic Games / Stuxnet","Project Sauron / Strider","Triangulation"]
 malware:
-- Flame
-- CyberGate
-- Cyber Eye RAT
+  - "Flame"
+  - "CyberGate"
+  - "Cyber Eye RAT"
+  - name: "Regin"
+  - name: "EquationLaser"
+  - name: "EquationDrug"
+  - name: "DoubleFantasy"
+  - name: "TripleFantasy"
+  - name: "Fanny"
+  - name: "Grayfish"
+  - name: "RemSec"
+  - name: "Gauss"
+  - name: "Apple iOS 0days"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["http://securelist.com/blog/research/67741/regin-nation-state-ownage-of-gsm-networks/","https://securelist.com/blog/research/68750/equation-the-death-star-of-malware-galaxy/","http://www.symantec.com/connect/blogs/strider-cyberespionage-group-turns-eye-sauron-targets","https://securelist.com/analysis/publications/75533/faq-the-projectsauron-apt/","https://www.bleepingcomputer.com/news/security/longhorn-cyber-espionage-group-is-actually-the-cia/","https://web.archive.org/web/20160304022846/http://www.kaspersky.com/about/news/virus/2012/Kaspersky_Lab_and_ITU_Discover_Gauss_A_New_Complex_Cyber_Threat_Designed_to_Monitor_Online_Banking_Accounts","https://twitter.com/RedDrip7/status/1178511323954434048","https://securelist.com/darkuniverse-the-mysterious-apt-framework-27/94897/","https://securelist.com/operation-triangulation/109842/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "nato"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 7036fb3d-86b7-4d9c-bc66-1e1ead8b7840
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "7036fb3d-86b7-4d9c-bc66-1e1ead8b7840"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

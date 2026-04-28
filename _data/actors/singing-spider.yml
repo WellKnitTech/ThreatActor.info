@@ -1,13 +1,17 @@
----
-name: SINGING SPIDER
-aliases:
-- SINGING SPIDER
+name: "SINGING SPIDER"
+aliases: ["SINGING SPIDER","Singing Spider"]
+description: "SINGING SPIDER is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/singing-spider"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.rsaconference.com/writable/presentations/file_upload/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries_final.pdf"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 769bf551-ff39-4f84-b7f2-654a28df1e50
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-description: SINGING SPIDER is a threat actor tracked by MISP Galaxy. Additional information
-  pending cataloguing.
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "769bf551-ff39-4f84-b7f2-654a28df1e50"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

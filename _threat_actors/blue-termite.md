@@ -33,6 +33,7 @@ Blue Termite is a group of suspected Chinese origin active in Japan.
 
 ## Malware and Tools
 - **Blue Banana**
+- **Emdivi**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -27,7 +27,15 @@ APT26 is a threat actor tracked by MISP Galaxy. Additional information pending c
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Cobalt**: 
+- **QuickPulse**: 
+- **credential stealers such as WCE**: 
+- **GSECDUMP**: 
+- **COATHOOK**: 
+- **HTRAN**: 
+- **SOGU**: 
+- **TWOCHAINS**: 
+- **QUICKBALL**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

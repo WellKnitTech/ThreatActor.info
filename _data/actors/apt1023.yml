@@ -1,42 +1,52 @@
----
-name: APT5
-aliases:
-- APT5
-- BRONZE FLEETWOOD
-- Keyhole Panda
-- MANGANESE
-- Mulberry Typhoon
-- UNC2630
-- KEYHOLE PANDA
-- TEMP.Bottle
-- Poisoned Flight
-description: 'APT5 is a China-based espionage actor that has been active since at
-  least 2007 primarily targeting the telecommunications, aerospace, and defense industries
-  throughout the U.S., Europe, and Asia. APT5 has displayed advanced tradecraft and
-  significant interest in compromising networking devices and their underlying software
-  including through the use of zero-day exploits.(Citation: NSA APT5 Citrix Threat
-  Hunting December 2022)(Citation: Microsoft East Asia Threats September 2023)(Citation:
-  Mandiant Pulse Secure Zero-Day April 2021)(Citation: Mandiant Pulse Secure Update
-  May 2021)(Citation: FireEye Southeast Asia Threat Landscape March 2015)(Citation:
-  Mandiant Advanced Persistent Threats)  '
+name: "APT5"
+aliases: ["APT5","BRONZE FLEETWOOD","Keyhole Panda","MANGANESE","Mulberry Typhoon","UNC2630","KEYHOLE PANDA","TEMP.Bottle","Poisoned Flight","Bronze Fleetwood","Manganese"]
+description: "APT5 is a China-based espionage actor that has been active since at least 2007 primarily targeting the telecommunications, aerospace, and defense industries throughout the U.S., Europe, and Asia. APT5 has displayed advanced tradecraft and significant interest in compromising networking devices and their underlying software including through the use of zero-day exploits.(Citation: NSA APT5 Citrix Threat Hunting December 2022)(Citation: Microsoft East Asia Threats September 2023)(Citation: Mandiant Pulse Secure Zero-Day April 2021)(Citation: Mandiant Pulse Secure Update May 2021)(Citation: FireEye Southeast Asia Threat Landscape March 2015)(Citation: Mandiant Advanced Persistent Threats)  "
 url: "/apt1023"
-country: China
-sector_focus:
-- Electronic
-- Telecoms
-- Technology
-external_id: G1023
-external_url: https://attack.mitre.org/groups/G1023
-mitre_id: G1023
-mitre_url: https://attack.mitre.org/groups/G1023
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
+country: "China"
+sector_focus: ["Electronic","Telecoms","Technology"]
+external_id: "G1023"
+external_url: "https://attack.mitre.org/groups/G1023"
+mitre_id: "G1023"
+mitre_url: "https://attack.mitre.org/groups/G1023"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 malware:
-- SHIPSHAPE
-- CrossRat
+  - "SHIPSHAPE"
+  - "CrossRat"
+  - name: "BRIGHTCREST"
+  - name: "SWEETCOLA"
+  - name: "SPIRITBOX"
+  - name: "PALEJAB"
+  - name: "WIDERIM"
+  - name: "WINVAULT"
+  - name: "HAPPYSAD"
+  - name: "BIRDWORLD"
+  - name: "FARCRY"
+  - name: "CYFREE"
+  - name: "FULLSILO"
+  - name: "HELLOTHEWORLD"
+  - name: "HAZELNUT"
+  - name: "GIF89A"
+  - name: "SCREENBIND"
+  - name: "SHINYFUR"
+  - name: "TRUCKBED"
+  - name: "LEOUNCIA"
+  - name: "FREESWIM"
+  - name: "PULLTAB"
+  - name: "HIREDHELP"
+  - name: "NEDDYHORSE"
+  - name: "PITCHFORK"
+  - name: "BRIGHTCOMB"
+  - name: "ENCORE"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.fireeye.com/current-threats/apt-groups.html","https://twitter.com/bkMSFT/status/1164881831830929411","https://www.zdnet.com/article/a-chinese-apt-is-now-going-after-pulse-secure-and-fortinet-vpn-servers/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "unknown"
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G1023
-    source_retrieved_at: '2026-04-26T05:24:31Z'
-source: MITRE ATT&CK
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G1023"
+    source_retrieved_at: "2026-04-26T05:24:31Z"
+source: "MITRE ATT&CK"

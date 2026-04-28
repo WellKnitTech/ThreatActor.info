@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "MAGNETIC SPIDER"
-aliases: ["MAGNETIC SPIDER"]
+aliases: ["MAGNETIC SPIDER", "Magnetic Spider"]
 description: "MAGNETIC SPIDER is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /magnetic-spider/
 ---

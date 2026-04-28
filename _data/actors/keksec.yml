@@ -1,14 +1,19 @@
----
-name: Keksec
-aliases:
-- Keksec
-description: The threat group behind EnemyBot, Keksec, is well-resourced and has the
-  ability to update and add new capabilities to its arsenal of malware on a daily
-  basis (see below for more detail on Keksec)
+name: "Keksec"
+aliases: ["Keksec","FreakOut","Necro","Kek Security"]
+description: "The threat group behind EnemyBot, Keksec, is well-resourced and has the ability to update and add new capabilities to its arsenal of malware on a daily basis (see below for more detail on Keksec)"
 url: "/keksec"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "EnemyBot"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://research.checkpoint.com/2021/freakout-leveraging-newest-vulnerabilities-for-creating-a-botnet/","https://blog.netlab.360.com/not-really-new-pyhton-ddos-bot-n3cr0m0rph-necromorph/","https://blog.netlab.360.com/necro-shi-yong-tor-dong-tai-yu-ming-dga-shuang-sha-windows-linux/","https://www.lacework.com/blog/the-kek-security-network/","https://www.uptycs.com/blog/discovery-of-simps-botnet-leads-ties-to-keksec-group","https://www.lacework.com/blog/keksec-tsunami-ryuk/","https://vblocalhost.com/uploads/VB2021-Jin-Tu.pdf","https://www.fortinet.com/blog/threat-research/enemybot-a-look-into-keksecs-latest-ddos-botnet"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "unknown"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 39ef9941-4f9c-4807-ab10-88e863ce7953
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "39ef9941-4f9c-4807-ab10-88e863ce7953"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

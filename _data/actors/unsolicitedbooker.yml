@@ -1,25 +1,12 @@
----
-name: UnsolicitedBooker
-aliases:
-- UnsolicitedBooker
-description: UnsolicitedBooker is a China-aligned APT group known for its persistent
-  targeting of an unnamed international organization in Saudi Arabia, employing a
-  backdoor called MarsSnake. The group utilizes spear-phishing emails, often featuring
-  flight tickets as decoys, to infiltrate governmental organizations across Asia,
-  Africa, and the Middle East. Their operations have included multiple intrusion attempts
-  over several years, demonstrating a sustained interest in their target. MarsSnake
-  provides significant control over infected machines, allowing for arbitrary command
-  execution and file access.
+name: "UnsolicitedBooker"
+aliases: ["UnsolicitedBooker"]
+description: "UnsolicitedBooker is a China-aligned APT group known for its persistent targeting of an unnamed international organization in Saudi Arabia, employing a backdoor called MarsSnake. The group utilizes spear-phishing emails, often featuring flight tickets as decoys, to infiltrate governmental organizations across Asia, Africa, and the Middle East. Their operations have included multiple intrusion attempts over several years, demonstrating a sustained interest in their target. MarsSnake provides significant control over infected machines, allowing for arbitrary command execution and file access."
 url: "/unsolicitedbooker"
-country: China
-malware:
-- Backdoor.Oldrea
-- China Chopper
-- Arabian-Attacker RAT
-- CrossRat
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Backdoor.Oldrea","China Chopper","Arabian-Attacker RAT","CrossRat"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: e04cecf6-93a6-4810-886d-cb2e767abb81
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "e04cecf6-93a6-4810-886d-cb2e767abb81"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

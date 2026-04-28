@@ -1,35 +1,23 @@
----
-name: UNC5325
-aliases:
-- UNC5325
-description: UNC5325 is a suspected Chinese cyber espionage operator that exploited
-  CVE-2024-21893 to compromise Ivanti Connect Secure appliances. UNC5325 leveraged
-  code from open-source projects, installed custom malware, and modified the appliance's
-  settings in order to evade detection and attempt to maintain persistence. UNC5325
-  has been observed deploying LITTLELAMB.WOOLTEA, PITSTOP, PITDOG, PITJET, and PITHOOK.
-  Mandiant identified TTPs and malware code overlaps in LITTLELAMB.WOOLTEA and PITHOOK
-  with malware leveraged by UNC3886. Mandiant assesses with moderate confidence that
-  UNC5325 is associated with UNC3886.
+name: "UNC5325"
+aliases: ["UNC5325"]
+description: "UNC5325 is a suspected Chinese cyber espionage operator that exploited CVE-2024-21893 to compromise Ivanti Connect Secure appliances. UNC5325 leveraged code from open-source projects, installed custom malware, and modified the appliance's settings in order to evade detection and attempt to maintain persistence. UNC5325 has been observed deploying LITTLELAMB.WOOLTEA, PITSTOP, PITDOG, PITJET, and PITHOOK. Mandiant identified TTPs and malware code overlaps in LITTLELAMB.WOOLTEA and PITHOOK with malware leveraged by UNC3886. Mandiant assesses with moderate confidence that UNC5325 is associated with UNC3886."
 url: "/unc5325"
-country: China
-malware:
-- CyberGate
-- Cyber Eye RAT
-- Xploit
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CyberGate","Cyber Eye RAT","Xploit"]
 provenance:
   bushido_breach_reports:
-    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
-    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
-    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
-    source_retrieved_at: "2026-04-28T01:40:03Z"
     reports:
       - organization: "MITRE"
         breach_date: "April 2024"
         adversary_label: "UTA0178/UNC5325 (CN APT)"
         links: ["https://medium.com/mitre-engenuity/advanced-cyber-threats-impact-even-the-most-prepared-56444e980dc8"]
         archived_links: ["https://web.archive.org/web/20240422095324/https://medium.com/mitre-engenuity/advanced-cyber-threats-impact-even-the-most-prepared-56444e980dc8"]
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_retrieved_at: "2026-04-28T01:40:03Z"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: ffb28c09-16a6-483a-817a-89c89751c9d4
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "ffb28c09-16a6-483a-817a-89c89751c9d4"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

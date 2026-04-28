@@ -1,27 +1,12 @@
----
-name: REF7707
-aliases:
-- CL-STA-0049
-- Jewelbug
-- REF7707
-description: REF7707 is a cyber campaign targeting government entities, particularly
-  a foreign ministry in South America, utilizing malware families such as FinalDraft,
-  GuidLoader, and PathLoader for persistence and lateral movement. The threat actor
-  employs the Microsoft Graph API for C2 communication, blending malicious traffic
-  with legitimate activity to evade detection. Despite their technical sophistication,
-  REF7707 operators exhibited poor operational security, leading to the exposure of
-  their infrastructure and malware. Their tactics enable the extraction of sensitive
-  data, including passwords and Active Directory information, facilitating ongoing
-  espionage activities.
+name: "REF7707"
+aliases: ["CL-STA-0049","Jewelbug","REF7707"]
+description: "REF7707 is a cyber campaign targeting government entities, particularly a foreign ministry in South America, utilizing malware families such as FinalDraft, GuidLoader, and PathLoader for persistence and lateral movement. The threat actor employs the Microsoft Graph API for C2 communication, blending malicious traffic with legitimate activity to evade detection. Despite their technical sophistication, REF7707 operators exhibited poor operational security, leading to the exposure of their infrastructure and malware. Their tactics enable the extraction of sensitive data, including passwords and Active Directory information, facilitating ongoing espionage activities."
 url: "/ref7707"
-country: China
-malware:
-- CyberGate
-- Cyber Eye RAT
-- GraphicBooting
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CyberGate","Cyber Eye RAT","GraphicBooting"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: ff080026-9df7-4874-ad04-0c7d4dcb3e7f
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "ff080026-9df7-4874-ad04-0c7d4dcb3e7f"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

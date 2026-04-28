@@ -1,21 +1,12 @@
----
-name: OldGremlin
-aliases:
-- OldGremlin
-description: OldGremlin is a Russian-speaking ransomware group that has been active
-  for several years. They primarily target organizations in Russia, including banks,
-  logistics, industrial, insurance, retail, and IT companies. OldGremlin is known
-  for using phishing emails as an initial infection vector and has developed custom
-  malware for both Windows and Linux systems. They have conducted multiple malicious
-  email campaigns and demand large ransoms from their victims, with some reaching
-  millions of dollars.
+name: "OldGremlin"
+aliases: ["OldGremlin"]
+description: "OldGremlin is a Russian-speaking ransomware group that has been active for several years. They primarily target organizations in Russia, including banks, logistics, industrial, insurance, retail, and IT companies. OldGremlin is known for using phishing emails as an initial infection vector and has developed custom malware for both Windows and Linux systems. They have conducted multiple malicious email campaigns and demand large ransoms from their victims, with some reaching millions of dollars."
 url: "/oldgremlin"
-country: Russia
-malware:
-- Windows Remote Desktop
+country: "Russia"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Windows Remote Desktop"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: ad8b73df-c526-4a32-b52f-c7c3c4c058d2
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "ad8b73df-c526-4a32-b52f-c7c3c4c058d2"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

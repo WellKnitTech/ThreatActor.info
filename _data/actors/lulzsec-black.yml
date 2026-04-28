@@ -1,27 +1,11 @@
----
-name: LulzSec Black
-aliases:
-- LulzSec Black
-description: LulzSec Black is a hacktivist group that has claimed responsibility for
-  coordinated DDoS attacks against Cyprus' government and critical infrastructure
-  in response to the country's support for Israel. They have also announced cyberattacks
-  targeting the UAE, including breaches of a government website and Alfa Electronics,
-  asserting these actions are in support of Palestine. The group has indicated intentions
-  for further attacks and has not provided independently verifiable evidence of their
-  claims. Their operations reflect a focus on disrupting services and compromising
-  data as part of their political agenda.
+name: "LulzSec Black"
+aliases: ["LulzSec Black"]
+description: "LulzSec Black is a hacktivist group that has claimed responsibility for coordinated DDoS attacks against Cyprus' government and critical infrastructure in response to the country's support for Israel. They have also announced cyberattacks targeting the UAE, including breaches of a government website and Alfa Electronics, asserting these actions are in support of Palestine. The group has indicated intentions for further attacks and has not provided independently verifiable evidence of their claims. Their operations reflect a focus on disrupting services and compromising data as part of their political agenda."
 url: "/lulzsec-black"
-malware:
-- BlackEnergy
-- BLACKCOFFEE
-- Blackshades
-- BlackNix
-- CyberGate
-- Cyber Eye RAT
-- BlackHole
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["BlackEnergy","BLACKCOFFEE","Blackshades","BlackNix","CyberGate","Cyber Eye RAT","BlackHole"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: a86b67d2-fc94-4c1b-91e1-949c969176ed
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "a86b67d2-fc94-4c1b-91e1-949c969176ed"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

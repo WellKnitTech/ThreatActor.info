@@ -1,23 +1,12 @@
----
-name: DiceyF
-aliases:
-- DiceyF
-description: DiceyF is an advanced persistent threat group that has been targeting
-  online casinos and other victims in Southeast Asia for an extended period. They
-  have exhibited overlapping activity with LuckyStar PlugX and Earth Berberoka/GamblingPuppet,
-  as reported by various cybersecurity vendors. While their motivations remain unclear,
-  previous incidents suggest a combination of espionage and intellectual property
-  theft rather than immediate financial gain. DiceyF continuously evolves their codebase
-  and adds encryption capabilities to enhance their stealthy cyberespionage activities.
+name: "DiceyF"
+aliases: ["DiceyF"]
+description: "DiceyF is an advanced persistent threat group that has been targeting online casinos and other victims in Southeast Asia for an extended period. They have exhibited overlapping activity with LuckyStar PlugX and Earth Berberoka/GamblingPuppet, as reported by various cybersecurity vendors. While their motivations remain unclear, previous incidents suggest a combination of espionage and intellectual property theft rather than immediate financial gain. DiceyF continuously evolves their codebase and adds encryption capabilities to enhance their stealthy cyberespionage activities."
 url: "/diceyf"
-country: China
-malware:
-- PlugX
-- CyberGate
-- Cyber Eye RAT
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["PlugX","CyberGate","Cyber Eye RAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 46de4091-379f-478c-bb6d-5833e2047f15
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "46de4091-379f-478c-bb6d-5833e2047f15"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

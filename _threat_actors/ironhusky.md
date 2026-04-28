@@ -31,6 +31,8 @@ IronHusky is a Chinese-based threat actor first attributed in July 2017 targetin
 - **Trojan.Mebromi**
 - **Remote Utilities**
 - **RemotePC**
+- **MysterySnail**: 
+- **CVE-2021-40449**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

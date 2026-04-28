@@ -31,6 +31,25 @@ Denim Tsunami is a threat actor group that has been involved in targeted attacks
 - **Windows Remote Desktop**
 - **RemotePC**
 - **Xploit**
+- **Chisel**: 
+- **mimikatz**: 
+- **SharpHound3**: 
+- **Curl**: 
+- **Ping Castle**: 
+- **SharpOxidResolver**: 
+- **Grouper2**: 
+- **Rubeus**: 
+- **PharpPrinter**: 
+- **Internal Monologue**: 
+- **SCShell**: 
+- **SpoolSample**: 
+- **Inveigh**: 
+- **Seatbelt**: 
+- **StandIn**: 
+- **Lockless**: 
+- **SharpExec**: 
+- **Subzero**: 
+- **Jumplump**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Austria

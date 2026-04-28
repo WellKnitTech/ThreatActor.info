@@ -28,6 +28,12 @@ Storm Cloud is a Chinese espionage threat actor known for targeting organization
 ## Malware and Tools
 - **CloudDuke**
 - **CrossRat**
+- **Godlike12**: 
+- **SweetAlerts**: 
+- **BRAINDAMAGE**: 
+- **GOSLU**: 
+- **STITCH**: 
+- **PLUGDAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

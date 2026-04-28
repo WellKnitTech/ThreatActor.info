@@ -1,24 +1,26 @@
----
-name: Unit 8200
-aliases:
-- Duqu Group
-- Unit 8200
+name: "Unit 8200"
+aliases: ["Duqu Group","Unit 8200"]
+description: "Unit 8200 is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/unit-8200"
-country: Israel
-sector_focus:
-- Military
-- Government
-- Private sector
-targeted_victims:
-- Iran
-- Sudan
-incident_type: Espionage
-risk_level: High
+country: "Israel"
+sector_focus: ["Military","Government","Private sector"]
+targeted_victims: ["Iran","Sudan"]
+incident_type: "Espionage"
+risk_level: "High"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+operations: ["Olympic Games / Stuxnet","Duqu 2.0"]
+malware:
+  - name: "Stuxnet"
+  - name: "Duqu"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://securelist.com/blog/research/70504/the-mystery-of-duqu-2-0-a-sophisticated-cyberespionage-actor-returns/","https://securelist.com/files/2015/06/The_Mystery_of_Duqu_2_0_a_sophisticated_cyberespionage_actor_returns.pdf","http://www.wsj.com/articles/spy-virus-linked-to-israel-targeted-hotels-used-for-iran-nuclear-talks-1433937601","https://blog.crysys.hu/2018/03/territorial-dispute-nsas-perspective-on-apt-landscape/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "israel"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: e9a6cbd7-ca27-4894-ae20-9d11c06fdc02
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-description: Unit 8200 is a threat actor tracked by MISP Galaxy. Additional information
-  pending cataloguing.
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "e9a6cbd7-ca27-4894-ae20-9d11c06fdc02"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

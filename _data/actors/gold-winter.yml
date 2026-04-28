@@ -1,21 +1,11 @@
----
-name: GOLD WINTER
-aliases:
-- GOLD WINTER
-description: GOLD WINTER are a financially motivated group, likely based in Russia,
-  who operate the Hades ransomware. Hades activity was first identified in December
-  2020 and its lack of presence on underground forums and marketplaces leads CTU researchers
-  to conclude that it is not operated under a ransomware as a service affiliate model.
-  GOLD WINTER do employ name-and-shame tactics, where data is stolen and used as additional
-  leverage over victims, but rather than a single centralized leak site CTU researchers
-  have observed the group using Tor sites customized for each victim that include
-  a Tox chat ID for communication, which also appears to be unique for each victim.
+name: "GOLD WINTER"
+aliases: ["GOLD WINTER"]
+description: "GOLD WINTER are a financially motivated group, likely based in Russia, who operate the Hades ransomware. Hades activity was first identified in December 2020 and its lack of presence on underground forums and marketplaces leads CTU researchers to conclude that it is not operated under a ransomware as a service affiliate model. GOLD WINTER do employ name-and-shame tactics, where data is stolen and used as additional leverage over victims, but rather than a single centralized leak site CTU researchers have observed the group using Tor sites customized for each victim that include a Tox chat ID for communication, which also appears to be unique for each victim."
 url: "/gold-winter"
-malware:
-- Archelaus Beta
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Archelaus Beta"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 6c514d9d-e2fa-45a5-a938-9a461f69ad2d
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "6c514d9d-e2fa-45a5-a938-9a461f69ad2d"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

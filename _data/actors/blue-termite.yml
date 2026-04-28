@@ -1,24 +1,26 @@
----
-name: Blue Termite
-aliases:
-- Cloudy Omega
-- Emdivi
-- Blue Termite
-description: Blue Termite is a group of suspected Chinese origin active in Japan.
+name: "Blue Termite"
+aliases: ["Cloudy Omega","Emdivi","Blue Termite"]
+description: "Blue Termite is a group of suspected Chinese origin active in Japan."
 url: "/blue-termite"
-country: China
-sector_focus:
-- Government
-- Private sector
-targeted_victims:
-- Japan
-incident_type: Espionage
-risk_level: High
+country: "China"
+sector_focus: ["Government","Private sector"]
+targeted_victims: ["Japan"]
+incident_type: "Espionage"
+risk_level: "High"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+operations: ["Blue Termite"]
 malware:
-- Blue Banana
+  - "Blue Banana"
+  - name: "Emdivi"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["http://www.kaspersky.com/about/news/virus/2015/Blue-Termite-A-Sophisticated-Cyber-Espionage-Campaign-is-After-High-Profile-Japanese-Targets","https://web.archive.org/web/20160303010953/http://www.kaspersky.com/about/news/virus/2015/Blue-Termite-A-Sophisticated-Cyber-Espionage-Campaign-is-After-High-Profile-Japanese-Targets","http://www.symantec.com/connect/blogs/operation-cloudyomega-ichitaro-zero-day-and-ongoing-cyberespionage-campaign-targeting-japan","http://blog.trendmicro.com/trendlabs-security-intelligence/attackers-target-organizations-in-japan-transform-local-sites-into-cc-servers-for-emdivi-backdoor/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "unknown"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: a250af72-f66c-4d02-9f36-ab764ce9fe85
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "a250af72-f66c-4d02-9f36-ab764ce9fe85"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

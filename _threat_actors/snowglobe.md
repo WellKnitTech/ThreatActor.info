@@ -37,6 +37,13 @@ In 2014, researchers at Kaspersky Lab discovered and reported on three zero-days
 - **CyberGate**
 - **Cyber Eye RAT**
 - **Archelaus Beta**
+- **Babar**: 
+- **Bunny**: 
+- **Dino**: 
+- **Casper**: 
+- **Tafacalou**: 
+- **NBot**: 
+- **Chocopop**: 
 
 ## Attribution and Evidence
 **Country of Origin**: France

@@ -1,13 +1,10 @@
----
-name: Operation Cobalt Whisper
-aliases:
-- Operation Cobalt Whisper
+name: "Operation Cobalt Whisper"
+aliases: ["Operation Cobalt Whisper"]
+description: "Operation Cobalt Whisper is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/operation-cobalt-whisper"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 75d2d875-6e49-4152-b055-62337b0a22df
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-description: Operation Cobalt Whisper is a threat actor tracked by MISP Galaxy. Additional
-  information pending cataloguing.
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "75d2d875-6e49-4152-b055-62337b0a22df"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

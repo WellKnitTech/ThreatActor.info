@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "ANTHROPOID SPIDER"
-aliases: ["Empire Monkey", "CobaltGoblin", "ANTHROPOID SPIDER"]
+aliases: ["Empire Monkey", "CobaltGoblin", "ANTHROPOID SPIDER", "EmpireMonkey"]
 description: "Publicly known as 'EmpireMonkey', ANTHROPOID SPIDER conducted phishing campaigns in February and March 2019, spoofing French, Norwegian and Belizean financial regulators and institutions. These campaig"
 permalink: /anthropoid-spider/
 ---

@@ -1,18 +1,17 @@
----
-name: Cyber Caliphate Army
-aliases:
-- Islamic State Hacking Division
-- CCA
-- United Cyber Caliphate
-- UUC
-- CyberCaliphate
-- Cyber Caliphate Army
+name: "Cyber Caliphate Army"
+aliases: ["Islamic State Hacking Division","CCA","United Cyber Caliphate","UUC","CyberCaliphate","Cyber Caliphate Army","United Cyber Caliphate (UCC)","Cyber Caliphate Army (CCA)"]
+description: "Cyber Caliphate Army is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/cyber-caliphate-army"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://ent.siteintelgroup.com/index.php?option=com_customproperties&view=search&task=tag&bind_to_category=content:37&tagId=697","https://en.wikipedia.org/wiki/Islamic_State_Hacking_Division"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "middle-east"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 76f6ad4e-2ff3-4ccb-b81d-18162f290af0
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-description: Cyber Caliphate Army is a threat actor tracked by MISP Galaxy. Additional
-  information pending cataloguing.
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "76f6ad4e-2ff3-4ccb-b81d-18162f290af0"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

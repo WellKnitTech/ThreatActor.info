@@ -1,26 +1,11 @@
----
-name: PhantomControl
-aliases:
-- PhantomControl
-description: PhantomControl is a sophisticated threat actor that emerged in November
-  2023. They utilize phishing emails as their initial infection vector and employ
-  a ScreenConnect client to establish a connection for their malicious activities.
-  Their arsenal includes a VBS script that hides its true intentions and reveals a
-  complex mechanism involving PowerShell scripts and image-based data retrieval. PhantomControl
-  has been associated with the Blind Eagle threat actors, showcasing their versatility
-  and reach.
+name: "PhantomControl"
+aliases: ["PhantomControl"]
+description: "PhantomControl is a sophisticated threat actor that emerged in November 2023. They utilize phishing emails as their initial infection vector and employ a ScreenConnect client to establish a connection for their malicious activities. Their arsenal includes a VBS script that hides its true intentions and reveals a complex mechanism involving PowerShell scripts and image-based data retrieval. PhantomControl has been associated with the Blind Eagle threat actors, showcasing their versatility and reach."
 url: "/phantomcontrol"
-malware:
-- PowerDuke
-- POWERSTATS
-- Power Loader
-- POWERSOURCE
-- ClientMesh
-- Client Maximus
-- PowerRAT
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["PowerDuke","POWERSTATS","Power Loader","POWERSOURCE","ClientMesh","Client Maximus","PowerRAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: a2208d56-8f08-4ca3-a304-8bdc334b5ebf
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "a2208d56-8f08-4ca3-a304-8bdc334b5ebf"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

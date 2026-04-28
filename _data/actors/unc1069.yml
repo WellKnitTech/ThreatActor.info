@@ -1,25 +1,12 @@
----
-name: UNC1069
-aliases:
-- MASAN
-- CryptoCore
-- UNC1069
-description: CryptoCore is a North Korean APT known for targeting cryptocurrency exchanges
-  and financial institutions, employing spear-phishing techniques that lead to LONEJOGGER
-  malware infections. The group has leveraged social engineering tactics, including
-  deepfake technology and hijacked YouTube accounts, to execute sophisticated giveaway
-  scams that deceive victims into sending cryptocurrencies. Their operations have
-  involved the misuse of platforms like Gemini for reconnaissance and the development
-  of fraudulent content. Additionally, CryptoCore has been linked to a variety of
-  campaigns, including Dangerous Password and SnatchCrypto, focusing on financial
-  gain through cryptocurrency theft.
+name: "UNC1069"
+aliases: ["MASAN","CryptoCore","UNC1069"]
+description: "CryptoCore is a North Korean APT known for targeting cryptocurrency exchanges and financial institutions, employing spear-phishing techniques that lead to LONEJOGGER malware infections. The group has leveraged social engineering tactics, including deepfake technology and hijacked YouTube accounts, to execute sophisticated giveaway scams that deceive victims into sending cryptocurrencies. Their operations have involved the misuse of platforms like Gemini for reconnaissance and the development of fraudulent content. Additionally, CryptoCore has been linked to a variety of campaigns, including Dangerous Password and SnatchCrypto, focusing on financial gain through cryptocurrency theft."
 url: "/unc1069"
-country: North Korea
-malware:
-- GeminiDuke
+country: "North Korea"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["GeminiDuke"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: b7e897da-108b-4f5b-b32b-3fd9375cc55e
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "b7e897da-108b-4f5b-b32b-3fd9375cc55e"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

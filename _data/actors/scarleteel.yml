@@ -1,20 +1,18 @@
----
-name: SCARLETEEL
-aliases:
-- SCARLETEEL
-description: SCARLETEEL is a threat actor that primarily targets cloud environments,
-  specifically AWS and Kubernetes. They have been observed stealing proprietary data
-  and intellectual property, as well as conducting cryptomining operations. SCARLETEEL
-  employs sophisticated tactics and tools to bypass security measures and gain unauthorized
-  access to accounts, often exploiting vulnerabilities in containerized workloads
-  and misconfigurations in AWS policies.
+name: "SCARLETEEL"
+aliases: ["SCARLETEEL","ScarletEel"]
+description: "SCARLETEEL is a threat actor that primarily targets cloud environments, specifically AWS and Kubernetes. They have been observed stealing proprietary data and intellectual property, as well as conducting cryptomining operations. SCARLETEEL employs sophisticated tactics and tools to bypass security measures and gain unauthorized access to accounts, often exploiting vulnerabilities in containerized workloads and misconfigurations in AWS policies."
 url: "/scarleteel"
-malware:
-- CloudDuke
-- Xploit
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CloudDuke","Xploit"]
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://sysdig.com/blog/cloud-breach-terraform-data-theft/","https://www.scmagazine.com/news/cloud-security/scarleteel-targets-aws-fargate-launches-ddos-as-a-service-campaigns"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "unknown"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: e03a7ecb-b8a1-40c5-b5af-638ee6029374
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "e03a7ecb-b8a1-40c5-b5af-638ee6029374"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

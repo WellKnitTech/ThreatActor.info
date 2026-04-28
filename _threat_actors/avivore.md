@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Avivore"
-aliases: ["Avivore"]
+aliases: ["Avivore", "AVIVORE"]
 description: "The group’s existence came to light during Context’s investigation of a number of attacks against multinational enterprises that compromise smaller engineering services and consultancies working in the"
 permalink: /avivore/
 ---
@@ -27,6 +27,9 @@ The group’s existence came to light during Context’s investigation of a numb
 
 ## Malware and Tools
 - **Small-Net**
+- **PlugX**: 
+- **Mimikatz**: 
+- **WmiExec**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

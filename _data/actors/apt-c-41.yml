@@ -1,17 +1,14 @@
-name: 蓝色魔眼 - APT-C-41
-aliases:
-- 蓝色魔眼 - APT-C-41
-description: APT-C-41,是一个具有土耳其背景的APT小组，该APT组织最早的攻击活动可以追溯到2012年。该组织主要针对意大利、土耳其、比利时、叙利亚、欧洲等地区和国家进行攻击活动。2020年，360发现了该组织针对我国相关单位的攻击，并将其命名为APT-C-41。
+name: "蓝色魔眼 - APT-C-41"
+aliases: ["蓝色魔眼 - APT-C-41"]
+description: "APT-C-41,是一个具有土耳其背景的APT小组，该APT组织最早的攻击活动可以追溯到2012年。该组织主要针对意大利、土耳其、比利时、叙利亚、欧洲等地区和国家进行攻击活动。2020年，360发现了该组织针对我国相关单位的攻击，并将其命名为APT-C-41。"
 url: "/apt-c-41"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_cluster: 360net.json
-    source_clusters:
-    - 360net.json
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json
-    source_record_id: 75122408-5db4-5ac2-a156-88a8f149e738
-    source_record_ids:
-    - 75122408-5db4-5ac2-a156-88a8f149e738
-    source_retrieved_at: '2026-04-28T04:13:45Z'
-source_name: MISP Galaxy
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_cluster: "360net.json"
+    source_clusters: ["360net.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json"
+    source_record_id: "75122408-5db4-5ac2-a156-88a8f149e738"
+    source_record_ids: ["75122408-5db4-5ac2-a156-88a8f149e738"]
+    source_retrieved_at: "2026-04-28T04:13:45Z"

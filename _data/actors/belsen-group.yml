@@ -1,24 +1,11 @@
----
-name: Belsen Group
-aliases:
-- Belsen Group
-description: The Belsen Group has exploited the CVE-2022-40684 vulnerability in Fortinet
-  devices to compromise over 15,000 FortiGate firewalls, releasing detailed configurations
-  and plaintext VPN credentials. Their leaked data, organized by country and IP address,
-  primarily consists of configurations from FortiOS 7.0.6 and 7.2.1, which were the
-  last vulnerable versions before patches were issued. Security researcher Kevin Beaumont
-  confirmed that the group leveraged this vulnerability to gain unauthorized access
-  and warned of potential exploitation of CVE-2024-55591 by similar threat actors.
-  Fortinet has stated that the leaked data originates from older campaigns and not
-  from any recent incidents.
+name: "Belsen Group"
+aliases: ["Belsen Group"]
+description: "The Belsen Group has exploited the CVE-2022-40684 vulnerability in Fortinet devices to compromise over 15,000 FortiGate firewalls, releasing detailed configurations and plaintext VPN credentials. Their leaked data, organized by country and IP address, primarily consists of configurations from FortiOS 7.0.6 and 7.2.1, which were the last vulnerable versions before patches were issued. Security researcher Kevin Beaumont confirmed that the group leveraged this vulnerability to gain unauthorized access and warned of potential exploitation of CVE-2024-55591 by similar threat actors. Fortinet has stated that the leaked data originates from older campaigns and not from any recent incidents."
 url: "/belsen-group"
-malware:
-- Net Devil
-- Xploit
-- Archelaus Beta
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Net Devil","Xploit","Archelaus Beta"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 3ef31ccd-60a9-4abc-a1a3-713ce625cbb7
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "3ef31ccd-60a9-4abc-a1a3-713ce625cbb7"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

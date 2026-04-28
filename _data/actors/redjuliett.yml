@@ -1,24 +1,12 @@
----
-name: RedJuliett
-aliases:
-- RedJuliett
-description: RedJuliett is a likely Chinese state-sponsored threat actor targeting
-  government, academic, technology, and diplomatic organizations in Taiwan. They exploit
-  vulnerabilities in network edge devices for initial access and use SQL injection
-  and directory traversal exploits against web and SQL applications. The group operates
-  from Fuzhou, China, and aims to support Beijing's intelligence collection on Taiwan's
-  economic and diplomatic relations. RedJuliett has also expanded its operations to
-  compromise organizations in other countries such as Hong Kong, Malaysia, and the
-  United States.
+name: "RedJuliett"
+aliases: ["RedJuliett"]
+description: "RedJuliett is a likely Chinese state-sponsored threat actor targeting government, academic, technology, and diplomatic organizations in Taiwan. They exploit vulnerabilities in network edge devices for initial access and use SQL injection and directory traversal exploits against web and SQL applications. The group operates from Fuzhou, China, and aims to support Beijing's intelligence collection on Taiwan's economic and diplomatic relations. RedJuliett has also expanded its operations to compromise organizations in other countries such as Hong Kong, Malaysia, and the United States."
 url: "/redjuliett"
-country: China
-malware:
-- China Chopper
-- UNITEDRAKE
-- Xploit
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["China Chopper","UNITEDRAKE","Xploit"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: d20f5398-a362-4c88-b3fb-7e952dcf3948
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "d20f5398-a362-4c88-b3fb-7e952dcf3948"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

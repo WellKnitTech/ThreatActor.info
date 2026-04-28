@@ -1,17 +1,18 @@
----
-name: RansomHouse
-aliases:
-- RansomHouse
-description: This group started operating during the first quarter of 2022. They published
-  samples of alleged stolen data from companies on their site on Tor. It is unclear
-  if they conducted the attacks themselves, or if they bought leaked databases from
-  third parties.
+name: "RansomHouse"
+aliases: ["RansomHouse"]
+description: "This group started operating during the first quarter of 2022. They published samples of alleged stolen data from companies on their site on Tor. It is unclear if they conducted the attacks themselves, or if they bought leaked databases from third parties."
 url: "/ransomhouse"
-sector_focus:
-- Private sector
+sector_focus: ["Private sector"]
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://techcrunch.com/2022/06/28/amd-extortion-ransomhouse/","https://webz.io/dwp/new-ransomware-group-ransomhouse-is-it-real-or-fake/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "unknown"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 4d522fad-452c-46be-94ea-5803aec9b709
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "4d522fad-452c-46be-94ea-5803aec9b709"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

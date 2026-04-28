@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Cold River"
-aliases: ["Nahr Elbard", "Nahr el bared", "Cold River"]
+aliases: ["Nahr Elbard", "Nahr el bared", "Cold River", "Callisto", "TA446", "SEABORGIUM", "Calisto", "TAG-53", "COLDRIVER"]
 description: "In short, “Cold River” is a sophisticated threat (actor) that utilizes DNS subdomain hijacking, certificate spoofing, and covert tunneled command and control traffic in combination with complex and con"
 permalink: /cold-river/
 ---
@@ -10,7 +10,11 @@ permalink: /cold-river/
 In short, “Cold River” is a sophisticated threat (actor) that utilizes DNS subdomain hijacking, certificate spoofing, and covert tunneled command and control traffic in combination with complex and convincing lure documents and custom implants.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇷🇺 Russia
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -29,7 +33,8 @@ In short, “Cold River” is a sophisticated threat (actor) that utilizes DNS s
 | OffSec | EvilGinx |
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Russia
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

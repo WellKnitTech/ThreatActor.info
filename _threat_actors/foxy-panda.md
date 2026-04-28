@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "FOXY PANDA"
-aliases: ["FOXY PANDA"]
+aliases: ["FOXY PANDA", "Foxy Panda"]
 description: "Adversary group targeting telecommunication and technology organizations."
 permalink: /foxy-panda/
 ---

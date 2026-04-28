@@ -1,5 +1,5 @@
 name: "APT19"
-aliases: ["APT19","Black Vine","BRONZE FIRESTONE","C0d0so0","Checkered Typhoon","Codoso","Codoso Team","DEEP PANDA","G0009","G0073","Group 13","KungFu Kittens","PinkPanther","Pupa","Shell Crew","Sunshop Group","TEMP.Avengers","WebMasters"]
+aliases: ["APT19","Black Vine","BRONZE FIRESTONE","C0d0so0","Checkered Typhoon","Codoso","Codoso Team","DEEP PANDA","G0009","G0073","Group 13","KungFu Kittens","PinkPanther","Pupa","Shell Crew","Sunshop Group","TEMP.Avengers","WebMasters","C0d0so"]
 description: "APT19 is a Chinese-based threat group that has targeted a variety of industries, including defense, finance, energy, pharmaceutical, telecommunications, high tech, education, manufacturing, and legal services. In 2017, a phishing campaign was used to target seven law and investment firms. (Citation: FireEye APT19) Some analysts track APT19 and Deep Panda as the same group, but it is unclear from open source information if the groups are the same. (Citation: ICIT China's Espionage Jul 2016) (Citation: FireEye APT Groups) (Citation: Unit 42 C0d0so0 Jan 2016)"
 url: "/apt0073"
 country: "China"
@@ -11,8 +11,21 @@ external_id: "G0073"
 external_url: "https://attack.mitre.org/groups/G0073"
 mitre_id: "G0073"
 mitre_url: "https://attack.mitre.org/groups/G0073"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+operations: ["Bassos Campaign"]
+malware:
+  - name: "Bergard Trojan"
+  - name: "Derusbi"
+  - name: "TXER"
 provenance:
+  apt_groups_operations:
+    matched_mitre_ids: ["G0073"]
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks","http://www.isightpartners.com/2015/02/codoso/#sthash.VJMDVPQB.dpuf","http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/","https://www.proofpoint.com/us/threat-insight/post/exploring-bergard-old-malware-new-tricks","https://cybergeeks.tech/analyzing-apt19-malware-using-a-step-by-step-method/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0073"

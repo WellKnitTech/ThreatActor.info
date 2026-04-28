@@ -1,14 +1,10 @@
----
-name: GURU SPIDER
-aliases:
-- GURU SPIDER
-description: Early in 2018, CrowdStrike Intelligence observed GURU SPIDER supporting
-  the distribution of multiple crimeware families through its flagship malware loader,
-  Quant Loader.
+name: "GURU SPIDER"
+aliases: ["GURU SPIDER"]
+description: "Early in 2018, CrowdStrike Intelligence observed GURU SPIDER supporting the distribution of multiple crimeware families through its flagship malware loader, Quant Loader."
 url: "/guru-spider"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 0a667713-bc31-4a72-9ea3-34fc094a9dde
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "0a667713-bc31-4a72-9ea3-34fc094a9dde"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "PALE PANDA"
-aliases: ["PALE PANDA"]
+aliases: ["PALE PANDA", "Pale Panda"]
 description: "PALE PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /pale-panda/
 ---
@@ -27,7 +27,7 @@ PALE PANDA is a threat actor tracked by MISP Galaxy. Additional information pend
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **PlugX**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

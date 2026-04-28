@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "ELOQUENT PANDA"
-aliases: ["ELOQUENT PANDA"]
+aliases: ["ELOQUENT PANDA", "Eloquent Panda"]
 description: "ELOQUENT PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /eloquent-panda/
 ---

@@ -1,29 +1,16 @@
----
-name: Evasive Panda
-aliases:
-- BRONZE HIGHLAND
-- Evasive Panda
-description: Evasive Panda is an APT group that has been active since at least 2012,
-  conducting cyberespionage targeting individuals, government institutions and organizations.
+name: "Evasive Panda"
+aliases: ["BRONZE HIGHLAND","Evasive Panda"]
+description: "Evasive Panda is an APT group that has been active since at least 2012, conducting cyberespionage targeting individuals, government institutions and organizations."
 url: "/evasive-panda"
-country: China
-sector_focus:
-- Government
-- Individuals
-- Universities
-targeted_victims:
-- Hong Kong
-- India
-- Malaysia
-- Taiwan
-incident_type: Espionage
-risk_level: High
-malware:
-- CyberGate
-- Cyber Eye RAT
+country: "China"
+sector_focus: ["Government","Individuals","Universities"]
+targeted_victims: ["Hong Kong","India","Malaysia","Taiwan"]
+incident_type: "Espionage"
+risk_level: "High"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CyberGate","Cyber Eye RAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 171d0590-be92-443f-addb-af5dc2a8034d
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "171d0590-be92-443f-addb-af5dc2a8034d"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,17 +1,24 @@
----
-name: Avivore
-aliases:
-- Avivore
-description: The group’s existence came to light during Context’s investigation of
-  a number of attacks against multinational enterprises that compromise smaller engineering
-  services and consultancies working in their supply chains.
+name: "Avivore"
+aliases: ["Avivore","AVIVORE"]
+description: "The group’s existence came to light during Context’s investigation of a number of attacks against multinational enterprises that compromise smaller engineering services and consultancies working in their supply chains."
 url: "/avivore"
-country: China
+country: "China"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+operations: ["Airbus Attack"]
 malware:
-- Small-Net
+  - "Small-Net"
+  - name: "PlugX"
+  - name: "Mimikatz"
+  - name: "WmiExec"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.contextis.com/en/blog/avivore","https://www.cert.ssi.gouv.fr/uploads/CERTFR-2019-CTI-005.pdf"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 8045fc09-13d6-4f90-b239-ed5060b9297b
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "8045fc09-13d6-4f90-b239-ed5060b9297b"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

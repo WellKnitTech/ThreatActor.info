@@ -1,25 +1,12 @@
----
-name: TA829
-aliases:
-- TA829
-description: TA829 is a Russia-aligned threat actor that employs the RomCom RAT for
-  intelligence-gathering and financially motivated cyberattacks, exploiting zero-day
-  vulnerabilities in Mozilla Firefox and Microsoft Windows. The group utilizes REM
-  Proxy services hosted on compromised MikroTik routers to relay traffic and disguise
-  its origin. In their operations, victims targeted by TA829 receive a strain known
-  as SlipScreen, while their infrastructure and tactics show significant similarities
-  to those of UNK_GreenSec. TA829's hybrid approach combines espionage with financial
-  fraud, making it a notable player in the cyber threat landscape.
+name: "TA829"
+aliases: ["TA829"]
+description: "TA829 is a Russia-aligned threat actor that employs the RomCom RAT for intelligence-gathering and financially motivated cyberattacks, exploiting zero-day vulnerabilities in Mozilla Firefox and Microsoft Windows. The group utilizes REM Proxy services hosted on compromised MikroTik routers to relay traffic and disguise its origin. In their operations, victims targeted by TA829 receive a strain known as SlipScreen, while their infrastructure and tactics show significant similarities to those of UNK_GreenSec. TA829's hybrid approach combines espionage with financial fraud, making it a notable player in the cyber threat landscape."
 url: "/ta829"
-country: Russia
-malware:
-- CyberGate
-- Cyber Eye RAT
-- Windows Remote Desktop
-- Xploit
+country: "Russia"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CyberGate","Cyber Eye RAT","Windows Remote Desktop","Xploit"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: e9cba6d4-e413-4c53-8c84-7313f5c6aac5
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "e9cba6d4-e413-4c53-8c84-7313f5c6aac5"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

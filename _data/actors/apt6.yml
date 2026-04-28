@@ -1,25 +1,25 @@
----
-name: APT6
-aliases:
-- 1.php Group
-- APT6
-description: |-
-  The FBI issued a rare bulletin admitting that a group named Advanced Persistent Threat 6 (APT6) hacked into US government computer systems as far back as 2011 and for years stole sensitive data.
-  The FBI alert was issued in February and went largely unnoticed. Nearly a month later, security experts are now shining a bright light on the alert and the mysterious group behind the attack.
-  “This is a rare alert and a little late, but one that is welcomed by all security vendors as it offers a chance to mitigate their customers and also collaborate further in what appears to be an ongoing FBI investigation,” said Deepen Desai, director of security research at the security firm Zscaler in an email to Threatpost.
-  Details regarding the actual attack and what government systems were infected are scant. Government officials said they knew the initial attack occurred in 2011, but are unaware of who specifically is behind the attacks.
-  “Given the nature of malware payload involved and the duration of this compromise being unnoticed – the scope of lateral movement inside the compromised network is very high possibly exposing all the critical systems,”Deepen said.
+name: "APT6"
+aliases: ["1.php Group","APT6"]
+description: "The FBI issued a rare bulletin admitting that a group named Advanced Persistent Threat 6 (APT6) hacked into US government computer systems as far back as 2011 and for years stole sensitive data.\nThe FBI alert was issued in February and went largely unnoticed. Nearly a month later, security experts are now shining a bright light on the alert and the mysterious group behind the attack.\n“This is a rare alert and a little late, but one that is welcomed by all security vendors as it offers a chance to mitigate their customers and also collaborate further in what appears to be an ongoing FBI investigation,” said Deepen Desai, director of security research at the security firm Zscaler in an email to Threatpost.\nDetails regarding the actual attack and what government systems were infected are scant. Government officials said they knew the initial attack occurred in 2011, but are unaware of who specifically is behind the attacks.\n“Given the nature of malware payload involved and the duration of this compromise being unnoticed – the scope of lateral movement inside the compromised network is very high possibly exposing all the critical systems,”Deepen said."
 url: "/apt6"
-country: China
-risk_level: High
+country: "China"
+risk_level: "High"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware:
-- Back Orifice
-- Back Orifice 2000
-- Xpert
-- Deeper RAT
+  - "Back Orifice"
+  - "Back Orifice 2000"
+  - "Xpert"
+  - "Deeper RAT"
+  - name: "Poison Ivy"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://motherboard.vice.com/read/fbi-flash-alert-hacking-group-has-had-access-to-us-govt-files-for-years","https://www.zscaler.com/pdf/technicalbriefs/tb_advanced_persistent_threats.pdf","https://www.zscaler.com/blogs/research/1php-group-intrusion-set-paper","https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2011/tb_advanced_persistent_threats.pdf"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 1a2592a3-eab7-417c-bf2d-9c0558c2b3e7
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "1a2592a3-eab7-417c-bf2d-9c0558c2b3e7"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

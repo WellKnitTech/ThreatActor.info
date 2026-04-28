@@ -1,15 +1,12 @@
----
-name: APT.3102
-aliases:
-- APT.3102
+name: "APT.3102"
+aliases: ["APT.3102"]
+description: "APT.3102 is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/apt-3102"
-country: China
-risk_level: High
+country: "China"
+risk_level: "High"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: f33fd440-93ee-41e5-974a-be9343e18cdf
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-description: APT.3102 is a threat actor tracked by MISP Galaxy. Additional information
-  pending cataloguing.
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "f33fd440-93ee-41e5-974a-be9343e18cdf"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

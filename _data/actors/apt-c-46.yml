@@ -1,21 +1,15 @@
-name: 卢甘斯克组织 - APT-C-46
-aliases:
-- APT-C-46
-- 卢甘斯克组织 - APT-C-46
-description: 2019年初，国外安全厂商披露了一起疑似卢甘斯克背景的APT组织针对乌克兰政府的定向攻击活动，根据相关报告分析该组织的攻击活动至少可以追溯到2014年，曾大量通过网络钓鱼、水坑攻击等方式针对乌克兰政府机构进行攻击，在其过去的攻击活动中曾使用过开源Quasar
-  RAT和VERMIN等恶意软件，捕获目标的音频和视频，窃取密码，获取机密文件等等。
+name: "卢甘斯克组织 - APT-C-46"
+aliases: ["APT-C-46","卢甘斯克组织 - APT-C-46"]
+description: "2019年初，国外安全厂商披露了一起疑似卢甘斯克背景的APT组织针对乌克兰政府的定向攻击活动，根据相关报告分析该组织的攻击活动至少可以追溯到2014年，曾大量通过网络钓鱼、水坑攻击等方式针对乌克兰政府机构进行攻击，在其过去的攻击活动中曾使用过开源Quasar RAT和VERMIN等恶意软件，捕获目标的音频和视频，窃取密码，获取机密文件等等。"
 url: "/apt-c-46"
-malware:
-- Quasar RAT
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Quasar RAT"]
 provenance:
   misp_galaxy:
-    source_cluster: 360net.json
-    source_clusters:
-    - 360net.json
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json
-    source_record_id: a97037e7-7c3b-5cc2-ab4c-bd0432bc247a
-    source_record_ids:
-    - a97037e7-7c3b-5cc2-ab4c-bd0432bc247a
-    source_retrieved_at: '2026-04-28T04:13:45Z'
-source_name: MISP Galaxy
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_cluster: "360net.json"
+    source_clusters: ["360net.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json"
+    source_record_id: "a97037e7-7c3b-5cc2-ab4c-bd0432bc247a"
+    source_record_ids: ["a97037e7-7c3b-5cc2-ab4c-bd0432bc247a"]
+    source_retrieved_at: "2026-04-28T04:13:45Z"

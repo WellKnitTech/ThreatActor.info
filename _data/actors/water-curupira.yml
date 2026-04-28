@@ -1,26 +1,11 @@
----
-name: Water Curupira
-aliases:
-- Water Curupira
-description: With its emergence in 2022, Water Curupira has established itself as
-  a persistent threat actor targeting organizations primarily in South America and
-  Europe. Their modus operandi involves a combination of social engineering tactics
-  and a diversified malware arsenal, including ransomware variants like Black Basta
-  and credential stealers like Cobalt Strike. This multifaceted approach enables them
-  to gain unauthorized access to victim systems, steal sensitive data, and ultimately
-  extort victims through ransomware demands. It has been actively using Pikabot, a
-  loader malware with similarities to Qakbot, in spam campaigns throughout 2023.
+name: "Water Curupira"
+aliases: ["Water Curupira"]
+description: "With its emergence in 2022, Water Curupira has established itself as a persistent threat actor targeting organizations primarily in South America and Europe. Their modus operandi involves a combination of social engineering tactics and a diversified malware arsenal, including ransomware variants like Black Basta and credential stealers like Cobalt Strike. This multifaceted approach enables them to gain unauthorized access to victim systems, steal sensitive data, and ultimately extort victims through ransomware demands. It has been actively using Pikabot, a loader malware with similarities to Qakbot, in spam campaigns throughout 2023."
 url: "/water-curupira"
-malware:
-- BlackEnergy
-- BLACKCOFFEE
-- Blackshades
-- BlackNix
-- BlackHole
-- Cobalt Strike
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["BlackEnergy","BLACKCOFFEE","Blackshades","BlackNix","BlackHole","Cobalt Strike"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: a36266ce-2374-472a-a715-13b99e38e74e
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "a36266ce-2374-472a-a715-13b99e38e74e"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

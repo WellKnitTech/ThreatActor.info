@@ -1,28 +1,14 @@
----
-name: Earth Wendigo
-aliases:
-- Earth Wendigo
-description: Earth Wendigo is a threat actor from China that has been targeting several
-  organizations — including government organizations, research institutions, and universities
-  in Taiwan — since May 2019, aiming to exfiltrate emails from targeted organizations
-  via the injection of JavaScript backdoors to a webmail system that is widely used
-  in Taiwan. The threat actor also sent spear-phishing emails embedded with malicious
-  links to multiple individuals, including politicians and activists, who support
-  movements in Tibet, the Uyghur region, or Hong Kong.
+name: "Earth Wendigo"
+aliases: ["Earth Wendigo"]
+description: "Earth Wendigo is a threat actor from China that has been targeting several organizations — including government organizations, research institutions, and universities in Taiwan — since May 2019, aiming to exfiltrate emails from targeted organizations via the injection of JavaScript backdoors to a webmail system that is widely used in Taiwan. The threat actor also sent spear-phishing emails embedded with malicious links to multiple individuals, including politicians and activists, who support movements in Tibet, the Uyghur region, or Hong Kong."
 url: "/earth-wendigo"
-country: China
-sector_focus:
-- Government
-- Education
-targeted_victims:
-- Hong Kong
-- Taiwan
-malware:
-- Backdoor.Oldrea
-- China Chopper
+country: "China"
+sector_focus: ["Government","Education"]
+targeted_victims: ["Hong Kong","Taiwan"]
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Backdoor.Oldrea","China Chopper"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: c96e1329-cf7e-44ac-a3db-9e251dc98ec5
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "c96e1329-cf7e-44ac-a3db-9e251dc98ec5"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

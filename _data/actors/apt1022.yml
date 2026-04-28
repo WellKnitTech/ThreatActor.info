@@ -1,45 +1,25 @@
----
-name: ToddyCat
-aliases:
-- ToddyCat
-- Websiic
-description: 'ToddyCat is a sophisticated threat group that has been active since
-  at least 2020 using custom loaders and malware in multi-stage infection chains against
-  government and military targets across Europe and Asia.(Citation: Kaspersky ToddyCat
-  June 2022)(Citation: Kaspersky ToddyCat Check Logs October 2023)'
+name: "ToddyCat"
+aliases: ["ToddyCat","Websiic","Toddy Cat"]
+description: "ToddyCat is a sophisticated threat group that has been active since at least 2020 using custom loaders and malware in multi-stage infection chains against government and military targets across Europe and Asia.(Citation: Kaspersky ToddyCat June 2022)(Citation: Kaspersky ToddyCat Check Logs October 2023)"
 url: "/apt1022"
-sector_focus:
-- Military
-- Government
-targeted_victims:
-- Afghanistan
-- India
-- Indonesia
-- Iran
-- Kyrgyzstan
-- Malaysia
-- Pakistan
-- Russia
-- Slovakia
-- Taiwan
-- Thailand
-- United Kingdom
-- Uzbekistan
-- Vietnam
-external_id: G1022
-external_url: https://attack.mitre.org/groups/G1022
-mitre_id: G1022
-mitre_url: https://attack.mitre.org/groups/G1022
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
-malware:
-- Backdoor.Oldrea
-- Trojan.Karagany
-- Unknown Logger
-- Trojan.Mebromi
+sector_focus: ["Military","Government"]
+targeted_victims: ["Afghanistan","India","Indonesia","Iran","Kyrgyzstan","Malaysia","Pakistan","Russia","Slovakia","Taiwan","Thailand","United Kingdom","Uzbekistan","Vietnam"]
+external_id: "G1022"
+external_url: "https://attack.mitre.org/groups/G1022"
+mitre_id: "G1022"
+mitre_url: "https://attack.mitre.org/groups/G1022"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["Backdoor.Oldrea","Trojan.Karagany","Unknown Logger","Trojan.Mebromi"]
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.kaspersky.com/about/press-releases/2022_toddycat-an-advanced-threat-actor-targets-high-profile-entities-with-new-malware","https://socprime.com/blog/toddycat-apt-targets-microsoft-exchange-servers-to-deploy-samurai-backdoor-and-ninja-trojan/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "unknown"
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G1022
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-source: MITRE ATT&CK
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G1022"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "GIBBERISH PANDA"
-aliases: ["GIBBERISH PANDA"]
+aliases: ["GIBBERISH PANDA", "Gibberish Panda"]
 description: "GIBBERISH PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /gibberish-panda/
 ---

@@ -1,27 +1,11 @@
----
-name: GOLD CABIN
-aliases:
-- Shakthak
-- TA551
-- ATK236
-- G0127
-- Monster Libra
-- GOLD CABIN
-description: GOLD CABIN is a financially motivated cybercriminal threat group operating
-  a malware distribution service on behalf of numerous customers since 2018. GOLD
-  CABIN uses malicious documents, often contained in password-protected archives,
-  delivered through email to download and execute payloads. The second-stage payloads
-  are most frequently Gozi ISFB (Ursnif) or IcedID (Bokbot), sometimes using intermediary
-  malware like Valak. GOLD CABIN infrastructure relies on artificial appearing and
-  frequently changing URLs created with a domain generation algorithm (DGA). The URLs
-  host a PHP object that returns the malware as a DLL file.
+name: "GOLD CABIN"
+aliases: ["Shakthak","TA551","ATK236","G0127","Monster Libra","GOLD CABIN"]
+description: "GOLD CABIN is a financially motivated cybercriminal threat group operating a malware distribution service on behalf of numerous customers since 2018. GOLD CABIN uses malicious documents, often contained in password-protected archives, delivered through email to download and execute payloads. The second-stage payloads are most frequently Gozi ISFB (Ursnif) or IcedID (Bokbot), sometimes using intermediary malware like Valak. GOLD CABIN infrastructure relies on artificial appearing and frequently changing URLs created with a domain generation algorithm (DGA). The URLs host a PHP object that returns the malware as a DLL file."
 url: "/gold-cabin"
-malware:
-- CyberGate
-- Cyber Eye RAT
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CyberGate","Cyber Eye RAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 36e8c848-4d20-47ea-9fc2-31aa17bf82d1
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "36e8c848-4d20-47ea-9fc2-31aa17bf82d1"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

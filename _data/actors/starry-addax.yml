@@ -1,25 +1,11 @@
----
-name: Starry Addax
-aliases:
-- Starry Addax
-description: Starry Addax is a threat actor targeting human rights activists associated
-  with the Sahrawi Arab Democratic Republic using a novel mobile malware called FlexStarling.
-  They conduct phishing attacks to trick targets into installing malicious Android
-  applications and serve credential-harvesting pages to Windows-based targets. Their
-  infrastructure targets both Windows and Android users, with the campaign starting
-  with spear-phishing emails containing requests to install specific mobile apps or
-  related themes. The campaign is in its early stages, with potential for additional
-  malware variants and infrastructure development.
+name: "Starry Addax"
+aliases: ["Starry Addax"]
+description: "Starry Addax is a threat actor targeting human rights activists associated with the Sahrawi Arab Democratic Republic using a novel mobile malware called FlexStarling. They conduct phishing attacks to trick targets into installing malicious Android applications and serve credential-harvesting pages to Windows-based targets. Their infrastructure targets both Windows and Android users, with the campaign starting with spear-phishing emails containing requests to install specific mobile apps or related themes. The campaign is in its early stages, with potential for additional malware variants and infrastructure development."
 url: "/starry-addax"
-malware:
-- Starloader
-- MobileOrder
-- DroidJack
-- Androrat
-- Windows Remote Desktop
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Starloader","MobileOrder","DroidJack","Androrat","Windows Remote Desktop"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 579fde0d-0840-4e49-ad62-405ce338f5a6
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "579fde0d-0840-4e49-ad62-405ce338f5a6"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

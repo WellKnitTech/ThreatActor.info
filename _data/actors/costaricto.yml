@@ -1,22 +1,11 @@
----
-name: CostaRicto
-aliases:
-- CostaRicto
-description: CostaRicto is a cyber-espionage threat actor that operates as a mercenary
-  group, offering its services to various clients globally. They use bespoke malware
-  tools and sophisticated techniques like VPN proxy and SSH tunnelling. While their
-  targets are scattered across different regions, there is a concentration in South
-  Asia.
+name: "CostaRicto"
+aliases: ["CostaRicto"]
+description: "CostaRicto is a cyber-espionage threat actor that operates as a mercenary group, offering its services to various clients globally. They use bespoke malware tools and sophisticated techniques like VPN proxy and SSH tunnelling. While their targets are scattered across different regions, there is a concentration in South Asia."
 url: "/costaricto"
-malware:
-- ClientMesh
-- CyberGate
-- Cyber Eye RAT
-- Client Maximus
-- CrossRat
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["ClientMesh","CyberGate","Cyber Eye RAT","Client Maximus","CrossRat"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 5587f082-349b-46ab-9e6f-303d9bfd1e1b
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "5587f082-349b-46ab-9e6f-303d9bfd1e1b"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

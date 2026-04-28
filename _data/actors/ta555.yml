@@ -1,26 +1,26 @@
----
-name: TA555
-aliases:
-- TA555
-description: Beginning in May 2018, Proofpoint researchers observed a previously undocumented
-  downloader dubbed AdvisorsBot appearing in malicious email campaigns. The campaigns
-  appear to primarily target hotels, restaurants, and telecommunications, and are
-  distributed by an actor we track as TA555. To date, we have observed AdvisorsBot
-  used as a first-stage payload, loading a fingerprinting module that, as with Marap,
-  is presumably used to identify targets of interest to further infect with additional
-  modules or payloads. AdvisorsBot is under active development and we have also observed
-  another version of the malware completely rewritten in PowerShell and .NET.
+name: "TA555"
+aliases: ["TA555"]
+description: "Beginning in May 2018, Proofpoint researchers observed a previously undocumented downloader dubbed AdvisorsBot appearing in malicious email campaigns. The campaigns appear to primarily target hotels, restaurants, and telecommunications, and are distributed by an actor we track as TA555. To date, we have observed AdvisorsBot used as a first-stage payload, loading a fingerprinting module that, as with Marap, is presumably used to identify targets of interest to further infect with additional modules or payloads. AdvisorsBot is under active development and we have also observed another version of the malware completely rewritten in PowerShell and .NET."
 url: "/ta555"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware:
-- PowerDuke
-- POWERSTATS
-- Power Loader
-- POWERSOURCE
-- Archelaus Beta
-- PowerRAT
+  - "PowerDuke"
+  - "POWERSTATS"
+  - "Power Loader"
+  - "POWERSOURCE"
+  - "Archelaus Beta"
+  - "PowerRAT"
+  - name: "AdvisorsBot"
+  - name: "PoshAdvisor"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.proofpoint.com/us/threat-insight/post/new-modular-downloaders-fingerprint-systems-part-2-advisorsbot"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: d0d26dae-195f-4503-a6a9-ebb1ec0e07f9
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "d0d26dae-195f-4503-a6a9-ebb1ec0e07f9"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

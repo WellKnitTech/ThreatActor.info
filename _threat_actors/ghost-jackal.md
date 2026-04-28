@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Ghost Jackal"
-aliases: ["Ghost Jackal"]
+aliases: ["Ghost Jackal", "AnonGhost"]
 description: "Ghost Jackal is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /ghost-jackal/
 ---

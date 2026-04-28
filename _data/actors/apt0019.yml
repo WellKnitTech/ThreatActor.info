@@ -11,8 +11,22 @@ external_id: "G0019"
 external_url: "https://attack.mitre.org/groups/G0019"
 mitre_id: "G0019"
 mitre_url: "https://attack.mitre.org/groups/G0019"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+operations: ["MsnMM","Naikon","Camera Shy"]
+malware:
+  - name: "RARSTONE"
+  - name: "BACKSPACe"
+  - name: "NETEAGLE"
+  - name: "XSControl"
 provenance:
+  apt_groups_operations:
+    matched_mitre_ids: ["G0019"]
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://securelist.com/analysis/publications/69953/the-naikon-apt/","http://blog.trendmicro.com/trendlabs-security-intelligence/rarstone-found-in-targeted-attacks/","https://www.threatconnect.com/camerashy/","http://www.crowdstrike.com/blog/rhetoric-foreshadows-cyber-activity-in-the-south-china-sea/","https://www.symantec.com/blogs/threat-intelligence/thrip-hits-satellite-telecoms-defense-targets","https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report/","https://www.symantec.com/blogs/threat-intelligence/thrip-apt-south-east-asia","https://research.checkpoint.com/2020/naikon-apt-cyber-espionage-reloaded/","https://cluster25.io/2022/04/29/lotus-panda-awake-last-strike/","https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/espionage-asia-governments-cert-authority","https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf","https://symantec-enterprise-blogs.security.com/threat-intelligence/telecoms-espionage-asia"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0019"

@@ -1,38 +1,35 @@
----
-name: DragonOK
-aliases:
-- BRONZE OVERBROOK
-- DragonOK
-- G0002
-- G0017
-- Moafee
-- Shallow Taurus
-description: 'DragonOK is a threat group that has targeted Japanese organizations
-  with phishing emails. Due to overlapping TTPs, including similar custom tools, DragonOK
-  is thought to have a direct or indirect relationship with the threat group Moafee.
-  (Citation: Operation Quantum Entanglement) It is known to use a variety of malware,
-  including Sysget/HelloBridge, PlugX, PoisonIvy, FormerFirstRat, NFlog, and NewCT.
-  (Citation: New DragonOK)'
+name: "DragonOK"
+aliases: ["BRONZE OVERBROOK","DragonOK","G0002","G0017","Moafee","Shallow Taurus","Dragon Castling"]
+description: "DragonOK is a threat group that has targeted Japanese organizations with phishing emails. Due to overlapping TTPs, including similar custom tools, DragonOK is thought to have a direct or indirect relationship with the threat group Moafee. (Citation: Operation Quantum Entanglement) It is known to use a variety of malware, including Sysget/HelloBridge, PlugX, PoisonIvy, FormerFirstRat, NFlog, and NewCT. (Citation: New DragonOK)"
 url: "/apt0017"
-country: China
-sector_focus:
-- Private sector
-targeted_victims:
-- United States
-incident_type: Espionage
-risk_level: High
-external_id: G0017
-external_url: https://attack.mitre.org/groups/G0017
-mitre_id: G0017
-mitre_url: https://attack.mitre.org/groups/G0017
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
+country: "China"
+sector_focus: ["Private sector"]
+targeted_victims: ["United States"]
+incident_type: "Espionage"
+risk_level: "High"
+external_id: "G0017"
+external_url: "https://attack.mitre.org/groups/G0017"
+mitre_id: "G0017"
+mitre_url: "https://attack.mitre.org/groups/G0017"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 malware:
-- PlugX
-- PoisonIvy
+  - "PlugX"
+  - "PoisonIvy"
+  - name: "CVE-2015-1641"
+  - name: "Sysget"
+  - name: "IsSpace"
+  - name: "Rambo Backdoor"
 provenance:
+  apt_groups_operations:
+    matched_mitre_ids: ["G0017"]
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["http://researchcenter.paloaltonetworks.com/2015/04/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets/","http://researchcenter.paloaltonetworks.com/2017/01/unit42-dragonok-updates-toolset-targets-multiple-geographic-regions/","https://blogs.forcepoint.com/security-labs/trojanized-adobe-installer-used-install-dragonok%E2%80%99s-new-custom-backdoor","http://www.morphick.com/resources/news/deep-dive-dragonok-rambo-backdoor","https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf","https://decoded.avast.io/luigicamastra/operation-dragon-castling-apt-group-targeting-betting-companies/","https://www.sentinelone.com/labs/aoqin-dragon-newly-discovered-chinese-linked-apt-has-been-quietly-spying-on-organizations-for-10-years/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G0017
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-source: MITRE ATT&CK
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0017"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

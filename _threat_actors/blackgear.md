@@ -32,6 +32,8 @@ BLACKGEAR is an espionage campaign which has targeted users in Taiwan for many y
 - **Blackshades**
 - **BlackNix**
 - **BlackHole**
+- **Protux**: 
+- **Eliriks**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

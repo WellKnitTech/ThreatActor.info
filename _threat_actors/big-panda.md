@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "BIG PANDA"
-aliases: ["BIG PANDA"]
+aliases: ["BIG PANDA", "Big Panda"]
 description: "BIG PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /big-panda/
 ---

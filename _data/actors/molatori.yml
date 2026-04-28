@@ -1,27 +1,11 @@
----
-name: Molatori
-aliases:
-- Molatori
-description: Molatori is a threat actor group identified by Malwarebytes researchers,
-  known for utilizing malicious ScreenConnect clients hosted on domains like atmolatori.icu
-  and gomolatori.cyou. They employ phishing tactics, masquerading as communications
-  from the Social Security Administration to lure targets into installing the client.
-  Once installed, the ScreenConnect client allows the actors to remotely access the
-  victim's computer, facilitating the exfiltration of sensitive information such as
-  banking details and personal identification numbers. The primary objective of the
-  Molatori group is financial fraud, leveraging the stolen data for identity theft
-  and other malicious activities.
+name: "Molatori"
+aliases: ["Molatori"]
+description: "Molatori is a threat actor group identified by Malwarebytes researchers, known for utilizing malicious ScreenConnect clients hosted on domains like atmolatori.icu and gomolatori.cyou. They employ phishing tactics, masquerading as communications from the Social Security Administration to lure targets into installing the client. Once installed, the ScreenConnect client allows the actors to remotely access the victim's computer, facilitating the exfiltration of sensitive information such as banking details and personal identification numbers. The primary objective of the Molatori group is financial fraud, leveraging the stolen data for identity theft and other malicious activities."
 url: "/molatori"
-malware:
-- RemoteCMD
-- ClientMesh
-- Remote Utilities
-- RemotePC
-- Archelaus Beta
-- Client Maximus
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["RemoteCMD","ClientMesh","Remote Utilities","RemotePC","Archelaus Beta","Client Maximus"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: ed1fff3e-9d1d-4a3e-b04f-a2d1005c60f7
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "ed1fff3e-9d1d-4a3e-b04f-a2d1005c60f7"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

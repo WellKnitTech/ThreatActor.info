@@ -9,8 +9,17 @@ external_id: "G0099"
 external_url: "https://attack.mitre.org/groups/G0099"
 mitre_id: "G0099"
 mitre_url: "https://attack.mitre.org/groups/G0099"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware:
+  - name: "Imminent RAT"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/","https://redskyalliance.org/xindustry/apt-c-36-blind-eagle-and-colombia","https://lab52.io/blog/apt-c-36-new-anti-detection-tricks/","https://research.checkpoint.com/2023/blindeagle-targeting-ecuador-with-sharpened-tools/","https://blogs.blackberry.com/en/2023/02/blind-eagle-apt-c-36-targets-colombia","https://lab52.io/blog/dll-side-loading-through-iobit-against-colombia/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0099"

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "NOMAD PANDA"
-aliases: ["NOMAD PANDA"]
+aliases: ["NOMAD PANDA", "Nomad Panda"]
 description: "In the first quarter of 2018, CrowdStrike Intelligence identified NOMAD PANDA activity targeting Central Asian nations with exploit documents built with the 8.t tool."
 permalink: /nomad-panda/
 ---
@@ -10,7 +10,11 @@ permalink: /nomad-panda/
 In the first quarter of 2018, CrowdStrike Intelligence identified NOMAD PANDA activity targeting Central Asian nations with exploit documents built with the 8.t tool.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇨🇳 China
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -23,9 +27,11 @@ In the first quarter of 2018, CrowdStrike Intelligence identified NOMAD PANDA ac
 
 ## Malware and Tools
 - **Xploit**
+- **8.t exploit document builder**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: China
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

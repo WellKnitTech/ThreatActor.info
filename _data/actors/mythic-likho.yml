@@ -1,20 +1,11 @@
----
-name: Mythic Likho
-aliases:
-- Arcane Werewolf
-- Mythic Likho
-description: Arcane Werewolf has been observed targeting Russian manufacturing enterprises
-  through phishing emails that lead to malicious links and spoofed websites. The actor
-  has utilized ZIP archives containing malicious LNK files and a C++ dropper in their
-  campaigns. Their infrastructure includes a C2 server disguised as a Russian manufacturing
-  company website. Kaspersky researchers have noted their evolving TTPs, indicating
-  either a new group or one that has significantly improved its methods.
+name: "Mythic Likho"
+aliases: ["Arcane Werewolf","Mythic Likho"]
+description: "Arcane Werewolf has been observed targeting Russian manufacturing enterprises through phishing emails that lead to malicious links and spoofed websites. The actor has utilized ZIP archives containing malicious LNK files and a C++ dropper in their campaigns. Their infrastructure includes a C2 server disguised as a Russian manufacturing company website. Kaspersky researchers have noted their evolving TTPs, indicating either a new group or one that has significantly improved its methods."
 url: "/mythic-likho"
-malware:
-- Archelaus Beta
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Archelaus Beta"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: e6e4a9a2-e20d-4f95-8b8b-73b21a3d3fa9
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "e6e4a9a2-e20d-4f95-8b8b-73b21a3d3fa9"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

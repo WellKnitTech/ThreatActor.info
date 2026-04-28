@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT14"
-aliases: ["ANCHOR PANDA", "QAZTeam", "ALUMINUM", "APT14"]
+aliases: ["ANCHOR PANDA", "QAZTeam", "ALUMINUM", "APT14", "APT-14", "Anchor Panda"]
 description: "PLA Navy Anchor Panda is an adversary that CrowdStrike has tracked extensively over the last year targeting both civilian and military maritime operations in the green/brown water regions primarily in "
 permalink: /apt14/
 ---
@@ -33,6 +33,9 @@ PLA Navy Anchor Panda is an adversary that CrowdStrike has tracked extensively o
 
 ## Malware and Tools
 - **SPACESHIP**
+- **Adobe Gh0st**: 
+- **Poison Ivy**: 
+- **Torn RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

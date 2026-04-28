@@ -1,19 +1,11 @@
----
-name: UNC2717
-aliases:
-- UNC2717
-description: UNC2717 is a threat actor that engages in espionage activities aligned
-  with Chinese government priorities. They demonstrate advanced tradecraft and take
-  measures to avoid detection, making it challenging for network defenders to identify
-  their tools and intrusion methods. UNC2717, along with other Chinese APT actors,
-  has been observed stealing credentials, email communications, and intellectual property.
-  They have targeted global government agencies using malware such as HARDPULSE, QUIETPULSE,
-  and PULSEJUMP.
+name: "UNC2717"
+aliases: ["UNC2717"]
+description: "UNC2717 is a threat actor that engages in espionage activities aligned with Chinese government priorities. They demonstrate advanced tradecraft and take measures to avoid detection, making it challenging for network defenders to identify their tools and intrusion methods. UNC2717, along with other Chinese APT actors, has been observed stealing credentials, email communications, and intellectual property. They have targeted global government agencies using malware such as HARDPULSE, QUIETPULSE, and PULSEJUMP."
 url: "/unc2717"
-country: China
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: f1d90b54-4821-41ff-8e07-ac650e0454b7
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "f1d90b54-4821-41ff-8e07-ac650e0454b7"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

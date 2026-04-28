@@ -1,34 +1,19 @@
----
-name: Void Balaur
-aliases:
-- Void Balaur
-description: Void Balaur is a highly active hack-for-hire / cyber mercenary group
-  with a wide range of known target types across the globe. Their services have been
-  observed for sale to the public online since at least 2016. Services include the
-  collection of private data and access to specific online email and social media
-  services, such as Gmail, Outlook, Telegram, Yandex, Facebook, Instagram, and business
-  emails.
+name: "Void Balaur"
+aliases: ["Void Balaur"]
+description: "Void Balaur is a highly active hack-for-hire / cyber mercenary group with a wide range of known target types across the globe. Their services have been observed for sale to the public online since at least 2016. Services include the collection of private data and access to specific online email and social media services, such as Gmail, Outlook, Telegram, Yandex, Facebook, Instagram, and business emails."
 url: "/void-balaur"
-targeted_victims:
-- Brazil
-- Central African Republic
-- Georgia
-- Kazakhstan
-- Moldova
-- Russia
-- Spain
-- Sudan
-- Taiwan
-- Ukraine
-- United Kingdom
-- United States
-malware:
-- CyberGate
-- Cyber Eye RAT
-- CrossRat
+targeted_victims: ["Brazil","Central African Republic","Georgia","Kazakhstan","Moldova","Russia","Spain","Sudan","Taiwan","Ukraine","United Kingdom","United States"]
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CyberGate","Cyber Eye RAT","CrossRat"]
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.sentinelone.com/labs/the-sprawling-infrastructure-of-a-careless-mercenary/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "unknown"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: ca310f0a-1131-4c67-b0a7-f1cd4ce0f87f
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "ca310f0a-1131-4c67-b0a7-f1cd4ce0f87f"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

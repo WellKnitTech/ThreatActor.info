@@ -1,22 +1,11 @@
----
-name: TeamPCP
-aliases:
-- TeamPCP
-description: TeamPCP is a threat actor that has executed a coordinated series of supply
-  chain attacks, compromising widely-used open source tools such as Trivy, KICS, and
-  LiteLLM to deploy credential-stealing malware. They employed techniques like credential
-  harvesting, lateral movement within Kubernetes environments, and audio steganography
-  to evade detection. The group has demonstrated the ability to leverage stolen credentials
-  to propagate attacks across multiple ecosystems, including npm and PyPI, using a
-  self-propagating worm known as CanisterWorm. Their operations have included the
-  use of AES-256 encryption and RSA-4096 for exfiltration of sensitive data.
+name: "TeamPCP"
+aliases: ["TeamPCP"]
+description: "TeamPCP is a threat actor that has executed a coordinated series of supply chain attacks, compromising widely-used open source tools such as Trivy, KICS, and LiteLLM to deploy credential-stealing malware. They employed techniques like credential harvesting, lateral movement within Kubernetes environments, and audio steganography to evade detection. The group has demonstrated the ability to leverage stolen credentials to propagate attacks across multiple ecosystems, including npm and PyPI, using a self-propagating worm known as CanisterWorm. Their operations have included the use of AES-256 encryption and RSA-4096 for exfiltration of sensitive data."
 url: "/teampcp"
-malware:
-- GraphicBooting
-- CrossRat
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["GraphicBooting","CrossRat"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: d3682137-2845-424f-be8a-9112d23f4f58
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "d3682137-2845-424f-be8a-9112d23f4f58"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Keksec"
-aliases: ["Keksec"]
+aliases: ["Keksec", "FreakOut", "Necro", "Kek Security"]
 description: "The threat group behind EnemyBot, Keksec, is well-resourced and has the ability to update and add new capabilities to its arsenal of malware on a daily basis (see below for more detail on Keksec)"
 permalink: /keksec/
 ---
@@ -22,7 +22,7 @@ The threat group behind EnemyBot, Keksec, is well-resourced and has the ability 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **EnemyBot**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

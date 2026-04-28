@@ -1,29 +1,11 @@
----
-name: GozNym
-aliases:
-- GozNym
-description: IBM X-Force Research uncovered a Trojan hybrid spawned from the Nymaim
-  and Gozi ISFB malware. It appears that the operators of Nymaim have recompiled its
-  source code with part of the Gozi ISFB source code, creating a combination that
-  is being actively used in attacks against more than 24 U.S. and Canadian banks,
-  stealing millions of dollars so far. X-Force named this new hybrid GozNym. The new
-  GozNym hybrid takes the best of both the Nymaim and Gozi ISFB malware to create
-  a powerful Trojan. From the Nymaim malware, it leverages the dropper’s stealth and
-  persistence; the Gozi ISFB parts add the banking Trojan’s capabilities to facilitate
-  fraud via infected Internet browsers. The end result is a new banking Trojan in
-  the wild.
+name: "GozNym"
+aliases: ["GozNym"]
+description: "IBM X-Force Research uncovered a Trojan hybrid spawned from the Nymaim and Gozi ISFB malware. It appears that the operators of Nymaim have recompiled its source code with part of the Gozi ISFB source code, creating a combination that is being actively used in attacks against more than 24 U.S. and Canadian banks, stealing millions of dollars so far. X-Force named this new hybrid GozNym. The new GozNym hybrid takes the best of both the Nymaim and Gozi ISFB malware to create a powerful Trojan. From the Nymaim malware, it leverages the dropper’s stealth and persistence; the Gozi ISFB parts add the banking Trojan’s capabilities to facilitate fraud via infected Internet browsers. The end result is a new banking Trojan in the wild."
 url: "/goznym"
-malware:
-- PowerDuke
-- POWERSTATS
-- Power Loader
-- Trojan.Karagany
-- POWERSOURCE
-- Trojan.Mebromi
-- PowerRAT
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["PowerDuke","POWERSTATS","Power Loader","Trojan.Karagany","POWERSOURCE","Trojan.Mebromi","PowerRAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 7803b380-8c4c-11e9-90a1-f3880ab3aaa0
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "7803b380-8c4c-11e9-90a1-f3880ab3aaa0"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

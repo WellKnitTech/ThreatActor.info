@@ -1,26 +1,18 @@
----
-name: YoroTrooper
-aliases:
-- Salted Earth
-- Sturgeon Fisher
-- ShadowSilk
-- Silent Lynx
-- Cavalry Werewolf
-- SturgeonPhisher
-- Comrade Saiga
-- YoroTrooper
-description: 'YoroTrooper’s main targets are government or energy organizations in
-  Azerbaijan, Tajikistan, Kyrgyzstan and other Commonwealth of Independent States,
-  based on Cisco Talos analysis. YoroTrooper was also observed compromising accounts
-  from at least two international organizations: a critical European Union health
-  care agency and the World Intellectual Property Organization. Successful compromises
-  also included Embassies of European countries including Azerbaijan and Turkmenistan.'
+name: "YoroTrooper"
+aliases: ["Salted Earth","Sturgeon Fisher","ShadowSilk","Silent Lynx","Cavalry Werewolf","SturgeonPhisher","Comrade Saiga","YoroTrooper"]
+description: "YoroTrooper’s main targets are government or energy organizations in Azerbaijan, Tajikistan, Kyrgyzstan and other Commonwealth of Independent States, based on Cisco Talos analysis. YoroTrooper was also observed compromising accounts from at least two international organizations: a critical European Union health care agency and the World Intellectual Property Organization. Successful compromises also included Embassies of European countries including Azerbaijan and Turkmenistan."
 url: "/yorotrooper"
-targeted_victims:
-- Germany
+targeted_victims: ["Germany"]
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://blog.talosintelligence.com/yorotrooper-espionage-campaign-cis-turkey-europe/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "unknown"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 2031ae01-e962-4861-a224-0934af6cdd3a
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "2031ae01-e962-4861-a224-0934af6cdd3a"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

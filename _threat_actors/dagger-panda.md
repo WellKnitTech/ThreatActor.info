@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "DAGGER PANDA"
-aliases: ["IceFog", "Trident", "RedFoxtrot", "Red Wendigo", "PLA Unit 69010", "UAT-7290", "Red Foxtrot", "DAGGER PANDA"]
+aliases: ["IceFog", "Trident", "RedFoxtrot", "Red Wendigo", "PLA Unit 69010", "UAT-7290", "Red Foxtrot", "DAGGER PANDA", "Fucobha", "Temp.Trident", "Ice Fog"]
 description: "Operate since at least 2011, from several locations in China, with  members in Korea and Japan as well. Possibly linked to Onion Dog. This threat actor targets government institutions, military contrac"
 permalink: /dagger-panda/
 ---
@@ -34,6 +34,13 @@ Operate since at least 2011, from several locations in China, with members in Ko
 ## Malware and Tools
 - **China Chopper**
 - **OnionDuke**
+- **Dagger Three (C2 software)**: 
+- **Fucobha Backdoor**: 
+- **IceFog**: 
+- **RoyalRoad RTF Weaponizer**: 
+- **PlugX-Talisman**: 
+- **ShadowPad**: 
+- **GUNTERS**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

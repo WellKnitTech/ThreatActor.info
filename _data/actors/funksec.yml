@@ -1,21 +1,11 @@
----
-name: FunkSec
-aliases:
-- FunkSec
-description: Funksec is a newly identified extortion group that has claimed 11 victims
-  across various sectors, including media, IT, and education, operating a Tor-based
-  DLS to centralize its ransomware activities. The group advertises a free DDoS tool
-  and may develop its own ransomware binary, indicating significant technical capability.
-  The DLS was likely created in late November to early December 2024, with the first
-  advertisement titled “Funksec Ransomware” posted on 3 December 2024. Currently,
-  there is limited publicly available information on Funksec's TTPs, and it is not
-  known to be associated with any other threat groups.
+name: "FunkSec"
+aliases: ["FunkSec"]
+description: "Funksec is a newly identified extortion group that has claimed 11 victims across various sectors, including media, IT, and education, operating a Tor-based DLS to centralize its ransomware activities. The group advertises a free DDoS tool and may develop its own ransomware binary, indicating significant technical capability. The DLS was likely created in late November to early December 2024, with the first advertisement titled “Funksec Ransomware” posted on 3 December 2024. Currently, there is limited publicly available information on Funksec's TTPs, and it is not known to be associated with any other threat groups."
 url: "/funksec"
-malware:
-- CrossRat
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CrossRat"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: '052519d2-1a4f-49d1-abe6-baffce51fedb'
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "052519d2-1a4f-49d1-abe6-baffce51fedb"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

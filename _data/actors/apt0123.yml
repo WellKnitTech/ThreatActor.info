@@ -6,8 +6,18 @@ external_id: "G0123"
 external_url: "https://attack.mitre.org/groups/G0123"
 mitre_id: "G0123"
 mitre_url: "https://attack.mitre.org/groups/G0123"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware:
+  - name: "Explosive"
+  - name: "Caterpillar 2"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["http://www.checkpoint.com/downloads/volatile-cedar-technical-report.pdf","http://blog.checkpoint.com/2015/03/31/volatilecedar/","https://securelist.com/sinkholing-volatile-cedar-dga-infrastructure/69421/","https://www.clearskysec.com/cedar/","https://securelist.com/defttorero-tactics-techniques-and-procedures/107610/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "middle-east"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0123"

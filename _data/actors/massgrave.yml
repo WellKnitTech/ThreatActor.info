@@ -1,24 +1,11 @@
----
-name: Massgrave
-aliases:
-- Massgrave
-description: Massgrave is a hacking group that has developed a method to bypass Microsoft's
-  software licensing for Windows and Office, enabling permanent activation of versions
-  from Windows Vista to Windows 11. They are known for creating effective scripts
-  for software activation, which are distributed through an unofficial repository
-  at massgrave.dev. The group claims their exploit supports volume activation via
-  the Key Management Services model and has gained traction within the piracy scene.
-  Reports indicate that their tools may be used by unauthorized individuals, including
-  Microsoft support agents, raising legal and security concerns.
+name: "Massgrave"
+aliases: ["Massgrave"]
+description: "Massgrave is a hacking group that has developed a method to bypass Microsoft's software licensing for Windows and Office, enabling permanent activation of versions from Windows Vista to Windows 11. They are known for creating effective scripts for software activation, which are distributed through an unofficial repository at massgrave.dev. The group claims their exploit supports volume activation via the Key Management Services model and has gained traction within the piracy scene. Reports indicate that their tools may be used by unauthorized individuals, including Microsoft support agents, raising legal and security concerns."
 url: "/massgrave"
-malware:
-- Hacking Team UEFI Rootkit
-- Agent.btz
-- Windows Remote Desktop
-- Xploit
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Hacking Team UEFI Rootkit","Agent.btz","Windows Remote Desktop","Xploit"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 48e2e297-55bd-4a6f-9c72-bc10ed06afa1
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "48e2e297-55bd-4a6f-9c72-bc10ed06afa1"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

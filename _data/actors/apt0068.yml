@@ -1,32 +1,31 @@
----
-name: PLATINUM
-aliases:
-- ATK33
-- G0068
-- PLATINUM
-- TwoForOne
-description: 'PLATINUM is an activity group that has targeted victims since at least
-  2009. The group has focused on targets associated with governments and related organizations
-  in South and Southeast Asia. (Citation: Microsoft PLATINUM April 2016)'
+name: "PLATINUM"
+aliases: ["ATK33","G0068","PLATINUM","TwoForOne","DeadlyKiss","Platinum"]
+description: "PLATINUM is an activity group that has targeted victims since at least 2009. The group has focused on targets associated with governments and related organizations in South and Southeast Asia. (Citation: Microsoft PLATINUM April 2016)"
 url: "/apt0068"
-sector_focus:
-- Defense
-- Government, Administration
-- Diplomacy
-- Intelligence
-- Telecoms
-external_id: G0068
-external_url: https://attack.mitre.org/groups/G0068
-mitre_id: G0068
-mitre_url: https://attack.mitre.org/groups/G0068
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
+sector_focus: ["Defense","Government, Administration","Diplomacy","Intelligence","Telecoms"]
+external_id: "G0068"
+external_url: "https://attack.mitre.org/groups/G0068"
+mitre_id: "G0068"
+mitre_url: "https://attack.mitre.org/groups/G0068"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+operations: ["Hellsing"]
 malware:
-- Xploit
-- GraphicBooting
+  - "Xploit"
+  - "GraphicBooting"
+  - name: "Hotpatching techniques"
+  - name: "CVE-2015-2545"
+  - name: "AMT Feature FW evasion"
 provenance:
+  apt_groups_operations:
+    matched_mitre_ids: ["G0068"]
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://blogs.technet.microsoft.com/mmpc/2016/04/26/digging-deep-for-platinum/","https://threatpost.com/platinum-apt-first-to-abuse-intel-chip-management-feature/126166/","https://securelist.com/69567/the-chronicles-of-the-hellsing-apt-the-empire-strikes-back/","http://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf","https://securelist.com/analysis/publications/69567/the-chronicles-of-the-hellsing-apt-the-empire-strikes-back/","http://arstechnica.com/security/2015/04/elite-cyber-crime-group-strikes-back-after-attack-by-rival-apt-gang/","https://www.microsoft.com/security/blog/2017/06/07/platinum-continues-to-evolve-find-ways-to-maintain-invisibility/?source=mmpc","https://blog.telsy.com/deadlykiss-malware/","https://securelist.com/titanium-the-platinum-group-strikes-again/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G0068
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-source: MITRE ATT&CK
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0068"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

@@ -1,5 +1,5 @@
 name: "Qilin"
-aliases: ["Qilin Ransomware"]
+aliases: ["Qilin Ransomware","Qilin Gang","Qilin Group","Qilin"]
 description: "Qilin is a ransomware group that first appeared in 2022 but had a breakout year in 2024, with around 200 victims, 156 of them based in the U.S."
 url: "/qilin"
 country: "Unknown"
@@ -8,8 +8,18 @@ first_seen: "2022"
 last_activity: "2025"
 last_updated: "2026-04-28"
 risk_level: "High"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Manually curated from open source intelligence"
+malware:
+  - name: "Agenda"
+  - name: "Qilin"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://therecord.media/researchers-infiltrate-qilin-ransomware","https://www.group-ib.com/blog/qilin-ransomware/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "unknown"
   ransomware_tool_matrix:
     community_reports:
       - source_file: "CommunityReports/CR-012-Qilin-April-2023.md"

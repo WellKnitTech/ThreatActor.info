@@ -1,19 +1,12 @@
----
-name: TAG-28
-aliases:
-- TAG-28
-description: TAG-28 is a Chinese state-sponsored threat actor that has been targeting
-  Indian organizations, including media conglomerates and government agencies. They
-  have been using the Winnti malware, which is commonly shared among Chinese state-sponsored
-  groups. TAG-28's main objective is to gather intelligence on Indian targets, potentially
-  for espionage purposes.
+name: "TAG-28"
+aliases: ["TAG-28"]
+description: "TAG-28 is a Chinese state-sponsored threat actor that has been targeting Indian organizations, including media conglomerates and government agencies. They have been using the Winnti malware, which is commonly shared among Chinese state-sponsored groups. TAG-28's main objective is to gather intelligence on Indian targets, potentially for espionage purposes."
 url: "/tag-28"
-country: China
-malware:
-- Winnti
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Winnti"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 6c706d8b-95a4-428d-9de5-b68b29b1893c
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "6c706d8b-95a4-428d-9de5-b68b29b1893c"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,24 +1,11 @@
----
-name: UNC6426
-aliases:
-- UNC6426
-description: UNC6426 exploited a supply chain compromise of the nx npm package to
-  steal a developer's GitHub Personal Access Token and gain access to a victim's cloud
-  environment. They abused the GitHub-to-AWS OpenID Connect trust to create a new
-  administrator role, leveraging overly permissive permissions associated with the
-  compromised GitHub-Actions-CloudFormation role. Using the legitimate open-source
-  tool Nord Stream, UNC6426 conducted reconnaissance and extracted secrets from CI/CD
-  environments, leading to the exfiltration of files from AWS S3 buckets and data
-  destruction. The actor escalated to full AWS administrator permissions in under
-  72 hours.
+name: "UNC6426"
+aliases: ["UNC6426"]
+description: "UNC6426 exploited a supply chain compromise of the nx npm package to steal a developer's GitHub Personal Access Token and gain access to a victim's cloud environment. They abused the GitHub-to-AWS OpenID Connect trust to create a new administrator role, leveraging overly permissive permissions associated with the compromised GitHub-Actions-CloudFormation role. Using the legitimate open-source tool Nord Stream, UNC6426 conducted reconnaissance and extracted secrets from CI/CD environments, leading to the exfiltration of files from AWS S3 buckets and data destruction. The actor escalated to full AWS administrator permissions in under 72 hours."
 url: "/unc6426"
-malware:
-- StreamEx
-- CloudDuke
-- Xploit
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["StreamEx","CloudDuke","Xploit"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 1515f68c-5b42-479a-bb38-adcb6f11e8af
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "1515f68c-5b42-479a-bb38-adcb6f11e8af"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

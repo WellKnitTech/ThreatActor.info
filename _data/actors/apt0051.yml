@@ -1,27 +1,23 @@
----
-name: FIN10
-aliases:
-- FIN10
-- G0051
-description: 'FIN10 is a financially motivated threat group that has targeted organizations
-  in North America since at least 2013 through 2016. The group uses stolen data exfiltrated
-  from victims to extort organizations. (Citation: FireEye FIN10 June 2017)'
+name: "FIN10"
+aliases: ["FIN10","G0051"]
+description: "FIN10 is a financially motivated threat group that has targeted organizations in North America since at least 2013 through 2016. The group uses stolen data exfiltrated from victims to extort organizations. (Citation: FireEye FIN10 June 2017)"
 url: "/apt0051"
-external_id: G0051
-external_url: https://attack.mitre.org/groups/G0051
-mitre_id: G0051
-mitre_url: https://attack.mitre.org/groups/G0051
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
-malware:
-- SHUTTERSPEED
-- Back Orifice
-- Back Orifice 2000
-- Windows Remote Desktop
-- CrossRat
+external_id: "G0051"
+external_url: "https://attack.mitre.org/groups/G0051"
+mitre_id: "G0051"
+mitre_url: "https://attack.mitre.org/groups/G0051"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["SHUTTERSPEED","Back Orifice","Back Orifice 2000","Windows Remote Desktop","CrossRat"]
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin10.pdf"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "unknown"
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G0051
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-source: MITRE ATT&CK
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0051"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

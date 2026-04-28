@@ -10,9 +10,7 @@
     "url": "/void-blizzard",
     "permalink": "/void-blizzard/",
     "country": "Russia",
-    "sector_focus": [
-
-    ],
+    "sector_focus": [],
     "risk_level": null,
     "last_updated": "2026-04-28",
     "last_activity": null,
@@ -29,9 +27,7 @@
     "url": "/vanilla-tempest",
     "permalink": "/vanilla-tempest/",
     "country": null,
-    "sector_focus": [
-
-    ],
+    "sector_focus": [],
     "risk_level": null,
     "last_updated": "2026-04-28",
     "last_activity": null,
@@ -46,9 +42,7 @@
     "url": "/uta0355",
     "permalink": "/uta0355/",
     "country": "Russia",
-    "sector_focus": [
-
-    ],
+    "sector_focus": [],
     "risk_level": null,
     "last_updated": "2026-04-28",
     "last_activity": null,
@@ -63,9 +57,7 @@
     "url": "/uta0352",
     "permalink": "/uta0352/",
     "country": "Russia",
-    "sector_focus": [
-
-    ],
+    "sector_focus": [],
     "risk_level": null,
     "last_updated": "2026-04-28",
     "last_activity": null,
@@ -80,9 +72,7 @@
     "url": "/storm-2603",
     "permalink": "/storm-2603/",
     "country": "China",
-    "sector_focus": [
-
-    ],
+    "sector_focus": [],
     "risk_level": null,
     "last_updated": "2026-04-28",
     "last_activity": null,
@@ -166,7 +156,10 @@
     "name": "REvil",
     "aliases": [
       "Sodinokibi",
-      "Sodin"
+      "Sodin",
+      "Water Mare",
+      "GrandCrab",
+      "Revil"
     ],
     "description": "REvil is a Russian ransomware-as-a-service operation that has targeted major corporations worldwide.",
     "url": "/revil",
@@ -206,7 +199,10 @@
   {
     "name": "Qilin",
     "aliases": [
-      "Qilin Ransomware"
+      "Qilin Ransomware",
+      "Qilin Gang",
+      "Qilin Group",
+      "Qilin"
     ],
     "description": "Qilin is a ransomware group that first appeared in 2022 but had a breakout year in 2024, with around 200 victims, 156 of them based in the U.S.",
     "url": "/qilin",
@@ -234,9 +230,7 @@
     "url": "/prophet-spider",
     "permalink": "/prophet-spider/",
     "country": null,
-    "sector_focus": [
-
-    ],
+    "sector_focus": [],
     "risk_level": null,
     "last_updated": "2026-04-28",
     "last_activity": null,

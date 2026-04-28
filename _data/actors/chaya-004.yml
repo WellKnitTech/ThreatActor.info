@@ -1,25 +1,12 @@
----
-name: Chaya_004
-aliases:
-- Chaya_004
-description: Chaya_004 is a Chinese threat actor identified through malicious infrastructure,
-  including a network of servers hosting Supershell backdoors and various pen testing
-  tools of Chinese origin. The actor's activities are linked to the exploitation of
-  a specific vulnerability, with a focus on using Chinese cloud providers. Analysis
-  of the infrastructure has revealed TTPs associated with Chaya_004, indicating a
-  sophisticated approach to cyber operations. Mitigation recommendations and proactive
-  response measures have been developed in light of these findings.
+name: "Chaya_004"
+aliases: ["Chaya_004"]
+description: "Chaya_004 is a Chinese threat actor identified through malicious infrastructure, including a network of servers hosting Supershell backdoors and various pen testing tools of Chinese origin. The actor's activities are linked to the exploitation of a specific vulnerability, with a focus on using Chinese cloud providers. Analysis of the infrastructure has revealed TTPs associated with Chaya_004, indicating a sophisticated approach to cyber operations. Mitigation recommendations and proactive response measures have been developed in light of these findings."
 url: "/chaya-004"
-country: China
-malware:
-- Backdoor.Oldrea
-- CloudDuke
-- CyberGate
-- Cyber Eye RAT
-- Xploit
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Backdoor.Oldrea","CloudDuke","CyberGate","Cyber Eye RAT","Xploit"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: bf0df867-e482-48c3-ab32-93c8bca40ba9
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "bf0df867-e482-48c3-ab32-93c8bca40ba9"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

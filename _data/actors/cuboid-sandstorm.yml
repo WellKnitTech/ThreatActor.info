@@ -1,26 +1,12 @@
----
-name: Cuboid Sandstorm
-aliases:
-- DEV-0228
-- Cuboid Sandstorm
-description: Cuboid Sandstorm is an Iranian threat actor that targeted an Israel-based
-  IT company in July 2021. They gained access to the company's network and used it
-  to compromise downstream customers in the defense, energy, and legal sectors in
-  Israel. The group also utilized custom implants, including a remote access Trojan
-  disguised as RuntimeBroker.exe or svchost.exe, to establish persistence on victim
-  hosts.
+name: "Cuboid Sandstorm"
+aliases: ["DEV-0228","Cuboid Sandstorm"]
+description: "Cuboid Sandstorm is an Iranian threat actor that targeted an Israel-based IT company in July 2021. They gained access to the company's network and used it to compromise downstream customers in the defense, energy, and legal sectors in Israel. The group also utilized custom implants, including a remote access Trojan disguised as RuntimeBroker.exe or svchost.exe, to establish persistence on victim hosts."
 url: "/cuboid-sandstorm"
-country: Iran
-malware:
-- StreamEx
-- Trojan.Karagany
-- RemoteCMD
-- Trojan.Mebromi
-- Remote Utilities
-- RemotePC
+country: "Iran"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["StreamEx","Trojan.Karagany","RemoteCMD","Trojan.Mebromi","Remote Utilities","RemotePC"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: a4004712-f74b-4c8c-b1fb-bb7229bc2da1
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "a4004712-f74b-4c8c-b1fb-bb7229bc2da1"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

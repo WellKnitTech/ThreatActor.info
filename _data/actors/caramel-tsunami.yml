@@ -1,24 +1,11 @@
----
-name: Caramel Tsunami
-aliases:
-- SOURGUM
-- Candiru
-- Caramel Tsunami
-description: Caramel Tsunami is a threat actor that specializes in spyware attacks.
-  They have recently resurfaced with an updated toolset and zero-day exploits, targeting
-  specific victims through watering hole attacks. Candiru has been observed exploiting
-  vulnerabilities in popular browsers like Google Chrome and using third-party signed
-  drivers to gain access to the Windows kernel. They have also been linked to other
-  spyware vendors and have been associated with extensive abuses of their surveillance
-  tools.
+name: "Caramel Tsunami"
+aliases: ["SOURGUM","Candiru","Caramel Tsunami"]
+description: "Caramel Tsunami is a threat actor that specializes in spyware attacks. They have recently resurfaced with an updated toolset and zero-day exploits, targeting specific victims through watering hole attacks. Candiru has been observed exploiting vulnerabilities in popular browsers like Google Chrome and using third-party signed drivers to gain access to the Windows kernel. They have also been linked to other spyware vendors and have been associated with extensive abuses of their surveillance tools."
 url: "/caramel-tsunami"
-malware:
-- Windows Remote Desktop
-- Chrome Remote Desktop
-- Xploit
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Windows Remote Desktop","Chrome Remote Desktop","Xploit"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: '062938a2-6fa1-4217-ad73-f5e0b5186966'
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "062938a2-6fa1-4217-ad73-f5e0b5186966"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

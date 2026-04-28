@@ -1,21 +1,11 @@
----
-name: UTG-Q-008
-aliases:
-- UTG-Q-008
-description: UTG-Q-008 is a threat actor targeting Linux platforms, primarily focusing
-  on government and enterprise entities in China. They utilize a massive botnet network
-  for espionage activities, including reconnaissance, brute-forcing, and Trojan component
-  delivery. The actor has a history of compromising thousands of servers in China
-  using a password dictionary based on Chinese Pinyin. UTG-Q-008 operates during standard
-  working hours in the UTC+8 time zone, with potential ties to Eastern Europe.
+name: "UTG-Q-008"
+aliases: ["UTG-Q-008"]
+description: "UTG-Q-008 is a threat actor targeting Linux platforms, primarily focusing on government and enterprise entities in China. They utilize a massive botnet network for espionage activities, including reconnaissance, brute-forcing, and Trojan component delivery. The actor has a history of compromising thousands of servers in China using a password dictionary based on Chinese Pinyin. UTG-Q-008 operates during standard working hours in the UTC+8 time zone, with potential ties to Eastern Europe."
 url: "/utg-q-008"
-malware:
-- Trojan.Karagany
-- China Chopper
-- Trojan.Mebromi
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Trojan.Karagany","China Chopper","Trojan.Mebromi"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: fd17cd3c-5131-4907-be7d-83a0c7dabd36
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "fd17cd3c-5131-4907-be7d-83a0c7dabd36"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

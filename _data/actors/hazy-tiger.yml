@@ -1,26 +1,13 @@
----
-name: HAZY TIGER
-aliases:
-- Bitter
-- T-APT-17
-- APT-C-08
-- Orange Yali
-- TA397
-- HAZY TIGER
-description: The Bitter threat group initially started using RAT tools in their campaigns,
-  as the first Bitter versions, for Android released in 2014 were based on the AndroRAT
-  framework. Over time, they switched to a custom version that has been known as BitterRAT
-  ever since.
+name: "HAZY TIGER"
+aliases: ["Bitter","T-APT-17","APT-C-08","Orange Yali","TA397","HAZY TIGER"]
+description: "The Bitter threat group initially started using RAT tools in their campaigns, as the first Bitter versions, for Android released in 2014 were based on the AndroRAT framework. Over time, they switched to a custom version that has been known as BitterRAT ever since."
 url: "/hazy-tiger"
-country: India
-targeted_victims:
-- Germany
-malware:
-- DroidJack
-- Androrat
+country: "India"
+targeted_victims: ["Germany"]
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["DroidJack","Androrat"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 1e9bd6fe-e009-41ce-8e92-ad78c73ee772
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "1e9bd6fe-e009-41ce-8e92-ad78c73ee772"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

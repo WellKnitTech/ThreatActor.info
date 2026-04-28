@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT29"
-aliases: ["APT29", "Blue Kitsune", "Cozy Bear", "CozyDuke", "Dark Halo", "IRON HEMLOCK", "IRON RITUAL", "Midnight Blizzard", "NOBELIUM", "NobleBaron", "SolarStorm", "The Dukes", "UNC2452", "UNC3524", "YTTRIUM", "Group 100", "COZY BEAR", "Minidionis", "SeaDuke", "Grizzly Steppe", "G0016", "ATK7", "Cloaked Ursa", "TA421", "ITG11", "BlueBravo", "Nobelium", "UAC-0029"]
+aliases: ["APT29", "Blue Kitsune", "Cozy Bear", "CozyDuke", "Dark Halo", "IRON HEMLOCK", "IRON RITUAL", "Midnight Blizzard", "NOBELIUM", "NobleBaron", "SolarStorm", "The Dukes", "UNC2452", "UNC3524", "YTTRIUM", "Group 100", "COZY BEAR", "Minidionis", "SeaDuke", "Grizzly Steppe", "G0016", "ATK7", "Cloaked Ursa", "TA421", "ITG11", "BlueBravo", "Nobelium", "UAC-0029", "Dukes", "Cozy Duke", "EuroAPT", "CozyCar", "Cozer", "Office Monkeys / TEMP.Monkeys", "Hammer Toss", "Fritillary", "Yttrium", "StellarParticle", "Cranefly"]
 description: "APT29 is threat group that has been attributed to Russia's Foreign Intelligence Service (SVR).(Citation: White House Imposing Costs RU Gov April 2021)(Citation: UK Gov Malign RIS Activity April 2021) T"
 permalink: /apt29/
 ---
@@ -44,6 +44,24 @@ APT29 is threat group that has been attributed to Russia's Foreign Intelligence 
 - **RTM**
 - **OnionDuke**
 - **CyberGate**
+- **Hammertoss**: 
+- **OnionDuke**: 
+- **CosmicDuke**: 
+- **MiniDuke**: 
+- **CozyDuke**: 
+- **SeaDuke**: 
+- **SeaDaddy implant developed in Python and compiled with py2exe**: 
+- **AdobeARM**: 
+- **ATI-Agent**: 
+- **MiniDionis**: 
+- **Grizzly Steppe**: 
+- **Vernaldrop**: 
+- **Tadpole**: 
+- **Spikerush**: 
+- **POSHSPY**: 
+- **PolyglotDuke**: 
+- **RegDuke**: 
+- **FatDuke**: 
 
 ### Russian APT Tool Matrix observations
 

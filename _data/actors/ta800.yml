@@ -1,18 +1,11 @@
----
-name: TA800
-aliases:
-- TA800
-description: |-
-  This attacker is an affiliate distributor of the The Trick, also known as Trickbot, and BazaLoader. (For more on how affiliates work, see the description of TA573).
-  TA800 has targeted a wide range of industries in North America, infecting victims with banking Trojans and malware loaders (malware designed to download other malware onto a compromised device). Malicious emails have often included recipients’ names, titles and employers along with phishing pages designed to look like the targeted company. Lures have included hard-to-resist subjects such as related to payment, meetings, termination, bonuses and complaints in the subject line or body of the email.
+name: "TA800"
+aliases: ["TA800"]
+description: "This attacker is an affiliate distributor of the The Trick, also known as Trickbot, and BazaLoader. (For more on how affiliates work, see the description of TA573).\nTA800 has targeted a wide range of industries in North America, infecting victims with banking Trojans and malware loaders (malware designed to download other malware onto a compromised device). Malicious emails have often included recipients’ names, titles and employers along with phishing pages designed to look like the targeted company. Lures have included hard-to-resist subjects such as related to payment, meetings, termination, bonuses and complaints in the subject line or body of the email."
 url: "/ta800"
-malware:
-- RIPTIDE
-- Trojan.Karagany
-- Trojan.Mebromi
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["RIPTIDE","Trojan.Karagany","Trojan.Mebromi"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 75fac2e9-8f2c-4620-a1cc-4b8a61c1bb48
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "75fac2e9-8f2c-4620-a1cc-4b8a61c1bb48"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,17 +1,10 @@
----
-name: Water Orthrus
-aliases:
-- Water Orthrus
-description: Water Orthrus is a threat actor known for distributing CopperStealer
-  and CopperPhish malware. They target Microsoft 365 users with phishing campaigns
-  to steal credit card information. The actor has evolved their malware to include
-  rootkits for stealthy installations and has shifted their focus from personal information
-  to cryptocurrency and credit card data. Water Orthrus has been linked to the Scranos
-  campaign reported in 2019.
+name: "Water Orthrus"
+aliases: ["Water Orthrus"]
+description: "Water Orthrus is a threat actor known for distributing CopperStealer and CopperPhish malware. They target Microsoft 365 users with phishing campaigns to steal credit card information. The actor has evolved their malware to include rootkits for stealthy installations and has shifted their focus from personal information to cryptocurrency and credit card data. Water Orthrus has been linked to the Scranos campaign reported in 2019."
 url: "/water-orthrus"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 19ddf2b0-9cfb-430f-8919-49205cbec863
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "19ddf2b0-9cfb-430f-8919-49205cbec863"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,17 +1,20 @@
----
-name: UNION SPIDER
-aliases:
-- UNION SPIDER
-description: Adversary targeting manufacturing and industrial organizations.
+name: "UNION SPIDER"
+aliases: ["UNION SPIDER","Union Spider"]
+description: "Adversary targeting manufacturing and industrial organizations."
 url: "/union-spider"
-country: Russia
-sector_focus:
-- Manufacturing
-- Industrial
-risk_level: High
+country: "Russia"
+sector_focus: ["Manufacturing","Industrial"]
+risk_level: "High"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.rsaconference.com/writable/presentations/file_upload/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries_final.pdf"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: db774b7d-a0ee-4375-b24e-fd278f5ab2fd
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "db774b7d-a0ee-4375-b24e-fd278f5ab2fd"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

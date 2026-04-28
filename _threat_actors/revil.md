@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "REvil"
-aliases: ["Sodinokibi", "Sodin"]
+aliases: ["Sodinokibi", "Sodin", "Water Mare", "GrandCrab", "Revil"]
 description: "REvil is a Russian ransomware-as-a-service operation that has targeted major corporations worldwide."
 permalink: /revil/
 ---
@@ -41,6 +41,12 @@ REvil is a Russian ransomware-as-a-service operation that has targeted major cor
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
+- **Sodinokibi**: 
+- **IcedID**: 
+- **Qakbot**: 
+- **PsExec**: 
+- **FileZilla**: 
+
 ### Ransomware Tool Matrix observations
 
 | Category | Observed tools |

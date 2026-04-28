@@ -1,19 +1,11 @@
----
-name: TA571
-aliases:
-- TA571
-description: TA571 is a spam distributor actor known for delivering a variety of malware,
-  including DarkGate, NetSupport RAT, and information stealers. They use phishing
-  emails with macro-enabled attachments to spread malicious PDFs containing rogue
-  OneDrive links. TA571 has been observed using unique filtering techniques with intermediary
-  "gates" to target specific users and bypass automated sandboxing. Proofpoint assesses
-  with high confidence that TA571 infections can lead to ransomware.
+name: "TA571"
+aliases: ["TA571"]
+description: "TA571 is a spam distributor actor known for delivering a variety of malware, including DarkGate, NetSupport RAT, and information stealers. They use phishing emails with macro-enabled attachments to spread malicious PDFs containing rogue OneDrive links. TA571 has been observed using unique filtering techniques with intermediary \"gates\" to target specific users and bypass automated sandboxing. Proofpoint assesses with high confidence that TA571 infections can lead to ransomware."
 url: "/ta571"
-malware:
-- Netsupport Manager
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Netsupport Manager"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 0245113e-cef3-4638-9532-3bf235b07d49
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "0245113e-cef3-4638-9532-3bf235b07d49"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

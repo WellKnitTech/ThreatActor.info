@@ -1,30 +1,24 @@
----
-name: UNC3886
-aliases:
-- UNC3886
-description: 'UNC3886 is a China-nexus cyberespionage group that has been active since
-  at least 2022, targeting defense, technology, and telecommunication organizations
-  located in the United States and the Asia-Pacific-Japan (APJ) regions. UNC3886 has
-  displayed a deep understanding of edge devices and virtualization technologies through
-  the exploitation of zero-day vulnerabilities and the use of novel malware families
-  and utilities.(Citation: Mandiant Fortinet Zero Day)(Citation: Google Cloud Threat
-  Intelligence VMWare ESXi Zero-Day 2023)'
+name: "UNC3886"
+aliases: ["UNC3886"]
+description: "UNC3886 is a China-nexus cyberespionage group that has been active since at least 2022, targeting defense, technology, and telecommunication organizations located in the United States and the Asia-Pacific-Japan (APJ) regions. UNC3886 has displayed a deep understanding of edge devices and virtualization technologies through the exploitation of zero-day vulnerabilities and the use of novel malware families and utilities.(Citation: Mandiant Fortinet Zero Day)(Citation: Google Cloud Threat Intelligence VMWare ESXi Zero-Day 2023)"
 url: "/apt1048"
-country: China
-external_id: G1048
-external_url: https://attack.mitre.org/groups/G1048
-mitre_id: G1048
-mitre_url: https://attack.mitre.org/groups/G1048
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
-malware:
-- CyberGate
-- Cyber Eye RAT
-- Xploit
-- Deeper RAT
+country: "China"
+external_id: "G1048"
+external_url: "https://attack.mitre.org/groups/G1048"
+mitre_id: "G1048"
+mitre_url: "https://attack.mitre.org/groups/G1048"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["CyberGate","Cyber Eye RAT","Xploit","Deeper RAT"]
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.mandiant.com/resources/blog/esxi-hypervisors-malware-persistence","https://www.mandiant.com/resources/blog/fortinet-malware-ecosystem","https://www.mandiant.com/resources/blog/vmware-detection-containment-hardening"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G1048
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-source: MITRE ATT&CK
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G1048"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

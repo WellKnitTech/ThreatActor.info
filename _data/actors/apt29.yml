@@ -1,5 +1,5 @@
 name: "APT29"
-aliases: ["APT29","Blue Kitsune","Cozy Bear","CozyDuke","Dark Halo","IRON HEMLOCK","IRON RITUAL","Midnight Blizzard","NOBELIUM","NobleBaron","SolarStorm","The Dukes","UNC2452","UNC3524","YTTRIUM","Group 100","COZY BEAR","Minidionis","SeaDuke","Grizzly Steppe","G0016","ATK7","Cloaked Ursa","TA421","ITG11","BlueBravo","Nobelium","UAC-0029"]
+aliases: ["APT29","Blue Kitsune","Cozy Bear","CozyDuke","Dark Halo","IRON HEMLOCK","IRON RITUAL","Midnight Blizzard","NOBELIUM","NobleBaron","SolarStorm","The Dukes","UNC2452","UNC3524","YTTRIUM","Group 100","COZY BEAR","Minidionis","SeaDuke","Grizzly Steppe","G0016","ATK7","Cloaked Ursa","TA421","ITG11","BlueBravo","Nobelium","UAC-0029","Dukes","Cozy Duke","EuroAPT","CozyCar","Cozer","Office Monkeys / TEMP.Monkeys","Hammer Toss","Fritillary","Yttrium","StellarParticle","Cranefly"]
 description: "APT29 is threat group that has been attributed to Russia's Foreign Intelligence Service (SVR).(Citation: White House Imposing Costs RU Gov April 2021)(Citation: UK Gov Malign RIS Activity April 2021) They have operated since at least 2008, often targeting government networks in Europe and NATO member countries, research institutes, and think tanks. APT29 reportedly compromised the Democratic National Committee starting in the summer of 2015.(Citation: F-Secure The Dukes)(Citation: GRIZZLY STEPPE JAR)(Citation: Crowdstrike DNC June 2016)(Citation: UK Gov UK Exposes Russia SolarWinds April 2021)\n\nIn April 2021, the US and UK governments attributed the SolarWinds Compromise to the SVR; public statements included citations to APT29, Cozy Bear, and The Dukes.(Citation: NSA Joint Advisory SVR SolarWinds April 2021)(Citation: UK NSCS Russia SolarWinds April 2021) Industry reporting also referred to the actors involved in this campaign as UNC2452, NOBELIUM, StellarParticle, Dark Halo, and SolarStorm.(Citation: FireEye SUNBURST Backdoor December 2020)(Citation: MSTIC NOBELIUM Mar 2021)(Citation: CrowdStrike SUNSPOT Implant January 2021)(Citation: Volexity SolarWinds)(Citation: Cybersecurity Advisory SVR TTP May 2021)(Citation: Unit 42 SolarStorm December 2020)"
 url: "/apt29"
 country: "Russia"
@@ -14,9 +14,46 @@ external_id: "G0016"
 external_url: "https://attack.mitre.org/groups/G0016"
 mitre_id: "G0016"
 mitre_url: "https://attack.mitre.org/groups/G0016"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-malware: ["CosmicDuke","PinchDuke","CloudDuke","HAMMERTOSS","GeminiDuke","MiniDuke","SeaDuke","RTM","OnionDuke","CyberGate"]
+operations: ["Operation Ghost"]
+malware:
+  - "CosmicDuke"
+  - "PinchDuke"
+  - "CloudDuke"
+  - "HAMMERTOSS"
+  - "GeminiDuke"
+  - "MiniDuke"
+  - "SeaDuke"
+  - "RTM"
+  - "OnionDuke"
+  - "CyberGate"
+  - name: "Hammertoss"
+  - name: "OnionDuke"
+  - name: "CosmicDuke"
+  - name: "MiniDuke"
+  - name: "CozyDuke"
+  - name: "SeaDuke"
+  - name: "SeaDaddy implant developed in Python and compiled with py2exe"
+  - name: "AdobeARM"
+  - name: "ATI-Agent"
+  - name: "MiniDionis"
+  - name: "Grizzly Steppe"
+  - name: "Vernaldrop"
+  - name: "Tadpole"
+  - name: "Spikerush"
+  - name: "POSHSPY"
+  - name: "PolyglotDuke"
+  - name: "RegDuke"
+  - name: "FatDuke"
 provenance:
+  apt_groups_operations:
+    matched_mitre_ids: ["G0016"]
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://aptnotes.malwareconfig.com/web/viewer.html?file=../APTnotes/2015/apt29-hammertoss-stealthy-tactics-define-a.pdf","https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage/","https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/","https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf","http://www.volexity.com/blog/","https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf","https://www2.fireeye.com/rs/848-DID-242/images/RPT-M-Trends-2017.pdf","https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html","https://www.fireeye.com/blog/threat-research/2018/11/not-so-cozy-an-uncomfortable-examination-of-a-suspected-apt29-phishing-campaign.html","https://securelist.com/the-cozyduke-apt/69731/","https://www.welivesecurity.com/2019/10/17/operation-ghost-dukes-never-left/","https://us-cert.cisa.gov/ncas/analysis-reports/ar21-105a","https://www.istrosec.com/blog/apt-sk-cobalt/","https://cybergeeks.tech/how-to-defeat-the-russian-dukes-a-step-by-step-analysis-of-miniduke-used-by-apt29-cozy-bear/","https://www.crowdstrike.com/blog/observations-from-the-stellarparticle-campaign/","https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft","https://cluster25.io/2022/05/13/cozy-smuggled-into-the-box/","https://www.mandiant.com/resources/blog/unc3524-eye-spy-email","https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cranefly-new-tools-technique-geppei-danfuan","https://blog.eclecticiq.com/german-embassy-lure-likely-part-of-campaign-against-nato-aligned-ministries-of-foreign-affairs"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "russia"
   bushido_breach_reports:
     reports:
       - organization: "Microsoft"

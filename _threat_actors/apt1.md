@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT1"
-aliases: ["APT1", "Brown Fox", "Byzantine Candor", "Comment Crew", "Comment Group", "Comment Panda", "COMMENT PANDA", "G0006", "GIF89a", "Group 3", "PLA Unit 61398", "ShadyRAT", "TG-8223"]
+aliases: ["APT1", "Brown Fox", "Byzantine Candor", "Comment Crew", "Comment Group", "Comment Panda", "COMMENT PANDA", "G0006", "GIF89a", "Group 3", "PLA Unit 61398", "ShadyRAT", "TG-8223", "Shanghai Group"]
 description: "APT1 is a Chinese cyber espionage group that has been conducting cyber espionage against a broad range of victims."
 permalink: /apt1/
 ---
@@ -35,6 +35,8 @@ APT1 is a Chinese cyber espionage group that has been conducting cyber espionage
 
 ## Malware and Tools
 - **Hacking Team UEFI Rootkit**
+- **WEBC2**: 
+- **BISCUIT and many others**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -1,22 +1,11 @@
----
-name: DarkRaaS
-aliases:
-- DarkRaaS
-description: DarkRaaS is a threat actor specializing in selling unauthorized access
-  to various organizations' systems and networks across multiple countries, with a
-  recent focus on targets in Israel, UAE, Turkey, and South America 4 9 20. The group
-  has been operating for at least six years and typically offers access to sensitive
-  data, internal systems, and infrastructure, with prices ranging up to $25,000 for
-  VPN access 4 9. Their targets span various sectors including government institutions,
-  educational facilities, oil and gas companies, and IT organizations, often claiming
-  to have access to multiple terabytes of sensitive data 7 19.
+name: "DarkRaaS"
+aliases: ["DarkRaaS"]
+description: "DarkRaaS is a threat actor specializing in selling unauthorized access to various organizations' systems and networks across multiple countries, with a recent focus on targets in Israel, UAE, Turkey, and South America 4 9 20. The group has been operating for at least six years and typically offers access to sensitive data, internal systems, and infrastructure, with prices ranging up to $25,000 for VPN access 4 9. Their targets span various sectors including government institutions, educational facilities, oil and gas companies, and IT organizations, often claiming to have access to multiple terabytes of sensitive data 7 19."
 url: "/darkraas"
-malware:
-- DarkRat
-- CrossRat
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["DarkRat","CrossRat"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 0c18304e-e65f-4881-94e1-cc2d621ec563
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "0c18304e-e65f-4881-94e1-cc2d621ec563"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

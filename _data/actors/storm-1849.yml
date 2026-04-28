@@ -1,22 +1,11 @@
----
-name: Storm-1849
-aliases:
-- UAT4356
-- Storm-1849
-description: UAT4356 is a state-sponsored threat actor that targeted government networks
-  globally through a campaign named ArcaneDoor. They exploited two zero-day vulnerabilities
-  in Cisco Adaptive Security Appliances to deploy custom malware implants called "Line
-  Runner" and "Line Dancer." The actor demonstrated a deep understanding of Cisco
-  systems, utilized anti-forensic measures, and took deliberate steps to evade detection.
-  UAT4356's sophisticated attack chain allowed them to conduct malicious actions such
-  as configuration modification, reconnaissance, network traffic capture/exfiltration,
-  and potentially lateral movement on compromised devices.
+name: "Storm-1849"
+aliases: ["UAT4356","Storm-1849"]
+description: "UAT4356 is a state-sponsored threat actor that targeted government networks globally through a campaign named ArcaneDoor. They exploited two zero-day vulnerabilities in Cisco Adaptive Security Appliances to deploy custom malware implants called \"Line Runner\" and \"Line Dancer.\" The actor demonstrated a deep understanding of Cisco systems, utilized anti-forensic measures, and took deliberate steps to evade detection. UAT4356's sophisticated attack chain allowed them to conduct malicious actions such as configuration modification, reconnaissance, network traffic capture/exfiltration, and potentially lateral movement on compromised devices."
 url: "/storm-1849"
-malware:
-- Xploit
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Xploit"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 3d94ef07-9fd6-4d64-bf1e-f1316f2686a4
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "3d94ef07-9fd6-4d64-bf1e-f1316f2686a4"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

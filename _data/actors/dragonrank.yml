@@ -1,29 +1,11 @@
----
-name: DragonRank
-aliases:
-- DragonRank
-description: DragonRank is a threat actor primarily targeting web application services
-  in Asia and Europe, utilizing TTPs associated with Simplified Chinese-speaking hacking
-  groups. They exploit vulnerabilities in platforms like phpMyAdmin and WordPress
-  to deploy web shells, enabling the installation of PlugX and BadIIS malware for
-  black hat SEO practices. Their operations involve lateral movement within compromised
-  networks to maintain control and elevate privileges, while also engaging in unethical
-  online marketing strategies. DragonRank's activities include manipulating search
-  engine rankings and distributing scam websites through compromised Windows IIS servers.
+name: "DragonRank"
+aliases: ["DragonRank"]
+description: "DragonRank is a threat actor primarily targeting web application services in Asia and Europe, utilizing TTPs associated with Simplified Chinese-speaking hacking groups. They exploit vulnerabilities in platforms like phpMyAdmin and WordPress to deploy web shells, enabling the installation of PlugX and BadIIS malware for black hat SEO practices. Their operations involve lateral movement within compromised networks to maintain control and elevate privileges, while also engaging in unethical online marketing strategies. DragonRank's activities include manipulating search engine rankings and distributing scam websites through compromised Windows IIS servers."
 url: "/dragonrank"
-malware:
-- BlackEnergy
-- Hacking Team UEFI Rootkit
-- PlugX
-- BLACKCOFFEE
-- Blackshades
-- BlackNix
-- Windows Remote Desktop
-- Xploit
-- BlackHole
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["BlackEnergy","Hacking Team UEFI Rootkit","PlugX","BLACKCOFFEE","Blackshades","BlackNix","Windows Remote Desktop","Xploit","BlackHole"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 28157c93-0b9f-4341-983a-3a521cee12bb
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "28157c93-0b9f-4341-983a-3a521cee12bb"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -10,7 +10,11 @@ permalink: /itaduke/
 ItaDuke is an actor known since 2013. It used PDF exploits for dropping malware and Twitter accounts to store C2 server urls. On 2018, an actor named DarkUniverse, which was active between 2009 to 2017, was attributed to this ItaDuke by Kaspersky.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇨🇳 China
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -23,9 +27,11 @@ ItaDuke is an actor known since 2013. It used PDF exploits for dropping malware 
 
 ## Malware and Tools
 - **Xploit**
+- **ItaDuke**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: China
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

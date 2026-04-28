@@ -1,20 +1,28 @@
----
-name: Storm Cloud
-aliases:
-- Storm Cloud
-description: Storm Cloud is a Chinese espionage threat actor known for targeting organizations
-  across Asia, particularly Tibetan organizations and individuals. They use a variety
-  of malware families, including GIMMICK and GOSLU, which are feature-rich and multi-platform.
-  Storm Cloud leverages public cloud hosting services like Google Drive for command-and-control
-  channels, making it difficult to detect their activities.
+name: "Storm Cloud"
+aliases: ["Storm Cloud"]
+description: "Storm Cloud is a Chinese espionage threat actor known for targeting organizations across Asia, particularly Tibetan organizations and individuals. They use a variety of malware families, including GIMMICK and GOSLU, which are feature-rich and multi-platform. Storm Cloud leverages public cloud hosting services like Google Drive for command-and-control channels, making it difficult to detect their activities."
 url: "/storm-cloud"
-country: China
+country: "China"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+operations: ["Holy Water"]
 malware:
-- CloudDuke
-- CrossRat
+  - "CloudDuke"
+  - "CrossRat"
+  - name: "Godlike12"
+  - name: "SweetAlerts"
+  - name: "BRAINDAMAGE"
+  - name: "GOSLU"
+  - name: "STITCH"
+  - name: "PLUGDAT"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.volexity.com/blog/2020/03/31/storm-cloud-unleashed-tibetan-community-focus-of-highly-targeted-fake-flash-campaign/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "unknown"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 3baec27f-3827-4a38-82c8-7195a18193f9
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "3baec27f-3827-4a38-82c8-7195a18193f9"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

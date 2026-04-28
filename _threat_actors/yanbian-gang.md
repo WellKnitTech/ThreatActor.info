@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Yanbian Gang"
-aliases: ["Yanbian Gang"]
+aliases: ["Yanbian Gang", "Yanbian"]
 description: "RiskIQ characterizes the Yanbian Gang as a group that targeted South Korean Android mobile banking customers since 2013 with malicious Android apps purporting to be from major banks, namely Shinhan Sav"
 permalink: /yanbian-gang/
 ---
@@ -10,6 +10,8 @@ permalink: /yanbian-gang/
 RiskIQ characterizes the Yanbian Gang as a group that targeted South Korean Android mobile banking customers since 2013 with malicious Android apps purporting to be from major banks, namely Shinhan Savings Bank, Saemaul Geumgo, Shinhan Finance, KB Kookmin Bank, and NH Savings Bank.
 
 ## Activities and Tactics
+**Country of Origin**: 🇨🇳 China
+
 
 
 
@@ -29,9 +31,12 @@ RiskIQ characterizes the Yanbian Gang as a group that targeted South Korean Andr
 - **MobileOrder**
 - **DroidJack**
 - **Androrat**
+- **FunkyBot**: 
+- **Moqhao**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: China
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

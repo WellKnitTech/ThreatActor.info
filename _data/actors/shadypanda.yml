@@ -1,22 +1,11 @@
----
-name: ShadyPanda
-aliases:
-- ShadyPanda
-description: ShadyPanda is a threat actor behind a 7-year campaign that has infected
-  4.3 million users through extensions masquerading as productivity tools while functioning
-  as comprehensive spyware. Their tactics include data exfiltration, user surveillance,
-  and systematic collection of corporate meeting intelligence from over 28 video conferencing
-  platforms. Notably, the WeTab extension exemplifies their capabilities, collecting
-  full browsing history and personal data, exfiltrating to 17 different domains. The
-  actor employs steganography to hide malicious code within PNG files and maintains
-  persistent access through shared infrastructure across their extensions.
+name: "ShadyPanda"
+aliases: ["ShadyPanda"]
+description: "ShadyPanda is a threat actor behind a 7-year campaign that has infected 4.3 million users through extensions masquerading as productivity tools while functioning as comprehensive spyware. Their tactics include data exfiltration, user surveillance, and systematic collection of corporate meeting intelligence from over 28 video conferencing platforms. Notably, the WeTab extension exemplifies their capabilities, collecting full browsing history and personal data, exfiltrating to 17 different domains. The actor employs steganography to hide malicious code within PNG files and maintains persistent access through shared infrastructure across their extensions."
 url: "/shadypanda"
-malware:
-- GraphicBooting
-- CrossRat
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["GraphicBooting","CrossRat"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: c1e76272-22c5-4f2a-96e9-8d2384a994ad
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "c1e76272-22c5-4f2a-96e9-8d2384a994ad"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

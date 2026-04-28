@@ -1,20 +1,25 @@
----
-name: Roaming Mantis
-aliases:
-- Roaming Mantis Group
-- Roaming Mantis
-description: |-
-  According to new research by Kaspersky's GReAT team, the online criminal activities of the Roaming Mantis Group have continued to evolve since they were first discovered in April 2018. As part of their activities, this group hacks into exploitable routers and changes their DNS configuration. This allows the attackers to redirect the router user's traffic to malicious Android apps disguised as Facebook and Chrome or to Apple phishing pages that were used to steal Apple ID credentials.
-  Recently, Kaspersky has discovered that this group is testing a new monetization scheme by redirecting iOS users to pages that contain the Coinhive in-browser mining script rather than the normal Apple phishing page. When users are redirected to these pages, they will be shown a blank page in the browser, but their CPU utilization will jump to 90% or higher.
+name: "Roaming Mantis"
+aliases: ["Roaming Mantis Group","Roaming Mantis","Shaoye"]
+description: "According to new research by Kaspersky's GReAT team, the online criminal activities of the Roaming Mantis Group have continued to evolve since they were first discovered in April 2018. As part of their activities, this group hacks into exploitable routers and changes their DNS configuration. This allows the attackers to redirect the router user's traffic to malicious Android apps disguised as Facebook and Chrome or to Apple phishing pages that were used to steal Apple ID credentials.\nRecently, Kaspersky has discovered that this group is testing a new monetization scheme by redirecting iOS users to pages that contain the Coinhive in-browser mining script rather than the normal Apple phishing page. When users are redirected to these pages, they will be shown a blank page in the browser, but their CPU utilization will jump to 90% or higher."
 url: "/roaming-mantis"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware:
-- DroidJack
-- Androrat
-- Chrome Remote Desktop
-- Xploit
+  - "DroidJack"
+  - "Androrat"
+  - "Chrome Remote Desktop"
+  - "Xploit"
+  - name: "malicious APK"
+  - name: "MITRE: S0509"
+  - name: "Wroba.o"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://securelist.com/it-threat-evolution-q2-2019/91994/","https://securelist.com/roaming-mantis-uses-dns-hijacking-to-infect-android-smartphones/85178/","https://securelist.com/roaming-mantis-dabbles-in-mining-and-phishing-multilingually/85607/","https://securelist.com/roaming-mantis-part-3/88071/","https://securelist.com/roaming-mantis-part-iv/90332/","https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/moqhao-related-android-spyware-targeting-japan-and-korea-found-on-google-play/","https://securelist.com/roaming-mantis-part-v/96250/","https://www.cybereason.com/blog/research/fakespy-masquerades-as-postal-service-apps-around-the-world","https://securelist.com/roaming-mantis-reaches-europe/105596/","https://securelist.com/roaming-mantis-dns-changer-in-malicious-mobile-app/108464/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "unknown"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: b27beb94-ce25-11e8-8e11-2f1a59bd0e91
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "b27beb94-ce25-11e8-8e11-2f1a59bd0e91"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

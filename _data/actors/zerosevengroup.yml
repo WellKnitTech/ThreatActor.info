@@ -1,22 +1,11 @@
----
-name: ZeroSevenGroup
-aliases:
-- ZeroSevenGroup
-description: ZeroSevenGroup is a threat actor that claims to have breached a U.S.
-  branch of Toyota, stealing 240GB of sensitive data, including employee and customer
-  information, contracts, and financial details. They have also allegedly gained full
-  network access to critical Israeli infrastructure, with access to 80TB of sensitive
-  data across various sectors. The group has threatened to use the stolen data for
-  malicious activities, including ransomware attacks. Their operations involve exploiting
-  vulnerabilities, as indicated by their reference to manipulating memory through
-  buffer overflow techniques.
+name: "ZeroSevenGroup"
+aliases: ["ZeroSevenGroup"]
+description: "ZeroSevenGroup is a threat actor that claims to have breached a U.S. branch of Toyota, stealing 240GB of sensitive data, including employee and customer information, contracts, and financial details. They have also allegedly gained full network access to critical Israeli infrastructure, with access to 80TB of sensitive data across various sectors. The group has threatened to use the stolen data for malicious activities, including ransomware attacks. Their operations involve exploiting vulnerabilities, as indicated by their reference to manipulating memory through buffer overflow techniques."
 url: "/zerosevengroup"
-malware:
-- Xploit
-- CrossRat
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Xploit","CrossRat"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: c54b9a98-1436-4e29-b194-e5bde003dd4d
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "c54b9a98-1436-4e29-b194-e5bde003dd4d"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

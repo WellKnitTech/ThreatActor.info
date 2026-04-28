@@ -1,41 +1,27 @@
----
-name: TA2101
-aliases:
-- Maze Team
-- TWISTED SPIDER
-- GOLD VILLAGE
-- Storm-0216
-- DEV-0216
-- UNC2198
-- TUNNEL SPIDER
-- TA2101
-description: Proofpoint researchers detected campaigns from a relatively new actor,
-  tracked internally as TA2101, targeting German companies and organizations to deliver
-  and install backdoor malware. The actor initiated their campaigns impersonating
-  the Bundeszentralamt fur Steuern, the German Federal Ministry of Finance, with lookalike
-  domains, verbiage, and stolen branding in the emails. For their campaigns in Germany,
-  the actor chose Cobalt Strike, a commercially licensed software tool that is generally
-  used for penetration testing and emulates the type of backdoor framework used by
-  Metasploit, a similar penetration testing tool. Proofpoint researchers have also
-  observed this actor distributing Maze ransomware, employing similar social engineering
-  techniques to those it uses for Cobalt Strike, while also targeting organizations
-  in Italy and impersonating the Agenzia Delle Entrate, the Italian Revenue Agency.
-  We have also recently observed the actor targeting organizations in the United States
-  using the IcedID banking Trojan while impersonating the United States Postal Service
-  (USPS).
+name: "TA2101"
+aliases: ["Maze Team","TWISTED SPIDER","GOLD VILLAGE","Storm-0216","DEV-0216","UNC2198","TUNNEL SPIDER","TA2101"]
+description: "Proofpoint researchers detected campaigns from a relatively new actor, tracked internally as TA2101, targeting German companies and organizations to deliver and install backdoor malware. The actor initiated their campaigns impersonating the Bundeszentralamt fur Steuern, the German Federal Ministry of Finance, with lookalike domains, verbiage, and stolen branding in the emails. For their campaigns in Germany, the actor chose Cobalt Strike, a commercially licensed software tool that is generally used for penetration testing and emulates the type of backdoor framework used by Metasploit, a similar penetration testing tool. Proofpoint researchers have also observed this actor distributing Maze ransomware, employing similar social engineering techniques to those it uses for Cobalt Strike, while also targeting organizations in Italy and impersonating the Agenzia Delle Entrate, the Italian Revenue Agency. We have also recently observed the actor targeting organizations in the United States using the IcedID banking Trojan while impersonating the United States Postal Service (USPS)."
 url: "/ta2101"
-country: Russia
+country: "Russia"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware:
-- Backdoor.Oldrea
-- Trojan.Karagany
-- Trojan.Mebromi
-- UNITEDRAKE
-- Archelaus Beta
-- Cobalt Strike
-- Revenge-RAT
+  - "Backdoor.Oldrea"
+  - "Trojan.Karagany"
+  - "Trojan.Mebromi"
+  - "UNITEDRAKE"
+  - "Archelaus Beta"
+  - "Cobalt Strike"
+  - "Revenge-RAT"
+  - name: "Maze ransomware"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.proofpoint.com/us/threat-insight/post/ta2101-plays-government-imposter-distribute-malware-german-italian-and-us","https://securityintelligence.com/news/ta2101-threat-actor-targeted-german-italian-and-us-organizations-with-maze-ransomware/","https://www.cyfirma.com/maze-ransomware-group-declared-successful-exploits-of-many-organizations-and-released-massive-data-on-public-site-in-one-day/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 39925aa0-c7bf-4b9b-97d6-7d600329453d
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "39925aa0-c7bf-4b9b-97d6-7d600329453d"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

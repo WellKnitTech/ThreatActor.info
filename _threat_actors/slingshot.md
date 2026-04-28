@@ -25,6 +25,15 @@ While analysing an incident which involved a suspected keylogger, we identified 
 - **Regin**
 - **TURNEDUP**
 - **Unknown Logger**
+- **Slingshot**: 
+- **Cahnadr**: 
+- **GollumApp**: 
+- **SsCB**: 
+- **ffproxy**: 
+- **NeedleWatch**: 
+- **Sfc2**: 
+- **Minisling**: 
+- **Spork downloader**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

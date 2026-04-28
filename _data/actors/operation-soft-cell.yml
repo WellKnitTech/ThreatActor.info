@@ -1,19 +1,11 @@
----
-name: Operation Soft Cell
-aliases:
-- Operation Soft Cell
-description: In 2018, the Cybereason Nocturnus team identified an advanced, persistent
-  attack targeting global telecommunications providers carried out by a threat actor
-  using tools and techniques commonly associated with Chinese-affiliated threat actors,
-  such as APT10.  This multi-wave attacks focused on obtaining data of specific, high-value
-  targets and resulted in a complete takeover of the network.
+name: "Operation Soft Cell"
+aliases: ["Operation Soft Cell"]
+description: "In 2018, the Cybereason Nocturnus team identified an advanced, persistent attack targeting global telecommunications providers carried out by a threat actor using tools and techniques commonly associated with Chinese-affiliated threat actors, such as APT10.  This multi-wave attacks focused on obtaining data of specific, high-value targets and resulted in a complete takeover of the network."
 url: "/operation-soft-cell"
-malware:
-- CyberGate
-- Cyber Eye RAT
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CyberGate","Cyber Eye RAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 8dda51ef-9a30-48f7-b0fd-5b6f0a62262d
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "8dda51ef-9a30-48f7-b0fd-5b6f0a62262d"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

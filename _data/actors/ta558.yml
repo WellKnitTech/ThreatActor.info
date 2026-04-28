@@ -1,22 +1,11 @@
----
-name: TA558
-aliases:
-- TA558
-description: Since 2018, security researchers tracked a financially-motivated cybercrime
-  actor, TA558, targeting hospitality, travel, and related industries located in Latin
-  America and sometimes North America, and western Europe. The actor sends malicious
-  emails written in Portuguese, Spanish, and sometimes English. The emails use reservation-themed
-  lures with business-relevant themes such as hotel room bookings. The emails may
-  contain malicious attachments or URLs aiming to distribute one of at least 15 different
-  malware payloads.
+name: "TA558"
+aliases: ["TA558"]
+description: "Since 2018, security researchers tracked a financially-motivated cybercrime actor, TA558, targeting hospitality, travel, and related industries located in Latin America and sometimes North America, and western Europe. The actor sends malicious emails written in Portuguese, Spanish, and sometimes English. The emails use reservation-themed lures with business-relevant themes such as hotel room bookings. The emails may contain malicious attachments or URLs aiming to distribute one of at least 15 different malware payloads."
 url: "/ta558"
-malware:
-- CyberGate
-- Cyber Eye RAT
-- Archelaus Beta
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CyberGate","Cyber Eye RAT","Archelaus Beta"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: e1e70539-8916-45c2-9b01-891c1c5bd8a1
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "e1e70539-8916-45c2-9b01-891c1c5bd8a1"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

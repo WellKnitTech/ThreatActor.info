@@ -1,25 +1,12 @@
----
-name: Bignosa
-aliases:
-- Bignosa
-description: Bignosa is a threat actor known for launching malware campaigns targeting
-  Australian and US organizations using phishing emails with disguised Agent Tesla
-  attachments protected by Cassandra Protector. They compromised servers by installing
-  Plesk and RoundCube, connected via SSH and RDP, and used advanced obfuscation methods
-  to evade detection. Bignosa collaborated with another cybercriminal named Gods,
-  who provided advice and assistance in their malicious activities. The actor has
-  been linked to multiple phishing attacks and malware distribution campaigns, showcasing
-  a high level of sophistication in their operations.
+name: "Bignosa"
+aliases: ["Bignosa"]
+description: "Bignosa is a threat actor known for launching malware campaigns targeting Australian and US organizations using phishing emails with disguised Agent Tesla attachments protected by Cassandra Protector. They compromised servers by installing Plesk and RoundCube, connected via SSH and RDP, and used advanced obfuscation methods to evade detection. Bignosa collaborated with another cybercriminal named Gods, who provided advice and assistance in their malicious activities. The actor has been linked to multiple phishing attacks and malware distribution campaigns, showcasing a high level of sophistication in their operations."
 url: "/bignosa"
-country: Kenya
-malware:
-- Agent.btz
-- CyberGate
-- Cyber Eye RAT
-- Sandro RAT
+country: "Kenya"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Agent.btz","CyberGate","Cyber Eye RAT","Sandro RAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: '07232925-bd1b-49a9-adca-46536ff6fdd8'
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "07232925-bd1b-49a9-adca-46536ff6fdd8"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

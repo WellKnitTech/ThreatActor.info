@@ -1,21 +1,11 @@
----
-name: TA2725
-aliases:
-- TA2725
-description: TA2725 is a threat actor that has been tracked since March 2022. They
-  primarily target organizations in Brazil and Mexico using Brazilian banking malware
-  and phishing techniques. Recently, they have expanded their operations to also target
-  victims in Spain and Mexico simultaneously. TA2725 typically uses GoDaddy virtual
-  hosting for their URL redirector and hosts malicious files on legitimate cloud hosting
-  providers like Amazon AWS, Google Cloud, or Microsoft Azure. They have been known
-  to spoof legitimate companies, such as ÉSECÈ Group, to deceive their victims.
+name: "TA2725"
+aliases: ["TA2725"]
+description: "TA2725 is a threat actor that has been tracked since March 2022. They primarily target organizations in Brazil and Mexico using Brazilian banking malware and phishing techniques. Recently, they have expanded their operations to also target victims in Spain and Mexico simultaneously. TA2725 typically uses GoDaddy virtual hosting for their URL redirector and hosts malicious files on legitimate cloud hosting providers like Amazon AWS, Google Cloud, or Microsoft Azure. They have been known to spoof legitimate companies, such as ÉSECÈ Group, to deceive their victims."
 url: "/ta2725"
-malware:
-- CloudDuke
-- Pain RAT
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CloudDuke","Pain RAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 1697dace-fe21-452c-acee-bef62fc5e386
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "1697dace-fe21-452c-acee-bef62fc5e386"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

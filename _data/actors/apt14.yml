@@ -1,43 +1,27 @@
----
-name: APT14
-aliases:
-- ANCHOR PANDA
-- QAZTeam
-- ALUMINUM
-- APT14
-description: "PLA Navy\nAnchor Panda is an adversary that CrowdStrike has tracked
-  extensively over the last year targeting both civilian and military maritime operations
-  in the green/brown water regions primarily in the area of operations of the South
-  Sea Fleet of the PLA Navy. In addition to maritime operations in this region, Anchor
-  Panda also heavily targeted western companies in the US, Germany, Sweden, the UK,
-  and Australia, and other countries involved in maritime satellite systems, aerospace
-  companies, and defense contractors. \nNot surprisingly, embassies and diplomatic
-  missions in the region, foreign intelligence services, and foreign governments with
-  space programs were also targeted."
+name: "APT14"
+aliases: ["ANCHOR PANDA","QAZTeam","ALUMINUM","APT14","APT-14","Anchor Panda"]
+description: "PLA Navy\nAnchor Panda is an adversary that CrowdStrike has tracked extensively over the last year targeting both civilian and military maritime operations in the green/brown water regions primarily in the area of operations of the South Sea Fleet of the PLA Navy. In addition to maritime operations in this region, Anchor Panda also heavily targeted western companies in the US, Germany, Sweden, the UK, and Australia, and other countries involved in maritime satellite systems, aerospace companies, and defense contractors. \nNot surprisingly, embassies and diplomatic missions in the region, foreign intelligence services, and foreign governments with space programs were also targeted."
 url: "/apt14"
-country: China
-sector_focus:
-- Other
-- Aerospace
-- Defense
-- Intelligence
-- Maritime
-- Military
-- Space
-- Government
-targeted_victims:
-- United States
-- United Kingdom
-- Germany
-- Australia
-- Sweden
-incident_type: Espionage
-risk_level: High
+country: "China"
+sector_focus: ["Other","Aerospace","Defense","Intelligence","Maritime","Military","Space","Government"]
+targeted_victims: ["United States","United Kingdom","Germany","Australia","Sweden"]
+incident_type: "Espionage"
+risk_level: "High"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware:
-- SPACESHIP
+  - "SPACESHIP"
+  - name: "Adobe Gh0st"
+  - name: "Poison Ivy"
+  - name: "Torn RAT"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["http://www.crowdstrike.com/blog/whois-anchor-panda/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: c82c904f-b3b4-40a2-bf0d-008912953104
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "c82c904f-b3b4-40a2-bf0d-008912953104"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

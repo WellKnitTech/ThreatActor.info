@@ -1,21 +1,11 @@
----
-name: SilitNetwork
-aliases:
-- SilitNetwork
-description: SilitNetwork is a hacking group known for targeting high-profile entities,
-  such as airlines, for various motives. They utilize sophisticated tactics to breach
-  their targets, potentially including social engineering and exploiting software
-  vulnerabilities. The group's attack on RwandAir highlighted the vulnerability of
-  the aviation industry and the need for robust cybersecurity measures.
+name: "SilitNetwork"
+aliases: ["SilitNetwork"]
+description: "SilitNetwork is a hacking group known for targeting high-profile entities, such as airlines, for various motives. They utilize sophisticated tactics to breach their targets, potentially including social engineering and exploiting software vulnerabilities. The group's attack on RwandAir highlighted the vulnerability of the aviation industry and the need for robust cybersecurity measures."
 url: "/silitnetwork"
-malware:
-- Hacking Team UEFI Rootkit
-- CyberGate
-- Cyber Eye RAT
-- Xploit
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Hacking Team UEFI Rootkit","CyberGate","Cyber Eye RAT","Xploit"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: a0b92be9-7b62-47df-a2e8-16211c864599
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "a0b92be9-7b62-47df-a2e8-16211c864599"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

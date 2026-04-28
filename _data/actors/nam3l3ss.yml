@@ -1,15 +1,10 @@
----
-name: Nam3L3ss
-aliases:
-- Nam3L3ss
-description: Nam3L3ss is a threat actor who has leaked data from 25 companies, including
-  over 2.8 million lines of Amazon employee data, which was confirmed to be stolen
-  from a third-party service provider. The actor is distributing this data on BreachForums
-  and claims to have numerous unreleased datasets.
+name: "Nam3L3ss"
+aliases: ["Nam3L3ss"]
+description: "Nam3L3ss is a threat actor who has leaked data from 25 companies, including over 2.8 million lines of Amazon employee data, which was confirmed to be stolen from a third-party service provider. The actor is distributing this data on BreachForums and claims to have numerous unreleased datasets."
 url: "/nam3l3ss"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 4251393d-b7a4-4b23-b65a-2b7e8e4d63de
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "4251393d-b7a4-4b23-b65a-2b7e8e4d63de"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

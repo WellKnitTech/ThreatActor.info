@@ -8,8 +8,26 @@ external_id: "G1041"
 external_url: "https://attack.mitre.org/groups/G1041"
 mitre_id: "G1041"
 mitre_url: "https://attack.mitre.org/groups/G1041"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+operations: ["Sea Turtle"]
+malware:
+  - name: "DNS hijacking"
+  - name: "CVE-2009-1151"
+  - name: "CVE-2014-6271"
+  - name: "CVE-2017-3881"
+  - name: "CVE-2017-6736"
+  - name: "CVE-2017-12617"
+  - name: "CVE-2018-0296"
+  - name: "CVE-2018-7600"
+  - name: "Drupalgeddon"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://blog.talosintelligence.com/2019/04/seaturtle.html","https://blog.talosintelligence.com/2019/07/sea-turtle-keeps-on-swimming.html","https://www.reuters.com/article/us-cyber-attack-hijack-exclusive/exclusive-hackers-acting-in-turkeys-interests-believed-to-be-behind-recent-cyberattacks-sources-idUSKBN1ZQ10X"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "nato"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1041"

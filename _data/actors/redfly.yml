@@ -1,17 +1,11 @@
----
-name: Redfly
-aliases:
-- Redfly
-description: Redfly hacked a national electricity grid organization in Asia and maintained
-  persistent access to the network for about six months. Researchers discovered evidence
-  for this attack between 28 February and 3 August 2023 after noticing suspicious
-  malware activity within the organization’s network.
+name: "Redfly"
+aliases: ["Redfly"]
+description: "Redfly hacked a national electricity grid organization in Asia and maintained persistent access to the network for about six months. Researchers discovered evidence for this attack between 28 February and 3 August 2023 after noticing suspicious malware activity within the organization’s network."
 url: "/redfly"
-malware:
-- Archelaus Beta
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Archelaus Beta"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 4f1c43a4-3788-4035-a99c-e510f89edd0f
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "4f1c43a4-3788-4035-a99c-e510f89edd0f"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,35 +1,15 @@
----
-name: Cutting Kitten
-aliases:
-- ITsecTeam
-- Cutting Kitten
-description: One of the threat actors responsible for the denial of service attacks
-  against U.S in 2012–2013. Three individuals associated with the group—believed to
-  be have been working on behalf of Iran’s Islamic Revolutionary Guard Corps—were
-  indicted by the Justice Department in 2016.
+name: "Cutting Kitten"
+aliases: ["ITsecTeam","Cutting Kitten"]
+description: "One of the threat actors responsible for the denial of service attacks against U.S in 2012–2013. Three individuals associated with the group—believed to be have been working on behalf of Iran’s Islamic Revolutionary Guard Corps—were indicted by the Justice Department in 2016."
 url: "/cutting-kitten"
-country: Iran
-targeted_victims:
-- United States
-- Bank of America
-- US Bancorp
-- Fifth Third Bank
-- Citigroup
-- PNC
-- BB&T
-- Wells Fargo
-- Capital One
-- HSBC
-- AT&T
-- NYSE
-incident_type:
-- Denial of service
-risk_level: High
-malware:
-- RTM
+country: "Iran"
+targeted_victims: ["United States","Bank of America","US Bancorp","Fifth Third Bank","Citigroup","PNC","BB&T","Wells Fargo","Capital One","HSBC","AT&T","NYSE"]
+incident_type: ["Denial of service"]
+risk_level: "High"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["RTM"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 11e17436-6ede-4733-8547-4ce0254ea19e
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "11e17436-6ede-4733-8547-4ce0254ea19e"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

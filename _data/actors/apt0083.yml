@@ -1,25 +1,37 @@
----
-name: SilverTerrier
-aliases:
-- SilverTerrier
-description: 'SilverTerrier is a Nigerian threat group that has been seen active since
-  2014. SilverTerrier mainly targets organizations in high technology, higher education,
-  and manufacturing.(Citation: Unit42 SilverTerrier 2018)(Citation: Unit42 SilverTerrier
-  2016)'
+name: "SilverTerrier"
+aliases: ["SilverTerrier"]
+description: "SilverTerrier is a Nigerian threat group that has been seen active since 2014. SilverTerrier mainly targets organizations in high technology, higher education, and manufacturing.(Citation: Unit42 SilverTerrier 2018)(Citation: Unit42 SilverTerrier 2016)"
 url: "/apt0083"
-country: Nigeria
-risk_level: High
-external_id: G0083
-external_url: https://attack.mitre.org/groups/G0083
-mitre_id: G0083
-mitre_url: https://attack.mitre.org/groups/G0083
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
+country: "Nigeria"
+risk_level: "High"
+external_id: "G0083"
+external_url: "https://attack.mitre.org/groups/G0083"
+mitre_id: "G0083"
+mitre_url: "https://attack.mitre.org/groups/G0083"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 malware:
-- Virus RAT
+  - "Virus RAT"
+  - name: "Predator Pain"
+  - name: "Pony"
+  - name: "KeyBase"
+  - name: "ISpySoftware"
+  - name: "ISR Stealer"
+  - name: "Agent Tesla"
+  - name: "LokiBot"
+  - name: "Zeus and Atmos"
+  - name: "NetWire"
+  - name: "DarkComet and NanoCore"
 provenance:
+  apt_groups_operations:
+    matched_mitre_ids: ["G0083"]
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.paloaltonetworks.com/resources/whitepapers/unit42-silverterrier-rise-of-nigerian-business-email-compromise.html","https://unit42.paloaltonetworks.com/silverterrier-covid-19-themed-business-email-compromise/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G0083
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-source: MITRE ATT&CK
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0083"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

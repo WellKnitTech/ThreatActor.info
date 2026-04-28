@@ -1,26 +1,23 @@
----
-name: WIRTE
-aliases:
-- Ashen Lepus
-- WIRTE
-description: 'WIRTE is a threat group that has been active since at least August 2018.
-  WIRTE has targeted government, diplomatic, financial, military, legal, and technology
-  organizations in the Middle East and Europe.(Citation: Lab52 WIRTE Apr 2019)(Citation:
-  Kaspersky WIRTE November 2021)'
+name: "WIRTE"
+aliases: ["Ashen Lepus","WIRTE","Group WITRE"]
+description: "WIRTE is a threat group that has been active since at least August 2018. WIRTE has targeted government, diplomatic, financial, military, legal, and technology organizations in the Middle East and Europe.(Citation: Lab52 WIRTE Apr 2019)(Citation: Kaspersky WIRTE November 2021)"
 url: "/apt0090"
-external_id: G0090
-external_url: https://attack.mitre.org/groups/G0090
-mitre_id: G0090
-mitre_url: https://attack.mitre.org/groups/G0090
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
-malware:
-- CyberGate
-- Arabian-Attacker RAT
-- Cyber Eye RAT
+external_id: "G0090"
+external_url: "https://attack.mitre.org/groups/G0090"
+mitre_id: "G0090"
+mitre_url: "https://attack.mitre.org/groups/G0090"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["CyberGate","Arabian-Attacker RAT","Cyber Eye RAT"]
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://blog.talosintelligence.com/2018/02/targeted-attacks-in-middle-east.html","https://www.securityartwork.es/2019/01/18/grupo-wirte-atacando-a-oriente-medio/","https://twitter.com/ClearskySec/status/1085160222233112577","https://twitter.com/ItsReallyNick/status/1033413803470467072","https://twitter.com/jeFF0Falltrades/status/1085247772582912003","https://www.securityartwork.es/2019/01/25/wirte-group-attacking-the-middle-east/","https://lab52.io/blog/wirte-group-attacking-the-middle-east/","https://securelist.com/wirtes-campaign-in-the-middle-east-living-off-the-land-since-at-least-2019/105044/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "middle-east"
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G0090
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-source: MITRE ATT&CK
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0090"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

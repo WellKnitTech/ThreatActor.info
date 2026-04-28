@@ -1,30 +1,12 @@
----
-name: UAT-9244
-aliases:
-- UAT-9244
-description: 'UAT-9244 is a China-nexus APT actor, disclosed by Cisco Talos on March
-  5, 2026, assessed with high confidence as closely associated with Famous Sparrow
-  and overlapping with Tropic Trooper. Active since 2024, it exclusively targets South
-  American telecommunication providers, deploying three novel cross-platform malware
-  families: TernDoor (Windows backdoor with DLL side-loading and evasion driver),
-  PeerTime (Linux/embedded backdoor using BitTorrent for resilient C2), and BruteEntry
-  (GoLang scanner turning edge devices into Operational Relay Boxes for SSH/Postgres/Tomcat
-  brute-force). The campaign enables persistent access, remote command execution,
-  lateral movement, and infrastructure relay via unified C2 with shared SSL certificates
-  and domains like bloopencil.net.'
+name: "UAT-9244"
+aliases: ["UAT-9244"]
+description: "UAT-9244 is a China-nexus APT actor, disclosed by Cisco Talos on March 5, 2026, assessed with high confidence as closely associated with Famous Sparrow and overlapping with Tropic Trooper. Active since 2024, it exclusively targets South American telecommunication providers, deploying three novel cross-platform malware families: TernDoor (Windows backdoor with DLL side-loading and evasion driver), PeerTime (Linux/embedded backdoor using BitTorrent for resilient C2), and BruteEntry (GoLang scanner turning edge devices into Operational Relay Boxes for SSH/Postgres/Tomcat brute-force). The campaign enables persistent access, remote command execution, lateral movement, and infrastructure relay via unified C2 with shared SSL certificates and domains like bloopencil.net."
 url: "/uat-9244"
-country: China
-malware:
-- Backdoor.Oldrea
-- China Chopper
-- RemoteCMD
-- Remote Utilities
-- Windows Remote Desktop
-- RemotePC
-- CrossRat
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Backdoor.Oldrea","China Chopper","RemoteCMD","Remote Utilities","Windows Remote Desktop","RemotePC","CrossRat"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 05f4caf3-87cf-43e3-87ba-cc854578dc7d
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "05f4caf3-87cf-43e3-87ba-cc854578dc7d"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

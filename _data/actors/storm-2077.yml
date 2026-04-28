@@ -1,27 +1,12 @@
----
-name: Storm-2077
-aliases:
-- TAG-100
-- RedNovember
-- Storm-2077
-description: TAG-100 is a cyber-espionage APT that targets government and private
-  sector organizations globally, exploiting vulnerabilities in internet-facing devices
-  such as Citrix NetScaler and F5 BIG-IP for initial access. The group employs open-source
-  tools like Pantegana and SparkRAT for persistence and post-exploitation activities,
-  including credential theft and email data exfiltration. TAG-100 has compromised
-  entities in at least ten countries, including two Asia-Pacific intergovernmental
-  organizations, and focuses on sectors like education, finance, and local government.
-  Their operations highlight the challenges of attribution due to the use of off-the-shelf
-  tools and techniques that overlap with other state-sponsored groups.
+name: "Storm-2077"
+aliases: ["TAG-100","RedNovember","Storm-2077"]
+description: "TAG-100 is a cyber-espionage APT that targets government and private sector organizations globally, exploiting vulnerabilities in internet-facing devices such as Citrix NetScaler and F5 BIG-IP for initial access. The group employs open-source tools like Pantegana and SparkRAT for persistence and post-exploitation activities, including credential theft and email data exfiltration. TAG-100 has compromised entities in at least ten countries, including two Asia-Pacific intergovernmental organizations, and focuses on sectors like education, finance, and local government. Their operations highlight the challenges of attribution due to the use of off-the-shelf tools and techniques that overlap with other state-sponsored groups."
 url: "/storm-2077"
-country: China
-malware:
-- CyberGate
-- Cyber Eye RAT
-- Xploit
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CyberGate","Cyber Eye RAT","Xploit"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: e6afdfb4-a5ac-4be1-9cd0-c1801a7f7083
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "e6afdfb4-a5ac-4be1-9cd0-c1801a7f7083"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

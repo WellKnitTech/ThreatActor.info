@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Anonymous Sudan"
-aliases: ["Anonymous Sudan"]
+aliases: ["Anonymous Sudan", "storm-1359"]
 description: "Since January 23, 2023, a threat actor identifying as \"Anonymous Sudan\" has been conducting denial of service (DDoS) attacks against multiple organizations in Sweden. This group claims to be \"hackti"
 permalink: /anonymous-sudan/
 ---
@@ -10,6 +10,8 @@ permalink: /anonymous-sudan/
 Since January 23, 2023, a threat actor identifying as "Anonymous Sudan" has been conducting denial of service (DDoS) attacks against multiple organizations in Sweden. This group claims to be "hacktivists," politically motivated hackers from Sudan. According to Truesec’s report, the threat actor has nothing to do with the online activists collectively known as Anonymous.
 
 ## Activities and Tactics
+**Country of Origin**: 🇷🇺 Russia
+
 
 
 
@@ -30,7 +32,8 @@ Since January 23, 2023, a threat actor identifying as "Anonymous Sudan" has been
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Russia
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

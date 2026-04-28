@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "SharpPanda"
-aliases: ["Sharp Dragon", "SharpPanda"]
+aliases: ["Sharp Dragon", "SharpPanda", "Sharp Panda", "Sharp Dragon (CHKPT)"]
 description: "SharpPanda, an APT group originating from China, has seen a rise in its cyber-attack operations starting from at least 2018. The APT group utilizes spear-phishing techniques to obtain initial access, e"
 permalink: /sharppanda/
 ---
@@ -34,6 +34,9 @@ SharpPanda, an APT group originating from China, has seen a rise in its cyber-at
 - **Cyber Eye RAT**
 - **SharpEye**
 - **SharpBot**
+- **VictoryDLL**: 
+- **Soul framework**: 
+- **Cobalt Strike Beacon**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

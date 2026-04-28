@@ -1,53 +1,35 @@
----
-name: Molerats
-aliases:
-- ALUMINUM SARATOGA
-- BLACKSTEM
-- Extreme Jackal
-- G0021
-- Gaza Cybergang
-- Gaza cybergang
-- Gaza Hackers Team
-- Molerats
-- Moonlight
-- Operation Molerats
-description: 'Molerats is an Arabic-speaking, politically-motivated threat group that
-  has been operating since 2012. The group''s victims have primarily been in the Middle
-  East, Europe, and the United States.(Citation: DustySky)(Citation: DustySky2)(Citation:
-  Kaspersky MoleRATs April 2019)(Citation: Cybereason Molerats Dec 2020)'
+name: "Molerats"
+aliases: ["ALUMINUM SARATOGA","BLACKSTEM","Extreme Jackal","G0021","Gaza Cybergang","Gaza cybergang","Gaza Hackers Team","Molerats","Moonlight","Operation Molerats","Gaza cyber gang","Gaza Hacker Team","Aluminum Saratoga"]
+description: "Molerats is an Arabic-speaking, politically-motivated threat group that has been operating since 2012. The group's victims have primarily been in the Middle East, Europe, and the United States.(Citation: DustySky)(Citation: DustySky2)(Citation: Kaspersky MoleRATs April 2019)(Citation: Cybereason Molerats Dec 2020)"
 url: "/apt0021"
-country: Palestine
-sector_focus:
-- Government
-- Defense
-- Energy
-- Finance
-- Healthcare
-- Pharmaceuticals
-- Education
-- Media
-- NGOs
-- Civil Society
-- Legal
-- Military
-targeted_victims:
-- United States
-- Israel
-- Palestine
-- Middle East
-- Europe
-incident_type: Espionage
-external_id: G0021
-external_url: https://attack.mitre.org/groups/G0021
-mitre_id: G0021
-mitre_url: https://attack.mitre.org/groups/G0021
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
+country: "Palestine"
+sector_focus: ["Government","Defense","Energy","Finance","Healthcare","Pharmaceuticals","Education","Media","NGOs","Civil Society","Legal","Military"]
+targeted_victims: ["United States","Israel","Palestine","Middle East","Europe"]
+incident_type: "Espionage"
+external_id: "G0021"
+external_url: "https://attack.mitre.org/groups/G0021"
+mitre_id: "G0021"
+mitre_url: "https://attack.mitre.org/groups/G0021"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+operations: ["Molerats","DustySky","TopHat"]
 malware:
-- Archelaus Beta
+  - "Archelaus Beta"
+  - name: "Poison Ivy"
+  - name: "DustySky"
+  - name: "NeD Worm"
+  - name: "Scote"
+  - name: "Don’t Kill My Cat (DKMC)"
+  - name: "RTFs Exploiting CVE-2017-0199"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.sig-switzerland.ch/wp-content/uploads/2016/03/SIGS_SOC_Forum_Sep2017_CrowdStrike_On_the_Hunt_for_Pandas_Kittens_and_Bears.pdf see slide 15","https://docs.rapid7.com/insightidr/molerats/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G0021
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-source: MITRE ATT&CK
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0021"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

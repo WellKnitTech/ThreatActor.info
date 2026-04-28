@@ -1,32 +1,13 @@
----
-name: UNC2452
-aliases:
-- DarkHalo
-- StellarParticle
-- NOBELIUM
-- Solar Phoenix
-- Midnight Blizzard
-- UNC2452
-description: Reporting regarding activity related to the SolarWinds supply chain injection
-  has grown quickly since initial disclosure on 13 December 2020. A significant amount
-  of press reporting has focused on the identification of the actor(s) involved, victim
-  organizations, possible campaign timeline, and potential impact. The US Government
-  and cyber community have also provided detailed information on how the campaign
-  was likely conducted and some of the malware used.  MITRE’s ATT&CK team — with the
-  assistance of contributors — has been mapping techniques used by the actor group,
-  referred to as UNC2452/Dark Halo by FireEye and Volexity respectively, as well as
-  SUNBURST and TEARDROP malware.
+name: "UNC2452"
+aliases: ["DarkHalo","StellarParticle","NOBELIUM","Solar Phoenix","Midnight Blizzard","UNC2452"]
+description: "Reporting regarding activity related to the SolarWinds supply chain injection has grown quickly since initial disclosure on 13 December 2020. A significant amount of press reporting has focused on the identification of the actor(s) involved, victim organizations, possible campaign timeline, and potential impact. The US Government and cyber community have also provided detailed information on how the campaign was likely conducted and some of the malware used.  MITRE’s ATT&CK team — with the assistance of contributors — has been mapping techniques used by the actor group, referred to as UNC2452/Dark Halo by FireEye and Volexity respectively, as well as SUNBURST and TEARDROP malware."
 url: "/unc2452"
-country: Russia
-risk_level: Critical
-malware:
-- WINDSHIELD
-- CyberGate
-- Dark DDoSeR
-- Cyber Eye RAT
+country: "Russia"
+risk_level: "Critical"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["WINDSHIELD","CyberGate","Dark DDoSeR","Cyber Eye RAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 2ee5ed7a-c4d0-40be-a837-20817474a15b
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "2ee5ed7a-c4d0-40be-a837-20817474a15b"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

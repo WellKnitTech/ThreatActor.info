@@ -1,37 +1,31 @@
----
-name: TeamSpy Crew
-aliases:
-- TeamSpy
-- Team Bear
-- Anger Bear
-- IRON LYRIC
-- TeamSpy Crew
-description: |-
-  Researchers have uncovered a long-term cyber-espionage campaign that used a combination of legitimate software packages and commodity malware tools to target a variety of heavy industry, government intelligence agencies and political activists. Known as the TeamSpy crew because of its affinity for using the legitimate TeamViewer application as part of its toolset, the attackers may have been active for as long as 10 years, researchers say.
-  The attack appears to be a years-long espionage campaign, but experts who have analyzed the victim profile, malware components and command-and-control infrastructure say that it’s not entirely clear what kind of data the attackers are going after. What is clear, though, is that the attackers have been at this for a long time and that they have specific people in mind as targets.
-  Researchers at the CrySyS Lab in Hungary were alerted by the Hungarian National Security Authority to an attack against a high-profile target in the country and began looking into the campaign. They quickly discovered that some of the infrastructure being used in the attack had been in use for some time and that the target they were investigating was by no means the only one.
+name: "TeamSpy Crew"
+aliases: ["TeamSpy","Team Bear","Anger Bear","IRON LYRIC","TeamSpy Crew","SIG39"]
+description: "Researchers have uncovered a long-term cyber-espionage campaign that used a combination of legitimate software packages and commodity malware tools to target a variety of heavy industry, government intelligence agencies and political activists. Known as the TeamSpy crew because of its affinity for using the legitimate TeamViewer application as part of its toolset, the attackers may have been active for as long as 10 years, researchers say.\nThe attack appears to be a years-long espionage campaign, but experts who have analyzed the victim profile, malware components and command-and-control infrastructure say that it’s not entirely clear what kind of data the attackers are going after. What is clear, though, is that the attackers have been at this for a long time and that they have specific people in mind as targets.\nResearchers at the CrySyS Lab in Hungary were alerted by the Hungarian National Security Authority to an attack against a high-profile target in the country and began looking into the campaign. They quickly discovered that some of the infrastructure being used in the attack had been in use for some time and that the target they were investigating was by no means the only one."
 url: "/teamspy-crew"
-country: Russia
-sector_focus:
-- Activists
-- Intelligence
-- Government, Administration
-- Government
-- Private sector
-targeted_victims:
-- Hungary
-- Belarus
-incident_type: Espionage
-risk_level: High
+country: "Russia"
+sector_focus: ["Activists","Intelligence","Government, Administration","Government","Private sector"]
+targeted_victims: ["Hungary","Belarus"]
+incident_type: "Espionage"
+risk_level: "High"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+operations: ["TeamSpy"]
 malware:
-- TeamViewer
-- CyberGate
-- Cyber Eye RAT
-- Xpert
-- Archelaus Beta
+  - "TeamViewer"
+  - "CyberGate"
+  - "Cyber Eye RAT"
+  - "Xpert"
+  - "Archelaus Beta"
+  - name: "Malicious TeamViewer versions"
+  - name: "JAVA RATs"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["http://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/theteamspystory_final_t2.pdf","https://blog.crysys.hu/2018/03/territorial-dispute-nsas-perspective-on-apt-landscape/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "russia"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 82c1c7fa-c67b-4be6-9be8-8aa400ef2445
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "82c1c7fa-c67b-4be6-9be8-8aa400ef2445"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

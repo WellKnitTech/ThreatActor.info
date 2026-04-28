@@ -1,23 +1,11 @@
----
-name: LilacSquid
-aliases:
-- LilacSquid
-description: LilacSquid is an APT actor targeting a variety of industries worldwide
-  since at least 2021. They use tactics such as exploiting vulnerabilities and compromised
-  RDP credentials to gain access to victim organizations. Their post-compromise activities
-  involve deploying MeshAgent and a customized version of QuasarRAT known as PurpleInk
-  to maintain control over infected systems. LilacSquid has been observed using tools
-  like Secure Socket Funneling for data exfiltration.
+name: "LilacSquid"
+aliases: ["LilacSquid"]
+description: "LilacSquid is an APT actor targeting a variety of industries worldwide since at least 2021. They use tactics such as exploiting vulnerabilities and compromised RDP credentials to gain access to victim organizations. Their post-compromise activities involve deploying MeshAgent and a customized version of QuasarRAT known as PurpleInk to maintain control over infected systems. LilacSquid has been observed using tools like Secure Socket Funneling for data exfiltration."
 url: "/lilacsquid"
-malware:
-- Agent.btz
-- Quasar RAT
-- Xploit
-- Socket23
-- SocketPlayer
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Agent.btz","Quasar RAT","Xploit","Socket23","SocketPlayer"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: efacc258-fa0e-4686-99d2-03bab14a640e
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "efacc258-fa0e-4686-99d2-03bab14a640e"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

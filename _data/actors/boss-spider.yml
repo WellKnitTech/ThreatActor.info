@@ -1,17 +1,20 @@
----
-name: BOSS SPIDER
-aliases:
-- GOLD LOWELL
-- BOSS SPIDER
-description: Throughout 2018, CrowdStrike Intelligence tracked BOSS SPIDER as it regularly
-  updated Samas ransomware and received payments to known Bitcoin (BTC) addresses.
-  This consistent pace of activity came to an abrupt halt at the end of November 2018
-  when the U.S. DoJ released an indictment for Iran-based individuals Faramarz Shahi
-  Savandi and Mohammad Mehdi Shah Mansouri, alleged members of the group.
+name: "BOSS SPIDER"
+aliases: ["GOLD LOWELL","BOSS SPIDER","Boss Spider","Gold lowell"]
+description: "Throughout 2018, CrowdStrike Intelligence tracked BOSS SPIDER as it regularly updated Samas ransomware and received payments to known Bitcoin (BTC) addresses. This consistent pace of activity came to an abrupt halt at the end of November 2018 when the U.S. DoJ released an indictment for Iran-based individuals Faramarz Shahi Savandi and Mohammad Mehdi Shah Mansouri, alleged members of the group."
 url: "/boss-spider"
+country: "Iran"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "SamSam"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.secureworks.com/research/samsam-ransomware-campaigns","https://www.crowdstrike.com/blog/an-in-depth-analysis-of-samsam-ransomware-and-boss-spider/","https://www.justice.gov/opa/pr/two-iranian-men-indicted-deploying-ransomware-extort-hospitals-municipalities-and-public","https://garwarner.blogspot.com/2018/11/two-iranian-hackers-charged-with-6.html"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "iran"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: d6a13387-4c98-4a0c-a516-6c36c081b64c
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "d6a13387-4c98-4a0c-a516-6c36c081b64c"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

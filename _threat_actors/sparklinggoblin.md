@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "SparklingGoblin"
-aliases: ["SparklingGoblin"]
+aliases: ["SparklingGoblin", "Sparkling Goblin"]
 description: "ESET researchers have discovered a new undocumented modular backdoor, SideWalk, being used by an APT group they’ve named SparklingGoblin; this backdoor was used during one of SparklingGoblin’s recent c"
 permalink: /sparklinggoblin/
 ---
@@ -10,7 +10,11 @@ permalink: /sparklinggoblin/
 ESET researchers have discovered a new undocumented modular backdoor, SideWalk, being used by an APT group they’ve named SparklingGoblin; this backdoor was used during one of SparklingGoblin’s recent campaigns that targeted a computer retail company based in the USA. This backdoor shares multiple similarities with another backdoor used by the group: CROSSWALK.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇨🇳 China
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -25,9 +29,12 @@ ESET researchers have discovered a new undocumented modular backdoor, SideWalk, 
 - **Backdoor.Oldrea**
 - **Archelaus Beta**
 - **CrossRat**
+- **CROSSWALK**: 
+- **SideWalk**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: China
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -1,24 +1,12 @@
----
-name: BrazenBamboo
-aliases:
-- BrazenBamboo
-description: BrazenBamboo is a Chinese state-affiliated threat actor known for developing
-  the LIGHTSPY, DEEPDATA, and DEEPPOST malware families. Their infrastructure includes
-  capabilities for zero-day exploitation, specifically targeting vulnerabilities like
-  FortiClient, and employs a command-and-control architecture that supports multi-platform
-  operations. Volexity's analysis indicates that BrazenBamboo is a well-resourced
-  entity with a focus on domestic targets, utilizing custom analyst software to manage
-  data collected from their malware. The ongoing development of their malware families
-  is evidenced by the timestamps associated with their latest payloads.
+name: "BrazenBamboo"
+aliases: ["BrazenBamboo"]
+description: "BrazenBamboo is a Chinese state-affiliated threat actor known for developing the LIGHTSPY, DEEPDATA, and DEEPPOST malware families. Their infrastructure includes capabilities for zero-day exploitation, specifically targeting vulnerabilities like FortiClient, and employs a command-and-control architecture that supports multi-platform operations. Volexity's analysis indicates that BrazenBamboo is a well-resourced entity with a focus on domestic targets, utilizing custom analyst software to manage data collected from their malware. The ongoing development of their malware families is evidenced by the timestamps associated with their latest payloads."
 url: "/brazenbamboo"
-country: China
-malware:
-- ClientMesh
-- Xploit
-- Client Maximus
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["ClientMesh","Xploit","Client Maximus"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 305fbff0-d3ff-43e3-8741-63bad68e47ee
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "305fbff0-d3ff-43e3-8741-63bad68e47ee"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,20 +1,11 @@
----
-name: TA547
-aliases:
-- TA547
-description: TA547 is responsible for many other campaigns since at least November
-  2017. The other campaigns by the actor were often localized to countries such as
-  Australia, Germany, the United Kingdom, and Italy. Delivered malware included ZLoader
-  (a.k.a. Terdot), Gootkit, Ursnif, Corebot, Panda Banker, Atmos, Mazar Bot, and Red
-  Alert Android malware.
+name: "TA547"
+aliases: ["TA547"]
+description: "TA547 is responsible for many other campaigns since at least November 2017. The other campaigns by the actor were often localized to countries such as Australia, Germany, the United Kingdom, and Italy. Delivered malware included ZLoader (a.k.a. Terdot), Gootkit, Ursnif, Corebot, Panda Banker, Atmos, Mazar Bot, and Red Alert Android malware."
 url: "/ta547"
-malware:
-- DroidJack
-- Androrat
-- UNITEDRAKE
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["DroidJack","Androrat","UNITEDRAKE"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 29fbc8d4-1e6e-4edc-9887-bdf47f36e4c1
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "29fbc8d4-1e6e-4edc-9887-bdf47f36e4c1"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

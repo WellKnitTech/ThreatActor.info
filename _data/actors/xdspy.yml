@@ -1,19 +1,11 @@
----
-name: XDSpy
-aliases:
-- XDSpy
-description: Rare is the APT group that goes largely undetected for nine years, but
-  XDSpy is just that; a previously undocumented espionage group that has been active
-  since 2011. It has attracted very little public attention, with the exception of
-  an advisory from the Belarusian CERT in February 2020. In the interim, the group
-  has compromised many government agencies and private companies in Eastern Europe
-  and the Balkans.
+name: "XDSpy"
+aliases: ["XDSpy"]
+description: "Rare is the APT group that goes largely undetected for nine years, but XDSpy is just that; a previously undocumented espionage group that has been active since 2011. It has attracted very little public attention, with the exception of an advisory from the Belarusian CERT in February 2020. In the interim, the group has compromised many government agencies and private companies in Eastern Europe and the Balkans."
 url: "/xdspy"
-sector_focus:
-- Government, Administration
+sector_focus: ["Government, Administration"]
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: b205584e-db93-433a-b97a-7f2e19d8c188
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "b205584e-db93-433a-b97a-7f2e19d8c188"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

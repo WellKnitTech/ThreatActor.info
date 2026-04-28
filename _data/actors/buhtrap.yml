@@ -1,25 +1,29 @@
----
-name: BuhTrap
-aliases:
-- BuhTrap
-description: |-
-  Buhtrap has been active since 2014, however their first attacks against financial institutions were only detected in August 2015. Earlier, the group had only focused on targeting banking clients. At the moment, the group is known to target Russian and Ukrainian banks.
-  From August 2015 to February 2016 Buhtrap managed to conduct 13 successful attacks against Russian banks for a total amount of 1.8 billion rubles ($25.7 mln). The number of successful attacks against Ukrainian banks has not been identified.
-  Buhtrap is the first hacker group using a network worm to infect the overall bank infrastructure that significantly increases the difficulty of removing all malicious functions from the network. As a result, banks have to shut down the whole infrastructure which provokes delay in servicing customers and additional losses.
-  Malicious programs intentionally scan for machines with an automated Bank-Customer system of the Central Bank of Russia (further referred to as BCS CBR). We have not identified incidents of attacks involving online money transfer systems, ATM machines or payment gates which are known to be of interest for other criminal groups.
+name: "BuhTrap"
+aliases: ["BuhTrap","Ratopak"]
+description: "Buhtrap has been active since 2014, however their first attacks against financial institutions were only detected in August 2015. Earlier, the group had only focused on targeting banking clients. At the moment, the group is known to target Russian and Ukrainian banks.\nFrom August 2015 to February 2016 Buhtrap managed to conduct 13 successful attacks against Russian banks for a total amount of 1.8 billion rubles ($25.7 mln). The number of successful attacks against Ukrainian banks has not been identified.\nBuhtrap is the first hacker group using a network worm to infect the overall bank infrastructure that significantly increases the difficulty of removing all malicious functions from the network. As a result, banks have to shut down the whole infrastructure which provokes delay in servicing customers and additional losses.\nMalicious programs intentionally scan for machines with an automated Bank-Customer system of the Central Bank of Russia (further referred to as BCS CBR). We have not identified incidents of attacks involving online money transfer systems, ATM machines or payment gates which are known to be of interest for other criminal groups."
 url: "/buhtrap"
-country: Russia
-sector_focus:
-- Bank
-- Payment
-- Finance
-risk_level: High
+country: "Russia"
+sector_focus: ["Bank","Payment","Finance"]
+risk_level: "High"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware:
-- ClientMesh
-- Client Maximus
+  - "ClientMesh"
+  - "Client Maximus"
+  - name: "AmmyAdmin"
+  - name: "LURK"
+  - name: "NSIS"
+  - name: "Mimikatz"
+  - name: "CVE-2012-0158"
+  - name: "PuntoSwitcher (like Keylogger)"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.welivesecurity.com/2015/04/09/operation-buhtrap/","http://www.welivesecurity.com/2015/11/11/operation-buhtrap-malware-distributed-via-ammyy-com/","http://www.group-ib.com/brochures/gib-buhtrap-report.pdf","https://www.netscout.com/blog/asert/diving-buhtrap-banking-trojan-activity","https://www.welivesecurity.com/2019/07/11/buhtrap-zero-day-espionage-campaigns/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "russia"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: b737c51f-b579-49d5-a907-743b2e6d03cb
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "b737c51f-b579-49d5-a907-743b2e6d03cb"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,31 +1,31 @@
----
-name: GOBLIN PANDA
-aliases:
-- Conimes
-- Cycldek
-- GOBLIN PANDA
-description: Goblin Panda is one of a handful of elite Chinese advanced persistent
-  threat (APT) groups. Most Chinese APTs target the United States and NATO, but Goblin
-  Panda focuses primarily on Southeast Asia.
+name: "GOBLIN PANDA"
+aliases: ["Conimes","Cycldek","GOBLIN PANDA","Conimes Team","China1937CN Team","Temp.Conimes","Earth Zhulong","Goblin Panda"]
+description: "Goblin Panda is one of a handful of elite Chinese advanced persistent threat (APT) groups. Most Chinese APTs target the United States and NATO, but Goblin Panda focuses primarily on Southeast Asia."
 url: "/goblin-panda"
-country: China
-sector_focus:
-- Private Sector
-targeted_victims:
-- Malaysia
-- India
-- Indonesia
-- Japan
-- Philippines
-- Southeast Asia
-- South Korea
-- Vietnam
-risk_level: Critical
+country: "China"
+sector_focus: ["Private Sector"]
+targeted_victims: ["Malaysia","India","Indonesia","Japan","Philippines","Southeast Asia","South Korea","Vietnam"]
+risk_level: "Critical"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware:
-- UNITEDRAKE
+  - "UNITEDRAKE"
+  - name: "ZeGhost"
+  - name: "PlugX"
+  - name: "tempfun"
+  - name: "NewCore RAT"
+  - name: "Sisfader"
+  - name: "RoyalRoad RTF Weaponizer"
+  - name: "BlueCore"
+  - name: "RedCore"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["http://www.crowdstrike.com/blog/rhetoric-foreshadows-cyber-activity-in-the-south-china-sea/","https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-august-goblin-panda/","https://www.anomali.com/blog/analyzing-digital-quartermasters-in-asia-do-chinese-and-indian-apts-have-a-shared-supply-chain","https://www.fortinet.com/blog/threat-research/cta-security-playbook--goblin-panda.html","https://jsac.jpcert.or.jp/archive/2020/pdf/JSAC2020_8_koike-nakajima_jp.pdf","https://securelist.com/cycldek-bridging-the-air-gap/97157/","https://securelist.com/the-leap-of-a-cycldek-related-threat-actor/101243/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 8d73715a-8bbd-4eaa-ae24-2f1b1c84cf21
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "8d73715a-8bbd-4eaa-ae24-2f1b1c84cf21"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

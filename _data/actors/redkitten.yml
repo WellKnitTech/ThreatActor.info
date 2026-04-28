@@ -1,21 +1,11 @@
----
-name: RedKitten
-aliases:
-- RedKitten
-description: RedKitten is a campaign targeting Iranian interests, particularly NGOs
-  and individuals documenting human rights abuses, first observed in January 2026.
-  The malware utilizes GitHub and Google Drive for configuration and payload retrieval,
-  while employing Telegram for command and control. Although precise attribution is
-  challenging, the activity exhibits TTPs associated with Iranian state-sponsored
-  actors and linguistic indicators suggest a Farsi-speaking threat actor. RedKitten
-  is characterized as an AI-accelerated campaign exploiting the humanitarian crisis
-  surrounding Iran’s Dey 1404 protests.
+name: "RedKitten"
+aliases: ["RedKitten"]
+description: "RedKitten is a campaign targeting Iranian interests, particularly NGOs and individuals documenting human rights abuses, first observed in January 2026. The malware utilizes GitHub and Google Drive for configuration and payload retrieval, while employing Telegram for command and control. Although precise attribution is challenging, the activity exhibits TTPs associated with Iranian state-sponsored actors and linguistic indicators suggest a Farsi-speaking threat actor. RedKitten is characterized as an AI-accelerated campaign exploiting the humanitarian crisis surrounding Iran’s Dey 1404 protests."
 url: "/redkitten"
-malware:
-- Xploit
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Xploit"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 2974b903-822a-4a34-af86-43ed231c3bc7
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "2974b903-822a-4a34-af86-43ed231c3bc7"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

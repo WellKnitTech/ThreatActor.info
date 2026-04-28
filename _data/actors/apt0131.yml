@@ -1,5 +1,5 @@
 name: "Tonto Team"
-aliases: ["BRONZE HUNTLEY","CactusPete","COPPER","Earth Akhlut","G0131","Karma Panda","KARMA PANDA","PLA Unit 65017","Red Beifang","TAG-74","Tonto Team"]
+aliases: ["BRONZE HUNTLEY","CactusPete","COPPER","Earth Akhlut","G0131","Karma Panda","KARMA PANDA","PLA Unit 65017","Red Beifang","TAG-74","Tonto Team","Bisonal (malware)","Lone Ranger"]
 description: "Tonto Team is a suspected Chinese state-sponsored cyber espionage threat group that has primarily targeted South Korea, Japan, Taiwan, and the United States since at least 2009; by 2020 they expanded operations to include other Asian as well as Eastern European countries. Tonto Team has targeted government, military, energy, mining, financial, education, healthcare, and technology organizations, including through the Heartbeat Campaign (2009-2012) and Operation Bitter Biscuit (2017).(Citation: Kaspersky CactusPete Aug 2020)(Citation: ESET Exchange Mar 2021)(Citation: FireEye Chinese Espionage October 2019)(Citation: ARS Technica China Hack SK April 2017)(Citation: Trend Micro HeartBeat Campaign January 2013)(Citation: Talos Bisonal 10 Years March 2020)"
 url: "/apt0131"
 country: "China"
@@ -10,8 +10,18 @@ external_id: "G0131"
 external_url: "https://attack.mitre.org/groups/G0131"
 mitre_id: "G0131"
 mitre_url: "https://attack.mitre.org/groups/G0131"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+operations: ["Seven Pointed Dagger"]
+malware:
+  - name: "RoyalRoad RTF Weaponizer"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["http://files.sans.org/summit/Threat_Hunting_Incident_Response_Summit_2016/PDFs/Detecting-and-Responding-to-Pandas-and-Bears-Christopher-Scott-CrowdStrike-and-Wendi-Whitmore-IBM.pdf","https://securelist.com/apt-trends-report-q1-2019/90643/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0131"

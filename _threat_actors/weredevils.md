@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "WeRedEvils"
-aliases: ["WeRedEvils"]
+aliases: ["WeRedEvils", "RedEvils"]
 description: "WeRedEvils is a hacking group that has claimed responsibility for multiple cyber attacks. They targeted the Iranian Electric Grid and the Tasnimnews website, causing the latter to go offline. The group"
 permalink: /weredevils/
 ---

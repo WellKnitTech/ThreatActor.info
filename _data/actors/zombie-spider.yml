@@ -1,22 +1,18 @@
----
-name: ZOMBIE SPIDER
-aliases:
-- ZOMBIE SPIDER
-description: On April 7, 2017, Pytor Levashov — who predominantly used the alias Severa
-  or Peter Severa and whom Falcon Intelligence tracks as ZOMBIE SPIDER — was arrested
-  in an international law enforcement operation led by the FBI. ZOMBIE SPIDER’s specialty
-  was large-scale spam distribution, a fundamental component of cybercrime operations.
-  Levashov was the primary threat actor behind a botnet known as Kelihos and its predecessors,
-  Waledac and Storm. In addition to Levashov’s arrest, there was a technical operation
-  conducted by Falcon Intelligence to seize control of the Kelihos botnet.
+name: "ZOMBIE SPIDER"
+aliases: ["ZOMBIE SPIDER","Pytor Levashov","Kelihos","Zombie Spider"]
+description: "On April 7, 2017, Pytor Levashov — who predominantly used the alias Severa or Peter Severa and whom Falcon Intelligence tracks as ZOMBIE SPIDER — was arrested in an international law enforcement operation led by the FBI. ZOMBIE SPIDER’s specialty was large-scale spam distribution, a fundamental component of cybercrime operations. Levashov was the primary threat actor behind a botnet known as Kelihos and its predecessors, Waledac and Storm. In addition to Levashov’s arrest, there was a technical operation conducted by Falcon Intelligence to seize control of the Kelihos botnet."
 url: "/zombie-spider"
-malware:
-- CyberGate
-- Cyber Eye RAT
-- ZOMBIE SLAYER
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CyberGate","Cyber Eye RAT","ZOMBIE SLAYER"]
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.sig-switzerland.ch/wp-content/uploads/2016/03/SIGS_SOC_Forum_Sep2017_CrowdStrike_On_the_Hunt_for_Pandas_Kittens_and_Bears.pdf see slide 15; https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2018GlobalThreatReport.pdf page 18","https://www.crowdstrike.com/blog/inside-the-takedown-of-zombie-spider-and-the-kelihos-botnet/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: e01b8f3a-9366-11e9-9c6f-17ba128aa4b6
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "e01b8f3a-9366-11e9-9c6f-17ba128aa4b6"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

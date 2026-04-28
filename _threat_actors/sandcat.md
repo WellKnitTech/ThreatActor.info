@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "SandCat"
-aliases: ["SandCat"]
+aliases: ["SandCat", "Sandcat"]
 description: "SandCat, on the other hand, is a group that was discovered more recently by Kaspersky. One of the Windows vulnerabilities patched by Microsoft in December had been exploited by both FruityArmor and San"
 permalink: /sandcat/
 ---
@@ -26,6 +26,9 @@ SandCat, on the other hand, is a group that was discovered more recently by Kasp
 - **Windows Remote Desktop**
 - **Xploit**
 - **FINSPY**
+- **CHAINSHOT**: 
+- **FinFisher/FinSpy**: 
+- **CVE-2018-8589**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

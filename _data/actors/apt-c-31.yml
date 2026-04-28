@@ -1,21 +1,15 @@
-name: 毒针 - APT-C-31
-aliases:
-- 毒针 - APT-C-31
-description: 2018年11月25日，360高级威胁应对团队就在全球范围内第一时间发现了一起针对俄罗斯的APT攻击行动，攻击目标则指向俄罗斯总统办公室所属的医疗机构，此次攻击行动使用了Flash
-  0day漏洞CVE-2018-15982和Hacking Team的RCS后门程序，结合被攻击目标医疗机构的职能特色，360将此次APT攻击命名为“毒针”行动。
+name: "毒针 - APT-C-31"
+aliases: ["毒针 - APT-C-31"]
+description: "2018年11月25日，360高级威胁应对团队就在全球范围内第一时间发现了一起针对俄罗斯的APT攻击行动，攻击目标则指向俄罗斯总统办公室所属的医疗机构，此次攻击行动使用了Flash 0day漏洞CVE-2018-15982和Hacking Team的RCS后门程序，结合被攻击目标医疗机构的职能特色，360将此次APT攻击命名为“毒针”行动。"
 url: "/apt-c-31"
-malware:
-- Hacking Team UEFI Rootkit
-- FLASHFLOOD
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Hacking Team UEFI Rootkit","FLASHFLOOD"]
 provenance:
   misp_galaxy:
-    source_cluster: 360net.json
-    source_clusters:
-    - 360net.json
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json
-    source_record_id: 5ae4eb64-5431-5b5c-987b-891e7ab5858c
-    source_record_ids:
-    - 5ae4eb64-5431-5b5c-987b-891e7ab5858c
-    source_retrieved_at: '2026-04-28T04:13:45Z'
-source_name: MISP Galaxy
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_cluster: "360net.json"
+    source_clusters: ["360net.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json"
+    source_record_id: "5ae4eb64-5431-5b5c-987b-891e7ab5858c"
+    source_record_ids: ["5ae4eb64-5431-5b5c-987b-891e7ab5858c"]
+    source_retrieved_at: "2026-04-28T04:13:45Z"

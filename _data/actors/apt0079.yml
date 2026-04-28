@@ -2,12 +2,23 @@ name: "DarkHydrus"
 aliases: ["DarkHydrus","G0079","LazyMeerkat","Obscure Serpens"]
 description: "DarkHydrus is a threat group that has targeted government agencies and educational institutions in the Middle East since at least 2016. The group heavily leverages open-source tools and custom payloads for carrying out attacks. (Citation: Unit 42 DarkHydrus July 2018) (Citation: Unit 42 Playbook Dec 2017)"
 url: "/apt0079"
+country: "Iran"
 external_id: "G0079"
 external_url: "https://attack.mitre.org/groups/G0079"
 mitre_id: "G0079"
 mitre_url: "https://attack.mitre.org/groups/G0079"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware:
+  - name: "RogueRobin"
 provenance:
+  apt_groups_operations:
+    matched_mitre_ids: ["G0079"]
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/","https://docs.google.com/document/d/1oYX3uN6KxIX_StzTH0s0yFNNoHDnV8VgmVqU5WoeErc/edit#heading=h.ez428aw98bca"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "iran"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0079"

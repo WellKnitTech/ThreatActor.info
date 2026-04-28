@@ -1,33 +1,12 @@
----
-name: RASPITE
-aliases:
-- LeafMiner
-- Raspite
-- RASPITE
-description: Dragos has identified a new activity group targeting access operations
-  in the electric utility sector. We call this activity group RASPITE.  Analysis of
-  RASPITE tactics, techniques, and procedures (TTPs) indicate the group has been active
-  in some form since early- to mid-2017. RASPITE targeting includes entities in the
-  US, Middle East, Europe, and East Asia. Operations against electric utility organizations
-  appear limited to the US at this time.  RASPITE leverages strategic website compromise
-  to gain initial access to target networks. RASPITE uses the same methodology as
-  DYMALLOY and ALLANITE in embedding a link to a resource to prompt an SMB connection,
-  from which it harvests Windows credentials. The group then deploys install scripts
-  for a malicious service to beacon back to RASPITE-controlled infrastructure, allowing
-  the adversary to remotely access the victim machine.
+name: "RASPITE"
+aliases: ["LeafMiner","Raspite","RASPITE"]
+description: "Dragos has identified a new activity group targeting access operations in the electric utility sector. We call this activity group RASPITE.  Analysis of RASPITE tactics, techniques, and procedures (TTPs) indicate the group has been active in some form since early- to mid-2017. RASPITE targeting includes entities in the US, Middle East, Europe, and East Asia. Operations against electric utility organizations appear limited to the US at this time.  RASPITE leverages strategic website compromise to gain initial access to target networks. RASPITE uses the same methodology as DYMALLOY and ALLANITE in embedding a link to a resource to prompt an SMB connection, from which it harvests Windows credentials. The group then deploys install scripts for a malicious service to beacon back to RASPITE-controlled infrastructure, allowing the adversary to remotely access the victim machine."
 url: "/raspite"
-sector_focus:
-- Electric
-malware:
-- RemoteCMD
-- Back Orifice
-- Back Orifice 2000
-- Remote Utilities
-- Windows Remote Desktop
-- RemotePC
+sector_focus: ["Electric"]
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["RemoteCMD","Back Orifice","Back Orifice 2000","Remote Utilities","Windows Remote Desktop","RemotePC"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 2c8994ba-367c-46f6-bfb0-390c8760dd9e
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "2c8994ba-367c-46f6-bfb0-390c8760dd9e"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,22 +1,11 @@
----
-name: SWEED
-aliases:
-- SWEED
-description: |-
-  Cisco Talos recently identified a large number of ongoing malware distribution campaigns linked to a threat actor we're calling "SWEED," including such notable malware as Formbook, Lokibot and Agent Tesla. Based on our research, SWEED — which has been operating since at least 2017 — primarily targets their victims with stealers and remote access trojans.
-  SWEED remains consistent across most of their campaigns in their use of spear-phishing emails with malicious attachments. While these campaigns have featured a myriad of different types of malicious documents, the actor primarily tries to infect its victims with a packed version of Agent Tesla — an information stealer that's been around since at least 2014. The version of Agent Tesla that SWEED is using differs slightly from what we've seen in the past in the way that it is packed, as well as how it infects the system. In this post, we'll run down each campaign we're able to connect to SWEED, and talk about some of the actor's tactics, techniques and procedures (TTPs).
+name: "SWEED"
+aliases: ["SWEED"]
+description: "Cisco Talos recently identified a large number of ongoing malware distribution campaigns linked to a threat actor we're calling \"SWEED,\" including such notable malware as Formbook, Lokibot and Agent Tesla. Based on our research, SWEED — which has been operating since at least 2017 — primarily targets their victims with stealers and remote access trojans.\nSWEED remains consistent across most of their campaigns in their use of spear-phishing emails with malicious attachments. While these campaigns have featured a myriad of different types of malicious documents, the actor primarily tries to infect its victims with a packed version of Agent Tesla — an information stealer that's been around since at least 2014. The version of Agent Tesla that SWEED is using differs slightly from what we've seen in the past in the way that it is packed, as well as how it infects the system. In this post, we'll run down each campaign we're able to connect to SWEED, and talk about some of the actor's tactics, techniques and procedures (TTPs)."
 url: "/sweed"
-malware:
-- Agent.btz
-- Trojan.Karagany
-- RemoteCMD
-- Trojan.Mebromi
-- Remote Utilities
-- RemotePC
-- CrossRat
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Agent.btz","Trojan.Karagany","RemoteCMD","Trojan.Mebromi","Remote Utilities","RemotePC","CrossRat"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 64ac8827-89d9-4738-9df3-cd955c628bee
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "64ac8827-89d9-4738-9df3-cd955c628bee"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,24 +1,12 @@
----
-name: UAT-6382
-aliases:
-- UAT-6382
-description: UAT-6382 is a Chinese-speaking threat actor that exploits CVE-2025-0944
-  to gain access to enterprise networks, particularly targeting local governing bodies
-  in the U.S. They deploy web shells like AntSword and chinatso/Chopper on IIS web
-  servers and utilize Rust-based loaders to implement Cobalt Strike and VSHell for
-  persistent access. UAT-6382 employs custom tooling, such as TetraLoader, and conducts
-  reconnaissance to identify and exfiltrate files of interest. Their VShell stager
-  connects to a hardcoded C2 server and executes payloads in memory, indicating modifications
-  made by the actor.
+name: "UAT-6382"
+aliases: ["UAT-6382"]
+description: "UAT-6382 is a Chinese-speaking threat actor that exploits CVE-2025-0944 to gain access to enterprise networks, particularly targeting local governing bodies in the U.S. They deploy web shells like AntSword and chinatso/Chopper on IIS web servers and utilize Rust-based loaders to implement Cobalt Strike and VSHell for persistent access. UAT-6382 employs custom tooling, such as TetraLoader, and conducts reconnaissance to identify and exfiltrate files of interest. Their VShell stager connects to a hardcoded C2 server and executes payloads in memory, indicating modifications made by the actor."
 url: "/uat-6382"
-country: China
-malware:
-- China Chopper
-- Xploit
-- Cobalt Strike
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["China Chopper","Xploit","Cobalt Strike"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: ae72a60a-0a0c-4384-8591-11c342c21c41
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "ae72a60a-0a0c-4384-8591-11c342c21c41"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

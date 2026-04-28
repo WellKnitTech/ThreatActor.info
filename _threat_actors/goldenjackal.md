@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "GoldenJackal"
-aliases: ["GoldenJackal"]
+aliases: ["GoldenJackal", "Golden Jackal"]
 description: "GoldenJackal activity is characterized by the use of compromised WordPress websites as a method to host C2-related logic. Kaspersky believes the attackers upload a malicious PHP file that is used as a "
 permalink: /goldenjackal/
 ---
@@ -27,6 +27,11 @@ GoldenJackal activity is characterized by the use of compromised WordPress websi
 
 ## Malware and Tools
 - **GOlden Phoenix**
+- **JackalControl**: 
+- **JackalWorm**: 
+- **JackalSteal**: 
+- **JackalPerInfo**: 
+- **JackalScreenWatcher**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

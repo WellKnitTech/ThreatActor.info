@@ -1,22 +1,12 @@
----
-name: UNC1860
-aliases:
-- UNC1860
-description: UNC1860 is a persistent and opportunistic Iranian state-sponsored threat
-  actor that is likely affiliated with Iran’s Ministry of Intelligence and Security
-  (MOIS). A key feature of UNC1860 is its collection of specialized tooling and passive
-  backdoors that Mandiant believes supports several objectives, including its role
-  as a probable initial access provider and its ability to gain persistent access
-  to high-priority networks, such as those in the government and telecommunications
-  space throughout the Middle East.
+name: "UNC1860"
+aliases: ["UNC1860"]
+description: "UNC1860 is a persistent and opportunistic Iranian state-sponsored threat actor that is likely affiliated with Iran’s Ministry of Intelligence and Security (MOIS). A key feature of UNC1860 is its collection of specialized tooling and passive backdoors that Mandiant believes supports several objectives, including its role as a probable initial access provider and its ability to gain persistent access to high-priority networks, such as those in the government and telecommunications space throughout the Middle East."
 url: "/unc1860"
-country: Iran
-malware:
-- SPACESHIP
-- Backdoor.Oldrea
+country: "Iran"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["SPACESHIP","Backdoor.Oldrea"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 80a874d5-0645-4245-aeb6-9b33a8689928
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "80a874d5-0645-4245-aeb6-9b33a8689928"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

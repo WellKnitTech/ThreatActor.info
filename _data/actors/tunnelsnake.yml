@@ -1,22 +1,12 @@
----
-name: TunnelSnake
-aliases:
-- TunnelSnake
-description: The TunnelSnake campaign demonstrates the activity of a sophisticated
-  actor that invests significant resources in designing an evasive toolset and infiltrating
-  networks of high-profile organizations. By leveraging Windows drivers, covert communications
-  channels and proprietary malware, the group behind it maintains a considerable level
-  of stealth. That said, some of its TTPs, like the usage of a commodity webshell
-  and open-source legacy code for loading unsigned drivers, may get detected and in
-  fact were flagged by Kaspersky's product, giving them visibility into the group’s
-  operation.
+name: "TunnelSnake"
+aliases: ["TunnelSnake"]
+description: "The TunnelSnake campaign demonstrates the activity of a sophisticated actor that invests significant resources in designing an evasive toolset and infiltrating networks of high-profile organizations. By leveraging Windows drivers, covert communications channels and proprietary malware, the group behind it maintains a considerable level of stealth. That said, some of its TTPs, like the usage of a commodity webshell and open-source legacy code for loading unsigned drivers, may get detected and in fact were flagged by Kaspersky's product, giving them visibility into the group’s operation."
 url: "/tunnelsnake"
-country: China
-malware:
-- Windows Remote Desktop
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Windows Remote Desktop"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: f0bb3d3a-c012-4d12-b621-51192977f190
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "f0bb3d3a-c012-4d12-b621-51192977f190"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

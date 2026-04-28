@@ -1,20 +1,11 @@
----
-name: Storm-1099
-aliases:
-- Storm-1099
-description: Storm-1099 is a sophisticated Russia-affiliated influence actor that
-  has been conducting pro-Russia influence operations targeting international supporters
-  of Ukraine since Spring 2022. They are known for their website forgery operation
-  called "Doppelganger" and have been actively spreading false information. They have
-  been involved in pushing the claim that Hamas acquired Ukrainian weapons for an
-  attack on Israel. Storm-1099 has also been implicated in amplifying images of graffiti
-  in Paris, suggesting possible Russian involvement and aligning with Russia's Active
-  Measures playbook.
+name: "Storm-1099"
+aliases: ["Storm-1099"]
+description: "Storm-1099 is a sophisticated Russia-affiliated influence actor that has been conducting pro-Russia influence operations targeting international supporters of Ukraine since Spring 2022. They are known for their website forgery operation called \"Doppelganger\" and have been actively spreading false information. They have been involved in pushing the claim that Hamas acquired Ukrainian weapons for an attack on Israel. Storm-1099 has also been implicated in amplifying images of graffiti in Paris, suggesting possible Russian involvement and aligning with Russia's Active Measures playbook."
 url: "/storm-1099"
-country: Russia
+country: "Russia"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: b05a2a56-08dc-4827-9aef-aaade91016a4
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "b05a2a56-08dc-4827-9aef-aaade91016a4"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "BAMBOO SPIDER"
-aliases: ["BAMBOO SPIDER"]
+aliases: ["BAMBOO SPIDER", "Bamboo Spider"]
 description: "Crowdstrike tracks the developer of Panda Zeus as BAMBOO SPIDER"
 permalink: /bamboo-spider/
 ---
@@ -22,7 +22,7 @@ Crowdstrike tracks the developer of Panda Zeus as BAMBOO SPIDER
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Developed Panda Zeus**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

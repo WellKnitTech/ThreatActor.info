@@ -1,29 +1,17 @@
----
-name: TA577
-aliases:
-- Hive0118
-- TA577
-description: 'TA577 is an initial access broker (IAB) that has distributed QakBot
-  and Pikabot, and was among the first observed groups distributing Latrodectus in
-  2023.(Citation: Latrodectus APR 2024)'
+name: "TA577"
+aliases: ["Hive0118","TA577"]
+description: "TA577 is an initial access broker (IAB) that has distributed QakBot and Pikabot, and was among the first observed groups distributing Latrodectus in 2023.(Citation: Latrodectus APR 2024)"
 url: "/apt1037"
-country: Russia
-external_id: G1037
-external_url: https://attack.mitre.org/groups/G1037
-mitre_id: G1037
-mitre_url: https://attack.mitre.org/groups/G1037
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
-malware:
-- Smoke Loader
-- CyberGate
-- Cyber Eye RAT
-- GraphicBooting
-- Cobalt Strike
-- CrossRat
+country: "Russia"
+external_id: "G1037"
+external_url: "https://attack.mitre.org/groups/G1037"
+mitre_id: "G1037"
+mitre_url: "https://attack.mitre.org/groups/G1037"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["Smoke Loader","CyberGate","Cyber Eye RAT","GraphicBooting","Cobalt Strike","CrossRat"]
 provenance:
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G1037
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-source: MITRE ATT&CK
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G1037"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

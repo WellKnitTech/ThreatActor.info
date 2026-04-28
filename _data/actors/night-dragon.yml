@@ -1,16 +1,21 @@
----
-name: Night Dragon
-aliases:
-- G0014
-- Night Dragon
+name: "Night Dragon"
+aliases: ["G0014","Night Dragon"]
+description: "Night Dragon is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/night-dragon"
-country: China
-risk_level: High
+country: "China"
+risk_level: "High"
+external_id: "G0014"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
+  apt_groups_operations:
+    matched_mitre_ids: ["G0014"]
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://kc.mcafee.com/corporate/index?page=content&id=KB71150","http://www.mcafee.com/us/resources/white-papers/wp-global-energy-cyberattacks-night-dragon.pdf"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: b3714d59-b61e-4713-903a-9b4f04ae7f3d
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-description: Night Dragon is a threat actor tracked by MISP Galaxy. Additional information
-  pending cataloguing.
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "b3714d59-b61e-4713-903a-9b4f04ae7f3d"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

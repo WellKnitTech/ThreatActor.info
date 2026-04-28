@@ -1,17 +1,10 @@
----
-name: Common Raven
-aliases:
-- OPERA1ER
-- NXSMS
-- DESKTOP-GROUP
-- Common Raven
-description: Threat actor Common Raven has been actively targeting financial sector
-  institutions, compromising their SWIFT payment infrastructure to send out fraudulent
-  payments.
+name: "Common Raven"
+aliases: ["OPERA1ER","NXSMS","DESKTOP-GROUP","Common Raven"]
+description: "Threat actor Common Raven has been actively targeting financial sector institutions, compromising their SWIFT payment infrastructure to send out fraudulent payments."
 url: "/common-raven"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: da581c60-7c3d-4de6-b54c-cafea1c58389
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "da581c60-7c3d-4de6-b54c-cafea1c58389"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

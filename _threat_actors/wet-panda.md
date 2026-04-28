@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "WET PANDA"
-aliases: ["Red Chimera", "WET PANDA"]
+aliases: ["Red Chimera", "WET PANDA", "Wet Panda"]
 description: "WET PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /wet-panda/
 ---
@@ -27,7 +27,7 @@ WET PANDA is a threat actor tracked by MISP Galaxy. Additional information pendi
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **PlugX**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

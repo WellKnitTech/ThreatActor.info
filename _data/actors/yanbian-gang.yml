@@ -1,22 +1,25 @@
----
-name: Yanbian Gang
-aliases:
-- Yanbian Gang
-description: RiskIQ characterizes the Yanbian Gang as a group that targeted South
-  Korean Android mobile banking customers since 2013 with malicious Android apps purporting
-  to be from major banks, namely Shinhan Savings Bank, Saemaul Geumgo, Shinhan Finance,
-  KB Kookmin Bank, and NH Savings Bank.
+name: "Yanbian Gang"
+aliases: ["Yanbian Gang","Yanbian"]
+description: "RiskIQ characterizes the Yanbian Gang as a group that targeted South Korean Android mobile banking customers since 2013 with malicious Android apps purporting to be from major banks, namely Shinhan Savings Bank, Saemaul Geumgo, Shinhan Finance, KB Kookmin Bank, and NH Savings Bank."
 url: "/yanbian-gang"
-targeted_victims:
-- South Korea
-- Japan
+country: "China"
+targeted_victims: ["South Korea","Japan"]
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware:
-- MobileOrder
-- DroidJack
-- Androrat
+  - "MobileOrder"
+  - "DroidJack"
+  - "Androrat"
+  - name: "FunkyBot"
+  - name: "Moqhao"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.telekom.com/en/blog/group/article/moqhao-masters-new-tricks-1031484"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: eaeae8e9-cc4b-4be8-82fd-8edc65ff9a5e
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "eaeae8e9-cc4b-4be8-82fd-8edc65ff9a5e"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

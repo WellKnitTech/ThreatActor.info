@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "PIZZO SPIDER"
-aliases: ["DD4BC", "Ambiorx", "PIZZO SPIDER"]
+aliases: ["DD4BC", "Ambiorx", "PIZZO SPIDER", "Pizzo Spider"]
 description: "PIZZO SPIDER is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /pizzo-spider/
 ---

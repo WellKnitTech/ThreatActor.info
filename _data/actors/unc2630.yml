@@ -1,21 +1,12 @@
----
-name: UNC2630
-aliases:
-- UNC2630
-description: UNC2630 is a threat actor believed to be affiliated with the Chinese
-  government. They engage in cyber espionage activities, targeting organizations aligned
-  with Beijing's strategic objectives. UNC2630 demonstrates advanced tradecraft and
-  employs various malware families, including SLOWPULSE and RADIALPULSE, to compromise
-  Pulse Secure VPN appliances. They also utilize modified binaries and scripts to
-  maintain persistence and move laterally within compromised networks.
+name: "UNC2630"
+aliases: ["UNC2630"]
+description: "UNC2630 is a threat actor believed to be affiliated with the Chinese government. They engage in cyber espionage activities, targeting organizations aligned with Beijing's strategic objectives. UNC2630 demonstrates advanced tradecraft and employs various malware families, including SLOWPULSE and RADIALPULSE, to compromise Pulse Secure VPN appliances. They also utilize modified binaries and scripts to maintain persistence and move laterally within compromised networks."
 url: "/unc2630"
-country: China
-malware:
-- CyberGate
-- Cyber Eye RAT
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CyberGate","Cyber Eye RAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 86dfe64e-7101-4d45-bb94-efc40c5e14fe
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "86dfe64e-7101-4d45-bb94-efc40c5e14fe"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

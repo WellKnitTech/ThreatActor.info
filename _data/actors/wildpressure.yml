@@ -1,17 +1,10 @@
----
-name: WildPressure
-aliases:
-- WildPressure
-description: WildPressure is a threat actor that targets industrial-related entities
-  in the Middle East. They use a variety of programming languages, including C++,
-  VBScript, and Python, to develop their malware. They have been observed using virtual
-  private servers and compromised servers, particularly WordPress websites, in their
-  infrastructure. While there are some minor similarities with other threat actors
-  in the region, there is not enough evidence to make any attribution.
+name: "WildPressure"
+aliases: ["WildPressure"]
+description: "WildPressure is a threat actor that targets industrial-related entities in the Middle East. They use a variety of programming languages, including C++, VBScript, and Python, to develop their malware. They have been observed using virtual private servers and compromised servers, particularly WordPress websites, in their infrastructure. While there are some minor similarities with other threat actors in the region, there is not enough evidence to make any attribution."
 url: "/wildpressure"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 89f5a5cb-514f-46db-8959-6bb9aa991e9f
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "89f5a5cb-514f-46db-8959-6bb9aa991e9f"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

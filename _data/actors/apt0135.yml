@@ -1,42 +1,29 @@
----
-name: BackdoorDiplomacy
-aliases:
-- BackDip
-- BackdoorDiplomacy
-- CloudComputating
-- Quarian
-description: 'BackdoorDiplomacy is a cyber espionage threat group that has been active
-  since at least 2017. BackdoorDiplomacy has targeted Ministries of Foreign Affairs
-  and telecommunication companies in Africa, Europe, the Middle East, and Asia.(Citation:
-  ESET BackdoorDiplomacy Jun 2021)'
+name: "BackdoorDiplomacy"
+aliases: ["BackDip","BackdoorDiplomacy","CloudComputating","Quarian"]
+description: "BackdoorDiplomacy is a cyber espionage threat group that has been active since at least 2017. BackdoorDiplomacy has targeted Ministries of Foreign Affairs and telecommunication companies in Africa, Europe, the Middle East, and Asia.(Citation: ESET BackdoorDiplomacy Jun 2021)"
 url: "/apt0135"
-sector_focus:
-- Government
-- Telecomms
-targeted_victims:
-- Libya
-- Namibia
-- Sudan
-- Albania
-- Croatia
-- Georgia
-- Poland
-- Iran
-- Qatar
-- Saudi Arabia
-- Sri Lanka
-- Uzbekistan
-external_id: G0135
-external_url: https://attack.mitre.org/groups/G0135
-mitre_id: G0135
-mitre_url: https://attack.mitre.org/groups/G0135
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
+country: "China"
+sector_focus: ["Government","Telecomms"]
+targeted_victims: ["Libya","Namibia","Sudan","Albania","Croatia","Georgia","Poland","Iran","Qatar","Saudi Arabia","Sri Lanka","Uzbekistan"]
+external_id: "G0135"
+external_url: "https://attack.mitre.org/groups/G0135"
+mitre_id: "G0135"
+mitre_url: "https://attack.mitre.org/groups/G0135"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 malware:
-- Backdoor.Oldrea
+  - "Backdoor.Oldrea"
+  - name: "Quarian"
+  - name: "Turian"
+  - name: "Follina"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "middle-east"
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G0135
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-source: MITRE ATT&CK
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0135"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

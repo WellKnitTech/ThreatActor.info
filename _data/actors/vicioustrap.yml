@@ -1,21 +1,11 @@
----
-name: ViciousTrap
-aliases:
-- ViciousTrap
-description: ViciousTrap has compromised over 5,500 edge devices, transforming them
-  into honeypots and utilizing a shell script called NetGhost to redirect incoming
-  traffic from specific ports to their infrastructure. The actor has targeted various
-  EOL devices, including ASUS routers, Linksys LRT224, and Araknis Networks AN-300-RT-4L2W
-  VPN routers. Observations indicate attempts to deploy a web shell for executing
-  their redirection script, although authorship of the web shell has not been attributed
-  to ViciousTrap. The overall objectives of ViciousTrap remain unclear, but their
-  activities suggest a honeypot-style network aimed at intercepting network flows.
+name: "ViciousTrap"
+aliases: ["ViciousTrap"]
+description: "ViciousTrap has compromised over 5,500 edge devices, transforming them into honeypots and utilizing a shell script called NetGhost to redirect incoming traffic from specific ports to their infrastructure. The actor has targeted various EOL devices, including ASUS routers, Linksys LRT224, and Araknis Networks AN-300-RT-4L2W VPN routers. Observations indicate attempts to deploy a web shell for executing their redirection script, although authorship of the web shell has not been attributed to ViciousTrap. The overall objectives of ViciousTrap remain unclear, but their activities suggest a honeypot-style network aimed at intercepting network flows."
 url: "/vicioustrap"
-malware:
-- Ghost
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Ghost"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: e30ca036-93c8-4970-b52b-d8a0e780c5be
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "e30ca036-93c8-4970-b52b-d8a0e780c5be"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

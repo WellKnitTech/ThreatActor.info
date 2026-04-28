@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "IMPERSONATING PANDA"
-aliases: ["IMPERSONATING PANDA"]
+aliases: ["IMPERSONATING PANDA", "Impersonating Panda"]
 description: "IMPERSONATING PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /impersonating-panda/
 ---

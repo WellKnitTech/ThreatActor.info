@@ -1,25 +1,22 @@
----
-name: SAMURAI PANDA
-aliases:
-- PLA Navy
-- Wisp Team
-- SAMURAI PANDA
+name: "SAMURAI PANDA"
+aliases: ["PLA Navy","Wisp Team","SAMURAI PANDA"]
+description: "SAMURAI PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/samurai-panda"
-country: China
-sector_focus:
-- Private sector
-- Military
-targeted_victims:
-- United States
-- United Kingdom
-- Hong Kong
-incident_type: Espionage
-risk_level: High
+country: "China"
+sector_focus: ["Private sector","Military"]
+targeted_victims: ["United States","United Kingdom","Hong Kong"]
+incident_type: "Espionage"
+risk_level: "High"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.isightpartners.com/2014/04/weeks-threatscape-media-highlights-update-2/","https://www.isightpartners.com/2014/09/weeks-threatscape-media-highlights-update-22/","https://www.isightpartners.com/2015/01/threatscape-media-highlights-update-week-january-12/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 2fb07fa4-0d7f-43c7-8ff4-b28404313fe7
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-description: SAMURAI PANDA is a threat actor tracked by MISP Galaxy. Additional information
-  pending cataloguing.
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "2fb07fa4-0d7f-43c7-8ff4-b28404313fe7"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,15 +1,24 @@
----
-name: Roaming Tiger
-aliases:
-- BRONZE WOODLAND
-- Rotten Tomato
-- Roaming Tiger
+name: "Roaming Tiger"
+aliases: ["BRONZE WOODLAND","Rotten Tomato","Roaming Tiger"]
+description: "Roaming Tiger is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/roaming-tiger"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+operations: ["Roaming Tiger","TOPNEWS"]
+malware:
+  - name: "SOGU"
+  - name: "GHOST"
+  - name: "TEMPFUN"
+  - name: "FIRSTBLOOD"
+  - name: "PI"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["http://researchcenter.paloaltonetworks.com/2015/12/bbsrat-attacks-targeting-russian-organizations-linked-to-roaming-tiger/","https://speakerdeck.com/ashley920/into-the-fog-the-return-of-icefog-apt"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "unknown"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 1fb177c1-472a-4147-b7c4-b5269b11703d
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-description: Roaming Tiger is a threat actor tracked by MISP Galaxy. Additional information
-  pending cataloguing.
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "1fb177c1-472a-4147-b7c4-b5269b11703d"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

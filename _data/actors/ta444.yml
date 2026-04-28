@@ -1,20 +1,12 @@
----
-name: TA444
-aliases:
-- TA444
-description: TA444 is a North Korea state-sponsored threat actor that primarily focuses
-  on financially motivated operations. They have been active since at least 2017 and
-  have recently shifted their attention to targeting cryptocurrencies. TA444 employs
-  various infection methods and has a diverse range of malware and backdoors at their
-  disposal. They have been attributed to stealing hundreds of millions of dollars'
-  worth of cryptocurrency and related assets.
+name: "TA444"
+aliases: ["TA444"]
+description: "TA444 is a North Korea state-sponsored threat actor that primarily focuses on financially motivated operations. They have been active since at least 2017 and have recently shifted their attention to targeting cryptocurrencies. TA444 employs various infection methods and has a diverse range of malware and backdoors at their disposal. They have been attributed to stealing hundreds of millions of dollars' worth of cryptocurrency and related assets."
 url: "/ta444"
-country: North Korea
-malware:
-- Backdoor.Oldrea
+country: "North Korea"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Backdoor.Oldrea"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 5a38db83-16b3-477f-a045-66a922868eea
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "5a38db83-16b3-477f-a045-66a922868eea"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

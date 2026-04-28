@@ -1,13 +1,27 @@
 name: "Rancor"
-aliases: ["Rancor"]
+aliases: ["Rancor","RANCOR"]
 description: "Rancor is a threat group that has led targeted campaigns against the South East Asia region. Rancor uses politically-motivated lures to entice victims to open malicious documents. (Citation: Rancor Unit42 June 2018)"
 url: "/apt0075"
+country: "China"
 external_id: "G0075"
 external_url: "https://attack.mitre.org/groups/G0075"
 mitre_id: "G0075"
 mitre_url: "https://attack.mitre.org/groups/G0075"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware:
+  - name: "KHRAT Trojan"
+  - name: "Derusbi"
+  - name: "Dudell"
+  - name: "DDKONG Plugin"
 provenance:
+  apt_groups_operations:
+    matched_mitre_ids: ["G0075"]
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://researchcenter.paloaltonetworks.com/2018/06/unit42-rancor-targeted-attacks-south-east-asia-using-plaintee-ddkong-malware-families/","https://meltx0r.github.io/tech/2019/09/11/rancor-apt.html","https://research.checkpoint.com/rancor-the-year-of-the-phish/","https://unit42.paloaltonetworks.com/rancor-cyber-espionage-group-uses-new-custom-malware-to-attack-southeast-asia/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0075"

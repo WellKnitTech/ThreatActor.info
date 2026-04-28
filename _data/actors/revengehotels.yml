@@ -1,27 +1,11 @@
----
-name: RevengeHotels
-aliases:
-- RevengeHotels
-description: RevengeHotels is a targeted cybercrime campaign that has been active
-  since 2015, primarily targeting hotels, hostels, and tourism companies. The threat
-  actor uses remote access Trojan malware to infiltrate hotel front desks and steal
-  credit card data from guests and travelers. The campaign has impacted hotels in
-  multiple countries, including Brazil, Argentina, Chile, and Mexico. The threat actor
-  employs social engineering techniques and sells credentials from infected systems
-  to other cybercriminals for remote access.
+name: "RevengeHotels"
+aliases: ["RevengeHotels"]
+description: "RevengeHotels is a targeted cybercrime campaign that has been active since 2015, primarily targeting hotels, hostels, and tourism companies. The threat actor uses remote access Trojan malware to infiltrate hotel front desks and steal credit card data from guests and travelers. The campaign has impacted hotels in multiple countries, including Brazil, Argentina, Chile, and Mexico. The threat actor employs social engineering techniques and sells credentials from infected systems to other cybercriminals for remote access."
 url: "/revengehotels"
-malware:
-- Trojan.Karagany
-- RemoteCMD
-- Trojan.Mebromi
-- CyberGate
-- Cyber Eye RAT
-- Remote Utilities
-- RemotePC
-- Revenge-RAT
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Trojan.Karagany","RemoteCMD","Trojan.Mebromi","CyberGate","Cyber Eye RAT","Remote Utilities","RemotePC","Revenge-RAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: '083acee6-6969-4c74-80c2-5d442936aa97'
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "083acee6-6969-4c74-80c2-5d442936aa97"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -22,7 +22,7 @@ Danti is a threat actor tracked by MISP Galaxy. Additional information pending c
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CVE-2015-2545**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

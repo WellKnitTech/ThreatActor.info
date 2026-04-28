@@ -1,32 +1,32 @@
----
-name: Scarlet Mimic
-aliases:
-- G0029
-- Golfing Taurus
-- Scarlet Mimic
-description: 'Scarlet Mimic is a threat group that has targeted minority rights activists.
-  This group has not been directly linked to a government source, but the group''s
-  motivations appear to overlap with those of the Chinese government. While there
-  is some overlap between IP addresses used by Scarlet Mimic and Putter Panda, it
-  has not been concluded that the groups are the same. (Citation: Scarlet Mimic Jan
-  2016)'
+name: "Scarlet Mimic"
+aliases: ["G0029","Golfing Taurus","Scarlet Mimic"]
+description: "Scarlet Mimic is a threat group that has targeted minority rights activists. This group has not been directly linked to a government source, but the group's motivations appear to overlap with those of the Chinese government. While there is some overlap between IP addresses used by Scarlet Mimic and Putter Panda, it has not been concluded that the groups are the same. (Citation: Scarlet Mimic Jan 2016)"
 url: "/apt0029"
-country: China
-sector_focus:
-- Activists
-risk_level: High
-external_id: G0029
-external_url: https://attack.mitre.org/groups/G0029
-mitre_id: G0029
-mitre_url: https://attack.mitre.org/groups/G0029
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
+country: "China"
+sector_focus: ["Activists"]
+risk_level: "High"
+external_id: "G0029"
+external_url: "https://attack.mitre.org/groups/G0029"
+mitre_id: "G0029"
+mitre_url: "https://attack.mitre.org/groups/G0029"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 malware:
-- SHIPSHAPE
-- China Chopper
+  - "SHIPSHAPE"
+  - "China Chopper"
+  - name: "FakeM"
+  - name: "Psylo"
+  - name: "MobileOrder"
 provenance:
+  apt_groups_operations:
+    matched_mitre_ids: ["G0029"]
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["http://researchcenter.paloaltonetworks.com/2016/01/scarlet-mimic-years-long-espionage-targets-minority-activists/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G0029
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-source: MITRE ATT&CK
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0029"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "OVERLORD SPIDER"
-aliases: ["OVERLORD SPIDER"]
+aliases: ["OVERLORD SPIDER", "Overlord Spider"]
 description: "OVERLORD SPIDER, aka The Dark Overlord. Similar to ransomware operators today, OVERLORD SPIDER likely purchased RDP access to compromised servers on underground forums in order to exfiltrate data from "
 permalink: /overlord-spider/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "MIMIC SPIDER"
-aliases: ["MIMIC SPIDER"]
+aliases: ["MIMIC SPIDER", "Mimic Spider"]
 description: "MIMIC SPIDER is mentioned in two summary reports only"
 permalink: /mimic-spider/
 ---

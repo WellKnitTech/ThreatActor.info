@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Silence group"
-aliases: ["Silence", "WHISPER SPIDER", "Silence group"]
+aliases: ["Silence", "WHISPER SPIDER", "Silence group", "Silence Group"]
 description: "a relatively new threat actor that’s been operating since mid-2016 Group-IB has exposed the attacks committed by Silence cybercriminal group. While the gang had previously targeted Russian banks, Group"
 permalink: /silence-group/
 ---
@@ -28,6 +28,8 @@ a relatively new threat actor that’s been operating since mid-2016 Group-IB ha
 - **Cyber Eye RAT**
 - **Xpert**
 - **GraphicBooting**
+- **Malicious CHM files**: 
+- **Truebot**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

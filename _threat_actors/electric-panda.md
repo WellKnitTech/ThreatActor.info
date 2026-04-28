@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "ELECTRIC PANDA"
-aliases: ["ELECTRIC PANDA"]
+aliases: ["ELECTRIC PANDA", "Electric Panda"]
 description: "ELECTRIC PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /electric-panda/
 ---

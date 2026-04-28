@@ -1,43 +1,31 @@
----
-name: VICEROY TIGER
-aliases:
-- OPERATION HANGOVER
-- Donot Team
-- APT-C-35
-- SectorE02
-- Orange Kala
-- VICEROY TIGER
-description: VICEROY TIGER is an adversary with a nexus to India that has historically
-  targeted entities throughout multiple sectors. Older activity targeted multiple
-  sectors and countries; however, since 2015 this adversary appears to focus on entities
-  in Pakistan with a particular focus on government and security organizations. This
-  adversary consistently leverages spear phishing emails containing malicious Microsoft
-  Office documents, malware designed to target the Android mobile platform, and phishing
-  activity designed to harvest user credentials. In March 2017, the 360 Chasing Team
-  found a sample of targeted attacks that confirmed the previously unknown sample
-  of APT's attack actions, which the organization can now trace back at least in April
-  2016. The chasing team named the attack organization APT-C-35. In June 2017, the
-  360 Threat Intelligence Center discovered the organization’s new attack activity,
-  confirmed and exposed the gang’s targeted attacks against Pakistan, and analyzed
-  in detail. The unique EHDevel malicious code framework used by the organization.
+name: "VICEROY TIGER"
+aliases: ["OPERATION HANGOVER","Donot Team","APT-C-35","SectorE02","Orange Kala","VICEROY TIGER","APTC35"]
+description: "VICEROY TIGER is an adversary with a nexus to India that has historically targeted entities throughout multiple sectors. Older activity targeted multiple sectors and countries; however, since 2015 this adversary appears to focus on entities in Pakistan with a particular focus on government and security organizations. This adversary consistently leverages spear phishing emails containing malicious Microsoft Office documents, malware designed to target the Android mobile platform, and phishing activity designed to harvest user credentials. In March 2017, the 360 Chasing Team found a sample of targeted attacks that confirmed the previously unknown sample of APT's attack actions, which the organization can now trace back at least in April 2016. The chasing team named the attack organization APT-C-35. In June 2017, the 360 Threat Intelligence Center discovered the organization’s new attack activity, confirmed and exposed the gang’s targeted attacks against Pakistan, and analyzed in detail. The unique EHDevel malicious code framework used by the organization."
 url: "/viceroy-tiger"
-country: India
-sector_focus:
-- Government, Administration
-- Security Service
-targeted_victims:
-- Germany
-risk_level: High
+country: "India"
+sector_focus: ["Government, Administration","Security Service"]
+targeted_victims: ["Germany"]
+risk_level: "High"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+operations: ["Lucky Elephant"]
 malware:
-- MobileOrder
-- Unknown Logger
-- Back Orifice
-- Back Orifice 2000
-- DroidJack
-- Androrat
+  - "MobileOrder"
+  - "Unknown Logger"
+  - "Back Orifice"
+  - "Back Orifice 2000"
+  - "DroidJack"
+  - "Androrat"
+  - name: "EHDevel"
+  - name: "yty"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://ti.360.net/blog/articles/pakistan-targeted-apt-campaign/","https://www.reuters.com/article/us-india-cyber-threat/exclusive-india-and-pakistan-hit-by-spy-malware-cybersecurity-firm-idUSKCN1B80Y2","https://labs.bitdefender.com/wp-content/uploads/downloads/ehdevel-the-story-of-a-continuously-improving-advanced-threat-creation-toolkit/","https://asert.arbornetworks.com/donot-team-leverages-new-modular-malware-framework-south-asia/","https://ti.360.net/blog/articles/latest-activity-of-apt-c-35/","https://github.com/aptnotes/data/files/679036/Snake.In.The.Grass.-.Python-based.Malware.Used.For.Targeted.Attacks.-.BLUE.COAT.LABS.pdf","https://ti.360.net/blog/articles/donot-group-is-targeting-pakistani-businessman-working-in-china/","https://www.netscout.com/blog/asert/lucky-elephant-campaign-masquerading","https://threatrecon.nshc.net/2019/08/02/sectore02-updates-yty-framework-in-new-targeted-campaign-against-pakistan-government/","http://blog.ptsecurity.com/2019/11/studying-donot-team.html","https://blogs.360.cn/post/APT-C-35_target_at_armed_forces_in_Pakistan.html","https://cybleinc.com/2021/04/21/donot-team-apt-group-is-back-to-using-old-malicious-patterns/","https://www.amnesty.org/en/wp-content/uploads/2021/10/AFR5747562021ENGLISH.pdf","https://www.welivesecurity.com/2022/01/18/donot-go-do-not-respawn/","https://blog.morphisec.com/apt-c-35-new-windows-framework-revealed","https://www.cyfirma.com/outofband/donot-apt-elevates-its-tactics-by-deploying-malicious-android-apps-on-google-play-store/","https://cyble.com/blog/donot-apt-expands-its-arsenal-to-spy-on-victims-voip-calls/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: e2b87f81-a6a1-4524-b03f-193c3191d239
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "e2b87f81-a6a1-4524-b03f-193c3191d239"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

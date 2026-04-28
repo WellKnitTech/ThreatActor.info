@@ -1,41 +1,16 @@
----
-name: QUILTED TIGER
-aliases:
-- Chinastrats
-- Patchwork
-- Monsoon
-- Sarit
-- Dropping Elephant
-- APT-C-09
-- ZINC EMERSON
-- ATK11
-- G0040
-- Orange Athos
-- Thirsty Gemini
-- QUILTED TIGER
-description: Dropping Elephant (also known as “Chinastrats” and “Patchwork“) is a
-  relatively new threat actor that is targeting a variety of high profile diplomatic
-  and economic targets using a custom set of attack tools. Its victims are all involved
-  with China’s foreign relations in some way, and are generally caught through spear-phishing
-  or watering hole attacks.
+name: "QUILTED TIGER"
+aliases: ["Chinastrats","Patchwork","Monsoon","Sarit","Dropping Elephant","APT-C-09","ZINC EMERSON","ATK11","G0040","Orange Athos","Thirsty Gemini","QUILTED TIGER"]
+description: "Dropping Elephant (also known as “Chinastrats” and “Patchwork“) is a relatively new threat actor that is targeting a variety of high profile diplomatic and economic targets using a custom set of attack tools. Its victims are all involved with China’s foreign relations in some way, and are generally caught through spear-phishing or watering hole attacks."
 url: "/quilted-tiger"
-country: India
-sector_focus:
-- Finance
-- Diplomacy
-- Private sector
-- Military
-targeted_victims:
-- Bangladesh
-- Sri Lanka
-- Pakistan
-incident_type: Espionage
-risk_level: High
-malware:
-- China Chopper
+country: "India"
+sector_focus: ["Finance","Diplomacy","Private sector","Military"]
+targeted_victims: ["Bangladesh","Sri Lanka","Pakistan"]
+incident_type: "Espionage"
+risk_level: "High"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["China Chopper"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 18d473a5-831b-47a5-97a1-a32156299825
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "18d473a5-831b-47a5-97a1-a32156299825"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

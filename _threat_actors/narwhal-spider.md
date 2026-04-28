@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "NARWHAL SPIDER"
-aliases: ["GOLD ESSEX", "TA544", "Storm-0302", "NARWHAL SPIDER"]
+aliases: ["GOLD ESSEX", "TA544", "Storm-0302", "NARWHAL SPIDER", "Narwhal Spider"]
 description: "NARWHAL SPIDER’s operation of Cutwail v2 was limited to country-specific spam campaigns, although late in 2019 there appeared to be an effort to expand by bringing in INDRIK SPIDER as a customer."
 permalink: /narwhal-spider/
 ---
@@ -22,7 +22,12 @@ NARWHAL SPIDER’s operation of Cutwail v2 was limited to country-specific spam 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **URLZone**: 
+- **Ursnif**: 
+- **Panda Banker**: 
+- **Nymaim**: 
+- **Chthonic**: 
+- **Smoke Loader**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

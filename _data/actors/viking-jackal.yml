@@ -1,16 +1,12 @@
----
-name: Viking Jackal
-aliases:
-- Vikingdom
-- Viking Jackal
+name: "Viking Jackal"
+aliases: ["Vikingdom","Viking Jackal"]
+description: "Viking Jackal is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/viking-jackal"
-country: United Arab Emirates
-risk_level: High
+country: "United Arab Emirates"
+risk_level: "High"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 7f99ba32-421c-4905-9deb-006e8eda40c1
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-description: Viking Jackal is a threat actor tracked by MISP Galaxy. Additional information
-  pending cataloguing.
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "7f99ba32-421c-4905-9deb-006e8eda40c1"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

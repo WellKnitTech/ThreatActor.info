@@ -1,16 +1,22 @@
----
-name: Clever Kitten
-aliases:
-- Group 41
-- Clever Kitten
+name: "Clever Kitten"
+aliases: ["Group 41","Clever Kitten"]
+description: "Clever Kitten is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/clever-kitten"
-country: Iran
-risk_level: High
+country: "Iran"
+risk_level: "High"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Acunetix Web Vulnerability Scanner"
+  - name: "PHP Webshell RC SHELL"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["http://www.crowdstrike.com/blog/whois-clever-kitten/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "iran"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: d56c99fa-4710-472c-81a6-41b7a84ea4be
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-description: Clever Kitten is a threat actor tracked by MISP Galaxy. Additional information
-  pending cataloguing.
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "d56c99fa-4710-472c-81a6-41b7a84ea4be"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

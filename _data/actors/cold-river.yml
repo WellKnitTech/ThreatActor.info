@@ -1,10 +1,18 @@
 name: "Cold River"
-aliases: ["Nahr Elbard","Nahr el bared","Cold River"]
+aliases: ["Nahr Elbard","Nahr el bared","Cold River","Callisto","TA446","SEABORGIUM","Calisto","TAG-53","COLDRIVER"]
 description: "In short, “Cold River” is a sophisticated threat (actor) that utilizes DNS subdomain hijacking, certificate spoofing, and covert tunneled command and control traffic in combination with complex and convincing lure documents and custom implants."
 url: "/cold-river"
+country: "Russia"
 last_updated: "2026-04-28"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.f-secure.com/documents/996508/1030745/callisto-group","https://natoassociation.ca/phishing-on-the-dnieper-russian-offensive-cyber-operations-in-ukraine/","https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe/","https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe/","https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag/","https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations/","https://www.recordedfuture.com/exposing-tag-53-credential-harvesting-infrastructure-for-russia-aligned-espionage-operations","https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html","https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/Nisos-Research-Coldriver-Group.pdf","https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "russia"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "7d99d2f7-adf0-44e4-9044-d18ff6842a16"

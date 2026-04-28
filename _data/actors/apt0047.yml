@@ -1,5 +1,5 @@
 name: "Gamaredon Group"
-aliases: ["ACTINIUM","Actinium","Aqua Blizzard","Armageddon","Blue Otso","BlueAlpha","DEV-0157","G0047","Gamaredon Group","IRON TILDEN","Primitive Bear","PRIMITIVE BEAR","Shuckworm","Trident Ursa","UAC-0010","Winterflounder"]
+aliases: ["ACTINIUM","Actinium","Aqua Blizzard","Armageddon","Blue Otso","BlueAlpha","DEV-0157","G0047","Gamaredon Group","IRON TILDEN","Primitive Bear","PRIMITIVE BEAR","Shuckworm","Trident Ursa","UAC-0010","Winterflounder","Iron Tilden","Hive0051 (IBM)","FSB 16th & 18th Centers"]
 description: "Gamaredon Group is a suspected Russian cyber espionage group that has targeted military, law enforcement, judiciary, non-profit, and non-governmental organizations in Ukraine since at least 2013. The name Gamaredon Group derives from a misspelling of the word \"Armageddon,\" found in early campaigns.(Citation: Palo Alto Gamaredon Feb 2017)(Citation: TrendMicro Gamaredon April 2020)(Citation: ESET Gamaredon June 2020)(Citation: Symantec Shuckworm January 2022)(Citation: Microsoft Actinium February 2022)\n\nIn November 2021, the Ukrainian government publicly attributed Gamaredon Group to Russia’s Federal Security Service (FSB) Center 18, an assessment later supported by multiple independent cybersecurity researchers. (Citation: Bleepingcomputer Gamardeon FSB November 2021)(Citation: Microsoft Actinium February 2022)"
 url: "/apt0047"
 country: "Russia"
@@ -10,9 +10,23 @@ external_id: "G0047"
 external_url: "https://attack.mitre.org/groups/G0047"
 mitre_id: "G0047"
 mitre_url: "https://attack.mitre.org/groups/G0047"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-malware: ["Archelaus Beta"]
+operations: ["OP Armageddon","Op Gamework"]
+malware:
+  - "Archelaus Beta"
+  - name: "Pterodo"
+  - name: "QuietSieve"
+  - name: "DessertDown"
+  - name: "DinoTrain"
 provenance:
+  apt_groups_operations:
+    matched_mitre_ids: ["G0047"]
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_FINAL.pdf","http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/","https://blog.yoroi.company/research/the-russian-shadow-in-eastern-europe-ukrainian-mod-campaign/","https://www.recordedfuture.com/bluealpha-iranian-apts/","https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/","https://www.anomali.com/blog/primitive-bear-gamaredon-targets-ukraine-with-timely-themes","https://mp.weixin.qq.com/s/OfDTcrTVAgjACeh0Z5wi7w","https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine","https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/","https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/#indicators-of-compromise","https://cert.gov.ua/article/39386","https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-intense-campaign-ukraine","https://blogs.cisco.com/security/network-footprints-of-gamaredon-group","https://cert.gov.ua/article/1229152","https://unit42.paloaltonetworks.com/trident-ursa/","https://www.secureworks.com/research/threat-profiles/iron-tilden","https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-russia-ukraine-military"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "russia"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0047"

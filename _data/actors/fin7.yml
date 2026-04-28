@@ -1,5 +1,5 @@
 name: "FIN7"
-aliases: ["Anunak","ATK32","Calcium","Carbanak","Carbon Spider","CARBON SPIDER","Coreid","ELBRUS","FIN7","G0008","G0046","GOLD NIAGARA","ITG14","JokerStash","Navigator Group","Sangria Tempest"]
+aliases: ["Anunak","ATK32","Calcium","Carbanak","Carbon Spider","CARBON SPIDER","Coreid","ELBRUS","FIN7","G0008","G0046","GOLD NIAGARA","ITG14","JokerStash","Navigator Group","Sangria Tempest","Coried","CarbonSpider","Carbanak Group"]
 description: "FIN7 is a financially-motivated threat group that has been active since 2013. FIN7 has targeted the retail, restaurant, hospitality, software, consulting, financial services, medical equipment, cloud services, media, food and beverage, transportation, pharmaceutical, and utilities industries in the United States. A portion of FIN7 was operated out of a front company called Combi Security and often used point-of-sale malware for targeting efforts. Since 2020, FIN7 shifted operations to big game hunting (BGH), including use of REvil ransomware and their own Ransomware-as-a-Service (RaaS), Darkside. FIN7 may be linked to the Carbanak Group, but multiple threat groups have been observed using Carbanak, leading these groups to be tracked separately.(Citation: FireEye FIN7 March 2017)(Citation: FireEye FIN7 April 2017)(Citation: FireEye CARBANAK June 2017)(Citation: FireEye FIN7 Aug 2018)(Citation: CrowdStrike Carbon Spider August 2021)(Citation: Mandiant FIN7 Apr 2022)(Citation: BiZone Lizar May 2021)"
 url: "/fin7"
 country: "Unknown"
@@ -13,8 +13,35 @@ external_id: "G0046"
 external_url: "https://attack.mitre.org/groups/G0046"
 mitre_id: "G0046"
 mitre_url: "https://attack.mitre.org/groups/G0046"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+operations: ["Odinaff"]
+malware:
+  - name: "PowerSource"
+  - name: "Mimikatz"
+  - name: "MBR Eraser"
+  - name: "SoftPerfect Network Scanner"
+  - name: "SSHd with BackDoor"
+  - name: "Ammy Admin"
+  - name: "CVE-2012-2539 and CVE-2012-0158"
+  - name: "Netscan"
+  - name: "PsExec"
+  - name: "Backdoor Batel"
+  - name: "Bateleur JScript Backdoor"
+  - name: "Cobalt Strike"
+  - name: "Sekur"
+  - name: "Agent ORM"
+  - name: "VB Flash"
+  - name: "JS FLash"
+  - name: "Bateleur"
 provenance:
+  apt_groups_operations:
+    matched_mitre_ids: ["G0008"]
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://securelist.com/files/2015/02/Carbanak_APT_eng.pdf","http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf","https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks","https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0008"

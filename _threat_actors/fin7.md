@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "FIN7"
-aliases: ["Anunak", "ATK32", "Calcium", "Carbanak", "Carbon Spider", "CARBON SPIDER", "Coreid", "ELBRUS", "FIN7", "G0008", "G0046", "GOLD NIAGARA", "ITG14", "JokerStash", "Navigator Group", "Sangria Tempest"]
+aliases: ["Anunak", "ATK32", "Calcium", "Carbanak", "Carbon Spider", "CARBON SPIDER", "Coreid", "ELBRUS", "FIN7", "G0008", "G0046", "GOLD NIAGARA", "ITG14", "JokerStash", "Navigator Group", "Sangria Tempest", "Coried", "CarbonSpider", "Carbanak Group"]
 description: "FIN7 is a financially-motivated threat group that has been active since 2013. FIN7 has targeted the retail, restaurant, hospitality, software, consulting, financial services, medical equipment, cloud s"
 permalink: /fin7/
 ---
@@ -36,7 +36,23 @@ FIN7 is a financially-motivated threat group that has been active since 2013. FI
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **PowerSource**: 
+- **Mimikatz**: 
+- **MBR Eraser**: 
+- **SoftPerfect Network Scanner**: 
+- **SSHd with BackDoor**: 
+- **Ammy Admin**: 
+- **CVE-2012-2539 and CVE-2012-0158**: 
+- **Netscan**: 
+- **PsExec**: 
+- **Backdoor Batel**: 
+- **Bateleur JScript Backdoor**: 
+- **Cobalt Strike**: 
+- **Sekur**: 
+- **Agent ORM**: 
+- **VB Flash**: 
+- **JS FLash**: 
+- **Bateleur**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Unknown

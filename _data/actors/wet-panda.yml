@@ -1,16 +1,21 @@
----
-name: WET PANDA
-aliases:
-- Red Chimera
-- WET PANDA
+name: "WET PANDA"
+aliases: ["Red Chimera","WET PANDA","Wet Panda"]
+description: "WET PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/wet-panda"
-country: China
-risk_level: High
+country: "China"
+risk_level: "High"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "PlugX"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["http://go.crowdstrike.com/rs/281-OBQ-266/images/ReportGlobalThreatIntelligence.pdf","http://www.slideshare.net/CrowdStrike/crowdcast-monthly-operationalizing-intelligence-34141777"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: ba8973b2-fd97-4aa7-9307-ea4838d96428
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-description: WET PANDA is a threat actor tracked by MISP Galaxy. Additional information
-  pending cataloguing.
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "ba8973b2-fd97-4aa7-9307-ea4838d96428"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,22 +1,12 @@
----
-name: Houken
-aliases:
-- Houken
-description: Houken is a Chinese state-sponsored threat actor that exploits zero-day
-  vulnerabilities in Ivanti Cloud Services Appliance devices to gain initial access
-  to critical infrastructure networks, particularly in France. The group employs a
-  sophisticated rootkit alongside open-source tools, primarily developed by Chinese-speaking
-  authors, to maintain persistence and control over compromised systems. Houken is
-  suspected to operate as an initial access broker, selling footholds in targeted
-  networks to other threat actors for further exploitation.
+name: "Houken"
+aliases: ["Houken"]
+description: "Houken is a Chinese state-sponsored threat actor that exploits zero-day vulnerabilities in Ivanti Cloud Services Appliance devices to gain initial access to critical infrastructure networks, particularly in France. The group employs a sophisticated rootkit alongside open-source tools, primarily developed by Chinese-speaking authors, to maintain persistence and control over compromised systems. Houken is suspected to operate as an initial access broker, selling footholds in targeted networks to other threat actors for further exploitation."
 url: "/houken"
-country: China
-malware:
-- CloudDuke
-- Xploit
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CloudDuke","Xploit"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 24bad06e-1720-4198-b6b0-9121a5aecc59
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "24bad06e-1720-4198-b6b0-9121a5aecc59"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

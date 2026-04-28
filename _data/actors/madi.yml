@@ -1,31 +1,23 @@
----
-name: Madi
-aliases:
-- Madi
-description: |-
-  Kaspersky Lab and Seculert worked together to sinkhole the Madi Command & Control (C&C) servers to monitor the campaign. Kaspersky Lab and Seculert identified more than 800 victims located in Iran, Israel and select countries across the globe connecting to the C&Cs over the past eight months. Statistics from the sinkhole revealed that the victims were primarily business people working on Iranian and Israeli critical infrastructure projects, Israeli financial institutions, Middle Eastern engineering students, and various government agencies communicating in the Middle East.
-  Common applications and websites that were spied on include accounts on Gmail, Hotmail, Yahoo! Mail, ICQ, Skype, Google+, and Facebook. Surveillance is also performed over integrated ERP/CRM systems, business contracts, and financial management systems.
+name: "Madi"
+aliases: ["Madi"]
+description: "Kaspersky Lab and Seculert worked together to sinkhole the Madi Command & Control (C&C) servers to monitor the campaign. Kaspersky Lab and Seculert identified more than 800 victims located in Iran, Israel and select countries across the globe connecting to the C&Cs over the past eight months. Statistics from the sinkhole revealed that the victims were primarily business people working on Iranian and Israeli critical infrastructure projects, Israeli financial institutions, Middle Eastern engineering students, and various government agencies communicating in the Middle East.\nCommon applications and websites that were spied on include accounts on Gmail, Hotmail, Yahoo! Mail, ICQ, Skype, Google+, and Facebook. Surveillance is also performed over integrated ERP/CRM systems, business contracts, and financial management systems."
 url: "/madi"
-country: Iran
-sector_focus:
-- Infrastructure
-- Engineering
-- Government, Administration
-- Finance
-- Government
-- Private sector
-targeted_victims:
-- Iran
-- Pakistan
-- Israel
-- United States
-incident_type: Espionage
-risk_level: High
-malware:
-- CrossRat
+country: "Iran"
+sector_focus: ["Infrastructure","Engineering","Government, Administration","Finance","Government","Private sector"]
+targeted_victims: ["Iran","Pakistan","Israel","United States"]
+incident_type: "Espionage"
+risk_level: "High"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CrossRat"]
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://securelist.com/blog/incidents/33693/the-madi-campaign-part-i-5/","https://securelist.com/blog/incidents/33701/the-madi-campaign-part-ii-53/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "iran"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: d5dacda0-12c2-4e80-bdf2-1c5019ec40e2
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "d5dacda0-12c2-4e80-bdf2-1c5019ec40e2"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

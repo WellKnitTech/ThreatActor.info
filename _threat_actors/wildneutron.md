@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "WildNeutron"
-aliases: ["Butterfly", "Morpho", "Sphinx Moth", "WildNeutron"]
+aliases: ["Butterfly", "Morpho", "Sphinx Moth", "WildNeutron", "Jripbot", "Deceptikons", "Wild Neutron"]
 description: "A corporate espionage group has compromised a string of major corporations over the past three years in order to steal confidential information and intellectual property. The gang, which Symantec calls"
 permalink: /wildneutron/
 ---

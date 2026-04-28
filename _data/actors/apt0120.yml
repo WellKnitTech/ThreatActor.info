@@ -1,27 +1,23 @@
----
-name: Evilnum
-aliases:
-- DeathStalker
-- Evilnum
-- EvilNum
-- Jointworm
-- KNOCKOUT SPIDER
-- TA4563
-description: 'Evilnum is a financially motivated threat group that has been active
-  since at least 2018.(Citation: ESET EvilNum July 2020)'
+name: "Evilnum"
+aliases: ["DeathStalker","Evilnum","EvilNum","Jointworm","KNOCKOUT SPIDER","TA4563","Decepticons"]
+description: "Evilnum is a financially motivated threat group that has been active since at least 2018.(Citation: ESET EvilNum July 2020)"
 url: "/apt0120"
-external_id: G0120
-external_url: https://attack.mitre.org/groups/G0120
-mitre_id: G0120
-mitre_url: https://attack.mitre.org/groups/G0120
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
-malware:
-- GOlden Phoenix
-- Cobalt Strike
+external_id: "G0120"
+external_url: "https://attack.mitre.org/groups/G0120"
+mitre_id: "G0120"
+mitre_url: "https://attack.mitre.org/groups/G0120"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["GOlden Phoenix","Cobalt Strike"]
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://unit42.paloaltonetworks.com/cardinal-rat-sins-again-targets-israeli-fin-tech-firms/","https://blog.prevailion.com/2020/05/phantom-in-command-shell5.html","https://www.welivesecurity.com/2020/07/09/more-evil-deep-look-evilnum-toolset/","https://www.brighttalk.com/webcast/15591/424426/new-threats-in-a-changing-world-apt-trends-in-q2-2020","https://www.rewterz.com/rewterz-news/rewterz-threat-alert-evilnum-apt-group-targeting-financial-sector-2","https://www.zscaler.com/blogs/security-research/return-evilnum-apt-updated-ttps-and-new-targets"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G0120
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-source: MITRE ATT&CK
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0120"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

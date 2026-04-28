@@ -1,37 +1,29 @@
----
-name: PowerPool
-aliases:
-- IAmTheKing
-- PowerPool
-description: |-
-  Malware developers have started to use the zero-day exploit for Task Scheduler component in Windows, two days after proof-of-concept code for the vulnerability appeared online.
-
-  A security researcher who uses the online name SandboxEscaper on August 27 released the source code for exploiting a security bug in the Advanced Local Procedure Call (ALPC) interface used by Windows Task Scheduler.
-
-  More specifically, the problem is with the SchRpcSetSecurity API function, which fails to properly check user's permissions, allowing write privileges on files in C:\Windows\Task.
-
-  The vulnerability affects Windows versions 7 through 10 and can be used by an attacker to escalate their privileges to all-access SYSTEM account level.
-
-  A couple of days after the exploit code became available (source and binary), malware researchers at ESET noticed its use in active malicious campaigns from a threat actor they call PowerPool, because of their tendency to use tools mostly written in PowerShell for lateral movement.
-
-  The group appears to have a small number of victims in the following countries: Chile, Germany, India, the Philippines, Poland, Russia, the United Kingdom, the United States, and Ukraine.
-
-  The researchers say that PowerPool developers did not use the binary version of the exploit, deciding instead to make some subtle changes to the source code before recompiling it.
+name: "PowerPool"
+aliases: ["IAmTheKing","PowerPool","Powerpool","IamtheKing"]
+description: "Malware developers have started to use the zero-day exploit for Task Scheduler component in Windows, two days after proof-of-concept code for the vulnerability appeared online.\n\nA security researcher who uses the online name SandboxEscaper on August 27 released the source code for exploiting a security bug in the Advanced Local Procedure Call (ALPC) interface used by Windows Task Scheduler.\n\nMore specifically, the problem is with the SchRpcSetSecurity API function, which fails to properly check user's permissions, allowing write privileges on files in C:\\Windows\\Task.\n\nThe vulnerability affects Windows versions 7 through 10 and can be used by an attacker to escalate their privileges to all-access SYSTEM account level.\n\nA couple of days after the exploit code became available (source and binary), malware researchers at ESET noticed its use in active malicious campaigns from a threat actor they call PowerPool, because of their tendency to use tools mostly written in PowerShell for lateral movement.\n\nThe group appears to have a small number of victims in the following countries: Chile, Germany, India, the Philippines, Poland, Russia, the United Kingdom, the United States, and Ukraine.\n\nThe researchers say that PowerPool developers did not use the binary version of the exploit, deciding instead to make some subtle changes to the source code before recompiling it."
 url: "/powerpool"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware:
-- PowerDuke
-- POWERSTATS
-- Power Loader
-- POWERSOURCE
-- Small-Net
-- Windows Remote Desktop
-- UNITEDRAKE
-- Xploit
-- Archelaus Beta
-- PowerRAT
+  - "PowerDuke"
+  - "POWERSTATS"
+  - "Power Loader"
+  - "POWERSOURCE"
+  - "Small-Net"
+  - "Windows Remote Desktop"
+  - "UNITEDRAKE"
+  - "Xploit"
+  - "Archelaus Beta"
+  - "PowerRAT"
+  - name: "SLOTHFULMEDIA"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://us-cert.cisa.gov/ncas/analysis-reports/ar20-275a","https://twitter.com/craiu/status/1311920398259367942"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: abd89986-b1b0-11e8-b857-efe290264006
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "abd89986-b1b0-11e8-b857-efe290264006"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

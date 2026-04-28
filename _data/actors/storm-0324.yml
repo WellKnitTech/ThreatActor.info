@@ -1,18 +1,17 @@
----
-name: Storm-0324
-aliases:
-- DEV-0324
-- Sagrid
-- TA543
-- Storm-0324
-description: The threat actor that Microsoft tracks as Storm-0324 is a financially
-  motivated group known to gain initial access using email-based initial infection
-  vectors and then hand off access to compromised networks to other threat actors.
-  These handoffs frequently lead to ransomware deployment.
+name: "Storm-0324"
+aliases: ["DEV-0324","Sagrid","TA543","Storm-0324"]
+description: "The threat actor that Microsoft tracks as Storm-0324 is a financially motivated group known to gain initial access using email-based initial infection vectors and then hand off access to compromised networks to other threat actors. These handoffs frequently lead to ransomware deployment."
 url: "/storm-0324"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/information-management-technology/information-security/global_threat_landscape_-_bc_security_day.pdf"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 8cb6f57b-9ebb-45a6-a89f-9efdb8065d70
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "8cb6f57b-9ebb-45a6-a89f-9efdb8065d70"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

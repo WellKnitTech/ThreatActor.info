@@ -38,6 +38,7 @@ Lazarus Group is a North Korean state-sponsored cyber threat group attributed to
 - **RemoteCMD**
 - **Remote Utilities**
 - **RemotePC**
+- **Whois Wiper**: 
 
 ## Attribution and Evidence
 **Country of Origin**: North Korea

@@ -1,23 +1,11 @@
----
-name: GOLD MANSARD
-aliases:
-- GOLD MANSARD
-description: GOLD MANSARD is a financially motivated cybercriminal threat group that
-  operated the Nemty ransomware from August 2019. The threat actor behind Nemty is
-  known on Russian underground forums as 'jsworm'. Nemty was operated as a ransomware
-  as a service (RaaS) affiliate program and featured a 'name and shame' website where
-  exfiltrated victim data was leaked. In April 2020, jsworm appeared to acquire new
-  partners and retired the Nemty ransomware. This was followed by the introduction
-  of Nefilim ransomware, which does not operate as an affiliate model. Nefilim has
-  been used in post-intrusion ransomware attacks against organizations in logistics,
-  telecommunications, energy and other sectors.
+name: "GOLD MANSARD"
+aliases: ["GOLD MANSARD"]
+description: "GOLD MANSARD is a financially motivated cybercriminal threat group that operated the Nemty ransomware from August 2019. The threat actor behind Nemty is known on Russian underground forums as 'jsworm'. Nemty was operated as a ransomware as a service (RaaS) affiliate program and featured a 'name and shame' website where exfiltrated victim data was leaked. In April 2020, jsworm appeared to acquire new partners and retired the Nemty ransomware. This was followed by the introduction of Nefilim ransomware, which does not operate as an affiliate model. Nefilim has been used in post-intrusion ransomware attacks against organizations in logistics, telecommunications, energy and other sectors."
 url: "/gold-mansard"
-malware:
-- CyberGate
-- Cyber Eye RAT
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CyberGate","Cyber Eye RAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: bda575ed-5066-4625-98ef-938bbffddc00
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "bda575ed-5066-4625-98ef-938bbffddc00"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,13 +1,24 @@
 name: "Windshift"
-aliases: ["Bahamut","Windshift"]
+aliases: ["Bahamut","Windshift","WindShift"]
 description: "Windshift is a threat group that has been active since at least 2017, targeting specific individuals for surveillance in government departments and critical infrastructure across the Middle East.(Citation: SANS Windshift August 2018)(Citation: objective-see windtail1 dec 2018)(Citation: objective-see windtail2 jan 2019)"
 url: "/apt0112"
 external_id: "G0112"
 external_url: "https://attack.mitre.org/groups/G0112"
 mitre_id: "G0112"
 mitre_url: "https://attack.mitre.org/groups/G0112"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware:
+  - name: "WindTail"
+  - name: "WindTape"
 provenance:
+  apt_groups_operations:
+    matched_mitre_ids: ["G0112"]
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://gsec.hitb.org/materials/sg2018/D1%20COMMSEC%20-%20In%20the%20Trails%20of%20WINDSHIFT%20APT%20-%20Taha%20Karim.pdf","https://objective-see.com/blog/blog_0x38.html","https://unit42.paloaltonetworks.com/shifting-in-the-wind-windshift-attacks-target-middle-eastern-governments/","https://digitasecurity.com/blog/2018/12/20/windtail/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0112"

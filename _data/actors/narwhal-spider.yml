@@ -1,17 +1,24 @@
----
-name: NARWHAL SPIDER
-aliases:
-- GOLD ESSEX
-- TA544
-- Storm-0302
-- NARWHAL SPIDER
-description: NARWHAL SPIDER’s operation of Cutwail v2 was limited to country-specific
-  spam campaigns, although late in 2019 there appeared to be an effort to expand by
-  bringing in INDRIK SPIDER as a customer.
+name: "NARWHAL SPIDER"
+aliases: ["GOLD ESSEX","TA544","Storm-0302","NARWHAL SPIDER","Narwhal Spider"]
+description: "NARWHAL SPIDER’s operation of Cutwail v2 was limited to country-specific spam campaigns, although late in 2019 there appeared to be an effort to expand by bringing in INDRIK SPIDER as a customer."
 url: "/narwhal-spider"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "URLZone"
+  - name: "Ursnif"
+  - name: "Panda Banker"
+  - name: "Nymaim"
+  - name: "Chthonic"
+  - name: "Smoke Loader"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta544-targets-geographies-italy-japan-range-malware"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: fda9cdea-0017-495e-879d-0f348db2aa07
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "fda9cdea-0017-495e-879d-0f348db2aa07"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

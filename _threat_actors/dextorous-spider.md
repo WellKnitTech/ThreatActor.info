@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "DEXTOROUS SPIDER"
-aliases: ["DEXTOROUS SPIDER"]
+aliases: ["DEXTOROUS SPIDER", "Dextorous Spider"]
 description: "DEXTOROUS SPIDER is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /dextorous-spider/
 ---

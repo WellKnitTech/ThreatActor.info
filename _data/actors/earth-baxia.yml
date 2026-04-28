@@ -1,28 +1,12 @@
----
-name: Earth Baxia
-aliases:
-- Earth Baxia
-description: Earth Baxia is a threat actor opearting out of China, targeting government
-  organizations in Taiwan and potentially across the APAC region, using spear-phishing
-  emails and exploiting the GeoServer vulnerability CVE-2024-36401 for remote code
-  execution, deploying customized Cobalt Strike components with altered signatures,
-  leveraging GrimResource and AppDomainManager injection techniques to deliver additional
-  payloads, and utilizing a new backdoor named EAGLEDOOR for multi-protocol communication
-  and payload delivery.
+name: "Earth Baxia"
+aliases: ["Earth Baxia"]
+description: "Earth Baxia is a threat actor opearting out of China, targeting government organizations in Taiwan and potentially across the APAC region, using spear-phishing emails and exploiting the GeoServer vulnerability CVE-2024-36401 for remote code execution, deploying customized Cobalt Strike components with altered signatures, leveraging GrimResource and AppDomainManager injection techniques to deliver additional payloads, and utilizing a new backdoor named EAGLEDOOR for multi-protocol communication and payload delivery."
 url: "/earth-baxia"
-country: China
-malware:
-- Backdoor.Oldrea
-- China Chopper
-- RemoteCMD
-- Remote Utilities
-- RemotePC
-- Xploit
-- Cobalt Strike
-- CrossRat
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Backdoor.Oldrea","China Chopper","RemoteCMD","Remote Utilities","RemotePC","Xploit","Cobalt Strike","CrossRat"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: d0c2cd99-64d5-406f-abd7-16b9e27966a7
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "d0c2cd99-64d5-406f-abd7-16b9e27966a7"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

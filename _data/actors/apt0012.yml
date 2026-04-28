@@ -1,13 +1,32 @@
 name: "Darkhotel"
-aliases: ["Darkhotel","DUBNIUM","Zigzag Hail"]
+aliases: ["Darkhotel","DUBNIUM","Zigzag Hail","Tardigrade Spider","Luder","Karba","Tapaoux","Nemim","Dubnium (Microsoft)","APT-C-06","SHADOW CRANE","T-APT-02","SIG25 (NSA)","DarkHotel"]
 description: "Darkhotel is a suspected South Korean threat group that has targeted victims primarily in East Asia since at least 2004. The group's name is based on cyber espionage operations conducted via hotel Internet networks against traveling executives and other select guests. Darkhotel has also conducted spearphishing campaigns and infected victims through peer-to-peer and file sharing networks.(Citation: Kaspersky Darkhotel)(Citation: Securelist Darkhotel Aug 2015)(Citation: Microsoft Digital Defense FY20 Sept 2020)"
 url: "/apt0012"
 external_id: "G0012"
 external_url: "https://attack.mitre.org/groups/G0012"
 mitre_id: "G0012"
 mitre_url: "https://attack.mitre.org/groups/G0012"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+operations: ["Daybreak?","Fallout Team","WizardOpium"]
+malware:
+  - name: "Inexsmar"
+  - name: "Higaisa"
+  - name: "Win32.Karba"
+  - name: "Win32.Pioneer"
+  - name: "CVE-2015-8651"
+  - name: "Asruex"
+  - name: "CVE-2012-0158"
+  - name: "CVE-2010-2883"
+  - name: "CVE-2016-4171 and CVE-2018-817"
 provenance:
+  apt_groups_operations:
+    matched_mitre_ids: ["G0012"]
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://securelist.com/blog/research/66779/the-darkhotel-apt/","http://drops.wooyun.org/tips/11726","https://labs.bitdefender.com/wp-content/uploads/downloads/inexsmar-an-unusual-darkhotel-campaign/","http://www.wired.com/2014/11/darkhotel-malware/","https://securelist.com/operation-daybreak/75100/","https://www.forcepoint.com/sites/default/files/resources/files/report_jaku_analysis_of_botnet_campaign_en_0.pdf","https://research.checkpoint.com/silivaccine-a-look-inside-north-koreas-anti-virus/","https://github.com/aptnotes/data/issues/56","https://blogs.jpcert.or.jp/en/2016/06/asruex-malware-infecting-through-shortcut-files.html","https://blog.trendmicro.com/trendlabs-security-intelligence/asruex-backdoor-variant-infects-word-documents-and-pdfs-through-old-ms-office-and-adobe-vulnerabilities/","https://securelist.com/chrome-0-day-exploit-cve-2019-13720-used-in-operation-wizardopium/94866/","https://translate.google.com/translate?hl=&sl=zh-CN&tl=en&u=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2FW87E6_v9YCnsmQWDd7NOHw&sandbox=1","https://s.tencent.com/research/report/836.html","https://s.tencent.com/research/report/1000.html","https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/","https://www.anomali.com/blog/covid-19-themes-are-being-utilized-by-threat-actors-of-varying-sophistication","https://blog.prevailion.com/2020/06/the-gh0st-remains-same8.html","https://www.zscaler.com/blogs/research/return-higaisa-apt","https://www.cfr.org/blog/questioning-chinas-politicization-cyber-intelligence-during-pandemic","https://www.trellix.com/en-us/about/newsroom/stories/threat-labs/suspected-darkhotel-apt-activity-update.html"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0012"

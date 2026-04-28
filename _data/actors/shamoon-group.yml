@@ -1,20 +1,13 @@
----
-name: Shamoon Group
-aliases:
-- Cutting Sword of Justice
-- Shamoon Group
-description: Shamoon Group is an Iran-linked threat actor associated with destructive
-  Shamoon wiper operations targeting organizations in the Middle East, especially
-  in the energy sector.
+name: "Shamoon Group"
+aliases: ["Cutting Sword of Justice","Shamoon Group"]
+description: "Shamoon Group is an Iran-linked threat actor associated with destructive Shamoon wiper operations targeting organizations in the Middle East, especially in the energy sector."
 url: "/shamoon-group"
-country: Iran
-risk_level: High
-malware:
-- Shamoon
-- Wiper
+country: "Iran"
+risk_level: "High"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Shamoon","Wiper"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: '092622dd-7673-487b-af2e-03529809c910'
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "092622dd-7673-487b-af2e-03529809c910"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

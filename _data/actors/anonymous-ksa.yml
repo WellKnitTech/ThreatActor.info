@@ -1,23 +1,11 @@
----
-name: Anonymous KSA
-aliases:
-- Anonymous KSA
-description: Anonymous KSA is a Saudi hacking group that has executed cyber attacks
-  targeting Indian institutions, including a significant breach of UIDAI's data storage
-  units, leading to access to sensitive information and system disruption. The group
-  claims these actions are in response to India's normalization of ties with Israel
-  and its treatment of Palestinians. They have called for support for the Palestinian
-  cause and accountability for the damage caused by their operations. The group's
-  TTPs include targeting government agencies and leveraging public sentiment to justify
-  their actions.
+name: "Anonymous KSA"
+aliases: ["Anonymous KSA"]
+description: "Anonymous KSA is a Saudi hacking group that has executed cyber attacks targeting Indian institutions, including a significant breach of UIDAI's data storage units, leading to access to sensitive information and system disruption. The group claims these actions are in response to India's normalization of ties with Israel and its treatment of Palestinians. They have called for support for the Palestinian cause and accountability for the damage caused by their operations. The group's TTPs include targeting government agencies and leveraging public sentiment to justify their actions."
 url: "/anonymous-ksa"
-malware:
-- Hacking Team UEFI Rootkit
-- CyberGate
-- Cyber Eye RAT
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Hacking Team UEFI Rootkit","CyberGate","Cyber Eye RAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: b869c1dc-0cf8-4d8a-b5f3-5b90c557db1c
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "b869c1dc-0cf8-4d8a-b5f3-5b90c557db1c"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

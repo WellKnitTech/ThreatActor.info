@@ -1,19 +1,10 @@
----
-name: Storm-1113
-aliases:
-- APOTHECARY SPIDER
-- Storm-1113
-description: Storm-1113 is a threat actor that acts both as an access broker focused
-  on malware distribution through search advertisements and as an “as-a-service” entity
-  providing malicious installers and landing page frameworks. In Storm-1113 malware
-  distribution campaigns, users are directed to landing pages mimicking well-known
-  software that host installers, often MSI files, that lead to the installation of
-  malicious payloads. Storm-1113 is also the developer of EugenLoader, a commodity
-  malware first observed around November 2022.
+name: "Storm-1113"
+aliases: ["APOTHECARY SPIDER","Storm-1113"]
+description: "Storm-1113 is a threat actor that acts both as an access broker focused on malware distribution through search advertisements and as an “as-a-service” entity providing malicious installers and landing page frameworks. In Storm-1113 malware distribution campaigns, users are directed to landing pages mimicking well-known software that host installers, often MSI files, that lead to the installation of malicious payloads. Storm-1113 is also the developer of EugenLoader, a commodity malware first observed around November 2022."
 url: "/storm-1113"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 993e81e8-63f4-4666-9538-4053a69287ba
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "993e81e8-63f4-4666-9538-4053a69287ba"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

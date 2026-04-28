@@ -33,6 +33,9 @@ Scarab APT was first spotted in 2015, but is believed to have been active since 
 - **Small-Net**
 - **UNITEDRAKE**
 - **CrossRat**
+- **Scieron**: 
+- **Trojan.Scieron**: 
+- **Trojan.Scieron.B**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -146,24 +146,22 @@
     "Transportation systems",
     "Universities"
   ],
-  "ioc_types": [
-
-  ],
+  "ioc_types": [],
   "counts": {
     "threat_actors": 1079,
     "iocs": 0
   },
   "country_counts": {
-    "China": 201,
-    "Russia": 79,
-    "Iran": 59,
+    "China": 214,
+    "Russia": 88,
+    "Iran": 63,
     "North Korea": 24,
     "Unknown": 13,
     "Turkey": 7,
-    "Vietnam": 6,
-    "Ukraine": 6,
     "Israel": 6,
-    "India": 5
+    "Ukraine": 6,
+    "Vietnam": 6,
+    "United States": 5
   },
   "risk_counts": {
     "High": 159,
@@ -191,8 +189,8 @@
     "China Chopper": 95,
     "Archelaus Beta": 71,
     "RemoteCMD": 70,
-    "Remote Utilities": 67,
     "CrossRat": 67,
+    "Remote Utilities": 67,
     "RemotePC": 66
   }
 }

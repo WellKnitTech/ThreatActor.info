@@ -1,21 +1,11 @@
----
-name: Lancefly
-aliases:
-- Lancefly
-description: Lancefly targets government, aviation, and telecom organizations in South
-  and Southeast Asia. They use a custom backdoor named Merdoor, developed since 2018,
-  and employ various tactics to gain access, including phishing emails, SSH credential
-  brute-forcing, and exploiting server vulnerabilities. Additionally, Lancefly has
-  been observed using a newer version of the ZXShell rootkit and tools like PlugX
-  and ShadowPad RAT, which are typically associated with Chinese-speaking APT groups.
+name: "Lancefly"
+aliases: ["Lancefly"]
+description: "Lancefly targets government, aviation, and telecom organizations in South and Southeast Asia. They use a custom backdoor named Merdoor, developed since 2018, and employ various tactics to gain access, including phishing emails, SSH credential brute-forcing, and exploiting server vulnerabilities. Additionally, Lancefly has been observed using a newer version of the ZXShell rootkit and tools like PlugX and ShadowPad RAT, which are typically associated with Chinese-speaking APT groups."
 url: "/lancefly"
-malware:
-- Backdoor.Oldrea
-- PlugX
-- Xploit
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Backdoor.Oldrea","PlugX","Xploit"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 2ceeab57-85e3-468b-a1b8-c035c496dcdc
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "2ceeab57-85e3-468b-a1b8-c035c496dcdc"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

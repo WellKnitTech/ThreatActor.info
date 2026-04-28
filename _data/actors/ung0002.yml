@@ -1,27 +1,11 @@
----
-name: UNG0002
-aliases:
-- UNG0002
-description: UNG0002 is a technically adept APT conducting large-scale cyber espionage
-  campaigns targeting strategic sectors in China, Hong Kong, and Pakistan, including
-  defense, energy infrastructure, and healthcare. The group employs LNK shortcuts,
-  VBScript files, and tools like Cobalt Strike and Metasploit, utilizing phishing
-  emails with deceptive documents to lure victims. Their malware, such as Shadow RAT,
-  leverages DLL Sideloading and supports remote command execution, making detection
-  challenging. Analysts suggest that UNG0002 may originate from South or Southeast
-  Asia, highlighting their resilience and adaptability in cyber operations.
+name: "UNG0002"
+aliases: ["UNG0002"]
+description: "UNG0002 is a technically adept APT conducting large-scale cyber espionage campaigns targeting strategic sectors in China, Hong Kong, and Pakistan, including defense, energy infrastructure, and healthcare. The group employs LNK shortcuts, VBScript files, and tools like Cobalt Strike and Metasploit, utilizing phishing emails with deceptive documents to lure victims. Their malware, such as Shadow RAT, leverages DLL Sideloading and supports remote command execution, making detection challenging. Analysts suggest that UNG0002 may originate from South or Southeast Asia, highlighting their resilience and adaptability in cyber operations."
 url: "/ung0002"
-malware:
-- China Chopper
-- RemoteCMD
-- CyberGate
-- Cyber Eye RAT
-- Remote Utilities
-- RemotePC
-- Cobalt Strike
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["China Chopper","RemoteCMD","CyberGate","Cyber Eye RAT","Remote Utilities","RemotePC","Cobalt Strike"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 3a24ac96-4ae4-456f-bacd-29259a21935f
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "3a24ac96-4ae4-456f-bacd-29259a21935f"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

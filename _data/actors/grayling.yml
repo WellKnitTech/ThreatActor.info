@@ -1,32 +1,15 @@
----
-name: Grayling
-aliases:
-- Grayling
-description: Grayling activity was first observed in early 2023, when a number of
-  victims were identified with distinctive malicious DLL side-loading activity. Grayling
-  appears to target organisations in Asia, however one unknown organisation in the
-  United States was also targeted. Industries targeted include Biomedical, Government
-  and Information Technology. Grayling use a variety of tools during their attacks,
-  including well known tools such as Cobalt Strike and Havoc and also some others.
+name: "Grayling"
+aliases: ["Grayling"]
+description: "Grayling activity was first observed in early 2023, when a number of victims were identified with distinctive malicious DLL side-loading activity. Grayling appears to target organisations in Asia, however one unknown organisation in the United States was also targeted. Industries targeted include Biomedical, Government and Information Technology. Grayling use a variety of tools during their attacks, including well known tools such as Cobalt Strike and Havoc and also some others."
 url: "/grayling"
-country: China
-sector_focus:
-- Biomedical
-- Government
-- Information technology
-targeted_victims:
-- Taiwan
-- United States
-- Vietnam
-- Solomon Islands
-risk_level: High
-malware:
-- Unknown Logger
-- UNITEDRAKE
-- Cobalt Strike
+country: "China"
+sector_focus: ["Biomedical","Government","Information technology"]
+targeted_victims: ["Taiwan","United States","Vietnam","Solomon Islands"]
+risk_level: "High"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Unknown Logger","UNITEDRAKE","Cobalt Strike"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 6714de29-4dd8-463c-99a3-77c9e80fa47d
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "6714de29-4dd8-463c-99a3-77c9e80fa47d"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

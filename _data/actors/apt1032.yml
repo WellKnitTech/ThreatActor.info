@@ -1,5 +1,5 @@
 name: "INC Ransom"
-aliases: ["GOLD IONIC","INC Ransom"]
+aliases: ["GOLD IONIC","INC Ransom","Inc. Ransom","INC ransomware","INC ransomware group"]
 description: "INC Ransom is a ransomware and data extortion threat group associated with the deployment of INC Ransomware that has been active since at least July 2023. INC Ransom  has targeted organizations worldwide most commonly in the industrial, healthcare, and education sectors in the US and Europe.(Citation: Bleeping Computer INC Ransomware March 2024)(Citation: Cybereason INC Ransomware November 2023)(Citation: Secureworks GOLD IONIC April 2024)(Citation: SentinelOne INC Ransomware)"
 url: "/apt1032"
 last_updated: "2026-04-28"
@@ -7,8 +7,19 @@ external_id: "G1032"
 external_url: "https://attack.mitre.org/groups/G1032"
 mitre_id: "G1032"
 mitre_url: "https://attack.mitre.org/groups/G1032"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+operations: ["Inc. ransomware"]
+malware:
+  - name: "INC Virus"
+  - name: "IncRansom"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.cybereason.com/blog/threat-alert-inc-ransomware","https://www.sentinelone.com/anthology/inc-ransom/","https://www.malwarebytes.com/blog/threat-intelligence/2023/09/ransomware-review-september-2023"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "unknown"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1032"

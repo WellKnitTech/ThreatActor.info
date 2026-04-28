@@ -1,66 +1,43 @@
----
-name: APT40
-aliases:
-- APT40
-- ATK29
-- BRONZE MOHAWK
-- G0065
-- Gadolinium
-- GADOLINIUM
-- Gingham Typhoon
-- ISLANDDREAMS
-- ITG09
-- Kryptonite Panda
-- KRYPTONITE PANDA
-- Leviathan
-- MUDCARP
-- Red Ladon
-- TA423
-- TEMP.Jumper
-- TEMP.Periscope
-description: 'Leviathan is a Chinese state-sponsored cyber espionage group that has
-  been attributed to the Ministry of State Security''s (MSS) Hainan State Security
-  Department and an affiliated front company.(Citation: CISA AA21-200A APT40 July
-  2021) Active since at least 2009, Leviathan has targeted the following sectors:
-  academia, aerospace/aviation, biomedical, defense industrial base, government, healthcare,
-  manufacturing, maritime, and transportation across the US, Canada, Australia, Europe,
-  the Middle East, and Southeast Asia.(Citation: CISA AA21-200A APT40 July 2021)(Citation:
-  Proofpoint Leviathan Oct 2017)(Citation: FireEye Periscope March 2018)(Citation:
-  CISA Leviathan 2024)'
+name: "APT40"
+aliases: ["APT40","ATK29","BRONZE MOHAWK","G0065","Gadolinium","GADOLINIUM","Gingham Typhoon","ISLANDDREAMS","ITG09","Kryptonite Panda","KRYPTONITE PANDA","Leviathan","MUDCARP","Red Ladon","TA423","TEMP.Jumper","TEMP.Periscope","Temp.Jumper","Hainan Xiandun Technology Company","ScanBox"]
+description: "Leviathan is a Chinese state-sponsored cyber espionage group that has been attributed to the Ministry of State Security's (MSS) Hainan State Security Department and an affiliated front company.(Citation: CISA AA21-200A APT40 July 2021) Active since at least 2009, Leviathan has targeted the following sectors: academia, aerospace/aviation, biomedical, defense industrial base, government, healthcare, manufacturing, maritime, and transportation across the US, Canada, Australia, Europe, the Middle East, and Southeast Asia.(Citation: CISA AA21-200A APT40 July 2021)(Citation: Proofpoint Leviathan Oct 2017)(Citation: FireEye Periscope March 2018)(Citation: CISA Leviathan 2024)"
 url: "/apt40"
-country: China
-sector_focus:
-- Maritime
-- Government
-- Defense
-targeted_victims:
-- United States
-- Hong Kong
-- The Philippines
-- Asia Pacific Economic Cooperation
-- Cambodia
-- Belgium
-- Germany
-- Philippines
-- Malaysia
-- Norway
-- Saudi Arabia
-- Switzerland
-- United Kingdom
-incident_type: Espionage
-first_seen: '2013'
-last_activity: '2024'
-risk_level: High
-external_id: G0065
-external_url: https://attack.mitre.org/groups/G0065
-mitre_id: G0065
-mitre_url: https://attack.mitre.org/groups/G0065
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
+country: "China"
+sector_focus: ["Maritime","Government","Defense"]
+targeted_victims: ["United States","Hong Kong","The Philippines","Asia Pacific Economic Cooperation","Cambodia","Belgium","Germany","Philippines","Malaysia","Norway","Saudi Arabia","Switzerland","United Kingdom"]
+incident_type: "Espionage"
+first_seen: "2013"
+last_activity: "2024"
+risk_level: "High"
+external_id: "G0065"
+external_url: "https://attack.mitre.org/groups/G0065"
+mitre_id: "G0065"
+mitre_url: "https://attack.mitre.org/groups/G0065"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 malware:
-- UNITEDRAKE
+  - "UNITEDRAKE"
+  - name: "AIRBREAK"
+  - name: "BADFLICK"
+  - name: "PHOTO"
+  - name: "HOMEFRY"
+  - name: "LUNCHMONEY"
+  - name: "MURKYTOP"
+  - name: "China Chopper"
+  - name: "Beacon"
+  - name: "BLACKCOFFEE"
+  - name: "CVE-2017-11882"
+  - name: "Derusbi"
+  - name: "RoyalRoad RTF Weaponizer"
+  - name: "8.t exploit document builder"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G0065
-    source_retrieved_at: '2026-04-26T07:05:44Z'
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0065"
+    source_retrieved_at: "2026-04-26T07:05:44Z"

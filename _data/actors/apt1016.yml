@@ -1,32 +1,17 @@
----
-name: FIN13
-aliases:
-- Elephant Beetle
-- FIN13
-- TG2003
-description: 'FIN13 is a financially motivated cyber threat group that has targeted
-  the financial, retail, and hospitality industries in Mexico and Latin America, as
-  early as 2016. FIN13 achieves its objectives by stealing intellectual property,
-  financial data, mergers and acquisition information, or PII.(Citation: Mandiant
-  FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)'
+name: "FIN13"
+aliases: ["Elephant Beetle","FIN13","TG2003"]
+description: "FIN13 is a financially motivated cyber threat group that has targeted the financial, retail, and hospitality industries in Mexico and Latin America, as early as 2016. FIN13 achieves its objectives by stealing intellectual property, financial data, mergers and acquisition information, or PII.(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)"
 url: "/apt1016"
-country: Russia
-external_id: G1016
-external_url: https://attack.mitre.org/groups/G1016
-mitre_id: G1016
-mitre_url: https://attack.mitre.org/groups/G1016
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
-malware:
-- Backdoor.Oldrea
-- Back Orifice
-- Back Orifice 2000
-- CyberGate
-- Cyber Eye RAT
-- Cobalt Strike
+country: "Russia"
+external_id: "G1016"
+external_url: "https://attack.mitre.org/groups/G1016"
+mitre_id: "G1016"
+mitre_url: "https://attack.mitre.org/groups/G1016"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["Backdoor.Oldrea","Back Orifice","Back Orifice 2000","CyberGate","Cyber Eye RAT","Cobalt Strike"]
 provenance:
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G1016
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-source: MITRE ATT&CK
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G1016"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

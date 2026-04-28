@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "RADIO PANDA"
-aliases: ["Shrouded Crossbow", "RADIO PANDA"]
+aliases: ["Shrouded Crossbow", "RADIO PANDA", "Radio Panda"]
 description: "RADIO PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /radio-panda/
 ---

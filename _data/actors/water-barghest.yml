@@ -1,24 +1,11 @@
----
-name: Water Barghest
-aliases:
-- Water Barghest
-description: Water Barghest is a cybercriminal group that has compromised over 20,000
-  IoT devices by October 2024, monetizing them through a residential proxy marketplace.
-  They automate the entire process from identifying vulnerable devices using n-day
-  and zero-day exploits to deploying Ngioweb malware and selling the compromised assets.
-  Their operations include leveraging Ubiquiti EdgeRouter devices for espionage and
-  utilizing automated scripts to exploit vulnerabilities within minutes of discovery.
-  Water Barghest has maintained a low profile for years, but their activities gained
-  attention due to the deployment of a zero-day vulnerability against Cisco IOS XE
-  devices in October 2023.
+name: "Water Barghest"
+aliases: ["Water Barghest"]
+description: "Water Barghest is a cybercriminal group that has compromised over 20,000 IoT devices by October 2024, monetizing them through a residential proxy marketplace. They automate the entire process from identifying vulnerable devices using n-day and zero-day exploits to deploying Ngioweb malware and selling the compromised assets. Their operations include leveraging Ubiquiti EdgeRouter devices for espionage and utilizing automated scripts to exploit vulnerabilities within minutes of discovery. Water Barghest has maintained a low profile for years, but their activities gained attention due to the deployment of a zero-day vulnerability against Cisco IOS XE devices in October 2023."
 url: "/water-barghest"
-malware:
-- CyberGate
-- Cyber Eye RAT
-- Xploit
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CyberGate","Cyber Eye RAT","Xploit"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 314325cd-5972-46a9-af1e-4b1e5585619d
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "314325cd-5972-46a9-af1e-4b1e5585619d"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

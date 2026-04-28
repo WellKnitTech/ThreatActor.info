@@ -1,25 +1,11 @@
----
-name: HookAds
-aliases:
-- HookAds
-description: HookAds is a malvertising campaign that purchases cheap ad space on low
-  quality ad networks commonly used by adult web sites, online games, or blackhat
-  seo sites. These ads will include JavaScript that redirects a visitor through a
-  serious of decoy sites that look like pages filled with native advertisements, online
-  games, or other low quality pages. Under the right circumstances, a visitor will
-  silently load the Fallout exploit kit, which will try and install its malware payload.
+name: "HookAds"
+aliases: ["HookAds"]
+description: "HookAds is a malvertising campaign that purchases cheap ad space on low quality ad networks commonly used by adult web sites, online games, or blackhat seo sites. These ads will include JavaScript that redirects a visitor through a serious of decoy sites that look like pages filled with native advertisements, online games, or other low quality pages. Under the right circumstances, a visitor will silently load the Fallout exploit kit, which will try and install its malware payload."
 url: "/hookads"
-malware:
-- SPACESHIP
-- BlackEnergy
-- BLACKCOFFEE
-- Blackshades
-- BlackNix
-- Xploit
-- BlackHole
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["SPACESHIP","BlackEnergy","BLACKCOFFEE","Blackshades","BlackNix","Xploit","BlackHole"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: dce617eb-a3b6-4a9a-bd76-575c424f9761
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "dce617eb-a3b6-4a9a-bd76-575c424f9761"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

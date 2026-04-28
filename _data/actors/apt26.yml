@@ -1,20 +1,29 @@
----
-name: APT26
-aliases:
-- JerseyMikes
-- TURBINE PANDA
-- BRONZE EXPRESS
-- TECHNETIUM
-- Taffeta Typhoon
-- APT26
+name: "APT26"
+aliases: ["JerseyMikes","TURBINE PANDA","BRONZE EXPRESS","TECHNETIUM","Taffeta Typhoon","APT26"]
+description: "APT26 is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/apt26"
-country: China
-risk_level: High
+country: "China"
+risk_level: "High"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Cobalt"
+  - name: "QuickPulse"
+  - name: "credential stealers such as WCE"
+  - name: "GSECDUMP"
+  - name: "COATHOOK"
+  - name: "HTRAN"
+  - name: "SOGU"
+  - name: "TWOCHAINS"
+  - name: "QUICKBALL"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://go.crowdstrike.com/rs/281-OBQ-266/images/15GlobalThreatReport.pdf?mkt_tok=3RkMMJWWfF9wsRojuKrPZKXonjHpfsX/7e8tWrHr08Yy0EZ5VunJEUWy2ocITtQ/cOedCQkZHblFnV4AS626XrENqKML","https://www.crowdstrike.com/resources/wp-content/brochures/reports/huge-fan-of-your-work-intelligence-report.pdf","https://digit.fyi/lengthy-cyber-espionage-operation-helped-china-develop-c919-airliner/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: c097471c-2405-4393-b6d7-afbcb5f0cd11
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-description: APT26 is a threat actor tracked by MISP Galaxy. Additional information
-  pending cataloguing.
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "c097471c-2405-4393-b6d7-afbcb5f0cd11"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

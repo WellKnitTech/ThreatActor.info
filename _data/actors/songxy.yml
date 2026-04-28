@@ -1,21 +1,11 @@
----
-name: SongXY
-aliases:
-- SongXY
-description: SongXY is a Chinese APT group that employs phishing tactics to initiate
-  cyberespionage campaigns. They utilize the Royal Road RTF builder, exploiting the
-  CVE-2018-0798 vulnerability in Microsoft Equation Editor. In one instance, they
-  sent a document containing a link to an attacker-controlled server, which automatically
-  triggered upon opening, allowing them to gather information about the target's system
-  configuration.
+name: "SongXY"
+aliases: ["SongXY"]
+description: "SongXY is a Chinese APT group that employs phishing tactics to initiate cyberespionage campaigns. They utilize the Royal Road RTF builder, exploiting the CVE-2018-0798 vulnerability in Microsoft Equation Editor. In one instance, they sent a document containing a link to an attacker-controlled server, which automatically triggered upon opening, allowing them to gather information about the target's system configuration."
 url: "/songxy"
-malware:
-- CyberGate
-- Cyber Eye RAT
-- Xploit
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CyberGate","Cyber Eye RAT","Xploit"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 439a65b0-c4b4-4a09-a9c9-2c70476574ab
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "439a65b0-c4b4-4a09-a9c9-2c70476574ab"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

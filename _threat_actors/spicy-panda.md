@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "SPICY PANDA"
-aliases: ["SPICY PANDA"]
+aliases: ["SPICY PANDA", "Spicy Panda"]
 description: "SPICY PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /spicy-panda/
 ---

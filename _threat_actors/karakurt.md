@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Karakurt"
-aliases: ["Karakurt Lair", "Karakurt"]
+aliases: ["Karakurt Lair", "Karakurt", "Karakurt Team"]
 description: "Karakurt actors have employed a variety of tactics, techniques, and procedures (TTPs), creating significant challenges for defense and mitigation. Karakurt victims have not reported encryption of compr"
 permalink: /karakurt/
 ---
@@ -10,6 +10,8 @@ permalink: /karakurt/
 Karakurt actors have employed a variety of tactics, techniques, and procedures (TTPs), creating significant challenges for defense and mitigation. Karakurt victims have not reported encryption of compromised machines or files; rather, Karakurt actors have claimed to steal data and threatened to auction it off or release it to the public unless they receive payment of the demanded ransom. Known ransom demands have ranged from $25,000 to $13,000,000 in Bitcoin, with payment deadlines typically set to expire within a week of first contact with the victim.
 
 ## Activities and Tactics
+**Country of Origin**: 🇷🇺 Russia
+
 
 
 
@@ -38,7 +40,8 @@ Karakurt actors have employed a variety of tactics, techniques, and procedures (
 | RMM Tools | AnyDesk |
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Russia
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

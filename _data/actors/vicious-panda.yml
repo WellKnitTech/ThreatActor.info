@@ -1,29 +1,27 @@
----
-name: Vicious Panda
-aliases:
-- SixLittleMonkeys
-- Vicious Panda
-description: "Check Point Research discovered a new campaign against the Mongolian
-  public sector, which takes advantage of the current Coronavirus scare, in order
-  to deliver a previously unknown malware implant to the target. \nA closer look at
-  this campaign allowed us to tie it to other operations which were carried out by
-  the same anonymous group, dating back to at least 2016. Over the years, these operations
-  targeted different sectors in multiple countries, such as Ukraine, Russia, and Belarus."
+name: "Vicious Panda"
+aliases: ["SixLittleMonkeys","Vicious Panda"]
+description: "Check Point Research discovered a new campaign against the Mongolian public sector, which takes advantage of the current Coronavirus scare, in order to deliver a previously unknown malware implant to the target. \nA closer look at this campaign allowed us to tie it to other operations which were carried out by the same anonymous group, dating back to at least 2016. Over the years, these operations targeted different sectors in multiple countries, such as Ukraine, Russia, and Belarus."
 url: "/vicious-panda"
-country: China
-targeted_victims:
-- Belarus
-- Russia
-- Mongolia
-- Ukraine
+country: "China"
+targeted_victims: ["Belarus","Russia","Mongolia","Ukraine"]
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware:
-- Unknown Logger
-- Back Orifice
-- Back Orifice 2000
-- Virus RAT
+  - "Unknown Logger"
+  - "Back Orifice"
+  - "Back Orifice 2000"
+  - "Virus RAT"
+  - name: "Microcin"
+  - name: "BYEBY"
+  - name: "Mikroceen"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://securelist.com/steganography-in-contemporary-cyberattacks/79276/","https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07170759/Microcin_Technical_4PDF_eng_final_s.pdf","https://www.welivesecurity.com/2020/05/14/mikroceen-spying-backdoor-high-profile-networks-central-asia/","https://securelist.com/microcin-is-here/97353/","https://securelist.com/apt-trends-report-q2-2019/91897/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 68d8c25b-8595-4c20-a5c7-a11a2a34b717
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "68d8c25b-8595-4c20-a5c7-a11a2a34b717"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

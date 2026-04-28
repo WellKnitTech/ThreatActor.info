@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Flax Typhoon"
-aliases: ["Ethereal Panda", "Storm-0919", "Flax Typhoon"]
+aliases: ["Ethereal Panda", "Storm-0919", "Flax Typhoon", "ETHEREAL PANDA"]
 description: "Flax Typhoon is a Chinese state-sponsored threat actor that primarily targets organizations in Taiwan. They conduct espionage campaigns and focus on gaining and maintaining long-term access to networks"
 permalink: /flax-typhoon/
 ---
@@ -28,6 +28,7 @@ Flax Typhoon is a Chinese state-sponsored threat actor that primarily targets or
 ## Malware and Tools
 - **Minimo**
 - **Xploit**
+- **GodZilla webshell**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

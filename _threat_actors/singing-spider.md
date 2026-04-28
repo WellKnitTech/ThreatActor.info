@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "SINGING SPIDER"
-aliases: ["SINGING SPIDER"]
+aliases: ["SINGING SPIDER", "Singing Spider"]
 description: "SINGING SPIDER is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /singing-spider/
 ---

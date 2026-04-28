@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "ANDROMEDA SPIDER"
-aliases: ["ANDROMEDA SPIDER"]
+aliases: ["ANDROMEDA SPIDER", "Andromeda Spider"]
 description: "ANDROMEDA SPIDER is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /andromeda-spider/
 ---

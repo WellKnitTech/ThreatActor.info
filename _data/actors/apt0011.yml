@@ -1,13 +1,25 @@
 name: "PittyTiger"
-aliases: ["PittyTiger"]
+aliases: ["PittyTiger","Pitty Tiger"]
 description: "PittyTiger is a threat group believed to operate out of China that uses multiple different types of malware to maintain command and control.(Citation: Bizeul 2014)(Citation: Villeneuve 2014)"
 url: "/apt0011"
+country: "China"
 external_id: "G0011"
 external_url: "https://attack.mitre.org/groups/G0011"
 mitre_id: "G0011"
 mitre_url: "https://attack.mitre.org/groups/G0011"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware:
+  - name: "PittyTiger"
+  - name: "Paladin RAT"
 provenance:
+  apt_groups_operations:
+    matched_mitre_ids: ["G0011"]
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["http://blog.airbuscybersecurity.com/post/2014/07/The-Eye-of-the-Tiger2","https://www.fireeye.com/blog/threat-research/2014/07/spy-of-the-tiger.html","http://blog.malwaretracker.com/2013/06/tomato-garden-campaign-possible.html"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0011"

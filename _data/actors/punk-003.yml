@@ -1,30 +1,12 @@
----
-name: puNK-003
-aliases:
-- puNK-003
-description: puNK-003 is a North Korean APT group known for deploying the Lilith RAT,
-  a sophisticated C++ remote access trojan, and its AutoIt variant, CURKON, which
-  functions as a downloader. The group primarily distributes malware through targeted
-  phishing attacks using malicious LNK files. Analysis indicates that puNK-003 shares
-  similarities with the KONNI group, particularly in the use of AutoIt scripts and
-  specific coding functions. Key indicators of infection include unusual network activity
-  and system slowdowns, with removal methods involving specialized antivirus software
-  and manual techniques.
+name: "puNK-003"
+aliases: ["puNK-003"]
+description: "puNK-003 is a North Korean APT group known for deploying the Lilith RAT, a sophisticated C++ remote access trojan, and its AutoIt variant, CURKON, which functions as a downloader. The group primarily distributes malware through targeted phishing attacks using malicious LNK files. Analysis indicates that puNK-003 shares similarities with the KONNI group, particularly in the use of AutoIt scripts and specific coding functions. Key indicators of infection include unusual network activity and system slowdowns, with removal methods involving specialized antivirus software and manual techniques."
 url: "/punk-003"
-country: North Korea
-malware:
-- SLOWDRIFT
-- AutoIt backdoor
-- Trojan.Karagany
-- RemoteCMD
-- Trojan.Mebromi
-- Virus RAT
-- Remote Utilities
-- RemotePC
-- Konni
+country: "North Korea"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["SLOWDRIFT","AutoIt backdoor","Trojan.Karagany","RemoteCMD","Trojan.Mebromi","Virus RAT","Remote Utilities","RemotePC","Konni"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 0a690077-8268-4c06-9615-eabb6b0d0028
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "0a690077-8268-4c06-9615-eabb6b0d0028"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

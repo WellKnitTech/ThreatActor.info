@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "TRACER KITTEN"
-aliases: ["TRACER KITTEN"]
+aliases: ["TRACER KITTEN", "Tracer KItten"]
 description: "In April 2020, Crowstrike Falcon OverWatch discovered Iran-based adversary TRACER KITTEN conducting malicious interactive activity against multiple hosts at a telecommunications company in the Europe, "
 permalink: /tracer-kitten/
 ---

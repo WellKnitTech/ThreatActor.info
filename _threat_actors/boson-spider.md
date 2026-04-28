@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "BOSON SPIDER"
-aliases: ["BOSON SPIDER"]
+aliases: ["BOSON SPIDER", "Boson Spider"]
 description: "BOSON SPIDER is a cyber criminal group, which was first identified in 2015, recently and inexplicably went dark in the spring of 2016, appears to be a tightly knit group operating out of Eastern Europe"
 permalink: /boson-spider/
 ---
@@ -27,6 +27,7 @@ BOSON SPIDER is a cyber criminal group, which was first identified in 2015, rece
 - **Cyber Eye RAT**
 - **Virus RAT**
 - **Xploit**
+- **CoreBot**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

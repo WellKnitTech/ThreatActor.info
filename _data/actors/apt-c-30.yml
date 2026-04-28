@@ -1,17 +1,14 @@
-name: 潜行者 - APT-C-30
-aliases:
-- 潜行者 - APT-C-30
-description: 潜行者组织主要搜集东南亚国家政府机构、国防部门、情报机构等机构敏感信息，其中针对我国就进行了超十年左右的网络攻击。主要针对政府、通信等领域重点单位，攻击最早可以关联追溯到2009年，最早的样本编译时间为2008年，攻击活动一直持续至今。
+name: "潜行者 - APT-C-30"
+aliases: ["潜行者 - APT-C-30"]
+description: "潜行者组织主要搜集东南亚国家政府机构、国防部门、情报机构等机构敏感信息，其中针对我国就进行了超十年左右的网络攻击。主要针对政府、通信等领域重点单位，攻击最早可以关联追溯到2009年，最早的样本编译时间为2008年，攻击活动一直持续至今。"
 url: "/apt-c-30"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_cluster: 360net.json
-    source_clusters:
-    - 360net.json
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json
-    source_record_id: 4a2a754b-e59b-5f31-b9ca-1d0f920185b2
-    source_record_ids:
-    - 4a2a754b-e59b-5f31-b9ca-1d0f920185b2
-    source_retrieved_at: '2026-04-28T04:13:45Z'
-source_name: MISP Galaxy
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_cluster: "360net.json"
+    source_clusters: ["360net.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json"
+    source_record_id: "4a2a754b-e59b-5f31-b9ca-1d0f920185b2"
+    source_record_ids: ["4a2a754b-e59b-5f31-b9ca-1d0f920185b2"]
+    source_retrieved_at: "2026-04-28T04:13:45Z"

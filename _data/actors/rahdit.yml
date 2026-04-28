@@ -1,24 +1,12 @@
----
-name: RaHDit
-aliases:
-- Russian Angry Hackers Did It
-- RaHDit
-description: RaHDit is a pro-Kremlin hacktivist group known for orchestrating hack-and-leak
-  operations, including the publication of personal information about Ukrainian military
-  intelligence personnel and their associates. The group has been linked to Russian
-  intelligence and has claimed to provide actionable intelligence to the Russian army.
-  RaHDit operates a website called NemeZida, where they disclose sensitive data, and
-  has been involved in disinformation campaigns supporting Russian narratives. Their
-  activities include collaboration with other hacktivist groups and targeting Ukrainian
-  cyberdefense efforts.
+name: "RaHDit"
+aliases: ["Russian Angry Hackers Did It","RaHDit"]
+description: "RaHDit is a pro-Kremlin hacktivist group known for orchestrating hack-and-leak operations, including the publication of personal information about Ukrainian military intelligence personnel and their associates. The group has been linked to Russian intelligence and has claimed to provide actionable intelligence to the Russian army. RaHDit operates a website called NemeZida, where they disclose sensitive data, and has been involved in disinformation campaigns supporting Russian narratives. Their activities include collaboration with other hacktivist groups and targeting Ukrainian cyberdefense efforts."
 url: "/rahdit"
-country: Russia
-malware:
-- CyberGate
-- Cyber Eye RAT
+country: "Russia"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CyberGate","Cyber Eye RAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 1e3efe43-9006-4ac8-b9ee-f1fbb9794cd9
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "1e3efe43-9006-4ac8-b9ee-f1fbb9794cd9"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,23 +1,12 @@
----
-name: REF2924
-aliases:
-- REF2924
-description: A group monitored as REF2924 by Elastic Security Labs is wielding novel
-  data-stealing malware — an HTTP listener written in C# dubbed Naplistener by the
-  researchers — in attacks against victims operating in southern and southeast Asia.According
-  to a blog post by Elastic senior security research engineer Remco Sprooten, in that
-  region of the world, network-based detection and prevention technologies are the
-  de facto method for securing many environments.
+name: "REF2924"
+aliases: ["REF2924"]
+description: "A group monitored as REF2924 by Elastic Security Labs is wielding novel data-stealing malware — an HTTP listener written in C# dubbed Naplistener by the researchers — in attacks against victims operating in southern and southeast Asia.According to a blog post by Elastic senior security research engineer Remco Sprooten, in that region of the world, network-based detection and prevention technologies are the de facto method for securing many environments."
 url: "/ref2924"
-country: China
-malware:
-- HTTP WEB BACKDOOR
-- Archelaus Beta
-- Revenge-RAT
-- Remcos
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["HTTP WEB BACKDOOR","Archelaus Beta","Revenge-RAT","Remcos"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: c46ed7e9-3949-4c57-ab14-177d88f27e2c
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "c46ed7e9-3949-4c57-ab14-177d88f27e2c"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

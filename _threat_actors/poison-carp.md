@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "POISON CARP"
-aliases: ["Evil Eye", "Red Dev 16", "Earth Empusa", "POISON CARP"]
+aliases: ["Evil Eye", "Red Dev 16", "Earth Empusa", "POISON CARP", "Poison Carp"]
 description: "Between November 2018 and May 2019, senior members of Tibetan groups received malicious links in individually tailored WhatsApp text exchanges with operators posing as NGO workers, journalists, and oth"
 permalink: /poison-carp/
 ---
@@ -10,7 +10,11 @@ permalink: /poison-carp/
 Between November 2018 and May 2019, senior members of Tibetan groups received malicious links in individually tailored WhatsApp text exchanges with operators posing as NGO workers, journalists, and other fake personas. The links led to code designed to exploit web browser vulnerabilities to install spyware on iOS and Android devices, and in some cases to OAuth phishing pages. This campaign was carried out by what appears to be a single operator that we call POISON CARP.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇨🇳 China
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -26,9 +30,14 @@ Between November 2018 and May 2019, senior members of Tibetan groups received ma
 - **DroidJack**
 - **Androrat**
 - **Xploit**
+- **ActionSpy**: 
+- **ScanBox**: 
+- **BeEF**: 
+- **Evil Eye**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: China
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

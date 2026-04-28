@@ -1,13 +1,22 @@
 name: "Moses Staff"
-aliases: ["DEV-0500","Marigold Sandstorm","Moses Staff"]
+aliases: ["DEV-0500","Marigold Sandstorm","Moses Staff","Mosesstaff","Abraham's Ax","abrahams-ax","تبر ابراهیم","Vengeful Kitten"]
 description: "Moses Staff is a suspected Iranian threat group that has primarily targeted Israeli companies since at least September 2021. Moses Staff openly stated their motivation in attacking Israeli companies is to cause damage by leaking stolen sensitive data and encrypting the victim's networks without a ransom demand.(Citation: Checkpoint MosesStaff Nov 2021) \n\nSecurity researchers assess Moses Staff is politically motivated, and has targeted government, finance, travel, energy, manufacturing, and utility companies outside of Israel as well, including those in Italy, India, Germany, Chile, Turkey, the UAE, and the US.(Citation: Cybereason StrifeWater Feb 2022)"
 url: "/apt1009"
+country: "Iran"
 external_id: "G1009"
 external_url: "https://attack.mitre.org/groups/G1009"
 mitre_id: "G1009"
 mitre_url: "https://attack.mitre.org/groups/G1009"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
+  apt_groups_operations:
+    matched_mitre_ids: ["G1009"]
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.cybereason.com/blog/research/strifewater-rat-iranian-apt-moses-staff-adds-new-trojan-to-ransomware-operations"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "iran"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1009"

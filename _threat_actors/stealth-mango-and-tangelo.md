@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: " Stealth Mango and Tangelo "
-aliases: [" Stealth Mango and Tangelo "]
+aliases: ["Stealth Mango and Tangelo", "Stealth Mango", "Stealth Mango & Tangelo"]
 description: "This threat actor targets organizations in the satellite communications, telecommunications, geospatial-imaging, and defense sectors in the United States and Southeast Asia for espionage purposes."
 permalink: /stealth-mango-and-tangelo/
 ---
@@ -33,6 +33,7 @@ This threat actor targets organizations in the satellite communications, telecom
 
 ## Malware and Tools
 - **UNITEDRAKE**
+- **Stealth Mango**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Pakistan

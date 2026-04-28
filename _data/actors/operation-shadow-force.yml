@@ -1,21 +1,11 @@
----
-name: Operation Shadow Force
-aliases:
-- TA-ShadowCricket
-- Larva-24013
-- Operation Shadow Force
-description: Operation Shadow Force is a group of malware that is representative of
-  Shadow Force and Wgdrop from 2013 to 2020, and is a group activity that attacks
-  Korean companies and organizations. The group's first confirmed attack was in March
-  2013, but considering the date of malware creation, it is likely to have been active
-  before 2012. Since the malware used mainly by them is Shadow Force, it was named
-  Operation Shadow Force, and it has not been confirmed whether the attacker is associated
-  with a known group.
+name: "Operation Shadow Force"
+aliases: ["TA-ShadowCricket","Larva-24013","Operation Shadow Force"]
+description: "Operation Shadow Force is a group of malware that is representative of Shadow Force and Wgdrop from 2013 to 2020, and is a group activity that attacks Korean companies and organizations. The group's first confirmed attack was in March 2013, but considering the date of malware creation, it is likely to have been active before 2012. Since the malware used mainly by them is Shadow Force, it was named Operation Shadow Force, and it has not been confirmed whether the attacker is associated with a known group."
 url: "/operation-shadow-force"
-country: China
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: f628b544-48b6-44e2-b794-950713353cf1
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "f628b544-48b6-44e2-b794-950713353cf1"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

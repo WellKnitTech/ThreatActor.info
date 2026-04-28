@@ -1,21 +1,11 @@
----
-name: FishMedley
-aliases:
-- FishMedley
-description: Verticals targeted during Operation FishMedley include governments, NGOs,
-  and think tanks, across Asia, Europe, and the United States. ; Operators used implants
-  – such as ShadowPad, SodaMaster, and Spyder – that are common or exclusive to China-aligned
-  threat actors. ; We assess with high confidence that Operation FishMedley was conducted
-  by the FishMonger APT group.
+name: "FishMedley"
+aliases: ["FishMedley"]
+description: "Verticals targeted during Operation FishMedley include governments, NGOs, and think tanks, across Asia, Europe, and the United States. ; Operators used implants – such as ShadowPad, SodaMaster, and Spyder – that are common or exclusive to China-aligned threat actors. ; We assess with high confidence that Operation FishMedley was conducted by the FishMonger APT group."
 url: "/fishmedley"
-malware:
-- China Chopper
-- UNITEDRAKE
-- CrossRat
-- SodaMaster
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["China Chopper","UNITEDRAKE","CrossRat","SodaMaster"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: f0e7f369-a67d-4361-9710-9987bb306e92
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "f0e7f369-a67d-4361-9710-9987bb306e92"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

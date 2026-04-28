@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "UNION SPIDER"
-aliases: ["UNION SPIDER"]
+aliases: ["UNION SPIDER", "Union Spider"]
 description: "Adversary targeting manufacturing and industrial organizations."
 permalink: /union-spider/
 ---

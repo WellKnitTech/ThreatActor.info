@@ -1,28 +1,14 @@
----
-name: Magic Kitten
-aliases:
-- Group 42
-- VOYEUR
-- Magic Kitten
-description: Earliest activity back to November 2008. An established group of cyber
-  attackers based in Iran, who carried on several campaigns in 2013, including a series
-  of attacks targeting political dissidents and those supporting Iranian political
-  opposition.
+name: "Magic Kitten"
+aliases: ["Group 42","VOYEUR","Magic Kitten"]
+description: "Earliest activity back to November 2008. An established group of cyber attackers based in Iran, who carried on several campaigns in 2013, including a series of attacks targeting political dissidents and those supporting Iranian political opposition."
 url: "/magic-kitten"
-country: Iran
-sector_focus:
-- Opposition
-- Dissidents
-- Political party
-risk_level: High
-malware:
-- Back Orifice
-- Back Orifice 2000
-- CyberGate
-- Cyber Eye RAT
+country: "Iran"
+sector_focus: ["Opposition","Dissidents","Political party"]
+risk_level: "High"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Back Orifice","Back Orifice 2000","CyberGate","Cyber Eye RAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 2e77511d-f72f-409e-9b64-e2a15efe9bf4
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "2e77511d-f72f-409e-9b64-e2a15efe9bf4"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

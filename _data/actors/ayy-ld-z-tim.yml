@@ -1,23 +1,21 @@
----
-name: Ayyıldız Tim
-aliases:
-- Crescent and Star
-- Ayyıldız Tim
-description: Ayyıldız (Crescent and Star) Tim is a nationalist hacking group founded
-  in 2002. It performs defacements and DDoS attacks against the websites of governments
-  that it considers to be repressing Muslim minorities or engaged in Islamophobic
-  policies.
+name: "Ayyıldız Tim"
+aliases: ["Crescent and Star","Ayyıldız Tim","THUNDERBOLT JACKAL"]
+description: "Ayyıldız (Crescent and Star) Tim is a nationalist hacking group founded in 2002. It performs defacements and DDoS attacks against the websites of governments that it considers to be repressing Muslim minorities or engaged in Islamophobic policies."
 url: "/ayy-ld-z-tim"
-country: Turkey
-sector_focus:
-- Government, Administration
-incident_type: Denial of service
-risk_level: High
-malware:
-- Hacking Team UEFI Rootkit
+country: "Turkey"
+sector_focus: ["Government, Administration"]
+incident_type: "Denial of service"
+risk_level: "High"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Hacking Team UEFI Rootkit"]
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "middle-east"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: ab1771de-25bb-4688-b132-eabb5d6452a1
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "ab1771de-25bb-4688-b132-eabb5d6452a1"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

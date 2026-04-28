@@ -1,28 +1,31 @@
----
-name: MalKamak
-aliases:
-- MalKamak
-description: MalKamak is an Iranian threat actor that has been operating since at
-  least 2018. They have been involved in highly targeted cyber espionage campaigns
-  against global aerospace and telecommunications companies. MalKamak utilizes a sophisticated
-  remote access Trojan called ShellClient, which evades antivirus tools and uses cloud
-  services like Dropbox for command and control.
+name: "MalKamak"
+aliases: ["MalKamak"]
+description: "MalKamak is an Iranian threat actor that has been operating since at least 2018. They have been involved in highly targeted cyber espionage campaigns against global aerospace and telecommunications companies. MalKamak utilizes a sophisticated remote access Trojan called ShellClient, which evades antivirus tools and uses cloud services like Dropbox for command and control."
 url: "/malkamak"
-country: Iran
+country: "Iran"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+operations: ["Operation GhostShell"]
 malware:
-- SPACESHIP
-- CloudDuke
-- Trojan.Karagany
-- RemoteCMD
-- Trojan.Mebromi
-- ClientMesh
-- CyberGate
-- Cyber Eye RAT
-- Virus RAT
-- Remote Utilities
+  - "SPACESHIP"
+  - "CloudDuke"
+  - "Trojan.Karagany"
+  - "RemoteCMD"
+  - "Trojan.Mebromi"
+  - "ClientMesh"
+  - "CyberGate"
+  - "Cyber Eye RAT"
+  - "Virus RAT"
+  - "Remote Utilities"
+  - name: "ShellClient"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.cybereason.com/blog/operation-ghostshell-novel-rat-targets-global-aerospace-and-telecoms-firms"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "iran"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 4915bfa3-5f0a-48ec-8ed5-bcd878cba504
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "4915bfa3-5f0a-48ec-8ed5-bcd878cba504"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

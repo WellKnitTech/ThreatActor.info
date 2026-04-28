@@ -1,16 +1,21 @@
----
-name: TOXIC PANDA
-aliases:
-- TOXIC PANDA
-description: A group targeting dissident groups in China and at the boundaries.
+name: "TOXIC PANDA"
+aliases: ["TOXIC PANDA","Toxic Panda"]
+description: "A group targeting dissident groups in China and at the boundaries."
 url: "/toxic-panda"
-country: China
-risk_level: High
-malware:
-- China Chopper
+country: "China"
+risk_level: "High"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+operations: ["Umbrella Revolution"]
+malware: ["China Chopper"]
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["http://files.sans.org/summit/Threat_Hunting_Incident_Response_Summit_2016/PDFs/Detecting-and-Responding-to-Pandas-and-Bears-Christopher-Scott-CrowdStrike-and-Wendi-Whitmore-IBM.pdf"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 1514546d-f6ea-4af3-bbea-24d6fd9e6761
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "1514546d-f6ea-4af3-bbea-24d6fd9e6761"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

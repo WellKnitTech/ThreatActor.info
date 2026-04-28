@@ -1,25 +1,28 @@
----
-name: POISON CARP
-aliases:
-- Evil Eye
-- Red Dev 16
-- Earth Empusa
-- POISON CARP
-description: Between November 2018 and May 2019, senior members of Tibetan groups
-  received malicious links in individually tailored WhatsApp text exchanges with operators
-  posing as NGO workers, journalists, and other fake personas. The links led to code
-  designed to exploit web browser vulnerabilities to install spyware on iOS and Android
-  devices, and in some cases to OAuth phishing pages. This campaign was carried out
-  by what appears to be a single operator that we call POISON CARP.
+name: "POISON CARP"
+aliases: ["Evil Eye","Red Dev 16","Earth Empusa","POISON CARP","Poison Carp"]
+description: "Between November 2018 and May 2019, senior members of Tibetan groups received malicious links in individually tailored WhatsApp text exchanges with operators posing as NGO workers, journalists, and other fake personas. The links led to code designed to exploit web browser vulnerabilities to install spyware on iOS and Android devices, and in some cases to OAuth phishing pages. This campaign was carried out by what appears to be a single operator that we call POISON CARP."
 url: "/poison-carp"
+country: "China"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+operations: ["Evil Eye"]
 malware:
-- PoisonIvy
-- DroidJack
-- Androrat
-- Xploit
+  - "PoisonIvy"
+  - "DroidJack"
+  - "Androrat"
+  - "Xploit"
+  - name: "ActionSpy"
+  - name: "ScanBox"
+  - name: "BeEF"
+  - name: "Evil Eye"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://citizenlab.ca/2019/09/poison-carp-tibetan-groups-targeted-with-1-click-mobile-exploits/","https://googleprojectzero.blogspot.com/2019/08/a-very-deep-dive-into-ios-exploit.html","https://www.volexity.com/blog/2019/09/02/digital-crackdown-large-scale-surveillance-and-exploitation-of-uyghurs/","https://blog.trendmicro.com/trendlabs-security-intelligence/new-android-spyware-actionspy-revealed-via-phishing-attacks-from-earth-empusa/","https://about.fb.com/news/2021/03/taking-action-against-hackers-in-china/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 7aa99279-4255-4d26-bb95-12e7156555a0
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "7aa99279-4255-4d26-bb95-12e7156555a0"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

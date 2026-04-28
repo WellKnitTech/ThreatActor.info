@@ -1,26 +1,19 @@
----
-name: DragonSpark
-aliases:
-- DragonSpark
-description: DragonSpark is a threat actor that has been conducting attacks primarily
-  targeting organizations in East Asia. They utilize the open-source tool SparkRAT,
-  which is a multi-platform and frequently updated remote access Trojan. The threat
-  actor is believed to be Chinese-speaking based on their use of Chinese language
-  support and compromised infrastructure located in China and Taiwan. They employ
-  various techniques to evade detection, including Golang source code interpretation
-  and the use of the China Chopper webshell.
+name: "DragonSpark"
+aliases: ["DragonSpark"]
+description: "DragonSpark is a threat actor that has been conducting attacks primarily targeting organizations in East Asia. They utilize the open-source tool SparkRAT, which is a multi-platform and frequently updated remote access Trojan. The threat actor is believed to be Chinese-speaking based on their use of Chinese language support and compromised infrastructure located in China and Taiwan. They employ various techniques to evade detection, including Golang source code interpretation and the use of the China Chopper webshell."
 url: "/dragonspark"
-country: China
-malware:
-- Trojan.Karagany
-- China Chopper
-- RemoteCMD
-- Trojan.Mebromi
-- Remote Utilities
-- RemotePC
+country: "China"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Trojan.Karagany","China Chopper","RemoteCMD","Trojan.Mebromi","Remote Utilities","RemotePC"]
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.sentinelone.com/labs/dragonspark-attacks-evade-detection-with-sparkrat-and-golang-source-code-interpretation/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: a219a78b-7b91-41b1-bf14-91e31e0bb9da
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "a219a78b-7b91-41b1-bf14-91e31e0bb9da"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

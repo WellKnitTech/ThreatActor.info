@@ -11,8 +11,20 @@ external_id: "G0038"
 external_url: "https://attack.mitre.org/groups/G0038"
 mitre_id: "G0038"
 mitre_url: "https://attack.mitre.org/groups/G0038"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware:
+  - name: "MS16-120 / CVE-2016-3393 0day exploits"
+  - name: "0day CVE-2018-8453"
+  - name: "PowerShell backdoor"
+  - name: "CVE-2018-8611"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://securelist.com/blog/research/76396/windows-zero-day-exploit-used-in-targeted-attacks-by-fruityarmor-apt/","https://securelist.com/cve-2018-8453-used-in-targeted-attacks/88151/","https://securelist.com/zero-day-in-windows-kernel-transaction-manager-cve-2018-8611/89253/","https://www.welivesecurity.com/en/eset-research/stealth-falcon-preying-middle-eastern-skies-deadglyph/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "unknown"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0038"

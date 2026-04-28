@@ -1,21 +1,11 @@
----
-name: HellHounds
-aliases:
-- HellHounds
-description: Hellhounds is an APT group targeting organizations in Russia, using a
-  modified version of Pupy RAT called Decoy Dog. They gain initial access through
-  vulnerable web services and trusted relationships, with a focus on the public sector
-  and IT companies. The group has been active since at least 2019, maintaining covert
-  presence inside compromised organizations by modifying open-source projects to evade
-  detection. Hellhounds have successfully targeted at least 48 victims, including
-  a telecom operator where they disrupted services.
+name: "HellHounds"
+aliases: ["HellHounds"]
+description: "Hellhounds is an APT group targeting organizations in Russia, using a modified version of Pupy RAT called Decoy Dog. They gain initial access through vulnerable web services and trusted relationships, with a focus on the public sector and IT companies. The group has been active since at least 2019, maintaining covert presence inside compromised organizations by modifying open-source projects to evade detection. Hellhounds have successfully targeted at least 48 victims, including a telecom operator where they disrupted services."
 url: "/hellhounds"
-malware:
-- SHIPSHAPE
-- Pupy
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["SHIPSHAPE","Pupy"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 46ef6903-deac-415a-afaf-97e3ce067d7e
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "46ef6903-deac-415a-afaf-97e3ce067d7e"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

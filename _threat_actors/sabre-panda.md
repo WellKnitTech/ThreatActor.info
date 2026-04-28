@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "SABRE PANDA"
-aliases: ["SABRE PANDA"]
+aliases: ["SABRE PANDA", "Sabre Panda"]
 description: "SABRE PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /sabre-panda/
 ---

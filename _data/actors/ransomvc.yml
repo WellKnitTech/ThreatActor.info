@@ -1,19 +1,18 @@
----
-name: RansomVC
-aliases:
-- Ransomed.vc
-- RansomVC
-description: Ransomed.VC burst onto the scene with a well-orchestrated PR campaign,
-  encompassing a clearnet site and multiple communication channels including Telegram
-  and Twitter/X profiles. Their operations are heavily inclined towards exploiting
-  GDPR penalties as a method of extortion, threatening victims with potential legal
-  repercussions in case of data leaks.
+name: "RansomVC"
+aliases: ["Ransomed.vc","RansomVC","RansomedVC","Ransomed group","RansomForums","Ransomed"]
+description: "Ransomed.VC burst onto the scene with a well-orchestrated PR campaign, encompassing a clearnet site and multiple communication channels including Telegram and Twitter/X profiles. Their operations are heavily inclined towards exploiting GDPR penalties as a method of extortion, threatening victims with potential legal repercussions in case of data leaks."
 url: "/ransomvc"
-malware:
-- Xploit
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Xploit"]
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://flashpoint.io/blog/ransomed-uncertain-cyber-threat/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "unknown"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: f939b51d-32f9-41d9-8549-f00b2db104c7
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "f939b51d-32f9-41d9-8549-f00b2db104c7"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

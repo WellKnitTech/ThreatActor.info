@@ -1,23 +1,11 @@
----
-name: TraderTraitor
-aliases:
-- Jade Sleet
-- UNC4899
-- Pukchong
-- TraderTraitor
-description: TraderTraitor targets blockchain companies through spear-phishing messages.
-  The group sends these messages to employees, particularly those in system administration
-  or software development roles, on various communication platforms, intended to gain
-  access to these start-up and high-tech companies. TraderTraitor may be the work
-  of operators previously responsible for APT38 activity.
+name: "TraderTraitor"
+aliases: ["Jade Sleet","UNC4899","Pukchong","TraderTraitor"]
+description: "TraderTraitor targets blockchain companies through spear-phishing messages. The group sends these messages to employees, particularly those in system administration or software development roles, on various communication platforms, intended to gain access to these start-up and high-tech companies. TraderTraitor may be the work of operators previously responsible for APT38 activity."
 url: "/tradertraitor"
-country: North Korea
+country: "North Korea"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   bushido_breach_reports:
-    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
-    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
-    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
-    source_retrieved_at: "2026-04-28T01:40:03Z"
     reports:
       - organization: "JumpCloud"
         breach_date: "July 2023"
@@ -29,8 +17,11 @@ provenance:
         adversary_label: "Jade Sleet (DPRK APT)"
         links: ["https://circleci.com/blog/jan-4-2023-incident-report/"]
         archived_links: ["https://web.archive.org/web/20230324014148/https://circleci.com/blog/jan-4-2023-incident-report/"]
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_retrieved_at: "2026-04-28T01:40:03Z"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 825abfd9-7238-4438-a9e7-c08791f4df4e
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "825abfd9-7238-4438-a9e7-c08791f4df4e"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

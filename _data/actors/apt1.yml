@@ -1,57 +1,34 @@
----
-name: APT1
-aliases:
-- APT1
-- Brown Fox
-- Byzantine Candor
-- Comment Crew
-- Comment Group
-- Comment Panda
-- COMMENT PANDA
-- G0006
-- GIF89a
-- Group 3
-- PLA Unit 61398
-- ShadyRAT
-- TG-8223
-description: APT1 is a Chinese cyber espionage group that has been conducting cyber
-  espionage against a broad range of victims.
+name: "APT1"
+aliases: ["APT1","Brown Fox","Byzantine Candor","Comment Crew","Comment Group","Comment Panda","COMMENT PANDA","G0006","GIF89a","Group 3","PLA Unit 61398","ShadyRAT","TG-8223","Shanghai Group"]
+description: "APT1 is a Chinese cyber espionage group that has been conducting cyber espionage against a broad range of victims."
 url: "/apt1"
-country: China
-sector_focus:
-- Government
-- Defense
-- Technology
-targeted_victims:
-- United States
-- Taiwan
-- Israel
-- Norway
-- United Arab Emirates
-- United Kingdom
-- Singapore
-- India
-- Belgium
-- South Africa
-- Switzerland
-- Canada
-- France
-- Luxembourg
-- Japan
-incident_type: Espionage
-first_seen: '2006'
-last_activity: '2023'
-risk_level: High
-external_id: G0006
-external_url: https://attack.mitre.org/groups/G0006
-mitre_id: G0006
-mitre_url: https://attack.mitre.org/groups/G0006
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
+country: "China"
+sector_focus: ["Government","Defense","Technology"]
+targeted_victims: ["United States","Taiwan","Israel","Norway","United Arab Emirates","United Kingdom","Singapore","India","Belgium","South Africa","Switzerland","Canada","France","Luxembourg","Japan"]
+incident_type: "Espionage"
+first_seen: "2006"
+last_activity: "2023"
+risk_level: "High"
+external_id: "G0006"
+external_url: "https://attack.mitre.org/groups/G0006"
+mitre_id: "G0006"
+mitre_url: "https://attack.mitre.org/groups/G0006"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+operations: ["Shady RAT","GhostNet"]
 malware:
-- Hacking Team UEFI Rootkit
+  - "Hacking Team UEFI Rootkit"
+  - name: "WEBC2"
+  - name: "BISCUIT and many others"
 provenance:
+  apt_groups_operations:
+    matched_mitre_ids: ["G0006"]
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["http://www.mcafee.com/us/resources/white-papers/wp-operation-shady-rat.pdf","http://www.nytimes.com/2013/02/19/technology/chinas-army-is-seen-as-tied-to-hacking-against-us.html?emc=na&_r=2&","https://www.secureworks.com/research/analysis-of-dhs-nccic-indicators","https://www.scribd.com/doc/13731776/Tracking-GhostNet-Investigating-a-Cyber-Espionage-Network","http://www.nartv.org/mirror/ghostnet.pdf"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G0006
-    source_retrieved_at: '2026-04-26T07:05:44Z'
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0006"
+    source_retrieved_at: "2026-04-26T07:05:44Z"

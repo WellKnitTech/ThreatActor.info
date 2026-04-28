@@ -1,29 +1,11 @@
----
-name: UAC-0154
-aliases:
-- UAC-0154
-description: UAC-0154 is a threat actor orchestrating the STARK#VORTEX phishing campaign,
-  specifically targeting Ukraine’s military. They employ a Microsoft Help file containing
-  obfuscated JavaScript as a lure, disguised as a manual for Pilot-in-Command Drones,
-  to deliver the MerlinAgent malware. This PowerShell-based RAT is heavily obfuscated
-  and downloads a payload from a remote server, enabling full control over compromised
-  systems. The group initially targeted Ukrainian entities using military-themed documents
-  sent via email to @ukr.net addresses.
+name: "UAC-0154"
+aliases: ["UAC-0154"]
+description: "UAC-0154 is a threat actor orchestrating the STARK#VORTEX phishing campaign, specifically targeting Ukraine’s military. They employ a Microsoft Help file containing obfuscated JavaScript as a lure, disguised as a manual for Pilot-in-Command Drones, to deliver the MerlinAgent malware. This PowerShell-based RAT is heavily obfuscated and downloads a payload from a remote server, enabling full control over compromised systems. The group initially targeted Ukrainian entities using military-themed documents sent via email to @ukr.net addresses."
 url: "/uac-0154"
-malware:
-- PowerDuke
-- POWERSTATS
-- Agent.btz
-- Power Loader
-- POWERSOURCE
-- RemoteCMD
-- Remote Utilities
-- RemotePC
-- VorteX
-- PowerRAT
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["PowerDuke","POWERSTATS","Agent.btz","Power Loader","POWERSOURCE","RemoteCMD","Remote Utilities","RemotePC","VorteX","PowerRAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 8356805a-5612-449c-9fdc-cbe536c1f392
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "8356805a-5612-449c-9fdc-cbe536c1f392"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

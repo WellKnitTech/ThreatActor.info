@@ -1,37 +1,27 @@
----
-name: Storm-0558
-aliases:
-- Storm-0558
-description: Storm-0558 is a China-based threat actor with espionage objectives. While
-  there are some minimal overlaps with other Chinese groups such as Violet Typhoon
-  (ZIRCONIUM, APT31), Microsoft maintain high confidence that Storm-0558 operates
-  as its own distinct group
+name: "Storm-0558"
+aliases: ["Storm-0558"]
+description: "Storm-0558 is a China-based threat actor with espionage objectives. While there are some minimal overlaps with other Chinese groups such as Violet Typhoon (ZIRCONIUM, APT31), Microsoft maintain high confidence that Storm-0558 operates as its own distinct group"
 url: "/storm-0558"
-country: China
-sector_focus:
-- Government
-targeted_victims:
-- United States
-- Germany
-incident_type: Espionage
-risk_level: High
-malware:
-- China Chopper
-- Minimo
+country: "China"
+sector_focus: ["Government"]
+targeted_victims: ["United States","Germany"]
+incident_type: "Espionage"
+risk_level: "High"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["China Chopper","Minimo"]
 provenance:
   bushido_breach_reports:
-    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
-    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
-    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
-    source_retrieved_at: "2026-04-28T01:40:03Z"
     reports:
       - organization: "Microsoft"
         breach_date: "July 2023"
         adversary_label: "Storm-0558 (CN APT)"
         links: ["https://www.microsoft.com/en-us/security/blog/2023/07/14/analysis-of-storm-0558-techniques-for-unauthorized-email-access/"]
         archived_links: ["http://web.archive.org/web/20230802033832/https://www.microsoft.com/en-us/security/blog/2023/07/14/analysis-of-storm-0558-techniques-for-unauthorized-email-access/"]
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_retrieved_at: "2026-04-28T01:40:03Z"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 5b30bcb8-4923-45cc-bc89-29651ca5d54e
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "5b30bcb8-4923-45cc-bc89-29651ca5d54e"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

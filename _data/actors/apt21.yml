@@ -1,38 +1,24 @@
----
-name: APT21
-aliases:
-- HAMMER PANDA
-- TEMP.Zhenbao
-- NetTraveler
-- APT21
+name: "APT21"
+aliases: ["HAMMER PANDA","TEMP.Zhenbao","NetTraveler","APT21","Zhenbao","Temp.Zhenbao","TravNet"]
+description: "APT21 is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/apt21"
-country: China
-sector_focus:
-- Government
-- Military
-targeted_victims:
-- Mongolia
-- Kazakhstan
-- Tajikistan
-- Germany
-- United Kingdom
-- India
-- Kyrgyzstan
-- South Korea
-- United States
-- Chile
-- Russia
-- China
-- Spain
-- Canada
-- Morocco
-incident_type: Espionage
-risk_level: High
+country: "China"
+sector_focus: ["Government","Military"]
+targeted_victims: ["Mongolia","Kazakhstan","Tajikistan","Germany","United Kingdom","India","Kyrgyzstan","South Korea","United States","Chile","Russia","China","Spain","Canada","Morocco"]
+incident_type: "Espionage"
+risk_level: "High"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "NetTraveler"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://securelist.com/blog/research/35936/nettraveler-is-running-red-star-apt-attacks-compromise-high-profile-victims/","https://securelist.com/blog/incidents/57455/nettraveler-is-back-the-red-star-apt-returns-with-new-tricks/","https://cybergeeks.tech/dissecting-apt21-samples-using-a-step-by-step-approach/","http://www.darkreading.com/endpoint/chinese-cyberspies-pivot-to-russia-in-wake-of-obama-xi-pact/d/d-id/1324242","https://www.isightpartners.com/2014/11/threatscape-media-highlights-update-week-november-10/","http://www.securityweek.com/plugx-rat-used-gather-intel-afghan-russian-military-report"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "china"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: b80f4788-ccb2-466d-ae16-b397159d907e
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-description: APT21 is a threat actor tracked by MISP Galaxy. Additional information
-  pending cataloguing.
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "b80f4788-ccb2-466d-ae16-b397159d907e"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

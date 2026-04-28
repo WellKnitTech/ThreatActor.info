@@ -1,26 +1,12 @@
----
-name: Storm-2372
-aliases:
-- Storm-2372
-description: Storm-2372 is a suspected nation-state actor aligned with Russian interests,
-  engaging in device code phishing campaigns targeting governments, NGOs, and various
-  industries across Europe, North America, Africa, and the Middle East. The actor
-  employs tactics that involve impersonating prominent individuals through third-party
-  messaging services like WhatsApp and Signal to gain rapport before sending phishing
-  invitations. These invitations lure users into completing device code authentication
-  requests, granting Storm-2372 initial access to victim accounts and enabling Graph
-  API data collection activities, including email harvesting. Microsoft has observed
-  the actor utilizing keyword searches within compromised accounts to exfiltrate sensitive
-  information.
+name: "Storm-2372"
+aliases: ["Storm-2372"]
+description: "Storm-2372 is a suspected nation-state actor aligned with Russian interests, engaging in device code phishing campaigns targeting governments, NGOs, and various industries across Europe, North America, Africa, and the Middle East. The actor employs tactics that involve impersonating prominent individuals through third-party messaging services like WhatsApp and Signal to gain rapport before sending phishing invitations. These invitations lure users into completing device code authentication requests, granting Storm-2372 initial access to victim accounts and enabling Graph API data collection activities, including email harvesting. Microsoft has observed the actor utilizing keyword searches within compromised accounts to exfiltrate sensitive information."
 url: "/storm-2372"
-country: Russia
-malware:
-- GraphicBooting
-- Archelaus Beta
-- CrossRat
+country: "Russia"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["GraphicBooting","Archelaus Beta","CrossRat"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 9c2600e2-d9e6-42ea-963c-972a4b5673c6
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "9c2600e2-d9e6-42ea-963c-972a4b5673c6"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

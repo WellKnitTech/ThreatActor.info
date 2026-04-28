@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "MONTY SPIDER"
-aliases: ["Spandex Tempest", "MONTY SPIDER"]
+aliases: ["Spandex Tempest", "MONTY SPIDER", "Monty Spider"]
 description: "Spambots continued to decline in 2019, with MONTY SPIDER’s CraP2P spambot falling silent in April."
 permalink: /monty-spider/
 ---

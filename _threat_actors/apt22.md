@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT22"
-aliases: ["G0039", "Suckfly", "BRONZE OLIVE", "Group 46", "APT22"]
+aliases: ["G0039", "Suckfly", "BRONZE OLIVE", "Group 46", "APT22", "Barista"]
 description: "Suckfly is a China-based threat group that has been active since at least 2014"
 permalink: /apt22/
 ---
@@ -28,6 +28,14 @@ Suckfly is a China-based threat group that has been active since at least 2014
 
 ## Malware and Tools
 - **China Chopper**
+- **China Chopper**: 
+- **PISCES**: 
+- **SOGU**: 
+- **FLATNOTE**: 
+- **ANGRYBELL**: 
+- **BASELESS**: 
+- **SEAWOLF**: 
+- **LOGJAM**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

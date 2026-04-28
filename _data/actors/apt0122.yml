@@ -1,5 +1,5 @@
 name: "Silent Librarian"
-aliases: ["COBALT DICKENS","Mabna Institute","Mabna Institute Group","Silent Librarian","TA407","TA4900","Yellow Nabu"]
+aliases: ["COBALT DICKENS","Mabna Institute","Mabna Institute Group","Silent Librarian","TA407","TA4900","Yellow Nabu","Cobalt Dickens","SCHOLAR KITTEN"]
 description: "Silent Librarian is a group that has targeted research and proprietary data at universities, government agencies, and private sector companies worldwide since at least 2013. Members of  Silent Librarian are known to have been affiliated with the Iran-based Mabna Institute which has conducted cyber intrusions at the behest of the government of Iran, specifically the Islamic Revolutionary Guard Corps (IRGC).(Citation: DOJ Iran Indictments March 2018)(Citation: Phish Labs Silent Librarian)(Citation: Malwarebytes Silent Librarian October 2020)"
 url: "/apt0122"
 country: "Iran"
@@ -7,8 +7,16 @@ external_id: "G0122"
 external_url: "https://attack.mitre.org/groups/G0122"
 mitre_id: "G0122"
 mitre_url: "https://attack.mitre.org/groups/G0122"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
+  apt_groups_operations:
+    matched_mitre_ids: ["G0122"]
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.fbi.gov/wanted/cyber/iranian-mabna-hackers","https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment","https://twitter.com/ClearskySec/status/977899578346430464","https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities","https://www.proofpoint.com/us/threat-insight/post/seems-phishy-back-school-lures-target-university-students-and-staff","https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again","https://www.bleepingcomputer.com/news/security/iranian-hackers-create-credible-phishing-to-steal-library-access/","https://www.secureworks.com/research/threat-profiles/cobalt-dickens","https://blog.malwarebytes.com/malwarebytes-news/2020/10/silent-librarian-apt-phishing-attack/","https://blog.malwarebytes.com/cybercrime/2020/10/fake-covid-19-survey-hides-ransomware-in-canadian-university-attack/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "iran"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0122"

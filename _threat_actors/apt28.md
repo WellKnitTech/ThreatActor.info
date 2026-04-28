@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT28"
-aliases: ["APT-C-20", "APT28", "ATK5", "Blue Athena", "BlueDelta", "Fancy Bear", "FANCY BEAR", "Fighting Ursa", "Forest Blizzard", "FROZENLAKE", "G0007", "Grizzly Steppe", "Group 74", "GruesomeLarch", "IRON TWILIGHT", "ITG05", "Pawn Storm", "Sednit", "SIG40", "SNAKEMACKEREL", "Sofacy", "Sofacy Group", "STRONTIUM", "Swallowtail", "T-APT-12", "TA422", "TG-4127", "Threat Group-4127", "Tsar Team", "UAC-0001", "UAC-0028", "APT 28", "TsarTeam", "Group-4127", "Grey-Cloud"]
+aliases: ["APT-C-20", "APT28", "ATK5", "Blue Athena", "BlueDelta", "Fancy Bear", "FANCY BEAR", "Fighting Ursa", "Forest Blizzard", "FROZENLAKE", "G0007", "Grizzly Steppe", "Group 74", "GruesomeLarch", "IRON TWILIGHT", "ITG05", "Pawn Storm", "Sednit", "SIG40", "SNAKEMACKEREL", "Sofacy", "Sofacy Group", "STRONTIUM", "Swallowtail", "T-APT-12", "TA422", "TG-4127", "Threat Group-4127", "Tsar Team", "UAC-0001", "UAC-0028", "APT 28", "TsarTeam", "Group-4127", "Grey-Cloud", "Strontium", "Armada Collective", "Dark Power"]
 description: "APT28 is a threat group that has been attributed to Russia's General Staff Main Intelligence Directorate (GRU) 85th Main Special Service Center (GTsSS) military unit 26165.(Citation: NSA/FBI Drovorub A"
 permalink: /apt28/
 ---
@@ -74,6 +74,29 @@ APT28 is a threat group that has been attributed to Russia's General Staff Main 
 - **XTunnel**
 - **Unidentified JS 007 (Zimbra Stealer)**
 - **PixyNetLoader**
+- **CHOPSTICK**: 
+- **CORESHELL**: 
+- **Winexe**: 
+- **SOURFACE**: 
+- **OLDBAIT**: 
+- **Sofacy**: 
+- **XAgent**: 
+- **XTunnel**: 
+- **WinIDS**: 
+- **Foozer**: 
+- **DownRange**: 
+- **Sedreco Dropper**: 
+- **Komplex**: 
+- **DealersChoice**: 
+- **Downdelph**: 
+- **Sednit**: 
+- **USBStealer**: 
+- **Sedkit**: 
+- **HideDrv (Rootkit)**: 
+- **LoJax**: 
+- **SeduUploader**: 
+- **Promptsteal**: 
+- **Promptflux**: 
 
 ### Russian APT Tool Matrix observations
 

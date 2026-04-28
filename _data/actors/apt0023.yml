@@ -1,36 +1,40 @@
----
-name: APT16
-aliases:
-- APT16
-- G0023
-- SVCMONDR
-description: 'APT16 is a China-based threat group that has launched spearphishing
-  campaigns targeting Japanese and Taiwanese organizations. (Citation: FireEye EPS
-  Awakens Part 2)'
+name: "APT16"
+aliases: ["APT16","G0023","SVCMONDR"]
+description: "APT16 is a China-based threat group that has launched spearphishing campaigns targeting Japanese and Taiwanese organizations. (Citation: FireEye EPS Awakens Part 2)"
 url: "/apt0023"
-country: China
-sector_focus:
-- Private sector
-targeted_victims:
-- Japan
-- Taiwan
-incident_type: Espionage
-risk_level: High
-external_id: G0023
-external_url: https://attack.mitre.org/groups/G0023
-mitre_id: G0023
-mitre_url: https://attack.mitre.org/groups/G0023
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
+country: "China"
+sector_focus: ["Private sector"]
+targeted_victims: ["Japan","Taiwan"]
+incident_type: "Espionage"
+risk_level: "High"
+external_id: "G0023"
+external_url: "https://attack.mitre.org/groups/G0023"
+mitre_id: "G0023"
+mitre_url: "https://attack.mitre.org/groups/G0023"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 malware:
-- Backdoor.Oldrea
-- China Chopper
-- ELMER
-- Windows Remote Desktop
-- Xploit
+  - "Backdoor.Oldrea"
+  - "China Chopper"
+  - "ELMER"
+  - "Windows Remote Desktop"
+  - "Xploit"
+  - name: "ELMER backdoor"
+  - name: "Gh0st"
+  - name: "HTRAN"
+  - name: "UNICAT"
+  - name: "Poison Ivy"
+  - name: "Pandora"
+  - name: "CVE-2015-2545"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://securelist.com/analysis/publications/74828/cve-2015-2545-overview-of-current-threats/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G0023
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-source: MITRE ATT&CK
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0023"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

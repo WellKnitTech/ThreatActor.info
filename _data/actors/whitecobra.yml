@@ -1,26 +1,11 @@
----
-name: WhiteCobra
-aliases:
-- WhiteCobra
-description: WhiteCobra is a threat actor that has infiltrated the Visual Studio Code
-  marketplace and Open VSX registry, deploying 24 malicious extensions targeting cryptocurrency
-  development tools, particularly Solidity. The group employs social engineering tactics,
-  manipulates download counts and reviews, and uses fake branding to establish credibility
-  for their extensions, which deliver LummaStealer on Windows and unknown malware
-  on macOS. WhiteCobra has been linked to a $500,000 cryptocurrency theft in July
-  2025 and maintains detailed playbooks with revenue targets, showcasing their organized
-  and persistent operations. Despite ongoing efforts by security researchers to remove
-  their malicious extensions, WhiteCobra continues to upload new threats weekly, highlighting
-  the sophistication of their TTPs.
+name: "WhiteCobra"
+aliases: ["WhiteCobra"]
+description: "WhiteCobra is a threat actor that has infiltrated the Visual Studio Code marketplace and Open VSX registry, deploying 24 malicious extensions targeting cryptocurrency development tools, particularly Solidity. The group employs social engineering tactics, manipulates download counts and reviews, and uses fake branding to establish credibility for their extensions, which deliver LummaStealer on Windows and unknown malware on macOS. WhiteCobra has been linked to a $500,000 cryptocurrency theft in July 2025 and maintains detailed playbooks with revenue targets, showcasing their organized and persistent operations. Despite ongoing efforts by security researchers to remove their malicious extensions, WhiteCobra continues to upload new threats weekly, highlighting the sophistication of their TTPs."
 url: "/whitecobra"
-malware:
-- Unknown Logger
-- Windows Remote Desktop
-- Archelaus Beta
-- Revenge-RAT
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Unknown Logger","Windows Remote Desktop","Archelaus Beta","Revenge-RAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: e36c1f61-1374-48dd-a710-87c290097f0c
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "e36c1f61-1374-48dd-a710-87c290097f0c"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

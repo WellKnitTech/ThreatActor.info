@@ -7,9 +7,18 @@ external_id: "G1015"
 external_url: "https://attack.mitre.org/groups/G1015"
 mitre_id: "G1015"
 mitre_url: "https://attack.mitre.org/groups/G1015"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-malware: ["Hacking Team UEFI Rootkit"]
+malware:
+  - "Hacking Team UEFI Rootkit"
+  - name: "Linpeas"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.crowdstrike.com/blog/analysis-of-intrusion-campaign-targeting-telecom-and-bpo-companies/","https://www.crowdstrike.com/blog/scattered-spider-attempts-to-avoid-detection-with-bring-your-own-vulnerable-driver-tactic/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   bushido_breach_reports:
     reports:
       - organization: "Coinbase"

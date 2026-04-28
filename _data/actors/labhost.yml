@@ -1,19 +1,11 @@
----
-name: LabHost
-aliases:
-- LabHost
-description: LabHost is a threat actor group targeting Canadian Banks with Phishing-as-a-Service
-  attacks. They have been observed using tools like LabRat and LabSend for real-time
-  campaign management and SMS lures. LabHost's phishing campaigns have similarities
-  to Frappo campaigns, but they operate separately and offer different subscription
-  packages.
+name: "LabHost"
+aliases: ["LabHost"]
+description: "LabHost is a threat actor group targeting Canadian Banks with Phishing-as-a-Service attacks. They have been observed using tools like LabRat and LabSend for real-time campaign management and SMS lures. LabHost's phishing campaigns have similarities to Frappo campaigns, but they operate separately and offer different subscription packages."
 url: "/labhost"
-malware:
-- RIPTIDE
-- Brat
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["RIPTIDE","Brat"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 583cdea6-1d72-44d4-824f-f965e8a23f3e
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "583cdea6-1d72-44d4-824f-f965e8a23f3e"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

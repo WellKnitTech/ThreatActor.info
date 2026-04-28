@@ -1,26 +1,11 @@
----
-name: CoughingDown
-aliases:
-- CoughingDown
-description: CoughingDown is a threat group attributed to various cyber campaigns,
-  including the deployment of the EAGERBEE backdoor, which utilizes service manipulation
-  and privilege escalation techniques. The group has been linked to malware infrastructure
-  that abuses legitimate services like MSDTC, IKEEXT, and SessionEnv to load malicious
-  DLLs, including oci.dll. Analysis of supply-chain attacks, particularly involving
-  Trojanized packages, has revealed similarities between CoughingDown malware and
-  post-compromise tools used in these incidents. Evidence such as consistent service
-  creation and C2 domain overlap further supports the connection between EAGERBEE
-  and CoughingDown.
+name: "CoughingDown"
+aliases: ["CoughingDown"]
+description: "CoughingDown is a threat group attributed to various cyber campaigns, including the deployment of the EAGERBEE backdoor, which utilizes service manipulation and privilege escalation techniques. The group has been linked to malware infrastructure that abuses legitimate services like MSDTC, IKEEXT, and SessionEnv to load malicious DLLs, including oci.dll. Analysis of supply-chain attacks, particularly involving Trojanized packages, has revealed similarities between CoughingDown malware and post-compromise tools used in these incidents. Evidence such as consistent service creation and C2 domain overlap further supports the connection between EAGERBEE and CoughingDown."
 url: "/coughingdown"
-malware:
-- Backdoor.Oldrea
-- Trojan.Karagany
-- Trojan.Mebromi
-- CyberGate
-- Cyber Eye RAT
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Backdoor.Oldrea","Trojan.Karagany","Trojan.Mebromi","CyberGate","Cyber Eye RAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 80872d9a-1d0c-4c12-9543-feca1fbd2ac2
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "80872d9a-1d0c-4c12-9543-feca1fbd2ac2"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

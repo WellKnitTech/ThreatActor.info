@@ -1,23 +1,11 @@
----
-name: BreachLaboratory
-aliases:
-- BreachLaboratory
-description: BreachLaboratory is a cybercrime actor that specializes in the extraction
-  and sale of sensitive financial and identity datasets from various organizations.
-  They have claimed to exfiltrate approximately 950,000 records from Grupo Catalana
-  Occidente and over 18,000 records from Bank Mandiri, with data including customer
-  names, account details, and SWIFT codes. The actor operates on underground forums,
-  selling structured datasets such as CSV files and SQL dumps, and emphasizes the
-  validity and financial utility of the data. Their activities indicate a focus on
-  monetization through direct database sales and potential downstream fraud enablement.
+name: "BreachLaboratory"
+aliases: ["BreachLaboratory"]
+description: "BreachLaboratory is a cybercrime actor that specializes in the extraction and sale of sensitive financial and identity datasets from various organizations. They have claimed to exfiltrate approximately 950,000 records from Grupo Catalana Occidente and over 18,000 records from Bank Mandiri, with data including customer names, account details, and SWIFT codes. The actor operates on underground forums, selling structured datasets such as CSV files and SQL dumps, and emphasizes the validity and financial utility of the data. Their activities indicate a focus on monetization through direct database sales and potential downstream fraud enablement."
 url: "/breachlaboratory"
-malware:
-- StreamEx
-- CyberGate
-- Cyber Eye RAT
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["StreamEx","CyberGate","Cyber Eye RAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 58df3770-e72f-4281-a84d-abc1dce75112
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "58df3770-e72f-4281-a84d-abc1dce75112"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

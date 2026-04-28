@@ -1,22 +1,11 @@
----
-name: Storm-0494
-aliases:
-- Storm-0494
-description: Storm-0494 is a threat actor that facilitates Gootloader infections,
-  which are then exploited by groups like Vice Society to deploy tools such as the
-  Supper backdoor, AnyDesk, and MEGA. They utilize RDP for lateral movement and employ
-  the WMI Provider Host to deploy the INC ransomware payload. Microsoft has identified
-  their activities as part of a campaign targeting the U.S. health sector. Their operations
-  are characterized by financially motivated tactics.
+name: "Storm-0494"
+aliases: ["Storm-0494"]
+description: "Storm-0494 is a threat actor that facilitates Gootloader infections, which are then exploited by groups like Vice Society to deploy tools such as the Supper backdoor, AnyDesk, and MEGA. They utilize RDP for lateral movement and employ the WMI Provider Host to deploy the INC ransomware payload. Microsoft has identified their activities as part of a campaign targeting the U.S. health sector. Their operations are characterized by financially motivated tactics."
 url: "/storm-0494"
-malware:
-- Backdoor.Oldrea
-- AnyDesk
-- Xploit
-- Mega
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Backdoor.Oldrea","AnyDesk","Xploit","Mega"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: bed7279c-4ae4-459a-a862-8c69e0cfdb93
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "bed7279c-4ae4-459a-a862-8c69e0cfdb93"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

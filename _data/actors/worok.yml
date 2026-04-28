@@ -1,35 +1,33 @@
----
-name: Worok
-aliases:
-- Worok
-description: Worok is a cyber espionage group, mostly targeting Central Asia. The
-  group toolset includes a C++ loader named CLRLoad, a PowerShell backdoor named PowHeartBeat,
-  and a C# loader named PNGLoad.
+name: "Worok"
+aliases: ["Worok"]
+description: "Worok is a cyber espionage group, mostly targeting Central Asia. The group toolset includes a C++ loader named CLRLoad, a PowerShell backdoor named PowHeartBeat, and a C# loader named PNGLoad."
 url: "/worok"
-country: China
-sector_focus:
-- Government
-- Energy Company
-targeted_victims:
-- East Asia
-- Central Asia
-- Southeast Asia
-- The Middle East
-- Southern Africa
-incident_type: Espionage
-risk_level: High
+country: "China"
+sector_focus: ["Government","Energy Company"]
+targeted_victims: ["East Asia","Central Asia","Southeast Asia","The Middle East","Southern Africa"]
+incident_type: "Espionage"
+risk_level: "High"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware:
-- Backdoor.Oldrea
-- PowerDuke
-- POWERSTATS
-- Power Loader
-- POWERSOURCE
-- CyberGate
-- Cyber Eye RAT
-- PowerRAT
+  - "Backdoor.Oldrea"
+  - "PowerDuke"
+  - "POWERSTATS"
+  - "Power Loader"
+  - "POWERSOURCE"
+  - "CyberGate"
+  - "Cyber Eye RAT"
+  - "PowerRAT"
+  - name: "Proxy Shell"
+  - name: "CVE-2021-34523"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.welivesecurity.com/2022/09/06/worok-big-picture/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "unknown"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 77742419-aa71-4bc2-94c6-29c394b350e7
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "77742419-aa71-4bc2-94c6-29c394b350e7"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

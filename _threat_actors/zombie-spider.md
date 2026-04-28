@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "ZOMBIE SPIDER"
-aliases: ["ZOMBIE SPIDER"]
+aliases: ["ZOMBIE SPIDER", "Pytor Levashov", "Kelihos", "Zombie Spider"]
 description: "On April 7, 2017, Pytor Levashov — who predominantly used the alias Severa or Peter Severa and whom Falcon Intelligence tracks as ZOMBIE SPIDER — was arrested in an international law enforcement operat"
 permalink: /zombie-spider/
 ---

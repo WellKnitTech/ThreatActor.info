@@ -1,26 +1,31 @@
----
-name: Whitefly
-aliases:
-- Whitefly
-description: 'Whitefly is a cyber espionage group that has been operating since at
-  least 2017. The group has targeted organizations based mostly in Singapore across
-  a wide variety of sectors, and is primarily interested in stealing large amounts
-  of sensitive information. The group has been linked to an attack against Singapore’s
-  largest public health organization, SingHealth.(Citation: Symantec Whitefly March
-  2019)'
+name: "Whitefly"
+aliases: ["Whitefly"]
+description: "Whitefly is a cyber espionage group that has been operating since at least 2017. The group has targeted organizations based mostly in Singapore across a wide variety of sectors, and is primarily interested in stealing large amounts of sensitive information. The group has been linked to an attack against Singapore’s largest public health organization, SingHealth.(Citation: Symantec Whitefly March 2019)"
 url: "/apt0107"
-external_id: G0107
-external_url: https://attack.mitre.org/groups/G0107
-mitre_id: G0107
-mitre_url: https://attack.mitre.org/groups/G0107
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
+external_id: "G0107"
+external_url: "https://attack.mitre.org/groups/G0107"
+mitre_id: "G0107"
+mitre_url: "https://attack.mitre.org/groups/G0107"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+operations: ["SingHealth"]
 malware:
-- Archelaus Beta
-- CrossRat
+  - "Archelaus Beta"
+  - "CrossRat"
+  - name: "CVE-2016-0051"
+  - name: "Vcrodat"
+  - name: "Nibatad"
+  - name: "Termite"
+  - name: "Mimikatz"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.symantec.com/blogs/threat-intelligence/whitefly-espionage-singapore"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "unknown"
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G0107
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-source: MITRE ATT&CK
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0107"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+source: "MITRE ATT&CK"

@@ -1,28 +1,20 @@
----
-name: ANTHROPOID SPIDER
-aliases:
-- Empire Monkey
-- CobaltGoblin
-- ANTHROPOID SPIDER
-description: Publicly known as 'EmpireMonkey', ANTHROPOID SPIDER conducted phishing
-  campaigns in February and March 2019, spoofing French, Norwegian and Belizean financial
-  regulators and institutions. These campaigns used macro-enabled Microsoft documents
-  to deliver the PowerShell Empire post-exploitation framework. ANTHROPOID SPIDER
-  likely enabled a breach that allegedly involved fraudulent transfers over the SWIFT
-  network.
+name: "ANTHROPOID SPIDER"
+aliases: ["Empire Monkey","CobaltGoblin","ANTHROPOID SPIDER","EmpireMonkey"]
+description: "Publicly known as 'EmpireMonkey', ANTHROPOID SPIDER conducted phishing campaigns in February and March 2019, spoofing French, Norwegian and Belizean financial regulators and institutions. These campaigns used macro-enabled Microsoft documents to deliver the PowerShell Empire post-exploitation framework. ANTHROPOID SPIDER likely enabled a breach that allegedly involved fraudulent transfers over the SWIFT network."
 url: "/anthropoid-spider"
-sector_focus:
-- Finance
-malware:
-- PowerDuke
-- POWERSTATS
-- Power Loader
-- POWERSOURCE
-- Xploit
-- PowerRAT
+sector_focus: ["Finance"]
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+operations: ["Bank of Valletta"]
+malware: ["PowerDuke","POWERSTATS","Power Loader","POWERSOURCE","Xploit","PowerRAT"]
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.timesofmalta.com/articles/view/20190225/local/how-bov-hackers-got-away-with-13-million.702800","http://blog.morphisec.com/new-global-attack-on-point-of-sale-systems","https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703/"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 559a64d8-8657-4a93-9208-060d52efdec4
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "559a64d8-8657-4a93-9208-060d52efdec4"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

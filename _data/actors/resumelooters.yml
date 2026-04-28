@@ -1,19 +1,10 @@
----
-name: ResumeLooters
-aliases:
-- ResumeLooters
-description: Since the beginning of 2023, ResumeLooters have been able to compromise
-  at least 65 websites. The group employs a variety of simple techniques, including
-  SQL injection and XSS. The threat actor attempted to insert XSS scripts into all
-  available forms, aiming to execute it on the administrators’ device to obtain admin
-  credentials. While the group was able to execute the XSS script on some visitors’
-  devices with administrative access, allowing ResumeLooters to steal the HTML code
-  of the pages the victims were visiting, Group-IB did not find any confirmation of
-  admin credential thefts.
+name: "ResumeLooters"
+aliases: ["ResumeLooters"]
+description: "Since the beginning of 2023, ResumeLooters have been able to compromise at least 65 websites. The group employs a variety of simple techniques, including SQL injection and XSS. The threat actor attempted to insert XSS scripts into all available forms, aiming to execute it on the administrators’ device to obtain admin credentials. While the group was able to execute the XSS script on some visitors’ devices with administrative access, allowing ResumeLooters to steal the HTML code of the pages the victims were visiting, Group-IB did not find any confirmation of admin credential thefts."
 url: "/resumelooters"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 76dbe26b-8b39-40f5-bc2b-9620004f388e
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "76dbe26b-8b39-40f5-bc2b-9620004f388e"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

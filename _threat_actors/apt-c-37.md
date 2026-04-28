@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "拍拍熊 - APT-C-37"
-aliases: ["拍拍熊 - APT-C-37"]
+aliases: ["拍拍熊 - APT-C-37", "APT-C-37", "Pat Bear", "Racquet Bear", "Papa Bear"]
 description: "拍拍熊组织（APT-C-37）针对极端组织“伊斯兰国”展开了有组织、有计划、针对性的长期不间断攻击，其攻击平台为Windows和Android。"
 permalink: /apt-c-37/
 ---
@@ -10,7 +10,11 @@ permalink: /apt-c-37/
 拍拍熊组织（APT-C-37）针对极端组织“伊斯兰国”展开了有组织、有计划、针对性的长期不间断攻击，其攻击平台为Windows和Android。
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇨🇳 China
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -27,7 +31,8 @@ permalink: /apt-c-37/
 - **Windows Remote Desktop**
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: China
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

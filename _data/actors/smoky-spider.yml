@@ -1,14 +1,11 @@
----
-name: SMOKY SPIDER
-aliases:
-- SMOKY SPIDER
-description: Mentioned as operator of SmokeLoader in CrowdStrike's 2020 Report.
+name: "SMOKY SPIDER"
+aliases: ["SMOKY SPIDER"]
+description: "Mentioned as operator of SmokeLoader in CrowdStrike's 2020 Report."
 url: "/smoky-spider"
-malware:
-- Smoke Loader
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Smoke Loader"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: e27796eb-624a-4e41-aa40-52d47c764b07
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "e27796eb-624a-4e41-aa40-52d47c764b07"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

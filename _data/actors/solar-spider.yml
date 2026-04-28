@@ -1,17 +1,12 @@
----
-name: SOLAR SPIDER
-aliases:
-- SOLAR SPIDER
-description: SOLAR SPIDER’s phishing campaigns deliver the JSOutProx RAT to financial
-  institutions across Africa, the Middle East, South Asia and Southeast Asia.
+name: "SOLAR SPIDER"
+aliases: ["SOLAR SPIDER"]
+description: "SOLAR SPIDER’s phishing campaigns deliver the JSOutProx RAT to financial institutions across Africa, the Middle East, South Asia and Southeast Asia."
 url: "/solar-spider"
-sector_focus:
-- Finance
-malware:
-- CrossRat
+sector_focus: ["Finance"]
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CrossRat"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: f65103ad-f051-47c3-b90e-c77239a4d65c
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "f65103ad-f051-47c3-b90e-c77239a4d65c"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

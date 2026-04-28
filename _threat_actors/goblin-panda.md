@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "GOBLIN PANDA"
-aliases: ["Conimes", "Cycldek", "GOBLIN PANDA"]
+aliases: ["Conimes", "Cycldek", "GOBLIN PANDA", "Conimes Team", "China1937CN Team", "Temp.Conimes", "Earth Zhulong", "Goblin Panda"]
 description: "Goblin Panda is one of a handful of elite Chinese advanced persistent threat (APT) groups. Most Chinese APTs target the United States and NATO, but Goblin Panda focuses primarily on Southeast Asia."
 permalink: /goblin-panda/
 ---
@@ -32,6 +32,14 @@ Goblin Panda is one of a handful of elite Chinese advanced persistent threat (AP
 
 ## Malware and Tools
 - **UNITEDRAKE**
+- **ZeGhost**: 
+- **PlugX**: 
+- **tempfun**: 
+- **NewCore RAT**: 
+- **Sisfader**: 
+- **RoyalRoad RTF Weaponizer**: 
+- **BlueCore**: 
+- **RedCore**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

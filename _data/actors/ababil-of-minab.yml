@@ -1,22 +1,12 @@
----
-name: Ababil of Minab
-aliases:
-- Ababil of Minab
-description: Ababil of Minab is an emerging pro-Iranian hacktivist group with a limited
-  public profile and little verifiable prior activity in threat intelligence reporting.
-  The group claims responsibility for a cyberattack and allegedly possesses administrative
-  access to targeted systems. Their pro-Iran messaging and targeting of a major US
-  public transit authority align with known patterns of Iranian-aligned actors targeting
-  US critical infrastructure. The use of escalatory language suggests potential for
-  further activity.
+name: "Ababil of Minab"
+aliases: ["Ababil of Minab"]
+description: "Ababil of Minab is an emerging pro-Iranian hacktivist group with a limited public profile and little verifiable prior activity in threat intelligence reporting. The group claims responsibility for a cyberattack and allegedly possesses administrative access to targeted systems. Their pro-Iran messaging and targeting of a major US public transit authority align with known patterns of Iranian-aligned actors targeting US critical infrastructure. The use of escalatory language suggests potential for further activity."
 url: "/ababil-of-minab"
-country: Iran
-malware:
-- CyberGate
-- Cyber Eye RAT
+country: "Iran"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CyberGate","Cyber Eye RAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 74015ecc-3eaa-468b-9841-927773259f94
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "74015ecc-3eaa-468b-9841-927773259f94"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

@@ -1,22 +1,14 @@
----
-name: Sath-ı Müdafaa
-aliases:
-- Sath-ı Müdafaa
-description: A Turkish hacking group, Sath-ı Müdafaa, is encouraging individuals to
-  join its DDoS-for-Points platform that features points and prizes for carrying out
-  distributed denial-of-service (DDoS) attacks against a list of predetermined targets.
-  Their DDoS tool also contains a backdoor to hack the hackers. So the overarching
-  motivation and allegiance of the group is not entirely clear.
+name: "Sath-ı Müdafaa"
+aliases: ["Sath-ı Müdafaa"]
+description: "A Turkish hacking group, Sath-ı Müdafaa, is encouraging individuals to join its DDoS-for-Points platform that features points and prizes for carrying out distributed denial-of-service (DDoS) attacks against a list of predetermined targets. Their DDoS tool also contains a backdoor to hack the hackers. So the overarching motivation and allegiance of the group is not entirely clear."
 url: "/sath-m-dafaa"
-country: Turkey
-incident_type: Denial of service
-risk_level: High
-malware:
-- Backdoor.Oldrea
-- Hacking Team UEFI Rootkit
+country: "Turkey"
+incident_type: "Denial of service"
+risk_level: "High"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Backdoor.Oldrea","Hacking Team UEFI Rootkit"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: a03e2b4b-617f-4d28-ac4b-9943f792aa22
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "a03e2b4b-617f-4d28-ac4b-9943f792aa22"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

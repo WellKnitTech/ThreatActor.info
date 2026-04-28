@@ -1,27 +1,12 @@
----
-name: Bearlyfy
-aliases:
-- Labubu
-- Bearlyfy
-description: Bearlyfy has been attributed to over 70 cyber attacks targeting Russian
-  companies since its emergence in January 2025, employing a custom Windows ransomware
-  strain known as GenieLocker. The group operates with dual objectives of extortion
-  and sabotage, utilizing a modified version of PolyVice and leveraging vulnerabilities
-  in external services and applications for initial access. Analysis reveals overlaps
-  with PhantomCore, indicating a pro-Ukrainian interest, while Bearlyfy's attacks
-  are characterized by minimal preparation and a focus on immediate impact through
-  data encryption and destruction. Approximately 20% of victims reportedly pay the
-  ransom, with demands escalating to hundreds of thousands of dollars.
+name: "Bearlyfy"
+aliases: ["Labubu","Bearlyfy"]
+description: "Bearlyfy has been attributed to over 70 cyber attacks targeting Russian companies since its emergence in January 2025, employing a custom Windows ransomware strain known as GenieLocker. The group operates with dual objectives of extortion and sabotage, utilizing a modified version of PolyVice and leveraging vulnerabilities in external services and applications for initial access. Analysis reveals overlaps with PhantomCore, indicating a pro-Ukrainian interest, while Bearlyfy's attacks are characterized by minimal preparation and a focus on immediate impact through data encryption and destruction. Approximately 20% of victims reportedly pay the ransom, with demands escalating to hundreds of thousands of dollars."
 url: "/bearlyfy"
-country: Ukraine
-malware:
-- CyberGate
-- Cyber Eye RAT
-- Windows Remote Desktop
-- Minimo
+country: "Ukraine"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CyberGate","Cyber Eye RAT","Windows Remote Desktop","Minimo"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: '0979be99-61f3-4356-98b5-db06e24f2049'
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "0979be99-61f3-4356-98b5-db06e24f2049"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

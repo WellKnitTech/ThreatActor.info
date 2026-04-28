@@ -1,24 +1,24 @@
----
-name: MUMMY SPIDER
-aliases:
-- TA542
-- GOLD CRESTWOOD
-- MUMMY SPIDER
-description: |-
-  MUMMY SPIDER is a criminal entity linked to the core development of the malware most commonly known as Emotet or Geodo. First observed in mid-2014, this malware shared code with the Bugat (aka Feodo) banking Trojan. However, MUMMY SPIDER swiftly developed the malware’s capabilities to include an RSA key exchange for command and control (C2) communication and a modular architecture.
-  MUMMY SPIDER does not follow typical criminal behavioral patterns. In particular, MUMMY SPIDER usually conducts attacks for a few months before ceasing operations for a period of between three and 12 months, before returning with a new variant or version.
-  After a 10 month hiatus, MUMMY SPIDER returned Emotet to operation in December 2016 but the latest variant is not deploying a banking Trojan module with web injects, it is currently acting as a ‘loader’ delivering other malware packages. The primary modules perform reconnaissance on victim machines, drop freeware tools for credential collection from web browsers and mail clients and a spam plugin for self-propagation. The malware is also issuing commands to download and execute other malware families such as the banking Trojans Dridex and Qakbot.
-   MUMMY SPIDER advertised Emotet on underground forums until 2015, at which time it became private. Therefore, it is highly likely that Emotet is operate
+name: "MUMMY SPIDER"
+aliases: ["TA542","GOLD CRESTWOOD","MUMMY SPIDER","Mealybug","Mummy Spider"]
+description: "MUMMY SPIDER is a criminal entity linked to the core development of the malware most commonly known as Emotet or Geodo. First observed in mid-2014, this malware shared code with the Bugat (aka Feodo) banking Trojan. However, MUMMY SPIDER swiftly developed the malware’s capabilities to include an RSA key exchange for command and control (C2) communication and a modular architecture.\nMUMMY SPIDER does not follow typical criminal behavioral patterns. In particular, MUMMY SPIDER usually conducts attacks for a few months before ceasing operations for a period of between three and 12 months, before returning with a new variant or version.\nAfter a 10 month hiatus, MUMMY SPIDER returned Emotet to operation in December 2016 but the latest variant is not deploying a banking Trojan module with web injects, it is currently acting as a ‘loader’ delivering other malware packages. The primary modules perform reconnaissance on victim machines, drop freeware tools for credential collection from web browsers and mail clients and a spam plugin for self-propagation. The malware is also issuing commands to download and execute other malware families such as the banking Trojans Dridex and Qakbot.\n MUMMY SPIDER advertised Emotet on underground forums until 2015, at which time it became private. Therefore, it is highly likely that Emotet is operate"
 url: "/mummy-spider"
+source_name: "APT Groups & Operations Spreadsheet"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware:
-- Trojan.Karagany
-- TURNEDUP
-- Trojan.Mebromi
-- ClientMesh
-- Client Maximus
+  - "Trojan.Karagany"
+  - "TURNEDUP"
+  - "Trojan.Mebromi"
+  - "ClientMesh"
+  - "Client Maximus"
+  - name: "Emotet"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2018GlobalThreatReport.pdf","https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-february-mummy-spider/","https://crowdstrike.lookbookhq.com/web-global-threat-report-2019/crowdstrike-2019-gtr","https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta542-banker-malware-distribution-service"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "others"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: c93281be-f6cd-4cd0-a5a3-defde9d77d8b
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "c93281be-f6cd-4cd0-a5a3-defde9d77d8b"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

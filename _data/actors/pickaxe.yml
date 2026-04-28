@@ -1,27 +1,11 @@
----
-name: Pickaxe
-aliases:
-- Prying Libra
-- Pickaxe
-description: Prying Libra, also known as Pickaxe, is a threat actor active since at
-  least August 2017, and continues to remain active to this day. The adversary's goal
-  is to install and maintain a popular cryptocurrency miner on the victim's machine.
-  The miner in question is an open-source tool named XMRig that generates the Monero
-  cryptocurrency. Malware is delivered via downloads through the popular Adfly advertisement
-  platform. Users are often mislead into clicking on a malicious advertisement that
-  results in the payload being delivered to the victim. Once installed, the malware
-  leverages VBS scripts and redirection services, such as bitly, to ultimately download
-  and execute XMRig. Over 15 million confirmed victims have been discovered to be
-  infected in recent campaigns, with actual numbers likely to be between 30-45 million
-  victims. The victims are found across the globe, with high concentrations in Thailand,
-  Vietnam, Egypt, Indonesia, and Turkey.
+name: "Pickaxe"
+aliases: ["Prying Libra","Pickaxe"]
+description: "Prying Libra, also known as Pickaxe, is a threat actor active since at least August 2017, and continues to remain active to this day. The adversary's goal is to install and maintain a popular cryptocurrency miner on the victim's machine. The miner in question is an open-source tool named XMRig that generates the Monero cryptocurrency. Malware is delivered via downloads through the popular Adfly advertisement platform. Users are often mislead into clicking on a malicious advertisement that results in the payload being delivered to the victim. Once installed, the malware leverages VBS scripts and redirection services, such as bitly, to ultimately download and execute XMRig. Over 15 million confirmed victims have been discovered to be infected in recent campaigns, with actual numbers likely to be between 30-45 million victims. The victims are found across the globe, with high concentrations in Thailand, Vietnam, Egypt, Indonesia, and Turkey."
 url: "/pickaxe"
-malware:
-- Miner-C
-- CrossRat
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Miner-C","CrossRat"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 1bfd16ae-fd98-4a96-9397-d1651548bda2
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "1bfd16ae-fd98-4a96-9397-d1651548bda2"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

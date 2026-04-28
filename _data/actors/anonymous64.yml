@@ -1,24 +1,11 @@
----
-name: Anonymous64
-aliases:
-- Anonymous 64
-- Anonymous64
-description: Anonymous 64 is a group accused by China's national security ministry
-  of attempting to gain control of web portals, outdoor electronic screens, and network
-  television. The Ministry of State Security claims that Anonymous 64 is linked to
-  a cyber unit within Taiwan's defense ministry and identifies three active-duty military
-  personnel as its members. The MSS alleges that the group is involved in an influence
-  operation within China, using hacktivism as a cover. The accusations suggest that
-  Anonymous 64 engages in sabotage activities, prompting authorities to call for public
-  reporting of such actions.
+name: "Anonymous64"
+aliases: ["Anonymous 64","Anonymous64"]
+description: "Anonymous 64 is a group accused by China's national security ministry of attempting to gain control of web portals, outdoor electronic screens, and network television. The Ministry of State Security claims that Anonymous 64 is linked to a cyber unit within Taiwan's defense ministry and identifies three active-duty military personnel as its members. The MSS alleges that the group is involved in an influence operation within China, using hacktivism as a cover. The accusations suggest that Anonymous 64 engages in sabotage activities, prompting authorities to call for public reporting of such actions."
 url: "/anonymous64"
-malware:
-- China Chopper
-- CyberGate
-- Cyber Eye RAT
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["China Chopper","CyberGate","Cyber Eye RAT"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 94f0fd5e-68a7-458a-bb5f-f2f4e5230fcc
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "94f0fd5e-68a7-458a-bb5f-f2f4e5230fcc"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

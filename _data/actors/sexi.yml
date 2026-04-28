@@ -1,16 +1,10 @@
----
-name: SEXi
-aliases:
-- SEXi
-description: SEXi is a ransomware group that targets VMware ESXi servers, encrypting
-  data and demanding ransom payments. They have been observed encrypting virtual machines
-  and backups, causing significant disruptions to services. The group's name is a
-  play on the word "ESXi," indicating a deliberate focus on these systems. SEXi has
-  been linked to other ransomware variants based on the Babuk source code.
+name: "SEXi"
+aliases: ["SEXi"]
+description: "SEXi is a ransomware group that targets VMware ESXi servers, encrypting data and demanding ransom payments. They have been observed encrypting virtual machines and backups, causing significant disruptions to services. The group's name is a play on the word \"ESXi,\" indicating a deliberate focus on these systems. SEXi has been linked to other ransomware variants based on the Babuk source code."
 url: "/sexi"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 1bd2034f-a135-4c71-b08f-867b7f9e7998
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "1bd2034f-a135-4c71-b08f-867b7f9e7998"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

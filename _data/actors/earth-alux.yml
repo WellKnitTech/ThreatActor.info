@@ -1,29 +1,12 @@
----
-name: Earth Alux
-aliases:
-- Earth Alux
-description: Earth Alux is a China-linked APT group known for conducting cyberespionage
-  attacks across various sectors, including government, technology, and telecommunications.
-  They primarily exploit vulnerable services in exposed servers to gain initial access,
-  implanting web shells like GODZILLA and deploying backdoors such as VARGEIT and
-  COBEACON. The group employs tools like RSBINJECT and MASQLOADER for lateral movement
-  and network discovery, while also utilizing RAILSETTER for persistence through mspaint
-  injection. Their operations have predominantly targeted the APAC region and have
-  extended to Latin America, with a focus on exfiltrating sensitive information to
-  attacker-controlled cloud storage.
+name: "Earth Alux"
+aliases: ["Earth Alux"]
+description: "Earth Alux is a China-linked APT group known for conducting cyberespionage attacks across various sectors, including government, technology, and telecommunications. They primarily exploit vulnerable services in exposed servers to gain initial access, implanting web shells like GODZILLA and deploying backdoors such as VARGEIT and COBEACON. The group employs tools like RSBINJECT and MASQLOADER for lateral movement and network discovery, while also utilizing RAILSETTER for persistence through mspaint injection. Their operations have predominantly targeted the APAC region and have extended to Latin America, with a focus on exfiltrating sensitive information to attacker-controlled cloud storage."
 url: "/earth-alux"
-country: China
-malware:
-- Backdoor.Oldrea
-- CloudDuke
-- China Chopper
-- CyberGate
-- Cyber Eye RAT
-- Xploit
-- CrossRat
+country: "China"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Backdoor.Oldrea","CloudDuke","China Chopper","CyberGate","Cyber Eye RAT","Xploit","CrossRat"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 6ccf810e-3021-4974-9b1e-29fb6cdcaedc
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "6ccf810e-3021-4974-9b1e-29fb6cdcaedc"
+    source_retrieved_at: "2026-04-26T05:47:15Z"

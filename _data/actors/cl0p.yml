@@ -14,12 +14,23 @@ mitre_id: "G0092"
 mitre_url: "https://attack.mitre.org/groups/G0092"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
+  bushido_breach_reports:
+    reports:
+      - organization: "New Zealand Reserve Bank"
+        breach_date: "January 2021"
+        adversary_label: "Clop (Ransomware)"
+        links: ["https://www.rbnz.govt.nz/about-us/responsibility-and-accountability/our-response-to-the-data-breach"]
+        archived_links: ["https://web.archive.org/web/20230206161320/https://www.rbnz.govt.nz/about-us/responsibility-and-accountability/our-response-to-the-data-breach"]
+      - organization: "Qualys"
+        breach_date: "December 2020"
+        adversary_label: "Clop (Ransomware)"
+        links: ["https://blog.qualys.com/vulnerabilities-threat-research/2021/04/02/qualys-update-on-accellion-fta-security-incident"]
+        archived_links: ["https://web.archive.org/web/20250713022054/https://blog.qualys.com/vulnerabilities-threat-research/2021/04/02/qualys-update-on-accellion-fta-security-incident"]
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_retrieved_at: "2026-04-28T01:40:03Z"
   curated_intel_moveit_transfer:
-    source_name: "Curated Intelligence MOVEit Transfer Tracking"
-    source_repository: "https://github.com/curated-intel/MOVEit-Transfer"
-    source_dataset_url: "https://raw.githubusercontent.com/curated-intel/MOVEit-Transfer/main/README.md"
-    source_attribution: "MOVEit Transfer campaign events were reviewed from the Curated Intelligence MOVEit Transfer tracking repository (https://github.com/curated-intel/MOVEit-Transfer). Linked reports remain owned by their original publishers."
-    source_retrieved_at: "2026-04-28T02:16:07Z"
     event_count: 74
     events:
       - publish_date: "2023-05-31"
@@ -392,22 +403,11 @@ provenance:
         description: "CL0P created a dedicated domain to publish the data they claim they stole from the PwC MOVEit server"
         source_title: "CL0P Data Leak Site"
         source_url: "https://github.com/curated-intel/MOVEit-Transfer/blob/main/Images/PwC%20Leak%20Domain.png"
-  bushido_breach_reports:
-    reports:
-      - organization: "New Zealand Reserve Bank"
-        breach_date: "January 2021"
-        adversary_label: "Clop (Ransomware)"
-        links: ["https://www.rbnz.govt.nz/about-us/responsibility-and-accountability/our-response-to-the-data-breach"]
-        archived_links: ["https://web.archive.org/web/20230206161320/https://www.rbnz.govt.nz/about-us/responsibility-and-accountability/our-response-to-the-data-breach"]
-      - organization: "Qualys"
-        breach_date: "December 2020"
-        adversary_label: "Clop (Ransomware)"
-        links: ["https://blog.qualys.com/vulnerabilities-threat-research/2021/04/02/qualys-update-on-accellion-fta-security-incident"]
-        archived_links: ["https://web.archive.org/web/20250713022054/https://blog.qualys.com/vulnerabilities-threat-research/2021/04/02/qualys-update-on-accellion-fta-security-incident"]
-    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
-    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
-    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
-    source_retrieved_at: "2026-04-28T01:40:03Z"
+    source_attribution: "MOVEit Transfer campaign events were reviewed from the Curated Intelligence MOVEit Transfer tracking repository (https://github.com/curated-intel/MOVEit-Transfer). Linked reports remain owned by their original publishers."
+    source_dataset_url: "https://raw.githubusercontent.com/curated-intel/MOVEit-Transfer/main/README.md"
+    source_name: "Curated Intelligence MOVEit Transfer Tracking"
+    source_repository: "https://github.com/curated-intel/MOVEit-Transfer"
+    source_retrieved_at: "2026-04-28T02:16:07Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0092"

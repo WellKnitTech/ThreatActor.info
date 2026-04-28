@@ -24,6 +24,8 @@ While investigating some of the smaller name servers that APT28/Sofacy routinely
 ## Malware and Tools
 - **Backdoor.Oldrea**
 - **Small-Net**
+- **Ham Backdoor**: 
+- **Tofu Backdoor**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

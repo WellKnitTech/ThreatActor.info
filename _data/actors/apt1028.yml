@@ -1,13 +1,24 @@
 name: "APT-C-23"
-aliases: ["APT-C-23","Arid Viper","Big Bang APT","Desert Falcon","Grey Karkadann","Mantis","TAG-63","Two-tailed Scorpion"]
+aliases: ["APT-C-23","Arid Viper","Big Bang APT","Desert Falcon","Grey Karkadann","Mantis","TAG-63","Two-tailed Scorpion","APT_C_23","AridViper"]
 description: "APT-C-23 is a threat group that has been active since at least 2014.(Citation: symantec_mantis) APT-C-23 has primarily focused its operations on the Middle East, including Israeli military assets. APT-C-23 has developed mobile spyware targeting Android and iOS devices since 2017.(Citation: welivesecurity_apt-c-23)"
 url: "/apt1028"
 external_id: "G1028"
 external_url: "https://attack.mitre.org/groups/G1028"
 mitre_id: "G1028"
 mitre_url: "https://attack.mitre.org/groups/G1028"
+source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+operations: ["Bearded Barbie","Operation Bearded Barbie"]
+malware:
+  - name: "KASPERAGENT and MICROPSIA"
+  - name: "Desert Scorpion"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["http://researchcenter.paloaltonetworks.com/2017/04/unit42-targeted-attacks-middle-east-using-kasperagent-micropsia/","https://blog.lookout.com/frozencell-mobile-threat","https://ti.360.net/blog/uploads/2017/09/22/f41a337e10e992f17986af386a62c7ad.pdf","https://blog.lookout.com/desert-scorpion-google-play","https://www.cyberscoop.com/hamas-spyware-desert-scorpion-apt-c-23-google-play-lookout/","https://www.cadosecurity.com/post/threat-group-uses-voice-changing-software-in-espionage-attempt","https://www.cybereason.com/blog/operation-bearded-barbie-apt-c-23-campaign-targeting-israeli-officials"]
+    source_retrieved_at: "2026-04-28T19:46:41Z"
+    tab_name: "middle-east"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1028"

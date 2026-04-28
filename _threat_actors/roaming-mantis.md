@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Roaming Mantis"
-aliases: ["Roaming Mantis Group", "Roaming Mantis"]
+aliases: ["Roaming Mantis Group", "Roaming Mantis", "Shaoye"]
 description: "According to new research by Kaspersky's GReAT team, the online criminal activities of the Roaming Mantis Group have continued to evolve since they were first discovered in April 2018. As part of their"
 permalink: /roaming-mantis/
 ---
@@ -26,6 +26,9 @@ According to new research by Kaspersky's GReAT team, the online criminal activit
 - **Androrat**
 - **Chrome Remote Desktop**
 - **Xploit**
+- **malicious APK**: 
+- **MITRE: S0509**: 
+- **Wroba.o**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*
