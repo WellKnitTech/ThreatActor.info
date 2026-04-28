@@ -28,6 +28,28 @@ layout: default
     {{ content }}
   </div>
 
+  <section class="technique-project-actors" aria-labelledby="technique-actors-heading">
+    <h2 id="technique-actors-heading">Threat actors in this project</h2>
+    <p class="technique-actors-lead">
+      Actors in this project that cite this ATT&amp;CK technique ID on their pages or YAML metadata.
+    </p>
+    <div class="technique-actors-controls">
+      <label for="technique-actors-search">Filter actors:</label>
+      <input
+        type="text"
+        id="technique-actors-search"
+        class="technique-actors-search"
+        placeholder="Search actor name..."
+        autocomplete="off">
+    </div>
+    <div
+      id="technique-actors-root"
+      data-baseurl="{{ site.baseurl }}"
+      data-technique-id="{{ page.mitre_id }}"></div>
+  </section>
+
+  {% include technique-actors.html %}
+
   {% if page.source_attribution %}
   <aside class="source-attribution-panel">
     <h2>Source Attribution</h2>

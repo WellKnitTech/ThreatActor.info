@@ -1,0 +1,70 @@
+<script>
+(function () {
+  const root = document.getElementById('technique-actors-root');
+  if (!root || !root.dataset.techniqueId) return;
+
+  const BASE = root.dataset.baseurl || '';
+  const techniqueId = root.dataset.techniqueId.toUpperCase();
+  const searchInput = document.getElementById('technique-actors-search');
+
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  function renderList(list, query) {
+    const q = (query || '').trim().toLowerCase();
+    const filtered = q ? list.filter(function (a) {
+      return (a.name || '').toLowerCase().includes(q);
+    }) : list;
+
+    if (!filtered.length) {
+      root.innerHTML = q
+        ? '<p class="technique-actors-empty">No threat actors match that filter for this technique.</p>'
+        : '<p class="technique-actors-empty">No threat actors in this project reference this technique yet.</p>';
+      return;
+    }
+
+    root.innerHTML =
+      '<ul class="technique-actors-list">' +
+      filtered.map(function (a) {
+        const href = a.permalink ? BASE + a.permalink : '';
+        const link = href
+          ? '<a href="' + esc(href) + '">' + esc(a.name || '') + '</a>'
+          : esc(a.name || '');
+        return '<li>' + link + '</li>';
+      }).join('') +
+      '</ul>' +
+      '<p class="technique-actors-note">' +
+      esc(filtered.length) +
+      ' of ' +
+      esc(list.length) +
+      ' actor' +
+      (list.length === 1 ? '' : 's') +
+      ' shown for ' + esc(techniqueId) + '.' +
+      '</p>';
+  }
+
+  fetch(BASE + '/api/actors_by_technique.json')
+    .then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(function (byTechnique) {
+      const list = (byTechnique[techniqueId] || []).slice();
+      list.sort(function (a, b) {
+        return (a.name || '').localeCompare(b.name || '');
+      });
+
+      renderList(list, '');
+
+      if (searchInput) {
+        searchInput.addEventListener('input', function () {
+          renderList(list, searchInput.value);
+        });
+      }
+    })
+    .catch(function () {
+      root.innerHTML = '<p class="load-error">Unable to load actor mappings.</p>';
+    });
+})();
+</script>
