@@ -9,6 +9,7 @@ class JsonSchemaValidator
   ACTOR_SCHEMA_PATH = 'schemas/threat-actor.schema.json'.freeze
   GENERATED_ARRAY_SCHEMA_PATH = 'schemas/generated-array.schema.json'.freeze
   GENERATED_OBJECT_SCHEMA_PATH = 'schemas/generated-object.schema.json'.freeze
+  IOC_SHARD_SCHEMA_PATH = 'schemas/ioc-shard.schema.json'.freeze
   ACTOR_DATA_PATTERN = '_data/actors/*.yml'.freeze
   ARRAY_PAYLOADS = %w[
     _data/generated/threat_actors.json
@@ -31,6 +32,7 @@ class JsonSchemaValidator
     _data/generated/actors_by_technique.json
     _data/generated/software_by_actor.json
     _data/generated/search_index.json
+    _data/generated/ioc_summary.json
   ].freeze
 
   def initialize
@@ -64,7 +66,8 @@ class JsonSchemaValidator
 
     ARRAY_PAYLOADS.each { |path| validate_json_file(array_schema, path) }
     OBJECT_PAYLOADS.each { |path| validate_json_file(object_schema, path) }
-    Dir.glob('_data/generated/iocs_by_type/*.json').sort.each { |path| validate_json_file(object_schema, path) }
+    ioc_shard_schema = load_schema(IOC_SHARD_SCHEMA_PATH)
+    Dir.glob('_data/generated/iocs_by_type/*.json').sort.each { |path| validate_json_file(ioc_shard_schema, path) }
   end
 
   def validate_json_file(schema, path)

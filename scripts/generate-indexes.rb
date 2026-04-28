@@ -5,6 +5,7 @@ require 'yaml'
 require 'fileutils'
 require 'set'
 require 'time'
+require 'uri'
 require_relative 'actor_store'
 
 class ThreatActorIndexGenerator
@@ -24,6 +25,87 @@ class ThreatActorIndexGenerator
   FILENAME_PATTERN = /\b[\w.-]+\.[A-Za-z0-9]{2,12}\b/.freeze
   CVE_PATTERN = /\bCVE-\d{4}-\d{4,7}\b/i.freeze
   ATTACK_TECHNIQUE_PATTERN = /\bT\d{4}(?:\.\d{3})?\b/i.freeze
+
+  # Display metadata, URL slugs (under /iocs/<slug>/), category (hub sections), and default grouping.
+  IOC_TYPE_DISPLAY = {
+    'ip_address' => {
+      label: 'IP Addresses',
+      description: 'IPv4 indicators grouped by /16 network prefix.',
+      category: 'network',
+      page_slug: 'ip-address',
+      grouping: 'cidr16'
+    },
+    'domain' => {
+      label: 'Domains',
+      description: 'Hostname indicators grouped by registrable domain (last two labels).',
+      category: 'network',
+      page_slug: 'domain',
+      grouping: 'etld1'
+    },
+    'url' => {
+      label: 'URLs',
+      description: 'Full URLs grouped by scheme and site (registrable host).',
+      category: 'network',
+      page_slug: 'url',
+      grouping: 'url_host'
+    },
+    'email' => {
+      label: 'Email addresses',
+      description: 'Address indicators grouped by domain part.',
+      category: 'host',
+      page_slug: 'email',
+      grouping: 'email_domain'
+    },
+    'md5' => {
+      label: 'MD5 hashes',
+      description: 'File hash indicators (MD5), grouped by threat actor.',
+      category: 'hash',
+      page_slug: 'md5',
+      grouping: 'by_actor'
+    },
+    'sha1' => {
+      label: 'SHA-1 hashes',
+      description: 'File hash indicators (SHA-1), grouped by threat actor.',
+      category: 'hash',
+      page_slug: 'sha1',
+      grouping: 'by_actor'
+    },
+    'sha256' => {
+      label: 'SHA-256 hashes',
+      description: 'File hash indicators (SHA-256), grouped by threat actor.',
+      category: 'hash',
+      page_slug: 'sha256',
+      grouping: 'by_actor'
+    },
+    'cve' => {
+      label: 'CVEs',
+      description: 'Vulnerability references grouped by publication year.',
+      category: 'vuln',
+      page_slug: 'cve',
+      grouping: 'cve_year'
+    },
+    'attack_technique' => {
+      label: 'ATT&CK techniques',
+      description: 'Technique references grouped by parent technique ID (T####).',
+      category: 'attack',
+      page_slug: 'attack-technique',
+      grouping: 'technique_parent'
+    },
+    'file_extension' => {
+      label: 'File extensions',
+      description: 'Extension indicators grouped by first character.',
+      category: 'host',
+      page_slug: 'file-extension',
+      grouping: 'first_letter'
+    },
+    'filename' => {
+      label: 'Filenames',
+      description: 'Filename indicators grouped by first character.',
+      category: 'host',
+      page_slug: 'filename',
+      grouping: 'first_letter'
+    }
+  }.freeze
 
   def initialize
     @actors = load_actors
@@ -82,6 +164,7 @@ class ThreatActorIndexGenerator
 
     ioc_lookup = build_ioc_lookup(ioc_documents)
     ioc_type_manifest = build_ioc_type_manifest(ioc_documents)
+    ioc_summary = build_ioc_summary(ioc_documents, ioc_type_manifest)
 
     write_json('threat_actors.json', actor_documents)
     write_json('recently_updated.json', build_recently_updated(actor_documents))
@@ -106,6 +189,7 @@ class ThreatActorIndexGenerator
     write_json('search_index.json', search_payload)
     write_json('ioc_lookup.json', ioc_lookup)
     write_json('ioc_types.json', ioc_type_manifest)
+    write_json('ioc_summary.json', ioc_summary)
     write_ioc_type_shards(ioc_documents)
     
     # Generate malware pages from extracted data
@@ -360,8 +444,14 @@ class ThreatActorIndexGenerator
 
     grouped_iocs.keys.sort.each_with_object({}) do |type, manifest|
       type_iocs = grouped_iocs[type]
+      meta = ioc_type_metadata(type)
       manifest[type] = {
         type: type,
+        label: meta[:label],
+        description: meta[:description],
+        category: meta[:category],
+        page_url: ioc_type_page_url(type),
+        top_actors: build_ioc_top_actors(type_iocs, 5),
         count: type_iocs.length,
         atomic_count: type_iocs.count { |ioc| ioc[:atomic] },
         unique_values: type_iocs.map { |ioc| ioc[:normalized_value] }.uniq.length,
@@ -370,22 +460,286 @@ class ThreatActorIndexGenerator
     end
   end
 
+  def build_ioc_summary(iocs, ioc_type_manifest)
+    {
+      total_records: iocs.length,
+      total_unique_values: iocs.map { |ioc| ioc[:normalized_value] }.uniq.length,
+      actor_count_with_iocs: iocs.map { |ioc| ioc[:actor_slug] }.uniq.length,
+      type_count: ioc_type_manifest.keys.length
+    }
+  end
+
   def write_ioc_type_shards(iocs)
     clear_existing_shards(TYPE_SHARDS_DIR)
     clear_existing_shards(API_TYPE_SHARDS_DIR)
 
     iocs.group_by { |ioc| ioc[:type] }.each do |type, type_iocs|
+      meta = ioc_type_metadata(type)
+      grouping = meta[:grouping] || 'by_actor'
+      groups = build_ioc_groups(type, type_iocs)
+      facets = { actor: build_actor_facet_list(type_iocs) }
+
+      sorted_records = type_iocs.sort_by do |ioc|
+        [ioc[:normalized_value].to_s.downcase, ioc[:actor_slug].to_s]
+      end
+
       payload = {
         type: type,
+        label: meta[:label],
+        description: meta[:description],
+        category: meta[:category],
+        page_url: ioc_type_page_url(type),
         count: type_iocs.length,
         atomic_count: type_iocs.count { |ioc| ioc[:atomic] },
         unique_values: type_iocs.map { |ioc| ioc[:normalized_value] }.uniq.length,
-        records: type_iocs
+        grouping: grouping,
+        groups: groups,
+        facets: facets,
+        records: sorted_records
       }
 
       write_json(File.join('iocs_by_type', "#{type}.json"), payload)
       write_api_json(File.join('iocs', 'by-type', "#{type}.json"), payload)
     end
+  end
+
+  def ioc_type_metadata(type)
+    IOC_TYPE_DISPLAY[type] || default_ioc_type_metadata(type)
+  end
+
+  def default_ioc_type_metadata(type)
+    {
+      label: humanize_ioc_type(type),
+      description: 'Indicators extracted under this IOC subsection heading.',
+      category: 'other',
+      page_slug: 'other',
+      grouping: 'by_actor'
+    }
+  end
+
+  def humanize_ioc_type(type)
+    type.to_s.tr('_', ' ').split.map { |w| w.capitalize }.join(' ')
+  end
+
+  def ioc_type_page_url(type)
+    meta = ioc_type_metadata(type)
+    if IOC_TYPE_DISPLAY.key?(type)
+      "/iocs/#{meta[:page_slug]}/"
+    else
+      "/iocs/other/?ioc_type=#{URI.encode_www_form_component(type)}"
+    end
+  end
+
+  def build_ioc_top_actors(type_iocs, limit)
+    counts = Hash.new(0)
+    type_iocs.each { |ioc| counts[ioc[:actor_slug]] += 1 }
+
+    counts.sort_by { |_, c| -c }.first(limit).map do |slug, count|
+      ref = type_iocs.find { |i| i[:actor_slug] == slug }
+      { name: ref[:actor_name], slug: slug, count: count }
+    end
+  end
+
+  def build_actor_facet_list(type_iocs)
+    counts = Hash.new(0)
+    names = {}
+    type_iocs.each do |ioc|
+      slug = ioc[:actor_slug]
+      counts[slug] += 1
+      names[slug] ||= ioc[:actor_name]
+    end
+
+    counts.sort_by { |_, c| -c }.map do |slug, count|
+      { name: names[slug], slug: slug, count: count }
+    end
+  end
+
+  def build_ioc_groups(type, type_iocs)
+    case type
+    when 'ip_address'
+      group_ioc_ip_cidr16(type_iocs)
+    when 'domain'
+      group_ioc_domain_etld1(type_iocs)
+    when 'url'
+      group_ioc_url_host(type_iocs)
+    when 'email'
+      group_ioc_email_domain(type_iocs)
+    when 'md5', 'sha1', 'sha256'
+      group_ioc_by_actor(type_iocs)
+    when 'cve'
+      group_ioc_cve_year(type_iocs)
+    when 'attack_technique'
+      group_ioc_technique_parent(type_iocs)
+    when 'file_extension', 'filename'
+      group_ioc_first_letter(type_iocs)
+    else
+      group_ioc_by_actor(type_iocs)
+    end
+  end
+
+  def sort_groups(groups)
+    groups.sort_by { |g| [-g[:count], g[:key].to_s.downcase] }
+  end
+
+  def group_ioc_ip_cidr16(type_iocs)
+    buckets = Hash.new { |h, k| h[k] = [] }
+    type_iocs.each do |ioc|
+      val = ioc[:normalized_value].to_s
+      octets = val.split('.')
+      key = if octets.length >= 2 && octets.all? { |o| o.match?(/\A\d{1,3}\z/) }
+              "#{octets[0]}.#{octets[1]}"
+            else
+              '_other'
+            end
+      buckets[key] << ioc
+    end
+
+    buckets.map do |key, recs|
+      sorted = recs.sort_by { |i| i[:value].to_s.downcase }
+      label = if key == '_other'
+                'Non-IPv4 or malformed'
+              else
+                "#{key}.0.0/16"
+              end
+      { key: key, label: label, count: sorted.length, records: sorted }
+    end.then { |g| sort_groups(g) }
+  end
+
+  def group_ioc_domain_etld1(type_iocs)
+    buckets = Hash.new { |h, k| h[k] = [] }
+    type_iocs.each do |ioc|
+      raw = ioc[:normalized_value].to_s.downcase.sub(/\.$/, '')
+      host = raw.split('/').first.split(':').first
+      key = etld1_simple(host)
+      buckets[key] << ioc
+    end
+
+    buckets.map do |key, recs|
+      sorted = recs.sort_by { |i| i[:value].to_s.downcase }
+      { key: key, label: key, count: sorted.length, records: sorted }
+    end.then { |g| sort_groups(g) }
+  end
+
+  def etld1_simple(host)
+    parts = host.to_s.downcase.sub(/\.$/, '').split('.')
+    return host.to_s if parts.length < 2
+
+    parts.last(2).join('.')
+  end
+
+  def group_ioc_url_host(type_iocs)
+    buckets = Hash.new { |h, k| h[k] = [] }
+    type_iocs.each do |ioc|
+      url = ioc[:normalized_value].to_s
+      key, label = url_group_key_label(url)
+      buckets[key] << { ioc: ioc, group_label: label }
+    end
+
+    buckets.map do |key, items|
+      label = items.first[:group_label]
+      recs = items.map { |x| x[:ioc] }
+      sorted = recs.sort_by { |i| i[:value].to_s.downcase }
+      { key: key, label: label, count: sorted.length, records: sorted }
+    end.then { |g| sort_groups(g) }
+  end
+
+  def url_group_key_label(url)
+    uri = URI.parse(url)
+    unless uri.respond_to?(:host) && uri.host && !uri.host.to_s.strip.empty?
+      return ['_unparseable', 'Unparseable URL']
+    end
+
+    scheme = (uri.scheme || 'http').downcase
+    site = etld1_simple(uri.host)
+    key = "#{scheme}://#{site}"
+    [key, key]
+  rescue URI::InvalidURIError, ArgumentError
+    ['_unparseable', 'Unparseable URL']
+  end
+
+  def group_ioc_email_domain(type_iocs)
+    buckets = Hash.new { |h, k| h[k] = [] }
+    type_iocs.each do |ioc|
+      email = ioc[:normalized_value].to_s.downcase
+      domain = email.split('@', 2)[1]
+      key = domain.nil? || domain.empty? ? '_unknown' : domain.strip
+      buckets[key] << ioc
+    end
+
+    buckets.map do |key, recs|
+      sorted = recs.sort_by { |i| i[:value].to_s.downcase }
+      label = key == '_unknown' ? 'Unknown domain' : key
+      { key: key, label: label, count: sorted.length, records: sorted }
+    end.then { |g| sort_groups(g) }
+  end
+
+  def group_ioc_by_actor(type_iocs)
+    buckets = Hash.new { |h, k| h[k] = [] }
+    type_iocs.each { |ioc| buckets[ioc[:actor_slug]] << ioc }
+
+    buckets.map do |slug, recs|
+      sorted = recs.sort_by { |i| i[:value].to_s.downcase }
+      name = recs.first[:actor_name]
+      { key: slug, label: name, count: sorted.length, records: sorted }
+    end.then { |g| sort_groups(g) }
+  end
+
+  def group_ioc_cve_year(type_iocs)
+    buckets = Hash.new { |h, k| h[k] = [] }
+    type_iocs.each do |ioc|
+      v = ioc[:normalized_value].to_s.upcase
+      year = v[/\ACVE-(\d{4})-/i, 1] || '_unknown'
+      buckets[year] << ioc
+    end
+
+    buckets.map do |year, recs|
+      sorted = recs.sort_by { |i| i[:value].to_s.downcase }
+      label = year == '_unknown' ? 'Unknown year' : "CVE-#{year}-*"
+      { key: year, label: label, count: sorted.length, records: sorted }
+    end.then { |g| sort_groups(g) }
+  end
+
+  def group_ioc_technique_parent(type_iocs)
+    buckets = Hash.new { |h, k| h[k] = [] }
+    type_iocs.each do |ioc|
+      tid = ioc[:normalized_value].to_s.upcase
+      key = if (m = tid.match(/\A(T\d{4})(?:\.\d{3})?\z/))
+              m[1]
+            else
+              '_unknown'
+            end
+      buckets[key] << ioc
+    end
+
+    buckets.map do |key, recs|
+      sorted = recs.sort_by { |i| i[:value].to_s.downcase }
+      label = key == '_unknown' ? 'Unknown technique' : "#{key} (*)"
+      { key: key, label: label, count: sorted.length, records: sorted }
+    end.then { |g| sort_groups(g) }
+  end
+
+  def group_ioc_first_letter(type_iocs)
+    buckets = Hash.new { |h, k| h[k] = [] }
+    type_iocs.each do |ioc|
+      v = ioc[:value].to_s.strip
+      letter = if v.empty?
+                 '_other'
+               else
+                 c = v[0].upcase
+                 c.match?(/[A-Z0-9]/) ? c : '_sym'
+               end
+      buckets[letter] << ioc
+    end
+
+    buckets.map do |key, recs|
+      sorted = recs.sort_by { |i| i[:value].to_s.downcase }
+      label = case key
+              when '_other' then 'Other'
+              when '_sym' then 'Symbols / non-alphanumeric'
+              else key
+              end
+      { key: key, label: label, count: sorted.length, records: sorted }
+    end.then { |g| sort_groups(g) }
   end
   
   def write_malware_pages(malware_documents, actor_documents)

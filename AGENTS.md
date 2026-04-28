@@ -17,10 +17,12 @@ This reflects the current repository, CI workflow, and validation scripts.
 - `_threat_actors/*.md`: per-actor pages.
 - `_layouts/default.html`, `_layouts/threat_actor.html`: templates.
 - `_includes/search.html`: search/filter UI and client-side parser.
+- `iocs/index.html` and `iocs/<type>.html`: IOC hub and per-type browsers; shared UI in `_layouts/ioc_type.html` and `_includes/ioc-browser.html`.
 - `assets/css/style.scss`: main stylesheet.
 - `scripts/validate-content.rb`: main validator.
 - `scripts/import-ransomlook.rb`: manual importer for RansomLook-derived actor metadata.
 - `scripts/import-mitre.rb`: MITRE ATT&CK STIX importer (`fetch` / `plan` / `import`) reading snapshots from `data/imports/mitre-attack/<date>/`.
+- `scripts/generate-indexes.rb`: emits grouped IOC shards (`_data/generated/iocs_by_type/`, `ioc_types.json`, `ioc_summary.json`) plus other API indexes.
 - `scripts/validate.sh`: full validation wrapper.
 - `.github/workflows/validate.yml`: CI commands.
 - `docs/importers.md`: importer workflow and attribution rules.

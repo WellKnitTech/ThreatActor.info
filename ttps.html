@@ -1,0 +1,93 @@
+---
+layout: default
+title: TTP Database
+---
+
+<div class="malware-index">
+  <section class="hero">
+    <h1>🧭 TTP Database</h1>
+    <p class="hero-subtitle">Browse MITRE ATT&CK techniques and find where they map to threat activity in this project.</p>
+    <div class="quick-stats">
+      <div class="stat">
+        <span class="stat-number" id="ttp-count">-</span>
+        <span class="stat-label">Techniques</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="quick-filters">
+    <h2>Quick Filters</h2>
+    <div class="filter-chips">
+      <div class="filter-group">
+        <label>Search:</label>
+        <input type="text" id="ttp-search" placeholder="Search by T-ID or name...">
+      </div>
+      <button id="apply-filters-btn">Search</button>
+      <button id="clear-filters-btn" class="secondary">Clear</button>
+    </div>
+  </section>
+
+  <section class="malware-section">
+    <div class="malware-grid" id="ttp-grid"></div>
+  </section>
+</div>
+
+<script>
+  Promise.all([
+    fetch('/api/techniques.json').then(r => r.json()),
+    fetch('/api/actors_by_technique.json').then(r => r.json()).catch(() => ({}))
+  ]).then(([techniques, actorsByTechnique]) => {
+    const list = techniques || [];
+    document.getElementById('ttp-count').textContent = list.length;
+    renderTtps(list, actorsByTechnique);
+    setupFilters(list, actorsByTechnique);
+  }).catch(() => {
+    document.getElementById('ttp-grid').innerHTML = '<p class="load-error">Unable to load TTP data.</p>';
+  });
+
+  function renderTtps(list, actorsByTechnique) {
+    const grid = document.getElementById('ttp-grid');
+    grid.innerHTML = list.map(t => {
+      const id = t.mitre_id || '';
+      const actors = actorsByTechnique[id] || [];
+      return `
+      <div class="malware-card">
+        <h3><a href="${t.permalink || '#'}">${esc(t.title || id)}</a></h3>
+        <div class="card-meta">
+          ${id ? `<span class="category">${esc(id)}</span>` : ''}
+          ${(t.domains || []).length ? `<span class="category">${esc((t.domains || []).join(', '))}</span>` : ''}
+        </div>
+        <p class="card-desc">Mapped to <strong>${actors.length}</strong> threat actor${actors.length !== 1 ? 's' : ''}</p>
+        <a href="${t.permalink || '#'}" class="card-link">View details →</a>
+      </div>
+      `;
+    }).join('');
+  }
+
+  function setupFilters(list, actorsByTechnique) {
+    document.getElementById('apply-filters-btn').onclick = () => {
+      const term = document.getElementById('ttp-search').value.toLowerCase();
+      const filtered = list.filter(t =>
+        !term ||
+        (t.title || '').toLowerCase().includes(term) ||
+        (t.mitre_id || '').toLowerCase().includes(term)
+      );
+      renderTtps(filtered, actorsByTechnique);
+    };
+
+    document.getElementById('clear-filters-btn').onclick = () => {
+      document.getElementById('ttp-search').value = '';
+      renderTtps(list, actorsByTechnique);
+    };
+
+    document.getElementById('ttp-search').addEventListener('keypress', e => {
+      if (e.key === 'Enter') {
+        document.getElementById('apply-filters-btn').click();
+      }
+    });
+  }
+
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+</script>

@@ -1,0 +1,61 @@
+---
+layout: default
+---
+<div
+  class="ioc-browser-shell"
+  id="ioc-browser-shell"
+  data-ioc-type="{{ page.ioc_type | default: 'other' | escape }}"
+  data-baseurl="{{ site.baseurl }}"
+  data-static-title="{{ page.title | default: 'IOCs' | escape }}">
+  <section class="ioc-type-hero">
+    <h1 id="ioc-hero-title">{{ page.title }}</h1>
+    <p class="hero-subtitle ioc-hero-desc" id="ioc-hero-desc"></p>
+    <div class="quick-stats ioc-quick-stats" id="ioc-hero-stats" hidden>
+      <div class="stat">
+        <span class="stat-number" id="ioc-stat-total">-</span>
+        <span class="stat-label">Records</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" id="ioc-stat-unique">-</span>
+        <span class="stat-label">Unique values</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" id="ioc-stat-atomic">-</span>
+        <span class="stat-label">Atomic</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" id="ioc-stat-grouping">-</span>
+        <span class="stat-label">Groups</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="ioc-browser-layout">
+    <aside class="ioc-facet-sidebar" id="ioc-facet-sidebar" aria-label="IOC filters">
+      <button type="button" class="ioc-facet-toggle" id="ioc-facet-toggle" aria-expanded="false">Filters</button>
+      <div class="ioc-facet-inner" id="ioc-facet-inner">
+        <div class="filter-group">
+          <label for="ioc-filter-actor">Actor</label>
+          <select id="ioc-filter-actor">
+            <option value="">All actors</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label><input type="checkbox" id="ioc-filter-atomic"> Atomic indicators only</label>
+        </div>
+        <div class="filter-group filter-grow">
+          <label for="ioc-filter-q">Filter rows</label>
+          <input type="text" id="ioc-filter-q" placeholder="Value, label, source…" autocomplete="off">
+        </div>
+        <button type="button" class="secondary" id="ioc-filter-clear">Clear filters</button>
+      </div>
+    </aside>
+
+    <div class="ioc-browser-main">
+      <p class="load-placeholder" id="ioc-load-msg">Loading…</p>
+      <div id="ioc-groups-root"></div>
+    </div>
+  </div>
+</div>
+
+{% include ioc-browser.html %}
