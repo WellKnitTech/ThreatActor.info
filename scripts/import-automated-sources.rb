@@ -74,6 +74,14 @@ SOURCES = [
     fetch_limit: false
   ),
   Source.new(
+    key: 'curated-intel-moveit-transfer',
+    label: 'Curated Intelligence MOVEit Transfer Tracking',
+    script: 'scripts/import-curated-intel-moveit-transfer.rb',
+    snapshot_root: 'data/imports/curated-intel-moveit-transfer',
+    report_name: 'curated-intel-moveit-transfer-report.json',
+    fetch_limit: false
+  ),
+  Source.new(
     key: 'ransomware-vulnerability-matrix',
     label: 'BushidoUK Ransomware Vulnerability Matrix',
     script: 'scripts/import-ransomware-vulnerability-matrix.rb',
