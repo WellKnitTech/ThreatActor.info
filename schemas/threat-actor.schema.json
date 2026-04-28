@@ -118,7 +118,18 @@
       "$ref": "#/$defs/stringArray"
     },
     "malware": {
-      "$ref": "#/$defs/stringArray"
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "string",
+            "minLength": 1
+          },
+          {
+            "$ref": "#/$defs/malwareEntry"
+          }
+        ]
+      }
     },
     "ttps": {
       "$ref": "#/$defs/stringArray"
@@ -157,6 +168,46 @@
         "minLength": 1
       },
       "uniqueItems": true
+    },
+    "malwareEntry": {
+      "type": "object",
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "category": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_attribution": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_record_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "note_origin": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provenance": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
     }
   }
 }

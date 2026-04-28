@@ -20,6 +20,7 @@ require 'net/http'
 require 'uri'
 require 'time'
 require_relative 'actor_store'
+require_relative 'source_precedence'
 
 # Configuration
 MITRE_STIX_URL = "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
@@ -122,6 +123,16 @@ module ImportUtils
   # Strategy: Keep existing enriched fields, add MITRE-specific fields, merge aliases
   def merge_actors(existing, incoming, source_name)
     merged = existing.dup
+    updates = SourcePrecedence.apply_takeover!(
+      {},
+      existing,
+      source_name: 'MITRE ATT&CK',
+      source_attribution: incoming['source_attribution'],
+      source_record_url: incoming['mitre_url'] || incoming['external_url'],
+      automated_description: incoming['description'],
+      automated_label: incoming['name']
+    )
+    merged.merge!(updates)
     
     # Merge aliases (union, deduped, sorted)
     existing_aliases = Array(existing['aliases']).map(&:to_s)
@@ -155,6 +166,8 @@ module ImportUtils
     if incoming['source_attribution'] && !merged['source_attribution']
       merged['source_attribution'] = incoming['source_attribution']
     end
+
+    merged['source_name'] ||= 'MITRE ATT&CK'
     
     # Don't merge references into YAML (keeps YAML small)
     # References are processed at page generation time

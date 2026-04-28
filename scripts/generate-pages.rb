@@ -19,6 +19,7 @@ require 'cgi'
 require 'net/http'
 require 'digest'
 require_relative 'actor_store'
+require_relative 'source_precedence'
 
 PAGE_DIR = '_threat_actors'
 
@@ -298,8 +299,8 @@ def build_body(actor)
       # Handle both object format (with keys) and string format
       if m.is_a?(Hash)
         name = m['name'] || 'Unknown'
-        desc = m['description'] || ''
-        sections << "- **#{name}**: #{desc}"
+        desc = m['description'] || m['summary'] || ''
+        sections << (desc.empty? ? "- **#{name}**" : "- **#{name}**: #{desc}")
       else
         # String format: "ZackStealer - Custom info-stealer"
         sections << "- **#{m}**"

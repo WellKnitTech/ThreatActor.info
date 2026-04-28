@@ -12,6 +12,7 @@ require 'time'
 require 'uri'
 require 'yaml'
 require_relative 'actor_store'
+require_relative 'source_precedence'
 
 class MalpediaImporter
   DEFAULT_BASE_URL = 'https://malpedia.caad.fkie.fraunhofer.de'.freeze
@@ -485,12 +486,26 @@ class MalpediaImporter
       next unless candidate[:action] == 'update'
 
       actor = candidate[:existing_actor]
+      SourcePrecedence.normalize_actor!(actor)
+      updates = {}
       merge_array_field(actor, 'aliases', candidate[:aliases])
       actor['country'] ||= candidate[:country] if candidate[:country]
       merge_array_field(actor, 'sector_focus', candidate[:sector_focus])
       merge_array_field(actor, 'targeted_victims', candidate[:targeted_victims])
       actor['incident_type'] ||= candidate[:incident_type] if candidate[:incident_type]
-      merge_malware(actor, candidate[:malware])
+      updates = SourcePrecedence.apply_takeover!(
+        updates,
+        actor,
+        source_name: SOURCE_NAME,
+        source_attribution: SOURCE_ATTRIBUTION,
+        source_record_url: candidate[:actor_url],
+        source_license: LICENSE_NAME,
+        source_license_url: LICENSE_URL,
+        automated_description: candidate[:description],
+        automated_label: candidate[:name] || SOURCE_NAME
+      )
+      actor.merge!(updates)
+      merge_malware(actor, candidate)
       actor['provenance'] ||= {}
       actor['provenance']['malpedia'] = {
         'source_retrieved_at' => Time.now.utc.strftime('%Y-%m-%dT%H:%M:%SZ'),
@@ -513,20 +528,23 @@ class MalpediaImporter
     actor[field] = (Array(actor[field]) + values).map { |entry| sanitize_text(entry) }.reject(&:empty?).uniq
   end
 
-  def merge_malware(actor, malware_entries)
+  def merge_malware(actor, candidate)
+    malware_entries = candidate[:malware]
     return if malware_entries.nil? || malware_entries.empty?
 
-    existing = Array(actor['malware'])
-    existing_names = existing.filter_map { |entry| entry['name']&.downcase }.to_set
-
-    malware_entries.each do |entry|
-      next if existing_names.include?(entry['name'].downcase)
-
-      existing << entry
-      existing_names << entry['name'].downcase
+    incoming = malware_entries.map do |entry|
+      SourcePrecedence.build_malware_entry(
+        entry['name'],
+        source_name: SOURCE_NAME,
+        source_attribution: SOURCE_ATTRIBUTION,
+        source_record_url: candidate[:actor_url],
+        provenance: {
+          'source_dataset_url' => "#{@options[:base_url]}/api/get/actors",
+          'source_actor_id' => candidate[:actor_id]
+        }
+      )
     end
-
-    actor['malware'] = existing
+    actor['malware'] = SourcePrecedence.merge_malware_entries(actor['malware'], incoming)
   end
 
   def load_overrides

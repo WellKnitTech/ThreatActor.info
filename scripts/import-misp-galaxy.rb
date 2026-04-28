@@ -12,6 +12,7 @@ require 'time'
 require 'uri'
 require 'yaml'
 require_relative 'actor_store'
+require_relative 'source_precedence'
 
 # Importer for MISP Galaxy threat actor data
 # Source: https://github.com/MISP/misp-galaxy
@@ -539,7 +540,16 @@ risk_level = if confidence >= 70
     actor_entry['sector_focus'] = candidate[:sector_focus] if candidate[:sector_focus] && !candidate[:sector_focus].empty?
     actor_entry['targeted_victims'] = candidate[:targeted_victims] if candidate[:targeted_victims] && !candidate[:targeted_victims].empty?
     actor_entry['incident_type'] = candidate[:incident_type] if candidate[:incident_type]
-    actor_entry['malware'] = candidate[:malware] if candidate[:malware] && !candidate[:malware].empty?
+    if candidate[:malware] && !candidate[:malware].empty?
+      actor_entry['malware'] = candidate[:malware].map do |name|
+        SourcePrecedence.build_malware_entry(
+          name,
+          source_name: SOURCE_NAME,
+          source_attribution: SOURCE_ATTRIBUTION,
+          provenance: { 'source_dataset_url' => SOURCE_URL, 'source_record_id' => candidate[:misp_uuid] }
+        )
+      end
+    end
 
     # Add provenance
     actor_entry['provenance'] = {
@@ -561,7 +571,22 @@ risk_level = if confidence >= 70
     actor = existing_actors.find { |a| a['name'] == candidate[:name] || a['url'] == candidate[:url] }
     return unless actor
 
-    return if @options[:new_only]
+    if @options[:new_only] && !SourcePrecedence.secondary_source?(actor)
+      return
+    end
+
+    SourcePrecedence.normalize_actor!(actor)
+    takeover_updates = SourcePrecedence.apply_takeover!(
+      {},
+      actor,
+      source_name: SOURCE_NAME,
+      source_attribution: SOURCE_ATTRIBUTION,
+      automated_description: candidate[:description],
+      automated_label: candidate[:name]
+    )
+    actor.merge!(takeover_updates) unless takeover_updates.empty?
+    actor['source_name'] = SOURCE_NAME if actor['source_name'].to_s.empty?
+    actor['source_attribution'] ||= SOURCE_ATTRIBUTION
 
     # Only update non-protected fields unless --force
     unless @options[:force]
@@ -574,9 +599,19 @@ risk_level = if confidence >= 70
       actor['risk_level'] ||= candidate[:risk_level]
       actor['sector_focus'] ||= candidate[:sector_focus] if candidate[:sector_focus] && !candidate[:sector_focus].empty?
       actor['country'] ||= candidate[:country]
-      actor['targeted_victims'] ||= candidate[:targeted_victims'] if candidate['targeted_victims'] && !candidate['targeted_victims'].empty?
+      actor['targeted_victims'] ||= candidate[:targeted_victims] if candidate[:targeted_victims] && !candidate[:targeted_victims].empty?
       actor['incident_type'] ||= candidate[:incident_type] if candidate[:incident_type]
-      actor['malware'] ||= candidate[:malware] if candidate[:malware] && !candidate[:malware].empty?
+      if candidate[:malware] && !candidate[:malware].empty?
+        incoming_malware = candidate[:malware].map do |name|
+          SourcePrecedence.build_malware_entry(
+            name,
+            source_name: SOURCE_NAME,
+            source_attribution: SOURCE_ATTRIBUTION,
+            provenance: { 'source_dataset_url' => SOURCE_URL, 'source_record_id' => candidate[:misp_uuid] }
+          )
+        end
+        actor['malware'] = SourcePrecedence.merge_malware_entries(actor['malware'], incoming_malware)
+      end
 
       # Replace placeholder description with real data from MISP
       if candidate[:description] && !candidate[:description].strip.empty?

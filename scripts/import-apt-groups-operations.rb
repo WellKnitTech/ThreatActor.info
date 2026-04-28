@@ -13,6 +13,7 @@ require 'time'
 require 'uri'
 require 'yaml'
 require_relative 'actor_store'
+require_relative 'source_precedence'
 
 class AptGroupsOperationsImporter
   SHEET_ID = '1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU'.freeze
@@ -397,15 +398,18 @@ class AptGroupsOperationsImporter
   def merge_malware(actor, malware_names)
     return if malware_names.nil? || malware_names.empty?
 
-    existing = Array(actor['malware'])
-    existing_names = existing.filter_map { |entry| entry['name']&.downcase }.to_set
-    malware_names.each do |name|
-      next if existing_names.include?(name.downcase)
-
-      existing << { 'name' => name }
-      existing_names << name.downcase
+    incoming = malware_names.map do |name|
+      SourcePrecedence.build_malware_entry(
+        name,
+        source_name: SOURCE_NAME,
+        source_attribution: SOURCE_ATTRIBUTION,
+        provenance: {
+          'source_dataset_url' => SOURCE_URL,
+          'sheet_id' => SHEET_ID
+        }
+      )
     end
-    actor['malware'] = existing
+    actor['malware'] = SourcePrecedence.merge_malware_entries(actor['malware'], incoming)
   end
 
   def actor_filter_match?(actor_name)

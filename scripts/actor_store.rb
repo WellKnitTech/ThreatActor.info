@@ -122,7 +122,16 @@ module ActorStore
       end
       rows
     elsif value.is_a?(Array)
-      ["#{prefix}#{key}: #{value.map(&:to_s).uniq.to_json}"]
+      if value.any? { |entry| entry.is_a?(Hash) || entry.is_a?(Array) }
+        serialized = value.map do |entry|
+          entry.is_a?(Hash) ? normalize_actor(entry) : entry
+        end
+        rows = ["#{prefix}#{key}:"]
+        rows.concat(serialized.to_yaml.lines[1..].map { |line| "#{prefix}#{line.chomp}" })
+        rows
+      else
+        ["#{prefix}#{key}: #{value.map(&:to_s).uniq.to_json}"]
+      end
     else
       ["#{prefix}#{key}: #{value.to_json}"]
     end

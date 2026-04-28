@@ -5,6 +5,7 @@ require 'yaml'
 require 'fileutils'
 require 'set'
 require_relative 'actor_store'
+require_relative 'source_precedence'
 
 class ThreatActorIndexGenerator
   PAGES_GLOB = '_threat_actors/*.md'.freeze
@@ -524,10 +525,16 @@ class ThreatActorIndexGenerator
         summary = nil
       end
 
+      source_entry = malware_source_entry(actor, name)
       entries << actor_context(actor, page).merge(
         category: category,
         name: name,
         summary: summary,
+        source_name: source_entry['source_name'],
+        source_attribution: source_entry['source_attribution'],
+        source_record_url: source_entry['source_record_url'],
+        provenance: source_entry['provenance'] || {},
+        note_origin: source_entry['note_origin'],
         is_software: infer_software_flag(name, summary),
         source_section: 'Malware and Tools',
         source_file: page[:path]
@@ -646,6 +653,13 @@ class ThreatActorIndexGenerator
       actor_url: actor['url'],
       actor_permalink: page[:front_matter]['permalink'] || "#{actor['url']}/"
     }
+  end
+
+  def malware_source_entry(actor, malware_name)
+    key = malware_name.to_s.downcase
+    Array(actor['malware'])
+      .map { |entry| SourcePrecedence.normalize_malware_entry(entry) }
+      .find { |entry| entry['name'].to_s.downcase == key } || {}
   end
 
   def flatten_attack_mappings(_actor, _page, attack_mappings)

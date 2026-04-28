@@ -96,14 +96,21 @@ iocs:
 
 ### malware
 
-Associated malware families and tools.
+Associated malware families and tools. String entries are still accepted for
+legacy/manual content, but automated importers should write structured entries
+with source attribution and provenance.
 
 ```yaml
 malware:
   - name: "X-Agent"
-    description: "Custom backdoor used for data exfiltration"
-  - name: "X-Tunnel"
-    description: "Custom tunneling tool for C2 communication"
+    summary: "Custom backdoor used for data exfiltration"
+    source_name: "Malpedia (Fraunhofer FKIE)"
+    source_attribution: "Contains metadata derived from Malpedia by Fraunhofer FKIE."
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt28"
+    provenance:
+      source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+      source_actor_id: "apt28"
+  - "X-Tunnel"
 ```
 
 ### references

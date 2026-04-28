@@ -3,6 +3,7 @@
 require 'json'
 require 'set'
 require 'yaml'
+require_relative 'source_precedence'
 
 class ContentValidator
   REQUIRED_ACTOR_FIELDS = %w[name aliases description url].freeze
@@ -116,6 +117,8 @@ class ContentValidator
     validate_orphan_pages
     validate_urls
     validate_source_attribution
+    validate_source_precedence
+    validate_malware_entries
     validate_generated_json
     validate_api_wrapper_bindings
     validate_ioc_shards
@@ -190,6 +193,7 @@ class ContentValidator
 
     validate_field_types(actor, file_path)
     validate_field_values(actor, file_path)
+    validate_source_precedence_fields(actor, file_path)
   end
 
   def validate_field_types(actor, file_path)
@@ -230,6 +234,18 @@ class ContentValidator
 
     if actor['last_updated'] && !actor['last_updated'].match?(/^\d{4}-\d{2}-\d{2}$/)
       add_warning(file_path, "Last updated should use YYYY-MM-DD format: #{actor['last_updated']}")
+    end
+
+  end
+
+  def validate_source_precedence_fields(actor, file_path)
+    if actor['source_name'] == 'AnalystNotes'
+      add_error(file_path, "source_name must be normalized to 'Analyst Notes'")
+    end
+
+    if automated_source_name?(actor['source_name']) && actor['analyst_notes'].to_s.strip.empty?
+      previous_manual = actor.values.any? { |value| value.to_s.include?('Previous description:') || value.to_s.include?('=== Automated import from') }
+      add_warning(file_path, "Automated actor '#{actor['name']}' has no analyst_notes; manual supersession context may be missing") if previous_manual
     end
   end
 
@@ -506,6 +522,52 @@ class ContentValidator
         add_warning(file_label, "Actor '#{actor_name}' has source metadata but missing source_attribution")
       end
     end
+  end
+
+  def validate_source_precedence
+    puts 'Validating source precedence...'
+
+    @threat_actors_data.each do |actor|
+      file_label = actor_file_label(actor)
+      source_name = SourcePrecedence.normalize_source_name(actor['source_name'])
+
+      if actor['source_name'].to_s.strip == 'AnalystNotes'
+        add_error(file_label, "Use normalized source_name '#{SourcePrecedence::ANALYST_SOURCE_NAME}' instead of 'AnalystNotes'")
+      end
+
+      next unless SourcePrecedence.automated_source?({ 'source_name' => source_name })
+
+      if actor['analyst_notes'].to_s.strip.empty? && actor['provenance'].is_a?(Hash) && actor['provenance']['manual_takeover']
+        add_error(file_label, "Automated source '#{source_name}' has takeover provenance but no analyst_notes")
+      end
+    end
+  end
+
+  def validate_malware_entries
+    puts 'Validating malware entries...'
+
+    @threat_actors_data.each do |actor|
+      file_label = actor_file_label(actor)
+      Array(actor['malware']).each do |entry|
+        if entry.is_a?(String)
+          add_warning(file_label, "Malware '#{entry}' is legacy string form; prefer object form with source_name/provenance")
+          next
+        end
+
+        unless entry.is_a?(Hash)
+          add_error(file_label, "Malware entry must be a string or object, got #{entry.class}")
+          next
+        end
+
+        add_error(file_label, 'Malware object missing name') if entry['name'].to_s.strip.empty?
+        add_error(file_label, "Malware '#{entry['name']}' missing source_name") if entry['source_name'].to_s.strip.empty?
+        add_error(file_label, "Malware '#{entry['name']}' source_name must be normalized") if entry['source_name'].to_s.strip == 'AnalystNotes'
+      end
+    end
+  end
+
+  def actor_file_label(actor)
+    "_data/actors/#{actor['url'].to_s.sub(%r{^/}, '')}.yml"
   end
 
   def validate_generated_json

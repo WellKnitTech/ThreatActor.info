@@ -25,6 +25,8 @@ Reviewed name and rename handling lives in `data/imports/ransomlook/mapping_over
 - Regenerate pages with `ruby scripts/generate-pages.rb --force` after source updates.
 - Regenerate APIs with `ruby scripts/generate-indexes.rb` in the same run.
 - Use `ruby scripts/evaluate-source-deltas.rb` to enforce update thresholds before publishing large changes.
+- Analyst notes are the only manual input path. When an automated source matches an analyst/manual actor, the importer must promote the automated source to primary attribution and preserve prior analyst content in `analyst_notes`.
+- Malware and tool references from automated sources should be stored as structured entries with `name`, `source_name`, and `provenance`; analyst-note malware remains secondary unless later superseded by an automated malware reference.
 
 ## Commands
 
@@ -665,11 +667,12 @@ end
 
 ### Takeover Behavior
 
-When an importer finds an existing manual entry (source_name is `'Manual Entry'` or `'Analyst Notes'`):
+When an importer finds an existing manual entry (source_name is `'Manual Entry'` or `'Analyst Notes'`; legacy `'AnalystNotes'` is normalized):
 
 1. **Converts manual entry to analyst notes** - All original manual data (description, aliases, country, etc.) is preserved in the `analyst_notes` field
 2. **Takes over** - The automated source becomes the new `source_name` and `source_attribution`
 3. **Logs the takeover** - Shows `TAKEOVER: Converted manual entry 'X' to analyst notes`
+4. **Preserves malware context** - Analyst-note malware is retained as secondary structured malware unless an automated malware reference with the same name adds source provenance
 
 This ensures:
 - No data is lost - original manual notes preserved

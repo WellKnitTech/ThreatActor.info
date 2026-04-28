@@ -9,11 +9,12 @@ require 'set'
 require 'time'
 require 'yaml'
 require_relative 'actor_store'
+require_relative 'source_precedence'
 
 class AnalystNotesImporter
   DEFAULT_NOTES_DIR = '_data/analyst_notes'.freeze
   DEFAULT_OVERRIDES_FILE = 'data/imports/analyst-notes/mapping_overrides.yml'.freeze
-  SOURCE_NAME = 'AnalystNotes'.freeze
+  SOURCE_NAME = SourcePrecedence::ANALYST_SOURCE_NAME
   SOURCE_ATTRIBUTION = 'Analyst notes are manually curated observations and contextual analysis.'.freeze
 
   # Supported note types and their target fields
@@ -500,8 +501,15 @@ permalink: #{actor['url']}/
       end
 
       if updates[:malware].any?
-        actor['malware'] ||= []
-        actor['malware'] = (actor['malware'] + updates[:malware]).uniq
+        incoming_malware = updates[:malware].map do |name|
+          SourcePrecedence.build_malware_entry(
+            name,
+            source_name: SOURCE_NAME,
+            source_attribution: SOURCE_ATTRIBUTION,
+            note_origin: actor_name
+          )
+        end
+        actor['malware'] = SourcePrecedence.merge_malware_entries(actor['malware'], incoming_malware)
       end
 
       if updates[:ttps].any?

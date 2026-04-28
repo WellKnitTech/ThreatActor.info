@@ -13,6 +13,7 @@ require 'time'
 require 'uri'
 require 'yaml'
 require_relative 'actor_store'
+require_relative 'source_precedence'
 
 class EtdaThaicertImporter
   PAGE_DIR = '_threat_actors'.freeze
@@ -22,7 +23,6 @@ class EtdaThaicertImporter
   SOURCE_URL = 'https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g'.freeze
   SOURCE_MIRROR_URL = 'https://huggingface.co/datasets/threatactor-info/etda-thaicert-threat-groups/raw/main/groups.json'.freeze
   SOURCE_REPOSITORY = 'https://apt.etda.or.th/'.freeze
-  MANUAL_SOURCE_NAMES = ['Manual Entry', 'Analyst Notes'].freeze
   SOURCE_ATTRIBUTION = 'Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment.'.freeze
 
   REQUIRED_HEADINGS = [
@@ -329,10 +329,15 @@ class EtdaThaicertImporter
       updates['source_attribution'] = SOURCE_ATTRIBUTION
     end
 
-    # Handle takeover: if manual entry found by importer, convert manual data to analyst notes
-    if MANUAL_SOURCE_NAMES.include?(existing_actor['source_name'])
-      updates = handle_manual_takeover(updates, existing_actor, record)
-    end
+    updates = SourcePrecedence.apply_takeover!(
+      updates,
+      existing_actor,
+      source_name: SOURCE_NAME,
+      source_attribution: SOURCE_ATTRIBUTION,
+      source_record_url: record[:source_record_url],
+      automated_description: record[:description],
+      automated_label: record[:display_name] || record[:name] || SOURCE_NAME
+    )
     if !record[:source_record_url].to_s.empty? && (existing_actor['source_record_url'].to_s.empty? || existing_actor['source_name'] == SOURCE_NAME)
       updates['source_record_url'] = record[:source_record_url]
     end
@@ -356,16 +361,15 @@ class EtdaThaicertImporter
   def merge_malware(updates, actor, incoming)
     return if incoming.nil? || incoming.empty?
 
-    existing = Array(actor['malware'])
-    existing_names = existing.filter_map { |entry| normalize_key(entry['name']) }.to_set
-    merged = existing.map { |entry| entry.dup }
-    incoming.each do |name|
-      key = normalize_key(name)
-      next if key.empty? || existing_names.include?(key)
-
-      merged << { 'name' => name }
-      existing_names << key
+    incoming_entries = incoming.map do |name|
+      SourcePrecedence.build_malware_entry(
+        name,
+        source_name: SOURCE_NAME,
+        source_attribution: SOURCE_ATTRIBUTION,
+        source_record_url: actor['source_record_url']
+      )
     end
+    merged = SourcePrecedence.merge_malware_entries(actor['malware'], incoming_entries)
     updates['malware'] = merged if merged != existing
   end
 

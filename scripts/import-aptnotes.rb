@@ -13,6 +13,7 @@ require 'time'
 require 'uri'
 require 'yaml'
 require_relative 'actor_store'
+require_relative 'source_precedence'
 
 class AptnotesImporter
   DEFAULT_SOURCE_URL = 'https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv'.freeze
