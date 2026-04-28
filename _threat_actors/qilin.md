@@ -31,7 +31,17 @@ Qilin is a ransomware group that first appeared in 2022 but had a breakout year 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+| Category | Observed tools |
+|---|---|
+| Credential Theft | Mimikatz |
+| Defense Evasion | EDRSandBlast, PCHunter, PowerTool, Toshiba power management driver (BYOVD), Updater for Carbon Black’s Cloud Sensor AV (upd.exe), YDArk, Zemana Anti-Rootkit driver |
+| Discovery | Nmap, Nping |
+| Exfiltration | EasyUpload, EasyUpload.io, FTP (102GB), HTTP/S (783GB), MEGA cloud storage (30GB), Not observed (3 systems encrypted) |
+| LOLBAS | PowerShell, PsExec, WinRM, fsutil |
+| Networking | Proxychains, RDP, Used SCCM and VMWare ESXi for lateral movement in network, Used SMB, RDP, WMI for lateral movement in network, WMI, lateral movement via DCE-RPC and RDP |
+| OffSec | Cobalt Strike, Cobalt Strike - (HTTP/SSL traffic linked to Cobalt Strike, including PowerShell request for sihost64.dll), Evilginx, Kali Linux, NetExec, SystemBC, Tofsee a modular trojan |
+| RMM Tools | NetSupport, ScreenConnect |
 
 ## Attribution and Evidence
 **Country of Origin**: Unknown

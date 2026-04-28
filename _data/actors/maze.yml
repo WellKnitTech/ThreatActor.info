@@ -1,16 +1,30 @@
----
-name: Maze
-aliases:
-- ChaCha
-description: Maze is a ransomware operation known for being the first to implement
-  double extortion tactics.
+name: "Maze"
+aliases: ["ChaCha"]
+description: "Maze is a ransomware operation known for being the first to implement double extortion tactics."
 url: "/maze"
-country: Unknown
-sector_focus:
-- Healthcare
-- Legal
-- Technology
-first_seen: '2019'
-last_activity: '2020'
-risk_level: High
-source_attribution: Manually curated from open source intelligence
+country: "Unknown"
+sector_focus: ["Healthcare","Legal","Technology"]
+first_seen: "2019"
+last_activity: "2020"
+last_updated: "2026-04-28"
+risk_level: "High"
+source_attribution: "Manually curated from open source intelligence"
+provenance:
+  ransomware_tool_matrix:
+    references:
+      - title: "cloud.google.com"
+        url: "https://cloud.google.com/blog/topics/threat-intelligence/tactics-techniques-procedures-associated-with-maze-ransomware-incidents"
+        date: "5 July 2020"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Offsec.md"]
+    source_label: "MAZE"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      Credential Theft: ["Mimikatz","ProcDump"]
+      Discovery: ["AdFind","Advanced IP Scanner","Bloodhound","PingCastle","PowerView","ShareFinder"]
+      Exfiltration: ["WinSCP"]
+      LOLBAS: ["PsExec","WMIC"]
+      OffSec: ["Cobalt Strike","Metasploit","Meterpreter","PowerSploit"]

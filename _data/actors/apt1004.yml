@@ -2,6 +2,7 @@ name: "LAPSUS$"
 aliases: ["DEV-0537","LAPSUS$","Strawberry Tempest"]
 description: "LAPSUS$ is cyber criminal threat group that has been active since at least mid-2021. LAPSUS$ specializes in large-scale social engineering and extortion operations, including destructive attacks without the use of ransomware. The group has targeted organizations globally, including in the government, manufacturing, higher education, energy, healthcare, technology, telecommunications, and media sectors.(Citation: BBC LAPSUS Apr 2022)(Citation: MSTIC DEV-0537 Mar 2022)(Citation: UNIT 42 LAPSUS Mar 2022)"
 url: "/apt1004"
+last_updated: "2026-04-28"
 external_id: "G1004"
 external_url: "https://attack.mitre.org/groups/G1004"
 mitre_id: "G1004"
@@ -9,10 +10,6 @@ mitre_url: "https://attack.mitre.org/groups/G1004"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   bushido_breach_reports:
-    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
-    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
-    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
-    source_retrieved_at: "2026-04-28T01:40:03Z"
     reports:
       - organization: "Uber"
         breach_date: "September 2022"
@@ -29,8 +26,29 @@ provenance:
         adversary_label: "Lapsus$"
         links: ["https://www.microsoft.com/en-us/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"]
         archived_links: ["https://web.archive.org/web/20230212051224/https://www.microsoft.com/en-us/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"]
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_retrieved_at: "2026-04-28T01:40:03Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1004"
     source_retrieved_at: "2026-04-26T07:05:44Z"
+  ransomware_tool_matrix:
+    references:
+      - title: "www.microsoft.com"
+        url: "https://www.microsoft.com/en-us/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
+        date: "22 March 2022"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DiscoveryEnum.md","Tools/LOLBAS.md","Tools/RMM-Tools.md"]
+    source_label: "Lapsus$"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      Credential Theft: ["Mimikatz"]
+      Discovery: ["ADExplorer"]
+      LOLBAS: ["NTDS Utility (ntdsutil)"]
+      RMM Tools: ["AnyDesk"]
 source: "MITRE ATT&CK"

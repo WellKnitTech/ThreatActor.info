@@ -6,6 +6,7 @@ country: "Unknown"
 sector_focus: ["Healthcare","Education","Government","Technology"]
 first_seen: "2023"
 last_activity: "2025"
+last_updated: "2026-04-28"
 risk_level: "High"
 external_id: "G1024"
 external_url: "https://attack.mitre.org/groups/G1024"
@@ -15,10 +16,6 @@ source_attribution: "© The MITRE Corporation. This work is reproduced and distr
 cisa_kev_cves: ["{\"cve\" => \"CVE-2019-6693\", \"dateAdded\" => \"2025-06-25\", \"vendor\" => \"Fortinet\", \"product\" => \"FortiOS\"}","{\"cve\" => \"CVE-2024-40711\", \"dateAdded\" => \"2024-10-17\", \"vendor\" => \"Veeam\", \"product\" => \"Backup & Replication\"}","{\"cve\" => \"CVE-2024-40766\", \"dateAdded\" => \"2024-09-09\", \"vendor\" => \"SonicWall\", \"product\" => \"SonicOS\"}","{\"cve\" => \"CVE-2024-37085\", \"dateAdded\" => \"2024-07-30\", \"vendor\" => \"VMware\", \"product\" => \"ESXi\"}","{\"cve\" => \"CVE-2023-48788\", \"dateAdded\" => \"2024-03-25\", \"vendor\" => \"Fortinet\", \"product\" => \"FortiClient EMS\"}","{\"cve\" => \"CVE-2020-3259\", \"dateAdded\" => \"2024-02-15\", \"vendor\" => \"Cisco\", \"product\" => \"Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)\"}","{\"cve\" => \"CVE-2023-20269\", \"dateAdded\" => \"2023-09-13\", \"vendor\" => \"Cisco\", \"product\" => \"Adaptive Security Appliance and Firepower Threat Defense\"}","{\"cve\" => \"CVE-2023-27532\", \"dateAdded\" => \"2023-08-22\", \"vendor\" => \"Veeam\", \"product\" => \"Backup & Replication\"}","{\"cve\" => \"CVE-2023-28252\", \"dateAdded\" => \"2023-04-11\", \"vendor\" => \"Microsoft\", \"product\" => \"Windows\"}","{\"cve\" => \"CVE-2022-40684\", \"dateAdded\" => \"2022-10-11\", \"vendor\" => \"Fortinet\", \"product\" => \"Multiple Products\"}","{\"cve\" => \"CVE-2020-3580\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Cisco\", \"product\" => \"Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)\"}"]
 provenance:
   bushido_breach_reports:
-    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
-    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
-    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
-    source_retrieved_at: "2026-04-28T01:40:03Z"
     reports:
       - organization: "Nissan Australia"
         breach_date: "December 2023"
@@ -30,7 +27,77 @@ provenance:
         adversary_label: "Akira (Ransomware)"
         links: ["https://www.documentcloud.org/documents/24075435-bhi-notice"]
         archived_links: ["http://web.archive.org/web/20231023214413/https://www.documentcloud.org/documents/24075435-bhi-notice"]
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_retrieved_at: "2026-04-28T01:40:03Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1024"
     source_retrieved_at: "2026-04-26T05:24:31Z"
+  ransomware_tool_matrix:
+    community_reports:
+      - source_file: "CommunityReports/CR-001-AKIRA-JUN-2025.md"
+        incident_time: "June 2025"
+        victim_sector: "Construction"
+        victim_country: "Canada"
+      - source_file: "CommunityReports/CR-002-AKIRA-APR-2025.md"
+        incident_time: "April 2025"
+        victim_sector: "Food and Agriculture"
+        victim_country: "Canada"
+      - source_file: "CommunityReports/CR-003-AKIRA-JUN-2025.md"
+        incident_time: "June 2025"
+        victim_sector: "Manufacturing"
+        victim_country: "Canada"
+      - source_file: "CommunityReports/CR-009-AKIRA-AUG-2025.md"
+        incident_time: "August 2025"
+        victim_sector: "Construction"
+        victim_country: "USA"
+      - source_file: "CommunityReports/CR-010-AKIRA-AUG-2025.md"
+        incident_time: "August 2025"
+        victim_sector: "Engineering"
+        victim_country: "USA"
+      - source_file: "CommunityReports/CR-017-AKIRA-SEP-2025.md"
+        incident_time: "September 2025"
+        victim_sector: "Professional Services"
+        victim_country: "Canada"
+      - source_file: "CommunityReports/CR-018-AKIRA-NOV-2025.md"
+        incident_time: "November 2025"
+        victim_sector: "Manufacturing"
+        victim_country: "Canada"
+    references:
+      - title: "www.huntress.com"
+        url: "https://www.huntress.com/blog/exploitation-of-sonicwall-vpn"
+        date: "04/08/2025"
+        source_file: "CommunityReports/CR-009-AKIRA-AUG-2025.md"
+      - title: "blog.bushidotoken.net"
+        url: "https://blog.bushidotoken.net/2023/09/tracking-adversaries-akira-another.html"
+        date: "15 September 2023"
+        source_file: "GroupProfiles/Akira.md"
+      - title: "www.cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a"
+        date: "18 April 2024"
+        source_file: "GroupProfiles/Akira.md"
+      - title: "www.guidepointsecurity.com"
+        url: "https://www.guidepointsecurity.com/blog/gritrep-akira-sonicwall/"
+        date: "2025/08/05"
+        source_file: "CommunityReports/CR-001-AKIRA-JUN-2025.md"
+      - title: "arcticwolf.com"
+        url: "https://arcticwolf.com/resources/blog/smash-and-grab-aggressive-akira-campaign-targets-sonicwall-vpns/"
+        date: "26 September 2025"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["CommunityReports/CR-001-AKIRA-JUN-2025.md","CommunityReports/CR-002-AKIRA-APR-2025.md","CommunityReports/CR-003-AKIRA-JUN-2025.md","CommunityReports/CR-009-AKIRA-AUG-2025.md","CommunityReports/CR-010-AKIRA-AUG-2025.md","CommunityReports/CR-017-AKIRA-SEP-2025.md","CommunityReports/CR-018-AKIRA-NOV-2025.md","GroupProfiles/Akira.md","ThreatIntel/CISAThreatGroups.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/Networking.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
+    source_label: "Akira"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      Credential Theft: ["DonPAPI","LaZagne","Mimikatz"]
+      Defense Evasion: ["PowerTool","ThrottleStop driver (rwdrv.sys)","Zemana Anti-Rootkit","Zemana Anti-Rootkit driver","churchill_driver.sys, fidget.sys","consent.exe (msimg32.dll, wmsgapi.dll)","icardagt.exe (version.dll)","mfpmp.exe (rtworkq.dll)"]
+      Discovery: ["Advanced IP Scanner","Advanced Port Scanner","Bloodhound","Masscan","ReconFTW","ShareFinder","SharpHound","SharpShares","SoftPerfect NetScan","SoftPerfect Network Scanner","ldapdomaindump"]
+      Exfiltration: ["FileZilla","MEGA","RClone","Temp[.]sh","WinRAR","WinSCP"]
+      LOLBAS: ["net","netsh","nltest","vssadmin"]
+      Networking: ["Cloudflared","Ngrok","OpenSSH","cloudflared"]
+      OffSec: ["CrackMapExec","Impacket","NetExec","NetExec (NXC)"]
+      RMM Tools: ["AnyDesk","MeshAgent","MobaXterm","Radmin","RustDesk","TeamViewer"]

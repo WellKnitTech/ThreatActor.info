@@ -1,31 +1,34 @@
----
-name: Beast
-description: Beast ransomware emerged in 2022 as an enhanced iteration of the earlier
-  “Monster” ransomware. It operates under a Ransomware-as-a-Service (RaaS) model,
-  offering affiliates rich customization options to create tailored binaries targeting
-  Windows, Linux, and VMware ESXi systems. Key technical capabilities include hybrid
-  Elliptic-Curve + ChaCha20 encryption, segmented file encryption, ZIP wrapper mode
-  (encrypting files into zip archives with embedded ransom notes), multithreaded processing,
-  termination of services, shadow copy deletion, hidden partition usage, and subnet
-  scanning. Affiliates are provided configurable offline builders, enabling streamlined
-  deployment across multiple platforms. While Beast's functional power is well-documented,
-  details on its specific victims, sectors targeted, and leak site activity remain
-  limited in public sources.
+name: "Beast"
+aliases: ["Beast"]
+description: "Beast ransomware emerged in 2022 as an enhanced iteration of the earlier “Monster” ransomware. It operates under a Ransomware-as-a-Service (RaaS) model, offering affiliates rich customization options to create tailored binaries targeting Windows, Linux, and VMware ESXi systems. Key technical capabilities include hybrid Elliptic-Curve + ChaCha20 encryption, segmented file encryption, ZIP wrapper mode (encrypting files into zip archives with embedded ransom notes), multithreaded processing, termination of services, shadow copy deletion, hidden partition usage, and subnet scanning. Affiliates are provided configurable offline builders, enabling streamlined deployment across multiple platforms. While Beast's functional power is well-documented, details on its specific victims, sectors targeted, and leak site activity remain limited in public sources."
 url: "/beast"
-source_name: RansomLook
-source_attribution: 'Contains data derived from RansomLook, used under CC BY 4.0.
-  Source: https://www.ransomlook.io/'
-source_record_url: https://www.ransomlook.io/group/beast
-source_license: CC BY 4.0
-source_license_url: https://creativecommons.org/licenses/by/4.0/
+last_updated: "2026-04-28"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/beast"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
 provenance:
-  source_dataset_url: https://www.ransomlook.io/api/groups
-  source_record_id: beast
-  source_retrieved_at: '2026-04-26T02:09:04Z'
-  source_transforms:
-  - normalized-name
-  - deduplicated-aliases
-  - omitted-volatile-iocs
-  - adapted-for-threatactor-info
-aliases:
-- Beast
+  ransomware_tool_matrix:
+    references:
+      - title: "www.team-cymru.com"
+        url: "https://www.team-cymru.com/post/beast-ransomware-server-toolkit-analysis"
+        date: "18 March 2026"
+        source_file: "GroupProfiles/Beast.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/Beast.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/RMM-Tools.md"]
+    source_label: "Beast"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      Credential Theft: ["Automim","LaZagne","Mimikatz"]
+      Discovery: ["Advanced IP Scanner","Advanced Port Scanner","Everything.exe","SoftPerfect NetScan"]
+      Exfiltration: ["MEGA","WinSCP"]
+      LOLBAS: ["PsExec"]
+      Networking: ["Klink","OpenSSH"]
+      RMM Tools: ["AnyDesk"]
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "beast"
+  source_retrieved_at: "2026-04-26T02:09:04Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

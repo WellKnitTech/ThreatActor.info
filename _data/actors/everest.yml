@@ -1,30 +1,32 @@
----
-name: Everest
-description: Everest is a ransomware group active since at least December 2020, known
-  for its double-extortion tactics. The group initially operated as a typical ransomware
-  outfit, encrypting files with strong cryptography and appending victim-specific
-  extensions, but later shifted toward pure data extortion—threatening to sell or
-  release stolen data without necessarily deploying encryption. Everest targets a
-  wide range of sectors, including government, healthcare, manufacturing, and IT services,
-  with confirmed victims in North America, Europe, and Asia. Initial access vectors
-  include exploitation of vulnerable public-facing applications, phishing campaigns,
-  and credential theft for remote access services. The group maintains a Tor-based
-  leak site to publish stolen information and advertise access to compromised networks.
+name: "Everest"
+aliases: ["Everest"]
+description: "Everest is a ransomware group active since at least December 2020, known for its double-extortion tactics. The group initially operated as a typical ransomware outfit, encrypting files with strong cryptography and appending victim-specific extensions, but later shifted toward pure data extortion—threatening to sell or release stolen data without necessarily deploying encryption. Everest targets a wide range of sectors, including government, healthcare, manufacturing, and IT services, with confirmed victims in North America, Europe, and Asia. Initial access vectors include exploitation of vulnerable public-facing applications, phishing campaigns, and credential theft for remote access services. The group maintains a Tor-based leak site to publish stolen information and advertise access to compromised networks."
 url: "/everest"
-source_name: RansomLook
-source_attribution: 'Contains data derived from RansomLook, used under CC BY 4.0.
-  Source: https://www.ransomlook.io/'
-source_record_url: https://www.ransomlook.io/group/everest
-source_license: CC BY 4.0
-source_license_url: https://creativecommons.org/licenses/by/4.0/
+last_updated: "2026-04-28"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/everest"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
 provenance:
-  source_dataset_url: https://www.ransomlook.io/api/groups
-  source_record_id: everest
-  source_retrieved_at: '2026-04-26T02:08:51Z'
-  source_transforms:
-  - normalized-name
-  - deduplicated-aliases
-  - omitted-volatile-iocs
-  - adapted-for-threatactor-info
-aliases:
-- Everest
+  ransomware_tool_matrix:
+    references:
+      - title: "www.aha.org"
+        url: "https://www.aha.org/system/files/media/file/2024/08/hc3-tlp-clear-threat-actor-profile-everest-ransomware-group-august-20-2024.pdf"
+        date: "20 August 2024"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DiscoveryEnum.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
+    source_label: "Everest"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      Credential Theft: ["ProcDump"]
+      Discovery: ["SoftPerfect NetScan"]
+      OffSec: ["Cobalt Strike","Metasploit","Meterpreter"]
+      RMM Tools: ["AnyDesk","Atera","Splashtop"]
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "everest"
+  source_retrieved_at: "2026-04-26T02:08:51Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

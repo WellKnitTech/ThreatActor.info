@@ -2,6 +2,7 @@ name: "BlackByte"
 aliases: ["BlackByte","Hecamede"]
 description: "BlackByte is a ransomware threat actor operating since at least 2021. BlackByte is associated with several versions of ransomware also labeled BlackByte Ransomware. BlackByte ransomware operations initially used a common encryption key allowing for the development of a universal decryptor, but subsequent versions such as BlackByte 2.0 Ransomware use more robust encryption mechanisms. BlackByte is notable for operations targeting critical infrastructure entities among other targets across North America.(Citation: FBI BlackByte 2022)(Citation: Picus BlackByte 2022)(Citation: Symantec BlackByte 2022)(Citation: Microsoft BlackByte 2023)(Citation: Cisco BlackByte 2024)"
 url: "/apt1043"
+last_updated: "2026-04-28"
 external_id: "G1043"
 external_url: "https://attack.mitre.org/groups/G1043"
 mitre_id: "G1043"
@@ -12,4 +13,25 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1043"
     source_retrieved_at: "2026-04-26T07:05:44Z"
+  ransomware_tool_matrix:
+    references:
+      - title: "blog.talosintelligence.com"
+        url: "https://blog.talosintelligence.com/blackbyte-blends-tried-and-true-tradecraft-with-newly-disclosed-vulnerabilities-to-support-ongoing-attacks/"
+        date: "28 August 2024"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "Ransomware Spotlight: BlackByte"
+        url: "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-blackbyte"
+        date: "5 July 2022"
+        source_file: "ThreatIntel/TrendMicroThreatGroups.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/ExtraThreatIntel.md","ThreatIntel/TrendMicroThreatGroups.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
+    source_label: "BlackByte"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      Defense Evasion: ["Dell Client driver (BYOVD)","GIGABYTE Motherboard driver (BYOVD)","MSI Afterburner driver (BYOVD)","Zemana Anti-Rootkit driver"]
+      Discovery: ["PowerView","SoftPerfect NetScan"]
+      OffSec: ["Cobalt Strike","PowerShell Empire"]
+      RMM Tools: ["AnyDesk"]
 source: "MITRE ATT&CK"

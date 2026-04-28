@@ -33,6 +33,18 @@ RansomHub is a dominant ransomware-as-a-service operation that emerged in 2024 a
 ## Malware and Tools
 - **Xploit**
 
+### Ransomware Tool Matrix observations
+| Category | Observed tools |
+|---|---|
+| Credential Theft | Mimikatz |
+| Defense Evasion | Acronis Disk Director, BadRentdrv2, Revo Uninstaller, ThreatFire System Monitor driver (BYOVD) |
+| Discovery | Angry IP Scanner, Nmap, SoftPerfect NetScan, SoftPerfect Network Scanner, WKTools |
+| Exfiltration | FileZilla, PSCP, RClone, WinSCP, rclone |
+| LOLBAS | BITSAdmin, PsExec, WMIC |
+| Networking | Cloudflared, Stowaway, ngrok |
+| OffSec | Cobalt Strike, CrackMapExec, Impacket, Kerbrute, Metasploit, NetExec (nxc), Sliver |
+| RMM Tools | AnyDesk, Atera, Atera Agent, N-Able, ScreenConnect, Splashtop, TightVNC |
+
 ## Attribution and Evidence
 **Country of Origin**: Unknown
 *Additional attribution information pending cataloguing.*

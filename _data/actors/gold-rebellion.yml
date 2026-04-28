@@ -1,58 +1,12 @@
----
-name: GOLD REBELLION
-aliases:
-- WANDERING SPIDER
-- White Dev 115
-- Dark Scorpius
-- GOLD REBELLION
-description: 'GOLD REBELLION is a financially motivated cybercriminal threat group
-  that operates the Black Basta name-and-shame ransomware. The group posted its first
-  victim to its leak site in April 2022 and has continued to publish victim names
-  at a rate of around 15 a month since then. GOLD REBELLION has not openly advertised
-  or appeared to recruit for an affiliate program but the variety of tactics, techniques
-  and procedures (TTP) observed in Black Basta intrusions suggests that multiple individuals
-  are engaged in the ransomware scheme.Several security vendors and independent researchers
-  have suggested the distributors of Black Basta may be former affiliates of GOLD
-  ULRICK''s Conti operation. Technical artifacts analyzed by CTU researchers suggest
-  that Black Basta has been under development since at least early February 2022,
-  several weeks before extensive public leaks detailed GOLD ULRICK''s Conti operation.
-  In November 2022, researchers at SentinelOne linked custom tooling used by GOLD
-  REBELLION to the GOLD NIAGARA (FIN7) threat group. CTU researchers have not made
-  independent observations corroborating a relationship between these threat groups
-  or any others.GOLD REBELLION appear to have been a key customer of GOLD LAGOON''s
-  Qakbot: CTU researchers observed multiple incidents where Black Basta was distributed
-  through it as an initial access vector (IAV), leading to Cobalt Strike and further
-  lateral movement into the victim network. Following the takedown of Qakbot in August
-  2023, GOLD REBELLION explored new methods of delivery, including DarkGate and Pikabot.
-  In one incident, CTU researchers observed a threat actor gain access to a victim
-  network through a managed security services provider (MSSP). In October 2024, GOLD
-  REBELLION likely exploited a vulnerability in a Sonic Wall VPN device for access.
-  Also in 2024, CTU researchers observed multiple instances of the group using social
-  engineering to convince victims to download remote management and monitoring tools
-  like AnyDesk and Quick Assist. After spamming inboxes with multiple emails, the
-  threat actors approached the affected users via Teams, purporting to be IT Support
-  or Help Desk employees offering assistance with email inbox issues.Other tools members
-  of the group have used include the SystemBC back connect malware, PsExec for remote
-  execution, RDP for lateral movement, batch files to delete their own tools and disable
-  anti-virus programs for defense evasion, and both Rclone and MegaSync for data exfiltration.'
+name: "GOLD REBELLION"
+aliases: ["WANDERING SPIDER","White Dev 115","Dark Scorpius","GOLD REBELLION"]
+description: "GOLD REBELLION is a financially motivated cybercriminal threat group that operates the Black Basta name-and-shame ransomware. The group posted its first victim to its leak site in April 2022 and has continued to publish victim names at a rate of around 15 a month since then. GOLD REBELLION has not openly advertised or appeared to recruit for an affiliate program but the variety of tactics, techniques and procedures (TTP) observed in Black Basta intrusions suggests that multiple individuals are engaged in the ransomware scheme.Several security vendors and independent researchers have suggested the distributors of Black Basta may be former affiliates of GOLD ULRICK's Conti operation. Technical artifacts analyzed by CTU researchers suggest that Black Basta has been under development since at least early February 2022, several weeks before extensive public leaks detailed GOLD ULRICK's Conti operation. In November 2022, researchers at SentinelOne linked custom tooling used by GOLD REBELLION to the GOLD NIAGARA (FIN7) threat group. CTU researchers have not made independent observations corroborating a relationship between these threat groups or any others.GOLD REBELLION appear to have been a key customer of GOLD LAGOON's Qakbot: CTU researchers observed multiple incidents where Black Basta was distributed through it as an initial access vector (IAV), leading to Cobalt Strike and further lateral movement into the victim network. Following the takedown of Qakbot in August 2023, GOLD REBELLION explored new methods of delivery, including DarkGate and Pikabot. In one incident, CTU researchers observed a threat actor gain access to a victim network through a managed security services provider (MSSP). In October 2024, GOLD REBELLION likely exploited a vulnerability in a Sonic Wall VPN device for access. Also in 2024, CTU researchers observed multiple instances of the group using social engineering to convince victims to download remote management and monitoring tools like AnyDesk and Quick Assist. After spamming inboxes with multiple emails, the threat actors approached the affected users via Teams, purporting to be IT Support or Help Desk employees offering assistance with email inbox issues.Other tools members of the group have used include the SystemBC back connect malware, PsExec for remote execution, RDP for lateral movement, batch files to delete their own tools and disable anti-virus programs for defense evasion, and both Rclone and MegaSync for data exfiltration."
 url: "/gold-rebellion"
-malware:
-- BlackEnergy
-- RemoteCMD
-- BLACKCOFFEE
-- Back Orifice
-- Blackshades
-- Back Orifice 2000
-- BlackNix
-- CyberGate
-- Cyber Eye RAT
-- Batch NET
+last_updated: "2026-04-28"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["BlackEnergy","RemoteCMD","BLACKCOFFEE","Back Orifice","Blackshades","Back Orifice 2000","BlackNix","CyberGate","Cyber Eye RAT","Batch NET"]
 provenance:
   bushido_breach_reports:
-    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
-    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
-    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
-    source_retrieved_at: "2026-04-28T01:40:03Z"
     reports:
       - organization: "Capita"
         breach_date: "March 2023"
@@ -64,8 +18,39 @@ provenance:
         adversary_label: "BlackBasta (Ransomware)"
         links: ["https://ico.org.uk/media2/pr4bg5hq/dpp-law-ltd-monetary-penalty-notice.pdf"]
         archived_links: ["https://web.archive.org/web/20250416131742/https://ico.org.uk/media2/pr4bg5hq/dpp-law-ltd-monetary-penalty-notice.pdf"]
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_retrieved_at: "2026-04-28T01:40:03Z"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 835c7fc6-a066-447d-a0fc-b096bd9c412f
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "835c7fc6-a066-447d-a0fc-b096bd9c412f"
+    source_retrieved_at: "2026-04-26T05:47:15Z"
+  ransomware_tool_matrix:
+    references:
+      - title: "www.cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a"
+        date: "10 May 2024"
+        source_file: "GroupProfiles/BlackBasta.md"
+      - title: "www.trendmicro.com"
+        url: "https://www.trendmicro.com/en_ca/research/22/j/black-basta-infiltrates-networks-via-qakbot-brute-ratel-and-coba.html"
+        date: "12 October 2022"
+        source_file: "GroupProfiles/BlackBasta.md"
+      - title: "cloud.google.com"
+        url: "https://cloud.google.com/blog/topics/threat-intelligence/unc4393-goes-gently-into-silentnight"
+        date: "29 July 2024"
+        source_file: "GroupProfiles/BlackBasta.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/BlackBasta.md","ThreatIntel/CISAThreatGroups.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
+    source_label: "Black Basta / BlackBasta"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      Credential Theft: ["Mimikatz"]
+      Defense Evasion: ["Backstab","Backstab (Process Explorer driver)"]
+      Discovery: ["AdFind","Bloodhound","PSNmap","PowerView","SoftPerfect NetScan"]
+      Exfiltration: ["Qaz[.]im","RClone","Rclone"]
+      LOLBAS: ["BITSAdmin","PsExec","Quick Assist"]
+      OffSec: ["Brute Ratel (BRc4)","Brute Ratel C4","Cobalt Strike","Metasploit","PowerSploit"]
+      RMM Tools: ["AnyDesk","Atera","NetSupport","ScreenConnect","Splashtop","Supremo"]

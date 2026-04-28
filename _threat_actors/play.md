@@ -31,7 +31,16 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+| Category | Observed tools |
+|---|---|
+| Credential Theft | HandleKatz, Mimikatz, Nanodump |
+| Defense Evasion | EDRKill (echo_driver.sys + DBUtil 2.3), GMER, IOBit, PCHunter, PowerTool, icardagt.exe |
+| Discovery | AdFind, WKTools |
+| Exfiltration | WinSCP |
+| LOLBAS | PsExec |
+| Networking | Fast Reverse Proxy Client (FRPC), Plink |
+| OffSec | Cobalt Strike, WinPEAS |
 
 ## Attribution and Evidence
 **Country of Origin**: Unknown

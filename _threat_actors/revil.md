@@ -31,16 +31,20 @@ REvil is a Russian ransomware-as-a-service operation that has targeted major cor
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+| Category | Observed tools |
+|---|---|
+| Discovery | AdFind, Bloodhound |
+| Exfiltration | PrivatLab, RClone, Sendspace |
+| LOLBAS | BITSAdmin |
+| OffSec | Cobalt Strike |
 
 ## Attribution and Evidence
 **Country of Origin**: Russia
 *Additional attribution information pending cataloguing.*
 
 ## References
-
-[1] [BushidoToken Breach Report Collection - Kaseya breach report (July 2021) via helpdesk.kaseya.com](https://helpdesk.kaseya.com/hc/en-gb/articles/4403584098961-Incident-Overview-Technical-Details)
-   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: REvil (Ransomware).
+*References pending cataloguing.*
 
 ## CISA Known Exploited Vulnerabilities (KEV)
 *The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*

@@ -22,7 +22,13 @@ Everest is a ransomware group active since at least December 2020, known for its
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+| Category | Observed tools |
+|---|---|
+| Credential Theft | ProcDump |
+| Discovery | SoftPerfect NetScan |
+| OffSec | Cobalt Strike, Metasploit, Meterpreter |
+| RMM Tools | AnyDesk, Atera, Splashtop |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

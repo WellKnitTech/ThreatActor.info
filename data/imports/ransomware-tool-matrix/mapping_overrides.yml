@@ -1,0 +1,37 @@
+# Reviewed mappings for the BushidoUK Ransomware Tool Matrix.
+# Treat this source as a secondary ransomware tradecraft reference; only enrich existing actors.
+match_overrides:
+  akira:
+    - Akira
+  alphv:
+    - Alpha Spider
+  blackbasta:
+    - GOLD REBELLION
+  blackcat:
+    - Alpha Spider
+  blacksuit:
+    - DEV-0569
+  br0k3r:
+    - DEV-0569
+  medusalocker:
+    - Medusa
+  monti:
+    - MONTI
+  play:
+    - Play
+  prophetspider:
+    - Prophet Spider
+  royal:
+    - DEV-0569
+  scatteredspider:
+    - Scattered Spider
+  safepay:
+    - SafePay
+excluded_labels:
+  - BlackCat
+  - Royal
+  - Unknown
+alias_drop_list:
+  - Unknown
+tool_drop_list:
+  - "2"

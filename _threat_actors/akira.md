@@ -31,7 +31,17 @@ Akira is a ransomware variant and ransomware deployment entity active since at l
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+| Category | Observed tools |
+|---|---|
+| Credential Theft | DonPAPI, LaZagne, Mimikatz |
+| Defense Evasion | PowerTool, ThrottleStop driver (rwdrv.sys), Zemana Anti-Rootkit, Zemana Anti-Rootkit driver, churchill_driver.sys, fidget.sys, consent.exe (msimg32.dll, wmsgapi.dll), icardagt.exe (version.dll), mfpmp.exe (rtworkq.dll) |
+| Discovery | Advanced IP Scanner, Advanced Port Scanner, Bloodhound, Masscan, ReconFTW, ShareFinder, SharpHound, SharpShares, SoftPerfect NetScan, SoftPerfect Network Scanner, ldapdomaindump |
+| Exfiltration | FileZilla, MEGA, RClone, Temp[.]sh, WinRAR, WinSCP |
+| LOLBAS | net, netsh, nltest, vssadmin |
+| Networking | Cloudflared, Ngrok, OpenSSH, cloudflared |
+| OffSec | CrackMapExec, Impacket, NetExec, NetExec (NXC) |
+| RMM Tools | AnyDesk, MeshAgent, MobaXterm, Radmin, RustDesk, TeamViewer |
 
 ## Attribution and Evidence
 **Country of Origin**: Unknown
@@ -40,12 +50,6 @@ Akira is a ransomware variant and ransomware deployment entity active since at l
 ## References
 [1] [MITRE ATT&CK](https://attack.mitre.org/groups/G1024)
    MITRE ATT&CK entry
-
-
-[2] [BushidoToken Breach Report Collection - Nissan Australia breach report (December 2023) via nissan.com.au](https://www.nissan.com.au/website-update.html)
-   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: Akira (Ransomware).
-[3] [BushidoToken Breach Report Collection - BHI Energy breach report (October 2023) via documentcloud.org](https://www.documentcloud.org/documents/24075435-bhi-notice)
-   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: Akira (Ransomware).
 
 ## CISA Known Exploited Vulnerabilities (KEV)
 *The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*

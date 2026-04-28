@@ -31,18 +31,23 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+| Category | Observed tools |
+|---|---|
+| Credential Theft | Mimikatz, ProcDump, Router Scan, SharpChrome |
+| Defense Evasion | GMER, PCHunter |
+| Discovery | AdFind, Bloodhound, PowerView, Seatbelt, ShareFinder, SharpView, SoftPerfect NetScan |
+| Exfiltration | Dropfiles, MEGA, Qaz[.]im, RClone, Sendspace, WinSCP |
+| LOLBAS | BITSAdmin, NTDS Utility (ntdsutil), PsExec, WMIC |
+| OffSec | Cobalt Strike, Metasploit, Meterpreter, PowerShell Empire, PowerSploit, Rubeus |
+| RMM Tools | AnyDesk, Atera, Splashtop |
 
 ## Attribution and Evidence
 **Country of Origin**: Russia
 *Additional attribution information pending cataloguing.*
 
 ## References
-
-[1] [BushidoToken Breach Report Collection - Gloucester Council breach report (November 2021) via democracy.gloucester.gov.uk](https://democracy.gloucester.gov.uk/documents/s59774/Appendix%201%20-%20Executive%20Summary%20of%20NCC%20Group%20Report.pdf)
-   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: Conti (Ransomware).
-[2] [BushidoToken Breach Report Collection - Irish HSE breach report (May 2021) via hse.ie](https://www.hse.ie/eng/services/news/media/pressrel/hse-publishes-independent-report-on-conti-cyber-attack.html)
-   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: Conti (Ransomware).
+*References pending cataloguing.*
 
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*

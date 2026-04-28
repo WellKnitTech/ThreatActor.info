@@ -1,17 +1,74 @@
----
-name: Qilin
-aliases:
-- Qilin Ransomware
-description: Qilin is a ransomware group that first appeared in 2022 but had a breakout
-  year in 2024, with around 200 victims, 156 of them based in the U.S.
+name: "Qilin"
+aliases: ["Qilin Ransomware"]
+description: "Qilin is a ransomware group that first appeared in 2022 but had a breakout year in 2024, with around 200 victims, 156 of them based in the U.S."
 url: "/qilin"
-country: Unknown
-sector_focus:
-- Critical Infrastructure
-- Manufacturing
-- Healthcare
-- Government
-first_seen: '2022'
-last_activity: '2025'
-risk_level: High
-source_attribution: Manually curated from open source intelligence
+country: "Unknown"
+sector_focus: ["Critical Infrastructure","Manufacturing","Healthcare","Government"]
+first_seen: "2022"
+last_activity: "2025"
+last_updated: "2026-04-28"
+risk_level: "High"
+source_attribution: "Manually curated from open source intelligence"
+provenance:
+  ransomware_tool_matrix:
+    community_reports:
+      - source_file: "CommunityReports/CR-012-Qilin-April-2023.md"
+        incident_time: "April 2023"
+        victim_sector: "Manufacturing"
+        victim_country: "Asia Pacific"
+      - source_file: "CommunityReports/CR-013-Qilin-June-2022.md"
+        incident_time: "June 2022"
+        victim_sector: "Unknown"
+        victim_country: "Unknown"
+      - source_file: "CommunityReports/CR-014-Qilin-May-2024.md"
+        incident_time: "May 2024"
+        victim_sector: "Unknown"
+        victim_country: "USA"
+    references:
+      - title: "news.sophos.com"
+        url: "https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/"
+        date: "1 April 2025"
+        source_file: "GroupProfiles/Qilin.md"
+      - title: "www.picussecurity.com"
+        url: "https://www.picussecurity.com/resource/blog/qilin-ransomware"
+        date: "10 March 2025"
+        source_file: "GroupProfiles/Qilin.md"
+      - title: "www.sophos.com"
+        url: "https://www.sophos.com/en-us/blog/i-am-not-a-robot-clickfix-used-to-deploy-stealc-and-qilin"
+        date: "18 December 2025"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "www.secureworks.com"
+        url: "https://www.secureworks.com/research/threat-profiles/gold-feather"
+        date: "19 June 2024"
+        source_file: "GroupProfiles/Qilin.md"
+      - title: "redpiranha.net"
+        url: "https://redpiranha.net/news/qilin-ransomware-all-you-need-know"
+        date: "25 April 2025"
+        source_file: "GroupProfiles/Qilin.md"
+      - title: "www.trendmicro.com"
+        url: "https://www.trendmicro.com/en_us/research/22/h/new-golang-ransomware-agenda-customizes-attacks.html"
+        date: "25 August 2022"
+        source_file: "GroupProfiles/Qilin.md"
+      - title: "www.trendmicro.com"
+        url: "https://www.trendmicro.com/en_us/research/24/c/agenda-ransomware-propagates-to-vcenters-and-esxi-via-custom-pow.html"
+        date: "26 March 2024"
+        source_file: "GroupProfiles/Qilin.md"
+      - title: "www.darktrace.com"
+        url: "https://www.darktrace.com/blog/a-busy-agenda-darktraces-detection-of-qilin-ransomware-as-a-service-operator"
+        date: "4/7/2024"
+        source_file: "CommunityReports/CR-012-Qilin-April-2023.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["CommunityReports/CR-012-Qilin-April-2023.md","CommunityReports/CR-013-Qilin-June-2022.md","CommunityReports/CR-014-Qilin-May-2024.md","GroupProfiles/Qilin.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
+    source_label: "Qilin / Qilin Ransomware"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      Credential Theft: ["Mimikatz"]
+      Defense Evasion: ["EDRSandBlast","PCHunter","PowerTool","Toshiba power management driver (BYOVD)","Updater for Carbon Black’s Cloud Sensor AV (upd.exe)","YDArk","Zemana Anti-Rootkit driver"]
+      Discovery: ["Nmap","Nping"]
+      Exfiltration: ["EasyUpload","EasyUpload.io","FTP (102GB)","HTTP/S (783GB)","MEGA cloud storage (30GB)","Not observed (3 systems encrypted)"]
+      LOLBAS: ["PowerShell","PsExec","WinRM","fsutil"]
+      Networking: ["Proxychains","RDP","Used SCCM and VMWare ESXi for lateral movement in network","Used SMB, RDP, WMI for lateral movement in network","WMI","lateral movement via DCE-RPC and RDP"]
+      OffSec: ["Cobalt Strike","Cobalt Strike - (HTTP/SSL traffic linked to Cobalt Strike, including PowerShell request for sihost64.dll)","Evilginx","Kali Linux","NetExec","SystemBC","Tofsee a modular trojan"]
+      RMM Tools: ["NetSupport","ScreenConnect"]

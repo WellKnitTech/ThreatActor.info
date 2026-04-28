@@ -63,4 +63,7 @@ data/imports/etda-thaicert/*
 !data/imports/bushido-breach-reports/
 data/imports/bushido-breach-reports/*
 !data/imports/bushido-breach-reports/mapping_overrides.yml
+!data/imports/ransomware-tool-matrix/
+data/imports/ransomware-tool-matrix/*
+!data/imports/ransomware-tool-matrix/mapping_overrides.yml
 vendor/

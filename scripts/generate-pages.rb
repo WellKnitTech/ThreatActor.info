@@ -64,18 +64,24 @@ SKIP_ACTORS = %w[
 options = {
   force: false,
   dry_run: false,
-  verbose: false
+  verbose: false,
+  actor_filters: []
 }
 
 OptionParser.new do |opts|
   opts.banner = "Usage: ruby scripts/generate-pages.rb [options]"
   opts.on("--force", "Overwrite existing pages") { |v| options[:force] = v }
   opts.on("--dry-run", "Preview only, don't write") { |v| options[:dry_run] = v }
+  opts.on("--actor NAME", "Generate a specific actor by name or slug (repeatable)") { |value| options[:actor_filters] << value }
   opts.on("-v", "--verbose", "Show detailed output") { |v| options[:verbose] = v }
 end.parse!
 
 def log(msg)
   puts msg if ENV['VERBOSE'] || $VERBOSE
+end
+
+def normalize_actor_filter(value)
+  value.to_s.downcase.gsub(/[^a-z0-9]+/, '')
 end
 
 # Check if a page is manually enriched (should be preserved)
@@ -175,6 +181,22 @@ def get_country_flag(country)
   end
   
   "🏳️"
+end
+
+def ransomware_tool_matrix_tools(actor)
+  provenance = actor['provenance']
+  return {} unless provenance.is_a?(Hash)
+
+  matrix = provenance['ransomware_tool_matrix']
+  return {} unless matrix.is_a?(Hash)
+
+  tools_by_category = matrix['tools_by_category']
+  return {} unless tools_by_category.is_a?(Hash)
+
+  tools_by_category.each_with_object({}) do |(category, tools), memo|
+    normalized_tools = Array(tools).map(&:to_s).map(&:strip).reject(&:empty?).uniq
+    memo[category.to_s] = normalized_tools unless normalized_tools.empty?
+  end
 end
 
 # Build page body from YAML data
@@ -292,6 +314,7 @@ def build_body(actor)
   # Malware
   sections << "## Malware and Tools"
   mal_list = actor['malware'] || []
+  matrix_tools = ransomware_tool_matrix_tools(actor)
   
   if mal_list && mal_list.any?
     mal_list.each do |m|
@@ -305,7 +328,17 @@ def build_body(actor)
         sections << "- **#{m}**"
       end
     end
-  else
+  end
+
+  if matrix_tools.any?
+    sections << "" if mal_list && mal_list.any?
+    sections << "### Ransomware Tool Matrix observations"
+    sections << "| Category | Observed tools |"
+    sections << "|---|---|"
+    matrix_tools.sort.each do |category, tools|
+      sections << "| #{category} | #{tools.sort.join(', ')} |"
+    end
+  elsif !mal_list || mal_list.empty?
     sections << "*Information pending cataloguing.*"
   end
   sections << ""
@@ -618,6 +651,15 @@ data = ActorStore.load_all
 
 unless data.is_a?(Array) && data.any?
   abort 'Error: No actors found in _data/actors/*.yml'
+end
+
+unless options[:actor_filters].empty?
+  requested = options[:actor_filters].map { |value| value.to_s.downcase.gsub(/[^a-z0-9]+/, '') }
+  data = data.select do |actor|
+    name_key = actor['name'].to_s.downcase.gsub(/[^a-z0-9]+/, '')
+    slug_key = actor['url'].to_s.sub(%r{^/}, '').sub(%r{/$}, '').downcase.gsub(/[^a-z0-9]+/, '')
+    requested.include?(name_key) || requested.include?(slug_key)
+  end
 end
 
 puts "Found #{data.length} actors"

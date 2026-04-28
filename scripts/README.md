@@ -201,6 +201,18 @@ ruby scripts/import-eternal-liberty.rb import --snapshot data/imports/eternal-li
 
 ---
 
+### import-ransomware-tool-matrix.rb
+
+Import BushidoUK Ransomware Tool Matrix observations for existing actors.
+
+```bash
+ruby scripts/import-ransomware-tool-matrix.rb fetch --output data/imports/ransomware-tool-matrix/$(date +%F)
+ruby scripts/import-ransomware-tool-matrix.rb plan --snapshot data/imports/ransomware-tool-matrix/DATE
+ruby scripts/import-ransomware-tool-matrix.rb import --snapshot data/imports/ransomware-tool-matrix/DATE
+```
+
+---
+
 ### import-aptnotes.rb
 
 Import APTnotes references.
