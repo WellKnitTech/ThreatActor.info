@@ -176,6 +176,18 @@ ruby scripts/import-apt-groups-operations.rb import --snapshot data/imports/apt-
 
 ---
 
+### import-eternal-liberty.rb
+
+Import EternalLiberty alias crosswalk data for existing actors.
+
+```bash
+ruby scripts/import-eternal-liberty.rb fetch --output data/imports/eternal-liberty/$(date +%F)
+ruby scripts/import-eternal-liberty.rb plan --snapshot data/imports/eternal-liberty/DATE
+ruby scripts/import-eternal-liberty.rb import --snapshot data/imports/eternal-liberty/DATE
+```
+
+---
+
 ### import-aptnotes.rb
 
 Import APTnotes references.
