@@ -574,7 +574,7 @@ risk_level = if confidence >= 70
       actor['risk_level'] ||= candidate[:risk_level]
       actor['sector_focus'] ||= candidate[:sector_focus] if candidate[:sector_focus] && !candidate[:sector_focus].empty?
       actor['country'] ||= candidate[:country]
-      actor['targeted_victims'] ||= candidate[:targeted_victims'] if candidate['targeted_victims'] && !candidate['targeted_victims'].empty?
+      actor['targeted_victims'] ||= candidate[:targeted_victims] if candidate[:targeted_victims] && !candidate[:targeted_victims].empty?
       actor['incident_type'] ||= candidate[:incident_type] if candidate[:incident_type]
       actor['malware'] ||= candidate[:malware] if candidate[:malware] && !candidate[:malware].empty?
 

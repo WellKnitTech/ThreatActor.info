@@ -10,6 +10,7 @@ This directory contains Ruby scripts for managing threat actor data, importing e
 | `generate-pages.rb` | Generate MD pages from YAML | After edits |
 | `generate-indexes.rb` | Build JSON API artifacts | After edits |
 | `validate-content.rb` | Validate all content | Before PR |
+| `import-automated-sources.rb` | Run snapshot-backed public source imports | Scheduled / on-demand |
 | `import-*.rb` | Import from external sources | As needed |
 
 ---
@@ -90,6 +91,18 @@ ruby scripts/validate-content.rb
 ---
 
 ## Import Scripts
+
+### import-automated-sources.rb
+
+Run the standard automated import set. Analyst notes are intentionally excluded from this runner and stay a separate manual enrichment path.
+
+```bash
+ruby scripts/import-automated-sources.rb                  # Fetch + plan
+ruby scripts/import-automated-sources.rb --apply          # Import + regenerate + validate
+ruby scripts/import-automated-sources.rb --source malpedia # Limit to one source
+```
+
+---
 
 ### import-mitre.rb
 
