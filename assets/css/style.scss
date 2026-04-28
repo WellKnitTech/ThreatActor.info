@@ -678,6 +678,15 @@ a:hover {
   color: var(--text-secondary);
 }
 
+.source-attribution-panel ul {
+  color: var(--text-secondary);
+  padding-left: 1.25rem;
+}
+
+.source-attribution-panel li {
+  margin-bottom: 0.5rem;
+}
+
 .source-attribution-panel strong {
   color: var(--text-primary);
 }
