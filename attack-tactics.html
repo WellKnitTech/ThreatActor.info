@@ -1,120 +1,18 @@
 ---
-layout: default
+layout: null
 title: ATT&CK Tactics
 permalink: /attack-tactics/
+sitemap: false
 ---
-
-<div class="malware-index attack-tactics-hub">
-  <section class="hero">
-    <h1>ATT&amp;CK Tactics</h1>
-    <p class="hero-subtitle">
-      Browse MITRE ATT&amp;CK tactics. Each tactic page lists threat actors in this project whose mapped techniques fall under that tactic.
-      Full technique coverage comes from the Enterprise bundle (cached under <code>data/mitre-cache/</code> after you run
-      <code>ruby scripts/generate-indexes.rb</code> with network access, or from an importer snapshot under <code>data/imports/mitre-attack/</code>).
-    </p>
-    <div class="quick-stats">
-      <div class="stat">
-        <span class="stat-number" id="tactic-hub-count">-</span>
-        <span class="stat-label">Tactics</span>
-      </div>
-    </div>
-  </section>
-
-  <section class="quick-filters">
-    <h2>Search tactics</h2>
-    <div class="filter-chips">
-      <div class="filter-group filter-grow">
-        <label for="tactic-hub-search">Filter:</label>
-        <input type="text" id="tactic-hub-search" placeholder="TAxxxx or tactic name..." autocomplete="off">
-      </div>
-      <div class="filter-group">
-        <label for="tactic-hub-scope">Show:</label>
-        <select id="tactic-hub-scope">
-          <option value="linked" selected>Only tactics with linked threat actors</option>
-          <option value="all">All tactics</option>
-        </select>
-      </div>
-      <button type="button" id="tactic-hub-apply">Search</button>
-      <button type="button" id="tactic-hub-clear" class="secondary">Clear</button>
-    </div>
-  </section>
-
-  <section class="malware-section">
-    <div class="malware-grid" id="tactic-hub-grid"></div>
-  </section>
-</div>
-
-<script>
-(function () {
-  const BASE = '{{ site.baseurl }}' || '';
-
-  function esc(s) {
-    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  }
-
-  Promise.all([
-    fetch(BASE + '/api/tactics.json').then(function (r) { return r.json(); }),
-    fetch(BASE + '/api/actors_by_tactic.json').then(function (r) { return r.json(); }).catch(function () { return {}; })
-  ]).then(function (results) {
-    var tactics = results[0] || [];
-    var byTactic = results[1] || {};
-    document.getElementById('tactic-hub-count').textContent = tactics.length;
-
-    function render(list) {
-      var grid = document.getElementById('tactic-hub-grid');
-      if (!list.length) {
-        grid.innerHTML = '<p class="load-error">No tactics found. Run <code>ruby scripts/generate-indexes.rb</code>.</p>';
-        return;
-      }
-      grid.innerHTML = list.map(function (t) {
-        var id = t.mitre_id || '';
-        var n = (byTactic[id] || []).length;
-        var href = t.permalink ? BASE + t.permalink : '#';
-        return (
-          '<article class="malware-card">' +
-          '<h3><a href="' + esc(href) + '">' + esc(t.title || id) + '</a></h3>' +
-          '<div class="card-meta">' +
-          (id ? '<span class="category">' + esc(id) + '</span>' : '') +
-          '</div>' +
-          '<p class="card-desc">Threat actors in this project: <strong>' + n + '</strong></p>' +
-          '<a href="' + esc(href) + '" class="card-link">Open tactic →</a>' +
-          '</article>'
-        );
-      }).join('');
-    }
-
-    render(tactics);
-
-    function filterList() {
-      var term = document.getElementById('tactic-hub-search').value.trim().toLowerCase();
-      var scope = document.getElementById('tactic-hub-scope').value;
-      var filtered = tactics.filter(function (t) {
-        var id = (t.mitre_id || '');
-        var actorCount = (byTactic[id] || []).length;
-        if (scope === 'linked' && actorCount === 0) return false;
-
-        if (!term) return true;
-        var idLc = id.toLowerCase();
-        var title = (t.title || '').toLowerCase();
-        return idLc.includes(term) || title.includes(term);
-      });
-      render(filtered);
-    }
-
-    filterList();
-
-    document.getElementById('tactic-hub-apply').onclick = filterList;
-    document.getElementById('tactic-hub-clear').onclick = function () {
-      document.getElementById('tactic-hub-search').value = '';
-      document.getElementById('tactic-hub-scope').value = 'linked';
-      filterList();
-    };
-    document.getElementById('tactic-hub-scope').addEventListener('change', filterList);
-    document.getElementById('tactic-hub-search').addEventListener('keypress', function (e) {
-      if (e.key === 'Enter') filterList();
-    });
-  }).catch(function () {
-    document.getElementById('tactic-hub-grid').innerHTML = '<p class="load-error">Unable to load tactics.</p>';
-  });
-})();
-</script>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta http-equiv="refresh" content="0; url={{ '/ttps/' | relative_url }}">
+  <link rel="canonical" href="{{ '/ttps/' | absolute_url }}">
+</head>
+<body>
+  <p>Moved to <a href="{{ '/ttps/' | relative_url }}">{{ '/ttps/' | relative_url }}</a>.</p>
+</body>
+</html>

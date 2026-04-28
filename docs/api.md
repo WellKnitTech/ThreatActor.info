@@ -258,9 +258,13 @@ const group = shard.groups.find((g) => g.key === '192.168');
 
 Array of MITRE technique summaries from `_techniques/*.md` front matter (`title`, `mitre_id`, `permalink`, `mitre_url`, `domains`).
 
+The `/ttps/` ATT&CK matrix page consumes this together with `tactics.json`, `technique-tactics.json`, and the actor indexes below.
+
 ### `/api/tactics.json`
 
 Array of MITRE tactic summaries from `_tactics/*.md`.
+
+The `/ttps/` matrix orders its tactic columns using this array (Enterprise kill-chain order when indexes are regenerated).
 
 ### `/api/mitigations.json`
 

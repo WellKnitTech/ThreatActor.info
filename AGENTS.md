@@ -18,6 +18,7 @@ This reflects the current repository, CI workflow, and validation scripts.
 - `_layouts/default.html`, `_layouts/threat_actor.html`: templates.
 - `_includes/search.html`: search/filter UI and client-side parser.
 - `iocs/index.html` and `iocs/<type>.html`: IOC hub and per-type browsers; shared UI in `_layouts/ioc_type.html` and `_includes/ioc-browser.html`.
+- `ttps.html`: Enterprise ATT&CK matrix at `/ttps/` (client-built from `/api/tactics.json`, `/api/techniques.json`, `/api/technique-tactics.json`, `/api/actors_by_technique.json`, `/api/actors_by_tactic.json`). Legacy `/attack-tactics/` redirects here.
 - `assets/css/style.scss`: main stylesheet.
 - `scripts/validate-content.rb`: main validator.
 - `scripts/import-ransomlook.rb`: manual importer for RansomLook-derived actor metadata.
