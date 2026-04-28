@@ -8,6 +8,27 @@ mitre_id: "G1004"
 mitre_url: "https://attack.mitre.org/groups/G1004"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
+  bushido_breach_reports:
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_retrieved_at: "2026-04-28T01:40:03Z"
+    reports:
+      - organization: "Uber"
+        breach_date: "September 2022"
+        adversary_label: "Lapsus$ (suspected)"
+        links: ["https://www.uber.com/newsroom/security-update/"]
+        archived_links: ["https://web.archive.org/web/20230405195617/https://www.uber.com/newsroom/security-update/"]
+      - organization: "Okta"
+        breach_date: "April 2022"
+        adversary_label: "Lapsus$"
+        links: ["https://www.okta.com/blog/2022/04/okta-concludes-its-investigation-into-the-january-2022-compromise/"]
+        archived_links: ["https://web.archive.org/web/20230325071437/https://www.okta.com/blog/2022/04/okta-concludes-its-investigation-into-the-january-2022-compromise/"]
+      - organization: "Microsoft"
+        breach_date: "March 2022"
+        adversary_label: "Lapsus$"
+        links: ["https://www.microsoft.com/en-us/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"]
+        archived_links: ["https://web.archive.org/web/20230212051224/https://www.microsoft.com/en-us/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"]
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1004"

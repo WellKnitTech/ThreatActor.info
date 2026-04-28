@@ -23,6 +23,18 @@ cisa_kev_cves:
   "product" => "Virtual System/Server Administrator (VSA)"}'
 - '{"cve" => "CVE-2019-11539", "dateAdded" => "2021-11-03", "vendor" => "Ivanti",
   "product" => "Pulse Connect Secure and Pulse Policy Secure"}'
+provenance:
+  bushido_breach_reports:
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_retrieved_at: "2026-04-28T01:40:03Z"
+    reports:
+      - organization: "Kaseya"
+        breach_date: "July 2021"
+        adversary_label: "REvil (Ransomware)"
+        links: ["https://helpdesk.kaseya.com/hc/en-gb/articles/4403584098961-Incident-Overview-Technical-Details"]
+        archived_links: ["https://web.archive.org/web/20230416084704/https://helpdesk.kaseya.com/hc/en-gb/articles/4403584098961-Incident-Overview-Technical-Details"]
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
   under CC BY 4.0 license."
 source_name: MITRE CISA KEV

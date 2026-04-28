@@ -57,6 +57,17 @@ malware:
 - BlackHole
 - PowerRAT
 provenance:
+  bushido_breach_reports:
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_retrieved_at: "2026-04-28T01:40:03Z"
+    reports:
+      - organization: "Viasat KA-SAT"
+        breach_date: "February 2022"
+        adversary_label: "Sandworm (RU APT)"
+        links: ["https://news.viasat.com/blog/corporate/ka-sat-network-cyber-attack-overview"]
+        archived_links: ["https://web.archive.org/web/20230407225107/https://news.viasat.com/blog/corporate/ka-sat-network-cyber-attack-overview"]
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
     source_record_id: f512de42-f76b-40d2-9923-59e7dbdfec35

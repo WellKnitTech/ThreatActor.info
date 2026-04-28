@@ -53,3 +53,15 @@ APT29 is threat group that has been attributed to Russia's Foreign Intelligence 
 [1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0016)
    MITRE ATT&CK entry
 
+
+[2] [BushidoToken Breach Report Collection - Microsoft breach report (January 2024) via microsoft.com (1)](https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack/)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: CozyBear (RU APT).
+[3] [BushidoToken Breach Report Collection - Microsoft breach report (January 2024) via microsoft.com (2)](https://msrc.microsoft.com/blog/2024/03/update-on-microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard/)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: CozyBear (RU APT).
+[4] [BushidoToken Breach Report Collection - Microsoft breach report (February 2021) via msrc.microsoft.com](https://msrc.microsoft.com/blog/2021/02/microsoft-internal-solorigate-investigation-final-update/)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: CozyBear (RU APT).
+[5] [BushidoToken Breach Report Collection - FireEye breach report (December 2020) via fireeye.com](https://www.fireeye.com/blog/threat-research/2020/12/unauthorized-access-of-fireeye-red-team-tools.html)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: CozyBear (RU APT).
+[6] [BushidoToken Breach Report Collection - SolarWinds breach report (December 2020) via solarwinds.com](https://orangematter.solarwinds.com/2021/01/11/new-findings-from-our-investigation-of-sunburst/)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: CozyBear (RU APT).
+

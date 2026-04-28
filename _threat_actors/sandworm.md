@@ -48,5 +48,7 @@ This threat actor targets industrial control systems, using a tool called Black 
 *Additional attribution information pending cataloguing.*
 
 ## References
-*References pending cataloguing.*
+
+[1] [BushidoToken Breach Report Collection - Viasat KA-SAT breach report (February 2022) via news.viasat.com](https://news.viasat.com/blog/corporate/ka-sat-network-cyber-attack-overview)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: Sandworm (RU APT).
 

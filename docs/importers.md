@@ -28,6 +28,62 @@ Reviewed name and rename handling lives in `data/imports/ransomlook/mapping_over
 - Use `ruby scripts/evaluate-source-deltas.rb` to enforce update thresholds before publishing large changes.
 - See `docs/data-flows.md` for the source-of-truth map and the analyst-note supersession policy.
 
+## BushidoToken Breach Report Collection Importer
+
+`scripts/import-bushido-breach-reports.rb` adds reviewed breach-report links from the BushidoToken Breach Report Collection to existing actors.
+
+Source: https://github.com/BushidoUK/Breach-Report-Collection
+
+### Why this importer is conservative
+
+- The collection is a report index, not a canonical actor dataset.
+- Imports only enrich existing actors; they do not create new actors.
+- Unknown, generic, ambiguous, and unresolved adversary labels stay in the reviewed skip list.
+- Matched rows add provenance to `_data/actors/*.yml` and article links to each actor page's `References` section.
+
+Reviewed mappings live in `data/imports/bushido-breach-reports/mapping_overrides.yml`.
+
+### Commands
+
+Fetch a snapshot:
+
+```bash
+ruby scripts/import-bushido-breach-reports.rb fetch --output data/imports/bushido-breach-reports/2026-04-28
+```
+
+Preview reviewed matches:
+
+```bash
+ruby scripts/import-bushido-breach-reports.rb plan --snapshot data/imports/bushido-breach-reports/2026-04-28
+```
+
+Apply the enrichment:
+
+```bash
+ruby scripts/import-bushido-breach-reports.rb import --snapshot data/imports/bushido-breach-reports/2026-04-28
+```
+
+Write a machine-readable review report:
+
+```bash
+ruby scripts/import-bushido-breach-reports.rb plan --snapshot data/imports/bushido-breach-reports/2026-04-28 --report-json tmp/bushido-breach-reports.json
+```
+
+### Field mapping
+
+| Bushido Field | Our Schema Field | Notes |
+|---------------|------------------|-------|
+| `Organization` | `provenance.bushido_breach_reports.reports[].organization` and References title | Breached entity named by the source row |
+| `Breach Date` | `provenance.bushido_breach_reports.reports[].breach_date` and References title | Month/year text from the source |
+| `Adversary` | actor matching and `adversary_label` | Preserved as source label, including qualifiers such as ransomware/APT |
+| primary `Source` links | actor page `References` and provenance `links` | Archive links are kept separately in provenance |
+
+### Attribution
+
+The importer preserves source attribution using the pattern:
+
+`References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.`
+
 ## Commands
 
 Fetch a public snapshot:

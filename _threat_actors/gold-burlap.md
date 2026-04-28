@@ -33,5 +33,7 @@ GOLD BURLAP is a group of financially motivated criminals responsible for the de
 *Information pending cataloguing.*
 
 ## References
-*References pending cataloguing.*
+
+[1] [BushidoToken Breach Report Collection - London Borough of Hackney breach report (October 2020) via ico.org.uk](https://ico.org.uk/media2/migrated/4030344/20240705-lboh-updated-reprimand-with-redactions-1.pdf)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: Pysa (Ransomware).
 

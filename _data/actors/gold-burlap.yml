@@ -18,6 +18,17 @@ malware:
 - Archelaus Beta
 - CrossRat
 provenance:
+  bushido_breach_reports:
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_retrieved_at: "2026-04-28T01:40:03Z"
+    reports:
+      - organization: "London Borough of Hackney"
+        breach_date: "October 2020"
+        adversary_label: "Pysa (Ransomware)"
+        links: ["https://ico.org.uk/media2/migrated/4030344/20240705-lboh-updated-reprimand-with-redactions-1.pdf"]
+        archived_links: ["https://archive.is/UVU6l"]
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
     source_record_id: d34ca487-1613-4ee5-8930-2ac8a60f945f

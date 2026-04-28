@@ -28,6 +28,32 @@ source_attribution: "© The MITRE Corporation. This work is reproduced and distr
 malware:
 - Hacking Team UEFI Rootkit
 provenance:
+  bushido_breach_reports:
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_retrieved_at: "2026-04-28T01:40:03Z"
+    reports:
+      - organization: "Coinbase"
+        breach_date: "February 2023"
+        adversary_label: "0ktapus (suspected)"
+        links: ["https://www.coinbase.com/blog/social-engineering-a-coinbase-case-study"]
+        archived_links: ["https://web.archive.org/web/20230222172459/https://www.coinbase.com/blog/social-engineering-a-coinbase-case-study"]
+      - organization: "Reddit"
+        breach_date: "February 2023"
+        adversary_label: "0ktapus (suspected)"
+        links: ["https://www.reddit.com/r/reddit/comments/10y427y/we_had_a_security_incident_heres_what_we_know/"]
+        archived_links: ["https://web.archive.org/web/20230210080951/https://www.reddit.com/r/reddit/comments/10y427y/we_had_a_security_incident_heres_what_we_know/"]
+      - organization: "Okta"
+        breach_date: "August 2022"
+        adversary_label: "0ktapus"
+        links: ["https://sec.okta.com/scatterswine"]
+        archived_links: ["https://web.archive.org/web/20230131172440/https://sec.okta.com/scatterswine/"]
+      - organization: "Twilio"
+        breach_date: "August 2022"
+        adversary_label: "0ktapus"
+        links: ["https://www.twilio.com/blog/august-2022-social-engineering-attack"]
+        archived_links: ["https://web.archive.org/web/20230404043749/https://www.twilio.com/blog/august-2022-social-engineering-attack"]
   mitre:
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_record_id: G1015

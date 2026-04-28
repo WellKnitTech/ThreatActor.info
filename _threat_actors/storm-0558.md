@@ -40,5 +40,7 @@ Storm-0558 is a China-based threat actor with espionage objectives. While there 
 *Additional attribution information pending cataloguing.*
 
 ## References
-*References pending cataloguing.*
+
+[1] [BushidoToken Breach Report Collection - Microsoft breach report (July 2023) via microsoft.com](https://www.microsoft.com/en-us/security/blog/2023/07/14/analysis-of-storm-0558-techniques-for-unauthorized-email-access/)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: Storm-0558 (CN APT).
 

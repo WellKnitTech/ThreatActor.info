@@ -38,7 +38,11 @@ LockBit is a ransomware-as-a-service operation known for its fast encryption and
 *Additional attribution information pending cataloguing.*
 
 ## References
-*References pending cataloguing.*
+
+[1] [BushidoToken Breach Report Collection - Boeing breach report (November 2023) via cisa.gov](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-325a)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: LockBit (Ransomware).
+[2] [BushidoToken Breach Report Collection - Advanced Computer Software Group breach report (August 2022) via ico.org.uk](https://ico.org.uk/media2/gdlfddgc/advanced-penalty-notice-20250327.pdf)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: LockBit (Ransomware).
 
 ## CISA Known Exploited Vulnerabilities (KEV)
 *The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*

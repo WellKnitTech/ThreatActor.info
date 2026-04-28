@@ -38,7 +38,11 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 *Additional attribution information pending cataloguing.*
 
 ## References
-*References pending cataloguing.*
+
+[1] [BushidoToken Breach Report Collection - Gloucester Council breach report (November 2021) via democracy.gloucester.gov.uk](https://democracy.gloucester.gov.uk/documents/s59774/Appendix%201%20-%20Executive%20Summary%20of%20NCC%20Group%20Report.pdf)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: Conti (Ransomware).
+[2] [BushidoToken Breach Report Collection - Irish HSE breach report (May 2021) via hse.ie](https://www.hse.ie/eng/services/news/media/pressrel/hse-publishes-independent-report-on-conti-cyber-attack.html)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: Conti (Ransomware).
 
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*

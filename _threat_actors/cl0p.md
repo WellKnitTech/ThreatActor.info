@@ -41,3 +41,9 @@ TA505 is a cyber criminal group that has been active since at least 2014. TA505 
 [1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0092)
    MITRE ATT&CK entry
 
+
+[2] [BushidoToken Breach Report Collection - New Zealand Reserve Bank breach report (January 2021) via rbnz.govt.nz](https://www.rbnz.govt.nz/about-us/responsibility-and-accountability/our-response-to-the-data-breach)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: Clop (Ransomware).
+[3] [BushidoToken Breach Report Collection - Qualys breach report (December 2020) via blog.qualys.com](https://blog.qualys.com/vulnerabilities-threat-research/2021/04/02/qualys-update-on-accellion-fta-security-incident)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: Clop (Ransomware).
+
