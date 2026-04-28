@@ -1,465 +1,190 @@
+[![Jekyll](https://img.shields.io/badge/Jekyll-4.4+-2e2642?style=flat&logo=jekyll)](https://jekyllrb.com)
+[![Ruby](https://img.shields.io/badge/Ruby-3.2.5-CC342D?style=flat&logo=ruby)](https://www.ruby-lang.org)
+[![License: Unlicense](https://img.shields.io/badge/License-Public%20Domain-success?style=flat)](LICENSE)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Active-24292F?style=flat&logo=github)](https://wellknittech.github.io/ThreatActor.info/)
+
 # ThreatActor.info
 
-[![Jekyll](https://img.shields.io/badge/Jekyll-4.4+-2e2642?style=flat&logo=jekyll)](https://jekyllrb.com)
-[![Ruby](https://img.shields.io/badge/Ruby-3.2+-CC342D?style=flat&logo=ruby)](https://www.ruby-lang.org)
-[![License: Unlicense](https://img.shields.io/badge/License-Public%20Domain-_success?style=flat)](LICENSE)
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Active-327GC4?style=flat&logo=github)](https://wellknittech.github.io/ThreatActor.info/)
-[![Actors](https://img.shields.io/badge/1%2C062-Threat%20Actors-8B5CF6?style=flat)](https://wellknittech.github.io/ThreatActor.info/threat-actors/)
+ThreatActor.info is a static Jekyll knowledge base for threat actors, campaigns, malware, indicators, and related intelligence artifacts. The repository stores canonical actor metadata in YAML, synchronizes actor pages from that data, and generates static JSON APIs for the site UI and downstream use.
 
-A community-driven threat intelligence wiki that collects and organizes information about various threat actors, APT groups, and cybercriminal organizations. This project aims to provide a centralized, searchable database of threat actor information that the cybersecurity community can contribute to and benefit from.
+Live site: https://wellknittech.github.io/ThreatActor.info/
 
-**[View Live Wiki →](https://wellknittech.github.io/ThreatActor.info/)**
+## What the project does
 
-## 🎯 Project Goals
+- Maintains canonical actor records in `_data/actors/*.yml`
+- Synchronizes actor pages in `_threat_actors/*.md`
+- Generates static API artifacts in `_data/generated/*.json` and `api/*.json`
+- Extracts malware, campaigns, ATT&CK mappings, references, and IOCs from actor content
+- Supports repeatable snapshot-based imports from public intelligence sources
+- Validates schema, page alignment, generated JSON, and safe Jekyll builds in CI
 
-- **Centralized Intelligence**: Collect threat actor information in one accessible location
-- **Community-Driven**: Enable cybersecurity professionals to contribute and share knowledge
-- **Searchable Database**: Provide advanced search and filtering capabilities
-- **Standardized Format**: Maintain consistent data structure and content format
-- **Open Source**: Keep the project open and accessible to the community
-- **Data-Driven**: Single source of truth in YAML, auto-generate pages
+## Current repository state
 
-## 🗺️ Roadmap
+- Jekyll static site with Ruby `3.2.5` and Bundler `2.5.10`
+- `1062` actor YAML records currently committed under `_data/actors/`
+- `271` malware pages currently committed under `_malware/`
+- No Node, TypeScript, package manager, or conventional unit-test framework
+- Validation is done through Ruby scripts plus `bundle exec jekyll build --safe`
 
-### Near-Term (Current Focus)
-- ✅ Treat `_threat_actors/` as the canonical Jekyll collection for rendered actor pages
-- ✅ Keep `_data/actors/*.yml` and collection pages synchronized through validation
-- ✅ Generate static JSON artifacts for actors, IOCs, facets, IOC lookup, and IOC type shards
-- ✅ Keep the search UI powered by generated JSON rather than raw YAML parsing
-- ⏳ Document the content workflow so contributors regenerate indexes after content edits
+## Repository layout
 
-### Medium-Term (Next Quarter)
-- Expand the generator to extract more structured sections such as malware, campaigns, ATT&CK techniques, and references
-- Normalize IOC parsing further for hashes, file extensions, domains, URLs, and deconfanged values
-- Add lightweight cross-links between actors that share infrastructure, malware families, or aliases
-- Add collection-backed landing pages for sectors, countries, malware, and campaigns using generated JSON facets
-- Introduce versioned API snapshots or changelog metadata so downstream users can track dataset changes
+```text
+_data/actors/              Canonical threat actor metadata
+_data/generated/           Generated JSON artifacts used by the UI and API
+_threat_actors/            Threat actor pages synchronized from YAML
+_malware/                  Generated malware/tool pages and metadata
+_layouts/                  Shared Jekyll layouts
+_includes/                 Shared UI includes, including search/filter UI
+api/                       Public static JSON API wrappers
+assets/css/style.scss      Main stylesheet
+scripts/                   Importers, generators, validators, and helpers
+docs/                      Supporting docs for API, schema, and data flows
+schemas/                   JSON schemas for generated artifacts
+```
 
-### Longer-Term (Vision)
-- Split the knowledge base into richer structured entities: actors, campaigns, malware, tools, references, and ATT&CK mappings
-- Publish a stronger static API surface with stable schemas, versioning, and compatibility notes
-- Add provenance metadata for generated records, including source section, extraction confidence, and last-reviewed timestamps
-- Support static client-side drilldowns for IOC relationships, actor clusters, and shared infrastructure graphs
-- Add release automation that regenerates artifacts, validates schema changes, and publishes a documented dataset release
+## Setup
 
-See [docs/roadmap.md](docs/roadmap.md) for the full phased plan.
+Run from the repository root:
 
-## 🚀 Features
-
-### Current Features
-- **188+ Threat Actors**: Comprehensive database of major APT groups and cybercriminal organizations
-- **Advanced Search**: Filter by country, risk level, sector focus, and keywords
-- **Static JSON API**: Publish generated threat actor, IOC, and facet endpoints under `api/`
-- **Rich Metadata**: Country attribution, risk levels, sector focus, activity timelines
-- **Responsive Design**: Mobile-friendly interface with modern UI
-- **Dark/Light Theme**: Solarized color palette with toggle
-- **IOC Copy Tools**: Click-to-copy for individual IOCs, categories, and bulk
-
-### Data-Driven Architecture
-- **Single Source of Truth**: `_data/actors/*.yml`
-- **Auto-Generated Pages**: Run generator to create all MD files from YAML
-- **Deterministic Generation**: Actor pages are regenerated from source-backed data and stable templates
-- **Import Ready**: Supports MITRE ATT&CK, MISP Galaxy, and other data sources
-
-## 🔄 Data-Driven Workflow
-
-### Quick Start
 ```bash
-# 1. Build the site (for local development)
-bundle exec jekyll build --safe
+gem install bundler -v 2.5.10
+bundle install
+```
 
-# 2. Run local server
+## Local development
+
+Serve the site locally:
+
+```bash
 bundle exec jekyll serve
 ```
 
-### Adding/Updating Threat Actors
+Build the site without serving:
 
-**Option 1: Import from MITRE ATT&CK**
 ```bash
-ruby scripts/import-mitre.rb           # Preview
-ruby scripts/import-mitre.rb --write   # Apply
+bundle exec jekyll build --safe
 ```
 
-**Option 2: Run source importers and regeneration pipeline**
+## Core workflow
+
+The normal data flow is:
+
+1. Import or edit actor source data in `_data/actors/*.yml`
+2. Synchronize pages with `ruby scripts/generate-pages.rb --force` when needed
+3. Regenerate indexes with `ruby scripts/generate-indexes.rb`
+4. Validate content with `ruby scripts/validate-content.rb`
+5. Validate generated schemas with `ruby scripts/validate-json-schemas.rb`
+6. Confirm the site builds with `bundle exec jekyll build --safe`
+
+Useful commands:
+
 ```bash
-# Example source update flow
-ruby scripts/import-misp-galaxy.rb fetch --output data/imports/misp-galaxy/$(date +%F)
-ruby scripts/import-cisa-kev.rb full
 ruby scripts/generate-pages.rb --force
 ruby scripts/generate-indexes.rb
-```
-
-**Option 3: Regenerate from YAML**
-```bash
-# Generate all pages from YAML data
-ruby scripts/generate-pages.rb
-
-# Preview without writing
-ruby scripts/generate-pages.rb --dry-run
-```
-
-### Build & Deploy
-```bash
-# Generate pages → Build site
-ruby scripts/generate-pages.rb && bundle exec jekyll build --safe
-
-# Full validation
-bash scripts/validate.sh
-```
-
-## 📁 Project Structure
-
-```
-threatactor-info/
-├── _config.yml              # Jekyll configuration
-├── _data/
-│   ├── actors/             # Sharded threat actor metadata (SOURCE OF TRUTH)
-│   ├── misp-reference/     # MISP Galaxy reference data (lookup only)
-│   └── generated/          # Generated JSON artifacts for APIs/search
-├── _layouts/
-│   ├── default.html       # Base layout template
-│   └── threat_actor.html  # Threat actor page template
-├── _includes/
-│   └── search.html        # Search functionality
-```
-threatactor-info/
-├── _config.yml              # Jekyll configuration
-├── _data/
-│   ├── actors/             # Sharded threat actor metadata (SOURCE OF TRUTH)
-│   └── generated/          # Generated JSON artifacts for APIs/search
-├── _layouts/
-│   ├── default.html       # Base layout template
-│   └── threat_actor.html  # Threat actor page template
-├── _includes/
-│   └── search.html        # Search functionality
-├── _threat_actors/       # Auto-generated threat actor pages
-├── scripts/
-│   ├── generate-pages.rb   # Page generator from YAML
-│   ├── import-mitre.rb   # MITRE ATT&CK importer
-│   └── add-actor.rb     # Actor helper script
-└── docs/
-    └── schema.md        # YAML schema documentation
-```
-├── api/
-│   ├── threat-actors.json   # Static threat actor API endpoint
-│   ├── iocs.json            # Static IOC API endpoint
-│   └── facets.json          # Static facet API endpoint
-├── scripts/
-│   ├── generate-indexes.rb  # Generates JSON indexes from YAML + Markdown
-│   └── validate-content.rb  # Content and generated artifact validator
-├── assets/
-│   └── css/
-│       └── style.scss       # Custom styles
-├── index.html               # Home page
-├── threat-actors.html       # Threat actors listing
-└── search.json              # Search index
-```
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Ruby 3.2.5
-- Bundler
-- Git
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/threatactor-info.git
-   cd threatactor-info
-   ```
-
-2. **Install dependencies**
-   ```bash
-   gem install bundler -v 2.5.10
-   bundle install
-   ```
-
-3. **Generate indexes**
-   ```bash
-   ruby scripts/generate-indexes.rb
-   ```
-
-4. **Optional: prepare imported actor snapshots**
-   ```bash
-   ruby scripts/import-ransomlook.rb fetch --output data/imports/ransomlook/$(date +%F) --limit 10
-   ruby scripts/import-ransomlook.rb plan --snapshot data/imports/ransomlook/$(date +%F)
-   ```
-
-5. **Run locally**
-   ```bash
-   bundle exec jekyll serve
-   ```
-
-6. **Access the site**
-    Open [http://localhost:4000](http://localhost:4000) in your browser
-
-### Development
-
-1. **Make changes** to threat actor data, content, or styling
-2. **Regenerate JSON artifacts** using `ruby scripts/generate-indexes.rb`
-3. **Run validation** using `ruby scripts/validate-content.rb`
-4. **Test locally** using `bundle exec jekyll serve`
-5. **Commit changes** and push to GitHub
-6. **Site updates** automatically via GitHub Pages
-
-## 📝 Contributing
-
-We welcome contributions from the cybersecurity community! Here's how you can help:
-
-### Adding New Threat Actors
-
-1. **Update source snapshots and importers** (preferred, no manual page edits):
-   ```yaml
-   - name: "Threat Actor Name"
-     aliases: ["Alias 1", "Alias 2"]
-     description: "Brief description of the threat actor"
-     url: "/threat-actor-name"
-     country: "Country of Origin"
-     sector_focus: ["Sector 1", "Sector 2"]
-     first_seen: "YYYY"
-     last_activity: "YYYY"
-     risk_level: "High|Critical|Medium|Low"
-   ```
-
-2. **Regenerate the threat actor page** (`_threat_actors/threat-actor-name.md`) via scripts:
-   ```markdown
-   ---
-   layout: threat_actor
-   title: "Threat Actor Name"
-   aliases: ["Alias 1", "Alias 2"]
-   description: "Brief description"
-   permalink: /threat-actor-name/
-   country: "Country"
-   sector_focus: ["Sector 1", "Sector 2"]
-   first_seen: "YYYY"
-   last_activity: "YYYY"
-   risk_level: "High"
-   ---
-   
-   ## Introduction
-   Detailed introduction about the threat actor...
-   
-   ## Activities and Tactics
-   Information about their activities...
-   
-   ## Notable Campaigns
-   List of major campaigns...
-   
-   ## Tactics, Techniques, and Procedures (TTPs)
-   MITRE ATT&CK techniques...
-   
-   ## Notable Indicators of Compromise (IOCs)
-   IPs, domains, hashes...
-   
-   ## Malware and Tools
-   Associated malware and tools...
-   
-   ## Attribution and Evidence
-   Attribution information...
-   
-   ## References
-   Links to reports and analysis...
-   ```
-
-### Updating Existing Information
-
-1. **Refresh upstream source snapshots/importers**
-2. **Regenerate pages** with `ruby scripts/generate-pages.rb --force`
-3. **Regenerate JSON artifacts** with `ruby scripts/generate-indexes.rb`
-4. **Run validation** with `ruby scripts/validate-content.rb`
-5. **Test locally** to ensure everything works
-6. **Submit a pull request**
-
-### Content Guidelines
-
-- **Accuracy**: Ensure all information is accurate and up-to-date
-- **Sources**: Include references and citations
-- **Format**: Follow the established content structure
-- **Neutrality**: Maintain objective, factual tone
-- **Completeness**: Include all available metadata fields
-
-## 🔍 Search and Filtering
-
-The site includes advanced search capabilities:
-
-- **Text Search**: Search by name, aliases, or description
-- **Country Filter**: Filter by country of origin
-- **Risk Level Filter**: Filter by threat level
-- **Sector Filter**: Filter by target sectors
-- **Combined Filters**: Use multiple filters simultaneously
-
-## 📊 Data Model
-
-### Threat Actor Fields
-
-| Field | Type | Description | Required |
-|-------|------|-------------|----------|
-| `name` | String | Primary threat actor name | Yes |
-| `aliases` | Array | Alternative names/aliases | Yes |
-| `description` | String | Brief description | Yes |
-| `url` | String | URL path for the actor | Yes |
-| `country` | String | Country of origin | No |
-| `sector_focus` | Array | Target sectors | No |
-| `first_seen` | String | First observed activity | No |
-| `last_activity` | String | Most recent activity | No |
-| `risk_level` | String | Threat level (Critical/High/Medium/Low) | No |
-
-### Risk Level Classifications
-
-- **Critical**: Immediate threat, active destructive campaigns
-- **High**: Significant threat, regular activity
-- **Medium**: Moderate threat, occasional activity
-- **Low**: Limited threat, minimal activity
-
-### Generated Artifacts
-
-- `ruby scripts/generate-indexes.rb` reads `_data/actors/*.yml` and `_threat_actors/*.md`
-- `_data/generated/threat_actors.json` stores actor metadata for the UI and API
-- `_data/generated/iocs.json` stores a first-pass IOC index extracted from each `## Notable Indicators of Compromise (IOCs)` section
-- `_data/generated/facets.json` stores countries, risk levels, sectors, IOC types, and counts for filters
-- `_data/generated/campaigns.json` stores flattened campaign entries extracted from `## Notable Campaigns`
-- `_data/generated/malware.json` stores flattened malware/tool entries extracted from `## Malware and Tools`
-- `_data/generated/attack_mappings.json` stores extracted ATT&CK group and technique mappings
-- `_data/generated/references.json` stores flattened references and IOC source links
-- `_data/generated/ioc_lookup.json` stores IOC records keyed by normalized value for client-side lookup
-- `_data/generated/ioc_types.json` stores a manifest of IOC-type shard endpoints
-- `_data/generated/iocs_by_type/*.json` stores IOC shards grouped by IOC type
-- `docs/importers.md` documents automated source-import workflows, delta gating, and attribution requirements
-
-## API Endpoints
-
-- `/api/threat-actors.json`: generated actor metadata, page URLs, section headings, and IOC counts
-- `/api/iocs.json`: generated IOC records with actor linkage, type, source heading, and normalized value
-- `/api/facets.json`: generated filter facets and summary counts used by the search UI
-- `/api/campaigns.json`: flattened campaign records with actor linkage and source-section metadata
-- `/api/malware.json`: flattened malware/tool records with categories and actor linkage
-- `/api/attack-mappings.json`: flattened ATT&CK group and technique mappings with provenance
-- `/api/references.json`: flattened references and IOC source links with actor linkage
-- `/api/ioc-lookup.json`: normalized IOC lookup object keyed by normalized value, for example `45.32.22.62` or `api-metrics-collector.com`
-- `/api/ioc-types.json`: manifest of IOC-type shard endpoints with counts and paths
-- `/api/iocs/by-type/<type>.json`: type-specific IOC shard with `records` for practical client-side filtering
-
-IOC records preserve the original heading bucket in `type` and also expose `inferred_type`, `atomic`, `canonical_value`, and `lookup_keys` for more precise querying.
-Actor records now also include additive generated structures for `campaigns`, `malware_and_tools`, `attack_mappings`, and `references`.
-Actor records may also include optional source provenance fields such as `source_name`, `source_attribution`, `source_record_url`, and `provenance`.
-
-## Source Imports
-
-- `scripts/import-ransomlook.rb` supports fetching, reviewing, and importing RansomLook-derived actor metadata snapshots
-- `data/imports/ransomlook/mapping_overrides.yml` stores reviewed rename and alias overrides for bulk import safety
-- Importers and generators update canonical inputs automatically: `_data/actors/*.yml` and `_threat_actors/*.md`
-- Imported content should stay conservative and avoid automatically seeding volatile IOCs into the static API
-- See `docs/importers.md` for commands and attribution requirements
-
-## Data Sources
-
-This project aggregates threat actor data from multiple authoritative sources. Each source has specific licensing terms that govern how the data can be used.
-
-### Primary Data Sources
-
-| Source | Description | License | Attribution Required |
-|--------|-------------|---------|---------------------|
-| **MITRE ATT&CK** | 170+ structured threat groups with aliases, descriptions, and technique mappings | Royalty-free | "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation." |
-| **MISP Galaxy** | 700+ threat actors with rich metadata (country, victims, sectors) | CC0 1.0 / MIT | Link back to MISP Galaxy |
-| **RansomLook** | Ransomware group tracking and victim data | CC BY 4.0 | See docs/importers.md |
-
-### How to Import Data
-
-```bash
-# Import MITRE ATT&CK actors (dry-run first)
-ruby scripts/import-mitre.rb --dry-run
-ruby scripts/import-mitre.rb
-
-# Import with options
-ruby scripts/import-mitre.rb --overwrite     # Overwrite existing actors
-ruby scripts/import-mitre.rb --include-revoked  # Include deprecated groups
-```
-
-### Attribution Requirements
-
-When importing data from external sources, attribution must be preserved:
-
-- **MITRE ATT&CK**: Add `source_attribution` field to imported actors
-- **MISP Galaxy**: Link to source in documentation
-- **RansomLook**: Follow CC BY 4.0 requirements in docs/importers.md
-
-See `docs/attribution.md` for full licensing details and copyright notices.
-
-## IOC Query Patterns
-
-Because the API is static, queries are done by fetching a helper index and filtering client-side.
-
-```js
-const lookup = await fetch('/api/ioc-lookup.json').then((response) => response.json());
-const result = lookup['45.32.22.62'];
-```
-
-```js
-const manifest = await fetch('/api/ioc-types.json').then((response) => response.json());
-const shard = await fetch(manifest.ip_address.path).then((response) => response.json());
-const matches = shard.records.filter((record) => record.actor_slug === 'apt28');
-```
-
-## Validation Workflow
-
-Run these commands before opening a PR:
-
-```bash
-ruby scripts/generate-indexes.rb
 ruby scripts/validate-content.rb
-bundle exec jekyll build --safe
+ruby scripts/validate-json-schemas.rb
 bash scripts/validate.sh
 ```
 
-## Roadmap
+## Import workflows
 
-- See `docs/roadmap.md` for phased near-term, medium-term, and longer-term direction
-- See `docs/api.md` for endpoint shapes and IOC query examples
+The standard automated entry point is `scripts/import-automated-sources.rb`.
 
-## 🛡️ Security Considerations
+Preview automated imports without modifying actor data:
 
-- **IOC Sanitization**: All IOCs are for educational purposes only
-- **No Live Data**: No real-time threat intelligence feeds
-- **Attribution**: Information based on public sources and research
-- **Disclaimer**: Use information responsibly and verify independently
+```bash
+ruby scripts/import-automated-sources.rb
+```
 
-## 📚 Resources and References
+Apply automated imports, regenerate outputs, and validate content:
 
-### Threat Intelligence Sources
-- [MITRE ATT&CK](https://attack.mitre.org/)
-- [CISA Alerts](https://www.cisa.gov/news-events/cybersecurity-advisories)
-- [FBI IC3](https://www.ic3.gov/)
-- [FireEye Threat Intelligence](https://www.mandiant.com/resources/blog)
+```bash
+ruby scripts/import-automated-sources.rb --apply
+```
 
-### Tools and Frameworks
-- [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)
-- [YARA Rules](https://github.com/Yara-Rules/rules)
-- [Sigma Rules](https://github.com/SigmaHQ/sigma)
+Run one source only:
 
-## 🤝 Community
+```bash
+ruby scripts/import-automated-sources.rb --source malpedia --apply
+```
 
-- **Issues**: Report bugs or request features via GitHub Issues
-- **Discussions**: Join community discussions
-- **Contributions**: Submit pull requests for improvements
-- **Feedback**: Share your thoughts and suggestions
+Public snapshot-backed sources currently supported by the automated runner include:
 
-## 📄 License
+- `misp-galaxy`
+- `ransomlook`
+- `etda-thaicert`
+- `malpedia`
+- `microsoft-threat-actor-list`
+- `apt-groups-operations`
+- `aptnotes`
+- `ransomware-tool-matrix`
+- `curated-intel-moveit-transfer`
+- `ransomware-vulnerability-matrix`
+- `russian-apt-tool-matrix`
 
-This project is licensed under **The Unlicense** (public domain) - see the [LICENSE](LICENSE) file for details. This maximizes reusability for the threat intelligence community.
+Analyst notes are intentionally separate from the public automated runner:
 
-## ⚠️ Disclaimer
+```bash
+ruby scripts/import-analyst-notes.rb plan
+ruby scripts/import-analyst-notes.rb import
+```
 
-This project is for educational and research purposes only. The information provided is based on publicly available sources and should not be considered as official threat intelligence. Users are responsible for verifying information independently and using it appropriately.
+More importer details: `docs/importers.md`, `docs/data-flows.md`, `scripts/README.md`
 
-## 🙏 Acknowledgments
+## Static API
 
-- Cybersecurity researchers and analysts
-- Threat intelligence vendors
-- Open source security tools
-- The broader cybersecurity community
+The site publishes static JSON under `api/`. Main endpoints include:
 
----
+- `api/threat-actors.json`
+- `api/recently-updated.json`
+- `api/campaigns.json`
+- `api/malware.json`
+- `api/malware_index.json`
+- `api/attack-mappings.json`
+- `api/references.json`
+- `api/iocs.json`
+- `api/ioc-lookup.json`
+- `api/ioc-types.json`
+- `api/facets.json`
 
-**Contributing to ThreatActor.info helps build a stronger, more informed cybersecurity community. Every contribution matters!**
+API details: `docs/api.md`
+
+## Validation and CI
+
+This repository does not use a conventional test suite. In practice, validation means:
+
+- `ruby scripts/validate-content.rb`
+- `ruby scripts/validate-json-schemas.rb`
+- `bundle exec jekyll build --safe`
+
+CI workflows also regenerate pages and indexes, parse built API JSON, and check for schema and content regressions.
+
+## Editing rules for contributors
+
+- Treat `_data/actors/*.yml` as the canonical actor metadata layer
+- Keep the actor YAML `url`, page file path, and page `permalink` aligned
+- Use double-quoted YAML strings to match the existing dataset
+- Keep `aliases` and `sector_focus` inline unless a broader format change is required
+- Do not edit generated output in `_site/`
+- After content changes, run `ruby scripts/validate-content.rb`
+- After layout, include, CSS, or config changes, run `bundle exec jekyll build --safe`
+
+## Documentation map
+
+- `docs/api.md` - static API endpoints and fields
+- `docs/data-flows.md` - canonical source layers and importer flow
+- `docs/importers.md` - importer-specific behavior and guardrails
+- `docs/schema.md` - actor schema notes
+- `scripts/README.md` - script quick reference and usage examples
+- `AGENTS.md` - repository-specific guidance for coding agents
+
+## Contributing
+
+Contributions are welcome. For most changes:
+
+1. Edit or import source data
+2. Regenerate pages and indexes as needed
+3. Run validation
+4. Open a pull request with the changed source files and generated artifacts
+
+If you are adding a new importer or changing source attribution behavior, also update the relevant docs in `docs/` and `scripts/README.md`.
