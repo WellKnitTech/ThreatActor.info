@@ -26,6 +26,7 @@ Qilin is a ransomware group that first appeared in 2022 but had a breakout year 
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
+
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | Applications | Veeam | Backup & Replication | CVE-2023-27532 |

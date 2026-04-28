@@ -26,6 +26,7 @@ RansomHub is a dominant ransomware-as-a-service operation that emerged in 2024 a
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
+
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | Applications, Group Profile | Apache | ActiveMQ | CVE-2023-46604 |

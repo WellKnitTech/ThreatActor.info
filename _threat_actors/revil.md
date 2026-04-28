@@ -26,6 +26,7 @@ REvil is a Russian ransomware-as-a-service operation that has targeted major cor
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
+
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | Virtualization | Citrix | NetScaler ADC & Gateway & SD-WAN | CVE-2019-19781 |

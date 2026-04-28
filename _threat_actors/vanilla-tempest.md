@@ -17,6 +17,7 @@ Vice Society is a ransomware group that has been active since at least June 2021
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
+
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | Microsoft Products | Windows | CLFS | CVE-2022-24521 |

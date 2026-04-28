@@ -26,6 +26,7 @@ TA505 is a cyber criminal group that has been active since at least 2014. TA505 
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
+
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | File Transfer Servers, Group Profile | Accellion | Accellion File Transfer Appliance | CVE-2021-27101, CVE-2021-27102, CVE-2021-27103, CVE-2021-27104 |

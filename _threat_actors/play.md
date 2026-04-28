@@ -26,6 +26,7 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
+
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | Network Edge | Fortinet | FortiOS | CVE-2018-13379 |

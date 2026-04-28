@@ -26,6 +26,7 @@ LockBit is a ransomware-as-a-service operation known for its fast encryption and
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
+
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | Applications, Group Profile | Apache | Log4j | CVE-2021-44228 |
