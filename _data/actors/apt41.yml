@@ -72,6 +72,17 @@ malware:
 - CyberGate
 - Cyber Eye RAT
 provenance:
+  bushido_breach_reports:
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_retrieved_at: "2026-04-28T01:40:03Z"
+    reports:
+      - organization: "Avast/CCleaner"
+        breach_date: "September 2016"
+        adversary_label: "WickedPanda (CN APT)"
+        links: ["https://blog.avast.com/update-ccleaner-attackers-entered-via-teamviewer"]
+        archived_links: ["https://web.archive.org/web/20230406024839/https://blog.avast.com/update-ccleaner-attackers-entered-via-teamviewer"]
   mitre:
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_record_id: G0044

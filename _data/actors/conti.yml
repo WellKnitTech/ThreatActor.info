@@ -87,6 +87,23 @@ cisa_kev_cves:
   "product" => "vCenter Server"}'
 - '{"cve" => "CVE-2021-21985", "dateAdded" => "2021-11-03", "vendor" => "VMware",
   "product" => "vCenter Server"}'
+provenance:
+  bushido_breach_reports:
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_retrieved_at: "2026-04-28T01:40:03Z"
+    reports:
+      - organization: "Gloucester Council"
+        breach_date: "November 2021"
+        adversary_label: "Conti (Ransomware)"
+        links: ["https://democracy.gloucester.gov.uk/documents/s59774/Appendix%201%20-%20Executive%20Summary%20of%20NCC%20Group%20Report.pdf"]
+        archived_links: ["https://web.archive.org/web/20240201223629/https://democracy.gloucester.gov.uk/documents/s59774/Appendix%201%20-%20Executive%20Summary%20of%20NCC%20Group%20Report.pdf"]
+      - organization: "Irish HSE"
+        breach_date: "May 2021"
+        adversary_label: "Conti (Ransomware)"
+        links: ["https://www.hse.ie/eng/services/news/media/pressrel/hse-publishes-independent-report-on-conti-cyber-attack.html"]
+        archived_links: ["https://web.archive.org/web/20230323031057/https://www.hse.ie/eng/services/news/media/pressrel/hse-publishes-independent-report-on-conti-cyber-attack.html"]
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
   under CC BY 4.0 license."
 source_name: MITRE CISA KEV

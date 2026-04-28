@@ -46,6 +46,23 @@ cisa_kev_cves:
   "product" => "Pulse Connect Secure"}'
 - '{"cve" => "CVE-2019-7481", "dateAdded" => "2021-11-03", "vendor" => "SonicWall",
   "product" => "SMA100"}'
+provenance:
+  bushido_breach_reports:
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_retrieved_at: "2026-04-28T01:40:03Z"
+    reports:
+      - organization: "Boeing"
+        breach_date: "November 2023"
+        adversary_label: "LockBit (Ransomware)"
+        links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-325a"]
+        archived_links: ["http://web.archive.org/web/20231121190858/https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-325a"]
+      - organization: "Advanced Computer Software Group"
+        breach_date: "August 2022"
+        adversary_label: "LockBit (Ransomware)"
+        links: ["https://ico.org.uk/media2/gdlfddgc/advanced-penalty-notice-20250327.pdf"]
+        archived_links: ["https://web.archive.org/web/20250509024336/https://ico.org.uk/media2/gdlfddgc/advanced-penalty-notice-20250327.pdf"]
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
   under CC BY 4.0 license."
 source_name: MITRE CISA KEV

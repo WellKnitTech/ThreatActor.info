@@ -79,6 +79,32 @@ malware:
 - OnionDuke
 - CyberGate
 provenance:
+  bushido_breach_reports:
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_retrieved_at: "2026-04-28T01:40:03Z"
+    reports:
+      - organization: "Microsoft"
+        breach_date: "January 2024"
+        adversary_label: "CozyBear (RU APT)"
+        links: ["https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack/","https://msrc.microsoft.com/blog/2024/03/update-on-microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard/"]
+        archived_links: ["https://web.archive.org/web/20240120000859/https://msrc.microsoft.com/blog/2024/01/microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard/"]
+      - organization: "Microsoft"
+        breach_date: "February 2021"
+        adversary_label: "CozyBear (RU APT)"
+        links: ["https://msrc.microsoft.com/blog/2021/02/microsoft-internal-solorigate-investigation-final-update/"]
+        archived_links: ["https://web.archive.org/web/20230313193242/https://msrc.microsoft.com/blog/2021/02/microsoft-internal-solorigate-investigation-final-update/"]
+      - organization: "FireEye"
+        breach_date: "December 2020"
+        adversary_label: "CozyBear (RU APT)"
+        links: ["https://www.fireeye.com/blog/threat-research/2020/12/unauthorized-access-of-fireeye-red-team-tools.html"]
+        archived_links: ["https://web.archive.org/web/20201209011927/https://www.fireeye.com/blog/threat-research/2020/12/unauthorized-access-of-fireeye-red-team-tools.html"]
+      - organization: "SolarWinds"
+        breach_date: "December 2020"
+        adversary_label: "CozyBear (RU APT)"
+        links: ["https://orangematter.solarwinds.com/2021/01/11/new-findings-from-our-investigation-of-sunburst/"]
+        archived_links: ["https://web.archive.org/web/20230209021934/https://orangematter.solarwinds.com/2021/01/11/new-findings-from-our-investigation-of-sunburst/"]
   mitre:
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_record_id: G0016

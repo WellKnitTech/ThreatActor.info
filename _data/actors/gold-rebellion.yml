@@ -48,6 +48,22 @@ malware:
 - Cyber Eye RAT
 - Batch NET
 provenance:
+  bushido_breach_reports:
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_retrieved_at: "2026-04-28T01:40:03Z"
+    reports:
+      - organization: "Capita"
+        breach_date: "March 2023"
+        adversary_label: "BlackBasta (Ransomware)"
+        links: ["https://ico.org.uk/media2/pv5nhks4/capita-plc-and-cpsl-monetary-penalty-notice.pdf"]
+        archived_links: ["https://web.archive.org/web/20251015133309/https://ico.org.uk/media2/pv5nhks4/capita-plc-and-cpsl-monetary-penalty-notice.pdf"]
+      - organization: "DPP Law"
+        breach_date: "June 2022"
+        adversary_label: "BlackBasta (Ransomware)"
+        links: ["https://ico.org.uk/media2/pr4bg5hq/dpp-law-ltd-monetary-penalty-notice.pdf"]
+        archived_links: ["https://web.archive.org/web/20250416131742/https://ico.org.uk/media2/pr4bg5hq/dpp-law-ltd-monetary-penalty-notice.pdf"]
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
     source_record_id: 835c7fc6-a066-447d-a0fc-b096bd9c412f

@@ -18,6 +18,17 @@ country: China
 targeted_victims:
 - Germany
 provenance:
+  bushido_breach_reports:
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_retrieved_at: "2026-04-28T01:40:03Z"
+    reports:
+      - organization: "MITRE"
+        breach_date: "April 2024"
+        adversary_label: "UTA0178/UNC5325 (CN APT)"
+        links: ["https://medium.com/mitre-engenuity/advanced-cyber-threats-impact-even-the-most-prepared-56444e980dc8"]
+        archived_links: ["https://web.archive.org/web/20240422095324/https://medium.com/mitre-engenuity/advanced-cyber-threats-impact-even-the-most-prepared-56444e980dc8"]
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
     source_record_id: f288f686-b5b3-4c86-9960-5f8fb18709a3

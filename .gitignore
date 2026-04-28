@@ -60,4 +60,7 @@ data/imports/apt-groups-operations/*
 !data/imports/etda-thaicert/
 data/imports/etda-thaicert/*
 !data/imports/etda-thaicert/mapping_overrides.yml
+!data/imports/bushido-breach-reports/
+data/imports/bushido-breach-reports/*
+!data/imports/bushido-breach-reports/mapping_overrides.yml
 vendor/

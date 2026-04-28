@@ -37,5 +37,9 @@ GOLD REBELLION is a financially motivated cybercriminal threat group that operat
 *Information pending cataloguing.*
 
 ## References
-*References pending cataloguing.*
+
+[1] [BushidoToken Breach Report Collection - Capita breach report (March 2023) via ico.org.uk](https://ico.org.uk/media2/pv5nhks4/capita-plc-and-cpsl-monetary-penalty-notice.pdf)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: BlackBasta (Ransomware).
+[2] [BushidoToken Breach Report Collection - DPP Law breach report (June 2022) via ico.org.uk](https://ico.org.uk/media2/pr4bg5hq/dpp-law-ltd-monetary-penalty-notice.pdf)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: BlackBasta (Ransomware).
 

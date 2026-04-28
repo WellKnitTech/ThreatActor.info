@@ -1,0 +1,83 @@
+# Reviewed mappings for the BushidoToken Breach Report Collection.
+# Treat the source as a breach-report index; skip unknown, generic, and unresolved labels.
+match_overrides:
+  mitreapril2024uta0178unc5325cnapt:
+    - UTA0178
+    - UNC5325
+  microsoftjanuary2024cozybearruapt:
+    - APT29
+  nissanaustraliadecember2023akiraransomware:
+    - Akira
+  boeingnovember2023lockbitransomware:
+    - LockBit
+  bhienergyoctober2023akiraransomware:
+    - Akira
+  microsoftjuly2023storm0558cnapt:
+    - Storm-0558
+  jumpcloudjuly2023unc4899dprkapt:
+    - TraderTraitor
+  capitamarch2023blackbastaransomware:
+    - GOLD REBELLION
+  3cxmarch2023unc4736dprkapt:
+    - UNC4736
+  coinbasefebruary20230ktapussuspected:
+    - Scattered Spider
+  redditfebruary20230ktapussuspected:
+    - Scattered Spider
+  circlecijanuary2023jadesleetdprkapt:
+    - TraderTraitor
+  uberseptember2022lapsussuspected:
+    - LAPSUS$
+  advancedcomputersoftwaregroupaugust2022lockbitransomware:
+    - LockBit
+  oktaaugust20220ktapus:
+    - Scattered Spider
+  twilioaugust20220ktapus:
+    - Scattered Spider
+  dpplawjune2022blackbastaransomware:
+    - GOLD REBELLION
+  oktaapril2022lapsus:
+    - LAPSUS$
+  microsoftmarch2022lapsus:
+    - LAPSUS$
+  gloucestercouncilnovember2021contiransomware:
+    - Conti
+  kaseyajuly2021revilransomware:
+    - REvil
+  viasatkasatfebruary2022sandwormruapt:
+    - Sandworm
+  irishhsemay2021contiransomware:
+    - Conti
+  microsoftfebruary2021cozybearruapt:
+    - APT29
+  newzealandreservebankjanuary2021clopransomware:
+    - Cl0p
+  qualysdecember2020clopransomware:
+    - Cl0p
+  fireeyedecember2020cozybearruapt:
+    - APT29
+  solarwindsdecember2020cozybearruapt:
+    - APT29
+  londonboroughofhackneyoctober2020pysaransomware:
+    - GOLD BURLAP
+  avastccleanerseptember2016wickedpandacnapt:
+    - APT41
+excluded_reports:
+  - f5networksoctober2025unknownapt
+  - stateofrhodeislanddecember2024braincipherransomware
+  - mandiantjanuary2024clicksink
+  - cloudflarenovember2023unknown
+  - britishlibraryoctober2023rhysidaransomware
+  - beyondtrustoctober2023unknown
+  - oktaoctober2023unknown
+  - dlinkoctober2023succumb
+  - krollaugust2023unknown
+  - dragosmay2023kyivwarrior
+  - lastpassoctober2022unknown
+  - ciscomay2022yanluowangransomware
+  - githubapril2022unknown
+  - equinixseptember2020netwalkerransomware
+  - capitalonejuly2019errat1cakapaigethompson
+  - equifaxmay2017cnapt
+  - kasperskyjune2015duqu20apt
+  - rsaapril2011cnapt

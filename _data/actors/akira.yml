@@ -14,6 +14,22 @@ mitre_url: "https://attack.mitre.org/groups/G1024"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 cisa_kev_cves: ["{\"cve\" => \"CVE-2019-6693\", \"dateAdded\" => \"2025-06-25\", \"vendor\" => \"Fortinet\", \"product\" => \"FortiOS\"}","{\"cve\" => \"CVE-2024-40711\", \"dateAdded\" => \"2024-10-17\", \"vendor\" => \"Veeam\", \"product\" => \"Backup & Replication\"}","{\"cve\" => \"CVE-2024-40766\", \"dateAdded\" => \"2024-09-09\", \"vendor\" => \"SonicWall\", \"product\" => \"SonicOS\"}","{\"cve\" => \"CVE-2024-37085\", \"dateAdded\" => \"2024-07-30\", \"vendor\" => \"VMware\", \"product\" => \"ESXi\"}","{\"cve\" => \"CVE-2023-48788\", \"dateAdded\" => \"2024-03-25\", \"vendor\" => \"Fortinet\", \"product\" => \"FortiClient EMS\"}","{\"cve\" => \"CVE-2020-3259\", \"dateAdded\" => \"2024-02-15\", \"vendor\" => \"Cisco\", \"product\" => \"Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)\"}","{\"cve\" => \"CVE-2023-20269\", \"dateAdded\" => \"2023-09-13\", \"vendor\" => \"Cisco\", \"product\" => \"Adaptive Security Appliance and Firepower Threat Defense\"}","{\"cve\" => \"CVE-2023-27532\", \"dateAdded\" => \"2023-08-22\", \"vendor\" => \"Veeam\", \"product\" => \"Backup & Replication\"}","{\"cve\" => \"CVE-2023-28252\", \"dateAdded\" => \"2023-04-11\", \"vendor\" => \"Microsoft\", \"product\" => \"Windows\"}","{\"cve\" => \"CVE-2022-40684\", \"dateAdded\" => \"2022-10-11\", \"vendor\" => \"Fortinet\", \"product\" => \"Multiple Products\"}","{\"cve\" => \"CVE-2020-3580\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Cisco\", \"product\" => \"Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)\"}"]
 provenance:
+  bushido_breach_reports:
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_retrieved_at: "2026-04-28T01:40:03Z"
+    reports:
+      - organization: "Nissan Australia"
+        breach_date: "December 2023"
+        adversary_label: "Akira (Ransomware)"
+        links: ["https://www.nissan.com.au/website-update.html"]
+        archived_links: ["https://web.archive.org/web/20240102223637/https://www.nissan.com.au/website-update.html"]
+      - organization: "BHI Energy"
+        breach_date: "October 2023"
+        adversary_label: "Akira (Ransomware)"
+        links: ["https://www.documentcloud.org/documents/24075435-bhi-notice"]
+        archived_links: ["http://web.archive.org/web/20231023214413/https://www.documentcloud.org/documents/24075435-bhi-notice"]
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1024"
