@@ -116171,8 +116171,11 @@
       "Analyst Notes",
       "References"
     ],
-    "ioc_count": 0,
-    "ioc_types": [],
+    "ioc_count": 9,
+    "ioc_types": [
+      "domain",
+      "url"
+    ],
     "campaigns": [],
     "malware_and_tools": [
       {
