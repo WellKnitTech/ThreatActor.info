@@ -34,4 +34,25 @@ provenance:
       Discovery: ["PowerView","SoftPerfect NetScan"]
       OffSec: ["Cobalt Strike","PowerShell Empire"]
       RMM Tools: ["AnyDesk"]
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "blog.talosintelligence.com"
+        url: "https://blog.talosintelligence.com/blackbyte-blends-tried-and-true-tradecraft-with-newly-disclosed-vulnerabilities-to-support-ongoing-attacks/"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "microsoft.com"
+        url: "https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/"
+        source_file: "Vulnerabilities/Virtualization.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["Vulnerabilities/Virtualization.md"]
+    source_label: "BlackByte"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-04-28T02:11:22Z"
+    vulnerabilities_by_category:
+      Virtualization:
+        - vendor: "VMware"
+          product: "ESXi"
+          cves: ["CVE-2024-37085"]
+          source_links: ["https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/","https://blog.talosintelligence.com/blackbyte-blends-tried-and-true-tradecraft-with-newly-disclosed-vulnerabilities-to-support-ongoing-attacks/"]
+          source_file: "Vulnerabilities/Virtualization.md"
 source: "MITRE ATT&CK"

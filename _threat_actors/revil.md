@@ -25,7 +25,16 @@ REvil is a Russian ransomware-as-a-service operation that has targeted major cor
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Virtualization | Citrix | NetScaler ADC & Gateway & SD-WAN | CVE-2019-19781 |
+| Network Edge | Fortinet | FortiOS | CVE-2018-13379 |
+| Applications | Kaseya | VSA | CVE-2021-30116 |
+| Applications | Oracle | WebLogic | CVE-2019-2725 |
+| Network Edge | Pulse Secure / Ivanti | Pulse Connect Secure | CVE-2019-11510 |
+| Network Edge | Pulse Secure / Ivanti | Pulse Connect Secure & Pulse Policy Secure | CVE-2019-11539 |
+| Microsoft Products | Windows | Win32k | CVE-2018-8453 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*

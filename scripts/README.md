@@ -213,6 +213,18 @@ ruby scripts/import-ransomware-tool-matrix.rb import --snapshot data/imports/ran
 
 ---
 
+### import-ransomware-vulnerability-matrix.rb
+
+Import BushidoUK Ransomware Vulnerability Matrix observations for existing actors.
+
+```bash
+ruby scripts/import-ransomware-vulnerability-matrix.rb fetch --output data/imports/ransomware-vulnerability-matrix/$(date +%F)
+ruby scripts/import-ransomware-vulnerability-matrix.rb plan --snapshot data/imports/ransomware-vulnerability-matrix/DATE
+ruby scripts/import-ransomware-vulnerability-matrix.rb import --snapshot data/imports/ransomware-vulnerability-matrix/DATE
+```
+
+---
+
 ### import-russian-apt-tool-matrix.rb
 
 Import BushidoUK Russian APT Tool Matrix observations for existing actors.

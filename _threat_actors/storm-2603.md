@@ -20,7 +20,10 @@ The group Microsoft tracks as Storm-2603 is assessed with medium confidence to b
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Microsoft Products | MS Server Products | SharePoint Server | CVE-2025-49704, CVE-2025-49706 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*

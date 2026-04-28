@@ -72,6 +72,23 @@
     "ioc_count": 0
   },
   {
+    "name": "Storm-2603",
+    "aliases": [
+      "Storm-2603"
+    ],
+    "description": "The group Microsoft tracks as Storm-2603 is assessed with medium confidence to be a China-based threat actor. Microsoft has not identified links between Storm-2603 and other known Chinese threat actors. Microsoft tracks this threat actor in association with attempts to steal MachineKeys via the on-premises SharePoint vulnerabilities. Although Microsoft has observed this threat actor deploying Warlock and Lockbit ransomware in the past, Microsoft is currently unable to confidently assess the threat actor’s objectives.  Additional actors may use these exploits to target unpatched on-premises SharePoint systems, further emphasizing the need for organizations to implement mitigations and security updates immediately.",
+    "url": "/storm-2603",
+    "permalink": "/storm-2603/",
+    "country": "China",
+    "sector_focus": [
+
+    ],
+    "risk_level": null,
+    "last_updated": "2026-04-28",
+    "last_activity": null,
+    "ioc_count": 0
+  },
+  {
     "name": "Sandworm",
     "aliases": [
       "Quedagh",
@@ -124,6 +141,25 @@
     "risk_level": "High",
     "last_updated": "2026-04-28",
     "last_activity": "2025",
+    "ioc_count": 0
+  },
+  {
+    "name": "Ryuk",
+    "aliases": [
+      "Wizard Spider"
+    ],
+    "description": "Ryuk is a ransomware operation known for targeting large organizations and demanding high ransom payments.",
+    "url": "/ryuk",
+    "permalink": "/ryuk/",
+    "country": "Russia",
+    "sector_focus": [
+      "Healthcare",
+      "Government",
+      "Education"
+    ],
+    "risk_level": "Critical",
+    "last_updated": "2026-04-28",
+    "last_activity": "2021",
     "ioc_count": 0
   },
   {
@@ -197,44 +233,6 @@
     "description": "PROPHET SPIDER is an eCrime actor, active since at least May 2017, that primarily gains access to victims by compromising vulnerable web servers, which commonly involves leveraging a variety of publicly disclosed vulnerabilities. The adversary has likely functioned as an access broker — handing off access to a third party to deploy ransomware — in multiple instances.",
     "url": "/prophet-spider",
     "permalink": "/prophet-spider/",
-    "country": null,
-    "sector_focus": [
-
-    ],
-    "risk_level": null,
-    "last_updated": "2026-04-28",
-    "last_activity": null,
-    "ioc_count": 0
-  },
-  {
-    "name": "Play",
-    "aliases": [
-      "Play",
-      "Play Ransomware"
-    ],
-    "description": "Play is a ransomware group that has been active since at least 2022 deploying  Playcrypt ransomware against the business, government, critical infrastructure, healthcare, and media sectors in North America, South America, and Europe. Play actors employ a double-extortion model, encrypting systems after exfiltrating data, and are presumed by security researchers to operate as a closed group.(Citation: CISA Play Ransomware Advisory December 2023)(Citation: Trend Micro Ransomware Spotlight Play July 2023)",
-    "url": "/play",
-    "permalink": "/play/",
-    "country": "Unknown",
-    "sector_focus": [
-      "Healthcare",
-      "Education",
-      "Government",
-      "Technology"
-    ],
-    "risk_level": "High",
-    "last_updated": "2026-04-28",
-    "last_activity": "2025",
-    "ioc_count": 0
-  },
-  {
-    "name": "Nightspire",
-    "aliases": [
-      "Nightspire"
-    ],
-    "description": "Nightspire is an active extortion or ransomware group tracked by RansomLook.",
-    "url": "/nightspire",
-    "permalink": "/nightspire/",
     "country": null,
     "sector_focus": [
 

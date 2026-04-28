@@ -37,4 +37,46 @@ provenance:
       Exfiltration: ["AZCopy","MEGA","RClone"]
       OffSec: ["Cobalt Strike","Evil-WinRM","Impacket"]
       RMM Tools: ["AnyDesk","Level.io","NinjaOne"]
+  ransomware_vulnerability_matrix:
+    actor_roles: ["ransomware_affiliate"]
+    references:
+      - title: "bleepingcomputer.com"
+        url: "https://www.bleepingcomputer.com/news/security/toyota-confirms-breach-after-medusa-ransomware-threatens-to-leak-data/"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "doublepulsar.com"
+        url: "https://doublepulsar.com/lockbit-ransomware-group-assemble-strike-team-to-breach-banks-law-firms-and-governments-4220580bfcee"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "microsoft.com"
+        url: "https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "secureworks.com"
+        url: "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "therecord.media"
+        url: "https://therecord.media/fidelity-national-financial-ransomware-alphv-black-cat"
+        source_file: "Vulnerabilities/Virtualization.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["Vulnerabilities/Applications.md","Vulnerabilities/Virtualization.md"]
+    source_label: "Storm-0501"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-04-28T02:11:22Z"
+    vulnerabilities_by_category:
+      Applications:
+        - vendor: "Adobe"
+          product: "ColdFusion"
+          cves: ["CVE-2023-29300","CVE-2023-38203"]
+          source_links: ["https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/"]
+          source_file: "Vulnerabilities/Applications.md"
+        - vendor: "Zoho"
+          product: "ManageEngine ADSelfService Plus"
+          cves: ["CVE-2022-47966"]
+          source_links: ["https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/"]
+          source_file: "Vulnerabilities/Applications.md"
+      Virtualization:
+        - vendor: "Citrix"
+          product: "NetScaler ADC & Gateway"
+          cves: ["CVE-2023-4966"]
+          source_links: ["https://doublepulsar.com/lockbit-ransomware-group-assemble-strike-team-to-breach-banks-law-firms-and-governments-4220580bfcee","https://www.bleepingcomputer.com/news/security/toyota-confirms-breach-after-medusa-ransomware-threatens-to-leak-data/","https://therecord.media/fidelity-national-financial-ransomware-alphv-black-cat","https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware","https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/"]
+          source_file: "Vulnerabilities/Virtualization.md"
 source: "MITRE ATT&CK"

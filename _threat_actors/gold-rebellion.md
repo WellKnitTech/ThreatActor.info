@@ -16,7 +16,17 @@ GOLD REBELLION is a financially motivated cybercriminal threat group that operat
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Applications | ConnectWise | ScreenConnect | CVE-2024-1708, CVE-2024-1709 |
+| Group Profile | ConnectWise | ScreenConnect | CVE-2024-1709 |
+| Group Profile, Virtualization | VMware | ESXi | CVE-2024-37085 |
+| Group Profile, Microsoft Products | Windows | Active Directory | CVE-2021-42278, CVE-2021-42287 |
+| Group Profile, Microsoft Products | Windows | MSDT | CVE-2022-30190 |
+| Group Profile, Microsoft Products | Windows | NetLogon | CVE-2020-1472 |
+| Group Profile, Microsoft Products | Windows | Print Spooler | CVE-2021-1675, CVE-2021-34527 |
+| Group Profile, Microsoft Products | Windows | Windows Error Reporting Service | CVE-2024-26169 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*

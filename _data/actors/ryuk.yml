@@ -1,16 +1,63 @@
----
-name: Ryuk
-aliases:
-- Wizard Spider
-description: Ryuk is a ransomware operation known for targeting large organizations
-  and demanding high ransom payments.
+name: "Ryuk"
+aliases: ["Wizard Spider"]
+description: "Ryuk is a ransomware operation known for targeting large organizations and demanding high ransom payments."
 url: "/ryuk"
-country: Russia
-sector_focus:
-- Healthcare
-- Government
-- Education
-first_seen: '2018'
-last_activity: '2021'
-risk_level: Critical
-source_attribution: Manually curated from open source intelligence
+country: "Russia"
+sector_focus: ["Healthcare","Government","Education"]
+first_seen: "2018"
+last_activity: "2021"
+last_updated: "2026-04-28"
+risk_level: "Critical"
+source_attribution: "Manually curated from open source intelligence"
+provenance:
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "welivesecurity.com"
+        url: "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/"
+        source_file: "Vulnerabilities/Microsoft.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["Vulnerabilities/Microsoft.md"]
+    source_label: "Ryuk"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-04-28T02:11:22Z"
+    vulnerabilities_by_category:
+      Microsoft Products:
+        - vendor: "Windows"
+          product: "NetLogon"
+          cves: ["CVE-2020-1472"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a","https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware","https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/","https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a","https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"]
+          source_file: "Vulnerabilities/Microsoft.md"

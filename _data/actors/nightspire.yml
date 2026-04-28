@@ -24,6 +24,30 @@ provenance:
     tools_by_category:
       Discovery: ["Everything.exe"]
       Exfiltration: ["MEGA","WinSCP"]
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "esentire.com"
+        url: "https://www.esentire.com/blog/from-access-to-encryption-dissecting-hunters-internationals-latest-ransomware-attack"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "forescout.com"
+        url: "https://www.forescout.com/blog/new-ransomware-operator-exploits-fortinet-vulnerability-duo/"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "s-rminform.com"
+        url: "https://www.s-rminform.com/latest-thinking/ransomware-in-focus-meet-nightspire"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["Vulnerabilities/NetworkEdge.md"]
+    source_label: "NightSpire"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-04-28T02:11:22Z"
+    vulnerabilities_by_category:
+      Network Edge:
+        - vendor: "Fortinet"
+          product: "FortiOS & FortiProxy"
+          cves: ["CVE-2024-55591"]
+          source_links: ["https://www.esentire.com/blog/from-access-to-encryption-dissecting-hunters-internationals-latest-ransomware-attack","https://www.forescout.com/blog/new-ransomware-operator-exploits-fortinet-vulnerability-duo/","https://www.s-rminform.com/latest-thinking/ransomware-in-focus-meet-nightspire"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "nightspire"
   source_retrieved_at: "2026-04-26T02:09:00Z"

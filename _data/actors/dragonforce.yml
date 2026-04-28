@@ -21,6 +21,30 @@ provenance:
     tools_by_category:
       Credential Theft: ["Mimikatz"]
       Discovery: ["Advanced IP Scanner","PingCastle","SoftPerfect NetScan"]
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "CuratedIntel"
+        url: "https://x.com/CuratedIntel/status/1885379463682109525"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "sophos.com"
+        url: "https://news.sophos.com/en-us/2025/05/27/dragonforce-actors-target-simplehelp-vulnerabilities-to-attack-msp-customers/"
+        source_file: "Vulnerabilities/Applications.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["Vulnerabilities/Applications.md"]
+    source_label: "DragonForce"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-04-28T02:11:22Z"
+    vulnerabilities_by_category:
+      Applications:
+        - vendor: "SimpleHelp"
+          product: "SimpleHelp RMM"
+          cves: ["CVE-2024-57727"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a","https://news.sophos.com/en-us/2025/05/27/dragonforce-actors-target-simplehelp-vulnerabilities-to-attack-msp-customers/","https://x.com/CuratedIntel/status/1885379463682109525"]
+          source_file: "Vulnerabilities/Applications.md"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "dragonforce"
   source_retrieved_at: "2026-04-26T02:08:49Z"

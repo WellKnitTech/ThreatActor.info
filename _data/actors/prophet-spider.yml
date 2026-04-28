@@ -52,3 +52,130 @@ provenance:
       Exfiltration: ["PSCP"]
       LOLBAS: ["Minidump","PAExec","WinExe"]
       OffSec: ["BurpSuite","ConPtyShell","Godzilla Web Shell","PwnTools","Responder"]
+  ransomware_vulnerability_matrix:
+    actor_roles: ["initial_access_broker"]
+    references:
+      - title: "blog.talosintelligence.com"
+        url: "https://blog.talosintelligence.com/avoslocker-new-arsenal/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "crowdstrike.com"
+        url: "https://www.crowdstrike.com/en-us/blog/prophet-spider-exploits-citrix-sharefile/"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "secureworks.com"
+        url: "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "cloud.google.com"
+        url: "https://cloud.google.com/blog/topics/threat-intelligence/unc961-multiverse-financially-motivated"
+        date: "23 March 2023"
+        source_file: "GroupProfiles/ProphetSpider.md"
+      - title: "www.crowdstrike.com"
+        url: "https://www.crowdstrike.com/blog/prophet-spider-exploits-oracle-weblogic-to-facilitate-ransomware-activity"
+        date: "4 August 2021"
+        source_file: "GroupProfiles/ProphetSpider.md"
+      - title: "www.crowdstrike.com"
+        url: "https://www.crowdstrike.com/blog/prophet-spider-exploits-citrix-sharefile"
+        date: "7 March 2022"
+        source_file: "GroupProfiles/ProphetSpider.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/ProphetSpider.md","Vulnerabilities/Applications.md","Vulnerabilities/Virtualization.md"]
+    source_label: "Prophet Spider"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-04-28T02:11:22Z"
+    vulnerabilities_by_category:
+      Applications:
+        - vendor: "Apache"
+          product: "Log4j"
+          cves: ["CVE-2021-4104"]
+          source_links: ["https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"]
+          source_file: "Vulnerabilities/Applications.md"
+        - vendor: "Apache"
+          product: "Log4j"
+          cves: ["CVE-2021-44228"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a","https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker","https://blog.talosintelligence.com/avoslocker-new-arsenal/"]
+          source_file: "Vulnerabilities/Applications.md"
+        - vendor: "Apache"
+          product: "Struts"
+          cves: ["CVE-2017-5638"]
+          source_links: ["https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"]
+          source_file: "Vulnerabilities/Applications.md"
+        - vendor: "Java Applications"
+          product: "Jboss Application Server"
+          cves: ["CVE-2017-7504"]
+          source_links: ["https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"]
+          source_file: "Vulnerabilities/Applications.md"
+        - vendor: "Oracle"
+          product: "E-Business"
+          cves: ["CVE-2016-0545"]
+          source_links: ["https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"]
+          source_file: "Vulnerabilities/Applications.md"
+        - vendor: "Oracle"
+          product: "WebLogic"
+          cves: ["CVE-2020-14750"]
+          source_links: ["https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"]
+          source_file: "Vulnerabilities/Applications.md"
+        - vendor: "Oracle"
+          product: "WebLogic"
+          cves: ["CVE-2020-14882"]
+          source_links: ["https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"]
+          source_file: "Vulnerabilities/Applications.md"
+        - vendor: "Sitecore"
+          product: "Sitecore XP"
+          cves: ["CVE-2021-42237"]
+          source_links: ["https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"]
+          source_file: "Vulnerabilities/Applications.md"
+      Group Profile:
+        - vendor: "Apache"
+          product: "Log4j"
+          cves: ["CVE-2021-4104"]
+          source_links: ["https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"]
+          source_file: "GroupProfiles/ProphetSpider.md"
+        - vendor: "Apache"
+          product: "Log4j"
+          cves: ["CVE-2021-44228"]
+          source_links: ["https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"]
+          source_file: "GroupProfiles/ProphetSpider.md"
+        - vendor: "Apache"
+          product: "Struts"
+          cves: ["CVE-2017-5638"]
+          source_links: ["https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"]
+          source_file: "GroupProfiles/ProphetSpider.md"
+        - vendor: "Citrix"
+          product: "ShareFile Storage Zones Controller"
+          cves: ["CVE-2021-22941"]
+          source_links: ["https://www.crowdstrike.com/en-us/blog/prophet-spider-exploits-citrix-sharefile/"]
+          source_file: "GroupProfiles/ProphetSpider.md"
+        - vendor: "Java Applications"
+          product: "Jboss Application Server"
+          cves: ["CVE-2017-7504"]
+          source_links: ["https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"]
+          source_file: "GroupProfiles/ProphetSpider.md"
+        - vendor: "Oracle"
+          product: "E-Business"
+          cves: ["CVE-2016-0545"]
+          source_links: ["https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"]
+          source_file: "GroupProfiles/ProphetSpider.md"
+        - vendor: "Oracle"
+          product: "WebLogic"
+          cves: ["CVE-2020-14750"]
+          source_links: ["https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"]
+          source_file: "GroupProfiles/ProphetSpider.md"
+        - vendor: "Oracle"
+          product: "WebLogic"
+          cves: ["CVE-2020-14882"]
+          source_links: ["https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"]
+          source_file: "GroupProfiles/ProphetSpider.md"
+        - vendor: "Sitecore"
+          product: "Sitecore XP"
+          cves: ["CVE-2021-42237"]
+          source_links: ["https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"]
+          source_file: "GroupProfiles/ProphetSpider.md"
+      Virtualization:
+        - vendor: "Citrix"
+          product: "ShareFile Storage Zones Controller"
+          cves: ["CVE-2021-22941"]
+          source_links: ["https://www.crowdstrike.com/en-us/blog/prophet-spider-exploits-citrix-sharefile/"]
+          source_file: "Vulnerabilities/Virtualization.md"
