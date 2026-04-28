@@ -243,7 +243,7 @@ class ContentValidator
       add_error(file_path, "source_name must be normalized to 'Analyst Notes'")
     end
 
-    if automated_source_name?(actor['source_name']) && actor['analyst_notes'].to_s.strip.empty?
+    if SourcePrecedence.automated_source_name?(actor['source_name']) && actor['analyst_notes'].to_s.strip.empty?
       previous_manual = actor.values.any? { |value| value.to_s.include?('Previous description:') || value.to_s.include?('=== Automated import from') }
       add_warning(file_path, "Automated actor '#{actor['name']}' has no analyst_notes; manual supersession context may be missing") if previous_manual
     end
@@ -549,10 +549,7 @@ class ContentValidator
     @threat_actors_data.each do |actor|
       file_label = actor_file_label(actor)
       Array(actor['malware']).each do |entry|
-        if entry.is_a?(String)
-          add_warning(file_label, "Malware '#{entry}' is legacy string form; prefer object form with source_name/provenance")
-          next
-        end
+        next if entry.is_a?(String)
 
         unless entry.is_a?(Hash)
           add_error(file_label, "Malware entry must be a string or object, got #{entry.class}")
