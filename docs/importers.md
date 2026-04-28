@@ -22,9 +22,11 @@ Reviewed name and rename handling lives in `data/imports/ransomlook/mapping_over
 ## Automation Policy
 
 - Treat importer snapshots in `data/imports/*` as the operational cache layer.
+- Run public, machine-consumable source imports through `ruby scripts/import-automated-sources.rb`; analyst notes are intentionally excluded from this runner.
 - Regenerate pages with `ruby scripts/generate-pages.rb --force` after source updates.
 - Regenerate APIs with `ruby scripts/generate-indexes.rb` in the same run.
 - Use `ruby scripts/evaluate-source-deltas.rb` to enforce update thresholds before publishing large changes.
+- See `docs/data-flows.md` for the source-of-truth map and the analyst-note supersession policy.
 
 ## Commands
 
