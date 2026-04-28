@@ -1773,3 +1773,39 @@ footer {
 .actor-card-mini .country {
   color: var(--text-muted);
 }
+
+/* MITRE ATT&CK entity pages (techniques, tactics, campaigns, mitigations) */
+.mitre-entity-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.mitre-entity-header .header-top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.mitre-id-badge {
+  font-family: ui-monospace, monospace;
+  font-size: 0.9rem;
+  background: var(--bg-tertiary);
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+}
+
+.mitre-software-meta {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.search-result-item .result-type {
+  display: inline-block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  margin-right: 0.5rem;
+}

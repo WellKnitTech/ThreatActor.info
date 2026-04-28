@@ -132,7 +132,24 @@
       }
     },
     "ttps": {
-      "$ref": "#/$defs/stringArray"
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "string",
+            "minLength": 1
+          },
+          {
+            "$ref": "#/$defs/ttpEntry"
+          }
+        ]
+      }
+    },
+    "software": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/softwareEntry"
+      }
     },
     "cisa_kev_cves": {
       "$ref": "#/$defs/stringArray"
@@ -179,6 +196,55 @@
         "name": {
           "type": "string",
           "minLength": 1
+        }
+      }
+    },
+    "ttpEntry": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "technique_id": {
+          "type": "string",
+          "pattern": "^T\\d{4}(\\.\\d{3})?$"
+        },
+        "technique_name": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "description": {
+          "type": "string"
+        },
+        "stix_id": {
+          "type": "string"
+        }
+      }
+    },
+    "softwareEntry": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "mitre_id": {
+          "type": "string",
+          "pattern": "^S\\d{4}$"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "type": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "stix_id": {
+          "type": "string"
         }
       }
     }

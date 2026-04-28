@@ -1,10 +1,19 @@
 <div class="search-container">
   <div class="search-input-container">
-    <input type="text" id="search-input" placeholder="Search threat actors...">
+    <input type="text" id="search-input" placeholder="Search threat actors, techniques, and campaigns...">
     <button id="clear-search" style="display: none;">Clear</button>
   </div>
   
   <div class="search-filters">
+    <div class="filter-group">
+      <label for="type-filter">Type:</label>
+      <select id="type-filter">
+        <option value="">All</option>
+        <option value="actor">Threat actors</option>
+        <option value="technique">MITRE techniques</option>
+        <option value="campaign">MITRE campaigns</option>
+      </select>
+    </div>
     <div class="filter-group">
       <label for="country-filter">Country:</label>
       <select id="country-filter">
@@ -30,7 +39,7 @@
   <div class="search-results">
     <div id="results-container"></div>
     <div id="no-results" style="display: none;">
-      <p>No threat actors found matching your criteria.</p>
+      <p>No results found matching your criteria.</p>
     </div>
     <div id="search-error" style="display: none;">
       <p>Search data is temporarily unavailable.</p>
@@ -39,18 +48,34 @@
 </div>
 
 <script>
-  let allThreatActors = [];
+  let allItems = [];
   let filteredResults = [];
   const actorsEndpoint = '{{ "/api/threat-actors.json" | relative_url }}';
   const facetsEndpoint = '{{ "/api/facets.json" | relative_url }}';
+  const searchIndexEndpoint = '{{ "/api/search-index.json" | relative_url }}';
+
+  function buildItemList(actors, searchIndex) {
+    const items = [];
+    (actors || []).forEach(a => {
+      items.push({ _kind: 'actor', item: a });
+    });
+    (searchIndex.techniques || []).forEach(t => {
+      items.push({ _kind: 'technique', item: t });
+    });
+    (searchIndex.campaigns || []).forEach(c => {
+      items.push({ _kind: 'campaign', item: c });
+    });
+    return items;
+  }
 
   Promise.all([
     fetch(actorsEndpoint).then(handleJsonResponse),
-    fetch(facetsEndpoint).then(handleJsonResponse)
+    fetch(facetsEndpoint).then(handleJsonResponse),
+    fetch(searchIndexEndpoint).then(handleJsonResponse)
   ])
-    .then(([actors, facets]) => {
-      allThreatActors = actors;
-      filteredResults = [...allThreatActors];
+    .then(([actors, facets, searchIndex]) => {
+      allItems = buildItemList(actors, searchIndex);
+      filteredResults = [...allItems];
       populateFilters(facets);
       displayResults();
     })
@@ -105,61 +130,102 @@
     
     noResults.style.display = 'none';
     
-    container.innerHTML = filteredResults.map(actor => `
-      <div class="search-result-item">
+    container.innerHTML = filteredResults.map(wrap => {
+      if (wrap._kind === 'actor') {
+        const actor = wrap.item;
+        return `
+      <div class="search-result-item" data-kind="actor">
         <h3><a href="${actor.permalink || actor.url}">${escapeHtml(actor.name)}</a></h3>
         <div class="result-metadata">
+          <span class="result-type">Threat actor</span>
           <span class="aliases">${escapeHtml((actor.aliases || []).join(', '))}</span>
           ${actor.country ? `<span class="country">${escapeHtml(actor.country)}</span>` : ''}
           ${actor.risk_level ? `<span class="risk risk-${actor.risk_level.toLowerCase()}">${escapeHtml(actor.risk_level)}</span>` : ''}
         </div>
         <p class="result-description">${escapeHtml(actor.description || '')}</p>
-      </div>
-    `).join('');
+      </div>`;
+      }
+      if (wrap._kind === 'technique') {
+        const t = wrap.item;
+        return `
+      <div class="search-result-item" data-kind="technique">
+        <h3><a href="${t.permalink || '#'}">${escapeHtml(t.title || t.mitre_id)}</a></h3>
+        <div class="result-metadata">
+          <span class="result-type">MITRE technique</span>
+          <span class="mitre-id-badge">${escapeHtml(t.mitre_id || '')}</span>
+        </div>
+      </div>`;
+      }
+      if (wrap._kind === 'campaign') {
+        const c = wrap.item;
+        return `
+      <div class="search-result-item" data-kind="campaign">
+        <h3><a href="${c.permalink || '#'}">${escapeHtml(c.title || c.mitre_id)}</a></h3>
+        <div class="result-metadata">
+          <span class="result-type">MITRE campaign</span>
+          <span class="mitre-id-badge">${escapeHtml(c.mitre_id || '')}</span>
+        </div>
+      </div>`;
+      }
+      return '';
+    }).join('');
   }
 
   function filterResults() {
     const searchTerm = document.getElementById('search-input').value.toLowerCase();
+    const typeFilter = document.getElementById('type-filter').value;
     const countryFilter = document.getElementById('country-filter').value;
     const riskFilter = document.getElementById('risk-filter').value;
     const sectorFilter = document.getElementById('sector-filter').value;
     
-    filteredResults = allThreatActors.filter(actor => {
-      const description = (actor.description || '').toLowerCase();
-      const aliases = actor.aliases || [];
-      const sectors = actor.sector_focus || [];
+    filteredResults = allItems.filter(wrap => {
+      if (typeFilter && wrap._kind !== typeFilter) {
+        return false;
+      }
 
-      const matchesSearch = !searchTerm || 
-        actor.name.toLowerCase().includes(searchTerm) ||
-        aliases.some(alias => alias.toLowerCase().includes(searchTerm)) ||
-        description.includes(searchTerm);
-      
-      const matchesCountry = !countryFilter || actor.country === countryFilter;
-      const matchesRisk = !riskFilter || actor.risk_level === riskFilter;
-      const matchesSector = !sectorFilter || sectors.includes(sectorFilter);
-      
-      return matchesSearch && matchesCountry && matchesRisk && matchesSector;
+      if (wrap._kind === 'actor') {
+        const actor = wrap.item;
+        const description = (actor.description || '').toLowerCase();
+        const aliases = actor.aliases || [];
+        const sectors = actor.sector_focus || [];
+
+        const matchesSearch = !searchTerm || 
+          actor.name.toLowerCase().includes(searchTerm) ||
+          aliases.some(alias => alias.toLowerCase().includes(searchTerm)) ||
+          description.includes(searchTerm);
+        
+        const matchesCountry = !countryFilter || actor.country === countryFilter;
+        const matchesRisk = !riskFilter || actor.risk_level === riskFilter;
+        const matchesSector = !sectorFilter || sectors.includes(sectorFilter);
+        
+        return matchesSearch && matchesCountry && matchesRisk && matchesSector;
+      }
+
+      const x = wrap.item;
+      const title = (x.title || x.mitre_id || '').toLowerCase();
+      const mid = (x.mitre_id || '').toLowerCase();
+      const matchesSearch = !searchTerm || title.includes(searchTerm) || mid.includes(searchTerm);
+      return matchesSearch;
     });
     
     displayResults();
   }
 
-  // Event listeners
   document.getElementById('search-input').addEventListener('input', filterResults);
+  document.getElementById('type-filter').addEventListener('change', filterResults);
   document.getElementById('country-filter').addEventListener('change', filterResults);
   document.getElementById('risk-filter').addEventListener('change', filterResults);
   document.getElementById('sector-filter').addEventListener('change', filterResults);
 
-  // Clear search functionality
   document.getElementById('clear-search').addEventListener('click', () => {
     document.getElementById('search-input').value = '';
+    document.getElementById('type-filter').value = '';
     document.getElementById('country-filter').value = '';
     document.getElementById('risk-filter').value = '';
     document.getElementById('sector-filter').value = '';
     filterResults();
   });
 
-  // Show/hide clear button
   document.getElementById('search-input').addEventListener('input', (e) => {
     const clearBtn = document.getElementById('clear-search');
     clearBtn.style.display = e.target.value ? 'block' : 'none';

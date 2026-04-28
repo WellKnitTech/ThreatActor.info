@@ -32,6 +32,7 @@ module ActorStore
     source_license_url
     operations
     malware
+    software
     ttps
     cisa_kev_cves
     urls

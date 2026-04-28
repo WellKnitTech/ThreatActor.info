@@ -322,10 +322,22 @@ def build_body(actor)
     end
   elsif actor['campaigns'] && actor['campaigns'].any?
     actor['campaigns'].each do |campaign|
-      name = campaign['name'] || 'Unnamed Campaign'
-      date = campaign['date'] || ''
-      desc = campaign['description'] || ''
-      sections << "- **#{name}** (#{date}): #{desc}"
+      if campaign.is_a?(Hash)
+        name = campaign['name'] || 'Unnamed Campaign'
+        cid = campaign['campaign_id']
+        curl = campaign['url']
+        desc = campaign['description'].to_s
+        date = campaign['date'] || ''
+        if curl && !curl.to_s.empty?
+          label = cid ? "#{name} (#{cid})" : name
+          tail = [desc, date].reject { |x| x.to_s.strip.empty? }.join(' — ')
+          sections << (tail.empty? ? "- [#{label}](#{curl})" : "- [#{label}](#{curl}): #{tail}")
+        else
+          sections << "- **#{name}**#{cid ? " (#{cid})" : ''} (#{date}): #{desc}"
+        end
+      else
+        sections << "- **#{campaign}**"
+      end
     end
   else
     sections << "*Information pending cataloguing.*"
@@ -342,7 +354,15 @@ def build_body(actor)
         tid = ttp['technique_id'] || ''
         tname = ttp['technique_name'] || ''
         desc = ttp['description'] || ''
-        sections << "- **#{tid} #{tname}**: #{desc}"
+        url = ttp['url']
+        if url && !url.to_s.empty?
+          # Markdown link so generate-indexes extracts ATT&CK technique mappings
+          sections << "- [#{tid} #{tname}](#{url})"
+        elsif !desc.to_s.strip.empty?
+          sections << "- **#{tid} #{tname}**: #{desc}"
+        else
+          sections << "- **#{tid} #{tname}**"
+        end
       else
         # String format: "T1566 - Phishing" or just "Phishing"
         sections << "- **#{ttp}**"
@@ -403,8 +423,9 @@ def build_body(actor)
   # Malware
   sections << "## Malware and Tools"
   mal_list = actor['malware'] || []
+  sw_list = actor['software'] || []
   matrix_observations = tool_matrix_observations(actor)
-  
+
   if mal_list && mal_list.any?
     mal_list.each do |m|
       # Handle both object format (with keys) and string format
@@ -419,8 +440,26 @@ def build_body(actor)
     end
   end
 
+  if sw_list.any?
+    sections << "" if mal_list&.any?
+    sections << "### MITRE ATT&CK Software"
+    sw_list.each do |s|
+      next unless s.is_a?(Hash)
+
+      name = s['name'] || 'Unknown'
+      sid = s['mitre_id']
+      url = s['url']
+      stype = s['type']
+      if url && !url.to_s.empty?
+        sections << "- [#{name} (#{sid}) — #{stype}](#{url})"
+      else
+        sections << "- **#{name}** (#{sid}, #{stype})"
+      end
+    end
+  end
+
   if matrix_observations.any?
-    sections << "" if mal_list && mal_list.any?
+    sections << "" if (mal_list && mal_list.any?) || sw_list.any?
     matrix_observations.sort.each do |label, matrix_tools|
       sections << "### #{label}"
       sections << ""
@@ -432,7 +471,7 @@ def build_body(actor)
       sections << ""
     end
     sections.pop if sections.last == ""
-  elsif !mal_list || mal_list.empty?
+  elsif (!mal_list || mal_list.empty?) && sw_list.empty?
     sections << "*Information pending cataloguing.*"
   end
   sections << ""

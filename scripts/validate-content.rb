@@ -23,6 +23,10 @@ class ContentValidator
     'schemas/threat-actor.schema.json',
     'schemas/generated-array.schema.json',
     'schemas/generated-object.schema.json',
+    'schemas/technique.schema.json',
+    'schemas/tactic.schema.json',
+    'schemas/campaign.schema.json',
+    'schemas/mitigation.schema.json',
     '_layouts/default.html',
     '_layouts/threat_actor.html',
     '_includes/search.html',
@@ -49,6 +53,17 @@ class ContentValidator
     'api/references.json',
     'api/ioc-lookup.json',
     'api/ioc-types.json',
+    'api/techniques.json',
+    'api/tactics.json',
+    'api/mitigations.json',
+    'api/campaigns_mitre.json',
+    'api/actors_by_technique.json',
+    'api/software_by_actor.json',
+    'api/search-index.json',
+    '_layouts/technique.html',
+    '_layouts/tactic.html',
+    '_layouts/campaign.html',
+    '_layouts/mitigation.html',
     '_data/generated/threat_actors.json',
     '_data/generated/iocs.json',
     '_data/generated/facets.json',
@@ -58,7 +73,15 @@ class ContentValidator
     '_data/generated/attack_mappings.json',
     '_data/generated/references.json',
     '_data/generated/ioc_lookup.json',
-    '_data/generated/ioc_types.json'
+    '_data/generated/ioc_types.json',
+    '_data/generated/malware_index.json',
+    '_data/generated/techniques.json',
+    '_data/generated/tactics.json',
+    '_data/generated/mitigations.json',
+    '_data/generated/campaigns_mitre.json',
+    '_data/generated/actors_by_technique.json',
+    '_data/generated/software_by_actor.json',
+    '_data/generated/search_index.json'
   ].freeze
   GENERATED_JSON_FILES = [
     '_data/generated/threat_actors.json',
@@ -71,7 +94,14 @@ class ContentValidator
     '_data/generated/references.json',
     '_data/generated/ioc_lookup.json',
     '_data/generated/ioc_types.json',
-    '_data/generated/malware_index.json'
+    '_data/generated/malware_index.json',
+    '_data/generated/techniques.json',
+    '_data/generated/tactics.json',
+    '_data/generated/mitigations.json',
+    '_data/generated/campaigns_mitre.json',
+    '_data/generated/actors_by_technique.json',
+    '_data/generated/software_by_actor.json',
+    '_data/generated/search_index.json'
   ].freeze
   GENERATED_API_WRAPPERS = {
     'api/threat-actors.json' => 'site.data.generated.threat_actors',
@@ -84,7 +114,14 @@ class ContentValidator
     'api/attack-mappings.json' => 'site.data.generated.attack_mappings',
     'api/references.json' => 'site.data.generated.references',
     'api/ioc-lookup.json' => 'site.data.generated.ioc_lookup',
-    'api/ioc-types.json' => 'site.data.generated.ioc_types'
+    'api/ioc-types.json' => 'site.data.generated.ioc_types',
+    'api/techniques.json' => 'site.data.generated.techniques',
+    'api/tactics.json' => 'site.data.generated.tactics',
+    'api/mitigations.json' => 'site.data.generated.mitigations',
+    'api/campaigns_mitre.json' => 'site.data.generated.campaigns_mitre',
+    'api/actors_by_technique.json' => 'site.data.generated.actors_by_technique',
+    'api/software_by_actor.json' => 'site.data.generated.software_by_actor',
+    'api/search-index.json' => 'site.data.generated.search_index'
   }.freeze
   SKIPPED_IOC_HEADINGS = ['Sources'].freeze
   IPV4_PATTERN = /\b(?:\d{1,3}\.){3}\d{1,3}\b/.freeze
@@ -113,6 +150,7 @@ class ContentValidator
     validate_yaml_data
     load_pages
     validate_threat_actor_pages
+    validate_mitre_collection_pages
     validate_orphan_pages
     validate_urls
     validate_source_attribution
@@ -146,6 +184,13 @@ class ContentValidator
 
     unless threat_actor_collection['output'] == true
       add_error('_config.yml', "Collection 'threat_actors' must exist with output: true")
+    end
+
+    %w[malware techniques tactics campaigns mitigations].each do |coll|
+      cfg = collections[coll] || {}
+      unless cfg['output'] == true
+        add_error('_config.yml', "Collection '#{coll}' must exist with output: true")
+      end
     end
   rescue StandardError => e
     add_error('_config.yml', "Config parsing error: #{e.message}")
@@ -253,6 +298,31 @@ class ContentValidator
       front_matter: safe_load_yaml(match[1]) || {},
       body: match[2]
     }
+  end
+
+  def validate_mitre_collection_pages
+    puts 'Validating MITRE collection pages...'
+
+    {
+      '_techniques' => 'technique',
+      '_tactics' => 'tactic',
+      '_campaigns' => 'campaign',
+      '_mitigations' => 'mitigation'
+    }.each do |dir, expected_layout|
+      Dir.glob("#{dir}/*.md").sort.each do |path|
+        begin
+          page = parse_page(path)
+        rescue StandardError => e
+          add_error(path, "Page parsing error: #{e.message}")
+          next
+        end
+        fm = page[:front_matter]
+        unless fm['layout'] == expected_layout
+          add_error(path, "Layout must be '#{expected_layout}', got #{fm['layout'].inspect}")
+        end
+        add_error(path, 'mitre_id must be present') if fm['mitre_id'].to_s.strip.empty?
+      end
+    end
   end
 
   def validate_threat_actor_pages
@@ -528,9 +598,12 @@ class ContentValidator
 
   def validate_generated_payload_shape(file, payload)
     case File.basename(file)
-    when 'threat_actors.json', 'recently_updated.json', 'iocs.json', 'campaigns.json', 'malware.json', 'attack_mappings.json', 'references.json'
+    when 'threat_actors.json', 'recently_updated.json', 'iocs.json', 'campaigns.json', 'malware.json',
+         'attack_mappings.json', 'references.json', 'techniques.json', 'tactics.json', 'mitigations.json',
+         'campaigns_mitre.json'
       add_error(file, 'Generated JSON root must be an array') unless payload.is_a?(Array)
-    when 'facets.json', 'ioc_lookup.json', 'ioc_types.json', 'malware_index.json'
+    when 'facets.json', 'ioc_lookup.json', 'ioc_types.json', 'malware_index.json', 'actors_by_technique.json',
+         'software_by_actor.json', 'search_index.json'
       add_error(file, 'Generated JSON root must be an object') unless payload.is_a?(Hash)
     end
   end

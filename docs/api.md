@@ -54,6 +54,12 @@ Optional source provenance fields may also be present when an actor entry was im
 - `source_license_url`
 - `provenance`
 
+When MITRE ATT&CK STIX import has run, records may also include:
+
+- `mitre_ttps` (objects with `technique_id`, `technique_name`, `url`)
+- `mitre_software` (objects with `mitre_id`, `name`, `url`, `type`)
+- `mitre_campaigns_yaml` (objects with `campaign_id`, `name`, `url`)
+
 ### `/api/recently-updated.json`
 
 Array of actor records with `last_updated` values, sorted newest first for homepage freshness cards.
@@ -223,6 +229,34 @@ const apt28Matches = shard.records.filter((record) => record.actor_slug === 'apt
 - Exact IOC lookup: fetch `/api/ioc-lookup.json` and index by `normalized_value`.
 - Type-specific browsing: fetch `/api/ioc-types.json`, then fetch a shard from `/api/iocs/by-type/<type>.json`.
 - Actor-specific IOC filtering: fetch `/api/iocs.json` or a type shard and filter by `actor_slug`.
+
+### `/api/techniques.json`
+
+Array of MITRE technique summaries from `_techniques/*.md` front matter (`title`, `mitre_id`, `permalink`, `mitre_url`, `domains`).
+
+### `/api/tactics.json`
+
+Array of MITRE tactic summaries from `_tactics/*.md`.
+
+### `/api/mitigations.json`
+
+Array of MITRE mitigation summaries from `_mitigations/*.md`.
+
+### `/api/campaigns_mitre.json`
+
+Array of MITRE campaign summaries from `_campaigns/*.md` (distinct from `/api/campaigns.json`, which is extracted from actor page **Notable Campaigns** sections).
+
+### `/api/actors_by_technique.json`
+
+Object keyed by technique ID (for example `T1059`) listing actors that use that technique (from actor YAML `ttps`).
+
+### `/api/software_by_actor.json`
+
+Object keyed by actor name listing MITRE `software` entries from actor YAML.
+
+### `/api/search-index.json`
+
+Composite search payload with `actors`, `techniques`, and `campaigns` arrays for the site search UI.
 
 ## Limitations
 

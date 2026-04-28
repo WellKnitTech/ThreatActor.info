@@ -1,0 +1,4 @@
+---
+layout: null
+---
+{{ site.data.generated.actors_by_technique | jsonify }}
