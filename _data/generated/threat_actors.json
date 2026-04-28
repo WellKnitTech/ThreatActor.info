@@ -734,7 +734,7 @@
     ],
     "first_seen": "2023",
     "last_activity": "2025",
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": "High",
     "source_name": null,
     "source_attribution": "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.",
@@ -742,10 +742,206 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "bushido_breach_reports": {
+        "reports": [
+          {
+            "organization": "Nissan Australia",
+            "breach_date": "December 2023",
+            "adversary_label": "Akira (Ransomware)",
+            "links": [
+              "https://www.nissan.com.au/website-update.html"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20240102223637/https://www.nissan.com.au/website-update.html"
+            ]
+          },
+          {
+            "organization": "BHI Energy",
+            "breach_date": "October 2023",
+            "adversary_label": "Akira (Ransomware)",
+            "links": [
+              "https://www.documentcloud.org/documents/24075435-bhi-notice"
+            ],
+            "archived_links": [
+              "http://web.archive.org/web/20231023214413/https://www.documentcloud.org/documents/24075435-bhi-notice"
+            ]
+          }
+        ],
+        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
+        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
+        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
+        "source_retrieved_at": "2026-04-28T01:40:03Z"
+      },
       "mitre": {
         "source_dataset_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
         "source_record_id": "G1024",
         "source_retrieved_at": "2026-04-26T05:24:31Z"
+      },
+      "ransomware_tool_matrix": {
+        "community_reports": [
+          {
+            "source_file": "CommunityReports/CR-001-AKIRA-JUN-2025.md",
+            "incident_time": "June 2025",
+            "victim_sector": "Construction",
+            "victim_country": "Canada"
+          },
+          {
+            "source_file": "CommunityReports/CR-002-AKIRA-APR-2025.md",
+            "incident_time": "April 2025",
+            "victim_sector": "Food and Agriculture",
+            "victim_country": "Canada"
+          },
+          {
+            "source_file": "CommunityReports/CR-003-AKIRA-JUN-2025.md",
+            "incident_time": "June 2025",
+            "victim_sector": "Manufacturing",
+            "victim_country": "Canada"
+          },
+          {
+            "source_file": "CommunityReports/CR-009-AKIRA-AUG-2025.md",
+            "incident_time": "August 2025",
+            "victim_sector": "Construction",
+            "victim_country": "USA"
+          },
+          {
+            "source_file": "CommunityReports/CR-010-AKIRA-AUG-2025.md",
+            "incident_time": "August 2025",
+            "victim_sector": "Engineering",
+            "victim_country": "USA"
+          },
+          {
+            "source_file": "CommunityReports/CR-017-AKIRA-SEP-2025.md",
+            "incident_time": "September 2025",
+            "victim_sector": "Professional Services",
+            "victim_country": "Canada"
+          },
+          {
+            "source_file": "CommunityReports/CR-018-AKIRA-NOV-2025.md",
+            "incident_time": "November 2025",
+            "victim_sector": "Manufacturing",
+            "victim_country": "Canada"
+          }
+        ],
+        "references": [
+          {
+            "title": "www.huntress.com",
+            "url": "https://www.huntress.com/blog/exploitation-of-sonicwall-vpn",
+            "date": "04/08/2025",
+            "source_file": "CommunityReports/CR-009-AKIRA-AUG-2025.md"
+          },
+          {
+            "title": "blog.bushidotoken.net",
+            "url": "https://blog.bushidotoken.net/2023/09/tracking-adversaries-akira-another.html",
+            "date": "15 September 2023",
+            "source_file": "GroupProfiles/Akira.md"
+          },
+          {
+            "title": "www.cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+            "date": "18 April 2024",
+            "source_file": "GroupProfiles/Akira.md"
+          },
+          {
+            "title": "www.guidepointsecurity.com",
+            "url": "https://www.guidepointsecurity.com/blog/gritrep-akira-sonicwall/",
+            "date": "2025/08/05",
+            "source_file": "CommunityReports/CR-001-AKIRA-JUN-2025.md"
+          },
+          {
+            "title": "arcticwolf.com",
+            "url": "https://arcticwolf.com/resources/blog/smash-and-grab-aggressive-akira-campaign-targets-sonicwall-vpns/",
+            "date": "26 September 2025",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "CommunityReports/CR-001-AKIRA-JUN-2025.md",
+          "CommunityReports/CR-002-AKIRA-APR-2025.md",
+          "CommunityReports/CR-003-AKIRA-JUN-2025.md",
+          "CommunityReports/CR-009-AKIRA-AUG-2025.md",
+          "CommunityReports/CR-010-AKIRA-AUG-2025.md",
+          "CommunityReports/CR-017-AKIRA-SEP-2025.md",
+          "CommunityReports/CR-018-AKIRA-NOV-2025.md",
+          "GroupProfiles/Akira.md",
+          "ThreatIntel/CISAThreatGroups.md",
+          "ThreatIntel/ExtraThreatIntel.md",
+          "Tools/CredentialTheft.md",
+          "Tools/DefenseEvasion.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Exfiltration.md",
+          "Tools/Networking.md",
+          "Tools/Offsec.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "Akira",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "DonPAPI",
+            "LaZagne",
+            "Mimikatz"
+          ],
+          "Defense Evasion": [
+            "PowerTool",
+            "ThrottleStop driver (rwdrv.sys)",
+            "Zemana Anti-Rootkit",
+            "Zemana Anti-Rootkit driver",
+            "churchill_driver.sys, fidget.sys",
+            "consent.exe (msimg32.dll, wmsgapi.dll)",
+            "icardagt.exe (version.dll)",
+            "mfpmp.exe (rtworkq.dll)"
+          ],
+          "Discovery": [
+            "Advanced IP Scanner",
+            "Advanced Port Scanner",
+            "Bloodhound",
+            "Masscan",
+            "ReconFTW",
+            "ShareFinder",
+            "SharpHound",
+            "SharpShares",
+            "SoftPerfect NetScan",
+            "SoftPerfect Network Scanner",
+            "ldapdomaindump"
+          ],
+          "Exfiltration": [
+            "FileZilla",
+            "MEGA",
+            "RClone",
+            "Temp[.]sh",
+            "WinRAR",
+            "WinSCP"
+          ],
+          "LOLBAS": [
+            "net",
+            "netsh",
+            "nltest",
+            "vssadmin"
+          ],
+          "Networking": [
+            "Cloudflared",
+            "Ngrok",
+            "OpenSSH",
+            "cloudflared"
+          ],
+          "OffSec": [
+            "CrackMapExec",
+            "Impacket",
+            "NetExec",
+            "NetExec (NXC)"
+          ],
+          "RMM Tools": [
+            "AnyDesk",
+            "MeshAgent",
+            "MobaXterm",
+            "Radmin",
+            "RustDesk",
+            "TeamViewer"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/akira.md",
@@ -7852,7 +8048,7 @@
     ],
     "first_seen": "2017",
     "last_activity": "2023",
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": "High",
     "source_name": "Malpedia (Fraunhofer FKIE)",
     "source_attribution": "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.",
@@ -7925,6 +8121,43 @@
         "source_dataset_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
         "source_record_id": "G0069",
         "source_retrieved_at": "2026-04-26T07:05:44Z"
+      },
+      "ransomware_tool_matrix": {
+        "actor_roles": [
+          "state_sponsored_ransomware"
+        ],
+        "references": [
+          {
+            "title": "www.microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2023/04/07/mercury-and-dev-1084-destructive-attack-on-hybrid-environment",
+            "date": "7 April 2023",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "ThreatIntel/ExtraThreatIntel.md",
+          "Tools/CredentialTheft.md",
+          "Tools/Networking.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "DarkBit",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "AADInternals"
+          ],
+          "Networking": [
+            "Ligolo",
+            "OpenSSH"
+          ],
+          "RMM Tools": [
+            "RPort",
+            "eHorus"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/apt0069.md",
@@ -13351,7 +13584,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.",
@@ -13359,10 +13592,87 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "bushido_breach_reports": {
+        "reports": [
+          {
+            "organization": "Uber",
+            "breach_date": "September 2022",
+            "adversary_label": "Lapsus$ (suspected)",
+            "links": [
+              "https://www.uber.com/newsroom/security-update/"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20230405195617/https://www.uber.com/newsroom/security-update/"
+            ]
+          },
+          {
+            "organization": "Okta",
+            "breach_date": "April 2022",
+            "adversary_label": "Lapsus$",
+            "links": [
+              "https://www.okta.com/blog/2022/04/okta-concludes-its-investigation-into-the-january-2022-compromise/"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20230325071437/https://www.okta.com/blog/2022/04/okta-concludes-its-investigation-into-the-january-2022-compromise/"
+            ]
+          },
+          {
+            "organization": "Microsoft",
+            "breach_date": "March 2022",
+            "adversary_label": "Lapsus$",
+            "links": [
+              "https://www.microsoft.com/en-us/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20230212051224/https://www.microsoft.com/en-us/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
+            ]
+          }
+        ],
+        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
+        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
+        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
+        "source_retrieved_at": "2026-04-28T01:40:03Z"
+      },
       "mitre": {
         "source_dataset_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
         "source_record_id": "G1004",
         "source_retrieved_at": "2026-04-26T07:05:44Z"
+      },
+      "ransomware_tool_matrix": {
+        "references": [
+          {
+            "title": "www.microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/",
+            "date": "22 March 2022",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "ThreatIntel/ExtraThreatIntel.md",
+          "Tools/CredentialTheft.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/LOLBAS.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "Lapsus$",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "Mimikatz"
+          ],
+          "Discovery": [
+            "ADExplorer"
+          ],
+          "LOLBAS": [
+            "NTDS Utility (ntdsutil)"
+          ],
+          "RMM Tools": [
+            "AnyDesk"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/apt1004.md",
@@ -14211,7 +14521,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.",
@@ -14219,10 +14529,261 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "bushido_breach_reports": {
+        "reports": [
+          {
+            "organization": "Coinbase",
+            "breach_date": "February 2023",
+            "adversary_label": "0ktapus (suspected)",
+            "links": [
+              "https://www.coinbase.com/blog/social-engineering-a-coinbase-case-study"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20230222172459/https://www.coinbase.com/blog/social-engineering-a-coinbase-case-study"
+            ]
+          },
+          {
+            "organization": "Reddit",
+            "breach_date": "February 2023",
+            "adversary_label": "0ktapus (suspected)",
+            "links": [
+              "https://www.reddit.com/r/reddit/comments/10y427y/we_had_a_security_incident_heres_what_we_know/"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20230210080951/https://www.reddit.com/r/reddit/comments/10y427y/we_had_a_security_incident_heres_what_we_know/"
+            ]
+          },
+          {
+            "organization": "Okta",
+            "breach_date": "August 2022",
+            "adversary_label": "0ktapus",
+            "links": [
+              "https://sec.okta.com/scatterswine"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20230131172440/https://sec.okta.com/scatterswine/"
+            ]
+          },
+          {
+            "organization": "Twilio",
+            "breach_date": "August 2022",
+            "adversary_label": "0ktapus",
+            "links": [
+              "https://www.twilio.com/blog/august-2022-social-engineering-attack"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20230404043749/https://www.twilio.com/blog/august-2022-social-engineering-attack"
+            ]
+          }
+        ],
+        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
+        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
+        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
+        "source_retrieved_at": "2026-04-28T01:40:03Z"
+      },
       "mitre": {
         "source_dataset_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
         "source_record_id": "G1015",
         "source_retrieved_at": "2026-04-26T07:05:44Z"
+      },
+      "ransomware_tool_matrix": {
+        "actor_roles": [
+          "ransomware_affiliate"
+        ],
+        "references": [
+          {
+            "title": "cloud.google.com",
+            "url": "https://cloud.google.com/blog/topics/threat-intelligence/unc3944-sms-phishing-sim-swapping-ransomware",
+            "date": "14 September 2023",
+            "source_file": "GroupProfiles/ScatteredSpider.md"
+          },
+          {
+            "title": "cloud.google.com",
+            "url": "https://cloud.google.com/blog/topics/threat-intelligence/unc3944-sms-phishing-sim-swapping-ransomware/",
+            "date": "14 September 2023",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          },
+          {
+            "title": "www.cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a",
+            "date": "16 November 2023",
+            "source_file": "GroupProfiles/ScatteredSpider.md"
+          },
+          {
+            "title": "www.crowdstrike.com",
+            "url": "https://www.crowdstrike.com/blog/analysis-of-intrusion-campaign-targeting-telecom-and-bpo-companies/",
+            "date": "2 December 2022",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          },
+          {
+            "title": "www.crowdstrike.com",
+            "url": "https://www.crowdstrike.com/blog/analysis-of-intrusion-campaign-targeting-telecom-and-bpo-companies",
+            "date": "2 December 2022",
+            "source_file": "GroupProfiles/ScatteredSpider.md"
+          },
+          {
+            "title": "www.crowdstrike.com",
+            "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-services-observes-scattered-spider-escalate-attacks/",
+            "date": "2 July 2025",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          },
+          {
+            "title": "permiso.io",
+            "url": "https://permiso.io/blog/lucr-3-scattered-spider-getting-saas-y-in-the-cloud",
+            "date": "20 September 2023",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          },
+          {
+            "title": "blog.sekoia.io",
+            "url": "https://blog.sekoia.io/scattered-spider-laying-new-eggs/",
+            "date": "22 February 2024",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          },
+          {
+            "title": "blog.sekoia.io",
+            "url": "https://blog.sekoia.io/scattered-spider-laying-new-eggs",
+            "date": "22 February 2024",
+            "source_file": "GroupProfiles/ScatteredSpider.md"
+          },
+          {
+            "title": "redcanary.com",
+            "url": "https://redcanary.com/threat-detection-report/trends/rmm-tools/",
+            "date": "23 April 2024",
+            "source_file": "GroupProfiles/ScatteredSpider.md"
+          },
+          {
+            "title": "unit42.paloaltonetworks.com",
+            "url": "https://unit42.paloaltonetworks.com/muddled-libra/",
+            "date": "8 March 2024",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          },
+          {
+            "title": "unit42.paloaltonetworks.com",
+            "url": "https://unit42.paloaltonetworks.com/muddled-libra",
+            "date": "8 March 2024",
+            "source_file": "GroupProfiles/ScatteredSpider.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/ScatteredSpider.md",
+          "ThreatIntel/CISAThreatGroups.md",
+          "ThreatIntel/ExtraThreatIntel.md",
+          "Tools/CredentialTheft.md",
+          "Tools/DefenseEvasion.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md",
+          "Tools/Networking.md",
+          "Tools/Offsec.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "Scattered Spider / Scattered Spider*",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "GitGuardian",
+            "Jecretz",
+            "MAGNET RAM Capture",
+            "MIT Kerberos Ticket Manager",
+            "Mimikatz",
+            "ProcDump",
+            "Snaffler",
+            "Trufflehog",
+            "Volatility",
+            "aws_consoler"
+          ],
+          "Defense Evasion": [
+            "Bedevil",
+            "Intel Ethernet driver (BYOVD)"
+          ],
+          "Discovery": [
+            "ADExplorer",
+            "ADRecon",
+            "AWS Systems Manager Inventory",
+            "Advanced Port Scanner",
+            "Get-ADUser",
+            "ManageEngine LANDESK",
+            "PDQ Inventory",
+            "PingCastle",
+            "RVTools",
+            "RustScan",
+            "SharpHound",
+            "VMware PowerCLI"
+          ],
+          "Exfiltration": [
+            "Cyberduck",
+            "Dropbox",
+            "FileZilla",
+            "MEGA",
+            "RClone",
+            "S3 Browser"
+          ],
+          "LOLBAS": [
+            "PsExec"
+          ],
+          "Networking": [
+            "Chisel",
+            "Cloudflared",
+            "NSOCKS",
+            "Ngrok",
+            "OpenSSH",
+            "Pinggy",
+            "Plink",
+            "Proxifier",
+            "Rsocks",
+            "Rsocx",
+            "Socat",
+            "Sshimpanzee",
+            "Tailscale",
+            "Teleport",
+            "TrueSocks",
+            "TryCloudflare",
+            "Twingate",
+            "Windscribe (Wstunnel)",
+            "Wstunnel"
+          ],
+          "OffSec": [
+            "CIMplant",
+            "Impacket",
+            "LAPS Toolkit",
+            "LINpeas",
+            "MicroBurst",
+            "Pacu"
+          ],
+          "RMM Tools": [
+            "ASG Remote Desktop",
+            "BeAnywhere",
+            "Chrome Remote Desktop",
+            "DWAgent",
+            "Domotz",
+            "Fleetdeck",
+            "ITarian",
+            "Level.io",
+            "Level[.]io",
+            "ManageEngineRMM",
+            "MobaXterm",
+            "N-Able",
+            "Parsec",
+            "Pulseway",
+            "RPort",
+            "RSAT",
+            "RemotePC",
+            "RustDesk",
+            "ScreenConnect",
+            "Sorillus",
+            "Splashtop",
+            "TacticalRMM",
+            "TeamViewer",
+            "TightVNC",
+            "TrendMicro Basecamp",
+            "Xeox",
+            "ZeroTier",
+            "ZohoAssist"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/apt1015.md",
@@ -15479,7 +16040,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.",
@@ -15491,6 +16052,98 @@
         "source_dataset_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
         "source_record_id": "G1032",
         "source_retrieved_at": "2026-04-26T07:05:44Z"
+      },
+      "ransomware_tool_matrix": {
+        "community_reports": [
+          {
+            "source_file": "CommunityReports/CR-019-INCRANSOM-NOV-2025.md",
+            "incident_time": "November 2025",
+            "victim_sector": "TBD",
+            "victim_country": "Canada"
+          },
+          {
+            "source_file": "CommunityReports/CR-020-INCRANSOM-JAN-2026.md",
+            "incident_time": "January 2026",
+            "victim_sector": "Construction",
+            "victim_country": "Canada"
+          }
+        ],
+        "references": [
+          {
+            "title": "www.huntress.com",
+            "url": "https://www.huntress.com/blog/lolbin-to-inc-ransomware",
+            "date": "1 May 2024",
+            "source_file": "GroupProfiles/INC_Ransom.md"
+          },
+          {
+            "title": "www.huntress.com",
+            "url": "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity",
+            "date": "11 August 2023",
+            "source_file": "GroupProfiles/INC_Ransom.md"
+          },
+          {
+            "title": "www.huntress.com",
+            "url": "https://www.huntress.com/blog/data-exfiltration-threat-actor-infrastructure-exposed",
+            "date": "12 March 2026",
+            "source_file": "GroupProfiles/INC_Ransom.md"
+          },
+          {
+            "title": "www.guidepointsecurity.com",
+            "url": "https://www.guidepointsecurity.com/blog/update-from-the-ransomware-trenches/",
+            "date": "14 August 2024",
+            "source_file": "GroupProfiles/INC_Ransom.md"
+          },
+          {
+            "title": "www.secureworks.com",
+            "url": "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware",
+            "date": "15 April 2024",
+            "source_file": "GroupProfiles/INC_Ransom.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "CommunityReports/CR-019-INCRANSOM-NOV-2025.md",
+          "CommunityReports/CR-020-INCRANSOM-JAN-2026.md",
+          "GroupProfiles/INC_Ransom.md",
+          "ThreatIntel/ExtraThreatIntel.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md"
+        ],
+        "source_label": "INC Ransom",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "Mimikatz"
+          ],
+          "Discovery": [
+            "AdFind",
+            "Advanced IP Scanner",
+            "SoftPerfect Network Scanner"
+          ],
+          "Exfiltration": [
+            "7-Zip",
+            "BackBlaze",
+            "MEGA",
+            "RClone",
+            "Restic",
+            "WinRAR",
+            "rclone",
+            "s5cmd"
+          ],
+          "LOLBAS": [
+            "Finger",
+            "PsExec"
+          ],
+          "Networking": [
+            "Bitvise SSH Client"
+          ],
+          "RMM Tools": [
+            "AnyDesk"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/apt1032.md",
@@ -16337,7 +16990,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.",
@@ -16349,6 +17002,54 @@
         "source_dataset_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
         "source_record_id": "G1043",
         "source_retrieved_at": "2026-04-26T07:05:44Z"
+      },
+      "ransomware_tool_matrix": {
+        "references": [
+          {
+            "title": "blog.talosintelligence.com",
+            "url": "https://blog.talosintelligence.com/blackbyte-blends-tried-and-true-tradecraft-with-newly-disclosed-vulnerabilities-to-support-ongoing-attacks/",
+            "date": "28 August 2024",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          },
+          {
+            "title": "Ransomware Spotlight: BlackByte",
+            "url": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-blackbyte",
+            "date": "5 July 2022",
+            "source_file": "ThreatIntel/TrendMicroThreatGroups.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "ThreatIntel/ExtraThreatIntel.md",
+          "ThreatIntel/TrendMicroThreatGroups.md",
+          "Tools/DefenseEvasion.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Offsec.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "BlackByte",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Defense Evasion": [
+            "Dell Client driver (BYOVD)",
+            "GIGABYTE Motherboard driver (BYOVD)",
+            "MSI Afterburner driver (BYOVD)",
+            "Zemana Anti-Rootkit driver"
+          ],
+          "Discovery": [
+            "PowerView",
+            "SoftPerfect NetScan"
+          ],
+          "OffSec": [
+            "Cobalt Strike",
+            "PowerShell Empire"
+          ],
+          "RMM Tools": [
+            "AnyDesk"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/apt1043.md",
@@ -17117,7 +17818,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.",
@@ -17129,6 +17830,65 @@
         "source_dataset_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
         "source_record_id": "G1053",
         "source_retrieved_at": "2026-04-26T07:05:44Z"
+      },
+      "ransomware_tool_matrix": {
+        "actor_roles": [
+          "ransomware_affiliate"
+        ],
+        "references": [
+          {
+            "title": "www.microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/",
+            "date": "26 September 2024",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          },
+          {
+            "title": "www.microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2025/08/27/storm-0501s-evolving-techniques-lead-to-cloud-based-ransomware/",
+            "date": "27 August 2025",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "ThreatIntel/ExtraThreatIntel.md",
+          "Tools/CredentialTheft.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Exfiltration.md",
+          "Tools/Offsec.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "Storm-0501 / Storm-0501*",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "AADInternals",
+            "Find-KeePassConfig"
+          ],
+          "Discovery": [
+            "ADRecon",
+            "AzureHound",
+            "OSQuery",
+            "ossec-win32"
+          ],
+          "Exfiltration": [
+            "AZCopy",
+            "MEGA",
+            "RClone"
+          ],
+          "OffSec": [
+            "Cobalt Strike",
+            "Evil-WinRM",
+            "Impacket"
+          ],
+          "RMM Tools": [
+            "AnyDesk",
+            "Level.io",
+            "NinjaOne"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/apt1053.md",
@@ -18738,6 +19498,59 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "bushido_breach_reports": {
+        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
+        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
+        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
+        "source_retrieved_at": "2026-04-28T01:40:03Z",
+        "reports": [
+          {
+            "organization": "Microsoft",
+            "breach_date": "January 2024",
+            "adversary_label": "CozyBear (RU APT)",
+            "links": [
+              "https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack/",
+              "https://msrc.microsoft.com/blog/2024/03/update-on-microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard/"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20240120000859/https://msrc.microsoft.com/blog/2024/01/microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard/"
+            ]
+          },
+          {
+            "organization": "Microsoft",
+            "breach_date": "February 2021",
+            "adversary_label": "CozyBear (RU APT)",
+            "links": [
+              "https://msrc.microsoft.com/blog/2021/02/microsoft-internal-solorigate-investigation-final-update/"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20230313193242/https://msrc.microsoft.com/blog/2021/02/microsoft-internal-solorigate-investigation-final-update/"
+            ]
+          },
+          {
+            "organization": "FireEye",
+            "breach_date": "December 2020",
+            "adversary_label": "CozyBear (RU APT)",
+            "links": [
+              "https://www.fireeye.com/blog/threat-research/2020/12/unauthorized-access-of-fireeye-red-team-tools.html"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20201209011927/https://www.fireeye.com/blog/threat-research/2020/12/unauthorized-access-of-fireeye-red-team-tools.html"
+            ]
+          },
+          {
+            "organization": "SolarWinds",
+            "breach_date": "December 2020",
+            "adversary_label": "CozyBear (RU APT)",
+            "links": [
+              "https://orangematter.solarwinds.com/2021/01/11/new-findings-from-our-investigation-of-sunburst/"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20230209021934/https://orangematter.solarwinds.com/2021/01/11/new-findings-from-our-investigation-of-sunburst/"
+            ]
+          }
+        ]
+      },
       "mitre": {
         "source_dataset_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
         "source_record_id": "G0016",
@@ -19494,6 +20307,25 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "bushido_breach_reports": {
+        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
+        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
+        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
+        "source_retrieved_at": "2026-04-28T01:40:03Z",
+        "reports": [
+          {
+            "organization": "Avast/CCleaner",
+            "breach_date": "September 2016",
+            "adversary_label": "WickedPanda (CN APT)",
+            "links": [
+              "https://blog.avast.com/update-ccleaner-attackers-entered-via-teamviewer"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20230406024839/https://blog.avast.com/update-ccleaner-attackers-entered-via-teamviewer"
+            ]
+          }
+        ]
+      },
       "mitre": {
         "source_dataset_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
         "source_record_id": "G0044",
@@ -21652,7 +22484,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": "RansomLook",
     "source_attribution": "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/",
@@ -21660,6 +22492,58 @@
     "source_license": "CC BY 4.0",
     "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
     "provenance": {
+      "ransomware_tool_matrix": {
+        "references": [
+          {
+            "title": "www.team-cymru.com",
+            "url": "https://www.team-cymru.com/post/beast-ransomware-server-toolkit-analysis",
+            "date": "18 March 2026",
+            "source_file": "GroupProfiles/Beast.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/Beast.md",
+          "ThreatIntel/ExtraThreatIntel.md",
+          "Tools/CredentialTheft.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md",
+          "Tools/Networking.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "Beast",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "Automim",
+            "LaZagne",
+            "Mimikatz"
+          ],
+          "Discovery": [
+            "Advanced IP Scanner",
+            "Advanced Port Scanner",
+            "Everything.exe",
+            "SoftPerfect NetScan"
+          ],
+          "Exfiltration": [
+            "MEGA",
+            "WinSCP"
+          ],
+          "LOLBAS": [
+            "PsExec"
+          ],
+          "Networking": [
+            "Klink",
+            "OpenSSH"
+          ],
+          "RMM Tools": [
+            "AnyDesk"
+          ]
+        }
+      },
       "source_dataset_url": "https://www.ransomlook.io/api/groups",
       "source_record_id": "beast",
       "source_retrieved_at": "2026-04-26T02:09:04Z",
@@ -28406,7 +29290,7 @@
     ],
     "first_seen": "2019",
     "last_activity": "2025",
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": "Critical",
     "source_name": null,
     "source_attribution": "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.",
@@ -28414,10 +29298,66 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "bushido_breach_reports": {
+        "reports": [
+          {
+            "organization": "New Zealand Reserve Bank",
+            "breach_date": "January 2021",
+            "adversary_label": "Clop (Ransomware)",
+            "links": [
+              "https://www.rbnz.govt.nz/about-us/responsibility-and-accountability/our-response-to-the-data-breach"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20230206161320/https://www.rbnz.govt.nz/about-us/responsibility-and-accountability/our-response-to-the-data-breach"
+            ]
+          },
+          {
+            "organization": "Qualys",
+            "breach_date": "December 2020",
+            "adversary_label": "Clop (Ransomware)",
+            "links": [
+              "https://blog.qualys.com/vulnerabilities-threat-research/2021/04/02/qualys-update-on-accellion-fta-security-incident"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20250713022054/https://blog.qualys.com/vulnerabilities-threat-research/2021/04/02/qualys-update-on-accellion-fta-security-incident"
+            ]
+          }
+        ],
+        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
+        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
+        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
+        "source_retrieved_at": "2026-04-28T01:40:03Z"
+      },
       "mitre": {
         "source_dataset_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
         "source_record_id": "G0092",
         "source_retrieved_at": "2026-04-26T05:24:31Z"
+      },
+      "ransomware_tool_matrix": {
+        "references": [
+          {
+            "title": "CISA Alert aa23-158a",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a",
+            "date": "7 June 2023",
+            "source_file": "ThreatIntel/CISAThreatGroups.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "ThreatIntel/CISAThreatGroups.md",
+          "Tools/Offsec.md"
+        ],
+        "source_label": "CL0P",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "OffSec": [
+            "Cobalt Strike",
+            "PowerShell Empire",
+            "TinyMet"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/cl0p.md",
@@ -29547,7 +30487,7 @@
     ],
     "first_seen": "2020",
     "last_activity": "2022",
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": "Critical",
     "source_name": "MITRE CISA KEV",
     "source_attribution": "© The MITRE Corporation. This work is reproduced and distributed under CC BY 4.0 license.",
@@ -29555,6 +30495,130 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "bushido_breach_reports": {
+        "reports": [
+          {
+            "organization": "Gloucester Council",
+            "breach_date": "November 2021",
+            "adversary_label": "Conti (Ransomware)",
+            "links": [
+              "https://democracy.gloucester.gov.uk/documents/s59774/Appendix%201%20-%20Executive%20Summary%20of%20NCC%20Group%20Report.pdf"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20240201223629/https://democracy.gloucester.gov.uk/documents/s59774/Appendix%201%20-%20Executive%20Summary%20of%20NCC%20Group%20Report.pdf"
+            ]
+          },
+          {
+            "organization": "Irish HSE",
+            "breach_date": "May 2021",
+            "adversary_label": "Conti (Ransomware)",
+            "links": [
+              "https://www.hse.ie/eng/services/news/media/pressrel/hse-publishes-independent-report-on-conti-cyber-attack.html"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20230323031057/https://www.hse.ie/eng/services/news/media/pressrel/hse-publishes-independent-report-on-conti-cyber-attack.html"
+            ]
+          }
+        ],
+        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
+        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
+        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
+        "source_retrieved_at": "2026-04-28T01:40:03Z"
+      },
+      "ransomware_tool_matrix": {
+        "references": [
+          {
+            "title": "BazarCall to Conti Ransomware via Trickbot and Cobalt Strike",
+            "url": "https://thedfirreport.com/2021/08/01/bazarcall-to-conti-ransomware-via-trickbot-and-cobalt-strike/",
+            "source_file": "ThreatIntel/TheDFIRReportGroups.md"
+          },
+          {
+            "title": "BazarLoader to Conti Ransomware in 32 Hours",
+            "url": "https://thedfirreport.com/2021/09/13/bazarloader-to-conti-ransomware-in-32-hours/",
+            "source_file": "ThreatIntel/TheDFIRReportGroups.md"
+          },
+          {
+            "title": "Conti Ransomware",
+            "url": "https://thedfirreport.com/2021/05/12/conti-ransomware/",
+            "source_file": "ThreatIntel/TheDFIRReportGroups.md"
+          },
+          {
+            "title": "Stolen Images Campaign Ends in Conti Ransomware",
+            "url": "https://thedfirreport.com/2022/04/04/stolen-images-campaign-ends-in-conti-ransomware/",
+            "source_file": "ThreatIntel/TheDFIRReportGroups.md"
+          },
+          {
+            "title": "CISA Alert aa21-265a",
+            "url": "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware",
+            "date": "9 March 2022",
+            "source_file": "ThreatIntel/CISAThreatGroups.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "ThreatIntel/CISAThreatGroups.md",
+          "ThreatIntel/TheDFIRReportGroups.md",
+          "Tools/CredentialTheft.md",
+          "Tools/DefenseEvasion.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md",
+          "Tools/Offsec.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "Conti",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "Mimikatz",
+            "ProcDump",
+            "Router Scan",
+            "SharpChrome"
+          ],
+          "Defense Evasion": [
+            "GMER",
+            "PCHunter"
+          ],
+          "Discovery": [
+            "AdFind",
+            "Bloodhound",
+            "PowerView",
+            "Seatbelt",
+            "ShareFinder",
+            "SharpView",
+            "SoftPerfect NetScan"
+          ],
+          "Exfiltration": [
+            "Dropfiles",
+            "MEGA",
+            "Qaz[.]im",
+            "RClone",
+            "Sendspace",
+            "WinSCP"
+          ],
+          "LOLBAS": [
+            "BITSAdmin",
+            "NTDS Utility (ntdsutil)",
+            "PsExec",
+            "WMIC"
+          ],
+          "OffSec": [
+            "Cobalt Strike",
+            "Metasploit",
+            "Meterpreter",
+            "PowerShell Empire",
+            "PowerSploit",
+            "Rubeus"
+          ],
+          "RMM Tools": [
+            "AnyDesk",
+            "Atera",
+            "Splashtop"
+          ]
+        }
+      }
     },
     "page_path": "_threat_actors/conti.md",
     "headings": [
@@ -29940,7 +31004,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
@@ -29952,6 +31016,35 @@
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "9686ff2b-01e0-46eb-9169-9e8d115be345",
         "source_retrieved_at": "2026-04-26T05:47:15Z"
+      },
+      "ransomware_tool_matrix": {
+        "actor_roles": [
+          "ransomware_affiliate"
+        ],
+        "references": [
+          {
+            "title": "www.welivesecurity.com",
+            "url": "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+            "date": "10 September 2024",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "ThreatIntel/ExtraThreatIntel.md",
+          "Tools/DefenseEvasion.md"
+        ],
+        "source_label": "CosmicBeetle / CosmicBeetle*",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Defense Evasion": [
+            "Darkside (TrueSight driver)",
+            "RealBlindingEDR",
+            "Reaper"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/cosmicbeetle.md",
@@ -33864,7 +34957,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
@@ -33876,6 +34969,112 @@
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "e883458d-496f-4a94-b916-4b7b83e3d525",
         "source_retrieved_at": "2026-04-26T05:47:15Z"
+      },
+      "ransomware_tool_matrix": {
+        "actor_roles": [
+          "initial_access_broker"
+        ],
+        "references": [
+          {
+            "title": "BlackSuit Ransomware",
+            "url": "https://thedfirreport.com/2024/08/26/blacksuit-ransomware/",
+            "source_file": "ThreatIntel/TheDFIRReportGroups.md"
+          },
+          {
+            "title": "Fake Zoom Ends in BlackSuit Ransomware",
+            "url": "https://thedfirreport.com/2025/03/31/fake-zoom-ends-in-blacksuit-ransomware/",
+            "source_file": "ThreatIntel/TheDFIRReportGroups.md"
+          },
+          {
+            "title": "connect.cybercx.com.au",
+            "url": "https://connect.cybercx.com.au/dfir-threat-report-au-2025",
+            "date": "10 February 2025",
+            "source_file": "GroupProfiles/BlackSuit.md"
+          },
+          {
+            "title": "CISA Alert aa24-241a",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a",
+            "date": "28 August 2024",
+            "source_file": "ThreatIntel/CISAThreatGroups.md"
+          },
+          {
+            "title": "www.cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a",
+            "date": "7 August 2024",
+            "source_file": "GroupProfiles/BlackSuit.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/BlackSuit.md",
+          "ThreatIntel/CISAThreatGroups.md",
+          "ThreatIntel/TheDFIRReportGroups.md",
+          "Tools/CredentialTheft.md",
+          "Tools/DefenseEvasion.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md",
+          "Tools/Networking.md",
+          "Tools/Offsec.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "Black Suit / BlackSuit / Blacksuit / Br0k3r",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "AccountRestore",
+            "Mimikatz",
+            "NirSoft Dialupass",
+            "NirSoft IEPassView (iepv)",
+            "NirSoft MailPassView",
+            "NirSoft Netpass",
+            "NirSoft RouterPassView"
+          ],
+          "Defense Evasion": [
+            "Eraser",
+            "GMER",
+            "Inno Setup",
+            "PowerTool"
+          ],
+          "Discovery": [
+            "AdFind",
+            "Advanced IP Scanner",
+            "SharpHound",
+            "SharpShares",
+            "SoftPerfect NetScan"
+          ],
+          "Exfiltration": [
+            "Bublup",
+            "Catbox[.]moe",
+            "RClone",
+            "Temp[.]sh"
+          ],
+          "LOLBAS": [
+            "PsExec",
+            "attrib"
+          ],
+          "Networking": [
+            "Chisel",
+            "Cloudflared",
+            "Ligolo",
+            "Ngrok",
+            "OpenSSH"
+          ],
+          "OffSec": [
+            "Brute Ratel C4",
+            "Cobalt Strike",
+            "Rubeus"
+          ],
+          "RMM Tools": [
+            "AnyDesk",
+            "Atera",
+            "LogMeIn",
+            "MeshAgent",
+            "MobaXterm"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/dev-0569.md",
@@ -35018,7 +36217,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": "RansomLook",
     "source_attribution": "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/",
@@ -35026,6 +36225,27 @@
     "source_license": "CC BY 4.0",
     "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
     "provenance": {
+      "ransomware_tool_matrix": {
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Tools/CredentialTheft.md",
+          "Tools/DiscoveryEnum.md"
+        ],
+        "source_label": "DragonForce",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "Mimikatz"
+          ],
+          "Discovery": [
+            "Advanced IP Scanner",
+            "PingCastle",
+            "SoftPerfect NetScan"
+          ]
+        }
+      },
       "source_dataset_url": "https://www.ransomlook.io/api/groups",
       "source_record_id": "dragonforce",
       "source_retrieved_at": "2026-04-26T02:08:49Z",
@@ -38301,7 +39521,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": "RansomLook",
     "source_attribution": "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/",
@@ -38309,6 +39529,46 @@
     "source_license": "CC BY 4.0",
     "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
     "provenance": {
+      "ransomware_tool_matrix": {
+        "references": [
+          {
+            "title": "www.aha.org",
+            "url": "https://www.aha.org/system/files/media/file/2024/08/hc3-tlp-clear-threat-actor-profile-everest-ransomware-group-august-20-2024.pdf",
+            "date": "20 August 2024",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "ThreatIntel/ExtraThreatIntel.md",
+          "Tools/CredentialTheft.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Offsec.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "Everest",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "ProcDump"
+          ],
+          "Discovery": [
+            "SoftPerfect NetScan"
+          ],
+          "OffSec": [
+            "Cobalt Strike",
+            "Metasploit",
+            "Meterpreter"
+          ],
+          "RMM Tools": [
+            "AnyDesk",
+            "Atera",
+            "Splashtop"
+          ]
+        }
+      },
       "source_dataset_url": "https://www.ransomlook.io/api/groups",
       "source_record_id": "everest",
       "source_retrieved_at": "2026-04-26T02:08:51Z",
@@ -42080,6 +43340,25 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "bushido_breach_reports": {
+        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
+        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
+        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
+        "source_retrieved_at": "2026-04-28T01:40:03Z",
+        "reports": [
+          {
+            "organization": "London Borough of Hackney",
+            "breach_date": "October 2020",
+            "adversary_label": "Pysa (Ransomware)",
+            "links": [
+              "https://ico.org.uk/media2/migrated/4030344/20240705-lboh-updated-reprimand-with-redactions-1.pdf"
+            ],
+            "archived_links": [
+              "https://archive.is/UVU6l"
+            ]
+          }
+        ]
+      },
       "misp_galaxy": {
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "d34ca487-1613-4ee5-8930-2ac8a60f945f",
@@ -43256,7 +44535,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
@@ -43264,10 +44543,120 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "bushido_breach_reports": {
+        "reports": [
+          {
+            "organization": "Capita",
+            "breach_date": "March 2023",
+            "adversary_label": "BlackBasta (Ransomware)",
+            "links": [
+              "https://ico.org.uk/media2/pv5nhks4/capita-plc-and-cpsl-monetary-penalty-notice.pdf"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20251015133309/https://ico.org.uk/media2/pv5nhks4/capita-plc-and-cpsl-monetary-penalty-notice.pdf"
+            ]
+          },
+          {
+            "organization": "DPP Law",
+            "breach_date": "June 2022",
+            "adversary_label": "BlackBasta (Ransomware)",
+            "links": [
+              "https://ico.org.uk/media2/pr4bg5hq/dpp-law-ltd-monetary-penalty-notice.pdf"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20250416131742/https://ico.org.uk/media2/pr4bg5hq/dpp-law-ltd-monetary-penalty-notice.pdf"
+            ]
+          }
+        ],
+        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
+        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
+        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
+        "source_retrieved_at": "2026-04-28T01:40:03Z"
+      },
       "misp_galaxy": {
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "835c7fc6-a066-447d-a0fc-b096bd9c412f",
         "source_retrieved_at": "2026-04-26T05:47:15Z"
+      },
+      "ransomware_tool_matrix": {
+        "references": [
+          {
+            "title": "www.cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+            "date": "10 May 2024",
+            "source_file": "GroupProfiles/BlackBasta.md"
+          },
+          {
+            "title": "www.trendmicro.com",
+            "url": "https://www.trendmicro.com/en_ca/research/22/j/black-basta-infiltrates-networks-via-qakbot-brute-ratel-and-coba.html",
+            "date": "12 October 2022",
+            "source_file": "GroupProfiles/BlackBasta.md"
+          },
+          {
+            "title": "cloud.google.com",
+            "url": "https://cloud.google.com/blog/topics/threat-intelligence/unc4393-goes-gently-into-silentnight",
+            "date": "29 July 2024",
+            "source_file": "GroupProfiles/BlackBasta.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/BlackBasta.md",
+          "ThreatIntel/CISAThreatGroups.md",
+          "ThreatIntel/ExtraThreatIntel.md",
+          "Tools/CredentialTheft.md",
+          "Tools/DefenseEvasion.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md",
+          "Tools/Offsec.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "Black Basta / BlackBasta",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "Mimikatz"
+          ],
+          "Defense Evasion": [
+            "Backstab",
+            "Backstab (Process Explorer driver)"
+          ],
+          "Discovery": [
+            "AdFind",
+            "Bloodhound",
+            "PSNmap",
+            "PowerView",
+            "SoftPerfect NetScan"
+          ],
+          "Exfiltration": [
+            "Qaz[.]im",
+            "RClone",
+            "Rclone"
+          ],
+          "LOLBAS": [
+            "BITSAdmin",
+            "PsExec",
+            "Quick Assist"
+          ],
+          "OffSec": [
+            "Brute Ratel (BRc4)",
+            "Brute Ratel C4",
+            "Cobalt Strike",
+            "Metasploit",
+            "PowerSploit"
+          ],
+          "RMM Tools": [
+            "AnyDesk",
+            "Atera",
+            "NetSupport",
+            "ScreenConnect",
+            "Splashtop",
+            "Supremo"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/gold-rebellion.md",
@@ -48677,7 +50066,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": "RansomLook",
     "source_attribution": "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/",
@@ -48685,6 +50074,67 @@
     "source_license": "CC BY 4.0",
     "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
     "provenance": {
+      "ransomware_tool_matrix": {
+        "references": [
+          {
+            "title": "www.cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a",
+            "date": "22 July 2025",
+            "source_file": "GroupProfiles/Interlock.md"
+          },
+          {
+            "title": "blog.talosintelligence.com",
+            "url": "https://blog.talosintelligence.com/emerging-interlock-ransomware/",
+            "date": "7 November 2024",
+            "source_file": "GroupProfiles/Interlock.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/Interlock.md",
+          "ThreatIntel/CISAThreatGroups.md",
+          "ThreatIntel/ExtraThreatIntel.md",
+          "Tools/DefenseEvasion.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md",
+          "Tools/Networking.md",
+          "Tools/Offsec.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "Interlock",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Defense Evasion": [
+            "ProcessHacker",
+            "ThreatFire System Monitor driver",
+            "ThreatFire System Monitor driver (BYOVD)"
+          ],
+          "Discovery": [
+            "Advanced Port Scanner",
+            "Azure Storage Explorer"
+          ],
+          "Exfiltration": [
+            "AZCopy",
+            "WinSCP"
+          ],
+          "LOLBAS": [
+            "PsExec"
+          ],
+          "Networking": [
+            "PuTTY"
+          ],
+          "OffSec": [
+            "Cobalt Strike"
+          ],
+          "RMM Tools": [
+            "AnyDesk",
+            "ScreenConnect"
+          ]
+        }
+      },
       "source_dataset_url": "https://www.ransomlook.io/api/groups",
       "source_record_id": "interlock",
       "source_retrieved_at": "2026-04-26T02:08:56Z",
@@ -49869,7 +51319,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
@@ -49881,6 +51331,48 @@
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "035fbd5c-e4a1-4c7b-80fb-f5a89a361aed",
         "source_retrieved_at": "2026-04-26T05:47:15Z"
+      },
+      "ransomware_tool_matrix": {
+        "references": [
+          {
+            "title": "CISA Alert aa22-152a",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-152a",
+            "date": "12 December 2023",
+            "source_file": "ThreatIntel/CISAThreatGroups.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "ThreatIntel/CISAThreatGroups.md",
+          "Tools/CredentialTheft.md",
+          "Tools/Exfiltration.md",
+          "Tools/Networking.md",
+          "Tools/Offsec.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "Karakurt",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "Mimikatz"
+          ],
+          "Exfiltration": [
+            "FileZilla",
+            "MEGA",
+            "RClone"
+          ],
+          "Networking": [
+            "Ngrok"
+          ],
+          "OffSec": [
+            "Cobalt Strike"
+          ],
+          "RMM Tools": [
+            "AnyDesk"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/karakurt.md",
@@ -52541,7 +54033,7 @@
     ],
     "first_seen": "2019",
     "last_activity": "2024",
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": "Critical",
     "source_name": "MITRE CISA KEV",
     "source_attribution": "© The MITRE Corporation. This work is reproduced and distributed under CC BY 4.0 license.",
@@ -52549,6 +54041,143 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "bushido_breach_reports": {
+        "reports": [
+          {
+            "organization": "Boeing",
+            "breach_date": "November 2023",
+            "adversary_label": "LockBit (Ransomware)",
+            "links": [
+              "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-325a"
+            ],
+            "archived_links": [
+              "http://web.archive.org/web/20231121190858/https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-325a"
+            ]
+          },
+          {
+            "organization": "Advanced Computer Software Group",
+            "breach_date": "August 2022",
+            "adversary_label": "LockBit (Ransomware)",
+            "links": [
+              "https://ico.org.uk/media2/gdlfddgc/advanced-penalty-notice-20250327.pdf"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20250509024336/https://ico.org.uk/media2/gdlfddgc/advanced-penalty-notice-20250327.pdf"
+            ]
+          }
+        ],
+        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
+        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
+        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
+        "source_retrieved_at": "2026-04-28T01:40:03Z"
+      },
+      "ransomware_tool_matrix": {
+        "references": [
+          {
+            "title": "CISA Alert aa23-075a",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a",
+            "date": "16 March 2023",
+            "source_file": "ThreatIntel/CISAThreatGroups.md"
+          },
+          {
+            "title": "CISA Alert aa23-165a",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+            "date": "16 March 2023",
+            "source_file": "ThreatIntel/CISAThreatGroups.md"
+          },
+          {
+            "title": "CISA Alert aa23-325a",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-325a",
+            "date": "16 March 2023",
+            "source_file": "ThreatIntel/CISAThreatGroups.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "ThreatIntel/CISAThreatGroups.md",
+          "Tools/CredentialTheft.md",
+          "Tools/DefenseEvasion.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md",
+          "Tools/Networking.md",
+          "Tools/Offsec.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "LockBit / Lockbit",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "Gosecretsdump",
+            "LaZagne",
+            "LostMyPassword",
+            "Mimikatz",
+            "NirSoft ExtPassword",
+            "PasswordFox",
+            "ProcDump",
+            "Veeam-Get-Creds"
+          ],
+          "Defense Evasion": [
+            "Backstab (Process Explorer driver)",
+            "Defender Control",
+            "GMER",
+            "PCHunter",
+            "PowerTool",
+            "ProcessHacker",
+            "TDSSKiller"
+          ],
+          "Discovery": [
+            "AdFind",
+            "Advanced IP Scanner",
+            "Advanced Port Scanner",
+            "Bloodhound",
+            "Seatbelt",
+            "SoftPerfect NetScan"
+          ],
+          "Exfiltration": [
+            "Anonfiles",
+            "FileZilla",
+            "File[.]io",
+            "FreeFileSync",
+            "MEGA",
+            "RClone",
+            "Sendspace",
+            "Temp[.]sh",
+            "Tempsend",
+            "Transfer[.]sh",
+            "Transfert-my-files",
+            "WinSCP"
+          ],
+          "LOLBAS": [
+            "BCDEdit",
+            "PsExec"
+          ],
+          "Networking": [
+            "Ligolo",
+            "Ngrok",
+            "Plink"
+          ],
+          "OffSec": [
+            "Cobalt Strike",
+            "Impacket",
+            "Koadic",
+            "Metasploit",
+            "PowerShell Empire",
+            "ThunderShell"
+          ],
+          "RMM Tools": [
+            "Action1",
+            "AnyDesk",
+            "FixMeIt",
+            "ScreenConnect",
+            "Splashtop",
+            "TeamViewer",
+            "ZohoAssist"
+          ]
+        }
+      }
     },
     "page_path": "_threat_actors/lockbit.md",
     "headings": [
@@ -53732,7 +55361,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": "RansomLook",
     "source_attribution": "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/",
@@ -53740,6 +55369,25 @@
     "source_license": "CC BY 4.0",
     "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
     "provenance": {
+      "ransomware_tool_matrix": {
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Tools/DiscoveryEnum.md",
+          "Tools/Exfiltration.md"
+        ],
+        "source_label": "Lynx",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Discovery": [
+            "SoftPerfect NetScan"
+          ],
+          "Exfiltration": [
+            "Restic"
+          ]
+        }
+      },
       "source_dataset_url": "https://www.ransomlook.io/api/groups",
       "source_record_id": "lynx",
       "source_retrieved_at": "2026-04-26T02:08:58Z",
@@ -54722,7 +56370,7 @@
     ],
     "first_seen": "2019",
     "last_activity": "2020",
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": "High",
     "source_name": null,
     "source_attribution": "Manually curated from open source intelligence",
@@ -54730,6 +56378,56 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "ransomware_tool_matrix": {
+        "references": [
+          {
+            "title": "cloud.google.com",
+            "url": "https://cloud.google.com/blog/topics/threat-intelligence/tactics-techniques-procedures-associated-with-maze-ransomware-incidents",
+            "date": "5 July 2020",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "ThreatIntel/ExtraThreatIntel.md",
+          "Tools/CredentialTheft.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md",
+          "Tools/Offsec.md"
+        ],
+        "source_label": "MAZE",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "Mimikatz",
+            "ProcDump"
+          ],
+          "Discovery": [
+            "AdFind",
+            "Advanced IP Scanner",
+            "Bloodhound",
+            "PingCastle",
+            "PowerView",
+            "ShareFinder"
+          ],
+          "Exfiltration": [
+            "WinSCP"
+          ],
+          "LOLBAS": [
+            "PsExec",
+            "WMIC"
+          ],
+          "OffSec": [
+            "Cobalt Strike",
+            "Metasploit",
+            "Meterpreter",
+            "PowerSploit"
+          ]
+        }
+      }
     },
     "page_path": "_threat_actors/maze.md",
     "headings": [
@@ -54785,7 +56483,7 @@
     ],
     "first_seen": "2021",
     "last_activity": "2025",
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": "High",
     "source_name": null,
     "source_attribution": "Manually curated from open source intelligence",
@@ -54793,6 +56491,109 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "ransomware_tool_matrix": {
+        "references": [
+          {
+            "title": "CISA Alert aa22-181a",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-181a",
+            "date": "11 August 2022",
+            "source_file": "ThreatIntel/CISAThreatGroups.md"
+          },
+          {
+            "title": "unit42.paloaltonetworks.com",
+            "url": "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/",
+            "date": "11 January 2024",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          },
+          {
+            "title": "CISA Alert aa25-071a",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+            "date": "12 March 2025",
+            "source_file": "ThreatIntel/CISAThreatGroups.md"
+          },
+          {
+            "title": "blog.talosintelligence.com",
+            "url": "https://blog.talosintelligence.com/threat-actor-believed-to-be-spreading-new-medusalocker-variant-since-2022",
+            "date": "3 October 2024",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          },
+          {
+            "title": "www.security.com",
+            "url": "https://www.security.com/threat-intelligence/medusa-ransomware-attacks",
+            "date": "6 March 2025",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "ThreatIntel/CISAThreatGroups.md",
+          "ThreatIntel/ExtraThreatIntel.md",
+          "Tools/CredentialTheft.md",
+          "Tools/DefenseEvasion.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md",
+          "Tools/Networking.md",
+          "Tools/Offsec.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "Medusa / Medusa Locker / MedusaLocker",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "Invoke-TheHash",
+            "Mimikatz"
+          ],
+          "Defense Evasion": [
+            "EDRSandBlast",
+            "HRSword",
+            "KillAV",
+            "PCHunter",
+            "ProcessHacker",
+            "ThrottleStop driver"
+          ],
+          "Discovery": [
+            "Advanced IP Scanner",
+            "Advanced Port Scanner",
+            "Navicat",
+            "PDQ Inventory",
+            "RoboCopy",
+            "SoftPerfect NetScan"
+          ],
+          "Exfiltration": [
+            "RClone"
+          ],
+          "LOLBAS": [
+            "BITSAdmin",
+            "Process Explorer",
+            "PsExec"
+          ],
+          "Networking": [
+            "Cloudflared",
+            "FRP",
+            "Ligolo",
+            "PuTTY",
+            "RevSocks"
+          ],
+          "OffSec": [
+            "Impacket"
+          ],
+          "RMM Tools": [
+            "AnyDesk",
+            "Atera",
+            "HCL BigFix",
+            "N-Able",
+            "PDQ Deploy",
+            "Remote Desktop Plus (RDP+)",
+            "ScreenConnect",
+            "SimpleHelp",
+            "Splashtop",
+            "eHorus"
+          ]
+        }
+      }
     },
     "page_path": "_threat_actors/medusa.md",
     "headings": [
@@ -57071,7 +58872,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": "RansomLook",
     "source_attribution": "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/",
@@ -57079,6 +58880,35 @@
     "source_license": "CC BY 4.0",
     "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
     "provenance": {
+      "ransomware_tool_matrix": {
+        "references": [
+          {
+            "title": "www.s-rminform.com",
+            "url": "https://www.s-rminform.com/latest-thinking/ransomware-in-focus-meet-nightspire",
+            "date": "25 March 2025",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "ThreatIntel/ExtraThreatIntel.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Exfiltration.md"
+        ],
+        "source_label": "NightSpire",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Discovery": [
+            "Everything.exe"
+          ],
+          "Exfiltration": [
+            "MEGA",
+            "WinSCP"
+          ]
+        }
+      },
       "source_dataset_url": "https://www.ransomlook.io/api/groups",
       "source_record_id": "nightspire",
       "source_retrieved_at": "2026-04-26T02:09:00Z",
@@ -61766,7 +63596,7 @@
     ],
     "first_seen": "2022",
     "last_activity": "2025",
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": "High",
     "source_name": null,
     "source_attribution": "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.",
@@ -61778,6 +63608,80 @@
         "source_dataset_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
         "source_record_id": "G1040",
         "source_retrieved_at": "2026-04-26T07:05:44Z"
+      },
+      "ransomware_tool_matrix": {
+        "community_reports": [
+          {
+            "source_file": "CommunityReports/CR-016-PLAY-APR-2025.md",
+            "incident_time": "April 2025",
+            "victim_sector": "Retail",
+            "victim_country": "Canada"
+          }
+        ],
+        "references": [
+          {
+            "title": "www.cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+            "date": "18 December 2023",
+            "source_file": "GroupProfiles/PLAY.md"
+          },
+          {
+            "title": "www.guidepointsecurity.com",
+            "url": "https://www.guidepointsecurity.com/blog/gritrep-akira-sonicwall/",
+            "date": "2025/08/05",
+            "source_file": "CommunityReports/CR-016-PLAY-APR-2025.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "CommunityReports/CR-016-PLAY-APR-2025.md",
+          "GroupProfiles/PLAY.md",
+          "ThreatIntel/CISAThreatGroups.md",
+          "Tools/CredentialTheft.md",
+          "Tools/DefenseEvasion.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md",
+          "Tools/Networking.md",
+          "Tools/Offsec.md"
+        ],
+        "source_label": "PLAY",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "HandleKatz",
+            "Mimikatz",
+            "Nanodump"
+          ],
+          "Defense Evasion": [
+            "EDRKill (echo_driver.sys + DBUtil 2.3)",
+            "GMER",
+            "IOBit",
+            "PCHunter",
+            "PowerTool",
+            "icardagt.exe"
+          ],
+          "Discovery": [
+            "AdFind",
+            "WKTools"
+          ],
+          "Exfiltration": [
+            "WinSCP"
+          ],
+          "LOLBAS": [
+            "PsExec"
+          ],
+          "Networking": [
+            "Fast Reverse Proxy Client (FRPC)",
+            "Plink"
+          ],
+          "OffSec": [
+            "Cobalt Strike",
+            "WinPEAS"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/play.md",
@@ -62958,7 +64862,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
@@ -62970,6 +64874,92 @@
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "eb0b100c-8a4e-4859-b6f8-eebd66c3d20c",
         "source_retrieved_at": "2026-04-26T05:47:15Z"
+      },
+      "ransomware_tool_matrix": {
+        "actor_roles": [
+          "initial_access_broker"
+        ],
+        "references": [
+          {
+            "title": "www.secureworks.com",
+            "url": "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker",
+            "date": "20 September 2023",
+            "source_file": "GroupProfiles/ProphetSpider.md"
+          },
+          {
+            "title": "cloud.google.com",
+            "url": "https://cloud.google.com/blog/topics/threat-intelligence/unc961-multiverse-financially-motivated",
+            "date": "23 March 2023",
+            "source_file": "GroupProfiles/ProphetSpider.md"
+          },
+          {
+            "title": "cloud.google.com",
+            "url": "https://cloud.google.com/blog/topics/threat-intelligence/unc961-multiverse-financially-motivated/",
+            "date": "23 March 2023",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          },
+          {
+            "title": "www.crowdstrike.com",
+            "url": "https://www.crowdstrike.com/blog/prophet-spider-exploits-oracle-weblogic-to-facilitate-ransomware-activity",
+            "date": "4 August 2021",
+            "source_file": "GroupProfiles/ProphetSpider.md"
+          },
+          {
+            "title": "www.crowdstrike.com",
+            "url": "https://www.crowdstrike.com/blog/prophet-spider-exploits-oracle-weblogic-to-facilitate-ransomware-activity/",
+            "date": "4 August 2021",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          },
+          {
+            "title": "www.crowdstrike.com",
+            "url": "https://www.crowdstrike.com/blog/prophet-spider-exploits-citrix-sharefile",
+            "date": "7 March 2022",
+            "source_file": "GroupProfiles/ProphetSpider.md"
+          },
+          {
+            "title": "www.crowdstrike.com",
+            "url": "https://www.crowdstrike.com/blog/prophet-spider-exploits-citrix-sharefile/",
+            "date": "7 March 2022",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/ProphetSpider.md",
+          "ThreatIntel/ExtraThreatIntel.md",
+          "Tools/CredentialTheft.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md",
+          "Tools/Offsec.md"
+        ],
+        "source_label": "Prophet Spider",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "Mimikatz"
+          ],
+          "Discovery": [
+            "TXPortMap"
+          ],
+          "Exfiltration": [
+            "PSCP"
+          ],
+          "LOLBAS": [
+            "Minidump",
+            "PAExec",
+            "WinExe"
+          ],
+          "OffSec": [
+            "BurpSuite",
+            "ConPtyShell",
+            "Godzilla Web Shell",
+            "PwnTools",
+            "Responder"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/prophet-spider.md",
@@ -63310,7 +65300,7 @@
     ],
     "first_seen": "2022",
     "last_activity": "2025",
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": "High",
     "source_name": null,
     "source_attribution": "Manually curated from open source intelligence",
@@ -63318,6 +65308,151 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "ransomware_tool_matrix": {
+        "community_reports": [
+          {
+            "source_file": "CommunityReports/CR-012-Qilin-April-2023.md",
+            "incident_time": "April 2023",
+            "victim_sector": "Manufacturing",
+            "victim_country": "Asia Pacific"
+          },
+          {
+            "source_file": "CommunityReports/CR-013-Qilin-June-2022.md",
+            "incident_time": "June 2022",
+            "victim_sector": "Unknown",
+            "victim_country": "Unknown"
+          },
+          {
+            "source_file": "CommunityReports/CR-014-Qilin-May-2024.md",
+            "incident_time": "May 2024",
+            "victim_sector": "Unknown",
+            "victim_country": "USA"
+          }
+        ],
+        "references": [
+          {
+            "title": "news.sophos.com",
+            "url": "https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/",
+            "date": "1 April 2025",
+            "source_file": "GroupProfiles/Qilin.md"
+          },
+          {
+            "title": "www.picussecurity.com",
+            "url": "https://www.picussecurity.com/resource/blog/qilin-ransomware",
+            "date": "10 March 2025",
+            "source_file": "GroupProfiles/Qilin.md"
+          },
+          {
+            "title": "www.sophos.com",
+            "url": "https://www.sophos.com/en-us/blog/i-am-not-a-robot-clickfix-used-to-deploy-stealc-and-qilin",
+            "date": "18 December 2025",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          },
+          {
+            "title": "www.secureworks.com",
+            "url": "https://www.secureworks.com/research/threat-profiles/gold-feather",
+            "date": "19 June 2024",
+            "source_file": "GroupProfiles/Qilin.md"
+          },
+          {
+            "title": "redpiranha.net",
+            "url": "https://redpiranha.net/news/qilin-ransomware-all-you-need-know",
+            "date": "25 April 2025",
+            "source_file": "GroupProfiles/Qilin.md"
+          },
+          {
+            "title": "www.trendmicro.com",
+            "url": "https://www.trendmicro.com/en_us/research/22/h/new-golang-ransomware-agenda-customizes-attacks.html",
+            "date": "25 August 2022",
+            "source_file": "GroupProfiles/Qilin.md"
+          },
+          {
+            "title": "www.trendmicro.com",
+            "url": "https://www.trendmicro.com/en_us/research/24/c/agenda-ransomware-propagates-to-vcenters-and-esxi-via-custom-pow.html",
+            "date": "26 March 2024",
+            "source_file": "GroupProfiles/Qilin.md"
+          },
+          {
+            "title": "www.darktrace.com",
+            "url": "https://www.darktrace.com/blog/a-busy-agenda-darktraces-detection-of-qilin-ransomware-as-a-service-operator",
+            "date": "4/7/2024",
+            "source_file": "CommunityReports/CR-012-Qilin-April-2023.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "CommunityReports/CR-012-Qilin-April-2023.md",
+          "CommunityReports/CR-013-Qilin-June-2022.md",
+          "CommunityReports/CR-014-Qilin-May-2024.md",
+          "GroupProfiles/Qilin.md",
+          "ThreatIntel/ExtraThreatIntel.md",
+          "Tools/CredentialTheft.md",
+          "Tools/DefenseEvasion.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md",
+          "Tools/Networking.md",
+          "Tools/Offsec.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "Qilin / Qilin Ransomware",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "Mimikatz"
+          ],
+          "Defense Evasion": [
+            "EDRSandBlast",
+            "PCHunter",
+            "PowerTool",
+            "Toshiba power management driver (BYOVD)",
+            "Updater for Carbon Black’s Cloud Sensor AV (upd.exe)",
+            "YDArk",
+            "Zemana Anti-Rootkit driver"
+          ],
+          "Discovery": [
+            "Nmap",
+            "Nping"
+          ],
+          "Exfiltration": [
+            "EasyUpload",
+            "EasyUpload.io",
+            "FTP (102GB)",
+            "HTTP/S (783GB)",
+            "MEGA cloud storage (30GB)",
+            "Not observed (3 systems encrypted)"
+          ],
+          "LOLBAS": [
+            "PowerShell",
+            "PsExec",
+            "WinRM",
+            "fsutil"
+          ],
+          "Networking": [
+            "Proxychains",
+            "RDP",
+            "Used SCCM and VMWare ESXi for lateral movement in network",
+            "Used SMB, RDP, WMI for lateral movement in network",
+            "WMI",
+            "lateral movement via DCE-RPC and RDP"
+          ],
+          "OffSec": [
+            "Cobalt Strike",
+            "Cobalt Strike - (HTTP/SSL traffic linked to Cobalt Strike, including PowerShell request for sihost64.dll)",
+            "Evilginx",
+            "Kali Linux",
+            "NetExec",
+            "SystemBC",
+            "Tofsee a modular trojan"
+          ],
+          "RMM Tools": [
+            "NetSupport",
+            "ScreenConnect"
+          ]
+        }
+      }
     },
     "page_path": "_threat_actors/qilin.md",
     "headings": [
@@ -63784,7 +65919,7 @@
     ],
     "first_seen": "2024",
     "last_activity": "2025",
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": "Critical",
     "source_name": null,
     "source_attribution": "Manually curated from open source intelligence",
@@ -63792,6 +65927,140 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "ransomware_tool_matrix": {
+        "community_reports": [
+          {
+            "source_file": "CommunityReports/CR-004-RANSOMHUB-FEB-2025.md",
+            "incident_time": "February 2025",
+            "victim_sector": "Lodging industry",
+            "victim_country": "Canada"
+          },
+          {
+            "source_file": "CommunityReports/CR-005-RANSOMHUB-MAR-2025.md",
+            "incident_time": "March 2025",
+            "victim_sector": "Education",
+            "victim_country": "Canada"
+          },
+          {
+            "source_file": "CommunityReports/CR-006-RANSOMHUB-FEB-2025.md",
+            "incident_time": "February 2025",
+            "victim_sector": "Manufacturing",
+            "victim_country": "Canada"
+          },
+          {
+            "source_file": "CommunityReports/CR-007-RANSOMHUB-MAR-2025.md",
+            "incident_time": "March 2025",
+            "victim_sector": "Logistics",
+            "victim_country": "Canada"
+          }
+        ],
+        "references": [
+          {
+            "title": "news.sophos.com",
+            "url": "https://news.sophos.com/en-us/2024/08/14/edr-kill-shifter/",
+            "date": "14 August 2024",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          },
+          {
+            "title": "www.security.com",
+            "url": "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor",
+            "date": "20 March 2025",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          },
+          {
+            "title": "CISA Alert aa24-242a",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a",
+            "date": "29 August 2024",
+            "source_file": "ThreatIntel/CISAThreatGroups.md"
+          },
+          {
+            "title": "symantec-enterprise-blogs.security.com",
+            "url": "https://symantec-enterprise-blogs.security.com/threat-intelligence/ransomhub-knight-ransomware",
+            "date": "5 June 2024",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          },
+          {
+            "title": "www.forescout.com",
+            "url": "https://www.forescout.com/blog/analysis-a-new-ransomware-group-emerges-from-the-change-healthcare-cyber-attack/",
+            "date": "9 May 2024",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "CommunityReports/CR-004-RANSOMHUB-FEB-2025.md",
+          "CommunityReports/CR-005-RANSOMHUB-MAR-2025.md",
+          "CommunityReports/CR-006-RANSOMHUB-FEB-2025.md",
+          "CommunityReports/CR-007-RANSOMHUB-MAR-2025.md",
+          "ThreatIntel/CISAThreatGroups.md",
+          "ThreatIntel/ExtraThreatIntel.md",
+          "Tools/CredentialTheft.md",
+          "Tools/DefenseEvasion.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md",
+          "Tools/Networking.md",
+          "Tools/Offsec.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "RansomHub",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "Mimikatz"
+          ],
+          "Defense Evasion": [
+            "Acronis Disk Director",
+            "BadRentdrv2",
+            "Revo Uninstaller",
+            "ThreatFire System Monitor driver (BYOVD)"
+          ],
+          "Discovery": [
+            "Angry IP Scanner",
+            "Nmap",
+            "SoftPerfect NetScan",
+            "SoftPerfect Network Scanner",
+            "WKTools"
+          ],
+          "Exfiltration": [
+            "FileZilla",
+            "PSCP",
+            "RClone",
+            "WinSCP",
+            "rclone"
+          ],
+          "LOLBAS": [
+            "BITSAdmin",
+            "PsExec",
+            "WMIC"
+          ],
+          "Networking": [
+            "Cloudflared",
+            "Stowaway",
+            "ngrok"
+          ],
+          "OffSec": [
+            "Cobalt Strike",
+            "CrackMapExec",
+            "Impacket",
+            "Kerbrute",
+            "Metasploit",
+            "NetExec (nxc)",
+            "Sliver"
+          ],
+          "RMM Tools": [
+            "AnyDesk",
+            "Atera",
+            "Atera Agent",
+            "N-Able",
+            "ScreenConnect",
+            "Splashtop",
+            "TightVNC"
+          ]
+        }
+      }
     },
     "page_path": "_threat_actors/ransomhub.md",
     "headings": [
@@ -66261,7 +68530,7 @@
     ],
     "first_seen": "2019",
     "last_activity": "2021",
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": "Critical",
     "source_name": "MITRE CISA KEV",
     "source_attribution": "© The MITRE Corporation. This work is reproduced and distributed under CC BY 4.0 license.",
@@ -66269,6 +68538,63 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "bushido_breach_reports": {
+        "reports": [
+          {
+            "organization": "Kaseya",
+            "breach_date": "July 2021",
+            "adversary_label": "REvil (Ransomware)",
+            "links": [
+              "https://helpdesk.kaseya.com/hc/en-gb/articles/4403584098961-Incident-Overview-Technical-Details"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20230416084704/https://helpdesk.kaseya.com/hc/en-gb/articles/4403584098961-Incident-Overview-Technical-Details"
+            ]
+          }
+        ],
+        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
+        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
+        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
+        "source_retrieved_at": "2026-04-28T01:40:03Z"
+      },
+      "ransomware_tool_matrix": {
+        "references": [
+          {
+            "title": "Sodinokibi (aka REvil) Ransomware",
+            "url": "https://thedfirreport.com/2021/03/29/sodinokibi-aka-revil-ransomware/",
+            "source_file": "ThreatIntel/TheDFIRReportGroups.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "ThreatIntel/TheDFIRReportGroups.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md",
+          "Tools/Offsec.md"
+        ],
+        "source_label": "REvil",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Discovery": [
+            "AdFind",
+            "Bloodhound"
+          ],
+          "Exfiltration": [
+            "PrivatLab",
+            "RClone",
+            "Sendspace"
+          ],
+          "LOLBAS": [
+            "BITSAdmin"
+          ],
+          "OffSec": [
+            "Cobalt Strike"
+          ]
+        }
+      }
     },
     "page_path": "_threat_actors/revil.md",
     "headings": [
@@ -67422,7 +69748,7 @@
     ],
     "first_seen": "2024",
     "last_activity": "2025",
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": "High",
     "source_name": null,
     "source_attribution": "Manually curated from open source intelligence",
@@ -67430,6 +69756,42 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "ransomware_tool_matrix": {
+        "references": [
+          {
+            "title": "It's Not Safe to Pay SafePay",
+            "url": "https://www.huntress.com/blog/its-not-safe-to-pay-safepay",
+            "date": "24 November 2024",
+            "source_file": "GroupProfiles/SafePay.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/SafePay.md"
+        ],
+        "source_label": "Safe Pay",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Discovery": [
+            "Invoke-ShareFinder"
+          ],
+          "Exfiltration": [
+            "7zip",
+            "FileZilla",
+            "WinRAR"
+          ],
+          "LOLBAS": [
+            "CMSTPLUA",
+            "Regsvr32.exe",
+            "dllhost.exe"
+          ],
+          "RMM Tools": [
+            "Microsoft RDP"
+          ]
+        }
+      }
     },
     "page_path": "_threat_actors/safepay.md",
     "headings": [
@@ -67996,6 +70358,25 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "bushido_breach_reports": {
+        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
+        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
+        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
+        "source_retrieved_at": "2026-04-28T01:40:03Z",
+        "reports": [
+          {
+            "organization": "Viasat KA-SAT",
+            "breach_date": "February 2022",
+            "adversary_label": "Sandworm (RU APT)",
+            "links": [
+              "https://news.viasat.com/blog/corporate/ka-sat-network-cyber-attack-overview"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20230407225107/https://news.viasat.com/blog/corporate/ka-sat-network-cyber-attack-overview"
+            ]
+          }
+        ]
+      },
       "misp_galaxy": {
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "f512de42-f76b-40d2-9923-59e7dbdfec35",
@@ -74455,6 +76836,25 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "bushido_breach_reports": {
+        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
+        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
+        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
+        "source_retrieved_at": "2026-04-28T01:40:03Z",
+        "reports": [
+          {
+            "organization": "Microsoft",
+            "breach_date": "July 2023",
+            "adversary_label": "Storm-0558 (CN APT)",
+            "links": [
+              "https://www.microsoft.com/en-us/security/blog/2023/07/14/analysis-of-storm-0558-techniques-for-unauthorized-email-access/"
+            ],
+            "archived_links": [
+              "http://web.archive.org/web/20230802033832/https://www.microsoft.com/en-us/security/blog/2023/07/14/analysis-of-storm-0558-techniques-for-unauthorized-email-access/"
+            ]
+          }
+        ]
+      },
       "misp_galaxy": {
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "5b30bcb8-4923-45cc-bc89-29651ca5d54e",
@@ -84454,6 +86854,36 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "bushido_breach_reports": {
+        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
+        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
+        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
+        "source_retrieved_at": "2026-04-28T01:40:03Z",
+        "reports": [
+          {
+            "organization": "JumpCloud",
+            "breach_date": "July 2023",
+            "adversary_label": "UNC4899 (DPRK APT)",
+            "links": [
+              "https://jumpcloud.com/blog/security-update-incident-details"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20230726144600/https://jumpcloud.com/blog/security-update-incident-details"
+            ]
+          },
+          {
+            "organization": "CircleCI",
+            "breach_date": "January 2023",
+            "adversary_label": "Jade Sleet (DPRK APT)",
+            "links": [
+              "https://circleci.com/blog/jan-4-2023-incident-report/"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20230324014148/https://circleci.com/blog/jan-4-2023-incident-report/"
+            ]
+          }
+        ]
+      },
       "misp_galaxy": {
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "825abfd9-7238-4438-a9e7-c08791f4df4e",
@@ -91006,6 +93436,25 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "bushido_breach_reports": {
+        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
+        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
+        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
+        "source_retrieved_at": "2026-04-28T01:40:03Z",
+        "reports": [
+          {
+            "organization": "3CX",
+            "breach_date": "March 2023",
+            "adversary_label": "UNC4736 (DPRK APT)",
+            "links": [
+              "https://www.mandiant.com/resources/blog/3cx-software-supply-chain-compromise"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20230514094509/https://www.mandiant.com/resources/blog/3cx-software-supply-chain-compromise"
+            ]
+          }
+        ]
+      },
       "misp_galaxy": {
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "afe5526e-e5e4-4b05-bc69-2bfb6785fc7e",
@@ -91537,6 +93986,25 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "bushido_breach_reports": {
+        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
+        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
+        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
+        "source_retrieved_at": "2026-04-28T01:40:03Z",
+        "reports": [
+          {
+            "organization": "MITRE",
+            "breach_date": "April 2024",
+            "adversary_label": "UTA0178/UNC5325 (CN APT)",
+            "links": [
+              "https://medium.com/mitre-engenuity/advanced-cyber-threats-impact-even-the-most-prepared-56444e980dc8"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20240422095324/https://medium.com/mitre-engenuity/advanced-cyber-threats-impact-even-the-most-prepared-56444e980dc8"
+            ]
+          }
+        ]
+      },
       "misp_galaxy": {
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "ffb28c09-16a6-483a-817a-89c89751c9d4",
@@ -94954,6 +97422,25 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "bushido_breach_reports": {
+        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
+        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
+        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
+        "source_retrieved_at": "2026-04-28T01:40:03Z",
+        "reports": [
+          {
+            "organization": "MITRE",
+            "breach_date": "April 2024",
+            "adversary_label": "UTA0178/UNC5325 (CN APT)",
+            "links": [
+              "https://medium.com/mitre-engenuity/advanced-cyber-threats-impact-even-the-most-prepared-56444e980dc8"
+            ],
+            "archived_links": [
+              "https://web.archive.org/web/20240422095324/https://medium.com/mitre-engenuity/advanced-cyber-threats-impact-even-the-most-prepared-56444e980dc8"
+            ]
+          }
+        ]
+      },
       "misp_galaxy": {
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "f288f686-b5b3-4c86-9960-5f8fb18709a3",
@@ -95530,7 +98017,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
@@ -95542,6 +98029,72 @@
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "c4132d43-2405-43ca-9940-a6f78e007861",
         "source_retrieved_at": "2026-04-26T05:47:15Z"
+      },
+      "ransomware_tool_matrix": {
+        "references": [
+          {
+            "title": "www.sygnia.co",
+            "url": "https://www.sygnia.co/blog/the-vice-society-ransomware-investigation",
+            "date": "2 September 2022",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          },
+          {
+            "title": "www.microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2022/10/25/dev-0832-vice-society-opportunistic-ransomware-campaigns-impacting-us-education-sector",
+            "date": "25 October 2022",
+            "source_file": "ThreatIntel/ExtraThreatIntel.md"
+          },
+          {
+            "title": "CISA Alert aa22-249a",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-249a",
+            "date": "8 September 2022",
+            "source_file": "ThreatIntel/CISAThreatGroups.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "ThreatIntel/CISAThreatGroups.md",
+          "ThreatIntel/ExtraThreatIntel.md",
+          "Tools/DiscoveryEnum.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md",
+          "Tools/Networking.md",
+          "Tools/Offsec.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "Vice Society",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T01:51:36Z",
+        "tools_by_category": {
+          "Discovery": [
+            "Advanced IP Scanner",
+            "Advanced Port Scanner"
+          ],
+          "Exfiltration": [
+            "MEGA",
+            "RClone",
+            "WinSCP"
+          ],
+          "LOLBAS": [
+            "Minidump",
+            "NTDS Utility (ntdsutil)",
+            "PsExec",
+            "WMIC"
+          ],
+          "Networking": [
+            "Proxychains"
+          ],
+          "OffSec": [
+            "Cobalt Strike",
+            "Impacket",
+            "PowerShell Empire",
+            "PowerSploit"
+          ],
+          "RMM Tools": [
+            "PowerAdmin"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/vanilla-tempest.md",

@@ -1,38 +1,16 @@
----
-name: Scattered Spider
-aliases:
-- 0ktapus
-- DEV-0971
-- Muddled Libra
-- Octo Tempest
-- Oktapus
-- Roasted 0ktapus
-- Scatter Swine
-- Scattered Spider
-- Scattered Swine
-- Starfraud
-- Storm-0875
-- Storm-0971
-- UNC3944
-description: |-
-  Scattered Spider is a native English-speaking cybercriminal group active since at least 2022. (Citation: CrowdStrike Scattered Spider Profile) (Citation: MSTIC Octo Tempest Operations October 2023) The group initially targeted customer relationship management (CRM) providers, business process outsourcing (BPO) firms, and telecommunications and technology companies before expanding in 2023 to gaming, hospitality, retail, managed service provider (MSP), manufacturing, and financial sectors. (Citation: MSTIC Octo Tempest Operations October 2023)
-  Scattered Spider relies heavily on social engineering, including impersonating IT and help-desk staff, to gain initial access, bypass multi-factor authentication (MFA), and compromise enterprise networks. The group has adapted its tooling to evade endpoint detection and response (EDR) defenses and used ransomware for financial gain. (Citation: CISA Scattered Spider Advisory November 2023) (Citation: CrowdStrike Scattered Spider BYOVD January 2023) (Citation: Crowdstrike TELCO BPO Campaign December 2022)
-  Scattered Spider had expanded into hybrid cloud and identity environments, using help-desk impersonation and MFA bypass to obtain administrator access in Okta, AWS, and Office 365. (Citation: Mandiant UNC3944 May 2025)
+name: "Scattered Spider"
+aliases: ["0ktapus","DEV-0971","Muddled Libra","Octo Tempest","Oktapus","Roasted 0ktapus","Scatter Swine","Scattered Spider","Scattered Swine","Starfraud","Storm-0875","Storm-0971","UNC3944"]
+description: "Scattered Spider is a native English-speaking cybercriminal group active since at least 2022. (Citation: CrowdStrike Scattered Spider Profile) (Citation: MSTIC Octo Tempest Operations October 2023) The group initially targeted customer relationship management (CRM) providers, business process outsourcing (BPO) firms, and telecommunications and technology companies before expanding in 2023 to gaming, hospitality, retail, managed service provider (MSP), manufacturing, and financial sectors. (Citation: MSTIC Octo Tempest Operations October 2023)\nScattered Spider relies heavily on social engineering, including impersonating IT and help-desk staff, to gain initial access, bypass multi-factor authentication (MFA), and compromise enterprise networks. The group has adapted its tooling to evade endpoint detection and response (EDR) defenses and used ransomware for financial gain. (Citation: CISA Scattered Spider Advisory November 2023) (Citation: CrowdStrike Scattered Spider BYOVD January 2023) (Citation: Crowdstrike TELCO BPO Campaign December 2022)\nScattered Spider had expanded into hybrid cloud and identity environments, using help-desk impersonation and MFA bypass to obtain administrator access in Okta, AWS, and Office 365. (Citation: Mandiant UNC3944 May 2025)"
 url: "/apt1015"
-external_id: G1015
-external_url: https://attack.mitre.org/groups/G1015
-mitre_id: G1015
-mitre_url: https://attack.mitre.org/groups/G1015
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
-malware:
-- Hacking Team UEFI Rootkit
+last_updated: "2026-04-28"
+external_id: "G1015"
+external_url: "https://attack.mitre.org/groups/G1015"
+mitre_id: "G1015"
+mitre_url: "https://attack.mitre.org/groups/G1015"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["Hacking Team UEFI Rootkit"]
 provenance:
   bushido_breach_reports:
-    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
-    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
-    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
-    source_retrieved_at: "2026-04-28T01:40:03Z"
     reports:
       - organization: "Coinbase"
         breach_date: "February 2023"
@@ -54,8 +32,78 @@ provenance:
         adversary_label: "0ktapus"
         links: ["https://www.twilio.com/blog/august-2022-social-engineering-attack"]
         archived_links: ["https://web.archive.org/web/20230404043749/https://www.twilio.com/blog/august-2022-social-engineering-attack"]
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_retrieved_at: "2026-04-28T01:40:03Z"
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G1015
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-source: MITRE ATT&CK
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G1015"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+  ransomware_tool_matrix:
+    actor_roles: ["ransomware_affiliate"]
+    references:
+      - title: "cloud.google.com"
+        url: "https://cloud.google.com/blog/topics/threat-intelligence/unc3944-sms-phishing-sim-swapping-ransomware"
+        date: "14 September 2023"
+        source_file: "GroupProfiles/ScatteredSpider.md"
+      - title: "cloud.google.com"
+        url: "https://cloud.google.com/blog/topics/threat-intelligence/unc3944-sms-phishing-sim-swapping-ransomware/"
+        date: "14 September 2023"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "www.cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a"
+        date: "16 November 2023"
+        source_file: "GroupProfiles/ScatteredSpider.md"
+      - title: "www.crowdstrike.com"
+        url: "https://www.crowdstrike.com/blog/analysis-of-intrusion-campaign-targeting-telecom-and-bpo-companies/"
+        date: "2 December 2022"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "www.crowdstrike.com"
+        url: "https://www.crowdstrike.com/blog/analysis-of-intrusion-campaign-targeting-telecom-and-bpo-companies"
+        date: "2 December 2022"
+        source_file: "GroupProfiles/ScatteredSpider.md"
+      - title: "www.crowdstrike.com"
+        url: "https://www.crowdstrike.com/en-us/blog/crowdstrike-services-observes-scattered-spider-escalate-attacks/"
+        date: "2 July 2025"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "permiso.io"
+        url: "https://permiso.io/blog/lucr-3-scattered-spider-getting-saas-y-in-the-cloud"
+        date: "20 September 2023"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "blog.sekoia.io"
+        url: "https://blog.sekoia.io/scattered-spider-laying-new-eggs/"
+        date: "22 February 2024"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "blog.sekoia.io"
+        url: "https://blog.sekoia.io/scattered-spider-laying-new-eggs"
+        date: "22 February 2024"
+        source_file: "GroupProfiles/ScatteredSpider.md"
+      - title: "redcanary.com"
+        url: "https://redcanary.com/threat-detection-report/trends/rmm-tools/"
+        date: "23 April 2024"
+        source_file: "GroupProfiles/ScatteredSpider.md"
+      - title: "unit42.paloaltonetworks.com"
+        url: "https://unit42.paloaltonetworks.com/muddled-libra/"
+        date: "8 March 2024"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "unit42.paloaltonetworks.com"
+        url: "https://unit42.paloaltonetworks.com/muddled-libra"
+        date: "8 March 2024"
+        source_file: "GroupProfiles/ScatteredSpider.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/ScatteredSpider.md","ThreatIntel/CISAThreatGroups.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
+    source_label: "Scattered Spider / Scattered Spider*"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      Credential Theft: ["GitGuardian","Jecretz","MAGNET RAM Capture","MIT Kerberos Ticket Manager","Mimikatz","ProcDump","Snaffler","Trufflehog","Volatility","aws_consoler"]
+      Defense Evasion: ["Bedevil","Intel Ethernet driver (BYOVD)"]
+      Discovery: ["ADExplorer","ADRecon","AWS Systems Manager Inventory","Advanced Port Scanner","Get-ADUser","ManageEngine LANDESK","PDQ Inventory","PingCastle","RVTools","RustScan","SharpHound","VMware PowerCLI"]
+      Exfiltration: ["Cyberduck","Dropbox","FileZilla","MEGA","RClone","S3 Browser"]
+      LOLBAS: ["PsExec"]
+      Networking: ["Chisel","Cloudflared","NSOCKS","Ngrok","OpenSSH","Pinggy","Plink","Proxifier","Rsocks","Rsocx","Socat","Sshimpanzee","Tailscale","Teleport","TrueSocks","TryCloudflare","Twingate","Windscribe (Wstunnel)","Wstunnel"]
+      OffSec: ["CIMplant","Impacket","LAPS Toolkit","LINpeas","MicroBurst","Pacu"]
+      RMM Tools: ["ASG Remote Desktop","BeAnywhere","Chrome Remote Desktop","DWAgent","Domotz","Fleetdeck","ITarian","Level.io","Level[.]io","ManageEngineRMM","MobaXterm","N-Able","Parsec","Pulseway","RPort","RSAT","RemotePC","RustDesk","ScreenConnect","Sorillus","Splashtop","TacticalRMM","TeamViewer","TightVNC","TrendMicro Basecamp","Xeox","ZeroTier","ZohoAssist"]
+source: "MITRE ATT&CK"

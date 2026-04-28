@@ -1,33 +1,40 @@
----
-name: Storm-0501
-aliases:
-- Storm-0501
-description: 'Storm-0501 is a financially motivated cyber criminal group that uses
-  commodity and open-source tools to conduct ransomware operations. Storm-0501 has
-  been active since 2021 and has previously been affiliated with Sabbath Ransomware
-  and other Ransomware-as-a-Service (RaaS) variants such as Hive, BlackCat, Hunters
-  International, LockBit 3.0, and Embargo ransomware.(Citation: Avertium Storm-0501
-  Sabbath Ransomware Arcane January 2022)(Citation: Microsoft Storm-501 Sabbath Ransomware
-  Embargo September 2024)(Citation: Microsoft Storm-0501 Embargo Ransomware August
-  2025)(Citation: Google Mandiant Storm-0501 Sabbath Ransomware November 2021)'
+name: "Storm-0501"
+aliases: ["Storm-0501"]
+description: "Storm-0501 is a financially motivated cyber criminal group that uses commodity and open-source tools to conduct ransomware operations. Storm-0501 has been active since 2021 and has previously been affiliated with Sabbath Ransomware and other Ransomware-as-a-Service (RaaS) variants such as Hive, BlackCat, Hunters International, LockBit 3.0, and Embargo ransomware.(Citation: Avertium Storm-0501 Sabbath Ransomware Arcane January 2022)(Citation: Microsoft Storm-501 Sabbath Ransomware Embargo September 2024)(Citation: Microsoft Storm-0501 Embargo Ransomware August 2025)(Citation: Google Mandiant Storm-0501 Sabbath Ransomware November 2021)"
 url: "/apt1053"
-external_id: G1053
-external_url: https://attack.mitre.org/groups/G1053
-mitre_id: G1053
-mitre_url: https://attack.mitre.org/groups/G1053
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
-malware:
-- Backdoor.Oldrea
-- CloudDuke
-- CyberGate
-- Cyber Eye RAT
-- UNITEDRAKE
-- Xploit
-- Cobalt Strike
+last_updated: "2026-04-28"
+external_id: "G1053"
+external_url: "https://attack.mitre.org/groups/G1053"
+mitre_id: "G1053"
+mitre_url: "https://attack.mitre.org/groups/G1053"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["Backdoor.Oldrea","CloudDuke","CyberGate","Cyber Eye RAT","UNITEDRAKE","Xploit","Cobalt Strike"]
 provenance:
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G1053
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-source: MITRE ATT&CK
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G1053"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+  ransomware_tool_matrix:
+    actor_roles: ["ransomware_affiliate"]
+    references:
+      - title: "www.microsoft.com"
+        url: "https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/"
+        date: "26 September 2024"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "www.microsoft.com"
+        url: "https://www.microsoft.com/en-us/security/blog/2025/08/27/storm-0501s-evolving-techniques-lead-to-cloud-based-ransomware/"
+        date: "27 August 2025"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
+    source_label: "Storm-0501 / Storm-0501*"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      Credential Theft: ["AADInternals","Find-KeePassConfig"]
+      Discovery: ["ADRecon","AzureHound","OSQuery","ossec-win32"]
+      Exfiltration: ["AZCopy","MEGA","RClone"]
+      OffSec: ["Cobalt Strike","Evil-WinRM","Impacket"]
+      RMM Tools: ["AnyDesk","Level.io","NinjaOne"]
+source: "MITRE ATT&CK"

@@ -6,6 +6,7 @@ country: "Russia"
 sector_focus: ["Technology","Healthcare","Financial","Government"]
 first_seen: "2019"
 last_activity: "2025"
+last_updated: "2026-04-28"
 risk_level: "Critical"
 external_id: "G0092"
 external_url: "https://attack.mitre.org/groups/G0092"
@@ -14,10 +15,6 @@ mitre_url: "https://attack.mitre.org/groups/G0092"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
   bushido_breach_reports:
-    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
-    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
-    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
-    source_retrieved_at: "2026-04-28T01:40:03Z"
     reports:
       - organization: "New Zealand Reserve Bank"
         breach_date: "January 2021"
@@ -29,7 +26,25 @@ provenance:
         adversary_label: "Clop (Ransomware)"
         links: ["https://blog.qualys.com/vulnerabilities-threat-research/2021/04/02/qualys-update-on-accellion-fta-security-incident"]
         archived_links: ["https://web.archive.org/web/20250713022054/https://blog.qualys.com/vulnerabilities-threat-research/2021/04/02/qualys-update-on-accellion-fta-security-incident"]
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_retrieved_at: "2026-04-28T01:40:03Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0092"
     source_retrieved_at: "2026-04-26T05:24:31Z"
+  ransomware_tool_matrix:
+    references:
+      - title: "CISA Alert aa23-158a"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a"
+        date: "7 June 2023"
+        source_file: "ThreatIntel/CISAThreatGroups.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/CISAThreatGroups.md","Tools/Offsec.md"]
+    source_label: "CL0P"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      OffSec: ["Cobalt Strike","PowerShell Empire","TinyMet"]

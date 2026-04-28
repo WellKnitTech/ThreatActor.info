@@ -1,20 +1,67 @@
----
-name: RansomHub
-aliases:
-- RansomHub RaaS
-- RansomHub
-description: RansomHub is a dominant ransomware-as-a-service operation that emerged
-  in 2024 and quickly became the most prolific group with 736 disclosed victims.
+name: "RansomHub"
+aliases: ["RansomHub RaaS","RansomHub"]
+description: "RansomHub is a dominant ransomware-as-a-service operation that emerged in 2024 and quickly became the most prolific group with 736 disclosed victims."
 url: "/ransomhub"
-country: Unknown
-sector_focus:
-- Critical Infrastructure
-- Healthcare
-- Education
-- Manufacturing
-first_seen: '2024'
-last_activity: '2025'
-risk_level: Critical
-malware:
-- Xploit
-source_attribution: Manually curated from open source intelligence
+country: "Unknown"
+sector_focus: ["Critical Infrastructure","Healthcare","Education","Manufacturing"]
+first_seen: "2024"
+last_activity: "2025"
+last_updated: "2026-04-28"
+risk_level: "Critical"
+source_attribution: "Manually curated from open source intelligence"
+malware: ["Xploit"]
+provenance:
+  ransomware_tool_matrix:
+    community_reports:
+      - source_file: "CommunityReports/CR-004-RANSOMHUB-FEB-2025.md"
+        incident_time: "February 2025"
+        victim_sector: "Lodging industry"
+        victim_country: "Canada"
+      - source_file: "CommunityReports/CR-005-RANSOMHUB-MAR-2025.md"
+        incident_time: "March 2025"
+        victim_sector: "Education"
+        victim_country: "Canada"
+      - source_file: "CommunityReports/CR-006-RANSOMHUB-FEB-2025.md"
+        incident_time: "February 2025"
+        victim_sector: "Manufacturing"
+        victim_country: "Canada"
+      - source_file: "CommunityReports/CR-007-RANSOMHUB-MAR-2025.md"
+        incident_time: "March 2025"
+        victim_sector: "Logistics"
+        victim_country: "Canada"
+    references:
+      - title: "news.sophos.com"
+        url: "https://news.sophos.com/en-us/2024/08/14/edr-kill-shifter/"
+        date: "14 August 2024"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "www.security.com"
+        url: "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"
+        date: "20 March 2025"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "CISA Alert aa24-242a"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+        date: "29 August 2024"
+        source_file: "ThreatIntel/CISAThreatGroups.md"
+      - title: "symantec-enterprise-blogs.security.com"
+        url: "https://symantec-enterprise-blogs.security.com/threat-intelligence/ransomhub-knight-ransomware"
+        date: "5 June 2024"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "www.forescout.com"
+        url: "https://www.forescout.com/blog/analysis-a-new-ransomware-group-emerges-from-the-change-healthcare-cyber-attack/"
+        date: "9 May 2024"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["CommunityReports/CR-004-RANSOMHUB-FEB-2025.md","CommunityReports/CR-005-RANSOMHUB-MAR-2025.md","CommunityReports/CR-006-RANSOMHUB-FEB-2025.md","CommunityReports/CR-007-RANSOMHUB-MAR-2025.md","ThreatIntel/CISAThreatGroups.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
+    source_label: "RansomHub"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      Credential Theft: ["Mimikatz"]
+      Defense Evasion: ["Acronis Disk Director","BadRentdrv2","Revo Uninstaller","ThreatFire System Monitor driver (BYOVD)"]
+      Discovery: ["Angry IP Scanner","Nmap","SoftPerfect NetScan","SoftPerfect Network Scanner","WKTools"]
+      Exfiltration: ["FileZilla","PSCP","RClone","WinSCP","rclone"]
+      LOLBAS: ["BITSAdmin","PsExec","WMIC"]
+      Networking: ["Cloudflared","Stowaway","ngrok"]
+      OffSec: ["Cobalt Strike","CrackMapExec","Impacket","Kerbrute","Metasploit","NetExec (nxc)","Sliver"]
+      RMM Tools: ["AnyDesk","Atera","Atera Agent","N-Able","ScreenConnect","Splashtop","TightVNC"]

@@ -2,6 +2,7 @@ name: "INC Ransom"
 aliases: ["GOLD IONIC","INC Ransom"]
 description: "INC Ransom is a ransomware and data extortion threat group associated with the deployment of INC Ransomware that has been active since at least July 2023. INC Ransom  has targeted organizations worldwide most commonly in the industrial, healthcare, and education sectors in the US and Europe.(Citation: Bleeping Computer INC Ransomware March 2024)(Citation: Cybereason INC Ransomware November 2023)(Citation: Secureworks GOLD IONIC April 2024)(Citation: SentinelOne INC Ransomware)"
 url: "/apt1032"
+last_updated: "2026-04-28"
 external_id: "G1032"
 external_url: "https://attack.mitre.org/groups/G1032"
 mitre_id: "G1032"
@@ -12,4 +13,48 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1032"
     source_retrieved_at: "2026-04-26T07:05:44Z"
+  ransomware_tool_matrix:
+    community_reports:
+      - source_file: "CommunityReports/CR-019-INCRANSOM-NOV-2025.md"
+        incident_time: "November 2025"
+        victim_sector: "TBD"
+        victim_country: "Canada"
+      - source_file: "CommunityReports/CR-020-INCRANSOM-JAN-2026.md"
+        incident_time: "January 2026"
+        victim_sector: "Construction"
+        victim_country: "Canada"
+    references:
+      - title: "www.huntress.com"
+        url: "https://www.huntress.com/blog/lolbin-to-inc-ransomware"
+        date: "1 May 2024"
+        source_file: "GroupProfiles/INC_Ransom.md"
+      - title: "www.huntress.com"
+        url: "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity"
+        date: "11 August 2023"
+        source_file: "GroupProfiles/INC_Ransom.md"
+      - title: "www.huntress.com"
+        url: "https://www.huntress.com/blog/data-exfiltration-threat-actor-infrastructure-exposed"
+        date: "12 March 2026"
+        source_file: "GroupProfiles/INC_Ransom.md"
+      - title: "www.guidepointsecurity.com"
+        url: "https://www.guidepointsecurity.com/blog/update-from-the-ransomware-trenches/"
+        date: "14 August 2024"
+        source_file: "GroupProfiles/INC_Ransom.md"
+      - title: "www.secureworks.com"
+        url: "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware"
+        date: "15 April 2024"
+        source_file: "GroupProfiles/INC_Ransom.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["CommunityReports/CR-019-INCRANSOM-NOV-2025.md","CommunityReports/CR-020-INCRANSOM-JAN-2026.md","GroupProfiles/INC_Ransom.md","ThreatIntel/ExtraThreatIntel.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md"]
+    source_label: "INC Ransom"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      Credential Theft: ["Mimikatz"]
+      Discovery: ["AdFind","Advanced IP Scanner","SoftPerfect Network Scanner"]
+      Exfiltration: ["7-Zip","BackBlaze","MEGA","RClone","Restic","WinRAR","rclone","s5cmd"]
+      LOLBAS: ["Finger","PsExec"]
+      Networking: ["Bitvise SSH Client"]
+      RMM Tools: ["AnyDesk"]
 source: "MITRE ATT&CK"

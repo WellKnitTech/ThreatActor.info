@@ -6,6 +6,7 @@ country: "Unknown"
 sector_focus: ["Healthcare","Education","Government","Technology"]
 first_seen: "2022"
 last_activity: "2025"
+last_updated: "2026-04-28"
 risk_level: "High"
 external_id: "G1040"
 external_url: "https://attack.mitre.org/groups/G1040"
@@ -17,3 +18,32 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1040"
     source_retrieved_at: "2026-04-26T07:05:44Z"
+  ransomware_tool_matrix:
+    community_reports:
+      - source_file: "CommunityReports/CR-016-PLAY-APR-2025.md"
+        incident_time: "April 2025"
+        victim_sector: "Retail"
+        victim_country: "Canada"
+    references:
+      - title: "www.cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a"
+        date: "18 December 2023"
+        source_file: "GroupProfiles/PLAY.md"
+      - title: "www.guidepointsecurity.com"
+        url: "https://www.guidepointsecurity.com/blog/gritrep-akira-sonicwall/"
+        date: "2025/08/05"
+        source_file: "CommunityReports/CR-016-PLAY-APR-2025.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["CommunityReports/CR-016-PLAY-APR-2025.md","GroupProfiles/PLAY.md","ThreatIntel/CISAThreatGroups.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md"]
+    source_label: "PLAY"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      Credential Theft: ["HandleKatz","Mimikatz","Nanodump"]
+      Defense Evasion: ["EDRKill (echo_driver.sys + DBUtil 2.3)","GMER","IOBit","PCHunter","PowerTool","icardagt.exe"]
+      Discovery: ["AdFind","WKTools"]
+      Exfiltration: ["WinSCP"]
+      LOLBAS: ["PsExec"]
+      Networking: ["Fast Reverse Proxy Client (FRPC)","Plink"]
+      OffSec: ["Cobalt Strike","WinPEAS"]

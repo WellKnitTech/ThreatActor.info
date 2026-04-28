@@ -84,6 +84,63 @@ The importer preserves source attribution using the pattern:
 
 `References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.`
 
+## Ransomware Tool Matrix Importer
+
+`scripts/import-ransomware-tool-matrix.rb` enriches existing ransomware actors with reviewed tool observations from the BushidoUK Ransomware Tool Matrix.
+
+Source: https://github.com/BushidoUK/Ransomware-Tool-Matrix
+
+### Why this importer is conservative
+
+- The matrix is a secondary tradecraft reference, not canonical actor identity data.
+- Imports only update existing actors; they do not create new actors.
+- Tools are stored in provenance and rendered as grouped observations on actor pages, not as volatile IOCs.
+- Ambiguous source labels, unmatched labels, and alias collisions stay review-only unless mapped in overrides.
+
+Reviewed mappings live in `data/imports/ransomware-tool-matrix/mapping_overrides.yml`.
+
+### Commands
+
+Fetch a snapshot:
+
+```bash
+ruby scripts/import-ransomware-tool-matrix.rb fetch --output data/imports/ransomware-tool-matrix/2026-04-28
+```
+
+Preview reviewed matches:
+
+```bash
+ruby scripts/import-ransomware-tool-matrix.rb plan --snapshot data/imports/ransomware-tool-matrix/2026-04-28
+```
+
+Apply the enrichment:
+
+```bash
+ruby scripts/import-ransomware-tool-matrix.rb import --snapshot data/imports/ransomware-tool-matrix/2026-04-28
+```
+
+Write a machine-readable review report:
+
+```bash
+ruby scripts/import-ransomware-tool-matrix.rb plan --snapshot data/imports/ransomware-tool-matrix/2026-04-28 --report-json tmp/ransomware-tool-matrix-report.json
+```
+
+### Field mapping
+
+| Matrix Field | Our Schema Field | Notes |
+|--------------|------------------|-------|
+| Tool category tables | `provenance.ransomware_tool_matrix.tools_by_category` | Stable grouped tool observations by actor |
+| Group profile tool tables | `provenance.ransomware_tool_matrix.tools_by_category` | Merged with category table observations |
+| Group profile sources / ThreatIntel report links | `provenance.ransomware_tool_matrix.references` | Supporting report links for analyst review |
+| Community report incident summaries | `provenance.ransomware_tool_matrix.community_reports` | Victim sector/country/time only; no victim names or volatile IOCs |
+| `*` / `+` actor markers | `provenance.ransomware_tool_matrix.actor_roles` | Preserves IAB, affiliate, and suspected state-sponsored labels |
+
+### Attribution
+
+The importer preserves source attribution using the pattern:
+
+`Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.`
+
 ## Commands
 
 Fetch a public snapshot:

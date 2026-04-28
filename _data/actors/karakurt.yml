@@ -1,25 +1,31 @@
----
-name: Karakurt
-aliases:
-- Karakurt Lair
-- Karakurt
-description: Karakurt actors have employed a variety of tactics, techniques, and procedures
-  (TTPs), creating significant challenges for defense and mitigation. Karakurt victims
-  have not reported encryption of compromised machines or files; rather, Karakurt
-  actors have claimed to steal data and threatened to auction it off or release it
-  to the public unless they receive payment of the demanded ransom. Known ransom demands
-  have ranged from $25,000 to $13,000,000 in Bitcoin, with payment deadlines typically
-  set to expire within a week of first contact with the victim.
+name: "Karakurt"
+aliases: ["Karakurt Lair","Karakurt"]
+description: "Karakurt actors have employed a variety of tactics, techniques, and procedures (TTPs), creating significant challenges for defense and mitigation. Karakurt victims have not reported encryption of compromised machines or files; rather, Karakurt actors have claimed to steal data and threatened to auction it off or release it to the public unless they receive payment of the demanded ransom. Known ransom demands have ranged from $25,000 to $13,000,000 in Bitcoin, with payment deadlines typically set to expire within a week of first contact with the victim."
 url: "/karakurt"
-targeted_victims:
-- Canada
-- Germany
-- United Kingdom
-- United States
-incident_type: Extortion
+targeted_victims: ["Canada","Germany","United Kingdom","United States"]
+incident_type: "Extortion"
+last_updated: "2026-04-28"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 035fbd5c-e4a1-4c7b-80fb-f5a89a361aed
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "035fbd5c-e4a1-4c7b-80fb-f5a89a361aed"
+    source_retrieved_at: "2026-04-26T05:47:15Z"
+  ransomware_tool_matrix:
+    references:
+      - title: "CISA Alert aa22-152a"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-152a"
+        date: "12 December 2023"
+        source_file: "ThreatIntel/CISAThreatGroups.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/CISAThreatGroups.md","Tools/CredentialTheft.md","Tools/Exfiltration.md","Tools/Networking.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
+    source_label: "Karakurt"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      Credential Theft: ["Mimikatz"]
+      Exfiltration: ["FileZilla","MEGA","RClone"]
+      Networking: ["Ngrok"]
+      OffSec: ["Cobalt Strike"]
+      RMM Tools: ["AnyDesk"]

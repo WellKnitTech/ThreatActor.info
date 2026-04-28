@@ -1,40 +1,41 @@
----
-name: REvil
-aliases:
-- Sodinokibi
-- Sodin
-description: REvil is a Russian ransomware-as-a-service operation that has targeted
-  major corporations worldwide.
+name: "REvil"
+aliases: ["Sodinokibi","Sodin"]
+description: "REvil is a Russian ransomware-as-a-service operation that has targeted major corporations worldwide."
 url: "/revil"
-country: Russia
-sector_focus:
-- Technology
-- Healthcare
-- Legal
-first_seen: '2019'
-last_activity: '2021'
-risk_level: Critical
-cisa_kev_cves:
-- '{"cve" => "CVE-2018-8453", "dateAdded" => "2022-01-21", "vendor" => "Microsoft",
-  "product" => "Win32k"}'
-- '{"cve" => "CVE-2019-2725", "dateAdded" => "2022-01-10", "vendor" => "Oracle", "product"
-  => "WebLogic Server"}'
-- '{"cve" => "CVE-2021-30116", "dateAdded" => "2021-11-03", "vendor" => "Kaseya",
-  "product" => "Virtual System/Server Administrator (VSA)"}'
-- '{"cve" => "CVE-2019-11539", "dateAdded" => "2021-11-03", "vendor" => "Ivanti",
-  "product" => "Pulse Connect Secure and Pulse Policy Secure"}'
+country: "Russia"
+sector_focus: ["Technology","Healthcare","Legal"]
+first_seen: "2019"
+last_activity: "2021"
+last_updated: "2026-04-28"
+risk_level: "Critical"
+source_name: "MITRE CISA KEV"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed under CC BY 4.0 license."
+cisa_kev_cves: ["{\"cve\" => \"CVE-2018-8453\", \"dateAdded\" => \"2022-01-21\", \"vendor\" => \"Microsoft\", \"product\" => \"Win32k\"}","{\"cve\" => \"CVE-2019-2725\", \"dateAdded\" => \"2022-01-10\", \"vendor\" => \"Oracle\", \"product\" => \"WebLogic Server\"}","{\"cve\" => \"CVE-2021-30116\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Kaseya\", \"product\" => \"Virtual System/Server Administrator (VSA)\"}","{\"cve\" => \"CVE-2019-11539\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Ivanti\", \"product\" => \"Pulse Connect Secure and Pulse Policy Secure\"}"]
 provenance:
   bushido_breach_reports:
-    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
-    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
-    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
-    source_retrieved_at: "2026-04-28T01:40:03Z"
     reports:
       - organization: "Kaseya"
         breach_date: "July 2021"
         adversary_label: "REvil (Ransomware)"
         links: ["https://helpdesk.kaseya.com/hc/en-gb/articles/4403584098961-Incident-Overview-Technical-Details"]
         archived_links: ["https://web.archive.org/web/20230416084704/https://helpdesk.kaseya.com/hc/en-gb/articles/4403584098961-Incident-Overview-Technical-Details"]
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  under CC BY 4.0 license."
-source_name: MITRE CISA KEV
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_retrieved_at: "2026-04-28T01:40:03Z"
+  ransomware_tool_matrix:
+    references:
+      - title: "Sodinokibi (aka REvil) Ransomware"
+        url: "https://thedfirreport.com/2021/03/29/sodinokibi-aka-revil-ransomware/"
+        source_file: "ThreatIntel/TheDFIRReportGroups.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/TheDFIRReportGroups.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Offsec.md"]
+    source_label: "REvil"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      Discovery: ["AdFind","Bloodhound"]
+      Exfiltration: ["PrivatLab","RClone","Sendspace"]
+      LOLBAS: ["BITSAdmin"]
+      OffSec: ["Cobalt Strike"]

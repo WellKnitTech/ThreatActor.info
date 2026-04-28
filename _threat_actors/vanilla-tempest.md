@@ -28,6 +28,16 @@ Vice Society is a ransomware group that has been active since at least June 2021
 - **POWERSOURCE**
 - **PowerRAT**
 
+### Ransomware Tool Matrix observations
+| Category | Observed tools |
+|---|---|
+| Discovery | Advanced IP Scanner, Advanced Port Scanner |
+| Exfiltration | MEGA, RClone, WinSCP |
+| LOLBAS | Minidump, NTDS Utility (ntdsutil), PsExec, WMIC |
+| Networking | Proxychains |
+| OffSec | Cobalt Strike, Impacket, PowerShell Empire, PowerSploit |
+| RMM Tools | PowerAdmin |
+
 ## Attribution and Evidence
 *Information pending cataloguing.*
 

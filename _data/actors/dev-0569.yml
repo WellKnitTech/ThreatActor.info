@@ -1,22 +1,48 @@
----
-name: DEV-0569
-aliases:
-- Storm-0569
-- DEV-0569
-description: DEV-0569, also known as Storm-0569, is a threat actor group that has
-  been observed deploying the Royal ransomware. They utilize malicious ads and phishing
-  techniques to distribute malware and gain initial access to networks. The group
-  has been linked to the distribution of payloads such as Batloader and has forged
-  relationships with other threat actors. DEV-0569 has targeted various sectors, including
-  healthcare, communications, manufacturing, and education in the United States and
-  Brazil.
+name: "DEV-0569"
+aliases: ["Storm-0569","DEV-0569"]
+description: "DEV-0569, also known as Storm-0569, is a threat actor group that has been observed deploying the Royal ransomware. They utilize malicious ads and phishing techniques to distribute malware and gain initial access to networks. The group has been linked to the distribution of payloads such as Batloader and has forged relationships with other threat actors. DEV-0569 has targeted various sectors, including healthcare, communications, manufacturing, and education in the United States and Brazil."
 url: "/dev-0569"
-malware:
-- SHIPSHAPE
-- UNITEDRAKE
+last_updated: "2026-04-28"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["SHIPSHAPE","UNITEDRAKE"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: e883458d-496f-4a94-b916-4b7b83e3d525
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "e883458d-496f-4a94-b916-4b7b83e3d525"
+    source_retrieved_at: "2026-04-26T05:47:15Z"
+  ransomware_tool_matrix:
+    actor_roles: ["initial_access_broker"]
+    references:
+      - title: "BlackSuit Ransomware"
+        url: "https://thedfirreport.com/2024/08/26/blacksuit-ransomware/"
+        source_file: "ThreatIntel/TheDFIRReportGroups.md"
+      - title: "Fake Zoom Ends in BlackSuit Ransomware"
+        url: "https://thedfirreport.com/2025/03/31/fake-zoom-ends-in-blacksuit-ransomware/"
+        source_file: "ThreatIntel/TheDFIRReportGroups.md"
+      - title: "connect.cybercx.com.au"
+        url: "https://connect.cybercx.com.au/dfir-threat-report-au-2025"
+        date: "10 February 2025"
+        source_file: "GroupProfiles/BlackSuit.md"
+      - title: "CISA Alert aa24-241a"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"
+        date: "28 August 2024"
+        source_file: "ThreatIntel/CISAThreatGroups.md"
+      - title: "www.cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a"
+        date: "7 August 2024"
+        source_file: "GroupProfiles/BlackSuit.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/BlackSuit.md","ThreatIntel/CISAThreatGroups.md","ThreatIntel/TheDFIRReportGroups.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
+    source_label: "Black Suit / BlackSuit / Blacksuit / Br0k3r"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      Credential Theft: ["AccountRestore","Mimikatz","NirSoft Dialupass","NirSoft IEPassView (iepv)","NirSoft MailPassView","NirSoft Netpass","NirSoft RouterPassView"]
+      Defense Evasion: ["Eraser","GMER","Inno Setup","PowerTool"]
+      Discovery: ["AdFind","Advanced IP Scanner","SharpHound","SharpShares","SoftPerfect NetScan"]
+      Exfiltration: ["Bublup","Catbox[.]moe","RClone","Temp[.]sh"]
+      LOLBAS: ["PsExec","attrib"]
+      Networking: ["Chisel","Cloudflared","Ligolo","Ngrok","OpenSSH"]
+      OffSec: ["Brute Ratel C4","Cobalt Strike","Rubeus"]
+      RMM Tools: ["AnyDesk","Atera","LogMeIn","MeshAgent","MobaXterm"]

@@ -31,18 +31,24 @@ LockBit is a ransomware-as-a-service operation known for its fast encryption and
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+| Category | Observed tools |
+|---|---|
+| Credential Theft | Gosecretsdump, LaZagne, LostMyPassword, Mimikatz, NirSoft ExtPassword, PasswordFox, ProcDump, Veeam-Get-Creds |
+| Defense Evasion | Backstab (Process Explorer driver), Defender Control, GMER, PCHunter, PowerTool, ProcessHacker, TDSSKiller |
+| Discovery | AdFind, Advanced IP Scanner, Advanced Port Scanner, Bloodhound, Seatbelt, SoftPerfect NetScan |
+| Exfiltration | Anonfiles, FileZilla, File[.]io, FreeFileSync, MEGA, RClone, Sendspace, Temp[.]sh, Tempsend, Transfer[.]sh, Transfert-my-files, WinSCP |
+| LOLBAS | BCDEdit, PsExec |
+| Networking | Ligolo, Ngrok, Plink |
+| OffSec | Cobalt Strike, Impacket, Koadic, Metasploit, PowerShell Empire, ThunderShell |
+| RMM Tools | Action1, AnyDesk, FixMeIt, ScreenConnect, Splashtop, TeamViewer, ZohoAssist |
 
 ## Attribution and Evidence
 **Country of Origin**: Russia
 *Additional attribution information pending cataloguing.*
 
 ## References
-
-[1] [BushidoToken Breach Report Collection - Boeing breach report (November 2023) via cisa.gov](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-325a)
-   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: LockBit (Ransomware).
-[2] [BushidoToken Breach Report Collection - Advanced Computer Software Group breach report (August 2022) via ico.org.uk](https://ico.org.uk/media2/gdlfddgc/advanced-penalty-notice-20250327.pdf)
-   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: LockBit (Ransomware).
+*References pending cataloguing.*
 
 ## CISA Known Exploited Vulnerabilities (KEV)
 *The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*

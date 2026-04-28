@@ -1,98 +1,18 @@
----
-name: Conti
-aliases:
-- Ryuk
-- Wizard Spider
-description: Conti is a Russian ransomware-as-a-service operation known for targeting
-  healthcare and critical infrastructure.
+name: "Conti"
+aliases: ["Ryuk","Wizard Spider"]
+description: "Conti is a Russian ransomware-as-a-service operation known for targeting healthcare and critical infrastructure."
 url: "/conti"
-country: Russia
-sector_focus:
-- Healthcare
-- Critical Infrastructure
-- Government
-first_seen: '2020'
-last_activity: '2022'
-risk_level: Critical
-cisa_kev_cves:
-- '{"cve" => "CVE-2025-29635", "dateAdded" => "2026-04-24", "vendor" => "D-Link",
-  "product" => "DIR-823X"}'
-- '{"cve" => "CVE-2026-21509", "dateAdded" => "2026-01-26", "vendor" => "Microsoft",
-  "product" => "Office"}'
-- '{"cve" => "CVE-2025-59374", "dateAdded" => "2025-12-17", "vendor" => "ASUS", "product"
-  => "Live Update"}'
-- '{"cve" => "CVE-2018-4063", "dateAdded" => "2025-12-12", "vendor" => "Sierra Wireless",
-  "product" => "AirLink ALEOS"}'
-- '{"cve" => "CVE-2022-37055", "dateAdded" => "2025-12-08", "vendor" => "D-Link",
-  "product" => "Routers"}'
-- '{"cve" => "CVE-2022-48503", "dateAdded" => "2025-10-20", "vendor" => "Apple", "product"
-  => "Multiple Products"}'
-- '{"cve" => "CVE-2010-3962", "dateAdded" => "2025-10-06", "vendor" => "Microsoft",
-  "product" => "Internet Explorer"}'
-- '{"cve" => "CVE-2013-3918", "dateAdded" => "2025-10-06", "vendor" => "Microsoft",
-  "product" => "Windows"}'
-- '{"cve" => "CVE-2023-50224", "dateAdded" => "2025-09-03", "vendor" => "TP-Link",
-  "product" => "TL-WR841N"}'
-- '{"cve" => "CVE-2025-9377", "dateAdded" => "2025-09-03", "vendor" => "TP-Link",
-  "product" => "Multiple Routers"}'
-- '{"cve" => "CVE-2020-24363", "dateAdded" => "2025-09-02", "vendor" => "TP-Link",
-  "product" => "TL-WA855RE"}'
-- '{"cve" => "CVE-2013-3893", "dateAdded" => "2025-08-12", "vendor" => "Microsoft",
-  "product" => "Internet Explorer"}'
-- '{"cve" => "CVE-2020-25078", "dateAdded" => "2025-08-05", "vendor" => "D-Link",
-  "product" => "DCS-2530L and DCS-2670L Devices"}'
-- '{"cve" => "CVE-2020-25079", "dateAdded" => "2025-08-05", "vendor" => "D-Link",
-  "product" => "DCS-2530L and DCS-2670L Devices"}'
-- '{"cve" => "CVE-2022-40799", "dateAdded" => "2025-08-05", "vendor" => "D-Link",
-  "product" => "DNR-322L"}'
-- '{"cve" => "CVE-2023-33538", "dateAdded" => "2025-06-16", "vendor" => "TP-Link",
-  "product" => "Multiple Routers"}'
-- '{"cve" => "CVE-2021-32030", "dateAdded" => "2025-06-02", "vendor" => "ASUS", "product"
-  => "Routers"}'
-- '{"cve" => "CVE-2024-11120", "dateAdded" => "2025-05-07", "vendor" => "GeoVision",
-  "product" => "Multiple Devices"}'
-- '{"cve" => "CVE-2024-6047", "dateAdded" => "2025-05-07", "vendor" => "GeoVision",
-  "product" => "Multiple Devices"}'
-- '{"cve" => "CVE-2025-1316", "dateAdded" => "2025-03-19", "vendor" => "Edimax", "product"
-  => "IC-7100 IP Camera"}'
-- '{"cve" => "CVE-2018-13374", "dateAdded" => "2022-09-08", "vendor" => "Fortinet",
-  "product" => "FortiOS and FortiADC"}'
-- '{"cve" => "CVE-2019-1322", "dateAdded" => "2022-03-15", "vendor" => "Microsoft",
-  "product" => "Windows"}'
-- '{"cve" => "CVE-2020-0796", "dateAdded" => "2022-02-10", "vendor" => "Microsoft",
-  "product" => "SMBv3"}'
-- '{"cve" => "CVE-2018-13379", "dateAdded" => "2021-11-03", "vendor" => "Fortinet",
-  "product" => "FortiOS"}'
-- '{"cve" => "CVE-2020-0688", "dateAdded" => "2021-11-03", "vendor" => "Microsoft",
-  "product" => "Exchange Server"}'
-- '{"cve" => "CVE-2021-1732", "dateAdded" => "2021-11-03", "vendor" => "Microsoft",
-  "product" => "Win32k"}'
-- '{"cve" => "CVE-2021-34527", "dateAdded" => "2021-11-03", "vendor" => "Microsoft",
-  "product" => "Windows"}'
-- '{"cve" => "CVE-2020-1472", "dateAdded" => "2021-11-03", "vendor" => "Microsoft",
-  "product" => "Netlogon"}'
-- '{"cve" => "CVE-2021-26855", "dateAdded" => "2021-11-03", "vendor" => "Microsoft",
-  "product" => "Exchange Server"}'
-- '{"cve" => "CVE-2021-26858", "dateAdded" => "2021-11-03", "vendor" => "Microsoft",
-  "product" => "Exchange Server"}'
-- '{"cve" => "CVE-2021-27065", "dateAdded" => "2021-11-03", "vendor" => "Microsoft",
-  "product" => "Exchange Server"}'
-- '{"cve" => "CVE-2021-1675", "dateAdded" => "2021-11-03", "vendor" => "Microsoft",
-  "product" => "Windows"}'
-- '{"cve" => "CVE-2021-26857", "dateAdded" => "2021-11-03", "vendor" => "Microsoft",
-  "product" => "Exchange Server"}'
-- '{"cve" => "CVE-2021-22005", "dateAdded" => "2021-11-03", "vendor" => "VMware",
-  "product" => "vCenter Server"}'
-- '{"cve" => "CVE-2021-21972", "dateAdded" => "2021-11-03", "vendor" => "VMware",
-  "product" => "vCenter Server"}'
-- '{"cve" => "CVE-2021-21985", "dateAdded" => "2021-11-03", "vendor" => "VMware",
-  "product" => "vCenter Server"}'
+country: "Russia"
+sector_focus: ["Healthcare","Critical Infrastructure","Government"]
+first_seen: "2020"
+last_activity: "2022"
+last_updated: "2026-04-28"
+risk_level: "Critical"
+source_name: "MITRE CISA KEV"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed under CC BY 4.0 license."
+cisa_kev_cves: ["{\"cve\" => \"CVE-2025-29635\", \"dateAdded\" => \"2026-04-24\", \"vendor\" => \"D-Link\", \"product\" => \"DIR-823X\"}","{\"cve\" => \"CVE-2026-21509\", \"dateAdded\" => \"2026-01-26\", \"vendor\" => \"Microsoft\", \"product\" => \"Office\"}","{\"cve\" => \"CVE-2025-59374\", \"dateAdded\" => \"2025-12-17\", \"vendor\" => \"ASUS\", \"product\" => \"Live Update\"}","{\"cve\" => \"CVE-2018-4063\", \"dateAdded\" => \"2025-12-12\", \"vendor\" => \"Sierra Wireless\", \"product\" => \"AirLink ALEOS\"}","{\"cve\" => \"CVE-2022-37055\", \"dateAdded\" => \"2025-12-08\", \"vendor\" => \"D-Link\", \"product\" => \"Routers\"}","{\"cve\" => \"CVE-2022-48503\", \"dateAdded\" => \"2025-10-20\", \"vendor\" => \"Apple\", \"product\" => \"Multiple Products\"}","{\"cve\" => \"CVE-2010-3962\", \"dateAdded\" => \"2025-10-06\", \"vendor\" => \"Microsoft\", \"product\" => \"Internet Explorer\"}","{\"cve\" => \"CVE-2013-3918\", \"dateAdded\" => \"2025-10-06\", \"vendor\" => \"Microsoft\", \"product\" => \"Windows\"}","{\"cve\" => \"CVE-2023-50224\", \"dateAdded\" => \"2025-09-03\", \"vendor\" => \"TP-Link\", \"product\" => \"TL-WR841N\"}","{\"cve\" => \"CVE-2025-9377\", \"dateAdded\" => \"2025-09-03\", \"vendor\" => \"TP-Link\", \"product\" => \"Multiple Routers\"}","{\"cve\" => \"CVE-2020-24363\", \"dateAdded\" => \"2025-09-02\", \"vendor\" => \"TP-Link\", \"product\" => \"TL-WA855RE\"}","{\"cve\" => \"CVE-2013-3893\", \"dateAdded\" => \"2025-08-12\", \"vendor\" => \"Microsoft\", \"product\" => \"Internet Explorer\"}","{\"cve\" => \"CVE-2020-25078\", \"dateAdded\" => \"2025-08-05\", \"vendor\" => \"D-Link\", \"product\" => \"DCS-2530L and DCS-2670L Devices\"}","{\"cve\" => \"CVE-2020-25079\", \"dateAdded\" => \"2025-08-05\", \"vendor\" => \"D-Link\", \"product\" => \"DCS-2530L and DCS-2670L Devices\"}","{\"cve\" => \"CVE-2022-40799\", \"dateAdded\" => \"2025-08-05\", \"vendor\" => \"D-Link\", \"product\" => \"DNR-322L\"}","{\"cve\" => \"CVE-2023-33538\", \"dateAdded\" => \"2025-06-16\", \"vendor\" => \"TP-Link\", \"product\" => \"Multiple Routers\"}","{\"cve\" => \"CVE-2021-32030\", \"dateAdded\" => \"2025-06-02\", \"vendor\" => \"ASUS\", \"product\" => \"Routers\"}","{\"cve\" => \"CVE-2024-11120\", \"dateAdded\" => \"2025-05-07\", \"vendor\" => \"GeoVision\", \"product\" => \"Multiple Devices\"}","{\"cve\" => \"CVE-2024-6047\", \"dateAdded\" => \"2025-05-07\", \"vendor\" => \"GeoVision\", \"product\" => \"Multiple Devices\"}","{\"cve\" => \"CVE-2025-1316\", \"dateAdded\" => \"2025-03-19\", \"vendor\" => \"Edimax\", \"product\" => \"IC-7100 IP Camera\"}","{\"cve\" => \"CVE-2018-13374\", \"dateAdded\" => \"2022-09-08\", \"vendor\" => \"Fortinet\", \"product\" => \"FortiOS and FortiADC\"}","{\"cve\" => \"CVE-2019-1322\", \"dateAdded\" => \"2022-03-15\", \"vendor\" => \"Microsoft\", \"product\" => \"Windows\"}","{\"cve\" => \"CVE-2020-0796\", \"dateAdded\" => \"2022-02-10\", \"vendor\" => \"Microsoft\", \"product\" => \"SMBv3\"}","{\"cve\" => \"CVE-2018-13379\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Fortinet\", \"product\" => \"FortiOS\"}","{\"cve\" => \"CVE-2020-0688\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Microsoft\", \"product\" => \"Exchange Server\"}","{\"cve\" => \"CVE-2021-1732\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Microsoft\", \"product\" => \"Win32k\"}","{\"cve\" => \"CVE-2021-34527\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Microsoft\", \"product\" => \"Windows\"}","{\"cve\" => \"CVE-2020-1472\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Microsoft\", \"product\" => \"Netlogon\"}","{\"cve\" => \"CVE-2021-26855\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Microsoft\", \"product\" => \"Exchange Server\"}","{\"cve\" => \"CVE-2021-26858\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Microsoft\", \"product\" => \"Exchange Server\"}","{\"cve\" => \"CVE-2021-27065\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Microsoft\", \"product\" => \"Exchange Server\"}","{\"cve\" => \"CVE-2021-1675\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Microsoft\", \"product\" => \"Windows\"}","{\"cve\" => \"CVE-2021-26857\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"Microsoft\", \"product\" => \"Exchange Server\"}","{\"cve\" => \"CVE-2021-22005\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"VMware\", \"product\" => \"vCenter Server\"}","{\"cve\" => \"CVE-2021-21972\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"VMware\", \"product\" => \"vCenter Server\"}","{\"cve\" => \"CVE-2021-21985\", \"dateAdded\" => \"2021-11-03\", \"vendor\" => \"VMware\", \"product\" => \"vCenter Server\"}"]
 provenance:
   bushido_breach_reports:
-    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
-    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
-    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
-    source_retrieved_at: "2026-04-28T01:40:03Z"
     reports:
       - organization: "Gloucester Council"
         breach_date: "November 2021"
@@ -104,6 +24,39 @@ provenance:
         adversary_label: "Conti (Ransomware)"
         links: ["https://www.hse.ie/eng/services/news/media/pressrel/hse-publishes-independent-report-on-conti-cyber-attack.html"]
         archived_links: ["https://web.archive.org/web/20230323031057/https://www.hse.ie/eng/services/news/media/pressrel/hse-publishes-independent-report-on-conti-cyber-attack.html"]
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  under CC BY 4.0 license."
-source_name: MITRE CISA KEV
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_retrieved_at: "2026-04-28T01:40:03Z"
+  ransomware_tool_matrix:
+    references:
+      - title: "BazarCall to Conti Ransomware via Trickbot and Cobalt Strike"
+        url: "https://thedfirreport.com/2021/08/01/bazarcall-to-conti-ransomware-via-trickbot-and-cobalt-strike/"
+        source_file: "ThreatIntel/TheDFIRReportGroups.md"
+      - title: "BazarLoader to Conti Ransomware in 32 Hours"
+        url: "https://thedfirreport.com/2021/09/13/bazarloader-to-conti-ransomware-in-32-hours/"
+        source_file: "ThreatIntel/TheDFIRReportGroups.md"
+      - title: "Conti Ransomware"
+        url: "https://thedfirreport.com/2021/05/12/conti-ransomware/"
+        source_file: "ThreatIntel/TheDFIRReportGroups.md"
+      - title: "Stolen Images Campaign Ends in Conti Ransomware"
+        url: "https://thedfirreport.com/2022/04/04/stolen-images-campaign-ends-in-conti-ransomware/"
+        source_file: "ThreatIntel/TheDFIRReportGroups.md"
+      - title: "CISA Alert aa21-265a"
+        url: "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware"
+        date: "9 March 2022"
+        source_file: "ThreatIntel/CISAThreatGroups.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/CISAThreatGroups.md","ThreatIntel/TheDFIRReportGroups.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
+    source_label: "Conti"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      Credential Theft: ["Mimikatz","ProcDump","Router Scan","SharpChrome"]
+      Defense Evasion: ["GMER","PCHunter"]
+      Discovery: ["AdFind","Bloodhound","PowerView","Seatbelt","ShareFinder","SharpView","SoftPerfect NetScan"]
+      Exfiltration: ["Dropfiles","MEGA","Qaz[.]im","RClone","Sendspace","WinSCP"]
+      LOLBAS: ["BITSAdmin","NTDS Utility (ntdsutil)","PsExec","WMIC"]
+      OffSec: ["Cobalt Strike","Metasploit","Meterpreter","PowerShell Empire","PowerSploit","Rubeus"]
+      RMM Tools: ["AnyDesk","Atera","Splashtop"]

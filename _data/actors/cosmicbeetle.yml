@@ -1,23 +1,27 @@
----
-name: CosmicBeetle
-aliases:
-- CosmicBeetle
-description: CosmicBeetle is a threat actor known for deploying the ScRansom ransomware,
-  which has replaced its previous variant, Scarab. The actor utilizes a custom toolset
-  called Spacecolon, consisting of ScHackTool, ScInstaller, and ScService, to gain
-  initial access through RDP brute forcing and exploiting vulnerabilities like CVE-2020-1472
-  and FortiOS SSL-VPN. CosmicBeetle has been observed impersonating the LockBit ransomware
-  gang to leverage its reputation and has shown a tendency to leave artifacts on compromised
-  systems. The group primarily targets SMBs globally, employing techniques such as
-  credential dumping and data destruction.
+name: "CosmicBeetle"
+aliases: ["CosmicBeetle"]
+description: "CosmicBeetle is a threat actor known for deploying the ScRansom ransomware, which has replaced its previous variant, Scarab. The actor utilizes a custom toolset called Spacecolon, consisting of ScHackTool, ScInstaller, and ScService, to gain initial access through RDP brute forcing and exploiting vulnerabilities like CVE-2020-1472 and FortiOS SSL-VPN. CosmicBeetle has been observed impersonating the LockBit ransomware gang to leverage its reputation and has shown a tendency to leave artifacts on compromised systems. The group primarily targets SMBs globally, employing techniques such as credential dumping and data destruction."
 url: "/cosmicbeetle"
-malware:
-- CosmicDuke
-- SPACESHIP
-- Xploit
+last_updated: "2026-04-28"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["CosmicDuke","SPACESHIP","Xploit"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 9686ff2b-01e0-46eb-9169-9e8d115be345
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "9686ff2b-01e0-46eb-9169-9e8d115be345"
+    source_retrieved_at: "2026-04-26T05:47:15Z"
+  ransomware_tool_matrix:
+    actor_roles: ["ransomware_affiliate"]
+    references:
+      - title: "www.welivesecurity.com"
+        url: "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/"
+        date: "10 September 2024"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/DefenseEvasion.md"]
+    source_label: "CosmicBeetle / CosmicBeetle*"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      Defense Evasion: ["Darkside (TrueSight driver)","RealBlindingEDR","Reaper"]

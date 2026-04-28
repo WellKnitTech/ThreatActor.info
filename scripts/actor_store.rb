@@ -72,6 +72,12 @@ module ActorStore
     end
   end
 
+  def save_actor(actor)
+    FileUtils.mkdir_p(ACTORS_DIR)
+    path = File.join(ACTORS_DIR, "#{slug_for(actor['url'])}.yml")
+    File.write(path, serialize_actor(actor))
+  end
+
   def safe_load_yaml_file(path)
     YAML.safe_load(File.read(path), permitted_classes: [], aliases: true)
   end
@@ -122,10 +128,29 @@ module ActorStore
       end
       rows
     elsif value.is_a?(Array)
-      ["#{prefix}#{key}: #{value.map(&:to_s).uniq.to_json}"]
+      return ["#{prefix}#{key}: #{value.map(&:to_s).uniq.to_json}"] unless value.any? { |entry| entry.is_a?(Hash) }
+
+      rows = ["#{prefix}#{key}:"]
+      value.each do |entry|
+        if entry.is_a?(Hash)
+          stringified = normalize_actor(entry)
+          first_key, first_value = stringified.first
+          rows << "#{prefix}  - #{first_key}: #{scalar_or_json(first_value)}"
+          stringified.drop(1).each do |child_key, child_value|
+            rows.concat(serialize_field(child_key.to_s, child_value, indent + 2))
+          end
+        else
+          rows << "#{prefix}  - #{entry.to_json}"
+        end
+      end
+      rows
     else
       ["#{prefix}#{key}: #{value.to_json}"]
     end
+  end
+
+  def scalar_or_json(value)
+    value.is_a?(Array) || value.is_a?(Hash) ? value.to_json : value.to_json
   end
 
   def clear_existing_shards

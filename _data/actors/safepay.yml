@@ -1,17 +1,29 @@
----
-name: SafePay
-aliases:
-- SafePay Ransomware
-description: SafePay is a ransomware group particularly active in Germany, responsible
-  for 24% of the 74 ransomware victims reported in the country during Q1 2025.
+name: "SafePay"
+aliases: ["SafePay Ransomware"]
+description: "SafePay is a ransomware group particularly active in Germany, responsible for 24% of the 74 ransomware victims reported in the country during Q1 2025."
 url: "/safepay"
-country: Unknown
-sector_focus:
-- Healthcare
-- Logistics
-- Manufacturing
-- Government
-first_seen: '2024'
-last_activity: '2025'
-risk_level: High
-source_attribution: Manually curated from open source intelligence
+country: "Unknown"
+sector_focus: ["Healthcare","Logistics","Manufacturing","Government"]
+first_seen: "2024"
+last_activity: "2025"
+last_updated: "2026-04-28"
+risk_level: "High"
+source_attribution: "Manually curated from open source intelligence"
+provenance:
+  ransomware_tool_matrix:
+    references:
+      - title: "It's Not Safe to Pay SafePay"
+        url: "https://www.huntress.com/blog/its-not-safe-to-pay-safepay"
+        date: "24 November 2024"
+        source_file: "GroupProfiles/SafePay.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/SafePay.md"]
+    source_label: "Safe Pay"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      Discovery: ["Invoke-ShareFinder"]
+      Exfiltration: ["7zip","FileZilla","WinRAR"]
+      LOLBAS: ["CMSTPLUA","Regsvr32.exe","dllhost.exe"]
+      RMM Tools: ["Microsoft RDP"]

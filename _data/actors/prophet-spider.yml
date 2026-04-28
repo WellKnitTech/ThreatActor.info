@@ -1,18 +1,54 @@
----
-name: Prophet Spider
-aliases:
-- GOLD MELODY
-- UNC961
-- Prophet Spider
-description: PROPHET SPIDER is an eCrime actor, active since at least May 2017, that
-  primarily gains access to victims by compromising vulnerable web servers, which
-  commonly involves leveraging a variety of publicly disclosed vulnerabilities. The
-  adversary has likely functioned as an access broker — handing off access to a third
-  party to deploy ransomware — in multiple instances.
+name: "Prophet Spider"
+aliases: ["GOLD MELODY","UNC961","Prophet Spider"]
+description: "PROPHET SPIDER is an eCrime actor, active since at least May 2017, that primarily gains access to victims by compromising vulnerable web servers, which commonly involves leveraging a variety of publicly disclosed vulnerabilities. The adversary has likely functioned as an access broker — handing off access to a third party to deploy ransomware — in multiple instances."
 url: "/prophet-spider"
+last_updated: "2026-04-28"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: eb0b100c-8a4e-4859-b6f8-eebd66c3d20c
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "eb0b100c-8a4e-4859-b6f8-eebd66c3d20c"
+    source_retrieved_at: "2026-04-26T05:47:15Z"
+  ransomware_tool_matrix:
+    actor_roles: ["initial_access_broker"]
+    references:
+      - title: "www.secureworks.com"
+        url: "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"
+        date: "20 September 2023"
+        source_file: "GroupProfiles/ProphetSpider.md"
+      - title: "cloud.google.com"
+        url: "https://cloud.google.com/blog/topics/threat-intelligence/unc961-multiverse-financially-motivated"
+        date: "23 March 2023"
+        source_file: "GroupProfiles/ProphetSpider.md"
+      - title: "cloud.google.com"
+        url: "https://cloud.google.com/blog/topics/threat-intelligence/unc961-multiverse-financially-motivated/"
+        date: "23 March 2023"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "www.crowdstrike.com"
+        url: "https://www.crowdstrike.com/blog/prophet-spider-exploits-oracle-weblogic-to-facilitate-ransomware-activity"
+        date: "4 August 2021"
+        source_file: "GroupProfiles/ProphetSpider.md"
+      - title: "www.crowdstrike.com"
+        url: "https://www.crowdstrike.com/blog/prophet-spider-exploits-oracle-weblogic-to-facilitate-ransomware-activity/"
+        date: "4 August 2021"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "www.crowdstrike.com"
+        url: "https://www.crowdstrike.com/blog/prophet-spider-exploits-citrix-sharefile"
+        date: "7 March 2022"
+        source_file: "GroupProfiles/ProphetSpider.md"
+      - title: "www.crowdstrike.com"
+        url: "https://www.crowdstrike.com/blog/prophet-spider-exploits-citrix-sharefile/"
+        date: "7 March 2022"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/ProphetSpider.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Offsec.md"]
+    source_label: "Prophet Spider"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    tools_by_category:
+      Credential Theft: ["Mimikatz"]
+      Discovery: ["TXPortMap"]
+      Exfiltration: ["PSCP"]
+      LOLBAS: ["Minidump","PAExec","WinExe"]
+      OffSec: ["BurpSuite","ConPtyShell","Godzilla Web Shell","PwnTools","Responder"]

@@ -22,7 +22,14 @@ PROPHET SPIDER is an eCrime actor, active since at least May 2017, that primaril
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+| Category | Observed tools |
+|---|---|
+| Credential Theft | Mimikatz |
+| Discovery | TXPortMap |
+| Exfiltration | PSCP |
+| LOLBAS | Minidump, PAExec, WinExe |
+| OffSec | BurpSuite, ConPtyShell, Godzilla Web Shell, PwnTools, Responder |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

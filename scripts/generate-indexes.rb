@@ -513,6 +513,7 @@ class ThreatActorIndexGenerator
         next
       end
 
+      next if category == 'Ransomware Tool Matrix observations'
       next unless stripped.match?(/^[-*]\s+/)
 
       content = stripped.sub(/^[-*]\s+/, '').strip

@@ -29,6 +29,12 @@ DragonForce is a ransomware-as-a-service (RaaS) group first identified in late 2
 - **CyberGate**
 - **Cyber Eye RAT**
 
+### Ransomware Tool Matrix observations
+| Category | Observed tools |
+|---|---|
+| Credential Theft | Mimikatz |
+| Discovery | Advanced IP Scanner, PingCastle, SoftPerfect NetScan |
+
 ## Attribution and Evidence
 **Country of Origin**: Malaysia
 *Additional attribution information pending cataloguing.*

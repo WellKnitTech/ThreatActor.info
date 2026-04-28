@@ -22,7 +22,15 @@ Beast ransomware emerged in 2022 as an enhanced iteration of the earlier “Mons
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+| Category | Observed tools |
+|---|---|
+| Credential Theft | Automim, LaZagne, Mimikatz |
+| Discovery | Advanced IP Scanner, Advanced Port Scanner, Everything.exe, SoftPerfect NetScan |
+| Exfiltration | MEGA, WinSCP |
+| LOLBAS | PsExec |
+| Networking | Klink, OpenSSH |
+| RMM Tools | AnyDesk |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

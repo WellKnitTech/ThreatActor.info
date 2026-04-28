@@ -31,7 +31,14 @@ Maze is a ransomware operation known for being the first to implement double ext
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+| Category | Observed tools |
+|---|---|
+| Credential Theft | Mimikatz, ProcDump |
+| Discovery | AdFind, Advanced IP Scanner, Bloodhound, PingCastle, PowerView, ShareFinder |
+| Exfiltration | WinSCP |
+| LOLBAS | PsExec, WMIC |
+| OffSec | Cobalt Strike, Metasploit, Meterpreter, PowerSploit |
 
 ## Attribution and Evidence
 **Country of Origin**: Unknown
