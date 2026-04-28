@@ -388,6 +388,85 @@ Imported provenance fields include:
 - `provenance.apt_groups_operations.tab_name`
 - `provenance.apt_groups_operations.matched_mitre_ids`
 
+## EternalLiberty Importer
+
+`scripts/import-eternal-liberty.rb` adds EternalLiberty as a reviewed alias crosswalk source for existing actors.
+
+Source: https://github.com/StrangerealIntel/EternalLiberty
+
+### Why this importer is conservative
+
+- EternalLiberty is strongest as an alias cross-reference across vendor naming schemes, not as a canonical actor-identity source.
+- The upstream dataset has `official_name`, `confidence`, `type`, `country`, and vendor-scoped alias records, but no narrative descriptions or primary-source citations per row.
+- The upstream repository does not declare a license. EternalLiberty is the only approved no-upstream-license import exception; do not generalize this policy to other sources.
+- To avoid attribution and identity drift, this importer only enriches existing actors with additive aliases, blank-country fills, MITRE group ID hints, and provenance.
+
+Reviewed matching overrides live in `data/imports/eternal-liberty/mapping_overrides.yml`.
+
+### Commands
+
+Fetch a snapshot:
+
+```bash
+ruby scripts/import-eternal-liberty.rb fetch --output data/imports/eternal-liberty/2026-04-28
+```
+
+Preview additive enrichments:
+
+```bash
+ruby scripts/import-eternal-liberty.rb plan --snapshot data/imports/eternal-liberty/2026-04-28
+```
+
+Restrict to a specific actor:
+
+```bash
+ruby scripts/import-eternal-liberty.rb plan --snapshot data/imports/eternal-liberty/2026-04-28 --actor APT28
+```
+
+Apply reviewed enrichments:
+
+```bash
+ruby scripts/import-eternal-liberty.rb import --snapshot data/imports/eternal-liberty/2026-04-28
+```
+
+Write a machine-readable review report:
+
+```bash
+ruby scripts/import-eternal-liberty.rb plan --snapshot data/imports/eternal-liberty/2026-04-28 --report-json tmp/eternal-liberty-report.json
+```
+
+### Field mapping
+
+| EternalLiberty Field | Our Schema Field | Notes |
+|----------------------|------------------|-------|
+| `official_name` | actor matching only | Used for matching existing actors; not auto-created as a new actor |
+| `alias[].name` | `aliases` | Additive merge only; slash-separated aliases are split |
+| `alias[].entity` | `provenance.eternal_liberty.aliases_by_entity` | Preserves vendor/source context for review |
+| MITRE-style `G####` aliases | `external_id` | Used only when exactly one MITRE ID exists and the field is blank |
+| `country` | `country` | Used only when actor country is blank; `Unknown` and `Worldwide` are ignored |
+| `confidence` / `type` | `provenance.eternal_liberty.*` | Stored as source context, not promoted to risk or incident type |
+
+### Guardrails
+
+- No new actor creation from EternalLiberty alone.
+- No description, risk-level, incident-type, campaign, malware, or IOC import.
+- Ambiguous multi-match records are reported as `review` and never auto-applied.
+- `excluded_records`, `match_overrides`, `country_overrides`, and `alias_drop_list` support reviewed cleanup before broad imports.
+
+### Attribution
+
+The importer preserves source attribution using the pattern:
+
+`Alias cross-reference data was reviewed from EternalLiberty (https://github.com/StrangerealIntel/EternalLiberty). EternalLiberty is used here as a secondary alias crosswalk, not as a sole authoritative source.`
+
+Imported provenance fields include:
+- `provenance.eternal_liberty.source_retrieved_at`
+- `provenance.eternal_liberty.source_dataset_url`
+- `provenance.eternal_liberty.source_version`
+- `provenance.eternal_liberty.source_record_id`
+- `provenance.eternal_liberty.license_status`
+- `provenance.eternal_liberty.aliases_by_entity`
+
 ## ETDA / ThaiCERT Threat Group Cards Importer
 
 `scripts/import-etda-thaicert.rb` adds ETDA/ThaiCERT Threat Group Cards as a reviewed threat-group enrichment source.
