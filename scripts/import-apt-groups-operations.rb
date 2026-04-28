@@ -27,6 +27,8 @@ class AptGroupsOperationsImporter
     'north-korea' => { gid: '1905351590', country: 'North Korea' },
     'iran' => { gid: '376438690', country: 'Iran' },
     'israel' => { gid: '300065512', country: 'Israel' },
+    'nato' => { gid: '2069598202', country: nil },
+    'middle-east' => { gid: '574287636', country: nil },
     'others' => { gid: '438782970', country: nil },
     'unknown' => { gid: '1121522397', country: nil }
   }.freeze

@@ -1,6 +1,14 @@
-excluded_rows: []
+excluded_rows:
+  # Explicitly skip merged labels that intentionally represent multiple actors.
+  - "others:TA505 (merged w/Indrik Spider)"
 
-match_overrides: {}
+match_overrides:
+  # High-confidence vendor/crosswalk labels with known collisions in local aliases.
+  "russia:Sofacy": "APT28"
+  "russia:APT29": "APT29"
+  "russia:COLDRIVER": "Cold River"
+  "middle-east:APT-C-23": "APT-C-23"
+  "middle-east:AridViper": "APT-C-23"
 
 country_overrides: {}
 
