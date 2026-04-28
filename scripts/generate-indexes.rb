@@ -17,6 +17,7 @@ class ThreatActorIndexGenerator
   OUTPUT_DIR = '_data/generated'.freeze
   API_DIR = 'api'.freeze
   MALWARE_DIR = '_malware'.freeze
+  TECHNIQUES_DIR = '_techniques'.freeze
   TACTICS_DIR = '_tactics'.freeze
   # Cached Enterprise bundle for full ATT&CK indexes when no importer snapshot exists (gitignored).
   ENTERPRISE_BUNDLE_CACHE = 'data/mitre-cache/enterprise-attack.json'.freeze
@@ -190,6 +191,7 @@ class ThreatActorIndexGenerator
     end
 
     ensure_tactic_collection_pages(tactic_documents)
+    ensure_technique_collection_pages(technique_documents)
 
     campaign_mitre_documents = build_mitre_collection_index('_campaigns')
     mitigation_documents = build_mitre_collection_index('_mitigations')
@@ -1568,6 +1570,46 @@ class ThreatActorIndexGenerator
 ## Threat actors
 
 Threat actors in this project are listed below when their ATT&CK technique references map to this tactic.
+
+BODY
+      body << "\n---\n\n*#{MitreCommon::SOURCE_ATTRIBUTION}*\n"
+
+      write_jekyll_markdown(path, fm, body)
+    end
+  end
+
+  def ensure_technique_collection_pages(technique_documents)
+    return if technique_documents.empty?
+
+    FileUtils.mkdir_p(TECHNIQUES_DIR)
+
+    technique_documents.each do |t|
+      mid = t[:mitre_id].to_s.upcase
+      next unless mid.match?(/\AT\d{4}(?:\.\d{3})?\z/)
+
+      path = File.join(TECHNIQUES_DIR, "#{mid.downcase}.md")
+      next if File.exist?(path)
+
+      parent_id = mid.include?('.') ? mid.split('.', 2).first : nil
+      fm = {
+        'layout' => 'technique',
+        'title' => t[:title],
+        'mitre_id' => mid,
+        'permalink' => technique_site_permalink(mid),
+        'mitre_url' => t[:mitre_url] || technique_permalink_or_url(mid),
+        'domains' => t[:domains] || [],
+        'parent_mitre_id' => parent_id,
+        'source_attribution' => MitreCommon::SOURCE_ATTRIBUTION
+      }.compact
+
+      body = +<<"BODY"
+## Description
+
+*Stub page generated from MITRE ATT&CK bundle metadata.* Import via `scripts/import-mitre.rb` to enrich descriptions and examples.
+
+## Threat actors
+
+Threat actors in this project are listed below when their ATT&CK references cite this technique ID.
 
 BODY
       body << "\n---\n\n*#{MitreCommon::SOURCE_ATTRIBUTION}*\n"
