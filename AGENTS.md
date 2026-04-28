@@ -27,6 +27,7 @@ This reflects the current repository, CI workflow, and validation scripts.
 - `scripts/mitre/version_resolver.rb`: resolves active Enterprise/Mobile/ICS STIX bundle paths and versions (snapshot manifest → `data/mitre-cache/active.yml` → network fetch); used by `scripts/generate-indexes.rb`. See `docs/offline-mitre-bundles.md` for offline bundle setup and refreshing MITRE stubs via `import-mitre.rb`.
 - `scripts/generate-indexes.rb`: emits grouped IOC shards (`_data/generated/iocs_by_type/`, `ioc_types.json`, `ioc_summary.json`), MITRE-derived indexes (`techniques.json`, `tactics.json`, `technique_tactics.json`, `actors_by_tactic.json`, `attack_version.json`), version-pinned bundle cache under `data/mitre-cache/`, categorized adversary pivot indexes from `data/imports/categorized-adversary-ttps/Categorized_Adversary_TTPs.json` (`categorized_adversary_by_group.json`, `categorized_pivot_by_*.json`), and other API indexes.
 - `scripts/categorized_adversary_ttps.rb`: helpers used by `generate-indexes.rb` for the tropChaud merged MITRE × ETDA snapshot.
+- `scripts/ioc_yaml_reader.rb`: merges actor YAML `iocs` plus legacy IOC lists for `generate-indexes.rb` and `generate-pages.rb`.
 - `scripts/validate.sh`: full validation wrapper.
 - `.github/workflows/validate.yml`: CI commands.
 - `docs/importers.md`: importer workflow and attribution rules.

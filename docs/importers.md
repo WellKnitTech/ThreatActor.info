@@ -25,6 +25,7 @@ Reviewed name and rename handling lives in `data/imports/ransomlook/mapping_over
 - Run public, machine-consumable source imports through `ruby scripts/import-automated-sources.rb`; analyst notes are intentionally excluded from this runner.
 - Regenerate pages with `ruby scripts/generate-pages.rb --force` after source updates.
 - Regenerate APIs with `ruby scripts/generate-indexes.rb` in the same run.
+- Prefer **structured IOCs** under **`iocs:`** in `_data/actors/*.yml` (plus legacy top-level IOC lists where applicable); [`scripts/ioc_yaml_reader.rb`](../scripts/ioc_yaml_reader.rb) merges them for **`generate-indexes.rb`** and **`generate-pages.rb`** so `/api/iocs.json` and actor **`ioc_count`** stay aligned with YAML without duplicating Markdown-only pipelines.
 - Use `ruby scripts/evaluate-source-deltas.rb` to enforce update thresholds before publishing large changes.
 - See `docs/data-flows.md` for the source-of-truth map and the analyst-note supersession policy.
 

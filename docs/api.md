@@ -38,7 +38,7 @@ Fields include:
 - `risk_level`
 - `page_path`
 - `headings`
-- `ioc_count`
+- `ioc_count` (includes IOCs merged from actor YAML `iocs` and legacy IOC lists; see [`scripts/ioc_yaml_reader.rb`](../scripts/ioc_yaml_reader.rb))
 - `ioc_types`
 - `campaigns`
 - `malware_and_tools`

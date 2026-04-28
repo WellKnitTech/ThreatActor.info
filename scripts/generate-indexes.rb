@@ -13,6 +13,7 @@ require_relative 'mitre/relationship_resolver'
 require_relative 'mitre/mitre_common'
 require_relative 'mitre/version_resolver'
 require_relative 'categorized_adversary_ttps'
+require_relative 'ioc_yaml_reader'
 
 class ThreatActorIndexGenerator
   PAGES_GLOB = '_threat_actors/*.md'.freeze
@@ -160,7 +161,9 @@ class ThreatActorIndexGenerator
 
       body = page[:body]
       ioc_section = extract_section(body, REQUIRED_IOC_HEADING)
-      actor_iocs = extract_iocs(actor, page, ioc_section)
+      from_yaml = build_ioc_records_from_yaml(actor, page)
+      from_markdown = extract_iocs(actor, page, ioc_section)
+      actor_iocs = dedupe_ioc_records(from_yaml + from_markdown)
       campaigns = extract_campaigns(actor, page, body)
       malware_entries = extract_malware_and_tools(actor, page, body)
       attack_mappings = extract_attack_mappings(actor, page, body)
@@ -345,15 +348,42 @@ class ThreatActorIndexGenerator
     end
   end
 
-  def build_ioc_record(actor, page, heading, value, source_text, label, inferred_type, atomic)
+  def build_ioc_records_from_yaml(actor, page)
+    IocYamlReader.indicator_rows_from_actor(actor).filter_map do |row|
+      heading = row[:heading]
+      value = row[:value].to_s
+      inf = row[:inferred_type]
+      next if inf.to_s.strip.empty? || value.strip.empty?
+
+      build_ioc_record(actor, page, heading, value, value, nil, inf, true, type_override: inf)
+    end
+  end
+
+  # YAML IOC rows first (canonical); Markdown duplicates dropped by key.
+  def dedupe_ioc_records(records)
+    seen = {}
+    records.each_with_object([]) do |rec, out|
+      slug = rec[:actor_slug].to_s
+      typ = rec[:type].to_s
+      norm = rec[:canonical_value].to_s.downcase
+      key = [slug, typ, norm].join('|')
+      next if seen[key]
+
+      seen[key] = true
+      out << rec
+    end
+  end
+
+  def build_ioc_record(actor, page, heading, value, source_text, label, inferred_type, atomic, type_override: nil)
     normalization = normalize_indicator(value, inferred_type)
+    resolved_type = !type_override.to_s.strip.empty? ? type_override : ioc_type_for(heading)
 
     {
       actor_name: actor['name'],
       actor_slug: actor['url'].sub(%r{^/}, ''),
       actor_url: actor['url'],
       actor_permalink: page[:front_matter]['permalink'] || "#{actor['url']}/",
-      type: ioc_type_for(heading),
+      type: resolved_type,
       inferred_type: inferred_type,
       atomic: atomic,
       heading: heading,
@@ -1191,6 +1221,7 @@ class ThreatActorIndexGenerator
     return 'file_extension' if normalized.include?('file extension')
     return 'email' if normalized.include?('email')
     return 'url' if normalized == 'urls' || normalized == 'url' || normalized.include?('url ')
+    return 'attack_technique' if normalized.include?('att&ck') || normalized.include?('attack technique')
 
     normalized.gsub(/[^a-z0-9]+/, '_').gsub(/\A_|_\z/, '')
   end

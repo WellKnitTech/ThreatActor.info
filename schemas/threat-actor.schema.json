@@ -166,6 +166,48 @@
     "hashes": {
       "$ref": "#/$defs/stringArray"
     },
+    "iocs": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "ips": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "domains": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "urls": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "emails": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "cves": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "md5": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "sha1": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "sha256": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "attack_techniques": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "md5_hashes": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "sha256_hashes": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "sha1_hashes": {
+          "$ref": "#/$defs/stringArray"
+        }
+      }
+    },
     "campaigns": {
       "type": "array"
     },

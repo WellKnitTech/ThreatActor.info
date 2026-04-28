@@ -86,15 +86,17 @@ iocs:
   ips:
     - "45.32.22.62"
     - "45.17.43.250"
-  md5_hashes:
+  md5:
     - "0777EA1D01DAD6DC261A6B602205E2C8"
-  sha256_hashes:
+  sha256:
     - "e1d8f6d72a43b21a0b0c5f46307d02f2e9a59d3522827b0e7b768135ed3a92c1"
   domains:
     - "api-metrics-collector.com"
   urls:
     - "https://malicious-site.com/payload.exe"
 ```
+
+Aliases **`md5_hashes`**, **`sha256_hashes`**, and **`sha1_hashes`** are normalized to **`md5`**, **`sha256`**, and **`sha1`** when merging for indexes and page generation.
 
 ### malware
 
@@ -120,11 +122,15 @@ references:
     date: "2024"
 ```
 
-## Threat actor Markdown: IOC extraction (`generate-indexes`)
+## IOC indexes: YAML canonical, Markdown supplemental
 
-[`scripts/generate-indexes.rb`](../scripts/generate-indexes.rb) builds IOC indexes from **`_threat_actors/*.md`**, not from YAML `iocs:` alone.
+**Canonical IOC data** lives under **`iocs:`** in **`_data/actors/*.yml`**, merged with legacy top-level **`ips`**, **`domains`**, **`urls`**, **`emails`**, **`cves`**, and **`hashes`** via [`scripts/ioc_yaml_reader.rb`](../scripts/ioc_yaml_reader.rb). [`scripts/generate-indexes.rb`](../scripts/generate-indexes.rb) builds IOC records from YAML first, then merges Markdown bullets (deduplicated; YAML wins when the same indicator appears twice).
 
-Requirements:
+[`scripts/generate-pages.rb`](../scripts/generate-pages.rb) renders **`## Notable Indicators of Compromise (IOCs)`** from the same merged YAML.
+
+### Markdown IOC extraction (supplemental)
+
+For indicators present only in **`_threat_actors/*.md`** (legacy or not yet lifted into YAML), the Markdown extractor still applies.
 
 | Requirement | Detail |
 |-------------|--------|
@@ -132,8 +138,6 @@ Requirements:
 | List shape | Indicators as **bullet lines** (`-` or `*`). Lines that are not list items are not parsed as IOC rows. |
 | Subsections | Optional **`### Category`** headings split IOCs into groups (display/grouping). |
 | Skipped regions | Lists under headings skipped by the generator (e.g. **`Sources`**) are not extracted—avoid nesting IOC bullets only under those. |
-
-Importer-generated content should mirror this structure when **`generate-pages.rb`** emits IOC sections so downstream **`ioc_lookup.json`**, IOC shards, and IOC hubs populate.
 
 ## Source Attribution Fields
 
