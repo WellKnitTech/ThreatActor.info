@@ -237,6 +237,18 @@ ruby scripts/import-russian-apt-tool-matrix.rb import --snapshot data/imports/ru
 
 ---
 
+### import-microsoft-threat-actor-list.rb
+
+Import reviewed Microsoft threat actor naming crosswalk data for existing actors.
+
+```bash
+ruby scripts/import-microsoft-threat-actor-list.rb fetch --output data/imports/microsoft-threat-actor-list/$(date +%F)
+ruby scripts/import-microsoft-threat-actor-list.rb plan --snapshot data/imports/microsoft-threat-actor-list/DATE
+ruby scripts/import-microsoft-threat-actor-list.rb import --snapshot data/imports/microsoft-threat-actor-list/DATE
+```
+
+---
+
 ### import-aptnotes.rb
 
 Import APTnotes references.
