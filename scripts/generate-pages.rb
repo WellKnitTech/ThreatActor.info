@@ -245,6 +245,13 @@ def escape_table_cell(value)
   value.to_s.gsub(/\s+/, ' ').strip.gsub('|', '&#124;')
 end
 
+def normalize_cisa_kev_entry(entry)
+  return entry if entry.is_a?(Hash)
+  return {} unless entry.is_a?(String)
+
+  entry.scan(/"([^"]+)"\s*=>\s*"([^"]*)"/).to_h
+end
+
 def ransomware_vulnerability_matrix_rows(actor)
   ransomware_vulnerability_matrix_observations(actor).each_with_object({}) do |(category, observations), memo|
     observations.each do |entry|
@@ -667,12 +674,15 @@ sections << "## References"
     sections << ""
     sections << "| CVE ID | Vendor | Product | Date Added |"
     sections << "|-------|-------|--------|----------|"
-    actor['cisa_kev_cves'].each do |cve|
+    actor['cisa_kev_cves'].each do |entry|
+      cve = normalize_cisa_kev_entry(entry)
       cve_id = cve['cve'] || cve['cve_id'] || 'N/A'
+      next if cve_id == 'N/A' || cve_id == 'cve'
+
       vendor = cve['vendor'] || 'N/A'
       product = cve['product'] || 'N/A'
       date = cve['dateAdded'] || cve['date_added'] || 'N/A'
-      sections << "| #{cve_id} | #{vendor} | #{product} | #{date} |"
+      sections << "| #{escape_table_cell(cve_id)} | #{escape_table_cell(vendor)} | #{escape_table_cell(product)} | #{escape_table_cell(date)} |"
     end
     sections << ""
   end

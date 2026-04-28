@@ -24,6 +24,9 @@ layout: default
 {% assign profile_source_name = current_actor.source_name | default: page.source_name %}
 {% assign profile_source_attribution = current_actor.source_attribution | default: page.source_attribution %}
 {% assign profile_source_record_url = current_actor.source_record_url | default: page.source_record_url %}
+{% assign profile_source_license = current_actor.source_license | default: page.source_license %}
+{% assign profile_source_license_url = current_actor.source_license_url | default: page.source_license_url %}
+{% assign profile_provenance = current_actor.provenance | default: page.provenance %}
 {% if profile_source_record_url == nil and current_actor and current_actor.provenance and current_actor.provenance.malpedia %}
   {% assign profile_source_record_url = current_actor.provenance.malpedia.source_record_url %}
 {% endif %}
@@ -277,7 +280,7 @@ layout: default
     </aside>
     {% endif %}
 
-    {% if profile_source_attribution or profile_source_record_url or profile_source_name %}
+    {% if profile_source_attribution or profile_source_record_url or profile_source_name or profile_source_license or profile_provenance %}
     <aside class="source-attribution-panel">
       <h2>Source Attribution</h2>
       {% if profile_source_name %}
@@ -291,6 +294,66 @@ layout: default
       {% endif %}
       {% if profile_source_record_url %}
       <p><a href="{{ profile_source_record_url }}">View upstream source record</a></p>
+      {% endif %}
+      {% if profile_source_license %}
+      <p><strong>License:</strong>
+        {% if profile_source_license_url %}
+        <a href="{{ profile_source_license_url }}">{{ profile_source_license }}</a>
+        {% else %}
+        {{ profile_source_license }}
+        {% endif %}
+      </p>
+      {% endif %}
+      {% if profile_provenance %}
+      <h3>Additional source provenance</h3>
+      <ul class="source-provenance-list">
+        {% for source in profile_provenance %}
+          {% assign source_data = source[1] %}
+          {% assign source_label = source[0] | replace: '_', ' ' %}
+          {% if source[0] == 'bushido_breach_reports' %}
+            {% assign source_label = 'BushidoToken Breach Report Collection' %}
+          {% elsif source[0] == 'ransomware_tool_matrix' %}
+            {% assign source_label = 'BushidoUK Ransomware Tool Matrix' %}
+          {% elsif source[0] == 'ransomware_vulnerability_matrix' %}
+            {% assign source_label = 'BushidoUK Ransomware Vulnerability Matrix' %}
+          {% elsif source[0] == 'russian_apt_tool_matrix' %}
+            {% assign source_label = 'BushidoUK Russian APT Tool Matrix' %}
+          {% elsif source[0] == 'apt_groups_operations' %}
+            {% assign source_label = 'APT Groups & Operations' %}
+          {% elsif source[0] == 'curated_intel_moveit_transfer' %}
+            {% assign source_label = 'Curated Intelligence MOVEit Transfer Tracking' %}
+          {% elsif source[0] == 'etda_thaicert' %}
+            {% assign source_label = 'ETDA / ThaiCERT Threat Group Cards' %}
+          {% endif %}
+          {% if source_data.source_attribution or source_data.source_repository or source_data.source_dataset_url or source_data.source_record_url %}
+        <li>
+          <strong>{% if source_data.source_name %}{{ source_data.source_name }}{% else %}{{ source_label }}{% endif %}</strong>
+          {% if source_data.source_attribution %}
+          <span>{{ source_data.source_attribution | replace: '(', ' (' | replace: ') .', ').' | replace: ') ,', '),' | replace: '  ', ' ' }}</span>
+          {% endif %}
+          {% if source_data.source_license %}
+          <span>License:
+            {% if source_data.source_license_url %}
+            <a href="{{ source_data.source_license_url }}">{{ source_data.source_license }}</a>
+            {% else %}
+            {{ source_data.source_license }}
+            {% endif %}
+          </span>
+          {% endif %}
+          {% if source_data.source_record_url %}
+          <a href="{{ source_data.source_record_url }}">Source record</a>
+          {% endif %}
+          {% if source_data.source_repository %}
+          <a href="{{ source_data.source_repository }}">Repository</a>
+          {% endif %}
+          {% if source_data.source_dataset_url %}
+          <a href="{{ source_data.source_dataset_url }}">Dataset</a>
+          {% endif %}
+        </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <p><a href="{{ "/attribution/" | relative_url }}">Source and license policy</a></p>
       {% endif %}
     </aside>
     {% endif %}

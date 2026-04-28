@@ -15,6 +15,8 @@ This document describes the schema for `_data/actors/*.yml` - the single source 
   last_activity: "2024"
   last_updated: "2026-04-27"
   risk_level: "High"
+  source_name: "MITRE ATT&CK"
+  source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
   
   # Extended fields (optional)
   campaigns:
@@ -118,6 +120,49 @@ references:
     date: "2024"
 ```
 
+## Source Attribution Fields
+
+Every actor should make its source lineage clear enough for readers and maintainers to verify origin, licensing, and review context.
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `source_name` | String | Primary structured source for the actor identity or the latest importer that owns the actor record |
+| `source_attribution` | String | Required attribution or usage statement displayed on the actor page |
+| `source_record_url` | String | Optional upstream record URL for the exact actor profile |
+| `source_license` | String | Optional license name when the source publishes one |
+| `source_license_url` | String | Optional URL for the source license or terms |
+
+### provenance
+
+Use `provenance` for additional source-specific data that supplements the primary actor record. Each nested source key should preserve enough metadata to audit where the imported observations came from.
+
+```yaml
+provenance:
+  ransomware_tool_matrix:
+    source_name: "BushidoUK Ransomware Tool Matrix"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix..."
+    source_retrieved_at: "2026-04-28T01:51:36Z"
+    source_files: ["Tools/Offsec.md"]
+```
+
+Recommended nested attribution fields:
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `source_name` | String | Human-readable source name when the key is not self-explanatory |
+| `source_repository` | String | Repository or publisher landing page |
+| `source_dataset_url` | String | Exact snapshot, raw data, API, or dataset URL used by the importer |
+| `source_record_url` | String | Exact upstream actor, malware, campaign, or report-index record URL |
+| `source_attribution` | String | Source-specific attribution text for supplemental observations |
+| `source_license` | String | License name when distinct from the primary actor source |
+| `source_license_url` | String | License or terms URL |
+| `source_retrieved_at` | String | UTC retrieval timestamp for the source snapshot |
+| `source_files` | Array | Source files consulted inside a repository snapshot |
+
+The public site renders top-level attribution and visible nested provenance entries. Keep `source_attribution` factual and specific: name the upstream source, link or name the publisher, state whether the data is used as identity data, a report index, or secondary enrichment, and preserve source license requirements.
+
 ## Importers
 
 ### MITRE ATT&CK
@@ -155,7 +200,7 @@ The generator:
 
 1. **Edit YAML, not MD files** - The MD files are regenerated
 2. **Use the generator** - Don't manually edit pages
-3. **Add attribution** - Include source links for verification
+3. **Add attribution** - Include source links, license fields, and provenance for verification
 4. **Keep descriptions brief** - Max 200 chars for front matter
 5. **Validate after changes** - Run `ruby scripts/validate-content.rb`
 
