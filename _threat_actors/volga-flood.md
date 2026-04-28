@@ -7,28 +7,31 @@ permalink: /volga-flood/
 ---
 
 ## Introduction
-
 Microsoft threat actor profile. Origin/Threat: Russia, Influence operations.
 
 ## Activities and Tactics
+**Country of Origin**: 🇷🇺 Russia
 
-Details about this threat actor's activities and tactics would go here.
+
+
+
 
 ## Notable Campaigns
-
-Notable campaigns attributed to this actor.
+*Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
+*Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
+*Information pending cataloguing.*
 
 ## Attribution and Evidence
-
-**Source:** This information is derived from MISP Galaxy, available under Apache 2.0 / CC0.
+**Country of Origin**: Russia
+*Additional attribution information pending cataloguing.*
 
 ## References
+*References pending cataloguing.*
 
-
-- https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json

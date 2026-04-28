@@ -81,6 +81,5 @@ Akira is a ransomware variant and ransomware deployment entity active since at l
 | CVE-2023-27532 | Veeam | Backup & Replication | 2023-08-22 |
 | CVE-2023-28252 | Microsoft | Windows | 2023-04-11 |
 | CVE-2022-40684 | Fortinet | Multiple Products | 2022-10-11 |
-| CVE-2021-27876 | Veritas | Backup Exec Agent | 2022-03-28 |
 | CVE-2020-3580 | Cisco | Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) | 2021-11-03 |
 

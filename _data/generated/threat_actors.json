@@ -3053,6 +3053,153 @@
     "attack_mapping_count": 0
   },
   {
+    "name": "毒云藤 - APT-C-01",
+    "aliases": [
+      "穷奇",
+      "白海豚",
+      "绿斑",
+      "毒云藤 - APT-C-01"
+    ],
+    "description": "APT-C-01又名毒云藤，是一个长期针对中国境内的APT组织，至少从2007年开始活跃。曾对中国国防、政府、科技、教育以及海事机构等重点单位和部门进行了长达11年的网络间谍活动，主要关注军工、中美关系、两岸关系和海洋相关的领域，旨在窃取重大决策及敏感信息。APT-C-01由360威胁情报中心首次披露，结合该组织关联地区常见的蔓藤植物，因此将其命名为“毒云藤”。",
+    "url": "/apt-c-01",
+    "permalink": "/apt-c-01/",
+    "country": null,
+    "sector_focus": [
+
+    ],
+    "first_seen": null,
+    "last_activity": null,
+    "last_updated": null,
+    "risk_level": null,
+    "source_name": "MISP Galaxy",
+    "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
+    "source_record_url": null,
+    "source_license": null,
+    "source_license_url": null,
+    "provenance": {
+      "misp_galaxy": {
+        "source_cluster": "360net.json",
+        "source_clusters": [
+          "360net.json"
+        ],
+        "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json",
+        "source_record_id": "98df38d1-f83c-5c28-ad11-75aa6b493fe7",
+        "source_record_ids": [
+          "98df38d1-f83c-5c28-ad11-75aa6b493fe7"
+        ],
+        "source_retrieved_at": "2026-04-28T04:13:45Z"
+      }
+    },
+    "page_path": "_threat_actors/apt-c-01.md",
+    "headings": [
+      "Introduction",
+      "Activities and Tactics",
+      "Notable Campaigns",
+      "Tactics, Techniques, and Procedures (TTPs)",
+      "Notable Indicators of Compromise (IOCs)",
+      "Malware and Tools",
+      "Attribution and Evidence",
+      "References"
+    ],
+    "ioc_count": 0,
+    "ioc_types": [
+
+    ],
+    "campaigns": [
+
+    ],
+    "malware_and_tools": [
+
+    ],
+    "attack_mappings": {
+      "group_ids": [
+
+      ],
+      "techniques": [
+
+      ]
+    },
+    "references": [
+
+    ],
+    "campaign_count": 0,
+    "malware_count": 0,
+    "reference_count": 0,
+    "attack_mapping_count": 0
+  },
+  {
+    "name": "美人鱼 - APT-C-07",
+    "aliases": [
+      "美人鱼 - APT-C-07"
+    ],
+    "description": "美人鱼组织（APT-C-07），来自于中东的境外APT组织，已持续活跃了9年。   主要针对政府机构进行网络间谍活动，以窃取敏感信息为目的，已经证实有针对丹麦外交部的攻击。",
+    "url": "/apt-c-07",
+    "permalink": "/apt-c-07/",
+    "country": null,
+    "sector_focus": [
+
+    ],
+    "first_seen": null,
+    "last_activity": null,
+    "last_updated": null,
+    "risk_level": null,
+    "source_name": "MISP Galaxy",
+    "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
+    "source_record_url": null,
+    "source_license": null,
+    "source_license_url": null,
+    "provenance": {
+      "misp_galaxy": {
+        "source_cluster": "360net.json",
+        "source_clusters": [
+          "360net.json"
+        ],
+        "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json",
+        "source_record_id": "51954972-101b-5213-971c-b335ceb810ea",
+        "source_record_ids": [
+          "51954972-101b-5213-971c-b335ceb810ea"
+        ],
+        "source_retrieved_at": "2026-04-28T04:13:45Z"
+      }
+    },
+    "page_path": "_threat_actors/apt-c-07.md",
+    "headings": [
+      "Introduction",
+      "Activities and Tactics",
+      "Notable Campaigns",
+      "Tactics, Techniques, and Procedures (TTPs)",
+      "Notable Indicators of Compromise (IOCs)",
+      "Malware and Tools",
+      "Attribution and Evidence",
+      "References"
+    ],
+    "ioc_count": 0,
+    "ioc_types": [
+
+    ],
+    "campaigns": [
+
+    ],
+    "malware_and_tools": [
+
+    ],
+    "attack_mappings": {
+      "group_ids": [
+
+      ],
+      "techniques": [
+
+      ]
+    },
+    "references": [
+
+    ],
+    "campaign_count": 0,
+    "malware_count": 0,
+    "reference_count": 0,
+    "attack_mapping_count": 0
+  },
+  {
     "name": "APT-C-12",
     "aliases": [
       "Sapphire Mushroom",
@@ -3184,6 +3331,78 @@
     "attack_mapping_count": 0
   },
   {
+    "name": "人面狮 - APT-C-15",
+    "aliases": [
+      "人面狮 - APT-C-15"
+    ],
+    "description": "人面狮行动是活跃在中东地区的网络间谍活动，主要目标可能涉及到埃及和以色列等国家的不同组织，目的是窃取目标敏感数据信息。活跃时间主要集中在2014年6月到2015年11月期间，相关攻击活动最早可以追溯到2011年12月。主要利用社交网络进行水坑攻击，截止到目前总共捕获到恶意代码样本314个，C&C域名7个。",
+    "url": "/apt-c-15",
+    "permalink": "/apt-c-15/",
+    "country": null,
+    "sector_focus": [
+
+    ],
+    "first_seen": null,
+    "last_activity": null,
+    "last_updated": null,
+    "risk_level": null,
+    "source_name": "MISP Galaxy",
+    "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
+    "source_record_url": null,
+    "source_license": null,
+    "source_license_url": null,
+    "provenance": {
+      "misp_galaxy": {
+        "source_cluster": "360net.json",
+        "source_clusters": [
+          "360net.json"
+        ],
+        "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json",
+        "source_record_id": "55177506-57bf-503e-8a24-9ed06bd28f16",
+        "source_record_ids": [
+          "55177506-57bf-503e-8a24-9ed06bd28f16"
+        ],
+        "source_retrieved_at": "2026-04-28T04:13:45Z"
+      }
+    },
+    "page_path": "_threat_actors/apt-c-15.md",
+    "headings": [
+      "Introduction",
+      "Activities and Tactics",
+      "Notable Campaigns",
+      "Tactics, Techniques, and Procedures (TTPs)",
+      "Notable Indicators of Compromise (IOCs)",
+      "Malware and Tools",
+      "Attribution and Evidence",
+      "References"
+    ],
+    "ioc_count": 0,
+    "ioc_types": [
+
+    ],
+    "campaigns": [
+
+    ],
+    "malware_and_tools": [
+
+    ],
+    "attack_mappings": {
+      "group_ids": [
+
+      ],
+      "techniques": [
+
+      ]
+    },
+    "references": [
+
+    ],
+    "campaign_count": 0,
+    "malware_count": 0,
+    "reference_count": 0,
+    "attack_mapping_count": 0
+  },
+  {
     "name": "APT-C-27",
     "aliases": [
       "GoldMouse",
@@ -3283,6 +3502,173 @@
     ],
     "campaign_count": 0,
     "malware_count": 3,
+    "reference_count": 0,
+    "attack_mapping_count": 0
+  },
+  {
+    "name": "潜行者 - APT-C-30",
+    "aliases": [
+      "潜行者 - APT-C-30"
+    ],
+    "description": "潜行者组织主要搜集东南亚国家政府机构、国防部门、情报机构等机构敏感信息，其中针对我国就进行了超十年左右的网络攻击。主要针对政府、通信等领域重点单位，攻击最早可以关联追溯到2009年，最早的样本编译时间为2008年，攻击活动一直持续至今。",
+    "url": "/apt-c-30",
+    "permalink": "/apt-c-30/",
+    "country": null,
+    "sector_focus": [
+
+    ],
+    "first_seen": null,
+    "last_activity": null,
+    "last_updated": null,
+    "risk_level": null,
+    "source_name": "MISP Galaxy",
+    "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
+    "source_record_url": null,
+    "source_license": null,
+    "source_license_url": null,
+    "provenance": {
+      "misp_galaxy": {
+        "source_cluster": "360net.json",
+        "source_clusters": [
+          "360net.json"
+        ],
+        "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json",
+        "source_record_id": "4a2a754b-e59b-5f31-b9ca-1d0f920185b2",
+        "source_record_ids": [
+          "4a2a754b-e59b-5f31-b9ca-1d0f920185b2"
+        ],
+        "source_retrieved_at": "2026-04-28T04:13:45Z"
+      }
+    },
+    "page_path": "_threat_actors/apt-c-30.md",
+    "headings": [
+      "Introduction",
+      "Activities and Tactics",
+      "Notable Campaigns",
+      "Tactics, Techniques, and Procedures (TTPs)",
+      "Notable Indicators of Compromise (IOCs)",
+      "Malware and Tools",
+      "Attribution and Evidence",
+      "References"
+    ],
+    "ioc_count": 0,
+    "ioc_types": [
+
+    ],
+    "campaigns": [
+
+    ],
+    "malware_and_tools": [
+
+    ],
+    "attack_mappings": {
+      "group_ids": [
+
+      ],
+      "techniques": [
+
+      ]
+    },
+    "references": [
+
+    ],
+    "campaign_count": 0,
+    "malware_count": 0,
+    "reference_count": 0,
+    "attack_mapping_count": 0
+  },
+  {
+    "name": "毒针 - APT-C-31",
+    "aliases": [
+      "毒针 - APT-C-31"
+    ],
+    "description": "2018年11月25日，360高级威胁应对团队就在全球范围内第一时间发现了一起针对俄罗斯的APT攻击行动，攻击目标则指向俄罗斯总统办公室所属的医疗机构，此次攻击行动使用了Flash 0day漏洞CVE-2018-15982和Hacking Team的RCS后门程序，结合被攻击目标医疗机构的职能特色，360将此次APT攻击命名为“毒针”行动。",
+    "url": "/apt-c-31",
+    "permalink": "/apt-c-31/",
+    "country": null,
+    "sector_focus": [
+
+    ],
+    "first_seen": null,
+    "last_activity": null,
+    "last_updated": null,
+    "risk_level": null,
+    "source_name": "MISP Galaxy",
+    "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
+    "source_record_url": null,
+    "source_license": null,
+    "source_license_url": null,
+    "provenance": {
+      "misp_galaxy": {
+        "source_cluster": "360net.json",
+        "source_clusters": [
+          "360net.json"
+        ],
+        "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json",
+        "source_record_id": "5ae4eb64-5431-5b5c-987b-891e7ab5858c",
+        "source_record_ids": [
+          "5ae4eb64-5431-5b5c-987b-891e7ab5858c"
+        ],
+        "source_retrieved_at": "2026-04-28T04:13:45Z"
+      }
+    },
+    "page_path": "_threat_actors/apt-c-31.md",
+    "headings": [
+      "Introduction",
+      "Activities and Tactics",
+      "Notable Campaigns",
+      "Tactics, Techniques, and Procedures (TTPs)",
+      "Notable Indicators of Compromise (IOCs)",
+      "Malware and Tools",
+      "Attribution and Evidence",
+      "References"
+    ],
+    "ioc_count": 0,
+    "ioc_types": [
+
+    ],
+    "campaigns": [
+
+    ],
+    "malware_and_tools": [
+      {
+        "actor_name": "毒针 - APT-C-31",
+        "actor_slug": "apt-c-31",
+        "actor_url": "/apt-c-31",
+        "actor_permalink": "/apt-c-31/",
+        "category": "General",
+        "name": "Hacking Team UEFI Rootkit",
+        "summary": null,
+        "is_software": true,
+        "source_section": "Malware and Tools",
+        "source_file": "_threat_actors/apt-c-31.md"
+      },
+      {
+        "actor_name": "毒针 - APT-C-31",
+        "actor_slug": "apt-c-31",
+        "actor_url": "/apt-c-31",
+        "actor_permalink": "/apt-c-31/",
+        "category": "General",
+        "name": "FLASHFLOOD",
+        "summary": null,
+        "is_software": true,
+        "source_section": "Malware and Tools",
+        "source_file": "_threat_actors/apt-c-31.md"
+      }
+    ],
+    "attack_mappings": {
+      "group_ids": [
+
+      ],
+      "techniques": [
+
+      ]
+    },
+    "references": [
+
+    ],
+    "campaign_count": 0,
+    "malware_count": 2,
     "reference_count": 0,
     "attack_mapping_count": 0
   },
@@ -3400,6 +3786,448 @@
     "attack_mapping_count": 0
   },
   {
+    "name": "拍拍熊 - APT-C-37",
+    "aliases": [
+      "拍拍熊 - APT-C-37"
+    ],
+    "description": "拍拍熊组织（APT-C-37）针对极端组织“伊斯兰国”展开了有组织、有计划、针对性的长期不间断攻击，其攻击平台为Windows和Android。",
+    "url": "/apt-c-37",
+    "permalink": "/apt-c-37/",
+    "country": null,
+    "sector_focus": [
+
+    ],
+    "first_seen": null,
+    "last_activity": null,
+    "last_updated": null,
+    "risk_level": null,
+    "source_name": "MISP Galaxy",
+    "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
+    "source_record_url": null,
+    "source_license": null,
+    "source_license_url": null,
+    "provenance": {
+      "misp_galaxy": {
+        "source_cluster": "360net.json",
+        "source_clusters": [
+          "360net.json"
+        ],
+        "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json",
+        "source_record_id": "74f08d5a-e94d-53cb-bdd7-31d2f8c8db2b",
+        "source_record_ids": [
+          "74f08d5a-e94d-53cb-bdd7-31d2f8c8db2b"
+        ],
+        "source_retrieved_at": "2026-04-28T04:13:45Z"
+      }
+    },
+    "page_path": "_threat_actors/apt-c-37.md",
+    "headings": [
+      "Introduction",
+      "Activities and Tactics",
+      "Notable Campaigns",
+      "Tactics, Techniques, and Procedures (TTPs)",
+      "Notable Indicators of Compromise (IOCs)",
+      "Malware and Tools",
+      "Attribution and Evidence",
+      "References"
+    ],
+    "ioc_count": 0,
+    "ioc_types": [
+
+    ],
+    "campaigns": [
+
+    ],
+    "malware_and_tools": [
+      {
+        "actor_name": "拍拍熊 - APT-C-37",
+        "actor_slug": "apt-c-37",
+        "actor_url": "/apt-c-37",
+        "actor_permalink": "/apt-c-37/",
+        "category": "General",
+        "name": "DroidJack",
+        "summary": null,
+        "is_software": true,
+        "source_section": "Malware and Tools",
+        "source_file": "_threat_actors/apt-c-37.md"
+      },
+      {
+        "actor_name": "拍拍熊 - APT-C-37",
+        "actor_slug": "apt-c-37",
+        "actor_url": "/apt-c-37",
+        "actor_permalink": "/apt-c-37/",
+        "category": "General",
+        "name": "Androrat",
+        "summary": null,
+        "is_software": true,
+        "source_section": "Malware and Tools",
+        "source_file": "_threat_actors/apt-c-37.md"
+      },
+      {
+        "actor_name": "拍拍熊 - APT-C-37",
+        "actor_slug": "apt-c-37",
+        "actor_url": "/apt-c-37",
+        "actor_permalink": "/apt-c-37/",
+        "category": "General",
+        "name": "Windows Remote Desktop",
+        "summary": null,
+        "is_software": true,
+        "source_section": "Malware and Tools",
+        "source_file": "_threat_actors/apt-c-37.md"
+      }
+    ],
+    "attack_mappings": {
+      "group_ids": [
+
+      ],
+      "techniques": [
+
+      ]
+    },
+    "references": [
+
+    ],
+    "campaign_count": 0,
+    "malware_count": 3,
+    "reference_count": 0,
+    "attack_mapping_count": 0
+  },
+  {
+    "name": "军刀狮 - APT-C-38",
+    "aliases": [
+      "军刀狮 - APT-C-38"
+    ],
+    "description": "从2015年7月起至今，军刀狮组织（APT-C-38）在中东地区展开了有组织、有计划、针对性的不间断攻击，其攻击平台为Windows和Android。由于军刀狮组织的攻击目标有一个主要的特色目标是西亚中东某国的库尔德人，另Windows端RAT包含的PDB路径下出现多次的“Saber”，而亚洲狮为该中东国家的代表动物，结合该组织的一些其它特点以及360对   APT 组织的命名规则，我们将该组织命名为军刀狮（APT-C-38）。",
+    "url": "/apt-c-38",
+    "permalink": "/apt-c-38/",
+    "country": null,
+    "sector_focus": [
+
+    ],
+    "first_seen": null,
+    "last_activity": null,
+    "last_updated": null,
+    "risk_level": null,
+    "source_name": "MISP Galaxy",
+    "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
+    "source_record_url": null,
+    "source_license": null,
+    "source_license_url": null,
+    "provenance": {
+      "misp_galaxy": {
+        "source_cluster": "360net.json",
+        "source_clusters": [
+          "360net.json"
+        ],
+        "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json",
+        "source_record_id": "671197ae-ba70-5a81-90a5-1ba5e2ad6f76",
+        "source_record_ids": [
+          "671197ae-ba70-5a81-90a5-1ba5e2ad6f76"
+        ],
+        "source_retrieved_at": "2026-04-28T04:13:45Z"
+      }
+    },
+    "page_path": "_threat_actors/apt-c-38.md",
+    "headings": [
+      "Introduction",
+      "Activities and Tactics",
+      "Notable Campaigns",
+      "Tactics, Techniques, and Procedures (TTPs)",
+      "Notable Indicators of Compromise (IOCs)",
+      "Malware and Tools",
+      "Attribution and Evidence",
+      "References"
+    ],
+    "ioc_count": 0,
+    "ioc_types": [
+
+    ],
+    "campaigns": [
+
+    ],
+    "malware_and_tools": [
+      {
+        "actor_name": "军刀狮 - APT-C-38",
+        "actor_slug": "apt-c-38",
+        "actor_url": "/apt-c-38",
+        "actor_permalink": "/apt-c-38/",
+        "category": "General",
+        "name": "DroidJack",
+        "summary": null,
+        "is_software": true,
+        "source_section": "Malware and Tools",
+        "source_file": "_threat_actors/apt-c-38.md"
+      },
+      {
+        "actor_name": "军刀狮 - APT-C-38",
+        "actor_slug": "apt-c-38",
+        "actor_url": "/apt-c-38",
+        "actor_permalink": "/apt-c-38/",
+        "category": "General",
+        "name": "Androrat",
+        "summary": null,
+        "is_software": true,
+        "source_section": "Malware and Tools",
+        "source_file": "_threat_actors/apt-c-38.md"
+      },
+      {
+        "actor_name": "军刀狮 - APT-C-38",
+        "actor_slug": "apt-c-38",
+        "actor_url": "/apt-c-38",
+        "actor_permalink": "/apt-c-38/",
+        "category": "General",
+        "name": "Windows Remote Desktop",
+        "summary": null,
+        "is_software": true,
+        "source_section": "Malware and Tools",
+        "source_file": "_threat_actors/apt-c-38.md"
+      }
+    ],
+    "attack_mappings": {
+      "group_ids": [
+
+      ],
+      "techniques": [
+
+      ]
+    },
+    "references": [
+
+    ],
+    "campaign_count": 0,
+    "malware_count": 3,
+    "reference_count": 0,
+    "attack_mapping_count": 0
+  },
+  {
+    "name": "蓝色魔眼 - APT-C-41",
+    "aliases": [
+      "蓝色魔眼 - APT-C-41"
+    ],
+    "description": "APT-C-41,是一个具有土耳其背景的APT小组，该APT组织最早的攻击活动可以追溯到2012年。该组织主要针对意大利、土耳其、比利时、叙利亚、欧洲等地区和国家进行攻击活动。2020年，360发现了该组织针对我国相关单位的攻击，并将其命名为APT-C-41。",
+    "url": "/apt-c-41",
+    "permalink": "/apt-c-41/",
+    "country": null,
+    "sector_focus": [
+
+    ],
+    "first_seen": null,
+    "last_activity": null,
+    "last_updated": null,
+    "risk_level": null,
+    "source_name": "MISP Galaxy",
+    "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
+    "source_record_url": null,
+    "source_license": null,
+    "source_license_url": null,
+    "provenance": {
+      "misp_galaxy": {
+        "source_cluster": "360net.json",
+        "source_clusters": [
+          "360net.json"
+        ],
+        "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json",
+        "source_record_id": "75122408-5db4-5ac2-a156-88a8f149e738",
+        "source_record_ids": [
+          "75122408-5db4-5ac2-a156-88a8f149e738"
+        ],
+        "source_retrieved_at": "2026-04-28T04:13:45Z"
+      }
+    },
+    "page_path": "_threat_actors/apt-c-41.md",
+    "headings": [
+      "Introduction",
+      "Activities and Tactics",
+      "Notable Campaigns",
+      "Tactics, Techniques, and Procedures (TTPs)",
+      "Notable Indicators of Compromise (IOCs)",
+      "Malware and Tools",
+      "Attribution and Evidence",
+      "References"
+    ],
+    "ioc_count": 0,
+    "ioc_types": [
+
+    ],
+    "campaigns": [
+
+    ],
+    "malware_and_tools": [
+
+    ],
+    "attack_mappings": {
+      "group_ids": [
+
+      ],
+      "techniques": [
+
+      ]
+    },
+    "references": [
+
+    ],
+    "campaign_count": 0,
+    "malware_count": 0,
+    "reference_count": 0,
+    "attack_mapping_count": 0
+  },
+  {
+    "name": "北非狐 - APT-C-44",
+    "aliases": [
+      "北非狐 - APT-C-44"
+    ],
+    "description": "北非狐组织（APT-C-44），是一个来自阿尔及利亚的境外APT组织，该组织已持续活跃了3年。北非狐组织主要针对中东地区进行网络间谍活动，以窃取敏感信息为主。相关攻击活动最早可以追溯到2017年11月，至今仍活跃着。",
+    "url": "/apt-c-44",
+    "permalink": "/apt-c-44/",
+    "country": null,
+    "sector_focus": [
+
+    ],
+    "first_seen": null,
+    "last_activity": null,
+    "last_updated": null,
+    "risk_level": null,
+    "source_name": "MISP Galaxy",
+    "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
+    "source_record_url": null,
+    "source_license": null,
+    "source_license_url": null,
+    "provenance": {
+      "misp_galaxy": {
+        "source_cluster": "360net.json",
+        "source_clusters": [
+          "360net.json"
+        ],
+        "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json",
+        "source_record_id": "367bfb72-da65-5886-a333-389299470722",
+        "source_record_ids": [
+          "367bfb72-da65-5886-a333-389299470722"
+        ],
+        "source_retrieved_at": "2026-04-28T04:13:45Z"
+      }
+    },
+    "page_path": "_threat_actors/apt-c-44.md",
+    "headings": [
+      "Introduction",
+      "Activities and Tactics",
+      "Notable Campaigns",
+      "Tactics, Techniques, and Procedures (TTPs)",
+      "Notable Indicators of Compromise (IOCs)",
+      "Malware and Tools",
+      "Attribution and Evidence",
+      "References"
+    ],
+    "ioc_count": 0,
+    "ioc_types": [
+
+    ],
+    "campaigns": [
+
+    ],
+    "malware_and_tools": [
+
+    ],
+    "attack_mappings": {
+      "group_ids": [
+
+      ],
+      "techniques": [
+
+      ]
+    },
+    "references": [
+
+    ],
+    "campaign_count": 0,
+    "malware_count": 0,
+    "reference_count": 0,
+    "attack_mapping_count": 0
+  },
+  {
+    "name": "卢甘斯克组织 - APT-C-46",
+    "aliases": [
+      "APT-C-46",
+      "卢甘斯克组织 - APT-C-46"
+    ],
+    "description": "2019年初，国外安全厂商披露了一起疑似卢甘斯克背景的APT组织针对乌克兰政府的定向攻击活动，根据相关报告分析该组织的攻击活动至少可以追溯到2014年，曾大量通过网络钓鱼、水坑攻击等方式针对乌克兰政府机构进行攻击，在其过去的攻击活动中曾使用过开源Quasar RAT和VERMIN等恶意软件，捕获目标的音频和视频，窃取密码，获取机密文件等等。",
+    "url": "/apt-c-46",
+    "permalink": "/apt-c-46/",
+    "country": null,
+    "sector_focus": [
+
+    ],
+    "first_seen": null,
+    "last_activity": null,
+    "last_updated": null,
+    "risk_level": null,
+    "source_name": "MISP Galaxy",
+    "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
+    "source_record_url": null,
+    "source_license": null,
+    "source_license_url": null,
+    "provenance": {
+      "misp_galaxy": {
+        "source_cluster": "360net.json",
+        "source_clusters": [
+          "360net.json"
+        ],
+        "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json",
+        "source_record_id": "a97037e7-7c3b-5cc2-ab4c-bd0432bc247a",
+        "source_record_ids": [
+          "a97037e7-7c3b-5cc2-ab4c-bd0432bc247a"
+        ],
+        "source_retrieved_at": "2026-04-28T04:13:45Z"
+      }
+    },
+    "page_path": "_threat_actors/apt-c-46.md",
+    "headings": [
+      "Introduction",
+      "Activities and Tactics",
+      "Notable Campaigns",
+      "Tactics, Techniques, and Procedures (TTPs)",
+      "Notable Indicators of Compromise (IOCs)",
+      "Malware and Tools",
+      "Attribution and Evidence",
+      "References"
+    ],
+    "ioc_count": 0,
+    "ioc_types": [
+
+    ],
+    "campaigns": [
+
+    ],
+    "malware_and_tools": [
+      {
+        "actor_name": "卢甘斯克组织 - APT-C-46",
+        "actor_slug": "apt-c-46",
+        "actor_url": "/apt-c-46",
+        "actor_permalink": "/apt-c-46/",
+        "category": "General",
+        "name": "Quasar RAT",
+        "summary": null,
+        "is_software": true,
+        "source_section": "Malware and Tools",
+        "source_file": "_threat_actors/apt-c-46.md"
+      }
+    ],
+    "attack_mappings": {
+      "group_ids": [
+
+      ],
+      "techniques": [
+
+      ]
+    },
+    "references": [
+
+    ],
+    "campaign_count": 0,
+    "malware_count": 1,
+    "reference_count": 0,
+    "attack_mapping_count": 0
+  },
+  {
     "name": "APT-C-60",
     "aliases": [
       "APT-Q-12",
@@ -3429,6 +4257,78 @@
       }
     },
     "page_path": "_threat_actors/apt-c-60.md",
+    "headings": [
+      "Introduction",
+      "Activities and Tactics",
+      "Notable Campaigns",
+      "Tactics, Techniques, and Procedures (TTPs)",
+      "Notable Indicators of Compromise (IOCs)",
+      "Malware and Tools",
+      "Attribution and Evidence",
+      "References"
+    ],
+    "ioc_count": 0,
+    "ioc_types": [
+
+    ],
+    "campaigns": [
+
+    ],
+    "malware_and_tools": [
+
+    ],
+    "attack_mappings": {
+      "group_ids": [
+
+      ],
+      "techniques": [
+
+      ]
+    },
+    "references": [
+
+    ],
+    "campaign_count": 0,
+    "malware_count": 0,
+    "reference_count": 0,
+    "attack_mapping_count": 0
+  },
+  {
+    "name": "腾云蛇 - APT-C-61",
+    "aliases": [
+      "腾云蛇 - APT-C-61"
+    ],
+    "description": "APT-C-61又名腾云蛇，最早活跃可追溯到2020年1月，至今还很活跃，主要攻击目标为巴基斯坦、孟加拉等国家的国家机构、军工、科研、国防等重要领域，攻击时通过鱼叉邮件配合社会工程学手段进行渗透，向目标设备传播恶意程序，暗中控制目标设备，持续窃取设备上的敏感文件。因其使用的C2、载荷下发、窃取的数据存储等均依赖于云服务，且使用的木马为python语言编写而得名。",
+    "url": "/apt-c-61",
+    "permalink": "/apt-c-61/",
+    "country": null,
+    "sector_focus": [
+
+    ],
+    "first_seen": null,
+    "last_activity": null,
+    "last_updated": null,
+    "risk_level": null,
+    "source_name": "MISP Galaxy",
+    "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
+    "source_record_url": null,
+    "source_license": null,
+    "source_license_url": null,
+    "provenance": {
+      "misp_galaxy": {
+        "source_cluster": "360net.json",
+        "source_clusters": [
+          "360net.json"
+        ],
+        "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json",
+        "source_record_id": "724da0c4-ca9e-54be-a15c-8204472d8c99",
+        "source_record_ids": [
+          "724da0c4-ca9e-54be-a15c-8204472d8c99"
+        ],
+        "source_retrieved_at": "2026-04-28T04:13:45Z"
+      }
+    },
+    "page_path": "_threat_actors/apt-c-61.md",
     "headings": [
       "Introduction",
       "Activities and Tactics",
@@ -34421,6 +35321,90 @@
     "attack_mapping_count": 0
   },
   {
+    "name": "Crescent Typhoon",
+    "aliases": [
+      "CESIUM",
+      "Crescent Typhoon"
+    ],
+    "description": "Microsoft threat actor profile. Origin/Threat: China.",
+    "url": "/crescent-typhoon",
+    "permalink": "/crescent-typhoon/",
+    "country": "China",
+    "sector_focus": [
+
+    ],
+    "first_seen": null,
+    "last_activity": null,
+    "last_updated": null,
+    "risk_level": null,
+    "source_name": "MISP Galaxy",
+    "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
+    "source_record_url": null,
+    "source_license": null,
+    "source_license_url": null,
+    "provenance": {
+      "misp_galaxy": {
+        "source_cluster": "microsoft-activity-group.json",
+        "source_clusters": [
+          "microsoft-activity-group.json"
+        ],
+        "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json",
+        "source_record_id": "f0321b6d-ba72-556c-b2eb-df47e188ad5c",
+        "source_record_ids": [
+          "f0321b6d-ba72-556c-b2eb-df47e188ad5c"
+        ],
+        "source_retrieved_at": "2026-04-28T04:30:12Z"
+      }
+    },
+    "page_path": "_threat_actors/crescent-typhoon.md",
+    "headings": [
+      "Introduction",
+      "Activities and Tactics",
+      "Notable Campaigns",
+      "Tactics, Techniques, and Procedures (TTPs)",
+      "Notable Indicators of Compromise (IOCs)",
+      "Malware and Tools",
+      "Attribution and Evidence",
+      "References"
+    ],
+    "ioc_count": 0,
+    "ioc_types": [
+
+    ],
+    "campaigns": [
+
+    ],
+    "malware_and_tools": [
+      {
+        "actor_name": "Crescent Typhoon",
+        "actor_slug": "crescent-typhoon",
+        "actor_url": "/crescent-typhoon",
+        "actor_permalink": "/crescent-typhoon/",
+        "category": "General",
+        "name": "China Chopper",
+        "summary": null,
+        "is_software": true,
+        "source_section": "Malware and Tools",
+        "source_file": "_threat_actors/crescent-typhoon.md"
+      }
+    ],
+    "attack_mappings": {
+      "group_ids": [
+
+      ],
+      "techniques": [
+
+      ]
+    },
+    "references": [
+
+    ],
+    "campaign_count": 0,
+    "malware_count": 1,
+    "reference_count": 0,
+    "attack_mapping_count": 0
+  },
+  {
     "name": "Crimson Collective",
     "aliases": [
       "Crimson Collective"
@@ -52572,6 +53556,93 @@
     "attack_mapping_count": 0
   },
   {
+    "name": "Houndstooth Typhoon",
+    "aliases": [
+      "HASSIUM",
+      "DRAGNET PANDA",
+      "isoon",
+      "deepclif",
+      "Houndstooth Typhoon"
+    ],
+    "description": "Microsoft threat actor profile. Origin/Threat: China.",
+    "url": "/houndstooth-typhoon",
+    "permalink": "/houndstooth-typhoon/",
+    "country": "China",
+    "sector_focus": [
+
+    ],
+    "first_seen": null,
+    "last_activity": null,
+    "last_updated": null,
+    "risk_level": null,
+    "source_name": "MISP Galaxy",
+    "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
+    "source_record_url": null,
+    "source_license": null,
+    "source_license_url": null,
+    "provenance": {
+      "misp_galaxy": {
+        "source_cluster": "microsoft-activity-group.json",
+        "source_clusters": [
+          "microsoft-activity-group.json"
+        ],
+        "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json",
+        "source_record_id": "7f875c7f-8209-5faa-877e-c0b5708d1a70",
+        "source_record_ids": [
+          "7f875c7f-8209-5faa-877e-c0b5708d1a70"
+        ],
+        "source_retrieved_at": "2026-04-28T04:30:12Z"
+      }
+    },
+    "page_path": "_threat_actors/houndstooth-typhoon.md",
+    "headings": [
+      "Introduction",
+      "Activities and Tactics",
+      "Notable Campaigns",
+      "Tactics, Techniques, and Procedures (TTPs)",
+      "Notable Indicators of Compromise (IOCs)",
+      "Malware and Tools",
+      "Attribution and Evidence",
+      "References"
+    ],
+    "ioc_count": 0,
+    "ioc_types": [
+
+    ],
+    "campaigns": [
+
+    ],
+    "malware_and_tools": [
+      {
+        "actor_name": "Houndstooth Typhoon",
+        "actor_slug": "houndstooth-typhoon",
+        "actor_url": "/houndstooth-typhoon",
+        "actor_permalink": "/houndstooth-typhoon/",
+        "category": "General",
+        "name": "China Chopper",
+        "summary": null,
+        "is_software": true,
+        "source_section": "Malware and Tools",
+        "source_file": "_threat_actors/houndstooth-typhoon.md"
+      }
+    ],
+    "attack_mappings": {
+      "group_ids": [
+
+      ],
+      "techniques": [
+
+      ]
+    },
+    "references": [
+
+    ],
+    "campaign_count": 0,
+    "malware_count": 1,
+    "reference_count": 0,
+    "attack_mapping_count": 0
+  },
+  {
     "name": "HummingBad",
     "aliases": [
       "HummingBad"
@@ -62736,6 +63807,80 @@
       }
     },
     "page_path": "_threat_actors/night-dragon.md",
+    "headings": [
+      "Introduction",
+      "Activities and Tactics",
+      "Notable Campaigns",
+      "Tactics, Techniques, and Procedures (TTPs)",
+      "Notable Indicators of Compromise (IOCs)",
+      "Malware and Tools",
+      "Attribution and Evidence",
+      "References"
+    ],
+    "ioc_count": 0,
+    "ioc_types": [
+
+    ],
+    "campaigns": [
+
+    ],
+    "malware_and_tools": [
+
+    ],
+    "attack_mappings": {
+      "group_ids": [
+
+      ],
+      "techniques": [
+
+      ]
+    },
+    "references": [
+
+    ],
+    "campaign_count": 0,
+    "malware_count": 0,
+    "reference_count": 0,
+    "attack_mapping_count": 0
+  },
+  {
+    "name": "Night Tsunami",
+    "aliases": [
+      "DEV-0336",
+      "NSO Group",
+      "Night Tsunami"
+    ],
+    "description": "Microsoft threat actor profile. Origin/Threat: Israel.",
+    "url": "/night-tsunami",
+    "permalink": "/night-tsunami/",
+    "country": "Israel",
+    "sector_focus": [
+
+    ],
+    "first_seen": null,
+    "last_activity": null,
+    "last_updated": null,
+    "risk_level": null,
+    "source_name": "MISP Galaxy",
+    "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
+    "source_record_url": null,
+    "source_license": null,
+    "source_license_url": null,
+    "provenance": {
+      "misp_galaxy": {
+        "source_cluster": "microsoft-activity-group.json",
+        "source_clusters": [
+          "microsoft-activity-group.json"
+        ],
+        "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json",
+        "source_record_id": "af54315b-3561-5046-8b9b-c3e9e05c0f77",
+        "source_record_ids": [
+          "af54315b-3561-5046-8b9b-c3e9e05c0f77"
+        ],
+        "source_retrieved_at": "2026-04-28T04:30:12Z"
+      }
+    },
+    "page_path": "_threat_actors/night-tsunami.md",
     "headings": [
       "Introduction",
       "Activities and Tactics",
@@ -92578,6 +93723,91 @@
     "attack_mapping_count": 0
   },
   {
+    "name": "Tumbleweed Typhoon",
+    "aliases": [
+      "THORIUM",
+      "Karst",
+      "Tumbleweed Typhoon"
+    ],
+    "description": "Microsoft threat actor profile. Origin/Threat: China.",
+    "url": "/tumbleweed-typhoon",
+    "permalink": "/tumbleweed-typhoon/",
+    "country": "China",
+    "sector_focus": [
+
+    ],
+    "first_seen": null,
+    "last_activity": null,
+    "last_updated": null,
+    "risk_level": null,
+    "source_name": "MISP Galaxy",
+    "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
+    "source_record_url": null,
+    "source_license": null,
+    "source_license_url": null,
+    "provenance": {
+      "misp_galaxy": {
+        "source_cluster": "microsoft-activity-group.json",
+        "source_clusters": [
+          "microsoft-activity-group.json"
+        ],
+        "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json",
+        "source_record_id": "c58445b5-0c8c-5844-83ef-5c3a7176f0e1",
+        "source_record_ids": [
+          "c58445b5-0c8c-5844-83ef-5c3a7176f0e1"
+        ],
+        "source_retrieved_at": "2026-04-28T04:30:12Z"
+      }
+    },
+    "page_path": "_threat_actors/tumbleweed-typhoon.md",
+    "headings": [
+      "Introduction",
+      "Activities and Tactics",
+      "Notable Campaigns",
+      "Tactics, Techniques, and Procedures (TTPs)",
+      "Notable Indicators of Compromise (IOCs)",
+      "Malware and Tools",
+      "Attribution and Evidence",
+      "References"
+    ],
+    "ioc_count": 0,
+    "ioc_types": [
+
+    ],
+    "campaigns": [
+
+    ],
+    "malware_and_tools": [
+      {
+        "actor_name": "Tumbleweed Typhoon",
+        "actor_slug": "tumbleweed-typhoon",
+        "actor_url": "/tumbleweed-typhoon",
+        "actor_permalink": "/tumbleweed-typhoon/",
+        "category": "General",
+        "name": "China Chopper",
+        "summary": null,
+        "is_software": true,
+        "source_section": "Malware and Tools",
+        "source_file": "_threat_actors/tumbleweed-typhoon.md"
+      }
+    ],
+    "attack_mappings": {
+      "group_ids": [
+
+      ],
+      "techniques": [
+
+      ]
+    },
+    "references": [
+
+    ],
+    "campaign_count": 0,
+    "malware_count": 1,
+    "reference_count": 0,
+    "attack_mapping_count": 0
+  },
+  {
     "name": "TunnelSnake",
     "aliases": [
       "TunnelSnake"
@@ -105270,6 +106500,80 @@
     "attack_mapping_count": 0
   },
   {
+    "name": "Volga Flood",
+    "aliases": [
+      "Storm-1841",
+      "Rybar",
+      "Volga Flood"
+    ],
+    "description": "Microsoft threat actor profile. Origin/Threat: Russia, Influence operations.",
+    "url": "/volga-flood",
+    "permalink": "/volga-flood/",
+    "country": "Russia",
+    "sector_focus": [
+
+    ],
+    "first_seen": null,
+    "last_activity": null,
+    "last_updated": null,
+    "risk_level": null,
+    "source_name": "MISP Galaxy",
+    "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
+    "source_record_url": null,
+    "source_license": null,
+    "source_license_url": null,
+    "provenance": {
+      "misp_galaxy": {
+        "source_cluster": "microsoft-activity-group.json",
+        "source_clusters": [
+          "microsoft-activity-group.json"
+        ],
+        "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json",
+        "source_record_id": "5efac1a3-ede6-53d5-88d5-6c650df36cab",
+        "source_record_ids": [
+          "5efac1a3-ede6-53d5-88d5-6c650df36cab"
+        ],
+        "source_retrieved_at": "2026-04-28T04:30:12Z"
+      }
+    },
+    "page_path": "_threat_actors/volga-flood.md",
+    "headings": [
+      "Introduction",
+      "Activities and Tactics",
+      "Notable Campaigns",
+      "Tactics, Techniques, and Procedures (TTPs)",
+      "Notable Indicators of Compromise (IOCs)",
+      "Malware and Tools",
+      "Attribution and Evidence",
+      "References"
+    ],
+    "ioc_count": 0,
+    "ioc_types": [
+
+    ],
+    "campaigns": [
+
+    ],
+    "malware_and_tools": [
+
+    ],
+    "attack_mappings": {
+      "group_ids": [
+
+      ],
+      "techniques": [
+
+      ]
+    },
+    "references": [
+
+    ],
+    "campaign_count": 0,
+    "malware_count": 0,
+    "reference_count": 0,
+    "attack_mapping_count": 0
+  },
+  {
     "name": "VulzSecTeam",
     "aliases": [
       "VulzSec",
@@ -107646,6 +108950,92 @@
     ],
     "campaign_count": 0,
     "malware_count": 0,
+    "reference_count": 0,
+    "attack_mapping_count": 0
+  },
+  {
+    "name": "Wisteria Tsunami",
+    "aliases": [
+      "DEV-0605",
+      "CyberRoot",
+      "MintedSoil",
+      "Wisteria Tsunami"
+    ],
+    "description": "Microsoft threat actor profile. Origin/Threat: India, Private sector offensive actor.",
+    "url": "/wisteria-tsunami",
+    "permalink": "/wisteria-tsunami/",
+    "country": null,
+    "sector_focus": [
+
+    ],
+    "first_seen": null,
+    "last_activity": null,
+    "last_updated": null,
+    "risk_level": null,
+    "source_name": "MISP Galaxy",
+    "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
+    "source_record_url": null,
+    "source_license": null,
+    "source_license_url": null,
+    "provenance": {
+      "misp_galaxy": {
+        "source_cluster": "microsoft-activity-group.json",
+        "source_clusters": [
+          "microsoft-activity-group.json"
+        ],
+        "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json",
+        "source_record_id": "2263b6c9-861a-5971-b882-9ea4a84fcf74",
+        "source_record_ids": [
+          "2263b6c9-861a-5971-b882-9ea4a84fcf74"
+        ],
+        "source_retrieved_at": "2026-04-28T04:30:12Z"
+      }
+    },
+    "page_path": "_threat_actors/wisteria-tsunami.md",
+    "headings": [
+      "Introduction",
+      "Activities and Tactics",
+      "Notable Campaigns",
+      "Tactics, Techniques, and Procedures (TTPs)",
+      "Notable Indicators of Compromise (IOCs)",
+      "Malware and Tools",
+      "Attribution and Evidence",
+      "References"
+    ],
+    "ioc_count": 0,
+    "ioc_types": [
+
+    ],
+    "campaigns": [
+
+    ],
+    "malware_and_tools": [
+      {
+        "actor_name": "Wisteria Tsunami",
+        "actor_slug": "wisteria-tsunami",
+        "actor_url": "/wisteria-tsunami",
+        "actor_permalink": "/wisteria-tsunami/",
+        "category": "General",
+        "name": "Offence",
+        "summary": null,
+        "is_software": true,
+        "source_section": "Malware and Tools",
+        "source_file": "_threat_actors/wisteria-tsunami.md"
+      }
+    ],
+    "attack_mappings": {
+      "group_ids": [
+
+      ],
+      "techniques": [
+
+      ]
+    },
+    "references": [
+
+    ],
+    "campaign_count": 0,
+    "malware_count": 1,
     "reference_count": 0,
     "attack_mapping_count": 0
   },

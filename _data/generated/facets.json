@@ -150,19 +150,19 @@
 
   ],
   "counts": {
-    "threat_actors": 1062,
+    "threat_actors": 1079,
     "iocs": 0
   },
   "country_counts": {
-    "China": 198,
-    "Russia": 78,
+    "China": 201,
+    "Russia": 79,
     "Iran": 59,
     "North Korea": 24,
     "Unknown": 13,
     "Turkey": 7,
     "Vietnam": 6,
     "Ukraine": 6,
-    "Israel": 5,
+    "Israel": 6,
     "India": 5
   },
   "risk_counts": {
@@ -188,7 +188,7 @@
     "Cyber Eye RAT": 226,
     "Xploit": 187,
     "Backdoor.Oldrea": 104,
-    "China Chopper": 92,
+    "China Chopper": 95,
     "Archelaus Beta": 71,
     "RemoteCMD": 70,
     "Remote Utilities": 67,

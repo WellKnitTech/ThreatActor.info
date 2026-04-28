@@ -44,7 +44,3 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 [1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0096)
    MITRE ATT&CK entry
 
-
-[2] [BushidoToken Breach Report Collection - Avast/CCleaner breach report (September 2016) via blog.avast,com](https://blog.avast.com/update-ccleaner-attackers-entered-via-teamviewer)
-   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: WickedPanda (CN APT).
-

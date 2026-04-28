@@ -7,29 +7,26 @@ permalink: /wisteria-tsunami/
 ---
 
 ## Introduction
-
 Microsoft threat actor profile. Origin/Threat: India, Private sector offensive actor.
 
 ## Activities and Tactics
-
-Details about this threat actor's activities and tactics would go here.
+*Information pending cataloguing.*
 
 ## Notable Campaigns
-
-Notable campaigns attributed to this actor.
+*Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
+*Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
+- **Offence**
 
 ## Attribution and Evidence
-
-**Source:** This information is derived from MISP Galaxy, available under Apache 2.0 / CC0.
+*Information pending cataloguing.*
 
 ## References
+*References pending cataloguing.*
 
-
-- https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide
-- https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json

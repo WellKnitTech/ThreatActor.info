@@ -7,29 +7,28 @@ permalink: /apt-c-37/
 ---
 
 ## Introduction
-
 拍拍熊组织（APT-C-37）针对极端组织“伊斯兰国”展开了有组织、有计划、针对性的长期不间断攻击，其攻击平台为Windows和Android。
 
 ## Activities and Tactics
-
-Details about this threat actor's activities and tactics would go here.
+*Information pending cataloguing.*
 
 ## Notable Campaigns
-
-Notable campaigns attributed to this actor.
+*Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
+*Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
+- **DroidJack**
+- **Androrat**
+- **Windows Remote Desktop**
 
 ## Attribution and Evidence
-
-**Source:** This information is derived from MISP Galaxy, available under Apache 2.0 / CC0.
+*Information pending cataloguing.*
 
 ## References
+*References pending cataloguing.*
 
-
-- https://apt.360.net/report/apts/28.html
-- https://apt.360.net/report/apts/103.html

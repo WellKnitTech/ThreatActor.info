@@ -7,29 +7,31 @@ permalink: /night-tsunami/
 ---
 
 ## Introduction
-
 Microsoft threat actor profile. Origin/Threat: Israel.
 
 ## Activities and Tactics
+**Country of Origin**: 🇮🇱 Israel
 
-Details about this threat actor's activities and tactics would go here.
+
+
+
 
 ## Notable Campaigns
-
-Notable campaigns attributed to this actor.
+*Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
+*Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
+*Information pending cataloguing.*
 
 ## Attribution and Evidence
-
-**Source:** This information is derived from MISP Galaxy, available under Apache 2.0 / CC0.
+**Country of Origin**: Israel
+*Additional attribution information pending cataloguing.*
 
 ## References
+*References pending cataloguing.*
 
-
-- https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide
-- https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json

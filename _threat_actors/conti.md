@@ -84,33 +84,33 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 | CVE-2022-37055 | D-Link | Routers | 2025-12-08 |
 | CVE-2022-48503 | Apple | Multiple Products | 2025-10-20 |
 | CVE-2010-3962 | Microsoft | Internet Explorer | 2025-10-06 |
-| CVE-2013-3918 | Microsoft | Internet Explorer | 2025-10-06 |
-| CVE-2025-5419 | Google | Chromium V8 Engine | 2025-08-18 |
-| CVE-2025-4123 | Google | Chromium V8 Engine | 2025-08-18 |
-| CVE-2019-5086 | Sierra Wireless | ALEOS | 2025-08-11 |
-| CVE-2019-5087 | Sierra Wireless | ALEOS | 2025-08-11 |
-| CVE-2019-5069 | Sierra Wireless | ALEOS | 2025-08-11 |
-| CVE-2021-28711 | Xen | Hypervisor | 2025-08-04 |
-| CVE-2021-28712 | Xen | Hypervisor | 2025-08-04 |
-| CVE-2012-0151 | Microsoft | Authenticode Signature Verification | 2025-07-28 |
-| CVE-2025-24983 | Microsoft | Windows | 2025-07-21 |
-| CVE-2025-49706 | Microsoft | SharePoint Server | 2025-07-20 |
-| CVE-2024-40766 | SonicWall | SonicOS | 2024-09-09 |
-| CVE-2024-37085 | VMware | ESXi | 2024-07-30 |
-| CVE-2024-4577 | PHP Group | PHP | 2024-06-12 |
-| CVE-2022-29303 | SolarView | Compact | 2024-05-30 |
-| CVE-2024-1708 | ConnectWise | ScreenConnect | 2024-02-22 |
-| CVE-2024-1709 | ConnectWise | ScreenConnect | 2024-02-22 |
-| CVE-2023-27997 | Fortinet | FortiOS | 2023-06-12 |
-| CVE-2023-27350 | PaperCut | MF/NG | 2023-05-12 |
-| CVE-2023-27351 | PaperCut | MF/NG | 2023-05-12 |
-| CVE-2023-26083 | Arm | Mali GPU Kernel Driver | 2023-04-07 |
-| CVE-2023-26084 | Arm | Mali GPU Kernel Driver | 2023-04-07 |
-| CVE-2022-47966 | Zoho | ManageEngine Multiple Products | 2023-01-23 |
-| CVE-2022-27518 | Citrix | ADC and Gateway | 2022-12-13 |
-| CVE-2022-22965 | VMware | Spring Framework | 2022-04-04 |
-| CVE-2019-11510 | Ivanti | Pulse Connect Secure | 2021-11-03 |
-| CVE-2019-19781 | Citrix | Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance | 2021-11-03 |
-| CVE-2021-22986 | F5 | BIG-IP and BIG-IQ Centralized Management | 2021-11-03 |
-| CVE-2021-34523 | Microsoft | Exchange Server | 2021-11-03 |
+| CVE-2013-3918 | Microsoft | Windows | 2025-10-06 |
+| CVE-2023-50224 | TP-Link | TL-WR841N | 2025-09-03 |
+| CVE-2025-9377 | TP-Link | Multiple Routers | 2025-09-03 |
+| CVE-2020-24363 | TP-Link | TL-WA855RE | 2025-09-02 |
+| CVE-2013-3893 | Microsoft | Internet Explorer | 2025-08-12 |
+| CVE-2020-25078 | D-Link | DCS-2530L and DCS-2670L Devices | 2025-08-05 |
+| CVE-2020-25079 | D-Link | DCS-2530L and DCS-2670L Devices | 2025-08-05 |
+| CVE-2022-40799 | D-Link | DNR-322L | 2025-08-05 |
+| CVE-2023-33538 | TP-Link | Multiple Routers | 2025-06-16 |
+| CVE-2021-32030 | ASUS | Routers | 2025-06-02 |
+| CVE-2024-11120 | GeoVision | Multiple Devices | 2025-05-07 |
+| CVE-2024-6047 | GeoVision | Multiple Devices | 2025-05-07 |
+| CVE-2025-1316 | Edimax | IC-7100 IP Camera | 2025-03-19 |
+| CVE-2018-13374 | Fortinet | FortiOS and FortiADC | 2022-09-08 |
+| CVE-2019-1322 | Microsoft | Windows | 2022-03-15 |
+| CVE-2020-0796 | Microsoft | SMBv3 | 2022-02-10 |
+| CVE-2018-13379 | Fortinet | FortiOS | 2021-11-03 |
+| CVE-2020-0688 | Microsoft | Exchange Server | 2021-11-03 |
+| CVE-2021-1732 | Microsoft | Win32k | 2021-11-03 |
+| CVE-2021-34527 | Microsoft | Windows | 2021-11-03 |
+| CVE-2020-1472 | Microsoft | Netlogon | 2021-11-03 |
+| CVE-2021-26855 | Microsoft | Exchange Server | 2021-11-03 |
+| CVE-2021-26858 | Microsoft | Exchange Server | 2021-11-03 |
+| CVE-2021-27065 | Microsoft | Exchange Server | 2021-11-03 |
+| CVE-2021-1675 | Microsoft | Windows | 2021-11-03 |
+| CVE-2021-26857 | Microsoft | Exchange Server | 2021-11-03 |
+| CVE-2021-22005 | VMware | vCenter Server | 2021-11-03 |
+| CVE-2021-21972 | VMware | vCenter Server | 2021-11-03 |
+| CVE-2021-21985 | VMware | vCenter Server | 2021-11-03 |
 
