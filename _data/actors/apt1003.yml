@@ -2,6 +2,7 @@ name: "Ember Bear"
 aliases: ["Ember Bear","UNC2589","Bleeding Bear","DEV-0586","Cadet Blizzard","Frozenvista","UAC-0056"]
 description: "Ember Bear is a Russian state-sponsored cyber espionage group that has been active since at least 2020, linked to Russia's General Staff Main Intelligence Directorate (GRU) 161st Specialist Training Center (Unit 29155).(Citation: CISA GRU29155 2024) Ember Bear has primarily focused operations against Ukrainian government and telecommunication entities, but has also operated against critical infrastructure entities in Europe and the Americas.(Citation: Cadet Blizzard emerges as novel threat actor) Ember Bear conducted the WhisperGate destructive wiper attacks against Ukraine in early 2022.(Citation: CrowdStrike Ember Bear Profile March 2022)(Citation: Mandiant UNC2589 March 2022)(Citation: CISA GRU29155 2024) There is some confusion as to whether Ember Bear overlaps with another Russian-linked entity referred to as Saint Bear. At present available evidence strongly suggests these are distinct activities with different behavioral profiles.(Citation: Cadet Blizzard emerges as novel threat actor)(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )"
 url: "/apt1003"
+last_updated: "2026-04-28"
 external_id: "G1003"
 external_url: "https://attack.mitre.org/groups/G1003"
 mitre_id: "G1003"
@@ -12,4 +13,22 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1003"
     source_retrieved_at: "2026-04-26T05:01:37Z"
+  russian_apt_tool_matrix:
+    references:
+      - title: "www.cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-249a"
+        date: "5 September 2024"
+        source_file: "GroupProfiles/EMBERBEAR.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/EMBERBEAR.md","Other/ThreatIntelligence.md","Tools/Discovery.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md"]
+    source_label: "EMBER BEAR"
+    source_repository: "https://github.com/BushidoUK/Russian-APT-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T02:07:35Z"
+    tools_by_category:
+      Discovery: ["Acunetix","Adminer","Amass","Bloodhound","Droopescan","JoomScan","LdapDomainDump","Masscan","Nmap","WPScan"]
+      Exfiltration: ["MEGA","Rclone"]
+      LOLBAS: ["PsExec"]
+      Networking: ["GOST","Iodine","ProxyChains","ReGeorg","dnscat2"]
+      OffSec: ["CrackMapExec","Impacket","LinPEAS","Metasploit","Meterpreter","NetCat","PAS Web Shell","Responder","WSO Web Shell"]
 source: "MITRE ATT&CK"

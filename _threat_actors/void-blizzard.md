@@ -30,6 +30,12 @@ Void Blizzard’s cyberespionage operations tend to be highly targeted at specif
 - **Cyber Eye RAT**
 - **Blizzard**
 
+### Russian APT Tool Matrix observations
+| Category | Observed tools |
+|---|---|
+| Discovery | AzureHound |
+| OffSec | EvilGinx |
+
 ## Attribution and Evidence
 **Country of Origin**: Russia
 *Additional attribution information pending cataloguing.*

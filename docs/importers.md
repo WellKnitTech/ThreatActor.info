@@ -141,6 +141,62 @@ The importer preserves source attribution using the pattern:
 
 `Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.`
 
+## Russian APT Tool Matrix Importer
+
+`scripts/import-russian-apt-tool-matrix.rb` enriches existing Russian APT actors with reviewed tool observations from the BushidoUK Russian APT Tool Matrix.
+
+Source: https://github.com/BushidoUK/Russian-APT-Tool-Matrix
+
+### Why this importer is conservative
+
+- The matrix is a secondary tradecraft reference, not canonical actor identity data.
+- Imports only update existing actors; they do not create new actors.
+- Tools are stored in provenance and rendered as grouped observations on actor pages, not as volatile IOCs.
+- Compound labels and alias collisions require reviewed mappings before import.
+
+Reviewed mappings live in `data/imports/russian-apt-tool-matrix/mapping_overrides.yml`.
+
+### Commands
+
+Fetch a snapshot:
+
+```bash
+ruby scripts/import-russian-apt-tool-matrix.rb fetch --output data/imports/russian-apt-tool-matrix/2026-04-28
+```
+
+Preview reviewed matches:
+
+```bash
+ruby scripts/import-russian-apt-tool-matrix.rb plan --snapshot data/imports/russian-apt-tool-matrix/2026-04-28
+```
+
+Apply the enrichment:
+
+```bash
+ruby scripts/import-russian-apt-tool-matrix.rb import --snapshot data/imports/russian-apt-tool-matrix/2026-04-28
+```
+
+Write a machine-readable review report:
+
+```bash
+ruby scripts/import-russian-apt-tool-matrix.rb plan --snapshot data/imports/russian-apt-tool-matrix/2026-04-28 --report-json tmp/russian-apt-tool-matrix-report.json
+```
+
+### Field mapping
+
+| Matrix Field | Our Schema Field | Notes |
+|--------------|------------------|-------|
+| Tool category tables | `provenance.russian_apt_tool_matrix.tools_by_category` | Stable grouped tool observations by actor |
+| Group profile tool tables | `provenance.russian_apt_tool_matrix.tools_by_category` | Merged with category table observations |
+| Group profile sources / ThreatIntelligence report links | `provenance.russian_apt_tool_matrix.references` | Supporting report links for analyst review |
+| Compound actor labels | `match_overrides` entries | Fan out reviewed references to each existing actor when appropriate |
+
+### Attribution
+
+The importer preserves source attribution using the pattern:
+
+`Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence.`
+
 ## Commands
 
 Fetch a public snapshot:

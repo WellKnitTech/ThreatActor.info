@@ -2,6 +2,7 @@ name: "Dragonfly"
 aliases: ["Berserk Bear","BROMINE","Crouching Yeti","Dragonfly","DYMALLOY","Energetic Bear","Ghost Blizzard","IRON LIBERTY","TEMP.Isotope","TG-4192"]
 description: "Dragonfly is a cyber espionage group that has been attributed to Russia's Federal Security Service (FSB) Center 16.(Citation: DOJ Russia Targeting Critical Infrastructure March 2022)(Citation: UK GOV FSB Factsheet April 2022) Active since at least 2010, Dragonfly has targeted defense and aviation companies, government entities, companies related to industrial control systems, and critical infrastructure sectors worldwide through supply chain, spearphishing, and drive-by compromise attacks.(Citation: Symantec Dragonfly)(Citation: Secureworks IRON LIBERTY July 2019)(Citation: Symantec Dragonfly Sept 2017)(Citation: Fortune Dragonfly 2.0 Sept 2017)(Citation: Gigamon Berserk Bear October 2021)(Citation: CISA AA20-296A Berserk Bear December 2020)(Citation: Symantec Dragonfly 2.0 October 2017)"
 url: "/apt0035"
+last_updated: "2026-04-28"
 external_id: "G0035"
 external_url: "https://attack.mitre.org/groups/G0035"
 mitre_id: "G0035"
@@ -12,4 +13,35 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0035"
     source_retrieved_at: "2026-04-26T05:24:31Z"
+  russian_apt_tool_matrix:
+    references:
+      - title: "www.cisa.gov"
+        url: "https://www.cisa.gov/news-events/alerts/2018/03/15/russian-government-cyber-activity-targeting-energy-and-other-critical-infrastructure-sectors"
+        date: "16 March 2018"
+        source_file: "GroupProfiles/BERSERKBEAR.md"
+      - title: "symantec-enterprise-blogs.security.com"
+        url: "https://symantec-enterprise-blogs.security.com/threat-intelligence/dragonfly-energy-sector-cyber-attacks"
+        date: "20 October 2017"
+        source_file: "GroupProfiles/BERSERKBEAR.md"
+      - title: "www.secureworks.com"
+        url: "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+        date: "24 July 2019"
+        source_file: "GroupProfiles/BERSERKBEAR.md"
+      - title: "www.gov.uk"
+        url: "https://www.gov.uk/government/news/uk-exposes-russian-spy-agency-behind-cyber-incidents"
+        date: "24 March 2022"
+        source_file: "GroupProfiles/BERSERKBEAR.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/BERSERKBEAR.md","Other/ThreatIntelligence.md","Tools/CredentialTheft.md","Tools/Discovery.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
+    source_label: "BERSERK BEAR"
+    source_repository: "https://github.com/BushidoUK/Russian-APT-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T02:07:35Z"
+    tools_by_category:
+      Credential Theft: ["Mimikatz","ProcDump"]
+      Discovery: ["Angry IP Scanner"]
+      LOLBAS: ["BITSAdmin","PsExec"]
+      Networking: ["FortiClient"]
+      OffSec: ["CrackMapExec","Hydra","Impacket","Phishery"]
+      RMM Tools: ["TeamViewer"]
 source: "MITRE ATT&CK"
