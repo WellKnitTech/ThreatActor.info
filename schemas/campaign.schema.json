@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://threatactor.info/schemas/campaign.schema.json",
+  "title": "Generated MITRE campaign page (front matter subset)",
+  "type": "object",
+  "required": ["layout", "title", "mitre_id", "permalink"],
+  "properties": {
+    "layout": { "const": "campaign" },
+    "title": { "type": "string" },
+    "mitre_id": { "type": "string", "pattern": "^C\\d{4}$" },
+    "permalink": { "type": "string" },
+    "mitre_url": { "type": "string" },
+    "domains": { "type": "array", "items": { "type": "string" } }
+  }
+}

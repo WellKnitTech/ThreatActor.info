@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://threatactor.info/schemas/technique.schema.json",
+  "title": "Generated MITRE technique page (front matter subset)",
+  "type": "object",
+  "required": ["layout", "title", "mitre_id", "permalink"],
+  "properties": {
+    "layout": { "const": "technique" },
+    "title": { "type": "string" },
+    "mitre_id": { "type": "string", "pattern": "^T\\d{4}(\\.\\d{3})?$" },
+    "permalink": { "type": "string" },
+    "mitre_url": { "type": "string" },
+    "domains": { "type": "array", "items": { "type": "string" } },
+    "source_attribution": { "type": "string" }
+  }
+}
