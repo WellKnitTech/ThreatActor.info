@@ -253,6 +253,69 @@ The importer preserves source attribution using the pattern:
 
 `Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence.`
 
+## Microsoft Threat Actor List Importer
+
+`scripts/import-microsoft-threat-actor-list.rb` adds Microsoft's public threat actor naming list as a reviewed alias crosswalk for existing actors.
+
+Source: https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx
+
+### Why this importer is conservative
+
+- The workbook contains actor name, origin/category, and other names only; it has no narrative descriptions, references per actor, IOCs, malware, or TTPs.
+- The downloaded workbook metadata does not expose an explicit reuse license, so the importer is limited to attribution-preserving crosswalk metadata.
+- Imports only update existing actors; they do not create new actors.
+- Ambiguous vendor-name collisions stay review-only unless mapped in overrides.
+
+Reviewed mappings live in `data/imports/microsoft-threat-actor-list/mapping_overrides.yml`.
+
+### Commands
+
+Fetch a snapshot:
+
+```bash
+ruby scripts/import-microsoft-threat-actor-list.rb fetch --output data/imports/microsoft-threat-actor-list/2026-04-28
+```
+
+Preview additive enrichments:
+
+```bash
+ruby scripts/import-microsoft-threat-actor-list.rb plan --snapshot data/imports/microsoft-threat-actor-list/2026-04-28
+```
+
+Apply reviewed enrichments:
+
+```bash
+ruby scripts/import-microsoft-threat-actor-list.rb import --snapshot data/imports/microsoft-threat-actor-list/2026-04-28
+```
+
+Write a machine-readable review report:
+
+```bash
+ruby scripts/import-microsoft-threat-actor-list.rb plan --snapshot data/imports/microsoft-threat-actor-list/2026-04-28 --report-json tmp/microsoft-threat-actor-list-report.json
+```
+
+### Field mapping
+
+| Workbook Field | Our Schema Field | Notes |
+|----------------|------------------|-------|
+| `Threat actor name` | `aliases` and `provenance.microsoft_threat_actor_list.microsoft_name` | Additive alias only; does not rename the actor |
+| `Other names` | `aliases` | Additive merge only |
+| `Origin/Threat actor category` country token | `country` | Used only when actor country is blank, with optional overrides |
+| `Origin/Threat actor category` non-country tokens | `provenance.microsoft_threat_actor_list.categories` | Preserved as source context, not promoted to incident type or risk |
+
+### Guardrails
+
+- No new actor creation from the Microsoft list alone.
+- No description, risk-level, malware, TTP, campaign, or IOC import.
+- No automatic Microsoft primary-name takeover.
+- This importer is documented as a reviewed source and is intentionally not part of the default automated import runner until licensing/reuse terms are explicit.
+
+### Attribution
+
+The importer preserves source attribution using the pattern:
+
+`Alias cross-reference data was reviewed from the Microsoft Threat Actor List. The spreadsheet is used here as a secondary vendor naming crosswalk, not as a sole authoritative source.`
+
 ## Curated Intelligence MOVEit Transfer Importer
 
 `scripts/import-curated-intel-moveit-transfer.rb` enriches the existing Cl0p actor with campaign timeline events from the Curated Intelligence MOVEit Transfer tracking repository.

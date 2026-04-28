@@ -35,6 +35,8 @@ This project is a static Jekyll knowledge base. Runtime pages and JSON APIs are 
 | `apt-groups-operations` | `scripts/import-apt-groups-operations.rb` | Alias, operation, and malware crosswalk enrichment |
 | `aptnotes` | `scripts/import-aptnotes.rb` | Report-index provenance and chronology hints |
 
+`scripts/import-microsoft-threat-actor-list.rb` follows the snapshot/import/report pattern but is intentionally excluded from the default automated import run because the workbook does not expose an explicit reuse license in its metadata. Use it as a reviewed, attribution-preserving vendor naming crosswalk for existing actors only.
+
 `scripts/import-cisa-kev.rb`, `scripts/import-mitre.rb`, `scripts/fetch-news.rb`, `scripts/fetch-misp-references.rb`, and `scripts/scrape-beazley.rb` are not part of the default automated import run. They should either be promoted into the standard runner after their review semantics match the snapshot/import/report pattern, or remain documented as one-off/manual utilities.
 
 ## Analyst note policy
