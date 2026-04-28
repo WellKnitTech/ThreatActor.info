@@ -82,6 +82,10 @@ Per MITRE permission notice used throughout the site:
 
 `© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.`
 
+### Offline bundles and `generate-indexes`
+
+Bundles under **`data/mitre-cache/`** (gitignored local cache) and dated **`data/imports/mitre-attack/<date>/`** snapshots are what allow **`ruby scripts/generate-indexes.rb`** to populate **`technique_tactics.json`**, **`attack_version.json`**, and tactic-aware **`actors_by_tactic.json`** without brittle failures. See [Offline MITRE bundles](offline-mitre-bundles.md) for resolver order, CI implications, and how to **refresh MITRE stubs** and actor **`ttps`** via `import-mitre.rb import`.
+
 ## Categorized Adversary TTPs snapshot
 
 The dataset from [tropChaud/Categorized-Adversary-TTPs](https://github.com/tropChaud/Categorized-Adversary-TTPs) (MIT license) is vendored as JSON under [`data/imports/categorized-adversary-ttps/`](https://github.com/tropChaud/Categorized-Adversary-TTPs). It merges MITRE ATT&CK group-to-technique relationships with ETDA/ThaiCERT Threat Group Card metadata (victim industries/countries, motivations).

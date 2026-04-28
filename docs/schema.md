@@ -120,6 +120,21 @@ references:
     date: "2024"
 ```
 
+## Threat actor Markdown: IOC extraction (`generate-indexes`)
+
+[`scripts/generate-indexes.rb`](../scripts/generate-indexes.rb) builds IOC indexes from **`_threat_actors/*.md`**, not from YAML `iocs:` alone.
+
+Requirements:
+
+| Requirement | Detail |
+|-------------|--------|
+| Section heading | Exact text **`## Notable Indicators of Compromise (IOCs)`** (level 2). Other headings are ignored by the extractor. |
+| List shape | Indicators as **bullet lines** (`-` or `*`). Lines that are not list items are not parsed as IOC rows. |
+| Subsections | Optional **`### Category`** headings split IOCs into groups (display/grouping). |
+| Skipped regions | Lists under headings skipped by the generator (e.g. **`Sources`**) are not extracted—avoid nesting IOC bullets only under those. |
+
+Importer-generated content should mirror this structure when **`generate-pages.rb`** emits IOC sections so downstream **`ioc_lookup.json`**, IOC shards, and IOC hubs populate.
+
 ## Source Attribution Fields
 
 Every actor should make its source lineage clear enough for readers and maintainers to verify origin, licensing, and review context.

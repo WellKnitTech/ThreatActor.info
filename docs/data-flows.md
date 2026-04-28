@@ -55,6 +55,8 @@ Analyst notes are the only manual source. They exist to capture context before a
 
 The repository already implements manual takeover in the RansomLook and ETDA importers. That behavior is not yet centralized across every importer.
 
+**Living backlog:** Track IDs and scope in [supersession-backlog.md](supersession-backlog.md).
+
 Required follow-up engineering:
 
 - Move manual-takeover behavior into shared importer utilities so MISP Galaxy, MITRE, Malpedia, APTnotes, and APT Groups & Operations follow the same actor supersession policy.

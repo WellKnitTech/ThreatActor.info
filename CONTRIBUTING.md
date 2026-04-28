@@ -79,6 +79,8 @@ ruby scripts/actor-creator.rb new \
 - Run `ruby scripts/validate-content.rb` to verify
 - Commit and submit PR
 
+For manual YAML-first workflows, keep Markdown in sync using [docs/new-actor-checklist.md](docs/new-actor-checklist.md).
+
 ---
 
 ## 📖 Documentation References
