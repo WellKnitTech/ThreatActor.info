@@ -4007,7 +4007,7 @@
     ],
     "first_seen": "2014",
     "last_activity": "2019",
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": "High",
     "source_name": "Malpedia (Fraunhofer FKIE)",
     "source_attribution": "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.",
@@ -4105,6 +4105,105 @@
         "source_dataset_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
         "source_record_id": "G0010",
         "source_retrieved_at": "2026-04-26T05:24:31Z"
+      },
+      "russian_apt_tool_matrix": {
+        "references": [
+          {
+            "title": "web-assets.esetstatic.com",
+            "url": "https://web-assets.esetstatic.com/wls/2020/05/ESET_Turla_ComRAT.pdf",
+            "date": "15 June 2020",
+            "source_file": "GroupProfiles/Turla.md"
+          },
+          {
+            "title": "web-assets.esetstatic.com",
+            "url": "https://web-assets.esetstatic.com/wls/2018/08/Eset-Turla-Outlook-Backdoor.pdf",
+            "date": "17 August 2018",
+            "source_file": "GroupProfiles/Turla.md"
+          },
+          {
+            "title": "www.welivesecurity.com",
+            "url": "https://www.welivesecurity.com/2020/12/02/turla-crutch-keeping-back-door-open/",
+            "date": "2 December 2020",
+            "source_file": "GroupProfiles/Turla.md"
+          },
+          {
+            "title": "symantec-enterprise-blogs.security.com",
+            "url": "https://symantec-enterprise-blogs.security.com/threat-intelligence/waterbug-espionage-governments",
+            "date": "20 June 2019",
+            "source_file": "GroupProfiles/Turla.md"
+          },
+          {
+            "title": "blog.talosintelligence.com",
+            "url": "https://blog.talosintelligence.com/tinyturla-full-kill-chain/",
+            "date": "21 March 2024",
+            "source_file": "GroupProfiles/Turla.md"
+          },
+          {
+            "title": "www.welivesecurity.com",
+            "url": "https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/",
+            "date": "22 May 2018",
+            "source_file": "GroupProfiles/Turla.md"
+          },
+          {
+            "title": "www.cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-129a",
+            "date": "9 May 2023",
+            "source_file": "GroupProfiles/Turla.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/Turla.md",
+          "Other/ThreatIntelligence.md",
+          "Tools/CredentialTheft.md",
+          "Tools/DefenseEvasion.md",
+          "Tools/Discovery.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md",
+          "Tools/Offsec.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "Turla",
+        "source_repository": "https://github.com/BushidoUK/Russian-APT-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T02:07:35Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "Mimikatz"
+          ],
+          "Defense Evasion": [
+            "PowerShellRunner",
+            "VirtualBox Driver"
+          ],
+          "Discovery": [
+            "NBTScan",
+            "SScan"
+          ],
+          "Exfiltration": [
+            "4Shared",
+            "Dropbox",
+            "GMX",
+            "Gmail",
+            "OneDrive",
+            "VFEmail"
+          ],
+          "LOLBAS": [
+            "PsExec"
+          ],
+          "Networking": [
+            "Chisel"
+          ],
+          "OffSec": [
+            "Evil-WinRM",
+            "Metapsloit",
+            "Metasploit",
+            "PowerShell Empire",
+            "PowerSploit"
+          ],
+          "RMM Tools": [
+            "IntelliAdmin"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/apt0010.md",
@@ -6485,7 +6584,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.",
@@ -6497,6 +6596,74 @@
         "source_dataset_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
         "source_record_id": "G0035",
         "source_retrieved_at": "2026-04-26T05:24:31Z"
+      },
+      "russian_apt_tool_matrix": {
+        "references": [
+          {
+            "title": "www.cisa.gov",
+            "url": "https://www.cisa.gov/news-events/alerts/2018/03/15/russian-government-cyber-activity-targeting-energy-and-other-critical-infrastructure-sectors",
+            "date": "16 March 2018",
+            "source_file": "GroupProfiles/BERSERKBEAR.md"
+          },
+          {
+            "title": "symantec-enterprise-blogs.security.com",
+            "url": "https://symantec-enterprise-blogs.security.com/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+            "date": "20 October 2017",
+            "source_file": "GroupProfiles/BERSERKBEAR.md"
+          },
+          {
+            "title": "www.secureworks.com",
+            "url": "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector",
+            "date": "24 July 2019",
+            "source_file": "GroupProfiles/BERSERKBEAR.md"
+          },
+          {
+            "title": "www.gov.uk",
+            "url": "https://www.gov.uk/government/news/uk-exposes-russian-spy-agency-behind-cyber-incidents",
+            "date": "24 March 2022",
+            "source_file": "GroupProfiles/BERSERKBEAR.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/BERSERKBEAR.md",
+          "Other/ThreatIntelligence.md",
+          "Tools/CredentialTheft.md",
+          "Tools/Discovery.md",
+          "Tools/LOLBAS.md",
+          "Tools/Networking.md",
+          "Tools/Offsec.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "BERSERK BEAR",
+        "source_repository": "https://github.com/BushidoUK/Russian-APT-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T02:07:35Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "Mimikatz",
+            "ProcDump"
+          ],
+          "Discovery": [
+            "Angry IP Scanner"
+          ],
+          "LOLBAS": [
+            "BITSAdmin",
+            "PsExec"
+          ],
+          "Networking": [
+            "FortiClient"
+          ],
+          "OffSec": [
+            "CrackMapExec",
+            "Hydra",
+            "Impacket",
+            "Phishery"
+          ],
+          "RMM Tools": [
+            "TeamViewer"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/apt0035.md",
@@ -7238,7 +7405,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.",
@@ -7250,6 +7417,65 @@
         "source_dataset_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
         "source_record_id": "G0047",
         "source_retrieved_at": "2026-04-26T07:05:44Z"
+      },
+      "russian_apt_tool_matrix": {
+        "references": [
+          {
+            "title": "harfanglab.io",
+            "url": "https://harfanglab.io/insidethelab/gamaredons-pterolnk-analysis/",
+            "date": "16 April 2025",
+            "source_file": "Other/ThreatIntelligence.md"
+          },
+          {
+            "title": "www.welivesecurity.com",
+            "url": "https://www.welivesecurity.com/en/eset-research/cyberespionage-gamaredon-way-analysis-toolset-used-spy-ukraine-2022-2023",
+            "date": "26 September 2024",
+            "source_file": "GroupProfiles/Gamaredon.md"
+          },
+          {
+            "title": "ssu.gov.ua",
+            "url": "https://ssu.gov.ua/uploads/files/DKIB/Technical%20report%20Armagedon.pdf",
+            "date": "4 November 2021",
+            "source_file": "GroupProfiles/Gamaredon.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/Gamaredon.md",
+          "Other/ThreatIntelligence.md",
+          "Tools/CredentialTheft.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md",
+          "Tools/Networking.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "Gamaredon",
+        "source_repository": "https://github.com/BushidoUK/Russian-APT-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T02:07:35Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "Mimikatz"
+          ],
+          "Exfiltration": [
+            "Rclone",
+            "Telegram"
+          ],
+          "LOLBAS": [
+            "PsExec"
+          ],
+          "Networking": [
+            "Cloudflared",
+            "Ngrok",
+            "telegra[.]ph",
+            "teletype[.]in",
+            "trycloudflare[.]com"
+          ],
+          "RMM Tools": [
+            "Remote Manipulator System (RMS)",
+            "UltraVNC"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/apt0047.md",
@@ -14469,7 +14695,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.",
@@ -14481,6 +14707,69 @@
         "source_dataset_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
         "source_record_id": "G1003",
         "source_retrieved_at": "2026-04-26T05:01:37Z"
+      },
+      "russian_apt_tool_matrix": {
+        "references": [
+          {
+            "title": "www.cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-249a",
+            "date": "5 September 2024",
+            "source_file": "GroupProfiles/EMBERBEAR.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/EMBERBEAR.md",
+          "Other/ThreatIntelligence.md",
+          "Tools/Discovery.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md",
+          "Tools/Networking.md",
+          "Tools/Offsec.md"
+        ],
+        "source_label": "EMBER BEAR",
+        "source_repository": "https://github.com/BushidoUK/Russian-APT-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T02:07:35Z",
+        "tools_by_category": {
+          "Discovery": [
+            "Acunetix",
+            "Adminer",
+            "Amass",
+            "Bloodhound",
+            "Droopescan",
+            "JoomScan",
+            "LdapDomainDump",
+            "Masscan",
+            "Nmap",
+            "WPScan"
+          ],
+          "Exfiltration": [
+            "MEGA",
+            "Rclone"
+          ],
+          "LOLBAS": [
+            "PsExec"
+          ],
+          "Networking": [
+            "GOST",
+            "Iodine",
+            "ProxyChains",
+            "ReGeorg",
+            "dnscat2"
+          ],
+          "OffSec": [
+            "CrackMapExec",
+            "Impacket",
+            "LinPEAS",
+            "Metasploit",
+            "Meterpreter",
+            "NetCat",
+            "PAS Web Shell",
+            "Responder",
+            "WSO Web Shell"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/apt1003.md",
@@ -19982,7 +20271,7 @@
     ],
     "first_seen": "2007",
     "last_activity": "2024",
-    "last_updated": "2026-04-27",
+    "last_updated": "2026-04-28",
     "risk_level": "High",
     "source_name": "Malpedia (Fraunhofer FKIE)",
     "source_attribution": "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.",
@@ -20060,6 +20349,112 @@
         "source_dataset_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
         "source_record_id": "G0007",
         "source_retrieved_at": "2026-04-26T07:05:44Z"
+      },
+      "russian_apt_tool_matrix": {
+        "references": [
+          {
+            "title": "media.defense.gov",
+            "url": "https://media.defense.gov/2021/Jul/01/2002753896/-1/-1/1/CSA_GRU_GLOBAL_BRUTE_FORCE_CAMPAIGN_UOO158036-21.PDF",
+            "date": "1 July 2021",
+            "source_file": "GroupProfiles/FANCYBEAR.md"
+          },
+          {
+            "title": "www.trendmicro.com",
+            "url": "https://www.trendmicro.com/en_us/research/24/e/router-roulette.html",
+            "date": "1 May 2024",
+            "source_file": "Other/ThreatIntelligence.md"
+          },
+          {
+            "title": "www.microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2020/09/10/strontium-detecting-new-patters-credential-harvesting/",
+            "date": "10 September 2020",
+            "source_file": "GroupProfiles/FANCYBEAR.md"
+          },
+          {
+            "title": "web.archive.org",
+            "url": "https://web.archive.org/web/20170811181009/https://www.fireeye.com/blog/threat-research/2017/08/apt28-targets-hospitality-sector.html",
+            "date": "11 August 2017",
+            "source_file": "GroupProfiles/FANCYBEAR.md"
+          },
+          {
+            "title": "cloud.google.com",
+            "url": "https://cloud.google.com/blog/topics/threat-intelligence/probable-apt28-useo/",
+            "date": "18 April 2015",
+            "source_file": "GroupProfiles/FANCYBEAR.md"
+          },
+          {
+            "title": "www.cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-108",
+            "date": "18 April 2018",
+            "source_file": "GroupProfiles/FANCYBEAR.md"
+          },
+          {
+            "title": "cert.gov.ua",
+            "url": "https://cert.gov.ua/article/6281123",
+            "date": "25 October 2024",
+            "source_file": "GroupProfiles/FANCYBEAR.md"
+          },
+          {
+            "title": "cert.gov.ua",
+            "url": "https://cert.gov.ua/article/6276894",
+            "date": "28 December 2023",
+            "source_file": "GroupProfiles/FANCYBEAR.md"
+          },
+          {
+            "title": "securelist.com",
+            "url": "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
+            "date": "4 December 2015",
+            "source_file": "GroupProfiles/FANCYBEAR.md"
+          },
+          {
+            "title": "unit42.paloaltonetworks.com",
+            "url": "https://unit42.paloaltonetworks.com/unit42-sofacy-groups-parallel-attacks/",
+            "date": "6 June 2018",
+            "source_file": "GroupProfiles/FANCYBEAR.md"
+          },
+          {
+            "title": "securityintelligence.com",
+            "url": "https://securityintelligence.com/x-force/itg05-ops-leverage-israel-hamas-conflict-lures-to-deliver-headlace-malware/",
+            "date": "8 December 2023",
+            "source_file": "GroupProfiles/FANCYBEAR.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/FANCYBEAR.md",
+          "Other/ThreatIntelligence.md",
+          "Tools/CredentialTheft.md",
+          "Tools/LOLBAS.md",
+          "Tools/Networking.md",
+          "Tools/Offsec.md"
+        ],
+        "source_label": "FANCY BEAR",
+        "source_repository": "https://github.com/BushidoUK/Russian-APT-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T02:07:35Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "Mimikatz"
+          ],
+          "LOLBAS": [
+            "MiniDump",
+            "Windows Event Utility (wevtutil)"
+          ],
+          "Networking": [
+            "OpenSSH",
+            "ReGeorg",
+            "SSHDoor"
+          ],
+          "OffSec": [
+            "Empyre",
+            "Impacket",
+            "Koadic",
+            "Metasploit",
+            "Nishang",
+            "PowerShell Empire",
+            "Responder"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/apt28.md",
@@ -20621,7 +21016,7 @@
     ],
     "first_seen": "2008",
     "last_activity": "2024",
-    "last_updated": "2026-04-27",
+    "last_updated": "2026-04-28",
     "risk_level": "High",
     "source_name": null,
     "source_attribution": "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.",
@@ -20630,10 +21025,6 @@
     "source_license_url": null,
     "provenance": {
       "bushido_breach_reports": {
-        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
-        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
-        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
-        "source_retrieved_at": "2026-04-28T01:40:03Z",
         "reports": [
           {
             "organization": "Microsoft",
@@ -20680,12 +21071,150 @@
               "https://web.archive.org/web/20230209021934/https://orangematter.solarwinds.com/2021/01/11/new-findings-from-our-investigation-of-sunburst/"
             ]
           }
-        ]
+        ],
+        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
+        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
+        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
+        "source_retrieved_at": "2026-04-28T01:40:03Z"
       },
       "mitre": {
         "source_dataset_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
         "source_record_id": "G0016",
         "source_retrieved_at": "2026-04-26T05:24:31Z"
+      },
+      "russian_apt_tool_matrix": {
+        "references": [
+          {
+            "title": "www.cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-347a",
+            "date": "13 December 2023",
+            "source_file": "GroupProfiles/COZYBEAR.md"
+          },
+          {
+            "title": "www.gov.uk",
+            "url": "https://www.gov.uk/government/news/russia-uk-and-us-expose-global-campaigns-of-malign-activity-by-russian-intelligence-services",
+            "date": "15 April 2021",
+            "source_file": "GroupProfiles/COZYBEAR.md"
+          },
+          {
+            "title": "research.checkpoint.com",
+            "url": "https://research.checkpoint.com/2025/apt29-phishing-campaign/",
+            "date": "15 April 2025",
+            "source_file": "Other/ThreatIntelligence.md"
+          },
+          {
+            "title": "www.microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect/",
+            "date": "18 December 2020",
+            "source_file": "GroupProfiles/COZYBEAR.md"
+          },
+          {
+            "title": "www.cert.ssi.gouv.fr",
+            "url": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2024-CTI-006/",
+            "date": "19 June 2024",
+            "source_file": "Other/ThreatIntelligence.md"
+          },
+          {
+            "title": "cloud.google.com",
+            "url": "https://cloud.google.com/blog/topics/threat-intelligence/unc3524-eye-spy-email/",
+            "date": "2 May 2022",
+            "source_file": "GroupProfiles/COZYBEAR.md"
+          },
+          {
+            "title": "www.microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2021/10/25/nobelium-targeting-delegated-administrative-privileges-to-facilitate-broader-attacks/",
+            "date": "25 October 2021",
+            "source_file": "GroupProfiles/COZYBEAR.md"
+          },
+          {
+            "title": "www.zscaler.com",
+            "url": "https://www.zscaler.com/blogs/security-research/european-diplomats-targeted-apt29-cozy-bear-wineloader",
+            "date": "27 February 2024",
+            "source_file": "Other/ThreatIntelligence.md"
+          },
+          {
+            "title": "www.crowdstrike.com",
+            "url": "https://www.crowdstrike.com/blog/observations-from-the-stellarparticle-campaign/",
+            "date": "27 January 2022",
+            "source_file": "GroupProfiles/COZYBEAR.md"
+          },
+          {
+            "title": "go.recordedfuture.com",
+            "url": "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+            "date": "27 January 2023",
+            "source_file": "GroupProfiles/COZYBEAR.md"
+          },
+          {
+            "title": "www.microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2021/05/27/new-sophisticated-email-based-attack-from-nobelium/",
+            "date": "27 May 2021",
+            "source_file": "GroupProfiles/COZYBEAR.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/COZYBEAR.md",
+          "Other/ThreatIntelligence.md",
+          "Tools/CredentialTheft.md",
+          "Tools/DefenseEvasion.md",
+          "Tools/Discovery.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md",
+          "Tools/Networking.md",
+          "Tools/Offsec.md"
+        ],
+        "source_label": "COZY BEAR",
+        "source_repository": "https://github.com/BushidoUK/Russian-APT-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T02:07:35Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "CookieEditor",
+            "Mimikatz",
+            "SharpChormium",
+            "SharpChromium"
+          ],
+          "Defense Evasion": [
+            "EDRSandBlast",
+            "VMware Tools (DLL side-loading)"
+          ],
+          "Discovery": [
+            "AADInternals",
+            "AdFind",
+            "Bloodhound",
+            "DSInternals",
+            "RoadTools"
+          ],
+          "Exfiltration": [
+            "Dropbox",
+            "Firebase",
+            "Google Drive",
+            "Notion",
+            "OneDrive",
+            "Trello"
+          ],
+          "LOLBAS": [
+            "PowerPoint.exe (DLL side-loading)",
+            "PsExec",
+            "WMIC",
+            "sqlwriter.exe (DLL side-loading)"
+          ],
+          "Networking": [
+            "Dropbear",
+            "ReGeorg",
+            "Rosockstun",
+            "Rsockstun"
+          ],
+          "OffSec": [
+            "Brute Ratel C4",
+            "Cobalt Strike",
+            "Impacket",
+            "PowerSploit",
+            "Rubeus",
+            "Sliver",
+            "WinPEAS"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/apt29.md",
@@ -31446,7 +31975,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
@@ -31458,6 +31987,37 @@
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "7d99d2f7-adf0-44e4-9044-d18ff6842a16",
         "source_retrieved_at": "2026-04-26T05:47:15Z"
+      },
+      "russian_apt_tool_matrix": {
+        "references": [
+          {
+            "title": "citizenlab.ca",
+            "url": "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe/",
+            "date": "14 August 2024",
+            "source_file": "GroupProfiles/COLDRIVER.md"
+          },
+          {
+            "title": "www.ncsc.gov.uk",
+            "url": "https://www.ncsc.gov.uk/news/uk-and-allies-expose-cyber-campaign-attempted-political-interference",
+            "date": "7 December 2023",
+            "source_file": "GroupProfiles/COLDRIVER.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/COLDRIVER.md",
+          "Other/ThreatIntelligence.md",
+          "Tools/Offsec.md"
+        ],
+        "source_label": "COLDRIVER / Star Blizzard",
+        "source_repository": "https://github.com/BushidoUK/Russian-APT-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T02:07:35Z",
+        "tools_by_category": {
+          "OffSec": [
+            "EvilGinx"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/cold-river.md",
@@ -33888,7 +34448,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
@@ -33900,6 +34460,55 @@
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "7bf6ae38-fcd3-4a99-99ba-292990a27f0a",
         "source_retrieved_at": "2026-04-26T05:47:15Z"
+      },
+      "russian_apt_tool_matrix": {
+        "references": [
+          {
+            "title": "businessinsights.bitdefender.com",
+            "url": "https://businessinsights.bitdefender.com/curly-comrades-new-threat-actor-targeting-geopolitical-hotbeds",
+            "date": "12 August 2025",
+            "source_file": "Other/ThreatIntelligence.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Other/ThreatIntelligence.md",
+          "Tools/CredentialTheft.md",
+          "Tools/DefenseEvasion.md",
+          "Tools/LOLBAS.md",
+          "Tools/Networking.md",
+          "Tools/Offsec.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "Curly COMrades",
+        "source_repository": "https://github.com/BushidoUK/Russian-APT-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T02:07:35Z",
+        "tools_by_category": {
+          "Credential Theft": [
+            "Mimikatz",
+            "ProcDump",
+            "TrickDump"
+          ],
+          "Defense Evasion": [
+            "Garble"
+          ],
+          "LOLBAS": [
+            "DCSync",
+            "curl"
+          ],
+          "Networking": [
+            "Resocks",
+            "SOCKS5",
+            "stunnel"
+          ],
+          "OffSec": [
+            "Impacket"
+          ],
+          "RMM Tools": [
+            "RemoteUtilities"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/curly-comrades.md",
@@ -74351,7 +74960,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": "2026-04-27",
+    "last_updated": "2026-04-28",
     "risk_level": "High",
     "source_name": null,
     "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
@@ -74360,10 +74969,6 @@
     "source_license_url": null,
     "provenance": {
       "bushido_breach_reports": {
-        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
-        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
-        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
-        "source_retrieved_at": "2026-04-28T01:40:03Z",
         "reports": [
           {
             "organization": "Viasat KA-SAT",
@@ -74376,12 +74981,94 @@
               "https://web.archive.org/web/20230407225107/https://news.viasat.com/blog/corporate/ka-sat-network-cyber-attack-overview"
             ]
           }
-        ]
+        ],
+        "source_attribution": "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers.",
+        "source_dataset_url": "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md",
+        "source_repository": "https://github.com/BushidoUK/Breach-Report-Collection",
+        "source_retrieved_at": "2026-04-28T01:40:03Z"
       },
       "misp_galaxy": {
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "f512de42-f76b-40d2-9923-59e7dbdfec35",
         "source_retrieved_at": "2026-04-26T05:47:15Z"
+      },
+      "russian_apt_tool_matrix": {
+        "references": [
+          {
+            "title": "www.microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2025/02/12/the-badpilot-campaign-seashell-blizzard-subgroup-conducts-multiyear-global-access-operation/",
+            "date": "12 February 2025",
+            "source_file": "GroupProfiles/Sandworm.md"
+          },
+          {
+            "title": "services.google.com",
+            "url": "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+            "date": "17 April 2024",
+            "source_file": "GroupProfiles/Sandworm.md"
+          },
+          {
+            "title": "cert.gov.ua",
+            "url": "https://cert.gov.ua/article/6278706",
+            "date": "19 April 2024",
+            "source_file": "GroupProfiles/Sandworm.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/Sandworm.md",
+          "Other/ThreatIntelligence.md",
+          "Tools/DefenseEvasion.md",
+          "Tools/Exfiltration.md",
+          "Tools/LOLBAS.md",
+          "Tools/Networking.md",
+          "Tools/Offsec.md",
+          "Tools/RMM-Tools.md"
+        ],
+        "source_label": "Sandworm",
+        "source_repository": "https://github.com/BushidoUK/Russian-APT-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T02:07:35Z",
+        "tools_by_category": {
+          "Defense Evasion": [
+            "SDelete",
+            "libprocesshider"
+          ],
+          "Exfiltration": [
+            "Rclone"
+          ],
+          "LOLBAS": [
+            "BITSAdmin",
+            "BITSadmin",
+            "certutil",
+            "curl"
+          ],
+          "Networking": [
+            "Chisel",
+            "OpenSSH",
+            "Pivotnacci",
+            "ReGeorg",
+            "Tor"
+          ],
+          "OffSec": [
+            "Cobalt Strike",
+            "Empyre",
+            "Impacket",
+            "JuicyPotatoNG",
+            "Metasploit",
+            "Meterpreter",
+            "PAS Web Shell",
+            "PoshC2",
+            "PowerShell Empire",
+            "RottenPotatoNG",
+            "WSO Web Shell",
+            "Weevely Web Shell"
+          ],
+          "RMM Tools": [
+            "Atera",
+            "RemCom",
+            "Splashtop"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/sandworm.md",
@@ -101620,7 +102307,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
@@ -101632,6 +102319,31 @@
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "63305373-15a8-4f84-ab09-27ffeaa99ae2",
         "source_retrieved_at": "2026-04-26T05:47:15Z"
+      },
+      "russian_apt_tool_matrix": {
+        "references": [
+          {
+            "title": "www.volexity.com",
+            "url": "https://www.volexity.com/blog/2025/04/22/phishing-for-codes-russian-threat-actors-target-microsoft-365-oauth-workflows/",
+            "date": "22 April 2025",
+            "source_file": "Other/ThreatIntelligence.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Other/ThreatIntelligence.md",
+          "Tools/Networking.md"
+        ],
+        "source_label": "UTA0352 / UTA0352, UTA0355",
+        "source_repository": "https://github.com/BushidoUK/Russian-APT-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T02:07:35Z",
+        "tools_by_category": {
+          "Networking": [
+            "insiders[.]vscode[.]dev",
+            "vscode-redirect[.]azurewebsites.net"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/uta0352.md",
@@ -101696,7 +102408,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
@@ -101708,6 +102420,24 @@
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "b4bbbd06-a204-4363-90d2-f38cc0def521",
         "source_retrieved_at": "2026-04-26T05:47:15Z"
+      },
+      "russian_apt_tool_matrix": {
+        "references": [
+          {
+            "title": "www.volexity.com",
+            "url": "https://www.volexity.com/blog/2025/04/22/phishing-for-codes-russian-threat-actors-target-microsoft-365-oauth-workflows/",
+            "date": "22 April 2025",
+            "source_file": "Other/ThreatIntelligence.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Other/ThreatIntelligence.md"
+        ],
+        "source_label": "UTA0352, UTA0355",
+        "source_repository": "https://github.com/BushidoUK/Russian-APT-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T02:07:35Z"
       }
     },
     "page_path": "_threat_actors/uta0355.md",
@@ -103755,7 +104485,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
@@ -103767,6 +104497,34 @@
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "b495419f-e327-4bbe-aba5-0c281dc2605b",
         "source_retrieved_at": "2026-04-26T05:47:15Z"
+      },
+      "russian_apt_tool_matrix": {
+        "references": [
+          {
+            "title": "www.microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2025/05/27/new-russia-affiliated-actor-void-blizzard-targets-critical-sectors-for-espionage/",
+            "date": "27 May 2025",
+            "source_file": "Other/ThreatIntelligence.md"
+          }
+        ],
+        "source_attribution": "Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Other/ThreatIntelligence.md",
+          "Tools/Discovery.md",
+          "Tools/Offsec.md"
+        ],
+        "source_label": "Void Blizzard / Void Blizzard/LAUNDRY BEAR",
+        "source_repository": "https://github.com/BushidoUK/Russian-APT-Tool-Matrix",
+        "source_retrieved_at": "2026-04-28T02:07:35Z",
+        "tools_by_category": {
+          "Discovery": [
+            "AzureHound"
+          ],
+          "OffSec": [
+            "EvilGinx"
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/void-blizzard.md",

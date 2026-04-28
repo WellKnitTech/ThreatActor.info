@@ -23,6 +23,7 @@ Lynx is an active ransomware-as-a-service operation tracked by RansomLook.
 
 ## Malware and Tools
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Discovery | SoftPerfect NetScan |

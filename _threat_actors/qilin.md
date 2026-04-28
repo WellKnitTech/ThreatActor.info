@@ -35,6 +35,7 @@ Qilin is a ransomware group that first appeared in 2022 but had a breakout year 
 
 ## Malware and Tools
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Credential Theft | Mimikatz |

@@ -42,6 +42,7 @@ TA505 is a cyber criminal group that has been active since at least 2014. TA505 
 
 ## Malware and Tools
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | OffSec | Cobalt Strike, PowerShell Empire, TinyMet |

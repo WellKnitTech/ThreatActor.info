@@ -75,6 +75,15 @@ APT28 is a threat group that has been attributed to Russia's General Staff Main 
 - **Unidentified JS 007 (Zimbra Stealer)**
 - **PixyNetLoader**
 
+### Russian APT Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Credential Theft | Mimikatz |
+| LOLBAS | MiniDump, Windows Event Utility (wevtutil) |
+| Networking | OpenSSH, ReGeorg, SSHDoor |
+| OffSec | Empyre, Impacket, Koadic, Metasploit, Nishang, PowerShell Empire, Responder |
+
 ## Attribution and Evidence
 **Country of Origin**: Russia
 *Additional attribution information pending cataloguing.*

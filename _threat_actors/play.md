@@ -39,6 +39,7 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 
 ## Malware and Tools
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Credential Theft | HandleKatz, Mimikatz, Nanodump |

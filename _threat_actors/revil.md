@@ -41,6 +41,7 @@ REvil is a Russian ransomware-as-a-service operation that has targeted major cor
 
 ## Malware and Tools
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Discovery | AdFind, Bloodhound |

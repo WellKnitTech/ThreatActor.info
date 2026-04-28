@@ -45,6 +45,7 @@ Akira is a ransomware variant and ransomware deployment entity active since at l
 
 ## Malware and Tools
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Credential Theft | DonPAPI, LaZagne, Mimikatz |

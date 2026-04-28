@@ -26,6 +26,7 @@ Nightspire is an active extortion or ransomware group tracked by RansomLook.
 
 ## Malware and Tools
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Discovery | Everything.exe |

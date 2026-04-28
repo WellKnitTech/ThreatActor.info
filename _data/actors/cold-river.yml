@@ -1,16 +1,29 @@
----
-name: Cold River
-aliases:
-- Nahr Elbard
-- Nahr el bared
-- Cold River
-description: In short, “Cold River” is a sophisticated threat (actor) that utilizes
-  DNS subdomain hijacking, certificate spoofing, and covert tunneled command and control
-  traffic in combination with complex and convincing lure documents and custom implants.
+name: "Cold River"
+aliases: ["Nahr Elbard","Nahr el bared","Cold River"]
+description: "In short, “Cold River” is a sophisticated threat (actor) that utilizes DNS subdomain hijacking, certificate spoofing, and covert tunneled command and control traffic in combination with complex and convincing lure documents and custom implants."
 url: "/cold-river"
+last_updated: "2026-04-28"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 7d99d2f7-adf0-44e4-9044-d18ff6842a16
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "7d99d2f7-adf0-44e4-9044-d18ff6842a16"
+    source_retrieved_at: "2026-04-26T05:47:15Z"
+  russian_apt_tool_matrix:
+    references:
+      - title: "citizenlab.ca"
+        url: "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe/"
+        date: "14 August 2024"
+        source_file: "GroupProfiles/COLDRIVER.md"
+      - title: "www.ncsc.gov.uk"
+        url: "https://www.ncsc.gov.uk/news/uk-and-allies-expose-cyber-campaign-attempted-political-interference"
+        date: "7 December 2023"
+        source_file: "GroupProfiles/COLDRIVER.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/COLDRIVER.md","Other/ThreatIntelligence.md","Tools/Offsec.md"]
+    source_label: "COLDRIVER / Star Blizzard"
+    source_repository: "https://github.com/BushidoUK/Russian-APT-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T02:07:35Z"
+    tools_by_category:
+      OffSec: ["EvilGinx"]

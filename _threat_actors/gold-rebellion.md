@@ -44,6 +44,7 @@ GOLD REBELLION is a financially motivated cybercriminal threat group that operat
 - **Batch NET**
 
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Credential Theft | Mimikatz |

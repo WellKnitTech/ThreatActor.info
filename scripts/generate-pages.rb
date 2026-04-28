@@ -183,19 +183,24 @@ def get_country_flag(country)
   "🏳️"
 end
 
-def ransomware_tool_matrix_tools(actor)
+def tool_matrix_observations(actor)
   provenance = actor['provenance']
   return {} unless provenance.is_a?(Hash)
 
-  matrix = provenance['ransomware_tool_matrix']
-  return {} unless matrix.is_a?(Hash)
+  {
+    'Ransomware Tool Matrix observations' => provenance['ransomware_tool_matrix'],
+    'Russian APT Tool Matrix observations' => provenance['russian_apt_tool_matrix']
+  }.each_with_object({}) do |(label, matrix), memo|
+    next unless matrix.is_a?(Hash)
 
-  tools_by_category = matrix['tools_by_category']
-  return {} unless tools_by_category.is_a?(Hash)
+    tools_by_category = matrix['tools_by_category']
+    next unless tools_by_category.is_a?(Hash)
 
-  tools_by_category.each_with_object({}) do |(category, tools), memo|
-    normalized_tools = Array(tools).map(&:to_s).map(&:strip).reject(&:empty?).uniq
-    memo[category.to_s] = normalized_tools unless normalized_tools.empty?
+    normalized = tools_by_category.each_with_object({}) do |(category, tools), category_memo|
+      normalized_tools = Array(tools).map(&:to_s).map(&:strip).reject(&:empty?).uniq
+      category_memo[category.to_s] = normalized_tools unless normalized_tools.empty?
+    end
+    memo[label] = normalized unless normalized.empty?
   end
 end
 
@@ -362,7 +367,7 @@ def build_body(actor)
   # Malware
   sections << "## Malware and Tools"
   mal_list = actor['malware'] || []
-  matrix_tools = ransomware_tool_matrix_tools(actor)
+  matrix_observations = tool_matrix_observations(actor)
   
   if mal_list && mal_list.any?
     mal_list.each do |m|
@@ -378,14 +383,19 @@ def build_body(actor)
     end
   end
 
-  if matrix_tools.any?
+  if matrix_observations.any?
     sections << "" if mal_list && mal_list.any?
-    sections << "### Ransomware Tool Matrix observations"
-    sections << "| Category | Observed tools |"
-    sections << "|---|---|"
-    matrix_tools.sort.each do |category, tools|
-      sections << "| #{category} | #{tools.sort.join(', ')} |"
+    matrix_observations.sort.each do |label, matrix_tools|
+      sections << "### #{label}"
+      sections << ""
+      sections << "| Category | Observed tools |"
+      sections << "|---|---|"
+      matrix_tools.sort.each do |category, tools|
+        sections << "| #{category} | #{tools.sort.join(', ')} |"
+      end
+      sections << ""
     end
+    sections.pop if sections.last == ""
   elsif !mal_list || mal_list.empty?
     sections << "*Information pending cataloguing.*"
   end

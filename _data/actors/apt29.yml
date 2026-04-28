@@ -1,89 +1,23 @@
----
-name: APT29
-aliases:
-- APT29
-- Blue Kitsune
-- Cozy Bear
-- CozyDuke
-- Dark Halo
-- IRON HEMLOCK
-- IRON RITUAL
-- Midnight Blizzard
-- NOBELIUM
-- NobleBaron
-- SolarStorm
-- The Dukes
-- UNC2452
-- UNC3524
-- YTTRIUM
-- Group 100
-- COZY BEAR
-- Minidionis
-- SeaDuke
-- Grizzly Steppe
-- G0016
-- ATK7
-- Cloaked Ursa
-- TA421
-- ITG11
-- BlueBravo
-- Nobelium
-- UAC-0029
-description: |-
-  APT29 is threat group that has been attributed to Russia's Foreign Intelligence Service (SVR).(Citation: White House Imposing Costs RU Gov April 2021)(Citation: UK Gov Malign RIS Activity April 2021) They have operated since at least 2008, often targeting government networks in Europe and NATO member countries, research institutes, and think tanks. APT29 reportedly compromised the Democratic National Committee starting in the summer of 2015.(Citation: F-Secure The Dukes)(Citation: GRIZZLY STEPPE JAR)(Citation: Crowdstrike DNC June 2016)(Citation: UK Gov UK Exposes Russia SolarWinds April 2021)
-
-  In April 2021, the US and UK governments attributed the SolarWinds Compromise to the SVR; public statements included citations to APT29, Cozy Bear, and The Dukes.(Citation: NSA Joint Advisory SVR SolarWinds April 2021)(Citation: UK NSCS Russia SolarWinds April 2021) Industry reporting also referred to the actors involved in this campaign as UNC2452, NOBELIUM, StellarParticle, Dark Halo, and SolarStorm.(Citation: FireEye SUNBURST Backdoor December 2020)(Citation: MSTIC NOBELIUM Mar 2021)(Citation: CrowdStrike SUNSPOT Implant January 2021)(Citation: Volexity SolarWinds)(Citation: Cybersecurity Advisory SVR TTP May 2021)(Citation: Unit 42 SolarStorm December 2020)
+name: "APT29"
+aliases: ["APT29","Blue Kitsune","Cozy Bear","CozyDuke","Dark Halo","IRON HEMLOCK","IRON RITUAL","Midnight Blizzard","NOBELIUM","NobleBaron","SolarStorm","The Dukes","UNC2452","UNC3524","YTTRIUM","Group 100","COZY BEAR","Minidionis","SeaDuke","Grizzly Steppe","G0016","ATK7","Cloaked Ursa","TA421","ITG11","BlueBravo","Nobelium","UAC-0029"]
+description: "APT29 is threat group that has been attributed to Russia's Foreign Intelligence Service (SVR).(Citation: White House Imposing Costs RU Gov April 2021)(Citation: UK Gov Malign RIS Activity April 2021) They have operated since at least 2008, often targeting government networks in Europe and NATO member countries, research institutes, and think tanks. APT29 reportedly compromised the Democratic National Committee starting in the summer of 2015.(Citation: F-Secure The Dukes)(Citation: GRIZZLY STEPPE JAR)(Citation: Crowdstrike DNC June 2016)(Citation: UK Gov UK Exposes Russia SolarWinds April 2021)\n\nIn April 2021, the US and UK governments attributed the SolarWinds Compromise to the SVR; public statements included citations to APT29, Cozy Bear, and The Dukes.(Citation: NSA Joint Advisory SVR SolarWinds April 2021)(Citation: UK NSCS Russia SolarWinds April 2021) Industry reporting also referred to the actors involved in this campaign as UNC2452, NOBELIUM, StellarParticle, Dark Halo, and SolarStorm.(Citation: FireEye SUNBURST Backdoor December 2020)(Citation: MSTIC NOBELIUM Mar 2021)(Citation: CrowdStrike SUNSPOT Implant January 2021)(Citation: Volexity SolarWinds)(Citation: Cybersecurity Advisory SVR TTP May 2021)(Citation: Unit 42 SolarStorm December 2020)"
 url: "/apt29"
-country: Russia
-sector_focus:
-- Government
-- Healthcare
-- Energy
-targeted_victims:
-- United States
-- China
-- New Zealand
-- Ukraine
-- Romania
-- Georgia
-- Japan
-- South Korea
-- Belgium
-- Kazakhstan
-- Brazil
-- Mexico
-- Turkey
-- Portugal
-- India
-- Germany
-incident_type: Espionage
-first_seen: '2008'
-last_activity: '2024'
-last_updated: "2026-04-27"
-risk_level: High
-external_id: G0016
-external_url: https://attack.mitre.org/groups/G0016
-mitre_id: G0016
-mitre_url: https://attack.mitre.org/groups/G0016
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
-malware:
-- CosmicDuke
-- PinchDuke
-- CloudDuke
-- HAMMERTOSS
-- GeminiDuke
-- MiniDuke
-- SeaDuke
-- RTM
-- OnionDuke
-- CyberGate
+country: "Russia"
+sector_focus: ["Government","Healthcare","Energy"]
+targeted_victims: ["United States","China","New Zealand","Ukraine","Romania","Georgia","Japan","South Korea","Belgium","Kazakhstan","Brazil","Mexico","Turkey","Portugal","India","Germany"]
+incident_type: "Espionage"
+first_seen: "2008"
+last_activity: "2024"
+last_updated: "2026-04-28"
+risk_level: "High"
+external_id: "G0016"
+external_url: "https://attack.mitre.org/groups/G0016"
+mitre_id: "G0016"
+mitre_url: "https://attack.mitre.org/groups/G0016"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["CosmicDuke","PinchDuke","CloudDuke","HAMMERTOSS","GeminiDuke","MiniDuke","SeaDuke","RTM","OnionDuke","CyberGate"]
 provenance:
   bushido_breach_reports:
-    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
-    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
-    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
-    source_retrieved_at: "2026-04-28T01:40:03Z"
     reports:
       - organization: "Microsoft"
         breach_date: "January 2024"
@@ -105,7 +39,71 @@ provenance:
         adversary_label: "CozyBear (RU APT)"
         links: ["https://orangematter.solarwinds.com/2021/01/11/new-findings-from-our-investigation-of-sunburst/"]
         archived_links: ["https://web.archive.org/web/20230209021934/https://orangematter.solarwinds.com/2021/01/11/new-findings-from-our-investigation-of-sunburst/"]
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_retrieved_at: "2026-04-28T01:40:03Z"
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G0016
-    source_retrieved_at: '2026-04-26T05:24:31Z'
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0016"
+    source_retrieved_at: "2026-04-26T05:24:31Z"
+  russian_apt_tool_matrix:
+    references:
+      - title: "www.cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-347a"
+        date: "13 December 2023"
+        source_file: "GroupProfiles/COZYBEAR.md"
+      - title: "www.gov.uk"
+        url: "https://www.gov.uk/government/news/russia-uk-and-us-expose-global-campaigns-of-malign-activity-by-russian-intelligence-services"
+        date: "15 April 2021"
+        source_file: "GroupProfiles/COZYBEAR.md"
+      - title: "research.checkpoint.com"
+        url: "https://research.checkpoint.com/2025/apt29-phishing-campaign/"
+        date: "15 April 2025"
+        source_file: "Other/ThreatIntelligence.md"
+      - title: "www.microsoft.com"
+        url: "https://www.microsoft.com/en-us/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect/"
+        date: "18 December 2020"
+        source_file: "GroupProfiles/COZYBEAR.md"
+      - title: "www.cert.ssi.gouv.fr"
+        url: "https://www.cert.ssi.gouv.fr/cti/CERTFR-2024-CTI-006/"
+        date: "19 June 2024"
+        source_file: "Other/ThreatIntelligence.md"
+      - title: "cloud.google.com"
+        url: "https://cloud.google.com/blog/topics/threat-intelligence/unc3524-eye-spy-email/"
+        date: "2 May 2022"
+        source_file: "GroupProfiles/COZYBEAR.md"
+      - title: "www.microsoft.com"
+        url: "https://www.microsoft.com/en-us/security/blog/2021/10/25/nobelium-targeting-delegated-administrative-privileges-to-facilitate-broader-attacks/"
+        date: "25 October 2021"
+        source_file: "GroupProfiles/COZYBEAR.md"
+      - title: "www.zscaler.com"
+        url: "https://www.zscaler.com/blogs/security-research/european-diplomats-targeted-apt29-cozy-bear-wineloader"
+        date: "27 February 2024"
+        source_file: "Other/ThreatIntelligence.md"
+      - title: "www.crowdstrike.com"
+        url: "https://www.crowdstrike.com/blog/observations-from-the-stellarparticle-campaign/"
+        date: "27 January 2022"
+        source_file: "GroupProfiles/COZYBEAR.md"
+      - title: "go.recordedfuture.com"
+        url: "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf"
+        date: "27 January 2023"
+        source_file: "GroupProfiles/COZYBEAR.md"
+      - title: "www.microsoft.com"
+        url: "https://www.microsoft.com/en-us/security/blog/2021/05/27/new-sophisticated-email-based-attack-from-nobelium/"
+        date: "27 May 2021"
+        source_file: "GroupProfiles/COZYBEAR.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/COZYBEAR.md","Other/ThreatIntelligence.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/Discovery.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md"]
+    source_label: "COZY BEAR"
+    source_repository: "https://github.com/BushidoUK/Russian-APT-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T02:07:35Z"
+    tools_by_category:
+      Credential Theft: ["CookieEditor","Mimikatz","SharpChormium","SharpChromium"]
+      Defense Evasion: ["EDRSandBlast","VMware Tools (DLL side-loading)"]
+      Discovery: ["AADInternals","AdFind","Bloodhound","DSInternals","RoadTools"]
+      Exfiltration: ["Dropbox","Firebase","Google Drive","Notion","OneDrive","Trello"]
+      LOLBAS: ["PowerPoint.exe (DLL side-loading)","PsExec","WMIC","sqlwriter.exe (DLL side-loading)"]
+      Networking: ["Dropbear","ReGeorg","Rosockstun","Rsockstun"]
+      OffSec: ["Brute Ratel C4","Cobalt Strike","Impacket","PowerSploit","Rubeus","Sliver","WinPEAS"]

@@ -22,7 +22,11 @@ In short, “Cold River” is a sophisticated threat (actor) that utilizes DNS s
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Russian APT Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| OffSec | EvilGinx |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

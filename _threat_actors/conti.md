@@ -47,6 +47,7 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 
 ## Malware and Tools
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Credential Theft | Mimikatz, ProcDump, Router Scan, SharpChrome |
