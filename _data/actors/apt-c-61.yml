@@ -1,0 +1,17 @@
+name: 腾云蛇 - APT-C-61
+aliases:
+- 腾云蛇 - APT-C-61
+description: APT-C-61又名腾云蛇，最早活跃可追溯到2020年1月，至今还很活跃，主要攻击目标为巴基斯坦、孟加拉等国家的国家机构、军工、科研、国防等重要领域，攻击时通过鱼叉邮件配合社会工程学手段进行渗透，向目标设备传播恶意程序，暗中控制目标设备，持续窃取设备上的敏感文件。因其使用的C2、载荷下发、窃取的数据存储等均依赖于云服务，且使用的木马为python语言编写而得名。
+url: "/apt-c-61"
+provenance:
+  misp_galaxy:
+    source_cluster: 360net.json
+    source_clusters:
+    - 360net.json
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json
+    source_record_id: 724da0c4-ca9e-54be-a15c-8204472d8c99
+    source_record_ids:
+    - 724da0c4-ca9e-54be-a15c-8204472d8c99
+    source_retrieved_at: '2026-04-28T04:13:45Z'
+source_name: MISP Galaxy
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

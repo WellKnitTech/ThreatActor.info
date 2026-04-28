@@ -1,0 +1,17 @@
+name: 人面狮 - APT-C-15
+aliases:
+- 人面狮 - APT-C-15
+description: 人面狮行动是活跃在中东地区的网络间谍活动，主要目标可能涉及到埃及和以色列等国家的不同组织，目的是窃取目标敏感数据信息。活跃时间主要集中在2014年6月到2015年11月期间，相关攻击活动最早可以追溯到2011年12月。主要利用社交网络进行水坑攻击，截止到目前总共捕获到恶意代码样本314个，C&C域名7个。
+url: "/apt-c-15"
+provenance:
+  misp_galaxy:
+    source_cluster: 360net.json
+    source_clusters:
+    - 360net.json
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json
+    source_record_id: 55177506-57bf-503e-8a24-9ed06bd28f16
+    source_record_ids:
+    - 55177506-57bf-503e-8a24-9ed06bd28f16
+    source_retrieved_at: '2026-04-28T04:13:45Z'
+source_name: MISP Galaxy
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

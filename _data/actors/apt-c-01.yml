@@ -1,0 +1,20 @@
+name: 毒云藤 - APT-C-01
+aliases:
+- 穷奇
+- 白海豚
+- 绿斑
+- 毒云藤 - APT-C-01
+description: APT-C-01又名毒云藤，是一个长期针对中国境内的APT组织，至少从2007年开始活跃。曾对中国国防、政府、科技、教育以及海事机构等重点单位和部门进行了长达11年的网络间谍活动，主要关注军工、中美关系、两岸关系和海洋相关的领域，旨在窃取重大决策及敏感信息。APT-C-01由360威胁情报中心首次披露，结合该组织关联地区常见的蔓藤植物，因此将其命名为“毒云藤”。
+url: "/apt-c-01"
+provenance:
+  misp_galaxy:
+    source_cluster: 360net.json
+    source_clusters:
+    - 360net.json
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json
+    source_record_id: 98df38d1-f83c-5c28-ad11-75aa6b493fe7
+    source_record_ids:
+    - 98df38d1-f83c-5c28-ad11-75aa6b493fe7
+    source_retrieved_at: '2026-04-28T04:13:45Z'
+source_name: MISP Galaxy
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

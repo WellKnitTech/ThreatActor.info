@@ -1,0 +1,17 @@
+name: 北非狐 - APT-C-44
+aliases:
+- 北非狐 - APT-C-44
+description: 北非狐组织（APT-C-44），是一个来自阿尔及利亚的境外APT组织，该组织已持续活跃了3年。北非狐组织主要针对中东地区进行网络间谍活动，以窃取敏感信息为主。相关攻击活动最早可以追溯到2017年11月，至今仍活跃着。
+url: "/apt-c-44"
+provenance:
+  misp_galaxy:
+    source_cluster: 360net.json
+    source_clusters:
+    - 360net.json
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json
+    source_record_id: 367bfb72-da65-5886-a333-389299470722
+    source_record_ids:
+    - 367bfb72-da65-5886-a333-389299470722
+    source_retrieved_at: '2026-04-28T04:13:45Z'
+source_name: MISP Galaxy
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)

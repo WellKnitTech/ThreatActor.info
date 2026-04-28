@@ -46,7 +46,15 @@ jobs:
       - name: Fetch MISP threat actors
         run: |
           RUN_DATE=$(date +%Y-%m-%d)
-          ruby scripts/import-misp-galaxy.rb fetch --output "data/imports/misp-galaxy/${RUN_DATE}"
+          ruby scripts/import-misp-galaxy.rb fetch \
+            --output "data/imports/misp-galaxy/${RUN_DATE}" \
+            --cluster threat-actor \
+            --cluster 360net \
+            --cluster microsoft-activity-group \
+            --cluster tidal-groups \
+            --cluster ransomware \
+            --cluster intelligence-agencies \
+            --cluster mitre-ics-groups
         continue-on-error: true
           
       - name: Fetch ETDA ThaiCERT

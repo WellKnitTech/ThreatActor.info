@@ -12,6 +12,7 @@ Source = Struct.new(
   :script,
   :snapshot_root,
   :report_name,
+  :fetch_args,
   :fetch_limit,
   keyword_init: true
 )
@@ -23,6 +24,15 @@ SOURCES = [
     script: 'scripts/import-misp-galaxy.rb',
     snapshot_root: 'data/imports/misp-galaxy',
     report_name: 'misp-galaxy-report.json',
+    fetch_args: %w[
+      --cluster threat-actor
+      --cluster 360net
+      --cluster microsoft-activity-group
+      --cluster tidal-groups
+      --cluster ransomware
+      --cluster intelligence-agencies
+      --cluster mitre-ics-groups
+    ],
     fetch_limit: true
   ),
   Source.new(
@@ -192,6 +202,7 @@ end
 
 def fetch_source(source, snapshot, options)
   command = ['ruby', source.script, 'fetch', '--output', snapshot]
+  command += Array(source.fetch_args)
   command += ['--limit', options[:limit].to_s] if options[:limit] && source.fetch_limit
   run_command(command)
 end

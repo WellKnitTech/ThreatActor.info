@@ -403,7 +403,7 @@ ruby scripts/import-ransomlook.rb plan --snapshot data/imports/ransomlook/2026-0
 
 ## MISP Galaxy Importer
 
-`scripts/import-misp-galaxy.rb` imports threat actor data from the MISP Galaxy threat-actor cluster.
+`scripts/import-misp-galaxy.rb` imports threat actor data from MISP Galaxy snapshots and can target one or more cluster files per run.
 
 Source: https://github.com/MISP/misp-galaxy (Apache 2.0 / CC0 licensed)
 
@@ -415,10 +415,29 @@ Fetch a snapshot:
 ruby scripts/import-misp-galaxy.rb fetch --output data/imports/misp-galaxy/2026-04-26
 ```
 
+Fetch only specific clusters:
+
+```bash
+ruby scripts/import-misp-galaxy.rb fetch \
+  --output data/imports/misp-galaxy/2026-04-26 \
+  --cluster threat-actor \
+  --cluster 360net \
+  --cluster microsoft-activity-group
+```
+
 Preview changes:
 
 ```bash
 ruby scripts/import-misp-galaxy.rb plan --snapshot data/imports/misp-galaxy/2026-04-26
+```
+
+Preview only selected cluster files from a multi-cluster snapshot:
+
+```bash
+ruby scripts/import-misp-galaxy.rb plan \
+  --snapshot data/imports/misp-galaxy/2026-04-26 \
+  --cluster 360net \
+  --cluster microsoft-activity-group
 ```
 
 Apply import:
@@ -454,11 +473,14 @@ ruby scripts/import-misp-galaxy.rb import --snapshot data/imports/misp-galaxy/20
 | `meta.refs` | `References` section | List of source URLs |
 | `uuid` | `provenance` | Source record ID |
 
+When multiple clusters are imported together, the importer deduplicates by normalized actor name and merges additive fields such as aliases, sectors, victims, malware names, references, and provenance cluster membership.
+
 ### Safe defaults
 
 - `--new-only` skips existing actors (recommended for initial imports)
 - Protected fields (name, aliases, description) are only updated with `--force`
 - Additive updates for existing actors (new aliases merged)
+- Snapshot directories now include `manifest.yml` plus one raw JSON file per fetched cluster for reproducibility
 - Page files are only created for new actors
 
 ## What the importer updates

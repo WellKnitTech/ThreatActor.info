@@ -16,10 +16,13 @@ require_relative 'actor_store'
 # Importer for MISP Galaxy threat actor data
 # Source: https://github.com/MISP/misp-galaxy
 class MispGalaxyImporter
+  DEFAULT_OVERRIDES_FILE = 'data/imports/misp-galaxy/mapping_overrides.yml'.freeze
   PAGE_DIR = '_threat_actors'.freeze
   SOURCE_NAME = 'MISP Galaxy'.freeze
   SOURCE_REPOSITORY = 'https://github.com/MISP/misp-galaxy'.freeze
-  SOURCE_URL = 'https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json'.freeze
+  SOURCE_BASE_URL = 'https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters'.freeze
+  DEFAULT_CLUSTER = 'threat-actor.json'.freeze
+  SOURCE_ATTRIBUTION = 'Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)'.freeze
   LICENSE_NAME = 'Apache 2.0 / CC0'.freeze
   LICENSE_URL = 'https://github.com/MISP/misp-galaxy/blob/main/README.md#license'.freeze
 
@@ -117,11 +120,19 @@ class MispGalaxyImporter
       write: false,
       snapshot: nil,
       output: nil,
+      clusters: [],
       actor_filters: [],
       limit: nil,
       new_only: false,
       report_json: nil,
+      overrides_file: DEFAULT_OVERRIDES_FILE,
       force: false
+    }
+    @overrides = {
+      excluded_records: [],
+      match_overrides: {},
+      country_overrides: {},
+      alias_drop_list: []
     }
   end
 
@@ -129,13 +140,16 @@ class MispGalaxyImporter
     case @command
     when 'fetch'
       parse_fetch_options
+      load_overrides
       fetch_snapshot
     when 'plan'
       parse_import_options
+      load_overrides
       import_snapshot
     when 'import'
       parse_import_options
       @options[:write] = true
+      load_overrides
       import_snapshot
     else
       puts usage
@@ -153,13 +167,15 @@ class MispGalaxyImporter
         ruby scripts/import-misp-galaxy.rb import --snapshot PATH [options]
 
       Commands:
-        fetch   Download MISP Galaxy threat-actor cluster for later import.
+        fetch   Download one or more MISP Galaxy cluster files for later import.
         plan    Preview changes that would be made from a snapshot.
         import  Apply a snapshot to `_data/actors/*.yml` and `_threat_actors/*.md`.
 
       Examples:
         ruby scripts/import-misp-galaxy.rb fetch --output data/imports/misp-galaxy/2026-04-26
+        ruby scripts/import-misp-galaxy.rb fetch --output data/imports/misp-galaxy/2026-04-26 --cluster 360net --cluster microsoft-activity-group
         ruby scripts/import-misp-galaxy.rb plan --snapshot data/imports/misp-galaxy/2026-04-26
+        ruby scripts/import-misp-galaxy.rb plan --snapshot data/imports/misp-galaxy/2026-04-26 --cluster 360net --cluster microsoft-activity-group
         ruby scripts/import-misp-galaxy.rb import --snapshot data/imports/misp-galaxy/2026-04-26
     TEXT
   end
@@ -168,7 +184,9 @@ class MispGalaxyImporter
     parser = OptionParser.new do |opts|
       opts.banner = 'Usage: ruby scripts/import-misp-galaxy.rb fetch [options]'
       opts.on('--output DIR', 'Snapshot output directory') { |value| @options[:output] = value }
+      opts.on('--cluster NAME', 'Cluster filename to fetch (repeatable)') { |value| @options[:clusters] << value }
       opts.on('--limit N', Integer, 'Fetch only the first N actors') { |value| @options[:limit] = value }
+      opts.on('--overrides PATH', 'Override mapping file') { |value| @options[:overrides_file] = value }
     end
 
     parser.parse!(@argv)
@@ -179,11 +197,13 @@ class MispGalaxyImporter
     parser = OptionParser.new do |opts|
       opts.banner = 'Usage: ruby scripts/import-misp-galaxy.rb plan|import [options]'
       opts.on('--snapshot PATH', 'Snapshot directory or cluster file') { |value| @options[:snapshot] = value }
+      opts.on('--cluster NAME', 'Cluster filename inside snapshot dir (repeatable)') { |value| @options[:clusters] << value }
       opts.on('--write', 'Apply changes instead of previewing') { @options[:write] = true }
       opts.on('--new-only', 'Only create new actors; do not update existing') { @options[:new_only] = true }
       opts.on('--actor NAME', 'Restrict import to specific actor (repeatable)') { |value| @options[:actor_filters] << value }
       opts.on('--limit N', Integer, 'Process only first N candidates') { |value| @options[:limit] = value }
       opts.on('--report-json PATH', 'Write machine-readable report') { |value| @options[:report_json] = value }
+      opts.on('--overrides PATH', 'Override mapping file') { |value| @options[:overrides_file] = value }
       opts.on('--force', 'Force overwrite of protected fields') { @options[:force] = true }
     end
 
@@ -192,46 +212,39 @@ class MispGalaxyImporter
 
   # Download MISP Galaxy cluster
   def fetch_snapshot
-    puts "Fetching MISP Galaxy threat-actor cluster..."
-    puts "Source: #{SOURCE_URL}"
-
-    uri = URI.parse(SOURCE_URL)
-    http = Net::HTTP.new(uri.host, uri.port)
-    http.use_ssl = true
-    http.verify_mode = OpenSSL::SSL::VERIFY_PEER
-
-    response = http.get(uri.request_uri)
-    unless response.code == '200'
-      puts "Error: HTTP #{response.code}"
-      exit 1
-    end
-
-    data = JSON.parse(response.body)
-
-    # Extract values array
-    actors = data['values'] || []
-
-    # Apply limit if specified
-    actors = actors.first(@options[:limit]) if @options[:limit]
-
-    puts "Fetched #{actors.length} threat actors"
-
-    # Save snapshot
     output_dir = @options[:output]
     FileUtils.mkdir_p(output_dir)
-    output_file = File.join(output_dir, 'threat-actor.json')
     manifest_file = File.join(output_dir, 'manifest.yml')
 
-    File.write(output_file, JSON.pretty_generate(data))
+    puts 'Fetching MISP Galaxy clusters...'
+
+    fetched_clusters = selected_clusters.map do |cluster_name|
+      source_url = cluster_url(cluster_name)
+      puts "Source: #{source_url}"
+
+      data = fetch_cluster_json(source_url)
+      data['values'] = Array(data['values']).first(@options[:limit]) if @options[:limit]
+
+      output_file = File.join(output_dir, cluster_name)
+      File.write(output_file, JSON.pretty_generate(data))
+      puts "Saved #{Array(data['values']).length} records to: #{output_file}"
+
+      {
+        'name' => cluster_name,
+        'source_url' => source_url,
+        'record_count' => Array(data['values']).length,
+        'source_checksum_sha256' => Digest::SHA256.hexdigest(JSON.generate(data))
+      }
+    end
+
     File.write(manifest_file, YAML.dump({
-                                           'source_name' => SOURCE_NAME,
-                                           'source_url' => SOURCE_URL,
-                                           'retrieved_at' => Time.now.utc.iso8601,
-                                           'record_count' => actors.length,
-                                           'source_checksum_sha256' => Digest::SHA256.hexdigest(JSON.generate(data)),
-                                           'cluster_file' => 'threat-actor.json'
-                                         }))
-    puts "Saved to: #{output_file}"
+      'source_name' => SOURCE_NAME,
+      'source_repository' => SOURCE_REPOSITORY,
+      'retrieved_at' => Time.now.utc.iso8601,
+      'clusters' => fetched_clusters
+    }))
+
+    puts "Saved manifest to: #{manifest_file}"
   end
 
   # Import a snapshot
@@ -242,27 +255,19 @@ class MispGalaxyImporter
       exit 1
     end
 
-    # Find the cluster file
-    cluster_file = if File.directory?(snapshot_path)
-                     File.join(snapshot_path, 'threat-actor.json')
-                   else
-                     snapshot_path
-                   end
-
-    unless File.exist?(cluster_file)
-      puts "Error: Cluster file not found: #{cluster_file}"
+    cluster_files = resolve_snapshot_cluster_files(snapshot_path)
+    if cluster_files.empty?
+      puts "Error: No cluster files found for snapshot: #{snapshot_path}"
       exit 1
     end
 
-    puts "Loading snapshot: #{cluster_file}"
-    cluster_data = JSON.parse(File.read(cluster_file))
-    misp_actors = cluster_data['values'] || []
-
-    puts "Loaded #{misp_actors.length} MISP Galaxy actors"
+    puts "Loading snapshot files: #{cluster_files.join(', ')}"
+    misp_actors = load_snapshot_records(cluster_files)
+    puts "Loaded #{misp_actors.length} MISP Galaxy records"
 
     # Load existing actors
     existing_actors = load_existing_actors
-    existing_names = existing_actors.map { |a| normalize_name(a['name']) }.compact.to_set
+    existing_lookup, external_id_lookup, existing_by_name = build_existing_indexes(existing_actors)
 
     # Convert to our schema
     candidates = []
@@ -272,20 +277,37 @@ class MispGalaxyImporter
       candidate = convert_misp_actor(misp)
       next unless candidate
 
-      # Check if it's a new actor
-      normalized = normalize_name(candidate[:name])
-      candidate[:is_new] = !existing_names.include?(normalized)
-
-      # Skip if --new-only and actor exists
-      next if @options[:new_only] && !candidate[:is_new]
-
       candidates << candidate
     end
+
+    candidates = merge_candidates(candidates)
+
+    candidates.each do |candidate|
+      explicit_match = @overrides[:match_overrides][candidate[:record_key]]
+      matched_names = if explicit_match
+                        [explicit_match]
+                      else
+                        infer_matches(candidate, existing_lookup, external_id_lookup).to_a.sort
+                      end
+
+      candidate[:matched_actor_names] = matched_names
+      candidate[:existing_actor_name] = matched_names.first
+      candidate[:action] = if matched_names.empty?
+                            'create'
+                          elsif matched_names.length == 1 && existing_by_name.key?(matched_names.first)
+                            'update'
+                          else
+                            'review'
+                          end
+      candidate[:is_new] = candidate[:action] == 'create'
+    end
+
+    candidates.select! { |candidate| !@options[:new_only] || candidate[:action] == 'create' }
 
     # Apply limit
     candidates = candidates.first(@options[:limit]) if @options[:limit]
 
-    puts "Processing #{candidates.length} candidates (#{candidates.count { |c| c[:is_new] }} new)"
+    puts "Processing #{candidates.length} candidates (#{candidates.count { |c| c[:action] == 'create' }} create, #{candidates.count { |c| c[:action] == 'update' }} update, #{candidates.count { |c| c[:action] == 'review' }} review)"
 
     # Generate report
     report = generate_report(candidates, existing_actors)
@@ -309,6 +331,9 @@ class MispGalaxyImporter
     name = misp['value']
     return nil unless name && !name.strip.empty?
 
+    record_key = normalize_name(name)
+    return nil if @overrides[:excluded_records].include?(record_key)
+
     meta = misp['meta'] || {}
 
     # Build aliases from synonyms
@@ -316,6 +341,7 @@ class MispGalaxyImporter
     aliases |= meta['synonyms'] if meta['synonyms']
     # Keep the primary name in aliases too for searchability
     aliases |= [name]
+    aliases.reject! { |value| @overrides[:alias_drop_list].include?(normalize_name(value)) }
 
     # Convert country code
     country_code = meta['country']
@@ -335,26 +361,30 @@ class MispGalaxyImporter
                else sponsor
                end
     end
+    country = @overrides[:country_overrides][record_key] if @overrides[:country_overrides][record_key]
 
-# Build sector_focus from targeted-sector or cfr-target-category
+    cluster_name = misp['cluster_name'] || DEFAULT_CLUSTER
+    source_url = cluster_url(cluster_name)
+
+    # Build sector_focus from targeted-sector or cfr-target-category
     sector_focus = []
     sector_focus |= meta['targeted-sector'] if meta['targeted-sector']
     sector_focus |= meta['cfr-target-category'] if meta['cfr-target-category']
-    
+
     # Extract targeted victims
     targeted_victims = meta['cfr-suspected-victims'] || []
-    
+
     # Extract incident type (motivation)
     incident_type = meta['cfr-type-of-incident']
-    
+
     # Extract malware from description by matching MITRE malware/rat names
     malware_list = extract_malware_from_description(misp['description'])
-    
+
     # Clean up refs - truncate long PDF URLs
     refs = []
     (meta['refs'] || []).each do |ref_url|
       next unless ref_url && ref_url =~ /^https?:/
-      
+
       # Truncate long PDF URLs
       if ref_url.include?('pdf') && ref_url.length > 100
         clean = ref_url.split('#').first.split('?').first
@@ -368,12 +398,12 @@ class MispGalaxyImporter
         refs << ref_url
       end
     end
-    
+
     # Determine risk_level from attribution-confidence
     risk_level = nil
     if meta['attribution-confidence']
       confidence = meta['attribution-confidence'].to_i
-risk_level = if confidence >= 70
+      risk_level = if confidence >= 70
                    'Critical'
                  elsif confidence >= 50
                    'High'
@@ -383,15 +413,16 @@ risk_level = if confidence >= 70
                    'Low'
                  end
     end
-    
+
     # Build malware list from description
     malware_list = extract_malware_from_description(misp['description'])
-    
+
     # Build URL slug
     url = "/#{name.downcase.gsub(/[^a-z0-9]/, '-').squeeze('-').gsub(/^-|-$/, '')}"
 
     {
       name: name,
+      record_key: record_key,
       aliases: aliases,
       description: misp['description'] || '',
       url: url,
@@ -403,8 +434,129 @@ risk_level = if confidence >= 70
       malware: malware_list,
       refs: refs,
       misp_uuid: misp['uuid'],
-      misp_meta: meta
+      misp_meta: meta,
+      source_cluster: cluster_name,
+      source_clusters: [cluster_name],
+      source_dataset_url: source_url,
+      source_record_ids: [misp['uuid']].compact
     }
+  end
+
+  def build_existing_indexes(existing_actors)
+    existing_lookup = Hash.new { |hash, key| hash[key] = Set.new }
+    external_id_lookup = {}
+    existing_by_name = {}
+
+    existing_actors.each do |actor|
+      name = actor['name']
+      next if name.to_s.empty?
+
+      existing_by_name[name] = actor
+      ([actor['name']] + Array(actor['aliases']) + [actor['url'].to_s.sub(%r{^/}, '')]).each do |value|
+        key = normalize_name(value)
+        next if key.to_s.empty?
+
+        existing_lookup[key] << name
+      end
+
+      %w[external_id mitre_id].each do |field|
+        external_id = actor[field].to_s.strip.upcase
+        external_id_lookup[external_id] = name unless external_id.empty?
+      end
+    end
+
+    [existing_lookup, external_id_lookup, existing_by_name]
+  end
+
+  def infer_matches(candidate, existing_lookup, external_id_lookup)
+    matches = Set.new
+
+    Array(candidate[:aliases]).each do |value|
+      key = normalize_name(value)
+      existing_lookup[key].each { |actor_name| matches << actor_name }
+      external_id_lookup[value.to_s.strip.upcase]&.then { |actor_name| matches << actor_name }
+    end
+
+    matches
+  end
+
+  def merge_candidates(candidates)
+    candidates.each_with_object({}) do |candidate, memo|
+      key = normalize_name(candidate[:name])
+      next unless key
+
+      if memo[key]
+        merge_candidate!(memo[key], candidate)
+      else
+        memo[key] = deep_dup_candidate(candidate)
+      end
+    end.values
+  end
+
+  def deep_dup_candidate(candidate)
+    Marshal.load(Marshal.dump(candidate))
+  end
+
+  def merge_candidate!(base, extra)
+    base[:aliases] = merge_string_arrays(base[:aliases], extra[:aliases])
+    base[:description] = preferred_description(base[:description], extra[:description])
+    base[:country] ||= extra[:country]
+    base[:sector_focus] = merge_string_arrays(base[:sector_focus], extra[:sector_focus])
+    base[:targeted_victims] = merge_string_arrays(base[:targeted_victims], extra[:targeted_victims])
+    base[:incident_type] ||= extra[:incident_type]
+    base[:malware] = merge_malware_lists(base[:malware], extra[:malware])
+    base[:refs] = merge_string_arrays(base[:refs], extra[:refs])
+    base[:risk_level] = higher_risk_level(base[:risk_level], extra[:risk_level])
+    base[:source_clusters] = merge_string_arrays(base[:source_clusters], extra[:source_clusters])
+    base[:source_record_ids] = merge_string_arrays(base[:source_record_ids], extra[:source_record_ids])
+    base[:source_cluster] ||= extra[:source_cluster]
+    base[:source_dataset_url] ||= extra[:source_dataset_url]
+    base
+  end
+
+  def merge_string_arrays(left, right)
+    Array(left).compact.map(&:to_s).reject(&:empty?) | Array(right).compact.map(&:to_s).reject(&:empty?)
+  end
+
+  def merge_malware_lists(left, right)
+    combined = Array(left) + Array(right)
+    seen = Set.new
+
+    combined.each_with_object([]) do |entry, memo|
+      next unless entry.is_a?(Hash)
+
+      name = entry['name'].to_s.strip
+      next if name.empty?
+
+      key = name.downcase
+      next if seen.include?(key)
+
+      seen << key
+      memo << { 'name' => name }
+    end
+  end
+
+  def preferred_description(left, right)
+    left_text = left.to_s.strip
+    right_text = right.to_s.strip
+    return right_text if left_text.empty?
+    return left_text if right_text.empty?
+
+    right_text.length > left_text.length ? right_text : left_text
+  end
+
+  def higher_risk_level(left, right)
+    order = {
+      'Low' => 1,
+      'Medium' => 2,
+      'High' => 3,
+      'Critical' => 4
+    }
+
+    return right if left.to_s.empty?
+    return left if right.to_s.empty?
+
+    order.fetch(left, 0) >= order.fetch(right, 0) ? left : right
   end
   
   # Extract malware names from description by matching MITRE reference data
@@ -457,14 +609,17 @@ risk_level = if confidence >= 70
       repository: SOURCE_REPOSITORY,
       license: LICENSE_NAME,
       total_candidates: candidates.length,
-      new_actors: candidates.count { |c| c[:is_new] },
-      existing_actors: candidates.length - candidates.count { |c| c[:is_new] },
+      creates: candidates.count { |c| c[:action] == 'create' },
+      updates: candidates.count { |c| c[:action] == 'update' },
+      review: candidates.count { |c| c[:action] == 'review' },
       actions: candidates.map do |c|
         {
           name: c[:name],
           url: c[:url],
-          action: c[:is_new] ? 'create' : 'update',
-          is_new: c[:is_new]
+          action: c[:action],
+          is_new: c[:is_new],
+          matched_actor_names: c[:matched_actor_names],
+          source_clusters: c[:source_clusters]
         }
       end
     }
@@ -477,16 +632,18 @@ risk_level = if confidence >= 70
     skipped = candidates.length - valid_candidates.length
     
     puts "\n=== Import Plan ==="
-    puts "Total: #{candidates.length} (#{candidates.count { |c| c[:is_new] }} new, #{candidates.count { |c| !c[:is_new] }} updates)"
+    puts "Total: #{candidates.length} (#{candidates.count { |c| c[:action] == 'create' }} create, #{candidates.count { |c| c[:action] == 'update' }} update, #{candidates.count { |c| c[:action] == 'review' }} review)"
     puts "Skipped (empty description): #{skipped}" if skipped > 0
 
     valid_candidates.each do |c|
-      action = c[:is_new] ? 'CREATE' : 'UPDATE'
+      action = c[:action].upcase
       puts "\n#{action}: #{c[:name]}"
       puts "  URL: #{c[:url]}"
       puts "  Country: #{c[:country] || 'N/A'}"
       puts "  Risk Level: #{c[:risk_level] || 'N/A'}"
       puts "  Aliases: #{c[:aliases].first(5).join(', ')}#{c[:aliases].length > 5 ? '...' : ''}"
+      puts "  Matches: #{c[:matched_actor_names].join(', ')}" if c[:action] == 'review'
+      puts "  Match: #{c[:existing_actor_name]}" if c[:action] == 'update'
       puts "  Description: #{c[:description][0..100]}..." if c[:description]
     end
 
@@ -501,15 +658,18 @@ risk_level = if confidence >= 70
     candidates_to_import = candidates.reject do |c|
       c[:description].to_s.strip.empty?
     end
+    review_candidates = candidates_to_import.select { |c| c[:action] == 'review' }
+    candidates_to_import = candidates_to_import.reject { |c| c[:action] == 'review' }
     
     if candidates_to_import.length < candidates.length
       skipped = candidates.length - candidates_to_import.length
       puts "Skipped #{skipped} actors with empty descriptions"
     end
+    puts "Skipped #{review_candidates.length} review candidates that need mapping overrides" if review_candidates.any?
 
     # Process each candidate
     candidates_to_import.each do |c|
-      if c[:is_new]
+      if c[:action] == 'create'
         create_new_actor(c, existing_actors)
       else
         update_existing_actor(c, existing_actors)
@@ -540,13 +700,18 @@ risk_level = if confidence >= 70
     actor_entry['targeted_victims'] = candidate[:targeted_victims] if candidate[:targeted_victims] && !candidate[:targeted_victims].empty?
     actor_entry['incident_type'] = candidate[:incident_type] if candidate[:incident_type]
     actor_entry['malware'] = candidate[:malware] if candidate[:malware] && !candidate[:malware].empty?
+    actor_entry['source_name'] = SOURCE_NAME
+    actor_entry['source_attribution'] = SOURCE_ATTRIBUTION
 
     # Add provenance
     actor_entry['provenance'] = {
       'misp_galaxy' => {
         'source_retrieved_at' => Time.now.utc.strftime('%Y-%m-%dT%H:%M:%SZ'),
         'source_record_id' => candidate[:misp_uuid],
-        'source_dataset_url' => SOURCE_URL
+        'source_record_ids' => candidate[:source_record_ids],
+        'source_dataset_url' => candidate[:source_dataset_url],
+        'source_cluster' => candidate[:source_cluster],
+        'source_clusters' => candidate[:source_clusters]
       }
     }
 
@@ -558,7 +723,11 @@ risk_level = if confidence >= 70
 
 # Update existing actor (additive only for aliases)
   def update_existing_actor(candidate, existing_actors)
-    actor = existing_actors.find { |a| a['name'] == candidate[:name] || a['url'] == candidate[:url] }
+    actor = if candidate[:existing_actor_name]
+              existing_actors.find { |a| a['name'] == candidate[:existing_actor_name] }
+            else
+              existing_actors.find { |a| a['name'] == candidate[:name] || a['url'] == candidate[:url] }
+            end
     return unless actor
 
     return if @options[:new_only]
@@ -577,6 +746,9 @@ risk_level = if confidence >= 70
       actor['targeted_victims'] ||= candidate[:targeted_victims] if candidate[:targeted_victims] && !candidate[:targeted_victims].empty?
       actor['incident_type'] ||= candidate[:incident_type] if candidate[:incident_type]
       actor['malware'] ||= candidate[:malware] if candidate[:malware] && !candidate[:malware].empty?
+      actor['source_name'] ||= SOURCE_NAME
+      actor['source_attribution'] ||= SOURCE_ATTRIBUTION
+      merge_misp_provenance!(actor, candidate)
 
       # Replace placeholder description with real data from MISP
       if candidate[:description] && !candidate[:description].strip.empty?
@@ -601,11 +773,16 @@ risk_level = if confidence >= 70
       actor['risk_level'] = candidate[:risk_level] if candidate[:risk_level]
       actor['sector_focus'] = candidate[:sector_focus] if candidate[:sector_focus] && !candidate[:sector_focus].empty?
       actor['country'] = candidate[:country] if candidate[:country]
+      actor['source_name'] = SOURCE_NAME
+      actor['source_attribution'] = SOURCE_ATTRIBUTION
       actor['provenance'] ||= {}
       actor['provenance']['misp_galaxy'] = {
         'source_retrieved_at' => Time.now.utc.strftime('%Y-%m-%dT%H:%M:%SZ'),
         'source_record_id' => candidate[:misp_uuid],
-        'source_dataset_url' => SOURCE_URL
+        'source_record_ids' => candidate[:source_record_ids],
+        'source_dataset_url' => candidate[:source_dataset_url],
+        'source_cluster' => candidate[:source_cluster],
+        'source_clusters' => candidate[:source_clusters]
       }
       # Clear placeholder flags on forced update
       actor['provenance'].delete('placeholder_description')
@@ -653,7 +830,7 @@ risk_level = if confidence >= 70
 
       **Source:** This information is derived from MISP Galaxy, available under #{LICENSE_NAME}.
 
-      **References:**
+      ## References
 
 YAML
 
@@ -672,6 +849,108 @@ YAML
   def save_existing_actors(actors)
     ActorStore.save_all(actors)
     puts 'Updated: _data/actors/*.yml'
+  end
+
+  def load_overrides
+    return unless File.exist?(@options[:overrides_file])
+
+    payload = YAML.safe_load(File.read(@options[:overrides_file]), permitted_classes: [], aliases: false) || {}
+    @overrides[:excluded_records] = Array(payload['excluded_records']).map { |value| normalize_name(value) }.uniq
+    @overrides[:match_overrides] = normalize_override_hash(payload['match_overrides'], preserve_values: true)
+    @overrides[:country_overrides] = normalize_override_hash(payload['country_overrides'], preserve_values: true)
+    @overrides[:alias_drop_list] = Array(payload['alias_drop_list']).map { |value| normalize_name(value) }.uniq
+  end
+
+  def normalize_override_hash(value, preserve_values: false)
+    (value || {}).each_with_object({}) do |(key, mapped_value), memo|
+      normalized_key = normalize_name(key)
+      next if normalized_key.to_s.empty?
+
+      memo[normalized_key] = preserve_values ? mapped_value : normalize_name(mapped_value)
+    end
+  end
+
+  def merge_misp_provenance!(actor, candidate)
+    actor['provenance'] ||= {}
+    actor['provenance']['misp_galaxy'] ||= {}
+
+    provenance = actor['provenance']['misp_galaxy']
+    provenance['source_retrieved_at'] = Time.now.utc.strftime('%Y-%m-%dT%H:%M:%SZ')
+    provenance['source_dataset_url'] ||= candidate[:source_dataset_url]
+    provenance['source_cluster'] ||= candidate[:source_cluster]
+    provenance['source_clusters'] = merge_string_arrays(provenance['source_clusters'], candidate[:source_clusters])
+    provenance['source_record_ids'] = merge_string_arrays(provenance['source_record_ids'], candidate[:source_record_ids])
+    provenance['source_record_id'] ||= candidate[:misp_uuid]
+  end
+
+  def selected_clusters
+    clusters = @options[:clusters].empty? ? [DEFAULT_CLUSTER] : @options[:clusters]
+    clusters.map { |cluster| normalize_cluster_name(cluster) }.uniq
+  end
+
+  def normalize_cluster_name(cluster_name)
+    name = cluster_name.to_s.strip
+    name = "#{name}.json" unless name.end_with?('.json')
+    name
+  end
+
+  def cluster_url(cluster_name)
+    "#{SOURCE_BASE_URL}/#{cluster_name}"
+  end
+
+  def fetch_cluster_json(source_url)
+    uri = URI.parse(source_url)
+    http = Net::HTTP.new(uri.host, uri.port)
+    http.use_ssl = true
+    http.verify_mode = OpenSSL::SSL::VERIFY_PEER
+
+    response = http.get(uri.request_uri)
+    unless response.code == '200'
+      puts "Error: HTTP #{response.code} for #{source_url}"
+      exit 1
+    end
+
+    JSON.parse(response.body)
+  end
+
+  def resolve_snapshot_cluster_files(snapshot_path)
+    return [snapshot_path] unless File.directory?(snapshot_path)
+
+    cluster_names = if @options[:clusters].any?
+                      selected_clusters
+                    else
+                      manifest_clusters(snapshot_path)
+                    end
+
+    cluster_names.map { |cluster_name| File.join(snapshot_path, cluster_name) }.select { |path| File.exist?(path) }
+  end
+
+  def manifest_clusters(snapshot_path)
+    manifest_path = File.join(snapshot_path, 'manifest.yml')
+    return [DEFAULT_CLUSTER] if File.exist?(File.join(snapshot_path, DEFAULT_CLUSTER)) && !File.exist?(manifest_path)
+
+    if File.exist?(manifest_path)
+      manifest = YAML.safe_load(File.read(manifest_path), permitted_classes: [], aliases: true) || {}
+      clusters = Array(manifest['clusters']).filter_map do |entry|
+        entry.is_a?(Hash) ? entry['name'] : entry
+      end
+      return clusters.map { |cluster| normalize_cluster_name(cluster) } unless clusters.empty?
+    end
+
+    Dir.glob(File.join(snapshot_path, '*.json')).map { |path| File.basename(path) }.sort
+  end
+
+  def load_snapshot_records(cluster_files)
+    cluster_files.each_with_object([]) do |cluster_file, records|
+      cluster_data = JSON.parse(File.read(cluster_file))
+      cluster_name = File.basename(cluster_file)
+
+      Array(cluster_data['values']).each do |record|
+        next unless record.is_a?(Hash)
+
+        records << record.merge('cluster_name' => cluster_name)
+      end
+    end
   end
 
   # Normalize actor name for matching
