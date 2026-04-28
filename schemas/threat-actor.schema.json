@@ -118,7 +118,18 @@
       "$ref": "#/$defs/stringArray"
     },
     "malware": {
-      "$ref": "#/$defs/stringArray"
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "string",
+            "minLength": 1
+          },
+          {
+            "$ref": "#/$defs/malwareEntry"
+          }
+        ]
+      }
     },
     "ttps": {
       "$ref": "#/$defs/stringArray"
@@ -157,6 +168,19 @@
         "minLength": 1
       },
       "uniqueItems": true
+    },
+    "malwareEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
     }
   }
 }
