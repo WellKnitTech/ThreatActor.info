@@ -21,6 +21,36 @@ module MitreCommon
     "#{RAW_BASE}/#{info[:folder]}/#{info[:file]}"
   end
 
+  # Filename within repo folder (e.g. enterprise-attack-19.0.json or enterprise-attack.json).
+  def versioned_bundle_filename(domain_key, version)
+    info = DOMAIN_FILES[domain_key] || raise(ArgumentError, "Unknown domain: #{domain_key}")
+    base = info[:file].sub(/\.json\z/, '')
+    return "#{base}.json" if version.nil? || version.to_s.strip.empty?
+
+    "#{base}-#{version}.json"
+  end
+
+  # Reads ATT&CK release from STIX bundle (x-mitre-collection object).
+  def attack_version_from_bundle(data)
+    return nil unless data.is_a?(Hash)
+
+    Array(data['objects']).each do |obj|
+      next unless obj.is_a?(Hash)
+
+      next unless obj['type'] == 'x-mitre-collection'
+
+      v = obj['x_mitre_version']
+      s = v.to_s.strip
+      return s unless s.empty?
+
+      name = obj['name'].to_s
+      if (m = name.match(/ATT&CK\s*v?\s*([\d.]+)/i))
+        return m[1]
+      end
+    end
+    nil
+  end
+
   def mitre_external_id(obj)
     return nil unless obj.is_a?(Hash)
 

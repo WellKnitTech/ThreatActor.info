@@ -16,6 +16,12 @@ layout: default
     {% if page.domains %}
     <p class="mitre-domains"><strong>Domains:</strong> {{ page.domains | join: ", " }}</p>
     {% endif %}
+    {% if page.domain %}
+    <p class="mitre-domain-primary"><strong>Framework:</strong> {{ page.domain }}</p>
+    {% endif %}
+    {% if page.attack_version %}
+    <p class="mitre-attack-version"><strong>ATT&amp;CK release:</strong> v{{ page.attack_version }}</p>
+    {% endif %}
     {% if page.shortname %}
     <p><strong>Short name:</strong> <code>{{ page.shortname }}</code></p>
     {% endif %}
@@ -28,7 +34,7 @@ layout: default
   <section class="tactic-project-actors" aria-labelledby="tactic-actors-heading">
     <h2 id="tactic-actors-heading">Threat actors in this project</h2>
     <p class="tactic-actors-lead">
-      Actors whose cited ATT&CK techniques fall under this tactic (Enterprise mappings).
+      Actors whose cited ATT&amp;CK techniques fall under this tactic for the framework shown above.
       See also the <a href="{{ '/ttps/' | relative_url }}">ATT&amp;CK matrix</a>.
     </p>
     <div

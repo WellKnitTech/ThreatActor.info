@@ -53,7 +53,7 @@
     <div class="footer-section">
       <h3>Data Sources</h3>
       <ul>
-        <li><a href="https://attack.mitre.org/">MITRE ATT&CK</a></li>
+        <li id="footer-mitre-attack-version"><a href="https://attack.mitre.org/">MITRE ATT&amp;CK</a></li>
         <li><a href="https://github.com/MISP/misp-galaxy">MISP Galaxy</a></li>
         <li><a href="https://www.cisa.gov/KEV">CISA KEV</a></li>
         <li><a href="https://www.ransomlook.io/">RansomLook</a></li>
@@ -75,6 +75,17 @@
   </div>
   <p class="footer-bottom">&copy; {{ "now" | date: "%Y" }} {{ site.title }} — Licensed under <a href="/LICENSE">The Unlicense</a></p>
 </footer>
+  <script>
+    (function() {
+      var endpoint = '{{ "/api/attack-version.json" | relative_url }}';
+      fetch(endpoint).then(function (r) { return r.json(); }).then(function (data) {
+        var el = document.getElementById('footer-mitre-attack-version');
+        if (!el || !data || !data.active_version) return;
+        var a = el.querySelector('a');
+        if (a) a.textContent = 'MITRE ATT&CK v' + data.active_version;
+      }).catch(function () {});
+    })();
+  </script>
   <script>
     (function() {
       const toggleBtn = document.getElementById('theme-toggle');

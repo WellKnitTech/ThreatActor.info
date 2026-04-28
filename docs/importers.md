@@ -32,7 +32,15 @@ Reviewed name and rename handling lives in `data/imports/ransomlook/mapping_over
 
 `scripts/import-mitre.rb` imports [MITRE ATT&CK](https://attack.mitre.org) STIX 2.1 bundles from [mitre-attack/attack-stix-data](https://github.com/mitre-attack/attack-stix-data).
 
-It uses the same **fetch → plan → import** snapshot workflow as other automated importers. Snapshots are stored under `data/imports/mitre-attack/<YYYY-MM-DD>/` with a `manifest.yml` listing downloaded bundle URLs (Enterprise, Mobile, and ICS by default).
+It uses the same **fetch → plan → import** snapshot workflow as other automated importers. Snapshots are stored under `data/imports/mitre-attack/<YYYY-MM-DD>/` with a `manifest.yml` listing downloaded bundle URLs (Enterprise, Mobile, and ICS by default). The manifest records a parsed **`attack_version`** per domain (from the STIX `x-mitre-collection` object) so imports and indexes agree on the ATT&CK release.
+
+### ATT&CK version pinning and `data/mitre-cache/`
+
+- **`--version X.Y`** on `fetch` selects versioned bundle filenames from [attack-stix-data](https://github.com/mitre-attack/attack-stix-data) (for example `enterprise-attack-19.0.json`). Omitting it uses the repo’s default/latest filenames.
+- **`data/mitre-cache/`** (gitignored) holds local copies: `<domain>-attack-<version>.json` plus **`active.yml`**, which points each framework (`enterprise`, `mobile`, `ics`) at the active file and version.
+- **`--write-active`** (default on fetch/import) copies snapshot bundles into `data/mitre-cache/` and refreshes `active.yml`. Use **`--no-write-active`** when you want a snapshot-only run without touching the cache.
+- **`scripts/generate-indexes.rb`** resolves bundles in order: newest importer snapshot manifest → `active.yml` → optional network download. Regenerate `_data/generated/attack_version.json` and MITRE indexes after changing the active release.
+- Actor YAML updated by import includes **`provenance.mitre.attack_version`** (and versioned **`source_dataset_url`**) for traceability.
 
 ### Commands
 

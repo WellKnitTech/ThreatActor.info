@@ -35,6 +35,7 @@ class JsonSchemaValidator
     _data/generated/ioc_summary.json
     _data/generated/actors_by_tactic.json
     _data/generated/technique_tactics.json
+    _data/generated/attack_version.json
   ].freeze
 
   def initialize

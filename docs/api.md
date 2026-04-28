@@ -254,17 +254,31 @@ const group = shard.groups.find((g) => g.key === '192.168');
 - Deep-link from hub search: `/iocs/ip-address/?value=<canonical>` (URL-encoded) expands the matching group and highlights the row.
 - Actor-specific IOC filtering: use `facets.actor` or filter `records` / group `records` by `actor_slug`.
 
+### `/api/attack-version.json`
+
+Single object describing the **active ATT&CK release** and per-domain bundle metadata used to build MITRE indexes (Enterprise, Mobile, ICS).
+
+Typical keys:
+
+- `active_version` — unified release string (for example `19.0`) when all domains resolve to the same ATT&CK version.
+- `retrieved_at` — ISO timestamp when bundles were last resolved.
+- `domains` — object with keys `enterprise`, `mobile`, and `ics`; each value includes `version`, `source_url`, and optional counts (`techniques`, `tactics`).
+
+Populated by `scripts/generate-indexes.rb` via `scripts/mitre/version_resolver.rb` (snapshot manifest → `data/mitre-cache/active.yml` → optional network fetch). The site footer and `/ttps/` use this for the “ATT&CK vX.Y” label.
+
 ### `/api/techniques.json`
 
-Array of MITRE technique summaries from `_techniques/*.md` front matter (`title`, `mitre_id`, `permalink`, `mitre_url`, `domains`).
+Array of MITRE technique summaries from `_techniques/*.md` front matter (`title`, `mitre_id`, `permalink`, `mitre_url`, `domains`, `attack_version`).
 
-The `/ttps/` ATT&CK matrix page consumes this together with `tactics.json`, `technique-tactics.json`, and the actor indexes below.
+Each record may include **`domain`** — the primary MITRE framework for that row (`enterprise`, `mobile`, or `ics`) when generated from merged multi-domain STIX.
+
+The `/ttps/` ATT&CK matrix page consumes this together with `tactics.json`, `technique-tactics.json`, `attack-version.json`, and the actor indexes below.
 
 ### `/api/tactics.json`
 
-Array of MITRE tactic summaries from `_tactics/*.md`.
+Array of MITRE tactic summaries from `_tactics/*.md`. Records may include **`domain`** and **`attack_version`**.
 
-The `/ttps/` matrix orders its tactic columns using this array (Enterprise kill-chain order when indexes are regenerated).
+The `/ttps/` matrix orders its tactic columns using this array (filtered client-side by selected framework). Enterprise columns follow kill-chain order when indexes are regenerated.
 
 ### `/api/mitigations.json`
 
@@ -280,11 +294,11 @@ Object keyed by technique ID (for example `T1059`) listing actors that reference
 
 ### `/api/actors_by_tactic.json`
 
-Object keyed by tactic ID (for example `TA0007`) listing actors whose cited techniques map to that tactic under Enterprise ATT&CK. Requires `technique_tactics` mappings from `scripts/generate-indexes.rb` (Enterprise bundle cache or importer snapshot).
+Object keyed by tactic ID (for example `TA0007`) listing actors whose cited techniques map to that tactic. Entries may be actor names (legacy) or objects with `name` and `domain` when domain-specific bucketing is available. Requires `technique_tactics` mappings from `scripts/generate-indexes.rb` (cached MITRE bundles or importer snapshot).
 
 ### `/api/technique-tactics.json`
 
-Object keyed by technique ID; each value is an array of tactic IDs (`TA####`) for Enterprise ATT&CK, derived from MITRE STIX `kill_chain_phases`. Populated when an Enterprise bundle is available (cached copy or importer snapshot).
+Object keyed by technique ID; each value is an array of mappings from MITRE STIX `kill_chain_phases`. Each element is either a tactic ID string (`TA####`, legacy Enterprise-only) or an object `{ "tactic_id": "TA####", "domain": "enterprise|mobile|ics" }`. Populated when MITRE bundles are available for the corresponding domains (see `data/mitre-cache/` and `scripts/mitre/version_resolver.rb`).
 
 ### `/api/software_by_actor.json`
 

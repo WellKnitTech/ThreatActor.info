@@ -1,5 +1,977 @@
 [
   {
+    "title": "Activate Firmware Update Mode",
+    "mitre_id": "T0800",
+    "permalink": "/techniques/T0800/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0800",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Monitor Process State",
+    "mitre_id": "T0801",
+    "permalink": "/techniques/T0801/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0801",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Automated Collection",
+    "mitre_id": "T0802",
+    "permalink": "/techniques/T0802/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0802",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Brute Force I/O",
+    "mitre_id": "T0806",
+    "permalink": "/techniques/T0806/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0806",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Command-Line Interface",
+    "mitre_id": "T0807",
+    "permalink": "/techniques/T0807/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0807",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Data Destruction",
+    "mitre_id": "T0809",
+    "permalink": "/techniques/T0809/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0809",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Data from Information Repositories",
+    "mitre_id": "T0811",
+    "permalink": "/techniques/T0811/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0811",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Denial of Control",
+    "mitre_id": "T0813",
+    "permalink": "/techniques/T0813/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0813",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Denial of Service",
+    "mitre_id": "T0814",
+    "permalink": "/techniques/T0814/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0814",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Denial of View",
+    "mitre_id": "T0815",
+    "permalink": "/techniques/T0815/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0815",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Device Restart/Shutdown",
+    "mitre_id": "T0816",
+    "permalink": "/techniques/T0816/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0816",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Drive-by Compromise",
+    "mitre_id": "T0817",
+    "permalink": "/techniques/T0817/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0817",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Exploit Public-Facing Application",
+    "mitre_id": "T0819",
+    "permalink": "/techniques/T0819/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0819",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Exploitation for Evasion",
+    "mitre_id": "T0820",
+    "permalink": "/techniques/T0820/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0820",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Modify Controller Tasking",
+    "mitre_id": "T0821",
+    "permalink": "/techniques/T0821/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0821",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "External Remote Services",
+    "mitre_id": "T0822",
+    "permalink": "/techniques/T0822/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0822",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Graphical User Interface",
+    "mitre_id": "T0823",
+    "permalink": "/techniques/T0823/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0823",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Loss of Availability",
+    "mitre_id": "T0826",
+    "permalink": "/techniques/T0826/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0826",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Loss of Control",
+    "mitre_id": "T0827",
+    "permalink": "/techniques/T0827/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0827",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Loss of Productivity and Revenue",
+    "mitre_id": "T0828",
+    "permalink": "/techniques/T0828/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0828",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Loss of View",
+    "mitre_id": "T0829",
+    "permalink": "/techniques/T0829/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0829",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Adversary-in-the-Middle",
+    "mitre_id": "T0830",
+    "permalink": "/techniques/T0830/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0830",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Manipulation of Control",
+    "mitre_id": "T0831",
+    "permalink": "/techniques/T0831/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0831",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Manipulation of View",
+    "mitre_id": "T0832",
+    "permalink": "/techniques/T0832/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0832",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Native API",
+    "mitre_id": "T0834",
+    "permalink": "/techniques/T0834/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0834",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Manipulate I/O Image",
+    "mitre_id": "T0835",
+    "permalink": "/techniques/T0835/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0835",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Modify Parameter",
+    "mitre_id": "T0836",
+    "permalink": "/techniques/T0836/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0836",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Loss of Protection",
+    "mitre_id": "T0837",
+    "permalink": "/techniques/T0837/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0837",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Modify Alarm Settings",
+    "mitre_id": "T0838",
+    "permalink": "/techniques/T0838/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0838",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Network Connection Enumeration",
+    "mitre_id": "T0840",
+    "permalink": "/techniques/T0840/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0840",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Network Sniffing",
+    "mitre_id": "T0842",
+    "permalink": "/techniques/T0842/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0842",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Program Download",
+    "mitre_id": "T0843",
+    "permalink": "/techniques/T0843/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0843",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Download All",
+    "mitre_id": "T0843.001",
+    "permalink": "/techniques/T0843.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0843/001",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Online Edit",
+    "mitre_id": "T0843.002",
+    "permalink": "/techniques/T0843.002/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0843/002",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Program Append",
+    "mitre_id": "T0843.003",
+    "permalink": "/techniques/T0843.003/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0843/003",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Program Upload",
+    "mitre_id": "T0845",
+    "permalink": "/techniques/T0845/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0845",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Remote System Discovery",
+    "mitre_id": "T0846",
+    "permalink": "/techniques/T0846/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0846",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Port Scan",
+    "mitre_id": "T0846.001",
+    "permalink": "/techniques/T0846.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0846/001",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Broadcast Discovery",
+    "mitre_id": "T0846.002",
+    "permalink": "/techniques/T0846.002/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0846/002",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Multicast Discovery",
+    "mitre_id": "T0846.003",
+    "permalink": "/techniques/T0846.003/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0846/003",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Replication Through Removable Media",
+    "mitre_id": "T0847",
+    "permalink": "/techniques/T0847/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0847",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Rogue Master",
+    "mitre_id": "T0848",
+    "permalink": "/techniques/T0848/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0848",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Masquerading",
+    "mitre_id": "T0849",
+    "permalink": "/techniques/T0849/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0849",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Rootkit",
+    "mitre_id": "T0851",
+    "permalink": "/techniques/T0851/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0851",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Screen Capture",
+    "mitre_id": "T0852",
+    "permalink": "/techniques/T0852/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0852",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Scripting",
+    "mitre_id": "T0853",
+    "permalink": "/techniques/T0853/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0853",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Change Operating Mode",
+    "mitre_id": "T0858",
+    "permalink": "/techniques/T0858/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0858",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Valid Accounts",
+    "mitre_id": "T0859",
+    "permalink": "/techniques/T0859/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0859",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Wireless Compromise",
+    "mitre_id": "T0860",
+    "permalink": "/techniques/T0860/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0860",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Point & Tag Identification",
+    "mitre_id": "T0861",
+    "permalink": "/techniques/T0861/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0861",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Supply Chain Compromise",
+    "mitre_id": "T0862",
+    "permalink": "/techniques/T0862/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0862",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "User Execution",
+    "mitre_id": "T0863",
+    "permalink": "/techniques/T0863/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0863",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Transient Cyber Asset",
+    "mitre_id": "T0864",
+    "permalink": "/techniques/T0864/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0864",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Spearphishing Attachment",
+    "mitre_id": "T0865",
+    "permalink": "/techniques/T0865/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0865",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Exploitation of Remote Services",
+    "mitre_id": "T0866",
+    "permalink": "/techniques/T0866/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0866",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Lateral Tool Transfer",
+    "mitre_id": "T0867",
+    "permalink": "/techniques/T0867/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0867",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Detect Operating Mode",
+    "mitre_id": "T0868",
+    "permalink": "/techniques/T0868/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0868",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Standard Application Layer Protocol",
+    "mitre_id": "T0869",
+    "permalink": "/techniques/T0869/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0869",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Execution through API",
+    "mitre_id": "T0871",
+    "permalink": "/techniques/T0871/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0871",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Indicator Removal on Host",
+    "mitre_id": "T0872",
+    "permalink": "/techniques/T0872/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0872",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Project File Infection",
+    "mitre_id": "T0873",
+    "permalink": "/techniques/T0873/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0873",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Siemens Project File Format",
+    "mitre_id": "T0873.001",
+    "permalink": "/techniques/T0873.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0873/001",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Hooking",
+    "mitre_id": "T0874",
+    "permalink": "/techniques/T0874/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0874",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "I/O Image",
+    "mitre_id": "T0877",
+    "permalink": "/techniques/T0877/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0877",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Alarm Suppression",
+    "mitre_id": "T0878",
+    "permalink": "/techniques/T0878/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0878",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Damage to Property",
+    "mitre_id": "T0879",
+    "permalink": "/techniques/T0879/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0879",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Loss of Safety",
+    "mitre_id": "T0880",
+    "permalink": "/techniques/T0880/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0880",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Service Stop",
+    "mitre_id": "T0881",
+    "permalink": "/techniques/T0881/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0881",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Theft of Operational Information",
+    "mitre_id": "T0882",
+    "permalink": "/techniques/T0882/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0882",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Internet Accessible Device",
+    "mitre_id": "T0883",
+    "permalink": "/techniques/T0883/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0883",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Connection Proxy",
+    "mitre_id": "T0884",
+    "permalink": "/techniques/T0884/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0884",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Commonly Used Port",
+    "mitre_id": "T0885",
+    "permalink": "/techniques/T0885/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0885",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Remote Services",
+    "mitre_id": "T0886",
+    "permalink": "/techniques/T0886/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0886",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Wireless Sniffing",
+    "mitre_id": "T0887",
+    "permalink": "/techniques/T0887/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0887",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Remote System Information Discovery",
+    "mitre_id": "T0888",
+    "permalink": "/techniques/T0888/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0888",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Modify Program",
+    "mitre_id": "T0889",
+    "permalink": "/techniques/T0889/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0889",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Exploitation for Privilege Escalation",
+    "mitre_id": "T0890",
+    "permalink": "/techniques/T0890/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0890",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Change Credential",
+    "mitre_id": "T0892",
+    "permalink": "/techniques/T0892/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0892",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Data from Local System",
+    "mitre_id": "T0893",
+    "permalink": "/techniques/T0893/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0893",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "System Binary Proxy Execution",
+    "mitre_id": "T0894",
+    "permalink": "/techniques/T0894/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0894",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Autorun Image",
+    "mitre_id": "T0895",
+    "permalink": "/techniques/T0895/",
+    "mitre_url": "https://attack.mitre.org/techniques/T0895",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
     "title": "Data Obfuscation",
     "mitre_id": "T1001",
     "permalink": "/techniques/T1001/",
@@ -7,6 +979,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -17,6 +991,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -27,6 +1003,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -37,6 +1015,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -47,6 +1027,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -57,6 +1039,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -67,6 +1051,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -77,6 +1063,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -87,6 +1075,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -97,6 +1087,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -107,6 +1099,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -117,6 +1111,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -127,6 +1123,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -137,6 +1135,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -147,6 +1147,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -157,6 +1159,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -167,6 +1171,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -177,6 +1183,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -187,6 +1195,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -197,6 +1207,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -207,6 +1219,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -217,6 +1231,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -227,6 +1243,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -237,6 +1255,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -247,6 +1267,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -257,6 +1279,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -267,6 +1291,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -277,6 +1303,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -287,6 +1315,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -297,6 +1327,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -307,6 +1339,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -317,6 +1351,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -327,6 +1363,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -337,6 +1375,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -347,6 +1387,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -357,6 +1399,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -367,6 +1411,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -377,6 +1423,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -387,6 +1435,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -397,6 +1447,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -407,6 +1459,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -417,6 +1471,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -427,6 +1483,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -437,6 +1495,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -447,6 +1507,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -457,6 +1519,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -467,6 +1531,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -477,6 +1543,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -487,6 +1555,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -497,6 +1567,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -507,6 +1579,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -517,6 +1591,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -527,6 +1603,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -537,6 +1615,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -547,6 +1627,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -557,6 +1639,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -567,6 +1651,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -577,6 +1663,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -587,6 +1675,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -597,6 +1687,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -607,6 +1699,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -617,6 +1711,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -627,6 +1723,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -637,6 +1735,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -647,6 +1747,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -657,6 +1759,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -667,6 +1771,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -677,6 +1783,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -687,6 +1795,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -697,6 +1807,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -707,6 +1819,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -717,6 +1831,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -727,6 +1843,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -737,6 +1855,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -747,6 +1867,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -757,6 +1879,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -767,6 +1891,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -777,6 +1903,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -787,6 +1915,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -797,6 +1927,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -807,6 +1939,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -817,6 +1951,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -827,6 +1963,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -837,6 +1975,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -847,6 +1987,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -857,6 +1999,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -867,6 +2011,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -877,6 +2023,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -887,6 +2035,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -897,6 +2047,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -907,6 +2059,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -917,6 +2071,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -927,6 +2083,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -937,6 +2095,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -947,6 +2107,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -957,6 +2119,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -967,6 +2131,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -977,6 +2143,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -987,6 +2155,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -997,6 +2167,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1007,6 +2179,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1017,6 +2191,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1027,6 +2203,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1037,6 +2215,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1047,6 +2227,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1057,6 +2239,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1067,6 +2251,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1077,6 +2263,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1087,6 +2275,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1097,6 +2287,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1107,6 +2299,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1117,6 +2311,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1127,6 +2323,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1137,6 +2335,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1147,6 +2347,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1157,6 +2359,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1167,6 +2371,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1177,6 +2383,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1187,6 +2395,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1197,6 +2407,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1207,6 +2419,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1217,6 +2431,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1227,6 +2443,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1237,6 +2455,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1247,6 +2467,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1257,6 +2479,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1267,6 +2491,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1277,6 +2503,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1287,6 +2515,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1297,6 +2527,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1307,6 +2539,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1317,6 +2551,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1327,6 +2563,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1337,6 +2575,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1347,6 +2587,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1357,6 +2599,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1367,6 +2611,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1377,6 +2623,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1387,6 +2635,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1397,6 +2647,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1407,6 +2659,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1417,6 +2671,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1427,6 +2683,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1437,6 +2695,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1447,6 +2707,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1457,6 +2719,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1467,6 +2731,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1477,6 +2743,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1487,6 +2755,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1497,6 +2767,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1507,6 +2779,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1517,6 +2791,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1527,6 +2803,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1537,6 +2815,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1547,6 +2827,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1557,6 +2839,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1567,6 +2851,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1577,6 +2863,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1587,6 +2875,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1597,6 +2887,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1607,6 +2899,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1617,6 +2911,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1627,6 +2923,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1637,6 +2935,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1647,6 +2947,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1657,6 +2959,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1667,6 +2971,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1677,6 +2983,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1687,6 +2995,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1697,6 +3007,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1707,6 +3019,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1717,6 +3031,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1727,6 +3043,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1737,6 +3055,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1747,6 +3067,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1757,6 +3079,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1767,6 +3091,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1777,6 +3103,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1787,6 +3115,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1797,6 +3127,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1807,6 +3139,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1817,6 +3151,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1827,6 +3163,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1837,6 +3175,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1847,6 +3187,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1857,6 +3199,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1867,6 +3211,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1877,6 +3223,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1887,6 +3235,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1897,6 +3247,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1907,6 +3259,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1917,6 +3271,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1927,6 +3283,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1937,6 +3295,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1947,6 +3307,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1957,6 +3319,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1967,6 +3331,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1977,6 +3343,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1987,6 +3355,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -1997,6 +3367,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2007,6 +3379,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2017,6 +3391,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2027,6 +3403,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2037,6 +3415,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2047,6 +3427,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2057,6 +3439,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2067,6 +3451,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2077,6 +3463,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2087,6 +3475,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2097,6 +3487,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2107,6 +3499,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2117,6 +3511,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2127,6 +3523,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2137,6 +3535,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2147,6 +3547,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2157,6 +3559,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2167,6 +3571,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2177,6 +3583,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2187,6 +3595,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2197,6 +3607,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2207,6 +3619,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2217,6 +3631,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2227,6 +3643,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2237,6 +3655,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2247,6 +3667,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2257,6 +3679,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2267,6 +3691,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2277,6 +3703,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2287,6 +3715,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2297,6 +3727,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2307,6 +3739,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2317,6 +3751,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2327,6 +3763,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2337,6 +3775,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2347,6 +3787,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2357,6 +3799,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2367,6 +3811,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2377,6 +3823,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2387,6 +3835,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2397,6 +3847,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2407,6 +3859,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2417,6 +3871,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2427,6 +3883,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2437,6 +3895,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2447,6 +3907,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2457,6 +3919,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2467,6 +3931,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2477,6 +3943,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2487,6 +3955,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2497,6 +3967,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2507,6 +3979,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2517,6 +3991,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2527,6 +4003,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2537,6 +4015,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2547,6 +4027,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2557,6 +4039,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2567,6 +4051,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2577,6 +4063,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2587,6 +4075,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2597,6 +4087,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2607,6 +4099,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2617,6 +4111,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2627,6 +4123,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2637,6 +4135,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2647,6 +4147,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2657,6 +4159,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2667,6 +4171,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2677,6 +4183,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2687,6 +4195,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2697,6 +4207,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2707,6 +4219,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2717,6 +4231,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2727,6 +4243,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2737,6 +4255,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2747,6 +4267,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2757,6 +4279,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2767,6 +4291,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2777,6 +4303,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2787,6 +4315,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2797,6 +4327,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2807,6 +4339,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2817,6 +4351,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2827,6 +4363,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2837,6 +4375,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2847,6 +4387,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2857,6 +4399,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2867,6 +4411,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2877,6 +4423,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2887,6 +4435,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2897,6 +4447,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2907,6 +4459,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2917,6 +4471,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2927,6 +4483,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2937,6 +4495,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2947,6 +4507,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2957,6 +4519,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2967,6 +4531,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2977,6 +4543,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2987,6 +4555,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -2997,6 +4567,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3007,7 +4579,477 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
+  },
+  {
+    "title": "Boot or Logon Initialization Scripts",
+    "mitre_id": "T1398",
+    "permalink": "/techniques/T1398/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1398",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Exploitation for Privilege Escalation",
+    "mitre_id": "T1404",
+    "permalink": "/techniques/T1404/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1404",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Obfuscated Files or Information",
+    "mitre_id": "T1406",
+    "permalink": "/techniques/T1406/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1406",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Steganography",
+    "mitre_id": "T1406.001",
+    "permalink": "/techniques/T1406.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1406/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Software Packing",
+    "mitre_id": "T1406.002",
+    "permalink": "/techniques/T1406.002/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1406/002",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Download New Code at Runtime",
+    "mitre_id": "T1407",
+    "permalink": "/techniques/T1407/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1407",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Stored Application Data",
+    "mitre_id": "T1409",
+    "permalink": "/techniques/T1409/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1409",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Clipboard Data",
+    "mitre_id": "T1414",
+    "permalink": "/techniques/T1414/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1414",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Input Capture",
+    "mitre_id": "T1417",
+    "permalink": "/techniques/T1417/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1417",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Keylogging",
+    "mitre_id": "T1417.001",
+    "permalink": "/techniques/T1417.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1417/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "GUI Input Capture",
+    "mitre_id": "T1417.002",
+    "permalink": "/techniques/T1417.002/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1417/002",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Software Discovery",
+    "mitre_id": "T1418",
+    "permalink": "/techniques/T1418/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1418",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Security Software Discovery",
+    "mitre_id": "T1418.001",
+    "permalink": "/techniques/T1418.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1418/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "File and Directory Discovery",
+    "mitre_id": "T1420",
+    "permalink": "/techniques/T1420/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1420",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "System Network Connections Discovery",
+    "mitre_id": "T1421",
+    "permalink": "/techniques/T1421/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1421",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "System Network Configuration Discovery",
+    "mitre_id": "T1422",
+    "permalink": "/techniques/T1422/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1422",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Internet Connection Discovery",
+    "mitre_id": "T1422.001",
+    "permalink": "/techniques/T1422.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1422/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Wi-Fi Discovery",
+    "mitre_id": "T1422.002",
+    "permalink": "/techniques/T1422.002/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1422/002",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Network Service Scanning",
+    "mitre_id": "T1423",
+    "permalink": "/techniques/T1423/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1423",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Process Discovery",
+    "mitre_id": "T1424",
+    "permalink": "/techniques/T1424/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1424",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "System Information Discovery",
+    "mitre_id": "T1426",
+    "permalink": "/techniques/T1426/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1426",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Exploitation of Remote Services",
+    "mitre_id": "T1428",
+    "permalink": "/techniques/T1428/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1428",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Audio Capture",
+    "mitre_id": "T1429",
+    "permalink": "/techniques/T1429/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1429",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Location Tracking",
+    "mitre_id": "T1430",
+    "permalink": "/techniques/T1430/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1430",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Remote Device Management Services",
+    "mitre_id": "T1430.001",
+    "permalink": "/techniques/T1430.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1430/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Impersonate SS7 Nodes",
+    "mitre_id": "T1430.002",
+    "permalink": "/techniques/T1430.002/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1430/002",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Application Layer Protocol",
+    "mitre_id": "T1437",
+    "permalink": "/techniques/T1437/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1437",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Web Protocols",
+    "mitre_id": "T1437.001",
+    "permalink": "/techniques/T1437.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1437/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "SIM Card Swap",
+    "mitre_id": "T1451",
+    "permalink": "/techniques/T1451/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1451",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Abuse Accessibility Features",
+    "mitre_id": "T1453",
+    "permalink": "/techniques/T1453/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1453",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Drive-By Compromise",
+    "mitre_id": "T1456",
+    "permalink": "/techniques/T1456/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1456",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Replication Through Removable Media",
+    "mitre_id": "T1458",
+    "permalink": "/techniques/T1458/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1458",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Lockscreen Bypass",
+    "mitre_id": "T1461",
+    "permalink": "/techniques/T1461/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1461",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Network Denial of Service",
+    "mitre_id": "T1464",
+    "permalink": "/techniques/T1464/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1464",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Data Encrypted for Impact",
+    "mitre_id": "T1471",
+    "permalink": "/techniques/T1471/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1471",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Supply Chain Compromise",
+    "mitre_id": "T1474",
+    "permalink": "/techniques/T1474/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1474",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Compromise Software Dependencies and Development Tools",
+    "mitre_id": "T1474.001",
+    "permalink": "/techniques/T1474.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1474/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Compromise Hardware Supply Chain",
+    "mitre_id": "T1474.002",
+    "permalink": "/techniques/T1474.002/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1474/002",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Compromise Software Supply Chain",
+    "mitre_id": "T1474.003",
+    "permalink": "/techniques/T1474.003/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1474/003",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
   },
   {
     "title": "Execution Guardrails",
@@ -3017,6 +5059,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3027,6 +5071,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3037,7 +5083,57 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
+  },
+  {
+    "title": "Web Service",
+    "mitre_id": "T1481",
+    "permalink": "/techniques/T1481/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1481",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Dead Drop Resolver",
+    "mitre_id": "T1481.001",
+    "permalink": "/techniques/T1481.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1481/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Bidirectional Communication",
+    "mitre_id": "T1481.002",
+    "permalink": "/techniques/T1481.002/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1481/002",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "One-Way Communication",
+    "mitre_id": "T1481.003",
+    "permalink": "/techniques/T1481.003/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1481/003",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
   },
   {
     "title": "Domain Trust Discovery",
@@ -3047,6 +5143,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3057,6 +5155,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3067,6 +5167,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3077,6 +5179,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3087,6 +5191,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3097,6 +5203,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3107,6 +5215,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3117,6 +5227,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3127,6 +5239,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3137,6 +5251,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3147,6 +5263,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3157,6 +5275,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3167,6 +5287,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3177,6 +5299,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3187,6 +5311,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3197,6 +5323,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3207,6 +5335,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3217,6 +5347,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3227,6 +5359,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3237,6 +5371,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3247,6 +5383,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3257,6 +5395,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3267,6 +5407,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3277,6 +5419,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3287,6 +5431,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3297,6 +5443,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3307,6 +5455,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3317,6 +5467,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3327,6 +5479,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3337,6 +5491,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3347,6 +5503,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3357,6 +5515,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3367,6 +5527,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3377,6 +5539,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3387,6 +5551,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3397,6 +5563,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3407,7 +5575,69 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
+  },
+  {
+    "title": "Non-Standard Port",
+    "mitre_id": "T1509",
+    "permalink": "/techniques/T1509/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1509",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Video Capture",
+    "mitre_id": "T1512",
+    "permalink": "/techniques/T1512/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1512",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Screen Capture",
+    "mitre_id": "T1513",
+    "permalink": "/techniques/T1513/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1513",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Input Injection",
+    "mitre_id": "T1516",
+    "permalink": "/techniques/T1516/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1516",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Access Notifications",
+    "mitre_id": "T1517",
+    "permalink": "/techniques/T1517/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1517",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
   },
   {
     "title": "Software Discovery",
@@ -3417,6 +5647,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3427,6 +5659,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3437,7 +5671,57 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
+  },
+  {
+    "title": "Encrypted Channel",
+    "mitre_id": "T1521",
+    "permalink": "/techniques/T1521/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1521",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Symmetric Cryptography",
+    "mitre_id": "T1521.001",
+    "permalink": "/techniques/T1521.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1521/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Asymmetric Cryptography",
+    "mitre_id": "T1521.002",
+    "permalink": "/techniques/T1521.002/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1521/002",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "SSL Pinning",
+    "mitre_id": "T1521.003",
+    "permalink": "/techniques/T1521.003/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1521/003",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
   },
   {
     "title": "Implant Internal Image",
@@ -3447,6 +5731,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3457,6 +5743,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3467,6 +5755,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3477,6 +5767,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3487,6 +5779,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3497,7 +5791,33 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
+  },
+  {
+    "title": "Archive Collected Data",
+    "mitre_id": "T1532",
+    "permalink": "/techniques/T1532/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1532",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Data from Local System",
+    "mitre_id": "T1533",
+    "permalink": "/techniques/T1533/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1533",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
   },
   {
     "title": "Internal Spearphishing",
@@ -3507,6 +5827,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3517,6 +5839,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3527,6 +5851,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3537,6 +5863,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3547,7 +5875,21 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
+  },
+  {
+    "title": "Foreground Persistence",
+    "mitre_id": "T1541",
+    "permalink": "/techniques/T1541/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1541",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
   },
   {
     "title": "Pre-OS Boot",
@@ -3557,6 +5899,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3567,6 +5911,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3577,6 +5923,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3587,6 +5935,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3597,6 +5947,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3607,6 +5959,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3617,6 +5971,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3627,6 +5983,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3637,6 +5995,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3647,6 +6007,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3657,6 +6019,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3667,7 +6031,21 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
+  },
+  {
+    "title": "Ingress Tool Transfer",
+    "mitre_id": "T1544",
+    "permalink": "/techniques/T1544/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1544",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
   },
   {
     "title": "Event Triggered Execution",
@@ -3677,6 +6055,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3687,6 +6067,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3697,6 +6079,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3707,6 +6091,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3717,6 +6103,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3727,6 +6115,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3737,6 +6127,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3747,6 +6139,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3757,6 +6151,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3767,6 +6163,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3777,6 +6175,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3787,6 +6187,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3797,6 +6199,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3807,6 +6211,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3817,6 +6223,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3827,6 +6235,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3837,6 +6247,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3847,6 +6259,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3857,6 +6271,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3867,6 +6283,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3877,6 +6295,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3887,6 +6307,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3897,6 +6319,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3907,6 +6331,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3917,6 +6343,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3927,6 +6355,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3937,6 +6367,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3947,6 +6379,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3957,6 +6391,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3967,6 +6403,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3977,6 +6415,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3987,6 +6427,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -3997,6 +6439,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4007,6 +6451,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4017,6 +6463,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4027,6 +6475,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4037,6 +6487,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4047,6 +6499,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4057,6 +6511,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4067,6 +6523,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4077,6 +6535,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4087,6 +6547,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4097,6 +6559,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4107,6 +6571,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4117,6 +6583,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4127,6 +6595,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4137,6 +6607,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4147,6 +6619,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4157,6 +6631,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4167,6 +6643,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4177,6 +6655,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4187,6 +6667,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4197,6 +6679,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4207,6 +6691,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4217,6 +6703,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4227,6 +6715,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4237,6 +6727,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4247,6 +6739,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4257,6 +6751,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4267,6 +6763,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4277,6 +6775,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4287,6 +6787,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4297,6 +6799,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4307,6 +6811,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4317,6 +6823,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4327,6 +6835,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4337,6 +6847,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4347,6 +6859,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4357,6 +6871,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4367,6 +6883,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4377,6 +6895,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4387,6 +6907,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4397,6 +6919,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4407,6 +6931,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4417,6 +6943,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4427,6 +6955,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4437,6 +6967,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4447,6 +6979,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4457,6 +6991,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4467,6 +7003,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4477,6 +7015,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4487,6 +7027,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4497,6 +7039,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4507,6 +7051,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4517,6 +7063,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4527,6 +7075,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4537,6 +7087,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4547,6 +7099,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4557,6 +7111,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4567,6 +7123,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4577,6 +7135,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4587,6 +7147,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4597,6 +7159,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4607,6 +7171,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4617,6 +7183,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4627,6 +7195,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4637,6 +7207,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4647,6 +7219,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4657,6 +7231,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4667,6 +7243,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4677,6 +7255,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4687,6 +7267,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4697,6 +7279,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4707,6 +7291,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4717,6 +7303,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4727,6 +7315,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4737,6 +7327,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4747,6 +7339,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4757,6 +7351,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4767,6 +7363,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4777,6 +7375,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4787,6 +7387,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4797,6 +7399,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4807,6 +7411,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4817,6 +7423,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4827,6 +7435,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4837,6 +7447,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4847,6 +7459,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4857,6 +7471,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4867,6 +7483,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4877,6 +7495,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4887,6 +7507,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4897,6 +7519,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4907,6 +7531,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4917,6 +7543,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4927,6 +7555,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4937,6 +7567,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4947,6 +7579,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4957,6 +7591,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4967,6 +7603,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4977,6 +7615,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4987,6 +7627,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -4997,6 +7639,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5007,6 +7651,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5017,6 +7663,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5027,6 +7675,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5037,6 +7687,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5047,6 +7699,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5057,6 +7711,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5067,6 +7723,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5077,6 +7735,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5087,6 +7747,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5097,6 +7759,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5107,6 +7771,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5117,6 +7783,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5127,6 +7795,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5137,6 +7807,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5147,6 +7819,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5157,6 +7831,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5167,6 +7843,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5177,6 +7855,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5187,6 +7867,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5197,6 +7879,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5207,6 +7891,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5217,6 +7903,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5227,6 +7915,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5237,6 +7927,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5247,6 +7939,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5257,6 +7951,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5267,6 +7963,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5277,7 +7975,33 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
+  },
+  {
+    "title": "Native API",
+    "mitre_id": "T1575",
+    "permalink": "/techniques/T1575/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1575",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Compromise Application Executable",
+    "mitre_id": "T1577",
+    "permalink": "/techniques/T1577/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1577",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
   },
   {
     "title": "Modify Cloud Compute Infrastructure",
@@ -5287,6 +8011,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5297,6 +8023,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5307,6 +8035,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5317,6 +8047,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5327,6 +8059,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5337,6 +8071,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5347,7 +8083,21 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
+  },
+  {
+    "title": "SMS Control",
+    "mitre_id": "T1582",
+    "permalink": "/techniques/T1582/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1582",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
   },
   {
     "title": "Acquire Infrastructure",
@@ -5357,6 +8107,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5367,6 +8119,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5377,6 +8131,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5387,6 +8143,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5397,6 +8155,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5407,6 +8167,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5417,6 +8179,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5427,6 +8191,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5437,6 +8203,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5447,6 +8215,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5457,6 +8227,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5467,6 +8239,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5477,6 +8251,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5487,6 +8263,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5497,6 +8275,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5507,6 +8287,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5517,6 +8299,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5527,6 +8311,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5537,6 +8323,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5547,6 +8335,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5557,6 +8347,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5567,6 +8359,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5577,6 +8371,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5587,6 +8383,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5597,6 +8395,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5607,6 +8407,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5617,6 +8419,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5627,6 +8431,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5637,6 +8443,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5647,6 +8455,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5657,6 +8467,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5667,6 +8479,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5677,6 +8491,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5687,6 +8503,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5697,6 +8515,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5707,6 +8527,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5717,6 +8539,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5727,6 +8551,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5737,6 +8563,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5747,6 +8575,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5757,6 +8587,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5767,6 +8599,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5777,6 +8611,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5787,6 +8623,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5797,6 +8635,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5807,6 +8647,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5817,6 +8659,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5827,6 +8671,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5837,6 +8683,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5847,6 +8695,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5857,6 +8707,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5867,6 +8719,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5877,6 +8731,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5887,6 +8743,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5897,6 +8755,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5907,6 +8767,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5917,6 +8779,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5927,6 +8791,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5937,6 +8803,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5947,6 +8815,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5957,6 +8827,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5967,6 +8839,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5977,6 +8851,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5987,6 +8863,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -5997,6 +8875,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6007,6 +8887,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6017,6 +8899,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6027,6 +8911,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6037,6 +8923,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6047,6 +8935,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6057,6 +8947,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6067,6 +8959,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6077,6 +8971,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6087,6 +8983,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6097,6 +8995,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6107,6 +9007,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6117,6 +9019,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6127,6 +9031,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6137,6 +9043,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6147,6 +9055,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6157,6 +9067,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6167,6 +9079,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6177,6 +9091,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6187,6 +9103,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6197,6 +9115,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6207,6 +9127,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6217,6 +9139,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6227,6 +9151,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6237,6 +9163,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6247,6 +9175,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6257,6 +9187,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6267,6 +9199,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6277,6 +9211,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6287,7 +9223,33 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
+  },
+  {
+    "title": "Scheduled Task/Job",
+    "mitre_id": "T1603",
+    "permalink": "/techniques/T1603/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1603",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Proxy Through Victim",
+    "mitre_id": "T1604",
+    "permalink": "/techniques/T1604/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1604",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
   },
   {
     "title": "Forge Web Credentials",
@@ -6297,6 +9259,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6307,6 +9271,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6317,6 +9283,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6327,6 +9295,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6337,6 +9307,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6347,6 +9319,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6357,6 +9331,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6367,6 +9343,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6377,6 +9355,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6387,6 +9367,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6397,6 +9379,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6407,6 +9391,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6417,6 +9403,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6427,6 +9415,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6437,6 +9427,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6447,6 +9439,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6457,6 +9451,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6467,7 +9463,33 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
+  },
+  {
+    "title": "Call Control",
+    "mitre_id": "T1616",
+    "permalink": "/techniques/T1616/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1616",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Hooking",
+    "mitre_id": "T1617",
+    "permalink": "/techniques/T1617/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1617",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
   },
   {
     "title": "Cloud Storage Object Discovery",
@@ -6477,6 +9499,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6487,6 +9511,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6497,6 +9523,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6507,7 +9535,621 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
+  },
+  {
+    "title": "Command and Scripting Interpreter",
+    "mitre_id": "T1623",
+    "permalink": "/techniques/T1623/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1623",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Unix Shell",
+    "mitre_id": "T1623.001",
+    "permalink": "/techniques/T1623.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1623/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Event Triggered Execution",
+    "mitre_id": "T1624",
+    "permalink": "/techniques/T1624/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1624",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Broadcast Receivers",
+    "mitre_id": "T1624.001",
+    "permalink": "/techniques/T1624.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1624/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Hijack Execution Flow",
+    "mitre_id": "T1625",
+    "permalink": "/techniques/T1625/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1625",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "System Runtime API Hijacking",
+    "mitre_id": "T1625.001",
+    "permalink": "/techniques/T1625.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1625/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Abuse Elevation Control Mechanism",
+    "mitre_id": "T1626",
+    "permalink": "/techniques/T1626/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1626",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Device Administrator Permissions",
+    "mitre_id": "T1626.001",
+    "permalink": "/techniques/T1626.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1626/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Execution Guardrails",
+    "mitre_id": "T1627",
+    "permalink": "/techniques/T1627/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1627",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Geofencing",
+    "mitre_id": "T1627.001",
+    "permalink": "/techniques/T1627.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1627/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Hide Artifacts",
+    "mitre_id": "T1628",
+    "permalink": "/techniques/T1628/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1628",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Suppress Application Icon",
+    "mitre_id": "T1628.001",
+    "permalink": "/techniques/T1628.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1628/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "User Evasion",
+    "mitre_id": "T1628.002",
+    "permalink": "/techniques/T1628.002/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1628/002",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Conceal Multimedia Files",
+    "mitre_id": "T1628.003",
+    "permalink": "/techniques/T1628.003/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1628/003",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Impair Defenses",
+    "mitre_id": "T1629",
+    "permalink": "/techniques/T1629/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1629",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Prevent Application Removal",
+    "mitre_id": "T1629.001",
+    "permalink": "/techniques/T1629.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1629/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Device Lockout",
+    "mitre_id": "T1629.002",
+    "permalink": "/techniques/T1629.002/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1629/002",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Disable or Modify Tools",
+    "mitre_id": "T1629.003",
+    "permalink": "/techniques/T1629.003/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1629/003",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Indicator Removal on Host",
+    "mitre_id": "T1630",
+    "permalink": "/techniques/T1630/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1630",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Uninstall Malicious Application",
+    "mitre_id": "T1630.001",
+    "permalink": "/techniques/T1630.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1630/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "File Deletion",
+    "mitre_id": "T1630.002",
+    "permalink": "/techniques/T1630.002/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1630/002",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Disguise Root/Jailbreak Indicators",
+    "mitre_id": "T1630.003",
+    "permalink": "/techniques/T1630.003/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1630/003",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Process Injection",
+    "mitre_id": "T1631",
+    "permalink": "/techniques/T1631/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1631",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Ptrace System Calls",
+    "mitre_id": "T1631.001",
+    "permalink": "/techniques/T1631.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1631/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Subvert Trust Controls",
+    "mitre_id": "T1632",
+    "permalink": "/techniques/T1632/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1632",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Code Signing Policy Modification",
+    "mitre_id": "T1632.001",
+    "permalink": "/techniques/T1632.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1632/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Virtualization/Sandbox Evasion",
+    "mitre_id": "T1633",
+    "permalink": "/techniques/T1633/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1633",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "System Checks",
+    "mitre_id": "T1633.001",
+    "permalink": "/techniques/T1633.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1633/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Credentials from Password Store",
+    "mitre_id": "T1634",
+    "permalink": "/techniques/T1634/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1634",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Keychain",
+    "mitre_id": "T1634.001",
+    "permalink": "/techniques/T1634.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1634/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Steal Application Access Token",
+    "mitre_id": "T1635",
+    "permalink": "/techniques/T1635/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1635",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "URI Hijacking",
+    "mitre_id": "T1635.001",
+    "permalink": "/techniques/T1635.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1635/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Protected User Data",
+    "mitre_id": "T1636",
+    "permalink": "/techniques/T1636/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1636",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Calendar Entries",
+    "mitre_id": "T1636.001",
+    "permalink": "/techniques/T1636.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1636/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Call Log",
+    "mitre_id": "T1636.002",
+    "permalink": "/techniques/T1636.002/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1636/002",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Contact List",
+    "mitre_id": "T1636.003",
+    "permalink": "/techniques/T1636.003/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1636/003",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "SMS Messages",
+    "mitre_id": "T1636.004",
+    "permalink": "/techniques/T1636.004/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1636/004",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Accounts",
+    "mitre_id": "T1636.005",
+    "permalink": "/techniques/T1636.005/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1636/005",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Dynamic Resolution",
+    "mitre_id": "T1637",
+    "permalink": "/techniques/T1637/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1637",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Domain Generation Algorithms",
+    "mitre_id": "T1637.001",
+    "permalink": "/techniques/T1637.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1637/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Adversary-in-the-Middle",
+    "mitre_id": "T1638",
+    "permalink": "/techniques/T1638/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1638",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Exfiltration Over Alternative Protocol",
+    "mitre_id": "T1639",
+    "permalink": "/techniques/T1639/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1639",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Exfiltration Over Unencrypted Non-C2 Protocol",
+    "mitre_id": "T1639.001",
+    "permalink": "/techniques/T1639.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1639/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Account Access Removal",
+    "mitre_id": "T1640",
+    "permalink": "/techniques/T1640/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1640",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Data Manipulation",
+    "mitre_id": "T1641",
+    "permalink": "/techniques/T1641/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1641",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Transmitted Data Manipulation",
+    "mitre_id": "T1641.001",
+    "permalink": "/techniques/T1641.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1641/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Endpoint Denial of Service",
+    "mitre_id": "T1642",
+    "permalink": "/techniques/T1642/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1642",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Generate Traffic from Victim",
+    "mitre_id": "T1643",
+    "permalink": "/techniques/T1643/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1643",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Out of Band Data",
+    "mitre_id": "T1644",
+    "permalink": "/techniques/T1644/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1644",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Compromise Client Software Binary",
+    "mitre_id": "T1645",
+    "permalink": "/techniques/T1645/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1645",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Exfiltration Over C2 Channel",
+    "mitre_id": "T1646",
+    "permalink": "/techniques/T1646/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1646",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
   },
   {
     "title": "Plist File Modification",
@@ -6517,6 +10159,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6527,6 +10171,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6537,6 +10183,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6547,6 +10195,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6557,6 +10207,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6567,6 +10219,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6577,6 +10231,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6587,7 +10243,33 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
+  },
+  {
+    "title": "Masquerading",
+    "mitre_id": "T1655",
+    "permalink": "/techniques/T1655/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1655",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Match Legitimate Name or Location",
+    "mitre_id": "T1655.001",
+    "permalink": "/techniques/T1655.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1655/001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
   },
   {
     "title": "Financial Theft",
@@ -6597,7 +10279,21 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
+  },
+  {
+    "title": "Exploitation for Client Execution",
+    "mitre_id": "T1658",
+    "permalink": "/techniques/T1658/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1658",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
   },
   {
     "title": "Content Injection",
@@ -6607,7 +10303,69 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
+  },
+  {
+    "title": "Phishing",
+    "mitre_id": "T1660",
+    "permalink": "/techniques/T1660/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1660",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Application Versioning",
+    "mitre_id": "T1661",
+    "permalink": "/techniques/T1661/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1661",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Data Destruction",
+    "mitre_id": "T1662",
+    "permalink": "/techniques/T1662/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1662",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Remote Access Software",
+    "mitre_id": "T1663",
+    "permalink": "/techniques/T1663/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1663",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Exploitation for Initial Access",
+    "mitre_id": "T1664",
+    "permalink": "/techniques/T1664/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1664",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
   },
   {
     "title": "Hide Infrastructure",
@@ -6617,6 +10375,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6627,6 +10387,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6637,6 +10399,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6647,6 +10411,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6657,7 +10423,21 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
+  },
+  {
+    "title": "Virtualization Solution",
+    "mitre_id": "T1670",
+    "permalink": "/techniques/T1670/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1670",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
   },
   {
     "title": "Cloud Application Integration",
@@ -6667,6 +10447,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6677,6 +10459,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6687,6 +10471,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6697,7 +10483,21 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
+  },
+  {
+    "title": "Linked Devices",
+    "mitre_id": "T1676",
+    "permalink": "/techniques/T1676/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1676",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "technique",
+    "attack_version": "19.0"
   },
   {
     "title": "Poisoned Pipeline Execution",
@@ -6707,6 +10507,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6717,6 +10519,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6727,6 +10531,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6737,6 +10543,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6747,6 +10555,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6757,6 +10567,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6767,6 +10579,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6777,6 +10591,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6787,6 +10603,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6797,6 +10615,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6807,6 +10627,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6817,6 +10639,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6827,6 +10651,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6837,6 +10663,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6847,6 +10675,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6857,6 +10687,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6867,6 +10699,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6877,6 +10711,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6887,6 +10723,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6897,6 +10735,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6907,6 +10747,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6917,6 +10759,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6927,6 +10771,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6937,6 +10783,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6947,6 +10795,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6957,6 +10807,8 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
   },
   {
@@ -6967,6 +10819,200 @@
     "domains": [
       "enterprise"
     ],
+    "domain": "enterprise",
+    "attack_version": null,
     "layout": "technique"
+  },
+  {
+    "title": "Block Operational Technology Message",
+    "mitre_id": "T1691",
+    "permalink": "/techniques/T1691/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1691",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Command Message",
+    "mitre_id": "T1691.001",
+    "permalink": "/techniques/T1691.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1691/001",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Reporting Message",
+    "mitre_id": "T1691.002",
+    "permalink": "/techniques/T1691.002/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1691/002",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Unauthorized Message",
+    "mitre_id": "T1692",
+    "permalink": "/techniques/T1692/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1692",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Command Message",
+    "mitre_id": "T1692.001",
+    "permalink": "/techniques/T1692.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1692/001",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Reporting Message",
+    "mitre_id": "T1692.002",
+    "permalink": "/techniques/T1692.002/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1692/002",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Modify Firmware",
+    "mitre_id": "T1693",
+    "permalink": "/techniques/T1693/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1693",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "System Firmware",
+    "mitre_id": "T1693.001",
+    "permalink": "/techniques/T1693.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1693/001",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Module Firmware",
+    "mitre_id": "T1693.002",
+    "permalink": "/techniques/T1693.002/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1693/002",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Insecure Credentials",
+    "mitre_id": "T1694",
+    "permalink": "/techniques/T1694/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1694",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Default Credentials",
+    "mitre_id": "T1694.001",
+    "permalink": "/techniques/T1694.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1694/001",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Hardcoded Credentials",
+    "mitre_id": "T1694.002",
+    "permalink": "/techniques/T1694.002/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1694/002",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Block Communications",
+    "mitre_id": "T1695",
+    "permalink": "/techniques/T1695/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1695",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Serial COM",
+    "mitre_id": "T1695.001",
+    "permalink": "/techniques/T1695.001/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1695/001",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Ethernet",
+    "mitre_id": "T1695.002",
+    "permalink": "/techniques/T1695.002/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1695/002",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Wi-Fi",
+    "mitre_id": "T1695.003",
+    "permalink": "/techniques/T1695.003/",
+    "mitre_url": "https://attack.mitre.org/techniques/T1695/003",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "technique",
+    "attack_version": "19.0"
   }
 ]

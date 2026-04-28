@@ -15,14 +15,16 @@ class MitreEntityWriters
     malware: '_malware'
   }.freeze
 
-  attr_reader :resolver, :domains_by_id, :group_slug_map, :skip_revoked
+  attr_reader :resolver, :domains_by_id, :group_slug_map, :skip_revoked, :attack_version_by_domain
 
   # group_slug_map: intrusion-set-stix-id => { 'name' =>, 'url' => '/apt0001/' }
-  def initialize(resolver, domains_by_id, group_slug_map:, skip_revoked: true)
+  # attack_version_by_domain: { 'enterprise' => '19.0', ... } from import manifest
+  def initialize(resolver, domains_by_id, group_slug_map:, skip_revoked: true, attack_version_by_domain: {})
     @resolver = resolver
     @domains_by_id = domains_by_id
     @group_slug_map = group_slug_map || {}
     @skip_revoked = skip_revoked
+    @attack_version_by_domain = attack_version_by_domain || {}
   end
 
   def write_techniques!
@@ -110,6 +112,12 @@ class MitreEntityWriters
     (list + inferred).uniq
   end
 
+  def attack_version_for_stix(stix_id)
+    d = (domains_for(stix_id) & %w[enterprise mobile ics]).first
+    d ||= 'enterprise'
+    @attack_version_by_domain[d] || @attack_version_by_domain['enterprise']
+  end
+
   def technique_filename(eid)
     eid.gsub('.', '-').downcase
   end
@@ -152,12 +160,15 @@ class MitreEntityWriters
       'permalink' => permalink_technique(eid.upcase),
       'mitre_url' => url,
       'domains' => domains,
+      'domain' => (domains & %w[enterprise mobile ics]).first || 'enterprise',
       'tactic_ids' => tactic_ids.map(&:upcase),
       'is_subtechnique' => is_sub,
       'parent_mitre_id' => parent_eid&.upcase,
       'source_attribution' => MitreCommon::SOURCE_ATTRIBUTION,
       'description_excerpt' => desc.to_s[0..280].gsub('"', '\"')
     }
+    av = attack_version_for_stix(stix_id)
+    fm['attack_version'] = av if av && !av.to_s.empty?
 
     body = +<<"BODY"
 ## Description
@@ -214,9 +225,12 @@ BODY
       'permalink' => "/tactics/#{eid.upcase}/",
       'mitre_url' => url,
       'domains' => domains,
+      'domain' => (domains & %w[enterprise mobile ics]).first || 'enterprise',
       'shortname' => shortname,
       'source_attribution' => MitreCommon::SOURCE_ATTRIBUTION
     }
+    av = attack_version_for_stix(stix_id)
+    fm['attack_version'] = av if av && !av.to_s.empty?
 
     body = +<<"BODY"
 ## Description
@@ -245,8 +259,11 @@ BODY
       'permalink' => "/campaigns/#{eid.upcase}/",
       'mitre_url' => url,
       'domains' => domains,
+      'domain' => (domains & %w[enterprise mobile ics]).first || 'enterprise',
       'source_attribution' => MitreCommon::SOURCE_ATTRIBUTION
     }
+    av = attack_version_for_stix(stix_id)
+    fm['attack_version'] = av if av && !av.to_s.empty?
 
     body = +<<"BODY"
 ## Description
@@ -275,8 +292,11 @@ BODY
       'permalink' => "/mitigations/#{eid.upcase}/",
       'mitre_url' => url,
       'domains' => domains,
+      'domain' => (domains & %w[enterprise mobile ics]).first || 'enterprise',
       'source_attribution' => MitreCommon::SOURCE_ATTRIBUTION
     }
+    av = attack_version_for_stix(stix_id)
+    fm['attack_version'] = av if av && !av.to_s.empty?
 
     body = +<<"BODY"
 ## Description
@@ -320,12 +340,15 @@ BODY
         'mitre_id' => eid.upcase,
         'mitre_url' => url,
         'domains' => domains,
+        'domain' => (domains & %w[enterprise mobile ics]).first || 'enterprise',
         'permalink' => "/malware/#{slug}/",
         'actor_count' => groups.size,
         'actors' => groups.map { |g| { 'name' => g['name'], 'url' => g['url'] } },
         'source_attribution' => MitreCommon::SOURCE_ATTRIBUTION,
         'summary' => desc[0..400].gsub('"', '\"')
       }
+      av = attack_version_for_stix(stix_id)
+      fm['attack_version'] = av if av && !av.to_s.empty?
 
       body = +<<"BODY"
 ## Overview
