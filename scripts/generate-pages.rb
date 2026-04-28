@@ -199,6 +199,20 @@ def ransomware_tool_matrix_tools(actor)
   end
 end
 
+def curated_intel_moveit_transfer_events(actor)
+  provenance = actor['provenance']
+  return [] unless provenance.is_a?(Hash)
+
+  source = provenance['curated_intel_moveit_transfer']
+  return [] unless source.is_a?(Hash)
+
+  Array(source['events']).select { |event| event.is_a?(Hash) }
+end
+
+def escape_table_cell(value)
+  value.to_s.gsub(/\s+/, ' ').strip.gsub('|', '&#124;')
+end
+
 # Build page body from YAML data
 def build_body(actor)
   sections = []
@@ -243,7 +257,21 @@ def build_body(actor)
   
   # Notable Campaigns - from YAML if present
   sections << "## Notable Campaigns"
-  if actor['campaigns'] && actor['campaigns'].any?
+  moveit_events = curated_intel_moveit_transfer_events(actor)
+  if moveit_events.any?
+    source_name = actor.dig('provenance', 'curated_intel_moveit_transfer', 'source_name') || 'Curated Intelligence MOVEit Transfer Tracking'
+    sections << "### MOVEit Transfer campaign timeline"
+    sections << "#{source_name} tracks #{moveit_events.length} public events for the 2023 MOVEit Transfer hacking campaign attributed to CL0P/Lace Tempest."
+    sections << ""
+    sections << "| Date | Type | Event | Source |"
+    sections << "|---|---|---|---|"
+    moveit_events.each do |event|
+      source_url = event['source_url'].to_s
+      source_title = event['source_title'].to_s.empty? ? 'source' : event['source_title']
+      source = source_url.empty? ? escape_table_cell(source_title) : "[#{escape_table_cell(source_title)}](#{source_url})"
+      sections << "| #{escape_table_cell(event['publish_date'])} | #{escape_table_cell(event['event_type'])} | #{escape_table_cell(event['description'])} | #{source} |"
+    end
+  elsif actor['campaigns'] && actor['campaigns'].any?
     actor['campaigns'].each do |campaign|
       name = campaign['name'] || 'Unnamed Campaign'
       date = campaign['date'] || ''

@@ -72,6 +72,14 @@ SOURCES = [
     snapshot_root: 'data/imports/ransomware-tool-matrix',
     report_name: 'ransomware-tool-matrix-report.json',
     fetch_limit: false
+  ),
+  Source.new(
+    key: 'curated-intel-moveit-transfer',
+    label: 'Curated Intelligence MOVEit Transfer Tracking',
+    script: 'scripts/import-curated-intel-moveit-transfer.rb',
+    snapshot_root: 'data/imports/curated-intel-moveit-transfer',
+    report_name: 'curated-intel-moveit-transfer-report.json',
+    fetch_limit: false
   )
 ].freeze
 

@@ -141,6 +141,53 @@ The importer preserves source attribution using the pattern:
 
 `Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence.`
 
+## Curated Intelligence MOVEit Transfer Importer
+
+`scripts/import-curated-intel-moveit-transfer.rb` enriches the existing Cl0p actor with campaign timeline events from the Curated Intelligence MOVEit Transfer tracking repository.
+
+Source: https://github.com/curated-intel/MOVEit-Transfer
+
+### Why this importer is scoped to Cl0p
+
+- The source tracks a single campaign publicly attributed to CL0P/Lace Tempest.
+- Imports preserve the full event table as provenance and render it as the Cl0p page's MOVEit Transfer campaign timeline.
+- The importer keeps volatile leak-site infrastructure out of the IOC pipeline; leak-site screenshots remain source references only.
+
+### Commands
+
+Fetch a snapshot:
+
+```bash
+ruby scripts/import-curated-intel-moveit-transfer.rb fetch --output data/imports/curated-intel-moveit-transfer/2026-04-28
+```
+
+Preview the parsed events:
+
+```bash
+ruby scripts/import-curated-intel-moveit-transfer.rb plan --snapshot data/imports/curated-intel-moveit-transfer/2026-04-28
+```
+
+Apply the enrichment:
+
+```bash
+ruby scripts/import-curated-intel-moveit-transfer.rb import --snapshot data/imports/curated-intel-moveit-transfer/2026-04-28
+```
+
+### Field mapping
+
+| Source Field | Our Schema Field | Notes |
+|--------------|------------------|-------|
+| `Publish Date` | `provenance.curated_intel_moveit_transfer.events[].publish_date` | Normalized to `YYYY-MM-DD` for 2023 campaign rows |
+| `Type` | `provenance.curated_intel_moveit_transfer.events[].event_type` | Preserves combined labels such as `Adversary/Capabilities` |
+| `Description` | `provenance.curated_intel_moveit_transfer.events[].description` | Markdown links are stripped from the description text |
+| `Source` | `source_title` and `source_url` | Rendered as the table source link on the Cl0p page |
+
+### Attribution
+
+The importer preserves source attribution using the pattern:
+
+`MOVEit Transfer campaign events were reviewed from the Curated Intelligence MOVEit Transfer tracking repository (https://github.com/curated-intel/MOVEit-Transfer). Linked reports remain owned by their original publishers.`
+
 ## Commands
 
 Fetch a public snapshot:
