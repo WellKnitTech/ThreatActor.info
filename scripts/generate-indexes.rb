@@ -1335,7 +1335,7 @@ class ThreatActorIndexGenerator
       docs << {
         title: fm['title'],
         mitre_id: mid,
-        permalink: fm['permalink'],
+        permalink: collection_permalink(collection_dir, mid, fm['permalink']),
         mitre_url: fm['mitre_url'],
         domains: fm['domains'] || [],
         layout: fm['layout']
@@ -1510,7 +1510,7 @@ class ThreatActorIndexGenerator
       {
         title: obj['name'],
         mitre_id: eidu,
-        permalink: url,
+        permalink: technique_site_permalink(eidu),
         mitre_url: url,
         domains: (resolver.domains_by_id[sid] || []).uniq,
         layout: 'technique'
@@ -1607,7 +1607,7 @@ BODY
         by_id[id] ||= {
           title: title,
           mitre_id: id,
-          permalink: technique_permalink_or_url(id),
+          permalink: technique_site_permalink(id),
           mitre_url: technique_permalink_or_url(id),
           domains: [],
           layout: 'technique'
@@ -1625,6 +1625,21 @@ BODY
       "https://attack.mitre.org/techniques/#{base}/#{sub}/"
     else
       "https://attack.mitre.org/techniques/#{tid}/"
+    end
+  end
+
+  def technique_site_permalink(technique_id)
+    "/techniques/#{technique_id.to_s.upcase}/"
+  end
+
+  def collection_permalink(collection_dir, mitre_id, fallback_permalink)
+    case collection_dir
+    when '_techniques'
+      technique_site_permalink(mitre_id)
+    when '_tactics'
+      "/tactics/#{mitre_id.to_s.upcase}/"
+    else
+      fallback_permalink
     end
   end
 

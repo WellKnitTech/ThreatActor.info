@@ -2192,6 +2192,60 @@ tr.ioc-search-deep-match {
   font-size: 0.95rem;
 }
 
+/* Technique pages — project actor list */
+.technique-project-actors {
+  margin-top: 2rem;
+  padding: 1.25rem;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background: var(--bg-card);
+}
+
+.technique-project-actors h2 {
+  margin-top: 0;
+}
+
+.technique-actors-lead {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.technique-actors-controls {
+  margin-top: 0.75rem;
+}
+
+.technique-actors-controls label {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.technique-actors-search {
+  width: 100%;
+  max-width: 28rem;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.technique-actors-list {
+  margin: 1rem 0 0 0;
+  padding-left: 1.25rem;
+}
+
+.technique-actors-list li {
+  margin-bottom: 0.35rem;
+}
+
+.technique-actors-empty,
+.technique-actors-note {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
 .attack-matrix-page .filter-grow {
   flex: 1;
   min-width: 200px;

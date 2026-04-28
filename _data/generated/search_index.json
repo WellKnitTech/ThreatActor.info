@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T21:18:10Z",
+  "generated_at": "2026-04-28T21:51:32Z",
   "actors": [
     {
       "kind": "actor",
@@ -7560,4183 +7560,4183 @@
       "kind": "technique",
       "title": "Data Obfuscation",
       "mitre_id": "T1001",
-      "permalink": "https://attack.mitre.org/techniques/T1001"
+      "permalink": "/techniques/T1001/"
     },
     {
       "kind": "technique",
       "title": "Junk Data",
       "mitre_id": "T1001.001",
-      "permalink": "https://attack.mitre.org/techniques/T1001/001"
+      "permalink": "/techniques/T1001.001/"
     },
     {
       "kind": "technique",
       "title": "Steganography",
       "mitre_id": "T1001.002",
-      "permalink": "https://attack.mitre.org/techniques/T1001/002"
+      "permalink": "/techniques/T1001.002/"
     },
     {
       "kind": "technique",
       "title": "Protocol or Service Impersonation",
       "mitre_id": "T1001.003",
-      "permalink": "https://attack.mitre.org/techniques/T1001/003"
+      "permalink": "/techniques/T1001.003/"
     },
     {
       "kind": "technique",
       "title": "OS Credential Dumping",
       "mitre_id": "T1003",
-      "permalink": "https://attack.mitre.org/techniques/T1003"
+      "permalink": "/techniques/T1003/"
     },
     {
       "kind": "technique",
       "title": "LSASS Memory",
       "mitre_id": "T1003.001",
-      "permalink": "https://attack.mitre.org/techniques/T1003/001"
+      "permalink": "/techniques/T1003.001/"
     },
     {
       "kind": "technique",
       "title": "Security Account Manager",
       "mitre_id": "T1003.002",
-      "permalink": "https://attack.mitre.org/techniques/T1003/002"
+      "permalink": "/techniques/T1003.002/"
     },
     {
       "kind": "technique",
       "title": "NTDS",
       "mitre_id": "T1003.003",
-      "permalink": "https://attack.mitre.org/techniques/T1003/003"
+      "permalink": "/techniques/T1003.003/"
     },
     {
       "kind": "technique",
       "title": "LSA Secrets",
       "mitre_id": "T1003.004",
-      "permalink": "https://attack.mitre.org/techniques/T1003/004"
+      "permalink": "/techniques/T1003.004/"
     },
     {
       "kind": "technique",
       "title": "Cached Domain Credentials",
       "mitre_id": "T1003.005",
-      "permalink": "https://attack.mitre.org/techniques/T1003/005"
+      "permalink": "/techniques/T1003.005/"
     },
     {
       "kind": "technique",
       "title": "DCSync",
       "mitre_id": "T1003.006",
-      "permalink": "https://attack.mitre.org/techniques/T1003/006"
+      "permalink": "/techniques/T1003.006/"
     },
     {
       "kind": "technique",
       "title": "Proc Filesystem",
       "mitre_id": "T1003.007",
-      "permalink": "https://attack.mitre.org/techniques/T1003/007"
+      "permalink": "/techniques/T1003.007/"
     },
     {
       "kind": "technique",
       "title": "/etc/passwd and /etc/shadow",
       "mitre_id": "T1003.008",
-      "permalink": "https://attack.mitre.org/techniques/T1003/008"
+      "permalink": "/techniques/T1003.008/"
     },
     {
       "kind": "technique",
       "title": "Data from Local System",
       "mitre_id": "T1005",
-      "permalink": "https://attack.mitre.org/techniques/T1005"
+      "permalink": "/techniques/T1005/"
     },
     {
       "kind": "technique",
       "title": "Direct Volume Access",
       "mitre_id": "T1006",
-      "permalink": "https://attack.mitre.org/techniques/T1006"
+      "permalink": "/techniques/T1006/"
     },
     {
       "kind": "technique",
       "title": "System Service Discovery",
       "mitre_id": "T1007",
-      "permalink": "https://attack.mitre.org/techniques/T1007"
+      "permalink": "/techniques/T1007/"
     },
     {
       "kind": "technique",
       "title": "Fallback Channels",
       "mitre_id": "T1008",
-      "permalink": "https://attack.mitre.org/techniques/T1008"
+      "permalink": "/techniques/T1008/"
     },
     {
       "kind": "technique",
       "title": "Application Window Discovery",
       "mitre_id": "T1010",
-      "permalink": "https://attack.mitre.org/techniques/T1010"
+      "permalink": "/techniques/T1010/"
     },
     {
       "kind": "technique",
       "title": "Exfiltration Over Other Network Medium",
       "mitre_id": "T1011",
-      "permalink": "https://attack.mitre.org/techniques/T1011"
+      "permalink": "/techniques/T1011/"
     },
     {
       "kind": "technique",
       "title": "Exfiltration Over Bluetooth",
       "mitre_id": "T1011.001",
-      "permalink": "https://attack.mitre.org/techniques/T1011/001"
+      "permalink": "/techniques/T1011.001/"
     },
     {
       "kind": "technique",
       "title": "Query Registry",
       "mitre_id": "T1012",
-      "permalink": "https://attack.mitre.org/techniques/T1012"
+      "permalink": "/techniques/T1012/"
     },
     {
       "kind": "technique",
       "title": "Rootkit",
       "mitre_id": "T1014",
-      "permalink": "https://attack.mitre.org/techniques/T1014"
+      "permalink": "/techniques/T1014/"
     },
     {
       "kind": "technique",
       "title": "System Network Configuration Discovery",
       "mitre_id": "T1016",
-      "permalink": "https://attack.mitre.org/techniques/T1016"
+      "permalink": "/techniques/T1016/"
     },
     {
       "kind": "technique",
       "title": "Internet Connection Discovery",
       "mitre_id": "T1016.001",
-      "permalink": "https://attack.mitre.org/techniques/T1016/001"
+      "permalink": "/techniques/T1016.001/"
     },
     {
       "kind": "technique",
       "title": "Wi-Fi Discovery",
       "mitre_id": "T1016.002",
-      "permalink": "https://attack.mitre.org/techniques/T1016/002"
+      "permalink": "/techniques/T1016.002/"
     },
     {
       "kind": "technique",
       "title": "Remote System Discovery",
       "mitre_id": "T1018",
-      "permalink": "https://attack.mitre.org/techniques/T1018"
+      "permalink": "/techniques/T1018/"
     },
     {
       "kind": "technique",
       "title": "Automated Exfiltration",
       "mitre_id": "T1020",
-      "permalink": "https://attack.mitre.org/techniques/T1020"
+      "permalink": "/techniques/T1020/"
     },
     {
       "kind": "technique",
       "title": "Traffic Duplication",
       "mitre_id": "T1020.001",
-      "permalink": "https://attack.mitre.org/techniques/T1020/001"
+      "permalink": "/techniques/T1020.001/"
     },
     {
       "kind": "technique",
       "title": "Remote Services",
       "mitre_id": "T1021",
-      "permalink": "https://attack.mitre.org/techniques/T1021"
+      "permalink": "/techniques/T1021/"
     },
     {
       "kind": "technique",
       "title": "Remote Desktop Protocol",
       "mitre_id": "T1021.001",
-      "permalink": "https://attack.mitre.org/techniques/T1021/001"
+      "permalink": "/techniques/T1021.001/"
     },
     {
       "kind": "technique",
       "title": "SMB/Windows Admin Shares",
       "mitre_id": "T1021.002",
-      "permalink": "https://attack.mitre.org/techniques/T1021/002"
+      "permalink": "/techniques/T1021.002/"
     },
     {
       "kind": "technique",
       "title": "Distributed Component Object Model",
       "mitre_id": "T1021.003",
-      "permalink": "https://attack.mitre.org/techniques/T1021/003"
+      "permalink": "/techniques/T1021.003/"
     },
     {
       "kind": "technique",
       "title": "SSH",
       "mitre_id": "T1021.004",
-      "permalink": "https://attack.mitre.org/techniques/T1021/004"
+      "permalink": "/techniques/T1021.004/"
     },
     {
       "kind": "technique",
       "title": "VNC",
       "mitre_id": "T1021.005",
-      "permalink": "https://attack.mitre.org/techniques/T1021/005"
+      "permalink": "/techniques/T1021.005/"
     },
     {
       "kind": "technique",
       "title": "Windows Remote Management",
       "mitre_id": "T1021.006",
-      "permalink": "https://attack.mitre.org/techniques/T1021/006"
+      "permalink": "/techniques/T1021.006/"
     },
     {
       "kind": "technique",
       "title": "Cloud Services",
       "mitre_id": "T1021.007",
-      "permalink": "https://attack.mitre.org/techniques/T1021/007"
+      "permalink": "/techniques/T1021.007/"
     },
     {
       "kind": "technique",
       "title": "Direct Cloud VM Connections",
       "mitre_id": "T1021.008",
-      "permalink": "https://attack.mitre.org/techniques/T1021/008"
+      "permalink": "/techniques/T1021.008/"
     },
     {
       "kind": "technique",
       "title": "Data from Removable Media",
       "mitre_id": "T1025",
-      "permalink": "https://attack.mitre.org/techniques/T1025"
+      "permalink": "/techniques/T1025/"
     },
     {
       "kind": "technique",
       "title": "Obfuscated Files or Information",
       "mitre_id": "T1027",
-      "permalink": "https://attack.mitre.org/techniques/T1027"
+      "permalink": "/techniques/T1027/"
     },
     {
       "kind": "technique",
       "title": "Binary Padding",
       "mitre_id": "T1027.001",
-      "permalink": "https://attack.mitre.org/techniques/T1027/001"
+      "permalink": "/techniques/T1027.001/"
     },
     {
       "kind": "technique",
       "title": "Software Packing",
       "mitre_id": "T1027.002",
-      "permalink": "https://attack.mitre.org/techniques/T1027/002"
+      "permalink": "/techniques/T1027.002/"
     },
     {
       "kind": "technique",
       "title": "Steganography",
       "mitre_id": "T1027.003",
-      "permalink": "https://attack.mitre.org/techniques/T1027/003"
+      "permalink": "/techniques/T1027.003/"
     },
     {
       "kind": "technique",
       "title": "Compile After Delivery",
       "mitre_id": "T1027.004",
-      "permalink": "https://attack.mitre.org/techniques/T1027/004"
+      "permalink": "/techniques/T1027.004/"
     },
     {
       "kind": "technique",
       "title": "Indicator Removal from Tools",
       "mitre_id": "T1027.005",
-      "permalink": "https://attack.mitre.org/techniques/T1027/005"
+      "permalink": "/techniques/T1027.005/"
     },
     {
       "kind": "technique",
       "title": "HTML Smuggling",
       "mitre_id": "T1027.006",
-      "permalink": "https://attack.mitre.org/techniques/T1027/006"
+      "permalink": "/techniques/T1027.006/"
     },
     {
       "kind": "technique",
       "title": "Dynamic API Resolution",
       "mitre_id": "T1027.007",
-      "permalink": "https://attack.mitre.org/techniques/T1027/007"
+      "permalink": "/techniques/T1027.007/"
     },
     {
       "kind": "technique",
       "title": "Stripped Payloads",
       "mitre_id": "T1027.008",
-      "permalink": "https://attack.mitre.org/techniques/T1027/008"
+      "permalink": "/techniques/T1027.008/"
     },
     {
       "kind": "technique",
       "title": "Embedded Payloads",
       "mitre_id": "T1027.009",
-      "permalink": "https://attack.mitre.org/techniques/T1027/009"
+      "permalink": "/techniques/T1027.009/"
     },
     {
       "kind": "technique",
       "title": "Command Obfuscation",
       "mitre_id": "T1027.010",
-      "permalink": "https://attack.mitre.org/techniques/T1027/010"
+      "permalink": "/techniques/T1027.010/"
     },
     {
       "kind": "technique",
       "title": "Fileless Storage",
       "mitre_id": "T1027.011",
-      "permalink": "https://attack.mitre.org/techniques/T1027/011"
+      "permalink": "/techniques/T1027.011/"
     },
     {
       "kind": "technique",
       "title": "LNK Icon Smuggling",
       "mitre_id": "T1027.012",
-      "permalink": "https://attack.mitre.org/techniques/T1027/012"
+      "permalink": "/techniques/T1027.012/"
     },
     {
       "kind": "technique",
       "title": "Encrypted/Encoded File",
       "mitre_id": "T1027.013",
-      "permalink": "https://attack.mitre.org/techniques/T1027/013"
+      "permalink": "/techniques/T1027.013/"
     },
     {
       "kind": "technique",
       "title": "Polymorphic Code",
       "mitre_id": "T1027.014",
-      "permalink": "https://attack.mitre.org/techniques/T1027/014"
+      "permalink": "/techniques/T1027.014/"
     },
     {
       "kind": "technique",
       "title": "Compression",
       "mitre_id": "T1027.015",
-      "permalink": "https://attack.mitre.org/techniques/T1027/015"
+      "permalink": "/techniques/T1027.015/"
     },
     {
       "kind": "technique",
       "title": "Junk Code Insertion",
       "mitre_id": "T1027.016",
-      "permalink": "https://attack.mitre.org/techniques/T1027/016"
+      "permalink": "/techniques/T1027.016/"
     },
     {
       "kind": "technique",
       "title": "SVG Smuggling",
       "mitre_id": "T1027.017",
-      "permalink": "https://attack.mitre.org/techniques/T1027/017"
+      "permalink": "/techniques/T1027.017/"
     },
     {
       "kind": "technique",
       "title": "Invisible Unicode",
       "mitre_id": "T1027.018",
-      "permalink": "https://attack.mitre.org/techniques/T1027/018"
+      "permalink": "/techniques/T1027.018/"
     },
     {
       "kind": "technique",
       "title": "Scheduled Transfer",
       "mitre_id": "T1029",
-      "permalink": "https://attack.mitre.org/techniques/T1029"
+      "permalink": "/techniques/T1029/"
     },
     {
       "kind": "technique",
       "title": "Data Transfer Size Limits",
       "mitre_id": "T1030",
-      "permalink": "https://attack.mitre.org/techniques/T1030"
+      "permalink": "/techniques/T1030/"
     },
     {
       "kind": "technique",
       "title": "System Owner/User Discovery",
       "mitre_id": "T1033",
-      "permalink": "https://attack.mitre.org/techniques/T1033"
+      "permalink": "/techniques/T1033/"
     },
     {
       "kind": "technique",
       "title": "Masquerading",
       "mitre_id": "T1036",
-      "permalink": "https://attack.mitre.org/techniques/T1036"
+      "permalink": "/techniques/T1036/"
     },
     {
       "kind": "technique",
       "title": "Invalid Code Signature",
       "mitre_id": "T1036.001",
-      "permalink": "https://attack.mitre.org/techniques/T1036/001"
+      "permalink": "/techniques/T1036.001/"
     },
     {
       "kind": "technique",
       "title": "Right-to-Left Override",
       "mitre_id": "T1036.002",
-      "permalink": "https://attack.mitre.org/techniques/T1036/002"
+      "permalink": "/techniques/T1036.002/"
     },
     {
       "kind": "technique",
       "title": "Rename Legitimate Utilities",
       "mitre_id": "T1036.003",
-      "permalink": "https://attack.mitre.org/techniques/T1036/003"
+      "permalink": "/techniques/T1036.003/"
     },
     {
       "kind": "technique",
       "title": "Masquerade Task or Service",
       "mitre_id": "T1036.004",
-      "permalink": "https://attack.mitre.org/techniques/T1036/004"
+      "permalink": "/techniques/T1036.004/"
     },
     {
       "kind": "technique",
       "title": "Match Legitimate Resource Name or Location",
       "mitre_id": "T1036.005",
-      "permalink": "https://attack.mitre.org/techniques/T1036/005"
+      "permalink": "/techniques/T1036.005/"
     },
     {
       "kind": "technique",
       "title": "Space after Filename",
       "mitre_id": "T1036.006",
-      "permalink": "https://attack.mitre.org/techniques/T1036/006"
+      "permalink": "/techniques/T1036.006/"
     },
     {
       "kind": "technique",
       "title": "Double File Extension",
       "mitre_id": "T1036.007",
-      "permalink": "https://attack.mitre.org/techniques/T1036/007"
+      "permalink": "/techniques/T1036.007/"
     },
     {
       "kind": "technique",
       "title": "Masquerade File Type",
       "mitre_id": "T1036.008",
-      "permalink": "https://attack.mitre.org/techniques/T1036/008"
+      "permalink": "/techniques/T1036.008/"
     },
     {
       "kind": "technique",
       "title": "Break Process Trees",
       "mitre_id": "T1036.009",
-      "permalink": "https://attack.mitre.org/techniques/T1036/009"
+      "permalink": "/techniques/T1036.009/"
     },
     {
       "kind": "technique",
       "title": "Masquerade Account Name",
       "mitre_id": "T1036.010",
-      "permalink": "https://attack.mitre.org/techniques/T1036/010"
+      "permalink": "/techniques/T1036.010/"
     },
     {
       "kind": "technique",
       "title": "Overwrite Process Arguments",
       "mitre_id": "T1036.011",
-      "permalink": "https://attack.mitre.org/techniques/T1036/011"
+      "permalink": "/techniques/T1036.011/"
     },
     {
       "kind": "technique",
       "title": "Browser Fingerprint",
       "mitre_id": "T1036.012",
-      "permalink": "https://attack.mitre.org/techniques/T1036/012"
+      "permalink": "/techniques/T1036.012/"
     },
     {
       "kind": "technique",
       "title": "Boot or Logon Initialization Scripts",
       "mitre_id": "T1037",
-      "permalink": "https://attack.mitre.org/techniques/T1037"
+      "permalink": "/techniques/T1037/"
     },
     {
       "kind": "technique",
       "title": "Logon Script (Windows)",
       "mitre_id": "T1037.001",
-      "permalink": "https://attack.mitre.org/techniques/T1037/001"
+      "permalink": "/techniques/T1037.001/"
     },
     {
       "kind": "technique",
       "title": "Login Hook",
       "mitre_id": "T1037.002",
-      "permalink": "https://attack.mitre.org/techniques/T1037/002"
+      "permalink": "/techniques/T1037.002/"
     },
     {
       "kind": "technique",
       "title": "Network Logon Script",
       "mitre_id": "T1037.003",
-      "permalink": "https://attack.mitre.org/techniques/T1037/003"
+      "permalink": "/techniques/T1037.003/"
     },
     {
       "kind": "technique",
       "title": "RC Scripts",
       "mitre_id": "T1037.004",
-      "permalink": "https://attack.mitre.org/techniques/T1037/004"
+      "permalink": "/techniques/T1037.004/"
     },
     {
       "kind": "technique",
       "title": "Startup Items",
       "mitre_id": "T1037.005",
-      "permalink": "https://attack.mitre.org/techniques/T1037/005"
+      "permalink": "/techniques/T1037.005/"
     },
     {
       "kind": "technique",
       "title": "Data from Network Shared Drive",
       "mitre_id": "T1039",
-      "permalink": "https://attack.mitre.org/techniques/T1039"
+      "permalink": "/techniques/T1039/"
     },
     {
       "kind": "technique",
       "title": "Network Sniffing",
       "mitre_id": "T1040",
-      "permalink": "https://attack.mitre.org/techniques/T1040"
+      "permalink": "/techniques/T1040/"
     },
     {
       "kind": "technique",
       "title": "Exfiltration Over C2 Channel",
       "mitre_id": "T1041",
-      "permalink": "https://attack.mitre.org/techniques/T1041"
+      "permalink": "/techniques/T1041/"
     },
     {
       "kind": "technique",
       "title": "Network Service Discovery",
       "mitre_id": "T1046",
-      "permalink": "https://attack.mitre.org/techniques/T1046"
+      "permalink": "/techniques/T1046/"
     },
     {
       "kind": "technique",
       "title": "Windows Management Instrumentation",
       "mitre_id": "T1047",
-      "permalink": "https://attack.mitre.org/techniques/T1047"
+      "permalink": "/techniques/T1047/"
     },
     {
       "kind": "technique",
       "title": "Exfiltration Over Alternative Protocol",
       "mitre_id": "T1048",
-      "permalink": "https://attack.mitre.org/techniques/T1048"
+      "permalink": "/techniques/T1048/"
     },
     {
       "kind": "technique",
       "title": "Exfiltration Over Symmetric Encrypted Non-C2 Protocol",
       "mitre_id": "T1048.001",
-      "permalink": "https://attack.mitre.org/techniques/T1048/001"
+      "permalink": "/techniques/T1048.001/"
     },
     {
       "kind": "technique",
       "title": "Exfiltration Over Asymmetric Encrypted Non-C2 Protocol",
       "mitre_id": "T1048.002",
-      "permalink": "https://attack.mitre.org/techniques/T1048/002"
+      "permalink": "/techniques/T1048.002/"
     },
     {
       "kind": "technique",
       "title": "Exfiltration Over Unencrypted Non-C2 Protocol",
       "mitre_id": "T1048.003",
-      "permalink": "https://attack.mitre.org/techniques/T1048/003"
+      "permalink": "/techniques/T1048.003/"
     },
     {
       "kind": "technique",
       "title": "System Network Connections Discovery",
       "mitre_id": "T1049",
-      "permalink": "https://attack.mitre.org/techniques/T1049"
+      "permalink": "/techniques/T1049/"
     },
     {
       "kind": "technique",
       "title": "Exfiltration Over Physical Medium",
       "mitre_id": "T1052",
-      "permalink": "https://attack.mitre.org/techniques/T1052"
+      "permalink": "/techniques/T1052/"
     },
     {
       "kind": "technique",
       "title": "Exfiltration over USB",
       "mitre_id": "T1052.001",
-      "permalink": "https://attack.mitre.org/techniques/T1052/001"
+      "permalink": "/techniques/T1052.001/"
     },
     {
       "kind": "technique",
       "title": "Scheduled Task/Job",
       "mitre_id": "T1053",
-      "permalink": "https://attack.mitre.org/techniques/T1053"
+      "permalink": "/techniques/T1053/"
     },
     {
       "kind": "technique",
       "title": "At",
       "mitre_id": "T1053.002",
-      "permalink": "https://attack.mitre.org/techniques/T1053/002"
+      "permalink": "/techniques/T1053.002/"
     },
     {
       "kind": "technique",
       "title": "Cron",
       "mitre_id": "T1053.003",
-      "permalink": "https://attack.mitre.org/techniques/T1053/003"
+      "permalink": "/techniques/T1053.003/"
     },
     {
       "kind": "technique",
       "title": "Scheduled Task",
       "mitre_id": "T1053.005",
-      "permalink": "https://attack.mitre.org/techniques/T1053/005"
+      "permalink": "/techniques/T1053.005/"
     },
     {
       "kind": "technique",
       "title": "Systemd Timers",
       "mitre_id": "T1053.006",
-      "permalink": "https://attack.mitre.org/techniques/T1053/006"
+      "permalink": "/techniques/T1053.006/"
     },
     {
       "kind": "technique",
       "title": "Container Orchestration Job",
       "mitre_id": "T1053.007",
-      "permalink": "https://attack.mitre.org/techniques/T1053/007"
+      "permalink": "/techniques/T1053.007/"
     },
     {
       "kind": "technique",
       "title": "Process Injection",
       "mitre_id": "T1055",
-      "permalink": "https://attack.mitre.org/techniques/T1055"
+      "permalink": "/techniques/T1055/"
     },
     {
       "kind": "technique",
       "title": "Dynamic-link Library Injection",
       "mitre_id": "T1055.001",
-      "permalink": "https://attack.mitre.org/techniques/T1055/001"
+      "permalink": "/techniques/T1055.001/"
     },
     {
       "kind": "technique",
       "title": "Portable Executable Injection",
       "mitre_id": "T1055.002",
-      "permalink": "https://attack.mitre.org/techniques/T1055/002"
+      "permalink": "/techniques/T1055.002/"
     },
     {
       "kind": "technique",
       "title": "Thread Execution Hijacking",
       "mitre_id": "T1055.003",
-      "permalink": "https://attack.mitre.org/techniques/T1055/003"
+      "permalink": "/techniques/T1055.003/"
     },
     {
       "kind": "technique",
       "title": "Asynchronous Procedure Call",
       "mitre_id": "T1055.004",
-      "permalink": "https://attack.mitre.org/techniques/T1055/004"
+      "permalink": "/techniques/T1055.004/"
     },
     {
       "kind": "technique",
       "title": "Thread Local Storage",
       "mitre_id": "T1055.005",
-      "permalink": "https://attack.mitre.org/techniques/T1055/005"
+      "permalink": "/techniques/T1055.005/"
     },
     {
       "kind": "technique",
       "title": "Ptrace System Calls",
       "mitre_id": "T1055.008",
-      "permalink": "https://attack.mitre.org/techniques/T1055/008"
+      "permalink": "/techniques/T1055.008/"
     },
     {
       "kind": "technique",
       "title": "Proc Memory",
       "mitre_id": "T1055.009",
-      "permalink": "https://attack.mitre.org/techniques/T1055/009"
+      "permalink": "/techniques/T1055.009/"
     },
     {
       "kind": "technique",
       "title": "Extra Window Memory Injection",
       "mitre_id": "T1055.011",
-      "permalink": "https://attack.mitre.org/techniques/T1055/011"
+      "permalink": "/techniques/T1055.011/"
     },
     {
       "kind": "technique",
       "title": "Process Hollowing",
       "mitre_id": "T1055.012",
-      "permalink": "https://attack.mitre.org/techniques/T1055/012"
+      "permalink": "/techniques/T1055.012/"
     },
     {
       "kind": "technique",
       "title": "Process Doppelgänging",
       "mitre_id": "T1055.013",
-      "permalink": "https://attack.mitre.org/techniques/T1055/013"
+      "permalink": "/techniques/T1055.013/"
     },
     {
       "kind": "technique",
       "title": "VDSO Hijacking",
       "mitre_id": "T1055.014",
-      "permalink": "https://attack.mitre.org/techniques/T1055/014"
+      "permalink": "/techniques/T1055.014/"
     },
     {
       "kind": "technique",
       "title": "ListPlanting",
       "mitre_id": "T1055.015",
-      "permalink": "https://attack.mitre.org/techniques/T1055/015"
+      "permalink": "/techniques/T1055.015/"
     },
     {
       "kind": "technique",
       "title": "Input Capture",
       "mitre_id": "T1056",
-      "permalink": "https://attack.mitre.org/techniques/T1056"
+      "permalink": "/techniques/T1056/"
     },
     {
       "kind": "technique",
       "title": "Keylogging",
       "mitre_id": "T1056.001",
-      "permalink": "https://attack.mitre.org/techniques/T1056/001"
+      "permalink": "/techniques/T1056.001/"
     },
     {
       "kind": "technique",
       "title": "GUI Input Capture",
       "mitre_id": "T1056.002",
-      "permalink": "https://attack.mitre.org/techniques/T1056/002"
+      "permalink": "/techniques/T1056.002/"
     },
     {
       "kind": "technique",
       "title": "Web Portal Capture",
       "mitre_id": "T1056.003",
-      "permalink": "https://attack.mitre.org/techniques/T1056/003"
+      "permalink": "/techniques/T1056.003/"
     },
     {
       "kind": "technique",
       "title": "Credential API Hooking",
       "mitre_id": "T1056.004",
-      "permalink": "https://attack.mitre.org/techniques/T1056/004"
+      "permalink": "/techniques/T1056.004/"
     },
     {
       "kind": "technique",
       "title": "Process Discovery",
       "mitre_id": "T1057",
-      "permalink": "https://attack.mitre.org/techniques/T1057"
+      "permalink": "/techniques/T1057/"
     },
     {
       "kind": "technique",
       "title": "Command and Scripting Interpreter",
       "mitre_id": "T1059",
-      "permalink": "https://attack.mitre.org/techniques/T1059"
+      "permalink": "/techniques/T1059/"
     },
     {
       "kind": "technique",
       "title": "PowerShell",
       "mitre_id": "T1059.001",
-      "permalink": "https://attack.mitre.org/techniques/T1059/001"
+      "permalink": "/techniques/T1059.001/"
     },
     {
       "kind": "technique",
       "title": "AppleScript",
       "mitre_id": "T1059.002",
-      "permalink": "https://attack.mitre.org/techniques/T1059/002"
+      "permalink": "/techniques/T1059.002/"
     },
     {
       "kind": "technique",
       "title": "Windows Command Shell",
       "mitre_id": "T1059.003",
-      "permalink": "https://attack.mitre.org/techniques/T1059/003"
+      "permalink": "/techniques/T1059.003/"
     },
     {
       "kind": "technique",
       "title": "Unix Shell",
       "mitre_id": "T1059.004",
-      "permalink": "https://attack.mitre.org/techniques/T1059/004"
+      "permalink": "/techniques/T1059.004/"
     },
     {
       "kind": "technique",
       "title": "Visual Basic",
       "mitre_id": "T1059.005",
-      "permalink": "https://attack.mitre.org/techniques/T1059/005"
+      "permalink": "/techniques/T1059.005/"
     },
     {
       "kind": "technique",
       "title": "Python",
       "mitre_id": "T1059.006",
-      "permalink": "https://attack.mitre.org/techniques/T1059/006"
+      "permalink": "/techniques/T1059.006/"
     },
     {
       "kind": "technique",
       "title": "JavaScript",
       "mitre_id": "T1059.007",
-      "permalink": "https://attack.mitre.org/techniques/T1059/007"
+      "permalink": "/techniques/T1059.007/"
     },
     {
       "kind": "technique",
       "title": "Network Device CLI",
       "mitre_id": "T1059.008",
-      "permalink": "https://attack.mitre.org/techniques/T1059/008"
+      "permalink": "/techniques/T1059.008/"
     },
     {
       "kind": "technique",
       "title": "Cloud API",
       "mitre_id": "T1059.009",
-      "permalink": "https://attack.mitre.org/techniques/T1059/009"
+      "permalink": "/techniques/T1059.009/"
     },
     {
       "kind": "technique",
       "title": "AutoHotKey & AutoIT",
       "mitre_id": "T1059.010",
-      "permalink": "https://attack.mitre.org/techniques/T1059/010"
+      "permalink": "/techniques/T1059.010/"
     },
     {
       "kind": "technique",
       "title": "Lua",
       "mitre_id": "T1059.011",
-      "permalink": "https://attack.mitre.org/techniques/T1059/011"
+      "permalink": "/techniques/T1059.011/"
     },
     {
       "kind": "technique",
       "title": "Hypervisor CLI",
       "mitre_id": "T1059.012",
-      "permalink": "https://attack.mitre.org/techniques/T1059/012"
+      "permalink": "/techniques/T1059.012/"
     },
     {
       "kind": "technique",
       "title": "Container CLI/API",
       "mitre_id": "T1059.013",
-      "permalink": "https://attack.mitre.org/techniques/T1059/013"
+      "permalink": "/techniques/T1059.013/"
     },
     {
       "kind": "technique",
       "title": "Exploitation for Privilege Escalation",
       "mitre_id": "T1068",
-      "permalink": "https://attack.mitre.org/techniques/T1068"
+      "permalink": "/techniques/T1068/"
     },
     {
       "kind": "technique",
       "title": "Permission Groups Discovery",
       "mitre_id": "T1069",
-      "permalink": "https://attack.mitre.org/techniques/T1069"
+      "permalink": "/techniques/T1069/"
     },
     {
       "kind": "technique",
       "title": "Local Groups",
       "mitre_id": "T1069.001",
-      "permalink": "https://attack.mitre.org/techniques/T1069/001"
+      "permalink": "/techniques/T1069.001/"
     },
     {
       "kind": "technique",
       "title": "Domain Groups",
       "mitre_id": "T1069.002",
-      "permalink": "https://attack.mitre.org/techniques/T1069/002"
+      "permalink": "/techniques/T1069.002/"
     },
     {
       "kind": "technique",
       "title": "Cloud Groups",
       "mitre_id": "T1069.003",
-      "permalink": "https://attack.mitre.org/techniques/T1069/003"
+      "permalink": "/techniques/T1069.003/"
     },
     {
       "kind": "technique",
       "title": "Indicator Removal",
       "mitre_id": "T1070",
-      "permalink": "https://attack.mitre.org/techniques/T1070"
+      "permalink": "/techniques/T1070/"
     },
     {
       "kind": "technique",
       "title": "Clear Command History",
       "mitre_id": "T1070.003",
-      "permalink": "https://attack.mitre.org/techniques/T1070/003"
+      "permalink": "/techniques/T1070.003/"
     },
     {
       "kind": "technique",
       "title": "File Deletion",
       "mitre_id": "T1070.004",
-      "permalink": "https://attack.mitre.org/techniques/T1070/004"
+      "permalink": "/techniques/T1070.004/"
     },
     {
       "kind": "technique",
       "title": "Network Share Connection Removal",
       "mitre_id": "T1070.005",
-      "permalink": "https://attack.mitre.org/techniques/T1070/005"
+      "permalink": "/techniques/T1070.005/"
     },
     {
       "kind": "technique",
       "title": "Timestomp",
       "mitre_id": "T1070.006",
-      "permalink": "https://attack.mitre.org/techniques/T1070/006"
+      "permalink": "/techniques/T1070.006/"
     },
     {
       "kind": "technique",
       "title": "Clear Network Connection History and Configurations",
       "mitre_id": "T1070.007",
-      "permalink": "https://attack.mitre.org/techniques/T1070/007"
+      "permalink": "/techniques/T1070.007/"
     },
     {
       "kind": "technique",
       "title": "Clear Mailbox Data",
       "mitre_id": "T1070.008",
-      "permalink": "https://attack.mitre.org/techniques/T1070/008"
+      "permalink": "/techniques/T1070.008/"
     },
     {
       "kind": "technique",
       "title": "Clear Persistence",
       "mitre_id": "T1070.009",
-      "permalink": "https://attack.mitre.org/techniques/T1070/009"
+      "permalink": "/techniques/T1070.009/"
     },
     {
       "kind": "technique",
       "title": "Relocate Malware",
       "mitre_id": "T1070.010",
-      "permalink": "https://attack.mitre.org/techniques/T1070/010"
+      "permalink": "/techniques/T1070.010/"
     },
     {
       "kind": "technique",
       "title": "Application Layer Protocol",
       "mitre_id": "T1071",
-      "permalink": "https://attack.mitre.org/techniques/T1071"
+      "permalink": "/techniques/T1071/"
     },
     {
       "kind": "technique",
       "title": "Web Protocols",
       "mitre_id": "T1071.001",
-      "permalink": "https://attack.mitre.org/techniques/T1071/001"
+      "permalink": "/techniques/T1071.001/"
     },
     {
       "kind": "technique",
       "title": "File Transfer Protocols",
       "mitre_id": "T1071.002",
-      "permalink": "https://attack.mitre.org/techniques/T1071/002"
+      "permalink": "/techniques/T1071.002/"
     },
     {
       "kind": "technique",
       "title": "Mail Protocols",
       "mitre_id": "T1071.003",
-      "permalink": "https://attack.mitre.org/techniques/T1071/003"
+      "permalink": "/techniques/T1071.003/"
     },
     {
       "kind": "technique",
       "title": "DNS",
       "mitre_id": "T1071.004",
-      "permalink": "https://attack.mitre.org/techniques/T1071/004"
+      "permalink": "/techniques/T1071.004/"
     },
     {
       "kind": "technique",
       "title": "Publish/Subscribe Protocols",
       "mitre_id": "T1071.005",
-      "permalink": "https://attack.mitre.org/techniques/T1071/005"
+      "permalink": "/techniques/T1071.005/"
     },
     {
       "kind": "technique",
       "title": "Software Deployment Tools",
       "mitre_id": "T1072",
-      "permalink": "https://attack.mitre.org/techniques/T1072"
+      "permalink": "/techniques/T1072/"
     },
     {
       "kind": "technique",
       "title": "Data Staged",
       "mitre_id": "T1074",
-      "permalink": "https://attack.mitre.org/techniques/T1074"
+      "permalink": "/techniques/T1074/"
     },
     {
       "kind": "technique",
       "title": "Local Data Staging",
       "mitre_id": "T1074.001",
-      "permalink": "https://attack.mitre.org/techniques/T1074/001"
+      "permalink": "/techniques/T1074.001/"
     },
     {
       "kind": "technique",
       "title": "Remote Data Staging",
       "mitre_id": "T1074.002",
-      "permalink": "https://attack.mitre.org/techniques/T1074/002"
+      "permalink": "/techniques/T1074.002/"
     },
     {
       "kind": "technique",
       "title": "Valid Accounts",
       "mitre_id": "T1078",
-      "permalink": "https://attack.mitre.org/techniques/T1078"
+      "permalink": "/techniques/T1078/"
     },
     {
       "kind": "technique",
       "title": "Default Accounts",
       "mitre_id": "T1078.001",
-      "permalink": "https://attack.mitre.org/techniques/T1078/001"
+      "permalink": "/techniques/T1078.001/"
     },
     {
       "kind": "technique",
       "title": "Domain Accounts",
       "mitre_id": "T1078.002",
-      "permalink": "https://attack.mitre.org/techniques/T1078/002"
+      "permalink": "/techniques/T1078.002/"
     },
     {
       "kind": "technique",
       "title": "Local Accounts",
       "mitre_id": "T1078.003",
-      "permalink": "https://attack.mitre.org/techniques/T1078/003"
+      "permalink": "/techniques/T1078.003/"
     },
     {
       "kind": "technique",
       "title": "Cloud Accounts",
       "mitre_id": "T1078.004",
-      "permalink": "https://attack.mitre.org/techniques/T1078/004"
+      "permalink": "/techniques/T1078.004/"
     },
     {
       "kind": "technique",
       "title": "Taint Shared Content",
       "mitre_id": "T1080",
-      "permalink": "https://attack.mitre.org/techniques/T1080"
+      "permalink": "/techniques/T1080/"
     },
     {
       "kind": "technique",
       "title": "System Information Discovery",
       "mitre_id": "T1082",
-      "permalink": "https://attack.mitre.org/techniques/T1082"
+      "permalink": "/techniques/T1082/"
     },
     {
       "kind": "technique",
       "title": "File and Directory Discovery",
       "mitre_id": "T1083",
-      "permalink": "https://attack.mitre.org/techniques/T1083"
+      "permalink": "/techniques/T1083/"
     },
     {
       "kind": "technique",
       "title": "Account Discovery",
       "mitre_id": "T1087",
-      "permalink": "https://attack.mitre.org/techniques/T1087"
+      "permalink": "/techniques/T1087/"
     },
     {
       "kind": "technique",
       "title": "Local Account",
       "mitre_id": "T1087.001",
-      "permalink": "https://attack.mitre.org/techniques/T1087/001"
+      "permalink": "/techniques/T1087.001/"
     },
     {
       "kind": "technique",
       "title": "Domain Account",
       "mitre_id": "T1087.002",
-      "permalink": "https://attack.mitre.org/techniques/T1087/002"
+      "permalink": "/techniques/T1087.002/"
     },
     {
       "kind": "technique",
       "title": "Email Account",
       "mitre_id": "T1087.003",
-      "permalink": "https://attack.mitre.org/techniques/T1087/003"
+      "permalink": "/techniques/T1087.003/"
     },
     {
       "kind": "technique",
       "title": "Cloud Account",
       "mitre_id": "T1087.004",
-      "permalink": "https://attack.mitre.org/techniques/T1087/004"
+      "permalink": "/techniques/T1087.004/"
     },
     {
       "kind": "technique",
       "title": "Proxy",
       "mitre_id": "T1090",
-      "permalink": "https://attack.mitre.org/techniques/T1090"
+      "permalink": "/techniques/T1090/"
     },
     {
       "kind": "technique",
       "title": "Internal Proxy",
       "mitre_id": "T1090.001",
-      "permalink": "https://attack.mitre.org/techniques/T1090/001"
+      "permalink": "/techniques/T1090.001/"
     },
     {
       "kind": "technique",
       "title": "External Proxy",
       "mitre_id": "T1090.002",
-      "permalink": "https://attack.mitre.org/techniques/T1090/002"
+      "permalink": "/techniques/T1090.002/"
     },
     {
       "kind": "technique",
       "title": "Multi-hop Proxy",
       "mitre_id": "T1090.003",
-      "permalink": "https://attack.mitre.org/techniques/T1090/003"
+      "permalink": "/techniques/T1090.003/"
     },
     {
       "kind": "technique",
       "title": "Domain Fronting",
       "mitre_id": "T1090.004",
-      "permalink": "https://attack.mitre.org/techniques/T1090/004"
+      "permalink": "/techniques/T1090.004/"
     },
     {
       "kind": "technique",
       "title": "Replication Through Removable Media",
       "mitre_id": "T1091",
-      "permalink": "https://attack.mitre.org/techniques/T1091"
+      "permalink": "/techniques/T1091/"
     },
     {
       "kind": "technique",
       "title": "Communication Through Removable Media",
       "mitre_id": "T1092",
-      "permalink": "https://attack.mitre.org/techniques/T1092"
+      "permalink": "/techniques/T1092/"
     },
     {
       "kind": "technique",
       "title": "Non-Application Layer Protocol",
       "mitre_id": "T1095",
-      "permalink": "https://attack.mitre.org/techniques/T1095"
+      "permalink": "/techniques/T1095/"
     },
     {
       "kind": "technique",
       "title": "Account Manipulation",
       "mitre_id": "T1098",
-      "permalink": "https://attack.mitre.org/techniques/T1098"
+      "permalink": "/techniques/T1098/"
     },
     {
       "kind": "technique",
       "title": "Additional Cloud Credentials",
       "mitre_id": "T1098.001",
-      "permalink": "https://attack.mitre.org/techniques/T1098/001"
+      "permalink": "/techniques/T1098.001/"
     },
     {
       "kind": "technique",
       "title": "Additional Email Delegate Permissions",
       "mitre_id": "T1098.002",
-      "permalink": "https://attack.mitre.org/techniques/T1098/002"
+      "permalink": "/techniques/T1098.002/"
     },
     {
       "kind": "technique",
       "title": "Additional Cloud Roles",
       "mitre_id": "T1098.003",
-      "permalink": "https://attack.mitre.org/techniques/T1098/003"
+      "permalink": "/techniques/T1098.003/"
     },
     {
       "kind": "technique",
       "title": "SSH Authorized Keys",
       "mitre_id": "T1098.004",
-      "permalink": "https://attack.mitre.org/techniques/T1098/004"
+      "permalink": "/techniques/T1098.004/"
     },
     {
       "kind": "technique",
       "title": "Device Registration",
       "mitre_id": "T1098.005",
-      "permalink": "https://attack.mitre.org/techniques/T1098/005"
+      "permalink": "/techniques/T1098.005/"
     },
     {
       "kind": "technique",
       "title": "Additional Container Cluster Roles",
       "mitre_id": "T1098.006",
-      "permalink": "https://attack.mitre.org/techniques/T1098/006"
+      "permalink": "/techniques/T1098.006/"
     },
     {
       "kind": "technique",
       "title": "Additional Local or Domain Groups",
       "mitre_id": "T1098.007",
-      "permalink": "https://attack.mitre.org/techniques/T1098/007"
+      "permalink": "/techniques/T1098.007/"
     },
     {
       "kind": "technique",
       "title": "Web Service",
       "mitre_id": "T1102",
-      "permalink": "https://attack.mitre.org/techniques/T1102"
+      "permalink": "/techniques/T1102/"
     },
     {
       "kind": "technique",
       "title": "Dead Drop Resolver",
       "mitre_id": "T1102.001",
-      "permalink": "https://attack.mitre.org/techniques/T1102/001"
+      "permalink": "/techniques/T1102.001/"
     },
     {
       "kind": "technique",
       "title": "Bidirectional Communication",
       "mitre_id": "T1102.002",
-      "permalink": "https://attack.mitre.org/techniques/T1102/002"
+      "permalink": "/techniques/T1102.002/"
     },
     {
       "kind": "technique",
       "title": "One-Way Communication",
       "mitre_id": "T1102.003",
-      "permalink": "https://attack.mitre.org/techniques/T1102/003"
+      "permalink": "/techniques/T1102.003/"
     },
     {
       "kind": "technique",
       "title": "Multi-Stage Channels",
       "mitre_id": "T1104",
-      "permalink": "https://attack.mitre.org/techniques/T1104"
+      "permalink": "/techniques/T1104/"
     },
     {
       "kind": "technique",
       "title": "Ingress Tool Transfer",
       "mitre_id": "T1105",
-      "permalink": "https://attack.mitre.org/techniques/T1105"
+      "permalink": "/techniques/T1105/"
     },
     {
       "kind": "technique",
       "title": "Native API",
       "mitre_id": "T1106",
-      "permalink": "https://attack.mitre.org/techniques/T1106"
+      "permalink": "/techniques/T1106/"
     },
     {
       "kind": "technique",
       "title": "Brute Force",
       "mitre_id": "T1110",
-      "permalink": "https://attack.mitre.org/techniques/T1110"
+      "permalink": "/techniques/T1110/"
     },
     {
       "kind": "technique",
       "title": "Password Guessing",
       "mitre_id": "T1110.001",
-      "permalink": "https://attack.mitre.org/techniques/T1110/001"
+      "permalink": "/techniques/T1110.001/"
     },
     {
       "kind": "technique",
       "title": "Password Cracking",
       "mitre_id": "T1110.002",
-      "permalink": "https://attack.mitre.org/techniques/T1110/002"
+      "permalink": "/techniques/T1110.002/"
     },
     {
       "kind": "technique",
       "title": "Password Spraying",
       "mitre_id": "T1110.003",
-      "permalink": "https://attack.mitre.org/techniques/T1110/003"
+      "permalink": "/techniques/T1110.003/"
     },
     {
       "kind": "technique",
       "title": "Credential Stuffing",
       "mitre_id": "T1110.004",
-      "permalink": "https://attack.mitre.org/techniques/T1110/004"
+      "permalink": "/techniques/T1110.004/"
     },
     {
       "kind": "technique",
       "title": "Multi-Factor Authentication Interception",
       "mitre_id": "T1111",
-      "permalink": "https://attack.mitre.org/techniques/T1111"
+      "permalink": "/techniques/T1111/"
     },
     {
       "kind": "technique",
       "title": "Modify Registry",
       "mitre_id": "T1112",
-      "permalink": "https://attack.mitre.org/techniques/T1112"
+      "permalink": "/techniques/T1112/"
     },
     {
       "kind": "technique",
       "title": "Screen Capture",
       "mitre_id": "T1113",
-      "permalink": "https://attack.mitre.org/techniques/T1113"
+      "permalink": "/techniques/T1113/"
     },
     {
       "kind": "technique",
       "title": "Email Collection",
       "mitre_id": "T1114",
-      "permalink": "https://attack.mitre.org/techniques/T1114"
+      "permalink": "/techniques/T1114/"
     },
     {
       "kind": "technique",
       "title": "Local Email Collection",
       "mitre_id": "T1114.001",
-      "permalink": "https://attack.mitre.org/techniques/T1114/001"
+      "permalink": "/techniques/T1114.001/"
     },
     {
       "kind": "technique",
       "title": "Remote Email Collection",
       "mitre_id": "T1114.002",
-      "permalink": "https://attack.mitre.org/techniques/T1114/002"
+      "permalink": "/techniques/T1114.002/"
     },
     {
       "kind": "technique",
       "title": "Email Forwarding Rule",
       "mitre_id": "T1114.003",
-      "permalink": "https://attack.mitre.org/techniques/T1114/003"
+      "permalink": "/techniques/T1114.003/"
     },
     {
       "kind": "technique",
       "title": "Clipboard Data",
       "mitre_id": "T1115",
-      "permalink": "https://attack.mitre.org/techniques/T1115"
+      "permalink": "/techniques/T1115/"
     },
     {
       "kind": "technique",
       "title": "Automated Collection",
       "mitre_id": "T1119",
-      "permalink": "https://attack.mitre.org/techniques/T1119"
+      "permalink": "/techniques/T1119/"
     },
     {
       "kind": "technique",
       "title": "Peripheral Device Discovery",
       "mitre_id": "T1120",
-      "permalink": "https://attack.mitre.org/techniques/T1120"
+      "permalink": "/techniques/T1120/"
     },
     {
       "kind": "technique",
       "title": "Audio Capture",
       "mitre_id": "T1123",
-      "permalink": "https://attack.mitre.org/techniques/T1123"
+      "permalink": "/techniques/T1123/"
     },
     {
       "kind": "technique",
       "title": "System Time Discovery",
       "mitre_id": "T1124",
-      "permalink": "https://attack.mitre.org/techniques/T1124"
+      "permalink": "/techniques/T1124/"
     },
     {
       "kind": "technique",
       "title": "Video Capture",
       "mitre_id": "T1125",
-      "permalink": "https://attack.mitre.org/techniques/T1125"
+      "permalink": "/techniques/T1125/"
     },
     {
       "kind": "technique",
       "title": "Trusted Developer Utilities Proxy Execution",
       "mitre_id": "T1127",
-      "permalink": "https://attack.mitre.org/techniques/T1127"
+      "permalink": "/techniques/T1127/"
     },
     {
       "kind": "technique",
       "title": "MSBuild",
       "mitre_id": "T1127.001",
-      "permalink": "https://attack.mitre.org/techniques/T1127/001"
+      "permalink": "/techniques/T1127.001/"
     },
     {
       "kind": "technique",
       "title": "ClickOnce",
       "mitre_id": "T1127.002",
-      "permalink": "https://attack.mitre.org/techniques/T1127/002"
+      "permalink": "/techniques/T1127.002/"
     },
     {
       "kind": "technique",
       "title": "JamPlus",
       "mitre_id": "T1127.003",
-      "permalink": "https://attack.mitre.org/techniques/T1127/003"
+      "permalink": "/techniques/T1127.003/"
     },
     {
       "kind": "technique",
       "title": "Shared Modules",
       "mitre_id": "T1129",
-      "permalink": "https://attack.mitre.org/techniques/T1129"
+      "permalink": "/techniques/T1129/"
     },
     {
       "kind": "technique",
       "title": "Data Encoding",
       "mitre_id": "T1132",
-      "permalink": "https://attack.mitre.org/techniques/T1132"
+      "permalink": "/techniques/T1132/"
     },
     {
       "kind": "technique",
       "title": "Standard Encoding",
       "mitre_id": "T1132.001",
-      "permalink": "https://attack.mitre.org/techniques/T1132/001"
+      "permalink": "/techniques/T1132.001/"
     },
     {
       "kind": "technique",
       "title": "Non-Standard Encoding",
       "mitre_id": "T1132.002",
-      "permalink": "https://attack.mitre.org/techniques/T1132/002"
+      "permalink": "/techniques/T1132.002/"
     },
     {
       "kind": "technique",
       "title": "External Remote Services",
       "mitre_id": "T1133",
-      "permalink": "https://attack.mitre.org/techniques/T1133"
+      "permalink": "/techniques/T1133/"
     },
     {
       "kind": "technique",
       "title": "Access Token Manipulation",
       "mitre_id": "T1134",
-      "permalink": "https://attack.mitre.org/techniques/T1134"
+      "permalink": "/techniques/T1134/"
     },
     {
       "kind": "technique",
       "title": "Token Impersonation/Theft",
       "mitre_id": "T1134.001",
-      "permalink": "https://attack.mitre.org/techniques/T1134/001"
+      "permalink": "/techniques/T1134.001/"
     },
     {
       "kind": "technique",
       "title": "Create Process with Token",
       "mitre_id": "T1134.002",
-      "permalink": "https://attack.mitre.org/techniques/T1134/002"
+      "permalink": "/techniques/T1134.002/"
     },
     {
       "kind": "technique",
       "title": "Make and Impersonate Token",
       "mitre_id": "T1134.003",
-      "permalink": "https://attack.mitre.org/techniques/T1134/003"
+      "permalink": "/techniques/T1134.003/"
     },
     {
       "kind": "technique",
       "title": "Parent PID Spoofing",
       "mitre_id": "T1134.004",
-      "permalink": "https://attack.mitre.org/techniques/T1134/004"
+      "permalink": "/techniques/T1134.004/"
     },
     {
       "kind": "technique",
       "title": "SID-History Injection",
       "mitre_id": "T1134.005",
-      "permalink": "https://attack.mitre.org/techniques/T1134/005"
+      "permalink": "/techniques/T1134.005/"
     },
     {
       "kind": "technique",
       "title": "Network Share Discovery",
       "mitre_id": "T1135",
-      "permalink": "https://attack.mitre.org/techniques/T1135"
+      "permalink": "/techniques/T1135/"
     },
     {
       "kind": "technique",
       "title": "Create Account",
       "mitre_id": "T1136",
-      "permalink": "https://attack.mitre.org/techniques/T1136"
+      "permalink": "/techniques/T1136/"
     },
     {
       "kind": "technique",
       "title": "Local Account",
       "mitre_id": "T1136.001",
-      "permalink": "https://attack.mitre.org/techniques/T1136/001"
+      "permalink": "/techniques/T1136.001/"
     },
     {
       "kind": "technique",
       "title": "Domain Account",
       "mitre_id": "T1136.002",
-      "permalink": "https://attack.mitre.org/techniques/T1136/002"
+      "permalink": "/techniques/T1136.002/"
     },
     {
       "kind": "technique",
       "title": "Cloud Account",
       "mitre_id": "T1136.003",
-      "permalink": "https://attack.mitre.org/techniques/T1136/003"
+      "permalink": "/techniques/T1136.003/"
     },
     {
       "kind": "technique",
       "title": "Office Application Startup",
       "mitre_id": "T1137",
-      "permalink": "https://attack.mitre.org/techniques/T1137"
+      "permalink": "/techniques/T1137/"
     },
     {
       "kind": "technique",
       "title": "Office Template Macros",
       "mitre_id": "T1137.001",
-      "permalink": "https://attack.mitre.org/techniques/T1137/001"
+      "permalink": "/techniques/T1137.001/"
     },
     {
       "kind": "technique",
       "title": "Office Test",
       "mitre_id": "T1137.002",
-      "permalink": "https://attack.mitre.org/techniques/T1137/002"
+      "permalink": "/techniques/T1137.002/"
     },
     {
       "kind": "technique",
       "title": "Outlook Forms",
       "mitre_id": "T1137.003",
-      "permalink": "https://attack.mitre.org/techniques/T1137/003"
+      "permalink": "/techniques/T1137.003/"
     },
     {
       "kind": "technique",
       "title": "Outlook Home Page",
       "mitre_id": "T1137.004",
-      "permalink": "https://attack.mitre.org/techniques/T1137/004"
+      "permalink": "/techniques/T1137.004/"
     },
     {
       "kind": "technique",
       "title": "Outlook Rules",
       "mitre_id": "T1137.005",
-      "permalink": "https://attack.mitre.org/techniques/T1137/005"
+      "permalink": "/techniques/T1137.005/"
     },
     {
       "kind": "technique",
       "title": "Add-ins",
       "mitre_id": "T1137.006",
-      "permalink": "https://attack.mitre.org/techniques/T1137/006"
+      "permalink": "/techniques/T1137.006/"
     },
     {
       "kind": "technique",
       "title": "Deobfuscate/Decode Files or Information",
       "mitre_id": "T1140",
-      "permalink": "https://attack.mitre.org/techniques/T1140"
+      "permalink": "/techniques/T1140/"
     },
     {
       "kind": "technique",
       "title": "Software Extensions",
       "mitre_id": "T1176",
-      "permalink": "https://attack.mitre.org/techniques/T1176"
+      "permalink": "/techniques/T1176/"
     },
     {
       "kind": "technique",
       "title": "Browser Extensions",
       "mitre_id": "T1176.001",
-      "permalink": "https://attack.mitre.org/techniques/T1176/001"
+      "permalink": "/techniques/T1176.001/"
     },
     {
       "kind": "technique",
       "title": "IDE Extensions",
       "mitre_id": "T1176.002",
-      "permalink": "https://attack.mitre.org/techniques/T1176/002"
+      "permalink": "/techniques/T1176.002/"
     },
     {
       "kind": "technique",
       "title": "Browser Session Hijacking",
       "mitre_id": "T1185",
-      "permalink": "https://attack.mitre.org/techniques/T1185"
+      "permalink": "/techniques/T1185/"
     },
     {
       "kind": "technique",
       "title": "Forced Authentication",
       "mitre_id": "T1187",
-      "permalink": "https://attack.mitre.org/techniques/T1187"
+      "permalink": "/techniques/T1187/"
     },
     {
       "kind": "technique",
       "title": "Drive-by Compromise",
       "mitre_id": "T1189",
-      "permalink": "https://attack.mitre.org/techniques/T1189"
+      "permalink": "/techniques/T1189/"
     },
     {
       "kind": "technique",
       "title": "Exploit Public-Facing Application",
       "mitre_id": "T1190",
-      "permalink": "https://attack.mitre.org/techniques/T1190"
+      "permalink": "/techniques/T1190/"
     },
     {
       "kind": "technique",
       "title": "Supply Chain Compromise",
       "mitre_id": "T1195",
-      "permalink": "https://attack.mitre.org/techniques/T1195"
+      "permalink": "/techniques/T1195/"
     },
     {
       "kind": "technique",
       "title": "Compromise Software Dependencies and Development Tools",
       "mitre_id": "T1195.001",
-      "permalink": "https://attack.mitre.org/techniques/T1195/001"
+      "permalink": "/techniques/T1195.001/"
     },
     {
       "kind": "technique",
       "title": "Compromise Software Supply Chain",
       "mitre_id": "T1195.002",
-      "permalink": "https://attack.mitre.org/techniques/T1195/002"
+      "permalink": "/techniques/T1195.002/"
     },
     {
       "kind": "technique",
       "title": "Compromise Hardware Supply Chain",
       "mitre_id": "T1195.003",
-      "permalink": "https://attack.mitre.org/techniques/T1195/003"
+      "permalink": "/techniques/T1195.003/"
     },
     {
       "kind": "technique",
       "title": "BITS Jobs",
       "mitre_id": "T1197",
-      "permalink": "https://attack.mitre.org/techniques/T1197"
+      "permalink": "/techniques/T1197/"
     },
     {
       "kind": "technique",
       "title": "Trusted Relationship",
       "mitre_id": "T1199",
-      "permalink": "https://attack.mitre.org/techniques/T1199"
+      "permalink": "/techniques/T1199/"
     },
     {
       "kind": "technique",
       "title": "Hardware Additions",
       "mitre_id": "T1200",
-      "permalink": "https://attack.mitre.org/techniques/T1200"
+      "permalink": "/techniques/T1200/"
     },
     {
       "kind": "technique",
       "title": "Password Policy Discovery",
       "mitre_id": "T1201",
-      "permalink": "https://attack.mitre.org/techniques/T1201"
+      "permalink": "/techniques/T1201/"
     },
     {
       "kind": "technique",
       "title": "Indirect Command Execution",
       "mitre_id": "T1202",
-      "permalink": "https://attack.mitre.org/techniques/T1202"
+      "permalink": "/techniques/T1202/"
     },
     {
       "kind": "technique",
       "title": "Exploitation for Client Execution",
       "mitre_id": "T1203",
-      "permalink": "https://attack.mitre.org/techniques/T1203"
+      "permalink": "/techniques/T1203/"
     },
     {
       "kind": "technique",
       "title": "User Execution",
       "mitre_id": "T1204",
-      "permalink": "https://attack.mitre.org/techniques/T1204"
+      "permalink": "/techniques/T1204/"
     },
     {
       "kind": "technique",
       "title": "Malicious Link",
       "mitre_id": "T1204.001",
-      "permalink": "https://attack.mitre.org/techniques/T1204/001"
+      "permalink": "/techniques/T1204.001/"
     },
     {
       "kind": "technique",
       "title": "Malicious File",
       "mitre_id": "T1204.002",
-      "permalink": "https://attack.mitre.org/techniques/T1204/002"
+      "permalink": "/techniques/T1204.002/"
     },
     {
       "kind": "technique",
       "title": "Malicious Image",
       "mitre_id": "T1204.003",
-      "permalink": "https://attack.mitre.org/techniques/T1204/003"
+      "permalink": "/techniques/T1204.003/"
     },
     {
       "kind": "technique",
       "title": "Malicious Copy and Paste",
       "mitre_id": "T1204.004",
-      "permalink": "https://attack.mitre.org/techniques/T1204/004"
+      "permalink": "/techniques/T1204.004/"
     },
     {
       "kind": "technique",
       "title": "Malicious Library",
       "mitre_id": "T1204.005",
-      "permalink": "https://attack.mitre.org/techniques/T1204/005"
+      "permalink": "/techniques/T1204.005/"
     },
     {
       "kind": "technique",
       "title": "Traffic Signaling",
       "mitre_id": "T1205",
-      "permalink": "https://attack.mitre.org/techniques/T1205"
+      "permalink": "/techniques/T1205/"
     },
     {
       "kind": "technique",
       "title": "Port Knocking",
       "mitre_id": "T1205.001",
-      "permalink": "https://attack.mitre.org/techniques/T1205/001"
+      "permalink": "/techniques/T1205.001/"
     },
     {
       "kind": "technique",
       "title": "Socket Filters",
       "mitre_id": "T1205.002",
-      "permalink": "https://attack.mitre.org/techniques/T1205/002"
+      "permalink": "/techniques/T1205.002/"
     },
     {
       "kind": "technique",
       "title": "Rogue Domain Controller",
       "mitre_id": "T1207",
-      "permalink": "https://attack.mitre.org/techniques/T1207"
+      "permalink": "/techniques/T1207/"
     },
     {
       "kind": "technique",
       "title": "Exploitation of Remote Services",
       "mitre_id": "T1210",
-      "permalink": "https://attack.mitre.org/techniques/T1210"
+      "permalink": "/techniques/T1210/"
     },
     {
       "kind": "technique",
       "title": "Exploitation for Stealth",
       "mitre_id": "T1211",
-      "permalink": "https://attack.mitre.org/techniques/T1211"
+      "permalink": "/techniques/T1211/"
     },
     {
       "kind": "technique",
       "title": "Exploitation for Credential Access",
       "mitre_id": "T1212",
-      "permalink": "https://attack.mitre.org/techniques/T1212"
+      "permalink": "/techniques/T1212/"
     },
     {
       "kind": "technique",
       "title": "Data from Information Repositories",
       "mitre_id": "T1213",
-      "permalink": "https://attack.mitre.org/techniques/T1213"
+      "permalink": "/techniques/T1213/"
     },
     {
       "kind": "technique",
       "title": "Confluence",
       "mitre_id": "T1213.001",
-      "permalink": "https://attack.mitre.org/techniques/T1213/001"
+      "permalink": "/techniques/T1213.001/"
     },
     {
       "kind": "technique",
       "title": "Sharepoint",
       "mitre_id": "T1213.002",
-      "permalink": "https://attack.mitre.org/techniques/T1213/002"
+      "permalink": "/techniques/T1213.002/"
     },
     {
       "kind": "technique",
       "title": "Code Repositories",
       "mitre_id": "T1213.003",
-      "permalink": "https://attack.mitre.org/techniques/T1213/003"
+      "permalink": "/techniques/T1213.003/"
     },
     {
       "kind": "technique",
       "title": "Customer Relationship Management Software",
       "mitre_id": "T1213.004",
-      "permalink": "https://attack.mitre.org/techniques/T1213/004"
+      "permalink": "/techniques/T1213.004/"
     },
     {
       "kind": "technique",
       "title": "Messaging Applications",
       "mitre_id": "T1213.005",
-      "permalink": "https://attack.mitre.org/techniques/T1213/005"
+      "permalink": "/techniques/T1213.005/"
     },
     {
       "kind": "technique",
       "title": "Databases",
       "mitre_id": "T1213.006",
-      "permalink": "https://attack.mitre.org/techniques/T1213/006"
+      "permalink": "/techniques/T1213.006/"
     },
     {
       "kind": "technique",
       "title": "System Script Proxy Execution",
       "mitre_id": "T1216",
-      "permalink": "https://attack.mitre.org/techniques/T1216"
+      "permalink": "/techniques/T1216/"
     },
     {
       "kind": "technique",
       "title": "PubPrn",
       "mitre_id": "T1216.001",
-      "permalink": "https://attack.mitre.org/techniques/T1216/001"
+      "permalink": "/techniques/T1216.001/"
     },
     {
       "kind": "technique",
       "title": "SyncAppvPublishingServer",
       "mitre_id": "T1216.002",
-      "permalink": "https://attack.mitre.org/techniques/T1216/002"
+      "permalink": "/techniques/T1216.002/"
     },
     {
       "kind": "technique",
       "title": "Browser Information Discovery",
       "mitre_id": "T1217",
-      "permalink": "https://attack.mitre.org/techniques/T1217"
+      "permalink": "/techniques/T1217/"
     },
     {
       "kind": "technique",
       "title": "System Binary Proxy Execution",
       "mitre_id": "T1218",
-      "permalink": "https://attack.mitre.org/techniques/T1218"
+      "permalink": "/techniques/T1218/"
     },
     {
       "kind": "technique",
       "title": "Compiled HTML File",
       "mitre_id": "T1218.001",
-      "permalink": "https://attack.mitre.org/techniques/T1218/001"
+      "permalink": "/techniques/T1218.001/"
     },
     {
       "kind": "technique",
       "title": "Control Panel",
       "mitre_id": "T1218.002",
-      "permalink": "https://attack.mitre.org/techniques/T1218/002"
+      "permalink": "/techniques/T1218.002/"
     },
     {
       "kind": "technique",
       "title": "CMSTP",
       "mitre_id": "T1218.003",
-      "permalink": "https://attack.mitre.org/techniques/T1218/003"
+      "permalink": "/techniques/T1218.003/"
     },
     {
       "kind": "technique",
       "title": "InstallUtil",
       "mitre_id": "T1218.004",
-      "permalink": "https://attack.mitre.org/techniques/T1218/004"
+      "permalink": "/techniques/T1218.004/"
     },
     {
       "kind": "technique",
       "title": "Mshta",
       "mitre_id": "T1218.005",
-      "permalink": "https://attack.mitre.org/techniques/T1218/005"
+      "permalink": "/techniques/T1218.005/"
     },
     {
       "kind": "technique",
       "title": "Msiexec",
       "mitre_id": "T1218.007",
-      "permalink": "https://attack.mitre.org/techniques/T1218/007"
+      "permalink": "/techniques/T1218.007/"
     },
     {
       "kind": "technique",
       "title": "Odbcconf",
       "mitre_id": "T1218.008",
-      "permalink": "https://attack.mitre.org/techniques/T1218/008"
+      "permalink": "/techniques/T1218.008/"
     },
     {
       "kind": "technique",
       "title": "Regsvcs/Regasm",
       "mitre_id": "T1218.009",
-      "permalink": "https://attack.mitre.org/techniques/T1218/009"
+      "permalink": "/techniques/T1218.009/"
     },
     {
       "kind": "technique",
       "title": "Regsvr32",
       "mitre_id": "T1218.010",
-      "permalink": "https://attack.mitre.org/techniques/T1218/010"
+      "permalink": "/techniques/T1218.010/"
     },
     {
       "kind": "technique",
       "title": "Rundll32",
       "mitre_id": "T1218.011",
-      "permalink": "https://attack.mitre.org/techniques/T1218/011"
+      "permalink": "/techniques/T1218.011/"
     },
     {
       "kind": "technique",
       "title": "Verclsid",
       "mitre_id": "T1218.012",
-      "permalink": "https://attack.mitre.org/techniques/T1218/012"
+      "permalink": "/techniques/T1218.012/"
     },
     {
       "kind": "technique",
       "title": "Mavinject",
       "mitre_id": "T1218.013",
-      "permalink": "https://attack.mitre.org/techniques/T1218/013"
+      "permalink": "/techniques/T1218.013/"
     },
     {
       "kind": "technique",
       "title": "MMC",
       "mitre_id": "T1218.014",
-      "permalink": "https://attack.mitre.org/techniques/T1218/014"
+      "permalink": "/techniques/T1218.014/"
     },
     {
       "kind": "technique",
       "title": "Electron Applications",
       "mitre_id": "T1218.015",
-      "permalink": "https://attack.mitre.org/techniques/T1218/015"
+      "permalink": "/techniques/T1218.015/"
     },
     {
       "kind": "technique",
       "title": "Remote Access Tools",
       "mitre_id": "T1219",
-      "permalink": "https://attack.mitre.org/techniques/T1219"
+      "permalink": "/techniques/T1219/"
     },
     {
       "kind": "technique",
       "title": "IDE Tunneling",
       "mitre_id": "T1219.001",
-      "permalink": "https://attack.mitre.org/techniques/T1219/001"
+      "permalink": "/techniques/T1219.001/"
     },
     {
       "kind": "technique",
       "title": "Remote Desktop Software",
       "mitre_id": "T1219.002",
-      "permalink": "https://attack.mitre.org/techniques/T1219/002"
+      "permalink": "/techniques/T1219.002/"
     },
     {
       "kind": "technique",
       "title": "Remote Access Hardware",
       "mitre_id": "T1219.003",
-      "permalink": "https://attack.mitre.org/techniques/T1219/003"
+      "permalink": "/techniques/T1219.003/"
     },
     {
       "kind": "technique",
       "title": "XSL Script Processing",
       "mitre_id": "T1220",
-      "permalink": "https://attack.mitre.org/techniques/T1220"
+      "permalink": "/techniques/T1220/"
     },
     {
       "kind": "technique",
       "title": "Template Injection",
       "mitre_id": "T1221",
-      "permalink": "https://attack.mitre.org/techniques/T1221"
+      "permalink": "/techniques/T1221/"
     },
     {
       "kind": "technique",
       "title": "File and Directory Permissions Modification",
       "mitre_id": "T1222",
-      "permalink": "https://attack.mitre.org/techniques/T1222"
+      "permalink": "/techniques/T1222/"
     },
     {
       "kind": "technique",
       "title": "Windows Permissions",
       "mitre_id": "T1222.001",
-      "permalink": "https://attack.mitre.org/techniques/T1222/001"
+      "permalink": "/techniques/T1222.001/"
     },
     {
       "kind": "technique",
       "title": "Linux and Mac Permissions",
       "mitre_id": "T1222.002",
-      "permalink": "https://attack.mitre.org/techniques/T1222/002"
+      "permalink": "/techniques/T1222.002/"
     },
     {
       "kind": "technique",
       "title": "Execution Guardrails",
       "mitre_id": "T1480",
-      "permalink": "https://attack.mitre.org/techniques/T1480"
+      "permalink": "/techniques/T1480/"
     },
     {
       "kind": "technique",
       "title": "Environmental Keying",
       "mitre_id": "T1480.001",
-      "permalink": "https://attack.mitre.org/techniques/T1480/001"
+      "permalink": "/techniques/T1480.001/"
     },
     {
       "kind": "technique",
       "title": "Mutual Exclusion",
       "mitre_id": "T1480.002",
-      "permalink": "https://attack.mitre.org/techniques/T1480/002"
+      "permalink": "/techniques/T1480.002/"
     },
     {
       "kind": "technique",
       "title": "Domain Trust Discovery",
       "mitre_id": "T1482",
-      "permalink": "https://attack.mitre.org/techniques/T1482"
+      "permalink": "/techniques/T1482/"
     },
     {
       "kind": "technique",
       "title": "Domain or Tenant Policy Modification",
       "mitre_id": "T1484",
-      "permalink": "https://attack.mitre.org/techniques/T1484"
+      "permalink": "/techniques/T1484/"
     },
     {
       "kind": "technique",
       "title": "Group Policy Modification",
       "mitre_id": "T1484.001",
-      "permalink": "https://attack.mitre.org/techniques/T1484/001"
+      "permalink": "/techniques/T1484.001/"
     },
     {
       "kind": "technique",
       "title": "Trust Modification",
       "mitre_id": "T1484.002",
-      "permalink": "https://attack.mitre.org/techniques/T1484/002"
+      "permalink": "/techniques/T1484.002/"
     },
     {
       "kind": "technique",
       "title": "Data Destruction",
       "mitre_id": "T1485",
-      "permalink": "https://attack.mitre.org/techniques/T1485"
+      "permalink": "/techniques/T1485/"
     },
     {
       "kind": "technique",
       "title": "Lifecycle-Triggered Deletion",
       "mitre_id": "T1485.001",
-      "permalink": "https://attack.mitre.org/techniques/T1485/001"
+      "permalink": "/techniques/T1485.001/"
     },
     {
       "kind": "technique",
       "title": "Data Encrypted for Impact",
       "mitre_id": "T1486",
-      "permalink": "https://attack.mitre.org/techniques/T1486"
+      "permalink": "/techniques/T1486/"
     },
     {
       "kind": "technique",
       "title": "Service Stop",
       "mitre_id": "T1489",
-      "permalink": "https://attack.mitre.org/techniques/T1489"
+      "permalink": "/techniques/T1489/"
     },
     {
       "kind": "technique",
       "title": "Inhibit System Recovery",
       "mitre_id": "T1490",
-      "permalink": "https://attack.mitre.org/techniques/T1490"
+      "permalink": "/techniques/T1490/"
     },
     {
       "kind": "technique",
       "title": "Defacement",
       "mitre_id": "T1491",
-      "permalink": "https://attack.mitre.org/techniques/T1491"
+      "permalink": "/techniques/T1491/"
     },
     {
       "kind": "technique",
       "title": "Internal Defacement",
       "mitre_id": "T1491.001",
-      "permalink": "https://attack.mitre.org/techniques/T1491/001"
+      "permalink": "/techniques/T1491.001/"
     },
     {
       "kind": "technique",
       "title": "External Defacement",
       "mitre_id": "T1491.002",
-      "permalink": "https://attack.mitre.org/techniques/T1491/002"
+      "permalink": "/techniques/T1491.002/"
     },
     {
       "kind": "technique",
       "title": "Firmware Corruption",
       "mitre_id": "T1495",
-      "permalink": "https://attack.mitre.org/techniques/T1495"
+      "permalink": "/techniques/T1495/"
     },
     {
       "kind": "technique",
       "title": "Resource Hijacking",
       "mitre_id": "T1496",
-      "permalink": "https://attack.mitre.org/techniques/T1496"
+      "permalink": "/techniques/T1496/"
     },
     {
       "kind": "technique",
       "title": "Compute Hijacking",
       "mitre_id": "T1496.001",
-      "permalink": "https://attack.mitre.org/techniques/T1496/001"
+      "permalink": "/techniques/T1496.001/"
     },
     {
       "kind": "technique",
       "title": "Bandwidth Hijacking",
       "mitre_id": "T1496.002",
-      "permalink": "https://attack.mitre.org/techniques/T1496/002"
+      "permalink": "/techniques/T1496.002/"
     },
     {
       "kind": "technique",
       "title": "SMS Pumping",
       "mitre_id": "T1496.003",
-      "permalink": "https://attack.mitre.org/techniques/T1496/003"
+      "permalink": "/techniques/T1496.003/"
     },
     {
       "kind": "technique",
       "title": "Cloud Service Hijacking",
       "mitre_id": "T1496.004",
-      "permalink": "https://attack.mitre.org/techniques/T1496/004"
+      "permalink": "/techniques/T1496.004/"
     },
     {
       "kind": "technique",
       "title": "Virtualization/Sandbox Evasion",
       "mitre_id": "T1497",
-      "permalink": "https://attack.mitre.org/techniques/T1497"
+      "permalink": "/techniques/T1497/"
     },
     {
       "kind": "technique",
       "title": "System Checks",
       "mitre_id": "T1497.001",
-      "permalink": "https://attack.mitre.org/techniques/T1497/001"
+      "permalink": "/techniques/T1497.001/"
     },
     {
       "kind": "technique",
       "title": "User Activity Based Checks",
       "mitre_id": "T1497.002",
-      "permalink": "https://attack.mitre.org/techniques/T1497/002"
+      "permalink": "/techniques/T1497.002/"
     },
     {
       "kind": "technique",
       "title": "Time Based Checks",
       "mitre_id": "T1497.003",
-      "permalink": "https://attack.mitre.org/techniques/T1497/003"
+      "permalink": "/techniques/T1497.003/"
     },
     {
       "kind": "technique",
       "title": "Network Denial of Service",
       "mitre_id": "T1498",
-      "permalink": "https://attack.mitre.org/techniques/T1498"
+      "permalink": "/techniques/T1498/"
     },
     {
       "kind": "technique",
       "title": "Direct Network Flood",
       "mitre_id": "T1498.001",
-      "permalink": "https://attack.mitre.org/techniques/T1498/001"
+      "permalink": "/techniques/T1498.001/"
     },
     {
       "kind": "technique",
       "title": "Reflection Amplification",
       "mitre_id": "T1498.002",
-      "permalink": "https://attack.mitre.org/techniques/T1498/002"
+      "permalink": "/techniques/T1498.002/"
     },
     {
       "kind": "technique",
       "title": "Endpoint Denial of Service",
       "mitre_id": "T1499",
-      "permalink": "https://attack.mitre.org/techniques/T1499"
+      "permalink": "/techniques/T1499/"
     },
     {
       "kind": "technique",
       "title": "OS Exhaustion Flood",
       "mitre_id": "T1499.001",
-      "permalink": "https://attack.mitre.org/techniques/T1499/001"
+      "permalink": "/techniques/T1499.001/"
     },
     {
       "kind": "technique",
       "title": "Service Exhaustion Flood",
       "mitre_id": "T1499.002",
-      "permalink": "https://attack.mitre.org/techniques/T1499/002"
+      "permalink": "/techniques/T1499.002/"
     },
     {
       "kind": "technique",
       "title": "Application Exhaustion Flood",
       "mitre_id": "T1499.003",
-      "permalink": "https://attack.mitre.org/techniques/T1499/003"
+      "permalink": "/techniques/T1499.003/"
     },
     {
       "kind": "technique",
       "title": "Application or System Exploitation",
       "mitre_id": "T1499.004",
-      "permalink": "https://attack.mitre.org/techniques/T1499/004"
+      "permalink": "/techniques/T1499.004/"
     },
     {
       "kind": "technique",
       "title": "Server Software Component",
       "mitre_id": "T1505",
-      "permalink": "https://attack.mitre.org/techniques/T1505"
+      "permalink": "/techniques/T1505/"
     },
     {
       "kind": "technique",
       "title": "SQL Stored Procedures",
       "mitre_id": "T1505.001",
-      "permalink": "https://attack.mitre.org/techniques/T1505/001"
+      "permalink": "/techniques/T1505.001/"
     },
     {
       "kind": "technique",
       "title": "Transport Agent",
       "mitre_id": "T1505.002",
-      "permalink": "https://attack.mitre.org/techniques/T1505/002"
+      "permalink": "/techniques/T1505.002/"
     },
     {
       "kind": "technique",
       "title": "Web Shell",
       "mitre_id": "T1505.003",
-      "permalink": "https://attack.mitre.org/techniques/T1505/003"
+      "permalink": "/techniques/T1505.003/"
     },
     {
       "kind": "technique",
       "title": "IIS Components",
       "mitre_id": "T1505.004",
-      "permalink": "https://attack.mitre.org/techniques/T1505/004"
+      "permalink": "/techniques/T1505.004/"
     },
     {
       "kind": "technique",
       "title": "Terminal Services DLL",
       "mitre_id": "T1505.005",
-      "permalink": "https://attack.mitre.org/techniques/T1505/005"
+      "permalink": "/techniques/T1505.005/"
     },
     {
       "kind": "technique",
       "title": "vSphere Installation Bundles",
       "mitre_id": "T1505.006",
-      "permalink": "https://attack.mitre.org/techniques/T1505/006"
+      "permalink": "/techniques/T1505.006/"
     },
     {
       "kind": "technique",
       "title": "Software Discovery",
       "mitre_id": "T1518",
-      "permalink": "https://attack.mitre.org/techniques/T1518"
+      "permalink": "/techniques/T1518/"
     },
     {
       "kind": "technique",
       "title": "Security Software Discovery",
       "mitre_id": "T1518.001",
-      "permalink": "https://attack.mitre.org/techniques/T1518/001"
+      "permalink": "/techniques/T1518.001/"
     },
     {
       "kind": "technique",
       "title": "Backup Software Discovery",
       "mitre_id": "T1518.002",
-      "permalink": "https://attack.mitre.org/techniques/T1518/002"
+      "permalink": "/techniques/T1518.002/"
     },
     {
       "kind": "technique",
       "title": "Implant Internal Image",
       "mitre_id": "T1525",
-      "permalink": "https://attack.mitre.org/techniques/T1525"
+      "permalink": "/techniques/T1525/"
     },
     {
       "kind": "technique",
       "title": "Cloud Service Discovery",
       "mitre_id": "T1526",
-      "permalink": "https://attack.mitre.org/techniques/T1526"
+      "permalink": "/techniques/T1526/"
     },
     {
       "kind": "technique",
       "title": "Steal Application Access Token",
       "mitre_id": "T1528",
-      "permalink": "https://attack.mitre.org/techniques/T1528"
+      "permalink": "/techniques/T1528/"
     },
     {
       "kind": "technique",
       "title": "System Shutdown/Reboot",
       "mitre_id": "T1529",
-      "permalink": "https://attack.mitre.org/techniques/T1529"
+      "permalink": "/techniques/T1529/"
     },
     {
       "kind": "technique",
       "title": "Data from Cloud Storage",
       "mitre_id": "T1530",
-      "permalink": "https://attack.mitre.org/techniques/T1530"
+      "permalink": "/techniques/T1530/"
     },
     {
       "kind": "technique",
       "title": "Account Access Removal",
       "mitre_id": "T1531",
-      "permalink": "https://attack.mitre.org/techniques/T1531"
+      "permalink": "/techniques/T1531/"
     },
     {
       "kind": "technique",
       "title": "Internal Spearphishing",
       "mitre_id": "T1534",
-      "permalink": "https://attack.mitre.org/techniques/T1534"
+      "permalink": "/techniques/T1534/"
     },
     {
       "kind": "technique",
       "title": "Unused/Unsupported Cloud Regions",
       "mitre_id": "T1535",
-      "permalink": "https://attack.mitre.org/techniques/T1535"
+      "permalink": "/techniques/T1535/"
     },
     {
       "kind": "technique",
       "title": "Transfer Data to Cloud Account",
       "mitre_id": "T1537",
-      "permalink": "https://attack.mitre.org/techniques/T1537"
+      "permalink": "/techniques/T1537/"
     },
     {
       "kind": "technique",
       "title": "Cloud Service Dashboard",
       "mitre_id": "T1538",
-      "permalink": "https://attack.mitre.org/techniques/T1538"
+      "permalink": "/techniques/T1538/"
     },
     {
       "kind": "technique",
       "title": "Steal Web Session Cookie",
       "mitre_id": "T1539",
-      "permalink": "https://attack.mitre.org/techniques/T1539"
+      "permalink": "/techniques/T1539/"
     },
     {
       "kind": "technique",
       "title": "Pre-OS Boot",
       "mitre_id": "T1542",
-      "permalink": "https://attack.mitre.org/techniques/T1542"
+      "permalink": "/techniques/T1542/"
     },
     {
       "kind": "technique",
       "title": "System Firmware",
       "mitre_id": "T1542.001",
-      "permalink": "https://attack.mitre.org/techniques/T1542/001"
+      "permalink": "/techniques/T1542.001/"
     },
     {
       "kind": "technique",
       "title": "Component Firmware",
       "mitre_id": "T1542.002",
-      "permalink": "https://attack.mitre.org/techniques/T1542/002"
+      "permalink": "/techniques/T1542.002/"
     },
     {
       "kind": "technique",
       "title": "Bootkit",
       "mitre_id": "T1542.003",
-      "permalink": "https://attack.mitre.org/techniques/T1542/003"
+      "permalink": "/techniques/T1542.003/"
     },
     {
       "kind": "technique",
       "title": "ROMMONkit",
       "mitre_id": "T1542.004",
-      "permalink": "https://attack.mitre.org/techniques/T1542/004"
+      "permalink": "/techniques/T1542.004/"
     },
     {
       "kind": "technique",
       "title": "TFTP Boot",
       "mitre_id": "T1542.005",
-      "permalink": "https://attack.mitre.org/techniques/T1542/005"
+      "permalink": "/techniques/T1542.005/"
     },
     {
       "kind": "technique",
       "title": "Create or Modify System Process",
       "mitre_id": "T1543",
-      "permalink": "https://attack.mitre.org/techniques/T1543"
+      "permalink": "/techniques/T1543/"
     },
     {
       "kind": "technique",
       "title": "Launch Agent",
       "mitre_id": "T1543.001",
-      "permalink": "https://attack.mitre.org/techniques/T1543/001"
+      "permalink": "/techniques/T1543.001/"
     },
     {
       "kind": "technique",
       "title": "Systemd Service",
       "mitre_id": "T1543.002",
-      "permalink": "https://attack.mitre.org/techniques/T1543/002"
+      "permalink": "/techniques/T1543.002/"
     },
     {
       "kind": "technique",
       "title": "Windows Service",
       "mitre_id": "T1543.003",
-      "permalink": "https://attack.mitre.org/techniques/T1543/003"
+      "permalink": "/techniques/T1543.003/"
     },
     {
       "kind": "technique",
       "title": "Launch Daemon",
       "mitre_id": "T1543.004",
-      "permalink": "https://attack.mitre.org/techniques/T1543/004"
+      "permalink": "/techniques/T1543.004/"
     },
     {
       "kind": "technique",
       "title": "Container Service",
       "mitre_id": "T1543.005",
-      "permalink": "https://attack.mitre.org/techniques/T1543/005"
+      "permalink": "/techniques/T1543.005/"
     },
     {
       "kind": "technique",
       "title": "Event Triggered Execution",
       "mitre_id": "T1546",
-      "permalink": "https://attack.mitre.org/techniques/T1546"
+      "permalink": "/techniques/T1546/"
     },
     {
       "kind": "technique",
       "title": "Change Default File Association",
       "mitre_id": "T1546.001",
-      "permalink": "https://attack.mitre.org/techniques/T1546/001"
+      "permalink": "/techniques/T1546.001/"
     },
     {
       "kind": "technique",
       "title": "Screensaver",
       "mitre_id": "T1546.002",
-      "permalink": "https://attack.mitre.org/techniques/T1546/002"
+      "permalink": "/techniques/T1546.002/"
     },
     {
       "kind": "technique",
       "title": "Windows Management Instrumentation Event Subscription",
       "mitre_id": "T1546.003",
-      "permalink": "https://attack.mitre.org/techniques/T1546/003"
+      "permalink": "/techniques/T1546.003/"
     },
     {
       "kind": "technique",
       "title": "Unix Shell Configuration Modification",
       "mitre_id": "T1546.004",
-      "permalink": "https://attack.mitre.org/techniques/T1546/004"
+      "permalink": "/techniques/T1546.004/"
     },
     {
       "kind": "technique",
       "title": "Trap",
       "mitre_id": "T1546.005",
-      "permalink": "https://attack.mitre.org/techniques/T1546/005"
+      "permalink": "/techniques/T1546.005/"
     },
     {
       "kind": "technique",
       "title": "LC_LOAD_DYLIB Addition",
       "mitre_id": "T1546.006",
-      "permalink": "https://attack.mitre.org/techniques/T1546/006"
+      "permalink": "/techniques/T1546.006/"
     },
     {
       "kind": "technique",
       "title": "Netsh Helper DLL",
       "mitre_id": "T1546.007",
-      "permalink": "https://attack.mitre.org/techniques/T1546/007"
+      "permalink": "/techniques/T1546.007/"
     },
     {
       "kind": "technique",
       "title": "Accessibility Features",
       "mitre_id": "T1546.008",
-      "permalink": "https://attack.mitre.org/techniques/T1546/008"
+      "permalink": "/techniques/T1546.008/"
     },
     {
       "kind": "technique",
       "title": "AppCert DLLs",
       "mitre_id": "T1546.009",
-      "permalink": "https://attack.mitre.org/techniques/T1546/009"
+      "permalink": "/techniques/T1546.009/"
     },
     {
       "kind": "technique",
       "title": "AppInit DLLs",
       "mitre_id": "T1546.010",
-      "permalink": "https://attack.mitre.org/techniques/T1546/010"
+      "permalink": "/techniques/T1546.010/"
     },
     {
       "kind": "technique",
       "title": "Application Shimming",
       "mitre_id": "T1546.011",
-      "permalink": "https://attack.mitre.org/techniques/T1546/011"
+      "permalink": "/techniques/T1546.011/"
     },
     {
       "kind": "technique",
       "title": "Image File Execution Options Injection",
       "mitre_id": "T1546.012",
-      "permalink": "https://attack.mitre.org/techniques/T1546/012"
+      "permalink": "/techniques/T1546.012/"
     },
     {
       "kind": "technique",
       "title": "PowerShell Profile",
       "mitre_id": "T1546.013",
-      "permalink": "https://attack.mitre.org/techniques/T1546/013"
+      "permalink": "/techniques/T1546.013/"
     },
     {
       "kind": "technique",
       "title": "Emond",
       "mitre_id": "T1546.014",
-      "permalink": "https://attack.mitre.org/techniques/T1546/014"
+      "permalink": "/techniques/T1546.014/"
     },
     {
       "kind": "technique",
       "title": "Component Object Model Hijacking",
       "mitre_id": "T1546.015",
-      "permalink": "https://attack.mitre.org/techniques/T1546/015"
+      "permalink": "/techniques/T1546.015/"
     },
     {
       "kind": "technique",
       "title": "Installer Packages",
       "mitre_id": "T1546.016",
-      "permalink": "https://attack.mitre.org/techniques/T1546/016"
+      "permalink": "/techniques/T1546.016/"
     },
     {
       "kind": "technique",
       "title": "Udev Rules",
       "mitre_id": "T1546.017",
-      "permalink": "https://attack.mitre.org/techniques/T1546/017"
+      "permalink": "/techniques/T1546.017/"
     },
     {
       "kind": "technique",
       "title": "Python Startup Hooks",
       "mitre_id": "T1546.018",
-      "permalink": "https://attack.mitre.org/techniques/T1546/018"
+      "permalink": "/techniques/T1546.018/"
     },
     {
       "kind": "technique",
       "title": "Boot or Logon Autostart Execution",
       "mitre_id": "T1547",
-      "permalink": "https://attack.mitre.org/techniques/T1547"
+      "permalink": "/techniques/T1547/"
     },
     {
       "kind": "technique",
       "title": "Registry Run Keys / Startup Folder",
       "mitre_id": "T1547.001",
-      "permalink": "https://attack.mitre.org/techniques/T1547/001"
+      "permalink": "/techniques/T1547.001/"
     },
     {
       "kind": "technique",
       "title": "Authentication Package",
       "mitre_id": "T1547.002",
-      "permalink": "https://attack.mitre.org/techniques/T1547/002"
+      "permalink": "/techniques/T1547.002/"
     },
     {
       "kind": "technique",
       "title": "Time Providers",
       "mitre_id": "T1547.003",
-      "permalink": "https://attack.mitre.org/techniques/T1547/003"
+      "permalink": "/techniques/T1547.003/"
     },
     {
       "kind": "technique",
       "title": "Winlogon Helper DLL",
       "mitre_id": "T1547.004",
-      "permalink": "https://attack.mitre.org/techniques/T1547/004"
+      "permalink": "/techniques/T1547.004/"
     },
     {
       "kind": "technique",
       "title": "Security Support Provider",
       "mitre_id": "T1547.005",
-      "permalink": "https://attack.mitre.org/techniques/T1547/005"
+      "permalink": "/techniques/T1547.005/"
     },
     {
       "kind": "technique",
       "title": "Kernel Modules and Extensions",
       "mitre_id": "T1547.006",
-      "permalink": "https://attack.mitre.org/techniques/T1547/006"
+      "permalink": "/techniques/T1547.006/"
     },
     {
       "kind": "technique",
       "title": "Re-opened Applications",
       "mitre_id": "T1547.007",
-      "permalink": "https://attack.mitre.org/techniques/T1547/007"
+      "permalink": "/techniques/T1547.007/"
     },
     {
       "kind": "technique",
       "title": "LSASS Driver",
       "mitre_id": "T1547.008",
-      "permalink": "https://attack.mitre.org/techniques/T1547/008"
+      "permalink": "/techniques/T1547.008/"
     },
     {
       "kind": "technique",
       "title": "Shortcut Modification",
       "mitre_id": "T1547.009",
-      "permalink": "https://attack.mitre.org/techniques/T1547/009"
+      "permalink": "/techniques/T1547.009/"
     },
     {
       "kind": "technique",
       "title": "Port Monitors",
       "mitre_id": "T1547.010",
-      "permalink": "https://attack.mitre.org/techniques/T1547/010"
+      "permalink": "/techniques/T1547.010/"
     },
     {
       "kind": "technique",
       "title": "Print Processors",
       "mitre_id": "T1547.012",
-      "permalink": "https://attack.mitre.org/techniques/T1547/012"
+      "permalink": "/techniques/T1547.012/"
     },
     {
       "kind": "technique",
       "title": "XDG Autostart Entries",
       "mitre_id": "T1547.013",
-      "permalink": "https://attack.mitre.org/techniques/T1547/013"
+      "permalink": "/techniques/T1547.013/"
     },
     {
       "kind": "technique",
       "title": "Active Setup",
       "mitre_id": "T1547.014",
-      "permalink": "https://attack.mitre.org/techniques/T1547/014"
+      "permalink": "/techniques/T1547.014/"
     },
     {
       "kind": "technique",
       "title": "Login Items",
       "mitre_id": "T1547.015",
-      "permalink": "https://attack.mitre.org/techniques/T1547/015"
+      "permalink": "/techniques/T1547.015/"
     },
     {
       "kind": "technique",
       "title": "Abuse Elevation Control Mechanism",
       "mitre_id": "T1548",
-      "permalink": "https://attack.mitre.org/techniques/T1548"
+      "permalink": "/techniques/T1548/"
     },
     {
       "kind": "technique",
       "title": "Setuid and Setgid",
       "mitre_id": "T1548.001",
-      "permalink": "https://attack.mitre.org/techniques/T1548/001"
+      "permalink": "/techniques/T1548.001/"
     },
     {
       "kind": "technique",
       "title": "Bypass User Account Control",
       "mitre_id": "T1548.002",
-      "permalink": "https://attack.mitre.org/techniques/T1548/002"
+      "permalink": "/techniques/T1548.002/"
     },
     {
       "kind": "technique",
       "title": "Sudo and Sudo Caching",
       "mitre_id": "T1548.003",
-      "permalink": "https://attack.mitre.org/techniques/T1548/003"
+      "permalink": "/techniques/T1548.003/"
     },
     {
       "kind": "technique",
       "title": "Elevated Execution with Prompt",
       "mitre_id": "T1548.004",
-      "permalink": "https://attack.mitre.org/techniques/T1548/004"
+      "permalink": "/techniques/T1548.004/"
     },
     {
       "kind": "technique",
       "title": "Temporary Elevated Cloud Access",
       "mitre_id": "T1548.005",
-      "permalink": "https://attack.mitre.org/techniques/T1548/005"
+      "permalink": "/techniques/T1548.005/"
     },
     {
       "kind": "technique",
       "title": "TCC Manipulation",
       "mitre_id": "T1548.006",
-      "permalink": "https://attack.mitre.org/techniques/T1548/006"
+      "permalink": "/techniques/T1548.006/"
     },
     {
       "kind": "technique",
       "title": "Use Alternate Authentication Material",
       "mitre_id": "T1550",
-      "permalink": "https://attack.mitre.org/techniques/T1550"
+      "permalink": "/techniques/T1550/"
     },
     {
       "kind": "technique",
       "title": "Application Access Token",
       "mitre_id": "T1550.001",
-      "permalink": "https://attack.mitre.org/techniques/T1550/001"
+      "permalink": "/techniques/T1550.001/"
     },
     {
       "kind": "technique",
       "title": "Pass the Hash",
       "mitre_id": "T1550.002",
-      "permalink": "https://attack.mitre.org/techniques/T1550/002"
+      "permalink": "/techniques/T1550.002/"
     },
     {
       "kind": "technique",
       "title": "Pass the Ticket",
       "mitre_id": "T1550.003",
-      "permalink": "https://attack.mitre.org/techniques/T1550/003"
+      "permalink": "/techniques/T1550.003/"
     },
     {
       "kind": "technique",
       "title": "Web Session Cookie",
       "mitre_id": "T1550.004",
-      "permalink": "https://attack.mitre.org/techniques/T1550/004"
+      "permalink": "/techniques/T1550.004/"
     },
     {
       "kind": "technique",
       "title": "Unsecured Credentials",
       "mitre_id": "T1552",
-      "permalink": "https://attack.mitre.org/techniques/T1552"
+      "permalink": "/techniques/T1552/"
     },
     {
       "kind": "technique",
       "title": "Credentials In Files",
       "mitre_id": "T1552.001",
-      "permalink": "https://attack.mitre.org/techniques/T1552/001"
+      "permalink": "/techniques/T1552.001/"
     },
     {
       "kind": "technique",
       "title": "Credentials in Registry",
       "mitre_id": "T1552.002",
-      "permalink": "https://attack.mitre.org/techniques/T1552/002"
+      "permalink": "/techniques/T1552.002/"
     },
     {
       "kind": "technique",
       "title": "Shell History",
       "mitre_id": "T1552.003",
-      "permalink": "https://attack.mitre.org/techniques/T1552/003"
+      "permalink": "/techniques/T1552.003/"
     },
     {
       "kind": "technique",
       "title": "Private Keys",
       "mitre_id": "T1552.004",
-      "permalink": "https://attack.mitre.org/techniques/T1552/004"
+      "permalink": "/techniques/T1552.004/"
     },
     {
       "kind": "technique",
       "title": "Cloud Instance Metadata API",
       "mitre_id": "T1552.005",
-      "permalink": "https://attack.mitre.org/techniques/T1552/005"
+      "permalink": "/techniques/T1552.005/"
     },
     {
       "kind": "technique",
       "title": "Group Policy Preferences",
       "mitre_id": "T1552.006",
-      "permalink": "https://attack.mitre.org/techniques/T1552/006"
+      "permalink": "/techniques/T1552.006/"
     },
     {
       "kind": "technique",
       "title": "Container API",
       "mitre_id": "T1552.007",
-      "permalink": "https://attack.mitre.org/techniques/T1552/007"
+      "permalink": "/techniques/T1552.007/"
     },
     {
       "kind": "technique",
       "title": "Chat Messages",
       "mitre_id": "T1552.008",
-      "permalink": "https://attack.mitre.org/techniques/T1552/008"
+      "permalink": "/techniques/T1552.008/"
     },
     {
       "kind": "technique",
       "title": "Subvert Trust Controls",
       "mitre_id": "T1553",
-      "permalink": "https://attack.mitre.org/techniques/T1553"
+      "permalink": "/techniques/T1553/"
     },
     {
       "kind": "technique",
       "title": "Gatekeeper Bypass",
       "mitre_id": "T1553.001",
-      "permalink": "https://attack.mitre.org/techniques/T1553/001"
+      "permalink": "/techniques/T1553.001/"
     },
     {
       "kind": "technique",
       "title": "Code Signing",
       "mitre_id": "T1553.002",
-      "permalink": "https://attack.mitre.org/techniques/T1553/002"
+      "permalink": "/techniques/T1553.002/"
     },
     {
       "kind": "technique",
       "title": "SIP and Trust Provider Hijacking",
       "mitre_id": "T1553.003",
-      "permalink": "https://attack.mitre.org/techniques/T1553/003"
+      "permalink": "/techniques/T1553.003/"
     },
     {
       "kind": "technique",
       "title": "Install Root Certificate",
       "mitre_id": "T1553.004",
-      "permalink": "https://attack.mitre.org/techniques/T1553/004"
+      "permalink": "/techniques/T1553.004/"
     },
     {
       "kind": "technique",
       "title": "Mark-of-the-Web Bypass",
       "mitre_id": "T1553.005",
-      "permalink": "https://attack.mitre.org/techniques/T1553/005"
+      "permalink": "/techniques/T1553.005/"
     },
     {
       "kind": "technique",
       "title": "Code Signing Policy Modification",
       "mitre_id": "T1553.006",
-      "permalink": "https://attack.mitre.org/techniques/T1553/006"
+      "permalink": "/techniques/T1553.006/"
     },
     {
       "kind": "technique",
       "title": "Compromise Host Software Binary",
       "mitre_id": "T1554",
-      "permalink": "https://attack.mitre.org/techniques/T1554"
+      "permalink": "/techniques/T1554/"
     },
     {
       "kind": "technique",
       "title": "Credentials from Password Stores",
       "mitre_id": "T1555",
-      "permalink": "https://attack.mitre.org/techniques/T1555"
+      "permalink": "/techniques/T1555/"
     },
     {
       "kind": "technique",
       "title": "Keychain",
       "mitre_id": "T1555.001",
-      "permalink": "https://attack.mitre.org/techniques/T1555/001"
+      "permalink": "/techniques/T1555.001/"
     },
     {
       "kind": "technique",
       "title": "Securityd Memory",
       "mitre_id": "T1555.002",
-      "permalink": "https://attack.mitre.org/techniques/T1555/002"
+      "permalink": "/techniques/T1555.002/"
     },
     {
       "kind": "technique",
       "title": "Credentials from Web Browsers",
       "mitre_id": "T1555.003",
-      "permalink": "https://attack.mitre.org/techniques/T1555/003"
+      "permalink": "/techniques/T1555.003/"
     },
     {
       "kind": "technique",
       "title": "Windows Credential Manager",
       "mitre_id": "T1555.004",
-      "permalink": "https://attack.mitre.org/techniques/T1555/004"
+      "permalink": "/techniques/T1555.004/"
     },
     {
       "kind": "technique",
       "title": "Password Managers",
       "mitre_id": "T1555.005",
-      "permalink": "https://attack.mitre.org/techniques/T1555/005"
+      "permalink": "/techniques/T1555.005/"
     },
     {
       "kind": "technique",
       "title": "Cloud Secrets Management Stores",
       "mitre_id": "T1555.006",
-      "permalink": "https://attack.mitre.org/techniques/T1555/006"
+      "permalink": "/techniques/T1555.006/"
     },
     {
       "kind": "technique",
       "title": "Modify Authentication Process",
       "mitre_id": "T1556",
-      "permalink": "https://attack.mitre.org/techniques/T1556"
+      "permalink": "/techniques/T1556/"
     },
     {
       "kind": "technique",
       "title": "Domain Controller Authentication",
       "mitre_id": "T1556.001",
-      "permalink": "https://attack.mitre.org/techniques/T1556/001"
+      "permalink": "/techniques/T1556.001/"
     },
     {
       "kind": "technique",
       "title": "Password Filter DLL",
       "mitre_id": "T1556.002",
-      "permalink": "https://attack.mitre.org/techniques/T1556/002"
+      "permalink": "/techniques/T1556.002/"
     },
     {
       "kind": "technique",
       "title": "Pluggable Authentication Modules",
       "mitre_id": "T1556.003",
-      "permalink": "https://attack.mitre.org/techniques/T1556/003"
+      "permalink": "/techniques/T1556.003/"
     },
     {
       "kind": "technique",
       "title": "Network Device Authentication",
       "mitre_id": "T1556.004",
-      "permalink": "https://attack.mitre.org/techniques/T1556/004"
+      "permalink": "/techniques/T1556.004/"
     },
     {
       "kind": "technique",
       "title": "Reversible Encryption",
       "mitre_id": "T1556.005",
-      "permalink": "https://attack.mitre.org/techniques/T1556/005"
+      "permalink": "/techniques/T1556.005/"
     },
     {
       "kind": "technique",
       "title": "Multi-Factor Authentication",
       "mitre_id": "T1556.006",
-      "permalink": "https://attack.mitre.org/techniques/T1556/006"
+      "permalink": "/techniques/T1556.006/"
     },
     {
       "kind": "technique",
       "title": "Hybrid Identity",
       "mitre_id": "T1556.007",
-      "permalink": "https://attack.mitre.org/techniques/T1556/007"
+      "permalink": "/techniques/T1556.007/"
     },
     {
       "kind": "technique",
       "title": "Network Provider DLL",
       "mitre_id": "T1556.008",
-      "permalink": "https://attack.mitre.org/techniques/T1556/008"
+      "permalink": "/techniques/T1556.008/"
     },
     {
       "kind": "technique",
       "title": "Conditional Access Policies",
       "mitre_id": "T1556.009",
-      "permalink": "https://attack.mitre.org/techniques/T1556/009"
+      "permalink": "/techniques/T1556.009/"
     },
     {
       "kind": "technique",
       "title": "Adversary-in-the-Middle",
       "mitre_id": "T1557",
-      "permalink": "https://attack.mitre.org/techniques/T1557"
+      "permalink": "/techniques/T1557/"
     },
     {
       "kind": "technique",
       "title": "Name Resolution Poisoning and SMB Relay",
       "mitre_id": "T1557.001",
-      "permalink": "https://attack.mitre.org/techniques/T1557/001"
+      "permalink": "/techniques/T1557.001/"
     },
     {
       "kind": "technique",
       "title": "ARP Cache Poisoning",
       "mitre_id": "T1557.002",
-      "permalink": "https://attack.mitre.org/techniques/T1557/002"
+      "permalink": "/techniques/T1557.002/"
     },
     {
       "kind": "technique",
       "title": "DHCP Spoofing",
       "mitre_id": "T1557.003",
-      "permalink": "https://attack.mitre.org/techniques/T1557/003"
+      "permalink": "/techniques/T1557.003/"
     },
     {
       "kind": "technique",
       "title": "Evil Twin",
       "mitre_id": "T1557.004",
-      "permalink": "https://attack.mitre.org/techniques/T1557/004"
+      "permalink": "/techniques/T1557.004/"
     },
     {
       "kind": "technique",
       "title": "Steal or Forge Kerberos Tickets",
       "mitre_id": "T1558",
-      "permalink": "https://attack.mitre.org/techniques/T1558"
+      "permalink": "/techniques/T1558/"
     },
     {
       "kind": "technique",
       "title": "Golden Ticket",
       "mitre_id": "T1558.001",
-      "permalink": "https://attack.mitre.org/techniques/T1558/001"
+      "permalink": "/techniques/T1558.001/"
     },
     {
       "kind": "technique",
       "title": "Silver Ticket",
       "mitre_id": "T1558.002",
-      "permalink": "https://attack.mitre.org/techniques/T1558/002"
+      "permalink": "/techniques/T1558.002/"
     },
     {
       "kind": "technique",
       "title": "Kerberoasting",
       "mitre_id": "T1558.003",
-      "permalink": "https://attack.mitre.org/techniques/T1558/003"
+      "permalink": "/techniques/T1558.003/"
     },
     {
       "kind": "technique",
       "title": "AS-REP Roasting",
       "mitre_id": "T1558.004",
-      "permalink": "https://attack.mitre.org/techniques/T1558/004"
+      "permalink": "/techniques/T1558.004/"
     },
     {
       "kind": "technique",
       "title": "Ccache Files",
       "mitre_id": "T1558.005",
-      "permalink": "https://attack.mitre.org/techniques/T1558/005"
+      "permalink": "/techniques/T1558.005/"
     },
     {
       "kind": "technique",
       "title": "Inter-Process Communication",
       "mitre_id": "T1559",
-      "permalink": "https://attack.mitre.org/techniques/T1559"
+      "permalink": "/techniques/T1559/"
     },
     {
       "kind": "technique",
       "title": "Component Object Model",
       "mitre_id": "T1559.001",
-      "permalink": "https://attack.mitre.org/techniques/T1559/001"
+      "permalink": "/techniques/T1559.001/"
     },
     {
       "kind": "technique",
       "title": "Dynamic Data Exchange",
       "mitre_id": "T1559.002",
-      "permalink": "https://attack.mitre.org/techniques/T1559/002"
+      "permalink": "/techniques/T1559.002/"
     },
     {
       "kind": "technique",
       "title": "XPC Services",
       "mitre_id": "T1559.003",
-      "permalink": "https://attack.mitre.org/techniques/T1559/003"
+      "permalink": "/techniques/T1559.003/"
     },
     {
       "kind": "technique",
       "title": "Archive Collected Data",
       "mitre_id": "T1560",
-      "permalink": "https://attack.mitre.org/techniques/T1560"
+      "permalink": "/techniques/T1560/"
     },
     {
       "kind": "technique",
       "title": "Archive via Utility",
       "mitre_id": "T1560.001",
-      "permalink": "https://attack.mitre.org/techniques/T1560/001"
+      "permalink": "/techniques/T1560.001/"
     },
     {
       "kind": "technique",
       "title": "Archive via Library",
       "mitre_id": "T1560.002",
-      "permalink": "https://attack.mitre.org/techniques/T1560/002"
+      "permalink": "/techniques/T1560.002/"
     },
     {
       "kind": "technique",
       "title": "Archive via Custom Method",
       "mitre_id": "T1560.003",
-      "permalink": "https://attack.mitre.org/techniques/T1560/003"
+      "permalink": "/techniques/T1560.003/"
     },
     {
       "kind": "technique",
       "title": "Disk Wipe",
       "mitre_id": "T1561",
-      "permalink": "https://attack.mitre.org/techniques/T1561"
+      "permalink": "/techniques/T1561/"
     },
     {
       "kind": "technique",
       "title": "Disk Content Wipe",
       "mitre_id": "T1561.001",
-      "permalink": "https://attack.mitre.org/techniques/T1561/001"
+      "permalink": "/techniques/T1561.001/"
     },
     {
       "kind": "technique",
       "title": "Disk Structure Wipe",
       "mitre_id": "T1561.002",
-      "permalink": "https://attack.mitre.org/techniques/T1561/002"
+      "permalink": "/techniques/T1561.002/"
     },
     {
       "kind": "technique",
       "title": "Remote Service Session Hijacking",
       "mitre_id": "T1563",
-      "permalink": "https://attack.mitre.org/techniques/T1563"
+      "permalink": "/techniques/T1563/"
     },
     {
       "kind": "technique",
       "title": "SSH Hijacking",
       "mitre_id": "T1563.001",
-      "permalink": "https://attack.mitre.org/techniques/T1563/001"
+      "permalink": "/techniques/T1563.001/"
     },
     {
       "kind": "technique",
       "title": "RDP Hijacking",
       "mitre_id": "T1563.002",
-      "permalink": "https://attack.mitre.org/techniques/T1563/002"
+      "permalink": "/techniques/T1563.002/"
     },
     {
       "kind": "technique",
       "title": "Hide Artifacts",
       "mitre_id": "T1564",
-      "permalink": "https://attack.mitre.org/techniques/T1564"
+      "permalink": "/techniques/T1564/"
     },
     {
       "kind": "technique",
       "title": "Hidden Files and Directories",
       "mitre_id": "T1564.001",
-      "permalink": "https://attack.mitre.org/techniques/T1564/001"
+      "permalink": "/techniques/T1564.001/"
     },
     {
       "kind": "technique",
       "title": "Hidden Users",
       "mitre_id": "T1564.002",
-      "permalink": "https://attack.mitre.org/techniques/T1564/002"
+      "permalink": "/techniques/T1564.002/"
     },
     {
       "kind": "technique",
       "title": "Hidden Window",
       "mitre_id": "T1564.003",
-      "permalink": "https://attack.mitre.org/techniques/T1564/003"
+      "permalink": "/techniques/T1564.003/"
     },
     {
       "kind": "technique",
       "title": "NTFS File Attributes",
       "mitre_id": "T1564.004",
-      "permalink": "https://attack.mitre.org/techniques/T1564/004"
+      "permalink": "/techniques/T1564.004/"
     },
     {
       "kind": "technique",
       "title": "Hidden File System",
       "mitre_id": "T1564.005",
-      "permalink": "https://attack.mitre.org/techniques/T1564/005"
+      "permalink": "/techniques/T1564.005/"
     },
     {
       "kind": "technique",
       "title": "Run Virtual Instance",
       "mitre_id": "T1564.006",
-      "permalink": "https://attack.mitre.org/techniques/T1564/006"
+      "permalink": "/techniques/T1564.006/"
     },
     {
       "kind": "technique",
       "title": "VBA Stomping",
       "mitre_id": "T1564.007",
-      "permalink": "https://attack.mitre.org/techniques/T1564/007"
+      "permalink": "/techniques/T1564.007/"
     },
     {
       "kind": "technique",
       "title": "Email Hiding Rules",
       "mitre_id": "T1564.008",
-      "permalink": "https://attack.mitre.org/techniques/T1564/008"
+      "permalink": "/techniques/T1564.008/"
     },
     {
       "kind": "technique",
       "title": "Resource Forking",
       "mitre_id": "T1564.009",
-      "permalink": "https://attack.mitre.org/techniques/T1564/009"
+      "permalink": "/techniques/T1564.009/"
     },
     {
       "kind": "technique",
       "title": "Process Argument Spoofing",
       "mitre_id": "T1564.010",
-      "permalink": "https://attack.mitre.org/techniques/T1564/010"
+      "permalink": "/techniques/T1564.010/"
     },
     {
       "kind": "technique",
       "title": "Ignore Process Interrupts",
       "mitre_id": "T1564.011",
-      "permalink": "https://attack.mitre.org/techniques/T1564/011"
+      "permalink": "/techniques/T1564.011/"
     },
     {
       "kind": "technique",
       "title": "File/Path Exclusions",
       "mitre_id": "T1564.012",
-      "permalink": "https://attack.mitre.org/techniques/T1564/012"
+      "permalink": "/techniques/T1564.012/"
     },
     {
       "kind": "technique",
       "title": "Bind Mounts",
       "mitre_id": "T1564.013",
-      "permalink": "https://attack.mitre.org/techniques/T1564/013"
+      "permalink": "/techniques/T1564.013/"
     },
     {
       "kind": "technique",
       "title": "Extended Attributes",
       "mitre_id": "T1564.014",
-      "permalink": "https://attack.mitre.org/techniques/T1564/014"
+      "permalink": "/techniques/T1564.014/"
     },
     {
       "kind": "technique",
       "title": "Data Manipulation",
       "mitre_id": "T1565",
-      "permalink": "https://attack.mitre.org/techniques/T1565"
+      "permalink": "/techniques/T1565/"
     },
     {
       "kind": "technique",
       "title": "Stored Data Manipulation",
       "mitre_id": "T1565.001",
-      "permalink": "https://attack.mitre.org/techniques/T1565/001"
+      "permalink": "/techniques/T1565.001/"
     },
     {
       "kind": "technique",
       "title": "Transmitted Data Manipulation",
       "mitre_id": "T1565.002",
-      "permalink": "https://attack.mitre.org/techniques/T1565/002"
+      "permalink": "/techniques/T1565.002/"
     },
     {
       "kind": "technique",
       "title": "Runtime Data Manipulation",
       "mitre_id": "T1565.003",
-      "permalink": "https://attack.mitre.org/techniques/T1565/003"
+      "permalink": "/techniques/T1565.003/"
     },
     {
       "kind": "technique",
       "title": "Phishing",
       "mitre_id": "T1566",
-      "permalink": "https://attack.mitre.org/techniques/T1566"
+      "permalink": "/techniques/T1566/"
     },
     {
       "kind": "technique",
       "title": "Spearphishing Attachment",
       "mitre_id": "T1566.001",
-      "permalink": "https://attack.mitre.org/techniques/T1566/001"
+      "permalink": "/techniques/T1566.001/"
     },
     {
       "kind": "technique",
       "title": "Spearphishing Link",
       "mitre_id": "T1566.002",
-      "permalink": "https://attack.mitre.org/techniques/T1566/002"
+      "permalink": "/techniques/T1566.002/"
     },
     {
       "kind": "technique",
       "title": "Spearphishing via Service",
       "mitre_id": "T1566.003",
-      "permalink": "https://attack.mitre.org/techniques/T1566/003"
+      "permalink": "/techniques/T1566.003/"
     },
     {
       "kind": "technique",
       "title": "Spearphishing Voice",
       "mitre_id": "T1566.004",
-      "permalink": "https://attack.mitre.org/techniques/T1566/004"
+      "permalink": "/techniques/T1566.004/"
     },
     {
       "kind": "technique",
       "title": "Exfiltration Over Web Service",
       "mitre_id": "T1567",
-      "permalink": "https://attack.mitre.org/techniques/T1567"
+      "permalink": "/techniques/T1567/"
     },
     {
       "kind": "technique",
       "title": "Exfiltration to Code Repository",
       "mitre_id": "T1567.001",
-      "permalink": "https://attack.mitre.org/techniques/T1567/001"
+      "permalink": "/techniques/T1567.001/"
     },
     {
       "kind": "technique",
       "title": "Exfiltration to Cloud Storage",
       "mitre_id": "T1567.002",
-      "permalink": "https://attack.mitre.org/techniques/T1567/002"
+      "permalink": "/techniques/T1567.002/"
     },
     {
       "kind": "technique",
       "title": "Exfiltration to Text Storage Sites",
       "mitre_id": "T1567.003",
-      "permalink": "https://attack.mitre.org/techniques/T1567/003"
+      "permalink": "/techniques/T1567.003/"
     },
     {
       "kind": "technique",
       "title": "Exfiltration Over Webhook",
       "mitre_id": "T1567.004",
-      "permalink": "https://attack.mitre.org/techniques/T1567/004"
+      "permalink": "/techniques/T1567.004/"
     },
     {
       "kind": "technique",
       "title": "Dynamic Resolution",
       "mitre_id": "T1568",
-      "permalink": "https://attack.mitre.org/techniques/T1568"
+      "permalink": "/techniques/T1568/"
     },
     {
       "kind": "technique",
       "title": "Fast Flux DNS",
       "mitre_id": "T1568.001",
-      "permalink": "https://attack.mitre.org/techniques/T1568/001"
+      "permalink": "/techniques/T1568.001/"
     },
     {
       "kind": "technique",
       "title": "Domain Generation Algorithms",
       "mitre_id": "T1568.002",
-      "permalink": "https://attack.mitre.org/techniques/T1568/002"
+      "permalink": "/techniques/T1568.002/"
     },
     {
       "kind": "technique",
       "title": "DNS Calculation",
       "mitre_id": "T1568.003",
-      "permalink": "https://attack.mitre.org/techniques/T1568/003"
+      "permalink": "/techniques/T1568.003/"
     },
     {
       "kind": "technique",
       "title": "System Services",
       "mitre_id": "T1569",
-      "permalink": "https://attack.mitre.org/techniques/T1569"
+      "permalink": "/techniques/T1569/"
     },
     {
       "kind": "technique",
       "title": "Launchctl",
       "mitre_id": "T1569.001",
-      "permalink": "https://attack.mitre.org/techniques/T1569/001"
+      "permalink": "/techniques/T1569.001/"
     },
     {
       "kind": "technique",
       "title": "Service Execution",
       "mitre_id": "T1569.002",
-      "permalink": "https://attack.mitre.org/techniques/T1569/002"
+      "permalink": "/techniques/T1569.002/"
     },
     {
       "kind": "technique",
       "title": "Systemctl",
       "mitre_id": "T1569.003",
-      "permalink": "https://attack.mitre.org/techniques/T1569/003"
+      "permalink": "/techniques/T1569.003/"
     },
     {
       "kind": "technique",
       "title": "Lateral Tool Transfer",
       "mitre_id": "T1570",
-      "permalink": "https://attack.mitre.org/techniques/T1570"
+      "permalink": "/techniques/T1570/"
     },
     {
       "kind": "technique",
       "title": "Non-Standard Port",
       "mitre_id": "T1571",
-      "permalink": "https://attack.mitre.org/techniques/T1571"
+      "permalink": "/techniques/T1571/"
     },
     {
       "kind": "technique",
       "title": "Protocol Tunneling",
       "mitre_id": "T1572",
-      "permalink": "https://attack.mitre.org/techniques/T1572"
+      "permalink": "/techniques/T1572/"
     },
     {
       "kind": "technique",
       "title": "Encrypted Channel",
       "mitre_id": "T1573",
-      "permalink": "https://attack.mitre.org/techniques/T1573"
+      "permalink": "/techniques/T1573/"
     },
     {
       "kind": "technique",
       "title": "Symmetric Cryptography",
       "mitre_id": "T1573.001",
-      "permalink": "https://attack.mitre.org/techniques/T1573/001"
+      "permalink": "/techniques/T1573.001/"
     },
     {
       "kind": "technique",
       "title": "Asymmetric Cryptography",
       "mitre_id": "T1573.002",
-      "permalink": "https://attack.mitre.org/techniques/T1573/002"
+      "permalink": "/techniques/T1573.002/"
     },
     {
       "kind": "technique",
       "title": "Hijack Execution Flow",
       "mitre_id": "T1574",
-      "permalink": "https://attack.mitre.org/techniques/T1574"
+      "permalink": "/techniques/T1574/"
     },
     {
       "kind": "technique",
       "title": "DLL",
       "mitre_id": "T1574.001",
-      "permalink": "https://attack.mitre.org/techniques/T1574/001"
+      "permalink": "/techniques/T1574.001/"
     },
     {
       "kind": "technique",
       "title": "Dylib Hijacking",
       "mitre_id": "T1574.004",
-      "permalink": "https://attack.mitre.org/techniques/T1574/004"
+      "permalink": "/techniques/T1574.004/"
     },
     {
       "kind": "technique",
       "title": "Executable Installer File Permissions Weakness",
       "mitre_id": "T1574.005",
-      "permalink": "https://attack.mitre.org/techniques/T1574/005"
+      "permalink": "/techniques/T1574.005/"
     },
     {
       "kind": "technique",
       "title": "Dynamic Linker Hijacking",
       "mitre_id": "T1574.006",
-      "permalink": "https://attack.mitre.org/techniques/T1574/006"
+      "permalink": "/techniques/T1574.006/"
     },
     {
       "kind": "technique",
       "title": "Path Interception by PATH Environment Variable",
       "mitre_id": "T1574.007",
-      "permalink": "https://attack.mitre.org/techniques/T1574/007"
+      "permalink": "/techniques/T1574.007/"
     },
     {
       "kind": "technique",
       "title": "Path Interception by Search Order Hijacking",
       "mitre_id": "T1574.008",
-      "permalink": "https://attack.mitre.org/techniques/T1574/008"
+      "permalink": "/techniques/T1574.008/"
     },
     {
       "kind": "technique",
       "title": "Path Interception by Unquoted Path",
       "mitre_id": "T1574.009",
-      "permalink": "https://attack.mitre.org/techniques/T1574/009"
+      "permalink": "/techniques/T1574.009/"
     },
     {
       "kind": "technique",
       "title": "Services File Permissions Weakness",
       "mitre_id": "T1574.010",
-      "permalink": "https://attack.mitre.org/techniques/T1574/010"
+      "permalink": "/techniques/T1574.010/"
     },
     {
       "kind": "technique",
       "title": "Services Registry Permissions Weakness",
       "mitre_id": "T1574.011",
-      "permalink": "https://attack.mitre.org/techniques/T1574/011"
+      "permalink": "/techniques/T1574.011/"
     },
     {
       "kind": "technique",
       "title": "COR_PROFILER",
       "mitre_id": "T1574.012",
-      "permalink": "https://attack.mitre.org/techniques/T1574/012"
+      "permalink": "/techniques/T1574.012/"
     },
     {
       "kind": "technique",
       "title": "KernelCallbackTable",
       "mitre_id": "T1574.013",
-      "permalink": "https://attack.mitre.org/techniques/T1574/013"
+      "permalink": "/techniques/T1574.013/"
     },
     {
       "kind": "technique",
       "title": "AppDomainManager",
       "mitre_id": "T1574.014",
-      "permalink": "https://attack.mitre.org/techniques/T1574/014"
+      "permalink": "/techniques/T1574.014/"
     },
     {
       "kind": "technique",
       "title": "Modify Cloud Compute Infrastructure",
       "mitre_id": "T1578",
-      "permalink": "https://attack.mitre.org/techniques/T1578"
+      "permalink": "/techniques/T1578/"
     },
     {
       "kind": "technique",
       "title": "Create Snapshot",
       "mitre_id": "T1578.001",
-      "permalink": "https://attack.mitre.org/techniques/T1578/001"
+      "permalink": "/techniques/T1578.001/"
     },
     {
       "kind": "technique",
       "title": "Create Cloud Instance",
       "mitre_id": "T1578.002",
-      "permalink": "https://attack.mitre.org/techniques/T1578/002"
+      "permalink": "/techniques/T1578.002/"
     },
     {
       "kind": "technique",
       "title": "Delete Cloud Instance",
       "mitre_id": "T1578.003",
-      "permalink": "https://attack.mitre.org/techniques/T1578/003"
+      "permalink": "/techniques/T1578.003/"
     },
     {
       "kind": "technique",
       "title": "Revert Cloud Instance",
       "mitre_id": "T1578.004",
-      "permalink": "https://attack.mitre.org/techniques/T1578/004"
+      "permalink": "/techniques/T1578.004/"
     },
     {
       "kind": "technique",
       "title": "Modify Cloud Compute Configurations",
       "mitre_id": "T1578.005",
-      "permalink": "https://attack.mitre.org/techniques/T1578/005"
+      "permalink": "/techniques/T1578.005/"
     },
     {
       "kind": "technique",
       "title": "Cloud Infrastructure Discovery",
       "mitre_id": "T1580",
-      "permalink": "https://attack.mitre.org/techniques/T1580"
+      "permalink": "/techniques/T1580/"
     },
     {
       "kind": "technique",
       "title": "Acquire Infrastructure",
       "mitre_id": "T1583",
-      "permalink": "https://attack.mitre.org/techniques/T1583"
+      "permalink": "/techniques/T1583/"
     },
     {
       "kind": "technique",
       "title": "Domains",
       "mitre_id": "T1583.001",
-      "permalink": "https://attack.mitre.org/techniques/T1583/001"
+      "permalink": "/techniques/T1583.001/"
     },
     {
       "kind": "technique",
       "title": "DNS Server",
       "mitre_id": "T1583.002",
-      "permalink": "https://attack.mitre.org/techniques/T1583/002"
+      "permalink": "/techniques/T1583.002/"
     },
     {
       "kind": "technique",
       "title": "Virtual Private Server",
       "mitre_id": "T1583.003",
-      "permalink": "https://attack.mitre.org/techniques/T1583/003"
+      "permalink": "/techniques/T1583.003/"
     },
     {
       "kind": "technique",
       "title": "Server",
       "mitre_id": "T1583.004",
-      "permalink": "https://attack.mitre.org/techniques/T1583/004"
+      "permalink": "/techniques/T1583.004/"
     },
     {
       "kind": "technique",
       "title": "Botnet",
       "mitre_id": "T1583.005",
-      "permalink": "https://attack.mitre.org/techniques/T1583/005"
+      "permalink": "/techniques/T1583.005/"
     },
     {
       "kind": "technique",
       "title": "Web Services",
       "mitre_id": "T1583.006",
-      "permalink": "https://attack.mitre.org/techniques/T1583/006"
+      "permalink": "/techniques/T1583.006/"
     },
     {
       "kind": "technique",
       "title": "Serverless",
       "mitre_id": "T1583.007",
-      "permalink": "https://attack.mitre.org/techniques/T1583/007"
+      "permalink": "/techniques/T1583.007/"
     },
     {
       "kind": "technique",
       "title": "Malvertising",
       "mitre_id": "T1583.008",
-      "permalink": "https://attack.mitre.org/techniques/T1583/008"
+      "permalink": "/techniques/T1583.008/"
     },
     {
       "kind": "technique",
       "title": "Compromise Infrastructure",
       "mitre_id": "T1584",
-      "permalink": "https://attack.mitre.org/techniques/T1584"
+      "permalink": "/techniques/T1584/"
     },
     {
       "kind": "technique",
       "title": "Domains",
       "mitre_id": "T1584.001",
-      "permalink": "https://attack.mitre.org/techniques/T1584/001"
+      "permalink": "/techniques/T1584.001/"
     },
     {
       "kind": "technique",
       "title": "DNS Server",
       "mitre_id": "T1584.002",
-      "permalink": "https://attack.mitre.org/techniques/T1584/002"
+      "permalink": "/techniques/T1584.002/"
     },
     {
       "kind": "technique",
       "title": "Virtual Private Server",
       "mitre_id": "T1584.003",
-      "permalink": "https://attack.mitre.org/techniques/T1584/003"
+      "permalink": "/techniques/T1584.003/"
     },
     {
       "kind": "technique",
       "title": "Server",
       "mitre_id": "T1584.004",
-      "permalink": "https://attack.mitre.org/techniques/T1584/004"
+      "permalink": "/techniques/T1584.004/"
     },
     {
       "kind": "technique",
       "title": "Botnet",
       "mitre_id": "T1584.005",
-      "permalink": "https://attack.mitre.org/techniques/T1584/005"
+      "permalink": "/techniques/T1584.005/"
     },
     {
       "kind": "technique",
       "title": "Web Services",
       "mitre_id": "T1584.006",
-      "permalink": "https://attack.mitre.org/techniques/T1584/006"
+      "permalink": "/techniques/T1584.006/"
     },
     {
       "kind": "technique",
       "title": "Serverless",
       "mitre_id": "T1584.007",
-      "permalink": "https://attack.mitre.org/techniques/T1584/007"
+      "permalink": "/techniques/T1584.007/"
     },
     {
       "kind": "technique",
       "title": "Network Devices",
       "mitre_id": "T1584.008",
-      "permalink": "https://attack.mitre.org/techniques/T1584/008"
+      "permalink": "/techniques/T1584.008/"
     },
     {
       "kind": "technique",
       "title": "Establish Accounts",
       "mitre_id": "T1585",
-      "permalink": "https://attack.mitre.org/techniques/T1585"
+      "permalink": "/techniques/T1585/"
     },
     {
       "kind": "technique",
       "title": "Social Media Accounts",
       "mitre_id": "T1585.001",
-      "permalink": "https://attack.mitre.org/techniques/T1585/001"
+      "permalink": "/techniques/T1585.001/"
     },
     {
       "kind": "technique",
       "title": "Email Accounts",
       "mitre_id": "T1585.002",
-      "permalink": "https://attack.mitre.org/techniques/T1585/002"
+      "permalink": "/techniques/T1585.002/"
     },
     {
       "kind": "technique",
       "title": "Cloud Accounts",
       "mitre_id": "T1585.003",
-      "permalink": "https://attack.mitre.org/techniques/T1585/003"
+      "permalink": "/techniques/T1585.003/"
     },
     {
       "kind": "technique",
       "title": "Compromise Accounts",
       "mitre_id": "T1586",
-      "permalink": "https://attack.mitre.org/techniques/T1586"
+      "permalink": "/techniques/T1586/"
     },
     {
       "kind": "technique",
       "title": "Social Media Accounts",
       "mitre_id": "T1586.001",
-      "permalink": "https://attack.mitre.org/techniques/T1586/001"
+      "permalink": "/techniques/T1586.001/"
     },
     {
       "kind": "technique",
       "title": "Email Accounts",
       "mitre_id": "T1586.002",
-      "permalink": "https://attack.mitre.org/techniques/T1586/002"
+      "permalink": "/techniques/T1586.002/"
     },
     {
       "kind": "technique",
       "title": "Cloud Accounts",
       "mitre_id": "T1586.003",
-      "permalink": "https://attack.mitre.org/techniques/T1586/003"
+      "permalink": "/techniques/T1586.003/"
     },
     {
       "kind": "technique",
       "title": "Develop Capabilities",
       "mitre_id": "T1587",
-      "permalink": "https://attack.mitre.org/techniques/T1587"
+      "permalink": "/techniques/T1587/"
     },
     {
       "kind": "technique",
       "title": "Malware",
       "mitre_id": "T1587.001",
-      "permalink": "https://attack.mitre.org/techniques/T1587/001"
+      "permalink": "/techniques/T1587.001/"
     },
     {
       "kind": "technique",
       "title": "Code Signing Certificates",
       "mitre_id": "T1587.002",
-      "permalink": "https://attack.mitre.org/techniques/T1587/002"
+      "permalink": "/techniques/T1587.002/"
     },
     {
       "kind": "technique",
       "title": "Digital Certificates",
       "mitre_id": "T1587.003",
-      "permalink": "https://attack.mitre.org/techniques/T1587/003"
+      "permalink": "/techniques/T1587.003/"
     },
     {
       "kind": "technique",
       "title": "Exploits",
       "mitre_id": "T1587.004",
-      "permalink": "https://attack.mitre.org/techniques/T1587/004"
+      "permalink": "/techniques/T1587.004/"
     },
     {
       "kind": "technique",
       "title": "Obtain Capabilities",
       "mitre_id": "T1588",
-      "permalink": "https://attack.mitre.org/techniques/T1588"
+      "permalink": "/techniques/T1588/"
     },
     {
       "kind": "technique",
       "title": "Malware",
       "mitre_id": "T1588.001",
-      "permalink": "https://attack.mitre.org/techniques/T1588/001"
+      "permalink": "/techniques/T1588.001/"
     },
     {
       "kind": "technique",
       "title": "Tool",
       "mitre_id": "T1588.002",
-      "permalink": "https://attack.mitre.org/techniques/T1588/002"
+      "permalink": "/techniques/T1588.002/"
     },
     {
       "kind": "technique",
       "title": "Code Signing Certificates",
       "mitre_id": "T1588.003",
-      "permalink": "https://attack.mitre.org/techniques/T1588/003"
+      "permalink": "/techniques/T1588.003/"
     },
     {
       "kind": "technique",
       "title": "Digital Certificates",
       "mitre_id": "T1588.004",
-      "permalink": "https://attack.mitre.org/techniques/T1588/004"
+      "permalink": "/techniques/T1588.004/"
     },
     {
       "kind": "technique",
       "title": "Exploits",
       "mitre_id": "T1588.005",
-      "permalink": "https://attack.mitre.org/techniques/T1588/005"
+      "permalink": "/techniques/T1588.005/"
     },
     {
       "kind": "technique",
       "title": "Vulnerabilities",
       "mitre_id": "T1588.006",
-      "permalink": "https://attack.mitre.org/techniques/T1588/006"
+      "permalink": "/techniques/T1588.006/"
     },
     {
       "kind": "technique",
       "title": "Artificial Intelligence",
       "mitre_id": "T1588.007",
-      "permalink": "https://attack.mitre.org/techniques/T1588/007"
+      "permalink": "/techniques/T1588.007/"
     },
     {
       "kind": "technique",
       "title": "Gather Victim Identity Information",
       "mitre_id": "T1589",
-      "permalink": "https://attack.mitre.org/techniques/T1589"
+      "permalink": "/techniques/T1589/"
     },
     {
       "kind": "technique",
       "title": "Credentials",
       "mitre_id": "T1589.001",
-      "permalink": "https://attack.mitre.org/techniques/T1589/001"
+      "permalink": "/techniques/T1589.001/"
     },
     {
       "kind": "technique",
       "title": "Email Addresses",
       "mitre_id": "T1589.002",
-      "permalink": "https://attack.mitre.org/techniques/T1589/002"
+      "permalink": "/techniques/T1589.002/"
     },
     {
       "kind": "technique",
       "title": "Employee Names",
       "mitre_id": "T1589.003",
-      "permalink": "https://attack.mitre.org/techniques/T1589/003"
+      "permalink": "/techniques/T1589.003/"
     },
     {
       "kind": "technique",
       "title": "Gather Victim Network Information",
       "mitre_id": "T1590",
-      "permalink": "https://attack.mitre.org/techniques/T1590"
+      "permalink": "/techniques/T1590/"
     },
     {
       "kind": "technique",
       "title": "Domain Properties",
       "mitre_id": "T1590.001",
-      "permalink": "https://attack.mitre.org/techniques/T1590/001"
+      "permalink": "/techniques/T1590.001/"
     },
     {
       "kind": "technique",
       "title": "DNS",
       "mitre_id": "T1590.002",
-      "permalink": "https://attack.mitre.org/techniques/T1590/002"
+      "permalink": "/techniques/T1590.002/"
     },
     {
       "kind": "technique",
       "title": "Network Trust Dependencies",
       "mitre_id": "T1590.003",
-      "permalink": "https://attack.mitre.org/techniques/T1590/003"
+      "permalink": "/techniques/T1590.003/"
     },
     {
       "kind": "technique",
       "title": "Network Topology",
       "mitre_id": "T1590.004",
-      "permalink": "https://attack.mitre.org/techniques/T1590/004"
+      "permalink": "/techniques/T1590.004/"
     },
     {
       "kind": "technique",
       "title": "IP Addresses",
       "mitre_id": "T1590.005",
-      "permalink": "https://attack.mitre.org/techniques/T1590/005"
+      "permalink": "/techniques/T1590.005/"
     },
     {
       "kind": "technique",
       "title": "Network Security Appliances",
       "mitre_id": "T1590.006",
-      "permalink": "https://attack.mitre.org/techniques/T1590/006"
+      "permalink": "/techniques/T1590.006/"
     },
     {
       "kind": "technique",
       "title": "Gather Victim Org Information",
       "mitre_id": "T1591",
-      "permalink": "https://attack.mitre.org/techniques/T1591"
+      "permalink": "/techniques/T1591/"
     },
     {
       "kind": "technique",
       "title": "Determine Physical Locations",
       "mitre_id": "T1591.001",
-      "permalink": "https://attack.mitre.org/techniques/T1591/001"
+      "permalink": "/techniques/T1591.001/"
     },
     {
       "kind": "technique",
       "title": "Business Relationships",
       "mitre_id": "T1591.002",
-      "permalink": "https://attack.mitre.org/techniques/T1591/002"
+      "permalink": "/techniques/T1591.002/"
     },
     {
       "kind": "technique",
       "title": "Identify Business Tempo",
       "mitre_id": "T1591.003",
-      "permalink": "https://attack.mitre.org/techniques/T1591/003"
+      "permalink": "/techniques/T1591.003/"
     },
     {
       "kind": "technique",
       "title": "Identify Roles",
       "mitre_id": "T1591.004",
-      "permalink": "https://attack.mitre.org/techniques/T1591/004"
+      "permalink": "/techniques/T1591.004/"
     },
     {
       "kind": "technique",
       "title": "Gather Victim Host Information",
       "mitre_id": "T1592",
-      "permalink": "https://attack.mitre.org/techniques/T1592"
+      "permalink": "/techniques/T1592/"
     },
     {
       "kind": "technique",
       "title": "Hardware",
       "mitre_id": "T1592.001",
-      "permalink": "https://attack.mitre.org/techniques/T1592/001"
+      "permalink": "/techniques/T1592.001/"
     },
     {
       "kind": "technique",
       "title": "Software",
       "mitre_id": "T1592.002",
-      "permalink": "https://attack.mitre.org/techniques/T1592/002"
+      "permalink": "/techniques/T1592.002/"
     },
     {
       "kind": "technique",
       "title": "Firmware",
       "mitre_id": "T1592.003",
-      "permalink": "https://attack.mitre.org/techniques/T1592/003"
+      "permalink": "/techniques/T1592.003/"
     },
     {
       "kind": "technique",
       "title": "Client Configurations",
       "mitre_id": "T1592.004",
-      "permalink": "https://attack.mitre.org/techniques/T1592/004"
+      "permalink": "/techniques/T1592.004/"
     },
     {
       "kind": "technique",
       "title": "Search Open Websites/Domains",
       "mitre_id": "T1593",
-      "permalink": "https://attack.mitre.org/techniques/T1593"
+      "permalink": "/techniques/T1593/"
     },
     {
       "kind": "technique",
       "title": "Social Media",
       "mitre_id": "T1593.001",
-      "permalink": "https://attack.mitre.org/techniques/T1593/001"
+      "permalink": "/techniques/T1593.001/"
     },
     {
       "kind": "technique",
       "title": "Search Engines",
       "mitre_id": "T1593.002",
-      "permalink": "https://attack.mitre.org/techniques/T1593/002"
+      "permalink": "/techniques/T1593.002/"
     },
     {
       "kind": "technique",
       "title": "Code Repositories",
       "mitre_id": "T1593.003",
-      "permalink": "https://attack.mitre.org/techniques/T1593/003"
+      "permalink": "/techniques/T1593.003/"
     },
     {
       "kind": "technique",
       "title": "Search Victim-Owned Websites",
       "mitre_id": "T1594",
-      "permalink": "https://attack.mitre.org/techniques/T1594"
+      "permalink": "/techniques/T1594/"
     },
     {
       "kind": "technique",
       "title": "Active Scanning",
       "mitre_id": "T1595",
-      "permalink": "https://attack.mitre.org/techniques/T1595"
+      "permalink": "/techniques/T1595/"
     },
     {
       "kind": "technique",
       "title": "Scanning IP Blocks",
       "mitre_id": "T1595.001",
-      "permalink": "https://attack.mitre.org/techniques/T1595/001"
+      "permalink": "/techniques/T1595.001/"
     },
     {
       "kind": "technique",
       "title": "Vulnerability Scanning",
       "mitre_id": "T1595.002",
-      "permalink": "https://attack.mitre.org/techniques/T1595/002"
+      "permalink": "/techniques/T1595.002/"
     },
     {
       "kind": "technique",
       "title": "Wordlist Scanning",
       "mitre_id": "T1595.003",
-      "permalink": "https://attack.mitre.org/techniques/T1595/003"
+      "permalink": "/techniques/T1595.003/"
     },
     {
       "kind": "technique",
       "title": "Search Open Technical Databases",
       "mitre_id": "T1596",
-      "permalink": "https://attack.mitre.org/techniques/T1596"
+      "permalink": "/techniques/T1596/"
     },
     {
       "kind": "technique",
       "title": "DNS/Passive DNS",
       "mitre_id": "T1596.001",
-      "permalink": "https://attack.mitre.org/techniques/T1596/001"
+      "permalink": "/techniques/T1596.001/"
     },
     {
       "kind": "technique",
       "title": "WHOIS",
       "mitre_id": "T1596.002",
-      "permalink": "https://attack.mitre.org/techniques/T1596/002"
+      "permalink": "/techniques/T1596.002/"
     },
     {
       "kind": "technique",
       "title": "Digital Certificates",
       "mitre_id": "T1596.003",
-      "permalink": "https://attack.mitre.org/techniques/T1596/003"
+      "permalink": "/techniques/T1596.003/"
     },
     {
       "kind": "technique",
       "title": "CDNs",
       "mitre_id": "T1596.004",
-      "permalink": "https://attack.mitre.org/techniques/T1596/004"
+      "permalink": "/techniques/T1596.004/"
     },
     {
       "kind": "technique",
       "title": "Scan Databases",
       "mitre_id": "T1596.005",
-      "permalink": "https://attack.mitre.org/techniques/T1596/005"
+      "permalink": "/techniques/T1596.005/"
     },
     {
       "kind": "technique",
       "title": "Search Closed Sources",
       "mitre_id": "T1597",
-      "permalink": "https://attack.mitre.org/techniques/T1597"
+      "permalink": "/techniques/T1597/"
     },
     {
       "kind": "technique",
       "title": "Threat Intel Vendors",
       "mitre_id": "T1597.001",
-      "permalink": "https://attack.mitre.org/techniques/T1597/001"
+      "permalink": "/techniques/T1597.001/"
     },
     {
       "kind": "technique",
       "title": "Purchase Technical Data",
       "mitre_id": "T1597.002",
-      "permalink": "https://attack.mitre.org/techniques/T1597/002"
+      "permalink": "/techniques/T1597.002/"
     },
     {
       "kind": "technique",
       "title": "Phishing for Information",
       "mitre_id": "T1598",
-      "permalink": "https://attack.mitre.org/techniques/T1598"
+      "permalink": "/techniques/T1598/"
     },
     {
       "kind": "technique",
       "title": "Spearphishing Service",
       "mitre_id": "T1598.001",
-      "permalink": "https://attack.mitre.org/techniques/T1598/001"
+      "permalink": "/techniques/T1598.001/"
     },
     {
       "kind": "technique",
       "title": "Spearphishing Attachment",
       "mitre_id": "T1598.002",
-      "permalink": "https://attack.mitre.org/techniques/T1598/002"
+      "permalink": "/techniques/T1598.002/"
     },
     {
       "kind": "technique",
       "title": "Spearphishing Link",
       "mitre_id": "T1598.003",
-      "permalink": "https://attack.mitre.org/techniques/T1598/003"
+      "permalink": "/techniques/T1598.003/"
     },
     {
       "kind": "technique",
       "title": "Spearphishing Voice",
       "mitre_id": "T1598.004",
-      "permalink": "https://attack.mitre.org/techniques/T1598/004"
+      "permalink": "/techniques/T1598.004/"
     },
     {
       "kind": "technique",
       "title": "Network Boundary Bridging",
       "mitre_id": "T1599",
-      "permalink": "https://attack.mitre.org/techniques/T1599"
+      "permalink": "/techniques/T1599/"
     },
     {
       "kind": "technique",
       "title": "Network Address Translation Traversal",
       "mitre_id": "T1599.001",
-      "permalink": "https://attack.mitre.org/techniques/T1599/001"
+      "permalink": "/techniques/T1599.001/"
     },
     {
       "kind": "technique",
       "title": "Weaken Encryption",
       "mitre_id": "T1600",
-      "permalink": "https://attack.mitre.org/techniques/T1600"
+      "permalink": "/techniques/T1600/"
     },
     {
       "kind": "technique",
       "title": "Reduce Key Space",
       "mitre_id": "T1600.001",
-      "permalink": "https://attack.mitre.org/techniques/T1600/001"
+      "permalink": "/techniques/T1600.001/"
     },
     {
       "kind": "technique",
       "title": "Disable Crypto Hardware",
       "mitre_id": "T1600.002",
-      "permalink": "https://attack.mitre.org/techniques/T1600/002"
+      "permalink": "/techniques/T1600.002/"
     },
     {
       "kind": "technique",
       "title": "Modify System Image",
       "mitre_id": "T1601",
-      "permalink": "https://attack.mitre.org/techniques/T1601"
+      "permalink": "/techniques/T1601/"
     },
     {
       "kind": "technique",
       "title": "Patch System Image",
       "mitre_id": "T1601.001",
-      "permalink": "https://attack.mitre.org/techniques/T1601/001"
+      "permalink": "/techniques/T1601.001/"
     },
     {
       "kind": "technique",
       "title": "Downgrade System Image",
       "mitre_id": "T1601.002",
-      "permalink": "https://attack.mitre.org/techniques/T1601/002"
+      "permalink": "/techniques/T1601.002/"
     },
     {
       "kind": "technique",
       "title": "Data from Configuration Repository",
       "mitre_id": "T1602",
-      "permalink": "https://attack.mitre.org/techniques/T1602"
+      "permalink": "/techniques/T1602/"
     },
     {
       "kind": "technique",
       "title": "SNMP (MIB Dump)",
       "mitre_id": "T1602.001",
-      "permalink": "https://attack.mitre.org/techniques/T1602/001"
+      "permalink": "/techniques/T1602.001/"
     },
     {
       "kind": "technique",
       "title": "Network Device Configuration Dump",
       "mitre_id": "T1602.002",
-      "permalink": "https://attack.mitre.org/techniques/T1602/002"
+      "permalink": "/techniques/T1602.002/"
     },
     {
       "kind": "technique",
       "title": "Forge Web Credentials",
       "mitre_id": "T1606",
-      "permalink": "https://attack.mitre.org/techniques/T1606"
+      "permalink": "/techniques/T1606/"
     },
     {
       "kind": "technique",
       "title": "Web Cookies",
       "mitre_id": "T1606.001",
-      "permalink": "https://attack.mitre.org/techniques/T1606/001"
+      "permalink": "/techniques/T1606.001/"
     },
     {
       "kind": "technique",
       "title": "SAML Tokens",
       "mitre_id": "T1606.002",
-      "permalink": "https://attack.mitre.org/techniques/T1606/002"
+      "permalink": "/techniques/T1606.002/"
     },
     {
       "kind": "technique",
       "title": "Stage Capabilities",
       "mitre_id": "T1608",
-      "permalink": "https://attack.mitre.org/techniques/T1608"
+      "permalink": "/techniques/T1608/"
     },
     {
       "kind": "technique",
       "title": "Upload Malware",
       "mitre_id": "T1608.001",
-      "permalink": "https://attack.mitre.org/techniques/T1608/001"
+      "permalink": "/techniques/T1608.001/"
     },
     {
       "kind": "technique",
       "title": "Upload Tool",
       "mitre_id": "T1608.002",
-      "permalink": "https://attack.mitre.org/techniques/T1608/002"
+      "permalink": "/techniques/T1608.002/"
     },
     {
       "kind": "technique",
       "title": "Install Digital Certificate",
       "mitre_id": "T1608.003",
-      "permalink": "https://attack.mitre.org/techniques/T1608/003"
+      "permalink": "/techniques/T1608.003/"
     },
     {
       "kind": "technique",
       "title": "Drive-by Target",
       "mitre_id": "T1608.004",
-      "permalink": "https://attack.mitre.org/techniques/T1608/004"
+      "permalink": "/techniques/T1608.004/"
     },
     {
       "kind": "technique",
       "title": "Link Target",
       "mitre_id": "T1608.005",
-      "permalink": "https://attack.mitre.org/techniques/T1608/005"
+      "permalink": "/techniques/T1608.005/"
     },
     {
       "kind": "technique",
       "title": "SEO Poisoning",
       "mitre_id": "T1608.006",
-      "permalink": "https://attack.mitre.org/techniques/T1608/006"
+      "permalink": "/techniques/T1608.006/"
     },
     {
       "kind": "technique",
       "title": "Container Administration Command",
       "mitre_id": "T1609",
-      "permalink": "https://attack.mitre.org/techniques/T1609"
+      "permalink": "/techniques/T1609/"
     },
     {
       "kind": "technique",
       "title": "Deploy Container",
       "mitre_id": "T1610",
-      "permalink": "https://attack.mitre.org/techniques/T1610"
+      "permalink": "/techniques/T1610/"
     },
     {
       "kind": "technique",
       "title": "Escape to Host",
       "mitre_id": "T1611",
-      "permalink": "https://attack.mitre.org/techniques/T1611"
+      "permalink": "/techniques/T1611/"
     },
     {
       "kind": "technique",
       "title": "Build Image on Host",
       "mitre_id": "T1612",
-      "permalink": "https://attack.mitre.org/techniques/T1612"
+      "permalink": "/techniques/T1612/"
     },
     {
       "kind": "technique",
       "title": "Container and Resource Discovery",
       "mitre_id": "T1613",
-      "permalink": "https://attack.mitre.org/techniques/T1613"
+      "permalink": "/techniques/T1613/"
     },
     {
       "kind": "technique",
       "title": "System Location Discovery",
       "mitre_id": "T1614",
-      "permalink": "https://attack.mitre.org/techniques/T1614"
+      "permalink": "/techniques/T1614/"
     },
     {
       "kind": "technique",
       "title": "System Language Discovery",
       "mitre_id": "T1614.001",
-      "permalink": "https://attack.mitre.org/techniques/T1614/001"
+      "permalink": "/techniques/T1614.001/"
     },
     {
       "kind": "technique",
       "title": "Group Policy Discovery",
       "mitre_id": "T1615",
-      "permalink": "https://attack.mitre.org/techniques/T1615"
+      "permalink": "/techniques/T1615/"
     },
     {
       "kind": "technique",
       "title": "Cloud Storage Object Discovery",
       "mitre_id": "T1619",
-      "permalink": "https://attack.mitre.org/techniques/T1619"
+      "permalink": "/techniques/T1619/"
     },
     {
       "kind": "technique",
       "title": "Reflective Code Loading",
       "mitre_id": "T1620",
-      "permalink": "https://attack.mitre.org/techniques/T1620"
+      "permalink": "/techniques/T1620/"
     },
     {
       "kind": "technique",
       "title": "Multi-Factor Authentication Request Generation",
       "mitre_id": "T1621",
-      "permalink": "https://attack.mitre.org/techniques/T1621"
+      "permalink": "/techniques/T1621/"
     },
     {
       "kind": "technique",
       "title": "Debugger Evasion",
       "mitre_id": "T1622",
-      "permalink": "https://attack.mitre.org/techniques/T1622"
+      "permalink": "/techniques/T1622/"
     },
     {
       "kind": "technique",
       "title": "Plist File Modification",
       "mitre_id": "T1647",
-      "permalink": "https://attack.mitre.org/techniques/T1647"
+      "permalink": "/techniques/T1647/"
     },
     {
       "kind": "technique",
       "title": "Serverless Execution",
       "mitre_id": "T1648",
-      "permalink": "https://attack.mitre.org/techniques/T1648"
+      "permalink": "/techniques/T1648/"
     },
     {
       "kind": "technique",
       "title": "Steal or Forge Authentication Certificates",
       "mitre_id": "T1649",
-      "permalink": "https://attack.mitre.org/techniques/T1649"
+      "permalink": "/techniques/T1649/"
     },
     {
       "kind": "technique",
       "title": "Acquire Access",
       "mitre_id": "T1650",
-      "permalink": "https://attack.mitre.org/techniques/T1650"
+      "permalink": "/techniques/T1650/"
     },
     {
       "kind": "technique",
       "title": "Cloud Administration Command",
       "mitre_id": "T1651",
-      "permalink": "https://attack.mitre.org/techniques/T1651"
+      "permalink": "/techniques/T1651/"
     },
     {
       "kind": "technique",
       "title": "Device Driver Discovery",
       "mitre_id": "T1652",
-      "permalink": "https://attack.mitre.org/techniques/T1652"
+      "permalink": "/techniques/T1652/"
     },
     {
       "kind": "technique",
       "title": "Power Settings",
       "mitre_id": "T1653",
-      "permalink": "https://attack.mitre.org/techniques/T1653"
+      "permalink": "/techniques/T1653/"
     },
     {
       "kind": "technique",
       "title": "Log Enumeration",
       "mitre_id": "T1654",
-      "permalink": "https://attack.mitre.org/techniques/T1654"
+      "permalink": "/techniques/T1654/"
     },
     {
       "kind": "technique",
       "title": "Financial Theft",
       "mitre_id": "T1657",
-      "permalink": "https://attack.mitre.org/techniques/T1657"
+      "permalink": "/techniques/T1657/"
     },
     {
       "kind": "technique",
       "title": "Content Injection",
       "mitre_id": "T1659",
-      "permalink": "https://attack.mitre.org/techniques/T1659"
+      "permalink": "/techniques/T1659/"
     },
     {
       "kind": "technique",
       "title": "Hide Infrastructure",
       "mitre_id": "T1665",
-      "permalink": "https://attack.mitre.org/techniques/T1665"
+      "permalink": "/techniques/T1665/"
     },
     {
       "kind": "technique",
       "title": "Modify Cloud Resource Hierarchy",
       "mitre_id": "T1666",
-      "permalink": "https://attack.mitre.org/techniques/T1666"
+      "permalink": "/techniques/T1666/"
     },
     {
       "kind": "technique",
       "title": "Email Bombing",
       "mitre_id": "T1667",
-      "permalink": "https://attack.mitre.org/techniques/T1667"
+      "permalink": "/techniques/T1667/"
     },
     {
       "kind": "technique",
       "title": "Exclusive Control",
       "mitre_id": "T1668",
-      "permalink": "https://attack.mitre.org/techniques/T1668"
+      "permalink": "/techniques/T1668/"
     },
     {
       "kind": "technique",
       "title": "Wi-Fi Networks",
       "mitre_id": "T1669",
-      "permalink": "https://attack.mitre.org/techniques/T1669"
+      "permalink": "/techniques/T1669/"
     },
     {
       "kind": "technique",
       "title": "Cloud Application Integration",
       "mitre_id": "T1671",
-      "permalink": "https://attack.mitre.org/techniques/T1671"
+      "permalink": "/techniques/T1671/"
     },
     {
       "kind": "technique",
       "title": "Virtual Machine Discovery",
       "mitre_id": "T1673",
-      "permalink": "https://attack.mitre.org/techniques/T1673"
+      "permalink": "/techniques/T1673/"
     },
     {
       "kind": "technique",
       "title": "Input Injection",
       "mitre_id": "T1674",
-      "permalink": "https://attack.mitre.org/techniques/T1674"
+      "permalink": "/techniques/T1674/"
     },
     {
       "kind": "technique",
       "title": "ESXi Administration Command",
       "mitre_id": "T1675",
-      "permalink": "https://attack.mitre.org/techniques/T1675"
+      "permalink": "/techniques/T1675/"
     },
     {
       "kind": "technique",
       "title": "Poisoned Pipeline Execution",
       "mitre_id": "T1677",
-      "permalink": "https://attack.mitre.org/techniques/T1677"
+      "permalink": "/techniques/T1677/"
     },
     {
       "kind": "technique",
       "title": "Delay Execution",
       "mitre_id": "T1678",
-      "permalink": "https://attack.mitre.org/techniques/T1678"
+      "permalink": "/techniques/T1678/"
     },
     {
       "kind": "technique",
       "title": "Selective Exclusion",
       "mitre_id": "T1679",
-      "permalink": "https://attack.mitre.org/techniques/T1679"
+      "permalink": "/techniques/T1679/"
     },
     {
       "kind": "technique",
       "title": "Local Storage Discovery",
       "mitre_id": "T1680",
-      "permalink": "https://attack.mitre.org/techniques/T1680"
+      "permalink": "/techniques/T1680/"
     },
     {
       "kind": "technique",
       "title": "Search Threat Vendor Data",
       "mitre_id": "T1681",
-      "permalink": "https://attack.mitre.org/techniques/T1681"
+      "permalink": "/techniques/T1681/"
     },
     {
       "kind": "technique",
       "title": "Query Public AI Services",
       "mitre_id": "T1682",
-      "permalink": "https://attack.mitre.org/techniques/T1682"
+      "permalink": "/techniques/T1682/"
     },
     {
       "kind": "technique",
       "title": "Generate Content",
       "mitre_id": "T1683",
-      "permalink": "https://attack.mitre.org/techniques/T1683"
+      "permalink": "/techniques/T1683/"
     },
     {
       "kind": "technique",
       "title": "Written Content",
       "mitre_id": "T1683.001",
-      "permalink": "https://attack.mitre.org/techniques/T1683/001"
+      "permalink": "/techniques/T1683.001/"
     },
     {
       "kind": "technique",
       "title": "Audio-Visual Content",
       "mitre_id": "T1683.002",
-      "permalink": "https://attack.mitre.org/techniques/T1683/002"
+      "permalink": "/techniques/T1683.002/"
     },
     {
       "kind": "technique",
       "title": "Social Engineering",
       "mitre_id": "T1684",
-      "permalink": "https://attack.mitre.org/techniques/T1684"
+      "permalink": "/techniques/T1684/"
     },
     {
       "kind": "technique",
       "title": "Impersonation",
       "mitre_id": "T1684.001",
-      "permalink": "https://attack.mitre.org/techniques/T1684/001"
+      "permalink": "/techniques/T1684.001/"
     },
     {
       "kind": "technique",
       "title": "Email Spoofing",
       "mitre_id": "T1684.002",
-      "permalink": "https://attack.mitre.org/techniques/T1684/002"
+      "permalink": "/techniques/T1684.002/"
     },
     {
       "kind": "technique",
       "title": "Disable or Modify Tools",
       "mitre_id": "T1685",
-      "permalink": "https://attack.mitre.org/techniques/T1685"
+      "permalink": "/techniques/T1685/"
     },
     {
       "kind": "technique",
       "title": "Disable or Modify Windows Event Log",
       "mitre_id": "T1685.001",
-      "permalink": "https://attack.mitre.org/techniques/T1685/001"
+      "permalink": "/techniques/T1685.001/"
     },
     {
       "kind": "technique",
       "title": "Disable or Modify Cloud Log",
       "mitre_id": "T1685.002",
-      "permalink": "https://attack.mitre.org/techniques/T1685/002"
+      "permalink": "/techniques/T1685.002/"
     },
     {
       "kind": "technique",
       "title": "Modify or Spoof Tool UI",
       "mitre_id": "T1685.003",
-      "permalink": "https://attack.mitre.org/techniques/T1685/003"
+      "permalink": "/techniques/T1685.003/"
     },
     {
       "kind": "technique",
       "title": "Disable or Modify Linux Audit System Log",
       "mitre_id": "T1685.004",
-      "permalink": "https://attack.mitre.org/techniques/T1685/004"
+      "permalink": "/techniques/T1685.004/"
     },
     {
       "kind": "technique",
       "title": "Clear Windows Event Logs",
       "mitre_id": "T1685.005",
-      "permalink": "https://attack.mitre.org/techniques/T1685/005"
+      "permalink": "/techniques/T1685.005/"
     },
     {
       "kind": "technique",
       "title": "Clear Linux or Mac System Logs",
       "mitre_id": "T1685.006",
-      "permalink": "https://attack.mitre.org/techniques/T1685/006"
+      "permalink": "/techniques/T1685.006/"
     },
     {
       "kind": "technique",
       "title": "Disable or Modify System Firewall",
       "mitre_id": "T1686",
-      "permalink": "https://attack.mitre.org/techniques/T1686"
+      "permalink": "/techniques/T1686/"
     },
     {
       "kind": "technique",
       "title": "Cloud Firewall",
       "mitre_id": "T1686.001",
-      "permalink": "https://attack.mitre.org/techniques/T1686/001"
+      "permalink": "/techniques/T1686.001/"
     },
     {
       "kind": "technique",
       "title": "Network Device Firewall",
       "mitre_id": "T1686.002",
-      "permalink": "https://attack.mitre.org/techniques/T1686/002"
+      "permalink": "/techniques/T1686.002/"
     },
     {
       "kind": "technique",
       "title": "Windows Host Firewall",
       "mitre_id": "T1686.003",
-      "permalink": "https://attack.mitre.org/techniques/T1686/003"
+      "permalink": "/techniques/T1686.003/"
     },
     {
       "kind": "technique",
       "title": "Exploitation for Defense Impairment",
       "mitre_id": "T1687",
-      "permalink": "https://attack.mitre.org/techniques/T1687"
+      "permalink": "/techniques/T1687/"
     },
     {
       "kind": "technique",
       "title": "Safe Mode Boot",
       "mitre_id": "T1688",
-      "permalink": "https://attack.mitre.org/techniques/T1688"
+      "permalink": "/techniques/T1688/"
     },
     {
       "kind": "technique",
       "title": "Downgrade Attack",
       "mitre_id": "T1689",
-      "permalink": "https://attack.mitre.org/techniques/T1689"
+      "permalink": "/techniques/T1689/"
     },
     {
       "kind": "technique",
       "title": "Prevent Command History Logging",
       "mitre_id": "T1690",
-      "permalink": "https://attack.mitre.org/techniques/T1690"
+      "permalink": "/techniques/T1690/"
     }
   ],
   "campaigns": []
