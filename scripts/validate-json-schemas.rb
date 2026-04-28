@@ -18,12 +18,19 @@ class JsonSchemaValidator
     _data/generated/attack_mappings.json
     _data/generated/references.json
     _data/generated/recently_updated.json
+    _data/generated/techniques.json
+    _data/generated/tactics.json
+    _data/generated/mitigations.json
+    _data/generated/campaigns_mitre.json
   ].freeze
   OBJECT_PAYLOADS = %w[
     _data/generated/facets.json
     _data/generated/ioc_lookup.json
     _data/generated/ioc_types.json
     _data/generated/malware_index.json
+    _data/generated/actors_by_technique.json
+    _data/generated/software_by_actor.json
+    _data/generated/search_index.json
   ].freeze
 
   def initialize

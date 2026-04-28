@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="mitre-entity-page tactic-page">
+  <div class="mitre-entity-header">
+    <div class="header-top">
+      <h1>{{ page.title }}</h1>
+      {% if page.mitre_id %}
+      <span class="mitre-id-badge">{{ page.mitre_id }}</span>
+      {% endif %}
+    </div>
+    {% if page.mitre_url %}
+    <p class="mitre-upstream"><a href="{{ page.mitre_url }}" rel="noopener">View on MITRE ATT&amp;CK</a></p>
+    {% endif %}
+    {% if page.domains %}
+    <p class="mitre-domains"><strong>Domains:</strong> {{ page.domains | join: ", " }}</p>
+    {% endif %}
+    {% if page.shortname %}
+    <p><strong>Short name:</strong> <code>{{ page.shortname }}</code></p>
+    {% endif %}
+  </div>
+
+  <div class="mitre-entity-body">
+    {{ content }}
+  </div>
+
+  {% if page.source_attribution %}
+  <aside class="source-attribution-panel">
+    <h2>Source Attribution</h2>
+    <p>{{ page.source_attribution }}</p>
+  </aside>
+  {% endif %}
+</div>

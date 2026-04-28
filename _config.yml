@@ -9,8 +9,22 @@ sass:
 collections:
   threat_actors:
     output: true
+    permalink: /:path/
   malware:
     output: true
+    permalink: /malware/:path/
+  techniques:
+    output: true
+    permalink: /techniques/:path/
+  tactics:
+    output: true
+    permalink: /tactics/:path/
+  campaigns:
+    output: true
+    permalink: /campaigns/:path/
+  mitigations:
+    output: true
+    permalink: /mitigations/:path/
 
 plugins:
   - jekyll-seo-tag

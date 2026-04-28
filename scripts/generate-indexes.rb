@@ -27,6 +27,7 @@ class ThreatActorIndexGenerator
   def initialize
     @actors = load_actors
     @pages = load_pages
+    @mitre_counts = {}
   end
 
   def run
@@ -63,22 +64,45 @@ class ThreatActorIndexGenerator
       reference_documents.concat(references)
     end
 
+    technique_documents = build_mitre_collection_index('_techniques')
+    tactic_documents = build_mitre_collection_index('_tactics')
+    campaign_mitre_documents = build_mitre_collection_index('_campaigns')
+    mitigation_documents = build_mitre_collection_index('_mitigations')
+
+    @mitre_counts = {
+      techniques: technique_documents.length,
+      tactics: tactic_documents.length,
+      campaigns: campaign_mitre_documents.length,
+      mitigations: mitigation_documents.length
+    }
+
+    actors_by_technique = build_actors_by_technique(actor_documents)
+    software_by_actor = build_software_by_actor(actor_documents)
+
     ioc_lookup = build_ioc_lookup(ioc_documents)
     ioc_type_manifest = build_ioc_type_manifest(ioc_documents)
 
     write_json('threat_actors.json', actor_documents)
     write_json('recently_updated.json', build_recently_updated(actor_documents))
     write_json('iocs.json', ioc_documents)
-    
+
     # Build facets with malware counts
     facets = build_facets(actor_documents, ioc_documents)
     facets[:malware_counts] = build_malware_counts(malware_documents)
     write_json('facets.json', facets)
-    
+
     write_json('campaigns.json', campaign_documents)
     write_json('malware.json', malware_documents)
     write_json('attack_mappings.json', attack_mapping_documents)
     write_json('references.json', reference_documents)
+    write_json('techniques.json', technique_documents)
+    write_json('tactics.json', tactic_documents)
+    write_json('mitigations.json', mitigation_documents)
+    write_json('campaigns_mitre.json', campaign_mitre_documents)
+    write_json('actors_by_technique.json', actors_by_technique)
+    write_json('software_by_actor.json', software_by_actor)
+    search_payload = build_search_index(actor_documents, technique_documents, campaign_mitre_documents)
+    write_json('search_index.json', search_payload)
     write_json('ioc_lookup.json', ioc_lookup)
     write_json('ioc_types.json', ioc_type_manifest)
     write_ioc_type_shards(ioc_documents)
@@ -224,7 +248,10 @@ class ThreatActorIndexGenerator
       campaign_count: campaigns.length,
       malware_count: malware_entries.length,
       reference_count: references.length,
-      attack_mapping_count: attack_mappings.values.flatten.length
+      attack_mapping_count: attack_mappings.values.flatten.length,
+      mitre_ttps: actor['ttps'] || [],
+      mitre_software: actor['software'] || [],
+      mitre_campaigns_yaml: actor['campaigns'] || []
     }
   end
 
@@ -251,7 +278,11 @@ class ThreatActorIndexGenerator
       ioc_types: unique_sorted(iocs.map { |ioc| ioc[:type] }),
       counts: {
         threat_actors: actors.length,
-        iocs: iocs.length
+        iocs: iocs.length,
+        techniques: (@mitre_counts&.dig(:techniques)) || 0,
+        tactics: (@mitre_counts&.dig(:tactics)) || 0,
+        campaigns_mitre: (@mitre_counts&.dig(:campaigns)) || 0,
+        mitigations: (@mitre_counts&.dig(:mitigations)) || 0
       },
       # Precomputed counts for sidebar
       country_counts: country_counts,
@@ -884,6 +915,93 @@ class ThreatActorIndexGenerator
   def extract_label(content)
     match = content.match(/^\*\*(.+?)\*\*:/)
     match ? match[1].strip : nil
+  end
+
+  def build_mitre_collection_index(collection_dir)
+    docs = []
+    pattern = File.join(collection_dir, '*.md')
+    Dir.glob(pattern).sort.each do |path|
+      next unless File.file?(path)
+
+      begin
+        page = parse_page(path)
+      rescue StandardError
+        next
+      end
+      fm = page[:front_matter]
+      mid = fm['mitre_id']
+      next if mid.to_s.strip.empty?
+
+      docs << {
+        title: fm['title'],
+        mitre_id: mid,
+        permalink: fm['permalink'],
+        mitre_url: fm['mitre_url'],
+        domains: fm['domains'] || [],
+        layout: fm['layout']
+      }
+    end
+    docs
+  end
+
+  def build_actors_by_technique(actor_documents)
+    out = Hash.new { |h, k| h[k] = [] }
+    actor_documents.each do |ad|
+      Array(ad[:mitre_ttps]).each do |ttp|
+        next unless ttp.is_a?(Hash)
+
+        tid = (ttp['technique_id'] || ttp[:technique_id]).to_s.upcase
+        next if tid.empty?
+
+        out[tid] << {
+          name: ad[:name],
+          permalink: ad[:permalink],
+          url: ad[:url]
+        }
+      end
+    end
+    out.each_value { |list| list.uniq! { |x| [x[:name], x[:permalink]] } }
+    out
+  end
+
+  def build_software_by_actor(actor_documents)
+    actor_documents.each_with_object({}) do |ad, h|
+      sw = Array(ad[:mitre_software])
+      next if sw.empty?
+
+      h[ad[:name]] = sw
+    end
+  end
+
+  def build_search_index(actor_documents, technique_documents, campaign_mitre_documents)
+    {
+      generated_at: Time.now.utc.iso8601,
+      actors: actor_documents.map do |a|
+        {
+          kind: 'actor',
+          name: a[:name],
+          permalink: a[:permalink],
+          description: a[:description].to_s[0..280],
+          country: a[:country]
+        }
+      end,
+      techniques: technique_documents.map do |t|
+        {
+          kind: 'technique',
+          title: t[:title],
+          mitre_id: t[:mitre_id],
+          permalink: t[:permalink]
+        }
+      end,
+      campaigns: campaign_mitre_documents.map do |c|
+        {
+          kind: 'campaign',
+          title: c[:title],
+          mitre_id: c[:mitre_id],
+          permalink: c[:permalink]
+        }
+      end
+    }
   end
 
   def write_json(filename, payload)

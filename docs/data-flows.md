@@ -7,7 +7,7 @@ This project is a static Jekyll knowledge base. Runtime pages and JSON APIs are 
 1. Automated source importers fetch operational snapshots into ignored `data/imports/<source>/<date>/` cache paths.
 2. Importers read snapshots, apply committed mapping overrides, and update `_data/actors/*.yml`.
 3. `scripts/generate-pages.rb --force` synchronizes `_threat_actors/*.md` from actor YAML while preserving enriched page content.
-4. `scripts/generate-indexes.rb` reads actor YAML and actor pages, then regenerates `_data/generated/*.json`, `_malware/*.md`, `_malware/*.data.json`, and IOC shards.
+4. `scripts/generate-indexes.rb` reads actor YAML and actor pages, then regenerates `_data/generated/*.json`, `_malware/*.md`, `_malware/*.data.json`, optional MITRE collection pages under `_techniques/`, `_tactics/`, `_campaigns/`, and `_mitigations/`, and IOC shards.
 5. Jekyll renders collection pages and API wrappers in `api/*.json` into `_site/`.
 6. Validators check actor schema, page alignment, generated JSON parseability, malware links, IOC shards, and the final safe Jekyll build.
 
@@ -19,7 +19,8 @@ This project is a static Jekyll knowledge base. Runtime pages and JSON APIs are 
 | Source mapping overrides | `data/imports/*/mapping_overrides.yml` | Analysts and importer owners |
 | Analyst notes | `_data/analyst_notes/*.yml` and generated note sections in pages | Analysts |
 | Threat actor pages | `_threat_actors/*.md` | Generators plus curated page enrichment |
-| Malware pages | `_malware/*.md` and `_malware/*.data.json` | `scripts/generate-indexes.rb` |
+| Malware pages | `_malware/*.md` and `_malware/*.data.json` | `scripts/generate-indexes.rb` and `scripts/import-mitre.rb` (MITRE software) |
+| MITRE knowledge pages | `_techniques/`, `_tactics/`, `_campaigns/`, `_mitigations/` | `scripts/import-mitre.rb` |
 | Static API data | `_data/generated/*.json` and `api/*.json` wrappers | Generators |
 
 ## Automated import sources
@@ -34,10 +35,11 @@ This project is a static Jekyll knowledge base. Runtime pages and JSON APIs are 
 | `malpedia` | `scripts/import-malpedia.rb` | Malware-family and actor relationship enrichment for existing actors |
 | `apt-groups-operations` | `scripts/import-apt-groups-operations.rb` | Alias, operation, and malware crosswalk enrichment |
 | `aptnotes` | `scripts/import-aptnotes.rb` | Report-index provenance and chronology hints |
+| `mitre-attack` | `scripts/import-mitre.rb` | MITRE ATT&CK STIX groups, techniques, tactics, software, campaigns, and mitigations |
 
 `scripts/import-microsoft-threat-actor-list.rb` follows the snapshot/import/report pattern and is part of the default automated import run. Microsoft publishes the workbook for regular public use, so we treat it as a normal recurring source while still preserving attribution and limiting imports to additive existing-actor enrichment.
 
-`scripts/import-cisa-kev.rb`, `scripts/import-mitre.rb`, `scripts/fetch-news.rb`, `scripts/fetch-misp-references.rb`, and `scripts/scrape-beazley.rb` are not part of the default automated import run. They should either be promoted into the standard runner after their review semantics match the snapshot/import/report pattern, or remain documented as one-off/manual utilities.
+`scripts/import-cisa-kev.rb`, `scripts/fetch-news.rb`, `scripts/fetch-misp-references.rb`, and `scripts/scrape-beazley.rb` are not part of the default automated import run. They should either be promoted into the standard runner after their review semantics match the snapshot/import/report pattern, or remain documented as one-off/manual utilities.
 
 ## Analyst note policy
 

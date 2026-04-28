@@ -149,7 +149,11 @@
   "ioc_types": [],
   "counts": {
     "threat_actors": 1079,
-    "iocs": 0
+    "iocs": 0,
+    "techniques": 0,
+    "tactics": 0,
+    "campaigns_mitre": 0,
+    "mitigations": 0
   },
   "country_counts": {
     "China": 214,

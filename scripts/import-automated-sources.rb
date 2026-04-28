@@ -114,6 +114,15 @@ SOURCES = [
     snapshot_root: 'data/imports/russian-apt-tool-matrix',
     report_name: 'russian-apt-tool-matrix-report.json',
     fetch_limit: false
+  ),
+  Source.new(
+    key: 'mitre-attack',
+    label: 'MITRE ATT&CK',
+    script: 'scripts/import-mitre.rb',
+    snapshot_root: 'data/imports/mitre-attack',
+    report_name: 'mitre-attack-report.json',
+    fetch_args: %w[],
+    fetch_limit: false
   )
 ].freeze
 

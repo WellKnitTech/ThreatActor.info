@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://threatactor.info/schemas/tactic.schema.json",
+  "title": "Generated MITRE tactic page (front matter subset)",
+  "type": "object",
+  "required": ["layout", "title", "mitre_id", "permalink"],
+  "properties": {
+    "layout": { "const": "tactic" },
+    "title": { "type": "string" },
+    "mitre_id": { "type": "string", "pattern": "^TA\\d{4}$" },
+    "permalink": { "type": "string" },
+    "mitre_url": { "type": "string" },
+    "domains": { "type": "array", "items": { "type": "string" } }
+  }
+}

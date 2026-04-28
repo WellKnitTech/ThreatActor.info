@@ -28,6 +28,52 @@ Reviewed name and rename handling lives in `data/imports/ransomlook/mapping_over
 - Use `ruby scripts/evaluate-source-deltas.rb` to enforce update thresholds before publishing large changes.
 - See `docs/data-flows.md` for the source-of-truth map and the analyst-note supersession policy.
 
+## MITRE ATT&CK STIX Importer
+
+`scripts/import-mitre.rb` imports [MITRE ATT&CK](https://attack.mitre.org) STIX 2.1 bundles from [mitre-attack/attack-stix-data](https://github.com/mitre-attack/attack-stix-data).
+
+It uses the same **fetch → plan → import** snapshot workflow as other automated importers. Snapshots are stored under `data/imports/mitre-attack/<YYYY-MM-DD>/` with a `manifest.yml` listing downloaded bundle URLs (Enterprise, Mobile, and ICS by default).
+
+### Commands
+
+Fetch the latest unversioned bundles (or use `--version 19.0` to pin to a specific ATT&CK release file name):
+
+```bash
+ruby scripts/import-mitre.rb fetch --output data/imports/mitre-attack/$(date -I)
+```
+
+Preview:
+
+```bash
+ruby scripts/import-mitre.rb plan --snapshot data/imports/mitre-attack/2026-04-28 --report-json tmp/mitre-attack-report.json
+```
+
+Apply (updates actor YAML, writes collection pages, refreshes references cache):
+
+```bash
+ruby scripts/import-mitre.rb import --snapshot data/imports/mitre-attack/2026-04-28 --report-json tmp/mitre-attack-import.json
+```
+
+After import, regenerate pages and indexes:
+
+```bash
+ruby scripts/generate-pages.rb --force
+ruby scripts/generate-indexes.rb
+ruby scripts/validate-content.rb
+```
+
+### What gets imported
+
+- **Groups** (`intrusion-set`): merged into `_data/actors/*.yml` with `ttps`, `software`, and `campaigns` arrays derived from STIX relationships; provenance in `provenance.mitre`.
+- **First-class Jekyll collections** (markdown under `_techniques/`, `_tactics/`, `_campaigns/`, `_mitigations/`, plus MITRE **software** under `_malware/` with `mitre_id: S####` when matched or created).
+- Revoked/deprecated STIX objects are skipped unless `--include-revoked` is passed.
+
+### Attribution
+
+Per MITRE permission notice used throughout the site:
+
+`© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.`
+
 ## BushidoToken Breach Report Collection Importer
 
 `scripts/import-bushido-breach-reports.rb` adds reviewed breach-report links from the BushidoToken Breach Report Collection to existing actors.
