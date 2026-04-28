@@ -32,6 +32,7 @@ Maze is a ransomware operation known for being the first to implement double ext
 
 ## Malware and Tools
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Credential Theft | Mimikatz, ProcDump |

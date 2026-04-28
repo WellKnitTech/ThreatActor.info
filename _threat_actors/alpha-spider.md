@@ -16,7 +16,24 @@ ALPHA SPIDER is a threat actor known for developing and operating the Alphv rans
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Group Profile, Virtualization | Citrix | NetScaler ADC & Gateway | CVE-2023-4966 |
+| Applications, Group Profile | ConnectWise | ScreenConnect | CVE-2024-1708, CVE-2024-1709 |
+| Group Profile | Linux System Utilities | Polkit pkexec | CVE-2021-4034 |
+| Microsoft Products | MS Server Products | Exchange On-Prem | CVE-2021-31207, CVE-2021-34473, CVE-2021-34523 |
+| Group Profile, Network Edge | Pulse Secure / Ivanti | Ivanti EPM Cloud Services Appliance (CSA) | CVE-2021-44529 |
+| Group Profile, Network Edge | SonicWall | SMA 100 | CVE-2019-7481 |
+| Linux Components | System Utilities | Polkit pkexec | CVE-2021-4034 |
+| Group Profile, Virtualization | VMware | vSphere Client | CVE-2021-21972 |
+| Applications | Veritas | Veritas Backup Exec | CVE-2021-27876 |
+| Applications | Veritas | Veritas Backup Exec | CVE-2021-27877 |
+| Applications | Veritas | Veritas Backup Exec | CVE-2021-27878 |
+| Microsoft Products | Windows | Secondary Logon Service | CVE-2016-0099 |
+| Group Profile | Windows & MS Server Products | Exchange On-Prem | CVE-2021-31207, CVE-2021-34473, CVE-2021-34523 |
+| Group Profile | Windows & MS Server Products | Secondary Logon Service | CVE-2016-0099 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*

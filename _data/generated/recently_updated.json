@@ -1,5 +1,24 @@
 [
   {
+    "name": "Void Blizzard",
+    "aliases": [
+      "LAUNDRY BEAR",
+      "UAC-0190",
+      "Void Blizzard"
+    ],
+    "description": "Void Blizzard’s cyberespionage operations tend to be highly targeted at specific organizations of interest to the Russian government, including in government, defense, transportation, media, non-governmental organizations (NGOs), and healthcare sectors primarily in Europe and North America. The threat actor uses stolen credentials—which are likely procured from commodity infostealer ecosystems—and collects a high volume of email and files from compromised organizations.",
+    "url": "/void-blizzard",
+    "permalink": "/void-blizzard/",
+    "country": "Russia",
+    "sector_focus": [
+
+    ],
+    "risk_level": null,
+    "last_updated": "2026-04-28",
+    "last_activity": null,
+    "ioc_count": 0
+  },
+  {
     "name": "Vanilla Tempest",
     "aliases": [
       "DEV-0832",
@@ -14,6 +33,92 @@
 
     ],
     "risk_level": null,
+    "last_updated": "2026-04-28",
+    "last_activity": null,
+    "ioc_count": 0
+  },
+  {
+    "name": "UTA0355",
+    "aliases": [
+      "UTA0355"
+    ],
+    "description": "UTA0355 is a Russian threat actor that conducts phishing campaigns targeting individuals and organizations associated with Ukraine. The actor initiates contact via email, inviting targets to a video conference, and follows up through Signal or WhatsApp to enhance legitimacy. After establishing communication, UTA0355 prompts victims to log in via a malicious M365 URL, subsequently requesting approval for a 2FA authentication to access email data. Volexity assesses with high confidence that UTA0355 successfully registered devices and downloaded email data from compromised accounts.",
+    "url": "/uta0355",
+    "permalink": "/uta0355/",
+    "country": "Russia",
+    "sector_focus": [
+
+    ],
+    "risk_level": null,
+    "last_updated": "2026-04-28",
+    "last_activity": null,
+    "ioc_count": 0
+  },
+  {
+    "name": "UTA0352",
+    "aliases": [
+      "UTA0352"
+    ],
+    "description": "UTA0352 is a Russian threat actor attributed to phishing campaigns that exploit Microsoft OAuth 2.0 authentication workflows, often impersonating government officials to lure targets into providing sensitive information. The actor has been observed using malicious URLs disguised as legitimate services, such as a Romanian government authentication system. UTA0352 has also targeted Microsoft Teams and employed social engineering tactics via messaging platforms like Signal and WhatsApp. Volexity assesses with medium confidence that UTA0352 is involved in operations themed around Ukraine, targeting individuals and organizations historically associated with Russian threat activities.",
+    "url": "/uta0352",
+    "permalink": "/uta0352/",
+    "country": "Russia",
+    "sector_focus": [
+
+    ],
+    "risk_level": null,
+    "last_updated": "2026-04-28",
+    "last_activity": null,
+    "ioc_count": 0
+  },
+  {
+    "name": "Storm-2603",
+    "aliases": [
+      "Storm-2603"
+    ],
+    "description": "The group Microsoft tracks as Storm-2603 is assessed with medium confidence to be a China-based threat actor. Microsoft has not identified links between Storm-2603 and other known Chinese threat actors. Microsoft tracks this threat actor in association with attempts to steal MachineKeys via the on-premises SharePoint vulnerabilities. Although Microsoft has observed this threat actor deploying Warlock and Lockbit ransomware in the past, Microsoft is currently unable to confidently assess the threat actor’s objectives.  Additional actors may use these exploits to target unpatched on-premises SharePoint systems, further emphasizing the need for organizations to implement mitigations and security updates immediately.",
+    "url": "/storm-2603",
+    "permalink": "/storm-2603/",
+    "country": "China",
+    "sector_focus": [
+
+    ],
+    "risk_level": null,
+    "last_updated": "2026-04-28",
+    "last_activity": null,
+    "ioc_count": 0
+  },
+  {
+    "name": "Sandworm",
+    "aliases": [
+      "Quedagh",
+      "VOODOO BEAR",
+      "TEMP.Noble",
+      "IRON VIKING",
+      "G0034",
+      "ELECTRUM",
+      "TeleBots",
+      "IRIDIUM",
+      "Blue Echidna",
+      "FROZENBARENTS",
+      "UAC-0113",
+      "Seashell Blizzard",
+      "UAC-0082",
+      "APT44",
+      "Sandworm"
+    ],
+    "description": "This threat actor targets industrial control systems, using a tool called Black Energy, associated with electricity and power generation for espionage, denial of service, and data destruction purposes. Some believe that the threat actor is linked to the 2015 compromise of the Ukrainian electrical grid and a distributed denial of service prior to the Russian invasion of Georgia. Believed to be responsible for the 2008 DDoS attacks in Georgia and the 2015 Ukraine power grid outage",
+    "url": "/sandworm",
+    "permalink": "/sandworm/",
+    "country": "Russia",
+    "sector_focus": [
+      "Electric",
+      "Energy",
+      "Industrial",
+      "Private sector",
+      "Government"
+    ],
+    "risk_level": "High",
     "last_updated": "2026-04-28",
     "last_activity": null,
     "ioc_count": 0
@@ -36,6 +141,25 @@
     "risk_level": "High",
     "last_updated": "2026-04-28",
     "last_activity": "2025",
+    "ioc_count": 0
+  },
+  {
+    "name": "Ryuk",
+    "aliases": [
+      "Wizard Spider"
+    ],
+    "description": "Ryuk is a ransomware operation known for targeting large organizations and demanding high ransom payments.",
+    "url": "/ryuk",
+    "permalink": "/ryuk/",
+    "country": "Russia",
+    "sector_focus": [
+      "Healthcare",
+      "Government",
+      "Education"
+    ],
+    "risk_level": "Critical",
+    "last_updated": "2026-04-28",
+    "last_activity": "2021",
     "ioc_count": 0
   },
   {
@@ -116,119 +240,6 @@
     "risk_level": null,
     "last_updated": "2026-04-28",
     "last_activity": null,
-    "ioc_count": 0
-  },
-  {
-    "name": "Play",
-    "aliases": [
-      "Play",
-      "Play Ransomware"
-    ],
-    "description": "Play is a ransomware group that has been active since at least 2022 deploying  Playcrypt ransomware against the business, government, critical infrastructure, healthcare, and media sectors in North America, South America, and Europe. Play actors employ a double-extortion model, encrypting systems after exfiltrating data, and are presumed by security researchers to operate as a closed group.(Citation: CISA Play Ransomware Advisory December 2023)(Citation: Trend Micro Ransomware Spotlight Play July 2023)",
-    "url": "/play",
-    "permalink": "/play/",
-    "country": "Unknown",
-    "sector_focus": [
-      "Healthcare",
-      "Education",
-      "Government",
-      "Technology"
-    ],
-    "risk_level": "High",
-    "last_updated": "2026-04-28",
-    "last_activity": "2025",
-    "ioc_count": 0
-  },
-  {
-    "name": "Nightspire",
-    "aliases": [
-      "Nightspire"
-    ],
-    "description": "Nightspire is an active extortion or ransomware group tracked by RansomLook.",
-    "url": "/nightspire",
-    "permalink": "/nightspire/",
-    "country": null,
-    "sector_focus": [
-
-    ],
-    "risk_level": null,
-    "last_updated": "2026-04-28",
-    "last_activity": null,
-    "ioc_count": 0
-  },
-  {
-    "name": "Medusa",
-    "aliases": [
-      "Medusa Ransomware"
-    ],
-    "description": "Medusa is a long-time presence in the ransomware scene that stepped up its activities in late 2024, pushing past its previous limits.",
-    "url": "/medusa",
-    "permalink": "/medusa/",
-    "country": "Unknown",
-    "sector_focus": [
-      "Healthcare",
-      "Education",
-      "Government",
-      "Technology"
-    ],
-    "risk_level": "High",
-    "last_updated": "2026-04-28",
-    "last_activity": "2025",
-    "ioc_count": 0
-  },
-  {
-    "name": "Maze",
-    "aliases": [
-      "ChaCha"
-    ],
-    "description": "Maze is a ransomware operation known for being the first to implement double extortion tactics.",
-    "url": "/maze",
-    "permalink": "/maze/",
-    "country": "Unknown",
-    "sector_focus": [
-      "Healthcare",
-      "Legal",
-      "Technology"
-    ],
-    "risk_level": "High",
-    "last_updated": "2026-04-28",
-    "last_activity": "2020",
-    "ioc_count": 0
-  },
-  {
-    "name": "Lynx",
-    "aliases": [
-      "Lynx"
-    ],
-    "description": "Lynx is an active ransomware-as-a-service operation tracked by RansomLook.",
-    "url": "/lynx",
-    "permalink": "/lynx/",
-    "country": null,
-    "sector_focus": [
-
-    ],
-    "risk_level": null,
-    "last_updated": "2026-04-28",
-    "last_activity": null,
-    "ioc_count": 0
-  },
-  {
-    "name": "LockBit",
-    "aliases": [
-      "ABCD Ransomware"
-    ],
-    "description": "LockBit is a ransomware-as-a-service operation known for its fast encryption and double extortion tactics.",
-    "url": "/lockbit",
-    "permalink": "/lockbit/",
-    "country": "Russia",
-    "sector_focus": [
-      "Critical Infrastructure",
-      "Healthcare",
-      "Education"
-    ],
-    "risk_level": "Critical",
-    "last_updated": "2026-04-28",
-    "last_activity": "2024",
     "ioc_count": 0
   }
 ]

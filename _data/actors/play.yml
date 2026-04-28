@@ -47,3 +47,67 @@ provenance:
       LOLBAS: ["PsExec"]
       Networking: ["Fast Reverse Proxy Client (FRPC)","Plink"]
       OffSec: ["Cobalt Strike","WinPEAS"]
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "CuratedIntel"
+        url: "https://x.com/CuratedIntel/status/1885379463682109525"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "crowdstrike.com"
+        url: "https://www.crowdstrike.com/en-us/blog/owassrf-exploit-analysis-and-recommendations/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "sophos.com"
+        url: "https://news.sophos.com/en-us/2025/05/27/dragonforce-actors-target-simplehelp-vulnerabilities-to-attack-msp-customers/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "tenable.com"
+        url: "https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "trendmicro.com"
+        url: "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["Vulnerabilities/Applications.md","Vulnerabilities/Microsoft.md","Vulnerabilities/NetworkEdge.md"]
+    source_label: "PLAY"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-04-28T02:11:22Z"
+    vulnerabilities_by_category:
+      Applications:
+        - vendor: "SimpleHelp"
+          product: "SimpleHelp RMM"
+          cves: ["CVE-2024-57727"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a","https://news.sophos.com/en-us/2025/05/27/dragonforce-actors-target-simplehelp-vulnerabilities-to-attack-msp-customers/","https://x.com/CuratedIntel/status/1885379463682109525"]
+          source_file: "Vulnerabilities/Applications.md"
+      Microsoft Products:
+        - vendor: "MS Server Products"
+          product: "Exchange On-Prem"
+          cves: ["CVE-2022-41040","CVE-2022-41082"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "MS Server Products"
+          product: "Exchange On-Prem"
+          cves: ["CVE-2022-41080"]
+          source_links: ["https://www.crowdstrike.com/en-us/blog/owassrf-exploit-analysis-and-recommendations/"]
+          source_file: "Vulnerabilities/Microsoft.md"
+      Network Edge:
+        - vendor: "Fortinet"
+          product: "FortiOS"
+          cves: ["CVE-2018-13379"]
+          source_links: ["https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a","https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+        - vendor: "Fortinet"
+          product: "FortiOS SSL VPN"
+          cves: ["CVE-2020-12812"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a"]
+          source_file: "Vulnerabilities/NetworkEdge.md"

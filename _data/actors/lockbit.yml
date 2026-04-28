@@ -57,3 +57,169 @@ provenance:
       Networking: ["Ligolo","Ngrok","Plink"]
       OffSec: ["Cobalt Strike","Impacket","Koadic","Metasploit","PowerShell Empire","ThunderShell"]
       RMM Tools: ["Action1","AnyDesk","FixMeIt","ScreenConnect","Splashtop","TeamViewer","ZohoAssist"]
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "bleepingcomputer.com"
+        url: "https://www.bleepingcomputer.com/news/security/toyota-confirms-breach-after-medusa-ransomware-threatens-to-leak-data/"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "blog.talosintelligence.com"
+        url: "https://blog.talosintelligence.com/avoslocker-new-arsenal/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "censys.io"
+        url: "https://censys.io/rce-zero-day-in-goanywhere-mft-cve-2023-0669/"
+        source_file: "Vulnerabilities/FileTransferServers.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "doublepulsar.com"
+        url: "https://doublepulsar.com/lockbit-ransomware-group-assemble-strike-team-to-breach-banks-law-firms-and-governments-4220580bfcee"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "microsoft.com"
+        url: "https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "secureworks.com"
+        url: "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "secureworks.com"
+        url: "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "tenable.com"
+        url: "https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2025/02/24/confluence-exploit-leads-to-lockbit-ransomware/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "therecord.media"
+        url: "https://therecord.media/fidelity-national-financial-ransomware-alphv-black-cat"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "trendmicro.com"
+        url: "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "welivesecurity.com"
+        url: "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "twitter.com"
+        url: "https://twitter.com/MsftSecIntel/status/1651346653901725696"
+        date: "26 April 2023"
+        source_file: "GroupProfiles/LockBit.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/LockBit.md","Vulnerabilities/Applications.md","Vulnerabilities/FileTransferServers.md","Vulnerabilities/Microsoft.md","Vulnerabilities/NetworkEdge.md","Vulnerabilities/Virtualization.md"]
+    source_label: "Lock Bit / LockBit"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-04-28T02:11:22Z"
+    vulnerabilities_by_category:
+      Applications:
+        - vendor: "Apache"
+          product: "Log4j"
+          cves: ["CVE-2021-44228"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a","https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker","https://blog.talosintelligence.com/avoslocker-new-arsenal/"]
+          source_file: "Vulnerabilities/Applications.md"
+        - vendor: "Atlassian"
+          product: "Confluence Data Center & Server"
+          cves: ["CVE-2023-22527"]
+          source_links: ["https://thedfirreport.com/2025/02/24/confluence-exploit-leads-to-lockbit-ransomware/"]
+          source_file: "Vulnerabilities/Applications.md"
+      File Transfer Servers:
+        - vendor: "Fortra"
+          product: "GoAnywhere Managed File Transfer"
+          cves: ["CVE-2023-0669"]
+          source_links: ["https://censys.io/rce-zero-day-in-goanywhere-mft-cve-2023-0669/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"]
+          source_file: "Vulnerabilities/FileTransferServers.md"
+      Group Profile:
+        - vendor: "Apache"
+          product: "Log4j"
+          cves: ["CVE-2021-44228"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"]
+          source_file: "GroupProfiles/LockBit.md"
+        - vendor: "Citrix"
+          product: "NetScaler ADC & Gateway"
+          cves: ["CVE-2023-4966"]
+          source_links: ["https://doublepulsar.com/lockbit-ransomware-group-assemble-strike-team-to-breach-banks-law-firms-and-governments-4220580bfcee"]
+          source_file: "GroupProfiles/LockBit.md"
+        - vendor: "F5"
+          product: "iControl REST"
+          cves: ["CVE-2021-22986"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"]
+          source_file: "GroupProfiles/LockBit.md"
+        - vendor: "Fortinet"
+          product: "FortiOS"
+          cves: ["CVE-2018-13379"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"]
+          source_file: "GroupProfiles/LockBit.md"
+        - vendor: "Fortra"
+          product: "GoAnywhere Managed File Transfer"
+          cves: ["CVE-2023-0669"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"]
+          source_file: "GroupProfiles/LockBit.md"
+        - vendor: "Windows"
+          product: "NetLogon"
+          cves: ["CVE-2020-1472"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"]
+          source_file: "GroupProfiles/LockBit.md"
+        - vendor: "Windows"
+          product: "Remote Desktop Services"
+          cves: ["CVE-2019-0708"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"]
+          source_file: "GroupProfiles/LockBit.md"
+      Microsoft Products:
+        - vendor: "Windows"
+          product: "NetLogon"
+          cves: ["CVE-2020-1472"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a","https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware","https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/","https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a","https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "Remote Desktop Services"
+          cves: ["CVE-2019-0708"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"]
+          source_file: "Vulnerabilities/Microsoft.md"
+      Network Edge:
+        - vendor: "F5"
+          product: "iControl REST"
+          cves: ["CVE-2021-22986"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+        - vendor: "Fortinet"
+          product: "FortiOS"
+          cves: ["CVE-2018-13379"]
+          source_links: ["https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a","https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+      Virtualization:
+        - vendor: "Citrix"
+          product: "NetScaler ADC & Gateway"
+          cves: ["CVE-2023-4966"]
+          source_links: ["https://doublepulsar.com/lockbit-ransomware-group-assemble-strike-team-to-breach-banks-law-firms-and-governments-4220580bfcee","https://www.bleepingcomputer.com/news/security/toyota-confirms-breach-after-medusa-ransomware-threatens-to-leak-data/","https://therecord.media/fidelity-national-financial-ransomware-alphv-black-cat","https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware","https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/"]
+          source_file: "Vulnerabilities/Virtualization.md"

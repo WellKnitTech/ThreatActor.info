@@ -80,6 +80,22 @@ SOURCES = [
     snapshot_root: 'data/imports/curated-intel-moveit-transfer',
     report_name: 'curated-intel-moveit-transfer-report.json',
     fetch_limit: false
+  ),
+  Source.new(
+    key: 'ransomware-vulnerability-matrix',
+    label: 'BushidoUK Ransomware Vulnerability Matrix',
+    script: 'scripts/import-ransomware-vulnerability-matrix.rb',
+    snapshot_root: 'data/imports/ransomware-vulnerability-matrix',
+    report_name: 'ransomware-vulnerability-matrix-report.json',
+    fetch_limit: false
+  ),
+  Source.new(
+    key: 'russian-apt-tool-matrix',
+    label: 'BushidoUK Russian APT Tool Matrix',
+    script: 'scripts/import-russian-apt-tool-matrix.rb',
+    snapshot_root: 'data/imports/russian-apt-tool-matrix',
+    report_name: 'russian-apt-tool-matrix-report.json',
+    fetch_limit: false
   )
 ].freeze
 

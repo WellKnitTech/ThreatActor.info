@@ -1,44 +1,46 @@
----
-name: Gamaredon Group
-aliases:
-- ACTINIUM
-- Actinium
-- Aqua Blizzard
-- Armageddon
-- Blue Otso
-- BlueAlpha
-- DEV-0157
-- G0047
-- Gamaredon Group
-- IRON TILDEN
-- Primitive Bear
-- PRIMITIVE BEAR
-- Shuckworm
-- Trident Ursa
-- UAC-0010
-- Winterflounder
-description: |-
-  Gamaredon Group is a suspected Russian cyber espionage group that has targeted military, law enforcement, judiciary, non-profit, and non-governmental organizations in Ukraine since at least 2013. The name Gamaredon Group derives from a misspelling of the word "Armageddon," found in early campaigns.(Citation: Palo Alto Gamaredon Feb 2017)(Citation: TrendMicro Gamaredon April 2020)(Citation: ESET Gamaredon June 2020)(Citation: Symantec Shuckworm January 2022)(Citation: Microsoft Actinium February 2022)
-
-  In November 2021, the Ukrainian government publicly attributed Gamaredon Group to Russia’s Federal Security Service (FSB) Center 18, an assessment later supported by multiple independent cybersecurity researchers. (Citation: Bleepingcomputer Gamardeon FSB November 2021)(Citation: Microsoft Actinium February 2022)
+name: "Gamaredon Group"
+aliases: ["ACTINIUM","Actinium","Aqua Blizzard","Armageddon","Blue Otso","BlueAlpha","DEV-0157","G0047","Gamaredon Group","IRON TILDEN","Primitive Bear","PRIMITIVE BEAR","Shuckworm","Trident Ursa","UAC-0010","Winterflounder"]
+description: "Gamaredon Group is a suspected Russian cyber espionage group that has targeted military, law enforcement, judiciary, non-profit, and non-governmental organizations in Ukraine since at least 2013. The name Gamaredon Group derives from a misspelling of the word \"Armageddon,\" found in early campaigns.(Citation: Palo Alto Gamaredon Feb 2017)(Citation: TrendMicro Gamaredon April 2020)(Citation: ESET Gamaredon June 2020)(Citation: Symantec Shuckworm January 2022)(Citation: Microsoft Actinium February 2022)\n\nIn November 2021, the Ukrainian government publicly attributed Gamaredon Group to Russia’s Federal Security Service (FSB) Center 18, an assessment later supported by multiple independent cybersecurity researchers. (Citation: Bleepingcomputer Gamardeon FSB November 2021)(Citation: Microsoft Actinium February 2022)"
 url: "/apt0047"
-country: Russia
-sector_focus:
-- Government
-targeted_victims:
-- Ukraine
-- Germany
-external_id: G0047
-external_url: https://attack.mitre.org/groups/G0047
-mitre_id: G0047
-mitre_url: https://attack.mitre.org/groups/G0047
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
-  with the permission of The MITRE Corporation."
-malware:
-- Archelaus Beta
+country: "Russia"
+sector_focus: ["Government"]
+targeted_victims: ["Ukraine","Germany"]
+last_updated: "2026-04-28"
+external_id: "G0047"
+external_url: "https://attack.mitre.org/groups/G0047"
+mitre_id: "G0047"
+mitre_url: "https://attack.mitre.org/groups/G0047"
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware: ["Archelaus Beta"]
 provenance:
   mitre:
-    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
-    source_record_id: G0047
-    source_retrieved_at: '2026-04-26T07:05:44Z'
-source: MITRE ATT&CK
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_record_id: "G0047"
+    source_retrieved_at: "2026-04-26T07:05:44Z"
+  russian_apt_tool_matrix:
+    references:
+      - title: "harfanglab.io"
+        url: "https://harfanglab.io/insidethelab/gamaredons-pterolnk-analysis/"
+        date: "16 April 2025"
+        source_file: "Other/ThreatIntelligence.md"
+      - title: "www.welivesecurity.com"
+        url: "https://www.welivesecurity.com/en/eset-research/cyberespionage-gamaredon-way-analysis-toolset-used-spy-ukraine-2022-2023"
+        date: "26 September 2024"
+        source_file: "GroupProfiles/Gamaredon.md"
+      - title: "ssu.gov.ua"
+        url: "https://ssu.gov.ua/uploads/files/DKIB/Technical%20report%20Armagedon.pdf"
+        date: "4 November 2021"
+        source_file: "GroupProfiles/Gamaredon.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/Gamaredon.md","Other/ThreatIntelligence.md","Tools/CredentialTheft.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/RMM-Tools.md"]
+    source_label: "Gamaredon"
+    source_repository: "https://github.com/BushidoUK/Russian-APT-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T02:07:35Z"
+    tools_by_category:
+      Credential Theft: ["Mimikatz"]
+      Exfiltration: ["Rclone","Telegram"]
+      LOLBAS: ["PsExec"]
+      Networking: ["Cloudflared","Ngrok","telegra[.]ph","teletype[.]in","trycloudflare[.]com"]
+      RMM Tools: ["Remote Manipulator System (RMS)","UltraVNC"]
+source: "MITRE ATT&CK"

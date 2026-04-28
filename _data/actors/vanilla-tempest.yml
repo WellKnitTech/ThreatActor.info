@@ -37,3 +37,44 @@ provenance:
       Networking: ["Proxychains"]
       OffSec: ["Cobalt Strike","Impacket","PowerShell Empire","PowerSploit"]
       RMM Tools: ["PowerAdmin"]
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "blog.talosintelligence.com"
+        url: "https://blog.talosintelligence.com/vice-society-ransomware-printnightmare/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "crowdstrike.com"
+        url: "https://www.crowdstrike.com/en-us/blog/magniber-ransomware-caught-using-printnightmare-vulnerability/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "microsoft.com"
+        url: "https://www.microsoft.com/en-us/security/blog/2022/10/25/dev-0832-vice-society-opportunistic-ransomware-campaigns-impacting-us-education-sector/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "securelist.com"
+        url: "https://securelist.com/cuba-ransomware/110533/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "security.com"
+        url: "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"
+        source_file: "Vulnerabilities/Microsoft.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["Vulnerabilities/Microsoft.md"]
+    source_label: "Vice Society"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-04-28T02:11:22Z"
+    vulnerabilities_by_category:
+      Microsoft Products:
+        - vendor: "Windows"
+          product: "CLFS"
+          cves: ["CVE-2022-24521"]
+          source_links: ["https://securelist.com/cuba-ransomware/110533/","https://www.microsoft.com/en-us/security/blog/2022/10/25/dev-0832-vice-society-opportunistic-ransomware-campaigns-impacting-us-education-sector/","https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "Print Spooler"
+          cves: ["CVE-2021-1675","CVE-2021-34527"]
+          source_links: ["https://blog.talosintelligence.com/vice-society-ransomware-printnightmare/","https://www.crowdstrike.com/en-us/blog/magniber-ransomware-caught-using-printnightmare-vulnerability/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware"]
+          source_file: "Vulnerabilities/Microsoft.md"

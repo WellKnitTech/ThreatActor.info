@@ -32,6 +32,7 @@ SafePay is a ransomware group particularly active in Germany, responsible for 24
 
 ## Malware and Tools
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Discovery | Invoke-ShareFinder |

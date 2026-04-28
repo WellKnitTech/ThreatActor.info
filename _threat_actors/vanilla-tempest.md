@@ -16,7 +16,12 @@ Vice Society is a ransomware group that has been active since at least June 2021
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Microsoft Products | Windows | CLFS | CVE-2022-24521 |
+| Microsoft Products | Windows | Print Spooler | CVE-2021-1675, CVE-2021-34527 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
@@ -29,6 +34,7 @@ Vice Society is a ransomware group that has been active since at least June 2021
 - **PowerRAT**
 
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Discovery | Advanced IP Scanner, Advanced Port Scanner |

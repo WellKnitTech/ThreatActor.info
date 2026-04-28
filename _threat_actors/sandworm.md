@@ -43,12 +43,21 @@ This threat actor targets industrial control systems, using a tool called Black 
 - **BlackHole**
 - **PowerRAT**
 
+### Russian APT Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Defense Evasion | SDelete, libprocesshider |
+| Exfiltration | Rclone |
+| LOLBAS | BITSAdmin, BITSadmin, certutil, curl |
+| Networking | Chisel, OpenSSH, Pivotnacci, ReGeorg, Tor |
+| OffSec | Cobalt Strike, Empyre, Impacket, JuicyPotatoNG, Metasploit, Meterpreter, PAS Web Shell, PoshC2, PowerShell Empire, RottenPotatoNG, WSO Web Shell, Weevely Web Shell |
+| RMM Tools | Atera, RemCom, Splashtop |
+
 ## Attribution and Evidence
 **Country of Origin**: Russia
 *Additional attribution information pending cataloguing.*
 
 ## References
-
-[1] [BushidoToken Breach Report Collection - Viasat KA-SAT breach report (February 2022) via news.viasat.com](https://news.viasat.com/blog/corporate/ka-sat-network-cyber-attack-overview)
-   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: Sandworm (RU APT).
+*References pending cataloguing.*
 

@@ -1,0 +1,43 @@
+# Reviewed mappings for the BushidoUK Russian APT Tool Matrix.
+# Treat this source as a secondary Russian APT tradecraft reference; only enrich existing actors.
+match_overrides:
+  berserkbear:
+    - Dragonfly
+  cozybear:
+    - APT29
+  coldriver:
+    - Cold River
+  curlycomrades:
+    - Curly COMrades
+  emberbear:
+    - Ember Bear
+  fancybear:
+    - APT28
+  forestblizzard:
+    - APT28
+  gamaredon:
+    - Gamaredon Group
+  gamaredongroup:
+    - Gamaredon Group
+  laundrybear:
+    - Void Blizzard
+  sandworm:
+    - Sandworm
+  starblizzard:
+    - Cold River
+  turla:
+    - Turla
+  voidblizzard:
+    - Void Blizzard
+  voidblizzardlaundrybear:
+    - Void Blizzard
+  uta0352uta0355:
+    - UTA0352
+    - UTA0355
+excluded_labels:
+  - UAC-0020
+  - UAC-0050
+  - UAC-0180
+  - UAC-0188
+tool_drop_list:
+  - Unknown

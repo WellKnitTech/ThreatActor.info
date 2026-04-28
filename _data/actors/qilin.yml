@@ -72,3 +72,36 @@ provenance:
       Networking: ["Proxychains","RDP","Used SCCM and VMWare ESXi for lateral movement in network","Used SMB, RDP, WMI for lateral movement in network","WMI","lateral movement via DCE-RPC and RDP"]
       OffSec: ["Cobalt Strike","Cobalt Strike - (HTTP/SSL traffic linked to Cobalt Strike, including PowerShell request for sihost64.dll)","Evilginx","Kali Linux","NetExec","SystemBC","Tofsee a modular trojan"]
       RMM Tools: ["NetSupport","ScreenConnect"]
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "blogs.blackberry.com"
+        url: "https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "labs.withsecure.com"
+        url: "https://labs.withsecure.com/publications/fin7-target-veeam-servers"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "news.sophos.com"
+        url: "https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "security.com"
+        url: "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "sophos.com"
+        url: "https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "welivesecurity.com"
+        url: "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/"
+        source_file: "Vulnerabilities/Applications.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["Vulnerabilities/Applications.md"]
+    source_label: "Qilin"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-04-28T02:11:22Z"
+    vulnerabilities_by_category:
+      Applications:
+        - vendor: "Veeam"
+          product: "Backup & Replication"
+          cves: ["CVE-2023-27532"]
+          source_links: ["https://labs.withsecure.com/publications/fin7-target-veeam-servers","https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/","https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/","https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"]
+          source_file: "Vulnerabilities/Applications.md"

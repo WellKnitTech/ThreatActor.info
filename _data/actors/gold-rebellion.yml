@@ -54,3 +54,161 @@ provenance:
       LOLBAS: ["BITSAdmin","PsExec","Quick Assist"]
       OffSec: ["Brute Ratel (BRc4)","Brute Ratel C4","Cobalt Strike","Metasploit","PowerSploit"]
       RMM Tools: ["AnyDesk","Atera","NetSupport","ScreenConnect","Splashtop","Supremo"]
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "bleepingcomputer.com"
+        url: "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-us-hospitals-of-targeted-blackcat-ransomware-attacks/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "blog.talosintelligence.com"
+        url: "https://blog.talosintelligence.com/blackbyte-blends-tried-and-true-tradecraft-with-newly-disclosed-vulnerabilities-to-support-ongoing-attacks/"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "blog.talosintelligence.com"
+        url: "https://blog.talosintelligence.com/vice-society-ransomware-printnightmare/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "crowdstrike.com"
+        url: "https://www.crowdstrike.com/en-us/blog/magniber-ransomware-caught-using-printnightmare-vulnerability/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "microsoft.com"
+        url: "https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "securityonline.info"
+        url: "https://securityonline.info/cve-2024-26169-windows-zero-day-vulnerability-abused-by-black-basta-ransomware/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "sentinelone.com"
+        url: "https://www.sentinelone.com/labs/black-basta-ransomware-attacks-deploy-custom-edr-evasion-tools-tied-to-fin7-threat-actor/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2022/04/04/stolen-images-campaign-ends-in-conti-ransomware/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "trendmicro.com"
+        url: "https://www.trendmicro.com/en_us/research/22/f/black-basta-ransomware-operators-expand-their-attack-arsenal-wit.html"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "trendmicro.com"
+        url: "https://www.trendmicro.com/en_us/research/24/b/threat-actor-groups-including-black-basta-are-exploiting-recent-.html"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "unit42.paloaltonetworks.com"
+        url: "https://unit42.paloaltonetworks.com/repellent-scorpius-cicada3301-ransomware/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "welivesecurity.com"
+        url: "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "www.security.com"
+        url: "https://www.security.com/threat-intelligence/black-basta-ransomware-zero-day"
+        source_file: "GroupProfiles/BlackBasta.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/BlackBasta.md","Vulnerabilities/Applications.md","Vulnerabilities/Microsoft.md","Vulnerabilities/Virtualization.md"]
+    source_label: "Black Basta / BlackBasta"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-04-28T02:11:22Z"
+    vulnerabilities_by_category:
+      Applications:
+        - vendor: "ConnectWise"
+          product: "ScreenConnect"
+          cves: ["CVE-2024-1708","CVE-2024-1709"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://unit42.paloaltonetworks.com/repellent-scorpius-cicada3301-ransomware/","https://www.trendmicro.com/en_us/research/24/b/threat-actor-groups-including-black-basta-are-exploiting-recent-.html","https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-us-hospitals-of-targeted-blackcat-ransomware-attacks/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"]
+          source_file: "Vulnerabilities/Applications.md"
+      Group Profile:
+        - vendor: "ConnectWise"
+          product: "ScreenConnect"
+          cves: ["CVE-2024-1709"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a"]
+          source_file: "GroupProfiles/BlackBasta.md"
+        - vendor: "VMware"
+          product: "ESXi"
+          cves: ["CVE-2024-37085"]
+          source_links: ["https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/"]
+          source_file: "GroupProfiles/BlackBasta.md"
+        - vendor: "Windows"
+          product: "Active Directory"
+          cves: ["CVE-2021-42278","CVE-2021-42287"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a"]
+          source_file: "GroupProfiles/BlackBasta.md"
+        - vendor: "Windows"
+          product: "MSDT"
+          cves: ["CVE-2022-30190"]
+          source_links: ["https://www.sentinelone.com/labs/black-basta-ransomware-attacks-deploy-custom-edr-evasion-tools-tied-to-fin7-threat-actor/","https://www.trendmicro.com/en_us/research/22/f/black-basta-ransomware-operators-expand-their-attack-arsenal-wit.html"]
+          source_file: "GroupProfiles/BlackBasta.md"
+        - vendor: "Windows"
+          product: "NetLogon"
+          cves: ["CVE-2020-1472"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a"]
+          source_file: "GroupProfiles/BlackBasta.md"
+        - vendor: "Windows"
+          product: "Print Spooler"
+          cves: ["CVE-2021-1675","CVE-2021-34527"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a"]
+          source_file: "GroupProfiles/BlackBasta.md"
+        - vendor: "Windows"
+          product: "Windows Error Reporting Service"
+          cves: ["CVE-2024-26169"]
+          source_links: ["https://www.security.com/threat-intelligence/black-basta-ransomware-zero-day"]
+          source_file: "GroupProfiles/BlackBasta.md"
+      Microsoft Products:
+        - vendor: "Windows"
+          product: "Active Directory"
+          cves: ["CVE-2021-42278","CVE-2021-42287"]
+          source_links: ["https://thedfirreport.com/2022/04/04/stolen-images-campaign-ends-in-conti-ransomware/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "MSDT"
+          cves: ["CVE-2022-30190"]
+          source_links: ["https://www.sentinelone.com/labs/black-basta-ransomware-attacks-deploy-custom-edr-evasion-tools-tied-to-fin7-threat-actor/","https://www.trendmicro.com/en_us/research/22/f/black-basta-ransomware-operators-expand-their-attack-arsenal-wit.html"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "NetLogon"
+          cves: ["CVE-2020-1472"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a","https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware","https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/","https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a","https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "Print Spooler"
+          cves: ["CVE-2021-1675","CVE-2021-34527"]
+          source_links: ["https://blog.talosintelligence.com/vice-society-ransomware-printnightmare/","https://www.crowdstrike.com/en-us/blog/magniber-ransomware-caught-using-printnightmare-vulnerability/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "Windows Error Reporting Service"
+          cves: ["CVE-2024-26169"]
+          source_links: ["https://www.security.com/threat-intelligence/black-basta-ransomware-zero-day","https://securityonline.info/cve-2024-26169-windows-zero-day-vulnerability-abused-by-black-basta-ransomware/"]
+          source_file: "Vulnerabilities/Microsoft.md"
+      Virtualization:
+        - vendor: "VMware"
+          product: "ESXi"
+          cves: ["CVE-2024-37085"]
+          source_links: ["https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/","https://blog.talosintelligence.com/blackbyte-blends-tried-and-true-tradecraft-with-newly-disclosed-vulnerabilities-to-support-ongoing-attacks/"]
+          source_file: "Vulnerabilities/Virtualization.md"

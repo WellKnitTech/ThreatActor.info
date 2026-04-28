@@ -1,75 +1,55 @@
----
-name: Sandworm
-aliases:
-- Quedagh
-- VOODOO BEAR
-- TEMP.Noble
-- IRON VIKING
-- G0034
-- ELECTRUM
-- TeleBots
-- IRIDIUM
-- Blue Echidna
-- FROZENBARENTS
-- UAC-0113
-- Seashell Blizzard
-- UAC-0082
-- APT44
-- Sandworm
-description: This threat actor targets industrial control systems, using a tool called
-  Black Energy, associated with electricity and power generation for espionage, denial
-  of service, and data destruction purposes. Some believe that the threat actor is
-  linked to the 2015 compromise of the Ukrainian electrical grid and a distributed
-  denial of service prior to the Russian invasion of Georgia. Believed to be responsible
-  for the 2008 DDoS attacks in Georgia and the 2015 Ukraine power grid outage
+name: "Sandworm"
+aliases: ["Quedagh","VOODOO BEAR","TEMP.Noble","IRON VIKING","G0034","ELECTRUM","TeleBots","IRIDIUM","Blue Echidna","FROZENBARENTS","UAC-0113","Seashell Blizzard","UAC-0082","APT44","Sandworm"]
+description: "This threat actor targets industrial control systems, using a tool called Black Energy, associated with electricity and power generation for espionage, denial of service, and data destruction purposes. Some believe that the threat actor is linked to the 2015 compromise of the Ukrainian electrical grid and a distributed denial of service prior to the Russian invasion of Georgia. Believed to be responsible for the 2008 DDoS attacks in Georgia and the 2015 Ukraine power grid outage"
 url: "/sandworm"
-country: Russia
-sector_focus:
-- Electric
-- Energy
-- Industrial
-- Private sector
-- Government
-targeted_victims:
-- Russia
-- Lithuania
-- Kyrgyzstan
-- Israel
-- Ukraine
-- Belarus
-- Kazakhstan
-- Georgia
-- Poland
-- Azerbaijan
-- Iran
-incident_type: Espionage
-risk_level: High
-last_updated: "2026-04-27"
-malware:
-- BlackEnergy
-- PowerDuke
-- POWERSTATS
-- Power Loader
-- POWERSOURCE
-- BLACKCOFFEE
-- Blackshades
-- BlackNix
-- BlackHole
-- PowerRAT
+country: "Russia"
+sector_focus: ["Electric","Energy","Industrial","Private sector","Government"]
+targeted_victims: ["Russia","Lithuania","Kyrgyzstan","Israel","Ukraine","Belarus","Kazakhstan","Georgia","Poland","Azerbaijan","Iran"]
+incident_type: "Espionage"
+last_updated: "2026-04-28"
+risk_level: "High"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["BlackEnergy","PowerDuke","POWERSTATS","Power Loader","POWERSOURCE","BLACKCOFFEE","Blackshades","BlackNix","BlackHole","PowerRAT"]
 provenance:
   bushido_breach_reports:
-    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
-    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
-    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
-    source_retrieved_at: "2026-04-28T01:40:03Z"
     reports:
       - organization: "Viasat KA-SAT"
         breach_date: "February 2022"
         adversary_label: "Sandworm (RU APT)"
         links: ["https://news.viasat.com/blog/corporate/ka-sat-network-cyber-attack-overview"]
         archived_links: ["https://web.archive.org/web/20230407225107/https://news.viasat.com/blog/corporate/ka-sat-network-cyber-attack-overview"]
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_retrieved_at: "2026-04-28T01:40:03Z"
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: f512de42-f76b-40d2-9923-59e7dbdfec35
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "f512de42-f76b-40d2-9923-59e7dbdfec35"
+    source_retrieved_at: "2026-04-26T05:47:15Z"
+  russian_apt_tool_matrix:
+    references:
+      - title: "www.microsoft.com"
+        url: "https://www.microsoft.com/en-us/security/blog/2025/02/12/the-badpilot-campaign-seashell-blizzard-subgroup-conducts-multiyear-global-access-operation/"
+        date: "12 February 2025"
+        source_file: "GroupProfiles/Sandworm.md"
+      - title: "services.google.com"
+        url: "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf"
+        date: "17 April 2024"
+        source_file: "GroupProfiles/Sandworm.md"
+      - title: "cert.gov.ua"
+        url: "https://cert.gov.ua/article/6278706"
+        date: "19 April 2024"
+        source_file: "GroupProfiles/Sandworm.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/Sandworm.md","Other/ThreatIntelligence.md","Tools/DefenseEvasion.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
+    source_label: "Sandworm"
+    source_repository: "https://github.com/BushidoUK/Russian-APT-Tool-Matrix"
+    source_retrieved_at: "2026-04-28T02:07:35Z"
+    tools_by_category:
+      Defense Evasion: ["SDelete","libprocesshider"]
+      Exfiltration: ["Rclone"]
+      LOLBAS: ["BITSAdmin","BITSadmin","certutil","curl"]
+      Networking: ["Chisel","OpenSSH","Pivotnacci","ReGeorg","Tor"]
+      OffSec: ["Cobalt Strike","Empyre","Impacket","JuicyPotatoNG","Metasploit","Meterpreter","PAS Web Shell","PoshC2","PowerShell Empire","RottenPotatoNG","WSO Web Shell","Weevely Web Shell"]
+      RMM Tools: ["Atera","RemCom","Splashtop"]

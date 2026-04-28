@@ -25,7 +25,22 @@ RansomHub is a dominant ransomware-as-a-service operation that emerged in 2024 a
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Applications, Group Profile | Apache | ActiveMQ | CVE-2023-46604 |
+| Applications, Group Profile | Atlassian | Confluence Data Center & Server | CVE-2023-22515 |
+| Group Profile, Virtualization | Citrix | NetScaler ADC & Gateway | CVE-2023-3519 |
+| Group Profile, Network Edge | F5 | BIG-IP | CVE-2023-46747 |
+| Group Profile, Network Edge | Fortinet | FortiClientEMS | CVE-2023-48788 |
+| Group Profile, Network Edge | Fortinet | FortiOS SSL-VPN & FortiProxy | CVE-2023-27997 |
+| Microsoft Products | MS Server Products | SMBv1 | CVE-2017-0144 |
+| Applications | Veeam | Backup & Replication | CVE-2023-27532 |
+| Group Profile, Microsoft Products | Windows | BITS | CVE-2020-0787 |
+| Microsoft Products | Windows | CLFS | CVE-2022-24521 |
+| Group Profile, Microsoft Products | Windows | NetLogon | CVE-2020-1472 |
+| Group Profile | Windows | SMBv1 | CVE-2017-0144 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
@@ -34,6 +49,7 @@ RansomHub is a dominant ransomware-as-a-service operation that emerged in 2024 a
 - **Xploit**
 
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Credential Theft | Mimikatz |

@@ -25,13 +25,21 @@ Medusa is a long-time presence in the ransomware scene that stepped up its activ
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Virtualization | Citrix | NetScaler ADC & Gateway | CVE-2023-4966 |
+| Applications | ConnectWise | ScreenConnect | CVE-2024-1708, CVE-2024-1709 |
+| Network Edge | Fortinet | FortiClientEMS | CVE-2023-48788 |
+| Applications | SimpleHelp | SimpleHelp RMM | CVE-2024-57727 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Credential Theft | Invoke-TheHash, Mimikatz |

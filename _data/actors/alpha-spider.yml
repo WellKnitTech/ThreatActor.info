@@ -1,23 +1,192 @@
----
-name: Alpha Spider
-aliases:
-- ALPHV Ransomware Group
-- Alpha Spider
-description: ALPHA SPIDER is a threat actor known for developing and operating the
-  Alphv ransomware as a service. They have been observed using novel offensive techniques,
-  such as exploiting software vulnerabilities and leveraging legitimate administration
-  tools for malicious activities. ALPHA SPIDER affiliates have demonstrated persistence
-  in exfiltrating data and have shown the ability to bypass security measures like
-  DNS-based filtering and multifactor authentication. Despite lacking specific operational
-  security measures, defenders have opportunities to detect and respond to ALPHA SPIDER's
-  operations effectively.
+name: "Alpha Spider"
+aliases: ["ALPHV Ransomware Group","Alpha Spider"]
+description: "ALPHA SPIDER is a threat actor known for developing and operating the Alphv ransomware as a service. They have been observed using novel offensive techniques, such as exploiting software vulnerabilities and leveraging legitimate administration tools for malicious activities. ALPHA SPIDER affiliates have demonstrated persistence in exfiltrating data and have shown the ability to bypass security measures like DNS-based filtering and multifactor authentication. Despite lacking specific operational security measures, defenders have opportunities to detect and respond to ALPHA SPIDER's operations effectively."
 url: "/alpha-spider"
-malware:
-- Offence
-- Xploit
+last_updated: "2026-04-28"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware: ["Offence","Xploit"]
 provenance:
   misp_galaxy:
-    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-    source_record_id: 6149f3b6-510d-4e45-bf88-cd25c7193702
-    source_retrieved_at: '2026-04-26T05:47:15Z'
-source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "6149f3b6-510d-4e45-bf88-cd25c7193702"
+    source_retrieved_at: "2026-04-26T05:47:15Z"
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "blackberry.com"
+        url: "https://www.blackberry.com/us/en/solutions/endpoint-security/ransomware-protection/blackcat"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "bleepingcomputer.com"
+        url: "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-us-hospitals-of-targeted-blackcat-ransomware-attacks/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "bleepingcomputer.com"
+        url: "https://www.bleepingcomputer.com/news/security/hellokitty-ransomware-is-targeting-vulnerable-sonicwall-devices/"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "bleepingcomputer.com"
+        url: "https://www.bleepingcomputer.com/news/security/toyota-confirms-breach-after-medusa-ransomware-threatens-to-leak-data/"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "cloud.google.com"
+        url: "https://cloud.google.com/blog/topics/threat-intelligence/alphv-ransomware-backup/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "crowdstrike.com"
+        url: "https://www.crowdstrike.com/en-us/blog/anatomy-of-alpha-spider-ransomware/"
+        source_file: "Vulnerabilities/Linux.md"
+      - title: "doublepulsar.com"
+        url: "https://doublepulsar.com/lockbit-ransomware-group-assemble-strike-team-to-breach-banks-law-firms-and-governments-4220580bfcee"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "kaspersky.com"
+        url: "https://web.archive.org/web/20231004015829/https://go.kaspersky.com/rs/802-IJN-240/images/Common-TTPs-of-the-modern-ransomware_low-res.pdf"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "microsoft.com"
+        url: "https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "qualys.com"
+        url: "https://blog.qualys.com/vulnerabilities-threat-research/2024/10/02/threat-brief-understanding-akira-ransomware"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "securelist.com"
+        url: "https://securelist.com/cuba-ransomware/110533/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "secureworks.com"
+        url: "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "sophos.com"
+        url: "https://news.sophos.com/en-us/2021/09/03/conti-affiliates-use-proxyshell-exchange-exploit-in-ransomware-attacks/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "therecord.media"
+        url: "https://therecord.media/fidelity-national-financial-ransomware-alphv-black-cat"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "trendmicro.com"
+        url: "https://www.trendmicro.com/en_gb/research/22/d/an-investigation-of-the-blackcat-ransomware.html"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "trendmicro.com"
+        url: "https://www.trendmicro.com/en_us/research/24/b/threat-actor-groups-including-black-basta-are-exploiting-recent-.html"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "trendmicro.com"
+        url: "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-avoslocker"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "unit42.paloaltonetworks.com"
+        url: "https://unit42.paloaltonetworks.com/repellent-scorpius-cicada3301-ransomware/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "go.kaspersky.com"
+        url: "https://go.kaspersky.com/rs/802-IJN-240/images/Common-TTPs-of-the-modern-ransomware_low-res.pdf"
+        date: "23 June 2022"
+        source_file: "GroupProfiles/BlackCat.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/BlackCat.md","Vulnerabilities/Applications.md","Vulnerabilities/Linux.md","Vulnerabilities/Microsoft.md","Vulnerabilities/NetworkEdge.md","Vulnerabilities/Virtualization.md"]
+    source_label: "ALPHV / Black Cat / BlackCat"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-04-28T02:11:22Z"
+    vulnerabilities_by_category:
+      Applications:
+        - vendor: "ConnectWise"
+          product: "ScreenConnect"
+          cves: ["CVE-2024-1708","CVE-2024-1709"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://unit42.paloaltonetworks.com/repellent-scorpius-cicada3301-ransomware/","https://www.trendmicro.com/en_us/research/24/b/threat-actor-groups-including-black-basta-are-exploiting-recent-.html","https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-us-hospitals-of-targeted-blackcat-ransomware-attacks/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"]
+          source_file: "Vulnerabilities/Applications.md"
+        - vendor: "Veritas"
+          product: "Veritas Backup Exec"
+          cves: ["CVE-2021-27876"]
+          source_links: ["https://cloud.google.com/blog/topics/threat-intelligence/alphv-ransomware-backup/"]
+          source_file: "Vulnerabilities/Applications.md"
+        - vendor: "Veritas"
+          product: "Veritas Backup Exec"
+          cves: ["CVE-2021-27877"]
+          source_links: ["https://cloud.google.com/blog/topics/threat-intelligence/alphv-ransomware-backup/"]
+          source_file: "Vulnerabilities/Applications.md"
+        - vendor: "Veritas"
+          product: "Veritas Backup Exec"
+          cves: ["CVE-2021-27878"]
+          source_links: ["https://cloud.google.com/blog/topics/threat-intelligence/alphv-ransomware-backup/"]
+          source_file: "Vulnerabilities/Applications.md"
+      Group Profile:
+        - vendor: "Citrix"
+          product: "NetScaler ADC & Gateway"
+          cves: ["CVE-2023-4966"]
+          source_links: ["https://therecord.media/fidelity-national-financial-ransomware-alphv-black-cat"]
+          source_file: "GroupProfiles/BlackCat.md"
+        - vendor: "ConnectWise"
+          product: "ScreenConnect"
+          cves: ["CVE-2024-1708","CVE-2024-1709"]
+          source_links: ["https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-us-hospitals-of-targeted-blackcat-ransomware-attacks/"]
+          source_file: "GroupProfiles/BlackCat.md"
+        - vendor: "Linux System Utilities"
+          product: "Polkit pkexec"
+          cves: ["CVE-2021-4034"]
+          source_links: ["https://www.crowdstrike.com/en-us/blog/anatomy-of-alpha-spider-ransomware/"]
+          source_file: "GroupProfiles/BlackCat.md"
+        - vendor: "Pulse Secure / Ivanti"
+          product: "Ivanti EPM Cloud Services Appliance (CSA)"
+          cves: ["CVE-2021-44529"]
+          source_links: ["https://www.crowdstrike.com/en-us/blog/anatomy-of-alpha-spider-ransomware/"]
+          source_file: "GroupProfiles/BlackCat.md"
+        - vendor: "SonicWall"
+          product: "SMA 100"
+          cves: ["CVE-2019-7481"]
+          source_links: ["https://www.blackberry.com/us/en/solutions/endpoint-security/ransomware-protection/blackcat"]
+          source_file: "GroupProfiles/BlackCat.md"
+        - vendor: "VMware"
+          product: "vSphere Client"
+          cves: ["CVE-2021-21972"]
+          source_links: ["https://www.crowdstrike.com/en-us/blog/anatomy-of-alpha-spider-ransomware/"]
+          source_file: "GroupProfiles/BlackCat.md"
+        - vendor: "Windows & MS Server Products"
+          product: "Exchange On-Prem"
+          cves: ["CVE-2021-31207","CVE-2021-34473","CVE-2021-34523"]
+          source_links: ["https://www.trendmicro.com/en_gb/research/22/d/an-investigation-of-the-blackcat-ransomware.html"]
+          source_file: "GroupProfiles/BlackCat.md"
+        - vendor: "Windows & MS Server Products"
+          product: "Secondary Logon Service"
+          cves: ["CVE-2016-0099"]
+          source_links: ["https://web.archive.org/web/20231004015829/https://go.kaspersky.com/rs/802-IJN-240/images/Common-TTPs-of-the-modern-ransomware_low-res.pdf"]
+          source_file: "GroupProfiles/BlackCat.md"
+      Linux Components:
+        - vendor: "System Utilities"
+          product: "Polkit pkexec"
+          cves: ["CVE-2021-4034"]
+          source_links: ["https://www.crowdstrike.com/en-us/blog/anatomy-of-alpha-spider-ransomware/"]
+          source_file: "Vulnerabilities/Linux.md"
+      Microsoft Products:
+        - vendor: "MS Server Products"
+          product: "Exchange On-Prem"
+          cves: ["CVE-2021-31207","CVE-2021-34473","CVE-2021-34523"]
+          source_links: ["https://news.sophos.com/en-us/2021/09/03/conti-affiliates-use-proxyshell-exchange-exploit-in-ransomware-attacks/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a","https://securelist.com/cuba-ransomware/110533/","https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-avoslocker","https://www.trendmicro.com/en_gb/research/22/d/an-investigation-of-the-blackcat-ransomware.html","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "Secondary Logon Service"
+          cves: ["CVE-2016-0099"]
+          source_links: ["https://web.archive.org/web/20231004015829/https://go.kaspersky.com/rs/802-IJN-240/images/Common-TTPs-of-the-modern-ransomware_low-res.pdf"]
+          source_file: "Vulnerabilities/Microsoft.md"
+      Network Edge:
+        - vendor: "Pulse Secure / Ivanti"
+          product: "Ivanti EPM Cloud Services Appliance (CSA)"
+          cves: ["CVE-2021-44529"]
+          source_links: ["https://www.crowdstrike.com/en-us/blog/anatomy-of-alpha-spider-ransomware/"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+        - vendor: "SonicWall"
+          product: "SMA 100"
+          cves: ["CVE-2019-7481"]
+          source_links: ["https://www.bleepingcomputer.com/news/security/hellokitty-ransomware-is-targeting-vulnerable-sonicwall-devices/","https://www.blackberry.com/us/en/solutions/endpoint-security/ransomware-protection/blackcat"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+      Virtualization:
+        - vendor: "Citrix"
+          product: "NetScaler ADC & Gateway"
+          cves: ["CVE-2023-4966"]
+          source_links: ["https://doublepulsar.com/lockbit-ransomware-group-assemble-strike-team-to-breach-banks-law-firms-and-governments-4220580bfcee","https://www.bleepingcomputer.com/news/security/toyota-confirms-breach-after-medusa-ransomware-threatens-to-leak-data/","https://therecord.media/fidelity-national-financial-ransomware-alphv-black-cat","https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware","https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/"]
+          source_file: "Vulnerabilities/Virtualization.md"
+        - vendor: "VMware"
+          product: "vSphere Client"
+          cves: ["CVE-2021-21972"]
+          source_links: ["https://www.crowdstrike.com/en-us/blog/anatomy-of-alpha-spider-ransomware/","https://blog.qualys.com/vulnerabilities-threat-research/2024/10/02/threat-brief-understanding-akira-ransomware"]
+          source_file: "Vulnerabilities/Virtualization.md"

@@ -3,6 +3,7 @@ aliases: ["Fox Kitten","Lemon Sandstorm","Parisite","PARISITE","Pioneer Kitten",
 description: "Fox Kitten is threat actor with a suspected nexus to the Iranian government that has been active since at least 2017 against entities in the Middle East, North Africa, Europe, Australia, and North America. Fox Kitten has targeted multiple industrial verticals including oil and gas, technology, government, defense, healthcare, manufacturing, and engineering.(Citation: ClearkSky Fox Kitten February 2020)(Citation: CrowdStrike PIONEER KITTEN August 2020)(Citation: Dragos PARISITE )(Citation: ClearSky Pay2Kitten December 2020)"
 url: "/apt0117"
 country: "Iran"
+last_updated: "2026-04-28"
 external_id: "G0117"
 external_url: "https://attack.mitre.org/groups/G0117"
 mitre_id: "G0117"
@@ -13,4 +14,115 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0117"
     source_retrieved_at: "2026-04-26T07:05:44Z"
+  ransomware_vulnerability_matrix:
+    actor_roles: ["state_sponsored_ransomware"]
+    references:
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "orangecyberdefense.com"
+        url: "https://www.orangecyberdefense.com/global/blog/cert-news/meet-nailaolocker-a-ransomware-distributed-in-europe-by-shadowpad-and-plugx-backdoors"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "sentinelone.com"
+        url: "https://www.sentinelone.com/anthology/revil/"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "tenable.com"
+        url: "https://www.tenable.com/blog/cve-2019-11510-critical-pulse-connect-secure-vulnerability-used-in-sodinokibi-ransomware?utm_source=cyber_exposure_alert&utm_medium=tenable_blog&utm_campaign=pulse_connect_secure_zero_day"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/PioneerKitten.md","Vulnerabilities/NetworkEdge.md","Vulnerabilities/Virtualization.md"]
+    source_label: "Pioneer Kitten"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-04-28T02:11:22Z"
+    vulnerabilities_by_category:
+      Group Profile:
+        - vendor: "Check Point"
+          product: "Security Gateway"
+          cves: ["CVE-2024-24919"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"]
+          source_file: "GroupProfiles/PioneerKitten.md"
+        - vendor: "Citrix"
+          product: "NetScaler ADC & Gateway"
+          cves: ["CVE-2023-3519"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"]
+          source_file: "GroupProfiles/PioneerKitten.md"
+        - vendor: "Citrix"
+          product: "NetScaler ADC & Gateway & SD-WAN"
+          cves: ["CVE-2019-19781"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a"]
+          source_file: "GroupProfiles/PioneerKitten.md"
+        - vendor: "F5"
+          product: "BIG-IP"
+          cves: ["CVE-2022-1388"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"]
+          source_file: "GroupProfiles/PioneerKitten.md"
+        - vendor: "Palo Alto Networks"
+          product: "PAN-OS Firewall"
+          cves: ["CVE-2024-3400"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"]
+          source_file: "GroupProfiles/PioneerKitten.md"
+        - vendor: "Pulse Secure / Ivanti"
+          product: "Pulse Connect Secure"
+          cves: ["CVE-2019-11510"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a"]
+          source_file: "GroupProfiles/PioneerKitten.md"
+        - vendor: "Pulse Secure / Ivanti"
+          product: "Pulse Connect Secure"
+          cves: ["CVE-2024-21887"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"]
+          source_file: "GroupProfiles/PioneerKitten.md"
+        - vendor: "Pulse Secure / Ivanti"
+          product: "Pulse Connect Secure & Pulse Policy Secure"
+          cves: ["CVE-2019-11539"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a"]
+          source_file: "GroupProfiles/PioneerKitten.md"
+      Network Edge:
+        - vendor: "Check Point"
+          product: "Security Gateway"
+          cves: ["CVE-2024-24919"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a","https://www.orangecyberdefense.com/global/blog/cert-news/meet-nailaolocker-a-ransomware-distributed-in-europe-by-shadowpad-and-plugx-backdoors"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+        - vendor: "F5"
+          product: "BIG-IP"
+          cves: ["CVE-2022-1388"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+        - vendor: "Palo Alto Networks"
+          product: "PAN-OS Firewall"
+          cves: ["CVE-2024-3400"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+        - vendor: "Pulse Secure / Ivanti"
+          product: "Pulse Connect Secure"
+          cves: ["CVE-2019-11510"]
+          source_links: ["https://www.tenable.com/blog/cve-2019-11510-critical-pulse-connect-secure-vulnerability-used-in-sodinokibi-ransomware?utm_source=cyber_exposure_alert&utm_medium=tenable_blog&utm_campaign=pulse_connect_secure_zero_day","https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+        - vendor: "Pulse Secure / Ivanti"
+          product: "Pulse Connect Secure"
+          cves: ["CVE-2024-21887"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+        - vendor: "Pulse Secure / Ivanti"
+          product: "Pulse Connect Secure & Pulse Policy Secure"
+          cves: ["CVE-2019-11539"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a","https://www.sentinelone.com/anthology/revil/"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+      Virtualization:
+        - vendor: "Citrix"
+          product: "NetScaler ADC & Gateway"
+          cves: ["CVE-2023-3519"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"]
+          source_file: "Vulnerabilities/Virtualization.md"
+        - vendor: "Citrix"
+          product: "NetScaler ADC & Gateway & SD-WAN"
+          cves: ["CVE-2019-19781"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a","https://www.sentinelone.com/anthology/revil/"]
+          source_file: "Vulnerabilities/Virtualization.md"
 source: "MITRE ATT&CK"

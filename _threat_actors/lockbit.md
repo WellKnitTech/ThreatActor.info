@@ -25,13 +25,25 @@ LockBit is a ransomware-as-a-service operation known for its fast encryption and
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Applications, Group Profile | Apache | Log4j | CVE-2021-44228 |
+| Applications | Atlassian | Confluence Data Center & Server | CVE-2023-22527 |
+| Group Profile, Virtualization | Citrix | NetScaler ADC & Gateway | CVE-2023-4966 |
+| Group Profile, Network Edge | F5 | iControl REST | CVE-2021-22986 |
+| Group Profile, Network Edge | Fortinet | FortiOS | CVE-2018-13379 |
+| File Transfer Servers, Group Profile | Fortra | GoAnywhere Managed File Transfer | CVE-2023-0669 |
+| Group Profile, Microsoft Products | Windows | NetLogon | CVE-2020-1472 |
+| Group Profile, Microsoft Products | Windows | Remote Desktop Services | CVE-2019-0708 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Credential Theft | Gosecretsdump, LaZagne, LostMyPassword, Mimikatz, NirSoft ExtPassword, PasswordFox, ProcDump, Veeam-Get-Creds |

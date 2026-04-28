@@ -103,13 +103,25 @@ Curated Intelligence MOVEit Transfer Tracking tracks 74 public events for the 20
 | 2023-07-19 | Victim | CL0P created a dedicated domain to publish the data they claim they stole from the PwC MOVEit server | [CL0P Data Leak Site](https://github.com/curated-intel/MOVEit-Transfer/blob/main/Images/PwC%20Leak%20Domain.png) |
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| File Transfer Servers, Group Profile | Accellion | Accellion File Transfer Appliance | CVE-2021-27101, CVE-2021-27102, CVE-2021-27103, CVE-2021-27104 |
+| File Transfer Servers, Group Profile | Cleo | Cleo VLTrader, Harmony, LexiCom | CVE-2024-55956 |
+| File Transfer Servers, Group Profile | Fortra | GoAnywhere Managed File Transfer | CVE-2023-0669 |
+| Applications, Group Profile | Oracle | E-Business | CVE-2025-61882 |
+| Group Profile | PaperCut | PaperCut Application Server | CVE-2023-27350, CVE-2023-27351 |
+| File Transfer Servers, Group Profile | Progress Software | MOVEit | CVE-2023-34362 |
+| File Transfer Servers, Group Profile | SolarWinds | SolarWinds Serv-U FTP | CVE-2021-35211 |
+| Applications | SysAid | SysAid On-Prem | CVE-2023-47246 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | OffSec | Cobalt Strike, PowerShell Empire, TinyMet |

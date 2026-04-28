@@ -28,6 +28,7 @@ Karakurt actors have employed a variety of tactics, techniques, and procedures (
 
 ## Malware and Tools
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Credential Theft | Mimikatz |
