@@ -4,6 +4,7 @@ require 'json'
 require 'yaml'
 require 'fileutils'
 require 'set'
+require 'time'
 require_relative 'actor_store'
 
 class ThreatActorIndexGenerator
