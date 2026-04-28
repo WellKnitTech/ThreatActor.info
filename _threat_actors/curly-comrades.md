@@ -30,6 +30,7 @@ Curly COMrades is a threat actor identified by Amazon Threat Intelligence and Bi
 - **Windows Remote Desktop**
 
 ### Russian APT Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Credential Theft | Mimikatz, ProcDump, TrickDump |

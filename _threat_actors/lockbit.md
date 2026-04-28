@@ -32,6 +32,7 @@ LockBit is a ransomware-as-a-service operation known for its fast encryption and
 
 ## Malware and Tools
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Credential Theft | Gosecretsdump, LaZagne, LostMyPassword, Mimikatz, NirSoft ExtPassword, PasswordFox, ProcDump, Veeam-Get-Creds |

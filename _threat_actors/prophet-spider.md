@@ -23,6 +23,7 @@ PROPHET SPIDER is an eCrime actor, active since at least May 2017, that primaril
 
 ## Malware and Tools
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Credential Theft | Mimikatz |

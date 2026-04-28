@@ -34,6 +34,7 @@ RansomHub is a dominant ransomware-as-a-service operation that emerged in 2024 a
 - **Xploit**
 
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Credential Theft | Mimikatz |

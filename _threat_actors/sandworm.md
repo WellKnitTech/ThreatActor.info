@@ -44,6 +44,7 @@ This threat actor targets industrial control systems, using a tool called Black 
 - **PowerRAT**
 
 ### Russian APT Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Defense Evasion | SDelete, libprocesshider |

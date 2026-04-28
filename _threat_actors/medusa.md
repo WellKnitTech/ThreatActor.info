@@ -32,6 +32,7 @@ Medusa is a long-time presence in the ransomware scene that stepped up its activ
 
 ## Malware and Tools
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Credential Theft | Invoke-TheHash, Mimikatz |

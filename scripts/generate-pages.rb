@@ -339,6 +339,7 @@ def build_body(actor)
     sections << "" if mal_list && mal_list.any?
     matrix_observations.sort.each do |label, matrix_tools|
       sections << "### #{label}"
+      sections << ""
       sections << "| Category | Observed tools |"
       sections << "|---|---|"
       matrix_tools.sort.each do |category, tools|
