@@ -25,7 +25,14 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Network Edge | Fortinet | FortiOS | CVE-2018-13379 |
+| Network Edge | Fortinet | FortiOS SSL VPN | CVE-2020-12812 |
+| Microsoft Products | MS Server Products | Exchange On-Prem | CVE-2022-41040, CVE-2022-41082 |
+| Microsoft Products | MS Server Products | Exchange On-Prem | CVE-2022-41080 |
+| Applications | SimpleHelp | SimpleHelp RMM | CVE-2024-57727 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*

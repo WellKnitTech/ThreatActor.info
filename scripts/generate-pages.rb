@@ -199,6 +199,43 @@ def ransomware_tool_matrix_tools(actor)
   end
 end
 
+def ransomware_vulnerability_matrix_observations(actor)
+  provenance = actor['provenance']
+  return {} unless provenance.is_a?(Hash)
+
+  matrix = provenance['ransomware_vulnerability_matrix']
+  return {} unless matrix.is_a?(Hash)
+
+  vulnerabilities_by_category = matrix['vulnerabilities_by_category']
+  return {} unless vulnerabilities_by_category.is_a?(Hash)
+
+  vulnerabilities_by_category.each_with_object({}) do |(category, observations), memo|
+    normalized_observations = Array(observations).filter_map do |entry|
+      next unless entry.is_a?(Hash)
+
+      cves = Array(entry['cves']).map(&:to_s).map(&:strip).reject(&:empty?).uniq
+      next if cves.empty?
+
+      {
+        'vendor' => entry['vendor'].to_s.strip,
+        'product' => entry['product'].to_s.strip,
+        'cves' => cves
+      }
+    end
+    memo[category.to_s] = normalized_observations unless normalized_observations.empty?
+  end
+end
+
+def ransomware_vulnerability_matrix_rows(actor)
+  ransomware_vulnerability_matrix_observations(actor).each_with_object({}) do |(category, observations), memo|
+    observations.each do |entry|
+      key = [entry['vendor'], entry['product'], entry['cves'].join(', ')]
+      memo[key] ||= entry.merge('categories' => [])
+      memo[key]['categories'] << category unless memo[key]['categories'].include?(category)
+    end
+  end.values.sort_by { |entry| [entry['vendor'], entry['product'], entry['cves'].join(', ')] }
+end
+
 # Build page body from YAML data
 def build_body(actor)
   sections = []
@@ -257,6 +294,7 @@ def build_body(actor)
   
   # TTPs
   sections << "## Tactics, Techniques, and Procedures (TTPs)"
+  vulnerability_rows = ransomware_vulnerability_matrix_rows(actor)
   if actor['ttps'] && actor['ttps'].any?
     actor['ttps'].each do |ttp|
       # Handle both object format (with keys) and string format (e.g., "T1566 - Phishing")
@@ -270,8 +308,18 @@ def build_body(actor)
         sections << "- **#{ttp}**"
       end
     end
-  else
+  elsif vulnerability_rows.empty?
     sections << "*Information pending cataloguing.*"
+  end
+
+  if vulnerability_rows.any?
+    sections << "" if actor['ttps'] && actor['ttps'].any?
+    sections << "### Ransomware Vulnerability Matrix observations"
+    sections << "| Category | Vendor | Product | CVEs |"
+    sections << "|---|---|---|---|"
+    vulnerability_rows.each do |entry|
+      sections << "| #{entry['categories'].sort.join(', ')} | #{entry['vendor']} | #{entry['product']} | #{entry['cves'].join(', ')} |"
+    end
   end
   sections << ""
   

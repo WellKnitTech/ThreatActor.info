@@ -66,4 +66,7 @@ data/imports/bushido-breach-reports/*
 !data/imports/ransomware-tool-matrix/
 data/imports/ransomware-tool-matrix/*
 !data/imports/ransomware-tool-matrix/mapping_overrides.yml
+!data/imports/ransomware-vulnerability-matrix/
+data/imports/ransomware-vulnerability-matrix/*
+!data/imports/ransomware-vulnerability-matrix/mapping_overrides.yml
 vendor/

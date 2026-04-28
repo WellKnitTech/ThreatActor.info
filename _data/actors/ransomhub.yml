@@ -65,3 +65,186 @@ provenance:
       Networking: ["Cloudflared","Stowaway","ngrok"]
       OffSec: ["Cobalt Strike","CrackMapExec","Impacket","Kerbrute","Metasploit","NetExec (nxc)","Sliver"]
       RMM Tools: ["AnyDesk","Atera","Atera Agent","N-Able","ScreenConnect","Splashtop","TightVNC"]
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "blogs.blackberry.com"
+        url: "https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "labs.withsecure.com"
+        url: "https://labs.withsecure.com/publications/fin7-target-veeam-servers"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "microsoft.com"
+        url: "https://www.microsoft.com/en-us/security/blog/2022/10/25/dev-0832-vice-society-opportunistic-ransomware-campaigns-impacting-us-education-sector/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "news.sophos.com"
+        url: "https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "securelist.com"
+        url: "https://securelist.com/cuba-ransomware/110533/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "security.com"
+        url: "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "sentinelone.com"
+        url: "https://www.sentinelone.com/blog/eternalblue-nsa-developed-exploit-just-wont-die/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "sophos.com"
+        url: "https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "welivesecurity.com"
+        url: "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/"
+        source_file: "Vulnerabilities/Applications.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/RansomHub.md","Vulnerabilities/Applications.md","Vulnerabilities/Microsoft.md","Vulnerabilities/NetworkEdge.md","Vulnerabilities/Virtualization.md"]
+    source_label: "Ransom Hub / RansomHub"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-04-28T02:11:22Z"
+    vulnerabilities_by_category:
+      Applications:
+        - vendor: "Apache"
+          product: "ActiveMQ"
+          cves: ["CVE-2023-46604"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"]
+          source_file: "Vulnerabilities/Applications.md"
+        - vendor: "Atlassian"
+          product: "Confluence Data Center & Server"
+          cves: ["CVE-2023-22515"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"]
+          source_file: "Vulnerabilities/Applications.md"
+        - vendor: "Veeam"
+          product: "Backup & Replication"
+          cves: ["CVE-2023-27532"]
+          source_links: ["https://labs.withsecure.com/publications/fin7-target-veeam-servers","https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/","https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/","https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"]
+          source_file: "Vulnerabilities/Applications.md"
+      Group Profile:
+        - vendor: "Apache"
+          product: "ActiveMQ"
+          cves: ["CVE-2023-46604"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"]
+          source_file: "GroupProfiles/RansomHub.md"
+        - vendor: "Atlassian"
+          product: "Confluence Data Center & Server"
+          cves: ["CVE-2023-22515"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"]
+          source_file: "GroupProfiles/RansomHub.md"
+        - vendor: "Citrix"
+          product: "NetScaler ADC & Gateway"
+          cves: ["CVE-2023-3519"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"]
+          source_file: "GroupProfiles/RansomHub.md"
+        - vendor: "F5"
+          product: "BIG-IP"
+          cves: ["CVE-2023-46747"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"]
+          source_file: "GroupProfiles/RansomHub.md"
+        - vendor: "Fortinet"
+          product: "FortiClientEMS"
+          cves: ["CVE-2023-48788"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"]
+          source_file: "GroupProfiles/RansomHub.md"
+        - vendor: "Fortinet"
+          product: "FortiOS SSL-VPN & FortiProxy"
+          cves: ["CVE-2023-27997"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"]
+          source_file: "GroupProfiles/RansomHub.md"
+        - vendor: "Windows"
+          product: "BITS"
+          cves: ["CVE-2020-0787"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"]
+          source_file: "GroupProfiles/RansomHub.md"
+        - vendor: "Windows"
+          product: "NetLogon"
+          cves: ["CVE-2020-1472"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"]
+          source_file: "GroupProfiles/RansomHub.md"
+        - vendor: "Windows"
+          product: "SMBv1"
+          cves: ["CVE-2017-0144"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"]
+          source_file: "GroupProfiles/RansomHub.md"
+      Microsoft Products:
+        - vendor: "MS Server Products"
+          product: "SMBv1"
+          cves: ["CVE-2017-0144"]
+          source_links: ["https://www.sentinelone.com/blog/eternalblue-nsa-developed-exploit-just-wont-die/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "BITS"
+          cves: ["CVE-2020-0787"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "CLFS"
+          cves: ["CVE-2022-24521"]
+          source_links: ["https://securelist.com/cuba-ransomware/110533/","https://www.microsoft.com/en-us/security/blog/2022/10/25/dev-0832-vice-society-opportunistic-ransomware-campaigns-impacting-us-education-sector/","https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "NetLogon"
+          cves: ["CVE-2020-1472"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a","https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware","https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/","https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a","https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"]
+          source_file: "Vulnerabilities/Microsoft.md"
+      Network Edge:
+        - vendor: "F5"
+          product: "BIG-IP"
+          cves: ["CVE-2023-46747"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+        - vendor: "Fortinet"
+          product: "FortiClientEMS"
+          cves: ["CVE-2023-48788"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+        - vendor: "Fortinet"
+          product: "FortiOS SSL-VPN & FortiProxy"
+          cves: ["CVE-2023-27997"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+      Virtualization:
+        - vendor: "Citrix"
+          product: "NetScaler ADC & Gateway"
+          cves: ["CVE-2023-3519"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"]
+          source_file: "Vulnerabilities/Virtualization.md"

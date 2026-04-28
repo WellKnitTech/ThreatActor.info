@@ -942,6 +942,344 @@
             "TeamViewer"
           ]
         }
+      },
+      "ransomware_vulnerability_matrix": {
+        "references": [
+          {
+            "title": "@SophosXOps",
+            "url": "https://infosec.exchange/@SophosXOps/113284564225476186",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "arcticwolf.com",
+            "url": "https://arcticwolf.com/resources/blog/arctic-wolf-labs-observes-increased-fog-and-akira-ransomware-activity-linked-to-sonicwall-ssl-vpn/",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "arcticwolf.com",
+            "url": "https://arcticwolf.com/resources/blog/arctic-wolf-observes-akira-ransomware-campaign-targeting-sonicwall-sslvpn-accounts/",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "blog.talosintelligence.com",
+            "url": "https://blog.talosintelligence.com/akira-ransomware-continues-to-evolve/",
+            "source_file": "GroupProfiles/Akira.md"
+          },
+          {
+            "title": "blog.talosintelligence.com",
+            "url": "https://blog.talosintelligence.com/blackbyte-blends-tried-and-true-tradecraft-with-newly-disclosed-vulnerabilities-to-support-ongoing-attacks/",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "blogs.blackberry.com",
+            "url": "https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "cisco.com",
+            "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ravpn-auth-8LyfCkeC#fs",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "crowdstrike.com",
+            "url": "https://www.crowdstrike.com/en-us/blog/anatomy-of-alpha-spider-ransomware/",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "labs.withsecure.com",
+            "url": "https://labs.withsecure.com/publications/fin7-target-veeam-servers",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "news.sophos.com",
+            "url": "https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "qualys.com",
+            "url": "https://blog.qualys.com/vulnerabilities-threat-research/2024/10/02/threat-brief-understanding-akira-ransomware",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "security.com",
+            "url": "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "sophos.com",
+            "url": "https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "stairwell.com",
+            "url": "https://stairwell.com/resources/akira-pulling-on-the-chains-of-ransomware/",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "welivesecurity.com",
+            "url": "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+            "source_file": "Vulnerabilities/Applications.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/Akira.md",
+          "Vulnerabilities/Applications.md",
+          "Vulnerabilities/NetworkEdge.md",
+          "Vulnerabilities/Virtualization.md"
+        ],
+        "source_label": "Akira",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Applications": [
+            {
+              "vendor": "Veeam",
+              "product": "Backup & Replication",
+              "cves": [
+                "CVE-2023-27532"
+              ],
+              "source_links": [
+                "https://labs.withsecure.com/publications/fin7-target-veeam-servers",
+                "https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america",
+                "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+                "https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/",
+                "https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/",
+                "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            },
+            {
+              "vendor": "Veeam",
+              "product": "Backup & Replication",
+              "cves": [
+                "CVE-2024-40711"
+              ],
+              "source_links": [
+                "https://infosec.exchange/@SophosXOps/113284564225476186"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            }
+          ],
+          "Group Profile": [
+            {
+              "vendor": "Cisco",
+              "product": "ASA & FTD",
+              "cves": [
+                "CVE-2020-3259"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a"
+              ],
+              "source_file": "GroupProfiles/Akira.md"
+            },
+            {
+              "vendor": "Cisco",
+              "product": "ASA & FTD",
+              "cves": [
+                "CVE-2023-20263"
+              ],
+              "source_links": [
+                "https://blog.talosintelligence.com/akira-ransomware-continues-to-evolve/"
+              ],
+              "source_file": "GroupProfiles/Akira.md"
+            },
+            {
+              "vendor": "Cisco",
+              "product": "ASA & FTD",
+              "cves": [
+                "CVE-2023-20269"
+              ],
+              "source_links": [
+                "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ravpn-auth-8LyfCkeC#fs"
+              ],
+              "source_file": "GroupProfiles/Akira.md"
+            },
+            {
+              "vendor": "Fortinet",
+              "product": "FortiClient",
+              "cves": [
+                "CVE-2023-48788"
+              ],
+              "source_links": [
+                "https://blog.talosintelligence.com/akira-ransomware-continues-to-evolve/"
+              ],
+              "source_file": "GroupProfiles/Akira.md"
+            },
+            {
+              "vendor": "Fortinet",
+              "product": "FortiOS",
+              "cves": [
+                "CVE-2019-6693"
+              ],
+              "source_links": [
+                "https://stairwell.com/resources/akira-pulling-on-the-chains-of-ransomware/"
+              ],
+              "source_file": "GroupProfiles/Akira.md"
+            },
+            {
+              "vendor": "Fortinet",
+              "product": "FortiOS",
+              "cves": [
+                "CVE-2022-40684"
+              ],
+              "source_links": [
+                "https://stairwell.com/resources/akira-pulling-on-the-chains-of-ransomware/"
+              ],
+              "source_file": "GroupProfiles/Akira.md"
+            },
+            {
+              "vendor": "SonicWall",
+              "product": "SonicOS SSL-VPN",
+              "cves": [
+                "CVE-2024-40766"
+              ],
+              "source_links": [
+                "https://arcticwolf.com/resources/blog/arctic-wolf-observes-akira-ransomware-campaign-targeting-sonicwall-sslvpn-accounts/"
+              ],
+              "source_file": "GroupProfiles/Akira.md"
+            },
+            {
+              "vendor": "VMware",
+              "product": "ESXi",
+              "cves": [
+                "CVE-2024-37085"
+              ],
+              "source_links": [
+                "https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/"
+              ],
+              "source_file": "GroupProfiles/Akira.md"
+            },
+            {
+              "vendor": "VMware",
+              "product": "vSphere Client",
+              "cves": [
+                "CVE-2021-21972"
+              ],
+              "source_links": [
+                "https://blog.qualys.com/vulnerabilities-threat-research/2024/10/02/threat-brief-understanding-akira-ransomware"
+              ],
+              "source_file": "GroupProfiles/Akira.md"
+            },
+            {
+              "vendor": "Veeam",
+              "product": "Backup & Replication",
+              "cves": [
+                "CVE-2023-27532"
+              ],
+              "source_links": [
+                "https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/"
+              ],
+              "source_file": "GroupProfiles/Akira.md"
+            },
+            {
+              "vendor": "Veeam",
+              "product": "Backup & Replication",
+              "cves": [
+                "CVE-2024-40711"
+              ],
+              "source_links": [
+                "https://infosec.exchange/@SophosXOps/113284564225476186"
+              ],
+              "source_file": "GroupProfiles/Akira.md"
+            }
+          ],
+          "Network Edge": [
+            {
+              "vendor": "Cisco",
+              "product": "ASA & FTD",
+              "cves": [
+                "CVE-2020-3259"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            },
+            {
+              "vendor": "Cisco",
+              "product": "ASA & FTD",
+              "cves": [
+                "CVE-2023-20269"
+              ],
+              "source_links": [
+                "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ravpn-auth-8LyfCkeC#fs"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            },
+            {
+              "vendor": "Fortinet",
+              "product": "FortiOS",
+              "cves": [
+                "CVE-2019-6693"
+              ],
+              "source_links": [
+                "https://stairwell.com/resources/akira-pulling-on-the-chains-of-ransomware/"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            },
+            {
+              "vendor": "Fortinet",
+              "product": "FortiOS",
+              "cves": [
+                "CVE-2022-40684"
+              ],
+              "source_links": [
+                "https://stairwell.com/resources/akira-pulling-on-the-chains-of-ransomware/"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            },
+            {
+              "vendor": "SonicWall",
+              "product": "SonicOS SSL-VPN",
+              "cves": [
+                "CVE-2024-40766"
+              ],
+              "source_links": [
+                "https://arcticwolf.com/resources/blog/arctic-wolf-observes-akira-ransomware-campaign-targeting-sonicwall-sslvpn-accounts/",
+                "https://arcticwolf.com/resources/blog/arctic-wolf-labs-observes-increased-fog-and-akira-ransomware-activity-linked-to-sonicwall-ssl-vpn/"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            }
+          ],
+          "Virtualization": [
+            {
+              "vendor": "VMware",
+              "product": "ESXi",
+              "cves": [
+                "CVE-2024-37085"
+              ],
+              "source_links": [
+                "https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/",
+                "https://blog.talosintelligence.com/blackbyte-blends-tried-and-true-tradecraft-with-newly-disclosed-vulnerabilities-to-support-ongoing-attacks/"
+              ],
+              "source_file": "Vulnerabilities/Virtualization.md"
+            },
+            {
+              "vendor": "VMware",
+              "product": "vSphere Client",
+              "cves": [
+                "CVE-2021-21972"
+              ],
+              "source_links": [
+                "https://www.crowdstrike.com/en-us/blog/anatomy-of-alpha-spider-ransomware/",
+                "https://blog.qualys.com/vulnerabilities-threat-research/2024/10/02/threat-brief-understanding-akira-ransomware"
+              ],
+              "source_file": "Vulnerabilities/Virtualization.md"
+            }
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/akira.md",
@@ -1087,7 +1425,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
@@ -1099,6 +1437,383 @@
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "6149f3b6-510d-4e45-bf88-cd25c7193702",
         "source_retrieved_at": "2026-04-26T05:47:15Z"
+      },
+      "ransomware_vulnerability_matrix": {
+        "references": [
+          {
+            "title": "blackberry.com",
+            "url": "https://www.blackberry.com/us/en/solutions/endpoint-security/ransomware-protection/blackcat",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "bleepingcomputer.com",
+            "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-us-hospitals-of-targeted-blackcat-ransomware-attacks/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "bleepingcomputer.com",
+            "url": "https://www.bleepingcomputer.com/news/security/hellokitty-ransomware-is-targeting-vulnerable-sonicwall-devices/",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "bleepingcomputer.com",
+            "url": "https://www.bleepingcomputer.com/news/security/toyota-confirms-breach-after-medusa-ransomware-threatens-to-leak-data/",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "cloud.google.com",
+            "url": "https://cloud.google.com/blog/topics/threat-intelligence/alphv-ransomware-backup/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "crowdstrike.com",
+            "url": "https://www.crowdstrike.com/en-us/blog/anatomy-of-alpha-spider-ransomware/",
+            "source_file": "Vulnerabilities/Linux.md"
+          },
+          {
+            "title": "doublepulsar.com",
+            "url": "https://doublepulsar.com/lockbit-ransomware-group-assemble-strike-team-to-breach-banks-law-firms-and-governments-4220580bfcee",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "kaspersky.com",
+            "url": "https://web.archive.org/web/20231004015829/https://go.kaspersky.com/rs/802-IJN-240/images/Common-TTPs-of-the-modern-ransomware_low-res.pdf",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "qualys.com",
+            "url": "https://blog.qualys.com/vulnerabilities-threat-research/2024/10/02/threat-brief-understanding-akira-ransomware",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "securelist.com",
+            "url": "https://securelist.com/cuba-ransomware/110533/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "secureworks.com",
+            "url": "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "sophos.com",
+            "url": "https://news.sophos.com/en-us/2021/09/03/conti-affiliates-use-proxyshell-exchange-exploit-in-ransomware-attacks/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "therecord.media",
+            "url": "https://therecord.media/fidelity-national-financial-ransomware-alphv-black-cat",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "trendmicro.com",
+            "url": "https://www.trendmicro.com/en_gb/research/22/d/an-investigation-of-the-blackcat-ransomware.html",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "trendmicro.com",
+            "url": "https://www.trendmicro.com/en_us/research/24/b/threat-actor-groups-including-black-basta-are-exploiting-recent-.html",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "trendmicro.com",
+            "url": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-avoslocker",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "unit42.paloaltonetworks.com",
+            "url": "https://unit42.paloaltonetworks.com/repellent-scorpius-cicada3301-ransomware/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "go.kaspersky.com",
+            "url": "https://go.kaspersky.com/rs/802-IJN-240/images/Common-TTPs-of-the-modern-ransomware_low-res.pdf",
+            "date": "23 June 2022",
+            "source_file": "GroupProfiles/BlackCat.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/BlackCat.md",
+          "Vulnerabilities/Applications.md",
+          "Vulnerabilities/Linux.md",
+          "Vulnerabilities/Microsoft.md",
+          "Vulnerabilities/NetworkEdge.md",
+          "Vulnerabilities/Virtualization.md"
+        ],
+        "source_label": "ALPHV / Black Cat / BlackCat",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Applications": [
+            {
+              "vendor": "ConnectWise",
+              "product": "ScreenConnect",
+              "cves": [
+                "CVE-2024-1708",
+                "CVE-2024-1709"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+                "https://unit42.paloaltonetworks.com/repellent-scorpius-cicada3301-ransomware/",
+                "https://www.trendmicro.com/en_us/research/24/b/threat-actor-groups-including-black-basta-are-exploiting-recent-.html",
+                "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-us-hospitals-of-targeted-blackcat-ransomware-attacks/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            },
+            {
+              "vendor": "Veritas",
+              "product": "Veritas Backup Exec",
+              "cves": [
+                "CVE-2021-27876"
+              ],
+              "source_links": [
+                "https://cloud.google.com/blog/topics/threat-intelligence/alphv-ransomware-backup/"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            },
+            {
+              "vendor": "Veritas",
+              "product": "Veritas Backup Exec",
+              "cves": [
+                "CVE-2021-27877"
+              ],
+              "source_links": [
+                "https://cloud.google.com/blog/topics/threat-intelligence/alphv-ransomware-backup/"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            },
+            {
+              "vendor": "Veritas",
+              "product": "Veritas Backup Exec",
+              "cves": [
+                "CVE-2021-27878"
+              ],
+              "source_links": [
+                "https://cloud.google.com/blog/topics/threat-intelligence/alphv-ransomware-backup/"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            }
+          ],
+          "Group Profile": [
+            {
+              "vendor": "Citrix",
+              "product": "NetScaler ADC & Gateway",
+              "cves": [
+                "CVE-2023-4966"
+              ],
+              "source_links": [
+                "https://therecord.media/fidelity-national-financial-ransomware-alphv-black-cat"
+              ],
+              "source_file": "GroupProfiles/BlackCat.md"
+            },
+            {
+              "vendor": "ConnectWise",
+              "product": "ScreenConnect",
+              "cves": [
+                "CVE-2024-1708",
+                "CVE-2024-1709"
+              ],
+              "source_links": [
+                "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-us-hospitals-of-targeted-blackcat-ransomware-attacks/"
+              ],
+              "source_file": "GroupProfiles/BlackCat.md"
+            },
+            {
+              "vendor": "Linux System Utilities",
+              "product": "Polkit pkexec",
+              "cves": [
+                "CVE-2021-4034"
+              ],
+              "source_links": [
+                "https://www.crowdstrike.com/en-us/blog/anatomy-of-alpha-spider-ransomware/"
+              ],
+              "source_file": "GroupProfiles/BlackCat.md"
+            },
+            {
+              "vendor": "Pulse Secure / Ivanti",
+              "product": "Ivanti EPM Cloud Services Appliance (CSA)",
+              "cves": [
+                "CVE-2021-44529"
+              ],
+              "source_links": [
+                "https://www.crowdstrike.com/en-us/blog/anatomy-of-alpha-spider-ransomware/"
+              ],
+              "source_file": "GroupProfiles/BlackCat.md"
+            },
+            {
+              "vendor": "SonicWall",
+              "product": "SMA 100",
+              "cves": [
+                "CVE-2019-7481"
+              ],
+              "source_links": [
+                "https://www.blackberry.com/us/en/solutions/endpoint-security/ransomware-protection/blackcat"
+              ],
+              "source_file": "GroupProfiles/BlackCat.md"
+            },
+            {
+              "vendor": "VMware",
+              "product": "vSphere Client",
+              "cves": [
+                "CVE-2021-21972"
+              ],
+              "source_links": [
+                "https://www.crowdstrike.com/en-us/blog/anatomy-of-alpha-spider-ransomware/"
+              ],
+              "source_file": "GroupProfiles/BlackCat.md"
+            },
+            {
+              "vendor": "Windows & MS Server Products",
+              "product": "Exchange On-Prem",
+              "cves": [
+                "CVE-2021-31207",
+                "CVE-2021-34473",
+                "CVE-2021-34523"
+              ],
+              "source_links": [
+                "https://www.trendmicro.com/en_gb/research/22/d/an-investigation-of-the-blackcat-ransomware.html"
+              ],
+              "source_file": "GroupProfiles/BlackCat.md"
+            },
+            {
+              "vendor": "Windows & MS Server Products",
+              "product": "Secondary Logon Service",
+              "cves": [
+                "CVE-2016-0099"
+              ],
+              "source_links": [
+                "https://web.archive.org/web/20231004015829/https://go.kaspersky.com/rs/802-IJN-240/images/Common-TTPs-of-the-modern-ransomware_low-res.pdf"
+              ],
+              "source_file": "GroupProfiles/BlackCat.md"
+            }
+          ],
+          "Linux Components": [
+            {
+              "vendor": "System Utilities",
+              "product": "Polkit pkexec",
+              "cves": [
+                "CVE-2021-4034"
+              ],
+              "source_links": [
+                "https://www.crowdstrike.com/en-us/blog/anatomy-of-alpha-spider-ransomware/"
+              ],
+              "source_file": "Vulnerabilities/Linux.md"
+            }
+          ],
+          "Microsoft Products": [
+            {
+              "vendor": "MS Server Products",
+              "product": "Exchange On-Prem",
+              "cves": [
+                "CVE-2021-31207",
+                "CVE-2021-34473",
+                "CVE-2021-34523"
+              ],
+              "source_links": [
+                "https://news.sophos.com/en-us/2021/09/03/conti-affiliates-use-proxyshell-exchange-exploit-in-ransomware-attacks/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a",
+                "https://securelist.com/cuba-ransomware/110533/",
+                "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-avoslocker",
+                "https://www.trendmicro.com/en_gb/research/22/d/an-investigation-of-the-blackcat-ransomware.html",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "Secondary Logon Service",
+              "cves": [
+                "CVE-2016-0099"
+              ],
+              "source_links": [
+                "https://web.archive.org/web/20231004015829/https://go.kaspersky.com/rs/802-IJN-240/images/Common-TTPs-of-the-modern-ransomware_low-res.pdf"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            }
+          ],
+          "Network Edge": [
+            {
+              "vendor": "Pulse Secure / Ivanti",
+              "product": "Ivanti EPM Cloud Services Appliance (CSA)",
+              "cves": [
+                "CVE-2021-44529"
+              ],
+              "source_links": [
+                "https://www.crowdstrike.com/en-us/blog/anatomy-of-alpha-spider-ransomware/"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            },
+            {
+              "vendor": "SonicWall",
+              "product": "SMA 100",
+              "cves": [
+                "CVE-2019-7481"
+              ],
+              "source_links": [
+                "https://www.bleepingcomputer.com/news/security/hellokitty-ransomware-is-targeting-vulnerable-sonicwall-devices/",
+                "https://www.blackberry.com/us/en/solutions/endpoint-security/ransomware-protection/blackcat"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            }
+          ],
+          "Virtualization": [
+            {
+              "vendor": "Citrix",
+              "product": "NetScaler ADC & Gateway",
+              "cves": [
+                "CVE-2023-4966"
+              ],
+              "source_links": [
+                "https://doublepulsar.com/lockbit-ransomware-group-assemble-strike-team-to-breach-banks-law-firms-and-governments-4220580bfcee",
+                "https://www.bleepingcomputer.com/news/security/toyota-confirms-breach-after-medusa-ransomware-threatens-to-leak-data/",
+                "https://therecord.media/fidelity-national-financial-ransomware-alphv-black-cat",
+                "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware",
+                "https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/"
+              ],
+              "source_file": "Vulnerabilities/Virtualization.md"
+            },
+            {
+              "vendor": "VMware",
+              "product": "vSphere Client",
+              "cves": [
+                "CVE-2021-21972"
+              ],
+              "source_links": [
+                "https://www.crowdstrike.com/en-us/blog/anatomy-of-alpha-spider-ransomware/",
+                "https://blog.qualys.com/vulnerabilities-threat-research/2024/10/02/threat-brief-understanding-akira-ransomware"
+              ],
+              "source_file": "Vulnerabilities/Virtualization.md"
+            }
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/alpha-spider.md",
@@ -11267,7 +11982,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.",
@@ -11279,6 +11994,243 @@
         "source_dataset_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
         "source_record_id": "G0117",
         "source_retrieved_at": "2026-04-26T07:05:44Z"
+      },
+      "ransomware_vulnerability_matrix": {
+        "actor_roles": [
+          "state_sponsored_ransomware"
+        ],
+        "references": [
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "orangecyberdefense.com",
+            "url": "https://www.orangecyberdefense.com/global/blog/cert-news/meet-nailaolocker-a-ransomware-distributed-in-europe-by-shadowpad-and-plugx-backdoors",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "sentinelone.com",
+            "url": "https://www.sentinelone.com/anthology/revil/",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "tenable.com",
+            "url": "https://www.tenable.com/blog/cve-2019-11510-critical-pulse-connect-secure-vulnerability-used-in-sodinokibi-ransomware?utm_source=cyber_exposure_alert&utm_medium=tenable_blog&utm_campaign=pulse_connect_secure_zero_day",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/PioneerKitten.md",
+          "Vulnerabilities/NetworkEdge.md",
+          "Vulnerabilities/Virtualization.md"
+        ],
+        "source_label": "Pioneer Kitten",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Group Profile": [
+            {
+              "vendor": "Check Point",
+              "product": "Security Gateway",
+              "cves": [
+                "CVE-2024-24919"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"
+              ],
+              "source_file": "GroupProfiles/PioneerKitten.md"
+            },
+            {
+              "vendor": "Citrix",
+              "product": "NetScaler ADC & Gateway",
+              "cves": [
+                "CVE-2023-3519"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"
+              ],
+              "source_file": "GroupProfiles/PioneerKitten.md"
+            },
+            {
+              "vendor": "Citrix",
+              "product": "NetScaler ADC & Gateway & SD-WAN",
+              "cves": [
+                "CVE-2019-19781"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a"
+              ],
+              "source_file": "GroupProfiles/PioneerKitten.md"
+            },
+            {
+              "vendor": "F5",
+              "product": "BIG-IP",
+              "cves": [
+                "CVE-2022-1388"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"
+              ],
+              "source_file": "GroupProfiles/PioneerKitten.md"
+            },
+            {
+              "vendor": "Palo Alto Networks",
+              "product": "PAN-OS Firewall",
+              "cves": [
+                "CVE-2024-3400"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"
+              ],
+              "source_file": "GroupProfiles/PioneerKitten.md"
+            },
+            {
+              "vendor": "Pulse Secure / Ivanti",
+              "product": "Pulse Connect Secure",
+              "cves": [
+                "CVE-2019-11510"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a"
+              ],
+              "source_file": "GroupProfiles/PioneerKitten.md"
+            },
+            {
+              "vendor": "Pulse Secure / Ivanti",
+              "product": "Pulse Connect Secure",
+              "cves": [
+                "CVE-2024-21887"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"
+              ],
+              "source_file": "GroupProfiles/PioneerKitten.md"
+            },
+            {
+              "vendor": "Pulse Secure / Ivanti",
+              "product": "Pulse Connect Secure & Pulse Policy Secure",
+              "cves": [
+                "CVE-2019-11539"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a"
+              ],
+              "source_file": "GroupProfiles/PioneerKitten.md"
+            }
+          ],
+          "Network Edge": [
+            {
+              "vendor": "Check Point",
+              "product": "Security Gateway",
+              "cves": [
+                "CVE-2024-24919"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a",
+                "https://www.orangecyberdefense.com/global/blog/cert-news/meet-nailaolocker-a-ransomware-distributed-in-europe-by-shadowpad-and-plugx-backdoors"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            },
+            {
+              "vendor": "F5",
+              "product": "BIG-IP",
+              "cves": [
+                "CVE-2022-1388"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            },
+            {
+              "vendor": "Palo Alto Networks",
+              "product": "PAN-OS Firewall",
+              "cves": [
+                "CVE-2024-3400"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            },
+            {
+              "vendor": "Pulse Secure / Ivanti",
+              "product": "Pulse Connect Secure",
+              "cves": [
+                "CVE-2019-11510"
+              ],
+              "source_links": [
+                "https://www.tenable.com/blog/cve-2019-11510-critical-pulse-connect-secure-vulnerability-used-in-sodinokibi-ransomware?utm_source=cyber_exposure_alert&utm_medium=tenable_blog&utm_campaign=pulse_connect_secure_zero_day",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            },
+            {
+              "vendor": "Pulse Secure / Ivanti",
+              "product": "Pulse Connect Secure",
+              "cves": [
+                "CVE-2024-21887"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            },
+            {
+              "vendor": "Pulse Secure / Ivanti",
+              "product": "Pulse Connect Secure & Pulse Policy Secure",
+              "cves": [
+                "CVE-2019-11539"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a",
+                "https://www.sentinelone.com/anthology/revil/"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            }
+          ],
+          "Virtualization": [
+            {
+              "vendor": "Citrix",
+              "product": "NetScaler ADC & Gateway",
+              "cves": [
+                "CVE-2023-3519"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+              ],
+              "source_file": "Vulnerabilities/Virtualization.md"
+            },
+            {
+              "vendor": "Citrix",
+              "product": "NetScaler ADC & Gateway & SD-WAN",
+              "cves": [
+                "CVE-2019-19781"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a",
+                "https://www.sentinelone.com/anthology/revil/"
+              ],
+              "source_file": "Vulnerabilities/Virtualization.md"
+            }
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/apt0117.md",
@@ -16144,6 +17096,62 @@
             "AnyDesk"
           ]
         }
+      },
+      "ransomware_vulnerability_matrix": {
+        "references": [
+          {
+            "title": "bleepingcomputer.com",
+            "url": "https://www.bleepingcomputer.com/news/security/toyota-confirms-breach-after-medusa-ransomware-threatens-to-leak-data/",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "doublepulsar.com",
+            "url": "https://doublepulsar.com/lockbit-ransomware-group-assemble-strike-team-to-breach-banks-law-firms-and-governments-4220580bfcee",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "secureworks.com",
+            "url": "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "therecord.media",
+            "url": "https://therecord.media/fidelity-national-financial-ransomware-alphv-black-cat",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Vulnerabilities/Virtualization.md"
+        ],
+        "source_label": "INC Ransom",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Virtualization": [
+            {
+              "vendor": "Citrix",
+              "product": "NetScaler ADC & Gateway",
+              "cves": [
+                "CVE-2023-4966"
+              ],
+              "source_links": [
+                "https://doublepulsar.com/lockbit-ransomware-group-assemble-strike-team-to-breach-banks-law-firms-and-governments-4220580bfcee",
+                "https://www.bleepingcomputer.com/news/security/toyota-confirms-breach-after-medusa-ransomware-threatens-to-leak-data/",
+                "https://therecord.media/fidelity-national-financial-ransomware-alphv-black-cat",
+                "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware",
+                "https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/"
+              ],
+              "source_file": "Vulnerabilities/Virtualization.md"
+            }
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/apt1032.md",
@@ -17050,6 +18058,44 @@
             "AnyDesk"
           ]
         }
+      },
+      "ransomware_vulnerability_matrix": {
+        "references": [
+          {
+            "title": "blog.talosintelligence.com",
+            "url": "https://blog.talosintelligence.com/blackbyte-blends-tried-and-true-tradecraft-with-newly-disclosed-vulnerabilities-to-support-ongoing-attacks/",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Vulnerabilities/Virtualization.md"
+        ],
+        "source_label": "BlackByte",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Virtualization": [
+            {
+              "vendor": "VMware",
+              "product": "ESXi",
+              "cves": [
+                "CVE-2024-37085"
+              ],
+              "source_links": [
+                "https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/",
+                "https://blog.talosintelligence.com/blackbyte-blends-tried-and-true-tradecraft-with-newly-disclosed-vulnerabilities-to-support-ongoing-attacks/"
+              ],
+              "source_file": "Vulnerabilities/Virtualization.md"
+            }
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/apt1043.md",
@@ -17887,6 +18933,91 @@
             "AnyDesk",
             "Level.io",
             "NinjaOne"
+          ]
+        }
+      },
+      "ransomware_vulnerability_matrix": {
+        "actor_roles": [
+          "ransomware_affiliate"
+        ],
+        "references": [
+          {
+            "title": "bleepingcomputer.com",
+            "url": "https://www.bleepingcomputer.com/news/security/toyota-confirms-breach-after-medusa-ransomware-threatens-to-leak-data/",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "doublepulsar.com",
+            "url": "https://doublepulsar.com/lockbit-ransomware-group-assemble-strike-team-to-breach-banks-law-firms-and-governments-4220580bfcee",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "secureworks.com",
+            "url": "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "therecord.media",
+            "url": "https://therecord.media/fidelity-national-financial-ransomware-alphv-black-cat",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Vulnerabilities/Applications.md",
+          "Vulnerabilities/Virtualization.md"
+        ],
+        "source_label": "Storm-0501",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Applications": [
+            {
+              "vendor": "Adobe",
+              "product": "ColdFusion",
+              "cves": [
+                "CVE-2023-29300",
+                "CVE-2023-38203"
+              ],
+              "source_links": [
+                "https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            },
+            {
+              "vendor": "Zoho",
+              "product": "ManageEngine ADSelfService Plus",
+              "cves": [
+                "CVE-2022-47966"
+              ],
+              "source_links": [
+                "https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            }
+          ],
+          "Virtualization": [
+            {
+              "vendor": "Citrix",
+              "product": "NetScaler ADC & Gateway",
+              "cves": [
+                "CVE-2023-4966"
+              ],
+              "source_links": [
+                "https://doublepulsar.com/lockbit-ransomware-group-assemble-strike-team-to-breach-banks-law-firms-and-governments-4220580bfcee",
+                "https://www.bleepingcomputer.com/news/security/toyota-confirms-breach-after-medusa-ransomware-threatens-to-leak-data/",
+                "https://therecord.media/fidelity-national-financial-ransomware-alphv-black-cat",
+                "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware",
+                "https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/"
+              ],
+              "source_file": "Vulnerabilities/Virtualization.md"
+            }
           ]
         }
       }
@@ -29358,6 +30489,235 @@
             "TinyMet"
           ]
         }
+      },
+      "ransomware_vulnerability_matrix": {
+        "references": [
+          {
+            "title": "@msftsecintel",
+            "url": "https://x.com/msftsecintel/status/1722444141081076219",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "censys.io",
+            "url": "https://censys.io/rce-zero-day-in-goanywhere-mft-cve-2023-0669/",
+            "source_file": "Vulnerabilities/FileTransferServers.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a",
+            "source_file": "Vulnerabilities/FileTransferServers.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+            "source_file": "Vulnerabilities/FileTransferServers.md"
+          },
+          {
+            "title": "crowdstrike.com",
+            "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-identifies-campaign-targeting-oracle-e-business-suite-zero-day-CVE-2025-61882/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "huntress.com",
+            "url": "https://www.huntress.com/blog/threat-advisory-oh-no-cleo-cleo-software-actively-being-exploited-in-the-wild",
+            "source_file": "Vulnerabilities/FileTransferServers.md"
+          },
+          {
+            "title": "mandiant.com",
+            "url": "https://www.mandiant.com/resources/blog/accellion-fta-exploited-for-data-theft-and-extortion",
+            "source_file": "Vulnerabilities/FileTransferServers.md"
+          },
+          {
+            "title": "research.nccgroup.com",
+            "url": "https://research.nccgroup.com/2021/11/08/ta505-exploits-solarwinds-serv-u-vulnerability-cve-2021-35211-for-initial-access/",
+            "source_file": "Vulnerabilities/FileTransferServers.md"
+          },
+          {
+            "title": "twitter.com/MsftSecIntel",
+            "url": "https://twitter.com/MsftSecIntel/status/1651346653901725696",
+            "source_file": "GroupProfiles/Clop.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/Clop.md",
+          "Vulnerabilities/Applications.md",
+          "Vulnerabilities/FileTransferServers.md"
+        ],
+        "source_label": "Clop",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Applications": [
+            {
+              "vendor": "Oracle",
+              "product": "E-Business",
+              "cves": [
+                "CVE-2025-61882"
+              ],
+              "source_links": [
+                "https://www.crowdstrike.com/en-us/blog/crowdstrike-identifies-campaign-targeting-oracle-e-business-suite-zero-day-CVE-2025-61882/"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            },
+            {
+              "vendor": "SysAid",
+              "product": "SysAid On-Prem",
+              "cves": [
+                "CVE-2023-47246"
+              ],
+              "source_links": [
+                "https://x.com/msftsecintel/status/1722444141081076219"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            }
+          ],
+          "File Transfer Servers": [
+            {
+              "vendor": "Accellion",
+              "product": "Accellion File Transfer Appliance",
+              "cves": [
+                "CVE-2021-27101",
+                "CVE-2021-27102",
+                "CVE-2021-27103",
+                "CVE-2021-27104"
+              ],
+              "source_links": [
+                "https://www.mandiant.com/resources/blog/accellion-fta-exploited-for-data-theft-and-extortion"
+              ],
+              "source_file": "Vulnerabilities/FileTransferServers.md"
+            },
+            {
+              "vendor": "Cleo",
+              "product": "Cleo VLTrader, Harmony, LexiCom",
+              "cves": [
+                "CVE-2024-55956"
+              ],
+              "source_links": [
+                "https://www.huntress.com/blog/threat-advisory-oh-no-cleo-cleo-software-actively-being-exploited-in-the-wild"
+              ],
+              "source_file": "Vulnerabilities/FileTransferServers.md"
+            },
+            {
+              "vendor": "Fortra",
+              "product": "GoAnywhere Managed File Transfer",
+              "cves": [
+                "CVE-2023-0669"
+              ],
+              "source_links": [
+                "https://censys.io/rce-zero-day-in-goanywhere-mft-cve-2023-0669/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+              ],
+              "source_file": "Vulnerabilities/FileTransferServers.md"
+            },
+            {
+              "vendor": "Progress Software",
+              "product": "MOVEit",
+              "cves": [
+                "CVE-2023-34362"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a"
+              ],
+              "source_file": "Vulnerabilities/FileTransferServers.md"
+            },
+            {
+              "vendor": "SolarWinds",
+              "product": "SolarWinds Serv-U FTP",
+              "cves": [
+                "CVE-2021-35211"
+              ],
+              "source_links": [
+                "https://research.nccgroup.com/2021/11/08/ta505-exploits-solarwinds-serv-u-vulnerability-cve-2021-35211-for-initial-access/"
+              ],
+              "source_file": "Vulnerabilities/FileTransferServers.md"
+            }
+          ],
+          "Group Profile": [
+            {
+              "vendor": "Accellion",
+              "product": "Accellion File Transfer Appliance",
+              "cves": [
+                "CVE-2021-27101",
+                "CVE-2021-27102",
+                "CVE-2021-27103",
+                "CVE-2021-27104"
+              ],
+              "source_links": [
+                "https://www.mandiant.com/resources/blog/accellion-fta-exploited-for-data-theft-and-extortion"
+              ],
+              "source_file": "GroupProfiles/Clop.md"
+            },
+            {
+              "vendor": "Cleo",
+              "product": "Cleo VLTrader, Harmony, LexiCom",
+              "cves": [
+                "CVE-2024-55956"
+              ],
+              "source_links": [
+                "https://www.huntress.com/blog/threat-advisory-oh-no-cleo-cleo-software-actively-being-exploited-in-the-wild"
+              ],
+              "source_file": "GroupProfiles/Clop.md"
+            },
+            {
+              "vendor": "Fortra",
+              "product": "GoAnywhere Managed File Transfer",
+              "cves": [
+                "CVE-2023-0669"
+              ],
+              "source_links": [
+                "https://censys.io/rce-zero-day-in-goanywhere-mft-cve-2023-0669/"
+              ],
+              "source_file": "GroupProfiles/Clop.md"
+            },
+            {
+              "vendor": "Oracle",
+              "product": "E-Business",
+              "cves": [
+                "CVE-2025-61882"
+              ],
+              "source_links": [
+                "https://www.crowdstrike.com/en-us/blog/crowdstrike-identifies-campaign-targeting-oracle-e-business-suite-zero-day-CVE-2025-61882/"
+              ],
+              "source_file": "GroupProfiles/Clop.md"
+            },
+            {
+              "vendor": "PaperCut",
+              "product": "PaperCut Application Server",
+              "cves": [
+                "CVE-2023-27350",
+                "CVE-2023-27351"
+              ],
+              "source_links": [
+                "https://twitter.com/MsftSecIntel/status/1651346653901725696"
+              ],
+              "source_file": "GroupProfiles/Clop.md"
+            },
+            {
+              "vendor": "Progress Software",
+              "product": "MOVEit",
+              "cves": [
+                "CVE-2023-34362"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a"
+              ],
+              "source_file": "GroupProfiles/Clop.md"
+            },
+            {
+              "vendor": "SolarWinds",
+              "product": "SolarWinds Serv-U FTP",
+              "cves": [
+                "CVE-2021-35211"
+              ],
+              "source_links": [
+                "https://research.nccgroup.com/2021/11/08/ta505-exploits-solarwinds-serv-u-vulnerability-cve-2021-35211-for-initial-access/"
+              ],
+              "source_file": "GroupProfiles/Clop.md"
+            }
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/cl0p.md",
@@ -30618,6 +31978,331 @@
             "Splashtop"
           ]
         }
+      },
+      "ransomware_vulnerability_matrix": {
+        "references": [
+          {
+            "title": "blog.talosintelligence.com",
+            "url": "https://blog.talosintelligence.com/vice-society-ransomware-printnightmare/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "crowdstrike.com",
+            "url": "https://www.crowdstrike.com/en-us/blog/magniber-ransomware-caught-using-printnightmare-vulnerability/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2021/09/15/analyzing-attacks-that-exploit-the-mshtml-cve-2021-40444-vulnerability/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "securelist.com",
+            "url": "https://securelist.com/cuba-ransomware/110533/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "sophos.com",
+            "url": "https://news.sophos.com/en-us/2021/09/03/conti-affiliates-use-proxyshell-exchange-exploit-in-ransomware-attacks/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "tenable.com",
+            "url": "https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2022/04/04/stolen-images-campaign-ends-in-conti-ransomware/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "trendmicro.com",
+            "url": "https://www.trendmicro.com/en_gb/research/22/d/an-investigation-of-the-blackcat-ransomware.html",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "trendmicro.com",
+            "url": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-avoslocker",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "trendmicro.com",
+            "url": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-cuba",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "trendmicro.com",
+            "url": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "welivesecurity.com",
+            "url": "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Vulnerabilities/Microsoft.md",
+          "Vulnerabilities/NetworkEdge.md",
+          "Vulnerabilities/Virtualization.md"
+        ],
+        "source_label": "Conti",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Microsoft Products": [
+            {
+              "vendor": "MS Server Products",
+              "product": "Exchange On-Prem",
+              "cves": [
+                "CVE-2020-0688"
+              ],
+              "source_links": [
+                "https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "MS Server Products",
+              "product": "Exchange On-Prem",
+              "cves": [
+                "CVE-2021-26855",
+                "CVE-2021-26857",
+                "CVE-2021-26858",
+                "CVE-2021-27065"
+              ],
+              "source_links": [
+                "https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates",
+                "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-cuba",
+                "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-avoslocker"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "MS Server Products",
+              "product": "Exchange On-Prem",
+              "cves": [
+                "CVE-2021-31207",
+                "CVE-2021-34473",
+                "CVE-2021-34523"
+              ],
+              "source_links": [
+                "https://news.sophos.com/en-us/2021/09/03/conti-affiliates-use-proxyshell-exchange-exploit-in-ransomware-attacks/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a",
+                "https://securelist.com/cuba-ransomware/110533/",
+                "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-avoslocker",
+                "https://www.trendmicro.com/en_gb/research/22/d/an-investigation-of-the-blackcat-ransomware.html",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "MS Server Products",
+              "product": "SMBv3",
+              "cves": [
+                "CVE-2020-0796"
+              ],
+              "source_links": [
+                "https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "Active Directory",
+              "cves": [
+                "CVE-2021-42278",
+                "CVE-2021-42287"
+              ],
+              "source_links": [
+                "https://thedfirreport.com/2022/04/04/stolen-images-campaign-ends-in-conti-ransomware/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+                "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+                "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "MSHTML",
+              "cves": [
+                "CVE-2021-40444"
+              ],
+              "source_links": [
+                "https://www.microsoft.com/en-us/security/blog/2021/09/15/analyzing-attacks-that-exploit-the-mshtml-cve-2021-40444-vulnerability/"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "NetLogon",
+              "cves": [
+                "CVE-2020-1472"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a",
+                "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware",
+                "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
+                "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a",
+                "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+                "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "Print Spooler",
+              "cves": [
+                "CVE-2021-1675",
+                "CVE-2021-34527"
+              ],
+              "source_links": [
+                "https://blog.talosintelligence.com/vice-society-ransomware-printnightmare/",
+                "https://www.crowdstrike.com/en-us/blog/magniber-ransomware-caught-using-printnightmare-vulnerability/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+                "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "Remote Desktop Gateway",
+              "cves": [
+                "CVE-2020-0609"
+              ],
+              "source_links": [
+                "https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            }
+          ],
+          "Network Edge": [
+            {
+              "vendor": "Fortinet",
+              "product": "FortiOS",
+              "cves": [
+                "CVE-2018-13374"
+              ],
+              "source_links": [
+                "https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            },
+            {
+              "vendor": "Fortinet",
+              "product": "FortiOS",
+              "cves": [
+                "CVE-2018-13379"
+              ],
+              "source_links": [
+                "https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+                "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            }
+          ],
+          "Virtualization": [
+            {
+              "vendor": "VMware",
+              "product": "vCenter Server",
+              "cves": [
+                "CVE-2021-22005"
+              ],
+              "source_links": [
+                "https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates"
+              ],
+              "source_file": "Vulnerabilities/Virtualization.md"
+            },
+            {
+              "vendor": "VMware",
+              "product": "vSphere Client",
+              "cves": [
+                "CVE-2021-21985"
+              ],
+              "source_links": [
+                "https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates"
+              ],
+              "source_file": "Vulnerabilities/Virtualization.md"
+            }
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/conti.md",
@@ -31043,6 +32728,209 @@
             "Darkside (TrueSight driver)",
             "RealBlindingEDR",
             "Reaper"
+          ]
+        }
+      },
+      "ransomware_vulnerability_matrix": {
+        "actor_roles": [
+          "ransomware_affiliate"
+        ],
+        "references": [
+          {
+            "title": "blogs.blackberry.com",
+            "url": "https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "labs.withsecure.com",
+            "url": "https://labs.withsecure.com/publications/fin7-target-veeam-servers",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "news.sophos.com",
+            "url": "https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "security.com",
+            "url": "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "sentinelone.com",
+            "url": "https://www.sentinelone.com/blog/eternalblue-nsa-developed-exploit-just-wont-die/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "sophos.com",
+            "url": "https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2022/04/04/stolen-images-campaign-ends-in-conti-ransomware/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "welivesecurity.com",
+            "url": "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+            "source_file": "Vulnerabilities/Applications.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Vulnerabilities/Applications.md",
+          "Vulnerabilities/Microsoft.md",
+          "Vulnerabilities/NetworkEdge.md"
+        ],
+        "source_label": "CosmicBeetle",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Applications": [
+            {
+              "vendor": "Veeam",
+              "product": "Backup & Replication",
+              "cves": [
+                "CVE-2023-27532"
+              ],
+              "source_links": [
+                "https://labs.withsecure.com/publications/fin7-target-veeam-servers",
+                "https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america",
+                "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+                "https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/",
+                "https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/",
+                "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            }
+          ],
+          "Microsoft Products": [
+            {
+              "vendor": "MS Server Products",
+              "product": "SMBv1",
+              "cves": [
+                "CVE-2017-0144"
+              ],
+              "source_links": [
+                "https://www.sentinelone.com/blog/eternalblue-nsa-developed-exploit-just-wont-die/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242",
+                "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "Active Directory",
+              "cves": [
+                "CVE-2021-42278",
+                "CVE-2021-42287"
+              ],
+              "source_links": [
+                "https://thedfirreport.com/2022/04/04/stolen-images-campaign-ends-in-conti-ransomware/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+                "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+                "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "NetLogon",
+              "cves": [
+                "CVE-2020-1472"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a",
+                "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware",
+                "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
+                "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a",
+                "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+                "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            }
+          ],
+          "Network Edge": [
+            {
+              "vendor": "Fortinet",
+              "product": "FortiOS SSL-VPN",
+              "cves": [
+                "CVE-2022-42475"
+              ],
+              "source_links": [
+                "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            }
           ]
         }
       }
@@ -34891,7 +36779,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
@@ -34903,6 +36791,41 @@
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "7b90319a-9f7b-466d-9f90-7fcc270ed505",
         "source_retrieved_at": "2026-04-26T05:47:15Z"
+      },
+      "ransomware_vulnerability_matrix": {
+        "actor_roles": [
+          "state_sponsored_ransomware"
+        ],
+        "references": [
+          {
+            "title": "secureworks.com",
+            "url": "https://www.secureworks.com/blog/cobalt-mirage-conducts-ransomware-operations-in-us",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Vulnerabilities/NetworkEdge.md"
+        ],
+        "source_label": "Nemesis Kitten",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Network Edge": [
+            {
+              "vendor": "Fortinet",
+              "product": "FortiOS",
+              "cves": [
+                "CVE-2019-5591"
+              ],
+              "source_links": [
+                "https://www.secureworks.com/blog/cobalt-mirage-conducts-ransomware-operations-in-us"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            }
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/dev-0270.md",
@@ -36243,6 +38166,50 @@
             "Advanced IP Scanner",
             "PingCastle",
             "SoftPerfect NetScan"
+          ]
+        }
+      },
+      "ransomware_vulnerability_matrix": {
+        "references": [
+          {
+            "title": "CuratedIntel",
+            "url": "https://x.com/CuratedIntel/status/1885379463682109525",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "sophos.com",
+            "url": "https://news.sophos.com/en-us/2025/05/27/dragonforce-actors-target-simplehelp-vulnerabilities-to-attack-msp-customers/",
+            "source_file": "Vulnerabilities/Applications.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Vulnerabilities/Applications.md"
+        ],
+        "source_label": "DragonForce",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Applications": [
+            {
+              "vendor": "SimpleHelp",
+              "product": "SimpleHelp RMM",
+              "cves": [
+                "CVE-2024-57727"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+                "https://news.sophos.com/en-us/2025/05/27/dragonforce-actors-target-simplehelp-vulnerabilities-to-attack-msp-customers/",
+                "https://x.com/CuratedIntel/status/1885379463682109525"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            }
           ]
         }
       },
@@ -40789,7 +42756,7 @@
     ],
     "first_seen": "2015",
     "last_activity": "2024",
-    "last_updated": "2026-04-27",
+    "last_updated": "2026-04-28",
     "risk_level": "High",
     "source_name": null,
     "source_attribution": "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.",
@@ -40801,6 +42768,71 @@
         "source_dataset_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
         "source_record_id": "G0008",
         "source_retrieved_at": "2026-04-26T07:05:44Z"
+      },
+      "ransomware_vulnerability_matrix": {
+        "actor_roles": [
+          "ransomware_affiliate"
+        ],
+        "references": [
+          {
+            "title": "blogs.blackberry.com",
+            "url": "https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "labs.withsecure.com",
+            "url": "https://labs.withsecure.com/publications/fin7-target-veeam-servers",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "news.sophos.com",
+            "url": "https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "security.com",
+            "url": "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "sophos.com",
+            "url": "https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "welivesecurity.com",
+            "url": "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+            "source_file": "Vulnerabilities/Applications.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Vulnerabilities/Applications.md"
+        ],
+        "source_label": "FIN7",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Applications": [
+            {
+              "vendor": "Veeam",
+              "product": "Backup & Replication",
+              "cves": [
+                "CVE-2023-27532"
+              ],
+              "source_links": [
+                "https://labs.withsecure.com/publications/fin7-target-veeam-servers",
+                "https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america",
+                "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+                "https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/",
+                "https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/",
+                "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            }
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/fin7.md",
@@ -44655,6 +46687,340 @@
             "ScreenConnect",
             "Splashtop",
             "Supremo"
+          ]
+        }
+      },
+      "ransomware_vulnerability_matrix": {
+        "references": [
+          {
+            "title": "bleepingcomputer.com",
+            "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-us-hospitals-of-targeted-blackcat-ransomware-attacks/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "blog.talosintelligence.com",
+            "url": "https://blog.talosintelligence.com/blackbyte-blends-tried-and-true-tradecraft-with-newly-disclosed-vulnerabilities-to-support-ongoing-attacks/",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "blog.talosintelligence.com",
+            "url": "https://blog.talosintelligence.com/vice-society-ransomware-printnightmare/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "crowdstrike.com",
+            "url": "https://www.crowdstrike.com/en-us/blog/magniber-ransomware-caught-using-printnightmare-vulnerability/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "securityonline.info",
+            "url": "https://securityonline.info/cve-2024-26169-windows-zero-day-vulnerability-abused-by-black-basta-ransomware/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "sentinelone.com",
+            "url": "https://www.sentinelone.com/labs/black-basta-ransomware-attacks-deploy-custom-edr-evasion-tools-tied-to-fin7-threat-actor/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2022/04/04/stolen-images-campaign-ends-in-conti-ransomware/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "trendmicro.com",
+            "url": "https://www.trendmicro.com/en_us/research/22/f/black-basta-ransomware-operators-expand-their-attack-arsenal-wit.html",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "trendmicro.com",
+            "url": "https://www.trendmicro.com/en_us/research/24/b/threat-actor-groups-including-black-basta-are-exploiting-recent-.html",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "unit42.paloaltonetworks.com",
+            "url": "https://unit42.paloaltonetworks.com/repellent-scorpius-cicada3301-ransomware/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "welivesecurity.com",
+            "url": "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "www.security.com",
+            "url": "https://www.security.com/threat-intelligence/black-basta-ransomware-zero-day",
+            "source_file": "GroupProfiles/BlackBasta.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/BlackBasta.md",
+          "Vulnerabilities/Applications.md",
+          "Vulnerabilities/Microsoft.md",
+          "Vulnerabilities/Virtualization.md"
+        ],
+        "source_label": "Black Basta / BlackBasta",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Applications": [
+            {
+              "vendor": "ConnectWise",
+              "product": "ScreenConnect",
+              "cves": [
+                "CVE-2024-1708",
+                "CVE-2024-1709"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+                "https://unit42.paloaltonetworks.com/repellent-scorpius-cicada3301-ransomware/",
+                "https://www.trendmicro.com/en_us/research/24/b/threat-actor-groups-including-black-basta-are-exploiting-recent-.html",
+                "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-us-hospitals-of-targeted-blackcat-ransomware-attacks/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            }
+          ],
+          "Group Profile": [
+            {
+              "vendor": "ConnectWise",
+              "product": "ScreenConnect",
+              "cves": [
+                "CVE-2024-1709"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a"
+              ],
+              "source_file": "GroupProfiles/BlackBasta.md"
+            },
+            {
+              "vendor": "VMware",
+              "product": "ESXi",
+              "cves": [
+                "CVE-2024-37085"
+              ],
+              "source_links": [
+                "https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/"
+              ],
+              "source_file": "GroupProfiles/BlackBasta.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "Active Directory",
+              "cves": [
+                "CVE-2021-42278",
+                "CVE-2021-42287"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a"
+              ],
+              "source_file": "GroupProfiles/BlackBasta.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "MSDT",
+              "cves": [
+                "CVE-2022-30190"
+              ],
+              "source_links": [
+                "https://www.sentinelone.com/labs/black-basta-ransomware-attacks-deploy-custom-edr-evasion-tools-tied-to-fin7-threat-actor/",
+                "https://www.trendmicro.com/en_us/research/22/f/black-basta-ransomware-operators-expand-their-attack-arsenal-wit.html"
+              ],
+              "source_file": "GroupProfiles/BlackBasta.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "NetLogon",
+              "cves": [
+                "CVE-2020-1472"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a"
+              ],
+              "source_file": "GroupProfiles/BlackBasta.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "Print Spooler",
+              "cves": [
+                "CVE-2021-1675",
+                "CVE-2021-34527"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a"
+              ],
+              "source_file": "GroupProfiles/BlackBasta.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "Windows Error Reporting Service",
+              "cves": [
+                "CVE-2024-26169"
+              ],
+              "source_links": [
+                "https://www.security.com/threat-intelligence/black-basta-ransomware-zero-day"
+              ],
+              "source_file": "GroupProfiles/BlackBasta.md"
+            }
+          ],
+          "Microsoft Products": [
+            {
+              "vendor": "Windows",
+              "product": "Active Directory",
+              "cves": [
+                "CVE-2021-42278",
+                "CVE-2021-42287"
+              ],
+              "source_links": [
+                "https://thedfirreport.com/2022/04/04/stolen-images-campaign-ends-in-conti-ransomware/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+                "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+                "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "MSDT",
+              "cves": [
+                "CVE-2022-30190"
+              ],
+              "source_links": [
+                "https://www.sentinelone.com/labs/black-basta-ransomware-attacks-deploy-custom-edr-evasion-tools-tied-to-fin7-threat-actor/",
+                "https://www.trendmicro.com/en_us/research/22/f/black-basta-ransomware-operators-expand-their-attack-arsenal-wit.html"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "NetLogon",
+              "cves": [
+                "CVE-2020-1472"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a",
+                "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware",
+                "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
+                "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a",
+                "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+                "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "Print Spooler",
+              "cves": [
+                "CVE-2021-1675",
+                "CVE-2021-34527"
+              ],
+              "source_links": [
+                "https://blog.talosintelligence.com/vice-society-ransomware-printnightmare/",
+                "https://www.crowdstrike.com/en-us/blog/magniber-ransomware-caught-using-printnightmare-vulnerability/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+                "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "Windows Error Reporting Service",
+              "cves": [
+                "CVE-2024-26169"
+              ],
+              "source_links": [
+                "https://www.security.com/threat-intelligence/black-basta-ransomware-zero-day",
+                "https://securityonline.info/cve-2024-26169-windows-zero-day-vulnerability-abused-by-black-basta-ransomware/"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            }
+          ],
+          "Virtualization": [
+            {
+              "vendor": "VMware",
+              "product": "ESXi",
+              "cves": [
+                "CVE-2024-37085"
+              ],
+              "source_links": [
+                "https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/",
+                "https://blog.talosintelligence.com/blackbyte-blends-tried-and-true-tradecraft-with-newly-disclosed-vulnerabilities-to-support-ongoing-attacks/"
+              ],
+              "source_file": "Vulnerabilities/Virtualization.md"
+            }
           ]
         }
       }
@@ -54177,6 +56543,350 @@
             "ZohoAssist"
           ]
         }
+      },
+      "ransomware_vulnerability_matrix": {
+        "references": [
+          {
+            "title": "bleepingcomputer.com",
+            "url": "https://www.bleepingcomputer.com/news/security/toyota-confirms-breach-after-medusa-ransomware-threatens-to-leak-data/",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "blog.talosintelligence.com",
+            "url": "https://blog.talosintelligence.com/avoslocker-new-arsenal/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "censys.io",
+            "url": "https://censys.io/rce-zero-day-in-goanywhere-mft-cve-2023-0669/",
+            "source_file": "Vulnerabilities/FileTransferServers.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "doublepulsar.com",
+            "url": "https://doublepulsar.com/lockbit-ransomware-group-assemble-strike-team-to-breach-banks-law-firms-and-governments-4220580bfcee",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "secureworks.com",
+            "url": "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "secureworks.com",
+            "url": "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "tenable.com",
+            "url": "https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2025/02/24/confluence-exploit-leads-to-lockbit-ransomware/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "therecord.media",
+            "url": "https://therecord.media/fidelity-national-financial-ransomware-alphv-black-cat",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "trendmicro.com",
+            "url": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "welivesecurity.com",
+            "url": "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "twitter.com",
+            "url": "https://twitter.com/MsftSecIntel/status/1651346653901725696",
+            "date": "26 April 2023",
+            "source_file": "GroupProfiles/LockBit.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/LockBit.md",
+          "Vulnerabilities/Applications.md",
+          "Vulnerabilities/FileTransferServers.md",
+          "Vulnerabilities/Microsoft.md",
+          "Vulnerabilities/NetworkEdge.md",
+          "Vulnerabilities/Virtualization.md"
+        ],
+        "source_label": "Lock Bit / LockBit",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Applications": [
+            {
+              "vendor": "Apache",
+              "product": "Log4j",
+              "cves": [
+                "CVE-2021-44228"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+                "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker",
+                "https://blog.talosintelligence.com/avoslocker-new-arsenal/"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            },
+            {
+              "vendor": "Atlassian",
+              "product": "Confluence Data Center & Server",
+              "cves": [
+                "CVE-2023-22527"
+              ],
+              "source_links": [
+                "https://thedfirreport.com/2025/02/24/confluence-exploit-leads-to-lockbit-ransomware/"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            }
+          ],
+          "File Transfer Servers": [
+            {
+              "vendor": "Fortra",
+              "product": "GoAnywhere Managed File Transfer",
+              "cves": [
+                "CVE-2023-0669"
+              ],
+              "source_links": [
+                "https://censys.io/rce-zero-day-in-goanywhere-mft-cve-2023-0669/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+              ],
+              "source_file": "Vulnerabilities/FileTransferServers.md"
+            }
+          ],
+          "Group Profile": [
+            {
+              "vendor": "Apache",
+              "product": "Log4j",
+              "cves": [
+                "CVE-2021-44228"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+              ],
+              "source_file": "GroupProfiles/LockBit.md"
+            },
+            {
+              "vendor": "Citrix",
+              "product": "NetScaler ADC & Gateway",
+              "cves": [
+                "CVE-2023-4966"
+              ],
+              "source_links": [
+                "https://doublepulsar.com/lockbit-ransomware-group-assemble-strike-team-to-breach-banks-law-firms-and-governments-4220580bfcee"
+              ],
+              "source_file": "GroupProfiles/LockBit.md"
+            },
+            {
+              "vendor": "F5",
+              "product": "iControl REST",
+              "cves": [
+                "CVE-2021-22986"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+              ],
+              "source_file": "GroupProfiles/LockBit.md"
+            },
+            {
+              "vendor": "Fortinet",
+              "product": "FortiOS",
+              "cves": [
+                "CVE-2018-13379"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+              ],
+              "source_file": "GroupProfiles/LockBit.md"
+            },
+            {
+              "vendor": "Fortra",
+              "product": "GoAnywhere Managed File Transfer",
+              "cves": [
+                "CVE-2023-0669"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+              ],
+              "source_file": "GroupProfiles/LockBit.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "NetLogon",
+              "cves": [
+                "CVE-2020-1472"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+              ],
+              "source_file": "GroupProfiles/LockBit.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "Remote Desktop Services",
+              "cves": [
+                "CVE-2019-0708"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+              ],
+              "source_file": "GroupProfiles/LockBit.md"
+            }
+          ],
+          "Microsoft Products": [
+            {
+              "vendor": "Windows",
+              "product": "NetLogon",
+              "cves": [
+                "CVE-2020-1472"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a",
+                "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware",
+                "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
+                "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a",
+                "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+                "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "Remote Desktop Services",
+              "cves": [
+                "CVE-2019-0708"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            }
+          ],
+          "Network Edge": [
+            {
+              "vendor": "F5",
+              "product": "iControl REST",
+              "cves": [
+                "CVE-2021-22986"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            },
+            {
+              "vendor": "Fortinet",
+              "product": "FortiOS",
+              "cves": [
+                "CVE-2018-13379"
+              ],
+              "source_links": [
+                "https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+                "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            }
+          ],
+          "Virtualization": [
+            {
+              "vendor": "Citrix",
+              "product": "NetScaler ADC & Gateway",
+              "cves": [
+                "CVE-2023-4966"
+              ],
+              "source_links": [
+                "https://doublepulsar.com/lockbit-ransomware-group-assemble-strike-team-to-breach-banks-law-firms-and-governments-4220580bfcee",
+                "https://www.bleepingcomputer.com/news/security/toyota-confirms-breach-after-medusa-ransomware-threatens-to-leak-data/",
+                "https://therecord.media/fidelity-national-financial-ransomware-alphv-black-cat",
+                "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware",
+                "https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/"
+              ],
+              "source_file": "Vulnerabilities/Virtualization.md"
+            }
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/lockbit.md",
@@ -56593,6 +59303,154 @@
             "eHorus"
           ]
         }
+      },
+      "ransomware_vulnerability_matrix": {
+        "references": [
+          {
+            "title": "CuratedIntel",
+            "url": "https://x.com/CuratedIntel/status/1885379463682109525",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "bleepingcomputer.com",
+            "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-us-hospitals-of-targeted-blackcat-ransomware-attacks/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "bleepingcomputer.com",
+            "url": "https://www.bleepingcomputer.com/news/security/toyota-confirms-breach-after-medusa-ransomware-threatens-to-leak-data/",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "doublepulsar.com",
+            "url": "https://doublepulsar.com/lockbit-ransomware-group-assemble-strike-team-to-breach-banks-law-firms-and-governments-4220580bfcee",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "secureworks.com",
+            "url": "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "sophos.com",
+            "url": "https://news.sophos.com/en-us/2025/05/27/dragonforce-actors-target-simplehelp-vulnerabilities-to-attack-msp-customers/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "therecord.media",
+            "url": "https://therecord.media/fidelity-national-financial-ransomware-alphv-black-cat",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "trendmicro.com",
+            "url": "https://www.trendmicro.com/en_us/research/24/b/threat-actor-groups-including-black-basta-are-exploiting-recent-.html",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "unit42.paloaltonetworks.com",
+            "url": "https://unit42.paloaltonetworks.com/repellent-scorpius-cicada3301-ransomware/",
+            "source_file": "Vulnerabilities/Applications.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Vulnerabilities/Applications.md",
+          "Vulnerabilities/NetworkEdge.md",
+          "Vulnerabilities/Virtualization.md"
+        ],
+        "source_label": "Medusa",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Applications": [
+            {
+              "vendor": "ConnectWise",
+              "product": "ScreenConnect",
+              "cves": [
+                "CVE-2024-1708",
+                "CVE-2024-1709"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+                "https://unit42.paloaltonetworks.com/repellent-scorpius-cicada3301-ransomware/",
+                "https://www.trendmicro.com/en_us/research/24/b/threat-actor-groups-including-black-basta-are-exploiting-recent-.html",
+                "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-us-hospitals-of-targeted-blackcat-ransomware-attacks/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            },
+            {
+              "vendor": "SimpleHelp",
+              "product": "SimpleHelp RMM",
+              "cves": [
+                "CVE-2024-57727"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+                "https://news.sophos.com/en-us/2025/05/27/dragonforce-actors-target-simplehelp-vulnerabilities-to-attack-msp-customers/",
+                "https://x.com/CuratedIntel/status/1885379463682109525"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            }
+          ],
+          "Network Edge": [
+            {
+              "vendor": "Fortinet",
+              "product": "FortiClientEMS",
+              "cves": [
+                "CVE-2023-48788"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            }
+          ],
+          "Virtualization": [
+            {
+              "vendor": "Citrix",
+              "product": "NetScaler ADC & Gateway",
+              "cves": [
+                "CVE-2023-4966"
+              ],
+              "source_links": [
+                "https://doublepulsar.com/lockbit-ransomware-group-assemble-strike-team-to-breach-banks-law-firms-and-governments-4220580bfcee",
+                "https://www.bleepingcomputer.com/news/security/toyota-confirms-breach-after-medusa-ransomware-threatens-to-leak-data/",
+                "https://therecord.media/fidelity-national-financial-ransomware-alphv-black-cat",
+                "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware",
+                "https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/"
+              ],
+              "source_file": "Vulnerabilities/Virtualization.md"
+            }
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/medusa.md",
@@ -58906,6 +61764,50 @@
           "Exfiltration": [
             "MEGA",
             "WinSCP"
+          ]
+        }
+      },
+      "ransomware_vulnerability_matrix": {
+        "references": [
+          {
+            "title": "esentire.com",
+            "url": "https://www.esentire.com/blog/from-access-to-encryption-dissecting-hunters-internationals-latest-ransomware-attack",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "forescout.com",
+            "url": "https://www.forescout.com/blog/new-ransomware-operator-exploits-fortinet-vulnerability-duo/",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "s-rminform.com",
+            "url": "https://www.s-rminform.com/latest-thinking/ransomware-in-focus-meet-nightspire",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Vulnerabilities/NetworkEdge.md"
+        ],
+        "source_label": "NightSpire",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Network Edge": [
+            {
+              "vendor": "Fortinet",
+              "product": "FortiOS & FortiProxy",
+              "cves": [
+                "CVE-2024-55591"
+              ],
+              "source_links": [
+                "https://www.esentire.com/blog/from-access-to-encryption-dissecting-hunters-internationals-latest-ransomware-attack",
+                "https://www.forescout.com/blog/new-ransomware-operator-exploits-fortinet-vulnerability-duo/",
+                "https://www.s-rminform.com/latest-thinking/ransomware-in-focus-meet-nightspire"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            }
           ]
         }
       },
@@ -63682,6 +66584,136 @@
             "WinPEAS"
           ]
         }
+      },
+      "ransomware_vulnerability_matrix": {
+        "references": [
+          {
+            "title": "CuratedIntel",
+            "url": "https://x.com/CuratedIntel/status/1885379463682109525",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "crowdstrike.com",
+            "url": "https://www.crowdstrike.com/en-us/blog/owassrf-exploit-analysis-and-recommendations/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "sophos.com",
+            "url": "https://news.sophos.com/en-us/2025/05/27/dragonforce-actors-target-simplehelp-vulnerabilities-to-attack-msp-customers/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "tenable.com",
+            "url": "https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "trendmicro.com",
+            "url": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Vulnerabilities/Applications.md",
+          "Vulnerabilities/Microsoft.md",
+          "Vulnerabilities/NetworkEdge.md"
+        ],
+        "source_label": "PLAY",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Applications": [
+            {
+              "vendor": "SimpleHelp",
+              "product": "SimpleHelp RMM",
+              "cves": [
+                "CVE-2024-57727"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+                "https://news.sophos.com/en-us/2025/05/27/dragonforce-actors-target-simplehelp-vulnerabilities-to-attack-msp-customers/",
+                "https://x.com/CuratedIntel/status/1885379463682109525"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            }
+          ],
+          "Microsoft Products": [
+            {
+              "vendor": "MS Server Products",
+              "product": "Exchange On-Prem",
+              "cves": [
+                "CVE-2022-41040",
+                "CVE-2022-41082"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "MS Server Products",
+              "product": "Exchange On-Prem",
+              "cves": [
+                "CVE-2022-41080"
+              ],
+              "source_links": [
+                "https://www.crowdstrike.com/en-us/blog/owassrf-exploit-analysis-and-recommendations/"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            }
+          ],
+          "Network Edge": [
+            {
+              "vendor": "Fortinet",
+              "product": "FortiOS",
+              "cves": [
+                "CVE-2018-13379"
+              ],
+              "source_links": [
+                "https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+                "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            },
+            {
+              "vendor": "Fortinet",
+              "product": "FortiOS SSL VPN",
+              "cves": [
+                "CVE-2020-12812"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            }
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/play.md",
@@ -64960,6 +67992,269 @@
             "Responder"
           ]
         }
+      },
+      "ransomware_vulnerability_matrix": {
+        "actor_roles": [
+          "initial_access_broker"
+        ],
+        "references": [
+          {
+            "title": "blog.talosintelligence.com",
+            "url": "https://blog.talosintelligence.com/avoslocker-new-arsenal/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "crowdstrike.com",
+            "url": "https://www.crowdstrike.com/en-us/blog/prophet-spider-exploits-citrix-sharefile/",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "secureworks.com",
+            "url": "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "cloud.google.com",
+            "url": "https://cloud.google.com/blog/topics/threat-intelligence/unc961-multiverse-financially-motivated",
+            "date": "23 March 2023",
+            "source_file": "GroupProfiles/ProphetSpider.md"
+          },
+          {
+            "title": "www.crowdstrike.com",
+            "url": "https://www.crowdstrike.com/blog/prophet-spider-exploits-oracle-weblogic-to-facilitate-ransomware-activity",
+            "date": "4 August 2021",
+            "source_file": "GroupProfiles/ProphetSpider.md"
+          },
+          {
+            "title": "www.crowdstrike.com",
+            "url": "https://www.crowdstrike.com/blog/prophet-spider-exploits-citrix-sharefile",
+            "date": "7 March 2022",
+            "source_file": "GroupProfiles/ProphetSpider.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/ProphetSpider.md",
+          "Vulnerabilities/Applications.md",
+          "Vulnerabilities/Virtualization.md"
+        ],
+        "source_label": "Prophet Spider",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Applications": [
+            {
+              "vendor": "Apache",
+              "product": "Log4j",
+              "cves": [
+                "CVE-2021-4104"
+              ],
+              "source_links": [
+                "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            },
+            {
+              "vendor": "Apache",
+              "product": "Log4j",
+              "cves": [
+                "CVE-2021-44228"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+                "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker",
+                "https://blog.talosintelligence.com/avoslocker-new-arsenal/"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            },
+            {
+              "vendor": "Apache",
+              "product": "Struts",
+              "cves": [
+                "CVE-2017-5638"
+              ],
+              "source_links": [
+                "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            },
+            {
+              "vendor": "Java Applications",
+              "product": "Jboss Application Server",
+              "cves": [
+                "CVE-2017-7504"
+              ],
+              "source_links": [
+                "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            },
+            {
+              "vendor": "Oracle",
+              "product": "E-Business",
+              "cves": [
+                "CVE-2016-0545"
+              ],
+              "source_links": [
+                "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            },
+            {
+              "vendor": "Oracle",
+              "product": "WebLogic",
+              "cves": [
+                "CVE-2020-14750"
+              ],
+              "source_links": [
+                "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            },
+            {
+              "vendor": "Oracle",
+              "product": "WebLogic",
+              "cves": [
+                "CVE-2020-14882"
+              ],
+              "source_links": [
+                "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            },
+            {
+              "vendor": "Sitecore",
+              "product": "Sitecore XP",
+              "cves": [
+                "CVE-2021-42237"
+              ],
+              "source_links": [
+                "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            }
+          ],
+          "Group Profile": [
+            {
+              "vendor": "Apache",
+              "product": "Log4j",
+              "cves": [
+                "CVE-2021-4104"
+              ],
+              "source_links": [
+                "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"
+              ],
+              "source_file": "GroupProfiles/ProphetSpider.md"
+            },
+            {
+              "vendor": "Apache",
+              "product": "Log4j",
+              "cves": [
+                "CVE-2021-44228"
+              ],
+              "source_links": [
+                "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"
+              ],
+              "source_file": "GroupProfiles/ProphetSpider.md"
+            },
+            {
+              "vendor": "Apache",
+              "product": "Struts",
+              "cves": [
+                "CVE-2017-5638"
+              ],
+              "source_links": [
+                "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"
+              ],
+              "source_file": "GroupProfiles/ProphetSpider.md"
+            },
+            {
+              "vendor": "Citrix",
+              "product": "ShareFile Storage Zones Controller",
+              "cves": [
+                "CVE-2021-22941"
+              ],
+              "source_links": [
+                "https://www.crowdstrike.com/en-us/blog/prophet-spider-exploits-citrix-sharefile/"
+              ],
+              "source_file": "GroupProfiles/ProphetSpider.md"
+            },
+            {
+              "vendor": "Java Applications",
+              "product": "Jboss Application Server",
+              "cves": [
+                "CVE-2017-7504"
+              ],
+              "source_links": [
+                "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"
+              ],
+              "source_file": "GroupProfiles/ProphetSpider.md"
+            },
+            {
+              "vendor": "Oracle",
+              "product": "E-Business",
+              "cves": [
+                "CVE-2016-0545"
+              ],
+              "source_links": [
+                "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"
+              ],
+              "source_file": "GroupProfiles/ProphetSpider.md"
+            },
+            {
+              "vendor": "Oracle",
+              "product": "WebLogic",
+              "cves": [
+                "CVE-2020-14750"
+              ],
+              "source_links": [
+                "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"
+              ],
+              "source_file": "GroupProfiles/ProphetSpider.md"
+            },
+            {
+              "vendor": "Oracle",
+              "product": "WebLogic",
+              "cves": [
+                "CVE-2020-14882"
+              ],
+              "source_links": [
+                "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"
+              ],
+              "source_file": "GroupProfiles/ProphetSpider.md"
+            },
+            {
+              "vendor": "Sitecore",
+              "product": "Sitecore XP",
+              "cves": [
+                "CVE-2021-42237"
+              ],
+              "source_links": [
+                "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"
+              ],
+              "source_file": "GroupProfiles/ProphetSpider.md"
+            }
+          ],
+          "Virtualization": [
+            {
+              "vendor": "Citrix",
+              "product": "ShareFile Storage Zones Controller",
+              "cves": [
+                "CVE-2021-22941"
+              ],
+              "source_links": [
+                "https://www.crowdstrike.com/en-us/blog/prophet-spider-exploits-citrix-sharefile/"
+              ],
+              "source_file": "Vulnerabilities/Virtualization.md"
+            }
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/prophet-spider.md",
@@ -65450,6 +68745,68 @@
           "RMM Tools": [
             "NetSupport",
             "ScreenConnect"
+          ]
+        }
+      },
+      "ransomware_vulnerability_matrix": {
+        "references": [
+          {
+            "title": "blogs.blackberry.com",
+            "url": "https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "labs.withsecure.com",
+            "url": "https://labs.withsecure.com/publications/fin7-target-veeam-servers",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "news.sophos.com",
+            "url": "https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "security.com",
+            "url": "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "sophos.com",
+            "url": "https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "welivesecurity.com",
+            "url": "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+            "source_file": "Vulnerabilities/Applications.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Vulnerabilities/Applications.md"
+        ],
+        "source_label": "Qilin",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Applications": [
+            {
+              "vendor": "Veeam",
+              "product": "Backup & Replication",
+              "cves": [
+                "CVE-2023-27532"
+              ],
+              "source_links": [
+                "https://labs.withsecure.com/publications/fin7-target-veeam-servers",
+                "https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america",
+                "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+                "https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/",
+                "https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/",
+                "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            }
           ]
         }
       }
@@ -66058,6 +69415,392 @@
             "ScreenConnect",
             "Splashtop",
             "TightVNC"
+          ]
+        }
+      },
+      "ransomware_vulnerability_matrix": {
+        "references": [
+          {
+            "title": "blogs.blackberry.com",
+            "url": "https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "labs.withsecure.com",
+            "url": "https://labs.withsecure.com/publications/fin7-target-veeam-servers",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2022/10/25/dev-0832-vice-society-opportunistic-ransomware-campaigns-impacting-us-education-sector/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "news.sophos.com",
+            "url": "https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "securelist.com",
+            "url": "https://securelist.com/cuba-ransomware/110533/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "security.com",
+            "url": "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "sentinelone.com",
+            "url": "https://www.sentinelone.com/blog/eternalblue-nsa-developed-exploit-just-wont-die/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "sophos.com",
+            "url": "https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "welivesecurity.com",
+            "url": "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+            "source_file": "Vulnerabilities/Applications.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "GroupProfiles/RansomHub.md",
+          "Vulnerabilities/Applications.md",
+          "Vulnerabilities/Microsoft.md",
+          "Vulnerabilities/NetworkEdge.md",
+          "Vulnerabilities/Virtualization.md"
+        ],
+        "source_label": "Ransom Hub / RansomHub",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Applications": [
+            {
+              "vendor": "Apache",
+              "product": "ActiveMQ",
+              "cves": [
+                "CVE-2023-46604"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            },
+            {
+              "vendor": "Atlassian",
+              "product": "Confluence Data Center & Server",
+              "cves": [
+                "CVE-2023-22515"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            },
+            {
+              "vendor": "Veeam",
+              "product": "Backup & Replication",
+              "cves": [
+                "CVE-2023-27532"
+              ],
+              "source_links": [
+                "https://labs.withsecure.com/publications/fin7-target-veeam-servers",
+                "https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america",
+                "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+                "https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/",
+                "https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/",
+                "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            }
+          ],
+          "Group Profile": [
+            {
+              "vendor": "Apache",
+              "product": "ActiveMQ",
+              "cves": [
+                "CVE-2023-46604"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+              ],
+              "source_file": "GroupProfiles/RansomHub.md"
+            },
+            {
+              "vendor": "Atlassian",
+              "product": "Confluence Data Center & Server",
+              "cves": [
+                "CVE-2023-22515"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+              ],
+              "source_file": "GroupProfiles/RansomHub.md"
+            },
+            {
+              "vendor": "Citrix",
+              "product": "NetScaler ADC & Gateway",
+              "cves": [
+                "CVE-2023-3519"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+              ],
+              "source_file": "GroupProfiles/RansomHub.md"
+            },
+            {
+              "vendor": "F5",
+              "product": "BIG-IP",
+              "cves": [
+                "CVE-2023-46747"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+              ],
+              "source_file": "GroupProfiles/RansomHub.md"
+            },
+            {
+              "vendor": "Fortinet",
+              "product": "FortiClientEMS",
+              "cves": [
+                "CVE-2023-48788"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+              ],
+              "source_file": "GroupProfiles/RansomHub.md"
+            },
+            {
+              "vendor": "Fortinet",
+              "product": "FortiOS SSL-VPN & FortiProxy",
+              "cves": [
+                "CVE-2023-27997"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+              ],
+              "source_file": "GroupProfiles/RansomHub.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "BITS",
+              "cves": [
+                "CVE-2020-0787"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+              ],
+              "source_file": "GroupProfiles/RansomHub.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "NetLogon",
+              "cves": [
+                "CVE-2020-1472"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+              ],
+              "source_file": "GroupProfiles/RansomHub.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "SMBv1",
+              "cves": [
+                "CVE-2017-0144"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+              ],
+              "source_file": "GroupProfiles/RansomHub.md"
+            }
+          ],
+          "Microsoft Products": [
+            {
+              "vendor": "MS Server Products",
+              "product": "SMBv1",
+              "cves": [
+                "CVE-2017-0144"
+              ],
+              "source_links": [
+                "https://www.sentinelone.com/blog/eternalblue-nsa-developed-exploit-just-wont-die/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242",
+                "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "BITS",
+              "cves": [
+                "CVE-2020-0787"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "CLFS",
+              "cves": [
+                "CVE-2022-24521"
+              ],
+              "source_links": [
+                "https://securelist.com/cuba-ransomware/110533/",
+                "https://www.microsoft.com/en-us/security/blog/2022/10/25/dev-0832-vice-society-opportunistic-ransomware-campaigns-impacting-us-education-sector/",
+                "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "NetLogon",
+              "cves": [
+                "CVE-2020-1472"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a",
+                "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware",
+                "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
+                "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a",
+                "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+                "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            }
+          ],
+          "Network Edge": [
+            {
+              "vendor": "F5",
+              "product": "BIG-IP",
+              "cves": [
+                "CVE-2023-46747"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            },
+            {
+              "vendor": "Fortinet",
+              "product": "FortiClientEMS",
+              "cves": [
+                "CVE-2023-48788"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            },
+            {
+              "vendor": "Fortinet",
+              "product": "FortiOS SSL-VPN & FortiProxy",
+              "cves": [
+                "CVE-2023-27997"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            }
+          ],
+          "Virtualization": [
+            {
+              "vendor": "Citrix",
+              "product": "NetScaler ADC & Gateway",
+              "cves": [
+                "CVE-2023-3519"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+              ],
+              "source_file": "Vulnerabilities/Virtualization.md"
+            }
           ]
         }
       }
@@ -68594,6 +72337,166 @@
             "Cobalt Strike"
           ]
         }
+      },
+      "ransomware_vulnerability_matrix": {
+        "references": [
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a",
+            "source_file": "Vulnerabilities/Virtualization.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "sentinelone.com",
+            "url": "https://www.sentinelone.com/anthology/revil/",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "tenable.com",
+            "url": "https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "tenable.com",
+            "url": "https://www.tenable.com/blog/cve-2019-11510-critical-pulse-connect-secure-vulnerability-used-in-sodinokibi-ransomware?utm_source=cyber_exposure_alert&utm_medium=tenable_blog&utm_campaign=pulse_connect_secure_zero_day",
+            "source_file": "Vulnerabilities/NetworkEdge.md"
+          },
+          {
+            "title": "tenable.com",
+            "url": "https://www.tenable.com/blog/cve-2021-30116-multiple-zero-day-vulnerabilities-in-kaseya-vsa-exploited-to-distribute-ransomware",
+            "source_file": "Vulnerabilities/Applications.md"
+          },
+          {
+            "title": "trendmicro.com",
+            "url": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil",
+            "source_file": "Vulnerabilities/Applications.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Vulnerabilities/Applications.md",
+          "Vulnerabilities/Microsoft.md",
+          "Vulnerabilities/NetworkEdge.md",
+          "Vulnerabilities/Virtualization.md"
+        ],
+        "source_label": "REvil",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Applications": [
+            {
+              "vendor": "Kaseya",
+              "product": "VSA",
+              "cves": [
+                "CVE-2021-30116"
+              ],
+              "source_links": [
+                "https://www.tenable.com/blog/cve-2021-30116-multiple-zero-day-vulnerabilities-in-kaseya-vsa-exploited-to-distribute-ransomware"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            },
+            {
+              "vendor": "Oracle",
+              "product": "WebLogic",
+              "cves": [
+                "CVE-2019-2725"
+              ],
+              "source_links": [
+                "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil"
+              ],
+              "source_file": "Vulnerabilities/Applications.md"
+            }
+          ],
+          "Microsoft Products": [
+            {
+              "vendor": "Windows",
+              "product": "Win32k",
+              "cves": [
+                "CVE-2018-8453"
+              ],
+              "source_links": [
+                "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            }
+          ],
+          "Network Edge": [
+            {
+              "vendor": "Fortinet",
+              "product": "FortiOS",
+              "cves": [
+                "CVE-2018-13379"
+              ],
+              "source_links": [
+                "https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+                "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            },
+            {
+              "vendor": "Pulse Secure / Ivanti",
+              "product": "Pulse Connect Secure",
+              "cves": [
+                "CVE-2019-11510"
+              ],
+              "source_links": [
+                "https://www.tenable.com/blog/cve-2019-11510-critical-pulse-connect-secure-vulnerability-used-in-sodinokibi-ransomware?utm_source=cyber_exposure_alert&utm_medium=tenable_blog&utm_campaign=pulse_connect_secure_zero_day",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            },
+            {
+              "vendor": "Pulse Secure / Ivanti",
+              "product": "Pulse Connect Secure & Pulse Policy Secure",
+              "cves": [
+                "CVE-2019-11539"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a",
+                "https://www.sentinelone.com/anthology/revil/"
+              ],
+              "source_file": "Vulnerabilities/NetworkEdge.md"
+            }
+          ],
+          "Virtualization": [
+            {
+              "vendor": "Citrix",
+              "product": "NetScaler ADC & Gateway & SD-WAN",
+              "cves": [
+                "CVE-2019-19781"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a",
+                "https://www.sentinelone.com/anthology/revil/"
+              ],
+              "source_file": "Vulnerabilities/Virtualization.md"
+            }
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/revil.md",
@@ -69544,7 +73447,7 @@
     ],
     "first_seen": "2018",
     "last_activity": "2021",
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": "Critical",
     "source_name": null,
     "source_attribution": "Manually curated from open source intelligence",
@@ -69552,6 +73455,104 @@
     "source_license": null,
     "source_license_url": null,
     "provenance": {
+      "ransomware_vulnerability_matrix": {
+        "references": [
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "thedfirreport.com",
+            "url": "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "welivesecurity.com",
+            "url": "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Vulnerabilities/Microsoft.md"
+        ],
+        "source_label": "Ryuk",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Microsoft Products": [
+            {
+              "vendor": "Windows",
+              "product": "NetLogon",
+              "cves": [
+                "CVE-2020-1472"
+              ],
+              "source_links": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a",
+                "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware",
+                "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
+                "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a",
+                "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+                "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            }
+          ]
+        }
+      }
     },
     "page_path": "_threat_actors/ryuk.md",
     "headings": [
@@ -79623,7 +83624,7 @@
     ],
     "first_seen": null,
     "last_activity": null,
-    "last_updated": null,
+    "last_updated": "2026-04-28",
     "risk_level": null,
     "source_name": null,
     "source_attribution": "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)",
@@ -79635,6 +83636,39 @@
         "source_dataset_url": "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json",
         "source_record_id": "981402be-3b2d-4310-a7c6-c773aec869c1",
         "source_retrieved_at": "2026-04-26T05:47:15Z"
+      },
+      "ransomware_vulnerability_matrix": {
+        "references": [
+          {
+            "title": "microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2025/07/22/disrupting-active-exploitation-of-on-premises-sharepoint-vulnerabilities/#storm-2603",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Vulnerabilities/Microsoft.md"
+        ],
+        "source_label": "Storm-2603",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Microsoft Products": [
+            {
+              "vendor": "MS Server Products",
+              "product": "SharePoint Server",
+              "cves": [
+                "CVE-2025-49704",
+                "CVE-2025-49706"
+              ],
+              "source_links": [
+                "https://www.microsoft.com/en-us/security/blog/2025/07/22/disrupting-active-exploitation-of-on-premises-sharepoint-vulnerabilities/#storm-2603"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            }
+          ]
+        }
       }
     },
     "page_path": "_threat_actors/storm-2603.md",
@@ -98093,6 +102127,85 @@
           ],
           "RMM Tools": [
             "PowerAdmin"
+          ]
+        }
+      },
+      "ransomware_vulnerability_matrix": {
+        "references": [
+          {
+            "title": "blog.talosintelligence.com",
+            "url": "https://blog.talosintelligence.com/vice-society-ransomware-printnightmare/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "cisa.gov",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "crowdstrike.com",
+            "url": "https://www.crowdstrike.com/en-us/blog/magniber-ransomware-caught-using-printnightmare-vulnerability/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "microsoft.com",
+            "url": "https://www.microsoft.com/en-us/security/blog/2022/10/25/dev-0832-vice-society-opportunistic-ransomware-campaigns-impacting-us-education-sector/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "securelist.com",
+            "url": "https://securelist.com/cuba-ransomware/110533/",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          },
+          {
+            "title": "security.com",
+            "url": "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor",
+            "source_file": "Vulnerabilities/Microsoft.md"
+          }
+        ],
+        "source_attribution": "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence.",
+        "source_dataset_url": "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1",
+        "source_files": [
+          "Vulnerabilities/Microsoft.md"
+        ],
+        "source_label": "Vice Society",
+        "source_repository": "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix",
+        "source_retrieved_at": "2026-04-28T02:11:22Z",
+        "vulnerabilities_by_category": {
+          "Microsoft Products": [
+            {
+              "vendor": "Windows",
+              "product": "CLFS",
+              "cves": [
+                "CVE-2022-24521"
+              ],
+              "source_links": [
+                "https://securelist.com/cuba-ransomware/110533/",
+                "https://www.microsoft.com/en-us/security/blog/2022/10/25/dev-0832-vice-society-opportunistic-ransomware-campaigns-impacting-us-education-sector/",
+                "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            },
+            {
+              "vendor": "Windows",
+              "product": "Print Spooler",
+              "cves": [
+                "CVE-2021-1675",
+                "CVE-2021-34527"
+              ],
+              "source_links": [
+                "https://blog.talosintelligence.com/vice-society-ransomware-printnightmare/",
+                "https://www.crowdstrike.com/en-us/blog/magniber-ransomware-caught-using-printnightmare-vulnerability/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+                "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware"
+              ],
+              "source_file": "Vulnerabilities/Microsoft.md"
+            }
           ]
         }
       }

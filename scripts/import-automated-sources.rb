@@ -72,6 +72,14 @@ SOURCES = [
     snapshot_root: 'data/imports/ransomware-tool-matrix',
     report_name: 'ransomware-tool-matrix-report.json',
     fetch_limit: false
+  ),
+  Source.new(
+    key: 'ransomware-vulnerability-matrix',
+    label: 'BushidoUK Ransomware Vulnerability Matrix',
+    script: 'scripts/import-ransomware-vulnerability-matrix.rb',
+    snapshot_root: 'data/imports/ransomware-vulnerability-matrix',
+    report_name: 'ransomware-vulnerability-matrix-report.json',
+    fetch_limit: false
   )
 ].freeze
 

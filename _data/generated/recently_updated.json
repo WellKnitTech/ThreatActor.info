@@ -19,6 +19,23 @@
     "ioc_count": 0
   },
   {
+    "name": "Storm-2603",
+    "aliases": [
+      "Storm-2603"
+    ],
+    "description": "The group Microsoft tracks as Storm-2603 is assessed with medium confidence to be a China-based threat actor. Microsoft has not identified links between Storm-2603 and other known Chinese threat actors. Microsoft tracks this threat actor in association with attempts to steal MachineKeys via the on-premises SharePoint vulnerabilities. Although Microsoft has observed this threat actor deploying Warlock and Lockbit ransomware in the past, Microsoft is currently unable to confidently assess the threat actor’s objectives.  Additional actors may use these exploits to target unpatched on-premises SharePoint systems, further emphasizing the need for organizations to implement mitigations and security updates immediately.",
+    "url": "/storm-2603",
+    "permalink": "/storm-2603/",
+    "country": "China",
+    "sector_focus": [
+
+    ],
+    "risk_level": null,
+    "last_updated": "2026-04-28",
+    "last_activity": null,
+    "ioc_count": 0
+  },
+  {
     "name": "SafePay",
     "aliases": [
       "SafePay Ransomware"
@@ -36,6 +53,25 @@
     "risk_level": "High",
     "last_updated": "2026-04-28",
     "last_activity": "2025",
+    "ioc_count": 0
+  },
+  {
+    "name": "Ryuk",
+    "aliases": [
+      "Wizard Spider"
+    ],
+    "description": "Ryuk is a ransomware operation known for targeting large organizations and demanding high ransom payments.",
+    "url": "/ryuk",
+    "permalink": "/ryuk/",
+    "country": "Russia",
+    "sector_focus": [
+      "Healthcare",
+      "Government",
+      "Education"
+    ],
+    "risk_level": "Critical",
+    "last_updated": "2026-04-28",
+    "last_activity": "2021",
     "ioc_count": 0
   },
   {
@@ -193,42 +229,6 @@
     "risk_level": "High",
     "last_updated": "2026-04-28",
     "last_activity": "2020",
-    "ioc_count": 0
-  },
-  {
-    "name": "Lynx",
-    "aliases": [
-      "Lynx"
-    ],
-    "description": "Lynx is an active ransomware-as-a-service operation tracked by RansomLook.",
-    "url": "/lynx",
-    "permalink": "/lynx/",
-    "country": null,
-    "sector_focus": [
-
-    ],
-    "risk_level": null,
-    "last_updated": "2026-04-28",
-    "last_activity": null,
-    "ioc_count": 0
-  },
-  {
-    "name": "LockBit",
-    "aliases": [
-      "ABCD Ransomware"
-    ],
-    "description": "LockBit is a ransomware-as-a-service operation known for its fast encryption and double extortion tactics.",
-    "url": "/lockbit",
-    "permalink": "/lockbit/",
-    "country": "Russia",
-    "sector_focus": [
-      "Critical Infrastructure",
-      "Healthcare",
-      "Education"
-    ],
-    "risk_level": "Critical",
-    "last_updated": "2026-04-28",
-    "last_activity": "2024",
     "ioc_count": 0
   }
 ]

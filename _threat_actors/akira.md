@@ -25,7 +25,20 @@ Akira is a ransomware variant and ransomware deployment entity active since at l
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Group Profile, Network Edge | Cisco | ASA & FTD | CVE-2020-3259 |
+| Group Profile | Cisco | ASA & FTD | CVE-2023-20263 |
+| Group Profile, Network Edge | Cisco | ASA & FTD | CVE-2023-20269 |
+| Group Profile | Fortinet | FortiClient | CVE-2023-48788 |
+| Group Profile, Network Edge | Fortinet | FortiOS | CVE-2019-6693 |
+| Group Profile, Network Edge | Fortinet | FortiOS | CVE-2022-40684 |
+| Group Profile, Network Edge | SonicWall | SonicOS SSL-VPN | CVE-2024-40766 |
+| Group Profile, Virtualization | VMware | ESXi | CVE-2024-37085 |
+| Group Profile, Virtualization | VMware | vSphere Client | CVE-2021-21972 |
+| Applications, Group Profile | Veeam | Backup & Replication | CVE-2023-27532 |
+| Applications, Group Profile | Veeam | Backup & Replication | CVE-2024-40711 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*

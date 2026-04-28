@@ -60,3 +60,155 @@ provenance:
       LOLBAS: ["BITSAdmin","NTDS Utility (ntdsutil)","PsExec","WMIC"]
       OffSec: ["Cobalt Strike","Metasploit","Meterpreter","PowerShell Empire","PowerSploit","Rubeus"]
       RMM Tools: ["AnyDesk","Atera","Splashtop"]
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "blog.talosintelligence.com"
+        url: "https://blog.talosintelligence.com/vice-society-ransomware-printnightmare/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "crowdstrike.com"
+        url: "https://www.crowdstrike.com/en-us/blog/magniber-ransomware-caught-using-printnightmare-vulnerability/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "microsoft.com"
+        url: "https://www.microsoft.com/en-us/security/blog/2021/09/15/analyzing-attacks-that-exploit-the-mshtml-cve-2021-40444-vulnerability/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "securelist.com"
+        url: "https://securelist.com/cuba-ransomware/110533/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "sophos.com"
+        url: "https://news.sophos.com/en-us/2021/09/03/conti-affiliates-use-proxyshell-exchange-exploit-in-ransomware-attacks/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "tenable.com"
+        url: "https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2022/04/04/stolen-images-campaign-ends-in-conti-ransomware/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "trendmicro.com"
+        url: "https://www.trendmicro.com/en_gb/research/22/d/an-investigation-of-the-blackcat-ransomware.html"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "trendmicro.com"
+        url: "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-avoslocker"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "trendmicro.com"
+        url: "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-cuba"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "trendmicro.com"
+        url: "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "welivesecurity.com"
+        url: "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/"
+        source_file: "Vulnerabilities/Microsoft.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["Vulnerabilities/Microsoft.md","Vulnerabilities/NetworkEdge.md","Vulnerabilities/Virtualization.md"]
+    source_label: "Conti"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-04-28T02:11:22Z"
+    vulnerabilities_by_category:
+      Microsoft Products:
+        - vendor: "MS Server Products"
+          product: "Exchange On-Prem"
+          cves: ["CVE-2020-0688"]
+          source_links: ["https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "MS Server Products"
+          product: "Exchange On-Prem"
+          cves: ["CVE-2021-26855","CVE-2021-26857","CVE-2021-26858","CVE-2021-27065"]
+          source_links: ["https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates","https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-cuba","https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-avoslocker"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "MS Server Products"
+          product: "Exchange On-Prem"
+          cves: ["CVE-2021-31207","CVE-2021-34473","CVE-2021-34523"]
+          source_links: ["https://news.sophos.com/en-us/2021/09/03/conti-affiliates-use-proxyshell-exchange-exploit-in-ransomware-attacks/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a","https://securelist.com/cuba-ransomware/110533/","https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-avoslocker","https://www.trendmicro.com/en_gb/research/22/d/an-investigation-of-the-blackcat-ransomware.html","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "MS Server Products"
+          product: "SMBv3"
+          cves: ["CVE-2020-0796"]
+          source_links: ["https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "Active Directory"
+          cves: ["CVE-2021-42278","CVE-2021-42287"]
+          source_links: ["https://thedfirreport.com/2022/04/04/stolen-images-campaign-ends-in-conti-ransomware/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "MSHTML"
+          cves: ["CVE-2021-40444"]
+          source_links: ["https://www.microsoft.com/en-us/security/blog/2021/09/15/analyzing-attacks-that-exploit-the-mshtml-cve-2021-40444-vulnerability/"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "NetLogon"
+          cves: ["CVE-2020-1472"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a","https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware","https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/","https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a","https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "Print Spooler"
+          cves: ["CVE-2021-1675","CVE-2021-34527"]
+          source_links: ["https://blog.talosintelligence.com/vice-society-ransomware-printnightmare/","https://www.crowdstrike.com/en-us/blog/magniber-ransomware-caught-using-printnightmare-vulnerability/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "Remote Desktop Gateway"
+          cves: ["CVE-2020-0609"]
+          source_links: ["https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates"]
+          source_file: "Vulnerabilities/Microsoft.md"
+      Network Edge:
+        - vendor: "Fortinet"
+          product: "FortiOS"
+          cves: ["CVE-2018-13374"]
+          source_links: ["https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+        - vendor: "Fortinet"
+          product: "FortiOS"
+          cves: ["CVE-2018-13379"]
+          source_links: ["https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a","https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+      Virtualization:
+        - vendor: "VMware"
+          product: "vCenter Server"
+          cves: ["CVE-2021-22005"]
+          source_links: ["https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates"]
+          source_file: "Vulnerabilities/Virtualization.md"
+        - vendor: "VMware"
+          product: "vSphere Client"
+          cves: ["CVE-2021-21985"]
+          source_links: ["https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates"]
+          source_file: "Vulnerabilities/Virtualization.md"

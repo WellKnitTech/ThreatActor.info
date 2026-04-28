@@ -48,3 +48,112 @@ provenance:
     source_retrieved_at: "2026-04-28T01:51:36Z"
     tools_by_category:
       OffSec: ["Cobalt Strike","PowerShell Empire","TinyMet"]
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "@msftsecintel"
+        url: "https://x.com/msftsecintel/status/1722444141081076219"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "censys.io"
+        url: "https://censys.io/rce-zero-day-in-goanywhere-mft-cve-2023-0669/"
+        source_file: "Vulnerabilities/FileTransferServers.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a"
+        source_file: "Vulnerabilities/FileTransferServers.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+        source_file: "Vulnerabilities/FileTransferServers.md"
+      - title: "crowdstrike.com"
+        url: "https://www.crowdstrike.com/en-us/blog/crowdstrike-identifies-campaign-targeting-oracle-e-business-suite-zero-day-CVE-2025-61882/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "huntress.com"
+        url: "https://www.huntress.com/blog/threat-advisory-oh-no-cleo-cleo-software-actively-being-exploited-in-the-wild"
+        source_file: "Vulnerabilities/FileTransferServers.md"
+      - title: "mandiant.com"
+        url: "https://www.mandiant.com/resources/blog/accellion-fta-exploited-for-data-theft-and-extortion"
+        source_file: "Vulnerabilities/FileTransferServers.md"
+      - title: "research.nccgroup.com"
+        url: "https://research.nccgroup.com/2021/11/08/ta505-exploits-solarwinds-serv-u-vulnerability-cve-2021-35211-for-initial-access/"
+        source_file: "Vulnerabilities/FileTransferServers.md"
+      - title: "twitter.com/MsftSecIntel"
+        url: "https://twitter.com/MsftSecIntel/status/1651346653901725696"
+        source_file: "GroupProfiles/Clop.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/Clop.md","Vulnerabilities/Applications.md","Vulnerabilities/FileTransferServers.md"]
+    source_label: "Clop"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-04-28T02:11:22Z"
+    vulnerabilities_by_category:
+      Applications:
+        - vendor: "Oracle"
+          product: "E-Business"
+          cves: ["CVE-2025-61882"]
+          source_links: ["https://www.crowdstrike.com/en-us/blog/crowdstrike-identifies-campaign-targeting-oracle-e-business-suite-zero-day-CVE-2025-61882/"]
+          source_file: "Vulnerabilities/Applications.md"
+        - vendor: "SysAid"
+          product: "SysAid On-Prem"
+          cves: ["CVE-2023-47246"]
+          source_links: ["https://x.com/msftsecintel/status/1722444141081076219"]
+          source_file: "Vulnerabilities/Applications.md"
+      File Transfer Servers:
+        - vendor: "Accellion"
+          product: "Accellion File Transfer Appliance"
+          cves: ["CVE-2021-27101","CVE-2021-27102","CVE-2021-27103","CVE-2021-27104"]
+          source_links: ["https://www.mandiant.com/resources/blog/accellion-fta-exploited-for-data-theft-and-extortion"]
+          source_file: "Vulnerabilities/FileTransferServers.md"
+        - vendor: "Cleo"
+          product: "Cleo VLTrader, Harmony, LexiCom"
+          cves: ["CVE-2024-55956"]
+          source_links: ["https://www.huntress.com/blog/threat-advisory-oh-no-cleo-cleo-software-actively-being-exploited-in-the-wild"]
+          source_file: "Vulnerabilities/FileTransferServers.md"
+        - vendor: "Fortra"
+          product: "GoAnywhere Managed File Transfer"
+          cves: ["CVE-2023-0669"]
+          source_links: ["https://censys.io/rce-zero-day-in-goanywhere-mft-cve-2023-0669/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"]
+          source_file: "Vulnerabilities/FileTransferServers.md"
+        - vendor: "Progress Software"
+          product: "MOVEit"
+          cves: ["CVE-2023-34362"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a"]
+          source_file: "Vulnerabilities/FileTransferServers.md"
+        - vendor: "SolarWinds"
+          product: "SolarWinds Serv-U FTP"
+          cves: ["CVE-2021-35211"]
+          source_links: ["https://research.nccgroup.com/2021/11/08/ta505-exploits-solarwinds-serv-u-vulnerability-cve-2021-35211-for-initial-access/"]
+          source_file: "Vulnerabilities/FileTransferServers.md"
+      Group Profile:
+        - vendor: "Accellion"
+          product: "Accellion File Transfer Appliance"
+          cves: ["CVE-2021-27101","CVE-2021-27102","CVE-2021-27103","CVE-2021-27104"]
+          source_links: ["https://www.mandiant.com/resources/blog/accellion-fta-exploited-for-data-theft-and-extortion"]
+          source_file: "GroupProfiles/Clop.md"
+        - vendor: "Cleo"
+          product: "Cleo VLTrader, Harmony, LexiCom"
+          cves: ["CVE-2024-55956"]
+          source_links: ["https://www.huntress.com/blog/threat-advisory-oh-no-cleo-cleo-software-actively-being-exploited-in-the-wild"]
+          source_file: "GroupProfiles/Clop.md"
+        - vendor: "Fortra"
+          product: "GoAnywhere Managed File Transfer"
+          cves: ["CVE-2023-0669"]
+          source_links: ["https://censys.io/rce-zero-day-in-goanywhere-mft-cve-2023-0669/"]
+          source_file: "GroupProfiles/Clop.md"
+        - vendor: "Oracle"
+          product: "E-Business"
+          cves: ["CVE-2025-61882"]
+          source_links: ["https://www.crowdstrike.com/en-us/blog/crowdstrike-identifies-campaign-targeting-oracle-e-business-suite-zero-day-CVE-2025-61882/"]
+          source_file: "GroupProfiles/Clop.md"
+        - vendor: "PaperCut"
+          product: "PaperCut Application Server"
+          cves: ["CVE-2023-27350","CVE-2023-27351"]
+          source_links: ["https://twitter.com/MsftSecIntel/status/1651346653901725696"]
+          source_file: "GroupProfiles/Clop.md"
+        - vendor: "Progress Software"
+          product: "MOVEit"
+          cves: ["CVE-2023-34362"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a"]
+          source_file: "GroupProfiles/Clop.md"
+        - vendor: "SolarWinds"
+          product: "SolarWinds Serv-U FTP"
+          cves: ["CVE-2021-35211"]
+          source_links: ["https://research.nccgroup.com/2021/11/08/ta505-exploits-solarwinds-serv-u-vulnerability-cve-2021-35211-for-initial-access/"]
+          source_file: "GroupProfiles/Clop.md"

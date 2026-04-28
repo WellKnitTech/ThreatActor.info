@@ -39,3 +39,81 @@ provenance:
       Exfiltration: ["PrivatLab","RClone","Sendspace"]
       LOLBAS: ["BITSAdmin"]
       OffSec: ["Cobalt Strike"]
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "sentinelone.com"
+        url: "https://www.sentinelone.com/anthology/revil/"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "tenable.com"
+        url: "https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "tenable.com"
+        url: "https://www.tenable.com/blog/cve-2019-11510-critical-pulse-connect-secure-vulnerability-used-in-sodinokibi-ransomware?utm_source=cyber_exposure_alert&utm_medium=tenable_blog&utm_campaign=pulse_connect_secure_zero_day"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "tenable.com"
+        url: "https://www.tenable.com/blog/cve-2021-30116-multiple-zero-day-vulnerabilities-in-kaseya-vsa-exploited-to-distribute-ransomware"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "trendmicro.com"
+        url: "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil"
+        source_file: "Vulnerabilities/Applications.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["Vulnerabilities/Applications.md","Vulnerabilities/Microsoft.md","Vulnerabilities/NetworkEdge.md","Vulnerabilities/Virtualization.md"]
+    source_label: "REvil"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-04-28T02:11:22Z"
+    vulnerabilities_by_category:
+      Applications:
+        - vendor: "Kaseya"
+          product: "VSA"
+          cves: ["CVE-2021-30116"]
+          source_links: ["https://www.tenable.com/blog/cve-2021-30116-multiple-zero-day-vulnerabilities-in-kaseya-vsa-exploited-to-distribute-ransomware"]
+          source_file: "Vulnerabilities/Applications.md"
+        - vendor: "Oracle"
+          product: "WebLogic"
+          cves: ["CVE-2019-2725"]
+          source_links: ["https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil"]
+          source_file: "Vulnerabilities/Applications.md"
+      Microsoft Products:
+        - vendor: "Windows"
+          product: "Win32k"
+          cves: ["CVE-2018-8453"]
+          source_links: ["https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil"]
+          source_file: "Vulnerabilities/Microsoft.md"
+      Network Edge:
+        - vendor: "Fortinet"
+          product: "FortiOS"
+          cves: ["CVE-2018-13379"]
+          source_links: ["https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a","https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-revil","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+        - vendor: "Pulse Secure / Ivanti"
+          product: "Pulse Connect Secure"
+          cves: ["CVE-2019-11510"]
+          source_links: ["https://www.tenable.com/blog/cve-2019-11510-critical-pulse-connect-secure-vulnerability-used-in-sodinokibi-ransomware?utm_source=cyber_exposure_alert&utm_medium=tenable_blog&utm_campaign=pulse_connect_secure_zero_day","https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+        - vendor: "Pulse Secure / Ivanti"
+          product: "Pulse Connect Secure & Pulse Policy Secure"
+          cves: ["CVE-2019-11539"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a","https://www.sentinelone.com/anthology/revil/"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+      Virtualization:
+        - vendor: "Citrix"
+          product: "NetScaler ADC & Gateway & SD-WAN"
+          cves: ["CVE-2019-19781"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a","https://www.sentinelone.com/anthology/revil/"]
+          source_file: "Vulnerabilities/Virtualization.md"
