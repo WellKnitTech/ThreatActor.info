@@ -4,9 +4,9 @@ aliases:
 description: 拍拍熊组织（APT-C-37）针对极端组织“伊斯兰国”展开了有组织、有计划、针对性的长期不间断攻击，其攻击平台为Windows和Android。
 url: "/apt-c-37"
 malware:
-- name: DroidJack
-- name: Androrat
-- name: Windows Remote Desktop
+- DroidJack
+- Androrat
+- Windows Remote Desktop
 provenance:
   misp_galaxy:
     source_cluster: 360net.json

@@ -5,7 +5,7 @@ url: "/wisteria-tsunami"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware:
-  - name: "Offence"
+  - "Offence"
 provenance:
   misp_galaxy:
     source_cluster: "microsoft-activity-group.json"

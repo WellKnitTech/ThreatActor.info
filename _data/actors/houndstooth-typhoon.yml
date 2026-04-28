@@ -6,7 +6,7 @@ country: "China"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware:
-  - name: "China Chopper"
+  - "China Chopper"
 provenance:
   misp_galaxy:
     source_cluster: "microsoft-activity-group.json"

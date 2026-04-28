@@ -6,7 +6,7 @@ description: 2019年初，国外安全厂商披露了一起疑似卢甘斯克背
   RAT和VERMIN等恶意软件，捕获目标的音频和视频，窃取密码，获取机密文件等等。
 url: "/apt-c-46"
 malware:
-- name: Quasar RAT
+- Quasar RAT
 provenance:
   misp_galaxy:
     source_cluster: 360net.json

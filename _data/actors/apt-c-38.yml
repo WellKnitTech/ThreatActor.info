@@ -5,9 +5,9 @@ description: 从2015年7月起至今，军刀狮组织（APT-C-38）在中东地
   组织的命名规则，我们将该组织命名为军刀狮（APT-C-38）。
 url: "/apt-c-38"
 malware:
-- name: DroidJack
-- name: Androrat
-- name: Windows Remote Desktop
+- DroidJack
+- Androrat
+- Windows Remote Desktop
 provenance:
   misp_galaxy:
     source_cluster: 360net.json
