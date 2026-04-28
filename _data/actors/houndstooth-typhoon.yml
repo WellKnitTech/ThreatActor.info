@@ -1,0 +1,17 @@
+name: "Houndstooth Typhoon"
+aliases: ["HASSIUM","DRAGNET PANDA","isoon","deepclif","Houndstooth Typhoon"]
+description: "Microsoft threat actor profile. Origin/Threat: China."
+url: "/houndstooth-typhoon"
+country: "China"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "China Chopper"
+provenance:
+  misp_galaxy:
+    source_cluster: "microsoft-activity-group.json"
+    source_clusters: ["microsoft-activity-group.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
+    source_record_id: "7f875c7f-8209-5faa-877e-c0b5708d1a70"
+    source_record_ids: ["7f875c7f-8209-5faa-877e-c0b5708d1a70"]
+    source_retrieved_at: "2026-04-28T04:30:12Z"

@@ -1,0 +1,15 @@
+name: "Volga Flood"
+aliases: ["Storm-1841","Rybar","Volga Flood"]
+description: "Microsoft threat actor profile. Origin/Threat: Russia, Influence operations."
+url: "/volga-flood"
+country: "Russia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "microsoft-activity-group.json"
+    source_clusters: ["microsoft-activity-group.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
+    source_record_id: "5efac1a3-ede6-53d5-88d5-6c650df36cab"
+    source_record_ids: ["5efac1a3-ede6-53d5-88d5-6c650df36cab"]
+    source_retrieved_at: "2026-04-28T04:30:12Z"

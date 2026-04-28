@@ -1,0 +1,17 @@
+name: "Tumbleweed Typhoon"
+aliases: ["THORIUM","Karst","Tumbleweed Typhoon"]
+description: "Microsoft threat actor profile. Origin/Threat: China."
+url: "/tumbleweed-typhoon"
+country: "China"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "China Chopper"
+provenance:
+  misp_galaxy:
+    source_cluster: "microsoft-activity-group.json"
+    source_clusters: ["microsoft-activity-group.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
+    source_record_id: "c58445b5-0c8c-5844-83ef-5c3a7176f0e1"
+    source_record_ids: ["c58445b5-0c8c-5844-83ef-5c3a7176f0e1"]
+    source_retrieved_at: "2026-04-28T04:30:12Z"

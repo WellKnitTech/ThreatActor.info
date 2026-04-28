@@ -407,6 +407,8 @@ ruby scripts/import-ransomlook.rb plan --snapshot data/imports/ransomlook/2026-0
 
 Source: https://github.com/MISP/misp-galaxy (Apache 2.0 / CC0 licensed)
 
+Reviewed create/import decisions for the current focused cluster work live in `docs/misp-galaxy-triage.md`.
+
 ### Commands
 
 Fetch a snapshot:

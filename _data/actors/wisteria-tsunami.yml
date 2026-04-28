@@ -1,0 +1,16 @@
+name: "Wisteria Tsunami"
+aliases: ["DEV-0605","CyberRoot","MintedSoil","Wisteria Tsunami"]
+description: "Microsoft threat actor profile. Origin/Threat: India, Private sector offensive actor."
+url: "/wisteria-tsunami"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Offence"
+provenance:
+  misp_galaxy:
+    source_cluster: "microsoft-activity-group.json"
+    source_clusters: ["microsoft-activity-group.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
+    source_record_id: "2263b6c9-861a-5971-b882-9ea4a84fcf74"
+    source_record_ids: ["2263b6c9-861a-5971-b882-9ea4a84fcf74"]
+    source_retrieved_at: "2026-04-28T04:30:12Z"
