@@ -76,6 +76,7 @@ APT28 is a threat group that has been attributed to Russia's General Staff Main 
 - **PixyNetLoader**
 
 ### Russian APT Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Credential Theft | Mimikatz |

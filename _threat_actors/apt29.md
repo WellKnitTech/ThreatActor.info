@@ -46,6 +46,7 @@ APT29 is threat group that has been attributed to Russia's Foreign Intelligence 
 - **CyberGate**
 
 ### Russian APT Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Credential Theft | CookieEditor, Mimikatz, SharpChormium, SharpChromium |

@@ -31,6 +31,7 @@ Void Blizzard’s cyberespionage operations tend to be highly targeted at specif
 - **Blizzard**
 
 ### Russian APT Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Discovery | AzureHound |

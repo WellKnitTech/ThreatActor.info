@@ -23,6 +23,7 @@ Beast ransomware emerged in 2022 as an enhanced iteration of the earlier “Mons
 
 ## Malware and Tools
 ### Ransomware Tool Matrix observations
+
 | Category | Observed tools |
 |---|---|
 | Credential Theft | Automim, LaZagne, Mimikatz |
