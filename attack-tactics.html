@@ -27,6 +27,13 @@ permalink: /attack-tactics/
         <label for="tactic-hub-search">Filter:</label>
         <input type="text" id="tactic-hub-search" placeholder="TAxxxx or tactic name..." autocomplete="off">
       </div>
+      <div class="filter-group">
+        <label for="tactic-hub-scope">Show:</label>
+        <select id="tactic-hub-scope">
+          <option value="linked" selected>Only tactics with linked threat actors</option>
+          <option value="all">All tactics</option>
+        </select>
+      </div>
       <button type="button" id="tactic-hub-apply">Search</button>
       <button type="button" id="tactic-hub-clear" class="secondary">Clear</button>
     </div>
@@ -80,20 +87,29 @@ permalink: /attack-tactics/
 
     function filterList() {
       var term = document.getElementById('tactic-hub-search').value.trim().toLowerCase();
+      var scope = document.getElementById('tactic-hub-scope').value;
       var filtered = tactics.filter(function (t) {
+        var id = (t.mitre_id || '');
+        var actorCount = (byTactic[id] || []).length;
+        if (scope === 'linked' && actorCount === 0) return false;
+
         if (!term) return true;
-        var id = (t.mitre_id || '').toLowerCase();
+        var idLc = id.toLowerCase();
         var title = (t.title || '').toLowerCase();
-        return id.includes(term) || title.includes(term);
+        return idLc.includes(term) || title.includes(term);
       });
       render(filtered);
     }
 
+    filterList();
+
     document.getElementById('tactic-hub-apply').onclick = filterList;
     document.getElementById('tactic-hub-clear').onclick = function () {
       document.getElementById('tactic-hub-search').value = '';
-      render(tactics);
+      document.getElementById('tactic-hub-scope').value = 'linked';
+      filterList();
     };
+    document.getElementById('tactic-hub-scope').addEventListener('change', filterList);
     document.getElementById('tactic-hub-search').addEventListener('keypress', function (e) {
       if (e.key === 'Enter') filterList();
     });
