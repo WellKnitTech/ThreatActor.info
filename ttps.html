@@ -1,93 +1,309 @@
 ---
 layout: default
-title: TTP Database
+title: ATT&CK Matrix
+permalink: /ttps/
 ---
 
-<div class="malware-index">
+<div class="malware-index attack-matrix-page">
   <section class="hero">
-    <h1>🧭 TTP Database</h1>
-    <p class="hero-subtitle">Browse MITRE ATT&CK techniques and find where they map to threat activity in this project. For actors grouped by <strong>tactic</strong>, open <a href="{{ '/attack-tactics/' | relative_url }}">ATT&amp;CK Tactics</a>.</p>
+    <h1>ATT&amp;CK Matrix</h1>
+    <p class="hero-subtitle">
+      Enterprise ATT&amp;CK techniques arranged by tactic (columns). Actor counts come from technique citations on project threat actor pages.
+      Regenerate indexes after fetching MITRE data: <code>ruby scripts/generate-indexes.rb</code>.
+    </p>
     <div class="quick-stats">
       <div class="stat">
-        <span class="stat-number" id="ttp-count">-</span>
-        <span class="stat-label">Techniques</span>
+        <span class="stat-number" id="matrix-stat-tech">-</span>
+        <span class="stat-label">Techniques loaded</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" id="matrix-stat-tactics">-</span>
+        <span class="stat-label">Tactics</span>
       </div>
     </div>
   </section>
 
-  <section class="quick-filters">
-    <h2>Quick Filters</h2>
-    <div class="filter-chips">
+  <section class="quick-filters matrix-filters">
+    <h2 class="matrix-filters-heading">Filters</h2>
+    <div class="filter-chips matrix-filter-row">
+      <div class="filter-group filter-grow">
+        <label for="matrix-search">Search:</label>
+        <input type="text" id="matrix-search" placeholder="Txxxx, TAxxxx, technique or tactic name..." autocomplete="off">
+      </div>
       <div class="filter-group">
-        <label>Search:</label>
-        <input type="text" id="ttp-search" placeholder="Search by T-ID or name...">
+        <label for="matrix-scope">Show:</label>
+        <select id="matrix-scope">
+          <option value="linked" selected>Only with linked threat actors</option>
+          <option value="all">All techniques</option>
+        </select>
       </div>
-      <button id="apply-filters-btn">Search</button>
-      <button id="clear-filters-btn" class="secondary">Clear</button>
+      <div class="filter-group matrix-option">
+        <label><input type="checkbox" id="matrix-hide-subs"> Hide sub-techniques</label>
+      </div>
+      <button type="button" id="matrix-apply">Apply</button>
+      <button type="button" id="matrix-clear" class="secondary">Clear</button>
+      <p class="matrix-counter" id="matrix-counter" aria-live="polite"></p>
     </div>
   </section>
 
-  <section class="malware-section">
-    <div class="malware-grid" id="ttp-grid"></div>
+  <section class="matrix-section">
+    <div class="attack-matrix-wrap">
+      <div class="attack-matrix" id="attack-matrix" data-baseurl="{{ site.baseurl }}" role="region" aria-label="ATT&amp;CK tactic matrix"></div>
+    </div>
+    <p class="load-placeholder" id="matrix-loading">Loading matrix…</p>
+    <p class="load-error" id="matrix-error" hidden>Unable to load ATT&amp;CK data.</p>
   </section>
 </div>
 
 <script>
-  Promise.all([
-    fetch('/api/techniques.json').then(r => r.json()),
-    fetch('/api/actors_by_technique.json').then(r => r.json()).catch(() => ({}))
-  ]).then(([techniques, actorsByTechnique]) => {
-    const list = techniques || [];
-    document.getElementById('ttp-count').textContent = list.length;
-    renderTtps(list, actorsByTechnique);
-    setupFilters(list, actorsByTechnique);
-  }).catch(() => {
-    document.getElementById('ttp-grid').innerHTML = '<p class="load-error">Unable to load TTP data.</p>';
-  });
-
-  function renderTtps(list, actorsByTechnique) {
-    const grid = document.getElementById('ttp-grid');
-    grid.innerHTML = list.map(t => {
-      const id = t.mitre_id || '';
-      const actors = actorsByTechnique[id] || [];
-      return `
-      <div class="malware-card">
-        <h3><a href="${t.permalink || '#'}">${esc(t.title || id)}</a></h3>
-        <div class="card-meta">
-          ${id ? `<span class="category">${esc(id)}</span>` : ''}
-          ${(t.domains || []).length ? `<span class="category">${esc((t.domains || []).join(', '))}</span>` : ''}
-        </div>
-        <p class="card-desc">Mapped to <strong>${actors.length}</strong> threat actor${actors.length !== 1 ? 's' : ''}</p>
-        <a href="${t.permalink || '#'}" class="card-link">View details →</a>
-      </div>
-      `;
-    }).join('');
-  }
-
-  function setupFilters(list, actorsByTechnique) {
-    document.getElementById('apply-filters-btn').onclick = () => {
-      const term = document.getElementById('ttp-search').value.toLowerCase();
-      const filtered = list.filter(t =>
-        !term ||
-        (t.title || '').toLowerCase().includes(term) ||
-        (t.mitre_id || '').toLowerCase().includes(term)
-      );
-      renderTtps(filtered, actorsByTechnique);
-    };
-
-    document.getElementById('clear-filters-btn').onclick = () => {
-      document.getElementById('ttp-search').value = '';
-      renderTtps(list, actorsByTechnique);
-    };
-
-    document.getElementById('ttp-search').addEventListener('keypress', e => {
-      if (e.key === 'Enter') {
-        document.getElementById('apply-filters-btn').click();
-      }
-    });
-  }
+(function () {
+  const BASE = '{{ site.baseurl }}' || '';
+  const endpoints = {
+    tactics: BASE + '/api/tactics.json',
+    techniques: BASE + '/api/techniques.json',
+    techniqueTactics: BASE + '/api/technique-tactics.json',
+    actorsByTechnique: BASE + '/api/actors_by_technique.json',
+    actorsByTactic: BASE + '/api/actors_by_tactic.json'
+  };
 
   function esc(s) {
     return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
+
+  function parentBaseId(mid) {
+    const u = (mid || '').toUpperCase();
+    if (!u) return '';
+    const parts = u.split('.');
+    return parts[0];
+  }
+
+  function isSubTechnique(mid) {
+    return /\.\d{3}$/.test((mid || '').toUpperCase());
+  }
+
+  function actorCount(map, id) {
+    return (map[id] || []).length;
+  }
+
+  Promise.all([
+    fetch(endpoints.tactics).then(function (r) { return r.json(); }),
+    fetch(endpoints.techniques).then(function (r) { return r.json(); }),
+    fetch(endpoints.techniqueTactics).then(function (r) { return r.json(); }).catch(function () { return {}; }),
+    fetch(endpoints.actorsByTechnique).then(function (r) { return r.json(); }).catch(function () { return {}; }),
+    fetch(endpoints.actorsByTactic).then(function (r) { return r.json(); }).catch(function () { return {}; })
+  ]).then(function (results) {
+    document.getElementById('matrix-loading').hidden = true;
+
+    var tactics = results[0] || [];
+    var techniques = results[1] || [];
+    var techToTactics = results[2] || {};
+    var actorsByTech = results[3] || {};
+    var actorsByTactic = results[4] || {};
+
+    document.getElementById('matrix-stat-tech').textContent = techniques.length;
+    document.getElementById('matrix-stat-tactics').textContent = tactics.length;
+
+    var tacticMeta = {};
+    tactics.forEach(function (t) {
+      var id = (t.mitre_id || '').toUpperCase();
+      if (id) tacticMeta[id] = t;
+    });
+
+    var techById = {};
+    techniques.forEach(function (t) {
+      var id = (t.mitre_id || '').toUpperCase();
+      if (id) techById[id] = t;
+    });
+
+    function tacticsForTechnique(tid) {
+      var list = techToTactics[tid] || techToTactics[tid.toUpperCase()] || [];
+      return list.map(function (x) { return String(x).toUpperCase(); });
+    }
+
+    function applyFilters() {
+      var term = document.getElementById('matrix-search').value.trim().toLowerCase();
+      var scope = document.getElementById('matrix-scope').value;
+      var hideSubs = document.getElementById('matrix-hide-subs').checked;
+
+      var base = techniques.filter(function (t) {
+        var id = (t.mitre_id || '').toUpperCase();
+        if (!id) return false;
+        if (hideSubs && isSubTechnique(id)) return false;
+        var n = actorCount(actorsByTech, id);
+        if (scope === 'linked' && n === 0) return false;
+        return true;
+      });
+
+      function termMatchesTech(t, tacticId, tacticTitle) {
+        if (!term) return true;
+        var id = (t.mitre_id || '').toLowerCase();
+        var title = (t.title || '').toLowerCase();
+        if (id.includes(term) || title.includes(term)) return true;
+        if ((tacticId || '').toLowerCase().includes(term)) return true;
+        if ((tacticTitle || '').toLowerCase().includes(term)) return true;
+        return false;
+      }
+
+      var matrixEl = document.getElementById('attack-matrix');
+      matrixEl.innerHTML = '';
+
+      var tacticOrder = tactics.map(function (t) { return (t.mitre_id || '').toUpperCase(); }).filter(Boolean);
+
+      var visibleTechTotal = 0;
+      var visibleTacticCols = 0;
+
+      function mitreTechUrl(id) {
+        var u = (id || '').toUpperCase();
+        if (!u || u[0] !== 'T') return '#';
+        if (u.indexOf('.') !== -1) {
+          var parts = u.split('.');
+          return 'https://attack.mitre.org/techniques/' + parts[0] + '/' + parts[1] + '/';
+        }
+        return 'https://attack.mitre.org/techniques/' + u + '/';
+      }
+
+      tacticOrder.forEach(function (ta) {
+        var tmeta = tacticMeta[ta] || {};
+        var taTitle = tmeta.title || ta;
+        var taHref = tmeta.permalink ? BASE + tmeta.permalink : '#';
+        var taActors = actorCount(actorsByTactic, ta);
+
+        var inColumn = base.filter(function (t) {
+          var tid = (t.mitre_id || '').toUpperCase();
+          var tas = tacticsForTechnique(tid);
+          if (tas.indexOf(ta) === -1) return false;
+          return termMatchesTech(t, ta, taTitle);
+        });
+
+        var byParent = {};
+        inColumn.forEach(function (t) {
+          var tid = (t.mitre_id || '').toUpperCase();
+          var pb = parentBaseId(tid);
+          if (!byParent[pb]) byParent[pb] = { parent: null, subs: [] };
+          if (isSubTechnique(tid)) {
+            byParent[pb].subs.push(t);
+          } else {
+            byParent[pb].parent = t;
+          }
+        });
+
+        Object.keys(byParent).forEach(function (pb) {
+          var g = byParent[pb];
+          if (!g.parent) {
+            g.parent = techById[pb] || {
+              mitre_id: pb,
+              title: pb,
+              permalink: mitreTechUrl(pb)
+            };
+          }
+        });
+
+        var rows = Object.keys(byParent).map(function (k) { return byParent[k]; });
+        rows.sort(function (a, b) {
+          return (a.parent.mitre_id || '').localeCompare(b.parent.mitre_id || '');
+        });
+        rows.forEach(function (row) {
+          row.subs.sort(function (a, b) { return (a.mitre_id || '').localeCompare(b.mitre_id || ''); });
+        });
+
+        if (!rows.length) return;
+
+        visibleTacticCols += 1;
+        rows.forEach(function (row) {
+          visibleTechTotal += 1 + row.subs.length;
+        });
+
+        var col = document.createElement('section');
+        col.className = 'matrix-col';
+        col.setAttribute('data-tactic', ta);
+
+        var head = document.createElement('header');
+        head.className = 'matrix-col-header';
+        head.innerHTML =
+          '<a class="matrix-col-title" href="' + esc(taHref) + '">' +
+          '<span class="matrix-col-name">' + esc(taTitle) + '</span>' +
+          '<span class="matrix-col-id">' + esc(ta) + '</span>' +
+          '</a>' +
+          '<span class="matrix-col-actors">' + taActors + ' actor' + (taActors !== 1 ? 's' : '') + '</span>';
+
+        var body = document.createElement('div');
+        body.className = 'matrix-col-body';
+
+        rows.forEach(function (row) {
+          var p = row.parent;
+          var pid = (p.mitre_id || '').toUpperCase();
+          var pn = actorCount(actorsByTech, pid);
+          var ph = p.permalink ? BASE + p.permalink : '#';
+
+          var card = document.createElement('article');
+          card.className = 'matrix-cell';
+          card.innerHTML =
+            '<a class="matrix-cell-main" href="' + esc(ph) + '">' +
+            '<span class="matrix-cell-id">' + esc(pid) + '</span>' +
+            '<span class="matrix-cell-title">' + esc(p.title || pid) + '</span>' +
+            '</a>' +
+            '<span class="matrix-cell-badge" title="Threat actors in project">' + pn + '</span>';
+
+          if (row.subs.length) {
+            var det = document.createElement('details');
+            det.className = 'matrix-cell-subs';
+            det.innerHTML =
+              '<summary class="matrix-cell-toggle">' + row.subs.length + ' sub-technique' + (row.subs.length !== 1 ? 's' : '') + '</summary>' +
+              '<div class="matrix-subs-list"></div>';
+            var sl = det.querySelector('.matrix-subs-list');
+            row.subs.forEach(function (st) {
+              var sid = (st.mitre_id || '').toUpperCase();
+              var sn = actorCount(actorsByTech, sid);
+              var sh = st.permalink ? BASE + st.permalink : '#';
+              var rowEl = document.createElement('div');
+              rowEl.className = 'matrix-cell matrix-cell-sub';
+              rowEl.innerHTML =
+                '<a class="matrix-cell-main" href="' + esc(sh) + '">' +
+                '<span class="matrix-cell-id">' + esc(sid) + '</span>' +
+                '<span class="matrix-cell-title">' + esc(st.title || sid) + '</span>' +
+                '</a>' +
+                '<span class="matrix-cell-badge">' + sn + '</span>';
+              sl.appendChild(rowEl);
+            });
+            body.appendChild(card);
+            body.appendChild(det);
+          } else {
+            body.appendChild(card);
+          }
+        });
+
+        col.appendChild(head);
+        col.appendChild(body);
+        matrixEl.appendChild(col);
+      });
+
+      document.getElementById('matrix-counter').textContent =
+        'Showing ' + visibleTechTotal + ' technique row' + (visibleTechTotal !== 1 ? 's' : '') +
+        ' across ' + visibleTacticCols + ' tactic column' + (visibleTacticCols !== 1 ? 's' : '') + '.';
+
+      if (!matrixEl.children.length) {
+        matrixEl.innerHTML = '<p class="matrix-empty">No techniques match the current filters.</p>';
+        document.getElementById('matrix-counter').textContent = 'No matching techniques.';
+      }
+    }
+
+    document.getElementById('matrix-apply').onclick = applyFilters;
+    document.getElementById('matrix-clear').onclick = function () {
+      document.getElementById('matrix-search').value = '';
+      document.getElementById('matrix-scope').value = 'linked';
+      document.getElementById('matrix-hide-subs').checked = false;
+      applyFilters();
+    };
+    document.getElementById('matrix-scope').addEventListener('change', applyFilters);
+    document.getElementById('matrix-hide-subs').addEventListener('change', applyFilters);
+    document.getElementById('matrix-search').addEventListener('keypress', function (e) {
+      if (e.key === 'Enter') applyFilters();
+    });
+
+    applyFilters();
+  }).catch(function () {
+    document.getElementById('matrix-loading').hidden = true;
+    document.getElementById('matrix-error').hidden = false;
+  });
+})();
 </script>
