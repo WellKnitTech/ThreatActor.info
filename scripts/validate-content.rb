@@ -65,6 +65,11 @@ class ContentValidator
     'api/software_by_actor.json',
     'api/search-index.json',
     'api/ioc-summary.json',
+    'api/categorized_adversary_by_group.json',
+    'api/categorized_pivot_by_industry.json',
+    'api/categorized_pivot_by_motivation.json',
+    'api/categorized_pivot_by_victim_country.json',
+    'api/categorized_adversary_meta.json',
     '_layouts/technique.html',
     '_layouts/tactic.html',
     '_layouts/campaign.html',
@@ -73,6 +78,7 @@ class ContentValidator
     '_includes/ioc-browser.html',
     '_includes/tactic-actors.html',
     'attack-tactics.html',
+    'categorized-adversary-ttps.html',
     'iocs/index.html',
     'iocs/ip-address.html',
     'iocs/domain.html',
@@ -107,7 +113,12 @@ class ContentValidator
     '_data/generated/ioc_summary.json',
     '_data/generated/actors_by_tactic.json',
     '_data/generated/technique_tactics.json',
-    '_data/generated/attack_version.json'
+    '_data/generated/attack_version.json',
+    '_data/generated/categorized_adversary_by_group.json',
+    '_data/generated/categorized_pivot_by_industry.json',
+    '_data/generated/categorized_pivot_by_motivation.json',
+    '_data/generated/categorized_pivot_by_victim_country.json',
+    '_data/generated/categorized_adversary_meta.json'
   ].freeze
   GENERATED_JSON_FILES = [
     '_data/generated/threat_actors.json',
@@ -131,7 +142,12 @@ class ContentValidator
     '_data/generated/ioc_summary.json',
     '_data/generated/actors_by_tactic.json',
     '_data/generated/technique_tactics.json',
-    '_data/generated/attack_version.json'
+    '_data/generated/attack_version.json',
+    '_data/generated/categorized_adversary_by_group.json',
+    '_data/generated/categorized_pivot_by_industry.json',
+    '_data/generated/categorized_pivot_by_motivation.json',
+    '_data/generated/categorized_pivot_by_victim_country.json',
+    '_data/generated/categorized_adversary_meta.json'
   ].freeze
   GENERATED_API_WRAPPERS = {
     'api/threat-actors.json' => 'site.data.generated.threat_actors',
@@ -155,7 +171,12 @@ class ContentValidator
     'api/attack-version.json' => 'site.data.generated.attack_version',
     'api/software_by_actor.json' => 'site.data.generated.software_by_actor',
     'api/search-index.json' => 'site.data.generated.search_index',
-    'api/ioc-summary.json' => 'site.data.generated.ioc_summary'
+    'api/ioc-summary.json' => 'site.data.generated.ioc_summary',
+    'api/categorized_adversary_by_group.json' => 'site.data.generated.categorized_adversary_by_group',
+    'api/categorized_pivot_by_industry.json' => 'site.data.generated.categorized_pivot_by_industry',
+    'api/categorized_pivot_by_motivation.json' => 'site.data.generated.categorized_pivot_by_motivation',
+    'api/categorized_pivot_by_victim_country.json' => 'site.data.generated.categorized_pivot_by_victim_country',
+    'api/categorized_adversary_meta.json' => 'site.data.generated.categorized_adversary_meta'
   }.freeze
   SKIPPED_IOC_HEADINGS = ['Sources'].freeze
   IPV4_PATTERN = /\b(?:\d{1,3}\.){3}\d{1,3}\b/.freeze
@@ -655,7 +676,9 @@ class ContentValidator
          'campaigns_mitre.json'
       add_error(file, 'Generated JSON root must be an array') unless payload.is_a?(Array)
     when 'facets.json', 'ioc_lookup.json', 'ioc_types.json', 'malware_index.json', 'actors_by_technique.json',
-         'actors_by_tactic.json', 'technique_tactics.json', 'software_by_actor.json', 'search_index.json'
+         'actors_by_tactic.json', 'technique_tactics.json', 'software_by_actor.json', 'search_index.json',
+         'categorized_adversary_by_group.json', 'categorized_pivot_by_industry.json',
+         'categorized_pivot_by_motivation.json', 'categorized_pivot_by_victim_country.json'
       add_error(file, 'Generated JSON root must be an object') unless payload.is_a?(Hash)
     when 'ioc_summary.json'
       add_error(file, 'Generated JSON root must be an object') unless payload.is_a?(Hash)
@@ -670,6 +693,13 @@ class ContentValidator
         add_error(file, 'attack_version.json missing active_version') unless payload.key?('active_version')
         if payload['active_version'].to_s.strip.empty?
           add_error(file, 'attack_version.json active_version must be non-empty (run scripts/generate-indexes.rb with MITRE bundles available)')
+        end
+      end
+    when 'categorized_adversary_meta.json'
+      add_error(file, 'categorized_adversary_meta.json root must be an object') unless payload.is_a?(Hash)
+      if payload.is_a?(Hash)
+        %w[group_count source_repository].each do |k|
+          add_error(file, "categorized_adversary_meta.json missing key: #{k}") unless payload.key?(k)
         end
       end
     end

@@ -60,6 +60,14 @@ When MITRE ATT&CK STIX import has run, records may also include:
 - `mitre_software` (objects with `mitre_id`, `name`, `url`, `type`)
 - `mitre_campaigns_yaml` (objects with `campaign_id`, `name`, `url`)
 
+Actor YAML may expose MITRE group identifiers used for joins:
+
+- `mitre_id` / `external_id` — typically `G####` when aligned with ATT&CK groups.
+
+When a snapshot of [tropChaud/Categorized-Adversary-TTPs](https://github.com/tropChaud/Categorized-Adversary-TTPs) is present under `data/imports/categorized-adversary-ttps/`, matching actors may also include:
+
+- `categorized_adversary_ttps` — compact ETDA/ThaiCERT pivot metadata (`motivation`, `victim_industries`, `victim_countries`, `technique_count`, `etda_url`, etc.) keyed from the merged MITRE group ID.
+
 ### `/api/recently-updated.json`
 
 Array of actor records with `last_updated` values, sorted newest first for homepage freshness cards.
@@ -307,6 +315,26 @@ Object keyed by actor name listing MITRE `software` entries from actor YAML.
 ### `/api/search-index.json`
 
 Composite search payload with `actors`, `techniques`, and `campaigns` arrays for the site search UI.
+
+### `/api/categorized_adversary_meta.json`
+
+Single object describing the vendored **Categorized Adversary TTPs** snapshot: retrieval date, upstream repository URL, license (`MIT`), and `group_count`.
+
+### `/api/categorized_adversary_by_group.json`
+
+Object keyed by MITRE group ID (`G####`). Each value includes `mitre_attack_name`, `mitre_url`, `mitre_attack_ttps`, `technique_count`, ETDA fields (`etda_name`, `etda_url`, …), and pivot arrays (`motivation`, `victim_industries`, `victim_countries`).
+
+### `/api/categorized_pivot_by_industry.json`
+
+Object keyed by victim **industry** label. Each value is an object mapping technique ID strings to occurrence counts (derived from the merged dataset; used by `/categorized-adversary-ttps/`).
+
+### `/api/categorized_pivot_by_motivation.json`
+
+Object keyed by **motivation** category (for example information theft vs financial crime). Values are technique ID → count maps.
+
+### `/api/categorized_pivot_by_victim_country.json`
+
+Object keyed by **victim country** name. Values are technique ID → count maps.
 
 ## Limitations
 

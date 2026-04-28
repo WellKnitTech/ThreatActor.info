@@ -8,8 +8,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Monitor Process State",
@@ -20,8 +20,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Automated Collection",
@@ -32,8 +32,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Brute Force I/O",
@@ -44,8 +44,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Command-Line Interface",
@@ -56,8 +56,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Data Destruction",
@@ -68,8 +68,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Data from Information Repositories",
@@ -80,8 +80,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Denial of Control",
@@ -92,8 +92,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Denial of Service",
@@ -104,8 +104,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Denial of View",
@@ -116,8 +116,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Device Restart/Shutdown",
@@ -128,8 +128,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Drive-by Compromise",
@@ -140,8 +140,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Exploit Public-Facing Application",
@@ -152,8 +152,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Exploitation for Evasion",
@@ -164,8 +164,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Modify Controller Tasking",
@@ -176,8 +176,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "External Remote Services",
@@ -188,8 +188,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Graphical User Interface",
@@ -200,8 +200,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Loss of Availability",
@@ -212,8 +212,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Loss of Control",
@@ -224,8 +224,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Loss of Productivity and Revenue",
@@ -236,8 +236,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Loss of View",
@@ -248,8 +248,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Adversary-in-the-Middle",
@@ -260,8 +260,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Manipulation of Control",
@@ -272,8 +272,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Manipulation of View",
@@ -284,8 +284,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Native API",
@@ -296,8 +296,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Manipulate I/O Image",
@@ -308,8 +308,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Modify Parameter",
@@ -320,8 +320,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Loss of Protection",
@@ -332,8 +332,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Modify Alarm Settings",
@@ -344,8 +344,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Network Connection Enumeration",
@@ -356,8 +356,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Network Sniffing",
@@ -368,8 +368,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Program Download",
@@ -380,8 +380,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Download All",
@@ -392,8 +392,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Online Edit",
@@ -404,8 +404,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Program Append",
@@ -416,8 +416,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Program Upload",
@@ -428,8 +428,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Remote System Discovery",
@@ -440,8 +440,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Port Scan",
@@ -452,8 +452,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Broadcast Discovery",
@@ -464,8 +464,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Multicast Discovery",
@@ -476,8 +476,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Replication Through Removable Media",
@@ -488,8 +488,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Rogue Master",
@@ -500,8 +500,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Masquerading",
@@ -512,8 +512,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Rootkit",
@@ -524,8 +524,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Screen Capture",
@@ -536,8 +536,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Scripting",
@@ -548,8 +548,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Change Operating Mode",
@@ -560,8 +560,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Valid Accounts",
@@ -572,8 +572,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Wireless Compromise",
@@ -584,8 +584,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Point & Tag Identification",
@@ -596,8 +596,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Supply Chain Compromise",
@@ -608,8 +608,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "User Execution",
@@ -620,8 +620,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Transient Cyber Asset",
@@ -632,8 +632,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Spearphishing Attachment",
@@ -644,8 +644,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Exploitation of Remote Services",
@@ -656,8 +656,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Lateral Tool Transfer",
@@ -668,8 +668,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Detect Operating Mode",
@@ -680,8 +680,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Standard Application Layer Protocol",
@@ -692,8 +692,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Execution through API",
@@ -704,8 +704,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Indicator Removal on Host",
@@ -716,8 +716,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Project File Infection",
@@ -728,8 +728,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Siemens Project File Format",
@@ -740,8 +740,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Hooking",
@@ -752,8 +752,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "I/O Image",
@@ -764,8 +764,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Alarm Suppression",
@@ -776,8 +776,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Damage to Property",
@@ -788,8 +788,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Loss of Safety",
@@ -800,8 +800,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Service Stop",
@@ -812,8 +812,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Theft of Operational Information",
@@ -824,8 +824,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Internet Accessible Device",
@@ -836,8 +836,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Connection Proxy",
@@ -848,8 +848,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Commonly Used Port",
@@ -860,8 +860,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Remote Services",
@@ -872,8 +872,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Wireless Sniffing",
@@ -884,8 +884,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Remote System Information Discovery",
@@ -896,8 +896,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Modify Program",
@@ -908,8 +908,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Exploitation for Privilege Escalation",
@@ -920,8 +920,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Change Credential",
@@ -932,8 +932,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Data from Local System",
@@ -944,8 +944,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "System Binary Proxy Execution",
@@ -956,8 +956,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Autorun Image",
@@ -968,8 +968,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Data Obfuscation",
@@ -4592,8 +4592,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Exploitation for Privilege Escalation",
@@ -4604,8 +4604,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Obfuscated Files or Information",
@@ -4616,8 +4616,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Steganography",
@@ -4628,8 +4628,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Software Packing",
@@ -4640,8 +4640,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Download New Code at Runtime",
@@ -4652,8 +4652,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Stored Application Data",
@@ -4664,8 +4664,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Clipboard Data",
@@ -4676,8 +4676,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Input Capture",
@@ -4688,8 +4688,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Keylogging",
@@ -4700,8 +4700,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "GUI Input Capture",
@@ -4712,8 +4712,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Software Discovery",
@@ -4724,8 +4724,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Security Software Discovery",
@@ -4736,8 +4736,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "File and Directory Discovery",
@@ -4748,8 +4748,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "System Network Connections Discovery",
@@ -4760,8 +4760,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "System Network Configuration Discovery",
@@ -4772,8 +4772,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Internet Connection Discovery",
@@ -4784,8 +4784,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Wi-Fi Discovery",
@@ -4796,8 +4796,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Network Service Scanning",
@@ -4808,8 +4808,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Process Discovery",
@@ -4820,8 +4820,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "System Information Discovery",
@@ -4832,8 +4832,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Exploitation of Remote Services",
@@ -4844,8 +4844,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Audio Capture",
@@ -4856,8 +4856,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Location Tracking",
@@ -4868,8 +4868,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Remote Device Management Services",
@@ -4880,8 +4880,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Impersonate SS7 Nodes",
@@ -4892,8 +4892,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Application Layer Protocol",
@@ -4904,8 +4904,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Web Protocols",
@@ -4916,8 +4916,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "SIM Card Swap",
@@ -4928,8 +4928,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Abuse Accessibility Features",
@@ -4940,8 +4940,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Drive-By Compromise",
@@ -4952,8 +4952,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Replication Through Removable Media",
@@ -4964,8 +4964,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Lockscreen Bypass",
@@ -4976,8 +4976,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Network Denial of Service",
@@ -4988,8 +4988,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Data Encrypted for Impact",
@@ -5000,8 +5000,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Supply Chain Compromise",
@@ -5012,8 +5012,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Compromise Software Dependencies and Development Tools",
@@ -5024,8 +5024,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Compromise Hardware Supply Chain",
@@ -5036,8 +5036,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Compromise Software Supply Chain",
@@ -5048,8 +5048,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Execution Guardrails",
@@ -5096,8 +5096,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Dead Drop Resolver",
@@ -5108,8 +5108,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Bidirectional Communication",
@@ -5120,8 +5120,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "One-Way Communication",
@@ -5132,8 +5132,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Domain Trust Discovery",
@@ -5588,8 +5588,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Video Capture",
@@ -5600,8 +5600,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Screen Capture",
@@ -5612,8 +5612,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Input Injection",
@@ -5624,8 +5624,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Access Notifications",
@@ -5636,8 +5636,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Software Discovery",
@@ -5684,8 +5684,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Symmetric Cryptography",
@@ -5696,8 +5696,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Asymmetric Cryptography",
@@ -5708,8 +5708,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "SSL Pinning",
@@ -5720,8 +5720,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Implant Internal Image",
@@ -5804,8 +5804,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Data from Local System",
@@ -5816,8 +5816,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Internal Spearphishing",
@@ -5888,8 +5888,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Pre-OS Boot",
@@ -6044,8 +6044,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Event Triggered Execution",
@@ -7988,8 +7988,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Compromise Application Executable",
@@ -8000,8 +8000,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Modify Cloud Compute Infrastructure",
@@ -8096,8 +8096,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Acquire Infrastructure",
@@ -9236,8 +9236,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Proxy Through Victim",
@@ -9248,8 +9248,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Forge Web Credentials",
@@ -9476,8 +9476,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Hooking",
@@ -9488,8 +9488,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Cloud Storage Object Discovery",
@@ -9548,8 +9548,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Unix Shell",
@@ -9560,8 +9560,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Event Triggered Execution",
@@ -9572,8 +9572,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Broadcast Receivers",
@@ -9584,8 +9584,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Hijack Execution Flow",
@@ -9596,8 +9596,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "System Runtime API Hijacking",
@@ -9608,8 +9608,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Abuse Elevation Control Mechanism",
@@ -9620,8 +9620,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Device Administrator Permissions",
@@ -9632,8 +9632,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Execution Guardrails",
@@ -9644,8 +9644,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Geofencing",
@@ -9656,8 +9656,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Hide Artifacts",
@@ -9668,8 +9668,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Suppress Application Icon",
@@ -9680,8 +9680,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "User Evasion",
@@ -9692,8 +9692,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Conceal Multimedia Files",
@@ -9704,8 +9704,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Impair Defenses",
@@ -9716,8 +9716,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Prevent Application Removal",
@@ -9728,8 +9728,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Device Lockout",
@@ -9740,8 +9740,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Disable or Modify Tools",
@@ -9752,8 +9752,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Indicator Removal on Host",
@@ -9764,8 +9764,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Uninstall Malicious Application",
@@ -9776,8 +9776,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "File Deletion",
@@ -9788,8 +9788,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Disguise Root/Jailbreak Indicators",
@@ -9800,8 +9800,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Process Injection",
@@ -9812,8 +9812,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Ptrace System Calls",
@@ -9824,8 +9824,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Subvert Trust Controls",
@@ -9836,8 +9836,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Code Signing Policy Modification",
@@ -9848,8 +9848,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Virtualization/Sandbox Evasion",
@@ -9860,8 +9860,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "System Checks",
@@ -9872,8 +9872,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Credentials from Password Store",
@@ -9884,8 +9884,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Keychain",
@@ -9896,8 +9896,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Steal Application Access Token",
@@ -9908,8 +9908,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "URI Hijacking",
@@ -9920,8 +9920,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Protected User Data",
@@ -9932,8 +9932,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Calendar Entries",
@@ -9944,8 +9944,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Call Log",
@@ -9956,8 +9956,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Contact List",
@@ -9968,8 +9968,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "SMS Messages",
@@ -9980,8 +9980,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Accounts",
@@ -9992,8 +9992,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Dynamic Resolution",
@@ -10004,8 +10004,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Domain Generation Algorithms",
@@ -10016,8 +10016,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Adversary-in-the-Middle",
@@ -10028,8 +10028,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Exfiltration Over Alternative Protocol",
@@ -10040,8 +10040,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Exfiltration Over Unencrypted Non-C2 Protocol",
@@ -10052,8 +10052,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Account Access Removal",
@@ -10064,8 +10064,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Data Manipulation",
@@ -10076,8 +10076,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Transmitted Data Manipulation",
@@ -10088,8 +10088,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Endpoint Denial of Service",
@@ -10100,8 +10100,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Generate Traffic from Victim",
@@ -10112,8 +10112,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Out of Band Data",
@@ -10124,8 +10124,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Compromise Client Software Binary",
@@ -10136,8 +10136,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Exfiltration Over C2 Channel",
@@ -10148,8 +10148,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Plist File Modification",
@@ -10256,8 +10256,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Match Legitimate Name or Location",
@@ -10268,8 +10268,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Financial Theft",
@@ -10292,8 +10292,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Content Injection",
@@ -10316,8 +10316,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Application Versioning",
@@ -10328,8 +10328,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Data Destruction",
@@ -10340,8 +10340,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Remote Access Software",
@@ -10352,8 +10352,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Exploitation for Initial Access",
@@ -10364,8 +10364,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Hide Infrastructure",
@@ -10436,8 +10436,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Cloud Application Integration",
@@ -10496,8 +10496,8 @@
       "mobile"
     ],
     "domain": "mobile",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Poisoned Pipeline Execution",
@@ -10832,8 +10832,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Command Message",
@@ -10844,8 +10844,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Reporting Message",
@@ -10856,8 +10856,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Unauthorized Message",
@@ -10868,8 +10868,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Command Message",
@@ -10880,8 +10880,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Reporting Message",
@@ -10892,8 +10892,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Modify Firmware",
@@ -10904,8 +10904,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "System Firmware",
@@ -10916,8 +10916,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Module Firmware",
@@ -10928,8 +10928,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Insecure Credentials",
@@ -10940,8 +10940,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Default Credentials",
@@ -10952,8 +10952,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Hardcoded Credentials",
@@ -10964,8 +10964,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Block Communications",
@@ -10976,8 +10976,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Serial COM",
@@ -10988,8 +10988,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Ethernet",
@@ -11000,8 +11000,8 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   },
   {
     "title": "Wi-Fi",
@@ -11012,7 +11012,7 @@
       "ics"
     ],
     "domain": "ics",
-    "layout": "technique",
-    "attack_version": "19.0"
+    "attack_version": "19.0",
+    "layout": "technique"
   }
 ]

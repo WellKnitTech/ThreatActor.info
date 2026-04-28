@@ -156,6 +156,35 @@ layout: default
         {% endif %}
       </div>
       {% endif %}
+
+      {% assign actor_row = site.data.generated.threat_actors | where: "url", current_actor.url | first %}
+      {% if actor_row and actor_row.categorized_adversary_ttps %}
+      <section class="categorized-adversary-panel source-attribution-panel" aria-labelledby="cat-adv-ttps-heading">
+        <h2 id="cat-adv-ttps-heading">ETDA / ThaiCERT pivot metadata</h2>
+        <p class="panel-lead">Victim industries, countries, and motivation categories from the merged <a href="https://github.com/tropChaud/Categorized-Adversary-TTPs">Categorized Adversary TTPs</a> dataset (MITRE ATT&amp;CK × ETDA Threat Group Cards). Explore <a href="{{ '/categorized-adversary-ttps/' | relative_url }}">industry and motivation pivots</a>; see <a href="{{ '/attribution/' | relative_url }}">sources</a> for attribution.</p>
+        <dl class="categorized-adversary-dl">
+          {% assign cat = actor_row.categorized_adversary_ttps %}
+          {% if cat.technique_count %}
+          <dt>Techniques in merge</dt><dd>{{ cat.technique_count }}</dd>
+          {% endif %}
+          {% if cat.motivation and cat.motivation.size > 0 %}
+          <dt>Motivation</dt><dd>{% for m in cat.motivation %}{{ m }}{% unless forloop.last %}; {% endunless %}{% endfor %}</dd>
+          {% endif %}
+          {% if cat.victim_industries and cat.victim_industries.size > 0 %}
+          <dt>Victim industries</dt><dd>{% for x in cat.victim_industries limit: 24 %}{{ x }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% if cat.victim_industries.size > 24 %} …{% endif %}</dd>
+          {% endif %}
+          {% if cat.victim_countries and cat.victim_countries.size > 0 %}
+          <dt>Victim countries</dt><dd>{% for x in cat.victim_countries limit: 28 %}{{ x }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% if cat.victim_countries.size > 28 %} …{% endif %}</dd>
+          {% endif %}
+          {% if cat.country and cat.country != '' %}
+          <dt>Suspected attacker region (ETDA)</dt><dd>{{ cat.country }}</dd>
+          {% endif %}
+          {% if cat.etda_url and cat.etda_url != '' %}
+          <dt>ETDA card</dt><dd><a href="{{ cat.etda_url }}" rel="noopener">{{ cat.etda_name | default: cat.etda_url }}</a></dd>
+          {% endif %}
+        </dl>
+      </section>
+      {% endif %}
     </div>
 
     <div class="content">
