@@ -26,6 +26,7 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
+
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | Network Edge | Fortinet | FortiOS | CVE-2018-13374 |

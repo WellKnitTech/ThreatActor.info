@@ -17,6 +17,7 @@ CosmicBeetle is a threat actor known for deploying the ScRansom ransomware, whic
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
+
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | Network Edge | Fortinet | FortiOS SSL-VPN | CVE-2022-42475 |

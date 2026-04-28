@@ -17,6 +17,7 @@ Nightspire is an active extortion or ransomware group tracked by RansomLook.
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
+
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | Network Edge | Fortinet | FortiOS & FortiProxy | CVE-2024-55591 |

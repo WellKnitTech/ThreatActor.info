@@ -17,6 +17,7 @@ PROPHET SPIDER is an eCrime actor, active since at least May 2017, that primaril
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
+
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | Applications, Group Profile | Apache | Log4j | CVE-2021-4104 |

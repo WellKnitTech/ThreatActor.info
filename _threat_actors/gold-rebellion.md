@@ -17,6 +17,7 @@ GOLD REBELLION is a financially motivated cybercriminal threat group that operat
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
+
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | Applications | ConnectWise | ScreenConnect | CVE-2024-1708, CVE-2024-1709 |

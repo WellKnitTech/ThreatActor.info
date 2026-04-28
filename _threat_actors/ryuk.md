@@ -26,6 +26,7 @@ Ryuk is a ransomware operation known for targeting large organizations and deman
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
+
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | Microsoft Products | Windows | NetLogon | CVE-2020-1472 |

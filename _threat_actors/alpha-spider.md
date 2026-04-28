@@ -17,6 +17,7 @@ ALPHA SPIDER is a threat actor known for developing and operating the Alphv rans
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
+
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | Group Profile, Virtualization | Citrix | NetScaler ADC & Gateway | CVE-2023-4966 |

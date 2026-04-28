@@ -26,6 +26,7 @@ Akira is a ransomware variant and ransomware deployment entity active since at l
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
+
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | Group Profile, Network Edge | Cisco | ASA & FTD | CVE-2020-3259 |

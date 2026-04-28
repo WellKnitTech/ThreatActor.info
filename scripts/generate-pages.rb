@@ -320,6 +320,7 @@ def build_body(actor)
   if vulnerability_rows.any?
     sections << "" if actor['ttps'] && actor['ttps'].any?
     sections << "### Ransomware Vulnerability Matrix observations"
+    sections << ""
     sections << "| Category | Vendor | Product | CVEs |"
     sections << "|---|---|---|---|"
     vulnerability_rows.each do |entry|

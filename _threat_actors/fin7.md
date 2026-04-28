@@ -27,6 +27,7 @@ FIN7 is a financially-motivated threat group that has been active since 2013. FI
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
+
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | Applications | Veeam | Backup & Replication | CVE-2023-27532 |

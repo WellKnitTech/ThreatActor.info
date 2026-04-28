@@ -26,6 +26,7 @@ Medusa is a long-time presence in the ransomware scene that stepped up its activ
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
+
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | Virtualization | Citrix | NetScaler ADC & Gateway | CVE-2023-4966 |

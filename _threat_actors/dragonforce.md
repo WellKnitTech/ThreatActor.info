@@ -21,6 +21,7 @@ DragonForce is a ransomware-as-a-service (RaaS) group first identified in late 2
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
+
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | Applications | SimpleHelp | SimpleHelp RMM | CVE-2024-57727 |
