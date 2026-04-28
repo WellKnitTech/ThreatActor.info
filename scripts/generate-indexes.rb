@@ -12,6 +12,7 @@ require_relative 'mitre/stix_loader'
 require_relative 'mitre/relationship_resolver'
 require_relative 'mitre/mitre_common'
 require_relative 'mitre/version_resolver'
+require_relative 'categorized_adversary_ttps'
 
 class ThreatActorIndexGenerator
   PAGES_GLOB = '_threat_actors/*.md'.freeze
@@ -222,6 +223,13 @@ class ThreatActorIndexGenerator
     ioc_type_manifest = build_ioc_type_manifest(ioc_documents)
     ioc_summary = build_ioc_summary(ioc_documents, ioc_type_manifest)
 
+    cat_integration = CategorizedAdversaryTtps.integrate(actor_documents)
+    write_json('categorized_adversary_by_group.json', cat_integration[:by_group])
+    write_json('categorized_pivot_by_industry.json', cat_integration[:pivot_by_industry])
+    write_json('categorized_pivot_by_motivation.json', cat_integration[:pivot_by_motivation])
+    write_json('categorized_pivot_by_victim_country.json', cat_integration[:pivot_by_victim_country])
+    write_json('categorized_adversary_meta.json', cat_integration[:meta])
+
     write_json('threat_actors.json', actor_documents)
     write_json('recently_updated.json', build_recently_updated(actor_documents))
     write_json('iocs.json', ioc_documents)
@@ -368,6 +376,8 @@ class ThreatActorIndexGenerator
       aliases: actor['aliases'] || [],
       description: actor['description'],
       url: actor['url'],
+      mitre_id: actor['mitre_id'],
+      external_id: actor['external_id'],
       permalink: front_matter['permalink'] || "#{actor['url']}/",
       country: actor['country'],
       sector_focus: actor['sector_focus'] || [],

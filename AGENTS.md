@@ -19,12 +19,14 @@ This reflects the current repository, CI workflow, and validation scripts.
 - `_includes/search.html`: search/filter UI and client-side parser.
 - `iocs/index.html` and `iocs/<type>.html`: IOC hub and per-type browsers; shared UI in `_layouts/ioc_type.html` and `_includes/ioc-browser.html`.
 - `ttps.html`: ATT&CK matrix at `/ttps/` with Enterprise / Mobile / ICS switcher (client-built from `/api/tactics.json`, `/api/techniques.json`, `/api/technique-tactics.json`, `/api/attack-version.json`, `/api/actors_by_technique.json`, `/api/actors_by_tactic.json`). Legacy `/attack-tactics/` redirects here.
+- `categorized-adversary-ttps.html`: pivot explorer at `/categorized-adversary-ttps/` using `/api/categorized_pivot_by_industry.json`, `/api/categorized_pivot_by_motivation.json`, `/api/categorized_pivot_by_victim_country.json`, `/api/categorized_adversary_meta.json`, and `/api/techniques.json` for technique titles.
 - `assets/css/style.scss`: main stylesheet.
 - `scripts/validate-content.rb`: main validator.
 - `scripts/import-ransomlook.rb`: manual importer for RansomLook-derived actor metadata.
 - `scripts/import-mitre.rb`: MITRE ATT&CK STIX importer (`fetch` / `plan` / `import`) reading snapshots from `data/imports/mitre-attack/<date>/`; records ATT&CK version in `manifest.yml`, actor `provenance.mitre.attack_version`, and copies versioned bundles into `data/mitre-cache/` when `--write-active` (default).
 - `scripts/mitre/version_resolver.rb`: resolves active Enterprise/Mobile/ICS STIX bundle paths and versions (snapshot manifest → `data/mitre-cache/active.yml` → network fetch); used by `scripts/generate-indexes.rb`.
-- `scripts/generate-indexes.rb`: emits grouped IOC shards (`_data/generated/iocs_by_type/`, `ioc_types.json`, `ioc_summary.json`), MITRE-derived indexes (`techniques.json`, `tactics.json`, `technique_tactics.json`, `actors_by_tactic.json`, `attack_version.json`), version-pinned bundle cache under `data/mitre-cache/`, and other API indexes.
+- `scripts/generate-indexes.rb`: emits grouped IOC shards (`_data/generated/iocs_by_type/`, `ioc_types.json`, `ioc_summary.json`), MITRE-derived indexes (`techniques.json`, `tactics.json`, `technique_tactics.json`, `actors_by_tactic.json`, `attack_version.json`), version-pinned bundle cache under `data/mitre-cache/`, categorized adversary pivot indexes from `data/imports/categorized-adversary-ttps/Categorized_Adversary_TTPs.json` (`categorized_adversary_by_group.json`, `categorized_pivot_by_*.json`), and other API indexes.
+- `scripts/categorized_adversary_ttps.rb`: helpers used by `generate-indexes.rb` for the tropChaud merged MITRE × ETDA snapshot.
 - `scripts/validate.sh`: full validation wrapper.
 - `.github/workflows/validate.yml`: CI commands.
 - `docs/importers.md`: importer workflow and attribution rules.

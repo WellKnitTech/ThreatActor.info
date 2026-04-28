@@ -1,0 +1,203 @@
+---
+layout: default
+title: Adversary pivots
+permalink: /categorized-adversary-ttps/
+---
+
+<div class="malware-index categorized-pivots-page">
+  <section class="hero">
+    <h1>Adversary pivots</h1>
+    <p id="cat-meta-lead" class="hero-subtitle">Loading dataset metadata…</p>
+    <p class="pivot-disclaimer">
+      Technique counts come from the merged <a href="https://github.com/tropChaud/Categorized-Adversary-TTPs">Categorized Adversary TTPs</a> dataset (MITRE ATT&amp;CK × ETDA/ThaiCERT).
+      They can differ from the <a href="{{ '/ttps/' | relative_url }}">ATT&amp;CK matrix</a> on this site, which counts actors whose pages cite each technique.
+      See <a href="{{ '/attribution/' | relative_url }}">source attribution</a> for licenses.
+    </p>
+  </section>
+
+  <section class="categorized-pivots-controls">
+    <h2 class="pivot-controls-heading">Pivot filters</h2>
+    <div class="pivot-filter-row">
+      <div class="filter-group">
+        <label for="pivot-dimension">Pivot</label>
+        <select id="pivot-dimension">
+          <option value="industry">Victim industry</option>
+          <option value="motivation">Attacker motivation</option>
+          <option value="country">Victim country</option>
+        </select>
+      </div>
+      <div class="filter-group filter-grow">
+        <label for="pivot-bucket">Category</label>
+        <select id="pivot-bucket"></select>
+      </div>
+      <button type="button" id="pivot-apply">Apply</button>
+    </div>
+    <p id="pivot-summary" class="pivot-summary" aria-live="polite"></p>
+  </section>
+
+  <section class="categorized-pivots-results" aria-labelledby="pivot-results-heading">
+    <h2 id="pivot-results-heading">Technique distribution</h2>
+    <p id="pivot-loading" class="load-placeholder">Loading pivot data…</p>
+    <p id="pivot-error" class="load-error" hidden>Unable to load pivot data.</p>
+    <div id="pivot-chart" class="pivot-chart" hidden></div>
+    <div id="pivot-table-wrap" class="pivot-table-wrap" hidden>
+      <table class="pivot-table" id="pivot-table">
+        <thead>
+          <tr>
+            <th scope="col">Technique</th>
+            <th scope="col">Name</th>
+            <th scope="col" class="num">Count</th>
+          </tr>
+        </thead>
+        <tbody id="pivot-tbody"></tbody>
+      </table>
+    </div>
+  </section>
+</div>
+
+<script>
+(function () {
+  var BASE = '{{ site.baseurl }}' || '';
+  var endpoints = {
+    meta: BASE + '/api/categorized_adversary_meta.json',
+    industry: BASE + '/api/categorized_pivot_by_industry.json',
+    motivation: BASE + '/api/categorized_pivot_by_motivation.json',
+    country: BASE + '/api/categorized_pivot_by_victim_country.json',
+    techniques: BASE + '/api/techniques.json'
+  };
+
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  function techniqueHref(id) {
+    var u = String(id || '').toUpperCase();
+    return BASE + '/techniques/' + encodeURIComponent(u) + '/';
+  }
+
+  Promise.all([
+    fetch(endpoints.meta).then(function (r) { return r.json(); }),
+    fetch(endpoints.industry).then(function (r) { return r.json(); }),
+    fetch(endpoints.motivation).then(function (r) { return r.json(); }),
+    fetch(endpoints.country).then(function (r) { return r.json(); }),
+    fetch(endpoints.techniques).then(function (r) { return r.json(); })
+  ]).then(function (parts) {
+    var meta = parts[0];
+    var pivots = {
+      industry: parts[1],
+      motivation: parts[2],
+      country: parts[3]
+    };
+    var techList = parts[4];
+    var techTitles = {};
+    if (Array.isArray(techList)) {
+      techList.forEach(function (t) {
+        var mid = (t.mitre_id || '').toString().toUpperCase();
+        if (mid) techTitles[mid] = t.title || '';
+      });
+    }
+
+    document.getElementById('pivot-loading').hidden = true;
+
+    var lead = document.getElementById('cat-meta-lead');
+    if (meta && meta.snapshot_retrieved_at) {
+      lead.textContent = 'Snapshot retrieved ' + meta.snapshot_retrieved_at + '. Groups in merge: ' + (meta.group_count != null ? meta.group_count : '—') + '.';
+    } else {
+      lead.textContent = 'Categorized Adversary TTPs merge loaded.';
+    }
+
+    var dimEl = document.getElementById('pivot-dimension');
+    var bucketEl = document.getElementById('pivot-bucket');
+
+    function currentPivotMap() {
+      var k = dimEl.value;
+      return pivots[k] || {};
+    }
+
+    function refillBuckets(selectFirst) {
+      var pmap = currentPivotMap();
+      var keys = Object.keys(pmap).sort(function (a, b) { return a.localeCompare(b); });
+      bucketEl.innerHTML = '';
+      keys.forEach(function (key, idx) {
+        var opt = document.createElement('option');
+        opt.value = key;
+        opt.textContent = key;
+        bucketEl.appendChild(opt);
+      });
+      if (keys.length && selectFirst !== false) {
+        bucketEl.selectedIndex = 0;
+      }
+    }
+
+    dimEl.addEventListener('change', function () {
+      refillBuckets(true);
+      render();
+    });
+
+    bucketEl.addEventListener('change', function () {
+      render();
+    });
+
+    document.getElementById('pivot-apply').addEventListener('click', function () {
+      render();
+    });
+
+    function render() {
+      var pmap = currentPivotMap();
+      var bucket = bucketEl.value;
+      var counts = bucket ? pmap[bucket] : null;
+      var summary = document.getElementById('pivot-summary');
+      var chart = document.getElementById('pivot-chart');
+      var tbody = document.getElementById('pivot-tbody');
+      var tableWrap = document.getElementById('pivot-table-wrap');
+
+      tbody.innerHTML = '';
+      chart.innerHTML = '';
+
+      if (!counts || typeof counts !== 'object') {
+        summary.textContent = 'No data for this selection.';
+        chart.hidden = true;
+        tableWrap.hidden = true;
+        return;
+      }
+
+      var rows = Object.keys(counts).map(function (tid) {
+        return { id: tid.toUpperCase(), n: counts[tid] };
+      }).sort(function (a, b) { return b.n - a.n; });
+
+      summary.textContent = rows.length + ' techniques for "' + bucket + '" (' + dimEl.options[dimEl.selectedIndex].text + ').';
+
+      var maxN = rows.length ? rows[0].n : 1;
+
+      rows.forEach(function (row) {
+        var title = techTitles[row.id] || '';
+        var tr = document.createElement('tr');
+        tr.innerHTML =
+          '<td><a href="' + esc(techniqueHref(row.id)) + '">' + esc(row.id) + '</a></td>' +
+          '<td>' + esc(title || '—') + '</td>' +
+          '<td class="num">' + esc(String(row.n)) + '</td>';
+        tbody.appendChild(tr);
+
+        var barRow = document.createElement('div');
+        barRow.className = 'pivot-bar-row';
+        var pct = maxN ? Math.round((row.n / maxN) * 100) : 0;
+        barRow.innerHTML =
+          '<span class="pivot-bar-label"><a href="' + esc(techniqueHref(row.id)) + '">' + esc(row.id) + '</a></span>' +
+          '<div class="pivot-bar-track"><div class="pivot-bar-fill" style="width:' + pct + '%"></div></div>' +
+          '<span class="pivot-bar-count">' + esc(String(row.n)) + '</span>';
+        chart.appendChild(barRow);
+      });
+
+      chart.hidden = rows.length === 0;
+      tableWrap.hidden = rows.length === 0;
+    }
+
+    refillBuckets(true);
+    render();
+  }).catch(function () {
+    document.getElementById('pivot-loading').hidden = true;
+    document.getElementById('pivot-error').hidden = false;
+    document.getElementById('cat-meta-lead').textContent = 'Could not load metadata.';
+  });
+}());
+</script>

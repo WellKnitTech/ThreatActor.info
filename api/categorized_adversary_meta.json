@@ -1,0 +1,4 @@
+---
+layout: null
+---
+{{ site.data.generated.categorized_adversary_meta | jsonify }}

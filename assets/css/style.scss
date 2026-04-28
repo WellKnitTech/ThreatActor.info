@@ -2377,3 +2377,144 @@ tr.ioc-search-deep-match {
   color: var(--text-muted);
   margin-right: 0.5rem;
 }
+
+/* Categorized Adversary TTPs pivots (/categorized-adversary-ttps/) */
+.categorized-pivots-page .pivot-disclaimer {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  max-width: 52rem;
+  line-height: 1.5;
+}
+
+.categorized-pivots-controls {
+  margin: 1.5rem 0 2rem;
+  padding: 1rem 1.25rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+}
+
+.pivot-controls-heading {
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+}
+
+.pivot-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.pivot-filter-row .filter-grow {
+  flex: 1 1 220px;
+}
+
+.pivot-filter-row select {
+  min-width: 12rem;
+}
+
+.pivot-summary {
+  margin: 1rem 0 0;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.categorized-pivots-results h2 {
+  margin-bottom: 0.75rem;
+}
+
+.pivot-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-bottom: 2rem;
+}
+
+.pivot-bar-row {
+  display: grid;
+  grid-template-columns: minmax(5rem, 7rem) 1fr minmax(2rem, 3rem);
+  gap: 0.5rem 0.75rem;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.pivot-bar-label a {
+  font-family: ui-monospace, monospace;
+}
+
+.pivot-bar-track {
+  height: 0.65rem;
+  background: var(--bg-tertiary);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.pivot-bar-fill {
+  height: 100%;
+  background: var(--accent-color, #58a6ff);
+  border-radius: 4px;
+  min-width: 2px;
+}
+
+.pivot-bar-count {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-muted);
+}
+
+.pivot-table-wrap {
+  overflow-x: auto;
+}
+
+.pivot-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.pivot-table th,
+.pivot-table td {
+  padding: 0.45rem 0.65rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.pivot-table th {
+  text-align: left;
+  font-weight: 600;
+}
+
+.pivot-table td.num,
+.pivot-table th.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.categorized-adversary-panel {
+  margin-top: 1.25rem;
+}
+
+.categorized-adversary-panel .panel-lead {
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.categorized-adversary-dl {
+  display: grid;
+  grid-template-columns: minmax(8rem, 11rem) 1fr;
+  gap: 0.5rem 1rem;
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+.categorized-adversary-dl dt {
+  margin: 0;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.categorized-adversary-dl dd {
+  margin: 0;
+}

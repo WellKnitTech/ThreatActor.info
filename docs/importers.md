@@ -82,6 +82,29 @@ Per MITRE permission notice used throughout the site:
 
 `© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.`
 
+## Categorized Adversary TTPs snapshot
+
+The dataset from [tropChaud/Categorized-Adversary-TTPs](https://github.com/tropChaud/Categorized-Adversary-TTPs) (MIT license) is vendored as JSON under [`data/imports/categorized-adversary-ttps/`](https://github.com/tropChaud/Categorized-Adversary-TTPs). It merges MITRE ATT&CK group-to-technique relationships with ETDA/ThaiCERT Threat Group Card metadata (victim industries/countries, motivations).
+
+There is no separate fetch-only importer script; refresh is a manual snapshot replace plus regeneration.
+
+### Refresh workflow
+
+1. Download the latest JSON using the curl command in `data/imports/categorized-adversary-ttps/README.md`.
+2. Update `data/imports/categorized-adversary-ttps/manifest.yml` (`retrieved_at`, optional upstream commit reference).
+3. Regenerate indexes:
+
+```bash
+ruby scripts/generate-indexes.rb
+ruby scripts/validate-content.rb
+```
+
+Outputs include `_data/generated/categorized_adversary_by_group.json`, pivot histograms (`categorized_pivot_by_*.json`), `categorized_adversary_meta.json`, and optional `categorized_adversary_ttps` on `/api/threat-actors.json` rows when actor YAML `mitre_id` / `external_id` matches a `G####` group present in the snapshot.
+
+### Attribution
+
+Upstream credits MITRE ATT&CK and ETDA Threat Group Cards; this site lists the merged dataset on [Source Attribution](/attribution/) with license metadata recorded in `manifest.yml`.
+
 ## BushidoToken Breach Report Collection Importer
 
 `scripts/import-bushido-breach-reports.rb` adds reviewed breach-report links from the BushidoToken Breach Report Collection to existing actors.
