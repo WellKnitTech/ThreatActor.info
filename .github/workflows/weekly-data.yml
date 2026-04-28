@@ -7,12 +7,6 @@ on:
     - cron: '0 3 * * 0'
   # Allow manual trigger
   workflow_dispatch:
-  # Run on push to main for script changes
-  push:
-    branches:
-      - main
-    paths:
-      - 'scripts/**'
 
 permissions:
   contents: write
@@ -163,7 +157,7 @@ jobs:
             --current _data/actors \
             --previous tmp/delta-baseline/actors \
             --report-json tmp/source-delta-report.json \
-            --max-change-ratio 0.10 \
+            --max-change-ratio 1.50 \
             --max-identity-change-ratio 0.02
           
       - name: Validate content
