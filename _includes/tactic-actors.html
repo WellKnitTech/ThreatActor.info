@@ -1,0 +1,50 @@
+<script>
+(function () {
+  const root = document.getElementById('tactic-actors-root');
+  if (!root || !root.dataset.tacticId) return;
+
+  const BASE = root.dataset.baseurl || '';
+  const tacticId = root.dataset.tacticId.toUpperCase();
+
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  fetch(BASE + '/api/actors_by_tactic.json')
+    .then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(function (byTactic) {
+      const list = byTactic[tacticId] || [];
+      if (!list.length) {
+        root.innerHTML = '<p class="tactic-actors-empty">No threat actors in this project map to this tactic via ATT&CK technique citations yet.</p>';
+        return;
+      }
+
+      list.sort(function (a, b) {
+        return (a.name || '').localeCompare(b.name || '');
+      });
+
+      root.innerHTML =
+        '<ul class="tactic-actors-list">' +
+        list.map(function (a) {
+          const href = a.permalink ? BASE + a.permalink : '';
+          const link = href
+            ? '<a href="' + esc(href) + '">' + esc(a.name || '') + '</a>'
+            : esc(a.name || '');
+          return '<li>' + link + '</li>';
+        }).join('') +
+        '</ul>' +
+        '<p class="tactic-actors-note">' +
+        esc(list.length) +
+        ' actor' +
+        (list.length === 1 ? '' : 's') +
+        ' — derived from technique IDs on actor pages / YAML, mapped to tactics via ATT&CK.' +
+        '</p>';
+    })
+    .catch(function () {
+      root.innerHTML = '<p class="load-error">Unable to load actor mappings.</p>';
+    });
+})();
+</script>
