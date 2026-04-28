@@ -309,11 +309,27 @@ layout: default
       <ul class="source-provenance-list">
         {% for source in profile_provenance %}
           {% assign source_data = source[1] %}
+          {% assign source_label = source[0] | replace: '_', ' ' %}
+          {% if source[0] == 'bushido_breach_reports' %}
+            {% assign source_label = 'BushidoToken Breach Report Collection' %}
+          {% elsif source[0] == 'ransomware_tool_matrix' %}
+            {% assign source_label = 'BushidoUK Ransomware Tool Matrix' %}
+          {% elsif source[0] == 'ransomware_vulnerability_matrix' %}
+            {% assign source_label = 'BushidoUK Ransomware Vulnerability Matrix' %}
+          {% elsif source[0] == 'russian_apt_tool_matrix' %}
+            {% assign source_label = 'BushidoUK Russian APT Tool Matrix' %}
+          {% elsif source[0] == 'apt_groups_operations' %}
+            {% assign source_label = 'APT Groups & Operations' %}
+          {% elsif source[0] == 'curated_intel_moveit_transfer' %}
+            {% assign source_label = 'Curated Intelligence MOVEit Transfer Tracking' %}
+          {% elsif source[0] == 'etda_thaicert' %}
+            {% assign source_label = 'ETDA / ThaiCERT Threat Group Cards' %}
+          {% endif %}
           {% if source_data.source_attribution or source_data.source_repository or source_data.source_dataset_url or source_data.source_record_url %}
         <li>
-          <strong>{% if source_data.source_name %}{{ source_data.source_name }}{% else %}{{ source[0] | replace: '_', ' ' }}{% endif %}</strong>
+          <strong>{% if source_data.source_name %}{{ source_data.source_name }}{% else %}{{ source_label }}{% endif %}</strong>
           {% if source_data.source_attribution %}
-          <span>{{ source_data.source_attribution }}</span>
+          <span>{{ source_data.source_attribution | replace: '(', ' (' | replace: ') .', ').' | replace: ') ,', '),' | replace: '  ', ' ' }}</span>
           {% endif %}
           {% if source_data.source_license %}
           <span>License:

@@ -139,6 +139,7 @@ Use `provenance` for additional source-specific data that supplements the primar
 ```yaml
 provenance:
   ransomware_tool_matrix:
+    source_name: "BushidoUK Ransomware Tool Matrix"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
     source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
     source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix..."

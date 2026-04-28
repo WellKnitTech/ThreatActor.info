@@ -586,6 +586,11 @@ a:hover {
   border-bottom: 1px solid var(--border-color);
 }
 
+.content td:first-child,
+.content td:last-child {
+  white-space: nowrap;
+}
+
 .content th {
   background: var(--bg-tertiary);
   color: var(--text-primary);
@@ -685,6 +690,17 @@ a:hover {
 
 .source-attribution-panel li {
   margin-bottom: 0.5rem;
+}
+
+.source-provenance-list strong,
+.source-provenance-list span {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.source-provenance-list a {
+  display: inline-block;
+  margin-right: 0.75rem;
 }
 
 .source-attribution-panel strong {

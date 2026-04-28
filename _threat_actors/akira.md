@@ -71,15 +71,16 @@ Akira is a ransomware variant and ransomware deployment entity active since at l
 
 | CVE ID | Vendor | Product | Date Added |
 |-------|-------|--------|----------|
-| cve | vendor | product | dateAdded |
-| cve | vendor | product | dateAdded |
-| cve | vendor | product | dateAdded |
-| cve | vendor | product | dateAdded |
-| cve | vendor | product | dateAdded |
-| cve | vendor | product | dateAdded |
-| cve | vendor | product | dateAdded |
-| cve | vendor | product | dateAdded |
-| cve | vendor | product | dateAdded |
-| cve | vendor | product | dateAdded |
-| cve | vendor | product | dateAdded |
+| CVE-2019-6693 | Fortinet | FortiOS | 2025-06-25 |
+| CVE-2024-40711 | Veeam | Backup & Replication | 2024-10-17 |
+| CVE-2024-40766 | SonicWall | SonicOS | 2024-09-09 |
+| CVE-2024-37085 | VMware | ESXi | 2024-07-30 |
+| CVE-2023-48788 | Fortinet | FortiClient EMS | 2024-03-25 |
+| CVE-2020-3259 | Cisco | Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) | 2024-02-15 |
+| CVE-2023-20269 | Cisco | Adaptive Security Appliance and Firepower Threat Defense | 2023-09-13 |
+| CVE-2023-27532 | Veeam | Backup & Replication | 2023-08-22 |
+| CVE-2023-28252 | Microsoft | Windows | 2023-04-11 |
+| CVE-2022-40684 | Fortinet | Multiple Products | 2022-10-11 |
+| CVE-2021-27876 | Veritas | Backup Exec Agent | 2022-03-28 |
+| CVE-2020-3580 | Cisco | Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) | 2021-11-03 |
 
