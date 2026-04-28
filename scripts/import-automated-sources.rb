@@ -50,6 +50,14 @@ SOURCES = [
     fetch_limit: true
   ),
   Source.new(
+    key: 'microsoft-threat-actor-list',
+    label: 'Microsoft Threat Actor List',
+    script: 'scripts/import-microsoft-threat-actor-list.rb',
+    snapshot_root: 'data/imports/microsoft-threat-actor-list',
+    report_name: 'microsoft-threat-actor-list-report.json',
+    fetch_limit: false
+  ),
+  Source.new(
     key: 'apt-groups-operations',
     label: 'APT Groups & Operations',
     script: 'scripts/import-apt-groups-operations.rb',

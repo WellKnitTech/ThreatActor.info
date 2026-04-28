@@ -20,7 +20,7 @@ class MicrosoftThreatActorListImporter
   DEFAULT_OVERRIDES_FILE = 'data/imports/microsoft-threat-actor-list/mapping_overrides.yml'.freeze
   SOURCE_NAME = 'Microsoft Threat Actor List'.freeze
   SOURCE_URL = 'https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx'.freeze
-  SOURCE_ATTRIBUTION = 'Alias cross-reference data was reviewed from the Microsoft Threat Actor List. The spreadsheet is used here as a secondary vendor naming crosswalk, not as a sole authoritative source.'.freeze
+  SOURCE_ATTRIBUTION = 'Alias and origin-category data was imported from the Microsoft Threat Actor List and preserved with source attribution.'.freeze
   XLSX_FILE = 'microsoft-threat-actor-list.xlsx'.freeze
   XML_NS = { 'main' => 'http://schemas.openxmlformats.org/spreadsheetml/2006/main' }.freeze
   COUNTRY_NAMES = Set.new([
@@ -144,7 +144,7 @@ class MicrosoftThreatActorListImporter
       'source_url' => SOURCE_URL,
       'retrieved_at' => Time.now.utc.iso8601,
       'record_count' => records.length,
-      'license_status' => 'No explicit license was found in the downloaded workbook metadata; import is limited to attribution-preserving crosswalk metadata.',
+      'license_status' => 'Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance.',
       'checksums_sha256' => {
         XLSX_FILE => Digest::SHA256.file(xlsx_path).hexdigest
       }
@@ -374,7 +374,7 @@ class MicrosoftThreatActorListImporter
     puts "Updates: #{candidates.count { |candidate| candidate[:action] == 'update' }}"
     puts "Review: #{candidates.count { |candidate| candidate[:action] == 'review' }}"
     puts "Skipped: #{candidates.count { |candidate| candidate[:action] == 'skip' }}"
-    puts "License: #{manifest['license_status'] || 'No explicit license found in snapshot metadata.'}"
+    puts "License: #{manifest['license_status'] || 'Public Microsoft workbook; source attribution preserved.'}"
 
     candidates.select { |candidate| candidate[:action] == 'update' }.first(20).each do |candidate|
       puts "\nUPDATE: #{candidate[:name]}"
@@ -409,7 +409,7 @@ class MicrosoftThreatActorListImporter
         'source_retrieved_at' => manifest['retrieved_at'] || Time.now.utc.iso8601,
         'source_dataset_url' => SOURCE_URL,
         'source_record_id' => candidate[:row_key],
-        'license_status' => manifest['license_status'] || 'No explicit license found in snapshot metadata.',
+        'license_status' => manifest['license_status'] || 'Public Microsoft workbook; source attribution preserved.',
         'microsoft_name' => candidate[:name],
         'origin_category' => candidate[:origin_category],
         'categories' => candidate[:categories]

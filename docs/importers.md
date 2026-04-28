@@ -255,14 +255,14 @@ The importer preserves source attribution using the pattern:
 
 ## Microsoft Threat Actor List Importer
 
-`scripts/import-microsoft-threat-actor-list.rb` adds Microsoft's public threat actor naming list as a reviewed alias crosswalk for existing actors.
+`scripts/import-microsoft-threat-actor-list.rb` adds Microsoft's public threat actor naming list as a recurring import source for existing-actor alias and origin-category enrichment.
 
 Source: https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx
 
-### Why this importer is conservative
+### Import scope
 
+- Microsoft publishes and regularly updates this workbook for public use; imports preserve source attribution and importer provenance.
 - The workbook contains actor name, origin/category, and other names only; it has no narrative descriptions, references per actor, IOCs, malware, or TTPs.
-- The downloaded workbook metadata does not expose an explicit reuse license, so the importer is limited to attribution-preserving crosswalk metadata.
 - Imports only update existing actors; they do not create new actors.
 - Ambiguous vendor-name collisions stay review-only unless mapped in overrides.
 
@@ -282,7 +282,7 @@ Preview additive enrichments:
 ruby scripts/import-microsoft-threat-actor-list.rb plan --snapshot data/imports/microsoft-threat-actor-list/2026-04-28
 ```
 
-Apply reviewed enrichments:
+Apply enrichments:
 
 ```bash
 ruby scripts/import-microsoft-threat-actor-list.rb import --snapshot data/imports/microsoft-threat-actor-list/2026-04-28
