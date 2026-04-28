@@ -1957,6 +1957,44 @@ tr.ioc-search-deep-match {
   outline-offset: -2px;
 }
 
+/* Tactic pages — project actor list */
+.tactic-project-actors {
+  margin-top: 2rem;
+  padding: 1.25rem;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background: var(--bg-card);
+}
+
+.tactic-project-actors h2 {
+  margin-top: 0;
+}
+
+.tactic-actors-lead {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.tactic-actors-list {
+  margin: 1rem 0 0 0;
+  padding-left: 1.25rem;
+}
+
+.tactic-actors-list li {
+  margin-bottom: 0.35rem;
+}
+
+.tactic-actors-empty,
+.tactic-actors-note {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.attack-tactics-hub .filter-grow {
+  flex: 1;
+  min-width: 200px;
+}
+
 /* Malware Header */
 .malware-header {
   background: var(--bg-secondary);

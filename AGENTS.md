@@ -22,7 +22,7 @@ This reflects the current repository, CI workflow, and validation scripts.
 - `scripts/validate-content.rb`: main validator.
 - `scripts/import-ransomlook.rb`: manual importer for RansomLook-derived actor metadata.
 - `scripts/import-mitre.rb`: MITRE ATT&CK STIX importer (`fetch` / `plan` / `import`) reading snapshots from `data/imports/mitre-attack/<date>/`.
-- `scripts/generate-indexes.rb`: emits grouped IOC shards (`_data/generated/iocs_by_type/`, `ioc_types.json`, `ioc_summary.json`) plus other API indexes.
+- `scripts/generate-indexes.rb`: emits grouped IOC shards (`_data/generated/iocs_by_type/`, `ioc_types.json`, `ioc_summary.json`), MITRE-derived indexes (`techniques.json`, `tactics.json`, `technique_tactics.json`, `actors_by_tactic.json`), optional Enterprise bundle cache under `data/mitre-cache/`, and other API indexes.
 - `scripts/validate.sh`: full validation wrapper.
 - `.github/workflows/validate.yml`: CI commands.
 - `docs/importers.md`: importer workflow and attribution rules.
