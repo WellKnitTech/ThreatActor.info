@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T21:56:04Z",
+  "generated_at": "2026-04-28T22:38:01Z",
   "actors": [
     {
       "kind": "actor",
@@ -7558,6 +7558,492 @@
   "techniques": [
     {
       "kind": "technique",
+      "title": "Activate Firmware Update Mode",
+      "mitre_id": "T0800",
+      "permalink": "/techniques/T0800/"
+    },
+    {
+      "kind": "technique",
+      "title": "Monitor Process State",
+      "mitre_id": "T0801",
+      "permalink": "/techniques/T0801/"
+    },
+    {
+      "kind": "technique",
+      "title": "Automated Collection",
+      "mitre_id": "T0802",
+      "permalink": "/techniques/T0802/"
+    },
+    {
+      "kind": "technique",
+      "title": "Brute Force I/O",
+      "mitre_id": "T0806",
+      "permalink": "/techniques/T0806/"
+    },
+    {
+      "kind": "technique",
+      "title": "Command-Line Interface",
+      "mitre_id": "T0807",
+      "permalink": "/techniques/T0807/"
+    },
+    {
+      "kind": "technique",
+      "title": "Data Destruction",
+      "mitre_id": "T0809",
+      "permalink": "/techniques/T0809/"
+    },
+    {
+      "kind": "technique",
+      "title": "Data from Information Repositories",
+      "mitre_id": "T0811",
+      "permalink": "/techniques/T0811/"
+    },
+    {
+      "kind": "technique",
+      "title": "Denial of Control",
+      "mitre_id": "T0813",
+      "permalink": "/techniques/T0813/"
+    },
+    {
+      "kind": "technique",
+      "title": "Denial of Service",
+      "mitre_id": "T0814",
+      "permalink": "/techniques/T0814/"
+    },
+    {
+      "kind": "technique",
+      "title": "Denial of View",
+      "mitre_id": "T0815",
+      "permalink": "/techniques/T0815/"
+    },
+    {
+      "kind": "technique",
+      "title": "Device Restart/Shutdown",
+      "mitre_id": "T0816",
+      "permalink": "/techniques/T0816/"
+    },
+    {
+      "kind": "technique",
+      "title": "Drive-by Compromise",
+      "mitre_id": "T0817",
+      "permalink": "/techniques/T0817/"
+    },
+    {
+      "kind": "technique",
+      "title": "Exploit Public-Facing Application",
+      "mitre_id": "T0819",
+      "permalink": "/techniques/T0819/"
+    },
+    {
+      "kind": "technique",
+      "title": "Exploitation for Evasion",
+      "mitre_id": "T0820",
+      "permalink": "/techniques/T0820/"
+    },
+    {
+      "kind": "technique",
+      "title": "Modify Controller Tasking",
+      "mitre_id": "T0821",
+      "permalink": "/techniques/T0821/"
+    },
+    {
+      "kind": "technique",
+      "title": "External Remote Services",
+      "mitre_id": "T0822",
+      "permalink": "/techniques/T0822/"
+    },
+    {
+      "kind": "technique",
+      "title": "Graphical User Interface",
+      "mitre_id": "T0823",
+      "permalink": "/techniques/T0823/"
+    },
+    {
+      "kind": "technique",
+      "title": "Loss of Availability",
+      "mitre_id": "T0826",
+      "permalink": "/techniques/T0826/"
+    },
+    {
+      "kind": "technique",
+      "title": "Loss of Control",
+      "mitre_id": "T0827",
+      "permalink": "/techniques/T0827/"
+    },
+    {
+      "kind": "technique",
+      "title": "Loss of Productivity and Revenue",
+      "mitre_id": "T0828",
+      "permalink": "/techniques/T0828/"
+    },
+    {
+      "kind": "technique",
+      "title": "Loss of View",
+      "mitre_id": "T0829",
+      "permalink": "/techniques/T0829/"
+    },
+    {
+      "kind": "technique",
+      "title": "Adversary-in-the-Middle",
+      "mitre_id": "T0830",
+      "permalink": "/techniques/T0830/"
+    },
+    {
+      "kind": "technique",
+      "title": "Manipulation of Control",
+      "mitre_id": "T0831",
+      "permalink": "/techniques/T0831/"
+    },
+    {
+      "kind": "technique",
+      "title": "Manipulation of View",
+      "mitre_id": "T0832",
+      "permalink": "/techniques/T0832/"
+    },
+    {
+      "kind": "technique",
+      "title": "Native API",
+      "mitre_id": "T0834",
+      "permalink": "/techniques/T0834/"
+    },
+    {
+      "kind": "technique",
+      "title": "Manipulate I/O Image",
+      "mitre_id": "T0835",
+      "permalink": "/techniques/T0835/"
+    },
+    {
+      "kind": "technique",
+      "title": "Modify Parameter",
+      "mitre_id": "T0836",
+      "permalink": "/techniques/T0836/"
+    },
+    {
+      "kind": "technique",
+      "title": "Loss of Protection",
+      "mitre_id": "T0837",
+      "permalink": "/techniques/T0837/"
+    },
+    {
+      "kind": "technique",
+      "title": "Modify Alarm Settings",
+      "mitre_id": "T0838",
+      "permalink": "/techniques/T0838/"
+    },
+    {
+      "kind": "technique",
+      "title": "Network Connection Enumeration",
+      "mitre_id": "T0840",
+      "permalink": "/techniques/T0840/"
+    },
+    {
+      "kind": "technique",
+      "title": "Network Sniffing",
+      "mitre_id": "T0842",
+      "permalink": "/techniques/T0842/"
+    },
+    {
+      "kind": "technique",
+      "title": "Program Download",
+      "mitre_id": "T0843",
+      "permalink": "/techniques/T0843/"
+    },
+    {
+      "kind": "technique",
+      "title": "Download All",
+      "mitre_id": "T0843.001",
+      "permalink": "/techniques/T0843.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Online Edit",
+      "mitre_id": "T0843.002",
+      "permalink": "/techniques/T0843.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "Program Append",
+      "mitre_id": "T0843.003",
+      "permalink": "/techniques/T0843.003/"
+    },
+    {
+      "kind": "technique",
+      "title": "Program Upload",
+      "mitre_id": "T0845",
+      "permalink": "/techniques/T0845/"
+    },
+    {
+      "kind": "technique",
+      "title": "Remote System Discovery",
+      "mitre_id": "T0846",
+      "permalink": "/techniques/T0846/"
+    },
+    {
+      "kind": "technique",
+      "title": "Port Scan",
+      "mitre_id": "T0846.001",
+      "permalink": "/techniques/T0846.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Broadcast Discovery",
+      "mitre_id": "T0846.002",
+      "permalink": "/techniques/T0846.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "Multicast Discovery",
+      "mitre_id": "T0846.003",
+      "permalink": "/techniques/T0846.003/"
+    },
+    {
+      "kind": "technique",
+      "title": "Replication Through Removable Media",
+      "mitre_id": "T0847",
+      "permalink": "/techniques/T0847/"
+    },
+    {
+      "kind": "technique",
+      "title": "Rogue Master",
+      "mitre_id": "T0848",
+      "permalink": "/techniques/T0848/"
+    },
+    {
+      "kind": "technique",
+      "title": "Masquerading",
+      "mitre_id": "T0849",
+      "permalink": "/techniques/T0849/"
+    },
+    {
+      "kind": "technique",
+      "title": "Rootkit",
+      "mitre_id": "T0851",
+      "permalink": "/techniques/T0851/"
+    },
+    {
+      "kind": "technique",
+      "title": "Screen Capture",
+      "mitre_id": "T0852",
+      "permalink": "/techniques/T0852/"
+    },
+    {
+      "kind": "technique",
+      "title": "Scripting",
+      "mitre_id": "T0853",
+      "permalink": "/techniques/T0853/"
+    },
+    {
+      "kind": "technique",
+      "title": "Change Operating Mode",
+      "mitre_id": "T0858",
+      "permalink": "/techniques/T0858/"
+    },
+    {
+      "kind": "technique",
+      "title": "Valid Accounts",
+      "mitre_id": "T0859",
+      "permalink": "/techniques/T0859/"
+    },
+    {
+      "kind": "technique",
+      "title": "Wireless Compromise",
+      "mitre_id": "T0860",
+      "permalink": "/techniques/T0860/"
+    },
+    {
+      "kind": "technique",
+      "title": "Point & Tag Identification",
+      "mitre_id": "T0861",
+      "permalink": "/techniques/T0861/"
+    },
+    {
+      "kind": "technique",
+      "title": "Supply Chain Compromise",
+      "mitre_id": "T0862",
+      "permalink": "/techniques/T0862/"
+    },
+    {
+      "kind": "technique",
+      "title": "User Execution",
+      "mitre_id": "T0863",
+      "permalink": "/techniques/T0863/"
+    },
+    {
+      "kind": "technique",
+      "title": "Transient Cyber Asset",
+      "mitre_id": "T0864",
+      "permalink": "/techniques/T0864/"
+    },
+    {
+      "kind": "technique",
+      "title": "Spearphishing Attachment",
+      "mitre_id": "T0865",
+      "permalink": "/techniques/T0865/"
+    },
+    {
+      "kind": "technique",
+      "title": "Exploitation of Remote Services",
+      "mitre_id": "T0866",
+      "permalink": "/techniques/T0866/"
+    },
+    {
+      "kind": "technique",
+      "title": "Lateral Tool Transfer",
+      "mitre_id": "T0867",
+      "permalink": "/techniques/T0867/"
+    },
+    {
+      "kind": "technique",
+      "title": "Detect Operating Mode",
+      "mitre_id": "T0868",
+      "permalink": "/techniques/T0868/"
+    },
+    {
+      "kind": "technique",
+      "title": "Standard Application Layer Protocol",
+      "mitre_id": "T0869",
+      "permalink": "/techniques/T0869/"
+    },
+    {
+      "kind": "technique",
+      "title": "Execution through API",
+      "mitre_id": "T0871",
+      "permalink": "/techniques/T0871/"
+    },
+    {
+      "kind": "technique",
+      "title": "Indicator Removal on Host",
+      "mitre_id": "T0872",
+      "permalink": "/techniques/T0872/"
+    },
+    {
+      "kind": "technique",
+      "title": "Project File Infection",
+      "mitre_id": "T0873",
+      "permalink": "/techniques/T0873/"
+    },
+    {
+      "kind": "technique",
+      "title": "Siemens Project File Format",
+      "mitre_id": "T0873.001",
+      "permalink": "/techniques/T0873.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Hooking",
+      "mitre_id": "T0874",
+      "permalink": "/techniques/T0874/"
+    },
+    {
+      "kind": "technique",
+      "title": "I/O Image",
+      "mitre_id": "T0877",
+      "permalink": "/techniques/T0877/"
+    },
+    {
+      "kind": "technique",
+      "title": "Alarm Suppression",
+      "mitre_id": "T0878",
+      "permalink": "/techniques/T0878/"
+    },
+    {
+      "kind": "technique",
+      "title": "Damage to Property",
+      "mitre_id": "T0879",
+      "permalink": "/techniques/T0879/"
+    },
+    {
+      "kind": "technique",
+      "title": "Loss of Safety",
+      "mitre_id": "T0880",
+      "permalink": "/techniques/T0880/"
+    },
+    {
+      "kind": "technique",
+      "title": "Service Stop",
+      "mitre_id": "T0881",
+      "permalink": "/techniques/T0881/"
+    },
+    {
+      "kind": "technique",
+      "title": "Theft of Operational Information",
+      "mitre_id": "T0882",
+      "permalink": "/techniques/T0882/"
+    },
+    {
+      "kind": "technique",
+      "title": "Internet Accessible Device",
+      "mitre_id": "T0883",
+      "permalink": "/techniques/T0883/"
+    },
+    {
+      "kind": "technique",
+      "title": "Connection Proxy",
+      "mitre_id": "T0884",
+      "permalink": "/techniques/T0884/"
+    },
+    {
+      "kind": "technique",
+      "title": "Commonly Used Port",
+      "mitre_id": "T0885",
+      "permalink": "/techniques/T0885/"
+    },
+    {
+      "kind": "technique",
+      "title": "Remote Services",
+      "mitre_id": "T0886",
+      "permalink": "/techniques/T0886/"
+    },
+    {
+      "kind": "technique",
+      "title": "Wireless Sniffing",
+      "mitre_id": "T0887",
+      "permalink": "/techniques/T0887/"
+    },
+    {
+      "kind": "technique",
+      "title": "Remote System Information Discovery",
+      "mitre_id": "T0888",
+      "permalink": "/techniques/T0888/"
+    },
+    {
+      "kind": "technique",
+      "title": "Modify Program",
+      "mitre_id": "T0889",
+      "permalink": "/techniques/T0889/"
+    },
+    {
+      "kind": "technique",
+      "title": "Exploitation for Privilege Escalation",
+      "mitre_id": "T0890",
+      "permalink": "/techniques/T0890/"
+    },
+    {
+      "kind": "technique",
+      "title": "Change Credential",
+      "mitre_id": "T0892",
+      "permalink": "/techniques/T0892/"
+    },
+    {
+      "kind": "technique",
+      "title": "Data from Local System",
+      "mitre_id": "T0893",
+      "permalink": "/techniques/T0893/"
+    },
+    {
+      "kind": "technique",
+      "title": "System Binary Proxy Execution",
+      "mitre_id": "T0894",
+      "permalink": "/techniques/T0894/"
+    },
+    {
+      "kind": "technique",
+      "title": "Autorun Image",
+      "mitre_id": "T0895",
+      "permalink": "/techniques/T0895/"
+    },
+    {
+      "kind": "technique",
       "title": "Data Obfuscation",
       "mitre_id": "T1001",
       "permalink": "/techniques/T1001/"
@@ -9364,6 +9850,240 @@
     },
     {
       "kind": "technique",
+      "title": "Boot or Logon Initialization Scripts",
+      "mitre_id": "T1398",
+      "permalink": "/techniques/T1398/"
+    },
+    {
+      "kind": "technique",
+      "title": "Exploitation for Privilege Escalation",
+      "mitre_id": "T1404",
+      "permalink": "/techniques/T1404/"
+    },
+    {
+      "kind": "technique",
+      "title": "Obfuscated Files or Information",
+      "mitre_id": "T1406",
+      "permalink": "/techniques/T1406/"
+    },
+    {
+      "kind": "technique",
+      "title": "Steganography",
+      "mitre_id": "T1406.001",
+      "permalink": "/techniques/T1406.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Software Packing",
+      "mitre_id": "T1406.002",
+      "permalink": "/techniques/T1406.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "Download New Code at Runtime",
+      "mitre_id": "T1407",
+      "permalink": "/techniques/T1407/"
+    },
+    {
+      "kind": "technique",
+      "title": "Stored Application Data",
+      "mitre_id": "T1409",
+      "permalink": "/techniques/T1409/"
+    },
+    {
+      "kind": "technique",
+      "title": "Clipboard Data",
+      "mitre_id": "T1414",
+      "permalink": "/techniques/T1414/"
+    },
+    {
+      "kind": "technique",
+      "title": "Input Capture",
+      "mitre_id": "T1417",
+      "permalink": "/techniques/T1417/"
+    },
+    {
+      "kind": "technique",
+      "title": "Keylogging",
+      "mitre_id": "T1417.001",
+      "permalink": "/techniques/T1417.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "GUI Input Capture",
+      "mitre_id": "T1417.002",
+      "permalink": "/techniques/T1417.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "Software Discovery",
+      "mitre_id": "T1418",
+      "permalink": "/techniques/T1418/"
+    },
+    {
+      "kind": "technique",
+      "title": "Security Software Discovery",
+      "mitre_id": "T1418.001",
+      "permalink": "/techniques/T1418.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "File and Directory Discovery",
+      "mitre_id": "T1420",
+      "permalink": "/techniques/T1420/"
+    },
+    {
+      "kind": "technique",
+      "title": "System Network Connections Discovery",
+      "mitre_id": "T1421",
+      "permalink": "/techniques/T1421/"
+    },
+    {
+      "kind": "technique",
+      "title": "System Network Configuration Discovery",
+      "mitre_id": "T1422",
+      "permalink": "/techniques/T1422/"
+    },
+    {
+      "kind": "technique",
+      "title": "Internet Connection Discovery",
+      "mitre_id": "T1422.001",
+      "permalink": "/techniques/T1422.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Wi-Fi Discovery",
+      "mitre_id": "T1422.002",
+      "permalink": "/techniques/T1422.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "Network Service Scanning",
+      "mitre_id": "T1423",
+      "permalink": "/techniques/T1423/"
+    },
+    {
+      "kind": "technique",
+      "title": "Process Discovery",
+      "mitre_id": "T1424",
+      "permalink": "/techniques/T1424/"
+    },
+    {
+      "kind": "technique",
+      "title": "System Information Discovery",
+      "mitre_id": "T1426",
+      "permalink": "/techniques/T1426/"
+    },
+    {
+      "kind": "technique",
+      "title": "Exploitation of Remote Services",
+      "mitre_id": "T1428",
+      "permalink": "/techniques/T1428/"
+    },
+    {
+      "kind": "technique",
+      "title": "Audio Capture",
+      "mitre_id": "T1429",
+      "permalink": "/techniques/T1429/"
+    },
+    {
+      "kind": "technique",
+      "title": "Location Tracking",
+      "mitre_id": "T1430",
+      "permalink": "/techniques/T1430/"
+    },
+    {
+      "kind": "technique",
+      "title": "Remote Device Management Services",
+      "mitre_id": "T1430.001",
+      "permalink": "/techniques/T1430.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Impersonate SS7 Nodes",
+      "mitre_id": "T1430.002",
+      "permalink": "/techniques/T1430.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "Application Layer Protocol",
+      "mitre_id": "T1437",
+      "permalink": "/techniques/T1437/"
+    },
+    {
+      "kind": "technique",
+      "title": "Web Protocols",
+      "mitre_id": "T1437.001",
+      "permalink": "/techniques/T1437.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "SIM Card Swap",
+      "mitre_id": "T1451",
+      "permalink": "/techniques/T1451/"
+    },
+    {
+      "kind": "technique",
+      "title": "Abuse Accessibility Features",
+      "mitre_id": "T1453",
+      "permalink": "/techniques/T1453/"
+    },
+    {
+      "kind": "technique",
+      "title": "Drive-By Compromise",
+      "mitre_id": "T1456",
+      "permalink": "/techniques/T1456/"
+    },
+    {
+      "kind": "technique",
+      "title": "Replication Through Removable Media",
+      "mitre_id": "T1458",
+      "permalink": "/techniques/T1458/"
+    },
+    {
+      "kind": "technique",
+      "title": "Lockscreen Bypass",
+      "mitre_id": "T1461",
+      "permalink": "/techniques/T1461/"
+    },
+    {
+      "kind": "technique",
+      "title": "Network Denial of Service",
+      "mitre_id": "T1464",
+      "permalink": "/techniques/T1464/"
+    },
+    {
+      "kind": "technique",
+      "title": "Data Encrypted for Impact",
+      "mitre_id": "T1471",
+      "permalink": "/techniques/T1471/"
+    },
+    {
+      "kind": "technique",
+      "title": "Supply Chain Compromise",
+      "mitre_id": "T1474",
+      "permalink": "/techniques/T1474/"
+    },
+    {
+      "kind": "technique",
+      "title": "Compromise Software Dependencies and Development Tools",
+      "mitre_id": "T1474.001",
+      "permalink": "/techniques/T1474.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Compromise Hardware Supply Chain",
+      "mitre_id": "T1474.002",
+      "permalink": "/techniques/T1474.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "Compromise Software Supply Chain",
+      "mitre_id": "T1474.003",
+      "permalink": "/techniques/T1474.003/"
+    },
+    {
+      "kind": "technique",
       "title": "Execution Guardrails",
       "mitre_id": "T1480",
       "permalink": "/techniques/T1480/"
@@ -9379,6 +10099,30 @@
       "title": "Mutual Exclusion",
       "mitre_id": "T1480.002",
       "permalink": "/techniques/T1480.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "Web Service",
+      "mitre_id": "T1481",
+      "permalink": "/techniques/T1481/"
+    },
+    {
+      "kind": "technique",
+      "title": "Dead Drop Resolver",
+      "mitre_id": "T1481.001",
+      "permalink": "/techniques/T1481.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Bidirectional Communication",
+      "mitre_id": "T1481.002",
+      "permalink": "/techniques/T1481.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "One-Way Communication",
+      "mitre_id": "T1481.003",
+      "permalink": "/techniques/T1481.003/"
     },
     {
       "kind": "technique",
@@ -9604,6 +10348,36 @@
     },
     {
       "kind": "technique",
+      "title": "Non-Standard Port",
+      "mitre_id": "T1509",
+      "permalink": "/techniques/T1509/"
+    },
+    {
+      "kind": "technique",
+      "title": "Video Capture",
+      "mitre_id": "T1512",
+      "permalink": "/techniques/T1512/"
+    },
+    {
+      "kind": "technique",
+      "title": "Screen Capture",
+      "mitre_id": "T1513",
+      "permalink": "/techniques/T1513/"
+    },
+    {
+      "kind": "technique",
+      "title": "Input Injection",
+      "mitre_id": "T1516",
+      "permalink": "/techniques/T1516/"
+    },
+    {
+      "kind": "technique",
+      "title": "Access Notifications",
+      "mitre_id": "T1517",
+      "permalink": "/techniques/T1517/"
+    },
+    {
+      "kind": "technique",
       "title": "Software Discovery",
       "mitre_id": "T1518",
       "permalink": "/techniques/T1518/"
@@ -9619,6 +10393,30 @@
       "title": "Backup Software Discovery",
       "mitre_id": "T1518.002",
       "permalink": "/techniques/T1518.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "Encrypted Channel",
+      "mitre_id": "T1521",
+      "permalink": "/techniques/T1521/"
+    },
+    {
+      "kind": "technique",
+      "title": "Symmetric Cryptography",
+      "mitre_id": "T1521.001",
+      "permalink": "/techniques/T1521.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Asymmetric Cryptography",
+      "mitre_id": "T1521.002",
+      "permalink": "/techniques/T1521.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "SSL Pinning",
+      "mitre_id": "T1521.003",
+      "permalink": "/techniques/T1521.003/"
     },
     {
       "kind": "technique",
@@ -9658,6 +10456,18 @@
     },
     {
       "kind": "technique",
+      "title": "Archive Collected Data",
+      "mitre_id": "T1532",
+      "permalink": "/techniques/T1532/"
+    },
+    {
+      "kind": "technique",
+      "title": "Data from Local System",
+      "mitre_id": "T1533",
+      "permalink": "/techniques/T1533/"
+    },
+    {
+      "kind": "technique",
       "title": "Internal Spearphishing",
       "mitre_id": "T1534",
       "permalink": "/techniques/T1534/"
@@ -9685,6 +10495,12 @@
       "title": "Steal Web Session Cookie",
       "mitre_id": "T1539",
       "permalink": "/techniques/T1539/"
+    },
+    {
+      "kind": "technique",
+      "title": "Foreground Persistence",
+      "mitre_id": "T1541",
+      "permalink": "/techniques/T1541/"
     },
     {
       "kind": "technique",
@@ -9757,6 +10573,12 @@
       "title": "Container Service",
       "mitre_id": "T1543.005",
       "permalink": "/techniques/T1543.005/"
+    },
+    {
+      "kind": "technique",
+      "title": "Ingress Tool Transfer",
+      "mitre_id": "T1544",
+      "permalink": "/techniques/T1544/"
     },
     {
       "kind": "technique",
@@ -10726,6 +11548,18 @@
     },
     {
       "kind": "technique",
+      "title": "Native API",
+      "mitre_id": "T1575",
+      "permalink": "/techniques/T1575/"
+    },
+    {
+      "kind": "technique",
+      "title": "Compromise Application Executable",
+      "mitre_id": "T1577",
+      "permalink": "/techniques/T1577/"
+    },
+    {
+      "kind": "technique",
       "title": "Modify Cloud Compute Infrastructure",
       "mitre_id": "T1578",
       "permalink": "/techniques/T1578/"
@@ -10765,6 +11599,12 @@
       "title": "Cloud Infrastructure Discovery",
       "mitre_id": "T1580",
       "permalink": "/techniques/T1580/"
+    },
+    {
+      "kind": "technique",
+      "title": "SMS Control",
+      "mitre_id": "T1582",
+      "permalink": "/techniques/T1582/"
     },
     {
       "kind": "technique",
@@ -11332,6 +12172,18 @@
     },
     {
       "kind": "technique",
+      "title": "Scheduled Task/Job",
+      "mitre_id": "T1603",
+      "permalink": "/techniques/T1603/"
+    },
+    {
+      "kind": "technique",
+      "title": "Proxy Through Victim",
+      "mitre_id": "T1604",
+      "permalink": "/techniques/T1604/"
+    },
+    {
+      "kind": "technique",
       "title": "Forge Web Credentials",
       "mitre_id": "T1606",
       "permalink": "/techniques/T1606/"
@@ -11440,6 +12292,18 @@
     },
     {
       "kind": "technique",
+      "title": "Call Control",
+      "mitre_id": "T1616",
+      "permalink": "/techniques/T1616/"
+    },
+    {
+      "kind": "technique",
+      "title": "Hooking",
+      "mitre_id": "T1617",
+      "permalink": "/techniques/T1617/"
+    },
+    {
+      "kind": "technique",
       "title": "Cloud Storage Object Discovery",
       "mitre_id": "T1619",
       "permalink": "/techniques/T1619/"
@@ -11461,6 +12325,312 @@
       "title": "Debugger Evasion",
       "mitre_id": "T1622",
       "permalink": "/techniques/T1622/"
+    },
+    {
+      "kind": "technique",
+      "title": "Command and Scripting Interpreter",
+      "mitre_id": "T1623",
+      "permalink": "/techniques/T1623/"
+    },
+    {
+      "kind": "technique",
+      "title": "Unix Shell",
+      "mitre_id": "T1623.001",
+      "permalink": "/techniques/T1623.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Event Triggered Execution",
+      "mitre_id": "T1624",
+      "permalink": "/techniques/T1624/"
+    },
+    {
+      "kind": "technique",
+      "title": "Broadcast Receivers",
+      "mitre_id": "T1624.001",
+      "permalink": "/techniques/T1624.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Hijack Execution Flow",
+      "mitre_id": "T1625",
+      "permalink": "/techniques/T1625/"
+    },
+    {
+      "kind": "technique",
+      "title": "System Runtime API Hijacking",
+      "mitre_id": "T1625.001",
+      "permalink": "/techniques/T1625.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Abuse Elevation Control Mechanism",
+      "mitre_id": "T1626",
+      "permalink": "/techniques/T1626/"
+    },
+    {
+      "kind": "technique",
+      "title": "Device Administrator Permissions",
+      "mitre_id": "T1626.001",
+      "permalink": "/techniques/T1626.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Execution Guardrails",
+      "mitre_id": "T1627",
+      "permalink": "/techniques/T1627/"
+    },
+    {
+      "kind": "technique",
+      "title": "Geofencing",
+      "mitre_id": "T1627.001",
+      "permalink": "/techniques/T1627.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Hide Artifacts",
+      "mitre_id": "T1628",
+      "permalink": "/techniques/T1628/"
+    },
+    {
+      "kind": "technique",
+      "title": "Suppress Application Icon",
+      "mitre_id": "T1628.001",
+      "permalink": "/techniques/T1628.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "User Evasion",
+      "mitre_id": "T1628.002",
+      "permalink": "/techniques/T1628.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "Conceal Multimedia Files",
+      "mitre_id": "T1628.003",
+      "permalink": "/techniques/T1628.003/"
+    },
+    {
+      "kind": "technique",
+      "title": "Impair Defenses",
+      "mitre_id": "T1629",
+      "permalink": "/techniques/T1629/"
+    },
+    {
+      "kind": "technique",
+      "title": "Prevent Application Removal",
+      "mitre_id": "T1629.001",
+      "permalink": "/techniques/T1629.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Device Lockout",
+      "mitre_id": "T1629.002",
+      "permalink": "/techniques/T1629.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "Disable or Modify Tools",
+      "mitre_id": "T1629.003",
+      "permalink": "/techniques/T1629.003/"
+    },
+    {
+      "kind": "technique",
+      "title": "Indicator Removal on Host",
+      "mitre_id": "T1630",
+      "permalink": "/techniques/T1630/"
+    },
+    {
+      "kind": "technique",
+      "title": "Uninstall Malicious Application",
+      "mitre_id": "T1630.001",
+      "permalink": "/techniques/T1630.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "File Deletion",
+      "mitre_id": "T1630.002",
+      "permalink": "/techniques/T1630.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "Disguise Root/Jailbreak Indicators",
+      "mitre_id": "T1630.003",
+      "permalink": "/techniques/T1630.003/"
+    },
+    {
+      "kind": "technique",
+      "title": "Process Injection",
+      "mitre_id": "T1631",
+      "permalink": "/techniques/T1631/"
+    },
+    {
+      "kind": "technique",
+      "title": "Ptrace System Calls",
+      "mitre_id": "T1631.001",
+      "permalink": "/techniques/T1631.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Subvert Trust Controls",
+      "mitre_id": "T1632",
+      "permalink": "/techniques/T1632/"
+    },
+    {
+      "kind": "technique",
+      "title": "Code Signing Policy Modification",
+      "mitre_id": "T1632.001",
+      "permalink": "/techniques/T1632.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Virtualization/Sandbox Evasion",
+      "mitre_id": "T1633",
+      "permalink": "/techniques/T1633/"
+    },
+    {
+      "kind": "technique",
+      "title": "System Checks",
+      "mitre_id": "T1633.001",
+      "permalink": "/techniques/T1633.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Credentials from Password Store",
+      "mitre_id": "T1634",
+      "permalink": "/techniques/T1634/"
+    },
+    {
+      "kind": "technique",
+      "title": "Keychain",
+      "mitre_id": "T1634.001",
+      "permalink": "/techniques/T1634.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Steal Application Access Token",
+      "mitre_id": "T1635",
+      "permalink": "/techniques/T1635/"
+    },
+    {
+      "kind": "technique",
+      "title": "URI Hijacking",
+      "mitre_id": "T1635.001",
+      "permalink": "/techniques/T1635.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Protected User Data",
+      "mitre_id": "T1636",
+      "permalink": "/techniques/T1636/"
+    },
+    {
+      "kind": "technique",
+      "title": "Calendar Entries",
+      "mitre_id": "T1636.001",
+      "permalink": "/techniques/T1636.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Call Log",
+      "mitre_id": "T1636.002",
+      "permalink": "/techniques/T1636.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "Contact List",
+      "mitre_id": "T1636.003",
+      "permalink": "/techniques/T1636.003/"
+    },
+    {
+      "kind": "technique",
+      "title": "SMS Messages",
+      "mitre_id": "T1636.004",
+      "permalink": "/techniques/T1636.004/"
+    },
+    {
+      "kind": "technique",
+      "title": "Accounts",
+      "mitre_id": "T1636.005",
+      "permalink": "/techniques/T1636.005/"
+    },
+    {
+      "kind": "technique",
+      "title": "Dynamic Resolution",
+      "mitre_id": "T1637",
+      "permalink": "/techniques/T1637/"
+    },
+    {
+      "kind": "technique",
+      "title": "Domain Generation Algorithms",
+      "mitre_id": "T1637.001",
+      "permalink": "/techniques/T1637.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Adversary-in-the-Middle",
+      "mitre_id": "T1638",
+      "permalink": "/techniques/T1638/"
+    },
+    {
+      "kind": "technique",
+      "title": "Exfiltration Over Alternative Protocol",
+      "mitre_id": "T1639",
+      "permalink": "/techniques/T1639/"
+    },
+    {
+      "kind": "technique",
+      "title": "Exfiltration Over Unencrypted Non-C2 Protocol",
+      "mitre_id": "T1639.001",
+      "permalink": "/techniques/T1639.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Account Access Removal",
+      "mitre_id": "T1640",
+      "permalink": "/techniques/T1640/"
+    },
+    {
+      "kind": "technique",
+      "title": "Data Manipulation",
+      "mitre_id": "T1641",
+      "permalink": "/techniques/T1641/"
+    },
+    {
+      "kind": "technique",
+      "title": "Transmitted Data Manipulation",
+      "mitre_id": "T1641.001",
+      "permalink": "/techniques/T1641.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Endpoint Denial of Service",
+      "mitre_id": "T1642",
+      "permalink": "/techniques/T1642/"
+    },
+    {
+      "kind": "technique",
+      "title": "Generate Traffic from Victim",
+      "mitre_id": "T1643",
+      "permalink": "/techniques/T1643/"
+    },
+    {
+      "kind": "technique",
+      "title": "Out of Band Data",
+      "mitre_id": "T1644",
+      "permalink": "/techniques/T1644/"
+    },
+    {
+      "kind": "technique",
+      "title": "Compromise Client Software Binary",
+      "mitre_id": "T1645",
+      "permalink": "/techniques/T1645/"
+    },
+    {
+      "kind": "technique",
+      "title": "Exfiltration Over C2 Channel",
+      "mitre_id": "T1646",
+      "permalink": "/techniques/T1646/"
     },
     {
       "kind": "technique",
@@ -11512,15 +12682,63 @@
     },
     {
       "kind": "technique",
+      "title": "Masquerading",
+      "mitre_id": "T1655",
+      "permalink": "/techniques/T1655/"
+    },
+    {
+      "kind": "technique",
+      "title": "Match Legitimate Name or Location",
+      "mitre_id": "T1655.001",
+      "permalink": "/techniques/T1655.001/"
+    },
+    {
+      "kind": "technique",
       "title": "Financial Theft",
       "mitre_id": "T1657",
       "permalink": "/techniques/T1657/"
     },
     {
       "kind": "technique",
+      "title": "Exploitation for Client Execution",
+      "mitre_id": "T1658",
+      "permalink": "/techniques/T1658/"
+    },
+    {
+      "kind": "technique",
       "title": "Content Injection",
       "mitre_id": "T1659",
       "permalink": "/techniques/T1659/"
+    },
+    {
+      "kind": "technique",
+      "title": "Phishing",
+      "mitre_id": "T1660",
+      "permalink": "/techniques/T1660/"
+    },
+    {
+      "kind": "technique",
+      "title": "Application Versioning",
+      "mitre_id": "T1661",
+      "permalink": "/techniques/T1661/"
+    },
+    {
+      "kind": "technique",
+      "title": "Data Destruction",
+      "mitre_id": "T1662",
+      "permalink": "/techniques/T1662/"
+    },
+    {
+      "kind": "technique",
+      "title": "Remote Access Software",
+      "mitre_id": "T1663",
+      "permalink": "/techniques/T1663/"
+    },
+    {
+      "kind": "technique",
+      "title": "Exploitation for Initial Access",
+      "mitre_id": "T1664",
+      "permalink": "/techniques/T1664/"
     },
     {
       "kind": "technique",
@@ -11554,6 +12772,12 @@
     },
     {
       "kind": "technique",
+      "title": "Virtualization Solution",
+      "mitre_id": "T1670",
+      "permalink": "/techniques/T1670/"
+    },
+    {
+      "kind": "technique",
       "title": "Cloud Application Integration",
       "mitre_id": "T1671",
       "permalink": "/techniques/T1671/"
@@ -11575,6 +12799,12 @@
       "title": "ESXi Administration Command",
       "mitre_id": "T1675",
       "permalink": "/techniques/T1675/"
+    },
+    {
+      "kind": "technique",
+      "title": "Linked Devices",
+      "mitre_id": "T1676",
+      "permalink": "/techniques/T1676/"
     },
     {
       "kind": "technique",
@@ -11737,6 +12967,102 @@
       "title": "Prevent Command History Logging",
       "mitre_id": "T1690",
       "permalink": "/techniques/T1690/"
+    },
+    {
+      "kind": "technique",
+      "title": "Block Operational Technology Message",
+      "mitre_id": "T1691",
+      "permalink": "/techniques/T1691/"
+    },
+    {
+      "kind": "technique",
+      "title": "Command Message",
+      "mitre_id": "T1691.001",
+      "permalink": "/techniques/T1691.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Reporting Message",
+      "mitre_id": "T1691.002",
+      "permalink": "/techniques/T1691.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "Unauthorized Message",
+      "mitre_id": "T1692",
+      "permalink": "/techniques/T1692/"
+    },
+    {
+      "kind": "technique",
+      "title": "Command Message",
+      "mitre_id": "T1692.001",
+      "permalink": "/techniques/T1692.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Reporting Message",
+      "mitre_id": "T1692.002",
+      "permalink": "/techniques/T1692.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "Modify Firmware",
+      "mitre_id": "T1693",
+      "permalink": "/techniques/T1693/"
+    },
+    {
+      "kind": "technique",
+      "title": "System Firmware",
+      "mitre_id": "T1693.001",
+      "permalink": "/techniques/T1693.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Module Firmware",
+      "mitre_id": "T1693.002",
+      "permalink": "/techniques/T1693.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "Insecure Credentials",
+      "mitre_id": "T1694",
+      "permalink": "/techniques/T1694/"
+    },
+    {
+      "kind": "technique",
+      "title": "Default Credentials",
+      "mitre_id": "T1694.001",
+      "permalink": "/techniques/T1694.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Hardcoded Credentials",
+      "mitre_id": "T1694.002",
+      "permalink": "/techniques/T1694.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "Block Communications",
+      "mitre_id": "T1695",
+      "permalink": "/techniques/T1695/"
+    },
+    {
+      "kind": "technique",
+      "title": "Serial COM",
+      "mitre_id": "T1695.001",
+      "permalink": "/techniques/T1695.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Ethernet",
+      "mitre_id": "T1695.002",
+      "permalink": "/techniques/T1695.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "Wi-Fi",
+      "mitre_id": "T1695.003",
+      "permalink": "/techniques/T1695.003/"
     }
   ],
   "campaigns": []

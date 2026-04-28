@@ -1,2268 +1,6366 @@
 {
+  "T0800": [
+    {
+      "tactic_id": "TA0107",
+      "domain": "ics"
+    }
+  ],
+  "T0801": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "ics"
+    }
+  ],
+  "T0802": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "ics"
+    }
+  ],
+  "T0806": [
+    {
+      "tactic_id": "TA0106",
+      "domain": "ics"
+    }
+  ],
+  "T0807": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "ics"
+    }
+  ],
+  "T0809": [
+    {
+      "tactic_id": "TA0107",
+      "domain": "ics"
+    }
+  ],
+  "T0811": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "ics"
+    }
+  ],
+  "T0813": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "ics"
+    }
+  ],
+  "T0814": [
+    {
+      "tactic_id": "TA0107",
+      "domain": "ics"
+    }
+  ],
+  "T0815": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "ics"
+    }
+  ],
+  "T0816": [
+    {
+      "tactic_id": "TA0107",
+      "domain": "ics"
+    }
+  ],
+  "T0817": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "ics"
+    }
+  ],
+  "T0819": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "ics"
+    }
+  ],
+  "T0820": [
+    {
+      "tactic_id": "TA0103",
+      "domain": "ics"
+    }
+  ],
+  "T0821": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "ics"
+    }
+  ],
+  "T0822": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "ics"
+    }
+  ],
+  "T0823": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "ics"
+    }
+  ],
+  "T0826": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "ics"
+    }
+  ],
+  "T0827": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "ics"
+    }
+  ],
+  "T0828": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "ics"
+    }
+  ],
+  "T0829": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "ics"
+    }
+  ],
+  "T0830": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "ics"
+    }
+  ],
+  "T0831": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "ics"
+    }
+  ],
+  "T0832": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "ics"
+    }
+  ],
+  "T0834": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "ics"
+    }
+  ],
+  "T0835": [
+    {
+      "tactic_id": "TA0107",
+      "domain": "ics"
+    }
+  ],
+  "T0836": [
+    {
+      "tactic_id": "TA0106",
+      "domain": "ics"
+    }
+  ],
+  "T0837": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "ics"
+    }
+  ],
+  "T0838": [
+    {
+      "tactic_id": "TA0107",
+      "domain": "ics"
+    }
+  ],
+  "T0840": [
+    {
+      "tactic_id": "TA0102",
+      "domain": "ics"
+    }
+  ],
+  "T0842": [
+    {
+      "tactic_id": "TA0102",
+      "domain": "ics"
+    }
+  ],
+  "T0843": [
+    {
+      "tactic_id": "TA0109",
+      "domain": "ics"
+    }
+  ],
+  "T0843.001": [
+    {
+      "tactic_id": "TA0109",
+      "domain": "ics"
+    }
+  ],
+  "T0843.002": [
+    {
+      "tactic_id": "TA0109",
+      "domain": "ics"
+    }
+  ],
+  "T0843.003": [
+    {
+      "tactic_id": "TA0109",
+      "domain": "ics"
+    }
+  ],
+  "T0845": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "ics"
+    }
+  ],
+  "T0846": [
+    {
+      "tactic_id": "TA0102",
+      "domain": "ics"
+    }
+  ],
+  "T0846.001": [
+    {
+      "tactic_id": "TA0102",
+      "domain": "ics"
+    }
+  ],
+  "T0846.002": [
+    {
+      "tactic_id": "TA0102",
+      "domain": "ics"
+    }
+  ],
+  "T0846.003": [
+    {
+      "tactic_id": "TA0102",
+      "domain": "ics"
+    }
+  ],
+  "T0847": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "ics"
+    }
+  ],
+  "T0848": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "ics"
+    }
+  ],
+  "T0849": [
+    {
+      "tactic_id": "TA0103",
+      "domain": "ics"
+    }
+  ],
+  "T0851": [
+    {
+      "tactic_id": "TA0103",
+      "domain": "ics"
+    },
+    {
+      "tactic_id": "TA0107",
+      "domain": "ics"
+    }
+  ],
+  "T0852": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "ics"
+    }
+  ],
+  "T0853": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "ics"
+    }
+  ],
+  "T0858": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "ics"
+    },
+    {
+      "tactic_id": "TA0103",
+      "domain": "ics"
+    }
+  ],
+  "T0859": [
+    {
+      "tactic_id": "TA0110",
+      "domain": "ics"
+    },
+    {
+      "tactic_id": "TA0109",
+      "domain": "ics"
+    }
+  ],
+  "T0860": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "ics"
+    }
+  ],
+  "T0861": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "ics"
+    }
+  ],
+  "T0862": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "ics"
+    }
+  ],
+  "T0863": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "ics"
+    }
+  ],
+  "T0864": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "ics"
+    }
+  ],
+  "T0865": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "ics"
+    }
+  ],
+  "T0866": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "ics"
+    },
+    {
+      "tactic_id": "TA0109",
+      "domain": "ics"
+    }
+  ],
+  "T0867": [
+    {
+      "tactic_id": "TA0109",
+      "domain": "ics"
+    }
+  ],
+  "T0868": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "ics"
+    }
+  ],
+  "T0869": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "ics"
+    }
+  ],
+  "T0871": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "ics"
+    }
+  ],
+  "T0872": [
+    {
+      "tactic_id": "TA0103",
+      "domain": "ics"
+    }
+  ],
+  "T0873": [
+    {
+      "tactic_id": "TA0110",
+      "domain": "ics"
+    }
+  ],
+  "T0873.001": [
+    {
+      "tactic_id": "TA0110",
+      "domain": "ics"
+    }
+  ],
+  "T0874": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "ics"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "ics"
+    }
+  ],
+  "T0877": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "ics"
+    }
+  ],
+  "T0878": [
+    {
+      "tactic_id": "TA0107",
+      "domain": "ics"
+    }
+  ],
+  "T0879": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "ics"
+    }
+  ],
+  "T0880": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "ics"
+    }
+  ],
+  "T0881": [
+    {
+      "tactic_id": "TA0107",
+      "domain": "ics"
+    }
+  ],
+  "T0882": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "ics"
+    }
+  ],
+  "T0883": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "ics"
+    }
+  ],
+  "T0884": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "ics"
+    }
+  ],
+  "T0885": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "ics"
+    }
+  ],
+  "T0886": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "ics"
+    },
+    {
+      "tactic_id": "TA0109",
+      "domain": "ics"
+    }
+  ],
+  "T0887": [
+    {
+      "tactic_id": "TA0102",
+      "domain": "ics"
+    },
+    {
+      "tactic_id": "TA0100",
+      "domain": "ics"
+    }
+  ],
+  "T0888": [
+    {
+      "tactic_id": "TA0102",
+      "domain": "ics"
+    }
+  ],
+  "T0889": [
+    {
+      "tactic_id": "TA0110",
+      "domain": "ics"
+    }
+  ],
+  "T0890": [
+    {
+      "tactic_id": "TA0111",
+      "domain": "ics"
+    }
+  ],
+  "T0892": [
+    {
+      "tactic_id": "TA0107",
+      "domain": "ics"
+    }
+  ],
+  "T0893": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "ics"
+    }
+  ],
+  "T0894": [
+    {
+      "tactic_id": "TA0103",
+      "domain": "ics"
+    }
+  ],
+  "T0895": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "ics"
+    }
+  ],
   "T1001": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1001.001": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1001.002": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1001.003": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1003": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1003.001": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1003.002": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1003.003": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1003.004": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1003.005": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1003.006": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1003.007": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1003.008": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1005": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1006": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1007": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1008": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1010": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1011": [
-    "TA0010"
+    {
+      "tactic_id": "TA0036",
+      "domain": "enterprise"
+    }
   ],
   "T1011.001": [
-    "TA0010"
+    {
+      "tactic_id": "TA0036",
+      "domain": "enterprise"
+    }
   ],
   "T1012": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1014": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1016": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1016.001": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1016.002": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1018": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1020": [
-    "TA0010"
+    {
+      "tactic_id": "TA0036",
+      "domain": "enterprise"
+    }
   ],
   "T1020.001": [
-    "TA0010"
+    {
+      "tactic_id": "TA0036",
+      "domain": "enterprise"
+    }
   ],
   "T1021": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1021.001": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1021.002": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1021.003": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1021.004": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1021.005": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1021.006": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1021.007": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1021.008": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1025": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1027": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1027.001": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1027.002": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1027.003": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1027.004": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1027.005": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1027.006": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1027.007": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1027.008": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1027.009": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1027.010": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1027.011": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1027.012": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1027.013": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1027.014": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1027.015": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1027.016": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1027.017": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1027.018": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1029": [
-    "TA0010"
+    {
+      "tactic_id": "TA0036",
+      "domain": "enterprise"
+    }
   ],
   "T1030": [
-    "TA0010"
+    {
+      "tactic_id": "TA0036",
+      "domain": "enterprise"
+    }
   ],
   "T1033": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1036": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1036.001": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1036.002": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1036.003": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1036.004": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1036.005": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1036.006": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1036.007": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1036.008": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1036.009": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1036.010": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1036.011": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1036.012": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1037": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1037.001": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1037.002": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1037.003": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1037.004": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1037.005": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1039": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1040": [
-    "TA0006",
-    "TA0007"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1041": [
-    "TA0010"
+    {
+      "tactic_id": "TA0036",
+      "domain": "enterprise"
+    }
   ],
   "T1046": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1047": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1048": [
-    "TA0010"
+    {
+      "tactic_id": "TA0036",
+      "domain": "enterprise"
+    }
   ],
   "T1048.001": [
-    "TA0010"
+    {
+      "tactic_id": "TA0036",
+      "domain": "enterprise"
+    }
   ],
   "T1048.002": [
-    "TA0010"
+    {
+      "tactic_id": "TA0036",
+      "domain": "enterprise"
+    }
   ],
   "T1048.003": [
-    "TA0010"
+    {
+      "tactic_id": "TA0036",
+      "domain": "enterprise"
+    }
   ],
   "T1049": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1052": [
-    "TA0010"
+    {
+      "tactic_id": "TA0036",
+      "domain": "enterprise"
+    }
   ],
   "T1052.001": [
-    "TA0010"
+    {
+      "tactic_id": "TA0036",
+      "domain": "enterprise"
+    }
   ],
   "T1053": [
-    "TA0002",
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1053.002": [
-    "TA0002",
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1053.003": [
-    "TA0002",
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1053.005": [
-    "TA0002",
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1053.006": [
-    "TA0002",
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1053.007": [
-    "TA0002",
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1055": [
-    "TA0005",
-    "TA0004"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1055.001": [
-    "TA0005",
-    "TA0004"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1055.002": [
-    "TA0005",
-    "TA0004"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1055.003": [
-    "TA0005",
-    "TA0004"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1055.004": [
-    "TA0005",
-    "TA0004"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1055.005": [
-    "TA0005",
-    "TA0004"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1055.008": [
-    "TA0005",
-    "TA0004"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1055.009": [
-    "TA0005",
-    "TA0004"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1055.011": [
-    "TA0005",
-    "TA0004"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1055.012": [
-    "TA0005",
-    "TA0004"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1055.013": [
-    "TA0005",
-    "TA0004"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1055.014": [
-    "TA0005",
-    "TA0004"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1055.015": [
-    "TA0005",
-    "TA0004"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1056": [
-    "TA0009",
-    "TA0006"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1056.001": [
-    "TA0009",
-    "TA0006"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1056.002": [
-    "TA0009",
-    "TA0006"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1056.003": [
-    "TA0009",
-    "TA0006"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1056.004": [
-    "TA0009",
-    "TA0006"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1057": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1059": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1059.001": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1059.002": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1059.003": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1059.004": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1059.005": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1059.006": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1059.007": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1059.008": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1059.009": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1059.010": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1059.011": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1059.012": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1059.013": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1068": [
-    "TA0004"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1069": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1069.001": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1069.002": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1069.003": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1070": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1070.003": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1070.004": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1070.005": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1070.006": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1070.007": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1070.008": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1070.009": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1070.010": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1071": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1071.001": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1071.002": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1071.003": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1071.004": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1071.005": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1072": [
-    "TA0002",
-    "TA0008"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1074": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1074.001": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1074.002": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1078": [
-    "TA0005",
-    "TA0003",
-    "TA0004",
-    "TA0001"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
   ],
   "T1078.001": [
-    "TA0005",
-    "TA0003",
-    "TA0004",
-    "TA0001"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
   ],
   "T1078.002": [
-    "TA0005",
-    "TA0003",
-    "TA0004",
-    "TA0001"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
   ],
   "T1078.003": [
-    "TA0005",
-    "TA0003",
-    "TA0004",
-    "TA0001"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
   ],
   "T1078.004": [
-    "TA0005",
-    "TA0003",
-    "TA0004",
-    "TA0001"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
   ],
   "T1080": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1082": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1083": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1087": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1087.001": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1087.002": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1087.003": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1087.004": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1090": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1090.001": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1090.002": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1090.003": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1090.004": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1091": [
-    "TA0008",
-    "TA0001"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
   ],
   "T1092": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1095": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1098": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1098.001": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1098.002": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1098.003": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1098.004": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1098.005": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1098.006": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1098.007": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1102": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1102.001": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1102.002": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1102.003": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1104": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1105": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1106": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1110": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1110.001": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1110.002": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1110.003": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1110.004": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1111": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1112": [
-    "TA0112",
-    "TA0003"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1113": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1114": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1114.001": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1114.002": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1114.003": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1115": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1119": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1120": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1123": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1124": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1125": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1127": [
-    "TA0005",
-    "TA0002"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1127.001": [
-    "TA0005",
-    "TA0002"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1127.002": [
-    "TA0005",
-    "TA0002"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1127.003": [
-    "TA0005",
-    "TA0002"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1129": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1132": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1132.001": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1132.002": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1133": [
-    "TA0003",
-    "TA0001"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
   ],
   "T1134": [
-    "TA0005",
-    "TA0004"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1134.001": [
-    "TA0005",
-    "TA0004"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1134.002": [
-    "TA0005",
-    "TA0004"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1134.003": [
-    "TA0005",
-    "TA0004"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1134.004": [
-    "TA0005",
-    "TA0004"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1134.005": [
-    "TA0005",
-    "TA0004"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1135": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1136": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1136.001": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1136.002": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1136.003": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1137": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1137.001": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1137.002": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1137.003": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1137.004": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1137.005": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1137.006": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1140": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1176": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1176.001": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1176.002": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1185": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1187": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1189": [
-    "TA0001"
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
   ],
   "T1190": [
-    "TA0001"
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
   ],
   "T1195": [
-    "TA0001"
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
   ],
   "T1195.001": [
-    "TA0001"
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
   ],
   "T1195.002": [
-    "TA0001"
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
   ],
   "T1195.003": [
-    "TA0001"
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
   ],
   "T1197": [
-    "TA0005",
-    "TA0003",
-    "TA0002"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1199": [
-    "TA0001"
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
   ],
   "T1200": [
-    "TA0001"
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
   ],
   "T1201": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1202": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1203": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1204": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1204.001": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1204.002": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1204.003": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1204.004": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1204.005": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1205": [
-    "TA0005",
-    "TA0003",
-    "TA0011"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1205.001": [
-    "TA0005",
-    "TA0003",
-    "TA0011"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1205.002": [
-    "TA0005",
-    "TA0003",
-    "TA0011"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1207": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1210": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1211": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1212": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1213": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1213.001": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1213.002": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1213.003": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1213.004": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1213.005": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1213.006": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1216": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1216.001": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1216.002": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1217": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1218": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1218.001": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1218.002": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1218.003": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1218.004": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1218.005": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1218.007": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1218.008": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1218.009": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1218.010": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1218.011": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1218.012": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1218.013": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1218.014": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1218.015": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1219": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1219.001": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1219.002": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1219.003": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1220": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1221": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1222": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1222.001": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1222.002": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
+  ],
+  "T1398": [
+    {
+      "tactic_id": "TA0110",
+      "domain": "mobile"
+    }
+  ],
+  "T1404": [
+    {
+      "tactic_id": "TA0111",
+      "domain": "mobile"
+    }
+  ],
+  "T1406": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1406.001": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1406.002": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1407": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1409": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    }
+  ],
+  "T1414": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    },
+    {
+      "tactic_id": "TA0031",
+      "domain": "mobile"
+    }
+  ],
+  "T1417": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    },
+    {
+      "tactic_id": "TA0031",
+      "domain": "mobile"
+    }
+  ],
+  "T1417.001": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    },
+    {
+      "tactic_id": "TA0031",
+      "domain": "mobile"
+    }
+  ],
+  "T1417.002": [
+    {
+      "tactic_id": "TA0031",
+      "domain": "mobile"
+    },
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    }
+  ],
+  "T1418": [
+    {
+      "tactic_id": "TA0102",
+      "domain": "mobile"
+    }
+  ],
+  "T1418.001": [
+    {
+      "tactic_id": "TA0102",
+      "domain": "mobile"
+    }
+  ],
+  "T1420": [
+    {
+      "tactic_id": "TA0102",
+      "domain": "mobile"
+    }
+  ],
+  "T1421": [
+    {
+      "tactic_id": "TA0102",
+      "domain": "mobile"
+    }
+  ],
+  "T1422": [
+    {
+      "tactic_id": "TA0102",
+      "domain": "mobile"
+    }
+  ],
+  "T1422.001": [
+    {
+      "tactic_id": "TA0102",
+      "domain": "mobile"
+    }
+  ],
+  "T1422.002": [
+    {
+      "tactic_id": "TA0102",
+      "domain": "mobile"
+    }
+  ],
+  "T1423": [
+    {
+      "tactic_id": "TA0102",
+      "domain": "mobile"
+    }
+  ],
+  "T1424": [
+    {
+      "tactic_id": "TA0102",
+      "domain": "mobile"
+    }
+  ],
+  "T1426": [
+    {
+      "tactic_id": "TA0102",
+      "domain": "mobile"
+    }
+  ],
+  "T1428": [
+    {
+      "tactic_id": "TA0109",
+      "domain": "mobile"
+    }
+  ],
+  "T1429": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    }
+  ],
+  "T1430": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    },
+    {
+      "tactic_id": "TA0102",
+      "domain": "mobile"
+    }
+  ],
+  "T1430.001": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    },
+    {
+      "tactic_id": "TA0102",
+      "domain": "mobile"
+    }
+  ],
+  "T1430.002": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    },
+    {
+      "tactic_id": "TA0102",
+      "domain": "mobile"
+    }
+  ],
+  "T1437": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "mobile"
+    }
+  ],
+  "T1437.001": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "mobile"
+    }
+  ],
+  "T1451": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "mobile"
+    }
+  ],
+  "T1453": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    },
+    {
+      "tactic_id": "TA0031",
+      "domain": "mobile"
+    }
+  ],
+  "T1456": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "mobile"
+    }
+  ],
+  "T1458": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "mobile"
+    },
+    {
+      "tactic_id": "TA0109",
+      "domain": "mobile"
+    }
+  ],
+  "T1461": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "mobile"
+    }
+  ],
+  "T1464": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "mobile"
+    }
+  ],
+  "T1471": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "mobile"
+    }
+  ],
+  "T1474": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "mobile"
+    }
+  ],
+  "T1474.001": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "mobile"
+    }
+  ],
+  "T1474.002": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "mobile"
+    }
+  ],
+  "T1474.003": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "mobile"
+    }
   ],
   "T1480": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1480.001": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1480.002": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
+  ],
+  "T1481": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "mobile"
+    }
+  ],
+  "T1481.001": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "mobile"
+    }
+  ],
+  "T1481.002": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "mobile"
+    }
+  ],
+  "T1481.003": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "mobile"
+    }
   ],
   "T1482": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1484": [
-    "TA0112",
-    "TA0004"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1484.001": [
-    "TA0112",
-    "TA0004"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1484.002": [
-    "TA0112",
-    "TA0004"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1485": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1485.001": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1486": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1489": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1490": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1491": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1491.001": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1491.002": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1495": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1496": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1496.001": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1496.002": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1496.003": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1496.004": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1497": [
-    "TA0005",
-    "TA0007"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1497.001": [
-    "TA0005",
-    "TA0007"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1497.002": [
-    "TA0005",
-    "TA0007"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1497.003": [
-    "TA0005",
-    "TA0007"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1498": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1498.001": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1498.002": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1499": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1499.001": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1499.002": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1499.003": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1499.004": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1505": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1505.001": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1505.002": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1505.003": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1505.004": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1505.005": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1505.006": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
+  ],
+  "T1509": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "mobile"
+    }
+  ],
+  "T1512": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    }
+  ],
+  "T1513": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    }
+  ],
+  "T1516": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    },
+    {
+      "tactic_id": "TA0105",
+      "domain": "mobile"
+    }
+  ],
+  "T1517": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    },
+    {
+      "tactic_id": "TA0031",
+      "domain": "mobile"
+    }
   ],
   "T1518": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1518.001": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1518.002": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
+  ],
+  "T1521": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "mobile"
+    }
+  ],
+  "T1521.001": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "mobile"
+    }
+  ],
+  "T1521.002": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "mobile"
+    }
+  ],
+  "T1521.003": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "mobile"
+    }
   ],
   "T1525": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1526": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1528": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1529": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1530": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1531": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
+  ],
+  "T1532": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    }
+  ],
+  "T1533": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    }
   ],
   "T1534": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1535": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1537": [
-    "TA0010"
+    {
+      "tactic_id": "TA0036",
+      "domain": "enterprise"
+    }
   ],
   "T1538": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1539": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
+  ],
+  "T1541": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "mobile"
+    }
   ],
   "T1542": [
-    "TA0005",
-    "TA0003"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1542.001": [
-    "TA0005",
-    "TA0003"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1542.002": [
-    "TA0005",
-    "TA0003"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1542.003": [
-    "TA0005",
-    "TA0003"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1542.004": [
-    "TA0005",
-    "TA0003"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1542.005": [
-    "TA0005",
-    "TA0003"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1543": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1543.001": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1543.002": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1543.003": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1543.004": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1543.005": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
+  ],
+  "T1544": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "mobile"
+    }
   ],
   "T1546": [
-    "TA0004",
-    "TA0003"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1546.001": [
-    "TA0004",
-    "TA0003"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1546.002": [
-    "TA0004",
-    "TA0003"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1546.003": [
-    "TA0004",
-    "TA0003"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1546.004": [
-    "TA0004",
-    "TA0003"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1546.005": [
-    "TA0004",
-    "TA0003"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1546.006": [
-    "TA0004",
-    "TA0003"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1546.007": [
-    "TA0004",
-    "TA0003"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1546.008": [
-    "TA0004",
-    "TA0003"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1546.009": [
-    "TA0004",
-    "TA0003"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1546.010": [
-    "TA0004",
-    "TA0003"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1546.011": [
-    "TA0004",
-    "TA0003"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1546.012": [
-    "TA0004",
-    "TA0003"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1546.013": [
-    "TA0004",
-    "TA0003"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1546.014": [
-    "TA0004",
-    "TA0003"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1546.015": [
-    "TA0004",
-    "TA0003"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1546.016": [
-    "TA0004",
-    "TA0003"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1546.017": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1546.018": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1547": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1547.001": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1547.002": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1547.003": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1547.004": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1547.005": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1547.006": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1547.007": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1547.008": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1547.009": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1547.010": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1547.012": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1547.013": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1547.014": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1547.015": [
-    "TA0003",
-    "TA0004"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1548": [
-    "TA0004"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1548.001": [
-    "TA0004"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1548.002": [
-    "TA0004"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1548.003": [
-    "TA0004"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1548.004": [
-    "TA0004"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1548.005": [
-    "TA0004"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1548.006": [
-    "TA0004"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1550": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1550.001": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1550.002": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1550.003": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1550.004": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1552": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1552.001": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1552.002": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1552.003": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1552.004": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1552.005": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1552.006": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1552.007": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1552.008": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1553": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1553.001": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1553.002": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1553.003": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1553.004": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1553.005": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1553.006": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1554": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1555": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1555.001": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1555.002": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1555.003": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1555.004": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1555.005": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1555.006": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1556": [
-    "TA0112",
-    "TA0003",
-    "TA0006"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1556.001": [
-    "TA0112",
-    "TA0003",
-    "TA0006"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1556.002": [
-    "TA0112",
-    "TA0003",
-    "TA0006"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1556.003": [
-    "TA0112",
-    "TA0003",
-    "TA0006"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1556.004": [
-    "TA0112",
-    "TA0003",
-    "TA0006"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1556.005": [
-    "TA0112",
-    "TA0003",
-    "TA0006"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1556.006": [
-    "TA0112",
-    "TA0003",
-    "TA0006"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1556.007": [
-    "TA0112",
-    "TA0003",
-    "TA0006"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1556.008": [
-    "TA0112",
-    "TA0003",
-    "TA0006"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1556.009": [
-    "TA0112",
-    "TA0003",
-    "TA0006"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1557": [
-    "TA0006",
-    "TA0009"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1557.001": [
-    "TA0006",
-    "TA0009"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1557.002": [
-    "TA0006",
-    "TA0009"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1557.003": [
-    "TA0006",
-    "TA0009"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1557.004": [
-    "TA0006",
-    "TA0009"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1558": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1558.001": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1558.002": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1558.003": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1558.004": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1558.005": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1559": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1559.001": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1559.002": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1559.003": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1560": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1560.001": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1560.002": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1560.003": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1561": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1561.001": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1561.002": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1563": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1563.001": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1563.002": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1564": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1564.001": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1564.002": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1564.003": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1564.004": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1564.005": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1564.006": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1564.007": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1564.008": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1564.009": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1564.010": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1564.011": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1564.012": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1564.013": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1564.014": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1565": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1565.001": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1565.002": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1565.003": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1566": [
-    "TA0001"
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
   ],
   "T1566.001": [
-    "TA0001"
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
   ],
   "T1566.002": [
-    "TA0001"
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
   ],
   "T1566.003": [
-    "TA0001"
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
   ],
   "T1566.004": [
-    "TA0001"
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
   ],
   "T1567": [
-    "TA0010"
+    {
+      "tactic_id": "TA0036",
+      "domain": "enterprise"
+    }
   ],
   "T1567.001": [
-    "TA0010"
+    {
+      "tactic_id": "TA0036",
+      "domain": "enterprise"
+    }
   ],
   "T1567.002": [
-    "TA0010"
+    {
+      "tactic_id": "TA0036",
+      "domain": "enterprise"
+    }
   ],
   "T1567.003": [
-    "TA0010"
+    {
+      "tactic_id": "TA0036",
+      "domain": "enterprise"
+    }
   ],
   "T1567.004": [
-    "TA0010"
+    {
+      "tactic_id": "TA0036",
+      "domain": "enterprise"
+    }
   ],
   "T1568": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1568.001": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1568.002": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1568.003": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1569": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1569.001": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1569.002": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1569.003": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1570": [
-    "TA0008"
+    {
+      "tactic_id": "TA0109",
+      "domain": "enterprise"
+    }
   ],
   "T1571": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1572": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1573": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1573.001": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1573.002": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1574": [
-    "TA0005",
-    "TA0002"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1574.001": [
-    "TA0005",
-    "TA0002"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1574.004": [
-    "TA0005",
-    "TA0002"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1574.005": [
-    "TA0005",
-    "TA0002"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1574.006": [
-    "TA0005",
-    "TA0002"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1574.007": [
-    "TA0005",
-    "TA0002"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1574.008": [
-    "TA0005",
-    "TA0002"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1574.009": [
-    "TA0005",
-    "TA0002"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1574.010": [
-    "TA0005",
-    "TA0002"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1574.011": [
-    "TA0005",
-    "TA0002"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1574.012": [
-    "TA0005",
-    "TA0002"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1574.013": [
-    "TA0005",
-    "TA0002"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1574.014": [
-    "TA0005",
-    "TA0002"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
+  ],
+  "T1575": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    },
+    {
+      "tactic_id": "TA0104",
+      "domain": "mobile"
+    }
+  ],
+  "T1577": [
+    {
+      "tactic_id": "TA0110",
+      "domain": "mobile"
+    }
   ],
   "T1578": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1578.001": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1578.002": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1578.003": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1578.004": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1578.005": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1580": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
+  ],
+  "T1582": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "mobile"
+    }
   ],
   "T1583": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1583.001": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1583.002": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1583.003": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1583.004": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1583.005": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1583.006": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1583.007": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1583.008": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1584": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1584.001": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1584.002": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1584.003": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1584.004": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1584.005": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1584.006": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1584.007": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1584.008": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1585": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1585.001": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1585.002": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1585.003": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1586": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1586.001": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1586.002": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1586.003": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1587": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1587.001": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1587.002": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1587.003": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1587.004": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1588": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1588.001": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1588.002": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1588.003": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1588.004": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1588.005": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1588.006": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1588.007": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1589": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1589.001": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1589.002": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1589.003": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1590": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1590.001": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1590.002": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1590.003": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1590.004": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1590.005": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1590.006": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1591": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1591.001": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1591.002": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1591.003": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1591.004": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1592": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1592.001": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1592.002": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1592.003": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1592.004": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1593": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1593.001": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1593.002": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1593.003": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1594": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1595": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1595.001": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1595.002": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1595.003": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1596": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1596.001": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1596.002": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1596.003": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1596.004": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1596.005": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1597": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1597.001": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1597.002": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1598": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1598.001": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1598.002": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1598.003": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1598.004": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1599": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1599.001": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1600": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1600.001": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1600.002": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1601": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1601.001": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1601.002": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1602": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1602.001": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
   ],
   "T1602.002": [
-    "TA0009"
+    {
+      "tactic_id": "TA0100",
+      "domain": "enterprise"
+    }
+  ],
+  "T1603": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "mobile"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "mobile"
+    }
+  ],
+  "T1604": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
   ],
   "T1606": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1606.001": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1606.002": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1608": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1608.001": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1608.002": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1608.003": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1608.004": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1608.005": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1608.006": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1609": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1610": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1611": [
-    "TA0004"
+    {
+      "tactic_id": "TA0111",
+      "domain": "enterprise"
+    }
   ],
   "T1612": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1613": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1614": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1614.001": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1615": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
+  ],
+  "T1616": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    },
+    {
+      "tactic_id": "TA0105",
+      "domain": "mobile"
+    },
+    {
+      "tactic_id": "TA0101",
+      "domain": "mobile"
+    }
+  ],
+  "T1617": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
   ],
   "T1619": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1620": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1621": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1622": [
-    "TA0005",
-    "TA0007"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
+  ],
+  "T1623": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "mobile"
+    }
+  ],
+  "T1623.001": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "mobile"
+    }
+  ],
+  "T1624": [
+    {
+      "tactic_id": "TA0110",
+      "domain": "mobile"
+    }
+  ],
+  "T1624.001": [
+    {
+      "tactic_id": "TA0110",
+      "domain": "mobile"
+    }
+  ],
+  "T1625": [
+    {
+      "tactic_id": "TA0110",
+      "domain": "mobile"
+    }
+  ],
+  "T1625.001": [
+    {
+      "tactic_id": "TA0110",
+      "domain": "mobile"
+    }
+  ],
+  "T1626": [
+    {
+      "tactic_id": "TA0111",
+      "domain": "mobile"
+    }
+  ],
+  "T1626.001": [
+    {
+      "tactic_id": "TA0111",
+      "domain": "mobile"
+    }
+  ],
+  "T1627": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1627.001": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1628": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1628.001": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1628.002": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1628.003": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1629": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1629.001": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1629.002": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1629.003": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1630": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1630.001": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1630.002": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1630.003": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1631": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "mobile"
+    }
+  ],
+  "T1631.001": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    },
+    {
+      "tactic_id": "TA0111",
+      "domain": "mobile"
+    }
+  ],
+  "T1632": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1632.001": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1633": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1633.001": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1634": [
+    {
+      "tactic_id": "TA0031",
+      "domain": "mobile"
+    }
+  ],
+  "T1634.001": [
+    {
+      "tactic_id": "TA0031",
+      "domain": "mobile"
+    }
+  ],
+  "T1635": [
+    {
+      "tactic_id": "TA0031",
+      "domain": "mobile"
+    }
+  ],
+  "T1635.001": [
+    {
+      "tactic_id": "TA0031",
+      "domain": "mobile"
+    }
+  ],
+  "T1636": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    }
+  ],
+  "T1636.001": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    }
+  ],
+  "T1636.002": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    }
+  ],
+  "T1636.003": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    }
+  ],
+  "T1636.004": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    }
+  ],
+  "T1636.005": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    }
+  ],
+  "T1637": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "mobile"
+    }
+  ],
+  "T1637.001": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "mobile"
+    }
+  ],
+  "T1638": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    }
+  ],
+  "T1639": [
+    {
+      "tactic_id": "TA0036",
+      "domain": "mobile"
+    }
+  ],
+  "T1639.001": [
+    {
+      "tactic_id": "TA0036",
+      "domain": "mobile"
+    }
+  ],
+  "T1640": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "mobile"
+    }
+  ],
+  "T1641": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "mobile"
+    }
+  ],
+  "T1641.001": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "mobile"
+    }
+  ],
+  "T1642": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "mobile"
+    }
+  ],
+  "T1643": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "mobile"
+    }
+  ],
+  "T1644": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "mobile"
+    }
+  ],
+  "T1645": [
+    {
+      "tactic_id": "TA0110",
+      "domain": "mobile"
+    }
+  ],
+  "T1646": [
+    {
+      "tactic_id": "TA0036",
+      "domain": "mobile"
+    }
   ],
   "T1647": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1648": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1649": [
-    "TA0006"
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
   ],
   "T1650": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1651": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1652": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1653": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1654": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
+  ],
+  "T1655": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1655.001": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
   ],
   "T1657": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
+  ],
+  "T1658": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "mobile"
+    }
   ],
   "T1659": [
-    "TA0001",
-    "TA0011"
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    },
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
+  ],
+  "T1660": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "mobile"
+    }
+  ],
+  "T1661": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "mobile"
+    },
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
+  ],
+  "T1662": [
+    {
+      "tactic_id": "TA0105",
+      "domain": "mobile"
+    }
+  ],
+  "T1663": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "mobile"
+    }
+  ],
+  "T1664": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "mobile"
+    }
   ],
   "T1665": [
-    "TA0011"
+    {
+      "tactic_id": "TA0101",
+      "domain": "enterprise"
+    }
   ],
   "T1666": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1667": [
-    "TA0040"
+    {
+      "tactic_id": "TA0105",
+      "domain": "enterprise"
+    }
   ],
   "T1668": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1669": [
-    "TA0001"
+    {
+      "tactic_id": "TA0108",
+      "domain": "enterprise"
+    }
+  ],
+  "T1670": [
+    {
+      "tactic_id": "TA0030",
+      "domain": "mobile"
+    }
   ],
   "T1671": [
-    "TA0003"
+    {
+      "tactic_id": "TA0110",
+      "domain": "enterprise"
+    }
   ],
   "T1673": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1674": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1675": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
+  ],
+  "T1676": [
+    {
+      "tactic_id": "TA0100",
+      "domain": "mobile"
+    },
+    {
+      "tactic_id": "TA0110",
+      "domain": "mobile"
+    }
   ],
   "T1677": [
-    "TA0002"
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
   ],
   "T1678": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1679": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1680": [
-    "TA0007"
+    {
+      "tactic_id": "TA0102",
+      "domain": "enterprise"
+    }
   ],
   "T1681": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1682": [
-    "TA0043"
+    {
+      "tactic_id": "TA0043",
+      "domain": "enterprise"
+    }
   ],
   "T1683": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1683.001": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1683.002": [
-    "TA0042"
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
   ],
   "T1684": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1684.001": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1684.002": [
-    "TA0005"
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
   ],
   "T1685": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1685.001": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1685.002": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1685.003": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1685.004": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1685.005": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1685.006": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1686": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1686.001": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1686.002": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1686.003": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1687": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1688": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1689": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
   ],
   "T1690": [
-    "TA0112"
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
+  ],
+  "T1691": [
+    {
+      "tactic_id": "TA0107",
+      "domain": "ics"
+    }
+  ],
+  "T1691.001": [
+    {
+      "tactic_id": "TA0107",
+      "domain": "ics"
+    }
+  ],
+  "T1691.002": [
+    {
+      "tactic_id": "TA0107",
+      "domain": "ics"
+    }
+  ],
+  "T1692": [
+    {
+      "tactic_id": "TA0103",
+      "domain": "ics"
+    },
+    {
+      "tactic_id": "TA0106",
+      "domain": "ics"
+    }
+  ],
+  "T1692.001": [
+    {
+      "tactic_id": "TA0103",
+      "domain": "ics"
+    },
+    {
+      "tactic_id": "TA0106",
+      "domain": "ics"
+    }
+  ],
+  "T1692.002": [
+    {
+      "tactic_id": "TA0103",
+      "domain": "ics"
+    },
+    {
+      "tactic_id": "TA0106",
+      "domain": "ics"
+    }
+  ],
+  "T1693": [
+    {
+      "tactic_id": "TA0110",
+      "domain": "ics"
+    },
+    {
+      "tactic_id": "TA0107",
+      "domain": "ics"
+    },
+    {
+      "tactic_id": "TA0106",
+      "domain": "ics"
+    }
+  ],
+  "T1693.001": [
+    {
+      "tactic_id": "TA0110",
+      "domain": "ics"
+    },
+    {
+      "tactic_id": "TA0107",
+      "domain": "ics"
+    },
+    {
+      "tactic_id": "TA0106",
+      "domain": "ics"
+    }
+  ],
+  "T1693.002": [
+    {
+      "tactic_id": "TA0110",
+      "domain": "ics"
+    },
+    {
+      "tactic_id": "TA0107",
+      "domain": "ics"
+    },
+    {
+      "tactic_id": "TA0106",
+      "domain": "ics"
+    }
+  ],
+  "T1694": [
+    {
+      "tactic_id": "TA0110",
+      "domain": "ics"
+    },
+    {
+      "tactic_id": "TA0109",
+      "domain": "ics"
+    }
+  ],
+  "T1694.001": [
+    {
+      "tactic_id": "TA0110",
+      "domain": "ics"
+    },
+    {
+      "tactic_id": "TA0109",
+      "domain": "ics"
+    }
+  ],
+  "T1694.002": [
+    {
+      "tactic_id": "TA0110",
+      "domain": "ics"
+    },
+    {
+      "tactic_id": "TA0109",
+      "domain": "ics"
+    }
+  ],
+  "T1695": [
+    {
+      "tactic_id": "TA0107",
+      "domain": "ics"
+    }
+  ],
+  "T1695.001": [
+    {
+      "tactic_id": "TA0107",
+      "domain": "ics"
+    }
+  ],
+  "T1695.002": [
+    {
+      "tactic_id": "TA0107",
+      "domain": "ics"
+    }
+  ],
+  "T1695.003": [
+    {
+      "tactic_id": "TA0107",
+      "domain": "ics"
+    }
   ]
 }
