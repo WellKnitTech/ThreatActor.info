@@ -27,6 +27,7 @@ class ContentValidator
     'schemas/tactic.schema.json',
     'schemas/campaign.schema.json',
     'schemas/mitigation.schema.json',
+    'schemas/ioc-shard.schema.json',
     '_layouts/default.html',
     '_layouts/threat_actor.html',
     '_includes/search.html',
@@ -60,10 +61,26 @@ class ContentValidator
     'api/actors_by_technique.json',
     'api/software_by_actor.json',
     'api/search-index.json',
+    'api/ioc-summary.json',
     '_layouts/technique.html',
     '_layouts/tactic.html',
     '_layouts/campaign.html',
     '_layouts/mitigation.html',
+    '_layouts/ioc_type.html',
+    '_includes/ioc-browser.html',
+    'iocs/index.html',
+    'iocs/ip-address.html',
+    'iocs/domain.html',
+    'iocs/url.html',
+    'iocs/email.html',
+    'iocs/md5.html',
+    'iocs/sha1.html',
+    'iocs/sha256.html',
+    'iocs/cve.html',
+    'iocs/attack-technique.html',
+    'iocs/file-extension.html',
+    'iocs/filename.html',
+    'iocs/other.html',
     '_data/generated/threat_actors.json',
     '_data/generated/iocs.json',
     '_data/generated/facets.json',
@@ -81,7 +98,8 @@ class ContentValidator
     '_data/generated/campaigns_mitre.json',
     '_data/generated/actors_by_technique.json',
     '_data/generated/software_by_actor.json',
-    '_data/generated/search_index.json'
+    '_data/generated/search_index.json',
+    '_data/generated/ioc_summary.json'
   ].freeze
   GENERATED_JSON_FILES = [
     '_data/generated/threat_actors.json',
@@ -101,7 +119,8 @@ class ContentValidator
     '_data/generated/campaigns_mitre.json',
     '_data/generated/actors_by_technique.json',
     '_data/generated/software_by_actor.json',
-    '_data/generated/search_index.json'
+    '_data/generated/search_index.json',
+    '_data/generated/ioc_summary.json'
   ].freeze
   GENERATED_API_WRAPPERS = {
     'api/threat-actors.json' => 'site.data.generated.threat_actors',
@@ -121,7 +140,8 @@ class ContentValidator
     'api/campaigns_mitre.json' => 'site.data.generated.campaigns_mitre',
     'api/actors_by_technique.json' => 'site.data.generated.actors_by_technique',
     'api/software_by_actor.json' => 'site.data.generated.software_by_actor',
-    'api/search-index.json' => 'site.data.generated.search_index'
+    'api/search-index.json' => 'site.data.generated.search_index',
+    'api/ioc-summary.json' => 'site.data.generated.ioc_summary'
   }.freeze
   SKIPPED_IOC_HEADINGS = ['Sources'].freeze
   IPV4_PATTERN = /\b(?:\d{1,3}\.){3}\d{1,3}\b/.freeze
@@ -157,6 +177,7 @@ class ContentValidator
     validate_generated_json
     validate_api_wrapper_bindings
     validate_ioc_shards
+    validate_ioc_manifest_pages
     validate_malware_actor_links
     validate_threat_actor_malware_links
     validate_duplicate_ioc_sections
@@ -605,6 +626,13 @@ class ContentValidator
     when 'facets.json', 'ioc_lookup.json', 'ioc_types.json', 'malware_index.json', 'actors_by_technique.json',
          'software_by_actor.json', 'search_index.json'
       add_error(file, 'Generated JSON root must be an object') unless payload.is_a?(Hash)
+    when 'ioc_summary.json'
+      add_error(file, 'Generated JSON root must be an object') unless payload.is_a?(Hash)
+      if payload.is_a?(Hash)
+        %w[total_records total_unique_values actor_count_with_iocs type_count].each do |k|
+          add_error(file, "ioc_summary.json missing key: #{k}") unless payload.key?(k)
+        end
+      end
     end
   end
 
@@ -630,6 +658,29 @@ class ContentValidator
     validate_json_glob('api/iocs/by-type/*.json', 'API IOC type shard')
   end
 
+  IOC_TYPES_WITH_DEDICATED_PAGE = %w[
+    ip_address domain url email md5 sha1 sha256 cve attack_technique file_extension filename
+  ].freeze
+
+  def validate_ioc_manifest_pages
+    puts 'Validating IOC hub vs manifest types...'
+
+    path = '_data/generated/ioc_types.json'
+    return unless File.exist?(path)
+
+    manifest = JSON.parse(File.read(path))
+    return unless manifest.is_a?(Hash)
+
+    manifest.each_key do |type|
+      next if IOC_TYPES_WITH_DEDICATED_PAGE.include?(type)
+
+      add_warning(
+        "IOC type #{type}",
+        'Rendered via /iocs/other/?ioc_type=… — add iocs/<slug>.html if this subsection becomes common'
+      )
+    end
+  end
+
   def validate_api_wrapper_bindings
     puts 'Validating API wrapper bindings...'
 
@@ -652,7 +703,9 @@ class ContentValidator
 
     files.each do |file|
       payload = JSON.parse(File.read(file))
-      unless payload.is_a?(Hash) && payload.key?('type') && payload.key?('records')
+      unless payload.is_a?(Hash) && payload['type'] && payload['records'].is_a?(Array) &&
+             payload['grouping'].is_a?(String) && payload['groups'].is_a?(Array) &&
+             payload['facets'].is_a?(Hash)
         add_error(file, "Invalid #{label} structure")
       end
     rescue JSON::ParserError => e

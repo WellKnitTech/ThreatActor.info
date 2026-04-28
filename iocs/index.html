@@ -1,0 +1,188 @@
+---
+layout: default
+title: IOC Database
+permalink: /iocs/
+---
+
+<div class="malware-index ioc-hub" id="ioc-hub">
+  <section class="hero">
+    <h1>IOC Database</h1>
+    <p class="hero-subtitle">Browse extracted indicators of compromise by type, network grouping, and actor. Use search for exact-value pivots across actor pages.</p>
+    <div class="quick-stats" id="ioc-hub-stats">
+      <div class="stat">
+        <span class="stat-number" id="ioc-hub-total">-</span>
+        <span class="stat-label">Indicators</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" id="ioc-hub-unique">-</span>
+        <span class="stat-label">Unique values</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" id="ioc-hub-actors">-</span>
+        <span class="stat-label">Actors with IOCs</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" id="ioc-hub-types">-</span>
+        <span class="stat-label">IOC types</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="quick-filters ioc-hub-search">
+    <h2>Search indicators</h2>
+    <div class="filter-chips">
+      <div class="filter-group filter-grow">
+        <label for="ioc-hub-query">Lookup:</label>
+        <input type="text" id="ioc-hub-query" placeholder="Paste or type an IOC value (partial match)..." autocomplete="off">
+      </div>
+      <button type="button" id="ioc-hub-search-btn">Search</button>
+    </div>
+    <div class="ioc-hub-search-results" id="ioc-hub-search-results" hidden></div>
+  </section>
+
+  <div id="ioc-hub-categories" class="ioc-hub-categories">
+    <p class="load-placeholder" id="ioc-hub-loading">Loading IOC types…</p>
+  </div>
+</div>
+
+<script>
+(function () {
+  const BASE = '{{ site.baseurl }}' || '';
+  const endpoints = {
+    summary: BASE + '/api/ioc-summary.json',
+    types: BASE + '/api/ioc-types.json',
+    lookup: BASE + '/api/ioc-lookup.json'
+  };
+
+  const CATEGORY_ORDER = ['network', 'host', 'hash', 'vuln', 'attack', 'other'];
+  const CATEGORY_LABELS = {
+    network: 'Network',
+    host: 'Host and filenames',
+    hash: 'Hashes',
+    vuln: 'Vulnerabilities',
+    attack: 'ATT&CK',
+    other: 'Other'
+  };
+
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  function debounce(fn, ms) {
+    let t;
+    return function () {
+      clearTimeout(t);
+      const args = arguments;
+      t = setTimeout(() => fn.apply(null, args), ms);
+    };
+  }
+
+  function buildLink(entry, manifest) {
+    const types = entry.types || [];
+    const type = types[0];
+    const meta = manifest[type];
+    if (!meta || !meta.page_url) return '#';
+    const val = entry.normalized_value || (entry.matches && entry.matches[0] && entry.matches[0].normalized_value) || '';
+    const sep = meta.page_url.indexOf('?') >= 0 ? '&' : '?';
+    return meta.page_url + sep + 'value=' + encodeURIComponent(val);
+  }
+
+  Promise.all([
+    fetch(endpoints.summary).then(r => r.json()).catch(() => ({})),
+    fetch(endpoints.types).then(r => r.json()).catch(() => ({})),
+    fetch(endpoints.lookup).then(r => r.json()).catch(() => ({}))
+  ]).then(([summary, manifest, lookup]) => {
+    document.getElementById('ioc-hub-loading').remove();
+    document.getElementById('ioc-hub-total').textContent = summary.total_records ?? 0;
+    document.getElementById('ioc-hub-unique').textContent = summary.total_unique_values ?? 0;
+    document.getElementById('ioc-hub-actors').textContent = summary.actor_count_with_iocs ?? 0;
+    document.getElementById('ioc-hub-types').textContent = summary.type_count ?? Object.keys(manifest).length;
+
+    const root = document.getElementById('ioc-hub-categories');
+    const byCat = {};
+    CATEGORY_ORDER.forEach(c => { byCat[c] = []; });
+
+    Object.keys(manifest).sort().forEach(key => {
+      const m = manifest[key];
+      const cat = m.category || 'other';
+      if (!byCat[cat]) byCat[cat] = [];
+      byCat[cat].push({ key: key, meta: m });
+    });
+
+    CATEGORY_ORDER.forEach(cat => {
+      const items = byCat[cat];
+      if (!items || !items.length) return;
+
+      const section = document.createElement('section');
+      section.className = 'ioc-category-section';
+      section.innerHTML = '<h2 class="ioc-category-title">' + esc(CATEGORY_LABELS[cat] || cat) + '</h2>' +
+        '<div class="ioc-type-grid"></div>';
+      const grid = section.querySelector('.ioc-type-grid');
+
+      items.sort((a, b) => a.meta.label.localeCompare(b.meta.label)).forEach(({ key, meta }) => {
+        const card = document.createElement('article');
+        card.className = 'ioc-type-card';
+        const actors = (meta.top_actors || []).slice(0, 3).map(a =>
+          '<span class="ioc-type-card-actor">' + esc(a.name) + ' <span class="ioc-type-card-count">(' + a.count + ')</span></span>'
+        ).join(' ');
+        card.innerHTML =
+          '<h3><a href="' + esc(BASE + meta.page_url) + '">' + esc(meta.label || key) + '</a></h3>' +
+          '<p class="ioc-type-card-desc">' + esc(meta.description || '') + '</p>' +
+          '<div class="ioc-type-card-meta">' +
+          '<span>' + (meta.count || 0) + ' records</span>' +
+          '<span>' + (meta.unique_values || 0) + ' unique</span>' +
+          '<span>' + (meta.atomic_count || 0) + ' atomic</span>' +
+          '</div>' +
+          (actors ? '<div class="ioc-type-card-actors"><span class="label">Top actors:</span> ' + actors + '</div>' : '') +
+          '<a class="card-link" href="' + esc(BASE + meta.page_url) + '">Browse ' + esc(meta.label || key) + ' →</a>';
+        grid.appendChild(card);
+      });
+
+      root.appendChild(section);
+    });
+
+    if (!root.children.length) {
+      root.innerHTML = '<p class="ioc-empty">No IOC records are indexed yet. Add structured IOC bullets to actor pages under <strong>Notable Indicators of Compromise (IOCs)</strong>, then run <code>ruby scripts/generate-indexes.rb</code>.</p>';
+    }
+
+    const resultsEl = document.getElementById('ioc-hub-search-results');
+    const input = document.getElementById('ioc-hub-query');
+
+    function runSearch() {
+      const term = input.value.trim().toLowerCase();
+      if (!term || !lookup || typeof lookup !== 'object') {
+        resultsEl.hidden = true;
+        resultsEl.innerHTML = '';
+        return;
+      }
+      const out = [];
+      const cap = 60;
+      for (const [k, entry] of Object.entries(lookup)) {
+        const nv = (entry.normalized_value || '').toLowerCase();
+        if (k.toLowerCase().includes(term) || nv.includes(term)) {
+          out.push({ key: k, entry: entry, href: buildLink(entry, manifest) });
+        }
+        if (out.length >= cap) break;
+      }
+      if (!out.length) {
+        resultsEl.hidden = false;
+        resultsEl.innerHTML = '<p class="ioc-search-empty">No matches. Try a longer substring or browse by type below.</p>';
+        return;
+      }
+      resultsEl.hidden = false;
+      resultsEl.innerHTML = '<ul class="ioc-search-list">' + out.map(o => {
+        const types = (o.entry.types || []).join(', ');
+        const actors = (o.entry.actors || []).map(a => a.name).join(', ');
+        return '<li><a href="' + esc(BASE + o.href) + '"><code>' + esc(o.entry.normalized_value || o.key) + '</code></a>' +
+          '<span class="ioc-search-meta">' + esc(types) + (actors ? ' · ' + esc(actors) : '') + '</span></li>';
+      }).join('') + '</ul>';
+    }
+
+    input.addEventListener('input', debounce(runSearch, 280));
+    document.getElementById('ioc-hub-search-btn').addEventListener('click', runSearch);
+    input.addEventListener('keypress', e => { if (e.key === 'Enter') runSearch(); });
+  }).catch(() => {
+    document.getElementById('ioc-hub-categories').innerHTML = '<p class="load-error">Unable to load IOC metadata.</p>';
+  });
+})();
+</script>

@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://threatactor.info/schemas/ioc-shard.schema.json",
+  "title": "IOC type shard (generate-indexes)",
+  "type": "object",
+  "required": [
+    "type",
+    "count",
+    "atomic_count",
+    "unique_values",
+    "grouping",
+    "groups",
+    "facets",
+    "records"
+  ],
+  "properties": {
+    "type": { "type": "string" },
+    "label": { "type": "string" },
+    "description": { "type": "string" },
+    "category": { "type": "string" },
+    "page_url": { "type": "string" },
+    "count": { "type": "integer", "minimum": 0 },
+    "atomic_count": { "type": "integer", "minimum": 0 },
+    "unique_values": { "type": "integer", "minimum": 0 },
+    "grouping": { "type": "string" },
+    "groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "label", "count", "records"],
+        "properties": {
+          "key": { "type": "string" },
+          "label": { "type": "string" },
+          "count": { "type": "integer", "minimum": 0 },
+          "records": { "type": "array" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "facets": {
+      "type": "object",
+      "required": ["actor"],
+      "properties": {
+        "actor": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "slug", "count"],
+            "properties": {
+              "name": { "type": "string" },
+              "slug": { "type": "string" },
+              "count": { "type": "integer", "minimum": 0 }
+            }
+          }
+        }
+      }
+    },
+    "records": { "type": "array" }
+  },
+  "additionalProperties": true
+}

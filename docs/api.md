@@ -200,35 +200,59 @@ Each value includes:
 - `actors`
 - `matches`
 
+### `/api/ioc-summary.json`
+
+Aggregate IOC statistics for the IOC hub (`/iocs/`).
+
+- `total_records` — all extracted IOC rows
+- `total_unique_values` — distinct `normalized_value` count
+- `actor_count_with_iocs` — distinct actors with at least one IOC
+- `type_count` — number of distinct `type` values in the manifest
+
 ### `/api/ioc-types.json`
 
-Manifest of available IOC type shards.
+Manifest of available IOC type shards, used to build the hub and per-type pages.
 
 Each type entry includes:
 
-- `type`
+- `type` — internal key (for example `ip_address`, `sha256`, or a slugified subsection heading)
+- `label` — display name
+- `description` — one-line summary for cards
+- `category` — hub grouping: `network`, `host`, `hash`, `vuln`, `attack`, `other`
+- `page_url` — site path to browse this type (`/iocs/<slug>/`, or `/iocs/other/?ioc_type=<type>` for uncommon headings)
+- `top_actors` — up to five `{ name, slug, count }` entries
 - `count`
 - `atomic_count`
 - `unique_values`
-- `path`
+- `path` — `/api/iocs/by-type/<type>.json`
 
 ### `/api/iocs/by-type/<type>.json`
 
-Type-scoped IOC shard for efficient client-side filtering.
+Type-scoped IOC shard (underscore key in the URL matches `type` from manifest records).
+
+Server-side grouping reduces oversized lists:
+
+- `grouping` — strategy name (`cidr16`, `etld1`, `url_host`, `cve_year`, `technique_parent`, `first_letter`, `by_actor`, …)
+- `groups` — array of `{ key, label, count, records }`; groups are sorted by size then key
+- `facets.actor` — actor facet with `{ name, slug, count }` for sidebar filters
+- `records` — full flat list for this type (same rows as in groups), sorted by value and actor
+
+Additional metadata mirrors the manifest: `label`, `description`, `category`, `page_url`.
 
 Example:
 
 ```js
 const manifest = await fetch('/api/ioc-types.json').then((response) => response.json());
 const shard = await fetch(manifest.ip_address.path).then((response) => response.json());
-const apt28Matches = shard.records.filter((record) => record.actor_slug === 'apt28');
+const group = shard.groups.find((g) => g.key === '192.168');
 ```
 
 ## Query Model
 
-- Exact IOC lookup: fetch `/api/ioc-lookup.json` and index by `normalized_value`.
-- Type-specific browsing: fetch `/api/ioc-types.json`, then fetch a shard from `/api/iocs/by-type/<type>.json`.
-- Actor-specific IOC filtering: fetch `/api/iocs.json` or a type shard and filter by `actor_slug`.
+- Exact IOC lookup: fetch `/api/ioc-lookup.json` and index by normalized lookup keys (includes atomic IOCs).
+- Type-specific browsing: open `/iocs/` or fetch `/api/ioc-types.json`, then `/api/iocs/by-type/<type>.json`. Prefer `groups` for grouped navigation.
+- Deep-link from hub search: `/iocs/ip-address/?value=<canonical>` (URL-encoded) expands the matching group and highlights the row.
+- Actor-specific IOC filtering: use `facets.actor` or filter `records` / group `records` by `actor_slug`.
 
 ### `/api/techniques.json`
 
