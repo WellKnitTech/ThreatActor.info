@@ -1,6 +1,6 @@
 name: "FIN5"
 aliases: ["FIN5","G0053"]
-description: "FIN5 is a financially motivated threat group that has targeted personally identifiable information and payment card information. The group has been active since at least 2008 and has targeted the restaurant, gaming, and hotel industries. The group is made up of actors who likely speak Russian. (Citation: FireEye Respond Webinar July 2017) (Citation: Mandiant FIN5 GrrCON Oct 2016) (Citation: DarkReading FireEye FIN5 Oct 2015)"
+description: "FIN5 is a financially motivated threat group that has targeted personally identifiable information and payment card information. The group has been active since at least 2008 and has targeted the restaurant, gaming, and hotel industries. The group is made up of actors who likely speak Russian. [FireEye Respond Webinar July 2017](https://www2.fireeye.com/WBNR-Are-you-ready-to-respond.html) [Mandiant FIN5 GrrCON Oct 2016](https://www.youtube.com/watch?v=fevGZs0EQu8) [DarkReading FireEye FIN5 Oct 2015](https://www.darkreading.com/analytics/prolific-cybercrime-gang-favors-legit-login-credentials/d/d-id/1322645?)"
 url: "/apt0053"
 external_id: "G0053"
 external_url: "https://attack.mitre.org/groups/G0053"

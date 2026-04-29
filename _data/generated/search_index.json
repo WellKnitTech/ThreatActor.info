@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T01:38:49Z",
+  "generated_at": "2026-04-29T01:50:00Z",
   "actors": [
     {
       "kind": "actor",
@@ -54,7 +54,7 @@
       "kind": "actor",
       "name": "Akira",
       "permalink": "/akira/",
-      "description": "Akira is a ransomware variant and ransomware deployment entity active since at least March 2023.(Citation: Arctic Wolf Akira 2023) Akira uses compromised credentials to access single-factor external access mechanisms such as VPNs for initial access, then various publicly-available",
+      "description": "Akira is a ransomware variant and ransomware deployment entity active since at least March 2023.[Arctic Wolf Akira 2023](https://arcticwolf.com/resources/blog/conti-and-akira-chained-together/) Akira uses compromised credentials to access single-factor external access mechanisms s",
       "country": "Unknown"
     },
     {
@@ -285,35 +285,35 @@
       "kind": "actor",
       "name": "Moafee",
       "permalink": "/apt0002/",
-      "description": "Moafee is a threat group that appears to operate from the Guandong Province of China. Due to overlapping TTPs, including similar custom tools, Moafee is thought to have a direct or indirect relationship with the threat group DragonOK. (Citation: Haq 2014)",
+      "description": "Moafee is a threat group that appears to operate from the Guandong Province of China. Due to overlapping TTPs, including similar custom tools, Moafee is thought to have a direct or indirect relationship with the threat group DragonOK. [Haq 2014](https://www.fireeye.com/blog/threat",
       "country": null
     },
     {
       "kind": "actor",
       "name": "Cleaver",
       "permalink": "/apt0003/",
-      "description": "Cleaver is a threat group that has been attributed to Iranian actors and is responsible for activity tracked as Operation Cleaver. (Citation: Cylance Cleaver) Strong circumstantial evidence suggests Cleaver is linked to Threat Group 2889 (TG-2889). (Citation: Dell Threat Group 288",
+      "description": "Cleaver is a threat group that has been attributed to Iranian actors and is responsible for activity tracked as Operation Cleaver. [Cylance Cleaver](https://web.archive.org/web/20200302085133/https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance_Operation_Cle",
       "country": "Iran"
     },
     {
       "kind": "actor",
       "name": "Ke3chang",
       "permalink": "/apt0004/",
-      "description": "Ke3chang is a threat group attributed to actors operating out of China. Ke3chang has targeted oil, government, diplomatic, military, and NGOs in Central and South America, the Caribbean, Europe, and North America since at least 2010.(Citation: Mandiant Operation Ke3chang November ",
+      "description": "Ke3chang is a threat group attributed to actors operating out of China. Ke3chang has targeted oil, government, diplomatic, military, and NGOs in Central and South America, the Caribbean, Europe, and North America since at least 2010.[Mandiant Operation Ke3chang November 2014](http",
       "country": null
     },
     {
       "kind": "actor",
       "name": "APT12",
       "permalink": "/apt0005/",
-      "description": "APT12 is a threat group that has been attributed to China. The group has targeted a variety of victims including but not limited to media outlets, high-tech companies, and multiple governments.(Citation: Meyers Numbered Panda)",
+      "description": "APT12 is a threat group that has been attributed to China. The group has targeted a variety of victims including but not limited to media outlets, high-tech companies, and multiple governments.[Meyers Numbered Panda](http://www.crowdstrike.com/blog/whois-numbered-panda/)",
       "country": "China"
     },
     {
       "kind": "actor",
       "name": "Deep Panda",
       "permalink": "/apt0009/",
-      "description": "Deep Panda is a suspected Chinese threat group known to target many industries, including government, defense, financial, and telecommunications. (Citation: Alperovitch 2014) The intrusion into healthcare company Anthem has been attributed to Deep Panda. (Citation: ThreatConnect A",
+      "description": "Deep Panda is a suspected Chinese threat group known to target many industries, including government, defense, financial, and telecommunications. [Alperovitch 2014](https://web.archive.org/web/20200424075623/https:/www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-s",
       "country": null
     },
     {
@@ -327,7 +327,7 @@
       "kind": "actor",
       "name": "PittyTiger",
       "permalink": "/apt0011/",
-      "description": "PittyTiger is a threat group believed to operate out of China that uses multiple different types of malware to maintain command and control.(Citation: Bizeul 2014)(Citation: Villeneuve 2014)",
+      "description": "PittyTiger is a threat group believed to operate out of China that uses multiple different types of malware to maintain command and control.[Bizeul 2014](https://airbus-cyber-security.com/the-eye-of-the-tiger/)[Villeneuve 2014](https://www.fireeye.com/blog/threat-research/2014/07/",
       "country": "China"
     },
     {
@@ -341,14 +341,14 @@
       "kind": "actor",
       "name": "APT30",
       "permalink": "/apt0013/",
-      "description": "APT30 is a threat group suspected to be associated with the Chinese government. While Naikon shares some characteristics with APT30, the two groups do not appear to be exact matches.(Citation: FireEye APT30)(Citation: Baumgartner Golovkin Naikon 2015)",
+      "description": "APT30 is a threat group suspected to be associated with the Chinese government. While Naikon shares some characteristics with APT30, the two groups do not appear to be exact matches.[FireEye APT30](https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2015/05/20081935/",
       "country": "China"
     },
     {
       "kind": "actor",
       "name": "DragonOK",
       "permalink": "/apt0017/",
-      "description": "DragonOK is a threat group that has targeted Japanese organizations with phishing emails. Due to overlapping TTPs, including similar custom tools, DragonOK is thought to have a direct or indirect relationship with the threat group Moafee. (Citation: Operation Quantum Entanglement)",
+      "description": "DragonOK is a threat group that has targeted Japanese organizations with phishing emails. Due to overlapping TTPs, including similar custom tools, DragonOK is thought to have a direct or indirect relationship with the threat group Moafee. [Operation Quantum Entanglement](https://w",
       "country": "China"
     },
     {
@@ -362,70 +362,70 @@
       "kind": "actor",
       "name": "Naikon",
       "permalink": "/apt0019/",
-      "description": "Naikon is assessed to be a state-sponsored cyber espionage group attributed to the Chinese People’s Liberation Army’s (PLA) Chengdu Military Region Second Technical Reconnaissance Bureau (Military Unit Cover Designator 78020).(Citation: CameraShy) Active since at least 2010, Naiko",
+      "description": "Naikon is assessed to be a state-sponsored cyber espionage group attributed to the Chinese People’s Liberation Army’s (PLA) Chengdu Military Region Second Technical Reconnaissance Bureau (Military Unit Cover Designator 78020).[CameraShy](http://cdn2.hubspot.net/hubfs/454298/Projec",
       "country": "China"
     },
     {
       "kind": "actor",
       "name": "Equation",
       "permalink": "/apt0020/",
-      "description": "Equation is a sophisticated threat group that employs multiple remote access tools. The group is known to use zero-day exploits and has developed the capability to overwrite the firmware of hard disk drives. (Citation: Kaspersky Equation QA)",
+      "description": "Equation is a sophisticated threat group that employs multiple remote access tools. The group is known to use zero-day exploits and has developed the capability to overwrite the firmware of hard disk drives. [Kaspersky Equation QA](https://media.kasperskycontenthub.com/wp-content/",
       "country": null
     },
     {
       "kind": "actor",
       "name": "Molerats",
       "permalink": "/apt0021/",
-      "description": "Molerats is an Arabic-speaking, politically-motivated threat group that has been operating since 2012. The group's victims have primarily been in the Middle East, Europe, and the United States.(Citation: DustySky)(Citation: DustySky2)(Citation: Kaspersky MoleRATs April 2019)(Citat",
+      "description": "Molerats is an Arabic-speaking, politically-motivated threat group that has been operating since 2012. The group's victims have primarily been in the Middle East, Europe, and the United States.[DustySky](https://www.clearskysec.com/wp-content/uploads/2016/01/Operation%20DustySky_T",
       "country": "Palestine"
     },
     {
       "kind": "actor",
       "name": "APT3",
       "permalink": "/apt0022/",
-      "description": "APT3 is a China-based threat group that researchers have attributed to China's Ministry of State Security.(Citation: FireEye Clandestine Wolf)(Citation: Recorded Future APT3 May 2017) This group is responsible for the campaigns known as Operation Clandestine Fox, Operation Clandes",
+      "description": "APT3 is a China-based threat group that researchers have attributed to China's Ministry of State Security.[FireEye Clandestine Wolf](https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html)[Recorded Future APT3 May 2017](https://ww",
       "country": "China"
     },
     {
       "kind": "actor",
       "name": "APT16",
       "permalink": "/apt0023/",
-      "description": "APT16 is a China-based threat group that has launched spearphishing campaigns targeting Japanese and Taiwanese organizations. (Citation: FireEye EPS Awakens Part 2)",
+      "description": "APT16 is a China-based threat group that has launched spearphishing campaigns targeting Japanese and Taiwanese organizations. [FireEye EPS Awakens Part 2](https://web.archive.org/web/20151226205946/https://www.fireeye.com/blog/threat-research/2015/12/the-eps-awakens-part-two.html)",
       "country": "China"
     },
     {
       "kind": "actor",
       "name": "Putter Panda",
       "permalink": "/apt0024/",
-      "description": "Putter Panda is a Chinese threat group that has been attributed to Unit 61486 of the 12th Bureau of the PLA’s 3rd General Staff Department (GSD). (Citation: CrowdStrike Putter Panda)",
+      "description": "Putter Panda is a Chinese threat group that has been attributed to Unit 61486 of the 12th Bureau of the PLA’s 3rd General Staff Department (GSD). [CrowdStrike Putter Panda](http://cdn0.vox-cdn.com/assets/4589853/crowdstrike-intelligence-report-putter-panda.original.pdf)",
       "country": null
     },
     {
       "kind": "actor",
       "name": "APT17",
       "permalink": "/apt0025/",
-      "description": "APT17 is a China-based threat group that has conducted network intrusions against U.S. government entities, the defense industry, law firms, information technology companies, mining companies, and non-government organizations. (Citation: FireEye APT17)",
+      "description": "APT17 is a China-based threat group that has conducted network intrusions against U.S. government entities, the defense industry, law firms, information technology companies, mining companies, and non-government organizations. [FireEye APT17](https://web.archive.org/web/2024011921",
       "country": "China"
     },
     {
       "kind": "actor",
       "name": "APT18",
       "permalink": "/apt0026/",
-      "description": "APT18 is a threat group that has operated since at least 2009 and has targeted a range of industries, including technology, manufacturing, human rights groups, government, and medical. (Citation: Dell Lateral Movement)",
+      "description": "APT18 is a threat group that has operated since at least 2009 and has targeted a range of industries, including technology, manufacturing, human rights groups, government, and medical. [Dell Lateral Movement](http://www.secureworks.com/resources/blog/where-you-at-indicators-of-lat",
       "country": "China"
     },
     {
       "kind": "actor",
       "name": "Threat Group-3390",
       "permalink": "/apt0027/",
-      "description": "Threat Group-3390 is a Chinese threat group that has extensively used strategic Web compromises to target victims.(Citation: Dell TG-3390) The group has been active since at least 2010 and has targeted organizations in the aerospace, government, defense, technology, energy, manufa",
+      "description": "Threat Group-3390 is a Chinese threat group that has extensively used strategic Web compromises to target victims.[Dell TG-3390](https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage) The group has been active since at least 2010 and has t",
       "country": null
     },
     {
       "kind": "actor",
       "name": "Threat Group-1314",
       "permalink": "/apt0028/",
-      "description": "Threat Group-1314 is an unattributed threat group that has used compromised credentials to log into a victim's remote access infrastructure. (Citation: Dell TG-1314)",
+      "description": "Threat Group-1314 is an unattributed threat group that has used compromised credentials to log into a victim's remote access infrastructure. [Dell TG-1314](https://web.archive.org/web/20150626073312/http://www.secureworks.com/resources/blog/living-off-the-land/)",
       "country": null
     },
     {
@@ -439,42 +439,42 @@
       "kind": "actor",
       "name": "Lotus Blossom",
       "permalink": "/apt0030/",
-      "description": "Lotus Blossom is a long-standing threat group largely targeting various entities in Asia since at least 2009. In addition to government and related targets, Lotus Blossom has also targeted entities such as digital certificate issuers.(Citation: Lotus Blossom Jun 2015)(Citation: Sy",
+      "description": "Lotus Blossom is a long-standing threat group largely targeting various entities in Asia since at least 2009. In addition to government and related targets, Lotus Blossom has also targeted entities such as digital certificate issuers.[Lotus Blossom Jun 2015](https://www.paloaltone",
       "country": null
     },
     {
       "kind": "actor",
       "name": "Poseidon Group",
       "permalink": "/apt0033/",
-      "description": "Poseidon Group is a Portuguese-speaking threat group that has been active since at least 2005. The group has a history of using information exfiltrated from victims to blackmail victim companies into contracting the Poseidon Group as a security firm. (Citation: Kaspersky Poseidon ",
+      "description": "Poseidon Group is a Portuguese-speaking threat group that has been active since at least 2005. The group has a history of using information exfiltrated from victims to blackmail victim companies into contracting the Poseidon Group as a security firm. [Kaspersky Poseidon Group](htt",
       "country": "Brazil"
     },
     {
       "kind": "actor",
       "name": "Sandworm Team",
       "permalink": "/apt0034/",
-      "description": "Sandworm Team is a destructive threat group that has been attributed to Russia's General Staff Main Intelligence Directorate (GRU) Main Center for Special Technologies (GTsST) military unit 74455.(Citation: US District Court Indictment GRU Unit 74455 October 2020)(Citation: UK NCS",
+      "description": "Sandworm Team is a destructive threat group that has been attributed to Russia's General Staff Main Intelligence Directorate (GRU) Main Center for Special Technologies (GTsST) military unit 74455.[US District Court Indictment GRU Unit 74455 October 2020](https://www.justice.gov/op",
       "country": null
     },
     {
       "kind": "actor",
       "name": "Dragonfly",
       "permalink": "/apt0035/",
-      "description": "Dragonfly is a cyber espionage group that has been attributed to Russia's Federal Security Service (FSB) Center 16.(Citation: DOJ Russia Targeting Critical Infrastructure March 2022)(Citation: UK GOV FSB Factsheet April 2022) Active since at least 2010, Dragonfly has targeted defe",
+      "description": "Dragonfly is a cyber espionage group that has been attributed to Russia's Federal Security Service (FSB) Center 16.[DOJ Russia Targeting Critical Infrastructure March 2022](https://www.justice.gov/opa/pr/four-russian-government-employees-charged-two-historical-hacking-campaigns-ta",
       "country": null
     },
     {
       "kind": "actor",
       "name": "GCMAN",
       "permalink": "/apt0036/",
-      "description": "GCMAN is a threat group that focuses on targeting banks for the purpose of transferring money to e-currency services. (Citation: Securelist GCMAN)",
+      "description": "GCMAN is a threat group that focuses on targeting banks for the purpose of transferring money to e-currency services. [Securelist GCMAN](https://securelist.com/apt-style-bank-robberies-increase-with-metel-gcman-and-carbanak-2-0-attacks/73638/)",
       "country": "Russia"
     },
     {
       "kind": "actor",
       "name": "FIN6",
       "permalink": "/apt0037/",
-      "description": "FIN6 is a cyber crime group that has stolen payment card data and sold it for profit on underground marketplaces. This group has aggressively targeted and compromised point of sale (PoS) systems in the hospitality and retail sectors.(Citation: FireEye FIN6 April 2016)(Citation: Fi",
+      "description": "FIN6 is a cyber crime group that has stolen payment card data and sold it for profit on underground marketplaces. This group has aggressively targeted and compromised point of sale (PoS) systems in the hospitality and retail sectors.[FireEye FIN6 April 2016](https://web.archive.or",
       "country": "Russia"
     },
     {
@@ -488,7 +488,7 @@
       "kind": "actor",
       "name": "Suckfly",
       "permalink": "/apt0039/",
-      "description": "Suckfly is a China-based threat group that has been active since at least 2014. (Citation: Symantec Suckfly March 2016)",
+      "description": "Suckfly is a China-based threat group that has been active since at least 2014. [Symantec Suckfly March 2016](http://www.symantec.com/connect/blogs/suckfly-revealing-secret-life-your-code-signing-certificates)",
       "country": null
     },
     {
@@ -502,7 +502,7 @@
       "kind": "actor",
       "name": "Strider",
       "permalink": "/apt0041/",
-      "description": "Strider is a threat group that has been active since at least 2011 and has targeted victims in Russia, China, Sweden, Belgium, Iran, and Rwanda.(Citation: Symantec Strider Blog)(Citation: Kaspersky ProjectSauron Blog)",
+      "description": "Strider is a threat group that has been active since at least 2011 and has targeted victims in Russia, China, Sweden, Belgium, Iran, and Rwanda.[Symantec Strider Blog](http://www.symantec.com/connect/blogs/strider-cyberespionage-group-turns-eye-sauron-targets)[Kaspersky ProjectSau",
       "country": null
     },
     {
@@ -530,21 +530,21 @@
       "kind": "actor",
       "name": "RTM",
       "permalink": "/apt0048/",
-      "description": "RTM is a cybercriminal group that has been active since at least 2015 and is primarily interested in users of remote banking systems in Russia and neighboring countries. The group uses a Trojan by the same name (RTM). (Citation: ESET RTM Feb 2017)",
+      "description": "RTM is a cybercriminal group that has been active since at least 2015 and is primarily interested in users of remote banking systems in Russia and neighboring countries. The group uses a Trojan by the same name (RTM). [ESET RTM Feb 2017](https://www.welivesecurity.com/wp-content/u",
       "country": null
     },
     {
       "kind": "actor",
       "name": "FIN10",
       "permalink": "/apt0051/",
-      "description": "FIN10 is a financially motivated threat group that has targeted organizations in North America since at least 2013 through 2016. The group uses stolen data exfiltrated from victims to extort organizations. (Citation: FireEye FIN10 June 2017)",
+      "description": "FIN10 is a financially motivated threat group that has targeted organizations in North America since at least 2013 through 2016. The group uses stolen data exfiltrated from victims to extort organizations. [FireEye FIN10 June 2017](https://services.google.com/fh/files/misc/rpt-fin",
       "country": null
     },
     {
       "kind": "actor",
       "name": "CopyKittens",
       "permalink": "/apt0052/",
-      "description": "CopyKittens is an Iranian cyber espionage group that has been operating since at least 2013. It has targeted countries including Israel, Saudi Arabia, Turkey, the U.S., Jordan, and Germany. The group is responsible for the campaign known as Operation Wilted Tulip.(Citation: ClearS",
+      "description": "CopyKittens is an Iranian cyber espionage group that has been operating since at least 2013. It has targeted countries including Israel, Saudi Arabia, Turkey, the U.S., Jordan, and Germany. The group is responsible for the campaign known as Operation Wilted Tulip.[ClearSky CopyKit",
       "country": "Iran"
     },
     {
@@ -558,14 +558,14 @@
       "kind": "actor",
       "name": "Sowbug",
       "permalink": "/apt0054/",
-      "description": "Sowbug is a threat group that has conducted targeted attacks against organizations in South America and Southeast Asia, particularly government entities, since at least 2015. (Citation: Symantec Sowbug Nov 2017)",
+      "description": "Sowbug is a threat group that has conducted targeted attacks against organizations in South America and Southeast Asia, particularly government entities, since at least 2015. [Symantec Sowbug Nov 2017](https://www.symantec.com/connect/blogs/sowbug-cyber-espionage-group-targets-sou",
       "country": "Unknown"
     },
     {
       "kind": "actor",
       "name": "NEODYMIUM",
       "permalink": "/apt0055/",
-      "description": "NEODYMIUM is an activity group that conducted a campaign in May 2016 and has heavily targeted Turkish victims. The group has demonstrated similarity to another activity group called PROMETHIUM due to overlapping victim and campaign characteristics. (Citation: Microsoft NEODYMIUM D",
+      "description": "NEODYMIUM is an activity group that conducted a campaign in May 2016 and has heavily targeted Turkish victims. The group has demonstrated similarity to another activity group called PROMETHIUM due to overlapping victim and campaign characteristics. [Microsoft NEODYMIUM Dec 2016](h",
       "country": null
     },
     {
@@ -579,7 +579,7 @@
       "kind": "actor",
       "name": "BRONZE BUTLER",
       "permalink": "/apt0060/",
-      "description": "BRONZE BUTLER is a cyber espionage group with likely Chinese origins that has been active since at least 2008. The group primarily targets Japanese organizations, particularly those in government, biotechnology, electronics manufacturing, and industrial chemistry.(Citation: Trend ",
+      "description": "BRONZE BUTLER is a cyber espionage group with likely Chinese origins that has been active since at least 2008. The group primarily targets Japanese organizations, particularly those in government, biotechnology, electronics manufacturing, and industrial chemistry.[Trend Micro Dase",
       "country": null
     },
     {
@@ -593,28 +593,28 @@
       "kind": "actor",
       "name": "TA459",
       "permalink": "/apt0062/",
-      "description": "TA459 is a threat group believed to operate out of China that has targeted countries including Russia, Belarus, Mongolia, and others. (Citation: Proofpoint TA459 April 2017)",
+      "description": "TA459 is a threat group believed to operate out of China that has targeted countries including Russia, Belarus, Mongolia, and others. [Proofpoint TA459 April 2017](https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts)",
       "country": "China"
     },
     {
       "kind": "actor",
       "name": "BlackOasis",
       "permalink": "/apt0063/",
-      "description": "BlackOasis is a Middle Eastern threat group that is believed to be a customer of Gamma Group. The group has shown interest in prominent figures in the United Nations, as well as opposition bloggers, activists, regional news correspondents, and think tanks. (Citation: Securelist Bl",
+      "description": "BlackOasis is a Middle Eastern threat group that is believed to be a customer of Gamma Group. The group has shown interest in prominent figures in the United Nations, as well as opposition bloggers, activists, regional news correspondents, and think tanks. [Securelist BlackOasis O",
       "country": null
     },
     {
       "kind": "actor",
       "name": "APT33",
       "permalink": "/apt0064/",
-      "description": "APT33 is a suspected Iranian threat group that has carried out operations since at least 2013. The group has targeted organizations across multiple industries in the United States, Saudi Arabia, and South Korea, with a particular interest in the aviation and energy sectors.(Citati",
+      "description": "APT33 is a suspected Iranian threat group that has carried out operations since at least 2013. The group has targeted organizations across multiple industries in the United States, Saudi Arabia, and South Korea, with a particular interest in the aviation and energy sectors.[FireEy",
       "country": "Iran"
     },
     {
       "kind": "actor",
       "name": "Elderwood",
       "permalink": "/apt0066/",
-      "description": "Elderwood is a suspected Chinese cyber espionage group that was reportedly responsible for the 2009 Google intrusion known as Operation Aurora. (Citation: Security Affairs Elderwood Sept 2012) The group has targeted defense organizations, supply chain manufacturers, human rights a",
+      "description": "Elderwood is a suspected Chinese cyber espionage group that was reportedly responsible for the 2009 Google intrusion known as Operation Aurora. [Security Affairs Elderwood Sept 2012](http://securityaffairs.co/wordpress/8528/hacking/elderwood-project-who-is-behind-op-aurora-and-ong",
       "country": null
     },
     {
@@ -628,28 +628,28 @@
       "kind": "actor",
       "name": "PLATINUM",
       "permalink": "/apt0068/",
-      "description": "PLATINUM is an activity group that has targeted victims since at least 2009. The group has focused on targets associated with governments and related organizations in South and Southeast Asia. (Citation: Microsoft PLATINUM April 2016)",
+      "description": "PLATINUM is an activity group that has targeted victims since at least 2009. The group has focused on targets associated with governments and related organizations in South and Southeast Asia. [Microsoft PLATINUM April 2016](https://download.microsoft.com/download/2/2/5/225BFE3E-E",
       "country": null
     },
     {
       "kind": "actor",
       "name": "MuddyWater",
       "permalink": "/apt0069/",
-      "description": "MuddyWater is a cyber espionage group assessed to be a subordinate element within Iran's Ministry of Intelligence and Security (MOIS).(Citation: CYBERCOM Iranian Intel Cyber January 2022) Since at least 2017, MuddyWater has targeted a range of government and private organizations ",
+      "description": "MuddyWater is a cyber espionage group assessed to be a subordinate element within Iran's Ministry of Intelligence and Security (MOIS).[CYBERCOM Iranian Intel Cyber January 2022](https://www.cybercom.mil/Media/News/Article/2897570/iranian-intel-cyber-suite-of-malware-uses-open-sour",
       "country": "Iran"
     },
     {
       "kind": "actor",
       "name": "Dark Caracal",
       "permalink": "/apt0070/",
-      "description": "Dark Caracal is threat group that has been attributed to the Lebanese General Directorate of General Security (GDGS) and has operated since at least 2012. (Citation: Lookout Dark Caracal Jan 2018)",
+      "description": "Dark Caracal is threat group that has been attributed to the Lebanese General Directorate of General Security (GDGS) and has operated since at least 2012. [Lookout Dark Caracal Jan 2018](https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf)",
       "country": null
     },
     {
       "kind": "actor",
       "name": "Orangeworm",
       "permalink": "/apt0071/",
-      "description": "Orangeworm is a group that has targeted organizations in the healthcare sector in the United States, Europe, and Asia since at least 2015, likely for the purpose of corporate espionage.(Citation: Symantec Orangeworm April 2018) Reverse engineering of Kwampirs, directly associated ",
+      "description": "Orangeworm is a group that has targeted organizations in the healthcare sector in the United States, Europe, and Asia since at least 2015, likely for the purpose of corporate espionage.[Symantec Orangeworm April 2018](https://www.symantec.com/blogs/threat-intelligence/orangeworm-t",
       "country": null
     },
     {
@@ -663,21 +663,21 @@
       "kind": "actor",
       "name": "Rancor",
       "permalink": "/apt0075/",
-      "description": "Rancor is a threat group that has led targeted campaigns against the South East Asia region. Rancor uses politically-motivated lures to entice victims to open malicious documents. (Citation: Rancor Unit42 June 2018)",
+      "description": "Rancor is a threat group that has led targeted campaigns against the South East Asia region. Rancor uses politically-motivated lures to entice victims to open malicious documents. [Rancor Unit42 June 2018](https://researchcenter.paloaltonetworks.com/2018/06/unit42-rancor-targeted-",
       "country": "China"
     },
     {
       "kind": "actor",
       "name": "Thrip",
       "permalink": "/apt0076/",
-      "description": "Thrip is an espionage group that has targeted satellite communications, telecoms, and defense contractor companies in the U.S. and Southeast Asia. The group uses custom malware as well as \"living off the land\" techniques. (Citation: Symantec Thrip June 2018)",
+      "description": "Thrip is an espionage group that has targeted satellite communications, telecoms, and defense contractor companies in the U.S. and Southeast Asia. The group uses custom malware as well as \"living off the land\" techniques. [Symantec Thrip June 2018](https://www.symantec.com/blogs/t",
       "country": "Unknown"
     },
     {
       "kind": "actor",
       "name": "Leafminer",
       "permalink": "/apt0077/",
-      "description": "Leafminer is an Iranian threat group that has targeted government organizations and business entities in the Middle East since at least early 2017. (Citation: Symantec Leafminer July 2018)",
+      "description": "Leafminer is an Iranian threat group that has targeted government organizations and business entities in the Middle East since at least early 2017. [Symantec Leafminer July 2018](https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east)",
       "country": null
     },
     {
@@ -691,7 +691,7 @@
       "kind": "actor",
       "name": "DarkHydrus",
       "permalink": "/apt0079/",
-      "description": "DarkHydrus is a threat group that has targeted government agencies and educational institutions in the Middle East since at least 2016. The group heavily leverages open-source tools and custom payloads for carrying out attacks. (Citation: Unit 42 DarkHydrus July 2018) (Citation: U",
+      "description": "DarkHydrus is a threat group that has targeted government agencies and educational institutions in the Middle East since at least 2016. The group heavily leverages open-source tools and custom payloads for carrying out attacks. [Unit 42 DarkHydrus July 2018](https://researchcenter",
       "country": "Iran"
     },
     {
@@ -705,35 +705,35 @@
       "kind": "actor",
       "name": "Tropic Trooper",
       "permalink": "/apt0081/",
-      "description": "Tropic Trooper is an unaffiliated threat group that has led targeted campaigns against targets in Taiwan, the Philippines, and Hong Kong. Tropic Trooper focuses on targeting government, healthcare, transportation, and high-tech industries and has been active since 2011.(Citation: ",
+      "description": "Tropic Trooper is an unaffiliated threat group that has led targeted campaigns against targets in Taiwan, the Philippines, and Hong Kong. Tropic Trooper focuses on targeting government, healthcare, transportation, and high-tech industries and has been active since 2011.[TrendMicro",
       "country": null
     },
     {
       "kind": "actor",
       "name": "APT38",
       "permalink": "/apt0082/",
-      "description": "APT38 is a North Korean state-sponsored threat group that specializes in financial cyber operations; it has been attributed to the Reconnaissance General Bureau.(Citation: CISA AA20-239A BeagleBoyz August 2020) Active since at least 2014, APT38 has targeted banks, financial instit",
+      "description": "APT38 is a North Korean state-sponsored threat group that specializes in financial cyber operations; it has been attributed to the Reconnaissance General Bureau.[CISA AA20-239A BeagleBoyz August 2020](https://us-cert.cisa.gov/ncas/alerts/aa20-239a) Active since at least 2014, APT3",
       "country": null
     },
     {
       "kind": "actor",
       "name": "SilverTerrier",
       "permalink": "/apt0083/",
-      "description": "SilverTerrier is a Nigerian threat group that has been seen active since 2014. SilverTerrier mainly targets organizations in high technology, higher education, and manufacturing.(Citation: Unit42 SilverTerrier 2018)(Citation: Unit42 SilverTerrier 2016)",
+      "description": "SilverTerrier is a Nigerian threat group that has been seen active since 2014. SilverTerrier mainly targets organizations in high technology, higher education, and manufacturing.[Unit42 SilverTerrier 2018](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=",
       "country": "Nigeria"
     },
     {
       "kind": "actor",
       "name": "Gallmaker",
       "permalink": "/apt0084/",
-      "description": "Gallmaker is a cyberespionage group that has targeted victims in the Middle East and has been active since at least December 2017. The group has mainly targeted victims in the defense, military, and government sectors.(Citation: Symantec Gallmaker Oct 2018)",
+      "description": "Gallmaker is a cyberespionage group that has targeted victims in the Middle East and has been active since at least December 2017. The group has mainly targeted victims in the defense, military, and government sectors.[Symantec Gallmaker Oct 2018](https://www.symantec.com/blogs/th",
       "country": null
     },
     {
       "kind": "actor",
       "name": "FIN4",
       "permalink": "/apt0085/",
-      "description": "FIN4 is a financially-motivated threat group that has targeted confidential information related to the public financial market, particularly regarding healthcare and pharmaceutical companies, since at least 2013.(Citation: FireEye Hacking FIN4 Dec 2014)(Citation: FireEye FIN4 Stea",
+      "description": "FIN4 is a financially-motivated threat group that has targeted confidential information related to the public financial market, particularly regarding healthcare and pharmaceutical companies, since at least 2013.[FireEye Hacking FIN4 Dec 2014](https://www.mandiant.com/sites/defaul",
       "country": null
     },
     {
@@ -747,21 +747,21 @@
       "kind": "actor",
       "name": "TEMP.Veles",
       "permalink": "/apt0088/",
-      "description": "TEMP.Veles is a Russia-based threat group that has targeted critical infrastructure. The group has been observed utilizing TRITON, a malware framework designed to manipulate industrial safety systems.(Citation: FireEye TRITON 2019)(Citation: FireEye TEMP.Veles 2018)(Citation: Fire",
+      "description": "TEMP.Veles is a Russia-based threat group that has targeted critical infrastructure. The group has been observed utilizing TRITON, a malware framework designed to manipulate industrial safety systems.[FireEye TRITON 2019](https://www.fireeye.com/blog/threat-research/2019/04/triton",
       "country": "Russia"
     },
     {
       "kind": "actor",
       "name": "The White Company",
       "permalink": "/apt0089/",
-      "description": "The White Company is a likely state-sponsored threat actor with advanced capabilities. From 2017 through 2018, the group led an espionage campaign called Operation Shaheen targeting government and military organizations in Pakistan.(Citation: Cylance Shaheen Nov 2018)",
+      "description": "The White Company is a likely state-sponsored threat actor with advanced capabilities. From 2017 through 2018, the group led an espionage campaign called Operation Shaheen targeting government and military organizations in Pakistan.[Cylance Shaheen Nov 2018](https://www.cylance.co",
       "country": null
     },
     {
       "kind": "actor",
       "name": "WIRTE",
       "permalink": "/apt0090/",
-      "description": "WIRTE is a threat group that has been active since at least August 2018. WIRTE has targeted government, diplomatic, financial, military, legal, and technology organizations in the Middle East and Europe.(Citation: Lab52 WIRTE Apr 2019)(Citation: Kaspersky WIRTE November 2021)",
+      "description": "WIRTE is a threat group that has been active since at least August 2018. WIRTE has targeted government, diplomatic, financial, military, legal, and technology organizations in the Middle East and Europe.[Lab52 WIRTE Apr 2019](https://lab52.io/blog/wirte-group-attacking-the-middle-",
       "country": null
     },
     {
@@ -803,14 +803,14 @@
       "kind": "actor",
       "name": "APT-C-36",
       "permalink": "/apt0099/",
-      "description": "APT-C-36 is a suspected South America espionage group that has been active since at least 2018. The group mainly targets Colombian government institutions as well as important corporations in the financial sector, petroleum industry, and professional manufacturing.(Citation: QiAnX",
+      "description": "APT-C-36 is a suspected South America espionage group that has been active since at least 2018. The group mainly targets Colombian government institutions as well as important corporations in the financial sector, petroleum industry, and professional manufacturing.[QiAnXin APT-C-3",
       "country": null
     },
     {
       "kind": "actor",
       "name": "Inception",
       "permalink": "/apt0100/",
-      "description": "Inception is a cyber espionage group active since at least 2014. The group has targeted multiple industries and governmental entities primarily in Russia, but has also been active in the United States and throughout Europe, Asia, Africa, and the Middle East.(Citation: Unit 42 Ince",
+      "description": "Inception is a cyber espionage group active since at least 2014. The group has targeted multiple industries and governmental entities primarily in Russia, but has also been active in the United States and throughout Europe, Asia, Africa, and the Middle East.[Unit 42 Inception Nove",
       "country": null
     },
     {
@@ -824,7 +824,7 @@
       "kind": "actor",
       "name": "DarkVishnya",
       "permalink": "/apt0105/",
-      "description": "DarkVishnya is a financially motivated threat actor targeting financial institutions in Eastern Europe. In 2017-2018 the group attacked at least 8 banks in this region.(Citation: Securelist DarkVishnya Dec 2018)",
+      "description": "DarkVishnya is a financially motivated threat actor targeting financial institutions in Eastern Europe. In 2017-2018 the group attacked at least 8 banks in this region.[Securelist DarkVishnya Dec 2018](https://securelist.com/darkvishnya/89169/)",
       "country": null
     },
     {
@@ -845,21 +845,21 @@
       "kind": "actor",
       "name": "Blue Mockingbird",
       "permalink": "/apt0108/",
-      "description": "Blue Mockingbird is a cluster of observed activity involving Monero cryptocurrency-mining payloads in dynamic-link library (DLL) form on Windows systems. The earliest observed Blue Mockingbird tools were created in December 2019.(Citation: RedCanary Mockingbird May 2020)",
+      "description": "Blue Mockingbird is a cluster of observed activity involving Monero cryptocurrency-mining payloads in dynamic-link library (DLL) form on Windows systems. The earliest observed Blue Mockingbird tools were created in December 2019.[RedCanary Mockingbird May 2020](https://redcanary.c",
       "country": null
     },
     {
       "kind": "actor",
       "name": "Windshift",
       "permalink": "/apt0112/",
-      "description": "Windshift is a threat group that has been active since at least 2017, targeting specific individuals for surveillance in government departments and critical infrastructure across the Middle East.(Citation: SANS Windshift August 2018)(Citation: objective-see windtail1 dec 2018)(Cit",
+      "description": "Windshift is a threat group that has been active since at least 2017, targeting specific individuals for surveillance in government departments and critical infrastructure across the Middle East.[SANS Windshift August 2018](https://www.scribd.com/document/661837258/WINDSHIFT-summi",
       "country": null
     },
     {
       "kind": "actor",
       "name": "Chimera",
       "permalink": "/apt0114/",
-      "description": "Chimera is a suspected China-based threat group that has been active since at least 2018 targeting the semiconductor industry in Taiwan as well as data from the airline industry.(Citation: Cycraft Chimera April 2020)(Citation: NCC Group Chimera January 2021)",
+      "description": "Chimera is a suspected China-based threat group that has been active since at least 2018 targeting the semiconductor industry in Taiwan as well as data from the airline industry.[Cycraft Chimera April 2020](https://cycraft.com/download/CyCraft-Whitepaper-Chimera_V4.1.pdf)[NCC Grou",
       "country": null
     },
     {
@@ -887,14 +887,14 @@
       "kind": "actor",
       "name": "Evilnum",
       "permalink": "/apt0120/",
-      "description": "Evilnum is a financially motivated threat group that has been active since at least 2018.(Citation: ESET EvilNum July 2020)",
+      "description": "Evilnum is a financially motivated threat group that has been active since at least 2018.[ESET EvilNum July 2020](https://www.welivesecurity.com/2020/07/09/more-evil-deep-look-evilnum-toolset/)",
       "country": null
     },
     {
       "kind": "actor",
       "name": "Sidewinder",
       "permalink": "/apt0121/",
-      "description": "Sidewinder is a suspected Indian threat actor group that has been active since at least 2012. They have been observed targeting government, military, and business entities throughout Asia, primarily focusing on Pakistan, China, Nepal, and Afghanistan.(Citation: ATT Sidewinder Janu",
+      "description": "Sidewinder is a suspected Indian threat actor group that has been active since at least 2012. They have been observed targeting government, military, and business entities throughout Asia, primarily focusing on Pakistan, China, Nepal, and Afghanistan.[ATT Sidewinder January 2021](",
       "country": null
     },
     {
@@ -908,14 +908,14 @@
       "kind": "actor",
       "name": "Volatile Cedar",
       "permalink": "/apt0123/",
-      "description": "Volatile Cedar is a Lebanese threat group that has targeted individuals, companies, and institutions worldwide. Volatile Cedar has been operating since 2012 and is motivated by political and ideological interests.(Citation: CheckPoint Volatile Cedar March 2015)(Citation: ClearSky ",
+      "description": "Volatile Cedar is a Lebanese threat group that has targeted individuals, companies, and institutions worldwide. Volatile Cedar has been operating since 2012 and is motivated by political and ideological interests.[CheckPoint Volatile Cedar March 2015](https://media.kasperskyconten",
       "country": null
     },
     {
       "kind": "actor",
       "name": "Windigo",
       "permalink": "/apt0124/",
-      "description": "The Windigo group has been operating since at least 2011, compromising thousands of Linux and Unix servers using the Ebury SSH backdoor to create a spam botnet. Despite law enforcement intervention against the creators, Windigo operators continued updating Ebury through 2019.(Cita",
+      "description": "The Windigo group has been operating since at least 2011, compromising thousands of Linux and Unix servers using the Ebury SSH backdoor to create a spam botnet. Despite law enforcement intervention against the creators, Windigo operators continued updating Ebury through 2019.[ESET",
       "country": null
     },
     {
@@ -936,14 +936,14 @@
       "kind": "actor",
       "name": "TA551",
       "permalink": "/apt0127/",
-      "description": "TA551 is a financially-motivated threat group that has been active since at least 2018. (Citation: Secureworks GOLD CABIN) The group has primarily targeted English, German, Italian, and Japanese speakers through email-based malware distribution campaigns. (Citation: Unit 42 TA551 ",
+      "description": "TA551 is a financially-motivated threat group that has been active since at least 2018. [Secureworks GOLD CABIN](https://www.secureworks.com/research/threat-profiles/gold-cabin) The group has primarily targeted English, German, Italian, and Japanese speakers through email-based ma",
       "country": null
     },
     {
       "kind": "actor",
       "name": "ZIRCONIUM",
       "permalink": "/apt0128/",
-      "description": "ZIRCONIUM is a threat group operating out of China, active since at least 2017, that has targeted individuals associated with the 2020 US presidential election and prominent leaders in the international affairs community.(Citation: Microsoft Targeting Elections September 2020)(Cit",
+      "description": "ZIRCONIUM is a threat group operating out of China, active since at least 2017, that has targeted individuals associated with the 2020 US presidential election and prominent leaders in the international affairs community.[Microsoft Targeting Elections September 2020](https://blogs",
       "country": null
     },
     {
@@ -978,28 +978,28 @@
       "kind": "actor",
       "name": "Transparent Tribe",
       "permalink": "/apt0134/",
-      "description": "Transparent Tribe is a suspected Pakistan-based threat group that has been active since at least 2013, primarily targeting diplomatic, defense, and research organizations in India and Afghanistan.(Citation: Proofpoint Operation Transparent Tribe March 2016)(Citation: Kaspersky Tra",
+      "description": "Transparent Tribe is a suspected Pakistan-based threat group that has been active since at least 2013, primarily targeting diplomatic, defense, and research organizations in India and Afghanistan.[Proofpoint Operation Transparent Tribe March 2016](https://www.proofpoint.com/sites/",
       "country": null
     },
     {
       "kind": "actor",
       "name": "BackdoorDiplomacy",
       "permalink": "/apt0135/",
-      "description": "BackdoorDiplomacy is a cyber espionage threat group that has been active since at least 2017. BackdoorDiplomacy has targeted Ministries of Foreign Affairs and telecommunication companies in Africa, Europe, the Middle East, and Asia.(Citation: ESET BackdoorDiplomacy Jun 2021)",
+      "description": "BackdoorDiplomacy is a cyber espionage threat group that has been active since at least 2017. BackdoorDiplomacy has targeted Ministries of Foreign Affairs and telecommunication companies in Africa, Europe, the Middle East, and Asia.[ESET BackdoorDiplomacy Jun 2021](https://www.wel",
       "country": "China"
     },
     {
       "kind": "actor",
       "name": "IndigoZebra",
       "permalink": "/apt0136/",
-      "description": "IndigoZebra is a suspected Chinese cyber espionage group that has been targeting Central Asian governments since at least 2014.(Citation: HackerNews IndigoZebra July 2021)(Citation: Checkpoint IndigoZebra July 2021)(Citation: Securelist APT Trends Q2 2017)",
+      "description": "IndigoZebra is a suspected Chinese cyber espionage group that has been targeting Central Asian governments since at least 2014.[HackerNews IndigoZebra July 2021](https://thehackernews.com/2021/07/indigozebra-apt-hacking-campaign.html)[Checkpoint IndigoZebra July 2021](https://rese",
       "country": "China"
     },
     {
       "kind": "actor",
       "name": "Ferocious Kitten",
       "permalink": "/apt0137/",
-      "description": "Ferocious Kitten is a threat group that has primarily targeted Persian-speaking individuals in Iran since at least 2015.(Citation: Kaspersky Ferocious Kitten Jun 2021)",
+      "description": "Ferocious Kitten is a threat group that has primarily targeted Persian-speaking individuals in Iran since at least 2015.[Kaspersky Ferocious Kitten Jun 2021](https://securelist.com/ferocious-kitten-6-years-of-covert-surveillance-in-iran/102806/)",
       "country": "Iran"
     },
     {
@@ -1013,14 +1013,14 @@
       "kind": "actor",
       "name": "TeamTNT",
       "permalink": "/apt0139/",
-      "description": "TeamTNT is a threat group that has primarily targeted cloud and containerized environments. The group as been active since at least October 2019 and has mainly focused its efforts on leveraging cloud and container resources to deploy cryptocurrency miners in victim environments.(C",
+      "description": "TeamTNT is a threat group that has primarily targeted cloud and containerized environments. The group as been active since at least October 2019 and has mainly focused its efforts on leveraging cloud and container resources to deploy cryptocurrency miners in victim environments.[P",
       "country": null
     },
     {
       "kind": "actor",
       "name": "LazyScripter",
       "permalink": "/apt0140/",
-      "description": "LazyScripter is threat group that has mainly targeted the airlines industry since at least 2018, primarily using open-source toolsets.(Citation: MalwareBytes LazyScripter Feb 2021)",
+      "description": "LazyScripter is threat group that has mainly targeted the airlines industry since at least 2018, primarily using open-source toolsets.[MalwareBytes LazyScripter Feb 2021](https://web.archive.org/web/20211003035156/https://www.malwarebytes.com/resources/files/2021/02/lazyscripter.p",
       "country": null
     },
     {
@@ -1034,7 +1034,7 @@
       "kind": "actor",
       "name": "Aquatic Panda",
       "permalink": "/apt0143/",
-      "description": "Aquatic Panda is a suspected China-based threat group with a dual mission of intelligence collection and industrial espionage. Active since at least May 2020, Aquatic Panda has primarily targeted entities in the telecommunications, technology, and government sectors.(Citation: Cro",
+      "description": "Aquatic Panda is a suspected China-based threat group with a dual mission of intelligence collection and industrial espionage. Active since at least May 2020, Aquatic Panda has primarily targeted entities in the telecommunications, technology, and government sectors.[CrowdStrike A",
       "country": null
     },
     {
@@ -1062,14 +1062,14 @@
       "kind": "actor",
       "name": "BITTER",
       "permalink": "/apt1002/",
-      "description": "BITTER is a suspected South Asian cyber espionage threat group that has been active since at least 2013. BITTER has targeted government, energy, and engineering organizations in Pakistan, China, Bangladesh, and Saudi Arabia.(Citation: Cisco Talos Bitter Bangladesh May 2022)(Citati",
+      "description": "BITTER is a suspected South Asian cyber espionage threat group that has been active since at least 2013. BITTER has targeted government, energy, and engineering organizations in Pakistan, China, Bangladesh, and Saudi Arabia.[Cisco Talos Bitter Bangladesh May 2022](https://blog.tal",
       "country": null
     },
     {
       "kind": "actor",
       "name": "Ember Bear",
       "permalink": "/apt1003/",
-      "description": "Ember Bear is a Russian state-sponsored cyber espionage group that has been active since at least 2020, linked to Russia's General Staff Main Intelligence Directorate (GRU) 161st Specialist Training Center (Unit 29155).(Citation: CISA GRU29155 2024) Ember Bear has primarily focuse",
+      "description": "Ember Bear is a Russian state-sponsored cyber espionage group that has been active since at least 2020, linked to Russia's General Staff Main Intelligence Directorate (GRU) 161st Specialist Training Center (Unit 29155).[CISA GRU29155 2024](https://www.cisa.gov/sites/default/files/",
       "country": null
     },
     {
@@ -1104,7 +1104,7 @@
       "kind": "actor",
       "name": "SideCopy",
       "permalink": "/apt1008/",
-      "description": "SideCopy is a Pakistani threat group that has primarily targeted South Asian countries, including Indian and Afghani government personnel, since at least 2019. SideCopy's name comes from its infection chain that tries to mimic that of Sidewinder, a suspected Indian threat group.(C",
+      "description": "SideCopy is a Pakistani threat group that has primarily targeted South Asian countries, including Indian and Afghani government personnel, since at least 2019. SideCopy's name comes from its infection chain that tries to mimic that of Sidewinder, a suspected Indian threat group.[M",
       "country": "Pakistan"
     },
     {
@@ -1125,7 +1125,7 @@
       "kind": "actor",
       "name": "CURIUM",
       "permalink": "/apt1012/",
-      "description": "CURIUM is an Iranian threat group, first reported in September 2019 and active since at least July 2018, targeting IT service providers in the Middle East.(Citation: Symantec Tortoiseshell 2019) CURIUM has since invested in building relationships with potential targets via social ",
+      "description": "CURIUM is an Iranian threat group, first reported in September 2019 and active since at least July 2018, targeting IT service providers in the Middle East.[Symantec Tortoiseshell 2019](https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/tortoiseshell-apt-suppl",
       "country": null
     },
     {
@@ -1146,7 +1146,7 @@
       "kind": "actor",
       "name": "Scattered Spider",
       "permalink": "/apt1015/",
-      "description": "Scattered Spider is a native English-speaking cybercriminal group active since at least 2022. (Citation: CrowdStrike Scattered Spider Profile) (Citation: MSTIC Octo Tempest Operations October 2023) The group initially targeted customer relationship management (CRM) providers, busi",
+      "description": "Scattered Spider is a native English-speaking cybercriminal group active since at least 2022. [CrowdStrike Scattered Spider Profile](https://www.crowdstrike.com/adversaries/scattered-spider/) [MSTIC Octo Tempest Operations October 2023](https://www.microsoft.com/en-us/security/blo",
       "country": null
     },
     {
@@ -1174,7 +1174,7 @@
       "kind": "actor",
       "name": "MoustachedBouncer",
       "permalink": "/apt1019/",
-      "description": "MoustachedBouncer is a cyberespionage group that has been active since at least 2014 targeting foreign embassies in Belarus.(Citation: MoustachedBouncer ESET August 2023)",
+      "description": "MoustachedBouncer is a cyberespionage group that has been active since at least 2014 targeting foreign embassies in Belarus.[MoustachedBouncer ESET August 2023](https://www.welivesecurity.com/en/eset-research/moustachedbouncer-espionage-against-foreign-diplomats-in-belarus/)",
       "country": "Belarus"
     },
     {
@@ -1195,7 +1195,7 @@
       "kind": "actor",
       "name": "ToddyCat",
       "permalink": "/apt1022/",
-      "description": "ToddyCat is a sophisticated threat group that has been active since at least 2020 using custom loaders and malware in multi-stage infection chains against government and military targets across Europe and Asia.(Citation: Kaspersky ToddyCat June 2022)(Citation: Kaspersky ToddyCat C",
+      "description": "ToddyCat is a sophisticated threat group that has been active since at least 2020 using custom loaders and malware in multi-stage infection chains against government and military targets across Europe and Asia.[Kaspersky ToddyCat June 2022](https://securelist.com/toddycat/106799/)",
       "country": null
     },
     {
@@ -1216,14 +1216,14 @@
       "kind": "actor",
       "name": "APT-C-23",
       "permalink": "/apt1028/",
-      "description": "APT-C-23 is a threat group that has been active since at least 2014.(Citation: symantec_mantis) APT-C-23 has primarily focused its operations on the Middle East, including Israeli military assets. APT-C-23 has developed mobile spyware targeting Android and iOS devices since 2017.(",
+      "description": "APT-C-23 is a threat group that has been active since at least 2014.[symantec_mantis](https://web.archive.org/web/20231227054130/https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/mantis-palestinian-attacks) APT-C-23 has primarily focused its operations on th",
       "country": null
     },
     {
       "kind": "actor",
       "name": "Agrius",
       "permalink": "/apt1030/",
-      "description": "Agrius is an Iranian threat actor active since 2020 notable for a series of ransomware and wiper operations in the Middle East, with an emphasis on Israeli targets.(Citation: SentinelOne Agrius 2021)(Citation: CheckPoint Agrius 2023) Public reporting has linked Agrius to Iran's Mi",
+      "description": "Agrius is an Iranian threat actor active since 2020 notable for a series of ransomware and wiper operations in the Middle East, with an emphasis on Israeli targets.[SentinelOne Agrius 2021](https://assets.sentinelone.com/sentinellabs/evol-agrius)[CheckPoint Agrius 2023](https://re",
       "country": null
     },
     {
@@ -1272,21 +1272,21 @@
       "kind": "actor",
       "name": "TA577",
       "permalink": "/apt1037/",
-      "description": "TA577 is an initial access broker (IAB) that has distributed QakBot and Pikabot, and was among the first observed groups distributing Latrodectus in 2023.(Citation: Latrodectus APR 2024)",
+      "description": "TA577 is an initial access broker (IAB) that has distributed QakBot and Pikabot, and was among the first observed groups distributing Latrodectus in 2023.[Latrodectus APR 2024](https://www.proofpoint.com/us/blog/threat-insight/latrodectus-spider-bytes-ice)",
       "country": "Russia"
     },
     {
       "kind": "actor",
       "name": "TA578",
       "permalink": "/apt1038/",
-      "description": "TA578 is a threat actor that has used contact forms and email to initiate communications with victims and to distribute malware including Latrodectus, IcedID, and Bumblebee.(Citation: Latrodectus APR 2024)(Citation: Bitsight Latrodectus June 2024)",
+      "description": "TA578 is a threat actor that has used contact forms and email to initiate communications with victims and to distribute malware including Latrodectus, IcedID, and Bumblebee.[Latrodectus APR 2024](https://www.proofpoint.com/us/blog/threat-insight/latrodectus-spider-bytes-ice)[Bitsi",
       "country": null
     },
     {
       "kind": "actor",
       "name": "RedCurl",
       "permalink": "/apt1039/",
-      "description": "RedCurl is a threat actor active since 2018 notable for corporate espionage targeting a variety of locations, including Ukraine, Canada and the United Kingdom, and a variety of industries, including but not limited to travel agencies, insurance companies, and banks.(Citation: grou",
+      "description": "RedCurl is a threat actor active since 2018 notable for corporate espionage targeting a variety of locations, including Ukraine, Canada and the United Kingdom, and a variety of industries, including but not limited to travel agencies, insurance companies, and banks.[group-ib_redcu",
       "country": null
     },
     {
@@ -1314,14 +1314,14 @@
       "kind": "actor",
       "name": "APT42",
       "permalink": "/apt1044/",
-      "description": "APT42 is an Iranian-sponsored threat group that conducts cyber espionage and surveillance.(Citation: Mandiant APT42-charms) The group primarily focuses on targets in the Middle East region, but has targeted a variety of industries and countries since at least 2015.(Citation: Mandi",
+      "description": "APT42 is an Iranian-sponsored threat group that conducts cyber espionage and surveillance.[Mandiant APT42-charms](https://services.google.com/fh/files/misc/apt42-crooked-charms-cons-and-compromises.pdf) The group primarily focuses on targets in the Middle East region, but has targ",
       "country": "Iran"
     },
     {
       "kind": "actor",
       "name": "Salt Typhoon",
       "permalink": "/apt1045/",
-      "description": "Salt Typhoon is a People's Republic of China (PRC) state-backed actor that has been active since at least 2019 and responsible for numerous compromises of network infrastructure at major U.S. telecommunication and internet service providers (ISP).(Citation: US Dept. of Treasury Sa",
+      "description": "Salt Typhoon is a People's Republic of China (PRC) state-backed actor that has been active since at least 2019 and responsible for numerous compromises of network infrastructure at major U.S. telecommunication and internet service providers (ISP).[US Dept. of Treasury Salt Typhoon",
       "country": null
     },
     {
@@ -1335,7 +1335,7 @@
       "kind": "actor",
       "name": "Velvet Ant",
       "permalink": "/apt1047/",
-      "description": "Velvet Ant is a threat actor operating since at least 2021. Velvet Ant is associated with complex persistence mechanisms, the targeting of network devices and appliances during operations, and the use of zero day exploits.(Citation: Sygnia VelvetAnt 2024A)(Citation: Sygnia VelvetA",
+      "description": "Velvet Ant is a threat actor operating since at least 2021. Velvet Ant is associated with complex persistence mechanisms, the targeting of network devices and appliances during operations, and the use of zero day exploits.[Sygnia VelvetAnt 2024A](https://www.sygnia.co/blog/china-n",
       "country": null
     },
     {
@@ -1454,14 +1454,14 @@
       "kind": "actor",
       "name": "APT28",
       "permalink": "/apt28/",
-      "description": "APT28 is a threat group that has been attributed to Russia's General Staff Main Intelligence Directorate (GRU) 85th Main Special Service Center (GTsSS) military unit 26165.(Citation: NSA/FBI Drovorub August 2020)(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021)",
+      "description": "APT28 is a threat group that has been attributed to Russia's General Staff Main Intelligence Directorate (GRU) 85th Main Special Service Center (GTsSS) military unit 26165.[NSA/FBI Drovorub August 2020](https://media.defense.gov/2020/Aug/13/2002476465/-1/-1/0/CSA_DROVORUB_RUSSIAN_",
       "country": "Russia"
     },
     {
       "kind": "actor",
       "name": "APT29",
       "permalink": "/apt29/",
-      "description": "APT29 is threat group that has been attributed to Russia's Foreign Intelligence Service (SVR).(Citation: White House Imposing Costs RU Gov April 2021)(Citation: UK Gov Malign RIS Activity April 2021) They have operated since at least 2008, often targeting government networks in Eu",
+      "description": "APT29 is threat group that has been attributed to Russia's Foreign Intelligence Service (SVR).[White House Imposing Costs RU Gov April 2021](https://www.whitehouse.gov/briefing-room/statements-releases/2021/04/15/fact-sheet-imposing-costs-for-harmful-foreign-activities-by-the-russ",
       "country": "Russia"
     },
     {
@@ -1503,7 +1503,7 @@
       "kind": "actor",
       "name": "APT40",
       "permalink": "/apt40/",
-      "description": "Leviathan is a Chinese state-sponsored cyber espionage group that has been attributed to the Ministry of State Security's (MSS) Hainan State Security Department and an affiliated front company.(Citation: CISA AA21-200A APT40 July 2021) Active since at least 2009, Leviathan has tar",
+      "description": "Leviathan is a Chinese state-sponsored cyber espionage group that has been attributed to the Ministry of State Security's (MSS) Hainan State Security Department and an affiliated front company.[CISA AA21-200A APT40 July 2021](https://us-cert.cisa.gov/ncas/alerts/aa21-200a) Active ",
       "country": "China"
     },
     {
@@ -2112,7 +2112,7 @@
       "kind": "actor",
       "name": "Cl0p",
       "permalink": "/cl0p/",
-      "description": "TA505 is a cyber criminal group that has been active since at least 2014. TA505 is known for frequently changing malware, driving global trends in criminal malware distribution, and ransomware campaigns involving Clop.(Citation: Proofpoint TA505 Sep 2017)(Citation: Proofpoint TA50",
+      "description": "TA505 is a cyber criminal group that has been active since at least 2014. TA505 is known for frequently changing malware, driving global trends in criminal malware distribution, and ransomware campaigns involving Clop.[Proofpoint TA505 Sep 2017](https://www.proofpoint.com/us/threa",
       "country": "Russia"
     },
     {
@@ -3848,7 +3848,7 @@
       "kind": "actor",
       "name": "Lazarus Group",
       "permalink": "/lazarus/",
-      "description": "Lazarus Group is a North Korean state-sponsored cyber threat group attributed to the Reconnaissance General Bureau (RGB). (Citation: US-CERT HIDDEN COBRA June 2017) (Citation: Treasury North Korean Cyber Groups September 2019) Lazarus Group has been active since at least 2009 and ",
+      "description": "Lazarus Group is a North Korean state-sponsored cyber threat group attributed to the Reconnaissance General Bureau (RGB). [US-CERT HIDDEN COBRA June 2017](https://www.us-cert.gov/ncas/alerts/TA17-164A) [Treasury North Korean Cyber Groups September 2019](https://home.treasury.gov/n",
       "country": "North Korea"
     },
     {

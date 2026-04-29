@@ -1,6 +1,6 @@
 name: "Cleaver"
 aliases: ["Alibaba","Cleaver","Cobalt Gypsy","G0003","Op Cleaver","Operation Cleaver","Tarh Andishan","TG-2889","Threat Group 2889"]
-description: "Cleaver is a threat group that has been attributed to Iranian actors and is responsible for activity tracked as Operation Cleaver. (Citation: Cylance Cleaver) Strong circumstantial evidence suggests Cleaver is linked to Threat Group 2889 (TG-2889). (Citation: Dell Threat Group 2889)"
+description: "Cleaver is a threat group that has been attributed to Iranian actors and is responsible for activity tracked as Operation Cleaver. [Cylance Cleaver](https://web.archive.org/web/20200302085133/https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance_Operation_Cleaver_Report.pdf) Strong circumstantial evidence suggests Cleaver is linked to Threat Group 2889 (TG-2889). [Dell Threat Group 2889](http://www.secureworks.com/cyber-threat-intelligence/threats/suspected-iran-based-hacker-group-creates-network-of-fake-linkedin-profiles/)"
 url: "/apt0003"
 country: "Iran"
 sector_focus: ["Defense","Energy","Technology","Government, Administration","Academia - University","Private sector","Government"]

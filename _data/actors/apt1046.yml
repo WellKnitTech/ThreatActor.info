@@ -1,6 +1,6 @@
 name: "Storm-1811"
 aliases: ["Storm-1811"]
-description: "Storm-1811 is a financially-motivated entity linked to Black Basta ransomware deployment. Storm-1811 is notable for unique phishing and social engineering mechanisms for initial access, such as overloading victim email inboxes with non-malicious spam to prompt a fake \"help desk\" interaction leading to the deployment of adversary tools and capabilities.(Citation: Microsoft Storm-1811 2024)(Citation: rapid7-email-bombing)(Citation: RedCanary Storm-1811 2024)(Citation: RedCanary June Insights 2024)"
+description: "Storm-1811 is a financially-motivated entity linked to Black Basta ransomware deployment. Storm-1811 is notable for unique phishing and social engineering mechanisms for initial access, such as overloading victim email inboxes with non-malicious spam to prompt a fake \"help desk\" interaction leading to the deployment of adversary tools and capabilities.[Microsoft Storm-1811 2024](https://www.microsoft.com/en-us/security/blog/2024/05/15/threat-actors-misusing-quick-assist-in-social-engineering-attacks-leading-to-ransomware/)[rapid7-email-bombing](https://www.rapid7.com/blog/post/2024/05/10/ongoing-social-engineering-campaign-linked-to-black-basta-ransomware-operators)[RedCanary Storm-1811 2024](https://redcanary.com/blog/threat-intelligence/storm-1811-black-basta/)[RedCanary June Insights 2024](https://redcanary.com/blog/threat-intelligence/intelligence-insights-june-2024/)"
 url: "/apt1046"
 external_id: "G1046"
 external_url: "https://attack.mitre.org/groups/G1046"

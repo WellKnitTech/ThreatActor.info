@@ -1,6 +1,6 @@
 name: "Equation"
 aliases: ["Equation"]
-description: "Equation is a sophisticated threat group that employs multiple remote access tools. The group is known to use zero-day exploits and has developed the capability to overwrite the firmware of hard disk drives. (Citation: Kaspersky Equation QA)"
+description: "Equation is a sophisticated threat group that employs multiple remote access tools. The group is known to use zero-day exploits and has developed the capability to overwrite the firmware of hard disk drives. [Kaspersky Equation QA](https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf)"
 url: "/apt0020"
 external_id: "G0020"
 external_url: "https://attack.mitre.org/groups/G0020"

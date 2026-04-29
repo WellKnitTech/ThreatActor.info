@@ -1,6 +1,6 @@
 name: "TA578"
 aliases: ["TA578"]
-description: "TA578 is a threat actor that has used contact forms and email to initiate communications with victims and to distribute malware including Latrodectus, IcedID, and Bumblebee.(Citation: Latrodectus APR 2024)(Citation: Bitsight Latrodectus June 2024)"
+description: "TA578 is a threat actor that has used contact forms and email to initiate communications with victims and to distribute malware including Latrodectus, IcedID, and Bumblebee.[Latrodectus APR 2024](https://www.proofpoint.com/us/blog/threat-insight/latrodectus-spider-bytes-ice)[Bitsight Latrodectus June 2024](https://www.bitsight.com/blog/latrodectus-are-you-coming-back)"
 url: "/apt1038"
 external_id: "G1038"
 external_url: "https://attack.mitre.org/groups/G1038"
