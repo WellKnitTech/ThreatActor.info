@@ -2,6 +2,10 @@
 
 # Normalizes actor YAML (`iocs` plus legacy top-level IOC lists) into rows for index generation.
 # Align headings with scripts/generate-pages.rb so `ioc_type_for` resolves correctly.
+#
+# Curated IPs/domains/hashes/CVEs belong here or legacy top-level IOC keys. CISA KEV CVE lists on
+# actors (`cisa_kev_cves`) are surfaced in the dedicated KEV section on actor pages, not merged here,
+# unless editors also duplicate CVEs under `iocs.cves` intentionally.
 module IocYamlReader
   module_function
 

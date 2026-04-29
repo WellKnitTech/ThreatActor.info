@@ -246,6 +246,64 @@ def escape_table_cell(value)
   value.to_s.gsub(/\s+/, ' ').strip.gsub('|', '&#124;')
 end
 
+# Markdown bullets for ## Notable Campaigns when YAML `campaigns` is empty — sourced from provenance
+# already stored on actors (e.g. Bushido breach index, Ransomware Tool Matrix community reports).
+def campaign_lines_from_provenance(actor)
+  lines = []
+  provenance = actor['provenance']
+  return lines unless provenance.is_a?(Hash)
+
+  reports = provenance.dig('bushido_breach_reports', 'reports')
+  if reports.is_a?(Array)
+    reports.each do |r|
+      next unless r.is_a?(Hash)
+
+      org = r['organization'].to_s.strip
+      next if org.empty?
+
+      date = r['breach_date'].to_s.strip
+      label = r['adversary_label'].to_s.strip
+      link = Array(r['links']).compact.map(&:to_s).map(&:strip).reject(&:empty?).first
+
+      meta = []
+      meta << date unless date.empty?
+      meta << label unless label.empty?
+      meta_suffix = meta.empty? ? '' : " (#{meta.join('; ')})"
+
+      if link && !link.empty?
+        lines << "- [#{org}](#{link})#{meta_suffix}"
+      else
+        lines << "- **#{org}**#{meta_suffix}"
+      end
+    end
+  end
+
+  community = provenance.dig('ransomware_tool_matrix', 'community_reports')
+  if community.is_a?(Array)
+    community.each do |r|
+      next unless r.is_a?(Hash)
+
+      time = r['incident_time'].to_s.strip
+      sector = r['victim_sector'].to_s.strip
+      country = r['victim_country'].to_s.strip
+      source_file = r['source_file'].to_s.strip
+
+      parts = [time, sector, country].reject(&:empty?)
+      next if parts.empty? && source_file.empty?
+
+      summary = parts.any? ? parts.join(', ') : 'Reported incident'
+      sf = source_file.empty? ? '' : " (index: `#{source_file}`)"
+      lines << "- Community-reported ransomware incident: #{summary}#{sf}"
+    end
+  end
+
+  lines.uniq
+end
+
+def actor_has_cisa_kev_entries?(actor)
+  Array(actor['cisa_kev_cves']).any? { |e| e && e.to_s.match?(/CVE-\d{4}-\d+/i) }
+end
+
 def normalize_cisa_kev_entry(entry)
   return entry if entry.is_a?(Hash)
   return {} unless entry.is_a?(String)
@@ -340,6 +398,8 @@ def build_body(actor)
         sections << "- **#{campaign}**"
       end
     end
+  elsif (prov_lines = campaign_lines_from_provenance(actor)).any?
+    prov_lines.each { |ln| sections << ln }
   else
     sections << "*Information pending cataloguing.*"
   end
@@ -402,7 +462,11 @@ def build_body(actor)
               urls.empty? && emails.empty? && cves.empty? && atk_tech.empty?
 
   if iocs_empty
-    sections << "*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*"
+    if actor_has_cisa_kev_entries?(actor)
+      sections << "*No separately curated network indicators or file hashes are listed for this actor. Known exploited vulnerabilities appear in the **CISA Known Exploited Vulnerabilities (KEV)** section below.*"
+    else
+      sections << "*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*"
+    end
     sections << ""
   else
     if ips.any?
