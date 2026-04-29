@@ -22,7 +22,8 @@ LockBit is a ransomware-as-a-service operation known for its fast encryption and
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- [Boeing](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-325a) (November 2023; LockBit (Ransomware))
+- [Advanced Computer Software Group](https://ico.org.uk/media2/gdlfddgc/advanced-penalty-notice-20250327.pdf) (August 2022; LockBit (Ransomware))
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
@@ -39,7 +40,7 @@ LockBit is a ransomware-as-a-service operation known for its fast encryption and
 | Group Profile, Microsoft Products | Windows | Remote Desktop Services | CVE-2019-0708 |
 
 ## Notable Indicators of Compromise (IOCs)
-*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+*No separately curated network indicators or file hashes are listed for this actor. Known exploited vulnerabilities appear in the **CISA Known Exploited Vulnerabilities (KEV)** section below.*
 
 ## Malware and Tools
 ### Ransomware Tool Matrix observations

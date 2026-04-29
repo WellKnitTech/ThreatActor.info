@@ -23,7 +23,7 @@ Storm-0558 is a China-based threat actor with espionage objectives. While there 
 **Suspected Victims**: United States, Germany
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- [Microsoft](https://www.microsoft.com/en-us/security/blog/2023/07/14/analysis-of-storm-0558-techniques-for-unauthorized-email-access/) (July 2023; Storm-0558 (CN APT))
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*

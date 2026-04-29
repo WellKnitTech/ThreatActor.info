@@ -18,7 +18,7 @@ Cyber fighters of Izz Ad-Din Al Qassam is a threat actor tracked by MISP Galaxy.
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **Ababil / ApAbabil**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*

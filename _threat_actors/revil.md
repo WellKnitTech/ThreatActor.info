@@ -22,7 +22,7 @@ REvil is a Russian ransomware-as-a-service operation that has targeted major cor
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- [Kaseya](https://helpdesk.kaseya.com/hc/en-gb/articles/4403584098961-Incident-Overview-Technical-Details) (July 2021; REvil (Ransomware))
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
@@ -38,7 +38,7 @@ REvil is a Russian ransomware-as-a-service operation that has targeted major cor
 | Microsoft Products | Windows | Win32k | CVE-2018-8453 |
 
 ## Notable Indicators of Compromise (IOCs)
-*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+*No separately curated network indicators or file hashes are listed for this actor. Known exploited vulnerabilities appear in the **CISA Known Exploited Vulnerabilities (KEV)** section below.*
 
 ## Malware and Tools
 - **Sodinokibi**: 

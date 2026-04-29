@@ -2,12 +2,12 @@
 layout: threat_actor
 title: "Play"
 aliases: ["Play", "Play Ransomware"]
-description: "Play is a ransomware group that has been active since at least 2022 deploying  Playcrypt ransomware against the business, government, critical infrastructure, healthcare, and media sectors in North Ame"
+description: "Play is a ransomware group that has been active since at least 2022 deploying Playcrypt ransomware against the business, government, critical infrastructure, healthcare, and media sectors in North Amer"
 permalink: /play/
 ---
 
 ## Introduction
-Play is a ransomware group that has been active since at least 2022 deploying Playcrypt ransomware against the business, government, critical infrastructure, healthcare, and media sectors in North America, South America, and Europe. Play actors employ a double-extortion model, encrypting systems after exfiltrating data, and are presumed by security researchers to operate as a closed group.
+Play is a ransomware group that has been active since at least 2022 deploying Playcrypt ransomware against the business, government, critical infrastructure, healthcare, and media sectors in North America, South America, and Europe. Play actors employ a double-extortion model, encrypting systems after exfiltrating data, and are presumed by security researchers to operate as a closed group. [CISA Play Ransomware Advisory December 2023](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a) [Trend Micro Ransomware Spotlight Play July 2023](https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-play)
 
 ## Activities and Tactics
 **Targeted Sectors**: Healthcare, Education, Government, Technology
@@ -22,7 +22,7 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- Community-reported ransomware incident: April 2025, Retail, Canada (index: `CommunityReports/CR-016-PLAY-APR-2025.md`)
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
@@ -58,4 +58,6 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 ## References
 [1] [MITRE ATT&CK](https://attack.mitre.org/groups/G1040)
    MITRE ATT&CK entry
+[2] [CISA Play Ransomware Advisory December 2023](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a)
+[3] [Trend Micro Ransomware Spotlight Play July 2023](https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-play)
 

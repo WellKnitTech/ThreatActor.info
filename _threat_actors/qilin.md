@@ -22,7 +22,9 @@ Qilin is a ransomware group that first appeared in 2022 but had a breakout year 
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- Community-reported ransomware incident: April 2023, Manufacturing, Asia Pacific (index: `CommunityReports/CR-012-Qilin-April-2023.md`)
+- Community-reported ransomware incident: June 2022, Unknown, Unknown (index: `CommunityReports/CR-013-Qilin-June-2022.md`)
+- Community-reported ransomware incident: May 2024, Unknown, USA (index: `CommunityReports/CR-014-Qilin-May-2024.md`)
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations

@@ -17,7 +17,7 @@ WASSONITE is a North Korea-linked APT that has targeted industrial sectors, incl
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **FASTCash**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*

@@ -17,7 +17,7 @@ Publicly known as 'EmpireMonkey', ANTHROPOID SPIDER conducted phishing campaigns
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **Bank of Valletta**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*

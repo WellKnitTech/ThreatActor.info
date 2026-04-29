@@ -22,7 +22,10 @@ RansomHub is a dominant ransomware-as-a-service operation that emerged in 2024 a
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- Community-reported ransomware incident: February 2025, Lodging industry, Canada (index: `CommunityReports/CR-004-RANSOMHUB-FEB-2025.md`)
+- Community-reported ransomware incident: March 2025, Education, Canada (index: `CommunityReports/CR-005-RANSOMHUB-MAR-2025.md`)
+- Community-reported ransomware incident: February 2025, Manufacturing, Canada (index: `CommunityReports/CR-006-RANSOMHUB-FEB-2025.md`)
+- Community-reported ransomware incident: March 2025, Logistics, Canada (index: `CommunityReports/CR-007-RANSOMHUB-MAR-2025.md`)
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations

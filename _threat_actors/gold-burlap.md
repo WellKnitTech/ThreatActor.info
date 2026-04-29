@@ -17,7 +17,7 @@ GOLD BURLAP is a group of financially motivated criminals responsible for the de
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- [London Borough of Hackney](https://ico.org.uk/media2/migrated/4030344/20240705-lboh-updated-reprimand-with-redactions-1.pdf) (October 2020; Pysa (Ransomware))
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*

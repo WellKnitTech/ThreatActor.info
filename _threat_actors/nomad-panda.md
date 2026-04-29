@@ -17,7 +17,7 @@ In the first quarter of 2018, CrowdStrike Intelligence identified NOMAD PANDA ac
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **Night Dragon**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*

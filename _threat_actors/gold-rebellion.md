@@ -13,7 +13,8 @@ GOLD REBELLION is a financially motivated cybercriminal threat group that operat
 *Information pending cataloguing.*
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- [Capita](https://ico.org.uk/media2/pv5nhks4/capita-plc-and-cpsl-monetary-penalty-notice.pdf) (March 2023; BlackBasta (Ransomware))
+- [DPP Law](https://ico.org.uk/media2/pr4bg5hq/dpp-law-ltd-monetary-penalty-notice.pdf) (June 2022; BlackBasta (Ransomware))
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations

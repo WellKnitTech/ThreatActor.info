@@ -22,7 +22,7 @@ VICEROY TIGER is an adversary with a nexus to India that has historically target
 **Suspected Victims**: Germany
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **Lucky Elephant**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
