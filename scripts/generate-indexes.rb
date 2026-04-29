@@ -1728,20 +1728,18 @@ class ThreatActorIndexGenerator
   end
 
   def linkify_resolver_description(text)
-    return text if @citation_url_map.nil? || @citation_url_map.empty?
-
-    MitreCitationLinks.linkify_mitre_citations(text, @citation_url_map)
+    MitreCitationLinks.linkify_mitre_citations(text.to_s, @citation_url_map || {})
   end
 
   def apply_citation_links_to_actor_yaml
-    return if @citation_url_map.nil? || @citation_url_map.empty?
+    map = @citation_url_map || {}
 
     @actors.each do |actor|
       desc = actor['description']
       next unless desc.is_a?(String)
-      next unless desc.include?('(Citation:')
+      next unless desc.include?('(Citation:') || desc.include?('](')
 
-      new_desc = MitreCitationLinks.linkify_mitre_citations(desc, @citation_url_map)
+      new_desc = MitreCitationLinks.linkify_mitre_citations(desc, map)
       next if new_desc == desc
 
       actor['description'] = new_desc
@@ -1750,23 +1748,24 @@ class ThreatActorIndexGenerator
   end
 
   def linkify_citations_in_mitre_collection_dirs
-    return if @citation_url_map.nil? || @citation_url_map.empty?
+    map = @citation_url_map || {}
 
     %w[_techniques _tactics _campaigns _mitigations _malware].each do |dir|
       next unless Dir.exist?(dir)
 
       Dir.glob(File.join(dir, '*.md')).sort.each do |path|
-        linkify_citations_in_markdown_file(path)
+        linkify_citations_in_markdown_file(path, map)
       end
     end
   end
 
-  def linkify_citations_in_markdown_file(path)
+  def linkify_citations_in_markdown_file(path, map = nil)
+    map ||= @citation_url_map || {}
     page = parse_page(path)
     body = page[:body].to_s
-    return unless body.include?('(Citation:')
+    return unless body.include?('(Citation:') || body.include?('](')
 
-    new_body = MitreCitationLinks.linkify_mitre_citations(body, @citation_url_map)
+    new_body = MitreCitationLinks.linkify_mitre_citations(body, map)
     return if new_body == body
 
     write_jekyll_markdown(path, page[:front_matter], new_body)

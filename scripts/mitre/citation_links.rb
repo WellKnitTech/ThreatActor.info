@@ -89,25 +89,49 @@ module MitreCitationLinks
   end
 
   # Replace MITRE-style `(Citation: Label)` with `[Label](url)` when map has a URL.
+  # Inserts spaces around each replacement so prose and adjacent citations do not run together.
+  # Always runs spacing repair at the end so previously linkified text (no markers left) still fixes gaps.
   def linkify_mitre_citations(text, map)
-    return text if text.nil? || map.nil? || map.empty?
-
     s = text.to_s
-    return s unless s.include?('(Citation:')
 
-    s.gsub(CITATION_MARKER) do
-      raw_label = Regexp.last_match(1)
-      label_disp = normalize_label(raw_label)
-      key = normalize_key(raw_label)
-      url = map[key]
+    if map && !map.empty? && s.include?('(Citation:')
+      out = s.gsub(CITATION_MARKER) do
+        raw_label = Regexp.last_match(1)
+        label_disp = normalize_label(raw_label)
+        key = normalize_key(raw_label)
+        url = map[key]
 
-      if url && !url.to_s.empty?
-        safe_url = sanitize_url_for_markdown(url.to_s.strip)
-        "[#{label_disp}](#{safe_url})"
-      else
-        "(Citation: #{raw_label})"
+        if url && !url.to_s.empty?
+          safe_url = sanitize_url_for_markdown(url.to_s.strip)
+          md = "[#{label_disp}](#{safe_url})"
+          " #{md} "
+        else
+          " (Citation: #{raw_label}) "
+        end
       end
+      s = collapse_horizontal_whitespace(out)
     end
+
+    repair_markdown_link_spacing(s)
+  end
+
+  # Fixes spacing for citation markdown already stored without gaps (e.g. after older linkify runs).
+  def repair_markdown_link_spacing(str)
+    return str if str.nil? || !str.include?('](')
+
+    s = str.dup
+    # Adjacent markdown links: ...](url)[Next...
+    s.gsub!(/\]\(([^)]+)\)\[/, '](\1) [')
+    # Prose letter/digit glued to opening [ of a markdown link: ...2020[Label](http...
+    s.gsub!(/([a-zA-Z0-9])(\[[^\]\r\n]{1,600}\]\(https?:\/\/[^)]+\))/, '\\1 \\2')
+    # Period/end-of-sentence directly before a citation link: ...election.[Crowdstrike](http...
+    s.gsub!(/(\.)(\[[^\]\r\n]{1,600}\]\(https?:\/\/[^)]+\))/, '\\1 \\2')
+
+    collapse_horizontal_whitespace(s)
+  end
+
+  def collapse_horizontal_whitespace(str)
+    str.gsub(/[ \t]{2,}/, ' ')
   end
 
   def sanitize_url_for_markdown(url)
