@@ -19,6 +19,7 @@ require 'cgi'
 require 'net/http'
 require 'digest'
 require_relative 'actor_store'
+require_relative 'ioc_yaml_reader'
 
 PAGE_DIR = '_threat_actors'
 
@@ -150,7 +151,7 @@ COUNTRY_FLAGS = {
   "ZA" => "🇿🇦", "ES" => "🇪🇸", "LK" => "🇱🇰", "SE" => "🇸🇪", "CH" => "🇨🇭",
   "SY" => "🇸🇾", "TW" => "🇹🇼", "TH" => "🇹🇭", "TR" => "🇹🇷", "UA" => "🇺🇦",
   "AE" => "🇦🇪", "GB" => "🇬🇧", "US" => "🇺🇸", "UZ" => "🇺🇿", "VE" => "🇻🇪",
-  "VN" => "🇻🇳", "UA" => "🇺🇦",
+  "VN" => "🇻🇳",
 }.freeze
 
 def get_country_flag(country)
@@ -384,15 +385,23 @@ def build_body(actor)
   end
   sections << ""
   
-  # IOCs section header
+  # IOCs section header (canonical structured lists live under actor['iocs'] plus legacy top-level ips/domains/urls/hashes; see IocYamlReader)
   sections << "## Notable Indicators of Compromise (IOCs)"
-  iocs = actor['iocs'] || {}
+  iocs = IocYamlReader.merged_iocs_sources(actor)
   ips = Array(iocs['ips']).reject { |value| value.to_s.strip.empty? }
   md5_hashes = Array(iocs['md5']).reject { |value| value.to_s.strip.empty? }
+  sha1_hashes = Array(iocs['sha1']).reject { |value| value.to_s.strip.empty? }
   sha256_hashes = Array(iocs['sha256']).reject { |value| value.to_s.strip.empty? }
   domains = Array(iocs['domains']).reject { |value| value.to_s.strip.empty? }
+  urls = Array(iocs['urls']).reject { |value| value.to_s.strip.empty? }
+  emails = Array(iocs['emails']).reject { |value| value.to_s.strip.empty? }
+  cves = Array(iocs['cves']).reject { |value| value.to_s.strip.empty? }
+  atk_tech = Array(iocs['attack_techniques']).reject { |value| value.to_s.strip.empty? }
 
-  if ips.empty? && md5_hashes.empty? && sha256_hashes.empty? && domains.empty?
+  iocs_empty = ips.empty? && md5_hashes.empty? && sha1_hashes.empty? && sha256_hashes.empty? && domains.empty? &&
+              urls.empty? && emails.empty? && cves.empty? && atk_tech.empty?
+
+  if iocs_empty
     sections << "*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*"
     sections << ""
   else
@@ -404,9 +413,10 @@ def build_body(actor)
       sections << ""
     end
 
-    if md5_hashes.any? || sha256_hashes.any?
+    if md5_hashes.any? || sha1_hashes.any? || sha256_hashes.any?
       sections << "### File Hashes"
       md5_hashes.each { |hash| sections << "- `#{hash}` (MD5)" }
+      sha1_hashes.each { |hash| sections << "- `#{hash}` (SHA1)" }
       sha256_hashes.each { |hash| sections << "- `#{hash}` (SHA256)" }
       sections << ""
     end
@@ -415,6 +425,38 @@ def build_body(actor)
       sections << "### Domains"
       domains.each do |domain|
         sections << "- `#{domain}`"
+      end
+      sections << ""
+    end
+
+    if urls.any?
+      sections << "### URLs"
+      urls.each do |u|
+        sections << "- `#{u}`"
+      end
+      sections << ""
+    end
+
+    if emails.any?
+      sections << "### Email addresses"
+      emails.each do |em|
+        sections << "- `#{em}`"
+      end
+      sections << ""
+    end
+
+    if cves.any?
+      sections << "### CVEs"
+      cves.each do |cve|
+        sections << "- `#{cve}`"
+      end
+      sections << ""
+    end
+
+    if atk_tech.any?
+      sections << "### ATT&CK technique references"
+      atk_tech.each do |tid|
+        sections << "- `#{tid}`"
       end
       sections << ""
     end

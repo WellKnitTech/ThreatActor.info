@@ -4,6 +4,8 @@ require 'json'
 require 'set'
 require 'yaml'
 
+require_relative 'ioc_yaml_reader'
+
 class ContentValidator
   REQUIRED_ACTOR_FIELDS = %w[name aliases description url].freeze
   REQUIRED_FRONT_MATTER_FIELDS = %w[layout title aliases description permalink].freeze
@@ -43,6 +45,9 @@ class ContentValidator
     'docs/api.md',
     'docs/importers.md',
     'docs/roadmap.md',
+    'docs/offline-mitre-bundles.md',
+    'docs/new-actor-checklist.md',
+    'docs/supersession-backlog.md',
     'api/threat-actors.json',
     'api/iocs.json',
     'api/facets.json',
@@ -412,6 +417,7 @@ class ContentValidator
 
       validate_front_matter(page_path, actor, page[:front_matter])
       validate_required_sections(page_path, page[:body])
+      validate_ioc_md_vs_yaml(actor, page_path, page[:body])
       track_ioc_occurrences(page_path, page[:body])
     end
   end
@@ -443,6 +449,26 @@ class ContentValidator
         add_error(page_path, "Missing exact required section heading: ## #{heading}")
       end
     end
+  end
+
+  def validate_ioc_md_vs_yaml(actor, page_path, body)
+    section = extract_section(body, 'Notable Indicators of Compromise (IOCs)')
+    return if section.strip.empty?
+
+    atomic = extract_atomic_iocs(section)
+    return if atomic.empty?
+
+    merged = IocYamlReader.merged_iocs_sources(actor)
+    has_yaml = merged.any? do |_, values|
+      Array(values).any? { |value| value.to_s.strip.length.positive? }
+    end
+    return if has_yaml
+
+    slug = actor['url'].to_s.sub(%r{^/}, '').sub(%r{/$}, '')
+    add_warning(
+      page_path,
+      "Extractable IOC indicators appear in Markdown under ## Notable Indicators of Compromise (IOCs), but _data/actors/#{slug}.yml has no structured IOC entries (add top-level ips/domains/urls/… or nested `iocs:`, or run ruby scripts/migrate-iocs-md-to-yaml.rb --apply)."
+    )
   end
 
   def track_ioc_occurrences(page_path, body)

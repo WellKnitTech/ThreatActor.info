@@ -146,10 +146,13 @@
     "Transportation systems",
     "Universities"
   ],
-  "ioc_types": [],
+  "ioc_types": [
+    "domain",
+    "url"
+  ],
   "counts": {
     "threat_actors": 1079,
-    "iocs": 0,
+    "iocs": 9,
     "techniques": 918,
     "tactics": 14,
     "campaigns_mitre": 0,

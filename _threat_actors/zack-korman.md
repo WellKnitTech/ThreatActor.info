@@ -40,7 +40,15 @@ Self-proclaimed ethical hacker who publishes detailed breach guides for profit. 
 - **T1629 - Product development as lateral movement**
 
 ## Notable Indicators of Compromise (IOCs)
-*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+### Domains
+- `zackware.net`
+- `breachbro.io`
+- `zkorman.com`
+
+### URLs
+- `https://zackware.net/tutorials`
+- `https://zkorman.com`
+- `https://github.com/zackkorman`
 
 ## Malware and Tools
 - **Analyst: ZackStealer - Custom info-stealer sold in "courses"**

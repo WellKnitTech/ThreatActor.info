@@ -62,7 +62,7 @@ echo "Building site in safe mode..."
 bundle exec jekyll build --safe
 
 echo "Validating built API payloads..."
-ruby -e "require 'json'; %w[_site/api/threat-actors.json _site/api/iocs.json _site/api/facets.json _site/api/campaigns.json _site/api/malware.json _site/api/malware_index.json _site/api/attack-mappings.json _site/api/references.json _site/api/ioc-lookup.json _site/api/ioc-types.json].each { |path| JSON.parse(File.read(path)) }; Dir.glob('_site/api/iocs/by-type/*.json').each { |path| JSON.parse(File.read(path)) }"
+ruby -e "require 'json'; Dir.glob('_site/api/**/*.json').each { |path| JSON.parse(File.read(path)) }"
 
 echo "Validation pipeline completed successfully."
 echo "=================================================="

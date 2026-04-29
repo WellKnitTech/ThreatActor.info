@@ -1,1 +1,38 @@
-{}
+{
+  "domain": {
+    "type": "domain",
+    "label": "Domains",
+    "description": "Hostname indicators grouped by registrable domain (last two labels).",
+    "category": "network",
+    "page_url": "/iocs/domain/",
+    "top_actors": [
+      {
+        "name": "Zack Korman",
+        "slug": "zack-korman",
+        "count": 3
+      }
+    ],
+    "count": 3,
+    "atomic_count": 3,
+    "unique_values": 3,
+    "path": "/api/iocs/by-type/domain.json"
+  },
+  "url": {
+    "type": "url",
+    "label": "URLs",
+    "description": "Full URLs grouped by scheme and site (registrable host).",
+    "category": "network",
+    "page_url": "/iocs/url/",
+    "top_actors": [
+      {
+        "name": "Zack Korman",
+        "slug": "zack-korman",
+        "count": 6
+      }
+    ],
+    "count": 6,
+    "atomic_count": 6,
+    "unique_values": 6,
+    "path": "/api/iocs/by-type/url.json"
+  }
+}

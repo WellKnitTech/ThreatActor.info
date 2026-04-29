@@ -1,0 +1,165 @@
+{
+  "type": "domain",
+  "label": "Domains",
+  "description": "Hostname indicators grouped by registrable domain (last two labels).",
+  "category": "network",
+  "page_url": "/iocs/domain/",
+  "count": 3,
+  "atomic_count": 3,
+  "unique_values": 3,
+  "grouping": "etld1",
+  "groups": [
+    {
+      "key": "breachbro.io",
+      "label": "breachbro.io",
+      "count": 1,
+      "records": [
+        {
+          "actor_name": "Zack Korman",
+          "actor_slug": "zack-korman",
+          "actor_url": "/zack-korman",
+          "actor_permalink": "/zack-korman/",
+          "type": "domain",
+          "inferred_type": "domain",
+          "atomic": true,
+          "heading": "Domains",
+          "label": null,
+          "value": "breachbro.io",
+          "normalized_value": "breachbro.io",
+          "canonical_value": "breachbro.io",
+          "legacy_normalized_value": null,
+          "lookup_keys": [
+            "breachbro.io"
+          ],
+          "source_text": "breachbro.io",
+          "source_file": "_threat_actors/zack-korman.md"
+        }
+      ]
+    },
+    {
+      "key": "zackware.net",
+      "label": "zackware.net",
+      "count": 1,
+      "records": [
+        {
+          "actor_name": "Zack Korman",
+          "actor_slug": "zack-korman",
+          "actor_url": "/zack-korman",
+          "actor_permalink": "/zack-korman/",
+          "type": "domain",
+          "inferred_type": "domain",
+          "atomic": true,
+          "heading": "Domains",
+          "label": null,
+          "value": "zackware.net",
+          "normalized_value": "zackware.net",
+          "canonical_value": "zackware.net",
+          "legacy_normalized_value": null,
+          "lookup_keys": [
+            "zackware.net"
+          ],
+          "source_text": "zackware.net",
+          "source_file": "_threat_actors/zack-korman.md"
+        }
+      ]
+    },
+    {
+      "key": "zkorman.com",
+      "label": "zkorman.com",
+      "count": 1,
+      "records": [
+        {
+          "actor_name": "Zack Korman",
+          "actor_slug": "zack-korman",
+          "actor_url": "/zack-korman",
+          "actor_permalink": "/zack-korman/",
+          "type": "domain",
+          "inferred_type": "domain",
+          "atomic": true,
+          "heading": "Domains",
+          "label": null,
+          "value": "zkorman.com",
+          "normalized_value": "zkorman.com",
+          "canonical_value": "zkorman.com",
+          "legacy_normalized_value": null,
+          "lookup_keys": [
+            "zkorman.com"
+          ],
+          "source_text": "zkorman.com",
+          "source_file": "_threat_actors/zack-korman.md"
+        }
+      ]
+    }
+  ],
+  "facets": {
+    "actor": [
+      {
+        "name": "Zack Korman",
+        "slug": "zack-korman",
+        "count": 3
+      }
+    ]
+  },
+  "records": [
+    {
+      "actor_name": "Zack Korman",
+      "actor_slug": "zack-korman",
+      "actor_url": "/zack-korman",
+      "actor_permalink": "/zack-korman/",
+      "type": "domain",
+      "inferred_type": "domain",
+      "atomic": true,
+      "heading": "Domains",
+      "label": null,
+      "value": "breachbro.io",
+      "normalized_value": "breachbro.io",
+      "canonical_value": "breachbro.io",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+        "breachbro.io"
+      ],
+      "source_text": "breachbro.io",
+      "source_file": "_threat_actors/zack-korman.md"
+    },
+    {
+      "actor_name": "Zack Korman",
+      "actor_slug": "zack-korman",
+      "actor_url": "/zack-korman",
+      "actor_permalink": "/zack-korman/",
+      "type": "domain",
+      "inferred_type": "domain",
+      "atomic": true,
+      "heading": "Domains",
+      "label": null,
+      "value": "zackware.net",
+      "normalized_value": "zackware.net",
+      "canonical_value": "zackware.net",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+        "zackware.net"
+      ],
+      "source_text": "zackware.net",
+      "source_file": "_threat_actors/zack-korman.md"
+    },
+    {
+      "actor_name": "Zack Korman",
+      "actor_slug": "zack-korman",
+      "actor_url": "/zack-korman",
+      "actor_permalink": "/zack-korman/",
+      "type": "domain",
+      "inferred_type": "domain",
+      "atomic": true,
+      "heading": "Domains",
+      "label": null,
+      "value": "zkorman.com",
+      "normalized_value": "zkorman.com",
+      "canonical_value": "zkorman.com",
+      "legacy_normalized_value": null,
+      "lookup_keys": [
+        "zkorman.com"
+      ],
+      "source_text": "zkorman.com",
+      "source_file": "_threat_actors/zack-korman.md"
+    }
+  ]
+}

@@ -13,9 +13,10 @@ source_attribution: "Manually created by analyst"
 operations: ["Zackware Tutorial Empire","BreachBro Data Store","Copilot Research - Microsoft 365 Copilot compromise","Vercel Skills Campaign - npx supply chain research","AI Awareness Disruption - Social media amplification"]
 malware: ["Analyst: ZackStealer - Custom info-stealer sold in \"courses\"","Analyst: ForgeMail - Email hacking tool marketed as \"educational\"","Analyst: Custom Skill Collections - GitHub-hosted persistence lures"]
 ttps: ["T1566 - Phishing","T1078 - Valid Accounts","T1082 - System Information Discovery","T1083 - File and Directory Discovery","T1056 - Keylogging","T1566 - Prompt Injection","T1565 - Social Media C2 via X","T1078 - Account takeover research","T1485 - Data exfiltration","T1190 - Supply chain research","T1629 - Product development as lateral movement"]
-urls: ["https://zackware.net/tutorials - Breache tutorials (archived)","https://zkorman.com - Personal blog","https://github.com/zackkorman - GitHub hosting custom skills"]
-domains: ["zackware.net - Primary site (now offline)","breachbro.io - Course sales platform","zkorman.com - Personal blog"]
 hashes: ["a1b2c3d4e5f678901234567890123456789 - ZackStealer payload sample"]
+iocs:
+  domains: ["zackware.net","breachbro.io","zkorman.com"]
+  urls: ["https://zackware.net/tutorials","https://zkorman.com","https://github.com/zackkorman"]
 provenance:
   analyst_notes:
     last_imported: "2026-04-27"

@@ -39,6 +39,7 @@ module ActorStore
     domains
     ips
     hashes
+    iocs
     campaigns
     provenance
     analyst_notes
