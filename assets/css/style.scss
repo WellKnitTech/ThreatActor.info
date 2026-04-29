@@ -593,9 +593,10 @@ a:hover {
   color: var(--solarized-violet);
 }
 
-// Table styling
+// Table styling (actor pages + markdown tables in main content)
 .content table {
   width: 100%;
+  max-width: 100%;
   border-collapse: collapse;
   margin: 1rem 0;
   background: var(--section-bg);
@@ -607,11 +608,8 @@ a:hover {
   padding: 0.75rem 1rem;
   text-align: left;
   border-bottom: 1px solid var(--border-color);
-}
-
-.content td:first-child,
-.content td:last-child {
-  white-space: nowrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .content th {
@@ -1372,6 +1370,12 @@ footer {
 
 .actor-main {
   min-width: 0;
+}
+
+/* Keep long tables/pre blocks inside the column next to the sidebar */
+.actor-main .content {
+  min-width: 0;
+  overflow-x: auto;
 }
 
 .actor-sidebar {
