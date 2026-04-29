@@ -1471,13 +1471,21 @@ class ThreatActorIndexGenerator
     ids = []
 
     Array(ad[:mitre_ttps]).each do |ttp|
+      tid = nil
       if ttp.is_a?(Hash)
         tid = (ttp['technique_id'] || ttp[:technique_id]).to_s.upcase
-        ids << tid if tid =~ /\AT\d/
       elsif ttp.is_a?(String)
         match = ttp.match(/\b(T\d{4}(?:\.\d{3})?)\b/i)
-        ids << match[1].upcase if match
+        tid = match[1].upcase if match
       end
+      next unless tid && tid =~ /\AT\d/
+
+      # Align with categorized TTPS: only index techniques that exist in generated technique_documents.
+      if allowed_technique_ids.is_a?(Set) && !allowed_technique_ids.empty? && !allowed_technique_ids.include?(tid)
+        next
+      end
+
+      ids << tid
     end
 
     am = ad[:attack_mappings]
@@ -1486,7 +1494,14 @@ class ThreatActorIndexGenerator
         next unless rec.is_a?(Hash)
 
         tid = (rec[:id] || rec['id']).to_s.upcase
-        ids << tid if tid =~ /\AT\d/
+        next unless tid =~ /\AT\d/
+
+        # Markdown may cite ATT&CK URLs for revoked/offline techniques — omit from actors_by_technique unless stub exists.
+        if allowed_technique_ids.is_a?(Set) && !allowed_technique_ids.empty? && !allowed_technique_ids.include?(tid)
+          next
+        end
+
+        ids << tid
       end
     end
 
