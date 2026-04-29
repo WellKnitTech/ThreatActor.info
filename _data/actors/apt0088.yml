@@ -1,6 +1,6 @@
 name: "TEMP.Veles"
 aliases: ["ATK91","G0088","TEMP.Veles","XENOTIME","Xenotime","Triton"]
-description: "TEMP.Veles is a Russia-based threat group that has targeted critical infrastructure. The group has been observed utilizing TRITON, a malware framework designed to manipulate industrial safety systems.[FireEye TRITON 2019](https://www.fireeye.com/blog/threat-research/2019/04/triton-actor-ttp-profile-custom-attack-tools-detections.html)[FireEye TEMP.Veles 2018](https://www.fireeye.com/blog/threat-research/2018/10/triton-attribution-russian-government-owned-lab-most-likely-built-tools.html)[FireEye TEMP.Veles JSON April 2019](https://www.fireeye.com/content/dam/fireeye-www/blog/files/TRITON_Appendix_C.html)"
+description: "TEMP.Veles is a Russia-based threat group that has targeted critical infrastructure. The group has been observed utilizing TRITON, a malware framework designed to manipulate industrial safety systems. [FireEye TRITON 2019](https://www.fireeye.com/blog/threat-research/2019/04/triton-actor-ttp-profile-custom-attack-tools-detections.html) [FireEye TEMP.Veles 2018](https://www.fireeye.com/blog/threat-research/2018/10/triton-attribution-russian-government-owned-lab-most-likely-built-tools.html) [FireEye TEMP.Veles JSON April 2019](https://www.fireeye.com/content/dam/fireeye-www/blog/files/TRITON_Appendix_C.html)"
 url: "/apt0088"
 country: "Russia"
 external_id: "G0088"
