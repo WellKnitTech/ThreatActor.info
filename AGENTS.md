@@ -30,6 +30,7 @@ This reflects the current repository, CI workflow, and validation scripts.
 - `scripts/ioc_yaml_reader.rb`: merges actor YAML `iocs` plus legacy IOC lists for `generate-indexes.rb` and `generate-pages.rb`.
 - `scripts/validate.sh`: full validation wrapper.
 - `.github/workflows/validate.yml`: CI commands.
+- `.github/workflows/pages.yml`: GitHub Pages deploy using `bundle exec jekyll build` (matches `Gemfile` / Jekyll 4). The default `actions/jekyll-build-pages` image uses older `github-pages`/Jekyll 3 and will not satisfy this Gemfile.
 - `docs/importers.md`: importer workflow and attribution rules.
 
 ## Existing Agent Rules
