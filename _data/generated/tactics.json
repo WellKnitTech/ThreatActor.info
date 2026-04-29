@@ -8,8 +8,10 @@
       "enterprise-attack"
     ],
     "domain": "enterprise",
-    "attack_version": null,
-    "layout": "tactic"
+    "attack_version": "19.0",
+    "layout": "tactic",
+    "description": "The adversary is trying to get into your network.\n\nInitial Access consists of techniques that use various entry vectors to gain their initial foothold within a network. Techniques used to gain a foothold include targeted spearphishing and exploiting weaknesses on public-facing web servers. Footholds gained through initial access may allow for continued access, like valid accounts and use of external remote services, or may be limited-use due to changing passwords.",
+    "shortname": "initial-access"
   },
   {
     "title": "Execution",
@@ -20,8 +22,10 @@
       "enterprise-attack"
     ],
     "domain": "enterprise",
-    "attack_version": null,
-    "layout": "tactic"
+    "attack_version": "19.0",
+    "layout": "tactic",
+    "description": "The adversary is trying to run malicious code.\n\nExecution consists of techniques that result in adversary-controlled code running on a local or remote system. Techniques that run malicious code are often paired with techniques from all other tactics to achieve broader goals, like exploring a network or stealing data. For example, an adversary might use a remote access tool to run a PowerShell script that does Remote System Discovery. ",
+    "shortname": "execution"
   },
   {
     "title": "Persistence",
@@ -32,8 +36,10 @@
       "enterprise-attack"
     ],
     "domain": "enterprise",
-    "attack_version": null,
-    "layout": "tactic"
+    "attack_version": "19.0",
+    "layout": "tactic",
+    "description": "The adversary is trying to maintain their foothold.\n\nPersistence consists of techniques that adversaries use to keep access to systems across restarts, changed credentials, and other interruptions that could cut off their access. Techniques used for persistence include any access, action, or configuration changes that let them maintain their foothold on systems, such as replacing or hijacking legitimate code or adding startup code. ",
+    "shortname": "persistence"
   },
   {
     "title": "Privilege Escalation",
@@ -44,8 +50,10 @@
       "enterprise-attack"
     ],
     "domain": "enterprise",
-    "attack_version": null,
-    "layout": "tactic"
+    "attack_version": "19.0",
+    "layout": "tactic",
+    "description": "The adversary is trying to gain higher-level permissions.\n\nPrivilege Escalation consists of techniques that adversaries use to gain higher-level permissions on a system or network. Adversaries can often enter and explore a network with unprivileged access but require elevated permissions to follow through on their objectives. Common approaches are to take advantage of system weaknesses, misconfigurations, and vulnerabilities. Examples of elevated access include: \n\n* SYSTEM/root level\n* local administrator\n* user account with admin-like access \n* user accounts with access to specific system or perform specific function\n\nThese techniques often overlap with Persistence techniques, as OS features that let an adversary persist can execute in an elevated context.  ",
+    "shortname": "privilege-escalation"
   },
   {
     "title": "Defense Evasion",
@@ -56,8 +64,10 @@
       "enterprise-attack"
     ],
     "domain": "enterprise",
-    "attack_version": null,
-    "layout": "tactic"
+    "attack_version": "19.0",
+    "layout": "tactic",
+    "description": "The adversary is trying to hide and conceal their actions, appearing as normal behavior.\n\nStealth consists of techniques that reduce the likelihood of detection by blending in with legitimate activity or minimizing observable signals. These techniques are characterized by concealment behaviors, such as avoiding, obfuscating, or mimicking normal operations, without modifying security controls or compromising collection and monitoring feeds. The goal is to remain indistinguishable from benign activity while leaving defensive systems intact.",
+    "shortname": "stealth"
   },
   {
     "title": "Credential Access",
@@ -68,8 +78,10 @@
       "enterprise-attack"
     ],
     "domain": "enterprise",
-    "attack_version": null,
-    "layout": "tactic"
+    "attack_version": "19.0",
+    "layout": "tactic",
+    "description": "The adversary is trying to steal account names and passwords.\n\nCredential Access consists of techniques for stealing credentials like account names and passwords. Techniques used to get credentials include keylogging or credential dumping. Using legitimate credentials can give adversaries access to systems, make them harder to detect, and provide the opportunity to create more accounts to help achieve their goals.",
+    "shortname": "credential-access"
   },
   {
     "title": "Discovery",
@@ -80,8 +92,10 @@
       "enterprise-attack"
     ],
     "domain": "enterprise",
-    "attack_version": null,
-    "layout": "tactic"
+    "attack_version": "19.0",
+    "layout": "tactic",
+    "description": "The adversary is trying to figure out your environment.\n\nDiscovery consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what’s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective. ",
+    "shortname": "discovery"
   },
   {
     "title": "Lateral Movement",
@@ -92,8 +106,10 @@
       "enterprise-attack"
     ],
     "domain": "enterprise",
-    "attack_version": null,
-    "layout": "tactic"
+    "attack_version": "19.0",
+    "layout": "tactic",
+    "description": "The adversary is trying to move through your environment.\n\nLateral Movement consists of techniques that adversaries use to enter and control remote systems on a network. Following through on their primary objective often requires exploring the network to find their target, then pivoting through multiple systems and accounts to gain access to it. Adversaries might install their own remote access tools to accomplish Lateral Movement or use legitimate credentials with native network and operating system tools, which may be stealthier. ",
+    "shortname": "lateral-movement"
   },
   {
     "title": "Collection",
@@ -104,8 +120,10 @@
       "enterprise-attack"
     ],
     "domain": "enterprise",
-    "attack_version": null,
-    "layout": "tactic"
+    "attack_version": "19.0",
+    "layout": "tactic",
+    "description": "The adversary is trying to gather data of interest to their goal.\n\nCollection consists of techniques adversaries may use to gather information and the sources information is collected from that are relevant to following through on the adversary's objectives. Frequently, the next goal after collecting data is to either steal (exfiltrate) the data or to use the data to gain more information about the target environment. Common target sources include various drive types, browsers, audio, video, and email. Common collection methods include capturing screenshots and keyboard input.",
+    "shortname": "collection"
   },
   {
     "title": "Exfiltration",
@@ -116,8 +134,10 @@
       "enterprise-attack"
     ],
     "domain": "enterprise",
-    "attack_version": null,
-    "layout": "tactic"
+    "attack_version": "19.0",
+    "layout": "tactic",
+    "description": "The adversary is trying to steal data.\n\nExfiltration consists of techniques that adversaries may use to steal data from your network. Once they’ve collected data, adversaries often package it to avoid detection while removing it. This can include compression and encryption. Techniques for getting data out of a target network typically include transferring it over their command and control channel or an alternate channel and may also include putting size limits on the transmission.",
+    "shortname": "exfiltration"
   },
   {
     "title": "Command and Control",
@@ -128,8 +148,164 @@
       "enterprise-attack"
     ],
     "domain": "enterprise",
-    "attack_version": null,
-    "layout": "tactic"
+    "attack_version": "19.0",
+    "layout": "tactic",
+    "description": "The adversary is trying to communicate with compromised systems to control them.\n\nCommand and Control consists of techniques that adversaries may use to communicate with systems under their control within a victim network. Adversaries commonly attempt to mimic normal, expected traffic to avoid detection. There are many ways an adversary can establish command and control with various levels of stealth depending on the victim’s network structure and defenses.",
+    "shortname": "command-and-control"
+  },
+  {
+    "title": "Initial Access",
+    "mitre_id": "TA0027",
+    "permalink": "/tactics/TA0027/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0027",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "tactic",
+    "shortname": "initial-access",
+    "description": "The adversary is trying to get into your device.\n\nThe initial access tactic represents the vectors adversaries use to gain an initial foothold onto a mobile device.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Persistence",
+    "mitre_id": "TA0028",
+    "permalink": "/tactics/TA0028/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0028",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "tactic",
+    "shortname": "persistence",
+    "description": " The adversary is trying to maintain their foothold.\n\nPersistence is any access, action, or configuration change to a mobile device that gives an attacker a persistent presence on the device. Attackers often will need to maintain access to mobile devices through interruptions such as device reboots and potentially even factory data resets.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Privilege Escalation",
+    "mitre_id": "TA0029",
+    "permalink": "/tactics/TA0029/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0029",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "tactic",
+    "shortname": "privilege-escalation",
+    "description": " The adversary is trying to gain higher-level permissions.\n\nPrivilege escalation includes techniques that allow an attacker to obtain a higher level of permissions on the mobile device. Attackers may enter the mobile device with very limited privileges and may be required to take advantage of a device weakness to obtain higher privileges necessary to successfully carry out their mission objectives.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Defense Evasion",
+    "mitre_id": "TA0030",
+    "permalink": "/tactics/TA0030/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0030",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "tactic",
+    "shortname": "defense-evasion",
+    "description": " The adversary is trying to avoid being detected.\n\nDefense evasion consists of techniques an adversary may use to evade detection or avoid other defenses. Sometimes these actions are the same as or variations of techniques in other categories that have the added benefit of subverting a particular defense or mitigation. Defense evasion may be considered a set of attributes the adversary applies to all other phases of the operation.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Credential Access",
+    "mitre_id": "TA0031",
+    "permalink": "/tactics/TA0031/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0031",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "tactic",
+    "shortname": "credential-access",
+    "description": "The adversary is trying to steal account names, passwords, or other secrets that enable access to resources.\n\nCredential access represents techniques that can be used by adversaries to obtain access to or control over passwords, tokens, cryptographic keys, or other values that could be used by an adversary to gain unauthorized access to resources. Credential access allows the adversary to assume the identity of an account, with all of that account's permissions on the system and network, and makes it harder for defenders to detect the adversary. With sufficient access within a network, an adversary can create accounts for later use within the environment.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Discovery",
+    "mitre_id": "TA0032",
+    "permalink": "/tactics/TA0032/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0032",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "tactic",
+    "shortname": "discovery",
+    "description": "The adversary is trying to figure out your environment.\n\nDiscovery consists of techniques that allow the adversary to gain knowledge about the characteristics of the mobile device and potentially other networked systems. When adversaries gain access to a new system, they must orient themselves to what they now have control of and what benefits operating from that system give to their current objective or overall goals during the intrusion. The operating system may provide capabilities that aid in this post-compromise information-gathering phase.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Lateral Movement",
+    "mitre_id": "TA0033",
+    "permalink": "/tactics/TA0033/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0033",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "tactic",
+    "shortname": "lateral-movement",
+    "description": "The adversary is trying to move through your environment.\n\nLateral movement consists of techniques that enable an adversary to access and control remote systems on a network and could, but does not necessarily, include execution of tools on remote systems. The lateral movement techniques could allow an adversary to gather information from a system without needing additional tools, such as a remote access tool.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Impact",
+    "mitre_id": "TA0034",
+    "permalink": "/tactics/TA0034/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0034",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "tactic",
+    "shortname": "impact",
+    "description": "The adversary is trying to manipulate, interrupt, or destroy your devices and data.\n\nThe impact tactic consists of techniques used by the adversary to execute his or her mission objectives but that do not cleanly fit into another category such as Collection. Mission objectives vary based on each adversary's goals, but examples include toll fraud, destruction of device data, or locking the user out of his or her device until a ransom is paid.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Collection",
+    "mitre_id": "TA0035",
+    "permalink": "/tactics/TA0035/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0035",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "tactic",
+    "shortname": "collection",
+    "description": "The adversary is trying to gather data of interest to their goal.\n\nCollection consists of techniques used to identify and gather information, such as sensitive files, from a target network prior to exfiltration. This category also covers locations on a system or network where the adversary may look for information to exfiltrate.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Exfiltration",
+    "mitre_id": "TA0036",
+    "permalink": "/tactics/TA0036/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0036",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "tactic",
+    "shortname": "exfiltration",
+    "description": "The adversary is trying to steal data.\n\nExfiltration refers to techniques and attributes that result or aid in the adversary removing files and information from the targeted mobile device.\n\nIn the mobile environment, mobile devices are frequently connected to networks outside enterprise control such as cellular networks or public Wi-Fi networks. Adversaries could attempt to evade detection by communicating on these networks, and potentially even by using non-Internet Protocol mechanisms such as Short Message Service (SMS). However, cellular networks often have data caps and/or extra data charges that could increase the potential for adversarial communication to be detected.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Command and Control",
+    "mitre_id": "TA0037",
+    "permalink": "/tactics/TA0037/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0037",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "tactic",
+    "shortname": "command-and-control",
+    "description": "The adversary is trying to communicate with compromised devices to control them.\n\nThe command and control tactic represents how adversaries communicate with systems under their control within a target network. There are many ways an adversary can establish command and control with various levels of covertness, depending on system configuration and network topology. Due to the wide degree of variation available to the adversary at the network level, only the most common factors were used to describe the differences in command and control. There are still a great many specific techniques within the documented methods, largely due to how easy it is to define new protocols and use existing, legitimate protocols and network services for communication. \n\nThe resulting breakdown should help convey the concept that detecting intrusion through command and control protocols without prior knowledge is a difficult proposition over the long term. Adversaries' main constraints in network-level defense avoidance are testing and deployment of tools to rapidly change their protocols, awareness of existing defensive technologies, and access to legitimate Web services that, when used appropriately, make their tools difficult to distinguish from benign traffic.\n\nAdditionally, in the mobile environment, mobile devices are frequently connected to networks outside enterprise control such as cellular networks or public Wi-Fi networks. Adversaries could attempt to evade detection by communicating on these networks, and potentially even by using non-Internet Protocol mechanisms such as Short Message Service (SMS). However, cellular networks often have data caps and/or extra data charges that could increase the potential for adversarial communication to be detected.",
+    "attack_version": "19.0"
   },
   {
     "title": "Impact",
@@ -140,8 +316,24 @@
       "enterprise-attack"
     ],
     "domain": "enterprise",
-    "attack_version": null,
-    "layout": "tactic"
+    "attack_version": "19.0",
+    "layout": "tactic",
+    "description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.\n \nImpact consists of techniques that adversaries use to disrupt availability or compromise integrity by manipulating business and operational processes. Techniques used for impact can include destroying or tampering with data. In some cases, business processes can look fine, but may have been altered to benefit the adversaries’ goals. These techniques might be used by adversaries to follow through on their end goal or to provide cover for a confidentiality breach.",
+    "shortname": "impact"
+  },
+  {
+    "title": "Execution",
+    "mitre_id": "TA0041",
+    "permalink": "/tactics/TA0041/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0041",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "layout": "tactic",
+    "shortname": "execution",
+    "description": "The adversary is trying to run malicious code.\n\nExecution consists of techniques that result in adversary-controlled code running on a mobile device. Techniques that run malicious code are often paired with techniques from all other tactics to achieve broader goals, like exploring a network or stealing data.",
+    "attack_version": "19.0"
   },
   {
     "title": "Resource Development",
@@ -152,8 +344,10 @@
       "enterprise-attack"
     ],
     "domain": "enterprise",
-    "attack_version": null,
-    "layout": "tactic"
+    "attack_version": "19.0",
+    "layout": "tactic",
+    "description": "The adversary is trying to establish resources they can use to support operations.\n\nResource Development consists of techniques that involve adversaries creating, purchasing, or compromising/stealing resources that can be used to support targeting. Such resources include infrastructure, accounts, or capabilities. These resources can be leveraged by the adversary to aid in other phases of the adversary lifecycle, such as using purchased domains to support Command and Control, email accounts for phishing as a part of Initial Access, or stealing code signing certificates to help with Defense Evasion.",
+    "shortname": "resource-development"
   },
   {
     "title": "Reconnaissance",
@@ -164,7 +358,191 @@
       "enterprise-attack"
     ],
     "domain": "enterprise",
-    "attack_version": null,
-    "layout": "tactic"
+    "attack_version": "19.0",
+    "layout": "tactic",
+    "description": "The adversary is trying to gather information they can use to plan future operations.\n\nReconnaissance consists of techniques that involve adversaries actively or passively gathering information that can be used to support targeting. Such information may include details of the victim organization, infrastructure, or staff/personnel. This information can be leveraged by the adversary to aid in other phases of the adversary lifecycle, such as using gathered information to plan and execute Initial Access, to scope and prioritize post-compromise objectives, or to drive and lead further Reconnaissance efforts.",
+    "shortname": "reconnaissance"
+  },
+  {
+    "title": "Collection",
+    "mitre_id": "TA0100",
+    "permalink": "/tactics/TA0100/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0100",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "tactic",
+    "shortname": "collection",
+    "description": "The adversary is trying to gather data of interest and domain knowledge on your ICS environment to inform their goal.\n\nCollection consists of techniques adversaries use to gather domain knowledge and obtain contextual feedback in an ICS environment. This tactic is often performed as part of Discovery, to compile data on control systems and targets of interest that may be used to follow through on the adversary’s objective. Examples of these techniques include observing operation states, capturing screenshots, identifying unique device roles, and gathering system and diagram schematics. Collection of this data can play a key role in planning, executing, and even revising an ICS-targeted attack. Methods of collection depend on the categories of data being targeted, which can include protocol specific, device specific, and process specific configurations and functionality. Information collected may pertain to a combination of system, supervisory, device, and network related data, which conceptually fall under high, medium, and low levels of plan operations. For example, information repositories on plant data at a high level or device specific programs at a low level. Sensitive floor plans, vendor device manuals, and other references may also be at risk and exposed on the internet or otherwise publicly accessible.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Command and Control",
+    "mitre_id": "TA0101",
+    "permalink": "/tactics/TA0101/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0101",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "tactic",
+    "shortname": "command-and-control",
+    "description": "The adversary is trying to communicate with and control compromised systems, controllers, and platforms with access to your ICS environment.\n\nCommand and Control consists of techniques that adversaries use to communicate with and send commands to compromised systems, devices, controllers, and platforms with specialized applications used in ICS environments. Examples of these specialized communication devices include human machine interfaces (HMIs), data historians, SCADA servers, and engineering workstations (EWS). Adversaries often seek to use commonly available resources and mimic expected network traffic to avoid detection and suspicion. For instance, commonly used ports and protocols in ICS environments, and even expected IT resources, depending on the target network. Command and Control may be established to varying degrees of stealth, often depending on the victim’s network structure and defenses.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Discovery",
+    "mitre_id": "TA0102",
+    "permalink": "/tactics/TA0102/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0102",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "tactic",
+    "shortname": "discovery",
+    "description": "The adversary is locating information to assess and identify their targets in your environment.\n\nDiscovery consists of techniques that adversaries use to survey your ICS environment and gain knowledge about the internal network, control system devices, and how their processes interact. These techniques help adversaries observe the environment and determine next steps for target selection and Lateral Movement. They also allow adversaries to explore what they can control and gain insight on interactions between various control system processes. Discovery techniques are often an act of progression into the environment which enable the adversary to orient themselves before deciding how to act. Adversaries may use Discovery techniques that result in Collection, to help determine how available resources benefit their current objective. A combination of native device communications and functions, and custom tools are often used toward this post-compromise information-gathering objective.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Evasion",
+    "mitre_id": "TA0103",
+    "permalink": "/tactics/TA0103/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0103",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "tactic",
+    "shortname": "evasion",
+    "description": "The adversary is trying to avoid security defenses.\n\nEvasion consists of techniques that adversaries use to avoid technical defenses throughout their campaign. Techniques used for evasion include removal of indicators of compromise, spoofing communications, and exploiting software vulnerabilities. Adversaries may also leverage and abuse trusted devices and processes to hide their activity, possibly by masquerading as master devices or native software. Methods of defense evasion for this purpose are often more passive in nature.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Execution",
+    "mitre_id": "TA0104",
+    "permalink": "/tactics/TA0104/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0104",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "tactic",
+    "shortname": "execution",
+    "description": "The adversary is trying to run code or manipulate system functions, parameters, and data in an unauthorized way.\n\nExecution consists of techniques that result in adversary-controlled code running on a local or remote system, device, or other asset. This execution may also rely on unknowing end users or the manipulation of device operating modes to run. Adversaries may infect remote targets with programmed executables or malicious project files that operate according to specified behavior and may alter expected device behavior in subtle ways. Commands for execution may also be issued from command-line interfaces, APIs, GUIs, or other available interfaces. Techniques that run malicious code may also be paired with techniques from other tactics, particularly to aid network Discovery and Collection, impact operations, and inhibit response functions.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Impact",
+    "mitre_id": "TA0105",
+    "permalink": "/tactics/TA0105/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0105",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "tactic",
+    "shortname": "impact",
+    "description": "The adversary is trying to manipulate, interrupt, or destroy your ICS systems, data, and their surrounding environment.\n\nImpact consists of techniques that adversaries use to disrupt, compromise, destroy, and manipulate the integrity and availability of control system operations, processes, devices, and data. These techniques encompass the influence and effects resulting from adversarial efforts to attack the ICS environment or that tangentially impact it. Impact techniques can result in more instantaneous disruption to control processes and the operator, or may result in more long term damage or loss to the ICS environment and related operations. The adversary may leverage Impair Process Control techniques, which often manifest in more self-revealing impacts on operations, or Impair Process Control techniques to hinder safeguards and alarms in order to follow through with and provide cover for Impact. In some scenarios, control system processes can appear to function as expected, but may have been altered to benefit the adversary’s goal over the course of a longer duration. These techniques might be used by adversaries to follow through on their end goal or to provide cover for a confidentiality breach.\n\nLoss of Productivity and Revenue, Theft of Operational Information, and Damage to Property are meant to encompass some of the more granular goals of adversaries in targeted and untargeted attacks. These techniques in and of themselves are not necessarily detectable, but the associated adversary behavior can potentially be mitigated and/or detected.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Impair Process Control",
+    "mitre_id": "TA0106",
+    "permalink": "/tactics/TA0106/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0106",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "tactic",
+    "shortname": "impair-process-control",
+    "description": "The adversary is trying to manipulate, disable, or damage physical control processes.\n\nImpair Process Control consists of techniques that adversaries use to disrupt control logic and cause determinantal effects to processes being controlled in the target environment. Targets of interest may include active procedures or parameters that manipulate the physical environment. These techniques can also include prevention or manipulation of reporting elements and control logic. If an adversary has modified process functionality, then they may also obfuscate the results, which are often self-revealing in their impact on the outcome of a product or the environment. The direct physical control these techniques exert may also threaten the safety of operators and downstream users, which can prompt response mechanisms. Adversaries may follow up with or use Inhibit Response Function techniques in tandem, to assist with the successful abuse of control processes to result in Impact.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Inhibit Response Function",
+    "mitre_id": "TA0107",
+    "permalink": "/tactics/TA0107/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0107",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "tactic",
+    "shortname": "inhibit-response-function",
+    "description": "The adversary is trying to prevent your safety, protection, quality assurance, and operator intervention functions from responding to a failure, hazard, or unsafe state.\n\nInhibit Response Function consists of techniques that adversaries use to hinder the safeguards put in place for processes and products. This may involve the inhibition of safety, protection, quality assurance, or operator intervention functions to disrupt safeguards that aim to prevent the loss of life, destruction of equipment, and disruption of production. These techniques aim to actively deter and prevent expected alarms and responses that arise due to statuses in the ICS environment. Adversaries may modify or update system logic, or even outright prevent responses with a denial-of-service. They may result in the prevention, destruction, manipulation, or modification of programs, logic, devices, and communications. As prevention functions are generally dormant, reporting and processing functions can appear fine, but may have been altered to prevent failure responses in dangerous scenarios. Unlike Evasion, Inhibit Response Function techniques may be more intrusive, such as actively preventing responses to a known dangerous scenario. Adversaries may use these techniques to follow through with or provide cover for Impact techniques.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Initial Access",
+    "mitre_id": "TA0108",
+    "permalink": "/tactics/TA0108/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0108",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "tactic",
+    "shortname": "initial-access",
+    "description": "The adversary is trying to get into your ICS environment.\n\nInitial Access consists of techniques that adversaries may use as entry vectors to gain an initial foothold within an ICS environment. These techniques include compromising operational technology assets, IT resources in the OT network, and external remote services and websites. They may also target third party entities and users with privileged access. In particular, these initial access footholds may include devices and communication mechanisms with access to and privileges in both the IT and OT environments. IT resources in the OT environment are also potentially vulnerable to the same attacks as enterprise IT systems. Trusted third parties of concern may include vendors, maintenance personnel, engineers, external integrators, and other outside entities involved in expected ICS operations. Vendor maintained assets may include physical devices, software, and operational equipment. Initial access techniques may also leverage outside devices, such as radios, controllers, or removable media, to remotely interfere with and possibly infect OT operations.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Lateral Movement",
+    "mitre_id": "TA0109",
+    "permalink": "/tactics/TA0109/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0109",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "tactic",
+    "shortname": "lateral-movement",
+    "description": "The adversary is trying to move through your ICS environment.\n\nLateral Movement consists of techniques that adversaries use to enter and control remote systems on a network. These techniques abuse default credentials, known accounts, and vulnerable services, and may also leverage dual-homed devices and systems that reside on both the IT and OT networks. The adversary uses these techniques to pivot to their next point in the environment, positioning themselves to where they want to be or think they should be. Following through on their primary objective often requires Discovery of the network and Collection to develop awareness of unique ICS devices and processes, in order to find their target and subsequently gain access to it. Reaching this objective often involves pivoting through multiple systems, devices, and accounts. Adversaries may install their own remote tools to accomplish Lateral Movement or leverage default tools, programs, and manufacturer set or other legitimate credentials native to the network, which may be stealthier.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Persistence",
+    "mitre_id": "TA0110",
+    "permalink": "/tactics/TA0110/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0110",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "tactic",
+    "shortname": "persistence",
+    "description": "The adversary is trying to maintain their foothold in your ICS environment.\n\nPersistence consists of techniques that adversaries use to maintain access to ICS systems and devices across restarts, changed credentials, and other interruptions that could cut off their access. Techniques used for persistence include any access, action, or configuration changes that allow them to secure their ongoing activity and keep their foothold on systems. This may include replacing or hijacking legitimate code, firmware, and other project files, or adding startup code and downloading programs onto devices.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Privilege Escalation",
+    "mitre_id": "TA0111",
+    "permalink": "/tactics/TA0111/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0111",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "layout": "tactic",
+    "shortname": "privilege-escalation",
+    "description": "The adversary is trying to gain higher-level permissions.\n\nPrivilege Escalation consists of techniques that adversaries use to gain higher-level permissions on a system or network. Adversaries can often enter and explore a network with unprivileged access but require elevated permissions to follow through on their objectives. Common approaches are to take advantage of system weaknesses, misconfigurations, and vulnerabilities.",
+    "attack_version": "19.0"
+  },
+  {
+    "title": "Defense Impairment",
+    "mitre_id": "TA0112",
+    "permalink": "/tactics/TA0112/",
+    "mitre_url": "https://attack.mitre.org/tactics/TA0112",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "layout": "tactic",
+    "shortname": "defense-impairment",
+    "description": "The adversary is trying to break security mechanisms, pipelines, and tooling so defenders can’t see or trust what’s happening.\n\nDefense Impairment consists of techniques that degrade, disable, or undermine the effectiveness and trustworthiness of security controls and monitoring mechanisms. These techniques are characterized by direct interference with defensive systems. The goal is to reduce defenders’ ability to detect, interpret, or respond to adversary activity.",
+    "attack_version": "19.0"
   }
 ]
