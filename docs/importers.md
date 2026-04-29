@@ -87,6 +87,12 @@ Per MITRE permission notice used throughout the site:
 
 Bundles under **`data/mitre-cache/`** (gitignored local cache) and dated **`data/imports/mitre-attack/<date>/`** snapshots are what allow **`ruby scripts/generate-indexes.rb`** to populate **`technique_tactics.json`**, **`attack_version.json`**, and tactic-aware **`actors_by_tactic.json`** without brittle failures. See [Offline MITRE bundles](offline-mitre-bundles.md) for resolver order, CI implications, and how to **refresh MITRE stubs** and actor **`ttps`** via `import-mitre.rb import`.
 
+### Stub vs imported MITRE collection pages
+
+- **Index-time stubs (`generate-indexes.rb`).** When ATT&CK STIX bundles are resolved (snapshot cache or network), index generation merges STIX descriptions into technique/tactic metadata and can **create or refresh stub markdown** under `_techniques/` and `_tactics/` so pages show a **Description** section and tactic links without running the full importer. Pages that still carry the generated stub marker get rewritten when resolver-backed descriptions become available; analyst-edited pages without that marker are left unchanged.
+
+- **Full import (`import-mitre.rb import`).** For complete collection pages—description plus structured sections such as sub-techniques, mitigations, and groups lists—run **`ruby scripts/import-mitre.rb import --snapshot …`** as above, then **`ruby scripts/generate-indexes.rb`**. That path uses `MitreEntityWriters` and replaces technique/tactic files with the richer layout defined for this site.
+
 ## Categorized Adversary TTPs snapshot
 
 The dataset from [tropChaud/Categorized-Adversary-TTPs](https://github.com/tropChaud/Categorized-Adversary-TTPs) (MIT license) is vendored as JSON under [`data/imports/categorized-adversary-ttps/`](https://github.com/tropChaud/Categorized-Adversary-TTPs). It merges MITRE ATT&CK group-to-technique relationships with ETDA/ThaiCERT Threat Group Card metadata (victim industries/countries, motivations).

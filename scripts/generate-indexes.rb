@@ -183,24 +183,23 @@ class ThreatActorIndexGenerator
     technique_documents = build_mitre_collection_index('_techniques')
     if mitre_resolver
       from_resolver = build_techniques_from_resolver(mitre_resolver)
-      if technique_documents.empty?
-        technique_documents = from_resolver
-      else
-        by_id = {}
-        technique_documents.each { |t| by_id[t[:mitre_id].to_s.upcase] = t }
-        from_resolver.each do |t|
-          id = t[:mitre_id].to_s.upcase
-          by_id[id] ||= t
-        end
-        technique_documents = by_id.values.sort_by { |x| x[:mitre_id].to_s }
-      end
+      technique_documents = if technique_documents.empty?
+                              from_resolver
+                            else
+                              merge_technique_documents_with_resolver(technique_documents, from_resolver)
+                            end
     elsif technique_documents.empty?
       technique_documents = build_technique_index_from_actor_yaml(@actors)
     end
 
     tactic_documents = build_mitre_collection_index('_tactics')
-    if tactic_documents.empty? && mitre_resolver
-      tactic_documents = build_tactics_documents_from_resolver(mitre_resolver)
+    if mitre_resolver
+      from_res_tactics = build_tactics_documents_from_resolver(mitre_resolver)
+      tactic_documents = if tactic_documents.empty?
+                             from_res_tactics
+                           else
+                             merge_tactic_documents_with_resolver(tactic_documents, from_res_tactics)
+                           end
     elsif tactic_documents.empty?
       tactic_documents = build_fallback_enterprise_tactics_documents
     end
@@ -1619,6 +1618,8 @@ class ThreatActorIndexGenerator
       doms = (resolver.domains_by_id[sid] || []).uniq
       dom = (doms & %w[enterprise mobile ics]).first || 'enterprise'
       av = attack_version_for_domain_key(dom)
+      desc = MitreCommon.clean_description(obj['description'])
+      tactic_ids = resolver.tactics_for_technique(sid).map(&:to_s).map(&:upcase).uniq
       row = {
         title: obj['name'],
         mitre_id: eidu,
@@ -1626,11 +1627,54 @@ class ThreatActorIndexGenerator
         mitre_url: url,
         domains: doms,
         domain: dom,
-        layout: 'technique'
+        layout: 'technique',
+        description: desc,
+        tactic_ids: tactic_ids
       }
       row[:attack_version] = av if av && !av.to_s.empty?
       row
     end.sort_by { |t| t[:mitre_id] }
+  end
+
+  # Preserve filesystem-derived technique rows but attach resolver-only fields (description, tactic IDs).
+  def merge_technique_documents_with_resolver(from_disk, from_resolver)
+    by_id = {}
+    from_disk.each { |t| by_id[t[:mitre_id].to_s.upcase] = t.dup }
+    from_resolver.each do |t|
+      id = t[:mitre_id].to_s.upcase
+      existing = by_id[id]
+      if existing
+        existing[:description] = t[:description] if t[:description].to_s.strip.length.positive?
+        existing[:tactic_ids] = t[:tactic_ids] if t[:tactic_ids].to_a.any?
+        existing[:mitre_url] ||= t[:mitre_url]
+        existing[:domains] = t[:domains] if existing[:domains].to_a.empty? && t[:domains].to_a.any?
+        existing[:domain] ||= t[:domain]
+        existing[:attack_version] ||= t[:attack_version]
+      else
+        by_id[id] = t
+      end
+    end
+    by_id.values.sort_by { |x| x[:mitre_id].to_s }
+  end
+
+  def merge_tactic_documents_with_resolver(from_disk, from_resolver)
+    by_id = {}
+    from_disk.each { |t| by_id[t[:mitre_id].to_s.upcase] = t.dup }
+    from_resolver.each do |t|
+      id = t[:mitre_id].to_s.upcase
+      existing = by_id[id]
+      if existing
+        existing[:description] = t[:description] if t[:description].to_s.strip.length.positive?
+        existing[:mitre_url] ||= t[:mitre_url]
+        existing[:domains] = t[:domains] if existing[:domains].to_a.empty? && t[:domains].to_a.any?
+        existing[:domain] ||= t[:domain]
+        existing[:shortname] ||= t[:shortname]
+        existing[:attack_version] ||= t[:attack_version]
+      else
+        by_id[id] = t
+      end
+    end
+    by_id.values.sort_by { |x| x[:mitre_id].to_s }
   end
 
   def build_tactics_documents_from_resolver(resolver)
@@ -1645,6 +1689,7 @@ class ThreatActorIndexGenerator
       doms = (resolver.domains_by_id[sid] || []).uniq
       dom = (doms & %w[enterprise mobile ics]).first || 'enterprise'
       av = attack_version_for_domain_key(dom)
+      desc = MitreCommon.clean_description(obj['description'])
       row = {
         title: obj['name'],
         mitre_id: eidu,
@@ -1653,11 +1698,83 @@ class ThreatActorIndexGenerator
         domains: doms,
         domain: dom,
         layout: 'tactic',
-        shortname: obj['x_mitre_shortname']
+        shortname: obj['x_mitre_shortname'],
+        description: desc
       }
       row[:attack_version] = av if av && !av.to_s.empty?
       row
     end.uniq { |t| t[:mitre_id] }.sort_by { |t| t[:mitre_id] }
+  end
+
+  MITRE_STUB_SNIPPET = 'Stub page generated from MITRE ATT&CK bundle metadata'.freeze
+
+  def technique_stub_body_legacy
+    <<~STUB
+      ## Description
+
+      *Stub page generated from MITRE ATT&CK bundle metadata.* Import via `scripts/import-mitre.rb` to enrich descriptions and examples.
+
+      ## Threat actors
+
+      Threat actors in this project are listed below when their ATT&CK references cite this technique ID.
+
+    STUB
+  end
+
+  def technique_body_from_resolver_description(description_text)
+    block = description_text.to_s.strip.empty? ? '*No description.*' : description_text.to_s.strip
+    body = +<<"BODY"
+## Description
+
+#{block}
+
+## Threat actors
+
+Threat actors in this project are listed below when their ATT&CK references cite this technique ID.
+
+BODY
+    body << "\n---\n\n*#{MitreCommon::SOURCE_ATTRIBUTION}*\n"
+    body
+  end
+
+  def tactic_stub_body_legacy
+    <<~STUB
+      ## Description
+
+      *Stub page generated from MITRE ATT&CK bundle metadata.* Import via `scripts/import-mitre.rb` to enrich descriptions.
+
+      ## Threat actors
+
+      Threat actors in this project are listed below when their ATT&CK technique references map to this tactic.
+
+    STUB
+  end
+
+  def tactic_body_from_resolver_description(description_text)
+    block = description_text.to_s.strip.empty? ? '*No description.*' : description_text.to_s.strip
+    body = +<<"BODY"
+## Description
+
+#{block}
+
+## Threat actors
+
+Threat actors in this project are listed below when their ATT&CK technique references map to this tactic.
+
+BODY
+    body << "\n---\n\n*#{MitreCommon::SOURCE_ATTRIBUTION}*\n"
+    body
+  end
+
+  def normalize_front_matter_for_write(fm)
+    return {} unless fm.is_a?(Hash)
+
+    fm.each_with_object({}) do |(k, v), acc|
+      key = k.to_s
+      next if key.empty?
+
+      acc[key] = v
+    end.compact
   end
 
   def ensure_tactic_collection_pages(tactic_documents)
@@ -1668,7 +1785,20 @@ class ThreatActorIndexGenerator
     tactic_documents.each do |t|
       mid = t[:mitre_id].to_s.upcase
       path = File.join(TACTICS_DIR, "#{mid.downcase}.md")
-      next if File.exist?(path)
+
+      if File.exist?(path)
+        page = parse_page(path)
+        body = page[:body].to_s
+        next unless body.include?(MITRE_STUB_SNIPPET)
+        next if t[:description].nil? || t[:description].to_s.strip.empty?
+
+        fm = normalize_front_matter_for_write(page[:front_matter])
+        av = t[:attack_version] || @mitre_bundle_meta['active_version']
+        fm['attack_version'] = av if av && !av.to_s.empty?
+
+        write_jekyll_markdown(path, fm, tactic_body_from_resolver_description(t[:description]))
+        next
+      end
 
       fm = {
         'layout' => 'tactic',
@@ -1684,17 +1814,12 @@ class ThreatActorIndexGenerator
       av = t[:attack_version] || @mitre_bundle_meta['active_version']
       fm['attack_version'] = av if av && !av.to_s.empty?
 
-      body = +<<"BODY"
-## Description
-
-*Stub page generated from MITRE ATT&CK bundle metadata.* Import via `scripts/import-mitre.rb` to enrich descriptions.
-
-## Threat actors
-
-Threat actors in this project are listed below when their ATT&CK technique references map to this tactic.
-
-BODY
-      body << "\n---\n\n*#{MitreCommon::SOURCE_ATTRIBUTION}*\n"
+      body =
+        if !t[:description].nil?
+          tactic_body_from_resolver_description(t[:description])
+        else
+          "#{tactic_stub_body_legacy}\n---\n\n*#{MitreCommon::SOURCE_ATTRIBUTION}*\n"
+        end
 
       write_jekyll_markdown(path, fm, body)
     end
@@ -1710,7 +1835,21 @@ BODY
       next unless mid.match?(/\AT\d{4}(?:\.\d{3})?\z/)
 
       path = File.join(TECHNIQUES_DIR, "#{mid.downcase}.md")
-      next if File.exist?(path)
+
+      if File.exist?(path)
+        page = parse_page(path)
+        body = page[:body].to_s
+        next unless body.include?(MITRE_STUB_SNIPPET)
+        next if t[:description].nil? || t[:description].to_s.strip.empty?
+
+        fm = normalize_front_matter_for_write(page[:front_matter])
+        fm['tactic_ids'] = t[:tactic_ids] if t[:tactic_ids].to_a.any?
+        av = t[:attack_version] || @mitre_bundle_meta['active_version']
+        fm['attack_version'] = av if av && !av.to_s.empty?
+
+        write_jekyll_markdown(path, fm, technique_body_from_resolver_description(t[:description]))
+        next
+      end
 
       parent_id = mid.include?('.') ? mid.split('.', 2).first : nil
       fm = {
@@ -1724,20 +1863,16 @@ BODY
         'parent_mitre_id' => parent_id,
         'source_attribution' => MitreCommon::SOURCE_ATTRIBUTION
       }.compact
+      fm['tactic_ids'] = t[:tactic_ids] if t[:tactic_ids].to_a.any?
       av = t[:attack_version] || @mitre_bundle_meta['active_version']
       fm['attack_version'] = av if av && !av.to_s.empty?
 
-      body = +<<"BODY"
-## Description
-
-*Stub page generated from MITRE ATT&CK bundle metadata.* Import via `scripts/import-mitre.rb` to enrich descriptions and examples.
-
-## Threat actors
-
-Threat actors in this project are listed below when their ATT&CK references cite this technique ID.
-
-BODY
-      body << "\n---\n\n*#{MitreCommon::SOURCE_ATTRIBUTION}*\n"
+      body =
+        if !t[:description].nil?
+          technique_body_from_resolver_description(t[:description])
+        else
+          "#{technique_stub_body_legacy}\n---\n\n*#{MitreCommon::SOURCE_ATTRIBUTION}*\n"
+        end
 
       write_jekyll_markdown(path, fm, body)
     end
