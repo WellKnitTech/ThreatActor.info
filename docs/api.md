@@ -298,11 +298,11 @@ Array of MITRE campaign summaries from `_campaigns/*.md` (distinct from `/api/ca
 
 ### `/api/actors_by_technique.json`
 
-Object keyed by technique ID (for example `T1059`) listing actors that reference that technique — parsed from actor YAML `ttps` strings, structured `ttps` entries where present, and technique IDs extracted from page **TTPs** / Atomic mappings (`attack_mappings`).
+Object keyed by technique ID (for example `T1059`) listing actors that reference that technique — parsed from actor YAML `ttps` strings, structured `ttps` entries where present, and technique IDs extracted from page **TTPs** / Atomic mappings (`attack_mappings`). When a snapshot of [tropChaud/Categorized-Adversary-TTPs](https://github.com/tropChaud/Categorized-Adversary-TTPs) is present under `data/imports/categorized-adversary-ttps/`, technique IDs from that merged MITRE group–technique list are also included for actors whose `mitre_id` or `external_id` matches a MITRE group ID (`G####`) in the snapshot (see `scripts/categorized_adversary_ttps.rb` and attribution on `/attribution/`). Those extra IDs are limited to technique IDs that exist as pages in `_techniques/` for this site so links stay valid.
 
 ### `/api/actors_by_tactic.json`
 
-Object keyed by tactic ID (for example `TA0007`) listing actors whose cited techniques map to that tactic. Entries may be actor names (legacy) or objects with `name` and `domain` when domain-specific bucketing is available. Requires `technique_tactics` mappings from `scripts/generate-indexes.rb` (cached MITRE bundles or importer snapshot).
+Object keyed by tactic ID (for example `TA0007`) listing actors whose cited techniques map to that tactic (same actor→technique union as `/api/actors_by_technique.json`, including categorized snapshot techniques when applicable). Entries may be actor names (legacy) or objects with `name` and `domain` when domain-specific bucketing is available. Requires `technique_tactics` mappings from `scripts/generate-indexes.rb` (cached MITRE bundles or importer snapshot).
 
 ### `/api/technique-tactics.json`
 
