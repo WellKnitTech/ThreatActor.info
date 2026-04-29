@@ -318,23 +318,23 @@ Composite search payload with `actors`, `techniques`, and `campaigns` arrays for
 
 ### `/api/categorized_adversary_meta.json`
 
-Single object describing the vendored **Categorized Adversary TTPs** snapshot: retrieval date, upstream repository URL, license (`MIT`), and `group_count`.
+Single object describing the vendored **Categorized Adversary TTPs** snapshot: retrieval date, upstream repository URL, license (`MIT`), and `group_count` (groups in the upstream JSON merge). Also includes `pivot_eligible_group_count` (snapshot groups that intersect project actors by `G####`) and `project_mitre_group_count` (how many threat actors declare a `mitre_id` / `external_id` matching `G####`).
 
 ### `/api/categorized_adversary_by_group.json`
 
-Object keyed by MITRE group ID (`G####`). Each value includes `mitre_attack_name`, `mitre_url`, `mitre_attack_ttps`, `technique_count`, ETDA fields (`etda_name`, `etda_url`, …), and pivot arrays (`motivation`, `victim_industries`, `victim_countries`).
+Object keyed by MITRE group ID (`G####`). Each value includes `mitre_attack_name`, `mitre_url`, `mitre_attack_ttps`, `technique_count`, ETDA fields (`etda_name`, `etda_url`, …), and pivot arrays (`motivation`, `victim_industries`, `victim_countries`). Covers the full upstream merge (not filtered to project actors).
 
 ### `/api/categorized_pivot_by_industry.json`
 
-Object keyed by victim **industry** label. Each value is an object mapping technique ID strings to occurrence counts (derived from the merged dataset; used by `/categorized-adversary-ttps/`).
+Object keyed by victim **industry** label. Each value is an object mapping technique ID strings to occurrence counts: only MITRE groups present in the merged snapshot **and** matching a project actor `G####` contribute (used by `/categorized-adversary-ttps/`).
 
 ### `/api/categorized_pivot_by_motivation.json`
 
-Object keyed by **motivation** category (for example information theft vs financial crime). Values are technique ID → count maps.
+Object keyed by **motivation** category (for example information theft vs financial crime). Values are technique ID → count maps (same project–group intersection as industry pivots).
 
 ### `/api/categorized_pivot_by_victim_country.json`
 
-Object keyed by **victim country** name. Values are technique ID → count maps.
+Object keyed by **victim country** name. Values are technique ID → count maps (same project–group intersection).
 
 ## Limitations
 
