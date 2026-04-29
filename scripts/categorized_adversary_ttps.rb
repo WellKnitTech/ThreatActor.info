@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'json'
+require 'set'
 require 'yaml'
 
 # Loads tropChaud/Categorized-Adversary-TTPs snapshot (MIT) and builds indexes for site/API.
@@ -168,6 +169,15 @@ module CategorizedAdversaryTtps
   end
 
   # Attach compact categorized_adversary_ttps to each actor document when mitre_id matches G####.
+  # Distinct MITRE group IDs (G####) declared on project actor documents.
+  def project_mitre_group_ids(actor_documents)
+    actor_documents.each_with_object(Set.new) do |doc, acc|
+      gid = doc[:mitre_id] || doc[:external_id]
+      gid = gid.to_s.upcase.strip if gid
+      acc << gid if gid&.match?(/\AG\d{4}\z/)
+    end
+  end
+
   def attach_to_actor_documents!(actor_documents, by_group_public)
     actor_documents.each do |doc|
       gid = doc[:mitre_id] || doc[:external_id]
@@ -187,7 +197,11 @@ module CategorizedAdversaryTtps
     records = load_records(snapshot_path)
     merged = merge_records_by_group(records)
     by_group_public = build_by_group_public(merged)
-    piv_ind, piv_mot, piv_ctry = build_pivots(merged)
+
+    project_ids = project_mitre_group_ids(actor_documents)
+    merged_for_pivots = merged.select { |gid, _| project_ids.include?(gid) }
+    piv_ind, piv_mot, piv_ctry = build_pivots(merged_for_pivots)
+
     manifest = load_manifest
 
     attach_to_actor_documents!(actor_documents, by_group_public)
@@ -198,7 +212,9 @@ module CategorizedAdversaryTtps
       source_json_url: manifest['source_json_url'],
       license: manifest['license'],
       upstream_license_url: manifest['upstream_license_url'],
-      group_count: by_group_public.length
+      group_count: by_group_public.length,
+      pivot_eligible_group_count: merged_for_pivots.length,
+      project_mitre_group_count: project_ids.length
     }
 
     {
