@@ -118,6 +118,30 @@ module ImportUtils
     merged['software'] = incoming['software'] if incoming.key?('software')
     merged['campaigns'] = incoming['campaigns'] if incoming.key?('campaigns')
 
+    if incoming['references'].is_a?(Array) && incoming['references'].any?
+      merged['references'] = merge_actor_reference_lists(existing['references'], incoming['references'])
+    end
+
     merged
+  end
+
+  def merge_actor_reference_lists(existing, incoming)
+    ex = Array(existing)
+    inc = Array(incoming)
+    seen = {}
+    out = []
+    (ex + inc).each do |r|
+      next unless r.is_a?(Hash)
+
+      url = r['url'].to_s
+      src = (r['source'] || r['source_name']).to_s
+      sig = url.empty? ? "#{src}\t#{r['description']}" : url
+      next if sig.strip.empty?
+      next if seen[sig]
+
+      seen[sig] = true
+      out << r
+    end
+    out
   end
 end

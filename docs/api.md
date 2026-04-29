@@ -274,6 +274,10 @@ Typical keys:
 
 Populated by `scripts/generate-indexes.rb` via `scripts/mitre/version_resolver.rb` (snapshot manifest → `data/mitre-cache/active.yml` → optional network fetch). The site footer and `/ttps/` use this for the “ATT&CK vX.Y” label.
 
+### `/api/mitre-citation-links.json`
+
+Single object mapping **normalized citation labels** (lowercased, trimmed) to source URLs drawn from MITRE STIX **`external_references`** across intrusion sets, techniques, software, campaigns, mitigations, and tactics—excluding the primary `mitre-attack` row when other refs carry `url`. Built during `scripts/generate-indexes.rb` together with citation link rewriting in actor YAML and MITRE Markdown collections.
+
 ### `/api/techniques.json`
 
 Array of MITRE technique summaries from `_techniques/*.md` front matter (`title`, `mitre_id`, `permalink`, `mitre_url`, `domains`, `attack_version`).
