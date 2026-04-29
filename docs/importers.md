@@ -93,6 +93,10 @@ Bundles under **`data/mitre-cache/`** (gitignored local cache) and dated **`data
 
 - **Full import (`import-mitre.rb import`).** For complete collection pages—description plus structured sections such as sub-techniques, mitigations, and groups lists—run **`ruby scripts/import-mitre.rb import --snapshot …`** as above, then **`ruby scripts/generate-indexes.rb`**. That path uses `MitreEntityWriters` and replaces technique/tactic files with the richer layout defined for this site.
 
+### Inline `(Citation: …)` markers and links
+
+MITRE prose embeds **`(Citation: Source Label)`** tokens that correspond to **`external_references`** in ATT&CK STIX (often with **`url`** values distinct from the primary `mitre-attack` row). When **`ruby scripts/generate-indexes.rb`** resolves bundles, it builds **`_data/generated/mitre_citation_links.json`** (normalized citation labels → URLs) and rewrites matching markers to Markdown links in actor **`description`** fields and MITRE collection Markdown bodies where a URL was found. Markers without a matching STIX URL stay unchanged. **`ImportUtils.merge_actors`** preserves **`incoming['references']`** from **`import-mitre.rb`** so structured URLs remain alongside YAML descriptions.
+
 ## Categorized Adversary TTPs snapshot
 
 The dataset from [tropChaud/Categorized-Adversary-TTPs](https://github.com/tropChaud/Categorized-Adversary-TTPs) (MIT license) is vendored as JSON under [`data/imports/categorized-adversary-ttps/`](https://github.com/tropChaud/Categorized-Adversary-TTPs). It merges MITRE ATT&CK group-to-technique relationships with ETDA/ThaiCERT Threat Group Card metadata (victim industries/countries, motivations).

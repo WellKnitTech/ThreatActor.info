@@ -58,8 +58,8 @@ layout: default
       </div>
       {% endif %}
       
-      <div class="actor-description">
-        <p>{{ profile_description }}</p>
+      <div class="actor-description markdown-body">
+        {{ profile_description | markdownify }}
       </div>
       
       <div class="actor-stats">

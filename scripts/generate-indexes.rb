@@ -12,6 +12,7 @@ require_relative 'mitre/stix_loader'
 require_relative 'mitre/relationship_resolver'
 require_relative 'mitre/mitre_common'
 require_relative 'mitre/version_resolver'
+require_relative 'mitre/citation_links'
 require_relative 'categorized_adversary_ttps'
 require_relative 'ioc_yaml_reader'
 
@@ -139,6 +140,7 @@ class ThreatActorIndexGenerator
     @pages = load_pages
     @mitre_counts = {}
     @mitre_bundle_meta = {}
+    @citation_url_map = {}
   end
 
   def run
@@ -153,6 +155,12 @@ class ThreatActorIndexGenerator
     malware_documents = []
     attack_mapping_documents = []
     reference_documents = []
+
+    mitre_resolver = resolve_mitre_resolver_for_indexes
+    technique_tactics_map = mitre_resolver ? build_technique_tactics_map(mitre_resolver) : {}
+    @citation_url_map = mitre_resolver ? MitreCitationLinks.build_citation_url_map(mitre_resolver.objects) : {}
+    write_json('mitre_citation_links.json', MitreCitationLinks.citation_map_to_json_object(@citation_url_map))
+    apply_citation_links_to_actor_yaml
 
     @actors.each do |actor|
       page_path = page_path_for(actor['url'])
@@ -176,9 +184,6 @@ class ThreatActorIndexGenerator
       attack_mapping_documents.concat(flatten_attack_mappings(actor, page, attack_mappings))
       reference_documents.concat(references)
     end
-
-    mitre_resolver = resolve_mitre_resolver_for_indexes
-    technique_tactics_map = mitre_resolver ? build_technique_tactics_map(mitre_resolver) : {}
 
     technique_documents = build_mitre_collection_index('_techniques')
     if mitre_resolver
@@ -206,6 +211,7 @@ class ThreatActorIndexGenerator
 
     ensure_tactic_collection_pages(tactic_documents)
     ensure_technique_collection_pages(technique_documents)
+    linkify_citations_in_mitre_collection_dirs
 
     campaign_mitre_documents = build_mitre_collection_index('_campaigns')
     mitigation_documents = build_mitre_collection_index('_mitigations')
@@ -1721,8 +1727,56 @@ class ThreatActorIndexGenerator
     STUB
   end
 
+  def linkify_resolver_description(text)
+    return text if @citation_url_map.nil? || @citation_url_map.empty?
+
+    MitreCitationLinks.linkify_mitre_citations(text, @citation_url_map)
+  end
+
+  def apply_citation_links_to_actor_yaml
+    return if @citation_url_map.nil? || @citation_url_map.empty?
+
+    @actors.each do |actor|
+      desc = actor['description']
+      next unless desc.is_a?(String)
+      next unless desc.include?('(Citation:')
+
+      new_desc = MitreCitationLinks.linkify_mitre_citations(desc, @citation_url_map)
+      next if new_desc == desc
+
+      actor['description'] = new_desc
+      ActorStore.save_actor(actor)
+    end
+  end
+
+  def linkify_citations_in_mitre_collection_dirs
+    return if @citation_url_map.nil? || @citation_url_map.empty?
+
+    %w[_techniques _tactics _campaigns _mitigations _malware].each do |dir|
+      next unless Dir.exist?(dir)
+
+      Dir.glob(File.join(dir, '*.md')).sort.each do |path|
+        linkify_citations_in_markdown_file(path)
+      end
+    end
+  end
+
+  def linkify_citations_in_markdown_file(path)
+    page = parse_page(path)
+    body = page[:body].to_s
+    return unless body.include?('(Citation:')
+
+    new_body = MitreCitationLinks.linkify_mitre_citations(body, @citation_url_map)
+    return if new_body == body
+
+    write_jekyll_markdown(path, page[:front_matter], new_body)
+  rescue StandardError => e
+    warn "Citation linkify skipped for #{path}: #{e.message}"
+  end
+
   def technique_body_from_resolver_description(description_text)
     block = description_text.to_s.strip.empty? ? '*No description.*' : description_text.to_s.strip
+    block = linkify_resolver_description(block) unless block == '*No description.*'
     body = +<<"BODY"
 ## Description
 
@@ -1752,6 +1806,7 @@ BODY
 
   def tactic_body_from_resolver_description(description_text)
     block = description_text.to_s.strip.empty? ? '*No description.*' : description_text.to_s.strip
+    block = linkify_resolver_description(block) unless block == '*No description.*'
     body = +<<"BODY"
 ## Description
 

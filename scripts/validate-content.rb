@@ -67,6 +67,7 @@ class ContentValidator
     'api/actors_by_tactic.json',
     'api/technique-tactics.json',
     'api/attack-version.json',
+    'api/mitre-citation-links.json',
     'api/software_by_actor.json',
     'api/search-index.json',
     'api/ioc-summary.json',
@@ -119,6 +120,7 @@ class ContentValidator
     '_data/generated/actors_by_tactic.json',
     '_data/generated/technique_tactics.json',
     '_data/generated/attack_version.json',
+    '_data/generated/mitre_citation_links.json',
     '_data/generated/categorized_adversary_by_group.json',
     '_data/generated/categorized_pivot_by_industry.json',
     '_data/generated/categorized_pivot_by_motivation.json',
@@ -148,6 +150,7 @@ class ContentValidator
     '_data/generated/actors_by_tactic.json',
     '_data/generated/technique_tactics.json',
     '_data/generated/attack_version.json',
+    '_data/generated/mitre_citation_links.json',
     '_data/generated/categorized_adversary_by_group.json',
     '_data/generated/categorized_pivot_by_industry.json',
     '_data/generated/categorized_pivot_by_motivation.json',
@@ -174,6 +177,7 @@ class ContentValidator
     'api/actors_by_tactic.json' => 'site.data.generated.actors_by_tactic',
     'api/technique-tactics.json' => 'site.data.generated.technique_tactics',
     'api/attack-version.json' => 'site.data.generated.attack_version',
+    'api/mitre-citation-links.json' => 'site.data.generated.mitre_citation_links',
     'api/software_by_actor.json' => 'site.data.generated.software_by_actor',
     'api/search-index.json' => 'site.data.generated.search_index',
     'api/ioc-summary.json' => 'site.data.generated.ioc_summary',
@@ -719,6 +723,13 @@ class ContentValidator
         add_error(file, 'attack_version.json missing active_version') unless payload.key?('active_version')
         if payload['active_version'].to_s.strip.empty?
           add_error(file, 'attack_version.json active_version must be non-empty (run scripts/generate-indexes.rb with MITRE bundles available)')
+        end
+      end
+    when 'mitre_citation_links.json'
+      add_error(file, 'mitre_citation_links.json root must be an object') unless payload.is_a?(Hash)
+      if payload.is_a?(Hash)
+        payload.each do |k, v|
+          add_error(file, "mitre_citation_links.json value for #{k.inspect} must be a string URL") unless v.is_a?(String)
         end
       end
     when 'categorized_adversary_meta.json'

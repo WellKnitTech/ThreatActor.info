@@ -36,6 +36,7 @@ class JsonSchemaValidator
     _data/generated/actors_by_tactic.json
     _data/generated/technique_tactics.json
     _data/generated/attack_version.json
+    _data/generated/mitre_citation_links.json
     _data/generated/categorized_adversary_by_group.json
     _data/generated/categorized_pivot_by_industry.json
     _data/generated/categorized_pivot_by_motivation.json

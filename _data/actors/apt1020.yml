@@ -1,6 +1,6 @@
 name: "Mustard Tempest"
 aliases: ["DEV-0206","GOLD PRELUDE","Mustard Tempest","TA569","UNC1543","Purple Vallhund"]
-description: "Mustard Tempest is an initial access broker that has operated the SocGholish distribution network since at least 2017. Mustard Tempest has partnered with Indrik Spider to provide access for the download of additional malware including LockBit, WastedLocker, and remote access tools.(Citation: Microsoft Ransomware as a Service)(Citation: Microsoft Threat Actor Naming July 2023)(Citation: Secureworks Gold Prelude Profile)(Citation: SocGholish-update)"
+description: "Mustard Tempest is an initial access broker that has operated the SocGholish distribution network since at least 2017. Mustard Tempest has partnered with Indrik Spider to provide access for the download of additional malware including LockBit, WastedLocker, and remote access tools.[Microsoft Ransomware as a Service](https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/)[Microsoft Threat Actor Naming July 2023](https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide)[Secureworks Gold Prelude Profile](https://www.secureworks.com/research/threat-profiles/gold-prelude)[SocGholish-update](https://www.proofpoint.com/us/blog/threat-insight/part-1-socgholish-very-real-threat-very-fake-update)"
 url: "/apt1020"
 external_id: "G1020"
 external_url: "https://attack.mitre.org/groups/G1020"

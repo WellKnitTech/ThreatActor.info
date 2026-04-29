@@ -1,6 +1,6 @@
 name: "Confucius"
 aliases: ["Confucius","Confucius APT"]
-description: "Confucius is a cyber espionage group that has primarily targeted military personnel, high-profile personalities, business persons, and government organizations in South Asia since at least 2013. Security researchers have noted similarities between Confucius and Patchwork, particularly in their respective custom malware code and targets.(Citation: TrendMicro Confucius APT Feb 2018)(Citation: TrendMicro Confucius APT Aug 2021)(Citation: Uptycs Confucius APT Jan 2021)"
+description: "Confucius is a cyber espionage group that has primarily targeted military personnel, high-profile personalities, business persons, and government organizations in South Asia since at least 2013. Security researchers have noted similarities between Confucius and Patchwork, particularly in their respective custom malware code and targets.[TrendMicro Confucius APT Feb 2018](https://www.trendmicro.com/en_us/research/18/b/deciphering-confucius-cyberespionage-operations.html)[TrendMicro Confucius APT Aug 2021](https://www.trendmicro.com/en_us/research/21/h/confucius-uses-pegasus-spyware-related-lures-to-target-pakistani.html)[Uptycs Confucius APT Jan 2021](https://www.uptycs.com/blog/confucius-apt-deploys-warzone-rat)"
 url: "/apt0142"
 external_id: "G0142"
 external_url: "https://attack.mitre.org/groups/G0142"
