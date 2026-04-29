@@ -566,6 +566,9 @@ ruby scripts/import-misp-galaxy.rb import --snapshot data/imports/misp-galaxy/20
 | `meta.attribution-confidence` | `risk_level` | 50+ = High, 70+ = Critical |
 | `meta.refs` | `References` section | List of source URLs |
 | `uuid` | `provenance` | Source record ID |
+| (all `meta` keys) | `provenance.misp_galaxy.meta_keys` | Sorted list of meta field names present on the record (audit / reconciliation) |
+| `meta.refs` (and ATT&CK group URLs in `description`) | `references[]` | Each HTTP(S) ref merged additively as `{ url, title, source: MISP Galaxy }` when not already present |
+| ATT&CK group URL or `meta` intrusion-set style fields | `mitre_id`, `external_id`, `mitre_url`, `external_url` | When the actor has no `mitre_id` yet, `G####` is inferred from `refs`, description links, or `mitre-attack-intrusion-set`-style meta keys |
 
 When multiple clusters are imported together, the importer deduplicates by normalized actor name and merges additive fields such as aliases, sectors, victims, malware names, references, and provenance cluster membership.
 

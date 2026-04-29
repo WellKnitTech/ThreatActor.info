@@ -377,9 +377,6 @@ class MispGalaxyImporter
     # Extract incident type (motivation)
     incident_type = meta['cfr-type-of-incident']
 
-    # Extract malware from description by matching MITRE malware/rat names
-    malware_list = extract_malware_from_description(misp['description'])
-
     # Clean up refs - truncate long PDF URLs
     refs = []
     (meta['refs'] || []).each do |ref_url|
@@ -417,6 +414,9 @@ class MispGalaxyImporter
     # Build malware list from description
     malware_list = extract_malware_from_description(misp['description'])
 
+    meta_keys = meta.keys.map(&:to_s).uniq.sort
+    inferred_gid = infer_mitre_group_id(meta, refs, misp['description'])
+
     # Build URL slug
     url = "/#{name.downcase.gsub(/[^a-z0-9]/, '-').squeeze('-').gsub(/^-|-$/, '')}"
 
@@ -438,8 +438,76 @@ class MispGalaxyImporter
       source_cluster: cluster_name,
       source_clusters: [cluster_name],
       source_dataset_url: source_url,
-      source_record_ids: [misp['uuid']].compact
+      source_record_ids: [misp['uuid']].compact,
+      meta_keys: meta_keys,
+      inferred_mitre_group_id: inferred_gid
     }
+  end
+
+  # Discover ATT&CK enterprise group ID from Galaxy URLs / meta / description text.
+  def infer_mitre_group_id(meta, refs_array, description = nil)
+    scan_urls = Array(refs_array) + Array(meta['refs'])
+    scan_urls.each do |u|
+      next unless u.to_s =~ %r{\Ahttps?://}i
+
+      m = u.to_s.match(%r{attack\.mitre\.org/groups/(G\d{4})\b}i)
+      return m[1].upcase if m
+    end
+
+    %w[mitre-attack-intrusion-set mitre_attack_intrusion_set mitre_intrusion_set].each do |key|
+      v = meta[key]
+      next if v.nil?
+
+      m = v.to_s.match(/\b(G\d{4})\b/)
+      return m[1].upcase if m
+    end
+
+    if description
+      m = description.to_s.match(%r{attack\.mitre\.org/groups/(G\d{4})\b}i)
+      return m[1].upcase if m
+    end
+
+    nil
+  end
+
+  def merge_refs_into_references!(actor, refs)
+    urls = Array(refs).map(&:to_s).map(&:strip).reject(&:empty?)
+    return if urls.empty?
+
+    actor['references'] ||= []
+    existing_urls = actor['references'].each_with_object(Set.new) do |entry, seen|
+      case entry
+      when Hash
+        seen << entry['url'].to_s.strip
+      else
+        seen << entry.to_s.strip
+      end
+    end
+
+    urls.each do |u|
+      next if existing_urls.include?(u)
+
+      actor['references'] << {
+        'url' => u,
+        'title' => 'MISP Galaxy reference',
+        'source' => SOURCE_NAME
+      }
+      existing_urls << u
+    end
+  end
+
+  def apply_inferred_mitre!(actor, gid)
+    gid = gid.to_s.strip.upcase
+    return if gid.empty? || !gid.match?(/\AG\d{4}\z/)
+
+    current = actor['mitre_id'].to_s.strip.upcase
+    return if current.match?(/\AG\d{4}\z/)
+
+    actor['mitre_id'] = gid
+    actor['external_id'] = gid
+    url = "https://attack.mitre.org/groups/#{gid}"
+    actor['mitre_url'] ||= url
+    actor['external_url'] ||= url
   end
 
   def build_existing_indexes(existing_actors)
@@ -511,6 +579,8 @@ class MispGalaxyImporter
     base[:source_record_ids] = merge_string_arrays(base[:source_record_ids], extra[:source_record_ids])
     base[:source_cluster] ||= extra[:source_cluster]
     base[:source_dataset_url] ||= extra[:source_dataset_url]
+    base[:meta_keys] = merge_string_arrays(base[:meta_keys], extra[:meta_keys])
+    base[:inferred_mitre_group_id] ||= extra[:inferred_mitre_group_id]
     base
   end
 
@@ -711,9 +781,13 @@ class MispGalaxyImporter
         'source_record_ids' => candidate[:source_record_ids],
         'source_dataset_url' => candidate[:source_dataset_url],
         'source_cluster' => candidate[:source_cluster],
-        'source_clusters' => candidate[:source_clusters]
+        'source_clusters' => candidate[:source_clusters],
+        'meta_keys' => candidate[:meta_keys] || []
       }
     }
+
+    merge_refs_into_references!(actor_entry, candidate[:refs])
+    apply_inferred_mitre!(actor_entry, candidate[:inferred_mitre_group_id])
 
     existing_actors << actor_entry
 
@@ -782,7 +856,8 @@ class MispGalaxyImporter
         'source_record_ids' => candidate[:source_record_ids],
         'source_dataset_url' => candidate[:source_dataset_url],
         'source_cluster' => candidate[:source_cluster],
-        'source_clusters' => candidate[:source_clusters]
+        'source_clusters' => candidate[:source_clusters],
+        'meta_keys' => candidate[:meta_keys] || []
       }
       # Clear placeholder flags on forced update
       actor['provenance'].delete('placeholder_description')
@@ -791,6 +866,9 @@ class MispGalaxyImporter
 
       puts "Updated (forced): #{candidate[:name]}"
     end
+
+    merge_refs_into_references!(actor, candidate[:refs])
+    apply_inferred_mitre!(actor, candidate[:inferred_mitre_group_id])
 
     # Optionally update page file (skip for now to preserve manual content)
   end
@@ -881,6 +959,7 @@ YAML
     provenance['source_clusters'] = merge_string_arrays(provenance['source_clusters'], candidate[:source_clusters])
     provenance['source_record_ids'] = merge_string_arrays(provenance['source_record_ids'], candidate[:source_record_ids])
     provenance['source_record_id'] ||= candidate[:misp_uuid]
+    provenance['meta_keys'] = merge_string_arrays(provenance['meta_keys'], candidate[:meta_keys])
   end
 
   def selected_clusters
