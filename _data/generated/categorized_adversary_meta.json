@@ -4,5 +4,7 @@
   "source_json_url": "https://raw.githubusercontent.com/tropChaud/Categorized-Adversary-TTPs/main/Categorized_Adversary_TTPs.json",
   "license": "MIT",
   "upstream_license_url": "https://github.com/tropChaud/Categorized-Adversary-TTPs/blob/main/LICENSE",
-  "group_count": 124
+  "group_count": 124,
+  "pivot_eligible_group_count": 113,
+  "project_mitre_group_count": 171
 }
