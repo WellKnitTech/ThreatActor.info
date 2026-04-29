@@ -218,20 +218,26 @@ class ThreatActorIndexGenerator
       mitigations: mitigation_documents.length
     }
 
-    actors_by_technique = build_actors_by_technique(actor_documents)
-    actors_by_tactic = build_actors_by_tactic(actor_documents, technique_tactics_map)
-    software_by_actor = build_software_by_actor(actor_documents)
-
-    ioc_lookup = build_ioc_lookup(ioc_documents)
-    ioc_type_manifest = build_ioc_type_manifest(ioc_documents)
-    ioc_summary = build_ioc_summary(ioc_documents, ioc_type_manifest)
-
     cat_integration = CategorizedAdversaryTtps.integrate(actor_documents)
     write_json('categorized_adversary_by_group.json', cat_integration[:by_group])
     write_json('categorized_pivot_by_industry.json', cat_integration[:pivot_by_industry])
     write_json('categorized_pivot_by_motivation.json', cat_integration[:pivot_by_motivation])
     write_json('categorized_pivot_by_victim_country.json', cat_integration[:pivot_by_victim_country])
     write_json('categorized_adversary_meta.json', cat_integration[:meta])
+
+    categorized_groups = cat_integration[:by_group] || {}
+    allowed_technique_ids = technique_documents.each_with_object(Set.new) do |t, acc|
+      mid = t[:mitre_id].to_s.upcase.strip
+      acc << mid if mid.match?(/\AT\d{4}/)
+    end
+
+    actors_by_technique = build_actors_by_technique(actor_documents, categorized_groups, allowed_technique_ids)
+    actors_by_tactic = build_actors_by_tactic(actor_documents, technique_tactics_map, categorized_groups, allowed_technique_ids)
+    software_by_actor = build_software_by_actor(actor_documents)
+
+    ioc_lookup = build_ioc_lookup(ioc_documents)
+    ioc_type_manifest = build_ioc_type_manifest(ioc_documents)
+    ioc_summary = build_ioc_summary(ioc_documents, ioc_type_manifest)
 
     write_json('threat_actors.json', actor_documents)
     write_json('recently_updated.json', build_recently_updated(actor_documents))
@@ -1404,10 +1410,10 @@ class ThreatActorIndexGenerator
     docs
   end
 
-  def build_actors_by_technique(actor_documents)
+  def build_actors_by_technique(actor_documents, categorized_by_group = nil, allowed_technique_ids = nil)
     out = Hash.new { |h, k| h[k] = [] }
     actor_documents.each do |ad|
-      actor_technique_ids_for_index(ad).each do |tid|
+      actor_technique_ids_for_index(ad, categorized_by_group, allowed_technique_ids).each do |tid|
         out[tid] << {
           name: ad[:name],
           permalink: ad[:permalink],
@@ -1420,12 +1426,13 @@ class ThreatActorIndexGenerator
     out
   end
 
-  def build_actors_by_tactic(actor_documents, technique_to_tactics)
+  def build_actors_by_tactic(actor_documents, technique_to_tactics, categorized_by_group = nil,
+                             allowed_technique_ids = nil)
     technique_to_tactics ||= {}
     out = Hash.new { |h, k| h[k] = [] }
 
     actor_documents.each do |ad|
-      actor_technique_ids_for_index(ad).each do |tid|
+      actor_technique_ids_for_index(ad, categorized_by_group, allowed_technique_ids).each do |tid|
         (technique_to_tactics[tid] || []).each do |entry|
           taup = if entry.is_a?(Hash)
                    (entry['tactic_id'] || entry[:tactic_id]).to_s.upcase
@@ -1447,7 +1454,15 @@ class ThreatActorIndexGenerator
     out.sort.to_h
   end
 
-  def actor_technique_ids_for_index(ad)
+  def mitre_group_id_for_actor(ad)
+    gid = ad[:mitre_id] || ad[:external_id]
+    gid = gid.to_s.upcase.strip if gid
+    return nil unless gid&.match?(/\AG\d{4}\z/)
+
+    gid
+  end
+
+  def actor_technique_ids_for_index(ad, categorized_by_group = nil, allowed_technique_ids = nil)
     ids = []
 
     Array(ad[:mitre_ttps]).each do |ttp|
@@ -1467,6 +1482,24 @@ class ThreatActorIndexGenerator
 
         tid = (rec[:id] || rec['id']).to_s.upcase
         ids << tid if tid =~ /\AT\d/
+      end
+    end
+
+    if categorized_by_group.is_a?(Hash)
+      gid = mitre_group_id_for_actor(ad)
+      if gid
+        pub = categorized_by_group[gid]
+        ttps = pub && (pub[:mitre_attack_ttps] || pub['mitre_attack_ttps'])
+        Array(ttps).each do |raw|
+          tid = CategorizedAdversaryTtps.normalize_technique_id(raw)
+          next unless tid&.match?(/\AT\d/)
+          # Only link to technique pages that exist in this site collection (omit deprecated/unimported IDs).
+          if allowed_technique_ids.is_a?(Set) && !allowed_technique_ids.empty? && !allowed_technique_ids.include?(tid)
+            next
+          end
+
+          ids << tid
+        end
       end
     end
 
