@@ -300,6 +300,88 @@ def campaign_lines_from_provenance(actor)
   lines.uniq
 end
 
+# Named operations/campaign labels merged into YAML from upstream intel (see ActorStore FIELD_ORDER).
+def campaign_lines_from_operations(actor)
+  ops = actor['operations']
+  return [] unless ops.is_a?(Array)
+
+  ops.filter_map do |o|
+    label = o.to_s.strip
+    next if label.empty?
+
+    "- **#{label}**"
+  end
+end
+
+def categorized_adversary_by_group_index
+  @categorized_adversary_by_group_index ||= begin
+    path = File.join(__dir__, '..', '_data', 'generated', 'categorized_adversary_by_group.json')
+    return {} unless File.exist?(path)
+
+    JSON.parse(File.read(path))
+  rescue StandardError
+    {}
+  end
+end
+
+def techniques_by_mitre_id
+  @techniques_by_mitre_id ||= begin
+    path = File.join(__dir__, '..', '_data', 'generated', 'techniques.json')
+    return {} unless File.exist?(path)
+
+    JSON.parse(File.read(path)).each_with_object({}) do |t, h|
+      mid = t['mitre_id'].to_s.upcase
+      h[mid] = t if !mid.empty?
+    end
+  rescue StandardError
+    {}
+  end
+end
+
+def mitre_attack_technique_browser_url(tid)
+  raw = tid.to_s.strip.upcase
+  return '' if raw.empty? || !raw.match?(/\AT\d{4}/)
+
+  parts = raw.split('.')
+  base = parts.shift
+  return "https://attack.mitre.org/techniques/#{base}/" if parts.empty?
+
+  "https://attack.mitre.org/techniques/#{base}/#{parts.join('/')}/"
+end
+
+# When actor YAML has no `ttps`, use technique IDs from categorized_adversary_by_group (MITRE x ETDA merge).
+def ttp_lines_from_categorized_dataset(actor)
+  gid = (actor['mitre_id'] || actor['external_id']).to_s.strip.upcase
+  return [] unless gid.match?(/\AG\d+\z/)
+
+  cat = categorized_adversary_by_group_index[gid]
+  return [] unless cat.is_a?(Hash)
+
+  ids = Array(cat['mitre_attack_ttps']).map(&:to_s).map(&:upcase).uniq.sort
+  return [] if ids.empty?
+
+  idx = techniques_by_mitre_id
+  lines = []
+  ids.each do |tid|
+    tech = idx[tid]
+    if tech && !tech['permalink'].to_s.strip.empty?
+      title = tech['title'].to_s.strip
+      label = title.empty? ? tid : "#{tid} #{title}"
+      lines << "- [#{label}](#{tech['permalink']})"
+    elsif tech && !tech['mitre_url'].to_s.strip.empty?
+      lines << "- [#{tid}](#{tech['mitre_url']})"
+    else
+      ext = mitre_attack_technique_browser_url(tid)
+      lines << if ext.empty?
+                 "- **#{tid}**"
+               else
+                 "- [#{tid}](#{ext})"
+               end
+    end
+  end
+  lines
+end
+
 def actor_has_cisa_kev_entries?(actor)
   Array(actor['cisa_kev_cves']).any? { |e| e && e.to_s.match?(/CVE-\d{4}-\d+/i) }
 end
@@ -400,6 +482,8 @@ def build_body(actor)
     end
   elsif (prov_lines = campaign_lines_from_provenance(actor)).any?
     prov_lines.each { |ln| sections << ln }
+  elsif (op_lines = campaign_lines_from_operations(actor)).any?
+    op_lines.each { |ln| sections << ln }
   else
     sections << "*Information pending cataloguing.*"
   end
@@ -408,7 +492,9 @@ def build_body(actor)
   # TTPs
   sections << "## Tactics, Techniques, and Procedures (TTPs)"
   vulnerability_rows = ransomware_vulnerability_matrix_rows(actor)
+  had_yaml_or_derived_ttps = false
   if actor['ttps'] && actor['ttps'].any?
+    had_yaml_or_derived_ttps = true
     actor['ttps'].each do |ttp|
       # Handle both object format (with keys) and string format (e.g., "T1566 - Phishing")
       if ttp.is_a?(Hash)
@@ -429,12 +515,18 @@ def build_body(actor)
         sections << "- **#{ttp}**"
       end
     end
+  elsif (cat_lines = ttp_lines_from_categorized_dataset(actor)).any?
+    had_yaml_or_derived_ttps = true
+    gid = (actor['mitre_id'] || actor['external_id']).to_s.strip.upcase
+    sections << "*Enterprise ATT&CK techniques below are drawn from the merged [Categorized Adversary TTPs](https://github.com/tropChaud/Categorized-Adversary-TTPs) dataset for MITRE group #{gid} (YAML `ttps` empty).*"
+    sections << ""
+    cat_lines.each { |ln| sections << ln }
   elsif vulnerability_rows.empty?
     sections << "*Information pending cataloguing.*"
   end
 
   if vulnerability_rows.any?
-    sections << "" if actor['ttps'] && actor['ttps'].any?
+    sections << "" if had_yaml_or_derived_ttps
     sections << "### Ransomware Vulnerability Matrix observations"
     sections << ""
     sections << "| Category | Vendor | Product | CVEs |"
@@ -464,6 +556,9 @@ def build_body(actor)
   if iocs_empty
     if actor_has_cisa_kev_entries?(actor)
       sections << "*No separately curated network indicators or file hashes are listed for this actor. Known exploited vulnerabilities appear in the **CISA Known Exploited Vulnerabilities (KEV)** section below.*"
+    elsif actor.dig('provenance', 'aptnotes', 'report_count').to_i.positive?
+      n = actor.dig('provenance', 'aptnotes', 'report_count')
+      sections << "*No atomic indicators are listed in this profile. The APTnotes snapshot indexes #{n} public reports that may contain IOCs; see Source Attribution for dataset links.*"
     else
       sections << "*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*"
     end
