@@ -24,6 +24,10 @@ class JsonSchemaValidator
     _data/generated/mitigations.json
     _data/generated/campaigns_mitre.json
   ].freeze
+  YAML_OBJECT_PAYLOADS = %w[
+    _data/generated/mitre_citation_links.yml
+  ].freeze
+
   OBJECT_PAYLOADS = %w[
     _data/generated/facets.json
     _data/generated/ioc_lookup.json
@@ -36,7 +40,6 @@ class JsonSchemaValidator
     _data/generated/actors_by_tactic.json
     _data/generated/technique_tactics.json
     _data/generated/attack_version.json
-    _data/generated/mitre_citation_links.json
     _data/generated/categorized_adversary_by_group.json
     _data/generated/categorized_pivot_by_industry.json
     _data/generated/categorized_pivot_by_motivation.json
@@ -75,6 +78,7 @@ class JsonSchemaValidator
 
     ARRAY_PAYLOADS.each { |path| validate_json_file(array_schema, path) }
     OBJECT_PAYLOADS.each { |path| validate_json_file(object_schema, path) }
+    YAML_OBJECT_PAYLOADS.each { |path| validate_yaml_object_file(object_schema, path) }
     ioc_shard_schema = load_schema(IOC_SHARD_SCHEMA_PATH)
     Dir.glob('_data/generated/iocs_by_type/*.json').sort.each { |path| validate_json_file(ioc_shard_schema, path) }
   end
@@ -84,6 +88,15 @@ class JsonSchemaValidator
     validate_payload(schema, path, payload)
   rescue StandardError => e
     add_error(path, "Unable to validate JSON: #{e.message}")
+  end
+
+  def validate_yaml_object_file(schema, path)
+    return unless File.exist?(path)
+
+    payload = YAML.safe_load(File.read(path), permitted_classes: [], aliases: false)
+    validate_payload(schema, path, payload)
+  rescue StandardError => e
+    add_error(path, "Unable to validate YAML data: #{e.message}")
   end
 
   def validate_payload(schema, path, payload)

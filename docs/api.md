@@ -276,7 +276,7 @@ Populated by `scripts/generate-indexes.rb` via `scripts/mitre/version_resolver.r
 
 ### `/api/mitre-citation-links.json`
 
-Single object mapping **normalized citation labels** (lowercased, trimmed) to source URLs drawn from MITRE STIX **`external_references`** across intrusion sets, techniques, software, campaigns, mitigations, and tactics—excluding the primary `mitre-attack` row when other refs carry `url`. Built during `scripts/generate-indexes.rb` together with citation link rewriting in actor YAML and MITRE Markdown collections.
+Single object mapping **normalized citation labels** (lowercased, trimmed) to source URLs drawn from MITRE STIX **`external_references`** across intrusion sets, techniques, software, campaigns, mitigations, and tactics—excluding the primary `mitre-attack` row when other refs carry `url`. Built during `scripts/generate-indexes.rb` together with citation link rewriting in actor YAML and MITRE Markdown collections. Stored as YAML under `_data/generated/mitre_citation_links.yml` so GitHub Pages (Jekyll 3.x) can load the map reliably.
 
 ### `/api/techniques.json`
 

@@ -120,7 +120,7 @@ class ContentValidator
     '_data/generated/actors_by_tactic.json',
     '_data/generated/technique_tactics.json',
     '_data/generated/attack_version.json',
-    '_data/generated/mitre_citation_links.json',
+    '_data/generated/mitre_citation_links.yml',
     '_data/generated/categorized_adversary_by_group.json',
     '_data/generated/categorized_pivot_by_industry.json',
     '_data/generated/categorized_pivot_by_motivation.json',
@@ -150,12 +150,15 @@ class ContentValidator
     '_data/generated/actors_by_tactic.json',
     '_data/generated/technique_tactics.json',
     '_data/generated/attack_version.json',
-    '_data/generated/mitre_citation_links.json',
     '_data/generated/categorized_adversary_by_group.json',
     '_data/generated/categorized_pivot_by_industry.json',
     '_data/generated/categorized_pivot_by_motivation.json',
     '_data/generated/categorized_pivot_by_victim_country.json',
     '_data/generated/categorized_adversary_meta.json'
+  ].freeze
+  # Loaded by Jekyll as YAML (not JSON) so GitHub Pages can parse large citation maps.
+  GENERATED_YAML_DATA_FILES = [
+    '_data/generated/mitre_citation_links.yml'
   ].freeze
   GENERATED_API_WRAPPERS = {
     'api/threat-actors.json' => 'site.data.generated.threat_actors',
@@ -219,6 +222,7 @@ class ContentValidator
     validate_urls
     validate_source_attribution
     validate_generated_json
+    validate_generated_yaml_data_files
     validate_api_wrapper_bindings
     validate_cited_technique_pages
     validate_ioc_shards
@@ -699,6 +703,24 @@ class ContentValidator
     end
   end
 
+  def validate_generated_yaml_data_files
+    puts 'Validating generated YAML data artifacts...'
+
+    GENERATED_YAML_DATA_FILES.each do |file|
+      unless File.exist?(file)
+        add_error(file, 'Generated YAML data artifact missing')
+        next
+      end
+
+      payload = YAML.safe_load(File.read(file), permitted_classes: [], aliases: false)
+      validate_generated_payload_shape(file, payload)
+    rescue Psych::SyntaxError => e
+      add_error(file, "Generated YAML is not parseable: #{e.message}")
+    rescue StandardError => e
+      add_error(file, "Unable to read generated YAML: #{e.message}")
+    end
+  end
+
   def validate_generated_payload_shape(file, payload)
     case File.basename(file)
     when 'threat_actors.json', 'recently_updated.json', 'iocs.json', 'campaigns.json', 'malware.json',
@@ -725,11 +747,11 @@ class ContentValidator
           add_error(file, 'attack_version.json active_version must be non-empty (run scripts/generate-indexes.rb with MITRE bundles available)')
         end
       end
-    when 'mitre_citation_links.json'
-      add_error(file, 'mitre_citation_links.json root must be an object') unless payload.is_a?(Hash)
+    when 'mitre_citation_links.yml'
+      add_error(file, 'mitre_citation_links.yml root must be an object') unless payload.is_a?(Hash)
       if payload.is_a?(Hash)
         payload.each do |k, v|
-          add_error(file, "mitre_citation_links.json value for #{k.inspect} must be a string URL") unless v.is_a?(String)
+          add_error(file, "mitre_citation_links.yml value for #{k.inspect} must be a string URL") unless v.is_a?(String)
         end
       end
     when 'categorized_adversary_meta.json'

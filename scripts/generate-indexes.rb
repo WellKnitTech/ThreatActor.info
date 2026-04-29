@@ -159,7 +159,7 @@ class ThreatActorIndexGenerator
     mitre_resolver = resolve_mitre_resolver_for_indexes
     technique_tactics_map = mitre_resolver ? build_technique_tactics_map(mitre_resolver) : {}
     @citation_url_map = mitre_resolver ? MitreCitationLinks.build_citation_url_map(mitre_resolver.objects) : {}
-    write_json('mitre_citation_links.json', MitreCitationLinks.citation_map_to_json_object(@citation_url_map))
+    write_yaml_data('mitre_citation_links.yml', MitreCitationLinks.citation_map_to_json_object(@citation_url_map))
     apply_citation_links_to_actor_yaml
 
     @actors.each do |actor|
@@ -2036,6 +2036,14 @@ BODY
     path = File.join(OUTPUT_DIR, filename)
     FileUtils.mkdir_p(File.dirname(path))
     File.write(path, JSON.pretty_generate(payload) + "\n")
+  end
+
+  # YAML works reliably as Jekyll `_data` on GitHub Pages (Jekyll 3.x / SafeYAML); large JSON
+  # citation maps can fail Psych when mis-read as YAML.
+  def write_yaml_data(filename, hash_obj)
+    path = File.join(OUTPUT_DIR, filename)
+    FileUtils.mkdir_p(File.dirname(path))
+    File.write(path, YAML.dump(hash_obj))
   end
 
   def write_api_json(filename, payload)
