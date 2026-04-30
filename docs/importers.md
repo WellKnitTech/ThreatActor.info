@@ -25,6 +25,7 @@ Reviewed name and rename handling lives in `data/imports/ransomlook/mapping_over
 - Run public, machine-consumable source imports through `ruby scripts/import-automated-sources.rb`; analyst notes are intentionally excluded from this runner.
 - Regenerate pages with `ruby scripts/generate-pages.rb --force` after source updates.
 - Regenerate APIs with `ruby scripts/generate-indexes.rb` in the same run.
+- For enrichment sources that include description text (for example ETDA/ThaiCERT and Google Cloud APT Groups), imports append an attributed `### Source: <name>` subsection instead of replacing curated lead descriptions.
 - Prefer **structured IOCs** under **`iocs:`** in `_data/actors/*.yml` (plus legacy top-level IOC lists where applicable); [`scripts/ioc_yaml_reader.rb`](../scripts/ioc_yaml_reader.rb) merges them for **`generate-indexes.rb`** and **`generate-pages.rb`** so `/api/iocs.json` and actor **`ioc_count`** stay aligned with YAML without duplicating Markdown-only pipelines.
 - Use `ruby scripts/evaluate-source-deltas.rb` to enforce update thresholds before publishing large changes.
 - See `docs/data-flows.md` for the source-of-truth map and the analyst-note supersession policy.
@@ -63,6 +64,21 @@ Example commands:
 ```bash
 ruby scripts/import-aptmap.rb fetch --output data/imports/aptmap/$(date -I)
 ruby scripts/import-aptmap.rb plan --snapshot data/imports/aptmap/2026-04-30 --report-json tmp/aptmap-report.json
+```
+
+## Google Cloud APT Groups importer
+
+`scripts/import-google-cloud-apt-groups.rb` adds the Google Cloud Security Insights APT index as a lightweight alias/provenance crosswalk source.
+
+- `fetch` snapshots the source page and writes normalized rows to `data/imports/google-cloud-apt-groups/<YYYY-MM-DD>/`.
+- `plan` reports how many rows match existing actors.
+- `import` applies alias additions, merges source descriptions into actor YAML `description` as a Markdown subheading block (`### Source: Google Cloud APT Groups`) when not already present, and records `provenance.google_cloud_apt_groups` on matched actors.
+
+Example commands:
+
+```bash
+ruby scripts/import-google-cloud-apt-groups.rb fetch --output data/imports/google-cloud-apt-groups/$(date -I)
+ruby scripts/import-google-cloud-apt-groups.rb plan --snapshot data/imports/google-cloud-apt-groups/2026-04-30 --report-json tmp/google-cloud-apt-groups-report.json
 ```
 
 
@@ -893,6 +909,14 @@ The importer preserves source attribution using the pattern:
 
 `Alias and operation cross-reference data were reviewed from the public APT Groups & Operations spreadsheet (https://apt.threattracking.com/). The spreadsheet is used here as a secondary research aid and crosswalk, not as a sole authoritative source.`
 
+## Rapid7 InsightIDR ABA Detections Importer
+
+`scripts/import-rapid7-aba-detections.rb` snapshots Rapid7's ABA detection catalog and uses it as a secondary cross-reference source for actor coverage.
+
+- `fetch` stores `aba-detections.html`, normalized detection rows, and `manifest.yml` under `data/imports/rapid7-aba-detections/<YYYY-MM-DD>/`.
+- `plan` maps detection titles/descriptions against known actor names/aliases and reports candidate actor matches.
+- `import` appends detection links to actor `references` and writes `provenance.rapid7_aba_detections` metadata for matched actors.
+
 Imported provenance fields include:
 - `provenance.apt_groups_operations.source_retrieved_at`
 - `provenance.apt_groups_operations.source_dataset_url`
@@ -982,6 +1006,8 @@ Imported provenance fields include:
 ## ETDA / ThaiCERT Threat Group Cards Importer
 
 `scripts/import-etda-thaicert.rb` adds ETDA/ThaiCERT Threat Group Cards as a reviewed threat-group enrichment source.
+
+- `fetch` attempts all configured ETDA inputs (`getcard.cgi?g=all&o=j`, `getcard.cgi?t=all&o=j`, `getmisp.cgi?o=g`, `aptgroups.cgi`, then mirror fallback) and merges overlapping records so aliases/descriptions/metadata from each feed are consolidated in one snapshot.
 
 Source: https://apt.etda.or.th/
 
