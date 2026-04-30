@@ -107,13 +107,18 @@ body {
   padding: 0 clamp(1rem, 4vw, 2rem);
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   gap: 0.75rem 1.25rem;
 }
 
 .header-brand-nav {
-  flex: 1 1 min(100%, 12rem);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1rem;
+  flex: 1 1 auto;
   min-width: 0;
 }
 
@@ -123,12 +128,15 @@ body {
   gap: 0.75rem;
   flex-wrap: wrap;
   min-width: 0;
-  margin-bottom: 0.5rem;
+  flex-shrink: 0;
 }
 
 .site-logo-link {
   flex-shrink: 0;
   line-height: 0;
+  background: transparent;
+  border: 0;
+  text-decoration: none;
 }
 
 .site-logo-link:focus-visible {
@@ -149,6 +157,8 @@ body {
 .site-nav {
   margin: 0;
   padding: 0;
+  flex: 0 1 auto;
+  min-width: 0;
 }
 
 .site-nav ul {
@@ -158,6 +168,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 0.35rem 1rem;
+  justify-content: flex-end;
 }
 
 .site-nav ul li {
@@ -217,8 +228,18 @@ footer {
     align-self: flex-end;
   }
 
-  .site-brand {
-    margin-bottom: 0.35rem;
+  .header-brand-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-nav {
+    width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .site-nav ul {
+    justify-content: flex-start;
   }
 
   .hero {
