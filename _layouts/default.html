@@ -17,23 +17,34 @@
   </script>
 </head>
 <body>
-  <header>
-    <h1>{{ site.title }}</h1>
-    <nav>
-      <ul>
-        <li><a href="{{ site.baseurl }}/">Home</a></li>
-        <li><a href="{{ site.baseurl }}/threat-actors">Threat Actors</a></li>
-        <li><a href="{{ site.baseurl }}/malware">Malware</a></li>
-        <li><a href="{{ site.baseurl }}/ttps">ATT&amp;CK</a></li>
-        <li><a href="{{ site.baseurl }}/categorized-adversary-ttps/">Pivots</a></li>
-        <li><a href="{{ site.baseurl }}/iocs">IOCs</a></li>
-        <li><a href="{{ site.baseurl }}/attribution">Sources</a></li>
-      </ul>
-    </nav>
-    <div class="header-controls">
-      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">
-        <span class="toggle-icon">☀️</span>
-      </button>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-brand-nav">
+        <div class="site-brand">
+          {% if site.logo %}
+          <a class="site-logo-link" href="{{ '/' | relative_url }}">
+            <img class="site-logo" src="{{ site.logo | relative_url }}" alt="{{ site.title | escape }}">
+          </a>
+          {% endif %}
+          <h1 class="site-title">{{ site.title }}</h1>
+        </div>
+        <nav class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="{{ site.baseurl }}/">Home</a></li>
+            <li><a href="{{ site.baseurl }}/threat-actors">Threat Actors</a></li>
+            <li><a href="{{ site.baseurl }}/malware">Malware</a></li>
+            <li><a href="{{ site.baseurl }}/ttps">ATT&amp;CK</a></li>
+            <li><a href="{{ site.baseurl }}/categorized-adversary-ttps/">Pivots</a></li>
+            <li><a href="{{ site.baseurl }}/iocs">IOCs</a></li>
+            <li><a href="{{ site.baseurl }}/attribution">Sources</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-controls">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">
+          <span class="toggle-icon">☀️</span>
+        </button>
+      </div>
     </div>
   </header>
   <main>
