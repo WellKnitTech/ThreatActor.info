@@ -4,18 +4,25 @@ This project publishes a static JSON API for threat actor metadata and extracted
 
 ## Design
 
-- Static files only; no runtime backend is required.
+- Static files only; no runtime backend is required (read-only GET for consumers).
 - Generated artifacts live in `_data/generated/`.
-- Public API files are served from `api/`.
+- Public API files are served from `api/` (Liquid wrappers that `jsonify` `_data/generated/*`, plus raw JSON under `api/iocs/` for IOC shards).
 - Queries are exact-match or client-side filtered against static indexes.
 
-## Generation
+## URL naming (kebab-case and legacy aliases)
+
+- **Preferred** public paths use **kebab-case** (for example `/api/actors-by-tactic.json`, `/api/malware-index.json`).
+- **Legacy** underscore paths remain valid for the same payloads (for example `/api/actors_by_tactic.json`, `/api/malware_index.json`). New site JS uses the kebab URLs.
+
+## Generation and freshness
 
 Rebuild API artifacts after content changes:
 
 ```bash
 ruby scripts/generate-indexes.rb
 ```
+
+The full validation pipeline **`bash scripts/validate.sh`** and **GitHub Actions** (`.github/workflows/validate.yml`, `.github/workflows/pages.yml`) run **`ruby scripts/generate-indexes.rb` before `jekyll build`**, so published `_site/api/` stays aligned with regenerated `_data/generated/*`. If you edit actors or pages locally without running the generator, JSON under `_data/generated/` and `/api/` can be stale until you regenerate.
 
 ## Endpoints
 
@@ -118,6 +125,14 @@ Fields include:
 - `is_software`
 - `source_section`
 - `source_file`
+
+### `/api/malware-index.json` (legacy: `/api/malware_index.json`)
+
+Object with key `malware`: array of summary rows for each malware family page (`name`, `slug`, `url`, `category`, `actor_count`). Used by the malware index and actor-page malware autolinking.
+
+### `/api/malware-actor-lookup.json`
+
+Object keyed by **malware display name** (`name` from malware rows). Each value is an array of **actor URL slugs** (path segments without slashes) observed using that malware—sorted, deduplicated. Regenerated with malware pages in `scripts/generate-indexes.rb`. Useful for reverse lookups without scanning `/api/malware.json`.
 
 ### `/api/attack-mappings.json`
 
@@ -255,12 +270,27 @@ const shard = await fetch(manifest.ip_address.path).then((response) => response.
 const group = shard.groups.find((g) => g.key === '192.168');
 ```
 
+### `/api/iocs/by-actor/<slug>.json`
+
+Actor-scoped IOC shard (raw JSON written by `scripts/generate-indexes.rb`, mirrored under `_data/generated/iocs_by_actor/<slug>.json`). `<slug>` matches `actor_slug` on IOC rows (same as threat actor URL path without slashes, for example `apt28`).
+
+Top-level object:
+
+| Field | Type | Description |
+| ----- | ---- | ----------- |
+| `actor_slug` | string | Actor slug |
+| `actor_name` | string | Display name |
+| `count` | integer | Number of IOC rows for this actor |
+| `records` | array | Same row shape as `/api/iocs.json` (includes non-atomic rows; filter by `atomic` client-side if needed) |
+
+Threat actor pages load this endpoint instead of downloading the full `/api/iocs.json` payload.
+
 ## Query Model
 
 - Exact IOC lookup: fetch `/api/ioc-lookup.json` and index by normalized lookup keys (includes atomic IOCs).
 - Type-specific browsing: open `/iocs/` or fetch `/api/ioc-types.json`, then `/api/iocs/by-type/<type>.json`. Prefer `groups` for grouped navigation.
 - Deep-link from hub search: `/iocs/ip-address/?value=<canonical>` (URL-encoded) expands the matching group and highlights the row.
-- Actor-specific IOC filtering: use `facets.actor` or filter `records` / group `records` by `actor_slug`.
+- Actor-specific IOCs: fetch `/api/iocs/by-actor/<slug>.json` (preferred), or use `facets.actor` / filter `records` by `actor_slug` on type shards or the full `/api/iocs.json` array.
 
 ### `/api/attack-version.json`
 
@@ -296,23 +326,29 @@ The `/ttps/` matrix orders its tactic columns using this array (filtered client-
 
 Array of MITRE mitigation summaries from `_mitigations/*.md`.
 
-### `/api/campaigns_mitre.json`
+### `/api/campaigns-mitre.json` (legacy: `/api/campaigns_mitre.json`)
 
 Array of MITRE campaign summaries from `_campaigns/*.md` (distinct from `/api/campaigns.json`, which is extracted from actor page **Notable Campaigns** sections).
 
-### `/api/actors_by_technique.json`
+### `/api/actors-by-technique.json` (legacy: `/api/actors_by_technique.json`)
 
-Object keyed by technique ID (for example `T1059`) listing actors that reference that technique — parsed from actor YAML `ttps` strings, structured `ttps` entries where present, and technique IDs extracted from page **TTPs** / Atomic mappings (`attack_mappings`). When a snapshot of [tropChaud/Categorized-Adversary-TTPs](https://github.com/tropChaud/Categorized-Adversary-TTPs) is present under `data/imports/categorized-adversary-ttps/`, technique IDs from that merged MITRE group–technique list are also included for actors whose `mitre_id` or `external_id` matches a MITRE group ID (`G####`) in the snapshot (see `scripts/categorized_adversary_ttps.rb` and attribution on `/attribution/`). Those extra IDs are limited to technique IDs that exist as pages in `_techniques/` for this site so links stay valid.
+Object keyed by technique ID (for example `T1059`). Each value is an **array of objects** with:
 
-### `/api/actors_by_tactic.json`
+- `name` — actor display name  
+- `permalink` — actor permalink path  
+- `url` — actor site URL path  
 
-Object keyed by tactic ID (for example `TA0007`) listing actors whose cited techniques map to that tactic (same actor→technique union as `/api/actors_by_technique.json`, including categorized snapshot techniques when applicable). Entries may be actor names (legacy) or objects with `name` and `domain` when domain-specific bucketing is available. Requires `technique_tactics` mappings from `scripts/generate-indexes.rb` (cached MITRE bundles or importer snapshot).
+Parsed from actor YAML `ttps` strings, structured `ttps` entries where present, and technique IDs extracted from page **TTPs** / Atomic mappings (`attack_mappings`). When a snapshot of [tropChaud/Categorized-Adversary-TTPs](https://github.com/tropChaud/Categorized-Adversary-TTPs) is present under `data/imports/categorized-adversary-ttps/`, technique IDs from that merged MITRE group–technique list are also included for actors whose `mitre_id` or `external_id` matches a MITRE group ID (`G####`) in the snapshot (see `scripts/categorized_adversary_ttps.rb` and attribution on `/attribution/`). Those extra IDs are limited to technique IDs that exist as pages in `_techniques/` for this site so links stay valid.
+
+### `/api/actors-by-tactic.json` (legacy: `/api/actors_by_tactic.json`)
+
+Object keyed by tactic ID (for example `TA0007`). Each value is an **array of objects** with `name`, `permalink`, and `url` (same shape as `/api/actors-by-technique.json` values). Built from the same actor→technique union as `/api/actors-by-technique.json`, expanded via `technique_tactics` / MITRE kill-chain mappings (cached bundles or importer snapshot).
 
 ### `/api/technique-tactics.json`
 
 Object keyed by technique ID; each value is an array of mappings from MITRE STIX `kill_chain_phases`. Each element is either a tactic ID string (`TA####`, legacy Enterprise-only) or an object `{ "tactic_id": "TA####", "domain": "enterprise|mobile|ics" }`. Populated when MITRE bundles are available for the corresponding domains (see `data/mitre-cache/` and `scripts/mitre/version_resolver.rb`).
 
-### `/api/software_by_actor.json`
+### `/api/software-by-actor.json` (legacy: `/api/software_by_actor.json`)
 
 Object keyed by actor name listing MITRE `software` entries from actor YAML.
 
@@ -320,23 +356,23 @@ Object keyed by actor name listing MITRE `software` entries from actor YAML.
 
 Composite search payload with `actors`, `techniques`, and `campaigns` arrays for the site search UI.
 
-### `/api/categorized_adversary_meta.json`
+### `/api/categorized-adversary-meta.json` (legacy: `/api/categorized_adversary_meta.json`)
 
 Single object describing the vendored **Categorized Adversary TTPs** snapshot: retrieval date, upstream repository URL, license (`MIT`), and `group_count` (groups in the upstream JSON merge). Also includes `pivot_eligible_group_count` (snapshot groups that intersect project actors by `G####`) and `project_mitre_group_count` (how many threat actors declare a `mitre_id` / `external_id` matching `G####`).
 
-### `/api/categorized_adversary_by_group.json`
+### `/api/categorized-adversary-by-group.json` (legacy: `/api/categorized_adversary_by_group.json`)
 
 Object keyed by MITRE group ID (`G####`). Each value includes `mitre_attack_name`, `mitre_url`, `mitre_attack_ttps`, `technique_count`, ETDA fields (`etda_name`, `etda_url`, …), and pivot arrays (`motivation`, `victim_industries`, `victim_countries`). Covers the full upstream merge (not filtered to project actors).
 
-### `/api/categorized_pivot_by_industry.json`
+### `/api/categorized-pivot-by-industry.json` (legacy: `/api/categorized_pivot_by_industry.json`)
 
 Object keyed by victim **industry** label. Each value is an object mapping technique ID strings to occurrence counts: only MITRE groups present in the merged snapshot **and** matching a project actor `G####` contribute (used by `/categorized-adversary-ttps/`).
 
-### `/api/categorized_pivot_by_motivation.json`
+### `/api/categorized-pivot-by-motivation.json` (legacy: `/api/categorized_pivot_by_motivation.json`)
 
 Object keyed by **motivation** category (for example information theft vs financial crime). Values are technique ID → count maps (same project–group intersection as industry pivots).
 
-### `/api/categorized_pivot_by_victim_country.json`
+### `/api/categorized-pivot-by-victim-country.json` (legacy: `/api/categorized_pivot_by_victim_country.json`)
 
 Object keyed by **victim country** name. Values are technique ID → count maps (same project–group intersection).
 

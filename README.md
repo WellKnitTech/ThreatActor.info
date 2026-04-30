@@ -139,7 +139,7 @@ The site publishes static JSON under `api/`. Main endpoints include:
 - `api/recently-updated.json`
 - `api/campaigns.json`
 - `api/malware.json`
-- `api/malware_index.json`
+- `api/malware-index.json` (legacy: `api/malware_index.json`)
 - `api/attack-mappings.json`
 - `api/references.json`
 - `api/iocs.json`

@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% assign actor_key = page.url | remove: '/' | replace: '/', '_' %}
+{% assign actor_page_slug = page.url | remove: '/' %}
 {% assign current_actor = site.data.actors[actor_key] %}
 
 {% assign profile_title = current_actor.name | default: page.title %}
@@ -197,6 +198,7 @@ layout: default
         <button type="button" id="copy-actor-iocs" class="ioc-copy-all">Copy All</button>
       </div>
       <p class="section-subtitle">Click an indicator to copy it.</p>
+      <p id="actor-ioc-api-error" class="api-load-error" hidden role="alert"></p>
       <div class="actor-ioc-blocks" id="actor-ioc-blocks"></div>
     </section>
 
@@ -210,8 +212,11 @@ layout: default
         });
         if (!malwareHeading) return;
 
-        fetch('{{ "/api/malware_index.json" | relative_url }}')
-          .then(function (response) { return response.json(); })
+        fetch('{{ "/api/malware-index.json" | relative_url }}')
+          .then(function (response) {
+            if (!response.ok) throw new Error('Malware index HTTP ' + response.status);
+            return response.json();
+          })
           .then(function (data) {
             var malwareLinks = {};
             (data.malware || []).forEach(function (malware) {
@@ -239,6 +244,9 @@ layout: default
               }
               node = node.nextElementSibling;
             }
+          })
+          .catch(function () {
+            /* Non-critical: malware names stay as plain text */
           });
 
         function slugify(value) {
@@ -246,18 +254,23 @@ layout: default
         }
       }());
 
+      {% if actor_row and actor_row.ioc_count > 0 %}
       (function () {
         var panel = document.getElementById('actor-ioc-panel');
         var blocks = document.getElementById('actor-ioc-blocks');
         var copyAll = document.getElementById('copy-actor-iocs');
-        var actorSlug = '{{ page.url | remove_first: "/" | remove: "/" }}';
+        var actorSlug = '{{ actor_page_slug }}';
+        var iocActorUrl = '{{ "/api/iocs/by-actor/" | append: actor_page_slug | append: ".json" | relative_url }}';
         if (!panel || !blocks || !actorSlug) return;
 
-        fetch('{{ "/api/iocs.json" | relative_url }}')
-          .then(function (response) { return response.json(); })
-          .then(function (iocs) {
-            var actorIocs = (iocs || []).filter(function (ioc) {
-              return ioc.actor_slug === actorSlug && ioc.atomic !== false;
+        fetch(iocActorUrl)
+          .then(function (response) {
+            if (!response.ok) throw new Error('IOC shard HTTP ' + response.status);
+            return response.json();
+          })
+          .then(function (payload) {
+            var actorIocs = (payload && payload.records ? payload.records : []).filter(function (ioc) {
+              return ioc.atomic !== false;
             });
             if (actorIocs.length === 0) return;
 
@@ -280,6 +293,13 @@ layout: default
                 return ioc.normalized_value || ioc.value;
               }).join('\n'), copyAll);
             });
+          })
+          .catch(function (err) {
+            var errEl = document.getElementById('actor-ioc-api-error');
+            if (errEl) {
+              errEl.hidden = false;
+              errEl.textContent = 'Could not load IOC data for this actor. (' + (err && err.message ? err.message : 'error') + ')';
+            }
           });
 
         function copyValue(value, target) {
@@ -297,6 +317,7 @@ layout: default
           return escapeHtml(value).replace(/'/g, '&#39;');
         }
       }());
+      {% endif %}
     </script>
 
     {% if profile_analyst_notes %}

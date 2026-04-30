@@ -44,6 +44,7 @@ check_file "scripts/validate-content.rb"
 check_file "scripts/validate-json-schemas.rb"
 
 echo "Running page and index generators..."
+echo "(Indexes are regenerated here so _data/generated/ and api/ stay aligned before validation and build.)"
 ruby scripts/generate-pages.rb --force
 ruby scripts/generate-indexes.rb
 
