@@ -171,6 +171,14 @@ SOURCES = [
     report_name: 'mitre-attack-report.json',
     fetch_args: %w[],
     fetch_limit: false
+  ),
+  Source.new(
+    key: 'rapid7-aba-detections',
+    label: 'Rapid7 ABA Detections',
+    script: 'scripts/import-rapid7-aba-detections.rb',
+    snapshot_root: 'data/imports/rapid7-aba-detections',
+    report_name: 'rapid7-aba-detections-report.json',
+    fetch_limit: false
   )
 ].freeze
 

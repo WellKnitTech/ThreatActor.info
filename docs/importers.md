@@ -909,6 +909,14 @@ The importer preserves source attribution using the pattern:
 
 `Alias and operation cross-reference data were reviewed from the public APT Groups & Operations spreadsheet (https://apt.threattracking.com/). The spreadsheet is used here as a secondary research aid and crosswalk, not as a sole authoritative source.`
 
+## Rapid7 InsightIDR ABA Detections Importer
+
+`scripts/import-rapid7-aba-detections.rb` snapshots Rapid7's ABA detection catalog and uses it as a secondary cross-reference source for actor coverage.
+
+- `fetch` stores `aba-detections.html`, normalized detection rows, and `manifest.yml` under `data/imports/rapid7-aba-detections/<YYYY-MM-DD>/`.
+- `plan` maps detection titles/descriptions against known actor names/aliases and reports candidate actor matches.
+- `import` appends detection links to actor `references` and writes `provenance.rapid7_aba_detections` metadata for matched actors.
+
 Imported provenance fields include:
 - `provenance.apt_groups_operations.source_retrieved_at`
 - `provenance.apt_groups_operations.source_dataset_url`
