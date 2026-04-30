@@ -124,6 +124,14 @@ SOURCES = [
     fetch_limit: false
   ),
   Source.new(
+    key: 'reddrip7-apt-digital-weapon',
+    label: 'RedDrip7 APT_Digital_Weapon',
+    script: 'scripts/import-reddrip7-apt-digital-weapon.rb',
+    snapshot_root: 'data/imports/reddrip7-apt-digital-weapon',
+    report_name: 'reddrip7-apt-digital-weapon-report.json',
+    fetch_limit: false
+  ),
+  Source.new(
     key: 'aptmap',
     label: 'APTmap',
     script: 'scripts/import-aptmap.rb',

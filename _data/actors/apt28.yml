@@ -112,6 +112,13 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0007"
     source_retrieved_at: "2026-04-26T07:05:44Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "APT28"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/APT28/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/APT28/APT28_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-04-30T00:00:00Z"
   russian_apt_tool_matrix:
     references:
       - title: "media.defense.gov"
