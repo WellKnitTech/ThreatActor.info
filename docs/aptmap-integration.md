@@ -1,10 +1,6 @@
-# APTmap integration plan (automated source)
+# APTmap integration status (automated source)
 
-## Recommendation
-
-The best fit is to integrate **APTmap** as a new snapshot-based importer wired into the existing automated importer pipeline (`fetch -> plan -> import`) rather than reading it at Jekyll build time.
-
-This keeps behavior consistent with current source automation, avoids introducing build-time network dependency, and preserves analyst review checkpoints.
+APTmap is integrated as a snapshot-based importer in the automated source pipeline (`fetch -> plan -> import`) rather than at Jekyll build time.
 
 ## Why this is the best approach in this repo
 
@@ -12,15 +8,14 @@ This keeps behavior consistent with current source automation, avoids introducin
 - `scripts/import-automated-sources.rb` already orchestrates fetch/plan/import runs and optional regeneration/validation.
 - CI already has workflows for scheduled imports plus validation, so APTmap can be slotted into a known path.
 
-## Proposed architecture
+## Current implementation
 
-1. **New importer script:** `scripts/import-aptmap.rb`
+1. **Importer script:** `scripts/import-aptmap.rb`
    - Commands: `fetch`, `plan`, `import` (same interface used by existing importers).
    - Snapshot output: `data/imports/aptmap/<YYYY-MM-DD>/`.
-   - Fetch should capture:
+   - `fetch` captures:
      - `apt.json` (group metadata)
      - `apt_rel.json` (relationship graph)
-     - optional versioned snapshot files if present (for reproducibility)
      - a local `manifest.yml` with retrieval date, source URLs, and hash/checksum per file.
 
 2. **Mapping/normalization layer**
@@ -49,7 +44,7 @@ This keeps behavior consistent with current source automation, avoids introducin
    - Add/confirm attribution copy in `/attribution/` and importer docs.
 
 5. **Automated runner integration**
-   - Add a `Source.new` entry for `aptmap` in `scripts/import-automated-sources.rb`:
+   - `scripts/import-automated-sources.rb` includes a `Source.new` entry for `aptmap`:
      - `key: 'aptmap'`
      - `script: 'scripts/import-aptmap.rb'`
      - `snapshot_root: 'data/imports/aptmap'`
@@ -69,13 +64,10 @@ This keeps behavior consistent with current source automation, avoids introducin
   - Low/no auto-write: highly interpretive narrative content.
 - **Hard fail conditions:** malformed JSON, missing required keys, duplicate generated URLs.
 
-## Minimal rollout plan
+## Operational notes
 
-1. Implement `fetch` only + snapshot manifest and checksums.
-2. Implement `plan` report and validate on several snapshots.
-3. Implement constrained `import` for new actors only.
-4. Enable updates to existing actors behind explicit flag after confidence review.
-5. Add to automated source schedule.
+- `import` currently performs the same planning pass as `plan` (no actor file writes yet), which keeps APTmap safe to run on schedule while matching quality is reviewed.
+- `--report-json` now creates parent directories automatically, so paths like `tmp/aptmap-report.json` work without pre-creating `tmp/`.
 
 ## Acceptance criteria
 
@@ -86,6 +78,12 @@ This keeps behavior consistent with current source automation, avoids introducin
   - `bundle exec jekyll build --safe` passes.
 - Automated runner can execute APTmap alongside existing sources without custom workflow branching.
 
-## Notes
+## Verification snapshot
 
-During this assessment run, direct unauthenticated access to GitHub-hosted APTmap JSON endpoints was blocked in this environment (HTTP 403 / tunnel restrictions), so this recommendation is intentionally based on repository integration patterns and visible APTmap file inventory (`apt.json`, `apt_rel.json`, dated JSON snapshots) rather than a full schema reverse-engineering pass.
+The importer was verified against a live snapshot at `data/imports/aptmap/2026-04-30` using:
+
+```bash
+ruby scripts/import-aptmap.rb fetch --output data/imports/aptmap/2026-04-30
+ruby scripts/import-aptmap.rb plan --snapshot data/imports/aptmap/2026-04-30 --report-json tmp/aptmap-report.json
+ruby scripts/import-aptmap.rb import --snapshot data/imports/aptmap/2026-04-30 --report-json tmp/aptmap-import-report.json
+```

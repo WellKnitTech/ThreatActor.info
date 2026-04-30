@@ -115,7 +115,7 @@ class AptmapImporter
   def plan_or_import
     apt_path = File.join(@options[:snapshot], APT_FILE)
     rel_path = File.join(@options[:snapshot], REL_FILE)
-    apt_rows = JSON.parse(File.read(apt_path))
+    apt_rows = normalize_apt_rows(JSON.parse(File.read(apt_path)))
     rel_rows = File.exist?(rel_path) ? JSON.parse(File.read(rel_path)) : []
 
     apt_rows = apt_rows.first(@options[:limit]) if @options[:limit]
@@ -149,9 +149,15 @@ class AptmapImporter
       'candidates' => candidates
     }
 
-    File.write(@options[:report_json], JSON.pretty_generate(report) + "\n") if @options[:report_json]
+    write_report_json(report) if @options[:report_json]
     puts "APTmap plan: #{report['matched']} matched, #{report['new_candidates']} new candidates"
     puts 'Import mode currently produces planning output only; no actor files are modified yet.' if @options[:write]
+  end
+
+  def write_report_json(report)
+    report_path = @options[:report_json]
+    FileUtils.mkdir_p(File.dirname(report_path))
+    File.write(report_path, JSON.pretty_generate(report) + "\n")
   end
 
   def normalize_row(row)
@@ -160,11 +166,18 @@ class AptmapImporter
     name = first_present(row, %w[name Name actor actor_name group])
     return nil if name.to_s.strip.empty?
 
-    aliases = first_present(row, %w[aliases alias aka AKA])
+    aliases = first_present(row, %w[aliases alias aka AKA other-names other_names])
     aliases = aliases.split(',').map(&:strip) if aliases.is_a?(String)
     aliases = Array(aliases).map(&:to_s).map(&:strip).reject(&:empty?).uniq
 
     { name: name.strip, aliases: aliases }
+  end
+
+  def normalize_apt_rows(payload)
+    return payload if payload.is_a?(Array)
+    return payload.fetch('features', []).map { |feature| feature['properties'] } if payload.is_a?(Hash) && payload['features'].is_a?(Array)
+
+    []
   end
 
   def first_present(hash, keys)
