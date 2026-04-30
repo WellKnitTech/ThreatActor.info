@@ -125,6 +125,26 @@ ruby scripts/import-wiz-cloud-threat-landscape.rb fetch --output data/imports/wi
 ruby scripts/import-wiz-cloud-threat-landscape.rb plan --snapshot data/imports/wiz-cloud-threat-landscape/2026-04-30 --report-json tmp/wiz-cloud-threat-landscape-report.json
 ```
 
+
+## Unit 42 Threat Actor Groups importer
+
+`scripts/import-unit42-threat-actor-groups.rb` adds the Palo Alto Networks Unit 42 actor-group index as a secondary alias/provenance enrichment source.
+
+Source page (scraped snapshot):
+- https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
+
+Workflow:
+- `fetch` downloads the source page HTML and stores parsed actor rows under `data/imports/unit42-threat-actor-groups/<YYYY-MM-DD>/` (`page.html`, `actors.json`, `manifest.yml`).
+- `plan` matches parsed names/aliases to existing actors and reports candidate updates.
+- `import` enriches matched actors only by merging aliases and writing `provenance.unit42_threat_actor_groups` metadata.
+
+Example commands:
+
+```bash
+ruby scripts/import-unit42-threat-actor-groups.rb fetch --output data/imports/unit42-threat-actor-groups/$(date -I)
+ruby scripts/import-unit42-threat-actor-groups.rb plan --snapshot data/imports/unit42-threat-actor-groups/2026-04-30 --report-json tmp/unit42-threat-actor-groups-report.json
+```
+
 ## MITRE ATT&CK STIX Importer
 
 `scripts/import-mitre.rb` imports [MITRE ATT&CK](https://attack.mitre.org) STIX 2.1 bundles from [mitre-attack/attack-stix-data](https://github.com/mitre-attack/attack-stix-data).

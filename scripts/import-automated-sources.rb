@@ -195,6 +195,14 @@ SOURCES = [
     snapshot_root: 'data/imports/sophos-threat-profiles',
     report_name: 'sophos-threat-profiles-report.json',
     fetch_limit: false
+  ),
+  Source.new(
+    key: 'unit42-threat-actor-groups',
+    label: 'Unit 42 Threat Actor Groups',
+    script: 'scripts/import-unit42-threat-actor-groups.rb',
+    snapshot_root: 'data/imports/unit42-threat-actor-groups',
+    report_name: 'unit42-threat-actor-groups-report.json',
+    fetch_limit: false
   )
 ].freeze
 
