@@ -20,6 +20,9 @@ class EtdaThaicertImporter
   DEFAULT_OVERRIDES_FILE = 'data/imports/etda-thaicert/mapping_overrides.yml'.freeze
   SOURCE_NAME = 'ETDA / ThaiCERT Threat Group Cards'.freeze
   SOURCE_URL = 'https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g'.freeze
+  SOURCE_CARDS_JSON_URL = 'https://apt.etda.or.th/cgi-bin/getcard.cgi?g=all&o=j'.freeze
+  SOURCE_TOOLS_JSON_URL = 'https://apt.etda.or.th/cgi-bin/getcard.cgi?t=all&o=j'.freeze
+  SOURCE_GROUPS_URL = 'https://apt.etda.or.th/cgi-bin/aptgroups.cgi'.freeze
   SOURCE_MIRROR_URL = 'https://huggingface.co/datasets/threatactor-info/etda-thaicert-threat-groups/raw/main/groups.json'.freeze
   SOURCE_REPOSITORY = 'https://apt.etda.or.th/'.freeze
   MANUAL_SOURCE_NAMES = ['Manual Entry', 'Analyst Notes'].freeze
@@ -41,6 +44,9 @@ class EtdaThaicertImporter
     @command = @argv.shift
     @options = {
       source_url: SOURCE_URL,
+      source_cards_json_url: SOURCE_CARDS_JSON_URL,
+      source_tools_json_url: SOURCE_TOOLS_JSON_URL,
+      source_groups_url: SOURCE_GROUPS_URL,
       mirror_url: SOURCE_MIRROR_URL,
       output: nil,
       snapshot: nil,
@@ -102,6 +108,9 @@ class EtdaThaicertImporter
     parser = OptionParser.new do |opts|
       opts.banner = 'Usage: ruby scripts/import-etda-thaicert.rb fetch [options]'
       opts.on('--source-url URL', 'Primary ETDA dataset URL') { |value| @options[:source_url] = value }
+      opts.on('--source-cards-json-url URL', 'ETDA full card JSON URL') { |value| @options[:source_cards_json_url] = value }
+      opts.on('--source-tools-json-url URL', 'ETDA full tooling JSON URL') { |value| @options[:source_tools_json_url] = value }
+      opts.on('--source-groups-url URL', 'ETDA aptgroups HTML URL') { |value| @options[:source_groups_url] = value }
       opts.on('--mirror-url URL', 'Mirror dataset URL (fallback)') { |value| @options[:mirror_url] = value }
       opts.on('--output DIR', 'Snapshot output directory') { |value| @options[:output] = value }
       opts.on('--limit N', Integer, 'Fetch only the first N records after normalization') { |value| @options[:limit] = value }
@@ -131,8 +140,10 @@ class EtdaThaicertImporter
 
   def fetch_snapshot
     FileUtils.mkdir_p(@options[:output])
-    payload, used_url = fetch_source_payload
-    records = normalize_source_payload(payload)
+    payloads, used_urls = fetch_source_payloads
+    group_payloads, tool_payloads = payloads.partition { |entry| entry[:source_url] != @options[:source_tools_json_url] }
+    records = merge_normalized_records(group_payloads.flat_map { |entry| normalize_source_payload(entry[:payload]) })
+    records = merge_tool_observations(records, tool_payloads.flat_map { |entry| extract_tool_records(entry[:payload]) })
     records = records.first(@options[:limit]) if @options[:limit]
 
     groups_path = File.join(@options[:output], 'groups.json')
@@ -142,7 +153,7 @@ class EtdaThaicertImporter
     File.write(manifest_path, YAML.dump({
                                          'source_name' => SOURCE_NAME,
                                          'source_repository' => SOURCE_REPOSITORY,
-                                         'source_url' => used_url,
+                                         'source_url' => used_urls,
                                          'retrieved_at' => Time.now.utc.iso8601,
                                          'record_count' => records.length,
                                          'source_checksum_sha256' => Digest::SHA256.hexdigest(JSON.generate(records)),
@@ -152,16 +163,20 @@ class EtdaThaicertImporter
     puts "Fetched #{records.length} ETDA/ThaiCERT records into #{@options[:output]}"
   end
 
-  def fetch_source_payload
-    [@options[:source_url], @options[:mirror_url]].uniq.each do |url|
+  def fetch_source_payloads
+    sources = [@options[:source_cards_json_url], @options[:source_tools_json_url], @options[:source_url], @options[:source_groups_url], @options[:mirror_url]].uniq
+    payloads = []
+    sources.each do |url|
       next if sanitize_text(url).empty?
 
       payload = http_get(url)
-      return [payload, url]
+      payloads << { payload: payload, source_url: url }
     rescue StandardError => e
       warn "Fetch failed for #{url}: #{e.message}"
     end
-    raise 'Failed to fetch ETDA dataset from source and mirror.'
+    raise 'Failed to fetch ETDA dataset from source(s) and mirror.' if payloads.empty?
+
+    [payloads, payloads.map { |entry| entry[:source_url] }]
   end
 
   def import_snapshot
@@ -320,7 +335,8 @@ class EtdaThaicertImporter
     end
 
     if @options[:force]
-      updates['description'] = record[:description] if !record[:description].to_s.empty? && record[:description] != existing_actor['description']
+      merged_description = merge_description_with_source(existing_actor['description'], record[:description], SOURCE_NAME, record[:source_record_url])
+      updates['description'] = merged_description if !merged_description.nil? && merged_description != existing_actor['description']
       updates['name'] = record[:display_name] if !record[:display_name].to_s.empty? && record[:display_name] != existing_actor['name']
     end
 
@@ -373,6 +389,20 @@ class EtdaThaicertImporter
     return true if current_year.to_s.empty?
 
     candidate_year.to_i > current_year.to_i
+  end
+
+  def merge_description_with_source(current_description, incoming_description, source_label, source_url)
+    incoming = incoming_description.to_s.strip
+    return nil if incoming.empty?
+
+    current = current_description.to_s.strip
+    return incoming if current.empty?
+
+    heading = "### Source: #{source_label}"
+    return nil if current.include?(heading)
+
+    section = [heading, incoming, source_url.to_s.strip.empty? ? SOURCE_URL : source_url.to_s.strip].join("\n")
+    [current, section].join("\n\n")
   end
 
   def build_provenance(record)
@@ -463,7 +493,8 @@ class EtdaThaicertImporter
     updates['source_attribution'] = SOURCE_ATTRIBUTION
 
     # Import fields that were empty in manual entry
-    updates['description'] = record[:description] if !record[:description].to_s.empty? && existing_actor['description'].to_s.empty?
+    merged_description = merge_description_with_source(existing_actor['description'], record[:description], SOURCE_NAME, record[:source_record_url])
+    updates['description'] = merged_description if !merged_description.nil? && merged_description != existing_actor['description']
     updates['country'] = record[:country] if !record[:country].to_s.empty? && existing_actor['country'].to_s.empty?
     updates['name'] = record[:display_name] if !record[:display_name].to_s.empty? && record[:display_name] != existing_actor['name']
 
@@ -595,6 +626,10 @@ class EtdaThaicertImporter
   end
 
   def normalize_source_payload(payload)
+    if payload.is_a?(String) && payload.lstrip.start_with?('<')
+      return normalize_html_groups_payload(payload)
+    end
+
     records = if payload.is_a?(Array)
                 payload
               elsif payload.is_a?(Hash)
@@ -604,6 +639,107 @@ class EtdaThaicertImporter
                 []
               end
     Array(records).filter_map { |record| normalize_record(record) }
+  end
+
+  def normalize_html_groups_payload(html)
+    rows = html.scan(%r{<tr[^>]*>(.*?)</tr>}im).map(&:first)
+    rows.filter_map do |row|
+      cells = row.scan(%r{<t[dh][^>]*>(.*?)</t[dh]>}im).map { |cell| sanitize_text(strip_html(cell.first)) }
+      next if cells.empty?
+      name = cells[0].to_s
+      next if name.empty? || name.casecmp('group').zero?
+      {
+        'name' => name,
+        'description' => cells[2].to_s,
+        'country' => cells[3].to_s,
+        'aliases' => cells[1].to_s.split(/[,;|]/).map(&:strip).reject(&:empty?),
+        'reference' => first_href(row)
+      }
+    end
+  end
+
+  def merge_normalized_records(records)
+    by_key = {}
+    records.each do |record|
+      key = record[:canonical_key]
+      if by_key[key]
+        by_key[key] = merge_record_data(by_key[key], record)
+      else
+        by_key[key] = record
+      end
+    end
+    by_key.values
+  end
+
+  def extract_tool_records(payload)
+    records = if payload.is_a?(Array)
+                payload
+              elsif payload.is_a?(Hash)
+                payload['values'] || payload['data'] || payload['tools'] || payload.values.find { |v| v.is_a?(Array) } || []
+              else
+                []
+              end
+    Array(records).filter_map do |record|
+      next unless record.is_a?(Hash)
+
+      tool_name = sanitize_text(first_non_empty(record['name'], record['tool'], record['title'], record['value']))
+      next if tool_name.empty?
+
+      related = normalize_string_array(first_non_empty(record['groups'], record['actors'], record['threat_groups'], record.dig('meta', 'groups')))
+      related += extract_ids(record, /APT\s?\d{1,3}|G\d{4}/i)
+      { tool_name: tool_name, related_groups: related.uniq }
+    end
+  end
+
+  def merge_tool_observations(records, tool_records)
+    return records if tool_records.empty?
+
+    index = records.each_with_object({}) do |record, memo|
+      memo[record[:canonical_key]] = record
+      memo[normalize_key(record[:display_name])] = record
+      record[:aliases].each { |alias_name| memo[normalize_key(alias_name)] = record }
+    end
+
+    tool_records.each do |tool|
+      tool[:related_groups].each do |group_name|
+        actor = index[normalize_key(group_name)]
+        next unless actor
+
+        actor[:malware] ||= []
+        actor[:malware] << tool[:tool_name] unless actor[:malware].include?(tool[:tool_name])
+      end
+    end
+
+    records
+  end
+
+  def merge_record_data(base, extra)
+    merged = base.dup
+    %i[aliases sector_focus operations malware mitre_group_ids mitre_technique_ids].each do |field|
+      merged[field] = (Array(base[field]) + Array(extra[field])).map { |v| sanitize_text(v) }.reject(&:empty?).uniq.sort
+    end
+    merged[:description] = pick_better_description(base[:description], extra[:description], base[:display_name])
+    merged[:country] = base[:country].to_s.empty? ? extra[:country] : base[:country]
+    merged[:source_record_url] = base[:source_record_url].to_s.empty? ? extra[:source_record_url] : base[:source_record_url]
+    merged
+  end
+
+  def pick_better_description(left, right, display_name)
+    l = sanitize_text(left)
+    r = sanitize_text(right)
+    placeholder = "#{display_name} is tracked in ETDA/ThaiCERT threat group card data."
+    return r if l.empty? || l == placeholder
+    return l if r.empty? || r == placeholder
+    r.length > l.length ? r : l
+  end
+
+  def strip_html(value)
+    value.to_s.gsub(/<[^>]+>/, ' ')
+  end
+
+  def first_href(row_html)
+    href = row_html.to_s[/href=["']([^"']+)["']/i, 1].to_s
+    sanitize_url(href)
   end
 
   def normalize_record(record)
