@@ -320,7 +320,8 @@ class EtdaThaicertImporter
     end
 
     if @options[:force]
-      updates['description'] = record[:description] if !record[:description].to_s.empty? && record[:description] != existing_actor['description']
+      merged_description = merge_description_with_source(existing_actor['description'], record[:description], SOURCE_NAME, record[:source_record_url])
+      updates['description'] = merged_description if !merged_description.nil? && merged_description != existing_actor['description']
       updates['name'] = record[:display_name] if !record[:display_name].to_s.empty? && record[:display_name] != existing_actor['name']
     end
 
@@ -373,6 +374,20 @@ class EtdaThaicertImporter
     return true if current_year.to_s.empty?
 
     candidate_year.to_i > current_year.to_i
+  end
+
+  def merge_description_with_source(current_description, incoming_description, source_label, source_url)
+    incoming = incoming_description.to_s.strip
+    return nil if incoming.empty?
+
+    current = current_description.to_s.strip
+    return incoming if current.empty?
+
+    heading = "### Source: #{source_label}"
+    return nil if current.include?(heading)
+
+    section = [heading, incoming, source_url.to_s.strip.empty? ? SOURCE_URL : source_url.to_s.strip].join("\n")
+    [current, section].join("\n\n")
   end
 
   def build_provenance(record)
@@ -463,7 +478,8 @@ class EtdaThaicertImporter
     updates['source_attribution'] = SOURCE_ATTRIBUTION
 
     # Import fields that were empty in manual entry
-    updates['description'] = record[:description] if !record[:description].to_s.empty? && existing_actor['description'].to_s.empty?
+    merged_description = merge_description_with_source(existing_actor['description'], record[:description], SOURCE_NAME, record[:source_record_url])
+    updates['description'] = merged_description if !merged_description.nil? && merged_description != existing_actor['description']
     updates['country'] = record[:country] if !record[:country].to_s.empty? && existing_actor['country'].to_s.empty?
     updates['name'] = record[:display_name] if !record[:display_name].to_s.empty? && record[:display_name] != existing_actor['name']
 

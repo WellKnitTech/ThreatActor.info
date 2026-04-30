@@ -156,6 +156,14 @@ SOURCES = [
     fetch_limit: true
   ),
   Source.new(
+    key: 'google-cloud-apt-groups',
+    label: 'Google Cloud APT Groups',
+    script: 'scripts/import-google-cloud-apt-groups.rb',
+    snapshot_root: 'data/imports/google-cloud-apt-groups',
+    report_name: 'google-cloud-apt-groups-report.json',
+    fetch_limit: false
+  ),
+  Source.new(
     key: 'mitre-attack',
     label: 'MITRE ATT&CK',
     script: 'scripts/import-mitre.rb',
