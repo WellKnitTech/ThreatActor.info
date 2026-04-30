@@ -30,6 +30,26 @@ Reviewed name and rename handling lives in `data/imports/ransomlook/mapping_over
 - See `docs/data-flows.md` for the source-of-truth map and the analyst-note supersession policy.
 
 
+
+## RedDrip7 APT_Digital_Weapon importer
+
+`scripts/import-reddrip7-apt-digital-weapon.rb` adds RedDrip7 IOC-hash metadata as a **secondary** provenance source for existing actors.
+
+- `fetch` snapshots upstream folder metadata into `data/imports/reddrip7-apt-digital-weapon/<YYYY-MM-DD>/`.
+- `plan` matches actor names/aliases against folder names and reports how many existing actors can be enriched.
+- `import` writes/updates `provenance.reddrip7_apt_digital_weapon` on matched `_data/actors/*.yml` records.
+
+Example commands:
+
+```bash
+ruby scripts/import-reddrip7-apt-digital-weapon.rb fetch --output data/imports/reddrip7-apt-digital-weapon/$(date -I)
+ruby scripts/import-reddrip7-apt-digital-weapon.rb plan --snapshot data/imports/reddrip7-apt-digital-weapon/2026-04-30 --report-json tmp/reddrip7-report.json
+```
+
+Attribution pattern:
+
+`Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use.`
+
 ## APTmap importer
 
 `scripts/import-aptmap.rb` adds APTmap to the automated source pipeline with the same `fetch -> plan -> import` interface used by other importers.
