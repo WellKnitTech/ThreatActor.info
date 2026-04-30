@@ -1656,6 +1656,15 @@ footer {
 }
 
 /* Malware Index Styles */
+.api-load-error {
+  color: var(--text-muted, #c0392b);
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: var(--bg-card);
+}
+
 .malware-index {
   padding: 0;
 }

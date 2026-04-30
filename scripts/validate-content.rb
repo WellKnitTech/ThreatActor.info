@@ -76,6 +76,17 @@ class ContentValidator
     'api/categorized_pivot_by_motivation.json',
     'api/categorized_pivot_by_victim_country.json',
     'api/categorized_adversary_meta.json',
+    'api/actors-by-tactic.json',
+    'api/actors-by-technique.json',
+    'api/malware-index.json',
+    'api/campaigns-mitre.json',
+    'api/software-by-actor.json',
+    'api/categorized-adversary-by-group.json',
+    'api/categorized-pivot-by-industry.json',
+    'api/categorized-pivot-by-motivation.json',
+    'api/categorized-pivot-by-victim-country.json',
+    'api/categorized-adversary-meta.json',
+    'api/malware-actor-lookup.json',
     '_layouts/technique.html',
     '_layouts/tactic.html',
     '_layouts/campaign.html',
@@ -125,7 +136,8 @@ class ContentValidator
     '_data/generated/categorized_pivot_by_industry.json',
     '_data/generated/categorized_pivot_by_motivation.json',
     '_data/generated/categorized_pivot_by_victim_country.json',
-    '_data/generated/categorized_adversary_meta.json'
+    '_data/generated/categorized_adversary_meta.json',
+    '_data/generated/malware_actor_lookup.json'
   ].freeze
   GENERATED_JSON_FILES = [
     '_data/generated/threat_actors.json',
@@ -154,7 +166,8 @@ class ContentValidator
     '_data/generated/categorized_pivot_by_industry.json',
     '_data/generated/categorized_pivot_by_motivation.json',
     '_data/generated/categorized_pivot_by_victim_country.json',
-    '_data/generated/categorized_adversary_meta.json'
+    '_data/generated/categorized_adversary_meta.json',
+    '_data/generated/malware_actor_lookup.json'
   ].freeze
   # Loaded by Jekyll as YAML (not JSON) so GitHub Pages can parse large citation maps.
   GENERATED_YAML_DATA_FILES = [
@@ -188,7 +201,18 @@ class ContentValidator
     'api/categorized_pivot_by_industry.json' => 'site.data.generated.categorized_pivot_by_industry',
     'api/categorized_pivot_by_motivation.json' => 'site.data.generated.categorized_pivot_by_motivation',
     'api/categorized_pivot_by_victim_country.json' => 'site.data.generated.categorized_pivot_by_victim_country',
-    'api/categorized_adversary_meta.json' => 'site.data.generated.categorized_adversary_meta'
+    'api/categorized_adversary_meta.json' => 'site.data.generated.categorized_adversary_meta',
+    'api/actors-by-tactic.json' => 'site.data.generated.actors_by_tactic',
+    'api/actors-by-technique.json' => 'site.data.generated.actors_by_technique',
+    'api/malware-index.json' => 'site.data.generated.malware_index',
+    'api/campaigns-mitre.json' => 'site.data.generated.campaigns_mitre',
+    'api/software-by-actor.json' => 'site.data.generated.software_by_actor',
+    'api/categorized-adversary-by-group.json' => 'site.data.generated.categorized_adversary_by_group',
+    'api/categorized-pivot-by-industry.json' => 'site.data.generated.categorized_pivot_by_industry',
+    'api/categorized-pivot-by-motivation.json' => 'site.data.generated.categorized_pivot_by_motivation',
+    'api/categorized-pivot-by-victim-country.json' => 'site.data.generated.categorized_pivot_by_victim_country',
+    'api/categorized-adversary-meta.json' => 'site.data.generated.categorized_adversary_meta',
+    'api/malware-actor-lookup.json' => 'site.data.generated.malware_actor_lookup'
   }.freeze
   SKIPPED_IOC_HEADINGS = ['Sources'].freeze
   IPV4_PATTERN = /\b(?:\d{1,3}\.){3}\d{1,3}\b/.freeze
@@ -727,9 +751,9 @@ class ContentValidator
          'attack_mappings.json', 'references.json', 'techniques.json', 'tactics.json', 'mitigations.json',
          'campaigns_mitre.json'
       add_error(file, 'Generated JSON root must be an array') unless payload.is_a?(Array)
-    when 'facets.json', 'ioc_lookup.json', 'ioc_types.json', 'malware_index.json', 'actors_by_technique.json',
-         'actors_by_tactic.json', 'technique_tactics.json', 'software_by_actor.json', 'search_index.json',
-         'categorized_adversary_by_group.json', 'categorized_pivot_by_industry.json',
+    when 'facets.json', 'ioc_lookup.json', 'ioc_types.json', 'malware_index.json', 'malware_actor_lookup.json',
+         'actors_by_technique.json', 'actors_by_tactic.json', 'technique_tactics.json', 'software_by_actor.json',
+         'search_index.json', 'categorized_adversary_by_group.json', 'categorized_pivot_by_industry.json',
          'categorized_pivot_by_motivation.json', 'categorized_pivot_by_victim_country.json'
       add_error(file, 'Generated JSON root must be an object') unless payload.is_a?(Hash)
     when 'ioc_summary.json'
@@ -810,6 +834,8 @@ class ContentValidator
 
     validate_json_glob('_data/generated/iocs_by_type/*.json', 'generated IOC type shard')
     validate_json_glob('api/iocs/by-type/*.json', 'API IOC type shard')
+    validate_ioc_actor_shard_glob('_data/generated/iocs_by_actor/*.json', 'generated IOC actor shard')
+    validate_ioc_actor_shard_glob('api/iocs/by-actor/*.json', 'API IOC actor shard')
   end
 
   IOC_TYPES_WITH_DEDICATED_PAGE = %w[
@@ -832,6 +858,26 @@ class ContentValidator
         "IOC type #{type}",
         'Rendered via /iocs/other/?ioc_type=… — add iocs/<slug>.html if this subsection becomes common'
       )
+    end
+  end
+
+  def validate_ioc_actor_shard_glob(pattern, label)
+    files = Dir.glob(pattern).sort
+    if files.empty?
+      add_error(pattern, "Missing #{label} files")
+      return
+    end
+
+    files.each do |file|
+      payload = JSON.parse(File.read(file))
+      unless payload.is_a?(Hash) && payload['actor_slug'].is_a?(String) && !payload['actor_slug'].strip.empty? &&
+             payload['records'].is_a?(Array) && payload['count'].is_a?(Integer)
+        add_error(file, "Invalid #{label} structure (expected actor_slug, count, records)")
+      end
+    rescue JSON::ParserError => e
+      add_error(file, "#{label.capitalize} is not parseable: #{e.message}")
+    rescue StandardError => e
+      add_error(file, "Unable to read #{label}: #{e.message}")
     end
   end
 

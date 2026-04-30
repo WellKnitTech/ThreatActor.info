@@ -33,6 +33,7 @@ jobs:
       run: |
         ruby scripts/generate-pages.rb --force
 
+    # Regenerate _data/generated/* so committed wrappers and api/iocs shards match sources before validate/build.
     - name: Generate JSON indexes
       run: |
         ruby scripts/generate-indexes.rb

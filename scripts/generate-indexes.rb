@@ -25,6 +25,8 @@ class ThreatActorIndexGenerator
   TACTICS_DIR = '_tactics'.freeze
   TYPE_SHARDS_DIR = File.join(OUTPUT_DIR, 'iocs_by_type').freeze
   API_TYPE_SHARDS_DIR = File.join(API_DIR, 'iocs', 'by-type').freeze
+  ACTOR_IOCS_DIR = File.join(OUTPUT_DIR, 'iocs_by_actor').freeze
+  API_ACTOR_IOCS_DIR = File.join(API_DIR, 'iocs', 'by-actor').freeze
   REQUIRED_IOC_HEADING = 'Notable Indicators of Compromise (IOCs)'.freeze
   SKIPPED_IOC_HEADINGS = ['Sources'].freeze
   IPV4_PATTERN = /\b(?:\d{1,3}\.){3}\d{1,3}\b/.freeze
@@ -272,6 +274,7 @@ class ThreatActorIndexGenerator
     write_json('ioc_types.json', ioc_type_manifest)
     write_json('ioc_summary.json', ioc_summary)
     write_ioc_type_shards(ioc_documents)
+    write_ioc_actor_shards(ioc_documents)
     
     # Generate malware pages from extracted data
     write_malware_pages(malware_documents, actor_documents)
@@ -613,6 +616,28 @@ class ThreatActorIndexGenerator
     end
   end
 
+  def write_ioc_actor_shards(iocs)
+    clear_existing_shards(ACTOR_IOCS_DIR)
+    clear_existing_shards(API_ACTOR_IOCS_DIR)
+
+    iocs.group_by { |ioc| ioc[:actor_slug].to_s.strip }.each do |slug, actor_iocs|
+      next if slug.empty?
+
+      sorted = actor_iocs.sort_by do |ioc|
+        [ioc[:normalized_value].to_s.downcase, ioc[:type].to_s]
+      end
+      payload = {
+        actor_slug: slug,
+        actor_name: sorted.first[:actor_name],
+        count: sorted.length,
+        records: sorted
+      }
+
+      write_json(File.join('iocs_by_actor', "#{slug}.json"), payload)
+      write_api_json(File.join('iocs', 'by-actor', "#{slug}.json"), payload)
+    end
+  end
+
   def ioc_type_metadata(type)
     IOC_TYPE_DISPLAY[type] || default_ioc_type_metadata(type)
   end
@@ -922,7 +947,15 @@ class ThreatActorIndexGenerator
       end
     }
     File.write(File.join(OUTPUT_DIR, 'malware_index.json'), JSON.pretty_generate(index_content))
-    
+
+    malware_actor_lookup = malware_by_slug.each_with_object({}) do |(slug, group), lookup|
+      entries = group[:entries]
+      actor_list = build_malware_actor_list(entries, actor_lookup)
+      actor_slugs = actor_list.map { |a| a['url'].to_s.gsub(%r{\A/|/\z}, '') }.uniq.sort
+      lookup[group[:name]] = actor_slugs
+    end
+    File.write(File.join(OUTPUT_DIR, 'malware_actor_lookup.json'), JSON.pretty_generate(malware_actor_lookup) + "\n")
+
     puts "Generated #{malware_by_slug.length} malware pages in #{MALWARE_DIR}"
   end
 

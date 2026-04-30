@@ -33,6 +33,7 @@ class JsonSchemaValidator
     _data/generated/ioc_lookup.json
     _data/generated/ioc_types.json
     _data/generated/malware_index.json
+    _data/generated/malware_actor_lookup.json
     _data/generated/actors_by_technique.json
     _data/generated/software_by_actor.json
     _data/generated/search_index.json

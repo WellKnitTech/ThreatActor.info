@@ -18,8 +18,8 @@ This reflects the current repository, CI workflow, and validation scripts.
 - `_layouts/default.html`, `_layouts/threat_actor.html`: templates.
 - `_includes/search.html`: search/filter UI and client-side parser.
 - `iocs/index.html` and `iocs/<type>.html`: IOC hub and per-type browsers; shared UI in `_layouts/ioc_type.html` and `_includes/ioc-browser.html`.
-- `ttps.html`: ATT&CK matrix at `/ttps/` with Enterprise / Mobile / ICS switcher (client-built from `/api/tactics.json`, `/api/techniques.json`, `/api/technique-tactics.json`, `/api/attack-version.json`, `/api/actors_by_technique.json`, `/api/actors_by_tactic.json`). Legacy `/attack-tactics/` redirects here.
-- `categorized-adversary-ttps.html`: pivot explorer at `/categorized-adversary-ttps/` using `/api/categorized_pivot_by_industry.json`, `/api/categorized_pivot_by_motivation.json`, `/api/categorized_pivot_by_victim_country.json`, `/api/categorized_adversary_meta.json`, and `/api/techniques.json` for technique titles.
+- `ttps.html`: ATT&CK matrix at `/ttps/` with Enterprise / Mobile / ICS switcher (client-built from `/api/tactics.json`, `/api/techniques.json`, `/api/technique-tactics.json`, `/api/attack-version.json`, `/api/actors-by-technique.json`, `/api/actors-by-tactic.json`; legacy underscore URLs remain). Legacy `/attack-tactics/` redirects here.
+- `categorized-adversary-ttps.html`: pivot explorer at `/categorized-adversary-ttps/` using `/api/categorized-pivot-by-industry.json`, `/api/categorized-pivot-by-motivation.json`, `/api/categorized-pivot-by-victim-country.json`, `/api/categorized-adversary-meta.json`, and `/api/techniques.json` for technique titles (legacy underscore URLs remain).
 - `assets/css/style.scss`: main stylesheet.
 - `scripts/validate-content.rb`: main validator.
 - `scripts/import-ransomlook.rb`: manual importer for RansomLook-derived actor metadata.

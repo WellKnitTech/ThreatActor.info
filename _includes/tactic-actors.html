@@ -10,7 +10,7 @@
     return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
 
-  fetch(BASE + '/api/actors_by_tactic.json')
+  fetch(BASE + '/api/actors-by-tactic.json')
     .then(function (r) {
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();
