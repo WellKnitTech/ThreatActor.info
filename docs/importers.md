@@ -45,6 +45,26 @@ ruby scripts/import-aptmap.rb fetch --output data/imports/aptmap/$(date -I)
 ruby scripts/import-aptmap.rb plan --snapshot data/imports/aptmap/2026-04-30 --report-json tmp/aptmap-report.json
 ```
 
+
+## BreachHQ Threat Actors importer
+
+`scripts/import-breach-hq-threat-actors.rb` adds [BreachHQ threat actor listings](https://breach-hq.com/threat-actors) as a snapshot-backed review source.
+
+- `fetch` stores raw HTML + normalized actor rows under `data/imports/breach-hq-threat-actors/<YYYY-MM-DD>/`.
+- `plan` compares BreachHQ names/aliases with existing actors and emits match counts.
+- `import` currently runs the same reviewed matching pass (no actor file writes yet) so the source can be used safely in automated triage.
+
+Example commands:
+
+```bash
+ruby scripts/import-breach-hq-threat-actors.rb fetch --output data/imports/breach-hq-threat-actors/$(date -I)
+ruby scripts/import-breach-hq-threat-actors.rb plan --snapshot data/imports/breach-hq-threat-actors/2026-04-30 --report-json tmp/breach-hq-threat-actors-report.json
+```
+
+Attribution pattern:
+
+`BreachHQ Threat Actors data (https://breach-hq.com/threat-actors) is used as a secondary index for reviewed matching and cross-source triage; linked reports and primary claims remain with the original publishers.`
+
 ## MITRE ATT&CK STIX Importer
 
 `scripts/import-mitre.rb` imports [MITRE ATT&CK](https://attack.mitre.org) STIX 2.1 bundles from [mitre-attack/attack-stix-data](https://github.com/mitre-attack/attack-stix-data).
