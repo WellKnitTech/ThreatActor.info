@@ -179,6 +179,14 @@ SOURCES = [
     snapshot_root: 'data/imports/rapid7-aba-detections',
     report_name: 'rapid7-aba-detections-report.json',
     fetch_limit: false
+  ),
+  Source.new(
+    key: 'sophos-threat-profiles',
+    label: 'Sophos Threat Profiles',
+    script: 'scripts/import-sophos-threat-profiles.rb',
+    snapshot_root: 'data/imports/sophos-threat-profiles',
+    report_name: 'sophos-threat-profiles-report.json',
+    fetch_limit: false
   )
 ].freeze
 

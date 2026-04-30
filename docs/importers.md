@@ -917,6 +917,15 @@ The importer preserves source attribution using the pattern:
 - `plan` maps detection titles/descriptions against known actor names/aliases and reports candidate actor matches.
 - `import` appends detection links to actor `references` and writes `provenance.rapid7_aba_detections` metadata for matched actors.
 
+## Sophos Threat Profiles Importer
+
+`scripts/import-sophos-threat-profiles.rb` snapshots Sophos threat profile data and uses it as a secondary actor cross-reference source.
+
+- `fetch` stores `threat-profiles.html`, normalized profile rows, and `manifest.yml` under `data/imports/sophos-threat-profiles/<YYYY-MM-DD>/`.
+- If a `Download All Data` JSON/CSV link is present, fetch prefers that dataset and normalizes it before snapshot write.
+- `plan`/`import` match existing actors by name/alias, append Sophos profile links to actor `references`, add reviewed aliases, and merge source descriptions as an attributed `### Source: Sophos Threat Profiles` block; provenance is written under `provenance.sophos_threat_profiles`.
+- Because updates land in `_data/actors/*.yml`, normal `generate-pages.rb` runs include this enrichment in generated threat-actor Markdown pages.
+
 Imported provenance fields include:
 - `provenance.apt_groups_operations.source_retrieved_at`
 - `provenance.apt_groups_operations.source_dataset_url`
