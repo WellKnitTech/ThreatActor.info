@@ -21,7 +21,7 @@ class BreachHQThreatActorsImporter
   def initialize(argv)
     @argv = argv.dup
     @command = @argv.shift
-    @options = { output: nil, snapshot: nil, report_json: nil, write: false }
+    @options = { output: nil, snapshot: nil, report_json: nil, write: false, actor_filters: [] }
   end
 
   def run
@@ -52,6 +52,7 @@ class BreachHQThreatActorsImporter
     OptionParser.new do |opts|
       opts.on('--snapshot PATH') { |v| @options[:snapshot] = v }
       opts.on('--report-json PATH') { |v| @options[:report_json] = v }
+      opts.on('--actor NAME') { |v| @options[:actor_filters] << v }
     end.parse!(@argv)
     return if @options[:snapshot]
 
@@ -84,19 +85,100 @@ class BreachHQThreatActorsImporter
   def import_snapshot
     snapshot = @options[:snapshot]
     json_path = File.directory?(snapshot) ? File.join(snapshot, JSON_FILE) : snapshot
+    manifest_path = File.join(File.dirname(json_path), 'manifest.yml')
     payload = JSON.parse(File.read(json_path))
+    manifest = File.exist?(manifest_path) ? YAML.safe_load(File.read(manifest_path), permitted_classes: [Time], aliases: true) : {}
     actors = payload.fetch('actors', [])
     existing = ActorStore.load_all
-    normalized = {}
-    existing.each do |actor|
-      ([actor['name']] + Array(actor['aliases'])).compact.each { |value| normalized[norm(value)] = actor }
+    lookup = build_lookup(existing)
+
+    candidates = actors.filter_map do |row|
+      actor = find_existing_actor(row, lookup)
+      next unless actor
+      next if @options[:actor_filters].any? { |f| norm(actor['name']) != norm(f) && norm(row['name']) != norm(f) }
+
+      build_candidate(actor, row, manifest)
     end
 
-    matches = actors.filter { |row| normalized.key?(norm(row['name'])) || row.fetch('aliases', []).any? { |a| normalized.key?(norm(a)) } }
-    report = { 'source' => SOURCE_NAME, 'snapshot' => snapshot, 'total_records' => actors.length, 'matched_existing_actors' => matches.length, 'note' => 'Importer currently integrates BreachHQ as a reviewed matching source only (no actor writes).' }
-    File.write(@options[:report_json], JSON.pretty_generate(report) + "\n") if @options[:report_json]
+    report = build_report(snapshot, actors.length, candidates)
+    File.write(@options[:report_json], JSON.pretty_generate(report) + "
+") if @options[:report_json]
     puts JSON.pretty_generate(report)
-    puts 'No file writes performed. BreachHQ importer currently runs in review-only mode.' if @options[:write]
+
+    return unless @options[:write]
+
+    apply_candidates(candidates, existing)
+    ActorStore.save_all(existing)
+    puts "Applied BreachHQ enrichment to #{candidates.count { |c| c['changes'].any? }} actors"
+  end
+
+  def build_lookup(existing)
+    lookup = {}
+    existing.each do |actor|
+      ([actor['name']] + Array(actor['aliases'])).compact.each { |value| lookup[norm(value)] = actor }
+    end
+    lookup
+  end
+
+  def find_existing_actor(row, lookup)
+    lookup[norm(row['name'])] || row.fetch('aliases', []).map { |a| lookup[norm(a)] }.compact.first
+  end
+
+  def build_candidate(actor, row, manifest)
+    existing_aliases = Array(actor['aliases']).map(&:to_s)
+    incoming_aliases = row.fetch('aliases', []).map(&:to_s)
+    new_aliases = incoming_aliases.reject { |value| existing_aliases.any? { |existing| norm(existing) == norm(value) } || norm(actor['name']) == norm(value) }
+
+    existing_country = actor['country'].to_s.strip
+    incoming_country = row['country'].to_s.strip
+    country_update = existing_country.empty? && !incoming_country.empty? && incoming_country.downcase != 'unknown' ? incoming_country : nil
+
+    {
+      'actor_name' => actor['name'],
+      'source_name' => row['name'],
+      'changes' => {
+        'new_aliases' => new_aliases,
+        'country_update' => country_update
+      },
+      'provenance' => {
+        'source_name' => SOURCE_NAME,
+        'source_url' => SOURCE_URL,
+        'retrieved_at' => manifest['retrieved_at'],
+        'dataset_slug' => row['slug'],
+        'actor_type' => row['type'],
+        'country' => incoming_country,
+        'source_dataset_url' => row['slug'].to_s.empty? ? SOURCE_URL : "#{SOURCE_URL}/#{row['slug']}"
+      }
+    }
+  end
+
+  def build_report(snapshot, total_records, candidates)
+    {
+      'source' => SOURCE_NAME,
+      'snapshot' => snapshot,
+      'total_records' => total_records,
+      'matched_existing_actors' => candidates.length,
+      'actors_with_alias_updates' => candidates.count { |c| c.dig('changes', 'new_aliases')&.any? },
+      'actors_with_country_updates' => candidates.count { |c| !c.dig('changes', 'country_update').to_s.empty? },
+      'updated_actor_names' => candidates.select { |c| c['changes'].any? { |_k, v| v.respond_to?(:any?) ? v.any? : !v.to_s.empty? } }.map { |c| c['actor_name'] }.uniq.sort
+    }
+  end
+
+  def apply_candidates(candidates, existing)
+    by_name = existing.each_with_object({}) { |actor, memo| memo[norm(actor['name'])] = actor }
+    candidates.each do |candidate|
+      next unless candidate['changes'].any? { |_k, v| v.respond_to?(:any?) ? v.any? : !v.to_s.empty? }
+
+      actor = by_name[norm(candidate['actor_name'])]
+      next unless actor
+
+      actor['aliases'] ||= []
+      actor['aliases'] = (Array(actor['aliases']) + candidate.dig('changes', 'new_aliases')).uniq
+      country_update = candidate.dig('changes', 'country_update')
+      actor['country'] = country_update unless country_update.to_s.empty?
+      actor['provenance'] ||= {}
+      actor['provenance']['breach_hq'] = candidate['provenance']
+    end
   end
 
   def extract_actors(html)
@@ -114,34 +196,6 @@ class BreachHQThreatActorsImporter
       rows << { 'name' => name, 'aliases' => aliases, 'country' => country, 'type' => actor_type.to_s.strip, 'slug' => slug }
     end
     rows.uniq { |row| row['name'].downcase }
-  end
-
-  def read_balanced_json(text, start_idx)
-    depth = 0
-    in_string = false
-    escaped = false
-    i = start_idx
-    while i < text.length
-      ch = text[i]
-      if in_string
-        if escaped
-          escaped = false
-        elsif ch == '\\'
-          escaped = true
-        elsif ch == '"'
-          in_string = false
-        end
-      else
-        in_string = true if ch == '"'
-        depth += 1 if ch == '['
-        if ch == ']'
-          depth -= 1
-          return text[start_idx..i] if depth.zero?
-        end
-      end
-      i += 1
-    end
-    raise 'Unbalanced threatActors JSON array.'
   end
 
   def http_get(uri, limit = 5)

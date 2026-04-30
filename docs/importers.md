@@ -52,7 +52,7 @@ ruby scripts/import-aptmap.rb plan --snapshot data/imports/aptmap/2026-04-30 --r
 
 - `fetch` stores raw HTML + normalized actor rows under `data/imports/breach-hq-threat-actors/<YYYY-MM-DD>/`.
 - `plan` compares BreachHQ names/aliases with existing actors and emits match counts.
-- `import` currently runs the same reviewed matching pass (no actor file writes yet) so the source can be used safely in automated triage.
+- `import` applies conservative enrichment to existing actors only: appends reviewed aliases, fills blank country values when BreachHQ provides one, and records `provenance.breach_hq` metadata.
 
 Example commands:
 
