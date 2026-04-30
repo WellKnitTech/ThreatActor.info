@@ -139,18 +139,11 @@ body {
 
 .site-logo {
   display: block;
-  height: clamp(1.75rem, 6vw, 2.5rem);
+  height: auto;
   width: auto;
-  max-width: 100%;
+  max-height: clamp(2.25rem, 10vw, 3.25rem);
+  max-width: min(100%, 17rem);
   object-fit: contain;
-}
-
-.site-title {
-  margin: 0;
-  padding: 0;
-  font-size: clamp(1.15rem, 4vw, 1.75rem);
-  line-height: 1.2;
-  word-break: break-word;
 }
 
 .site-nav {
