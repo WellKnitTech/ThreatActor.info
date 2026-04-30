@@ -101,6 +101,30 @@ Attribution pattern:
 
 `BreachHQ Threat Actors data (https://breach-hq.com/threat-actors) is used as a secondary index for reviewed matching and cross-source triage; linked reports and primary claims remain with the original publishers.`
 
+
+## Wiz Cloud Threat Landscape STIX importer
+
+`scripts/import-wiz-cloud-threat-landscape.rb` adds Wiz Cloud Threat Landscape as an enrichment source using the STIX feed as the canonical payload.
+
+- Canonical source feed: `https://www.wiz.io/api/feed/cloud-threat-landscape/stix.json`
+- Reference catalog pages covered by the same dataset:
+  - `https://threats.wiz.io/all-actors`
+  - `https://threats.wiz.io/all-techniques`
+  - `https://threats.wiz.io/all-tools`
+
+The importer follows `fetch -> plan -> import`:
+
+- `fetch` stores `stix.json` plus `manifest.yml` checksum metadata in `data/imports/wiz-cloud-threat-landscape/<YYYY-MM-DD>/`.
+- `plan` matches Wiz `intrusion-set` names/aliases to existing actors and reports candidate enrichments.
+- `import` enriches matched actors only by updating aliases and writing `provenance.wiz_cloud_threat_landscape` (record id, modified timestamp, related object refs, and retrieval metadata).
+
+Example commands:
+
+```bash
+ruby scripts/import-wiz-cloud-threat-landscape.rb fetch --output data/imports/wiz-cloud-threat-landscape/$(date -I)
+ruby scripts/import-wiz-cloud-threat-landscape.rb plan --snapshot data/imports/wiz-cloud-threat-landscape/2026-04-30 --report-json tmp/wiz-cloud-threat-landscape-report.json
+```
+
 ## MITRE ATT&CK STIX Importer
 
 `scripts/import-mitre.rb` imports [MITRE ATT&CK](https://attack.mitre.org) STIX 2.1 bundles from [mitre-attack/attack-stix-data](https://github.com/mitre-attack/attack-stix-data).
