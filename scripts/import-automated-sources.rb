@@ -124,11 +124,27 @@ SOURCES = [
     fetch_limit: false
   ),
   Source.new(
+    key: 'bushido-breach-reports',
+    label: 'BushidoToken Breach Reports',
+    script: 'scripts/import-bushido-breach-reports.rb',
+    snapshot_root: 'data/imports/bushido-breach-reports',
+    report_name: 'bushido-breach-reports-report.json',
+    fetch_limit: false
+  ),
+  Source.new(
     key: 'reddrip7-apt-digital-weapon',
     label: 'RedDrip7 APT_Digital_Weapon',
     script: 'scripts/import-reddrip7-apt-digital-weapon.rb',
     snapshot_root: 'data/imports/reddrip7-apt-digital-weapon',
     report_name: 'reddrip7-apt-digital-weapon-report.json',
+    fetch_limit: false
+  ),
+  Source.new(
+    key: 'eternal-liberty',
+    label: 'EternalLiberty',
+    script: 'scripts/import-eternal-liberty.rb',
+    snapshot_root: 'data/imports/eternal-liberty',
+    report_name: 'eternal-liberty-report.json',
     fetch_limit: false
   ),
   Source.new(
@@ -138,6 +154,14 @@ SOURCES = [
     snapshot_root: 'data/imports/aptmap',
     report_name: 'aptmap-report.json',
     fetch_limit: true
+  ),
+  Source.new(
+    key: 'google-cloud-apt-groups',
+    label: 'Google Cloud APT Groups',
+    script: 'scripts/import-google-cloud-apt-groups.rb',
+    snapshot_root: 'data/imports/google-cloud-apt-groups',
+    report_name: 'google-cloud-apt-groups-report.json',
+    fetch_limit: false
   ),
   Source.new(
     key: 'mitre-attack',
