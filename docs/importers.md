@@ -999,6 +999,8 @@ Imported provenance fields include:
 
 `scripts/import-etda-thaicert.rb` adds ETDA/ThaiCERT Threat Group Cards as a reviewed threat-group enrichment source.
 
+- `fetch` attempts all configured ETDA inputs (`getcard.cgi?g=all&o=j`, `getcard.cgi?t=all&o=j`, `getmisp.cgi?o=g`, `aptgroups.cgi`, then mirror fallback) and merges overlapping records so aliases/descriptions/metadata from each feed are consolidated in one snapshot.
+
 Source: https://apt.etda.or.th/
 
 ### Why this importer is conservative
