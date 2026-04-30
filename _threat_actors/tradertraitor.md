@@ -17,7 +17,8 @@ TraderTraitor targets blockchain companies through spear-phishing messages. The 
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- [JumpCloud](https://jumpcloud.com/blog/security-update-incident-details) (July 2023; UNC4899 (DPRK APT))
+- [CircleCI](https://circleci.com/blog/jan-4-2023-incident-report/) (January 2023; Jade Sleet (DPRK APT))
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*

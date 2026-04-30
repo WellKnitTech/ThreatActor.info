@@ -23,7 +23,7 @@ Blue Termite is a group of suspected Chinese origin active in Japan.
 **Suspected Victims**: Japan
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **Blue Termite**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*

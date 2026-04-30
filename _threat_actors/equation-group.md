@@ -23,7 +23,10 @@ The Equation Group is a highly sophisticated threat actor described by its disco
 **Suspected Victims**: Iran, Afghanistan, Syria, Yemen, Kenya, Russia, India, Mali, Algeria, United Kingdom...
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **Socialist**
+- **Olympic Games / Stuxnet**
+- **Project Sauron / Strider**
+- **Triangulation**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*

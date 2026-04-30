@@ -17,7 +17,7 @@ MalKamak is an Iranian threat actor that has been operating since at least 2018.
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **Operation GhostShell**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*

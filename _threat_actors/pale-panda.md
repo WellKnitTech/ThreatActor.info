@@ -18,7 +18,7 @@ PALE PANDA is a threat actor tracked by MISP Galaxy. Additional information pend
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **Agriculture in EU**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*

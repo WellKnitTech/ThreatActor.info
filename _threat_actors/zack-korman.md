@@ -24,7 +24,11 @@ Self-proclaimed ethical hacker who publishes detailed breach guides for profit. 
 **Suspected Victims**: Small Businesses, Nonprofits, Norway (based), United Kingdom
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **Zackware Tutorial Empire**
+- **BreachBro Data Store**
+- **Copilot Research - Microsoft 365 Copilot compromise**
+- **Vercel Skills Campaign - npx supply chain research**
+- **AI Awareness Disruption - Social media amplification**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 - **T1566 - Phishing**

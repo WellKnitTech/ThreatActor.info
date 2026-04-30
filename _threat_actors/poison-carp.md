@@ -17,7 +17,7 @@ Between November 2018 and May 2019, senior members of Tibetan groups received ma
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **Evil Eye**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*

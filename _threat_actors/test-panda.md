@@ -18,7 +18,7 @@ TEST PANDA is a threat actor tracked by MISP Galaxy. Additional information pend
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **menuPass**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*

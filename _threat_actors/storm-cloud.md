@@ -17,7 +17,7 @@ Storm Cloud is a Chinese espionage threat actor known for targeting organization
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **Holy Water**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*

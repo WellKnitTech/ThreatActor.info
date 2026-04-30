@@ -22,7 +22,8 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- [Gloucester Council](https://democracy.gloucester.gov.uk/documents/s59774/Appendix%201%20-%20Executive%20Summary%20of%20NCC%20Group%20Report.pdf) (November 2021; Conti (Ransomware))
+- [Irish HSE](https://www.hse.ie/eng/services/news/media/pressrel/hse-publishes-independent-report-on-conti-cyber-attack.html) (May 2021; Conti (Ransomware))
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations
@@ -44,7 +45,7 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 | Microsoft Products | Windows | Remote Desktop Gateway | CVE-2020-0609 |
 
 ## Notable Indicators of Compromise (IOCs)
-*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+*No separately curated network indicators or file hashes are listed for this actor. Known exploited vulnerabilities appear in the **CISA Known Exploited Vulnerabilities (KEV)** section below.*
 
 ## Malware and Tools
 ### Ransomware Tool Matrix observations
@@ -65,12 +66,6 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 
 ## References
 *References pending cataloguing.*
-
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine](https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html)
-  The Hacker News - 2026-04-24T
 
 ## CISA Known Exploited Vulnerabilities (KEV)
 *The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*

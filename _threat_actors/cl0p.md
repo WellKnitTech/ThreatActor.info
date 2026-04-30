@@ -7,7 +7,7 @@ permalink: /cl0p/
 ---
 
 ## Introduction
-TA505 is a cyber criminal group that has been active since at least 2014. TA505 is known for frequently changing malware, driving global trends in criminal malware distribution, and ransomware campaigns involving Clop.
+TA505 is a cyber criminal group that has been active since at least 2014. TA505 is known for frequently changing malware, driving global trends in criminal malware distribution, and ransomware campaigns involving Clop. [Proofpoint TA505 Sep 2017](https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta505-dridex-globeimposter) [Proofpoint TA505 June 2018](https://www.proofpoint.com/us/threat-insight/post/ta505-shifts-times) [Proofpoint TA505 Jan 2019](https://www.proofpoint.com/us/threat-insight/post/servhelper-and-flawedgrace-new-malware-introduced-ta505) [NCC Group TA505](https://research.nccgroup.com/2020/11/18/ta505-a-brief-history-of-their-time/) [Korean FSI TA505 2020](https://www.fsec.or.kr/user/bbs/fsec/163/344/bbsDataView/1382.do?page=1&column=&search=&searchSDate=&searchEDate=&bbsDataCategory=)
 
 ## Activities and Tactics
 **Targeted Sectors**: Technology, Healthcare, Financial, Government
@@ -103,6 +103,34 @@ Curated Intelligence MOVEit Transfer Tracking tracks 74 public events for the 20
 | 2023-07-19 | Victim | CL0P created a dedicated domain to publish the data they claim they stole from the PwC MOVEit server | [CL0P Data Leak Site](https://github.com/curated-intel/MOVEit-Transfer/blob/main/Images/PwC%20Leak%20Domain.png) |
 
 ## Tactics, Techniques, and Procedures (TTPs)
+*Enterprise ATT&CK techniques below are drawn from the merged [Categorized Adversary TTPs](https://github.com/tropChaud/Categorized-Adversary-TTPs) dataset for MITRE group G0092 (YAML `ttps` empty).*
+
+- [T1027 Obfuscated Files or Information](/techniques/T1027/)
+- [T1027.002 Software Packing](/techniques/T1027.002/)
+- [T1055.001 Dynamic-link Library Injection](/techniques/T1055.001/)
+- [T1059.001 PowerShell](/techniques/T1059.001/)
+- [T1059.003 Windows Command Shell](/techniques/T1059.003/)
+- [T1059.005 Visual Basic](/techniques/T1059.005/)
+- [T1059.007 JavaScript](/techniques/T1059.007/)
+- [T1069 Permission Groups Discovery](/techniques/T1069/)
+- [T1071.001 Web Protocols](/techniques/T1071.001/)
+- [T1078.002 Domain Accounts](/techniques/T1078.002/)
+- [T1087.003 Email Account](/techniques/T1087.003/)
+- [T1105 Ingress Tool Transfer](/techniques/T1105/)
+- [T1204.001 Malicious Link](/techniques/T1204.001/)
+- [T1204.002 Malicious File](/techniques/T1204.002/)
+- [T1218.007 Msiexec](/techniques/T1218.007/)
+- [T1218.011 Rundll32](/techniques/T1218.011/)
+- [T1486 Data Encrypted for Impact](/techniques/T1486/)
+- [T1552.001 Credentials In Files](/techniques/T1552.001/)
+- [T1553.002 Code Signing](/techniques/T1553.002/)
+- [T1553.005 Mark-of-the-Web Bypass](/techniques/T1553.005/)
+- [T1555.003 Credentials from Web Browsers](/techniques/T1555.003/)
+- [T1559.002 Dynamic Data Exchange](/techniques/T1559.002/)
+- [T1566.001 Spearphishing Attachment](/techniques/T1566.001/)
+- [T1566.002 Spearphishing Link](/techniques/T1566.002/)
+- [T1568.001 Fast Flux DNS](/techniques/T1568.001/)
+
 ### Ransomware Vulnerability Matrix observations
 
 | Category | Vendor | Product | CVEs |
@@ -133,4 +161,9 @@ Curated Intelligence MOVEit Transfer Tracking tracks 74 public events for the 20
 ## References
 [1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0092)
    MITRE ATT&CK entry
+[2] [Proofpoint TA505 Sep 2017](https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta505-dridex-globeimposter)
+[3] [Proofpoint TA505 June 2018](https://www.proofpoint.com/us/threat-insight/post/ta505-shifts-times)
+[4] [Proofpoint TA505 Jan 2019](https://www.proofpoint.com/us/threat-insight/post/servhelper-and-flawedgrace-new-malware-introduced-ta505)
+[5] [NCC Group TA505](https://research.nccgroup.com/2020/11/18/ta505-a-brief-history-of-their-time/)
+[6] [Korean FSI TA505 2020](https://www.fsec.or.kr/user/bbs/fsec/163/344/bbsDataView/1382.do?page=1&column=&search=&searchSDate=&searchEDate=&bbsDataCategory=)
 

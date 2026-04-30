@@ -23,7 +23,7 @@ This threat actor targets industrial control systems, using a tool called Black 
 **Suspected Victims**: Russia, Lithuania, Kyrgyzstan, Israel, Ukraine, Belarus, Kazakhstan, Georgia, Poland, Azerbaijan...
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- [Viasat KA-SAT](https://news.viasat.com/blog/corporate/ka-sat-network-cyber-attack-overview) (February 2022; Sandworm (RU APT))
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
