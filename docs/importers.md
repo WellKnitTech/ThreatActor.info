@@ -126,6 +126,26 @@ ruby scripts/import-wiz-cloud-threat-landscape.rb plan --snapshot data/imports/w
 ```
 
 
+
+## Dragos Threat Groups importer
+
+`scripts/import-dragos-threat-groups.rb` adds the Dragos threat-group catalog as a secondary alias/provenance enrichment source.
+
+Source page (scraped snapshot):
+- https://www.dragos.com/threat-groups
+
+Workflow:
+- `fetch` downloads the catalog root HTML, follows linked `/threat-groups/<slug>` profile pages, and stores parsed actor rows under `data/imports/dragos-threat-groups/<YYYY-MM-DD>/` (`index.html`, `pages/*.html`, `actors.json`, `manifest.yml`).
+- `plan` matches parsed names to existing actors and reports candidate updates.
+- `import` enriches matched actors by writing `provenance.dragos_threat_groups` metadata.
+
+Example commands:
+
+```bash
+ruby scripts/import-dragos-threat-groups.rb fetch --output data/imports/dragos-threat-groups/$(date -I)
+ruby scripts/import-dragos-threat-groups.rb plan --snapshot data/imports/dragos-threat-groups/2026-04-30 --report-json tmp/dragos-threat-groups-report.json
+```
+
 ## Unit 42 Threat Actor Groups importer
 
 `scripts/import-unit42-threat-actor-groups.rb` adds the Palo Alto Networks Unit 42 actor-group index as a secondary alias/provenance enrichment source.

@@ -196,6 +196,15 @@ SOURCES = [
     report_name: 'sophos-threat-profiles-report.json',
     fetch_limit: false
   ),
+
+  Source.new(
+    key: 'dragos-threat-groups',
+    label: 'Dragos Threat Groups',
+    script: 'scripts/import-dragos-threat-groups.rb',
+    snapshot_root: 'data/imports/dragos-threat-groups',
+    report_name: 'dragos-threat-groups-report.json',
+    fetch_limit: false
+  ),
   Source.new(
     key: 'unit42-threat-actor-groups',
     label: 'Unit 42 Threat Actor Groups',
