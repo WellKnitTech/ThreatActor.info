@@ -71,6 +71,18 @@ $solarized-green: #859900;
   --section-bg-alt: #ffffff;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 * {
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
@@ -82,34 +94,89 @@ body {
   color: var(--text-primary);
 }
 
-header {
+.site-header {
   background: var(--header-bg) !important;
   color: var(--text-primary);
   padding: 1rem 0;
   border-bottom: 1px solid var(--border-color);
 }
 
-header h1, header nav {
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 4vw, 2rem);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem 1.25rem;
+}
+
+.header-brand-nav {
+  flex: 1 1 min(100%, 12rem);
+  min-width: 0;
+}
+
+.site-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  min-width: 0;
+  margin-bottom: 0.5rem;
+}
+
+.site-logo-link {
+  flex-shrink: 0;
+  line-height: 0;
+}
+
+.site-logo-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.site-logo {
+  display: block;
+  height: clamp(1.75rem, 6vw, 2.5rem);
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.site-title {
   margin: 0;
   padding: 0;
-  display: inline-block;
+  font-size: clamp(1.15rem, 4vw, 1.75rem);
+  line-height: 1.2;
+  word-break: break-word;
 }
 
-header nav ul {
+.site-nav {
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
 }
 
-header nav ul li {
-  display: inline;
-  margin-right: 1rem;
+.site-nav ul li {
+  margin: 0;
 }
 
-header nav ul li a {
+.site-nav ul li a {
   color: var(--text-primary);
   text-decoration: none;
 }
 
-header nav ul li a:hover {
+.site-nav ul li a:hover {
   color: var(--accent);
 }
 
@@ -130,9 +197,10 @@ footer {
   border-radius: 6px;
   cursor: pointer;
   font-size: 1.1rem;
-  margin-left: 1rem;
+  margin-left: 0;
   vertical-align: middle;
   transition: all 0.3s ease;
+  flex-shrink: 0;
 }
 
 .theme-toggle:hover {
@@ -141,16 +209,83 @@ footer {
 }
 
 .header-controls {
-  float: right;
   display: flex;
   align-items: center;
+  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .header-controls {
+    align-self: flex-end;
+  }
+
+  .site-brand {
+    margin-bottom: 0.35rem;
+  }
+
+  .hero {
+    padding: 1.5rem 1rem;
+  }
+
+  .hero h1 {
+    font-size: 1.65rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .threat-actor-header {
+    padding: 1.25rem 1rem;
+  }
+
+  .threat-actor-header h1 {
+    font-size: 1.65rem;
+    word-break: break-word;
+  }
+
+  .quick-stats {
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    row-gap: 1rem;
+  }
+
+  .quick-stats .stat-number {
+    font-size: 1.5rem;
+  }
+
+  .quick-filters {
+    padding: 1rem 1rem;
+  }
+
+  .quick-filters.is-fixed {
+    width: calc(100% - 1.5rem);
+    max-width: none;
+  }
+
+  .filter-chips select {
+    max-width: 100%;
+  }
+
+  .quick-search {
+    flex-direction: column;
+  }
+
+  .search-container {
+    padding: 1.25rem 1rem;
+  }
 }
 
 // Main content area
 main {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: clamp(1rem, 4vw, 2rem);
   background-color: var(--bg-primary);
   min-height: 100vh;
 }
@@ -450,7 +585,7 @@ a:hover {
 
 .profile-metadata-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
   gap: 1rem;
   margin-top: 1.5rem;
 }
@@ -626,10 +761,61 @@ a:hover {
   background: var(--bg-card);
 }
 
+.content pre {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.content code {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.content pre code {
+  overflow-wrap: normal;
+  word-break: normal;
+  white-space: pre;
+}
+
+.actor-description.markdown-body pre {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.actor-description.markdown-body code {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.actor-description.markdown-body pre code {
+  overflow-wrap: normal;
+  word-break: normal;
+  white-space: pre;
+}
+
+.mitre-entity-body pre {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.mitre-entity-body code {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.mitre-entity-body pre code {
+  overflow-wrap: normal;
+  word-break: normal;
+  white-space: pre;
+}
+
 /* Threat Actors Grid */
 .threat-actors-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
   gap: 2rem;
   margin-top: 2rem;
 }
@@ -786,7 +972,7 @@ a:hover {
 
 .search-filters {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
   gap: 1rem;
   margin-bottom: 2rem;
 }
@@ -1197,7 +1383,7 @@ a:hover {
 /* Actor Cards Grid */
 .actors-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
   gap: 1rem;
 }
 
@@ -1489,6 +1675,8 @@ footer {
 /* TTP Table */
 .ttp-table-container {
   margin-top: 2rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .ttp-table-container h2 {
@@ -1508,6 +1696,8 @@ footer {
   padding: 0.75rem 1rem;
   text-align: left;
   border-bottom: 1px solid var(--border-color);
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .ttp-table th {
@@ -1566,7 +1756,7 @@ footer {
 
 .indexed-ioc-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
   gap: 0.75rem;
 }
 
@@ -1671,7 +1861,7 @@ footer {
 
 .malware-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
   gap: 1rem;
 }
 
@@ -1966,7 +2156,7 @@ footer {
 
 .ioc-type-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
   gap: 1rem;
 }
 
@@ -2341,12 +2531,6 @@ tr.ioc-search-deep-match {
 /* Malware Actors Section */
 .malware-actors-section h2 {
   margin: 2rem 0 1rem 0;
-}
-
-.actors-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 1rem;
 }
 
 .actor-card-mini {
