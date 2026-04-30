@@ -164,6 +164,14 @@ SOURCES = [
     fetch_limit: false
   ),
   Source.new(
+    key: 'wiz-cloud-threat-landscape',
+    label: 'Wiz Cloud Threat Landscape',
+    script: 'scripts/import-wiz-cloud-threat-landscape.rb',
+    snapshot_root: 'data/imports/wiz-cloud-threat-landscape',
+    report_name: 'wiz-cloud-threat-landscape-report.json',
+    fetch_limit: false
+  ),
+  Source.new(
     key: 'mitre-attack',
     label: 'MITRE ATT&CK',
     script: 'scripts/import-mitre.rb',
