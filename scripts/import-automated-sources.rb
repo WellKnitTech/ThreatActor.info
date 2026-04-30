@@ -116,6 +116,14 @@ SOURCES = [
     fetch_limit: false
   ),
   Source.new(
+    key: 'breach-hq-threat-actors',
+    label: 'BreachHQ Threat Actors',
+    script: 'scripts/import-breach-hq-threat-actors.rb',
+    snapshot_root: 'data/imports/breach-hq-threat-actors',
+    report_name: 'breach-hq-threat-actors-report.json',
+    fetch_limit: false
+  ),
+  Source.new(
     key: 'aptmap',
     label: 'APTmap',
     script: 'scripts/import-aptmap.rb',
