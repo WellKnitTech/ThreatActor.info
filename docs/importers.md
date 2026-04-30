@@ -101,6 +101,50 @@ Attribution pattern:
 
 `BreachHQ Threat Actors data (https://breach-hq.com/threat-actors) is used as a secondary index for reviewed matching and cross-source triage; linked reports and primary claims remain with the original publishers.`
 
+
+## Wiz Cloud Threat Landscape STIX importer
+
+`scripts/import-wiz-cloud-threat-landscape.rb` adds Wiz Cloud Threat Landscape as an enrichment source using the STIX feed as the canonical payload.
+
+- Canonical source feed: `https://www.wiz.io/api/feed/cloud-threat-landscape/stix.json`
+- Reference catalog pages covered by the same dataset:
+  - `https://threats.wiz.io/all-actors`
+  - `https://threats.wiz.io/all-techniques`
+  - `https://threats.wiz.io/all-tools`
+
+The importer follows `fetch -> plan -> import`:
+
+- `fetch` stores `stix.json` plus `manifest.yml` checksum metadata in `data/imports/wiz-cloud-threat-landscape/<YYYY-MM-DD>/`.
+- `plan` matches Wiz `intrusion-set` names/aliases to existing actors and reports candidate enrichments.
+- `import` enriches matched actors only by updating aliases and writing `provenance.wiz_cloud_threat_landscape` (record id, modified timestamp, related object refs, and retrieval metadata).
+
+Example commands:
+
+```bash
+ruby scripts/import-wiz-cloud-threat-landscape.rb fetch --output data/imports/wiz-cloud-threat-landscape/$(date -I)
+ruby scripts/import-wiz-cloud-threat-landscape.rb plan --snapshot data/imports/wiz-cloud-threat-landscape/2026-04-30 --report-json tmp/wiz-cloud-threat-landscape-report.json
+```
+
+
+## Unit 42 Threat Actor Groups importer
+
+`scripts/import-unit42-threat-actor-groups.rb` adds the Palo Alto Networks Unit 42 actor-group index as a secondary alias/provenance enrichment source.
+
+Source page (scraped snapshot):
+- https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
+
+Workflow:
+- `fetch` downloads the source page HTML and stores parsed actor rows under `data/imports/unit42-threat-actor-groups/<YYYY-MM-DD>/` (`page.html`, `actors.json`, `manifest.yml`).
+- `plan` matches parsed names/aliases to existing actors and reports candidate updates.
+- `import` enriches matched actors only by merging aliases and writing `provenance.unit42_threat_actor_groups` metadata.
+
+Example commands:
+
+```bash
+ruby scripts/import-unit42-threat-actor-groups.rb fetch --output data/imports/unit42-threat-actor-groups/$(date -I)
+ruby scripts/import-unit42-threat-actor-groups.rb plan --snapshot data/imports/unit42-threat-actor-groups/2026-04-30 --report-json tmp/unit42-threat-actor-groups-report.json
+```
+
 ## MITRE ATT&CK STIX Importer
 
 `scripts/import-mitre.rb` imports [MITRE ATT&CK](https://attack.mitre.org) STIX 2.1 bundles from [mitre-attack/attack-stix-data](https://github.com/mitre-attack/attack-stix-data).
