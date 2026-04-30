@@ -29,6 +29,22 @@ Reviewed name and rename handling lives in `data/imports/ransomlook/mapping_over
 - Use `ruby scripts/evaluate-source-deltas.rb` to enforce update thresholds before publishing large changes.
 - See `docs/data-flows.md` for the source-of-truth map and the analyst-note supersession policy.
 
+
+## APTmap importer
+
+`scripts/import-aptmap.rb` adds APTmap to the automated source pipeline with the same `fetch -> plan -> import` interface used by other importers.
+
+- `fetch` writes dated snapshots under `data/imports/aptmap/<YYYY-MM-DD>/` with `apt.json`, `apt_rel.json`, and `manifest.yml` checksum metadata.
+- `plan` compares normalized APTmap actor names/aliases against existing actors and emits match/new-candidate counts (plus optional report JSON).
+- `import` currently runs the same planning pass (no actor file writes yet), so APTmap can be safely scheduled while match quality is reviewed.
+
+Example commands:
+
+```bash
+ruby scripts/import-aptmap.rb fetch --output data/imports/aptmap/$(date -I)
+ruby scripts/import-aptmap.rb plan --snapshot data/imports/aptmap/2026-04-30 --report-json tmp/aptmap-report.json
+```
+
 ## MITRE ATT&CK STIX Importer
 
 `scripts/import-mitre.rb` imports [MITRE ATT&CK](https://attack.mitre.org) STIX 2.1 bundles from [mitre-attack/attack-stix-data](https://github.com/mitre-attack/attack-stix-data).

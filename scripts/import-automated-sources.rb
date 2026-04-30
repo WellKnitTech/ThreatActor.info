@@ -116,6 +116,14 @@ SOURCES = [
     fetch_limit: false
   ),
   Source.new(
+    key: 'aptmap',
+    label: 'APTmap',
+    script: 'scripts/import-aptmap.rb',
+    snapshot_root: 'data/imports/aptmap',
+    report_name: 'aptmap-report.json',
+    fetch_limit: true
+  ),
+  Source.new(
     key: 'mitre-attack',
     label: 'MITRE ATT&CK',
     script: 'scripts/import-mitre.rb',
