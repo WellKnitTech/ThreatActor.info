@@ -7,6 +7,7 @@ require 'optparse'
 require 'time'
 
 Source = Struct.new(
+  :priority,
   :key,
   :label,
   :script,
@@ -17,8 +18,31 @@ Source = Struct.new(
   keyword_init: true
 )
 
-SOURCES = [
+# Each source has a `priority` integer; `SOURCES` is sorted at load time. Lower runs first.
+# Policy: MITRE first; then STIX/JSON/static feeds; tabular; markdown-derived; HTML scrapers last.
+# See docs/importers.md (Automation Policy).
+SOURCES_UNSORTED = [
   Source.new(
+    priority: 1,
+    key: 'mitre-attack',
+    label: 'MITRE ATT&CK',
+    script: 'scripts/import-mitre.rb',
+    snapshot_root: 'data/imports/mitre-attack',
+    report_name: 'mitre-attack-report.json',
+    fetch_args: %w[],
+    fetch_limit: false
+  ),
+  Source.new(
+    priority: 2,
+    key: 'wiz-cloud-threat-landscape',
+    label: 'Wiz Cloud Threat Landscape',
+    script: 'scripts/import-wiz-cloud-threat-landscape.rb',
+    snapshot_root: 'data/imports/wiz-cloud-threat-landscape',
+    report_name: 'wiz-cloud-threat-landscape-report.json',
+    fetch_limit: false
+  ),
+  Source.new(
+    priority: 3,
     key: 'misp-galaxy',
     label: 'MISP Galaxy',
     script: 'scripts/import-misp-galaxy.rb',
@@ -36,14 +60,7 @@ SOURCES = [
     fetch_limit: true
   ),
   Source.new(
-    key: 'ransomlook',
-    label: 'RansomLook',
-    script: 'scripts/import-ransomlook.rb',
-    snapshot_root: 'data/imports/ransomlook',
-    report_name: 'ransomlook-report.json',
-    fetch_limit: true
-  ),
-  Source.new(
+    priority: 4,
     key: 'etda-thaicert',
     label: 'ETDA / ThaiCERT Threat Group Cards',
     script: 'scripts/import-etda-thaicert.rb',
@@ -52,6 +69,7 @@ SOURCES = [
     fetch_limit: true
   ),
   Source.new(
+    priority: 5,
     key: 'malpedia',
     label: 'Malpedia',
     script: 'scripts/import-malpedia.rb',
@@ -60,94 +78,7 @@ SOURCES = [
     fetch_limit: true
   ),
   Source.new(
-    key: 'microsoft-threat-actor-list',
-    label: 'Microsoft Threat Actor List',
-    script: 'scripts/import-microsoft-threat-actor-list.rb',
-    snapshot_root: 'data/imports/microsoft-threat-actor-list',
-    report_name: 'microsoft-threat-actor-list-report.json',
-    fetch_limit: false
-  ),
-  Source.new(
-    key: 'apt-groups-operations',
-    label: 'APT Groups & Operations',
-    script: 'scripts/import-apt-groups-operations.rb',
-    snapshot_root: 'data/imports/apt-groups-operations',
-    report_name: 'apt-groups-operations-report.json',
-    fetch_limit: false
-  ),
-  Source.new(
-    key: 'aptnotes',
-    label: 'APTnotes',
-    script: 'scripts/import-aptnotes.rb',
-    snapshot_root: 'data/imports/aptnotes',
-    report_name: 'aptnotes-report.json',
-    fetch_limit: true
-  ),
-  Source.new(
-    key: 'ransomware-tool-matrix',
-    label: 'BushidoUK Ransomware Tool Matrix',
-    script: 'scripts/import-ransomware-tool-matrix.rb',
-    snapshot_root: 'data/imports/ransomware-tool-matrix',
-    report_name: 'ransomware-tool-matrix-report.json',
-    fetch_limit: false
-  ),
-  Source.new(
-    key: 'curated-intel-moveit-transfer',
-    label: 'Curated Intelligence MOVEit Transfer Tracking',
-    script: 'scripts/import-curated-intel-moveit-transfer.rb',
-    snapshot_root: 'data/imports/curated-intel-moveit-transfer',
-    report_name: 'curated-intel-moveit-transfer-report.json',
-    fetch_limit: false
-  ),
-  Source.new(
-    key: 'ransomware-vulnerability-matrix',
-    label: 'BushidoUK Ransomware Vulnerability Matrix',
-    script: 'scripts/import-ransomware-vulnerability-matrix.rb',
-    snapshot_root: 'data/imports/ransomware-vulnerability-matrix',
-    report_name: 'ransomware-vulnerability-matrix-report.json',
-    fetch_limit: false
-  ),
-  Source.new(
-    key: 'russian-apt-tool-matrix',
-    label: 'BushidoUK Russian APT Tool Matrix',
-    script: 'scripts/import-russian-apt-tool-matrix.rb',
-    snapshot_root: 'data/imports/russian-apt-tool-matrix',
-    report_name: 'russian-apt-tool-matrix-report.json',
-    fetch_limit: false
-  ),
-  Source.new(
-    key: 'breach-hq-threat-actors',
-    label: 'BreachHQ Threat Actors',
-    script: 'scripts/import-breach-hq-threat-actors.rb',
-    snapshot_root: 'data/imports/breach-hq-threat-actors',
-    report_name: 'breach-hq-threat-actors-report.json',
-    fetch_limit: false
-  ),
-  Source.new(
-    key: 'bushido-breach-reports',
-    label: 'BushidoToken Breach Reports',
-    script: 'scripts/import-bushido-breach-reports.rb',
-    snapshot_root: 'data/imports/bushido-breach-reports',
-    report_name: 'bushido-breach-reports-report.json',
-    fetch_limit: false
-  ),
-  Source.new(
-    key: 'reddrip7-apt-digital-weapon',
-    label: 'RedDrip7 APT_Digital_Weapon',
-    script: 'scripts/import-reddrip7-apt-digital-weapon.rb',
-    snapshot_root: 'data/imports/reddrip7-apt-digital-weapon',
-    report_name: 'reddrip7-apt-digital-weapon-report.json',
-    fetch_limit: false
-  ),
-  Source.new(
-    key: 'eternal-liberty',
-    label: 'EternalLiberty',
-    script: 'scripts/import-eternal-liberty.rb',
-    snapshot_root: 'data/imports/eternal-liberty',
-    report_name: 'eternal-liberty-report.json',
-    fetch_limit: false
-  ),
-  Source.new(
+    priority: 6,
     key: 'aptmap',
     label: 'APTmap',
     script: 'scripts/import-aptmap.rb',
@@ -156,31 +87,43 @@ SOURCES = [
     fetch_limit: true
   ),
   Source.new(
-    key: 'google-cloud-apt-groups',
-    label: 'Google Cloud APT Groups',
-    script: 'scripts/import-google-cloud-apt-groups.rb',
-    snapshot_root: 'data/imports/google-cloud-apt-groups',
-    report_name: 'google-cloud-apt-groups-report.json',
+    priority: 7,
+    key: 'eternal-liberty',
+    label: 'EternalLiberty',
+    script: 'scripts/import-eternal-liberty.rb',
+    snapshot_root: 'data/imports/eternal-liberty',
+    report_name: 'eternal-liberty-report.json',
     fetch_limit: false
   ),
   Source.new(
-    key: 'wiz-cloud-threat-landscape',
-    label: 'Wiz Cloud Threat Landscape',
-    script: 'scripts/import-wiz-cloud-threat-landscape.rb',
-    snapshot_root: 'data/imports/wiz-cloud-threat-landscape',
-    report_name: 'wiz-cloud-threat-landscape-report.json',
+    priority: 8,
+    key: 'microsoft-threat-actor-list',
+    label: 'Microsoft Threat Actor List',
+    script: 'scripts/import-microsoft-threat-actor-list.rb',
+    snapshot_root: 'data/imports/microsoft-threat-actor-list',
+    report_name: 'microsoft-threat-actor-list-report.json',
     fetch_limit: false
   ),
   Source.new(
-    key: 'mitre-attack',
-    label: 'MITRE ATT&CK',
-    script: 'scripts/import-mitre.rb',
-    snapshot_root: 'data/imports/mitre-attack',
-    report_name: 'mitre-attack-report.json',
-    fetch_args: %w[],
+    priority: 9,
+    key: 'apt-groups-operations',
+    label: 'APT Groups & Operations',
+    script: 'scripts/import-apt-groups-operations.rb',
+    snapshot_root: 'data/imports/apt-groups-operations',
+    report_name: 'apt-groups-operations-report.json',
     fetch_limit: false
   ),
   Source.new(
+    priority: 10,
+    key: 'aptnotes',
+    label: 'APTnotes',
+    script: 'scripts/import-aptnotes.rb',
+    snapshot_root: 'data/imports/aptnotes',
+    report_name: 'aptnotes-report.json',
+    fetch_limit: true
+  ),
+  Source.new(
+    priority: 11,
     key: 'rapid7-aba-detections',
     label: 'Rapid7 ABA Detections',
     script: 'scripts/import-rapid7-aba-detections.rb',
@@ -189,6 +132,70 @@ SOURCES = [
     fetch_limit: false
   ),
   Source.new(
+    priority: 12,
+    key: 'ransomlook',
+    label: 'RansomLook',
+    script: 'scripts/import-ransomlook.rb',
+    snapshot_root: 'data/imports/ransomlook',
+    report_name: 'ransomlook-report.json',
+    fetch_limit: true
+  ),
+  Source.new(
+    priority: 13,
+    key: 'reddrip7-apt-digital-weapon',
+    label: 'RedDrip7 APT_Digital_Weapon',
+    script: 'scripts/import-reddrip7-apt-digital-weapon.rb',
+    snapshot_root: 'data/imports/reddrip7-apt-digital-weapon',
+    report_name: 'reddrip7-apt-digital-weapon-report.json',
+    fetch_limit: false
+  ),
+  Source.new(
+    priority: 14,
+    key: 'ransomware-tool-matrix',
+    label: 'BushidoUK Ransomware Tool Matrix',
+    script: 'scripts/import-ransomware-tool-matrix.rb',
+    snapshot_root: 'data/imports/ransomware-tool-matrix',
+    report_name: 'ransomware-tool-matrix-report.json',
+    fetch_limit: false
+  ),
+  Source.new(
+    priority: 15,
+    key: 'ransomware-vulnerability-matrix',
+    label: 'BushidoUK Ransomware Vulnerability Matrix',
+    script: 'scripts/import-ransomware-vulnerability-matrix.rb',
+    snapshot_root: 'data/imports/ransomware-vulnerability-matrix',
+    report_name: 'ransomware-vulnerability-matrix-report.json',
+    fetch_limit: false
+  ),
+  Source.new(
+    priority: 16,
+    key: 'russian-apt-tool-matrix',
+    label: 'BushidoUK Russian APT Tool Matrix',
+    script: 'scripts/import-russian-apt-tool-matrix.rb',
+    snapshot_root: 'data/imports/russian-apt-tool-matrix',
+    report_name: 'russian-apt-tool-matrix-report.json',
+    fetch_limit: false
+  ),
+  Source.new(
+    priority: 17,
+    key: 'bushido-breach-reports',
+    label: 'BushidoToken Breach Reports',
+    script: 'scripts/import-bushido-breach-reports.rb',
+    snapshot_root: 'data/imports/bushido-breach-reports',
+    report_name: 'bushido-breach-reports-report.json',
+    fetch_limit: false
+  ),
+  Source.new(
+    priority: 18,
+    key: 'curated-intel-moveit-transfer',
+    label: 'Curated Intelligence MOVEit Transfer Tracking',
+    script: 'scripts/import-curated-intel-moveit-transfer.rb',
+    snapshot_root: 'data/imports/curated-intel-moveit-transfer',
+    report_name: 'curated-intel-moveit-transfer-report.json',
+    fetch_limit: false
+  ),
+  Source.new(
+    priority: 19,
     key: 'sophos-threat-profiles',
     label: 'Sophos Threat Profiles',
     script: 'scripts/import-sophos-threat-profiles.rb',
@@ -196,8 +203,26 @@ SOURCES = [
     report_name: 'sophos-threat-profiles-report.json',
     fetch_limit: false
   ),
-
   Source.new(
+    priority: 20,
+    key: 'google-cloud-apt-groups',
+    label: 'Google Cloud APT Groups',
+    script: 'scripts/import-google-cloud-apt-groups.rb',
+    snapshot_root: 'data/imports/google-cloud-apt-groups',
+    report_name: 'google-cloud-apt-groups-report.json',
+    fetch_limit: false
+  ),
+  Source.new(
+    priority: 21,
+    key: 'breach-hq-threat-actors',
+    label: 'BreachHQ Threat Actors',
+    script: 'scripts/import-breach-hq-threat-actors.rb',
+    snapshot_root: 'data/imports/breach-hq-threat-actors',
+    report_name: 'breach-hq-threat-actors-report.json',
+    fetch_limit: false
+  ),
+  Source.new(
+    priority: 22,
     key: 'dragos-threat-groups',
     label: 'Dragos Threat Groups',
     script: 'scripts/import-dragos-threat-groups.rb',
@@ -206,6 +231,7 @@ SOURCES = [
     fetch_limit: false
   ),
   Source.new(
+    priority: 23,
     key: 'unit42-threat-actor-groups',
     label: 'Unit 42 Threat Actor Groups',
     script: 'scripts/import-unit42-threat-actor-groups.rb',
@@ -214,6 +240,16 @@ SOURCES = [
     fetch_limit: false
   )
 ].freeze
+
+SOURCES = SOURCES_UNSORTED.sort_by(&:priority).freeze
+
+priorities = SOURCES.map(&:priority)
+if priorities.uniq.size != priorities.size
+  abort 'import-automated-sources.rb: duplicate priority values in SOURCES_UNSORTED'
+end
+unless SOURCES.first&.key == 'mitre-attack' && SOURCES.first&.priority == 1
+  abort 'import-automated-sources.rb: mitre-attack must have priority 1 and sort first'
+end
 
 options = {
   apply: false,
