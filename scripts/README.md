@@ -90,6 +90,18 @@ ruby scripts/validate-content.rb
 
 ---
 
+### validate.sh
+
+Canonical end-to-end pipeline (matches **Content Validation** in `.github/workflows/validate.yml`).
+
+```bash
+bash scripts/validate.sh
+```
+
+**Runs:** `generate-pages.rb --force` → `generate-indexes.rb` → `validate-json-schemas.rb` → `validate-content.rb` → `jekyll doctor` (continues on warnings) → `jekyll build --safe` → JSON parse of `_site/api/**/*.json`.
+
+---
+
 ## Import Scripts
 
 ## Attribution requirement for import sources

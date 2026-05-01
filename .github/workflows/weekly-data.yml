@@ -40,9 +40,15 @@ jobs:
         run: ruby scripts/fetch-misp-references.rb
         continue-on-error: true
           
-      - name: Fetch MITRE ATT&CK
-        run: ruby scripts/import-mitre.rb --write
-          
+      - name: Fetch and import MITRE ATT&CK
+        run: |
+          mkdir -p tmp
+          RUN_DATE=$(date -u +%F)
+          OUT="data/imports/mitre-attack/${RUN_DATE}"
+          ruby scripts/import-mitre.rb fetch --output "$OUT"
+          ruby scripts/import-mitre.rb import --snapshot "$OUT" --report-json tmp/mitre-weekly-import.json
+        continue-on-error: true
+
       - name: Fetch MISP threat actors
         run: |
           RUN_DATE=$(date +%Y-%m-%d)
