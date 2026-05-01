@@ -29,7 +29,7 @@ This reflects the current repository, CI workflow, and validation scripts.
 - `scripts/categorized_adversary_ttps.rb`: helpers used by `generate-indexes.rb` for the tropChaud merged MITRE × ETDA snapshot.
 - `scripts/ioc_yaml_reader.rb`: merges actor YAML `iocs` plus legacy IOC lists for `generate-indexes.rb` and `generate-pages.rb`.
 - `scripts/validate.sh`: full validation wrapper.
-- `.github/workflows/validate.yml`: CI commands.
+- `.github/workflows/validate.yml`: CI runs **`bash scripts/validate.sh`** after `bundle install` (same order as local: generators → JSON schemas → `validate-content` → `jekyll doctor` → `jekyll build` → parse `_site/api/**/*.json`).
 - `.github/workflows/pages.yml`: GitHub Pages deploy using `bundle exec jekyll build` (matches `Gemfile` / Jekyll 4). The default `actions/jekyll-build-pages` image uses older `github-pages`/Jekyll 3 and will not satisfy this Gemfile.
 - `docs/importers.md`: importer workflow and attribution rules.
 
@@ -80,8 +80,8 @@ ruby scripts/validate-content.rb
 ```bash
 bash scripts/validate.sh
 ```
-- Full validation pipeline.
-- Runs dependency checks, YAML validation, Jekyll doctor, required-file checks, page checks, Jekyll build, and the Ruby validator.
+- **Canonical** full validation pipeline (also used by `.github/workflows/validate.yml`).
+- Runs generators (`generate-pages`, `generate-indexes`), JSON schema validation, `validate-content`, `jekyll doctor` (warnings allowed), `jekyll build --safe`, and a JSON parse pass over `_site/api/**/*.json`.
 - Best broad pre-PR verification command.
 
 ## Test Commands
