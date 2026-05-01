@@ -37,7 +37,7 @@ APT28 is a threat group that has been attributed to Russia's General Staff Main 
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*No atomic indicators are listed directly in this profile. Additional community-curated IOC hashes are available in RedDrip7/APT_Digital_Weapon (APT28 folder), and should be independently validated before defensive or investigative use.*
+*No atomic indicators are listed in this profile. The APTnotes snapshot indexes 26 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
 ## Malware and Tools
 - **CyberGate**
@@ -134,5 +134,4 @@ APT28 is a threat group that has been attributed to Russia's General Staff Main 
 [13] [Symantec APT28 Oct 2018](https://www.symantec.com/blogs/election-security/apt28-espionage-military-government)
 [14] [ESET Zebrocy May 2019](https://www.welivesecurity.com/2019/05/22/journey-zebrocy-land/)
 [15] [US District Court Indictment GRU Oct 2018](https://www.justice.gov/opa/page/file/1098481/download)
-[16] [RedDrip7 APT_Digital_Weapon (APT28)](https://github.com/RedDrip7/APT_Digital_Weapon/tree/master/APT28)
 
