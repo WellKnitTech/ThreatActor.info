@@ -65,6 +65,7 @@ Reviewed name and rename handling lives in `data/imports/ransomlook/mapping_over
 - For enrichment sources that include description text (for example ETDA/ThaiCERT and Google Cloud APT Groups), imports append an attributed `### Source: <name>` subsection instead of replacing curated lead descriptions.
 - Prefer **structured IOCs** under **`iocs:`** in `_data/actors/*.yml` (plus legacy top-level IOC lists where applicable); [`scripts/ioc_yaml_reader.rb`](../scripts/ioc_yaml_reader.rb) merges them for **`generate-indexes.rb`** and **`generate-pages.rb`** so `/api/iocs.json` and actor **`ioc_count`** stay aligned with YAML without duplicating Markdown-only pipelines.
 - Use `ruby scripts/evaluate-source-deltas.rb` to enforce update thresholds before publishing large changes.
+- See [Keeping actor pages current](keeping-actor-pages-current.md) for committing regenerated `_threat_actors/*.md`, `_data/generated/*`, and `api/*` together with `_data/actors/*.yml` after imports.
 - See `docs/data-flows.md` for the source-of-truth map and the analyst-note supersession policy.
 
 

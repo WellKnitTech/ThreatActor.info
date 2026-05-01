@@ -2,6 +2,8 @@
 
 This project is a static Jekyll knowledge base. Runtime pages and JSON APIs are deterministic outputs from committed source files, importer snapshots, and generation scripts.
 
+For a concise maintainer checklist (commands, what to commit, and which workflows refresh what), see **[Keeping actor pages current](keeping-actor-pages-current.md)**.
+
 ## Current data flow
 
 1. Automated source importers fetch operational snapshots into ignored `data/imports/<source>/<date>/` cache paths.

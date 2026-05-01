@@ -2,6 +2,8 @@
 
 This directory contains Ruby scripts for managing threat actor data, importing external sources, and generating the static site.
 
+For the **import → generate pages (`--force`) → generate indexes → validate → commit** workflow and how it maps to GitHub Actions, see **[Keeping actor pages current](../docs/keeping-actor-pages-current.md)**.
+
 ## Quick Reference
 
 | Script | Purpose | Frequency |
