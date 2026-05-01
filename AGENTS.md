@@ -32,6 +32,7 @@ This reflects the current repository, CI workflow, and validation scripts.
 - `.github/workflows/validate.yml`: CI runs **`bash scripts/validate.sh`** after `bundle install` (same order as local: generators → JSON schemas → `validate-content` → `jekyll doctor` → `jekyll build` → parse `_site/api/**/*.json`).
 - `.github/workflows/pages.yml`: GitHub Pages deploy using `bundle exec jekyll build` (matches `Gemfile` / Jekyll 4). The default `actions/jekyll-build-pages` image uses older `github-pages`/Jekyll 3 and will not satisfy this Gemfile.
 - `docs/importers.md`: importer workflow and attribution rules.
+- `docs/keeping-actor-pages-current.md`: regenerate and commit Markdown + generated JSON with YAML after imports.
 
 ## Existing Agent Rules
 - No pre-existing `AGENTS.md` was found.

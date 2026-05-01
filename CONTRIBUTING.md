@@ -81,10 +81,13 @@ ruby scripts/actor-creator.rb new \
 
 For manual YAML-first workflows, keep Markdown in sync using [docs/new-actor-checklist.md](docs/new-actor-checklist.md).
 
+After imports or bulk YAML changes, follow **[Keeping actor pages current](docs/keeping-actor-pages-current.md)** so `_threat_actors/*.md`, `_data/generated/*`, and `api/*` stay aligned with `provenance` and actor fields in YAML.
+
 ---
 
 ## 📖 Documentation References
 
+- **[Keeping actor pages current](docs/keeping-actor-pages-current.md)**: Regenerate pages/indexes after imports; commit paths; CI vs weekly vs import-sources
 - **[Schema Reference](docs/schema.md)**: YAML fields, types, and validation rules for threat actor data
 - **[Importer Guide](docs/importers.md)**: Source import workflows (MITRE ATT&CK, MISP Galaxy, RansomLook)
 

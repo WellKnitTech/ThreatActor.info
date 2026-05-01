@@ -40,28 +40,6 @@ PLACEHOLDER_PATTERNS = [
   /pending.*cataloguing/i
 ].freeze
 
-# Skip these actors from regeneration (manually enriched)
-SKIP_ACTORS = %w[
-  Sandworm Team
-  Turla
-  Kimsuky
-  Mustang Panda
-  Fox Kitten
-  Volt Typhoon
-  HAFNIUM
-  Andariel
-  APT39
-  FIN6
-  MuddyWater
-  Sidewinder
-  Ember Bear
-  Patchwork
-  APT28
-  APT29
-  Lazarus Group
-  LockBit
-].freeze
-
 options = {
   force: false,
   dry_run: false,

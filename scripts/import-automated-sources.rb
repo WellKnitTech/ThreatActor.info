@@ -1,6 +1,9 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+# After a local --apply, commit importer and generator outputs together: _data/actors,
+# _threat_actors, _data/generated, api, and _malware when touched. See docs/keeping-actor-pages-current.md.
+
 require 'fileutils'
 require 'open3'
 require 'optparse'
@@ -265,7 +268,10 @@ options = {
 }
 
 parser = OptionParser.new do |opts|
-  opts.banner = 'Usage: ruby scripts/import-automated-sources.rb [options]'
+  opts.banner = 'Usage: ruby scripts/import-automated-sources.rb [options]
+
+When using --apply locally, commit _data/actors, _threat_actors, _data/generated, api (and _malware if changed).
+See docs/keeping-actor-pages-current.md.'
 
   opts.on('--apply', 'Apply imports; default only fetches and plans') { options[:apply] = true }
   opts.on('--date DATE', 'Snapshot directory name; default is today in UTC') { |value| options[:date] = value }
