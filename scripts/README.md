@@ -92,6 +92,14 @@ ruby scripts/validate-content.rb
 
 ## Import Scripts
 
+## Attribution requirement for import sources
+
+Every importer change must preserve source credit and outbound links:
+
+- Update `attribution.md` (`/attribution/` page) with source name, usage, and canonical URL(s).
+- Update `docs/importers.md` source attribution table when a source is added/renamed.
+- Preserve provenance URL fields in `_data/actors/*.yml` (for example `source_dataset_url`) so actor pages can link back to upstream sources.
+
 ### import-automated-sources.rb
 
 Run the standard automated import set. Analyst notes are intentionally excluded from this runner and stay a separate manual enrichment path.

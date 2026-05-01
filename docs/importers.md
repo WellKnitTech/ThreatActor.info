@@ -2,6 +2,42 @@
 
 This repository supports source importers that update `_data/actors/*.yml` and regenerate `_threat_actors/*.md` without introducing build-time network dependencies.
 
+## Source attribution and outbound links
+
+Use these canonical upstream links when documenting imports, provenance blocks, or Source Attribution notes so each dataset receives explicit credit.
+
+| Source key | Source name | Canonical link(s) |
+|---|---|---|
+| `misp-galaxy` | MISP Galaxy | https://github.com/MISP/misp-galaxy |
+| `ransomlook` | RansomLook | https://www.ransomlook.io/ ; https://github.com/RansomLook/RansomLook |
+| `etda-thaicert` | ETDA / ThaiCERT Threat Group Cards | https://apt.etda.or.th/ |
+| `malpedia` | Malpedia (Fraunhofer FKIE) | https://malpedia.caad.fkie.fraunhofer.de/ |
+| `microsoft-threat-actor-list` | Microsoft Threat Actor List | https://learn.microsoft.com/en-us/defender-xdr/microsoft-threat-actor-naming |
+| `apt-groups-operations` | APT Groups & Operations | https://apt.threattracking.com/ |
+| `aptnotes` | APTnotes | https://github.com/aptnotes/data |
+| `ransomware-tool-matrix` | BushidoUK Ransomware Tool Matrix | https://github.com/BushidoUK/Ransomware-Tool-Matrix |
+| `curated-intel-moveit-transfer` | Curated Intelligence MOVEit Transfer Tracking | https://github.com/curated-intel/MOVEit-Transfer |
+| `ransomware-vulnerability-matrix` | BushidoUK Ransomware Vulnerability Matrix | https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix |
+| `russian-apt-tool-matrix` | BushidoUK Russian APT Tool Matrix | https://github.com/BushidoUK/Russian-APT-Tool-Matrix |
+| `breach-hq-threat-actors` | BreachHQ Threat Actors | https://breach-hq.com/threat-actors |
+| `bushido-breach-reports` | BushidoToken Breach Report Collection | https://github.com/BushidoUK/Breach-Report-Collection |
+| `reddrip7-apt-digital-weapon` | RedDrip7 APT_Digital_Weapon | https://github.com/RedDrip7/APT_Digital_Weapon |
+| `eternal-liberty` | EternalLiberty | https://github.com/StrangerealIntel/EternalLiberty |
+| `aptmap` | APTmap | https://github.com/dkbuster/aptmap |
+| `google-cloud-apt-groups` | Google Cloud APT Groups | https://cloud.google.com/blog/topics/threat-intelligence/apt-groups |
+| `wiz-cloud-threat-landscape` | Wiz Cloud Threat Landscape | https://www.wiz.io/api/feed/cloud-threat-landscape/stix.json ; https://threats.wiz.io/all-actors |
+| `rapid7-aba-detections` | Rapid7 ABA Detections | https://github.com/rapid7/aba-detections |
+| `sophos-threat-profiles` | Sophos Threat Profiles | https://github.com/sophos/traffic-decoder-data/tree/main/threat-profiles |
+| `dragos-threat-groups` | Dragos Threat Groups | https://www.dragos.com/threat-groups |
+| `unit42-threat-actor-groups` | Unit 42 Threat Actor Groups | https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/ |
+| `mitre-attack` | MITRE ATT&CK | https://attack.mitre.org/ ; https://github.com/mitre-attack/attack-stix-data |
+
+When adding or updating importers:
+
+- Add the source to this table and to `/attribution/` in `attribution.md` in the same PR.
+- Ensure provenance metadata stores a stable `source_dataset_url` (or equivalent source URL field).
+- Keep attribution text clear that this project is a secondary index and that linked reports remain owned by original publishers.
+
 ## RansomLook Importer
 
 `scripts/import-ransomlook.rb` is the first importer.

@@ -399,6 +399,57 @@ layout: default
           {% if source_data.source_dataset_url %}
           <a href="{{ source_data.source_dataset_url }}">Dataset</a>
           {% endif %}
+          {% assign fallback_source_url = nil %}
+          {% if source[0] == 'misp_galaxy' %}
+            {% assign fallback_source_url = 'https://github.com/MISP/misp-galaxy' %}
+          {% elsif source[0] == 'ransomlook' %}
+            {% assign fallback_source_url = 'https://www.ransomlook.io/' %}
+          {% elsif source[0] == 'etda_thaicert' %}
+            {% assign fallback_source_url = 'https://apt.etda.or.th/' %}
+          {% elsif source[0] == 'malpedia' %}
+            {% assign fallback_source_url = 'https://malpedia.caad.fkie.fraunhofer.de/' %}
+          {% elsif source[0] == 'microsoft_threat_actor_list' %}
+            {% assign fallback_source_url = 'https://learn.microsoft.com/en-us/defender-xdr/microsoft-threat-actor-naming' %}
+          {% elsif source[0] == 'apt_groups_operations' %}
+            {% assign fallback_source_url = 'https://apt.threattracking.com/' %}
+          {% elsif source[0] == 'aptnotes' %}
+            {% assign fallback_source_url = 'https://github.com/aptnotes/data' %}
+          {% elsif source[0] == 'ransomware_tool_matrix' %}
+            {% assign fallback_source_url = 'https://github.com/BushidoUK/Ransomware-Tool-Matrix' %}
+          {% elsif source[0] == 'curated_intel_moveit_transfer' %}
+            {% assign fallback_source_url = 'https://github.com/curated-intel/MOVEit-Transfer' %}
+          {% elsif source[0] == 'ransomware_vulnerability_matrix' %}
+            {% assign fallback_source_url = 'https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix' %}
+          {% elsif source[0] == 'russian_apt_tool_matrix' %}
+            {% assign fallback_source_url = 'https://github.com/BushidoUK/Russian-APT-Tool-Matrix' %}
+          {% elsif source[0] == 'breach_hq' %}
+            {% assign fallback_source_url = 'https://breach-hq.com/threat-actors' %}
+          {% elsif source[0] == 'bushido_breach_reports' %}
+            {% assign fallback_source_url = 'https://github.com/BushidoUK/Breach-Report-Collection' %}
+          {% elsif source[0] == 'reddrip7_apt_digital_weapon' %}
+            {% assign fallback_source_url = 'https://github.com/RedDrip7/APT_Digital_Weapon' %}
+          {% elsif source[0] == 'eternal_liberty' %}
+            {% assign fallback_source_url = 'https://github.com/StrangerealIntel/EternalLiberty' %}
+          {% elsif source[0] == 'aptmap' %}
+            {% assign fallback_source_url = 'https://github.com/dkbuster/aptmap' %}
+          {% elsif source[0] == 'google_cloud_apt_groups' %}
+            {% assign fallback_source_url = 'https://cloud.google.com/blog/topics/threat-intelligence/apt-groups' %}
+          {% elsif source[0] == 'wiz_cloud_threat_landscape' %}
+            {% assign fallback_source_url = 'https://threats.wiz.io/all-actors' %}
+          {% elsif source[0] == 'rapid7_aba_detections' %}
+            {% assign fallback_source_url = 'https://github.com/rapid7/aba-detections' %}
+          {% elsif source[0] == 'sophos_threat_profiles' %}
+            {% assign fallback_source_url = 'https://github.com/sophos/traffic-decoder-data/tree/main/threat-profiles' %}
+          {% elsif source[0] == 'dragos_threat_groups' %}
+            {% assign fallback_source_url = 'https://www.dragos.com/threat-groups' %}
+          {% elsif source[0] == 'unit42_threat_actor_groups' %}
+            {% assign fallback_source_url = 'https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/' %}
+          {% elsif source[0] == 'mitre' %}
+            {% assign fallback_source_url = 'https://attack.mitre.org/' %}
+          {% endif %}
+          {% if fallback_source_url and source_data.source_record_url == nil and source_data.source_repository == nil and source_data.source_dataset_url == nil %}
+          <a href="{{ fallback_source_url }}">Source homepage</a>
+          {% endif %}
         </li>
           {% endif %}
         {% endfor %}
