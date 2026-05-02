@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-01T05:40:23Z",
+  "updated": "2026-05-02T04:57:28Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -21,10 +21,24 @@
   "actor_news": {
     "Metasploit": [
       {
-        "title": "Metasploit Wrap-Up 04/25/2026",
-        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-04-25-2026",
-        "date": "2026-04-24T20:17:56+00:00",
+        "title": "Metasploit Wrap-Up 05/01/2026",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-01-2026",
+        "date": "2026-05-01T20:22:54+00:00",
         "source": "Rapid7"
+      }
+    ],
+    "BlackCat": [
+      {
+        "title": "Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks",
+        "link": "https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html",
+        "date": "2026-05-01T15:26:00+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "US ransomware negotiators get 4 years in prison over BlackCat attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks/",
+        "date": "2026-05-01T03:47:11-04:00",
+        "source": "BleepingComputer"
       }
     ]
   }
