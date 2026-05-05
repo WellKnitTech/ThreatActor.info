@@ -345,7 +345,7 @@ class RansomLookImporter
   def build_new_actor(record)
     {
       'name' => record[:display_name],
-      'aliases' => record[:aliases],
+      'aliases' => Array(record[:aliases]),
       'description' => build_description(record),
       'url' => record[:url],
       'last_activity' => record[:last_activity],
@@ -355,7 +355,7 @@ class RansomLookImporter
       'source_license' => LICENSE_NAME,
       'source_license_url' => LICENSE_URL,
       'provenance' => build_provenance(record)
-    }.reject { |_key, value| value.nil? || value == [] }
+    }.reject { |key, value| value.nil? || (value == [] && key != 'aliases') }
   end
 
   def build_actor_updates(existing_actor, record)

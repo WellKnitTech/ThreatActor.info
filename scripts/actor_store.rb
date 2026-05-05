@@ -96,7 +96,7 @@ module ActorStore
       next unless normalized.key?(key)
 
       value = normalized[key]
-      next if value.nil? || value == '' || value == []
+      next if value.nil? || value == '' || (value == [] && key != 'aliases')
 
       lines.concat(serialize_field(key, value, 0))
     end
@@ -104,7 +104,7 @@ module ActorStore
     remaining_keys = normalized.keys - FIELD_ORDER
     remaining_keys.sort.each do |key|
       value = normalized[key]
-      next if value.nil? || value == '' || value == []
+      next if value.nil? || value == '' || (value == [] && key != 'aliases')
 
       lines.concat(serialize_field(key, value, 0))
     end
