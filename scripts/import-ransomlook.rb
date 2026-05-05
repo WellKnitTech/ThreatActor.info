@@ -623,6 +623,8 @@ class RansomLookImporter
   def load_pages
     Dir.glob(File.join(PAGE_DIR, '*.md')).each_with_object({}) do |path, pages|
       pages[path] = parse_page(path)
+    rescue Psych::SyntaxError => e
+      warn "Skipping #{path}: invalid YAML front matter (#{e.message.lines.first.to_s.strip})"
     end
   end
 
