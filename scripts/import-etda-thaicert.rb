@@ -175,8 +175,9 @@ class EtdaThaicertImporter
       payload = http_get(url)
       payloads << { payload: payload, source_url: url }
     rescue UnsupportedResponseFormatError => e
-      warn "Fetch warning for #{url}: #{e.message}"
-      warn "Response snippet: #{response_snippet(e.respond_to?(:body) ? e.body : nil)}"
+      reason = e.respond_to?(:reason) ? e.reason : e.message
+      warn "Fetch warning for #{url}: #{reason}"
+      warn "Response snippet: #{response_snippet(e.respond_to?(:body) ? e.body : nil, include_non_empty_lines: true)}"
     rescue SourceAuthenticationError => e
       warn "Fetch warning for #{url}: #{e.message}"
     rescue StandardError => e
@@ -949,10 +950,21 @@ class EtdaThaicertImporter
   def parse_response_body(body)
     text = body.to_s
     JSON.parse(text)
-  rescue JSON::ParserError
+  rescue JSON::ParserError => e
+    parse_error = e.message
+    if text.lstrip.start_with?('{', '[')
+      error = UnsupportedResponseFormatError.new('Invalid JSON payload')
+      error.define_singleton_method(:body) { text }
+      error.define_singleton_method(:reason) { 'Invalid JSON payload' }
+      error.define_singleton_method(:parse_error) { parse_error }
+      raise error
+    end
+
     unless csv_like_payload?(text)
       error = UnsupportedResponseFormatError.new('Unsupported response format')
       error.define_singleton_method(:body) { text }
+      error.define_singleton_method(:reason) { 'Unsupported response format' }
+      error.define_singleton_method(:parse_error) { parse_error }
       raise error
     end
 
@@ -961,6 +973,7 @@ class EtdaThaicertImporter
   rescue CSV::MalformedCSVError
     error = UnsupportedResponseFormatError.new('Unsupported response format')
     error.define_singleton_method(:body) { text }
+    error.define_singleton_method(:reason) { 'Unsupported response format' }
     raise error
   end
 
@@ -974,10 +987,16 @@ class EtdaThaicertImporter
     false
   end
 
-  def response_snippet(body)
+  def response_snippet(body, include_non_empty_lines: false)
     return '(empty response)' if body.to_s.strip.empty?
 
-    body.to_s.lines.first.to_s.strip[0, 200]
+    snippet = body.to_s.lines.first.to_s.strip[0, 200]
+    return snippet unless include_non_empty_lines
+
+    lines = body.to_s.lines.map(&:strip).reject(&:empty?).first(2).map { |line| line[0, 200] }
+    return snippet if lines.empty?
+
+    "#{snippet} | #{lines.join(' | ')}"
   end
 
   def safe_load_yaml_file(path)
