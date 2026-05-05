@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT-C-12"
-aliases: ["Sapphire Mushroom", "Blue Mushroom", "NuclearCrisis", "APT-C-12"]
+aliases: ["Sapphire Mushroom","Blue Mushroom","NuclearCrisis","APT-C-12"]
 description: "According to 360 TIC the actor has carried out continuous cyber espionage activities since 2011 on key units and departments of the Chinese government, military industry, scientific research, and finan"
 permalink: /apt-c-12/
 ---

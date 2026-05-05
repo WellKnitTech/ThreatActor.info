@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Houndstooth Typhoon"
-aliases: ["HASSIUM", "DRAGNET PANDA", "isoon", "deepclif", "Houndstooth Typhoon"]
+aliases: ["HASSIUM","DRAGNET PANDA","isoon","deepclif","Houndstooth Typhoon"]
 description: "Microsoft threat actor profile. Origin/Threat: China."
 permalink: /houndstooth-typhoon/
 ---

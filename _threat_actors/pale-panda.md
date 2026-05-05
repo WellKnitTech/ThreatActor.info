@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "PALE PANDA"
-aliases: ["PALE PANDA", "Pale Panda"]
+aliases: ["PALE PANDA","Pale Panda"]
 description: "PALE PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /pale-panda/
 ---

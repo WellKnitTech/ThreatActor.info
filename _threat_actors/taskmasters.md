@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "TaskMasters"
-aliases: ["BlueTraveller", "TaskMasters", "Taskmasters"]
+aliases: ["BlueTraveller","TaskMasters","Taskmasters"]
 description: "TaskMasters is a state-sponsored Chinese APT that has been active since at least 2010, primarily targeting industrial, energy, and government sectors in Russia and the CIS. The group has been linked to"
 permalink: /taskmasters/
 ---

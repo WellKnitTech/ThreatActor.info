@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "WET PANDA"
-aliases: ["Red Chimera", "WET PANDA", "Wet Panda"]
+aliases: ["Red Chimera","WET PANDA","Wet Panda"]
 description: "WET PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /wet-panda/
 ---

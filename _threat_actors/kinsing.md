@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Kinsing"
-aliases: ["Money Libra", "Kinsing"]
+aliases: ["Money Libra","Kinsing"]
 description: "This group started operating during the first quarter of 2022. They published samples of alleged stolen data from companies on their site on Tor. It is unclear if they conducted the attacks themselves,"
 permalink: /kinsing/
 ---

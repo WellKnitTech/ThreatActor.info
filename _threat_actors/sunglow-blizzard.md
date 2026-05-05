@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Sunglow Blizzard"
-aliases: ["DEV-0665", "Sunglow Blizzard"]
+aliases: ["DEV-0665","Sunglow Blizzard"]
 description: "DEV-0665 is a threat actor associated with the HermeticWiper attacks. Their objective is to disrupt, degrade, and destroy specific resources within a targeted country."
 permalink: /sunglow-blizzard/
 ---

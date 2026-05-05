@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Deadeye Jackal"
-aliases: ["SyrianElectronicArmy", "SEA", "Deadeye Jackal", "Syrian Electronic Army (SEA)"]
+aliases: ["SyrianElectronicArmy","SEA","Deadeye Jackal","Syrian Electronic Army (SEA)"]
 description: "The Syrian Electronic Army (SEA) is a group of computer hackers which first surfaced online in 2011 to support the government of Syrian President Bashar al-Assad. Using spamming, website defacement, ma"
 permalink: /deadeye-jackal/
 ---

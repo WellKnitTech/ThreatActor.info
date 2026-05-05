@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "NoName057(16)"
-aliases: ["NoName057", "NoName05716", "05716nnm", "Nnm05716", "NoName057(16)", "NoName"]
+aliases: ["NoName057","NoName05716","05716nnm","Nnm05716","NoName057(16)","NoName"]
 description: "NoName057(16) is performing DDoS attacks on websites belonging to governments, news agencies, armies, suppliers, telecommunications companies, transportation authorities, financial institutions, and mo"
 permalink: /noname057-16/
 ---

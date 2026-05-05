@@ -1,8 +1,8 @@
 ---
 layout: threat_actor
 title: "Anonymous Sudan"
-aliases: ["Anonymous Sudan", "storm-1359"]
-description: "Since January 23, 2023, a threat actor identifying as \"Anonymous Sudan\" has been conducting denial of service (DDoS) attacks against multiple organizations in Sweden. This group claims to be \"hackti"
+aliases: ["Anonymous Sudan","storm-1359"]
+description: "Since January 23, 2023, a threat actor identifying as \"Anonymous Sudan\" has been conducting denial of service (DDoS) attacks against multiple organizations in Sweden. This group claims to be \"hacktivis"
 permalink: /anonymous-sudan/
 ---
 

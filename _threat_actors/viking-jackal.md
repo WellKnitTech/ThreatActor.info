@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Viking Jackal"
-aliases: ["Vikingdom", "Viking Jackal"]
+aliases: ["Vikingdom","Viking Jackal"]
 description: "Viking Jackal is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /viking-jackal/
 ---

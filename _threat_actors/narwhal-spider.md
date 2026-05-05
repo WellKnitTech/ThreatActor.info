@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "NARWHAL SPIDER"
-aliases: ["GOLD ESSEX", "TA544", "Storm-0302", "NARWHAL SPIDER", "Narwhal Spider"]
+aliases: ["GOLD ESSEX","TA544","Storm-0302","NARWHAL SPIDER","Narwhal Spider"]
 description: "NARWHAL SPIDER’s operation of Cutwail v2 was limited to country-specific spam campaigns, although late in 2019 there appeared to be an effort to expand by bringing in INDRIK SPIDER as a customer."
 permalink: /narwhal-spider/
 ---

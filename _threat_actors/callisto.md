@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Callisto"
-aliases: ["COLDRIVER", "SEABORGIUM", "TA446", "GOSSAMER BEAR", "BlueCharlie", "Star Blizzard", "TAG-53", "IRON FRONTIER", "UNC4057", "Blue Callisto", "Callisto"]
+aliases: ["COLDRIVER","SEABORGIUM","TA446","GOSSAMER BEAR","BlueCharlie","Star Blizzard","TAG-53","IRON FRONTIER","UNC4057","Blue Callisto","Callisto"]
 description: "The Callisto Group is an advanced threat actor whose known targets include military personnel, government officials, think tanks, and journalists in Europe and the South Caucasus. Their primary interes"
 permalink: /callisto/
 ---

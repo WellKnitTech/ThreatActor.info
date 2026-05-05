@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Curious Gorge"
-aliases: ["UNC3742", "Curious Gorge"]
+aliases: ["UNC3742","Curious Gorge"]
 description: "Curious Gorge, a group TAG attributes to China's PLA SSF, has conducted campaigns against government and military organizations in Ukraine, Russia, Kazakhstan, and Mongolia. The actor has remained acti"
 permalink: /curious-gorge/
 ---

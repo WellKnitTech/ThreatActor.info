@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Moskalvzapoe"
-aliases: ["MAN1", "TA511", "Moskalvzapoe"]
+aliases: ["MAN1","TA511","Moskalvzapoe"]
 description: "Moskalvzapoe is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /moskalvzapoe/
 ---

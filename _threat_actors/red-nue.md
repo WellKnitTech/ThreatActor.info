@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Red Nue"
-aliases: ["LuoYu", "Red Nue"]
+aliases: ["LuoYu","Red Nue"]
 description: "Red Nue, active since at least 2017, is known for its use of the multi-platform LootRAt backdoor, also known as ReverseWindow. LootRAT has variants for Windows and Macintosh (reported in open source as"
 permalink: /red-nue/
 ---

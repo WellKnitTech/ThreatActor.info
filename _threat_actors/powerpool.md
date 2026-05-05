@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "PowerPool"
-aliases: ["IAmTheKing", "PowerPool", "Powerpool", "IamtheKing"]
+aliases: ["IAmTheKing","PowerPool","Powerpool","IamtheKing"]
 description: "Malware developers have started to use the zero-day exploit for Task Scheduler component in Windows, two days after proof-of-concept code for the vulnerability appeared online.  A security researcher w"
 permalink: /powerpool/
 ---

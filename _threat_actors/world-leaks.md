@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "World Leaks"
 aliases: ["World Leaks"]
-description: "History and Origins Origins: Formerly known as \"Hunters International,\" active since late 2023, and believed to be a reincarnation of the Hive group. Rebranding: In January 2025, Hunters Internationa"
+description: "History and Origins Origins: Formerly known as \"Hunters International,\" active since late 2023, and believed to be a reincarnation of the Hive group. Rebranding: In January 2025, Hunters International "
 permalink: /world-leaks/
 ---
 

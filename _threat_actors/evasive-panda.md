@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Evasive Panda"
-aliases: ["BRONZE HIGHLAND", "Evasive Panda"]
+aliases: ["BRONZE HIGHLAND","Evasive Panda"]
 description: "Evasive Panda is an APT group that has been active since at least 2012, conducting cyberespionage targeting individuals, government institutions and organizations."
 permalink: /evasive-panda/
 ---

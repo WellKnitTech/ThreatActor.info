@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "El Machete"
-aliases: ["Machete", "machete-apt", "APT-C-43", "G0095", "El Machete"]
+aliases: ["Machete","machete-apt","APT-C-43","G0095","El Machete"]
 description: "El Machete is one of these threats that was first publicly disclosed and named by Kaspersky here. We’ve found that this group has continued to operate successfully, predominantly in Latin America, sinc"
 permalink: /el-machete/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Hezb"
-aliases: ["Mimo", "Hezb"]
+aliases: ["Mimo","Hezb"]
 description: "Hezb is a group deploying cryptominers when new exploit are available for public facing vulnerabilities. The name is after the miner process they deploy."
 permalink: /hezb/
 ---

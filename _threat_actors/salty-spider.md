@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "SALTY SPIDER"
-aliases: ["SALTY SPIDER", "KuKu", "SalLoad", "Kookoo", "Sality", "Kukacka", "SaliCode", "Salty Spider"]
+aliases: ["SALTY SPIDER","KuKu","SalLoad","Kookoo","Sality","Kukacka","SaliCode","Salty Spider"]
 description: "Beginning in January 2018 and persisting through the first half of the year, CrowdStrike Intelligence observed SALTY SPIDER, developer and operator of the long-running Sality botnet, distribute malware"
 permalink: /salty-spider/
 ---

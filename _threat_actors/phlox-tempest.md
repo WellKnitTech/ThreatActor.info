@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Phlox Tempest"
-aliases: ["DEV-0796", "Phlox Tempest"]
+aliases: ["DEV-0796","Phlox Tempest"]
 description: "Phlox Tempest is a threat actor responsible for a large-scale click fraud campaign targeting users through YouTube comments and malicious ads. They use ChromeLoader to infect victims' computers with ma"
 permalink: /phlox-tempest/
 ---

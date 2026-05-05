@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Night Tsunami"
-aliases: ["DEV-0336", "NSO Group", "Night Tsunami"]
+aliases: ["DEV-0336","NSO Group","Night Tsunami"]
 description: "Microsoft threat actor profile. Origin/Threat: Israel."
 permalink: /night-tsunami/
 ---

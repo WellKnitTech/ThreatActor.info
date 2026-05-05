@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Cyber fighters of Izz Ad-Din Al Qassam"
-aliases: ["Fraternal Jackal", "Cyber fighters of Izz Ad-Din Al Qassam"]
+aliases: ["Fraternal Jackal","Cyber fighters of Izz Ad-Din Al Qassam"]
 description: "Cyber fighters of Izz Ad-Din Al Qassam is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /cyber-fighters-of-izz-ad-din-al-qassam/
 ---

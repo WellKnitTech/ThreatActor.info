@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Infy"
-aliases: ["Operation Mermaid", "Prince of Persia", "Foudre", "Infy"]
+aliases: ["Operation Mermaid","Prince of Persia","Foudre","Infy"]
 description: "Infy is a group of suspected Iranian origin. Since early 2013, we have observed activity from a unique threat actor group, which we began to investigate based on increased activities against human righ"
 permalink: /infy/
 ---

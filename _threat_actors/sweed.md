@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "SWEED"
 aliases: ["SWEED"]
-description: "Cisco Talos recently identified a large number of ongoing malware distribution campaigns linked to a threat actor we're calling \"SWEED,\" including such notable malware as Formbook, Lokibot and Agent "
+description: "Cisco Talos recently identified a large number of ongoing malware distribution campaigns linked to a threat actor we're calling \"SWEED,\" including such notable malware as Formbook, Lokibot and Agent Te"
 permalink: /sweed/
 ---
 
