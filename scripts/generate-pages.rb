@@ -19,6 +19,7 @@ require 'cgi'
 require 'net/http'
 require 'digest'
 require_relative 'actor_store'
+require_relative 'front_matter_yaml'
 require_relative 'ioc_yaml_reader'
 
 PAGE_DIR = '_threat_actors'
@@ -91,21 +92,18 @@ end
 def build_front_matter(actor)
   lines = []
   lines << "layout: threat_actor"
-  lines << "title: \"#{actor['name']}\""
-  
-  # Aliases
-  aliases = Array(actor['aliases']).map { |a| "\"#{a}\"" }.join(', ')
-  lines << "aliases: [#{aliases}]"
-  
-  # Description
+  lines << FrontMatterYaml.json_scalar_line('title', actor['name'])
+  lines << FrontMatterYaml.json_array_line('aliases', actor['aliases'] || [])
+
   if actor['description']
-    lines << "description: \"#{actor['description'].gsub('"', '\\"').gsub("\n", ' ')[0..200]}\""
+    slice = actor['description'].gsub("\n", ' ')[0..200]
+    lines << FrontMatterYaml.json_scalar_line('description', slice)
   end
-  
+
   # Permalink - ensure trailing slash
   url = actor['url']&.gsub(/\/$/, '') || 'unknown'
   lines << "permalink: #{url}/"
-  
+
   lines.join("\n")
 end
 
