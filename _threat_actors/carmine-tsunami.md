@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Carmine Tsunami"
-aliases: ["DEV-0196", "QuaDream", "Carmine Tsunami"]
+aliases: ["DEV-0196","QuaDream","Carmine Tsunami"]
 description: "Carmine Tsunami is a threat actor linked to an Israel-based private sector offensive actor called QuaDream. QuaDream sells a platform called REIGN to governments for law enforcement purposes, which inc"
 permalink: /carmine-tsunami/
 ---

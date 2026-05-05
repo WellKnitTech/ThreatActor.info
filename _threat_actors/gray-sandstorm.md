@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Gray Sandstorm"
-aliases: ["DEV-0343", "Gray Sandstorm"]
+aliases: ["DEV-0343","Gray Sandstorm"]
 description: "Gray Sandstorm is an Iran-linked threat actor that has been active since at least 2012. They have targeted defense technology companies, maritime transportation companies, and Persian Gulf ports of ent"
 permalink: /gray-sandstorm/
 ---

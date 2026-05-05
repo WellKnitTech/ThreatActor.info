@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT4"
-aliases: ["PLA Navy", "MAVERICK PANDA", "BRONZE EDISON", "SODIUM", "Salmon Typhoon", "APT4"]
+aliases: ["PLA Navy","MAVERICK PANDA","BRONZE EDISON","SODIUM","Salmon Typhoon","APT4"]
 description: "APT4 is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /apt4/
 ---

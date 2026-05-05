@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Rocket Kitten"
-aliases: ["TEMP.Beanie", "Operation Woolen Goldfish", "Operation Woolen-Goldfish", "Thamar Reservoir", "Timberworm", "Rocket Kitten"]
+aliases: ["TEMP.Beanie","Operation Woolen Goldfish","Operation Woolen-Goldfish","Thamar Reservoir","Timberworm","Rocket Kitten"]
 description: "Targets Saudi Arabia, Israel, US, Iran, high ranking defense officials, embassies of various target countries, notable Iran researchers, human rights activists, media and journalists, academic institut"
 permalink: /rocket-kitten/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "BANISHED KITTEN"
-aliases: ["DUNE", "Storm-0842", "Red Sandstorm", "BANISHED KITTEN"]
+aliases: ["DUNE","Storm-0842","Red Sandstorm","BANISHED KITTEN"]
 description: "BANISHED KITTEN is an Iranian state-nexus adversary active since at least 2008. While the adversary’s most prominent activity is the July and September 2022 disruptive attacks targeting Albanian govern"
 permalink: /banished-kitten/
 ---

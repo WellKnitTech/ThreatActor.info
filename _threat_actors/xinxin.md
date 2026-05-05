@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "XinXin"
-aliases: ["changqixinyun", "Black Technology", "XinXin"]
+aliases: ["changqixinyun","Black Technology","XinXin"]
 description: "XinXin is a Chinese-speaking threat actor known for its phishing-as-a-service platform, Lucid, which targets global organizations to steal credit card details and personally identifiable information th"
 permalink: /xinxin/
 ---

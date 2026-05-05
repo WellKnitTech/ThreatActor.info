@@ -978,8 +978,14 @@ class EtdaThaicertImporter
     match = content.match(/\A---\s*\n(.*?)\n---\s*\n?(.*)\z/m)
     raise "Invalid front matter in #{path}" unless match
 
+    front_matter = begin
+      YAML.safe_load(match[1], permitted_classes: [], aliases: true) || {}
+    rescue Psych::SyntaxError => e
+      raise "YAML front matter syntax error in #{path} at line #{e.line} column #{e.column}: #{e.problem}"
+    end
+
     {
-      front_matter: YAML.safe_load(match[1], permitted_classes: [], aliases: true) || {},
+      front_matter: front_matter,
       body: match[2].strip
     }
   end

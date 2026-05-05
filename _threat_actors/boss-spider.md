@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "BOSS SPIDER"
-aliases: ["GOLD LOWELL", "BOSS SPIDER", "Boss Spider", "Gold lowell"]
+aliases: ["GOLD LOWELL","BOSS SPIDER","Boss Spider","Gold lowell"]
 description: "Throughout 2018, CrowdStrike Intelligence tracked BOSS SPIDER as it regularly updated Samas ransomware and received payments to known Bitcoin (BTC) addresses. This consistent pace of activity came to a"
 permalink: /boss-spider/
 ---

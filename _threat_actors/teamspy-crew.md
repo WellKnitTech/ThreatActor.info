@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "TeamSpy Crew"
-aliases: ["TeamSpy", "Team Bear", "Anger Bear", "IRON LYRIC", "TeamSpy Crew", "SIG39"]
+aliases: ["TeamSpy","Team Bear","Anger Bear","IRON LYRIC","TeamSpy Crew","SIG39"]
 description: "Researchers have uncovered a long-term cyber-espionage campaign that used a combination of legitimate software packages and commodity malware tools to target a variety of heavy industry, government int"
 permalink: /teamspy-crew/
 ---

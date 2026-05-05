@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "BAMBOO SPIDER"
-aliases: ["BAMBOO SPIDER", "Bamboo Spider"]
+aliases: ["BAMBOO SPIDER","Bamboo Spider"]
 description: "Crowdstrike tracks the developer of Panda Zeus as BAMBOO SPIDER"
 permalink: /bamboo-spider/
 ---

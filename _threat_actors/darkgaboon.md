@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "DarkGaboon"
-aliases: ["Vengeful Wolf", "room155", "DarkGaboon"]
+aliases: ["Vengeful Wolf","room155","DarkGaboon"]
 description: "DarkGaboon is a financially motivated APT group that has been independently targeting Russian organizations since May 2023, primarily using phishing emails to deliver malware such as Revenge RAT and Lo"
 permalink: /darkgaboon/
 ---

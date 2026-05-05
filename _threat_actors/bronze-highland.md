@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "BRONZE HIGHLAND"
-aliases: ["Evasive Panda", " Daggerfly", "BRONZE HIGHLAND"]
+aliases: ["Evasive Panda"," Daggerfly","BRONZE HIGHLAND"]
 description: "BRONZE HIGHLAND has been observed using spearphishing as an initial infection vector to deploy the MgBot remote access trojan against targets in Hong Kong. Third party reporting suggests the threat gro"
 permalink: /bronze-highland/
 ---

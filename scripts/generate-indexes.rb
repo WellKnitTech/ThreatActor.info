@@ -301,9 +301,15 @@ class ThreatActorIndexGenerator
     match = content.match(/\A---\s*\n(.*?)\n---\s*\n?(.*)\z/m)
     raise "Invalid front matter in #{path}" unless match
 
+    front_matter = begin
+      safe_load_yaml(match[1]) || {}
+    rescue Psych::SyntaxError => e
+      raise "YAML front matter syntax error in #{path} at line #{e.line} column #{e.column}: #{e.problem}"
+    end
+
     {
       path: path,
-      front_matter: safe_load_yaml(match[1]) || {},
+      front_matter: front_matter,
       body: match[2]
     }
   end

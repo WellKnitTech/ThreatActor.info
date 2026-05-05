@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Wisteria Tsunami"
-aliases: ["DEV-0605", "CyberRoot", "MintedSoil", "Wisteria Tsunami"]
+aliases: ["DEV-0605","CyberRoot","MintedSoil","Wisteria Tsunami"]
 description: "Microsoft threat actor profile. Origin/Threat: India, Private sector offensive actor."
 permalink: /wisteria-tsunami/
 ---

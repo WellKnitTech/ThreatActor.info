@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Flying Kitten"
-aliases: ["SaffronRose", "Saffron Rose", "AjaxSecurityTeam", "Ajax Security Team", "Group 26", "Sayad", "Flying Kitten"]
+aliases: ["SaffronRose","Saffron Rose","AjaxSecurityTeam","Ajax Security Team","Group 26","Sayad","Flying Kitten"]
 description: "Activity: defense and aerospace sectors, also interested in targeting entities in the oil/gas industry."
 permalink: /flying-kitten/
 ---

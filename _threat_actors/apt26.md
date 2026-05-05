@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT26"
-aliases: ["JerseyMikes", "TURBINE PANDA", "BRONZE EXPRESS", "TECHNETIUM", "Taffeta Typhoon", "APT26"]
+aliases: ["JerseyMikes","TURBINE PANDA","BRONZE EXPRESS","TECHNETIUM","Taffeta Typhoon","APT26"]
 description: "APT26 is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /apt26/
 ---

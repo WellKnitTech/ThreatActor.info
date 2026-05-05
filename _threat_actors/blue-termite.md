@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Blue Termite"
-aliases: ["Cloudy Omega", "Emdivi", "Blue Termite"]
+aliases: ["Cloudy Omega","Emdivi","Blue Termite"]
 description: "Blue Termite is a group of suspected Chinese origin active in Japan."
 permalink: /blue-termite/
 ---

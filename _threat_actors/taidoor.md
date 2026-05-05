@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Taidoor"
-aliases: ["G0015", "Earth Aughisky", "Taidoor", "EarthAughisky"]
+aliases: ["G0015","Earth Aughisky","Taidoor","EarthAughisky"]
 description: "The Taidoor attackers have been actively engaging in targeted attacks since at least March 4, 2009. Despite some exceptions, the Taidoor campaign often used Taiwanese IP addresses as C&C servers and em"
 permalink: /taidoor/
 ---
@@ -20,7 +20,9 @@ The Taidoor attackers have been actively engaging in targeted attacks since at l
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+*Enterprise ATT&CK techniques below are drawn from the merged [Categorized Adversary TTPs](https://github.com/tropChaud/Categorized-Adversary-TTPs) dataset for MITRE group G0015 (YAML `ttps` empty).*
+
+- [T1032](https://attack.mitre.org/techniques/T1032/)
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*

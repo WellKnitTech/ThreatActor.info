@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Qilin"
-aliases: ["Qilin Ransomware", "Qilin Gang", "Qilin Group", "Qilin"]
+aliases: ["Qilin Ransomware","Qilin Gang","Qilin Group","Qilin"]
 description: "Qilin is a ransomware group that first appeared in 2022 but had a breakout year in 2024, with around 200 victims, 156 of them based in the U.S."
 permalink: /qilin/
 ---

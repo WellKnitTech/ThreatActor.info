@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "SAMURAI PANDA"
-aliases: ["PLA Navy", "Wisp Team", "SAMURAI PANDA"]
+aliases: ["PLA Navy","Wisp Team","SAMURAI PANDA"]
 description: "SAMURAI PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /samurai-panda/
 ---

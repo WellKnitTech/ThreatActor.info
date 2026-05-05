@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT9"
-aliases: ["NIGHTSHADE PANDA", "Red Pegasus", "Group 27", "APT9", "FlowerLady", "Nightshade Panda"]
+aliases: ["NIGHTSHADE PANDA","Red Pegasus","Group 27","APT9","FlowerLady","Nightshade Panda"]
 description: "APT9 engages in cyber operations where the goal is data theft, usually focusing on the data and projects that make a particular organization competitive within its field. APT9 was historically very act"
 permalink: /apt9/
 ---

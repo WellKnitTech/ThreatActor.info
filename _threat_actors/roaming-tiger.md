@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Roaming Tiger"
-aliases: ["BRONZE WOODLAND", "Rotten Tomato", "Roaming Tiger"]
+aliases: ["BRONZE WOODLAND","Rotten Tomato","Roaming Tiger"]
 description: "Roaming Tiger is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /roaming-tiger/
 ---

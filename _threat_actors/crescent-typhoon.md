@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Crescent Typhoon"
-aliases: ["CESIUM", "Crescent Typhoon"]
+aliases: ["CESIUM","Crescent Typhoon"]
 description: "Microsoft threat actor profile. Origin/Threat: China."
 permalink: /crescent-typhoon/
 ---

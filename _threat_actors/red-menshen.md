@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Red Menshen"
-aliases: ["Red Dev 18", "Earth Bluecrow", "Red Menshen"]
+aliases: ["Red Dev 18","Earth Bluecrow","Red Menshen"]
 description: "Since 2021, Red Menshen, a China based threat actor, which has been observed targeting telecommunications providers across the Middle East and Asia, as well as entities in the government, education, an"
 permalink: /red-menshen/
 ---

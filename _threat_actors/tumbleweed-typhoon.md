@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Tumbleweed Typhoon"
-aliases: ["THORIUM", "Karst", "Tumbleweed Typhoon"]
+aliases: ["THORIUM","Karst","Tumbleweed Typhoon"]
 description: "Microsoft threat actor profile. Origin/Threat: China."
 permalink: /tumbleweed-typhoon/
 ---

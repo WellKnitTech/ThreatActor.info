@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "BuhTrap"
-aliases: ["BuhTrap", "Ratopak"]
+aliases: ["BuhTrap","Ratopak"]
 description: "Buhtrap has been active since 2014, however their first attacks against financial institutions were only detected in August 2015. Earlier, the group had only focused on targeting banking clients. At th"
 permalink: /buhtrap/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "PREDATOR PANDA"
-aliases: ["PREDATOR PANDA", "Predator Panda"]
+aliases: ["PREDATOR PANDA","Predator Panda"]
 description: "PREDATOR PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /predator-panda/
 ---

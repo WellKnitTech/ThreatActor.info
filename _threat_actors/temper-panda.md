@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "TEMPER PANDA"
-aliases: ["Admin338", "Team338", "MAGNESIUM", "admin@338", "G0018", "TEMPER PANDA", "Temper Panda"]
+aliases: ["Admin338","Team338","MAGNESIUM","admin@338","G0018","TEMPER PANDA","Temper Panda"]
 description: "China-based cyber threat group. It has previously used newsworthy events as lures to deliver malware and has primarily targeted organizations involved in financial, economic, and trade policy, typicall"
 permalink: /temper-panda/
 ---

@@ -13,6 +13,7 @@ require 'uri'
 require 'yaml'
 
 require_relative 'actor_store'
+require_relative 'front_matter_yaml'
 require_relative 'import_utils'
 require_relative 'mitre/mitre_common'
 require_relative 'mitre/stix_loader'
@@ -482,13 +483,14 @@ class MitreAttackImporter
     filename = File.join(THREAT_ACTORS_DIR, "#{url}.md")
     yaml_lines = []
     yaml_lines << 'layout: threat_actor'
-    yaml_lines << "title: \"#{actor['name']}\""
-    aliases_str = actor['aliases'].map { |a| "\"#{a}\"" }.join(', ')
-    yaml_lines << "aliases: [#{aliases_str}]"
-    yaml_lines << "description: \"#{actor['description'][0..200].gsub('"', '\\\\"')}\""
-    yaml_lines << "permalink: #{actor['url']}"
-    yaml_lines << "external_id: #{actor['external_id']}"
-    yaml_lines << "source_attribution: \"#{actor['source_attribution'].gsub('"', '\\\\"')}\""
+    yaml_lines << FrontMatterYaml.json_scalar_line('title', actor['name'])
+    yaml_lines << FrontMatterYaml.json_array_line('aliases', actor['aliases'] || [])
+    desc_slice = actor['description'].to_s.gsub("\n", ' ')[0..200]
+    yaml_lines << FrontMatterYaml.json_scalar_line('description', desc_slice)
+    permalink = actor['url'].to_s.gsub(%r{/\z}, '')
+    yaml_lines << "permalink: #{permalink}/"
+    yaml_lines << FrontMatterYaml.json_scalar_line('external_id', actor['external_id'])
+    yaml_lines << FrontMatterYaml.json_scalar_line('source_attribution', actor['source_attribution'])
 
     content = <<~CONTENT
       ---

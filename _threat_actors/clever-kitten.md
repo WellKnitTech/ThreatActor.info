@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Clever Kitten"
-aliases: ["Group 41", "Clever Kitten"]
+aliases: ["Group 41","Clever Kitten"]
 description: "Clever Kitten is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /clever-kitten/
 ---

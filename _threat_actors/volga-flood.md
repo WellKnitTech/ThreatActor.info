@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Volga Flood"
-aliases: ["Storm-1841", "Rybar", "Volga Flood"]
+aliases: ["Storm-1841","Rybar","Volga Flood"]
 description: "Microsoft threat actor profile. Origin/Threat: Russia, Influence operations."
 permalink: /volga-flood/
 ---

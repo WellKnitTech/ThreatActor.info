@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "DIZZY PANDA"
-aliases: ["LadyBoyle", "DIZZY PANDA"]
+aliases: ["LadyBoyle","DIZZY PANDA"]
 description: "DIZZY PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /dizzy-panda/
 ---

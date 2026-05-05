@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "RASPITE"
-aliases: ["LeafMiner", "Raspite", "RASPITE"]
+aliases: ["LeafMiner","Raspite","RASPITE"]
 description: "Dragos has identified a new activity group targeting access operations in the electric utility sector. We call this activity group RASPITE.  Analysis of RASPITE tactics, techniques, and procedures (TTP"
 permalink: /raspite/
 ---

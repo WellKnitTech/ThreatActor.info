@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "AridViper"
-aliases: ["Desert Falcon", "Arid Viper", "APT-C-23", "Bearded Barbie", "Two-tailed Scorpion", "AridViper"]
+aliases: ["Desert Falcon","Arid Viper","APT-C-23","Bearded Barbie","Two-tailed Scorpion","AridViper"]
 description: "AridViper is a state-sponsored APT primarily targeting military personnel, journalists, and dissidents in the Middle East, with a focus on Israel and Palestine. The group employs custom-developed mobil"
 permalink: /aridviper/
 ---

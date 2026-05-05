@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Shamoon Group"
-aliases: ["Cutting Sword of Justice", "Shamoon Group"]
+aliases: ["Cutting Sword of Justice","Shamoon Group"]
 description: "Shamoon Group is an Iran-linked threat actor associated with destructive Shamoon wiper operations targeting organizations in the Middle East, especially in the energy sector."
 permalink: /shamoon-group/
 ---

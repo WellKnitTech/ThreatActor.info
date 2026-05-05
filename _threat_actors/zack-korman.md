@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Zack Korman"
-aliases: ["Zackware", "BreachBro"]
+aliases: ["Zackware","BreachBro"]
 description: "Self-proclaimed ethical hacker who publishes detailed breach guides for profit. Operates under the guise of security research while selling access to compromised data on forums. Known for aggressive ma"
 permalink: /zack-korman/
 ---

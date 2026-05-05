@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Akira"
-aliases: ["Akira", "Akira Ransomware", "GOLD SAHARA", "Howling Scorpius", "PUNK SPIDER"]
+aliases: ["Akira","Akira Ransomware","GOLD SAHARA","Howling Scorpius","PUNK SPIDER"]
 description: "Akira is a ransomware variant and ransomware deployment entity active since at least March 2023. [Arctic Wolf Akira 2023](https://arcticwolf.com/resources/blog/conti-and-akira-chained-together/) Akira "
 permalink: /akira/
 ---

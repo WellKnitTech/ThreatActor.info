@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Beijing Group"
-aliases: ["SNEAKY PANDA", "Elderwood", "Elderwood Gang", "SIG22", "G0066", "Beijing Group"]
+aliases: ["SNEAKY PANDA","Elderwood","Elderwood Gang","SIG22","G0066","Beijing Group"]
 description: "Beijing Group is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /beijing-group/
 ---
