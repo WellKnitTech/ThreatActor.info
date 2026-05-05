@@ -955,11 +955,10 @@ class ContentValidator
       next if section.empty?
 
       extract_malware_names(section).each do |name|
-        slug = slugify(name)
-        next if slug.empty?
+        candidate_urls = malware_bullet_url_candidates(name)
+        next if candidate_urls.any? { |u| malware_urls.include?(u) }
 
-        url = "/malware/#{slug}/"
-        add_error(file, "Malware entry '#{name}' does not resolve to #{url}") unless malware_urls.include?(url)
+        add_error(file, "Malware entry '#{name}' does not resolve to #{candidate_urls.first}")
       end
     end
   rescue StandardError => e
@@ -1010,6 +1009,35 @@ class ContentValidator
 
   def slugify(value)
     value.to_s.downcase.gsub(/[^a-z0-9]+/, '-').gsub(/^-|-$/, '')
+  end
+
+  # Derive possible /malware/:slug/ URLs for a bullet label (handles MITRE suffixes like " — malware").
+  def malware_bullet_url_candidates(label)
+    n = label.to_s.strip
+    variants = [n]
+    variants << n.sub(/\s*[\u2013\u2014\-]\s*malware\s*\z/i, '').strip
+    variants << n.sub(/\s*[\u2013\u2014\-]\s*tool\s*\z/i, '').strip
+    variants = variants.compact.uniq.reject(&:empty?)
+
+    expanded = variants.flat_map do |v|
+      stripped = v.sub(/\s*\(S\d+\)\s*\z/, '').strip
+      [v, stripped]
+    end.uniq.reject(&:empty?)
+
+    final_labels = expanded.flat_map do |v|
+      [
+        v,
+        v.sub(/\s*[\u2013\u2014\-]\s*malware\s*\z/i, '').strip,
+        v.sub(/\s*[\u2013\u2014\-]\s*tool\s*\z/i, '').strip
+      ]
+    end.uniq.reject(&:empty?)
+
+    final_labels.filter_map do |v|
+      slug = slugify(v)
+      next if slug.empty?
+
+      "/malware/#{slug}/"
+    end.uniq
   end
 
   def add_error(file, message)
