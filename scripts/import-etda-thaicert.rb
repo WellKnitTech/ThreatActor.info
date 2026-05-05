@@ -15,6 +15,9 @@ require 'yaml'
 require_relative 'actor_store'
 
 class EtdaThaicertImporter
+  class UnsupportedResponseFormatError < StandardError; end
+  class SourceAuthenticationError < StandardError; end
+
   PAGE_DIR = '_threat_actors'.freeze
   DEFAULT_SNAPSHOT_ROOT = 'data/imports/etda-thaicert'.freeze
   DEFAULT_OVERRIDES_FILE = 'data/imports/etda-thaicert/mapping_overrides.yml'.freeze
@@ -171,6 +174,11 @@ class EtdaThaicertImporter
 
       payload = http_get(url)
       payloads << { payload: payload, source_url: url }
+    rescue UnsupportedResponseFormatError => e
+      warn "Fetch warning for #{url}: #{e.message}"
+      warn "Response snippet: #{response_snippet(e.respond_to?(:body) ? e.body : nil)}"
+    rescue SourceAuthenticationError => e
+      warn "Fetch warning for #{url}: #{e.message}"
     rescue StandardError => e
       warn "Fetch failed for #{url}: #{e.message}"
     end
@@ -927,16 +935,49 @@ class EtdaThaicertImporter
       raise "Redirect without location for #{url}" if location.to_s.empty?
 
       http_get(location, limit - 1)
+    when Net::HTTPUnauthorized
+      if url == @options[:mirror_url]
+        raise SourceAuthenticationError, "HTTP 401 from mirror; continuing with primary ETDA sources"
+      end
+
+      raise "HTTP #{response.code} for #{url}"
     else
       raise "HTTP #{response.code} for #{url}"
     end
   end
 
   def parse_response_body(body)
-    JSON.parse(body)
+    text = body.to_s
+    JSON.parse(text)
   rescue JSON::ParserError
-    rows = CSV.parse(body, headers: true)
+    unless csv_like_payload?(text)
+      error = UnsupportedResponseFormatError.new('Unsupported response format')
+      error.define_singleton_method(:body) { text }
+      raise error
+    end
+
+    rows = CSV.parse(text, headers: true)
     rows.map(&:to_h)
+  rescue CSV::MalformedCSVError
+    error = UnsupportedResponseFormatError.new('Unsupported response format')
+    error.define_singleton_method(:body) { text }
+    raise error
+  end
+
+  def csv_like_payload?(body)
+    lines = body.to_s.lines.map(&:strip).reject(&:empty?)
+    return false if lines.empty?
+
+    first_line = lines.first
+    return true if first_line.include?(',') || first_line.include?(';') || first_line.include?("\t")
+
+    false
+  end
+
+  def response_snippet(body)
+    return '(empty response)' if body.to_s.strip.empty?
+
+    body.to_s.lines.first.to_s.strip[0, 200]
   end
 
   def safe_load_yaml_file(path)
