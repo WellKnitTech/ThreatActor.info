@@ -42,6 +42,11 @@ jobs:
     - name: Install dependencies
       run: bundle install
 
+    - name: Clean stale threat-actor markdown files
+      run: |
+        git clean -fd _threat_actors/ 2>/dev/null || true
+        rm -f _threat_actors/{nagini-ransomware,sigrun-ransomware,trumplocker-ransomware,yashma}.md
+
     - name: Run automated source imports
       env:
         SOURCE: ${{ github.event.inputs.source || '' }}
