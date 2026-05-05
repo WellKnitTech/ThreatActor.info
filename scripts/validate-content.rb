@@ -937,7 +937,8 @@ class ContentValidator
         add_error(file, "Malware actor '#{name}' has blank URL") if url.empty?
         next if url.empty?
 
-        unless actor_permalinks.include?(url)
+        normalized_url = "#{url.sub(%r{/\z}, '')}/"
+        unless actor_permalinks.include?(normalized_url)
           add_error(file, "Malware actor '#{name}' links to unknown actor URL: #{url}")
         end
       end
