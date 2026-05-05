@@ -27,6 +27,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
+    
     - name: Clean stale threat-actor markdown files
       run: |
         git clean -fd _threat_actors/ 2>/dev/null || true
