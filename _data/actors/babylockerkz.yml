@@ -1,0 +1,18 @@
+name: "babylockerkz"
+aliases: ["babylockerkz"]
+description: "BabyLockerKZ is a variant of MedusaLocker ransomware, first observed in late 2023. It operates under a double‑extortion model, combining file encryption with data exfiltration and extortion. Technically, it reuses MedusaLocker’s AES + RSA‑2048 hybrid encryption, appends the .hazard file extension to encrypted files, and includes a unique autorun registry key (“BabyLockerKZ”) alongside dedicated public/private key data inserted into registry values. Initial access is achieved through opportunistic methods like RDP compromises, with lateral movement facilitated by compromised credentials and tools such as Mimikatz. The variant employs a custom toolkit codenamed paid_memes, which includes tools like \"Checker\" for scanning credentials, facilitating automation, and bridging toolsets for further exploitation. Starting late 2022, its operators have compromised over 100 organizations per month, initially targeting European victims before shifting toward Latin America in 2023."
+url: "/babylockerkz"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Babylon"
+  - name: "Xploit"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "44b1f88d-8171-51f5-a2a5-09ffa2e9f5ff"
+    source_record_ids: ["44b1f88d-8171-51f5-a2a5-09ffa2e9f5ff"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

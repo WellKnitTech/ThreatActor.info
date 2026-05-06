@@ -1,0 +1,14 @@
+name: "SifreCozucu"
+aliases: ["SifreCozucu"]
+description: "ransomware"
+url: "/sifrecozucu"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "364013f9-15d2-41c0-b458-fd4085466151"
+    source_record_ids: ["364013f9-15d2-41c0-b458-fd4085466151"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

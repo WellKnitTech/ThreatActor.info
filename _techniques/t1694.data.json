@@ -1,0 +1,26 @@
+{
+  "mitre_id": "T1694",
+  "mitigations": [
+    {
+      "name": "Access Management",
+      "mitre_id": "M0801",
+      "url": "https://attack.mitre.org/mitigations/M0801",
+      "stix_id": "course-of-action--3992ce42-43e9-4bea-b8db-a102ec3ec1e3"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1694.002",
+      "name": "Hardcoded Credentials",
+      "permalink": "/techniques/T1694.002/"
+    },
+    {
+      "id": "T1694.001",
+      "name": "Default Credentials",
+      "permalink": "/techniques/T1694.001/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

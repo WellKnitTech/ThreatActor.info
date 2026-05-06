@@ -1,0 +1,16 @@
+name: "Army Military Intelligence Command (AMIC)"
+aliases: ["Army Military Intelligence Command (AMIC)"]
+description: "Army Military Intelligence Command (AMIC)"
+url: "/army-military-intelligence-command-amic"
+country: "Thailand"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "ae84ad49-f32d-53f7-9780-8c4dc95a3d87"
+    source_record_ids: ["ae84ad49-f32d-53f7-9780-8c4dc95a3d87"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

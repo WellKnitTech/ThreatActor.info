@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Medusa"
-aliases: ["Medusa Ransomware","Medusa"]
+aliases: ["Medusa Ransomware","Medusa","medusa"]
 description: "Medusa is a long-time presence in the ransomware scene that stepped up its activities in late 2024, pushing past its previous limits."
 permalink: /medusa/
 ---
@@ -38,6 +38,12 @@ Medusa is a long-time presence in the ransomware scene that stepped up its activ
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
+- **CORESHELL**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **Xpert**: 
+- **Xploit**: 
+
 ### Ransomware Tool Matrix observations
 
 | Category | Observed tools |

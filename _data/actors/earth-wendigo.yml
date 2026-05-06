@@ -5,10 +5,24 @@ url: "/earth-wendigo"
 country: "China"
 sector_focus: ["Government","Education"]
 targeted_victims: ["Hong Kong","Taiwan"]
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/earth_wendigo"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["Backdoor.Oldrea","China Chopper"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "earth_wendigo"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/earth_wendigo"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "c96e1329-cf7e-44ac-a3db-9e251dc98ec5"
   misp_galaxy:
+    meta_keys: ["cfr-suspected-victims","cfr-target-category","country","origin:Earth Wendigo","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "c96e1329-cf7e-44ac-a3db-9e251dc98ec5"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["c96e1329-cf7e-44ac-a3db-9e251dc98ec5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

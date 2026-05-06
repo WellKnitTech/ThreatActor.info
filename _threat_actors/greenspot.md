@@ -10,7 +10,11 @@ permalink: /greenspot/
 GreenSpot is an APT group believed to operate from Taiwan, active since at least 2007, primarily targeting government, academic, and military entities in China through phishing campaigns. The group frequently targets 163.com, aiming to steal login credentials using deceptive domains, manipulated TLS certificates, and counterfeit interfaces. Their tactics highlight the sophistication of modern credential theft operations, necessitating detection efforts focused on irregular domain registrations and certificate anomalies.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ Taiwan
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -25,7 +29,8 @@ GreenSpot is an APT group believed to operate from Taiwan, active since at least
 - **China Chopper**
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Taiwan
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

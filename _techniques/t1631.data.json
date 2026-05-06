@@ -1,0 +1,16 @@
+{
+  "mitre_id": "T1631",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+    {
+      "id": "T1631.001",
+      "name": "Ptrace System Calls",
+      "permalink": "/techniques/T1631.001/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

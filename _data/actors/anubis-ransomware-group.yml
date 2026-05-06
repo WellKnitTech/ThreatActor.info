@@ -1,0 +1,18 @@
+name: "Anubis Ransomware Group"
+aliases: ["Anubis Ransomware Group"]
+description: "Anubis is a ransomware group that emerged in late 2024, known for using double extortion tactics and operating as a ransomware-as-a-service (RaaS). They employ various monetization models, including data ransomware and access monetization affiliate programs. The group is suspected to have former affiliates of other ransomware groups and is active on cybercrime forums like RAMP and XSS.<sup>[[Kelacyber February 25 2025](/references/321f34fb-b80b-4bd3-bceb-e51b6214b883)]</sup>"
+url: "/anubis-ransomware-group"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "8a280bdd-d14c-43ca-b5cb-bd68e1fda44a"
+    source_record_ids: ["8a280bdd-d14c-43ca-b5cb-bd68e1fda44a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

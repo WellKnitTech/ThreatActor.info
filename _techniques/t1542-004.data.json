@@ -1,0 +1,29 @@
+{
+  "mitre_id": "T1542.004",
+  "mitigations": [
+    {
+      "name": "Boot Integrity",
+      "mitre_id": "M1046",
+      "url": "https://attack.mitre.org/mitigations/M1046",
+      "stix_id": "course-of-action--7da0387c-ba92-4553-b291-b636ee42b2eb"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "Network Intrusion Prevention",
+      "mitre_id": "M1031",
+      "url": "https://attack.mitre.org/mitigations/M1031",
+      "stix_id": "course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

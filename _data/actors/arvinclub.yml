@@ -1,0 +1,17 @@
+name: "Arvinclub"
+aliases: ["Arvin Club","Arvinclub"]
+description: "Arvin Club is a popular Ransomware group with a widespread Telegram presence, which includes personal group chats, and official channels.\nThe group recently launched their official TOR/ Onion website to update their status and release details of their latest attacks and data breaches.\nTheir latest target is Kendriya Vidyala, a chain of Schools in India. The group has exposed the Personally Identifiable Information (PII) of some students."
+url: "/arvinclub"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "OnionDuke"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "2dfc1668-e338-47f0-ba6c-b4bc3046881e"
+    source_record_ids: ["2dfc1668-e338-47f0-ba6c-b4bc3046881e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

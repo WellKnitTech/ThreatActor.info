@@ -1,0 +1,15 @@
+name: "EiTest"
+aliases: ["EiTest"]
+description: "Ransomware"
+url: "/eitest"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "0a24ea0d-3f8a-428a-8b77-ef5281c1ee05"
+    source_record_ids: ["0a24ea0d-3f8a-428a-8b77-ef5281c1ee05"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "satanlock"
+aliases: ["satanlock"]
+description: "Connected to GD Lockersec and Babuk-Bjorka.\r<br/>\r<br/>Group is aka SalanLock (from typo on victim pages)."
+url: "/satanlock"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "f69cba54-fe90-5f3c-9ca9-828e43729890"
+    source_record_ids: ["f69cba54-fe90-5f3c-9ca9-828e43729890"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,14 @@
+name: "cicada3301"
+aliases: ["cicada3301"]
+description: "Cicada3301 is a sophisticated Ransomware-as-a-Service (RaaS) group that emerged in June 2024. It’s written in Rust and supports cross-platform operations, targeting Windows, Linux, VMware ESXi, NAS, and even PowerPC systems. Technically, its ransomware shares many traits with BlackCat/ALPHV, such as use of ChaCha20 encryption, Rust-based structure, similar configuration interfaces, and methods for shutting down virtual machines and deleting snapshots. Cicada3301 also implements double-extortion tactics—encrypting or exfiltrating data and publishing it on Tor-based leak sites. The group appears to have established an affiliate program, demonstrated through their deployment interfaces and recruitment tactics via forums like RAMP. Operations are believed to be highly professional, possibly involving former ALPHV developers or affiliates."
+url: "/cicada33o1"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/cicada33o1"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "cicada33o1"
+  source_retrieved_at: "2026-05-06T21:57:34Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

@@ -1,0 +1,82 @@
+{
+  "mitre_id": "T1560",
+  "mitigations": [
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1560.002",
+      "name": "Archive via Library",
+      "permalink": "/techniques/T1560.002/"
+    },
+    {
+      "id": "T1560.001",
+      "name": "Archive via Utility",
+      "permalink": "/techniques/T1560.001/"
+    },
+    {
+      "id": "T1560.003",
+      "name": "Archive via Custom Method",
+      "permalink": "/techniques/T1560.003/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Dragonfly",
+      "url": "/apt0035"
+    },
+    {
+      "name": "Patchwork",
+      "url": "/apt0040"
+    },
+    {
+      "name": "Axiom",
+      "url": "/apt0001"
+    },
+    {
+      "name": "Ember Bear",
+      "url": "/apt1003"
+    },
+    {
+      "name": "BlackByte",
+      "url": "/apt1043"
+    },
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    },
+    {
+      "name": "APT28",
+      "url": "/apt28"
+    },
+    {
+      "name": "APT32",
+      "url": "/apt32"
+    },
+    {
+      "name": "FIN6",
+      "url": "/apt0037"
+    },
+    {
+      "name": "LuminousMoth",
+      "url": "/apt1014"
+    },
+    {
+      "name": "Ke3chang",
+      "url": "/apt0004"
+    },
+    {
+      "name": "menuPass",
+      "url": "/apt0045"
+    },
+    {
+      "name": "Leviathan",
+      "url": "/apt40"
+    }
+  ]
+}

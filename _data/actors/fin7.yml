@@ -1,5 +1,5 @@
 name: "FIN7"
-aliases: ["Anunak","ATK32","Calcium","Carbanak","Carbon Spider","CARBON SPIDER","Coreid","ELBRUS","FIN7","G0008","G0046","GOLD NIAGARA","ITG14","JokerStash","Navigator Group","Sangria Tempest","Coried","CarbonSpider","Carbanak Group"]
+aliases: ["Anunak","ATK32","Calcium","Carbanak","Carbanak Group","Carbon Spider","CARBON SPIDER","CarbonSpider","Coreid","Coried","ELBRUS","FIN7","G0008","G0046","GOLD NIAGARA","ITG14","JokerStash","Navigator Group","Sangria Tempest","Carbanak - APT-C-11"]
 description: "FIN7 is a financially-motivated threat group that has been active since 2013. FIN7 has targeted the retail, restaurant, hospitality, software, consulting, financial services, medical equipment, cloud services, media, food and beverage, transportation, pharmaceutical, and utilities industries in the United States. A portion of FIN7 was operated out of a front company called Combi Security and often used point-of-sale malware for targeting efforts. Since 2020, FIN7 shifted operations to big game hunting (BGH), including use of REvil ransomware and their own Ransomware-as-a-Service (RaaS), Darkside. FIN7 may be linked to the Carbanak Group, but multiple threat groups have been observed using Carbanak, leading these groups to be tracked separately. [FireEye FIN7 March 2017](https://web.archive.org/web/20180808125108/https:/www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html) [FireEye FIN7 April 2017](https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html) [FireEye CARBANAK June 2017](https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html) [FireEye FIN7 Aug 2018](https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html) [CrowdStrike Carbon Spider August 2021](https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/) [Mandiant FIN7 Apr 2022](https://www.mandiant.com/resources/evolution-of-fin7) [BiZone Lizar May 2021](https://bi-zone.medium.com/from-pentest-to-apt-attack-cybercriminal-group-fin7-disguises-its-malware-as-an-ethical-hackers-c23c9a75e319)"
 url: "/fin7"
 country: "Unknown"
@@ -15,6 +15,9 @@ mitre_id: "G0046"
 mitre_url: "https://attack.mitre.org/groups/G0046"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/fin7"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 operations: ["Odinaff"]
 malware:
   - name: "PowerSource"
@@ -34,18 +37,115 @@ malware:
   - name: "VB Flash"
   - name: "JS FLash"
   - name: "Bateleur"
+software:
+  - name: "Carbanak"
+    mitre_id: "S0030"
+    url: "https://attack.mitre.org/software/S0030"
+    type: "malware"
+    stix_id: "malware--72f54d66-675d-4587-9bd3-4ed09f9522e4"
+    description: "Carbanak is a full-featured, remote backdoor used by a group of the same name (Carbanak). It is intended for espionage, data exfiltration, and providing remote access to infected machines. (Citation: Kaspersky Carbanak) (Citation: FireEye CARBANAK June 2017)"
+  - name: "Mimikatz"
+    mitre_id: "S0002"
+    url: "https://attack.mitre.org/software/S0002"
+    type: "tool"
+    stix_id: "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60"
+    description: "Mimikatz is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)"
+  - name: "PsExec"
+    mitre_id: "S0029"
+    url: "https://attack.mitre.org/software/S0029"
+    type: "tool"
+    stix_id: "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db"
+    description: "PsExec is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)"
+  - name: "netsh"
+    mitre_id: "S0108"
+    url: "https://attack.mitre.org/software/S0108"
+    type: "tool"
+    stix_id: "tool--5a63f900-5e7e-4928-a746-dd4558e1df71"
+    description: "netsh is a scripting utility used to interact with networking components on local or remote systems. (Citation: TechNet Netsh)"
+ttps:
+  - technique_id: "T1036.004"
+    technique_name: "Masquerade Task or Service"
+    url: "https://attack.mitre.org/techniques/T1036/004"
+    stix_id: "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c"
+  - technique_id: "T1218.011"
+    technique_name: "Rundll32"
+    url: "https://attack.mitre.org/techniques/T1218/011"
+    stix_id: "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5"
+  - technique_id: "T1078"
+    technique_name: "Valid Accounts"
+    url: "https://attack.mitre.org/techniques/T1078"
+    stix_id: "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
+  - technique_id: "T1102.002"
+    technique_name: "Bidirectional Communication"
+    url: "https://attack.mitre.org/techniques/T1102/002"
+    stix_id: "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4"
+  - technique_id: "T1543.003"
+    technique_name: "Windows Service"
+    url: "https://attack.mitre.org/techniques/T1543/003"
+    stix_id: "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32"
+  - technique_id: "T1219"
+    technique_name: "Remote Access Tools"
+    url: "https://attack.mitre.org/techniques/T1219"
+    stix_id: "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7"
+  - technique_id: "T1036.005"
+    technique_name: "Match Legitimate Resource Name or Location"
+    url: "https://attack.mitre.org/techniques/T1036/005"
+    stix_id: "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2"
+  - technique_id: "T1686"
+    technique_name: "Disable or Modify System Firewall"
+    url: "https://attack.mitre.org/techniques/T1686"
+    stix_id: "attack-pattern--eec096b8-c207-43df-b6c1-11523861e452"
+  - technique_id: "T1588.002"
+    technique_name: "Tool"
+    url: "https://attack.mitre.org/techniques/T1588/002"
+    stix_id: "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0008"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://securelist.com/files/2015/02/Carbanak_APT_eng.pdf","http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf","https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks","https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group/"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "others"
+  aptnotes:
+    earliest_report_year: "2014"
+    latest_report_year: "2021"
+    report_count: 13
+    sample_links: ["https://app.box.com/s/exmsfcvad1sjqtmvtzbiil9k52js62ir","https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe","https://app.box.com/s/h1dn7d6ptcpwjbcfj468fy5201ev4bbz","https://app.box.com/s/4sfhcqaaxwui1dbvd13254wm5wfy9bmk","https://app.box.com/s/ejrvucttqc6eanln2kkmqtjklg563jxg","https://app.box.com/s/cbclbgiu54ihivxe7bvblwsv1e8jq44h","https://app.box.com/s/7pr8b7cy9liv1bi88ha7frtzgrjycex3","https://app.box.com/s/7f2wiynwlbi58vsv206zn0695id5nl0k","https://app.box.com/s/kos1krnm5s1r47do98nlyv6y9jcybf12","https://app.box.com/s/egwg3so00e433s191jow7xlb1o27z7m7","https://app.box.com/s/etrhh2gb4df9sybsieg3xs1j9mx6yw8s","https://app.box.com/s/rel5slouyleepdl3u7xilbmzsuk091n3","https://app.box.com/s/33zj46v2nv1cxiging8hc1w4j4zy05ip"]
+    sample_titles: ["Anunak: Apt Against Financial Institutions","Carbanak APT The Great Bank Robbery","Carbanak is packing new guns","Carbanak Oracle Breach","Visa Alert and Update on the Oracle Breach","New Carbanak / Anunak Attack Methodology","The Digital Plagiarist Campaign: TelePorting the Carbanak Crew to a New Dimension","FIN7 Spear Phishing Campaign Targets Personnel Involved in SEC Filings","The Carbanak/Fin7 syndicate","Inside the Response of a Unique CARBANAK Intrusion"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Anomali","Brian Krebs","ESET","FireEye","Group-IB, FOX-IT","Kaspersky","RSA","Trustwave","Visa","tr1adx"]
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "fin7"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/fin7"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "00220228-a5a4-4032-a30d-826bb55aa3fb"
+  misp_galaxy:
+    meta_keys: ["attribution-confidence","cfr-type-of-incident","country","motive","origin:FIN7","origin:GOLD NIAGARA","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories","suspected-victims","target-category","microsoft-origin-threat","sector"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","tidal-groups.json","360net.json","microsoft-activity-group.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "00220228-a5a4-4032-a30d-826bb55aa3fb"
+    source_record_ids: ["00220228-a5a4-4032-a30d-826bb55aa3fb","4348c510-50fc-4448-ab8d-c8cededd19ff","a4aba29f-fb91-50d9-bdf9-2b184922a200","9471ad21-0553-5483-bf7c-e6ad9c062c79","72d9bea7-9ca1-43e6-8702-2fb7fb1355de"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   mitre:
+    attack_version: "19.0"
+    attack_version_by_domain:
+      enterprise: "19.0"
+      ics: "19.0"
+      mobile: "19.0"
+    relationships_imported_at: "2026-05-06T21:54:34Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_dataset_urls:
+      enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+      ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
+      mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0008"
-    source_retrieved_at: "2026-04-26T07:05:44Z"
+    source_retrieved_at: "2026-05-06T21:54:34Z"
+    stix_intrusion_set_id: "intrusion-set--55033a4d-3ffe-46b2-99b4-2c1541e9ce1c"
   ransomware_vulnerability_matrix:
     actor_roles: ["ransomware_affiliate"]
     references:

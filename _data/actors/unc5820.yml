@@ -2,10 +2,24 @@ name: "UNC5820"
 aliases: ["UNC5820"]
 description: "UNC5820 is a threat actor exploiting the CVE-2024-47575 vulnerability in Fortinet's FortiManager, allowing them to bypass authentication and execute arbitrary commands. They have been observed exfiltrating configuration data, user information, and FortiOS256-hashed passwords from managed FortiGate devices. While the actor has staged and exfiltrated sensitive data, there is currently no evidence of lateral movement or further compromise of additional environments. Mandiant has not determined whether UNC5820 is state-sponsored or identified its geographic location."
 url: "/unc5820"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc5820"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["Xploit","GraphicBooting"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "unc5820"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc5820"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "e13e36e7-a75b-42fa-8d51-35f9eeafebfc"
   misp_galaxy:
+    meta_keys: ["origin:UNC5820","refs","group_attack_id","owner","source","tags"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","tidal-groups.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "e13e36e7-a75b-42fa-8d51-35f9eeafebfc"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["e13e36e7-a75b-42fa-8d51-35f9eeafebfc","4ee3b97e-a8b1-4b04-b997-853fd3869f47"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

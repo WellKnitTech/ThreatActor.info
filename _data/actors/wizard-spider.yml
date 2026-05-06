@@ -7,6 +7,15 @@ sector_focus: ["Defense","Financial","Government","Healthcare","Telecommunicatio
 targeted_victims: ["Australia","Bahamas","Canada","Costa Rica","France","Germany","India","Ireland","Italy","Japan","Mexico","New Zealand","Spain","Switzerland","Taiwan","United Kingdom","Ukraine","United States"]
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "BlackEnergy"
+  - name: "BLACKCOFFEE"
+  - name: "Blackshades"
+  - name: "BlackNix"
+  - name: "Xploit"
+  - name: "BlackHole"
+  - name: "Cobalt Strike"
+  - name: "Revenge-RAT"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
@@ -15,6 +24,10 @@ provenance:
     source_retrieved_at: "2026-04-28T19:46:41Z"
     tab_name: "unknown"
   misp_galaxy:
+    meta_keys: ["microsoft-origin-threat","refs","sector","synonyms","group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "microsoft-activity-group.json"
+    source_clusters: ["microsoft-activity-group.json","tidal-groups.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "bdf4fe4f-af8a-495f-a719-cf175cecda1f"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["567ea386-a78f-5550-ae7c-9c9eacdf45af","6d6ed42c-760c-4964-a81e-1d4df06a8800"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

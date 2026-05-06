@@ -1,0 +1,20 @@
+name: "Fusob"
+aliases: ["Fusob"]
+description: "Fusob is one of the major mobile ransomware families. Between April 2015 and March 2016, about 56 percent of accounted mobile ransomware was Fusob.\nLike a typical mobile ransomware, it employs scare tactics to extort people to pay a ransom. The program pretends to be an accusatory authority, demanding the victim to pay a fine from $100 to $200 USD or otherwise face a fictitious charge. Rather surprisingly, Fusob suggests using iTunes gift cards for payment. Also, a timer clicking down on the screen adds to the users’ anxiety as well.\nIn order to infect devices, Fusob masquerades as a pornographic video player. Thus, victims, thinking it is harmless, unwittingly download Fusob.\nWhen Fusob is installed, it first checks the language used in the device. If it uses Russian or certain Eastern European languages, Fusob does nothing. Otherwise, it proceeds on to lock the device and demand ransom. Among victims, about 40% of them are in Germany with the United Kingdom and the United States following with 14.5% and 11.4% respectively.\nFusob has lots in common with Small, which is another major family of mobile ransomware. They represented over 93% of mobile ransomwares between 2015 and 2016."
+url: "/fusob"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "MobileOrder"
+  - name: "Small-Net"
+  - name: "UNITEDRAKE"
+  - name: "GraphicBooting"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c921d9ac-4145-11e8-965b-df5002d4cad8"
+    source_record_ids: ["c921d9ac-4145-11e8-965b-df5002d4cad8"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

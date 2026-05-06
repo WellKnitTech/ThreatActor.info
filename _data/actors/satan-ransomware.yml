@@ -1,0 +1,17 @@
+name: "Satan Ransomware"
+aliases: ["Satan Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide. Its original name is RAAS RANSOMWARE. It is spread using email spam, fake updates, infected attachments and so on.  It encryps all your files, including: music, MS Office, Open Office, pictures etc.. This ransomware promotes other to download viruses and spread them as ransomware to infect other users and keep 70% of the ransom. (leaving the other 30% to Satan) https://3.bp.blogspot.com/-7fwX40eYL18/WH-tfpNjDgI/AAAAAAAADPk/KVP_ji8lR0gENCMYhb324mfzIFFpiaOwACLcB/s1600/site-raas.gif RaaS"
+url: "/satan-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Virus RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "61d8bba8-7b22-493f-b023-97ffe7f17caf"
+    source_record_ids: ["61d8bba8-7b22-493f-b023-97ffe7f17caf"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -10,7 +10,12 @@ permalink: /corsair-jackal/
 Corsair Jackal is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ Tunisia
+
+**Risk Level**: High
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -25,7 +30,8 @@ Corsair Jackal is a threat actor tracked by MISP Galaxy. Additional information 
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Tunisia
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

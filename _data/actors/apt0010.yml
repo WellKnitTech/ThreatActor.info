@@ -1,10 +1,10 @@
 name: "Turla"
-aliases: ["BELUGASTURGEON","Group 88","IRON HUNTER","Krypton","Secret Blizzard","Snake","Turla","Venomous Bear","Waterbug","WhiteBear","VENOMOUS Bear","WRAITH","Uroburos","Pfinet","TAG_0530","KRYPTON","Hippo Team","Pacifier APT","Popeye","SIG23","MAKERSMARK","ATK13","G0010","ITG12","Blue Python","SUMMIT","UNC4210","UAC-0144","UAC-0024","UAC-0003","Turla Team","Турла","Turla Group"]
+aliases: ["BELUGASTURGEON","Group 88","IRON HUNTER","Krypton","Secret Blizzard","Snake","Turla","Venomous Bear","Waterbug","WhiteBear","VENOMOUS Bear","WRAITH","Uroburos","Pfinet","TAG_0530","KRYPTON","Hippo Team","Pacifier APT","Popeye","SIG23","MAKERSMARK","ATK13","G0010","ITG12","Blue Python","SUMMIT","UNC4210","UAC-0144","UAC-0024","UAC-0003","Turla Team","Турла","Turla Group","Turla, Waterbug, Venomous Bear, Group 88","Turla - APT-C-29","ATG26","Skipper Turla","White Bear"]
 description: "Turla is a cyber espionage threat group that has been attributed to Russia's Federal Security Service (FSB). They have compromised victims in over 50 countries since at least 2004, spanning a range of industries including government, embassies, military, education, research and pharmaceutical companies. Turla is known for conducting watering hole and spearphishing campaigns, and leveraging in-house tools and malware, such as Uroburos. [Kaspersky Turla](https://securelist.com/the-epic-turla-operation/65545/) [ESET Gazer Aug 2017](https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf) [CrowdStrike VENOMOUS BEAR](https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-march-venomous-bear/) [ESET Turla Mosquito Jan 2018](https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf) [Joint Cybersecurity Advisory AA23-129A Snake Malware May 2023](https://www.cisa.gov/sites/default/files/2023-05/aa23-129a_snake_malware_2.pdf)"
 url: "/apt0010"
 country: "Russia"
-sector_focus: ["Government, Administration","Education","Electric","Energy","Health","Government","Military"]
-targeted_victims: ["France","Romania","Kazakhstan","Poland","Tajikistan","Russia","United States","Saudi Arabia","Germany","India","Belarus","Netherlands","Iran","Uzbekistan","Iraq"]
+sector_focus: ["Government, Administration","Education","Electric","Energy","Health","Government","Military","Private sector"]
+targeted_victims: ["France","Romania","Kazakhstan","Poland","Tajikistan","Russia","United States","Saudi Arabia","Germany","India","Belarus","Netherlands","Iran","Uzbekistan","Iraq","South Korea","United Kingdom"]
 incident_type: "Espionage"
 first_seen: "2014"
 last_activity: "2019"
@@ -105,24 +105,32 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://securelist.com/analysis/publications/65545/the-epic-turla-operation/","https://securelist.com/blog/research/72081/satellite-turla-apt-command-and-control-in-the-sky/","https://securelist.com/blog/research/67962/the-penquin-turla-2/","https://www2.fireeye.com/rs/848-DID-242/images/rpt-witchcoven.pdf","https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/waterbug-attack-group.pdf","https://www.welivesecurity.com/2017/03/30/carbon-paper-peering-turlas-second-stage-backdoor/","https://www.welivesecurity.com/2017/06/06/turlas-watering-hole-campaign-updated-firefox-extension-abusing-instagram/","https://securelist.com/kopiluwak-a-new-javascript-payload-from-turla/77429/","https://www.proofpoint.com/us/threat-insight/post/turla-apt-actor-refreshes-kopiluwak-javascript-backdoor-use-g20-themed-attack","https://www.welivesecurity.com/2017/08/30/eset-research-cyberespionage-gazer/","https://www.govcert.admin.ch/blog/22/technical-report-about-the-ruag-espionage-case","http://www.sueddeutsche.de/digital/it-sicherheit-einbrechen-ausbreiten-abgreifen-1.3887843","https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/","https://www.ncsc.gov.uk/alerts/turla-group-malware","https://motherboard.vice.com/en_us/article/vvk83b/moonlight-maze-turla-link","https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07180251/Penquins_Moonlit_Maze_PDF_eng.pdf","https://www.wired.com/2017/04/russian-hackers-used-backdoor-two-decades/","https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-march-venomous-bear/","https://www.symantec.com/blogs/threat-intelligence/waterbug-espionage-governments","https://securelist.com/turla-renews-its-arsenal-with-topinambour/91687/"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "russia"
   aptnotes:
     earliest_report_year: "2014"
     latest_report_year: "2019"
-    report_count: 14
-    sample_links: ["https://app.box.com/s/dokswmrkrxmipfmdpsvelnq18w4ypogw","https://app.box.com/s/xmeq5ajvmzux1appt1qvd8wme7k13o63","https://app.box.com/s/n9zt53c246ltmhhjkcfay9xq8mee09yo","https://app.box.com/s/4n263mzodo4mb7jz1w3deidg9xuu2teh","https://app.box.com/s/54kvbxp9nc0xtme1omd1xpxcckwm945g","https://app.box.com/s/9rsegtgvnwe9n2lrk6ezxfv8mnpfhpk3","https://app.box.com/s/sg4cyodukt7edmmba6bfikuiu1jgzv59","https://app.box.com/s/5gfajyyz8firhnttdo72j0iz6uo4eo6q","https://app.box.com/s/nrf432kfdk6kadkvbclgykekocn4pzzu","https://app.box.com/s/xcu346jhiokohlj9300q6hif06swac57","https://app.box.com/s/vmzqwqfrmtdjemtdaei60jqu5qrouwrt","https://app.box.com/s/316mbg901wxjdarmtdlj6v4qv29a0ge8","https://app.box.com/s/o72u9tsw4zifxmktac4oreizhlud67ga","https://app.box.com/s/u5p5eae02amqr2n0zg7017cx43t1icwz"]
-    sample_titles: ["Uroburos Highly Complex Espionage Software With Russian Roots","Snake Campaign & Cyber Espionage Toolkit","Suspected Russian Spyware Turla Targets Europe, United States","Snake In The Grass: Python-based Malware Used For Targeted Attacks","Tr-25 Analysis - Turla / PNet / Snake/ Uroburos","The Epic Turla Operation: Solving Some Of The Mysteries Of Snake/Uroboros","The Uroburos Case: New Sophisticated Rat Identified","The 'Penquin' Turla","The Waterbug Attack Group","Pacifier APT"]
+    report_count: 11
+    sample_links: ["https://app.box.com/s/xmeq5ajvmzux1appt1qvd8wme7k13o63","https://app.box.com/s/54kvbxp9nc0xtme1omd1xpxcckwm945g","https://app.box.com/s/9rsegtgvnwe9n2lrk6ezxfv8mnpfhpk3","https://app.box.com/s/sg4cyodukt7edmmba6bfikuiu1jgzv59","https://app.box.com/s/5gfajyyz8firhnttdo72j0iz6uo4eo6q","https://app.box.com/s/nrf432kfdk6kadkvbclgykekocn4pzzu","https://app.box.com/s/xcu346jhiokohlj9300q6hif06swac57","https://app.box.com/s/vmzqwqfrmtdjemtdaei60jqu5qrouwrt","https://app.box.com/s/316mbg901wxjdarmtdlj6v4qv29a0ge8","https://app.box.com/s/o72u9tsw4zifxmktac4oreizhlud67ga","https://app.box.com/s/u5p5eae02amqr2n0zg7017cx43t1icwz"]
+    sample_titles: ["Snake Campaign & Cyber Espionage Toolkit","Tr-25 Analysis - Turla / PNet / Snake/ Uroburos","The Epic Turla Operation: Solving Some Of The Mysteries Of Snake/Uroboros","The Uroburos Case: New Sophisticated Rat Identified","The 'Penquin' Turla","The Waterbug Attack Group","Pacifier APT","Carbon Paper: Peering into Turla second stage backdoor","Turla group using Neuron and Nautilus tools alongside Snake malware","Turla group update Neuron malware"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-04-26T22:14:32Z"
-    sources: ["BAE Systems","Bitdefender","Bluecoat","CIRCL","ESET","Gdata","Kaspersky","NCSC","Reuters","Symantec"]
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["BAE Systems","Bitdefender","CIRCL","ESET","Gdata","Kaspersky","NCSC","Symantec"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
-    source_record_id: "turla"
-    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/turla"
-    source_retrieved_at: "2026-04-26T22:14:32Z"
-    source_uuid: "fa80877c-f509-4daf-8b62-20aba1635f68"
+    source_record_id: "white_bear"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/white_bear"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "dc6c6cbc-9dc6-4ace-a2d2-fadefe45cce6"
+  misp_galaxy:
+    meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","origin:UNC4210","refs","synonyms","targeted-sector","group_attack_id","observed_countries","observed_motivations","source","target_categories","suspected-victims","target-category","microsoft-origin-threat","sector"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","tidal-groups.json","360net.json","microsoft-activity-group.json","ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "fa80877c-f509-4daf-8b62-20aba1635f68"
+    source_record_ids: ["fa80877c-f509-4daf-8b62-20aba1635f68","47ae4fb1-fc61-4e8e-9310-66dda706e1a2","1972273e-2152-558c-b575-222c6d2f3e10","8d19da8a-d0fa-5194-ad6f-315cc4f36c8b","822b3254-d715-46bc-8011-c5b647d314dc"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0010"

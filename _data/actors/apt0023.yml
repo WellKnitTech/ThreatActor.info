@@ -13,6 +13,9 @@ mitre_id: "G0023"
 mitre_url: "https://attack.mitre.org/groups/G0023"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt16"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware:
   - "Backdoor.Oldrea"
   - "China Chopper"
@@ -26,15 +29,52 @@ malware:
   - name: "Poison Ivy"
   - name: "Pandora"
   - name: "CVE-2015-2545"
+software:
+  - name: "ELMER"
+    mitre_id: "S0064"
+    url: "https://attack.mitre.org/software/S0064"
+    type: "malware"
+    stix_id: "malware--3cab1b76-2f40-4cd0-8d2c-7ed16eeb909c"
+    description: "ELMER is a non-persistent, proxy-aware HTTP backdoor written in Delphi that has been used by APT16. (Citation: FireEye EPS Awakens Part 2)"
+ttps:
+  - technique_id: "T1584.004"
+    technique_name: "Server"
+    url: "https://attack.mitre.org/techniques/T1584/004"
+    stix_id: "attack-pattern--e196b5c5-8118-4a1c-ab8a-936586ce3db5"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://securelist.com/analysis/publications/74828/cve-2015-2545-overview-of-current-threats/"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "others"
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "apt16"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt16"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "1f73e14f-b882-4032-a565-26dc653b0daf"
+  misp_galaxy:
+    meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","refs","synonyms","group_attack_id","observed_countries","source","target_categories"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "1f73e14f-b882-4032-a565-26dc653b0daf"
+    source_record_ids: ["1f73e14f-b882-4032-a565-26dc653b0daf","06a05175-0812-44f5-a529-30eba07d1762"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   mitre:
+    attack_version: "19.0"
+    attack_version_by_domain:
+      enterprise: "19.0"
+      ics: "19.0"
+      mobile: "19.0"
+    relationships_imported_at: "2026-05-06T21:54:34Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_dataset_urls:
+      enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+      ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
+      mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0023"
-    source_retrieved_at: "2026-04-26T07:05:44Z"
+    source_retrieved_at: "2026-05-06T21:54:34Z"
+    stix_intrusion_set_id: "intrusion-set--d6e88e18-81e8-4709-82d8-973095da1e70"
 source: "MITRE ATT&CK"

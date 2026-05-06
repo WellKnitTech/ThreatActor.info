@@ -1,0 +1,15 @@
+name: "KillerLocker"
+aliases: ["KillerLocker"]
+description: "Ransomware Possibly Portuguese dev"
+url: "/killerlocker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ea8e7350-f243-4ef7-bc31-4648df8a4d96"
+    source_record_ids: ["ea8e7350-f243-4ef7-bc31-4648df8a4d96"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

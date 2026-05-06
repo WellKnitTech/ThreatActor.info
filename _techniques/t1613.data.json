@@ -1,0 +1,32 @@
+{
+  "mitre_id": "T1613",
+  "mitigations": [
+    {
+      "name": "Network Segmentation",
+      "mitre_id": "M1030",
+      "url": "https://attack.mitre.org/mitigations/M1030",
+      "stix_id": "course-of-action--86598de0-b347-4928-9eb0-0acbfc21908c"
+    },
+    {
+      "name": "Limit Access to Resource Over Network",
+      "mitre_id": "M1035",
+      "url": "https://attack.mitre.org/mitigations/M1035",
+      "stix_id": "course-of-action--1dcaeb21-9348-42ea-950a-f842aaf1ae1f"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "TeamTNT",
+      "url": "/apt0139"
+    }
+  ]
+}

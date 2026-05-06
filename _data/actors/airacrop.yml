@@ -1,0 +1,17 @@
+name: "AiraCrop"
+aliases: ["AiraCrop"]
+description: "Ransomware related to TeamXRat"
+url: "/airacrop"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "xRAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "77919c1f-4ef8-41cd-a635-2d3118ade1f3"
+    source_record_ids: ["77919c1f-4ef8-41cd-a635-2d3118ade1f3"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

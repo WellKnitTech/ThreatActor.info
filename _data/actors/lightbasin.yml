@@ -4,6 +4,9 @@ description: "UNC1945 is an APT group that has been targeting telecommunications
 url: "/lightbasin"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/lightbasin"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware:
   - name: "Evilsun"
   - name: "Slapstick"
@@ -21,9 +24,19 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.fireeye.com/blog/threat-research/2020/11/live-off-the-land-an-overview-of-unc1945.html","https://www.fireeye.com/blog/threat-research/2020/11/critical-buffer-overflow-vulnerability-in-solaris-can-allow-remote-takeover.html","https://yoroi.company/research/shadows-from-the-past-threaten-italian-enterprises/","https://www.crowdstrike.com/blog/an-analysis-of-lightbasin-telecommunications-attacks/","https://www.crowdstrike.com/blog/how-to-hunt-for-decisivearchitect-and-justforfun-implant/"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "others"
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "lightbasin"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/lightbasin"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "a1955738-563c-413c-8602-ea5b8c89ce21"
   misp_galaxy:
+    meta_keys: ["origin:UNC1945","refs","synonyms"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "a1955738-563c-413c-8602-ea5b8c89ce21"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["a1955738-563c-413c-8602-ea5b8c89ce21"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,18 @@
+name: "Potato Ransomware"
+aliases: ["Potato Ransomware"]
+description: "Wants a ransom to get the victim’s files back . Originated in English. Spread worldwide."
+url: "/potato-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Back Orifice"
+  - name: "Back Orifice 2000"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "378cb77c-bb89-4d32-bef9-1b132343f3fe"
+    source_record_ids: ["378cb77c-bb89-4d32-bef9-1b132343f3fe"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

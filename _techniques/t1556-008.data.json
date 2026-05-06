@@ -1,0 +1,29 @@
+{
+  "mitre_id": "T1556.008",
+  "mitigations": [
+    {
+      "name": "Restrict Registry Permissions",
+      "mitre_id": "M1024",
+      "url": "https://attack.mitre.org/mitigations/M1024",
+      "stix_id": "course-of-action--a2c36a5d-4058-475e-8e77-fff75e50d3b9"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "Operating System Configuration",
+      "mitre_id": "M1028",
+      "url": "https://attack.mitre.org/mitigations/M1028",
+      "stix_id": "course-of-action--2f316f6c-ae42-44fe-adf8-150989e0f6d3"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

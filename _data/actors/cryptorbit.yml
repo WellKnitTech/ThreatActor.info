@@ -1,0 +1,14 @@
+name: "CryptorBit"
+aliases: ["CryptorBit"]
+description: "Ransomware"
+url: "/cryptorbit"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "d5ccf284-90c3-44b6-9b90-ddc4717defac"
+    source_record_ids: ["d5ccf284-90c3-44b6-9b90-ddc4717defac"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

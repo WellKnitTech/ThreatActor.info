@@ -1,0 +1,14 @@
+name: "Curumim"
+aliases: ["Curumim"]
+description: "Ransomware"
+url: "/curumim"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ed087a5a-41f7-4997-9701-ef46c984d89d"
+    source_record_ids: ["ed087a5a-41f7-4997-9701-ef46c984d89d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,14 @@
+name: "RSA2048Pro"
+aliases: ["RSA2048Pro"]
+description: "ransomware"
+url: "/rsa2048pro"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ce28af26-b03e-45ca-8e6d-20fbb36233db"
+    source_record_ids: ["ce28af26-b03e-45ca-8e6d-20fbb36233db"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

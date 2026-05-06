@@ -1,0 +1,14 @@
+name: "Django"
+aliases: ["Django"]
+description: "ransomware"
+url: "/django"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "d667e11f-95d0-4c44-a0c6-b6ab617c307f"
+    source_record_ids: ["d667e11f-95d0-4c44-a0c6-b6ab617c307f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

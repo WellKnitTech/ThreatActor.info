@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT-C-34"
-aliases: ["Golden Falcon","APT-C-34"]
+aliases: ["Golden Falcon","APT-C-34","黄金雕 - APT-C-34"]
 description: "As reported by ZDNet, Chinese cyber-security vendor Qihoo 360 published a report on 2019-11-29 exposing an extensive hacking operation targeting the country of Kazakhstan. Targets included individuals "
 permalink: /apt-c-34/
 ---

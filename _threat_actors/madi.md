@@ -16,7 +16,9 @@ Kaspersky Lab and Seculert worked together to sinkhole the Madi Command & Contro
 
 **Risk Level**: High
 
+**First Seen**: 2012
 
+**Last Activity**: 2012
 
 **Incident Type**: Espionage
 
@@ -29,7 +31,7 @@ Kaspersky Lab and Seculert worked together to sinkhole the Madi Command & Contro
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+*No atomic indicators are listed in this profile. The APTnotes snapshot indexes 1 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
 ## Malware and Tools
 - **CrossRat**

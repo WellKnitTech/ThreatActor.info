@@ -1,0 +1,16 @@
+name: "Intelligence Bureau (Pakistan)"
+aliases: ["Intelligence Bureau (Pakistan)"]
+description: "Intelligence Bureau (IB)"
+url: "/intelligence-bureau-pakistan"
+country: "Pakistan"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "a42a1496-d02a-53bc-9ca0-6221fcd2c0d9"
+    source_record_ids: ["a42a1496-d02a-53bc-9ca0-6221fcd2c0d9"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

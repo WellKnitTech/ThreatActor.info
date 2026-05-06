@@ -1,0 +1,92 @@
+{
+  "mitre_id": "T1585.002",
+  "mitigations": [
+    {
+      "name": "Pre-compromise",
+      "mitre_id": "M1056",
+      "url": "https://attack.mitre.org/mitigations/M1056",
+      "stix_id": "course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Moonstone Sleet",
+      "url": "/apt1036"
+    },
+    {
+      "name": "Magic Hound",
+      "url": "/apt35"
+    },
+    {
+      "name": "Mustang Panda",
+      "url": "/apt0129"
+    },
+    {
+      "name": "Leviathan",
+      "url": "/apt40"
+    },
+    {
+      "name": "Medusa Group",
+      "url": "/apt1051"
+    },
+    {
+      "name": "Star Blizzard",
+      "url": "/apt1033"
+    },
+    {
+      "name": "APT42",
+      "url": "/apt1044"
+    },
+    {
+      "name": "CURIUM",
+      "url": "/apt1012"
+    },
+    {
+      "name": "Silent Librarian",
+      "url": "/apt0122"
+    },
+    {
+      "name": "EXOTIC LILY",
+      "url": "/apt1011"
+    },
+    {
+      "name": "APT1",
+      "url": "/apt1"
+    },
+    {
+      "name": "Wizard Spider",
+      "url": "/wizard-spider"
+    },
+    {
+      "name": "HEXANE",
+      "url": "/apt1001"
+    },
+    {
+      "name": "Indrik Spider",
+      "url": "/apt0119"
+    },
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    },
+    {
+      "name": "VOID MANTICORE",
+      "url": "/void-manticore"
+    },
+    {
+      "name": "Contagious Interview",
+      "url": "/apt1052"
+    },
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    }
+  ]
+}

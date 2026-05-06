@@ -1,0 +1,15 @@
+name: "Directorate of Intelligence and Security"
+aliases: ["Directorate of Intelligence and Security"]
+description: "Directorate on Intelligence and Security Services (DISS – Ministry of State President Espionage & Counter Intelligence unit)"
+url: "/directorate-of-intelligence-and-security"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "868a348c-e6fa-516e-a15a-97bed7b1b4d8"
+    source_record_ids: ["868a348c-e6fa-516e-a15a-97bed7b1b4d8"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

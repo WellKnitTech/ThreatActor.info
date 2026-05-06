@@ -1,0 +1,23 @@
+{
+  "mitre_id": "T0887",
+  "mitigations": [
+    {
+      "name": "Minimize Wireless Signal Propagation",
+      "mitre_id": "M0806",
+      "url": "https://attack.mitre.org/mitigations/M0806",
+      "stix_id": "course-of-action--fce6866f-9a87-4d3e-a73c-f02d8937fe0e"
+    },
+    {
+      "name": "Encrypt Network Traffic",
+      "mitre_id": "M0808",
+      "url": "https://attack.mitre.org/mitigations/M0808",
+      "stix_id": "course-of-action--7f153c28-e5f1-4764-88fb-eea1d9b0ad4a"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

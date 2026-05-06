@@ -1,0 +1,16 @@
+name: "SweetSpecter"
+aliases: ["SweetSpecter"]
+description: "SweetSpecter is a suspected Chinese espionage actor that has gained notoriety for using publicly available artificial intelligence capabilities to support its reconnaissance, research, and development efforts.<sup>[[OpenAI CTI Update October 2024](/references/81f40284-12e5-4835-8c14-19fb894e4822)]</sup>"
+url: "/sweetspecter"
+country: "China"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "d9434f91-6f23-4347-8745-986955e74f3e"
+    source_record_ids: ["d9434f91-6f23-4347-8745-986955e74f3e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

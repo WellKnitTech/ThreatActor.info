@@ -1,0 +1,15 @@
+name: "Chartwig Ransomware"
+aliases: ["Chartwig Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc.."
+url: "/chartwig-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "37fff5f8-8e66-43d3-a075-3619b6f2163d"
+    source_record_ids: ["37fff5f8-8e66-43d3-a075-3619b6f2163d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

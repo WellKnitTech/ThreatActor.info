@@ -1,0 +1,14 @@
+name: "Unknown Crypted"
+aliases: ["Unknown Crypted"]
+description: "ransomware"
+url: "/unknown-crypted"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "5ee8d6db-8a82-40ee-9e8e-a96795b3fee0"
+    source_record_ids: ["5ee8d6db-8a82-40ee-9e8e-a96795b3fee0"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "valencia leaks"
+aliases: ["valencia leaks"]
+description: "Official twitter account: https://x.com/ValenciaLeaks72"
+url: "/valencia-leaks"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "af5911d6-37d6-513c-a90e-1b373378f55f"
+    source_record_ids: ["af5911d6-37d6-513c-a90e-1b373378f55f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,19 @@
+name: "Egregor"
+aliases: ["Egregor"]
+description: "The threat group behind this malware seems to operate by hacking into companies, stealing sensitive data, and then running Egregor to encrypt all the files. According to the ransom note, if the ransom is not paid by the company within 3 days, and aside from leaking part of the stolen data, they will distribute via mass media where the company's partners and clients will know that the company was attacked."
+url: "/egregor"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Hacking Team UEFI Rootkit"
+  - name: "ClientMesh"
+  - name: "Client Maximus"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "8bd094a7-103f-465f-8640-18dcc53042e5"
+    source_record_ids: ["8bd094a7-103f-465f-8640-18dcc53042e5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

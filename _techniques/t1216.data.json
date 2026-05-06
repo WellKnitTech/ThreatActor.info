@@ -1,0 +1,26 @@
+{
+  "mitre_id": "T1216",
+  "mitigations": [
+    {
+      "name": "Execution Prevention",
+      "mitre_id": "M1038",
+      "url": "https://attack.mitre.org/mitigations/M1038",
+      "stix_id": "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1216.001",
+      "name": "PubPrn",
+      "permalink": "/techniques/T1216.001/"
+    },
+    {
+      "id": "T1216.002",
+      "name": "SyncAppvPublishingServer",
+      "permalink": "/techniques/T1216.002/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

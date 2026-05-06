@@ -1,0 +1,15 @@
+name: "EQ Ransomware"
+aliases: ["EQ Ransomware"]
+description: "GrujaRS discovered the EQ Ransomware that drops a ransom note named README_BACK_FILES.htm and uses .f**k (censored) as its extension for encrypted files. May be GlobeImposter."
+url: "/eq-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "edd4c8d0-d971-40a6-b7c6-5c57a4b51e48"
+    source_record_ids: ["edd4c8d0-d971-40a6-b7c6-5c57a4b51e48"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

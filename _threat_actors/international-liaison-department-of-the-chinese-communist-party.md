@@ -1,0 +1,37 @@
+---
+layout: threat_actor
+title: "International Liaison Department of the Chinese Communist Party"
+aliases: ["International Liaison Department of the Chinese Communist Party"]
+description: "International Department (ID)"
+permalink: /international-liaison-department-of-the-chinese-communist-party/
+---
+
+## Introduction
+International Department (ID)
+
+## Activities and Tactics
+**Country of Origin**: 🇨🇳 China
+
+
+
+
+
+## Notable Campaigns
+*Information pending cataloguing.*
+
+## Tactics, Techniques, and Procedures (TTPs)
+*Information pending cataloguing.*
+
+## Notable Indicators of Compromise (IOCs)
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+
+## Malware and Tools
+- **RTM**: 
+
+## Attribution and Evidence
+**Country of Origin**: China
+*Additional attribution information pending cataloguing.*
+
+## References
+*References pending cataloguing.*
+

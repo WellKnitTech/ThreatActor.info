@@ -2,10 +2,24 @@ name: "UAC-0226"
 aliases: ["UAC-0226"]
 description: "UAC-0226 is a cyber-espionage group targeting Ukrainian military, law enforcement, and local government entities—particularly near the eastern border—since February 2025. Initial access is achieved via phishing emails containing malicious .xlsm documents that decode and execute base64-encoded payloads stored in spreadsheet cells. Two main tools are used: a .NET-based reverse shell leveraging PowerShell code from a public GitHub repository (https://github.com/tihanyin/PSSW100AVB), and GIFTEDCROOK, a C/C++ stealer that extracts browser data (cookies, history, credentials), archives it with PowerShell, and exfiltrates via Telegram. The group often abuses compromised webmail accounts for delivery, underlining the importance of detailed email and web server logging. Their activity shows a mix of low development overhead and high operational targeting, consistent with state-aligned espionage."
 url: "/uac-0226"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/uac-0226"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["PowerDuke","POWERSTATS","Power Loader","POWERSOURCE","CyberGate","Cyber Eye RAT","PowerRAT"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "uac-0226"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/uac-0226"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "41522eb4-1e34-42d2-be13-69baf0574e09"
   misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "41522eb4-1e34-42d2-be13-69baf0574e09"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["41522eb4-1e34-42d2-be13-69baf0574e09"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

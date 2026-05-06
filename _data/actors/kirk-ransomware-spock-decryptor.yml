@@ -1,0 +1,17 @@
+name: "Kirk Ransomware & Spock Decryptor"
+aliases: ["Kirk & Spock Decryptor","Kirk Ransomware & Spock Decryptor"]
+description: "This is most likely to affect English speaking users, since the note is written in English. English is understood worldwide, thus anyone can be harmed. The hacker spread the virus using email spam, fake updates, and harmful attachments. All your files are compromised including music, MS Office, Open Office, pictures, videos, shared online files etc.. Payments in Monero"
+url: "/kirk-ransomware-spock-decryptor"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Virus RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes","ransomnotes-filenames","ransomnotes-refs","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "6e442a2e-97db-4a7b-b4a1-9abb4a7472d8"
+    source_record_ids: ["6e442a2e-97db-4a7b-b4a1-9abb4a7472d8"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

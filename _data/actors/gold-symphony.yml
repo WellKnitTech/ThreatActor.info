@@ -2,10 +2,24 @@ name: "GOLD SYMPHONY"
 aliases: ["GOLD SYMPHONY"]
 description: "GOLD SYMPHONY is a financially motivated cybercrime group, likely based in Russia, that is responsible for the development and sale on underground forums of the Buer Loader malware. First discovered around August 2019, Buer Loader is offered as a malware-as-a-service (MasS) and has been advertised by a threat actor using the handle 'memeos'. Customers include GOLD BLACKBURN, the operators of the TrickBot malware. In addition to TrickBot, Buer Loader has been reported to download Cobalt Strike and other tools for use in post-intrusion ransomware attacks."
 url: "/gold-symphony"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gold_symphony"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["BlackEnergy","BLACKCOFFEE","Blackshades","BlackNix","CyberGate","Cyber Eye RAT","BlackHole","Cobalt Strike"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "gold_symphony"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gold_symphony"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "bf151740-b667-4f06-87a1-131c3261cca2"
   misp_galaxy:
+    meta_keys: ["origin:GOLD SYMPHONY","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "bf151740-b667-4f06-87a1-131c3261cca2"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["bf151740-b667-4f06-87a1-131c3261cca2"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

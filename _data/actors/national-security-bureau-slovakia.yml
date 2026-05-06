@@ -1,0 +1,15 @@
+name: "National Security Bureau (Slovakia)"
+aliases: ["National Security Bureau (Slovakia)"]
+description: "National Security Bureau - Národný bezpečnostný úrad (NBÚ)"
+url: "/national-security-bureau-slovakia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "e63c0193-6589-5058-8f7d-3ec55bcc7865"
+    source_record_ids: ["e63c0193-6589-5058-8f7d-3ec55bcc7865"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

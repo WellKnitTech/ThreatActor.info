@@ -1,0 +1,14 @@
+name: "Barack Obama's EBBV"
+aliases: ["Barack Obama's EBBV"]
+description: "Ransomware"
+url: "/barack-obama-s-ebbv"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e65f4496-0560-49ba-b52a-30df8f1a0d44"
+    source_record_ids: ["e65f4496-0560-49ba-b52a-30df8f1a0d44"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

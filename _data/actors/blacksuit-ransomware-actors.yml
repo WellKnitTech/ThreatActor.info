@@ -1,0 +1,22 @@
+name: "BlackSuit Ransomware Actors"
+aliases: ["BlackSuit Ransomware Actors"]
+description: "This object reflects the ATT&CK Techniques associated with threat actors who deploy BlackSuit, a ransomware capable of running on Windows and Linux systems. BlackSuit is believed to be a successor to Royal, a ransomware operation which itself derives from the notorious Russia-based Conti gang. BlackSuit operations were first observed in May 2023, and although they were relatively low in number, U.S. authorities issued a warning for healthcare sector organizations due to the ransomware's suspected pedigree.<sup>[[HC3 Analyst Note BlackSuit Ransomware November 2023](/references/d956f0c6-d90e-49e8-a64c-a46bfc177cc6)]</sup> The number of attacks claimed by BlackSuit operators increased notably in Q2 2024.<sup>[[GitHub ransomwatch](/references/62037959-58e4-475a-bb91-ff360d20c1d7)]</sup>\n\nATT&CK Techniques associated with the BlackSuit ransomware binary are tracked in a separate \"BlackSuit Ransomware\" Software object."
+url: "/blacksuit-ransomware-actors"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "BlackEnergy"
+  - name: "BLACKCOFFEE"
+  - name: "Blackshades"
+  - name: "BlackNix"
+  - name: "Windows Remote Desktop"
+  - name: "BlackHole"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "1d751794-ce94-4936-bf45-4ab86d0e3b6e"
+    source_record_ids: ["1d751794-ce94-4936-bf45-4ab86d0e3b6e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

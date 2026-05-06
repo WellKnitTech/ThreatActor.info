@@ -1,0 +1,78 @@
+{
+  "mitre_id": "T0859",
+  "mitigations": [
+    {
+      "name": "Access Management",
+      "mitre_id": "M0801",
+      "url": "https://attack.mitre.org/mitigations/M0801",
+      "stix_id": "course-of-action--3992ce42-43e9-4bea-b8db-a102ec3ec1e3"
+    },
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M0926",
+      "url": "https://attack.mitre.org/mitigations/M0926",
+      "stix_id": "course-of-action--622fe4d4-0e8e-4d17-9c25-6c9cef1f15d5"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M0918",
+      "url": "https://attack.mitre.org/mitigations/M0918",
+      "stix_id": "course-of-action--e57ebc6d-785f-40c8-adb1-b5b5e09b3b48"
+    },
+    {
+      "name": "Filter Network Traffic",
+      "mitre_id": "M0937",
+      "url": "https://attack.mitre.org/mitigations/M0937",
+      "stix_id": "course-of-action--11f242bc-3121-438c-84b2-5cbd46a4bb17"
+    },
+    {
+      "name": "Multi-factor Authentication",
+      "mitre_id": "M0932",
+      "url": "https://attack.mitre.org/mitigations/M0932",
+      "stix_id": "course-of-action--ddf3e568-f065-49e2-9106-42029a28ddbd"
+    },
+    {
+      "name": "Password Policies",
+      "mitre_id": "M0927",
+      "url": "https://attack.mitre.org/mitigations/M0927",
+      "stix_id": "course-of-action--5d97c693-e054-48ba-a3a3-eaf6942dfb65"
+    },
+    {
+      "name": "Application Developer Guidance",
+      "mitre_id": "M0913",
+      "url": "https://attack.mitre.org/mitigations/M0913",
+      "stix_id": "course-of-action--8a3aadd0-b5f4-433a-800e-4893e4196bb7"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M0947",
+      "url": "https://attack.mitre.org/mitigations/M0947",
+      "stix_id": "course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697"
+    },
+    {
+      "name": "Account Use Policies",
+      "mitre_id": "M0936",
+      "url": "https://attack.mitre.org/mitigations/M0936",
+      "stix_id": "course-of-action--86b455f2-fb63-4043-93a8-32a3a7703a02"
+    },
+    {
+      "name": "Active Directory Configuration",
+      "mitre_id": "M0915",
+      "url": "https://attack.mitre.org/mitigations/M0915",
+      "stix_id": "course-of-action--2f0160b7-e982-49d7-9612-f19b810f1722"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "ALLANITE",
+      "url": "/allanite"
+    },
+    {
+      "name": "OilRig",
+      "url": "/apt34"
+    }
+  ]
+}

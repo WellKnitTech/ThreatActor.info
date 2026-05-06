@@ -1,0 +1,15 @@
+name: "Intelligence Agency of North Macedonia"
+aliases: ["Agencija za Razuznavanje","Intelligence Agency of North Macedonia"]
+description: "Intelligence Agency (Agencija za Razuznavanje) (Civilian Agency) IA"
+url: "/intelligence-agency-of-north-macedonia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "80768450-e199-5733-99ae-8df5f6b873ac"
+    source_record_ids: ["80768450-e199-5733-99ae-8df5f6b873ac"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,16 @@
+name: "State Intelligence Agency (Indonesia)"
+aliases: ["Badan Intelijen Negara","State Intelligence Agency (Indonesia)"]
+description: "State Intelligence Agency (BIN) – Badan Intelijen Negara"
+url: "/state-intelligence-agency-indonesia"
+country: "Indonesia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "bb93b753-f384-577d-aa50-ccf33fe52d19"
+    source_record_ids: ["bb93b753-f384-577d-aa50-ccf33fe52d19"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

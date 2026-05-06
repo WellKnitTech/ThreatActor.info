@@ -1,0 +1,14 @@
+name: "KeyMaker"
+aliases: ["KeyMaker"]
+description: "ransomware"
+url: "/keymaker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "55cebdaf-adfb-4943-b169-4652af84e0da"
+    source_record_ids: ["55cebdaf-adfb-4943-b169-4652af84e0da"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

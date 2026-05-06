@@ -1,0 +1,35 @@
+{
+  "mitre_id": "T0890",
+  "mitigations": [
+    {
+      "name": "Exploit Protection",
+      "mitre_id": "M0950",
+      "url": "https://attack.mitre.org/mitigations/M0950",
+      "stix_id": "course-of-action--49363b74-d506-4342-bd63-320586ebadb9"
+    },
+    {
+      "name": "Application Isolation and Sandboxing",
+      "mitre_id": "M0948",
+      "url": "https://attack.mitre.org/mitigations/M0948",
+      "stix_id": "course-of-action--059ba11e-e3dc-49aa-84ca-88197f40d4ea"
+    },
+    {
+      "name": "Update Software",
+      "mitre_id": "M0951",
+      "url": "https://attack.mitre.org/mitigations/M0951",
+      "stix_id": "course-of-action--97f33c84-8508-45b9-8a1d-cac921828c9e"
+    },
+    {
+      "name": "Threat Intelligence Program",
+      "mitre_id": "M0919",
+      "url": "https://attack.mitre.org/mitigations/M0919",
+      "stix_id": "course-of-action--d48b79b2-076d-483e-949c-0d38aa347499"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

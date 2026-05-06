@@ -1,0 +1,54 @@
+{
+  "mitre_id": "T1136.002",
+  "mitigations": [
+    {
+      "name": "Multi-factor Authentication",
+      "mitre_id": "M1032",
+      "url": "https://attack.mitre.org/mitigations/M1032",
+      "stix_id": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0"
+    },
+    {
+      "name": "Operating System Configuration",
+      "mitre_id": "M1028",
+      "url": "https://attack.mitre.org/mitigations/M1028",
+      "stix_id": "course-of-action--2f316f6c-ae42-44fe-adf8-150989e0f6d3"
+    },
+    {
+      "name": "Network Segmentation",
+      "mitre_id": "M1030",
+      "url": "https://attack.mitre.org/mitigations/M1030",
+      "stix_id": "course-of-action--86598de0-b347-4928-9eb0-0acbfc21908c"
+    },
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M1026",
+      "url": "https://attack.mitre.org/mitigations/M1026",
+      "stix_id": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "GALLIUM",
+      "url": "/apt0093"
+    },
+    {
+      "name": "BlackByte",
+      "url": "/apt1043"
+    },
+    {
+      "name": "Wizard Spider",
+      "url": "/wizard-spider"
+    },
+    {
+      "name": "Medusa Group",
+      "url": "/apt1051"
+    },
+    {
+      "name": "HAFNIUM",
+      "url": "/apt0125"
+    }
+  ]
+}

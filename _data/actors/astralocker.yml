@@ -1,0 +1,15 @@
+name: "astralocker"
+aliases: ["astralocker"]
+description: "AstraLocker first appeared in 2021, likely as a fork of Babuk ransomware using leaked source code. It follows a single-extortion, smash-and-grab approach: distributed directly via phishing Microsoft Word documents containing embedded OLE objects. Once executed, it kills security and backup processes, deletes shadow copies, and encrypts files using modified HC-128 and Curve25519 algorithms, appending extensions like .Astra or .babyk. A “smash-and-grab” style attack, it’s less methodical than more sophisticated campaigns—deploying ransomware immediately upon user action rather than conducting prolonged network reconnaissance. In mid-2022, the operator ceased ransomware operations, releasing decryptors and announcing a pivot to cryptojacking."
+url: "/astralocker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "f0bd3c05-7b5c-5fa1-9880-a9c115650f03"
+    source_record_ids: ["f0bd3c05-7b5c-5fa1-9880-a9c115650f03"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "National Intelligence and Security Service (Rwanda)"
+aliases: ["National Intelligence and Security Service (Rwanda)"]
+description: "National Intelligence and Security Service (Rwanda)"
+url: "/national-intelligence-and-security-service-rwanda"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "3127575a-37ed-586d-84ef-0814bf29e9e2"
+    source_record_ids: ["3127575a-37ed-586d-84ef-0814bf29e9e2"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

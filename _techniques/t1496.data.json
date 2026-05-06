@@ -1,0 +1,31 @@
+{
+  "mitre_id": "T1496",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+    {
+      "id": "T1496.001",
+      "name": "Compute Hijacking",
+      "permalink": "/techniques/T1496.001/"
+    },
+    {
+      "id": "T1496.002",
+      "name": "Bandwidth Hijacking",
+      "permalink": "/techniques/T1496.002/"
+    },
+    {
+      "id": "T1496.004",
+      "name": "Cloud Service Hijacking",
+      "permalink": "/techniques/T1496.004/"
+    },
+    {
+      "id": "T1496.003",
+      "name": "SMS Pumping",
+      "permalink": "/techniques/T1496.003/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

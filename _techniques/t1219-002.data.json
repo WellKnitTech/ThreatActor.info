@@ -1,0 +1,72 @@
+{
+  "mitre_id": "T1219.002",
+  "mitigations": [
+    {
+      "name": "Disable or Remove Feature or Program",
+      "mitre_id": "M1042",
+      "url": "https://attack.mitre.org/mitigations/M1042",
+      "stix_id": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31"
+    },
+    {
+      "name": "Filter Network Traffic",
+      "mitre_id": "M1037",
+      "url": "https://attack.mitre.org/mitigations/M1037",
+      "stix_id": "course-of-action--20f6a9df-37c4-4e20-9e47-025983b1b39d"
+    },
+    {
+      "name": "Execution Prevention",
+      "mitre_id": "M1038",
+      "url": "https://attack.mitre.org/mitigations/M1038",
+      "stix_id": "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Storm-0501",
+      "url": "/apt1053"
+    },
+    {
+      "name": "Contagious Interview",
+      "url": "/apt1052"
+    },
+    {
+      "name": "Evilnum",
+      "url": "/apt0120"
+    },
+    {
+      "name": "Storm-1811",
+      "url": "/apt1046"
+    },
+    {
+      "name": "Mustang Panda",
+      "url": "/apt0129"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Thrip",
+      "url": "/apt0076"
+    },
+    {
+      "name": "RTM",
+      "url": "/apt0048"
+    },
+    {
+      "name": "VOID MANTICORE",
+      "url": "/void-manticore"
+    },
+    {
+      "name": "Scattered Spider",
+      "url": "/apt1015"
+    },
+    {
+      "name": "MuddyWater",
+      "url": "/apt0069"
+    }
+  ]
+}

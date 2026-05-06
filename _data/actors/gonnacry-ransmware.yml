@@ -1,0 +1,14 @@
+name: "GonnaCry Ransmware"
+aliases: ["GonnaCry Ransmware"]
+description: "ransomware"
+url: "/gonnacry-ransmware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "269bae29-5955-4723-8f33-b81767f44c82"
+    source_record_ids: ["269bae29-5955-4723-8f33-b81767f44c82"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

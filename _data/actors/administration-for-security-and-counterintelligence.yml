@@ -1,0 +1,15 @@
+name: "Administration for Security and Counterintelligence"
+aliases: ["Uprava za bezbednost i kontrarazuznavanje","Administration for Security and Counterintelligence"]
+description: "Administration for Security and Counterintelligence (Uprava za bezbednost i kontrarazuznavanje) (Police Agency)"
+url: "/administration-for-security-and-counterintelligence"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "67da9110-8ed3-50ce-84a1-b3865f9c4df6"
+    source_record_ids: ["67da9110-8ed3-50ce-84a1-b3865f9c4df6"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

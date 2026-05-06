@@ -1,0 +1,27 @@
+name: "JCrypt"
+aliases: ["RIP lmao","Locked","Daddycrypt","Omero","Crypted","Ncovid","NotStonks","Iam_watching","Vn_os","Wearefriends","MALWAREDEVELOPER","MALKI","Poison","Foxxy","Mafiaware666","JCrypt"]
+description: "Ransomware written in C#. Fortunately, all current versions of the MafiaWare666 ransomware are decryptable. The Threat Lab from Avast has developed a free decryption tool for this malware."
+url: "/jcrypt"
+first_seen: "2013"
+last_activity: "2013"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  aptnotes:
+    earliest_report_year: "2013"
+    latest_report_year: "2013"
+    report_count: 1
+    sample_links: ["https://app.box.com/s/7gw9d1cbuvygb3qamjytpgh9nbmk7cbw"]
+    sample_titles: ["Poison Ivy: Assessing Damage And Extracting Intelligence"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["FireEye"]
+  misp_galaxy:
+    meta_keys: ["date","extensions","payment-method","ransomenotes","ransomenotes-refs","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "dd5712e1-efa8-4054-a5df-fdfdbc9c25b6"
+    source_record_ids: ["dd5712e1-efa8-4054-a5df-fdfdbc9c25b6"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

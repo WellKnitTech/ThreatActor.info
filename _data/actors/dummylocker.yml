@@ -1,0 +1,15 @@
+name: "DummyLocker"
+aliases: ["DummyLocker"]
+description: "Ransomware"
+url: "/dummylocker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "55446b3a-fdc7-4c75-918a-2d9fb5cdf3ff"
+    source_record_ids: ["55446b3a-fdc7-4c75-918a-2d9fb5cdf3ff"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

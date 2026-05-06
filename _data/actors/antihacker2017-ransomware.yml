@@ -1,0 +1,15 @@
+name: "Antihacker2017 Ransomware"
+aliases: ["Antihacker2017 Ransomware"]
+description: "It’s directed to Russian speaking users, there fore is able to infect mosty the old USSR countries.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc … The hacker goes by the nickname Antihacker and requests the victim to send him an email for the decryption. He does not request any money only a warning about looking at porn (gay, incest and rape porn to be specific)."
+url: "/antihacker2017-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "efd64e86-611a-4e10-91c7-e741cf0c58d9"
+    source_record_ids: ["efd64e86-611a-4e10-91c7-e741cf0c58d9"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

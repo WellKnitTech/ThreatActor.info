@@ -1,0 +1,15 @@
+name: "Offline ransomware"
+aliases: ["Vipasana","Cryakl","Offline ransomware"]
+description: "Ransomware email addresses overlap with .777 addresses"
+url: "/offline-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","links","payment-method","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "3c51fc0e-42d8-4ff0-b1bd-5c8c20271a39"
+    source_record_ids: ["3c51fc0e-42d8-4ff0-b1bd-5c8c20271a39"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

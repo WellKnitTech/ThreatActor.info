@@ -1,0 +1,15 @@
+name: "bidon"
+aliases: ["bidon"]
+description: "BIDON is a variant of the Monti ransomware family, first observed around mid‑2023. It employs a double‑extortion strategy—encrypting victims’ files and simultaneously threatening to leak stolen data if the ransom isn’t paid. Notably, it appends the .PUUUK extension to encrypted files and drops a readme.txt ransom note outlining the extortion demands. The note offers a free decryption of two files as proof of capability and emphasizes that only authorized company personnel (e.g., top management) should engage. BIDON specifically targets corporate and enterprise organizations, not home users, and warns victims not to involve law enforcement or third-party recovery firms. It represents a shift toward more aggressive extortion tactics within the Monti lineage. "
+url: "/bidon"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "edf19636-dbb4-52a4-bd5a-e0857f1a8df5"
+    source_record_ids: ["edf19636-dbb4-52a4-bd5a-e0857f1a8df5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

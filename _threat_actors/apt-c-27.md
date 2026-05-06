@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT-C-27"
-aliases: ["GoldMouse","Golden RAT","ATK80","APT-C-27","Golden Rat","Goldmouse"]
+aliases: ["GoldMouse","Golden RAT","ATK80","APT-C-27","Golden Rat","Goldmouse","黄金鼠 - APT-C-27"]
 description: "A threat actor which is ac tive since at least November 2014. This group launched long-term at tacks against organizations in the Syrian region using Android and Windows malwares. Its objective is the "
 permalink: /apt-c-27/
 ---
@@ -15,6 +15,8 @@ A threat actor which is ac tive since at least November 2014. This group launche
 
 
 
+
+**Suspected Victims**: Middle East, Syria
 
 ## Notable Campaigns
 *Information pending cataloguing.*

@@ -1,0 +1,16 @@
+{
+  "mitre_id": "T1633",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+    {
+      "id": "T1633.001",
+      "name": "System Checks",
+      "permalink": "/techniques/T1633.001/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

@@ -1,0 +1,16 @@
+name: "Council for Intelligence Coordination"
+aliases: ["Council for Intelligence Coordination"]
+description: "Council for Intelligence Coordination"
+url: "/council-for-intelligence-coordination"
+country: "Iran"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "7af8245d-4286-5c7a-8c04-ca6e64d37127"
+    source_record_ids: ["7af8245d-4286-5c7a-8c04-ca6e64d37127"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

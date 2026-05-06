@@ -1,0 +1,14 @@
+name: "Darkvault"
+aliases: ["Darkvault"]
+description: "DarkVault is a versatile and opportunistic threat actor first observed in late 2023. Rather than being a traditional ransomware operation, it acts broadly as a data broker and extortion ensemble, publishing victim information—like company names and industries—via Tor-leak sites. Activities reportedly include doxing, website defacement, bomb threats, malware distribution, and swatting, suggesting a diversified cybercriminal portfolio beyond simple ransomware, often framed as an \"exclusive online community.\" While the leak site design mirrors LockBit 3.0, there is no verified technical evidence linking DarkVault to LockBit's codebase. No ransomware executables or encryption tools have been confirmed; its role appears centered on data exposure and extortion without enforced file encryption."
+url: "/darkvault"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/darkvault"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "darkvault"
+  source_retrieved_at: "2026-05-06T21:56:34Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

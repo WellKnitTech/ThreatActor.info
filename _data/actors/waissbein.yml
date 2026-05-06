@@ -1,0 +1,14 @@
+name: "Waissbein"
+aliases: ["Waissbein"]
+description: "Waissbein is an active extortion or ransomware group tracked by RansomLook."
+url: "/waissbein"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/waissbein"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "waissbein"
+  source_retrieved_at: "2026-05-06T22:00:13Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

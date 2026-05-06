@@ -1,0 +1,76 @@
+{
+  "mitre_id": "T1199",
+  "mitigations": [
+    {
+      "name": "Multi-factor Authentication",
+      "mitre_id": "M1032",
+      "url": "https://attack.mitre.org/mitigations/M1032",
+      "stix_id": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    },
+    {
+      "name": "Network Segmentation",
+      "mitre_id": "M1030",
+      "url": "https://attack.mitre.org/mitigations/M1030",
+      "stix_id": "course-of-action--86598de0-b347-4928-9eb0-0acbfc21908c"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "GOLD SOUTHFIELD",
+      "url": "/apt0115"
+    },
+    {
+      "name": "APT28",
+      "url": "/apt28"
+    },
+    {
+      "name": "Threat Group-3390",
+      "url": "/apt0027"
+    },
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    },
+    {
+      "name": "menuPass",
+      "url": "/apt0045"
+    },
+    {
+      "name": "RedCurl",
+      "url": "/apt1039"
+    },
+    {
+      "name": "APT29",
+      "url": "/apt29"
+    },
+    {
+      "name": "POLONIUM",
+      "url": "/apt1005"
+    },
+    {
+      "name": "HAFNIUM",
+      "url": "/apt0125"
+    },
+    {
+      "name": "LAPSUS$",
+      "url": "/apt1004"
+    },
+    {
+      "name": "VOID MANTICORE",
+      "url": "/void-manticore"
+    },
+    {
+      "name": "Sea Turtle",
+      "url": "/apt1041"
+    }
+  ]
+}

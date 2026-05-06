@@ -1,0 +1,17 @@
+name: "0Mega"
+aliases: ["0Mega"]
+description: "0mega, a new ransomware operation, has been observed targeting organizations around the world. The ransomware operators are launching double-extortion attacks and demanding millions of dollars as ransom.\n\n0mega ransomware operation launched in May and has already claimed multiple victims.\n0mega maintains a dedicated data leak site that the attackers use to post stolen data if the demanded ransom is not paid.\nThe leak site currently hosts 152 GB of data stolen from an electronics repair firm in an attack that happened in May.\nHowever, an additional victim has since been removed, implying that they might have paid the ransom to the 0mega group.\n\nHow does it work?\nHackers add the .0mega extension to the encrypted file’s names and create ransom notes (DECRYPT-FILES[.]txt).\nThe ransom note has a link to a Tor payment negotiation site with a support chat to reach out to the ransomware group.\nTo log in to this site, the victims are asked to upload their ransom notes with a unique Base64-encoded blob identity."
+url: "/0mega"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Mega"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","links","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "91a085dc-9667-4dcd-9434-8cbb53e592fe"
+    source_record_ids: ["91a085dc-9667-4dcd-9434-8cbb53e592fe"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

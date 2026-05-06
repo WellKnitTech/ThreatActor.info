@@ -1,0 +1,15 @@
+name: "M4N1F3STO Ransomware (FAKE!!!!!)"
+aliases: ["M4N1F3STO Ransomware (FAKE!!!!!)"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc… FILES DON’T REALLY GET DELETED NOR DO THEY GET ENCRYPTED!!!!!!!"
+url: "/m4n1f3sto-ransomware-fake"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","payment-method","price","ransomnotes","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "94a3be6b-3a83-40fb-85b2-555239260235"
+    source_record_ids: ["94a3be6b-3a83-40fb-85b2-555239260235"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

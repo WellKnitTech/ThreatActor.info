@@ -1,0 +1,15 @@
+name: "2023lock"
+aliases: ["2023lock"]
+description: "2023Lock is a ransomware strain first observed in January 2024, believed to be an evolution of the Venus and Zeoticus families and a direct precursor to the later TrinityLock variant. It employs a hybrid encryption method combining XChaCha20 and curve25519xsalsa20poly1305, appending the “.2023lock” extension to encrypted files. Upon infection, it delivers ransom notes in HTML, TXT, and HTA formats containing decryption instructions. Unlike many modern ransomware groups, there is no evidence that 2023Lock engages in double extortion or data exfiltration, operating purely through file encryption to pressure victims into payment. Its codebase and operational patterns strongly align with TrinityLock, which emerged a few months later with more sophisticated extortion tactics."
+url: "/2023lock"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b93ea368-a26b-5b23-8bae-c5ec9b0bce98"
+    source_record_ids: ["b93ea368-a26b-5b23-8bae-c5ec9b0bce98"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

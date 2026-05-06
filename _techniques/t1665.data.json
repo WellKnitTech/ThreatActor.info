@@ -1,0 +1,19 @@
+{
+  "mitre_id": "T1665",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "ZIRCONIUM",
+      "url": "/apt0128"
+    },
+    {
+      "name": "APT29",
+      "url": "/apt29"
+    }
+  ]
+}

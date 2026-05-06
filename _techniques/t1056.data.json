@@ -1,0 +1,42 @@
+{
+  "mitre_id": "T1056",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+    {
+      "id": "T1056.001",
+      "name": "Keylogging",
+      "permalink": "/techniques/T1056.001/"
+    },
+    {
+      "id": "T1056.002",
+      "name": "GUI Input Capture",
+      "permalink": "/techniques/T1056.002/"
+    },
+    {
+      "id": "T1056.004",
+      "name": "Credential API Hooking",
+      "permalink": "/techniques/T1056.004/"
+    },
+    {
+      "id": "T1056.003",
+      "name": "Web Portal Capture",
+      "permalink": "/techniques/T1056.003/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "APT42",
+      "url": "/apt1044"
+    },
+    {
+      "name": "Storm-1811",
+      "url": "/apt1046"
+    },
+    {
+      "name": "APT39",
+      "url": "/apt0087"
+    }
+  ]
+}

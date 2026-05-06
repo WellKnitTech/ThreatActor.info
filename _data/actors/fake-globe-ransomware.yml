@@ -1,0 +1,15 @@
+name: "Fake Globe Ransomware"
+aliases: ["Globe Imposter","GlobeImposter","Fake Globe Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc… The ransom is 1bitcoin."
+url: "/fake-globe-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","links","payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e03873ef-9e3d-4d07-85d8-e22a55f60c19"
+    source_record_ids: ["e03873ef-9e3d-4d07-85d8-e22a55f60c19"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

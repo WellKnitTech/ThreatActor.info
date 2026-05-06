@@ -1,0 +1,20 @@
+name: "CoronaVirus"
+aliases: ["CoronaVirus"]
+description: "A new ransomware called CoronaVirus has been distributed through a fake web site pretending to promote the system optimization software and utilities from WiseCleaner.\nWith the increasing fears and anxiety of the Coronavirus (COVID-19) outbreak, an attacker has started to build a campaign to distribute a malware cocktail consisting of the CoronaVirus Ransomware and the Kpot information-stealing Trojan.\nThis new ransomware was discovered by MalwareHunterTeam and after further digging into the source of the file, we have been able to determine how the threat actor plans on distributing the ransomware and possible clues suggesting that it may actually be a wiper."
+url: "/coronavirus"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Trojan.Karagany"
+  - name: "Wiper"
+  - name: "Trojan.Mebromi"
+  - name: "Virus RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "575b2b3c-d762-4ba6-acbd-51ecdb57249f"
+    source_record_ids: ["575b2b3c-d762-4ba6-acbd-51ecdb57249f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

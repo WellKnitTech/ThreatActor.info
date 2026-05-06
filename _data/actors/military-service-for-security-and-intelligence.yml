@@ -1,0 +1,15 @@
+name: "Military Service for Security and Intelligence"
+aliases: ["Voena služba za razuznuvanje i bezbednost","Military Service for Security and Intelligence"]
+description: "Military Service for Security and Intelligence (Voena služba za razuznuvanje i bezbednost) (Military Agency) [1]"
+url: "/military-service-for-security-and-intelligence"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "46921981-314f-5aee-865c-1e67908ae79b"
+    source_record_ids: ["46921981-314f-5aee-865c-1e67908ae79b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

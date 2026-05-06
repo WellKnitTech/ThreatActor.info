@@ -1,0 +1,17 @@
+name: "FuckSociety Ransomware"
+aliases: ["FuckSociety Ransomware"]
+description: "This is most likely to affect English speaking users, since the note is written in English. English is understood worldwide, thus anyone can be harmed. The hacker spread the virus using email spam, fake updates, and harmful attachments. All your files are compromised including music, MS Office, Open Office, pictures, videos, shared online files etc.. Hidden Tear >> APT Ransomware + HYPERLINK \"https://id-ransomware.blogspot.ru/2016/05/remindme-ransomware-2.html\" \t \"_blank\" RemindMe  > FuckSociety"
+url: "/fucksociety-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Virus RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "81c476c3-3190-440d-be4a-ea875e9415aa"
+    source_record_ids: ["81c476c3-3190-440d-be4a-ea875e9415aa"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

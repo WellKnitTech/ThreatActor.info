@@ -1,0 +1,15 @@
+name: "Tellyouthepass"
+aliases: ["Tellyouthepass"]
+description: "Tellyouthepass is a ransomware that alters system files, registry entries and encodes personal photos, documents, and servers or archives. Army-grade encryption algorithms get used to change the original code of the file and make the data useless."
+url: "/tellyouthepass"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c6ca9b44-d0cd-40c9-9d00-39e0f7bcae79"
+    source_record_ids: ["c6ca9b44-d0cd-40c9-9d00-39e0f7bcae79"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

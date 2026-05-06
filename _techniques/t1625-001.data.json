@@ -1,0 +1,23 @@
+{
+  "mitre_id": "T1625.001",
+  "mitigations": [
+    {
+      "name": "Attestation",
+      "mitre_id": "M1002",
+      "url": "https://attack.mitre.org/mitigations/M1002",
+      "stix_id": "course-of-action--ff4821f6-5afb-481b-8c0f-26c28c0d666c"
+    },
+    {
+      "name": "System Partition Integrity",
+      "mitre_id": "M1004",
+      "url": "https://attack.mitre.org/mitigations/M1004",
+      "stix_id": "course-of-action--7b1cf46f-784b-405a-a8dd-4624c19d8321"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

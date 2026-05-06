@@ -1,0 +1,14 @@
+name: "WininiCrypt"
+aliases: ["WininiCrypt"]
+description: "ransomware"
+url: "/wininicrypt"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "99a8b639-1b06-4e4b-9994-a6e4d0601341"
+    source_record_ids: ["99a8b639-1b06-4e4b-9994-a6e4d0601341"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

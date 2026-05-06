@@ -1,0 +1,15 @@
+name: "Brazilian Globe"
+aliases: ["Brazilian Globe"]
+description: "Ransomware"
+url: "/brazilian-globe"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "d2bc5ec4-1dd1-408a-a6f6-621986657dff"
+    source_record_ids: ["d2bc5ec4-1dd1-408a-a6f6-621986657dff"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

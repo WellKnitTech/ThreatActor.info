@@ -1,13 +1,27 @@
 name: "Elderwood"
-aliases: ["Beijing Group","Elderwood","Elderwood Gang","Sneaky Panda"]
+aliases: ["Beijing Group","Elderwood","Elderwood Gang","Sneaky Panda","SNEAKY PANDA","SIG22","G0066"]
 description: "Elderwood is a suspected Chinese cyber espionage group that was reportedly responsible for the 2009 Google intrusion known as Operation Aurora. [Security Affairs Elderwood Sept 2012](http://securityaffairs.co/wordpress/8528/hacking/elderwood-project-who-is-behind-op-aurora-and-ongoing-attacks.html) The group has targeted defense organizations, supply chain manufacturers, human rights and nongovernmental organizations (NGOs), and IT service providers. [Symantec Elderwood Sept 2012](https://web.archive.org/web/20190717233006/http:/www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf) [CSM Elderwood Sept 2012](https://www.csmonitor.com/USA/2012/0914/Stealing-US-business-secrets-Experts-ID-two-huge-cyber-gangs-in-China)"
 url: "/apt0066"
+country: "China"
+sector_focus: ["Private sector","Civil society"]
+targeted_victims: ["United States","Canada","United Kingdom","Switzerland","Hong Kong","Australia","India","Taiwan","China","Denmark"]
+incident_type: "Espionage"
 external_id: "G0066"
 external_url: "https://attack.mitre.org/groups/G0066"
 mitre_id: "G0066"
 mitre_url: "https://attack.mitre.org/groups/G0066"
+source_name: "Malpedia (Fraunhofer FKIE)"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/beijing_group"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "beijing_group"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/beijing_group"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "da754aeb-a86d-4874-b388-d1d2028a56be"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0066"

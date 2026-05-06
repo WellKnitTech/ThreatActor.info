@@ -1,0 +1,14 @@
+name: "LittleFinger"
+aliases: ["LittleFinger"]
+description: "ransomware"
+url: "/littlefinger"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "0ea3f9fd-9f2a-4491-9492-e655344fd5ec"
+    source_record_ids: ["0ea3f9fd-9f2a-4491-9492-e655344fd5ec"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

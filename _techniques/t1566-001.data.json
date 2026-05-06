@@ -1,0 +1,364 @@
+{
+  "mitre_id": "T1566.001",
+  "mitigations": [
+    {
+      "name": "Antivirus/Antimalware",
+      "mitre_id": "M1049",
+      "url": "https://attack.mitre.org/mitigations/M1049",
+      "stix_id": "course-of-action--a6a47a06-08fc-4ec4-bdc3-20373375ebb9"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "Network Intrusion Prevention",
+      "mitre_id": "M1031",
+      "url": "https://attack.mitre.org/mitigations/M1031",
+      "stix_id": "course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c"
+    },
+    {
+      "name": "Software Configuration",
+      "mitre_id": "M1054",
+      "url": "https://attack.mitre.org/mitigations/M1054",
+      "stix_id": "course-of-action--b5dbb4c5-b0b1-40b1-80b6-e9e84ab90067"
+    },
+    {
+      "name": "User Training",
+      "mitre_id": "M1017",
+      "url": "https://attack.mitre.org/mitigations/M1017",
+      "stix_id": "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a"
+    },
+    {
+      "name": "Restrict Web-Based Content",
+      "mitre_id": "M1021",
+      "url": "https://attack.mitre.org/mitigations/M1021",
+      "stix_id": "course-of-action--21da4fd4-27ad-4e9c-b93d-0b9b14d02c96"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Cobalt Group",
+      "url": "/apt0080"
+    },
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    },
+    {
+      "name": "Saint Bear",
+      "url": "/apt1031"
+    },
+    {
+      "name": "Tropic Trooper",
+      "url": "/apt0081"
+    },
+    {
+      "name": "FIN6",
+      "url": "/apt0037"
+    },
+    {
+      "name": "APT28",
+      "url": "/apt28"
+    },
+    {
+      "name": "admin@338",
+      "url": "/apt0018"
+    },
+    {
+      "name": "Windshift",
+      "url": "/apt0112"
+    },
+    {
+      "name": "BRONZE BUTLER",
+      "url": "/apt0060"
+    },
+    {
+      "name": "WIRTE",
+      "url": "/apt0090"
+    },
+    {
+      "name": "MuddyWater",
+      "url": "/apt0069"
+    },
+    {
+      "name": "menuPass",
+      "url": "/apt0045"
+    },
+    {
+      "name": "Threat Group-3390",
+      "url": "/apt0027"
+    },
+    {
+      "name": "Gamaredon Group",
+      "url": "/apt0047"
+    },
+    {
+      "name": "APT32",
+      "url": "/apt32"
+    },
+    {
+      "name": "Darkhotel",
+      "url": "/apt0012"
+    },
+    {
+      "name": "BITTER",
+      "url": "/apt1002"
+    },
+    {
+      "name": "APT29",
+      "url": "/apt29"
+    },
+    {
+      "name": "Inception",
+      "url": "/apt0100"
+    },
+    {
+      "name": "EXOTIC LILY",
+      "url": "/apt1011"
+    },
+    {
+      "name": "Ajax Security Team",
+      "url": "/apt0130"
+    },
+    {
+      "name": "Dragonfly",
+      "url": "/apt0035"
+    },
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    },
+    {
+      "name": "Elderwood",
+      "url": "/apt0066"
+    },
+    {
+      "name": "APT33",
+      "url": "/apt0064"
+    },
+    {
+      "name": "Molerats",
+      "url": "/apt0021"
+    },
+    {
+      "name": "Patchwork",
+      "url": "/apt0040"
+    },
+    {
+      "name": "TA551",
+      "url": "/apt0127"
+    },
+    {
+      "name": "RTM",
+      "url": "/apt0048"
+    },
+    {
+      "name": "RedCurl",
+      "url": "/apt1039"
+    },
+    {
+      "name": "APT41",
+      "url": "/apt41"
+    },
+    {
+      "name": "Winter Vivern",
+      "url": "/apt1035"
+    },
+    {
+      "name": "Higaisa",
+      "url": "/apt0126"
+    },
+    {
+      "name": "Confucius",
+      "url": "/apt0142"
+    },
+    {
+      "name": "TA459",
+      "url": "/apt0062"
+    },
+    {
+      "name": "BlackTech",
+      "url": "/apt0098"
+    },
+    {
+      "name": "Gorgon Group",
+      "url": "/apt0078"
+    },
+    {
+      "name": "Leviathan",
+      "url": "/apt40"
+    },
+    {
+      "name": "Mofang",
+      "url": "/apt0103"
+    },
+    {
+      "name": "Naikon",
+      "url": "/apt0019"
+    },
+    {
+      "name": "APT12",
+      "url": "/apt0005"
+    },
+    {
+      "name": "APT19",
+      "url": "/apt0073"
+    },
+    {
+      "name": "Star Blizzard",
+      "url": "/apt1033"
+    },
+    {
+      "name": "APT30",
+      "url": "/apt0013"
+    },
+    {
+      "name": "Ferocious Kitten",
+      "url": "/apt0137"
+    },
+    {
+      "name": "Malteiro",
+      "url": "/apt1026"
+    },
+    {
+      "name": "SideCopy",
+      "url": "/apt1008"
+    },
+    {
+      "name": "MirrorFace",
+      "url": "/mirrorface"
+    },
+    {
+      "name": "FIN8",
+      "url": "/apt0061"
+    },
+    {
+      "name": "Nomadic Octopus",
+      "url": "/apt0133"
+    },
+    {
+      "name": "LazyScripter",
+      "url": "/apt0140"
+    },
+    {
+      "name": "Mustang Panda",
+      "url": "/apt0129"
+    },
+    {
+      "name": "OilRig",
+      "url": "/apt34"
+    },
+    {
+      "name": "Moonstone Sleet",
+      "url": "/apt1036"
+    },
+    {
+      "name": "Transparent Tribe",
+      "url": "/apt0134"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Machete",
+      "url": "/apt0095"
+    },
+    {
+      "name": "FIN4",
+      "url": "/apt0085"
+    },
+    {
+      "name": "Wizard Spider",
+      "url": "/wizard-spider"
+    },
+    {
+      "name": "Andariel",
+      "url": "/apt0138"
+    },
+    {
+      "name": "TA2541",
+      "url": "/apt1018"
+    },
+    {
+      "name": "Tonto Team",
+      "url": "/apt0131"
+    },
+    {
+      "name": "Sidewinder",
+      "url": "/apt0121"
+    },
+    {
+      "name": "TA505",
+      "url": "/cl0p"
+    },
+    {
+      "name": "FIN7",
+      "url": "/fin7"
+    },
+    {
+      "name": "APT37",
+      "url": "/apt0067"
+    },
+    {
+      "name": "CURIUM",
+      "url": "/apt1012"
+    },
+    {
+      "name": "Silence",
+      "url": "/apt0091"
+    },
+    {
+      "name": "IndigoZebra",
+      "url": "/apt0136"
+    },
+    {
+      "name": "APT1",
+      "url": "/apt1"
+    },
+    {
+      "name": "APT38",
+      "url": "/apt0082"
+    },
+    {
+      "name": "DarkHydrus",
+      "url": "/apt0079"
+    },
+    {
+      "name": "The White Company",
+      "url": "/apt0089"
+    },
+    {
+      "name": "PLATINUM",
+      "url": "/apt0068"
+    },
+    {
+      "name": "Rancor",
+      "url": "/apt0075"
+    },
+    {
+      "name": "APT-C-36",
+      "url": "/apt0099"
+    },
+    {
+      "name": "APT39",
+      "url": "/apt0087"
+    },
+    {
+      "name": "Gallmaker",
+      "url": "/apt0084"
+    }
+  ]
+}

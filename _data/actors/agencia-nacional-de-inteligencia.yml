@@ -1,0 +1,16 @@
+name: "Agencia Nacional de Inteligencia"
+aliases: ["Agencia Nacional de Inteligencia"]
+description: "National Intelligence Agency (ANI) – Agencia Nacional de Inteligencia"
+url: "/agencia-nacional-de-inteligencia"
+country: "Chile"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "0b12bf70-382b-58f4-9218-0ac6b7917ee5"
+    source_record_ids: ["0b12bf70-382b-58f4-9218-0ac6b7917ee5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

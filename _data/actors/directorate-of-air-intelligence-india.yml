@@ -1,0 +1,16 @@
+name: "Directorate of Air Intelligence (India)"
+aliases: ["Directorate of Air Intelligence (India)"]
+description: "Directorate of Air Intelligence"
+url: "/directorate-of-air-intelligence-india"
+country: "India"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "b5e9c0cd-7ae5-5cae-9cbb-a32ff9af8b3d"
+    source_record_ids: ["b5e9c0cd-7ae5-5cae-9cbb-a32ff9af8b3d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,14 @@
+name: "AlldataLocker"
+aliases: ["AlldataLocker"]
+description: "Ransomware"
+url: "/alldatalocker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "74101521-d42c-498a-9c1c-ee31672aaba5"
+    source_record_ids: ["74101521-d42c-498a-9c1c-ee31672aaba5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

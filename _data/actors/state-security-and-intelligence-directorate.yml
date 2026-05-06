@@ -1,0 +1,16 @@
+name: "State Security and Intelligence Directorate"
+aliases: ["State Security and Intelligence Directorate"]
+description: "Direktion Staatsschutz und Nachrichtendienst (DSN): State Security and Intelligence Directorate"
+url: "/state-security-and-intelligence-directorate"
+country: "Austria"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "963b9ccd-c97c-5fa3-b997-1331ddd734ca"
+    source_record_ids: ["963b9ccd-c97c-5fa3-b997-1331ddd734ca"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

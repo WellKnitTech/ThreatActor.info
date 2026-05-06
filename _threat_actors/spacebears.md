@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "SpaceBears"
-aliases: ["SpaceBears"]
+aliases: ["SpaceBears","space bears"]
 description: "SpaceBears is a ransomware group believed to be based in Moscow, Russia, that has taken credit for several high-profile cyberattacks while primarily operating as a Data Broker. They currently list eigh"
 permalink: /spacebears/
 ---

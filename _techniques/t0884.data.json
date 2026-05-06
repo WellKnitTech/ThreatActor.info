@@ -1,0 +1,38 @@
+{
+  "mitre_id": "T0884",
+  "mitigations": [
+    {
+      "name": "SSL/TLS Inspection",
+      "mitre_id": "M0920",
+      "url": "https://attack.mitre.org/mitigations/M0920",
+      "stix_id": "course-of-action--6a02e38a-9629-40c0-8c7d-e98e3470315c"
+    },
+    {
+      "name": "Network Intrusion Prevention",
+      "mitre_id": "M0931",
+      "url": "https://attack.mitre.org/mitigations/M0931",
+      "stix_id": "course-of-action--3172222b-4983-43f7-8983-753ded4f13bc"
+    },
+    {
+      "name": "Filter Network Traffic",
+      "mitre_id": "M0937",
+      "url": "https://attack.mitre.org/mitigations/M0937",
+      "stix_id": "course-of-action--11f242bc-3121-438c-84b2-5cbd46a4bb17"
+    },
+    {
+      "name": "Network Allowlists",
+      "mitre_id": "M0807",
+      "url": "https://attack.mitre.org/mitigations/M0807",
+      "stix_id": "course-of-action--aadac250-bcdc-44e3-a4ae-f52bd0a7a16a"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    }
+  ]
+}

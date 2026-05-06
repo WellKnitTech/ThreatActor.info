@@ -6,11 +6,37 @@ country: "China"
 sector_focus: ["Infrastructure","Diplomacy","Government"]
 targeted_victims: ["Malaysia","Indonesia","Philippines","United States","India"]
 incident_type: "Espionage"
+first_seen: "2015"
+last_activity: "2015"
 risk_level: "High"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/hellsing"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["UNITEDRAKE"]
 provenance:
+  aptnotes:
+    earliest_report_year: "2015"
+    latest_report_year: "2015"
+    report_count: 2
+    sample_links: ["https://app.box.com/s/ob16ltqxv6urff6z1ore9i6t4308cxy6","https://app.box.com/s/ralrn76f32axakdv2fdl4kwtxqxvwee8"]
+    sample_titles: ["The Chronicles Of The Hellsing APT: The Empire Strikes Back","Hellsing Indicators Of Compromise"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Kaspersky"]
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "hellsing"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/hellsing"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "af482dde-9e47-48d5-9cb2-cf8f6d6303d3"
   misp_galaxy:
+    meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","refs","targeted-sector"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "af482dde-9e47-48d5-9cb2-cf8f6d6303d3"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["af482dde-9e47-48d5-9cb2-cf8f6d6303d3"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

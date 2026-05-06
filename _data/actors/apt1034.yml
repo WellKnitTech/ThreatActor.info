@@ -2,12 +2,26 @@ name: "Daggerfly"
 aliases: ["BRONZE HIGHLAND","Daggerfly","Evasive Panda"]
 description: "Daggerfly is a People's Republic of China-linked APT entity active since at least 2012. Daggerfly has targeted individuals, government and NGO entities, and telecommunication companies in Asia and Africa. Daggerfly is associated with exclusive use of MgBot malware and is noted for several potential supply chain infection campaigns. [Symantec Daggerfly 2023](https://symantec-enterprise-blogs.security.com/threat-intelligence/apt-attacks-telecoms-africa-mgbot) [ESET EvasivePanda 2023](https://www.welivesecurity.com/2023/04/26/evasive-panda-apt-group-malware-updates-popular-chinese-software/) [Symantec Daggerfly 2024](https://symantec-enterprise-blogs.security.com/threat-intelligence/daggerfly-espionage-updated-toolset) [ESET EvasivePanda 2024](https://www.welivesecurity.com/en/eset-research/evasive-panda-leverages-monlam-festival-target-tibetans/)"
 url: "/apt1034"
+country: "China"
+sector_focus: ["Government","Individuals","Universities"]
+targeted_victims: ["Hong Kong","Malaysia","India","Taiwan","Macao","Nigeria"]
+incident_type: "Espionage"
 external_id: "G1034"
 external_url: "https://attack.mitre.org/groups/G1034"
 mitre_id: "G1034"
 mitre_url: "https://attack.mitre.org/groups/G1034"
+source_name: "Malpedia (Fraunhofer FKIE)"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/bronze_highland"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "evasive_panda"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/evasive_panda"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "171d0590-be92-443f-addb-af5dc2a8034d"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1034"

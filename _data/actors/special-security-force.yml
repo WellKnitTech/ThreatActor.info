@@ -1,0 +1,15 @@
+name: "Special Security Force"
+aliases: ["Special Security Force"]
+description: "Special Security Force – Intelligence Bureau (SSF-IB)"
+url: "/special-security-force"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "92400d37-a966-5d6c-bfec-ac088253b954"
+    source_record_ids: ["92400d37-a966-5d6c-bfec-ac088253b954"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

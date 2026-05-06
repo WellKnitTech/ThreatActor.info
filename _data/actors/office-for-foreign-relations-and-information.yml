@@ -1,0 +1,15 @@
+name: "Office for Foreign Relations and Information"
+aliases: ["Office for Foreign Relations and Information"]
+description: "Office for Foreign Relations and Information (Úřad pro zahraniční styky a informace, ÚZSI)"
+url: "/office-for-foreign-relations-and-information"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "e93d2746-6f89-5487-804f-7a0dad0aa647"
+    source_record_ids: ["e93d2746-6f89-5487-804f-7a0dad0aa647"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

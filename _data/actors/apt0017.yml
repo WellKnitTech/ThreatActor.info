@@ -1,11 +1,13 @@
 name: "DragonOK"
-aliases: ["BRONZE OVERBROOK","DragonOK","G0002","G0017","Moafee","Shallow Taurus","Dragon Castling"]
+aliases: ["BRONZE OVERBROOK","Dragon Castling","DragonOK","G0002","G0017","Moafee","Shallow Taurus"]
 description: "DragonOK is a threat group that has targeted Japanese organizations with phishing emails. Due to overlapping TTPs, including similar custom tools, DragonOK is thought to have a direct or indirect relationship with the threat group Moafee. [Operation Quantum Entanglement](https://web.archive.org/web/20210920193513/https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf) It is known to use a variety of malware, including Sysget/HelloBridge, PlugX, PoisonIvy, FormerFirstRat, NFlog, and NewCT. [New DragonOK](http://researchcenter.paloaltonetworks.com/2015/04/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets/)"
 url: "/apt0017"
 country: "China"
 sector_focus: ["Private sector"]
 targeted_victims: ["United States"]
 incident_type: "Espionage"
+first_seen: "2017"
+last_activity: "2022"
 risk_level: "High"
 external_id: "G0017"
 external_url: "https://attack.mitre.org/groups/G0017"
@@ -13,6 +15,9 @@ mitre_id: "G0017"
 mitre_url: "https://attack.mitre.org/groups/G0017"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dragonok"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware:
   - "PlugX"
   - "PoisonIvy"
@@ -20,16 +25,56 @@ malware:
   - name: "Sysget"
   - name: "IsSpace"
   - name: "Rambo Backdoor"
+software:
+  - name: "PoisonIvy"
+    mitre_id: "S0012"
+    url: "https://attack.mitre.org/software/S0012"
+    type: "malware"
+    stix_id: "malware--b42378e0-f147-496f-992a-26a49705395b"
+    description: "PoisonIvy is a popular remote access tool (RAT) that has been used by many groups.(Citation: FireEye Poison Ivy)(Citation: Symantec Elderwood Sept 2012)(Citation: Symantec Darkmoon Aug 2005)"
+  - name: "PlugX"
+    mitre_id: "S0013"
+    url: "https://attack.mitre.org/software/S0013"
+    type: "malware"
+    stix_id: "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd"
+    description: "PlugX is a remote access tool (RAT) with modular plugins that has been used by multiple threat groups.(Citation: Lastline PlugX Analysis)(Citation: FireEye Clandestine Fox Part 2)(Citation: New DragonOK)(Citation: Dell TG-3390)"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0017"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://researchcenter.paloaltonetworks.com/2015/04/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets/","http://researchcenter.paloaltonetworks.com/2017/01/unit42-dragonok-updates-toolset-targets-multiple-geographic-regions/","https://blogs.forcepoint.com/security-labs/trojanized-adobe-installer-used-install-dragonok%E2%80%99s-new-custom-backdoor","http://www.morphick.com/resources/news/deep-dive-dragonok-rambo-backdoor","https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf","https://decoded.avast.io/luigicamastra/operation-dragon-castling-apt-group-targeting-betting-companies/","https://www.sentinelone.com/labs/aoqin-dragon-newly-discovered-chinese-linked-apt-has-been-quietly-spying-on-organizations-for-10-years/"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "china"
+  aptnotes:
+    earliest_report_year: "2017"
+    latest_report_year: "2022"
+    report_count: 2
+    sample_links: ["https://app.box.com/s/50tu7yfcrcj3ntj6b894rq6londdps34","https://app.box.com/s/xtmf4vkiyrwbnyk9dp0aa3v3aoe7zoc9"]
+    sample_titles: ["DragonOK Updates Toolset and Targets Multiple Geographic Regions","Operation Dragon Castling: APT group targeting betting companies"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Avast","Palo Alto Networks"]
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "dragonok"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dragonok"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "a9b44750-992c-4743-8922-129880d277ea"
   mitre:
+    attack_version: "19.0"
+    attack_version_by_domain:
+      enterprise: "19.0"
+      ics: "19.0"
+      mobile: "19.0"
+    relationships_imported_at: "2026-05-06T21:54:34Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_dataset_urls:
+      enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+      ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
+      mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0017"
-    source_retrieved_at: "2026-04-26T07:05:44Z"
+    source_retrieved_at: "2026-05-06T21:54:34Z"
+    stix_intrusion_set_id: "intrusion-set--f3bdec95-3d62-42d9-a840-29630f6cdc1a"
 source: "MITRE ATT&CK"

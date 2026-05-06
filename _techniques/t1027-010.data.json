@@ -1,0 +1,138 @@
+{
+  "mitre_id": "T1027.010",
+  "mitigations": [
+    {
+      "name": "Behavior Prevention on Endpoint",
+      "mitre_id": "M1040",
+      "url": "https://attack.mitre.org/mitigations/M1040",
+      "stix_id": "course-of-action--90f39ee1-d5a3-4aaa-9f28-3b42815b0d46"
+    },
+    {
+      "name": "Antivirus/Antimalware",
+      "mitre_id": "M1049",
+      "url": "https://attack.mitre.org/mitigations/M1049",
+      "stix_id": "course-of-action--a6a47a06-08fc-4ec4-bdc3-20373375ebb9"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Aquatic Panda",
+      "url": "/apt0143"
+    },
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    },
+    {
+      "name": "HEXANE",
+      "url": "/apt1001"
+    },
+    {
+      "name": "Leafminer",
+      "url": "/apt0077"
+    },
+    {
+      "name": "Cobalt Group",
+      "url": "/apt0080"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Medusa Group",
+      "url": "/apt1051"
+    },
+    {
+      "name": "Fox Kitten",
+      "url": "/apt0117"
+    },
+    {
+      "name": "FIN6",
+      "url": "/apt0037"
+    },
+    {
+      "name": "APT32",
+      "url": "/apt32"
+    },
+    {
+      "name": "Play",
+      "url": "/play"
+    },
+    {
+      "name": "Magic Hound",
+      "url": "/apt35"
+    },
+    {
+      "name": "Wizard Spider",
+      "url": "/wizard-spider"
+    },
+    {
+      "name": "MuddyWater",
+      "url": "/apt0069"
+    },
+    {
+      "name": "Patchwork",
+      "url": "/apt0040"
+    },
+    {
+      "name": "Chimera",
+      "url": "/apt0114"
+    },
+    {
+      "name": "Silence",
+      "url": "/apt0091"
+    },
+    {
+      "name": "FIN8",
+      "url": "/apt0061"
+    },
+    {
+      "name": "FIN7",
+      "url": "/fin7"
+    },
+    {
+      "name": "TA551",
+      "url": "/apt0127"
+    },
+    {
+      "name": "Sidewinder",
+      "url": "/apt0121"
+    },
+    {
+      "name": "TA505",
+      "url": "/cl0p"
+    },
+    {
+      "name": "Turla",
+      "url": "/apt0010"
+    },
+    {
+      "name": "GOLD SOUTHFIELD",
+      "url": "/apt0115"
+    },
+    {
+      "name": "LazyScripter",
+      "url": "/apt0140"
+    },
+    {
+      "name": "Contagious Interview",
+      "url": "/apt1052"
+    },
+    {
+      "name": "Gamaredon Group",
+      "url": "/apt0047"
+    },
+    {
+      "name": "WIRTE",
+      "url": "/apt0090"
+    },
+    {
+      "name": "APT19",
+      "url": "/apt0073"
+    }
+  ]
+}

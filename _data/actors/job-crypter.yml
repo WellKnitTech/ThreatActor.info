@@ -1,0 +1,15 @@
+name: "Job Crypter"
+aliases: ["JobCrypter","Job Crypter"]
+description: "Ransomware Based on HiddenTear, but uses TripleDES, decrypter is PoC"
+url: "/job-crypter"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","price","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "7c9a273b-1534-4a13-b201-b7a782b6c32a"
+    source_record_ids: ["7c9a273b-1534-4a13-b201-b7a782b6c32a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

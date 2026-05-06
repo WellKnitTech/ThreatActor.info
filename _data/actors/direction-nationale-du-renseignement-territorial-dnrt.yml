@@ -1,0 +1,16 @@
+name: "direction nationale du renseignement territorial  (DNRT)"
+aliases: ["direction nationale du renseignement territorial ","direction nationale du renseignement territorial  (DNRT)"]
+description: "direction nationale du renseignement territorial  (DNRT)"
+url: "/direction-nationale-du-renseignement-territorial-dnrt"
+country: "France"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "71ed132f-e52a-50a5-8c84-66676ac54bb1"
+    source_record_ids: ["71ed132f-e52a-50a5-8c84-66676ac54bb1"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

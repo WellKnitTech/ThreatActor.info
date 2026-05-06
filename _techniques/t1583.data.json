@@ -1,0 +1,87 @@
+{
+  "mitre_id": "T1583",
+  "mitigations": [
+    {
+      "name": "Pre-compromise",
+      "mitre_id": "M1056",
+      "url": "https://attack.mitre.org/mitigations/M1056",
+      "stix_id": "course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1583.008",
+      "name": "Malvertising",
+      "permalink": "/techniques/T1583.008/"
+    },
+    {
+      "id": "T1583.001",
+      "name": "Domains",
+      "permalink": "/techniques/T1583.001/"
+    },
+    {
+      "id": "T1583.005",
+      "name": "Botnet",
+      "permalink": "/techniques/T1583.005/"
+    },
+    {
+      "id": "T1583.004",
+      "name": "Server",
+      "permalink": "/techniques/T1583.004/"
+    },
+    {
+      "id": "T1583.002",
+      "name": "DNS Server",
+      "permalink": "/techniques/T1583.002/"
+    },
+    {
+      "id": "T1583.003",
+      "name": "Virtual Private Server",
+      "permalink": "/techniques/T1583.003/"
+    },
+    {
+      "id": "T1583.007",
+      "name": "Serverless",
+      "permalink": "/techniques/T1583.007/"
+    },
+    {
+      "id": "T1583.006",
+      "name": "Web Services",
+      "permalink": "/techniques/T1583.006/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Sea Turtle",
+      "url": "/apt1041"
+    },
+    {
+      "name": "Ember Bear",
+      "url": "/apt1003"
+    },
+    {
+      "name": "Indrik Spider",
+      "url": "/apt0119"
+    },
+    {
+      "name": "Agrius",
+      "url": "/apt1030"
+    },
+    {
+      "name": "Contagious Interview",
+      "url": "/apt1052"
+    },
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    },
+    {
+      "name": "Star Blizzard",
+      "url": "/apt1033"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+name: "RobinHood"
+aliases: ["HelpYemen","RobinHood"]
+description: "Detected in April 2019. Known for paralyzing the cities of Baltimore and Greenville. Probably also exfiltrate data"
+url: "/robinhood"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "000fb0bf-8be3-4ff1-8bbd-cc0513bcdd89"
+    source_record_ids: ["000fb0bf-8be3-4ff1-8bbd-cc0513bcdd89"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

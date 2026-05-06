@@ -1,0 +1,15 @@
+name: "Office of the Chief of Military Security Affairs"
+aliases: ["Office of the Chief of Military Security Affairs"]
+description: "Office of the Chief of Military Security Affairs (OCMSA)"
+url: "/office-of-the-chief-of-military-security-affairs"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "9d7f28ef-2179-5195-b126-53bc08955ed5"
+    source_record_ids: ["9d7f28ef-2179-5195-b126-53bc08955ed5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

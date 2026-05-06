@@ -1,13 +1,26 @@
 name: "Moonstone Sleet"
-aliases: ["Moonstone Sleet","Storm-1789"]
+aliases: ["Moonstone Sleet","Storm-1789","LABYRINTH CHOLLIMA"]
 description: "Moonstone Sleet is a North Korean-linked threat actor executing both financially motivated attacks and espionage operations. The group previously overlapped significantly with another North Korean-linked entity, Lazarus Group, but has differentiated its tradecraft since 2023. Moonstone Sleet is notable for creating fake companies and personas to interact with victim entities, as well as developing unique malware such as a variant delivered via a fully functioning game. [Microsoft Moonstone Sleet 2024](https://www.microsoft.com/en-us/security/blog/2024/05/28/moonstone-sleet-emerges-as-new-north-korean-threat-actor-with-new-bag-of-tricks/)"
 url: "/apt1036"
+country: "North Korea"
 external_id: "G1036"
 external_url: "https://attack.mitre.org/groups/G1036"
 mitre_id: "G1036"
 mitre_url: "https://attack.mitre.org/groups/G1036"
+source_name: "MISP Galaxy"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+malware:
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
 provenance:
+  misp_galaxy:
+    meta_keys: ["country","microsoft-origin-threat","refs","synonyms","group_attack_id","observed_motivations","source","target_categories"]
+    source_cluster: "microsoft-activity-group.json"
+    source_clusters: ["microsoft-activity-group.json","tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
+    source_record_id: "b1e94607-7211-585d-8197-73e7d9229400"
+    source_record_ids: ["b1e94607-7211-585d-8197-73e7d9229400","33a5fa48-89ee-5c0b-9c9c-e0ee69032fca"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1036"

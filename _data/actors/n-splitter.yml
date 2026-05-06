@@ -1,0 +1,15 @@
+name: "N-Splitter"
+aliases: ["N-Splitter"]
+description: "Ransomware Russian Koolova Variant"
+url: "/n-splitter"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "8ec55495-fb31-49c7-a720-40250b5e085f"
+    source_record_ids: ["8ec55495-fb31-49c7-a720-40250b5e085f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

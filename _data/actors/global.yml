@@ -1,0 +1,27 @@
+name: "global"
+aliases: ["global"]
+description: "Not a RaaS yet."
+url: "/global"
+first_seen: "2013"
+last_activity: "2022"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  aptnotes:
+    earliest_report_year: "2013"
+    latest_report_year: "2022"
+    report_count: 3
+    sample_links: ["https://app.box.com/s/bdtw7jyfdcr9snnt14ye7ukb9oj2gmn9","https://app.box.com/s/xbbiyzpb3614bdaxuu3rs96n7f4ysppa","https://app.box.com/s/653jbuah6rtf91u8v6sz330fka14gy8z"]
+    sample_titles: ["You Only Click Twice: Finfisher's Global Proliferation","Global Threat Intel Report","Iranian Government-Sponsored Actors Conduct Cyber Operations Against Global Government and Commercial Networks"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Citizen Lab","Crowdstrike","cisa"]
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "0876ad69-117b-5eaf-a364-a4b65811a261"
+    source_record_ids: ["0876ad69-117b-5eaf-a364-a4b65811a261"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

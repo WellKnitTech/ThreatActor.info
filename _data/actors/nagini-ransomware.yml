@@ -1,0 +1,15 @@
+name: "Nagini Ransomware"
+aliases: ["Voldemort Ransomware","Nagini Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc.. Looks for C:\\Temp\\voldemort.horcrux"
+url: "/nagini-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","payment-method","ransomnotes-refs","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "46a35af7-9d05-4de4-a955-41ccf3d3b83b"
+    source_record_ids: ["46a35af7-9d05-4de4-a955-41ccf3d3b83b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

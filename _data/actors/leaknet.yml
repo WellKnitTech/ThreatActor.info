@@ -1,0 +1,25 @@
+name: "leaknet"
+aliases: ["leaknet"]
+description: "\r<br/>\r<br/>In the cyber-undergrounds, we're exploring shadowed corridors of the digital world in search of inside information. we’re a digital watchdog operating at the intersection of cybersecurity, internet freedom, and investigative journalism. We delve into the hidden corners of the web, exposing truths and uncovering stories that are often buried by mainstream media or distorted by corporate interests.\r<br/>\r<br/>This project isn’t just for tech experts or privacy advocates. It’s for everyone who values transparency, freedom, and integrity in a connected world. Operating independently, we’re free from corporate influence and political bias, enabling us to report with uncompromising honesty. Our work resonates with a diverse audience cybersecurity experts, digital rights activists, journalists, and anyone who values an internet free from control.\r<br/>\r<br/>In a world where the lines between truth and agenda grow increasingly blurred, we’re building something bold, the space where the truth of the internet can be uncovered, untamed and unfiltered. Our project is an independent voice for digital freedom, committed to shining a light on the internet’s most vital and vulnerable spaces: cybersecurity, privacy, and the right to information without compromise.\r<br/>\r<br/>In a landscape clouded by agendas and profit, we are here to do one thing: deliver the truth, boldly and beautifully. Join us as we push back against the systems that seek to compromise our digital freedoms and carve a path toward a more transparent, liberated internet.\r<br/>"
+url: "/leaknet"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "SPACESHIP"
+  - name: "Net Crawler"
+  - name: "StreamEx"
+  - name: "CloudDuke"
+  - name: "Back Orifice"
+  - name: "Back Orifice 2000"
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+  - name: "Xpert"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "5f82caa6-d282-540e-99a0-df6008b8e135"
+    source_record_ids: ["5f82caa6-d282-540e-99a0-df6008b8e135"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

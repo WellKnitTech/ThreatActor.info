@@ -16,7 +16,9 @@ These attackers were the subject of an extensive report by Symantec in 2011, whi
 
 **Risk Level**: High
 
+**First Seen**: 2011
 
+**Last Activity**: 2014
 
 
 ## Notable Campaigns
@@ -26,7 +28,7 @@ These attackers were the subject of an extensive report by Symantec in 2011, whi
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+*No atomic indicators are listed in this profile. The APTnotes snapshot indexes 2 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
 ## Malware and Tools
 *Information pending cataloguing.*

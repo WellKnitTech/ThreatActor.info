@@ -1,0 +1,27 @@
+name: "Trojan"
+aliases: ["BrainCrypt","Trojan"]
+description: "Ransomware"
+url: "/trojan"
+first_seen: "2011"
+last_activity: "2021"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  aptnotes:
+    earliest_report_year: "2011"
+    latest_report_year: "2021"
+    report_count: 8
+    sample_links: ["https://app.box.com/s/ygyqokm0cxq56lut0v1u0i4u5vts9idc","https://app.box.com/s/73rhctcs0kj6s52eeqn509p44a368kuv","https://app.box.com/s/5ycaruh0zf07h2jy9mpasgm1crninjwp","https://app.box.com/s/iap35ypb6u03wrzpmemy2z2ntf4k8wm0","https://app.box.com/s/yvbehxsn3tknzogt74z9ryn7r7elwpmf","https://app.box.com/s/xqh458fe1url7mgl072hhd0yxqw3x0jm","https://app.box.com/s/d8vup5qyc8poenl8e760pzau9mt0kdih","https://app.box.com/s/73oze0g532ngowz0wocvgw31o20u976u"]
+    sample_titles: ["Duqu Trojan Questions And Answers","Palebot Trojan Harvests Palestinian Online Credentials","Trojan.Apt.Banechant: In-Memory Trojan That Observes For Multiple Mouse Clicks","Trojan.Apt.Seinup Hitting Asean","Intruder File Report- Sneakernet Trojan","Taiwan targeted with new cyberespionage back door Trojan","Threat Actors Target Government of Belarus Using CMSTAR Trojan","Targeted Attack Campaign Against ManageEngine ADSelfService Plus Delivers Godzilla Webshells, NGLite Trojan and KdcSponge Stealer"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Dell Secureworks","Fidelis","FireEye","Norman","Palo Alto Networks","PaloAlto","Symantec"]
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "97673387-75ae-4da4-9a5f-38773f2492e7"
+    source_record_ids: ["97673387-75ae-4da4-9a5f-38773f2492e7"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

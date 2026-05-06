@@ -1,0 +1,14 @@
+name: "CryptoLockerEU 2016"
+aliases: ["CryptoLockerEU 2016"]
+description: "Ransomware"
+url: "/cryptolockereu-2016"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ca054485-d14d-45df-92ae-47b9b4dbc4c7"
+    source_record_ids: ["ca054485-d14d-45df-92ae-47b9b4dbc4c7"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

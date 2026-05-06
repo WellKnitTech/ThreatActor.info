@@ -1,0 +1,14 @@
+name: "PZDC"
+aliases: ["PZDC"]
+description: "ransomware"
+url: "/pzdc"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b79b60a4-2b47-4bb1-b36e-602a03afc7cd"
+    source_record_ids: ["b79b60a4-2b47-4bb1-b36e-602a03afc7cd"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

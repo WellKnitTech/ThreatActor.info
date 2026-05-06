@@ -1,0 +1,72 @@
+{
+  "mitre_id": "T1195",
+  "mitigations": [
+    {
+      "name": "Boot Integrity",
+      "mitre_id": "M1046",
+      "url": "https://attack.mitre.org/mitigations/M1046",
+      "stix_id": "course-of-action--7da0387c-ba92-4553-b291-b636ee42b2eb"
+    },
+    {
+      "name": "Application Developer Guidance",
+      "mitre_id": "M1013",
+      "url": "https://attack.mitre.org/mitigations/M1013",
+      "stix_id": "course-of-action--25dc1ce8-eb55-4333-ae30-a7cb4f5894a1"
+    },
+    {
+      "name": "Update Software",
+      "mitre_id": "M1051",
+      "url": "https://attack.mitre.org/mitigations/M1051",
+      "stix_id": "course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    },
+    {
+      "name": "Vulnerability Scanning",
+      "mitre_id": "M1016",
+      "url": "https://attack.mitre.org/mitigations/M1016",
+      "stix_id": "course-of-action--15437c6d-b998-4a36-be41-4ace3d54d266"
+    },
+    {
+      "name": "Limit Software Installation",
+      "mitre_id": "M1033",
+      "url": "https://attack.mitre.org/mitigations/M1033",
+      "stix_id": "course-of-action--23843cff-f7b9-4659-a7b7-713ef347f547"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1195.001",
+      "name": "Compromise Software Dependencies and Development Tools",
+      "permalink": "/techniques/T1195.001/"
+    },
+    {
+      "id": "T1195.002",
+      "name": "Compromise Software Supply Chain",
+      "permalink": "/techniques/T1195.002/"
+    },
+    {
+      "id": "T1195.003",
+      "name": "Compromise Hardware Supply Chain",
+      "permalink": "/techniques/T1195.003/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "OilRig",
+      "url": "/apt34"
+    },
+    {
+      "name": "Ember Bear",
+      "url": "/apt1003"
+    },
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    }
+  ]
+}

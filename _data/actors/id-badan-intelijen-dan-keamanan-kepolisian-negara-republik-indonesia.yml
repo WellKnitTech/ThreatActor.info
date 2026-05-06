@@ -1,0 +1,16 @@
+name: "id:Badan Intelijen dan Keamanan Kepolisian Negara Republik Indonesia"
+aliases: ["Badan Intelijen dan Keamanan Kepolisian Negara Republik Indonesia","id:Badan Intelijen dan Keamanan Kepolisian Negara Republik Indonesia"]
+description: "Indonesian National Police Intelligence and Security Agency - Badan Intelijen dan Keamanan Kepolisian Negara Republik Indonesia"
+url: "/id-badan-intelijen-dan-keamanan-kepolisian-negara-republik-indonesia"
+country: "Indonesia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "c065502d-495a-5588-b3ff-071428950b37"
+    source_record_ids: ["c065502d-495a-5588-b3ff-071428950b37"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

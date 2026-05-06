@@ -1,0 +1,19 @@
+name: "chilelocker"
+aliases: ["chilelocker"]
+description: "ChileLocker first emerged in August 2022 and is considered part of the broader ARCrypter ransomware family. It employs a double-extortion model, encrypting Windows and Linux/VMware ESXi systems and threatening data leaks. ChileLocker uses the NTRU public key cryptosystem for encryption and typically appends the .crypt extension to affected files. Following encryption, it drops a ransom note—often named readme_for_unlock.txt—and directs victims to a password-protected Tor negotiation portal, with the password provided in the note. The group also disables recovery mechanisms by deleting shadow copies. Its initial access tactics include exploitation of misconfigured RDP access, phishing, malicious installers, botnets, fake updates, and malvertising. The ransomware has impacted victims across various regions, including Chile, Mexico, Canada, Spain, and others."
+url: "/chilelocker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Windows Remote Desktop"
+  - name: "Xploit"
+  - name: "CrossRat"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "005c987b-4755-59ec-b148-dad5cf26d0f1"
+    source_record_ids: ["005c987b-4755-59ec-b148-dad5cf26d0f1"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

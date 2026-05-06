@@ -1,0 +1,17 @@
+name: "8Base Ransomware Actors"
+aliases: ["8Base Ransomware Actors"]
+description: "This object represents the behaviors associated with operators of 8Base ransomware, who may or may not operate as a cohesive unit. Behaviors associated with samples of 8Base ransomware are represented in the \"8Base Ransomware\" Software object.\n \nThe 8Base ransomware operation began claiming significant numbers of victims on its data leak site in June 2023, including organizations in a range of sectors. Researchers have observed considerable similarities between aspects of 8Base's operations and those of other ransomware groups, leading them to suspect that 8Base may be an evolution or offshoot of existing operations. The language in 8Base's ransom notes is similar to the language seen in RansomHouse's notes, and there is strong overlap between the code of Phobos ransomware and 8Base.<sup>[[VMWare 8Base June 28 2023](/references/573e9520-6181-4535-9ed3-2338688a8e9f)]</sup><sup>[[Acronis 8Base July 17 2023](/references/c9822477-1578-4068-9882-41e4d6eaee3f)]</sup>"
+url: "/8base-ransomware-actors"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Archelaus Beta"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "00b45c13-d165-44d0-ad6b-99787d2a7ce3"
+    source_record_ids: ["00b45c13-d165-44d0-ad6b-99787d2a7ce3"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

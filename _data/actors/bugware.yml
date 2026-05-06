@@ -1,0 +1,14 @@
+name: "BugWare"
+aliases: ["BugWare"]
+description: "Ransomware"
+url: "/bugware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "80b3b6cd-9cc7-4a98-b342-c83d7a167abf"
+    source_record_ids: ["80b3b6cd-9cc7-4a98-b342-c83d7a167abf"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

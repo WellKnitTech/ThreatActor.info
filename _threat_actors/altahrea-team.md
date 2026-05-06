@@ -10,7 +10,11 @@ permalink: /altahrea-team/
 Altahrea Team is a pro-Iranian hacking group that has been active since at least 2020. The group has claimed responsibility for a number of cyberattacks, including DDoS attacks against Israeli websites, a hack of the Israel Airports Authority website, and a cyberattack on the Orot Yosef power plant in Israel.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ Iraq
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -32,7 +36,8 @@ Altahrea Team is a pro-Iranian hacking group that has been active since at least
 - **PowerRAT**
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Iraq
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

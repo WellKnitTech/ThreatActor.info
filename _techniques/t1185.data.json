@@ -1,0 +1,26 @@
+{
+  "mitre_id": "T1185",
+  "mitigations": [
+    {
+      "name": "User Training",
+      "mitre_id": "M1017",
+      "url": "https://attack.mitre.org/mitigations/M1017",
+      "stix_id": "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    }
+  ]
+}

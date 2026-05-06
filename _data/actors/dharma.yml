@@ -1,0 +1,21 @@
+name: "dharma"
+aliases: ["dharma"]
+description: "Dharma is a prolific ransomware family active since at least 2016, evolving from the earlier CrySiS ransomware. It operates under a Ransomware-as-a-Service (RaaS) model, allowing affiliates to deploy customized builds with their own contact emails and extensions. Dharma typically appends encrypted files with patterns like .id-[victimID].[email].dharma or other campaign-specific suffixes. Initial access is often gained through exposed Remote Desktop Protocol (RDP) services secured with weak or stolen credentials, sometimes combined with brute-force attacks. The malware encrypts files using AES with RSA to secure the keys and drops ransom notes in text files and pop-up windows. Numerous variants have emerged over time, each linked to different affiliates, making attribution difficult."
+url: "/dharma"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RemoteCMD"
+  - name: "Remote Utilities"
+  - name: "Windows Remote Desktop"
+  - name: "RemotePC"
+  - name: "DesktopNow"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "570ba5cf-69da-53ba-98ad-4bd7176cafb1"
+    source_record_ids: ["570ba5cf-69da-53ba-98ad-4bd7176cafb1"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

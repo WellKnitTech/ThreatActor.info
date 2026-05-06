@@ -1,0 +1,17 @@
+name: "Iron"
+aliases: ["Iron"]
+description: "It is currently unknown if Iron is indeed a new variant by the same creators of Maktub, or if it was simply inspired by the latter, by copying the design for the payment portal for example.\nWe know the Iron ransomware has mimicked at least three ransomware families:Maktub (payment portal design)\nDMA Locker (Iron Unlocker, decryption tool)\nSatan (exclusion list)"
+url: "/iron"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Unknown Logger"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","ransomnotes","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ba64d47c-46cd-11e8-87df-ff6252b4ea76"
+    source_record_ids: ["ba64d47c-46cd-11e8-87df-ff6252b4ea76"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,14 @@
+name: "Knight"
+aliases: ["Knight"]
+description: "Knight is a Ransomware-as-a-Service (RaaS) operation first observed in August 2023, believed to be a rebrand or evolution of the Cyclops ransomware family. The ransomware targets both Windows and Linux/ESXi systems, encrypting files with strong symmetric and asymmetric cryptography and appending the .knight extension. Knight affiliates employ a double-extortion model, stealing sensitive data before encryption and threatening to leak it via a Tor-based site. Distribution methods include phishing campaigns delivering malicious attachments, exploitation of vulnerabilities in public-facing services, and use of previously compromised credentials. The ransomware is modular, allowing affiliates to deploy only the components needed for a given environment, and has been used in attacks on healthcare, manufacturing, finance, and technology sectors across North America, Europe, and Asia. Knight’s leak site lists victims with partial data dumps to pressure payment, escalating to full leaks if negotiations fail."
+url: "/knight"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/knight"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "knight"
+  source_retrieved_at: "2026-05-06T21:56:57Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

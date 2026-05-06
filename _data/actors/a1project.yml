@@ -1,0 +1,24 @@
+name: "a1project"
+aliases: ["a1project"]
+description: "The locker is written in C/C++/ASM.\r<br/>It supports all systems starting from Windows 2003, has a separate binary for ESXi, and uses a unified encrypted file format across all systems.\r<br/>WINDOWS:\r<br/>\t•\tTwo encryption modes: patch-based and file header.\r<br/>\t•\tExtensive configuration settings: from ignoring specific paths/extensions to terminating services/processes, unlocking occupied files, working with network shares, and more.\r<br/>\t•\tArguments available for shutting down Hyper-V virtual machines, deleting backups, network scanning with logged-in user tokens.\r<br/>\t•\tEach build includes an obfuscated PowerShell script.\r<br/>\t•\tExecution is password-protected.\r<br/>\t•\tThe locker itself is shellcode for x86/x64; if you have custom execution methods, we can provide the shellcode.\r<br/>ESXI:\r<br/>\t•\tEncrypts files in patches, with configurable path exclusions.\r<br/>The default configuration is pre-set to avoid disrupting Windows/ESXi/Linux systems.\r<br/>\r<br/>Our commission is 20% of payouts"
+url: "/a1project"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "PowerDuke"
+  - name: "SHUTTERSPEED"
+  - name: "POWERSTATS"
+  - name: "Power Loader"
+  - name: "POWERSOURCE"
+  - name: "Windows Remote Desktop"
+  - name: "PowerRAT"
+  - name: "CrossRat"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "3a11f2e3-5af6-5842-b730-b013ded36c6a"
+    source_record_ids: ["3a11f2e3-5af6-5842-b730-b013ded36c6a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

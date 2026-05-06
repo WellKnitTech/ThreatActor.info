@@ -1,0 +1,27 @@
+{
+  "mitre_id": "T1115",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "APT39",
+      "url": "/apt0087"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "APT38",
+      "url": "/apt0082"
+    },
+    {
+      "name": "OilRig",
+      "url": "/apt34"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "mitre_id": "T1598.002",
+  "mitigations": [
+    {
+      "name": "User Training",
+      "mitre_id": "M1017",
+      "url": "https://attack.mitre.org/mitigations/M1017",
+      "stix_id": "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a"
+    },
+    {
+      "name": "Software Configuration",
+      "mitre_id": "M1054",
+      "url": "https://attack.mitre.org/mitigations/M1054",
+      "stix_id": "course-of-action--b5dbb4c5-b0b1-40b1-80b6-e9e84ab90067"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Dragonfly",
+      "url": "/apt0035"
+    },
+    {
+      "name": "Star Blizzard",
+      "url": "/apt1033"
+    },
+    {
+      "name": "Sidewinder",
+      "url": "/apt0121"
+    },
+    {
+      "name": "SideCopy",
+      "url": "/apt1008"
+    }
+  ]
+}

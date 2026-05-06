@@ -1,0 +1,17 @@
+name: "Operation Global III"
+aliases: ["Operation Global III"]
+description: "Ransomware Is a file infector (virus)"
+url: "/operation-global-iii"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Virus RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e5800883-c663-4eb0-b05e-6034df5bc6e0"
+    source_record_ids: ["e5800883-c663-4eb0-b05e-6034df5bc6e0"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

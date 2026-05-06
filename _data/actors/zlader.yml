@@ -1,0 +1,27 @@
+name: "Zlader"
+aliases: ["Russian","VaultCrypt","CrypVault","Zlader"]
+description: "Ransomware VaultCrypt family"
+url: "/zlader"
+first_seen: "2008"
+last_activity: "2023"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  aptnotes:
+    earliest_report_year: "2008"
+    latest_report_year: "2023"
+    report_count: 14
+    sample_links: ["https://app.box.com/s/ce4fr8p0mxv2pjcvh4pmma1q7oqc4vnc","https://app.box.com/s/4q3ws8a3ymx6y4ygsp4k4zm8gx0imsy0","https://app.box.com/s/tnk1sw3cv0k0semcc9o275tjm5iliz45","https://app.box.com/s/7q3rd2vov9uhkxmbpqax8vsdjafxnebm","https://app.box.com/s/wiis486wq7lyb64necfw3qwieikezs40","https://app.box.com/s/xgtoqdnl8tdviws0jgvxnj8oniia4qqr","https://app.box.com/s/9y7hpv3evobjjpw8c3mnq1sgrqrxpt4d","https://app.box.com/s/ktld8f7rvgtwn8g6zgx2stx26xypr7ck","https://app.box.com/s/koq21d7ksa28pr3oyq0cbyo1gdbho2u3","https://app.box.com/s/0rgnnq0iav3fb7nrpfutf3pynwbpqsv2","https://app.box.com/s/xlvqxbk7fgpgz8zzu38u0ppaobq3nvg3","https://app.box.com/s/s039oerz3q94v671d1goa5z8ok29u2gu","https://app.box.com/s/zgagcatygwcejaltkg40ij84aavt5cll","https://app.box.com/s/fd039qqm7o9tl7yrbda7f3uevumj2twu"]
+    sample_titles: ["Russian Cyberwar On Georgia","Impact Of Alleged Russian Cyber Attack","Cyber war in perspective: Russian aggression against Ukraine","Bear Spotting Vol. 1: Russian Nation State Targeting of Government and Military Interests","TAINTED LEAKS Disinformation and Phishing With a Russian Nexus","Russian Bank Offices Hit with Broad Phishing Wave","Russian Army Exhibition Decoy Leads to New BISKVIT Malware","PortDoor: New Chinese APT Backdoor Attack Targets Russian Defense Sector","Understanding and Mitigating Russian State-Sponsored Cyber Threats to U.S. Critical Infrastructure","Ukraine: Disk-wiping Attacks Precede Russian Invasion"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["CISA","Citizen Lab","Cybereason","Fortinet","Georgia Gov","NATO","RSA","Symantec","William C. Ashmore","cisa","malwarebytes","tr1adx"]
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","price","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "2195387d-ad9c-47e6-8f14-a49388b26eab"
+    source_record_ids: ["2195387d-ad9c-47e6-8f14-a49388b26eab"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

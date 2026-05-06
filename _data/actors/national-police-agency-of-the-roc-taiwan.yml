@@ -1,0 +1,15 @@
+name: "National Police Agency of the ROC (Taiwan)"
+aliases: ["National Police Agency of the ROC (Taiwan)"]
+description: "National Police Agency (NPA)"
+url: "/national-police-agency-of-the-roc-taiwan"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "7d31c2fc-1429-5573-9217-89e8994631e2"
+    source_record_ids: ["7d31c2fc-1429-5573-9217-89e8994631e2"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

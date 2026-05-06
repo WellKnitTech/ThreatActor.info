@@ -1,10 +1,24 @@
 name: "Patched Lightning"
 aliases: ["Storm-0113","Patched Lightning"]
-description: "Patched Lightning is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
+description: "Microsoft threat actor profile from the public naming mapping feed."
 url: "/patched-lightning"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/patched_lightning"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "patched_lightning"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/patched_lightning"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "3071973c-b3da-4c74-8fec-3cd6138bf146"
   misp_galaxy:
+    meta_keys: ["origin:Storm-0113","synonyms","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "3071973c-b3da-4c74-8fec-3cd6138bf146"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["3071973c-b3da-4c74-8fec-3cd6138bf146","aac2327b-d330-55a0-8ead-d20df7413a56"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

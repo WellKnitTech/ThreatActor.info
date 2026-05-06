@@ -1,0 +1,15 @@
+name: "CryLocker"
+aliases: ["Cry","CSTO","Central Security Treatment Organization","CryLocker"]
+description: "Ransomware Identifies victim locations w/Google Maps API"
+url: "/crylocker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "629f6986-2c1f-4d0a-b805-e4ef3e2ce634"
+    source_record_ids: ["629f6986-2c1f-4d0a-b805-e4ef3e2ce634"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

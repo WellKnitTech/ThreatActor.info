@@ -1,0 +1,15 @@
+name: "State Agency for National Security"
+aliases: ["State Agency for National Security"]
+description: "State Agency for National Security (Държавна агенция за национална сигурност (DANS)) – national security service under the supervision of the Council of Ministers of Bulgaria"
+url: "/state-agency-for-national-security"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "aab4d95f-a6ca-5340-a5b5-c3700397bba3"
+    source_record_ids: ["aab4d95f-a6ca-5340-a5b5-c3700397bba3"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

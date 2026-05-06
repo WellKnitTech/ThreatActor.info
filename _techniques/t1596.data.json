@@ -1,0 +1,48 @@
+{
+  "mitre_id": "T1596",
+  "mitigations": [
+    {
+      "name": "Pre-compromise",
+      "mitre_id": "M1056",
+      "url": "https://attack.mitre.org/mitigations/M1056",
+      "stix_id": "course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1596.003",
+      "name": "Digital Certificates",
+      "permalink": "/techniques/T1596.003/"
+    },
+    {
+      "id": "T1596.005",
+      "name": "Scan Databases",
+      "permalink": "/techniques/T1596.005/"
+    },
+    {
+      "id": "T1596.001",
+      "name": "DNS/Passive DNS",
+      "permalink": "/techniques/T1596.001/"
+    },
+    {
+      "id": "T1596.004",
+      "name": "CDNs",
+      "permalink": "/techniques/T1596.004/"
+    },
+    {
+      "id": "T1596.002",
+      "name": "WHOIS",
+      "permalink": "/techniques/T1596.002/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "APT28",
+      "url": "/apt28"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    }
+  ]
+}

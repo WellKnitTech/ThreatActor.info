@@ -1,0 +1,16 @@
+name: "Egyptian Homeland security"
+aliases: ["Egyptian Homeland security"]
+description: "Al-amn al-Watani (HS) (Homeland Security)"
+url: "/egyptian-homeland-security"
+country: "Egypt"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "39025678-b81b-5d37-a669-0d80c245af5d"
+    source_record_ids: ["39025678-b81b-5d37-a669-0d80c245af5d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

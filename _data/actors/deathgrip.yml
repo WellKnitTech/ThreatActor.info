@@ -1,0 +1,19 @@
+name: "deathgrip"
+aliases: ["deathgrip"]
+description: "DeathGrip is a Ransomware-as-a-Service (RaaS) that emerged around June 2024, offering malware payloads built with leaked LockBit 3.0 and Yashma/Chaos builders. Designed to lower technical barriers, it enables even low-skilled operators to deploy highly capable ransomware attacks. DeathGrip campaigns typically employ AES-256 encryption, delete shadow copies and recovery features, and modify system settings to hinder restoration. Earlier infections include low-tier ransom demands (e.g., around $100), reflecting entry-level targeting, though its flexible tooling allows a range of payload configurations."
+url: "/deathgrip"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Chaos"
+  - name: "death"
+  - name: "Killer RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c0b3654e-467a-5336-8745-ebc6989214bc"
+    source_record_ids: ["c0b3654e-467a-5336-8745-ebc6989214bc"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

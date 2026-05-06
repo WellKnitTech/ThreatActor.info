@@ -1,0 +1,15 @@
+name: "GreenMwizi"
+aliases: ["GreenMwizi"]
+description: "GreenMwizi is assessed to be an actor based in Nairobi, Kenya that has carried out scam campaigns involving social media bots. A campaign observed in May 2023 appeared to target customers of a major online travel/hospitality booking brand.<sup>[[GreenMwizi - Kenyan scamming campaign using Twitter bots](/references/3b09696a-1345-4283-a59b-e9a13124ef59)]</sup>"
+url: "/greenmwizi"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "7d17fa48-e897-4a0c-8aa5-c7f2b6cd96a0"
+    source_record_ids: ["7d17fa48-e897-4a0c-8aa5-c7f2b6cd96a0"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

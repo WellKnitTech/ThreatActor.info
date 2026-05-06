@@ -1,13 +1,24 @@
 name: "Leafminer"
-aliases: ["Leafminer","Raspite"]
+aliases: ["Leafminer","Raspite","LeafMiner","RASPITE"]
 description: "Leafminer is an Iranian threat group that has targeted government organizations and business entities in the Middle East since at least early 2017. [Symantec Leafminer July 2018](https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east)"
 url: "/apt0077"
+sector_focus: ["Electric"]
 external_id: "G0077"
 external_url: "https://attack.mitre.org/groups/G0077"
 mitre_id: "G0077"
 mitre_url: "https://attack.mitre.org/groups/G0077"
+source_name: "Malpedia (Fraunhofer FKIE)"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/raspite"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "raspite"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/raspite"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "2c8994ba-367c-46f6-bfb0-390c8760dd9e"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0077"

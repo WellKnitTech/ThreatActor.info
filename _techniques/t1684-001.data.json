@@ -1,0 +1,82 @@
+{
+  "mitre_id": "T1684.001",
+  "mitigations": [
+    {
+      "name": "User Training",
+      "mitre_id": "M1017",
+      "url": "https://attack.mitre.org/mitigations/M1017",
+      "stix_id": "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a"
+    },
+    {
+      "name": "Threat Intelligence Program",
+      "mitre_id": "M1019",
+      "url": "https://attack.mitre.org/mitigations/M1019",
+      "stix_id": "course-of-action--874c0166-e407-45c2-a1d9-e4e3a6570fd8"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Star Blizzard",
+      "url": "/apt1033"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "APT-C-36",
+      "url": "/apt0099"
+    },
+    {
+      "name": "VOID MANTICORE",
+      "url": "/void-manticore"
+    },
+    {
+      "name": "MirrorFace",
+      "url": "/mirrorface"
+    },
+    {
+      "name": "Scattered Spider",
+      "url": "/apt1015"
+    },
+    {
+      "name": "Saint Bear",
+      "url": "/apt1031"
+    },
+    {
+      "name": "APT42",
+      "url": "/apt1044"
+    },
+    {
+      "name": "Storm-1811",
+      "url": "/apt1046"
+    },
+    {
+      "name": "MuddyWater",
+      "url": "/apt0069"
+    },
+    {
+      "name": "Contagious Interview",
+      "url": "/apt1052"
+    },
+    {
+      "name": "WIRTE",
+      "url": "/apt0090"
+    },
+    {
+      "name": "LAPSUS$",
+      "url": "/apt1004"
+    },
+    {
+      "name": "APT41",
+      "url": "/apt41"
+    },
+    {
+      "name": "APT28",
+      "url": "/apt28"
+    }
+  ]
+}

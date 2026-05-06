@@ -1,0 +1,56 @@
+{
+  "mitre_id": "T1584",
+  "mitigations": [
+    {
+      "name": "Pre-compromise",
+      "mitre_id": "M1056",
+      "url": "https://attack.mitre.org/mitigations/M1056",
+      "stix_id": "course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1584.003",
+      "name": "Virtual Private Server",
+      "permalink": "/techniques/T1584.003/"
+    },
+    {
+      "id": "T1584.002",
+      "name": "DNS Server",
+      "permalink": "/techniques/T1584.002/"
+    },
+    {
+      "id": "T1584.006",
+      "name": "Web Services",
+      "permalink": "/techniques/T1584.006/"
+    },
+    {
+      "id": "T1584.007",
+      "name": "Serverless",
+      "permalink": "/techniques/T1584.007/"
+    },
+    {
+      "id": "T1584.005",
+      "name": "Botnet",
+      "permalink": "/techniques/T1584.005/"
+    },
+    {
+      "id": "T1584.004",
+      "name": "Server",
+      "permalink": "/techniques/T1584.004/"
+    },
+    {
+      "id": "T1584.008",
+      "name": "Network Devices",
+      "permalink": "/techniques/T1584.008/"
+    },
+    {
+      "id": "T1584.001",
+      "name": "Domains",
+      "permalink": "/techniques/T1584.001/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

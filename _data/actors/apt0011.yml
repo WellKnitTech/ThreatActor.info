@@ -1,5 +1,5 @@
 name: "PittyTiger"
-aliases: ["PittyTiger","Pitty Tiger"]
+aliases: ["Pitty Tiger","PittyTiger"]
 description: "PittyTiger is a threat group believed to operate out of China that uses multiple different types of malware to maintain command and control. [Bizeul 2014](https://airbus-cyber-security.com/the-eye-of-the-tiger/) [Villeneuve 2014](https://www.fireeye.com/blog/threat-research/2014/07/spy-of-the-tiger.html)"
 url: "/apt0011"
 country: "China"
@@ -12,16 +12,75 @@ source_attribution: "© The MITRE Corporation. This work is reproduced and distr
 malware:
   - name: "PittyTiger"
   - name: "Paladin RAT"
+software:
+  - name: "gh0st RAT"
+    mitre_id: "S0032"
+    url: "https://attack.mitre.org/software/S0032"
+    type: "malware"
+    stix_id: "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24"
+    description: "gh0st RAT is a remote access tool (RAT). The source code is public and it has been used by multiple groups.(Citation: FireEye Hacking Team)(Citation: Arbor Musical Chairs Feb 2018)(Citation: Nccgroup Gh0st April 2018)"
+  - name: "Lurid"
+    mitre_id: "S0010"
+    url: "https://attack.mitre.org/software/S0010"
+    type: "malware"
+    stix_id: "malware--251fbae2-78f6-4de7-84f6-194c727a64ad"
+    description: "Lurid is a malware family that has been used by several groups, including PittyTiger, in targeted attacks as far back as 2006. (Citation: Villeneuve 2014) (Citation: Villeneuve 2011)"
+  - name: "gsecdump"
+    mitre_id: "S0008"
+    url: "https://attack.mitre.org/software/S0008"
+    type: "tool"
+    stix_id: "tool--b07c2c47-fefb-4d7c-a69e-6a3296171f54"
+    description: "gsecdump is a publicly-available credential dumper used to obtain password hashes and LSA secrets from Windows operating systems. (Citation: TrueSec Gsecdump)"
+  - name: "PoisonIvy"
+    mitre_id: "S0012"
+    url: "https://attack.mitre.org/software/S0012"
+    type: "malware"
+    stix_id: "malware--b42378e0-f147-496f-992a-26a49705395b"
+    description: "PoisonIvy is a popular remote access tool (RAT) that has been used by many groups.(Citation: FireEye Poison Ivy)(Citation: Symantec Elderwood Sept 2012)(Citation: Symantec Darkmoon Aug 2005)"
+  - name: "Mimikatz"
+    mitre_id: "S0002"
+    url: "https://attack.mitre.org/software/S0002"
+    type: "tool"
+    stix_id: "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60"
+    description: "Mimikatz is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)"
+ttps:
+  - technique_id: "T1588.002"
+    technique_name: "Tool"
+    url: "https://attack.mitre.org/techniques/T1588/002"
+    stix_id: "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0"
+  - technique_id: "T1078"
+    technique_name: "Valid Accounts"
+    url: "https://attack.mitre.org/techniques/T1078"
+    stix_id: "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0011"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://blog.airbuscybersecurity.com/post/2014/07/The-Eye-of-the-Tiger2","https://www.fireeye.com/blog/threat-research/2014/07/spy-of-the-tiger.html","http://blog.malwaretracker.com/2013/06/tomato-garden-campaign-possible.html"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "china"
+  misp_galaxy:
+    meta_keys: ["country","group_attack_id","observed_countries","source","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "60936d3c-37ed-4116-a407-868da3aa4446"
+    source_record_ids: ["60936d3c-37ed-4116-a407-868da3aa4446"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   mitre:
+    attack_version: "19.0"
+    attack_version_by_domain:
+      enterprise: "19.0"
+      ics: "19.0"
+      mobile: "19.0"
+    relationships_imported_at: "2026-05-06T21:54:34Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_dataset_urls:
+      enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+      ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
+      mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0011"
-    source_retrieved_at: "2026-04-26T07:05:44Z"
+    source_retrieved_at: "2026-05-06T21:54:34Z"
+    stix_intrusion_set_id: "intrusion-set--fe98767f-9df8-42b9-83c9-004b1dec8647"
 source: "MITRE ATT&CK"

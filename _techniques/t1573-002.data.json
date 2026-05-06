@@ -1,0 +1,66 @@
+{
+  "mitre_id": "T1573.002",
+  "mitigations": [
+    {
+      "name": "Network Intrusion Prevention",
+      "mitre_id": "M1031",
+      "url": "https://attack.mitre.org/mitigations/M1031",
+      "stix_id": "course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c"
+    },
+    {
+      "name": "SSL/TLS Inspection",
+      "mitre_id": "M1020",
+      "url": "https://attack.mitre.org/mitigations/M1020",
+      "stix_id": "course-of-action--7bb5fae9-53ad-4424-866b-f0ea2a8b731d"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "TA2541",
+      "url": "/apt1018"
+    },
+    {
+      "name": "Velvet Ant",
+      "url": "/apt1047"
+    },
+    {
+      "name": "Tropic Trooper",
+      "url": "/apt0081"
+    },
+    {
+      "name": "RedCurl",
+      "url": "/apt1039"
+    },
+    {
+      "name": "Medusa Group",
+      "url": "/apt1051"
+    },
+    {
+      "name": "RedEcho",
+      "url": "/apt1042"
+    },
+    {
+      "name": "OilRig",
+      "url": "/apt34"
+    },
+    {
+      "name": "Cobalt Group",
+      "url": "/apt0080"
+    },
+    {
+      "name": "APT42",
+      "url": "/apt1044"
+    },
+    {
+      "name": "FIN6",
+      "url": "/apt0037"
+    },
+    {
+      "name": "FIN8",
+      "url": "/apt0061"
+    }
+  ]
+}

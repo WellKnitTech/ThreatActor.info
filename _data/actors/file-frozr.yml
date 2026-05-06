@@ -1,0 +1,15 @@
+name: "FILE FROZR"
+aliases: ["FileFrozr","FILE FROZR"]
+description: "Ransomware RaaS"
+url: "/file-frozr"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "2a50f476-7355-4d58-b0ce-4235b2546c90"
+    source_record_ids: ["2a50f476-7355-4d58-b0ce-4235b2546c90"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

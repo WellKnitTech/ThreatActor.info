@@ -1,0 +1,16 @@
+name: "National Coordinator for Counterterrorism and Security"
+aliases: ["Nationaal Coördinator Terrorismebestrijding en Veiligheid","National Coordinator for Counterterrorism and Security"]
+description: "National Coordinator for Counterterrorism and Security - Nationaal Coördinator Terrorismebestrijding en Veiligheid (NCTV)"
+url: "/national-coordinator-for-counterterrorism-and-security"
+country: "Netherlands"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "f0129041-02c1-5ea7-9bec-ca651e2b1c09"
+    source_record_ids: ["f0129041-02c1-5ea7-9bec-ca651e2b1c09"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

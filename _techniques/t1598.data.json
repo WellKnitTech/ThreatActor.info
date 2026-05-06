@@ -1,0 +1,61 @@
+{
+  "mitre_id": "T1598",
+  "mitigations": [
+    {
+      "name": "User Training",
+      "mitre_id": "M1017",
+      "url": "https://attack.mitre.org/mitigations/M1017",
+      "stix_id": "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a"
+    },
+    {
+      "name": "Software Configuration",
+      "mitre_id": "M1054",
+      "url": "https://attack.mitre.org/mitigations/M1054",
+      "stix_id": "course-of-action--b5dbb4c5-b0b1-40b1-80b6-e9e84ab90067"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1598.004",
+      "name": "Spearphishing Voice",
+      "permalink": "/techniques/T1598.004/"
+    },
+    {
+      "id": "T1598.001",
+      "name": "Spearphishing Service",
+      "permalink": "/techniques/T1598.001/"
+    },
+    {
+      "id": "T1598.002",
+      "name": "Spearphishing Attachment",
+      "permalink": "/techniques/T1598.002/"
+    },
+    {
+      "id": "T1598.003",
+      "name": "Spearphishing Link",
+      "permalink": "/techniques/T1598.003/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Scattered Spider",
+      "url": "/apt1015"
+    },
+    {
+      "name": "ZIRCONIUM",
+      "url": "/apt0128"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "APT28",
+      "url": "/apt28"
+    },
+    {
+      "name": "Moonstone Sleet",
+      "url": "/apt1036"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+name: "Nomikon"
+aliases: ["Nomikon"]
+description: "ransomware"
+url: "/nomikon"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "2a0b033f-c14c-42ec-9f10-57dc2de3639e"
+    source_record_ids: ["2a0b033f-c14c-42ec-9f10-57dc2de3639e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

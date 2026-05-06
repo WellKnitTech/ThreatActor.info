@@ -1,0 +1,17 @@
+name: "APT Ransomware v.2"
+aliases: ["APT Ransomware v.2"]
+description: "This is most likely to affect English speaking users, since the note is written in English. English is understood worldwide, thus anyone can be harmed. The hacker spread the virus using email spam, fake updates, and harmful attachments. All your files are compromised including music, MS Office, Open Office, pictures, videos, shared online files etc.. NO POINT TO PAY THE RANSOM, THE FILES ARE COMPLETELY DESTROYED"
+url: "/apt-ransomware-v-2"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Virus RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "6ec0f43c-6b73-4f5e-bee7-a231572eb994"
+    source_record_ids: ["6ec0f43c-6b73-4f5e-bee7-a231572eb994"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

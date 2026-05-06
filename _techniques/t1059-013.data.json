@@ -1,0 +1,26 @@
+{
+  "mitre_id": "T1059.013",
+  "mitigations": [
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M1026",
+      "url": "https://attack.mitre.org/mitigations/M1026",
+      "stix_id": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f"
+    },
+    {
+      "name": "Execution Prevention",
+      "mitre_id": "M1038",
+      "url": "https://attack.mitre.org/mitigations/M1038",
+      "stix_id": "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "TeamTNT",
+      "url": "/apt0139"
+    }
+  ]
+}

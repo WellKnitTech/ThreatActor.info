@@ -1,0 +1,29 @@
+{
+  "mitre_id": "T1218.015",
+  "mitigations": [
+    {
+      "name": "Exploit Protection",
+      "mitre_id": "M1050",
+      "url": "https://attack.mitre.org/mitigations/M1050",
+      "stix_id": "course-of-action--d2a24649-9694-4c97-9c62-ce7b270bf6a3"
+    },
+    {
+      "name": "Disable or Remove Feature or Program",
+      "mitre_id": "M1042",
+      "url": "https://attack.mitre.org/mitigations/M1042",
+      "stix_id": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31"
+    },
+    {
+      "name": "Execution Prevention",
+      "mitre_id": "M1038",
+      "url": "https://attack.mitre.org/mitigations/M1038",
+      "stix_id": "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

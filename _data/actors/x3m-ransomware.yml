@@ -1,0 +1,26 @@
+name: "X3M Ransomware"
+aliases: ["X3M Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc.. It is also possible to break in using RDP Windows with the help of Pass-the-Hash system, PuTTY, mRemoteNG, TightVNC, Chrome Remote Desktop, modified version of TeamViewer, AnyDesk, AmmyyAdmin, LiteManager, Radmin and others. Ransom is 700$ in Bitcoins."
+url: "/x3m-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RemoteCMD"
+  - name: "TeamViewer"
+  - name: "Remote Utilities"
+  - name: "Ammyy Admin"
+  - name: "Windows Remote Desktop"
+  - name: "RemotePC"
+  - name: "Chrome Remote Desktop"
+  - name: "AnyDesk"
+  - name: "LiteManager"
+  - name: "DesktopNow"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "192bc3e8-ace8-4229-aa88-37034a11ef5b"
+    source_record_ids: ["192bc3e8-ace8-4229-aa88-37034a11ef5b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

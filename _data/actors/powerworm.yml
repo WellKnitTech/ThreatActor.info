@@ -1,0 +1,15 @@
+name: "PowerWorm"
+aliases: ["PowerWorm"]
+description: "Ransomware no decryption possible, throws key away, destroys the files"
+url: "/powerworm"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","payment-method","ransomnotes-filenames"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b54d59d7-b604-4b01-8002-5a2930732ca6"
+    source_record_ids: ["b54d59d7-b604-4b01-8002-5a2930732ca6"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

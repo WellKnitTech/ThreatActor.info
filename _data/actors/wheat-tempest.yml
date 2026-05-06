@@ -1,0 +1,15 @@
+name: "Wheat Tempest"
+aliases: ["GOLD","Gatak","Wheat Tempest"]
+description: "Microsoft threat actor profile. Origin/Threat: Financially motivated."
+url: "/wheat-tempest"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["microsoft-origin-threat","refs","synonyms"]
+    source_cluster: "microsoft-activity-group.json"
+    source_clusters: ["microsoft-activity-group.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
+    source_record_id: "9288268f-8511-5932-8a0c-f240c0799603"
+    source_record_ids: ["9288268f-8511-5932-8a0c-f240c0799603"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

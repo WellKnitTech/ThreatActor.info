@@ -1,0 +1,22 @@
+name: "antibrok3rs"
+aliases: ["antibrok3rs"]
+description: "Antibrok3rs emerged as an access broker (not a ransomware operator itself) linked to the aftermath of the 2023 MOVEit supply-chain exploitation. From November 2024 through early 2025, this actor has posted stolen data from at least 15 energy-sector victims, including U.S. utilities such as CenterPoint Energy, Entergy, Nevada Energy, and Appalachian Power—data likely obtained via the MOVEit breach. While some analysts suspected ties to the Cl0P ransomware collective, Antibrok3rs publicly denied any such affiliation. The extortion model centers on data leakage without accompanying file encryption—a purely leak-based threat. No delivery, encryption, or ransom note behaviors have been observed, nor is there evidence of RaaS activity."
+url: "/antibrok3rs"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "PowerDuke"
+  - name: "POWERSTATS"
+  - name: "Power Loader"
+  - name: "POWERSOURCE"
+  - name: "Xploit"
+  - name: "PowerRAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "df0819df-9775-5b7d-bfa8-60d36a5ddf6c"
+    source_record_ids: ["df0819df-9775-5b7d-bfa8-60d36a5ddf6c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

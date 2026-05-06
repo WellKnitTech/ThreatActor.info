@@ -15,7 +15,9 @@ Antlion is a Chinese state-backed advanced persistent threat (APT) group, who ha
 **Country of Origin**: 🇨🇳 China
 
 
+**First Seen**: 2022
 
+**Last Activity**: 2022
 
 
 **Suspected Victims**: Taiwan
@@ -27,7 +29,7 @@ Antlion is a Chinese state-backed advanced persistent threat (APT) group, who ha
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+*No atomic indicators are listed in this profile. The APTnotes snapshot indexes 1 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
 ## Malware and Tools
 - **Xpack**: 

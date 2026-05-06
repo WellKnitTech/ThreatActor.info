@@ -1,0 +1,17 @@
+name: "Ragnar Locker"
+aliases: ["RagnarLocker","Ragnar Locker"]
+description: "Ragnar Locker is a ransomware identified in December 2019 that targetscorporate networks inBig Game Huntingtargeted attacks. This reportpresents recent elements regarding this ransomware."
+url: "/ragnar-locker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Ragnatela"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e69f9836-873a-43d3-92a8-97ab783a4171"
+    source_record_ids: ["e69f9836-873a-43d3-92a8-97ab783a4171"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

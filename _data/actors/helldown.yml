@@ -1,0 +1,14 @@
+name: "Helldown"
+aliases: ["Helldown"]
+description: "Helldown is an emerging ransomware group first identified in August 2024, known for its fast-evolving and cross-platform threat capabilities. It exploits critical vulnerabilities—most notably CVE-2024-42057 in Zyxel firewalls—for initial access and demonstrates modular design and anti-detection mechanisms. Helldown targets both Windows and Linux environments, including VMware and ESXi systems. It employs a double-extortion strategy: encrypting files with randomized extensions via executables like hellenc.exe, and threatening victims with data dump releases via its Tor-hosted leak site."
+url: "/helldown"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/helldown"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "helldown"
+  source_retrieved_at: "2026-05-06T21:58:44Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

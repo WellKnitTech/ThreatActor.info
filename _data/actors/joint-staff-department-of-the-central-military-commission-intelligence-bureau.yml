@@ -1,0 +1,16 @@
+name: "Joint Staff Department of the Central Military Commission Intelligence Bureau"
+aliases: ["Joint Staff Department of the Central Military Commission Intelligence Bureau"]
+description: "Intelligence Bureau of the General Staff aka 2nd Bureau"
+url: "/joint-staff-department-of-the-central-military-commission-intelligence-bureau"
+country: "China"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "7ee92a4a-fab6-5d79-967e-f5d2408811d0"
+    source_record_ids: ["7ee92a4a-fab6-5d79-967e-f5d2408811d0"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

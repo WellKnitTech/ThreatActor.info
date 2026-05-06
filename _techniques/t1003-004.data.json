@@ -1,0 +1,68 @@
+{
+  "mitre_id": "T1003.004",
+  "mitigations": [
+    {
+      "name": "Password Policies",
+      "mitre_id": "M1027",
+      "url": "https://attack.mitre.org/mitigations/M1027",
+      "stix_id": "course-of-action--90c218c3-fbf8-4830-98a7-e8cfb7eaa485"
+    },
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M1026",
+      "url": "https://attack.mitre.org/mitigations/M1026",
+      "stix_id": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f"
+    },
+    {
+      "name": "User Training",
+      "mitre_id": "M1017",
+      "url": "https://attack.mitre.org/mitigations/M1017",
+      "stix_id": "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "MuddyWater",
+      "url": "/apt0069"
+    },
+    {
+      "name": "Threat Group-3390",
+      "url": "/apt0027"
+    },
+    {
+      "name": "OilRig",
+      "url": "/apt34"
+    },
+    {
+      "name": "Leafminer",
+      "url": "/apt0077"
+    },
+    {
+      "name": "APT33",
+      "url": "/apt0064"
+    },
+    {
+      "name": "APT29",
+      "url": "/apt29"
+    },
+    {
+      "name": "menuPass",
+      "url": "/apt0045"
+    },
+    {
+      "name": "Dragonfly",
+      "url": "/apt0035"
+    },
+    {
+      "name": "Ember Bear",
+      "url": "/apt1003"
+    },
+    {
+      "name": "Ke3chang",
+      "url": "/apt0004"
+    }
+  ]
+}

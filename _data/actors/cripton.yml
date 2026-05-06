@@ -1,0 +1,14 @@
+name: "Cripton"
+aliases: ["Cripton"]
+description: "Ransomware"
+url: "/cripton"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "8d927c7b-2526-4cf4-a3e6-093f929fa264"
+    source_record_ids: ["8d927c7b-2526-4cf4-a3e6-093f929fa264"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

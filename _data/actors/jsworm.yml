@@ -1,0 +1,15 @@
+name: "jsworm"
+aliases: ["jsworm"]
+description: "JSWorm is a ransomware family that first appeared in May 2019 and is notable for undergoing multiple rebrands and evolutions, later appearing under names such as Nemty, Nefilim, Offwhite, Fusion, and Milihpen. Initially, it was distributed via malicious spam emails containing JavaScript files, hence the “JS” in its name. Later versions moved to targeted intrusions, leveraging compromised RDP services and vulnerable network appliances for initial access. JSWorm encrypts files using AES-256 encryption with RSA-2048 for key protection and appends campaign-specific extensions (e.g., .JSWORM, .Nemty, .Nephilim). The group adopted a double-extortion model in its later stages, stealing data before encryption and threatening to leak it via Tor-hosted sites. Its victimology spans various sectors worldwide, including manufacturing, energy, healthcare, and professional services. The continuous rebranding suggests an effort to evade detection, disrupt attribution, and maintain pressure on victims."
+url: "/jsworm"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "a6427031-368d-551e-bd8e-99d3a4abf334"
+    source_record_ids: ["a6427031-368d-551e-bd8e-99d3a4abf334"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

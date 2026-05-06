@@ -1,0 +1,20 @@
+name: "CommonRansom"
+aliases: ["CommonRansom"]
+description: "A new ransomware called CommonRansom was discovered that has a very bizarre request. In order to decrypt a computer after a payment is made, they require the victim to open up Remote Desktop Services on the affected computer and send them admin credentials in order to decrypt the victim's files."
+url: "/commonransom"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RemoteCMD"
+  - name: "Remote Utilities"
+  - name: "RemotePC"
+  - name: "DesktopNow"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c0dffb94-dcee-11e8-81b9-3791d1c6638f"
+    source_record_ids: ["c0dffb94-dcee-11e8-81b9-3791d1c6638f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,78 @@
+{
+  "mitre_id": "T1539",
+  "mitigations": [
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "Software Configuration",
+      "mitre_id": "M1054",
+      "url": "https://attack.mitre.org/mitigations/M1054",
+      "stix_id": "course-of-action--b5dbb4c5-b0b1-40b1-80b6-e9e84ab90067"
+    },
+    {
+      "name": "Restrict Web-Based Content",
+      "mitre_id": "M1021",
+      "url": "https://attack.mitre.org/mitigations/M1021",
+      "stix_id": "course-of-action--21da4fd4-27ad-4e9c-b93d-0b9b14d02c96"
+    },
+    {
+      "name": "Multi-factor Authentication",
+      "mitre_id": "M1032",
+      "url": "https://attack.mitre.org/mitigations/M1032",
+      "stix_id": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0"
+    },
+    {
+      "name": "Update Software",
+      "mitre_id": "M1051",
+      "url": "https://attack.mitre.org/mitigations/M1051",
+      "stix_id": "course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b"
+    },
+    {
+      "name": "User Training",
+      "mitre_id": "M1017",
+      "url": "https://attack.mitre.org/mitigations/M1017",
+      "stix_id": "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "LuminousMoth",
+      "url": "/apt1014"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    },
+    {
+      "name": "Scattered Spider",
+      "url": "/apt1015"
+    },
+    {
+      "name": "Evilnum",
+      "url": "/apt0120"
+    },
+    {
+      "name": "Star Blizzard",
+      "url": "/apt1033"
+    },
+    {
+      "name": "Lotus Blossom",
+      "url": "/apt0030"
+    },
+    {
+      "name": "APT42",
+      "url": "/apt1044"
+    }
+  ]
+}

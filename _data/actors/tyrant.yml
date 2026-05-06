@@ -1,0 +1,15 @@
+name: "TYRANT"
+aliases: ["Crypto Tyrant","TYRANT"]
+description: "DUMB variant discovered on November 16, 2017. Disguised itself as a popular virtual private network (VPN) in Iran known as Psiphon and infected Iranian users.  Included Farsi-language ransom note, decryptable in the same way as previous DUMB-based variants. Message requested only US$15 for unlock key. Advertised two local and Iran-based payment processors: exchange.ir and webmoney.ir.Shared unique and specialized indicators with RASTAKHIZ; iDefense threat intelligence analysts believe this similarity confirms that the same actor was behind the repurposing of both types of ransomware."
+url: "/tyrant"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "701f2a3e-9baa-11e8-a044-4b8bc49ea971"
+    source_record_ids: ["701f2a3e-9baa-11e8-a044-4b8bc49ea971"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

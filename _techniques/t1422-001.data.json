@@ -1,0 +1,17 @@
+{
+  "mitre_id": "T1422.001",
+  "mitigations": [
+    {
+      "name": "Encrypt Network Traffic",
+      "mitre_id": "M1009",
+      "url": "https://attack.mitre.org/mitigations/M1009",
+      "stix_id": "course-of-action--8220b57e-c400-4525-bf69-f8edc6b389a8"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

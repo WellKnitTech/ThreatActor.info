@@ -1,0 +1,17 @@
+name: "Dangerous Ransomware"
+aliases: ["Dangerous Ransomware"]
+description: "This is most likely to affect English speaking users, since the note is written in English. English is understood worldwide, thus anyone can be harmed. The hacker spread the virus using email spam, fake updates, and harmful attachments. All your files are compromised including music, MS Office, Open Office, pictures, videos, shared online files etc.."
+url: "/dangerous-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Virus RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","ransomnotes","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "7dbdb949-a53b-4ebe-bc9a-7f49a7c5fd78"
+    source_record_ids: ["7dbdb949-a53b-4ebe-bc9a-7f49a7c5fd78"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

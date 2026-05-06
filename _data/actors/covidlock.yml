@@ -1,0 +1,21 @@
+name: "CovidLock"
+aliases: ["CovidLock"]
+description: "Mobile ransomware. The Zscaler ThreatLabZ team recently came across a URL named hxxp://coronavirusapp[.]site/mobile.html, which portrays itself as a download site for an Android app that tracks the coronavirus spread across the globe. In reality, the app is Android ransomware, which locks out the victim and asks for ransom to unlock the device.\nThe app portrays itself as a Coronavirus Tracker. As soon as it starts running, it asks the user for several authorizations, including admin rights.\n In fact, this ransomware does not encrypt nor steal anything and only lock the device with an hard coded code."
+url: "/covidlock"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "MobileOrder"
+  - name: "DroidJack"
+  - name: "Androrat"
+  - name: "Virus RAT"
+  - name: "CrossRat"
+provenance:
+  misp_galaxy:
+    meta_keys: ["ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b5fe83e9-c5d7-4b0e-99ab-4f1d356d1749"
+    source_record_ids: ["b5fe83e9-c5d7-4b0e-99ab-4f1d356d1749"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

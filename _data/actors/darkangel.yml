@@ -1,0 +1,18 @@
+name: "Darkangel"
+aliases: ["Darkangel"]
+description: "Dark Angels is a highly targeted ransomware and data-extortion group that emerged in spring 2022. Rather than using an affiliate-driven model, it orchestrates discreet, high-impact attacks on large organizations—often choosing one Fortune-level victim at a time. The group exfiltrates massive volumes of data (sometimes 10–100 TB), optionally deploys encryption on Windows or ESXi systems, and pressures victims via a Tor-hosted leak platform (\"Dunghill Leak\"). Their notable incidents include extorting a record $75 million from a Fortune 50 company in 2024 and demanding around $51 million from Johnson Controls. Dark Angels’ operations emphasize stealth and precision over disruption, often avoiding high-profile media exposure and operating with low operational visibility."
+url: "/darkangel"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Dark DDoSeR"
+  - name: "Windows Remote Desktop"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "5276ed20-c9fa-4028-9272-3f5c0e4bc9b6"
+    source_record_ids: ["5276ed20-c9fa-4028-9272-3f5c0e4bc9b6"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

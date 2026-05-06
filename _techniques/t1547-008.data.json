@@ -1,0 +1,29 @@
+{
+  "mitre_id": "T1547.008",
+  "mitigations": [
+    {
+      "name": "Privileged Process Integrity",
+      "mitre_id": "M1025",
+      "url": "https://attack.mitre.org/mitigations/M1025",
+      "stix_id": "course-of-action--72dade3e-1cba-4182-b3b3-a77ca52f02a1"
+    },
+    {
+      "name": "Credential Access Protection",
+      "mitre_id": "M1043",
+      "url": "https://attack.mitre.org/mitigations/M1043",
+      "stix_id": "course-of-action--49c06d54-9002-491d-9147-8efb537fbd26"
+    },
+    {
+      "name": "Restrict Library Loading",
+      "mitre_id": "M1044",
+      "url": "https://attack.mitre.org/mitigations/M1044",
+      "stix_id": "course-of-action--e8242a33-481c-4891-af63-4cf3e4cf6aff"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

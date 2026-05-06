@@ -1,0 +1,17 @@
+name: "Fileice Ransomware Survey Ransomware"
+aliases: ["Fileice Ransomware Survey Ransomware"]
+description: "This is most likely to affect English speaking users, since the note is written in English. English is understood worldwide, thus anyone can be harmed. The hacker spread the virus using email spam, fake updates, and harmful attachments. All your files are compromised including music, MS Office, Open Office, pictures, videos, shared online files etc.. Sample of how the hacker tricks the user using the survey method. https://1.bp.blogspot.com/-72ECd1vsUdE/WBMSzPQEgzI/AAAAAAAABzA/i8V-Kg8Gstcn_7-YZK__PDC2VgafWcfDgCLcB/s1600/survey-screen.png The hacker definatly has a sense of humor: https://1.bp.blogspot.com/-2AlvtcvdyUY/WBMVptG_V5I/AAAAAAAABzc/1KvAMeDmY2w9BN9vkqZO8LWkBu7T9mvDACLcB/s1600/ThxForYurTyme.JPG"
+url: "/fileice-ransomware-survey-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Virus RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ca5d0e52-d0e4-4aa9-872a-0669433c0dcc"
+    source_record_ids: ["ca5d0e52-d0e4-4aa9-872a-0669433c0dcc"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

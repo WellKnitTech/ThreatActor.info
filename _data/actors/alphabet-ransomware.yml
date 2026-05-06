@@ -1,0 +1,17 @@
+name: "Alphabet Ransomware"
+aliases: ["Alphabet Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc.. This ransomware poses as Windows 10 Critical Update Service. Offers you to update your Windows 10, but instead encrypts your files.  For successful attack, the victim must have .NET Framework 4.5.2 installed on him computer."
+url: "/alphabet-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Windows Remote Desktop"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "dd356ed3-42b8-4587-ae53-95f933517612"
+    source_record_ids: ["dd356ed3-42b8-4587-ae53-95f933517612"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

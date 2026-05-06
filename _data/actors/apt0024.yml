@@ -1,13 +1,27 @@
 name: "Putter Panda"
-aliases: ["APT2","MSUpdater","Putter Panda"]
+aliases: ["APT2","MSUpdater","Putter Panda","PLA Unit 61486","PUTTER PANDA","4HCrew","SULPHUR","SearchFire","TG-6952","G0024"]
 description: "Putter Panda is a Chinese threat group that has been attributed to Unit 61486 of the 12th Bureau of the PLA’s 3rd General Staff Department (GSD). [CrowdStrike Putter Panda](http://cdn0.vox-cdn.com/assets/4589853/crowdstrike-intelligence-report-putter-panda.original.pdf)"
 url: "/apt0024"
+country: "China"
+sector_focus: ["Private sector","Government"]
+targeted_victims: ["U.S. satellite and aerospace sector"]
+incident_type: "Espionage"
 external_id: "G0024"
 external_url: "https://attack.mitre.org/groups/G0024"
 mitre_id: "G0024"
 mitre_url: "https://attack.mitre.org/groups/G0024"
+source_name: "Malpedia (Fraunhofer FKIE)"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt2"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "apt2"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt2"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "0ca45163-e223-4167-b1af-f088ed14a93d"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0024"

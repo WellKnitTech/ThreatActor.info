@@ -1,10 +1,13 @@
 name: "Denim Tsunami"
-aliases: ["KNOTWEED","DSIRF","Denim Tsunami"]
+aliases: ["KNOTWEED","DSIRF","Denim Tsunami","DEV-0291"]
 description: "Denim Tsunami is a threat actor group that has been involved in targeted attacks against European and Central American customers. They have been observed using multiple Windows and Adobe 0-day exploits, including one for CVE-2022-22047, which is a privilege escalation vulnerability. Denim Tsunami developed a custom malware called Subzero, which has capabilities such as keylogging, capturing screenshots, data exfiltration, and running remote shells. They have also been associated with the Austrian spyware distributor DSIRF."
 url: "/denim-tsunami"
 country: "Austria"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/denim_tsunami"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware:
   - "RemoteCMD"
   - "Remote Utilities"
@@ -35,9 +38,19 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.microsoft.com/en-us/security/blog/2022/07/27/untangling-knotweed-european-private-sector-offensive-actor-using-0-day-exploits/"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "others"
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "denim_tsunami"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/denim_tsunami"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "79a347d9-1938-4550-8836-98e4ed95f77c"
   misp_galaxy:
+    meta_keys: ["country","refs","synonyms","microsoft-origin-threat","sector"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "79a347d9-1938-4550-8836-98e4ed95f77c"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["79a347d9-1938-4550-8836-98e4ed95f77c","9a4a662a-84a9-5b86-b241-7c5eef9cea4d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

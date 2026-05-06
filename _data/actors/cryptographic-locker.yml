@@ -1,0 +1,15 @@
+name: "CryptoGraphic Locker"
+aliases: ["CryptoGraphic Locker"]
+description: "Ransomware Has a GUI. Subvariants: CoinVault BitCryptor"
+url: "/cryptographic-locker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","ransomnotes-filenames"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "58534bc4-eb96-44f4-bdad-2cc5cfea8c6f"
+    source_record_ids: ["58534bc4-eb96-44f4-bdad-2cc5cfea8c6f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

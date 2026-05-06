@@ -1,12 +1,17 @@
 name: "Pink Sandstorm"
-aliases: ["AMERICIUM","BlackShadow","DEV-0022","Agrius","Agonizing Serpens","UNC2428","Black Shadow","SPECTRAL KITTEN","Pink Sandstorm"]
+aliases: ["AMERICIUM","BlackShadow","DEV-0022","Agrius","Agonizing Serpens","UNC2428","Black Shadow","SPECTRAL KITTEN","Pink Sandstorm","Deadwood","SharpBoys","DEV-0227","FireAnt","Justice Blade"]
 description: "Agonizing Serpens is an Iranian-linked APT group that has been active since 2020. They are known for their destructive wiper and fake-ransomware attacks, primarily targeting Israeli organizations in the education and technology sectors. The group has strong connections to Iran's Ministry of Intelligence and Security and has been observed using various tools and techniques to bypass security measures. They aim to steal sensitive information, including PII and intellectual property, and inflict damage by wiping endpoints."
 url: "/pink-sandstorm"
 country: "Iran"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware: ["Wiper"]
 provenance:
   misp_galaxy:
+    meta_keys: ["country","origin:DEV-0022","origin:UNC2428","refs","synonyms","microsoft-origin-threat","sector"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "0876c327-c82a-45f7-82fa-267c312ceb05"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["0876c327-c82a-45f7-82fa-267c312ceb05","cca311c0-dc91-5aee-b282-5e412040dac3"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

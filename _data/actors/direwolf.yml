@@ -1,0 +1,14 @@
+name: "Direwolf"
+aliases: ["Direwolf"]
+description: "Dire Wolf is a recently emerged double-extortion ransomware group that first appeared around May 2025. It is a crypto-ransomware and data broker targeting industries like manufacturing and technology across multiple countries, including the U.S., Thailand, Taiwan, Singapore, Türkiye, among others. Written in Go and delivered as a UPX-packed binary, it utilizes robust encryption (Curve25519 and ChaCha20) to lock files with a .direwolf extension, while deleting backups, disabling logging, and terminating key services to block recovery. Victims receive highly customized ransom notes containing live-chat credentials and victim-specific portals, indicating a highly professional and targeted approach."
+url: "/direwolf"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/direwolf"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "direwolf"
+  source_retrieved_at: "2026-05-06T21:56:37Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

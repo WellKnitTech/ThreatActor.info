@@ -1,0 +1,17 @@
+name: "genesis"
+aliases: ["genesis"]
+description: "    Financial interests only.\r<br/>    We do not provide or work with affiliate programs, no collaborations either.\r<br/>    The requested payment must be made within a specified time frame, otherwise the price may be increased, we will begin to publish the data we have about your company and notify the company's customers and suppliers.\r<br/>    Charitable, non-profit, and medical institutions are only hacked if they have reputation gaps known from open sources or discovered in company data. However, this is only data extraction; live support systems are not affected.\r<br/>    Data is always destroyed after payment; we do not attack the same company twice.\r<br/>    Interesting fact: once, the total amount of claims against a breached company exceeded its entire capitalization. We know how to create trouble, though it is in our mutual interest to avoid it.\r<br/>    To make the data leak more valuable, the most important information is published in a separate folder for each company called “parsed” and is also published on darkweb forums."
+url: "/genesis"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "DarkWatchman"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "8e859cb8-5c8b-5705-890f-e9561a9cace4"
+    source_record_ids: ["8e859cb8-5c8b-5705-890f-e9561a9cace4"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

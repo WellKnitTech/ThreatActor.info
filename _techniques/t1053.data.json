@@ -1,0 +1,70 @@
+{
+  "mitre_id": "T1053",
+  "mitigations": [
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    },
+    {
+      "name": "Operating System Configuration",
+      "mitre_id": "M1028",
+      "url": "https://attack.mitre.org/mitigations/M1028",
+      "stix_id": "course-of-action--2f316f6c-ae42-44fe-adf8-150989e0f6d3"
+    },
+    {
+      "name": "Restrict File and Directory Permissions",
+      "mitre_id": "M1022",
+      "url": "https://attack.mitre.org/mitigations/M1022",
+      "stix_id": "course-of-action--987988f0-cf86-4680-a875-2f6456ab2448"
+    },
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M1026",
+      "url": "https://attack.mitre.org/mitigations/M1026",
+      "stix_id": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1053.003",
+      "name": "Cron",
+      "permalink": "/techniques/T1053.003/"
+    },
+    {
+      "id": "T1053.004",
+      "name": "Launchd",
+      "permalink": "/techniques/T1053.004/"
+    },
+    {
+      "id": "T1053.005",
+      "name": "Scheduled Task",
+      "permalink": "/techniques/T1053.005/"
+    },
+    {
+      "id": "T1053.006",
+      "name": "Systemd Timers",
+      "permalink": "/techniques/T1053.006/"
+    },
+    {
+      "id": "T1053.007",
+      "name": "Container Orchestration Job",
+      "permalink": "/techniques/T1053.007/"
+    },
+    {
+      "id": "T1053.002",
+      "name": "At",
+      "permalink": "/techniques/T1053.002/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

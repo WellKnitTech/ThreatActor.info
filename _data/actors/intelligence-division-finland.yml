@@ -1,0 +1,16 @@
+name: "Intelligence Division (Finland)"
+aliases: ["Pääesikunnan tiedusteluosasto (PE TIEDOS) / Huvudstabens underrättelseavdelning)","Intelligence Division (Finland)"]
+description: "Defense Command Intelligence Division – Pääesikunnan tiedusteluosasto (PE TIEDOS) / Huvudstabens underrättelseavdelning)"
+url: "/intelligence-division-finland"
+country: "Finland"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "1fa97f4c-65fa-5eaa-a07d-83ea020982ef"
+    source_record_ids: ["1fa97f4c-65fa-5eaa-a07d-83ea020982ef"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

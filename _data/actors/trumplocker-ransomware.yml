@@ -1,0 +1,18 @@
+name: "TrumpLocker Ransomware"
+aliases: ["TrumpLocker Ransomware"]
+description: "This is most likely to affect English speaking users, since the note is written in English. English is understood worldwide, thus anyone can be harmed. The hacker spread the virus using email spam, fake updates, and harmful attachments. All your files are compromised including music, MS Office, Open Office, pictures, videos, shared online files etc.. This is the old VenusLocker in disquise .To delete shadow files use the following commend: C:\\Windows\\system32\\wbem\\wmic.exe shadowcopy delete&amp;exit https://2.bp.blogspot.com/-8qIiBHnE9yU/WK1mZn3LgwI/AAAAAAAAD-M/ZKl7_Iwr1agYtlVO3HXaUrwitcowp5_NQCLcB/s1600/lock.jpg"
+url: "/trumplocker-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Virus RAT"
+  - name: "Windows Remote Desktop"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "63bd845c-94f6-49dc-8f0c-22e6f67820f7"
+    source_record_ids: ["63bd845c-94f6-49dc-8f0c-22e6f67820f7"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

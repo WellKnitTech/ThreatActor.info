@@ -1,0 +1,14 @@
+name: "Blackhunt"
+aliases: ["Blackhunt"]
+description: "Black Hunt ransomware has been active since at least mid-2021 and operates under a double-extortion model, encrypting victim files and threatening public release of stolen data via a Tor-based leak site. It primarily targets organizations rather than individuals, with confirmed attacks in sectors including manufacturing, retail, technology, and local government. Encrypted files are appended with the .BlackHunt extension, and ransom notes (Restore_Data.txt) direct victims to Tor portals for negotiation. The ransomware is capable of terminating processes, deleting shadow copies, and disabling recovery functions to maximize impact. Initial access methods include exploitation of vulnerable RDP services and the use of compromised credentials from initial access brokers. While its activity level is smaller compared to major RaaS families, its leak site has featured victims from multiple countries, suggesting an international reach."
+url: "/blackhunt"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/blackhunt"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "blackhunt"
+  source_retrieved_at: "2026-05-06T21:58:41Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

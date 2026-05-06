@@ -3,10 +3,24 @@ aliases: ["UserSec"]
 description: "UserSec is a pro-Russian hacking group that has been active since at least 2022. The group is known for its DDoS attacks and has collaborated with other pro-Russian hacking groups. In May 2023, UserSec announced a cyber campaign targeting NATO member states and joined forces with KillNet to launch attacks against NATO."
 url: "/usersec"
 country: "Russia"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/usersec"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["Hacking Team UEFI Rootkit","CyberGate","Cyber Eye RAT"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "usersec"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/usersec"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "d0e1811e-53f9-48b5-b2ef-107e0f53239b"
   misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "d0e1811e-53f9-48b5-b2ef-107e0f53239b"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["d0e1811e-53f9-48b5-b2ef-107e0f53239b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

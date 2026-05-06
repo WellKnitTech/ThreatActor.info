@@ -1,0 +1,15 @@
+name: "Cancer Ransomware FAKE"
+aliases: ["Cancer Ransomware FAKE"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on. This is a trollware that does not encrypt your files but makes your computer act crazy (like in the video in the link below). It is meant to be annoying and it is hard to erase from your PC, but possible."
+url: "/cancer-ransomware-fake"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","extensions","payment-method","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ef747d7f-894e-4c0c-ac0f-3fa1ef3ef17f"
+    source_record_ids: ["ef747d7f-894e-4c0c-ac0f-3fa1ef3ef17f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

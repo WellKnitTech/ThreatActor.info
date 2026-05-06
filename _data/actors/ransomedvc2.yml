@@ -1,0 +1,15 @@
+name: "ransomedvc2"
+aliases: ["ransomedvc2"]
+description: "RansomedVC2 aka RebornVC aka RansomedVC (rebrand) under new leadership."
+url: "/ransomedvc2"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "dd3517b0-82f3-579a-a037-6204a8113d42"
+    source_record_ids: ["dd3517b0-82f3-579a-a037-6204a8113d42"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

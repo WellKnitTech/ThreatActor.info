@@ -1,0 +1,15 @@
+name: "Random30"
+aliases: ["Random30"]
+description: "ransomware"
+url: "/random30"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "52a907ab-f38b-4144-ba13-cab33adaab38"
+    source_record_ids: ["52a907ab-f38b-4144-ba13-cab33adaab38"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

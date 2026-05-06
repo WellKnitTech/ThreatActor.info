@@ -1,0 +1,16 @@
+name: "Tracfin"
+aliases: ["Tracfin"]
+description: "Tracfin"
+url: "/tracfin"
+country: "France"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "290a22d6-e8c8-5781-b9f8-604a29a8db0c"
+    source_record_ids: ["290a22d6-e8c8-5781-b9f8-604a29a8db0c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

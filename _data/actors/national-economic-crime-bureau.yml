@@ -1,0 +1,16 @@
+name: "National Economic Crime Bureau"
+aliases: ["National Economic Crime Bureau"]
+description: "Financial Intelligence Unit (FIU)"
+url: "/national-economic-crime-bureau"
+country: "Ireland"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "3778fc57-876c-5fad-926f-01751b6ad03b"
+    source_record_ids: ["3778fc57-876c-5fad-926f-01751b6ad03b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

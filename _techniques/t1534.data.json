@@ -1,0 +1,35 @@
+{
+  "mitre_id": "T1534",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Gamaredon Group",
+      "url": "/apt0047"
+    },
+    {
+      "name": "MuddyWater",
+      "url": "/apt0069"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "APT-C-36",
+      "url": "/apt0099"
+    },
+    {
+      "name": "Leviathan",
+      "url": "/apt40"
+    },
+    {
+      "name": "HEXANE",
+      "url": "/apt1001"
+    }
+  ]
+}

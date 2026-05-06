@@ -1,0 +1,209 @@
+{
+  "mitre_id": "T1685",
+  "mitigations": [
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "Restrict File and Directory Permissions",
+      "mitre_id": "M1022",
+      "url": "https://attack.mitre.org/mitigations/M1022",
+      "stix_id": "course-of-action--987988f0-cf86-4680-a875-2f6456ab2448"
+    },
+    {
+      "name": "Disable or Remove Feature or Program",
+      "mitre_id": "M1042",
+      "url": "https://attack.mitre.org/mitigations/M1042",
+      "stix_id": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31"
+    },
+    {
+      "name": "Software Configuration",
+      "mitre_id": "M1054",
+      "url": "https://attack.mitre.org/mitigations/M1054",
+      "stix_id": "course-of-action--b5dbb4c5-b0b1-40b1-80b6-e9e84ab90067"
+    },
+    {
+      "name": "Execution Prevention",
+      "mitre_id": "M1038",
+      "url": "https://attack.mitre.org/mitigations/M1038",
+      "stix_id": "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db"
+    },
+    {
+      "name": "Restrict Registry Permissions",
+      "mitre_id": "M1024",
+      "url": "https://attack.mitre.org/mitigations/M1024",
+      "stix_id": "course-of-action--a2c36a5d-4058-475e-8e77-fff75e50d3b9"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1685.002",
+      "name": "Disable or Modify Cloud Log",
+      "permalink": "/techniques/T1685.002/"
+    },
+    {
+      "id": "T1685.001",
+      "name": "Disable or Modify Windows Event Log",
+      "permalink": "/techniques/T1685.001/"
+    },
+    {
+      "id": "T1685.006",
+      "name": "Clear Linux or Mac System Logs",
+      "permalink": "/techniques/T1685.006/"
+    },
+    {
+      "id": "T1685.005",
+      "name": "Clear Windows Event Logs",
+      "permalink": "/techniques/T1685.005/"
+    },
+    {
+      "id": "T1685.003",
+      "name": "Modify or Spoof Tool UI",
+      "permalink": "/techniques/T1685.003/"
+    },
+    {
+      "id": "T1685.004",
+      "name": "Disable or Modify Linux Audit System Log",
+      "permalink": "/techniques/T1685.004/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Scattered Spider",
+      "url": "/apt1015"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Gorgon Group",
+      "url": "/apt0078"
+    },
+    {
+      "name": "FIN6",
+      "url": "/apt0037"
+    },
+    {
+      "name": "MirrorFace",
+      "url": "/mirrorface"
+    },
+    {
+      "name": "Agrius",
+      "url": "/apt1030"
+    },
+    {
+      "name": "APT5",
+      "url": "/apt1023"
+    },
+    {
+      "name": "TA2541",
+      "url": "/apt1018"
+    },
+    {
+      "name": "BlackByte",
+      "url": "/apt1043"
+    },
+    {
+      "name": "Indrik Spider",
+      "url": "/apt0119"
+    },
+    {
+      "name": "Contagious Interview",
+      "url": "/apt1052"
+    },
+    {
+      "name": "APT38",
+      "url": "/apt0082"
+    },
+    {
+      "name": "Saint Bear",
+      "url": "/apt1031"
+    },
+    {
+      "name": "Putter Panda",
+      "url": "/apt0024"
+    },
+    {
+      "name": "Wizard Spider",
+      "url": "/wizard-spider"
+    },
+    {
+      "name": "APT41",
+      "url": "/apt41"
+    },
+    {
+      "name": "BRONZE BUTLER",
+      "url": "/apt0060"
+    },
+    {
+      "name": "Turla",
+      "url": "/apt0010"
+    },
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    },
+    {
+      "name": "MuddyWater",
+      "url": "/apt0069"
+    },
+    {
+      "name": "Gamaredon Group",
+      "url": "/apt0047"
+    },
+    {
+      "name": "INC Ransom",
+      "url": "/apt1032"
+    },
+    {
+      "name": "UNC3886",
+      "url": "/apt1048"
+    },
+    {
+      "name": "Aquatic Panda",
+      "url": "/apt0143"
+    },
+    {
+      "name": "Velvet Ant",
+      "url": "/apt1047"
+    },
+    {
+      "name": "TeamTNT",
+      "url": "/apt0139"
+    },
+    {
+      "name": "Akira",
+      "url": "/akira"
+    },
+    {
+      "name": "Medusa Group",
+      "url": "/apt1051"
+    },
+    {
+      "name": "TA505",
+      "url": "/cl0p"
+    },
+    {
+      "name": "Rocke",
+      "url": "/apt0106"
+    },
+    {
+      "name": "Magic Hound",
+      "url": "/apt35"
+    },
+    {
+      "name": "Play",
+      "url": "/play"
+    }
+  ]
+}

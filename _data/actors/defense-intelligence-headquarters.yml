@@ -1,0 +1,16 @@
+name: "Defense Intelligence Headquarters"
+aliases: ["Defense Intelligence Headquarters"]
+description: "Defense Intelligence Headquarters (DIH)"
+url: "/defense-intelligence-headquarters"
+country: "Japan"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "b0010c10-c8b6-5f1f-8e84-6602cbb47fd2"
+    source_record_ids: ["b0010c10-c8b6-5f1f-8e84-6602cbb47fd2"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

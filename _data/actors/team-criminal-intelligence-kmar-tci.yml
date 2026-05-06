@@ -1,0 +1,16 @@
+name: "Team Criminal Intelligence (KMar-TCI)"
+aliases: ["Team Criminal Intelligence (KMar-TCI)"]
+description: "Team Criminal Intelligence (KMar-TCI)"
+url: "/team-criminal-intelligence-kmar-tci"
+country: "Netherlands"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "30dd70e1-7196-5e52-937e-c1293a85b062"
+    source_record_ids: ["30dd70e1-7196-5e52-937e-c1293a85b062"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

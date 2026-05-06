@@ -1,0 +1,18 @@
+name: "PLUMP SPIDER"
+aliases: ["PLUMP SPIDER"]
+description: "A cybercriminal actor that uses voice phishing to gain access to compromise environments and initiate fraudulent transactions from victim payment systems.<sup>[[CrowdStrike 2025 Global Threat Report](/references/a69b0ce3-f314-4b32-bfb3-b1380c4f0ec4)]</sup>"
+url: "/plump-spider"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "3444e9ed-d79a-4c53-90a2-a3bd2fcc3f7c"
+    source_record_ids: ["3444e9ed-d79a-4c53-90a2-a3bd2fcc3f7c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

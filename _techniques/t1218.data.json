@@ -1,0 +1,123 @@
+{
+  "mitre_id": "T1218",
+  "mitigations": [
+    {
+      "name": "Exploit Protection",
+      "mitre_id": "M1050",
+      "url": "https://attack.mitre.org/mitigations/M1050",
+      "stix_id": "course-of-action--d2a24649-9694-4c97-9c62-ce7b270bf6a3"
+    },
+    {
+      "name": "Filter Network Traffic",
+      "mitre_id": "M1037",
+      "url": "https://attack.mitre.org/mitigations/M1037",
+      "stix_id": "course-of-action--20f6a9df-37c4-4e20-9e47-025983b1b39d"
+    },
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M1026",
+      "url": "https://attack.mitre.org/mitigations/M1026",
+      "stix_id": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f"
+    },
+    {
+      "name": "Execution Prevention",
+      "mitre_id": "M1038",
+      "url": "https://attack.mitre.org/mitigations/M1038",
+      "stix_id": "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db"
+    },
+    {
+      "name": "Disable or Remove Feature or Program",
+      "mitre_id": "M1042",
+      "url": "https://attack.mitre.org/mitigations/M1042",
+      "stix_id": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31"
+    },
+    {
+      "name": "Restrict Web-Based Content",
+      "mitre_id": "M1021",
+      "url": "https://attack.mitre.org/mitigations/M1021",
+      "stix_id": "course-of-action--21da4fd4-27ad-4e9c-b93d-0b9b14d02c96"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1218.005",
+      "name": "Mshta",
+      "permalink": "/techniques/T1218.005/"
+    },
+    {
+      "id": "T1218.014",
+      "name": "MMC",
+      "permalink": "/techniques/T1218.014/"
+    },
+    {
+      "id": "T1218.008",
+      "name": "Odbcconf",
+      "permalink": "/techniques/T1218.008/"
+    },
+    {
+      "id": "T1218.015",
+      "name": "Electron Applications",
+      "permalink": "/techniques/T1218.015/"
+    },
+    {
+      "id": "T1218.012",
+      "name": "Verclsid",
+      "permalink": "/techniques/T1218.012/"
+    },
+    {
+      "id": "T1218.013",
+      "name": "Mavinject",
+      "permalink": "/techniques/T1218.013/"
+    },
+    {
+      "id": "T1218.002",
+      "name": "Control Panel",
+      "permalink": "/techniques/T1218.002/"
+    },
+    {
+      "id": "T1218.001",
+      "name": "Compiled HTML File",
+      "permalink": "/techniques/T1218.001/"
+    },
+    {
+      "id": "T1218.010",
+      "name": "Regsvr32",
+      "permalink": "/techniques/T1218.010/"
+    },
+    {
+      "id": "T1218.004",
+      "name": "InstallUtil",
+      "permalink": "/techniques/T1218.004/"
+    },
+    {
+      "id": "T1218.011",
+      "name": "Rundll32",
+      "permalink": "/techniques/T1218.011/"
+    },
+    {
+      "id": "T1218.009",
+      "name": "Regsvcs/Regasm",
+      "permalink": "/techniques/T1218.009/"
+    },
+    {
+      "id": "T1218.003",
+      "name": "CMSTP",
+      "permalink": "/techniques/T1218.003/"
+    },
+    {
+      "id": "T1218.007",
+      "name": "Msiexec",
+      "permalink": "/techniques/T1218.007/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    },
+    {
+      "name": "Volt Typhoon",
+      "url": "/apt1017"
+    }
+  ]
+}

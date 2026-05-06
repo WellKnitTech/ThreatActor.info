@@ -1,0 +1,105 @@
+{
+  "mitre_id": "T1555",
+  "mitigations": [
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M1026",
+      "url": "https://attack.mitre.org/mitigations/M1026",
+      "stix_id": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f"
+    },
+    {
+      "name": "Update Software",
+      "mitre_id": "M1051",
+      "url": "https://attack.mitre.org/mitigations/M1051",
+      "stix_id": "course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b"
+    },
+    {
+      "name": "Password Policies",
+      "mitre_id": "M1027",
+      "url": "https://attack.mitre.org/mitigations/M1027",
+      "stix_id": "course-of-action--90c218c3-fbf8-4830-98a7-e8cfb7eaa485"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1555.004",
+      "name": "Windows Credential Manager",
+      "permalink": "/techniques/T1555.004/"
+    },
+    {
+      "id": "T1555.001",
+      "name": "Keychain",
+      "permalink": "/techniques/T1555.001/"
+    },
+    {
+      "id": "T1555.005",
+      "name": "Password Managers",
+      "permalink": "/techniques/T1555.005/"
+    },
+    {
+      "id": "T1555.006",
+      "name": "Cloud Secrets Management Stores",
+      "permalink": "/techniques/T1555.006/"
+    },
+    {
+      "id": "T1555.003",
+      "name": "Credentials from Web Browsers",
+      "permalink": "/techniques/T1555.003/"
+    },
+    {
+      "id": "T1555.002",
+      "name": "Securityd Memory",
+      "permalink": "/techniques/T1555.002/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "HEXANE",
+      "url": "/apt1001"
+    },
+    {
+      "name": "Volt Typhoon",
+      "url": "/apt1017"
+    },
+    {
+      "name": "Leafminer",
+      "url": "/apt0077"
+    },
+    {
+      "name": "Stealth Falcon",
+      "url": "/apt0038"
+    },
+    {
+      "name": "APT39",
+      "url": "/apt0087"
+    },
+    {
+      "name": "Evilnum",
+      "url": "/apt0120"
+    },
+    {
+      "name": "APT41",
+      "url": "/apt41"
+    },
+    {
+      "name": "APT33",
+      "url": "/apt0064"
+    },
+    {
+      "name": "MuddyWater",
+      "url": "/apt0069"
+    },
+    {
+      "name": "OilRig",
+      "url": "/apt34"
+    },
+    {
+      "name": "FIN6",
+      "url": "/apt0037"
+    },
+    {
+      "name": "Malteiro",
+      "url": "/apt1026"
+    }
+  ]
+}

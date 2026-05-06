@@ -1,0 +1,23 @@
+{
+  "mitre_id": "T1424",
+  "mitigations": [
+    {
+      "name": "Use Recent OS Version",
+      "mitre_id": "M1006",
+      "url": "https://attack.mitre.org/mitigations/M1006",
+      "stix_id": "course-of-action--0beabf44-e8d8-4ae4-9122-ef56369a2564"
+    },
+    {
+      "name": "Attestation",
+      "mitre_id": "M1002",
+      "url": "https://attack.mitre.org/mitigations/M1002",
+      "stix_id": "course-of-action--ff4821f6-5afb-481b-8c0f-26c28c0d666c"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

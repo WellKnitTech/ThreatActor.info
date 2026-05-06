@@ -1,0 +1,17 @@
+name: "gd lockersec"
+aliases: ["gd lockersec"]
+description: "\r<br/>\r<br/>Our team members are from different countries and we are not interested in anything else, we are only interested in dollars.\r<br/>\r<br/>We do not allow CIS, Cuba, North Korea and China to be targeted.\r<br/>\r<br/>Re-attacks are not allowed for target companies that have already made payments.\r<br/>\r<br/>We do not allow non-profit hospitals and some non-profit organizations be targeted.\r<br/>"
+url: "/gd-lockersec"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "China Chopper"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "35897947-d886-5e0a-abc8-f05ae92c8692"
+    source_record_ids: ["35897947-d886-5e0a-abc8-f05ae92c8692"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

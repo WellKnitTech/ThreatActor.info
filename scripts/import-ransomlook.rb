@@ -2,6 +2,7 @@
 
 require 'fileutils'
 require 'digest'
+require 'date'
 require 'json'
 require 'net/http'
 require 'optparse'
@@ -488,7 +489,9 @@ class RansomLookImporter
       when 'update'
         actor = existing_actors[item[:match_position]]
         actor.merge!(item[:updates])
-        synchronize_existing_page(actor, existing_pages)
+        unless synchronize_existing_page(actor, existing_pages)
+          warn "Skipping #{page_path_for(actor['url'])}: unable to parse existing page"
+        end
       end
     end
 
@@ -498,8 +501,10 @@ class RansomLookImporter
   def synchronize_existing_page(actor, existing_pages)
     path = page_path_for(actor['url'])
     page = existing_pages[path] || parse_page(path)
+    return false unless page.is_a?(Hash)
     updated_front_matter = page[:front_matter].merge(build_front_matter(actor))
     write_page(path, updated_front_matter, page[:body])
+    true
   end
 
   def build_front_matter(actor)
@@ -623,6 +628,8 @@ class RansomLookImporter
   def load_pages
     Dir.glob(File.join(PAGE_DIR, '*.md')).each_with_object({}) do |path, pages|
       pages[path] = parse_page(path)
+    rescue Psych::SyntaxError => e
+      warn "Skipping #{path}: invalid YAML front matter (#{e.message.lines.first.to_s.strip})"
     end
   end
 
@@ -631,8 +638,11 @@ class RansomLookImporter
     match = content.match(/\A---\s*\n(.*?)\n---\s*\n?(.*)\z/m)
     raise "Invalid front matter in #{path}" unless match
 
+    front_matter = safe_load_yaml(match[1], path)
+    return nil if front_matter.nil?
+
     {
-      front_matter: safe_load_yaml(match[1]) || {},
+      front_matter: front_matter || {},
       body: match[2].strip
     }
   end
@@ -870,11 +880,17 @@ class RansomLookImporter
   end
 
   def safe_load_yaml_file(path)
-    safe_load_yaml(File.read(path))
+    safe_load_yaml(File.read(path), path)
   end
 
-  def safe_load_yaml(content)
-    YAML.safe_load(content, permitted_classes: [], aliases: true)
+  def safe_load_yaml(content, filename = 'YAML content')
+    Psych.safe_load(content, permitted_classes: [Time, Date, Symbol], symbolize_names: false)
+  rescue Psych::SyntaxError => e
+    warn "Skipping #{filename}: invalid YAML front matter (#{e.message.lines.first.to_s.strip})"
+    nil
+  rescue StandardError => e
+    warn "ERROR loading YAML in #{filename}: #{e.message}"
+    nil
   end
 end
 

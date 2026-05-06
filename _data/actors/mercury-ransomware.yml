@@ -1,0 +1,15 @@
+name: "Mercury Ransomware"
+aliases: ["Mercury Ransomware"]
+description: "extension \".Mercury\", note \"!!!READ_IT!!!.txt\" with 4 different 64-char hex as ID, 3 of which have dashes. Possible filemarker, same in different victim's files."
+url: "/mercury-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","ransomnotes","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "968cf828-0653-4d86-a01d-186db598f391"
+    source_record_ids: ["968cf828-0653-4d86-a01d-186db598f391"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,206 @@
+{
+  "mitre_id": "T1021.001",
+  "mitigations": [
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "Limit Access to Resource Over Network",
+      "mitre_id": "M1035",
+      "url": "https://attack.mitre.org/mitigations/M1035",
+      "stix_id": "course-of-action--1dcaeb21-9348-42ea-950a-f842aaf1ae1f"
+    },
+    {
+      "name": "Network Segmentation",
+      "mitre_id": "M1030",
+      "url": "https://attack.mitre.org/mitigations/M1030",
+      "stix_id": "course-of-action--86598de0-b347-4928-9eb0-0acbfc21908c"
+    },
+    {
+      "name": "Operating System Configuration",
+      "mitre_id": "M1028",
+      "url": "https://attack.mitre.org/mitigations/M1028",
+      "stix_id": "course-of-action--2f316f6c-ae42-44fe-adf8-150989e0f6d3"
+    },
+    {
+      "name": "Disable or Remove Feature or Program",
+      "mitre_id": "M1042",
+      "url": "https://attack.mitre.org/mitigations/M1042",
+      "stix_id": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    },
+    {
+      "name": "Multi-factor Authentication",
+      "mitre_id": "M1032",
+      "url": "https://attack.mitre.org/mitigations/M1032",
+      "stix_id": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0"
+    },
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M1026",
+      "url": "https://attack.mitre.org/mitigations/M1026",
+      "stix_id": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "INC Ransom",
+      "url": "/apt1032"
+    },
+    {
+      "name": "Volt Typhoon",
+      "url": "/apt1017"
+    },
+    {
+      "name": "APT5",
+      "url": "/apt1023"
+    },
+    {
+      "name": "OilRig",
+      "url": "/apt34"
+    },
+    {
+      "name": "Patchwork",
+      "url": "/apt0040"
+    },
+    {
+      "name": "FIN8",
+      "url": "/apt0061"
+    },
+    {
+      "name": "MirrorFace",
+      "url": "/mirrorface"
+    },
+    {
+      "name": "BlackByte",
+      "url": "/apt1043"
+    },
+    {
+      "name": "APT39",
+      "url": "/apt0087"
+    },
+    {
+      "name": "Magic Hound",
+      "url": "/apt35"
+    },
+    {
+      "name": "Wizard Spider",
+      "url": "/wizard-spider"
+    },
+    {
+      "name": "Aquatic Panda",
+      "url": "/apt0143"
+    },
+    {
+      "name": "FIN7",
+      "url": "/fin7"
+    },
+    {
+      "name": "Indrik Spider",
+      "url": "/apt0119"
+    },
+    {
+      "name": "Silence",
+      "url": "/apt0091"
+    },
+    {
+      "name": "HEXANE",
+      "url": "/apt1001"
+    },
+    {
+      "name": "Axiom",
+      "url": "/apt0001"
+    },
+    {
+      "name": "Cobalt Group",
+      "url": "/apt0080"
+    },
+    {
+      "name": "Akira",
+      "url": "/akira"
+    },
+    {
+      "name": "Agrius",
+      "url": "/apt1030"
+    },
+    {
+      "name": "FIN6",
+      "url": "/apt0037"
+    },
+    {
+      "name": "FIN10",
+      "url": "/apt0051"
+    },
+    {
+      "name": "FIN13",
+      "url": "/apt1016"
+    },
+    {
+      "name": "Blue Mockingbird",
+      "url": "/apt0108"
+    },
+    {
+      "name": "Scattered Spider",
+      "url": "/apt1015"
+    },
+    {
+      "name": "menuPass",
+      "url": "/apt0045"
+    },
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    },
+    {
+      "name": "APT3",
+      "url": "/apt0022"
+    },
+    {
+      "name": "Fox Kitten",
+      "url": "/apt0117"
+    },
+    {
+      "name": "Leviathan",
+      "url": "/apt40"
+    },
+    {
+      "name": "Dragonfly",
+      "url": "/apt0035"
+    },
+    {
+      "name": "APT41",
+      "url": "/apt41"
+    },
+    {
+      "name": "Chimera",
+      "url": "/apt0114"
+    },
+    {
+      "name": "Medusa Group",
+      "url": "/apt1051"
+    },
+    {
+      "name": "APT1",
+      "url": "/apt1"
+    },
+    {
+      "name": "VOID MANTICORE",
+      "url": "/void-manticore"
+    }
+  ]
+}

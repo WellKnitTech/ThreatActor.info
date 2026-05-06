@@ -1,0 +1,23 @@
+{
+  "mitre_id": "T1617",
+  "mitigations": [
+    {
+      "name": "Attestation",
+      "mitre_id": "M1002",
+      "url": "https://attack.mitre.org/mitigations/M1002",
+      "stix_id": "course-of-action--ff4821f6-5afb-481b-8c0f-26c28c0d666c"
+    },
+    {
+      "name": "Deploy Compromised Device Detection Method",
+      "mitre_id": "M1010",
+      "url": "https://attack.mitre.org/mitigations/M1010",
+      "stix_id": "course-of-action--cf2cccb1-cab8-431a-8ecf-f7874d05f433"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

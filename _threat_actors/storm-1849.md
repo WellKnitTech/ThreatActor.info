@@ -10,7 +10,11 @@ permalink: /storm-1849/
 UAT4356 is a state-sponsored threat actor that targeted government networks globally through a campaign named ArcaneDoor. They exploited two zero-day vulnerabilities in Cisco Adaptive Security Appliances to deploy custom malware implants called "Line Runner" and "Line Dancer." The actor demonstrated a deep understanding of Cisco systems, utilized anti-forensic measures, and took deliberate steps to evade detection. UAT4356's sophisticated attack chain allowed them to conduct malicious actions such as configuration modification, reconnaissance, network traffic capture/exfiltration, and potentially lateral movement on compromised devices.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇨🇳 China
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -25,7 +29,8 @@ UAT4356 is a state-sponsored threat actor that targeted government networks glob
 - **Xploit**
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: China
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

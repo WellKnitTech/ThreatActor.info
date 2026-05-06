@@ -1,0 +1,15 @@
+name: "Zcrypt"
+aliases: ["Zcryptor","Zcrypt"]
+description: "Ransomware"
+url: "/zcrypt"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "7eed5e96-0219-4355-9a9c-44643272894c"
+    source_record_ids: ["7eed5e96-0219-4355-9a9c-44643272894c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

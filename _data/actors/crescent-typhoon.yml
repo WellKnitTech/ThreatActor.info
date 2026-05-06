@@ -8,9 +8,10 @@ source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 lic
 malware: ["China Chopper"]
 provenance:
   misp_galaxy:
+    meta_keys: ["country","microsoft-origin-threat","refs","synonyms"]
     source_cluster: "microsoft-activity-group.json"
     source_clusters: ["microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "f0321b6d-ba72-556c-b2eb-df47e188ad5c"
     source_record_ids: ["f0321b6d-ba72-556c-b2eb-df47e188ad5c"]
-    source_retrieved_at: "2026-04-28T04:30:12Z"
+    source_retrieved_at: "2026-05-06T22:01:13Z"

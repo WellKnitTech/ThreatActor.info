@@ -1,0 +1,14 @@
+name: "Mike NotSTOP"
+aliases: ["Mike NotSTOP"]
+description: "ransomware"
+url: "/mike-notstop"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "08e17d21-6f58-4eef-aee5-0dd842ca6eee"
+    source_record_ids: ["08e17d21-6f58-4eef-aee5-0dd842ca6eee"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

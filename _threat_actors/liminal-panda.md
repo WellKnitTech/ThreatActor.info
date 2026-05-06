@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "LIMINAL PANDA"
-aliases: ["LIMINAL PANDA"]
+aliases: ["LIMINAL PANDA","CL-STA-0969","Pepper Typhoon"]
 description: "LIMINAL PANDA is a China-nexus APT that targets telecommunications entities, employing custom malware and publicly available tools for covert access, C2, and data exfiltration. The adversary demonstrat"
 permalink: /liminal-panda/
 ---

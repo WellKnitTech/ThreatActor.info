@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Storm-0558"
-aliases: ["Storm-0558"]
+aliases: ["Storm-0558","Antique Typhoon"]
 description: "Storm-0558 is a China-based threat actor with espionage objectives. While there are some minimal overlaps with other Chinese groups such as Violet Typhoon (ZIRCONIUM, APT31), Microsoft maintain high co"
 permalink: /storm-0558/
 ---

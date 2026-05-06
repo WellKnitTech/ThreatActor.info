@@ -1,0 +1,16 @@
+name: "Naval Intelligence (Pakistan)"
+aliases: ["Naval Intelligence (Pakistan)"]
+description: "Naval Intelligence (NI)"
+url: "/naval-intelligence-pakistan"
+country: "Pakistan"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "3df5ccd6-1781-517d-aff9-8f97e300536a"
+    source_record_ids: ["3df5ccd6-1781-517d-aff9-8f97e300536a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

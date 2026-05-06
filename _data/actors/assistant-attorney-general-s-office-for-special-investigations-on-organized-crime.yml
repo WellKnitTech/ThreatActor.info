@@ -1,0 +1,16 @@
+name: "Assistant Attorney General's Office for Special Investigations on Organized Crime"
+aliases: ["Assistant Attorney General's Office for Special Investigations on Organized Crime"]
+description: "Assistant Attorney General's Office for Special Investigations on Organized Crime (SEIDO / PGR)"
+url: "/assistant-attorney-general-s-office-for-special-investigations-on-organized-crime"
+country: "Mexico"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "9a3ece61-f290-5e53-bb81-20ca4f43217b"
+    source_record_ids: ["9a3ece61-f290-5e53-bb81-20ca4f43217b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

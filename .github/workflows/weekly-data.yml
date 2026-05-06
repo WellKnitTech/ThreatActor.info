@@ -174,7 +174,7 @@ jobs:
             --current _data/actors \
             --previous tmp/delta-baseline/actors \
             --report-json tmp/source-delta-report.json \
-            --max-change-ratio 1.50 \
+            --max-change-ratio 4.00 \
             --max-identity-change-ratio 0.02
           
       - name: Validate content

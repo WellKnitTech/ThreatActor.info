@@ -1,0 +1,29 @@
+{
+  "mitre_id": "T1634.001",
+  "mitigations": [
+    {
+      "name": "Deploy Compromised Device Detection Method",
+      "mitre_id": "M1010",
+      "url": "https://attack.mitre.org/mitigations/M1010",
+      "stix_id": "course-of-action--cf2cccb1-cab8-431a-8ecf-f7874d05f433"
+    },
+    {
+      "name": "Security Updates",
+      "mitre_id": "M1001",
+      "url": "https://attack.mitre.org/mitigations/M1001",
+      "stix_id": "course-of-action--bcecd036-f40e-4916-9f8e-fd0ccf0ece8d"
+    },
+    {
+      "name": "Attestation",
+      "mitre_id": "M1002",
+      "url": "https://attack.mitre.org/mitigations/M1002",
+      "stix_id": "course-of-action--ff4821f6-5afb-481b-8c0f-26c28c0d666c"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

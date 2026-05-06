@@ -1,0 +1,15 @@
+name: "Nemzetbiztonsági Szakszolgálat (NBSZ) (Special Service for National Security)"
+aliases: ["Nemzetbiztonsági Szakszolgálat (NBSZ) (Special Service for National Security)"]
+description: "Nemzetbiztonsági Szakszolgálat (NBSZ) (Special Service for National Security)"
+url: "/nemzetbiztons-gi-szakszolg-lat-nbsz-special-service-for-national-security"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "5a1c26e1-6585-516b-951a-53cf64949226"
+    source_record_ids: ["5a1c26e1-6585-516b-951a-53cf64949226"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

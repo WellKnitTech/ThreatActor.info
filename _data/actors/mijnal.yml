@@ -1,0 +1,15 @@
+name: "Mijnal"
+aliases: ["Mijnal"]
+description: "ransomware"
+url: "/mijnal"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b539d0d8-1dad-4874-b743-e07063f8907e"
+    source_record_ids: ["b539d0d8-1dad-4874-b743-e07063f8907e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

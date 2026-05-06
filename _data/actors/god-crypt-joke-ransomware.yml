@@ -1,0 +1,15 @@
+name: "God Crypt Joke Ransomware"
+aliases: ["Godsomware v1.0","Ransomware God Crypt","God Crypt Joke Ransomware"]
+description: "MalwareHunterTeam found a new ransomware called God Crypt that does not appear to decrypt and appears to be a joke ransomware. Has an unlock code of 29b579fb811f05c3c334a2bd2646a27a."
+url: "/god-crypt-joke-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "1b74bfda-c32c-4713-8ff6-793d8e787645"
+    source_record_ids: ["1b74bfda-c32c-4713-8ff6-793d8e787645"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

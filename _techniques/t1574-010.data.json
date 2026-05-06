@@ -1,0 +1,29 @@
+{
+  "mitre_id": "T1574.010",
+  "mitigations": [
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "User Account Control",
+      "mitre_id": "M1052",
+      "url": "https://attack.mitre.org/mitigations/M1052",
+      "stix_id": "course-of-action--2c2ad92a-d710-41ab-a996-1db143bb4808"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "mitre_id": "T0846",
+  "mitigations": [
+    {
+      "name": "Static Network Configuration",
+      "mitre_id": "M0814",
+      "url": "https://attack.mitre.org/mitigations/M0814",
+      "stix_id": "course-of-action--52c7a1a9-3a78-4528-a44f-cd7b0fa3541a"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T0846.001",
+      "name": "Port Scan",
+      "permalink": "/techniques/T0846.001/"
+    },
+    {
+      "id": "T0846.002",
+      "name": "Broadcast Discovery",
+      "permalink": "/techniques/T0846.002/"
+    },
+    {
+      "id": "T0846.003",
+      "name": "Multicast Discovery",
+      "permalink": "/techniques/T0846.003/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "mitre_id": "T1543.003",
+  "mitigations": [
+    {
+      "name": "Behavior Prevention on Endpoint",
+      "mitre_id": "M1040",
+      "url": "https://attack.mitre.org/mitigations/M1040",
+      "stix_id": "course-of-action--90f39ee1-d5a3-4aaa-9f28-3b42815b0d46"
+    },
+    {
+      "name": "Operating System Configuration",
+      "mitre_id": "M1028",
+      "url": "https://attack.mitre.org/mitigations/M1028",
+      "stix_id": "course-of-action--2f316f6c-ae42-44fe-adf8-150989e0f6d3"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "Code Signing",
+      "mitre_id": "M1045",
+      "url": "https://attack.mitre.org/mitigations/M1045",
+      "stix_id": "course-of-action--590777b3-b475-4c7c-aaf8-f4a73b140312"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Tropic Trooper",
+      "url": "/apt0081"
+    },
+    {
+      "name": "Medusa Group",
+      "url": "/apt1051"
+    },
+    {
+      "name": "DarkVishnya",
+      "url": "/apt0105"
+    },
+    {
+      "name": "Aquatic Panda",
+      "url": "/apt0143"
+    },
+    {
+      "name": "APT38",
+      "url": "/apt0082"
+    },
+    {
+      "name": "Lotus Blossom",
+      "url": "/apt0030"
+    },
+    {
+      "name": "APT41",
+      "url": "/apt41"
+    },
+    {
+      "name": "Wizard Spider",
+      "url": "/wizard-spider"
+    },
+    {
+      "name": "Blue Mockingbird",
+      "url": "/apt0108"
+    },
+    {
+      "name": "TeamTNT",
+      "url": "/apt0139"
+    },
+    {
+      "name": "BlackByte",
+      "url": "/apt1043"
+    },
+    {
+      "name": "APT19",
+      "url": "/apt0073"
+    },
+    {
+      "name": "Threat Group-3390",
+      "url": "/apt0027"
+    },
+    {
+      "name": "Ke3chang",
+      "url": "/apt0004"
+    },
+    {
+      "name": "PROMETHIUM",
+      "url": "/apt0056"
+    },
+    {
+      "name": "OilRig",
+      "url": "/apt34"
+    },
+    {
+      "name": "APT32",
+      "url": "/apt32"
+    },
+    {
+      "name": "Carbanak",
+      "url": "/fin7"
+    },
+    {
+      "name": "APT3",
+      "url": "/apt0022"
+    },
+    {
+      "name": "FIN7",
+      "url": "/fin7"
+    },
+    {
+      "name": "Agrius",
+      "url": "/apt1030"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Earth Lusca",
+      "url": "/apt1006"
+    },
+    {
+      "name": "Cobalt Group",
+      "url": "/apt0080"
+    },
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    },
+    {
+      "name": "Cinnamon Tempest",
+      "url": "/apt1021"
+    }
+  ]
+}

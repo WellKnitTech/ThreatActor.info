@@ -1,0 +1,19 @@
+name: "Zloader Threat Actors"
+aliases: ["Zloader Threat Actors"]
+description: "This object reflects the TTPs used by threat actors to distribute and deploy the Zloader trojan malware. Researchers have observed actors distributing Zloader in campaigns without attributing the activity to named adversaries, such as the operations described by ESET researchers cited in the References.<sup>[[WeLiveSecurity April 19 2022](/references/f86845b9-03c4-446b-845f-b31b79b247ee)]</sup>\n\nTTPs associated with Zloader binaries themselves can be found in the separate \"Zloader\" Software object."
+url: "/zloader-threat-actors"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Trojan.Karagany"
+  - name: "Trojan.Mebromi"
+  - name: "Archelaus Beta"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","owner","source","tags"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "d2fd3da1-e49c-4273-9add-3d15afc3b837"
+    source_record_ids: ["d2fd3da1-e49c-4273-9add-3d15afc3b837"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

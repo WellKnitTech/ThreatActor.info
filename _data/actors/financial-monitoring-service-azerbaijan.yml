@@ -1,0 +1,15 @@
+name: "Financial Monitoring Service (Azerbaijan)"
+aliases: ["Financial Monitoring Service (Azerbaijan)"]
+description: "Financial Monitoring Service (Maliyyə Monitorinqi Xidməti)"
+url: "/financial-monitoring-service-azerbaijan"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "df82413f-1e03-5b16-9ae7-309aea364c09"
+    source_record_ids: ["df82413f-1e03-5b16-9ae7-309aea364c09"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

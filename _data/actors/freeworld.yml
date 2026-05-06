@@ -1,0 +1,22 @@
+name: "freeworld"
+aliases: ["freeworld"]
+description: "FreeWorld is a ransomware variant first observed in September 2023, and is believed to be derived from the Mimic ransomware family. It is deployed through coordinated campaigns dubbed DB#JAMMER, which exploit poorly secured Microsoft SQL (MSSQL) servers exposed to the internet. Attackers gain initial access via brute force, leverage the xp_cmdshell feature to execute shell commands, disable defenses, deploy remote access tools like Cobalt Strike and AnyDesk, and eventually deliver the FreeWorld payload. The ransomware encrypts files using hybrid encryption and appends the .FreeWorldEncryption extension. Victims receive a ransom note titled FreeWorld-Contact.txt, directing them on payment and data recovery steps."
+url: "/freeworld"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RemoteCMD"
+  - name: "Remote Utilities"
+  - name: "RemotePC"
+  - name: "AnyDesk"
+  - name: "Xploit"
+  - name: "Cobalt Strike"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "29202e4d-0eb9-598d-a0c9-509f16988aa7"
+    source_record_ids: ["29202e4d-0eb9-598d-a0c9-509f16988aa7"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

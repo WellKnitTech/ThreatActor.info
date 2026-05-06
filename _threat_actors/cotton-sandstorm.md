@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Cotton Sandstorm"
-aliases: ["Emennet Pasargad","Holy Souls","MARNANBRIDGE","NEPTUNIUM","HAYWIRE KITTEN","Cotton Sandstorm"]
+aliases: ["Emennet Pasargad","Holy Souls","MARNANBRIDGE","NEPTUNIUM","HAYWIRE KITTEN","Cotton Sandstorm","Vice Leaker","DEV-0198","ViceLeaker"]
 description: "Cotton Sandstorm is an Iranian threat actor involved in hack-and-leak operations. They have targeted various organizations, including the French satirical magazine Charlie Hebdo, where they obtained an"
 permalink: /cotton-sandstorm/
 ---

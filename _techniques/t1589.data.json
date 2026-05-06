@@ -1,0 +1,70 @@
+{
+  "mitre_id": "T1589",
+  "mitigations": [
+    {
+      "name": "Pre-compromise",
+      "mitre_id": "M1056",
+      "url": "https://attack.mitre.org/mitigations/M1056",
+      "stix_id": "course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1589.003",
+      "name": "Employee Names",
+      "permalink": "/techniques/T1589.003/"
+    },
+    {
+      "id": "T1589.002",
+      "name": "Email Addresses",
+      "permalink": "/techniques/T1589.002/"
+    },
+    {
+      "id": "T1589.001",
+      "name": "Credentials",
+      "permalink": "/techniques/T1589.001/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "LAPSUS$",
+      "url": "/apt1004"
+    },
+    {
+      "name": "HEXANE",
+      "url": "/apt1001"
+    },
+    {
+      "name": "VOID MANTICORE",
+      "url": "/void-manticore"
+    },
+    {
+      "name": "Scattered Spider",
+      "url": "/apt1015"
+    },
+    {
+      "name": "FIN13",
+      "url": "/apt1016"
+    },
+    {
+      "name": "APT32",
+      "url": "/apt32"
+    },
+    {
+      "name": "Star Blizzard",
+      "url": "/apt1033"
+    },
+    {
+      "name": "Contagious Interview",
+      "url": "/apt1052"
+    },
+    {
+      "name": "Magic Hound",
+      "url": "/apt35"
+    },
+    {
+      "name": "Volt Typhoon",
+      "url": "/apt1017"
+    }
+  ]
+}

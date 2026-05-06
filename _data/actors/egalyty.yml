@@ -1,0 +1,15 @@
+name: "Egalyty"
+aliases: ["Egalyty"]
+description: "ransomware"
+url: "/egalyty"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "8018e133-c4c9-4a1b-bf39-5007c35c0a54"
+    source_record_ids: ["8018e133-c4c9-4a1b-bf39-5007c35c0a54"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

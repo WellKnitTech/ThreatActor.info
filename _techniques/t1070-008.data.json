@@ -1,0 +1,36 @@
+{
+  "mitre_id": "T1070.008",
+  "mitigations": [
+    {
+      "name": "Restrict File and Directory Permissions",
+      "mitre_id": "M1022",
+      "url": "https://attack.mitre.org/mitigations/M1022",
+      "stix_id": "course-of-action--987988f0-cf86-4680-a875-2f6456ab2448"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "Remote Data Storage",
+      "mitre_id": "M1029",
+      "url": "https://attack.mitre.org/mitigations/M1029",
+      "stix_id": "course-of-action--20a2baeb-98c2-4901-bad7-dc62d0a03dea"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "APT42",
+      "url": "/apt1044"
+    },
+    {
+      "name": "Scattered Spider",
+      "url": "/apt1015"
+    }
+  ]
+}

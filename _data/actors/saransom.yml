@@ -1,0 +1,14 @@
+name: "SARansom"
+aliases: ["SARansom"]
+description: "ransomware"
+url: "/saransom"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "43690415-9a4f-4019-a02e-26ec3dd2961c"
+    source_record_ids: ["43690415-9a4f-4019-a02e-26ec3dd2961c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

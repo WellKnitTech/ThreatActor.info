@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Vanilla Tempest"
-aliases: ["DEV-0832","Vice Society","Vanilla Tempest"]
+aliases: ["DEV-0832","Vice Society","Vanilla Tempest","VICE SPIDER","Vicesociety"]
 description: "Vice Society is a ransomware group that has been active since at least June 2021. They primarily target the education and healthcare sectors, but have also been observed targeting the manufacturing ind"
 permalink: /vanilla-tempest/
 ---
@@ -10,7 +10,11 @@ permalink: /vanilla-tempest/
 Vice Society is a ransomware group that has been active since at least June 2021. They primarily target the education and healthcare sectors, but have also been observed targeting the manufacturing industry. The group has used multiple ransomware families and has been known to utilize PowerShell scripts for their attacks. There are similarities between Vice Society and the Rhysida ransomware group, suggesting a potential connection or rebranding.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇷🇺 Russia
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -45,7 +49,8 @@ Vice Society is a ransomware group that has been active since at least June 2021
 | RMM Tools | PowerAdmin |
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Russia
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

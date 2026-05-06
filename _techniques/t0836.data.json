@@ -1,0 +1,35 @@
+{
+  "mitre_id": "T0836",
+  "mitigations": [
+    {
+      "name": "Audit",
+      "mitre_id": "M0947",
+      "url": "https://attack.mitre.org/mitigations/M0947",
+      "stix_id": "course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697"
+    },
+    {
+      "name": "Human User Authentication",
+      "mitre_id": "M0804",
+      "url": "https://attack.mitre.org/mitigations/M0804",
+      "stix_id": "course-of-action--66cfe23e-34b6-4583-b178-ed6a412db2b0"
+    },
+    {
+      "name": "Authorization Enforcement",
+      "mitre_id": "M0800",
+      "url": "https://attack.mitre.org/mitigations/M0800",
+      "stix_id": "course-of-action--e0d38502-decb-481d-ad8b-b8f0a0c330bd"
+    },
+    {
+      "name": "Validate Program Inputs",
+      "mitre_id": "M0818",
+      "url": "https://attack.mitre.org/mitigations/M0818",
+      "stix_id": "course-of-action--1cbcceef-3233-4062-aa86-ec91afe39517"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

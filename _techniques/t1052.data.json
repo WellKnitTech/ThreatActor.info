@@ -1,0 +1,33 @@
+{
+  "mitre_id": "T1052",
+  "mitigations": [
+    {
+      "name": "Data Loss Prevention",
+      "mitre_id": "M1057",
+      "url": "https://attack.mitre.org/mitigations/M1057",
+      "stix_id": "course-of-action--65401701-019d-44ff-b223-08d520bb0e7b"
+    },
+    {
+      "name": "Limit Hardware Installation",
+      "mitre_id": "M1034",
+      "url": "https://attack.mitre.org/mitigations/M1034",
+      "stix_id": "course-of-action--2995bc22-2851-4345-ad19-4e7e295be264"
+    },
+    {
+      "name": "Disable or Remove Feature or Program",
+      "mitre_id": "M1042",
+      "url": "https://attack.mitre.org/mitigations/M1042",
+      "stix_id": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1052.001",
+      "name": "Exfiltration over USB",
+      "permalink": "/techniques/T1052.001/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

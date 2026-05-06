@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Denim Tsunami"
-aliases: ["KNOTWEED","DSIRF","Denim Tsunami"]
+aliases: ["KNOTWEED","DSIRF","Denim Tsunami","DEV-0291"]
 description: "Denim Tsunami is a threat actor group that has been involved in targeted attacks against European and Central American customers. They have been observed using multiple Windows and Adobe 0-day exploits"
 permalink: /denim-tsunami/
 ---

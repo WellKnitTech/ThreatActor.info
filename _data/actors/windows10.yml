@@ -1,0 +1,14 @@
+name: "Windows10"
+aliases: ["Windows10"]
+description: "ransomware"
+url: "/windows10"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "cb343570-c8a0-4bb6-ba3b-88126449593e"
+    source_record_ids: ["cb343570-c8a0-4bb6-ba3b-88126449593e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

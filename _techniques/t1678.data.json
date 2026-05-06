@@ -1,0 +1,19 @@
+{
+  "mitre_id": "T1678",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Mustang Panda",
+      "url": "/apt0129"
+    }
+  ]
+}

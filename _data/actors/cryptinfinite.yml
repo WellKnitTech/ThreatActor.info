@@ -1,0 +1,15 @@
+name: "CryptInfinite"
+aliases: ["DecryptorMax","CryptInfinite"]
+description: "Ransomware"
+url: "/cryptinfinite"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "2b0d60c3-6560-49ac-baf0-5f642e8a77de"
+    source_record_ids: ["2b0d60c3-6560-49ac-baf0-5f642e8a77de"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

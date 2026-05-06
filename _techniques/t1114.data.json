@@ -1,0 +1,64 @@
+{
+  "mitre_id": "T1114",
+  "mitigations": [
+    {
+      "name": "Multi-factor Authentication",
+      "mitre_id": "M1032",
+      "url": "https://attack.mitre.org/mitigations/M1032",
+      "stix_id": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0"
+    },
+    {
+      "name": "Out-of-Band Communications Channel",
+      "mitre_id": "M1060",
+      "url": "https://attack.mitre.org/mitigations/M1060",
+      "stix_id": "course-of-action--80a0e940-f683-4fbd-ac00-e9f935f2f808"
+    },
+    {
+      "name": "Encrypt Sensitive Information",
+      "mitre_id": "M1041",
+      "url": "https://attack.mitre.org/mitigations/M1041",
+      "stix_id": "course-of-action--feff9142-e8c2-46f4-842b-bd6fb3d41157"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1114.002",
+      "name": "Remote Email Collection",
+      "permalink": "/techniques/T1114.002/"
+    },
+    {
+      "id": "T1114.003",
+      "name": "Email Forwarding Rule",
+      "permalink": "/techniques/T1114.003/"
+    },
+    {
+      "id": "T1114.001",
+      "name": "Local Email Collection",
+      "permalink": "/techniques/T1114.001/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Ember Bear",
+      "url": "/apt1003"
+    },
+    {
+      "name": "Silent Librarian",
+      "url": "/apt0122"
+    },
+    {
+      "name": "Magic Hound",
+      "url": "/apt35"
+    },
+    {
+      "name": "Scattered Spider",
+      "url": "/apt1015"
+    }
+  ]
+}

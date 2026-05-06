@@ -1,0 +1,17 @@
+name: "PyL33T Ransomware"
+aliases: ["PyL33T Ransomware"]
+description: "This is most likely to affect English speaking users, since the note is written in English. English is understood worldwide, thus anyone can be harmed. The hacker spread the virus using email spam, fake updates, and harmful attachments. All your files are compromised including music, MS Office, Open Office, pictures, videos, shared online files etc.."
+url: "/pyl33t-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Virus RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","ransomnotes","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "305cb1fb-d43e-4477-8edc-90b34aaf227f"
+    source_record_ids: ["305cb1fb-d43e-4477-8edc-90b34aaf227f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

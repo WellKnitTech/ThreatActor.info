@@ -15,6 +15,9 @@ require 'yaml'
 require_relative 'actor_store'
 
 class EtdaThaicertImporter
+  class UnsupportedResponseFormatError < StandardError; end
+  class SourceAuthenticationError < StandardError; end
+
   PAGE_DIR = '_threat_actors'.freeze
   DEFAULT_SNAPSHOT_ROOT = 'data/imports/etda-thaicert'.freeze
   DEFAULT_OVERRIDES_FILE = 'data/imports/etda-thaicert/mapping_overrides.yml'.freeze
@@ -56,7 +59,8 @@ class EtdaThaicertImporter
       report_json: nil,
       write: false,
       force: false,
-      new_only: false
+      new_only: false,
+      strict_pages: false
     }
     @overrides = {
       excluded_group_keys: [],
@@ -130,6 +134,7 @@ class EtdaThaicertImporter
       opts.on('--overrides PATH', 'Override mapping file') { |value| @options[:overrides_file] = value }
       opts.on('--force', 'Allow protected field updates') { @options[:force] = true }
       opts.on('--new-only', 'Only create new actors; no updates to existing') { @options[:new_only] = true }
+      opts.on('--strict-pages', 'Fail when an existing page has malformed front matter') { @options[:strict_pages] = true }
     end
     parser.parse!(@argv)
     return if @options[:snapshot]
@@ -171,6 +176,12 @@ class EtdaThaicertImporter
 
       payload = http_get(url)
       payloads << { payload: payload, source_url: url }
+    rescue UnsupportedResponseFormatError => e
+      reason = e.respond_to?(:reason) ? e.reason : e.message
+      warn "Fetch warning for #{url}: #{reason}"
+      warn "Response snippet: #{response_snippet(e.respond_to?(:body) ? e.body : nil, include_non_empty_lines: true)}"
+    rescue SourceAuthenticationError => e
+      warn "Fetch warning for #{url}: #{e.message}"
     rescue StandardError => e
       warn "Fetch failed for #{url}: #{e.message}"
     end
@@ -185,12 +196,14 @@ class EtdaThaicertImporter
     records = records.first(@options[:limit]) if @options[:limit]
 
     existing_actors = ActorStore.load_all
+    @page_parse_warnings = []
     existing_pages = load_pages
     evaluation = evaluate_records(records, existing_actors)
 
     report = build_report(evaluation)
     File.write(@options[:report_json], JSON.pretty_generate(report) + "\n") if @options[:report_json]
     print_report(evaluation)
+    print_page_warning_summary if @command == 'plan'
 
     return unless @options[:write]
 
@@ -927,16 +940,67 @@ class EtdaThaicertImporter
       raise "Redirect without location for #{url}" if location.to_s.empty?
 
       http_get(location, limit - 1)
+    when Net::HTTPUnauthorized
+      if url == @options[:mirror_url]
+        raise SourceAuthenticationError, "HTTP 401 from mirror; continuing with primary ETDA sources"
+      end
+
+      raise "HTTP #{response.code} for #{url}"
     else
       raise "HTTP #{response.code} for #{url}"
     end
   end
 
   def parse_response_body(body)
-    JSON.parse(body)
-  rescue JSON::ParserError
-    rows = CSV.parse(body, headers: true)
+    text = body.to_s
+    JSON.parse(text)
+  rescue JSON::ParserError => e
+    parse_error = e.message
+    if text.lstrip.start_with?('{', '[')
+      error = UnsupportedResponseFormatError.new('Invalid JSON payload')
+      error.define_singleton_method(:body) { text }
+      error.define_singleton_method(:reason) { 'Invalid JSON payload' }
+      error.define_singleton_method(:parse_error) { parse_error }
+      raise error
+    end
+
+    unless csv_like_payload?(text)
+      error = UnsupportedResponseFormatError.new('Unsupported response format')
+      error.define_singleton_method(:body) { text }
+      error.define_singleton_method(:reason) { 'Unsupported response format' }
+      error.define_singleton_method(:parse_error) { parse_error }
+      raise error
+    end
+
+    rows = CSV.parse(text, headers: true)
     rows.map(&:to_h)
+  rescue CSV::MalformedCSVError
+    error = UnsupportedResponseFormatError.new('Unsupported response format')
+    error.define_singleton_method(:body) { text }
+    error.define_singleton_method(:reason) { 'Unsupported response format' }
+    raise error
+  end
+
+  def csv_like_payload?(body)
+    lines = body.to_s.lines.map(&:strip).reject(&:empty?)
+    return false if lines.empty?
+
+    first_line = lines.first
+    return true if first_line.include?(',') || first_line.include?(';') || first_line.include?("\t")
+
+    false
+  end
+
+  def response_snippet(body, include_non_empty_lines: false)
+    return '(empty response)' if body.to_s.strip.empty?
+
+    snippet = body.to_s.lines.first.to_s.strip[0, 200]
+    return snippet unless include_non_empty_lines
+
+    lines = body.to_s.lines.map(&:strip).reject(&:empty?).first(2).map { |line| line[0, 200] }
+    return snippet if lines.empty?
+
+    "#{snippet} | #{lines.join(' | ')}"
   end
 
   def safe_load_yaml_file(path)
@@ -970,6 +1034,25 @@ class EtdaThaicertImporter
   def load_pages
     Dir.glob(File.join(PAGE_DIR, '*.md')).each_with_object({}) do |path, pages|
       pages[path] = parse_page(path)
+    rescue RuntimeError => e
+      raise if @options[:strict_pages]
+
+      @page_parse_warnings ||= []
+      @page_parse_warnings << { path: path, error: concise_page_parse_error(e.message) }
+    end
+  end
+
+  def concise_page_parse_error(message)
+    message.to_s.split("\n").first.to_s.strip
+  end
+
+  def print_page_warning_summary
+    warnings = Array(@page_parse_warnings)
+    return if warnings.empty?
+
+    warn "Page parse warnings: #{warnings.length} malformed existing page(s) skipped"
+    warnings.each do |entry|
+      warn "  - #{entry[:path]}: #{entry[:error]}"
     end
   end
 

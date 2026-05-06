@@ -1,0 +1,15 @@
+name: "Xorist"
+aliases: ["Xorist"]
+description: "Ransomware encrypted files will still have the original non-encrypted header of 0x33 bytes length"
+url: "/xorist"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "0a15a920-9876-4985-9d3d-bb0794722258"
+    source_record_ids: ["0a15a920-9876-4985-9d3d-bb0794722258"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

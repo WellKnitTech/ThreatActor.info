@@ -10,7 +10,11 @@ permalink: /anonymous64/
 Anonymous 64 is a group accused by China's national security ministry of attempting to gain control of web portals, outdoor electronic screens, and network television. The Ministry of State Security claims that Anonymous 64 is linked to a cyber unit within Taiwan's defense ministry and identifies three active-duty military personnel as its members. The MSS alleges that the group is involved in an influence operation within China, using hacktivism as a cover. The accusations suggest that Anonymous 64 engages in sabotage activities, prompting authorities to call for public reporting of such actions.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ Taiwan
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -27,7 +31,8 @@ Anonymous 64 is a group accused by China's national security ministry of attempt
 - **Cyber Eye RAT**
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Taiwan
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

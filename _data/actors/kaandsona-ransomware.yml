@@ -1,0 +1,15 @@
+name: "Kaandsona Ransomware"
+aliases: ["RansomTroll Ransomware","Käändsõna Ransomware","Kaandsona Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc.. The word Kaandsona is Estonian, therefore the creator is probably from Estonia. Crashes before it encrypts"
+url: "/kaandsona-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes","ransomnotes-refs","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "aed61a0a-dc48-43ac-9c33-27e5a286899e"
+    source_record_ids: ["aed61a0a-dc48-43ac-9c33-27e5a286899e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

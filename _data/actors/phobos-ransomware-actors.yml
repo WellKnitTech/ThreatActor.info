@@ -1,0 +1,15 @@
+name: "Phobos Ransomware Actors"
+aliases: ["Phobos Ransomware Actors"]
+description: "This object represents a collection of MITRE ATT&CK® Techniques and other objects (Software and/or Campaigns) related to the Phobos ransomware-as-a-service (\"RaaS\") operation. Further background & contextual details can be found in the References tab below."
+url: "/phobos-ransomware-actors"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "f138c814-48c0-4638-a4d6-edc48e7ac23a"
+    source_record_ids: ["f138c814-48c0-4638-a4d6-edc48e7ac23a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

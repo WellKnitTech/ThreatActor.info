@@ -2,10 +2,24 @@ name: "ProCC"
 aliases: ["ProCC"]
 description: "ProCC is a threat actor targeting the hospitality sector with remote access Trojan malware. They use email attachments to exploit vulnerabilities like CVE-2017-0199 and deploy customized versions of RATs such as RevengeRAT, NjRAT, NanoCoreRAT, and 888 RAT. ProCC's malware is capable of collecting data from the clipboard and printer spooler, as well as capturing screenshots on infected machines."
 url: "/procc"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/procc"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["Trojan.Karagany","RemoteCMD","Trojan.Mebromi","jRAT","NJRat","Remote Utilities","RemotePC","NanoCore","Xploit","Revenge-RAT"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "procc"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/procc"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "c74f78d1-3728-4bb9-b84f-0e46d2e870b2"
   misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "c74f78d1-3728-4bb9-b84f-0e46d2e870b2"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["c74f78d1-3728-4bb9-b84f-0e46d2e870b2"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,18 @@
+name: "contfr"
+aliases: ["contfr"]
+description: "Launched around September 2024, ContFR is a French-speaking RaaS that uses a Tor-hosted platform to provide ransomware embedded in PDF files (targeting both Windows and macOS). The group offers a tiered subscription model—“TEST,” “BASIC,” and “ELITE”—allowing affiliates varying degrees of customization, offline capability, and support based on the package purchased. As of the latest reporting, no victims are publicly listed, though data leak publications likely require a subscription to access. The operation suggests an organized, business‑like structure, distinct from opportunistic one‑off strains."
+url: "/contfr"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RIPTIDE"
+  - name: "Windows Remote Desktop"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c80f73e8-4da4-5ec3-af7e-157f06c94086"
+    source_record_ids: ["c80f73e8-4da4-5ec3-af7e-157f06c94086"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

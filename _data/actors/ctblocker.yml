@@ -1,0 +1,20 @@
+name: "ctblocker"
+aliases: ["ctblocker"]
+description: "aka Critroni\r<br/>CTB‑Locker emerged in mid‑2014, introducing a new era of ransomware by leveraging elliptic curve cryptography (ECC), Tor-based C&C communication, and Bitcoin payments—earning its name from “Curve-Tor-Bitcoin Locker.” It was packaged and sold as a ransomware kit for approximately $1,500–$3,000, allowing affiliates to deploy customized campaigns. The malware encrypts user data (including network and removable drives), changes desktop wallpapers, and appends file extensions like .CTBL, .CTB2, or randomized strings. Victims receive instructions for payment, typically within a limited timeframe, or risk permanent data loss. In 2015–2017, law enforcement and cybersecurity firms (including McAfee and Kaspersky) disrupted the network, arrested operators, and facilitated decryption tools."
+url: "/ctblocker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+  - name: "DesktopNow"
+  - name: "GraphicBooting"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "7efacd48-a8ce-5826-ab91-4c26c1c1bad8"
+    source_record_ids: ["7efacd48-a8ce-5826-ab91-4c26c1c1bad8"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

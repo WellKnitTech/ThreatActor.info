@@ -1,0 +1,14 @@
+name: "CryptoMix-Pirate"
+aliases: ["CryptoMix-Pirate"]
+description: "Ransomware"
+url: "/cryptomix-pirate"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "312c93ae-9405-445b-be11-2d0e4aec4f84"
+    source_record_ids: ["312c93ae-9405-445b-be11-2d0e4aec4f84"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

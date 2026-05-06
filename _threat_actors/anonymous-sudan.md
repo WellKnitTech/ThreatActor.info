@@ -29,7 +29,12 @@ Since January 23, 2023, a threat actor identifying as "Anonymous Sudan" has been
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **FLASHFLOOD**: 
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+- **GraphicBooting**: 
+- **Archelaus Beta**: 
+- **CrossRat**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

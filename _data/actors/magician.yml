@@ -1,0 +1,14 @@
+name: "Magician"
+aliases: ["Magician"]
+description: "ransomware"
+url: "/magician"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "7fe890f7-db7f-4cef-ad9f-9e44d445ef8a"
+    source_record_ids: ["7fe890f7-db7f-4cef-ad9f-9e44d445ef8a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

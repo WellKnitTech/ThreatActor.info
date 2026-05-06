@@ -1,0 +1,15 @@
+name: "DetoxCrypto"
+aliases: ["DetoxCrypto"]
+description: "Ransomware - Based on Detox: Calipso, We are all Pokemons, Nullbyte"
+url: "/detoxcrypto"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "be094d75-eba8-4ff3-91f1-f8cde687e5ed"
+    source_record_ids: ["be094d75-eba8-4ff3-91f1-f8cde687e5ed"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

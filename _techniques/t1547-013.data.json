@@ -1,0 +1,32 @@
+{
+  "mitre_id": "T1547.013",
+  "mitigations": [
+    {
+      "name": "Restrict File and Directory Permissions",
+      "mitre_id": "M1022",
+      "url": "https://attack.mitre.org/mitigations/M1022",
+      "stix_id": "course-of-action--987988f0-cf86-4680-a875-2f6456ab2448"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    },
+    {
+      "name": "Limit Software Installation",
+      "mitre_id": "M1033",
+      "url": "https://attack.mitre.org/mitigations/M1033",
+      "stix_id": "course-of-action--23843cff-f7b9-4659-a7b7-713ef347f547"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Contagious Interview",
+      "url": "/apt1052"
+    }
+  ]
+}

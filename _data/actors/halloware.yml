@@ -1,0 +1,15 @@
+name: "Halloware"
+aliases: ["Halloware"]
+description: "A malware author by the name of Luc1F3R is peddling a new ransomware strain called Halloware for the lowly price of $40. Based on evidence gathered by Bleeping Computer, Luc1F3R started selling his ransomware this week, beginning Thursday."
+url: "/halloware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b366627d-dbc0-45ba-90bc-5f5694f45e35"
+    source_record_ids: ["b366627d-dbc0-45ba-90bc-5f5694f45e35"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

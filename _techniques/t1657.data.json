@@ -1,0 +1,82 @@
+{
+  "mitre_id": "T1657",
+  "mitigations": [
+    {
+      "name": "User Training",
+      "mitre_id": "M1017",
+      "url": "https://attack.mitre.org/mitigations/M1017",
+      "stix_id": "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "INC Ransom",
+      "url": "/apt1032"
+    },
+    {
+      "name": "VOID MANTICORE",
+      "url": "/void-manticore"
+    },
+    {
+      "name": "Contagious Interview",
+      "url": "/apt1052"
+    },
+    {
+      "name": "Cinnamon Tempest",
+      "url": "/apt1021"
+    },
+    {
+      "name": "Malteiro",
+      "url": "/apt1026"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "FIN13",
+      "url": "/apt1016"
+    },
+    {
+      "name": "Storm-0501",
+      "url": "/apt1053"
+    },
+    {
+      "name": "AppleJeus",
+      "url": "/apt1049"
+    },
+    {
+      "name": "Akira",
+      "url": "/akira"
+    },
+    {
+      "name": "Scattered Spider",
+      "url": "/apt1015"
+    },
+    {
+      "name": "Medusa Group",
+      "url": "/apt1051"
+    },
+    {
+      "name": "Water Galura",
+      "url": "/apt1050"
+    },
+    {
+      "name": "SilverTerrier",
+      "url": "/apt0083"
+    },
+    {
+      "name": "Play",
+      "url": "/play"
+    }
+  ]
+}

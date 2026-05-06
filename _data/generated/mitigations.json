@@ -1,1 +1,1299 @@
-[]
+[
+  {
+    "title": "Authorization Enforcement",
+    "mitre_id": "M0800",
+    "permalink": "/mitigations/M0800/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0800",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Access Management",
+    "mitre_id": "M0801",
+    "permalink": "/mitigations/M0801/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0801",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Communication Authenticity",
+    "mitre_id": "M0802",
+    "permalink": "/mitigations/M0802/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0802",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Data Loss Prevention",
+    "mitre_id": "M0803",
+    "permalink": "/mitigations/M0803/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0803",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Human User Authentication",
+    "mitre_id": "M0804",
+    "permalink": "/mitigations/M0804/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0804",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Mechanical Protection Layers",
+    "mitre_id": "M0805",
+    "permalink": "/mitigations/M0805/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0805",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Minimize Wireless Signal Propagation",
+    "mitre_id": "M0806",
+    "permalink": "/mitigations/M0806/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0806",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Network Allowlists",
+    "mitre_id": "M0807",
+    "permalink": "/mitigations/M0807/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0807",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Encrypt Network Traffic",
+    "mitre_id": "M0808",
+    "permalink": "/mitigations/M0808/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0808",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Operational Information Confidentiality",
+    "mitre_id": "M0809",
+    "permalink": "/mitigations/M0809/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0809",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Out-of-Band Communications Channel",
+    "mitre_id": "M0810",
+    "permalink": "/mitigations/M0810/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0810",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Redundancy of Service",
+    "mitre_id": "M0811",
+    "permalink": "/mitigations/M0811/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0811",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Safety Instrumented Systems",
+    "mitre_id": "M0812",
+    "permalink": "/mitigations/M0812/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0812",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Software Process and Device Authentication",
+    "mitre_id": "M0813",
+    "permalink": "/mitigations/M0813/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0813",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Static Network Configuration",
+    "mitre_id": "M0814",
+    "permalink": "/mitigations/M0814/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0814",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Watchdog Timers",
+    "mitre_id": "M0815",
+    "permalink": "/mitigations/M0815/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0815",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Mitigation Limited or Not Effective",
+    "mitre_id": "M0816",
+    "permalink": "/mitigations/M0816/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0816",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Supply Chain Management",
+    "mitre_id": "M0817",
+    "permalink": "/mitigations/M0817/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0817",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Validate Program Inputs",
+    "mitre_id": "M0818",
+    "permalink": "/mitigations/M0818/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0818",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Application Developer Guidance",
+    "mitre_id": "M0913",
+    "permalink": "/mitigations/M0913/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0913",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Active Directory Configuration",
+    "mitre_id": "M0915",
+    "permalink": "/mitigations/M0915/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0915",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Vulnerability Scanning",
+    "mitre_id": "M0916",
+    "permalink": "/mitigations/M0916/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0916",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "User Training",
+    "mitre_id": "M0917",
+    "permalink": "/mitigations/M0917/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0917",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "User Account Management",
+    "mitre_id": "M0918",
+    "permalink": "/mitigations/M0918/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0918",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Threat Intelligence Program",
+    "mitre_id": "M0919",
+    "permalink": "/mitigations/M0919/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0919",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "SSL/TLS Inspection",
+    "mitre_id": "M0920",
+    "permalink": "/mitigations/M0920/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0920",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Restrict Web-Based Content",
+    "mitre_id": "M0921",
+    "permalink": "/mitigations/M0921/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0921",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Restrict File and Directory Permissions",
+    "mitre_id": "M0922",
+    "permalink": "/mitigations/M0922/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0922",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Restrict Registry Permissions",
+    "mitre_id": "M0924",
+    "permalink": "/mitigations/M0924/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0924",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Privileged Account Management",
+    "mitre_id": "M0926",
+    "permalink": "/mitigations/M0926/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0926",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Password Policies",
+    "mitre_id": "M0927",
+    "permalink": "/mitigations/M0927/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0927",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Operating System Configuration",
+    "mitre_id": "M0928",
+    "permalink": "/mitigations/M0928/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0928",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Network Segmentation",
+    "mitre_id": "M0930",
+    "permalink": "/mitigations/M0930/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0930",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Network Intrusion Prevention",
+    "mitre_id": "M0931",
+    "permalink": "/mitigations/M0931/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0931",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Multi-factor Authentication",
+    "mitre_id": "M0932",
+    "permalink": "/mitigations/M0932/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0932",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Limit Hardware Installation",
+    "mitre_id": "M0934",
+    "permalink": "/mitigations/M0934/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0934",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Limit Access to Resource Over Network",
+    "mitre_id": "M0935",
+    "permalink": "/mitigations/M0935/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0935",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Account Use Policies",
+    "mitre_id": "M0936",
+    "permalink": "/mitigations/M0936/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0936",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Filter Network Traffic",
+    "mitre_id": "M0937",
+    "permalink": "/mitigations/M0937/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0937",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Execution Prevention",
+    "mitre_id": "M0938",
+    "permalink": "/mitigations/M0938/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0938",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Encrypt Sensitive Information",
+    "mitre_id": "M0941",
+    "permalink": "/mitigations/M0941/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0941",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Disable or Remove Feature or Program",
+    "mitre_id": "M0942",
+    "permalink": "/mitigations/M0942/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0942",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Restrict Library Loading",
+    "mitre_id": "M0944",
+    "permalink": "/mitigations/M0944/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0944",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Code Signing",
+    "mitre_id": "M0945",
+    "permalink": "/mitigations/M0945/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0945",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Boot Integrity",
+    "mitre_id": "M0946",
+    "permalink": "/mitigations/M0946/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0946",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Audit",
+    "mitre_id": "M0947",
+    "permalink": "/mitigations/M0947/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0947",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Application Isolation and Sandboxing",
+    "mitre_id": "M0948",
+    "permalink": "/mitigations/M0948/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0948",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Antivirus/Antimalware",
+    "mitre_id": "M0949",
+    "permalink": "/mitigations/M0949/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0949",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Exploit Protection",
+    "mitre_id": "M0950",
+    "permalink": "/mitigations/M0950/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0950",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Update Software",
+    "mitre_id": "M0951",
+    "permalink": "/mitigations/M0951/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0951",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Data Backup",
+    "mitre_id": "M0953",
+    "permalink": "/mitigations/M0953/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0953",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Software Configuration",
+    "mitre_id": "M0954",
+    "permalink": "/mitigations/M0954/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M0954",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Security Updates",
+    "mitre_id": "M1001",
+    "permalink": "/mitigations/M1001/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1001",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Attestation",
+    "mitre_id": "M1002",
+    "permalink": "/mitigations/M1002/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1002",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Lock Bootloader",
+    "mitre_id": "M1003",
+    "permalink": "/mitigations/M1003/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1003",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "System Partition Integrity",
+    "mitre_id": "M1004",
+    "permalink": "/mitigations/M1004/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1004",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Use Recent OS Version",
+    "mitre_id": "M1006",
+    "permalink": "/mitigations/M1006/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1006",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Encrypt Network Traffic",
+    "mitre_id": "M1009",
+    "permalink": "/mitigations/M1009/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1009",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Deploy Compromised Device Detection Method",
+    "mitre_id": "M1010",
+    "permalink": "/mitigations/M1010/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1010",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "User Guidance",
+    "mitre_id": "M1011",
+    "permalink": "/mitigations/M1011/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1011",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Enterprise Policy",
+    "mitre_id": "M1012",
+    "permalink": "/mitigations/M1012/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1012",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Application Developer Guidance",
+    "mitre_id": "M1013",
+    "permalink": "/mitigations/M1013/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1013",
+    "domains": [
+      "enterprise",
+      "mobile"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Interconnection Filtering",
+    "mitre_id": "M1014",
+    "permalink": "/mitigations/M1014/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1014",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Active Directory Configuration",
+    "mitre_id": "M1015",
+    "permalink": "/mitigations/M1015/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1015",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Vulnerability Scanning",
+    "mitre_id": "M1016",
+    "permalink": "/mitigations/M1016/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1016",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "User Training",
+    "mitre_id": "M1017",
+    "permalink": "/mitigations/M1017/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1017",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "User Account Management",
+    "mitre_id": "M1018",
+    "permalink": "/mitigations/M1018/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1018",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Threat Intelligence Program",
+    "mitre_id": "M1019",
+    "permalink": "/mitigations/M1019/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1019",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "SSL/TLS Inspection",
+    "mitre_id": "M1020",
+    "permalink": "/mitigations/M1020/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1020",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Restrict Web-Based Content",
+    "mitre_id": "M1021",
+    "permalink": "/mitigations/M1021/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1021",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Restrict File and Directory Permissions",
+    "mitre_id": "M1022",
+    "permalink": "/mitigations/M1022/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1022",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Restrict Registry Permissions",
+    "mitre_id": "M1024",
+    "permalink": "/mitigations/M1024/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1024",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Privileged Process Integrity",
+    "mitre_id": "M1025",
+    "permalink": "/mitigations/M1025/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1025",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Privileged Account Management",
+    "mitre_id": "M1026",
+    "permalink": "/mitigations/M1026/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1026",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Password Policies",
+    "mitre_id": "M1027",
+    "permalink": "/mitigations/M1027/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1027",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Operating System Configuration",
+    "mitre_id": "M1028",
+    "permalink": "/mitigations/M1028/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1028",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Remote Data Storage",
+    "mitre_id": "M1029",
+    "permalink": "/mitigations/M1029/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1029",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Network Segmentation",
+    "mitre_id": "M1030",
+    "permalink": "/mitigations/M1030/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1030",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Network Intrusion Prevention",
+    "mitre_id": "M1031",
+    "permalink": "/mitigations/M1031/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1031",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Multi-factor Authentication",
+    "mitre_id": "M1032",
+    "permalink": "/mitigations/M1032/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1032",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Limit Software Installation",
+    "mitre_id": "M1033",
+    "permalink": "/mitigations/M1033/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1033",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Limit Hardware Installation",
+    "mitre_id": "M1034",
+    "permalink": "/mitigations/M1034/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1034",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Limit Access to Resource Over Network",
+    "mitre_id": "M1035",
+    "permalink": "/mitigations/M1035/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1035",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Account Use Policies",
+    "mitre_id": "M1036",
+    "permalink": "/mitigations/M1036/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1036",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Filter Network Traffic",
+    "mitre_id": "M1037",
+    "permalink": "/mitigations/M1037/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1037",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Execution Prevention",
+    "mitre_id": "M1038",
+    "permalink": "/mitigations/M1038/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1038",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Environment Variable Permissions",
+    "mitre_id": "M1039",
+    "permalink": "/mitigations/M1039/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1039",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Behavior Prevention on Endpoint",
+    "mitre_id": "M1040",
+    "permalink": "/mitigations/M1040/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1040",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Encrypt Sensitive Information",
+    "mitre_id": "M1041",
+    "permalink": "/mitigations/M1041/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1041",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Disable or Remove Feature or Program",
+    "mitre_id": "M1042",
+    "permalink": "/mitigations/M1042/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1042",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Credential Access Protection",
+    "mitre_id": "M1043",
+    "permalink": "/mitigations/M1043/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1043",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Restrict Library Loading",
+    "mitre_id": "M1044",
+    "permalink": "/mitigations/M1044/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1044",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Code Signing",
+    "mitre_id": "M1045",
+    "permalink": "/mitigations/M1045/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1045",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Boot Integrity",
+    "mitre_id": "M1046",
+    "permalink": "/mitigations/M1046/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1046",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Audit",
+    "mitre_id": "M1047",
+    "permalink": "/mitigations/M1047/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1047",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Application Isolation and Sandboxing",
+    "mitre_id": "M1048",
+    "permalink": "/mitigations/M1048/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1048",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Antivirus/Antimalware",
+    "mitre_id": "M1049",
+    "permalink": "/mitigations/M1049/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1049",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Exploit Protection",
+    "mitre_id": "M1050",
+    "permalink": "/mitigations/M1050/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1050",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Update Software",
+    "mitre_id": "M1051",
+    "permalink": "/mitigations/M1051/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1051",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "User Account Control",
+    "mitre_id": "M1052",
+    "permalink": "/mitigations/M1052/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1052",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Data Backup",
+    "mitre_id": "M1053",
+    "permalink": "/mitigations/M1053/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1053",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Software Configuration",
+    "mitre_id": "M1054",
+    "permalink": "/mitigations/M1054/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1054",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Do Not Mitigate",
+    "mitre_id": "M1055",
+    "permalink": "/mitigations/M1055/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1055",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Pre-compromise",
+    "mitre_id": "M1056",
+    "permalink": "/mitigations/M1056/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1056",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Data Loss Prevention",
+    "mitre_id": "M1057",
+    "permalink": "/mitigations/M1057/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1057",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Antivirus/Antimalware",
+    "mitre_id": "M1058",
+    "permalink": "/mitigations/M1058/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1058",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Do Not Mitigate",
+    "mitre_id": "M1059",
+    "permalink": "/mitigations/M1059/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1059",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  },
+  {
+    "title": "Out-of-Band Communications Channel",
+    "mitre_id": "M1060",
+    "permalink": "/mitigations/M1060/",
+    "mitre_url": "https://attack.mitre.org/mitigations/M1060",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "mitigation"
+  }
+]

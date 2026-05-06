@@ -1,0 +1,18 @@
+name: "d0glun"
+aliases: ["d0glun"]
+description: "D0glun is a crypto-ransomware strain first observed in January 2025, believed to be derived from Babuk via an intermediary variant known as Cheng Xilun. It uses AES-256 symmetric encryption and appends filenames with patterns such as .@D0glun@<original extension> or similar. The malware encrypts files rapidly, changes the desktop wallpaper, and drops ransom notes typically named @[email protected], Desktopcxl.txt, or help.exe. The campaign has shown signs of shared infrastructure and code reuse from Cheng Xilun, but there is no confirmed evidence of a large-scale or mature operation. Its activity so far suggests it is being tested or deployed by a small group or individual rather than a structured affiliate network."
+url: "/d0glun"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Small-Net"
+  - name: "DesktopNow"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "5d4498ab-38a6-5096-8a44-ba33eb4b786e"
+    source_record_ids: ["5d4498ab-38a6-5096-8a44-ba33eb4b786e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,16 @@
+name: "National Directorate of Information and Intelligence - Dirección Nacional de Información e Inteligencia (DNII)"
+aliases: ["National Directorate of Information and Intelligence - Dirección Nacional de Información e Inteligencia (DNII)"]
+description: "National Directorate of Information and Intelligence - Dirección Nacional de Información e Inteligencia (DNII)"
+url: "/national-directorate-of-information-and-intelligence-direcci-n-nacional-de-informaci-n-e-inteligencia-dnii"
+country: "Uruguay"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "d2444c08-f883-56d7-acd3-26e16c9b3f6f"
+    source_record_ids: ["d2444c08-f883-56d7-acd3-26e16c9b3f6f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

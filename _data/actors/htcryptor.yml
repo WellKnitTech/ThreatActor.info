@@ -1,0 +1,17 @@
+name: "HTCryptor"
+aliases: ["HTCryptor"]
+description: "Ransomware Includes a feature to disable the victim's windows firewall Modified in-dev HiddenTear"
+url: "/htcryptor"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Windows Remote Desktop"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "728aecfc-9b99-478f-a0a3-8c0fb6896353"
+    source_record_ids: ["728aecfc-9b99-478f-a0a3-8c0fb6896353"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

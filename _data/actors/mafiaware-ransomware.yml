@@ -1,0 +1,15 @@
+name: "MafiaWare Ransomware"
+aliases: ["Depsex Ransomware","MafiaWare Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc.. Ransom is 155$ inbitcoins. Creator of ransomware is called Mafia. Based on HiddenTear"
+url: "/mafiaware-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e5a60429-ae5d-46f4-a731-da9e2fcf8b92"
+    source_record_ids: ["e5a60429-ae5d-46f4-a731-da9e2fcf8b92"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

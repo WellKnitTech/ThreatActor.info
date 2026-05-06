@@ -1,0 +1,192 @@
+{
+  "mitre_id": "T1016",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+    {
+      "id": "T1016.002",
+      "name": "Wi-Fi Discovery",
+      "permalink": "/techniques/T1016.002/"
+    },
+    {
+      "id": "T1016.001",
+      "name": "Internet Connection Discovery",
+      "permalink": "/techniques/T1016.001/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "HEXANE",
+      "url": "/apt1001"
+    },
+    {
+      "name": "Mustang Panda",
+      "url": "/apt0129"
+    },
+    {
+      "name": "Play",
+      "url": "/play"
+    },
+    {
+      "name": "BlackByte",
+      "url": "/apt1043"
+    },
+    {
+      "name": "Dragonfly",
+      "url": "/apt0035"
+    },
+    {
+      "name": "admin@338",
+      "url": "/apt0018"
+    },
+    {
+      "name": "Lotus Blossom",
+      "url": "/apt0030"
+    },
+    {
+      "name": "Moses Staff",
+      "url": "/apt1009"
+    },
+    {
+      "name": "APT19",
+      "url": "/apt0073"
+    },
+    {
+      "name": "FIN13",
+      "url": "/apt1016"
+    },
+    {
+      "name": "Volt Typhoon",
+      "url": "/apt1017"
+    },
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    },
+    {
+      "name": "APT3",
+      "url": "/apt0022"
+    },
+    {
+      "name": "MuddyWater",
+      "url": "/apt0069"
+    },
+    {
+      "name": "menuPass",
+      "url": "/apt0045"
+    },
+    {
+      "name": "SideCopy",
+      "url": "/apt1008"
+    },
+    {
+      "name": "Stealth Falcon",
+      "url": "/apt0038"
+    },
+    {
+      "name": "APT1",
+      "url": "/apt1"
+    },
+    {
+      "name": "Tropic Trooper",
+      "url": "/apt0081"
+    },
+    {
+      "name": "Threat Group-3390",
+      "url": "/apt0027"
+    },
+    {
+      "name": "Ke3chang",
+      "url": "/apt0004"
+    },
+    {
+      "name": "Scattered Spider",
+      "url": "/apt1015"
+    },
+    {
+      "name": "Naikon",
+      "url": "/apt0019"
+    },
+    {
+      "name": "APT42",
+      "url": "/apt1044"
+    },
+    {
+      "name": "MirrorFace",
+      "url": "/mirrorface"
+    },
+    {
+      "name": "Chimera",
+      "url": "/apt0114"
+    },
+    {
+      "name": "Magic Hound",
+      "url": "/apt35"
+    },
+    {
+      "name": "Sidewinder",
+      "url": "/apt0121"
+    },
+    {
+      "name": "Turla",
+      "url": "/apt0010"
+    },
+    {
+      "name": "Wizard Spider",
+      "url": "/wizard-spider"
+    },
+    {
+      "name": "TeamTNT",
+      "url": "/apt0139"
+    },
+    {
+      "name": "APT41",
+      "url": "/apt41"
+    },
+    {
+      "name": "GALLIUM",
+      "url": "/apt0093"
+    },
+    {
+      "name": "Moonstone Sleet",
+      "url": "/apt1036"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Darkhotel",
+      "url": "/apt0012"
+    },
+    {
+      "name": "HAFNIUM",
+      "url": "/apt0125"
+    },
+    {
+      "name": "APT32",
+      "url": "/apt32"
+    },
+    {
+      "name": "Higaisa",
+      "url": "/apt0126"
+    },
+    {
+      "name": "OilRig",
+      "url": "/apt34"
+    },
+    {
+      "name": "Earth Lusca",
+      "url": "/apt1006"
+    },
+    {
+      "name": "Medusa Group",
+      "url": "/apt1051"
+    },
+    {
+      "name": "ZIRCONIUM",
+      "url": "/apt0128"
+    }
+  ]
+}

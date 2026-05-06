@@ -1,0 +1,14 @@
+name: "Smaug"
+aliases: ["Smaug"]
+description: "ransomware"
+url: "/smaug"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "78541326-4aaa-4eda-8f55-bf21bb2537ab"
+    source_record_ids: ["78541326-4aaa-4eda-8f55-bf21bb2537ab"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

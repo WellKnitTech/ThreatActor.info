@@ -1,0 +1,17 @@
+name: "SyncCrypt"
+aliases: ["SyncCrypt"]
+description: "A new ransomware called SyncCrypt was discovered by Emsisoft security researcher xXToffeeXx that is being distributed by spam attachments containing WSF files. When installed these attachments will encrypt a computer and append the .kk extension to encrypted files."
+url: "/synccrypt"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Archelaus Beta"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "83d10b83-9038-4dd6-b305-f14c21478588"
+    source_record_ids: ["83d10b83-9038-4dd6-b305-f14c21478588"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,14 @@
+name: "Fastwind"
+aliases: ["Fastwind"]
+description: "ransomware"
+url: "/fastwind"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "db954a2d-4602-4722-977d-3b147ebc1858"
+    source_record_ids: ["db954a2d-4602-4722-977d-3b147ebc1858"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

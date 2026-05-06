@@ -1,0 +1,14 @@
+name: "CryptoApp"
+aliases: ["CryptoApp"]
+description: "Ransomware"
+url: "/cryptoapp"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "7864b740-8f71-43f0-afa8-585a12dd7a8b"
+    source_record_ids: ["7864b740-8f71-43f0-afa8-585a12dd7a8b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

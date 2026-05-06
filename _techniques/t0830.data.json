@@ -1,0 +1,59 @@
+{
+  "mitre_id": "T0830",
+  "mitigations": [
+    {
+      "name": "Network Segmentation",
+      "mitre_id": "M0930",
+      "url": "https://attack.mitre.org/mitigations/M0930",
+      "stix_id": "course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291"
+    },
+    {
+      "name": "Out-of-Band Communications Channel",
+      "mitre_id": "M0810",
+      "url": "https://attack.mitre.org/mitigations/M0810",
+      "stix_id": "course-of-action--b11cad63-ef30-4eb8-af0d-6cc46eef3f3e"
+    },
+    {
+      "name": "Software Process and Device Authentication",
+      "mitre_id": "M0813",
+      "url": "https://attack.mitre.org/mitigations/M0813",
+      "stix_id": "course-of-action--72e46e53-e12d-4106-9c70-33241b6ed549"
+    },
+    {
+      "name": "Static Network Configuration",
+      "mitre_id": "M0814",
+      "url": "https://attack.mitre.org/mitigations/M0814",
+      "stix_id": "course-of-action--52c7a1a9-3a78-4528-a44f-cd7b0fa3541a"
+    },
+    {
+      "name": "Network Intrusion Prevention",
+      "mitre_id": "M0931",
+      "url": "https://attack.mitre.org/mitigations/M0931",
+      "stix_id": "course-of-action--3172222b-4983-43f7-8983-753ded4f13bc"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M0947",
+      "url": "https://attack.mitre.org/mitigations/M0947",
+      "stix_id": "course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697"
+    },
+    {
+      "name": "Disable or Remove Feature or Program",
+      "mitre_id": "M0942",
+      "url": "https://attack.mitre.org/mitigations/M0942",
+      "stix_id": "course-of-action--d0909119-2f71-4923-87db-b649881672d7"
+    },
+    {
+      "name": "Communication Authenticity",
+      "mitre_id": "M0802",
+      "url": "https://attack.mitre.org/mitigations/M0802",
+      "stix_id": "course-of-action--c7257b6e-4159-4771-b1f3-2bb93adaecac"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

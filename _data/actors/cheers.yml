@@ -1,0 +1,20 @@
+name: "Cheers"
+aliases: ["Cheers"]
+description: "Cheers is a Linux-based ransomware variant observed starting in May 2022, engineered specifically to target VMware ESXi servers. The malware was developed from leaked Babuk ransomware source code and leverages the SOSEMANUK stream cipher combined with ECDH key exchange for encryption. It terminates all running virtual machines before renaming and encrypting log files and VM-related extensions—like .vmdk, .vmsn, and .vswp—appending a .Cheers extension. A ransom note titled \"How To Restore Your Files.txt\" is dropped per directory. The ransomware is attributed to the Chinese-affiliated group BRONZE STARLIGHT (also known as Emperor Dragonfly, DEV-0401), which has previously deployed other strains like Rook, NightSky, and Pandora. Cheers targets a range of industry sectors, with confirmed victims across healthcare, finance, logistics, and manufacturing."
+url: "/cheers"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Starloader"
+  - name: "StreamEx"
+  - name: "Pandora"
+  - name: "CrossRat"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "eac9a5d5-509b-421a-a2d2-d91f7b27383a"
+    source_record_ids: ["eac9a5d5-509b-421a-a2d2-d91f7b27383a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

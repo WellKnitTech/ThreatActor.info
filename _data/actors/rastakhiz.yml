@@ -1,0 +1,15 @@
+name: "RASTAKHIZ"
+aliases: ["RASTAKHIZ"]
+description: "Hidden Tear variant discovered in October 2016. After activation, provides victims with an unlimited amount of time to gather the requested ransom money and pay it. Related unlock keys and the response sent to and from a Gmail addres"
+url: "/rastakhiz"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "884eaa14-9ba8-11e8-a6ec-7f903f720e60"
+    source_record_ids: ["884eaa14-9ba8-11e8-a6ec-7f903f720e60"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

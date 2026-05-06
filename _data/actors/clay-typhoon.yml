@@ -1,0 +1,18 @@
+name: "Clay Typhoon"
+aliases: ["Storm-2416","Clay Typhoon"]
+description: "Microsoft threat actor profile. Origin/Threat: China."
+url: "/clay-typhoon"
+country: "China"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "China Chopper"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","microsoft-origin-threat","refs","synonyms"]
+    source_cluster: "microsoft-activity-group.json"
+    source_clusters: ["microsoft-activity-group.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
+    source_record_id: "5730cf0f-286d-5f10-9eb0-e5242ec87f08"
+    source_record_ids: ["5730cf0f-286d-5f10-9eb0-e5242ec87f08"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

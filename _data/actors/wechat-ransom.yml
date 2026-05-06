@@ -1,0 +1,17 @@
+name: "WeChat Ransom"
+aliases: ["UNNAMED1989","WeChat Ransom"]
+description: "Over 100,000 thousand computers in China have been infected in just a few days with poorly-written ransomware that encrypts local files and steals credentials for multiple Chinese online services. The crooks show a screen titled UNNAMED1989 and demand the victim a ransom of 110 yuan ($16) in exchange for decrypting the files, payable via Tencent's WeChat payment service by scanning a QR code."
+url: "/wechat-ransom"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "China Chopper"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b2aa807d-98fa-48e4-927b-4e81a50736e5"
+    source_record_ids: ["b2aa807d-98fa-48e4-927b-4e81a50736e5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

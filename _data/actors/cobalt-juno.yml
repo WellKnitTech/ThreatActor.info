@@ -2,10 +2,24 @@ name: "COBALT JUNO"
 aliases: ["APT-C-38 (QiAnXin)","SABER LION","TG-2884 (SCWX CTU)","COBALT JUNO"]
 description: "COBALT JUNO has operated since at least 2013 and focused on targets located in the Middle East including Iran, Jordan, Egypt & Lebanon. COBALT JUNO custom spyware families SABER1 and SABER2, include surveillance functionality and masquerade as legitimate software utilities such as Adobe Updater, StickyNote and ASKDownloader. CTU researchers assess with moderate confidence that COBALT JUNO operated the ZooPark Android spyware since at least mid-2015. ZooPark was publicly exposed in 2018 in both vendor reporting and a high profile leak of C2 server data. COBALT JUNO is linked to a private security company in Iran and outsources aspects of tool development work to commercial software developers. CTU researchers have observed the group using strategic web compromises to deliver malware. CTU researchers’ discovery of new C2 domains in 2019 suggest the group is still actively performing operations."
 url: "/cobalt-juno"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/cobalt_juno"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["DroidJack","Androrat","Archelaus Beta","Cobalt Strike"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "cobalt_juno"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/cobalt_juno"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "4687e1ab-a361-4165-b142-00845f4b2c62"
   misp_galaxy:
+    meta_keys: ["origin:APT-C-38 (QiAnXin)","refs","synonyms"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "4687e1ab-a361-4165-b142-00845f4b2c62"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["4687e1ab-a361-4165-b142-00845f4b2c62"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

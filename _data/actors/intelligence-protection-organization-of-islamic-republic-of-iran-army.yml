@@ -1,0 +1,16 @@
+name: "Intelligence Protection Organization of Islamic Republic of Iran Army"
+aliases: ["Intelligence Protection Organization of Islamic Republic of Iran Army"]
+description: "Intelligence Protection Organization of Iranian Army (SAHEFAJA)"
+url: "/intelligence-protection-organization-of-islamic-republic-of-iran-army"
+country: "Iran"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "cd5ef58f-9a97-5e28-af27-d132b321e01a"
+    source_record_ids: ["cd5ef58f-9a97-5e28-af27-d132b321e01a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

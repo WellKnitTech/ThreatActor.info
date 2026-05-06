@@ -1,0 +1,23 @@
+{
+  "mitre_id": "T1461",
+  "mitigations": [
+    {
+      "name": "Enterprise Policy",
+      "mitre_id": "M1012",
+      "url": "https://attack.mitre.org/mitigations/M1012",
+      "stix_id": "course-of-action--649f7268-4c12-483b-ac84-4b7bca9fe2ee"
+    },
+    {
+      "name": "Security Updates",
+      "mitre_id": "M1001",
+      "url": "https://attack.mitre.org/mitigations/M1001",
+      "stix_id": "course-of-action--bcecd036-f40e-4916-9f8e-fd0ccf0ece8d"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

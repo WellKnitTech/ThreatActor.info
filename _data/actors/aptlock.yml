@@ -1,0 +1,18 @@
+name: "aptlock"
+aliases: ["aptlock"]
+description: "Aptlock surfaced in early 2025 and is characterized by a single-extortion model combined with threats of data leakage. The ransomware encrypts files on Windows systems, appending the extension .aptlock, and then changes the victim’s desktop wallpaper. Victims receive a ransom note named read_me_to_access.txt informing them that their critical company data has been exfiltrated and will be deleted or leaked if they don’t act. They are given 72 hours to initiate contact via Tor-based chat access (using credentials provided in the note), with further warnings issued if no engagement occurs within 5 days. Specific details about intrusion vectors, encryption algorithms used, or known affiliate operators remain undisclosed in public threat intelligence. No reliable evidence links Aptlock to Ransomware-as-a-Service operations or lists any known affiliates."
+url: "/aptlock"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Windows Remote Desktop"
+  - name: "DesktopNow"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c4f6eca3-75e5-582d-8ff9-c2fee7ad05bc"
+    source_record_ids: ["c4f6eca3-75e5-582d-8ff9-c2fee7ad05bc"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

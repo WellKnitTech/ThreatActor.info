@@ -1,0 +1,18 @@
+name: "Bl00dy Ransomware Gang"
+aliases: ["Bl00dy Ransomware Gang"]
+description: "Bl00dy self-identifies as a ransomware group. It gained attention in May 2023 for a series of data exfiltration and encryption attacks against education entities in the United States that featured exploit of vulnerabilities in PaperCut print management software, which is prevalent in the sector.<sup>[[U.S. CISA PaperCut May 2023](/references/b5ef2b97-7cc7-470b-ae97-a45dc4af32a6)]</sup>\n\n**Related Vulnerabilities**: CVE-2023-27350<sup>[[U.S. CISA PaperCut May 2023](/references/b5ef2b97-7cc7-470b-ae97-a45dc4af32a6)]</sup>"
+url: "/bl00dy-ransomware-gang"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "UNITEDRAKE"
+  - name: "Xploit"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "393da13e-016c-41a3-9d89-b33173adecbf"
+    source_record_ids: ["393da13e-016c-41a3-9d89-b33173adecbf"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

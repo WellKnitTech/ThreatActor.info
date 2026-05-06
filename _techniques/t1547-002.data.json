@@ -1,0 +1,17 @@
+{
+  "mitre_id": "T1547.002",
+  "mitigations": [
+    {
+      "name": "Privileged Process Integrity",
+      "mitre_id": "M1025",
+      "url": "https://attack.mitre.org/mitigations/M1025",
+      "stix_id": "course-of-action--72dade3e-1cba-4182-b3b3-a77ca52f02a1"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

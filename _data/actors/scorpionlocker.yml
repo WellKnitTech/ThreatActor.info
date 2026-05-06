@@ -1,0 +1,14 @@
+name: "ScorpionLocker"
+aliases: ["ScorpionLocker"]
+description: "ransomware"
+url: "/scorpionlocker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "4b6bea32-12bd-4ede-8912-f9037be3b454"
+    source_record_ids: ["4b6bea32-12bd-4ede-8912-f9037be3b454"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

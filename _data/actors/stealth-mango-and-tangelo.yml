@@ -9,6 +9,9 @@ incident_type: "Espionage"
 risk_level: "High"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/_stealth_mango_and_tangelo_"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware:
   - "UNITEDRAKE"
   - name: "Stealth Mango"
@@ -17,9 +20,19 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.lookout.com/documents/reports/lookout-stealth-mango-srr-us.pdf"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "others"
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "_stealth_mango_and_tangelo_"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/_stealth_mango_and_tangelo_"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "f82b352e-a9f8-11e8-8be8-fbcf6eddd58c"
   misp_galaxy:
+    meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "f82b352e-a9f8-11e8-8be8-fbcf6eddd58c"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["f82b352e-a9f8-11e8-8be8-fbcf6eddd58c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

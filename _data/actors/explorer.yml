@@ -1,0 +1,26 @@
+name: "Explorer"
+aliases: ["Explorer"]
+description: "Ransomware"
+url: "/explorer"
+first_seen: "2014"
+last_activity: "2014"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  aptnotes:
+    earliest_report_year: "2014"
+    latest_report_year: "2014"
+    report_count: 1
+    sample_links: ["https://app.box.com/s/5epjx7i7fc3q8jh8o4exabquoar1s3ii"]
+    sample_titles: ["New Zero-Day Exploit Targeting Internet Explorer Versions 9 Through 11 Identified In Targeted Attacks"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["FireEye"]
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "7b9fa522-8db4-4b29-adcf-7c01c21c39b4"
+    source_record_ids: ["7b9fa522-8db4-4b29-adcf-7c01c21c39b4"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

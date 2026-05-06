@@ -1,0 +1,15 @@
+name: "Virus-Encoder"
+aliases: ["CrySiS","Virus-Encoder"]
+description: "Ransomware"
+url: "/virus-encoder"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","links","payment-method","price","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "15a30d84-4f5f-4b75-a162-e36107d30215"
+    source_record_ids: ["15a30d84-4f5f-4b75-a162-e36107d30215"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

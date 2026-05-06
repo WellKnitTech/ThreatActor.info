@@ -1,0 +1,16 @@
+name: "National Centre for Counter Terrorism"
+aliases: ["Coordination nationale du renseignement et de la lutte contre le terrorisme","National Centre for Counter Terrorism"]
+description: "National Centre for Counter Terrorism (CNRLT, Coordination nationale du renseignement et de la lutte contre le terrorisme)"
+url: "/national-centre-for-counter-terrorism"
+country: "France"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "9173a4a8-f66e-5257-98f0-774ff06c3f11"
+    source_record_ids: ["9173a4a8-f66e-5257-98f0-774ff06c3f11"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

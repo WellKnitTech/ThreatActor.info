@@ -1,0 +1,14 @@
+name: "Dishwasher"
+aliases: ["Dishwasher"]
+description: "Ransomware"
+url: "/dishwasher"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "a3ea2517-9e89-4088-9433-6091f29b8a22"
+    source_record_ids: ["a3ea2517-9e89-4088-9433-6091f29b8a22"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

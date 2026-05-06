@@ -1,0 +1,16 @@
+name: "Directorate of Intelligence, RTAF (INTELLRTAF)"
+aliases: ["Directorate of Intelligence, RTAF (INTELLRTAF)"]
+description: "Directorate of Intelligence, RTAF (INTELLRTAF)"
+url: "/directorate-of-intelligence-rtaf-intellrtaf"
+country: "Thailand"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "b26ab2d1-4fc3-5f4d-9e4e-9c4cc0b45c79"
+    source_record_ids: ["b26ab2d1-4fc3-5f4d-9e4e-9c4cc0b45c79"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

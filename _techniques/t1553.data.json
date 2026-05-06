@@ -1,0 +1,73 @@
+{
+  "mitre_id": "T1553",
+  "mitigations": [
+    {
+      "name": "Execution Prevention",
+      "mitre_id": "M1038",
+      "url": "https://attack.mitre.org/mitigations/M1038",
+      "stix_id": "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db"
+    },
+    {
+      "name": "Operating System Configuration",
+      "mitre_id": "M1028",
+      "url": "https://attack.mitre.org/mitigations/M1028",
+      "stix_id": "course-of-action--2f316f6c-ae42-44fe-adf8-150989e0f6d3"
+    },
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M1026",
+      "url": "https://attack.mitre.org/mitigations/M1026",
+      "stix_id": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f"
+    },
+    {
+      "name": "Restrict Registry Permissions",
+      "mitre_id": "M1024",
+      "url": "https://attack.mitre.org/mitigations/M1024",
+      "stix_id": "course-of-action--a2c36a5d-4058-475e-8e77-fff75e50d3b9"
+    },
+    {
+      "name": "Software Configuration",
+      "mitre_id": "M1054",
+      "url": "https://attack.mitre.org/mitigations/M1054",
+      "stix_id": "course-of-action--b5dbb4c5-b0b1-40b1-80b6-e9e84ab90067"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1553.005",
+      "name": "Mark-of-the-Web Bypass",
+      "permalink": "/techniques/T1553.005/"
+    },
+    {
+      "id": "T1553.002",
+      "name": "Code Signing",
+      "permalink": "/techniques/T1553.002/"
+    },
+    {
+      "id": "T1553.004",
+      "name": "Install Root Certificate",
+      "permalink": "/techniques/T1553.004/"
+    },
+    {
+      "id": "T1553.003",
+      "name": "SIP and Trust Provider Hijacking",
+      "permalink": "/techniques/T1553.003/"
+    },
+    {
+      "id": "T1553.006",
+      "name": "Code Signing Policy Modification",
+      "permalink": "/techniques/T1553.006/"
+    },
+    {
+      "id": "T1553.001",
+      "name": "Gatekeeper Bypass",
+      "permalink": "/techniques/T1553.001/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Axiom",
+      "url": "/apt0001"
+    }
+  ]
+}

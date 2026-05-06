@@ -1,0 +1,94 @@
+{
+  "mitre_id": "T1486",
+  "mitigations": [
+    {
+      "name": "Behavior Prevention on Endpoint",
+      "mitre_id": "M1040",
+      "url": "https://attack.mitre.org/mitigations/M1040",
+      "stix_id": "course-of-action--90f39ee1-d5a3-4aaa-9f28-3b42815b0d46"
+    },
+    {
+      "name": "Data Backup",
+      "mitre_id": "M1053",
+      "url": "https://attack.mitre.org/mitigations/M1053",
+      "stix_id": "course-of-action--3efe43d1-6f3f-4fcb-ab39-4a730971f70b"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "APT38",
+      "url": "/apt0082"
+    },
+    {
+      "name": "INC Ransom",
+      "url": "/apt1032"
+    },
+    {
+      "name": "VOID MANTICORE",
+      "url": "/void-manticore"
+    },
+    {
+      "name": "Magic Hound",
+      "url": "/apt35"
+    },
+    {
+      "name": "Scattered Spider",
+      "url": "/apt1015"
+    },
+    {
+      "name": "FIN7",
+      "url": "/fin7"
+    },
+    {
+      "name": "Storm-0501",
+      "url": "/apt1053"
+    },
+    {
+      "name": "Medusa Group",
+      "url": "/apt1051"
+    },
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    },
+    {
+      "name": "Akira",
+      "url": "/akira"
+    },
+    {
+      "name": "Storm-1811",
+      "url": "/apt1046"
+    },
+    {
+      "name": "Indrik Spider",
+      "url": "/apt0119"
+    },
+    {
+      "name": "APT41",
+      "url": "/apt41"
+    },
+    {
+      "name": "Water Galura",
+      "url": "/apt1050"
+    },
+    {
+      "name": "TA505",
+      "url": "/cl0p"
+    },
+    {
+      "name": "BlackByte",
+      "url": "/apt1043"
+    },
+    {
+      "name": "FIN8",
+      "url": "/apt0061"
+    },
+    {
+      "name": "Moonstone Sleet",
+      "url": "/apt1036"
+    }
+  ]
+}

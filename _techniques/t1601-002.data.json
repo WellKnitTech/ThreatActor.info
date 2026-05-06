@@ -1,0 +1,47 @@
+{
+  "mitre_id": "T1601.002",
+  "mitigations": [
+    {
+      "name": "Multi-factor Authentication",
+      "mitre_id": "M1032",
+      "url": "https://attack.mitre.org/mitigations/M1032",
+      "stix_id": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0"
+    },
+    {
+      "name": "Code Signing",
+      "mitre_id": "M1045",
+      "url": "https://attack.mitre.org/mitigations/M1045",
+      "stix_id": "course-of-action--590777b3-b475-4c7c-aaf8-f4a73b140312"
+    },
+    {
+      "name": "Credential Access Protection",
+      "mitre_id": "M1043",
+      "url": "https://attack.mitre.org/mitigations/M1043",
+      "stix_id": "course-of-action--49c06d54-9002-491d-9147-8efb537fbd26"
+    },
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M1026",
+      "url": "https://attack.mitre.org/mitigations/M1026",
+      "stix_id": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f"
+    },
+    {
+      "name": "Password Policies",
+      "mitre_id": "M1027",
+      "url": "https://attack.mitre.org/mitigations/M1027",
+      "stix_id": "course-of-action--90c218c3-fbf8-4830-98a7-e8cfb7eaa485"
+    },
+    {
+      "name": "Boot Integrity",
+      "mitre_id": "M1046",
+      "url": "https://attack.mitre.org/mitigations/M1046",
+      "stix_id": "course-of-action--7da0387c-ba92-4553-b291-b636ee42b2eb"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

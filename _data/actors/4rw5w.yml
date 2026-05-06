@@ -1,0 +1,14 @@
+name: "4rw5w"
+aliases: ["4rw5w"]
+description: "Ransomware"
+url: "/4rw5w"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c36a66c0-1d52-4a2e-ad9c-1965cd18d8f8"
+    source_record_ids: ["c36a66c0-1d52-4a2e-ad9c-1965cd18d8f8"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

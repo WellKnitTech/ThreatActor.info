@@ -1,0 +1,26 @@
+{
+  "mitre_id": "T1200",
+  "mitigations": [
+    {
+      "name": "Limit Access to Resource Over Network",
+      "mitre_id": "M1035",
+      "url": "https://attack.mitre.org/mitigations/M1035",
+      "stix_id": "course-of-action--1dcaeb21-9348-42ea-950a-f842aaf1ae1f"
+    },
+    {
+      "name": "Limit Hardware Installation",
+      "mitre_id": "M1034",
+      "url": "https://attack.mitre.org/mitigations/M1034",
+      "stix_id": "course-of-action--2995bc22-2851-4345-ad19-4e7e295be264"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "DarkVishnya",
+      "url": "/apt0105"
+    }
+  ]
+}

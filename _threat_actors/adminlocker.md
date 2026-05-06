@@ -1,0 +1,32 @@
+---
+layout: threat_actor
+title: "adminlocker"
+aliases: ["adminlocker"]
+description: "AdminLocker was first observed around December 2021 and appears to be a lone operator or small group, with no clear Ransomware-as-a-Service (RaaS) model reported. It uses single-extortion tactics—encry"
+permalink: /adminlocker/
+---
+
+## Introduction
+AdminLocker was first observed around December 2021 and appears to be a lone operator or small group, with no clear Ransomware-as-a-Service (RaaS) model reported. It uses single-extortion tactics—encrypting files without publicly documented data exfiltration—primarily targeting enterprise and personal systems via methods such as malicious email attachments, cracked software installers, P2P downloads, and malvertising. The ransomware employs symmetric and asymmetric encryption (likely AES combined with RSA) to lock files, appending extensions such as .admin1, .admin2, .admin3, .1admin, .2admin, and .3admin; victims receive a “!!!Recovery File.txt” ransom note with instructions to pay via Tor and Bitcoin. Notable for its multiple simultaneous variants with varied extensions, it reportedly allows victims to decrypt up to five small files as “proof” before demanding ransom. No high-profile sector- or region-specific campaigns are publicly documented.
+
+## Activities and Tactics
+*Information pending cataloguing.*
+
+## Notable Campaigns
+*Information pending cataloguing.*
+
+## Tactics, Techniques, and Procedures (TTPs)
+*Information pending cataloguing.*
+
+## Notable Indicators of Compromise (IOCs)
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+
+## Malware and Tools
+- **Small-Net**: 
+
+## Attribution and Evidence
+*Information pending cataloguing.*
+
+## References
+*References pending cataloguing.*
+

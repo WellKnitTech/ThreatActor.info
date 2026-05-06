@@ -1,0 +1,23 @@
+{
+  "mitre_id": "T1614",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+    {
+      "id": "T1614.001",
+      "name": "System Language Discovery",
+      "permalink": "/techniques/T1614.001/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "SideCopy",
+      "url": "/apt1008"
+    },
+    {
+      "name": "Volt Typhoon",
+      "url": "/apt1017"
+    }
+  ]
+}

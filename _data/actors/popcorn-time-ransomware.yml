@@ -1,0 +1,17 @@
+name: "PopCorn Time Ransomware"
+aliases: ["PopCorn Time Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc.. These hackers claim to be students from Syria. This ransomware poses as the popular torrent movie screener called PopCorn.  These criminals give you the chance to retrieve your files “for free” by spreading this virus to others. Like shown in the note bellow: https://www.bleepstatic.com/images/news/ransomware/p/Popcorn-time/refer-a-friend.png"
+url: "/popcorn-time-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Virus RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c1b3477b-cd7f-4726-8744-a2c44275dffd"
+    source_record_ids: ["c1b3477b-cd7f-4726-8744-a2c44275dffd"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

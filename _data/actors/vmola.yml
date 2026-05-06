@@ -1,0 +1,14 @@
+name: "VMola"
+aliases: ["VMola"]
+description: "ransomware"
+url: "/vmola"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "dff0c92b-953d-4fef-8b36-f36906f806d2"
+    source_record_ids: ["dff0c92b-953d-4fef-8b36-f36906f806d2"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,47 @@
+{
+  "mitre_id": "T0863",
+  "mitigations": [
+    {
+      "name": "Execution Prevention",
+      "mitre_id": "M0938",
+      "url": "https://attack.mitre.org/mitigations/M0938",
+      "stix_id": "course-of-action--4fa717d9-cabe-47c8-8cdd-86e9e2e37f30"
+    },
+    {
+      "name": "Restrict Web-Based Content",
+      "mitre_id": "M0921",
+      "url": "https://attack.mitre.org/mitigations/M0921",
+      "stix_id": "course-of-action--143b4398-3222-480a-b6a4-e131bc2d3144"
+    },
+    {
+      "name": "User Training",
+      "mitre_id": "M0917",
+      "url": "https://attack.mitre.org/mitigations/M0917",
+      "stix_id": "course-of-action--dc61c280-c29d-44e5-a960-c0dd1623d2ba"
+    },
+    {
+      "name": "Network Intrusion Prevention",
+      "mitre_id": "M0931",
+      "url": "https://attack.mitre.org/mitigations/M0931",
+      "stix_id": "course-of-action--3172222b-4983-43f7-8983-753ded4f13bc"
+    },
+    {
+      "name": "Antivirus/Antimalware",
+      "mitre_id": "M0949",
+      "url": "https://attack.mitre.org/mitigations/M0949",
+      "stix_id": "course-of-action--faf2b40e-5981-433f-aa46-17458e0026f7"
+    },
+    {
+      "name": "Code Signing",
+      "mitre_id": "M0945",
+      "url": "https://attack.mitre.org/mitigations/M0945",
+      "stix_id": "course-of-action--71eb7dad-07eb-4bbc-9df0-ac57bf2fba4a"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

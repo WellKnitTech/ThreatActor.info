@@ -1,0 +1,15 @@
+name: "Regional Anti-Terrorist Structure"
+aliases: ["Regional Anti-Terrorist Structure"]
+description: "Regional Anti-Terrorist Structure (RATS)"
+url: "/regional-anti-terrorist-structure"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "81af29ae-4a25-5f79-83ff-b96831d6b58d"
+    source_record_ids: ["81af29ae-4a25-5f79-83ff-b96831d6b58d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

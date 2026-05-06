@@ -4,10 +4,24 @@ description: "DEV-0147 is a China-based cyber espionage actor was observed compr
 url: "/dev-0147"
 country: "China"
 targeted_victims: ["South America","Asia","European Union"]
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dev-0147"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["Trojan.Karagany","China Chopper","RemoteCMD","Trojan.Mebromi","CyberGate","Quasar RAT","Cyber Eye RAT","Remote Utilities","RemotePC","Xploit"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "dev-0147"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dev-0147"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "85f20141-1c8e-49ac-b963-eaa1fb1f4018"
   misp_galaxy:
+    meta_keys: ["cfr-suspected-victims","country","origin:DEV-0147","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "85f20141-1c8e-49ac-b963-eaa1fb1f4018"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["85f20141-1c8e-49ac-b963-eaa1fb1f4018"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

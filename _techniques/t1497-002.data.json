@@ -1,0 +1,19 @@
+{
+  "mitre_id": "T1497.002",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Darkhotel",
+      "url": "/apt0012"
+    },
+    {
+      "name": "FIN7",
+      "url": "/fin7"
+    }
+  ]
+}

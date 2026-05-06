@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "GOLD DUPONT"
-aliases: ["SPRITE SPIDER","GOLD DUPONT"]
+aliases: ["SPRITE SPIDER","GOLD DUPONT","Gold Dupont"]
 description: "GOLD DUPONT is a financially motivated cybercriminal threat group that specializes in post-intrusion ransomware attacks using 777 (aka Defray777 or RansomExx) malware. Active since November 2018, GOLD "
 permalink: /gold-dupont/
 ---

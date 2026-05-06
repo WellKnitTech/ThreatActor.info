@@ -1,0 +1,66 @@
+{
+  "mitre_id": "T1221",
+  "mitigations": [
+    {
+      "name": "Antivirus/Antimalware",
+      "mitre_id": "M1049",
+      "url": "https://attack.mitre.org/mitigations/M1049",
+      "stix_id": "course-of-action--a6a47a06-08fc-4ec4-bdc3-20373375ebb9"
+    },
+    {
+      "name": "Network Intrusion Prevention",
+      "mitre_id": "M1031",
+      "url": "https://attack.mitre.org/mitigations/M1031",
+      "stix_id": "course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c"
+    },
+    {
+      "name": "User Training",
+      "mitre_id": "M1017",
+      "url": "https://attack.mitre.org/mitigations/M1017",
+      "stix_id": "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a"
+    },
+    {
+      "name": "Disable or Remove Feature or Program",
+      "mitre_id": "M1042",
+      "url": "https://attack.mitre.org/mitigations/M1042",
+      "stix_id": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Dragonfly",
+      "url": "/apt0035"
+    },
+    {
+      "name": "Confucius",
+      "url": "/apt0142"
+    },
+    {
+      "name": "Tropic Trooper",
+      "url": "/apt0081"
+    },
+    {
+      "name": "APT28",
+      "url": "/apt28"
+    },
+    {
+      "name": "Gamaredon Group",
+      "url": "/apt0047"
+    },
+    {
+      "name": "Inception",
+      "url": "/apt0100"
+    },
+    {
+      "name": "MirrorFace",
+      "url": "/mirrorface"
+    },
+    {
+      "name": "DarkHydrus",
+      "url": "/apt0079"
+    }
+  ]
+}

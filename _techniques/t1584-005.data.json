@@ -1,0 +1,36 @@
+{
+  "mitre_id": "T1584.005",
+  "mitigations": [
+    {
+      "name": "Pre-compromise",
+      "mitre_id": "M1056",
+      "url": "https://attack.mitre.org/mitigations/M1056",
+      "stix_id": "course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "HAFNIUM",
+      "url": "/apt0125"
+    },
+    {
+      "name": "Axiom",
+      "url": "/apt0001"
+    },
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    },
+    {
+      "name": "APT-C-36",
+      "url": "/apt0099"
+    },
+    {
+      "name": "Volt Typhoon",
+      "url": "/apt1017"
+    }
+  ]
+}

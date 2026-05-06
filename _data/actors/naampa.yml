@@ -1,0 +1,14 @@
+name: "Naampa"
+aliases: ["Naampa"]
+description: "ransomware"
+url: "/naampa"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c06b039c-7a68-4f35-9948-87934f287ddd"
+    source_record_ids: ["c06b039c-7a68-4f35-9948-87934f287ddd"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "Kasiski Ransomware"
+aliases: ["Kasiski Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc.."
+url: "/kasiski-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","extensions","payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "59b537dc-3764-42fc-a416-92d2950aaff1"
+    source_record_ids: ["59b537dc-3764-42fc-a416-92d2950aaff1"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

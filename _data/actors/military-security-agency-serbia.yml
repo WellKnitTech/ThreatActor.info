@@ -1,0 +1,15 @@
+name: "Military Security Agency (Serbia)"
+aliases: ["Military Security Agency (Serbia)"]
+description: "Military Security Agency – Војнобезбедносна агенција (VBA)"
+url: "/military-security-agency-serbia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "9678bc5b-2f8b-569d-b0f1-d0ce8c111d60"
+    source_record_ids: ["9678bc5b-2f8b-569d-b0f1-d0ce8c111d60"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

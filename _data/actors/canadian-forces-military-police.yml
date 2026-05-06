@@ -1,0 +1,16 @@
+name: "Canadian Forces Military Police"
+aliases: ["Canadian Forces Military Police"]
+description: "Canadian Forces National Counter-Intelligence Unit (DND) operated by the Canadian Forces Military Police Group"
+url: "/canadian-forces-military-police"
+country: "Canada"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "8be0ea83-70fe-5c83-b9c9-99993c2d4b94"
+    source_record_ids: ["8be0ea83-70fe-5c83-b9c9-99993c2d4b94"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

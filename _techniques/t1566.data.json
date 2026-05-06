@@ -1,0 +1,97 @@
+{
+  "mitre_id": "T1566",
+  "mitigations": [
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "Network Intrusion Prevention",
+      "mitre_id": "M1031",
+      "url": "https://attack.mitre.org/mitigations/M1031",
+      "stix_id": "course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c"
+    },
+    {
+      "name": "Software Configuration",
+      "mitre_id": "M1054",
+      "url": "https://attack.mitre.org/mitigations/M1054",
+      "stix_id": "course-of-action--b5dbb4c5-b0b1-40b1-80b6-e9e84ab90067"
+    },
+    {
+      "name": "Restrict Web-Based Content",
+      "mitre_id": "M1021",
+      "url": "https://attack.mitre.org/mitigations/M1021",
+      "stix_id": "course-of-action--21da4fd4-27ad-4e9c-b93d-0b9b14d02c96"
+    },
+    {
+      "name": "Antivirus/Antimalware",
+      "mitre_id": "M1049",
+      "url": "https://attack.mitre.org/mitigations/M1049",
+      "stix_id": "course-of-action--a6a47a06-08fc-4ec4-bdc3-20373375ebb9"
+    },
+    {
+      "name": "User Training",
+      "mitre_id": "M1017",
+      "url": "https://attack.mitre.org/mitigations/M1017",
+      "stix_id": "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1566.002",
+      "name": "Spearphishing Link",
+      "permalink": "/techniques/T1566.002/"
+    },
+    {
+      "id": "T1566.001",
+      "name": "Spearphishing Attachment",
+      "permalink": "/techniques/T1566.001/"
+    },
+    {
+      "id": "T1566.004",
+      "name": "Spearphishing Voice",
+      "permalink": "/techniques/T1566.004/"
+    },
+    {
+      "id": "T1566.003",
+      "name": "Spearphishing via Service",
+      "permalink": "/techniques/T1566.003/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "VOID MANTICORE",
+      "url": "/void-manticore"
+    },
+    {
+      "name": "INC Ransom",
+      "url": "/apt1032"
+    },
+    {
+      "name": "MuddyWater",
+      "url": "/apt0069"
+    },
+    {
+      "name": "Sea Turtle",
+      "url": "/apt1041"
+    },
+    {
+      "name": "Axiom",
+      "url": "/apt0001"
+    },
+    {
+      "name": "AppleJeus",
+      "url": "/apt1049"
+    },
+    {
+      "name": "GOLD SOUTHFIELD",
+      "url": "/apt0115"
+    }
+  ]
+}

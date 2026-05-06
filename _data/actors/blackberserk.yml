@@ -1,0 +1,21 @@
+name: "blackberserk"
+aliases: ["blackberserk"]
+description: "Black Berserk is a relatively unsophisticated ransomware strain analyzed in late 2023. It operates under a single‑extortion model—encrypting files and demanding payment, with no documented abilities or threats for data exfiltration or public leaks. In observed cases, the malware appends the .Black extension to encrypted files (e.g., 1.jpg.Black) and leaves a ransom note titled Black_Recover.txt, which urges victims to make contact to negotiate payment or test decryption with benign files. The infection method appears opportunistic, delivered via isolated incidents or broad malware distribution—not linked to targeted campaigns or infrastructure. There is no evidence of it functioning as a RaaS operation or targeting any specific victim profiles or sectors."
+url: "/blackberserk"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "BlackEnergy"
+  - name: "BLACKCOFFEE"
+  - name: "Blackshades"
+  - name: "BlackNix"
+  - name: "BlackHole"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "6881cbf2-a4ee-5ec1-897d-ff27b6ce146d"
+    source_record_ids: ["6881cbf2-a4ee-5ec1-897d-ff27b6ce146d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

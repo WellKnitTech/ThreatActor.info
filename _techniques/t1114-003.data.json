@@ -1,0 +1,54 @@
+{
+  "mitre_id": "T1114.003",
+  "mitigations": [
+    {
+      "name": "Disable or Remove Feature or Program",
+      "mitre_id": "M1042",
+      "url": "https://attack.mitre.org/mitigations/M1042",
+      "stix_id": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31"
+    },
+    {
+      "name": "Encrypt Sensitive Information",
+      "mitre_id": "M1041",
+      "url": "https://attack.mitre.org/mitigations/M1041",
+      "stix_id": "course-of-action--feff9142-e8c2-46f4-842b-bd6fb3d41157"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "Out-of-Band Communications Channel",
+      "mitre_id": "M1060",
+      "url": "https://attack.mitre.org/mitigations/M1060",
+      "stix_id": "course-of-action--80a0e940-f683-4fbd-ac00-e9f935f2f808"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Scattered Spider",
+      "url": "/apt1015"
+    },
+    {
+      "name": "Silent Librarian",
+      "url": "/apt0122"
+    },
+    {
+      "name": "LAPSUS$",
+      "url": "/apt1004"
+    },
+    {
+      "name": "Star Blizzard",
+      "url": "/apt1033"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    }
+  ]
+}

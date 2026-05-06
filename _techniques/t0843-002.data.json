@@ -1,0 +1,71 @@
+{
+  "mitre_id": "T0843.002",
+  "mitigations": [
+    {
+      "name": "Human User Authentication",
+      "mitre_id": "M0804",
+      "url": "https://attack.mitre.org/mitigations/M0804",
+      "stix_id": "course-of-action--66cfe23e-34b6-4583-b178-ed6a412db2b0"
+    },
+    {
+      "name": "Communication Authenticity",
+      "mitre_id": "M0802",
+      "url": "https://attack.mitre.org/mitigations/M0802",
+      "stix_id": "course-of-action--c7257b6e-4159-4771-b1f3-2bb93adaecac"
+    },
+    {
+      "name": "Network Segmentation",
+      "mitre_id": "M0930",
+      "url": "https://attack.mitre.org/mitigations/M0930",
+      "stix_id": "course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291"
+    },
+    {
+      "name": "Network Allowlists",
+      "mitre_id": "M0807",
+      "url": "https://attack.mitre.org/mitigations/M0807",
+      "stix_id": "course-of-action--aadac250-bcdc-44e3-a4ae-f52bd0a7a16a"
+    },
+    {
+      "name": "Authorization Enforcement",
+      "mitre_id": "M0800",
+      "url": "https://attack.mitre.org/mitigations/M0800",
+      "stix_id": "course-of-action--e0d38502-decb-481d-ad8b-b8f0a0c330bd"
+    },
+    {
+      "name": "Access Management",
+      "mitre_id": "M0801",
+      "url": "https://attack.mitre.org/mitigations/M0801",
+      "stix_id": "course-of-action--3992ce42-43e9-4bea-b8db-a102ec3ec1e3"
+    },
+    {
+      "name": "Filter Network Traffic",
+      "mitre_id": "M0937",
+      "url": "https://attack.mitre.org/mitigations/M0937",
+      "stix_id": "course-of-action--11f242bc-3121-438c-84b2-5cbd46a4bb17"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M0947",
+      "url": "https://attack.mitre.org/mitigations/M0947",
+      "stix_id": "course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697"
+    },
+    {
+      "name": "Software Process and Device Authentication",
+      "mitre_id": "M0813",
+      "url": "https://attack.mitre.org/mitigations/M0813",
+      "stix_id": "course-of-action--72e46e53-e12d-4106-9c70-33241b6ed549"
+    },
+    {
+      "name": "Code Signing",
+      "mitre_id": "M0945",
+      "url": "https://attack.mitre.org/mitigations/M0945",
+      "stix_id": "course-of-action--71eb7dad-07eb-4bbc-9df0-ac57bf2fba4a"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

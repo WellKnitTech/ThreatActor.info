@@ -1,0 +1,16 @@
+name: "Servicio de Inteligencia de la Fuerza Aérea (Argentina)"
+aliases: ["Servicio de Inteligencia de la Fuerza Aérea","Servicio de Inteligencia de la Fuerza Aérea (Argentina)"]
+description: "Air Force Intelligence Service (SIFA) – Servicio de Inteligencia de la Fuerza Aérea"
+url: "/servicio-de-inteligencia-de-la-fuerza-a-rea-argentina"
+country: "Argentina"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "cfc41443-a1f6-5398-a2da-d4f234240e4d"
+    source_record_ids: ["cfc41443-a1f6-5398-a2da-d4f234240e4d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

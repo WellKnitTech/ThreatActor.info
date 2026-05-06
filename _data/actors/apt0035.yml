@@ -1,14 +1,36 @@
 name: "Dragonfly"
-aliases: ["Berserk Bear","BROMINE","Crouching Yeti","Dragonfly","DYMALLOY","Energetic Bear","Ghost Blizzard","IRON LIBERTY","TEMP.Isotope","TG-4192"]
+aliases: ["Berserk Bear","BROMINE","Crouching Yeti","Dragonfly","DYMALLOY","Energetic Bear","Ghost Blizzard","IRON LIBERTY","TEMP.Isotope","TG-4192","BERSERK BEAR","Koala Team","Blue Kraken","ALLANITE","CASTLE","Group 24","Havex","G0035","ATK6","ITG15","ENERGETIC BEAR"]
 description: "Dragonfly is a cyber espionage group that has been attributed to Russia's Federal Security Service (FSB) Center 16. [DOJ Russia Targeting Critical Infrastructure March 2022](https://www.justice.gov/opa/pr/four-russian-government-employees-charged-two-historical-hacking-campaigns-targeting-critical) [UK GOV FSB Factsheet April 2022](https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet) Active since at least 2010, Dragonfly has targeted defense and aviation companies, government entities, companies related to industrial control systems, and critical infrastructure sectors worldwide through supply chain, spearphishing, and drive-by compromise attacks. [Symantec Dragonfly](https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=7382dce7-0260-4782-84cc-890971ed3f17&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments) [Secureworks IRON LIBERTY July 2019](https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector) [Symantec Dragonfly Sept 2017](https://www.symantec.com/connect/blogs/dragonfly-western-energy-sector-targeted-sophisticated-attack-group) [Fortune Dragonfly 2.0 Sept 2017](http://fortune.com/2017/09/06/hack-energy-grid-symantec/) [Gigamon Berserk Bear October 2021](https://vblocalhost.com/uploads/VB2021-Slowik.pdf) [CISA AA20-296A Berserk Bear December 2020](https://www.cisa.gov/uscert/ncas/alerts/aa20-296a#revisions) [Symantec Dragonfly 2.0 October 2017](https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks)"
 url: "/apt0035"
+country: "Russia"
+sector_focus: ["Energy","Private sector","Government"]
+targeted_victims: ["United States","Germany","Turkey","China","Spain","France","Ireland","Japan","Italy","Poland"]
+incident_type: "Espionage"
 last_updated: "2026-04-28"
 external_id: "G0035"
 external_url: "https://attack.mitre.org/groups/G0035"
 mitre_id: "G0035"
 mitre_url: "https://attack.mitre.org/groups/G0035"
+source_name: "MISP Galaxy"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/energetic_bear"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "energetic_bear"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/energetic_bear"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "64d6559c-6d5c-4585-bbf9-c17868f763ee"
+  misp_galaxy:
+    meta_keys: ["country","microsoft-origin-threat","refs","sector","synonyms"]
+    source_cluster: "microsoft-activity-group.json"
+    source_clusters: ["microsoft-activity-group.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
+    source_record_id: "45d0f984-2b63-517b-922a-12924bcf4f68"
+    source_record_ids: ["45d0f984-2b63-517b-922a-12924bcf4f68"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0035"

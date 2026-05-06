@@ -16,6 +16,8 @@ Based on the evidence we have presented Symantec attributed the activity involvi
 
 
 
+**Suspected Victims**: Taiwan
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

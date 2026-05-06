@@ -1,0 +1,41 @@
+{
+  "mitre_id": "T1458",
+  "mitigations": [
+    {
+      "name": "Lock Bootloader",
+      "mitre_id": "M1003",
+      "url": "https://attack.mitre.org/mitigations/M1003",
+      "stix_id": "course-of-action--8ccd428d-39da-4e8f-a55b-d48ea1d56e58"
+    },
+    {
+      "name": "Use Recent OS Version",
+      "mitre_id": "M1006",
+      "url": "https://attack.mitre.org/mitigations/M1006",
+      "stix_id": "course-of-action--0beabf44-e8d8-4ae4-9122-ef56369a2564"
+    },
+    {
+      "name": "User Guidance",
+      "mitre_id": "M1011",
+      "url": "https://attack.mitre.org/mitigations/M1011",
+      "stix_id": "course-of-action--653492e3-27be-4a0e-b08c-938dd2b7e0e1"
+    },
+    {
+      "name": "Enterprise Policy",
+      "mitre_id": "M1012",
+      "url": "https://attack.mitre.org/mitigations/M1012",
+      "stix_id": "course-of-action--649f7268-4c12-483b-ac84-4b7bca9fe2ee"
+    },
+    {
+      "name": "Security Updates",
+      "mitre_id": "M1001",
+      "url": "https://attack.mitre.org/mitigations/M1001",
+      "stix_id": "course-of-action--bcecd036-f40e-4916-9f8e-fd0ccf0ece8d"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

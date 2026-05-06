@@ -1,0 +1,48 @@
+{
+  "mitre_id": "T1055.012",
+  "mitigations": [
+    {
+      "name": "Behavior Prevention on Endpoint",
+      "mitre_id": "M1040",
+      "url": "https://attack.mitre.org/mitigations/M1040",
+      "stix_id": "course-of-action--90f39ee1-d5a3-4aaa-9f28-3b42815b0d46"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Gorgon Group",
+      "url": "/apt0078"
+    },
+    {
+      "name": "Threat Group-3390",
+      "url": "/apt0027"
+    },
+    {
+      "name": "Patchwork",
+      "url": "/apt0040"
+    },
+    {
+      "name": "BlackByte",
+      "url": "/apt1043"
+    },
+    {
+      "name": "TA2541",
+      "url": "/apt1018"
+    },
+    {
+      "name": "menuPass",
+      "url": "/apt0045"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "APT-C-36",
+      "url": "/apt0099"
+    }
+  ]
+}

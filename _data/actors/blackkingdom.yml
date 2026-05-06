@@ -1,0 +1,22 @@
+name: "BlackKingdom"
+aliases: ["BlackKingdom","Black KingDom","Black Kingdom gang","Black Kingdom ransom","Black Kingdom"]
+description: "Ransomware"
+url: "/blackkingdom"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "ChackLogsPL"
+provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://securelist.com/black-kingdom-ransomware/102873/","https://www.bleepingcomputer.com/news/security/black-kingdom-ransomware-hacks-networks-with-pulse-vpn-flaws/"]
+    source_retrieved_at: "2026-05-06T22:01:17Z"
+    tab_name: "unknown"
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "6dccf9ae-d58d-4a45-baaf-cd873a2fd7bc"
+    source_record_ids: ["6dccf9ae-d58d-4a45-baaf-cd873a2fd7bc"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

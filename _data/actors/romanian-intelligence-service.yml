@@ -1,0 +1,15 @@
+name: "Romanian Intelligence Service"
+aliases: ["Serviciul Român de Informații","Romanian Intelligence Service"]
+description: "Romanian Intelligence Service (SRI) – Serviciul Român de Informații"
+url: "/romanian-intelligence-service"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "7854d6f5-c0d2-5d8f-9f00-61c59cb5f76d"
+    source_record_ids: ["7854d6f5-c0d2-5d8f-9f00-61c59cb5f76d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

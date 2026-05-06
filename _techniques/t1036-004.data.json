@@ -1,0 +1,103 @@
+{
+  "mitre_id": "T1036.004",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Aquatic Panda",
+      "url": "/apt0143"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Carbanak",
+      "url": "/fin7"
+    },
+    {
+      "name": "FIN7",
+      "url": "/fin7"
+    },
+    {
+      "name": "FIN13",
+      "url": "/apt1016"
+    },
+    {
+      "name": "APT-C-36",
+      "url": "/apt0099"
+    },
+    {
+      "name": "APT32",
+      "url": "/apt32"
+    },
+    {
+      "name": "Winter Vivern",
+      "url": "/apt1035"
+    },
+    {
+      "name": "Wizard Spider",
+      "url": "/wizard-spider"
+    },
+    {
+      "name": "BITTER",
+      "url": "/apt1002"
+    },
+    {
+      "name": "FIN6",
+      "url": "/apt0037"
+    },
+    {
+      "name": "Naikon",
+      "url": "/apt0019"
+    },
+    {
+      "name": "Fox Kitten",
+      "url": "/apt0117"
+    },
+    {
+      "name": "PROMETHIUM",
+      "url": "/apt0056"
+    },
+    {
+      "name": "UNC3886",
+      "url": "/apt1048"
+    },
+    {
+      "name": "ZIRCONIUM",
+      "url": "/apt0128"
+    },
+    {
+      "name": "Magic Hound",
+      "url": "/apt35"
+    },
+    {
+      "name": "Higaisa",
+      "url": "/apt0126"
+    },
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    },
+    {
+      "name": "Storm-0501",
+      "url": "/apt1053"
+    },
+    {
+      "name": "VOID MANTICORE",
+      "url": "/void-manticore"
+    },
+    {
+      "name": "BackdoorDiplomacy",
+      "url": "/apt0135"
+    },
+    {
+      "name": "APT41",
+      "url": "/apt41"
+    }
+  ]
+}

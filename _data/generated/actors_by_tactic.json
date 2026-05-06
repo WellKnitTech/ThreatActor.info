@@ -46,6 +46,11 @@
       "url": "/apt0019"
     },
     {
+      "name": "Equation",
+      "permalink": "/apt0020/",
+      "url": "/apt0020"
+    },
+    {
       "name": "Molerats",
       "permalink": "/apt0021/",
       "url": "/apt0021"
@@ -69,6 +74,11 @@
       "name": "Threat Group-3390",
       "permalink": "/apt0027/",
       "url": "/apt0027"
+    },
+    {
+      "name": "Threat Group-1314",
+      "permalink": "/apt0028/",
+      "url": "/apt0028"
     },
     {
       "name": "Scarlet Mimic",
@@ -266,6 +276,11 @@
       "url": "/apt0089"
     },
     {
+      "name": "WIRTE",
+      "permalink": "/apt0090/",
+      "url": "/apt0090"
+    },
+    {
       "name": "Silence",
       "permalink": "/apt0091/",
       "url": "/apt0091"
@@ -314,6 +329,11 @@
       "name": "Whitefly",
       "permalink": "/apt0107/",
       "url": "/apt0107"
+    },
+    {
+      "name": "Blue Mockingbird",
+      "permalink": "/apt0108/",
+      "url": "/apt0108"
     },
     {
       "name": "Windshift",
@@ -411,9 +431,19 @@
       "url": "/apt0138"
     },
     {
+      "name": "TeamTNT",
+      "permalink": "/apt0139/",
+      "url": "/apt0139"
+    },
+    {
       "name": "LazyScripter",
       "permalink": "/apt0140/",
       "url": "/apt0140"
+    },
+    {
+      "name": "Confucius",
+      "permalink": "/apt0142/",
+      "url": "/apt0142"
     },
     {
       "name": "Aquatic Panda",
@@ -424,6 +454,121 @@
       "name": "APT1",
       "permalink": "/apt1/",
       "url": "/apt1"
+    },
+    {
+      "name": "LAPSUS$",
+      "permalink": "/apt1004/",
+      "url": "/apt1004"
+    },
+    {
+      "name": "POLONIUM",
+      "permalink": "/apt1005/",
+      "url": "/apt1005"
+    },
+    {
+      "name": "Earth Lusca",
+      "permalink": "/apt1006/",
+      "url": "/apt1006"
+    },
+    {
+      "name": "Aoqin Dragon",
+      "permalink": "/apt1007/",
+      "url": "/apt1007"
+    },
+    {
+      "name": "SideCopy",
+      "permalink": "/apt1008/",
+      "url": "/apt1008"
+    },
+    {
+      "name": "Moses Staff",
+      "permalink": "/apt1009/",
+      "url": "/apt1009"
+    },
+    {
+      "name": "Metador",
+      "permalink": "/apt1013/",
+      "url": "/apt1013"
+    },
+    {
+      "name": "Scattered Spider",
+      "permalink": "/apt1015/",
+      "url": "/apt1015"
+    },
+    {
+      "name": "FIN13",
+      "permalink": "/apt1016/",
+      "url": "/apt1016"
+    },
+    {
+      "name": "Volt Typhoon",
+      "permalink": "/apt1017/",
+      "url": "/apt1017"
+    },
+    {
+      "name": "TA2541",
+      "permalink": "/apt1018/",
+      "url": "/apt1018"
+    },
+    {
+      "name": "MoustachedBouncer",
+      "permalink": "/apt1019/",
+      "url": "/apt1019"
+    },
+    {
+      "name": "ToddyCat",
+      "permalink": "/apt1022/",
+      "url": "/apt1022"
+    },
+    {
+      "name": "Malteiro",
+      "permalink": "/apt1026/",
+      "url": "/apt1026"
+    },
+    {
+      "name": "INC Ransom",
+      "permalink": "/apt1032/",
+      "url": "/apt1032"
+    },
+    {
+      "name": "Winter Vivern",
+      "permalink": "/apt1035/",
+      "url": "/apt1035"
+    },
+    {
+      "name": "TA577",
+      "permalink": "/apt1037/",
+      "url": "/apt1037"
+    },
+    {
+      "name": "Sea Turtle",
+      "permalink": "/apt1041/",
+      "url": "/apt1041"
+    },
+    {
+      "name": "BlackByte",
+      "permalink": "/apt1043/",
+      "url": "/apt1043"
+    },
+    {
+      "name": "Velvet Ant",
+      "permalink": "/apt1047/",
+      "url": "/apt1047"
+    },
+    {
+      "name": "UNC3886",
+      "permalink": "/apt1048/",
+      "url": "/apt1048"
+    },
+    {
+      "name": "Medusa Group",
+      "permalink": "/apt1051/",
+      "url": "/apt1051"
+    },
+    {
+      "name": "Storm-0501",
+      "permalink": "/apt1053/",
+      "url": "/apt1053"
     },
     {
       "name": "APT28",
@@ -466,9 +611,19 @@
       "url": "/cl0p"
     },
     {
+      "name": "Dust Storm",
+      "permalink": "/dust-storm/",
+      "url": "/dust-storm"
+    },
+    {
       "name": "FIN7",
       "permalink": "/fin7/",
       "url": "/fin7"
+    },
+    {
+      "name": "Honeybee",
+      "permalink": "/honeybee/",
+      "url": "/honeybee"
     },
     {
       "name": "Lazarus Group",
@@ -476,9 +631,19 @@
       "url": "/lazarus"
     },
     {
+      "name": "MirrorFace",
+      "permalink": "/mirrorface/",
+      "url": "/mirrorface"
+    },
+    {
       "name": "Night Dragon",
       "permalink": "/night-dragon/",
       "url": "/night-dragon"
+    },
+    {
+      "name": "Play",
+      "permalink": "/play/",
+      "url": "/play"
     },
     {
       "name": "Zack Korman",
@@ -487,6 +652,16 @@
     }
   ],
   "TA0030": [
+    {
+      "name": "MoustachedBouncer",
+      "permalink": "/apt1019/",
+      "url": "/apt1019"
+    },
+    {
+      "name": "Domestic Kitten",
+      "permalink": "/domestic-kitten/",
+      "url": "/domestic-kitten"
+    },
     {
       "name": "Zack Korman",
       "permalink": "/zack-korman/",
@@ -675,6 +850,11 @@
       "url": "/apt0100"
     },
     {
+      "name": "DarkVishnya",
+      "permalink": "/apt0105/",
+      "url": "/apt0105"
+    },
+    {
       "name": "Rocke",
       "permalink": "/apt0106/",
       "url": "/apt0106"
@@ -683,6 +863,11 @@
       "name": "Whitefly",
       "permalink": "/apt0107/",
       "url": "/apt0107"
+    },
+    {
+      "name": "Blue Mockingbird",
+      "permalink": "/apt0108/",
+      "url": "/apt0108"
     },
     {
       "name": "Chimera",
@@ -735,6 +920,11 @@
       "url": "/apt0131"
     },
     {
+      "name": "TeamTNT",
+      "permalink": "/apt0139/",
+      "url": "/apt0139"
+    },
+    {
       "name": "Aquatic Panda",
       "permalink": "/apt0143/",
       "url": "/apt0143"
@@ -743,6 +933,71 @@
       "name": "APT1",
       "permalink": "/apt1/",
       "url": "/apt1"
+    },
+    {
+      "name": "LAPSUS$",
+      "permalink": "/apt1004/",
+      "url": "/apt1004"
+    },
+    {
+      "name": "Earth Lusca",
+      "permalink": "/apt1006/",
+      "url": "/apt1006"
+    },
+    {
+      "name": "Scattered Spider",
+      "permalink": "/apt1015/",
+      "url": "/apt1015"
+    },
+    {
+      "name": "FIN13",
+      "permalink": "/apt1016/",
+      "url": "/apt1016"
+    },
+    {
+      "name": "Volt Typhoon",
+      "permalink": "/apt1017/",
+      "url": "/apt1017"
+    },
+    {
+      "name": "Malteiro",
+      "permalink": "/apt1026/",
+      "url": "/apt1026"
+    },
+    {
+      "name": "Winter Vivern",
+      "permalink": "/apt1035/",
+      "url": "/apt1035"
+    },
+    {
+      "name": "Sea Turtle",
+      "permalink": "/apt1041/",
+      "url": "/apt1041"
+    },
+    {
+      "name": "BlackByte",
+      "permalink": "/apt1043/",
+      "url": "/apt1043"
+    },
+    {
+      "name": "Velvet Ant",
+      "permalink": "/apt1047/",
+      "url": "/apt1047"
+    },
+    {
+      "name": "UNC3886",
+      "permalink": "/apt1048/",
+      "url": "/apt1048"
+    },
+    {
+      "name": "Medusa Group",
+      "permalink": "/apt1051/",
+      "url": "/apt1051"
+    },
+    {
+      "name": "Storm-0501",
+      "permalink": "/apt1053/",
+      "url": "/apt1053"
     },
     {
       "name": "APT28",
@@ -795,9 +1050,19 @@
       "url": "/lazarus"
     },
     {
+      "name": "MirrorFace",
+      "permalink": "/mirrorface/",
+      "url": "/mirrorface"
+    },
+    {
       "name": "Night Dragon",
       "permalink": "/night-dragon/",
       "url": "/night-dragon"
+    },
+    {
+      "name": "Play",
+      "permalink": "/play/",
+      "url": "/play"
     },
     {
       "name": "Zack Korman",
@@ -877,6 +1142,11 @@
       "url": "/apt0087"
     },
     {
+      "name": "WIRTE",
+      "permalink": "/apt0090/",
+      "url": "/apt0090"
+    },
+    {
       "name": "GALLIUM",
       "permalink": "/apt0093/",
       "url": "/apt0093"
@@ -917,6 +1187,61 @@
       "url": "/apt0129"
     },
     {
+      "name": "TeamTNT",
+      "permalink": "/apt0139/",
+      "url": "/apt0139"
+    },
+    {
+      "name": "Confucius",
+      "permalink": "/apt0142/",
+      "url": "/apt0142"
+    },
+    {
+      "name": "POLONIUM",
+      "permalink": "/apt1005/",
+      "url": "/apt1005"
+    },
+    {
+      "name": "Earth Lusca",
+      "permalink": "/apt1006/",
+      "url": "/apt1006"
+    },
+    {
+      "name": "Scattered Spider",
+      "permalink": "/apt1015/",
+      "url": "/apt1015"
+    },
+    {
+      "name": "ToddyCat",
+      "permalink": "/apt1022/",
+      "url": "/apt1022"
+    },
+    {
+      "name": "INC Ransom",
+      "permalink": "/apt1032/",
+      "url": "/apt1032"
+    },
+    {
+      "name": "Winter Vivern",
+      "permalink": "/apt1035/",
+      "url": "/apt1035"
+    },
+    {
+      "name": "BlackByte",
+      "permalink": "/apt1043/",
+      "url": "/apt1043"
+    },
+    {
+      "name": "Medusa Group",
+      "permalink": "/apt1051/",
+      "url": "/apt1051"
+    },
+    {
+      "name": "Storm-0501",
+      "permalink": "/apt1053/",
+      "url": "/apt1053"
+    },
+    {
       "name": "APT28",
       "permalink": "/apt28/",
       "url": "/apt28"
@@ -947,9 +1272,24 @@
       "url": "/fin7"
     },
     {
+      "name": "Honeybee",
+      "permalink": "/honeybee/",
+      "url": "/honeybee"
+    },
+    {
       "name": "Lazarus Group",
       "permalink": "/lazarus/",
       "url": "/lazarus"
+    },
+    {
+      "name": "MirrorFace",
+      "permalink": "/mirrorface/",
+      "url": "/mirrorface"
+    },
+    {
+      "name": "Play",
+      "permalink": "/play/",
+      "url": "/play"
     }
   ],
   "TA0042": [
@@ -1049,6 +1389,11 @@
       "url": "/apt0060"
     },
     {
+      "name": "FIN8",
+      "permalink": "/apt0061/",
+      "url": "/apt0061"
+    },
+    {
       "name": "APT33",
       "permalink": "/apt0064/",
       "url": "/apt0064"
@@ -1104,6 +1449,11 @@
       "url": "/apt0088"
     },
     {
+      "name": "WIRTE",
+      "permalink": "/apt0090/",
+      "url": "/apt0090"
+    },
+    {
       "name": "Silence",
       "permalink": "/apt0091/",
       "url": "/apt0091"
@@ -1134,9 +1484,19 @@
       "url": "/apt0100"
     },
     {
+      "name": "DarkVishnya",
+      "permalink": "/apt0105/",
+      "url": "/apt0105"
+    },
+    {
       "name": "Whitefly",
       "permalink": "/apt0107/",
       "url": "/apt0107"
+    },
+    {
+      "name": "Blue Mockingbird",
+      "permalink": "/apt0108/",
+      "url": "/apt0108"
     },
     {
       "name": "Chimera",
@@ -1199,9 +1559,19 @@
       "url": "/apt0138"
     },
     {
+      "name": "TeamTNT",
+      "permalink": "/apt0139/",
+      "url": "/apt0139"
+    },
+    {
       "name": "LazyScripter",
       "permalink": "/apt0140/",
       "url": "/apt0140"
+    },
+    {
+      "name": "Confucius",
+      "permalink": "/apt0142/",
+      "url": "/apt0142"
     },
     {
       "name": "Aquatic Panda",
@@ -1212,6 +1582,121 @@
       "name": "APT1",
       "permalink": "/apt1/",
       "url": "/apt1"
+    },
+    {
+      "name": "LAPSUS$",
+      "permalink": "/apt1004/",
+      "url": "/apt1004"
+    },
+    {
+      "name": "POLONIUM",
+      "permalink": "/apt1005/",
+      "url": "/apt1005"
+    },
+    {
+      "name": "Earth Lusca",
+      "permalink": "/apt1006/",
+      "url": "/apt1006"
+    },
+    {
+      "name": "Aoqin Dragon",
+      "permalink": "/apt1007/",
+      "url": "/apt1007"
+    },
+    {
+      "name": "SideCopy",
+      "permalink": "/apt1008/",
+      "url": "/apt1008"
+    },
+    {
+      "name": "Moses Staff",
+      "permalink": "/apt1009/",
+      "url": "/apt1009"
+    },
+    {
+      "name": "EXOTIC LILY",
+      "permalink": "/apt1011/",
+      "url": "/apt1011"
+    },
+    {
+      "name": "Metador",
+      "permalink": "/apt1013/",
+      "url": "/apt1013"
+    },
+    {
+      "name": "Scattered Spider",
+      "permalink": "/apt1015/",
+      "url": "/apt1015"
+    },
+    {
+      "name": "FIN13",
+      "permalink": "/apt1016/",
+      "url": "/apt1016"
+    },
+    {
+      "name": "Volt Typhoon",
+      "permalink": "/apt1017/",
+      "url": "/apt1017"
+    },
+    {
+      "name": "TA2541",
+      "permalink": "/apt1018/",
+      "url": "/apt1018"
+    },
+    {
+      "name": "INC Ransom",
+      "permalink": "/apt1032/",
+      "url": "/apt1032"
+    },
+    {
+      "name": "Winter Vivern",
+      "permalink": "/apt1035/",
+      "url": "/apt1035"
+    },
+    {
+      "name": "TA577",
+      "permalink": "/apt1037/",
+      "url": "/apt1037"
+    },
+    {
+      "name": "TA578",
+      "permalink": "/apt1038/",
+      "url": "/apt1038"
+    },
+    {
+      "name": "Sea Turtle",
+      "permalink": "/apt1041/",
+      "url": "/apt1041"
+    },
+    {
+      "name": "RedEcho",
+      "permalink": "/apt1042/",
+      "url": "/apt1042"
+    },
+    {
+      "name": "BlackByte",
+      "permalink": "/apt1043/",
+      "url": "/apt1043"
+    },
+    {
+      "name": "UNC3886",
+      "permalink": "/apt1048/",
+      "url": "/apt1048"
+    },
+    {
+      "name": "Water Galura",
+      "permalink": "/apt1050/",
+      "url": "/apt1050"
+    },
+    {
+      "name": "Medusa Group",
+      "permalink": "/apt1051/",
+      "url": "/apt1051"
+    },
+    {
+      "name": "Storm-0501",
+      "permalink": "/apt1053/",
+      "url": "/apt1053"
     },
     {
       "name": "APT28",
@@ -1254,9 +1739,19 @@
       "url": "/lazarus"
     },
     {
+      "name": "MirrorFace",
+      "permalink": "/mirrorface/",
+      "url": "/mirrorface"
+    },
+    {
       "name": "Night Dragon",
       "permalink": "/night-dragon/",
       "url": "/night-dragon"
+    },
+    {
+      "name": "Play",
+      "permalink": "/play/",
+      "url": "/play"
     }
   ],
   "TA0043": [
@@ -1279,6 +1774,11 @@
       "name": "Kimsuky",
       "permalink": "/apt0094/",
       "url": "/apt0094"
+    },
+    {
+      "name": "APT-C-36",
+      "permalink": "/apt0099/",
+      "url": "/apt0099"
     },
     {
       "name": "Chimera",
@@ -1321,9 +1821,64 @@
       "url": "/apt0138"
     },
     {
+      "name": "TeamTNT",
+      "permalink": "/apt0139/",
+      "url": "/apt0139"
+    },
+    {
       "name": "Aquatic Panda",
       "permalink": "/apt0143/",
       "url": "/apt0143"
+    },
+    {
+      "name": "LAPSUS$",
+      "permalink": "/apt1004/",
+      "url": "/apt1004"
+    },
+    {
+      "name": "Earth Lusca",
+      "permalink": "/apt1006/",
+      "url": "/apt1006"
+    },
+    {
+      "name": "SideCopy",
+      "permalink": "/apt1008/",
+      "url": "/apt1008"
+    },
+    {
+      "name": "EXOTIC LILY",
+      "permalink": "/apt1011/",
+      "url": "/apt1011"
+    },
+    {
+      "name": "Scattered Spider",
+      "permalink": "/apt1015/",
+      "url": "/apt1015"
+    },
+    {
+      "name": "FIN13",
+      "permalink": "/apt1016/",
+      "url": "/apt1016"
+    },
+    {
+      "name": "Volt Typhoon",
+      "permalink": "/apt1017/",
+      "url": "/apt1017"
+    },
+    {
+      "name": "Winter Vivern",
+      "permalink": "/apt1035/",
+      "url": "/apt1035"
+    },
+    {
+      "name": "TA578",
+      "permalink": "/apt1038/",
+      "url": "/apt1038"
+    },
+    {
+      "name": "UNC3886",
+      "permalink": "/apt1048/",
+      "url": "/apt1048"
     },
     {
       "name": "APT28",
@@ -1354,6 +1909,11 @@
       "name": "Lazarus Group",
       "permalink": "/lazarus/",
       "url": "/lazarus"
+    },
+    {
+      "name": "MirrorFace",
+      "permalink": "/mirrorface/",
+      "url": "/mirrorface"
     }
   ],
   "TA0100": [
@@ -1518,6 +2078,11 @@
       "url": "/apt0088"
     },
     {
+      "name": "WIRTE",
+      "permalink": "/apt0090/",
+      "url": "/apt0090"
+    },
+    {
       "name": "Silence",
       "permalink": "/apt0091/",
       "url": "/apt0091"
@@ -1568,6 +2133,11 @@
       "url": "/apt0122"
     },
     {
+      "name": "Windigo",
+      "permalink": "/apt0124/",
+      "url": "/apt0124"
+    },
+    {
       "name": "HAFNIUM",
       "permalink": "/apt0125/",
       "url": "/apt0125"
@@ -1598,6 +2168,16 @@
       "url": "/apt0138"
     },
     {
+      "name": "TeamTNT",
+      "permalink": "/apt0139/",
+      "url": "/apt0139"
+    },
+    {
+      "name": "Confucius",
+      "permalink": "/apt0142/",
+      "url": "/apt0142"
+    },
+    {
       "name": "Aquatic Panda",
       "permalink": "/apt0143/",
       "url": "/apt0143"
@@ -1606,6 +2186,71 @@
       "name": "APT1",
       "permalink": "/apt1/",
       "url": "/apt1"
+    },
+    {
+      "name": "LAPSUS$",
+      "permalink": "/apt1004/",
+      "url": "/apt1004"
+    },
+    {
+      "name": "Earth Lusca",
+      "permalink": "/apt1006/",
+      "url": "/apt1006"
+    },
+    {
+      "name": "Scattered Spider",
+      "permalink": "/apt1015/",
+      "url": "/apt1015"
+    },
+    {
+      "name": "FIN13",
+      "permalink": "/apt1016/",
+      "url": "/apt1016"
+    },
+    {
+      "name": "Volt Typhoon",
+      "permalink": "/apt1017/",
+      "url": "/apt1017"
+    },
+    {
+      "name": "MoustachedBouncer",
+      "permalink": "/apt1019/",
+      "url": "/apt1019"
+    },
+    {
+      "name": "ToddyCat",
+      "permalink": "/apt1022/",
+      "url": "/apt1022"
+    },
+    {
+      "name": "INC Ransom",
+      "permalink": "/apt1032/",
+      "url": "/apt1032"
+    },
+    {
+      "name": "Winter Vivern",
+      "permalink": "/apt1035/",
+      "url": "/apt1035"
+    },
+    {
+      "name": "Sea Turtle",
+      "permalink": "/apt1041/",
+      "url": "/apt1041"
+    },
+    {
+      "name": "BlackByte",
+      "permalink": "/apt1043/",
+      "url": "/apt1043"
+    },
+    {
+      "name": "UNC3886",
+      "permalink": "/apt1048/",
+      "url": "/apt1048"
+    },
+    {
+      "name": "Storm-0501",
+      "permalink": "/apt1053/",
+      "url": "/apt1053"
     },
     {
       "name": "APT28",
@@ -1643,9 +2288,19 @@
       "url": "/apt41"
     },
     {
+      "name": "Dust Storm",
+      "permalink": "/dust-storm/",
+      "url": "/dust-storm"
+    },
+    {
       "name": "FIN7",
       "permalink": "/fin7/",
       "url": "/fin7"
+    },
+    {
+      "name": "Honeybee",
+      "permalink": "/honeybee/",
+      "url": "/honeybee"
     },
     {
       "name": "Lazarus Group",
@@ -1653,9 +2308,19 @@
       "url": "/lazarus"
     },
     {
+      "name": "MirrorFace",
+      "permalink": "/mirrorface/",
+      "url": "/mirrorface"
+    },
+    {
       "name": "Night Dragon",
       "permalink": "/night-dragon/",
       "url": "/night-dragon"
+    },
+    {
+      "name": "Play",
+      "permalink": "/play/",
+      "url": "/play"
     },
     {
       "name": "Zack Korman",
@@ -1755,6 +2420,11 @@
       "url": "/apt0048"
     },
     {
+      "name": "CopyKittens",
+      "permalink": "/apt0052/",
+      "url": "/apt0052"
+    },
+    {
       "name": "FIN5",
       "permalink": "/apt0053/",
       "url": "/apt0053"
@@ -1845,6 +2515,11 @@
       "url": "/apt0082"
     },
     {
+      "name": "SilverTerrier",
+      "permalink": "/apt0083/",
+      "url": "/apt0083"
+    },
+    {
       "name": "FIN4",
       "permalink": "/apt0085/",
       "url": "/apt0085"
@@ -1858,6 +2533,11 @@
       "name": "TEMP.Veles",
       "permalink": "/apt0088/",
       "url": "/apt0088"
+    },
+    {
+      "name": "WIRTE",
+      "permalink": "/apt0090/",
+      "url": "/apt0090"
     },
     {
       "name": "Silence",
@@ -1885,6 +2565,11 @@
       "url": "/apt0100"
     },
     {
+      "name": "DarkVishnya",
+      "permalink": "/apt0105/",
+      "url": "/apt0105"
+    },
+    {
       "name": "Rocke",
       "permalink": "/apt0106/",
       "url": "/apt0106"
@@ -1893,6 +2578,11 @@
       "name": "Whitefly",
       "permalink": "/apt0107/",
       "url": "/apt0107"
+    },
+    {
+      "name": "Blue Mockingbird",
+      "permalink": "/apt0108/",
+      "url": "/apt0108"
     },
     {
       "name": "Windshift",
@@ -1933,6 +2623,11 @@
       "name": "Volatile Cedar",
       "permalink": "/apt0123/",
       "url": "/apt0123"
+    },
+    {
+      "name": "Windigo",
+      "permalink": "/apt0124/",
+      "url": "/apt0124"
     },
     {
       "name": "HAFNIUM",
@@ -1995,14 +2690,134 @@
       "url": "/apt0138"
     },
     {
+      "name": "TeamTNT",
+      "permalink": "/apt0139/",
+      "url": "/apt0139"
+    },
+    {
       "name": "LazyScripter",
       "permalink": "/apt0140/",
       "url": "/apt0140"
     },
     {
+      "name": "Confucius",
+      "permalink": "/apt0142/",
+      "url": "/apt0142"
+    },
+    {
       "name": "Aquatic Panda",
       "permalink": "/apt0143/",
       "url": "/apt0143"
+    },
+    {
+      "name": "LAPSUS$",
+      "permalink": "/apt1004/",
+      "url": "/apt1004"
+    },
+    {
+      "name": "POLONIUM",
+      "permalink": "/apt1005/",
+      "url": "/apt1005"
+    },
+    {
+      "name": "Earth Lusca",
+      "permalink": "/apt1006/",
+      "url": "/apt1006"
+    },
+    {
+      "name": "SideCopy",
+      "permalink": "/apt1008/",
+      "url": "/apt1008"
+    },
+    {
+      "name": "Moses Staff",
+      "permalink": "/apt1009/",
+      "url": "/apt1009"
+    },
+    {
+      "name": "EXOTIC LILY",
+      "permalink": "/apt1011/",
+      "url": "/apt1011"
+    },
+    {
+      "name": "Metador",
+      "permalink": "/apt1013/",
+      "url": "/apt1013"
+    },
+    {
+      "name": "Scattered Spider",
+      "permalink": "/apt1015/",
+      "url": "/apt1015"
+    },
+    {
+      "name": "FIN13",
+      "permalink": "/apt1016/",
+      "url": "/apt1016"
+    },
+    {
+      "name": "Volt Typhoon",
+      "permalink": "/apt1017/",
+      "url": "/apt1017"
+    },
+    {
+      "name": "TA2541",
+      "permalink": "/apt1018/",
+      "url": "/apt1018"
+    },
+    {
+      "name": "MoustachedBouncer",
+      "permalink": "/apt1019/",
+      "url": "/apt1019"
+    },
+    {
+      "name": "ToddyCat",
+      "permalink": "/apt1022/",
+      "url": "/apt1022"
+    },
+    {
+      "name": "INC Ransom",
+      "permalink": "/apt1032/",
+      "url": "/apt1032"
+    },
+    {
+      "name": "Winter Vivern",
+      "permalink": "/apt1035/",
+      "url": "/apt1035"
+    },
+    {
+      "name": "Sea Turtle",
+      "permalink": "/apt1041/",
+      "url": "/apt1041"
+    },
+    {
+      "name": "RedEcho",
+      "permalink": "/apt1042/",
+      "url": "/apt1042"
+    },
+    {
+      "name": "BlackByte",
+      "permalink": "/apt1043/",
+      "url": "/apt1043"
+    },
+    {
+      "name": "Velvet Ant",
+      "permalink": "/apt1047/",
+      "url": "/apt1047"
+    },
+    {
+      "name": "UNC3886",
+      "permalink": "/apt1048/",
+      "url": "/apt1048"
+    },
+    {
+      "name": "Medusa Group",
+      "permalink": "/apt1051/",
+      "url": "/apt1051"
+    },
+    {
+      "name": "Storm-0501",
+      "permalink": "/apt1053/",
+      "url": "/apt1053"
     },
     {
       "name": "APT28",
@@ -2050,14 +2865,29 @@
       "url": "/fin7"
     },
     {
+      "name": "Honeybee",
+      "permalink": "/honeybee/",
+      "url": "/honeybee"
+    },
+    {
       "name": "Lazarus Group",
       "permalink": "/lazarus/",
       "url": "/lazarus"
     },
     {
+      "name": "MirrorFace",
+      "permalink": "/mirrorface/",
+      "url": "/mirrorface"
+    },
+    {
       "name": "Night Dragon",
       "permalink": "/night-dragon/",
       "url": "/night-dragon"
+    },
+    {
+      "name": "Play",
+      "permalink": "/play/",
+      "url": "/play"
     }
   ],
   "TA0102": [
@@ -2090,6 +2920,11 @@
       "name": "Naikon",
       "permalink": "/apt0019/",
       "url": "/apt0019"
+    },
+    {
+      "name": "Equation",
+      "permalink": "/apt0020/",
+      "url": "/apt0020"
     },
     {
       "name": "Molerats",
@@ -2237,6 +3072,11 @@
       "url": "/apt0089"
     },
     {
+      "name": "WIRTE",
+      "permalink": "/apt0090/",
+      "url": "/apt0090"
+    },
+    {
       "name": "Silence",
       "permalink": "/apt0091/",
       "url": "/apt0091"
@@ -2262,9 +3102,19 @@
       "url": "/apt0100"
     },
     {
+      "name": "DarkVishnya",
+      "permalink": "/apt0105/",
+      "url": "/apt0105"
+    },
+    {
       "name": "Rocke",
       "permalink": "/apt0106/",
       "url": "/apt0106"
+    },
+    {
+      "name": "Blue Mockingbird",
+      "permalink": "/apt0108/",
+      "url": "/apt0108"
     },
     {
       "name": "Windshift",
@@ -2297,6 +3147,16 @@
       "url": "/apt0121"
     },
     {
+      "name": "Windigo",
+      "permalink": "/apt0124/",
+      "url": "/apt0124"
+    },
+    {
+      "name": "HAFNIUM",
+      "permalink": "/apt0125/",
+      "url": "/apt0125"
+    },
+    {
       "name": "Higaisa",
       "permalink": "/apt0126/",
       "url": "/apt0126"
@@ -2327,6 +3187,16 @@
       "url": "/apt0138"
     },
     {
+      "name": "TeamTNT",
+      "permalink": "/apt0139/",
+      "url": "/apt0139"
+    },
+    {
+      "name": "Confucius",
+      "permalink": "/apt0142/",
+      "url": "/apt0142"
+    },
+    {
       "name": "Aquatic Panda",
       "permalink": "/apt0143/",
       "url": "/apt0143"
@@ -2335,6 +3205,96 @@
       "name": "APT1",
       "permalink": "/apt1/",
       "url": "/apt1"
+    },
+    {
+      "name": "LAPSUS$",
+      "permalink": "/apt1004/",
+      "url": "/apt1004"
+    },
+    {
+      "name": "Earth Lusca",
+      "permalink": "/apt1006/",
+      "url": "/apt1006"
+    },
+    {
+      "name": "Aoqin Dragon",
+      "permalink": "/apt1007/",
+      "url": "/apt1007"
+    },
+    {
+      "name": "SideCopy",
+      "permalink": "/apt1008/",
+      "url": "/apt1008"
+    },
+    {
+      "name": "Moses Staff",
+      "permalink": "/apt1009/",
+      "url": "/apt1009"
+    },
+    {
+      "name": "Scattered Spider",
+      "permalink": "/apt1015/",
+      "url": "/apt1015"
+    },
+    {
+      "name": "FIN13",
+      "permalink": "/apt1016/",
+      "url": "/apt1016"
+    },
+    {
+      "name": "Volt Typhoon",
+      "permalink": "/apt1017/",
+      "url": "/apt1017"
+    },
+    {
+      "name": "TA2541",
+      "permalink": "/apt1018/",
+      "url": "/apt1018"
+    },
+    {
+      "name": "ToddyCat",
+      "permalink": "/apt1022/",
+      "url": "/apt1022"
+    },
+    {
+      "name": "Malteiro",
+      "permalink": "/apt1026/",
+      "url": "/apt1026"
+    },
+    {
+      "name": "INC Ransom",
+      "permalink": "/apt1032/",
+      "url": "/apt1032"
+    },
+    {
+      "name": "Winter Vivern",
+      "permalink": "/apt1035/",
+      "url": "/apt1035"
+    },
+    {
+      "name": "BlackByte",
+      "permalink": "/apt1043/",
+      "url": "/apt1043"
+    },
+    {
+      "name": "Velvet Ant",
+      "permalink": "/apt1047/",
+      "url": "/apt1047"
+    },
+    {
+      "name": "UNC3886",
+      "permalink": "/apt1048/",
+      "url": "/apt1048"
+    },
+    {
+      "name": "Medusa Group",
+      "permalink": "/apt1051/",
+      "url": "/apt1051"
+    },
+    {
+      "name": "Storm-0501",
+      "permalink": "/apt1053/",
+      "url": "/apt1053"
     },
     {
       "name": "APT28",
@@ -2372,14 +3332,34 @@
       "url": "/cl0p"
     },
     {
+      "name": "Dust Storm",
+      "permalink": "/dust-storm/",
+      "url": "/dust-storm"
+    },
+    {
       "name": "FIN7",
       "permalink": "/fin7/",
       "url": "/fin7"
     },
     {
+      "name": "Honeybee",
+      "permalink": "/honeybee/",
+      "url": "/honeybee"
+    },
+    {
       "name": "Lazarus Group",
       "permalink": "/lazarus/",
       "url": "/lazarus"
+    },
+    {
+      "name": "MirrorFace",
+      "permalink": "/mirrorface/",
+      "url": "/mirrorface"
+    },
+    {
+      "name": "Play",
+      "permalink": "/play/",
+      "url": "/play"
     },
     {
       "name": "Zack Korman",
@@ -2454,6 +3434,11 @@
       "url": "/apt0027"
     },
     {
+      "name": "Threat Group-1314",
+      "permalink": "/apt0028/",
+      "url": "/apt0028"
+    },
+    {
       "name": "Poseidon Group",
       "permalink": "/apt0033/",
       "url": "/apt0033"
@@ -2644,6 +3629,11 @@
       "url": "/apt0089"
     },
     {
+      "name": "WIRTE",
+      "permalink": "/apt0090/",
+      "url": "/apt0090"
+    },
+    {
       "name": "Silence",
       "permalink": "/apt0091/",
       "url": "/apt0091"
@@ -2684,6 +3674,11 @@
       "url": "/apt0103"
     },
     {
+      "name": "DarkVishnya",
+      "permalink": "/apt0105/",
+      "url": "/apt0105"
+    },
+    {
       "name": "Rocke",
       "permalink": "/apt0106/",
       "url": "/apt0106"
@@ -2692,6 +3687,11 @@
       "name": "Whitefly",
       "permalink": "/apt0107/",
       "url": "/apt0107"
+    },
+    {
+      "name": "Blue Mockingbird",
+      "permalink": "/apt0108/",
+      "url": "/apt0108"
     },
     {
       "name": "Windshift",
@@ -2727,6 +3727,11 @@
       "name": "Sidewinder",
       "permalink": "/apt0121/",
       "url": "/apt0121"
+    },
+    {
+      "name": "Windigo",
+      "permalink": "/apt0124/",
+      "url": "/apt0124"
     },
     {
       "name": "HAFNIUM",
@@ -2794,9 +3799,19 @@
       "url": "/apt0138"
     },
     {
+      "name": "TeamTNT",
+      "permalink": "/apt0139/",
+      "url": "/apt0139"
+    },
+    {
       "name": "LazyScripter",
       "permalink": "/apt0140/",
       "url": "/apt0140"
+    },
+    {
+      "name": "Confucius",
+      "permalink": "/apt0142/",
+      "url": "/apt0142"
     },
     {
       "name": "Aquatic Panda",
@@ -2807,6 +3822,121 @@
       "name": "APT1",
       "permalink": "/apt1/",
       "url": "/apt1"
+    },
+    {
+      "name": "LAPSUS$",
+      "permalink": "/apt1004/",
+      "url": "/apt1004"
+    },
+    {
+      "name": "Earth Lusca",
+      "permalink": "/apt1006/",
+      "url": "/apt1006"
+    },
+    {
+      "name": "Aoqin Dragon",
+      "permalink": "/apt1007/",
+      "url": "/apt1007"
+    },
+    {
+      "name": "SideCopy",
+      "permalink": "/apt1008/",
+      "url": "/apt1008"
+    },
+    {
+      "name": "EXOTIC LILY",
+      "permalink": "/apt1011/",
+      "url": "/apt1011"
+    },
+    {
+      "name": "Metador",
+      "permalink": "/apt1013/",
+      "url": "/apt1013"
+    },
+    {
+      "name": "Scattered Spider",
+      "permalink": "/apt1015/",
+      "url": "/apt1015"
+    },
+    {
+      "name": "FIN13",
+      "permalink": "/apt1016/",
+      "url": "/apt1016"
+    },
+    {
+      "name": "Volt Typhoon",
+      "permalink": "/apt1017/",
+      "url": "/apt1017"
+    },
+    {
+      "name": "TA2541",
+      "permalink": "/apt1018/",
+      "url": "/apt1018"
+    },
+    {
+      "name": "MoustachedBouncer",
+      "permalink": "/apt1019/",
+      "url": "/apt1019"
+    },
+    {
+      "name": "ToddyCat",
+      "permalink": "/apt1022/",
+      "url": "/apt1022"
+    },
+    {
+      "name": "Malteiro",
+      "permalink": "/apt1026/",
+      "url": "/apt1026"
+    },
+    {
+      "name": "INC Ransom",
+      "permalink": "/apt1032/",
+      "url": "/apt1032"
+    },
+    {
+      "name": "Winter Vivern",
+      "permalink": "/apt1035/",
+      "url": "/apt1035"
+    },
+    {
+      "name": "TA577",
+      "permalink": "/apt1037/",
+      "url": "/apt1037"
+    },
+    {
+      "name": "TA578",
+      "permalink": "/apt1038/",
+      "url": "/apt1038"
+    },
+    {
+      "name": "Sea Turtle",
+      "permalink": "/apt1041/",
+      "url": "/apt1041"
+    },
+    {
+      "name": "BlackByte",
+      "permalink": "/apt1043/",
+      "url": "/apt1043"
+    },
+    {
+      "name": "Velvet Ant",
+      "permalink": "/apt1047/",
+      "url": "/apt1047"
+    },
+    {
+      "name": "UNC3886",
+      "permalink": "/apt1048/",
+      "url": "/apt1048"
+    },
+    {
+      "name": "Medusa Group",
+      "permalink": "/apt1051/",
+      "url": "/apt1051"
+    },
+    {
+      "name": "Storm-0501",
+      "permalink": "/apt1053/",
+      "url": "/apt1053"
     },
     {
       "name": "APT28",
@@ -2854,14 +3984,29 @@
       "url": "/fin7"
     },
     {
+      "name": "Honeybee",
+      "permalink": "/honeybee/",
+      "url": "/honeybee"
+    },
+    {
       "name": "Lazarus Group",
       "permalink": "/lazarus/",
       "url": "/lazarus"
     },
     {
+      "name": "MirrorFace",
+      "permalink": "/mirrorface/",
+      "url": "/mirrorface"
+    },
+    {
       "name": "Night Dragon",
       "permalink": "/night-dragon/",
       "url": "/night-dragon"
+    },
+    {
+      "name": "Play",
+      "permalink": "/play/",
+      "url": "/play"
     }
   ],
   "TA0105": [
@@ -2876,6 +4021,11 @@
       "url": "/apt0047"
     },
     {
+      "name": "FIN8",
+      "permalink": "/apt0061/",
+      "url": "/apt0061"
+    },
+    {
       "name": "APT37",
       "permalink": "/apt0067/",
       "url": "/apt0067"
@@ -2886,14 +4036,74 @@
       "url": "/apt0082"
     },
     {
+      "name": "SilverTerrier",
+      "permalink": "/apt0083/",
+      "url": "/apt0083"
+    },
+    {
       "name": "Rocke",
       "permalink": "/apt0106/",
       "url": "/apt0106"
     },
     {
+      "name": "Blue Mockingbird",
+      "permalink": "/apt0108/",
+      "url": "/apt0108"
+    },
+    {
       "name": "Indrik Spider",
       "permalink": "/apt0119/",
       "url": "/apt0119"
+    },
+    {
+      "name": "TeamTNT",
+      "permalink": "/apt0139/",
+      "url": "/apt0139"
+    },
+    {
+      "name": "LAPSUS$",
+      "permalink": "/apt1004/",
+      "url": "/apt1004"
+    },
+    {
+      "name": "Scattered Spider",
+      "permalink": "/apt1015/",
+      "url": "/apt1015"
+    },
+    {
+      "name": "FIN13",
+      "permalink": "/apt1016/",
+      "url": "/apt1016"
+    },
+    {
+      "name": "Malteiro",
+      "permalink": "/apt1026/",
+      "url": "/apt1026"
+    },
+    {
+      "name": "INC Ransom",
+      "permalink": "/apt1032/",
+      "url": "/apt1032"
+    },
+    {
+      "name": "BlackByte",
+      "permalink": "/apt1043/",
+      "url": "/apt1043"
+    },
+    {
+      "name": "Water Galura",
+      "permalink": "/apt1050/",
+      "url": "/apt1050"
+    },
+    {
+      "name": "Medusa Group",
+      "permalink": "/apt1051/",
+      "url": "/apt1051"
+    },
+    {
+      "name": "Storm-0501",
+      "permalink": "/apt1053/",
+      "url": "/apt1053"
     },
     {
       "name": "APT28",
@@ -2919,6 +4129,11 @@
       "name": "Lazarus Group",
       "permalink": "/lazarus/",
       "url": "/lazarus"
+    },
+    {
+      "name": "Play",
+      "permalink": "/play/",
+      "url": "/play"
     },
     {
       "name": "Zack Korman",
@@ -2991,6 +4206,11 @@
       "name": "Threat Group-3390",
       "permalink": "/apt0027/",
       "url": "/apt0027"
+    },
+    {
+      "name": "Threat Group-1314",
+      "permalink": "/apt0028/",
+      "url": "/apt0028"
     },
     {
       "name": "Sandworm Team",
@@ -3158,6 +4378,11 @@
       "url": "/apt0089"
     },
     {
+      "name": "WIRTE",
+      "permalink": "/apt0090/",
+      "url": "/apt0090"
+    },
+    {
       "name": "Silence",
       "permalink": "/apt0091/",
       "url": "/apt0091"
@@ -3198,9 +4423,19 @@
       "url": "/apt0103"
     },
     {
+      "name": "DarkVishnya",
+      "permalink": "/apt0105/",
+      "url": "/apt0105"
+    },
+    {
       "name": "Rocke",
       "permalink": "/apt0106/",
       "url": "/apt0106"
+    },
+    {
+      "name": "Blue Mockingbird",
+      "permalink": "/apt0108/",
+      "url": "/apt0108"
     },
     {
       "name": "Windshift",
@@ -3246,6 +4481,11 @@
       "name": "Volatile Cedar",
       "permalink": "/apt0123/",
       "url": "/apt0123"
+    },
+    {
+      "name": "Windigo",
+      "permalink": "/apt0124/",
+      "url": "/apt0124"
     },
     {
       "name": "HAFNIUM",
@@ -3313,14 +4553,144 @@
       "url": "/apt0138"
     },
     {
+      "name": "TeamTNT",
+      "permalink": "/apt0139/",
+      "url": "/apt0139"
+    },
+    {
       "name": "LazyScripter",
       "permalink": "/apt0140/",
       "url": "/apt0140"
     },
     {
+      "name": "Confucius",
+      "permalink": "/apt0142/",
+      "url": "/apt0142"
+    },
+    {
       "name": "APT1",
       "permalink": "/apt1/",
       "url": "/apt1"
+    },
+    {
+      "name": "LAPSUS$",
+      "permalink": "/apt1004/",
+      "url": "/apt1004"
+    },
+    {
+      "name": "POLONIUM",
+      "permalink": "/apt1005/",
+      "url": "/apt1005"
+    },
+    {
+      "name": "Earth Lusca",
+      "permalink": "/apt1006/",
+      "url": "/apt1006"
+    },
+    {
+      "name": "Aoqin Dragon",
+      "permalink": "/apt1007/",
+      "url": "/apt1007"
+    },
+    {
+      "name": "SideCopy",
+      "permalink": "/apt1008/",
+      "url": "/apt1008"
+    },
+    {
+      "name": "Moses Staff",
+      "permalink": "/apt1009/",
+      "url": "/apt1009"
+    },
+    {
+      "name": "EXOTIC LILY",
+      "permalink": "/apt1011/",
+      "url": "/apt1011"
+    },
+    {
+      "name": "Scattered Spider",
+      "permalink": "/apt1015/",
+      "url": "/apt1015"
+    },
+    {
+      "name": "FIN13",
+      "permalink": "/apt1016/",
+      "url": "/apt1016"
+    },
+    {
+      "name": "Volt Typhoon",
+      "permalink": "/apt1017/",
+      "url": "/apt1017"
+    },
+    {
+      "name": "TA2541",
+      "permalink": "/apt1018/",
+      "url": "/apt1018"
+    },
+    {
+      "name": "MoustachedBouncer",
+      "permalink": "/apt1019/",
+      "url": "/apt1019"
+    },
+    {
+      "name": "ToddyCat",
+      "permalink": "/apt1022/",
+      "url": "/apt1022"
+    },
+    {
+      "name": "Malteiro",
+      "permalink": "/apt1026/",
+      "url": "/apt1026"
+    },
+    {
+      "name": "INC Ransom",
+      "permalink": "/apt1032/",
+      "url": "/apt1032"
+    },
+    {
+      "name": "Winter Vivern",
+      "permalink": "/apt1035/",
+      "url": "/apt1035"
+    },
+    {
+      "name": "TA577",
+      "permalink": "/apt1037/",
+      "url": "/apt1037"
+    },
+    {
+      "name": "Sea Turtle",
+      "permalink": "/apt1041/",
+      "url": "/apt1041"
+    },
+    {
+      "name": "BlackByte",
+      "permalink": "/apt1043/",
+      "url": "/apt1043"
+    },
+    {
+      "name": "APT42",
+      "permalink": "/apt1044/",
+      "url": "/apt1044"
+    },
+    {
+      "name": "Velvet Ant",
+      "permalink": "/apt1047/",
+      "url": "/apt1047"
+    },
+    {
+      "name": "UNC3886",
+      "permalink": "/apt1048/",
+      "url": "/apt1048"
+    },
+    {
+      "name": "Medusa Group",
+      "permalink": "/apt1051/",
+      "url": "/apt1051"
+    },
+    {
+      "name": "Storm-0501",
+      "permalink": "/apt1053/",
+      "url": "/apt1053"
     },
     {
       "name": "APT28",
@@ -3373,9 +4743,19 @@
       "url": "/lazarus"
     },
     {
+      "name": "MirrorFace",
+      "permalink": "/mirrorface/",
+      "url": "/mirrorface"
+    },
+    {
       "name": "Night Dragon",
       "permalink": "/night-dragon/",
       "url": "/night-dragon"
+    },
+    {
+      "name": "Play",
+      "permalink": "/play/",
+      "url": "/play"
     },
     {
       "name": "Zack Korman",
@@ -3418,6 +4798,11 @@
       "name": "Threat Group-3390",
       "permalink": "/apt0027/",
       "url": "/apt0027"
+    },
+    {
+      "name": "Threat Group-1314",
+      "permalink": "/apt0028/",
+      "url": "/apt0028"
     },
     {
       "name": "Sandworm Team",
@@ -3470,6 +4855,11 @@
       "url": "/apt0061"
     },
     {
+      "name": "MuddyWater",
+      "permalink": "/apt0069/",
+      "url": "/apt0069"
+    },
+    {
       "name": "Orangeworm",
       "permalink": "/apt0071/",
       "url": "/apt0071"
@@ -3515,9 +4905,19 @@
       "url": "/apt0098"
     },
     {
+      "name": "APT-C-36",
+      "permalink": "/apt0099/",
+      "url": "/apt0099"
+    },
+    {
       "name": "Rocke",
       "permalink": "/apt0106/",
       "url": "/apt0106"
+    },
+    {
+      "name": "Blue Mockingbird",
+      "permalink": "/apt0108/",
+      "url": "/apt0108"
     },
     {
       "name": "Chimera",
@@ -3530,6 +4930,11 @@
       "url": "/apt0117"
     },
     {
+      "name": "HAFNIUM",
+      "permalink": "/apt0125/",
+      "url": "/apt0125"
+    },
+    {
       "name": "Mustang Panda",
       "permalink": "/apt0129/",
       "url": "/apt0129"
@@ -3540,9 +4945,79 @@
       "url": "/apt0131"
     },
     {
+      "name": "TeamTNT",
+      "permalink": "/apt0139/",
+      "url": "/apt0139"
+    },
+    {
       "name": "APT1",
       "permalink": "/apt1/",
       "url": "/apt1"
+    },
+    {
+      "name": "Earth Lusca",
+      "permalink": "/apt1006/",
+      "url": "/apt1006"
+    },
+    {
+      "name": "Aoqin Dragon",
+      "permalink": "/apt1007/",
+      "url": "/apt1007"
+    },
+    {
+      "name": "Moses Staff",
+      "permalink": "/apt1009/",
+      "url": "/apt1009"
+    },
+    {
+      "name": "Scattered Spider",
+      "permalink": "/apt1015/",
+      "url": "/apt1015"
+    },
+    {
+      "name": "FIN13",
+      "permalink": "/apt1016/",
+      "url": "/apt1016"
+    },
+    {
+      "name": "Volt Typhoon",
+      "permalink": "/apt1017/",
+      "url": "/apt1017"
+    },
+    {
+      "name": "ToddyCat",
+      "permalink": "/apt1022/",
+      "url": "/apt1022"
+    },
+    {
+      "name": "INC Ransom",
+      "permalink": "/apt1032/",
+      "url": "/apt1032"
+    },
+    {
+      "name": "BlackByte",
+      "permalink": "/apt1043/",
+      "url": "/apt1043"
+    },
+    {
+      "name": "Velvet Ant",
+      "permalink": "/apt1047/",
+      "url": "/apt1047"
+    },
+    {
+      "name": "UNC3886",
+      "permalink": "/apt1048/",
+      "url": "/apt1048"
+    },
+    {
+      "name": "Medusa Group",
+      "permalink": "/apt1051/",
+      "url": "/apt1051"
+    },
+    {
+      "name": "Storm-0501",
+      "permalink": "/apt1053/",
+      "url": "/apt1053"
     },
     {
       "name": "APT28",
@@ -3585,9 +5060,19 @@
       "url": "/lazarus"
     },
     {
+      "name": "MirrorFace",
+      "permalink": "/mirrorface/",
+      "url": "/mirrorface"
+    },
+    {
       "name": "Night Dragon",
       "permalink": "/night-dragon/",
       "url": "/night-dragon"
+    },
+    {
+      "name": "Play",
+      "permalink": "/play/",
+      "url": "/play"
     }
   ],
   "TA0110": [
@@ -3627,6 +5112,11 @@
       "url": "/apt0019"
     },
     {
+      "name": "Equation",
+      "permalink": "/apt0020/",
+      "url": "/apt0020"
+    },
+    {
       "name": "Molerats",
       "permalink": "/apt0021/",
       "url": "/apt0021"
@@ -3650,6 +5140,11 @@
       "name": "Threat Group-3390",
       "permalink": "/apt0027/",
       "url": "/apt0027"
+    },
+    {
+      "name": "Threat Group-1314",
+      "permalink": "/apt0028/",
+      "url": "/apt0028"
     },
     {
       "name": "Sandworm Team",
@@ -3827,9 +5322,19 @@
       "url": "/apt0100"
     },
     {
+      "name": "DarkVishnya",
+      "permalink": "/apt0105/",
+      "url": "/apt0105"
+    },
+    {
       "name": "Rocke",
       "permalink": "/apt0106/",
       "url": "/apt0106"
+    },
+    {
+      "name": "Blue Mockingbird",
+      "permalink": "/apt0108/",
+      "url": "/apt0108"
     },
     {
       "name": "Windshift",
@@ -3902,9 +5407,109 @@
       "url": "/apt0135"
     },
     {
+      "name": "TeamTNT",
+      "permalink": "/apt0139/",
+      "url": "/apt0139"
+    },
+    {
       "name": "LazyScripter",
       "permalink": "/apt0140/",
       "url": "/apt0140"
+    },
+    {
+      "name": "Confucius",
+      "permalink": "/apt0142/",
+      "url": "/apt0142"
+    },
+    {
+      "name": "LAPSUS$",
+      "permalink": "/apt1004/",
+      "url": "/apt1004"
+    },
+    {
+      "name": "POLONIUM",
+      "permalink": "/apt1005/",
+      "url": "/apt1005"
+    },
+    {
+      "name": "Earth Lusca",
+      "permalink": "/apt1006/",
+      "url": "/apt1006"
+    },
+    {
+      "name": "Moses Staff",
+      "permalink": "/apt1009/",
+      "url": "/apt1009"
+    },
+    {
+      "name": "Metador",
+      "permalink": "/apt1013/",
+      "url": "/apt1013"
+    },
+    {
+      "name": "Scattered Spider",
+      "permalink": "/apt1015/",
+      "url": "/apt1015"
+    },
+    {
+      "name": "FIN13",
+      "permalink": "/apt1016/",
+      "url": "/apt1016"
+    },
+    {
+      "name": "Volt Typhoon",
+      "permalink": "/apt1017/",
+      "url": "/apt1017"
+    },
+    {
+      "name": "TA2541",
+      "permalink": "/apt1018/",
+      "url": "/apt1018"
+    },
+    {
+      "name": "ToddyCat",
+      "permalink": "/apt1022/",
+      "url": "/apt1022"
+    },
+    {
+      "name": "INC Ransom",
+      "permalink": "/apt1032/",
+      "url": "/apt1032"
+    },
+    {
+      "name": "Winter Vivern",
+      "permalink": "/apt1035/",
+      "url": "/apt1035"
+    },
+    {
+      "name": "Sea Turtle",
+      "permalink": "/apt1041/",
+      "url": "/apt1041"
+    },
+    {
+      "name": "BlackByte",
+      "permalink": "/apt1043/",
+      "url": "/apt1043"
+    },
+    {
+      "name": "Velvet Ant",
+      "permalink": "/apt1047/",
+      "url": "/apt1047"
+    },
+    {
+      "name": "UNC3886",
+      "permalink": "/apt1048/",
+      "url": "/apt1048"
+    },
+    {
+      "name": "Medusa Group",
+      "permalink": "/apt1051/",
+      "url": "/apt1051"
+    },
+    {
+      "name": "Storm-0501",
+      "permalink": "/apt1053/",
+      "url": "/apt1053"
     },
     {
       "name": "APT28",
@@ -3952,14 +5557,29 @@
       "url": "/fin7"
     },
     {
+      "name": "Honeybee",
+      "permalink": "/honeybee/",
+      "url": "/honeybee"
+    },
+    {
       "name": "Lazarus Group",
       "permalink": "/lazarus/",
       "url": "/lazarus"
     },
     {
+      "name": "MirrorFace",
+      "permalink": "/mirrorface/",
+      "url": "/mirrorface"
+    },
+    {
       "name": "Night Dragon",
       "permalink": "/night-dragon/",
       "url": "/night-dragon"
+    },
+    {
+      "name": "Play",
+      "permalink": "/play/",
+      "url": "/play"
     },
     {
       "name": "Zack Korman",
@@ -4027,6 +5647,11 @@
       "name": "Threat Group-3390",
       "permalink": "/apt0027/",
       "url": "/apt0027"
+    },
+    {
+      "name": "Threat Group-1314",
+      "permalink": "/apt0028/",
+      "url": "/apt0028"
     },
     {
       "name": "Sandworm Team",
@@ -4204,6 +5829,11 @@
       "url": "/apt0100"
     },
     {
+      "name": "DarkVishnya",
+      "permalink": "/apt0105/",
+      "url": "/apt0105"
+    },
+    {
       "name": "Rocke",
       "permalink": "/apt0106/",
       "url": "/apt0106"
@@ -4212,6 +5842,11 @@
       "name": "Whitefly",
       "permalink": "/apt0107/",
       "url": "/apt0107"
+    },
+    {
+      "name": "Blue Mockingbird",
+      "permalink": "/apt0108/",
+      "url": "/apt0108"
     },
     {
       "name": "Windshift",
@@ -4279,9 +5914,114 @@
       "url": "/apt0135"
     },
     {
+      "name": "TeamTNT",
+      "permalink": "/apt0139/",
+      "url": "/apt0139"
+    },
+    {
       "name": "LazyScripter",
       "permalink": "/apt0140/",
       "url": "/apt0140"
+    },
+    {
+      "name": "Confucius",
+      "permalink": "/apt0142/",
+      "url": "/apt0142"
+    },
+    {
+      "name": "LAPSUS$",
+      "permalink": "/apt1004/",
+      "url": "/apt1004"
+    },
+    {
+      "name": "POLONIUM",
+      "permalink": "/apt1005/",
+      "url": "/apt1005"
+    },
+    {
+      "name": "Earth Lusca",
+      "permalink": "/apt1006/",
+      "url": "/apt1006"
+    },
+    {
+      "name": "Metador",
+      "permalink": "/apt1013/",
+      "url": "/apt1013"
+    },
+    {
+      "name": "Scattered Spider",
+      "permalink": "/apt1015/",
+      "url": "/apt1015"
+    },
+    {
+      "name": "FIN13",
+      "permalink": "/apt1016/",
+      "url": "/apt1016"
+    },
+    {
+      "name": "Volt Typhoon",
+      "permalink": "/apt1017/",
+      "url": "/apt1017"
+    },
+    {
+      "name": "TA2541",
+      "permalink": "/apt1018/",
+      "url": "/apt1018"
+    },
+    {
+      "name": "MoustachedBouncer",
+      "permalink": "/apt1019/",
+      "url": "/apt1019"
+    },
+    {
+      "name": "ToddyCat",
+      "permalink": "/apt1022/",
+      "url": "/apt1022"
+    },
+    {
+      "name": "Malteiro",
+      "permalink": "/apt1026/",
+      "url": "/apt1026"
+    },
+    {
+      "name": "INC Ransom",
+      "permalink": "/apt1032/",
+      "url": "/apt1032"
+    },
+    {
+      "name": "Winter Vivern",
+      "permalink": "/apt1035/",
+      "url": "/apt1035"
+    },
+    {
+      "name": "Sea Turtle",
+      "permalink": "/apt1041/",
+      "url": "/apt1041"
+    },
+    {
+      "name": "BlackByte",
+      "permalink": "/apt1043/",
+      "url": "/apt1043"
+    },
+    {
+      "name": "Velvet Ant",
+      "permalink": "/apt1047/",
+      "url": "/apt1047"
+    },
+    {
+      "name": "UNC3886",
+      "permalink": "/apt1048/",
+      "url": "/apt1048"
+    },
+    {
+      "name": "Medusa Group",
+      "permalink": "/apt1051/",
+      "url": "/apt1051"
+    },
+    {
+      "name": "Storm-0501",
+      "permalink": "/apt1053/",
+      "url": "/apt1053"
     },
     {
       "name": "APT28",
@@ -4329,6 +6069,11 @@
       "url": "/fin7"
     },
     {
+      "name": "Honeybee",
+      "permalink": "/honeybee/",
+      "url": "/honeybee"
+    },
+    {
       "name": "Lazarus Group",
       "permalink": "/lazarus/",
       "url": "/lazarus"
@@ -4337,6 +6082,11 @@
       "name": "Night Dragon",
       "permalink": "/night-dragon/",
       "url": "/night-dragon"
+    },
+    {
+      "name": "Play",
+      "permalink": "/play/",
+      "url": "/play"
     },
     {
       "name": "Zack Korman",
@@ -4411,6 +6161,11 @@
       "url": "/apt0052"
     },
     {
+      "name": "FIN5",
+      "permalink": "/apt0053/",
+      "url": "/apt0053"
+    },
+    {
       "name": "PROMETHIUM",
       "permalink": "/apt0056/",
       "url": "/apt0056"
@@ -4419,6 +6174,11 @@
       "name": "FIN8",
       "permalink": "/apt0061/",
       "url": "/apt0061"
+    },
+    {
+      "name": "MuddyWater",
+      "permalink": "/apt0069/",
+      "url": "/apt0069"
     },
     {
       "name": "APT19",
@@ -4461,6 +6221,11 @@
       "url": "/apt0106"
     },
     {
+      "name": "Blue Mockingbird",
+      "permalink": "/apt0108/",
+      "url": "/apt0108"
+    },
+    {
       "name": "Chimera",
       "permalink": "/apt0114/",
       "url": "/apt0114"
@@ -4469,6 +6234,96 @@
       "name": "Indrik Spider",
       "permalink": "/apt0119/",
       "url": "/apt0119"
+    },
+    {
+      "name": "HAFNIUM",
+      "permalink": "/apt0125/",
+      "url": "/apt0125"
+    },
+    {
+      "name": "TeamTNT",
+      "permalink": "/apt0139/",
+      "url": "/apt0139"
+    },
+    {
+      "name": "LAPSUS$",
+      "permalink": "/apt1004/",
+      "url": "/apt1004"
+    },
+    {
+      "name": "Earth Lusca",
+      "permalink": "/apt1006/",
+      "url": "/apt1006"
+    },
+    {
+      "name": "Moses Staff",
+      "permalink": "/apt1009/",
+      "url": "/apt1009"
+    },
+    {
+      "name": "Scattered Spider",
+      "permalink": "/apt1015/",
+      "url": "/apt1015"
+    },
+    {
+      "name": "FIN13",
+      "permalink": "/apt1016/",
+      "url": "/apt1016"
+    },
+    {
+      "name": "Volt Typhoon",
+      "permalink": "/apt1017/",
+      "url": "/apt1017"
+    },
+    {
+      "name": "TA2541",
+      "permalink": "/apt1018/",
+      "url": "/apt1018"
+    },
+    {
+      "name": "ToddyCat",
+      "permalink": "/apt1022/",
+      "url": "/apt1022"
+    },
+    {
+      "name": "INC Ransom",
+      "permalink": "/apt1032/",
+      "url": "/apt1032"
+    },
+    {
+      "name": "Sea Turtle",
+      "permalink": "/apt1041/",
+      "url": "/apt1041"
+    },
+    {
+      "name": "BlackByte",
+      "permalink": "/apt1043/",
+      "url": "/apt1043"
+    },
+    {
+      "name": "Velvet Ant",
+      "permalink": "/apt1047/",
+      "url": "/apt1047"
+    },
+    {
+      "name": "UNC3886",
+      "permalink": "/apt1048/",
+      "url": "/apt1048"
+    },
+    {
+      "name": "Medusa Group",
+      "permalink": "/apt1051/",
+      "url": "/apt1051"
+    },
+    {
+      "name": "Storm-0501",
+      "permalink": "/apt1053/",
+      "url": "/apt1053"
+    },
+    {
+      "name": "APT28",
+      "permalink": "/apt28/",
+      "url": "/apt28"
     },
     {
       "name": "APT29",
@@ -4501,9 +6356,24 @@
       "url": "/fin7"
     },
     {
+      "name": "Honeybee",
+      "permalink": "/honeybee/",
+      "url": "/honeybee"
+    },
+    {
       "name": "Lazarus Group",
       "permalink": "/lazarus/",
       "url": "/lazarus"
+    },
+    {
+      "name": "MirrorFace",
+      "permalink": "/mirrorface/",
+      "url": "/mirrorface"
+    },
+    {
+      "name": "Play",
+      "permalink": "/play/",
+      "url": "/play"
     }
   ]
 }

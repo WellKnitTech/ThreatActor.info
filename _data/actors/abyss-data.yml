@@ -1,0 +1,14 @@
+name: "Abyss Data"
+aliases: ["Abyss Data"]
+description: "Abyss‑Data, also known as Abyss Locker, is a ransomware operation first identified around March 2023. It conducts double extortion by exfiltrating data and encrypting systems—particularly targeting VMware ESXi virtual environments—then threatening to leak stolen data via a TOR-based leak site if ransom demands aren't met. The group’s Linux variant derives from the Babuk ransomware source code with encryption resembling HelloKitty, using ChaCha–based ciphers. On Windows, Abyss Locker encrypts files (typically appending “.abyss” or randomized extensions), deletes Volume Shadow Copies, manipulates boot policy to disable recovery, and delivers ransom notes (e.g., WhatHappened.txt), often replacing the desktop wallpaper as part of its extortion tactics. Its campaigns have targeted diverse industries—finance, healthcare, manufacturing, technology—across multiple regions, with victim lists prominently featuring organizations in North America."
+url: "/abyss-data"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/abyssdata"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "abyssdata"
+  source_retrieved_at: "2026-05-06T21:58:55Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

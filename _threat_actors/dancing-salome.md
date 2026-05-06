@@ -16,6 +16,8 @@ Dancing Salome is the Kaspersky codename for an APT actor with a primary focus o
 
 
 
+**Suspected Victims**: Ukraine
+
 ## Notable Campaigns
 *Information pending cataloguing.*
 

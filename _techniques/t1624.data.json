@@ -1,0 +1,21 @@
+{
+  "mitre_id": "T1624",
+  "mitigations": [
+    {
+      "name": "Use Recent OS Version",
+      "mitre_id": "M1006",
+      "url": "https://attack.mitre.org/mitigations/M1006",
+      "stix_id": "course-of-action--0beabf44-e8d8-4ae4-9122-ef56369a2564"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1624.001",
+      "name": "Broadcast Receivers",
+      "permalink": "/techniques/T1624.001/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

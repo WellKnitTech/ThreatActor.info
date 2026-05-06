@@ -1,0 +1,16 @@
+name: "Defence Intelligence Command (page does not exist)"
+aliases: ["Defence Intelligence Command (page does not exist)"]
+description: "Defence Intelligence Command [ko] (DIC)"
+url: "/defence-intelligence-command-page-does-not-exist"
+country: "South Korea"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "e45e3589-3f8e-50d8-a709-6f2a0b704cb4"
+    source_record_ids: ["e45e3589-3f8e-50d8-a709-6f2a0b704cb4"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

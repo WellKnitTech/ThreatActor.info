@@ -1,9 +1,12 @@
 name: "SandCat"
-aliases: ["SandCat","Sandcat"]
+aliases: ["SandCat","Sandcat","SandCat - APT-C-32"]
 description: "SandCat, on the other hand, is a group that was discovered more recently by Kaspersky. One of the Windows vulnerabilities patched by Microsoft in December had been exploited by both FruityArmor and SandCat in attacks targeting the Middle East and Africa.  SandCat has been using FinFisher/FinSpy spyware and CHAINSHOT, a piece of malware analyzed earlier this year by Palo Alto Networks. The group has also used the CVE-2018-8589 and CVE-2018-8611 Windows vulnerabilities in its attacks, both of which had a zero-day status when Microsoft released fixes."
 url: "/sandcat"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/sandcat"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware:
   - "FinFisher"
   - "Windows Remote Desktop"
@@ -17,9 +20,19 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://securelist.com/zero-day-in-windows-kernel-transaction-manager-cve-2018-8611/89253/"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "middle-east"
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "sandcat"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/sandcat"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "dc15f388-a353-4185-b28e-015745f708ba"
   misp_galaxy:
+    meta_keys: ["refs","country","suspected-victims","synonyms","target-category"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","360net.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "dc15f388-a353-4185-b28e-015745f708ba"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["dc15f388-a353-4185-b28e-015745f708ba","bf77827a-e0f1-504f-815c-4bccfe72b644"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

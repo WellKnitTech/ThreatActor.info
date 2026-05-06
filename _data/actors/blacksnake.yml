@@ -1,0 +1,24 @@
+name: "blacksnake"
+aliases: ["blacksnake"]
+description: "BlackSnake is a Ransomware-as-a-Service (RaaS) operation that first appeared in August 2022, when its operators began recruiting affiliates on underground forums with an unusually low revenue share of 15%. It primarily targets home users rather than large enterprises and does not maintain a public leak site. Built on the Chaos ransomware code base, it features both file encryption and a cryptocurrency clipper module to steal funds from victims. The ransomware is developed in .NET and includes safeguards to avoid execution in Turkish or Azerbaijani environments, suggesting geographic targeting preferences. Infections result in encrypted files and ransom notes instructing victims to make contact via email for payment negotiations. The group’s operational scale and visibility remain limited compared to major RaaS families."
+url: "/blacksnake"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "BlackEnergy"
+  - name: "Chaos"
+  - name: "BLACKCOFFEE"
+  - name: "Blackshades"
+  - name: "BlackNix"
+  - name: "GraphicBooting"
+  - name: "BlackHole"
+  - name: "Revenge-RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "d40a4cd3-2563-548a-8c27-7dcf1be280e1"
+    source_record_ids: ["d40a4cd3-2563-548a-8c27-7dcf1be280e1"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

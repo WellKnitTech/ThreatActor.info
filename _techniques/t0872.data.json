@@ -1,0 +1,17 @@
+{
+  "mitre_id": "T0872",
+  "mitigations": [
+    {
+      "name": "Restrict File and Directory Permissions",
+      "mitre_id": "M0922",
+      "url": "https://attack.mitre.org/mitigations/M0922",
+      "stix_id": "course-of-action--f9fcb3ec-6de0-4559-8cd9-ef1c0c7d1971"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

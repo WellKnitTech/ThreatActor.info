@@ -1,0 +1,29 @@
+name: "kraken"
+aliases: ["kraken"]
+description: "Kraken leak blog (hellokitty)"
+url: "/kraken"
+first_seen: "2015"
+last_activity: "2015"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "LokiTech"
+provenance:
+  aptnotes:
+    earliest_report_year: "2015"
+    latest_report_year: "2015"
+    report_count: 1
+    sample_links: ["https://app.box.com/s/r5vy0kolgdxwwby2wjo523devdbt5leg"]
+    sample_titles: ["Dissecting The Kraken"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Gdata"]
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "5b60c7ec-fec9-5b80-aa37-c3b1c4c75ee4"
+    source_record_ids: ["5b60c7ec-fec9-5b80-aa37-c3b1c4c75ee4"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

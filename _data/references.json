@@ -1,1 +1,3828 @@
-{}
+{
+  "Cleaver": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0003",
+      "description": null
+    },
+    {
+      "source": "Cleaver",
+      "url": null,
+      "description": "(Citation: Cylance Cleaver)"
+    },
+    {
+      "source": "Threat Group 2889",
+      "url": null,
+      "description": "(Citation: Dell Threat Group 2889)"
+    },
+    {
+      "source": "TG-2889",
+      "url": null,
+      "description": "(Citation: Dell Threat Group 2889)"
+    },
+    {
+      "source": "Cylance Cleaver",
+      "url": "https://web.archive.org/web/20200302085133/https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance_Operation_Cleaver_Report.pdf",
+      "description": "Cylance. (2014, December). Operation Cleaver. Retrieved September 14, 2017."
+    },
+    {
+      "source": "Dell Threat Group 2889",
+      "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/suspected-iran-based-hacker-group-creates-network-of-fake-linkedin-profiles/",
+      "description": "Dell SecureWorks. (2015, October 7). Suspected Iran-Based Hacker Group Creates Network of Fake LinkedIn Profiles. Retrieved January 14, 2016."
+    }
+  ],
+  "APT12": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0005",
+      "description": null
+    },
+    {
+      "source": "APT12",
+      "url": null,
+      "description": "(Citation: Meyers Numbered Panda) (Citation: Moran 2014)"
+    },
+    {
+      "source": "IXESHE",
+      "url": null,
+      "description": "(Citation: Meyers Numbered Panda) (Citation: Moran 2014)"
+    },
+    {
+      "source": "DynCalc",
+      "url": null,
+      "description": "(Citation: Meyers Numbered Panda) (Citation: Moran 2014)"
+    },
+    {
+      "source": "Numbered Panda",
+      "url": null,
+      "description": "(Citation: Meyers Numbered Panda)"
+    },
+    {
+      "source": "DNSCALC",
+      "url": null,
+      "description": "(Citation: Moran 2014)"
+    },
+    {
+      "source": "Meyers Numbered Panda",
+      "url": "http://www.crowdstrike.com/blog/whois-numbered-panda/",
+      "description": "Meyers, A. (2013, March 29). Whois Numbered Panda. Retrieved January 14, 2016."
+    },
+    {
+      "source": "Moran 2014",
+      "url": "https://www.fireeye.com/blog/threat-research/2014/09/darwins-favorite-apt-group-2.html",
+      "description": "Moran, N., Oppenheim, M., Engle, S., & Wartell, R.. (2014, September 3). Darwin’s Favorite APT Group &#91;Blog&#93;. Retrieved November 12, 2014."
+    }
+  ],
+  "PittyTiger": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0011",
+      "description": null
+    },
+    {
+      "source": "PittyTiger",
+      "url": null,
+      "description": "(Citation: Bizeul 2014) (Citation: Villeneuve 2014)"
+    },
+    {
+      "source": "Bizeul 2014",
+      "url": "https://airbus-cyber-security.com/the-eye-of-the-tiger/",
+      "description": "Bizeul, D., Fontarensky, I., Mouchoux, R., Perigaud, F., Pernet, C. (2014, July 11). Eye of the Tiger. Retrieved September 29, 2015."
+    },
+    {
+      "source": "Villeneuve 2014",
+      "url": "https://www.fireeye.com/blog/threat-research/2014/07/spy-of-the-tiger.html",
+      "description": "Villeneuve, N., Homan, J. (2014, July 31). Spy of the Tiger. Retrieved September 29, 2015."
+    }
+  ],
+  "Darkhotel": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0012",
+      "description": null
+    },
+    {
+      "source": "Darkhotel",
+      "url": null,
+      "description": "(Citation: Kaspersky Darkhotel)"
+    },
+    {
+      "source": "DUBNIUM",
+      "url": null,
+      "description": "(Citation: Microsoft Digital Defense FY20 Sept 2020)(Citation: Microsoft DUBNIUM June 2016)(Citation: Microsoft DUBNIUM Flash June 2016)(Citation: Microsoft DUBNIUM July 2016)"
+    },
+    {
+      "source": "Zigzag Hail",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "Securelist Darkhotel Aug 2015",
+      "url": "https://securelist.com/darkhotels-attacks-in-2015/71713/",
+      "description": "Kaspersky Lab's Global Research & Analysis Team. (2015, August 10). Darkhotel's attacks in 2015. Retrieved November 2, 2018."
+    },
+    {
+      "source": "Kaspersky Darkhotel",
+      "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08070903/darkhotel_kl_07.11.pdf",
+      "description": "Kaspersky Lab's Global Research and Analysis Team. (2014, November). The Darkhotel APT A Story of Unusual Hospitality. Retrieved November 12, 2014."
+    },
+    {
+      "source": "Microsoft Digital Defense FY20 Sept 2020",
+      "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWxPuf",
+      "description": "Microsoft . (2020, September 29). Microsoft Digital Defense Report FY20. Retrieved April 21, 2021."
+    },
+    {
+      "source": "Microsoft Threat Actor Naming July 2023",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023."
+    },
+    {
+      "source": "Microsoft DUBNIUM July 2016",
+      "url": "https://www.microsoft.com/security/blog/2016/07/14/reverse-engineering-dubnium-stage-2-payload-analysis/",
+      "description": "Microsoft. (2016, July 14). Reverse engineering DUBNIUM – Stage 2 payload analysis . Retrieved March 31, 2021."
+    },
+    {
+      "source": "Microsoft DUBNIUM Flash June 2016",
+      "url": "https://www.microsoft.com/security/blog/2016/06/20/reverse-engineering-dubniums-flash-targeting-exploit/",
+      "description": "Microsoft. (2016, June 20). Reverse-engineering DUBNIUM’s Flash-targeting exploit. Retrieved March 31, 2021."
+    },
+    {
+      "source": "Microsoft DUBNIUM June 2016",
+      "url": "https://www.microsoft.com/security/blog/2016/06/09/reverse-engineering-dubnium-2/",
+      "description": "Microsoft. (2016, June 9). Reverse-engineering DUBNIUM. Retrieved March 31, 2021."
+    }
+  ],
+  "APT30": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0013",
+      "description": null
+    },
+    {
+      "source": "APT30",
+      "url": null,
+      "description": "(Citation: FireEye APT30) (Citation: Baumgartner Golovkin Naikon 2015)"
+    },
+    {
+      "source": "Baumgartner Golovkin Naikon 2015",
+      "url": "https://securelist.com/the-naikon-apt/69953/",
+      "description": "Baumgartner, K., Golovkin, M.. (2015, May 14). The Naikon APT. Retrieved January 14, 2015."
+    },
+    {
+      "source": "FireEye APT30",
+      "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2015/05/20081935/rpt-apt30.pdf",
+      "description": "FireEye Labs. (2015, April). APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION. Retrieved November 17, 2024."
+    }
+  ],
+  "DragonOK": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0017",
+      "description": null
+    },
+    {
+      "source": "DragonOK",
+      "url": null,
+      "description": "(Citation: Operation Quantum Entanglement) (Citation: New DragonOK)"
+    },
+    {
+      "source": "Operation Quantum Entanglement",
+      "url": "https://web.archive.org/web/20210920193513/https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf",
+      "description": "Haq, T., Moran, N., Vashisht, S., Scott, M. (2014, September). OPERATION QUANTUM ENTANGLEMENT. Retrieved November 17, 2024."
+    },
+    {
+      "source": "New DragonOK",
+      "url": "http://researchcenter.paloaltonetworks.com/2015/04/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets/",
+      "description": "Miller-Osborn, J., Grunzweig, J.. (2015, April). Unit 42 Identifies New DragonOK Backdoor Malware Deployed Against Japanese Targets. Retrieved November 4, 2015."
+    }
+  ],
+  "Naikon": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0019",
+      "description": null
+    },
+    {
+      "source": "Naikon",
+      "url": null,
+      "description": "(Citation: Baumgartner Naikon 2015)(Citation: CameraShy)(Citation: Baumgartner Golovkin Naikon 2015)"
+    },
+    {
+      "source": "CameraShy",
+      "url": "http://cdn2.hubspot.net/hubfs/454298/Project_CAMERASHY_ThreatConnect_Copyright_2015.pdf",
+      "description": "ThreatConnect Inc. and Defense Group Inc. (DGI). (2015, September 23). Project CameraShy: Closing the Aperture on China's Unit 78020. Retrieved December 17, 2015."
+    },
+    {
+      "source": "Baumgartner Naikon 2015",
+      "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf",
+      "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved April 10, 2019."
+    },
+    {
+      "source": "Baumgartner Golovkin Naikon 2015",
+      "url": "https://securelist.com/the-naikon-apt/69953/",
+      "description": "Baumgartner, K., Golovkin, M.. (2015, May 14). The Naikon APT. Retrieved January 14, 2015."
+    }
+  ],
+  "Equation": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0020",
+      "description": null
+    },
+    {
+      "source": "Equation",
+      "url": null,
+      "description": "(Citation: Kaspersky Equation QA)"
+    },
+    {
+      "source": "Kaspersky Equation QA",
+      "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf",
+      "description": "Kaspersky Lab's Global Research and Analysis Team. (2015, February). Equation Group: Questions and Answers. Retrieved December 21, 2015."
+    }
+  ],
+  "Molerats": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0021",
+      "description": null
+    },
+    {
+      "source": "Molerats",
+      "url": null,
+      "description": "(Citation: DustySky)"
+    },
+    {
+      "source": "Gaza Cybergang",
+      "url": null,
+      "description": "(Citation: DustySky)(Citation: Kaspersky MoleRATs April 2019)(Citation: Cybereason Molerats Dec 2020)"
+    },
+    {
+      "source": "Operation Molerats",
+      "url": null,
+      "description": "(Citation: FireEye Operation Molerats)(Citation: Cybereason Molerats Dec 2020)"
+    },
+    {
+      "source": "DustySky2",
+      "url": "http://www.clearskysec.com/wp-content/uploads/2016/06/Operation-DustySky2_-6.2016_TLP_White.pdf",
+      "description": "ClearSky Cybersecurity. (2016, June 9). Operation DustySky - Part 2. Retrieved August 3, 2016."
+    },
+    {
+      "source": "DustySky",
+      "url": "https://www.clearskysec.com/wp-content/uploads/2016/01/Operation%20DustySky_TLP_WHITE.pdf",
+      "description": "ClearSky. (2016, January 7). Operation DustySky. Retrieved January 8, 2016."
+    },
+    {
+      "source": "Cybereason Molerats Dec 2020",
+      "url": "https://www.cybereason.com/hubfs/dam/collateral/reports/Molerats-in-the-Cloud-New-Malware-Arsenal-Abuses-Cloud-Platforms-in-Middle-East-Espionage-Campaign.pdf",
+      "description": "Cybereason Nocturnus Team. (2020, December 9). MOLERATS IN THE CLOUD: New Malware Arsenal Abuses Cloud Platforms in Middle East Espionage Campaign. Retrieved December 22, 2020."
+    },
+    {
+      "source": "Kaspersky MoleRATs April 2019",
+      "url": "https://securelist.com/gaza-cybergang-group1-operation-sneakypastes/90068/",
+      "description": "GReAT. (2019, April 10). Gaza Cybergang Group1, operation SneakyPastes. Retrieved May 13, 2020."
+    },
+    {
+      "source": "FireEye Operation Molerats",
+      "url": "https://web.archive.org/web/20201031075438/https://www.fireeye.com/blog/threat-research/2013/08/operation-molerats-middle-east-cyber-attacks-using-poison-ivy.html",
+      "description": "Villeneuve, N., Haq, H., Moran, N. (2013, August 23). OPERATION MOLERATS: MIDDLE EAST CYBER ATTACKS USING POISON IVY. Retrieved November 17, 2024."
+    }
+  ],
+  "APT3": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0022",
+      "description": null
+    },
+    {
+      "source": "APT3",
+      "url": null,
+      "description": "(Citation: FireEye Clandestine Wolf) (Citation: Recorded Future APT3 May 2017) (Citation: Symantec Buckeye)"
+    },
+    {
+      "source": "UPS Team",
+      "url": null,
+      "description": "(Citation: FireEye Clandestine Wolf) (Citation: Recorded Future APT3 May 2017) (Citation: Symantec Buckeye)"
+    },
+    {
+      "source": "Pirpi",
+      "url": null,
+      "description": "(Citation: PWC Pirpi Scanbox)"
+    },
+    {
+      "source": "Gothic Panda",
+      "url": null,
+      "description": "(Citation: PWC Pirpi Scanbox) (Citation: Recorded Future APT3 May 2017) (Citation: Symantec Buckeye)"
+    },
+    {
+      "source": "Threat Group-0110",
+      "url": null,
+      "description": "(Citation: Recorded Future APT3 May 2017) (Citation: Symantec Buckeye)"
+    },
+    {
+      "source": "TG-0110",
+      "url": null,
+      "description": "(Citation: Recorded Future APT3 May 2017) (Citation: Symantec Buckeye)"
+    },
+    {
+      "source": "Buckeye",
+      "url": null,
+      "description": "(Citation: Symantec Buckeye)"
+    },
+    {
+      "source": "FireEye Clandestine Wolf",
+      "url": "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+      "description": "Eng, E., Caselden, D.. (2015, June 23). Operation Clandestine Wolf – Adobe Flash Zero-Day in APT3 Phishing Campaign. Retrieved January 14, 2016."
+    },
+    {
+      "source": "Recorded Future APT3 May 2017",
+      "url": "https://www.recordedfuture.com/research/chinese-mss-behind-apt3",
+      "description": "Insikt Group (Recorded Future). (2017, May 17). Recorded Future Research Concludes Chinese Ministry of State Security Behind APT3. Retrieved September 16, 2024."
+    },
+    {
+      "source": "PWC Pirpi Scanbox",
+      "url": "http://pwc.blogs.com/cyber_security_updates/2015/07/pirpi-scanbox.html",
+      "description": "Lancaster, T. (2015, July 25). A tale of Pirpi, Scanbox & CVE-2015-3113. Retrieved March 30, 2016."
+    },
+    {
+      "source": "FireEye Operation Double Tap",
+      "url": "https://www.fireeye.com/blog/threat-research/2014/11/operation_doubletap.html",
+      "description": "Moran, N., et al. (2014, November 21). Operation Double Tap. Retrieved January 14, 2016."
+    },
+    {
+      "source": "Symantec Buckeye",
+      "url": "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+      "description": "Symantec Security Response. (2016, September 6). Buckeye cyberespionage group shifts gaze from US to Hong Kong. Retrieved September 26, 2016."
+    }
+  ],
+  "APT16": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0023",
+      "description": null
+    },
+    {
+      "source": "APT16",
+      "url": null,
+      "description": "(Citation: FireEye EPS Awakens Part 2)"
+    },
+    {
+      "source": "FireEye EPS Awakens Part 2",
+      "url": "https://web.archive.org/web/20151226205946/https://www.fireeye.com/blog/threat-research/2015/12/the-eps-awakens-part-two.html",
+      "description": "Winters, R. (2015, December 20). The EPS Awakens - Part 2. Retrieved January 22, 2016."
+    }
+  ],
+  "APT17": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0025",
+      "description": null
+    },
+    {
+      "source": "APT17",
+      "url": null,
+      "description": "(Citation: FireEye APT17)"
+    },
+    {
+      "source": "Deputy Dog",
+      "url": null,
+      "description": "(Citation: FireEye APT17)"
+    },
+    {
+      "source": "FireEye APT17",
+      "url": "https://web.archive.org/web/20240119213200/https://www2.fireeye.com/rs/fireye/images/APT17_Report.pdf",
+      "description": "FireEye Labs/FireEye Threat Intelligence. (2015, May 14). Hiding in Plain Sight: FireEye and Microsoft Expose Obfuscation Tactic. Retrieved November 17, 2024."
+    }
+  ],
+  "APT18": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0026",
+      "description": null
+    },
+    {
+      "source": "Threat Group-0416",
+      "url": null,
+      "description": "(Citation: ThreatStream Evasion Analysis)"
+    },
+    {
+      "source": "APT18",
+      "url": null,
+      "description": "(Citation: ThreatStream Evasion Analysis)(Citation: Anomali Evasive Maneuvers July 2015)"
+    },
+    {
+      "source": "TG-0416",
+      "url": null,
+      "description": "(Citation: ThreatStream Evasion Analysis)(Citation: Anomali Evasive Maneuvers July 2015)"
+    },
+    {
+      "source": "Dynamite Panda",
+      "url": null,
+      "description": "(Citation: ThreatStream Evasion Analysis)(Citation: Anomali Evasive Maneuvers July 2015)"
+    },
+    {
+      "source": "Dell Lateral Movement",
+      "url": "http://www.secureworks.com/resources/blog/where-you-at-indicators-of-lateral-movement-using-at-exe-on-windows-7-systems/",
+      "description": "Carvey, H.. (2014, September 2). Where you AT?: Indicators of lateral movement using at.exe on Windows 7 systems. Retrieved January 25, 2016."
+    },
+    {
+      "source": "Anomali Evasive Maneuvers July 2015",
+      "url": "https://www.anomali.com/blog/evasive-maneuvers-the-wekby-group-attempts-to-evade-analysis-via-custom-rop",
+      "description": "Shelmire, A. (2015, July 06). Evasive Maneuvers by the Wekby group with custom ROP-packing and DNS covert channels. Retrieved November 15, 2018."
+    },
+    {
+      "source": "ThreatStream Evasion Analysis",
+      "url": "https://www.threatstream.com/blog/evasive-maneuvers-the-wekby-group-attempts-to-evade-analysis-via-custom-rop",
+      "description": "Shelmire, A.. (2015, July 6). Evasive Maneuvers. Retrieved January 22, 2016."
+    }
+  ],
+  "Threat Group-1314": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0028",
+      "description": null
+    },
+    {
+      "source": "Threat Group-1314",
+      "url": null,
+      "description": "(Citation: Dell TG-1314)"
+    },
+    {
+      "source": "TG-1314",
+      "url": null,
+      "description": "(Citation: Dell TG-1314)"
+    },
+    {
+      "source": "Dell TG-1314",
+      "url": "https://web.archive.org/web/20150626073312/http://www.secureworks.com/resources/blog/living-off-the-land/",
+      "description": "Dell SecureWorks Counter Threat Unit Special Operations Team. (2015, May 28). Living off the Land. Retrieved January 26, 2016."
+    }
+  ],
+  "Scarlet Mimic": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0029",
+      "description": null
+    },
+    {
+      "source": "Scarlet Mimic",
+      "url": null,
+      "description": "(Citation: Scarlet Mimic Jan 2016)"
+    },
+    {
+      "source": "Scarlet Mimic Jan 2016",
+      "url": "http://researchcenter.paloaltonetworks.com/2016/01/scarlet-mimic-years-long-espionage-targets-minority-activists/",
+      "description": "Falcone, R. and Miller-Osborn, J.. (2016, January 24). Scarlet Mimic: Years-Long Espionage Campaign Targets Minority Activists. Retrieved February 10, 2016."
+    }
+  ],
+  "Poseidon Group": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0033",
+      "description": null
+    },
+    {
+      "source": "Poseidon Group",
+      "url": null,
+      "description": "(Citation: Kaspersky Poseidon Group)"
+    },
+    {
+      "source": "Kaspersky Poseidon Group",
+      "url": "https://securelist.com/poseidon-group-a-targeted-attack-boutique-specializing-in-global-cyber-espionage/73673/",
+      "description": "Kaspersky Lab's Global Research and Analysis Team. (2016, February 9). Poseidon Group: a Targeted Attack Boutique specializing in global cyber-espionage. Retrieved March 16, 2016."
+    }
+  ],
+  "GCMAN": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0036",
+      "description": null
+    },
+    {
+      "source": "GCMAN",
+      "url": null,
+      "description": "(Citation: Securelist GCMAN)"
+    },
+    {
+      "source": "Securelist GCMAN",
+      "url": "https://securelist.com/apt-style-bank-robberies-increase-with-metel-gcman-and-carbanak-2-0-attacks/73638/",
+      "description": "Kaspersky Lab's Global Research & Analysis Team. (2016, February 8). APT-style bank robberies increase with Metel, GCMAN and Carbanak 2.0 attacks. Retrieved April 20, 2016."
+    }
+  ],
+  "FIN6": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0037",
+      "description": null
+    },
+    {
+      "source": "Skeleton Spider",
+      "url": null,
+      "description": "(Citation: Crowdstrike Global Threat Report Feb 2018)"
+    },
+    {
+      "source": "FIN6",
+      "url": null,
+      "description": "(Citation: FireEye FIN6 April 2016)"
+    },
+    {
+      "source": "TAAL",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "Camouflage Tempest",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "Magecart Group 6",
+      "url": null,
+      "description": "(Citation: Security Intelligence ITG08 April 2020)"
+    },
+    {
+      "source": "ITG08",
+      "url": null,
+      "description": "(Citation: Security Intelligence More Eggs Aug 2019)"
+    },
+    {
+      "source": "Crowdstrike Global Threat Report Feb 2018",
+      "url": "https://crowdstrike.lookbookhq.com/global-threat-report-2018-web/cs-2018-global-threat-report",
+      "description": "CrowdStrike. (2018, February 26). CrowdStrike 2018 Global Threat Report. Retrieved October 10, 2018."
+    },
+    {
+      "source": "FireEye FIN6 April 2016",
+      "url": "https://web.archive.org/web/20190807112824/https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+      "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved November 17, 2024."
+    },
+    {
+      "source": "FireEye FIN6 Apr 2019",
+      "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+      "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019."
+    },
+    {
+      "source": "Microsoft Threat Actor Naming July 2023",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023."
+    },
+    {
+      "source": "Security Intelligence ITG08 April 2020",
+      "url": "https://securityintelligence.com/posts/itg08-aka-fin6-partners-with-trickbot-gang-uses-anchor-framework/",
+      "description": "Villadsen, O. (2020, April 7). ITG08 (aka FIN6) Partners With TrickBot Gang, Uses Anchor Framework. Retrieved October 8, 2020."
+    },
+    {
+      "source": "Security Intelligence More Eggs Aug 2019",
+      "url": "https://securityintelligence.com/posts/more_eggs-anyone-threat-actor-itg08-strikes-again/",
+      "description": "Villadsen, O.. (2019, August 29). More_eggs, Anyone? Threat Actor ITG08 Strikes Again. Retrieved September 16, 2019."
+    }
+  ],
+  "Stealth Falcon": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0038",
+      "description": null
+    },
+    {
+      "source": "Stealth Falcon",
+      "url": null,
+      "description": "(Citation: Citizen Lab Stealth Falcon May 2016)"
+    },
+    {
+      "source": "Citizen Lab Stealth Falcon May 2016",
+      "url": "https://citizenlab.org/2016/05/stealth-falcon/",
+      "description": "Marczak, B. and Scott-Railton, J.. (2016, May 29). Keep Calm and (Don’t) Enable Macros: A New Threat Actor Targets UAE Dissidents. Retrieved June 8, 2016."
+    }
+  ],
+  "Group5": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0043",
+      "description": null
+    },
+    {
+      "source": "Group5",
+      "url": null,
+      "description": "(Citation: Citizen Lab Group5)"
+    },
+    {
+      "source": "Citizen Lab Group5",
+      "url": "https://citizenlab.ca/2016/08/group5-syria/",
+      "description": "Scott-Railton, J., et al. (2016, August 2). Group5: Syria and the Iranian Connection. Retrieved September 26, 2016."
+    }
+  ],
+  "Gamaredon Group": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0047",
+      "description": null
+    },
+    {
+      "source": "Cloudflare 2026 Threat Report New Threat Actors March 2026",
+      "url": "https://blog.cloudflare.com/2026-threat-report/",
+      "description": " Cloudflare. (2026, March 3). Introducing the 2026 Cloudflare Threat Report. Retrieved April 18, 2026."
+    },
+    {
+      "source": "NastyShrew",
+      "url": null,
+      "description": "(Citation: Cloudflare 2026 Threat Report New Threat Actors March 2026)"
+    },
+    {
+      "source": "ACTINIUM",
+      "url": null,
+      "description": "(Citation: Microsoft Actinium February 2022)"
+    },
+    {
+      "source": "DEV-0157",
+      "url": null,
+      "description": "(Citation: Microsoft Actinium February 2022)"
+    },
+    {
+      "source": "Aqua Blizzard",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "Gamaredon Group",
+      "url": null,
+      "description": "(Citation: Palo Alto Gamaredon Feb 2017)"
+    },
+    {
+      "source": "IRON TILDEN",
+      "url": null,
+      "description": "(Citation: Secureworks IRON TILDEN Profile)"
+    },
+    {
+      "source": "Armageddon",
+      "url": null,
+      "description": "(Citation: Symantec Shuckworm January 2022)"
+    },
+    {
+      "source": "Shuckworm",
+      "url": null,
+      "description": "(Citation: Symantec Shuckworm January 2022)"
+    },
+    {
+      "source": "Primitive Bear",
+      "url": null,
+      "description": "(Citation: Unit 42 Gamaredon February 2022)"
+    },
+    {
+      "source": "ESET Gamaredon June 2020",
+      "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+      "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+    },
+    {
+      "source": "TrendMicro Gamaredon April 2020",
+      "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+      "description": "Kakara, H., Maruyama, E. (2020, April 17). Gamaredon APT Group Use Covid-19 Lure in Campaigns. Retrieved May 19, 2020."
+    },
+    {
+      "source": "Palo Alto Gamaredon Feb 2017",
+      "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/",
+      "description": "Kasza, A. and Reichel, D. (2017, February 27). The Gamaredon Group Toolset Evolution. Retrieved March 1, 2017."
+    },
+    {
+      "source": "Microsoft Threat Actor Naming July 2023",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023."
+    },
+    {
+      "source": "Microsoft Actinium February 2022",
+      "url": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+      "description": "Microsoft Threat Intelligence Center. (2022, February 4). ACTINIUM targets Ukrainian organizations. Retrieved February 18, 2022."
+    },
+    {
+      "source": "Secureworks IRON TILDEN Profile",
+      "url": "https://www.secureworks.com/research/threat-profiles/iron-tilden",
+      "description": "Secureworks CTU. (n.d.). IRON TILDEN. Retrieved February 24, 2022."
+    },
+    {
+      "source": "Symantec Shuckworm January 2022",
+      "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+      "description": "Symantec. (2022, January 31). Shuckworm Continues Cyber-Espionage Attacks Against Ukraine. Retrieved February 17, 2022."
+    },
+    {
+      "source": "Bleepingcomputer Gamardeon FSB November 2021",
+      "url": "https://www.bleepingcomputer.com/news/security/ukraine-links-members-of-gamaredon-hacker-group-to-russian-fsb/",
+      "description": "Toulas, B. (2018, November 4). Ukraine links members of Gamaredon hacker group to Russian FSB. Retrieved April 15, 2022."
+    },
+    {
+      "source": "Unit 42 Gamaredon February 2022",
+      "url": "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+      "description": "Unit 42. (2022, February 3). Russia’s Gamaredon aka Primitive Bear APT Group Actively Targeting Ukraine. Retrieved February 21, 2022."
+    }
+  ],
+  "RTM": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0048",
+      "description": null
+    },
+    {
+      "source": "RTM",
+      "url": null,
+      "description": "(Citation: ESET RTM Feb 2017)"
+    },
+    {
+      "source": "ESET RTM Feb 2017",
+      "url": "https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf",
+      "description": "Faou, M. and Boutin, J. (2017, February). Read The Manual: A Guide to the RTM Banking Trojan. Retrieved March 9, 2017."
+    }
+  ],
+  "FIN10": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0051",
+      "description": null
+    },
+    {
+      "source": "FIN10",
+      "url": null,
+      "description": "(Citation: FireEye FIN10 June 2017)"
+    },
+    {
+      "source": "FireEye FIN10 June 2017",
+      "url": "https://services.google.com/fh/files/misc/rpt-fin-10-anatomy-of-a-cyber-en.pdf",
+      "description": "FireEye iSIGHT Intelligence. (2017, June 16). FIN10: Anatomy of a Cyber Extortion Operation. Retrieved November 17, 2024."
+    }
+  ],
+  "CopyKittens": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0052",
+      "description": null
+    },
+    {
+      "source": "CopyKittens",
+      "url": null,
+      "description": "(Citation: ClearSky CopyKittens March 2017) (Citation: ClearSky Wilted Tulip July 2017) (Citation: CopyKittens Nov 2015)"
+    },
+    {
+      "source": "ClearSky Wilted Tulip July 2017",
+      "url": "http://www.clearskysec.com/wp-content/uploads/2017/07/Operation_Wilted_Tulip.pdf",
+      "description": "ClearSky Cyber Security and Trend Micro. (2017, July). Operation Wilted Tulip: Exposing a cyber espionage apparatus. Retrieved August 21, 2017."
+    },
+    {
+      "source": "ClearSky CopyKittens March 2017",
+      "url": "http://www.clearskysec.com/copykitten-jpost/",
+      "description": "ClearSky Cyber Security. (2017, March 30). Jerusalem Post and other Israeli websites compromised by Iranian threat agent CopyKitten. Retrieved August 21, 2017."
+    },
+    {
+      "source": "CopyKittens Nov 2015",
+      "url": "https://cdn2.hubspot.net/hubfs/1903456/Whitepapers/CopyKittens.pdf",
+      "description": "Minerva Labs LTD and ClearSky Cyber Security. (2015, November 23). CopyKittens Attack Group. Retrieved November 17, 2024."
+    }
+  ],
+  "FIN5": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0053",
+      "description": null
+    },
+    {
+      "source": "FIN5",
+      "url": null,
+      "description": "(Citation: FireEye Respond Webinar July 2017) (Citation: Mandiant FIN5 GrrCON Oct 2016) (Citation: DarkReading FireEye FIN5 Oct 2015)"
+    },
+    {
+      "source": "FireEye Respond Webinar July 2017",
+      "url": "https://www2.fireeye.com/WBNR-Are-you-ready-to-respond.html",
+      "description": "Scavella, T. and Rifki, A. (2017, July 20). Are you Ready to Respond? (Webinar). Retrieved October 4, 2017."
+    },
+    {
+      "source": "Mandiant FIN5 GrrCON Oct 2016",
+      "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
+      "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017."
+    },
+    {
+      "source": "DarkReading FireEye FIN5 Oct 2015",
+      "url": "https://www.darkreading.com/analytics/prolific-cybercrime-gang-favors-legit-login-credentials/d/d-id/1322645?",
+      "description": "Higgins, K. (2015, October 13). Prolific Cybercrime Gang Favors Legit Login Credentials. Retrieved October 4, 2017."
+    }
+  ],
+  "Sowbug": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0054",
+      "description": null
+    },
+    {
+      "source": "Sowbug",
+      "url": null,
+      "description": "(Citation: Symantec Sowbug Nov 2017)"
+    },
+    {
+      "source": "Symantec Sowbug Nov 2017",
+      "url": "https://www.symantec.com/connect/blogs/sowbug-cyber-espionage-group-targets-south-american-and-southeast-asian-governments",
+      "description": "Symantec Security Response. (2017, November 7). Sowbug: Cyber espionage group targets South American and Southeast Asian governments. Retrieved November 16, 2017."
+    }
+  ],
+  "NEODYMIUM": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0055",
+      "description": null
+    },
+    {
+      "source": "NEODYMIUM",
+      "url": null,
+      "description": "(Citation: Microsoft NEODYMIUM Dec 2016) (Citation: Microsoft SIR Vol 21)"
+    },
+    {
+      "source": "Microsoft NEODYMIUM Dec 2016",
+      "url": "https://blogs.technet.microsoft.com/mmpc/2016/12/14/twin-zero-day-attacks-promethium-and-neodymium-target-individuals-in-europe/",
+      "description": "Microsoft. (2016, December 14). Twin zero-day attacks: PROMETHIUM and NEODYMIUM target individuals in Europe. Retrieved November 27, 2017."
+    },
+    {
+      "source": "Microsoft SIR Vol 21",
+      "url": "http://download.microsoft.com/download/E/B/0/EB0F50CC-989C-4B66-B7F6-68CD3DC90DE3/Microsoft_Security_Intelligence_Report_Volume_21_English.pdf",
+      "description": "Anthe, C. et al. (2016, December 14). Microsoft Security Intelligence Report Volume 21. Retrieved November 27, 2017."
+    },
+    {
+      "source": "CyberScoop BlackOasis Oct 2017",
+      "url": "https://www.cyberscoop.com/middle-eastern-hacking-group-using-finfisher-malware-conduct-international-espionage/",
+      "description": "Bing, C. (2017, October 16). Middle Eastern hacking group is using FinFisher malware to conduct international espionage. Retrieved February 15, 2018."
+    }
+  ],
+  "PROMETHIUM": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0056",
+      "description": null
+    },
+    {
+      "source": "PROMETHIUM",
+      "url": null,
+      "description": "(Citation: Microsoft NEODYMIUM Dec 2016) (Citation: Microsoft SIR Vol 21)"
+    },
+    {
+      "source": "Microsoft SIR Vol 21",
+      "url": "http://download.microsoft.com/download/E/B/0/EB0F50CC-989C-4B66-B7F6-68CD3DC90DE3/Microsoft_Security_Intelligence_Report_Volume_21_English.pdf",
+      "description": "Anthe, C. et al. (2016, December 14). Microsoft Security Intelligence Report Volume 21. Retrieved November 27, 2017."
+    },
+    {
+      "source": "Talos Promethium June 2020",
+      "url": "https://blog.talosintelligence.com/2020/06/promethium-extends-with-strongpity3.html",
+      "description": "Mercer, W. et al. (2020, June 29). PROMETHIUM extends global reach with StrongPity3 APT. Retrieved July 20, 2020."
+    },
+    {
+      "source": "Microsoft NEODYMIUM Dec 2016",
+      "url": "https://blogs.technet.microsoft.com/mmpc/2016/12/14/twin-zero-day-attacks-promethium-and-neodymium-target-individuals-in-europe/",
+      "description": "Microsoft. (2016, December 14). Twin zero-day attacks: PROMETHIUM and NEODYMIUM target individuals in Europe. Retrieved November 27, 2017."
+    },
+    {
+      "source": "StrongPity",
+      "url": null,
+      "description": "The name StrongPity has also been used to describe the group and the malware used by the group.(Citation: Bitdefender StrongPity June 2020)(Citation: Talos Promethium June 2020)"
+    },
+    {
+      "source": "Bitdefender StrongPity June 2020",
+      "url": "https://www.bitdefender.com/files/News/CaseStudies/study/353/Bitdefender-Whitepaper-StrongPity-APT.pdf",
+      "description": "Tudorica, R. et al. (2020, June 30). StrongPity APT - Revealing Trojanized Tools, Working Hours and Infrastructure. Retrieved July 20, 2020."
+    }
+  ],
+  "FIN8": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0061",
+      "description": null
+    },
+    {
+      "source": "FIN8",
+      "url": null,
+      "description": "(Citation: FireEye Obfuscation June 2017)"
+    },
+    {
+      "source": "Syssphinx",
+      "url": null,
+      "description": "(Citation: Symantec FIN8 Jul 2023)"
+    },
+    {
+      "source": "FireEye Obfuscation June 2017",
+      "url": "https://web.archive.org/web/20170923102302/https://www.fireeye.com/blog/threat-research/2017/06/obfuscation-in-the-wild.html",
+      "description": "Bohannon, D. & Carr N. (2017, June 30). Obfuscation in the Wild: Targeted Attackers Lead the Way in Evasion Techniques. Retrieved February 12, 2018."
+    },
+    {
+      "source": "Bitdefender Sardonic Aug 2021",
+      "url": "https://www.bitdefender.com/files/News/CaseStudies/study/401/Bitdefender-PR-Whitepaper-FIN8-creat5619-en-EN.pdf",
+      "description": "Budaca, E., et al. (2021, August 25). FIN8 Threat Actor Goes Agile with New Sardonic Backdoor. Retrieved August 9, 2023."
+    },
+    {
+      "source": "FireEye Fin8 May 2016",
+      "url": "https://www.fireeye.com/blog/threat-research/2016/05/windows-zero-day-payment-cards.html",
+      "description": "Kizhakkinan, D., et al. (2016, May 11). Threat Actor Leverages Windows Zero-day Exploit in Payment Card Data Attacks. Retrieved February 12, 2018."
+    },
+    {
+      "source": "Symantec FIN8 Jul 2023",
+      "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/syssphinx-fin8-backdoor",
+      "description": "Symantec Threat Hunter Team. (2023, July 18). FIN8 Uses Revamped Sardonic Backdoor to Deliver Noberus Ransomware. Retrieved August 9, 2023."
+    }
+  ],
+  "TA459": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0062",
+      "description": null
+    },
+    {
+      "source": "TA459",
+      "url": null,
+      "description": "(Citation: Proofpoint TA459 April 2017)"
+    },
+    {
+      "source": "Proofpoint TA459 April 2017",
+      "url": "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts",
+      "description": "Axel F. (2017, April 27). APT Targets Financial Analysts with CVE-2017-0199. Retrieved February 15, 2018."
+    }
+  ],
+  "BlackOasis": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0063",
+      "description": null
+    },
+    {
+      "source": "BlackOasis",
+      "url": null,
+      "description": "(Citation: Securelist BlackOasis Oct 2017) (Citation: Securelist APT Trends Q2 2017)"
+    },
+    {
+      "source": "Securelist BlackOasis Oct 2017",
+      "url": "https://securelist.com/blackoasis-apt-and-new-targeted-attacks-leveraging-zero-day-exploit/82732/",
+      "description": "Kaspersky Lab's Global Research & Analysis Team. (2017, October 16). BlackOasis APT and new targeted attacks leveraging zero-day exploit. Retrieved February 15, 2018."
+    },
+    {
+      "source": "Securelist APT Trends Q2 2017",
+      "url": "https://securelist.com/apt-trends-report-q2-2017/79332/",
+      "description": "Kaspersky Lab's Global Research & Analysis Team. (2017, August 8). APT Trends report Q2 2017. Retrieved February 15, 2018."
+    },
+    {
+      "source": "CyberScoop BlackOasis Oct 2017",
+      "url": "https://www.cyberscoop.com/middle-eastern-hacking-group-using-finfisher-malware-conduct-international-espionage/",
+      "description": "Bing, C. (2017, October 16). Middle Eastern hacking group is using FinFisher malware to conduct international espionage. Retrieved February 15, 2018."
+    }
+  ],
+  "APT33": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0064",
+      "description": null
+    },
+    {
+      "source": "APT33",
+      "url": null,
+      "description": "(Citation: FireEye APT33 Sept 2017) (Citation: FireEye APT33 Webinar Sept 2017)"
+    },
+    {
+      "source": "HOLMIUM",
+      "url": null,
+      "description": "(Citation: Microsoft Holmium June 2020)"
+    },
+    {
+      "source": "Peach Sandstorm",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "Elfin",
+      "url": null,
+      "description": "(Citation: Symantec Elfin Mar 2019)"
+    },
+    {
+      "source": "FireEye APT33 Webinar Sept 2017",
+      "url": "https://www.brighttalk.com/webcast/10703/275683",
+      "description": "Davis, S. and Carr, N. (2017, September 21). APT33: New Insights into Iranian Cyber Espionage Group. Retrieved February 15, 2018."
+    },
+    {
+      "source": "Microsoft Threat Actor Naming July 2023",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023."
+    },
+    {
+      "source": "Microsoft Holmium June 2020",
+      "url": "https://www.microsoft.com/security/blog/2020/06/18/inside-microsoft-threat-protection-mapping-attack-chains-from-cloud-to-endpoint/",
+      "description": "Microsoft Threat Protection Intelligence Team. (2020, June 18). Inside Microsoft Threat Protection: Mapping attack chains from cloud to endpoint. Retrieved June 22, 2020."
+    },
+    {
+      "source": "FireEye APT33 Sept 2017",
+      "url": "https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
+      "description": "O'Leary, J., et al. (2017, September 20). Insights into Iranian Cyber Espionage: APT33 Targets Aerospace and Energy Sectors and has Ties to Destructive Malware. Retrieved February 15, 2018."
+    },
+    {
+      "source": "Symantec Elfin Mar 2019",
+      "url": "https://www.symantec.com/blogs/threat-intelligence/elfin-apt33-espionage",
+      "description": "Security Response attack Investigation Team. (2019, March 27). Elfin: Relentless Espionage Group Targets Multiple Organizations in Saudi Arabia and U.S.. Retrieved April 10, 2019."
+    }
+  ],
+  "APT37": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0067",
+      "description": null
+    },
+    {
+      "source": "Ricochet Chollima",
+      "url": null,
+      "description": "(Citation: CrowdStrike Richochet Chollima September 2021)"
+    },
+    {
+      "source": "APT37",
+      "url": null,
+      "description": "(Citation: FireEye APT37 Feb 2018)"
+    },
+    {
+      "source": "Reaper",
+      "url": null,
+      "description": "(Citation: FireEye APT37 Feb 2018)"
+    },
+    {
+      "source": "Group123",
+      "url": null,
+      "description": "(Citation: FireEye APT37 Feb 2018)"
+    },
+    {
+      "source": "TEMP.Reaper",
+      "url": null,
+      "description": "(Citation: FireEye APT37 Feb 2018)"
+    },
+    {
+      "source": "ScarCruft",
+      "url": null,
+      "description": "(Citation: Securelist ScarCruft Jun 2016)(Citation: FireEye APT37 Feb 2018)(Citation: Securelist ScarCruft May 2019)"
+    },
+    {
+      "source": "InkySquid",
+      "url": null,
+      "description": "(Citation: Volexity InkySquid BLUELIGHT August 2021)"
+    },
+    {
+      "source": "Volexity InkySquid BLUELIGHT August 2021",
+      "url": "https://www.volexity.com/blog/2021/08/17/north-korean-apt-inkysquid-infects-victims-using-browser-exploits/",
+      "description": "Cash, D., Grunzweig, J., Meltzer, M., Adair, S., Lancaster, T. (2021, August 17). North Korean APT InkySquid Infects Victims Using Browser Exploits. Retrieved September 30, 2021."
+    },
+    {
+      "source": "CrowdStrike Richochet Chollima September 2021",
+      "url": "https://www.crowdstrike.com/adversaries/ricochet-chollima/",
+      "description": "CrowdStrike. (2021, September 30). Adversary Profile - Ricochet Chollima. Retrieved September 30, 2021."
+    },
+    {
+      "source": "FireEye APT37 Feb 2018",
+      "url": "https://services.google.com/fh/files/misc/apt37-reaper-the-overlooked-north-korean-actor.pdf",
+      "description": "FireEye. (2018, February 20). APT37 (Reaper): The Overlooked North Korean Actor. Retrieved November 17, 2024."
+    },
+    {
+      "source": "Securelist ScarCruft May 2019",
+      "url": "https://securelist.com/scarcruft-continues-to-evolve-introduces-bluetooth-harvester/90729/",
+      "description": "GReAT. (2019, May 13). ScarCruft continues to evolve, introduces Bluetooth harvester. Retrieved June 4, 2019."
+    },
+    {
+      "source": "Talos Group123",
+      "url": "https://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html",
+      "description": "Mercer, W., Rascagneres, P. (2018, January 16). Korea In The Crosshairs. Retrieved May 21, 2018."
+    },
+    {
+      "source": "Securelist ScarCruft Jun 2016",
+      "url": "https://securelist.com/operation-daybreak/75100/",
+      "description": "Raiu, C., and Ivanov, A. (2016, June 17). Operation Daybreak. Retrieved February 15, 2018."
+    }
+  ],
+  "PLATINUM": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0068",
+      "description": null
+    },
+    {
+      "source": "PLATINUM",
+      "url": null,
+      "description": "(Citation: Microsoft PLATINUM April 2016)"
+    },
+    {
+      "source": "Microsoft PLATINUM April 2016",
+      "url": "https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf",
+      "description": "Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018."
+    }
+  ],
+  "MuddyWater": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0069",
+      "description": null
+    },
+    {
+      "source": "Cloudflare 2026 Threat Report New Threat Actors March 2026",
+      "url": "https://blog.cloudflare.com/2026-threat-report/",
+      "description": " Cloudflare. (2026, March 3). Introducing the 2026 Cloudflare Threat Report. Retrieved April 18, 2026."
+    },
+    {
+      "source": "MERCURY",
+      "url": null,
+      "description": "(Citation: Anomali Static Kitten February 2021)"
+    },
+    {
+      "source": "Static Kitten",
+      "url": null,
+      "description": "(Citation: Anomali Static Kitten February 2021)(Citation: Trend Micro Muddy Water March 2021)"
+    },
+    {
+      "source": "MuddyKrill",
+      "url": null,
+      "description": "(Citation: Cloudflare 2026 Threat Report New Threat Actors March 2026)"
+    },
+    {
+      "source": "TEMP.Zagros",
+      "url": null,
+      "description": "(Citation: FireEye MuddyWater Mar 2018)(Citation: Anomali Static Kitten February 2021)(Citation: Trend Micro Muddy Water March 2021)"
+    },
+    {
+      "source": "Mango Sandstorm",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "TA450",
+      "url": null,
+      "description": "(Citation: Proofpoint TA450 Phishing March 2024)"
+    },
+    {
+      "source": "Seedworm",
+      "url": null,
+      "description": "(Citation: Symantec MuddyWater Dec 2018)(Citation: Anomali Static Kitten February 2021)(Citation: Trend Micro Muddy Water March 2021)"
+    },
+    {
+      "source": "Earth Vetala",
+      "url": null,
+      "description": "(Citation: Trend Micro Muddy Water March 2021)"
+    },
+    {
+      "source": "MuddyWater",
+      "url": null,
+      "description": "(Citation: Unit 42 MuddyWater Nov 2017)(Citation: Symantec MuddyWater Dec 2018)"
+    },
+    {
+      "source": "ClearSky MuddyWater Nov 2018",
+      "url": "https://www.clearskysec.com/wp-content/uploads/2018/11/MuddyWater-Operations-in-Lebanon-and-Oman.pdf",
+      "description": "ClearSky Cyber Security. (2018, November). MuddyWater Operations in Lebanon and Oman: Using an Israeli compromised domain for a two-stage campaign. Retrieved November 29, 2018."
+    },
+    {
+      "source": "ClearSky MuddyWater June 2019",
+      "url": "https://www.clearskysec.com/wp-content/uploads/2019/06/Clearsky-Iranian-APT-group-%E2%80%98MuddyWater%E2%80%99-Adds-Exploits-to-Their-Arsenal.pdf",
+      "description": "ClearSky. (2019, June). Iranian APT group ‘MuddyWater’ Adds Exploits to Their Arsenal. Retrieved May 14, 2020."
+    },
+    {
+      "source": "CYBERCOM Iranian Intel Cyber January 2022",
+      "url": "https://www.cybercom.mil/Media/News/Article/2897570/iranian-intel-cyber-suite-of-malware-uses-open-source-tools/",
+      "description": "Cyber National Mission Force. (2022, January 12). Iranian intel cyber suite of malware uses open source tools. Retrieved September 30, 2022."
+    },
+    {
+      "source": "ESET_MuddyWater_Dec2025",
+      "url": "https://www.welivesecurity.com/en/eset-research/muddywater-snakes-riverbank/",
+      "description": "ESET Research. (2025, December 2). MuddyWater: Snakes by the riverbank. Retrieved February 17, 2026."
+    },
+    {
+      "source": "FalconFeeds_Iran_Mar2026",
+      "url": "https://falconfeeds.io/blogs/the-digital-redoubt-irans-national-information-network-cyber-conflict",
+      "description": "FalconFeeds.io. (2026, March 5). The Digital Redoubt: Iran’s National Information Network and the Asymmetry of Modern Cyber Conflict. Retrieved March 9, 2026."
+    },
+    {
+      "source": "DHS CISA AA22-055A MuddyWater February 2022",
+      "url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-055a",
+      "description": "FBI, CISA, CNMF, NCSC-UK. (2022, February 24). Iranian Government-Sponsored Actors Conduct Cyber Operations Against Global Government and Commercial Networks. Retrieved September 27, 2022."
+    },
+    {
+      "source": "Huntio_IranInfra_Mar2026",
+      "url": "https://hunt.io/blog/iranian-apt-infrastructure-state-aligned-clusters",
+      "description": "Hunt.io. (2026, March 4). Iranian APT Infrastructure in Focus:  Mapping State-Aligned Clusters During Geopolitical Escalation. Retrieved April 16, 2026."
+    },
+    {
+      "source": "Unit 42 MuddyWater Nov 2017",
+      "url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-muddying-the-water-targeted-attacks-in-the-middle-east/",
+      "description": "Lancaster, T.. (2017, November 14). Muddying the Water: Targeted Attacks in the Middle East. Retrieved March 15, 2018."
+    },
+    {
+      "source": "Talos MuddyWater Jan 2022",
+      "url": "https://blog.talosintelligence.com/2022/01/iranian-apt-muddywater-targets-turkey.html",
+      "description": "Malhortra, A and Ventura, V. (2022, January 31). Iranian APT MuddyWater targets Turkish users via malicious PDFs, executables. Retrieved June 22, 2022."
+    },
+    {
+      "source": "Anomali Static Kitten February 2021",
+      "url": "https://www.anomali.com/blog/probable-iranian-cyber-actors-static-kitten-conducting-cyberespionage-campaign-targeting-uae-and-kuwait-government-agencies",
+      "description": "Mele, G. et al. (2021, February 10). Probable Iranian Cyber Actors, Static Kitten, Conducting Cyberespionage Campaign Targeting UAE and Kuwait Government Agencies. Retrieved March 17, 2021."
+    },
+    {
+      "source": "Microsoft Threat Actor Naming July 2023",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023."
+    },
+    {
+      "source": "Proofpoint TA450 Phishing March 2024",
+      "url": "https://www.proofpoint.com/us/blog/threat-insight/security-brief-ta450-uses-embedded-links-pdf-attachments-latest-campaign",
+      "description": "Miller, J. et al. (2024, March 21). Security Brief: TA450 Uses Embedded Links in PDF Attachments in Latest Campaign. Retrieved March 27, 2024."
+    },
+    {
+      "source": "NaumaanProofpoint_GlobalClickFix_April2025",
+      "url": "https://www.proofpoint.com/us/blog/threat-insight/around-world-90-days-state-sponsored-actors-try-clickfix",
+      "description": "Naumaan, S., et al. (2025, April 17). Around the World in 90 Days: State-Sponsored Actors Try ClickFix . Retrieved January 21, 2026."
+    },
+    {
+      "source": "Trend Micro Muddy Water March 2021",
+      "url": "https://www.trendmicro.com/en_us/research/21/c/earth-vetala---muddywater-continues-to-target-organizations-in-t.html",
+      "description": "Peretz, A. and Theck, E. (2021, March 5). Earth Vetala – MuddyWater Continues to Target Organizations in the Middle East. Retrieved March 18, 2021."
+    },
+    {
+      "source": "Reaqta MuddyWater November 2017",
+      "url": "https://reaqta.com/2017/11/muddywater-apt-targeting-middle-east/",
+      "description": "Reaqta. (2017, November 22). A dive into MuddyWater APT targeting Middle-East. Retrieved May 18, 2020."
+    },
+    {
+      "source": "FireEye MuddyWater Mar 2018",
+      "url": "https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html",
+      "description": "Singh, S. et al.. (2018, March 13). Iranian Threat Group Updates Tactics, Techniques and Procedures in Spear Phishing Campaign. Retrieved April 11, 2018."
+    },
+    {
+      "source": "Symantec MuddyWater Dec 2018",
+      "url": "https://www.symantec.com/blogs/threat-intelligence/seedworm-espionage-group",
+      "description": "Symantec DeepSight Adversary Intelligence Team. (2018, December 10). Seedworm: Group Compromises Government Agencies, Oil & Gas, NGOs, Telecoms, and IT Firms. Retrieved December 14, 2018."
+    },
+    {
+      "source": "SymantecCarbonBlack_Seedworm_Mar2026",
+      "url": "https://www.security.com/threat-intelligence/iran-cyber-threat-activity-us",
+      "description": "Threat Hunter Team. (2026, March 5). Seedworm: Iranian APT on Networks of U.S. Bank, Airport, Software Company. Retrieved March 5, 2026."
+    }
+  ],
+  "Dark Caracal": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0070",
+      "description": null
+    },
+    {
+      "source": "Dark Caracal",
+      "url": null,
+      "description": "(Citation: Lookout Dark Caracal Jan 2018)"
+    },
+    {
+      "source": "Lookout Dark Caracal Jan 2018",
+      "url": "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf",
+      "description": "Blaich, A., et al. (2018, January 18). Dark Caracal: Cyber-espionage at a Global Scale. Retrieved April 11, 2018."
+    }
+  ],
+  "Orangeworm": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0071",
+      "description": null
+    },
+    {
+      "source": "Orangeworm",
+      "url": null,
+      "description": "(Citation: Symantec Orangeworm April 2018)"
+    },
+    {
+      "source": "Cylera Kwampirs 2022",
+      "url": "https://resources.cylera.com/hubfs/Cylera%20Labs/Cylera%20Labs%20Kwampirs%20Shamoon%20Technical%20Report.pdf",
+      "description": "Pablo Rincón Crespo. (2022, January). The link between Kwampirs (Orangeworm) and Shamoon APTs. Retrieved February 8, 2024."
+    },
+    {
+      "source": "Symantec Orangeworm April 2018",
+      "url": "https://www.symantec.com/blogs/threat-intelligence/orangeworm-targets-healthcare-us-europe-asia",
+      "description": "Symantec Security Response Attack Investigation Team. (2018, April 23). New Orangeworm attack group targets the healthcare sector in the U.S., Europe, and Asia. Retrieved May 8, 2018."
+    }
+  ],
+  "APT19": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0073",
+      "description": null
+    },
+    {
+      "source": "Sunshop Group",
+      "url": null,
+      "description": "(Citation: Dark Reading Codoso Feb 2015)"
+    },
+    {
+      "source": "Codoso Team",
+      "url": null,
+      "description": "(Citation: FireEye APT Groups)"
+    },
+    {
+      "source": "APT19",
+      "url": null,
+      "description": "(Citation: FireEye APT19)"
+    },
+    {
+      "source": "Codoso",
+      "url": null,
+      "description": "(Citation: Unit 42 C0d0so0 Jan 2016)"
+    },
+    {
+      "source": "C0d0so0",
+      "url": null,
+      "description": "(Citation: Unit 42 C0d0so0 Jan 2016)"
+    },
+    {
+      "source": "FireEye APT19",
+      "url": "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html",
+      "description": "Ahl, I. (2017, June 06). Privileges and Credentials: Phished at the Request of Counsel. Retrieved May 17, 2018."
+    },
+    {
+      "source": "Dark Reading Codoso Feb 2015",
+      "url": "https://www.darkreading.com/attacks-breaches/chinese-hacking-group-codoso-team-uses-forbescom-as-watering-hole-/d/d-id/1319059",
+      "description": "Chickowski, E. (2015, February 10). Chinese Hacking Group Codoso Team Uses Forbes.com As Watering Hole. Retrieved September 13, 2018."
+    },
+    {
+      "source": "FireEye APT Groups",
+      "url": "https://www.fireeye.com/current-threats/apt-groups.html#apt19",
+      "description": "FireEye. (n.d.). Advanced Persistent Threat Groups. Retrieved August 3, 2018."
+    },
+    {
+      "source": "Unit 42 C0d0so0 Jan 2016",
+      "url": "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/",
+      "description": "Grunzweig, J., Lee, B. (2016, January 22). New Attacks Linked to C0d0so0 Group. Retrieved August 2, 2018."
+    },
+    {
+      "source": "ICIT China's Espionage Jul 2016",
+      "url": "https://web.archive.org/web/20171017072306/https://icitech.org/icit-brief-chinas-espionage-dynasty-economic-death-by-a-thousand-cuts/",
+      "description": "Scott, J. and Spaniel, D. (2016, July 28). ICIT Brief - China’s Espionage Dynasty: Economic Death by a Thousand Cuts. Retrieved June 7, 2018."
+    }
+  ],
+  "Rancor": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0075",
+      "description": null
+    },
+    {
+      "source": "Rancor",
+      "url": null,
+      "description": "(Citation: Rancor Unit42 June 2018)"
+    },
+    {
+      "source": "Rancor Unit42 June 2018",
+      "url": "https://researchcenter.paloaltonetworks.com/2018/06/unit42-rancor-targeted-attacks-south-east-asia-using-plaintee-ddkong-malware-families/",
+      "description": "Ash, B., et al. (2018, June 26). RANCOR: Targeted Attacks in South East Asia Using PLAINTEE and DDKONG Malware Families. Retrieved July 2, 2018."
+    }
+  ],
+  "DarkHydrus": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0079",
+      "description": null
+    },
+    {
+      "source": "DarkHydrus",
+      "url": null,
+      "description": "(Citation: Unit 42 DarkHydrus July 2018)"
+    },
+    {
+      "source": "Unit 42 DarkHydrus July 2018",
+      "url": "https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/",
+      "description": "Falcone, R., et al. (2018, July 27). New Threat Actor Group DarkHydrus Targets Middle East Government. Retrieved August 2, 2018."
+    },
+    {
+      "source": "Unit 42 Playbook Dec 2017",
+      "url": "https://pan-unit42.github.io/playbook_viewer/",
+      "description": "Unit 42. (2017, December 15). Unit 42 Playbook Viewer. Retrieved December 20, 2017."
+    }
+  ],
+  "SilverTerrier": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0083",
+      "description": null
+    },
+    {
+      "source": "SilverTerrier",
+      "url": null,
+      "description": "(Citation: Unit42 SilverTerrier 2018)(Citation: Unit42 SilverTerrier 2016)"
+    },
+    {
+      "source": "Unit42 SilverTerrier 2016",
+      "url": "https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/reports/Unit_42/silverterrier-next-evolution-in-nigerian-cybercrime.pdf",
+      "description": "Renals, P., Conant, S. (2016). SILVERTERRIER: The Next Evolution in Nigerian Cybercrime. Retrieved November 13, 2018."
+    },
+    {
+      "source": "Unit42 SilverTerrier 2018",
+      "url": "https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/whitepapers/unit42-silverterrier-rise-of-nigerian-business-email-compromise",
+      "description": "Unit42. (2016). SILVERTERRIER: THE RISE OF NIGERIAN BUSINESS EMAIL COMPROMISE. Retrieved November 13, 2018."
+    }
+  ],
+  "Gallmaker": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0084",
+      "description": null
+    },
+    {
+      "source": "Gallmaker",
+      "url": null,
+      "description": "(Citation: Symantec Gallmaker Oct 2018)"
+    },
+    {
+      "source": "Symantec Gallmaker Oct 2018",
+      "url": "https://www.symantec.com/blogs/threat-intelligence/gallmaker-attack-group",
+      "description": "Symantec Security Response. (2018, October 10). Gallmaker: New Attack Group Eschews Malware to Live off the Land. Retrieved November 27, 2018."
+    }
+  ],
+  "APT39": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0087",
+      "description": null
+    },
+    {
+      "source": "Remix Kitten",
+      "url": null,
+      "description": "(Citation: Crowdstrike GTR2020 Mar 2020)"
+    },
+    {
+      "source": "ITG07",
+      "url": null,
+      "description": "(Citation: FBI FLASH APT39 September 2020)(Citation: Dept. of Treasury Iran Sanctions September 2020)(Citation: DOJ Iran Indictments September 2020)"
+    },
+    {
+      "source": "APT39",
+      "url": null,
+      "description": "(Citation: FireEye APT39 Jan 2019)(Citation: FBI FLASH APT39 September 2020)(Citation: Dept. of Treasury Iran Sanctions September 2020)(Citation: DOJ Iran Indictments September 2020)"
+    },
+    {
+      "source": "Chafer",
+      "url": null,
+      "description": "Activities associated with APT39 largely align with a group publicly referred to as Chafer.(Citation: FireEye APT39 Jan 2019)(Citation: Symantec Chafer Dec 2015)(Citation: Dark Reading APT39 JAN 2019)(Citation: FBI FLASH APT39 September 2020)(Citation: Dept. of Treasury Iran Sanctions September 2020)(Citation: DOJ Iran Indictments September 2020)"
+    },
+    {
+      "source": "Crowdstrike GTR2020 Mar 2020",
+      "url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+      "description": "Crowdstrike. (2020, March 2). 2020 Global Threat Report. Retrieved December 11, 2020."
+    },
+    {
+      "source": "Dept. of Treasury Iran Sanctions September 2020",
+      "url": "https://home.treasury.gov/news/press-releases/sm1127",
+      "description": "Dept. of Treasury. (2020, September 17). Treasury Sanctions Cyber Actors Backed by Iranian Intelligence. Retrieved December 10, 2020."
+    },
+    {
+      "source": "DOJ Iran Indictments September 2020",
+      "url": "https://www.justice.gov/opa/pr/department-justice-and-partner-departments-and-agencies-conduct-coordinated-actions-disrupt",
+      "description": "DOJ. (2020, September 17). Department of Justice and Partner Departments and Agencies Conduct Coordinated Actions to Disrupt and Deter Iranian Malicious Cyber Activities Targeting the United States and the Broader International Community. Retrieved December 10, 2020."
+    },
+    {
+      "source": "FBI FLASH APT39 September 2020",
+      "url": "https://www.iranwatch.org/sites/default/files/public-intelligence-alert.pdf",
+      "description": "FBI. (2020, September 17). Indicators of Compromise Associated with Rana Intelligence Computing, also known as Advanced Persistent Threat 39, Chafer, Cadelspy, Remexi, and ITG07. Retrieved December 10, 2020."
+    },
+    {
+      "source": "FireEye APT39 Jan 2019",
+      "url": "https://www.fireeye.com/blog/threat-research/2019/01/apt39-iranian-cyber-espionage-group-focused-on-personal-information.html",
+      "description": "Hawley et al. (2019, January 29). APT39: An Iranian Cyber Espionage Group Focused on Personal Information. Retrieved February 19, 2019."
+    },
+    {
+      "source": "Dark Reading APT39 JAN 2019",
+      "url": "https://www.darkreading.com/attacks-breaches/iran-ups-its-traditional-cyber-espionage-tradecraft/d/d-id/1333764",
+      "description": "Higgins, K. (2019, January 30). Iran Ups its Traditional Cyber Espionage Tradecraft. Retrieved May 22, 2020."
+    },
+    {
+      "source": "Symantec Chafer Dec 2015",
+      "url": "https://www.symantec.com/connect/blogs/iran-based-attackers-use-back-door-threats-spy-middle-eastern-targets",
+      "description": "Symantec Security Response. (2015, December 7). Iran-based attackers use back door threats to spy on Middle Eastern targets. Retrieved April 17, 2019."
+    }
+  ],
+  "TEMP.Veles": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0088",
+      "description": null
+    },
+    {
+      "source": "TEMP.Veles",
+      "url": null,
+      "description": "(Citation: FireEye TRITON 2019)"
+    },
+    {
+      "source": "Dragos Xenotime 2018",
+      "url": "https://dragos.com/resource/xenotime/",
+      "description": "Dragos, Inc.. (n.d.). Xenotime. Retrieved April 16, 2019."
+    },
+    {
+      "source": "FireEye TEMP.Veles 2018",
+      "url": "https://www.fireeye.com/blog/threat-research/2018/10/triton-attribution-russian-government-owned-lab-most-likely-built-tools.html",
+      "description": "FireEye Intelligence . (2018, October 23). TRITON Attribution: Russian Government-Owned Lab Most Likely Built Custom Intrusion Tools for TRITON Attackers. Retrieved April 16, 2019."
+    },
+    {
+      "source": "FireEye TRITON 2019",
+      "url": "https://www.fireeye.com/blog/threat-research/2019/04/triton-actor-ttp-profile-custom-attack-tools-detections.html",
+      "description": "Miller, S, et al. (2019, April 10). TRITON Actor TTP Profile, Custom Attack Tools, Detections, and ATT&CK Mapping. Retrieved April 16, 2019."
+    },
+    {
+      "source": "FireEye TEMP.Veles JSON April 2019",
+      "url": "https://www.fireeye.com/content/dam/fireeye-www/blog/files/TRITON_Appendix_C.html",
+      "description": "Miller, S., et al. (2019, April 10). TRITON Appendix C. Retrieved April 29, 2019."
+    },
+    {
+      "source": "Pylos Xenotime 2019",
+      "url": "https://pylos.co/2019/04/12/a-xenotime-to-remember-veles-in-the-wild/",
+      "description": "Slowik, J.. (2019, April 12). A XENOTIME to Remember: Veles in the Wild. Retrieved April 16, 2019."
+    },
+    {
+      "source": "XENOTIME",
+      "url": null,
+      "description": "The activity group XENOTIME, as defined by Dragos, has overlaps with activity reported upon by FireEye about TEMP.Veles as well as the actors behind [TRITON](https://attack.mitre.org/software/S0609).(Citation: Dragos Xenotime 2018)(Citation: Pylos Xenotime 2019)(Citation: FireEye TRITON 2019)(Citation: FireEye TEMP.Veles 2018)"
+    }
+  ],
+  "The White Company": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0089",
+      "description": null
+    },
+    {
+      "source": "Cylance Shaheen Nov 2018",
+      "url": "https://www.cylance.com/content/dam/cylance-web/en-us/resources/knowledge-center/resource-library/reports/WhiteCompanyOperationShaheenReport.pdf",
+      "description": "Livelli, K, et al. (2018, November 12). Operation Shaheen. Retrieved May 1, 2019."
+    }
+  ],
+  "WIRTE": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0090",
+      "description": null
+    },
+    {
+      "source": "WIRTE",
+      "url": null,
+      "description": "(Citation: Lab52 WIRTE Apr 2019)"
+    },
+    {
+      "source": "Ashen Lepus",
+      "url": null,
+      "description": "(Citation: Palo Alto Ashen Lepus DEC 2025)"
+    },
+    {
+      "source": "Check Point Wirte NOV 2024",
+      "url": "https://research.checkpoint.com/2024/hamas-affiliated-threat-actor-expands-to-disruptive-activity/",
+      "description": "Check Point. (2024, November 12). Hamas-affiliated Threat Actor WIRTE Continues its Middle East Operations and Moves to Disruptive Activity. Retrieved April 20, 2026."
+    },
+    {
+      "source": "Lab52 WIRTE Apr 2019",
+      "url": "https://lab52.io/blog/wirte-group-attacking-the-middle-east/",
+      "description": "S2 Grupo. (2019, April 2). WIRTE Group attacking the Middle East. Retrieved May 24, 2019."
+    },
+    {
+      "source": "Palo Alto Ashen Lepus DEC 2025",
+      "url": "https://unit42.paloaltonetworks.com/hamas-affiliate-ashen-lepus-uses-new-malware-suite-ashtag/",
+      "description": "Unit 42. (2025, December 11). Hamas-Affiliated Ashen Lepus Targets Middle Eastern Diplomatic Entities With New AshTag Malware Suite. Retrieved April 20, 2026."
+    },
+    {
+      "source": "Kaspersky WIRTE November 2021",
+      "url": "https://securelist.com/wirtes-campaign-in-the-middle-east-living-off-the-land-since-at-least-2019/105044",
+      "description": "Yamout, M. (2021, November 29). WIRTE’s campaign in the Middle East ‘living off the land’ since at least 2019. Retrieved February 1, 2022."
+    }
+  ],
+  "GALLIUM": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0093",
+      "description": null
+    },
+    {
+      "source": "GALLIUM",
+      "url": null,
+      "description": "(Citation: Microsoft GALLIUM December 2019)"
+    },
+    {
+      "source": "Granite Typhoon",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "Cybereason Soft Cell June 2019",
+      "url": "https://www.cybereason.com/blog/operation-soft-cell-a-worldwide-campaign-against-telecommunications-providers",
+      "description": "Cybereason Nocturnus. (2019, June 25). Operation Soft Cell: A Worldwide Campaign Against Telecommunications Providers. Retrieved July 18, 2019."
+    },
+    {
+      "source": "Microsoft Threat Actor Naming July 2023",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023."
+    },
+    {
+      "source": "Microsoft GALLIUM December 2019",
+      "url": "https://www.microsoft.com/security/blog/2019/12/12/gallium-targeting-global-telecom/",
+      "description": "MSTIC. (2019, December 12). GALLIUM: Targeting global telecom. Retrieved January 13, 2021."
+    },
+    {
+      "source": "Unit 42 PingPull Jun 2022",
+      "url": "https://unit42.paloaltonetworks.com/pingpull-gallium/",
+      "description": "Unit 42. (2022, June 13). GALLIUM Expands Targeting Across Telecommunications, Government and Finance Sectors With New PingPull Tool. Retrieved August 7, 2022."
+    }
+  ],
+  "BlackTech": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0098",
+      "description": null
+    },
+    {
+      "source": "Palmerworm",
+      "url": null,
+      "description": "(Citation: Symantec Palmerworm Sep 2020)(Citation: IronNet BlackTech Oct 2021)"
+    },
+    {
+      "source": "TrendMicro BlackTech June 2017",
+      "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/following-trail-blacktech-cyber-espionage-campaigns/",
+      "description": "Bermejo, L., et al. (2017, June 22). Following the Trail of BlackTech’s Cyber Espionage Campaigns. Retrieved May 5, 2020."
+    },
+    {
+      "source": "IronNet BlackTech Oct 2021",
+      "url": "https://www.ironnet.com/blog/china-cyber-attacks-the-current-threat-landscape",
+      "description": "Demboski, M., et al. (2021, October 26). China cyber attacks: the current threat landscape. Retrieved March 25, 2022."
+    },
+    {
+      "source": "Reuters Taiwan BlackTech August 2020",
+      "url": "https://www.reuters.com/article/us-taiwan-cyber-china/taiwan-says-china-behind-cyberattacks-on-government-agencies-emails-idUSKCN25F0JK",
+      "description": "Lee, Y. (2020, August 19). Taiwan says China behind cyberattacks on government agencies, emails. Retrieved April 6, 2022."
+    },
+    {
+      "source": "Symantec Palmerworm Sep 2020",
+      "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/palmerworm-blacktech-espionage-apt",
+      "description": "Threat Intelligence. (2020, September 29). Palmerworm: Espionage Gang Targets the Media, Finance, and Other Sectors. Retrieved March 25, 2022."
+    }
+  ],
+  "APT-C-36": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0099",
+      "description": null
+    },
+    {
+      "source": "Blind Eagle",
+      "url": null,
+      "description": "(Citation: QiAnXin APT-C-36 Feb2019)(Citation: Recorded Future TAG-144 AUG 2025)"
+    },
+    {
+      "source": "TAG-144",
+      "url": null,
+      "description": "(Citation: Recorded Future TAG-144 AUG 2025)"
+    },
+    {
+      "source": "AguilaCiega",
+      "url": null,
+      "description": "(Citation: Recorded Future TAG-144 AUG 2025)"
+    },
+    {
+      "source": "APT-Q-98",
+      "url": null,
+      "description": "(Citation: Recorded Future TAG-144 AUG 2025)"
+    },
+    {
+      "source": "Check Point Blind Eagle MAR 2025",
+      "url": "https://research.checkpoint.com/2025/blind-eagle-and-justice-for-all/",
+      "description": "Check Point Research. (2025, March 10). Blind Eagle: …And Justice for All. Retrieved April 16, 2026."
+    },
+    {
+      "source": "Kaspersky BlindEagle AUG 2024",
+      "url": "https://securelist.com/blindeagle-apt/113414/",
+      "description": "Global Research & Analysis Team, Kaspersky. (2024, August 19). BlindEagle flying high in Latin America. Retrieved April 16, 2026."
+    },
+    {
+      "source": "Recorded Future TAG-144 AUG 2025",
+      "url": "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf",
+      "description": "Insikt Group. (2025, August 26). TAG-144’s Persistent Grip on South American Organizations. Retrieved April 16, 2026."
+    },
+    {
+      "source": "QiAnXin APT-C-36 Feb2019",
+      "url": "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/",
+      "description": "QiAnXin Threat Intelligence Center. (2019, February 18). APT-C-36: Continuous Attacks Targeting Colombian Government Institutions and Corporations. Retrieved May 5, 2020."
+    }
+  ],
+  "Mofang": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0103",
+      "description": null
+    },
+    {
+      "source": "FOX-IT May 2016 Mofang",
+      "url": "https://foxitsecurity.files.wordpress.com/2016/06/fox-it_mofang_threatreport_tlp-white.pdf",
+      "description": "Yonathan Klijnsma. (2016, May 17). Mofang: A politically motivated information stealing adversary. Retrieved May 12, 2020."
+    }
+  ],
+  "DarkVishnya": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0105",
+      "description": null
+    },
+    {
+      "source": "DarkVishnya",
+      "url": null,
+      "description": "(Citation: Securelist DarkVishnya Dec 2018)"
+    },
+    {
+      "source": "Securelist DarkVishnya Dec 2018",
+      "url": "https://securelist.com/darkvishnya/89169/",
+      "description": "Golovanov, S. (2018, December 6). DarkVishnya: Banks attacked through direct connection to local network. Retrieved May 15, 2020."
+    }
+  ],
+  "Rocke": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0106",
+      "description": null
+    },
+    {
+      "source": "Talos Rocke August 2018",
+      "url": "https://blog.talosintelligence.com/2018/08/rocke-champion-of-monero-miners.html",
+      "description": "Liebenberg, D.. (2018, August 30). Rocke: The Champion of Monero Miners. Retrieved May 26, 2020."
+    }
+  ],
+  "Whitefly": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0107",
+      "description": null
+    },
+    {
+      "source": "Symantec Whitefly March 2019",
+      "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/whitefly-espionage-singapore",
+      "description": "Symantec. (2019, March 6). Whitefly: Espionage Group has Singapore in Its Sights. Retrieved May 26, 2020."
+    }
+  ],
+  "Blue Mockingbird": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0108",
+      "description": null
+    },
+    {
+      "source": "RedCanary Mockingbird May 2020",
+      "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+      "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+    }
+  ],
+  "Chimera": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0114",
+      "description": null
+    },
+    {
+      "source": "Chimera",
+      "url": null,
+      "description": "(Citation: NCC Group Chimera January 2021) "
+    },
+    {
+      "source": "Cycraft Chimera April 2020",
+      "url": "https://cycraft.com/download/CyCraft-Whitepaper-Chimera_V4.1.pdf",
+      "description": "Cycraft. (2020, April 15). APT Group Chimera - APT Operation Skeleton key Targets Taiwan Semiconductor Vendors. Retrieved August 24, 2020.."
+    },
+    {
+      "source": "NCC Group Chimera January 2021",
+      "url": "https://web.archive.org/web/20230218064220/https://research.nccgroup.com/2021/01/12/abusing-cloud-services-to-fly-under-the-radar/",
+      "description": "Jansen, W . (2021, January 12). Abusing cloud services to fly under the radar. Retrieved September 12, 2024."
+    }
+  ],
+  "Fox Kitten": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0117",
+      "description": null
+    },
+    {
+      "source": "UNC757",
+      "url": null,
+      "description": "(Citation: CISA AA20-259A Iran-Based Actor September 2020)(Citation: CrowdStrike PIONEER KITTEN August 2020)"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "url": null,
+      "description": "(Citation: CrowdStrike PIONEER KITTEN August 2020)(Citation: CISA AA20-259A Iran-Based Actor September 2020)"
+    },
+    {
+      "source": "Parisite",
+      "url": null,
+      "description": "(Citation: Dragos PARISITE )(Citation: ClearkSky Fox Kitten February 2020)(Citation: CrowdStrike PIONEER KITTEN August 2020)"
+    },
+    {
+      "source": "RUBIDIUM",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "Lemon Sandstorm",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "CISA AA20-259A Iran-Based Actor September 2020",
+      "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+      "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+    },
+    {
+      "source": "ClearSky Pay2Kitten December 2020",
+      "url": "https://www.clearskysec.com/wp-content/uploads/2020/12/Pay2Kitten.pdf",
+      "description": "ClearSky. (2020, December 17). Pay2Key Ransomware – A New Campaign by Fox Kitten. Retrieved December 21, 2020."
+    },
+    {
+      "source": "ClearkSky Fox Kitten February 2020",
+      "url": "https://www.clearskysec.com/fox-kitten/",
+      "description": "ClearSky. (2020, February 16). Fox Kitten – Widespread Iranian Espionage-Offensive Campaign. Retrieved December 21, 2020."
+    },
+    {
+      "source": "Dragos PARISITE ",
+      "url": "https://www.dragos.com/threat/parisite/",
+      "description": "Dragos. (n.d.). PARISITE. Retrieved December 21, 2020."
+    },
+    {
+      "source": "Microsoft Threat Actor Naming July 2023",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023."
+    },
+    {
+      "source": "CrowdStrike PIONEER KITTEN August 2020",
+      "url": "https://www.crowdstrike.com/blog/who-is-pioneer-kitten/",
+      "description": "Orleans, A. (2020, August 31). Who Is PIONEER KITTEN?. Retrieved December 21, 2020."
+    }
+  ],
+  "Evilnum": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0120",
+      "description": null
+    },
+    {
+      "source": "Evilnum",
+      "url": null,
+      "description": "(Citation: ESET EvilNum July 2020)"
+    },
+    {
+      "source": "ESET EvilNum July 2020",
+      "url": "https://www.welivesecurity.com/2020/07/09/more-evil-deep-look-evilnum-toolset/",
+      "description": "Porolli, M. (2020, July 9). More evil: A deep look at Evilnum and its toolset. Retrieved January 22, 2021."
+    }
+  ],
+  "Silent Librarian": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0122",
+      "description": null
+    },
+    {
+      "source": "TA407",
+      "url": null,
+      "description": "(Citation: Proofpoint TA407 September 2019)(Citation: Malwarebytes Silent Librarian October 2020)"
+    },
+    {
+      "source": "COBALT DICKENS",
+      "url": null,
+      "description": "(Citation: Secureworks COBALT DICKENS August 2018)(Citation: Secureworks COBALT DICKENS September 2019)(Citation: Proofpoint TA407 September 2019)(Citation: Malwarebytes Silent Librarian October 2020)"
+    },
+    {
+      "source": "DOJ Iran Indictments March 2018",
+      "url": "https://www.justice.gov/usao-sdny/press-release/file/1045781/download",
+      "description": "DOJ. (2018, March 23). U.S. v. Rafatnejad et al . Retrieved February 3, 2021."
+    },
+    {
+      "source": "Phish Labs Silent Librarian",
+      "url": "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+      "description": "Hassold, Crane. (2018, March 26). Silent Librarian: More to the Story of the Iranian Mabna Institute Indictment. Retrieved February 3, 2021."
+    },
+    {
+      "source": "Malwarebytes Silent Librarian October 2020",
+      "url": "https://blog.malwarebytes.com/malwarebytes-news/2020/10/silent-librarian-apt-phishing-attack/",
+      "description": "Malwarebytes Threat Intelligence Team. (2020, October 14). Silent Librarian APT right on schedule for 20/21 academic year. Retrieved February 3, 2021."
+    },
+    {
+      "source": "Proofpoint TA407 September 2019",
+      "url": "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+      "description": "Proofpoint Threat Insight Team. (2019, September 5). Threat Actor Profile: TA407, the Silent Librarian. Retrieved February 3, 2021."
+    },
+    {
+      "source": "Secureworks COBALT DICKENS August 2018",
+      "url": "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+      "description": "Counter Threat Unit Research Team. (2018, August 24). Back to School: COBALT DICKENS Targets Universities. Retrieved February 3, 2021."
+    },
+    {
+      "source": "Secureworks COBALT DICKENS September 2019",
+      "url": "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again",
+      "description": "Counter Threat Unit Research Team. (2019, September 11). COBALT DICKENS Goes Back to School…Again. Retrieved February 3, 2021."
+    }
+  ],
+  "Volatile Cedar": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0123",
+      "description": null
+    },
+    {
+      "source": "Volatile Cedar",
+      "url": null,
+      "description": "(Citation: CheckPoint Volatile Cedar March 2015)"
+    },
+    {
+      "source": "Lebanese Cedar",
+      "url": null,
+      "description": "(Citation: ClearSky Lebanese Cedar Jan 2021)"
+    },
+    {
+      "source": "ClearSky Lebanese Cedar Jan 2021",
+      "url": "https://www.clearskysec.com/wp-content/uploads/2021/01/Lebanese-Cedar-APT.pdf",
+      "description": "ClearSky Cyber Security. (2021, January). “Lebanese Cedar” APT Global Lebanese Espionage Campaign Leveraging Web Servers. Retrieved February 10, 2021."
+    },
+    {
+      "source": "CheckPoint Volatile Cedar March 2015",
+      "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2015/03/20082004/volatile-cedar-technical-report.pdf",
+      "description": "Threat Intelligence and Research. (2015, March 30). VOLATILE CEDAR. Retrieved February 8, 2021."
+    }
+  ],
+  "Windigo": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0124",
+      "description": null
+    },
+    {
+      "source": "ESET Windigo Mar 2014",
+      "url": "https://www.welivesecurity.com/2014/03/18/operation-windigo-the-vivisection-of-a-large-linux-server-side-credential-stealing-malware-campaign/",
+      "description": "Bilodeau, O., Bureau, M., Calvet, J., Dorais-Joncas, A., Léveillé, M., Vanheuverzwijn, B. (2014, March 18). Operation Windigo – the vivisection of a large Linux server‑side credential‑stealing malware campaign. Retrieved February 10, 2021."
+    },
+    {
+      "source": "CERN Windigo June 2019",
+      "url": "https://security.web.cern.ch/advisories/windigo/windigo.shtml",
+      "description": "CERN. (2019, June 4). 2019/06/04 Advisory: Windigo attacks. Retrieved February 10, 2021."
+    }
+  ],
+  "HAFNIUM": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0125",
+      "description": null
+    },
+    {
+      "source": "Silk Typhoon",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)(Citation: Microsoft Silk Typhoon MAR 2025)"
+    },
+    {
+      "source": "Operation Exchange Marauder",
+      "url": null,
+      "description": "(Citation: Volexity Exchange Marauder March 2021)"
+    },
+    {
+      "source": "Volexity Exchange Marauder March 2021",
+      "url": "https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/",
+      "description": "Gruzweig, J. et al. (2021, March 2). Operation Exchange Marauder: Active Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities. Retrieved March 3, 2021."
+    },
+    {
+      "source": "Microsoft Threat Actor Naming July 2023",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023."
+    },
+    {
+      "source": "Microsoft Silk Typhoon MAR 2025",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/03/05/silk-typhoon-targeting-it-supply-chain/",
+      "description": "Microsoft Threat Intelligence . (2025, March 5). Silk Typhoon targeting IT supply chain. Retrieved March 20, 2025."
+    },
+    {
+      "source": "Microsoft HAFNIUM March 2020",
+      "url": "https://www.microsoft.com/security/blog/2021/03/02/hafnium-targeting-exchange-servers/",
+      "description": "MSTIC. (2021, March 2). HAFNIUM targeting Exchange Servers with 0-day exploits. Retrieved March 3, 2021."
+    }
+  ],
+  "Higaisa": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0126",
+      "description": null
+    },
+    {
+      "source": "Malwarebytes Higaisa 2020",
+      "url": "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+      "description": "Malwarebytes Threat Intelligence Team. (2020, June 4). New LNK attack tied to Higaisa APT discovered. Retrieved March 2, 2021."
+    },
+    {
+      "source": "PTSecurity Higaisa 2020",
+      "url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/",
+      "description": "PT ESC Threat Intelligence. (2020, June 4). COVID-19 and New Year greetings: an investigation into the tools and methods used by the Higaisa group. Retrieved March 2, 2021."
+    },
+    {
+      "source": "Zscaler Higaisa 2020",
+      "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt",
+      "description": "Singh, S. Singh, A. (2020, June 11). The Return on the Higaisa APT. Retrieved March 2, 2021."
+    }
+  ],
+  "Tonto Team": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0131",
+      "description": null
+    },
+    {
+      "source": "CactusPete",
+      "url": null,
+      "description": "(Citation: Kaspersky CactusPete Aug 2020)"
+    },
+    {
+      "source": "Karma Panda",
+      "url": null,
+      "description": "(Citation: Kaspersky CactusPete Aug 2020)(Citation: CrowdStrike Manufacturing Threat July 2020)"
+    },
+    {
+      "source": "BRONZE HUNTLEY",
+      "url": null,
+      "description": "(Citation: Secureworks BRONZE HUNTLEY )"
+    },
+    {
+      "source": "Tonto Team",
+      "url": null,
+      "description": "(Citation: Talos Bisonal Mar 2020) "
+    },
+    {
+      "source": "Earth Akhlut",
+      "url": null,
+      "description": "(Citation: TrendMicro Tonto Team October 2020)"
+    },
+    {
+      "source": "TrendMicro Tonto Team October 2020",
+      "url": "https://vb2020.vblocalhost.com/uploads/VB2020-06.pdf",
+      "description": "Daniel Lughi, Jaromir Horejsi. (2020, October 2). Tonto Team - Exploring the TTPs of an advanced threat actor operating a large infrastructure. Retrieved October 17, 2021."
+    },
+    {
+      "source": "CrowdStrike Manufacturing Threat July 2020",
+      "url": "https://www.crowdstrike.com/blog/adversaries-targeting-the-manufacturing-industry/",
+      "description": "Falcon OverWatch Team. (2020, July 14). Manufacturing Industry in the Adversaries’ Crosshairs. Retrieved October 17, 2021."
+    },
+    {
+      "source": "ESET Exchange Mar 2021",
+      "url": "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups/",
+      "description": "Faou, M., Tartare, M., Dupuy, T. (2021, March 10). Exchange servers under siege from at least 10 APT groups. Retrieved May 21, 2021."
+    },
+    {
+      "source": "Talos Bisonal Mar 2020",
+      "url": "https://blog.talosintelligence.com/2020/03/bisonal-10-years-of-play.html",
+      "description": "Mercer, W., et al. (2020, March 5). Bisonal: 10 years of play. Retrieved January 26, 2022."
+    },
+    {
+      "source": "FireEye Chinese Espionage October 2019",
+      "url": "https://web.archive.org/web/20210308054208/https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+      "description": "Nalani Fraser, Kelli Vanderlee. (2019, October 10). Achievement Unlocked - Chinese Cyber Espionage Evolves to Support Higher Level Missions. Retrieved November 17, 2024."
+    },
+    {
+      "source": "Trend Micro HeartBeat Campaign January 2013",
+      "url": "https://www.trendmicro.de/cloud-content/us/pdfs/security-intelligence/white-papers/wp_the-heartbeat-apt-campaign.pdf",
+      "description": "Roland Dela Paz. (2003, January 3). The HeartBeat APT Campaign. Retrieved October 17, 2021."
+    },
+    {
+      "source": "ARS Technica China Hack SK April 2017",
+      "url": "https://arstechnica.com/information-technology/2017/04/researchers-claim-china-trying-to-hack-south-korea-missile-defense-efforts/",
+      "description": "Sean Gallagher. (2017, April 21). Researchers claim China trying to hack South Korea missile defense efforts. Retrieved October 17, 2021."
+    },
+    {
+      "source": "Secureworks BRONZE HUNTLEY ",
+      "url": "https://www.secureworks.com/research/threat-profiles/bronze-huntley",
+      "description": "Secureworks. (2021, January 1). BRONZE HUNTLEY Threat Profile. Retrieved May 5, 2021."
+    },
+    {
+      "source": "Kaspersky CactusPete Aug 2020",
+      "url": "https://securelist.com/cactuspete-apt-groups-updated-bisonal-backdoor/97962/",
+      "description": "Zykov, K. (2020, August 13). CactusPete APT group’s updated Bisonal backdoor. Retrieved May 5, 2021."
+    }
+  ],
+  "BackdoorDiplomacy": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0135",
+      "description": null
+    },
+    {
+      "source": "ESET BackdoorDiplomacy Jun 2021",
+      "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+      "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+    }
+  ],
+  "IndigoZebra": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0136",
+      "description": null
+    },
+    {
+      "source": "IndigoZebra",
+      "url": null,
+      "description": "(Citation: HackerNews IndigoZebra July 2021)(Citation: Checkpoint IndigoZebra July 2021)(Citation: Securelist APT Trends Q2 2017)"
+    },
+    {
+      "source": "HackerNews IndigoZebra July 2021",
+      "url": "https://thehackernews.com/2021/07/indigozebra-apt-hacking-campaign.html",
+      "description": "Lakshmanan, R.. (2021, July 1). IndigoZebra APT Hacking Campaign Targets the Afghan Government. Retrieved September 24, 2021."
+    },
+    {
+      "source": "Checkpoint IndigoZebra July 2021",
+      "url": "https://research.checkpoint.com/2021/indigozebra-apt-continues-to-attack-central-asia-with-evolving-tools/",
+      "description": "CheckPoint Research. (2021, July 1). IndigoZebra APT continues to attack Central Asia with evolving tools. Retrieved September 24, 2021."
+    },
+    {
+      "source": "Securelist APT Trends Q2 2017",
+      "url": "https://securelist.com/apt-trends-report-q2-2017/79332/",
+      "description": "Kaspersky Lab's Global Research & Analysis Team. (2017, August 8). APT Trends report Q2 2017. Retrieved February 15, 2018."
+    }
+  ],
+  "Ferocious Kitten": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0137",
+      "description": null
+    },
+    {
+      "source": "Kaspersky Ferocious Kitten Jun 2021",
+      "url": "https://securelist.com/ferocious-kitten-6-years-of-covert-surveillance-in-iran/102806/",
+      "description": "GReAT. (2021, June 16). Ferocious Kitten: 6 Years of Covert Surveillance in Iran. Retrieved September 22, 2021."
+    }
+  ],
+  "TeamTNT": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0139",
+      "description": null
+    },
+    {
+      "source": "ATT TeamTNT Chimaera September 2020",
+      "url": "https://cybersecurity.att.com/blogs/labs-research/teamtnt-with-new-campaign-aka-chimaera",
+      "description": "AT&T Alien Labs. (2021, September 8). TeamTNT with new campaign aka Chimaera. Retrieved September 22, 2021."
+    },
+    {
+      "source": "Cado Security TeamTNT Worm August 2020",
+      "url": "https://www.cadosecurity.com/team-tnt-the-first-crypto-mining-worm-to-steal-aws-credentials/",
+      "description": "Cado Security. (2020, August 16). Team TNT – The First Crypto-Mining Worm to Steal AWS Credentials. Retrieved September 22, 2021."
+    },
+    {
+      "source": "Unit 42 Hildegard Malware",
+      "url": "https://unit42.paloaltonetworks.com/hildegard-malware-teamtnt/",
+      "description": "Chen, J. et al. (2021, February 3). Hildegard: New TeamTNT Cryptojacking Malware Targeting Kubernetes. Retrieved April 5, 2021."
+    },
+    {
+      "source": "Trend Micro TeamTNT",
+      "url": "https://documents.trendmicro.com/assets/white_papers/wp-tracking-the-activities-of-teamTNT.pdf",
+      "description": "Fiser, D. Oliveira, A. (n.d.). Tracking the Activities of TeamTNT A Closer Look at a Cloud-Focused Malicious Actor Group. Retrieved September 22, 2021."
+    },
+    {
+      "source": "Intezer TeamTNT September 2020",
+      "url": "https://www.intezer.com/blog/cloud-security/attackers-abusing-legitimate-cloud-monitoring-tools-to-conduct-cyber-attacks/",
+      "description": "Fishbein, N. (2020, September 8). Attackers Abusing Legitimate Cloud Monitoring Tools to Conduct Cyber Attacks. Retrieved September 22, 2021."
+    },
+    {
+      "source": "Intezer TeamTNT Explosion September 2021",
+      "url": "https://www.intezer.com/wp-content/uploads/2021/09/TeamTNT-Cryptomining-Explosion.pdf",
+      "description": "Intezer. (2021, September 1). TeamTNT Cryptomining Explosion. Retrieved October 15, 2021."
+    },
+    {
+      "source": "Aqua TeamTNT August 2020",
+      "url": "https://blog.aquasec.com/container-security-tnt-container-attack",
+      "description": "Kol, Roi. Morag, A. (2020, August 25). Deep Analysis of TeamTNT Techniques Using Container Images to Attack. Retrieved September 22, 2021."
+    },
+    {
+      "source": "Palo Alto Black-T October 2020",
+      "url": "https://unit42.paloaltonetworks.com/black-t-cryptojacking-variant/",
+      "description": "Quist, N. (2020, October 5). Black-T: New Cryptojacking Variant from TeamTNT. Retrieved September 22, 2021."
+    },
+    {
+      "source": "Lacework TeamTNT May 2021",
+      "url": "https://www.lacework.com/blog/taking-teamtnt-docker-images-offline",
+      "description": "Stroud, J. (2021, May 25). Taking TeamTNT's Docker Images Offline. Retrieved September 16, 2024."
+    }
+  ],
+  "LazyScripter": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0140",
+      "description": null
+    },
+    {
+      "source": "LazyScripter",
+      "url": null,
+      "description": "(Citation: MalwareBytes LazyScripter Feb 2021)"
+    },
+    {
+      "source": "MalwareBytes LazyScripter Feb 2021",
+      "url": "https://web.archive.org/web/20211003035156/https://www.malwarebytes.com/resources/files/2021/02/lazyscripter.pdf",
+      "description": "Jazi, H. (2021, February). LazyScripter: From Empire to double RAT. Retrieved November 17, 2024."
+    }
+  ],
+  "Confucius": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0142",
+      "description": null
+    },
+    {
+      "source": "TrendMicro Confucius APT Feb 2018",
+      "url": "https://www.trendmicro.com/en_us/research/18/b/deciphering-confucius-cyberespionage-operations.html",
+      "description": "Lunghi, D and Horejsi, J. (2018, February 13). Deciphering Confucius: A Look at the Group's Cyberespionage Operations. Retrieved December 26, 2021."
+    },
+    {
+      "source": "TrendMicro Confucius APT Aug 2021",
+      "url": "https://www.trendmicro.com/en_us/research/21/h/confucius-uses-pegasus-spyware-related-lures-to-target-pakistani.html",
+      "description": "Lunghi, D. (2021, August 17). Confucius Uses Pegasus Spyware-related Lures to Target Pakistani Military. Retrieved December 26, 2021."
+    },
+    {
+      "source": "Uptycs Confucius APT Jan 2021",
+      "url": "https://www.uptycs.com/blog/confucius-apt-deploys-warzone-rat",
+      "description": "Uptycs Threat Research Team. (2021, January 12). Confucius APT deploys Warzone RAT. Retrieved December 17, 2021."
+    }
+  ],
+  "APT1": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0006",
+      "description": null
+    },
+    {
+      "source": "APT1",
+      "url": null,
+      "description": "(Citation: Mandiant APT1)"
+    },
+    {
+      "source": "Comment Crew",
+      "url": null,
+      "description": "(Citation: Mandiant APT1)"
+    },
+    {
+      "source": "Comment Group",
+      "url": null,
+      "description": "(Citation: Mandiant APT1)"
+    },
+    {
+      "source": "Comment Panda",
+      "url": null,
+      "description": "(Citation: CrowdStrike Putter Panda)"
+    },
+    {
+      "source": "Mandiant APT1",
+      "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf",
+      "description": "Mandiant. (n.d.). APT1 Exposing One of China’s Cyber Espionage Units. Retrieved July 18, 2016."
+    },
+    {
+      "source": "CrowdStrike Putter Panda",
+      "url": "http://cdn0.vox-cdn.com/assets/4589853/crowdstrike-intelligence-report-putter-panda.original.pdf",
+      "description": "Crowdstrike Global Intelligence Team. (2014, June 9). CrowdStrike Intelligence Report: Putter Panda. Retrieved January 22, 2016."
+    }
+  ],
+  "LAPSUS$": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1004",
+      "description": null
+    },
+    {
+      "source": "Strawberry Tempest",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "DEV-0537",
+      "url": null,
+      "description": "(Citation: MSTIC DEV-0537 Mar 2022)"
+    },
+    {
+      "source": "BBC LAPSUS Apr 2022",
+      "url": "https://www.bbc.com/news/technology-60953527",
+      "description": "BBC. (2022, April 1). LAPSUS: Two UK Teenagers Charged with Hacking for Gang. Retrieved June 9, 2022."
+    },
+    {
+      "source": "Microsoft Threat Actor Naming July 2023",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023."
+    },
+    {
+      "source": "MSTIC DEV-0537 Mar 2022",
+      "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/",
+      "description": "MSTIC, DART, M365 Defender. (2022, March 24). DEV-0537 Criminal Actor Targeting Organizations for Data Exfiltration and Destruction. Retrieved May 17, 2022."
+    },
+    {
+      "source": "UNIT 42 LAPSUS Mar 2022",
+      "url": "https://unit42.paloaltonetworks.com/lapsus-group/",
+      "description": "UNIT 42. (2022, March 24). Threat Brief: Lapsus$ Group. Retrieved May 17, 2022."
+    }
+  ],
+  "POLONIUM": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1005",
+      "description": null
+    },
+    {
+      "source": "Plaid Rain",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "Microsoft Threat Actor Naming July 2023",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023."
+    },
+    {
+      "source": "Microsoft POLONIUM June 2022",
+      "url": "https://www.microsoft.com/security/blog/2022/06/02/exposing-polonium-activity-and-infrastructure-targeting-israeli-organizations/",
+      "description": "Microsoft. (2022, June 2). Exposing POLONIUM activity and infrastructure targeting Israeli organizations. Retrieved July 1, 2022."
+    }
+  ],
+  "Earth Lusca": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1006",
+      "description": null
+    },
+    {
+      "source": "Charcoal Typhoon",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "ControlX",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "CHROMIUM",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023) (Citation: Recorded Future RedHotel August 2023)"
+    },
+    {
+      "source": "TAG-22",
+      "url": null,
+      "description": "(Citation: Recorded Future TAG-22 July 2021)"
+    },
+    {
+      "source": "TrendMicro EarthLusca 2022",
+      "url": "https://www.trendmicro.com/content...",
+      "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca’s Operations. Retrieved July 1, 2022."
+    },
+    {
+      "source": "Recorded Future TAG-22 July 2021",
+      "url": "https://www.recordedfuture.com/research/chinese-group-tag-22-targets-nepal-philippines-taiwan",
+      "description": "INSIKT GROUP. (2021, July 8). Chinese State-Sponsored Activity Group TAG-22 Targets Nepal, the Philippines, and Taiwan Using Winnti and Other Tooling. Retrieved September 16, 2024."
+    },
+    {
+      "source": "Recorded Future RedHotel August 2023",
+      "url": "https://go.recordedfuture.com/hubfs/reports/cta-2023-0808.pdf",
+      "description": "Insikt Group. (2023, August 8). RedHotel: A Prolific, Chinese State-Sponsored Group Operating at a Global Scale. Retrieved March 11, 2024."
+    },
+    {
+      "source": "Microsoft Threat Actor Naming July 2023",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023."
+    }
+  ],
+  "Aoqin Dragon": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1007",
+      "description": null
+    },
+    {
+      "source": "SentinelOne Aoqin Dragon June 2022",
+      "url": "https://www.sentinelone.com/labs/aoqin-dragon-newly-discovered-chinese-linked-apt-has-been-quietly-spying-on-organizations-for-10-years/",
+      "description": "Chen, Joey. (2022, June 9). Aoqin Dragon | Newly-Discovered Chinese-linked APT Has Been Quietly Spying On Organizations For 10 Years. Retrieved July 14, 2022."
+    }
+  ],
+  "SideCopy": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1008",
+      "description": null
+    },
+    {
+      "source": "MalwareBytes SideCopy Dec 2021",
+      "url": "https://www.malwarebytes.com/blog/news/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure",
+      "description": "Threat Intelligence Team. (2021, December 2). SideCopy APT: Connecting lures victims, payloads to infrastructure. Retrieved June 13, 2022."
+    }
+  ],
+  "Moses Staff": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1009",
+      "description": null
+    },
+    {
+      "source": "DEV-0500",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "Marigold Sandstorm",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "Checkpoint MosesStaff Nov 2021",
+      "url": "https://research.checkpoint.com/2021/mosesstaff-targeting-israeli-companies/",
+      "description": "Checkpoint Research. (2021, November 15). Uncovering MosesStaff techniques: Ideology over Money. Retrieved August 11, 2022."
+    },
+    {
+      "source": "Cybereason StrifeWater Feb 2022",
+      "url": "https://www.cybereason.com/blog/research/strifewater-rat-iranian-apt-moses-staff-adds-new-trojan-to-ransomware-operations",
+      "description": "Cybereason Nocturnus. (2022, February 1). StrifeWater RAT: Iranian APT Moses Staff Adds New Trojan to Ransomware Operations. Retrieved August 15, 2022."
+    },
+    {
+      "source": "Microsoft Threat Actor Naming July 2023",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023."
+    }
+  ],
+  "EXOTIC LILY": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1011",
+      "description": null
+    },
+    {
+      "source": "Google EXOTIC LILY March 2022",
+      "url": "https://blog.google/threat-analysis-group/exposing-initial-access-broker-ties-conti/",
+      "description": "Stolyarov, V. (2022, March 17). Exposing initial access broker with ties to Conti. Retrieved August 18, 2022."
+    }
+  ],
+  "Metador": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1013",
+      "description": null
+    },
+    {
+      "source": "SentinelLabs Metador Sept 2022",
+      "url": "https://assets.sentinelone.com/sentinellabs22/metador#page=1",
+      "description": "Ehrlich, A., et al. (2022, September). THE MYSTERY OF METADOR | AN UNATTRIBUTED THREAT HIDING IN TELCOS, ISPS, AND UNIVERSITIES. Retrieved January 23, 2023."
+    }
+  ],
+  "Scattered Spider": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1015",
+      "description": null
+    },
+    {
+      "source": "Roasted 0ktapus",
+      "url": null,
+      "description": "(Citation: CrowdStrike Scattered Spider BYOVD January 2023)"
+    },
+    {
+      "source": "UNC3944",
+      "url": null,
+      "description": "(Citation: Mandiant UNC3944 May 2025)(Citation: Mandiant VMware vSphere JUL 2025)"
+    },
+    {
+      "source": "Octo Tempest",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "Storm-0875",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "CISA Scattered Spider Advisory November 2023",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a",
+      "description": "CISA. (2023, November 16). Cybersecurity Advisory: Scattered Spider (AA23-320A). Retrieved March 18, 2024."
+    },
+    {
+      "source": "CrowdStrike Scattered Spider BYOVD January 2023",
+      "url": "https://www.crowdstrike.com/blog/scattered-spider-attempts-to-avoid-detection-with-bring-your-own-vulnerable-driver-tactic/",
+      "description": "CrowdStrike. (2023, January 10). SCATTERED SPIDER Exploits Windows Security Deficiencies with Bring-Your-Own-Vulnerable-Driver Tactic in Attempt to Bypass Endpoint Security. Retrieved July 5, 2023."
+    },
+    {
+      "source": "CrowdStrike Scattered Spider Profile",
+      "url": "https://www.crowdstrike.com/adversaries/scattered-spider/",
+      "description": "CrowdStrike. (n.d.). Scattered Spider. Retrieved July 5, 2023."
+    },
+    {
+      "source": "Mandiant VMware vSphere JUL 2025",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/defending-vsphere-from-unc3944",
+      "description": "Mandiant Incident Response. (2025, July 23). From Help Desk to Hypervisor: Defending Your VMware vSphere Estate from UNC3944. Retrieved October 13, 2025."
+    },
+    {
+      "source": "Mandiant UNC3944 May 2025",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/unc3944-proactive-hardening-recommendations",
+      "description": "Mandiant Incident Response. (2025, May 6). Defending Against UNC3944: Cybercrime Hardening Guidance from the Frontlines. Retrieved October 13, 2025."
+    },
+    {
+      "source": "Microsoft Threat Actor Naming July 2023",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023."
+    },
+    {
+      "source": "MSTIC Octo Tempest Operations October 2023",
+      "url": "https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/",
+      "description": "Microsoft. (2023, October 25). Octo Tempest crosses boundaries to facilitate extortion, encryption, and destruction. Retrieved March 18, 2024."
+    },
+    {
+      "source": "Crowdstrike TELCO BPO Campaign December 2022",
+      "url": "https://www.crowdstrike.com/blog/analysis-of-intrusion-campaign-targeting-telecom-and-bpo-companies/",
+      "description": "Parisi, T. (2022, December 2). Not a SIMulation: CrowdStrike Investigations Reveal Intrusion Campaign Targeting Telco and BPO Companies. Retrieved June 30, 2023."
+    }
+  ],
+  "FIN13": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1016",
+      "description": null
+    },
+    {
+      "source": "Elephant Beetle",
+      "url": null,
+      "description": "(Citation: Sygnia Elephant Beetle Jan 2022)"
+    },
+    {
+      "source": "Sygnia Elephant Beetle Jan 2022",
+      "url": "https://web.archive.org/web/20220105132433/https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf",
+      "description": "Sygnia Incident Response Team. (2022, January 5). TG2003: ELEPHANT BEETLE UNCOVERING AN ORGANIZED FINANCIAL-THEFT OPERATION. Retrieved February 9, 2023."
+    },
+    {
+      "source": "Mandiant FIN13 Aug 2022",
+      "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico",
+      "description": "Ta, V., et al. (2022, August 8). FIN13: A Cybercriminal Threat Actor Focused on Mexico. Retrieved February 9, 2023."
+    }
+  ],
+  "Volt Typhoon": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1017",
+      "description": null
+    },
+    {
+      "source": "Cloudflare 2026 Threat Report New Threat Actors March 2026",
+      "url": "https://blog.cloudflare.com/2026-threat-report/",
+      "description": " Cloudflare. (2026, March 3). Introducing the 2026 Cloudflare Threat Report. Retrieved April 18, 2026."
+    },
+    {
+      "source": "Vanguard Panda",
+      "url": null,
+      "description": "(Citation: CISA AA24-038A PRC Critical Infrastructure February 2024)"
+    },
+    {
+      "source": "DEV-0391",
+      "url": null,
+      "description": "(Citation: CISA AA24-038A PRC Critical Infrastructure February 2024)"
+    },
+    {
+      "source": "UNC3236",
+      "url": null,
+      "description": "(Citation: CISA AA24-038A PRC Critical Infrastructure February 2024)"
+    },
+    {
+      "source": "Voltzite",
+      "url": null,
+      "description": "(Citation: CISA AA24-038A PRC Critical Infrastructure February 2024)"
+    },
+    {
+      "source": "Insidious Taurus",
+      "url": null,
+      "description": "(Citation: CISA AA24-038A PRC Critical Infrastructure February 2024)"
+    },
+    {
+      "source": "DazedToad",
+      "url": null,
+      "description": "(Citation: Cloudflare 2026 Threat Report New Threat Actors March 2026)"
+    },
+    {
+      "source": "BRONZE SILHOUETTE",
+      "url": null,
+      "description": "(Citation: Secureworks BRONZE SILHOUETTE May 2023)(Citation: CISA AA24-038A PRC Critical Infrastructure February 2024)"
+    },
+    {
+      "source": "CISA AA24-038A PRC Critical Infrastructure February 2024",
+      "url": "https://www.cisa.gov/sites/default/files/2024-03/aa24-038a_csa_prc_state_sponsored_actors_compromise_us_critical_infrastructure_3.pdf",
+      "description": "CISA et al.. (2024, February 7). PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure. Retrieved May 15, 2024."
+    },
+    {
+      "source": "Secureworks BRONZE SILHOUETTE May 2023",
+      "url": "https://web.archive.org/web/20230601025540/https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations",
+      "description": "Counter Threat Unit Research Team. (2023, May 24). Chinese Cyberespionage Group BRONZE SILHOUETTE Targets U.S. Government and Defense Organizations. Retrieved July 27, 2023."
+    },
+    {
+      "source": "Dragos 2025 Year in Review",
+      "url": "https://5943619.hs-sites.com/hubfs/312-Year-in-Review/2026/Dragos-2026-OT-Cybersecurity-Report-A-Year-in-Review.pdf",
+      "description": "Dragos. (2026, February). 9TH ANNUAL YEAR IN REVIEW | OT/ICS CYBERSECURITY REPORT . Retrieved April 26, 2026."
+    },
+    {
+      "source": "Microsoft Volt Typhoon May 2023",
+      "url": "https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/",
+      "description": "Microsoft Threat Intelligence. (2023, May 24). Volt Typhoon targets US critical infrastructure with living-off-the-land techniques. Retrieved July 27, 2023."
+    },
+    {
+      "source": "Joint Cybersecurity Advisory Volt Typhoon June 2023",
+      "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF",
+      "description": "NSA et al. (2023, May 24). People's Republic of China State-Sponsored Cyber Actor Living off the Land to Evade Detection. Retrieved July 27, 2023."
+    },
+    {
+      "source": "DOJ KVBotnet 2024",
+      "url": "https://www.justice.gov/opa/pr/us-government-disrupts-botnet-peoples-republic-china-used-conceal-hacking-critical",
+      "description": "US Department of Justice. (2024, January 31). U.S. Government Disrupts Botnet People’s Republic of China Used to Conceal Hacking of Critical Infrastructure. Retrieved June 10, 2024."
+    }
+  ],
+  "TA2541": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1018",
+      "description": null
+    },
+    {
+      "source": "Proofpoint TA2541 February 2022",
+      "url": "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight",
+      "description": "Larson, S. and Wise, J. (2022, February 15). Charting TA2541's Flight. Retrieved September 12, 2023."
+    },
+    {
+      "source": "Cisco Operation Layover September 2021",
+      "url": "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/",
+      "description": "Ventura, V. (2021, September 16). Operation Layover: How we tracked an attack on the aviation industry to five years of compromise. Retrieved September 15, 2023."
+    }
+  ],
+  "MoustachedBouncer": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1019",
+      "description": null
+    },
+    {
+      "source": "MoustachedBouncer ESET August 2023",
+      "url": "https://www.welivesecurity.com/en/eset-research/moustachedbouncer-espionage-against-foreign-diplomats-in-belarus/",
+      "description": "Faou, M. (2023, August 10). MoustachedBouncer: Espionage against foreign diplomats in Belarus. Retrieved September 25, 2023."
+    }
+  ],
+  "ToddyCat": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1022",
+      "description": null
+    },
+    {
+      "source": "Kaspersky ToddyCat June 2022",
+      "url": "https://securelist.com/toddycat/106799/",
+      "description": "Dedola, G. (2022, June 21). APT ToddyCat. Retrieved January 3, 2024."
+    },
+    {
+      "source": "Kaspersky ToddyCat Check Logs October 2023",
+      "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/",
+      "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024."
+    }
+  ],
+  "Malteiro": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1026",
+      "description": null
+    },
+    {
+      "source": "SCILabs Malteiro 2021",
+      "url": "https://blog.scilabs.mx/en/cyber-threat-profile-malteiro/",
+      "description": "SCILabs. (2021, December 23). Cyber Threat Profile Malteiro. Retrieved March 13, 2024."
+    }
+  ],
+  "INC Ransom": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1032",
+      "description": null
+    },
+    {
+      "source": "GOLD IONIC",
+      "url": null,
+      "description": "(Citation: Secureworks GOLD IONIC April 2024)"
+    },
+    {
+      "source": "Secureworks GOLD IONIC April 2024",
+      "url": "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware",
+      "description": "Counter Threat Unit Research Team. (2024, April 15). GOLD IONIC DEPLOYS INC RANSOMWARE. Retrieved June 5, 2024."
+    },
+    {
+      "source": "Cybereason INC Ransomware November 2023",
+      "url": "https://www.cybereason.com/hubfs/dam/collateral/reports/threat-alert-inc-ransomware.pdf",
+      "description": "Cybereason Security Research Team. (2023, November 20). Threat Alert: INC Ransomware. Retrieved June 5, 2024."
+    },
+    {
+      "source": "SentinelOne INC Ransomware",
+      "url": "https://www.sentinelone.com/anthology/inc-ransom/",
+      "description": "SentinelOne. (n.d.). What Is Inc. Ransomware?. Retrieved June 5, 2024."
+    },
+    {
+      "source": "Bleeping Computer INC Ransomware March 2024",
+      "url": "https://www.bleepingcomputer.com/news/security/inc-ransom-threatens-to-leak-3tb-of-nhs-scotland-stolen-data/",
+      "description": "Toulas, B. (2024, March 27). INC Ransom threatens to leak 3TB of NHS Scotland stolen data. Retrieved June 5, 2024."
+    }
+  ],
+  "Winter Vivern": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1035",
+      "description": null
+    },
+    {
+      "source": "UAC-0114",
+      "url": null,
+      "description": "(Citation: CERT-UA WinterVivern 2023)"
+    },
+    {
+      "source": "TA473",
+      "url": null,
+      "description": "(Citation: Proofpoint WinterVivern 2023)"
+    },
+    {
+      "source": "CERT-UA WinterVivern 2023",
+      "url": "https://cert.gov.ua/article/3761104",
+      "description": "CERT-UA. (2023, February 1). UAC-0114 aka Winter Vivern to target Ukrainian and Polish GOV entities (CERT-UA#5909). Retrieved July 29, 2024."
+    },
+    {
+      "source": "DomainTools WinterVivern 2021",
+      "url": "https://www.domaintools.com/resources/blog/winter-vivern-a-look-at-re-crafted-government-maldocs/",
+      "description": "Chad Anderson. (2021, April 27). Winter Vivern: A Look At Re-Crafted Government MalDocs Targeting Multiple Languages. Retrieved July 29, 2024."
+    },
+    {
+      "source": "ESET WinterVivern 2023",
+      "url": "https://www.welivesecurity.com/en/eset-research/winter-vivern-exploits-zero-day-vulnerability-roundcube-webmail-servers/",
+      "description": "Matthieu Faou. (2023, October 25). Winter Vivern exploits zero-day vulnerability in Roundcube Webmail servers. Retrieved July 29, 2024."
+    },
+    {
+      "source": "Proofpoint WinterVivern 2023",
+      "url": "https://www.proofpoint.com/us/blog/threat-insight/exploitation-dish-best-served-cold-winter-vivern-uses-known-zimbra-vulnerability",
+      "description": "Michael Raggi & The Proofpoint Threat Research Team. (2023, March 30). Exploitation is a Dish Best Served Cold: Winter Vivern Uses Known Zimbra Vulnerability to Target Webmail Portals of NATO-Aligned Governments in Europe. Retrieved July 29, 2024."
+    },
+    {
+      "source": "SentinelOne WinterVivern 2023",
+      "url": "https://www.sentinelone.com/labs/winter-vivern-uncovering-a-wave-of-global-espionage/",
+      "description": "Tom Hegel. (2023, March 16). Winter Vivern | Uncovering a Wave of Global Espionage. Retrieved July 29, 2024."
+    }
+  ],
+  "TA577": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1037",
+      "description": null
+    },
+    {
+      "source": "Latrodectus APR 2024",
+      "url": "https://www.proofpoint.com/us/blog/threat-insight/latrodectus-spider-bytes-ice",
+      "description": "Proofpoint Threat Research and Team Cymru S2 Threat Research. (2024, April 4). Latrodectus: This Spider Bytes Like Ice . Retrieved May 31, 2024."
+    }
+  ],
+  "TA578": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1038",
+      "description": null
+    },
+    {
+      "source": "Bitsight Latrodectus June 2024",
+      "url": "https://www.bitsight.com/blog/latrodectus-are-you-coming-back",
+      "description": "Batista, J. (2024, June 17). Latrodectus, are you coming back?. Retrieved September 13, 2024."
+    },
+    {
+      "source": "Latrodectus APR 2024",
+      "url": "https://www.proofpoint.com/us/blog/threat-insight/latrodectus-spider-bytes-ice",
+      "description": "Proofpoint Threat Research and Team Cymru S2 Threat Research. (2024, April 4). Latrodectus: This Spider Bytes Like Ice . Retrieved May 31, 2024."
+    }
+  ],
+  "Sea Turtle": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1041",
+      "description": null
+    },
+    {
+      "source": "SILICON",
+      "url": null,
+      "description": "(Citation: Microsoft Digital Defense 2021)(Citation: Hunt Sea Turtle 2024)"
+    },
+    {
+      "source": "Teal Kurma",
+      "url": null,
+      "description": "(Citation: PWC Sea Turtle 2023)(Citation: Hunt Sea Turtle 2024)"
+    },
+    {
+      "source": "Marbled Dust",
+      "url": null,
+      "description": "(Citation: PWC Sea Turtle 2023)(Citation: Hunt Sea Turtle 2024)"
+    },
+    {
+      "source": "Cosmic Wolf",
+      "url": null,
+      "description": "(Citation: PWC Sea Turtle 2023)(Citation: Hunt Sea Turtle 2024)"
+    },
+    {
+      "source": "Talos Sea Turtle 2019",
+      "url": "https://blog.talosintelligence.com/seaturtle/",
+      "description": "Cisco Talos. (2019, April 17). Sea Turtle: DNS Hijacking Abuses Trust In Core Internet Service. Retrieved November 20, 2024."
+    },
+    {
+      "source": "Hunt Sea Turtle 2024",
+      "url": "https://www.huntandhackett.com/blog/turkish-espionage-campaigns",
+      "description": "Hunt & Hackett Research Team. (2024, January 5). Turkish espionage campaigns in the Netherlands. Retrieved November 20, 2024."
+    },
+    {
+      "source": "Microsoft Digital Defense 2021",
+      "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi?id=101738",
+      "description": "Microsoft. (2021, October). Microsoft Digital Defense Report. Retrieved November 20, 2024."
+    },
+    {
+      "source": "Talos Sea Turtle 2019_2",
+      "url": "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming/",
+      "description": "Paul Rascagneres. (2019, July 9). Sea Turtle keeps on swimming, finds new victims, DNS hijacking techniques. Retrieved November 20, 2024."
+    },
+    {
+      "source": "PWC Sea Turtle 2023",
+      "url": "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/tortoise-and-malwahare.html",
+      "description": "PwC Threat Intelligence. (2023, December 5). The Tortoise and The Malware. Retrieved November 20, 2024."
+    }
+  ],
+  "RedEcho": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1042",
+      "description": null
+    },
+    {
+      "source": "RecordedFuture RedEcho 2021",
+      "url": "https://go.recordedfuture.com/hubfs/reports/cta-2021-0228.pdf",
+      "description": "Recorded Future Insikt Group. (2021, February). China-Linked Group RedEcho Targets the Indian Power Sector Amid Heightened Border Tensions. Retrieved November 21, 2024."
+    },
+    {
+      "source": "RecordedFuture RedEcho 2022",
+      "url": "https://go.recordedfuture.com/hubfs/reports/ta-2022-0406.pdf",
+      "description": "Recorded Future Insikt Group. (2022, April 6). Continued Targeting of Indian Power Grid Assets by Chinese State-Sponsored Activity Group. Retrieved November 21, 2024."
+    }
+  ],
+  "BlackByte": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1043",
+      "description": null
+    },
+    {
+      "source": "Hecamede",
+      "url": null,
+      "description": "(Citation: Symantec BlackByte 2022)"
+    },
+    {
+      "source": "Picus BlackByte 2022",
+      "url": "https://www.picussecurity.com/resource/ttps-used-by-blackbyte-ransomware-targeting-critical-infrastructure",
+      "description": "Huseyin Can Yuceel. (2022, February 21). TTPs used by BlackByte Ransomware Targeting Critical Infrastructure. Retrieved December 16, 2024."
+    },
+    {
+      "source": "Cisco BlackByte 2024",
+      "url": "https://blog.talosintelligence.com/blackbyte-blends-tried-and-true-tradecraft-with-newly-disclosed-vulnerabilities-to-support-ongoing-attacks/",
+      "description": "James Nutland, Craig Jackson, Terryn Valikodath, & Brennan Evans. (2024, August 28). BlackByte blends tried-and-true tradecraft with newly disclosed vulnerabilities to support ongoing attacks. Retrieved December 16, 2024."
+    },
+    {
+      "source": "Microsoft BlackByte 2023",
+      "url": "https://www.microsoft.com/en-us/security/blog/2023/07/06/the-five-day-job-a-blackbyte-ransomware-intrusion-case-study/",
+      "description": "Microsoft Incident Response. (2023, July 6). The five-day job: A BlackByte ransomware intrusion case study. Retrieved December 16, 2024."
+    },
+    {
+      "source": "Symantec BlackByte 2022",
+      "url": "https://www.security.com/threat-intelligence/blackbyte-exbyte-ransomware",
+      "description": "Symantec Threat Hunter Team. (2022, October 21). Exbyte: BlackByte Ransomware Attackers Deploy New Exfiltration Tool. Retrieved December 16, 2024."
+    },
+    {
+      "source": "FBI BlackByte 2022",
+      "url": "https://www.ic3.gov/CSA/2022/220211.pdf",
+      "description": "US Federal Bureau of Investigation & US Secret Service. (2022, February 11). Indicators of Compromise Associated with BlackByte Ransomware. Retrieved December 16, 2024."
+    }
+  ],
+  "APT42": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1044",
+      "description": null
+    },
+    {
+      "source": "Mandiant APT42-charms",
+      "url": "https://services.google.com/fh/files/misc/apt42-crooked-charms-cons-and-compromises.pdf",
+      "description": "Mandiant. (n.d.). APT42: Crooked Charms, Cons and Compromises. Retrieved October 9, 2024."
+    },
+    {
+      "source": "Mandiant APT42-untangling",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/untangling-iran-apt42-operations",
+      "description": "Rozmann, O., et al. (2024, May 1). Uncharmed: Untangling Iran's APT42 Operations. Retrieved October 9, 2024."
+    },
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1029",
+      "description": null
+    },
+    {
+      "source": "Meta Adversarial Threat Report 2022",
+      "url": "https://about.fb.com/wp-content/uploads/2022/04/Meta-Quarterly-Adversarial-Threat-Report_Q1-2022.pdf",
+      "description": "Agranovich, D., et al. (2022, April). Adversarial Threat Report. Retrieved April 2, 2024."
+    }
+  ],
+  "Velvet Ant": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1047",
+      "description": null
+    },
+    {
+      "source": "Sygnia VelvetAnt 2024B",
+      "url": "https://www.sygnia.co/threat-reports-and-advisories/china-nexus-threat-group-velvet-ant-exploits-cisco-0-day/",
+      "description": "Sygnia Team. (2024, July 1). China-Nexus Threat Group ‘Velvet Ant’ Exploits Cisco Zero-Day (CVE-2024-20399) to Compromise Nexus Switch Devices – Advisory for Mitigation and Response. Retrieved March 14, 2025."
+    },
+    {
+      "source": "Sygnia VelvetAnt 2024A",
+      "url": "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/",
+      "description": "Sygnia Team. (2024, June 3). China-Nexus Threat Group ‘Velvet Ant’ Abuses F5 Load Balancers for Persistence. Retrieved March 14, 2025."
+    }
+  ],
+  "UNC3886": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1048",
+      "description": null
+    },
+    {
+      "source": "Google Cloud Threat Intelligence VMWare ESXi Zero-Day 2023",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/vmware-esxi-zero-day-bypass/",
+      "description": "Alexander Marvi, Brad Slaybaugh, Ron Craft, and Rufus Brown. (2023, June 13). VMware ESXi Zero-Day Used by Chinese Espionage Actor to Perform Privileged Guest Operations on Compromised Hypervisors. Retrieved March 26, 2025."
+    },
+    {
+      "source": "Mandiant Fortinet Zero Day",
+      "url": "https://www.mandiant.com/resources/blog/fortinet-malware-ecosystem",
+      "description": "Marvi, A. et al.. (2023, March 16). Fortinet Zero-Day and Custom Malware Used by Suspected Chinese Actor in Espionage Operation. Retrieved March 22, 2023."
+    }
+  ],
+  "Water Galura": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1050",
+      "description": null
+    },
+    {
+      "source": "GOLD FEATHER",
+      "url": null,
+      "description": "(Citation: BushidoToken Qilin RaaS JUN 2024)"
+    },
+    {
+      "source": "Sophos Qilin MSP APR 2025",
+      "url": "https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/",
+      "description": "Bradshaw, A. et al. (2025, April 1). Qilin affiliates spear-phish MSP ScreenConnect admin, targeting customers downstream. Retrieved September 26, 2025."
+    },
+    {
+      "source": "BushidoToken Qilin RaaS JUN 2024",
+      "url": "https://blog.bushidotoken.net/2024/06/tracking-adversaries-qilin-raas.html",
+      "description": "Thomas, W. (2024, June 12). Tracking Adversaries: The Qilin RaaS. Retrieved September 26, 2025."
+    }
+  ],
+  "Medusa Group": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1051",
+      "description": null
+    },
+    {
+      "source": "CISA Medusa Group Medusa Ransomware March 2025",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+      "description": "Cybersecurity and Infrastructure Security Agency. (2025, March 12). AA25-071A #StopRansomware: Medusa Ransomware. Retrieved October 15, 2025."
+    },
+    {
+      "source": "Intel471 Medusa Ransomware May 2025",
+      "url": "https://www.intel471.com/blog/threat-hunting-case-study-medusa-ransomware",
+      "description": "Intel471. (2025, May 14). Threat hunting case study: Medusa ransomware. Retrieved October 15, 2025."
+    },
+    {
+      "source": "Broadcom Medusa Ransomware Medusa Group March 2025",
+      "url": "https://www.security.com/threat-intelligence/medusa-ransomware-attacks",
+      "description": "Threat Hunter Team Symantec and Carbon Black. (2025, March 6). Medusa Ransomware Activity Continues to Increase. Retrieved October 15, 2025."
+    },
+    {
+      "source": "Security Scorecard Medusa Ransomware January 2024",
+      "url": "https://securityscorecard.com/wp-content/uploads/2024/01/deep-dive-into-medusa-ransomware.pdf",
+      "description": "Vlad Pasca. (2024, January 1). A Deep Dive into Medusa Ransomware. Retrieved October 15, 2025."
+    }
+  ],
+  "Storm-0501": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1053",
+      "description": null
+    },
+    {
+      "source": "Avertium Storm-0501 Sabbath Ransomware Arcane January 2022",
+      "url": "https://www.avertium.com/resources/threat-reports/in-depth-look-at-sabbath-ransomware-gang",
+      "description": "Avertium. (2022, January 11). An In-Depth Look at Ransomware Gang, Sabbath. Retrieved October 19, 2025."
+    },
+    {
+      "source": "Microsoft Storm-501 Sabbath Ransomware Embargo September 2024",
+      "url": "https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/",
+      "description": "Microsoft Threat Intelligence. (2024, September 26). Storm-0501: Ransomware attacks expanding to hybrid cloud environments. Retrieved October 19, 2025."
+    },
+    {
+      "source": "Microsoft Storm-0501 Embargo Ransomware August 2025",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/08/27/storm-0501s-evolving-techniques-lead-to-cloud-based-ransomware/",
+      "description": "Microsoft Threat Intelligence. (2025, August 27). Storm-0501’s evolving techniques lead to cloud-based ransomware. Retrieved October 19, 2025."
+    },
+    {
+      "source": "Google Mandiant Storm-0501 Sabbath Ransomware November 2021",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/sabbath-ransomware-affiliate/",
+      "description": "Tyler McLellan, Brandan Schondorfer. (2021, November 29). Kitten.gif: Meet the Sabbath Ransomware Affiliate Program, Again. Retrieved October 19, 2025."
+    }
+  ],
+  "APT28": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0007",
+      "description": null
+    },
+    {
+      "source": "SNAKEMACKEREL",
+      "url": null,
+      "description": "(Citation: Accenture SNAKEMACKEREL Nov 2018)"
+    },
+    {
+      "source": "Fancy Bear",
+      "url": null,
+      "description": "(Citation: Crowdstrike DNC June 2016)(Citation: Kaspersky Sofacy)(Citation: ESET Sednit Part 3)(Citation: Ars Technica GRU indictment Jul 2018)(Citation: Talos Seduploader Oct 2017)(Citation: Symantec APT28 Oct 2018)(Citation: Securelist Sofacy Feb 2018)(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021)"
+    },
+    {
+      "source": "Tsar Team",
+      "url": null,
+      "description": "(Citation: ESET Sednit Part 3)(Citation: Talos Seduploader Oct 2017)(Citation: Talos Seduploader Oct 2017)"
+    },
+    {
+      "source": "APT28",
+      "url": null,
+      "description": "(Citation: FireEye APT28) (Citation: SecureWorks TG-4127) (Citation: Crowdstrike DNC June 2016) (Citation: Kaspersky Sofacy) (Citation: ESET Sednit Part 3) (Citation: Ars Technica GRU indictment Jul 2018)(Citation: Talos Seduploader Oct 2017)(Citation: Symantec APT28 Oct 2018)(Citation: Securelist Sofacy Feb 2018)(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021)"
+    },
+    {
+      "source": "STRONTIUM",
+      "url": null,
+      "description": "(Citation: Kaspersky Sofacy)(Citation: ESET Sednit Part 3)(Citation: Microsoft STRONTIUM Aug 2019)(Citation: Microsoft STRONTIUM New Patterns Cred Harvesting Sept 2020)(Citation: TrendMicro Pawn Storm Dec 2020)(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021)"
+    },
+    {
+      "source": "FROZENLAKE",
+      "url": null,
+      "description": "(Citation: Leonard TAG 2023)"
+    },
+    {
+      "source": "Forest Blizzard",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "GruesomeLarch",
+      "url": null,
+      "description": "(Citation: Nearest Neighbor Volexity)"
+    },
+    {
+      "source": "IRON TWILIGHT",
+      "url": null,
+      "description": "(Citation: Secureworks IRON TWILIGHT Profile)(Citation: Secureworks IRON TWILIGHT Active Measures March 2017)"
+    },
+    {
+      "source": "Threat Group-4127",
+      "url": null,
+      "description": "(Citation: SecureWorks TG-4127)"
+    },
+    {
+      "source": "TG-4127",
+      "url": null,
+      "description": "(Citation: SecureWorks TG-4127)"
+    },
+    {
+      "source": "Pawn Storm",
+      "url": null,
+      "description": "(Citation: SecureWorks TG-4127)(Citation: ESET Sednit Part 3)(Citation: TrendMicro Pawn Storm Dec 2020) "
+    },
+    {
+      "source": "Swallowtail",
+      "url": null,
+      "description": "(Citation: Symantec APT28 Oct 2018)"
+    },
+    {
+      "source": "Group 74",
+      "url": null,
+      "description": "(Citation: Talos Seduploader Oct 2017)"
+    },
+    {
+      "source": "Accenture SNAKEMACKEREL Nov 2018",
+      "url": "https://www.accenture.com/t20181129T203820Z__w__/us-en/_acnmedia/PDF-90/Accenture-snakemackerel-delivers-zekapab-malware.pdf",
+      "description": "Accenture Security. (2018, November 29). SNAKEMACKEREL. Retrieved April 15, 2019."
+    },
+    {
+      "source": "Crowdstrike DNC June 2016",
+      "url": "https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/",
+      "description": "Alperovitch, D.. (2016, June 15). Bears in the Midst: Intrusion into the Democratic National Committee. Retrieved August 3, 2016."
+    },
+    {
+      "source": "Leonard TAG 2023",
+      "url": "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/",
+      "description": "Billy Leonard. (2023, April 19). Ukraine remains Russia’s biggest cyber focus in 2023. Retrieved March 1, 2024."
+    },
+    {
+      "source": "US District Court Indictment GRU Oct 2018",
+      "url": "https://www.justice.gov/opa/page/file/1098481/download",
+      "description": "Brady, S . (2018, October 3). Indictment - United States vs Aleksei Sergeyevich Morenets, et al.. Retrieved October 1, 2020."
+    },
+    {
+      "source": "GRIZZLY STEPPE JAR",
+      "url": "https://www.us-cert.gov/sites/default/files/publications/JAR_16-20296A_GRIZZLY%20STEPPE-2016-1229.pdf",
+      "description": "Department of Homeland Security and Federal Bureau of Investigation. (2016, December 29). GRIZZLY STEPPE – Russian Malicious Cyber Activity. Retrieved January 11, 2017."
+    },
+    {
+      "source": "ESET Zebrocy May 2019",
+      "url": "https://www.welivesecurity.com/2019/05/22/journey-zebrocy-land/",
+      "description": "ESET Research. (2019, May 22). A journey to Zebrocy land. Retrieved June 20, 2019."
+    },
+    {
+      "source": "ESET Sednit Part 3",
+      "url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part3.pdf",
+      "description": "ESET. (2016, October). En Route with Sednit - Part 3: A Mysterious Downloader. Retrieved November 21, 2016."
+    },
+    {
+      "source": "Sofacy DealersChoice",
+      "url": "https://researchcenter.paloaltonetworks.com/2018/03/unit42-sofacy-uses-dealerschoice-target-european-government-agency/",
+      "description": "Falcone, R. (2018, March 15). Sofacy Uses DealersChoice to Target European Government Agency. Retrieved June 4, 2018."
+    },
+    {
+      "source": "FireEye APT28 January 2017",
+      "url": "https://www.mandiant.com/sites/default/files/2021-09/APT28-Center-of-Storm-2017.pdf",
+      "description": "FireEye iSIGHT Intelligence. (2017, January 11). APT28: At the Center of the Storm. Retrieved November 17, 2024."
+    },
+    {
+      "source": "FireEye APT28",
+      "url": "https://web.archive.org/web/20151022204649/https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
+      "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA’S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015."
+    },
+    {
+      "source": "Ars Technica GRU indictment Jul 2018",
+      "url": "https://arstechnica.com/information-technology/2018/07/from-bitly-to-x-agent-how-gru-hackers-targeted-the-2016-presidential-election/",
+      "description": "Gallagher, S. (2018, July 27). How they did it (and will likely try again): GRU hackers vs. US elections. Retrieved September 13, 2018."
+    },
+    {
+      "source": "TrendMicro Pawn Storm Dec 2020",
+      "url": "https://www.trendmicro.com/en_us/research/20/l/pawn-storm-lack-of-sophistication-as-a-strategy.html",
+      "description": "Hacquebord, F., Remorin, L. (2020, December 17). Pawn Storm’s Lack of Sophistication as a Strategy. Retrieved January 13, 2021."
+    },
+    {
+      "source": "Securelist Sofacy Feb 2018",
+      "url": "https://securelist.com/a-slice-of-2017-sofacy-activity/83930/",
+      "description": "Kaspersky Lab's Global Research & Analysis Team. (2018, February 20). A Slice of 2017 Sofacy Activity. Retrieved November 27, 2018."
+    },
+    {
+      "source": "Kaspersky Sofacy",
+      "url": "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
+      "description": "Kaspersky Lab's Global Research and Analysis Team. (2015, December 4). Sofacy APT hits high profile targets with updated toolset. Retrieved December 10, 2015."
+    },
+    {
+      "source": "Nearest Neighbor Volexity",
+      "url": "https://www.volexity.com/blog/2024/11/22/the-nearest-neighbor-attack-how-a-russian-apt-weaponized-nearby-wi-fi-networks-for-covert-access/",
+      "description": "Koessel, Sean. Adair, Steven. Lancaster, Tom. (2024, November 22). The Nearest Neighbor Attack: How A Russian APT Weaponized Nearby Wi-Fi Networks for Covert Access. Retrieved February 25, 2025."
+    },
+    {
+      "source": "Palo Alto Sofacy 06-2018",
+      "url": "https://researchcenter.paloaltonetworks.com/2018/06/unit42-sofacy-groups-parallel-attacks/",
+      "description": "Lee, B., Falcone, R. (2018, June 06). Sofacy Group’s Parallel Attacks. Retrieved June 18, 2018."
+    },
+    {
+      "source": "Talos Seduploader Oct 2017",
+      "url": "https://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html",
+      "description": "Mercer, W., et al. (2017, October 22). \"Cyber Conflict\" Decoy Document Used in Real Cyber Conflict. Retrieved November 2, 2018."
+    },
+    {
+      "source": "Microsoft Threat Actor Naming July 2023",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023."
+    },
+    {
+      "source": "Microsoft STRONTIUM New Patterns Cred Harvesting Sept 2020",
+      "url": "https://www.microsoft.com/security/blog/2020/09/10/strontium-detecting-new-patters-credential-harvesting/",
+      "description": "Microsoft Threat Intelligence Center (MSTIC). (2020, September 10). STRONTIUM: Detecting new patterns in credential harvesting. Retrieved September 11, 2020."
+    },
+    {
+      "source": "Microsoft STRONTIUM Aug 2019",
+      "url": "https://msrc-blog.microsoft.com/2019/08/05/corporate-iot-a-path-to-intrusion/",
+      "description": "MSRC Team. (2019, August 5). Corporate IoT – a path to intrusion. Retrieved August 16, 2019."
+    },
+    {
+      "source": "DOJ GRU Indictment Jul 2018",
+      "url": "https://cdn.cnn.com/cnn/2018/images/07/13/gru.indictment.pdf",
+      "description": "Mueller, R. (2018, July 13). Indictment - United States of America vs. VIKTOR BORISOVICH NETYKSHO, et al. Retrieved November 17, 2024."
+    },
+    {
+      "source": "Cybersecurity Advisory GRU Brute Force Campaign July 2021",
+      "url": "https://media.defense.gov/2021/Jul/01/2002753896/-1/-1/1/CSA_GRU_GLOBAL_BRUTE_FORCE_CAMPAIGN_UOO158036-21.PDF",
+      "description": "NSA, CISA, FBI, NCSC. (2021, July). Russian GRU Conducting Global Brute Force Campaign to Compromise Enterprise and Cloud Environments. Retrieved July 26, 2021."
+    },
+    {
+      "source": "NSA/FBI Drovorub August 2020",
+      "url": "https://media.defense.gov/2020/Aug/13/2002476465/-1/-1/0/CSA_DROVORUB_RUSSIAN_GRU_MALWARE_AUG_2020.PDF",
+      "description": "NSA/FBI. (2020, August). Russian GRU 85th GTsSS Deploys Previously Undisclosed Drovorub Malware. Retrieved August 25, 2020."
+    },
+    {
+      "source": "SecureWorks TG-4127",
+      "url": "https://www.secureworks.com/research/threat-group-4127-targets-hillary-clinton-presidential-campaign",
+      "description": "SecureWorks Counter Threat Unit Threat Intelligence. (2016, June 16). Threat Group-4127 Targets Hillary Clinton Presidential Campaign. Retrieved August 3, 2016."
+    },
+    {
+      "source": "Secureworks IRON TWILIGHT Active Measures March 2017",
+      "url": "https://www.secureworks.com/research/iron-twilight-supports-active-measures",
+      "description": "Secureworks CTU. (2017, March 30). IRON TWILIGHT Supports Active Measures. Retrieved February 28, 2022."
+    },
+    {
+      "source": "Secureworks IRON TWILIGHT Profile",
+      "url": "https://www.secureworks.com/research/threat-profiles/iron-twilight",
+      "description": "Secureworks CTU. (n.d.). IRON TWILIGHT. Retrieved February 28, 2022."
+    },
+    {
+      "source": "Symantec APT28 Oct 2018",
+      "url": "https://www.symantec.com/blogs/election-security/apt28-espionage-military-government",
+      "description": "Symantec Security Response. (2018, October 04). APT28: New Espionage Operations Target Military and Government Organizations. Retrieved November 14, 2018."
+    },
+    {
+      "source": "Sednit",
+      "url": null,
+      "description": "This designation has been used in reporting both to refer to the threat group and its associated malware [JHUHUGIT](https://attack.mitre.org/software/S0044).(Citation: FireEye APT28 January 2017)(Citation: SecureWorks TG-4127)(Citation: Kaspersky Sofacy)(Citation: Ars Technica GRU indictment Jul 2018)"
+    },
+    {
+      "source": "Sofacy",
+      "url": null,
+      "description": "This designation has been used in reporting both to refer to the threat group and its associated malware.(Citation: FireEye APT28)(Citation: SecureWorks TG-4127)(Citation: Crowdstrike DNC June 2016)(Citation: ESET Sednit Part 3)(Citation: Ars Technica GRU indictment Jul 2018)(Citation: Talos Seduploader Oct 2017)"
+    }
+  ],
+  "APT32": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0050",
+      "description": null
+    },
+    {
+      "source": "SeaLotus",
+      "url": null,
+      "description": "(Citation: Cybereason Oceanlotus May 2017)"
+    },
+    {
+      "source": "APT-C-00",
+      "url": null,
+      "description": "(Citation: ESET OceanLotus)(Citation: Cybereason Oceanlotus May 2017)(Citation: ESET OceanLotus Mar 2019)(Citation: Amnesty Intl. Ocean Lotus February 2021)"
+    },
+    {
+      "source": "APT32",
+      "url": null,
+      "description": "(Citation: FireEye APT32 May 2017)(Citation: Volexity OceanLotus Nov 2017)(Citation: Cybereason Oceanlotus May 2017)(Citation: ESET OceanLotus Mar 2019)(Citation: Amnesty Intl. Ocean Lotus February 2021)"
+    },
+    {
+      "source": "OceanLotus",
+      "url": null,
+      "description": "(Citation: FireEye APT32 May 2017)(Citation: Volexity OceanLotus Nov 2017)(Citation: Cybereason Oceanlotus May 2017)(Citation: ESET OceanLotus Mar 2019)(Citation: Amnesty Intl. Ocean Lotus February 2021)"
+    },
+    {
+      "source": "Canvas Cyclone",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "BISMUTH",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "Amnesty Intl. Ocean Lotus February 2021",
+      "url": "https://www.amnestyusa.org/wp-content/uploads/2021/02/Click-and-Bait_Vietnamese-Human-Rights-Defenders-Targeted-with-Spyware-Attacks.pdf",
+      "description": "Amnesty International. (2021, February 24). Vietnamese activists targeted by notorious hacking group. Retrieved March 1, 2021."
+    },
+    {
+      "source": "FireEye APT32 May 2017",
+      "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+      "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017."
+    },
+    {
+      "source": "Cybereason Oceanlotus May 2017",
+      "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+      "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018."
+    },
+    {
+      "source": "ESET OceanLotus Mar 2019",
+      "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+      "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019."
+    },
+    {
+      "source": "ESET OceanLotus",
+      "url": "https://www.welivesecurity.com/2018/03/13/oceanlotus-ships-new-backdoor/",
+      "description": "Foltýn, T. (2018, March 13). OceanLotus ships new backdoor using old tricks. Retrieved May 22, 2018."
+    },
+    {
+      "source": "Volexity OceanLotus Nov 2017",
+      "url": "https://www.volexity.com/blog/2017/11/06/oceanlotus-blossoms-mass-digital-surveillance-and-exploitation-of-asean-nations-the-media-human-rights-and-civil-society/",
+      "description": "Lassalle, D., et al. (2017, November 6). OceanLotus Blossoms: Mass Digital Surveillance and Attacks Targeting ASEAN, Asian Nations, the Media, Human Rights Groups, and Civil Society. Retrieved November 6, 2017."
+    },
+    {
+      "source": "Microsoft Threat Actor Naming July 2023",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023."
+    }
+  ],
+  "APT40": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0065",
+      "description": null
+    },
+    {
+      "source": "MUDCARP",
+      "url": null,
+      "description": "(Citation: CISA AA21-200A APT40 July 2021)(Citation: Accenture MUDCARP March 2019)"
+    },
+    {
+      "source": "Kryptonite Panda",
+      "url": null,
+      "description": "(Citation: CISA AA21-200A APT40 July 2021)(Citation: Crowdstrike KRYPTONITE PANDA August 2018)"
+    },
+    {
+      "source": "Gadolinium",
+      "url": null,
+      "description": "(Citation: CISA AA21-200A APT40 July 2021)(Citation: MSTIC GADOLINIUM September 2020)"
+    },
+    {
+      "source": "BRONZE MOHAWK",
+      "url": null,
+      "description": "(Citation: CISA AA21-200A APT40 July 2021)(Citation: SecureWorks BRONZE MOHAWK n.d.)"
+    },
+    {
+      "source": "Gingham Typhoon",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "Leviathan",
+      "url": null,
+      "description": "(Citation: Proofpoint Leviathan Oct 2017)"
+    },
+    {
+      "source": "TEMP.Jumper",
+      "url": null,
+      "description": "[Leviathan](https://attack.mitre.org/groups/G0065) was previously reported upon by FireEye as TEMP.Periscope and TEMP.Jumper.(Citation: CISA AA21-200A APT40 July 2021)(Citation: FireEye APT40 March 2019)"
+    },
+    {
+      "source": "TEMP.Periscope",
+      "url": null,
+      "description": "[Leviathan](https://attack.mitre.org/groups/G0065) was previously reported upon by FireEye as TEMP.Periscope and TEMP.Jumper.(Citation: CISA AA21-200A APT40 July 2021)(Citation: FireEye Periscope March 2018)(Citation: FireEye APT40 March 2019)"
+    },
+    {
+      "source": "Accenture MUDCARP March 2019",
+      "url": "https://www.accenture.com/us-en/blogs/cyber-defense/mudcarps-focus-on-submarine-technologies",
+      "description": "Accenture iDefense Unit. (2019, March 5). Mudcarp's Focus on Submarine Technologies. Retrieved August 24, 2021."
+    },
+    {
+      "source": "Crowdstrike KRYPTONITE PANDA August 2018",
+      "url": "https://www.crowdstrike.com/blog/two-birds-one-stone-panda/",
+      "description": "Adam Kozy. (2018, August 30). Two Birds, One Stone Panda. Retrieved August 24, 2021."
+    },
+    {
+      "source": "Proofpoint Leviathan Oct 2017",
+      "url": "https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets",
+      "description": "Axel F, Pierre T. (2017, October 16). Leviathan: Espionage actor spearphishes maritime and defense targets. Retrieved February 15, 2018."
+    },
+    {
+      "source": "MSTIC GADOLINIUM September 2020",
+      "url": "https://www.microsoft.com/security/blog/2020/09/24/gadolinium-detecting-empires-cloud/",
+      "description": "Ben Koehl, Joe Hannon. (2020, September 24). Microsoft Security - Detecting Empires in the Cloud. Retrieved August 24, 2021."
+    },
+    {
+      "source": "CISA Leviathan 2024",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-190a",
+      "description": "CISA et al. (2024, July 8). People’s Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action. Retrieved February 3, 2025."
+    },
+    {
+      "source": "CISA AA21-200A APT40 July 2021",
+      "url": "https://us-cert.cisa.gov/ncas/alerts/aa21-200a",
+      "description": "CISA. (2021, July 19). (AA21-200A) Joint Cybersecurity Advisory – Tactics, Techniques, and Procedures of Indicted APT40 Actors Associated with China’s MSS Hainan State Security Department. Retrieved August 12, 2021."
+    },
+    {
+      "source": "APT40",
+      "url": null,
+      "description": "FireEye reporting on TEMP.Periscope (which was combined into APT40) indicated TEMP.Periscope was reported upon as Leviathan.(Citation: CISA AA21-200A APT40 July 2021)(Citation: Proofpoint Leviathan Oct 2017)(Citation: FireEye Periscope March 2018)(Citation: FireEye APT40 March 2019)"
+    },
+    {
+      "source": "FireEye Periscope March 2018",
+      "url": "https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html",
+      "description": "FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018."
+    },
+    {
+      "source": "Microsoft Threat Actor Naming July 2023",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023."
+    },
+    {
+      "source": "FireEye APT40 March 2019",
+      "url": "https://www.fireeye.com/blog/threat-research/2019/03/apt40-examining-a-china-nexus-espionage-actor.html",
+      "description": "Plan, F., et al. (2019, March 4). APT40: Examining a China-Nexus Espionage Actor. Retrieved March 18, 2019."
+    },
+    {
+      "source": "SecureWorks BRONZE MOHAWK n.d.",
+      "url": "https://www.secureworks.com/research/threat-profiles/bronze-mohawk",
+      "description": "SecureWorks. (n.d.). Threat Profile - BRONZE MOHAWK. Retrieved August 24, 2021."
+    }
+  ],
+  "APT41": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0096",
+      "description": null
+    },
+    {
+      "source": "Wicked Panda",
+      "url": null,
+      "description": "(Citation: Crowdstrike GTR2020 Mar 2020)"
+    },
+    {
+      "source": "APT41",
+      "url": null,
+      "description": "(Citation: FireEye APT41 2019)"
+    },
+    {
+      "source": "Brass Typhoon",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "BARIUM",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "Crowdstrike GTR2020 Mar 2020",
+      "url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+      "description": "Crowdstrike. (2020, March 2). 2020 Global Threat Report. Retrieved December 11, 2020."
+    },
+    {
+      "source": "FireEye APT41 2019",
+      "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf",
+      "description": "FireEye. (2019). Double DragonAPT41, a dual espionage andcyber crime operationAPT41. Retrieved September 23, 2019."
+    },
+    {
+      "source": "Microsoft Threat Actor Naming July 2023",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023."
+    },
+    {
+      "source": "Group IB APT 41 June 2021",
+      "url": "https://www.group-ib.com/blog/colunmtk-apt41/",
+      "description": "Rostovcev, N. (2021, June 10). Big airline heist APT41 likely behind a third-party attack on Air India. Retrieved August 26, 2021."
+    },
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0044",
+      "description": null
+    },
+    {
+      "source": "Winnti Group",
+      "url": null,
+      "description": "(Citation: Kaspersky Winnti April 2013) (Citation: Kaspersky Winnti June 2015)"
+    },
+    {
+      "source": "Blackfly",
+      "url": null,
+      "description": "(Citation: Symantec Suckfly March 2016)"
+    },
+    {
+      "source": "Symantec Suckfly March 2016",
+      "url": "http://www.symantec.com/connect/blogs/suckfly-revealing-secret-life-your-code-signing-certificates",
+      "description": "DiMaggio, J. (2016, March 15). Suckfly: Revealing the secret life of your code signing certificates. Retrieved August 3, 2016."
+    },
+    {
+      "source": "401 TRG Winnti Umbrella May 2018",
+      "url": "https://401trg.github.io/pages/burning-umbrella.html",
+      "description": "Hegel, T. (2018, May 3). Burning Umbrella: An Intelligence Report on the Winnti Umbrella and Associated State-Sponsored Attackers. Retrieved July 8, 2018."
+    },
+    {
+      "source": "Kaspersky Winnti April 2013",
+      "url": "https://securelist.com/winnti-more-than-just-a-game/37029/",
+      "description": "Kaspersky Lab's Global Research and Analysis Team. (2013, April 11). Winnti. More than just a game. Retrieved February 8, 2017."
+    },
+    {
+      "source": "Novetta Winnti April 2015",
+      "url": "https://web.archive.org/web/20150412223949/http://www.novetta.com/wp-content/uploads/2015/04/novetta_winntianalysis.pdf",
+      "description": "Novetta Threat Research Group. (2015, April 7). Winnti Analysis. Retrieved February 8, 2017."
+    },
+    {
+      "source": "Kaspersky Winnti June 2015",
+      "url": "https://securelist.com/games-are-over/70991/",
+      "description": "Tarakanov, D. (2015, June 22). Games are over: Winnti is now targeting pharmaceutical companies. Retrieved January 14, 2016."
+    }
+  ],
+  "Cyber Av3ngers": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1027",
+      "description": null
+    },
+    {
+      "source": "Soldiers of Soloman",
+      "url": null,
+      "description": "CyberAv3ngers reportedly has connections to the IRGC-linked group Soldiers of Solomon.(Citation: CISA AA23-335A IRGC-Affiliated December 2023)"
+    },
+    {
+      "source": "CISA AA23-335A IRGC-Affiliated December 2023",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-335a",
+      "description": "DHS/CISA. (2023, December 1). IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including U.S. Water and Wastewater Systems Facilities. Retrieved March 25, 2024."
+    }
+  ],
+  "Domestic Kitten": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0097",
+      "description": null
+    },
+    {
+      "source": "Trend Micro Bouncing Golf 2019",
+      "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/mobile-cyberespionage-campaign-bouncing-golf-affects-middle-east/",
+      "description": "E. Xu, G. Guo. (2019, June 28).  Mobile Cyberespionage Campaign ‘Bouncing Golf’ Affects Middle East. Retrieved January 27, 2020."
+    }
+  ],
+  "FIN7": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0046",
+      "description": null
+    },
+    {
+      "source": "Carbon Spider",
+      "url": null,
+      "description": "(Citation: CrowdStrike Carbon Spider August 2021)"
+    },
+    {
+      "source": "FIN7",
+      "url": null,
+      "description": "(Citation: FireEye FIN7 March 2017) (Citation: FireEye FIN7 April 2017) (Citation: Morphisec FIN7 June 2017) (Citation: FireEye FIN7 Shim Databases) (Citation: FireEye FIN7 Aug 2018)"
+    },
+    {
+      "source": "ELBRUS",
+      "url": null,
+      "description": "(Citation: Microsoft Ransomware as a Service)"
+    },
+    {
+      "source": "Sangria Tempest",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "GOLD NIAGARA",
+      "url": null,
+      "description": "(Citation: Secureworks GOLD NIAGARA Threat Profile)"
+    },
+    {
+      "source": "Mandiant FIN7 Apr 2022",
+      "url": "https://www.mandiant.com/resources/evolution-of-fin7",
+      "description": "Abdo, B., et al. (2022, April 4). FIN7 Power Hour: Adversary Archaeology and the Evolution of FIN7. Retrieved April 5, 2022."
+    },
+    {
+      "source": "FireEye CARBANAK June 2017",
+      "url": "https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html",
+      "description": "Bennett, J., Vengerik, B. (2017, June 12). Behind the CARBANAK Backdoor. Retrieved June 11, 2018."
+    },
+    {
+      "source": "BiZone Lizar May 2021",
+      "url": "https://bi-zone.medium.com/from-pentest-to-apt-attack-cybercriminal-group-fin7-disguises-its-malware-as-an-ethical-hackers-c23c9a75e319",
+      "description": "BI.ZONE Cyber Threats Research Team. (2021, May 13). From pentest to APT attack: cybercriminal group FIN7 disguises its malware as an ethical hacker’s toolkit. Retrieved February 2, 2022."
+    },
+    {
+      "source": "FireEye FIN7 April 2017",
+      "url": "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+      "description": "Carr, N., et al. (2017, April 24). FIN7 Evolution and the Phishing LNK. Retrieved April 24, 2017."
+    },
+    {
+      "source": "FireEye FIN7 Aug 2018",
+      "url": "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+      "description": "Carr, N., et al. (2018, August 01). On the Hunt for FIN7: Pursuing an Enigmatic and Evasive Global Criminal Operation. Retrieved August 23, 2018."
+    },
+    {
+      "source": "Secureworks GOLD NIAGARA Threat Profile",
+      "url": "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+      "description": "CTU. (n.d.). GOLD NIAGARA. Retrieved September 21, 2021."
+    },
+    {
+      "source": "FireEye FIN7 Shim Databases",
+      "url": "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+      "description": "Erickson, J., McWhirt, M., Palombo, D. (2017, May 3). To SDB, Or Not To SDB: FIN7 Leveraging Shim Databases for Persistence. Retrieved July 18, 2017."
+    },
+    {
+      "source": "Morphisec FIN7 June 2017",
+      "url": "http://blog.morphisec.com/fin7-attacks-restaurant-industry",
+      "description": "Gorelik, M.. (2017, June 9). FIN7 Takes Another Bite at the Restaurant Industry. Retrieved July 13, 2017."
+    },
+    {
+      "source": "ITG14",
+      "url": null,
+      "description": "ITG14 shares campaign overlap with [FIN7](https://attack.mitre.org/groups/G0046).(Citation: IBM Ransomware Trends September 2020)"
+    },
+    {
+      "source": "CrowdStrike Carbon Spider August 2021",
+      "url": "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/",
+      "description": "Loui, E. and Reynolds, J. (2021, August 30). CARBON SPIDER Embraces Big Game Hunting, Part 1. Retrieved September 20, 2021."
+    },
+    {
+      "source": "Microsoft Threat Actor Naming July 2023",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023."
+    },
+    {
+      "source": "Microsoft Ransomware as a Service",
+      "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/",
+      "description": "Microsoft. (2022, May 9). Ransomware as a service: Understanding the cybercrime gig economy and how to protect yourself. Retrieved March 10, 2023."
+    },
+    {
+      "source": "FireEye FIN7 March 2017",
+      "url": "https://web.archive.org/web/20180808125108/https:/www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+      "description": "Miller, S., et al. (2017, March 7). FIN7 Spear Phishing Campaign Targets Personnel Involved in SEC Filings. Retrieved March 8, 2017."
+    },
+    {
+      "source": "IBM Ransomware Trends September 2020",
+      "url": "https://securityintelligence.com/posts/ransomware-2020-attack-trends-new-techniques-affecting-organizations-worldwide/",
+      "description": "Singleton, C. and Kiefer, C. (2020, September 28). Ransomware 2020: Attack Trends Affecting Organizations Worldwide. Retrieved September 20, 2021."
+    },
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0008",
+      "description": null
+    },
+    {
+      "source": "Carbanak",
+      "url": null,
+      "description": "(Citation: Kaspersky Carbanak) (Citation: Fox-It Anunak Feb 2015)"
+    },
+    {
+      "source": "Anunak",
+      "url": null,
+      "description": "(Citation: Fox-It Anunak Feb 2015)"
+    },
+    {
+      "source": "Kaspersky Carbanak",
+      "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+      "description": "Kaspersky Lab's Global Research and Analysis Team. (2015, February). CARBANAK APT THE GREAT BANK ROBBERY. Retrieved August 23, 2018."
+    },
+    {
+      "source": "Europol Cobalt Mar 2018",
+      "url": "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+      "description": "Europol. (2018, March 26). Mastermind Behind EUR 1 Billion Cyber Bank Robbery Arrested in Spain. Retrieved October 10, 2018."
+    },
+    {
+      "source": "Secureworks GOLD KINGSWOOD Threat Profile",
+      "url": "https://www.secureworks.com/research/threat-profiles/gold-kingswood?filter=item-financial-gain",
+      "description": "Secureworks. (n.d.). GOLD KINGSWOOD. Retrieved October 18, 2021."
+    },
+    {
+      "source": "Fox-It Anunak Feb 2015",
+      "url": "https://www.fox-it.com/en/news/blog/anunak-aka-carbanak-update/",
+      "description": "Prins, R. (2015, February 16). Anunak (aka Carbanak) Update. Retrieved January 20, 2017."
+    }
+  ],
+  "Lazarus Group": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G0032",
+      "description": null
+    },
+    {
+      "source": "Labyrinth Chollima",
+      "url": null,
+      "description": "(Citation: CrowdStrike Labyrinth Chollima Feb 2022)"
+    },
+    {
+      "source": "Diamond Sleet",
+      "url": null,
+      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+    },
+    {
+      "source": "ZINC",
+      "url": null,
+      "description": "(Citation: Microsoft ZINC disruption Dec 2017)"
+    },
+    {
+      "source": "Lazarus Group",
+      "url": null,
+      "description": "(Citation: Novetta Blockbuster)"
+    },
+    {
+      "source": "NICKEL ACADEMY",
+      "url": null,
+      "description": "(Citation: Secureworks NICKEL ACADEMY Dec 2017)"
+    },
+    {
+      "source": "Guardians of Peace",
+      "url": null,
+      "description": "(Citation: US-CERT HIDDEN COBRA June 2017)"
+    },
+    {
+      "source": "CrowdStrike Labyrinth Chollima Feb 2022",
+      "url": "https://web.archive.org/web/20210723190317/https://adversary.crowdstrike.com/en-US/adversary/labyrinth-chollima/",
+      "description": "CrowdStrike. (2022, February 1). CrowdStrike Adversary Labyrinth Chollima. Retrieved February 1, 2022."
+    },
+    {
+      "source": "Mandiant DPRK Groups 2023",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/north-korea-cyber-structure-alignment-2023",
+      "description": "Michael Barnhart, Austin Larsen, Jeff Johnson, Taylor Long, Michelle Cantos, Adrian Hernandez. (2023, October 10). Assessed Cyber Structure and Alignments of North Korea in 2023. Retrieved August 25, 2025."
+    },
+    {
+      "source": "Mandiant DPRK Laz Org Breakdown 2022",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/mapping-dprk-groups-to-government/",
+      "description": "Michael Barnhart, Michelle Cantos, Jeffery Johnson, Elias fox, Gary Freas, Dan Scott. (2022, March 23). Not So Lazarus: Mapping DPRK Cyber Threat Groups to Government Organizations. Retrieved September 9, 2025."
+    },
+    {
+      "source": "Microsoft Threat Actor Naming July 2023",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023."
+    },
+    {
+      "source": "Novetta Blockbuster",
+      "url": "https://web.archive.org/web/20160226161828/https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf",
+      "description": "Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Unraveling the Long Thread of the Sony Attack. Retrieved February 25, 2016."
+    },
+    {
+      "source": "Secureworks NICKEL ACADEMY Dec 2017",
+      "url": "https://www.secureworks.com/about/press/media-alert-secureworks-discovers-north-korean-cyber-threat-group-lazarus-spearphishing",
+      "description": "Secureworks. (2017, December 15). Media Alert - Secureworks Discovers North Korean Cyber Threat Group, Lazarus, Spearphishing Financial Executives of Cryptocurrency Companies. Retrieved December 27, 2017."
+    },
+    {
+      "source": "Microsoft ZINC disruption Dec 2017",
+      "url": "https://blogs.microsoft.com/on-the-issues/2017/12/19/microsoft-facebook-disrupt-zinc-malware-attack-protect-customers-internet-ongoing-cyberthreats/",
+      "description": "Smith, B. (2017, December 19). Microsoft and Facebook disrupt ZINC malware attack to protect customers and the internet from ongoing cyberthreats. Retrieved December 20, 2017."
+    },
+    {
+      "source": "HIDDEN COBRA",
+      "url": null,
+      "description": "The U.S. Government refers to malicious cyber activity by the North Korean government as HIDDEN COBRA.(Citation: US-CERT HIDDEN COBRA June 2017)(Citation: US-CERT HOPLIGHT Apr 2019)"
+    },
+    {
+      "source": "Treasury North Korean Cyber Groups September 2019",
+      "url": "https://home.treasury.gov/news/press-releases/sm774",
+      "description": "US Treasury . (2019, September 13). Treasury Sanctions North Korean State-Sponsored Malicious Cyber Groups. Retrieved September 29, 2021."
+    },
+    {
+      "source": "US-CERT HIDDEN COBRA June 2017",
+      "url": "https://www.us-cert.gov/ncas/alerts/TA17-164A",
+      "description": "US-CERT. (2017, June 13). Alert (TA17-164A) HIDDEN COBRA – North Korea’s DDoS Botnet Infrastructure. Retrieved July 13, 2017."
+    },
+    {
+      "source": "US-CERT HOPLIGHT Apr 2019",
+      "url": "https://www.us-cert.gov/ncas/analysis-reports/AR19-100A",
+      "description": "US-CERT. (2019, April 10). MAR-10135536-8 – North Korean Trojan: HOPLIGHT. Retrieved April 19, 2019."
+    },
+    {
+      "source": "JPCert Blog Laz Subgroups 2025",
+      "url": "https://blogs.jpcert.or.jp/en/2025/03/classifying-lazaruss-subgroup.html",
+      "description": "佐々木勇人 Hayato Sasaki. (2025, March 25). Tempted to Classifying APT Actors: Practical Challenges of Attribution in the Case of Lazarus’s Subgroup. Retrieved August 25, 2025."
+    }
+  ],
+  "MirrorFace": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1054",
+      "description": null
+    },
+    {
+      "source": "Earth Kasha",
+      "url": null,
+      "description": "(Citation: Trend Micro Earth Kasha NOV 2024)(Citation: Trend Micro Earth Kasha Updates APR 2025)"
+    },
+    {
+      "source": "ESET MirrorFace DEC 2022",
+      "url": "https://www.welivesecurity.com/2022/12/14/unmasking-mirrorface-operation-liberalface-targeting-japanese-political-entities/",
+      "description": "Breitenbacher, D. (2022, December 14). Unmasking MirrorFace: Operation LiberalFace targeting Japanese political entities. Retrieved April 17, 2026."
+    },
+    {
+      "source": "Trend Micro Earth Kasha Updates APR 2025",
+      "url": "https://www.trendmicro.com/en_us/research/25/d/earth-kasha-updates-ttps.html",
+      "description": "Hiroaki, H. (2025, April 30). Earth Kasha Updates TTPs in Latest Campaign Targeting Taiwan and Japan. Retrieved April 17, 2026."
+    },
+    {
+      "source": "Kaspersky LODEINFO OCT 2022",
+      "url": "https://securelist.com/apt10-tracking-down-lodeinfo-2022-part-i/107742/",
+      "description": "Ishimaru, S. (2022, October 31). APT10: Tracking down LODEINFO 2022, part I. Retrieved April 17, 2026."
+    },
+    {
+      "source": "Kaspersky LODEINFO Part II OCT 2022",
+      "url": "https://securelist.com/apt10-tracking-down-lodeinfo-2022-part-ii/107745/",
+      "description": "Ishimaru, S. (2022, October 31). APT10: Tracking down LODEINFO 2022, part II. Retrieved April 17, 2026."
+    },
+    {
+      "source": "JPCERT MirrorFace JUL 2024",
+      "url": "https://blogs.jpcert.or.jp/en/2024/07/mirrorface-attack-against-japanese-organisations.html",
+      "description": "Tomonaga, S. (2024, July 16). MirrorFace Attack against Japanese Organisations. Retrieved April 17, 2026."
+    },
+    {
+      "source": "Trend Micro Earth Kasha NOV 2024",
+      "url": "https://www.trendmicro.com/en_us/research/24/k/lodeinfo-campaign-of-earth-kasha.html",
+      "description": "Trend Micro. (2024, November 19). Spot the Difference: Earth Kasha's New LODEINFO Campaign And The Correlation Analysis With The APT10 Umbrella. Retrieved April 17, 2026."
+    }
+  ],
+  "Play": [
+    {
+      "source": "mitre-attack",
+      "url": "https://attack.mitre.org/groups/G1040",
+      "description": null
+    },
+    {
+      "source": "CISA Play Ransomware Advisory December 2023",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+      "description": "CISA. (2023, December 18). #StopRansomware: Play Ransomware AA23-352A. Retrieved September 24, 2024."
+    },
+    {
+      "source": "Trend Micro Ransomware Spotlight Play July 2023",
+      "url": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-play",
+      "description": "Trend Micro Research. (2023, July 21). Ransomware Spotlight: Play. Retrieved September 24, 2024."
+    }
+  ]
+}

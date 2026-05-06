@@ -1,0 +1,62 @@
+{
+  "mitre_id": "T1482",
+  "mitigations": [
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "Network Segmentation",
+      "mitre_id": "M1030",
+      "url": "https://attack.mitre.org/mitigations/M1030",
+      "stix_id": "course-of-action--86598de0-b347-4928-9eb0-0acbfc21908c"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "BlackByte",
+      "url": "/apt1043"
+    },
+    {
+      "name": "Akira",
+      "url": "/akira"
+    },
+    {
+      "name": "Chimera",
+      "url": "/apt0114"
+    },
+    {
+      "name": "MirrorFace",
+      "url": "/mirrorface"
+    },
+    {
+      "name": "Lotus Blossom",
+      "url": "/apt0030"
+    },
+    {
+      "name": "Earth Lusca",
+      "url": "/apt1006"
+    },
+    {
+      "name": "Storm-0501",
+      "url": "/apt1053"
+    },
+    {
+      "name": "Storm-1811",
+      "url": "/apt1046"
+    },
+    {
+      "name": "Magic Hound",
+      "url": "/apt35"
+    },
+    {
+      "name": "FIN8",
+      "url": "/apt0061"
+    }
+  ]
+}

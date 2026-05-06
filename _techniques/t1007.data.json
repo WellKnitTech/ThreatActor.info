@@ -1,0 +1,71 @@
+{
+  "mitre_id": "T1007",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "BRONZE BUTLER",
+      "url": "/apt0060"
+    },
+    {
+      "name": "TeamTNT",
+      "url": "/apt0139"
+    },
+    {
+      "name": "Indrik Spider",
+      "url": "/apt0119"
+    },
+    {
+      "name": "OilRig",
+      "url": "/apt34"
+    },
+    {
+      "name": "Turla",
+      "url": "/apt0010"
+    },
+    {
+      "name": "Aquatic Panda",
+      "url": "/apt0143"
+    },
+    {
+      "name": "Poseidon Group",
+      "url": "/apt0033"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Chimera",
+      "url": "/apt0114"
+    },
+    {
+      "name": "Ke3chang",
+      "url": "/apt0004"
+    },
+    {
+      "name": "MirrorFace",
+      "url": "/mirrorface"
+    },
+    {
+      "name": "Earth Lusca",
+      "url": "/apt1006"
+    },
+    {
+      "name": "Volt Typhoon",
+      "url": "/apt1017"
+    },
+    {
+      "name": "admin@338",
+      "url": "/apt0018"
+    },
+    {
+      "name": "APT1",
+      "url": "/apt1"
+    }
+  ]
+}

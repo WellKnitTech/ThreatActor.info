@@ -1,0 +1,15 @@
+name: "Entropy"
+aliases: ["Entropy"]
+description: "Entropy is a ransomware first seen in 1st quarter of 2022, is being used in conjunction of Dridex infection. The ransomware uses a custom packer to pack itself which has been seen in some early dridex samples. "
+url: "/entropy"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "11a458b9-df9c-486f-8556-2ae662df2802"
+    source_record_ids: ["11a458b9-df9c-486f-8556-2ae662df2802"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

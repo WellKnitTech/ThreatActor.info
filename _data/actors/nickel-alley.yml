@@ -1,0 +1,19 @@
+name: "Nickel Alley"
+aliases: ["Nickel Alley"]
+description: "NICKEL ALLEY is a North Korean threat group that targets technology professionals through fake job opportunities, employing social engineering tactics such as creating fraudulent LinkedIn pages and GitHub repositories for malware delivery. They utilize the ClickFix tactic to deploy the PyLangGhost RAT, which supports file exfiltration and system profiling, particularly focusing on Chrome cryptocurrency wallet data. The group has also leveraged Visual Studio Code tasks to execute commands for malware retrieval based on the victim's operating system. Their operations indicate a dual focus on cryptocurrency theft and potential supply chain compromise or corporate espionage."
+url: "/nickel-alley"
+country: "North Korea"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Chrome Remote Desktop"
+  - name: "Ghost"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "2a105c46-90b1-4cff-9f66-464f8c66c22f"
+    source_record_ids: ["2a105c46-90b1-4cff-9f66-464f8c66c22f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

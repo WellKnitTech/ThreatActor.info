@@ -1,0 +1,14 @@
+name: "Luna Ransomware"
+aliases: ["Luna Ransomware"]
+description: "Ransomware"
+url: "/luna-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "2950977b-59bb-464a-8dd8-21728887f72f"
+    source_record_ids: ["2950977b-59bb-464a-8dd8-21728887f72f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

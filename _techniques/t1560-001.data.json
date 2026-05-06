@@ -1,0 +1,172 @@
+{
+  "mitre_id": "T1560.001",
+  "mitigations": [
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "HAFNIUM",
+      "url": "/apt0125"
+    },
+    {
+      "name": "menuPass",
+      "url": "/apt0045"
+    },
+    {
+      "name": "Wizard Spider",
+      "url": "/wizard-spider"
+    },
+    {
+      "name": "APT33",
+      "url": "/apt0064"
+    },
+    {
+      "name": "Fox Kitten",
+      "url": "/apt0117"
+    },
+    {
+      "name": "CopyKittens",
+      "url": "/apt0052"
+    },
+    {
+      "name": "Volt Typhoon",
+      "url": "/apt1017"
+    },
+    {
+      "name": "APT1",
+      "url": "/apt1"
+    },
+    {
+      "name": "Mustang Panda",
+      "url": "/apt0129"
+    },
+    {
+      "name": "Play",
+      "url": "/play"
+    },
+    {
+      "name": "Chimera",
+      "url": "/apt0114"
+    },
+    {
+      "name": "Gallmaker",
+      "url": "/apt0084"
+    },
+    {
+      "name": "Sea Turtle",
+      "url": "/apt1041"
+    },
+    {
+      "name": "APT39",
+      "url": "/apt0087"
+    },
+    {
+      "name": "RedCurl",
+      "url": "/apt1039"
+    },
+    {
+      "name": "APT5",
+      "url": "/apt1023"
+    },
+    {
+      "name": "Agrius",
+      "url": "/apt1030"
+    },
+    {
+      "name": "GALLIUM",
+      "url": "/apt0093"
+    },
+    {
+      "name": "APT41",
+      "url": "/apt41"
+    },
+    {
+      "name": "MuddyWater",
+      "url": "/apt0069"
+    },
+    {
+      "name": "APT28",
+      "url": "/apt28"
+    },
+    {
+      "name": "Turla",
+      "url": "/apt0010"
+    },
+    {
+      "name": "Sowbug",
+      "url": "/apt0054"
+    },
+    {
+      "name": "BRONZE BUTLER",
+      "url": "/apt0060"
+    },
+    {
+      "name": "UNC3886",
+      "url": "/apt1048"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "APT3",
+      "url": "/apt0022"
+    },
+    {
+      "name": "FIN8",
+      "url": "/apt0061"
+    },
+    {
+      "name": "Ke3chang",
+      "url": "/apt0004"
+    },
+    {
+      "name": "Lotus Blossom",
+      "url": "/apt0030"
+    },
+    {
+      "name": "FIN13",
+      "url": "/apt1016"
+    },
+    {
+      "name": "Earth Lusca",
+      "url": "/apt1006"
+    },
+    {
+      "name": "MirrorFace",
+      "url": "/mirrorface"
+    },
+    {
+      "name": "Magic Hound",
+      "url": "/apt35"
+    },
+    {
+      "name": "Aquatic Panda",
+      "url": "/apt0143"
+    },
+    {
+      "name": "INC Ransom",
+      "url": "/apt1032"
+    },
+    {
+      "name": "VOID MANTICORE",
+      "url": "/void-manticore"
+    },
+    {
+      "name": "Akira",
+      "url": "/akira"
+    },
+    {
+      "name": "ToddyCat",
+      "url": "/apt1022"
+    }
+  ]
+}

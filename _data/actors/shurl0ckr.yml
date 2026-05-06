@@ -1,0 +1,21 @@
+name: "ShurL0ckr"
+aliases: ["ShurL0ckr"]
+description: "Security researchers uncovered a new ransomware named ShurL0ckr (detected by Trend Micro as RANSOM_GOSHIFR.B) that reportedly bypasses detection mechanisms of cloud platforms. Like Cerber and Satan, ShurL0ckr’s operators further monetize the ransomware by peddling it as a turnkey service to fellow cybercriminals, allowing them to earn additional income through a commission from each victim who pays the ransom."
+url: "/shurl0ckr"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "CloudDuke"
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+  - name: "Cerberus RAT"
+  - name: "Archelaus Beta"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "cc7f6da3-fafd-444f-b7e9-f0e650fb4d4f"
+    source_record_ids: ["cc7f6da3-fafd-444f-b7e9-f0e650fb4d4f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

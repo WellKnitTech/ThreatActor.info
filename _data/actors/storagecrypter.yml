@@ -1,0 +1,15 @@
+name: "StorageCrypter"
+aliases: ["SambaCry","StorageCrypter"]
+description: "Michael Gillespie noticed numerous submissions to ID Ransomware from South Korea for the StorageCrypter ransomware. This version is using a new ransom note named read_me_for_recover_your_files.txt."
+url: "/storagecrypter"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","ransomnotes","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "3675e50d-3f76-45f8-b3f3-4a645779e14d"
+    source_record_ids: ["3675e50d-3f76-45f8-b3f3-4a645779e14d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

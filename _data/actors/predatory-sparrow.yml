@@ -8,14 +8,31 @@ targeted_victims: ["Iran"]
 incident_type: "Sabotage"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/predatory_sparrow"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "CyberGate"
+  - name: "Predator Pain"
+  - name: "Cyber Eye RAT"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://malpedia.caad.fkie.fraunhofer.de/actor/predatory_sparrow"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "iran"
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "predatory_sparrow"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/predatory_sparrow"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "e665ac2f-87b4-4c2e-bef7-78bf0a8af87b"
   misp_galaxy:
+    meta_keys: ["cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","refs","synonyms","group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","tidal-groups.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "e665ac2f-87b4-4c2e-bef7-78bf0a8af87b"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["e665ac2f-87b4-4c2e-bef7-78bf0a8af87b","b69bf099-25ac-4c62-8b17-e5b85e48bfc5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

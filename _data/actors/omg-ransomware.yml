@@ -1,0 +1,17 @@
+name: "OMG! Ransomware"
+aliases: ["GPCode","OMG! Ransomware"]
+description: "Ransomware. Infection: drive-by-download; Platform: Windows; Extorsion by Prepaid Voucher"
+url: "/omg-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Windows Remote Desktop"
+provenance:
+  misp_galaxy:
+    meta_keys: ["Encryption","extensions","payment-method","price","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "7914f9c9-3257-464c-b918-3754c4d018af"
+    source_record_ids: ["7914f9c9-3257-464c-b918-3754c4d018af"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

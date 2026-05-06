@@ -1,25 +1,101 @@
 name: "Volatile Cedar"
-aliases: ["DeftTorero","Lebanese Cedar","Volatile Cedar"]
+aliases: ["DeftTorero","Lebanese Cedar","Volatile Cedar","VolcanicTimber","Amethyst Rain"]
 description: "Volatile Cedar is a Lebanese threat group that has targeted individuals, companies, and institutions worldwide. Volatile Cedar has been operating since 2012 and is motivated by political and ideological interests. [CheckPoint Volatile Cedar March 2015](https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2015/03/20082004/volatile-cedar-technical-report.pdf) [ClearSky Lebanese Cedar Jan 2021](https://www.clearskysec.com/wp-content/uploads/2021/01/Lebanese-Cedar-APT.pdf)"
 url: "/apt0123"
+country: "Lebanon"
+targeted_victims: ["Middle East","Israel","Lebanon","Saudi Arabia"]
+first_seen: "2015"
+last_activity: "2015"
 external_id: "G0123"
 external_url: "https://attack.mitre.org/groups/G0123"
 mitre_id: "G0123"
 mitre_url: "https://attack.mitre.org/groups/G0123"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/volatile_cedar"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware:
   - name: "Explosive"
   - name: "Caterpillar 2"
+software:
+  - name: "Caterpillar WebShell"
+    mitre_id: "S0572"
+    url: "https://attack.mitre.org/software/S0572"
+    type: "malware"
+    stix_id: "malware--751b77e6-af1f-483b-93fe-eddf17f92a64"
+    description: "Caterpillar WebShell is a self-developed Web Shell tool created by the group Volatile Cedar.(Citation: ClearSky Lebanese Cedar Jan 2021) "
+  - name: "Explosive"
+    mitre_id: "S0569"
+    url: "https://attack.mitre.org/software/S0569"
+    type: "malware"
+    stix_id: "malware--6a21e3a4-5ffe-4581-af9a-6a54c7536f44"
+    description: "Explosive is a custom-made remote access tool used by the group Volatile Cedar. It was first identified in the wild in 2015.(Citation: CheckPoint Volatile Cedar March 2015)(Citation: ClearSky Lebanese Cedar Jan 2021)  "
+ttps:
+  - technique_id: "T1595.002"
+    technique_name: "Vulnerability Scanning"
+    url: "https://attack.mitre.org/techniques/T1595/002"
+    stix_id: "attack-pattern--5502c4e9-24ef-4d5f-8ee9-9e906c2f82c4"
+  - technique_id: "T1595.003"
+    technique_name: "Wordlist Scanning"
+    url: "https://attack.mitre.org/techniques/T1595/003"
+    stix_id: "attack-pattern--bed04f7d-e48a-4e76-bd0f-4c57fe31fc46"
+  - technique_id: "T1505.003"
+    technique_name: "Web Shell"
+    url: "https://attack.mitre.org/techniques/T1505/003"
+    stix_id: "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb"
+  - technique_id: "T1105"
+    technique_name: "Ingress Tool Transfer"
+    url: "https://attack.mitre.org/techniques/T1105"
+    stix_id: "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
+  - technique_id: "T1190"
+    technique_name: "Exploit Public-Facing Application"
+    url: "https://attack.mitre.org/techniques/T1190"
+    stix_id: "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://www.checkpoint.com/downloads/volatile-cedar-technical-report.pdf","http://blog.checkpoint.com/2015/03/31/volatilecedar/","https://securelist.com/sinkholing-volatile-cedar-dga-infrastructure/69421/","https://www.clearskysec.com/cedar/","https://securelist.com/defttorero-tactics-techniques-and-procedures/107610/"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "middle-east"
+  aptnotes:
+    earliest_report_year: "2015"
+    latest_report_year: "2015"
+    report_count: 1
+    sample_links: ["https://app.box.com/s/jgl1n5xvzu3kp7aoi3cd9r407kjfzjcc"]
+    sample_titles: ["Volatile Cedar Threat Intelligence And Research"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Checkpoint"]
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "volatile_cedar"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/volatile_cedar"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "cf421ce6-ddfe-419a-bc65-6a9fc953232a"
+  misp_galaxy:
+    meta_keys: ["country","refs","suspected-victims","synonyms","group_attack_id","observed_countries","observed_motivations","source","target_categories","microsoft-origin-threat"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","tidal-groups.json","microsoft-activity-group.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "cf421ce6-ddfe-419a-bc65-6a9fc953232a"
+    source_record_ids: ["cf421ce6-ddfe-419a-bc65-6a9fc953232a","7c3ef21c-0e1c-43d5-afb0-3a07c5a66937","043ebe48-3101-5f67-9dd0-de3c9f230031"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   mitre:
+    attack_version: "19.0"
+    attack_version_by_domain:
+      enterprise: "19.0"
+      ics: "19.0"
+      mobile: "19.0"
+    relationships_imported_at: "2026-05-06T21:54:34Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_dataset_urls:
+      enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+      ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
+      mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0123"
-    source_retrieved_at: "2026-04-26T07:05:44Z"
+    source_retrieved_at: "2026-05-06T21:54:34Z"
+    stix_intrusion_set_id: "intrusion-set--b2e34388-6938-4c59-a702-80dc219e15e3"
 source: "MITRE ATT&CK"

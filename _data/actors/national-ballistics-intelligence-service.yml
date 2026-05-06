@@ -1,0 +1,16 @@
+name: "National Ballistics Intelligence Service"
+aliases: ["National Ballistics Intelligence Service"]
+description: "National Ballistics Intelligence Service (NBIS)[35] – Illegal firearms intelligence analysis."
+url: "/national-ballistics-intelligence-service"
+country: "United Kingdom"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "7ce69f74-f642-56b5-a553-a0bd46dc5a12"
+    source_record_ids: ["7ce69f74-f642-56b5-a553-a0bd46dc5a12"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

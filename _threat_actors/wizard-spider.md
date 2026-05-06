@@ -30,7 +30,14 @@ Wizard Spider is reportedly associated with Grim Spider and Lunar Spider. The WI
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **BlackEnergy**: 
+- **BLACKCOFFEE**: 
+- **Blackshades**: 
+- **BlackNix**: 
+- **Xploit**: 
+- **BlackHole**: 
+- **Cobalt Strike**: 
+- **Revenge-RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

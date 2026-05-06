@@ -1,0 +1,17 @@
+name: "Turkish FileEncryptor Ransomware"
+aliases: ["Fake CTB-Locker","Turkish FileEncryptor Ransomware"]
+description: "his is most likely to affect English speaking users, since the note is written in English. English is understood worldwide, thus anyone can be harmed. The hacker spread the virus using email spam, fake updates, and harmful attachments. All your files are compromised including music, MS Office, Open Office, pictures, videos, shared online files etc.."
+url: "/turkish-fileencryptor-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Virus RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes","ransomnotes-filenames","ransomnotes-refs","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "a291ac4c-7851-480f-b317-e977a616ac9d"
+    source_record_ids: ["a291ac4c-7851-480f-b317-e977a616ac9d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

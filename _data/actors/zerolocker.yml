@@ -1,0 +1,14 @@
+name: "ZeroLocker"
+aliases: ["ZeroLocker"]
+description: "ransomware"
+url: "/zerolocker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "9296d2bc-ec26-4724-88b4-82ab682ed11e"
+    source_record_ids: ["9296d2bc-ec26-4724-88b4-82ab682ed11e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

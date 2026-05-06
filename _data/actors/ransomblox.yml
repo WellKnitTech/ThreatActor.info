@@ -1,0 +1,14 @@
+name: "RansomBlox"
+aliases: ["RansomBlox"]
+description: "ransomware"
+url: "/ransomblox"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "2c754dfc-0748-47d7-8853-652c1d6a93a7"
+    source_record_ids: ["2c754dfc-0748-47d7-8853-652c1d6a93a7"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

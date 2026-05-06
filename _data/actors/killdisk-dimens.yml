@@ -1,0 +1,14 @@
+name: "KillDisk-Dimens"
+aliases: ["KillDisk-Dimens"]
+description: "ransomware"
+url: "/killdisk-dimens"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "d6d91cbd-4ad9-4cf4-b5fa-a468da62b421"
+    source_record_ids: ["d6d91cbd-4ad9-4cf4-b5fa-a468da62b421"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

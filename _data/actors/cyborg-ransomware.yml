@@ -1,0 +1,17 @@
+name: "Cyborg Ransomware"
+aliases: ["Cyborg Ransomware"]
+description: "Ransomware delivered using fake Windows Update spam"
+url: "/cyborg-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Windows Remote Desktop"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "0a0b9311-8cbc-4d97-b337-42c9a018ebe0"
+    source_record_ids: ["0a0b9311-8cbc-4d97-b337-42c9a018ebe0"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,74 @@
+{
+  "mitre_id": "T1558",
+  "mitigations": [
+    {
+      "name": "Active Directory Configuration",
+      "mitre_id": "M1015",
+      "url": "https://attack.mitre.org/mitigations/M1015",
+      "stix_id": "course-of-action--e3388c78-2a8d-47c2-8422-c1398b324462"
+    },
+    {
+      "name": "Credential Access Protection",
+      "mitre_id": "M1043",
+      "url": "https://attack.mitre.org/mitigations/M1043",
+      "stix_id": "course-of-action--49c06d54-9002-491d-9147-8efb537fbd26"
+    },
+    {
+      "name": "Encrypt Sensitive Information",
+      "mitre_id": "M1041",
+      "url": "https://attack.mitre.org/mitigations/M1041",
+      "stix_id": "course-of-action--feff9142-e8c2-46f4-842b-bd6fb3d41157"
+    },
+    {
+      "name": "Password Policies",
+      "mitre_id": "M1027",
+      "url": "https://attack.mitre.org/mitigations/M1027",
+      "stix_id": "course-of-action--90c218c3-fbf8-4830-98a7-e8cfb7eaa485"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M1026",
+      "url": "https://attack.mitre.org/mitigations/M1026",
+      "stix_id": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1558.003",
+      "name": "Kerberoasting",
+      "permalink": "/techniques/T1558.003/"
+    },
+    {
+      "id": "T1558.002",
+      "name": "Silver Ticket",
+      "permalink": "/techniques/T1558.002/"
+    },
+    {
+      "id": "T1558.005",
+      "name": "Ccache Files",
+      "permalink": "/techniques/T1558.005/"
+    },
+    {
+      "id": "T1558.004",
+      "name": "AS-REP Roasting",
+      "permalink": "/techniques/T1558.004/"
+    },
+    {
+      "id": "T1558.001",
+      "name": "Golden Ticket",
+      "permalink": "/techniques/T1558.001/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Akira",
+      "url": "/akira"
+    }
+  ]
+}

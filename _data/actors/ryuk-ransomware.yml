@@ -1,0 +1,17 @@
+name: "Ryuk ransomware"
+aliases: ["Ryuk ransomware"]
+description: "Similar to Samas and BitPaymer, Ryuk is specifically used to target enterprise environments. Code comparison between versions of Ryuk and Hermes ransomware indicates that Ryuk was derived from the Hermes source code and has been under steady development since its release. Hermes is commodity ransomware that has been observed for sale on forums and used by multiple threat actors. However, Ryuk is only used by GRIM SPIDER and, unlike Hermes, Ryuk has only been used to target enterprise environments. Since Ryuk’s appearance in August, the threat actors operating it have netted over 705.80 BTC across 52 transactions for a total current value of $3,701,893.98 USD."
+url: "/ryuk-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "CrossRat"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "f9464c80-b776-4f37-8682-ffde0cf8f718"
+    source_record_ids: ["f9464c80-b776-4f37-8682-ffde0cf8f718"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

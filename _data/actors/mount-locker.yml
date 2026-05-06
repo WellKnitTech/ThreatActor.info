@@ -1,0 +1,15 @@
+name: "Mount Locker"
+aliases: ["Mount-Locker","Mount Locker","mountlocker"]
+description: "Ransomware"
+url: "/mount-locker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "1da28691-684a-4cd2-b2f8-e80a123e150c"
+    source_record_ids: ["1da28691-684a-4cd2-b2f8-e80a123e150c","bcb30792-4c12-5fa1-bd97-03b9b470c21e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

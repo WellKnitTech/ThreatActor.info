@@ -1,0 +1,43 @@
+{
+  "mitre_id": "T1027.001",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Leviathan",
+      "url": "/apt40"
+    },
+    {
+      "name": "APT29",
+      "url": "/apt29"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Moafee",
+      "url": "/apt0002"
+    },
+    {
+      "name": "Higaisa",
+      "url": "/apt0126"
+    },
+    {
+      "name": "Patchwork",
+      "url": "/apt0040"
+    },
+    {
+      "name": "BRONZE BUTLER",
+      "url": "/apt0060"
+    },
+    {
+      "name": "Akira",
+      "url": "/akira"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+name: "National Security Agency (Liberia)"
+aliases: ["National Security Agency (Liberia)"]
+description: "National Security Agency"
+url: "/national-security-agency-liberia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "31775a75-d72a-53c8-b26b-bfaa1d8027f6"
+    source_record_ids: ["31775a75-d72a-53c8-b26b-bfaa1d8027f6"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

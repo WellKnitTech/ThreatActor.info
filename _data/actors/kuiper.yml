@@ -1,0 +1,14 @@
+name: "Kuiper"
+aliases: ["Kuiper"]
+description: "Kuiper is a relatively new ransomware strain first analyzed in April 2023, notable for being written in Rust and designed to target multiple platforms, including Windows, Linux, and ESXi environments. The ransomware encrypts files with ChaCha20 symmetric encryption, securing keys with Curve25519, and appends the .kuiper extension to affected files. Kuiper operates under a double-extortion model, exfiltrating data before encryption and threatening to leak it on a Tor-hosted site if the ransom is not paid. Initial infection vectors are not widely documented, but analysis suggests potential use of compromised credentials, phishing, or exploitation of exposed services. The ransomware contains evasion techniques such as process termination, shadow copy deletion, and targeting of backup files to hinder recovery. Public reporting on Kuiper remains limited, indicating it may be in an early operational stage or used by a small number of actors."
+url: "/kuiper"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/kuiper"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "kuiper"
+  source_retrieved_at: "2026-05-06T21:58:48Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

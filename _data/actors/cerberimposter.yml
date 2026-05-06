@@ -1,0 +1,22 @@
+name: "cerberimposter"
+aliases: ["cerberimposter"]
+description: "Cerber Imposer is a post-2019 rebrand of the Cerber ransomware family, resurfacing in late 2021 with updated targeting of enterprise environments. Unlike its classic counterpart, Cerber Imposer utilizes the .locked file extension and includes a unique recovery note named __$$RECOVERY_README$$__.html. It does not reuse the original Cerber codebase; instead it borrows branding while operating under new cryptographic implementations and deployment tactics. Threat actors have leveraged known remote code execution vulnerabilities in Atlassian Confluence (CVE-2021-26084) and GitLab (CVE-2021-22205) to deliver this ransomware. The rebranded variant has compromised servers in the U.S., Germany, China, and Russia, indicating a broader scope of targeting than originally seen with early Cerber campaigns.\r<br/>"
+url: "/cerberimposter"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "China Chopper"
+  - name: "RemoteCMD"
+  - name: "Remote Utilities"
+  - name: "RemotePC"
+  - name: "Cerberus RAT"
+  - name: "GraphicBooting"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "d4fb5692-ce86-538c-817e-598b41212410"
+    source_record_ids: ["d4fb5692-ce86-538c-817e-598b41212410"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,29 @@
+{
+  "mitre_id": "T1574.008",
+  "mitigations": [
+    {
+      "name": "Execution Prevention",
+      "mitre_id": "M1038",
+      "url": "https://attack.mitre.org/mitigations/M1038",
+      "stix_id": "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db"
+    },
+    {
+      "name": "Restrict File and Directory Permissions",
+      "mitre_id": "M1022",
+      "url": "https://attack.mitre.org/mitigations/M1022",
+      "stix_id": "course-of-action--987988f0-cf86-4680-a875-2f6456ab2448"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

@@ -3,9 +3,23 @@ aliases: ["DEV-0867","Storm-0867"]
 description: "Storm-0867 is a threat actor that has been active since 2012 and has targeted various industries and regions. They employ sophisticated phishing campaigns, utilizing social engineering techniques and a phishing as a service platform called Caffeine. Their attacks involve intercepting and manipulating communication between users and legitimate services, allowing them to steal passwords, hijack sign-in sessions, bypass multifactor authentication, and modify authentication methods."
 url: "/storm-0867"
 country: "Egypt"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-0867"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "storm-0867"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-0867"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "dc1d0202-8976-4d15-810d-4af0feff6af9"
   misp_galaxy:
+    meta_keys: ["country","origin:DEV-0867","origin:Storm-0867","refs","synonyms"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "dc1d0202-8976-4d15-810d-4af0feff6af9"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["dc1d0202-8976-4d15-810d-4af0feff6af9"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

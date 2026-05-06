@@ -1,0 +1,15 @@
+name: "Joker Korean"
+aliases: ["Joker Korean"]
+description: "ransomware"
+url: "/joker-korean"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "d4733b99-e1d7-4101-9653-65d8ed73bd47"
+    source_record_ids: ["d4733b99-e1d7-4101-9653-65d8ed73bd47"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

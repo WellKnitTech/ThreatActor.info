@@ -1,0 +1,15 @@
+name: "European Union Satellite Centre"
+aliases: ["European Union Satellite Centre"]
+description: "European Union Satellite Centre (EU SatCen)"
+url: "/european-union-satellite-centre"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "fd930561-8ca9-503a-8c03-43e19b837878"
+    source_record_ids: ["fd930561-8ca9-503a-8c03-43e19b837878"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

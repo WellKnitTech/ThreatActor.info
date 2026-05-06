@@ -1,0 +1,19 @@
+{
+  "mitre_id": "T1560.002",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    },
+    {
+      "name": "Threat Group-3390",
+      "url": "/apt0027"
+    }
+  ]
+}

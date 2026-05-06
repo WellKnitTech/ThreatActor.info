@@ -1,0 +1,17 @@
+name: "CloudSword Ransomware"
+aliases: ["CloudSword Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide. Uses the name “Window Update” to confuse its victims. Then imitates the window update process , while turning off the Window Startup Repair and changes the BootStatusPolicy using these commands: bcdedit.exe /set {default} recoveryenabled No bcdedit.exe /set {default} bootstatuspolicy ignoreallfailures"
+url: "/cloudsword-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Windows Remote Desktop"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","payment-method","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "a89e0ae0-e0e2-40c5-83ff-5fd672aaa2a4"
+    source_record_ids: ["a89e0ae0-e0e2-40c5-83ff-5fd672aaa2a4"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

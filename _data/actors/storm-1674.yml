@@ -2,10 +2,24 @@ name: "Storm-1674"
 aliases: ["Storm-1674"]
 description: "Storm-1674 is an access broker known for using tools based on the publicly available TeamsPhisher tool to distribute DarkGate malware. Storm-1674 campaigns have typically relied on phishing lures sent over Teams with malicious attachments, such as ZIP files containing a LNK file that ultimately drops DarkGate and Pikabot. In September 2023, Microsoft observed handoffs from Storm-1674 to ransomware operators that have led to Black Basta ransomware deployment."
 url: "/storm-1674"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-1674"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["BlackEnergy","BLACKCOFFEE","Blackshades","BlackNix","BlackHole"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "storm-1674"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-1674"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "eb7b5ed7-cf9d-4c72-8f89-a2ee070b89b6"
   misp_galaxy:
+    meta_keys: ["origin:Storm-1674","refs","microsoft-origin-threat"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "eb7b5ed7-cf9d-4c72-8f89-a2ee070b89b6"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["eb7b5ed7-cf9d-4c72-8f89-a2ee070b89b6","30ed08d3-db95-5d08-9504-9e9781a253d4"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

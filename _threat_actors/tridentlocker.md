@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "TridentLocker"
-aliases: ["TridentLocker"]
+aliases: ["TridentLocker","tridentlocker"]
 description: "TridentLocker is a ransomware group known for targeting organizations that manage high volumes of regulated or third-party data, including government services and telecom providers. They have claimed b"
 permalink: /tridentlocker/
 ---

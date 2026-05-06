@@ -1,0 +1,24 @@
+name: "black suit"
+aliases: ["black suit"]
+description: "BlackSuit is a type of malicious software classified as ransomware. Its operation involves multifaceted extortion, encrypting and exfiltrating victim data, and hosting public data leak sites for victims who fail to meet its demands. BlackSuit’s activities first began in early May 2023. Designed to prevent access to files by encrypting them, this ransomware appends the “.blacksuit” extension to the names of all affected files. Furthermore, it changes the desktop wallpaper and creates a ransom note file named “README.BlackSuit.txt.”\nThis threat actor targets large corporations, small and medium-sized enterprises (SMEs), with no apparent specific discrimination regarding industry or type of victim."
+url: "/black-suit"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "BlackEnergy"
+  - name: "BLACKCOFFEE"
+  - name: "Blackshades"
+  - name: "BlackNix"
+  - name: "Small-Net"
+  - name: "DesktopNow"
+  - name: "BlackHole"
+  - name: "Revenge-RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["TTP","links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "300f682f-707f-590f-9202-87f0ce6c1a04"
+    source_record_ids: ["300f682f-707f-590f-9202-87f0ce6c1a04"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "GhostCrypt"
+aliases: ["GhostCrypt"]
+description: "Ransomware Based on Hidden Tear"
+url: "/ghostcrypt"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "3b681f76-b0e4-4ba7-a113-5dd87d6ee53b"
+    source_record_ids: ["3b681f76-b0e4-4ba7-a113-5dd87d6ee53b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "CryptoNar"
+aliases: ["CryptoNar"]
+description: "When the CryptoNar, or Crypto Nar, Ransomware encrypts a victims files it will perform the encryption differently depending on the type of file being encrypted.\nIf the targeted file has a .txt or .md extension, it will encrypt the entire file and append the .fully.cryptoNar extension to the encrypted file's name. All other files will only have the first 1,024 bytes encrypted and will have the .partially.cryptoNar extensions appended to the file's name."
+url: "/cryptonar"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "10f92054-b028-11e8-a51f-2f82236ac72d"
+    source_record_ids: ["10f92054-b028-11e8-a51f-2f82236ac72d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

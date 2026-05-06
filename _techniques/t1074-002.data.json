@@ -1,0 +1,55 @@
+{
+  "mitre_id": "T1074.002",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Chimera",
+      "url": "/apt0114"
+    },
+    {
+      "name": "MirrorFace",
+      "url": "/mirrorface"
+    },
+    {
+      "name": "Sea Turtle",
+      "url": "/apt1041"
+    },
+    {
+      "name": "menuPass",
+      "url": "/apt0045"
+    },
+    {
+      "name": "FIN8",
+      "url": "/apt0061"
+    },
+    {
+      "name": "Leviathan",
+      "url": "/apt40"
+    },
+    {
+      "name": "APT28",
+      "url": "/apt28"
+    },
+    {
+      "name": "MoustachedBouncer",
+      "url": "/apt1019"
+    },
+    {
+      "name": "ToddyCat",
+      "url": "/apt1022"
+    },
+    {
+      "name": "FIN6",
+      "url": "/apt0037"
+    },
+    {
+      "name": "Threat Group-3390",
+      "url": "/apt0027"
+    }
+  ]
+}

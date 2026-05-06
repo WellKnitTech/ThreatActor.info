@@ -1,0 +1,14 @@
+name: "Rush"
+aliases: ["Rush"]
+description: "ransomware"
+url: "/rush"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b48f7bab-c2ba-4f80-9547-4f2bfef38959"
+    source_record_ids: ["b48f7bab-c2ba-4f80-9547-4f2bfef38959"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

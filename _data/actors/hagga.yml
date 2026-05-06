@@ -2,10 +2,24 @@ name: "Hagga"
 aliases: ["Aggah","TH-157","Hagga"]
 description: "Hagga is believed to have been using Agent Tesla, 2021’s sixth most prevalent malware, to steal sensitive information from his victims since the latter part of 2021."
 url: "/hagga"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/hagga"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["Agent.btz"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "hagga"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/hagga"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "1e318d85-79c7-4988-83b7-ff86a974786c"
   misp_galaxy:
+    meta_keys: ["refs","synonyms"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "1e318d85-79c7-4988-83b7-ff86a974786c"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["1e318d85-79c7-4988-83b7-ff86a974786c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

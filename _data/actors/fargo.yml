@@ -1,0 +1,17 @@
+name: "fargo"
+aliases: ["fargo"]
+description: "Fargo is a ransomware variant that surfaced in 2022, primarily targeting Microsoft SQL Server (MSSQL) systems. Believed to be a variant of the TargetCompany ransomware family, Fargo uses brute-force or credential-stuffing attacks on exposed MSSQL instances to gain access, then executes payloads via SQL Server commands. Once deployed, it encrypts files using a combination of symmetric and asymmetric algorithms, appends the .Fargo3 (or similar) extension, and drops a ransom note directing victims to contact operators via email. It also attempts to delete system backups and shadow copies to prevent recovery. Fargo has been observed targeting organizations in multiple sectors, with a concentration of victims in South Korea and other parts of Asia."
+url: "/fargo"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Revenge-RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "994c8778-9caa-54e9-8ea4-2bb8ed0081e9"
+    source_record_ids: ["994c8778-9caa-54e9-8ea4-2bb8ed0081e9"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

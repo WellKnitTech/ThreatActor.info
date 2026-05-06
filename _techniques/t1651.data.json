@@ -1,0 +1,24 @@
+{
+  "mitre_id": "T1651",
+  "mitigations": [
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M1026",
+      "url": "https://attack.mitre.org/mitigations/M1026",
+      "stix_id": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "APT29",
+      "url": "/apt29"
+    },
+    {
+      "name": "VOID MANTICORE",
+      "url": "/void-manticore"
+    }
+  ]
+}

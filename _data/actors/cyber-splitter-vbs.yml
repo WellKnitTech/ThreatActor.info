@@ -1,0 +1,15 @@
+name: "Cyber SpLiTTer Vbs"
+aliases: ["CyberSplitter","Cyber SpLiTTer Vbs"]
+description: "Ransomware Based on HiddenTear"
+url: "/cyber-splitter-vbs"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "587589df-ee42-43f4-9480-c65d6e1d7e0f"
+    source_record_ids: ["587589df-ee42-43f4-9480-c65d6e1d7e0f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

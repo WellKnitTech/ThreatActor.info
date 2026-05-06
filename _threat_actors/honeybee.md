@@ -28,5 +28,6 @@ McAfee Advanced Threat Research analysts have discovered a new operation targeti
 *Information pending cataloguing.*
 
 ## References
-*References pending cataloguing.*
+[1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0072)
+   MITRE ATT&CK entry
 

@@ -3,10 +3,36 @@ aliases: ["UAC-0050"]
 description: "UAC-0050 is a threat actor that has been active since 2020, targeting government agencies in Ukraine. They have been distributing the Remcos RAT malware through phishing campaigns, using tactics such as impersonating the Security Service of Ukraine and sending emails with malicious attachments. The group has also been linked to other hacking collectives, such as UAC-0096, and has previously used remote administration tools like Remote Utilities. The motive behind their attacks is likely espionage."
 url: "/uac-0050"
 targeted_victims: ["Germany"]
+first_seen: "2023"
+last_activity: "2023"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/uac-0050"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["Hacking Team UEFI Rootkit","RemoteCMD","Remote Utilities","RemotePC","Remcos"]
 provenance:
+  aptnotes:
+    earliest_report_year: "2023"
+    latest_report_year: "2023"
+    report_count: 1
+    sample_links: ["https://app.box.com/s/2smmew2ne68u13vfh3gmx9rd4w6tzlt9"]
+    sample_titles: ["New UAC-0050 attack using RemcosRAT"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["CERT-UA"]
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "uac-0050"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/uac-0050"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "e3ff56b6-2663-46bd-9e5c-017a350896d9"
   misp_galaxy:
+    meta_keys: ["cfr-suspected-victims","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "e3ff56b6-2663-46bd-9e5c-017a350896d9"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["e3ff56b6-2663-46bd-9e5c-017a350896d9"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

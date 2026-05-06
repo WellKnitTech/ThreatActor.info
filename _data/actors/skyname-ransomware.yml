@@ -1,0 +1,15 @@
+name: "SkyName Ransomware"
+aliases: ["Blablabla Ransomware","SkyName Ransomware"]
+description: "It’s directed to Czechoslovakianspeaking users.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc.. Based on HiddenTear"
+url: "/skyname-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "00b8ff33-1504-49a4-a025-b761738eed68"
+    source_record_ids: ["00b8ff33-1504-49a4-a025-b761738eed68"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

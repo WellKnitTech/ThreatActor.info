@@ -1,0 +1,23 @@
+name: "br0k3r"
+aliases: ["br0k3r"]
+description: "Br0k3r is not a conventional ransomware gang, but rather an Iran-linked cyber espionage and access brokerage group leveraging its foothold within victim networks to facilitate ransomware operations. Active since around 2017, the group provides privileged domain access—often sold or shared directly—with known ransomware operators such as ALPHV/BlackCat, NoEscape, and RansomHouse, receiving a portion of each successful ransom payout. Victims have included U.S. schools, municipal governments, financial and healthcare organizations, as well as targets in Israel, Azerbaijan, and the UAE. Br0k3r’s strategy merges espionage with criminal collaboration, allowing them to support both state-aligned intelligence objectives and financial incentives."
+url: "/br0k3r"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "BlackEnergy"
+  - name: "BLACKCOFFEE"
+  - name: "Blackshades"
+  - name: "BlackNix"
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+  - name: "BlackHole"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "d0e15668-b345-5509-bb12-17640cbc06f1"
+    source_record_ids: ["d0e15668-b345-5509-bb12-17640cbc06f1"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

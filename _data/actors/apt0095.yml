@@ -1,13 +1,27 @@
 name: "Machete"
-aliases: ["APT-C-43","El Machete","Machete"]
+aliases: ["APT-C-43","El Machete","Machete","machete-apt","G0095"]
 description: "Machete is a suspected Spanish-speaking cyber espionage group that has been active since at least 2010. It has primarily focused its operations within Latin America, with a particular emphasis on Venezuela, but also in the US, Europe, Russia, and parts of Asia. Machete generally targets high-profile organizations such as government institutions, intelligence services, and military units, as well as telecommunications and power companies. [Cylance Machete Mar 2017](https://threatvector.cylance.com/en_us/home/el-machete-malware-attacks-cut-through-latam.html) [Securelist Machete Aug 2014](https://securelist.com/el-machete/66108/) [ESET Machete July 2019](https://www.welivesecurity.com/wp-content/uploads/2019/08/ESET_Machete.pdf) [360 Machete Sep 2020](https://blog.360totalsecurity.com/en/apt-c-43-steals-venezuelan-military-secrets-to-provide-intelligence-support-for-the-reactionaries-hpreact-campaign/)"
 url: "/apt0095"
+country: "Unknown"
+sector_focus: ["Military","Government"]
+targeted_victims: ["Venezuela","Russia","Cuba","China","Belgium","Ecuador","Brazil","Spain","Germany","France","Colombia","Peru","Sweden","United States","Malaysia"]
+incident_type: "Espionage"
 external_id: "G0095"
 external_url: "https://attack.mitre.org/groups/G0095"
 mitre_id: "G0095"
 mitre_url: "https://attack.mitre.org/groups/G0095"
+source_name: "Malpedia (Fraunhofer FKIE)"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/el_machete"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "el_machete"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/el_machete"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "827c17e0-c3f5-4ad1-a4f4-30a40ed0a2d3"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0095"

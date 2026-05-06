@@ -1,0 +1,14 @@
+name: "Unnamed Bin"
+aliases: ["Unnamed Bin"]
+description: "ransomware"
+url: "/unnamed-bin"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "d77b1546-d37d-47ed-9a46-52892bdbd639"
+    source_record_ids: ["d77b1546-d37d-47ed-9a46-52892bdbd639"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

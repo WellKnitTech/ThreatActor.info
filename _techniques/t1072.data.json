@@ -1,0 +1,98 @@
+{
+  "mitre_id": "T1072",
+  "mitigations": [
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    },
+    {
+      "name": "Active Directory Configuration",
+      "mitre_id": "M1015",
+      "url": "https://attack.mitre.org/mitigations/M1015",
+      "stix_id": "course-of-action--e3388c78-2a8d-47c2-8422-c1398b324462"
+    },
+    {
+      "name": "Update Software",
+      "mitre_id": "M1051",
+      "url": "https://attack.mitre.org/mitigations/M1051",
+      "stix_id": "course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b"
+    },
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M1026",
+      "url": "https://attack.mitre.org/mitigations/M1026",
+      "stix_id": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f"
+    },
+    {
+      "name": "Password Policies",
+      "mitre_id": "M1027",
+      "url": "https://attack.mitre.org/mitigations/M1027",
+      "stix_id": "course-of-action--90c218c3-fbf8-4830-98a7-e8cfb7eaa485"
+    },
+    {
+      "name": "Limit Software Installation",
+      "mitre_id": "M1033",
+      "url": "https://attack.mitre.org/mitigations/M1033",
+      "stix_id": "course-of-action--23843cff-f7b9-4659-a7b7-713ef347f547"
+    },
+    {
+      "name": "Network Segmentation",
+      "mitre_id": "M1030",
+      "url": "https://attack.mitre.org/mitigations/M1030",
+      "stix_id": "course-of-action--86598de0-b347-4928-9eb0-0acbfc21908c"
+    },
+    {
+      "name": "User Training",
+      "mitre_id": "M1017",
+      "url": "https://attack.mitre.org/mitigations/M1017",
+      "stix_id": "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a"
+    },
+    {
+      "name": "Multi-factor Authentication",
+      "mitre_id": "M1032",
+      "url": "https://attack.mitre.org/mitigations/M1032",
+      "stix_id": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0"
+    },
+    {
+      "name": "Remote Data Storage",
+      "mitre_id": "M1029",
+      "url": "https://attack.mitre.org/mitigations/M1029",
+      "stix_id": "course-of-action--20a2baeb-98c2-4901-bad7-dc62d0a03dea"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "APT32",
+      "url": "/apt32"
+    },
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    },
+    {
+      "name": "Mustang Panda",
+      "url": "/apt0129"
+    },
+    {
+      "name": "VOID MANTICORE",
+      "url": "/void-manticore"
+    },
+    {
+      "name": "Silence",
+      "url": "/apt0091"
+    },
+    {
+      "name": "Threat Group-1314",
+      "url": "/apt0028"
+    },
+    {
+      "name": "Medusa Group",
+      "url": "/apt1051"
+    }
+  ]
+}

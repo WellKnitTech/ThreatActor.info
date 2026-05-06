@@ -1,0 +1,27 @@
+name: "OCT"
+aliases: ["OctEncrypt","OCT"]
+description: "ransomware"
+url: "/oct"
+first_seen: "2008"
+last_activity: "2015"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  aptnotes:
+    earliest_report_year: "2008"
+    latest_report_year: "2015"
+    report_count: 3
+    sample_links: ["https://app.box.com/s/696xnzy1an3jbm3b212y5n8xieirbemd","https://app.box.com/s/yzybkh6neofhi2wonyn7abjyn2hlfa8f","https://app.box.com/s/46ab2f2m26oaqu7r2kflfig8ni686gcl"]
+    sample_titles: ["How China Will Use Cyber Warfare","Operation Red October","Pay No Attention to the Server Behind the Proxy: Mapping FinFisher's Continuing Proliferation"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Citizen Lab","Jason Fritz","McAfee"]
+  misp_galaxy:
+    meta_keys: ["date","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e0189c0e-8da9-4e48-9c09-9cb8d8eb2a8b"
+    source_record_ids: ["e0189c0e-8da9-4e48-9c09-9cb8d8eb2a8b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

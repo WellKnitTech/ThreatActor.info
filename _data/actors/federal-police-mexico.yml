@@ -1,0 +1,16 @@
+name: "Federal Police (Mexico)"
+aliases: ["Federal Police (Mexico)"]
+description: "Intelligence Division of the Federal Police (Division de Inteligencia – CNS / Policia Federal)"
+url: "/federal-police-mexico"
+country: "Mexico"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "abc2b346-ca2f-5765-9569-8b9704ac79ca"
+    source_record_ids: ["abc2b346-ca2f-5765-9569-8b9704ac79ca"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,16 @@
+name: "Defense Security Support Command (page does not exist)"
+aliases: ["Defense Security Support Command (page does not exist)"]
+description: "Defense Security Support Command [ko] (DSSC)"
+url: "/defense-security-support-command-page-does-not-exist"
+country: "South Korea"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "49defa72-e36f-5ccb-b407-704864c547e8"
+    source_record_ids: ["49defa72-e36f-5ccb-b407-704864c547e8"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

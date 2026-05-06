@@ -1,0 +1,15 @@
+name: "Stormous"
+aliases: ["Stormous"]
+description: "Stormous is an actor group known for stealing and selling data and extorting victims.<sup>[[redpiranha.net March 17 2025](/references/9399efb7-e91c-4acb-8b0f-6cde20592198)]</sup> The group announced support for the Russian government during its invasion of Ukraine and has conducted operations against Ukraine and its perceived allies, among a range of other targets.<sup>[[therecord.media April 26 2022](/references/6a67f91a-e2f7-4950-aa26-a63388be59c5)]</sup>"
+url: "/stormous"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories","links","refs"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json","ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "1b76d6eb-ad30-4447-a32c-6e4ca9f28e63"
+    source_record_ids: ["1b76d6eb-ad30-4447-a32c-6e4ca9f28e63","6e20bdd2-31ac-4429-8aa7-4ce8cb7dc7b5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

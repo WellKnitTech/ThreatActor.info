@@ -1,0 +1,19 @@
+name: "Joint Sigint Cyber Unit"
+aliases: ["Joint Sigint Cyber Unit"]
+description: "Joint Sigint Cyber Unit (JSCU)"
+url: "/joint-sigint-cyber-unit"
+country: "Netherlands"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "56eaa0b5-558b-555d-9226-b783b3d3bdd1"
+    source_record_ids: ["56eaa0b5-558b-555d-9226-b783b3d3bdd1"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

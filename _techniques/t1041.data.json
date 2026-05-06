@@ -1,0 +1,130 @@
+{
+  "mitre_id": "T1041",
+  "mitigations": [
+    {
+      "name": "Network Intrusion Prevention",
+      "mitre_id": "M1031",
+      "url": "https://attack.mitre.org/mitigations/M1031",
+      "stix_id": "course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c"
+    },
+    {
+      "name": "Data Loss Prevention",
+      "mitre_id": "M1057",
+      "url": "https://attack.mitre.org/mitigations/M1057",
+      "stix_id": "course-of-action--65401701-019d-44ff-b223-08d520bb0e7b"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Scattered Spider",
+      "url": "/apt1015"
+    },
+    {
+      "name": "LuminousMoth",
+      "url": "/apt1014"
+    },
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    },
+    {
+      "name": "Chimera",
+      "url": "/apt0114"
+    },
+    {
+      "name": "GALLIUM",
+      "url": "/apt0093"
+    },
+    {
+      "name": "Higaisa",
+      "url": "/apt0126"
+    },
+    {
+      "name": "Ke3chang",
+      "url": "/apt0004"
+    },
+    {
+      "name": "APT39",
+      "url": "/apt0087"
+    },
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    },
+    {
+      "name": "Mustang Panda",
+      "url": "/apt0129"
+    },
+    {
+      "name": "APT3",
+      "url": "/apt0022"
+    },
+    {
+      "name": "APT32",
+      "url": "/apt32"
+    },
+    {
+      "name": "Contagious Interview",
+      "url": "/apt1052"
+    },
+    {
+      "name": "WIRTE",
+      "url": "/apt0090"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "ZIRCONIUM",
+      "url": "/apt0128"
+    },
+    {
+      "name": "BlackByte",
+      "url": "/apt1043"
+    },
+    {
+      "name": "Confucius",
+      "url": "/apt0142"
+    },
+    {
+      "name": "Winter Vivern",
+      "url": "/apt1035"
+    },
+    {
+      "name": "Wizard Spider",
+      "url": "/wizard-spider"
+    },
+    {
+      "name": "Agrius",
+      "url": "/apt1030"
+    },
+    {
+      "name": "Leviathan",
+      "url": "/apt40"
+    },
+    {
+      "name": "Gamaredon Group",
+      "url": "/apt0047"
+    },
+    {
+      "name": "MuddyWater",
+      "url": "/apt0069"
+    },
+    {
+      "name": "Stealth Falcon",
+      "url": "/apt0038"
+    },
+    {
+      "name": "CURIUM",
+      "url": "/apt1012"
+    },
+    {
+      "name": "VOID MANTICORE",
+      "url": "/void-manticore"
+    }
+  ]
+}

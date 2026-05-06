@@ -1,0 +1,14 @@
+name: "Saturn"
+aliases: ["Saturn"]
+description: "ransomware"
+url: "/saturn"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "90db5ee9-f2de-47aa-a923-2862800b473b"
+    source_record_ids: ["90db5ee9-f2de-47aa-a923-2862800b473b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

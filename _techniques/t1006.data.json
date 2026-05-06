@@ -1,0 +1,30 @@
+{
+  "mitre_id": "T1006",
+  "mitigations": [
+    {
+      "name": "Behavior Prevention on Endpoint",
+      "mitre_id": "M1040",
+      "url": "https://attack.mitre.org/mitigations/M1040",
+      "stix_id": "course-of-action--90f39ee1-d5a3-4aaa-9f28-3b42815b0d46"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Scattered Spider",
+      "url": "/apt1015"
+    },
+    {
+      "name": "Volt Typhoon",
+      "url": "/apt1017"
+    }
+  ]
+}

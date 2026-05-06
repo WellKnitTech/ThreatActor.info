@@ -1,0 +1,16 @@
+name: "New Zealand Security Intelligence Service"
+aliases: ["New Zealand Security Intelligence Service"]
+description: "New Zealand Security Intelligence Service[20]"
+url: "/new-zealand-security-intelligence-service"
+country: "New Zealand"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "9961afa8-a831-5868-8373-c3a561bd694f"
+    source_record_ids: ["9961afa8-a831-5868-8373-c3a561bd694f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

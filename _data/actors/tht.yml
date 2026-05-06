@@ -1,0 +1,14 @@
+name: "THT"
+aliases: ["THT"]
+description: "ransomware"
+url: "/tht"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "6c01d67f-2d59-45ae-a5ba-decef1f2cc0d"
+    source_record_ids: ["6c01d67f-2d59-45ae-a5ba-decef1f2cc0d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

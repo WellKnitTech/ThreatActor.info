@@ -1,0 +1,14 @@
+name: "Hellcat"
+aliases: ["Hellcat"]
+description: "HellCat is a relatively recent ransomware group first observed in late 2024, known for its data-theft and extortion campaigns targeting high-profile organizations. It operates a double-extortion model, exfiltrating sensitive information and threatening to publish it on its Tor-based leak site if ransom demands are not met. The group has been linked to multiple significant breaches, including incidents involving Schneider Electric and Capgemini, where large volumes of corporate data were allegedly stolen. HellCat’s payloads and leak infrastructure suggest a custom-built platform rather than a widely shared RaaS, and some incidents have involved only data exposure without confirmed encryption events. The group has drawn attention for recruiting or collaborating with high-profile threat actors, including the persona “Grep,” who acts as a public representative in some extortion cases."
+url: "/hellcat"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/hellcat"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "hellcat"
+  source_retrieved_at: "2026-05-06T21:58:46Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

@@ -1,0 +1,83 @@
+{
+  "mitre_id": "T1557",
+  "mitigations": [
+    {
+      "name": "Filter Network Traffic",
+      "mitre_id": "M1037",
+      "url": "https://attack.mitre.org/mitigations/M1037",
+      "stix_id": "course-of-action--20f6a9df-37c4-4e20-9e47-025983b1b39d"
+    },
+    {
+      "name": "Encrypt Sensitive Information",
+      "mitre_id": "M1041",
+      "url": "https://attack.mitre.org/mitigations/M1041",
+      "stix_id": "course-of-action--feff9142-e8c2-46f4-842b-bd6fb3d41157"
+    },
+    {
+      "name": "Limit Access to Resource Over Network",
+      "mitre_id": "M1035",
+      "url": "https://attack.mitre.org/mitigations/M1035",
+      "stix_id": "course-of-action--1dcaeb21-9348-42ea-950a-f842aaf1ae1f"
+    },
+    {
+      "name": "Disable or Remove Feature or Program",
+      "mitre_id": "M1042",
+      "url": "https://attack.mitre.org/mitigations/M1042",
+      "stix_id": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31"
+    },
+    {
+      "name": "User Training",
+      "mitre_id": "M1017",
+      "url": "https://attack.mitre.org/mitigations/M1017",
+      "stix_id": "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a"
+    },
+    {
+      "name": "Network Intrusion Prevention",
+      "mitre_id": "M1031",
+      "url": "https://attack.mitre.org/mitigations/M1031",
+      "stix_id": "course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c"
+    },
+    {
+      "name": "Network Segmentation",
+      "mitre_id": "M1030",
+      "url": "https://attack.mitre.org/mitigations/M1030",
+      "stix_id": "course-of-action--86598de0-b347-4928-9eb0-0acbfc21908c"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1557.003",
+      "name": "DHCP Spoofing",
+      "permalink": "/techniques/T1557.003/"
+    },
+    {
+      "id": "T1557.002",
+      "name": "ARP Cache Poisoning",
+      "permalink": "/techniques/T1557.002/"
+    },
+    {
+      "id": "T1557.001",
+      "name": "Name Resolution Poisoning and SMB Relay",
+      "permalink": "/techniques/T1557.001/"
+    },
+    {
+      "id": "T1557.004",
+      "name": "Evil Twin",
+      "permalink": "/techniques/T1557.004/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Mustang Panda",
+      "url": "/apt0129"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Sea Turtle",
+      "url": "/apt1041"
+    }
+  ]
+}

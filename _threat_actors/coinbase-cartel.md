@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Coinbase Cartel"
-aliases: ["Coinbase Cartel"]
+aliases: ["Coinbase Cartel","coinbase cartel","Storm-2981"]
 description: "Coinbase Cartel is a ransomware threat actor that emerged in September 2025, focusing on data exfiltration rather than encryption, and has claimed over 60 victims, primarily in the healthcare, technolo"
 permalink: /coinbase-cartel/
 ---

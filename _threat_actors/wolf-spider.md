@@ -12,6 +12,8 @@ FIN4 is a financially-motivated threat group that has targeted confidential info
 ## Activities and Tactics
 **Targeted Sectors**: Health, Finance, Pharmacy
 
+**Country of Origin**: 🇷🇴 Romania
+
 **Risk Level**: High
 
 
@@ -30,7 +32,8 @@ FIN4 is a financially-motivated threat group that has targeted confidential info
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Romania
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

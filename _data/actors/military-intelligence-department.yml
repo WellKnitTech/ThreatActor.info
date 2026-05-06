@@ -1,0 +1,17 @@
+name: "Military Intelligence Department"
+aliases: ["Military Intelligence Department"]
+description: "Military Intelligence Department"
+url: "/military-intelligence-department"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RTM"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "8d973c17-1788-5525-8770-8ddf93ce9ca9"
+    source_record_ids: ["8d973c17-1788-5525-8770-8ddf93ce9ca9"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

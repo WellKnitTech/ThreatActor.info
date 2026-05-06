@@ -1,0 +1,22 @@
+name: "BlackLock Ransomware Operators"
+aliases: ["BlackLock Ransomware Operators"]
+description: "Security researchers have described BlackLock as a \"rebranding\" of the Eldorado ransomware operation.<sup>[[Resecurity BlackLock March 25 2025](/references/2977c45f-3a7a-42ae-be59-378aa288dc24)]</sup> Unless otherwise noted, this object uses details from the existing \"Eldorado Ransomware Operators\" Group object."
+url: "/blacklock-ransomware-operators"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "BlackEnergy"
+  - name: "BLACKCOFFEE"
+  - name: "Blackshades"
+  - name: "BlackNix"
+  - name: "Archelaus Beta"
+  - name: "BlackHole"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "fea2db0e-e6a6-44f1-9b5a-2d00744c388b"
+    source_record_ids: ["fea2db0e-e6a6-44f1-9b5a-2d00744c388b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

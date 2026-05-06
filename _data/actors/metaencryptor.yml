@@ -1,0 +1,14 @@
+name: "Metaencryptor"
+aliases: ["Metaencryptor"]
+description: "We are a group of young people who identify themselves as specialists in the field of network security with at least 15 years of experience. This blog and this work are ONLY commercial use, besides not the main one. We have nothing to do with politics, intelligence agencies and the NSB. If you are a hunter of other people's data, then download any files and (or) wait until the time expires for others and the files will be available here. If you have any personal suggestions, we are ready to consider them. Contact us on the \"contacts\" page. There are a lot of other data, for various reasons, not posted here and we can discuss their sale or transfer under certain conditions. Also, every incident is notified to all possible press in the region and data not intended for sale is transmitted to breached and similar forums. Subscribe to RSS, add to favorites, visit us more often."
+url: "/metaencryptor"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/metaencryptor"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "metaencryptor"
+  source_retrieved_at: "2026-05-06T22:01:05Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

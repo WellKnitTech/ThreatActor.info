@@ -1,0 +1,17 @@
+name: "UAC-0098"
+aliases: ["UAC-0098"]
+description: "UAC-0098 is believed to be an initial access broker who originally delivered malware like IcedID and Cobalt Strike for financial gain, but who has appeared to shift its operations to more politically aligned activity, such as compromising government, humanitarian, and non-profit organizations related to Ukraine and other European entities.<sup>[[Google TAG Ukraine IABs September 7 2022](/references/848da19d-b02d-4b78-b3c1-a72d5034fd45)]</sup>"
+url: "/uac-0098"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Cobalt Strike"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "9d665cc1-8ecc-4064-8221-c74bd6ffd97a"
+    source_record_ids: ["9d665cc1-8ecc-4064-8221-c74bd6ffd97a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

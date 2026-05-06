@@ -1,0 +1,47 @@
+{
+  "mitre_id": "T1027.003",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Earth Lusca",
+      "url": "/apt1006"
+    },
+    {
+      "name": "APT37",
+      "url": "/apt0067"
+    },
+    {
+      "name": "TA551",
+      "url": "/apt0127"
+    },
+    {
+      "name": "Leviathan",
+      "url": "/apt40"
+    },
+    {
+      "name": "MuddyWater",
+      "url": "/apt0069"
+    },
+    {
+      "name": "APT-C-36",
+      "url": "/apt0099"
+    },
+    {
+      "name": "Andariel",
+      "url": "/apt0138"
+    },
+    {
+      "name": "Tropic Trooper",
+      "url": "/apt0081"
+    },
+    {
+      "name": "BRONZE BUTLER",
+      "url": "/apt0060"
+    }
+  ]
+}

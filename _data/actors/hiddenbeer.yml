@@ -1,0 +1,14 @@
+name: "HiddenBeer"
+aliases: ["HiddenBeer"]
+description: "ransomware"
+url: "/hiddenbeer"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "7c2a199e-1ed6-4820-a3e2-80c45ff6f709"
+    source_record_ids: ["7c2a199e-1ed6-4820-a3e2-80c45ff6f709"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

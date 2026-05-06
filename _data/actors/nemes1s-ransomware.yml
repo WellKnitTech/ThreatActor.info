@@ -1,0 +1,15 @@
+name: "NemeS1S Ransomware"
+aliases: ["NemeS1S Ransomware"]
+description: "Ransomware as a Service"
+url: "/nemes1s-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "3ac0f41e-72e0-11e8-85a8-f7ae254ab629"
+    source_record_ids: ["3ac0f41e-72e0-11e8-85a8-f7ae254ab629"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

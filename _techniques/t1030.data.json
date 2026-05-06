@@ -1,0 +1,36 @@
+{
+  "mitre_id": "T1030",
+  "mitigations": [
+    {
+      "name": "Network Intrusion Prevention",
+      "mitre_id": "M1031",
+      "url": "https://attack.mitre.org/mitigations/M1031",
+      "stix_id": "course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Play",
+      "url": "/play"
+    },
+    {
+      "name": "LuminousMoth",
+      "url": "/apt1014"
+    },
+    {
+      "name": "Threat Group-3390",
+      "url": "/apt0027"
+    },
+    {
+      "name": "APT28",
+      "url": "/apt28"
+    },
+    {
+      "name": "APT41",
+      "url": "/apt41"
+    }
+  ]
+}

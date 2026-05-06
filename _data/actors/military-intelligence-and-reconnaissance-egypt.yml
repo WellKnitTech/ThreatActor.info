@@ -1,0 +1,16 @@
+name: "Military intelligence and reconnaissance (Egypt)"
+aliases: ["Military intelligence and reconnaissance (Egypt)"]
+description: "Idarat al-Mukhabarat al-Harbyya wa al-Istitla (OMIR) (Office of Military Intelligence and Reconnaissance)"
+url: "/military-intelligence-and-reconnaissance-egypt"
+country: "Egypt"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "23b76b82-9b6c-5703-a4b1-3c636ce7e998"
+    source_record_ids: ["23b76b82-9b6c-5703-a4b1-3c636ce7e998"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

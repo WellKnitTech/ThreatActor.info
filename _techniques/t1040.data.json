@@ -1,0 +1,66 @@
+{
+  "mitre_id": "T1040",
+  "mitigations": [
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    },
+    {
+      "name": "Multi-factor Authentication",
+      "mitre_id": "M1032",
+      "url": "https://attack.mitre.org/mitigations/M1032",
+      "stix_id": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0"
+    },
+    {
+      "name": "Encrypt Sensitive Information",
+      "mitre_id": "M1041",
+      "url": "https://attack.mitre.org/mitigations/M1041",
+      "stix_id": "course-of-action--feff9142-e8c2-46f4-842b-bd6fb3d41157"
+    },
+    {
+      "name": "Network Segmentation",
+      "mitre_id": "M1030",
+      "url": "https://attack.mitre.org/mitigations/M1030",
+      "stix_id": "course-of-action--86598de0-b347-4928-9eb0-0acbfc21908c"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Velvet Ant",
+      "url": "/apt1047"
+    },
+    {
+      "name": "Salt Typhoon",
+      "url": "/apt1045"
+    },
+    {
+      "name": "APT33",
+      "url": "/apt0064"
+    },
+    {
+      "name": "UNC3886",
+      "url": "/apt1048"
+    },
+    {
+      "name": "DarkVishnya",
+      "url": "/apt0105"
+    },
+    {
+      "name": "APT28",
+      "url": "/apt28"
+    }
+  ]
+}

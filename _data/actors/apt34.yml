@@ -1,9 +1,11 @@
 name: "APT34"
-aliases: ["APT34","COBALT GYPSY","Crambus","Earth Simnavaz","EUROPIUM","Evasive Serpens","Hazel Sandstorm","Helix Kitten","IRN2","ITG13","OilRig","TA452"]
+aliases: ["APT34","COBALT GYPSY","Crambus","Earth Simnavaz","EUROPIUM","Evasive Serpens","Hazel Sandstorm","Helix Kitten","IRN2","ITG13","OilRig","TA452","Twisted Kitten","Cobalt Gypsy","APT 34","ATK40","G0049"]
 description: "OilRig is a suspected Iranian threat group that has targeted Middle Eastern and international victims since at least 2014. The group has targeted a variety of sectors, including financial, government, energy, chemical, and telecommunications. It appears the group carries out supply chain attacks, leveraging the trust relationship between organizations to attack their primary targets. The group works on behalf of the Iranian government based on infrastructure details that contain references to Iran, use of Iranian infrastructure, and targeting that aligns with nation-state interests. [FireEye APT34 Dec 2017](https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html) [Palo Alto OilRig April 2017](http://researchcenter.paloaltonetworks.com/2017/04/unit42-oilrig-actors-provide-glimpse-development-testing-efforts/) [ClearSky OilRig Jan 2017](http://www.clearskysec.com/oilrig/) [Palo Alto OilRig May 2016](http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/) [Palo Alto OilRig Oct 2016](http://researchcenter.paloaltonetworks.com/2016/10/unit42-oilrig-malware-campaign-updates-toolset-and-expands-targets/) [Unit42 OilRig Playbook 2023](https://pan-unit42.github.io/playbook_viewer/?pb=evasive-serpens) [Unit 42 QUADAGENT July 2018](https://researchcenter.paloaltonetworks.com/2018/07/unit42-oilrig-targets-technology-service-provider-government-agency-quadagent/)"
 url: "/apt34"
 country: "Iran"
-sector_focus: ["Energy","Government","Telecommunications"]
+sector_focus: ["Energy","Government","Telecommunications","Chemical","Engineering","Finance","Government, Administration","Telecoms","Other","Private sector","Civil society"]
+targeted_victims: ["Israel","Kuwait","United States","Turkey","Saudi Arabia","Qatar","Lebanon","Middle East"]
+incident_type: "Espionage"
 first_seen: "2014"
 last_activity: "2024"
 risk_level: "High"
@@ -11,8 +13,18 @@ external_id: "G0049"
 external_url: "https://attack.mitre.org/groups/G0049"
 mitre_id: "G0049"
 mitre_url: "https://attack.mitre.org/groups/G0049"
+source_name: "Malpedia (Fraunhofer FKIE)"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/oilrig"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "oilrig"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/oilrig"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "42be2a84-5a5c-4c6d-9864-3f09d75bb0ba"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0049"

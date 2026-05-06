@@ -1,0 +1,14 @@
+name: "Nulltica"
+aliases: ["Nulltica"]
+description: "ransomware"
+url: "/nulltica"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "619ccdda-2f40-48fe-9492-dd12c70a4029"
+    source_record_ids: ["619ccdda-2f40-48fe-9492-dd12c70a4029"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "Hermes Ransomware"
+aliases: ["Hermes Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc.. Filemarker: \"HERMES\""
+url: "/hermes-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","ransomnotes","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b7102922-8aad-4b29-8518-6d87c3ba45bb"
+    source_record_ids: ["b7102922-8aad-4b29-8518-6d87c3ba45bb"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

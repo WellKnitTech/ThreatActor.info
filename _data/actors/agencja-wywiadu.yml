@@ -1,0 +1,16 @@
+name: "Agencja Wywiadu"
+aliases: ["Agencja Wywiadu"]
+description: "Foreign Intelligence Agency - Agencja Wywiadu (AW)"
+url: "/agencja-wywiadu"
+country: "Poland"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "15e0bae7-4021-5223-9b15-53fcc216722c"
+    source_record_ids: ["15e0bae7-4021-5223-9b15-53fcc216722c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

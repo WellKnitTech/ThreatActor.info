@@ -1,0 +1,14 @@
+name: "Cyclone"
+aliases: ["Cyclone"]
+description: "Ransomware"
+url: "/cyclone"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "67e652fe-2689-41f1-b7fe-1550ec3031ab"
+    source_record_ids: ["67e652fe-2689-41f1-b7fe-1550ec3031ab"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

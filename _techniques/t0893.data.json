@@ -1,0 +1,35 @@
+{
+  "mitre_id": "T0893",
+  "mitigations": [
+    {
+      "name": "Encrypt Sensitive Information",
+      "mitre_id": "M0941",
+      "url": "https://attack.mitre.org/mitigations/M0941",
+      "stix_id": "course-of-action--9f99fcfd-772e-4e63-9d39-e45612e546dc"
+    },
+    {
+      "name": "Data Loss Prevention",
+      "mitre_id": "M0803",
+      "url": "https://attack.mitre.org/mitigations/M0803",
+      "stix_id": "course-of-action--337c4e2a-21a7-4d9a-bfee-9efd6cebf0e5"
+    },
+    {
+      "name": "Restrict File and Directory Permissions",
+      "mitre_id": "M0922",
+      "url": "https://attack.mitre.org/mitigations/M0922",
+      "stix_id": "course-of-action--f9fcb3ec-6de0-4559-8cd9-ef1c0c7d1971"
+    },
+    {
+      "name": "User Training",
+      "mitre_id": "M0917",
+      "url": "https://attack.mitre.org/mitigations/M0917",
+      "stix_id": "course-of-action--dc61c280-c29d-44e5-a960-c0dd1623d2ba"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

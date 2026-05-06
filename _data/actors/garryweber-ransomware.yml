@@ -1,0 +1,15 @@
+name: "GarryWeber Ransomware"
+aliases: ["GarryWeber Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide. Its original name is FileSpy and FileSpy Application. It is spread using email spam, fake updates, infected attachments and so on.  It encryps all your files, including: music, MS Office, etc.."
+url: "/garryweber-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b6e6da33-bf23-4586-81cf-dcfe10e13a81"
+    source_record_ids: ["b6e6da33-bf23-4586-81cf-dcfe10e13a81"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "Survey"
+aliases: ["Survey"]
+description: "Ransomware Still in development, shows FileIce survey"
+url: "/survey"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "11725992-3634-4715-ae17-b6f5ed13b877"
+    source_record_ids: ["11725992-3634-4715-ae17-b6f5ed13b877"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

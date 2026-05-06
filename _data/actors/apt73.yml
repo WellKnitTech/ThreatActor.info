@@ -1,10 +1,26 @@
 name: "APT73"
-aliases: ["Eraleig","APT73"]
+aliases: ["Eraleig","APT73","Apt73","Eraleign"]
 description: "APT73 is a ransomware group that has publicly identified 12 victims and launched its data leak site on April 25th. The DLS bears a striking resemblance to that of LockBit, likely to leverage LockBit's reputation and attract potential affiliates. The rationale for this design mimicry is unclear, but it may be intended to signal operational parity with LockBit to inspire trust among low-level criminals. APT73 was formed by an alleged former LockBit affiliate following law enforcement's \"Operation Cronos\" in February 2024."
 url: "/apt73"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt73"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Dark DDoSeR"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "apt73"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt73"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "84bf7b38-e120-44c9-bfdd-82740593a6c6"
   misp_galaxy:
+    meta_keys: ["refs","synonyms","group_attack_id","observed_countries","owner","source","tags","target_categories","links"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","tidal-groups.json","ransomware.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "84bf7b38-e120-44c9-bfdd-82740593a6c6"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["84bf7b38-e120-44c9-bfdd-82740593a6c6","6d92a936-42f6-408c-a8e8-238ccb159f48","8855d8b5-7082-5504-aca4-24a83eca1197"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

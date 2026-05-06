@@ -3,9 +3,23 @@ aliases: ["TERBIUM"]
 description: "Microsoft Threat Intelligence identified similarities between this recent attack and previous 2012 attacks against tens of thousands of computers belonging to organizations in the energy sector. Microsoft Threat Intelligence refers to the activity group behind these attacks as TERBIUM, following our internal practice of assigning rogue actors chemical element names."
 url: "/terbium"
 sector_focus: ["Energy"]
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/terbium"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "terbium"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/terbium"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "46670c51-fea4-45d6-bdd4-62e85a5c7404"
   misp_galaxy:
+    meta_keys: ["refs","targeted-sector"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "46670c51-fea4-45d6-bdd4-62e85a5c7404"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["46670c51-fea4-45d6-bdd4-62e85a5c7404","99784b80-6298-45ba-885c-0ed37bfd8324"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

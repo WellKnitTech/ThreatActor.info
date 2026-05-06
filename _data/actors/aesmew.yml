@@ -1,0 +1,14 @@
+name: "AESMew"
+aliases: ["AESMew"]
+description: "ransomware"
+url: "/aesmew"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e9cd52e1-b3e0-4da9-b969-4a3947f3f6bf"
+    source_record_ids: ["e9cd52e1-b3e0-4da9-b969-4a3947f3f6bf"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

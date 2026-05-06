@@ -27,6 +27,11 @@ jobs:
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
+    
+    - name: Clean stale threat-actor markdown files
+      run: |
+        git clean -fd _threat_actors/ 2>/dev/null || true
+        rm -f _threat_actors/{nagini-ransomware,sigrun-ransomware,trumplocker-ransomware,yashma}.md
 
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
@@ -36,11 +41,6 @@ jobs:
 
     - name: Install dependencies
       run: bundle install
-
-    - name: Clean stale threat-actor markdown files
-      run: |
-        git clean -fd _threat_actors/ 2>/dev/null || true
-        rm -f _threat_actors/{nagini-ransomware,sigrun-ransomware,trumplocker-ransomware,yashma}.md
 
     - name: Run automated source imports
       env:

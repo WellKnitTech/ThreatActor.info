@@ -1,0 +1,14 @@
+name: "Consciousness"
+aliases: ["Consciousness"]
+description: "ransomware"
+url: "/consciousness"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "784c93bb-4522-4988-92c0-fef89ff6086d"
+    source_record_ids: ["784c93bb-4522-4988-92c0-fef89ff6086d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

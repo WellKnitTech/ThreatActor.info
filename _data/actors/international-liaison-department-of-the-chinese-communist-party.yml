@@ -1,0 +1,18 @@
+name: "International Liaison Department of the Chinese Communist Party"
+aliases: ["International Liaison Department of the Chinese Communist Party"]
+description: "International Department (ID)"
+url: "/international-liaison-department-of-the-chinese-communist-party"
+country: "China"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RTM"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "c0c8ba22-6d03-5a18-9d88-0f55cef2ca53"
+    source_record_ids: ["c0c8ba22-6d03-5a18-9d88-0f55cef2ca53"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

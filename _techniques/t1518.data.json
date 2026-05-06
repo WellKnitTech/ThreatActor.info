@@ -1,0 +1,64 @@
+{
+  "mitre_id": "T1518",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+    {
+      "id": "T1518.001",
+      "name": "Security Software Discovery",
+      "permalink": "/techniques/T1518.001/"
+    },
+    {
+      "id": "T1518.002",
+      "name": "Backup Software Discovery",
+      "permalink": "/techniques/T1518.002/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Volt Typhoon",
+      "url": "/apt1017"
+    },
+    {
+      "name": "Windigo",
+      "url": "/apt0124"
+    },
+    {
+      "name": "Inception",
+      "url": "/apt0100"
+    },
+    {
+      "name": "BRONZE BUTLER",
+      "url": "/apt0060"
+    },
+    {
+      "name": "Windshift",
+      "url": "/apt0112"
+    },
+    {
+      "name": "MuddyWater",
+      "url": "/apt0069"
+    },
+    {
+      "name": "SideCopy",
+      "url": "/apt1008"
+    },
+    {
+      "name": "Sidewinder",
+      "url": "/apt0121"
+    },
+    {
+      "name": "Mustang Panda",
+      "url": "/apt0129"
+    },
+    {
+      "name": "HEXANE",
+      "url": "/apt1001"
+    },
+    {
+      "name": "Tropic Trooper",
+      "url": "/apt0081"
+    }
+  ]
+}

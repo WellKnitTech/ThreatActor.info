@@ -1,0 +1,15 @@
+name: "crypt ransomware"
+aliases: ["crypt ransomware"]
+description: ".crYpt \r<br/>MD5: 54EFAC23D7B524D56BEDBCE887E11849\r<br/>\r<br/>Babuk Variant"
+url: "/crypt-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "334e8177-8c01-501d-a99a-9ab481c1ce15"
+    source_record_ids: ["334e8177-8c01-501d-a99a-9ab481c1ce15"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

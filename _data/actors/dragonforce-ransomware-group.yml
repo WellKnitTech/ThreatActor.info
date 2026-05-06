@@ -1,0 +1,17 @@
+name: "DragonForce Ransomware Group"
+aliases: ["DragonForce Ransomware Group"]
+description: "DragonForce operates a Ransomware-as-a-Service (RaaS) affiliate program using two ransomware variants: LockBit 3.0 and a modified ContiV3. The group uses double extortion tactics, encrypting data and threatening to leak it unless paid. Launched in June 2024, the program offers affiliates 80% of ransoms and tools to manage attacks. Affiliates can customize ransomware, disable security, and set encryption parameters. DragonForce employs the BYOVD technique to disable security processes and erases Windows logs to hinder investigations.<sup>[[Group-IB DragonForce September 25 2024](/references/28279a56-60e8-4e88-9627-accc969fa48c)]</sup>"
+url: "/dragonforce-ransomware-group"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Windows Remote Desktop"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "a58f147b-1f02-427d-a375-c4246335cb20"
+    source_record_ids: ["a58f147b-1f02-427d-a375-c4246335cb20"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,14 @@
+name: "Embargo"
+aliases: ["Embargo"]
+description: "Embargo is a Ransomware-as-a-Service (RaaS) operation first observed in May 2024. It employs a double-extortion model, encrypting victim data while exfiltrating sensitive files for publication on a Tor-based leak site. Embargo uses a Rust-based payload that leverages AES-256 and RSA-4096 encryption, deletes volume shadow copies, and disables recovery features to prevent restoration. Its targeting appears opportunistic but has included sectors such as finance, manufacturing, and professional services across North America, Europe, and Asia. The ransomware’s customization options, negotiation portal, and leak infrastructure suggest a closed affiliate model with a focus on operational security."
+url: "/embargo"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/embargo"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "embargo"
+  source_retrieved_at: "2026-05-06T21:55:24Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

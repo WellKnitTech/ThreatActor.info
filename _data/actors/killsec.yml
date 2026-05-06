@@ -1,5 +1,5 @@
 name: "Killsec"
-aliases: ["Killsec"]
+aliases: ["Killsec","KillSec","killsec"]
 description: "Killsec is an active extortion or ransomware group tracked by RansomLook."
 url: "/killsec"
 source_name: "RansomLook"
@@ -7,7 +7,20 @@ source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0
 source_record_url: "https://www.ransomlook.io/group/killsec"
 source_license: "CC BY 4.0"
 source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+malware:
+  - name: "CyberGate"
+  - name: "Dark DDoSeR"
+  - name: "Cyber Eye RAT"
+  - name: "Archelaus Beta"
 provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories","links","refs"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json","ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "0ed0c954-780d-46a7-a955-f1f4dc91f0ac"
+    source_record_ids: ["0ed0c954-780d-46a7-a955-f1f4dc91f0ac","f2eeb8ab-160c-5e4a-bf04-bc93cff90622"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "killsec"
   source_retrieved_at: "2026-04-26T02:09:03Z"

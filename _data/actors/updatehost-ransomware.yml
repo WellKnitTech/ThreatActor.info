@@ -1,0 +1,15 @@
+name: "UpdateHost Ransomware"
+aliases: ["UpdateHost Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc.. Poses as Microsoft Copyright 2017 and requests ransom in bitcoins."
+url: "/updatehost-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ed5b30b0-2949-410a-bc4c-3d90de93d033"
+    source_record_ids: ["ed5b30b0-2949-410a-bc4c-3d90de93d033"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

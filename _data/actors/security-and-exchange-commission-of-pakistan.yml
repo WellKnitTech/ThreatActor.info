@@ -1,0 +1,16 @@
+name: "Security and Exchange Commission of Pakistan"
+aliases: ["Security and Exchange Commission of Pakistan"]
+description: "Security and Exchange Commission Pakistan (SECP)"
+url: "/security-and-exchange-commission-of-pakistan"
+country: "Pakistan"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "4ef7a4c7-484c-573e-917f-a6fb70b98ed7"
+    source_record_ids: ["4ef7a4c7-484c-573e-917f-a6fb70b98ed7"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "faust"
+aliases: ["faust"]
+description: "Faust is a variant of the well-known Phobos ransomware, part of a Ransomware-as-a-Service (RaaS) ecosystem active since around May 2019. Faust employs a double-extortion model, encrypting victim files and threatening to release stolen data if ransom demands are not met. It's distributed via Office document payloads using VBA scripts and known for its fileless attack delivery, enabling stealth and evasion."
+url: "/faust"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "a07a983c-e42b-5d38-abe6-2ebeaefde984"
+    source_record_ids: ["a07a983c-e42b-5d38-abe6-2ebeaefde984"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

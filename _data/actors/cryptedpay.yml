@@ -1,0 +1,14 @@
+name: "Cryptedpay"
+aliases: ["Cryptedpay"]
+description: "CryptedPay is a standalone ransomware strain observed around early 2025, that encrypts files using AES-256 and appends the .CRYPTEDPAY extension. Victims receive a ransom note (README.txt), have their desktop wallpaper changed, and are instructed to pay approximately $280 in Monero (XMR). The ransomware imposes a 62-hour deadline, threatening permanent file loss if not paid."
+url: "/cryptedpay"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/cryptedpay"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "cryptedpay"
+  source_retrieved_at: "2026-05-06T21:57:04Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

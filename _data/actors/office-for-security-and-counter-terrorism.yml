@@ -1,0 +1,16 @@
+name: "Office for Security and Counter-Terrorism"
+aliases: ["Office for Security and Counter-Terrorism"]
+description: "Office for Security and Counter-Terrorism (OSCT) – Counter terrorism and protecting critical national infrastructure."
+url: "/office-for-security-and-counter-terrorism"
+country: "United Kingdom"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "adacd20b-c8d5-5a03-845c-580d95d14bbb"
+    source_record_ids: ["adacd20b-c8d5-5a03-845c-580d95d14bbb"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

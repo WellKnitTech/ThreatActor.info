@@ -1,0 +1,16 @@
+name: "Directorate General of Customs and Excise (Indonesia)"
+aliases: ["Sub-Direktorat Intelijen Direktorat Jenderal Bea Cukai","Directorate General of Customs and Excise (Indonesia)"]
+description: "Customs & Excise Sub-Directorate of Intelligence – Sub-Direktorat Intelijen Direktorat Jenderal Bea Cukai"
+url: "/directorate-general-of-customs-and-excise-indonesia"
+country: "Indonesia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "28eedece-7739-53df-b2e5-29efd8a6942f"
+    source_record_ids: ["28eedece-7739-53df-b2e5-29efd8a6942f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

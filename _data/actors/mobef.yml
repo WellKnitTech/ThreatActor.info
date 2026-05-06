@@ -1,0 +1,15 @@
+name: "Mobef"
+aliases: ["Yakes","CryptoBit","Mobef"]
+description: "Ransomware"
+url: "/mobef"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "681f212a-af1b-4e40-a718-81b0dc46dc52"
+    source_record_ids: ["681f212a-af1b-4e40-a718-81b0dc46dc52"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

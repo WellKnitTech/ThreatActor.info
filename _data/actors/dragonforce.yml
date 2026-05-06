@@ -1,5 +1,5 @@
 name: "Dragonforce"
-aliases: ["DragonForce"]
+aliases: ["DragonForce","dragonforce"]
 description: "DragonForce is a ransomware-as-a-service (RaaS) group first identified in late 2023. Originally linked to hacktivist activity, the group pivoted to financially motivated operations by early 2024. Since then, it has accelerated into a highly organized cartel-like network, providing customizable payloads to affiliates, a sophisticated affiliate portal, and shared infrastructure for leak sites and campaigns. The group has targeted a wide range of sectors globally, including major UK retailers such as M&S, Harrods, and Co-op, along with organizations in government, logistics, and manufacturing. Its operations are known for strategic branding flexibility, enabling affiliates to operate under their own labels using DragonForce’s backend services."
 url: "/dragonforce"
 country: "Malaysia"
@@ -11,6 +11,20 @@ source_license: "CC BY 4.0"
 source_license_url: "https://creativecommons.org/licenses/by/4.0/"
 malware: ["CyberGate","Cyber Eye RAT"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "dragonforce"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dragonforce"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "40375ed2-04ec-433f-969d-b9a004c0272e"
+  misp_galaxy:
+    meta_keys: ["country","refs","TTP","links","ransomnotes"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "40375ed2-04ec-433f-969d-b9a004c0272e"
+    source_record_ids: ["40375ed2-04ec-433f-969d-b9a004c0272e","9cd58774-1f45-52dd-9c00-0050151cb093"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   ransomware_tool_matrix:
     source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
     source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"

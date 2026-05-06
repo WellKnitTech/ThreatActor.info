@@ -1,0 +1,19 @@
+name: "Ghost Ransomware Actors"
+aliases: ["Ghost Ransomware Actors"]
+description: "Ghost actors, located in China, conduct widespread ransomware attacks for financial gain. They target networks with vulnerabilities, affecting organizations across more than 70 countries, including critical infrastructure, schools, healthcare, and more.<sup>[[U.S. CISA Ghost Cring Ransomware February 19 2025](/references/d3b3cebd-3428-4d71-a81e-a7cb6248e3b7)]</sup>"
+url: "/ghost-ransomware-actors"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "China Chopper"
+  - name: "Ghost"
+  - name: "CrossRat"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "9dc09b70-b1c0-45d1-94a8-490943c69166"
+    source_record_ids: ["9dc09b70-b1c0-45d1-94a8-490943c69166"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,14 @@
+name: "ZimbraCryptor"
+aliases: ["ZimbraCryptor"]
+description: "ransomware"
+url: "/zimbracryptor"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ae9ec6c3-570f-41fc-ac18-5b129976727a"
+    source_record_ids: ["ae9ec6c3-570f-41fc-ac18-5b129976727a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

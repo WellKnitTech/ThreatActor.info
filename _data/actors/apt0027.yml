@@ -1,13 +1,51 @@
 name: "Threat Group-3390"
-aliases: ["APT27","BRONZE UNION","Earth Smilodon","Emissary Panda","Iron Tiger","Linen Typhoon","LuckyMouse","TG-3390","Threat Group-3390"]
+aliases: ["APT27","BRONZE UNION","Earth Smilodon","Emissary Panda","Iron Tiger","Linen Typhoon","LuckyMouse","TG-3390","Threat Group-3390","GreedyTaotie","EMISSARY PANDA","TEMP.Hippo","Red Phoenix","Budworm","Group 35","ZipToken","Lucky Mouse","G0027","Iron Taurus","Circle Typhoon"]
 description: "Threat Group-3390 is a Chinese threat group that has extensively used strategic Web compromises to target victims. [Dell TG-3390](https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage) The group has been active since at least 2010 and has targeted organizations in the aerospace, government, defense, technology, energy, manufacturing and gambling/betting sectors. [SecureWorks BRONZE UNION June 2017](https://www.secureworks.com/research/bronze-union) [Securelist LuckyMouse June 2018](https://securelist.com/luckymouse-hits-national-data-center/86083/) [Trend Micro DRBControl February 2020](https://documents.trendmicro.com/assets/white_papers/wp-uncovering-DRBcontrol.pdf)"
 url: "/apt0027"
+country: "China"
+sector_focus: ["Technology","Government, Administration","Defense","Government","Private sector"]
+targeted_victims: ["United States","United Kingdom","France","Japan","Taiwan","India","Canada","China","Thailand","Israel","Australia","South Korea","Russia","Iran","Turkey"]
+incident_type: "Espionage"
+first_seen: "2015"
+last_activity: "2018"
 external_id: "G0027"
 external_url: "https://attack.mitre.org/groups/G0027"
 mitre_id: "G0027"
 mitre_url: "https://attack.mitre.org/groups/G0027"
+source_name: "MISP Galaxy"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt27"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "SPACESHIP"
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
 provenance:
+  aptnotes:
+    earliest_report_year: "2015"
+    latest_report_year: "2018"
+    report_count: 2
+    sample_links: ["https://app.box.com/s/6j0fm3yepzf11engl7t213zltahujorc","https://app.box.com/s/325jld1s8ymwd8a56jcao39i6cbc1m8g"]
+    sample_titles: ["Threat Group-3390 Targets Organizations For Cyberespionage","LuckyMouse hits national data center to organize country-level waterholing campaign"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Dell Secureworks","Kaspersky"]
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "apt27"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt27"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "834e0acd-d92a-4e38-bb14-dc4159d7cb32"
+  misp_galaxy:
+    meta_keys: ["country","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "79be2f31-5626-425e-844c-fd9c99e38fe5"
+    source_record_ids: ["79be2f31-5626-425e-844c-fd9c99e38fe5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0027"

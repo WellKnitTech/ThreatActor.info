@@ -3,10 +3,24 @@ aliases: ["CL-STA-0049","Jewelbug","REF7707"]
 description: "REF7707 is a cyber campaign targeting government entities, particularly a foreign ministry in South America, utilizing malware families such as FinalDraft, GuidLoader, and PathLoader for persistence and lateral movement. The threat actor employs the Microsoft Graph API for C2 communication, blending malicious traffic with legitimate activity to evade detection. Despite their technical sophistication, REF7707 operators exhibited poor operational security, leading to the exposure of their infrastructure and malware. Their tactics enable the extraction of sensitive data, including passwords and Active Directory information, facilitating ongoing espionage activities."
 url: "/ref7707"
 country: "China"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ref7707"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["CyberGate","Cyber Eye RAT","GraphicBooting"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "ref7707"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ref7707"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "ff080026-9df7-4874-ad04-0c7d4dcb3e7f"
   misp_galaxy:
+    meta_keys: ["country","refs","synonyms"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "ff080026-9df7-4874-ad04-0c7d4dcb3e7f"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["ff080026-9df7-4874-ad04-0c7d4dcb3e7f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

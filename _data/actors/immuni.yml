@@ -1,0 +1,14 @@
+name: "Immuni"
+aliases: ["Immuni"]
+description: "ransomware"
+url: "/immuni"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c2880897-759e-4cbf-8d08-a3418567a33c"
+    source_record_ids: ["c2880897-759e-4cbf-8d08-a3418567a33c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

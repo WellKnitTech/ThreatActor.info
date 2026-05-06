@@ -1,0 +1,20 @@
+name: "dan0n"
+aliases: ["dan0n"]
+description: "dAn0n is a data-extortion actor that first appeared in April 2024. Operating primarily in a leak-focused extortion model, they publish stolen data on a Tor-hosted site rather than encrypting files. Their victims include organizations across sectors like business services, technology, healthcare, transportation, and legal—all largely based in the United States, with a few in Ireland and South Korea. Activity surged in May 2024, landing them in the top 10 most active ransomware actors that month. Despite limited branding efforts, their smaller operational footprint has allowed for swift, targeted breaches that prioritize rapid data exposure over elaborate cryptographic tactics."
+url: "/dan0n"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Small-Net"
+  - name: "UNITEDRAKE"
+  - name: "GraphicBooting"
+  - name: "CrossRat"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "3e099540-9fe5-5e2e-9a48-ed0ec8b35828"
+    source_record_ids: ["3e099540-9fe5-5e2e-9a48-ed0ec8b35828"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

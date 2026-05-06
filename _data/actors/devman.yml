@@ -1,0 +1,14 @@
+name: "Devman"
+aliases: ["Devman"]
+description: "DevMan is a ransomware variant first observed in April 2025. It is a customized derivative of the DragonForce family, leveraging attacker-operated infrastructure for double-extortion, where both data theft and encryption are employed to pressure victims. The threat is highly organized, targeting sectors such as technology, construction, public services, healthcare, and consumer services across Asia, Africa, and Europe."
+url: "/devman"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/devman"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "devman"
+  source_retrieved_at: "2026-05-06T21:56:58Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

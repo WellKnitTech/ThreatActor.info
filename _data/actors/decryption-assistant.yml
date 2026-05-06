@@ -1,0 +1,14 @@
+name: "Decryption Assistant"
+aliases: ["Decryption Assistant"]
+description: "Ransomware"
+url: "/decryption-assistant"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b298b00f-1cc9-4b08-b2a2-8b16cafdee73"
+    source_record_ids: ["b298b00f-1cc9-4b08-b2a2-8b16cafdee73"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

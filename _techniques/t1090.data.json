@@ -1,0 +1,123 @@
+{
+  "mitre_id": "T1090",
+  "mitigations": [
+    {
+      "name": "Filter Network Traffic",
+      "mitre_id": "M1037",
+      "url": "https://attack.mitre.org/mitigations/M1037",
+      "stix_id": "course-of-action--20f6a9df-37c4-4e20-9e47-025983b1b39d"
+    },
+    {
+      "name": "Network Intrusion Prevention",
+      "mitre_id": "M1031",
+      "url": "https://attack.mitre.org/mitigations/M1031",
+      "stix_id": "course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c"
+    },
+    {
+      "name": "SSL/TLS Inspection",
+      "mitre_id": "M1020",
+      "url": "https://attack.mitre.org/mitigations/M1020",
+      "stix_id": "course-of-action--7bb5fae9-53ad-4424-866b-f0ea2a8b731d"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1090.001",
+      "name": "Internal Proxy",
+      "permalink": "/techniques/T1090.001/"
+    },
+    {
+      "id": "T1090.003",
+      "name": "Multi-hop Proxy",
+      "permalink": "/techniques/T1090.003/"
+    },
+    {
+      "id": "T1090.004",
+      "name": "Domain Fronting",
+      "permalink": "/techniques/T1090.004/"
+    },
+    {
+      "id": "T1090.002",
+      "name": "External Proxy",
+      "permalink": "/techniques/T1090.002/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Volt Typhoon",
+      "url": "/apt1017"
+    },
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    },
+    {
+      "name": "Turla",
+      "url": "/apt0010"
+    },
+    {
+      "name": "CopyKittens",
+      "url": "/apt0052"
+    },
+    {
+      "name": "MirrorFace",
+      "url": "/mirrorface"
+    },
+    {
+      "name": "LAPSUS$",
+      "url": "/apt1004"
+    },
+    {
+      "name": "Blue Mockingbird",
+      "url": "/apt0108"
+    },
+    {
+      "name": "Cinnamon Tempest",
+      "url": "/apt1021"
+    },
+    {
+      "name": "MoustachedBouncer",
+      "url": "/apt1019"
+    },
+    {
+      "name": "Windigo",
+      "url": "/apt0124"
+    },
+    {
+      "name": "POLONIUM",
+      "url": "/apt1005"
+    },
+    {
+      "name": "Fox Kitten",
+      "url": "/apt0117"
+    },
+    {
+      "name": "Contagious Interview",
+      "url": "/apt1052"
+    },
+    {
+      "name": "MuddyWater",
+      "url": "/apt0069"
+    },
+    {
+      "name": "Earth Lusca",
+      "url": "/apt1006"
+    },
+    {
+      "name": "Scattered Spider",
+      "url": "/apt1015"
+    },
+    {
+      "name": "Magic Hound",
+      "url": "/apt35"
+    },
+    {
+      "name": "APT41",
+      "url": "/apt41"
+    },
+    {
+      "name": "Gamaredon Group",
+      "url": "/apt0047"
+    }
+  ]
+}

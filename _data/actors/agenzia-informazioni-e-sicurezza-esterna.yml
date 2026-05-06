@@ -1,0 +1,16 @@
+name: "Agenzia Informazioni e Sicurezza Esterna"
+aliases: ["Agenzia Informazioni e Sicurezza Esterna"]
+description: "Agenzia Informazioni e Sicurezza Esterna (AISE) - Agency for External Information and Security"
+url: "/agenzia-informazioni-e-sicurezza-esterna"
+country: "Italy"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "501d3d92-f2c8-5c28-9961-882e501c45be"
+    source_record_ids: ["501d3d92-f2c8-5c28-9961-882e501c45be"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,14 @@
+name: "Crying"
+aliases: ["Crying"]
+description: "Ransomware"
+url: "/crying"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "654fdcba-0432-42e4-9ca9-8b89dd9f0d98"
+    source_record_ids: ["654fdcba-0432-42e4-9ca9-8b89dd9f0d98"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

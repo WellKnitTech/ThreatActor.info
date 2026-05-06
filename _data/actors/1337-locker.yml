@@ -1,0 +1,14 @@
+name: "1337-Locker"
+aliases: ["1337-Locker"]
+description: "Ransomware"
+url: "/1337-locker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "a663f830-5722-4798-abcf-6c02cb5ba515"
+    source_record_ids: ["a663f830-5722-4798-abcf-6c02cb5ba515"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

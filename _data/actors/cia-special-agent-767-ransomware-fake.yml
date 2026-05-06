@@ -1,0 +1,15 @@
+name: "CIA Special Agent 767 Ransomware (FAKE!!!)"
+aliases: ["CIA Special Agent 767 Ransomware (FAKE!!!)"]
+description: "It’s directed to English speaking users, therefore is able to infect users all over the world.  It is spread using email spam, fake updates, attachments and so on.  It SUPPOSEDLY encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc… Your files are not really encrypted and nothing actually happens, however the hacker does ask the victim to pay a sum of 100$, after 5 days the sum goes up to 250$ and thereafter to 500$. After the payment is received, the victim gets the following message informing him that he has been fooled and he simply needed to delete the note. https://4.bp.blogspot.com/-T8iSbbGOz84/WFGZEbuRfCI/AAAAAAAACm0/SO8Srwx2UIM3FPZcZl7W76oSDCsnq2vfgCPcB/s1600/code2.jpg"
+url: "/cia-special-agent-767-ransomware-fake"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","payment-method","price","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e479e32e-c884-4ea0-97d3-3c3356135719"
+    source_record_ids: ["e479e32e-c884-4ea0-97d3-3c3356135719"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

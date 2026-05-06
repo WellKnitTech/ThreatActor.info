@@ -1,0 +1,24 @@
+name: "darkrace"
+aliases: ["darkrace","Darkrace group","Darkrace ransomware","Darkrace gang","Darkrace"]
+description: "DarkRace is a moderately destructive ransomware strain observed since 2024. It encrypts files and appends a randomized extension (e.g., .1352FF327) that varies per victim. Implemented as a 32-bit Windows application, it disables antivirus defenses, deletes volume shadow copies, terminates processes, and drops ransom note files for payment negotiation. Technical weaknesses in its encryption have enabled developers to produce a universal decryptor that works against DarkRace and related variants."
+url: "/darkrace"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "DarkRat"
+  - name: "Virus RAT"
+  - name: "Windows Remote Desktop"
+provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
+    tab_name: "unknown"
+  misp_galaxy:
+    meta_keys: ["links","ransomnotes","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b6aa46b3-46f5-522f-931f-b1ac57e8aadc"
+    source_record_ids: ["b6aa46b3-46f5-522f-931f-b1ac57e8aadc"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

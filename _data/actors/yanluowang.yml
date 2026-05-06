@@ -1,0 +1,22 @@
+name: "Yanluowang"
+aliases: ["Yanluowang"]
+description: "Ransomware."
+url: "/yanluowang"
+country: "China"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://darktrace.com/blog/inside-the-yanluowang-leak-organization-members-and-tactics"]
+    source_retrieved_at: "2026-05-06T22:01:17Z"
+    tab_name: "china"
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "476de1fe-d9b7-441a-8cb9-e6648189be3b"
+    source_record_ids: ["476de1fe-d9b7-441a-8cb9-e6648189be3b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

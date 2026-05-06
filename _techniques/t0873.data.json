@@ -1,0 +1,39 @@
+{
+  "mitre_id": "T0873",
+  "mitigations": [
+    {
+      "name": "Restrict File and Directory Permissions",
+      "mitre_id": "M0922",
+      "url": "https://attack.mitre.org/mitigations/M0922",
+      "stix_id": "course-of-action--f9fcb3ec-6de0-4559-8cd9-ef1c0c7d1971"
+    },
+    {
+      "name": "Encrypt Sensitive Information",
+      "mitre_id": "M0941",
+      "url": "https://attack.mitre.org/mitigations/M0941",
+      "stix_id": "course-of-action--9f99fcfd-772e-4e63-9d39-e45612e546dc"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M0947",
+      "url": "https://attack.mitre.org/mitigations/M0947",
+      "stix_id": "course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697"
+    },
+    {
+      "name": "Code Signing",
+      "mitre_id": "M0945",
+      "url": "https://attack.mitre.org/mitigations/M0945",
+      "stix_id": "course-of-action--71eb7dad-07eb-4bbc-9df0-ac57bf2fba4a"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T0873.001",
+      "name": "Siemens Project File Format",
+      "permalink": "/techniques/T0873.001/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

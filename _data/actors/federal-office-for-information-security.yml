@@ -1,0 +1,16 @@
+name: "Federal Office for Information Security"
+aliases: ["Federal Office for Information Security"]
+description: "Bundesamt für Sicherheit in der Informationstechnik (BSI): Federal Office for Information Security"
+url: "/federal-office-for-information-security"
+country: "Germany"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "f9b0eb73-f76e-5807-a94c-0054f8f98b33"
+    source_record_ids: ["f9b0eb73-f76e-5807-a94c-0054f8f98b33"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

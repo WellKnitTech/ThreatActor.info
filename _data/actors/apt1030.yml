@@ -1,13 +1,24 @@
 name: "Agrius"
-aliases: ["Agonizing Serpens","Agrius","AMERICIUM","BlackShadow","Pink Sandstorm"]
+aliases: ["Agonizing Serpens","Agrius","AMERICIUM","BlackShadow","Pink Sandstorm","DEV-0022","UNC2428","Black Shadow","SPECTRAL KITTEN"]
 description: "Agrius is an Iranian threat actor active since 2020 notable for a series of ransomware and wiper operations in the Middle East, with an emphasis on Israeli targets. [SentinelOne Agrius 2021](https://assets.sentinelone.com/sentinellabs/evol-agrius) [CheckPoint Agrius 2023](https://research.checkpoint.com/2023/agrius-deploys-moneybird-in-targeted-attacks-against-israeli-organizations/) Public reporting has linked Agrius to Iran's Ministry of Intelligence and Security (MOIS). [Microsoft Iran Cyber 2023](https://www.microsoft.com/en-us/security/business/security-insider/wp-content/uploads/2023/05/Iran-turning-to-cyber-enabled-influence-operations-for-greater-effect-05022023.pdf)"
 url: "/apt1030"
+country: "Iran"
 external_id: "G1030"
 external_url: "https://attack.mitre.org/groups/G1030"
 mitre_id: "G1030"
 mitre_url: "https://attack.mitre.org/groups/G1030"
+source_name: "Malpedia (Fraunhofer FKIE)"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/pink_sandstorm"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "pink_sandstorm"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/pink_sandstorm"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "0876c327-c82a-45f7-82fa-267c312ceb05"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1030"

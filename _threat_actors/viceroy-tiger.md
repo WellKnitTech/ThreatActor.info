@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "VICEROY TIGER"
-aliases: ["OPERATION HANGOVER","Donot Team","APT-C-35","SectorE02","Orange Kala","VICEROY TIGER","APTC35"]
+aliases: ["OPERATION HANGOVER","Donot Team","APT-C-35","SectorE02","Orange Kala","VICEROY TIGER","APTC35","Donot","肚脑虫 - APT-C-35"]
 description: "VICEROY TIGER is an adversary with a nexus to India that has historically targeted entities throughout multiple sectors. Older activity targeted multiple sectors and countries; however, since 2015 this"
 permalink: /viceroy-tiger/
 ---

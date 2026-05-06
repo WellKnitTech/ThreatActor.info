@@ -3,12 +3,28 @@ aliases: ["GOLD MELODY","UNC961","Prophet Spider"]
 description: "PROPHET SPIDER is an eCrime actor, active since at least May 2017, that primarily gains access to victims by compromising vulnerable web servers, which commonly involves leveraging a variety of publicly disclosed vulnerabilities. The adversary has likely functioned as an access broker — handing off access to a third party to deploy ransomware — in multiple instances."
 url: "/prophet-spider"
 last_updated: "2026-04-28"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/prophet_spider"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Xploit"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "prophet_spider"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/prophet_spider"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "eb0b100c-8a4e-4859-b6f8-eebd66c3d20c"
   misp_galaxy:
+    meta_keys: ["country","origin:GOLD MELODY","origin:UNC961","refs","synonyms","group_attack_id","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","tidal-groups.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "eb0b100c-8a4e-4859-b6f8-eebd66c3d20c"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["eb0b100c-8a4e-4859-b6f8-eebd66c3d20c","e47b2958-b7c4-4fe1-a006-03137db91963"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   ransomware_tool_matrix:
     actor_roles: ["initial_access_broker"]
     references:

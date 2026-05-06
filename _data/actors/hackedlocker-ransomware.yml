@@ -1,0 +1,15 @@
+name: "HackedLocker Ransomware"
+aliases: ["HackedLocker Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc… NO POINT OF PAYING THE RANSOM—THE HACKER DOES NOT GIVE A DECRYPT AFTERWARDS."
+url: "/hackedlocker-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c2624d8e-da7b-4d94-b06f-363131ddb6ac"
+    source_record_ids: ["c2624d8e-da7b-4d94-b06f-363131ddb6ac"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

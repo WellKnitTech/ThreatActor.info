@@ -1,0 +1,23 @@
+name: "blackbit"
+aliases: ["blackbit"]
+description: "BlackBit ransomware was first observed in August 2022 and is a .NET-based strain that closely mimics the design and functionality of LockBit 3.0, indicating either a fork of LockBit’s leaked builder or deliberate imitation. It uses a double-extortion model, encrypting victim files and threatening to leak stolen data via a Tor-based site. BlackBit employs AES symmetric encryption for file contents and RSA asymmetric encryption for key protection, appending the .BlackBit extension to affected files. The malware also includes features for terminating processes, deleting volume shadow copies, and disabling recovery mechanisms. Initial access vectors are not comprehensively documented but are consistent with phishing, exploitation of vulnerable public-facing services, and the use of compromised credentials. Victims have been identified across various sectors, including technology, manufacturing, and professional services, though its activity level has been far lower than LockBit’s."
+url: "/blackbit"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "BlackEnergy"
+  - name: "BLACKCOFFEE"
+  - name: "Blackshades"
+  - name: "BlackNix"
+  - name: "Xploit"
+  - name: "BlackHole"
+  - name: "CrossRat"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "6832b5ab-bfda-5cd6-8def-83486351f1a3"
+    source_record_ids: ["6832b5ab-bfda-5cd6-8def-83486351f1a3"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,14 @@
+name: "Dispossessor"
+aliases: ["Dispossessor"]
+description: "Dispossessor, active since August 2023, was a data-extortion ransomware-as-a-service group led by the moniker \"Brain\". The group quickly expanded from U.S.-focused attacks to target small and mid-sized organizations globally—across sectors like healthcare, finance, transportation, education, and manufacturing. Their tactics included exploiting weak passwords and lack of multifactor authentication to gain access, followed by data exfiltration and staged extortion: victims were contacted via email or phone with links to proof-video platforms, and exposed on Tor-based leak sites if no payment was made. Many of the organizations targeted (approximately 43 identified) were across diverse countries including the U.S., Canada, Brazil, India, Germany, and more. By mid-2024, international law enforcement—including the FBI, UK National Crime Agency, and German agencies—successfully dismantled their infrastructure."
+url: "/dispossessor"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/dispossessor"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "dispossessor"
+  source_retrieved_at: "2026-05-06T22:00:06Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

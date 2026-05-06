@@ -1,0 +1,35 @@
+{
+  "mitre_id": "T0871",
+  "mitigations": [
+    {
+      "name": "Execution Prevention",
+      "mitre_id": "M0938",
+      "url": "https://attack.mitre.org/mitigations/M0938",
+      "stix_id": "course-of-action--4fa717d9-cabe-47c8-8cdd-86e9e2e37f30"
+    },
+    {
+      "name": "Authorization Enforcement",
+      "mitre_id": "M0800",
+      "url": "https://attack.mitre.org/mitigations/M0800",
+      "stix_id": "course-of-action--e0d38502-decb-481d-ad8b-b8f0a0c330bd"
+    },
+    {
+      "name": "Human User Authentication",
+      "mitre_id": "M0804",
+      "url": "https://attack.mitre.org/mitigations/M0804",
+      "stix_id": "course-of-action--66cfe23e-34b6-4583-b178-ed6a412db2b0"
+    },
+    {
+      "name": "Access Management",
+      "mitre_id": "M0801",
+      "url": "https://attack.mitre.org/mitigations/M0801",
+      "stix_id": "course-of-action--3992ce42-43e9-4bea-b8db-a102ec3ec1e3"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

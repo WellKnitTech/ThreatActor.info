@@ -1,0 +1,14 @@
+name: "CryCryptor"
+aliases: ["CryCryptor"]
+description: "ransomware"
+url: "/crycryptor"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ed6f4c24-a2eb-4395-ae76-4d4992b21f5b"
+    source_record_ids: ["ed6f4c24-a2eb-4395-ae76-4d4992b21f5b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

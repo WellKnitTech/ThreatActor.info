@@ -1,0 +1,15 @@
+name: "Charcoal Stork"
+aliases: ["Charcoal Stork"]
+description: "Charcoal Stork is a threat actor believed to provide content used to fuel malvertising and search engine optimization (SEO) operations, which affiliates ultimately use to deliver malware to victim systems. Charcoal Stork is thought to be financially motivated, operating on a pay-per-install basis.<sup>[[Red Canary March 18 2024](/references/a86131cd-1a42-4222-9d39-221dd6e054ba)]</sup>"
+url: "/charcoal-stork"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "6d23e83f-fd4f-4802-bd01-daff7348741d"
+    source_record_ids: ["6d23e83f-fd4f-4802-bd01-daff7348741d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

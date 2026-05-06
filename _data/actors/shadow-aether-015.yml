@@ -2,10 +2,24 @@ name: "SHADOW-AETHER-015"
 aliases: ["SHADOW-AETHER-015"]
 description: "SHADOW-AETHER-015 is a highly adaptable cybercriminal group known for identity abuse and cloud compromise, primarily targeting identity and access management systems like Okta and Azure AD/Entra ID. They employ sophisticated social engineering techniques, including vishing and help-desk impersonation, to gain access to legitimate credentials. Their operations involve multi-pressure extortion tactics, such as data theft, ransomware, and employee intimidation, while leveraging MFA fatigue and token theft to bypass authentication controls. The group has been linked to the \"0ktapus\" phishing campaign and is most active in English-speaking countries, with a focus on sectors rich in sensitive data."
 url: "/shadow-aether-015"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/shadow-aether-015"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["CloudDuke","CyberGate","Cyber Eye RAT"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "shadow-aether-015"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/shadow-aether-015"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "f5d231d4-8590-4770-b511-e7a44dce59f7"
   misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "f5d231d4-8590-4770-b511-e7a44dce59f7"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["f5d231d4-8590-4770-b511-e7a44dce59f7"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

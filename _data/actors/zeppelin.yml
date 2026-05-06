@@ -1,0 +1,15 @@
+name: "Zeppelin"
+aliases: ["Zeppelin"]
+description: "ransomware"
+url: "/zeppelin"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "bc62429c-1bf7-42c0-997d-d8c2f80355de"
+    source_record_ids: ["bc62429c-1bf7-42c0-997d-d8c2f80355de"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

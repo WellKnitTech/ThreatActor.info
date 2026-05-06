@@ -1,0 +1,18 @@
+name: "Automated Libra"
+aliases: ["Automated Libra"]
+description: "Automated Libra is a South African-based freejacking group that primarily targets cloud platforms offering limited-time trials of cloud resources in order to perform their cryptomining operations.<sup>[[Sysdig October 25 2022](/references/177272f8-2701-4803-ab61-f64afa046127)]</sup><sup>[[Unit 42 December 5 2024](/references/bae298f0-71ac-4841-8670-1b805cc7f9dd)]</sup><sup>[[Free Trial PurpleUrchin](/references/841f397d-d103-56d7-9854-7ce43c684879)]</sup>"
+url: "/automated-libra"
+country: "South Africa"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "CloudDuke"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","group_attack_id","observed_motivations","owner","source","tags"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "5e12e91a-8a8a-4966-8b56-83a152091094"
+    source_record_ids: ["5e12e91a-8a8a-4966-8b56-83a152091094"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,14 @@
+name: "MNS CryptoLocker"
+aliases: ["MNS CryptoLocker"]
+description: "ransomware"
+url: "/mns-cryptolocker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c4461bdf-560d-4f89-a5cb-f0960a720687"
+    source_record_ids: ["c4461bdf-560d-4f89-a5cb-f0960a720687"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

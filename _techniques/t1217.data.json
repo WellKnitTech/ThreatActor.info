@@ -1,0 +1,39 @@
+{
+  "mitre_id": "T1217",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Fox Kitten",
+      "url": "/apt0117"
+    },
+    {
+      "name": "Volt Typhoon",
+      "url": "/apt1017"
+    },
+    {
+      "name": "APT38",
+      "url": "/apt0082"
+    },
+    {
+      "name": "Scattered Spider",
+      "url": "/apt1015"
+    },
+    {
+      "name": "Moonstone Sleet",
+      "url": "/apt1036"
+    },
+    {
+      "name": "Chimera",
+      "url": "/apt0114"
+    }
+  ]
+}

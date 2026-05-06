@@ -1,0 +1,14 @@
+name: "Mikoyan"
+aliases: ["Mikoyan"]
+description: "ransomware"
+url: "/mikoyan"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "dce3f8d4-9381-4b91-8cf5-e33e55a1e199"
+    source_record_ids: ["dce3f8d4-9381-4b91-8cf5-e33e55a1e199"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

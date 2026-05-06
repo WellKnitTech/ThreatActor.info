@@ -1,0 +1,26 @@
+{
+  "mitre_id": "T1481",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+    {
+      "id": "T1481.001",
+      "name": "Dead Drop Resolver",
+      "permalink": "/techniques/T1481.001/"
+    },
+    {
+      "id": "T1481.003",
+      "name": "One-Way Communication",
+      "permalink": "/techniques/T1481.003/"
+    },
+    {
+      "id": "T1481.002",
+      "name": "Bidirectional Communication",
+      "permalink": "/techniques/T1481.002/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

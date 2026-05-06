@@ -1,0 +1,15 @@
+name: "Sage 2.2"
+aliases: ["Sage 2.2"]
+description: "Ransomware Sage 2.2 deletes volume snapshots through vssadmin.exe, disables startup repair, uses process wscript.exe to execute a VBScript, and coordinates the execution of scheduled tasks via schtasks.exe."
+url: "/sage-2-2"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "eacf3aee-ffb1-425a-862f-874e444a218d"
+    source_record_ids: ["eacf3aee-ffb1-425a-862f-874e444a218d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,14 @@
+name: "d4rk4rmy"
+aliases: ["d4rk4rmy"]
+description: "D4rk4rmy is a data-extortion focused threat actor that emerged in mid-2025, targeting high-profile organizations across sectors like financial services, hospitality, and education. It operates primarily through leak site extortion rather than encryption, listing prominent entities—such as Bridgewater Associates, Magellan Financial, Onex Canada Asset Management, Tsai Capital, Casino de Monte-Carlo, and others—on its Tor-based platform. The group has also hit victims in technology, logistics, and university sectors across multiple continents. Their tactic centers on reputation manipulation and public exposure to pressure victims into negotiations."
+url: "/d4rk4rmy"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/d4rk4rmy"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "d4rk4rmy"
+  source_retrieved_at: "2026-05-06T22:00:54Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

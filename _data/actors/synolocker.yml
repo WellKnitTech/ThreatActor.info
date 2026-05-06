@@ -1,0 +1,17 @@
+name: "SynoLocker"
+aliases: ["SynoLocker"]
+description: "Ransomware Exploited Synology NAS firmware directly over WAN"
+url: "/synolocker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Xploit"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "27740d5f-30cf-4c5c-812c-15c0918ce9f0"
+    source_record_ids: ["27740d5f-30cf-4c5c-812c-15c0918ce9f0"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

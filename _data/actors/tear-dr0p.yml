@@ -1,0 +1,14 @@
+name: "Tear Dr0p"
+aliases: ["Tear Dr0p"]
+description: "ransomware"
+url: "/tear-dr0p"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "12622e89-46d4-4cd5-95be-c3a2d12e8a18"
+    source_record_ids: ["12622e89-46d4-4cd5-95be-c3a2d12e8a18"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

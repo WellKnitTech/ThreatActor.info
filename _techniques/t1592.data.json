@@ -1,0 +1,39 @@
+{
+  "mitre_id": "T1592",
+  "mitigations": [
+    {
+      "name": "Pre-compromise",
+      "mitre_id": "M1056",
+      "url": "https://attack.mitre.org/mitigations/M1056",
+      "stix_id": "course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1592.001",
+      "name": "Hardware",
+      "permalink": "/techniques/T1592.001/"
+    },
+    {
+      "id": "T1592.003",
+      "name": "Firmware",
+      "permalink": "/techniques/T1592.003/"
+    },
+    {
+      "id": "T1592.002",
+      "name": "Software",
+      "permalink": "/techniques/T1592.002/"
+    },
+    {
+      "id": "T1592.004",
+      "name": "Client Configurations",
+      "permalink": "/techniques/T1592.004/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Volt Typhoon",
+      "url": "/apt1017"
+    }
+  ]
+}

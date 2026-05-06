@@ -1,0 +1,15 @@
+name: "Antix Ransomware"
+aliases: ["Antix Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc… The ransom is 0.25 bitcoins and the nickname of the hacker is FRC 2016."
+url: "/antix-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","payment-method","price","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "8a7e0615-b9bd-41ab-89f1-62d041350e99"
+    source_record_ids: ["8a7e0615-b9bd-41ab-89f1-62d041350e99"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

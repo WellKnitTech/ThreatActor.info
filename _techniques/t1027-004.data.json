@@ -1,0 +1,27 @@
+{
+  "mitre_id": "T1027.004",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Gamaredon Group",
+      "url": "/apt0047"
+    },
+    {
+      "name": "Rocke",
+      "url": "/apt0106"
+    },
+    {
+      "name": "MuddyWater",
+      "url": "/apt0069"
+    },
+    {
+      "name": "Sea Turtle",
+      "url": "/apt1041"
+    }
+  ]
+}

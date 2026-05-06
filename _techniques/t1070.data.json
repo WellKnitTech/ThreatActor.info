@@ -1,0 +1,83 @@
+{
+  "mitre_id": "T1070",
+  "mitigations": [
+    {
+      "name": "Encrypt Sensitive Information",
+      "mitre_id": "M1041",
+      "url": "https://attack.mitre.org/mitigations/M1041",
+      "stix_id": "course-of-action--feff9142-e8c2-46f4-842b-bd6fb3d41157"
+    },
+    {
+      "name": "Remote Data Storage",
+      "mitre_id": "M1029",
+      "url": "https://attack.mitre.org/mitigations/M1029",
+      "stix_id": "course-of-action--20a2baeb-98c2-4901-bad7-dc62d0a03dea"
+    },
+    {
+      "name": "Restrict File and Directory Permissions",
+      "mitre_id": "M1022",
+      "url": "https://attack.mitre.org/mitigations/M1022",
+      "stix_id": "course-of-action--987988f0-cf86-4680-a875-2f6456ab2448"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1070.004",
+      "name": "File Deletion",
+      "permalink": "/techniques/T1070.004/"
+    },
+    {
+      "id": "T1070.006",
+      "name": "Timestomp",
+      "permalink": "/techniques/T1070.006/"
+    },
+    {
+      "id": "T1070.008",
+      "name": "Clear Mailbox Data",
+      "permalink": "/techniques/T1070.008/"
+    },
+    {
+      "id": "T1070.009",
+      "name": "Clear Persistence",
+      "permalink": "/techniques/T1070.009/"
+    },
+    {
+      "id": "T1070.003",
+      "name": "Clear Command History",
+      "permalink": "/techniques/T1070.003/"
+    },
+    {
+      "id": "T1070.010",
+      "name": "Relocate Malware",
+      "permalink": "/techniques/T1070.010/"
+    },
+    {
+      "id": "T1070.007",
+      "name": "Clear Network Connection History and Configurations",
+      "permalink": "/techniques/T1070.007/"
+    },
+    {
+      "id": "T1070.005",
+      "name": "Network Share Connection Removal",
+      "permalink": "/techniques/T1070.005/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "APT42",
+      "url": "/apt1044"
+    },
+    {
+      "name": "Mustang Panda",
+      "url": "/apt0129"
+    },
+    {
+      "name": "APT5",
+      "url": "/apt1023"
+    },
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    }
+  ]
+}

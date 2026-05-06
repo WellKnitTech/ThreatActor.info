@@ -1,0 +1,15 @@
+name: "BrLock"
+aliases: ["BrLock"]
+description: "Ransomware"
+url: "/brlock"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "889d2296-40d2-49f6-be49-cbdfbcde2246"
+    source_record_ids: ["889d2296-40d2-49f6-be49-cbdfbcde2246"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

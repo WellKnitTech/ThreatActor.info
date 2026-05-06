@@ -1,0 +1,14 @@
+name: "Pizhon"
+aliases: ["Pizhon"]
+description: "ransomware"
+url: "/pizhon"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "7b2f9d2c-d96a-4515-b57d-cc1cff35de3a"
+    source_record_ids: ["7b2f9d2c-d96a-4515-b57d-cc1cff35de3a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,22 @@
+name: "GandCrab"
+aliases: ["GandCrab"]
+description: "A new ransomware called GandCrab was released towards the end of last week that is currently being distributed via exploit kits. GandCrab has some interesting features not seen before in a ransomware, such as being the first to accept the DASH currency and the first to utilize the Namecoin powered .BIT tld. "
+url: "/gandcrab"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "PowerDuke"
+  - name: "POWERSTATS"
+  - name: "Power Loader"
+  - name: "POWERSOURCE"
+  - name: "Xploit"
+  - name: "PowerRAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","extensions","links","payment-method","price","ransomnotes","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "5920464b-e093-4fa0-a275-438dffef228f"
+    source_record_ids: ["5920464b-e093-4fa0-a275-438dffef228f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "Cicada3301 Ransomware Group"
+aliases: ["Cicada3301 Ransomware Group"]
+description: "A suspected ransomware-as-a-service (\"RaaS\") group first observed in June 2024, which extorts victims via traditional ransomware encryption and by threatening to leak allegedly exfiltrated data onto the web.<sup>[[Truesec AB August 30 2024](/references/de2de0a9-17d2-41c2-838b-7850762b80ae)]</sup>"
+url: "/cicada3301-ransomware-group"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "7a28cff6-80df-49e1-8457-a0305e736897"
+    source_record_ids: ["7a28cff6-80df-49e1-8457-a0305e736897"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

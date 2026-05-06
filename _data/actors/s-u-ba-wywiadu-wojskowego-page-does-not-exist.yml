@@ -1,0 +1,16 @@
+name: "Służba Wywiadu Wojskowego (page does not exist)"
+aliases: ["Służba Wywiadu Wojskowego (page does not exist)"]
+description: "Military Intelligence Service - Służba Wywiadu Wojskowego (SWW)"
+url: "/s-u-ba-wywiadu-wojskowego-page-does-not-exist"
+country: "Poland"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "52a88dc4-c0e3-5bad-aed9-7d74288eb5c2"
+    source_record_ids: ["52a88dc4-c0e3-5bad-aed9-7d74288eb5c2"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

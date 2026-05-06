@@ -1,0 +1,15 @@
+name: "Rakhni"
+aliases: ["Agent.iih","Aura","Autoit","Pletor","Rotor","Lamer","Isda","Cryptokluchen","Bandarchor","Rakhni"]
+description: "Ransomware Files might be partially encrypted"
+url: "/rakhni"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c85a41a8-a0a1-4963-894f-84bb980e6e86"
+    source_record_ids: ["c85a41a8-a0a1-4963-894f-84bb980e6e86"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

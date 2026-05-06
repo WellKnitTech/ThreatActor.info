@@ -16,7 +16,9 @@ Groundbait is a group targeting anti-government separatists in the self-declared
 
 **Risk Level**: High
 
+**First Seen**: 2016
 
+**Last Activity**: 2016
 
 
 ## Notable Campaigns
@@ -26,7 +28,7 @@ Groundbait is a group targeting anti-government separatists in the self-declared
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+*No atomic indicators are listed in this profile. The APTnotes snapshot indexes 1 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
 ## Malware and Tools
 *Information pending cataloguing.*

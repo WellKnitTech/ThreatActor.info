@@ -1,0 +1,14 @@
+name: "Crypt0 HT"
+aliases: ["Crypt0 HT"]
+description: "Ransomware"
+url: "/crypt0-ht"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "56cdf22e-2c02-4413-9d5f-e30d458c995c"
+    source_record_ids: ["56cdf22e-2c02-4413-9d5f-e30d458c995c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

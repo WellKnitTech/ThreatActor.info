@@ -1,0 +1,14 @@
+name: "Blackbyte Crux"
+aliases: ["Blackbyte Crux"]
+description: "Crux is a newly identified ransomware variant active since July 2025, which claims affiliation with the established BlackByte ransomware group. It implements a double‑extortion model—encrypting files (with the .crux extension) and threatening data leak via a Tor-based portal. A distinctive feature of Crux is its execution flow: it initiates via svchost.exe, cmd.exe, and bcdedit.exe to disable Windows recovery, followed by rapid file encryption. The ransomware has been confirmed in at least three incidents across sectors including agriculture, education, professional services, media, and nonprofits, in both the U.S. and U.K. Ransom notes consistently follow the naming pattern crux_readme_[random].txt."
+url: "/blackbyte-crux"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/blackbytecrux"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "blackbytecrux"
+  source_retrieved_at: "2026-05-06T21:58:24Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

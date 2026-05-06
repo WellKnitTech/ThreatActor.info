@@ -1,0 +1,14 @@
+name: "Stupid"
+aliases: ["Stupid"]
+description: "ransomware"
+url: "/stupid"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "8371370f-8d53-4e90-95f7-e20540f5d052"
+    source_record_ids: ["8371370f-8d53-4e90-95f7-e20540f5d052"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

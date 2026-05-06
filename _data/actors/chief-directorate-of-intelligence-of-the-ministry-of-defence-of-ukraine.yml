@@ -1,0 +1,16 @@
+name: "Chief directorate of intelligence of the Ministry of Defence of Ukraine"
+aliases: ["Chief directorate of intelligence of the Ministry of Defence of Ukraine"]
+description: "Central Intelligence Directorate – Holovne Upravlinnya Rozvidky (HUR)"
+url: "/chief-directorate-of-intelligence-of-the-ministry-of-defence-of-ukraine"
+country: "Ukraine"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "c912ce81-84b5-5af7-b421-6c49c045bb43"
+    source_record_ids: ["c912ce81-84b5-5af7-b421-6c49c045bb43"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

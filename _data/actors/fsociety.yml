@@ -1,0 +1,15 @@
+name: "FSociety"
+aliases: ["FSociety"]
+description: "Ransomware Based on EDA2 and RemindMe"
+url: "/fsociety"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","links","payment-method","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "d1e7c0d9-3c96-41b7-a4a2-7eaef64d7b0f"
+    source_record_ids: ["d1e7c0d9-3c96-41b7-a4a2-7eaef64d7b0f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,18 @@
+name: "Mr.Dec"
+aliases: ["MrDec","Sherminator","Mr.Dec"]
+description: "Mr. Dec ransomware is cryptovirus that was first spotted in mid-May 2018, and since then was updated multiple times. The ransomware encrypts all personal data on the device with the help of AES encryption algorithm and appends .[ID]random 16 characters[ID] file extension, preventing from their further usage."
+url: "/mr-dec"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Virus RAT"
+  - name: "Revenge-RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "2e8aa6da-00b1-4222-b212-c48a7348893c"
+    source_record_ids: ["2e8aa6da-00b1-4222-b212-c48a7348893c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,17 @@
+name: "LockCrypt"
+aliases: ["LockCrypt"]
+description: "LockCrypt is an example of yet another simple ransomware created and used by unsophisticated attackers. Its authors ignored well-known guidelines about the proper use of cryptography. The internal structure of the application is also unprofessional. Sloppy, unprofessional code is pretty commonplace when ransomware is created for manual distribution. Authors don’t take much time preparing the attack or the payload. Instead, they’re rather focused on a fast and easy gain, rather than on creating something for the long run. Because of this, they could easily be defeated."
+url: "/lockcrypt"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "GraphicBooting"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ac070e9a-3cbe-11e8-9f9d-839e888f2340"
+    source_record_ids: ["ac070e9a-3cbe-11e8-9f9d-839e888f2340"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

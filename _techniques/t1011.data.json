@@ -1,0 +1,27 @@
+{
+  "mitre_id": "T1011",
+  "mitigations": [
+    {
+      "name": "Disable or Remove Feature or Program",
+      "mitre_id": "M1042",
+      "url": "https://attack.mitre.org/mitigations/M1042",
+      "stix_id": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31"
+    },
+    {
+      "name": "Operating System Configuration",
+      "mitre_id": "M1028",
+      "url": "https://attack.mitre.org/mitigations/M1028",
+      "stix_id": "course-of-action--2f316f6c-ae42-44fe-adf8-150989e0f6d3"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1011.001",
+      "name": "Exfiltration Over Bluetooth",
+      "permalink": "/techniques/T1011.001/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

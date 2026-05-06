@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Dragonbridge"
-aliases: ["Spamouflage Dragon","Dragonbridge"]
+aliases: ["Spamouflage Dragon","Dragonbridge","Spamouflage","Taizi Flood"]
 description: "DRAGONBRIDGE is a Chinese state-sponsored threat actor known for engaging in information operations to promote the political interests of the People's Republic of China. They have been observed using A"
 permalink: /dragonbridge/
 ---

@@ -1,0 +1,72 @@
+{
+  "mitre_id": "T1110.003",
+  "mitigations": [
+    {
+      "name": "Multi-factor Authentication",
+      "mitre_id": "M1032",
+      "url": "https://attack.mitre.org/mitigations/M1032",
+      "stix_id": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0"
+    },
+    {
+      "name": "Password Policies",
+      "mitre_id": "M1027",
+      "url": "https://attack.mitre.org/mitigations/M1027",
+      "stix_id": "course-of-action--90c218c3-fbf8-4830-98a7-e8cfb7eaa485"
+    },
+    {
+      "name": "Account Use Policies",
+      "mitre_id": "M1036",
+      "url": "https://attack.mitre.org/mitigations/M1036",
+      "stix_id": "course-of-action--f9f9e6ef-bc0a-41ad-ba11-0924e5e84c4c"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "HAFNIUM",
+      "url": "/apt0125"
+    },
+    {
+      "name": "Agrius",
+      "url": "/apt1030"
+    },
+    {
+      "name": "Ember Bear",
+      "url": "/apt1003"
+    },
+    {
+      "name": "APT29",
+      "url": "/apt29"
+    },
+    {
+      "name": "HEXANE",
+      "url": "/apt1001"
+    },
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    },
+    {
+      "name": "APT33",
+      "url": "/apt0064"
+    },
+    {
+      "name": "Silent Librarian",
+      "url": "/apt0122"
+    },
+    {
+      "name": "Chimera",
+      "url": "/apt0114"
+    },
+    {
+      "name": "Leafminer",
+      "url": "/apt0077"
+    },
+    {
+      "name": "APT28",
+      "url": "/apt28"
+    }
+  ]
+}

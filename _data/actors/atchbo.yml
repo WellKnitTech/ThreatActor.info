@@ -1,0 +1,14 @@
+name: "Atchbo"
+aliases: ["Atchbo"]
+description: "Ransomware"
+url: "/atchbo"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "3e5f91c2-96ca-4056-9043-39fe4327828a"
+    source_record_ids: ["3e5f91c2-96ca-4056-9043-39fe4327828a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

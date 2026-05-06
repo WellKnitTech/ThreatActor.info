@@ -10,7 +10,11 @@ permalink: /313-team/
 313 Team is an Iraq-based threat actor that has conducted coordinated DDoS campaigns targeting multiple government servers in the UAE, Kuwait, and Romania, often in response to political statements. They have claimed responsibility for significant disruptions, including a one-hour shutdown of Romania’s National Tax Agency and an 18-hour outage of Kuwait's national e-government portal. The group has also engaged in website defacements, showcasing coordinated branding with other aligned groups. Their operations reflect a focus on government infrastructure, employing DDoS techniques and leveraging public political discourse as justification for their attacks.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ Iraq
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -25,7 +29,8 @@ permalink: /313-team/
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Iraq
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

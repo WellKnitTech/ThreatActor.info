@@ -1,0 +1,17 @@
+name: "cs-137"
+aliases: ["cs-137"]
+description: "Cs‑137 is a newly observed ransomware strain that first appeared in January 2025. It employs the ChaCha20 cipher for encryption and appends obfuscated filenames with a random 10-character alphanumeric identifier while preserving the original file extension. In its current testing phase, it drops a ransom note with a randomized filename (e.g. ABCDEF-README.txt) and sets a randomly named image file as the desktop wallpaper. The note references a Tor-based extortion portal—though access is not yet active, indicating the operation’s early development stage. The strategy suggests single-extortion behavior, focused on disrupting access rather than data theft or leak threats."
+url: "/cs-137"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "DesktopNow"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c3edddfd-f62f-504d-a0eb-2418ccb8f2d7"
+    source_record_ids: ["c3edddfd-f62f-504d-a0eb-2418ccb8f2d7"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

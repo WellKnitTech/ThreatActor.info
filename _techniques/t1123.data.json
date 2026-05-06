@@ -1,0 +1,19 @@
+{
+  "mitre_id": "T1123",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "VOID MANTICORE",
+      "url": "/void-manticore"
+    },
+    {
+      "name": "APT37",
+      "url": "/apt0067"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+name: "CryptConsole"
+aliases: ["CryptConsole"]
+description: "This ransomware does not actually encrypt your file, but only changes the names of your files, just like Globe Ransomware. This ransomware is spread with the help of email spam, fake ads, fake updates, infected install files"
+url: "/cryptconsole"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "42508fd8-3c2d-44b2-9b74-33c5d82b297d"
+    source_record_ids: ["42508fd8-3c2d-44b2-9b74-33c5d82b297d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,14 @@
+name: "Toxic"
+aliases: ["Toxic"]
+description: "Toxic is an active extortion or ransomware group tracked by RansomLook."
+url: "/toxic"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/toxic"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "toxic"
+  source_retrieved_at: "2026-05-06T21:58:14Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

@@ -1,0 +1,15 @@
+name: "RansomHub Ransomware Actors"
+aliases: ["RansomHub Ransomware Actors"]
+description: "RansomHub is an extortion group that regularly republicizes victim data allegedly stolen in other ransomware groups' attacks, but it is also believed to have developed an original ransomware payload.<sup>[[BroadcomSW June 5 2024](/references/3fa49490-cb22-4362-bf48-eaba9e83e6f5)]</sup><sup>[[The Record RansomHub June 3 2024](/references/1e474240-bd12-4472-8e69-1631b0e4c102)]</sup> This object reflects the ATT&CK Techniques and/or associated Software & Campaigns linked to attacks by actors deploying RansomHub ransomware."
+url: "/ransomhub-ransomware-actors"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "94794e7b-8b54-4be8-885a-fd1009425ed5"
+    source_record_ids: ["94794e7b-8b54-4be8-885a-fd1009425ed5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,14 @@
+name: "Minotaur"
+aliases: ["Minotaur"]
+description: "ransomware"
+url: "/minotaur"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "63f2149a-c736-4a7d-86f9-0993cb568630"
+    source_record_ids: ["63f2149a-c736-4a7d-86f9-0993cb568630"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

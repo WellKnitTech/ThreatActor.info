@@ -1,0 +1,15 @@
+name: "KratosCrypt"
+aliases: ["KratosCrypt"]
+description: "Ransomware kratosdimetrici@gmail.com"
+url: "/kratoscrypt"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "cc819741-830b-4859-bb7c-ccedf3356acd"
+    source_record_ids: ["cc819741-830b-4859-bb7c-ccedf3356acd"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

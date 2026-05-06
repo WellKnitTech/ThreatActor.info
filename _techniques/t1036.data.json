@@ -1,0 +1,197 @@
+{
+  "mitre_id": "T1036",
+  "mitigations": [
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    },
+    {
+      "name": "User Training",
+      "mitre_id": "M1017",
+      "url": "https://attack.mitre.org/mitigations/M1017",
+      "stix_id": "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a"
+    },
+    {
+      "name": "Code Signing",
+      "mitre_id": "M1045",
+      "url": "https://attack.mitre.org/mitigations/M1045",
+      "stix_id": "course-of-action--590777b3-b475-4c7c-aaf8-f4a73b140312"
+    },
+    {
+      "name": "Behavior Prevention on Endpoint",
+      "mitre_id": "M1040",
+      "url": "https://attack.mitre.org/mitigations/M1040",
+      "stix_id": "course-of-action--90f39ee1-d5a3-4aaa-9f28-3b42815b0d46"
+    },
+    {
+      "name": "Restrict File and Directory Permissions",
+      "mitre_id": "M1022",
+      "url": "https://attack.mitre.org/mitigations/M1022",
+      "stix_id": "course-of-action--987988f0-cf86-4680-a875-2f6456ab2448"
+    },
+    {
+      "name": "Antivirus/Antimalware",
+      "mitre_id": "M1049",
+      "url": "https://attack.mitre.org/mitigations/M1049",
+      "stix_id": "course-of-action--a6a47a06-08fc-4ec4-bdc3-20373375ebb9"
+    },
+    {
+      "name": "Execution Prevention",
+      "mitre_id": "M1038",
+      "url": "https://attack.mitre.org/mitigations/M1038",
+      "stix_id": "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1036.008",
+      "name": "Masquerade File Type",
+      "permalink": "/techniques/T1036.008/"
+    },
+    {
+      "id": "T1036.003",
+      "name": "Rename Legitimate Utilities",
+      "permalink": "/techniques/T1036.003/"
+    },
+    {
+      "id": "T1036.006",
+      "name": "Space after Filename",
+      "permalink": "/techniques/T1036.006/"
+    },
+    {
+      "id": "T1036.004",
+      "name": "Masquerade Task or Service",
+      "permalink": "/techniques/T1036.004/"
+    },
+    {
+      "id": "T1036.002",
+      "name": "Right-to-Left Override",
+      "permalink": "/techniques/T1036.002/"
+    },
+    {
+      "id": "T1036.005",
+      "name": "Match Legitimate Resource Name or Location",
+      "permalink": "/techniques/T1036.005/"
+    },
+    {
+      "id": "T1036.011",
+      "name": "Overwrite Process Arguments",
+      "permalink": "/techniques/T1036.011/"
+    },
+    {
+      "id": "T1036.007",
+      "name": "Double File Extension",
+      "permalink": "/techniques/T1036.007/"
+    },
+    {
+      "id": "T1036.010",
+      "name": "Masquerade Account Name",
+      "permalink": "/techniques/T1036.010/"
+    },
+    {
+      "id": "T1036.001",
+      "name": "Invalid Code Signature",
+      "permalink": "/techniques/T1036.001/"
+    },
+    {
+      "id": "T1036.012",
+      "name": "Browser Fingerprint",
+      "permalink": "/techniques/T1036.012/"
+    },
+    {
+      "id": "T1036.009",
+      "name": "Break Process Trees",
+      "permalink": "/techniques/T1036.009/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "menuPass",
+      "url": "/apt0045"
+    },
+    {
+      "name": "APT32",
+      "url": "/apt32"
+    },
+    {
+      "name": "Contagious Interview",
+      "url": "/apt1052"
+    },
+    {
+      "name": "BRONZE BUTLER",
+      "url": "/apt0060"
+    },
+    {
+      "name": "OilRig",
+      "url": "/apt34"
+    },
+    {
+      "name": "Ember Bear",
+      "url": "/apt1003"
+    },
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    },
+    {
+      "name": "Nomadic Octopus",
+      "url": "/apt0133"
+    },
+    {
+      "name": "Agrius",
+      "url": "/apt1030"
+    },
+    {
+      "name": "Aoqin Dragon",
+      "url": "/apt1007"
+    },
+    {
+      "name": "TeamTNT",
+      "url": "/apt0139"
+    },
+    {
+      "name": "LazyScripter",
+      "url": "/apt0140"
+    },
+    {
+      "name": "APT28",
+      "url": "/apt28"
+    },
+    {
+      "name": "ZIRCONIUM",
+      "url": "/apt0128"
+    },
+    {
+      "name": "FIN13",
+      "url": "/apt1016"
+    },
+    {
+      "name": "Windshift",
+      "url": "/apt0112"
+    },
+    {
+      "name": "Storm-1811",
+      "url": "/apt1046"
+    },
+    {
+      "name": "Winter Vivern",
+      "url": "/apt1035"
+    },
+    {
+      "name": "TA551",
+      "url": "/apt0127"
+    },
+    {
+      "name": "PLATINUM",
+      "url": "/apt0068"
+    }
+  ]
+}

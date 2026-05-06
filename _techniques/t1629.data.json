@@ -1,0 +1,55 @@
+{
+  "mitre_id": "T1629",
+  "mitigations": [
+    {
+      "name": "Deploy Compromised Device Detection Method",
+      "mitre_id": "M1010",
+      "url": "https://attack.mitre.org/mitigations/M1010",
+      "stix_id": "course-of-action--cf2cccb1-cab8-431a-8ecf-f7874d05f433"
+    },
+    {
+      "name": "Security Updates",
+      "mitre_id": "M1001",
+      "url": "https://attack.mitre.org/mitigations/M1001",
+      "stix_id": "course-of-action--bcecd036-f40e-4916-9f8e-fd0ccf0ece8d"
+    },
+    {
+      "name": "User Guidance",
+      "mitre_id": "M1011",
+      "url": "https://attack.mitre.org/mitigations/M1011",
+      "stix_id": "course-of-action--653492e3-27be-4a0e-b08c-938dd2b7e0e1"
+    },
+    {
+      "name": "System Partition Integrity",
+      "mitre_id": "M1004",
+      "url": "https://attack.mitre.org/mitigations/M1004",
+      "stix_id": "course-of-action--7b1cf46f-784b-405a-a8dd-4624c19d8321"
+    },
+    {
+      "name": "Enterprise Policy",
+      "mitre_id": "M1012",
+      "url": "https://attack.mitre.org/mitigations/M1012",
+      "stix_id": "course-of-action--649f7268-4c12-483b-ac84-4b7bca9fe2ee"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1629.002",
+      "name": "Device Lockout",
+      "permalink": "/techniques/T1629.002/"
+    },
+    {
+      "id": "T1629.003",
+      "name": "Disable or Modify Tools",
+      "permalink": "/techniques/T1629.003/"
+    },
+    {
+      "id": "T1629.001",
+      "name": "Prevent Application Removal",
+      "permalink": "/techniques/T1629.001/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

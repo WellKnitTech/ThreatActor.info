@@ -1,0 +1,15 @@
+name: "CryptoSweetTooth Ransomware"
+aliases: ["CryptoSweetTooth Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc.. Its fake name is Bitcoin and maker’s name is Santiago. Work of the encrypted requires the user to have .NET Framework 4.5.2. on his computer."
+url: "/cryptosweettooth-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ca831782-fcbf-4984-b04e-d79b14e48a71"
+    source_record_ids: ["ca831782-fcbf-4984-b04e-d79b14e48a71"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

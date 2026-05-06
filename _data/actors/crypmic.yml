@@ -1,0 +1,15 @@
+name: "CrypMIC"
+aliases: ["CrypMIC"]
+description: "Ransomware CryptXXX clone/spinoff"
+url: "/crypmic"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","payment-method","price","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "82cb7a40-0a78-4414-9afd-028d6b3082ea"
+    source_record_ids: ["82cb7a40-0a78-4414-9afd-028d6b3082ea"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

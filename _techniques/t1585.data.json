@@ -1,0 +1,50 @@
+{
+  "mitre_id": "T1585",
+  "mitigations": [
+    {
+      "name": "Pre-compromise",
+      "mitre_id": "M1056",
+      "url": "https://attack.mitre.org/mitigations/M1056",
+      "stix_id": "course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1585.003",
+      "name": "Cloud Accounts",
+      "permalink": "/techniques/T1585.003/"
+    },
+    {
+      "id": "T1585.002",
+      "name": "Email Accounts",
+      "permalink": "/techniques/T1585.002/"
+    },
+    {
+      "id": "T1585.001",
+      "name": "Social Media Accounts",
+      "permalink": "/techniques/T1585.001/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Contagious Interview",
+      "url": "/apt1052"
+    },
+    {
+      "name": "Fox Kitten",
+      "url": "/apt0117"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Ember Bear",
+      "url": "/apt1003"
+    },
+    {
+      "name": "APT17",
+      "url": "/apt0025"
+    }
+  ]
+}

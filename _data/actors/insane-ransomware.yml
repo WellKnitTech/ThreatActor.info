@@ -1,0 +1,18 @@
+name: "insane ransomware"
+aliases: ["insane ransomware"]
+description: "Insane is a relatively obscure ransomware family first reported in late 2021, with few confirmed incidents in public threat intelligence. It encrypts victim files using symmetric encryption (AES) combined with RSA for key protection and appends the .insane extension to affected files. The ransom note, typically named INSANE_README.txt, directs victims to contact the operators via email for decryption instructions. Based on limited reporting, Insane does not appear to operate as a Ransomware-as-a-Service (RaaS) platform; instead, it seems to be deployed by the core operators in targeted attacks. Initial access methods are not well-documented, but suspected vectors include phishing attachments and exploitation of exposed RDP services. The group’s small footprint in open-source intelligence suggests limited distribution or use in highly selective campaigns."
+url: "/insane-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Small-Net"
+  - name: "Xploit"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b90acd97-b7f3-5523-9344-5fe5ebc2f05f"
+    source_record_ids: ["b90acd97-b7f3-5523-9344-5fe5ebc2f05f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

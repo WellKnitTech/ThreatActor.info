@@ -1,0 +1,14 @@
+name: "AAC"
+aliases: ["AAC"]
+description: "Ransomware"
+url: "/aac"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "37479546-7993-4232-9766-de19b0755bc3"
+    source_record_ids: ["37479546-7993-4232-9766-de19b0755bc3"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

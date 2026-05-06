@@ -1,0 +1,14 @@
+name: "Satan Cryptor 2.0"
+aliases: ["Satan Cryptor 2.0"]
+description: "ransomware"
+url: "/satan-cryptor-2-0"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "120b33e8-75e2-45bd-b7ba-6726ed2a4ad7"
+    source_record_ids: ["120b33e8-75e2-45bd-b7ba-6726ed2a4ad7"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

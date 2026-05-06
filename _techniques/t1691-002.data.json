@@ -1,0 +1,29 @@
+{
+  "mitre_id": "T1691.002",
+  "mitigations": [
+    {
+      "name": "Out-of-Band Communications Channel",
+      "mitre_id": "M0810",
+      "url": "https://attack.mitre.org/mitigations/M0810",
+      "stix_id": "course-of-action--b11cad63-ef30-4eb8-af0d-6cc46eef3f3e"
+    },
+    {
+      "name": "Network Allowlists",
+      "mitre_id": "M0807",
+      "url": "https://attack.mitre.org/mitigations/M0807",
+      "stix_id": "course-of-action--aadac250-bcdc-44e3-a4ae-f52bd0a7a16a"
+    },
+    {
+      "name": "Static Network Configuration",
+      "mitre_id": "M0814",
+      "url": "https://attack.mitre.org/mitigations/M0814",
+      "stix_id": "course-of-action--52c7a1a9-3a78-4528-a44f-cd7b0fa3541a"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

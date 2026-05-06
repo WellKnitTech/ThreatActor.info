@@ -1,0 +1,14 @@
+name: "KillBot_Virus"
+aliases: ["KillBot_Virus"]
+description: "ransomware"
+url: "/killbot-virus"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "fc59e09e-49a2-4751-a3c8-0def51fbbd61"
+    source_record_ids: ["fc59e09e-49a2-4751-a3c8-0def51fbbd61"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

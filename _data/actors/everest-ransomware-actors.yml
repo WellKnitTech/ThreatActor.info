@@ -1,0 +1,22 @@
+name: "Everest Ransomware Actors"
+aliases: ["Everest Ransomware Actors"]
+description: "Threat actors known to deploy Everest, a ransomware strain that researchers have linked to both the previous Everbe 2.0 and BlackByte ransomware families.<sup>[[NCC Group Everest Ransomware July 13 2022](/references/33effb32-5c39-4bde-953d-12dc7be4db07)]</sup>"
+url: "/everest-ransomware-actors"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "BlackEnergy"
+  - name: "BLACKCOFFEE"
+  - name: "Blackshades"
+  - name: "BlackNix"
+  - name: "Archelaus Beta"
+  - name: "BlackHole"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_motivations","owner","source","tags"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "6636ab8d-871f-4353-a1a5-81c8d7cacca4"
+    source_record_ids: ["6636ab8d-871f-4353-a1a5-81c8d7cacca4"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

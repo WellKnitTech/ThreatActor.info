@@ -1,11 +1,13 @@
 name: "APT17"
-aliases: ["APT17","AURORA PANDA","Axiom","BRONZE KEYSTONE","Deputy Dog","Dogfish","G0001","G0025","Group 72","Group 8","Heart Typhoon","HELIUM","Hidden Lynx","Tailgater Team","Burning Umbrella"]
+aliases: ["APT17","AURORA PANDA","Axiom","BRONZE KEYSTONE","Burning Umbrella","Deputy Dog","Dogfish","G0001","G0025","Group 72","Group 8","Heart Typhoon","HELIUM","Hidden Lynx","Tailgater Team","ATG3","Red Typhoon","KAOS","TG-8153","SportsFans","DeputyDog","Tailgater"]
 description: "APT17 is a China-based threat group that has conducted network intrusions against U.S. government entities, the defense industry, law firms, information technology companies, mining companies, and non-government organizations. [FireEye APT17](https://web.archive.org/web/20240119213200/https://www2.fireeye.com/rs/fireye/images/APT17_Report.pdf)"
 url: "/apt0025"
 country: "China"
 sector_focus: ["Defense","Intelligence","Technology","Mining","Government, Administration","Justice","Government","Private sector","Civil society"]
 targeted_victims: ["United States","Netherlands","Italy","Japan","United Kingdom","Belgium","Russia","Indonesia","Germany","Switzerland","China"]
 incident_type: "Espionage"
+first_seen: "2013"
+last_activity: "2018"
 risk_level: "High"
 external_id: "G0025"
 external_url: "https://attack.mitre.org/groups/G0025"
@@ -13,6 +15,9 @@ mitre_id: "G0025"
 mitre_url: "https://attack.mitre.org/groups/G0025"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt17"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 operations: ["Ephemeral Hydra"]
 malware:
   - "China Chopper"
@@ -29,16 +34,67 @@ malware:
   - name: "Sakula"
   - name: "China Chopper"
   - name: "DestroyRAT"
+software:
+  - name: "BLACKCOFFEE"
+    mitre_id: "S0069"
+    url: "https://attack.mitre.org/software/S0069"
+    type: "malware"
+    stix_id: "malware--d69c8146-ab35-4d50-8382-6fc80e641d43"
+    description: "BLACKCOFFEE is malware that has been used by several Chinese groups since at least 2013. (Citation: FireEye APT17) (Citation: FireEye Periscope March 2018)"
+ttps:
+  - technique_id: "T1583.006"
+    technique_name: "Web Services"
+    url: "https://attack.mitre.org/techniques/T1583/006"
+    stix_id: "attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54"
+  - technique_id: "T1585"
+    technique_name: "Establish Accounts"
+    url: "https://attack.mitre.org/techniques/T1585"
+    stix_id: "attack-pattern--cdfc5f0a-9bb9-4352-b896-553cfa2d8fd8"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0025"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://www.fireeye.com/blog/technical/cyber-exploits/2013/09/operation-deputydog-zero-day-cve-2013-3893-attack-against-japanese-targets.html","http://www.fireeye.com/blog/technical/cyber-exploits/2013/11/operation-ephemeral-hydra-ie-zero-day-linked-to-deputydog-uses-diskless-method.html","http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/hidden_lynx.pdf","http://www.darkreading.com/attacks-and-breaches/chinese--hidden-lynx--hackers-launch-widespread-apt-attacks/d/d-id/1111589?page_number=2","https://www.rsaconference.com/writable/presentations/file_upload/crwd-t11-hide_and_seek-how_threat_actors_respond_in_the_face_of_public_exposure.pdf","http://www.crowdstrike.com/blog/french-connection-french-aerospace-focused-cve-2014-0322-attack-shares-similarities-2012/","https://401trg.com/burning-umbrella/","https://www.infosecurity-magazine.com/news/chinese-espionage-group-widescale/","https://intrusiontruth.wordpress.com/2019/07/24/apt17-is-run-by-the-jinan-bureau-of-the-chinese-ministry-of-state-security/","https://www.bloomberg.com/features/2021-supermicro/"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "china"
+  aptnotes:
+    earliest_report_year: "2013"
+    latest_report_year: "2018"
+    report_count: 3
+    sample_links: ["https://app.box.com/s/w4rzfbf0ziip0dt4smkwtraluv8o0z9g","https://app.box.com/s/6uv4v8hpnfpka971qk0gd3j4mnm5x7mt","https://app.box.com/s/fg13wm1gi656siqyxm1zegy6mubhu523"]
+    sample_titles: ["Operation Deputydog: Zero-Day (Cve-2013-3893) Attack Against Japanese Targets","Operation Snowman: Deputydog Actor Compromises Us Veterans Of Foreign Wars Website","Burning Umbrella"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["401TRG","FireEye"]
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "apt17"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt17"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "99e30d89-9361-4b73-a999-9e5ff9320bcb"
+  misp_galaxy:
+    meta_keys: ["country","microsoft-origin-threat","refs","synonyms"]
+    source_cluster: "microsoft-activity-group.json"
+    source_clusters: ["microsoft-activity-group.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
+    source_record_id: "a418d583-d520-5207-bec9-b634417d7f41"
+    source_record_ids: ["a418d583-d520-5207-bec9-b634417d7f41"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   mitre:
+    attack_version: "19.0"
+    attack_version_by_domain:
+      enterprise: "19.0"
+      ics: "19.0"
+      mobile: "19.0"
+    relationships_imported_at: "2026-05-06T21:54:34Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_dataset_urls:
+      enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+      ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
+      mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0025"
-    source_retrieved_at: "2026-04-26T07:05:44Z"
+    source_retrieved_at: "2026-05-06T21:54:34Z"
+    stix_intrusion_set_id: "intrusion-set--090242d7-73fc-4738-af68-20162f7a5aae"
 source: "MITRE ATT&CK"

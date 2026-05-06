@@ -1,0 +1,15 @@
+name: "Turkish Ransom"
+aliases: ["Turkish Ransom"]
+description: "Ransomware"
+url: "/turkish-ransom"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","price","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "174dd201-0b0b-4a76-95c7-71f8141684d0"
+    source_record_ids: ["174dd201-0b0b-4a76-95c7-71f8141684d0"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

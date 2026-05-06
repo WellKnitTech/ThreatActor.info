@@ -31,7 +31,9 @@ A self-proclaimed hacktivist group that carried out attacks against Iranian rail
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Predator Pain**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

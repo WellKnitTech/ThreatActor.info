@@ -1,0 +1,15 @@
+name: "TeslaCrypt 4.1A"
+aliases: ["TeslaCrypt 4.1A"]
+description: "Ransomware"
+url: "/teslacrypt-4-1a"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","payment-method","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ab6b8f56-cf2d-4733-8f9c-df3d52c05e66"
+    source_record_ids: ["ab6b8f56-cf2d-4733-8f9c-df3d52c05e66"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

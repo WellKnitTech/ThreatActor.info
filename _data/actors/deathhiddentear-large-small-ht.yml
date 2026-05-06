@@ -1,0 +1,14 @@
+name: "DeathHiddenTear (Large&Small HT)   > "
+aliases: ["DeathHiddenTear (Large&Small HT)   > "]
+description: "Ransomware"
+url: "/deathhiddentear-large-small-ht"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ee027575-6c9e-4803-80fa-6ff4f4d0af68"
+    source_record_ids: ["ee027575-6c9e-4803-80fa-6ff4f4d0af68"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

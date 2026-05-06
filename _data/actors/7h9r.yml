@@ -1,0 +1,14 @@
+name: "7h9r"
+aliases: ["7h9r"]
+description: "Ransomware"
+url: "/7h9r"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "8f63b8d3-085d-4272-88ea-bf5334f845b1"
+    source_record_ids: ["8f63b8d3-085d-4272-88ea-bf5334f845b1"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

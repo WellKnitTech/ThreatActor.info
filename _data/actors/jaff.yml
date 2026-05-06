@@ -1,0 +1,15 @@
+name: "Jaff"
+aliases: ["Jaff"]
+description: "We recently observed several large scale email campaigns that were attempting to distribute a new variant of ransomware that has been dubbed \"Jaff\". Interestingly we identified several characteristics that we have previously observed being used during Dridex and Locky campaigns. In a short period of time, we observed multiple campaigns featuring high volumes of malicious spam emails being distributed, each using a PDF attachment with an embedded Microsoft Word document functioning as the initial downloader for the Jaff ransomware."
+url: "/jaff"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","links","payment-method","price","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "8e3d44d0-6768-4b54-88b0-2e004a7f2297"
+    source_record_ids: ["8e3d44d0-6768-4b54-88b0-2e004a7f2297"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

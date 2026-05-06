@@ -1,0 +1,15 @@
+name: "Republic of China Military Police"
+aliases: ["Republic of China Military Police"]
+description: "Military Police Command (ROCMP)"
+url: "/republic-of-china-military-police"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "f692689f-2ba7-5018-a2d2-cbc5c31ed50c"
+    source_record_ids: ["f692689f-2ba7-5018-a2d2-cbc5c31ed50c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

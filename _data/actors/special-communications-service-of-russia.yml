@@ -1,0 +1,16 @@
+name: "Special Communications Service of Russia"
+aliases: ["Служба специальной связи и информации","Special Communications Service of Russia"]
+description: "Special Communications Service of Russia – Служба специальной связи и информации"
+url: "/special-communications-service-of-russia"
+country: "Russia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "6574da49-bbf2-58c7-9d1a-366ecbef1d6e"
+    source_record_ids: ["6574da49-bbf2-58c7-9d1a-366ecbef1d6e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

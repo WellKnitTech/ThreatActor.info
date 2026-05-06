@@ -1,0 +1,16 @@
+name: "Directorate of Intelligence Royal Thai Army (DINTRTA)"
+aliases: ["Directorate of Intelligence Royal Thai Army (DINTRTA)"]
+description: "Directorate of Intelligence Royal Thai Army (DINTRTA)"
+url: "/directorate-of-intelligence-royal-thai-army-dintrta"
+country: "Thailand"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "afcf9bb1-4c01-52a9-afd2-29aee71270f9"
+    source_record_ids: ["afcf9bb1-4c01-52a9-afd2-29aee71270f9"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

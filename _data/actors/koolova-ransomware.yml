@@ -1,0 +1,17 @@
+name: "Koolova Ransomware"
+aliases: ["Koolova Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc.. The hacker of this ransomware tends to make lots of spelling errors in his requests. With Italian text that only targets the Test folder on the user's desktop"
+url: "/koolova-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "DesktopNow"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ff6b8fc4-cfe0-45c1-9814-3261e39b4c9a"
+    source_record_ids: ["ff6b8fc4-cfe0-45c1-9814-3261e39b4c9a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,13 +1,24 @@
 name: "ZIRCONIUM"
-aliases: ["APT31","Violet Typhoon","ZIRCONIUM"]
+aliases: ["APT31","Violet Typhoon","ZIRCONIUM","JUDGMENT PANDA","BRONZE VINEWOOD","Red keres","TA412","Zirconium","Chameleon","WebFans"]
 description: "ZIRCONIUM is a threat group operating out of China, active since at least 2017, that has targeted individuals associated with the 2020 US presidential election and prominent leaders in the international affairs community. [Microsoft Targeting Elections September 2020](https://blogs.microsoft.com/on-the-issues/2020/09/10/cyberattacks-us-elections-trump-biden/) [Check Point APT31 February 2021](https://research.checkpoint.com/2021/the-story-of-jian/)"
 url: "/apt0128"
+country: "China"
 external_id: "G0128"
 external_url: "https://attack.mitre.org/groups/G0128"
 mitre_id: "G0128"
 mitre_url: "https://attack.mitre.org/groups/G0128"
+source_name: "Malpedia (Fraunhofer FKIE)"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt31"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "apt31"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt31"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "6bf7e6b6-5917-45a6-9567-f0baba79768c"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0128"

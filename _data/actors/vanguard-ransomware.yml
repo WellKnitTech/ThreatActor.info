@@ -1,0 +1,17 @@
+name: "Vanguard Ransomware"
+aliases: ["Vanguard Ransomware"]
+description: "This is most likely to affect English speaking users, since the note is written in English. English is understood worldwide, thus anyone can be harmed. The hacker spread the virus using email spam, fake updates, and harmful attachments. All your files are compromised including music, MS Office, Open Office, pictures, videos, shared online files etc.. This ransomware poses at MSOffice to fool users into opening the infected file. GO Ransomware"
+url: "/vanguard-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Virus RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","payment-method","price","ransomnotes","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "6a6eed70-3f90-420b-9e4a-5cce9428dc06"
+    source_record_ids: ["6a6eed70-3f90-420b-9e4a-5cce9428dc06"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

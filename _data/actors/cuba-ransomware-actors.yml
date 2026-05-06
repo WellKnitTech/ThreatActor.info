@@ -1,0 +1,15 @@
+name: "Cuba Ransomware Actors"
+aliases: ["Cuba Ransomware Actors"]
+description: "A Group object to represent actors that deploy Cuba Ransomware in victim environments.<sup>[[U.S. CISA Cuba Ransomware October 2022](/references/d6ed5172-a319-45b0-b1cb-d270a2a48fa3)]</sup>"
+url: "/cuba-ransomware-actors"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_motivations","owner","source","tags"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "5216ac81-da4c-4b87-86ce-b90a651f1048"
+    source_record_ids: ["5216ac81-da4c-4b87-86ce-b90a651f1048"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

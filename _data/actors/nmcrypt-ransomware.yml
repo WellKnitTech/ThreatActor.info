@@ -1,0 +1,19 @@
+name: "NMCRYPT Ransomware"
+aliases: ["NMCRYPT Ransomware"]
+description: "The NMCRYPT Ransomware is a generic file encryption Trojan that was detected in the middle of April 2018. The NMCRYPT Ransomware is a file encoder Trojan that is designed to make data unreadable and convince users to pay a fee for unlocking content on the infected computers. The NMCRYPT Ransomware is nearly identical to hundreds of variants of the HiddenTear open-source ransomware and compromised users are unable to use the Shadow Volume snapshots made by Windows to recover. Unfortunately, the NMCRYPT Ransomware disables the native recovery features on Windows, and you need third-party applications to rebuild your data."
+url: "/nmcrypt-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Trojan.Karagany"
+  - name: "Trojan.Mebromi"
+  - name: "Windows Remote Desktop"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "bd71be69-fb8c-4b1f-9d96-993ab23d5f2b"
+    source_record_ids: ["bd71be69-fb8c-4b1f-9d96-993ab23d5f2b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

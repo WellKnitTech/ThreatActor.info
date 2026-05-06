@@ -1,0 +1,15 @@
+name: "Információs Hivatal"
+aliases: ["Információs Hivatal"]
+description: "Információs Hivatal (IH) (Information Office)"
+url: "/inform-ci-s-hivatal"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "325a2ef2-4160-53bb-8a03-5f3fc4e4e0f8"
+    source_record_ids: ["325a2ef2-4160-53bb-8a03-5f3fc4e4e0f8"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

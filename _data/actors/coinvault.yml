@@ -1,0 +1,17 @@
+name: "CoinVault"
+aliases: ["CoinVault"]
+description: "Ransomware CryptoGraphic Locker family. Has a GUI. Do not confuse with CrypVault!"
+url: "/coinvault"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "GraphicBooting"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "15941fb1-08f0-4276-a61f-e2a306d6c6b5"
+    source_record_ids: ["15941fb1-08f0-4276-a61f-e2a306d6c6b5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

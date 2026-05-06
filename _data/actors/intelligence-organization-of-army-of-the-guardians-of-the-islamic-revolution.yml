@@ -1,0 +1,16 @@
+name: "Intelligence Organization of Army of the Guardians of the Islamic Revolution"
+aliases: ["Intelligence Organization of Army of the Guardians of the Islamic Revolution"]
+description: "Intelligence Organization of IRGC"
+url: "/intelligence-organization-of-army-of-the-guardians-of-the-islamic-revolution"
+country: "Iran"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "bf1291d1-7273-5c57-a4b0-e776f1eda2eb"
+    source_record_ids: ["bf1291d1-7273-5c57-a4b0-e776f1eda2eb"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

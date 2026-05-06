@@ -1,0 +1,17 @@
+name: "Zenis Ransomware"
+aliases: ["Zenis Ransomware"]
+description: "A new ransomware was discovered this week by MalwareHunterTeam called Zenis Ransomware. While it is currently unknown how Zenis is being distributed, multiple victims have already become infected with this ransomware. What is most disturbing about Zenis is that it not encrypts your files, but also purposely deletes your backups."
+url: "/zenis-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Unknown Logger"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","ransomnotes","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "cbe3ee70-2d11-11e8-84bb-9b3c525a48d9"
+    source_record_ids: ["cbe3ee70-2d11-11e8-84bb-9b3c525a48d9"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

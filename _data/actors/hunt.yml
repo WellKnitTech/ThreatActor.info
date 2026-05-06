@@ -1,0 +1,18 @@
+name: "Hunt"
+aliases: ["Hunt-Dharma-Crysis","Hunt"]
+description: "Hunt ransomware is a variant of the Dharma/CrySIS ransomware family. This variant creates a unique ID for each victim, appends the extension '.hunt' to encrypted files, and leaves a ransom note known as info-hunt.txt.\n\nThe Dharma/CrySIS ransomware family emerged around mid-2016 as a Ransomware-as-a-Service (RaaS) program, utilizing various initial intrusion methods such as phishing, disguising as legitimate software, and exploiting open RDP connections.\n\nThis variant uses AES-256 encryption (CBC mode) or DES+RSA and demands payment to recover files. Upon execution, the ransomware generates a 256-bit AES decryption key, which is then encrypted along with random bytes using the RSA-1024 algorithm and stored at the end of the encrypted file.\n\nThe ransomware is written in C/C++ and compiled using MS Visual Studio. Regarding geographic attribution, it has been identified in use by threat actors from Russia, Ukraine, India, and other countries."
+url: "/hunt"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Xploit"
+  - name: "GraphicBooting"
+provenance:
+  misp_galaxy:
+    meta_keys: ["TTP","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "1b90933a-3f07-4bcf-af29-f3d880d8027e"
+    source_record_ids: ["1b90933a-3f07-4bcf-af29-f3d880d8027e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,13 +1,22 @@
 name: "Transparent Tribe"
-aliases: ["APT36","COPPER FIELDSTONE","Mythic Leopard","ProjectM","Transparent Tribe"]
+aliases: ["APT36","COPPER FIELDSTONE","Mythic Leopard","ProjectM","Transparent Tribe","C-Major","透明部落 - APT-C-56"]
 description: "Transparent Tribe is a suspected Pakistan-based threat group that has been active since at least 2013, primarily targeting diplomatic, defense, and research organizations in India and Afghanistan. [Proofpoint Operation Transparent Tribe March 2016](https://www.proofpoint.com/sites/default/files/proofpoint-operation-transparent-tribe-threat-insight-en.pdf) [Kaspersky Transparent Tribe August 2020](https://securelist.com/transparent-tribe-part-1/98127/) [Talos Transparent Tribe May 2021](https://blog.talosintelligence.com/2021/05/transparent-tribe-infra-and-targeting.html)"
 url: "/apt0134"
 external_id: "G0134"
 external_url: "https://attack.mitre.org/groups/G0134"
 mitre_id: "G0134"
 mitre_url: "https://attack.mitre.org/groups/G0134"
+source_name: "MISP Galaxy"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
+  misp_galaxy:
+    meta_keys: ["country","refs","suspected-victims","synonyms","target-category"]
+    source_cluster: "360net.json"
+    source_clusters: ["360net.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json"
+    source_record_id: "084517bc-b8e7-5c86-a218-3f19e1379f3e"
+    source_record_ids: ["084517bc-b8e7-5c86-a218-3f19e1379f3e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0134"

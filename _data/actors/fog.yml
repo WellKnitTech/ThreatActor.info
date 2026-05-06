@@ -1,0 +1,14 @@
+name: "Fog"
+aliases: ["Fog"]
+description: "Fog is a sophisticated ransomware strain first observed in April–May 2024, initially targeting U.S. educational institutions before expanding into sectors such as government, business services, finance, and manufacturing. The group conducts fast, double-extortion attacks: they exploit compromised VPN credentials or known vulnerabilities, deploy encryption (notably using extensions like .fog, .FLOCKED), and exfiltrate data prior to encryption to maximize victim pressure. Fog is associated with other prolific actors—such as Akira and Conti—through shared tooling, infrastructure timelines, and even cryptocurrency wallets."
+url: "/fog"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/fog"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "fog"
+  source_retrieved_at: "2026-05-06T21:55:48Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

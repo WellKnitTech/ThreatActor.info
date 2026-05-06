@@ -1,0 +1,17 @@
+name: "Nova RaaS"
+aliases: ["Nova RaaS"]
+description: "Nova appears to refer to a ransomware-as-a-service (\"RaaS\") infrastructure provider. Public threat reporting indicates that affiliates leveraging the Nova victim extortion site are known to use a Rust-based ransomware developed by the RALord ransomware operation, although an original \".nova\" ransomware family has been identified as well.<sup>[[SonicWall Nova Ransomware April 11 2025](/references/4926be5f-0eea-44cc-a73e-2f173eee901b)]</sup><sup>[[Cyble April 17 2025](/references/cad46e02-2e68-4347-be1c-7be910adee95)]</sup>"
+url: "/nova-raas"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Nova"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_motivations","owner","source","tags"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "0c26f51f-35d8-40e8-9ad0-e5092cb3c04e"
+    source_record_ids: ["0c26f51f-35d8-40e8-9ad0-e5092cb3c04e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

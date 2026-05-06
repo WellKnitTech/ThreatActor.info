@@ -1,0 +1,16 @@
+name: "Intelligence org of FARAJA"
+aliases: ["Intelligence org of FARAJA"]
+description: "Intelligence org of FARAJA"
+url: "/intelligence-org-of-faraja"
+country: "Iran"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "0f5e5eed-104d-56d8-a136-50da25ff1211"
+    source_record_ids: ["0f5e5eed-104d-56d8-a136-50da25ff1211"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
