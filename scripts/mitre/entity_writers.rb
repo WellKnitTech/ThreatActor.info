@@ -331,7 +331,7 @@ BODY
     end
 
     if File.exist?(path)
-      merge_malware_front_matter(path, eid, url, domains, desc, force_description: force_description)
+      merge_malware_front_matter(path, eid, url, domains, desc, groups, force_description: force_description)
     else
       fm = {
         'layout' => 'malware',
@@ -371,7 +371,7 @@ BODY
     File.write(data_path, JSON.pretty_generate({ name: name, slug: slug, mitre_id: eid.upcase, actors: groups }))
   end
 
-  def merge_malware_front_matter(path, eid, url, domains, desc, force_description: false)
+  def merge_malware_front_matter(path, eid, url, domains, desc, groups, force_description: false)
     content = File.read(path)
     parts = content.split(/^---\s*$/m, 3)
     return unless parts.size >= 3
@@ -385,6 +385,8 @@ BODY
     if force_description && !desc.empty?
       fm['summary'] = desc[0..400]
     end
+    fm['actors'] = Array(groups).map { |g| { 'name' => g['name'], 'url' => g['url'] } }
+    fm['actor_count'] = fm['actors'].size
     write_front_matter_page(path, fm, body)
   end
 
