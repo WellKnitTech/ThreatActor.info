@@ -1,0 +1,5 @@
+# Optional ThreatFox malware / tag -> actor url slug overrides (slug only, no slashes).
+# Example:
+# malware_slug_overrides:
+#   win.lockbit: lockbit
+malware_slug_overrides: {}

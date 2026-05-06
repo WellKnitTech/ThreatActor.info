@@ -42,15 +42,11 @@ jobs:
     - name: Install dependencies
       run: bundle install
 
-    - name: Clean stale threat-actor markdown files
-      run: |
-        git clean -fd _threat_actors/ 2>/dev/null || true
-        rm -f _threat_actors/{nagini-ransomware,sigrun-ransomware,trumplocker-ransomware,yashma}.md
-
     - name: Run automated source imports
       env:
         SOURCE: ${{ github.event.inputs.source || '' }}
         LIMIT: ${{ github.event.inputs.limit || '' }}
+        THREATFOX_API_KEY: ${{ secrets.THREATFOX_API_KEY }}
       run: |
         args=(--apply --date "$(date -u +%F)")
         if [ -n "$SOURCE" ]; then

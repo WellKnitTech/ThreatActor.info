@@ -31,6 +31,7 @@ Use these canonical upstream links when documenting imports, provenance blocks, 
 | `dragos-threat-groups` | Dragos Threat Groups | https://www.dragos.com/threat-groups |
 | `unit42-threat-actor-groups` | Unit 42 Threat Actor Groups | https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/ |
 | `mitre-attack` | MITRE ATT&CK | https://attack.mitre.org/ ; https://github.com/mitre-attack/attack-stix-data |
+| `threatfox` | abuse.ch ThreatFox | https://threatfox.abuse.ch/ ; https://threatfox.abuse.ch/api/ |
 
 When adding or updating importers:
 
@@ -67,6 +68,24 @@ Reviewed name and rename handling lives in `data/imports/ransomlook/mapping_over
 - Use `ruby scripts/evaluate-source-deltas.rb` to enforce update thresholds before publishing large changes.
 - See [Keeping actor pages current](keeping-actor-pages-current.md) for committing regenerated `_threat_actors/*.md`, `_data/generated/*`, and `api/*` together with `_data/actors/*.yml` after imports.
 - See `docs/data-flows.md` for the source-of-truth map and the analyst-note supersession policy.
+
+- **`--source attack`** is accepted as an alias for **`mitre-attack`** in `import-automated-sources.rb` (same script: `scripts/import-mitre.rb`).
+
+## abuse.ch ThreatFox importer
+
+`scripts/import-threatfox.rb` pulls recent IOCs from the [ThreatFox community API](https://threatfox.abuse.ch/api/) and merges them into **existing** actor YAML when malware names or tags align with [`AliasResolver`](../scripts/lib/alias_resolver.rb) keys (plus optional [`data/imports/threatfox/mapping_overrides.yml`](../data/imports/threatfox/mapping_overrides.yml)).
+
+- **Auth:** set **`THREATFOX_API_KEY`** (HTTP header `Auth-Key`). Obtain a free key from [auth.abuse.ch](https://auth.abuse.ch/). If the key is unset, `fetch` writes an empty snapshot (`query_status: no_auth_key`) so automated runs stay deterministic without network failures.
+- **`fetch`** — `POST https://threatfox-api.abuse.ch/api/v1/` with body `{"query":"get_iocs","days":N}` where **N is 1–7** (API limit). Writes `get_iocs.json` and `manifest.yml` under `data/imports/threatfox/<YYYY-MM-DD>/`.
+- **`plan` / `import`** — read a snapshot directory, match IOC rows to actors, merge supported `ioc_type` values into `iocs.*`, set `provenance.threatfox`, append `sources`, and refresh **`iocs_count`** (merged IOC cardinality via `IocYamlReader`).
+
+```bash
+ruby scripts/import-threatfox.rb fetch --output data/imports/threatfox/$(date -u +%F) --days 7
+ruby scripts/import-threatfox.rb plan --snapshot data/imports/threatfox/$(date -u +%F) --report-json tmp/threatfox-plan.json
+ruby scripts/import-automated-sources.rb --source threatfox --apply
+```
+
+Scheduled GitHub Actions can pass **`THREATFOX_API_KEY`** from a repository secret so `fetch` returns live IOCs.
 
 
 

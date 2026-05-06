@@ -241,6 +241,15 @@ SOURCES_UNSORTED = [
     snapshot_root: 'data/imports/unit42-threat-actor-groups',
     report_name: 'unit42-threat-actor-groups-report.json',
     fetch_limit: false
+  ),
+  Source.new(
+    priority: 24,
+    key: 'threatfox',
+    label: 'abuse.ch ThreatFox',
+    script: 'scripts/import-threatfox.rb',
+    snapshot_root: 'data/imports/threatfox',
+    report_name: 'threatfox-report.json',
+    fetch_limit: true
   )
 ].freeze
 
@@ -295,16 +304,21 @@ See docs/keeping-actor-pages-current.md.'
   opts.on('--continue-on-error', 'Continue with later sources after a failure') { options[:continue_on_error] = true }
   opts.on('--list-sources', 'List automated sources and exit') do
     SOURCES.each { |source| puts "#{source.key}\t#{source.label}" }
+    puts "attack\t(alias for mitre-attack)"
     exit
   end
 end
 
 parser.parse!
 
+SOURCE_KEY_ALIASES = {
+  'attack' => 'mitre-attack'
+}.freeze
+
 def selected_sources(options)
   selected = SOURCES
   unless options[:selected_sources].empty?
-    wanted = options[:selected_sources]
+    wanted = options[:selected_sources].map { |k| SOURCE_KEY_ALIASES[k] || k }
     unknown = wanted - SOURCES.map(&:key)
     abort "Unknown source(s): #{unknown.join(', ')}" unless unknown.empty?
 
@@ -312,17 +326,20 @@ def selected_sources(options)
   end
 
   unless options[:skipped_sources].empty?
-    unknown = options[:skipped_sources] - SOURCES.map(&:key)
+    skipped = options[:skipped_sources].map { |k| SOURCE_KEY_ALIASES[k] || k }
+    unknown = skipped - SOURCES.map(&:key)
     abort "Unknown source(s): #{unknown.join(', ')}" unless unknown.empty?
 
-    selected = selected.reject { |source| options[:skipped_sources].include?(source.key) }
+    selected = selected.reject { |source| skipped.include?(source.key) }
   end
 
   selected
 end
 
 def run_command(command)
+  puts "\n---"
   puts "→ #{command.join(' ')}"
+  puts '---'
   stdout, stderr, status = Open3.capture3(*command)
   puts stdout unless stdout.empty?
   warn stderr unless stderr.empty?

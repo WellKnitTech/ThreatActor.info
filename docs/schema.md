@@ -42,6 +42,8 @@ This document describes the schema for `_data/actors/*.yml` - the single source 
 | `country` | String | Country of origin | "Russia", "China", "Iran" |
 | `risk_level` | String | Risk assessment | "Critical", "High", "Medium", "Low" |
 | `sector_focus` | Array | Target sectors | ["Government", "Defense", "Healthcare"] |
+| `targeted_sectors` | Array | Optional alias-style sector list; importers may mirror `sector_focus` here for APIs that expect this name | Same shape as `sector_focus` |
+| `victim_countries` | Array | ISO 3166-1 alpha-2 country codes where known (e.g. `["US", "DE"]`); distinct from free-text `targeted_victims` | `["US", "UA"]` |
 | `first_seen` | String | Year first observed | "2007" |
 | `last_activity` | String | Year last observed | "2024" |
 | `last_updated` | String | Optional editorial review/update date in YYYY-MM-DD format | "2026-04-27" |
@@ -75,6 +77,37 @@ ttps:
   - technique_id: "T1059.001"
     technique_name: "PowerShell"
     description: "Use of PowerShell for execution"
+```
+
+### attck_techniques, attck_software, attck_references
+
+Denormalized ATT&CK-friendly fields for APIs and filters. **`ttps`** and **`software`** remain the canonical structured lists; importers (for example MITRE) keep **`attck_techniques`** in sync with technique IDs from **`ttps`**.
+
+```yaml
+attck_techniques: ["T1566.001", "T1059.001"]
+attck_software: ["S0002", "PowerShell"]
+attck_references:
+  - url: "https://attack.mitre.org/groups/G0007/"
+    source: "mitre-attack"
+    external_id: "G0007"
+    description: "MITRE ATT&CK group page"
+```
+
+### iocs_count, confidence, sources
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `iocs_count` | Integer | Optional cached count from an importer; generated JSON **`ioc_count`** is still derived from merged IOC rows unless you document otherwise. |
+| `confidence` | Number or string | Optional analyst or aggregated confidence (`high`, `medium`, `low`, or a numeric score). |
+| `sources` | Array of objects | Provenance audit trail: each entry should include **`source`** and **`imported_at`** (ISO 8601). Optional **`dataset_url`**, **`note`**. |
+
+```yaml
+iocs_count: 42
+confidence: "high"
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-06T12:00:00Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 ```
 
 ### iocs

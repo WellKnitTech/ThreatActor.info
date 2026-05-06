@@ -402,9 +402,11 @@ def build_body(actor)
   
   # Activities and Tactics
   sections << "## Activities and Tactics"
-  if actor['country'] || actor['sector_focus'] || actor['targeted_victims'] || actor['incident_type']
-    if actor['sector_focus']
-      sections << "**Targeted Sectors**: #{actor['sector_focus']&.join(', ') || 'Various'}"
+  if actor['country'] || actor['sector_focus'] || actor['targeted_sectors'] || actor['targeted_victims'] ||
+     actor['victim_countries'] || actor['incident_type']
+    sectors = actor['sector_focus'] || actor['targeted_sectors']
+    if sectors
+      sections << "**Targeted Sectors**: #{Array(sectors).join(', ')}"
       sections << ""
     end
     if actor['country']
@@ -425,6 +427,10 @@ def build_body(actor)
     if actor['targeted_victims'] && actor['targeted_victims'].any?
       victims = actor['targeted_victims'].first(10)
       sections << "**Suspected Victims**: #{victims.join(', ')}#{actor['targeted_victims'].size > 10 ? '...' : ''}"
+      sections << ""
+    end
+    if actor['victim_countries'] && actor['victim_countries'].any?
+      sections << "**Victim countries (codes)**: #{actor['victim_countries'].join(', ')}"
       sections << ""
     end
   else
@@ -522,6 +528,21 @@ def build_body(actor)
       sections << "| #{entry['categories'].sort.join(', ')} | #{entry['vendor']} | #{entry['product']} | #{entry['cves'].join(', ')} |"
     end
   end
+
+  if (actor['attck_techniques'] || []).any?
+    sections << "" if had_yaml_or_derived_ttps || vulnerability_rows.any?
+    sections << "### ATT&CK technique IDs (denormalized)"
+    sections << ""
+    actor['attck_techniques'].each do |tid|
+      u = mitre_attack_technique_browser_url(tid)
+      sections << if !u.empty?
+                    "- [#{tid}](#{u})"
+                  else
+                    "- **#{tid}**"
+                  end
+    end
+  end
+
   sections << ""
   
   # IOCs section header (canonical structured lists live under actor['iocs'] plus legacy top-level ips/domains/urls/hashes; see IocYamlReader)

@@ -15,12 +15,15 @@ module ActorStore
     url
     country
     sector_focus
+    targeted_sectors
     targeted_victims
+    victim_countries
     incident_type
     first_seen
     last_activity
     last_updated
     risk_level
+    confidence
     external_id
     external_url
     mitre_id
@@ -34,6 +37,11 @@ module ActorStore
     malware
     software
     ttps
+    attck_techniques
+    attck_software
+    attck_references
+    iocs_count
+    sources
     cisa_kev_cves
     urls
     domains
