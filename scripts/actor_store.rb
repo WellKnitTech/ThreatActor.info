@@ -3,6 +3,7 @@
 
 require 'fileutils'
 require 'json'
+require 'uri'
 require 'yaml'
 
 module ActorStore
@@ -44,6 +45,10 @@ module ActorStore
     provenance
     analyst_notes
   ].freeze
+
+  TRANSIENT_FIELDS = %w[references].freeze
+
+  URI_FIELDS = %w[external_url mitre_url source_record_url source_license_url].freeze
 
   module_function
 
@@ -90,6 +95,8 @@ module ActorStore
 
   def serialize_actor(actor)
     normalized = ensure_aliases!(normalize_actor(actor))
+    TRANSIENT_FIELDS.each { |field| normalized.delete(field) }
+    normalize_uri_fields!(normalized)
     lines = []
 
     FIELD_ORDER.each do |key|
@@ -125,6 +132,19 @@ module ActorStore
     name = actor['name'].to_s.strip
     aliases = [name] if aliases.empty? && !name.empty?
     actor['aliases'] = aliases
+    actor
+  end
+
+  def normalize_uri_fields!(actor)
+    return actor unless actor.is_a?(Hash)
+
+    URI_FIELDS.each do |field|
+      value = actor[field]
+      next unless value.is_a?(String) && !value.empty?
+      next if value.bytes.all? { |b| b < 128 } && !value.include?(' ')
+
+      actor[field] = URI::DEFAULT_PARSER.escape(value)
+    end
     actor
   end
 
