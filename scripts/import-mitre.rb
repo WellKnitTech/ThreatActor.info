@@ -369,6 +369,15 @@ class MitreAttackImporter
       end
     end
 
+    by_canonical_name = existing_actors.each_with_object({}) do |existing, memo|
+      next unless existing.is_a?(Hash)
+
+      key = ImportUtils.canonical_key(existing['name'])
+      next if key.nil? || key.empty?
+
+      memo[key] ||= existing
+    end
+
     map = {}
     resolver.intrusion_sets.each do |is|
       actor = parse_intrusion_actor(is, opts_actor)
@@ -378,11 +387,15 @@ class MitreAttackImporter
       match = ImportUtils.find_match(actor['name'], actor['aliases'], alias_index)
       mitre_id_key = actor['mitre_id'].to_s.strip
       mitre_match = mitre_id_key.empty? ? nil : by_mitre_id[mitre_id_key]
+      name_key = ImportUtils.canonical_key(actor['name'])
+      name_match = (name_key.nil? || name_key.empty?) ? nil : by_canonical_name[name_key]
 
       canonical = if match && match[:confidence] == :high
                     existing_actors[match[:position]]
                   elsif mitre_match
                     mitre_match
+                  elsif name_match
+                    name_match
                   end
 
       url = canonical ? canonical['url'] : actor['url']
