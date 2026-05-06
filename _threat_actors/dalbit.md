@@ -13,7 +13,9 @@ The group usually targets vulnerable servers to breach information including int
 **Country of Origin**: 🇨🇳 China
 
 
+**First Seen**: 2023
 
+**Last Activity**: 2023
 
 
 ## Notable Campaigns
@@ -23,7 +25,7 @@ The group usually targets vulnerable servers to breach information including int
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+*No atomic indicators are listed in this profile. The APTnotes snapshot indexes 1 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
 ## Malware and Tools
 - **Windows Remote Desktop**

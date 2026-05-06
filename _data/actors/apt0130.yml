@@ -1,13 +1,27 @@
 name: "Ajax Security Team"
-aliases: ["Ajax Security Team","AjaxTM","Flying Kitten","Operation Saffron Rose","Operation Woolen-Goldfish","Rocket Kitten"]
+aliases: ["Ajax Security Team","AjaxTM","Flying Kitten","Operation Saffron Rose","Operation Woolen-Goldfish","Rocket Kitten","SaffronRose","Saffron Rose","AjaxSecurityTeam","Group 26","Sayad","TEMP.Beanie","Operation Woolen Goldfish","Thamar Reservoir","Timberworm"]
 description: "Ajax Security Team is a group that has been active since at least 2010 and believed to be operating out of Iran. By 2014 Ajax Security Team transitioned from website defacement operations to malware-based cyber espionage campaigns targeting the US defense industrial base and Iranian users of anti-censorship technologies. [FireEye Operation Saffron Rose 2013](https://www.mandiant.com/sites/default/files/2021-09/rpt-operation-saffron-rose.pdf)"
 url: "/apt0130"
+country: "Iran"
+sector_focus: ["Aerospace","Defense","Gas","Oil","Military","Civil society","Activists","Journalist","Research - Innovation","Academia - University","Government, Administration","Government"]
+targeted_victims: ["United States","Iranian internet activists","Saudi Arabia","Venezuela","Afghanistan","United Arab Emirates","Iran","Israel","Iraq","Kuwait","Turkey","Canada","Yemen","United Kingdom","Egypt","Syria","Jordan"]
+incident_type: "Espionage"
 external_id: "G0130"
 external_url: "https://attack.mitre.org/groups/G0130"
 mitre_id: "G0130"
 mitre_url: "https://attack.mitre.org/groups/G0130"
+source_name: "Malpedia (Fraunhofer FKIE)"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/flying_kitten"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "rocket_kitten"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/rocket_kitten"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "f873db71-3d53-41d5-b141-530675ade27a"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0130"

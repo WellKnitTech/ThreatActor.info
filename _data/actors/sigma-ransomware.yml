@@ -1,0 +1,19 @@
+name: "Sigma Ransomware"
+aliases: ["Sigma Ransomware"]
+description: "Today one of our volunteers, Aura, told me about a new new malspam campaign pretending to be from Craigslist that is under way and distributing the Sigma Ransomware. These spam emails contain password protected Word or RTF documents that download the Sigma Ransomware executable from a remote site and install it on a recipients computer."
+url: "/sigma-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RemoteCMD"
+  - name: "Remote Utilities"
+  - name: "RemotePC"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "df025902-b29e-11e8-a2ab-739167419c52"
+    source_record_ids: ["df025902-b29e-11e8-a2ab-739167419c52"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

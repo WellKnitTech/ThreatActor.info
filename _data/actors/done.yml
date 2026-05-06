@@ -1,0 +1,14 @@
+name: "Done"
+aliases: ["Done"]
+description: "Ransomware"
+url: "/done"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "2e8f75c9-5122-4f5d-a32d-c6b500f7cd28"
+    source_record_ids: ["2e8f75c9-5122-4f5d-a32d-c6b500f7cd28"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

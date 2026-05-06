@@ -1,0 +1,15 @@
+name: "FileCoder"
+aliases: ["FindZip","Patcher","FileCoder"]
+description: "A barely functional piece of macOS ransomware, written in Swift."
+url: "/filecoder"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","payment-method","price","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "091c9923-5939-4bde-9db5-56abfb51f1a2"
+    source_record_ids: ["091c9923-5939-4bde-9db5-56abfb51f1a2"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

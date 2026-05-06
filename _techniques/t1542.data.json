@@ -1,0 +1,65 @@
+{
+  "mitre_id": "T1542",
+  "mitigations": [
+    {
+      "name": "Limit Access to Resource Over Network",
+      "mitre_id": "M1035",
+      "url": "https://attack.mitre.org/mitigations/M1035",
+      "stix_id": "course-of-action--1dcaeb21-9348-42ea-950a-f842aaf1ae1f"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "Update Software",
+      "mitre_id": "M1051",
+      "url": "https://attack.mitre.org/mitigations/M1051",
+      "stix_id": "course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b"
+    },
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M1026",
+      "url": "https://attack.mitre.org/mitigations/M1026",
+      "stix_id": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f"
+    },
+    {
+      "name": "Boot Integrity",
+      "mitre_id": "M1046",
+      "url": "https://attack.mitre.org/mitigations/M1046",
+      "stix_id": "course-of-action--7da0387c-ba92-4553-b291-b636ee42b2eb"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1542.003",
+      "name": "Bootkit",
+      "permalink": "/techniques/T1542.003/"
+    },
+    {
+      "id": "T1542.005",
+      "name": "TFTP Boot",
+      "permalink": "/techniques/T1542.005/"
+    },
+    {
+      "id": "T1542.002",
+      "name": "Component Firmware",
+      "permalink": "/techniques/T1542.002/"
+    },
+    {
+      "id": "T1542.004",
+      "name": "ROMMONkit",
+      "permalink": "/techniques/T1542.004/"
+    },
+    {
+      "id": "T1542.001",
+      "name": "System Firmware",
+      "permalink": "/techniques/T1542.001/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

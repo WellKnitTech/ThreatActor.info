@@ -1,0 +1,18 @@
+name: "CyberVolk"
+aliases: ["CyberVolk"]
+description: "CyberVolk is a politically motivated hacktivist collective originating in India with pro-Russia leanings. The group is known for launching ransomware and DDoS attacks to undermine and disrupt operations of entities that are perceived to be opposed to Russian interests.<sup>[[SentinelOne November 25 2024](/references/71c8e60c-a72a-4bff-aae3-f3f155fa22ee)]</sup>"
+url: "/cybervolk"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "82fc3514-e812-47f8-8e76-8bc5a8e3121c"
+    source_record_ids: ["82fc3514-e812-47f8-8e76-8bc5a8e3121c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

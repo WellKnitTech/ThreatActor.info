@@ -1,0 +1,23 @@
+{
+  "mitre_id": "T1638",
+  "mitigations": [
+    {
+      "name": "Encrypt Network Traffic",
+      "mitre_id": "M1009",
+      "url": "https://attack.mitre.org/mitigations/M1009",
+      "stix_id": "course-of-action--8220b57e-c400-4525-bf69-f8edc6b389a8"
+    },
+    {
+      "name": "Use Recent OS Version",
+      "mitre_id": "M1006",
+      "url": "https://attack.mitre.org/mitigations/M1006",
+      "stix_id": "course-of-action--0beabf44-e8d8-4ae4-9122-ef56369a2564"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

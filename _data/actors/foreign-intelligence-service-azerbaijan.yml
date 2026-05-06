@@ -1,0 +1,15 @@
+name: "Foreign Intelligence Service (Azerbaijan)"
+aliases: ["Foreign Intelligence Service (Azerbaijan)"]
+description: "Foreign Intelligence Service (Xarici Kəşfiyyat Xidməti)"
+url: "/foreign-intelligence-service-azerbaijan"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "0d5c2601-265a-5d20-99e8-a5eb662e383c"
+    source_record_ids: ["0d5c2601-265a-5d20-99e8-a5eb662e383c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

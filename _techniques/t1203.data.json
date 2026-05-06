@@ -1,0 +1,192 @@
+{
+  "mitre_id": "T1203",
+  "mitigations": [
+    {
+      "name": "Exploit Protection",
+      "mitre_id": "M1050",
+      "url": "https://attack.mitre.org/mitigations/M1050",
+      "stix_id": "course-of-action--d2a24649-9694-4c97-9c62-ce7b270bf6a3"
+    },
+    {
+      "name": "Update Software",
+      "mitre_id": "M1051",
+      "url": "https://attack.mitre.org/mitigations/M1051",
+      "stix_id": "course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b"
+    },
+    {
+      "name": "Application Isolation and Sandboxing",
+      "mitre_id": "M1048",
+      "url": "https://attack.mitre.org/mitigations/M1048",
+      "stix_id": "course-of-action--b9f0c069-abbe-4a07-a245-2481219a1463"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Sidewinder",
+      "url": "/apt0121"
+    },
+    {
+      "name": "Saint Bear",
+      "url": "/apt1031"
+    },
+    {
+      "name": "APT28",
+      "url": "/apt28"
+    },
+    {
+      "name": "Threat Group-3390",
+      "url": "/apt0027"
+    },
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    },
+    {
+      "name": "Dragonfly",
+      "url": "/apt0035"
+    },
+    {
+      "name": "Andariel",
+      "url": "/apt0138"
+    },
+    {
+      "name": "The White Company",
+      "url": "/apt0089"
+    },
+    {
+      "name": "EXOTIC LILY",
+      "url": "/apt1011"
+    },
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    },
+    {
+      "name": "APT29",
+      "url": "/apt29"
+    },
+    {
+      "name": "BlackTech",
+      "url": "/apt0098"
+    },
+    {
+      "name": "Confucius",
+      "url": "/apt0142"
+    },
+    {
+      "name": "Patchwork",
+      "url": "/apt0040"
+    },
+    {
+      "name": "APT12",
+      "url": "/apt0005"
+    },
+    {
+      "name": "Axiom",
+      "url": "/apt0001"
+    },
+    {
+      "name": "Higaisa",
+      "url": "/apt0126"
+    },
+    {
+      "name": "Cobalt Group",
+      "url": "/apt0080"
+    },
+    {
+      "name": "Leviathan",
+      "url": "/apt40"
+    },
+    {
+      "name": "APT37",
+      "url": "/apt0067"
+    },
+    {
+      "name": "TA459",
+      "url": "/apt0062"
+    },
+    {
+      "name": "Mustang Panda",
+      "url": "/apt0129"
+    },
+    {
+      "name": "UNC3886",
+      "url": "/apt1048"
+    },
+    {
+      "name": "APT3",
+      "url": "/apt0022"
+    },
+    {
+      "name": "BRONZE BUTLER",
+      "url": "/apt0060"
+    },
+    {
+      "name": "Sea Turtle",
+      "url": "/apt1041"
+    },
+    {
+      "name": "Transparent Tribe",
+      "url": "/apt0134"
+    },
+    {
+      "name": "Tropic Trooper",
+      "url": "/apt0081"
+    },
+    {
+      "name": "Tonto Team",
+      "url": "/apt0131"
+    },
+    {
+      "name": "Aoqin Dragon",
+      "url": "/apt1007"
+    },
+    {
+      "name": "Inception",
+      "url": "/apt0100"
+    },
+    {
+      "name": "APT41",
+      "url": "/apt41"
+    },
+    {
+      "name": "Ember Bear",
+      "url": "/apt1003"
+    },
+    {
+      "name": "BITTER",
+      "url": "/apt1002"
+    },
+    {
+      "name": "Elderwood",
+      "url": "/apt0066"
+    },
+    {
+      "name": "Darkhotel",
+      "url": "/apt0012"
+    },
+    {
+      "name": "APT32",
+      "url": "/apt32"
+    },
+    {
+      "name": "OilRig",
+      "url": "/apt34"
+    },
+    {
+      "name": "admin@338",
+      "url": "/apt0018"
+    },
+    {
+      "name": "APT33",
+      "url": "/apt0064"
+    },
+    {
+      "name": "MuddyWater",
+      "url": "/apt0069"
+    }
+  ]
+}

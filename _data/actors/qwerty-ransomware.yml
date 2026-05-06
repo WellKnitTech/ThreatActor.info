@@ -1,0 +1,15 @@
+name: "Qwerty Ransomware"
+aliases: ["Qwerty Ransomware"]
+description: "A new ransomware has been discovered that utilizes the legitimate GnuPG, or GPG, encryption program to encrypt a victim's files.  Currently in the wild, this ransomware is called Qwerty Ransomware and will encrypt a victims files, overwrite the originals, and the append the .qwerty extension to an encrypted file's name."
+url: "/qwerty-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","ransomnotes","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "15c370c0-2799-11e8-a959-57cdcd57e3bf"
+    source_record_ids: ["15c370c0-2799-11e8-a959-57cdcd57e3bf"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

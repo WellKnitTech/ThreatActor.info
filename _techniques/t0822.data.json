@@ -1,0 +1,53 @@
+{
+  "mitre_id": "T0822",
+  "mitigations": [
+    {
+      "name": "Network Segmentation",
+      "mitre_id": "M0930",
+      "url": "https://attack.mitre.org/mitigations/M0930",
+      "stix_id": "course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291"
+    },
+    {
+      "name": "Account Use Policies",
+      "mitre_id": "M0936",
+      "url": "https://attack.mitre.org/mitigations/M0936",
+      "stix_id": "course-of-action--86b455f2-fb63-4043-93a8-32a3a7703a02"
+    },
+    {
+      "name": "Limit Access to Resource Over Network",
+      "mitre_id": "M0935",
+      "url": "https://attack.mitre.org/mitigations/M0935",
+      "stix_id": "course-of-action--49b306c1-a046-42c5-a4d2-30f264ada110"
+    },
+    {
+      "name": "Password Policies",
+      "mitre_id": "M0927",
+      "url": "https://attack.mitre.org/mitigations/M0927",
+      "stix_id": "course-of-action--5d97c693-e054-48ba-a3a3-eaf6942dfb65"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M0918",
+      "url": "https://attack.mitre.org/mitigations/M0918",
+      "stix_id": "course-of-action--e57ebc6d-785f-40c8-adb1-b5b5e09b3b48"
+    },
+    {
+      "name": "Disable or Remove Feature or Program",
+      "mitre_id": "M0942",
+      "url": "https://attack.mitre.org/mitigations/M0942",
+      "stix_id": "course-of-action--d0909119-2f71-4923-87db-b649881672d7"
+    },
+    {
+      "name": "Multi-factor Authentication",
+      "mitre_id": "M0932",
+      "url": "https://attack.mitre.org/mitigations/M0932",
+      "stix_id": "course-of-action--ddf3e568-f065-49e2-9106-42029a28ddbd"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

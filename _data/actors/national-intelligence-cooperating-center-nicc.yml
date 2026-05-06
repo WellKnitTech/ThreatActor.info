@@ -1,0 +1,16 @@
+name: "National Intelligence Cooperating Center (NICC)"
+aliases: ["National Intelligence Cooperating Center (NICC)"]
+description: "National Intelligence Cooperating Center (NICC)"
+url: "/national-intelligence-cooperating-center-nicc"
+country: "Thailand"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "bdd5c56e-e7a2-53fb-9a9a-2ed6c3805f0d"
+    source_record_ids: ["bdd5c56e-e7a2-53fb-9a9a-2ed6c3805f0d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

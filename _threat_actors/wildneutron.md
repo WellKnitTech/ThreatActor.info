@@ -19,7 +19,7 @@ A corporate espionage group has compromised a string of major corporations over 
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+*No atomic indicators are listed in this profile. The APTnotes snapshot indexes 2 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
 ## Malware and Tools
 - **CyberGate**

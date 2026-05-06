@@ -1,0 +1,20 @@
+name: "Scarlet Goldfinch"
+aliases: ["Scarlet Goldfinch"]
+description: "Scarlet Goldfinch is a threat activity cluster that typically tricks victims into downloading files that appear to be web browser updates, with the file ultimately leading to the deployment of NetSupport Manager, a remote monitoring and management (RMM) utility that has been heavily abused by adversaries.<sup>[[Red Canary June 26 2024](/references/e0d62504-6fec-4d95-9f4a-e0dda7e7b6d9)]</sup>"
+url: "/scarlet-goldfinch"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RemoteCMD"
+  - name: "Remote Utilities"
+  - name: "RemotePC"
+  - name: "Netsupport Manager"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","owner","source","tags"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "54a13c54-a1d5-46e9-b155-56d981a5ad8f"
+    source_record_ids: ["54a13c54-a1d5-46e9-b155-56d981a5ad8f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

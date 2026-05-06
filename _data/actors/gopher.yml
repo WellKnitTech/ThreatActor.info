@@ -1,0 +1,15 @@
+name: "Gopher"
+aliases: ["Gopher"]
+description: "Ransomware OS X ransomware (PoC)"
+url: "/gopher"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ec461b8a-5390-4304-9d2a-a20c7ed6a9db"
+    source_record_ids: ["ec461b8a-5390-4304-9d2a-a20c7ed6a9db"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

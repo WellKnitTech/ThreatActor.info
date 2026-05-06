@@ -1,0 +1,14 @@
+name: "TotalWipeOut"
+aliases: ["TotalWipeOut"]
+description: "ransomware"
+url: "/totalwipeout"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "483cae7f-4554-46db-8bbc-223881ae9a1c"
+    source_record_ids: ["483cae7f-4554-46db-8bbc-223881ae9a1c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "Locked-In Ransomware or NoValid Ransomware"
+aliases: ["Locked-In Ransomware","NoValid Ransomware","Locked-In Ransomware or NoValid Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc.. Based on RemindMe"
+url: "/locked-in-ransomware-or-novalid-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","ransomnotes-filenames","ransomnotes-refs","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "777f0b78-e778-435f-b4d5-e40f0b7f54c3"
+    source_record_ids: ["777f0b78-e778-435f-b4d5-e40f0b7f54c3"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

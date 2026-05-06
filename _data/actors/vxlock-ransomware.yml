@@ -1,0 +1,15 @@
+name: "VxLock Ransomware"
+aliases: ["VxLock Ransomware"]
+description: "Developed in Visual Studios in 2010. Original name is VxCrypt. This ransomware encrypts your files, including photos, music, MS office, Open Office, PDF… etc"
+url: "/vxlock-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "14deb95c-7af3-4fb1-b2c1-71087e1bb156"
+    source_record_ids: ["14deb95c-7af3-4fb1-b2c1-71087e1bb156"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

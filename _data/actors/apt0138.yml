@@ -1,13 +1,24 @@
 name: "Andariel"
-aliases: ["Andariel","Onyx Sleet","PLUTONIUM","Silent Chollima"]
+aliases: ["Andariel","Onyx Sleet","PLUTONIUM","Silent Chollima","OperationTroy","Guardian of Peace","GOP","WHOis Team","Subgroup: Andariel"]
 description: "Andariel is a North Korean state-sponsored threat group that has been active since at least 2009. Andariel has primarily focused its operations--which have included destructive attacks--against South Korean government agencies, military organizations, and a variety of domestic companies; they have also conducted cyber financial operations against ATMs, banks, and cryptocurrency exchanges. Andariel's notable activity includes Operation Black Mine, Operation GoldenAxe, and Campaign Rifle. [FSI Andariel Campaign Rifle July 2017](https://fsiceat.tistory.com/2) [IssueMakersLab Andariel GoldenAxe May 2017](http://www.issuemakerslab.com/research3/) [AhnLab Andariel Subgroup of Lazarus June 2018](https://web.archive.org/web/20230213154832/http://download.ahnlab.com/global/brochure/%5BAnalysis%5DAndariel_Group.pdf) [TrendMicro New Andariel Tactics July 2018](https://www.trendmicro.com/en_us/research/18/g/new-andariel-reconnaissance-tactics-hint-at-next-targets.html) [CrowdStrike Silent Chollima Adversary September 2021](https://adversary.crowdstrike.com/en-US/adversary/silent-chollima/)\n\nAndariel is considered a sub-set of Lazarus Group, and has been attributed to North Korea's Reconnaissance General Bureau. [Treasury North Korean Cyber Groups September 2019](https://home.treasury.gov/news/press-releases/sm774)\n\nNorth Korean group definitions are known to have significant overlap, and some security researchers report all North Korean state-sponsored cyber activity under the name Lazarus Group instead of tracking clusters or subgroups."
 url: "/apt0138"
+country: "North Korea"
 external_id: "G0138"
 external_url: "https://attack.mitre.org/groups/G0138"
 mitre_id: "G0138"
 mitre_url: "https://attack.mitre.org/groups/G0138"
+source_name: "Malpedia (Fraunhofer FKIE)"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/silent_chollima"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "silent_chollima"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/silent_chollima"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "245c8dde-ed42-4c49-b48b-634e3e21bdd7"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0138"

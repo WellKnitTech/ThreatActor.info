@@ -3,10 +3,24 @@ aliases: ["Storm-1152"]
 description: "Storm-1152, a cybercriminal group, was recently taken down by Microsoft for illegally reselling Outlook accounts. They operated by creating approximately 750 million fraudulent Microsoft accounts and earned millions of dollars in illicit revenue. Storm-1152 also offered CAPTCHA-solving services and was connected to ransomware and extortion groups. Microsoft obtained a court order to seize their infrastructure and domains, disrupting their operations."
 url: "/storm-1152"
 country: "Vietnam"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-1152"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["CyberGate","Cyber Eye RAT","Revenge-RAT"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "storm-1152"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-1152"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "e18dca82-0524-4338-9a66-e13e67c81ac4"
   misp_galaxy:
+    meta_keys: ["country","origin:Storm-1152","refs","microsoft-origin-threat"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "e18dca82-0524-4338-9a66-e13e67c81ac4"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["e18dca82-0524-4338-9a66-e13e67c81ac4","d9d23fe2-8efb-51cf-8913-91ed75f9379e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "Barack Obama's Everlasting Blue Blackmail Virus Ransomware"
+aliases: ["Barack Obama's Blackmail Virus Ransomware","Barack Obama's Everlasting Blue Blackmail Virus Ransomware"]
+description: "A new ransomware that only encrypts .EXE files on a computer. It then displays a screen with a picture of President Obama that asks for a \"tip\" to decrypt the files."
+url: "/barack-obama-s-everlasting-blue-blackmail-virus-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","ransomnotes","ransomnotes-refs","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "1a98f5ca-b024-11e8-b828-1fb7dbd6619e"
+    source_record_ids: ["1a98f5ca-b024-11e8-b828-1fb7dbd6619e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

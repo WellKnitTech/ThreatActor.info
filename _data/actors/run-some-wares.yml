@@ -1,0 +1,14 @@
+name: "Run Some Wares"
+aliases: ["Run Some Wares"]
+description: "Run Some Wares is an active extortion or ransomware group tracked by RansomLook."
+url: "/run-some-wares"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/runsomewares"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "runsomewares"
+  source_retrieved_at: "2026-05-06T21:56:23Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

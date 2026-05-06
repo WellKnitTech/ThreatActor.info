@@ -1,0 +1,23 @@
+{
+  "mitre_id": "T1564.011",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "UNC3886",
+      "url": "/apt1048"
+    },
+    {
+      "name": "Sea Turtle",
+      "url": "/apt1041"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    }
+  ]
+}

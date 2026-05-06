@@ -1,0 +1,14 @@
+name: "BTCWare-Gryphon"
+aliases: ["BTCWare-Gryphon"]
+description: "Ransomware"
+url: "/btcware-gryphon"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "d11b8d25-7731-43e6-8880-4ed6bc4d66cd"
+    source_record_ids: ["d11b8d25-7731-43e6-8880-4ed6bc4d66cd"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

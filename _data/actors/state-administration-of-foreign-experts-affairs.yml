@@ -1,0 +1,18 @@
+name: "State Administration of Foreign Experts Affairs"
+aliases: ["State Administration of Foreign Experts Affairs"]
+description: "State Administration of Foreign Experts Affairs (SAFEA)"
+url: "/state-administration-of-foreign-experts-affairs"
+country: "China"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Xpert"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "e797bfc3-7190-5b05-bd69-8d32e870c1b9"
+    source_record_ids: ["e797bfc3-7190-5b05-bd69-8d32e870c1b9"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

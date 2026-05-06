@@ -1,0 +1,16 @@
+name: "Dirección Nacional de Inteligencia Estratégica Militar"
+aliases: ["Dirección Nacional de Inteligencia Estratégica Militar"]
+description: "National Directorate of Strategic Military Intelligence (DNIEM) – Dirección Nacional de Inteligencia Estratégica Militar"
+url: "/direcci-n-nacional-de-inteligencia-estrat-gica-militar"
+country: "Argentina"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "e8fa1c95-4746-5654-b4e7-16e1a8a52fa7"
+    source_record_ids: ["e8fa1c95-4746-5654-b4e7-16e1a8a52fa7"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

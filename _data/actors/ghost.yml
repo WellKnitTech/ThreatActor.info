@@ -1,0 +1,34 @@
+name: "ghost"
+aliases: ["ghost"]
+description: "aka Cring / Ghost (Cring)\r<br/>\r<br/>Beginning early 2021, Ghost actors began attacking victims whose internet facing services ran outdated versions of software and firmware. This indiscriminate targeting of networks containing vulnerabilities has led to the compromise of organizations across more than 70 countries, including organizations in China. Ghost actors, located in China, conduct these widespread attacks for financial gain. Affected victims include critical infrastructure, schools and universities, healthcare, government networks, religious institutions, technology and manufacturing companies, and numerous small- and medium-sized businesses.\r<br/>\r<br/>Ghost actors rotate their ransomware executable payloads, switch file extensions for encrypted files, modify ransom note text, and use numerous ransom email addresses, which has led to variable attribution of this group over time. Names associated with this group include Ghost, Cring, Crypt3r, Phantom, Strike, Hello, Wickrme, HsHarada, and Rapture. Samples of ransomware files Ghost used during attacks are: Cring.exe, Ghost.exe, ElysiumO.exe, and Locker.exe.\r<br/>\r<br/>https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+url: "/ghost"
+first_seen: "2012"
+last_activity: "2016"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "China Chopper"
+  - name: "CyberGate"
+  - name: "Small-Net"
+  - name: "Cyber Eye RAT"
+  - name: "Ghost"
+  - name: "CrossRat"
+provenance:
+  aptnotes:
+    earliest_report_year: "2012"
+    latest_report_year: "2016"
+    report_count: 2
+    sample_links: ["https://app.box.com/s/aj7ebr1v0x9mf3psmxeififqijwmmacy","https://app.box.com/s/xr1ykgout1c9ho5rotpop09smkawg5me"]
+    sample_titles: ["The Many Faces Of Gh0St Rat: Plotting The Connections Between Malware Attacks","The Ghost Dragon"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Cylance","Norman"]
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ef9769e4-067c-5e45-b80f-36f6d5a52a82"
+    source_record_ids: ["ef9769e4-067c-5e45-b80f-36f6d5a52a82"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

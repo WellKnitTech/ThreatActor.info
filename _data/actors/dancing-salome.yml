@@ -3,10 +3,25 @@ aliases: ["Dancing Salome"]
 description: "Dancing Salome is the Kaspersky codename for an APT actor with a primary focus on ministries of foreign affairs, think tanks, and Ukraine. What makes Dancing Salome interesting and relevant is the attacker’s penchant for leveraging HackingTeam RCS implants compiled after the public breach."
 url: "/dancing-salome"
 sector_focus: ["Think Tanks","Government, Administration"]
+targeted_victims: ["Ukraine"]
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dancing_salome"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["Hacking Team UEFI Rootkit"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "dancing_salome"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dancing_salome"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "3d5192f2-f235-46fd-aa68-dd00cc17d632"
   misp_galaxy:
+    meta_keys: ["refs","suspected-victims","targeted-sector"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "3d5192f2-f235-46fd-aa68-dd00cc17d632"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["3d5192f2-f235-46fd-aa68-dd00cc17d632"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

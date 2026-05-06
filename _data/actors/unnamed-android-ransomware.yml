@@ -1,0 +1,15 @@
+name: "Unnamed Android Ransomware"
+aliases: ["Unnamed Android Ransomware"]
+description: "Uses APK Editor Pro. Picks and activates DEX>Smali from APK Editor. Utilizes LockService application and edits the “const-string v4, value” to a desired unlock key. Changes contact information within the ransom note. Once the victim has downloaded the malicious app, the only way to recover its content is to pay the ransom and receive the unlock key. "
+url: "/unnamed-android-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b48a7d62-9bc4-11e8-a7c5-47d13fad265f"
+    source_record_ids: ["b48a7d62-9bc4-11e8-a7c5-47d13fad265f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,16 @@
+name: "General Intelligence and Security Service"
+aliases: ["General Intelligence and Security Service"]
+description: "General Intelligence and Security Service - Algemene Inlichtingen en Veiligheidsdienst (AIVD)"
+url: "/general-intelligence-and-security-service"
+country: "Netherlands"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "91235d64-2c24-57c6-a031-f2a5e5f55f8b"
+    source_record_ids: ["91235d64-2c24-57c6-a031-f2a5e5f55f8b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

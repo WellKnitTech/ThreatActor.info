@@ -1,0 +1,15 @@
+name: "Ransom32"
+aliases: ["Ransom32"]
+description: "Ransomware no extension change, Javascript Ransomware"
+url: "/ransom32"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "d74e2fa6-6b8d-49ed-80f9-07b274eecef8"
+    source_record_ids: ["d74e2fa6-6b8d-49ed-80f9-07b274eecef8"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

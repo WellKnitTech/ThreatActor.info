@@ -2,10 +2,24 @@ name: "Storm-0249"
 aliases: ["DEV-0249","Storm-0249"]
 description: "Storm-0249 is an access broker active since 2021, known for distributing BazaLoader, IcedID, Bumblebee, and Emotet malware. The actor primarily employs phishing emails to deliver malware payloads, as evidenced by a campaign involving tax-themed emails that aimed to distribute BRc4 and Latrodectus malware. Storm-0249 has facilitated initial access for other threat actors, such as Storm-0501, by leveraging compromised credentials and exploiting known vulnerabilities in public-facing servers. Microsoft has detected malicious PDF attachments associated with Storm-0249's phishing campaigns."
 url: "/storm-0249"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-0249"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["Xploit"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "storm-0249"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-0249"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "26c8deca-ac6e-4a56-93bd-5c47d9360b0d"
   misp_galaxy:
+    meta_keys: ["origin:DEV-0249","origin:Storm-0249","refs","synonyms","microsoft-origin-threat"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "26c8deca-ac6e-4a56-93bd-5c47d9360b0d"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["26c8deca-ac6e-4a56-93bd-5c47d9360b0d","fc30a605-a6af-5f02-b93d-e2c352370cb3"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

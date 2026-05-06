@@ -3,10 +3,24 @@ aliases: ["CardinalLizard"]
 description: "CardinalLizard, a cyber threat actor linked to China, has targeted entities in Asia since 2018. Their methods include spear-phishing, custom malware with anti-detection features, and potentially shared infrastructure with other actors."
 url: "/cardinallizard"
 country: "China"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/cardinallizard"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["China Chopper","CyberGate","Cyber Eye RAT","Cardinal"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "cardinallizard"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/cardinallizard"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "97f40858-1582-4a59-a990-866813982830"
   misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "97f40858-1582-4a59-a990-866813982830"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["97f40858-1582-4a59-a990-866813982830"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

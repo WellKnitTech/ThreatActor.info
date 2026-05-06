@@ -1,0 +1,27 @@
+{
+  "mitre_id": "T1125",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Ember Bear",
+      "url": "/apt1003"
+    },
+    {
+      "name": "Silence",
+      "url": "/apt0091"
+    },
+    {
+      "name": "FIN7",
+      "url": "/fin7"
+    },
+    {
+      "name": "VOID MANTICORE",
+      "url": "/void-manticore"
+    }
+  ]
+}

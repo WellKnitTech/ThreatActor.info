@@ -1,0 +1,14 @@
+name: "CryptoCat"
+aliases: ["CryptoCat"]
+description: "Ransomware"
+url: "/cryptocat"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "72be1360-a686-4f32-8179-a2a466d0898e"
+    source_record_ids: ["72be1360-a686-4f32-8179-a2a466d0898e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

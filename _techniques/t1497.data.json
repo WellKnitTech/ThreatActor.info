@@ -1,0 +1,37 @@
+{
+  "mitre_id": "T1497",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+    {
+      "id": "T1497.002",
+      "name": "User Activity Based Checks",
+      "permalink": "/techniques/T1497.002/"
+    },
+    {
+      "id": "T1497.001",
+      "name": "System Checks",
+      "permalink": "/techniques/T1497.001/"
+    },
+    {
+      "id": "T1497.003",
+      "name": "Time Based Checks",
+      "permalink": "/techniques/T1497.003/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Contagious Interview",
+      "url": "/apt1052"
+    },
+    {
+      "name": "Saint Bear",
+      "url": "/apt1031"
+    },
+    {
+      "name": "Darkhotel",
+      "url": "/apt0012"
+    }
+  ]
+}

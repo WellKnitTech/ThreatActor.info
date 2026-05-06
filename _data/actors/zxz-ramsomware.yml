@@ -1,0 +1,19 @@
+name: "ZXZ Ramsomware"
+aliases: ["ZXZ Ramsomware"]
+description: "Originated in English, could affect users worldwide, however so far only reports from Saudi Arabia. The malware name founded by a windows server tools is called win32/wagcrypt.A"
+url: "/zxz-ramsomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Win32.HsIdir"
+  - name: "Arabian-Attacker RAT"
+  - name: "Windows Remote Desktop"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","extensions","payment-method","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e4932d1c-2f97-474d-957e-c7df87f9591e"
+    source_record_ids: ["e4932d1c-2f97-474d-957e-c7df87f9591e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

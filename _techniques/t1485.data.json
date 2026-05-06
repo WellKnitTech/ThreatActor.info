@@ -1,0 +1,56 @@
+{
+  "mitre_id": "T1485",
+  "mitigations": [
+    {
+      "name": "Multi-factor Authentication",
+      "mitre_id": "M1032",
+      "url": "https://attack.mitre.org/mitigations/M1032",
+      "stix_id": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0"
+    },
+    {
+      "name": "Data Backup",
+      "mitre_id": "M1053",
+      "url": "https://attack.mitre.org/mitigations/M1053",
+      "stix_id": "course-of-action--3efe43d1-6f3f-4fcb-ab39-4a730971f70b"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1485.001",
+      "name": "Lifecycle-Triggered Deletion",
+      "permalink": "/techniques/T1485.001/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "LAPSUS$",
+      "url": "/apt1004"
+    },
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    },
+    {
+      "name": "Storm-0501",
+      "url": "/apt1053"
+    },
+    {
+      "name": "APT38",
+      "url": "/apt0082"
+    },
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    },
+    {
+      "name": "VOID MANTICORE",
+      "url": "/void-manticore"
+    }
+  ]
+}

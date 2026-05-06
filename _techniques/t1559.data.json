@@ -1,0 +1,61 @@
+{
+  "mitre_id": "T1559",
+  "mitigations": [
+    {
+      "name": "Disable or Remove Feature or Program",
+      "mitre_id": "M1042",
+      "url": "https://attack.mitre.org/mitigations/M1042",
+      "stix_id": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31"
+    },
+    {
+      "name": "Software Configuration",
+      "mitre_id": "M1054",
+      "url": "https://attack.mitre.org/mitigations/M1054",
+      "stix_id": "course-of-action--b5dbb4c5-b0b1-40b1-80b6-e9e84ab90067"
+    },
+    {
+      "name": "Application Isolation and Sandboxing",
+      "mitre_id": "M1048",
+      "url": "https://attack.mitre.org/mitigations/M1048",
+      "stix_id": "course-of-action--b9f0c069-abbe-4a07-a245-2481219a1463"
+    },
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M1026",
+      "url": "https://attack.mitre.org/mitigations/M1026",
+      "stix_id": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f"
+    },
+    {
+      "name": "Behavior Prevention on Endpoint",
+      "mitre_id": "M1040",
+      "url": "https://attack.mitre.org/mitigations/M1040",
+      "stix_id": "course-of-action--90f39ee1-d5a3-4aaa-9f28-3b42815b0d46"
+    },
+    {
+      "name": "Application Developer Guidance",
+      "mitre_id": "M1013",
+      "url": "https://attack.mitre.org/mitigations/M1013",
+      "stix_id": "course-of-action--25dc1ce8-eb55-4333-ae30-a7cb4f5894a1"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1559.003",
+      "name": "XPC Services",
+      "permalink": "/techniques/T1559.003/"
+    },
+    {
+      "id": "T1559.002",
+      "name": "Dynamic Data Exchange",
+      "permalink": "/techniques/T1559.002/"
+    },
+    {
+      "id": "T1559.001",
+      "name": "Component Object Model",
+      "permalink": "/techniques/T1559.001/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

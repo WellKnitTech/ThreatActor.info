@@ -2,10 +2,24 @@ name: "FusionCore"
 aliases: ["FusionCore"]
 description: "The CYFIRMA research team has identified a new up-and-coming European threat actor group known as FusionCore. Running Malware-as-a-service, along with the hacker-for- hire operation, they have a wide variety of tools and services that are being offered on their website, making it a one-stop-shop for threat actors looking to purchase cost- effective yet customizable malware. The operators have started a ransomware affiliate program that equips the attackers with the ransomware and affiliate software to manage victims. FusionCore typically provides sellers with a detailed set of instructions for any service or product being sold, enabling individuals with minimal experience to carry out complex attacks."
 url: "/fusioncore"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/fusioncore"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["Minimo"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "fusioncore"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/fusioncore"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "ab376039-4ede-4dfc-a45b-c80d9d994657"
   misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "ab376039-4ede-4dfc-a45b-c80d9d994657"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["ab376039-4ede-4dfc-a45b-c80d9d994657"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

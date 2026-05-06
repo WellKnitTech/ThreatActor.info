@@ -1,0 +1,17 @@
+name: "ALFA Ransomware"
+aliases: ["ALFA Ransomware"]
+description: "Ransomware Made by creators of Cerber"
+url: "/alfa-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Cerberus RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "888abc95-9e01-4cbc-a6e5-058eb9314f51"
+    source_record_ids: ["888abc95-9e01-4cbc-a6e5-058eb9314f51"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

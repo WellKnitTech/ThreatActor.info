@@ -1,0 +1,35 @@
+{
+  "mitre_id": "T0885",
+  "mitigations": [
+    {
+      "name": "Human User Authentication",
+      "mitre_id": "M0804",
+      "url": "https://attack.mitre.org/mitigations/M0804",
+      "stix_id": "course-of-action--66cfe23e-34b6-4583-b178-ed6a412db2b0"
+    },
+    {
+      "name": "Network Intrusion Prevention",
+      "mitre_id": "M0931",
+      "url": "https://attack.mitre.org/mitigations/M0931",
+      "stix_id": "course-of-action--3172222b-4983-43f7-8983-753ded4f13bc"
+    },
+    {
+      "name": "Network Segmentation",
+      "mitre_id": "M0930",
+      "url": "https://attack.mitre.org/mitigations/M0930",
+      "stix_id": "course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291"
+    },
+    {
+      "name": "Disable or Remove Feature or Program",
+      "mitre_id": "M0942",
+      "url": "https://attack.mitre.org/mitigations/M0942",
+      "stix_id": "course-of-action--d0909119-2f71-4923-87db-b649881672d7"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

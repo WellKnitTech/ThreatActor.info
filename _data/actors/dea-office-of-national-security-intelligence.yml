@@ -1,0 +1,16 @@
+name: "DEA Office of National Security Intelligence"
+aliases: ["DEA Office of National Security Intelligence"]
+description: "DEA Office of National Security Intelligence (ONSI)"
+url: "/dea-office-of-national-security-intelligence"
+country: "United States"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "8b5411de-951e-5f8b-b1d7-b7b22a5a7a22"
+    source_record_ids: ["8b5411de-951e-5f8b-b1d7-b7b22a5a7a22"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

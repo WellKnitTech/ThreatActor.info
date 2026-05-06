@@ -1,0 +1,16 @@
+name: "Intelligence Bureau (India)"
+aliases: ["Intelligence Bureau (India)"]
+description: "Intelligence Bureau (IB)"
+url: "/intelligence-bureau-india"
+country: "India"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "372d7ce5-87bb-5ee1-b872-62426d1df8c6"
+    source_record_ids: ["372d7ce5-87bb-5ee1-b872-62426d1df8c6"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

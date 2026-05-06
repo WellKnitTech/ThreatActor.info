@@ -2,10 +2,24 @@ name: "Threatsec"
 aliases: ["Threatsec"]
 description: "ThreatSec is a hacktivist group that has targeted various organizations, including internet service providers in Gaza. They claim to fight for the rights and freedom of the oppressed and do not prioritize monetary gain. The group is part of the \"Five Families\" consortium, which includes other hacktivist groups such as GhostSec and Stormous. ThreatSec has been involved in cyberattacks, data breaches, and ransomware activities."
 url: "/threatsec"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/threatsec"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["CyberGate","Cyber Eye RAT","Ghost"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "threatsec"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/threatsec"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "179deaab-12d2-4371-b499-51b925546a22"
   misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "179deaab-12d2-4371-b499-51b925546a22"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["179deaab-12d2-4371-b499-51b925546a22"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

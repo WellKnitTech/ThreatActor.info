@@ -1,0 +1,14 @@
+name: "FScrypt"
+aliases: ["FScrypt"]
+description: "ransomware"
+url: "/fscrypt"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "d81208be-6715-4ef5-b354-9283d7eed531"
+    source_record_ids: ["d81208be-6715-4ef5-b354-9283d7eed531"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,16 @@
+name: "Signals Intelligence Agency"
+aliases: ["Signals Intelligence Agency"]
+description: "Signals Intelligence Agency (SIA)"
+url: "/signals-intelligence-agency"
+country: "United Arab Emirates"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "aa650f18-87e3-588e-aaea-18abf9bb9369"
+    source_record_ids: ["aa650f18-87e3-588e-aaea-18abf9bb9369"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

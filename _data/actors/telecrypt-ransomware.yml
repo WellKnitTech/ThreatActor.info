@@ -1,0 +1,20 @@
+name: "Telecrypt Ransomware"
+aliases: ["Telecrypt Ransomware"]
+description: "This is most likely to affect Russian speaking users, since the note is written in Russian. Therefore, residents of Russian speaking country are affected. The hacker spread the virus using email spam, fake updates, and harmful attachments. All your files are compromised including music, MS Office, Open Office, pictures, videos, shared online files etc.. The ransomware’s authors would request around $75 from their victims to provide them with a decryptor (payments are accepted via Russian payment services Qiwi or Yandex.Money ). Right from the start, however, researchers suggested that TeleCrypt was written by cybercriminals without advanced skills. Telecrypt will generate a random string to encrypt with that is between 10-20 length and only contain the letters vo,pr,bm,xu,zt,dq."
+url: "/telecrypt-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+  - name: "Virus RAT"
+  - name: "Archelaus Beta"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "2f362760-925b-4948-aae5-dd0d2fc21002"
+    source_record_ids: ["2f362760-925b-4948-aae5-dd0d2fc21002"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

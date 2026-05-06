@@ -1,0 +1,15 @@
+name: "ransomware blog"
+aliases: ["ransomware blog"]
+description: "Also known as MedusaLocker"
+url: "/ransomware-blog"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "7b4a7253-b508-56c8-aec8-981e087d1b34"
+    source_record_ids: ["7b4a7253-b508-56c8-aec8-981e087d1b34"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

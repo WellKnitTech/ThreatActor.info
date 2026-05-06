@@ -1,0 +1,15 @@
+name: "MIRCOP"
+aliases: ["Crypt888","MicroCop","MIRCOP"]
+description: "Ransomware Prepends files Demands 48.48 BTC"
+url: "/mircop"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","price","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "7dd326a5-1168-4309-98b1-f2146d9cf8c7"
+    source_record_ids: ["7dd326a5-1168-4309-98b1-f2146d9cf8c7"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

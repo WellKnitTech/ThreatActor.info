@@ -1,0 +1,16 @@
+name: "Belgian General Information and Security Service"
+aliases: ["Belgian General Information and Security Service"]
+description: "ADIV / SGRS (ADIV/SGRS) (General Intelligence and Security Service, military intelligence)"
+url: "/belgian-general-information-and-security-service"
+country: "Belgium"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "b5004731-2742-56c6-8078-cccbdb08a135"
+    source_record_ids: ["b5004731-2742-56c6-8078-cccbdb08a135"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

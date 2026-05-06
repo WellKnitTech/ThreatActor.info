@@ -1,0 +1,102 @@
+{
+  "mitre_id": "T1098",
+  "mitigations": [
+    {
+      "name": "Network Segmentation",
+      "mitre_id": "M1030",
+      "url": "https://attack.mitre.org/mitigations/M1030",
+      "stix_id": "course-of-action--86598de0-b347-4928-9eb0-0acbfc21908c"
+    },
+    {
+      "name": "Disable or Remove Feature or Program",
+      "mitre_id": "M1042",
+      "url": "https://attack.mitre.org/mitigations/M1042",
+      "stix_id": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    },
+    {
+      "name": "Restrict File and Directory Permissions",
+      "mitre_id": "M1022",
+      "url": "https://attack.mitre.org/mitigations/M1022",
+      "stix_id": "course-of-action--987988f0-cf86-4680-a875-2f6456ab2448"
+    },
+    {
+      "name": "Multi-factor Authentication",
+      "mitre_id": "M1032",
+      "url": "https://attack.mitre.org/mitigations/M1032",
+      "stix_id": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0"
+    },
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M1026",
+      "url": "https://attack.mitre.org/mitigations/M1026",
+      "stix_id": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f"
+    },
+    {
+      "name": "Operating System Configuration",
+      "mitre_id": "M1028",
+      "url": "https://attack.mitre.org/mitigations/M1028",
+      "stix_id": "course-of-action--2f316f6c-ae42-44fe-adf8-150989e0f6d3"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1098.001",
+      "name": "Additional Cloud Credentials",
+      "permalink": "/techniques/T1098.001/"
+    },
+    {
+      "id": "T1098.002",
+      "name": "Additional Email Delegate Permissions",
+      "permalink": "/techniques/T1098.002/"
+    },
+    {
+      "id": "T1098.003",
+      "name": "Additional Cloud Roles",
+      "permalink": "/techniques/T1098.003/"
+    },
+    {
+      "id": "T1098.005",
+      "name": "Device Registration",
+      "permalink": "/techniques/T1098.005/"
+    },
+    {
+      "id": "T1098.006",
+      "name": "Additional Container Cluster Roles",
+      "permalink": "/techniques/T1098.006/"
+    },
+    {
+      "id": "T1098.004",
+      "name": "SSH Authorized Keys",
+      "permalink": "/techniques/T1098.004/"
+    },
+    {
+      "id": "T1098.007",
+      "name": "Additional Local or Domain Groups",
+      "permalink": "/techniques/T1098.007/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    },
+    {
+      "name": "Scattered Spider",
+      "url": "/apt1015"
+    },
+    {
+      "name": "VOID MANTICORE",
+      "url": "/void-manticore"
+    },
+    {
+      "name": "HAFNIUM",
+      "url": "/apt0125"
+    }
+  ]
+}

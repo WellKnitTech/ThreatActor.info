@@ -3,10 +3,24 @@ aliases: ["UNC3569"]
 description: "China-nexus espionage actor that has been observed exploiting vulnerabilities in Aspera Faspex, Microsoft Exchange, and Oracle Web Applications Desktop Integrator, among others, to gain initial access to target environments. "
 url: "/unc3569"
 country: "China"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc3569"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["China Chopper","DesktopNow","Xploit"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "unc3569"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc3569"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "dd0063e0-2d44-4798-9e6d-ef0eaa2c2508"
   misp_galaxy:
+    meta_keys: ["country","origin:UNC3569","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "dd0063e0-2d44-4798-9e6d-ef0eaa2c2508"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["dd0063e0-2d44-4798-9e6d-ef0eaa2c2508"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

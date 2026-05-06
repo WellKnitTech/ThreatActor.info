@@ -1,0 +1,31 @@
+{
+  "mitre_id": "T1586",
+  "mitigations": [
+    {
+      "name": "Pre-compromise",
+      "mitre_id": "M1056",
+      "url": "https://attack.mitre.org/mitigations/M1056",
+      "stix_id": "course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1586.003",
+      "name": "Cloud Accounts",
+      "permalink": "/techniques/T1586.003/"
+    },
+    {
+      "id": "T1586.002",
+      "name": "Email Accounts",
+      "permalink": "/techniques/T1586.002/"
+    },
+    {
+      "id": "T1586.001",
+      "name": "Social Media Accounts",
+      "permalink": "/techniques/T1586.001/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

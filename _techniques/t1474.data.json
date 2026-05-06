@@ -1,0 +1,37 @@
+{
+  "mitre_id": "T1474",
+  "mitigations": [
+    {
+      "name": "Security Updates",
+      "mitre_id": "M1001",
+      "url": "https://attack.mitre.org/mitigations/M1001",
+      "stix_id": "course-of-action--bcecd036-f40e-4916-9f8e-fd0ccf0ece8d"
+    },
+    {
+      "name": "Application Developer Guidance",
+      "mitre_id": "M1013",
+      "url": "https://attack.mitre.org/mitigations/M1013",
+      "stix_id": "course-of-action--25dc1ce8-eb55-4333-ae30-a7cb4f5894a1"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1474.002",
+      "name": "Compromise Hardware Supply Chain",
+      "permalink": "/techniques/T1474.002/"
+    },
+    {
+      "id": "T1474.001",
+      "name": "Compromise Software Dependencies and Development Tools",
+      "permalink": "/techniques/T1474.001/"
+    },
+    {
+      "id": "T1474.003",
+      "name": "Compromise Software Supply Chain",
+      "permalink": "/techniques/T1474.003/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

@@ -1,0 +1,29 @@
+name: "core"
+aliases: ["core"]
+description: "Core ransomware surfaced in early 2025 as a new variant within the broader Makop family. It employs a single-extortion model, focusing on encrypting files and demanding payment, without public data-leak threats. The malware appends the .core extension to encrypted files and is delivered via typical exploit vectors known to RaaS campaigns. Core does not showcase advanced double-extortion tactics seen in other modern strains, but it stands out for its familial lineage and continued evolution from Makop ancestors."
+url: "/core"
+first_seen: "2017"
+last_activity: "2019"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Xploit"
+provenance:
+  aptnotes:
+    earliest_report_year: "2017"
+    latest_report_year: "2019"
+    report_count: 2
+    sample_links: ["https://app.box.com/s/4et31m42g0m8b1cj2ly2idlgruli1io6","https://app.box.com/s/dtb6vitjf1ytxlemaszvktq12k1pr8ck"]
+    sample_titles: ["Mm Core In-Memory Backdoor Returns As Bigboss And Sillygoose","DNS Hijacking Abuses Trust In Core Internet Service"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Cisco","Forcepoint"]
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "1a67d92a-b6df-524b-aae7-e322f97ea5b3"
+    source_record_ids: ["1a67d92a-b6df-524b-aae7-e322f97ea5b3"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

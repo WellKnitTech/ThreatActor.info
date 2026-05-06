@@ -1,0 +1,19 @@
+{
+  "mitre_id": "T1531",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Akira",
+      "url": "/akira"
+    },
+    {
+      "name": "LAPSUS$",
+      "url": "/apt1004"
+    }
+  ]
+}

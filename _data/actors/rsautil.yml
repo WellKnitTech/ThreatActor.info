@@ -1,0 +1,21 @@
+name: "RSAUtil"
+aliases: ["Vagger","DONTSLIP","RSAUtil"]
+description: "RSAUtil is distributed by the developer hacking into remote desktop services and uploading a package of files. This package contains a variety of tools, a config file that determines how the ransomware executes, and the ransomware itself."
+url: "/rsautil"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Hacking Team UEFI Rootkit"
+  - name: "RemoteCMD"
+  - name: "Remote Utilities"
+  - name: "RemotePC"
+  - name: "DesktopNow"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","ransomnotes","ransomnotes-filenames","ransomnotes-refs","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "f80b0a42-21ef-11e8-8ac7-0317408794e2"
+    source_record_ids: ["f80b0a42-21ef-11e8-8ac7-0317408794e2"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

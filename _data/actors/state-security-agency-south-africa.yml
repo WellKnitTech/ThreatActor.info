@@ -1,0 +1,16 @@
+name: "State Security Agency (South Africa)"
+aliases: ["State Security Agency (South Africa)"]
+description: "State Security Agency (SSA)"
+url: "/state-security-agency-south-africa"
+country: "South Africa"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "d4bb9e44-fb78-5ce7-abfa-c1981042570f"
+    source_record_ids: ["d4bb9e44-fb78-5ce7-abfa-c1981042570f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

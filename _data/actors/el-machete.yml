@@ -1,5 +1,5 @@
 name: "El Machete"
-aliases: ["Machete","machete-apt","APT-C-43","G0095","El Machete"]
+aliases: ["Machete","machete-apt","APT-C-43","G0095","El Machete","Machete - APT-C-43"]
 description: "El Machete is one of these threats that was first publicly disclosed and named by Kaspersky here. We’ve found that this group has continued to operate successfully, predominantly in Latin America, since 2014. All attackers simply moved to new C2 infrastructure, based largely around dynamic DNS domains, in addition to making minimal changes to the malware in order to evade signature-based detection."
 url: "/el-machete"
 country: "Unknown"
@@ -7,10 +7,15 @@ sector_focus: ["Military","Government"]
 targeted_victims: ["Venezuela","Russia","Cuba","China","Belgium","Ecuador","Brazil","Spain","Germany","France","Colombia","Peru","Sweden","United States","Malaysia"]
 incident_type: "Espionage"
 risk_level: "High"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware: ["Minimo"]
 provenance:
   misp_galaxy:
+    meta_keys: ["country","refs","suspected-victims","synonyms","target-category"]
+    source_cluster: "360net.json"
+    source_clusters: ["360net.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "827c17e0-c3f5-4ad1-a4f4-30a40ed0a2d3"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["d0b9840d-efe2-5200-89d1-2f1a37737e30"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

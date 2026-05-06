@@ -1,0 +1,14 @@
+name: "PopCornTime"
+aliases: ["PopCornTime"]
+description: "ransomware"
+url: "/popcorntime"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "d494a2e6-17e6-435f-9bcd-ef728d18f504"
+    source_record_ids: ["d494a2e6-17e6-435f-9bcd-ef728d18f504"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

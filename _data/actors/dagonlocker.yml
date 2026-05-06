@@ -1,0 +1,14 @@
+name: "Dagonlocker"
+aliases: ["Dagonlocker"]
+description: "Dagon Locker is a double-extortion ransomware family that surfaced around September 2022. It represents an evolution of the MountLocker and Quantum ransomware lines. The group employs strong encryption using ChaCha20 protected by RSA-2048 and appends the .dagoned extension to encrypted files. It provides operators flexibility through command-line options to control encryption behavior, such as skipping logs, deletions, or process termination. Notably, Dagon Locker is frequently distributed via phishing campaigns and as part of Brodin-based initial access chains. It operates under a Ransomware-as-a-Service (RaaS) model, engaging affiliates to launch customized campaigns—particularly targeting organizations in South Korea."
+url: "/dagonlocker"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/dagonlocker"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "dagonlocker"
+  source_retrieved_at: "2026-05-06T21:55:41Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

@@ -1,0 +1,17 @@
+{
+  "mitre_id": "T0814",
+  "mitigations": [
+    {
+      "name": "Watchdog Timers",
+      "mitre_id": "M0815",
+      "url": "https://attack.mitre.org/mitigations/M0815",
+      "stix_id": "course-of-action--98aa0d61-fc9d-4b2d-8f18-b25d03549f53"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

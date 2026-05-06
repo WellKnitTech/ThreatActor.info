@@ -4,6 +4,9 @@ description: "NARWHAL SPIDER’s operation of Cutwail v2 was limited to country-
 url: "/narwhal-spider"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/narwhal_spider"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware:
   - name: "URLZone"
   - name: "Ursnif"
@@ -16,9 +19,19 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta544-targets-geographies-italy-japan-range-malware"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "others"
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "narwhal_spider"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/narwhal_spider"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "fda9cdea-0017-495e-879d-0f348db2aa07"
   misp_galaxy:
+    meta_keys: ["origin:GOLD ESSEX","origin:Storm-0302","refs","synonyms","microsoft-origin-threat"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "fda9cdea-0017-495e-879d-0f348db2aa07"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["fda9cdea-0017-495e-879d-0f348db2aa07","71761cb6-1046-574b-a438-2dbc32733503"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

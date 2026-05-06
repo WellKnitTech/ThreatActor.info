@@ -2,10 +2,24 @@ name: "UNC6671"
 aliases: ["UNC6671"]
 description: "UNC6671 is involved in credential harvesting operations, utilizing vishing tactics to impersonate IT staff and directing victims to enter credentials on a victim-branded site. They have gained access to Okta customer accounts and employed PowerShell to download sensitive data from SharePoint and OneDrive. Their extortion tactics include aggressive harassment of victim personnel, and they have used unbranded extortion emails with different Tox IDs for communication. The threat actors have shown a preference for registering domains with Tucows, indicating potential operational differences from related threat groups."
 url: "/unc6671"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc6671"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["PowerDuke","POWERSTATS","Power Loader","POWERSOURCE","PowerRAT"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "unc6671"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc6671"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "fddcdeb1-0528-4770-ad2e-f61718e1dc04"
   misp_galaxy:
+    meta_keys: ["origin:UNC6671","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "fddcdeb1-0528-4770-ad2e-f61718e1dc04"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["fddcdeb1-0528-4770-ad2e-f61718e1dc04"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

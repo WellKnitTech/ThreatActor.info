@@ -1,0 +1,20 @@
+name: "Nemty"
+aliases: ["Nemty"]
+description: "A new ransomware family dubbed “Nemty” for the extension it adds to encrypted files has recently surfaced in the wild. According to a report from Bleeping Computer, New York-based reverse engineer Vitali Kremez posits that Nemty is possibly delivered through exposed remote desktop connections."
+url: "/nemty"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RemoteCMD"
+  - name: "Remote Utilities"
+  - name: "RemotePC"
+  - name: "DesktopNow"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "5fb75933-1ed5-4512-a062-d39865eedab0"
+    source_record_ids: ["5fb75933-1ed5-4512-a062-d39865eedab0"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

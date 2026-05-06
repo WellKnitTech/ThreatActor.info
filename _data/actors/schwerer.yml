@@ -1,0 +1,14 @@
+name: "Schwerer"
+aliases: ["Schwerer"]
+description: "ransomware"
+url: "/schwerer"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "eaea10da-947e-42f9-99c9-6a576fda3bdc"
+    source_record_ids: ["eaea10da-947e-42f9-99c9-6a576fda3bdc"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

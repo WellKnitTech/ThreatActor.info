@@ -1,0 +1,27 @@
+{
+  "mitre_id": "T1087.003",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "TA505",
+      "url": "/cl0p"
+    },
+    {
+      "name": "Magic Hound",
+      "url": "/apt35"
+    },
+    {
+      "name": "RedCurl",
+      "url": "/apt1039"
+    },
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+name: "Hog"
+aliases: ["Hog"]
+description: "ransomware"
+url: "/hog"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "419955fb-cfe6-4eba-b2ec-de53f4266e25"
+    source_record_ids: ["419955fb-cfe6-4eba-b2ec-de53f4266e25"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

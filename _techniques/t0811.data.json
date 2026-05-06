@@ -1,0 +1,47 @@
+{
+  "mitre_id": "T0811",
+  "mitigations": [
+    {
+      "name": "Audit",
+      "mitre_id": "M0947",
+      "url": "https://attack.mitre.org/mitigations/M0947",
+      "stix_id": "course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697"
+    },
+    {
+      "name": "Encrypt Sensitive Information",
+      "mitre_id": "M0941",
+      "url": "https://attack.mitre.org/mitigations/M0941",
+      "stix_id": "course-of-action--9f99fcfd-772e-4e63-9d39-e45612e546dc"
+    },
+    {
+      "name": "Restrict File and Directory Permissions",
+      "mitre_id": "M0922",
+      "url": "https://attack.mitre.org/mitigations/M0922",
+      "stix_id": "course-of-action--f9fcb3ec-6de0-4559-8cd9-ef1c0c7d1971"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M0918",
+      "url": "https://attack.mitre.org/mitigations/M0918",
+      "stix_id": "course-of-action--e57ebc6d-785f-40c8-adb1-b5b5e09b3b48"
+    },
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M0926",
+      "url": "https://attack.mitre.org/mitigations/M0926",
+      "stix_id": "course-of-action--622fe4d4-0e8e-4d17-9c25-6c9cef1f15d5"
+    },
+    {
+      "name": "User Training",
+      "mitre_id": "M0917",
+      "url": "https://attack.mitre.org/mitigations/M0917",
+      "stix_id": "course-of-action--dc61c280-c29d-44e5-a960-c0dd1623d2ba"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

@@ -13,7 +13,9 @@ For the first time, the activity of the Calypso group was detected by specialist
 **Targeted Sectors**: Government, Administration
 
 
+**First Seen**: 2019
 
+**Last Activity**: 2019
 
 
 ## Notable Campaigns
@@ -23,7 +25,7 @@ For the first time, the activity of the Calypso group was detected by specialist
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+*No atomic indicators are listed in this profile. The APTnotes snapshot indexes 1 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
 ## Malware and Tools
 - **RIPTIDE**

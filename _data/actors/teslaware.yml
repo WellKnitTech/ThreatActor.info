@@ -1,0 +1,14 @@
+name: "TeslaWare"
+aliases: ["TeslaWare"]
+description: "ransomware"
+url: "/teslaware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "db9aa4f1-5f54-4bed-9f7a-a19e906f94b4"
+    source_record_ids: ["db9aa4f1-5f54-4bed-9f7a-a19e906f94b4"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "Nemucod"
+aliases: ["Nemucod-7z","Nemucod-AES","Nemucod"]
+description: "Ransomware 7zip (a0.exe) variant cannot be decrypted Encrypts the first 2048 Bytes"
+url: "/nemucod"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","price","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "f1ee9ae8-b798-4e6f-8f98-874395d0fa18"
+    source_record_ids: ["f1ee9ae8-b798-4e6f-8f98-874395d0fa18"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

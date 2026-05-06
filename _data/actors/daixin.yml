@@ -1,0 +1,17 @@
+name: "Daixin"
+aliases: ["Daixin"]
+description: "Daixin Team is a ransomware and data extortion group active since at least June 2022, known for targeting the healthcare sector, including hospitals, clinics, and related service providers. The group employs a double-extortion model—exfiltrating sensitive data before encrypting systems—and has leaked protected health information (PHI) to pressure victims. Intrusions often involve exploiting VPN vulnerabilities (notably in Fortinet FortiOS) and using compromised credentials for initial access. The ransomware uses AES for file encryption with RSA to protect the keys, and ransom notes direct victims to a Tor-based portal. The U.S. CISA, FBI, and HHS have issued joint advisories warning of the group’s impact on healthcare delivery and patient safety"
+url: "/daixin"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Xploit"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "a1a445c4-708e-42f2-afdf-6d904328dafb"
+    source_record_ids: ["a1a445c4-708e-42f2-afdf-6d904328dafb"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

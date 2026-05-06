@@ -1,0 +1,18 @@
+name: "Bjorka"
+aliases: ["Bjorka","bjorka"]
+description: "Bjorka is an underground actor persona that has claimed attacks on victims in a wide range of sectors and geographies. Researchers assess that the Bjorka persona is likely the administrator of a \"data leak site\" discovered in January 2025, which operates under the moniker \"Babuk 2\", ostensibly in reference to the Babuk ransomware that was highly active in the early 2020's. Researchers also assessed that much of the alleged victim data published on the site was likely recycled from previous information leaks.<sup>[[Cyjax Bjorka January 29 2025](/references/1d775a36-8b15-49f8-8c08-f92101e6d1be)]</sup>"
+url: "/bjorka"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "GraphicBooting"
+  - name: "Archelaus Beta"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories","links","refs"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json","ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "904e9735-74f6-4fac-b498-91fddd49fe64"
+    source_record_ids: ["904e9735-74f6-4fac-b498-91fddd49fe64","636e0d8f-629c-57c1-ab01-6f20fef588b5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

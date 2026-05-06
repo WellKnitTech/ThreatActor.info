@@ -1,0 +1,16 @@
+name: "Special Branch (Pakistan)"
+aliases: ["Special Branch (Pakistan)"]
+description: "Special Branch (Pakistan)"
+url: "/special-branch-pakistan"
+country: "Pakistan"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "56ffa023-0e05-5883-b35b-e16d37ffb7db"
+    source_record_ids: ["56ffa023-0e05-5883-b35b-e16d37ffb7db"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

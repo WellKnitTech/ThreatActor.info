@@ -1,0 +1,15 @@
+name: "Kraken Cryptor Ransomware"
+aliases: ["Kraken Cryptor Ransomware"]
+description: "The Kraken Cryptor Ransomware is a newer ransomware that was released in August 2018. A new version, called Kraken Cryptor 1.5, was recently released that is masquerading as the legitimate SuperAntiSpyware anti-malware program in order to trick users into installing it. "
+url: "/kraken-cryptor-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c49f88f6-c87d-11e8-b005-d76e8162ced5"
+    source_record_ids: ["c49f88f6-c87d-11e8-b005-d76e8162ced5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

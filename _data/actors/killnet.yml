@@ -5,9 +5,28 @@ url: "/killnet"
 sector_focus: ["Government"]
 targeted_victims: ["United States","Czech Republic"]
 incident_type: "Denial of service"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/killnet"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Net Crawler"
+  - name: "FLASHFLOOD"
+  - name: "Small-Net"
+  - name: "Archelaus Beta"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "killnet"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/killnet"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "ad2d6946-1ec2-4d77-b864-39980af4e103"
   misp_galaxy:
+    meta_keys: ["cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","refs","synonyms","group_attack_id","observed_countries","owner","source","tags","target_categories"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","tidal-groups.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "ad2d6946-1ec2-4d77-b864-39980af4e103"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["ad2d6946-1ec2-4d77-b864-39980af4e103","35fb7663-5c5d-43fe-a507-49612aa7960e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "FileEngineering"
+aliases: ["FileEngineering"]
+description: "ransomware"
+url: "/fileengineering"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "2a2f3d8f-83c1-490b-94d1-b56b90e81d19"
+    source_record_ids: ["2a2f3d8f-83c1-490b-94d1-b56b90e81d19"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,14 @@
+name: "GPAA"
+aliases: ["GPAA"]
+description: "ransomware"
+url: "/gpaa"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "11684b37-3bc6-4d74-b72e-8689f5340bc2"
+    source_record_ids: ["11684b37-3bc6-4d74-b72e-8689f5340bc2"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,16 @@
+name: "Public Security Intelligence Agency"
+aliases: ["Public Security Intelligence Agency"]
+description: "Public Security Intelligence Agency (PSIA)"
+url: "/public-security-intelligence-agency"
+country: "Japan"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "abc24332-f775-5e2b-92a9-37d14eb01cda"
+    source_record_ids: ["abc24332-f775-5e2b-92a9-37d14eb01cda"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

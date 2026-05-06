@@ -1,0 +1,16 @@
+name: "Direction Nationale du Renseignement et des Enquêtes Douanières"
+aliases: ["Direction Nationale du Renseignement et des Enquêtes Douanières"]
+description: "Direction Nationale du Renseignement et des Enquêtes Douanières (DNRED)"
+url: "/direction-nationale-du-renseignement-et-des-enqu-tes-douani-res"
+country: "France"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "a810dad8-0f83-502c-a1a0-86b62a18a7ff"
+    source_record_ids: ["a810dad8-0f83-502c-a1a0-86b62a18a7ff"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

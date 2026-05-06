@@ -1,0 +1,20 @@
+name: "axxes"
+aliases: ["axxes"]
+description: "Axxes ransomware emerged as a rebranded version of the previously known Midas ransomware group, with roots also tracing back through Haron and Avaddon lineage. It operates via a single-extortion model, encrypting files and appending the .axxes extension. Victims receive both an “RESTORE_FILES_INFO.hta” and a “.txt” ransom note. The ransomware performs extra actions like determining the device’s geolocation, modifying the Windows Firewall, changing file extensions, and terminating processes using taskkill.exe. Its known targets span the U.S., UAE, France, and China, including at least one high-profile victim—The H Dubai hotel. This group appears financially motivated, leveraging historical branding and code of earlier groups for its operations."
+url: "/axxes"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "China Chopper"
+  - name: "Back Orifice"
+  - name: "Back Orifice 2000"
+  - name: "Windows Remote Desktop"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "021234f2-d4bf-5d71-854f-50f8cf0c8572"
+    source_record_ids: ["021234f2-d4bf-5d71-854f-50f8cf0c8572"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

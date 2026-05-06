@@ -1,13 +1,50 @@
 name: "Sandworm Team"
-aliases: ["APT44","BlackEnergy (Group)","ELECTRUM","FROZENBARENTS","IRIDIUM","IRON VIKING","Quedagh","Sandworm Team","Seashell Blizzard","Telebots","Voodoo Bear"]
+aliases: ["APT44","BlackEnergy (Group)","ELECTRUM","FROZENBARENTS","IRIDIUM","IRON VIKING","Quedagh","Sandworm Team","Seashell Blizzard","Telebots","Voodoo Bear","Sandworm","VOODOO BEAR","BE2","UAC-0113","Blue Echidna","PHANTOM","BlackEnergy Lite","TEMP.Noble","G0034","TeleBots","UAC-0082"]
 description: "Sandworm Team is a destructive threat group that has been attributed to Russia's General Staff Main Intelligence Directorate (GRU) Main Center for Special Technologies (GTsST) military unit 74455. [US District Court Indictment GRU Unit 74455 October 2020](https://www.justice.gov/opa/press-release/file/1328521/download) [UK NCSC Olympic Attacks October 2020](https://www.gov.uk/government/news/uk-exposes-series-of-russian-cyber-attacks-against-olympic-and-paralympic-games) This group has been active since at least 2009. [iSIGHT Sandworm 2014](https://www.fireeye.com/blog/threat-research/2016/01/ukraine-and-sandworm-team.html) [CrowdStrike VOODOO BEAR](https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-january-voodoo-bear/) [USDOJ Sandworm Feb 2020](https://2017-2021.state.gov/the-united-states-condemns-russian-cyber-attack-against-the-country-of-georgia/index.html) [NCSC Sandworm Feb 2020](https://www.ncsc.gov.uk/news/ncsc-supports-sandworm-advisory)\n\nIn October 2020, the US indicted six GRU Unit 74455 officers associated with Sandworm Team for the following cyber operations: the 2015 and 2016 attacks against Ukrainian electrical companies and government organizations, the 2017 worldwide NotPetya attack, targeting of the 2017 French presidential campaign, the 2018 Olympic Destroyer attack against the Winter Olympic Games, the 2018 operation against the Organisation for the Prohibition of Chemical Weapons, and attacks against the country of Georgia in 2018 and 2019. [US District Court Indictment GRU Unit 74455 October 2020](https://www.justice.gov/opa/press-release/file/1328521/download) [UK NCSC Olympic Attacks October 2020](https://www.gov.uk/government/news/uk-exposes-series-of-russian-cyber-attacks-against-olympic-and-paralympic-games) Some of these were conducted with the assistance of GRU Unit 26165, which is also referred to as APT28. [US District Court Indictment GRU Oct 2018](https://www.justice.gov/opa/page/file/1098481/download)"
 url: "/apt0034"
+country: "Russia"
+sector_focus: ["Electric","Energy","Industrial","Private sector","Government"]
+targeted_victims: ["Russia","Lithuania","Kyrgyzstan","Israel","Ukraine","Belarus","Kazakhstan","Georgia","Poland","Azerbaijan","Iran"]
+incident_type: "Espionage"
+first_seen: "2014"
+last_activity: "2015"
 external_id: "G0034"
 external_url: "https://attack.mitre.org/groups/G0034"
 mitre_id: "G0034"
 mitre_url: "https://attack.mitre.org/groups/G0034"
+source_name: "MISP Galaxy"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/iridium"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
 provenance:
+  aptnotes:
+    earliest_report_year: "2014"
+    latest_report_year: "2015"
+    report_count: 2
+    sample_links: ["https://app.box.com/s/0aem5xn8owa5hpsjxuqbyloielln6oyh","https://app.box.com/s/xrwk7gqk44dp89fioubewttrw8a88im1"]
+    sample_titles: ["Be2 Custom Plugins, Router Abuse, And Target Profiles","Operation Oil Tanker: The Phantom Menace"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Kaspersky","Pandalabs"]
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "sandworm"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/sandworm"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "f512de42-f76b-40d2-9923-59e7dbdfec35"
+  misp_galaxy:
+    meta_keys: ["country","microsoft-origin-threat","refs","sector","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories"]
+    source_cluster: "microsoft-activity-group.json"
+    source_clusters: ["microsoft-activity-group.json","tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
+    source_record_id: "473eb51c-36cb-5e3a-8347-2f57df809be9"
+    source_record_ids: ["473eb51c-36cb-5e3a-8347-2f57df809be9","16a65ee9-cd60-4f04-ba34-f2f45fcfc666"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0034"

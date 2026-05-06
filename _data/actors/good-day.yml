@@ -1,0 +1,17 @@
+name: "good day"
+aliases: ["good day"]
+description: "Good Day is a ransomware variant within the ARCrypter family, first observed in May 2023. It gained prominence due to its reticent financial extortion model and custom branding—victims are greeted with a “Good day” message upon landing on individualized Tor-based victim portals. The malware is typically delivered via phishing campaigns disguising payloads as legitimate Windows updates. It utilizes a robust encryption workflow, including deletion of volume shadow copies and process evasion mechanisms. Notably, Good Day has been linked to the Cloak ransomware group through shared data leak infrastructure and overlapping leak portal behaviors."
+url: "/good-day"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Windows Remote Desktop"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "025cf965-bb4b-50d6-8511-c8747e2bebee"
+    source_record_ids: ["025cf965-bb4b-50d6-8511-c8747e2bebee"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

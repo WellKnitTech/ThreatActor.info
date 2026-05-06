@@ -1,0 +1,16 @@
+name: "Inteligencia del Servicio Penitenciario Federal"
+aliases: ["Inteligencia del Servicio Penitenciario Federal"]
+description: "Federal Penitentiary Service Intelligence – Inteligencia del Servicio Penitenciario Federal"
+url: "/inteligencia-del-servicio-penitenciario-federal"
+country: "Argentina"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "d75f63f3-262d-58ab-a684-78675b141885"
+    source_record_ids: ["d75f63f3-262d-58ab-a684-78675b141885"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

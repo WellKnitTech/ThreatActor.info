@@ -1,0 +1,16 @@
+name: "Canadian Security Intelligence Service"
+aliases: ["Canadian Security Intelligence Service"]
+description: "Canadian Security Intelligence Service (CSIS)"
+url: "/canadian-security-intelligence-service"
+country: "Canada"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "f351434c-cd1b-57b4-84ce-866b4cd7d800"
+    source_record_ids: ["f351434c-cd1b-57b4-84ce-866b4cd7d800"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

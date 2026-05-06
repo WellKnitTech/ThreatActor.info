@@ -1,0 +1,17 @@
+{
+  "mitre_id": "T1582",
+  "mitigations": [
+    {
+      "name": "User Guidance",
+      "mitre_id": "M1011",
+      "url": "https://attack.mitre.org/mitigations/M1011",
+      "stix_id": "course-of-action--653492e3-27be-4a0e-b08c-938dd2b7e0e1"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

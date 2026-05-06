@@ -16,7 +16,9 @@ This threat actor uses spear-phishing techniques to compromise diplomatic target
 
 **Risk Level**: High
 
+**First Seen**: 2015
 
+**Last Activity**: 2015
 
 **Incident Type**: Espionage
 
@@ -29,7 +31,7 @@ This threat actor uses spear-phishing techniques to compromise diplomatic target
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+*No atomic indicators are listed in this profile. The APTnotes snapshot indexes 2 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
 ## Malware and Tools
 - **UNITEDRAKE**

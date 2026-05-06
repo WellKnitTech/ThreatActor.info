@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "LockBit"
-aliases: ["ABCD Ransomware"]
+aliases: ["ABCD Ransomware","ABCD ransomware","LockBit"]
 description: "LockBit is a ransomware-as-a-service operation known for its fast encryption and double extortion tactics."
 permalink: /lockbit/
 ---
@@ -68,6 +68,7 @@ LockBit is a ransomware-as-a-service operation known for its fast encryption and
 
 | CVE ID | Vendor | Product | Date Added |
 |-------|-------|--------|----------|
+| CVE-2024-1708 | ConnectWise | ScreenConnect | 2026-04-28 |
 | CVE-2024-1709 | ConnectWise | ScreenConnect | 2024-02-22 |
 | CVE-2023-4966 | Citrix | NetScaler ADC and NetScaler Gateway | 2023-10-18 |
 | CVE-2022-36537 | ZK Framework | AuUploader | 2023-02-27 |

@@ -1,0 +1,14 @@
+name: "EncoderCSL"
+aliases: ["EncoderCSL"]
+description: "Ransomware"
+url: "/encodercsl"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "a24aee63-5e3c-4aec-a79d-6cb3cf2ee7a5"
+    source_record_ids: ["a24aee63-5e3c-4aec-a79d-6cb3cf2ee7a5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

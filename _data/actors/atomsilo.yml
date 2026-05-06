@@ -1,0 +1,17 @@
+name: "Atomsilo"
+aliases: ["Atomsilo"]
+description: "AtomSilo is a new Ransomware recently seen in September 2021 during one of their attacks by exploiting a recently revealed vulnerability (CVE-2021-26084) in Atlassian’s Confluence Collaboration Software for initial access. The Ransomware used the double extortion method which is gaining popularity among ransomware threat actors where they first, exfiltrate the confidential information and as a second step encrypt the system files."
+url: "/atomsilo"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Xploit"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","links","ransomenotes-files","ransomnotes","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "a322f03f-4bc8-455f-b302-e8724c46f80c"
+    source_record_ids: ["a322f03f-4bc8-455f-b302-e8724c46f80c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

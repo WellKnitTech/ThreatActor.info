@@ -1,0 +1,14 @@
+name: "Gunra"
+aliases: ["Gunra"]
+description: "Gunra is an emerging ransomware group first identified in April 2025. It employs a classic double-extortion model—encrypting sensitive data and exfiltrating it for publication via a Tor-hosted leak site. Since its emergence, Gunra has struck a diverse set of global targets—reportedly spanning sectors like manufacturing, healthcare, IT, real estate, agriculture, and consulting in countries including Brazil, Japan, Canada, Turkey, South Korea, Taiwan, Egypt, and the U.S."
+url: "/gunra"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/gunra"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "gunra"
+  source_retrieved_at: "2026-05-06T22:00:08Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

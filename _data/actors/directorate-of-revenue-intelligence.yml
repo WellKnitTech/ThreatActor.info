@@ -1,0 +1,18 @@
+name: "Directorate of Revenue Intelligence"
+aliases: ["Directorate of Revenue Intelligence"]
+description: "Directorate of Revenue Intelligence"
+url: "/directorate-of-revenue-intelligence"
+country: "India"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Revenge-RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "2b356bff-b980-5a84-9894-4c6a3a7a1e99"
+    source_record_ids: ["2b356bff-b980-5a84-9894-4c6a3a7a1e99"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

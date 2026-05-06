@@ -1,0 +1,15 @@
+name: "Sage 2.0 Ransomware"
+aliases: ["Sage 2.0 Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide. This ransomware attacks your MS Office by offering a Micro to help with your program, but instead incrypts all your files if the used id not protected. Predecessor CryLocker"
+url: "/sage-2-0-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "9174eef3-65f7-4ab5-9b55-b323b36fb962"
+    source_record_ids: ["9174eef3-65f7-4ab5-9b55-b323b36fb962"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

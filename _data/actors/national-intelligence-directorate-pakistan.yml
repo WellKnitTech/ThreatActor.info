@@ -1,0 +1,16 @@
+name: "National Intelligence Directorate (Pakistan)"
+aliases: ["National Intelligence Directorate (Pakistan)"]
+description: "National Intelligence Directorate (NID)"
+url: "/national-intelligence-directorate-pakistan"
+country: "Pakistan"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "504fa94a-cc33-5db7-a3c8-e6a198728f09"
+    source_record_ids: ["504fa94a-cc33-5db7-a3c8-e6a198728f09"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

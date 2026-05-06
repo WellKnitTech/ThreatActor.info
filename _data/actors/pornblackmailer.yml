@@ -1,0 +1,22 @@
+name: "PornBlackmailer"
+aliases: ["PornBlackmailer"]
+description: "A new infection is being distributed by porn sites that tries to blackmail a victim into paying a ransom by stating they will tell law enforcement that the victim is spreading child porn. This is done by collecting information about the user, including screen shots of their active desktop, in order to catch them in compromising situations."
+url: "/pornblackmailer"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "BlackEnergy"
+  - name: "BLACKCOFFEE"
+  - name: "Blackshades"
+  - name: "BlackNix"
+  - name: "DesktopNow"
+  - name: "BlackHole"
+provenance:
+  misp_galaxy:
+    meta_keys: ["ransomnotes","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "a1a730e2-f1a4-4d7b-9930-80529cd97f3c"
+    source_record_ids: ["a1a730e2-f1a4-4d7b-9930-80529cd97f3c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

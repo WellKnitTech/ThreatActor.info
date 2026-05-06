@@ -1,0 +1,17 @@
+name: "RegretLocker"
+aliases: ["RegretLocker"]
+description: "RegretLocker is a new ransomware that has been found in the wild in the last month that does not only encrypt normal files on disk like other ransomwares. When running, it will particularly search for VHD files, mount them using Windows Virtual Storage API, and then encrypt all the files it finds inside of those VHD files."
+url: "/regretlocker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Windows Remote Desktop"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "9479d372-605e-408e-a2a3-ea971ad4ad78"
+    source_record_ids: ["9479d372-605e-408e-a2a3-ea971ad4ad78"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

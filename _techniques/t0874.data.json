@@ -1,0 +1,23 @@
+{
+  "mitre_id": "T0874",
+  "mitigations": [
+    {
+      "name": "Restrict Library Loading",
+      "mitre_id": "M0944",
+      "url": "https://attack.mitre.org/mitigations/M0944",
+      "stix_id": "course-of-action--2ab9fc6d-3cf6-4d7b-85f1-3ad6949233b3"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M0947",
+      "url": "https://attack.mitre.org/mitigations/M0947",
+      "stix_id": "course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "mitre_id": "T0862",
+  "mitigations": [
+    {
+      "name": "Update Software",
+      "mitre_id": "M0951",
+      "url": "https://attack.mitre.org/mitigations/M0951",
+      "stix_id": "course-of-action--97f33c84-8508-45b9-8a1d-cac921828c9e"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M0947",
+      "url": "https://attack.mitre.org/mitigations/M0947",
+      "stix_id": "course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697"
+    },
+    {
+      "name": "Vulnerability Scanning",
+      "mitre_id": "M0916",
+      "url": "https://attack.mitre.org/mitigations/M0916",
+      "stix_id": "course-of-action--de0bc375-50e1-4e26-a342-a8ff8c9d3037"
+    },
+    {
+      "name": "Supply Chain Management",
+      "mitre_id": "M0817",
+      "url": "https://attack.mitre.org/mitigations/M0817",
+      "stix_id": "course-of-action--ac8f3492-7fbb-4a0a-b0b4-b75ec676136c"
+    },
+    {
+      "name": "Code Signing",
+      "mitre_id": "M0945",
+      "url": "https://attack.mitre.org/mitigations/M0945",
+      "stix_id": "course-of-action--71eb7dad-07eb-4bbc-9df0-ac57bf2fba4a"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "TEMP.Veles",
+      "url": "/apt0088"
+    },
+    {
+      "name": "Dragonfly",
+      "url": "/apt0035"
+    }
+  ]
+}

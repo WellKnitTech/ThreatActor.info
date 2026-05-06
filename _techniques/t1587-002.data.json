@@ -1,0 +1,28 @@
+{
+  "mitre_id": "T1587.002",
+  "mitigations": [
+    {
+      "name": "Pre-compromise",
+      "mitre_id": "M1056",
+      "url": "https://attack.mitre.org/mitigations/M1056",
+      "stix_id": "course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Daggerfly",
+      "url": "/apt1034"
+    },
+    {
+      "name": "PROMETHIUM",
+      "url": "/apt0056"
+    },
+    {
+      "name": "Patchwork",
+      "url": "/apt0040"
+    }
+  ]
+}

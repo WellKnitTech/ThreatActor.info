@@ -1,0 +1,20 @@
+{
+  "mitre_id": "T1090.004",
+  "mitigations": [
+    {
+      "name": "SSL/TLS Inspection",
+      "mitre_id": "M1020",
+      "url": "https://attack.mitre.org/mitigations/M1020",
+      "stix_id": "course-of-action--7bb5fae9-53ad-4424-866b-f0ea2a8b731d"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "APT29",
+      "url": "/apt29"
+    }
+  ]
+}

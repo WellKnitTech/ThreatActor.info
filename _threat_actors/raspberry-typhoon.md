@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Raspberry Typhoon"
-aliases: ["RADIUM","Raspberry Typhoon"]
+aliases: ["RADIUM","Raspberry Typhoon","APT30","LotusBlossom","LOTUS PANDA"]
 description: "Microsoft has tracked Raspberry Typhoon (RADIUM) as the primary threat group targeting nations that ring the South China Sea. Raspberry Typhoon consistently targets government ministries, military enti"
 permalink: /raspberry-typhoon/
 ---

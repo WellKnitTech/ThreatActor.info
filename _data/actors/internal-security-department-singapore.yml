@@ -1,0 +1,18 @@
+name: "Internal Security Department (Singapore)"
+aliases: ["Internal Security Department (Singapore)"]
+description: "Internal Security Department (ISD)"
+url: "/internal-security-department-singapore"
+country: "Singapore"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RTM"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "c9cdb07d-3b25-539e-8ea8-f501ad5aa073"
+    source_record_ids: ["c9cdb07d-3b25-539e-8ea8-f501ad5aa073"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

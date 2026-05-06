@@ -1,0 +1,18 @@
+name: "BianLian Ransomware Group"
+aliases: ["BianLian Ransomware Group"]
+description: "BianLian is an extortion-focused threat actor group. The group originally used double-extortion methods when it began its operations in June 2022, demanding payment in exchange for decrypting locked files while also threatening to leak exfiltrated data. U.S. & Australian cybersecurity officials observed BianLian actors shifting almost exclusively to exfiltration-focused extortion schemes in 2023.<sup>[[U.S. CISA BianLian Ransomware May 2023](/references/aa52e826-f292-41f6-985d-0282230c8948)]</sup>\n\n**Related Vulnerabilities**: CVE-2020-1472<sup>[[U.S. CISA BianLian Ransomware May 2023](/references/aa52e826-f292-41f6-985d-0282230c8948)]</sup>, CVE-2021-34473<sup>[[BianLian Ransomware Gang Gives It a Go! | [redacted]](/references/fc1aa979-7dbc-4fff-a8d1-b35a3b2bec3d)]</sup>, CVE-2021-34523<sup>[[BianLian Ransomware Gang Gives It a Go! | [redacted]](/references/fc1aa979-7dbc-4fff-a8d1-b35a3b2bec3d)]</sup>, CVE-2021-31207<sup>[[BianLian Ransomware Gang Gives It a Go! | [redacted]](/references/fc1aa979-7dbc-4fff-a8d1-b35a3b2bec3d)]</sup>\n\n**PulseDive (IOCs)**: https://pulsedive.com/threat/BianLian"
+url: "/bianlian-ransomware-group"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "a2add2a0-2b54-4623-a380-a9ad91f1f2dd"
+    source_record_ids: ["a2add2a0-2b54-4623-a380-a9ad91f1f2dd"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "RansomPlus"
+aliases: ["RansomPlus"]
+description: "Author of this ransomware is sergej. Ransom is 0.25 bitcoins for the return of files. Originated in English. Used worldwide. This ransomware is spread with the help of email spam, fake ads, fake updates, infected install files."
+url: "/ransomplus"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c039a50b-f5f9-4ad0-8b66-e1d8cc86717b"
+    source_record_ids: ["c039a50b-f5f9-4ad0-8b66-e1d8cc86717b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

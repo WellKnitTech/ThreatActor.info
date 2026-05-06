@@ -12,9 +12,13 @@ Libyan Scorpions is a malware operation in use since September 2015 and operated
 ## Activities and Tactics
 **Targeted Sectors**: Intelligence
 
+**Country of Origin**: 🏳️ Libya
+
 **Risk Level**: High
 
+**First Seen**: 2016
 
+**Last Activity**: 2016
 
 
 ## Notable Campaigns
@@ -24,13 +28,14 @@ Libyan Scorpions is a malware operation in use since September 2015 and operated
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+*No atomic indicators are listed in this profile. The APTnotes snapshot indexes 1 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
 ## Malware and Tools
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Libya
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

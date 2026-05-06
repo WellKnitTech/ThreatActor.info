@@ -1,0 +1,71 @@
+{
+  "mitre_id": "T1137",
+  "mitigations": [
+    {
+      "name": "Disable or Remove Feature or Program",
+      "mitre_id": "M1042",
+      "url": "https://attack.mitre.org/mitigations/M1042",
+      "stix_id": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31"
+    },
+    {
+      "name": "Behavior Prevention on Endpoint",
+      "mitre_id": "M1040",
+      "url": "https://attack.mitre.org/mitigations/M1040",
+      "stix_id": "course-of-action--90f39ee1-d5a3-4aaa-9f28-3b42815b0d46"
+    },
+    {
+      "name": "Update Software",
+      "mitre_id": "M1051",
+      "url": "https://attack.mitre.org/mitigations/M1051",
+      "stix_id": "course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b"
+    },
+    {
+      "name": "Software Configuration",
+      "mitre_id": "M1054",
+      "url": "https://attack.mitre.org/mitigations/M1054",
+      "stix_id": "course-of-action--b5dbb4c5-b0b1-40b1-80b6-e9e84ab90067"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1137.002",
+      "name": "Office Test",
+      "permalink": "/techniques/T1137.002/"
+    },
+    {
+      "id": "T1137.001",
+      "name": "Office Template Macros",
+      "permalink": "/techniques/T1137.001/"
+    },
+    {
+      "id": "T1137.004",
+      "name": "Outlook Home Page",
+      "permalink": "/techniques/T1137.004/"
+    },
+    {
+      "id": "T1137.003",
+      "name": "Outlook Forms",
+      "permalink": "/techniques/T1137.003/"
+    },
+    {
+      "id": "T1137.006",
+      "name": "Add-ins",
+      "permalink": "/techniques/T1137.006/"
+    },
+    {
+      "id": "T1137.005",
+      "name": "Outlook Rules",
+      "permalink": "/techniques/T1137.005/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "APT32",
+      "url": "/apt32"
+    },
+    {
+      "name": "Gamaredon Group",
+      "url": "/apt0047"
+    }
+  ]
+}

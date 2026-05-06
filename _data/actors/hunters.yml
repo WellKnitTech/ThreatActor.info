@@ -1,0 +1,14 @@
+name: "Hunters"
+aliases: ["Hunters"]
+description: "Hunters International is a ransomware group first identified in October 2023, believed to have taken over or rebranded from the now-defunct Hive ransomware operation. Shortly after its emergence, security researchers found significant code overlaps with Hive, suggesting that Hunters International either acquired Hive’s source code or involved former Hive developers. The group operates a double-extortion model—encrypting victim data and threatening to leak it on a Tor-based site. It has targeted organizations worldwide across healthcare, manufacturing, education, and government sectors. The ransomware is written in Rust, supports both Windows and Linux/ESXi environments, and appends extensions such as .locked to encrypted files. Initial access is typically obtained via compromised RDP credentials, phishing campaigns, or vulnerabilities in exposed systems."
+url: "/hunters"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/hunters"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "hunters"
+  source_retrieved_at: "2026-05-06T21:55:21Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

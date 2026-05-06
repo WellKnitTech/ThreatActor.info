@@ -1,0 +1,16 @@
+name: "General Directorate for Internal Security"
+aliases: ["Direction générale de la sécurité intérieure","General Directorate for Internal Security"]
+description: "General Directorate for Internal Security (DGSI; Direction générale de la sécurité intérieure) – Domestic counter-terrorism and counter-espionage intelligence."
+url: "/general-directorate-for-internal-security"
+country: "France"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "05aaf32a-c612-595f-8d4d-c6500542c6b7"
+    source_record_ids: ["05aaf32a-c612-595f-8d4d-c6500542c6b7"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

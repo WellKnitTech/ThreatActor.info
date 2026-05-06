@@ -1,0 +1,14 @@
+name: "Browlock"
+aliases: ["Browlock"]
+description: "Ransomware no local encryption, browser only"
+url: "/browlock"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "9769be50-8e0b-4f52-b7f6-98aeac0aaac4"
+    source_record_ids: ["9769be50-8e0b-4f52-b7f6-98aeac0aaac4"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

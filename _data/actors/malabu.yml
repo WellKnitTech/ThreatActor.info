@@ -1,0 +1,14 @@
+name: "Malabu"
+aliases: ["Malabu"]
+description: "ransomware"
+url: "/malabu"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "8ee63c4b-eb0d-47f1-b867-41afb64a5686"
+    source_record_ids: ["8ee63c4b-eb0d-47f1-b867-41afb64a5686"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

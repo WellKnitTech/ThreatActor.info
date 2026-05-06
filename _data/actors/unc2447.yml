@@ -2,9 +2,23 @@ name: "UNC2447"
 aliases: ["UNC2447"]
 description: "UNC2447 is a financially motivated threat actor with ties to multiple hacker groups. They have been observed deploying ransomware, including FiveHands and Hello Kitty, and engaging in double extortion tactics. They have been active since at least May 2020 and target organizations in Europe and North America."
 url: "/unc2447"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc2447"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "unc2447"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc2447"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "590ecec6-4047-4d0f-9143-2e367700423d"
   misp_galaxy:
+    meta_keys: ["origin:UNC2447","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "590ecec6-4047-4d0f-9143-2e367700423d"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["590ecec6-4047-4d0f-9143-2e367700423d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

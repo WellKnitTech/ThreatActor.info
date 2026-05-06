@@ -1,0 +1,16 @@
+name: "National Intelligence Coordinating Agency"
+aliases: ["Pambansang Ahensiya sa Ugnayang Intelihensiya","National Intelligence Coordinating Agency"]
+description: "National Intelligence Coordinating Agency (NICA) – Pambansang Ahensiya sa Ugnayang Intelihensiya"
+url: "/national-intelligence-coordinating-agency"
+country: "Philippines"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "83c903b7-f1d4-5812-aa91-8ce8f7d6b26b"
+    source_record_ids: ["83c903b7-f1d4-5812-aa91-8ce8f7d6b26b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

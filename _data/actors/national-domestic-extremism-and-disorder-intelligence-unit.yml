@@ -1,0 +1,18 @@
+name: "National Domestic Extremism and Disorder Intelligence Unit"
+aliases: ["National Domestic Extremism and Disorder Intelligence Unit"]
+description: "National Domestic Extremism and Disorder Intelligence Unit (NDEDIU)[34] – Domestic counter extremism and public disorder intelligence gathering and analysis."
+url: "/national-domestic-extremism-and-disorder-intelligence-unit"
+country: "United Kingdom"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "XtremeRAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "7bb18ba0-19c3-530d-ab6d-6621dc5141ab"
+    source_record_ids: ["7bb18ba0-19c3-530d-ab6d-6621dc5141ab"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "NanoLocker"
+aliases: ["NanoLocker"]
+description: "Ransomware no extension change, has a GUI"
+url: "/nanolocker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","payment-method","price","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "03a91686-c607-49a8-a4e2-2054833c0013"
+    source_record_ids: ["03a91686-c607-49a8-a4e2-2054833c0013"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

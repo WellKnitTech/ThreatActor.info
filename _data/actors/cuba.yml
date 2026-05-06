@@ -1,0 +1,25 @@
+name: "Cuba"
+aliases: ["COLDDRAW","Fidel","Cuba"]
+description: "The Cuba Ransomware, also known as Colddraw Ransomware, was first identified in the threat landscape in 2019 and built a relatively small but selected list of victims. The group is also known as Fidel Ransomware, due to a characteristic marker placed at the beginning of all encrypted files. This file marker is used as an indicator for the ransomware and its decoder that the file has been encrypted.\nDespite its name and the Cuban nationalist style on its leak site, it is difficult to assert any connection or affiliation with the Republic of Cuba. The group has been linked to a Russian-language threat actor by Profero researchers due to some details of incorrect translation they discovered, as well as the discovery of a 404 page containing text in Russian on the threat actor's own leak site.\nAccording to BlackBerry, based on the analysis of the code strings used in the campaign analyzed in 2023, there were indications that the developer behind the Cuba ransomware speaks Russian.\nThe ransomware operators use a double extortion approach, and following the USA, in August 2022, it was believed that the Cuba ransomware group had compromised 101 entities, demanding $145 million in ransom payments and receiving up to $60 million.\nThe group used a similar set of TTPs, with only a slight change each year, as they generally consist of LOLBins (executables that are part of the operating system and can be exploited to support an attack), exploits, off-the-shelf and custom malware, as well as intrusion tools like Cobalt Strike and Metasploit.\nIn 2022, the group allegedly developed a relationship with operators of the Industrial Spy market, using their platform as a means of data leakage."
+url: "/cuba"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "BlackEnergy"
+  - name: "BLACKCOFFEE"
+  - name: "Blackshades"
+  - name: "BlackNix"
+  - name: "Small-Net"
+  - name: "Xploit"
+  - name: "Archelaus Beta"
+  - name: "BlackHole"
+  - name: "Cobalt Strike"
+provenance:
+  misp_galaxy:
+    meta_keys: ["TTP","links","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "82ed1669-89ba-4432-bc97-148a25c15fdf"
+    source_record_ids: ["82ed1669-89ba-4432-bc97-148a25c15fdf"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

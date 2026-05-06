@@ -1,13 +1,13 @@
 ---
 layout: threat_actor
 title: "TeamXRat"
-aliases: ["CorporacaoXRat","CorporationXRat","TeamXRat"]
-description: "TeamXRat is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
+aliases: ["CorporacaoXRat","CorporationXRat","TeamXRat","TeamXrat"]
+description: "Ransomware"
 permalink: /teamxrat/
 ---
 
 ## Introduction
-TeamXRat is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing.
+Ransomware
 
 ## Activities and Tactics
 *Information pending cataloguing.*

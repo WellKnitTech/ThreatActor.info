@@ -1,0 +1,15 @@
+name: "Direction Generale pour l'Etude et la Documentation"
+aliases: ["Direction Generale pour l'Etude et la Documentation"]
+description: "Directorate of Research and Documentation - Direction Generale pour l'Etude et la Documentation (DGED)"
+url: "/direction-generale-pour-l-etude-et-la-documentation"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "1850e0a9-a243-58ea-adf6-fe1b22891e20"
+    source_record_ids: ["1850e0a9-a243-58ea-adf6-fe1b22891e20"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

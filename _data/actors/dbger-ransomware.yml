@@ -1,0 +1,17 @@
+name: "DBGer Ransomware"
+aliases: ["DBGer Ransomware"]
+description: "The authors of the Satan ransomware have rebranded their \"product\" and they now go by the name of DBGer ransomware, according to security researcher MalwareHunter, who spotted this new version earlier today. The change was not only in name but also in the ransomware's modus operandi. According to the researcher, whose discovery was later confirmed by an Intezer code similarity analysis, the new (Satan) DBGer ransomware now also incorporates Mimikatz, an open-source password-dumping utility. The purpose of DBGer incorporating Mimikatz is for lateral movement inside compromised networks. This fits a recently observed trend in Satan's modus operandi."
+url: "/dbger-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Archelaus Beta"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "541a479c-73a5-11e8-9d70-47736508231f"
+    source_record_ids: ["541a479c-73a5-11e8-9d70-47736508231f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

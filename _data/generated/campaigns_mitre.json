@@ -1,3 +1,718 @@
 [
-
+  {
+    "title": "Frankenstein",
+    "mitre_id": "C0001",
+    "permalink": "/campaigns/C0001/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0001",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Night Dragon",
+    "mitre_id": "C0002",
+    "permalink": "/campaigns/C0002/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0002",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "CostaRicto",
+    "mitre_id": "C0004",
+    "permalink": "/campaigns/C0004/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0004",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Operation Spalax",
+    "mitre_id": "C0005",
+    "permalink": "/campaigns/C0005/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0005",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Operation Honeybee",
+    "mitre_id": "C0006",
+    "permalink": "/campaigns/C0006/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0006",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "FunnyDream",
+    "mitre_id": "C0007",
+    "permalink": "/campaigns/C0007/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0007",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "C0010",
+    "mitre_id": "C0010",
+    "permalink": "/campaigns/C0010/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0010",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "C0011",
+    "mitre_id": "C0011",
+    "permalink": "/campaigns/C0011/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0011",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Operation CuckooBees",
+    "mitre_id": "C0012",
+    "permalink": "/campaigns/C0012/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0012",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Operation Sharpshooter",
+    "mitre_id": "C0013",
+    "permalink": "/campaigns/C0013/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0013",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Operation Wocao",
+    "mitre_id": "C0014",
+    "permalink": "/campaigns/C0014/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0014",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "C0015",
+    "mitre_id": "C0015",
+    "permalink": "/campaigns/C0015/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0015",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Operation Dust Storm",
+    "mitre_id": "C0016",
+    "permalink": "/campaigns/C0016/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0016",
+    "domains": [
+      "enterprise",
+      "mobile"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "C0017",
+    "mitre_id": "C0017",
+    "permalink": "/campaigns/C0017/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0017",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "C0018",
+    "mitre_id": "C0018",
+    "permalink": "/campaigns/C0018/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0018",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Maroochy Water Breach",
+    "mitre_id": "C0020",
+    "permalink": "/campaigns/C0020/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0020",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "C0021",
+    "mitre_id": "C0021",
+    "permalink": "/campaigns/C0021/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0021",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Operation Dream Job",
+    "mitre_id": "C0022",
+    "permalink": "/campaigns/C0022/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0022",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Operation Ghost",
+    "mitre_id": "C0023",
+    "permalink": "/campaigns/C0023/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0023",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "SolarWinds Compromise",
+    "mitre_id": "C0024",
+    "permalink": "/campaigns/C0024/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0024",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "2016 Ukraine Electric Power Attack",
+    "mitre_id": "C0025",
+    "permalink": "/campaigns/C0025/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0025",
+    "domains": [
+      "enterprise",
+      "ics"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "C0026",
+    "mitre_id": "C0026",
+    "permalink": "/campaigns/C0026/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0026",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "C0027",
+    "mitre_id": "C0027",
+    "permalink": "/campaigns/C0027/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0027",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "2015 Ukraine Electric Power Attack",
+    "mitre_id": "C0028",
+    "permalink": "/campaigns/C0028/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0028",
+    "domains": [
+      "enterprise",
+      "ics"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Cutting Edge",
+    "mitre_id": "C0029",
+    "permalink": "/campaigns/C0029/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0029",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Triton Safety Instrumented System Attack",
+    "mitre_id": "C0030",
+    "permalink": "/campaigns/C0030/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0030",
+    "domains": [
+      "enterprise",
+      "ics"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Unitronics Defacement Campaign",
+    "mitre_id": "C0031",
+    "permalink": "/campaigns/C0031/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0031",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "C0032",
+    "mitre_id": "C0032",
+    "permalink": "/campaigns/C0032/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0032",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "C0033",
+    "mitre_id": "C0033",
+    "permalink": "/campaigns/C0033/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0033",
+    "domains": [
+      "enterprise",
+      "mobile"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "2022 Ukraine Electric Power Attack",
+    "mitre_id": "C0034",
+    "permalink": "/campaigns/C0034/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0034",
+    "domains": [
+      "enterprise",
+      "ics"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "KV Botnet Activity",
+    "mitre_id": "C0035",
+    "permalink": "/campaigns/C0035/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0035",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Pikabot Distribution February 2024",
+    "mitre_id": "C0036",
+    "permalink": "/campaigns/C0036/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0036",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Water Curupira Pikabot Distribution",
+    "mitre_id": "C0037",
+    "permalink": "/campaigns/C0037/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0037",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "HomeLand Justice",
+    "mitre_id": "C0038",
+    "permalink": "/campaigns/C0038/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0038",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Versa Director Zero Day Exploitation",
+    "mitre_id": "C0039",
+    "permalink": "/campaigns/C0039/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0039",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "APT41 DUST",
+    "mitre_id": "C0040",
+    "permalink": "/campaigns/C0040/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0040",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "FrostyGoop Incident",
+    "mitre_id": "C0041",
+    "permalink": "/campaigns/C0041/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0041",
+    "domains": [
+      "enterprise",
+      "ics"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Outer Space",
+    "mitre_id": "C0042",
+    "permalink": "/campaigns/C0042/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0042",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Indian Critical Infrastructure Intrusions",
+    "mitre_id": "C0043",
+    "permalink": "/campaigns/C0043/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0043",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Juicy Mix",
+    "mitre_id": "C0044",
+    "permalink": "/campaigns/C0044/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0044",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "ShadowRay",
+    "mitre_id": "C0045",
+    "permalink": "/campaigns/C0045/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0045",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "ArcaneDoor",
+    "mitre_id": "C0046",
+    "permalink": "/campaigns/C0046/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0046",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "RedDelta Modified PlugX Infection Chain Operations",
+    "mitre_id": "C0047",
+    "permalink": "/campaigns/C0047/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0047",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Operation MidnightEclipse",
+    "mitre_id": "C0048",
+    "permalink": "/campaigns/C0048/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0048",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Leviathan Australian Intrusions",
+    "mitre_id": "C0049",
+    "permalink": "/campaigns/C0049/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0049",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "J-magic Campaign",
+    "mitre_id": "C0050",
+    "permalink": "/campaigns/C0050/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0050",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "APT28 Nearest Neighbor Campaign",
+    "mitre_id": "C0051",
+    "permalink": "/campaigns/C0051/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0051",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "SPACEHOP Activity",
+    "mitre_id": "C0052",
+    "permalink": "/campaigns/C0052/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0052",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "FLORAHOX Activity",
+    "mitre_id": "C0053",
+    "permalink": "/campaigns/C0053/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0053",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Operation Triangulation",
+    "mitre_id": "C0054",
+    "permalink": "/campaigns/C0054/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0054",
+    "domains": [
+      "mobile"
+    ],
+    "domain": "mobile",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Quad7 Activity",
+    "mitre_id": "C0055",
+    "permalink": "/campaigns/C0055/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0055",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "RedPenguin",
+    "mitre_id": "C0056",
+    "permalink": "/campaigns/C0056/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0056",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "3CX Supply Chain Attack",
+    "mitre_id": "C0057",
+    "permalink": "/campaigns/C0057/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0057",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "SharePoint ToolShell Exploitation",
+    "mitre_id": "C0058",
+    "permalink": "/campaigns/C0058/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0058",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Salesforce Data Exfiltration",
+    "mitre_id": "C0059",
+    "permalink": "/campaigns/C0059/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0059",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Operation AkaiRyū",
+    "mitre_id": "C0060",
+    "permalink": "/campaigns/C0060/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0060",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Operation Digital Eye",
+    "mitre_id": "C0061",
+    "permalink": "/campaigns/C0061/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0061",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "Anthropic AI-orchestrated Campaign",
+    "mitre_id": "C0062",
+    "permalink": "/campaigns/C0062/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0062",
+    "domains": [
+      "enterprise"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "2025 Poland Wiper Attacks",
+    "mitre_id": "C0063",
+    "permalink": "/campaigns/C0063/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0063",
+    "domains": [
+      "enterprise",
+      "ics"
+    ],
+    "domain": "enterprise",
+    "attack_version": "19.0",
+    "layout": "campaign"
+  }
 ]

@@ -1,0 +1,26 @@
+{
+  "mitre_id": "T1546.011",
+  "mitigations": [
+    {
+      "name": "User Account Control",
+      "mitre_id": "M1052",
+      "url": "https://attack.mitre.org/mitigations/M1052",
+      "stix_id": "course-of-action--2c2ad92a-d710-41ab-a996-1db143bb4808"
+    },
+    {
+      "name": "Update Software",
+      "mitre_id": "M1051",
+      "url": "https://attack.mitre.org/mitigations/M1051",
+      "stix_id": "course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "FIN7",
+      "url": "/fin7"
+    }
+  ]
+}

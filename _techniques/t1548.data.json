@@ -1,0 +1,91 @@
+{
+  "mitre_id": "T1548",
+  "mitigations": [
+    {
+      "name": "Execution Prevention",
+      "mitre_id": "M1038",
+      "url": "https://attack.mitre.org/mitigations/M1038",
+      "stix_id": "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db"
+    },
+    {
+      "name": "Operating System Configuration",
+      "mitre_id": "M1028",
+      "url": "https://attack.mitre.org/mitigations/M1028",
+      "stix_id": "course-of-action--2f316f6c-ae42-44fe-adf8-150989e0f6d3"
+    },
+    {
+      "name": "Update Software",
+      "mitre_id": "M1051",
+      "url": "https://attack.mitre.org/mitigations/M1051",
+      "stix_id": "course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b"
+    },
+    {
+      "name": "User Account Control",
+      "mitre_id": "M1052",
+      "url": "https://attack.mitre.org/mitigations/M1052",
+      "stix_id": "course-of-action--2c2ad92a-d710-41ab-a996-1db143bb4808"
+    },
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M1026",
+      "url": "https://attack.mitre.org/mitigations/M1026",
+      "stix_id": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "Restrict File and Directory Permissions",
+      "mitre_id": "M1022",
+      "url": "https://attack.mitre.org/mitigations/M1022",
+      "stix_id": "course-of-action--987988f0-cf86-4680-a875-2f6456ab2448"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1548.001",
+      "name": "Setuid and Setgid",
+      "permalink": "/techniques/T1548.001/"
+    },
+    {
+      "id": "T1548.005",
+      "name": "Temporary Elevated Cloud Access",
+      "permalink": "/techniques/T1548.005/"
+    },
+    {
+      "id": "T1548.002",
+      "name": "Bypass User Account Control",
+      "permalink": "/techniques/T1548.002/"
+    },
+    {
+      "id": "T1548.004",
+      "name": "Elevated Execution with Prompt",
+      "permalink": "/techniques/T1548.004/"
+    },
+    {
+      "id": "T1548.003",
+      "name": "Sudo and Sudo Caching",
+      "permalink": "/techniques/T1548.003/"
+    },
+    {
+      "id": "T1548.006",
+      "name": "TCC Manipulation",
+      "permalink": "/techniques/T1548.006/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "UNC3886",
+      "url": "/apt1048"
+    }
+  ]
+}

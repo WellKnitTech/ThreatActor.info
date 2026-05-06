@@ -6,9 +6,14 @@ country: "China"
 sector_focus: ["Government","Private sector"]
 targeted_victims: ["Japan"]
 incident_type: "Espionage"
+first_seen: "2015"
+last_activity: "2015"
 risk_level: "High"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/blue_termite"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 operations: ["Blue Termite"]
 malware:
   - "Blue Banana"
@@ -18,9 +23,29 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://www.kaspersky.com/about/news/virus/2015/Blue-Termite-A-Sophisticated-Cyber-Espionage-Campaign-is-After-High-Profile-Japanese-Targets","https://web.archive.org/web/20160303010953/http://www.kaspersky.com/about/news/virus/2015/Blue-Termite-A-Sophisticated-Cyber-Espionage-Campaign-is-After-High-Profile-Japanese-Targets","http://www.symantec.com/connect/blogs/operation-cloudyomega-ichitaro-zero-day-and-ongoing-cyberespionage-campaign-targeting-japan","http://blog.trendmicro.com/trendlabs-security-intelligence/attackers-target-organizations-in-japan-transform-local-sites-into-cc-servers-for-emdivi-backdoor/"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "unknown"
+  aptnotes:
+    earliest_report_year: "2015"
+    latest_report_year: "2015"
+    report_count: 1
+    sample_links: ["https://app.box.com/s/0qhbl4o5adpf8fhdun7kp6cfz4ql3rdj"]
+    sample_titles: ["Blue Termite (Internet Watch)"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Kaspersky"]
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "blue_termite"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/blue_termite"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "a250af72-f66c-4d02-9f36-ab764ce9fe85"
   misp_galaxy:
+    meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","refs","synonyms"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "a250af72-f66c-4d02-9f36-ab764ce9fe85"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["a250af72-f66c-4d02-9f36-ab764ce9fe85"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

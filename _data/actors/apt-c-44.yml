@@ -9,12 +9,13 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://blogs.360.cn/post/APT-C-44.html"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "others"
   misp_galaxy:
+    meta_keys: ["country","refs","suspected-victims","synonyms","target-category"]
     source_cluster: "360net.json"
     source_clusters: ["360net.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json"
     source_record_id: "367bfb72-da65-5886-a333-389299470722"
     source_record_ids: ["367bfb72-da65-5886-a333-389299470722"]
-    source_retrieved_at: "2026-04-28T04:13:45Z"
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,16 @@
+name: "Intelligence Branch"
+aliases: ["Intelligence Branch"]
+description: "Intelligence Branch"
+url: "/intelligence-branch"
+country: "Canada"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "9c7535fc-a7ee-540e-8261-1cc6e89c6f55"
+    source_record_ids: ["9c7535fc-a7ee-540e-8261-1cc6e89c6f55"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,24 @@
+{
+  "mitre_id": "T1406",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+    {
+      "id": "T1406.002",
+      "name": "Software Packing",
+      "permalink": "/techniques/T1406.002/"
+    },
+    {
+      "id": "T1406.001",
+      "name": "Steganography",
+      "permalink": "/techniques/T1406.001/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Windshift",
+      "url": "/apt0112"
+    }
+  ]
+}

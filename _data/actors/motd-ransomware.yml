@@ -1,0 +1,17 @@
+name: "MOTD Ransomware"
+aliases: ["MOTD Ransomware"]
+description: "About: This is most likely to affect English speaking users, since the note is written in English. English is understood worldwide, thus anyone can be harmed. The hacker spread the virus using email spam, fake updates, and harmful attachments. All your files are compromised including music, MS Office, Open Office, pictures, videos, shared online files etc.."
+url: "/motd-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Virus RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","extensions","payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "5d1a3631-165c-4091-ba55-ac8da62efadf"
+    source_record_ids: ["5d1a3631-165c-4091-ba55-ac8da62efadf"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,14 @@
+name: "Russian EDA2"
+aliases: ["Russian EDA2"]
+description: "ransomware"
+url: "/russian-eda2"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "100741e9-1803-4be7-98a8-6e5eeb01a50d"
+    source_record_ids: ["100741e9-1803-4be7-98a8-6e5eeb01a50d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

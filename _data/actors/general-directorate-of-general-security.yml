@@ -1,0 +1,15 @@
+name: "General Directorate of General Security"
+aliases: ["General Directorate of General Security"]
+description: "General Directorate of General Security"
+url: "/general-directorate-of-general-security"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "2564e77b-ad1e-5388-89d2-40dbbe5b45a5"
+    source_record_ids: ["2564e77b-ad1e-5388-89d2-40dbbe5b45a5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

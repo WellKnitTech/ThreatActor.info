@@ -1,0 +1,14 @@
+name: "Cephalus"
+aliases: ["Cephalus"]
+description: "Cephalus is an active extortion or ransomware group tracked by RansomLook."
+url: "/cephalus"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/cephalus"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "cephalus"
+  source_retrieved_at: "2026-05-06T21:57:25Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

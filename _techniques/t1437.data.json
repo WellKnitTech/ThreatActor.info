@@ -1,0 +1,16 @@
+{
+  "mitre_id": "T1437",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+    {
+      "id": "T1437.001",
+      "name": "Web Protocols",
+      "permalink": "/techniques/T1437.001/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

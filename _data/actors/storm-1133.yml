@@ -2,9 +2,23 @@ name: "Storm-1133"
 aliases: ["Storm-1133"]
 description: "In early 2023, Microsoft In early 2023, observed a wave of activity from a Gaza-based group that we track as Storm-1133 targeting Israeli private sector energy, defense, and telecommunications organizations."
 url: "/storm-1133"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-1133"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "storm-1133"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-1133"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "d5908276-068a-4a4f-a60d-ab5800173ccd"
   misp_galaxy:
+    meta_keys: ["country","origin:Storm-1133","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "d5908276-068a-4a4f-a60d-ab5800173ccd"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["d5908276-068a-4a4f-a60d-ab5800173ccd"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

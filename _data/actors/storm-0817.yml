@@ -1,0 +1,15 @@
+name: "STORM-0817"
+aliases: ["STORM-0817"]
+description: "SweetSpecter is a suspected Iran-based actor that has gained notoriety for using publicly available artificial intelligence capabilities to develop its malware and tools.<sup>[[OpenAI CTI Update October 2024](/references/81f40284-12e5-4835-8c14-19fb894e4822)]</sup>"
+url: "/storm-0817"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "a83090fc-0407-4eb5-9130-6ff13dc27ed0"
+    source_record_ids: ["a83090fc-0407-4eb5-9130-6ff13dc27ed0"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,60 @@
+{
+  "mitre_id": "T1593",
+  "mitigations": [
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "Application Developer Guidance",
+      "mitre_id": "M1013",
+      "url": "https://attack.mitre.org/mitigations/M1013",
+      "stix_id": "course-of-action--25dc1ce8-eb55-4333-ae30-a7cb4f5894a1"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1593.002",
+      "name": "Search Engines",
+      "permalink": "/techniques/T1593.002/"
+    },
+    {
+      "id": "T1593.003",
+      "name": "Code Repositories",
+      "permalink": "/techniques/T1593.003/"
+    },
+    {
+      "id": "T1593.001",
+      "name": "Social Media",
+      "permalink": "/techniques/T1593.001/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Mustang Panda",
+      "url": "/apt0129"
+    },
+    {
+      "name": "Volt Typhoon",
+      "url": "/apt1017"
+    },
+    {
+      "name": "Contagious Interview",
+      "url": "/apt1052"
+    },
+    {
+      "name": "APT-C-36",
+      "url": "/apt0099"
+    },
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    },
+    {
+      "name": "Star Blizzard",
+      "url": "/apt1033"
+    }
+  ]
+}

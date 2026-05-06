@@ -1,0 +1,23 @@
+name: "MedusaLocker Ransomware Actors"
+aliases: ["MedusaLocker Ransomware Actors"]
+description: "MedusaLocker is a ransomware-as-a-service (\"RaaS\") operation that has been active since September 2019. U.S. cybersecurity authorities indicate that MedusaLocker operators have primarily targeted victims in the healthcare sector, among other unspecified sectors. Initial access for MedusaLocker intrusions originally came via phishing and spam email campaigns, but since 2022 has typically occurred via exploit of vulnerable Remote Desktop Protocol devices.<sup>[[HC3 Analyst Note MedusaLocker Ransomware February 2023](/references/49e314d6-5324-41e0-8bee-2b3e08d5e12f)]</sup>\n \nThis object represents behaviors associated with operators of MedusaLocker ransomware. As MedusaLocker is licensed on a RaaS model, affiliates likely do not act as a single cohesive unit, and behaviors observed during particular attacks may vary. Behaviors associated with samples of MedusaLocker ransomware are represented in the \"MedusaLocker Ransomware\" Software object.\n\n**Malpedia (Research)**: https://malpedia.caad.fkie.fraunhofer.de/details/win.medusalocker"
+url: "/medusalocker-ransomware-actors"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RemoteCMD"
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+  - name: "Remote Utilities"
+  - name: "RemotePC"
+  - name: "DesktopNow"
+  - name: "Xploit"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "55b20209-c04a-47ab-805d-ace83522ef6a"
+    source_record_ids: ["55b20209-c04a-47ab-805d-ace83522ef6a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

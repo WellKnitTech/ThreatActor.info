@@ -1,0 +1,26 @@
+name: "HexagonalRodent"
+aliases: ["HexagonalRodent"]
+description: "HexagonalRodent targets Web3 developers to steal crypto assets, employing social engineering tactics such as fake job offers. They utilize malware like BeaverTail and OtterCookie, both NodeJS-based toolkits, and InvisibleFerret, a Python-based RAT, to execute their attacks. Their TTPs include backdooring skills assessments via VSCode's tasks.json feature and conducting opportunistic exfiltration of credentials and crypto wallets. The group has also engaged in a supply chain attack, compromising the 'fast-draft' VSX extension to install malware."
+url: "/hexagonalrodent"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/hexagonalrodent"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Backdoor.Oldrea"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "hexagonalrodent"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/hexagonalrodent"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "75714cef-0265-4944-84c6-f66aec01994d"
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "75714cef-0265-4944-84c6-f66aec01994d"
+    source_record_ids: ["75714cef-0265-4944-84c6-f66aec01994d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

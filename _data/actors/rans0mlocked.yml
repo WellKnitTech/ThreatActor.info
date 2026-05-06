@@ -1,0 +1,14 @@
+name: "Rans0mLocked"
+aliases: ["Rans0mLocked"]
+description: "ransomware"
+url: "/rans0mlocked"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "d2d0d87f-249f-4223-82b2-71c82df6c7f2"
+    source_record_ids: ["d2d0d87f-249f-4223-82b2-71c82df6c7f2"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

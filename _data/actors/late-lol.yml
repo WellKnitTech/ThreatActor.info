@@ -1,0 +1,15 @@
+name: "late.lol"
+aliases: ["late.lol"]
+description: "Affiliates:\r<br/>@Mr.C\r<br/>@Empathy\r<br/>@jayze\r<br/>@Widow\r<br/>@Memory\r<br/>\r<br/>"
+url: "/late-lol"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "6bec7e8f-5f57-5835-b593-4656c776575d"
+    source_record_ids: ["6bec7e8f-5f57-5835-b593-4656c776575d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

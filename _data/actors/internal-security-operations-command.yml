@@ -1,0 +1,16 @@
+name: "Internal Security Operations Command"
+aliases: ["Internal Security Operations Command"]
+description: "Internal Security Operations Command (ISOC)"
+url: "/internal-security-operations-command"
+country: "Thailand"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "166646b8-0b39-57ac-bc85-bd9fc0147c88"
+    source_record_ids: ["166646b8-0b39-57ac-bc85-bd9fc0147c88"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

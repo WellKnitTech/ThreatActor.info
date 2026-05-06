@@ -1,0 +1,21 @@
+name: "WhiteRose"
+aliases: ["WhiteRose"]
+description: "A new ransomware has been discovered by MalwareHunterTeam that is based off of the InfiniteTear ransomware family, of which BlackRuby and Zenis are members. When this ransomware infects a computer it will encrypt the files, scramble the filenames, and append the .WHITEROSE extension to them."
+url: "/whiterose"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "BlackEnergy"
+  - name: "BLACKCOFFEE"
+  - name: "Blackshades"
+  - name: "BlackNix"
+  - name: "BlackHole"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","ransomnotes","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "abc80362-396c-11e8-bc5c-8bca89c0f797"
+    source_record_ids: ["abc80362-396c-11e8-bc5c-8bca89c0f797"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

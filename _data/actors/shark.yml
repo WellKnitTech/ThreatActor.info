@@ -1,0 +1,15 @@
+name: "Shark"
+aliases: ["Atom","Shark"]
+description: "Ransomware"
+url: "/shark"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","price","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "503c9910-902f-4bae-8c33-ea29db8bdd7f"
+    source_record_ids: ["503c9910-902f-4bae-8c33-ea29db8bdd7f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

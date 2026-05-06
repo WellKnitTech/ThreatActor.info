@@ -1,0 +1,15 @@
+name: "CryptoBlock Ransomware "
+aliases: ["CryptoBlock Ransomware "]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc.. The ransom is in the amount is 0.3 bitcoins. The ransomware is disguises themselves as Adobe Systems, Incorporated. RaaS"
+url: "/cryptoblock-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","payment-method","price","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "7b0df78e-8f00-468f-a6ef-3e1bda2a344c"
+    source_record_ids: ["7b0df78e-8f00-468f-a6ef-3e1bda2a344c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

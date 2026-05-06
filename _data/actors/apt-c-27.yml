@@ -1,19 +1,33 @@
 name: "APT-C-27"
-aliases: ["GoldMouse","Golden RAT","ATK80","APT-C-27","Golden Rat","Goldmouse"]
+aliases: ["GoldMouse","Golden RAT","ATK80","APT-C-27","Golden Rat","Goldmouse","黄金鼠 - APT-C-27"]
 description: "A threat actor which is ac tive since at least November 2014. This group launched long-term at tacks against organizations in the Syrian region using Android and Windows malwares. Its objective is the theft of sensitive information."
 url: "/apt-c-27"
 country: "China"
+targeted_victims: ["Middle East","Syria"]
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt-c-27"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["DroidJack","Androrat","Windows Remote Desktop"]
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.anquanke.com/post/id/94072","https://securityaffairs.co/wordpress/74670/malware/apt-c-27-syria-espionage.html","https://blog.360totalsecurity.com/en/the-sample-analysis-of-apt-c-27s-recent-attack/","https://ti.360.net/blog/articles/apt-c-27-(goldmouse):-suspected-target-attack-against-the-middle-east-with-winrar-exploit-en/"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "middle-east"
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "apt-c-27"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt-c-27"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "ee7f535d-cc3e-40f3-99f3-c97963cfa250"
   misp_galaxy:
+    meta_keys: ["country","origin:APT-C-27","refs","since","suspected-victims","synonyms"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","360net.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "ee7f535d-cc3e-40f3-99f3-c97963cfa250"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["ee7f535d-cc3e-40f3-99f3-c97963cfa250","b3b6f113-fe2c-5d75-ba41-b333ce726f4a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

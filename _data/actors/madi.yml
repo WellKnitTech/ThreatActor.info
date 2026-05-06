@@ -6,18 +6,43 @@ country: "Iran"
 sector_focus: ["Infrastructure","Engineering","Government, Administration","Finance","Government","Private sector"]
 targeted_victims: ["Iran","Pakistan","Israel","United States"]
 incident_type: "Espionage"
+first_seen: "2012"
+last_activity: "2012"
 risk_level: "High"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/madi"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["CrossRat"]
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://securelist.com/blog/incidents/33693/the-madi-campaign-part-i-5/","https://securelist.com/blog/incidents/33701/the-madi-campaign-part-ii-53/"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "iran"
+  aptnotes:
+    earliest_report_year: "2012"
+    latest_report_year: "2012"
+    report_count: 1
+    sample_links: ["https://app.box.com/s/h2rowevapfawgbkdpcinjgbci6iy71ml"]
+    sample_titles: ["The 'Madi' Infostealers - A Detailed Analysis"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Kaspersky"]
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "madi"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/madi"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "d5dacda0-12c2-4e80-bdf2-1c5019ec40e2"
   misp_galaxy:
+    meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","refs","targeted-sector"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "d5dacda0-12c2-4e80-bdf2-1c5019ec40e2"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["d5dacda0-12c2-4e80-bdf2-1c5019ec40e2"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

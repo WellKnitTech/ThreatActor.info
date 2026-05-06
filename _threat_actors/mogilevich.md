@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Mogilevich"
-aliases: ["Mogilevich"]
+aliases: ["Mogilevich","mogilevich"]
 description: "Mogilevich is a ransomware group known for claiming to breach organizations like Epic Games and Ireland's Department of Foreign Affairs, offering stolen data for sale without providing proof of the att"
 permalink: /mogilevich/
 ---

@@ -1,0 +1,32 @@
+{
+  "mitre_id": "T0869",
+  "mitigations": [
+    {
+      "name": "Network Segmentation",
+      "mitre_id": "M0930",
+      "url": "https://attack.mitre.org/mitigations/M0930",
+      "stix_id": "course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291"
+    },
+    {
+      "name": "Network Intrusion Prevention",
+      "mitre_id": "M0931",
+      "url": "https://attack.mitre.org/mitigations/M0931",
+      "stix_id": "course-of-action--3172222b-4983-43f7-8983-753ded4f13bc"
+    },
+    {
+      "name": "Network Allowlists",
+      "mitre_id": "M0807",
+      "url": "https://attack.mitre.org/mitigations/M0807",
+      "stix_id": "course-of-action--aadac250-bcdc-44e3-a4ae-f52bd0a7a16a"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "OilRig",
+      "url": "/apt34"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+name: "Termite Ransomware Operators"
+aliases: ["Termite Ransomware Operators"]
+description: "The Termite ransomware strain has been observed since April 2024. Researchers have noted considerable code and behavioral overlaps between the Babuk ransomware and Termite.<sup>[[Infosecurity Magazine December 9 2024](/references/1a3f22b7-8585-44b7-845a-eaa13d8a5dc1)]</sup> Actors using Termite have attacked organizations in various sectors and locations, publicly extorting some victims on a dark web \"data leak\" site since November 2024.<sup>[[GitHub ransomwatch](/references/62037959-58e4-475a-bb91-ff360d20c1d7)]</sup> News reports linked a series of attacks in late 2024, which exploited vulnerabilities in Cleo managed file transfer (\"MFT\") software, to Termite ransomware operators.<sup>[[DarkReading Termite Cleo December 10 2024](/references/e854ae37-3137-4cdd-a464-7e2328b1246e)]</sup>"
+url: "/termite-ransomware-operators"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Dark DDoSeR"
+  - name: "DarkRat"
+  - name: "Xploit"
+  - name: "Archelaus Beta"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "286da832-f055-4ca4-a52a-9eb62461dc48"
+    source_record_ids: ["286da832-f055-4ca4-a52a-9eb62461dc48"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

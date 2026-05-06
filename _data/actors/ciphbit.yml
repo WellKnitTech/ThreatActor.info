@@ -1,0 +1,14 @@
+name: "Ciphbit"
+aliases: ["Ciphbit"]
+description: "CiphBit is a crypto-ransomware first detected in April 2023. It utilizes a double-extortion model, encrypting files and threatening to leak stolen data via a Tor-hosted portal if ransom demands are not met. The malware appends encrypted files with a vector including a unique victim ID, the attacker’s email address (onionmail.org), and a four-character random extension—making file identification and recovery especially difficult. Victims span various sectors including banking, manufacturing, healthcare, logistics, and professional services across North America and Europe. The group is classified as a data broker due to its evolving extortion methods involving free leaks and selective leaks to pressure victims. Recent high-profile victims include iptelecom GmbH (Germany) and Therma Seal Insulation Systems (USA), reaffirming its cross-industry reach and impact."
+url: "/ciphbit"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/ciphbit"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "ciphbit"
+  source_retrieved_at: "2026-05-06T21:57:02Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

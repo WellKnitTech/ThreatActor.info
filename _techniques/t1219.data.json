@@ -1,0 +1,102 @@
+{
+  "mitre_id": "T1219",
+  "mitigations": [
+    {
+      "name": "Execution Prevention",
+      "mitre_id": "M1038",
+      "url": "https://attack.mitre.org/mitigations/M1038",
+      "stix_id": "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db"
+    },
+    {
+      "name": "Filter Network Traffic",
+      "mitre_id": "M1037",
+      "url": "https://attack.mitre.org/mitigations/M1037",
+      "stix_id": "course-of-action--20f6a9df-37c4-4e20-9e47-025983b1b39d"
+    },
+    {
+      "name": "Limit Hardware Installation",
+      "mitre_id": "M1034",
+      "url": "https://attack.mitre.org/mitigations/M1034",
+      "stix_id": "course-of-action--2995bc22-2851-4345-ad19-4e7e295be264"
+    },
+    {
+      "name": "Network Intrusion Prevention",
+      "mitre_id": "M1031",
+      "url": "https://attack.mitre.org/mitigations/M1031",
+      "stix_id": "course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c"
+    },
+    {
+      "name": "Disable or Remove Feature or Program",
+      "mitre_id": "M1042",
+      "url": "https://attack.mitre.org/mitigations/M1042",
+      "stix_id": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1219.003",
+      "name": "Remote Access Hardware",
+      "permalink": "/techniques/T1219.003/"
+    },
+    {
+      "id": "T1219.001",
+      "name": "IDE Tunneling",
+      "permalink": "/techniques/T1219.001/"
+    },
+    {
+      "id": "T1219.002",
+      "name": "Remote Desktop Software",
+      "permalink": "/techniques/T1219.002/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "TeamTNT",
+      "url": "/apt0139"
+    },
+    {
+      "name": "OilRig",
+      "url": "/apt34"
+    },
+    {
+      "name": "FIN7",
+      "url": "/fin7"
+    },
+    {
+      "name": "GOLD SOUTHFIELD",
+      "url": "/apt0115"
+    },
+    {
+      "name": "INC Ransom",
+      "url": "/apt1032"
+    },
+    {
+      "name": "Medusa Group",
+      "url": "/apt1051"
+    },
+    {
+      "name": "DarkVishnya",
+      "url": "/apt0105"
+    },
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    },
+    {
+      "name": "Carbanak",
+      "url": "/fin7"
+    },
+    {
+      "name": "Akira",
+      "url": "/akira"
+    },
+    {
+      "name": "BlackByte",
+      "url": "/apt1043"
+    },
+    {
+      "name": "Cobalt Group",
+      "url": "/apt0080"
+    }
+  ]
+}

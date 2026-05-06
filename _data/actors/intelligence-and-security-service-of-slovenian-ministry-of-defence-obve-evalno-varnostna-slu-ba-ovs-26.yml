@@ -1,0 +1,15 @@
+name: "Intelligence and Security Service of Slovenian Ministry of Defence - Obveščevalno Varnostna Služba (OVS)[26]"
+aliases: ["Intelligence and Security Service of Slovenian Ministry of Defence - Obveščevalno Varnostna Služba (OVS)[26]"]
+description: "Intelligence and Security Service of Slovenian Ministry of Defence - Obveščevalno Varnostna Služba (OVS)[26]"
+url: "/intelligence-and-security-service-of-slovenian-ministry-of-defence-obve-evalno-varnostna-slu-ba-ovs-26"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "37bf2f17-f242-5a25-9da8-45bcd19f6e58"
+    source_record_ids: ["37bf2f17-f242-5a25-9da8-45bcd19f6e58"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

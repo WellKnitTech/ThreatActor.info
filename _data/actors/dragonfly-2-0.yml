@@ -1,0 +1,17 @@
+name: "Dragonfly 2.0"
+aliases: ["Dragonfly 2.0"]
+description: "Dragonfly 2.0 is a suspected Russian threat group which has been active since at least late 2015. Dragonfly 2.0's initial reported targets were a part of the energy sector, located within the United States, Switzerland, and Turkey. There is debate over the extent of overlap between Dragonfly 2.0 and Dragonfly, but there is sufficient evidence to lead to these being tracked as two separate groups."
+url: "/dragonfly-2-0"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "UNITEDRAKE"
+provenance:
+  misp_galaxy:
+    meta_keys: ["Associated Group Descriptions","Techniques Used","refs"]
+    source_cluster: "mitre-ics-groups.json"
+    source_clusters: ["mitre-ics-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/mitre-ics-groups.json"
+    source_record_id: "790c3072-49d1-4c4f-8fd0-dc3db50887c1"
+    source_record_ids: ["790c3072-49d1-4c4f-8fd0-dc3db50887c1"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

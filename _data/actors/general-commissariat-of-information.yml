@@ -1,0 +1,16 @@
+name: "General Commissariat of Information"
+aliases: ["General Commissariat of Information"]
+description: "General Commissariat of Information - (Comisaría General de la Información) (CGI)"
+url: "/general-commissariat-of-information"
+country: "Spain"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "0d295d4e-c1b7-5f22-a77e-5e895c9f5c3b"
+    source_record_ids: ["0d295d4e-c1b7-5f22-a77e-5e895c9f5c3b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

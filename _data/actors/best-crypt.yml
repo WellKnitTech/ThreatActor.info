@@ -1,0 +1,14 @@
+name: "Best Crypt"
+aliases: ["Best Crypt"]
+description: "ransomware"
+url: "/best-crypt"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b0552a9f-8820-48c3-a75b-158063f17e1b"
+    source_record_ids: ["b0552a9f-8820-48c3-a75b-158063f17e1b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

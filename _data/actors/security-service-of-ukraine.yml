@@ -1,0 +1,16 @@
+name: "Security Service of Ukraine"
+aliases: ["Security Service of Ukraine"]
+description: "Security Service of Ukraine – Sluzhba Bezpeky Ukrayiny (SBU)"
+url: "/security-service-of-ukraine"
+country: "Ukraine"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "ba753a35-8120-598c-bab2-258152b200b7"
+    source_record_ids: ["ba753a35-8120-598c-bab2-258152b200b7"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -4,6 +4,9 @@ description: "Malware developers have started to use the zero-day exploit for Ta
 url: "/powerpool"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/powerpool"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware:
   - "PowerDuke"
   - "POWERSTATS"
@@ -21,9 +24,19 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://us-cert.cisa.gov/ncas/analysis-reports/ar20-275a","https://twitter.com/craiu/status/1311920398259367942"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "others"
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "powerpool"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/powerpool"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "abd89986-b1b0-11e8-b857-efe290264006"
   misp_galaxy:
+    meta_keys: ["refs","synonyms"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "abd89986-b1b0-11e8-b857-efe290264006"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["abd89986-b1b0-11e8-b857-efe290264006"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

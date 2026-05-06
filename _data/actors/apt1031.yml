@@ -1,13 +1,36 @@
 name: "Saint Bear"
-aliases: ["Saint Bear","Storm-0587","TA471","UAC-0056","Lorec53"]
+aliases: ["Saint Bear","Storm-0587","TA471","UAC-0056","Lorec53","UNC2589","Nascent Ursa","Nodaria","FROZENVISTA","DEV-0587","EMBER BEAR","Lorec Bear","Bleeding Bear","Cadet Blizzard","SaintBear"]
 description: "Saint Bear is a Russian-nexus threat actor active since early 2021, primarily targeting entities in Ukraine and Georgia. The group is notable for a specific remote access tool, Saint Bot, and information stealer, OutSteel in campaigns. Saint Bear typically relies on phishing or web staging of malicious documents and related file types for initial access, spoofing government or related entities. [Palo Alto Unit 42 OutSteel SaintBot February 2022](https://unit42.paloaltonetworks.com/ukraine-targeted-outsteel-saintbot/) [Cadet Blizzard emerges as novel threat actor](https://www.microsoft.com/en-us/security/blog/2023/06/14/cadet-blizzard-emerges-as-a-novel-and-distinct-russian-threat-actor/) Saint Bear has previously been confused with Ember Bear operations, but analysis of behaviors, tools, and targeting indicates these are distinct clusters."
 url: "/apt1031"
+country: "Russia"
+first_seen: "2022"
+last_activity: "2022"
 external_id: "G1031"
 external_url: "https://attack.mitre.org/groups/G1031"
 mitre_id: "G1031"
 mitre_url: "https://attack.mitre.org/groups/G1031"
+source_name: "Malpedia (Fraunhofer FKIE)"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/saintbear"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  aptnotes:
+    earliest_report_year: "2022"
+    latest_report_year: "2022"
+    report_count: 1
+    sample_links: ["https://app.box.com/s/japcw7r6uxnvyenklx06h21veadvdxvy"]
+    sample_titles: ["APT Group LOREC53 (Lori Bear) Recently Launched A Large-Scale Cyber Attack On Ukraine"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["nsfocus"]
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "saintbear"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/saintbear"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "c67d3dfb-ab39-46e1-a971-5efdfe6a5b9f"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1031"

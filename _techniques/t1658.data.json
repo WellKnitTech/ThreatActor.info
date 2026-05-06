@@ -1,0 +1,23 @@
+{
+  "mitre_id": "T1658",
+  "mitigations": [
+    {
+      "name": "User Guidance",
+      "mitre_id": "M1011",
+      "url": "https://attack.mitre.org/mitigations/M1011",
+      "stix_id": "course-of-action--653492e3-27be-4a0e-b08c-938dd2b7e0e1"
+    },
+    {
+      "name": "Security Updates",
+      "mitre_id": "M1001",
+      "url": "https://attack.mitre.org/mitigations/M1001",
+      "stix_id": "course-of-action--bcecd036-f40e-4916-9f8e-fd0ccf0ece8d"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

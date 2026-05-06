@@ -1,0 +1,16 @@
+name: "Intelligence org of the Islamic Republic of Iran[12]"
+aliases: ["Intelligence org of the Islamic Republic of Iran[12]"]
+description: "Intelligence org of the Islamic Republic of Iran[12]"
+url: "/intelligence-org-of-the-islamic-republic-of-iran-12"
+country: "Iran"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "fe4ae08b-ee63-5b38-a58c-fd2b3288c826"
+    source_record_ids: ["fe4ae08b-ee63-5b38-a58c-fd2b3288c826"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

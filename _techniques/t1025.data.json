@@ -1,0 +1,32 @@
+{
+  "mitre_id": "T1025",
+  "mitigations": [
+    {
+      "name": "Data Loss Prevention",
+      "mitre_id": "M1057",
+      "url": "https://attack.mitre.org/mitigations/M1057",
+      "stix_id": "course-of-action--65401701-019d-44ff-b223-08d520bb0e7b"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "OilRig",
+      "url": "/apt34"
+    },
+    {
+      "name": "Gamaredon Group",
+      "url": "/apt0047"
+    },
+    {
+      "name": "APT28",
+      "url": "/apt28"
+    },
+    {
+      "name": "Turla",
+      "url": "/apt0010"
+    }
+  ]
+}

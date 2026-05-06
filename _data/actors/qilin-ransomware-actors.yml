@@ -1,0 +1,17 @@
+name: "Qilin Ransomware Actors"
+aliases: ["Qilin Ransomware Actors"]
+description: "An object to catalog the TTP and threat object relationships associated with actors known to deploy Qilin ransomware and variants."
+url: "/qilin-ransomware-actors"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "SHIPSHAPE"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "e5395df4-59e0-4eb7-b864-335bfd3a9bc2"
+    source_record_ids: ["e5395df4-59e0-4eb7-b864-335bfd3a9bc2"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -3,10 +3,24 @@ aliases: ["BatShadow"]
 description: "BatShadow is a Vietnamese threat actor that targets job seekers and digital marketing professionals through social engineering campaigns, deploying the Go-based malware known as Vampire Bot. The group impersonates recruiters and distributes malicious job descriptions and corporate PDFs, triggering a multi-stage infection chain that enables remote surveillance and data theft. Analysts have linked BatShadow to Vietnam based on infrastructure reuse and targeting patterns, noting its history of using domains like samsung-work.com to distribute various malware families, including Agent Tesla and Quasar RAT. The actor employs techniques such as filename tricks and coercive browser actions to evade detection and increase the likelihood of successful compromises."
 url: "/batshadow"
 country: "Vietnam"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/batshadow"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["RIPTIDE","Agent.btz","RemoteCMD","Quasar RAT","Remote Utilities","RemotePC"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "batshadow"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/batshadow"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "b2a577e6-67ed-4b01-8fc2-a6df22b25b00"
   misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "b2a577e6-67ed-4b01-8fc2-a6df22b25b00"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["b2a577e6-67ed-4b01-8fc2-a6df22b25b00"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

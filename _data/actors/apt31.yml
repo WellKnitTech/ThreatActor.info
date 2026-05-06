@@ -1,12 +1,17 @@
 name: "APT31"
-aliases: ["ZIRCONIUM","JUDGMENT PANDA","BRONZE VINEWOOD","Red keres","Violet Typhoon","TA412","Zirconium","APT31"]
+aliases: ["ZIRCONIUM","JUDGMENT PANDA","BRONZE VINEWOOD","Red keres","Violet Typhoon","TA412","Zirconium","APT31","Chameleon","WebFans"]
 description: "FireEye characterizes APT31 as an actor specialized on intellectual property theft, focusing on data and projects that make a particular organization competetive in its field. Based on available data (April 2016), FireEye assesses that APT31 conducts network operations at the behest of the Chinese Government. Also according to Crowdstrike, this adversary is suspected of continuing to target upstream providers (e.g., law firms and managed service providers) to support additional intrusions against high-profile assets. In 2018, CrowdStrike observed this adversary using spear-phishing, URL “web bugs” and scheduled tasks to automate credential harvesting."
 url: "/apt31"
 country: "China"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware: ["StreamEx"]
 provenance:
   misp_galaxy:
+    meta_keys: ["country","microsoft-origin-threat","refs","sector","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories"]
+    source_cluster: "microsoft-activity-group.json"
+    source_clusters: ["microsoft-activity-group.json","tidal-groups.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "6bf7e6b6-5917-45a6-9567-f0baba79768c"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["27eb4928-b3e6-5ae1-bbb6-f73bce8d7c69","2d19c573-252b-49d8-8c2e-3b529b91e72d","5e34409e-2f55-4384-b519-80747d02394c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

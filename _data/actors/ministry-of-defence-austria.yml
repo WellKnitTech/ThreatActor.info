@@ -1,0 +1,16 @@
+name: "Ministry of Defence (Austria)"
+aliases: [" Counter-Intelligence Office","Ministry of Defence (Austria)"]
+description: " Abwehramt (AbwA): Counter-Intelligence Office [2]"
+url: "/ministry-of-defence-austria"
+country: "Austria"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "abdb0c85-5c60-541a-a17d-598f1045901f"
+    source_record_ids: ["abdb0c85-5c60-541a-a17d-598f1045901f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,16 @@
+name: "Serviço de Informações Estratégicas de Defesa"
+aliases: ["Serviço de Informações Estratégicas de Defesa"]
+description: "Defense Strategic Intelligence Service - Serviço de Informações Estratégicas de Defesa (SIED)"
+url: "/servi-o-de-informa-es-estrat-gicas-de-defesa"
+country: "Portugal"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "09e32a53-4d55-50d5-9680-e142cac77ac7"
+    source_record_ids: ["09e32a53-4d55-50d5-9680-e142cac77ac7"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

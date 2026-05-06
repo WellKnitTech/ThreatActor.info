@@ -1,0 +1,15 @@
+name: "donex"
+aliases: ["donex"]
+description: "The ransomware group known as DoNex was first identified in mid-March 2024. According to the data collected, the samples used by the group were compiled in mid-February, suggesting that it is a relatively new operation."
+url: "/donex"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["TTP","links","ransomnotes","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "bc89266b-31d5-5627-9d1d-822ff84792be"
+    source_record_ids: ["bc89266b-31d5-5627-9d1d-822ff84792be"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

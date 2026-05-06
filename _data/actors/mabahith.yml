@@ -1,0 +1,16 @@
+name: "Mabahith"
+aliases: ["Mabahith"]
+description: "Mabahith (GDI) – المباحث العامة"
+url: "/mabahith"
+country: "Saudi Arabia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "a7bb009a-e417-5382-8d85-a9d41d72dc87"
+    source_record_ids: ["a7bb009a-e417-5382-8d85-a9d41d72dc87"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

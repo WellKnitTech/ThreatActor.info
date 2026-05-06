@@ -1,0 +1,27 @@
+name: "Hacked"
+aliases: ["Hacked"]
+description: "Ransomware Jigsaw Ransomware variant"
+url: "/hacked"
+first_seen: "2017"
+last_activity: "2017"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  aptnotes:
+    earliest_report_year: "2017"
+    latest_report_year: "2017"
+    report_count: 1
+    sample_links: ["https://app.box.com/s/7s2s43nlaqxllf4ugef1vyvkm3mr0ryt"]
+    sample_titles: ["Several Polish banks hacked, information stolen by unknown attackers"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Badcyber"]
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "7f2df0cd-5962-4687-90a2-a49eab2b12bc"
+    source_record_ids: ["7f2df0cd-5962-4687-90a2-a49eab2b12bc"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

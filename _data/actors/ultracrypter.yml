@@ -1,0 +1,14 @@
+name: "UltraCrypter"
+aliases: ["UltraCrypter"]
+description: "ransomware"
+url: "/ultracrypter"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "911e63bc-ab09-4da1-8db7-2ad9354eafee"
+    source_record_ids: ["911e63bc-ab09-4da1-8db7-2ad9354eafee"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

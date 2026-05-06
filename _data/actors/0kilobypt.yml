@@ -1,0 +1,14 @@
+name: "0kilobypt"
+aliases: ["0kilobypt"]
+description: "Ransomware"
+url: "/0kilobypt"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b4c4f949-2537-47cb-8ccd-653cc37b9309"
+    source_record_ids: ["b4c4f949-2537-47cb-8ccd-653cc37b9309"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

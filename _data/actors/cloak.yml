@@ -1,0 +1,14 @@
+name: "Cloak"
+aliases: ["Cloak"]
+description: "Cloak is a cybercriminal ransomware group that first appeared publicly in mid-2023, operating with a double-extortion model. It deploys an ARCrypter variant derived from Babuk, delivered via loaders that terminate security and backup services, delete shadow copies, and install encrypted payloads using algorithms like HC-128 combined with Curve25519 key generation. Victims include entities such as the Virginia Attorney General’s Office, whose IT systems were disrupted and whose data (134 GB) was exfiltrated and listed on Cloak’s Tor leak site. Cloak has been linked to other ARCrypter variants like Good Day, sharing victim portals and infrastructure. Its operations reportedly use initial access brokers, phishing, malvertising, and exploit kits for network infiltration."
+url: "/cloak"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/cloak"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "cloak"
+  source_retrieved_at: "2026-05-06T21:56:21Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

@@ -1,0 +1,15 @@
+name: "RAA encryptor"
+aliases: ["RAA","RAA SEP","RAA encryptor"]
+description: "Ransomware Possible affiliation with Pony"
+url: "/raa-encryptor"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b6d4faa1-6d76-42ff-8a18-238eb70cff06"
+    source_record_ids: ["b6d4faa1-6d76-42ff-8a18-238eb70cff06"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

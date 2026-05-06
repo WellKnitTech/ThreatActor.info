@@ -1,0 +1,14 @@
+name: "DarkKomet"
+aliases: ["DarkKomet"]
+description: "Ransomware"
+url: "/darkkomet"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "15d3732d-5ca8-4dc4-bf9b-8f7791706d17"
+    source_record_ids: ["15d3732d-5ca8-4dc4-bf9b-8f7791706d17"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

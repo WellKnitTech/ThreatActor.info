@@ -2,10 +2,24 @@ name: "Scripted Sparrow"
 aliases: ["Scripted Sparrow"]
 description: "Scripted Sparrow is a prolific Business Email Compromise (BEC) collective that conducts highly targeted phishing campaigns, impersonating professional services firms to deceive finance teams into transferring funds. The group employs a disciplined approach, utilizing consistent language and familiar tones in their communications, while sending between 10,000 and 50,000 emails daily in small batches. They have developed a sophisticated understanding of corporate communication, crafting messages that mimic internal formats and urgency without raising suspicion. Scripted Sparrow relies on a network of US-based mule accounts, with 249 unique bank accounts identified across 42 financial institutions for cash-out operations."
 url: "/scripted-sparrow"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/scripted_sparrow"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["Small-Net","Batch NET","CrossRat"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "scripted_sparrow"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/scripted_sparrow"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "deba565b-3313-425b-aaa3-2c6034257913"
   misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "deba565b-3313-425b-aaa3-2c6034257913"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["deba565b-3313-425b-aaa3-2c6034257913"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

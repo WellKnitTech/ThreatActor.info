@@ -1,0 +1,23 @@
+{
+  "mitre_id": "T1418.001",
+  "mitigations": [
+    {
+      "name": "User Guidance",
+      "mitre_id": "M1011",
+      "url": "https://attack.mitre.org/mitigations/M1011",
+      "stix_id": "course-of-action--653492e3-27be-4a0e-b08c-938dd2b7e0e1"
+    },
+    {
+      "name": "Use Recent OS Version",
+      "mitre_id": "M1006",
+      "url": "https://attack.mitre.org/mitigations/M1006",
+      "stix_id": "course-of-action--0beabf44-e8d8-4ae4-9122-ef56369a2564"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

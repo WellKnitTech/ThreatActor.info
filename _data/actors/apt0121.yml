@@ -1,13 +1,22 @@
 name: "Sidewinder"
-aliases: ["Rattlesnake","Sidewinder","T-APT-04"]
+aliases: ["Rattlesnake","Sidewinder","T-APT-04","SideWinder","响尾蛇 - APT-C-24"]
 description: "Sidewinder is a suspected Indian threat actor group that has been active since at least 2012. They have been observed targeting government, military, and business entities throughout Asia, primarily focusing on Pakistan, China, Nepal, and Afghanistan. [ATT Sidewinder January 2021](https://cdn-cybersecurity.att.com/docs/global-perspective-of-the-sidewinder-apt.pdf) [Securelist APT Trends April 2018](https://securelist.com/apt-trends-report-q1-2018/85280/) [Cyble Sidewinder September 2020](https://cybleinc.com/2020/09/26/sidewinder-apt-targets-with-futuristic-tactics-and-techniques/)"
 url: "/apt0121"
 external_id: "G0121"
 external_url: "https://attack.mitre.org/groups/G0121"
 mitre_id: "G0121"
 mitre_url: "https://attack.mitre.org/groups/G0121"
+source_name: "MISP Galaxy"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
 provenance:
+  misp_galaxy:
+    meta_keys: ["country","refs","suspected-victims","synonyms","target-category"]
+    source_cluster: "360net.json"
+    source_clusters: ["360net.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json"
+    source_record_id: "3dada716-34c3-506e-aa3a-1889bd975b4b"
+    source_record_ids: ["3dada716-34c3-506e-aa3a-1889bd975b4b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0121"

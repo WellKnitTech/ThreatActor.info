@@ -3,10 +3,24 @@ aliases: ["INDOHAXSEC TEAM"]
 description: "INDOHAXSEC TEAM is an Indonesian group that claims to have developed a web-based version of WannaCry, asserting the ability to encrypt websites and demand Bitcoin as ransom. However, their technical capabilities remain uncertain, as creating ransomware of this scale requires significant expertise. The group's claims may be exaggerated for attention, and verified evidence is needed to assess their true capabilities."
 url: "/indohaxsec-team"
 country: "Indonesia"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/indohaxsec_team"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["Xpert"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "indohaxsec_team"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/indohaxsec_team"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "c4ff73cd-858a-4e84-b2cd-929532f8c320"
   misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "c4ff73cd-858a-4e84-b2cd-929532f8c320"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["c4ff73cd-858a-4e84-b2cd-929532f8c320"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,20 @@
+name: "GXC Team"
+aliases: ["GXC Team"]
+description: "According to Resecurity researchers, GXC Team is a cybercriminal actor group that specializes in the development of tools used for financial fraud and theft. The group's leader operates and advertises these tools for sale on dark web forums under the alias \"googleXcoder\".<sup>[[Resecurity GXC Team January 3 2024](/references/6d55aa2c-3f52-4bff-8003-f78b386a4952)]</sup>"
+url: "/gxc-team"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "CyberGate"
+  - name: "Dark DDoSeR"
+  - name: "Cyber Eye RAT"
+  - name: "Archelaus Beta"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_motivations","owner","source","tags"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "78b09333-76ea-4239-a03d-d601a8032e8e"
+    source_record_ids: ["78b09333-76ea-4239-a03d-d601a8032e8e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

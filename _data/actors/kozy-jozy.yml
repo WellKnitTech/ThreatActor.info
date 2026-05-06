@@ -1,0 +1,15 @@
+name: "Kozy.Jozy"
+aliases: ["QC","Kozy.Jozy"]
+description: "Ransomware Potential Kit selectedkozy.jozy@yahoo.com kozy.jozy@yahoo.com unlock92@india.com"
+url: "/kozy-jozy"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "47b5d261-11bd-4c7b-91f9-e5651578026a"
+    source_record_ids: ["47b5d261-11bd-4c7b-91f9-e5651578026a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

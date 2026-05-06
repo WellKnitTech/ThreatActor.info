@@ -1,0 +1,15 @@
+name: "Apocalypse"
+aliases: ["Fabiansomeware","Apocalypse"]
+description: "Ransomware decryptionservice@mail.ru recoveryhelp@bk.ru ransomware.attack@list.ru esmeraldaencryption@mail.ru dr.compress@bk.ru"
+url: "/apocalypse"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e38b8876-5780-4574-9adf-304e9d659bdb"
+    source_record_ids: ["e38b8876-5780-4574-9adf-304e9d659bdb"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

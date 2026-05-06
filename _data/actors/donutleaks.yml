@@ -1,0 +1,15 @@
+name: "Donutleaks"
+aliases: ["Donutleaks"]
+description: "TOX: D3404141459BC7206CC4AFEC16A3403F262C0937A732C12644E7CA97F0615201A519F7EAB2E2"
+url: "/donutleaks"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "50fdc311-e6c5-4843-9b91-24d66afbdb8d"
+    source_record_ids: ["50fdc311-e6c5-4843-9b91-24d66afbdb8d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

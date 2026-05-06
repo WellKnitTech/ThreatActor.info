@@ -5,8 +5,18 @@ url: "/slime29"
 country: "China"
 sector_focus: ["Private Sector"]
 risk_level: "Critical"
+source_name: "Malpedia (Fraunhofer FKIE)"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/slime29"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "slime29"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/slime29"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "d58030e2-5673-4836-9aff-ab6d55da0bc0"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "d58030e2-5673-4836-9aff-ab6d55da0bc0"

@@ -1,0 +1,15 @@
+name: "RarVault"
+aliases: ["RarVault"]
+description: "Ransomware"
+url: "/rarvault"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c8ee96a3-ac22-40c7-8ed2-df67aeaca08d"
+    source_record_ids: ["c8ee96a3-ac22-40c7-8ed2-df67aeaca08d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

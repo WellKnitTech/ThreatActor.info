@@ -1,0 +1,24 @@
+name: "Groove"
+aliases: ["Groove"]
+description: "Groove was a short-lived ransomware group and cybercrime gang that emerged in August 2021 and became notable for its aggressive, publicity-driven tactics. Unlike traditional Ransomware-as-a-Service (RaaS) groups, Groove functioned more as a loose criminal collective, encouraging other threat actors to join forces in attacking U.S. entities, particularly in the government and financial sectors. The group ran a Tor-based leak site where it published stolen data, but its operators claimed to focus more on building an “underground alliance” than on ransomware deployment itself. Analysts noted overlaps between Groove and actors behind Babuk and BlackMatter, as well as forum personas known for data theft operations. By early 2022, Groove’s activity had largely ceased, with some experts suggesting the group was either a short-term recruitment campaign or a misinformation effort."
+url: "/groove"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "BlackEnergy"
+  - name: "BLACKCOFFEE"
+  - name: "Blackshades"
+  - name: "BlackNix"
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+  - name: "Xpert"
+  - name: "BlackHole"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "267b7b61-ed82-4809-aafe-9d2487c56f19"
+    source_record_ids: ["267b7b61-ed82-4809-aafe-9d2487c56f19"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

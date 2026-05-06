@@ -1,0 +1,15 @@
+name: "Dirección de Contra-Inteligencia Militar"
+aliases: ["Dirección de Contra-Inteligencia Militar"]
+description: "Military Counterintelligence Directorate"
+url: "/direcci-n-de-contra-inteligencia-militar"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "fdf5b4a6-88f4-5a51-bb67-ca49679cd13b"
+    source_record_ids: ["fdf5b4a6-88f4-5a51-bb67-ca49679cd13b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

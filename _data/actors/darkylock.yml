@@ -1,0 +1,19 @@
+name: "darkylock"
+aliases: ["darkylock"]
+description: "Darky Lock is a commodity-style ransomware strain first identified in July 2022, derived from publicly available Babuk source code. Victim systems undergo file encryption with an added “.darky” extension, and a “Restore-My-Files.txt” ransom note is placed in all impacted locations. The malware attempts to disable backup mechanisms, including shadow copies and specific applications. Its distribution leverages phishing and trojanized installers, complemented by payloads dropped via frameworks like Empire, Metasploit, and Cobalt Strike."
+url: "/darkylock"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Trojan.Karagany"
+  - name: "Trojan.Mebromi"
+  - name: "Cobalt Strike"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "cb8ad178-73f5-5e39-8113-79af5ef6052a"
+    source_record_ids: ["cb8ad178-73f5-5e39-8113-79af5ef6052a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

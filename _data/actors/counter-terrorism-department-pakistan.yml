@@ -1,0 +1,18 @@
+name: "Counter Terrorism Department (Pakistan)"
+aliases: ["Counter Terrorism Department (Pakistan)"]
+description: "Counter Terrorism Department (CTD)"
+url: "/counter-terrorism-department-pakistan"
+country: "Pakistan"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RTM"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "cba9b94a-aa23-5129-bafb-cb81f160550e"
+    source_record_ids: ["cba9b94a-aa23-5129-bafb-cb81f160550e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

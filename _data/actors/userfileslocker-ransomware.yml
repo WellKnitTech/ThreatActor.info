@@ -1,0 +1,17 @@
+name: "UserFilesLocker Ransomware"
+aliases: ["CzechoSlovak Ransomware","UserFilesLocker Ransomware"]
+description: "This is most likely to affect English speaking users, since the note is written in English. English is understood worldwide, thus anyone can be harmed. The hacker spread the virus using email spam, fake updates, and harmful attachments. All your files are compromised including music, MS Office, Open Office, pictures, videos, shared online files etc.."
+url: "/userfileslocker-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Virus RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes","ransomnotes-refs","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c9e29151-7eda-4192-9c34-f9a81b2ef743"
+    source_record_ids: ["c9e29151-7eda-4192-9c34-f9a81b2ef743"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

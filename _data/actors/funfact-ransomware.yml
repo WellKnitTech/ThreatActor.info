@@ -1,0 +1,15 @@
+name: "FunFact Ransomware"
+aliases: ["FunFact Ransomware"]
+description: "Funfact uses an open code for GNU Privacy Guard (GnuPG), then asks to email them to find out the amout of bitcoin to send (to receive a decrypt code). Written in English, can attach all over the world. The ransom is 1.22038 BTC, which is 1100USD."
+url: "/funfact-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","payment-method","price","ransomnotes","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "2bfac605-a2c5-4742-92a2-279a08a4c575"
+    source_record_ids: ["2bfac605-a2c5-4742-92a2-279a08a4c575"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

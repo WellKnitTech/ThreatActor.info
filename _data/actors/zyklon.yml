@@ -1,0 +1,15 @@
+name: "Zyklon"
+aliases: ["GNL Locker","Zyklon Locker","Zyklon"]
+description: "Ransomware Hidden Tear family, GNL Locker variant"
+url: "/zyklon"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "78ef77ac-a570-4fb9-af80-d04c09dff9ab"
+    source_record_ids: ["78ef77ac-a570-4fb9-af80-d04c09dff9ab"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

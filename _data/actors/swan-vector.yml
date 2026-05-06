@@ -2,10 +2,24 @@ name: "Swan Vector"
 aliases: ["Swan Vector"]
 description: "Seqrite Labs APT-Team has recently uncovered a campaign which we have termed as Swan Vector, that has been targeting the nations across the East China sea such as Taiwan and Japan. The campaign is aimed at educational institutes and mechanical engineering industry with lures aiming to deliver fake resume of candidates which acts as a decoy."
 url: "/swan-vector"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/swan_vector"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["China Chopper","CrossRat"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "swan_vector"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/swan_vector"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "e2a6fb97-b193-46a2-af73-098e13100dca"
   misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "e2a6fb97-b193-46a2-af73-098e13100dca"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["e2a6fb97-b193-46a2-af73-098e13100dca"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

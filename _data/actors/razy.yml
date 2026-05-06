@@ -1,0 +1,15 @@
+name: "Razy"
+aliases: ["Razy"]
+description: "Ransomware"
+url: "/razy"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "f2a38c7b-054e-49ab-aa0e-67a7aac71837"
+    source_record_ids: ["f2a38c7b-054e-49ab-aa0e-67a7aac71837"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

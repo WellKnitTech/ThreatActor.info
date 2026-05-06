@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Sandworm"
-aliases: ["Quedagh","VOODOO BEAR","TEMP.Noble","IRON VIKING","G0034","ELECTRUM","TeleBots","IRIDIUM","Blue Echidna","FROZENBARENTS","UAC-0113","Seashell Blizzard","UAC-0082","APT44","Sandworm"]
+aliases: ["Quedagh","VOODOO BEAR","TEMP.Noble","IRON VIKING","G0034","ELECTRUM","TeleBots","IRIDIUM","Blue Echidna","FROZENBARENTS","UAC-0113","Seashell Blizzard","UAC-0082","APT44","Sandworm","SandWorm","沙虫 - APT-C-13"]
 description: "This threat actor targets industrial control systems, using a tool called Black Energy, associated with electricity and power generation for espionage, denial of service, and data destruction purposes."
 permalink: /sandworm/
 ---

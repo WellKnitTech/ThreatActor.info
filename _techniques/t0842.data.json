@@ -1,0 +1,41 @@
+{
+  "mitre_id": "T0842",
+  "mitigations": [
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M0926",
+      "url": "https://attack.mitre.org/mitigations/M0926",
+      "stix_id": "course-of-action--622fe4d4-0e8e-4d17-9c25-6c9cef1f15d5"
+    },
+    {
+      "name": "Network Segmentation",
+      "mitre_id": "M0930",
+      "url": "https://attack.mitre.org/mitigations/M0930",
+      "stix_id": "course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291"
+    },
+    {
+      "name": "Multi-factor Authentication",
+      "mitre_id": "M0932",
+      "url": "https://attack.mitre.org/mitigations/M0932",
+      "stix_id": "course-of-action--ddf3e568-f065-49e2-9106-42029a28ddbd"
+    },
+    {
+      "name": "Encrypt Network Traffic",
+      "mitre_id": "M0808",
+      "url": "https://attack.mitre.org/mitigations/M0808",
+      "stix_id": "course-of-action--7f153c28-e5f1-4764-88fb-eea1d9b0ad4a"
+    },
+    {
+      "name": "Static Network Configuration",
+      "mitre_id": "M0814",
+      "url": "https://attack.mitre.org/mitigations/M0814",
+      "stix_id": "course-of-action--52c7a1a9-3a78-4528-a44f-cd7b0fa3541a"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

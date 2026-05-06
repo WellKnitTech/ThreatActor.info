@@ -2,10 +2,24 @@ name: "StucxTeam"
 aliases: ["StucxTeam"]
 description: "Stucx is a threat actor known for targeting Israeli systems, including SCADA systems and the Red Alert missile protection system. Stucx Team has also developed a mobile application called MyOPECS for coordinating attacks, which includes features like DDoS attacks and is expected to add more capabilities in the future. Additionally, they have been observed using VPNs and proxy software to conceal their activities and have a history of making threats against those who cooperate with Israel."
 url: "/stucxteam"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/stucxteam"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["MobileOrder"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "stucxteam"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/stucxteam"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "ee13ddb3-e8c0-4568-b56c-82d82c30f48b"
   misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "ee13ddb3-e8c0-4568-b56c-82d82c30f48b"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["ee13ddb3-e8c0-4568-b56c-82d82c30f48b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

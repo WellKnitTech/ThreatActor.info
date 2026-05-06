@@ -1,0 +1,15 @@
+name: "DORRA"
+aliases: ["DORRA"]
+description: "A new ransomware variant has been identified, named DORRA. It is worth mentioning in advance that this variant is derived from the Makop ransomware family.\n\nThis variant encrypts data by adding the “.DORRA” extension to files, as well as a unique ID and the ransomware developer's email address.\n\nAfter encrypting the data, the payload creates a ransom note as a text file named “README-WANING.txt,” through which victims are instructed to contact the threat actor via the provided email to decrypt the data.\n\nInterestingly, this variant uses a simple email address hosted on Microsoft's Outlook service as the contact method."
+url: "/dorra"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["TTP","extensions","ransomnotes","ransomnotes-filenames"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b7e9cd85-74f7-4600-850c-508dabcab92d"
+    source_record_ids: ["b7e9cd85-74f7-4600-850c-508dabcab92d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

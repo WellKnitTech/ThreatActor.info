@@ -1,0 +1,16 @@
+name: "National Defence Radio Establishment"
+aliases: ["National Defence Radio Establishment"]
+description: "National Defence Radio Establishment – Försvarets Radioanstalt (FRA)"
+url: "/national-defence-radio-establishment"
+country: "Sweden"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "3504cd9a-3b1d-5eaf-8bc4-c6cb6396ec38"
+    source_record_ids: ["3504cd9a-3b1d-5eaf-8bc4-c6cb6396ec38"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

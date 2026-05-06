@@ -1,0 +1,14 @@
+name: "CrystalCrypt"
+aliases: ["CrystalCrypt"]
+description: "Ransomware"
+url: "/crystalcrypt"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e64a7cc3-2454-4e77-8fd9-ed12d854e2dd"
+    source_record_ids: ["e64a7cc3-2454-4e77-8fd9-ed12d854e2dd"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

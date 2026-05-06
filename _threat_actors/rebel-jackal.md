@@ -10,6 +10,8 @@ permalink: /rebel-jackal/
 This is a pro-Islamist organization that generally conducts attacks motivated by real world events in which its members believe that members of the Muslim faith were wronged. Its attacks generally involve website defacements; however, the group did develop a RAT that it refers to as Fallaga RAT, but which appears to simply be a fork of the njRAT malware popular amongst hackers in the Middle East/North Africa region.
 
 ## Activities and Tactics
+**Country of Origin**: 🏳️ Tunisia
+
 **Risk Level**: High
 
 
@@ -30,7 +32,8 @@ This is a pro-Islamist organization that generally conducts attacks motivated by
 - **NJRat**
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Tunisia
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -1,0 +1,25 @@
+name: "Storm-1811 (Deprecated)"
+aliases: ["Storm-1811 (Deprecated)"]
+description: "*We are no longer maintaining this object in favor of a similar object subsequently published by MITRE: \"Storm-1811\" (Group). All relevant Tidal content extensions (e.g. additional Technique and Object relationships and metadata) have been added to the MITRE-authored object.*\n\nAccording to Microsoft security researchers, Storm-1811 is a \"financially motivated cybercriminal group known to deploy Black Basta ransomware\".<sup>[[Microsoft Security Blog 5 15 2024](/references/0876de6e-ea0c-4717-89a4-9c7baed53b6f)]</sup>"
+url: "/storm-1811-deprecated"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "BlackEnergy"
+  - name: "SHIPSHAPE"
+  - name: "BLACKCOFFEE"
+  - name: "Blackshades"
+  - name: "BlackNix"
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+  - name: "Archelaus Beta"
+  - name: "BlackHole"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_motivations","owner","source","tags"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "ee2da206-2532-44e3-a343-d66e9bfdbca0"
+    source_record_ids: ["ee2da206-2532-44e3-a343-d66e9bfdbca0"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

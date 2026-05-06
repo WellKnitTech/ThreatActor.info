@@ -1,0 +1,16 @@
+name: "Sefid Flood"
+aliases: ["Sefid Flood"]
+description: "Microsoft threat actor profile. Origin/Threat: Iran, Influence operations."
+url: "/sefid-flood"
+country: "Iran"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","microsoft-origin-threat","refs"]
+    source_cluster: "microsoft-activity-group.json"
+    source_clusters: ["microsoft-activity-group.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
+    source_record_id: "61f350a3-6507-5045-a3ef-0a5f773c9fe0"
+    source_record_ids: ["61f350a3-6507-5045-a3ef-0a5f773c9fe0"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

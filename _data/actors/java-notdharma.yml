@@ -1,0 +1,14 @@
+name: "Java NotDharma"
+aliases: ["Java NotDharma"]
+description: "ransomware"
+url: "/java-notdharma"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "5b8990a3-0e8c-4b81-8d3c-cc8e6b5024eb"
+    source_record_ids: ["5b8990a3-0e8c-4b81-8d3c-cc8e6b5024eb"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

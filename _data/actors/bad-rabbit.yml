@@ -1,0 +1,18 @@
+name: "Bad Rabbit"
+aliases: ["BadRabbit","Bad-Rabbit","Bad Rabbit"]
+description: "On October 24, 2017, Cisco Talos was alerted to a widescale ransomware campaign affecting organizations across eastern Europe and Russia. As was the case in previous situations, we quickly mobilized to assess the situation and ensure that customers remain protected from this and other threats as they emerge across the threat landscape. There have been several large scale ransomware campaigns over the last several months. This appears to have some similarities to Nyetya in that it is also based on Petya ransomware. Major portions of the code appear to have been rewritten. The distribution does not appear to have the sophistication of the supply chain attacks we have seen recently."
+url: "/bad-rabbit"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "MobileOrder"
+  - name: "CrossRat"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","payment-method","price","ransomnotes","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e8af6388-6575-4812-94a8-9df1567294c5"
+    source_record_ids: ["e8af6388-6575-4812-94a8-9df1567294c5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

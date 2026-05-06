@@ -1,0 +1,16 @@
+name: "Bundesamt für Verfassungsschutz"
+aliases: ["Federal Office for the Protection of the Constitution","Bundesamt für Verfassungsschutz"]
+description: "Bundesamt für Verfassungsschutz (BfV): Federal Office for the Protection of the Constitution"
+url: "/bundesamt-f-r-verfassungsschutz"
+country: "Germany"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "0cfe4c3c-dabe-5a84-9805-11fee7185da6"
+    source_record_ids: ["0cfe4c3c-dabe-5a84-9805-11fee7185da6"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

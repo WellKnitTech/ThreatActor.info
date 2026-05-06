@@ -1,0 +1,16 @@
+name: "Malaysian Defence Intelligence Organisation"
+aliases: ["Malaysian Defence Intelligence Organisation"]
+description: "Malaysian Defence Intelligence Organisation (Military Intelligence)[16]"
+url: "/malaysian-defence-intelligence-organisation"
+country: "Malaysia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "d73bd22e-98f7-5fff-af49-7b6468c16be9"
+    source_record_ids: ["d73bd22e-98f7-5fff-af49-7b6468c16be9"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

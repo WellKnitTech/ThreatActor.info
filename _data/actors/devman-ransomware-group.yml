@@ -1,0 +1,17 @@
+name: "Devman Ransomware Group"
+aliases: ["Devman Ransomware Group"]
+description: "Devman is a ransomware operation that has reportedly developed its own custom encryptor software, while also reportedly collaborating with other ransomware groups including Qilin, DragonForce, and RansomHub.<sup>[[Cyble Safepay Devman June 3 2025](/references/49840002-47ee-4a77-9ceb-577752798dc0)]</sup><sup>[[AhnLab Dark Web Trends June 10 2025](/references/de36cb84-6eaf-4a67-b09b-b876af38ccb5)]</sup>"
+url: "/devman-ransomware-group"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Dark DDoSeR"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "b7b61ba1-7b0c-4568-a5ee-8b6634ed5b60"
+    source_record_ids: ["b7b61ba1-7b0c-4568-a5ee-8b6634ed5b60"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

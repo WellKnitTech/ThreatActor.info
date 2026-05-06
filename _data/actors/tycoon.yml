@@ -1,0 +1,21 @@
+name: "Tycoon"
+aliases: ["Tycoon"]
+description: "This malware is written in Java and is named after references in the code. Tycoon has been in the wild since December 2019 and has targeted organizations in the education, SMBs, and software industries.\nTycoon is a multi-platform Java ransomware that targets Windows and Linux systems. This ransomware denies access to the system administrator following an attack on the domain controller and file servers. The initial intrusion occurs through an internet-facing remote desktop protocol (RDP) jump-server."
+url: "/tycoon"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RemoteCMD"
+  - name: "Remote Utilities"
+  - name: "Windows Remote Desktop"
+  - name: "RemotePC"
+  - name: "DesktopNow"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "39781a7a-cd3a-4e24-aeb8-94a767a2551b"
+    source_record_ids: ["39781a7a-cd3a-4e24-aeb8-94a767a2551b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

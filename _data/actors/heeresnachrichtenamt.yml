@@ -1,0 +1,16 @@
+name: "Heeresnachrichtenamt"
+aliases: ["Army Intelligence Office","Heeresnachrichtenamt"]
+description: "Heeresnachrichtenamt (HNA): Army Intelligence Office"
+url: "/heeresnachrichtenamt"
+country: "Austria"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "a4967c3e-9b8f-578e-8f34-fcebe4be1e57"
+    source_record_ids: ["a4967c3e-9b8f-578e-8f34-fcebe4be1e57"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

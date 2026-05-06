@@ -1,0 +1,17 @@
+{
+  "mitre_id": "T1628.002",
+  "mitigations": [
+    {
+      "name": "Deploy Compromised Device Detection Method",
+      "mitre_id": "M1010",
+      "url": "https://attack.mitre.org/mitigations/M1010",
+      "stix_id": "course-of-action--cf2cccb1-cab8-431a-8ecf-f7874d05f433"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

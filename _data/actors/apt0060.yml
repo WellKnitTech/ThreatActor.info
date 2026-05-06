@@ -1,13 +1,27 @@
 name: "BRONZE BUTLER"
-aliases: ["BRONZE BUTLER","REDBALDKNIGHT","Tick"]
+aliases: ["BRONZE BUTLER","REDBALDKNIGHT","Tick","Nian","STALKER PANDA","G0060","Stalker Taurus","PLA Unit 61419","Swirl Typhoon"]
 description: "BRONZE BUTLER is a cyber espionage group with likely Chinese origins that has been active since at least 2008. The group primarily targets Japanese organizations, particularly those in government, biotechnology, electronics manufacturing, and industrial chemistry. [Trend Micro Daserf Nov 2017](http://blog.trendmicro.com/trendlabs-security-intelligence/redbaldknight-bronze-butler-daserf-backdoor-now-using-steganography/) [Secureworks BRONZE BUTLER Oct 2017](https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses) [Trend Micro Tick November 2019](https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf)"
 url: "/apt0060"
+country: "China"
+sector_focus: ["Infrastructure","Industrial","Manufacturing","Diplomacy","News - Media","Political party","Engineering","Private sector"]
+targeted_victims: ["Japan","China","South Korea","Russian Federation"]
+incident_type: "Espionage"
 external_id: "G0060"
 external_url: "https://attack.mitre.org/groups/G0060"
 mitre_id: "G0060"
 mitre_url: "https://attack.mitre.org/groups/G0060"
+source_name: "Malpedia (Fraunhofer FKIE)"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/tick"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "tick"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/tick"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "add6554a-815a-4ac3-9b22-9337b9661ab8"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0060"

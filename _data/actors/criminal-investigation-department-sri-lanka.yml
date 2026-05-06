@@ -1,0 +1,17 @@
+name: "Criminal Investigation Department (Sri Lanka)"
+aliases: ["Criminal Investigation Department (Sri Lanka)"]
+description: "Criminal Investigation Department (Sri Lanka)"
+url: "/criminal-investigation-department-sri-lanka"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RTM"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "72b19f0a-fd35-5a7a-be1a-09603ed95ed9"
+    source_record_ids: ["72b19f0a-fd35-5a7a-be1a-09603ed95ed9"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

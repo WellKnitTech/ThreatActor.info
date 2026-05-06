@@ -4,7 +4,8 @@
     "aliases": [
       "LAUNDRY BEAR",
       "UAC-0190",
-      "Void Blizzard"
+      "Void Blizzard",
+      "Laundry Bear"
     ],
     "description": "Void Blizzard’s cyberespionage operations tend to be highly targeted at specific organizations of interest to the Russian government, including in government, defense, transportation, media, non-governmental organizations (NGOs), and healthcare sectors primarily in Europe and North America. The threat actor uses stolen credentials—which are likely procured from commodity infostealer ecosystems—and collects a high volume of email and files from compromised organizations.",
     "url": "/void-blizzard",
@@ -23,12 +24,14 @@
     "aliases": [
       "DEV-0832",
       "Vice Society",
-      "Vanilla Tempest"
+      "Vanilla Tempest",
+      "VICE SPIDER",
+      "Vicesociety"
     ],
     "description": "Vice Society is a ransomware group that has been active since at least June 2021. They primarily target the education and healthcare sectors, but have also been observed targeting the manufacturing industry. The group has used multiple ransomware families and has been known to utilize PowerShell scripts for their attacks. There are similarities between Vice Society and the Rhysida ransomware group, suggesting a potential connection or rebranding.",
     "url": "/vanilla-tempest",
     "permalink": "/vanilla-tempest/",
-    "country": null,
+    "country": "Russia",
     "sector_focus": [
 
     ],
@@ -105,7 +108,9 @@
       "Seashell Blizzard",
       "UAC-0082",
       "APT44",
-      "Sandworm"
+      "Sandworm",
+      "SandWorm",
+      "沙虫 - APT-C-13"
     ],
     "description": "This threat actor targets industrial control systems, using a tool called Black Energy, associated with electricity and power generation for espionage, denial of service, and data destruction purposes. Some believe that the threat actor is linked to the 2015 compromise of the Ukrainian electrical grid and a distributed denial of service prior to the Russian invasion of Georgia. Believed to be responsible for the 2008 DDoS attacks in Georgia and the 2015 Ukraine power grid outage",
     "url": "/sandworm",
@@ -126,7 +131,8 @@
   {
     "name": "SafePay",
     "aliases": [
-      "SafePay Ransomware"
+      "SafePay Ransomware",
+      "safepay"
     ],
     "description": "SafePay is a ransomware group particularly active in Germany, responsible for 24% of the 74 ransomware victims reported in the country during Q1 2025.",
     "url": "/safepay",
@@ -169,7 +175,8 @@
       "Sodin",
       "Water Mare",
       "GrandCrab",
-      "Revil"
+      "Revil",
+      "REvil"
     ],
     "description": "REvil is a Russian ransomware-as-a-service operation that has targeted major corporations worldwide.",
     "url": "/revil",
@@ -189,7 +196,8 @@
     "name": "RansomHub",
     "aliases": [
       "RansomHub RaaS",
-      "RansomHub"
+      "RansomHub",
+      "ransomhub"
     ],
     "description": "RansomHub is a dominant ransomware-as-a-service operation that emerged in 2024 and quickly became the most prolific group with 736 disclosed victims.",
     "url": "/ransomhub",

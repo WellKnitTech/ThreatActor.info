@@ -1,0 +1,15 @@
+name: "Judge"
+aliases: ["Judge"]
+description: "ransomware"
+url: "/judge"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "9d43444d-205b-4fac-81a8-2affd49b1eb6"
+    source_record_ids: ["9d43444d-205b-4fac-81a8-2affd49b1eb6"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

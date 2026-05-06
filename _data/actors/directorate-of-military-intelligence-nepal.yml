@@ -1,0 +1,15 @@
+name: "Directorate of Military Intelligence, Nepal"
+aliases: ["Directorate of Military Intelligence, Nepal"]
+description: "Directorate of Military Intelligence (DMI)"
+url: "/directorate-of-military-intelligence-nepal"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "85cffd14-5eec-56de-b77e-28243b472ae4"
+    source_record_ids: ["85cffd14-5eec-56de-b77e-28243b472ae4"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,21 @@
+name: "Cat Scientist Actor"
+aliases: ["Cat Scientist Actor"]
+description: "\"Cat Scientist\" is a username used by a threat actor on underground cybercriminal forums. The actor was observed attempting to sell access to a corporate network gained through compromise of Microsoft Windows RDWeb Virtual Desktop software.<sup>[[Dark Web Informer LinkedIn Cat Scientist January 2025](/references/4678131f-7079-4a5f-ac47-06faa3052d8f)]</sup>"
+url: "/cat-scientist-actor"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "CyberGate"
+  - name: "Dark DDoSeR"
+  - name: "Cyber Eye RAT"
+  - name: "Windows Remote Desktop"
+  - name: "DesktopNow"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "3bdc748e-88e4-43bb-bcac-90e382775fa4"
+    source_record_ids: ["3bdc748e-88e4-43bb-bcac-90e382775fa4"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

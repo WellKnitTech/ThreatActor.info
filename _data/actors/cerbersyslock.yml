@@ -1,0 +1,17 @@
+name: "cerbersyslock"
+aliases: ["cerbersyslock"]
+description: "CerBerSysLock first appeared in December 2017 as a cryptoransomware imposter, leveraging Cerber-style branding to deceive victims. It uses XOR-based encryption to lock files and appends extensions such as .CerBerSysLocked0009881. Victims receive a ransom note titled “HOW TO DECRYPT FILES.txt”, which falsely claims to be from the Cerber ransomware. The note includes an email contact—TerraBytefiles@scryptmail.com—and instructs victims to reference their ID (e.g., \"CerBerSysLocked0009881\") when communicating. The ransomware is technically linked to the Xorist family and is generally considered an opportunistic, low-profile scam rather than part of a broader Ransomware-as-a-Service (RaaS) operation."
+url: "/cerbersyslock"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Cerberus RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "f7cfcc14-8f12-5e54-bb4e-a8ccb51ceb53"
+    source_record_ids: ["f7cfcc14-8f12-5e54-bb4e-a8ccb51ceb53"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

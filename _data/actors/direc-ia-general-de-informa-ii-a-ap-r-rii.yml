@@ -1,0 +1,15 @@
+name: "Direcția Generală de Informații a Apărării"
+aliases: ["Direcția Generală de Informații a Apărării"]
+description: "General Directorate for Defense Intelligence (DGIA) – Direcția Generală de Informații a Apărării"
+url: "/direc-ia-general-de-informa-ii-a-ap-r-rii"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "b2d34c0f-b59f-5d87-bc1b-541973480fa5"
+    source_record_ids: ["b2d34c0f-b59f-5d87-bc1b-541973480fa5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

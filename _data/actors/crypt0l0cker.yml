@@ -1,0 +1,14 @@
+name: "Crypt0L0cker"
+aliases: ["Crypt0L0cker"]
+description: "Ransomware"
+url: "/crypt0l0cker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e4f33b48-653a-4d11-94fd-16d81360e2af"
+    source_record_ids: ["e4f33b48-653a-4d11-94fd-16d81360e2af"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "Cassetto Ransomware"
+aliases: ["Cassetto Ransomware"]
+description: "Michael Gillespie saw an encrypted file uploaded to ID Ransomware that appends the .cassetto extension and drops a ransom note named IMPORTANT ABOUT DECRYPT.txt."
+url: "/cassetto-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "7d3287f0-b03d-11e8-b1ef-23485f43e7f9"
+    source_record_ids: ["7d3287f0-b03d-11e8-b1ef-23485f43e7f9"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

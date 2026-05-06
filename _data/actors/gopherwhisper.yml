@@ -1,0 +1,30 @@
+name: "GopherWhisper"
+aliases: ["GopherWhisper"]
+description: "GopherWhisper is a China-aligned APT that routes C2 traffic through legitimate enterprise platforms like Slack, Discord, and Microsoft 365 Outlook to evade detection. Its toolkit includes the LaxGopher backdoor for Slack, RatGopher for Discord, and CompactGopher for data exfiltration via file.io. The group employs DLL side-loading via JabGopher and uses raw OpenSSL socket C2 on port 443 with the SSLORDoor backdoor. GopherWhisper has targeted Mongolian government entities and is assessed to have additional unidentified victims in Central Asia."
+url: "/gopherwhisper"
+country: "China"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gopherwhisper"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Backdoor.Oldrea"
+  - name: "China Chopper"
+  - name: "Socket23"
+  - name: "SocketPlayer"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "gopherwhisper"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gopherwhisper"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "d35a871f-402b-4a0e-a702-04e886abe883"
+  misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "d35a871f-402b-4a0e-a702-04e886abe883"
+    source_record_ids: ["d35a871f-402b-4a0e-a702-04e886abe883"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

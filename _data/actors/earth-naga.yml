@@ -1,0 +1,18 @@
+name: "Earth Naga"
+aliases: ["Earth Naga"]
+description: "Earth Naga is an APT group that has persistently targeted high-value organizations, including government agencies, telecommunications, and military-related manufacturers, primarily in Taiwan and the broader APAC region. They have been linked to the use of Draculoader and ShadowPad C&C infrastructure, demonstrating sophisticated TTPs such as establishing SSH connections through compromised mail servers. Earth Naga has collaborated with Earth Estries, sharing access to facilitate continued exploitation, complicating detection and attribution efforts. Their operations reflect a growing interest in global intelligence collection, extending to NATO member countries and Latin America."
+url: "/earth-naga"
+country: "China"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Xploit"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "7461ca39-3331-4b67-b4f8-a88de1c46768"
+    source_record_ids: ["7461ca39-3331-4b67-b4f8-a88de1c46768"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

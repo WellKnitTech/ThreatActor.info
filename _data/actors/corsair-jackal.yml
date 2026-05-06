@@ -2,16 +2,26 @@ name: "Corsair Jackal"
 aliases: ["TunisianCyberArmy","Corsair Jackal","Tunisian Cyber Army"]
 description: "Corsair Jackal is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/corsair-jackal"
+country: "Tunisia"
 risk_level: "High"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/corsair_jackal"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.crowdstrike.com/blog/regional-conflict-and-cyber-blowback/"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "others"
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "corsair_jackal"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/corsair_jackal"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "59d63dd6-f46f-4334-ad15-30d2e1ee0623"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "59d63dd6-f46f-4334-ad15-30d2e1ee0623"

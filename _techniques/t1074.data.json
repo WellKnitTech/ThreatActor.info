@@ -1,0 +1,40 @@
+{
+  "mitre_id": "T1074",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+    {
+      "id": "T1074.001",
+      "name": "Local Data Staging",
+      "permalink": "/techniques/T1074.001/"
+    },
+    {
+      "id": "T1074.002",
+      "name": "Remote Data Staging",
+      "permalink": "/techniques/T1074.002/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Wizard Spider",
+      "url": "/wizard-spider"
+    },
+    {
+      "name": "Volt Typhoon",
+      "url": "/apt1017"
+    },
+    {
+      "name": "VOID MANTICORE",
+      "url": "/void-manticore"
+    },
+    {
+      "name": "INC Ransom",
+      "url": "/apt1032"
+    },
+    {
+      "name": "Scattered Spider",
+      "url": "/apt1015"
+    }
+  ]
+}

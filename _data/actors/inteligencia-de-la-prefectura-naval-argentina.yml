@@ -1,0 +1,16 @@
+name: "Inteligencia de la Prefectura Naval Argentina"
+aliases: ["Inteligencia de la Prefectura Naval Argentina"]
+description: "Argentine Naval Prefecture Intelligence (SIPN) – Inteligencia de la Prefectura Naval Argentina"
+url: "/inteligencia-de-la-prefectura-naval-argentina"
+country: "Argentina"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "d1db42cb-5eef-5f15-a52c-03c4e8588a5b"
+    source_record_ids: ["d1db42cb-5eef-5f15-a52c-03c4e8588a5b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

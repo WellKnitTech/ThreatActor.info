@@ -1,0 +1,15 @@
+name: "Qlocker"
+aliases: ["Qlocker"]
+description: "login page, no posts"
+url: "/qlocker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "065110c5-574a-4466-a336-e6c5f3ef86c4"
+    source_record_ids: ["065110c5-574a-4466-a336-e6c5f3ef86c4"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

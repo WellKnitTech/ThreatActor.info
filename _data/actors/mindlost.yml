@@ -1,0 +1,14 @@
+name: "MindLost"
+aliases: ["MindLost"]
+description: "ransomware"
+url: "/mindlost"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ae96d561-5f2e-43ce-9b82-7a81e825758a"
+    source_record_ids: ["ae96d561-5f2e-43ce-9b82-7a81e825758a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

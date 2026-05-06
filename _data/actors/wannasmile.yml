@@ -1,0 +1,15 @@
+name: "WannaSmile"
+aliases: ["WannaSmile"]
+description: "zCrypt variant discovered on November 17, 2017, one day after the discovery of TYRANT. Used Farsi-language ransom note asking for a staggering 20 Bitcoin ransom payment. Also advertised local Iran-based payment processors and exchanges—www.exchangeing[.]ir, www.payment24[.]ir, www.farhadexchange.net, and www.digiarz.com)—through which Bitcoins could be acquired."
+url: "/wannasmile"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b3f04486-9bc4-11e8-bbfe-cf096483b45e"
+    source_record_ids: ["b3f04486-9bc4-11e8-bbfe-cf096483b45e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "Bolivarian National Intelligence Service"
+aliases: ["Bolivarian National Intelligence Service"]
+description: "Bolivarian National Intelligence Service - Servicio Bolivariano de Inteligencia (SEBIN)"
+url: "/bolivarian-national-intelligence-service"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "6cac7eb5-fe2d-55de-9937-12f357194c69"
+    source_record_ids: ["6cac7eb5-fe2d-55de-9937-12f357194c69"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

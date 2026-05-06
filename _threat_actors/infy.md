@@ -16,7 +16,9 @@ Infy is a group of suspected Iranian origin. Since early 2013, we have observed 
 
 **Risk Level**: High
 
+**First Seen**: 2016
 
+**Last Activity**: 2016
 
 **Incident Type**: Espionage
 
@@ -29,7 +31,7 @@ Infy is a group of suspected Iranian origin. Since early 2013, we have observed 
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+*No atomic indicators are listed in this profile. The APTnotes snapshot indexes 2 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
 ## Malware and Tools
 - **Backdoor.Oldrea**

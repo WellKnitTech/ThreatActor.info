@@ -1,0 +1,28 @@
+name: "Indian Army"
+aliases: ["Indian Army"]
+description: "Directorate of Military Intelligence"
+url: "/indian-army"
+country: "India"
+first_seen: "2017"
+last_activity: "2017"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  aptnotes:
+    earliest_report_year: "2017"
+    latest_report_year: "2017"
+    report_count: 1
+    sample_links: ["https://app.box.com/s/mmr87n5onrrqiz8gnt93vvifpwn1rvah"]
+    sample_titles: ["Cyber Attack Impersonating Identity Of Indian Think Tank To Target Central Bureau Of Investigation (cbi) And Possibly Indian Army Officials"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Cysinfo"]
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "249208d7-02cc-57b0-98df-635ce5dbb7f4"
+    source_record_ids: ["249208d7-02cc-57b0-98df-635ce5dbb7f4"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

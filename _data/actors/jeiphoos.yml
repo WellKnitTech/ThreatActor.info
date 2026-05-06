@@ -1,0 +1,17 @@
+name: "Jeiphoos"
+aliases: ["Encryptor RaaS","Sarento","Jeiphoos"]
+description: "Ransomware Windows, Linux. Campaign stopped. Actor claimed he deleted the master key."
+url: "/jeiphoos"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Windows Remote Desktop"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","payment-method","price","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "50014fe7-5efd-4639-82ef-30d36f4d2918"
+    source_record_ids: ["50014fe7-5efd-4639-82ef-30d36f4d2918"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

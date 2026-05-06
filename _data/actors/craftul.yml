@@ -1,0 +1,14 @@
+name: "Craftul"
+aliases: ["Craftul"]
+description: "ransomware"
+url: "/craftul"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ae7dcbb6-044a-427a-8392-7697c4e1bef7"
+    source_record_ids: ["ae7dcbb6-044a-427a-8392-7697c4e1bef7"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

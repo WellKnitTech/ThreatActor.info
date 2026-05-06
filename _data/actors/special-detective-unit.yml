@@ -1,0 +1,16 @@
+name: "Special Detective Unit"
+aliases: ["Special Detective Unit"]
+description: "Special Detective Unit (SDU)"
+url: "/special-detective-unit"
+country: "Ireland"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "c2dd620e-ae8d-5691-a4fc-f79f1f54d922"
+    source_record_ids: ["c2dd620e-ae8d-5691-a4fc-f79f1f54d922"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

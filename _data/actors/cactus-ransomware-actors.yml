@@ -1,0 +1,18 @@
+name: "CACTUS Ransomware Actors"
+aliases: ["CACTUS Ransomware Actors"]
+description: "This Group object reflects the tools & TTPs observed in use by threat actors known to deploy CACTUS, a ransomware that researchers believe has been used since at least March 2023.<sup>[[Kroll CACTUS Ransomware May 10 2023](/references/f50de2f6-465f-4cae-a79c-cc135ebfee4f)]</sup> Specific pre- and post-exploit behaviors may vary among intrusions carried out by distinct actors or actor clusters. TTPs associated with the CACTUS ransomware binary itself can be found in the separate dedicated Software object."
+url: "/cactus-ransomware-actors"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Xploit"
+  - name: "Archelaus Beta"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "fac6fbf1-935f-4106-ad8b-c8fd8389dd38"
+    source_record_ids: ["fac6fbf1-935f-4106-ad8b-c8fd8389dd38"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

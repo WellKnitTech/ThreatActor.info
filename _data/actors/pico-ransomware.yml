@@ -1,0 +1,15 @@
+name: "PICO Ransomware"
+aliases: ["Pico Ransomware","PICO Ransomware"]
+description: "S!Ri found a new Thanatos Ransomware variant called PICO Ransomware. This ransomware will append the .PICO extension to encrypted files and drop a ransom note named README.txt."
+url: "/pico-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "5d0c28f6-b050-11e8-95a8-7b8e480b9bd2"
+    source_record_ids: ["5d0c28f6-b050-11e8-95a8-7b8e480b9bd2"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

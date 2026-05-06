@@ -1,0 +1,20 @@
+name: "CHATTY SPIDER"
+aliases: ["CHATTY SPIDER"]
+description: "A cybercriminal actor known to carry out \"callback phishing\" social engineering attacks.<sup>[[CrowdStrike 2025 Global Threat Report](/references/a69b0ce3-f314-4b32-bfb3-b1380c4f0ec4)]</sup>"
+url: "/chatty-spider"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Back Orifice"
+  - name: "Back Orifice 2000"
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "99c648f7-be33-42d0-af39-231b1e0951ee"
+    source_record_ids: ["99c648f7-be33-42d0-af39-231b1e0951ee"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

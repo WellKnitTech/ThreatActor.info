@@ -1,0 +1,15 @@
+name: "Cryptomix-SERVER"
+aliases: ["SERVER Cryptomix","Cryptomix-SERVER"]
+description: "Ransomware"
+url: "/cryptomix-server"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "460e3f42-15dc-4e73-ad39-76af8d272379"
+    source_record_ids: ["460e3f42-15dc-4e73-ad39-76af8d272379"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

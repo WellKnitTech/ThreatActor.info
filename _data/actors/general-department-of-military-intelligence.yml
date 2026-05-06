@@ -1,0 +1,18 @@
+name: "General Department of Military Intelligence"
+aliases: ["General Department of Military Intelligence"]
+description: "General Department of Defence Intelligence (GDDI)/General Department II - Tổng cục Tình báo Quốc phòng (TBQP)/Tổng cục II (TC2)"
+url: "/general-department-of-military-intelligence"
+country: "Vietnam"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RTM"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "10d3bae5-5a8a-5031-9d94-289b4775ef8d"
+    source_record_ids: ["10d3bae5-5a8a-5031-9d94-289b4775ef8d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

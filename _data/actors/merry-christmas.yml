@@ -1,0 +1,15 @@
+name: "Merry Christmas"
+aliases: ["Merry X-Mas","MRCR","Merry Christmas"]
+description: "It’s directed to English and Italian speaking users, therefore is able to infect worldwide. Most attacks are on organizations and servers. It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc.. They pose as a Consumer complaint notification that’s coming from Federal Trade Commission from USA, with an attached file called “complaint.pdf”. Written in Delphi by hacker MicrRP."
+url: "/merry-christmas"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","ransomnotes-filenames","ransomnotes-refs","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "72cbed4e-b26a-46a1-82be-3d0154fdd2e5"
+    source_record_ids: ["72cbed4e-b26a-46a1-82be-3d0154fdd2e5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

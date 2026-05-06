@@ -1,13 +1,37 @@
 name: "Ke3chang"
-aliases: ["APT15","GREF","Ke3chang","Mirage","NICKEL","Nylon Typhoon","Playful Dragon","RoyalAPT","Vixen Panda"]
+aliases: ["APT15","GREF","Ke3chang","Mirage","NICKEL","Nylon Typhoon","Playful Dragon","RoyalAPT","Vixen Panda","ke3chang","RedRiver","VIXEN PANDA","Ke3Chang","Metushy","Lurid","Social Network Team","Royal APT","BRONZE PALACE","BRONZE DAVENPORT","BRONZE IDLEWOOD","G0004","Red Vulture"]
 description: "Ke3chang is a threat group attributed to actors operating out of China. Ke3chang has targeted oil, government, diplomatic, military, and NGOs in Central and South America, the Caribbean, Europe, and North America since at least 2010. [Mandiant Operation Ke3chang November 2014](https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs) [NCC Group APT15 Alive and Strong](https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/) [APT15 Intezer June 2018](https://web.archive.org/web/20180615122133/https://www.intezer.com/miragefox-apt15-resurfaces-with-new-tools-based-on-old-ones/) [Microsoft NICKEL December 2021](https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe)"
 url: "/apt0004"
+country: "China"
+sector_focus: ["Government, Administration","Government"]
+targeted_victims: ["European Union","India","United Kingdom","Germany"]
+incident_type: "Espionage"
 external_id: "G0004"
 external_url: "https://attack.mitre.org/groups/G0004"
 mitre_id: "G0004"
 mitre_url: "https://attack.mitre.org/groups/G0004"
+source_name: "MISP Galaxy"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt15"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "China Chopper"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "gref"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gref"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "e6d16c22-0780-483c-9920-c1d9f27b10c8"
+  misp_galaxy:
+    meta_keys: ["country","microsoft-origin-threat","refs","sector","synonyms"]
+    source_cluster: "microsoft-activity-group.json"
+    source_clusters: ["microsoft-activity-group.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
+    source_record_id: "66571167-13fe-5817-93e0-54ae8f206fdc"
+    source_record_ids: ["66571167-13fe-5817-93e0-54ae8f206fdc"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0004"

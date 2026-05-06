@@ -2,10 +2,24 @@ name: "UNC2465"
 aliases: ["UNC2465"]
 description: "UNC2465 is a threat actor known for deploying the SMOKEDHAM .NET backdoor and DARKSIDE ransomware, utilizing TTPs such as phishing, Trojanized software installers, and supply chain attacks. They have employed the NGROK utility to expose internal services and facilitate lateral movement within victim environments. UNC2465 has also leveraged tools like UltraVNC, Cobalt Strike BEACON, and conducted credential harvesting via LSASS memory dumping. Their operations have included extortion tactics through a leaks website over TOR, applying pressure on victims by releasing stolen data."
 url: "/unc2465"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc2465"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["Backdoor.Oldrea","Smoke Loader","Trojan.Karagany","Trojan.Mebromi","Ultra VNC","Cobalt Strike"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "unc2465"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc2465"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "cbdf8d63-c114-47d5-8f32-f87f365c7c43"
   misp_galaxy:
+    meta_keys: ["origin:UNC2465","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "cbdf8d63-c114-47d5-8f32-f87f365c7c43"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["cbdf8d63-c114-47d5-8f32-f87f365c7c43"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

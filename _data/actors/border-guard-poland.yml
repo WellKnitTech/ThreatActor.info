@@ -1,0 +1,16 @@
+name: "Border Guard (Poland)"
+aliases: ["Border Guard (Poland)"]
+description: "Operations and Investigations Directorate of the Border Guard Headquarters - Zarząd Operacyjno-Śledczy Komendy Głównej Straży Granicznej (KGSG, ZOŚ, KGSG)"
+url: "/border-guard-poland"
+country: "Poland"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "0d92965a-8b7a-5144-9975-8f28696b3839"
+    source_record_ids: ["0d92965a-8b7a-5144-9975-8f28696b3839"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

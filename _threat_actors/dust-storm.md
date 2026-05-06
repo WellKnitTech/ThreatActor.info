@@ -28,5 +28,6 @@ Threat actors behind the Operation Dust Storm have been active since at least 20
 *Information pending cataloguing.*
 
 ## References
-*References pending cataloguing.*
+[1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0031)
+   MITRE ATT&CK entry
 

@@ -1,0 +1,26 @@
+{
+  "mitre_id": "T1491",
+  "mitigations": [
+    {
+      "name": "Data Backup",
+      "mitre_id": "M1053",
+      "url": "https://attack.mitre.org/mitigations/M1053",
+      "stix_id": "course-of-action--3efe43d1-6f3f-4fcb-ab39-4a730971f70b"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1491.002",
+      "name": "External Defacement",
+      "permalink": "/techniques/T1491.002/"
+    },
+    {
+      "id": "T1491.001",
+      "name": "Internal Defacement",
+      "permalink": "/techniques/T1491.001/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

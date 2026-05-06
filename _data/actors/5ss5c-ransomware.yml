@@ -1,0 +1,18 @@
+name: "5ss5c Ransomware"
+aliases: ["5ss5c Ransomware"]
+description: "The cybercrime group that brought us Satan, DBGer and Lucky ransomware and perhaps Iron ransomware, has now come up with a new version or rebranding named 5ss5c. [...] It will however only encrypt files with the following extensions: 7z, bak, cer, csv, db, dbf, dmp, docx, eps, ldf, mdb, mdf, myd, myi, ora, pdf, pem, pfx, ppt, pptx, psd, rar, rtf, sql, tar, txt, vdi, vmdk, vmx, xls, xlsx, zip"
+url: "/5ss5c-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "8ac9fc73-05db-4be8-8f46-33bbd6b3502b"
+    source_record_ids: ["8ac9fc73-05db-4be8-8f46-33bbd6b3502b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

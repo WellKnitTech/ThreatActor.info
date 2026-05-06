@@ -1,0 +1,16 @@
+name: "National Intelligence and Security Agency (NISA)[6][7][8][9]"
+aliases: ["National Intelligence and Security Agency (NISA)[6][7][8][9]"]
+description: "National Intelligence and Security Agency (NISA)[6][7][8][9]"
+url: "/national-intelligence-and-security-agency-nisa-6-7-8-9"
+country: "Guyana"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "60033eb2-d868-5caf-baf8-c22c4b5a9bb3"
+    source_record_ids: ["60033eb2-d868-5caf-baf8-c22c4b5a9bb3"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

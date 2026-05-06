@@ -1,0 +1,14 @@
+name: "Chaos"
+aliases: ["Chaos"]
+description: "Chaos is a rapidly evolving Ransomware-as-a-Service (RaaS) group first observed in early 2025. It is considered distinct and unaffiliated with the Chaos Ransomware Builder that originated around 2021. Known for highly aggressive double-extortion operations, Chaos targets organizations across multiple platforms—Windows, ESXi, Linux, and NAS—with fast, configurable encryption mechanisms and optional partial-file targeting for stealth. Attackers gain access through vulnerabilities, phishing, or brokered credentials, then encrypt files while threatening to leak or destroy stolen data. Notable incidents include the breach of Optima Tax Relief, in which the group exfiltrated 69 GB of sensitive data before encrypting systems."
+url: "/chaos"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/chaos"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "chaos"
+  source_retrieved_at: "2026-05-06T21:56:49Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

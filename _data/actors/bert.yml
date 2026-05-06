@@ -1,0 +1,24 @@
+name: "bert"
+aliases: ["bert"]
+description: "BERT ransomware (also tracked as Water Pombero) first emerged in April 2025, rapidly targeting both Windows and Linux systems across Asia, Europe, and the U.S., with confirmed victims in healthcare, technology, electronics, and event services sectors. Its Windows variant employs a PowerShell-based loader that escalates privileges, disables Defender, UAC, and the firewall, then downloads the ransomware payload. The Linux version aggressively encrypts with up to 50 concurrent threads, forcibly shuts down VMware ESXi VMs to prevent recovery, and appends extensions like .encryptedbybert or .encrypted_by_bert. BERT uses AES encryption, and later variants feature optimized multithreading via ConcurrentQueue and DiskWorker threads. Analysts note code similarities with REvil and Babuk ESXi lockers, potentially pointing to shared development lineage or code reuse."
+url: "/bert"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "PowerDuke"
+  - name: "POWERSTATS"
+  - name: "Power Loader"
+  - name: "POWERSOURCE"
+  - name: "Windows Remote Desktop"
+  - name: "Revenge-RAT"
+  - name: "PowerRAT"
+  - name: "CrossRat"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "6b62bf40-7748-5eea-94e4-8ffdf5d5c3d6"
+    source_record_ids: ["6b62bf40-7748-5eea-94e4-8ffdf5d5c3d6"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

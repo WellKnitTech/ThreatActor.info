@@ -1,0 +1,14 @@
+name: "The Brotherhood"
+aliases: ["The Brotherhood"]
+description: "ransomware"
+url: "/the-brotherhood"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "9867ec9e-a772-4c70-81dc-1517330e58bd"
+    source_record_ids: ["9867ec9e-a772-4c70-81dc-1517330e58bd"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

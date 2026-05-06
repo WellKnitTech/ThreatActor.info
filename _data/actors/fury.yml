@@ -1,0 +1,15 @@
+name: "Fury"
+aliases: ["Fury"]
+description: "Ransomware"
+url: "/fury"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "291997b1-72b6-43ea-9365-b4d55eddca71"
+    source_record_ids: ["291997b1-72b6-43ea-9365-b4d55eddca71"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,18 @@
+name: "PirateJack Actor"
+aliases: ["PirateJack Actor"]
+description: "\"PirateJack\" is a username used by a threat actor on underground cybercriminal forums. The actor has been observed attempting to sell numerous accesses to corporate networks mainly gained through compromise of VPN software.<sup>[[CYJAX Initial Access Broker Report June 2024](/references/5a20c423-c4c0-4601-9e4d-028df0297568)]</sup>"
+url: "/piratejack-actor"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "b5fce40f-39b9-4c63-bd56-834bef34381c"
+    source_record_ids: ["b5fce40f-39b9-4c63-bd56-834bef34381c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

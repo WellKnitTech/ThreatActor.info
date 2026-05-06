@@ -1,0 +1,21 @@
+name: "FTCode"
+aliases: ["FTCode"]
+description: "A targeted email campaign has been spotted distributing the JasperLoader to victims. While the JasperLoader was originally used to then install Gootkit, Certego has observed it now being used to infect victims with a new ransomware dubbed FTCODE. Using an invoice-themed email appearing to target Italian users, the attackers attempt to convince users to allow macros in a Word document. The macro is used to run PowerShell to retrieve additional PowerShell code."
+url: "/ftcode"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "PowerDuke"
+  - name: "POWERSTATS"
+  - name: "Power Loader"
+  - name: "POWERSOURCE"
+  - name: "PowerRAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "6f9b7c54-45fa-422c-97f0-0f0c015e3c4e"
+    source_record_ids: ["6f9b7c54-45fa-422c-97f0-0f0c015e3c4e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

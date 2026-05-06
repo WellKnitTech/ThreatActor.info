@@ -1,0 +1,19 @@
+name: "Mongo Lock"
+aliases: ["Mongo Lock","MongoLock"]
+description: "An attack called Mongo Lock is targeting remotely accessible and unprotected MongoDB databases, wiping them, and then demanding a ransom in order to get the contents back. While this new campaign is using a name to identify itself, these types of attacks are not new and MongoDB databases have been targeted for a while now. These hijacks work by attackers scanning the Internet or using services such as Shodan.io to search for unprotected MongoDB servers. Once connected, the attackers may export the databases, delete them, and then create a ransom note explaining how to get the databases back."
+url: "/mongo-lock"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RemoteCMD"
+  - name: "Remote Utilities"
+  - name: "RemotePC"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","ransomnotes","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "2aa481fe-c254-11e8-ad1c-efee78419960"
+    source_record_ids: ["2aa481fe-c254-11e8-ad1c-efee78419960","4f579928-8f50-459c-8878-df1c75437c38"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

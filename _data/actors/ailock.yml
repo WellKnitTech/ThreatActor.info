@@ -1,0 +1,17 @@
+name: "ailock"
+aliases: ["ailock"]
+description: "AiLock is a Ransomware-as-a-Service (RaaS) group first identified in March 2025. It employs a double-extortion approach—encrypting files and threatening to report breaches to regulators or share stolen data with competitors if the ransom isn’t paid. Victims have just 72 hours to respond and up to five days to pay; failure to pay results in data leaks and destruction of recovery tools. The ransomware appends the extension .AiLock to encrypted files, changes file icons to a green padlock with the “AiLock” name, and replaces the desktop wallpaper with a distinctive robot-skull logo. It employs a hybrid encryption scheme, combining ChaCha20 for file encryption with NTRUEncrypt for securing metadata, and uses a multi-threaded design (path-traversal and encryption threads with IOCP) for efficiency. While active campaigns and leak sites are confirmed, specific sectors, regions, and intrusion methods remain undisclosed in public sources."
+url: "/ailock"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "DesktopNow"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "efc111c6-adb6-5790-a1bb-b1e3542a7706"
+    source_record_ids: ["efc111c6-adb6-5790-a1bb-b1e3542a7706"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

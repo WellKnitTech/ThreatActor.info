@@ -1,0 +1,15 @@
+name: "Midas"
+aliases: ["Midas"]
+description: "This malware written in C# is a variant of the Thanos ransomware family and emerged in October 2021 and is obfuscated using SmartAssembly. In 2022, ThreatLabz analysed a report of Midas ransomware was slowly deployed over a two month period (ZScaler). This ransomware features also its own data leak site as part of its double extortion strategy."
+url: "/midas"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c0ce34c6-13b9-41ef-847c-840b090f2bfc"
+    source_record_ids: ["c0ce34c6-13b9-41ef-847c-840b090f2bfc"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

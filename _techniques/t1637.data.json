@@ -1,0 +1,16 @@
+{
+  "mitre_id": "T1637",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+    {
+      "id": "T1637.001",
+      "name": "Domain Generation Algorithms",
+      "permalink": "/techniques/T1637.001/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

@@ -16,6 +16,7 @@ Founded in 2004, Turkhackteam is one of Turkey’s oldest and most high-profile 
 
 
 
+**Incident Type**: Hacktivists-Nationalists
 
 ## Notable Campaigns
 *Information pending cataloguing.*

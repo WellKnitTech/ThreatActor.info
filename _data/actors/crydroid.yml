@@ -1,0 +1,14 @@
+name: "CryDroid"
+aliases: ["CryDroid"]
+description: "ransomware"
+url: "/crydroid"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "cfa9c2ee-6a2f-4cd4-849f-bcf8e9aa77a7"
+    source_record_ids: ["cfa9c2ee-6a2f-4cd4-849f-bcf8e9aa77a7"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

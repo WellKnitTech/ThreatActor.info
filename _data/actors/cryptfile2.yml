@@ -1,0 +1,15 @@
+name: "CryptFIle2"
+aliases: ["Lesli","CryptFIle2"]
+description: "Ransomware"
+url: "/cryptfile2"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","price","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "5b0dd136-6428-48c8-b2a6-8e926a82dfac"
+    source_record_ids: ["5b0dd136-6428-48c8-b2a6-8e926a82dfac"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

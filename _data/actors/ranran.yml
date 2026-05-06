@@ -1,0 +1,15 @@
+name: "RanRan"
+aliases: ["ZXZ","RanRan"]
+description: "Ransomware"
+url: "/ranran"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","ransomnotes","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e01a0cfa-2c8c-4e08-963a-4fa1e8cc6a34"
+    source_record_ids: ["e01a0cfa-2c8c-4e08-963a-4fa1e8cc6a34"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

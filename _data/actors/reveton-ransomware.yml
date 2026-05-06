@@ -1,0 +1,17 @@
+name: "Reveton ransomware"
+aliases: ["Reveton ransomware"]
+description: "A ransomware family that targets users from certain countries or regions. It locks the computer and displays a location-specific webpage that covers the desktop and demands that the user pay a fine for the supposed possession of illicit material. The Reveton ransomware is one of the first screen-locking ransomware strains, and it appeared when Bitcoin was still in its infancy, and before it became the cryptocurrency of choice in all ransomware operations. Instead, Reveton operators asked victims to buy GreenDot MoneyPak vouchers, take the code on the voucher and enter it in the Reveton screen locker."
+url: "/reveton-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "DesktopNow"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "1912ec68-4145-11e8-ac06-9b6643035a71"
+    source_record_ids: ["1912ec68-4145-11e8-ac06-9b6643035a71"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

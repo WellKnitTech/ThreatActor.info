@@ -1,0 +1,14 @@
+name: "TrumpHead"
+aliases: ["TrumpHead"]
+description: "ransomware"
+url: "/trumphead"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "18c91134-1df6-4853-a1c2-c8424137f2e6"
+    source_record_ids: ["18c91134-1df6-4853-a1c2-c8424137f2e6"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

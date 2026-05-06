@@ -1,0 +1,14 @@
+name: "Apos"
+aliases: ["Apos"]
+description: "Apos ransomware surfaced in April 2024 and is best characterized as a data‑broker or leak‑only operation, rather than a traditional file‑encryption ransomware. It has not been observed to conduct encryption, but instead focuses on data exfiltration with threats to leak or sell the stolen information. Targets span sectors such as technology, healthcare, manufacturing, business services, telecommunications, and government—with significant victimology in Brazil, the United States, India, France, Paraguay, and Spain. Reporting suggests its activity tapered off after a few incidents, possibly indicating a one-time campaign or short-lived operation. Though some sources list multiple victims, technical details such as encryption algorithms, ransom notes, or extortion pricing are not publicly documented. Apos is sometimes listed among new or industrial-focused threats observed in Q1 2025, but remains poorly defined in public technical intel."
+url: "/apos"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/apos"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "apos"
+  source_retrieved_at: "2026-05-06T21:57:09Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

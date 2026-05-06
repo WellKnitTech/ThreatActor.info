@@ -1,0 +1,14 @@
+name: "Russenger"
+aliases: ["Russenger"]
+description: "ransomware"
+url: "/russenger"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "15d0121a-aac9-41cb-a140-69c3eb739d4a"
+    source_record_ids: ["15d0121a-aac9-41cb-a140-69c3eb739d4a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

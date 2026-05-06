@@ -1,0 +1,15 @@
+name: "Anony"
+aliases: ["ngocanh","Anony"]
+description: "Ransomware Based on HiddenTear"
+url: "/anony"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "5b94100d-83bb-4e30-be7a-6015c00356e0"
+    source_record_ids: ["5b94100d-83bb-4e30-be7a-6015c00356e0"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

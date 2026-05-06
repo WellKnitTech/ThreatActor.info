@@ -1,0 +1,15 @@
+name: "darkwave"
+aliases: ["darkwave"]
+description: "Written in python"
+url: "/darkwave"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "33030517-030e-51e2-9723-86128f1f794b"
+    source_record_ids: ["33030517-030e-51e2-9723-86128f1f794b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

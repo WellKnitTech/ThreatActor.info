@@ -1,0 +1,16 @@
+name: "General Commissariat of Judiciary Police"
+aliases: ["General Commissariat of Judiciary Police"]
+description: "General Commissariat of Judiciary Police - (Comisaría General de Policía Judicial) (CGPJ)"
+url: "/general-commissariat-of-judiciary-police"
+country: "Spain"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "ac2148ed-7483-5669-8c1a-9e1b20579e4f"
+    source_record_ids: ["ac2148ed-7483-5669-8c1a-9e1b20579e4f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

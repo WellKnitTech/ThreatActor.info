@@ -1,0 +1,15 @@
+name: "Desync"
+aliases: ["Desync"]
+description: "This crypto ransomware encrypts enterprise LAN data with AES (ECB mode), and then requires a ransom in # BTC to return the files."
+url: "/desync"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e5288fc1-ff2a-4992-a1fb-6a8ef612de51"
+    source_record_ids: ["e5288fc1-ff2a-4992-a1fb-6a8ef612de51"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "Steel"
+aliases: ["Steel"]
+description: "ransomware"
+url: "/steel"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "f4c25d90-fea1-4bf5-8128-108f4ed279e4"
+    source_record_ids: ["f4c25d90-fea1-4bf5-8128-108f4ed279e4"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

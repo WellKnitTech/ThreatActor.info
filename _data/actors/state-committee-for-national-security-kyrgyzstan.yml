@@ -1,0 +1,15 @@
+name: "State Committee for National Security (Kyrgyzstan)"
+aliases: ["State Committee for National Security (Kyrgyzstan)"]
+description: "State Committee for National Security (UKMK/GKNB)"
+url: "/state-committee-for-national-security-kyrgyzstan"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "fcd2a089-949d-5eef-ba9c-5e07a43e6918"
+    source_record_ids: ["fcd2a089-949d-5eef-ba9c-5e07a43e6918"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

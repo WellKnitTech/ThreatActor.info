@@ -1,0 +1,16 @@
+name: "Financial Monitoring Unit"
+aliases: ["Financial Monitoring Unit"]
+description: "Financial Monitoring Unit (FMU)"
+url: "/financial-monitoring-unit"
+country: "Pakistan"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "b76a6893-53b5-5387-b683-9c6c979c5679"
+    source_record_ids: ["b76a6893-53b5-5387-b683-9c6c979c5679"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,18 @@
+name: "elpaco"
+aliases: ["elpaco"]
+description: "Elpaco is a variant of Mimic ransomware that emerged around August 2023. Designed with significant customization and stealth in mind, it targets Windows systems by abusing the Everything search utility to optimize file discovery and accelerate encryption. Operators exploit various initial access methods—most notably RDP brute-force and the Zerologon vulnerability (CVE-2020-1472)—to gain access, escalate privileges, and deliver the payload. The ransomware uses a 7z SFX dropper, deploys multi-threaded encryption, disables recovery options, and self-deletes after execution, leaving victims with encrypted files bearing Elpaco-specific extensions. It's recognized for its adaptability and advanced features compared to earlier Mimic variants."
+url: "/elpaco"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Windows Remote Desktop"
+  - name: "Xploit"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c0503b80-f2de-5848-b67c-4f123725e1bd"
+    source_record_ids: ["c0503b80-f2de-5848-b67c-4f123725e1bd"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

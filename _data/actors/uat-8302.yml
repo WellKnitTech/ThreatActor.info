@@ -1,0 +1,25 @@
+name: "UAT-8302"
+aliases: ["UAT-8302"]
+description: "UAT-8302 is a sophisticated China-nexus APT group targeting government entities in South America and southeastern Europe, deploying custom-made malware such as NetDraft, CloudSorcerer version 3, and VSHELL. They utilize tools like SNOWLIGHT and SNOWRUST for initial access and reconnaissance, employing techniques such as PowerShell scripts and SMB share discovery. UAT-8302 also establishes backdoor access through proxy servers and uses tools like Stowaway for tunneling traffic. Their operations indicate a close relationship with other known China-nexus threat actors, leveraging shared malware families and TTPs."
+url: "/uat-8302"
+country: "China"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Backdoor.Oldrea"
+  - name: "CloudDuke"
+  - name: "PowerDuke"
+  - name: "POWERSTATS"
+  - name: "Power Loader"
+  - name: "POWERSOURCE"
+  - name: "China Chopper"
+  - name: "PowerRAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "34f06d4a-8497-40ab-8614-bba6fd4754a3"
+    source_record_ids: ["34f06d4a-8497-40ab-8614-bba6fd4754a3"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

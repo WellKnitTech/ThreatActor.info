@@ -1,0 +1,29 @@
+{
+  "mitre_id": "T1597",
+  "mitigations": [
+    {
+      "name": "Pre-compromise",
+      "mitre_id": "M1056",
+      "url": "https://attack.mitre.org/mitigations/M1056",
+      "stix_id": "course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1597.001",
+      "name": "Threat Intel Vendors",
+      "permalink": "/techniques/T1597.001/"
+    },
+    {
+      "id": "T1597.002",
+      "name": "Purchase Technical Data",
+      "permalink": "/techniques/T1597.002/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "EXOTIC LILY",
+      "url": "/apt1011"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+name: "Frag"
+aliases: ["Frag"]
+description: "Frag is a relatively new ransomware and data extortion group first seen in February 2025. The group operates a dedicated Tor-based leak site where it publishes victim details, including sector, location, and sample stolen files, as part of its double-extortion strategy. Within its first month of activity, Frag claimed over two dozen victims, spanning industries such as manufacturing, aviation, real estate, retail, and legal services, with a global footprint including the United States, the Netherlands, and Singapore. Intrusion methods have included exploitation of known vulnerabilities—such as the Veeam Backup & Replication flaw CVE-2024-40711—and compromised remote access appliances. The group’s operations and targeting style suggest experienced actors, possibly with past involvement in other ransomware projects."
+url: "/frag"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/frag"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "frag"
+  source_retrieved_at: "2026-05-06T21:58:05Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

@@ -1,0 +1,15 @@
+name: "LoveServer Ransomware "
+aliases: ["LoveServer Ransomware "]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc… This hacker request your IP address in return for the decryption."
+url: "/loveserver-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","payment-method","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "d1698a73-8be8-4c10-8114-8cfa1c399eb1"
+    source_record_ids: ["d1698a73-8be8-4c10-8114-8cfa1c399eb1"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

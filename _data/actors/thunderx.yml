@@ -1,0 +1,15 @@
+name: "ThunderX"
+aliases: ["ThunderX","thunder x"]
+description: "ransomware"
+url: "/thunderx"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "937d3070-7fc6-4967-98bc-17acb0c8da8e"
+    source_record_ids: ["937d3070-7fc6-4967-98bc-17acb0c8da8e","1f806a16-0a5c-560b-aaff-c4535c6572bf"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

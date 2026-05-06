@@ -1,0 +1,15 @@
+name: "0apt"
+aliases: ["0apt"]
+description: "This group is newly observed and first observation suggest this is not a serious group, as most - if not all - of the claims cannot be validated and are for random company names.\r<br/>Analysis of available GitHub repositories and sandbox detonations suggest the actor lists those sandbox runs as victims.\r<br/>The extracted data should be approached with a high degree of caution."
+url: "/0apt"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "1baec9a0-a253-57a2-ab1b-9c89c8ef8a6f"
+    source_record_ids: ["1baec9a0-a253-57a2-ab1b-9c89c8ef8a6f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "BlackShades Crypter"
+aliases: ["SilentShade","BlackShades","BlackShades Crypter"]
+description: "Ransomware"
+url: "/blackshades-crypter"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","price","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "bf065217-e13a-4f6d-a5b2-ba0750b5c312"
+    source_record_ids: ["bf065217-e13a-4f6d-a5b2-ba0750b5c312"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

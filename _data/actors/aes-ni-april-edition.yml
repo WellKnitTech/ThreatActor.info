@@ -1,0 +1,14 @@
+name: "AES-NI: April Edition"
+aliases: ["AES-NI: April Edition"]
+description: "Ransomware"
+url: "/aes-ni-april-edition"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "adbd5acc-27d5-4483-8b9d-73cbda7498fa"
+    source_record_ids: ["adbd5acc-27d5-4483-8b9d-73cbda7498fa"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

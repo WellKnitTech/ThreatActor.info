@@ -1,0 +1,97 @@
+{
+  "mitre_id": "T1021",
+  "mitigations": [
+    {
+      "name": "Limit Access to Resource Over Network",
+      "mitre_id": "M1035",
+      "url": "https://attack.mitre.org/mitigations/M1035",
+      "stix_id": "course-of-action--1dcaeb21-9348-42ea-950a-f842aaf1ae1f"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    },
+    {
+      "name": "Disable or Remove Feature or Program",
+      "mitre_id": "M1042",
+      "url": "https://attack.mitre.org/mitigations/M1042",
+      "stix_id": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31"
+    },
+    {
+      "name": "Multi-factor Authentication",
+      "mitre_id": "M1032",
+      "url": "https://attack.mitre.org/mitigations/M1032",
+      "stix_id": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0"
+    },
+    {
+      "name": "Password Policies",
+      "mitre_id": "M1027",
+      "url": "https://attack.mitre.org/mitigations/M1027",
+      "stix_id": "course-of-action--90c218c3-fbf8-4830-98a7-e8cfb7eaa485"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1021.006",
+      "name": "Windows Remote Management",
+      "permalink": "/techniques/T1021.006/"
+    },
+    {
+      "id": "T1021.005",
+      "name": "VNC",
+      "permalink": "/techniques/T1021.005/"
+    },
+    {
+      "id": "T1021.002",
+      "name": "SMB/Windows Admin Shares",
+      "permalink": "/techniques/T1021.002/"
+    },
+    {
+      "id": "T1021.007",
+      "name": "Cloud Services",
+      "permalink": "/techniques/T1021.007/"
+    },
+    {
+      "id": "T1021.001",
+      "name": "Remote Desktop Protocol",
+      "permalink": "/techniques/T1021.001/"
+    },
+    {
+      "id": "T1021.003",
+      "name": "Distributed Component Object Model",
+      "permalink": "/techniques/T1021.003/"
+    },
+    {
+      "id": "T1021.008",
+      "name": "Direct Cloud VM Connections",
+      "permalink": "/techniques/T1021.008/"
+    },
+    {
+      "id": "T1021.004",
+      "name": "SSH",
+      "permalink": "/techniques/T1021.004/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Wizard Spider",
+      "url": "/wizard-spider"
+    },
+    {
+      "name": "Aquatic Panda",
+      "url": "/apt0143"
+    },
+    {
+      "name": "Ember Bear",
+      "url": "/apt1003"
+    }
+  ]
+}

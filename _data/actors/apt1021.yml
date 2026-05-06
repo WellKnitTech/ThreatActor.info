@@ -1,13 +1,24 @@
 name: "Cinnamon Tempest"
-aliases: ["BRONZE STARLIGHT","Cinnamon Tempest","DEV-0401","Emperor Dragonfly"]
+aliases: ["BRONZE STARLIGHT","Cinnamon Tempest","DEV-0401","Emperor Dragonfly","SLIME34","HighGround"]
 description: "Cinnamon Tempest is a China-based threat group that has been active since at least 2021 deploying multiple strains of ransomware based on the leaked Babuk source code. Cinnamon Tempest does not operate their ransomware on an affiliate model or purchase access but appears to act independently in all stages of the attack lifecycle. Based on victimology, the short lifespan of each ransomware variant, and use of malware attributed to government-sponsored threat groups, Cinnamon Tempest may be motivated by intellectual property theft or cyberespionage rather than financial gain. [Microsoft Ransomware as a Service](https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/) [Microsoft Threat Actor Naming July 2023](https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide) [Trend Micro Cheerscrypt May 2022](https://www.trendmicro.com/en_se/research/22/e/new-linux-based-ransomware-cheerscrypt-targets-exsi-devices.html) [SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022](https://www.secureworks.com/research/bronze-starlight-ransomware-operations-use-hui-loader)"
 url: "/apt1021"
+country: "China"
 external_id: "G1021"
 external_url: "https://attack.mitre.org/groups/G1021"
 mitre_id: "G1021"
 mitre_url: "https://attack.mitre.org/groups/G1021"
+source_name: "Malpedia (Fraunhofer FKIE)"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/bronze_starlight"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "bronze_starlight"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/bronze_starlight"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "737c0207-1a1a-4480-86e7-b6a5066e1ee5"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1021"

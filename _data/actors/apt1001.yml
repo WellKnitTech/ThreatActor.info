@@ -1,13 +1,27 @@
 name: "HEXANE"
-aliases: ["HEXANE","Lyceum","Siamesekitten","Spirlin"]
+aliases: ["HEXANE","Lyceum","Siamesekitten","Spirlin","COBALT LYCEUM","UNC1530","MYSTICDOME","siamesekitten","Chrono Kitten","Storm-0133","LYCEUM"]
 description: "HEXANE is a cyber espionage threat group that has targeted oil & gas, telecommunications, aviation, and internet service provider organizations since at least 2017. Targeted companies have been located in the Middle East and Africa, including Israel, Saudi Arabia, Kuwait, Morocco, and Tunisia. HEXANE's TTPs appear similar to APT33 and OilRig but due to differences in victims and tools it is tracked as a separate entity. [Dragos Hexane](https://dragos.com/resource/hexane/) [Kaspersky Lyceum October 2021](https://vblocalhost.com/uploads/VB2021-Kayal-etal.pdf) [ClearSky Siamesekitten August 2021](https://www.clearskysec.com/siamesekitten/) [Accenture Lyceum Targets November 2021](https://www.accenture.com/us-en/blogs/cyber-defense/iran-based-lyceum-campaigns)"
 url: "/apt1001"
+country: "Iran"
+sector_focus: ["Government","Energy","High-Tech","Telecomms","Education","Military","Defense"]
+targeted_victims: ["Israel","Middle East"]
+incident_type: "Espionage"
 external_id: "G1001"
 external_url: "https://attack.mitre.org/groups/G1001"
 mitre_id: "G1001"
 mitre_url: "https://attack.mitre.org/groups/G1001"
+source_name: "Malpedia (Fraunhofer FKIE)"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/lyceum"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "lyceum"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/lyceum"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "e1b95185-8db6-4f3c-9ffd-1749087d934a"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1001"

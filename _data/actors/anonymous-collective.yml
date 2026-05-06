@@ -1,0 +1,19 @@
+name: "Anonymous (Collective)"
+aliases: ["Anonymous (Collective)"]
+description: "Anonymous is a decentralized international group of hacktivists known for carrying out cyber attacks against government bodies and corporations worldwide. Their activities often include distributed denial-of-service (DDoS) attacks, website defacements, and data leaks, primarily motivated by opposition to internet censorship, control, and various geopolitical issues.<sup>[[Cyber Security Agency of Singapore March 9 2022](/references/382b5b53-8f24-4e20-9493-ccc8187fef51)]</sup>"
+url: "/anonymous-collective"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Net Crawler"
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "e70517cf-9c3c-4e94-b63a-af72e6c1fc82"
+    source_record_ids: ["e70517cf-9c3c-4e94-b63a-af72e6c1fc82"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

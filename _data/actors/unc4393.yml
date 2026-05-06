@@ -2,10 +2,24 @@ name: "UNC4393"
 aliases: ["Storm-1811","CURLY SPIDER","STAC5777","Cardinal","UNC4393"]
 description: "UNC4393 is a financially motivated threat actor primarily using BASTA ransomware. They have been active since early 2022 and have targeted over 40 organizations across various industries. UNC4393 has shown a willingness to cooperate with other threat clusters for initial access and has evolved from using existing tools to developing custom malware. They focus on efficient data exfiltration and multi-faceted extortion, often utilizing tools like COGSCAN and RCLONE for reconnaissance and data theft."
 url: "/unc4393"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc4393"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["CrossRat"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "unc4393"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc4393"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "8191e28a-fb2d-4d50-b992-b877807a2f37"
   misp_galaxy:
+    meta_keys: ["microsoft-origin-threat","refs","synonyms","group_attack_id","observed_motivations","source","tags","owner"]
+    source_cluster: "microsoft-activity-group.json"
+    source_clusters: ["microsoft-activity-group.json","tidal-groups.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "8191e28a-fb2d-4d50-b992-b877807a2f37"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["6784f384-a942-5d7a-b693-4f8e383d54e0","f17d1768-9563-539a-8d3a-e3e9500658bf","a1a03a84-1d75-40a3-916e-d3e0d1068d11"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

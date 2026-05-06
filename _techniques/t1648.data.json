@@ -1,0 +1,23 @@
+{
+  "mitre_id": "T1648",
+  "mitigations": [
+    {
+      "name": "Account Use Policies",
+      "mitre_id": "M1036",
+      "url": "https://attack.mitre.org/mitigations/M1036",
+      "stix_id": "course-of-action--f9f9e6ef-bc0a-41ad-ba11-0924e5e84c4c"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

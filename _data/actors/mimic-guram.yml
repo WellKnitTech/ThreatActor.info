@@ -1,0 +1,17 @@
+name: "mimic-guram"
+aliases: ["mimic-guram"]
+description: "Mimic v.10 Ransomware-as-a-Service (RaaS). The malware is designed to target various operating systems (Windows, ESXi, NAS, FreeBSD) and features network-wide deployment, file obfuscation, backup destruction, UAC bypass, and multithreaded encryption. The service offers additional tools like NTLM password decryption and call-based extortion. They prohibit attacks on CIS countries and require active participation, with decryption tools available for a fee currently 800USD."
+url: "/mimic-guram"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Windows Remote Desktop"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "65cba1a3-f165-5ff6-96c0-fe15981b92eb"
+    source_record_ids: ["65cba1a3-f165-5ff6-96c0-fe15981b92eb"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -2,12 +2,12 @@
 layout: threat_actor
 title: "Patched Lightning"
 aliases: ["Storm-0113","Patched Lightning"]
-description: "Patched Lightning is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
+description: "Microsoft threat actor profile from the public naming mapping feed."
 permalink: /patched-lightning/
 ---
 
 ## Introduction
-Patched Lightning is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing.
+Microsoft threat actor profile from the public naming mapping feed.
 
 ## Activities and Tactics
 *Information pending cataloguing.*

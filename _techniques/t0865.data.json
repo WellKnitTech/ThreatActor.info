@@ -1,0 +1,50 @@
+{
+  "mitre_id": "T0865",
+  "mitigations": [
+    {
+      "name": "User Training",
+      "mitre_id": "M0917",
+      "url": "https://attack.mitre.org/mitigations/M0917",
+      "stix_id": "course-of-action--dc61c280-c29d-44e5-a960-c0dd1623d2ba"
+    },
+    {
+      "name": "Network Intrusion Prevention",
+      "mitre_id": "M0931",
+      "url": "https://attack.mitre.org/mitigations/M0931",
+      "stix_id": "course-of-action--3172222b-4983-43f7-8983-753ded4f13bc"
+    },
+    {
+      "name": "Antivirus/Antimalware",
+      "mitre_id": "M0949",
+      "url": "https://attack.mitre.org/mitigations/M0949",
+      "stix_id": "course-of-action--faf2b40e-5981-433f-aa46-17458e0026f7"
+    },
+    {
+      "name": "Restrict Web-Based Content",
+      "mitre_id": "M0921",
+      "url": "https://attack.mitre.org/mitigations/M0921",
+      "stix_id": "course-of-action--143b4398-3222-480a-b6a4-e131bc2d3144"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "APT33",
+      "url": "/apt0064"
+    },
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    },
+    {
+      "name": "OilRig",
+      "url": "/apt34"
+    },
+    {
+      "name": "ALLANITE",
+      "url": "/allanite"
+    }
+  ]
+}

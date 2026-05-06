@@ -1,0 +1,23 @@
+name: "risen"
+aliases: ["risen"]
+description: "Risen, which is a fully optimized and high-speed program, is the result of our years of experience in the field of malware writing. Risen is written in C language and completely using winapi. We produced many products with different features and options, but we came to the conclusion that none of the options have the benefit and efficiency they should; So, instead of spending time on useless and inefficient options, we decided to spend all our time on the strength, speed and security of our cryptography, and that's how we created Risen. Software features in version 1:    \r<br/>\r<br/>\r<br/>    -Encryption security, utilizing Chacha20 and RSA 2048 algorithms.\r<br/>    -High encryption speed and software optimization\r<br/>    -compatible with all versions of Windows on any hardware without any issues.\r<br/>    -Automatic option settings, its easy to using and default configuration set to the best mode.\r<br/>    -Utilization of Threadpool method and queue creation for encryption.\r<br/>    -A powerful file unlocker, unlock files without closing processes.\r<br/>    -Safe deletion of backups, shadow copies, and all windows logs.\r<br/>    -A blog, Leak website, and management panel on TOR for leaking data of non-paying companies.\r<br/>"
+url: "/risen"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "PowerDuke"
+  - name: "POWERSTATS"
+  - name: "Power Loader"
+  - name: "POWERSOURCE"
+  - name: "Windows Remote Desktop"
+  - name: "GraphicBooting"
+  - name: "PowerRAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "8e3f7112-2f82-5c64-95ff-34bfad65cc0d"
+    source_record_ids: ["8e3f7112-2f82-5c64-95ff-34bfad65cc0d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

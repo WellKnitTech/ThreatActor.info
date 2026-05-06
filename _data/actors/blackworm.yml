@@ -1,0 +1,34 @@
+name: "BlackWorm"
+aliases: ["BlackWorm","Black Worm"]
+description: "BlackWorm Ransomware is a malicious computer infection that encrypts your files, and then does everything it can to prevent you from restoring them. It needs you to pay $200 for the decryption key, but there is no guarantee that the people behind this infection would really issue the decryption tool for you."
+url: "/blackworm"
+first_seen: "2014"
+last_activity: "2014"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "BlackEnergy"
+  - name: "BLACKCOFFEE"
+  - name: "Blackshades"
+  - name: "BlackNix"
+  - name: "BlackHole"
+  - name: "Revenge-RAT"
+provenance:
+  aptnotes:
+    earliest_report_year: "2014"
+    latest_report_year: "2014"
+    report_count: 1
+    sample_links: ["https://app.box.com/s/5sir2hjd6rhi9a03nb5e4ykkx3s4l7d6"]
+    sample_titles: ["Connecting The Dots: Syrian Malware Team Uses Blackworm For Attacks"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["FireEye"]
+  misp_galaxy:
+    meta_keys: ["payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "457e9a45-607e-41ef-8ad1-bf8684722445"
+    source_record_ids: ["457e9a45-607e-41ef-8ad1-bf8684722445","14e57527-58cc-4e0a-8e14-9f00a0167610"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

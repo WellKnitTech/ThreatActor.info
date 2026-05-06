@@ -1,0 +1,16 @@
+name: "Main Directorate of Special Programs of the President of the Russian Federation"
+aliases: ["Главное управление специальных программ Президента Российской Федерации","Main Directorate of Special Programs of the President of the Russian Federation"]
+description: "Main Directorate of Special Programs of the President of the Russian Federation (GUSP) – Главное управление специальных программ Президента Российской Федерации"
+url: "/main-directorate-of-special-programs-of-the-president-of-the-russian-federation"
+country: "Russia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "94609037-90ea-5d23-bc96-d05d83edfcea"
+    source_record_ids: ["94609037-90ea-5d23-bc96-d05d83edfcea"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

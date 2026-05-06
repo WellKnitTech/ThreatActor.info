@@ -1,0 +1,19 @@
+name: "8base"
+aliases: ["8base"]
+description: "8Base emerged in early 2022 and rapidly escalated its ransomware operations by mid-2023, positioning itself as a “simple pen tester” while executing a relentless double-extortion scheme: encrypting files using AES-256 CBC mode (appending the “.8base” extension) and threatening to leak stolen data via a Tor-accessible leak site. The group leverages initial access methods such as phishing and SmokeLoader, disables security mechanisms like Volume Shadow Copy and firewalls, and deploys persistence via registry and startup entries. Targeting primarily small and medium-sized organizations across sectors such as manufacturing, finance, IT, and healthcare in regions including the U.S., Brazil, and Europe, 8Base has drawn comparisons to Phobos and RansomHouse for its tactics and ransom-note style. In early 2025, international law enforcement operations disrupted the group, resulting in the arrest of four key actors, seizure of servers, and warnings to hundreds of potential victims."
+url: "/8base"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Smoke Loader"
+  - name: "Small-Net"
+  - name: "CrossRat"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs","ttp"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "1cc6ada3-a632-54a4-9df1-f41287e3f566"
+    source_record_ids: ["1cc6ada3-a632-54a4-9df1-f41287e3f566"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

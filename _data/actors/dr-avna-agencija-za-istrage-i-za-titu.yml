@@ -1,0 +1,15 @@
+name: "Državna Agencija za Istrage i Zaštitu"
+aliases: ["Državna Agencija za Istrage i Zaštitu"]
+description: "Državna Agencija za Istrage i Zaštitu (State Investigation and Protection Agency, SIPA)"
+url: "/dr-avna-agencija-za-istrage-i-za-titu"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "5ec2edc0-283c-54b0-9c2a-b32a685a6d68"
+    source_record_ids: ["5ec2edc0-283c-54b0-9c2a-b32a685a6d68"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

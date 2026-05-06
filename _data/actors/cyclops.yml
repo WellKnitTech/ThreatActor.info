@@ -1,0 +1,18 @@
+name: "cyclops"
+aliases: ["cyclops"]
+description: "Cyclops ransomware was rebranded as Knight around mid‑2023, emerging initially in early 2023. It operates as a Ransomware-as-a-Service (RaaS), targeting multiple platforms including Windows, macOS, Linux, and ESXi systems. Crafted in Go, it uses strong encryption algorithms like ChaCha20 and Curve25519. Knight includes both a full and \"lite\" encryptor, supports batch attacks, hosts a Tor leak site, and offers a web portal for affiliates—positioning itself as a scalable and partner-friendly ransomware operation. Affiliates can manage deployments, track payments, and negotiate with victims through a sophisticated RaaS platform."
+url: "/cyclops"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Batch NET"
+  - name: "Windows Remote Desktop"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e4b7ba12-79b7-5728-a4db-1f718959c81c"
+    source_record_ids: ["e4b7ba12-79b7-5728-a4db-1f718959c81c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "CryptoRansomeware"
+aliases: ["CryptoRansomeware"]
+description: "Ransomware"
+url: "/cryptoransomeware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "de53f392-8794-43d1-a38b-c0b90c20a3fb"
+    source_record_ids: ["de53f392-8794-43d1-a38b-c0b90c20a3fb"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,49 @@
+{
+  "mitre_id": "T1069",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+    {
+      "id": "T1069.003",
+      "name": "Cloud Groups",
+      "permalink": "/techniques/T1069.003/"
+    },
+    {
+      "id": "T1069.002",
+      "name": "Domain Groups",
+      "permalink": "/techniques/T1069.002/"
+    },
+    {
+      "id": "T1069.001",
+      "name": "Local Groups",
+      "permalink": "/techniques/T1069.001/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "APT41",
+      "url": "/apt41"
+    },
+    {
+      "name": "Scattered Spider",
+      "url": "/apt1015"
+    },
+    {
+      "name": "TA505",
+      "url": "/cl0p"
+    },
+    {
+      "name": "Volt Typhoon",
+      "url": "/apt1017"
+    },
+    {
+      "name": "APT3",
+      "url": "/apt0022"
+    },
+    {
+      "name": "FIN13",
+      "url": "/apt1016"
+    }
+  ]
+}

@@ -20,6 +20,10 @@ provenance:
     source_retrieved_at: "2026-04-28T19:46:41Z"
     tab_name: "china"
   misp_galaxy:
+    meta_keys: ["attribution-confidence","country","refs","synonyms"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "1a2592a3-eab7-417c-bf2d-9c0558c2b3e7"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["1a2592a3-eab7-417c-bf2d-9c0558c2b3e7"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

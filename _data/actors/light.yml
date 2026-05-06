@@ -1,0 +1,14 @@
+name: "Light"
+aliases: ["Light"]
+description: "ransomware"
+url: "/light"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "a7c9904b-758f-4107-bffb-12d190e08687"
+    source_record_ids: ["a7c9904b-758f-4107-bffb-12d190e08687"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

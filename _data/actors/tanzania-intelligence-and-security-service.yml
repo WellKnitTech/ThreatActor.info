@@ -1,0 +1,15 @@
+name: "Tanzania Intelligence and Security Service"
+aliases: ["Tanzania Intelligence and Security Service"]
+description: "Tanzania Intelligence and Security Service (TISS)"
+url: "/tanzania-intelligence-and-security-service"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "76098c34-57a9-5db7-9d3b-70969a02eb74"
+    source_record_ids: ["76098c34-57a9-5db7-9d3b-70969a02eb74"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

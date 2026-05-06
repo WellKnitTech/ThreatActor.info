@@ -1,0 +1,14 @@
+name: "Fluffy-TAR"
+aliases: ["Fluffy-TAR"]
+description: "ransomware"
+url: "/fluffy-tar"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "51f42a21-1963-40c5-b644-d4c1c5c3f9eb"
+    source_record_ids: ["51f42a21-1963-40c5-b644-d4c1c5c3f9eb"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

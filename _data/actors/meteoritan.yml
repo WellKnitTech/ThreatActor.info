@@ -1,0 +1,15 @@
+name: "Meteoritan"
+aliases: ["Meteoritan"]
+description: "Ransomware"
+url: "/meteoritan"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "34f292d9-cb68-4bcf-a3db-a717362aca77"
+    source_record_ids: ["34f292d9-cb68-4bcf-a3db-a717362aca77"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

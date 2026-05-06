@@ -4,10 +4,24 @@ description: "In early 2021 CTU researchers observed BRONZE EDGEWOOD exploiting 
 url: "/bronze-edgewood"
 country: "China"
 targeted_victims: ["Kyrgyzstan","Malaysia","Vietnam"]
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/bronze_edgewood"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["PowerDuke","POWERSTATS","Power Loader","POWERSOURCE","China Chopper","Back Orifice","Back Orifice 2000","Xploit","Archelaus Beta","Cobalt Strike"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "bronze_edgewood"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/bronze_edgewood"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "b4ce9385-eedf-4a71-803c-6d53a250d10b"
   misp_galaxy:
+    meta_keys: ["cfr-suspected-victims","country","origin:BRONZE EDGEWOOD","refs","synonyms"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "b4ce9385-eedf-4a71-803c-6d53a250d10b"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["b4ce9385-eedf-4a71-803c-6d53a250d10b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

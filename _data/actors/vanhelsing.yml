@@ -1,0 +1,20 @@
+name: "vanhelsing"
+aliases: ["vanhelsing"]
+description: "Designed to target Windows systems, this ransomware employs advanced encryption techniques and appends a unique file extension to compromised files. Its stealthy evasion tactics and persistence mechanisms make detection and removal challenging. This highlights the need for proactive cybersecurity measures and a robust incident response strategy to safeguard data integrity and minimize breach risks."
+url: "/vanhelsing"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+  - name: "Windows Remote Desktop"
+  - name: "Minimo"
+provenance:
+  misp_galaxy:
+    meta_keys: ["TTP","extensions","links","ransomnotes","ransomnotes-files","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "9a83c122-9c03-56f3-a5f9-beedcdacc10a"
+    source_record_ids: ["9a83c122-9c03-56f3-a5f9-beedcdacc10a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

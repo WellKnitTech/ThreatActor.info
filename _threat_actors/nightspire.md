@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Nightspire"
-aliases: ["Nightspire"]
+aliases: ["Nightspire","NightSpire","nightspire"]
 description: "Nightspire is an active extortion or ransomware group tracked by RansomLook."
 permalink: /nightspire/
 ---

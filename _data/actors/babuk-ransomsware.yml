@@ -1,0 +1,17 @@
+name: "Babuk Ransomsware"
+aliases: ["Babuk Ransomsware"]
+description: "Since this is the first detection of this malware in the wild, it’s not surprising that Babuk is not obsfuscated at all. Overall, it’s a pretty standard ransomware that utilizes some of the new techniques we see such as multi-threading encryption as well as abusing the Windows Restart Manager similar to Conti and REvil.  For encrypting scheme, Babuk uses its own implementation of SHA256 hashing, ChaCha8 encryption, and Elliptic-curve Diffie–Hellman (ECDH) key generation and exchange algorithm to protect its keys and encrypt files. Like many ransomware that came before, it also has the ability to spread its encryption through enumerating the available network resources."
+url: "/babuk-ransomsware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Windows Remote Desktop"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c52a65d5-9bea-4a09-a81b-7f789ab48ce0"
+    source_record_ids: ["c52a65d5-9bea-4a09-a81b-7f789ab48ce0"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

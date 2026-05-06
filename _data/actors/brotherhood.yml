@@ -1,0 +1,14 @@
+name: "Brotherhood"
+aliases: ["Brotherhood"]
+description: "Brotherhood is an active extortion or ransomware group tracked by RansomLook."
+url: "/brotherhood"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/brotherhood"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "brotherhood"
+  source_retrieved_at: "2026-05-06T21:55:05Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

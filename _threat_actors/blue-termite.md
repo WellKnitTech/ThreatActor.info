@@ -16,7 +16,9 @@ Blue Termite is a group of suspected Chinese origin active in Japan.
 
 **Risk Level**: High
 
+**First Seen**: 2015
 
+**Last Activity**: 2015
 
 **Incident Type**: Espionage
 
@@ -29,7 +31,7 @@ Blue Termite is a group of suspected Chinese origin active in Japan.
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+*No atomic indicators are listed in this profile. The APTnotes snapshot indexes 1 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
 ## Malware and Tools
 - **Blue Banana**

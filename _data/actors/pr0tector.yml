@@ -1,0 +1,14 @@
+name: "Pr0tector"
+aliases: ["Pr0tector"]
+description: "ransomware"
+url: "/pr0tector"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "535916a2-283b-4512-bc8b-e5d98c055fab"
+    source_record_ids: ["535916a2-283b-4512-bc8b-e5d98c055fab"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

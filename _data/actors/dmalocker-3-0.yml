@@ -1,0 +1,15 @@
+name: "DMALocker 3.0"
+aliases: ["DMALocker 3.0"]
+description: "Ransomware"
+url: "/dmalocker-3-0"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","payment-method","price","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ba39be57-c138-48d5-b46b-d996ff899ffa"
+    source_record_ids: ["ba39be57-c138-48d5-b46b-d996ff899ffa"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

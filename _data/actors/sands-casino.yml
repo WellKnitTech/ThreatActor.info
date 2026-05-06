@@ -4,8 +4,18 @@ description: "Sands Casino is a threat actor tracked by MISP Galaxy. Additional 
 url: "/sands-casino"
 country: "Iran"
 risk_level: "High"
+source_name: "Malpedia (Fraunhofer FKIE)"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/sands_casino"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "sands_casino"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/sands_casino"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "1de1a64e-ea14-4e79-9e41-6958bdb6c0ff"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "1de1a64e-ea14-4e79-9e41-6958bdb6c0ff"

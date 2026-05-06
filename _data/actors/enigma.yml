@@ -1,0 +1,27 @@
+name: "Enigma"
+aliases: ["Enigma"]
+description: "Ransomware"
+url: "/enigma"
+first_seen: "2014"
+last_activity: "2014"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  aptnotes:
+    earliest_report_year: "2014"
+    latest_report_year: "2014"
+    report_count: 1
+    sample_links: ["https://app.box.com/s/a6c2ljuyf6kzgx853khmhmrxk4toal8x"]
+    sample_titles: ["Profiling An Enigma: The Mystery Of North Korea's Cyber Threat Landscape"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["HP"]
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "1b24d240-df72-4388-946b-efa07a9447bb"
+    source_record_ids: ["1b24d240-df72-4388-946b-efa07a9447bb"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

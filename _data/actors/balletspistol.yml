@@ -1,0 +1,14 @@
+name: "Balletspistol"
+aliases: ["Balletspistol"]
+description: "BalletsPistol is a Python-based ransomware strain distributed via GitHub. An investigative report from June 2025 reveals its delivery through a malicious ISO file hosted on a now‑removed public GitHub repository tinextacyber.com+1 . The infection chain begins when the ISO (named Invoice.iso) is downloaded and mounted, revealing a batch script (MAIN.BAT) and supporting components—including a password-protected ZIP and shortcut (.lnk) for execution. The malware performs privilege escalation (via UAC bypass using fodhelper.exe), persistence via registry and scheduled tasks, and then extracts an executable from the ZIP to commence the main payload. This binary encrypts user files with a hybrid AES + RSA scheme, adding the .iDCVObno extension to encrypted files; it also drops ransom notes (RESTORE-MY-FILES.TXT or .HTA) and changes the victim’s wallpaper."
+url: "/balletspistol"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/balletspistol"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "balletspistol"
+  source_retrieved_at: "2026-05-06T21:58:19Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

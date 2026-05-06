@@ -1,0 +1,16 @@
+name: "General Directorate of Analysis and Strategic Intelligence (Panama) (page does not exist)"
+aliases: ["General Directorate of Analysis and Strategic Intelligence (Panama) (page does not exist)"]
+description: "General Directorate of Analysis and Strategic Intelligence - Direccion General de Analisis e Inteligencia Estrategica (DGAIE)[23]"
+url: "/general-directorate-of-analysis-and-strategic-intelligence-panama-page-does-not-exist"
+country: "Panama"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "150e4474-87e8-526f-934b-817cf173cfe2"
+    source_record_ids: ["150e4474-87e8-526f-934b-817cf173cfe2"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

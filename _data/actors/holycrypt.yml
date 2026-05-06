@@ -1,0 +1,15 @@
+name: "HolyCrypt"
+aliases: ["HolyCrypt"]
+description: "Ransomware"
+url: "/holycrypt"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c71819a4-f6ce-4265-b0cd-24a98d84321c"
+    source_record_ids: ["c71819a4-f6ce-4265-b0cd-24a98d84321c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

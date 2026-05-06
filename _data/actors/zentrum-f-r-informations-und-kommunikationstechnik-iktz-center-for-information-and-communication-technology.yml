@@ -1,0 +1,16 @@
+name: "Zentrum für Informations- und Kommunikationstechnik (IKTZ): Center for information and communication technology"
+aliases: ["Center for information and communication technology","Zentrum für Informations- und Kommunikationstechnik (IKTZ): Center for information and communication technology"]
+description: "Zentrum für Informations- und Kommunikationstechnik (IKTZ): Center for information and communication technology"
+url: "/zentrum-f-r-informations-und-kommunikationstechnik-iktz-center-for-information-and-communication-technology"
+country: "Germany"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "390b5dfa-c85e-5585-b789-7c541e2885ca"
+    source_record_ids: ["390b5dfa-c85e-5585-b789-7c541e2885ca"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

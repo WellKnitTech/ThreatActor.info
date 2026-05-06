@@ -1,12 +1,26 @@
 name: "LIMINAL PANDA"
-aliases: ["LIMINAL PANDA"]
+aliases: ["LIMINAL PANDA","CL-STA-0969","Pepper Typhoon"]
 description: "LIMINAL PANDA is a China-nexus APT that targets telecommunications entities, employing custom malware and publicly available tools for covert access, C2, and data exfiltration. The adversary demonstrates extensive knowledge of telecom networks, utilizing GSM protocols to retrieve mobile subscriber information and call metadata. LIMINAL PANDA exploits trust relationships and security gaps between providers to access core infrastructure, indicating a focus on SIGINT collection rather than financial gain. Their intrusion activity has primarily affected telecom providers in southern Asia and Africa, with potential for broader targeting based on network configurations."
 url: "/liminal-panda"
 country: "China"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/liminal_panda"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["MobileOrder","SHIPSHAPE","China Chopper","Xploit"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "liminal_panda"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/liminal_panda"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "e7a64fd7-5d30-47ec-b9f6-8c555e5f319f"
   misp_galaxy:
+    meta_keys: ["country","refs","group_attack_id","observed_motivations","owner","source","tags","target_categories","microsoft-origin-threat","synonyms"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","tidal-groups.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "e7a64fd7-5d30-47ec-b9f6-8c555e5f319f"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["e7a64fd7-5d30-47ec-b9f6-8c555e5f319f","f9f9358a-f708-4794-af35-784c532427cf","dfdd0ccd-9755-5988-8b23-595d0188608f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

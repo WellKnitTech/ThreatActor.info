@@ -1,0 +1,17 @@
+name: "rhysida"
+aliases: ["rhysida"]
+description: "Rhysida is a ransomware-as-a-service (RAAS) group that emerged in May 2023. The group utilizes a namesake ransomware through phishing attacks and Cobalt Strike to breach the targets' networks and deploy their payloads.\n\nThe group threatens to publicly distribute exfiltrated data if the ransom is not paid, and it's worth mentioning that Rhysida is still in the early stages of development.\n\nThe ransomware leaves PDF notes in the affected folders, instructing victims to contact the group through its portal, and payment is made via Bitcoin.\n\nAfter encryption, the ransomware appends the extension \".ryshida\" to encrypted files.\n\nFor encryption purposes, Trend Micro published an analysis stating that the ransomware uses a 4096-bit RSA key and AES-CTR for encryption.\n\nIn addition to the encryption method, Trend Micro published an analysis of the Ryshida Ransomware attack chain.\n\nFinally, the group has a website on the Tor network hosting the companies that have been breached."
+url: "/rhysida"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Cobalt Strike"
+provenance:
+  misp_galaxy:
+    meta_keys: ["TTP","extensions","links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "00cfde20-21c2-547c-ae07-ff42da937b38"
+    source_record_ids: ["00cfde20-21c2-547c-ae07-ff42da937b38"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "SiegedSec"
-aliases: ["SiegedSec"]
+aliases: ["SiegedSec","siegedsec"]
 description: "SiegedSec, a hacktivist collective, emerged coincidentally just days before Russia’s invasion of Ukraine. Under the leadership of the hacktivist known as “YourAnonWolf,” the group swiftly gained streng"
 permalink: /siegedsec/
 ---

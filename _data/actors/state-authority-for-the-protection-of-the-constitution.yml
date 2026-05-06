@@ -1,0 +1,16 @@
+name: "State Authority for the Protection of the Constitution"
+aliases: ["State Authority for the Protection of the Constitution"]
+description: "Landesamt für Verfassungsschutz (LfV): (semi-independent) State Authority for the Protection of the Constitution for every single state"
+url: "/state-authority-for-the-protection-of-the-constitution"
+country: "Germany"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "8b2b3969-239c-54ae-95b3-59a89c19f4bd"
+    source_record_ids: ["8b2b3969-239c-54ae-95b3-59a89c19f4bd"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,27 @@
+{
+  "mitre_id": "T1529",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "APT38",
+      "url": "/apt0082"
+    },
+    {
+      "name": "APT37",
+      "url": "/apt0067"
+    },
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    },
+    {
+      "name": "Medusa Group",
+      "url": "/apt1051"
+    }
+  ]
+}

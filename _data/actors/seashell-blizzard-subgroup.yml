@@ -1,0 +1,23 @@
+name: "Seashell Blizzard Subgroup"
+aliases: ["Seashell Blizzard Subgroup"]
+description: "This object reflects ATT&CK Technique and other relationships associated with an unnamed \"subgroup\" of the Russia-linked Seashell Blizzard group, known for a multiyear initial access operation dubbed the \"BadPilot\" campaign.<sup>[[Microsoft Security Blog February 12 2025](/references/300bf6cb-582b-4e15-8cca-cb68c8856e6f)]</sup>\n\nSeashell Blizzard is a high-impact threat actor linked to the Russian Federation, conducting global activities on behalf of Russian Military Intelligence Unit 74455 (GRU). Its operations range from espionage to information operations and cyber-enabled disruptions, including destructive attacks and manipulation of industrial control systems (ICS). According to Microsoft researchers, Seashell Blizzard \"overlaps with\" groups tracked as Sandworm Team, APT44, and other names.<sup>[[Microsoft Security Blog February 12 2025](/references/300bf6cb-582b-4e15-8cca-cb68c8856e6f)]</sup>"
+url: "/seashell-blizzard-subgroup"
+country: "Russia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "SHIPSHAPE"
+  - name: "SEASHARPEE"
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+  - name: "Blizzard"
+  - name: "Archelaus Beta"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "785c4038-3c47-402c-93eb-9e4036a6366c"
+    source_record_ids: ["785c4038-3c47-402c-93eb-9e4036a6366c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

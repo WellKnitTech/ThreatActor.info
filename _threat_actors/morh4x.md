@@ -10,7 +10,11 @@ permalink: /morh4x/
 MORH4x is a self-proclaimed Moroccan hacking group that claimed responsibility for a data leak from Algeria's pharmaceutical industry ministry. The group announced the breach on the BreachForums website, stating that the leaked files span from 2019 to 2025 and include internal documents related to Algeria's pharmaceutical imports. This incident is part of a series of escalating cyberattacks between Moroccan and Algerian hacking groups.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ Morocco
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -27,7 +31,8 @@ MORH4x is a self-proclaimed Moroccan hacking group that claimed responsibility f
 - **Cyber Eye RAT**
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Morocco
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

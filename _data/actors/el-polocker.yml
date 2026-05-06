@@ -1,0 +1,15 @@
+name: "El-Polocker"
+aliases: ["Los Pollos Hermanos","El-Polocker"]
+description: "Ransomware Has a GUI"
+url: "/el-polocker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "63d9cb32-a1b9-46c3-818a-df16d8b9e46a"
+    source_record_ids: ["63d9cb32-a1b9-46c3-818a-df16d8b9e46a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

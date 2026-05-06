@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Conti"
-aliases: ["Ryuk","Wizard Spider"]
+aliases: ["Ryuk","Wizard Spider","Conti","TEMP.MixMaster","GOLD BLACKBURN","FIN12","Periwinkle Tempest","DEV-0193","Storm-0193","Trickbot LLC","UNC2053","Pistachio Tempest","DEV-0237","Storm-0230","WIZARD SPIDER"]
 description: "Conti is a Russian ransomware-as-a-service operation known for targeting healthcare and critical infrastructure."
 permalink: /conti/
 ---
@@ -10,7 +10,7 @@ permalink: /conti/
 Conti is a Russian ransomware-as-a-service operation known for targeting healthcare and critical infrastructure.
 
 ## Activities and Tactics
-**Targeted Sectors**: Healthcare, Critical Infrastructure, Government
+**Targeted Sectors**: Healthcare, Critical Infrastructure, Government, Defense, Financial, Telecommunications
 
 **Country of Origin**: 🇷🇺 Russia
 
@@ -20,6 +20,8 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 
 **Last Activity**: 2022
 
+
+**Suspected Victims**: Australia, Bahamas, Canada, Costa Rica, France, Germany, India, Ireland, Italy, Japan...
 
 ## Notable Campaigns
 - [Gloucester Council](https://democracy.gloucester.gov.uk/documents/s59774/Appendix%201%20-%20Executive%20Summary%20of%20NCC%20Group%20Report.pdf) (November 2021; Conti (Ransomware))
@@ -48,6 +50,9 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 *No separately curated network indicators or file hashes are listed for this actor. Known exploited vulnerabilities appear in the **CISA Known Exploited Vulnerabilities (KEV)** section below.*
 
 ## Malware and Tools
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
+
 ### Ransomware Tool Matrix observations
 
 | Category | Observed tools |

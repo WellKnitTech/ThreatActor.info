@@ -1,0 +1,15 @@
+name: "Locker"
+aliases: ["LockeR","Locker"]
+description: "Ransomware has GUI"
+url: "/locker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "abc7883c-244a-44ac-9c86-559dafa4eb63"
+    source_record_ids: ["abc7883c-244a-44ac-9c86-559dafa4eb63"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

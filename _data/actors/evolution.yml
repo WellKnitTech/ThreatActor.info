@@ -1,0 +1,27 @@
+name: "Evolution"
+aliases: ["Evolution"]
+description: "Ransomware"
+url: "/evolution"
+first_seen: "2011"
+last_activity: "2016"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  aptnotes:
+    earliest_report_year: "2011"
+    latest_report_year: "2016"
+    report_count: 4
+    sample_links: ["https://app.box.com/s/shakkou3wcgwfq5u83jncdit7cmmw151","https://app.box.com/s/gqksdtk0gogqzzzbg2w6b4y7fej6f26t","https://app.box.com/s/ql84nxbrheluzhi3bt7k48damnuz00u5","https://app.box.com/s/6kow9e7d5ogd1qxskl5krels702fwyon"]
+    sample_titles: ["Stuxnet/Duqu: The Evolution Of Drivers","Evolution Of Sophisticated Spyware: From Agent.Btz To Comrat","Evolution of Cyber Threats in the Corporate Sector","Apt Reports And Opsec Evolution, Or: These Are Not The Apt Reports You Are Looking For"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Gdata","Kaspersky","Virus Bulletin"]
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "47554d81-a6d9-4017-ad8c-cab653e6a1b3"
+    source_record_ids: ["47554d81-a6d9-4017-ad8c-cab653e6a1b3"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

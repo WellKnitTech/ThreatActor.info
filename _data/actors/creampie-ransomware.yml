@@ -1,0 +1,17 @@
+name: "CreamPie Ransomware"
+aliases: ["CreamPie Ransomware"]
+description: "Jakub Kroustek found what appears to be an in-dev version of the CreamPie Ransomware. It does not currently display a ransom note, but does encrypt files and appends the .[backdata@cock.li].CreamPie extension to them."
+url: "/creampie-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Backdoor.Oldrea"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "1b5a756e-b034-11e8-9e7d-c3271796acab"
+    source_record_ids: ["1b5a756e-b034-11e8-9e7d-c3271796acab"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

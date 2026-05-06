@@ -1,0 +1,15 @@
+name: "Stampado"
+aliases: ["Stampado"]
+description: "Ransomware Coded by \"The_Rainmaker\" Randomly deletes a file every 6hrs up to 96hrs then deletes decryption key"
+url: "/stampado"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","price","ransomnotes","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "6b8729b0-7ffc-4d07-98de-e5210928b274"
+    source_record_ids: ["6b8729b0-7ffc-4d07-98de-e5210928b274"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

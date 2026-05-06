@@ -1,0 +1,82 @@
+{
+  "mitre_id": "T1505",
+  "mitigations": [
+    {
+      "name": "Code Signing",
+      "mitre_id": "M1045",
+      "url": "https://attack.mitre.org/mitigations/M1045",
+      "stix_id": "course-of-action--590777b3-b475-4c7c-aaf8-f4a73b140312"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "Restrict Registry Permissions",
+      "mitre_id": "M1024",
+      "url": "https://attack.mitre.org/mitigations/M1024",
+      "stix_id": "course-of-action--a2c36a5d-4058-475e-8e77-fff75e50d3b9"
+    },
+    {
+      "name": "Disable or Remove Feature or Program",
+      "mitre_id": "M1042",
+      "url": "https://attack.mitre.org/mitigations/M1042",
+      "stix_id": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31"
+    },
+    {
+      "name": "Boot Integrity",
+      "mitre_id": "M1046",
+      "url": "https://attack.mitre.org/mitigations/M1046",
+      "stix_id": "course-of-action--7da0387c-ba92-4553-b291-b636ee42b2eb"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    },
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M1026",
+      "url": "https://attack.mitre.org/mitigations/M1026",
+      "stix_id": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1505.002",
+      "name": "Transport Agent",
+      "permalink": "/techniques/T1505.002/"
+    },
+    {
+      "id": "T1505.004",
+      "name": "IIS Components",
+      "permalink": "/techniques/T1505.004/"
+    },
+    {
+      "id": "T1505.003",
+      "name": "Web Shell",
+      "permalink": "/techniques/T1505.003/"
+    },
+    {
+      "id": "T1505.005",
+      "name": "Terminal Services DLL",
+      "permalink": "/techniques/T1505.005/"
+    },
+    {
+      "id": "T1505.006",
+      "name": "vSphere Installation Bundles",
+      "permalink": "/techniques/T1505.006/"
+    },
+    {
+      "id": "T1505.001",
+      "name": "SQL Stored Procedures",
+      "permalink": "/techniques/T1505.001/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

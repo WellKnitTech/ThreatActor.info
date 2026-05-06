@@ -2,10 +2,24 @@ name: "HikkI-Chan"
 aliases: ["HikkI-Chan"]
 description: "Hikki-Chan has claimed responsibility for multiple significant data breaches, including the theft of data from 390.4 million users of VKontakte, which included sensitive personal information. The actor has also targeted Strong Current Enterprises and disclosed a breach involving the Israeli Ministry of Welfare and Social Affairs, leaking over 457,000 records. Additionally, Hikki-Chan is attributed with a breach of the Florida Office of Financial Regulation, exposing tens of thousands of records across various industries."
 url: "/hikki-chan"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/hikki-chan"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["CrossRat"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "hikki-chan"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/hikki-chan"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "071d271a-313f-442d-9bf0-10e6eeba0a8e"
   misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "071d271a-313f-442d-9bf0-10e6eeba0a8e"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["071d271a-313f-442d-9bf0-10e6eeba0a8e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

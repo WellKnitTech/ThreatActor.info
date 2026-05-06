@@ -1,0 +1,23 @@
+name: "holyghost"
+aliases: ["holyghost"]
+description: "HolyGhost is a ransomware group first publicly reported in July 2022, believed to be operated by a North Korean state-sponsored threat actor tracked as APT43 or Andariel, a subgroup of the Lazarus Group. The group has been active since at least June 2021, using a double-extortion model that combines encryption of victim files with threats to leak stolen data via a Tor site. Early HolyGhost variants (BTLC_C.exe) used a custom file extension .h0lyenc, while later builds added more robust encryption, obfuscation, and evasion capabilities. Targeted victims include small and medium-sized businesses in manufacturing, finance, education, and event planning, primarily in the United States, South Korea, Brazil, and India. Intrusion methods include exploitation of vulnerable public-facing applications, credential theft, and possibly the use of purchased access from other threat actors. Unlike purely criminal groups, HolyGhost is suspected of being leveraged for both revenue generation and strategic cyber operations in support of DPRK objectives."
+url: "/holyghost"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "CyberGate"
+  - name: "Small-Net"
+  - name: "Cyber Eye RAT"
+  - name: "UNITEDRAKE"
+  - name: "Xploit"
+  - name: "Ghost"
+  - name: "Revenge-RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "cf9494a3-7d48-59dc-bb1a-65ecb02faf4b"
+    source_record_ids: ["cf9494a3-7d48-59dc-bb1a-65ecb02faf4b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

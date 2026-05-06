@@ -1,5 +1,5 @@
 name: "SafePay"
-aliases: ["SafePay Ransomware"]
+aliases: ["SafePay Ransomware","safepay"]
 description: "SafePay is a ransomware group particularly active in Germany, responsible for 24% of the 74 ransomware victims reported in the country during Q1 2025."
 url: "/safepay"
 country: "Unknown"
@@ -8,8 +8,22 @@ first_seen: "2024"
 last_activity: "2025"
 last_updated: "2026-04-28"
 risk_level: "High"
+source_name: "MISP Galaxy"
 source_attribution: "Manually curated from open source intelligence"
+malware:
+  - name: "Hacking Team UEFI Rootkit"
+  - name: "Dark DDoSeR"
+  - name: "Archelaus Beta"
+  - name: "Revenge-RAT"
 provenance:
+  misp_galaxy:
+    meta_keys: ["TTP","extensions","links","ransomnotes-filesnames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "156a6b97-c64f-5742-a530-ea8415c746e3"
+    source_record_ids: ["156a6b97-c64f-5742-a530-ea8415c746e3"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   ransomware_tool_matrix:
     references:
       - title: "It's Not Safe to Pay SafePay"

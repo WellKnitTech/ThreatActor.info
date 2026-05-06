@@ -2,10 +2,24 @@ name: "UNC6485"
 aliases: ["UNC6485"]
 description: "UNC6485 is a cyber-espionage group exploiting CVE-2025-12480 in Gladinet’s Triofox file-sharing platform to gain initial network access and establish long-term persistence. They create unauthorized administrative accounts and deploy RATs, utilizing legitimate tools like Zoho Assist and AnyDesk to evade detection. Their TTPs indicate a sophisticated understanding of the platform, allowing them to blend malicious activities with legitimate administrative actions."
 url: "/unc6485"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc6485"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["CyberGate","Cyber Eye RAT","AnyDesk","Xploit"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "unc6485"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc6485"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "fb8fa22e-52c5-40ca-90dd-ba02da80019e"
   misp_galaxy:
+    meta_keys: ["origin:UNC6485","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "fb8fa22e-52c5-40ca-90dd-ba02da80019e"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["fb8fa22e-52c5-40ca-90dd-ba02da80019e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

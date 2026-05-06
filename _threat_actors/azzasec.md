@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "AzzaSec"
-aliases: ["AzzaSec"]
+aliases: ["AzzaSec","azzasec"]
 description: "AzzaSec is a hacktivist group that originated in Italy. Known for their pro-Palestine stance, they have been involved in various cyberattacks targeting Israel and pro-Israel countries. Additionally, Az"
 permalink: /azzasec/
 ---

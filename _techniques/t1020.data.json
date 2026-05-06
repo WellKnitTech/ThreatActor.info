@@ -1,0 +1,43 @@
+{
+  "mitre_id": "T1020",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+    {
+      "id": "T1020.001",
+      "name": "Traffic Duplication",
+      "permalink": "/techniques/T1020.001/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Sidewinder",
+      "url": "/apt0121"
+    },
+    {
+      "name": "Ke3chang",
+      "url": "/apt0004"
+    },
+    {
+      "name": "RedCurl",
+      "url": "/apt1039"
+    },
+    {
+      "name": "Winter Vivern",
+      "url": "/apt1035"
+    },
+    {
+      "name": "Tropic Trooper",
+      "url": "/apt0081"
+    },
+    {
+      "name": "Gamaredon Group",
+      "url": "/apt0047"
+    }
+  ]
+}

@@ -5,10 +5,24 @@ url: "/bronze-vapor"
 country: "China"
 sector_focus: ["Semiconductor Industry"]
 targeted_victims: ["Taiwan"]
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/bronze_vapor"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["CloudDuke","RemoteCMD","Back Orifice","Back Orifice 2000","ClientMesh","Remote Utilities","RemotePC","SharpEye","Archelaus Beta","SharpBot"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "bronze_vapor"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/bronze_vapor"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "af12a336-bb68-41ff-866a-834cedc0b5fc"
   misp_galaxy:
+    meta_keys: ["cfr-suspected-victims","cfr-target-category","country","origin:BRONZE VAPOR","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "af12a336-bb68-41ff-866a-834cedc0b5fc"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["af12a336-bb68-41ff-866a-834cedc0b5fc"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

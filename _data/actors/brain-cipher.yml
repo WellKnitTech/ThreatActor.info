@@ -1,0 +1,17 @@
+name: "brain cipher"
+aliases: ["brain cipher"]
+description: "In mid-June 2024, a new ransomware operation named Brain Cipher emerged, notably targeting Indonesia's National Data Center. This attack disrupted immigration operations at airports and various other government services.\nThe payload employed by this group is based on the leaked LockBit 3.0 builder. Comparative analyses have confirmed significant similarities between Brain Cipher and LockBit 3.0 samples. Notably, the attackers modified the ransomware to not only append a new extension to encrypted files but also to encrypt the filenames themselves.\nAdditionally, it was identified that the group appears to be in its early stages, as evidenced by their use of the leaked LockBit 3.0 builder and their recent operations. After encrypting the data, the ransomware generates ransom notes named “added_extension.README.txt.” These notes contain a description of what occurred and a link to the attackers' website hosted on the Tor network."
+url: "/brain-cipher"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RIPTIDE"
+provenance:
+  misp_galaxy:
+    meta_keys: ["TTP","links","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "a48c22f1-3f1f-583c-b94c-6feb2c0c1cf1"
+    source_record_ids: ["a48c22f1-3f1f-583c-b94c-6feb2c0c1cf1"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

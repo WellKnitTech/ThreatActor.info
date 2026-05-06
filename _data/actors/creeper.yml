@@ -1,0 +1,14 @@
+name: "Creeper"
+aliases: ["Creeper"]
+description: "Ransomware"
+url: "/creeper"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "5dc6d20f-db0c-44e9-95a3-ee4adb1aa3ad"
+    source_record_ids: ["5dc6d20f-db0c-44e9-95a3-ee4adb1aa3ad"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

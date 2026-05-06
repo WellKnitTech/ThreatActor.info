@@ -1,0 +1,22 @@
+name: "chort"
+aliases: ["chort"]
+description: "Chort is a relatively new data-extortion ransomware group that surfaced in late 2024, with confirmed activity beginning in October–November 2024. It operates under a double-extortion model—exfiltrating sensitive data before encrypting systems—and organizes victims via a Tor-hosted data leak site (DLS). The group has targeted organizations in the U.S. education sector (including schools and nonprofits) and in Kuwait's agriculture sector, among others. Technical behaviors include execution via PowerShell and removal of shadow copies to disrupt recovery. The group's approach emphasizes public pressure through data exposure rather than technical innovation."
+url: "/chort"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "PowerDuke"
+  - name: "POWERSTATS"
+  - name: "Power Loader"
+  - name: "POWERSOURCE"
+  - name: "Nova"
+  - name: "PowerRAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "9378e2fb-9536-5168-bd2d-9f610df9ee36"
+    source_record_ids: ["9378e2fb-9536-5168-bd2d-9f610df9ee36"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

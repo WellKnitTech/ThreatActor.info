@@ -1,0 +1,17 @@
+name: "Phobos"
+aliases: ["Java NotDharma","Phobos"]
+description: "Phobos exploits open or poorly secured RDP ports to sneak inside networks and execute a ransomware attack, encrypting files and demanding a ransom be paid in bitcoin for returning the files, which in this case are locked with a .phobos extension."
+url: "/phobos"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Xploit"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","payment-method","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "d2c7fb08-293e-453b-a213-adeb79505767"
+    source_record_ids: ["d2c7fb08-293e-453b-a213-adeb79505767"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

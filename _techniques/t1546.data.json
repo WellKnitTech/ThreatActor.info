@@ -1,0 +1,112 @@
+{
+  "mitre_id": "T1546",
+  "mitigations": [
+    {
+      "name": "Privileged Account Management",
+      "mitre_id": "M1026",
+      "url": "https://attack.mitre.org/mitigations/M1026",
+      "stix_id": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f"
+    },
+    {
+      "name": "Update Software",
+      "mitre_id": "M1051",
+      "url": "https://attack.mitre.org/mitigations/M1051",
+      "stix_id": "course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1546.002",
+      "name": "Screensaver",
+      "permalink": "/techniques/T1546.002/"
+    },
+    {
+      "id": "T1546.013",
+      "name": "PowerShell Profile",
+      "permalink": "/techniques/T1546.013/"
+    },
+    {
+      "id": "T1546.016",
+      "name": "Installer Packages",
+      "permalink": "/techniques/T1546.016/"
+    },
+    {
+      "id": "T1546.003",
+      "name": "Windows Management Instrumentation Event Subscription",
+      "permalink": "/techniques/T1546.003/"
+    },
+    {
+      "id": "T1546.006",
+      "name": "LC_LOAD_DYLIB Addition",
+      "permalink": "/techniques/T1546.006/"
+    },
+    {
+      "id": "T1546.018",
+      "name": "Python Startup Hooks",
+      "permalink": "/techniques/T1546.018/"
+    },
+    {
+      "id": "T1546.011",
+      "name": "Application Shimming",
+      "permalink": "/techniques/T1546.011/"
+    },
+    {
+      "id": "T1546.015",
+      "name": "Component Object Model Hijacking",
+      "permalink": "/techniques/T1546.015/"
+    },
+    {
+      "id": "T1546.004",
+      "name": "Unix Shell Configuration Modification",
+      "permalink": "/techniques/T1546.004/"
+    },
+    {
+      "id": "T1546.010",
+      "name": "AppInit DLLs",
+      "permalink": "/techniques/T1546.010/"
+    },
+    {
+      "id": "T1546.005",
+      "name": "Trap",
+      "permalink": "/techniques/T1546.005/"
+    },
+    {
+      "id": "T1546.007",
+      "name": "Netsh Helper DLL",
+      "permalink": "/techniques/T1546.007/"
+    },
+    {
+      "id": "T1546.012",
+      "name": "Image File Execution Options Injection",
+      "permalink": "/techniques/T1546.012/"
+    },
+    {
+      "id": "T1546.001",
+      "name": "Change Default File Association",
+      "permalink": "/techniques/T1546.001/"
+    },
+    {
+      "id": "T1546.009",
+      "name": "AppCert DLLs",
+      "permalink": "/techniques/T1546.009/"
+    },
+    {
+      "id": "T1546.017",
+      "name": "Udev Rules",
+      "permalink": "/techniques/T1546.017/"
+    },
+    {
+      "id": "T1546.014",
+      "name": "Emond",
+      "permalink": "/techniques/T1546.014/"
+    },
+    {
+      "id": "T1546.008",
+      "name": "Accessibility Features",
+      "permalink": "/techniques/T1546.008/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

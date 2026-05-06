@@ -1,0 +1,21 @@
+name: "SGL Actor"
+aliases: ["SGL Actor"]
+description: "SGL is a username used by a threat actor on the XSS cybercriminal forum. The actor was observed attempting to sell access to allegedly compromised corporate network VPN gateways and RDP software.<sup>[[Resecurity Remote Access Compromise March 13 2024](/references/eb3fc217-44b7-496f-b5d1-68b40f476ce3)]</sup><sup>[[CYJAX 2024 Year in Review January 29 2025](/references/f22b8c2c-6307-420d-9aac-7da4f054bd1f)]</sup>"
+url: "/sgl-actor"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RemoteCMD"
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+  - name: "Remote Utilities"
+  - name: "RemotePC"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "da37f2d1-923d-4b40-9518-b16c6eb7bab8"
+    source_record_ids: ["da37f2d1-923d-4b40-9518-b16c6eb7bab8"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

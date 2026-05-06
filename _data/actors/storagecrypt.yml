@@ -1,0 +1,19 @@
+name: "StorageCrypt"
+aliases: ["StorageCrypt"]
+description: "Recently BleepingComputer has received a flurry of support requests for a new ransomware being named StorageCrypt that is targeting NAS devices such as the Western Digital My Cloud. Victims have been reporting that their files have been encrypted and a note left with a ransom demand of between .4 and 2 bitcoins to get their files back. User's have also reported that each share on their NAS device contains a Autorun.inf file and a Windows executable named 美女与野兽.exe, which translates to Beauty and the beast. From the samples BleepingComputer has received, this Autorun.inf is an attempt to spread the 美女与野兽.exe file to other computers that open the folders on the NAS devices."
+url: "/storagecrypt"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "CloudDuke"
+  - name: "Beast Trojan"
+  - name: "Windows Remote Desktop"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "0b920d03-971f-413c-8057-60d187192140"
+    source_record_ids: ["0b920d03-971f-413c-8057-60d187192140"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

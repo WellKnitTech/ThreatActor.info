@@ -1,0 +1,19 @@
+name: "Jokeroo"
+aliases: ["Fake GandCrab","Jokeroo"]
+description: "A new Ransomware-as-a-Service called Jokeroo is being promoted on underground hacking sites and via Twitter that allows affiliates to allegedly gain access to a fully functional ransomware and payment server.\nAccording to a malware researcher named Damian, the Jokeroo RaaS first started promoting itself as a GandCrab Ransomware RaaS on the underground hacking forum Exploit.in. "
+url: "/jokeroo"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Hacking Team UEFI Rootkit"
+  - name: "Xploit"
+  - name: "Archelaus Beta"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "8cfa694b-3e6b-410a-828f-037d981870b2"
+    source_record_ids: ["8cfa694b-3e6b-410a-828f-037d981870b2"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

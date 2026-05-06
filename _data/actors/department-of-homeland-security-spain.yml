@@ -1,0 +1,18 @@
+name: "Department of Homeland Security (Spain)"
+aliases: ["Department of Homeland Security (Spain)"]
+description: "Department of Homeland Security (DSN)"
+url: "/department-of-homeland-security-spain"
+country: "Spain"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RTM"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "26f444fa-4bad-537f-afba-f385184c836c"
+    source_record_ids: ["26f444fa-4bad-537f-afba-f385184c836c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

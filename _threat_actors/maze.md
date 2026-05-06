@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Maze"
-aliases: ["ChaCha"]
+aliases: ["ChaCha","Maze"]
 description: "Maze is a ransomware operation known for being the first to implement double extortion tactics."
 permalink: /maze/
 ---

@@ -1,0 +1,16 @@
+name: "Financial Intelligence Division (FID)"
+aliases: ["Financial Intelligence Division (FID)"]
+description: "Financial Intelligence Division (FID)"
+url: "/financial-intelligence-division-fid"
+country: "Thailand"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "fae0b154-a662-5abf-b9a6-56a7a65818e6"
+    source_record_ids: ["fae0b154-a662-5abf-b9a6-56a7a65818e6"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

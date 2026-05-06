@@ -1,0 +1,27 @@
+name: "Korean"
+aliases: ["Korean"]
+description: "Ransomware Based on HiddenTear"
+url: "/korean"
+first_seen: "2021"
+last_activity: "2022"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  aptnotes:
+    earliest_report_year: "2021"
+    latest_report_year: "2022"
+    report_count: 2
+    sample_links: ["https://app.box.com/s/03bx0kiz8yyy8x2k8qh0ravuucb6sapq","https://app.box.com/s/jvno7qknmcxx4i50fhov6jubdliltmsd"]
+    sample_titles: ["Phishing Campaign Targeting Korean to Deliver Agent Tesla New Variant","APT attack disguised as North Korean defector resume format"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Ahnlab","Fortinet"]
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","price","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "4febffe0-3837-41d7-b95f-e26d126275e4"
+    source_record_ids: ["4febffe0-3837-41d7-b95f-e26d126275e4"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,23 @@
+{
+  "mitre_id": "T1010",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    },
+    {
+      "name": "Volt Typhoon",
+      "url": "/apt1017"
+    },
+    {
+      "name": "HEXANE",
+      "url": "/apt1001"
+    }
+  ]
+}

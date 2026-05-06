@@ -3,10 +3,24 @@ aliases: ["UCA","Ukrainian Cyber Alliance"]
 description: "Cyber Alliance is a hacktivist group that has demonstrated capabilities in exploiting vulnerabilities, such as CVE-2023-22515 in Confluence, to escalate privileges and access targeted infrastructure. They successfully accessed Trigona's systems, exfiltrating sensitive data and ultimately defacing and deleting the organization's site."
 url: "/ukrainian-cyber-alliance"
 country: "Ukraine"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ukrainian_cyber_alliance"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["CyberGate","Cyber Eye RAT","Xploit"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "ukrainian_cyber_alliance"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ukrainian_cyber_alliance"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "e8ff09b5-8291-454a-8ab5-df39bed2f99f"
   misp_galaxy:
+    meta_keys: ["country","refs","synonyms"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "e8ff09b5-8291-454a-8ab5-df39bed2f99f"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["e8ff09b5-8291-454a-8ab5-df39bed2f99f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

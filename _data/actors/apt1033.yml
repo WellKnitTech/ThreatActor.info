@@ -1,13 +1,38 @@
 name: "Star Blizzard"
-aliases: ["Callisto Group","COLDRIVER","SEABORGIUM","Star Blizzard","TA446"]
+aliases: ["Callisto Group","COLDRIVER","SEABORGIUM","Star Blizzard","TA446","Callisto","Reuse Team","BlueCharlie","GOSSAMER BEAR","TAG-53","IRON FRONTIER","UNC4057","Blue Callisto","Nahr Elbard","Nahr el bared","Cold River"]
 description: "Star Blizzard is a cyber espionage and influence group originating in Russia that has been active since at least 2019. Star Blizzard campaigns align closely with Russian state interests and have included persistent phishing and credential theft against academic, defense, government, NGO, and think tank organizations in NATO countries, particularly the US and the UK. [Microsoft Star Blizzard August 2022](https://www.microsoft.com/en-us/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations/) [CISA Star Blizzard Advisory December 2023](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a) [StarBlizzard](https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/) [Google TAG COLDRIVER January 2024](https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware/)\n"
 url: "/apt1033"
+country: "Russia"
+sector_focus: ["Government Administration","Military","Think Tanks","Journalist"]
 external_id: "G1033"
 external_url: "https://attack.mitre.org/groups/G1033"
 mitre_id: "G1033"
 mitre_url: "https://attack.mitre.org/groups/G1033"
+source_name: "MISP Galaxy"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/callisto"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+  - name: "Blizzard"
+  - name: "Coldroot"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "cold_river"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/cold_river"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "7d99d2f7-adf0-44e4-9044-d18ff6842a16"
+  misp_galaxy:
+    meta_keys: ["country","microsoft-origin-threat","refs","sector","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories"]
+    source_cluster: "microsoft-activity-group.json"
+    source_clusters: ["microsoft-activity-group.json","tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
+    source_record_id: "06630ccd-98ed-5aec-8083-e04c894bd2d6"
+    source_record_ids: ["06630ccd-98ed-5aec-8083-e04c894bd2d6","649642a4-0659-5e10-ae19-1282f73a1785"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1033"

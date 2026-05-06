@@ -1,0 +1,16 @@
+{
+  "mitre_id": "T1639",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+    {
+      "id": "T1639.001",
+      "name": "Exfiltration Over Unencrypted Non-C2 Protocol",
+      "permalink": "/techniques/T1639.001/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

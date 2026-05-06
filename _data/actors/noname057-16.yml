@@ -8,6 +8,9 @@ targeted_victims: ["Czech Republic","Denmark","Estonia","Lithuania","NATO","Norw
 incident_type: ["Denial of service"]
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/noname057(16)"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware:
   - name: "mySingleMessenger"
 provenance:
@@ -15,9 +18,19 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://securityfactory.tistory.com/332","https://www.tagesanzeiger.ch/wir-haben-ddos-raketen-gegen-die-website-des-schweizer-parlaments-geschickt-250307088918","https://www.admin.ch/gov/en/start/documentation/media-releases.msg-id-95641.html","https://www.sentinelone.com/labs/noname05716-the-pro-russian-hacktivist-group-targeting-nato/"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "russia"
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "noname057(16)"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/noname057(16)"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "e62937d0-dec6-4c39-a836-e43b1d138df4"
   misp_galaxy:
+    meta_keys: ["cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","refs","synonyms","country","group_attack_id","observed_countries","observed_motivations","owner","source","target_categories"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","tidal-groups.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "e62937d0-dec6-4c39-a836-e43b1d138df4"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["e62937d0-dec6-4c39-a836-e43b1d138df4","7c1a627e-7ea8-4919-a590-7637f1c887f3"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

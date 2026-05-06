@@ -1,0 +1,14 @@
+name: "Estemani"
+aliases: ["Estemani"]
+description: "Ransomware"
+url: "/estemani"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "35275d91-8878-45fd-aa11-d5932a4a3707"
+    source_record_ids: ["35275d91-8878-45fd-aa11-d5932a4a3707"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

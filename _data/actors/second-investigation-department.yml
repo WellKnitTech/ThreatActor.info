@@ -1,0 +1,17 @@
+name: "Second Investigation Department"
+aliases: ["Second Investigation Department"]
+description: "Second Investigation Department - (Antrasis operatyvinių tarnybų departamentas (AOTD))"
+url: "/second-investigation-department"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RTM"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "a05a7e54-475e-5bff-b565-1f87429a1bb2"
+    source_record_ids: ["a05a7e54-475e-5bff-b565-1f87429a1bb2"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

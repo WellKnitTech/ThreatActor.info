@@ -1,0 +1,18 @@
+name: "Uiwix Ransomware"
+aliases: ["UIWIX","Uiwix Ransomware"]
+description: "Using EternalBlue SMB Exploit To Infect Victims"
+url: "/uiwix-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Blue Banana"
+  - name: "Xploit"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","price","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "369d6fda-0284-44aa-9e74-f6651416fec4"
+    source_record_ids: ["369d6fda-0284-44aa-9e74-f6651416fec4"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

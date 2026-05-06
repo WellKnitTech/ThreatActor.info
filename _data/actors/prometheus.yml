@@ -1,0 +1,15 @@
+name: "Prometheus"
+aliases: ["Prometheus"]
+description: "Ransomware written in .NET, apparently derived from the codebase of win.hakbit (Thanos) ransomware."
+url: "/prometheus"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "bcf0a9da-dca3-42c0-b875-59d434564fbb"
+    source_record_ids: ["bcf0a9da-dca3-42c0-b875-59d434564fbb"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

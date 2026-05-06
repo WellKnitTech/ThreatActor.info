@@ -1,0 +1,17 @@
+name: "Grief"
+aliases: ["Grief"]
+description: "captcha prevents indexing"
+url: "/grief"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Revenge-RAT"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "506716cf-7e60-46e5-a853-c8a67fe696f9"
+    source_record_ids: ["506716cf-7e60-46e5-a853-c8a67fe696f9"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

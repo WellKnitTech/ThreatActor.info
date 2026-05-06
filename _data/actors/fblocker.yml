@@ -1,0 +1,14 @@
+name: "FBLocker"
+aliases: ["FBLocker"]
+description: "ransomware"
+url: "/fblocker"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "6d97efca-8d12-45d3-93c3-93a4d3839110"
+    source_record_ids: ["6d97efca-8d12-45d3-93c3-93a4d3839110"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

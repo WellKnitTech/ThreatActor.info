@@ -3,10 +3,24 @@ aliases: ["DEV-1084","Storm-1084"]
 description: "Storm-1084 is a threat actor that has been observed collaborating with the MuddyWater group. They have used the DarkBit persona to mask their involvement in targeted attacks. Storm-1084 has been linked to destructive actions, including the encryption of on-premise devices and deletion of cloud resources. They have been observed using tools such as Rport, Ligolo, and a customized PowerShell backdoor. The extent of their autonomy or collaboration with other Iranian threat actors is currently unclear."
 url: "/storm-1084"
 country: "Iran"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-1084"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["Backdoor.Oldrea","CloudDuke","PowerDuke","POWERSTATS","Power Loader","POWERSOURCE","PowerRAT"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "storm-1084"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-1084"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "2cc32087-f242-4091-8634-4554635b7a58"
   misp_galaxy:
+    meta_keys: ["country","origin:DEV-1084","origin:Storm-1084","refs","synonyms"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "2cc32087-f242-4091-8634-4554635b7a58"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["2cc32087-f242-4091-8634-4554635b7a58"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

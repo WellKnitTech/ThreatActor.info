@@ -1,0 +1,16 @@
+name: "National Crises Management Cell"
+aliases: ["National Crises Management Cell"]
+description: "National Crises Management Cell (NCMC)"
+url: "/national-crises-management-cell"
+country: "Pakistan"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "20f24a8d-2d71-58ad-9cef-7aff623c444d"
+    source_record_ids: ["20f24a8d-2d71-58ad-9cef-7aff623c444d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

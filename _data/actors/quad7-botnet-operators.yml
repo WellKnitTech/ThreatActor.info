@@ -1,0 +1,17 @@
+name: "Quad7 Botnet Operators"
+aliases: ["Quad7 Botnet Operators"]
+description: "7777 or Quad7 is a botnet used to compromise network devices such as TP-LINK small office/home office (\"SOHO\") routers and use the infected devices to relay password spraying attacks against Microsoft 365 accounts.<sup>[[Sekoia.io Blog July 23 2024](/references/ae84e72a-56b3-4dc4-b053-d3766764ac0d)]</sup><sup>[[Sekoia.io Blog September 9 2024](/references/eb4a1888-3b04-449b-9738-d96ae26adfee)]</sup> This object reflects the various Techniques observed in use by the threat actors known to operate this botnet."
+url: "/quad7-botnet-operators"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Small-Net"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","owner","source","tags"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "bf3d1108-0bcd-47ae-8d71-4df48e3e2b43"
+    source_record_ids: ["bf3d1108-0bcd-47ae-8d71-4df48e3e2b43"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

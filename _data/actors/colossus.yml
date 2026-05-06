@@ -1,0 +1,22 @@
+name: "colossus"
+aliases: ["colossus"]
+description: "Colossus ransomware was first observed in September 2021, when ZeroFox researchers uncovered the variant attacking a U.S.-based automotive group. It employs a double-extortion model, using Themida packing and sandbox evasion to disable defenses and deliver encrypted payloads. Victims are urged to visit a support site—hosted at a domain like colossus.support—to negotiate payment, or face large-scale data dumps and increasing ransom amounts tied to countdown timers. Operators demonstrated familiarity with RaaS playbooks, drawing architectural parallels to groups like EpsilonRed, BlackCocaine, and REvil/Sodinokibi."
+url: "/colossus"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "BlackEnergy"
+  - name: "BLACKCOFFEE"
+  - name: "Blackshades"
+  - name: "BlackNix"
+  - name: "Archelaus Beta"
+  - name: "BlackHole"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "2fb2d7d5-e4bc-56a4-b9b1-b2cb851cff9b"
+    source_record_ids: ["2fb2d7d5-e4bc-56a4-b9b1-b2cb851cff9b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "Pump"
+aliases: ["Pump"]
+description: "ransomware"
+url: "/pump"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "556f7792-ed79-42cf-9912-865319e10d48"
+    source_record_ids: ["556f7792-ed79-42cf-9912-865319e10d48"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

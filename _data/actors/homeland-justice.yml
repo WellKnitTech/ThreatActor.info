@@ -5,15 +5,28 @@ url: "/homeland-justice"
 country: "Iran"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/homeland_justice"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["CyberGate","Cyber Eye RAT"]
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.cisa.gov/uscert/ncas/alerts/aa22-264a"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "iran"
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "homeland_justice"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/homeland_justice"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "bfc538e1-9205-420a-8641-6292023ecd08"
   misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "bfc538e1-9205-420a-8641-6292023ecd08"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["bfc538e1-9205-420a-8641-6292023ecd08"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

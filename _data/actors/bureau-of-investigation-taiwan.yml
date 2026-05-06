@@ -1,0 +1,15 @@
+name: "Bureau of Investigation (Taiwan)"
+aliases: ["Bureau of Investigation (Taiwan)"]
+description: "Investigation Bureau (MJIB)"
+url: "/bureau-of-investigation-taiwan"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "84c80247-98f9-5622-9d3e-9bada4328759"
+    source_record_ids: ["84c80247-98f9-5622-9d3e-9bada4328759"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

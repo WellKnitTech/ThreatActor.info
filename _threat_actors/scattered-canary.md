@@ -15,6 +15,7 @@ When the first member of Scattered Canary, who, for the purposes of this report,
 
 
 
+**Incident Type**: Cybercrime
 
 ## Notable Campaigns
 *Information pending cataloguing.*

@@ -1,0 +1,17 @@
+name: "Endurance"
+aliases: ["Endurance"]
+description: "Endurance is a destructive ransomware variant first observed in 2023, developed and operated by the threat actor known as IntelBroker (also referred to as Butler Spider). Rather than encrypting files for decryption, it functions primarily as a data wiper, overwriting file contents, appending randomized filenames, and then deleting the files altogether. The source code for the malware was intentionally made public by the operator, indicating its use as both a tool and a statement. Endurance was used in high-profile breaches, including targeting government agencies, large enterprises, and telecommunications providers."
+url: "/endurance"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Wiper"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "14658178-6fea-43bb-ae11-4ae5c2f14560"
+    source_record_ids: ["14658178-6fea-43bb-ae11-4ae5c2f14560"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

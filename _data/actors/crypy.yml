@@ -1,0 +1,15 @@
+name: "CryPy"
+aliases: ["CryPy"]
+description: "Ransomware"
+url: "/crypy"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "0b0f5f33-1871-461d-8e7e-b5e0ebc82311"
+    source_record_ids: ["0b0f5f33-1871-461d-8e7e-b5e0ebc82311"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

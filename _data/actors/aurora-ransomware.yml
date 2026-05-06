@@ -1,0 +1,22 @@
+name: "Aurora Ransomware"
+aliases: ["Zorro Ransomware","Aurora Ransomware"]
+description: "Typical ransom software, Aurora virus plays the role of blackmailing PC operators. It encrypts files and the encryption cipher it uses is pretty strong. After encryption, the virus attaches .aurora at the end of the file names that makes it impossible to open the data. Thereafter, it dispatches the ransom note totaling 6 copies, without any change to the main objective i.e., victims must write an electronic mail addressed to anonimus.mr@yahoo.com while stay connected until the criminals reply telling the ransom amount."
+url: "/aurora-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "BlackEnergy"
+  - name: "BLACKCOFFEE"
+  - name: "Blackshades"
+  - name: "BlackNix"
+  - name: "Virus RAT"
+  - name: "BlackHole"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes","ransomnotes-filenames","ransomnotes-refs","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "3ee0664e-706d-11e8-800d-9f690298b437"
+    source_record_ids: ["3ee0664e-706d-11e8-800d-9f690298b437"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

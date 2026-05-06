@@ -1,0 +1,14 @@
+name: "UNNAM3D"
+aliases: ["UNNAM3D"]
+description: "ransomware"
+url: "/unnam3d"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "15140e19-f09e-4543-9a4c-b0f0e96860fe"
+    source_record_ids: ["15140e19-f09e-4543-9a4c-b0f0e96860fe"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

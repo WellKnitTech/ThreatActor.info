@@ -1,0 +1,14 @@
+name: "Unknown XTBL"
+aliases: ["Unknown XTBL"]
+description: "ransomware"
+url: "/unknown-xtbl"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b73d6fd8-7707-451a-a5cb-0425289b02be"
+    source_record_ids: ["b73d6fd8-7707-451a-a5cb-0425289b02be"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

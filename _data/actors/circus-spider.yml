@@ -3,10 +3,24 @@ aliases: ["CIRCUS SPIDER"]
 description: "According to Crowdstrike, the NetWalker ransomware is being developed and maintained by a Russian-speaking actor designated as CIRCUS SPIDER. Initially discovered in September 2019and havinga compilation timestamp dating back to 28 August 2019, NetWalker has been found to be used in Big Game Hunting (BGH)-style operations while also being distributed via spam. CIRCUS SPIDER is advertising NetWalkeras being a closed-affiliate program,and verifies applicants before they are being accepted as an affiliate. The requirements rangefrom providing proof of previous revenue in similar affiliates programs, experience in the field and what type of industry the applicantis targeting."
 url: "/circus-spider"
 country: "Russia"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/circus_spider"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["Back Orifice","Back Orifice 2000","Revenge-RAT"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "circus_spider"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/circus_spider"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "3ebf503c-c554-4ac3-aa3e-3ef114ca2345"
   misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "3ebf503c-c554-4ac3-aa3e-3ef114ca2345"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["3ebf503c-c554-4ac3-aa3e-3ef114ca2345"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

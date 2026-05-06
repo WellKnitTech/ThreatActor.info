@@ -1,0 +1,50 @@
+{
+  "mitre_id": "T0817",
+  "mitigations": [
+    {
+      "name": "Update Software",
+      "mitre_id": "M0951",
+      "url": "https://attack.mitre.org/mitigations/M0951",
+      "stix_id": "course-of-action--97f33c84-8508-45b9-8a1d-cac921828c9e"
+    },
+    {
+      "name": "Application Isolation and Sandboxing",
+      "mitre_id": "M0948",
+      "url": "https://attack.mitre.org/mitigations/M0948",
+      "stix_id": "course-of-action--059ba11e-e3dc-49aa-84ca-88197f40d4ea"
+    },
+    {
+      "name": "Exploit Protection",
+      "mitre_id": "M0950",
+      "url": "https://attack.mitre.org/mitigations/M0950",
+      "stix_id": "course-of-action--49363b74-d506-4342-bd63-320586ebadb9"
+    },
+    {
+      "name": "Restrict Web-Based Content",
+      "mitre_id": "M0921",
+      "url": "https://attack.mitre.org/mitigations/M0921",
+      "stix_id": "course-of-action--143b4398-3222-480a-b6a4-e131bc2d3144"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Dragonfly",
+      "url": "/apt0035"
+    },
+    {
+      "name": "TEMP.Veles",
+      "url": "/apt0088"
+    },
+    {
+      "name": "OilRig",
+      "url": "/apt34"
+    },
+    {
+      "name": "ALLANITE",
+      "url": "/allanite"
+    }
+  ]
+}

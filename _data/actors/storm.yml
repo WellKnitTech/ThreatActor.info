@@ -1,0 +1,14 @@
+name: "Storm"
+aliases: ["Storm"]
+description: "ransomware"
+url: "/storm"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e6b1ec39-e118-47d2-9205-468c87be86c2"
+    source_record_ids: ["e6b1ec39-e118-47d2-9205-468c87be86c2"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

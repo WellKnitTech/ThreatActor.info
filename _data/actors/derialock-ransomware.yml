@@ -1,0 +1,15 @@
+name: "DeriaLock Ransomware"
+aliases: ["DeriaLock Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc.. Maker is arizonacode and ransom amount is 20-30$. If the victim decides to pay the ransom, he will have to copy HWID and then speak to the hacker on Skype and forward him the payment."
+url: "/derialock-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c0d7acd4-5d64-4571-9b07-bd4bd0d27ee3"
+    source_record_ids: ["c0d7acd4-5d64-4571-9b07-bd4bd0d27ee3"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,14 @@
+name: "5ss5c(5ss5cCrypt)"
+aliases: ["5ss5c(5ss5cCrypt)"]
+description: "Ransomware"
+url: "/5ss5c-5ss5ccrypt"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "a617852d-480c-4e16-8983-1ea7c2543eea"
+    source_record_ids: ["a617852d-480c-4e16-8983-1ea7c2543eea"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

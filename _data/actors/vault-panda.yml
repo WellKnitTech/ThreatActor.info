@@ -1,0 +1,18 @@
+name: "VAULT PANDA"
+aliases: ["VAULT PANDA"]
+description: "A likely intelligence gathering-focused, China-nexus threat actor group that has targeted organizations in various sectors, especially financial services, around the world.<sup>[[CrowdStrike 2025 Global Threat Report](/references/a69b0ce3-f314-4b32-bfb3-b1380c4f0ec4)]</sup>"
+url: "/vault-panda"
+country: "China"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "China Chopper"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","group_attack_id","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "3766e5ff-14a3-44c2-8971-92527ca1b674"
+    source_record_ids: ["3766e5ff-14a3-44c2-8971-92527ca1b674"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -2,10 +2,24 @@ name: "Daixin Team"
 aliases: ["Daixin Team"]
 description: "Daixin is a threat actor group that has been active since at least June 2022. They primarily target the healthcare and public health sector with ransomware attacks, stealing sensitive data and threatening to release it if a ransom is not paid. They have successfully targeted various industries, including healthcare, aerospace, automotive, and packaged foods. Daixin gains initial access through VPN servers and exploits vulnerabilities or uses phishing attacks to obtain credentials. They have been responsible for cyberattacks on organizations such as the North Texas Municipal Water District and TransForm Shared Service Org, impacting their networks and stealing customer and patient information."
 url: "/daixin-team"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/daixin_team"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["SPACESHIP","CyberGate","Cyber Eye RAT","Xploit"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "daixin_team"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/daixin_team"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "5e32baed-f4b5-4149-8540-7515ad8c4dc0"
   misp_galaxy:
+    meta_keys: ["refs","group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","tidal-groups.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "5e32baed-f4b5-4149-8540-7515ad8c4dc0"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["5e32baed-f4b5-4149-8540-7515ad8c4dc0","07bdadce-905e-4337-898a-13e88cfb5a61"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

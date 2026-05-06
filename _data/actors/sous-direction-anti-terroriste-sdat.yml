@@ -1,0 +1,16 @@
+name: "Sous-direction anti-terroriste (SDAT)"
+aliases: ["Sous-direction anti-terroriste","Sous-direction anti-terroriste (SDAT)"]
+description: "Sous-direction anti-terroriste (SDAT)"
+url: "/sous-direction-anti-terroriste-sdat"
+country: "France"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "1d81fbcc-dacb-51f8-a18c-0cf3b08462bc"
+    source_record_ids: ["1d81fbcc-dacb-51f8-a18c-0cf3b08462bc"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

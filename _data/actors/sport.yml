@@ -1,0 +1,15 @@
+name: "Sport"
+aliases: ["Sport"]
+description: "Ransomware"
+url: "/sport"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "9526efea-8853-42f2-89be-a04ee1ca4c7d"
+    source_record_ids: ["9526efea-8853-42f2-89be-a04ee1ca4c7d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

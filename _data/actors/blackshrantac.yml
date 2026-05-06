@@ -1,0 +1,21 @@
+name: "blackshrantac"
+aliases: ["blackshrantac","black shrantac"]
+description: "aka black shrantac"
+url: "/blackshrantac"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "BlackEnergy"
+  - name: "BLACKCOFFEE"
+  - name: "Blackshades"
+  - name: "BlackNix"
+  - name: "BlackHole"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e8929315-0da4-5d0d-bc28-3c9f85395cff"
+    source_record_ids: ["e8929315-0da4-5d0d-bc28-3c9f85395cff","1567a010-9a60-5fe9-8173-5e06b11fb4cb"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

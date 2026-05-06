@@ -1,0 +1,16 @@
+name: "Agenzia Informazioni e Sicurezza Interna"
+aliases: ["Agenzia Informazioni e Sicurezza Interna"]
+description: "Agenzia Informazioni e Sicurezza Interna (AISI) - Agency for Internal Information and Security"
+url: "/agenzia-informazioni-e-sicurezza-interna"
+country: "Italy"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "d6c70777-3ffe-5fe3-a9bb-52210eb87e95"
+    source_record_ids: ["d6c70777-3ffe-5fe3-a9bb-52210eb87e95"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

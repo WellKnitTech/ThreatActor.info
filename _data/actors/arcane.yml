@@ -1,0 +1,18 @@
+name: "arcane"
+aliases: ["arcane"]
+description: "Arcane first emerged in mid-2021 under the UNC2190 cluster and later rebranded as Sabbath, continuing its operations against critical infrastructure like hospitals, schools, and educational entities. It follows a double-extortion model—encrypting data (using ROLLCOAST/Eruption malware) while also exfiltrating sensitive information and threatening to leak it. Victims have included institutions in the U.S. and Canada across sectors such as healthcare, education, and natural resources. Initial intrusion tactics involved deployment of Cobalt Strike with custom profiles, DLL-based in-memory execution, and signed TLS certificates, plus use of stealthy GET requests ending with “kitten.gif.” Specific encryption algorithms or file extensions have not been publicly confirmed. The group appears to operate in an affiliate-style model but remains under single management rather than a full RaaS platform."
+url: "/arcane"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Cobalt Strike"
+  - name: "CrossRat"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "bba537f8-76ce-5064-b0e3-a6748db839cf"
+    source_record_ids: ["bba537f8-76ce-5064-b0e3-a6748db839cf"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,17 @@
+name: "Internal Security Department (Brunei)"
+aliases: ["Internal Security Department (Brunei)"]
+description: "Internal Security Department (Brunei)[4]  (internal)"
+url: "/internal-security-department-brunei"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RTM"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "9eeeaf53-b578-5016-89dc-9f4b7821cfa1"
+    source_record_ids: ["9eeeaf53-b578-5016-89dc-9f4b7821cfa1"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

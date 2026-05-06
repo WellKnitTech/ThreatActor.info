@@ -1,0 +1,16 @@
+name: "Crime-Combat Planning, Analysis and Information Center (CENAPI / PGR – Centro de Planeación, Análisis e Información para el Combate a la Delincuencia)"
+aliases: ["Crime-Combat Planning, Analysis and Information Center (CENAPI / PGR – Centro de Planeación, Análisis e Información para el Combate a la Delincuencia)"]
+description: "Crime-Combat Planning, Analysis and Information Center (CENAPI / PGR – Centro de Planeación, Análisis e Información para el Combate a la Delincuencia)"
+url: "/crime-combat-planning-analysis-and-information-center-cenapi-pgr-centro-de-planeaci-n-an-lisis-e-informaci-n-para-el-combate-a-la-delincuencia"
+country: "Mexico"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "8dc46460-5d1b-5fad-935e-d808e33b76b5"
+    source_record_ids: ["8dc46460-5d1b-5fad-935e-d808e33b76b5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

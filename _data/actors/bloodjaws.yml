@@ -1,0 +1,14 @@
+name: "BloodJaws"
+aliases: ["BloodJaws"]
+description: "Ransomware"
+url: "/bloodjaws"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "a79b56a9-50e7-42c4-b8b6-fda1fa2dc097"
+    source_record_ids: ["a79b56a9-50e7-42c4-b8b6-fda1fa2dc097"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

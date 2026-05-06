@@ -1,0 +1,16 @@
+name: "National Intelligence Organization (Turkey)"
+aliases: ["National Intelligence Organization (Turkey)"]
+description: "National Intelligence Organization (MİT)"
+url: "/national-intelligence-organization-turkey"
+country: "Turkey"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "ae263350-e10a-5b03-8b93-6fc2fcbc857c"
+    source_record_ids: ["ae263350-e10a-5b03-8b93-6fc2fcbc857c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

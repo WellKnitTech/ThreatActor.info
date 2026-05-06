@@ -34,6 +34,8 @@ PROPHET SPIDER is an eCrime actor, active since at least May 2017, that primaril
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
+- **Xploit**: 
+
 ### Ransomware Tool Matrix observations
 
 | Category | Observed tools |

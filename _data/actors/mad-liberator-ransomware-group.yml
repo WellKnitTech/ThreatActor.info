@@ -1,0 +1,15 @@
+name: "Mad Liberator Ransomware Group"
+aliases: ["Mad Liberator Ransomware Group"]
+description: "This object represents a collection of MITRE ATT&CK® Techniques and other objects related to the subject threat. Further contextual details are provided via the sources in the References tab below and any associated Tags."
+url: "/mad-liberator-ransomware-group"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_motivations","owner","source","tags"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "6f68bf2a-ddd6-45e4-9194-ec8fd8c98361"
+    source_record_ids: ["6f68bf2a-ddd6-45e4-9194-ec8fd8c98361"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

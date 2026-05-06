@@ -1,0 +1,43 @@
+name: "BlackCat"
+aliases: ["ALPHV","Noberus","BlackCat"]
+description: "BlackCat (ALPHV) is ransomware written in Rust. The ransomware makes heavy use of plaintext JSON configuration files to specify the ransomware functionality. BlackCat has many advanced capabilities like escalating privileges and bypassing UAC make use of AES and ChaCha20 or Salsa encryption, may use the Restart Manager, can delete volume shadow copies, can enumerate disk volumes and network shares automatically, and may kill specific processes and services. The ransomware exists for both Windows, Linux, and ESXi systems. Multiple extortion techniques are used by the BlackCat gang, such as exfiltrating victim data before the ransomware deployment, threats to release data if the ransomw is not paid, and distributed denial-of-service (DDoS) attacks."
+url: "/blackcat"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "BlackEnergy"
+  - name: "BLACKCOFFEE"
+  - name: "Blackshades"
+  - name: "BlackNix"
+  - name: "Windows Remote Desktop"
+  - name: "BlackHole"
+cisa_kev_cves:
+  - cve: "CVE-2021-27876"
+    dateAdded: "2023-04-07"
+    vendor: "Veritas"
+    product: "Backup Exec Agent"
+  - cve: "CVE-2021-27877"
+    dateAdded: "2023-04-07"
+    vendor: "Veritas"
+    product: "Backup Exec Agent"
+  - cve: "CVE-2021-27878"
+    dateAdded: "2023-04-07"
+    vendor: "Veritas"
+    product: "Backup Exec Agent"
+  - cve: "CVE-2022-24521"
+    dateAdded: "2022-04-13"
+    vendor: "Microsoft"
+    product: "Windows"
+  - cve: "CVE-2016-0099"
+    dateAdded: "2022-03-03"
+    vendor: "Microsoft"
+    product: "Windows"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","links","ransomnotes-refs","refs","synonyms","ttp"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e6c09b63-a424-4d9e-b7f7-b752cbbca02a"
+    source_record_ids: ["e6c09b63-a424-4d9e-b7f7-b752cbbca02a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

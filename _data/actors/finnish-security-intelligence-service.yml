@@ -1,0 +1,16 @@
+name: "Finnish Security Intelligence Service"
+aliases: ["Suojelupoliisi / Skyddspolisen","Finnish Security Intelligence Service"]
+description: "Finnish Security Intelligence Service (SUPO) – Suojelupoliisi / Skyddspolisen"
+url: "/finnish-security-intelligence-service"
+country: "Finland"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "ed507d29-e7a6-5b09-8cb6-6ca094ef2214"
+    source_record_ids: ["ed507d29-e7a6-5b09-8cb6-6ca094ef2214"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

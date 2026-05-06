@@ -1,0 +1,15 @@
+name: "General Directorate of Intelligence"
+aliases: ["د استخباراتو لوی ریاست","General Directorate of Intelligence"]
+description: "General Directorate of Intelligence (GDI) – د استخباراتو لوی ریاست"
+url: "/general-directorate-of-intelligence"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "e7f22bf7-be6b-571b-8cd0-bafc3b427e97"
+    source_record_ids: ["e7f22bf7-be6b-571b-8cd0-bafc3b427e97"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

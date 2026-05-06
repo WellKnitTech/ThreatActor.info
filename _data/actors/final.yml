@@ -1,0 +1,26 @@
+name: "Final"
+aliases: ["Final"]
+description: "ransomware"
+url: "/final"
+first_seen: "2010"
+last_activity: "2017"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  aptnotes:
+    earliest_report_year: "2010"
+    latest_report_year: "2017"
+    report_count: 12
+    sample_links: ["https://app.box.com/s/44e7rbs177n5inhpm9si6gu3lm7fw6bj","https://app.box.com/s/g1nx7q1o451m0o8hmhbeg82igcflk6q5","https://app.box.com/s/cfkwk5mocm6ckxmaiv8hfe73k2bl1u10","https://app.box.com/s/ine4z2lyf8ryqao789oc0als335iip8c","https://app.box.com/s/r95pew4gb5gi1qw40l6s0jbzw5lfwqbm","https://app.box.com/s/8wxap100crzcd96a05ajsj9vodpjauau","https://app.box.com/s/k1zaybbj4ickaq5u0flu9bpmtp8a1e5k","https://app.box.com/s/t3h83k7pfdyzoi3hrhfl7k5o33sk1fwk","https://app.box.com/s/hji6y2fi3nwqbd8mtx6kiy6yckizwq2w","https://app.box.com/s/cx1sjzb1q7slnjho5n1n0iuc7y9om2ll","https://app.box.com/s/dl6izicyky1x946ueo77nn2w8c5jxgm3","https://app.box.com/s/olc867zxc9nkjzm3wkjwi0b0e2awahtn"]
+    sample_titles: ["In-Depth Analysis Of Hydraq: The Face Of Cyberwar Enemies Unfolds","The Voho Campaign: An In Depth Analysis","A Closer Look At Miniduke","Gathering In The Middle East, Operation Stteam","Anatomy Of The Attack: Zombie Zero","Zoxpng Analysis","Hikit Analysis","Derusbi (Server Variant) Analysis","Operation Potao Express: Analysis Of A Cyber-Espionage Toolkit","RSA Research Terracotta VPN: Enabler Of Advanced Threat Anonymity"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Bitdefender","CA","ESET","Fidelis","Kaspersky","Novetta","RSA","Trapx"]
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "06db1c0f-5dcd-4dad-8fb5-cdf8afdf2ab6"
+    source_record_ids: ["06db1c0f-5dcd-4dad-8fb5-cdf8afdf2ab6"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

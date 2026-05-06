@@ -1,0 +1,15 @@
+name: "Cerber"
+aliases: ["CRBR ENCRYPTOR","Cerber"]
+description: "Ransomware"
+url: "/cerber"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","price","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "190edf95-9cd9-4e4a-a228-b716d52a751b"
+    source_record_ids: ["190edf95-9cd9-4e4a-a228-b716d52a751b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

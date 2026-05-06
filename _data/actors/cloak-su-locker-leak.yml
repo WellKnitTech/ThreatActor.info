@@ -1,0 +1,14 @@
+name: "Cloak Su Locker Leak"
+aliases: ["Cloak Su Locker Leak"]
+description: "Cloak Su Locker Leak is an active extortion or ransomware group tracked by RansomLook."
+url: "/cloak-su-locker-leak"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/cloaksulockerleak"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "cloaksulockerleak"
+  source_retrieved_at: "2026-05-06T21:55:12Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

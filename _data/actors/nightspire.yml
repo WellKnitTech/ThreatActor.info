@@ -1,5 +1,5 @@
 name: "Nightspire"
-aliases: ["Nightspire"]
+aliases: ["Nightspire","NightSpire","nightspire"]
 description: "Nightspire is an active extortion or ransomware group tracked by RansomLook."
 url: "/nightspire"
 last_updated: "2026-04-28"
@@ -9,6 +9,14 @@ source_record_url: "https://www.ransomlook.io/group/nightspire"
 source_license: "CC BY 4.0"
 source_license_url: "https://creativecommons.org/licenses/by/4.0/"
 provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories","links","refs"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json","ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "35aa3c2a-eea0-480a-b338-c82808643026"
+    source_record_ids: ["35aa3c2a-eea0-480a-b338-c82808643026","da06e334-31b3-5c4e-93ce-0f5b4d926208"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   ransomware_tool_matrix:
     references:
       - title: "www.s-rminform.com"

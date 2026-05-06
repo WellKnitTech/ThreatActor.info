@@ -1,0 +1,19 @@
+name: "APT42 (Deprecated)"
+aliases: ["APT42 (Deprecated)"]
+description: "*We are no longer maintaining this object in favor of a similar object subsequently published by MITRE: \"APT42\" (Group). All relevant Tidal content extensions (e.g. additional Technique and Object relationships and metadata) have been added to the MITRE-authored object.*\n\nAPT42 is an Iranian state-sponsored espionage group believed to operate on behalf of the Islamic Revolutionary Guard Corps (IRGC) Intelligence Organization (IRGC-IO). APT42 primarily focuses on collecting information on and surveilling its targets, mainly individuals and organizations with strategic significance to Iran's government. The group's operations are characterized by targeted spear-phishing attacks and surveillance activity. Mandiant researchers acknowledged overlaps between APT42 and APT35, which both likely operate on behalf of the IRGC, but noted that the groups display \"substantial differences\" in targeting patterns and TTPs.<sup>[[Mandiant Crooked Charms August 12 2022](/references/53bab956-be5b-4d8d-b553-9926bc5d9fee)]</sup>"
+url: "/apt42-deprecated"
+country: "Iran"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "SHIPSHAPE"
+  - name: "Archelaus Beta"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "ce126445-6984-45bb-9737-35448f06f27b"
+    source_record_ids: ["ce126445-6984-45bb-9737-35448f06f27b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

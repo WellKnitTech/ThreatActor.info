@@ -6,9 +6,27 @@ external_id: "G1052"
 external_url: "https://attack.mitre.org/groups/G1052"
 mitre_id: "G1052"
 mitre_url: "https://attack.mitre.org/groups/G1052"
+source_name: "MISP Galaxy"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/contagious_interview"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["CyberGate","Cyber Eye RAT","Windows Remote Desktop"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "contagious_interview"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/contagious_interview"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "b2765bd8-1200-4df5-a9d3-72a7b679dcdb"
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "b2765bd8-1200-4df5-a9d3-72a7b679dcdb"
+    source_record_ids: ["b2765bd8-1200-4df5-a9d3-72a7b679dcdb"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1052"

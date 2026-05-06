@@ -10,7 +10,11 @@ permalink: /kasablanka/
 The Kasablanka group is a cyber-criminal organization that has specifically targeted Russia between September and December 2022, using various payloads delivered through phishing emails containing socially engineered lnk files, zip packages, and executables attached to virtual disk image files.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ Morocco
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -26,7 +30,8 @@ The Kasablanka group is a cyber-criminal organization that has specifically targ
 - **Cyber Eye RAT**
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Morocco
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

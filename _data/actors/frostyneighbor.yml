@@ -3,10 +3,24 @@ aliases: ["FrostyNeighbor"]
 description: "FrostyNeighbor is a Belarus-aligned APT group known for conducting influence and disinformation campaigns, particularly targeting Ukraine, Poland, and Lithuania. They have compromised various governmental and private sector entities, including the Polish Anti-Doping Agency, through hack-and-leak operations. The group is believed to collaborate with initial access brokers to exploit high-value targets, utilizing techniques such as zero-day vulnerabilities. Their operations are linked to cyber-enabled disinformation campaigns critical of the North Atlantic Alliance."
 url: "/frostyneighbor"
 country: "Belarus"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/frostyneighbor"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["CyberGate","Cyber Eye RAT","Xploit"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "frostyneighbor"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/frostyneighbor"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "ca448608-83fa-467d-8637-1cf004fd8e8a"
   misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "ca448608-83fa-467d-8637-1cf004fd8e8a"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["ca448608-83fa-467d-8637-1cf004fd8e8a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

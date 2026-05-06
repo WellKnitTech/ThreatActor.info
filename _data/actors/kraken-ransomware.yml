@@ -1,0 +1,15 @@
+name: "Kraken Ransomware"
+aliases: ["Kraken Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc… The hacker requests 2 bitcoins in return for the files."
+url: "/kraken-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "51737c36-11a0-4c25-bd87-a990bd479aaf"
+    source_record_ids: ["51737c36-11a0-4c25-bd87-a990bd479aaf"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

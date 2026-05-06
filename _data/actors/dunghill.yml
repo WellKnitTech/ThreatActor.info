@@ -1,0 +1,17 @@
+name: "dunghill"
+aliases: ["dunghill"]
+description: "Dunghill Leak is the publicly branded data leak site (DLS) operated by the Dark Angels ransomware group, established circa January 2023. Rather than a standalone encryption threat, it serves as the disclosure and extortion platform where stolen victim data is published if ransom demands are ignored. Dark Angels is known for highly targeted “big game hunting” tactics, exfiltrating tens to hundreds of terabytes of corporate data, often without encrypting systems. Victims include major industry players—like Johnson Controls, Sabre, Sysco, and a Fortune 50 firm—which reportedly paid a record-breaking $75 million USD ransom. The leak site is complemented by a mirrored Telegram channel for distributing victim announcements and maintaining negotiation traffic."
+url: "/dunghill"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Dark DDoSeR"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "5eadcdf1-b21b-5e62-867d-332cd9bfac68"
+    source_record_ids: ["5eadcdf1-b21b-5e62-867d-332cd9bfac68"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

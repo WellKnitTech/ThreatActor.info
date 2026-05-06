@@ -1,0 +1,14 @@
+name: "10001"
+aliases: ["10001"]
+description: "Ransomware"
+url: "/10001"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "f90db14d-e3fd-4f34-b8f8-ba82534732aa"
+    source_record_ids: ["f90db14d-e3fd-4f34-b8f8-ba82534732aa"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

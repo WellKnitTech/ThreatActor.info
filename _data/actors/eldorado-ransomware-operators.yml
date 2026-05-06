@@ -1,0 +1,20 @@
+name: "Eldorado Ransomware Operators"
+aliases: ["Eldorado Ransomware Operators"]
+description: "This object reflects the ATT&CK Techniques associated with threat actors who deploy Eldorado, a ransomware-as-a-service (\"RaaS\") first advertised for sale on cybercrime forums in March 2024. Researchers assess that Eldorado is a \"unique\" ransomware strain that is likely not derived from previously leaked ransomware source code.<sup>[[Group-IB July 3 2024](/references/50148a85-314c-4b29-bdfc-913ab647dadf)]</sup>\n\nWindows and Linux-focused versions of the ransomware are known to exist. (ATT&CK Techniques associated with these malware binaries are tracked in a separate \"Eldorado Ransomware\" Software object.)"
+url: "/eldorado-ransomware-operators"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+  - name: "Windows Remote Desktop"
+  - name: "Archelaus Beta"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "26e1c52e-0c48-4cd0-bdc5-9cf981a6e714"
+    source_record_ids: ["26e1c52e-0c48-4cd0-bdc5-9cf981a6e714"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

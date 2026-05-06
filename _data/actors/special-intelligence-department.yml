@@ -1,0 +1,17 @@
+name: "Special Intelligence Department"
+aliases: ["Special Intelligence Department"]
+description: "Special Intelligence Department (SID)"
+url: "/special-intelligence-department"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RTM"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "835f34e6-a61e-5907-a794-525802a357a2"
+    source_record_ids: ["835f34e6-a61e-5907-a794-525802a357a2"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,14 @@
+name: "RenameX12"
+aliases: ["RenameX12"]
+description: "ransomware"
+url: "/renamex12"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "6f7c24e3-b7e6-483c-92f0-99bf562f6397"
+    source_record_ids: ["6f7c24e3-b7e6-483c-92f0-99bf562f6397"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

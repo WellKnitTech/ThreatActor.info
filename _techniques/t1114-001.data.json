@@ -1,0 +1,54 @@
+{
+  "mitre_id": "T1114.001",
+  "mitigations": [
+    {
+      "name": "Out-of-Band Communications Channel",
+      "mitre_id": "M1060",
+      "url": "https://attack.mitre.org/mitigations/M1060",
+      "stix_id": "course-of-action--80a0e940-f683-4fbd-ac00-e9f935f2f808"
+    },
+    {
+      "name": "Encrypt Sensitive Information",
+      "mitre_id": "M1041",
+      "url": "https://attack.mitre.org/mitigations/M1041",
+      "stix_id": "course-of-action--feff9142-e8c2-46f4-842b-bd6fb3d41157"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "WIRTE",
+      "url": "/apt0090"
+    },
+    {
+      "name": "RedCurl",
+      "url": "/apt1039"
+    },
+    {
+      "name": "Sea Turtle",
+      "url": "/apt1041"
+    },
+    {
+      "name": "APT1",
+      "url": "/apt1"
+    },
+    {
+      "name": "Chimera",
+      "url": "/apt0114"
+    },
+    {
+      "name": "Magic Hound",
+      "url": "/apt35"
+    },
+    {
+      "name": "MirrorFace",
+      "url": "/mirrorface"
+    },
+    {
+      "name": "Winter Vivern",
+      "url": "/apt1035"
+    }
+  ]
+}

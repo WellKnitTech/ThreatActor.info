@@ -1,0 +1,15 @@
+name: "Darkbit01"
+aliases: ["Darkbit01"]
+description: "TOX: AB33BC51AFAC64D98226826E70B483593C81CB22E6A3B504F7A75348C38C862F00042F5245AC"
+url: "/darkbit01"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "69e2ce57-67bb-4d53-a8c4-00b3501f45a3"
+    source_record_ids: ["69e2ce57-67bb-4d53-a8c4-00b3501f45a3"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

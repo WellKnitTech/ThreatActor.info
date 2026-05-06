@@ -1,0 +1,14 @@
+name: "CryptoMix-MOLE66"
+aliases: ["CryptoMix-MOLE66"]
+description: "Ransomware"
+url: "/cryptomix-mole66"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "d61b7ace-ba80-4d79-9ff2-b6f80af5770b"
+    source_record_ids: ["d61b7ace-ba80-4d79-9ff2-b6f80af5770b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,15 @@
+name: "Domino"
+aliases: ["Domino"]
+description: "Ransomware Based on Hidden Tear"
+url: "/domino"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","price","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "7cb20800-2033-49a4-bdf8-a7da5a24f7f1"
+    source_record_ids: ["7cb20800-2033-49a4-bdf8-a7da5a24f7f1"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

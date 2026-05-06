@@ -1,11 +1,25 @@
 name: "APT-C-34"
-aliases: ["Golden Falcon","APT-C-34"]
+aliases: ["Golden Falcon","APT-C-34","黄金雕 - APT-C-34"]
 description: "As reported by ZDNet, Chinese cyber-security vendor Qihoo 360 published a report on 2019-11-29 exposing an extensive hacking operation targeting the country of Kazakhstan. Targets included individuals and organizations involving all walks of life, such as government agencies, military personnel, foreign diplomats, researchers, journalists, private companies, the educational sector, religious figures, government dissidents, and foreign diplomats alike. The campaign, Qihoo 360 said, was broad, and appears to have been carried by a threat actor with considerable resources, and one who had the ability to develop their private hacking tools, buy expensive spyware off the surveillance market, and even invest in radio communications interception hardware."
 url: "/apt-c-34"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt-c-34"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["Hacking Team UEFI Rootkit","CyberGate","Cyber Eye RAT","Archelaus Beta"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "apt-c-34"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt-c-34"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "feb0cfef-0472-4108-83d7-1a322d8ab86b"
   misp_galaxy:
+    meta_keys: ["origin:APT-C-34","refs","synonyms","country","suspected-victims","target-category"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","360net.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "feb0cfef-0472-4108-83d7-1a322d8ab86b"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["feb0cfef-0472-4108-83d7-1a322d8ab86b","03e70e52-ec27-5961-bb53-d4c8c737addc"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

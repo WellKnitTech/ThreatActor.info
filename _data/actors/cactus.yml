@@ -1,0 +1,17 @@
+name: "cactus"
+aliases: ["cactus"]
+description: "The CACTUS ransomware is said to have emerged around March 2023. The group became known for exploiting vulnerabilities to gain initial access and maintain a presence within the organization's infrastructure.\nThere is little known information about the ransomware group, except that it emerged on the mentioned date and, following encryption, a text file named 'cAcTuS.readme.txt' would be created. Additionally, encrypted files were altered to the '.cts1' extension, and data exfiltration and victim extortion were conducted through the use of the service known as Tox.\nAs mentioned earlier, the ransomware especially exploits vulnerabilities in VPNs, also utilizing obfuscation techniques to conceal its activities, such as employing UPX and utilizing encryption algorithms like OpenSSL, AES OCB, ChaCha20_Poly1305, system reinitializations, and others."
+url: "/cactus"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Xploit"
+provenance:
+  misp_galaxy:
+    meta_keys: ["TTP","links","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e888321e-c84a-5fa7-8761-dd2aaef691b8"
+    source_record_ids: ["e888321e-c84a-5fa7-8761-dd2aaef691b8"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

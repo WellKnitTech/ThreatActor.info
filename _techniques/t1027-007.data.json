@@ -1,0 +1,23 @@
+{
+  "mitre_id": "T1027.007",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Mustang Panda",
+      "url": "/apt0129"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    }
+  ]
+}

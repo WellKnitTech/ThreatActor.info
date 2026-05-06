@@ -1,13 +1,23 @@
 name: "TA551"
-aliases: ["GOLD CABIN","Shathak","TA551"]
+aliases: ["GOLD CABIN","Shathak","TA551","Shakthak","ATK236","G0127","Monster Libra"]
 description: "TA551 is a financially-motivated threat group that has been active since at least 2018. [Secureworks GOLD CABIN](https://www.secureworks.com/research/threat-profiles/gold-cabin) The group has primarily targeted English, German, Italian, and Japanese speakers through email-based malware distribution campaigns. [Unit 42 TA551 Jan 2021](https://unit42.paloaltonetworks.com/ta551-shathak-icedid/)"
 url: "/apt0127"
 external_id: "G0127"
 external_url: "https://attack.mitre.org/groups/G0127"
 mitre_id: "G0127"
 mitre_url: "https://attack.mitre.org/groups/G0127"
+source_name: "Malpedia (Fraunhofer FKIE)"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gold_cabin"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "gold_cabin"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gold_cabin"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "36e8c848-4d20-47ea-9fc2-31aa17bf82d1"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0127"

@@ -1,0 +1,18 @@
+name: "Space Delta 18"
+aliases: ["Space Delta 18"]
+description: "Space Delta 18 (DEL 18)"
+url: "/space-delta-18"
+country: "United States"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "SPACESHIP"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "35dfef6d-8058-5761-a17d-6b32177be026"
+    source_record_ids: ["35dfef6d-8058-5761-a17d-6b32177be026"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

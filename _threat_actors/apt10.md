@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT10"
-aliases: ["STONE PANDA","Menupass Team","happyyongzi","POTASSIUM","Red Apollo","CVNX","HOGFISH","Cloud Hopper","BRONZE RIVERSIDE","ATK41","G0045","Granite Taurus","TA429","Cicada","Purple Typhoon","APT10"]
+aliases: ["STONE PANDA","Menupass Team","happyyongzi","POTASSIUM","Red Apollo","CVNX","HOGFISH","Cloud Hopper","BRONZE RIVERSIDE","ATK41","G0045","Granite Taurus","TA429","Cicada","Purple Typhoon","APT10","GOLEM","Evilgrab","AEON","LIVESAFE","ChChes","Haymaker","Webmonder","Foxtrot","Foxmail","MenuPass"]
 description: "menuPass is a threat group that has been active since at least 2006. Individual members of menuPass are known to have acted in association with the Chinese Ministry of State Security's (MSS) Tianjin St"
 permalink: /apt10/
 ---
@@ -16,7 +16,9 @@ menuPass is a threat group that has been active since at least 2006. Individual 
 
 **Risk Level**: High
 
+**First Seen**: 2017
 
+**Last Activity**: 2017
 
 **Incident Type**: Espionage
 
@@ -29,10 +31,10 @@ menuPass is a threat group that has been active since at least 2006. Individual 
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+*No atomic indicators are listed in this profile. The APTnotes snapshot indexes 1 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -27,7 +27,8 @@ We’ve uncovered some new data and likely attribution regarding a series of APT
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **China Chopper**: 
+- **Archelaus Beta**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

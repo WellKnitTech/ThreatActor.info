@@ -1,0 +1,49 @@
+{
+  "mitre_id": "T1608",
+  "mitigations": [
+    {
+      "name": "Pre-compromise",
+      "mitre_id": "M1056",
+      "url": "https://attack.mitre.org/mitigations/M1056",
+      "stix_id": "course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1608.004",
+      "name": "Drive-by Target",
+      "permalink": "/techniques/T1608.004/"
+    },
+    {
+      "id": "T1608.005",
+      "name": "Link Target",
+      "permalink": "/techniques/T1608.005/"
+    },
+    {
+      "id": "T1608.006",
+      "name": "SEO Poisoning",
+      "permalink": "/techniques/T1608.006/"
+    },
+    {
+      "id": "T1608.003",
+      "name": "Install Digital Certificate",
+      "permalink": "/techniques/T1608.003/"
+    },
+    {
+      "id": "T1608.002",
+      "name": "Upload Tool",
+      "permalink": "/techniques/T1608.002/"
+    },
+    {
+      "id": "T1608.001",
+      "name": "Upload Malware",
+      "permalink": "/techniques/T1608.001/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Mustang Panda",
+      "url": "/apt0129"
+    }
+  ]
+}

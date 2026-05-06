@@ -1,0 +1,16 @@
+name: "Serviço de Informações de Segurança"
+aliases: ["Serviço de Informações de Segurança"]
+description: "Security Intelligence Service - Serviço de Informações de Segurança (SIS)"
+url: "/servi-o-de-informa-es-de-seguran-a"
+country: "Portugal"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "3ecee36a-8e62-5427-aeb6-0a9450d154bc"
+    source_record_ids: ["3ecee36a-8e62-5427-aeb6-0a9450d154bc"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

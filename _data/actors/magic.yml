@@ -1,0 +1,27 @@
+name: "Magic"
+aliases: ["Magic"]
+description: "Ransomware Based on EDA2"
+url: "/magic"
+first_seen: "2016"
+last_activity: "2016"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  aptnotes:
+    earliest_report_year: "2016"
+    latest_report_year: "2016"
+    report_count: 1
+    sample_links: ["https://app.box.com/s/y4zzbao34iv483op59h1dettrwgoe7li"]
+    sample_titles: ["Houdini's Magic Reappearance"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Palo Alto Networks"]
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","payment-method","price","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "31fa83fc-8247-4347-940a-e463acd66bac"
+    source_record_ids: ["31fa83fc-8247-4347-940a-e463acd66bac"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

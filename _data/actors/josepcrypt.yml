@@ -1,0 +1,14 @@
+name: "JosepCrypt"
+aliases: ["JosepCrypt"]
+description: "ransomware"
+url: "/josepcrypt"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "2e63db1d-5ce9-4cb4-a75a-86afd2d450ec"
+    source_record_ids: ["2e63db1d-5ce9-4cb4-a75a-86afd2d450ec"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

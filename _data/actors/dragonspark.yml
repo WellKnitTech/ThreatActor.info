@@ -5,15 +5,28 @@ url: "/dragonspark"
 country: "China"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dragonspark"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["Trojan.Karagany","China Chopper","RemoteCMD","Trojan.Mebromi","Remote Utilities","RemotePC"]
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.sentinelone.com/labs/dragonspark-attacks-evade-detection-with-sparkrat-and-golang-source-code-interpretation/"]
-    source_retrieved_at: "2026-04-28T19:46:41Z"
+    source_retrieved_at: "2026-05-06T22:01:17Z"
     tab_name: "china"
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "dragonspark"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dragonspark"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "a219a78b-7b91-41b1-bf14-91e31e0bb9da"
   misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "a219a78b-7b91-41b1-bf14-91e31e0bb9da"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["a219a78b-7b91-41b1-bf14-91e31e0bb9da"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

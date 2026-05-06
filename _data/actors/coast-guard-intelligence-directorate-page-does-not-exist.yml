@@ -1,0 +1,16 @@
+name: "Coast Guard Intelligence Directorate (page does not exist)"
+aliases: ["Coast Guard Intelligence Directorate (page does not exist)"]
+description: "Coast Guard Intelligence Directorate (law enforcement)"
+url: "/coast-guard-intelligence-directorate-page-does-not-exist"
+country: "Turkey"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "36b3c033-a235-527f-b29a-faede87b1907"
+    source_record_ids: ["36b3c033-a235-527f-b29a-faede87b1907"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

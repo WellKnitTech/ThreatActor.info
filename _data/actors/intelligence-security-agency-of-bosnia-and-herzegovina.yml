@@ -1,0 +1,15 @@
+name: "Intelligence-Security Agency of Bosnia and Herzegovina"
+aliases: ["Intelligence-Security Agency of Bosnia and Herzegovina"]
+description: "Intelligence-Security Agency of Bosnia and Herzegovina (OSA)"
+url: "/intelligence-security-agency-of-bosnia-and-herzegovina"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "30ebe7f2-ecd4-50b1-9d88-d02fe2d20632"
+    source_record_ids: ["30ebe7f2-ecd4-50b1-9d88-d02fe2d20632"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

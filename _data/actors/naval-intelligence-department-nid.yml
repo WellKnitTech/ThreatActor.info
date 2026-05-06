@@ -1,0 +1,18 @@
+name: "Naval Intelligence Department (NID)"
+aliases: ["Naval Intelligence Department (NID)"]
+description: "Naval Intelligence Department (NID)"
+url: "/naval-intelligence-department-nid"
+country: "Thailand"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "RTM"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "2e87b238-a3cd-5e0a-8734-4c8fddd26179"
+    source_record_ids: ["2e87b238-a3cd-5e0a-8734-4c8fddd26179"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

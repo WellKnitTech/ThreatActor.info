@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Caramel Tsunami"
-aliases: ["SOURGUM","Candiru","Caramel Tsunami"]
+aliases: ["SOURGUM","Candiru","Caramel Tsunami","DEV-0236"]
 description: "Caramel Tsunami is a threat actor that specializes in spyware attacks. They have recently resurfaced with an updated toolset and zero-day exploits, targeting specific victims through watering hole atta"
 permalink: /caramel-tsunami/
 ---
@@ -10,7 +10,11 @@ permalink: /caramel-tsunami/
 Caramel Tsunami is a threat actor that specializes in spyware attacks. They have recently resurfaced with an updated toolset and zero-day exploits, targeting specific victims through watering hole attacks. Candiru has been observed exploiting vulnerabilities in popular browsers like Google Chrome and using third-party signed drivers to gain access to the Windows kernel. They have also been linked to other spyware vendors and have been associated with extensive abuses of their surveillance tools.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇮🇱 Israel
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -27,7 +31,8 @@ Caramel Tsunami is a threat actor that specializes in spyware attacks. They have
 - **Xploit**
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Israel
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

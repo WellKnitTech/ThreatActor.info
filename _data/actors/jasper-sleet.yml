@@ -1,0 +1,16 @@
+name: "Jasper Sleet"
+aliases: ["Storm-0287","Jasper Sleet"]
+description: "Microsoft threat actor profile. Origin/Threat: North Korea."
+url: "/jasper-sleet"
+country: "North Korea"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","microsoft-origin-threat","refs","synonyms"]
+    source_cluster: "microsoft-activity-group.json"
+    source_clusters: ["microsoft-activity-group.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
+    source_record_id: "c7b33217-b9d9-538d-8947-63dc0d89e9dc"
+    source_record_ids: ["c7b33217-b9d9-538d-8947-63dc0d89e9dc"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

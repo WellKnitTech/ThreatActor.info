@@ -1,0 +1,35 @@
+{
+  "mitre_id": "T0881",
+  "mitigations": [
+    {
+      "name": "User Account Management",
+      "mitre_id": "M0918",
+      "url": "https://attack.mitre.org/mitigations/M0918",
+      "stix_id": "course-of-action--e57ebc6d-785f-40c8-adb1-b5b5e09b3b48"
+    },
+    {
+      "name": "Restrict Registry Permissions",
+      "mitre_id": "M0924",
+      "url": "https://attack.mitre.org/mitigations/M0924",
+      "stix_id": "course-of-action--3222a807-521b-4a1a-aa13-f1cda45734b3"
+    },
+    {
+      "name": "Restrict File and Directory Permissions",
+      "mitre_id": "M0922",
+      "url": "https://attack.mitre.org/mitigations/M0922",
+      "stix_id": "course-of-action--f9fcb3ec-6de0-4559-8cd9-ef1c0c7d1971"
+    },
+    {
+      "name": "Network Segmentation",
+      "mitre_id": "M0930",
+      "url": "https://attack.mitre.org/mitigations/M0930",
+      "stix_id": "course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "mitre_id": "T1587",
+  "mitigations": [
+    {
+      "name": "Pre-compromise",
+      "mitre_id": "M1056",
+      "url": "https://attack.mitre.org/mitigations/M1056",
+      "stix_id": "course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1587.002",
+      "name": "Code Signing Certificates",
+      "permalink": "/techniques/T1587.002/"
+    },
+    {
+      "id": "T1587.003",
+      "name": "Digital Certificates",
+      "permalink": "/techniques/T1587.003/"
+    },
+    {
+      "id": "T1587.004",
+      "name": "Exploits",
+      "permalink": "/techniques/T1587.004/"
+    },
+    {
+      "id": "T1587.001",
+      "name": "Malware",
+      "permalink": "/techniques/T1587.001/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Contagious Interview",
+      "url": "/apt1052"
+    },
+    {
+      "name": "Moonstone Sleet",
+      "url": "/apt1036"
+    }
+  ]
+}

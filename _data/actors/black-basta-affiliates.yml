@@ -1,0 +1,23 @@
+name: "Black Basta Affiliates"
+aliases: ["Black Basta Affiliates"]
+description: "This Group object reflects the tools & TTPs associated with threat actors known to deploy Black Basta, a ransomware-as-a-service (RaaS) variant that researchers believe has been used since at least April 2022. Black Basta affiliates have attacked a very wide range of targets, including organizations in at least 12 out of 16 U.S. critical infrastructure sectors, including the Healthcare and Public Health (HPH) Sector.<sup>[[U.S. CISA Black Basta May 10 2024](/references/10fed6c7-4d73-49cd-9170-3f67d06365ca)]</sup>\n\nSpecific pre- and post-exploit behaviors may vary among intrusions carried out by different Black Basta affiliates. TTPs associated with the Black Basta ransomware binary itself can be found in the separate dedicated Software object."
+url: "/black-basta-affiliates"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "BlackEnergy"
+  - name: "BLACKCOFFEE"
+  - name: "Blackshades"
+  - name: "BlackNix"
+  - name: "Xploit"
+  - name: "Archelaus Beta"
+  - name: "BlackHole"
+provenance:
+  misp_galaxy:
+    meta_keys: ["group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "tidal-groups.json"
+    source_clusters: ["tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
+    source_record_id: "7f52cadb-7a12-4b9d-9290-1ef02123fbe4"
+    source_record_ids: ["7f52cadb-7a12-4b9d-9290-1ef02123fbe4"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

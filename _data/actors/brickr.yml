@@ -1,0 +1,14 @@
+name: "BrickR"
+aliases: ["BrickR"]
+description: "Ransomware"
+url: "/brickr"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "74284a53-0078-4819-817a-2283ff04e9d8"
+    source_record_ids: ["74284a53-0078-4819-817a-2283ff04e9d8"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

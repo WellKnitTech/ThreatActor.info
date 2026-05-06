@@ -1,0 +1,14 @@
+name: "BlackMoon"
+aliases: ["BlackMoon"]
+description: "ransomware"
+url: "/blackmoon"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c35de33c-8f7c-41f3-9b74-6da34a0d31c6"
+    source_record_ids: ["c35de33c-8f7c-41f3-9b74-6da34a0d31c6"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

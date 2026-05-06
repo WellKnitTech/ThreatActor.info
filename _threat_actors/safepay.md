@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "SafePay"
-aliases: ["SafePay Ransomware"]
+aliases: ["SafePay Ransomware","safepay"]
 description: "SafePay is a ransomware group particularly active in Germany, responsible for 24% of the 74 ransomware victims reported in the country during Q1 2025."
 permalink: /safepay/
 ---
@@ -31,6 +31,11 @@ SafePay is a ransomware group particularly active in Germany, responsible for 24
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
+- **Hacking Team UEFI Rootkit**: 
+- **Dark DDoSeR**: 
+- **Archelaus Beta**: 
+- **Revenge-RAT**: 
+
 ### Ransomware Tool Matrix observations
 
 | Category | Observed tools |

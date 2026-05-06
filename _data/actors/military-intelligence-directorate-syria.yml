@@ -1,0 +1,15 @@
+name: "Military Intelligence Directorate (Syria)"
+aliases: ["Military Intelligence Directorate (Syria)"]
+description: "Military Intelligence Directorate"
+url: "/military-intelligence-directorate-syria"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "7dd546bc-4d5e-5038-b13c-f0daf607114f"
+    source_record_ids: ["7dd546bc-4d5e-5038-b13c-f0daf607114f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

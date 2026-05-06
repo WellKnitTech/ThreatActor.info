@@ -1,0 +1,15 @@
+name: "mad liberator"
+aliases: ["mad liberator"]
+description: "Group is also currently known as MADDLL32 and Metatron."
+url: "/mad-liberator"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "ba1be64e-f807-570a-84a3-55e8e9fe5086"
+    source_record_ids: ["ba1be64e-f807-570a-84a3-55e8e9fe5086"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,14 @@
+name: "Fake Cerber"
+aliases: ["Fake Cerber"]
+description: "Ransomware"
+url: "/fake-cerber"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "27e5da0f-5f6c-460c-b1b7-03e78724ab07"
+    source_record_ids: ["27e5da0f-5f6c-460c-b1b7-03e78724ab07"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,104 @@
+{
+  "mitre_id": "T1564",
+  "mitigations": [
+    {
+      "name": "Limit Software Installation",
+      "mitre_id": "M1033",
+      "url": "https://attack.mitre.org/mitigations/M1033",
+      "stix_id": "course-of-action--23843cff-f7b9-4659-a7b7-713ef347f547"
+    },
+    {
+      "name": "Application Developer Guidance",
+      "mitre_id": "M1013",
+      "url": "https://attack.mitre.org/mitigations/M1013",
+      "stix_id": "course-of-action--25dc1ce8-eb55-4333-ae30-a7cb4f5894a1"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "Antivirus/Antimalware",
+      "mitre_id": "M1049",
+      "url": "https://attack.mitre.org/mitigations/M1049",
+      "stix_id": "course-of-action--a6a47a06-08fc-4ec4-bdc3-20373375ebb9"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1564.003",
+      "name": "Hidden Window",
+      "permalink": "/techniques/T1564.003/"
+    },
+    {
+      "id": "T1564.011",
+      "name": "Ignore Process Interrupts",
+      "permalink": "/techniques/T1564.011/"
+    },
+    {
+      "id": "T1564.002",
+      "name": "Hidden Users",
+      "permalink": "/techniques/T1564.002/"
+    },
+    {
+      "id": "T1564.012",
+      "name": "File/Path Exclusions",
+      "permalink": "/techniques/T1564.012/"
+    },
+    {
+      "id": "T1564.014",
+      "name": "Extended Attributes",
+      "permalink": "/techniques/T1564.014/"
+    },
+    {
+      "id": "T1564.008",
+      "name": "Email Hiding Rules",
+      "permalink": "/techniques/T1564.008/"
+    },
+    {
+      "id": "T1564.009",
+      "name": "Resource Forking",
+      "permalink": "/techniques/T1564.009/"
+    },
+    {
+      "id": "T1564.013",
+      "name": "Bind Mounts",
+      "permalink": "/techniques/T1564.013/"
+    },
+    {
+      "id": "T1564.006",
+      "name": "Run Virtual Instance",
+      "permalink": "/techniques/T1564.006/"
+    },
+    {
+      "id": "T1564.010",
+      "name": "Process Argument Spoofing",
+      "permalink": "/techniques/T1564.010/"
+    },
+    {
+      "id": "T1564.001",
+      "name": "Hidden Files and Directories",
+      "permalink": "/techniques/T1564.001/"
+    },
+    {
+      "id": "T1564.004",
+      "name": "NTFS File Attributes",
+      "permalink": "/techniques/T1564.004/"
+    },
+    {
+      "id": "T1564.007",
+      "name": "VBA Stomping",
+      "permalink": "/techniques/T1564.007/"
+    },
+    {
+      "id": "T1564.005",
+      "name": "Hidden File System",
+      "permalink": "/techniques/T1564.005/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

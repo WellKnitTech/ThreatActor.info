@@ -1,0 +1,23 @@
+{
+  "mitre_id": "T0880",
+  "mitigations": [
+    {
+      "name": "Safety Instrumented Systems",
+      "mitre_id": "M0812",
+      "url": "https://attack.mitre.org/mitigations/M0812",
+      "stix_id": "course-of-action--da44255d-85c5-492c-baf3-ee823d44f848"
+    },
+    {
+      "name": "Mechanical Protection Layers",
+      "mitre_id": "M0805",
+      "url": "https://attack.mitre.org/mitigations/M0805",
+      "stix_id": "course-of-action--8bc4a54e-810c-4600-8b6c-08fa8413a401"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

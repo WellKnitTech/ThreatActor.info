@@ -1,0 +1,14 @@
+name: "CCECrypt"
+aliases: ["CCECrypt"]
+description: "ransomware"
+url: "/ccecrypt"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "55d3f7c0-7aa8-4b0e-b0f9-86dd68c78968"
+    source_record_ids: ["55d3f7c0-7aa8-4b0e-b0f9-86dd68c78968"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

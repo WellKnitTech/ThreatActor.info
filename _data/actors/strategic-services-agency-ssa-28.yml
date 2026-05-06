@@ -1,0 +1,16 @@
+name: "Strategic Services Agency (SSA)[28]"
+aliases: ["Strategic Services Agency (SSA)[28]"]
+description: "Strategic Services Agency (SSA)[28]"
+url: "/strategic-services-agency-ssa-28"
+country: "Trinidad and Tobago"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "2db0ade5-b8ce-5b4c-a193-53dc123c842b"
+    source_record_ids: ["2db0ade5-b8ce-5b4c-a193-53dc123c842b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

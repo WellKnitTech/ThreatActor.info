@@ -1,0 +1,16 @@
+name: "Dirección de Observaciones Judiciales"
+aliases: ["Dirección de Observaciones Judiciales"]
+description: "Directorate of Judicial Surveillance (DOJ) – Dirección de Observaciones Judiciales"
+url: "/direcci-n-de-observaciones-judiciales"
+country: "Argentina"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "d6da478d-a7ba-570b-86ae-e83ae12ecec5"
+    source_record_ids: ["d6da478d-a7ba-570b-86ae-e83ae12ecec5"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

@@ -1,0 +1,14 @@
+name: "Dviide"
+aliases: ["Dviide"]
+description: "Ransomware"
+url: "/dviide"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c14d0a23-5394-4a51-b3d6-7602b4b8d6ac"
+    source_record_ids: ["c14d0a23-5394-4a51-b3d6-7602b4b8d6ac"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

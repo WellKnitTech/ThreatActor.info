@@ -1,0 +1,16 @@
+name: "Al Mukhabarat Al A'amah"
+aliases: ["Al Mukhabarat Al A'amah"]
+description: "General Intelligence Presidency (GIP) – رئاسة الاستخبارات العامة"
+url: "/al-mukhabarat-al-a-amah"
+country: "Saudi Arabia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "3f807875-2ac2-5a2d-98fb-ec7d512184da"
+    source_record_ids: ["3f807875-2ac2-5a2d-98fb-ec7d512184da"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

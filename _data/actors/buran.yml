@@ -1,0 +1,18 @@
+name: "Buran"
+aliases: ["Buran"]
+description: "Buran is a new version of the Vega ransomware strain (a.k.a. Jamper, Ghost, Buhtrap) that attacked accountants from February through April 2019. The new Buran ransomware first was discovered by nao_sec in June 2019, delivered by the RIG Exploit Kit, as reported by BleepingComputer."
+url: "/buran"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Xploit"
+  - name: "Ghost"
+provenance:
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "a92b2165-29e7-463a-b3d5-c8b7d8a25f65"
+    source_record_ids: ["a92b2165-29e7-463a-b3d5-c8b7d8a25f65"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

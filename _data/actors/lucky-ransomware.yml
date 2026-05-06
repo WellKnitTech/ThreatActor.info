@@ -1,0 +1,15 @@
+name: "Lucky Ransomware"
+aliases: ["Lucky Ransomware"]
+description: "Michael Gillespie discovered a new ransomware that renamed encrypted files to \"[[email]][original].[random].lucky\" and drops a ransom note named _How_To_Decrypt_My_File_.txt."
+url: "/lucky-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "a8eb9743-dfb6-4e13-a95e-e68153df94e9"
+    source_record_ids: ["a8eb9743-dfb6-4e13-a95e-e68153df94e9"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

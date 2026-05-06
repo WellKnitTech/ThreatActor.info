@@ -1,0 +1,15 @@
+name: "Unnamed ramsomware 1"
+aliases: ["Unnamed ramsomware 1"]
+description: "A new in-development ransomware was discovered that has an interesting characteristic. Instead of the distributed executable performing the ransomware functionality, the executables compiles an embedded encrypted C# program at runtime and launches it directly into memory."
+url: "/unnamed-ramsomware-1"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "c1788ac0-4fa0-11e8-b0fd-63f5a2914926"
+    source_record_ids: ["c1788ac0-4fa0-11e8-b0fd-63f5a2914926"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

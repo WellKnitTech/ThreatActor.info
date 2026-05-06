@@ -1,0 +1,16 @@
+name: "Indonesian Financial Transaction Reports and Analysis Center"
+aliases: ["Pusat Pelaporan dan Analisis Transaksi Keuangan","Indonesian Financial Transaction Reports and Analysis Center"]
+description: "Indonesian Financial Transaction Reports and Analysis Center (PPATK) – Pusat Pelaporan dan Analisis Transaksi Keuangan"
+url: "/indonesian-financial-transaction-reports-and-analysis-center"
+country: "Indonesia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "8c42be24-c916-5bf7-a721-945d9dc60f6c"
+    source_record_ids: ["8c42be24-c916-5bf7-a721-945d9dc60f6c"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

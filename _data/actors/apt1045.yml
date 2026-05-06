@@ -1,13 +1,36 @@
 name: "Salt Typhoon"
-aliases: ["Salt Typhoon"]
+aliases: ["Salt Typhoon","OPERATOR PANDA","GhostEmperor","FamousSparrow","UNC2286","RedMike"]
 description: "Salt Typhoon is a People's Republic of China (PRC) state-backed actor that has been active since at least 2019 and responsible for numerous compromises of network infrastructure at major U.S. telecommunication and internet service providers (ISP). [US Dept. of Treasury Salt Typhoon JAN 2025](https://home.treasury.gov/news/press-releases/jy2792) [Cisco Salt Typhoon FEB 2025](https://blog.talosintelligence.com/salt-typhoon-analysis/)\n"
 url: "/apt1045"
+country: "China"
 external_id: "G1045"
 external_url: "https://attack.mitre.org/groups/G1045"
 mitre_id: "G1045"
 mitre_url: "https://attack.mitre.org/groups/G1045"
+source_name: "MISP Galaxy"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ghostemperor"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "China Chopper"
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "ghostemperor"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ghostemperor"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "3c3ca8f3-c6ab-4c5d-9bd0-be6677d6cdeb"
+  misp_galaxy:
+    meta_keys: ["country","microsoft-origin-threat","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories"]
+    source_cluster: "microsoft-activity-group.json"
+    source_clusters: ["microsoft-activity-group.json","tidal-groups.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
+    source_record_id: "3b357ed0-c50c-5793-b0e9-e60ada7a50e5"
+    source_record_ids: ["3b357ed0-c50c-5793-b0e9-e60ada7a50e5","759dcc8f-01ae-503f-922f-b144cd54ea15"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1045"

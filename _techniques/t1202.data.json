@@ -1,0 +1,19 @@
+{
+  "mitre_id": "T1202",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    },
+    {
+      "name": "RedCurl",
+      "url": "/apt1039"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+name: "Information and Security Service of the Republic of Moldova"
+aliases: ["Information and Security Service of the Republic of Moldova"]
+description: "Information and Security Service (SIS)[18]"
+url: "/information-and-security-service-of-the-republic-of-moldova"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "62e7a6e8-af0c-5b9e-92f2-84cff5a3de09"
+    source_record_ids: ["62e7a6e8-af0c-5b9e-92f2-84cff5a3de09"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

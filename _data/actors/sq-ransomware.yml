@@ -1,0 +1,15 @@
+name: "SQ_ Ransomware"
+aliases: ["VO_ Ransomware","SQ_ Ransomware"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc… This hacker requests 4 bitcoins for ransom."
+url: "/sq-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes-refs","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "5024f328-2595-4dbd-9007-218147e55d5f"
+    source_record_ids: ["5024f328-2595-4dbd-9007-218147e55d5f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

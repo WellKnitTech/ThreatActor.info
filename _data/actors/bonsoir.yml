@@ -1,0 +1,15 @@
+name: "Bonsoir"
+aliases: ["Bonsoir"]
+description: "ransomware"
+url: "/bonsoir"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "93e45f39-ee69-4907-b7c7-2eb406313b53"
+    source_record_ids: ["93e45f39-ee69-4907-b7c7-2eb406313b53"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

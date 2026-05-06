@@ -1,0 +1,14 @@
+name: "Crylock"
+aliases: ["Crylock"]
+description: "CryLock is a ransomware variant that emerged around April 2020, evolving from the Cryakl (Fantomas) ransomware family. It follows a semi-affiliate model, offering customizable options for partners—such as variable encryption routines, network scanning for lateral movement, shadow copy deletion, and process termination—and flexible delivery methods. During encryption, CryLock renames files to include the developer email, a unique victim ID, and a randomized three-letter extension. Victims typically encounter a countdown timer in a pop-up ransom message that warns about escalating ransom costs and potential loss of decryption capabilities."
+url: "/crylock"
+source_name: "RansomLook"
+source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
+source_record_url: "https://www.ransomlook.io/group/crylock"
+source_license: "CC BY 4.0"
+source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+provenance:
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "crylock"
+  source_retrieved_at: "2026-05-06T21:57:50Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

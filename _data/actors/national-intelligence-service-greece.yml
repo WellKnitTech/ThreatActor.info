@@ -1,0 +1,16 @@
+name: "National Intelligence Service (Greece)"
+aliases: ["Εθνική Υπηρεσία Πληροφοριών","National Intelligence Service (Greece)"]
+description: "National Intelligence Service (ΕΥΠ) – Εθνική Υπηρεσία Πληροφοριών"
+url: "/national-intelligence-service-greece"
+country: "Greece"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "02c5459b-49d8-5169-b3a0-377b0814edec"
+    source_record_ids: ["02c5459b-49d8-5169-b3a0-377b0814edec"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

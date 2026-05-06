@@ -4,7 +4,16 @@ description: "While Volexity largely observed the attacker essentially living of
 url: "/uta0178"
 country: "China"
 targeted_victims: ["Germany"]
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/uta0178"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "CloudDuke"
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+  - name: "Xploit"
 provenance:
   bushido_breach_reports:
     reports:
@@ -17,7 +26,17 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
     source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
     source_retrieved_at: "2026-04-28T01:40:03Z"
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "uta0178"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/uta0178"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "f288f686-b5b3-4c86-9960-5f8fb18709a3"
   misp_galaxy:
+    meta_keys: ["cfr-suspected-victims","country","origin:UNC5221","refs","synonyms","group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","tidal-groups.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "f288f686-b5b3-4c86-9960-5f8fb18709a3"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["f288f686-b5b3-4c86-9960-5f8fb18709a3","71e9b27e-8d68-4ed6-b3ab-14142558b9ff"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

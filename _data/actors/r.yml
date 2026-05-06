@@ -1,0 +1,15 @@
+name: "R"
+aliases: ["NM3","R"]
+description: "Ransomware"
+url: "/r"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["payment-method","price","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "f7cd8956-2825-4104-94b1-e9589ab1089a"
+    source_record_ids: ["f7cd8956-2825-4104-94b1-e9589ab1089a"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

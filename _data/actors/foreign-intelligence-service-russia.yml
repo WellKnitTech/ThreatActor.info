@@ -1,0 +1,16 @@
+name: "Foreign Intelligence Service (Russia)"
+aliases: ["Служба Внешней Разведки","Foreign Intelligence Service (Russia)"]
+description: "Foreign Intelligence Service (Russia) (SVR) – Служба Внешней Разведки"
+url: "/foreign-intelligence-service-russia"
+country: "Russia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "0a8d9f63-be4d-5a7f-b3ff-70cda1571eea"
+    source_record_ids: ["0a8d9f63-be4d-5a7f-b3ff-70cda1571eea"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

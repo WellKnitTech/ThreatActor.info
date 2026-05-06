@@ -3,10 +3,24 @@ aliases: ["Dark Engine","Infrastructure Destruction Squad"]
 description: "Dark Engine has emerged as a significant threat actor targeting industrial control systems and SCADA systems in sectors such as metallurgy and food processing. The group has conducted multiple ICS-targeted incidents, with a pronounced operational surge in June 2025. Additionally, Dark Engine is involved in a campaign that embeds fraudulent CAPTCHA prompts into legitimate WordPress sites, utilizing SEO poisoning to harvest login credentials. Reports also indicate a data leak from Dark Engine that exposed sensitive phone data in the U.S."
 url: "/infrastructure-destruction-squad"
 country: "Russia"
+source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/infrastructure_destruction_squad"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["PoisonIvy","Dark DDoSeR"]
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "infrastructure_destruction_squad"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/infrastructure_destruction_squad"
+    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_uuid: "f1622e18-f1dc-40b4-aca9-992e29b8fb40"
   misp_galaxy:
+    meta_keys: ["country","refs","synonyms"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "f1622e18-f1dc-40b4-aca9-992e29b8fb40"
-    source_retrieved_at: "2026-04-26T05:47:15Z"
+    source_record_ids: ["f1622e18-f1dc-40b4-aca9-992e29b8fb40"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

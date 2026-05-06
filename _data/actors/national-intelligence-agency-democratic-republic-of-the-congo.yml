@@ -1,0 +1,15 @@
+name: "National Intelligence Agency (Democratic Republic of the Congo)"
+aliases: ["National Intelligence Agency (Democratic Republic of the Congo)"]
+description: "National Intelligence Agency (ANR)"
+url: "/national-intelligence-agency-democratic-republic-of-the-congo"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "8a9531c6-64a8-5a9d-8b41-ce28aa6347a9"
+    source_record_ids: ["8a9531c6-64a8-5a9d-8b41-ce28aa6347a9"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

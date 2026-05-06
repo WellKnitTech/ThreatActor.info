@@ -1,0 +1,29 @@
+name: "DN"
+aliases: ["Fake","DN"]
+description: "It’s directed to English speaking users, therefore is able to infect worldwide.  Uses the name “Chrome Update” to confuse its victims. Then imitates the chrome update process ,while encrypting the files. DO NOT pay the ransom, since YOUR COMPUTER WILL NOT BE RESTORED FROM THIS MALWARE!!!!"
+url: "/dn"
+first_seen: "2015"
+last_activity: "2015"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Chrome Remote Desktop"
+provenance:
+  aptnotes:
+    earliest_report_year: "2015"
+    latest_report_year: "2015"
+    report_count: 1
+    sample_links: ["https://app.box.com/s/w32vcrjpq3fj0fg0t8c5gwmy0olwnmnd"]
+    sample_titles: ["Hacker Group Creates Network of Fake LinkedIn Profiles"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-06T22:01:18Z"
+    sources: ["Secureworks"]
+  misp_galaxy:
+    meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes-refs","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "327eb8b4-5793-42f0-96c0-7f651a0debdc"
+    source_record_ids: ["327eb8b4-5793-42f0-96c0-7f651a0debdc"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

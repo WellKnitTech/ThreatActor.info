@@ -1,0 +1,15 @@
+name: "Security and Intelligence Agency"
+aliases: ["Security and Intelligence Agency"]
+description: "Sigurnosno-obavještajna agencija (SOA) (Security and Intelligence Agency)"
+url: "/security-and-intelligence-agency"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "a0b334be-901f-54fd-b165-51d9e0c67c40"
+    source_record_ids: ["a0b334be-901f-54fd-b165-51d9e0c67c40"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

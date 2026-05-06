@@ -1,0 +1,195 @@
+{
+  "mitre_id": "T1027",
+  "mitigations": [
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "Behavior Prevention on Endpoint",
+      "mitre_id": "M1040",
+      "url": "https://attack.mitre.org/mitigations/M1040",
+      "stix_id": "course-of-action--90f39ee1-d5a3-4aaa-9f28-3b42815b0d46"
+    },
+    {
+      "name": "User Training",
+      "mitre_id": "M1017",
+      "url": "https://attack.mitre.org/mitigations/M1017",
+      "stix_id": "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a"
+    },
+    {
+      "name": "Antivirus/Antimalware",
+      "mitre_id": "M1049",
+      "url": "https://attack.mitre.org/mitigations/M1049",
+      "stix_id": "course-of-action--a6a47a06-08fc-4ec4-bdc3-20373375ebb9"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1027.005",
+      "name": "Indicator Removal from Tools",
+      "permalink": "/techniques/T1027.005/"
+    },
+    {
+      "id": "T1027.009",
+      "name": "Embedded Payloads",
+      "permalink": "/techniques/T1027.009/"
+    },
+    {
+      "id": "T1027.013",
+      "name": "Encrypted/Encoded File",
+      "permalink": "/techniques/T1027.013/"
+    },
+    {
+      "id": "T1027.012",
+      "name": "LNK Icon Smuggling",
+      "permalink": "/techniques/T1027.012/"
+    },
+    {
+      "id": "T1027.017",
+      "name": "SVG Smuggling",
+      "permalink": "/techniques/T1027.017/"
+    },
+    {
+      "id": "T1027.018",
+      "name": "Invisible Unicode",
+      "permalink": "/techniques/T1027.018/"
+    },
+    {
+      "id": "T1027.006",
+      "name": "HTML Smuggling",
+      "permalink": "/techniques/T1027.006/"
+    },
+    {
+      "id": "T1027.011",
+      "name": "Fileless Storage",
+      "permalink": "/techniques/T1027.011/"
+    },
+    {
+      "id": "T1027.014",
+      "name": "Polymorphic Code",
+      "permalink": "/techniques/T1027.014/"
+    },
+    {
+      "id": "T1027.010",
+      "name": "Command Obfuscation",
+      "permalink": "/techniques/T1027.010/"
+    },
+    {
+      "id": "T1027.004",
+      "name": "Compile After Delivery",
+      "permalink": "/techniques/T1027.004/"
+    },
+    {
+      "id": "T1027.007",
+      "name": "Dynamic API Resolution",
+      "permalink": "/techniques/T1027.007/"
+    },
+    {
+      "id": "T1027.003",
+      "name": "Steganography",
+      "permalink": "/techniques/T1027.003/"
+    },
+    {
+      "id": "T1027.015",
+      "name": "Compression",
+      "permalink": "/techniques/T1027.015/"
+    },
+    {
+      "id": "T1027.016",
+      "name": "Junk Code Insertion",
+      "permalink": "/techniques/T1027.016/"
+    },
+    {
+      "id": "T1027.008",
+      "name": "Stripped Payloads",
+      "permalink": "/techniques/T1027.008/"
+    },
+    {
+      "id": "T1027.002",
+      "name": "Software Packing",
+      "permalink": "/techniques/T1027.002/"
+    },
+    {
+      "id": "T1027.001",
+      "name": "Binary Padding",
+      "permalink": "/techniques/T1027.001/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "BackdoorDiplomacy",
+      "url": "/apt0135"
+    },
+    {
+      "name": "RedCurl",
+      "url": "/apt1039"
+    },
+    {
+      "name": "Rocke",
+      "url": "/apt0106"
+    },
+    {
+      "name": "GALLIUM",
+      "url": "/apt0093"
+    },
+    {
+      "name": "Gallmaker",
+      "url": "/apt0084"
+    },
+    {
+      "name": "BlackOasis",
+      "url": "/apt0063"
+    },
+    {
+      "name": "APT3",
+      "url": "/apt0022"
+    },
+    {
+      "name": "APT-C-36",
+      "url": "/apt0099"
+    },
+    {
+      "name": "Windshift",
+      "url": "/apt0112"
+    },
+    {
+      "name": "Ke3chang",
+      "url": "/apt0004"
+    },
+    {
+      "name": "APT37",
+      "url": "/apt0067"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "Moonstone Sleet",
+      "url": "/apt1036"
+    },
+    {
+      "name": "Mustang Panda",
+      "url": "/apt0129"
+    },
+    {
+      "name": "Sandworm Team",
+      "url": "/apt0034"
+    },
+    {
+      "name": "Earth Lusca",
+      "url": "/apt1006"
+    },
+    {
+      "name": "Gamaredon Group",
+      "url": "/apt0047"
+    },
+    {
+      "name": "APT41",
+      "url": "/apt41"
+    }
+  ]
+}

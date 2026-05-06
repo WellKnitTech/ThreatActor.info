@@ -1,0 +1,14 @@
+name: "Stroman"
+aliases: ["Stroman"]
+description: "ransomware"
+url: "/stroman"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "1ae8b4dd-eaef-4181-a699-02536aece63d"
+    source_record_ids: ["1ae8b4dd-eaef-4181-a699-02536aece63d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

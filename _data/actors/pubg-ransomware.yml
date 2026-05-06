@@ -1,0 +1,18 @@
+name: "PUBG Ransomware"
+aliases: ["PUBG Ransomware"]
+description: "In what could only be a joke, a new ransomware has been discovered called \"PUBG Ransomware\" that will decrypt your files if you play the game called PlayerUnknown's Battlegrounds. Discovered by MalwareHunterTeam, when the PUBG Ransomware is launched it will encrypt a user's files and folders on the user's desktop and append the .PUBG extension to them. When it has finished encrypting the files, it will display a screen giving you two methods that you can use to decrypt the encrypted files."
+url: "/pubg-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Unknown Logger"
+  - name: "DesktopNow"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","price","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "2239b3ca-3c9b-11e8-873e-53608d51ee71"
+    source_record_ids: ["2239b3ca-3c9b-11e8-873e-53608d51ee71"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

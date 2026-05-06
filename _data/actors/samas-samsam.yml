@@ -1,0 +1,15 @@
+name: "Samas-Samsam"
+aliases: ["samsam.exe","MIKOPONI.exe","RikiRafael.exe","showmehowto.exe","SamSam Ransomware","SamSam","Samsam","Samas","Samas-Samsam"]
+description: "Ransomware Targeted attacks -Jexboss -PSExec -Hyena"
+url: "/samas-samsam"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["encryption","extensions","links","payment-method","price","ransomnotes-filenames","refs","synonyms"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "731e4a5e-35f2-47b1-80ba-150b95fdc14d"
+    source_record_ids: ["731e4a5e-35f2-47b1-80ba-150b95fdc14d"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

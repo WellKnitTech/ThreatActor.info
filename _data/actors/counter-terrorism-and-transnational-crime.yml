@@ -1,0 +1,15 @@
+name: "Counter Terrorism and Transnational Crime"
+aliases: ["Counter Terrorism and Transnational Crime"]
+description: "Counter Terrorism and Transnational Crime (CTTC)"
+url: "/counter-terrorism-and-transnational-crime"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "e0c35aa8-60e9-5cba-8aa2-d6ccbf8fa365"
+    source_record_ids: ["e0c35aa8-60e9-5cba-8aa2-d6ccbf8fa365"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

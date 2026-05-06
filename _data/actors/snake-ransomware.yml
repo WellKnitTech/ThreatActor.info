@@ -1,0 +1,15 @@
+name: "Snake Ransomware"
+aliases: ["Snake Ransomware"]
+description: "Snake ransomware first attracted the attention of malware analysts in January 2020 when they observed the crypto-malware family targeting entire corporate networks.\nShortly after this discovery, the threat quieted down. It produced few new detected infections in the wild for the next few months. That was until May 4, when ID Ransomware registered a sudden spike in submissions for the ransomware."
+url: "/snake-ransomware"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["ransomnotes-filenames","ransomnotes-refs","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "e390e1bb-2af1-4139-8e61-6e534d707dfb"
+    source_record_ids: ["e390e1bb-2af1-4139-8e61-6e534d707dfb"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

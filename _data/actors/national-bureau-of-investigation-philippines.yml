@@ -1,0 +1,16 @@
+name: "National Bureau of Investigation (Philippines)"
+aliases: ["Pambansang Kawanihan ng Pagsisiyasat","National Bureau of Investigation (Philippines)"]
+description: "National Bureau of Investigation (NBI) – Pambansang Kawanihan ng Pagsisiyasat"
+url: "/national-bureau-of-investigation-philippines"
+country: "Philippines"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs","synonyms"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "c266d6c5-6dc9-5e26-a427-bf4965bc9324"
+    source_record_ids: ["c266d6c5-6dc9-5e26-a427-bf4965bc9324"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

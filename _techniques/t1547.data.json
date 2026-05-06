@@ -1,0 +1,84 @@
+{
+  "mitre_id": "T1547",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+    {
+      "id": "T1547.009",
+      "name": "Shortcut Modification",
+      "permalink": "/techniques/T1547.009/"
+    },
+    {
+      "id": "T1547.006",
+      "name": "Kernel Modules and Extensions",
+      "permalink": "/techniques/T1547.006/"
+    },
+    {
+      "id": "T1547.007",
+      "name": "Re-opened Applications",
+      "permalink": "/techniques/T1547.007/"
+    },
+    {
+      "id": "T1547.004",
+      "name": "Winlogon Helper DLL",
+      "permalink": "/techniques/T1547.004/"
+    },
+    {
+      "id": "T1547.005",
+      "name": "Security Support Provider",
+      "permalink": "/techniques/T1547.005/"
+    },
+    {
+      "id": "T1547.001",
+      "name": "Registry Run Keys / Startup Folder",
+      "permalink": "/techniques/T1547.001/"
+    },
+    {
+      "id": "T1547.008",
+      "name": "LSASS Driver",
+      "permalink": "/techniques/T1547.008/"
+    },
+    {
+      "id": "T1547.012",
+      "name": "Print Processors",
+      "permalink": "/techniques/T1547.012/"
+    },
+    {
+      "id": "T1547.014",
+      "name": "Active Setup",
+      "permalink": "/techniques/T1547.014/"
+    },
+    {
+      "id": "T1547.015",
+      "name": "Login Items",
+      "permalink": "/techniques/T1547.015/"
+    },
+    {
+      "id": "T1547.013",
+      "name": "XDG Autostart Entries",
+      "permalink": "/techniques/T1547.013/"
+    },
+    {
+      "id": "T1547.003",
+      "name": "Time Providers",
+      "permalink": "/techniques/T1547.003/"
+    },
+    {
+      "id": "T1547.002",
+      "name": "Authentication Package",
+      "permalink": "/techniques/T1547.002/"
+    },
+    {
+      "id": "T1547.010",
+      "name": "Port Monitors",
+      "permalink": "/techniques/T1547.010/"
+    }
+  ],
+  "groups": [
+    {
+      "name": "APT42",
+      "url": "/apt1044"
+    }
+  ]
+}

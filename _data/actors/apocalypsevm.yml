@@ -1,0 +1,17 @@
+name: "ApocalypseVM"
+aliases: ["ApocalypseVM"]
+description: "Ransomware Apocalypse ransomware version which uses VMprotect"
+url: "/apocalypsevm"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Apocalypse"
+provenance:
+  misp_galaxy:
+    meta_keys: ["extensions","payment-method","ransomnotes-filenames","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "5bc9c3a5-a35f-43aa-a999-fc7cd0685994"
+    source_record_ids: ["5bc9c3a5-a35f-43aa-a999-fc7cd0685994"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

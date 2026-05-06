@@ -1,0 +1,18 @@
+name: "MegaCortex"
+aliases: ["MegaCortex"]
+description: "Discovered in May 2019. dropped throught networks compromised by trojan like Emotet or TrickBot. Tools and methods used are similar to LockerGoga"
+url: "/megacortex"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "Trojan.Karagany"
+  - name: "Trojan.Mebromi"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "f1041289-f42b-416f-b649-7bb8e543011f"
+    source_record_ids: ["f1041289-f42b-416f-b649-7bb8e543011f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

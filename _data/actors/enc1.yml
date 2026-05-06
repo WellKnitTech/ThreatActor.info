@@ -1,0 +1,14 @@
+name: "Enc1"
+aliases: ["Enc1"]
+description: "Ransomware"
+url: "/enc1"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "5f47e7f6-b872-443c-83d5-5993dca85e0b"
+    source_record_ids: ["5f47e7f6-b872-443c-83d5-5993dca85e0b"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

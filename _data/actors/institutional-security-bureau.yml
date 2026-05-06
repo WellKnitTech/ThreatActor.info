@@ -1,0 +1,16 @@
+name: "Institutional Security Bureau"
+aliases: ["Institutional Security Bureau"]
+description: "Gabinete de Segurança Institucional (Institutional Security Bureau) (GSI) Responds directly to the president's office and the armed forces. Coordinates some intelligence operations."
+url: "/institutional-security-bureau"
+country: "Brazil"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "c4902289-f024-5cae-9593-a9b2c5bbcc2f"
+    source_record_ids: ["c4902289-f024-5cae-9593-a9b2c5bbcc2f"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

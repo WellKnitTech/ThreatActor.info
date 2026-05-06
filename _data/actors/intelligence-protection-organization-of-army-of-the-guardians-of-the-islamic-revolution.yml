@@ -1,0 +1,16 @@
+name: "Intelligence Protection Organization of Army of the Guardians of the Islamic Revolution"
+aliases: ["Intelligence Protection Organization of Army of the Guardians of the Islamic Revolution"]
+description: "Intelligence Protection Organization of IRGC (SAHEFASA)"
+url: "/intelligence-protection-organization-of-army-of-the-guardians-of-the-islamic-revolution"
+country: "Iran"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+provenance:
+  misp_galaxy:
+    meta_keys: ["country","country_name","refs"]
+    source_cluster: "intelligence-agencies.json"
+    source_clusters: ["intelligence-agencies.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
+    source_record_id: "82947bb1-4702-5c23-8d8a-aed56968e6df"
+    source_record_ids: ["82947bb1-4702-5c23-8d8a-aed56968e6df"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"

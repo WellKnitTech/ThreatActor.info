@@ -1,0 +1,26 @@
+{
+  "mitre_id": "T1521",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+    {
+      "id": "T1521.002",
+      "name": "Asymmetric Cryptography",
+      "permalink": "/techniques/T1521.002/"
+    },
+    {
+      "id": "T1521.001",
+      "name": "Symmetric Cryptography",
+      "permalink": "/techniques/T1521.001/"
+    },
+    {
+      "id": "T1521.003",
+      "name": "SSL Pinning",
+      "permalink": "/techniques/T1521.003/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

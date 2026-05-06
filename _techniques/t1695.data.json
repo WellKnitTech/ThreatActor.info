@@ -1,0 +1,43 @@
+{
+  "mitre_id": "T1695",
+  "mitigations": [
+    {
+      "name": "Out-of-Band Communications Channel",
+      "mitre_id": "M0810",
+      "url": "https://attack.mitre.org/mitigations/M0810",
+      "stix_id": "course-of-action--b11cad63-ef30-4eb8-af0d-6cc46eef3f3e"
+    },
+    {
+      "name": "Network Segmentation",
+      "mitre_id": "M0930",
+      "url": "https://attack.mitre.org/mitigations/M0930",
+      "stix_id": "course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291"
+    },
+    {
+      "name": "Network Allowlists",
+      "mitre_id": "M0807",
+      "url": "https://attack.mitre.org/mitigations/M0807",
+      "stix_id": "course-of-action--aadac250-bcdc-44e3-a4ae-f52bd0a7a16a"
+    }
+  ],
+  "subtechniques": [
+    {
+      "id": "T1695.003",
+      "name": "Wi-Fi",
+      "permalink": "/techniques/T1695.003/"
+    },
+    {
+      "id": "T1695.001",
+      "name": "Serial COM",
+      "permalink": "/techniques/T1695.001/"
+    },
+    {
+      "id": "T1695.002",
+      "name": "Ethernet",
+      "permalink": "/techniques/T1695.002/"
+    }
+  ],
+  "groups": [
+
+  ]
+}

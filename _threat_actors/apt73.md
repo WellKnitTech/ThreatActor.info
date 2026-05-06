@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT73"
-aliases: ["Eraleig","APT73"]
+aliases: ["Eraleig","APT73","Apt73","Eraleign"]
 description: "APT73 is a ransomware group that has publicly identified 12 victims and launched its data leak site on April 25th. The DLS bears a striking resemblance to that of LockBit, likely to leverage LockBit's "
 permalink: /apt73/
 ---
@@ -22,7 +22,7 @@ APT73 is a ransomware group that has publicly identified 12 victims and launched
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Dark DDoSeR**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

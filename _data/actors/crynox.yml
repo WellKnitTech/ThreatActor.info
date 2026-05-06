@@ -1,0 +1,17 @@
+name: "crynox"
+aliases: ["crynox"]
+description: "Crynox (sometimes referred to as “Crynox Ransomware”) appears to be a generic file-locker threat that appends .crynox to encrypted files and drops a ransom note (read_it.txt) instructing victims to contact crynoxWARE@proton.me. It seems to use RSA-4096 and AES for encryption and may change desktop wallpaper, but there's no evidence of double-extortion or leak site operation. Distribution methods cited include phishing, pirated software, and malicious websites."
+url: "/crynox"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "DesktopNow"
+provenance:
+  misp_galaxy:
+    meta_keys: ["links","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "b6d42dc1-d764-55bd-ac48-4f2d5cc9366e"
+    source_record_ids: ["b6d42dc1-d764-55bd-ac48-4f2d5cc9366e"]
+    source_retrieved_at: "2026-05-06T22:01:13Z"
