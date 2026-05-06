@@ -46,6 +46,7 @@ jobs:
       env:
         SOURCE: ${{ github.event.inputs.source || '' }}
         LIMIT: ${{ github.event.inputs.limit || '' }}
+        THREATFOX_API_KEY: ${{ secrets.THREATFOX_API_KEY }}
       run: |
         args=(--apply --date "$(date -u +%F)")
         if [ -n "$SOURCE" ]; then

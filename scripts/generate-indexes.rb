@@ -455,7 +455,16 @@ class ThreatActorIndexGenerator
       attack_mapping_count: attack_mappings.values.flatten.length,
       mitre_ttps: actor['ttps'] || [],
       mitre_software: actor['software'] || [],
-      mitre_campaigns_yaml: actor['campaigns'] || []
+      mitre_campaigns_yaml: actor['campaigns'] || [],
+      # Denormalized ATT&CK / enrichment (YAML); ioc_count remains derived from merged IOC rows.
+      attck_techniques: actor['attck_techniques'] || [],
+      attck_software: actor['attck_software'] || [],
+      attck_references: actor['attck_references'] || [],
+      sources: actor['sources'] || [],
+      confidence: actor['confidence'],
+      victim_countries: actor['victim_countries'] || [],
+      targeted_sectors: actor['targeted_sectors'] || [],
+      iocs_count_yaml: actor['iocs_count']
     }
   end
 
@@ -2063,7 +2072,9 @@ BODY
           name: a[:name],
           permalink: a[:permalink],
           description: a[:description].to_s[0..280],
-          country: a[:country]
+          country: a[:country],
+          attck_techniques: Array(a[:attck_techniques]).map(&:to_s).first(24),
+          targeted_sectors: Array(a[:targeted_sectors]).map(&:to_s).first(12)
         }
       end,
       techniques: technique_documents.map do |t|

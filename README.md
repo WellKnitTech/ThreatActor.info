@@ -16,6 +16,7 @@ Live site: https://wellknittech.github.io/ThreatActor.info/
 - Generates static API artifacts in `_data/generated/*.json` and `api/*.json`
 - Extracts malware, campaigns, ATT&CK mappings, references, and IOCs from actor content
 - Supports repeatable snapshot-based imports from public intelligence sources
+- MITRE ATT&CK imports can populate denormalized `attck_*` fields and a `sources` audit trail; optional **abuse.ch ThreatFox** imports add recent IOCs when `THREATFOX_API_KEY` is set (`ruby scripts/import-automated-sources.rb --source threatfox --apply`)
 - Validates schema, page alignment, generated JSON, and safe Jekyll builds in CI
 
 ## Current repository state

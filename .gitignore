@@ -75,6 +75,10 @@ data/imports/ransomware-vulnerability-matrix/*
 !data/imports/russian-apt-tool-matrix/
 data/imports/russian-apt-tool-matrix/*
 !data/imports/russian-apt-tool-matrix/mapping_overrides.yml
+!data/imports/threatfox/
+data/imports/threatfox/*
+!data/imports/threatfox/mapping_overrides.yml
+!data/imports/alias_synonyms.yml
 vendor/
 
 # MITRE Enterprise bundle cache (downloaded by scripts/generate-indexes.rb when no snapshot exists)

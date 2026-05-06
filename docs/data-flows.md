@@ -6,7 +6,7 @@ For a concise maintainer checklist (commands, what to commit, and which workflow
 
 ## Current data flow
 
-1. Automated source importers fetch operational snapshots into ignored `data/imports/<source>/<date>/` cache paths.
+1. Automated source importers fetch operational snapshots into ignored `data/imports/<source>/<date>/` cache paths (including MITRE STIX bundles and optional ThreatFox `get_iocs.json` snapshots).
 2. Importers read snapshots, apply committed mapping overrides, and update `_data/actors/*.yml`.
 3. `scripts/generate-pages.rb --force` synchronizes `_threat_actors/*.md` from actor YAML while preserving enriched page content.
 4. `scripts/generate-indexes.rb` reads actor YAML and actor pages, then regenerates `_data/generated/*.json`, `_malware/*.md`, `_malware/*.data.json`, optional MITRE collection pages under `_techniques/`, `_tactics/`, `_campaigns/`, and `_mitigations/`, IOC manifest (`ioc_types.json`), IOC summary (`ioc_summary.json`), per-type IOC shards with server-side grouping (`_data/generated/iocs_by_type/*.json` plus mirrored `api/iocs/by-type/` payloads), per-actor IOC shards (`_data/generated/iocs_by_actor/<slug>.json` plus mirrored `api/iocs/by-actor/<slug>.json`), and `malware_actor_lookup.json`. When no `_tactics/` pages exist, it can pull the Enterprise ATT&CK STIX bundle into `data/mitre-cache/` (first run with network) to emit full `techniques.json`, `technique_tactics.json`, `actors_by_tactic.json`, and stub `_tactics/*.md` pages.
@@ -38,6 +38,9 @@ For a concise maintainer checklist (commands, what to commit, and which workflow
 | `apt-groups-operations` | `scripts/import-apt-groups-operations.rb` | Alias, operation, and malware crosswalk enrichment |
 | `aptnotes` | `scripts/import-aptnotes.rb` | Report-index provenance and chronology hints |
 | `mitre-attack` | `scripts/import-mitre.rb` | MITRE ATT&CK STIX groups, techniques, tactics, software, campaigns, and mitigations |
+| `threatfox` | `scripts/import-threatfox.rb` | Optional IOC enrichment from abuse.ch ThreatFox (`get_iocs`) matched to existing actors |
+
+The automated runner also accepts `--source attack` as an alias for `mitre-attack`. Actor YAML may include denormalized ATT&CK fields (`attck_techniques`, `attck_software`, `attck_references`) populated by the MITRE importer alongside structured `ttps` / `software`.
 
 `scripts/import-microsoft-threat-actor-list.rb` follows the snapshot/import/report pattern and is part of the default automated import run. Microsoft publishes the workbook for regular public use, so we treat it as a normal recurring source while still preserving attribution and limiting imports to additive existing-actor enrichment.
 

@@ -20,6 +20,8 @@ require_relative 'mitre/stix_loader'
 require_relative 'mitre/relationship_resolver'
 require_relative 'mitre/entity_writers'
 require_relative 'mitre/version_resolver'
+require_relative 'importers/attack'
+require_relative 'lib/alias_resolver'
 
 class MitreAttackImporter
   DEFAULT_SNAPSHOT_ROOT = 'data/imports/mitre-attack'.freeze
@@ -235,7 +237,8 @@ class MitreAttackImporter
       actor = parse_intrusion_actor(is)
       next if actor.nil?
 
-      m = ImportUtils.find_match(actor['name'], actor['aliases'], alias_index)
+      m = ImportUtils.find_match(actor['name'], actor['aliases'], alias_index,
+                                 mitre_id: actor['mitre_id'], external_id: actor['external_id'])
       if m && m[:confidence] == :high
         merge_n += 1
       elsif m && m[:confidence] == :ambiguous
@@ -300,14 +303,18 @@ class MitreAttackImporter
       stix_id = is['id']
       incoming = enrich_actor_from_intrusion(incoming, stix_id, resolver)
       incoming['provenance']['mitre']['source_dataset_urls'] = dataset_urls
+      MitreAttackGroupEnrichment.apply!(incoming, intrusion_set: is,
+                                                dataset_url: dataset_urls['enterprise'])
 
-      match = ImportUtils.find_match(incoming['name'], incoming['aliases'], alias_index)
+      match = ImportUtils.find_match(incoming['name'], incoming['aliases'], alias_index,
+                                   mitre_id: incoming['mitre_id'], external_id: incoming['external_id'])
 
       if match && match[:confidence] == :high
         next if @options[:new_only]
 
         existing = existing_actors[match[:position]]
         merged = ImportUtils.merge_actors(existing, incoming, 'MITRE', dataset_urls)
+        AliasResolver.boost_confidence_from_provenance!(merged)
         existing_actors[match[:position]] = merged
         results[:merge] << { name: incoming['name'], mitre_id: incoming['mitre_id'] }
       elsif match && match[:confidence] == :ambiguous
@@ -384,7 +391,8 @@ class MitreAttackImporter
       next if actor.nil?
 
       stix_id = is['id']
-      match = ImportUtils.find_match(actor['name'], actor['aliases'], alias_index)
+      match = ImportUtils.find_match(actor['name'], actor['aliases'], alias_index,
+                                     mitre_id: actor['mitre_id'], external_id: actor['external_id'])
       mitre_id_key = actor['mitre_id'].to_s.strip
       mitre_match = mitre_id_key.empty? ? nil : by_mitre_id[mitre_id_key]
       name_key = ImportUtils.canonical_key(actor['name'])

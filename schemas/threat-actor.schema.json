@@ -222,6 +222,59 @@
     "campaigns": {
       "type": "array"
     },
+    "attck_techniques": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^T\\d{4}(\\.\\d{3})?$"
+      },
+      "uniqueItems": true
+    },
+    "attck_software": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "attck_references": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/attckReferenceEntry"
+      }
+    },
+    "iocs_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "confidence": {
+      "oneOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "string",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        }
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/actorSourceEntry"
+      }
+    },
+    "victim_countries": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "targeted_sectors": {
+      "$ref": "#/$defs/stringArray"
+    },
     "provenance": {
       "type": "object"
     },
@@ -319,6 +372,53 @@
           "type": "string"
         },
         "product": {
+          "type": "string"
+        }
+      }
+    },
+    "attckReferenceEntry": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string"
+        },
+        "external_id": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        }
+      }
+    },
+    "actorSourceEntry": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "source",
+        "imported_at"
+      ],
+      "properties": {
+        "source": {
+          "type": "string",
+          "minLength": 1
+        },
+        "imported_at": {
+          "type": "string",
+          "minLength": 1
+        },
+        "dataset_url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "note": {
           "type": "string"
         }
       }
