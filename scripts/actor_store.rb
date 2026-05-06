@@ -49,7 +49,7 @@ module ActorStore
 
   URI_FIELDS = %w[external_url mitre_url source_record_url source_license_url].freeze
 
-  URI_UNSAFE_PATTERN = /[^A-Za-z0-9\-._~!$&'()*+,;=:\/?#@%\[\]]/.freeze
+  URI_UNSAFE_PATTERN = /[^A-Za-z0-9\-._~!$&'()*+,;=:\/?#@%]/.freeze
 
   module_function
 
