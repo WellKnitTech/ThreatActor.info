@@ -152,7 +152,18 @@
       }
     },
     "cisa_kev_cves": {
-      "$ref": "#/$defs/stringArray"
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "string",
+            "minLength": 1
+          },
+          {
+            "$ref": "#/$defs/kevEntry"
+          }
+        ]
+      }
     },
     "urls": {
       "$ref": "#/$defs/stringArray"
@@ -286,6 +297,28 @@
           "type": "string"
         },
         "stix_id": {
+          "type": "string"
+        }
+      }
+    },
+    "kevEntry": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "cve"
+      ],
+      "properties": {
+        "cve": {
+          "type": "string",
+          "pattern": "^CVE-\\d{4}-\\d{4,7}$"
+        },
+        "dateAdded": {
+          "type": "string"
+        },
+        "vendor": {
+          "type": "string"
+        },
+        "product": {
           "type": "string"
         }
       }
