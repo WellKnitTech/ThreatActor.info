@@ -24,13 +24,13 @@ Akira is a ransomware variant and ransomware deployment entity active since at l
 ## Notable Campaigns
 - [Nissan Australia](https://www.nissan.com.au/website-update.html) (December 2023; Akira (Ransomware))
 - [BHI Energy](https://www.documentcloud.org/documents/24075435-bhi-notice) (October 2023; Akira (Ransomware))
-- Community-reported ransomware incident: June 2025, Construction, Canada (index: `CommunityReports/CR-001-AKIRA-JUN-2025.md`)
-- Community-reported ransomware incident: April 2025, Food and Agriculture, Canada (index: `CommunityReports/CR-002-AKIRA-APR-2025.md`)
-- Community-reported ransomware incident: June 2025, Manufacturing, Canada (index: `CommunityReports/CR-003-AKIRA-JUN-2025.md`)
-- Community-reported ransomware incident: August 2025, Construction, USA (index: `CommunityReports/CR-009-AKIRA-AUG-2025.md`)
-- Community-reported ransomware incident: August 2025, Engineering, USA (index: `CommunityReports/CR-010-AKIRA-AUG-2025.md`)
-- Community-reported ransomware incident: September 2025, Professional Services, Canada (index: `CommunityReports/CR-017-AKIRA-SEP-2025.md`)
-- Community-reported ransomware incident: November 2025, Manufacturing, Canada (index: `CommunityReports/CR-018-AKIRA-NOV-2025.md`)
+- Community-reported ransomware incident: June 2025, Construction, Canada (source: [CR-001-AKIRA-JUN-2025.md](https://github.com/BushidoUK/Ransomware-Tool-Matrix/blob/main/CommunityReports/CR-001-AKIRA-JUN-2025.md))
+- Community-reported ransomware incident: April 2025, Food and Agriculture, Canada (source: [CR-002-AKIRA-APR-2025.md](https://github.com/BushidoUK/Ransomware-Tool-Matrix/blob/main/CommunityReports/CR-002-AKIRA-APR-2025.md))
+- Community-reported ransomware incident: June 2025, Manufacturing, Canada (source: [CR-003-AKIRA-JUN-2025.md](https://github.com/BushidoUK/Ransomware-Tool-Matrix/blob/main/CommunityReports/CR-003-AKIRA-JUN-2025.md))
+- Community-reported ransomware incident: August 2025, Construction, USA (source: [CR-009-AKIRA-AUG-2025.md](https://github.com/BushidoUK/Ransomware-Tool-Matrix/blob/main/CommunityReports/CR-009-AKIRA-AUG-2025.md))
+- Community-reported ransomware incident: August 2025, Engineering, USA (source: [CR-010-AKIRA-AUG-2025.md](https://github.com/BushidoUK/Ransomware-Tool-Matrix/blob/main/CommunityReports/CR-010-AKIRA-AUG-2025.md))
+- Community-reported ransomware incident: September 2025, Professional Services, Canada (source: [CR-017-AKIRA-SEP-2025.md](https://github.com/BushidoUK/Ransomware-Tool-Matrix/blob/main/CommunityReports/CR-017-AKIRA-SEP-2025.md))
+- Community-reported ransomware incident: November 2025, Manufacturing, Canada (source: [CR-018-AKIRA-NOV-2025.md](https://github.com/BushidoUK/Ransomware-Tool-Matrix/blob/main/CommunityReports/CR-018-AKIRA-NOV-2025.md))
 
 ## Tactics, Techniques, and Procedures (TTPs)
 ### Ransomware Vulnerability Matrix observations

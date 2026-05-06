@@ -22,7 +22,7 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 
 
 ## Notable Campaigns
-- Community-reported ransomware incident: April 2025, Retail, Canada (index: `CommunityReports/CR-016-PLAY-APR-2025.md`)
+- Community-reported ransomware incident: April 2025, Retail, Canada (source: [CR-016-PLAY-APR-2025.md](https://github.com/BushidoUK/Ransomware-Tool-Matrix/blob/main/CommunityReports/CR-016-PLAY-APR-2025.md))
 
 ## Tactics, Techniques, and Procedures (TTPs)
 - [T1030 Data Transfer Size Limits](https://attack.mitre.org/techniques/T1030)

@@ -254,7 +254,9 @@ def campaign_lines_from_provenance(actor)
     end
   end
 
-  community = provenance.dig('ransomware_tool_matrix', 'community_reports')
+  rtm = provenance['ransomware_tool_matrix']
+  community = rtm.is_a?(Hash) ? rtm['community_reports'] : nil
+  repo = rtm.is_a?(Hash) ? rtm['source_repository'].to_s.strip : ''
   if community.is_a?(Array)
     community.each do |r|
       next unless r.is_a?(Hash)
@@ -268,12 +270,21 @@ def campaign_lines_from_provenance(actor)
       next if parts.empty? && source_file.empty?
 
       summary = parts.any? ? parts.join(', ') : 'Reported incident'
-      sf = source_file.empty? ? '' : " (index: `#{source_file}`)"
+      sf = community_report_source_suffix(repo, source_file)
       lines << "- Community-reported ransomware incident: #{summary}#{sf}"
     end
   end
 
   lines.uniq
+end
+
+def community_report_source_suffix(repo, source_file)
+  return '' if source_file.empty?
+  return " (index: `#{source_file}`)" if repo.empty?
+
+  encoded = source_file.split('/').map { |seg| CGI.escape(seg).gsub('+', '%20') }.join('/')
+  basename = File.basename(source_file)
+  " (source: [#{basename}](#{repo}/blob/main/#{encoded}))"
 end
 
 # Named operations/campaign labels merged into YAML from upstream intel (see ActorStore FIELD_ORDER).
