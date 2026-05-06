@@ -3,7 +3,6 @@
 
 require 'fileutils'
 require 'json'
-require 'uri'
 require 'yaml'
 
 module ActorStore
@@ -49,6 +48,8 @@ module ActorStore
   TRANSIENT_FIELDS = %w[references].freeze
 
   URI_FIELDS = %w[external_url mitre_url source_record_url source_license_url].freeze
+
+  URI_UNSAFE_PATTERN = /[^A-Za-z0-9\-._~!$&'()*+,;=:\/?#@%\[\]]/.freeze
 
   module_function
 
@@ -141,11 +142,17 @@ module ActorStore
     URI_FIELDS.each do |field|
       value = actor[field]
       next unless value.is_a?(String) && !value.empty?
-      next if value.bytes.all? { |b| b < 128 } && !value.include?(' ')
+      next unless URI_UNSAFE_PATTERN.match?(value)
 
-      actor[field] = URI::DEFAULT_PARSER.escape(value)
+      actor[field] = encode_uri_field(value)
     end
     actor
+  end
+
+  def encode_uri_field(value)
+    value.gsub(URI_UNSAFE_PATTERN) do |match|
+      match.bytes.map { |b| sprintf('%%%02X', b) }.join
+    end
   end
 
   def serialize_field(key, value, indent)
