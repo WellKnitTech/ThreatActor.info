@@ -89,7 +89,7 @@ module ActorStore
   end
 
   def serialize_actor(actor)
-    normalized = normalize_actor(actor)
+    normalized = ensure_aliases!(normalize_actor(actor))
     lines = []
 
     FIELD_ORDER.each do |key|
@@ -116,6 +116,16 @@ module ActorStore
     actor.each_with_object({}) do |(key, value), memo|
       memo[key.to_s] = value
     end
+  end
+
+  def ensure_aliases!(actor)
+    return actor unless actor.is_a?(Hash)
+
+    aliases = Array(actor['aliases']).map { |entry| entry.to_s }.reject { |entry| entry.strip.empty? }.uniq
+    name = actor['name'].to_s.strip
+    aliases = [name] if aliases.empty? && !name.empty?
+    actor['aliases'] = aliases
+    actor
   end
 
   def serialize_field(key, value, indent)

@@ -1002,7 +1002,7 @@ class ContentValidator
       if (match = content.match(/^\*\*(.+?)\*\*/))
         match[1].strip
       else
-        content.gsub(/\[([^\]]+)\]\([^\)]+\)/, '\1').gsub(/[*_`]/, '').strip
+        content.gsub(/\[([^\]]+)\]\([^\)]+\)/, '\1').gsub(/[*`]/, '').strip
       end
     end.reject { |name| name.empty? || name.match?(/information pending/i) }
   end

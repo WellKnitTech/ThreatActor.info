@@ -165,6 +165,9 @@ jobs:
       - name: Generate API indexes
         run: ruby scripts/generate-indexes.rb
 
+      - name: Repair empty actor aliases
+        run: ruby scripts/repair-actor-aliases.rb
+
       - name: Evaluate source deltas
         run: |
           ruby scripts/evaluate-source-deltas.rb \

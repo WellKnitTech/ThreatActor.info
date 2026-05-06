@@ -358,6 +358,17 @@ class MitreAttackImporter
   end
 
   def build_group_slug_map(resolver, existing_actors, alias_index, opts_actor)
+    by_mitre_id = existing_actors.each_with_object({}) do |existing, memo|
+      next unless existing.is_a?(Hash)
+
+      [existing['mitre_id'], existing['external_id']].compact.each do |id|
+        key = id.to_s.strip
+        next if key.empty?
+
+        memo[key] ||= existing
+      end
+    end
+
     map = {}
     resolver.intrusion_sets.each do |is|
       actor = parse_intrusion_actor(is, opts_actor)
@@ -365,11 +376,16 @@ class MitreAttackImporter
 
       stix_id = is['id']
       match = ImportUtils.find_match(actor['name'], actor['aliases'], alias_index)
-      url = if match && match[:confidence] == :high
-              existing_actors[match[:position]]['url']
-            else
-              actor['url']
-            end
+      mitre_id_key = actor['mitre_id'].to_s.strip
+      mitre_match = mitre_id_key.empty? ? nil : by_mitre_id[mitre_id_key]
+
+      canonical = if match && match[:confidence] == :high
+                    existing_actors[match[:position]]
+                  elsif mitre_match
+                    mitre_match
+                  end
+
+      url = canonical ? canonical['url'] : actor['url']
       map[stix_id] = { 'name' => actor['name'], 'url' => url }
     end
     map
