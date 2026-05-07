@@ -7,7 +7,7 @@ permalink: /cyber-av3ngers/
 ---
 
 ## Introduction
-The CyberAv3ngers are a suspected Iranian Government Islamic Revolutionary Guard Corps (IRGC)-affiliated APT group. The CyberAv3ngers have been known to be active since at least 2020, with disputed and false claims of critical infrastructure compromises in Israel. In 2023, the CyberAv3ngers engaged in a global targeting and hacking of the Unitronics Programmable Logic Controller (PLC) with Human-Machine Interface (HMI). This PLC can be found in multiple sectors, including water and wastewater, energy, food and beverage manufacturing, and healthcare. The most notable feature of this attack was the defacement of the devices user interface.
+The CyberAv3ngers are a suspected Iranian Government Islamic Revolutionary Guard Corps (IRGC)-affiliated APT group. The CyberAv3ngers have been known to be active since at least 2020, with disputed and false claims of critical infrastructure compromises in Israel. [CISA AA23-335A IRGC-Affiliated December 2023](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-335a) In 2023, the CyberAv3ngers engaged in a global targeting and hacking of the Unitronics Programmable Logic Controller (PLC) with Human-Machine Interface (HMI). This PLC can be found in multiple sectors, including water and wastewater, energy, food and beverage manufacturing, and healthcare. The most notable feature of this attack was the defacement of the devices user interface. [CISA AA23-335A IRGC-Affiliated December 2023](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-335a)
 
 ## Activities and Tactics
 **Country of Origin**: 🇮🇷 Iran

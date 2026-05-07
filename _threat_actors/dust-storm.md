@@ -16,7 +16,11 @@ Threat actors behind the Operation Dust Storm have been active since at least 20
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+*Enterprise ATT&CK techniques below are drawn from the merged [Categorized Adversary TTPs](https://github.com/tropChaud/Categorized-Adversary-TTPs) dataset for MITRE group G0031 (YAML `ttps` empty).*
+
+- [T1005 Data from Local System](/techniques/T1005/)
+- [T1027 Obfuscated Files or Information](/techniques/T1027/)
+- [T1083 File and Directory Discovery](/techniques/T1083/)
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
