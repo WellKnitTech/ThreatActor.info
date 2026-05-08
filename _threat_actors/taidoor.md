@@ -20,9 +20,7 @@ The Taidoor attackers have been actively engaging in targeted attacks since at l
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Enterprise ATT&CK techniques below are drawn from the merged [Categorized Adversary TTPs](https://github.com/tropChaud/Categorized-Adversary-TTPs) dataset for MITRE group G0015 (YAML `ttps` empty).*
-
-- [T1032](https://attack.mitre.org/techniques/T1032/)
+*Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
