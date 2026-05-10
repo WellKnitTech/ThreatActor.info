@@ -16,7 +16,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json"
     source_record_id: "084517bc-b8e7-5c86-a218-3f19e1379f3e"
     source_record_ids: ["084517bc-b8e7-5c86-a218-3f19e1379f3e"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0134"

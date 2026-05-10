@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "3am"
-aliases: ["3am"]
+aliases: ["3am","THREEAMTIME","3AM","ThreeAM"]
 description: "3AM, also known as ThreeAM, is a relatively new ransomware family that emerged in late 2023, initially deployed as a fallback option when LockBit infections failed. Written in Rust for 64-bit systems, "
 permalink: /3am/
 ---
@@ -22,7 +22,9 @@ permalink: /3am/
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **ThreeAM**: 
+- **3 AM**: 
+- **3AM**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

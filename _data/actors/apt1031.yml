@@ -23,13 +23,13 @@ provenance:
     sample_titles: ["APT Group LOREC53 (Lori Bear) Recently Launched A Large-Scale Cyber Attack On Ukraine"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
     sources: ["nsfocus"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "saintbear"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/saintbear"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "c67d3dfb-ab39-46e1-a971-5efdfe6a5b9f"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"

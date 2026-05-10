@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Noescape"
-aliases: ["Noescape"]
+aliases: ["Noescape","Noescape group","Noescape ransomware","Noescape gang"]
 description: "Noescape is an active ransomware-as-a-service operation tracked by RansomLook."
 permalink: /noescape/
 ---

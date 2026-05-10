@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "ruby_sleet"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ruby_sleet"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "03ff54cf-f7d4-4606-a531-2ca6d4fa6a54"
   misp_galaxy:
     meta_keys: ["country","refs","synonyms","microsoft-origin-threat","sector"]
@@ -23,4 +23,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "03ff54cf-f7d4-4606-a531-2ca6d4fa6a54"
     source_record_ids: ["03ff54cf-f7d4-4606-a531-2ca6d4fa6a54","c29e7262-6a6f-501d-8c00-57f75f2172a3"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"

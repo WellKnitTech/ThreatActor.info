@@ -20,13 +20,13 @@ provenance:
     sample_titles: ["New UAC-0050 attack using RemcosRAT"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
     sources: ["CERT-UA"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "uac-0050"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/uac-0050"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "e3ff56b6-2663-46bd-9e5c-017a350896d9"
   misp_galaxy:
     meta_keys: ["cfr-suspected-victims","refs"]
@@ -35,4 +35,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "e3ff56b6-2663-46bd-9e5c-017a350896d9"
     source_record_ids: ["e3ff56b6-2663-46bd-9e5c-017a350896d9"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"

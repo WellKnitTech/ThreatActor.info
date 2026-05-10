@@ -3,6 +3,7 @@ aliases: ["Pitty Tiger","PittyTiger"]
 description: "PittyTiger is a threat group believed to operate out of China that uses multiple different types of malware to maintain command and control. [Bizeul 2014](https://airbus-cyber-security.com/the-eye-of-the-tiger/) [Villeneuve 2014](https://www.fireeye.com/blog/threat-research/2014/07/spy-of-the-tiger.html)"
 url: "/apt0011"
 country: "China"
+confidence: "high"
 external_id: "G0011"
 external_url: "https://attack.mitre.org/groups/G0011"
 mitre_id: "G0011"
@@ -52,13 +53,24 @@ ttps:
     technique_name: "Valid Accounts"
     url: "https://attack.mitre.org/techniques/T1078"
     stix_id: "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
+attck_techniques: ["T1078","T1588.002"]
+attck_software: ["S0002","S0008","S0010","S0012","S0032"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0011"
+    external_id: "G0011"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0011"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://blog.airbuscybersecurity.com/post/2014/07/The-Eye-of-the-Tiger2","https://www.fireeye.com/blog/threat-research/2014/07/spy-of-the-tiger.html","http://blog.malwaretracker.com/2013/06/tomato-garden-campaign-possible.html"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "china"
   misp_galaxy:
     meta_keys: ["country","group_attack_id","observed_countries","source","target_categories"]
@@ -67,20 +79,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
     source_record_id: "60936d3c-37ed-4116-a407-868da3aa4446"
     source_record_ids: ["60936d3c-37ed-4116-a407-868da3aa4446"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0011"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--fe98767f-9df8-42b9-83c9-004b1dec8647"
 source: "MITRE ATT&CK"

@@ -2,6 +2,7 @@ name: "Equation"
 aliases: ["Equation"]
 description: "Equation is a sophisticated threat group that employs multiple remote access tools. The group is known to use zero-day exploits and has developed the capability to overwrite the firmware of hard disk drives. [Kaspersky Equation QA](https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf)"
 url: "/apt0020"
+confidence: "high"
 external_id: "G0020"
 external_url: "https://attack.mitre.org/groups/G0020"
 mitre_id: "G0020"
@@ -32,6 +33,16 @@ ttps:
     technique_name: "Component Firmware"
     url: "https://attack.mitre.org/techniques/T1542/002"
     stix_id: "attack-pattern--791481f8-e96a-41be-b089-a088763083d4"
+attck_techniques: ["T1120","T1480.001","T1542.002","T1564.005"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0020"
+    external_id: "G0020"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   misp_galaxy:
     meta_keys: ["group_attack_id","observed_countries","source","tags","target_categories"]
@@ -40,20 +51,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
     source_record_id: "a4704485-65b5-49ec-bebe-5cc932362dd2"
     source_record_ids: ["a4704485-65b5-49ec-bebe-5cc932362dd2"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0020"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--96e239be-ad99-49eb-b127-3007b8c1bec9"
 source: "MITRE ATT&CK"

@@ -1,5 +1,5 @@
 name: "Cl0p"
-aliases: ["CHIMBORAZO","Clop","Hive0065","Spandex Tempest","TA505","Cl0p","SectorJ04","SectorJ04 Group","GRACEFUL SPIDER","GOLD TAHOE","Dudear","G0092","ATK103","Lace Tempest","DEV-0950","FIN11","MONTY SPIDER"]
+aliases: ["CHIMBORAZO","Clop","Hive0065","Spandex Tempest","TA505","Cl0p","SectorJ04","SectorJ04 Group","GRACEFUL SPIDER","GOLD TAHOE","Dudear","G0092","ATK103","Lace Tempest","DEV-0950","FIN11","MONTY SPIDER","TEMP.Warlock","UNC902"]
 description: "TA505 is a cyber criminal group that has been active since at least 2014. TA505 is known for frequently changing malware, driving global trends in criminal malware distribution, and ransomware campaigns involving Clop. [Proofpoint TA505 Sep 2017](https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta505-dridex-globeimposter) [Proofpoint TA505 June 2018](https://www.proofpoint.com/us/threat-insight/post/ta505-shifts-times) [Proofpoint TA505 Jan 2019](https://www.proofpoint.com/us/threat-insight/post/servhelper-and-flawedgrace-new-malware-introduced-ta505) [NCC Group TA505](https://research.nccgroup.com/2020/11/18/ta505-a-brief-history-of-their-time/) [Korean FSI TA505 2020](https://www.fsec.or.kr/user/bbs/fsec/163/344/bbsDataView/1382.do?page=1&column=&search=&searchSDate=&searchEDate=&bbsDataCategory=)"
 url: "/cl0p"
 country: "Russia"
@@ -417,7 +417,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "ta505"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ta505"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "03c80674-35f8-4fe0-be2b-226ed0fcd69f"
   misp_galaxy:
     meta_keys: ["TTP","extensions","links","ransomnotes-filenames","refs","synonyms"]
@@ -426,7 +426,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "21b349c3-ede2-4e11-abda-1444eb272eff"
     source_record_ids: ["21b349c3-ede2-4e11-abda-1444eb272eff"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0092"

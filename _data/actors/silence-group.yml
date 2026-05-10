@@ -21,13 +21,13 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://reaqta.com/2019/01/silence-group-targeting-russian-banks/","https://www.group-ib.com/media/silence/","https://www.group-ib.com/resources/threat-research/silence_moving-into-the-darkside.pdf","https://www.group-ib.com/resources/threat-research/silence_2.0.going_global.pdf","https://www.group-ib.com/media/silence_ta505_attacks_in_europe/"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "unknown"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "silence_group"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/silence_group"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "0d5e17fd-7a71-47fd-b4bc-867cdb833726"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"

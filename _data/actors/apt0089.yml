@@ -2,6 +2,7 @@ name: "The White Company"
 aliases: ["The White Company"]
 description: "The White Company is a likely state-sponsored threat actor with advanced capabilities. From 2017 through 2018, the group led an espionage campaign called Operation Shaheen targeting government and military organizations in Pakistan. [Cylance Shaheen Nov 2018](https://www.cylance.com/content/dam/cylance-web/en-us/resources/knowledge-center/resource-library/reports/WhiteCompanyOperationShaheenReport.pdf?_ga=2.161661948.1943296560.1555683782-1066572390.1555511517)"
 url: "/apt0089"
+confidence: "high"
 external_id: "G0089"
 external_url: "https://attack.mitre.org/groups/G0089"
 mitre_id: "G0089"
@@ -53,6 +54,17 @@ ttps:
     technique_name: "System Time Discovery"
     url: "https://attack.mitre.org/techniques/T1124"
     stix_id: "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077"
+attck_techniques: ["T1027.002","T1070.004","T1124","T1203","T1204.002","T1518.001","T1566.001"]
+attck_software: ["S0198","S0379"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0089"
+    external_id: "G0089"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   misp_galaxy:
     meta_keys: ["group_attack_id","observed_countries","source","target_categories"]
@@ -61,20 +73,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
     source_record_id: "830079fe-9824-405b-93e0-c28592155c49"
     source_record_ids: ["830079fe-9824-405b-93e0-c28592155c49"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0089"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--6688d679-ccdb-4f12-abf6-c7545dd767a4"
 source: "MITRE ATT&CK"

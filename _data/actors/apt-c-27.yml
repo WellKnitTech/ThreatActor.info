@@ -15,13 +15,13 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.anquanke.com/post/id/94072","https://securityaffairs.co/wordpress/74670/malware/apt-c-27-syria-espionage.html","https://blog.360totalsecurity.com/en/the-sample-analysis-of-apt-c-27s-recent-attack/","https://ti.360.net/blog/articles/apt-c-27-(goldmouse):-suspected-target-attack-against-the-middle-east-with-winrar-exploit-en/"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "middle-east"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt-c-27"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt-c-27"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "ee7f535d-cc3e-40f3-99f3-c97963cfa250"
   misp_galaxy:
     meta_keys: ["country","origin:APT-C-27","refs","since","suspected-victims","synonyms"]
@@ -30,4 +30,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "ee7f535d-cc3e-40f3-99f3-c97963cfa250"
     source_record_ids: ["ee7f535d-cc3e-40f3-99f3-c97963cfa250","b3b6f113-fe2c-5d75-ba41-b333ce726f4a"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:50Z"

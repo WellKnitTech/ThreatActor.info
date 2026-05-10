@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "FIN7"
-aliases: ["Anunak","ATK32","Calcium","Carbanak","Carbanak Group","Carbon Spider","CARBON SPIDER","CarbonSpider","Coreid","Coried","ELBRUS","FIN7","G0008","G0046","GOLD NIAGARA","ITG14","JokerStash","Navigator Group","Sangria Tempest","Carbanak - APT-C-11"]
+aliases: ["Anunak","ATK32","Calcium","Carbanak","Carbanak - APT-C-11","Carbanak Group","Carbon Spider","CARBON SPIDER","CarbonSpider","Coreid","Coried","ELBRUS","FIN7","G0008","G0046","GOLD NIAGARA","ITG14","JokerStash","Navigator Group","Sangria Tempest"]
 description: "FIN7 is a financially-motivated threat group that has been active since 2013. FIN7 has targeted the retail, restaurant, hospitality, software, consulting, financial services, medical equipment, cloud s"
 permalink: /fin7/
 ---
@@ -41,6 +41,18 @@ FIN7 is a financially-motivated threat group that has been active since 2013. FI
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | Applications | Veeam | Backup & Replication | CVE-2023-27532 |
+
+### ATT&CK technique IDs (denormalized)
+
+- [T1036.004](https://attack.mitre.org/techniques/T1036/004/)
+- [T1036.005](https://attack.mitre.org/techniques/T1036/005/)
+- [T1078](https://attack.mitre.org/techniques/T1078/)
+- [T1102.002](https://attack.mitre.org/techniques/T1102/002/)
+- [T1218.011](https://attack.mitre.org/techniques/T1218/011/)
+- [T1219](https://attack.mitre.org/techniques/T1219/)
+- [T1543.003](https://attack.mitre.org/techniques/T1543/003/)
+- [T1588.002](https://attack.mitre.org/techniques/T1588/002/)
+- [T1686](https://attack.mitre.org/techniques/T1686/)
 
 ## Notable Indicators of Compromise (IOCs)
 *No atomic indicators are listed in this profile. The APTnotes snapshot indexes 13 public reports that may contain IOCs; see Source Attribution for dataset links.*

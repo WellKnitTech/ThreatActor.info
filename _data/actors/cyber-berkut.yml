@@ -14,13 +14,13 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.threatconnect.com/blog/russia-hacks-bellingcat-mh17-investigation/#.V-wnrubaeEU.twitter"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "russia"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "cyber_berkut"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/cyber_berkut"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "4d9f68ba-cb2b-40bf-ba4b-6a5a9f2e1cf8"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"

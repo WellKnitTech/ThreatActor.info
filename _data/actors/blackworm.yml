@@ -22,7 +22,7 @@ provenance:
     sample_titles: ["Connecting The Dots: Syrian Malware Team Uses Blackworm For Attacks"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
     sources: ["FireEye"]
   misp_galaxy:
     meta_keys: ["payment-method","price","refs"]
@@ -31,4 +31,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "457e9a45-607e-41ef-8ad1-bf8684722445"
     source_record_ids: ["457e9a45-607e-41ef-8ad1-bf8684722445","14e57527-58cc-4e0a-8e14-9f00a0167610"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"

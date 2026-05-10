@@ -20,7 +20,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "b1e94607-7211-585d-8197-73e7d9229400"
     source_record_ids: ["b1e94607-7211-585d-8197-73e7d9229400","33a5fa48-89ee-5c0b-9c9c-e0ee69032fca"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1036"

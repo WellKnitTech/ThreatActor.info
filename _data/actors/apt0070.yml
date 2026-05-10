@@ -4,6 +4,7 @@ description: "Dark Caracal is threat group that has been attributed to the Leban
 url: "/apt0070"
 country: "Lebanon"
 risk_level: "High"
+confidence: "high"
 external_id: "G0070"
 external_url: "https://attack.mitre.org/groups/G0070"
 mitre_id: "G0070"
@@ -95,18 +96,29 @@ ttps:
     technique_name: "Web Protocols"
     url: "https://attack.mitre.org/techniques/T1437/001"
     stix_id: "attack-pattern--2282a98b-5049-4f61-9381-55baca7c1add"
+attck_techniques: ["T1005","T1027.002","T1027.013","T1059.003","T1071.001","T1083","T1113","T1189","T1204.002","T1218.001","T1437.001","T1547.001","T1566.003"]
+attck_software: ["S0182","S0234","S0235","S0399"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0070"
+    external_id: "G0070"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "middle-east"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "dark_caracal"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dark_caracal"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "3d449c83-4426-431a-b06a-cb4f8a0fca94"
   misp_galaxy:
     meta_keys: ["attribution-confidence","country","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source"]
@@ -115,20 +127,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "3d449c83-4426-431a-b06a-cb4f8a0fca94"
     source_record_ids: ["3d449c83-4426-431a-b06a-cb4f8a0fca94","7ad94dbf-9909-42dd-8b62-a435481bdb14"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:50Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0070"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--8a831aaa-f3e0-47a3-bed8-a9ced744dd12"
 source: "MITRE ATT&CK"

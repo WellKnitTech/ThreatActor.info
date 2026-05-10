@@ -3,6 +3,7 @@ aliases: ["UNC3886"]
 description: "UNC3886 is a China-nexus cyberespionage group that has been active since at least 2022, targeting defense, technology, and telecommunication organizations located in the United States and the Asia-Pacific-Japan (APJ) regions. UNC3886 has displayed a deep understanding of edge devices and virtualization technologies through the exploitation of zero-day vulnerabilities and the use of novel malware families and utilities. [Mandiant Fortinet Zero Day](https://www.mandiant.com/resources/blog/fortinet-malware-ecosystem) [Google Cloud Threat Intelligence VMWare ESXi Zero-Day 2023](https://cloud.google.com/blog/topics/threat-intelligence/vmware-esxi-zero-day-bypass/)"
 url: "/apt1048"
 country: "China"
+confidence: "high"
 external_id: "G1048"
 external_url: "https://attack.mitre.org/groups/G1048"
 mitre_id: "G1048"
@@ -259,6 +260,17 @@ ttps:
     technique_name: "Fallback Channels"
     url: "https://attack.mitre.org/techniques/T1008"
     stix_id: "attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433"
+attck_techniques: ["T1003.001","T1008","T1014","T1021.004","T1027.005","T1036.004","T1037","T1037.004","T1040","T1057","T1059.001","T1059.003","T1059.004","T1059.006","T1059.012","T1068","T1070.004","T1070.006","T1070.007","T1074.001","T1078","T1078.001","T1083","T1095","T1124","T1190","T1203","T1205","T1205.001","T1212","T1218.011","T1505.006","T1548","T1554","T1555.005","T1560.001","T1560.003","T1564.011","T1570","T1587.001","T1587.004","T1588.001","T1588.004","T1673","T1675","T1681","T1685","T1686","T1690"]
+attck_software: ["S1217","S1218","S1219","S1220","S1221","S1222","S1223","S1224"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G1048"
+    external_id: "G1048"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 campaigns:
   - name: "RedPenguin"
     campaign_id: "C0056"
@@ -270,13 +282,13 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.mandiant.com/resources/blog/esxi-hypervisors-malware-persistence","https://www.mandiant.com/resources/blog/fortinet-malware-ecosystem","https://www.mandiant.com/resources/blog/vmware-detection-containment-hardening"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "china"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "unc3886"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc3886"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "8c08dbe7-3ed0-4d7d-b315-22d8774a5bd9"
   misp_galaxy:
     meta_keys: ["country","origin:UNC3886","refs","group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
@@ -285,20 +297,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "8c08dbe7-3ed0-4d7d-b315-22d8774a5bd9"
     source_record_ids: ["8c08dbe7-3ed0-4d7d-b315-22d8774a5bd9","23af694a-11f4-43eb-a176-683059b301cb"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G1048"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--461b8e25-8f4a-4ea2-a4a8-e39df7ce6630"
 source: "MITRE ATT&CK"

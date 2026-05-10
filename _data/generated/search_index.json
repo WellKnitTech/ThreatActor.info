@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T05:35:33Z",
+  "generated_at": "2026-05-10T06:03:13Z",
   "actors": [
     {
       "kind": "actor",
@@ -1867,7 +1867,11 @@
       "description": "Cleaver is a threat group that has been attributed to Iranian actors and is responsible for activity tracked as Operation Cleaver. [Cylance Cleaver](https://web.archive.org/web/20200302085133/https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance_Operation_Cle",
       "country": "Iran",
       "attck_techniques": [
-
+        "T1003.001",
+        "T1557.002",
+        "T1585.001",
+        "T1587.001",
+        "T1588.002"
       ],
       "targeted_sectors": [
 
@@ -1893,7 +1897,11 @@
       "description": "APT12 is a threat group that has been attributed to China. The group has targeted a variety of victims including but not limited to media outlets, high-tech companies, and multiple governments. [Meyers Numbered Panda](http://www.crowdstrike.com/blog/whois-numbered-panda/)",
       "country": "China",
       "attck_techniques": [
-
+        "T1102.002",
+        "T1203",
+        "T1204.002",
+        "T1566.001",
+        "T1568.003"
       ],
       "targeted_sectors": [
 
@@ -1932,7 +1940,8 @@
       "description": "PittyTiger is a threat group believed to operate out of China that uses multiple different types of malware to maintain command and control. [Bizeul 2014](https://airbus-cyber-security.com/the-eye-of-the-tiger/) [Villeneuve 2014](https://www.fireeye.com/blog/threat-research/2014/0",
       "country": "China",
       "attck_techniques": [
-
+        "T1078",
+        "T1588.002"
       ],
       "targeted_sectors": [
 
@@ -1945,7 +1954,30 @@
       "description": "Darkhotel is a suspected South Korean threat group that has targeted victims primarily in East Asia since at least 2004. The group's name is based on cyber espionage operations conducted via hotel Internet networks against traveling executives and other select guests. Darkhotel ha",
       "country": "South Korea",
       "attck_techniques": [
-
+        "T1016",
+        "T1027.013",
+        "T1036.005",
+        "T1056.001",
+        "T1057",
+        "T1059.003",
+        "T1080",
+        "T1082",
+        "T1083",
+        "T1091",
+        "T1105",
+        "T1124",
+        "T1140",
+        "T1189",
+        "T1203",
+        "T1204.002",
+        "T1497",
+        "T1497.001",
+        "T1497.002",
+        "T1518.001",
+        "T1547.001",
+        "T1553.002",
+        "T1566.001",
+        "T1573.001"
       ],
       "targeted_sectors": [
 
@@ -1997,7 +2029,20 @@
       "description": "Naikon is assessed to be a state-sponsored cyber espionage group attributed to the Chinese People’s Liberation Army’s (PLA) Chengdu Military Region Second Technical Reconnaissance Bureau (Military Unit Cover Designator 78020). [CameraShy](http://cdn2.hubspot.net/hubfs/454298/Proje",
       "country": "China",
       "attck_techniques": [
-
+        "T1016",
+        "T1018",
+        "T1036.004",
+        "T1036.005",
+        "T1046",
+        "T1047",
+        "T1053.005",
+        "T1078.002",
+        "T1137.006",
+        "T1204.002",
+        "T1518.001",
+        "T1547.001",
+        "T1566.001",
+        "T1574.001"
       ],
       "targeted_sectors": [
 
@@ -2010,7 +2055,10 @@
       "description": "Equation is a sophisticated threat group that employs multiple remote access tools. The group is known to use zero-day exploits and has developed the capability to overwrite the firmware of hard disk drives. [Kaspersky Equation QA](https://media.kasperskycontenthub.com/wp-content/",
       "country": null,
       "attck_techniques": [
-
+        "T1120",
+        "T1480.001",
+        "T1542.002",
+        "T1564.005"
       ],
       "targeted_sectors": [
 
@@ -2023,7 +2071,22 @@
       "description": "Molerats is an Arabic-speaking, politically-motivated threat group that has been operating since 2012. The group's victims have primarily been in the Middle East, Europe, and the United States. [DustySky](https://www.clearskysec.com/wp-content/uploads/2016/01/Operation%20DustySky_",
       "country": "Palestine",
       "attck_techniques": [
-
+        "T1027.015",
+        "T1053.005",
+        "T1057",
+        "T1059.001",
+        "T1059.005",
+        "T1059.007",
+        "T1105",
+        "T1140",
+        "T1204.001",
+        "T1204.002",
+        "T1218.007",
+        "T1547.001",
+        "T1553.002",
+        "T1555.003",
+        "T1566.001",
+        "T1566.002"
       ],
       "targeted_sectors": [
 
@@ -2036,7 +2099,30 @@
       "description": "APT3 is a China-based threat group that researchers have attributed to China's Ministry of State Security. [FireEye Clandestine Wolf](https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html) [Recorded Future APT3 May 2017](https://",
       "country": "China",
       "attck_techniques": [
-
+        "T1003.001",
+        "T1005",
+        "T1016",
+        "T1018",
+        "T1021.001",
+        "T1021.002",
+        "T1027",
+        "T1027.002",
+        "T1027.005",
+        "T1033",
+        "T1036.010",
+        "T1041",
+        "T1049",
+        "T1053.005",
+        "T1056.001",
+        "T1057",
+        "T1059.001",
+        "T1059.003",
+        "T1069",
+        "T1070.004",
+        "T1074.001",
+        "T1078.002",
+        "T1082",
+        "T1083"
       ],
       "targeted_sectors": [
 
@@ -2049,7 +2135,7 @@
       "description": "APT16 is a China-based threat group that has launched spearphishing campaigns targeting Japanese and Taiwanese organizations. [FireEye EPS Awakens Part 2](https://web.archive.org/web/20151226205946/https://www.fireeye.com/blog/threat-research/2015/12/the-eps-awakens-part-two.html)",
       "country": "China",
       "attck_techniques": [
-
+        "T1584.004"
       ],
       "targeted_sectors": [
 
@@ -2075,7 +2161,8 @@
       "description": "APT17 is a China-based threat group that has conducted network intrusions against U.S. government entities, the defense industry, law firms, information technology companies, mining companies, and non-government organizations. [FireEye APT17](https://web.archive.org/web/2024011921",
       "country": "China",
       "attck_techniques": [
-
+        "T1583.006",
+        "T1585"
       ],
       "targeted_sectors": [
 
@@ -2088,7 +2175,18 @@
       "description": "APT18 is a threat group that has operated since at least 2009 and has targeted a range of industries, including technology, manufacturing, human rights groups, government, and medical. [Dell Lateral Movement](http://www.secureworks.com/resources/blog/where-you-at-indicators-of-lat",
       "country": "China",
       "attck_techniques": [
-
+        "T1027.013",
+        "T1053.002",
+        "T1059.003",
+        "T1070.004",
+        "T1071.001",
+        "T1071.004",
+        "T1078",
+        "T1082",
+        "T1083",
+        "T1105",
+        "T1133",
+        "T1547.001"
       ],
       "targeted_sectors": [
 
@@ -2114,7 +2212,10 @@
       "description": "Threat Group-1314 is an unattributed threat group that has used compromised credentials to log into a victim's remote access infrastructure. [Dell TG-1314](https://web.archive.org/web/20150626073312/http://www.secureworks.com/resources/blog/living-off-the-land/)",
       "country": null,
       "attck_techniques": [
-
+        "T1021.002",
+        "T1059.003",
+        "T1072",
+        "T1078.002"
       ],
       "targeted_sectors": [
 
@@ -2127,7 +2228,7 @@
       "description": "Scarlet Mimic is a threat group that has targeted minority rights activists. This group has not been directly linked to a government source, but the group's motivations appear to overlap with those of the Chinese government. While there is some overlap between IP addresses used by",
       "country": "China",
       "attck_techniques": [
-
+        "T1036.002"
       ],
       "targeted_sectors": [
 
@@ -2153,7 +2254,14 @@
       "description": "Poseidon Group is a Portuguese-speaking threat group that has been active since at least 2005. The group has a history of using information exfiltrated from victims to blackmail victim companies into contracting the Poseidon Group as a security firm. [Kaspersky Poseidon Group](htt",
       "country": "Brazil",
       "attck_techniques": [
-
+        "T1003",
+        "T1007",
+        "T1036.005",
+        "T1049",
+        "T1057",
+        "T1059.001",
+        "T1087.001",
+        "T1087.002"
       ],
       "targeted_sectors": [
 
@@ -2192,7 +2300,8 @@
       "description": "GCMAN is a threat group that focuses on targeting banks for the purpose of transferring money to e-currency services. [Securelist GCMAN](https://securelist.com/apt-style-bank-robberies-increase-with-metel-gcman-and-carbanak-2-0-attacks/73638/)",
       "country": "Russia",
       "attck_techniques": [
-
+        "T1021.004",
+        "T1021.005"
       ],
       "targeted_sectors": [
 
@@ -2205,7 +2314,30 @@
       "description": "FIN6 is a cyber crime group that has stolen payment card data and sold it for profit on underground marketplaces. This group has aggressively targeted and compromised point of sale (PoS) systems in the hospitality and retail sectors. [FireEye FIN6 April 2016](https://web.archive.o",
       "country": "Russia",
       "attck_techniques": [
-
+        "T1003.001",
+        "T1003.003",
+        "T1005",
+        "T1018",
+        "T1021.001",
+        "T1027.010",
+        "T1036.004",
+        "T1046",
+        "T1047",
+        "T1048.003",
+        "T1053.005",
+        "T1059",
+        "T1059.001",
+        "T1059.003",
+        "T1059.007",
+        "T1068",
+        "T1070.004",
+        "T1074.002",
+        "T1078",
+        "T1087.002",
+        "T1095",
+        "T1102",
+        "T1110.002",
+        "T1119"
       ],
       "targeted_sectors": [
 
@@ -2218,7 +2350,22 @@
       "description": "Stealth Falcon is a threat group that has conducted targeted spyware attacks against Emirati journalists, activists, and dissidents since at least 2012. Circumstantial evidence suggests there could be a link between this group and the United Arab Emirates (UAE) government, but tha",
       "country": "United Arab Emirates",
       "attck_techniques": [
-
+        "T1005",
+        "T1012",
+        "T1016",
+        "T1033",
+        "T1041",
+        "T1047",
+        "T1053.005",
+        "T1057",
+        "T1059",
+        "T1059.001",
+        "T1071.001",
+        "T1082",
+        "T1555",
+        "T1555.003",
+        "T1555.004",
+        "T1573.001"
       ],
       "targeted_sectors": [
 
@@ -2270,7 +2417,10 @@
       "description": "Group5 is a threat group with a suspected Iranian nexus, though this attribution is not definite. The group has targeted individuals connected to the Syrian opposition via spearphishing and watering holes, normally using Syrian and Iranian themes. Group5 has used two commonly avai",
       "country": null,
       "attck_techniques": [
-
+        "T1027.013",
+        "T1056.001",
+        "T1070.004",
+        "T1113"
       ],
       "targeted_sectors": [
 
@@ -2296,7 +2446,30 @@
       "description": "Gamaredon Group is a suspected Russian cyber espionage group that has targeted military, law enforcement, judiciary, non-profit, and non-governmental organizations in Ukraine since at least 2013. The name Gamaredon Group derives from a misspelling of the word \"Armageddon,\" found i",
       "country": "Russia",
       "attck_techniques": [
-
+        "T1001",
+        "T1005",
+        "T1012",
+        "T1016.001",
+        "T1020",
+        "T1021.005",
+        "T1025",
+        "T1027",
+        "T1027.004",
+        "T1027.010",
+        "T1027.012",
+        "T1027.015",
+        "T1027.016",
+        "T1033",
+        "T1036.005",
+        "T1039",
+        "T1041",
+        "T1047",
+        "T1053.005",
+        "T1055",
+        "T1057",
+        "T1059.001",
+        "T1059.003",
+        "T1059.005"
       ],
       "targeted_sectors": [
 
@@ -2309,7 +2482,13 @@
       "description": "RTM is a cybercriminal group that has been active since at least 2015 and is primarily interested in users of remote banking systems in Russia and neighboring countries. The group uses a Trojan by the same name (RTM). [ESET RTM Feb 2017](https://www.welivesecurity.com/wp-content/u",
       "country": null,
       "attck_techniques": [
-
+        "T1102.001",
+        "T1189",
+        "T1204.002",
+        "T1219.002",
+        "T1547.001",
+        "T1566.001",
+        "T1574.001"
       ],
       "targeted_sectors": [
 
@@ -2322,7 +2501,17 @@
       "description": "FIN10 is a financially motivated threat group that has targeted organizations in North America since at least 2013 through 2016. The group uses stolen data exfiltrated from victims to extort organizations. [FireEye FIN10 June 2017](https://services.google.com/fh/files/misc/rpt-fin",
       "country": null,
       "attck_techniques": [
-
+        "T1021.001",
+        "T1033",
+        "T1053.005",
+        "T1059.001",
+        "T1059.003",
+        "T1070.004",
+        "T1078",
+        "T1078.003",
+        "T1547.001",
+        "T1570",
+        "T1588.002"
       ],
       "targeted_sectors": [
 
@@ -2335,7 +2524,14 @@
       "description": "CopyKittens is an Iranian cyber espionage group that has been operating since at least 2013. It has targeted countries including Israel, Saudi Arabia, Turkey, the U.S., Jordan, and Germany. The group is responsible for the campaign known as Operation Wilted Tulip. [ClearSky CopyKi",
       "country": "Iran",
       "attck_techniques": [
-
+        "T1059.001",
+        "T1090",
+        "T1218.011",
+        "T1553.002",
+        "T1560.001",
+        "T1560.003",
+        "T1564.003",
+        "T1588.002"
       ],
       "targeted_sectors": [
 
@@ -2348,7 +2544,17 @@
       "description": "FIN5 is a financially motivated threat group that has targeted personally identifiable information and payment card information. The group has been active since at least 2008 and has targeted the restaurant, gaming, and hotel industries. The group is made up of actors who likely s",
       "country": null,
       "attck_techniques": [
-
+        "T1018",
+        "T1059",
+        "T1070.004",
+        "T1074.001",
+        "T1078",
+        "T1090.002",
+        "T1110",
+        "T1119",
+        "T1133",
+        "T1588.002",
+        "T1685.005"
       ],
       "targeted_sectors": [
 
@@ -2361,7 +2567,15 @@
       "description": "Sowbug is a threat group that has conducted targeted attacks against organizations in South America and Southeast Asia, particularly government entities, since at least 2015. [Symantec Sowbug Nov 2017](https://www.symantec.com/connect/blogs/sowbug-cyber-espionage-group-targets-sou",
       "country": "Unknown",
       "attck_techniques": [
-
+        "T1003",
+        "T1036.005",
+        "T1039",
+        "T1056.001",
+        "T1059.003",
+        "T1082",
+        "T1083",
+        "T1135",
+        "T1560.001"
       ],
       "targeted_sectors": [
 
@@ -2387,7 +2601,17 @@
       "description": "PROMETHIUM is an activity group focused on espionage that has been active since at least 2012. The group has conducted operations globally with a heavy emphasis on Turkish targets. PROMETHIUM has demonstrated similarity to another activity group called NEODYMIUM due to overlapping",
       "country": "Turkey",
       "attck_techniques": [
-
+        "T1036.004",
+        "T1036.005",
+        "T1078.003",
+        "T1189",
+        "T1204.002",
+        "T1205.001",
+        "T1543.003",
+        "T1547.001",
+        "T1553.002",
+        "T1587.002",
+        "T1587.003"
       ],
       "targeted_sectors": [
 
@@ -2413,7 +2637,30 @@
       "description": "FIN8 is a financially motivated threat group that has been active since at least January 2016, and known for targeting organizations in the hospitality, retail, entertainment, insurance, technology, chemical, and financial sectors. In June 2021, security researchers detected FIN8 ",
       "country": "Russia",
       "attck_techniques": [
-
+        "T1003.001",
+        "T1016.001",
+        "T1018",
+        "T1021.001",
+        "T1021.002",
+        "T1027.010",
+        "T1033",
+        "T1047",
+        "T1048.003",
+        "T1053.005",
+        "T1055.004",
+        "T1059.001",
+        "T1059.003",
+        "T1068",
+        "T1070.004",
+        "T1071.001",
+        "T1074.002",
+        "T1078",
+        "T1082",
+        "T1102",
+        "T1105",
+        "T1112",
+        "T1134.001",
+        "T1204.001"
       ],
       "targeted_sectors": [
 
@@ -2426,7 +2673,11 @@
       "description": "TA459 is a threat group believed to operate out of China that has targeted countries including Russia, Belarus, Mongolia, and others. [Proofpoint TA459 April 2017](https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts)",
       "country": "China",
       "attck_techniques": [
-
+        "T1059.001",
+        "T1059.005",
+        "T1203",
+        "T1204.002",
+        "T1566.001"
       ],
       "targeted_sectors": [
 
@@ -2439,7 +2690,7 @@
       "description": "BlackOasis is a Middle Eastern threat group that is believed to be a customer of Gamma Group. The group has shown interest in prominent figures in the United Nations, as well as opposition bloggers, activists, regional news correspondents, and think tanks. [Securelist BlackOasis O",
       "country": null,
       "attck_techniques": [
-
+        "T1027"
       ],
       "targeted_sectors": [
 
@@ -2452,7 +2703,30 @@
       "description": "APT33 is a suspected Iranian threat group that has carried out operations since at least 2013. The group has targeted organizations across multiple industries in the United States, Saudi Arabia, and South Korea, with a particular interest in the aviation and energy sectors. [FireE",
       "country": "Iran",
       "attck_techniques": [
-
+        "T0852",
+        "T0853",
+        "T0865",
+        "T1003.001",
+        "T1003.004",
+        "T1003.005",
+        "T1027.013",
+        "T1040",
+        "T1048.003",
+        "T1053.005",
+        "T1059.001",
+        "T1059.005",
+        "T1068",
+        "T1071.001",
+        "T1078",
+        "T1078.004",
+        "T1105",
+        "T1110.003",
+        "T1132.001",
+        "T1203",
+        "T1204.001",
+        "T1204.002",
+        "T1546.003",
+        "T1547.001"
       ],
       "targeted_sectors": [
 
@@ -2478,7 +2752,30 @@
       "description": "APT37 is a North Korean state-sponsored cyber espionage group that has been active since at least 2012. The group has targeted victims primarily in South Korea, but also in Japan, Vietnam, Russia, Nepal, China, India, Romania, Kuwait, and other parts of the Middle East. APT37 has ",
       "country": "North Korea",
       "attck_techniques": [
-
+        "T1005",
+        "T1027",
+        "T1027.003",
+        "T1033",
+        "T1036.001",
+        "T1053.005",
+        "T1055",
+        "T1057",
+        "T1059",
+        "T1059.003",
+        "T1059.005",
+        "T1059.006",
+        "T1071.001",
+        "T1082",
+        "T1102.002",
+        "T1105",
+        "T1106",
+        "T1120",
+        "T1123",
+        "T1189",
+        "T1203",
+        "T1204.002",
+        "T1529",
+        "T1547.001"
       ],
       "targeted_sectors": [
 
@@ -2491,7 +2788,17 @@
       "description": "PLATINUM is an activity group that has targeted victims since at least 2009. The group has focused on targets associated with governments and related organizations in South and Southeast Asia. [Microsoft PLATINUM April 2016](https://download.microsoft.com/download/2/2/5/225BFE3E-E",
       "country": "Singapore",
       "attck_techniques": [
-
+        "T1003.001",
+        "T1036",
+        "T1055",
+        "T1056.001",
+        "T1056.004",
+        "T1068",
+        "T1095",
+        "T1105",
+        "T1189",
+        "T1204.002",
+        "T1566.001"
       ],
       "targeted_sectors": [
 
@@ -2504,7 +2811,30 @@
       "description": "MuddyWater is a cyber espionage group assessed to be a subordinate element within Iran's Ministry of Intelligence and Security (MOIS). [CYBERCOM Iranian Intel Cyber January 2022](https://www.cybercom.mil/Media/News/Article/2897570/iranian-intel-cyber-suite-of-malware-uses-open-sou",
       "country": "Iran",
       "attck_techniques": [
-
+        "T1003.001",
+        "T1003.004",
+        "T1003.005",
+        "T1016",
+        "T1027.003",
+        "T1027.004",
+        "T1027.010",
+        "T1033",
+        "T1036.005",
+        "T1041",
+        "T1047",
+        "T1049",
+        "T1053.005",
+        "T1057",
+        "T1059.001",
+        "T1059.003",
+        "T1059.005",
+        "T1059.006",
+        "T1059.007",
+        "T1071.001",
+        "T1074.001",
+        "T1082",
+        "T1083",
+        "T1087.002"
       ],
       "targeted_sectors": [
 
@@ -2517,7 +2847,19 @@
       "description": "Dark Caracal is threat group that has been attributed to the Lebanese General Directorate of General Security (GDGS) and has operated since at least 2012. [Lookout Dark Caracal Jan 2018](https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf)",
       "country": "Lebanon",
       "attck_techniques": [
-
+        "T1005",
+        "T1027.002",
+        "T1027.013",
+        "T1059.003",
+        "T1071.001",
+        "T1083",
+        "T1113",
+        "T1189",
+        "T1204.002",
+        "T1218.001",
+        "T1437.001",
+        "T1547.001",
+        "T1566.003"
       ],
       "targeted_sectors": [
 
@@ -2530,7 +2872,8 @@
       "description": "Orangeworm is a group that has targeted organizations in the healthcare sector in the United States, Europe, and Asia since at least 2015, likely for the purpose of corporate espionage. [Symantec Orangeworm April 2018](https://www.symantec.com/blogs/threat-intelligence/orangeworm-",
       "country": null,
       "attck_techniques": [
-
+        "T1021.002",
+        "T1071.001"
       ],
       "targeted_sectors": [
 
@@ -2543,7 +2886,27 @@
       "description": "APT19 is a Chinese-based threat group that has targeted a variety of industries, including defense, finance, energy, pharmaceutical, telecommunications, high tech, education, manufacturing, and legal services. In 2017, a phishing campaign was used to target seven law and investmen",
       "country": "China",
       "attck_techniques": [
-
+        "T1016",
+        "T1027.010",
+        "T1027.013",
+        "T1033",
+        "T1059",
+        "T1059.001",
+        "T1071.001",
+        "T1082",
+        "T1112",
+        "T1132.001",
+        "T1140",
+        "T1189",
+        "T1204.002",
+        "T1218.010",
+        "T1218.011",
+        "T1543.003",
+        "T1547.001",
+        "T1564.003",
+        "T1566.001",
+        "T1574.001",
+        "T1588.002"
       ],
       "targeted_sectors": [
 
@@ -2556,7 +2919,15 @@
       "description": "Rancor is a threat group that has led targeted campaigns against the South East Asia region. Rancor uses politically-motivated lures to entice victims to open malicious documents. [Rancor Unit42 June 2018](https://researchcenter.paloaltonetworks.com/2018/06/unit42-rancor-targeted-",
       "country": "China",
       "attck_techniques": [
-
+        "T1053.005",
+        "T1059.003",
+        "T1059.005",
+        "T1071.001",
+        "T1105",
+        "T1204.002",
+        "T1218.007",
+        "T1546.003",
+        "T1566.001"
       ],
       "targeted_sectors": [
 
@@ -2608,7 +2979,13 @@
       "description": "DarkHydrus is a threat group that has targeted government agencies and educational institutions in the Middle East since at least 2016. The group heavily leverages open-source tools and custom payloads for carrying out attacks. [Unit 42 DarkHydrus July 2018](https://researchcenter",
       "country": "Iran",
       "attck_techniques": [
-
+        "T1059.001",
+        "T1187",
+        "T1204.002",
+        "T1221",
+        "T1564.003",
+        "T1566.001",
+        "T1588.002"
       ],
       "targeted_sectors": [
 
@@ -2660,7 +3037,10 @@
       "description": "SilverTerrier is a Nigerian threat group that has been seen active since 2014. SilverTerrier mainly targets organizations in high technology, higher education, and manufacturing. [Unit42 SilverTerrier 2018](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath",
       "country": "Nigeria",
       "attck_techniques": [
-
+        "T1071.001",
+        "T1071.002",
+        "T1071.003",
+        "T1657"
       ],
       "targeted_sectors": [
 
@@ -2673,7 +3053,12 @@
       "description": "Gallmaker is a cyberespionage group that has targeted victims in the Middle East and has been active since at least December 2017. The group has mainly targeted victims in the defense, military, and government sectors. [Symantec Gallmaker Oct 2018](https://www.symantec.com/blogs/t",
       "country": null,
       "attck_techniques": [
-
+        "T1027",
+        "T1059.001",
+        "T1204.002",
+        "T1559.002",
+        "T1560.001",
+        "T1566.001"
       ],
       "targeted_sectors": [
 
@@ -2699,7 +3084,30 @@
       "description": "APT39 is one of several names for cyber espionage activity conducted by the Iranian Ministry of Intelligence and Security (MOIS) through the front company Rana Intelligence Computing since at least 2014. APT39 has primarily targeted the travel, hospitality, academic, and telecommu",
       "country": "Iran",
       "attck_techniques": [
-
+        "T1003",
+        "T1003.001",
+        "T1005",
+        "T1012",
+        "T1018",
+        "T1021.001",
+        "T1021.002",
+        "T1021.004",
+        "T1027.002",
+        "T1027.013",
+        "T1033",
+        "T1036.005",
+        "T1041",
+        "T1046",
+        "T1053.005",
+        "T1056",
+        "T1056.001",
+        "T1059",
+        "T1059.001",
+        "T1059.005",
+        "T1059.006",
+        "T1059.010",
+        "T1070.004",
+        "T1071.001"
       ],
       "targeted_sectors": [
 
@@ -2712,7 +3120,8 @@
       "description": "TEMP.Veles is a Russia-based threat group that has targeted critical infrastructure. The group has been observed utilizing TRITON, a malware framework designed to manipulate industrial safety systems. [FireEye TRITON 2019](https://www.fireeye.com/blog/threat-research/2019/04/trito",
       "country": "Russia",
       "attck_techniques": [
-
+        "T0817",
+        "T0862"
       ],
       "targeted_sectors": [
 
@@ -2725,7 +3134,13 @@
       "description": "The White Company is a likely state-sponsored threat actor with advanced capabilities. From 2017 through 2018, the group led an espionage campaign called Operation Shaheen targeting government and military organizations in Pakistan. [Cylance Shaheen Nov 2018](https://www.cylance.c",
       "country": null,
       "attck_techniques": [
-
+        "T1027.002",
+        "T1070.004",
+        "T1124",
+        "T1203",
+        "T1204.002",
+        "T1518.001",
+        "T1566.001"
       ],
       "targeted_sectors": [
 
@@ -2738,7 +3153,30 @@
       "description": "WIRTE is a cyberespionage actor, believed to be a subgroup of the Hamas-affiliated Gaza Cybergang, that has been active since at least August 2018. WIRTE has targeted diplomatic, financial, military, legal, and technology organizations across the Middle East, North Africa, and in ",
       "country": null,
       "attck_techniques": [
-
+        "T1027.010",
+        "T1027.015",
+        "T1036.005",
+        "T1041",
+        "T1059.001",
+        "T1059.003",
+        "T1059.005",
+        "T1071.001",
+        "T1074.001",
+        "T1105",
+        "T1106",
+        "T1114.001",
+        "T1140",
+        "T1204.001",
+        "T1204.002",
+        "T1218.010",
+        "T1497.001",
+        "T1566.001",
+        "T1566.002",
+        "T1571",
+        "T1574.001",
+        "T1583.001",
+        "T1586.002",
+        "T1588.002"
       ],
       "targeted_sectors": [
 
@@ -2764,7 +3202,30 @@
       "description": "GALLIUM is a cyberespionage group that has been active since at least 2012, primarily targeting telecommunications companies, financial institutions, and government entities in Afghanistan, Australia, Belgium, Cambodia, Malaysia, Mozambique, the Philippines, Russia, and Vietnam. T",
       "country": "China",
       "attck_techniques": [
-
+        "T1003.001",
+        "T1003.002",
+        "T1005",
+        "T1016",
+        "T1018",
+        "T1027",
+        "T1027.002",
+        "T1027.005",
+        "T1033",
+        "T1036.003",
+        "T1041",
+        "T1047",
+        "T1049",
+        "T1053.005",
+        "T1059.001",
+        "T1059.003",
+        "T1074.001",
+        "T1078",
+        "T1090.002",
+        "T1105",
+        "T1133",
+        "T1136.002",
+        "T1190",
+        "T1505.003"
       ],
       "targeted_sectors": [
 
@@ -2803,7 +3264,20 @@
       "description": "BlackTech is a suspected Chinese cyber espionage group that has primarily targeted organizations in East Asia--particularly Taiwan, Japan, and Hong Kong--and the US since at least 2013. BlackTech has used a combination of custom malware, dual-use tools, and living off the land tac",
       "country": "China",
       "attck_techniques": [
-
+        "T1021.004",
+        "T1036.002",
+        "T1046",
+        "T1106",
+        "T1190",
+        "T1203",
+        "T1204.001",
+        "T1204.002",
+        "T1566.001",
+        "T1566.002",
+        "T1574.001",
+        "T1588.002",
+        "T1588.003",
+        "T1588.004"
       ],
       "targeted_sectors": [
 
@@ -2816,7 +3290,30 @@
       "description": "APT-C-36 is a suspected South America espionage group that has been active since at least 2018. The group mainly targets Colombian government institutions as well as important corporations in the financial sector, petroleum industry, and professional manufacturing. [QiAnXin APT-C-",
       "country": null,
       "attck_techniques": [
-
+        "T1027",
+        "T1027.003",
+        "T1027.013",
+        "T1027.016",
+        "T1036.004",
+        "T1036.005",
+        "T1047",
+        "T1053.005",
+        "T1055.012",
+        "T1059.001",
+        "T1059.005",
+        "T1059.007",
+        "T1105",
+        "T1133",
+        "T1204.001",
+        "T1204.002",
+        "T1480",
+        "T1534",
+        "T1564.003",
+        "T1566.001",
+        "T1566.002",
+        "T1568",
+        "T1571",
+        "T1574.001"
       ],
       "targeted_sectors": [
 
@@ -2842,7 +3339,12 @@
       "description": "Mofang is a likely China-based cyber espionage group, named for its frequent practice of imitating a victim's infrastructure. This adversary has been observed since at least May 2012 conducting focused attacks against government and critical infrastructure in Myanmar, as well as s",
       "country": "China",
       "attck_techniques": [
-
+        "T1027.013",
+        "T1027.015",
+        "T1204.001",
+        "T1204.002",
+        "T1566.001",
+        "T1566.002"
       ],
       "targeted_sectors": [
 
@@ -2855,7 +3357,16 @@
       "description": "DarkVishnya is a financially motivated threat actor targeting financial institutions in Eastern Europe. In 2017-2018 the group attacked at least 8 banks in this region. [Securelist DarkVishnya Dec 2018](https://securelist.com/darkvishnya/89169/)",
       "country": null,
       "attck_techniques": [
-
+        "T1040",
+        "T1046",
+        "T1059.001",
+        "T1110",
+        "T1135",
+        "T1200",
+        "T1219",
+        "T1543.003",
+        "T1571",
+        "T1588.002"
       ],
       "targeted_sectors": [
 
@@ -2868,7 +3379,30 @@
       "description": "Rocke is an alleged Chinese-speaking adversary whose primary objective appeared to be cryptojacking, or stealing victim system resources for the purposes of mining cryptocurrency. The name Rocke comes from the email address \"rocke@live.cn\" used to create the wallet which held coll",
       "country": null,
       "attck_techniques": [
-
+        "T1014",
+        "T1018",
+        "T1021.004",
+        "T1027",
+        "T1027.002",
+        "T1027.004",
+        "T1036.005",
+        "T1037",
+        "T1046",
+        "T1053.003",
+        "T1055.002",
+        "T1057",
+        "T1059.004",
+        "T1059.006",
+        "T1070.004",
+        "T1070.006",
+        "T1071",
+        "T1071.001",
+        "T1082",
+        "T1102",
+        "T1102.001",
+        "T1105",
+        "T1140",
+        "T1190"
       ],
       "targeted_sectors": [
 
@@ -2881,7 +3415,15 @@
       "description": "Whitefly is a cyber espionage group that has been operating since at least 2017. The group has targeted organizations based mostly in Singapore across a wide variety of sectors, and is primarily interested in stealing large amounts of sensitive information. The group has been link",
       "country": null,
       "attck_techniques": [
-
+        "T1003.001",
+        "T1027.013",
+        "T1036.005",
+        "T1059",
+        "T1068",
+        "T1105",
+        "T1204.002",
+        "T1574.001",
+        "T1588.002"
       ],
       "targeted_sectors": [
 
@@ -2894,7 +3436,28 @@
       "description": "Blue Mockingbird is a cluster of observed activity involving Monero cryptocurrency-mining payloads in dynamic-link library (DLL) form on Windows systems. The earliest observed Blue Mockingbird tools were created in December 2019. [RedCanary Mockingbird May 2020](https://redcanary.",
       "country": null,
       "attck_techniques": [
-
+        "T1003.001",
+        "T1021.001",
+        "T1021.002",
+        "T1027.013",
+        "T1036.005",
+        "T1047",
+        "T1053.005",
+        "T1059.001",
+        "T1059.003",
+        "T1082",
+        "T1090",
+        "T1112",
+        "T1134",
+        "T1190",
+        "T1218.010",
+        "T1218.011",
+        "T1496.001",
+        "T1543.003",
+        "T1546.003",
+        "T1569.002",
+        "T1574.012",
+        "T1588.002"
       ],
       "targeted_sectors": [
 
@@ -2920,7 +3483,30 @@
       "description": "Chimera is a suspected China-based threat group that has been active since at least 2018 targeting the semiconductor industry in Taiwan as well as data from the airline industry. [Cycraft Chimera April 2020](https://cycraft.com/download/CyCraft-Whitepaper-Chimera_V4.1.pdf) [NCC Gr",
       "country": "China",
       "attck_techniques": [
-
+        "T1003.003",
+        "T1007",
+        "T1012",
+        "T1016",
+        "T1018",
+        "T1021.001",
+        "T1021.002",
+        "T1021.006",
+        "T1027.010",
+        "T1033",
+        "T1036.005",
+        "T1039",
+        "T1041",
+        "T1046",
+        "T1047",
+        "T1049",
+        "T1053.005",
+        "T1057",
+        "T1059.001",
+        "T1059.003",
+        "T1069.001",
+        "T1070.004",
+        "T1070.006",
+        "T1071.001"
       ],
       "targeted_sectors": [
 
@@ -2946,7 +3532,30 @@
       "description": "Fox Kitten is threat actor with a suspected nexus to the Iranian government that has been active since at least 2017 against entities in the Middle East, North Africa, Europe, Australia, and North America. Fox Kitten has targeted multiple industrial verticals including oil and gas",
       "country": "Iran",
       "attck_techniques": [
-
+        "T1003.001",
+        "T1003.003",
+        "T1005",
+        "T1012",
+        "T1018",
+        "T1021.001",
+        "T1021.002",
+        "T1021.004",
+        "T1021.005",
+        "T1027.010",
+        "T1027.013",
+        "T1036.004",
+        "T1036.005",
+        "T1039",
+        "T1046",
+        "T1053.005",
+        "T1059",
+        "T1059.001",
+        "T1059.003",
+        "T1078",
+        "T1083",
+        "T1087.001",
+        "T1087.002",
+        "T1090"
       ],
       "targeted_sectors": [
 
@@ -2972,7 +3581,17 @@
       "description": "Evilnum is a financially motivated threat group that has been active since at least 2018. [ESET EvilNum July 2020](https://www.welivesecurity.com/2020/07/09/more-evil-deep-look-evilnum-toolset/)",
       "country": null,
       "attck_techniques": [
-
+        "T1059.007",
+        "T1070.004",
+        "T1105",
+        "T1204.001",
+        "T1219.002",
+        "T1497.001",
+        "T1539",
+        "T1548.002",
+        "T1555",
+        "T1566.002",
+        "T1574.001"
       ],
       "targeted_sectors": [
 
@@ -2998,7 +3617,19 @@
       "description": "Silent Librarian is a group that has targeted research and proprietary data at universities, government agencies, and private sector companies worldwide since at least 2013. Members of Silent Librarian are known to have been affiliated with the Iran-based Mabna Institute which has",
       "country": "Iran",
       "attck_techniques": [
-
+        "T1078",
+        "T1110.003",
+        "T1114",
+        "T1114.003",
+        "T1583.001",
+        "T1585.002",
+        "T1588.002",
+        "T1588.004",
+        "T1589.002",
+        "T1589.003",
+        "T1594",
+        "T1598.003",
+        "T1608.005"
       ],
       "targeted_sectors": [
 
@@ -3011,7 +3642,11 @@
       "description": "Volatile Cedar is a Lebanese threat group that has targeted individuals, companies, and institutions worldwide. Volatile Cedar has been operating since 2012 and is motivated by political and ideological interests. [CheckPoint Volatile Cedar March 2015](https://media.kasperskyconte",
       "country": "Lebanon",
       "attck_techniques": [
-
+        "T1105",
+        "T1190",
+        "T1505.003",
+        "T1595.002",
+        "T1595.003"
       ],
       "targeted_sectors": [
 
@@ -3024,7 +3659,13 @@
       "description": "The Windigo group has been operating since at least 2011, compromising thousands of Linux and Unix servers using the Ebury SSH backdoor to create a spam botnet. Despite law enforcement intervention against the creators, Windigo operators continued updating Ebury through 2019. [ESE",
       "country": null,
       "attck_techniques": [
-
+        "T1005",
+        "T1059",
+        "T1082",
+        "T1083",
+        "T1090",
+        "T1189",
+        "T1518"
       ],
       "targeted_sectors": [
 
@@ -3037,7 +3678,30 @@
       "description": "HAFNIUM is a likely state-sponsored cyber espionage group operating out of China that has been active since at least January 2021. HAFNIUM primarily targets entities in the US across a number of industry sectors, including infectious disease researchers, law firms, higher educatio",
       "country": "China",
       "attck_techniques": [
-
+        "T1003.001",
+        "T1003.003",
+        "T1005",
+        "T1016",
+        "T1016.001",
+        "T1018",
+        "T1033",
+        "T1057",
+        "T1059.001",
+        "T1059.003",
+        "T1068",
+        "T1071.001",
+        "T1078.003",
+        "T1078.004",
+        "T1083",
+        "T1095",
+        "T1098",
+        "T1105",
+        "T1110.003",
+        "T1114.002",
+        "T1119",
+        "T1132.001",
+        "T1136.002",
+        "T1190"
       ],
       "targeted_sectors": [
 
@@ -3050,7 +3714,30 @@
       "description": "Higaisa is a threat group suspected to have South Korean origins. Higaisa has targeted government, public, and trade organizations in North Korea; however, they have also carried out attacks in China, Japan, Russia, Poland, and other nations. Higaisa was first disclosed in early 2",
       "country": "South Korea",
       "attck_techniques": [
-
+        "T1001.003",
+        "T1016",
+        "T1027.001",
+        "T1027.013",
+        "T1027.015",
+        "T1029",
+        "T1036.004",
+        "T1041",
+        "T1053.005",
+        "T1057",
+        "T1059.003",
+        "T1059.005",
+        "T1059.007",
+        "T1071.001",
+        "T1082",
+        "T1090.001",
+        "T1106",
+        "T1124",
+        "T1140",
+        "T1203",
+        "T1204.002",
+        "T1220",
+        "T1547.001",
+        "T1564.003"
       ],
       "targeted_sectors": [
 
@@ -3115,7 +3802,21 @@
       "description": "Tonto Team is a suspected Chinese state-sponsored cyber espionage threat group that has primarily targeted South Korea, Japan, Taiwan, and the United States since at least 2009; by 2020 they expanded operations to include other Asian as well as Eastern European countries. Tonto Te",
       "country": "China",
       "attck_techniques": [
-
+        "T1003",
+        "T1056.001",
+        "T1059.001",
+        "T1059.006",
+        "T1068",
+        "T1069.001",
+        "T1090.002",
+        "T1105",
+        "T1135",
+        "T1203",
+        "T1204.002",
+        "T1210",
+        "T1505.003",
+        "T1566.001",
+        "T1574.001"
       ],
       "targeted_sectors": [
 
@@ -3154,7 +3855,21 @@
       "description": "BackdoorDiplomacy is a cyber espionage threat group that has been active since at least 2017. BackdoorDiplomacy has targeted Ministries of Foreign Affairs and telecommunication companies in Africa, Europe, the Middle East, and Asia. [ESET BackdoorDiplomacy Jun 2021](https://www.we",
       "country": "China",
       "attck_techniques": [
-
+        "T1027",
+        "T1036.004",
+        "T1036.005",
+        "T1046",
+        "T1049",
+        "T1055.001",
+        "T1074.001",
+        "T1095",
+        "T1105",
+        "T1120",
+        "T1190",
+        "T1505.003",
+        "T1574.001",
+        "T1588.001",
+        "T1588.002"
       ],
       "targeted_sectors": [
 
@@ -3167,7 +3882,13 @@
       "description": "IndigoZebra is a suspected Chinese cyber espionage group that has been targeting Central Asian governments since at least 2014. [HackerNews IndigoZebra July 2021](https://thehackernews.com/2021/07/indigozebra-apt-hacking-campaign.html) [Checkpoint IndigoZebra July 2021](https://re",
       "country": "China",
       "attck_techniques": [
-
+        "T1105",
+        "T1204.002",
+        "T1566.001",
+        "T1583.001",
+        "T1583.006",
+        "T1586.002",
+        "T1588.002"
       ],
       "targeted_sectors": [
 
@@ -3180,7 +3901,12 @@
       "description": "Ferocious Kitten is a threat group that has primarily targeted Persian-speaking individuals in Iran since at least 2015. [Kaspersky Ferocious Kitten Jun 2021](https://securelist.com/ferocious-kitten-6-years-of-covert-surveillance-in-iran/102806/)",
       "country": "Iran",
       "attck_techniques": [
-
+        "T1036.002",
+        "T1036.005",
+        "T1204.002",
+        "T1566.001",
+        "T1583.001",
+        "T1588.002"
       ],
       "targeted_sectors": [
 
@@ -3206,7 +3932,30 @@
       "description": "TeamTNT is a threat group that has primarily targeted cloud and containerized environments. The group as been active since at least October 2019 and has mainly focused its efforts on leveraging cloud and container resources to deploy cryptocurrency miners in victim environments. [",
       "country": null,
       "attck_techniques": [
-
+        "T1007",
+        "T1014",
+        "T1016",
+        "T1021.004",
+        "T1027.002",
+        "T1027.013",
+        "T1036",
+        "T1036.005",
+        "T1046",
+        "T1048",
+        "T1049",
+        "T1057",
+        "T1059.001",
+        "T1059.003",
+        "T1059.004",
+        "T1059.009",
+        "T1059.013",
+        "T1070.003",
+        "T1070.004",
+        "T1071",
+        "T1071.001",
+        "T1074.001",
+        "T1082",
+        "T1083"
       ],
       "targeted_sectors": [
 
@@ -3219,7 +3968,26 @@
       "description": "LazyScripter is threat group that has mainly targeted the airlines industry since at least 2018, primarily using open-source toolsets. [MalwareBytes LazyScripter Feb 2021](https://web.archive.org/web/20211003035156/https://www.malwarebytes.com/resources/files/2021/02/lazyscripter.",
       "country": null,
       "attck_techniques": [
-
+        "T1027.010",
+        "T1036",
+        "T1059.001",
+        "T1059.003",
+        "T1059.005",
+        "T1059.007",
+        "T1071.004",
+        "T1102",
+        "T1105",
+        "T1204.001",
+        "T1204.002",
+        "T1218.005",
+        "T1218.011",
+        "T1547.001",
+        "T1566.001",
+        "T1566.002",
+        "T1583.001",
+        "T1583.006",
+        "T1588.001",
+        "T1608.001"
       ],
       "targeted_sectors": [
 
@@ -3232,7 +4000,25 @@
       "description": "Confucius is a cyber espionage group that has primarily targeted military personnel, high-profile personalities, business persons, and government organizations in South Asia since at least 2013. Security researchers have noted similarities between Confucius and Patchwork, particul",
       "country": null,
       "attck_techniques": [
-
+        "T1041",
+        "T1053.005",
+        "T1059.001",
+        "T1059.005",
+        "T1071.001",
+        "T1083",
+        "T1105",
+        "T1119",
+        "T1203",
+        "T1204.001",
+        "T1204.002",
+        "T1218.005",
+        "T1221",
+        "T1547.001",
+        "T1566.001",
+        "T1566.002",
+        "T1567.002",
+        "T1583.006",
+        "T1680"
       ],
       "targeted_sectors": [
 
@@ -3258,7 +4044,29 @@
       "description": "APT1 is a Chinese cyber espionage group that has been conducting cyber espionage against a broad range of victims.",
       "country": "China",
       "attck_techniques": [
-
+        "T1003.001",
+        "T1005",
+        "T1007",
+        "T1016",
+        "T1021.001",
+        "T1036.005",
+        "T1049",
+        "T1057",
+        "T1059.003",
+        "T1087.001",
+        "T1114.001",
+        "T1114.002",
+        "T1119",
+        "T1135",
+        "T1550.002",
+        "T1560.001",
+        "T1566.001",
+        "T1566.002",
+        "T1583.001",
+        "T1584.001",
+        "T1585.002",
+        "T1588.001",
+        "T1588.002"
       ],
       "targeted_sectors": [
 
@@ -3323,7 +4131,30 @@
       "description": "LAPSUS$ is cyber criminal threat group that has been active since at least mid-2021. LAPSUS$ specializes in large-scale social engineering and extortion operations, including destructive attacks without the use of ransomware. The group has targeted organizations globally, includin",
       "country": null,
       "attck_techniques": [
-
+        "T1003.003",
+        "T1003.006",
+        "T1005",
+        "T1068",
+        "T1069.002",
+        "T1078",
+        "T1078.004",
+        "T1087.002",
+        "T1090",
+        "T1098.003",
+        "T1111",
+        "T1114.003",
+        "T1133",
+        "T1136.003",
+        "T1199",
+        "T1204",
+        "T1213.001",
+        "T1213.002",
+        "T1213.003",
+        "T1213.005",
+        "T1451",
+        "T1485",
+        "T1489",
+        "T1531"
       ],
       "targeted_sectors": [
 
@@ -3336,7 +4167,13 @@
       "description": "POLONIUM is a Lebanon-based group that has primarily targeted Israeli organizations, including critical manufacturing, information technology, and defense industry companies, since at least February 2022. Security researchers assess POLONIUM has coordinated their operations with m",
       "country": "Lebanon",
       "attck_techniques": [
-
+        "T1078",
+        "T1090",
+        "T1102.002",
+        "T1199",
+        "T1567.002",
+        "T1583.006",
+        "T1588.002"
       ],
       "targeted_sectors": [
 
@@ -3349,7 +4186,30 @@
       "description": "Earth Lusca is a suspected China-based cyber espionage group that has been active since at least April 2019. Earth Lusca has targeted organizations in Australia, China, Hong Kong, Mongolia, Nepal, the Philippines, Taiwan, Thailand, Vietnam, the United Arab Emirates, Nigeria, Germa",
       "country": "China",
       "attck_techniques": [
-
+        "T1003.001",
+        "T1003.006",
+        "T1007",
+        "T1016",
+        "T1018",
+        "T1027",
+        "T1027.003",
+        "T1033",
+        "T1036.005",
+        "T1047",
+        "T1049",
+        "T1053.005",
+        "T1057",
+        "T1059.001",
+        "T1059.005",
+        "T1059.006",
+        "T1059.007",
+        "T1090",
+        "T1098.004",
+        "T1112",
+        "T1140",
+        "T1189",
+        "T1190",
+        "T1204.001"
       ],
       "targeted_sectors": [
 
@@ -3362,7 +4222,15 @@
       "description": "Aoqin Dragon is a suspected Chinese cyber espionage threat group that has been active since at least 2013. Aoqin Dragon has primarily targeted government, education, and telecommunication organizations in Australia, Cambodia, Hong Kong, Singapore, and Vietnam. Security researchers",
       "country": "China",
       "attck_techniques": [
-
+        "T1027.002",
+        "T1036",
+        "T1083",
+        "T1091",
+        "T1203",
+        "T1204.002",
+        "T1570",
+        "T1587.001",
+        "T1588.002"
       ],
       "targeted_sectors": [
 
@@ -3375,7 +4243,22 @@
       "description": "SideCopy is a Pakistani threat group that has primarily targeted South Asian countries, including Indian and Afghani government personnel, since at least 2019. SideCopy's name comes from its infection chain that tries to mimic that of Sidewinder, a suspected Indian threat group. [",
       "country": "Pakistan",
       "attck_techniques": [
-
+        "T1016",
+        "T1036.005",
+        "T1059.005",
+        "T1082",
+        "T1105",
+        "T1106",
+        "T1204.002",
+        "T1218.005",
+        "T1518",
+        "T1518.001",
+        "T1566.001",
+        "T1574.001",
+        "T1584.001",
+        "T1598.002",
+        "T1608.001",
+        "T1614"
       ],
       "targeted_sectors": [
 
@@ -3388,7 +4271,18 @@
       "description": "Moses Staff is a suspected Iranian threat group that has primarily targeted Israeli companies since at least September 2021. Moses Staff openly stated their motivation in attacking Israeli companies is to cause damage by leaking stolen sensitive data and encrypting the victim's ne",
       "country": "Iran",
       "attck_techniques": [
-
+        "T1016",
+        "T1021.002",
+        "T1027.013",
+        "T1082",
+        "T1087.001",
+        "T1105",
+        "T1190",
+        "T1505.003",
+        "T1553.002",
+        "T1587.001",
+        "T1588.002",
+        "T1686.003"
       ],
       "targeted_sectors": [
 
@@ -3401,7 +4295,21 @@
       "description": "EXOTIC LILY is a financially motivated group that has been closely linked with Wizard Spider and the deployment of ransomware including Conti and Diavol. EXOTIC LILY may be acting as an initial access broker for other malicious actors, and has targeted a wide range of industries i",
       "country": null,
       "attck_techniques": [
-
+        "T1102",
+        "T1203",
+        "T1204.001",
+        "T1204.002",
+        "T1566.001",
+        "T1566.002",
+        "T1566.003",
+        "T1583.001",
+        "T1585.001",
+        "T1585.002",
+        "T1589.002",
+        "T1593.001",
+        "T1594",
+        "T1597",
+        "T1608.001"
       ],
       "targeted_sectors": [
 
@@ -3427,7 +4335,15 @@
       "description": "Metador is a suspected cyber espionage group that was first reported in September 2022. Metador has targeted a limited number of telecommunication companies, internet service providers, and universities in the Middle East and Africa. Security researchers named the group Metador ba",
       "country": null,
       "attck_techniques": [
-
+        "T1027.013",
+        "T1059.003",
+        "T1070.004",
+        "T1071.001",
+        "T1095",
+        "T1105",
+        "T1546.003",
+        "T1588.001",
+        "T1588.002"
       ],
       "targeted_sectors": [
 
@@ -3453,7 +4369,30 @@
       "description": "Scattered Spider is a native English-speaking cybercriminal group active since at least 2022. [CrowdStrike Scattered Spider Profile](https://www.crowdstrike.com/adversaries/scattered-spider/) [MSTIC Octo Tempest Operations October 2023](https://www.microsoft.com/en-us/security/blo",
       "country": null,
       "attck_techniques": [
-
+        "T1003.003",
+        "T1006",
+        "T1016",
+        "T1018",
+        "T1021.001",
+        "T1021.004",
+        "T1021.007",
+        "T1041",
+        "T1059.001",
+        "T1059.004",
+        "T1068",
+        "T1069",
+        "T1069.002",
+        "T1070.008",
+        "T1074",
+        "T1078",
+        "T1078.004",
+        "T1082",
+        "T1083",
+        "T1087",
+        "T1087.002",
+        "T1090",
+        "T1098",
+        "T1098.003"
       ],
       "targeted_sectors": [
 
@@ -3466,7 +4405,30 @@
       "description": "FIN13 is a financially motivated cyber threat group that has targeted the financial, retail, and hospitality industries in Mexico and Latin America, as early as 2016. FIN13 achieves its objectives by stealing intellectual property, financial data, mergers and acquisition informati",
       "country": "Russia",
       "attck_techniques": [
-
+        "T1003.001",
+        "T1003.002",
+        "T1003.003",
+        "T1005",
+        "T1016",
+        "T1016.001",
+        "T1021.001",
+        "T1021.002",
+        "T1021.004",
+        "T1021.006",
+        "T1036",
+        "T1036.004",
+        "T1036.005",
+        "T1046",
+        "T1047",
+        "T1049",
+        "T1053.005",
+        "T1056.001",
+        "T1059.001",
+        "T1059.003",
+        "T1059.005",
+        "T1069",
+        "T1071.001",
+        "T1074.001"
       ],
       "targeted_sectors": [
 
@@ -3479,7 +4441,30 @@
       "description": "Volt Typhoon is a People's Republic of China (PRC) state-sponsored actor that has been active since at least 2021 primarily targeting critical infrastructure organizations in the US and its territories including Guam. Volt Typhoon's targeting and pattern of behavior have been asse",
       "country": "China",
       "attck_techniques": [
-
+        "T1003.001",
+        "T1003.003",
+        "T1005",
+        "T1006",
+        "T1007",
+        "T1010",
+        "T1012",
+        "T1016",
+        "T1016.001",
+        "T1018",
+        "T1021.001",
+        "T1027.002",
+        "T1033",
+        "T1036.005",
+        "T1036.008",
+        "T1046",
+        "T1047",
+        "T1049",
+        "T1056.001",
+        "T1057",
+        "T1059.001",
+        "T1059.003",
+        "T1059.004",
+        "T1068"
       ],
       "targeted_sectors": [
 
@@ -3492,7 +4477,30 @@
       "description": "TA2541 is a cybercriminal group that has been targeting the aviation, aerospace, transportation, manufacturing, and defense industries since at least 2017. TA2541 campaigns are typically high volume and involve the use of commodity remote access tools obfuscated by crypters and th",
       "country": null,
       "attck_techniques": [
-
+        "T1016.001",
+        "T1027.002",
+        "T1027.013",
+        "T1027.015",
+        "T1036.005",
+        "T1047",
+        "T1053.005",
+        "T1055",
+        "T1055.012",
+        "T1059.001",
+        "T1059.005",
+        "T1082",
+        "T1105",
+        "T1204.001",
+        "T1204.002",
+        "T1218.005",
+        "T1518.001",
+        "T1547.001",
+        "T1566.001",
+        "T1566.002",
+        "T1568",
+        "T1573.002",
+        "T1583.001",
+        "T1583.006"
       ],
       "targeted_sectors": [
 
@@ -3505,7 +4513,15 @@
       "description": "MoustachedBouncer is a cyberespionage group that has been active since at least 2014 targeting foreign embassies in Belarus. [MoustachedBouncer ESET August 2023](https://www.welivesecurity.com/en/eset-research/moustachedbouncer-espionage-against-foreign-diplomats-in-belarus/)",
       "country": "Belarus",
       "attck_techniques": [
-
+        "T1027.002",
+        "T1059.001",
+        "T1059.007",
+        "T1068",
+        "T1074.002",
+        "T1090",
+        "T1113",
+        "T1655.001",
+        "T1659"
       ],
       "targeted_sectors": [
 
@@ -3544,7 +4560,30 @@
       "description": "ToddyCat is a sophisticated threat group that has been active since at least 2020 using custom loaders and malware in multi-stage infection chains against government and military targets across Europe and Asia. [Kaspersky ToddyCat June 2022](https://securelist.com/toddycat/106799/",
       "country": "China",
       "attck_techniques": [
-
+        "T1005",
+        "T1018",
+        "T1021.002",
+        "T1036.005",
+        "T1047",
+        "T1049",
+        "T1053.005",
+        "T1057",
+        "T1059.001",
+        "T1059.003",
+        "T1069.002",
+        "T1074.002",
+        "T1078.002",
+        "T1083",
+        "T1087.002",
+        "T1095",
+        "T1106",
+        "T1190",
+        "T1518.001",
+        "T1560.001",
+        "T1564.003",
+        "T1566.003",
+        "T1567.002",
+        "T1680"
       ],
       "targeted_sectors": [
 
@@ -3570,7 +4609,18 @@
       "description": "Malteiro is a financially motivated criminal group that is likely based in Brazil and has been active since at least November 2019. The group operates and distributes the Mispadu banking trojan via a Malware-as-a-Service (MaaS) business model. Malteiro mainly targets victims throu",
       "country": "Brazil",
       "attck_techniques": [
-
+        "T1027.013",
+        "T1055.001",
+        "T1059.005",
+        "T1082",
+        "T1140",
+        "T1204.002",
+        "T1518.001",
+        "T1555",
+        "T1555.003",
+        "T1566.001",
+        "T1614.001",
+        "T1657"
       ],
       "targeted_sectors": [
 
@@ -3622,7 +4672,30 @@
       "description": "INC Ransom is a ransomware and data extortion threat group associated with the deployment of INC Ransomware that has been active since at least July 2023. INC Ransom has targeted organizations worldwide most commonly in the industrial, healthcare, and education sectors in the US a",
       "country": null,
       "attck_techniques": [
-
+        "T1021.001",
+        "T1036.005",
+        "T1046",
+        "T1047",
+        "T1049",
+        "T1059.003",
+        "T1069.002",
+        "T1070.004",
+        "T1071",
+        "T1074",
+        "T1078",
+        "T1087.002",
+        "T1105",
+        "T1135",
+        "T1190",
+        "T1219",
+        "T1486",
+        "T1537",
+        "T1560.001",
+        "T1566",
+        "T1569.002",
+        "T1570",
+        "T1588.002",
+        "T1657"
       ],
       "targeted_sectors": [
 
@@ -3661,7 +4734,30 @@
       "description": "Winter Vivern is a group linked to Russian and Belorussian interests active since at least 2020 targeting various European government and NGO entities, along with sporadic targeting of Indian and US victims. The group leverages a combination of document-based phishing activity and",
       "country": "Russia",
       "attck_techniques": [
-
+        "T1020",
+        "T1033",
+        "T1036",
+        "T1036.004",
+        "T1041",
+        "T1053.005",
+        "T1056.003",
+        "T1059",
+        "T1059.001",
+        "T1059.003",
+        "T1059.007",
+        "T1071.001",
+        "T1082",
+        "T1083",
+        "T1105",
+        "T1113",
+        "T1114.001",
+        "T1119",
+        "T1140",
+        "T1189",
+        "T1190",
+        "T1204.001",
+        "T1566.001",
+        "T1583.001"
       ],
       "targeted_sectors": [
 
@@ -3687,7 +4783,12 @@
       "description": "TA577 is an initial access broker (IAB) that has distributed QakBot and Pikabot, and was among the first observed groups distributing Latrodectus in 2023. [Latrodectus APR 2024](https://www.proofpoint.com/us/blog/threat-insight/latrodectus-spider-bytes-ice)",
       "country": "Russia",
       "attck_techniques": [
-
+        "T1027.009",
+        "T1059.003",
+        "T1059.007",
+        "T1204.001",
+        "T1566.002",
+        "T1586.002"
       ],
       "targeted_sectors": [
 
@@ -3700,7 +4801,10 @@
       "description": "TA578 is a threat actor that has used contact forms and email to initiate communications with victims and to distribute malware including Latrodectus, IcedID, and Bumblebee. [Latrodectus APR 2024](https://www.proofpoint.com/us/blog/threat-insight/latrodectus-spider-bytes-ice) [Bit",
       "country": null,
       "attck_techniques": [
-
+        "T1059.007",
+        "T1204.001",
+        "T1583.006",
+        "T1594"
       ],
       "targeted_sectors": [
 
@@ -3726,7 +4830,30 @@
       "description": "Sea Turtle is a Türkiye-linked threat actor active since at least 2017 performing espionage and service provider compromise operations against victims in Asia, Europe, and North America. Sea Turtle is notable for targeting registrars managing ccTLDs and complex DNS-based intrusion",
       "country": "Turkey",
       "attck_techniques": [
-
+        "T1027.004",
+        "T1059.004",
+        "T1071.001",
+        "T1074.002",
+        "T1078",
+        "T1078.003",
+        "T1114.001",
+        "T1133",
+        "T1190",
+        "T1199",
+        "T1203",
+        "T1213.006",
+        "T1505.003",
+        "T1557",
+        "T1560.001",
+        "T1564.011",
+        "T1566",
+        "T1583",
+        "T1583.001",
+        "T1583.002",
+        "T1583.003",
+        "T1584.002",
+        "T1588.002",
+        "T1588.004"
       ],
       "targeted_sectors": [
 
@@ -3739,7 +4866,11 @@
       "description": "RedEcho is a People’s Republic of China-related threat actor associated with long-running intrusions in Indian critical infrastructure entities. RedEcho overlaps with various other PRC-linked threat groups, such as APT41, and is linked to ShadowPad malware use through shared infra",
       "country": "China",
       "attck_techniques": [
-
+        "T1071.001",
+        "T1568",
+        "T1571",
+        "T1573.002",
+        "T1583.001"
       ],
       "targeted_sectors": [
 
@@ -3752,7 +4883,30 @@
       "description": "BlackByte is a ransomware threat actor operating since at least 2021. BlackByte is associated with several versions of ransomware also labeled BlackByte Ransomware. BlackByte ransomware operations initially used a common encryption key allowing for the development of a universal d",
       "country": null,
       "attck_techniques": [
-
+        "T1003",
+        "T1012",
+        "T1016",
+        "T1018",
+        "T1021.001",
+        "T1021.002",
+        "T1036.008",
+        "T1041",
+        "T1046",
+        "T1047",
+        "T1053.005",
+        "T1055",
+        "T1055.012",
+        "T1059.001",
+        "T1059.003",
+        "T1068",
+        "T1070.004",
+        "T1071.001",
+        "T1078",
+        "T1078.002",
+        "T1082",
+        "T1087.002",
+        "T1105",
+        "T1112"
       ],
       "targeted_sectors": [
 
@@ -3765,7 +4919,7 @@
       "description": "APT42 is an Iranian-sponsored threat group that conducts cyber espionage and surveillance. [Mandiant APT42-charms](https://services.google.com/fh/files/misc/apt42-crooked-charms-cons-and-compromises.pdf) The group primarily focuses on targets in the Middle East region, but has tar",
       "country": "Iran",
       "attck_techniques": [
-
+        "T1660"
       ],
       "targeted_sectors": [
 
@@ -3804,7 +4958,28 @@
       "description": "Velvet Ant is a threat actor operating since at least 2021. Velvet Ant is associated with complex persistence mechanisms, the targeting of network devices and appliances during operations, and the use of zero day exploits. [Sygnia VelvetAnt 2024A](https://www.sygnia.co/blog/china-",
       "country": "China",
       "attck_techniques": [
-
+        "T1021.002",
+        "T1036.005",
+        "T1037.004",
+        "T1040",
+        "T1047",
+        "T1049",
+        "T1055",
+        "T1059.004",
+        "T1071",
+        "T1078.003",
+        "T1083",
+        "T1090.001",
+        "T1132",
+        "T1133",
+        "T1211",
+        "T1569.002",
+        "T1570",
+        "T1571",
+        "T1573.002",
+        "T1574.001",
+        "T1685",
+        "T1686"
       ],
       "targeted_sectors": [
 
@@ -3817,7 +4992,30 @@
       "description": "UNC3886 is a China-nexus cyberespionage group that has been active since at least 2022, targeting defense, technology, and telecommunication organizations located in the United States and the Asia-Pacific-Japan (APJ) regions. UNC3886 has displayed a deep understanding of edge devi",
       "country": "China",
       "attck_techniques": [
-
+        "T1003.001",
+        "T1008",
+        "T1014",
+        "T1021.004",
+        "T1027.005",
+        "T1036.004",
+        "T1037",
+        "T1037.004",
+        "T1040",
+        "T1057",
+        "T1059.001",
+        "T1059.003",
+        "T1059.004",
+        "T1059.006",
+        "T1059.012",
+        "T1068",
+        "T1070.004",
+        "T1070.006",
+        "T1070.007",
+        "T1074.001",
+        "T1078",
+        "T1078.001",
+        "T1083",
+        "T1095"
       ],
       "targeted_sectors": [
 
@@ -3843,7 +5041,9 @@
       "description": "Water Galura are the operators of the Qilin Ransomware-as-a-Service (RaaS) who handle payload generation, ransom negotiations, and the publication of stolen data for Qilin affilates recruited on Russian cybercrime forums. Water Galura have been active since at least 2022 and use a",
       "country": null,
       "attck_techniques": [
-
+        "T1486",
+        "T1585.001",
+        "T1657"
       ],
       "targeted_sectors": [
 
@@ -3856,7 +5056,30 @@
       "description": "Medusa Group has been active since at least 2021 and was initially operated as a closed ransomware group before evolving into a Ransomware-as-a-Service (RaaS) operation. Some reporting indicates that certain attacks may still be conducted directly by the ransomware’s core develope",
       "country": null,
       "attck_techniques": [
-
+        "T1003.001",
+        "T1003.003",
+        "T1016",
+        "T1018",
+        "T1021.001",
+        "T1027.002",
+        "T1027.010",
+        "T1033",
+        "T1046",
+        "T1047",
+        "T1057",
+        "T1059.001",
+        "T1059.003",
+        "T1069.002",
+        "T1070.003",
+        "T1070.004",
+        "T1071.001",
+        "T1072",
+        "T1078",
+        "T1082",
+        "T1083",
+        "T1087.001",
+        "T1090.003",
+        "T1105"
       ],
       "targeted_sectors": [
 
@@ -3882,7 +5105,30 @@
       "description": "Storm-0501 is a financially motivated cyber criminal group that uses commodity and open-source tools to conduct ransomware operations. Storm-0501 has been active since 2021 and has previously been affiliated with Sabbath Ransomware and other Ransomware-as-a-Service (RaaS) variants",
       "country": null,
       "attck_techniques": [
-
+        "T1003",
+        "T1003.006",
+        "T1021.006",
+        "T1021.007",
+        "T1027.002",
+        "T1036.004",
+        "T1053.005",
+        "T1057",
+        "T1059.001",
+        "T1059.009",
+        "T1078.004",
+        "T1082",
+        "T1087.002",
+        "T1087.004",
+        "T1098.001",
+        "T1098.003",
+        "T1110",
+        "T1190",
+        "T1218.010",
+        "T1218.011",
+        "T1219.002",
+        "T1482",
+        "T1484.001",
+        "T1484.002"
       ],
       "targeted_sectors": [
 
@@ -4025,7 +5271,30 @@
       "description": "APT28 is a threat group that has been attributed to Russia's General Staff Main Intelligence Directorate (GRU) 85th Main Special Service Center (GTsSS) military unit 26165. [NSA/FBI Drovorub August 2020](https://media.defense.gov/2020/Aug/13/2002476465/-1/-1/0/CSA_DROVORUB_RUSSIAN",
       "country": "Russia",
       "attck_techniques": [
-
+        "T1001.001",
+        "T1003",
+        "T1003.001",
+        "T1003.003",
+        "T1005",
+        "T1014",
+        "T1021.002",
+        "T1025",
+        "T1027.013",
+        "T1030",
+        "T1036",
+        "T1036.005",
+        "T1037.001",
+        "T1039",
+        "T1040",
+        "T1048.002",
+        "T1056.001",
+        "T1057",
+        "T1059.001",
+        "T1059.003",
+        "T1068",
+        "T1070.004",
+        "T1070.006",
+        "T1071.001"
       ],
       "targeted_sectors": [
 
@@ -4064,7 +5333,30 @@
       "description": "APT32 is a suspected Vietnam-based threat group that has been active since at least 2014. The group has targeted multiple private sector industries as well as foreign governments, dissidents, and journalists with a strong focus on Southeast Asian countries like Vietnam, the Philip",
       "country": "Vietnam",
       "attck_techniques": [
-
+        "T1003",
+        "T1003.001",
+        "T1012",
+        "T1016",
+        "T1018",
+        "T1021.002",
+        "T1027.010",
+        "T1027.011",
+        "T1027.013",
+        "T1027.016",
+        "T1033",
+        "T1036",
+        "T1036.003",
+        "T1036.004",
+        "T1036.005",
+        "T1041",
+        "T1046",
+        "T1047",
+        "T1048.003",
+        "T1049",
+        "T1053.005",
+        "T1055",
+        "T1056.001",
+        "T1059"
       ],
       "targeted_sectors": [
 
@@ -4116,7 +5408,30 @@
       "description": "Leviathan is a Chinese state-sponsored cyber espionage group that has been attributed to the Ministry of State Security's (MSS) Hainan State Security Department and an affiliated front company. [CISA AA21-200A APT40 July 2021](https://us-cert.cisa.gov/ncas/alerts/aa21-200a) Active",
       "country": "China",
       "attck_techniques": [
-
+        "T1003",
+        "T1003.001",
+        "T1021.001",
+        "T1021.004",
+        "T1027.001",
+        "T1027.003",
+        "T1027.013",
+        "T1027.015",
+        "T1041",
+        "T1047",
+        "T1055.001",
+        "T1059.001",
+        "T1059.005",
+        "T1074.001",
+        "T1074.002",
+        "T1078",
+        "T1090.003",
+        "T1102.003",
+        "T1105",
+        "T1133",
+        "T1140",
+        "T1189",
+        "T1190",
+        "T1197"
       ],
       "targeted_sectors": [
 
@@ -4129,7 +5444,12 @@
       "description": "APT41 is a threat group that researchers have assessed as Chinese state-sponsored espionage group that also conducts financially-motivated operations. Active since at least 2012, APT41 has been observed targeting various industries, including but not limited to healthcare, telecom",
       "country": "China",
       "attck_techniques": [
-
+        "T1014",
+        "T1057",
+        "T1083",
+        "T1105",
+        "T1553.002",
+        "T1583.001"
       ],
       "targeted_sectors": [
 
@@ -14477,7 +15797,7 @@
       "description": "An extensive surveillance operation targets specific groups of individuals with malicious mobile apps that collect sensitive information on the device along with surrounding voice recordings. Researchers with CheckPoint discovered the attack and named it Domestic Kitten. The targe",
       "country": "Iran",
       "attck_techniques": [
-
+        "T1655.001"
       ],
       "targeted_sectors": [
 
@@ -17207,7 +18527,15 @@
       "description": "FIN7 is a financially-motivated threat group that has been active since 2013. FIN7 has targeted the retail, restaurant, hospitality, software, consulting, financial services, medical equipment, cloud services, media, food and beverage, transportation, pharmaceutical, and utilities",
       "country": "Unknown",
       "attck_techniques": [
-
+        "T1036.004",
+        "T1036.005",
+        "T1078",
+        "T1102.002",
+        "T1218.011",
+        "T1219",
+        "T1543.003",
+        "T1588.002",
+        "T1686"
       ],
       "targeted_sectors": [
 
@@ -27074,7 +28402,30 @@
       "description": "MirrorFace is a People's Republic of China (PRC)-aligned cyberespionage actor believed to be a subgroup under the menuPass umbrella based on targeting, tools, and infrastructure overlaps. MirrorFace has been active since at least 2019, at first exclusively targeting Japanese organ",
       "country": "China",
       "attck_techniques": [
-
+        "T1003.001",
+        "T1003.002",
+        "T1003.003",
+        "T1005",
+        "T1007",
+        "T1016",
+        "T1018",
+        "T1021.001",
+        "T1021.002",
+        "T1027.013",
+        "T1033",
+        "T1036.008",
+        "T1047",
+        "T1048.002",
+        "T1057",
+        "T1059.003",
+        "T1059.005",
+        "T1070.004",
+        "T1071.002",
+        "T1074.002",
+        "T1082",
+        "T1083",
+        "T1087.002",
+        "T1090"
       ],
       "targeted_sectors": [
 
@@ -31585,7 +32936,30 @@
       "description": "Play is a ransomware group that has been active since at least 2022 deploying Playcrypt ransomware against the business, government, critical infrastructure, healthcare, and media sectors in North America, South America, and Europe. Play actors employ a double-extortion model, enc",
       "country": "Unknown",
       "attck_techniques": [
-
+        "T1003.001",
+        "T1016",
+        "T1018",
+        "T1021.002",
+        "T1027.010",
+        "T1030",
+        "T1048",
+        "T1057",
+        "T1059.001",
+        "T1059.003",
+        "T1070.004",
+        "T1078",
+        "T1078.002",
+        "T1078.003",
+        "T1082",
+        "T1083",
+        "T1105",
+        "T1133",
+        "T1190",
+        "T1518.001",
+        "T1560.001",
+        "T1587.001",
+        "T1588.002",
+        "T1657"
       ],
       "targeted_sectors": [
 

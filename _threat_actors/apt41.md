@@ -34,6 +34,15 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 - [T1057 Process Discovery](https://attack.mitre.org/techniques/T1057)
 - [T1553.002 Code Signing](https://attack.mitre.org/techniques/T1553/002)
 
+### ATT&CK technique IDs (denormalized)
+
+- [T1014](https://attack.mitre.org/techniques/T1014/)
+- [T1057](https://attack.mitre.org/techniques/T1057/)
+- [T1083](https://attack.mitre.org/techniques/T1083/)
+- [T1105](https://attack.mitre.org/techniques/T1105/)
+- [T1553.002](https://attack.mitre.org/techniques/T1553/002/)
+- [T1583.001](https://attack.mitre.org/techniques/T1583/001/)
+
 ## Notable Indicators of Compromise (IOCs)
 *No atomic indicators are listed in this profile. The APTnotes snapshot indexes 9 public reports that may contain IOCs; see Source Attribution for dataset links.*
 

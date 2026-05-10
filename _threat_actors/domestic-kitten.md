@@ -24,6 +24,10 @@ An extensive surveillance operation targets specific groups of individuals with 
 ## Tactics, Techniques, and Procedures (TTPs)
 - [T1655.001 Match Legitimate Name or Location](https://attack.mitre.org/techniques/T1655/001)
 
+### ATT&CK technique IDs (denormalized)
+
+- [T1655.001](https://attack.mitre.org/techniques/T1655/001/)
+
 ## Notable Indicators of Compromise (IOCs)
 *No atomic indicators are listed in this profile. The APTnotes snapshot indexes 1 public reports that may contain IOCs; see Source Attribution for dataset links.*
 

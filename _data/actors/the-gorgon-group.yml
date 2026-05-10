@@ -19,13 +19,13 @@ provenance:
     sample_titles: ["Tracking Subaat: Targeted Phishing Attack Leads to Threat Actor's Repository"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
     sources: ["Palo Alto Networks"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "the_gorgon_group"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/the_gorgon_group"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "e47c2c4d-706b-4098-92a2-b93e7103e131"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"

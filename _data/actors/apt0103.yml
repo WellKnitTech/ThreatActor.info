@@ -9,6 +9,7 @@ incident_type: "Espionage"
 first_seen: "2016"
 last_activity: "2016"
 risk_level: "High"
+confidence: "high"
 external_id: "G0103"
 external_url: "https://attack.mitre.org/groups/G0103"
 mitre_id: "G0103"
@@ -61,6 +62,17 @@ ttps:
     technique_name: "Compression"
     url: "https://attack.mitre.org/techniques/T1027/015"
     stix_id: "attack-pattern--fbd91bfc-75c2-4f0c-8116-3b4e722906b3"
+attck_techniques: ["T1027.013","T1027.015","T1204.001","T1204.002","T1566.001","T1566.002"]
+attck_software: ["S0444","S0445"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0103"
+    external_id: "G0103"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   aptnotes:
     earliest_report_year: "2016"
@@ -70,13 +82,13 @@ provenance:
     sample_titles: ["Mofang: A politically motivated information stealing adversary"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
     sources: ["Fox-IT"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "mofang"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/mofang"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "999f3008-2b2f-467d-ab4d-c5a2fd80b344"
   misp_galaxy:
     meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","origin:BRONZE WALKER","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","target_categories"]
@@ -85,20 +97,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "999f3008-2b2f-467d-ab4d-c5a2fd80b344"
     source_record_ids: ["999f3008-2b2f-467d-ab4d-c5a2fd80b344","8bc69792-c26d-4493-87e3-d8e47605fed8"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:50Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0103"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--88489675-d216-4884-a98f-49a89fcc1643"
 source: "MITRE ATT&CK"

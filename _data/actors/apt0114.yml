@@ -1,8 +1,9 @@
 name: "Chimera"
-aliases: ["Chimera","Quimera Crypter","Pashka"]
+aliases: ["Chimera","Pashka","Quimera Crypter"]
 description: "Chimera is a suspected China-based threat group that has been active since at least 2018 targeting the semiconductor industry in Taiwan as well as data from the airline industry. [Cycraft Chimera April 2020](https://cycraft.com/download/CyCraft-Whitepaper-Chimera_V4.1.pdf) [NCC Group Chimera January 2021](https://web.archive.org/web/20230218064220/https://research.nccgroup.com/2021/01/12/abusing-cloud-services-to-fly-under-the-radar/)"
 url: "/apt0114"
 country: "China"
+confidence: "high"
 external_id: "G0114"
 external_url: "https://attack.mitre.org/groups/G0114"
 mitre_id: "G0114"
@@ -287,6 +288,17 @@ ttps:
     technique_name: "Ingress Tool Transfer"
     url: "https://attack.mitre.org/techniques/T1105"
     stix_id: "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
+attck_techniques: ["T1003.003","T1007","T1012","T1016","T1018","T1021.001","T1021.002","T1021.006","T1027.010","T1033","T1036.005","T1039","T1041","T1046","T1047","T1049","T1053.005","T1057","T1059.001","T1059.003","T1069.001","T1070.004","T1070.006","T1071.001","T1071.004","T1074.001","T1074.002","T1078","T1078.002","T1083","T1087.001","T1087.002","T1105","T1106","T1110.003","T1110.004","T1111","T1114.001","T1114.002","T1119","T1124","T1133","T1135","T1201","T1213.002","T1217","T1482","T1550.002","T1556.001","T1560.001","T1567.002","T1569.002","T1570","T1572","T1574.001","T1588.002","T1589.001","T1680","T1685.005"]
+attck_software: ["S0002","S0029","S0039","S0154","S0404","S0521"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0114"
+    external_id: "G0114"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   misp_galaxy:
     meta_keys: ["country","group_attack_id","observed_countries","source","tags","target_categories","encryption","extensions","payment-method","price","ransomnotes-filenames","refs","synonyms"]
@@ -295,20 +307,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
     source_record_id: "ca93af75-0ffa-4df4-b86a-92d4d50e496e"
     source_record_ids: ["ca93af75-0ffa-4df4-b86a-92d4d50e496e","27b036f0-afa3-4984-95b3-47fa344b1aa7"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0114"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c"
 source: "MITRE ATT&CK"

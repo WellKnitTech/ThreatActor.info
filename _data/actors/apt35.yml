@@ -28,13 +28,13 @@ provenance:
     sample_titles: ["Iranian-Aligned Threat Actor","APT35 Automates Initial Access Using ProxyShell"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
     sources: ["SentinelOne","TheDFIRreport"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "ta453"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ta453"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "c1d44f44-425e-48fd-b78b-84b988da8bc3"
   misp_galaxy:
     meta_keys: ["country","microsoft-origin-threat","refs","sector","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories"]
@@ -43,7 +43,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "400cd1b8-52b7-5a5c-984f-9b4af35ea231"
     source_record_ids: ["400cd1b8-52b7-5a5c-984f-9b4af35ea231","7a9d653c-8812-4b96-81d1-b0a27ca918b4"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0059"

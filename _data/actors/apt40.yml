@@ -1,5 +1,5 @@
 name: "APT40"
-aliases: ["APT40","ATK29","BRONZE MOHAWK","G0065","Gadolinium","GADOLINIUM","Gingham Typhoon","Hainan Xiandun Technology Company","ISLANDDREAMS","ITG09","Kryptonite Panda","KRYPTONITE PANDA","Leviathan","MUDCARP","Red Ladon","ScanBox","TA423","TEMP.Jumper","Temp.Jumper","TEMP.Periscope","JJDoor","Feverdream"]
+aliases: ["APT40","ATK29","BRONZE MOHAWK","Feverdream","G0065","Gadolinium","GADOLINIUM","Gingham Typhoon","Hainan Xiandun Technology Company","ISLANDDREAMS","ITG09","JJDoor","Kryptonite Panda","KRYPTONITE PANDA","Leviathan","MUDCARP","Red Ladon","ScanBox","TA423","TEMP.Jumper","Temp.Jumper","TEMP.Periscope"]
 description: "Leviathan is a Chinese state-sponsored cyber espionage group that has been attributed to the Ministry of State Security's (MSS) Hainan State Security Department and an affiliated front company. [CISA AA21-200A APT40 July 2021](https://us-cert.cisa.gov/ncas/alerts/aa21-200a) Active since at least 2009, Leviathan has targeted the following sectors: academia, aerospace/aviation, biomedical, defense industrial base, government, healthcare, manufacturing, maritime, and transportation across the US, Canada, Australia, Europe, the Middle East, and Southeast Asia. [CISA AA21-200A APT40 July 2021](https://us-cert.cisa.gov/ncas/alerts/aa21-200a) [Proofpoint Leviathan Oct 2017](https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets) [FireEye Periscope March 2018](https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html) [CISA Leviathan 2024](https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-190a)"
 url: "/apt40"
 country: "China"
@@ -9,6 +9,7 @@ incident_type: "Espionage"
 first_seen: "2013"
 last_activity: "2024"
 risk_level: "High"
+confidence: "high"
 external_id: "G0065"
 external_url: "https://attack.mitre.org/groups/G0065"
 mitre_id: "G0065"
@@ -337,6 +338,17 @@ ttps:
     technique_name: "Email Accounts"
     url: "https://attack.mitre.org/techniques/T1586/002"
     stix_id: "attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b"
+attck_techniques: ["T1003","T1003.001","T1021.001","T1021.004","T1027.001","T1027.003","T1027.013","T1027.015","T1041","T1047","T1055.001","T1059.001","T1059.005","T1074.001","T1074.002","T1078","T1090.003","T1102.003","T1105","T1133","T1140","T1189","T1190","T1197","T1203","T1204.001","T1204.002","T1218.010","T1505.003","T1534","T1546.003","T1547.001","T1547.009","T1553.002","T1559.002","T1560","T1566.001","T1566.002","T1567.002","T1572","T1583.001","T1584.004","T1584.008","T1585.001","T1585.002","T1586.001","T1586.002","T1587.004","T1589.001","T1595.002"]
+attck_software: ["S0005","S0020","S0021","S0032","S0039","S0069","S0110","S0154","S0183","S0190","S0194","S0228","S0229","S0232","S0233","S0363","S0642"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0065"
+    external_id: "G0065"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 campaigns:
   - name: "Leviathan Australian Intrusions"
     campaign_id: "C0049"
@@ -348,7 +360,7 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report/"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "china"
   aptnotes:
     earliest_report_year: "2014"
@@ -358,13 +370,13 @@ provenance:
     sample_titles: ["Scanbox: A Reconnaissance Framework Used With Watering Hole Attacks","Scanbox Framework: Who's Affected, And Who's Using It?","Scanbox Ii"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
     sources: ["Alienvault","PWC"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt40"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt40"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "5b4b6980-3bc7-11e8-84d6-879aaac37dd9"
   misp_galaxy:
     meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","origin:BRONZE MOHAWK","origin:TEMP.Jumper","origin:TEMP.Periscope","refs","synonyms","microsoft-origin-threat","sector","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories"]
@@ -373,19 +385,19 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "5b4b6980-3bc7-11e8-84d6-879aaac37dd9"
     source_record_ids: ["5b4b6980-3bc7-11e8-84d6-879aaac37dd9","99e708f7-1c01-467d-b0da-f6cebd434abc","dbc45b46-5b64-50d4-b0f1-d7de888d4e85","eadd78e3-3b5d-430a-b994-4360b172c871"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0065"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e"

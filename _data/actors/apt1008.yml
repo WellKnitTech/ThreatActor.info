@@ -3,6 +3,7 @@ aliases: ["SideCopy"]
 description: "SideCopy is a Pakistani threat group that has primarily targeted South Asian countries, including Indian and Afghani government personnel, since at least 2019. SideCopy's name comes from its infection chain that tries to mimic that of Sidewinder, a suspected Indian threat group. [MalwareBytes SideCopy Dec 2021](https://www.malwarebytes.com/blog/news/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure)"
 url: "/apt1008"
 country: "Pakistan"
+confidence: "high"
 external_id: "G1008"
 external_url: "https://attack.mitre.org/groups/G1008"
 mitre_id: "G1008"
@@ -93,19 +94,30 @@ ttps:
     technique_name: "Mshta"
     url: "https://attack.mitre.org/techniques/T1218/005"
     stix_id: "attack-pattern--840a987a-99bd-4a80-a5c9-0cb2baa6cade"
+attck_techniques: ["T1016","T1036.005","T1059.005","T1082","T1105","T1106","T1204.002","T1218.005","T1518","T1518.001","T1566.001","T1574.001","T1584.001","T1598.002","T1608.001","T1614"]
+attck_software: ["S1028","S1029"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G1008"
+    external_id: "G1008"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G1008"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.seqrite.com/documents/en/white-papers/Seqrite-WhitePaper-Operation-SideCopy.pdf","https://s3.amazonaws.com/talos-intelligence-site/production/document_files/files/000/095/591/original/062521_SideCopy_%281%29.pdf?1625657388","https://about.fb.com/news/2021/11/taking-action-against-hackers-in-pakistan-and-syria/","https://www.malwarebytes.com/blog/threat-intelligence/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure","https://threatmon.io/apt-sidecopy-targeting-indian-government-entities/"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "others"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "sidecopy"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/sidecopy"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "f6d02ac3-3447-4892-b844-1ef31839e04f"
   misp_galaxy:
     meta_keys: ["country","refs","group_attack_id","source"]
@@ -114,20 +126,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "f6d02ac3-3447-4892-b844-1ef31839e04f"
     source_record_ids: ["f6d02ac3-3447-4892-b844-1ef31839e04f","31bc763e-623f-4870-9780-86e43d732594"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G1008"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710"
 source: "MITRE ATT&CK"

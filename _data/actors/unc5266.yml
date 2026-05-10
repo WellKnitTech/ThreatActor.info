@@ -13,7 +13,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "unc5266"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc5266"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "083a637b-c58c-4ccb-ab59-81d783873e80"
   misp_galaxy:
     meta_keys: ["origin:UNC5266","refs"]
@@ -22,4 +22,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "083a637b-c58c-4ccb-ab59-81d783873e80"
     source_record_ids: ["083a637b-c58c-4ccb-ab59-81d783873e80"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"

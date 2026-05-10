@@ -3,6 +3,7 @@ aliases: ["RedEcho"]
 description: "RedEcho is a People’s Republic of China-related threat actor associated with long-running intrusions in Indian critical infrastructure entities. RedEcho overlaps with various other PRC-linked threat groups, such as APT41, and is linked to ShadowPad malware use through shared infrastructure. [RecordedFuture RedEcho 2021](https://go.recordedfuture.com/hubfs/reports/cta-2021-0228.pdf) [RecordedFuture RedEcho 2022](https://go.recordedfuture.com/hubfs/reports/ta-2022-0406.pdf)"
 url: "/apt1042"
 country: "China"
+confidence: "high"
 external_id: "G1042"
 external_url: "https://attack.mitre.org/groups/G1042"
 mitre_id: "G1042"
@@ -44,12 +45,23 @@ ttps:
     technique_name: "Domains"
     url: "https://attack.mitre.org/techniques/T1583/001"
     stix_id: "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3"
+attck_techniques: ["T1071.001","T1568","T1571","T1573.002","T1583.001"]
+attck_software: ["S0596"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G1042"
+    external_id: "G1042"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "redecho"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/redecho"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "986fcc3f-5f36-4975-bf5f-c42524466bbd"
   misp_galaxy:
     meta_keys: ["refs","country","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories"]
@@ -58,20 +70,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "986fcc3f-5f36-4975-bf5f-c42524466bbd"
     source_record_ids: ["986fcc3f-5f36-4975-bf5f-c42524466bbd","a6dea520-12ab-5c7b-8142-db3a308122de"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:50Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G1042"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--2c40f629-6cf9-4f75-af32-9a98caec24ae"
 source: "MITRE ATT&CK"

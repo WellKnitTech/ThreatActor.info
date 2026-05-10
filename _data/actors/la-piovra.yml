@@ -8,6 +8,12 @@ source_record_url: "https://www.ransomlook.io/group/lapiovra"
 source_license: "CC BY 4.0"
 source_license_url: "https://creativecommons.org/licenses/by/4.0/"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://redpiranha.net/news/threat-intelligence-report-june-13-june-19-2023"]
+    source_retrieved_at: "2026-05-10T06:02:56Z"
+    tab_name: "unknown"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "lapiovra"
   source_retrieved_at: "2026-05-06T21:59:23Z"

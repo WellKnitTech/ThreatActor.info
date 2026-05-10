@@ -22,7 +22,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "gref"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gref"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "e6d16c22-0780-483c-9920-c1d9f27b10c8"
   misp_galaxy:
     meta_keys: ["country","microsoft-origin-threat","refs","sector","synonyms"]
@@ -31,7 +31,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "66571167-13fe-5817-93e0-54ae8f206fdc"
     source_record_ids: ["66571167-13fe-5817-93e0-54ae8f206fdc"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0004"

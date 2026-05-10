@@ -53,6 +53,32 @@ APT1 is a Chinese cyber espionage group that has been conducting cyber espionage
 - [T1007 System Service Discovery](https://attack.mitre.org/techniques/T1007)
 - [T1021.001 Remote Desktop Protocol](https://attack.mitre.org/techniques/T1021/001)
 
+### ATT&CK technique IDs (denormalized)
+
+- [T1003.001](https://attack.mitre.org/techniques/T1003/001/)
+- [T1005](https://attack.mitre.org/techniques/T1005/)
+- [T1007](https://attack.mitre.org/techniques/T1007/)
+- [T1016](https://attack.mitre.org/techniques/T1016/)
+- [T1021.001](https://attack.mitre.org/techniques/T1021/001/)
+- [T1036.005](https://attack.mitre.org/techniques/T1036/005/)
+- [T1049](https://attack.mitre.org/techniques/T1049/)
+- [T1057](https://attack.mitre.org/techniques/T1057/)
+- [T1059.003](https://attack.mitre.org/techniques/T1059/003/)
+- [T1087.001](https://attack.mitre.org/techniques/T1087/001/)
+- [T1114.001](https://attack.mitre.org/techniques/T1114/001/)
+- [T1114.002](https://attack.mitre.org/techniques/T1114/002/)
+- [T1119](https://attack.mitre.org/techniques/T1119/)
+- [T1135](https://attack.mitre.org/techniques/T1135/)
+- [T1550.002](https://attack.mitre.org/techniques/T1550/002/)
+- [T1560.001](https://attack.mitre.org/techniques/T1560/001/)
+- [T1566.001](https://attack.mitre.org/techniques/T1566/001/)
+- [T1566.002](https://attack.mitre.org/techniques/T1566/002/)
+- [T1583.001](https://attack.mitre.org/techniques/T1583/001/)
+- [T1584.001](https://attack.mitre.org/techniques/T1584/001/)
+- [T1585.002](https://attack.mitre.org/techniques/T1585/002/)
+- [T1588.001](https://attack.mitre.org/techniques/T1588/001/)
+- [T1588.002](https://attack.mitre.org/techniques/T1588/002/)
+
 ## Notable Indicators of Compromise (IOCs)
 *No atomic indicators are listed in this profile. The APTnotes snapshot indexes 2 public reports that may contain IOCs; see Source Attribution for dataset links.*
 

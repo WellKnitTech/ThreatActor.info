@@ -15,7 +15,7 @@ provenance:
     sample_titles: ["Russian Cyberwar On Georgia","Impact Of Alleged Russian Cyber Attack","Cyber war in perspective: Russian aggression against Ukraine","Bear Spotting Vol. 1: Russian Nation State Targeting of Government and Military Interests","TAINTED LEAKS Disinformation and Phishing With a Russian Nexus","Russian Bank Offices Hit with Broad Phishing Wave","Russian Army Exhibition Decoy Leads to New BISKVIT Malware","PortDoor: New Chinese APT Backdoor Attack Targets Russian Defense Sector","Understanding and Mitigating Russian State-Sponsored Cyber Threats to U.S. Critical Infrastructure","Ukraine: Disk-wiping Attacks Precede Russian Invasion"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
     sources: ["CISA","Citizen Lab","Cybereason","Fortinet","Georgia Gov","NATO","RSA","Symantec","William C. Ashmore","cisa","malwarebytes","tr1adx"]
   misp_galaxy:
     meta_keys: ["encryption","extensions","payment-method","price","refs","synonyms"]

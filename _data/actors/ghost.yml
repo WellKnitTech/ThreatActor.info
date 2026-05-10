@@ -16,14 +16,14 @@ malware:
 provenance:
   aptnotes:
     earliest_report_year: "2012"
-    latest_report_year: "2016"
-    report_count: 2
-    sample_links: ["https://app.box.com/s/aj7ebr1v0x9mf3psmxeififqijwmmacy","https://app.box.com/s/xr1ykgout1c9ho5rotpop09smkawg5me"]
-    sample_titles: ["The Many Faces Of Gh0St Rat: Plotting The Connections Between Malware Attacks","The Ghost Dragon"]
+    latest_report_year: "2012"
+    report_count: 1
+    sample_links: ["https://app.box.com/s/aj7ebr1v0x9mf3psmxeififqijwmmacy"]
+    sample_titles: ["The Many Faces Of Gh0St Rat: Plotting The Connections Between Malware Attacks"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
-    sources: ["Cylance","Norman"]
+    source_retrieved_at: "2026-05-10T06:02:57Z"
+    sources: ["Norman"]
   misp_galaxy:
     meta_keys: ["links","refs"]
     source_cluster: "ransomware.json"
@@ -31,4 +31,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "ef9769e4-067c-5e45-b80f-36f6d5a52a82"
     source_record_ids: ["ef9769e4-067c-5e45-b80f-36f6d5a52a82"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"

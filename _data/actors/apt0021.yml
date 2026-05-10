@@ -8,6 +8,7 @@ targeted_victims: ["United States","Israel","Palestine","Middle East","Europe"]
 incident_type: "Espionage"
 first_seen: "2013"
 last_activity: "2023"
+confidence: "high"
 external_id: "G0021"
 external_url: "https://attack.mitre.org/groups/G0021"
 mitre_id: "G0021"
@@ -128,12 +129,23 @@ ttps:
     technique_name: "Malicious File"
     url: "https://attack.mitre.org/techniques/T1204/002"
     stix_id: "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e"
+attck_techniques: ["T1027.015","T1053.005","T1057","T1059.001","T1059.005","T1059.007","T1105","T1140","T1204.001","T1204.002","T1218.007","T1547.001","T1553.002","T1555.003","T1566.001","T1566.002"]
+attck_software: ["S0012","S0062","S0543","S0546","S0547","S0553"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0021"
+    external_id: "G0021"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.sig-switzerland.ch/wp-content/uploads/2016/03/SIGS_SOC_Forum_Sep2017_CrowdStrike_On_the_Hunt_for_Pandas_Kittens_and_Bears.pdf see slide 15","https://docs.rapid7.com/insightidr/molerats/"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "others"
   aptnotes:
     earliest_report_year: "2013"
@@ -143,13 +155,13 @@ provenance:
     sample_titles: ["Operation Molerats","Moonlight - Targeted attacks in the Middle East","New espionage attack by Molerats APT targeting users in the Middle East","Gaza Cybergang Unified Front Targeting Hamas Opposition"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
     sources: ["FireEye","Sentinelone","Vectra Networks","zscaler"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "molerats"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/molerats"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "f7c2e501-73b1-400f-a5d9-2e2e07b7dfde"
   misp_galaxy:
     meta_keys: ["cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","target_categories"]
@@ -158,20 +170,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "f7c2e501-73b1-400f-a5d9-2e2e07b7dfde"
     source_record_ids: ["f7c2e501-73b1-400f-a5d9-2e2e07b7dfde","679b7b6b-9659-4e56-9ffd-688a6fab01b6"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:50Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0021"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--df71bb3b-813c-45eb-a8bc-f2a419837411"
 source: "MITRE ATT&CK"

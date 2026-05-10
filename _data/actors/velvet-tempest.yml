@@ -13,7 +13,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "velvet_tempest"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/velvet_tempest"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "209b1452-7062-46f8-9037-3be5f7eda54f"
   misp_galaxy:
     meta_keys: ["origin:DEV-0504","refs","synonyms","microsoft-origin-threat","sector"]
@@ -22,4 +22,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "209b1452-7062-46f8-9037-3be5f7eda54f"
     source_record_ids: ["209b1452-7062-46f8-9037-3be5f7eda54f","0662a721-a92e-50b3-a5ac-0c4142ac9aeb"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"

@@ -2,6 +2,7 @@ name: "Threat Group-1314"
 aliases: ["TG-1314","Threat Group-1314"]
 description: "Threat Group-1314 is an unattributed threat group that has used compromised credentials to log into a victim's remote access infrastructure. [Dell TG-1314](https://web.archive.org/web/20150626073312/http://www.secureworks.com/resources/blog/living-off-the-land/)"
 url: "/apt0028"
+confidence: "high"
 external_id: "G0028"
 external_url: "https://attack.mitre.org/groups/G0028"
 mitre_id: "G0028"
@@ -44,6 +45,17 @@ ttps:
     technique_name: "Domain Accounts"
     url: "https://attack.mitre.org/techniques/T1078/002"
     stix_id: "attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f"
+attck_techniques: ["T1021.002","T1059.003","T1072","T1078.002"]
+attck_software: ["S0029","S0039"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0028"
+    external_id: "G0028"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   misp_galaxy:
     meta_keys: ["group_attack_id","source"]
@@ -52,20 +64,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
     source_record_id: "0f86e871-0c6c-4227-ae28-3f3696d6ae9d"
     source_record_ids: ["0f86e871-0c6c-4227-ae28-3f3696d6ae9d"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0028"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--d519164e-f5fa-4b8c-a1fb-cf0172ad0983"
 source: "MITRE ATT&CK"

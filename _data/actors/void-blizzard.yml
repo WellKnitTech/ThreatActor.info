@@ -15,7 +15,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "void_blizzard"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/void_blizzard"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "b495419f-e327-4bbe-aba5-0c281dc2605b"
   misp_galaxy:
     meta_keys: ["country","refs","synonyms","microsoft-origin-threat","group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
@@ -24,7 +24,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "b495419f-e327-4bbe-aba5-0c281dc2605b"
     source_record_ids: ["b495419f-e327-4bbe-aba5-0c281dc2605b","0bd1fd55-daef-51ad-82c5-4d79859f87d1","42219d16-7ed7-4716-b88f-b29a456f0f8d"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   russian_apt_tool_matrix:
     references:
       - title: "www.microsoft.com"

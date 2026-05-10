@@ -2,12 +2,24 @@ name: "Aurora"
 aliases: ["Aurora"]
 description: "Aurora is an active extortion or ransomware group tracked by RansomLook."
 url: "/aurora"
+first_seen: "2010"
+last_activity: "2017"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/aurora"
 source_license: "CC BY 4.0"
 source_license_url: "https://creativecommons.org/licenses/by/4.0/"
 provenance:
+  aptnotes:
+    earliest_report_year: "2010"
+    latest_report_year: "2017"
+    report_count: 7
+    sample_links: ["https://app.box.com/s/ni4xs2iuol4vskbc25vrxjih2w1ep7p6","https://app.box.com/s/6jeekvxflthmub9v26nybp5kqw9tjopj","https://app.box.com/s/j36zc0da9nz6q8wnv13slwxcnmiaykul","https://app.box.com/s/fjb89qr1vnk2ox0vllj68ivadqgyz3an","https://app.box.com/s/k0qidf9g1yfehi6pbdodmcxdqag5a9bv","https://app.box.com/s/o8rait7di3od2z60v8mj77x4a5jb2xun","https://app.box.com/s/pszqtsxza5quthzuz31pqwypaf6idzum"]
+    sample_titles: ["Case Study: Operation Aurora","The Command Structure Of The Aurora Botnet","Operation Aurora: Detect, Diagnose, Respond","Operation Aurora","How Can I Tell If I Was Infected By Aurora?","Evidence Aurora Operation Still Active: Supply Chain Attack Through CCleaner","Evidence Aurora Operation Still Active: Supply Chain Attack Through CCleaner part2"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
+    sources: ["Damballa","HBGary","Intezer","McAfee","Triumfant"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "aurora"
   source_retrieved_at: "2026-05-06T21:59:50Z"

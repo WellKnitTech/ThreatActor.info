@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Lamashtu"
-aliases: ["Lamashtu"]
+aliases: ["Lamashtu","lamashtu"]
 description: "Lamashtu is an active extortion or ransomware group tracked by RansomLook."
 permalink: /lamashtu/
 ---
@@ -22,7 +22,7 @@ Lamashtu is an active extortion or ransomware group tracked by RansomLook.
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CrossRat**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

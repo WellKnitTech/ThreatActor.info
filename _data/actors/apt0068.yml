@@ -1,11 +1,12 @@
 name: "PLATINUM"
-aliases: ["ATK33","DeadlyKiss","G0068","PLATINUM","Platinum","TwoForOne","PARASITE","RUBYVINE","GINGERSNAP","Fallow Squall"]
+aliases: ["ATK33","DeadlyKiss","Fallow Squall","G0068","GINGERSNAP","PARASITE","PLATINUM","Platinum","RUBYVINE","TwoForOne"]
 description: "PLATINUM is an activity group that has targeted victims since at least 2009. The group has focused on targets associated with governments and related organizations in South and Southeast Asia. [Microsoft PLATINUM April 2016](https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf)"
 url: "/apt0068"
 country: "Singapore"
 sector_focus: ["Defense","Government, Administration","Diplomacy","Intelligence","Telecoms"]
 first_seen: "2016"
 last_activity: "2017"
+confidence: "high"
 external_id: "G0068"
 external_url: "https://attack.mitre.org/groups/G0068"
 mitre_id: "G0068"
@@ -86,13 +87,24 @@ ttps:
     technique_name: "Masquerading"
     url: "https://attack.mitre.org/techniques/T1036"
     stix_id: "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0"
+attck_techniques: ["T1003.001","T1036","T1055","T1056.001","T1056.004","T1068","T1095","T1105","T1189","T1204.002","T1566.001"]
+attck_software: ["S0200","S0201","S0202"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0068"
+    external_id: "G0068"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0068"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://blogs.technet.microsoft.com/mmpc/2016/04/26/digging-deep-for-platinum/","https://threatpost.com/platinum-apt-first-to-abuse-intel-chip-management-feature/126166/","https://securelist.com/69567/the-chronicles-of-the-hellsing-apt-the-empire-strikes-back/","http://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf","https://securelist.com/analysis/publications/69567/the-chronicles-of-the-hellsing-apt-the-empire-strikes-back/","http://arstechnica.com/security/2015/04/elite-cyber-crime-group-strikes-back-after-attack-by-rival-apt-gang/","https://www.microsoft.com/security/blog/2017/06/07/platinum-continues-to-evolve-find-ways-to-maintain-invisibility/?source=mmpc","https://blog.telsy.com/deadlykiss-malware/","https://securelist.com/titanium-the-platinum-group-strikes-again/"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "others"
   aptnotes:
     earliest_report_year: "2016"
@@ -102,13 +114,13 @@ provenance:
     sample_titles: ["PLATINUM Targeted attacks in South and Southeast Asia","PLATINUM continues to evolve, find ways to maintain invisibility"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
     sources: ["Microsoft"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "platinum"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/platinum"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "1fc5671f-5757-43bf-8d6d-a9a93b03713a"
   misp_galaxy:
     meta_keys: ["refs","synonyms","targeted-sector","group_attack_id","observed_countries","source","target_categories","country","microsoft-origin-threat"]
@@ -117,20 +129,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "1fc5671f-5757-43bf-8d6d-a9a93b03713a"
     source_record_ids: ["1fc5671f-5757-43bf-8d6d-a9a93b03713a","154e97b5-47ef-415a-99a6-2157f1b50339","f036b992-4c3f-47b7-a458-94ac133bce74","6d0809db-12c3-5193-ad5b-33dbb98fe379"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:50Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0068"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--f9c06633-dcff-48a1-8588-759e7cec5694"
 source: "MITRE ATT&CK"

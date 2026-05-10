@@ -1,5 +1,5 @@
 name: "APT28"
-aliases: ["APT 28","APT-C-20","APT28","Armada Collective","ATK5","Blue Athena","BlueDelta","Dark Power","Fancy Bear","FANCY BEAR","Fighting Ursa","Forest Blizzard","FROZENLAKE","G0007","Grey-Cloud","Grizzly Steppe","Group 74","Group-4127","GruesomeLarch","IRON TWILIGHT","ITG05","Pawn Storm","Sednit","SIG40","SNAKEMACKEREL","Sofacy","Sofacy Group","STRONTIUM","Strontium","Swallowtail","T-APT-12","TA422","TG-4127","Threat Group-4127","Tsar Team","TsarTeam","UAC-0001","UAC-0028","奇幻熊 - APT-C-20","ATG2","Z-Lom Team","Operation Pawn Storm","CrisisFour","HELLFIRE"]
+aliases: ["APT 28","APT-C-20","APT28","Armada Collective","ATG2","ATK5","Blue Athena","BlueDelta","CrisisFour","Dark Power","Fancy Bear","FANCY BEAR","Fighting Ursa","Forest Blizzard","FROZENLAKE","G0007","Grey-Cloud","Grizzly Steppe","Group 74","Group-4127","GruesomeLarch","HELLFIRE","IRON TWILIGHT","ITG05","Operation Pawn Storm","Pawn Storm","Sednit","SIG40","SNAKEMACKEREL","Sofacy","Sofacy Group","STRONTIUM","Strontium","Swallowtail","T-APT-12","TA422","TG-4127","Threat Group-4127","Tsar Team","TsarTeam","UAC-0001","UAC-0028","Z-Lom Team","奇幻熊 - APT-C-20"]
 description: "APT28 is a threat group that has been attributed to Russia's General Staff Main Intelligence Directorate (GRU) 85th Main Special Service Center (GTsSS) military unit 26165. [NSA/FBI Drovorub August 2020](https://media.defense.gov/2020/Aug/13/2002476465/-1/-1/0/CSA_DROVORUB_RUSSIAN_GRU_MALWARE_AUG_2020.PDF) [Cybersecurity Advisory GRU Brute Force Campaign July 2021](https://media.defense.gov/2021/Jul/01/2002753896/-1/-1/1/CSA_GRU_GLOBAL_BRUTE_FORCE_CAMPAIGN_UOO158036-21.PDF) This group has been active since at least 2004. [DOJ GRU Indictment Jul 2018](https://cdn.cnn.com/cnn/2018/images/07/13/gru.indictment.pdf) [Ars Technica GRU indictment Jul 2018](https://arstechnica.com/information-technology/2018/07/from-bitly-to-x-agent-how-gru-hackers-targeted-the-2016-presidential-election/) [Crowdstrike DNC June 2016](https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/) [FireEye APT28](https://web.archive.org/web/20151022204649/https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf) [SecureWorks TG-4127](https://www.secureworks.com/research/threat-group-4127-targets-hillary-clinton-presidential-campaign) [FireEye APT28 January 2017](https://www.mandiant.com/sites/default/files/2021-09/APT28-Center-of-Storm-2017.pdf) [GRIZZLY STEPPE JAR](https://www.us-cert.gov/sites/default/files/publications/JAR_16-20296A_GRIZZLY%20STEPPE-2016-1229.pdf) [Sofacy DealersChoice](https://researchcenter.paloaltonetworks.com/2018/03/unit42-sofacy-uses-dealerschoice-target-european-government-agency/) [Palo Alto Sofacy 06-2018](https://researchcenter.paloaltonetworks.com/2018/06/unit42-sofacy-groups-parallel-attacks/) [Symantec APT28 Oct 2018](https://www.symantec.com/blogs/election-security/apt28-espionage-military-government) [ESET Zebrocy May 2019](https://www.welivesecurity.com/2019/05/22/journey-zebrocy-land/)\n\nAPT28 reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election. [Crowdstrike DNC June 2016](https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/) In 2018, the US indicted five GRU Unit 26165 officers associated with APT28 for cyber operations (including close-access operations) conducted between 2014 and 2018 against the World Anti-Doping Agency (WADA), the US Anti-Doping Agency, a US nuclear facility, the Organization for the Prohibition of Chemical Weapons (OPCW), the Spiez Swiss Chemicals Laboratory, and other organizations. [US District Court Indictment GRU Oct 2018](https://www.justice.gov/opa/page/file/1098481/download) Some of these were conducted with the assistance of GRU Unit 74455, which is also referred to as Sandworm Team. "
 url: "/apt28"
 country: "Russia"
@@ -10,6 +10,7 @@ first_seen: "2007"
 last_activity: "2024"
 last_updated: "2026-04-28"
 risk_level: "High"
+confidence: "high"
 external_id: "G0007"
 external_url: "https://attack.mitre.org/groups/G0007"
 mitre_id: "G0007"
@@ -638,6 +639,17 @@ ttps:
     technique_name: "SMB/Windows Admin Shares"
     url: "https://attack.mitre.org/techniques/T1021/002"
     stix_id: "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541"
+attck_techniques: ["T1001.001","T1003","T1003.001","T1003.003","T1005","T1014","T1021.002","T1025","T1027.013","T1030","T1036","T1036.005","T1037.001","T1039","T1040","T1048.002","T1056.001","T1057","T1059.001","T1059.003","T1068","T1070.004","T1070.006","T1071.001","T1071.003","T1074.001","T1074.002","T1078","T1078.004","T1083","T1090.002","T1090.003","T1091","T1092","T1098.002","T1102.002","T1105","T1110","T1110.001","T1110.003","T1113","T1114.002","T1119","T1120","T1133","T1134.001","T1137.002","T1140","T1189","T1190","T1199","T1203","T1204.001","T1204.002","T1210","T1211","T1213","T1213.002","T1218.011","T1221","T1498","T1505.003","T1528","T1542.003","T1546.015","T1547.001","T1550.001","T1550.002","T1557.004","T1559.002","T1560","T1560.001","T1564.001","T1564.003","T1566.001","T1567","T1573.001","T1583.001","T1583.003","T1583.006","T1584.008","T1586.002","T1588.002","T1588.007","T1589.001","T1591","T1595.002","T1596","T1598","T1598.003","T1669","T1684.001","T1685.005"]
+attck_software: ["S0002","S0023","S0039","S0044","S0045","S0117","S0134","S0135","S0136","S0137","S0138","S0160","S0161","S0162","S0174","S0183","S0191","S0193","S0243","S0250","S0251","S0314","S0351","S0397","S0410","S0502","S0645","S1187","S1205","S9035"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0007"
+    external_id: "G0007"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 campaigns:
   - name: "APT28 Nearest Neighbor Campaign"
     campaign_id: "C0051"
@@ -649,23 +661,23 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.trellix.com/en-us/about/newsroom/stories/research/shining-light-on-dark-power.html"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "unknown"
   aptnotes:
     earliest_report_year: "2014"
     latest_report_year: "2023"
-    report_count: 20
-    sample_links: ["https://app.box.com/s/th78b3w9bhr1cpdtn9gmmm9v7j2vuq47","https://app.box.com/s/2e7s0j3cuuswoplyvaqdz4kdudvvr7x7","https://app.box.com/s/oj4sr8vifeb03qe51newafin81tu8poy","https://app.box.com/s/dm3fbeb7hl95ilno014ftskoc1vi7n1r","https://app.box.com/s/g55oxdd3q63hyngbjm4fbipfct94wrye","https://app.box.com/s/2x3mrik225skob8rxd50rp63wlq0fp6v","https://app.box.com/s/49rs6u4cyq43khamdah90y9zyacjzmbr","https://app.box.com/s/uy6iv3fj7akwzrj9zq1gv403b35twaoy","https://app.box.com/s/jfku9mhjnf150uokw2owfxy0isj3pi28","https://app.box.com/s/2y2p7im0bp3o5myvi5s9cxfchddn2zbd","https://app.box.com/s/c7oz0zci5gxsbgnucxwah82bfdj0boe0","https://app.box.com/s/lmaensc7vzdugsy1nsh4bwligl07q53b","https://app.box.com/s/p4ywd9iqr5fr48nbz5o0nfwwgjkq5itk","https://app.box.com/s/7u92nzu48zg6kq0pmtlh9pj8p6jmjmrt","https://app.box.com/s/77t5ropot0e1yy0r1i5g8s9bsvvnq6t3","https://app.box.com/s/py4k1124p7hqacfb6dlkghvsh5xte2zw","https://app.box.com/s/l7n781ig6n8wlf1aff5hgwbh4qoi5jqq","https://app.box.com/s/1utq97k5oowxze0qsvbeur8u4zs0yny5","https://app.box.com/s/v7cb9iaex4o4igqpq9xbxz9sne72klr3","https://app.box.com/s/s2uqsgl0krjgy2q806x3vy0hx6jfjem8"]
+    report_count: 18
+    sample_links: ["https://app.box.com/s/th78b3w9bhr1cpdtn9gmmm9v7j2vuq47","https://app.box.com/s/2e7s0j3cuuswoplyvaqdz4kdudvvr7x7","https://app.box.com/s/oj4sr8vifeb03qe51newafin81tu8poy","https://app.box.com/s/dm3fbeb7hl95ilno014ftskoc1vi7n1r","https://app.box.com/s/g55oxdd3q63hyngbjm4fbipfct94wrye","https://app.box.com/s/2x3mrik225skob8rxd50rp63wlq0fp6v","https://app.box.com/s/49rs6u4cyq43khamdah90y9zyacjzmbr","https://app.box.com/s/uy6iv3fj7akwzrj9zq1gv403b35twaoy","https://app.box.com/s/jfku9mhjnf150uokw2owfxy0isj3pi28","https://app.box.com/s/2y2p7im0bp3o5myvi5s9cxfchddn2zbd","https://app.box.com/s/c7oz0zci5gxsbgnucxwah82bfdj0boe0","https://app.box.com/s/lmaensc7vzdugsy1nsh4bwligl07q53b","https://app.box.com/s/p4ywd9iqr5fr48nbz5o0nfwwgjkq5itk","https://app.box.com/s/7u92nzu48zg6kq0pmtlh9pj8p6jmjmrt","https://app.box.com/s/77t5ropot0e1yy0r1i5g8s9bsvvnq6t3","https://app.box.com/s/py4k1124p7hqacfb6dlkghvsh5xte2zw","https://app.box.com/s/v7cb9iaex4o4igqpq9xbxz9sne72klr3","https://app.box.com/s/s2uqsgl0krjgy2q806x3vy0hx6jfjem8"]
     sample_titles: ["Tactical Intelligence Bulletin Sofacy Phishing","Apt28: A Window Into Russia's Cyber Espionage Operations","Operation Russiandoll: Adobe & Windows ZeroDay Exploits Likely leveraged By Russia's APT28","Sofacy II_ Same Sofacy, Different Day","APT28 Targets Financial Markets: Zero Day Hashes Released","A Look Into Fysbis: Sofacy's Linux Backdoor","New Sofacy Attacks Against US Government Agency","Threat Group-4127 Targets Hillary Clinton Presidential Campaign","Threat Group 4127 Targets Hillary Clinton Presidential Campaign","Threat Group-4127 Targets Google Accounts"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
-    sources: ["Bitdefender","CERT-UA","Crowdstrike","Dell Secureworks","ESET","FireEye","IBM","McAfee","PWC","Palo Alto","Palo Alto Networks","Secureworks","root9b","tr1adx"]
+    source_retrieved_at: "2026-05-10T06:02:57Z"
+    sources: ["CERT-UA","Crowdstrike","Dell Secureworks","ESET","FireEye","IBM","PWC","Palo Alto","Palo Alto Networks","Secureworks","root9b","tr1adx"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt28"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt28"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "5b4ee3ea-eee3-4c8e-8323-85ae32658754"
   misp_galaxy:
     meta_keys: ["country","refs","suspected-victims","synonyms","target-category","microsoft-origin-threat","sector","links"]
@@ -674,21 +686,21 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json"
     source_record_id: "3d9f700c-5eb5-5d36-a6e7-47b55f2844cd"
     source_record_ids: ["3d9f700c-5eb5-5d36-a6e7-47b55f2844cd","8d84d7b0-7716-5ab3-a3a4-f373dd148347","213cdde9-c11a-4ea9-8ce0-c868e9826fec","64d155a9-8e33-4c3f-8f58-0a483475c65d"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0007"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c"
   reddrip7_apt_digital_weapon:
     actor_folder: "APT28"

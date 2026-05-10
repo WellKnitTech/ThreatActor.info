@@ -20,13 +20,13 @@ provenance:
     sample_titles: ["Dalbit (m00nlight): Chinese Hacker Group's APT Attack Campaign"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
     sources: ["Ahnlab"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "dalbit"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dalbit"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "be4ea668-6a74-44d9-946e-e98e64a8855b"
   misp_galaxy:
     meta_keys: ["country","refs"]
@@ -35,4 +35,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "be4ea668-6a74-44d9-946e-e98e64a8855b"
     source_record_ids: ["be4ea668-6a74-44d9-946e-e98e64a8855b"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"

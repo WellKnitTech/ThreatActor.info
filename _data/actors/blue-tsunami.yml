@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "blue_tsunami"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/blue_tsunami"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "46104ded-49f5-4440-bd25-e05c1126f0ba"
   misp_galaxy:
     meta_keys: ["country","refs","synonyms","microsoft-origin-threat"]
@@ -23,4 +23,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "46104ded-49f5-4440-bd25-e05c1126f0ba"
     source_record_ids: ["46104ded-49f5-4440-bd25-e05c1126f0ba","258a5cd1-f040-5a2e-8f04-6787bf2f1ae7"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"

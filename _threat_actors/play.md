@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Play"
-aliases: ["Play","Play Ransomware","play","PLAY Ransomware"]
+aliases: ["Play","play","Play Ransomware","PLAY Ransomware"]
 description: "Play is a ransomware group that has been active since at least 2022 deploying Playcrypt ransomware against the business, government, critical infrastructure, healthcare, and media sectors in North Amer"
 permalink: /play/
 ---
@@ -61,6 +61,35 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 | Microsoft Products | MS Server Products | Exchange On-Prem | CVE-2022-41040, CVE-2022-41082 |
 | Microsoft Products | MS Server Products | Exchange On-Prem | CVE-2022-41080 |
 | Applications | SimpleHelp | SimpleHelp RMM | CVE-2024-57727 |
+
+### ATT&CK technique IDs (denormalized)
+
+- [T1003.001](https://attack.mitre.org/techniques/T1003/001/)
+- [T1016](https://attack.mitre.org/techniques/T1016/)
+- [T1018](https://attack.mitre.org/techniques/T1018/)
+- [T1021.002](https://attack.mitre.org/techniques/T1021/002/)
+- [T1027.010](https://attack.mitre.org/techniques/T1027/010/)
+- [T1030](https://attack.mitre.org/techniques/T1030/)
+- [T1048](https://attack.mitre.org/techniques/T1048/)
+- [T1057](https://attack.mitre.org/techniques/T1057/)
+- [T1059.001](https://attack.mitre.org/techniques/T1059/001/)
+- [T1059.003](https://attack.mitre.org/techniques/T1059/003/)
+- [T1070.004](https://attack.mitre.org/techniques/T1070/004/)
+- [T1078](https://attack.mitre.org/techniques/T1078/)
+- [T1078.002](https://attack.mitre.org/techniques/T1078/002/)
+- [T1078.003](https://attack.mitre.org/techniques/T1078/003/)
+- [T1082](https://attack.mitre.org/techniques/T1082/)
+- [T1083](https://attack.mitre.org/techniques/T1083/)
+- [T1105](https://attack.mitre.org/techniques/T1105/)
+- [T1133](https://attack.mitre.org/techniques/T1133/)
+- [T1190](https://attack.mitre.org/techniques/T1190/)
+- [T1518.001](https://attack.mitre.org/techniques/T1518/001/)
+- [T1560.001](https://attack.mitre.org/techniques/T1560/001/)
+- [T1587.001](https://attack.mitre.org/techniques/T1587/001/)
+- [T1588.002](https://attack.mitre.org/techniques/T1588/002/)
+- [T1657](https://attack.mitre.org/techniques/T1657/)
+- [T1685](https://attack.mitre.org/techniques/T1685/)
+- [T1685.005](https://attack.mitre.org/techniques/T1685/005/)
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*

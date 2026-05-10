@@ -20,7 +20,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "el_machete"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/el_machete"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "827c17e0-c3f5-4ad1-a4f4-30a40ed0a2d3"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"

@@ -15,7 +15,7 @@ provenance:
     sample_titles: ["In-Depth Analysis Of Hydraq: The Face Of Cyberwar Enemies Unfolds","The Voho Campaign: An In Depth Analysis","A Closer Look At Miniduke","Gathering In The Middle East, Operation Stteam","Anatomy Of The Attack: Zombie Zero","Zoxpng Analysis","Hikit Analysis","Derusbi (Server Variant) Analysis","Operation Potao Express: Analysis Of A Cyber-Espionage Toolkit","RSA Research Terracotta VPN: Enabler Of Advanced Threat Anonymity"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
     sources: ["Bitdefender","CA","ESET","Fidelis","Kaspersky","Novetta","RSA","Trapx"]
   misp_galaxy:
     source_cluster: "ransomware.json"
@@ -23,4 +23,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "06db1c0f-5dcd-4dad-8fb5-cdf8afdf2ab6"
     source_record_ids: ["06db1c0f-5dcd-4dad-8fb5-cdf8afdf2ab6"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"

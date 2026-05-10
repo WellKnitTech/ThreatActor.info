@@ -33,6 +33,17 @@ ttps:
     technique_name: "Financial Theft"
     url: "https://attack.mitre.org/techniques/T1657"
     stix_id: "attack-pattern--851e071f-208d-4c79-adc6-5974c85c78f3"
+attck_techniques: ["T1486","T1585.001","T1657"]
+attck_software: ["S0183","S1242"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G1050"
+    external_id: "G1050"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   mitre:
     attack_version: "19.0"
@@ -40,13 +51,13 @@ provenance:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G1050"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--be8847e0-9512-45db-895e-f871ab6d3820"
 source: "MITRE ATT&CK"

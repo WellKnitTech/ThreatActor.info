@@ -5,6 +5,7 @@ url: "/apt1006"
 country: "China"
 sector_focus: ["Gambling companies","Government Institutions","Education","Media and Entertainment","Pro-democracy and human rights political organizations","Telecommunications","Religious organization","Cryptocurrency","Medical","Covid-19 research organizations"]
 targeted_victims: ["Australia","China","France","Germany","Hong Kong","Japan","Mongolia","Nepal","Nigeria","Philippines","Taiwan","Thailand","United Arab Emirates","United States","Vietnam"]
+confidence: "high"
 external_id: "G1006"
 external_url: "https://attack.mitre.org/groups/G1006"
 mitre_id: "G1006"
@@ -247,12 +248,23 @@ ttps:
     technique_name: "Malicious Link"
     url: "https://attack.mitre.org/techniques/T1204/001"
     stix_id: "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9"
+attck_techniques: ["T1003.001","T1003.006","T1007","T1016","T1018","T1027","T1027.003","T1033","T1036.005","T1047","T1049","T1053.005","T1057","T1059.001","T1059.005","T1059.006","T1059.007","T1090","T1098.004","T1112","T1140","T1189","T1190","T1204.001","T1204.002","T1210","T1218.005","T1482","T1543.003","T1547.012","T1548.002","T1560.001","T1566.002","T1567.002","T1574.001","T1583.001","T1583.004","T1583.006","T1584.004","T1584.006","T1588.001","T1588.002","T1595.002","T1608.001"]
+attck_software: ["S0002","S0057","S0154","S0160","S0194","S0359","S0430","S0590","S0596"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G1006"
+    external_id: "G1006"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "earth_lusca"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/earth_lusca"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "39150b30-61af-4d9c-9682-1595e145f3c1"
   misp_galaxy:
     meta_keys: ["country","microsoft-origin-threat","refs","sector","synonyms"]
@@ -261,20 +273,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "3f8b7c98-7484-523f-9d58-181274e6fc8f"
     source_record_ids: ["3f8b7c98-7484-523f-9d58-181274e6fc8f"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G1006"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034"
 source: "MITRE ATT&CK"

@@ -2,6 +2,7 @@ name: "Rocke"
 aliases: ["Aged Libra","Rocke"]
 description: "Rocke is an alleged Chinese-speaking adversary whose primary objective appeared to be cryptojacking, or stealing victim system resources for the purposes of mining cryptocurrency. The name Rocke comes from the email address \"rocke@live.cn\" used to create the wallet which held collected cryptocurrency. Researchers have detected overlaps between Rocke and the Iron Cybercrime Group, though this attribution has not been confirmed. [Talos Rocke August 2018](https://blog.talosintelligence.com/2018/08/rocke-champion-of-monero-miners.html)"
 url: "/apt0106"
+confidence: "high"
 external_id: "G0106"
 external_url: "https://attack.mitre.org/groups/G0106"
 mitre_id: "G0106"
@@ -160,12 +161,22 @@ ttps:
     technique_name: "Security Software Discovery"
     url: "https://attack.mitre.org/techniques/T1518/001"
     stix_id: "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384"
+attck_techniques: ["T1014","T1018","T1021.004","T1027","T1027.002","T1027.004","T1036.005","T1037","T1046","T1053.003","T1055.002","T1057","T1059.004","T1059.006","T1070.004","T1070.006","T1071","T1071.001","T1082","T1102","T1102.001","T1105","T1140","T1190","T1222.002","T1496.001","T1518.001","T1543.002","T1547.001","T1552.004","T1564.001","T1571","T1574.006","T1685","T1685.006","T1686"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0106"
+    external_id: "G0106"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "rocke"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/rocke"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "53583c40-935e-11e9-b4fc-d7e217a306d2"
   misp_galaxy:
     meta_keys: ["refs","synonyms","group_attack_id","observed_motivations","source"]
@@ -174,20 +185,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "53583c40-935e-11e9-b4fc-d7e217a306d2"
     source_record_ids: ["53583c40-935e-11e9-b4fc-d7e217a306d2","71222310-2807-4599-bb92-248eaf2e03ab"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:50Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0106"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--44102191-3a31-45f8-acbe-34bdb441d5ad"
 source: "MITRE ATT&CK"

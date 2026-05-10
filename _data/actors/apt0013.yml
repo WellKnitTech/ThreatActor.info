@@ -1,10 +1,10 @@
 name: "APT30"
-aliases: ["APT30","G0013","Raspberry Typhoon","RADIUM","LotusBlossom","LOTUS PANDA"]
+aliases: ["APT30","G0013","Raspberry Typhoon","RADIUM","LotusBlossom","LOTUS PANDA","Spring Dragon","ST Group","DRAGONFISH","BRONZE ELGIN","ATK1","G0030","Red Salamander","Lotus BLossom","Billbug","Lotus Blossom"]
 description: "APT30 is a threat group suspected to be associated with the Chinese government. While Naikon shares some characteristics with APT30, the two groups do not appear to be exact matches. [FireEye APT30](https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2015/05/20081935/rpt-apt30.pdf) [Baumgartner Golovkin Naikon 2015](https://securelist.com/the-naikon-apt/69953/)"
 url: "/apt0013"
 country: "China"
-sector_focus: ["Government"]
-targeted_victims: ["United States","South Korea","Saudi Arabia","Thailand","Vietnam","Malaysia","India"]
+sector_focus: ["Government","Military","Government, Administration"]
+targeted_victims: ["United States","South Korea","Saudi Arabia","Thailand","Vietnam","Malaysia","India","Japan","Philippines","Hong Kong","Indonesia","Taiwan"]
 incident_type: "Espionage"
 risk_level: "High"
 external_id: "G0013"
@@ -59,10 +59,10 @@ ttps:
 provenance:
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
-    source_record_id: "apt30"
-    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt30"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
-    source_uuid: "d3881afe-f781-4c53-9f68-33487a119a59"
+    source_record_id: "raspberry_typhoon"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/raspberry_typhoon"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_uuid: "37f012df-54d8-4b3d-a288-af47240430ea"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:

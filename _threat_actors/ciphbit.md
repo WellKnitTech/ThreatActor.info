@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Ciphbit"
-aliases: ["Ciphbit"]
+aliases: ["Ciphbit","CiphBit"]
 description: "CiphBit is a crypto-ransomware first detected in April 2023. It utilizes a double-extortion model, encrypting files and threatening to leak stolen data via a Tor-hosted portal if ransom demands are not"
 permalink: /ciphbit/
 ---

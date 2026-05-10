@@ -9,6 +9,7 @@ incident_type: "Espionage"
 first_seen: "2015"
 last_activity: "2015"
 risk_level: "High"
+confidence: "high"
 external_id: "G0019"
 external_url: "https://attack.mitre.org/groups/G0019"
 mitre_id: "G0019"
@@ -172,13 +173,24 @@ ttps:
     technique_name: "DLL"
     url: "https://attack.mitre.org/techniques/T1574/001"
     stix_id: "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34"
+attck_techniques: ["T1016","T1018","T1036.004","T1036.005","T1046","T1047","T1053.005","T1078.002","T1137.006","T1204.002","T1518.001","T1547.001","T1566.001","T1574.001"]
+attck_software: ["S0029","S0039","S0055","S0057","S0058","S0059","S0060","S0061","S0095","S0096","S0097","S0108","S0456","S0629","S0630"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0019"
+    external_id: "G0019"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0019"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://securelist.com/analysis/publications/69953/the-naikon-apt/","http://blog.trendmicro.com/trendlabs-security-intelligence/rarstone-found-in-targeted-attacks/","https://www.threatconnect.com/camerashy/","http://www.crowdstrike.com/blog/rhetoric-foreshadows-cyber-activity-in-the-south-china-sea/","https://www.symantec.com/blogs/threat-intelligence/thrip-hits-satellite-telecoms-defense-targets","https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report/","https://www.symantec.com/blogs/threat-intelligence/thrip-apt-south-east-asia","https://research.checkpoint.com/2020/naikon-apt-cyber-espionage-reloaded/","https://cluster25.io/2022/04/29/lotus-panda-awake-last-strike/","https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/espionage-asia-governments-cert-authority","https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf","https://symantec-enterprise-blogs.security.com/threat-intelligence/telecoms-espionage-asia"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "china"
   aptnotes:
     earliest_report_year: "2015"
@@ -188,13 +200,13 @@ provenance:
     sample_titles: ["The Msnmm Campaigns: The Earliest Naikon APT Campaigns"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
     sources: ["Kaspersky"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "naikon"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/naikon"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "2f1fd017-9df6-4759-91fb-e7039609b5ff"
   mitre:
     attack_version: "19.0"
@@ -202,13 +214,13 @@ provenance:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0019"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050"
 source: "MITRE ATT&CK"

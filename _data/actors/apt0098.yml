@@ -1,8 +1,9 @@
 name: "BlackTech"
-aliases: ["BlackTech","Canary Typhoon","CIRCUIT PANDA","Earth Hundun","G0098","HUAPI","Manga Taurus","Mobwork","Palmerworm","Phantom of Routers","Red Djinn","T-APT-03","Temp.Overboard","APT24","PITTY PANDA","G0011","Temp.Pittytiger"]
+aliases: ["APT24","BlackTech","Canary Typhoon","CIRCUIT PANDA","Earth Hundun","G0011","G0098","HUAPI","Manga Taurus","Mobwork","Palmerworm","Phantom of Routers","PITTY PANDA","Red Djinn","T-APT-03","Temp.Overboard","Temp.Pittytiger"]
 description: "BlackTech is a suspected Chinese cyber espionage group that has primarily targeted organizations in East Asia--particularly Taiwan, Japan, and Hong Kong--and the US since at least 2013. BlackTech has used a combination of custom malware, dual-use tools, and living off the land tactics to compromise media, construction, engineering, electronics, and financial company networks. [TrendMicro BlackTech June 2017](https://blog.trendmicro.com/trendlabs-security-intelligence/following-trail-blacktech-cyber-espionage-campaigns/) [Symantec Palmerworm Sep 2020](https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/palmerworm-blacktech-espionage-apt) [Reuters Taiwan BlackTech August 2020](https://www.reuters.com/article/us-taiwan-cyber-china/taiwan-says-china-behind-cyberattacks-on-government-agencies-emails-idUSKCN25F0JK)"
 url: "/apt0098"
 country: "China"
+confidence: "high"
 external_id: "G0098"
 external_url: "https://attack.mitre.org/groups/G0098"
 mitre_id: "G0098"
@@ -119,18 +120,29 @@ ttps:
     technique_name: "Digital Certificates"
     url: "https://attack.mitre.org/techniques/T1588/004"
     stix_id: "attack-pattern--19401639-28d0-4c3c-adcc-bc2ba22f6421"
+attck_techniques: ["T1021.004","T1036.002","T1046","T1106","T1190","T1203","T1204.001","T1204.002","T1566.001","T1566.002","T1574.001","T1588.002","T1588.003","T1588.004"]
+attck_software: ["S0029","S0435","S0436","S0437","S0579","S0696"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0098"
+    external_id: "G0098"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://blog.trendmicro.com/trendlabs-security-intelligence/following-trail-blacktech-cyber-espionage-campaigns/","https://documents.trendmicro.com/assets/appendix-following-the-trail-of-blacktechs-cyber-espionage-campaigns.pdf","https://blogs.jpcert.or.jp/en/2018/03/malware-tscooki-7aa0.html","https://blog.jpcert.or.jp/2018/06/plead-downloader-used-by-blacktech.html","https://www.welivesecurity.com/2018/07/09/certificates-stolen-taiwanese-tech-companies-plead-malware-campaign/","https://www.welivesecurity.com/2019/05/14/plead-malware-mitm-asus-webstorage/","https://blogs.jpcert.or.jp/en/2019/09/tscookie-loader.html","https://blogs.jpcert.or.jp/en/2019/11/icondown-downloader-used-by-blacktech.html","https://blog.trendmicro.com/trendlabs-security-intelligence/waterbear-is-back-uses-api-hooking-to-evade-security-product-detection/","https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/palmerworm-blacktech-espionage-apt"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "unknown"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "blacktech"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/blacktech"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "320c42f7-eab7-4ef9-b09a-74396caa6c3e"
   misp_galaxy:
     meta_keys: ["country","origin:Earth Hundun","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories","microsoft-origin-threat"]
@@ -139,20 +151,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "320c42f7-eab7-4ef9-b09a-74396caa6c3e"
     source_record_ids: ["320c42f7-eab7-4ef9-b09a-74396caa6c3e","528ab2ea-b8f1-44d8-8831-2a89fefd97cb","59b25baf-5d3b-5e98-824a-2a0b0764e961"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0098"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8"
 source: "MITRE ATT&CK"

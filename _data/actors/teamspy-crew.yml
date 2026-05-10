@@ -26,13 +26,13 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/theteamspystory_final_t2.pdf","https://blog.crysys.hu/2018/03/territorial-dispute-nsas-perspective-on-apt-landscape/"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "russia"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "teamspy_crew"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/teamspy_crew"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "82c1c7fa-c67b-4be6-9be8-8aa400ef2445"
   misp_galaxy:
     meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","refs","synonyms","targeted-sector"]
@@ -41,4 +41,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "82c1c7fa-c67b-4be6-9be8-8aa400ef2445"
     source_record_ids: ["82c1c7fa-c67b-4be6-9be8-8aa400ef2445"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:50Z"

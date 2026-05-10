@@ -183,7 +183,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "wizard_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/wizard_spider"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "bdf4fe4f-af8a-495f-a719-cf175cecda1f"
   misp_galaxy:
     meta_keys: ["attribution-confidence","country","extensions","links","ransomnotes","refs"]
@@ -192,7 +192,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "201eff54-d41e-4f70-916c-5dfb9301730a"
     source_record_ids: ["201eff54-d41e-4f70-916c-5dfb9301730a"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   ransomware_tool_matrix:
     references:
       - title: "BazarCall to Conti Ransomware via Trickbot and Cobalt Strike"

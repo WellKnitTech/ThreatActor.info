@@ -1,5 +1,5 @@
 name: "3am"
-aliases: ["3am"]
+aliases: ["3am","THREEAMTIME","3AM","ThreeAM"]
 description: "3AM, also known as ThreeAM, is a relatively new ransomware family that emerged in late 2023, initially deployed as a fallback option when LockBit infections failed. Written in Rust for 64-bit systems, it appends the “.threeamtime” extension to encrypted files and tags them with the marker “0x666,” while deleting Volume Shadow Copies to hinder recovery. 3AM operators use a double extortion strategy, combining file encryption with data theft and threats to leak stolen information. More recent campaigns have shown increased sophistication, incorporating email bombing followed by vishing calls to convince victims to grant remote access via Microsoft Quick Assist. Attackers then deploy virtual machines containing backdoors, allowing them to remain undetected while exfiltrating data before attempting to launch the ransomware payload."
 url: "/3am"
 source_name: "RansomLook"
@@ -7,7 +7,17 @@ source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0
 source_record_url: "https://www.ransomlook.io/group/3am"
 source_license: "CC BY 4.0"
 source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+malware:
+  - name: "ThreeAM"
+  - name: "3 AM"
+  - name: "3AM"
 provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://www.bleepingcomputer.com/news/security/hackers-use-new-3am-ransomware-to-save-failed-lockbit-attack/"]
+    source_retrieved_at: "2026-05-10T06:02:56Z"
+    tab_name: "unknown"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "3am"
   source_retrieved_at: "2026-05-06T22:00:33Z"

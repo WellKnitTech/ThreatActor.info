@@ -1,8 +1,9 @@
 name: "Scattered Spider"
-aliases: ["0ktapus","DEV-0971","Muddled Libra","Octo Tempest","Oktapus","Roasted 0ktapus","Scatter Swine","Scattered Spider","Scattered Swine","Starfraud","Storm-0875","Storm-0971","UNC3944","SCATTERED SPIDER"]
+aliases: ["0ktapus","DEV-0971","Muddled Libra","Octo Tempest","Oktapus","Roasted 0ktapus","Scatter Swine","Scattered Spider","SCATTERED SPIDER","Scattered Swine","Starfraud","Storm-0875","Storm-0971","UNC3944"]
 description: "Scattered Spider is a native English-speaking cybercriminal group active since at least 2022. [CrowdStrike Scattered Spider Profile](https://www.crowdstrike.com/adversaries/scattered-spider/) [MSTIC Octo Tempest Operations October 2023](https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/) The group initially targeted customer relationship management (CRM) providers, business process outsourcing (BPO) firms, and telecommunications and technology companies before expanding in 2023 to gaming, hospitality, retail, managed service provider (MSP), manufacturing, and financial sectors. [MSTIC Octo Tempest Operations October 2023](https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/)\nScattered Spider relies heavily on social engineering, including impersonating IT and help-desk staff, to gain initial access, bypass multi-factor authentication (MFA), and compromise enterprise networks. The group has adapted its tooling to evade endpoint detection and response (EDR) defenses and used ransomware for financial gain. [CISA Scattered Spider Advisory November 2023](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a) [CrowdStrike Scattered Spider BYOVD January 2023](https://www.crowdstrike.com/blog/scattered-spider-attempts-to-avoid-detection-with-bring-your-own-vulnerable-driver-tactic/) [Crowdstrike TELCO BPO Campaign December 2022](https://www.crowdstrike.com/blog/analysis-of-intrusion-campaign-targeting-telecom-and-bpo-companies/)\nScattered Spider had expanded into hybrid cloud and identity environments, using help-desk impersonation and MFA bypass to obtain administrator access in Okta, AWS, and Office 365. [Mandiant UNC3944 May 2025](https://cloud.google.com/blog/topics/threat-intelligence/unc3944-proactive-hardening-recommendations)"
 url: "/apt1015"
 last_updated: "2026-04-28"
+confidence: "high"
 external_id: "G1015"
 external_url: "https://attack.mitre.org/groups/G1015"
 mitre_id: "G1015"
@@ -335,6 +336,17 @@ ttps:
     technique_name: "Phishing"
     url: "https://attack.mitre.org/techniques/T1660"
     stix_id: "attack-pattern--defc1257-4db1-4fb3-8ef5-bb77f63146df"
+attck_techniques: ["T1003.003","T1006","T1016","T1018","T1021.001","T1021.004","T1021.007","T1041","T1059.001","T1059.004","T1068","T1069","T1069.002","T1070.008","T1074","T1078","T1078.004","T1082","T1083","T1087","T1087.002","T1090","T1098","T1098.003","T1105","T1114","T1114.003","T1133","T1136","T1204","T1213.003","T1213.005","T1217","T1219.002","T1451","T1484.002","T1486","T1490","T1530","T1538","T1539","T1543.002","T1552.001","T1552.004","T1553.002","T1555.005","T1556.006","T1556.009","T1564.008","T1567.002","T1572","T1578.002","T1580","T1583.001","T1585.001","T1588.001","T1588.002","T1589","T1598","T1598.003","T1598.004","T1621","T1657","T1660","T1684.001","T1685"]
+attck_software: ["S0002","S0183","S0349","S0508","S0591","S0670","S1040","S1068","S1148"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G1015"
+    external_id: "G1015"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 campaigns:
   - name: "C0027"
     campaign_id: "C0027"
@@ -346,7 +358,7 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.crowdstrike.com/blog/analysis-of-intrusion-campaign-targeting-telecom-and-bpo-companies/","https://www.crowdstrike.com/blog/scattered-spider-attempts-to-avoid-detection-with-bring-your-own-vulnerable-driver-tactic/"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "others"
   bushido_breach_reports:
     reports:
@@ -378,7 +390,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "scattered_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/scattered_spider"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "3b238f3a-c67a-4a9e-b474-dc3897e00129"
   misp_galaxy:
     meta_keys: ["origin:DEV-0971","origin:Storm-0971","origin:UNC3944","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories","microsoft-origin-threat"]
@@ -387,21 +399,21 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "3b238f3a-c67a-4a9e-b474-dc3897e00129"
     source_record_ids: ["3b238f3a-c67a-4a9e-b474-dc3897e00129","3d77fb6c-cfb4-5563-b0be-7aa1ad535337","565b1ffa-6aa0-534d-a7bd-82ae942dd813"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G1015"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b"
   ransomware_tool_matrix:
     actor_roles: ["ransomware_affiliate"]

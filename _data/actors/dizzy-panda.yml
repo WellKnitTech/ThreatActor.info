@@ -12,7 +12,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "dizzy_panda"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dizzy_panda"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "8a8f39df-74b3-4946-ab64-f84968bababe"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"

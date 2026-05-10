@@ -152,28 +152,6 @@
       "description": "Microsoft. (2016, June 9). Reverse-engineering DUBNIUM. Retrieved March 31, 2021."
     }
   ],
-  "APT30": [
-    {
-      "source": "mitre-attack",
-      "url": "https://attack.mitre.org/groups/G0013",
-      "description": null
-    },
-    {
-      "source": "APT30",
-      "url": null,
-      "description": "(Citation: FireEye APT30) (Citation: Baumgartner Golovkin Naikon 2015)"
-    },
-    {
-      "source": "Baumgartner Golovkin Naikon 2015",
-      "url": "https://securelist.com/the-naikon-apt/69953/",
-      "description": "Baumgartner, K., Golovkin, M.. (2015, May 14). The Naikon APT. Retrieved January 14, 2015."
-    },
-    {
-      "source": "FireEye APT30",
-      "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2015/05/20081935/rpt-apt30.pdf",
-      "description": "FireEye Labs. (2015, April). APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION. Retrieved November 17, 2024."
-    }
-  ],
   "DragonOK": [
     {
       "source": "mitre-attack",
@@ -3667,103 +3645,6 @@
       "source": "Fox-It Anunak Feb 2015",
       "url": "https://www.fox-it.com/en/news/blog/anunak-aka-carbanak-update/",
       "description": "Prins, R. (2015, February 16). Anunak (aka Carbanak) Update. Retrieved January 20, 2017."
-    }
-  ],
-  "Lazarus Group": [
-    {
-      "source": "mitre-attack",
-      "url": "https://attack.mitre.org/groups/G0032",
-      "description": null
-    },
-    {
-      "source": "Labyrinth Chollima",
-      "url": null,
-      "description": "(Citation: CrowdStrike Labyrinth Chollima Feb 2022)"
-    },
-    {
-      "source": "Diamond Sleet",
-      "url": null,
-      "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
-    },
-    {
-      "source": "ZINC",
-      "url": null,
-      "description": "(Citation: Microsoft ZINC disruption Dec 2017)"
-    },
-    {
-      "source": "Lazarus Group",
-      "url": null,
-      "description": "(Citation: Novetta Blockbuster)"
-    },
-    {
-      "source": "NICKEL ACADEMY",
-      "url": null,
-      "description": "(Citation: Secureworks NICKEL ACADEMY Dec 2017)"
-    },
-    {
-      "source": "Guardians of Peace",
-      "url": null,
-      "description": "(Citation: US-CERT HIDDEN COBRA June 2017)"
-    },
-    {
-      "source": "CrowdStrike Labyrinth Chollima Feb 2022",
-      "url": "https://web.archive.org/web/20210723190317/https://adversary.crowdstrike.com/en-US/adversary/labyrinth-chollima/",
-      "description": "CrowdStrike. (2022, February 1). CrowdStrike Adversary Labyrinth Chollima. Retrieved February 1, 2022."
-    },
-    {
-      "source": "Mandiant DPRK Groups 2023",
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/north-korea-cyber-structure-alignment-2023",
-      "description": "Michael Barnhart, Austin Larsen, Jeff Johnson, Taylor Long, Michelle Cantos, Adrian Hernandez. (2023, October 10). Assessed Cyber Structure and Alignments of North Korea in 2023. Retrieved August 25, 2025."
-    },
-    {
-      "source": "Mandiant DPRK Laz Org Breakdown 2022",
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/mapping-dprk-groups-to-government/",
-      "description": "Michael Barnhart, Michelle Cantos, Jeffery Johnson, Elias fox, Gary Freas, Dan Scott. (2022, March 23). Not So Lazarus: Mapping DPRK Cyber Threat Groups to Government Organizations. Retrieved September 9, 2025."
-    },
-    {
-      "source": "Microsoft Threat Actor Naming July 2023",
-      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
-      "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023."
-    },
-    {
-      "source": "Novetta Blockbuster",
-      "url": "https://web.archive.org/web/20160226161828/https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf",
-      "description": "Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Unraveling the Long Thread of the Sony Attack. Retrieved February 25, 2016."
-    },
-    {
-      "source": "Secureworks NICKEL ACADEMY Dec 2017",
-      "url": "https://www.secureworks.com/about/press/media-alert-secureworks-discovers-north-korean-cyber-threat-group-lazarus-spearphishing",
-      "description": "Secureworks. (2017, December 15). Media Alert - Secureworks Discovers North Korean Cyber Threat Group, Lazarus, Spearphishing Financial Executives of Cryptocurrency Companies. Retrieved December 27, 2017."
-    },
-    {
-      "source": "Microsoft ZINC disruption Dec 2017",
-      "url": "https://blogs.microsoft.com/on-the-issues/2017/12/19/microsoft-facebook-disrupt-zinc-malware-attack-protect-customers-internet-ongoing-cyberthreats/",
-      "description": "Smith, B. (2017, December 19). Microsoft and Facebook disrupt ZINC malware attack to protect customers and the internet from ongoing cyberthreats. Retrieved December 20, 2017."
-    },
-    {
-      "source": "HIDDEN COBRA",
-      "url": null,
-      "description": "The U.S. Government refers to malicious cyber activity by the North Korean government as HIDDEN COBRA.(Citation: US-CERT HIDDEN COBRA June 2017)(Citation: US-CERT HOPLIGHT Apr 2019)"
-    },
-    {
-      "source": "Treasury North Korean Cyber Groups September 2019",
-      "url": "https://home.treasury.gov/news/press-releases/sm774",
-      "description": "US Treasury . (2019, September 13). Treasury Sanctions North Korean State-Sponsored Malicious Cyber Groups. Retrieved September 29, 2021."
-    },
-    {
-      "source": "US-CERT HIDDEN COBRA June 2017",
-      "url": "https://www.us-cert.gov/ncas/alerts/TA17-164A",
-      "description": "US-CERT. (2017, June 13). Alert (TA17-164A) HIDDEN COBRA – North Korea’s DDoS Botnet Infrastructure. Retrieved July 13, 2017."
-    },
-    {
-      "source": "US-CERT HOPLIGHT Apr 2019",
-      "url": "https://www.us-cert.gov/ncas/analysis-reports/AR19-100A",
-      "description": "US-CERT. (2019, April 10). MAR-10135536-8 – North Korean Trojan: HOPLIGHT. Retrieved April 19, 2019."
-    },
-    {
-      "source": "JPCert Blog Laz Subgroups 2025",
-      "url": "https://blogs.jpcert.or.jp/en/2025/03/classifying-lazaruss-subgroup.html",
-      "description": "佐々木勇人 Hayato Sasaki. (2025, March 25). Tempted to Classifying APT Actors: Practical Challenges of Attribution in the Case of Lazarus’s Subgroup. Retrieved August 25, 2025."
     }
   ],
   "MirrorFace": [

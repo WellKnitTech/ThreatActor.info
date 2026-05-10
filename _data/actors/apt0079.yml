@@ -3,6 +3,7 @@ aliases: ["DarkHydrus","G0079","LazyMeerkat","Obscure Serpens"]
 description: "DarkHydrus is a threat group that has targeted government agencies and educational institutions in the Middle East since at least 2016. The group heavily leverages open-source tools and custom payloads for carrying out attacks. [Unit 42 DarkHydrus July 2018](https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/) [Unit 42 Playbook Dec 2017](https://pan-unit42.github.io/playbook_viewer/)"
 url: "/apt0079"
 country: "Iran"
+confidence: "high"
 external_id: "G0079"
 external_url: "https://attack.mitre.org/groups/G0079"
 mitre_id: "G0079"
@@ -62,19 +63,30 @@ ttps:
     technique_name: "Tool"
     url: "https://attack.mitre.org/techniques/T1588/002"
     stix_id: "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0"
+attck_techniques: ["T1059.001","T1187","T1204.002","T1221","T1564.003","T1566.001","T1588.002"]
+attck_software: ["S0002","S0154","S0270"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0079"
+    external_id: "G0079"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0079"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/","https://docs.google.com/document/d/1oYX3uN6KxIX_StzTH0s0yFNNoHDnV8VgmVqU5WoeErc/edit#heading=h.ez428aw98bca"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "iran"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "darkhydrus"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/darkhydrus"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "ce2c2dfd-2445-4fbc-a747-9e7092e383f9"
   misp_galaxy:
     meta_keys: ["refs","synonyms","group_attack_id","source","target_categories"]
@@ -83,20 +95,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "ce2c2dfd-2445-4fbc-a747-9e7092e383f9"
     source_record_ids: ["ce2c2dfd-2445-4fbc-a747-9e7092e383f9","f2b31240-0b4a-4fa4-82a4-6bb00e146e75"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:50Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0079"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--6b9ebeb5-20bf-48b0-afb7-988d769a2f01"
 source: "MITRE ATT&CK"

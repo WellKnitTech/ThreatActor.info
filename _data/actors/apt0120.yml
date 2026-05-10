@@ -2,6 +2,7 @@ name: "Evilnum"
 aliases: ["DeathStalker","Decepticons","Evilnum","EvilNum","Jointworm","KNOCKOUT SPIDER","TA4563"]
 description: "Evilnum is a financially motivated threat group that has been active since at least 2018. [ESET EvilNum July 2020](https://www.welivesecurity.com/2020/07/09/more-evil-deep-look-evilnum-toolset/)"
 url: "/apt0120"
+confidence: "high"
 external_id: "G0120"
 external_url: "https://attack.mitre.org/groups/G0120"
 mitre_id: "G0120"
@@ -76,18 +77,29 @@ ttps:
     technique_name: "JavaScript"
     url: "https://attack.mitre.org/techniques/T1059/007"
     stix_id: "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d"
+attck_techniques: ["T1059.007","T1070.004","T1105","T1204.001","T1219.002","T1497.001","T1539","T1548.002","T1555","T1566.002","T1574.001"]
+attck_software: ["S0284","S0349","S0568"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0120"
+    external_id: "G0120"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://unit42.paloaltonetworks.com/cardinal-rat-sins-again-targets-israeli-fin-tech-firms/","https://blog.prevailion.com/2020/05/phantom-in-command-shell5.html","https://www.welivesecurity.com/2020/07/09/more-evil-deep-look-evilnum-toolset/","https://www.brighttalk.com/webcast/15591/424426/new-threats-in-a-changing-world-apt-trends-in-q2-2020","https://www.rewterz.com/rewterz-news/rewterz-threat-alert-evilnum-apt-group-targeting-financial-sector-2","https://www.zscaler.com/blogs/security-research/return-evilnum-apt-updated-ttps-and-new-targets"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "others"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "evilnum"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/evilnum"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "b6f3150f-2240-4c57-9dda-5144c5077058"
   misp_galaxy:
     meta_keys: ["origin:TA4563","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","target_categories"]
@@ -96,20 +108,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "b6f3150f-2240-4c57-9dda-5144c5077058"
     source_record_ids: ["b6f3150f-2240-4c57-9dda-5144c5077058","4bdc62c9-af6a-4377-8431-58a6f39235dd"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:50Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0120"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--1f0f9a14-11aa-49aa-9174-bcd0eaa979de"
 source: "MITRE ATT&CK"

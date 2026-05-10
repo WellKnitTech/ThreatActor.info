@@ -1,5 +1,5 @@
 name: "APT18"
-aliases: ["APT18","Dynamite Panda","DYNAMITE PANDA","G0026","PLA Navy","Satin Typhoon","SCANDIUM","TG-0416","Threat Group-0416","Wekby","COMBINE","SILVERVIPER","Red Wraith","Elderwood Group"]
+aliases: ["APT18","COMBINE","Dynamite Panda","DYNAMITE PANDA","Elderwood Group","G0026","PLA Navy","Red Wraith","Satin Typhoon","SCANDIUM","SILVERVIPER","TG-0416","Threat Group-0416","Wekby"]
 description: "APT18 is a threat group that has operated since at least 2009 and has targeted a range of industries, including technology, manufacturing, human rights groups, government, and medical. [Dell Lateral Movement](http://www.secureworks.com/resources/blog/where-you-at-indicators-of-lateral-movement-using-at-exe-on-windows-7-systems/)"
 url: "/apt0026"
 country: "China"
@@ -9,6 +9,7 @@ incident_type: "Espionage"
 first_seen: "2016"
 last_activity: "2016"
 risk_level: "High"
+confidence: "high"
 external_id: "G0026"
 external_url: "https://attack.mitre.org/groups/G0026"
 mitre_id: "G0026"
@@ -99,6 +100,17 @@ ttps:
     technique_name: "Registry Run Keys / Startup Folder"
     url: "https://attack.mitre.org/techniques/T1547/001"
     stix_id: "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279"
+attck_techniques: ["T1027.013","T1053.002","T1059.003","T1070.004","T1071.001","T1071.004","T1078","T1082","T1083","T1105","T1133","T1547.001"]
+attck_software: ["S0032","S0070","S0071","S0106","S0124"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0026"
+    external_id: "G0026"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   aptnotes:
     earliest_report_year: "2016"
@@ -108,13 +120,13 @@ provenance:
     sample_titles: ["New Wekby Attacks Use DNS Requests As Command and Control Mechanism"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
     sources: ["Palo Alto"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt18"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt18"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "9a683d9c-8f7d-43df-bba2-ad0ca71e277c"
   misp_galaxy:
     meta_keys: ["country","microsoft-origin-threat","refs","synonyms"]
@@ -123,20 +135,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "073df49d-f3c8-5459-b8d8-89e7beb348ef"
     source_record_ids: ["073df49d-f3c8-5459-b8d8-89e7beb348ef"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0026"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648"
 source: "MITRE ATT&CK"

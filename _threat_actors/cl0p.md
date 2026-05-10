@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Cl0p"
-aliases: ["CHIMBORAZO","Clop","Hive0065","Spandex Tempest","TA505","Cl0p","SectorJ04","SectorJ04 Group","GRACEFUL SPIDER","GOLD TAHOE","Dudear","G0092","ATK103","Lace Tempest","DEV-0950","FIN11","MONTY SPIDER"]
+aliases: ["CHIMBORAZO","Clop","Hive0065","Spandex Tempest","TA505","Cl0p","SectorJ04","SectorJ04 Group","GRACEFUL SPIDER","GOLD TAHOE","Dudear","G0092","ATK103","Lace Tempest","DEV-0950","FIN11","MONTY SPIDER","TEMP.Warlock","UNC902"]
 description: "TA505 is a cyber criminal group that has been active since at least 2014. TA505 is known for frequently changing malware, driving global trends in criminal malware distribution, and ransomware campaign"
 permalink: /cl0p/
 ---

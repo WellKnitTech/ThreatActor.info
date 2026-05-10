@@ -2,12 +2,24 @@ name: "Cylance"
 aliases: ["Cylance"]
 description: "Cylance is an active extortion or ransomware group tracked by RansomLook."
 url: "/cylance"
+first_seen: "2015"
+last_activity: "2017"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/cylance"
 source_license: "CC BY 4.0"
 source_license_url: "https://creativecommons.org/licenses/by/4.0/"
 provenance:
+  aptnotes:
+    earliest_report_year: "2015"
+    latest_report_year: "2017"
+    report_count: 2
+    sample_links: ["https://app.box.com/s/ma0qrrczbji4grvjbezpeugf3gru084x","https://app.box.com/s/5l02xyf45l1gww8vet75vom5jmn32m0h"]
+    sample_titles: ["Cylance Spear Team: A Threat Actor Resurfaces","The Deception Project: A New Japanese-Centric Threat"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
+    sources: ["Cylance"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "cylance"
   source_retrieved_at: "2026-05-06T21:58:02Z"

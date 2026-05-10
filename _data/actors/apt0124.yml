@@ -2,6 +2,7 @@ name: "Windigo"
 aliases: ["Windigo"]
 description: "The Windigo group has been operating since at least 2011, compromising thousands of Linux and Unix servers using the Ebury SSH backdoor to create a spam botnet. Despite law enforcement intervention against the creators, Windigo operators continued updating Ebury through 2019. [ESET Windigo Mar 2014](https://www.welivesecurity.com/2014/03/18/operation-windigo-the-vivisection-of-a-large-linux-server-side-credential-stealing-malware-campaign/) [CERN Windigo June 2019](https://security.web.cern.ch/advisories/windigo/windigo.shtml)"
 url: "/apt0124"
+confidence: "high"
 external_id: "G0124"
 external_url: "https://attack.mitre.org/groups/G0124"
 mitre_id: "G0124"
@@ -48,6 +49,17 @@ ttps:
     technique_name: "Drive-by Compromise"
     url: "https://attack.mitre.org/techniques/T1189"
     stix_id: "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6"
+attck_techniques: ["T1005","T1059","T1082","T1083","T1090","T1189","T1518"]
+attck_software: ["S0377"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0124"
+    external_id: "G0124"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   misp_galaxy:
     meta_keys: ["group_attack_id","source"]
@@ -56,20 +68,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
     source_record_id: "eeb69751-8c22-4a5f-8da2-239cc7d7746c"
     source_record_ids: ["eeb69751-8c22-4a5f-8da2-239cc7d7746c"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0124"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--4e868dad-682d-4897-b8df-2dc98f46c68a"
 source: "MITRE ATT&CK"

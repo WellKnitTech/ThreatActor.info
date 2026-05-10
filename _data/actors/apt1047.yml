@@ -3,6 +3,7 @@ aliases: ["Velvet Ant"]
 description: "Velvet Ant is a threat actor operating since at least 2021. Velvet Ant is associated with complex persistence mechanisms, the targeting of network devices and appliances during operations, and the use of zero day exploits. [Sygnia VelvetAnt 2024A](https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/) [Sygnia VelvetAnt 2024B](https://www.sygnia.co/threat-reports-and-advisories/china-nexus-threat-group-velvet-ant-exploits-cisco-0-day/)"
 url: "/apt1047"
 country: "China"
+confidence: "high"
 external_id: "G1047"
 external_url: "https://attack.mitre.org/groups/G1047"
 mitre_id: "G1047"
@@ -115,6 +116,17 @@ ttps:
     technique_name: "SMB/Windows Admin Shares"
     url: "https://attack.mitre.org/techniques/T1021/002"
     stix_id: "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541"
+attck_techniques: ["T1021.002","T1036.005","T1037.004","T1040","T1047","T1049","T1055","T1059.004","T1071","T1078.003","T1083","T1090.001","T1132","T1133","T1211","T1569.002","T1570","T1571","T1573.002","T1574.001","T1685","T1686"]
+attck_software: ["S0013","S0357"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G1047"
+    external_id: "G1047"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   misp_galaxy:
     meta_keys: ["country","group_attack_id","observed_motivations","source","tags"]
@@ -123,20 +135,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
     source_record_id: "f1c80880-e3ed-5223-90f5-840a3b89fe39"
     source_record_ids: ["f1c80880-e3ed-5223-90f5-840a3b89fe39"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G1047"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--e1fc262c-dad2-4b82-abda-5f08dd134971"
 source: "MITRE ATT&CK"

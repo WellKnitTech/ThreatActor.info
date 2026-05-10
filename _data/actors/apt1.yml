@@ -9,6 +9,7 @@ incident_type: "Espionage"
 first_seen: "2006"
 last_activity: "2023"
 risk_level: "High"
+confidence: "high"
 external_id: "G0006"
 external_url: "https://attack.mitre.org/groups/G0006"
 mitre_id: "G0006"
@@ -219,13 +220,24 @@ ttps:
     technique_name: "Remote Desktop Protocol"
     url: "https://attack.mitre.org/techniques/T1021/001"
     stix_id: "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf"
+attck_techniques: ["T1003.001","T1005","T1007","T1016","T1021.001","T1036.005","T1049","T1057","T1059.003","T1087.001","T1114.001","T1114.002","T1119","T1135","T1550.002","T1560.001","T1566.001","T1566.002","T1583.001","T1584.001","T1585.002","T1588.001","T1588.002"]
+attck_software: ["S0002","S0006","S0008","S0012","S0017","S0025","S0026","S0029","S0039","S0057","S0100","S0109","S0119","S0121","S0122","S0123","S0345"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0006"
+    external_id: "G0006"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0006"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://www.mcafee.com/us/resources/white-papers/wp-operation-shady-rat.pdf","http://www.nytimes.com/2013/02/19/technology/chinas-army-is-seen-as-tied-to-hacking-against-us.html?emc=na&_r=2&","https://www.secureworks.com/research/analysis-of-dhs-nccic-indicators","https://www.scribd.com/doc/13731776/Tracking-GhostNet-Investigating-a-Cyber-Espionage-Network","http://www.nartv.org/mirror/ghostnet.pdf"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "china"
   aptnotes:
     earliest_report_year: "2013"
@@ -235,13 +247,13 @@ provenance:
     sample_titles: ["Comment Crew: Indicators Of Compromise","Apt1: Technical Backstage"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
     sources: ["Malware.lu, itrust","Symantec"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt1"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt1"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "1cb7e1cc-d695-42b1-92f4-fd0112a3c9be"
   misp_galaxy:
     meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","refs","synonyms","group_attack_id","observed_countries","source","target_categories","country_name"]
@@ -250,19 +262,19 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "1cb7e1cc-d695-42b1-92f4-fd0112a3c9be"
     source_record_ids: ["1cb7e1cc-d695-42b1-92f4-fd0112a3c9be","5307bba1-2674-4fbd-bfd5-1db1ae06fc5f","e8e08b98-9dbc-5a73-a7a9-b0f8b29b5e0d"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0006"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662"

@@ -15,7 +15,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "bladehawk"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/bladehawk"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "0d72c57c-73e3-4739-8144-c8055cabd7dc"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"

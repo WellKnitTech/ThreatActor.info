@@ -1,10 +1,11 @@
 name: "TEMP.Veles"
-aliases: ["ATK91","G0088","TEMP.Veles","Triton","XENOTIME","Xenotime","TRISIS"]
+aliases: ["ATK91","G0088","TEMP.Veles","TRISIS","Triton","XENOTIME","Xenotime"]
 description: "TEMP.Veles is a Russia-based threat group that has targeted critical infrastructure. The group has been observed utilizing TRITON, a malware framework designed to manipulate industrial safety systems. [FireEye TRITON 2019](https://www.fireeye.com/blog/threat-research/2019/04/triton-actor-ttp-profile-custom-attack-tools-detections.html) [FireEye TEMP.Veles 2018](https://www.fireeye.com/blog/threat-research/2018/10/triton-attribution-russian-government-owned-lab-most-likely-built-tools.html) [FireEye TEMP.Veles JSON April 2019](https://www.fireeye.com/content/dam/fireeye-www/blog/files/TRITON_Appendix_C.html)"
 url: "/apt0088"
 country: "Russia"
 first_seen: "2017"
 last_activity: "2017"
+confidence: "high"
 external_id: "G0088"
 external_url: "https://attack.mitre.org/groups/G0088"
 mitre_id: "G0088"
@@ -44,6 +45,17 @@ ttps:
     technique_name: "Drive-by Compromise"
     url: "https://attack.mitre.org/techniques/T0817"
     stix_id: "attack-pattern--7830cfcf-b268-4ac0-a69e-73c6affbae9a"
+attck_techniques: ["T0817","T0862"]
+attck_software: ["S0002","S0029","S1009"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0088"
+    external_id: "G0088"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 campaigns:
   - name: "Triton Safety Instrumented System Attack"
     campaign_id: "C0030"
@@ -60,7 +72,7 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://ics-cert.us-cert.gov/MAR-17-352-01-HatMan%E2%80%94Safety-System-Targeted-Malware","https://www.fireeye.com/blog/threat-research/2017/12/attackers-deploy-new-ics-attack-framework-triton.html","https://www.fireeye.com/blog/threat-research/2018/10/triton-attribution-russian-government-owned-lab-most-likely-built-tools.html"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "unknown"
   aptnotes:
     earliest_report_year: "2017"
@@ -70,13 +82,13 @@ provenance:
     sample_titles: ["TRISIS Malware","Attackers Deploy New ICS Attack Framework \"TRITON\" and Cause Operational Disruption to Critical Infrastructure"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
     sources: ["Dragos","FireEye"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "temp.veles"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/temp.veles"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "90abfc42-91c6-11e9-89b1-af58de8f7ec2"
   misp_galaxy:
     meta_keys: ["capabilities","mode-of-operation","origin:TEMP.Veles","refs","since","synonyms","victimology","country","group_attack_id","observed_countries","source","tags","target_categories","Associated Group Descriptions","Software","Techniques Used"]
@@ -85,20 +97,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "90abfc42-91c6-11e9-89b1-af58de8f7ec2"
     source_record_ids: ["90abfc42-91c6-11e9-89b1-af58de8f7ec2","3a54b8dc-a231-4db8-96da-1c0c1aa396f6","acb04037-e160-4a4e-a8cf-8a53a2f8221b"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0088"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--9538b1a4-4120-4e2d-bf59-3b11fcab05a4"
 source: "MITRE ATT&CK"

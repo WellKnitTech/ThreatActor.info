@@ -3,6 +3,7 @@ aliases: ["Storm-0501"]
 description: "Storm-0501 is a financially motivated cyber criminal group that uses commodity and open-source tools to conduct ransomware operations. Storm-0501 has been active since 2021 and has previously been affiliated with Sabbath Ransomware and other Ransomware-as-a-Service (RaaS) variants such as Hive, BlackCat, Hunters International, LockBit 3.0, and Embargo ransomware. [Avertium Storm-0501 Sabbath Ransomware Arcane January 2022](https://www.avertium.com/resources/threat-reports/in-depth-look-at-sabbath-ransomware-gang) [Microsoft Storm-501 Sabbath Ransomware Embargo September 2024](https://www.microsoft.com/en-us/security/blog/2024/09/26/storm-0501-ransomware-attacks-expanding-to-hybrid-cloud-environments/) [Microsoft Storm-0501 Embargo Ransomware August 2025](https://www.microsoft.com/en-us/security/blog/2025/08/27/storm-0501s-evolving-techniques-lead-to-cloud-based-ransomware/) [Google Mandiant Storm-0501 Sabbath Ransomware November 2021](https://cloud.google.com/blog/topics/threat-intelligence/sabbath-ransomware-affiliate/)"
 url: "/apt1053"
 last_updated: "2026-04-28"
+confidence: "high"
 external_id: "G1053"
 external_url: "https://attack.mitre.org/groups/G1053"
 mitre_id: "G1053"
@@ -231,12 +232,23 @@ ttps:
     technique_name: "Additional Cloud Credentials"
     url: "https://attack.mitre.org/techniques/T1098/001"
     stix_id: "attack-pattern--8a2f40cf-8325-47f9-96e4-b1ca4c7389bd"
+attck_techniques: ["T1003","T1003.006","T1021.006","T1021.007","T1027.002","T1036.004","T1053.005","T1057","T1059.001","T1059.009","T1078.004","T1082","T1087.002","T1087.004","T1098.001","T1098.003","T1110","T1190","T1218.010","T1218.011","T1219.002","T1482","T1484.001","T1484.002","T1485","T1486","T1490","T1518.001","T1526","T1530","T1537","T1552.004","T1555.005","T1555.006","T1556.009","T1567.002","T1578.003","T1580","T1587.003","T1588.006","T1614.001","T1657"]
+attck_software: ["S0039","S0057","S0154","S0357","S0359","S0677","S1040","S1247"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G1053"
+    external_id: "G1053"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "storm-0501"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-0501"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "f6a60403-4bcc-4fc6-ac07-abb913c1f080"
   misp_galaxy:
     meta_keys: ["origin:Storm-0501","refs","microsoft-origin-threat","group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
@@ -245,21 +257,21 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "f6a60403-4bcc-4fc6-ac07-abb913c1f080"
     source_record_ids: ["f6a60403-4bcc-4fc6-ac07-abb913c1f080","559c8dc4-1022-50ed-9f1c-d7715737fd87","de72d564-6487-4cf3-be3e-0a961cf15d5d"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G1053"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--7b404cd0-3ae9-41d4-90c0-023793d35d97"
   ransomware_tool_matrix:
     actor_roles: ["ransomware_affiliate"]

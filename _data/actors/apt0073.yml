@@ -1,5 +1,5 @@
 name: "APT19"
-aliases: ["APT19","Black Vine","BRONZE FIRESTONE","C0d0so","C0d0so0","Checkered Typhoon","Codoso","Codoso Team","DEEP PANDA","G0009","G0073","Group 13","KungFu Kittens","PinkPanther","Pupa","Shell Crew","Sunshop Group","TEMP.Avengers","WebMasters","CHLORINE","ATG50","TG-3551","Red Gargoyle"]
+aliases: ["APT19","ATG50","Black Vine","BRONZE FIRESTONE","C0d0so","C0d0so0","Checkered Typhoon","CHLORINE","Codoso","Codoso Team","DEEP PANDA","G0009","G0073","Group 13","KungFu Kittens","PinkPanther","Pupa","Red Gargoyle","Shell Crew","Sunshop Group","TEMP.Avengers","TG-3551","WebMasters"]
 description: "APT19 is a Chinese-based threat group that has targeted a variety of industries, including defense, finance, energy, pharmaceutical, telecommunications, high tech, education, manufacturing, and legal services. In 2017, a phishing campaign was used to target seven law and investment firms. [FireEye APT19](https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html) Some analysts track APT19 and Deep Panda as the same group, but it is unclear from open source information if the groups are the same. [ICIT China's Espionage Jul 2016](https://web.archive.org/web/20171017072306/https://icitech.org/icit-brief-chinas-espionage-dynasty-economic-death-by-a-thousand-cuts/) [FireEye APT Groups](https://www.fireeye.com/current-threats/apt-groups.html#apt19) [Unit 42 C0d0so0 Jan 2016](https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/)"
 url: "/apt0073"
 country: "China"
@@ -7,6 +7,7 @@ sector_focus: ["Technology","Finance","Non-profit organisation","Private sector"
 targeted_victims: ["United States"]
 incident_type: "Espionage"
 risk_level: "High"
+confidence: "high"
 external_id: "G0073"
 external_url: "https://attack.mitre.org/groups/G0073"
 mitre_id: "G0073"
@@ -119,19 +120,30 @@ ttps:
     technique_name: "Command Obfuscation"
     url: "https://attack.mitre.org/techniques/T1027/010"
     stix_id: "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377"
+attck_techniques: ["T1016","T1027.010","T1027.013","T1033","T1059","T1059.001","T1071.001","T1082","T1112","T1132.001","T1140","T1189","T1204.002","T1218.010","T1218.011","T1543.003","T1547.001","T1564.003","T1566.001","T1574.001","T1588.002"]
+attck_software: ["S0154","S0363"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0073"
+    external_id: "G0073"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0073"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks","http://www.isightpartners.com/2015/02/codoso/#sthash.VJMDVPQB.dpuf","http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/","https://www.proofpoint.com/us/threat-insight/post/exploring-bergard-old-malware-new-tricks","https://cybergeeks.tech/analyzing-apt19-malware-using-a-step-by-step-method/"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "china"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt19"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt19"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "066d25c1-71bd-4bd4-8ca7-edbba00063f4"
   misp_galaxy:
     meta_keys: ["country","microsoft-origin-threat","refs","synonyms"]
@@ -140,20 +152,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "df9c1947-9c78-5538-b4b8-a6385e77c5bb"
     source_record_ids: ["df9c1947-9c78-5538-b4b8-a6385e77c5bb"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0073"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6"
 source: "MITRE ATT&CK"

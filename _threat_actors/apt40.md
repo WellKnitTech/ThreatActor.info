@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT40"
-aliases: ["APT40","ATK29","BRONZE MOHAWK","G0065","Gadolinium","GADOLINIUM","Gingham Typhoon","Hainan Xiandun Technology Company","ISLANDDREAMS","ITG09","Kryptonite Panda","KRYPTONITE PANDA","Leviathan","MUDCARP","Red Ladon","ScanBox","TA423","TEMP.Jumper","Temp.Jumper","TEMP.Periscope","JJDoor","Feverdream"]
+aliases: ["APT40","ATK29","BRONZE MOHAWK","Feverdream","G0065","Gadolinium","GADOLINIUM","Gingham Typhoon","Hainan Xiandun Technology Company","ISLANDDREAMS","ITG09","JJDoor","Kryptonite Panda","KRYPTONITE PANDA","Leviathan","MUDCARP","Red Ladon","ScanBox","TA423","TEMP.Jumper","Temp.Jumper","TEMP.Periscope"]
 description: "Leviathan is a Chinese state-sponsored cyber espionage group that has been attributed to the Ministry of State Security's (MSS) Hainan State Security Department and an affiliated front company. [CISA A"
 permalink: /apt40/
 ---
@@ -78,6 +78,59 @@ Leviathan is a Chinese state-sponsored cyber espionage group that has been attri
 - [T1133 External Remote Services](https://attack.mitre.org/techniques/T1133)
 - [T1003 OS Credential Dumping](https://attack.mitre.org/techniques/T1003)
 - [T1586.002 Email Accounts](https://attack.mitre.org/techniques/T1586/002)
+
+### ATT&CK technique IDs (denormalized)
+
+- [T1003](https://attack.mitre.org/techniques/T1003/)
+- [T1003.001](https://attack.mitre.org/techniques/T1003/001/)
+- [T1021.001](https://attack.mitre.org/techniques/T1021/001/)
+- [T1021.004](https://attack.mitre.org/techniques/T1021/004/)
+- [T1027.001](https://attack.mitre.org/techniques/T1027/001/)
+- [T1027.003](https://attack.mitre.org/techniques/T1027/003/)
+- [T1027.013](https://attack.mitre.org/techniques/T1027/013/)
+- [T1027.015](https://attack.mitre.org/techniques/T1027/015/)
+- [T1041](https://attack.mitre.org/techniques/T1041/)
+- [T1047](https://attack.mitre.org/techniques/T1047/)
+- [T1055.001](https://attack.mitre.org/techniques/T1055/001/)
+- [T1059.001](https://attack.mitre.org/techniques/T1059/001/)
+- [T1059.005](https://attack.mitre.org/techniques/T1059/005/)
+- [T1074.001](https://attack.mitre.org/techniques/T1074/001/)
+- [T1074.002](https://attack.mitre.org/techniques/T1074/002/)
+- [T1078](https://attack.mitre.org/techniques/T1078/)
+- [T1090.003](https://attack.mitre.org/techniques/T1090/003/)
+- [T1102.003](https://attack.mitre.org/techniques/T1102/003/)
+- [T1105](https://attack.mitre.org/techniques/T1105/)
+- [T1133](https://attack.mitre.org/techniques/T1133/)
+- [T1140](https://attack.mitre.org/techniques/T1140/)
+- [T1189](https://attack.mitre.org/techniques/T1189/)
+- [T1190](https://attack.mitre.org/techniques/T1190/)
+- [T1197](https://attack.mitre.org/techniques/T1197/)
+- [T1203](https://attack.mitre.org/techniques/T1203/)
+- [T1204.001](https://attack.mitre.org/techniques/T1204/001/)
+- [T1204.002](https://attack.mitre.org/techniques/T1204/002/)
+- [T1218.010](https://attack.mitre.org/techniques/T1218/010/)
+- [T1505.003](https://attack.mitre.org/techniques/T1505/003/)
+- [T1534](https://attack.mitre.org/techniques/T1534/)
+- [T1546.003](https://attack.mitre.org/techniques/T1546/003/)
+- [T1547.001](https://attack.mitre.org/techniques/T1547/001/)
+- [T1547.009](https://attack.mitre.org/techniques/T1547/009/)
+- [T1553.002](https://attack.mitre.org/techniques/T1553/002/)
+- [T1559.002](https://attack.mitre.org/techniques/T1559/002/)
+- [T1560](https://attack.mitre.org/techniques/T1560/)
+- [T1566.001](https://attack.mitre.org/techniques/T1566/001/)
+- [T1566.002](https://attack.mitre.org/techniques/T1566/002/)
+- [T1567.002](https://attack.mitre.org/techniques/T1567/002/)
+- [T1572](https://attack.mitre.org/techniques/T1572/)
+- [T1583.001](https://attack.mitre.org/techniques/T1583/001/)
+- [T1584.004](https://attack.mitre.org/techniques/T1584/004/)
+- [T1584.008](https://attack.mitre.org/techniques/T1584/008/)
+- [T1585.001](https://attack.mitre.org/techniques/T1585/001/)
+- [T1585.002](https://attack.mitre.org/techniques/T1585/002/)
+- [T1586.001](https://attack.mitre.org/techniques/T1586/001/)
+- [T1586.002](https://attack.mitre.org/techniques/T1586/002/)
+- [T1587.004](https://attack.mitre.org/techniques/T1587/004/)
+- [T1589.001](https://attack.mitre.org/techniques/T1589/001/)
+- [T1595.002](https://attack.mitre.org/techniques/T1595/002/)
 
 ## Notable Indicators of Compromise (IOCs)
 *No atomic indicators are listed in this profile. The APTnotes snapshot indexes 3 public reports that may contain IOCs; see Source Attribution for dataset links.*

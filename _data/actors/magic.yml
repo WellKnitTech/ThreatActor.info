@@ -15,7 +15,7 @@ provenance:
     sample_titles: ["Houdini's Magic Reappearance"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
     sources: ["Palo Alto Networks"]
   misp_galaxy:
     meta_keys: ["encryption","extensions","payment-method","price","ransomnotes-filenames","refs"]
@@ -24,4 +24,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "31fa83fc-8247-4347-940a-e463acd66bac"
     source_record_ids: ["31fa83fc-8247-4347-940a-e463acd66bac"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"

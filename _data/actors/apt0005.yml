@@ -1,5 +1,5 @@
 name: "APT12"
-aliases: ["APT12","BeeBus","BRONZE GLOBE","Calc Team","Crimson Iron","DNSCALC","DNSCalc","DynCalc","Group 22","Hexagon Typhoon","IXESHE","Numbered Panda","NUMBERED PANDA","TG-2754","TG-2754 (tentative)","HYDROGEN","Red Anubis","DNS-Calc","HORDE"]
+aliases: ["APT12","BeeBus","BRONZE GLOBE","Calc Team","Crimson Iron","DNS-Calc","DNSCALC","DNSCalc","DynCalc","Group 22","Hexagon Typhoon","HORDE","HYDROGEN","IXESHE","Numbered Panda","NUMBERED PANDA","Red Anubis","TG-2754","TG-2754 (tentative)"]
 description: "APT12 is a threat group that has been attributed to China. The group has targeted a variety of victims including but not limited to media outlets, high-tech companies, and multiple governments. [Meyers Numbered Panda](http://www.crowdstrike.com/blog/whois-numbered-panda/)"
 url: "/apt0005"
 country: "China"
@@ -9,6 +9,7 @@ incident_type: "Espionage"
 first_seen: "2012"
 last_activity: "2016"
 risk_level: "High"
+confidence: "high"
 external_id: "G0005"
 external_url: "https://attack.mitre.org/groups/G0005"
 mitre_id: "G0005"
@@ -70,13 +71,24 @@ ttps:
     technique_name: "Spearphishing Attachment"
     url: "https://attack.mitre.org/techniques/T1566/001"
     stix_id: "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597"
+attck_techniques: ["T1102.002","T1203","T1204.002","T1566.001","T1568.003"]
+attck_software: ["S0003","S0015","S0040"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0005"
+    external_id: "G0005"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-05-10T05:53:38Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0005"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://www.crowdstrike.com/blog/whois-numbered-panda/","http://www.computerworld.com/s/article/9241577/The_Chinese_hacker_group_that_hit_the_N.Y._Times_is_back_with_updated_tools?taxonomyId=17","http://blog.crowdstrike.com/whois-numbered-panda/","http://www.secureworks.com/cyber-threat-intelligence/threats/analysis-of-dhs-nccic-indicators/","http://blog.trendmicro.com/taking-a-bite-out-of-ixeshe/","http://www.arbornetworks.com/asert/2014/06/illuminating-the-etumbot-apt-backdoor/","https://cysinfo.com/sx-2nd-meetup-reversing-and-decrypting-the-communications-of-apt-malware/","http://blog.macnica.net/blog/2017/08/post-fb81.html"]
-    source_retrieved_at: "2026-05-06T22:01:17Z"
+    source_retrieved_at: "2026-05-10T06:02:56Z"
     tab_name: "china"
   aptnotes:
     earliest_report_year: "2012"
@@ -86,13 +98,13 @@ provenance:
     sample_titles: ["Ixeshe An Apt Campaign","Operation Beebus","The Mutter Backdoor: Operation Beebus with New Targets","IXESHE Derivative IHEATE Targets Users in America"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
     sources: ["FireEye","Fireeye","Trend Micro"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt12"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt12"
-    source_retrieved_at: "2026-05-06T22:01:16Z"
+    source_retrieved_at: "2026-05-10T06:02:54Z"
     source_uuid: "48146604-6693-4db1-bd94-159744726514"
   misp_galaxy:
     meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","origin:BRONZE GLOBE","refs","synonyms","group_attack_id","observed_countries","source","target_categories","microsoft-origin-threat"]
@@ -101,20 +113,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "48146604-6693-4db1-bd94-159744726514"
     source_record_ids: ["48146604-6693-4db1-bd94-159744726514","225314a7-8f40-48d4-9cff-3ec39b177762","a8df4364-1b52-5cee-b103-da42fa640ddc"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:
       enterprise: "19.0"
       ics: "19.0"
       mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+    relationships_imported_at: "2026-05-10T05:53:38Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0005"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-05-10T05:53:38Z"
     stix_intrusion_set_id: "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb"
 source: "MITRE ATT&CK"

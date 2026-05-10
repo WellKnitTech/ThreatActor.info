@@ -15,7 +15,7 @@ provenance:
     sample_titles: ["New Zero-Day Exploit Targeting Internet Explorer Versions 9 Through 11 Identified In Targeted Attacks"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-06T22:01:18Z"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
     sources: ["FireEye"]
   misp_galaxy:
     source_cluster: "ransomware.json"
@@ -23,4 +23,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "7b9fa522-8db4-4b29-adcf-7c01c21c39b4"
     source_record_ids: ["7b9fa522-8db4-4b29-adcf-7c01c21c39b4"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    source_retrieved_at: "2026-05-10T06:02:51Z"

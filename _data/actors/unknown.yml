@@ -2,12 +2,24 @@ name: "Unknown"
 aliases: ["Unknown"]
 description: "Unknown is an active extortion or ransomware group tracked by RansomLook."
 url: "/unknown"
+first_seen: "2023"
+last_activity: "2023"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/unknown"
 source_license: "CC BY 4.0"
 source_license_url: "https://creativecommons.org/licenses/by/4.0/"
 provenance:
+  aptnotes:
+    earliest_report_year: "2023"
+    latest_report_year: "2023"
+    report_count: 2
+    sample_links: ["https://app.box.com/s/29d01df2yj6gbkew7etkx3kesagb2pk1","https://app.box.com/s/cexiy4us0t2ygcu6mewyys4aad5ogv83"]
+    sample_titles: ["Hydrochasma: Previously Unknown Group Targets Medical and Shipping Organizations in Asia","HrServ - Previously unknown web shell used in APT attack"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-05-10T06:02:57Z"
+    sources: ["Kaspersky","Symantec"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "unknown"
   source_retrieved_at: "2026-05-06T21:56:22Z"
