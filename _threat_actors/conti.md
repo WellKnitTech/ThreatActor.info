@@ -72,12 +72,6 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Why Security in 2026 Requires Continuous Threat and Exposure Management (CTEM) at Scale](https://www.rapid7.com/blog/post/em-2026-cybersecurity-requires-ctem-at-scale)
-  Rapid7 - 2026-05-07T
-
 ## CISA Known Exploited Vulnerabilities (KEV)
 *The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*
 
