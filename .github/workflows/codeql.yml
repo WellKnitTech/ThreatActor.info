@@ -15,6 +15,9 @@ permissions:
 
 jobs:
   analyze:
+    # This workflow uses advanced CodeQL configuration. It must not run while
+    # GitHub's Code Scanning "default setup" is enabled for this repository.
+    if: ${{ vars.CODEQL_ADVANCED_SETUP_ENABLED == 'true' }}
     name: Analyze (${{ matrix.language }})
     runs-on: ubuntu-latest
     strategy:
@@ -33,3 +36,13 @@ jobs:
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
+
+  explain-skip:
+    if: ${{ vars.CODEQL_ADVANCED_SETUP_ENABLED != 'true' }}
+    name: Advanced CodeQL disabled
+    runs-on: ubuntu-latest
+    steps:
+      - name: Explain why this workflow is skipped
+        run: |
+          echo "Skipping advanced CodeQL workflow because CODEQL_ADVANCED_SETUP_ENABLED is not 'true'."
+          echo "If you want to run this workflow, disable Code Scanning default setup in repository settings and set repository variable CODEQL_ADVANCED_SETUP_ENABLED=true."
