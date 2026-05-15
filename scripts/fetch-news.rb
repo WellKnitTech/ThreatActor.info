@@ -10,6 +10,7 @@ require 'rss'
 require 'open-uri'
 require 'yaml'
 require 'json'
+require 'rexml/document'
 
 OUTPUT_FILE = '_data/news_feed.yml'
 
@@ -166,29 +167,45 @@ def fetch_beazley_articles
   articles = []
   
   begin
-    url = "https://labs.beazley.security/articles"
-    html = URI.parse(url).open(read_timeout: 10).read
-    
-    # Find article links using regex
-    html.scan(/<a href="(\/articles\/[^"]+)"[^>]*>([^<]+)<\/a>/).first(15).each do |match|
-      href, title = match
-      next if title.strip.empty?
-      
-      full_url = "https://labs.beazley.security#{href}"
-      articles << {
-        title: title.strip[0..200],
-        link: full_url,
-        source: 'Beazley Security Labs',
-        date: nil,
-        weight: 2
-      }
+    feeds = [
+      { url: 'https://labs.beazley.security/articles/atom.xml', source: 'Beazley Security Labs Articles' },
+      { url: 'https://labs.beazley.security/advisories/atom.xml', source: 'Beazley Security Labs Advisories' }
+    ]
+
+    feeds.each do |feed|
+      raw = URI.parse(feed[:url]).open(read_timeout: 10).read
+      articles.concat(parse_beazley_atom_entries(raw, feed[:source]))
     end
+
+    articles.uniq! { |item| item[:link] }
     @beazley_count = articles.size
   rescue => e
     puts "  Beazley: #{e.message[0..30]}"
   end
   
   articles
+end
+
+def parse_beazley_atom_entries(xml, source)
+  doc = REXML::Document.new(xml)
+  entries = []
+
+  REXML::XPath.each(doc, '//entry') do |entry|
+    title = entry.elements['title']&.text&.strip
+    link = entry.elements['link']&.attributes&.[]('href')&.strip
+    published = entry.elements['published']&.text&.strip || entry.elements['updated']&.text&.strip
+    next if title.to_s.empty? || link.to_s.empty?
+
+    entries << {
+      title: title[0..200],
+      link: link,
+      source: source,
+      date: published,
+      weight: 2
+    }
+  end
+
+  entries.first(15)
 end
 
 def map_actors_to_news(news_items)
