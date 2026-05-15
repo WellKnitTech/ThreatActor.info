@@ -1,35 +1,48 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-# Beazley Security Labs scraper (no nokogiri)
+# Beazley Security Labs feed fetcher
 require 'open-uri'
+require 'rexml/document'
 
 def fetch_beazley_articles
+  feeds = [
+    { url: 'https://labs.beazley.security/articles/atom.xml', source: 'Beazley Security Labs Articles' },
+    { url: 'https://labs.beazley.security/advisories/atom.xml', source: 'Beazley Security Labs Advisories' }
+  ]
   articles = []
-  
-  begin
-    url = "https://labs.beazley.security/articles"
-    html = URI.parse(url).open(read_timeout: 10).read
-    
-    # Find article links using regex
-    # Pattern: <a href="/articles/slug">Title</a>
-    html.scan(/<a href="(\/articles\/[^"]+)"[^>]*>([^<]+)<\/a>/).first(15).each do |match|
-      href, title = match
-      next if title.strip.empty?
-      
-      full_url = "https://labs.beazley.security#{href}"
-      articles << {
-        title: title.strip[0..200],
-        link: full_url,
-        source: 'Beazley Security Labs',
-        date: nil
-      }
+
+  feeds.each do |feed|
+    begin
+      raw = URI.parse(feed[:url]).open(read_timeout: 10).read
+      articles.concat(parse_beazley_atom_entries(raw, feed[:source]))
+    rescue => e
+      puts "Beazley #{feed[:source]}: #{e.message[0..40]}"
     end
-  rescue => e
-    puts "Beazley: #{e.message[0..40]}"
   end
-  
-  articles
+
+  articles.uniq { |item| item[:link] }
+end
+
+def parse_beazley_atom_entries(xml, source)
+  doc = REXML::Document.new(xml)
+  entries = []
+
+  REXML::XPath.each(doc, '//entry') do |entry|
+    title = entry.elements['title']&.text&.strip
+    link = entry.elements['link']&.attributes&.[]('href')&.strip
+    published = entry.elements['published']&.text&.strip || entry.elements['updated']&.text&.strip
+    next if title.to_s.empty? || link.to_s.empty?
+
+    entries << {
+      title: title[0..200],
+      link: link,
+      source: source,
+      date: published
+    }
+  end
+
+  entries.first(15)
 end
 
 # Test
