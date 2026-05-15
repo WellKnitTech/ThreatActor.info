@@ -55,7 +55,7 @@ jobs:
         if [ -n "$LIMIT" ]; then
           args+=(--limit "$LIMIT")
         fi
-        ruby scripts/import-automated-sources.rb "${args[@]}"
+        ruby scripts/import-automated-sources.rb --continue-on-error "${args[@]}"
 
     - name: Build site
       run: bundle exec jekyll build --safe

@@ -398,12 +398,12 @@ selected_sources(options).each do |source|
   end
 end
 
-regenerate_outputs if options[:apply] && options[:regenerate] && failures.empty?
+regenerate_outputs if options[:apply] && options[:regenerate] && (failures.empty? || options[:continue_on_error])
 
 unless failures.empty?
   warn "\nImport run completed with failures:"
   failures.each { |failure| warn "- #{failure}" }
-  exit 1
+  exit 1 unless options[:continue_on_error]
 end
 
 puts "\nAutomated import run complete."
