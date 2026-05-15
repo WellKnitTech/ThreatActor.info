@@ -119,7 +119,7 @@ class MitreEntityWriters
   end
 
   def technique_filename(eid)
-    eid.gsub('.', '-').downcase
+    eid.downcase
   end
 
   def permalink_technique(eid)
@@ -206,9 +206,16 @@ BODY
 
     path = File.join(DIRS[:techniques], "#{technique_filename(eid)}.md")
     write_front_matter_page(path, fm, body)
+    remove_legacy_technique_page(eid)
 
     data_path = File.join(DIRS[:techniques], "#{technique_filename(eid)}.data.json")
     File.write(data_path, JSON.pretty_generate({ mitre_id: eid.upcase, mitigations: mits, subtechniques: subs, groups: groups }))
+  end
+
+  def remove_legacy_technique_page(eid)
+    legacy_path = File.join(DIRS[:techniques], "#{eid.gsub('.', '-').downcase}.md")
+
+    File.delete(legacy_path) if File.exist?(legacy_path)
   end
 
   def write_tactic_file(obj, eid)
