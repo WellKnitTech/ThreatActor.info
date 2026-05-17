@@ -78,7 +78,7 @@ module FFI
         new_lines.join "\n"
       end
 
-      open @rb_name, 'w' do |f|
+      File.open(@rb_name, 'w') do |f|
         f.puts "# This file is generated from `#{@ffi_name}'. Do not edit."
         f.puts
         f.puts new_file
@@ -102,4 +102,3 @@ module FFI
 
   end
 end
-
