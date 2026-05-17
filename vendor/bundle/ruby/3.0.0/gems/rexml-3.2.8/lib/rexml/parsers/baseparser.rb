@@ -624,10 +624,12 @@ module REXML
             prefix = match[2]
             local_part = match[3]
 
-            unless @source.match(/\s*=\s*/um, true)
+            @source.match(/\s*/um, true)
+            unless @source.match("=", true)
               message = "Missing attribute equal: <#{name}>"
               raise REXML::ParseException.new(message, @source)
             end
+            @source.match(/\s*/um, true)
             unless match = @source.match(/(['"])/, true)
               message = "Missing attribute value start quote: <#{name}>"
               raise REXML::ParseException.new(message, @source)
