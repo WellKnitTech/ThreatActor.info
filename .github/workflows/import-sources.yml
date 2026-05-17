@@ -57,8 +57,20 @@ jobs:
         fi
         ruby scripts/import-automated-sources.rb --continue-on-error "${args[@]}"
 
+    - name: Check source freshness
+      run: ruby scripts/check-source-freshness.rb --mode warn --report-json tmp/source-freshness-report.json
+
     - name: Build site
       run: bundle exec jekyll build --safe
+
+    - name: Upload source freshness report
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: source-freshness-report-${{ github.run_id }}
+        path: |
+          tmp/source-freshness-report.json
+          _data/generated/source_freshness.json
 
     - name: Open import pull request
       if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
