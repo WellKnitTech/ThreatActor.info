@@ -1,0 +1,16 @@
+defaults:
+  min_match_ratio: 0.50
+  max_unmatched_ratio: 0.35
+  max_alias_additions_per_actor: 12
+
+sources:
+  threatfox:
+    min_match_ratio: 0.35
+    max_unmatched_ratio: 0.55
+    max_alias_additions_per_actor: 20
+  misp-galaxy:
+    max_alias_additions_per_actor: 30
+  etda-thaicert:
+    max_unmatched_ratio: 0.50
+  aptnotes:
+    max_unmatched_ratio: 0.60

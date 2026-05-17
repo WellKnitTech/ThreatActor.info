@@ -273,7 +273,8 @@ options = {
   regenerate: true,
   report_dir: 'tmp/import-reports',
   limit: nil,
-  continue_on_error: false
+  continue_on_error: false,
+  allow_plan_anomalies: false
 }
 
 parser = OptionParser.new do |opts|
@@ -302,6 +303,7 @@ See docs/keeping-actor-pages-current.md.'
   opts.on('--report-dir DIR', 'Directory for JSON plan/import reports') { |value| options[:report_dir] = value }
   opts.on('--limit N', Integer, 'Pass a record limit to source fetchers that support it') { |value| options[:limit] = value }
   opts.on('--continue-on-error', 'Continue with later sources after a failure') { options[:continue_on_error] = true }
+  opts.on('--allow-plan-anomalies', 'Proceed with --apply even if plan threshold checks fail') { options[:allow_plan_anomalies] = true }
   opts.on('--list-sources', 'List automated sources and exit') do
     SOURCES.each { |source| puts "#{source.key}\t#{source.label}" }
     puts "attack\t(alias for mitre-attack)"
@@ -374,6 +376,12 @@ def import_source(source, snapshot, options)
   run_command(command)
 end
 
+def validate_plan_reports(options)
+  command = ['ruby', 'scripts/validate-import-plans.rb', '--report-dir', options[:report_dir], '--config', 'data/imports/plan_thresholds.yml']
+  command << '--allow-anomalies' if options[:allow_plan_anomalies]
+  run_command(command)
+end
+
 def regenerate_outputs
   run_command(['ruby', 'scripts/generate-pages.rb', '--force'])
   run_command(['ruby', 'scripts/generate-indexes.rb'])
@@ -397,6 +405,8 @@ selected_sources(options).each do |source|
     warn "Continuing after #{source.key} failure: #{e.message}"
   end
 end
+
+validate_plan_reports(options) if options[:apply] && options[:plan] && (failures.empty? || options[:continue_on_error])
 
 regenerate_outputs if options[:apply] && options[:regenerate] && (failures.empty? || options[:continue_on_error])
 
