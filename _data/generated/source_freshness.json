@@ -1,0 +1,156 @@
+{
+  "generated_at": "2026-05-17T23:05:15Z",
+  "config_path": "data/imports/source_freshness.yml",
+  "imports_root": "data/imports",
+  "summary": {
+    "checked_sources": 13,
+    "stale_sources": 11,
+    "fresh_sources": 2,
+    "mode": "warn"
+  },
+  "sources": [
+    {
+      "source_key": "apt-groups-operations",
+      "latest_snapshot": null,
+      "latest_snapshot_timestamp": null,
+      "age_days": null,
+      "max_age_days": 30,
+      "is_stale": true,
+      "criticality_tier": "medium",
+      "fallback_behavior": "use-last-snapshot",
+      "status": "stale"
+    },
+    {
+      "source_key": "aptnotes",
+      "latest_snapshot": null,
+      "latest_snapshot_timestamp": null,
+      "age_days": null,
+      "max_age_days": 21,
+      "is_stale": true,
+      "criticality_tier": "medium",
+      "fallback_behavior": "use-last-snapshot",
+      "status": "stale"
+    },
+    {
+      "source_key": "bushido-breach-reports",
+      "latest_snapshot": null,
+      "latest_snapshot_timestamp": null,
+      "age_days": null,
+      "max_age_days": 30,
+      "is_stale": true,
+      "criticality_tier": "medium",
+      "fallback_behavior": "use-last-snapshot",
+      "status": "stale"
+    },
+    {
+      "source_key": "etda-thaicert",
+      "latest_snapshot": null,
+      "latest_snapshot_timestamp": null,
+      "age_days": null,
+      "max_age_days": 30,
+      "is_stale": true,
+      "criticality_tier": "medium",
+      "fallback_behavior": "use-last-snapshot",
+      "status": "stale"
+    },
+    {
+      "source_key": "eternal-liberty",
+      "latest_snapshot": null,
+      "latest_snapshot_timestamp": null,
+      "age_days": null,
+      "max_age_days": 30,
+      "is_stale": true,
+      "criticality_tier": "medium",
+      "fallback_behavior": "use-last-snapshot",
+      "status": "stale"
+    },
+    {
+      "source_key": "malpedia",
+      "latest_snapshot": null,
+      "latest_snapshot_timestamp": null,
+      "age_days": null,
+      "max_age_days": 30,
+      "is_stale": true,
+      "criticality_tier": "medium",
+      "fallback_behavior": "use-last-snapshot",
+      "status": "stale"
+    },
+    {
+      "source_key": "microsoft-threat-actor-list",
+      "latest_snapshot": null,
+      "latest_snapshot_timestamp": null,
+      "age_days": null,
+      "max_age_days": 30,
+      "is_stale": true,
+      "criticality_tier": "medium",
+      "fallback_behavior": "use-last-snapshot",
+      "status": "stale"
+    },
+    {
+      "source_key": "misp-galaxy",
+      "latest_snapshot": "2026-04-26",
+      "latest_snapshot_timestamp": "2026-05-17T22:10:21Z",
+      "age_days": 0.04,
+      "max_age_days": 14,
+      "is_stale": false,
+      "criticality_tier": "high",
+      "fallback_behavior": "warn-and-use-last-snapshot",
+      "status": "fresh"
+    },
+    {
+      "source_key": "ransomlook",
+      "latest_snapshot": "2026-04-25-first-batch",
+      "latest_snapshot_timestamp": "2026-05-17T22:10:21Z",
+      "age_days": 0.04,
+      "max_age_days": 14,
+      "is_stale": false,
+      "criticality_tier": "high",
+      "fallback_behavior": "warn-and-use-last-snapshot",
+      "status": "fresh"
+    },
+    {
+      "source_key": "ransomware-tool-matrix",
+      "latest_snapshot": null,
+      "latest_snapshot_timestamp": null,
+      "age_days": null,
+      "max_age_days": 30,
+      "is_stale": true,
+      "criticality_tier": "medium",
+      "fallback_behavior": "use-last-snapshot",
+      "status": "stale"
+    },
+    {
+      "source_key": "ransomware-vulnerability-matrix",
+      "latest_snapshot": null,
+      "latest_snapshot_timestamp": null,
+      "age_days": null,
+      "max_age_days": 30,
+      "is_stale": true,
+      "criticality_tier": "medium",
+      "fallback_behavior": "use-last-snapshot",
+      "status": "stale"
+    },
+    {
+      "source_key": "russian-apt-tool-matrix",
+      "latest_snapshot": null,
+      "latest_snapshot_timestamp": null,
+      "age_days": null,
+      "max_age_days": 30,
+      "is_stale": true,
+      "criticality_tier": "medium",
+      "fallback_behavior": "use-last-snapshot",
+      "status": "stale"
+    },
+    {
+      "source_key": "threatfox",
+      "latest_snapshot": null,
+      "latest_snapshot_timestamp": null,
+      "age_days": null,
+      "max_age_days": 7,
+      "is_stale": true,
+      "criticality_tier": "high",
+      "fallback_behavior": "warn-and-use-last-snapshot",
+      "status": "stale"
+    }
+  ]
+}

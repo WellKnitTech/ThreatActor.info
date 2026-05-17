@@ -1,0 +1,31 @@
+# Source freshness policy for snapshot folders in data/imports/<source>/<snapshot-date-or-tag>/
+# max_age_days: maximum allowed age in days since latest snapshot directory mtime.
+# criticality_tier: used for reporting and CI urgency context.
+# fallback_behavior: guidance when source is stale.
+
+defaults:
+  max_age_days: 30
+  criticality_tier: "medium"
+  fallback_behavior: "use-last-snapshot"
+
+sources:
+  mitre-attack:
+    max_age_days: 14
+    criticality_tier: "critical"
+    fallback_behavior: "require-manual-review"
+  threatfox:
+    max_age_days: 7
+    criticality_tier: "high"
+    fallback_behavior: "warn-and-use-last-snapshot"
+  misp-galaxy:
+    max_age_days: 14
+    criticality_tier: "high"
+    fallback_behavior: "warn-and-use-last-snapshot"
+  aptnotes:
+    max_age_days: 21
+    criticality_tier: "medium"
+    fallback_behavior: "use-last-snapshot"
+  ransomlook:
+    max_age_days: 14
+    criticality_tier: "high"
+    fallback_behavior: "warn-and-use-last-snapshot"

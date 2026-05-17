@@ -83,3 +83,5 @@ vendor/
 
 # MITRE Enterprise bundle cache (downloaded by scripts/generate-indexes.rb when no snapshot exists)
 /data/mitre-cache/
+
+!data/imports/source_freshness.yml

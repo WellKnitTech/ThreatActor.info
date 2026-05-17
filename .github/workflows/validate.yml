@@ -29,6 +29,18 @@ jobs:
       run: |
         bundle install
 
+    - name: Check source freshness
+      run: ruby scripts/check-source-freshness.rb --mode warn --report-json tmp/source-freshness-report.json
+
     # Mirrors scripts/validate.sh: generators → JSON schemas → content → jekyll doctor → build → parse api/*.json
     - name: Full validation pipeline
       run: bash scripts/validate.sh
+
+    - name: Upload source freshness report
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: source-freshness-report-${{ github.run_id }}
+        path: |
+          tmp/source-freshness-report.json
+          _data/generated/source_freshness.json

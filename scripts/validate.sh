@@ -43,6 +43,11 @@ check_file "scripts/evaluate-source-deltas.rb"
 check_file "scripts/validate-content.rb"
 check_file "scripts/validate-json-schemas.rb"
 
+check_file "scripts/check-source-freshness.rb"
+
+echo "Running source freshness check (warning mode for local validation)..."
+ruby scripts/check-source-freshness.rb --mode warn --report-json tmp/source-freshness-report.json
+
 echo "Running page and index generators..."
 echo "(Indexes are regenerated here so _data/generated/ and api/ stay aligned before validation and build.)"
 ruby scripts/generate-pages.rb --force
