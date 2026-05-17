@@ -11,6 +11,7 @@ require 'open-uri'
 require 'yaml'
 require 'json'
 require 'rexml/document'
+require 'set'
 
 OUTPUT_FILE = '_data/news_feed.yml'
 
@@ -97,6 +98,48 @@ ACTOR_KEYWORDS = {
   'Sidewinder' => ['sidewinder', 'groundbait'],
 }.freeze
 
+def normalize_keyword(keyword)
+  keyword.to_s.strip.downcase
+end
+
+def load_actor_keywords
+  actor_files = Dir.glob('_data/actors/*.yml').sort
+  keywords = Hash.new { |h, k| h[k] = Set.new }
+
+  actor_files.each do |path|
+    actor = YAML.safe_load(File.read(path), permitted_classes: [Date, Time], aliases: false)
+    next unless actor.is_a?(Hash)
+
+    actor_name = actor['name'].to_s.strip
+    next if actor_name.empty?
+
+    keywords[actor_name] << normalize_keyword(actor_name)
+
+    Array(actor['aliases']).each do |ali|
+      normalized = normalize_keyword(ali)
+      keywords[actor_name] << normalized unless normalized.empty?
+    end
+  rescue Psych::SyntaxError => e
+    puts "  Warning: #{path} - #{e.message.lines.first.to_s.strip}"
+  end
+
+  keywords
+end
+
+def combined_actor_keywords
+  combined = Hash.new { |h, k| h[k] = Set.new }
+
+  ACTOR_KEYWORDS.each do |actor, words|
+    words.each { |word| combined[actor] << normalize_keyword(word) }
+  end
+
+  load_actor_keywords.each do |actor, words|
+    words.each { |word| combined[actor] << word }
+  end
+
+  combined
+end
+
 def parse_feed(feed)
   items = []
   
@@ -128,8 +171,10 @@ def match_actors(title, text)
   
   matched = []
   
-  ACTOR_KEYWORDS.each do |actor, keywords|
+  combined_actor_keywords.each do |actor, keywords|
     keywords.each do |kw|
+      next if kw.empty?
+
       if title_lower.include?(kw) || text_lower.include?(kw)
         matched << actor
         break
