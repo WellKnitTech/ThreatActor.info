@@ -10,163 +10,38 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
   pages: read
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          
+          fetch-depth: 0
+
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2.5'
           bundler-cache: true
-          
+
       - name: Install dependencies
         run: bundle install
-          
+
       - name: Capture actor baseline
         run: |
           mkdir -p tmp/delta-baseline
           cp -R _data/actors tmp/delta-baseline/actors
 
-      - name: Fetch MISP reference data
-        run: ruby scripts/fetch-misp-references.rb
-        continue-on-error: true
-          
-      - name: Fetch and import MITRE ATT&CK
-        run: |
-          mkdir -p tmp
-          RUN_DATE=$(date -u +%F)
-          OUT="data/imports/mitre-attack/${RUN_DATE}"
-          ruby scripts/import-mitre.rb fetch --output "$OUT"
-          ruby scripts/import-mitre.rb import --snapshot "$OUT" --report-json tmp/mitre-weekly-import.json
-        continue-on-error: true
-
-      - name: Fetch MISP threat actors
-        run: |
-          RUN_DATE=$(date +%Y-%m-%d)
-          ruby scripts/import-misp-galaxy.rb fetch \
-            --output "data/imports/misp-galaxy/${RUN_DATE}" \
-            --cluster threat-actor \
-            --cluster 360net \
-            --cluster microsoft-activity-group \
-            --cluster tidal-groups \
-            --cluster ransomware \
-            --cluster intelligence-agencies \
-            --cluster mitre-ics-groups
-        continue-on-error: true
-          
-      - name: Fetch ETDA ThaiCERT
-        run: |
-          RUN_DATE=$(date +%Y-%m-%d)
-          ruby scripts/import-etda-thaicert.rb fetch --output "data/imports/etda-thaicert/${RUN_DATE}"
-        continue-on-error: true
-          
-      - name: Fetch Malpedia enrichment data
-        run: |
-          RUN_DATE=$(date +%Y-%m-%d)
-          ruby scripts/import-malpedia.rb fetch --output "data/imports/malpedia/${RUN_DATE}" --no-details
-        continue-on-error: true
-          
-      - name: Fetch APT Groups & Operations
-        run: |
-          RUN_DATE=$(date +%Y-%m-%d)
-          ruby scripts/import-apt-groups-operations.rb fetch --output "data/imports/apt-groups-operations/${RUN_DATE}"
-        continue-on-error: true
-          
-      - name: Fetch APTnotes references
-        run: |
-          RUN_DATE=$(date +%Y-%m-%d)
-          ruby scripts/import-aptnotes.rb fetch --output "data/imports/aptnotes/${RUN_DATE}"
-        continue-on-error: true
-
-      - name: Fetch RansomLook groups
-        run: |
-          RUN_DATE=$(date +%Y-%m-%d)
-          if [ -n "${RANSOMLOOK_API_KEY:-}" ]; then
-            ruby scripts/import-ransomlook.rb fetch --output "data/imports/ransomlook/${RUN_DATE}" --export
-          else
-            ruby scripts/import-ransomlook.rb fetch --output "data/imports/ransomlook/${RUN_DATE}"
-          fi
+      - name: Run weekly automated source imports
         env:
-          RANSOMLOOK_API_KEY: ${{ secrets.RANSOMLOOK_API_KEY }}
-        continue-on-error: true
-          
-      - name: Enrich existing actors from MISP (additive updates only)
+          THREATFOX_API_KEY: ${{ secrets.THREATFOX_API_KEY }}
         run: |
-          LATEST_MISP=$(ls -d data/imports/misp-galaxy/*/ 2>/dev/null | sort -V | tail -1)
-          if [ -n "$LATEST_MISP" ]; then
-            ruby scripts/import-misp-galaxy.rb import --snapshot "$LATEST_MISP"
-          fi
-        continue-on-error: true
-          
-      - name: Enrich existing actors from ETDA (additive updates only)
-        run: |
-          LATEST_ETDA=$(ls -d data/imports/etda-thaicert/*/ 2>/dev/null | sort -V | tail -1)
-          if [ -n "$LATEST_ETDA" ]; then
-            ruby scripts/import-etda-thaicert.rb import --snapshot "$LATEST_ETDA"
-          fi
-        continue-on-error: true
-          
-      - name: Enrich from Malpedia
-        run: |
-          LATEST_MALPEDIA=$(ls -d data/imports/malpedia/*/ 2>/dev/null | sort -V | tail -1)
-          if [ -n "$LATEST_MALPEDIA" ]; then
-            ruby scripts/import-malpedia.rb import --snapshot "$LATEST_MALPEDIA"
-          fi
-        continue-on-error: true
-          
-      - name: Enrich from APT Groups & Operations
-        run: |
-          LATEST_APTGO=$(ls -d data/imports/apt-groups-operations/*/ 2>/dev/null | sort -V | tail -1)
-          if [ -n "$LATEST_APTGO" ]; then
-            ruby scripts/import-apt-groups-operations.rb import --snapshot "$LATEST_APTGO"
-          fi
-        continue-on-error: true
-          
-      - name: Enrich from APTnotes
-        run: |
-          LATEST_APTNOTES=$(ls -d data/imports/aptnotes/*/ 2>/dev/null | sort -V | tail -1)
-          if [ -n "$LATEST_APTNOTES" ]; then
-            ruby scripts/import-aptnotes.rb import --snapshot "$LATEST_APTNOTES"
-          fi
-        continue-on-error: true
-
-      - name: Import RansomLook additions
-        run: |
-          mkdir -p tmp/import-reports
-          LATEST_RANSOMLOOK=$(ls -d data/imports/ransomlook/*/ 2>/dev/null | sort -V | tail -1)
-          if [ -n "$LATEST_RANSOMLOOK" ]; then
-            ruby scripts/import-ransomlook.rb plan --snapshot "$LATEST_RANSOMLOOK" --new-only --report-json tmp/import-reports/ransomlook-plan.json
-            ruby scripts/import-ransomlook.rb import --snapshot "$LATEST_RANSOMLOOK" --new-only --report-json tmp/import-reports/ransomlook-import.json
-          fi
-        continue-on-error: true
-          
-      - name: Fetch CISA KEV
-        run: ruby scripts/import-cisa-kev.rb fetch
-          
-      - name: Map CISA CVEs to actors
-        run: ruby scripts/import-cisa-kev.rb map
-          
-      - name: Generate pages
-        run: ruby scripts/generate-pages.rb --force
-
-      - name: Backfill source attribution
-        run: ruby scripts/backfill-source-attribution.rb
-        continue-on-error: true
-
-      - name: Generate API indexes
-        run: ruby scripts/generate-indexes.rb
-
-      - name: Repair empty actor aliases
-        run: ruby scripts/repair-actor-aliases.rb
+          ruby scripts/import-automated-sources.rb --apply --date "$(date -u +%F)"
 
       - name: Evaluate source deltas
         run: |
@@ -176,23 +51,37 @@ jobs:
             --report-json tmp/source-delta-report.json \
             --max-change-ratio 4.00 \
             --max-identity-change-ratio 0.02
-          
-      - name: Validate content
-        run: ruby scripts/validate-content.rb
 
       - name: Validate JSON schemas
         run: ruby scripts/validate-json-schemas.rb
-          
+
+      - name: Validate content
+        run: ruby scripts/validate-content.rb
+
       - name: Build site
         run: bundle exec jekyll build --safe
-          
-      - name: Commit data changes
+
+      - name: Open and auto-merge weekly data pull request
+        if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add -A
-          git diff --staged --quiet || git commit -m "Weekly threat data update ($(date +'%Y-%m-%d'))"
-          
-      - name: Push changes
-        run: git push
-        continue-on-error: true
+          if git diff --quiet; then
+            echo "No weekly data changes detected."
+            exit 0
+          fi
+
+          branch="automated/weekly-data-${GITHUB_RUN_ID}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add _data/actors _threat_actors _data/generated _malware api data/imports tmp/source-delta-report.json
+          git commit -m "Weekly threat data refresh"
+          git push -u origin "$branch"
+          gh pr create \
+            --base main \
+            --head "$branch" \
+            --title "Weekly threat data refresh" \
+            --body "Weekly threat data refresh generated by the canonical automated importer runner."
+
+          gh pr merge "$branch" --squash --delete-branch --admin

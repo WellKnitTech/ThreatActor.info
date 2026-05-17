@@ -41,7 +41,7 @@ Without `--force`, [`scripts/generate-pages.rb`](../scripts/generate-pages.rb) m
 | Workflow | Role |
 |----------|------|
 | [`.github/workflows/import-sources.yml`](../.github/workflows/import-sources.yml) | Full **`import-automated-sources.rb --apply`** (all configured sources in priority order), regenerates pages/indexes, validates content, **`jekyll build`**, opens a PR with actor + generated + api paths. **Primary path for a broad, PR-reviewed refresh.** |
-| [`.github/workflows/weekly-data.yml`](../.github/workflows/weekly-data.yml) | Partial fetch/import subset (MISP, ETDA, Malpedia, APT spreadsheet, APTnotes, RansomLook, CISA KEV, etc.), then generators and push to `main`. **Does not replace every source** in `import-automated-sources.rb`. |
+| [`.github/workflows/weekly-data.yml`](../.github/workflows/weekly-data.yml) | Scheduled execution of the same canonical **`import-automated-sources.rb --apply`** runner used for broad refreshes, followed by source-delta evaluation, schema/content validation, and **`jekyll build --safe`** before opening and auto-merging a PR branch. **Not a separate import logic path.** |
 | [`.github/workflows/daily-news.yml`](../.github/workflows/daily-news.yml) | News feed + generators + validators + build; commits news-related updates. |
 | [`.github/workflows/validate.yml`](../.github/workflows/validate.yml) | Runs **`scripts/validate.sh`** on pushes/PRs. |
 | [`.github/workflows/pages.yml`](../.github/workflows/pages.yml) | On push to `main`: regenerate pages/indexes, build `_site`, deploy Pages. |
