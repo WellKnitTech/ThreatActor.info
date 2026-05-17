@@ -1,0 +1,30 @@
+name: "UNC6748"
+aliases: ["UNC6748"]
+description: "UNC6748 targets users in Saudi Arabia through a fake Snapchat website, employing a backdoor known as GHOSTKNIFE for data exfiltration. Their exploitation process initially featured basic obfuscation, which evolved to include anti-debugging measures. The actor primarily leveraged CVE-2025-31277 and CVE-2026-20700 for RCE exploits, but exhibited inconsistencies in exploit support for different iOS versions. Additionally, UNC6748's delivery mechanisms incorporated session storage checks to manage infection attempts."
+url: "/unc6748"
+country: "Russia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc6748"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Backdoor.Oldrea"
+  - name: "Arabian-Attacker RAT"
+  - name: "Xploit"
+  - name: "Ghost"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "unc6748"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc6748"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_uuid: "df383083-f43a-4bf8-9757-ce2bf1def292"
+  misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "df383083-f43a-4bf8-9757-ce2bf1def292"
+    source_record_ids: ["df383083-f43a-4bf8-9757-ce2bf1def292"]
+    source_retrieved_at: "2026-05-17T06:18:28Z"

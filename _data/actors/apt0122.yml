@@ -79,19 +79,22 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-10T05:53:38Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-05-17T06:10:47Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0122"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.fbi.gov/wanted/cyber/iranian-mabna-hackers","https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment","https://twitter.com/ClearskySec/status/977899578346430464","https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities","https://www.proofpoint.com/us/threat-insight/post/seems-phishy-back-school-lures-target-university-students-and-staff","https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again","https://www.bleepingcomputer.com/news/security/iranian-hackers-create-credible-phishing-to-steal-library-access/","https://www.secureworks.com/research/threat-profiles/cobalt-dickens","https://blog.malwarebytes.com/malwarebytes-news/2020/10/silent-librarian-apt-phishing-attack/","https://blog.malwarebytes.com/cybercrime/2020/10/fake-covid-19-survey-hides-ransomware-in-canadian-university-attack/"]
-    source_retrieved_at: "2026-05-10T06:02:56Z"
+    source_retrieved_at: "2026-05-17T06:18:34Z"
     tab_name: "iran"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "silent_librarian"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/silent_librarian"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "5059b44d-2753-4977-b987-4922f09afe6b"
   misp_galaxy:
     meta_keys: ["country","origin:TA4900","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","target_categories"]
@@ -100,20 +103,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "5059b44d-2753-4977-b987-4922f09afe6b"
     source_record_ids: ["5059b44d-2753-4977-b987-4922f09afe6b","0e7bd4da-7974-49c9-b213-116bd7157761"]
-    source_retrieved_at: "2026-05-10T06:02:50Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"
   mitre:
-    attack_version: "19.0"
+    attack_version: "19.1"
     attack_version_by_domain:
-      enterprise: "19.0"
-      ics: "19.0"
-      mobile: "19.0"
-    relationships_imported_at: "2026-05-10T05:53:38Z"
+      enterprise: "19.1"
+      ics: "19.1"
+      mobile: "19.1"
+    relationships_imported_at: "2026-05-17T06:10:47Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0122"
-    source_retrieved_at: "2026-05-10T05:53:38Z"
+    source_retrieved_at: "2026-05-17T06:10:47Z"
     stix_intrusion_set_id: "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384"
 source: "MITRE ATT&CK"

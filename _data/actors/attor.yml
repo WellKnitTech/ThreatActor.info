@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "attor"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/attor"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "947a450a-df6c-4c2e-807b-0da8ecea1d26"
   misp_galaxy:
     meta_keys: ["cfr-target-category","cfr-type-of-incident","refs"]
@@ -23,4 +23,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "947a450a-df6c-4c2e-807b-0da8ecea1d26"
     source_record_ids: ["947a450a-df6c-4c2e-807b-0da8ecea1d26"]
-    source_retrieved_at: "2026-05-10T06:02:50Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"

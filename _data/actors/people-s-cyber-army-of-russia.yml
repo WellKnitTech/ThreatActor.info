@@ -12,7 +12,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "people's_cyber_army_of_russia"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/people's_cyber_army_of_russia"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "ceee219c-8af2-4cea-8382-6ef6c311eac8"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"

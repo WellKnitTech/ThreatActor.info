@@ -128,18 +128,21 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-10T05:53:38Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-05-17T06:10:47Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://files.sans.org/summit/Threat_Hunting_Incident_Response_Summit_2016/PDFs/Detecting-and-Responding-to-Pandas-and-Bears-Christopher-Scott-CrowdStrike-and-Wendi-Whitmore-IBM.pdf","https://securelist.com/apt-trends-report-q1-2019/90643/"]
-    source_retrieved_at: "2026-05-10T06:02:56Z"
+    source_retrieved_at: "2026-05-17T06:18:34Z"
     tab_name: "china"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "tonto_team"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/tonto_team"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "0ab7c8de-fc23-4793-99aa-7ee336199e26"
   misp_galaxy:
     meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","country","origin:BRONZE HUNTLEY","origin:Earth Akhlut","refs","synonyms","group_attack_id","observed_countries","source","target_categories","microsoft-origin-threat"]
@@ -148,20 +151,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "0ab7c8de-fc23-4793-99aa-7ee336199e26"
     source_record_ids: ["0ab7c8de-fc23-4793-99aa-7ee336199e26","9f5c5672-5e7e-4440-afc8-3fdf46a1bb6c","32525044-46ee-54c1-a81d-90ee1b9abeb4"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"
   mitre:
-    attack_version: "19.0"
+    attack_version: "19.1"
     attack_version_by_domain:
-      enterprise: "19.0"
-      ics: "19.0"
-      mobile: "19.0"
-    relationships_imported_at: "2026-05-10T05:53:38Z"
+      enterprise: "19.1"
+      ics: "19.1"
+      mobile: "19.1"
+    relationships_imported_at: "2026-05-17T06:10:47Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0131"
-    source_retrieved_at: "2026-05-10T05:53:38Z"
+    source_retrieved_at: "2026-05-17T06:10:47Z"
     stix_intrusion_set_id: "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960"
 source: "MITRE ATT&CK"

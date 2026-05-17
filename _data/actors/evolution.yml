@@ -15,7 +15,7 @@ provenance:
     sample_titles: ["Stuxnet/Duqu: The Evolution Of Drivers","Evolution Of Sophisticated Spyware: From Agent.Btz To Comrat","Evolution of Cyber Threats in the Corporate Sector","Apt Reports And Opsec Evolution, Or: These Are Not The Apt Reports You Are Looking For"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["Gdata","Kaspersky","Virus Bulletin"]
   misp_galaxy:
     meta_keys: ["links","refs"]
@@ -24,4 +24,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "47554d81-a6d9-4017-ad8c-cab653e6a1b3"
     source_record_ids: ["47554d81-a6d9-4017-ad8c-cab653e6a1b3"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"

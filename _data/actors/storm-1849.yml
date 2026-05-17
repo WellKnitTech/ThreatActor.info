@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "storm-1849"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-1849"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "3d94ef07-9fd6-4d64-bf1e-f1316f2686a4"
   misp_galaxy:
     meta_keys: ["origin:Storm-1849","refs","synonyms","country","group_attack_id","observed_motivations","owner","source","tags","target_categories"]
@@ -23,4 +23,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "3d94ef07-9fd6-4d64-bf1e-f1316f2686a4"
     source_record_ids: ["3d94ef07-9fd6-4d64-bf1e-f1316f2686a4","f69c7e2f-b616-4782-b2f3-28e9b6702eb4"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"

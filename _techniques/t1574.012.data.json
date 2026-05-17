@@ -1,0 +1,32 @@
+{
+  "mitre_id": "T1574.012",
+  "mitigations": [
+    {
+      "name": "Restrict Registry Permissions",
+      "mitre_id": "M1024",
+      "url": "https://attack.mitre.org/mitigations/M1024",
+      "stix_id": "course-of-action--a2c36a5d-4058-475e-8e77-fff75e50d3b9"
+    },
+    {
+      "name": "Execution Prevention",
+      "mitre_id": "M1038",
+      "url": "https://attack.mitre.org/mitigations/M1038",
+      "stix_id": "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db"
+    },
+    {
+      "name": "User Account Management",
+      "mitre_id": "M1018",
+      "url": "https://attack.mitre.org/mitigations/M1018",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Blue Mockingbird",
+      "url": "/apt0108"
+    }
+  ]
+}

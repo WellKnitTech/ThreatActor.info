@@ -154,12 +154,15 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-10T05:53:38Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-05-17T06:10:47Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://blog.talosintelligence.com/2019/04/seaturtle.html","https://blog.talosintelligence.com/2019/07/sea-turtle-keeps-on-swimming.html","https://www.reuters.com/article/us-cyber-attack-hijack-exclusive/exclusive-hackers-acting-in-turkeys-interests-believed-to-be-behind-recent-cyberattacks-sources-idUSKBN1ZQ10X"]
-    source_retrieved_at: "2026-05-10T06:02:56Z"
+    source_retrieved_at: "2026-05-17T06:18:34Z"
     tab_name: "nato"
   aptnotes:
     earliest_report_year: "2019"
@@ -169,13 +172,13 @@ provenance:
     sample_titles: ["Sea Turtle keeps on swimming, finds new victims, DNS hijacking techniques"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["Cisco"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "sea_turtle"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/sea_turtle"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "ce7bba52-5ae8-44ea-9979-68502d832ab7"
   misp_galaxy:
     meta_keys: ["cfr-suspected-victims","country","origin:UNC1326","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories","microsoft-origin-threat","sector"]
@@ -184,20 +187,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "ce7bba52-5ae8-44ea-9979-68502d832ab7"
     source_record_ids: ["ce7bba52-5ae8-44ea-9979-68502d832ab7","a511f4e7-9a04-5f37-a599-0d0eee85cfec","fc91881e-92c0-5a63-a0b9-b253958a594e"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"
   mitre:
-    attack_version: "19.0"
+    attack_version: "19.1"
     attack_version_by_domain:
-      enterprise: "19.0"
-      ics: "19.0"
-      mobile: "19.0"
-    relationships_imported_at: "2026-05-10T05:53:38Z"
+      enterprise: "19.1"
+      ics: "19.1"
+      mobile: "19.1"
+    relationships_imported_at: "2026-05-17T06:10:47Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G1041"
-    source_retrieved_at: "2026-05-10T05:53:38Z"
+    source_retrieved_at: "2026-05-17T06:10:47Z"
     stix_intrusion_set_id: "intrusion-set--56a05d27-4d47-418a-b330-781c5614f202"
 source: "MITRE ATT&CK"

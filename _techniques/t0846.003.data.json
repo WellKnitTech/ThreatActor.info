@@ -1,0 +1,23 @@
+{
+  "mitre_id": "T0846.003",
+  "mitigations": [
+    {
+      "name": "Static Network Configuration",
+      "mitre_id": "M0814",
+      "url": "https://attack.mitre.org/mitigations/M0814",
+      "stix_id": "course-of-action--52c7a1a9-3a78-4528-a44f-cd7b0fa3541a"
+    },
+    {
+      "name": "Network Segmentation",
+      "mitre_id": "M0930",
+      "url": "https://attack.mitre.org/mitigations/M0930",
+      "stix_id": "course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

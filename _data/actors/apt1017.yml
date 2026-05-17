@@ -462,6 +462,9 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-10T05:53:38Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-05-17T06:10:47Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 campaigns:
   - name: "Versa Director Zero Day Exploitation"
     campaign_id: "C0039"
@@ -478,13 +481,13 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/","https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations","https://www.crowdstrike.com/blog/falcon-complete-thwarts-vanguard-panda-tradecraft/","https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF","https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/critical-infrastructure-attacks","https://blog.lumen.com/routers-roasting-on-an-open-firewall-the-kv-botnet-investigation/"]
-    source_retrieved_at: "2026-05-10T06:02:56Z"
+    source_retrieved_at: "2026-05-17T06:18:34Z"
     tab_name: "china"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "volt_typhoon"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/volt_typhoon"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "f02679fa-5e85-4050-8eb5-c2677d93306f"
   misp_galaxy:
     meta_keys: ["country","origin:BRONZE SILHOUETTE","origin:Storm-0391","origin:UNC3236","refs","synonyms","microsoft-origin-threat","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories"]
@@ -493,20 +496,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "f02679fa-5e85-4050-8eb5-c2677d93306f"
     source_record_ids: ["f02679fa-5e85-4050-8eb5-c2677d93306f","7c4a32dc-24d5-5d69-96a2-9d0a2ae0f31b","4ea1245f-3f35-5168-bd10-1fc49142fd4e"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"
   mitre:
-    attack_version: "19.0"
+    attack_version: "19.1"
     attack_version_by_domain:
-      enterprise: "19.0"
-      ics: "19.0"
-      mobile: "19.0"
-    relationships_imported_at: "2026-05-10T05:53:38Z"
+      enterprise: "19.1"
+      ics: "19.1"
+      mobile: "19.1"
+    relationships_imported_at: "2026-05-17T06:10:47Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G1017"
-    source_retrieved_at: "2026-05-10T05:53:38Z"
+    source_retrieved_at: "2026-05-17T06:10:47Z"
     stix_intrusion_set_id: "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2"
 source: "MITRE ATT&CK"

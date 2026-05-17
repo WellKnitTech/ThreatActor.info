@@ -194,6 +194,9 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-10T05:53:38Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-05-17T06:10:47Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   aptnotes:
     earliest_report_year: "2022"
@@ -203,13 +206,13 @@ provenance:
     sample_titles: ["Charting TA2541's Flight"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["proofpoint"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "ta2541"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ta2541"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "a57e5bf5-d7f4-43a1-9c15-8a44cdb95079"
   misp_galaxy:
     meta_keys: ["origin:TA2541","refs","group_attack_id","observed_countries","source","target_categories"]
@@ -218,20 +221,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "a57e5bf5-d7f4-43a1-9c15-8a44cdb95079"
     source_record_ids: ["a57e5bf5-d7f4-43a1-9c15-8a44cdb95079","1bfbb1e1-022c-57e9-b70e-711c601640be"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"
   mitre:
-    attack_version: "19.0"
+    attack_version: "19.1"
     attack_version_by_domain:
-      enterprise: "19.0"
-      ics: "19.0"
-      mobile: "19.0"
-    relationships_imported_at: "2026-05-10T05:53:38Z"
+      enterprise: "19.1"
+      ics: "19.1"
+      mobile: "19.1"
+    relationships_imported_at: "2026-05-17T06:10:47Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G1018"
-    source_retrieved_at: "2026-05-10T05:53:38Z"
+    source_retrieved_at: "2026-05-17T06:10:47Z"
     stix_intrusion_set_id: "intrusion-set--467271fd-47c0-4e90-a3f9-d84f5cf790d0"
 source: "MITRE ATT&CK"

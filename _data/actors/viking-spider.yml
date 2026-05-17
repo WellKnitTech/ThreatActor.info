@@ -13,7 +13,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "viking_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/viking_spider"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "ffc02459-3d94-4558-bff0-2e7f0bbf70c6"
   misp_galaxy:
     meta_keys: ["refs"]
@@ -22,4 +22,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "ffc02459-3d94-4558-bff0-2e7f0bbf70c6"
     source_record_ids: ["ffc02459-3d94-4558-bff0-2e7f0bbf70c6"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"

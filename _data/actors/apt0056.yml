@@ -86,6 +86,9 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-10T05:53:38Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-05-17T06:10:47Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 campaigns:
   - name: "C0033"
     campaign_id: "C0033"
@@ -101,13 +104,13 @@ provenance:
     sample_titles: ["On the StrongPity Waterhole Attacks Targeting Italian and Belgian Encryption Users"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["Kaspersky"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "promethium"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/promethium"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "43894e2a-174e-4931-94a8-2296afe8f650"
   misp_galaxy:
     meta_keys: ["attribution-confidence","country","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","microsoft-origin-threat"]
@@ -116,20 +119,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "43894e2a-174e-4931-94a8-2296afe8f650"
     source_record_ids: ["43894e2a-174e-4931-94a8-2296afe8f650","5744f91a-d2d8-4f92-920f-943dd80c578f","cc798766-8662-4b55-8536-6d057fbc58f0","0d0c07ff-2246-5f59-80c7-b3b743252a76"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"
   mitre:
-    attack_version: "19.0"
+    attack_version: "19.1"
     attack_version_by_domain:
-      enterprise: "19.0"
-      ics: "19.0"
-      mobile: "19.0"
-    relationships_imported_at: "2026-05-10T05:53:38Z"
+      enterprise: "19.1"
+      ics: "19.1"
+      mobile: "19.1"
+    relationships_imported_at: "2026-05-17T06:10:47Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0056"
-    source_retrieved_at: "2026-05-10T05:53:38Z"
+    source_retrieved_at: "2026-05-17T06:10:47Z"
     stix_intrusion_set_id: "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c"
 source: "MITRE ATT&CK"

@@ -184,13 +184,16 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-10T05:53:38Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-05-17T06:10:47Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0019"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://securelist.com/analysis/publications/69953/the-naikon-apt/","http://blog.trendmicro.com/trendlabs-security-intelligence/rarstone-found-in-targeted-attacks/","https://www.threatconnect.com/camerashy/","http://www.crowdstrike.com/blog/rhetoric-foreshadows-cyber-activity-in-the-south-china-sea/","https://www.symantec.com/blogs/threat-intelligence/thrip-hits-satellite-telecoms-defense-targets","https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report/","https://www.symantec.com/blogs/threat-intelligence/thrip-apt-south-east-asia","https://research.checkpoint.com/2020/naikon-apt-cyber-espionage-reloaded/","https://cluster25.io/2022/04/29/lotus-panda-awake-last-strike/","https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/espionage-asia-governments-cert-authority","https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf","https://symantec-enterprise-blogs.security.com/threat-intelligence/telecoms-espionage-asia"]
-    source_retrieved_at: "2026-05-10T06:02:56Z"
+    source_retrieved_at: "2026-05-17T06:18:34Z"
     tab_name: "china"
   aptnotes:
     earliest_report_year: "2015"
@@ -200,27 +203,27 @@ provenance:
     sample_titles: ["The Msnmm Campaigns: The Earliest Naikon APT Campaigns"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["Kaspersky"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "naikon"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/naikon"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "2f1fd017-9df6-4759-91fb-e7039609b5ff"
   mitre:
-    attack_version: "19.0"
+    attack_version: "19.1"
     attack_version_by_domain:
-      enterprise: "19.0"
-      ics: "19.0"
-      mobile: "19.0"
-    relationships_imported_at: "2026-05-10T05:53:38Z"
+      enterprise: "19.1"
+      ics: "19.1"
+      mobile: "19.1"
+    relationships_imported_at: "2026-05-17T06:10:47Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0019"
-    source_retrieved_at: "2026-05-10T05:53:38Z"
+    source_retrieved_at: "2026-05-17T06:10:47Z"
     stix_intrusion_set_id: "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050"
 source: "MITRE ATT&CK"

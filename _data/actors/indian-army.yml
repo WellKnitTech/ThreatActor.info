@@ -16,7 +16,7 @@ provenance:
     sample_titles: ["Cyber Attack Impersonating Identity Of Indian Think Tank To Target Central Bureau Of Investigation (cbi) And Possibly Indian Army Officials"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["Cysinfo"]
   misp_galaxy:
     meta_keys: ["country","country_name","refs"]
@@ -25,4 +25,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
     source_record_id: "249208d7-02cc-57b0-98df-635ce5dbb7f4"
     source_record_ids: ["249208d7-02cc-57b0-98df-635ce5dbb7f4"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:29Z"

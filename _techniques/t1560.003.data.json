@@ -1,0 +1,39 @@
+{
+  "mitre_id": "T1560.003",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "FIN6",
+      "url": "/apt0037"
+    },
+    {
+      "name": "CopyKittens",
+      "url": "/apt0052"
+    },
+    {
+      "name": "Mustang Panda",
+      "url": "/apt0129"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "UNC3886",
+      "url": "/apt1048"
+    },
+    {
+      "name": "Lotus Blossom",
+      "url": "/apt0030"
+    },
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    }
+  ]
+}

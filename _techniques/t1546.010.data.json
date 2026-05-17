@@ -1,0 +1,26 @@
+{
+  "mitre_id": "T1546.010",
+  "mitigations": [
+    {
+      "name": "Execution Prevention",
+      "mitre_id": "M1038",
+      "url": "https://attack.mitre.org/mitigations/M1038",
+      "stix_id": "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db"
+    },
+    {
+      "name": "Update Software",
+      "mitre_id": "M1051",
+      "url": "https://attack.mitre.org/mitigations/M1051",
+      "stix_id": "course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "APT39",
+      "url": "/apt0087"
+    }
+  ]
+}

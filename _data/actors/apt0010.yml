@@ -105,7 +105,7 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://securelist.com/analysis/publications/65545/the-epic-turla-operation/","https://securelist.com/blog/research/72081/satellite-turla-apt-command-and-control-in-the-sky/","https://securelist.com/blog/research/67962/the-penquin-turla-2/","https://www2.fireeye.com/rs/848-DID-242/images/rpt-witchcoven.pdf","https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/waterbug-attack-group.pdf","https://www.welivesecurity.com/2017/03/30/carbon-paper-peering-turlas-second-stage-backdoor/","https://www.welivesecurity.com/2017/06/06/turlas-watering-hole-campaign-updated-firefox-extension-abusing-instagram/","https://securelist.com/kopiluwak-a-new-javascript-payload-from-turla/77429/","https://www.proofpoint.com/us/threat-insight/post/turla-apt-actor-refreshes-kopiluwak-javascript-backdoor-use-g20-themed-attack","https://www.welivesecurity.com/2017/08/30/eset-research-cyberespionage-gazer/","https://www.govcert.admin.ch/blog/22/technical-report-about-the-ruag-espionage-case","http://www.sueddeutsche.de/digital/it-sicherheit-einbrechen-ausbreiten-abgreifen-1.3887843","https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/","https://www.ncsc.gov.uk/alerts/turla-group-malware","https://motherboard.vice.com/en_us/article/vvk83b/moonlight-maze-turla-link","https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07180251/Penquins_Moonlit_Maze_PDF_eng.pdf","https://www.wired.com/2017/04/russian-hackers-used-backdoor-two-decades/","https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-march-venomous-bear/","https://www.symantec.com/blogs/threat-intelligence/waterbug-espionage-governments","https://securelist.com/turla-renews-its-arsenal-with-topinambour/91687/"]
-    source_retrieved_at: "2026-05-10T06:02:56Z"
+    source_retrieved_at: "2026-05-17T06:18:34Z"
     tab_name: "russia"
   aptnotes:
     earliest_report_year: "2014"
@@ -115,13 +115,13 @@ provenance:
     sample_titles: ["Snake Campaign & Cyber Espionage Toolkit","Tr-25 Analysis - Turla / PNet / Snake/ Uroburos","The Epic Turla Operation: Solving Some Of The Mysteries Of Snake/Uroboros","The Uroburos Case: New Sophisticated Rat Identified","The 'Penquin' Turla","The Waterbug Attack Group","Pacifier APT","Carbon Paper: Peering into Turla second stage backdoor","Turla group using Neuron and Nautilus tools alongside Snake malware","Turla group update Neuron malware"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["BAE Systems","Bitdefender","CIRCL","ESET","Gdata","Kaspersky","NCSC","Symantec"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "white_bear"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/white_bear"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "dc6c6cbc-9dc6-4ace-a2d2-fadefe45cce6"
   misp_galaxy:
     meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","origin:UNC4210","refs","synonyms","targeted-sector","group_attack_id","observed_countries","observed_motivations","source","target_categories","suspected-victims","target-category","microsoft-origin-threat","sector"]
@@ -130,7 +130,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "fa80877c-f509-4daf-8b62-20aba1635f68"
     source_record_ids: ["fa80877c-f509-4daf-8b62-20aba1635f68","47ae4fb1-fc61-4e8e-9310-66dda706e1a2","1972273e-2152-558c-b575-222c6d2f3e10","8d19da8a-d0fa-5194-ad6f-315cc4f36c8b","822b3254-d715-46bc-8011-c5b647d314dc"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0010"

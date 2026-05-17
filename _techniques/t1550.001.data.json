@@ -1,0 +1,48 @@
+{
+  "mitre_id": "T1550.001",
+  "mitigations": [
+    {
+      "name": "Account Use Policies",
+      "mitre_id": "M1036",
+      "url": "https://attack.mitre.org/mitigations/M1036",
+      "stix_id": "course-of-action--f9f9e6ef-bc0a-41ad-ba11-0924e5e84c4c"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    },
+    {
+      "name": "Restrict Web-Based Content",
+      "mitre_id": "M1021",
+      "url": "https://attack.mitre.org/mitigations/M1021",
+      "stix_id": "course-of-action--21da4fd4-27ad-4e9c-b93d-0b9b14d02c96"
+    },
+    {
+      "name": "Application Developer Guidance",
+      "mitre_id": "M1013",
+      "url": "https://attack.mitre.org/mitigations/M1013",
+      "stix_id": "course-of-action--25dc1ce8-eb55-4333-ae30-a7cb4f5894a1"
+    },
+    {
+      "name": "Encrypt Sensitive Information",
+      "mitre_id": "M1041",
+      "url": "https://attack.mitre.org/mitigations/M1041",
+      "stix_id": "course-of-action--feff9142-e8c2-46f4-842b-bd6fb3d41157"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "APT28",
+      "url": "/apt28"
+    },
+    {
+      "name": "HAFNIUM",
+      "url": "/apt0125"
+    }
+  ]
+}

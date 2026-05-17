@@ -1,0 +1,20 @@
+{
+  "mitre_id": "T1628.003",
+  "mitigations": [
+    {
+      "name": "Do Not Mitigate",
+      "mitre_id": "M1059",
+      "url": "https://attack.mitre.org/mitigations/M1059",
+      "stix_id": "course-of-action--76a32151-5233-465f-a607-7e576c62c932"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Windshift",
+      "url": "/apt0112"
+    }
+  ]
+}

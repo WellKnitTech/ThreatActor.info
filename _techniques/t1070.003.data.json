@@ -1,0 +1,60 @@
+{
+  "mitre_id": "T1070.003",
+  "mitigations": [
+    {
+      "name": "Remote Data Storage",
+      "mitre_id": "M1029",
+      "url": "https://attack.mitre.org/mitigations/M1029",
+      "stix_id": "course-of-action--20a2baeb-98c2-4901-bad7-dc62d0a03dea"
+    },
+    {
+      "name": "Restrict File and Directory Permissions",
+      "mitre_id": "M1022",
+      "url": "https://attack.mitre.org/mitigations/M1022",
+      "stix_id": "course-of-action--987988f0-cf86-4680-a875-2f6456ab2448"
+    },
+    {
+      "name": "Environment Variable Permissions",
+      "mitre_id": "M1039",
+      "url": "https://attack.mitre.org/mitigations/M1039",
+      "stix_id": "course-of-action--609191bf-7d06-40e4-b1f8-9e11eb3ff8a6"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Aquatic Panda",
+      "url": "/apt0143"
+    },
+    {
+      "name": "Medusa Group",
+      "url": "/apt1051"
+    },
+    {
+      "name": "TeamTNT",
+      "url": "/apt0139"
+    },
+    {
+      "name": "menuPass",
+      "url": "/apt0045"
+    },
+    {
+      "name": "Magic Hound",
+      "url": "/apt35"
+    },
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    },
+    {
+      "name": "APT5",
+      "url": "/apt1023"
+    },
+    {
+      "name": "APT41",
+      "url": "/apt41"
+    }
+  ]
+}

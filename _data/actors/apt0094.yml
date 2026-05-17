@@ -28,13 +28,13 @@ provenance:
     sample_titles: ["Kimsuky Espionage Campaign","Kimsuky Group's APT Attacks (AppleSeed, PebbleDash)"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["Ahnlab","Inquest"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "kimsuky"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/kimsuky"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "bcaaad6f-0597-4b89-b69b-84a6be2b7bc3"
   misp_galaxy:
     meta_keys: ["country","refs","suspected-victims","synonyms","target-category","microsoft-origin-threat","sector"]
@@ -43,7 +43,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json"
     source_record_id: "84e18657-3995-5837-88f1-f823520382a8"
     source_record_ids: ["84e18657-3995-5837-88f1-f823520382a8","44be06b1-e17a-5ea6-a0a2-067933a7af77"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0094"

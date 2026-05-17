@@ -21,7 +21,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "energetic_bear"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/energetic_bear"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "64d6559c-6d5c-4585-bbf9-c17868f763ee"
   misp_galaxy:
     meta_keys: ["country","microsoft-origin-threat","refs","sector","synonyms"]
@@ -30,7 +30,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "45d0f984-2b63-517b-922a-12924bcf4f68"
     source_record_ids: ["45d0f984-2b63-517b-922a-12924bcf4f68"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0035"

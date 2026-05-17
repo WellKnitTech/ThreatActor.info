@@ -261,13 +261,16 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-10T05:53:38Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-05-17T06:10:47Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0022"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html","http://www.secureworks.com/resources/blog/research/threat-group-0110-targets-manufacturing-and-financial-organizations-via-phishing/","http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong","https://intrusiontruth.wordpress.com/2017/05/09/apt3-is-boyusec-a-chinese-intelligence-contractor/","https://www.fireeye.com/current-threats/apt-groups.html","https://www.recordedfuture.com/chinese-mss-behind-apt3/","http://freebeacon.com/national-security/u-s-indicts-three-chinese-hackers-linked-security-firm/amp/","https://www.washingtonpost.com/world/national-security/china-hacked-a-navy-contractor-and-secured-a-trove-of-highly-sensitive-data-on-submarine-warfare/2018/06/08/6cc396fa-68e6-11e8-bea7-c8eb28bc52b1_story.html?noredirect=on&utm_term=.209df584e031","https://intrusiontruth.wordpress.com/2018/05/22/the-destruction-of-apt3/","https://www.symantec.com/blogs/threat-intelligence/buckeye-windows-zero-day-exploit"]
-    source_retrieved_at: "2026-05-10T06:02:56Z"
+    source_retrieved_at: "2026-05-17T06:18:34Z"
     tab_name: "china"
   aptnotes:
     earliest_report_year: "2015"
@@ -277,13 +280,13 @@ provenance:
     sample_titles: ["Operation Clandestine Wolf _ Adobe Flash Zero-Day In APT3 Phishing Campaign","Buckeye cyberespionage group shifts gaze from US to Hong Kong","Recorded Future Research Concludes Chinese Ministry of State Security Behind APT3","The destruction of APT3"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["FireEye","Intrusiontruth","Recorded Future","Symantec"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt3"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt3"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "d144c83e-2302-4947-9e24-856fbf7949ae"
   misp_galaxy:
     meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","origin:BRONZE MAYFAIR","refs","synonyms","targeted-sector","group_attack_id","observed_countries","source","microsoft-origin-threat"]
@@ -292,20 +295,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "d144c83e-2302-4947-9e24-856fbf7949ae"
     source_record_ids: ["d144c83e-2302-4947-9e24-856fbf7949ae","9da726e6-af02-49b8-8ebe-7ea4235513c9","53f1281b-790d-5183-9306-b1b1ac38b715"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"
   mitre:
-    attack_version: "19.0"
+    attack_version: "19.1"
     attack_version_by_domain:
-      enterprise: "19.0"
-      ics: "19.0"
-      mobile: "19.0"
-    relationships_imported_at: "2026-05-10T05:53:38Z"
+      enterprise: "19.1"
+      ics: "19.1"
+      mobile: "19.1"
+    relationships_imported_at: "2026-05-17T06:10:47Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0022"
-    source_retrieved_at: "2026-05-10T05:53:38Z"
+    source_retrieved_at: "2026-05-17T06:10:47Z"
     stix_intrusion_set_id: "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9"
 source: "MITRE ATT&CK"

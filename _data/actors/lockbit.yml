@@ -103,7 +103,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "8eda8bf1-db5a-412d-8511-45e2f7621d51"
     source_record_ids: ["8eda8bf1-db5a-412d-8511-45e2f7621d51"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"
   ransomware_tool_matrix:
     references:
       - title: "CISA Alert aa23-075a"

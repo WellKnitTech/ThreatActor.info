@@ -22,7 +22,7 @@ provenance:
     sample_titles: ["The Many Faces Of Gh0St Rat: Plotting The Connections Between Malware Attacks"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["Norman"]
   misp_galaxy:
     meta_keys: ["links","refs"]
@@ -31,4 +31,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "ef9769e4-067c-5e45-b80f-36f6d5a52a82"
     source_record_ids: ["ef9769e4-067c-5e45-b80f-36f6d5a52a82"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:29Z"

@@ -1,0 +1,44 @@
+{
+  "mitre_id": "T1685.006",
+  "mitigations": [
+    {
+      "name": "Restrict File and Directory Permissions",
+      "mitre_id": "M1022",
+      "url": "https://attack.mitre.org/mitigations/M1022",
+      "stix_id": "course-of-action--987988f0-cf86-4680-a875-2f6456ab2448"
+    },
+    {
+      "name": "Remote Data Storage",
+      "mitre_id": "M1029",
+      "url": "https://attack.mitre.org/mitigations/M1029",
+      "stix_id": "course-of-action--20a2baeb-98c2-4901-bad7-dc62d0a03dea"
+    },
+    {
+      "name": "Encrypt Sensitive Information",
+      "mitre_id": "M1041",
+      "url": "https://attack.mitre.org/mitigations/M1041",
+      "stix_id": "course-of-action--feff9142-e8c2-46f4-842b-bd6fb3d41157"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Salt Typhoon",
+      "url": "/apt1045"
+    },
+    {
+      "name": "Rocke",
+      "url": "/apt0106"
+    },
+    {
+      "name": "Sea Turtle",
+      "url": "/apt1041"
+    },
+    {
+      "name": "TeamTNT",
+      "url": "/apt0139"
+    }
+  ]
+}

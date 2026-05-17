@@ -1,0 +1,39 @@
+{
+  "mitre_id": "T1497.001",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Evilnum",
+      "url": "/apt0120"
+    },
+    {
+      "name": "Volt Typhoon",
+      "url": "/apt1017"
+    },
+    {
+      "name": "Darkhotel",
+      "url": "/apt0012"
+    },
+    {
+      "name": "WIRTE",
+      "url": "/apt0090"
+    },
+    {
+      "name": "Kimsuky",
+      "url": "/apt0094"
+    },
+    {
+      "name": "OilRig",
+      "url": "/apt34"
+    },
+    {
+      "name": "Gamaredon Group",
+      "url": "/apt0047"
+    }
+  ]
+}

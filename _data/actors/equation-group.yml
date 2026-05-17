@@ -32,13 +32,13 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://securelist.com/blog/research/67741/regin-nation-state-ownage-of-gsm-networks/","https://securelist.com/blog/research/68750/equation-the-death-star-of-malware-galaxy/","http://www.symantec.com/connect/blogs/strider-cyberespionage-group-turns-eye-sauron-targets","https://securelist.com/analysis/publications/75533/faq-the-projectsauron-apt/","https://www.bleepingcomputer.com/news/security/longhorn-cyber-espionage-group-is-actually-the-cia/","https://web.archive.org/web/20160304022846/http://www.kaspersky.com/about/news/virus/2012/Kaspersky_Lab_and_ITU_Discover_Gauss_A_New_Complex_Cyber_Threat_Designed_to_Monitor_Online_Banking_Accounts","https://twitter.com/RedDrip7/status/1178511323954434048","https://securelist.com/darkuniverse-the-mysterious-apt-framework-27/94897/","https://securelist.com/operation-triangulation/109842/"]
-    source_retrieved_at: "2026-05-10T06:02:56Z"
+    source_retrieved_at: "2026-05-17T06:18:34Z"
     tab_name: "nato"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "equation_group"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/equation_group"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "7036fb3d-86b7-4d9c-bc66-1e1ead8b7840"
   misp_galaxy:
     meta_keys: ["country","refs","suspected-victims","synonyms","target-category"]
@@ -47,4 +47,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "7036fb3d-86b7-4d9c-bc66-1e1ead8b7840"
     source_record_ids: ["54034021-1998-5ddf-93e7-f1f56d172f99"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"

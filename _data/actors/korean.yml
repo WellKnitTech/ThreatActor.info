@@ -15,7 +15,7 @@ provenance:
     sample_titles: ["Phishing Campaign Targeting Korean to Deliver Agent Tesla New Variant","APT attack disguised as North Korean defector resume format"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["Ahnlab","Fortinet"]
   misp_galaxy:
     meta_keys: ["encryption","extensions","payment-method","price","ransomnotes-filenames","refs"]
@@ -24,4 +24,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "4febffe0-3837-41d7-b95f-e26d126275e4"
     source_record_ids: ["4febffe0-3837-41d7-b95f-e26d126275e4"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"

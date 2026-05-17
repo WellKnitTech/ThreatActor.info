@@ -15,7 +15,7 @@ provenance:
     sample_titles: ["How China Will Use Cyber Warfare","Pay No Attention to the Server Behind the Proxy: Mapping FinFisher's Continuing Proliferation"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["Citizen Lab","Jason Fritz"]
   misp_galaxy:
     meta_keys: ["date","synonyms"]
@@ -24,4 +24,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "e0189c0e-8da9-4e48-9c09-9cb8d8eb2a8b"
     source_record_ids: ["e0189c0e-8da9-4e48-9c09-9cb8d8eb2a8b"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:29Z"

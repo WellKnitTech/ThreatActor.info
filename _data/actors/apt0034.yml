@@ -29,13 +29,13 @@ provenance:
     sample_titles: ["Be2 Custom Plugins, Router Abuse, And Target Profiles","Operation Oil Tanker: The Phantom Menace"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["Kaspersky","Pandalabs"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "sandworm"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/sandworm"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "f512de42-f76b-40d2-9923-59e7dbdfec35"
   misp_galaxy:
     meta_keys: ["country","microsoft-origin-threat","refs","sector","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories"]
@@ -44,7 +44,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "473eb51c-36cb-5e3a-8347-2f57df809be9"
     source_record_ids: ["473eb51c-36cb-5e3a-8347-2f57df809be9","16a65ee9-cd60-4f04-ba34-f2f45fcfc666"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0034"

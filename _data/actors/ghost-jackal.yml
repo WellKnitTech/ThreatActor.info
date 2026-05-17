@@ -16,13 +16,13 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.rsaconference.com/writable/presentations/file_upload/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries_final.pdf"]
-    source_retrieved_at: "2026-05-10T06:02:56Z"
+    source_retrieved_at: "2026-05-17T06:18:34Z"
     tab_name: "middle-east"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "ghost_jackal"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ghost_jackal"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "7ad01582-d6a7-4a40-a0ee-7727e268cd15"
   misp_galaxy:
     meta_keys: ["group_attack_id","observed_countries","owner","source","target_categories"]
@@ -31,4 +31,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "7ad01582-d6a7-4a40-a0ee-7727e268cd15"
     source_record_ids: ["67e02e39-1db8-4842-b0b1-d250ea9a22c3"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"

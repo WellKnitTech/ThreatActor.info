@@ -15,7 +15,7 @@ provenance:
     sample_titles: ["Duqu Trojan Questions And Answers","Palebot Trojan Harvests Palestinian Online Credentials","Trojan.Apt.Banechant: In-Memory Trojan That Observes For Multiple Mouse Clicks","Trojan.Apt.Seinup Hitting Asean","Intruder File Report- Sneakernet Trojan","Taiwan targeted with new cyberespionage back door Trojan","Threat Actors Target Government of Belarus Using CMSTAR Trojan","Targeted Attack Campaign Against ManageEngine ADSelfService Plus Delivers Godzilla Webshells, NGLite Trojan and KdcSponge Stealer"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["Dell Secureworks","Fidelis","FireEye","Norman","Palo Alto Networks","PaloAlto","Symantec"]
   misp_galaxy:
     meta_keys: ["extensions","payment-method","ransomnotes-filenames","refs","synonyms"]
@@ -24,4 +24,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "97673387-75ae-4da4-9a5f-38773f2492e7"
     source_record_ids: ["97673387-75ae-4da4-9a5f-38773f2492e7"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"

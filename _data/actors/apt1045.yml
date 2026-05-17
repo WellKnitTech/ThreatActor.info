@@ -21,7 +21,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "ghostemperor"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ghostemperor"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "3c3ca8f3-c6ab-4c5d-9bd0-be6677d6cdeb"
   misp_galaxy:
     meta_keys: ["country","microsoft-origin-threat","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories"]
@@ -30,7 +30,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "3b357ed0-c50c-5793-b0e9-e60ada7a50e5"
     source_record_ids: ["3b357ed0-c50c-5793-b0e9-e60ada7a50e5","759dcc8f-01ae-503f-922f-b144cd54ea15"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G1045"

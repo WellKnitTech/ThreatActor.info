@@ -22,13 +22,13 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://www.crowdstrike.com/blog/whois-samurai-panda/"]
-    source_retrieved_at: "2026-05-10T06:02:56Z"
+    source_retrieved_at: "2026-05-17T06:18:34Z"
     tab_name: "china"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt4"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt4"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "8e28dbee-4e9e-4491-9a6c-ee9c9ec4b28b"
   misp_galaxy:
     meta_keys: ["country","microsoft-origin-threat","refs","synonyms","group_attack_id","observed_motivations","owner","source","tags","target_categories"]
@@ -37,4 +37,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "8e28dbee-4e9e-4491-9a6c-ee9c9ec4b28b"
     source_record_ids: ["6da413e3-a027-5616-af21-0702f67ae972","815777f5-63a2-4718-8056-c430d49e58c0"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"

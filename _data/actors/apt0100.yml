@@ -31,13 +31,13 @@ provenance:
     sample_titles: ["Reversing The Inception APT Malware"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["Bluecoat"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "inception_framework"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/inception_framework"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "71ef51ca-a791-11e8-a026-07980ca910ca"
   misp_galaxy:
     meta_keys: ["group_attack_id","observed_countries","observed_motivations","source","tags","target_categories"]
@@ -46,7 +46,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
     source_record_id: "d7c58e7f-f0b0-44c6-b205-5adcfb56f0e6"
     source_record_ids: ["d7c58e7f-f0b0-44c6-b205-5adcfb56f0e6"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0100"

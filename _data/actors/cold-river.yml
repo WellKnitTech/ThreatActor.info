@@ -11,7 +11,7 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.f-secure.com/documents/996508/1030745/callisto-group","https://natoassociation.ca/phishing-on-the-dnieper-russian-offensive-cyber-operations-in-ukraine/","https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe/","https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe/","https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag/","https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations/","https://www.recordedfuture.com/exposing-tag-53-credential-harvesting-infrastructure-for-russia-aligned-espionage-operations","https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html","https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/Nisos-Research-Coldriver-Group.pdf","https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware/"]
-    source_retrieved_at: "2026-05-10T06:02:56Z"
+    source_retrieved_at: "2026-05-17T06:18:34Z"
     tab_name: "russia"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"

@@ -13,7 +13,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "funksec"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/funksec"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "052519d2-1a4f-49d1-abe6-baffce51fedb"
   misp_galaxy:
     meta_keys: ["refs","group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories","links"]
@@ -22,4 +22,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "052519d2-1a4f-49d1-abe6-baffce51fedb"
     source_record_ids: ["052519d2-1a4f-49d1-abe6-baffce51fedb","cffa9947-001f-48fd-a63a-0b4feba8df6f","132896fc-2758-5384-9bdf-925a7f53c5ff"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"

@@ -1,0 +1,28 @@
+{
+  "mitre_id": "T1561.001",
+  "mitigations": [
+    {
+      "name": "Data Backup",
+      "mitre_id": "M1053",
+      "url": "https://attack.mitre.org/mitigations/M1053",
+      "stix_id": "course-of-action--3efe43d1-6f3f-4fcb-ab39-4a730971f70b"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "VOID MANTICORE",
+      "url": "/void-manticore"
+    },
+    {
+      "name": "Lazarus Group",
+      "url": "/lazarus"
+    },
+    {
+      "name": "Gamaredon Group",
+      "url": "/apt0047"
+    }
+  ]
+}

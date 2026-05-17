@@ -1,0 +1,29 @@
+name: "Mr_Rot13"
+aliases: ["Mr_Rot13"]
+description: "Mr_Rot13 is a stable hacking group identified through a PHP backdoor and a Downloader domain linked to a C2 infrastructure active since 2020. They utilize the Rot13 algorithm for obfuscation and have demonstrated a low detection rate across security products, indicating advanced operational security. Their activities include exploiting CVE-2026-41940 to deliver malicious payloads and maintaining covert communication via Telegram. The group has shown a particular focus on WordPress as a target, with ongoing operations that suggest a sophisticated threat actor rather than opportunistic attackers."
+url: "/mr-rot13"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/mr_rot13"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Backdoor.Oldrea"
+  - name: "Hacking Team UEFI Rootkit"
+  - name: "Xploit"
+  - name: "CrossRat"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "mr_rot13"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/mr_rot13"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_uuid: "712d2b58-5e2e-4106-b5aa-65c5b7d99e44"
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "712d2b58-5e2e-4106-b5aa-65c5b7d99e44"
+    source_record_ids: ["712d2b58-5e2e-4106-b5aa-65c5b7d99e44"]
+    source_retrieved_at: "2026-05-17T06:18:28Z"

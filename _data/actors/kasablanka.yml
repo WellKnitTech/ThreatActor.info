@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "kasablanka"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/kasablanka"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "6db3ad41-6b47-43c8-b94b-98853749ee02"
   misp_galaxy:
     meta_keys: ["country","refs"]
@@ -23,4 +23,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "6db3ad41-6b47-43c8-b94b-98853749ee02"
     source_record_ids: ["6db3ad41-6b47-43c8-b94b-98853749ee02"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"

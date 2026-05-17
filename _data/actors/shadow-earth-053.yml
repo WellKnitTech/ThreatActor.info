@@ -1,0 +1,31 @@
+name: "Shadow-Earth-053"
+aliases: ["Shadow-Earth-053"]
+description: "SHADOW-EARTH-053 is a China-aligned threat group exploiting unpatched Microsoft Exchange Server vulnerabilities, specifically CVE-2021-26855, to conduct cyberespionage against government and defense-linked targets across Asia and Europe. The group primarily deploys ShadowPad malware, utilizing techniques such as credential dumping, tunneling tools, and lateral movement via WMIC. They have also been observed installing web shells for persistence and leveraging a custom ExchangeExport tool to extract high-value mailbox contents. Additionally, low-confidence associations with Noodle RAT and CVE-2025-55182 have been noted in their operations."
+url: "/shadow-earth-053"
+country: "China"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/shadow-earth-053"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "China Chopper"
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+  - name: "Xploit"
+  - name: "CrossRat"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "shadow-earth-053"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/shadow-earth-053"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_uuid: "a2553b72-e87f-40c6-afe2-04df4cf3e12f"
+  misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "a2553b72-e87f-40c6-afe2-04df4cf3e12f"
+    source_record_ids: ["a2553b72-e87f-40c6-afe2-04df4cf3e12f"]
+    source_retrieved_at: "2026-05-17T06:18:28Z"

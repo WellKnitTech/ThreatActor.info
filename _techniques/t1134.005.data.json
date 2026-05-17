@@ -1,0 +1,17 @@
+{
+  "mitre_id": "T1134.005",
+  "mitigations": [
+    {
+      "name": "Active Directory Configuration",
+      "mitre_id": "M1015",
+      "url": "https://attack.mitre.org/mitigations/M1015",
+      "stix_id": "course-of-action--e3388c78-2a8d-47c2-8422-c1398b324462"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

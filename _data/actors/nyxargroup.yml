@@ -1,0 +1,27 @@
+name: "NyxarGroup"
+aliases: ["NyxarGroup"]
+description: "NyxarGroup is a threat actor involved in a coordinated data brokerage ecosystem across Latin America, primarily targeting government infrastructure. They have published high volumes of data, including 110,000 records from Chile's Servicio Civil platform and 250GB from the Ley del Lobby platform, which tracks lobbying activities. The data exfiltrated includes limited fields but provides a directory of Chilean government employees, enhancing the visibility of the public sector workforce. NyxarGroup's activities indicate a focus on exploiting government transparency and training systems for data leaks."
+url: "/nyxargroup"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/nyxargroup"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Xploit"
+  - name: "CrossRat"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "nyxargroup"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/nyxargroup"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_uuid: "0c78182d-bc4b-404f-aacc-40538252b58c"
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "0c78182d-bc4b-404f-aacc-40538252b58c"
+    source_record_ids: ["0c78182d-bc4b-404f-aacc-40538252b58c"]
+    source_retrieved_at: "2026-05-17T06:18:28Z"

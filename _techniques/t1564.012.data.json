@@ -1,0 +1,26 @@
+{
+  "mitre_id": "T1564.012",
+  "mitigations": [
+    {
+      "name": "Antivirus/Antimalware",
+      "mitre_id": "M1049",
+      "url": "https://attack.mitre.org/mitigations/M1049",
+      "stix_id": "course-of-action--a6a47a06-08fc-4ec4-bdc3-20373375ebb9"
+    },
+    {
+      "name": "Application Developer Guidance",
+      "mitre_id": "M1013",
+      "url": "https://attack.mitre.org/mitigations/M1013",
+      "stix_id": "course-of-action--25dc1ce8-eb55-4333-ae30-a7cb4f5894a1"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Turla",
+      "url": "/apt0010"
+    }
+  ]
+}

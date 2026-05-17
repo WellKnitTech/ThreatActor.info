@@ -21,7 +21,7 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.bleepingcomputer.com/news/security/medusa-ransomware-gang-picks-up-steam-as-it-targets-companies-worldwide/"]
-    source_retrieved_at: "2026-05-10T06:02:56Z"
+    source_retrieved_at: "2026-05-17T06:18:34Z"
     tab_name: "unknown"
   misp_galaxy:
     meta_keys: ["TTP","extensions","links","ransomnotes-filenames","refs"]
@@ -30,7 +30,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "620c3817-320a-5772-acf1-008cc8852b0f"
     source_record_ids: ["620c3817-320a-5772-acf1-008cc8852b0f"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:29Z"
   ransomware_tool_matrix:
     references:
       - title: "CISA Alert aa22-181a"

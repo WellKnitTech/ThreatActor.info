@@ -13,7 +13,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "dragonrank"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dragonrank"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "28157c93-0b9f-4341-983a-3a521cee12bb"
   misp_galaxy:
     meta_keys: ["refs","group_attack_id","observed_motivations","owner","source","tags"]
@@ -22,4 +22,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "28157c93-0b9f-4341-983a-3a521cee12bb"
     source_record_ids: ["28157c93-0b9f-4341-983a-3a521cee12bb","2ee8f401-679c-455e-bc19-511bacdbffff"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"

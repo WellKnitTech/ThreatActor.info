@@ -237,18 +237,21 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-10T05:53:38Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-05-17T06:10:47Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.clearskysec.com/fox-kitten/ https://www.clearskysec.com/pay2kitten/","https://dragos.com/blog/industry-news/the-state-of-threats-to-electric-entities-in-north-america/","https://www.crowdstrike.com/blog/who-is-pioneer-kitten/","https://us-cert.cisa.gov/ncas/alerts/aa20-259a"]
-    source_retrieved_at: "2026-05-10T06:02:56Z"
+    source_retrieved_at: "2026-05-17T06:18:34Z"
     tab_name: "iran"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "fox_kitten"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/fox_kitten"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "bfb0bc20-5bdf-47ff-b07f-dbd9a3cb9772"
   misp_galaxy:
     meta_keys: ["country","origin:UNC757","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories","microsoft-origin-threat","sector","date","links"]
@@ -257,21 +260,21 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "bfb0bc20-5bdf-47ff-b07f-dbd9a3cb9772"
     source_record_ids: ["bfb0bc20-5bdf-47ff-b07f-dbd9a3cb9772","7094468a-2310-48b5-ad24-e669152bd66d","0757856a-1313-57d8-bb6c-f4c537e110da","678bc24d-a5c3-4ddd-9292-40958afa3492"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:29Z"
   mitre:
-    attack_version: "19.0"
+    attack_version: "19.1"
     attack_version_by_domain:
-      enterprise: "19.0"
-      ics: "19.0"
-      mobile: "19.0"
-    relationships_imported_at: "2026-05-10T05:53:38Z"
+      enterprise: "19.1"
+      ics: "19.1"
+      mobile: "19.1"
+    relationships_imported_at: "2026-05-17T06:10:47Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0117"
-    source_retrieved_at: "2026-05-10T05:53:38Z"
+    source_retrieved_at: "2026-05-17T06:10:47Z"
     stix_intrusion_set_id: "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee"
   ransomware_vulnerability_matrix:
     actor_roles: ["state_sponsored_ransomware"]

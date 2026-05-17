@@ -103,7 +103,7 @@ software:
     url: "https://attack.mitre.org/software/S9034"
     type: "malware"
     stix_id: "malware--18f5f8c6-bba5-4aba-93e7-3539fe565883"
-    description: "Tsundere Botnet is a botnet first reported in mid-2025 that is delivered via MSI installer or PowerShell script. It leverages Node.js and JavaScript for payload delivery and execution, and uses smart contracts on the blockchain to host command and control (C2) addresses. Tsundere Botnet is attributed to a likely Russian-speaking threat actor.\n\nA variant named DinDoor has been linked to MuddyWater operations and uses the Deno runtime for execution rather than Node.js. (Citation: Checkpoint_MOISCyb"
+    description: "Tsundere Botnet is a botnet first reported in mid-2025 that is delivered via MSI installer or a PowerShell script. It leverages Node.js and JavaScript for payload delivery and execution, and uses smart contracts on the blockchain to host command and control (C2) addresses. Tsundere Botnet is attributed to a likely Russian-speaking threat actor.\n\nA variant named DinDoor has been linked to MuddyWater operations and uses the Deno runtime for execution rather than Node.js.(Citation: Checkpoint_MOISCy"
   - name: "PowerSploit"
     mitre_id: "S0194"
     url: "https://attack.mitre.org/software/S0194"
@@ -170,6 +170,12 @@ software:
     type: "tool"
     stix_id: "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3"
     description: "Empire is an open-source, cross-platform remote administration and post-exploitation framework that is publicly available on GitHub. While the tool itself is primarily written in Python, the post-exploitation agents are written in pure PowerShell for Windows and Python for Linux/macOS. Empire was one of five tools singled out by a joint report on public hacking tools being widely used by adversaries.(Citation: NCSC Joint Report Public Tools)(Citation: Github PowerShell Empire)(Citation: GitHub AT"
+  - name: "RustyWater"
+    mitre_id: "S9037"
+    url: "https://attack.mitre.org/software/S9037"
+    type: "malware"
+    stix_id: "malware--50be4e81-db74-41a2-a9aa-423314082bea"
+    description: "RustyWater is a Rust-based implant used by MuddyWater. Historically, MuddyWater has used PowerShell-based tools and RustyWater reflects a shift in tooling, demonstrating better techniques for defense evasion and reverse engineering.(Citation: CloudSEK_RustyWater_Jan2026)"
   - name: "RemoteUtilities"
     mitre_id: "S0592"
     url: "https://attack.mitre.org/software/S0592"
@@ -462,7 +468,7 @@ ttps:
     url: "https://attack.mitre.org/techniques/T1003/005"
     stix_id: "attack-pattern--6add2ab5-2711-4e9d-87c8-7a0be8531530"
 attck_techniques: ["T1003.001","T1003.004","T1003.005","T1016","T1027.003","T1027.004","T1027.010","T1033","T1036.005","T1041","T1047","T1049","T1053.005","T1057","T1059.001","T1059.003","T1059.005","T1059.006","T1059.007","T1071.001","T1074.001","T1082","T1083","T1087.002","T1090","T1090.002","T1102.002","T1104","T1105","T1113","T1132.001","T1137.001","T1140","T1190","T1203","T1204.001","T1204.002","T1204.004","T1210","T1218.003","T1218.005","T1218.011","T1219.002","T1518","T1518.001","T1534","T1547.001","T1548.002","T1552.001","T1555","T1555.003","T1559.001","T1559.002","T1560.001","T1566","T1566.001","T1566.002","T1567.002","T1571","T1573.001","T1574.001","T1583.001","T1583.006","T1588.001","T1588.002","T1590.004","T1684.001","T1685"]
-attck_software: ["S0002","S0194","S0223","S0250","S0349","S0363","S0450","S0488","S0591","S0592","S0594","S1035","S1037","S1040","S1046","S1047","S1243","S9032","S9033","S9034","S9036"]
+attck_software: ["S0002","S0194","S0223","S0250","S0349","S0363","S0450","S0488","S0591","S0592","S0594","S1035","S1037","S1040","S1046","S1047","S1243","S9032","S9033","S9034","S9036","S9037"]
 attck_references:
   - source: "mitre-attack"
     url: "https://attack.mitre.org/groups/G0069"
@@ -472,13 +478,16 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-10T05:53:38Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-05-17T06:10:47Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0069"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://researchcenter.paloaltonetworks.com/2017/11/unit42-muddying-the-water-targeted-attacks-in-the-middle-east/","https://sec0wn.blogspot.co.il/2018/03/a-quick-dip-into-muddywaters-recent.html","https://blog.trendmicro.com/trendlabs-security-intelligence/campaign-possibly-connected-muddywater-surfaces-middle-east-central-asia/","https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html","https://www.symantec.com/blogs/threat-intelligence/seedworm-espionage-group","https://www.clearskysec.com/wp-content/uploads/2018/11/MuddyWater-Operations-in-Lebanon-and-Oman.pdf","https://sec0wn.blogspot.com/2018/02/burping-on-muddywater.html","https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report/","https://threatrecon.nshc.net/2019/03/07/sectord02-powershell-backdoor-analysis/","https://blog.talosintelligence.com/2019/05/recent-muddywater-associated-blackwater.html","https://blog.trendmicro.com/trendlabs-security-intelligence/muddywater-resurfaces-uses-multi-stage-backdoor-powerstats-v3-and-new-post-exploitation-tools/","https://documents.trendmicro.com/assets/white_papers/wp_new_muddywater_findings_uncovered.pdf","https://www.clearskysec.com/wp-content/uploads/2019/06/Clearsky-Iranian-APT-group-%E2%80%98MuddyWater%E2%80%99-Adds-Exploits-to-Their-Arsenal.pdf","https://securelist.com/muddywaters-arsenal/90659/","https://www.prevailion.com/summer-mirage-2/","https://www.secureworks.com/blog/business-as-usual-for-iranian-operations-despite-increased-tensions","https://www.bleepingcomputer.com/news/security/microsoft-iranian-hackers-actively-exploiting-windows-zerologon-flaw/","https://www.clearskysec.com/wp-content/uploads/2020/10/Operation-Quicksand.pdf","https://www.telsy.com/operation-space-race-reaching-the-stars-through-professional-social-networks/","https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/seedworm-apt-iran-middle-east"]
-    source_retrieved_at: "2026-05-10T06:02:56Z"
+    source_retrieved_at: "2026-05-17T06:18:34Z"
     tab_name: "iran"
   aptnotes:
     earliest_report_year: "2022"
@@ -488,13 +497,13 @@ provenance:
     sample_titles: ["Iranian linked conglomerate MuddyWater comprised of regionally focused subgroups","MuddyWater eN-Able spear-phishing with new TTPs","Seedworm: Iranian Hackers Target Telecoms Orgs in North and East Africa"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["Symantec","deepinstinct","talosintelligence"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "muddywater"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/muddywater"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "a29af069-03c3-4534-b78b-7d1a77ea085b"
   misp_galaxy:
     meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","origin:Earth Vetala","origin:TEMP.Zagros","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories","microsoft-origin-threat","sector"]
@@ -503,21 +512,21 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "a29af069-03c3-4534-b78b-7d1a77ea085b"
     source_record_ids: ["a29af069-03c3-4534-b78b-7d1a77ea085b","dcb260d8-9d53-404f-9ff5-dbee2c6effe6","da68ca6d-250f-50f1-a585-240475fdbb35"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"
   mitre:
-    attack_version: "19.0"
+    attack_version: "19.1"
     attack_version_by_domain:
-      enterprise: "19.0"
-      ics: "19.0"
-      mobile: "19.0"
-    relationships_imported_at: "2026-05-10T05:53:38Z"
+      enterprise: "19.1"
+      ics: "19.1"
+      mobile: "19.1"
+    relationships_imported_at: "2026-05-17T06:10:47Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0069"
-    source_retrieved_at: "2026-05-10T05:53:38Z"
+    source_retrieved_at: "2026-05-17T06:10:47Z"
     stix_intrusion_set_id: "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2"
   ransomware_tool_matrix:
     actor_roles: ["state_sponsored_ransomware"]

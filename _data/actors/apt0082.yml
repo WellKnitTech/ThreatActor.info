@@ -16,7 +16,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "stardust_chollima"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/stardust_chollima"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "d8e1762a-0063-48c2-9ea1-8d176d14b70f"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"

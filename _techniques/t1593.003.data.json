@@ -1,0 +1,34 @@
+{
+  "mitre_id": "T1593.003",
+  "mitigations": [
+    {
+      "name": "Application Developer Guidance",
+      "mitre_id": "M1013",
+      "url": "https://attack.mitre.org/mitigations/M1013",
+      "stix_id": "course-of-action--25dc1ce8-eb55-4333-ae30-a7cb4f5894a1"
+    },
+    {
+      "name": "Audit",
+      "mitre_id": "M1047",
+      "url": "https://attack.mitre.org/mitigations/M1047",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Contagious Interview",
+      "url": "/apt1052"
+    },
+    {
+      "name": "LAPSUS$",
+      "url": "/apt1004"
+    },
+    {
+      "name": "HAFNIUM",
+      "url": "/apt0125"
+    }
+  ]
+}

@@ -64,12 +64,15 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-10T05:53:38Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-05-17T06:10:47Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://www.checkpoint.com/downloads/volatile-cedar-technical-report.pdf","http://blog.checkpoint.com/2015/03/31/volatilecedar/","https://securelist.com/sinkholing-volatile-cedar-dga-infrastructure/69421/","https://www.clearskysec.com/cedar/","https://securelist.com/defttorero-tactics-techniques-and-procedures/107610/"]
-    source_retrieved_at: "2026-05-10T06:02:56Z"
+    source_retrieved_at: "2026-05-17T06:18:34Z"
     tab_name: "middle-east"
   aptnotes:
     earliest_report_year: "2015"
@@ -79,13 +82,13 @@ provenance:
     sample_titles: ["Volatile Cedar Threat Intelligence And Research"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["Checkpoint"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "volatile_cedar"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/volatile_cedar"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "cf421ce6-ddfe-419a-bc65-6a9fc953232a"
   misp_galaxy:
     meta_keys: ["country","refs","suspected-victims","synonyms","group_attack_id","observed_countries","observed_motivations","source","target_categories","microsoft-origin-threat"]
@@ -94,20 +97,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "cf421ce6-ddfe-419a-bc65-6a9fc953232a"
     source_record_ids: ["cf421ce6-ddfe-419a-bc65-6a9fc953232a","7c3ef21c-0e1c-43d5-afb0-3a07c5a66937","043ebe48-3101-5f67-9dd0-de3c9f230031"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"
   mitre:
-    attack_version: "19.0"
+    attack_version: "19.1"
     attack_version_by_domain:
-      enterprise: "19.0"
-      ics: "19.0"
-      mobile: "19.0"
-    relationships_imported_at: "2026-05-10T05:53:38Z"
+      enterprise: "19.1"
+      ics: "19.1"
+      mobile: "19.1"
+    relationships_imported_at: "2026-05-17T06:10:47Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0123"
-    source_retrieved_at: "2026-05-10T05:53:38Z"
+    source_retrieved_at: "2026-05-17T06:10:47Z"
     stix_intrusion_set_id: "intrusion-set--b2e34388-6938-4c59-a702-80dc219e15e3"
 source: "MITRE ATT&CK"

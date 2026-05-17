@@ -17,7 +17,7 @@ provenance:
     sample_titles: ["Hacker Group Creates Network of Fake LinkedIn Profiles"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["Secureworks"]
   misp_galaxy:
     meta_keys: ["date","encryption","extensions","payment-method","price","ransomnotes-refs","refs","synonyms"]
@@ -26,4 +26,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "327eb8b4-5793-42f0-96c0-7f651a0debdc"
     source_record_ids: ["327eb8b4-5793-42f0-96c0-7f651a0debdc"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"

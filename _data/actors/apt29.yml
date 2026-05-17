@@ -55,7 +55,7 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://aptnotes.malwareconfig.com/web/viewer.html?file=../APTnotes/2015/apt29-hammertoss-stealthy-tactics-define-a.pdf","https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage/","https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/","https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf","http://www.volexity.com/blog/","https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf","https://www2.fireeye.com/rs/848-DID-242/images/RPT-M-Trends-2017.pdf","https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html","https://www.fireeye.com/blog/threat-research/2018/11/not-so-cozy-an-uncomfortable-examination-of-a-suspected-apt29-phishing-campaign.html","https://securelist.com/the-cozyduke-apt/69731/","https://www.welivesecurity.com/2019/10/17/operation-ghost-dukes-never-left/","https://us-cert.cisa.gov/ncas/analysis-reports/ar21-105a","https://www.istrosec.com/blog/apt-sk-cobalt/","https://cybergeeks.tech/how-to-defeat-the-russian-dukes-a-step-by-step-analysis-of-miniduke-used-by-apt29-cozy-bear/","https://www.crowdstrike.com/blog/observations-from-the-stellarparticle-campaign/","https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft","https://cluster25.io/2022/05/13/cozy-smuggled-into-the-box/","https://www.mandiant.com/resources/blog/unc3524-eye-spy-email","https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cranefly-new-tools-technique-geppei-danfuan","https://blog.eclecticiq.com/german-embassy-lure-likely-part-of-campaign-against-nato-aligned-ministries-of-foreign-affairs"]
-    source_retrieved_at: "2026-05-10T06:02:56Z"
+    source_retrieved_at: "2026-05-17T06:18:34Z"
     tab_name: "russia"
   aptnotes:
     earliest_report_year: "2015"
@@ -65,7 +65,7 @@ provenance:
     sample_titles: ["The Cozyduke APT","Cozyduke","\"Forkmeiamfamous\": Seaduke, Latest Weapon In The Duke Armory","Tracking Minidionis: Cozycar's New Ride Is Related To Seaduke","APT29 Domain Fronting With TOR"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["F-Secure","FireEye","Kaspersky","Palo Alto","Symantec"]
   bushido_breach_reports:
     reports:
@@ -97,7 +97,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "unc3524"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc3524"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "bee8b09c-07e5-4c12-94d6-266ebcb1ec24"
   misp_galaxy:
     meta_keys: ["country","microsoft-origin-threat","refs","sector","synonyms"]
@@ -106,7 +106,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "31982812-c8bf-5e85-b0ba-0c64a7d05d20"
     source_record_ids: ["31982812-c8bf-5e85-b0ba-0c64a7d05d20","d7247cf9-13b6-4781-b789-a5f33521633b"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"
   mitre:
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_record_id: "G0016"

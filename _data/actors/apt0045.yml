@@ -26,7 +26,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt10"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt10"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "56b37b05-72e7-4a89-ba8a-61ce45269a8c"
   misp_galaxy:
     meta_keys: ["country","group_attack_id","observed_countries","observed_motivations","source","target_categories"]

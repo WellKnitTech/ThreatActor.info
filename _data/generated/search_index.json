@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T05:46:49Z",
+  "generated_at": "2026-05-17T06:18:50Z",
   "actors": [
     {
       "kind": "actor",
@@ -18881,6 +18881,19 @@
     },
     {
       "kind": "actor",
+      "name": "FlowerStorm",
+      "permalink": "/flowerstorm/",
+      "description": "FlowerStorm is a phishing-as-a-service platform that mimics legitimate services to bypass multi-factor authentication structure. The majority of its targets are located in North America and Europe, with a significant focus on organizations in the United States. FlowerStorm's opera",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "Fluffy-TAR",
       "permalink": "/fluffy-tar/",
       "description": "ransomware",
@@ -22134,6 +22147,19 @@
       "name": "Hive0137",
       "permalink": "/hive0137/",
       "description": "Being one of the most active malware distributors, Hive0137 demonstrates a willingness to explore new payloads and technologies such as GenAI. They have quickly moved onto the same level as other high-profile distributors such as TA577, and will likely be responsible for future ph",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "Hive0163",
+      "permalink": "/hive0163/",
+      "description": "Hive0163 is a financially motivated ransomware group responsible for deploying Interlock ransomware, utilizing ClickFix social engineering for initial access. They employ the AI-generated PowerShell backdoor Slopoly for persistent command-and-control access, which checks in with a",
       "country": null,
       "attck_techniques": [
 
@@ -26655,6 +26681,19 @@
     },
     {
       "kind": "actor",
+      "name": "LulzIntel",
+      "permalink": "/lulzintel/",
+      "description": "The threat actor lulzintel has claimed responsibility for multiple data breaches, including those of vegehome.pl, Almaex, Smaregi, and Kin Teck Tong, exposing sensitive information of over 400,000 individuals combined. The breaches involved the release of customer and patient reco",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "LulzSec Black",
       "permalink": "/lulzsec-black/",
       "description": "LulzSec Black is a hacktivist group that has claimed responsibility for coordinated DDoS attacks against Cyprus' government and critical infrastructure in response to the country's support for Israel. They have also announced cyberattacks targeting the UAE, including breaches of a",
@@ -28927,6 +28966,19 @@
     },
     {
       "kind": "actor",
+      "name": "Mr_Rot13",
+      "permalink": "/mr-rot13/",
+      "description": "Mr_Rot13 is a stable hacking group identified through a PHP backdoor and a Downloader domain linked to a C2 infrastructure active since 2020. They utilize the Rot13 algorithm for obfuscation and have demonstrated a low detection rate across security products, indicating advanced o",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "Mr403Forbidden",
       "permalink": "/mr403forbidden/",
       "description": "ransomware",
@@ -31023,6 +31075,19 @@
       "name": "Nyton",
       "permalink": "/nyton/",
       "description": "ransomware",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "NyxarGroup",
+      "permalink": "/nyxargroup/",
+      "description": "NyxarGroup is a threat actor involved in a coordinated data brokerage ecosystem across Latin America, primarily targeting government infrastructure. They have published high volumes of data, including 110,000 records from Chile's Servicio Civil platform and 250GB from the Ley del ",
       "country": null,
       "attck_techniques": [
 
@@ -37933,6 +37998,19 @@
     },
     {
       "kind": "actor",
+      "name": "Shadow-Earth-053",
+      "permalink": "/shadow-earth-053/",
+      "description": "SHADOW-EARTH-053 is a China-aligned threat group exploiting unpatched Microsoft Exchange Server vulnerabilities, specifically CVE-2021-26855, to conduct cyberespionage against government and defense-linked targets across Asia and Europe. The group primarily deploys ShadowPad malwa",
+      "country": "China",
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "Shadow Network",
       "permalink": "/shadow-network/",
       "description": "Shadows in the Cloud documents a complex ecosystem of cyber espionage that systematically compromised government, business, academic, and other computer network systems in India, the Offices of the Dalai Lama, the United Nations, and several other countries. The report also contai",
@@ -44502,6 +44580,19 @@
       "permalink": "/unc6692/",
       "description": "UNC6692 is a threat actor that employs social engineering tactics, such as impersonating IT helpdesk personnel, to gain initial access to victim environments. They utilize a custom modular malware suite, including components like SNOWBELT, SNOWGLAZE, and SNOWBASIN, to facilitate d",
       "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "UNC6748",
+      "permalink": "/unc6748/",
+      "description": "UNC6748 targets users in Saudi Arabia through a fake Snapchat website, employing a backdoor known as GHOSTKNIFE for data exfiltration. Their exploitation process initially featured basic obfuscation, which evolved to include anti-debugging measures. The actor primarily leveraged C",
+      "country": "Russia",
       "attck_techniques": [
 
       ],

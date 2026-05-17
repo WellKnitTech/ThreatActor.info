@@ -1,0 +1,17 @@
+{
+  "mitre_id": "T1430.002",
+  "mitigations": [
+    {
+      "name": "Interconnection Filtering",
+      "mitre_id": "M1014",
+      "url": "https://attack.mitre.org/mitigations/M1014",
+      "stix_id": "course-of-action--e829ee51-1caf-4665-ba15-7f8979634124"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

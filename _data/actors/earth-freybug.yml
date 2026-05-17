@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "earth_freybug"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/earth_freybug"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "c6e2e5ba-ffad-4258-8b6e-775b3fa230c3"
   misp_galaxy:
     meta_keys: ["country","origin:Earth Freybug","refs"]
@@ -23,4 +23,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "c6e2e5ba-ffad-4258-8b6e-775b3fa230c3"
     source_record_ids: ["c6e2e5ba-ffad-4258-8b6e-775b3fa230c3"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"

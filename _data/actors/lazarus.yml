@@ -570,7 +570,7 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://www.mcafee.com/us/resources/white-papers/wp-dissecting-operation-troy.pdf"]
-    source_retrieved_at: "2026-05-10T06:02:56Z"
+    source_retrieved_at: "2026-05-17T06:18:34Z"
     tab_name: "unknown"
   aptnotes:
     earliest_report_year: "2013"
@@ -580,13 +580,13 @@ provenance:
     sample_titles: ["Dissecting Operation Troy: Cyberespionage In South Korea","Dark Seoul Cyber Attack: Could It Be Worse?","Lazarus & Watering-Hole Attacks","Lazarus' False Flag Malware","Taiwan Heist: Lazarus Tools And Ransomware","Lazarus Group Targets More Cryptocurrency Exchanges and FinTech Companies","Attacks Of The Lazarus Cybercriminal Group Attended To Organizations In Russia","Lazarus supply-chain attack in South Korea","Lazarus covets COVID-19-related intelligence","North Korea's Lazarus APT leverages Windows Update client, GitHub in latest campaign"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["Ahnlab","BAE Systems","Cyber Geeks","Dongseo University","ESET","Intezer","Kaspersky","MalwareBytes","McAfee","SecureSoft","Symantec","zscaler"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "unc1069"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc1069"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "b7e897da-108b-4f5b-b32b-3fd9375cc55e"
   misp_galaxy:
     meta_keys: ["country","refs","suspected-victims","synonyms","target-category","microsoft-origin-threat","sector"]
@@ -595,7 +595,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json"
     source_record_id: "e6f4af06-fbb5-5471-82ae-b0bdb4d446ce"
     source_record_ids: ["e6f4af06-fbb5-5471-82ae-b0bdb4d446ce","9630b0aa-ee9e-5b58-9f79-cf7fa8d291a8"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"
   mitre:
     attack_version: "19.0"
     attack_version_by_domain:

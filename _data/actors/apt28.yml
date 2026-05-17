@@ -650,6 +650,9 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-10T05:53:38Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-05-17T06:10:47Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 campaigns:
   - name: "APT28 Nearest Neighbor Campaign"
     campaign_id: "C0051"
@@ -661,7 +664,7 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.trellix.com/en-us/about/newsroom/stories/research/shining-light-on-dark-power.html"]
-    source_retrieved_at: "2026-05-10T06:02:56Z"
+    source_retrieved_at: "2026-05-17T06:18:34Z"
     tab_name: "unknown"
   aptnotes:
     earliest_report_year: "2014"
@@ -671,13 +674,13 @@ provenance:
     sample_titles: ["Tactical Intelligence Bulletin Sofacy Phishing","Apt28: A Window Into Russia's Cyber Espionage Operations","Operation Russiandoll: Adobe & Windows ZeroDay Exploits Likely leveraged By Russia's APT28","Sofacy II_ Same Sofacy, Different Day","APT28 Targets Financial Markets: Zero Day Hashes Released","A Look Into Fysbis: Sofacy's Linux Backdoor","New Sofacy Attacks Against US Government Agency","Threat Group-4127 Targets Hillary Clinton Presidential Campaign","Threat Group 4127 Targets Hillary Clinton Presidential Campaign","Threat Group-4127 Targets Google Accounts"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["CERT-UA","Crowdstrike","Dell Secureworks","ESET","FireEye","IBM","PWC","Palo Alto","Palo Alto Networks","Secureworks","root9b","tr1adx"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt28"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt28"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "5b4ee3ea-eee3-4c8e-8323-85ae32658754"
   misp_galaxy:
     meta_keys: ["country","refs","suspected-victims","synonyms","target-category","microsoft-origin-threat","sector","links"]
@@ -686,21 +689,21 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json"
     source_record_id: "3d9f700c-5eb5-5d36-a6e7-47b55f2844cd"
     source_record_ids: ["3d9f700c-5eb5-5d36-a6e7-47b55f2844cd","8d84d7b0-7716-5ab3-a3a4-f373dd148347","213cdde9-c11a-4ea9-8ce0-c868e9826fec","64d155a9-8e33-4c3f-8f58-0a483475c65d"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:29Z"
   mitre:
-    attack_version: "19.0"
+    attack_version: "19.1"
     attack_version_by_domain:
-      enterprise: "19.0"
-      ics: "19.0"
-      mobile: "19.0"
-    relationships_imported_at: "2026-05-10T05:53:38Z"
+      enterprise: "19.1"
+      ics: "19.1"
+      mobile: "19.1"
+    relationships_imported_at: "2026-05-17T06:10:47Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0007"
-    source_retrieved_at: "2026-05-10T05:53:38Z"
+    source_retrieved_at: "2026-05-17T06:10:47Z"
     stix_intrusion_set_id: "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c"
   reddrip7_apt_digital_weapon:
     actor_folder: "APT28"

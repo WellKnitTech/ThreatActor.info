@@ -354,13 +354,16 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-10T05:53:38Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-05-17T06:10:47Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0047"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_FINAL.pdf","http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/","https://blog.yoroi.company/research/the-russian-shadow-in-eastern-europe-ukrainian-mod-campaign/","https://www.recordedfuture.com/bluealpha-iranian-apts/","https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/","https://www.anomali.com/blog/primitive-bear-gamaredon-targets-ukraine-with-timely-themes","https://mp.weixin.qq.com/s/OfDTcrTVAgjACeh0Z5wi7w","https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine","https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/","https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/#indicators-of-compromise","https://cert.gov.ua/article/39386","https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-intense-campaign-ukraine","https://blogs.cisco.com/security/network-footprints-of-gamaredon-group","https://cert.gov.ua/article/1229152","https://unit42.paloaltonetworks.com/trident-ursa/","https://www.secureworks.com/research/threat-profiles/iron-tilden","https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-russia-ukraine-military"]
-    source_retrieved_at: "2026-05-10T06:02:56Z"
+    source_retrieved_at: "2026-05-17T06:18:34Z"
     tab_name: "russia"
   aptnotes:
     earliest_report_year: "2022"
@@ -370,13 +373,13 @@ provenance:
     sample_titles: ["Shuckworm Continues Cyber-Espionage Attacks Against Ukraine","ACTINIUM targets Ukrainian organizations","Shuckworm: Espionage Group Continues Intense Campaign Against Ukraine","Gamaredon APT targets Ukrainian government agencies in new campaign"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-10T06:02:57Z"
+    source_retrieved_at: "2026-05-17T06:18:35Z"
     sources: ["CiscoTalos","Symantec","microsoft"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "gamaredon_group"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gamaredon_group"
-    source_retrieved_at: "2026-05-10T06:02:54Z"
+    source_retrieved_at: "2026-05-17T06:18:32Z"
     source_uuid: "1a77e156-76bc-43f5-bdd7-bd67f30fbbbb"
   misp_galaxy:
     meta_keys: ["cfr-suspected-victims","cfr-target-category","country","origin:DEV-0157","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","target_categories","suspected-victims","target-category","microsoft-origin-threat","sector"]
@@ -385,21 +388,21 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "1a77e156-76bc-43f5-bdd7-bd67f30fbbbb"
     source_record_ids: ["1a77e156-76bc-43f5-bdd7-bd67f30fbbbb","41e8b4a4-2d31-46ee-bc56-12375084d067","ca52d879-f02b-531e-89ff-817ffc23ce35","fc77a775-d06f-5efc-a6fa-0b2af01902a7","d2ff3b81-3d0c-471d-8f57-cfa7eaf75e7e"]
-    source_retrieved_at: "2026-05-10T06:02:51Z"
+    source_retrieved_at: "2026-05-17T06:18:28Z"
   mitre:
-    attack_version: "19.0"
+    attack_version: "19.1"
     attack_version_by_domain:
-      enterprise: "19.0"
-      ics: "19.0"
-      mobile: "19.0"
-    relationships_imported_at: "2026-05-10T05:53:38Z"
+      enterprise: "19.1"
+      ics: "19.1"
+      mobile: "19.1"
+    relationships_imported_at: "2026-05-17T06:10:47Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0047"
-    source_retrieved_at: "2026-05-10T05:53:38Z"
+    source_retrieved_at: "2026-05-17T06:10:47Z"
     stix_intrusion_set_id: "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf"
   russian_apt_tool_matrix:
     references:
