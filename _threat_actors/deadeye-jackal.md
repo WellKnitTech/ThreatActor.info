@@ -41,3 +41,13 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Research repository ArXiv will ban authors for a year if they let AI do all the work](https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/)
+  TechCrunch - 2026-05-16T
+- [1 year and 1 million messages later: Lessons learned building AI agents on the Elasticsearch Platform](https://www.elastic.co/blog/building-ai-agents-elasticsearch-platform)
+  Elastic - 2026-05-14T
+- [The Elasticsearch Agent Builder Hackathon](https://www.elastic.co/blog/the-elasticsearch-agent-builder-hackathon)
+  Elastic - 2026-05-13T
+

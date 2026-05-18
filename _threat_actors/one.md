@@ -30,3 +30,13 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [How to Control Everything on Your Phone With Your Voice (iOS and Android)](https://www.wired.com/story/control-everything-on-your-phone-with-your-voice-ios-android/)
+  Wired - 2026-05-16T
+- [A hotel check-in system left a million passports and driver’s licenses open for anyone to see](https://techcrunch.com/2026/05/15/a-hotel-check-in-system-left-a-million-passports-and-drivers-licenses-open-for-anyone-to-see/)
+  TechCrunch - 2026-05-15T
+- [Cyber Pioneers Ponder Past as Prologue](https://www.darkreading.com/cyberattacks-data-breaches/cybersecurity-pioneers-ponder-past-prologue)
+  DarkReading - 2026-05-15T
+

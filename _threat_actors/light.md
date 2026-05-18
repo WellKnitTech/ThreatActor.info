@@ -30,3 +30,13 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Taiwan Bullet Train Hack Highlights Cybersecurity Gaps in Rail Systems](https://www.darkreading.com/ics-ot-security/taiwan-incident-highlights-cybersecurity-gaps)
+  DarkReading - 2026-05-15T
+- [Foxconn Attack Highlights Manufacturing's Cyber Crisis](https://www.darkreading.com/cyberattacks-data-breaches/foxconn-attack-manufacturing-cyber-crisis)
+  DarkReading - 2026-05-14T
+- [Dark Reading Celebrates 20 Years as a Leading Authority on Cybersecurity, Highlighting the People, Events, Ideas, and Technologies Shaping the Modern Risk Landscape](https://www.darkreading.com/cybersecurity-operations/dark-reading-celebrates-20-years-as-a-leading-authority-on-cybersecurity-highlighting-the-people-events-ideas-and-technologies-shaping-the-modern-risk-landscape)
+  DarkReading - 2026-05-13T
+

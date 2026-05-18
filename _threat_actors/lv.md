@@ -30,3 +30,9 @@ parser needs to be built
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files](https://unit42.paloaltonetworks.com/gremlin-stealer-evolution/)
+  Unit 42 - 2026-05-15T
+

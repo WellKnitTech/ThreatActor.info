@@ -30,3 +30,9 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Can Laws Stop Deepfakes? South Korea Aims to Find Out](https://www.darkreading.com/vulnerabilities-threats/can-laws-stop-deepfakes-south-korea)
+  DarkReading - 2026-05-18T
+

@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Attackers Weaponize RubyGems for Data Dead Drops](https://www.darkreading.com/application-security/attackers-weaponize-rubygems-data-dead-drops)
+  DarkReading - 2026-05-13T
+

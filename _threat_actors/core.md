@@ -30,3 +30,9 @@ Core ransomware surfaced in early 2025 as a new variant within the broader Makop
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [SecurityScorecard Snags Driftnet to Level Up Threat Intelligence](https://www.darkreading.com/cyber-risk/securityscorecard-snags-driftnet-to-level-up-threat-intelligence)
+  DarkReading - 2026-05-14T
+

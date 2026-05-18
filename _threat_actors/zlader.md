@@ -30,3 +30,9 @@ Ransomware VaultCrypt family
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Russian hackers turn Kazuar backdoor into modular P2P botnet](https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/)
+  BleepingComputer - 2026-05-16T
+

@@ -30,3 +30,9 @@ Ransomware has GUI
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Zero-day exploit completely defeats default Windows 11 BitLocker protections](https://arstechnica.com/security/2026/05/zero-day-exploit-completely-defeats-default-windows-11-bitlocker-protections/)
+  Ars Technica - 2026-05-14T
+

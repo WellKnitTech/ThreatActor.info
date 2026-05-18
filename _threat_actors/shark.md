@@ -30,3 +30,11 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [The First Atomic Bomb Test in 1945 Created an Entirely New Material](https://www.wired.com/story/the-first-atomic-bomb-test-in-1945-created-an-entirely-new-material/)
+  Wired - 2026-05-17T
+- [Surfshark Promo Codes: 87% Off | May 2026](https://www.wired.com/story/surfshark-coupon/)
+  Wired - 2026-05-16T
+

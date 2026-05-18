@@ -35,3 +35,11 @@ The Gentlemen is a ransomware group that employs a dual-extortion strategy, encr
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Tables Turn on 'The Gentlemen' RaaS Gang With Data Leak](https://www.darkreading.com/threat-intelligence/gentlemen-raas-gang-data-leak)
+  DarkReading - 2026-05-13T
+- [When the Ransomware Gang Gets Hacked: What the Gentlemen Leak Reveals About Modern Ransomware Risk](https://blog.checkpoint.com/research/when-the-ransomware-gang-gets-hacked-what-the-gentlemen-leak-reveals-about-modern-ransomware-risk/)
+  Check Point - 2026-05-13T
+

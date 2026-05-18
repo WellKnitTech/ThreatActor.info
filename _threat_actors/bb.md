@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Gaza Is Rebuilding With Lego-Like Bricks Made From Rubble](https://www.wired.com/story/gaza-is-rebuilding-with-lego-like-bricks-made-from-rubble/)
+  Wired - 2026-05-17T
+
