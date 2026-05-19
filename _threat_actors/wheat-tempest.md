@@ -33,8 +33,6 @@ Microsoft threat actor profile. Origin/Threat: Financially motivated.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The haves and have nots of the AI gold rush](https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/)
-  TechCrunch - 2026-05-16T
 - [Rapid7 Partner Academy: Driving Impact with Gold Stevie Award-Winning Partner Services Certifications](https://www.rapid7.com/blog/post/c-gold-stevie-award-winning-partner-services-certifications-academy)
   Rapid7 - 2026-05-13T
 

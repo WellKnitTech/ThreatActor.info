@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-18T06:12:25Z",
+  "updated": "2026-05-19T06:06:55Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,79 +19,83 @@
     "Rapid7"
   ],
   "actor_news": {
-    "R": [
-      {
-        "title": "The Boring Stuff is Dangerous Now",
-        "link": "https://www.darkreading.com/cyber-risk/ai-code-and-agents-forces-defenders-adapt",
-        "date": "2026-05-18T13:00:00+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Hackers earn $1,298,250 for 47 zero-days at Pwn2Own Berlin 2026",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/",
-        "date": "2026-05-18T01:33:20-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Can Laws Stop Deepfakes? South Korea Aims to Find Out",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/can-laws-stop-deepfakes-south-korea",
-        "date": "2026-05-18T01:00:00+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Apple’s Siri revamp could include auto-deleting chats",
-        "link": "https://techcrunch.com/2026/05/17/apples-siri-revamp-could-include-auto-deleting-chats/",
-        "date": "2026-05-17T20:15:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Why trust is a big question at the Elon Musk-OpenAI trial",
-        "link": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/",
-        "date": "2026-05-17T19:46:34+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "DN": [
-      {
-        "title": "Can Laws Stop Deepfakes? South Korea Aims to Find Out",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/can-laws-stop-deepfakes-south-korea",
-        "date": "2026-05-18T01:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
     "PL": [
       {
-        "title": "Apple’s Siri revamp could include auto-deleting chats",
-        "link": "https://techcrunch.com/2026/05/17/apples-siri-revamp-could-include-auto-deleting-chats/",
-        "date": "2026-05-17T20:15:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/",
-        "date": "2026-05-17T18:30:08-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
-        "link": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
-        "date": "2026-05-17T17:27:53+05:30",
+        "title": "GitHub Actions Supply Chain Attack Redirects Tags to Steal CI/CD Credentials",
+        "link": "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
+        "date": "2026-05-19T10:58:06+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Oto Smart Sprinkler Review (2026): Solar-Powered and Simple to Use",
-        "link": "https://www.wired.com/review/oto-smart-sprinkler/",
-        "date": "2026-05-17T11:02:00+00:00",
+        "title": "'Claw Chain' Vulnerabilities Threaten OpenClaw Deployments",
+        "link": "https://www.darkreading.com/application-security/claw-chain-vulnerabilities-threaten-openclaw",
+        "date": "2026-05-18T21:24:59+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More",
+        "link": "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
+        "date": "2026-05-18T19:20:17+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "SHub macOS infostealer variant spoofs Apple security updates",
+        "link": "https://www.bleepingcomputer.com/news/security/shub-macos-infostealer-variant-spoofs-apple-security-updates/",
+        "date": "2026-05-18T17:42:20-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Developer Workstations Are Now Part of the Software Supply Chain",
+        "link": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
+        "date": "2026-05-18T16:53:41+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "R": [
+      {
+        "title": "GitHub Actions Supply Chain Attack Redirects Tags to Steal CI/CD Credentials",
+        "link": "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
+        "date": "2026-05-19T10:58:06+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Mini Shai-Hulud Pushes Malicious AntV npm Packages via Compromised Maintainer Account",
+        "link": "https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html",
+        "date": "2026-05-19T10:24:17+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Theo Baker spent four years investigating Stanford. Before he leaves, here’s what he found.",
+        "link": "https://techcrunch.com/2026/05/18/theo-baker-spent-four-years-investigating-stanford-before-he-leaves-heres-what-he-found/",
+        "date": "2026-05-19T05:50:49+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "30% Off Tempur-Pedic Promo Codes | May 2026",
+        "link": "https://www.wired.com/story/tempur-pedic-promo-code/",
+        "date": "2026-05-19T05:00:00+00:00",
         "source": "Wired"
       },
       {
-        "title": "Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming",
-        "link": "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
-        "date": "2026-05-16T20:50:48+05:30",
-        "source": "The Hacker News"
+        "title": "Barkbox Promo Codes and Discounts: Up to 50% Off",
+        "link": "https://www.wired.com/story/barkbox-promo-code/",
+        "date": "2026-05-19T05:00:00+00:00",
+        "source": "Wired"
       }
     ],
     "Mini": [
+      {
+        "title": "Mini Shai-Hulud Pushes Malicious AntV npm Packages via Compromised Maintainer Account",
+        "link": "https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html",
+        "date": "2026-05-19T10:24:17+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
+        "link": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
+        "date": "2026-05-18T14:27:34+05:30",
+        "source": "The Hacker News"
+      },
       {
         "title": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released",
         "link": "https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/",
@@ -101,34 +105,164 @@
     ],
     "Ra": [
       {
-        "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
-        "link": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
-        "date": "2026-05-17T17:27:53+05:30",
+        "title": "INTERPOL Operation Ramz Disrupts MENA Cybercrime Networks with 201 Arrests",
+        "link": "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
+        "date": "2026-05-18T22:51:18+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "TechCrunch Mobility: The AI skills arms race is coming for automotive",
-        "link": "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/",
-        "date": "2026-05-17T16:05:00+00:00",
-        "source": "TechCrunch"
+        "title": "'Claw Chain' Vulnerabilities Threaten OpenClaw Deployments",
+        "link": "https://www.darkreading.com/application-security/claw-chain-vulnerabilities-threaten-openclaw",
+        "date": "2026-05-18T21:24:59+00:00",
+        "source": "DarkReading"
       },
       {
-        "title": "For Eclipse, the $2.5B Cerebras win is just the start of realizing its  physical-world thesis",
-        "link": "https://techcrunch.com/2026/05/17/for-eclipse-the-2-5b-cerebras-win-is-just-the-start-of-realizing-its-physical-world-thesis/",
-        "date": "2026-05-17T15:00:00+00:00",
-        "source": "TechCrunch"
+        "title": "INTERPOL ‘Operation Ramz’ seizes 53 malware, phishing servers",
+        "link": "https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/",
+        "date": "2026-05-18T18:15:30-04:00",
+        "source": "BleepingComputer"
       },
       {
-        "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt",
-        "link": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
-        "date": "2026-05-17T12:43:33+05:30",
+        "title": "Fuel Tank Breaches Expand Scope of Iran's Cyber Offensive",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/fuel-tank-breaches-expand-scope-irans-cyber-offensive",
+        "date": "2026-05-18T15:41:55+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "Kin Health raises $9M to build an AI notetaker for patients",
+        "link": "https://techcrunch.com/2026/05/18/kin-health-raises-9m-to-build-an-ai-notetaker-for-patients/",
+        "date": "2026-05-18T15:26:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "One": [
+      {
+        "title": "Shai-Hulud Worm Clones Spread After Code Release",
+        "link": "https://www.darkreading.com/application-security/shai-hulud-worm-clones-spread-code-release",
+        "date": "2026-05-18T19:53:05+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "Cyber Pioneers Ponder Past as Prologue",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/cybersecurity-pioneers-ponder-past-prologue",
+        "date": "2026-05-15T12:00:00+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "DN": [
+      {
+        "title": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More",
+        "link": "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
+        "date": "2026-05-18T19:20:17+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Marketing operating system Nectar Social raises $30M Series A led by Menlo",
-        "link": "https://techcrunch.com/2026/05/16/marketing-operating-system-nectar-social-raises-30m-series-a-in-round-led-by-menlo/",
-        "date": "2026-05-16T19:26:14+00:00",
-        "source": "TechCrunch"
+        "title": "Can Laws Stop Deepfakes? South Korea Aims to Find Out",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/can-laws-stop-deepfakes-south-korea",
+        "date": "2026-05-18T01:00:00+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "RNS": [
+      {
+        "title": "How to Reduce Phishing Exposure Before It Turns into Business Disruption",
+        "link": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
+        "date": "2026-05-18T18:30:00+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
+        "link": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
+        "date": "2026-05-15T22:40:25+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Ank": [
+      {
+        "title": "Fuel Tank Breaches Expand Scope of Iran's Cyber Offensive",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/fuel-tank-breaches-expand-scope-irans-cyber-offensive",
+        "date": "2026-05-18T15:41:55+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "NMoreira": [
+      {
+        "title": "Fuel Tank Breaches Expand Scope of Iran's Cyber Offensive",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/fuel-tank-breaches-expand-scope-irans-cyber-offensive",
+        "date": "2026-05-18T15:41:55+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Shadow": [
+      {
+        "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
+        "link": "https://www.bleepingcomputer.com/news/security/5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees/",
+        "date": "2026-05-18T14:45:35-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Play": [
+      {
+        "title": "Leica Cine Play 1 Review: Pricey but Worth Every Penny",
+        "link": "https://www.wired.com/review/review-leica-cine-play-1/",
+        "date": "2026-05-18T14:33:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Sandworm Team": [
+      {
+        "title": "Four Malicious npm Packages Deliver Infostealers and Phantom Bot DDoS Malware",
+        "link": "https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html",
+        "date": "2026-05-18T14:27:26+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Mars": [
+      {
+        "title": "The Catastrophic Swatch x Audemars Piguet Launch Was Entirely Predictable and Utterly Avoidable",
+        "link": "https://www.wired.com/story/the-catastrophic-swatch-x-audemars-piguet-launch-was-entirely-predictable-and-utterly-avoidable/",
+        "date": "2026-05-18T13:38:01+00:00",
+        "source": "Wired"
+      }
+    ],
+    "APT37": [
+      {
+        "title": "SHub Reaper | macOS Stealer Spoofs Apple, Google, and Microsoft in a Single Attack Chain",
+        "link": "https://www.sentinelone.com/blog/shub-reaper-macos-stealer-spoofs-apple-google-and-microsoft-in-a-single-attack-chain/",
+        "date": "2026-05-18T13:00:42+00:00",
+        "source": "SentinelOne"
+      }
+    ],
+    "Ukrainian Cyber Alliance": [
+      {
+        "title": "Breaking the Black Box: A Case Study in Red-Teaming a Government Education AI",
+        "link": "https://www.sentinelone.com/blog/red-teaming-a-government-edubot/",
+        "date": "2026-05-18T12:00:37+00:00",
+        "source": "SentinelOne"
+      }
+    ],
+    "CryLocker": [
+      {
+        "title": "Exploit available for new DirtyDecrypt Linux root escalation flaw",
+        "link": "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
+        "date": "2026-05-18T03:18:33-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "DirtyDecrypt": [
+      {
+        "title": "Exploit available for new DirtyDecrypt Linux root escalation flaw",
+        "link": "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
+        "date": "2026-05-18T03:18:33-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Root": [
+      {
+        "title": "Exploit available for new DirtyDecrypt Linux root escalation flaw",
+        "link": "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
+        "date": "2026-05-18T03:18:33-04:00",
+        "source": "BleepingComputer"
       }
     ],
     "Tycoon": [
@@ -137,142 +271,6 @@
         "link": "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
         "date": "2026-05-17T10:43:10-04:00",
         "source": "BleepingComputer"
-      }
-    ],
-    "Owl": [
-      {
-        "title": "If You’re a Serious Bowler, You Need to Know About Bowling Lane Oil",
-        "link": "https://www.wired.com/story/bowling-lane-oil/",
-        "date": "2026-05-17T10:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "First": [
-      {
-        "title": "The First Atomic Bomb Test in 1945 Created an Entirely New Material",
-        "link": "https://www.wired.com/story/the-first-atomic-bomb-test-in-1945-created-an-entirely-new-material/",
-        "date": "2026-05-17T09:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Before the First Whistle: How Cyber Criminals Are Targeting World Cup 2026",
-        "link": "https://blog.checkpoint.com/research/before-the-first-whistle-how-cyber-criminals-are-targeting-world-cup-2026/",
-        "date": "2026-05-14T12:55:03+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "Shark": [
-      {
-        "title": "The First Atomic Bomb Test in 1945 Created an Entirely New Material",
-        "link": "https://www.wired.com/story/the-first-atomic-bomb-test-in-1945-created-an-entirely-new-material/",
-        "date": "2026-05-17T09:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Surfshark Promo Codes: 87% Off | May 2026",
-        "link": "https://www.wired.com/story/surfshark-coupon/",
-        "date": "2026-05-16T05:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "BB": [
-      {
-        "title": "Gaza Is Rebuilding With Lego-Like Bricks Made From Rubble",
-        "link": "https://www.wired.com/story/gaza-is-rebuilding-with-lego-like-bricks-made-from-rubble/",
-        "date": "2026-05-17T09:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Brick": [
-      {
-        "title": "Gaza Is Rebuilding With Lego-Like Bricks Made From Rubble",
-        "link": "https://www.wired.com/story/gaza-is-rebuilding-with-lego-like-bricks-made-from-rubble/",
-        "date": "2026-05-17T09:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Rush": [
-      {
-        "title": "The haves and have nots of the AI gold rush",
-        "link": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
-        "date": "2026-05-16T20:17:16+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Wheat Tempest": [
-      {
-        "title": "The haves and have nots of the AI gold rush",
-        "link": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
-        "date": "2026-05-16T20:17:16+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Rapid7 Partner Academy: Driving Impact with Gold Stevie Award-Winning Partner Services Certifications",
-        "link": "https://www.rapid7.com/blog/post/c-gold-stevie-award-winning-partner-services-certifications-academy",
-        "date": "2026-05-13T13:54:10+00:00",
-        "source": "Rapid7"
-      }
-    ],
-    "Deadeye Jackal": [
-      {
-        "title": "Research repository ArXiv will ban authors for a year if they let AI do all the work",
-        "link": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
-        "date": "2026-05-16T18:54:28+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "1 year and 1 million messages later: Lessons learned building AI agents on the Elasticsearch Platform",
-        "link": "https://www.elastic.co/blog/building-ai-agents-elasticsearch-platform",
-        "date": "2026-05-14T00:00:00+00:00",
-        "source": "Elastic"
-      },
-      {
-        "title": "The Elasticsearch Agent Builder Hackathon",
-        "link": "https://www.elastic.co/blog/the-elasticsearch-agent-builder-hackathon",
-        "date": "2026-05-13T00:00:00+00:00",
-        "source": "Elastic"
-      }
-    ],
-    "Thor": [
-      {
-        "title": "Research repository ArXiv will ban authors for a year if they let AI do all the work",
-        "link": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
-        "date": "2026-05-16T18:54:28+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Dark Reading Celebrates 20 Years as a Leading Authority on Cybersecurity, Highlighting the People, Events, Ideas, and Technologies Shaping the Modern Risk Landscape",
-        "link": "https://www.darkreading.com/cybersecurity-operations/dark-reading-celebrates-20-years-as-a-leading-authority-on-cybersecurity-highlighting-the-people-events-ideas-and-technologies-shaping-the-modern-risk-landscape",
-        "date": "2026-05-13T18:52:50+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "AnDROid": [
-      {
-        "title": "How to Control Everything on Your Phone With Your Voice (iOS and Android)",
-        "link": "https://www.wired.com/story/control-everything-on-your-phone-with-your-voice-ios-android/",
-        "date": "2026-05-16T11:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "One": [
-      {
-        "title": "How to Control Everything on Your Phone With Your Voice (iOS and Android)",
-        "link": "https://www.wired.com/story/control-everything-on-your-phone-with-your-voice-ios-android/",
-        "date": "2026-05-16T11:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "A hotel check-in system left a million passports and driver’s licenses open for anyone to see",
-        "link": "https://techcrunch.com/2026/05/15/a-hotel-check-in-system-left-a-million-passports-and-drivers-licenses-open-for-anyone-to-see/",
-        "date": "2026-05-15T18:51:33+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Cyber Pioneers Ponder Past as Prologue",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/cybersecurity-pioneers-ponder-past-prologue",
-        "date": "2026-05-15T12:00:00+00:00",
-        "source": "DarkReading"
       }
     ],
     "Kazu": [
@@ -297,48 +295,12 @@
         "source": "BleepingComputer"
       }
     ],
-    "Sport": [
-      {
-        "title": "Sportsman's Warehouse Promo Code: Save in May 2026",
-        "link": "https://www.wired.com/story/sportsmans-warehouse-promo-code/",
-        "date": "2026-05-16T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "A hotel check-in system left a million passports and driver’s licenses open for anyone to see",
-        "link": "https://techcrunch.com/2026/05/15/a-hotel-check-in-system-left-a-million-passports-and-drivers-licenses-open-for-anyone-to-see/",
-        "date": "2026-05-15T18:51:33+00:00",
-        "source": "TechCrunch"
-      }
-    ],
     "Turla": [
       {
         "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
         "link": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
         "date": "2026-05-15T22:40:25+05:30",
         "source": "The Hacker News"
-      }
-    ],
-    "RNS": [
-      {
-        "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
-        "link": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
-        "date": "2026-05-15T22:40:25+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Microsoft warns of Exchange zero-day flaw exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
-        "date": "2026-05-15T05:40:42-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "APT3": [
-      {
-        "title": "RJ Scaringe has raised more than $12B across three startups and investors still want more",
-        "link": "https://techcrunch.com/2026/05/15/rj-scaringe-has-raised-more-than-12-billion-across-three-startups-and-investors-still-want-more/",
-        "date": "2026-05-15T20:30:20+00:00",
-        "source": "TechCrunch"
       }
     ],
     "Metasploit": [
@@ -371,28 +333,6 @@
         "source": "DarkReading"
       }
     ],
-    "Evolution": [
-      {
-        "title": "Inside the REMUS Infostealer: Session Theft, MaaS, and Rapid Evolution",
-        "link": "https://www.bleepingcomputer.com/news/security/inside-the-remus-infostealer-session-theft-maas-and-rapid-evolution/",
-        "date": "2026-05-15T10:02:12-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Rapid": [
-      {
-        "title": "Inside the REMUS Infostealer: Session Theft, MaaS, and Rapid Evolution",
-        "link": "https://www.bleepingcomputer.com/news/security/inside-the-remus-infostealer-session-theft-maas-and-rapid-evolution/",
-        "date": "2026-05-15T10:02:12-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Rapid7 Partner Academy: Driving Impact with Gold Stevie Award-Winning Partner Services Certifications",
-        "link": "https://www.rapid7.com/blog/post/c-gold-stevie-award-winning-partner-services-certifications-academy",
-        "date": "2026-05-13T13:54:10+00:00",
-        "source": "Rapid7"
-      }
-    ],
     "Lv": [
       {
         "title": "Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files",
@@ -413,12 +353,6 @@
         "link": "https://www.darkreading.com/cyberattacks-data-breaches/foxconn-attack-manufacturing-cyber-crisis",
         "date": "2026-05-14T12:00:00+00:00",
         "source": "DarkReading"
-      },
-      {
-        "title": "Dark Reading Celebrates 20 Years as a Leading Authority on Cybersecurity, Highlighting the People, Events, Ideas, and Technologies Shaping the Modern Risk Landscape",
-        "link": "https://www.darkreading.com/cybersecurity-operations/dark-reading-celebrates-20-years-as-a-leading-authority-on-cybersecurity-highlighting-the-people-events-ideas-and-technologies-shaping-the-modern-risk-landscape",
-        "date": "2026-05-13T18:52:50+00:00",
-        "source": "DarkReading"
       }
     ],
     "core": [
@@ -427,54 +361,6 @@
         "link": "https://www.darkreading.com/cyber-risk/securityscorecard-snags-driftnet-to-level-up-threat-intelligence",
         "date": "2026-05-14T20:57:27+00:00",
         "source": "DarkReading"
-      }
-    ],
-    "Cobalt": [
-      {
-        "title": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike",
-        "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
-        "date": "2026-05-14T19:30:37+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "BRONZE BUTLER": [
-      {
-        "title": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike",
-        "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
-        "date": "2026-05-14T19:30:37+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "ghost": [
-      {
-        "title": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike",
-        "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
-        "date": "2026-05-14T19:30:37+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Ghostwriter": [
-      {
-        "title": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike",
-        "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
-        "date": "2026-05-14T19:30:37+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Tick": [
-      {
-        "title": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike",
-        "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
-        "date": "2026-05-14T19:30:37+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "TeamPCP": [
-      {
-        "title": "TeamPCP hackers advertise Mistral AI code repos for sale",
-        "link": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
-        "date": "2026-05-14T18:50:36-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "Locker": [
@@ -517,6 +403,14 @@
         "source": "Cloudflare"
       }
     ],
+    "First": [
+      {
+        "title": "Before the First Whistle: How Cyber Criminals Are Targeting World Cup 2026",
+        "link": "https://blog.checkpoint.com/research/before-the-first-whistle-how-cyber-criminals-are-targeting-world-cup-2026/",
+        "date": "2026-05-14T12:55:03+00:00",
+        "source": "Check Point"
+      }
+    ],
     "Cmd Organization": [
       {
         "title": "CMD Organization – New Ransomware Operator Moves to Place Public Bidding Wars on Ransomed Data",
@@ -541,50 +435,36 @@
         "source": "Beazley Security Labs Articles"
       }
     ],
-    "ONI": [
+    "Deadeye Jackal": [
       {
-        "title": "Attackers Weaponize RubyGems for Data Dead Drops",
-        "link": "https://www.darkreading.com/application-security/attackers-weaponize-rubygems-data-dead-drops",
-        "date": "2026-05-13T21:09:20+00:00",
-        "source": "DarkReading"
+        "title": "1 year and 1 million messages later: Lessons learned building AI agents on the Elasticsearch Platform",
+        "link": "https://www.elastic.co/blog/building-ai-agents-elasticsearch-platform",
+        "date": "2026-05-14T00:00:00+00:00",
+        "source": "Elastic"
       }
     ],
-    "Ruby": [
+    "Rapid": [
       {
-        "title": "Attackers Weaponize RubyGems for Data Dead Drops",
-        "link": "https://www.darkreading.com/application-security/attackers-weaponize-rubygems-data-dead-drops",
-        "date": "2026-05-13T21:09:20+00:00",
-        "source": "DarkReading"
+        "title": "Rapid7 Partner Academy: Driving Impact with Gold Stevie Award-Winning Partner Services Certifications",
+        "link": "https://www.rapid7.com/blog/post/c-gold-stevie-award-winning-partner-services-certifications-academy",
+        "date": "2026-05-13T13:54:10+00:00",
+        "source": "Rapid7"
       }
     ],
-    "RAA encryptor": [
+    "Wheat Tempest": [
       {
-        "title": "Tables Turn on 'The Gentlemen' RaaS Gang With Data Leak",
-        "link": "https://www.darkreading.com/threat-intelligence/gentlemen-raas-gang-data-leak",
-        "date": "2026-05-13T20:47:46+00:00",
-        "source": "DarkReading"
+        "title": "Rapid7 Partner Academy: Driving Impact with Gold Stevie Award-Winning Partner Services Certifications",
+        "link": "https://www.rapid7.com/blog/post/c-gold-stevie-award-winning-partner-services-certifications-academy",
+        "date": "2026-05-13T13:54:10+00:00",
+        "source": "Rapid7"
       }
     ],
     "The Gentlemen": [
-      {
-        "title": "Tables Turn on 'The Gentlemen' RaaS Gang With Data Leak",
-        "link": "https://www.darkreading.com/threat-intelligence/gentlemen-raas-gang-data-leak",
-        "date": "2026-05-13T20:47:46+00:00",
-        "source": "DarkReading"
-      },
       {
         "title": "When the Ransomware Gang Gets Hacked: What the Gentlemen Leak Reveals About Modern Ransomware Risk",
         "link": "https://blog.checkpoint.com/research/when-the-ransomware-gang-gets-hacked-what-the-gentlemen-leak-reveals-about-modern-ransomware-risk/",
         "date": "2026-05-13T12:55:22+00:00",
         "source": "Check Point"
-      }
-    ],
-    "APT41": [
-      {
-        "title": "Dark Reading Celebrates 20 Years as a Leading Authority on Cybersecurity, Highlighting the People, Events, Ideas, and Technologies Shaping the Modern Risk Landscape",
-        "link": "https://www.darkreading.com/cybersecurity-operations/dark-reading-celebrates-20-years-as-a-leading-authority-on-cybersecurity-highlighting-the-people-events-ideas-and-technologies-shaping-the-modern-risk-landscape",
-        "date": "2026-05-13T18:52:50+00:00",
-        "source": "DarkReading"
       }
     ]
   }

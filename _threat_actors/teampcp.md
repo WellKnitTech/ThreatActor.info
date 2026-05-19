@@ -31,9 +31,3 @@ TeamPCP is a threat actor that has executed a coordinated series of supply chain
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [TeamPCP hackers advertise Mistral AI code repos for sale](https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/)
-  BleepingComputer - 2026-05-14T
-

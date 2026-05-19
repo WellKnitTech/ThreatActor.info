@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [How to Control Everything on Your Phone With Your Voice (iOS and Android)](https://www.wired.com/story/control-everything-on-your-phone-with-your-voice-ios-android/)
-  Wired - 2026-05-16T
-

@@ -33,8 +33,6 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The First Atomic Bomb Test in 1945 Created an Entirely New Material](https://www.wired.com/story/the-first-atomic-bomb-test-in-1945-created-an-entirely-new-material/)
-  Wired - 2026-05-17T
 - [Before the First Whistle: How Cyber Criminals Are Targeting World Cup 2026](https://blog.checkpoint.com/research/before-the-first-whistle-how-cyber-criminals-are-targeting-world-cup-2026/)
   Check Point - 2026-05-14T
 

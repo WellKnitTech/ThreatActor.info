@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [If You’re a Serious Bowler, You Need to Know About Bowling Lane Oil](https://www.wired.com/story/bowling-lane-oil/)
-  Wired - 2026-05-17T
-
