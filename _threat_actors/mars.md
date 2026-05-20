@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [The Catastrophic Swatch x Audemars Piguet Launch Was Entirely Predictable and Utterly Avoidable](https://www.wired.com/story/the-catastrophic-swatch-x-audemars-piguet-launch-was-entirely-predictable-and-utterly-avoidable/)
-  Wired - 2026-05-18T
-

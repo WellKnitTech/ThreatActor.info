@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [GitHub Actions Supply Chain Attack Redirects Tags to Steal CI/CD Credentials](https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html)
-  The Hacker News - 2026-05-19T
-- [Mini Shai-Hulud Pushes Malicious AntV npm Packages via Compromised Maintainer Account](https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html)
-  The Hacker News - 2026-05-19T
-- [Theo Baker spent four years investigating Stanford. Before he leaves, here’s what he found.](https://techcrunch.com/2026/05/18/theo-baker-spent-four-years-investigating-stanford-before-he-leaves-heres-what-he-found/)
-  TechCrunch - 2026-05-19T
-- [30% Off Tempur-Pedic Promo Codes | May 2026](https://www.wired.com/story/tempur-pedic-promo-code/)
-  Wired - 2026-05-19T
-- [Barkbox Promo Codes and Discounts: Up to 50% Off](https://www.wired.com/story/barkbox-promo-code/)
-  Wired - 2026-05-19T
+- [Grafana GitHub Breach Exposes Source Code via TanStack npm Attack](https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html)
+  The Hacker News - 2026-05-20T
+- [GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories](https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html)
+  The Hacker News - 2026-05-20T
+- [‘Ask YouTube’ brings AI-powered conversational search to video, adds Gemini Omni to Shorts](https://techcrunch.com/2026/05/19/ask-youtube-brings-ai-powered-conversational-search-to-video-adds-gemini-omni-to-shorts/)
+  TechCrunch - 2026-05-20T
+- [30% VistaPrint Coupon & Promo Codes | May 2026](https://www.wired.com/story/vistaprint-coupon-code/)
+  Wired - 2026-05-20T
+- [Stearns and Foster Promo Codes: $300 Off in May](https://www.wired.com/story/stearns-and-foster-promo-code/)
+  Wired - 2026-05-20T
 

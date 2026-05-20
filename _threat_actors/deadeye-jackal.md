@@ -44,6 +44,14 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [1 year and 1 million messages later: Lessons learned building AI agents on the Elasticsearch Platform](https://www.elastic.co/blog/building-ai-agents-elasticsearch-platform)
-  Elastic - 2026-05-14T
+- [‘Ask YouTube’ brings AI-powered conversational search to video, adds Gemini Omni to Shorts](https://techcrunch.com/2026/05/19/ask-youtube-brings-ai-powered-conversational-search-to-video-adds-gemini-omni-to-shorts/)
+  TechCrunch - 2026-05-20T
+- [California’s Wildfire Season Is Already Overactive](https://www.wired.com/story/californias-wildfire-season-already-overactive/)
+  Wired - 2026-05-19T
+- [How to use Google’s new AI agents to go beyond your standard searches](https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/)
+  TechCrunch - 2026-05-19T
+- [From teen hacker to Iron Dome researcher, this founder raised $28M to fight AI phishing](https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/)
+  TechCrunch - 2026-05-19T
+- [Everything Announced at Google I/O 2026: Gemini, Search, Smart Glasses](https://www.wired.com/story/everything-google-announced-at-google-io-2026/)
+  Wired - 2026-05-19T
 

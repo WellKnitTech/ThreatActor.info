@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Rapid7 Partner Academy: Driving Impact with Gold Stevie Award-Winning Partner Services Certifications](https://www.rapid7.com/blog/post/c-gold-stevie-award-winning-partner-services-certifications-academy)
-  Rapid7 - 2026-05-13T
+- [Rapid7’s 2026 Global Cybersecurity Summit: Key Takeaways for Security Leaders](https://www.rapid7.com/blog/post/it-2026-global-cybersecurity-summit-key-takeaways-security-leaders)
+  Rapid7 - 2026-05-19T
 

@@ -30,9 +30,3 @@ Ransomed.VC burst onto the scene with a well-orchestrated PR campaign, encompass
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [CMD Organization – New Ransomware Operator Moves to Place Public Bidding Wars on Ransomed Data](https://labs.beazley.security/articles/cmd-organization-new-ransomware-operator-moves-to-place-public-bidding-wars-on-ransomed-data)
-  Beazley Security Labs Articles - 2026-05-14T
-

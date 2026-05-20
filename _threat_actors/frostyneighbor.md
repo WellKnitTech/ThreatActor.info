@@ -37,9 +37,3 @@ FrostyNeighbor is a Belarus-aligned APT group known for conducting influence and
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- ['FrostyNeighbor' APT Carefully Targets Govt Orgs in Poland, Ukraine](https://www.darkreading.com/cyberattacks-data-breaches/frostyneighbor-apt-govt-orgs-poland-ukraine)
-  DarkReading - 2026-05-14T
-

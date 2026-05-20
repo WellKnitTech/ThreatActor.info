@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Looking Back, Looking Forward: Digesting a Dynamic Bouillabaisse of Cyber Evolution](https://www.darkreading.com/cybersecurity-operations/looking-back-looking-forward-bouillabaisse-cyber-evolution)
+  DarkReading - 2026-05-19T
+

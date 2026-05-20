@@ -139,6 +139,6 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Leica Cine Play 1 Review: Pricey but Worth Every Penny](https://www.wired.com/review/review-leica-cine-play-1/)
-  Wired - 2026-05-18T
+- [In stunning display of stupid, secret CISA credentials found in public GitHub repo](https://arstechnica.com/information-technology/2026/05/in-stunning-display-of-stupid-secret-cisa-credentials-found-in-public-github-repo/)
+  Ars Technica - 2026-05-19T
 

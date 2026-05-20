@@ -30,9 +30,3 @@ Microsoft threat actor profile. Origin/Threat: Financially motivated.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Rapid7 Partner Academy: Driving Impact with Gold Stevie Award-Winning Partner Services Certifications](https://www.rapid7.com/blog/post/c-gold-stevie-award-winning-partner-services-certifications-academy)
-  Rapid7 - 2026-05-13T
-

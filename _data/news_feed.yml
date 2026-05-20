@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19T06:06:55Z",
+  "updated": "2026-05-20T06:06:27Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,137 +19,383 @@
     "Rapid7"
   ],
   "actor_news": {
-    "PL": [
-      {
-        "title": "GitHub Actions Supply Chain Attack Redirects Tags to Steal CI/CD Credentials",
-        "link": "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
-        "date": "2026-05-19T10:58:06+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "'Claw Chain' Vulnerabilities Threaten OpenClaw Deployments",
-        "link": "https://www.darkreading.com/application-security/claw-chain-vulnerabilities-threaten-openclaw",
-        "date": "2026-05-18T21:24:59+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More",
-        "link": "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
-        "date": "2026-05-18T19:20:17+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "SHub macOS infostealer variant spoofs Apple security updates",
-        "link": "https://www.bleepingcomputer.com/news/security/shub-macos-infostealer-variant-spoofs-apple-security-updates/",
-        "date": "2026-05-18T17:42:20-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Developer Workstations Are Now Part of the Software Supply Chain",
-        "link": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
-        "date": "2026-05-18T16:53:41+05:30",
-        "source": "The Hacker News"
-      }
-    ],
     "R": [
       {
-        "title": "GitHub Actions Supply Chain Attack Redirects Tags to Steal CI/CD Credentials",
-        "link": "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
-        "date": "2026-05-19T10:58:06+05:30",
+        "title": "Grafana GitHub Breach Exposes Source Code via TanStack npm Attack",
+        "link": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
+        "date": "2026-05-20T10:42:06+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Mini Shai-Hulud Pushes Malicious AntV npm Packages via Compromised Maintainer Account",
-        "link": "https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html",
-        "date": "2026-05-19T10:24:17+05:30",
+        "title": "GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories",
+        "link": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
+        "date": "2026-05-20T09:31:15+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Theo Baker spent four years investigating Stanford. Before he leaves, here’s what he found.",
-        "link": "https://techcrunch.com/2026/05/18/theo-baker-spent-four-years-investigating-stanford-before-he-leaves-heres-what-he-found/",
-        "date": "2026-05-19T05:50:49+00:00",
+        "title": "‘Ask YouTube’ brings AI-powered conversational search to video, adds Gemini Omni to Shorts",
+        "link": "https://techcrunch.com/2026/05/19/ask-youtube-brings-ai-powered-conversational-search-to-video-adds-gemini-omni-to-shorts/",
+        "date": "2026-05-20T05:45:00+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "30% Off Tempur-Pedic Promo Codes | May 2026",
-        "link": "https://www.wired.com/story/tempur-pedic-promo-code/",
-        "date": "2026-05-19T05:00:00+00:00",
+        "title": "30% VistaPrint Coupon & Promo Codes | May 2026",
+        "link": "https://www.wired.com/story/vistaprint-coupon-code/",
+        "date": "2026-05-20T05:00:00+00:00",
         "source": "Wired"
       },
       {
-        "title": "Barkbox Promo Codes and Discounts: Up to 50% Off",
-        "link": "https://www.wired.com/story/barkbox-promo-code/",
-        "date": "2026-05-19T05:00:00+00:00",
+        "title": "Stearns and Foster Promo Codes: $300 Off in May",
+        "link": "https://www.wired.com/story/stearns-and-foster-promo-code/",
+        "date": "2026-05-20T05:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Ra": [
+      {
+        "title": "Grafana GitHub Breach Exposes Source Code via TanStack npm Attack",
+        "link": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
+        "date": "2026-05-20T10:42:06+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Sony Coupons: 45% Off Sony Headphones, WF-1000XM6 Earbuds, and Sony Cameras for May",
+        "link": "https://www.wired.com/story/sony-promo-code/",
+        "date": "2026-05-20T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Literary Prizewinners Are Facing AI Allegations. It Feels Like the New Normal",
+        "link": "https://www.wired.com/story/commonwealth-short-story-prize-ai-allegations/",
+        "date": "2026-05-19T22:53:04+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "California’s Wildfire Season Is Already Overactive",
+        "link": "https://www.wired.com/story/californias-wildfire-season-already-overactive/",
+        "date": "2026-05-19T22:20:37+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps",
+        "link": "https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html",
+        "date": "2026-05-19T22:08:12+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "TeamPCP": [
+      {
+        "title": "GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories",
+        "link": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
+        "date": "2026-05-20T09:31:15+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "GitHub investigates internal repositories breach claimed by TeamPCP",
+        "link": "https://www.bleepingcomputer.com/news/security/github-investigates-internal-repositories-breach-claimed-by-teampcp/",
+        "date": "2026-05-20T01:08:42-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Deadeye Jackal": [
+      {
+        "title": "‘Ask YouTube’ brings AI-powered conversational search to video, adds Gemini Omni to Shorts",
+        "link": "https://techcrunch.com/2026/05/19/ask-youtube-brings-ai-powered-conversational-search-to-video-adds-gemini-omni-to-shorts/",
+        "date": "2026-05-20T05:45:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "California’s Wildfire Season Is Already Overactive",
+        "link": "https://www.wired.com/story/californias-wildfire-season-already-overactive/",
+        "date": "2026-05-19T22:20:37+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "How to use Google’s new AI agents to go beyond your standard searches",
+        "link": "https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/",
+        "date": "2026-05-19T21:16:25+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "From teen hacker to Iron Dome researcher, this founder raised $28M to fight AI phishing",
+        "link": "https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/",
+        "date": "2026-05-19T21:08:51+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Everything Announced at Google I/O 2026: Gemini, Search, Smart Glasses",
+        "link": "https://www.wired.com/story/everything-google-announced-at-google-io-2026/",
+        "date": "2026-05-19T20:00:48+00:00",
         "source": "Wired"
       }
     ],
     "Mini": [
       {
+        "title": "‘Ask YouTube’ brings AI-powered conversational search to video, adds Gemini Omni to Shorts",
+        "link": "https://techcrunch.com/2026/05/19/ask-youtube-brings-ai-powered-conversational-search-to-video-adds-gemini-omni-to-shorts/",
+        "date": "2026-05-20T05:45:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Everything Announced at Google I/O 2026: Gemini, Search, Smart Glasses",
+        "link": "https://www.wired.com/story/everything-google-announced-at-google-io-2026/",
+        "date": "2026-05-19T20:00:48+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "With Gemini 3.5 Flash, Google bets its next AI wave on agents, not chatbots",
+        "link": "https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/",
+        "date": "2026-05-19T17:51:30+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Google updates its Gemini app to take on ChatGPT and Claude at IO 2026",
+        "link": "https://techcrunch.com/2026/05/19/google-updates-its-gemini-app-to-take-on-chatgpt-and-claude-at-io-2026/",
+        "date": "2026-05-19T17:45:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
         "title": "Mini Shai-Hulud Pushes Malicious AntV npm Packages via Compromised Maintainer Account",
         "link": "https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html",
         "date": "2026-05-19T10:24:17+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
-        "link": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
-        "date": "2026-05-18T14:27:34+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/",
-        "date": "2026-05-17T18:30:08-04:00",
-        "source": "BleepingComputer"
       }
     ],
-    "Ra": [
+    "RNS": [
       {
-        "title": "INTERPOL Operation Ramz Disrupts MENA Cybercrime Networks with 201 Arrests",
-        "link": "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
-        "date": "2026-05-18T22:51:18+05:30",
+        "title": "Stearns and Foster Promo Codes: $300 Off in May",
+        "link": "https://www.wired.com/story/stearns-and-foster-promo-code/",
+        "date": "2026-05-20T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "How to Reduce Phishing Exposure Before It Turns into Business Disruption",
+        "link": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
+        "date": "2026-05-18T18:30:00+05:30",
         "source": "The Hacker News"
-      },
+      }
+    ],
+    "Bud": [
       {
-        "title": "'Claw Chain' Vulnerabilities Threaten OpenClaw Deployments",
-        "link": "https://www.darkreading.com/application-security/claw-chain-vulnerabilities-threaten-openclaw",
-        "date": "2026-05-18T21:24:59+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "INTERPOL ‘Operation Ramz’ seizes 53 malware, phishing servers",
-        "link": "https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/",
-        "date": "2026-05-18T18:15:30-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Fuel Tank Breaches Expand Scope of Iran's Cyber Offensive",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/fuel-tank-breaches-expand-scope-irans-cyber-offensive",
-        "date": "2026-05-18T15:41:55+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Kin Health raises $9M to build an AI notetaker for patients",
-        "link": "https://techcrunch.com/2026/05/18/kin-health-raises-9m-to-build-an-ai-notetaker-for-patients/",
-        "date": "2026-05-18T15:26:00+00:00",
-        "source": "TechCrunch"
+        "title": "Sony Coupons: 45% Off Sony Headphones, WF-1000XM6 Earbuds, and Sony Cameras for May",
+        "link": "https://www.wired.com/story/sony-promo-code/",
+        "date": "2026-05-20T05:00:00+00:00",
+        "source": "Wired"
       }
     ],
     "One": [
+      {
+        "title": "Sony Coupons: 45% Off Sony Headphones, WF-1000XM6 Earbuds, and Sony Cameras for May",
+        "link": "https://www.wired.com/story/sony-promo-code/",
+        "date": "2026-05-20T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Google’s AI Studio now lets anyone build Android apps in minutes",
+        "link": "https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/",
+        "date": "2026-05-19T17:45:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "The Network Security Problem No One Could Solve – Until Now.",
+        "link": "https://blog.checkpoint.com/security/the-network-security-problem-no-one-could-solve-until-now/",
+        "date": "2026-05-19T13:00:16+00:00",
+        "source": "Check Point"
+      },
       {
         "title": "Shai-Hulud Worm Clones Spread After Code Release",
         "link": "https://www.darkreading.com/application-security/shai-hulud-worm-clones-spread-code-release",
         "date": "2026-05-18T19:53:05+00:00",
         "source": "DarkReading"
+      }
+    ],
+    "AnDROid": [
+      {
+        "title": "Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps",
+        "link": "https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html",
+        "date": "2026-05-19T22:08:12+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "Cyber Pioneers Ponder Past as Prologue",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/cybersecurity-pioneers-ponder-past-prologue",
-        "date": "2026-05-15T12:00:00+00:00",
+        "title": "Hands-On With All of Google’s New Upcoming Android XR Smart Glasses",
+        "link": "https://www.wired.com/story/hands-on-with-all-of-google-new-upcoming-android-xr-smart-glasses/",
+        "date": "2026-05-19T17:45:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Agentic app coding gets an upgrade with Google’s release of Android CLI",
+        "link": "https://techcrunch.com/2026/05/19/agentic-app-coding-gets-an-upgrade-with-googles-release-of-android-cli/",
+        "date": "2026-05-19T17:45:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Google’s AI Studio now lets anyone build Android apps in minutes",
+        "link": "https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/",
+        "date": "2026-05-19T17:45:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "CryLocker": [
+      {
+        "title": "Discord enables end-to-end encrypted voice and video calling for every user",
+        "link": "https://techcrunch.com/2026/05/19/discord-enables-end-to-end-encrypted-voice-and-video-calling-for-every-user/",
+        "date": "2026-05-19T21:14:08+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
+        "link": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
+        "date": "2026-05-19T20:26:26+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Discord rolls out end-to-end encryption on voice, video calls",
+        "link": "https://www.bleepingcomputer.com/news/security/discord-rolls-out-end-to-end-encryption-on-voice-video-calls/",
+        "date": "2026-05-19T16:37:45-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "FBI: Americans lost over $388 million to scams using crypto ATMs in 2025",
+        "link": "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-over-388-million-to-scams-using-crypto-atms-in-2025/",
+        "date": "2026-05-19T15:45:39-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "EnCrypt": [
+      {
+        "title": "Discord enables end-to-end encrypted voice and video calling for every user",
+        "link": "https://techcrunch.com/2026/05/19/discord-enables-end-to-end-encrypted-voice-and-video-calling-for-every-user/",
+        "date": "2026-05-19T21:14:08+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Discord rolls out end-to-end encryption on voice, video calls",
+        "link": "https://www.bleepingcomputer.com/news/security/discord-rolls-out-end-to-end-encryption-on-voice-video-calls/",
+        "date": "2026-05-19T16:37:45-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "JCrypt": [
+      {
+        "title": "Discord enables end-to-end encrypted voice and video calling for every user",
+        "link": "https://techcrunch.com/2026/05/19/discord-enables-end-to-end-encrypted-voice-and-video-calling-for-every-user/",
+        "date": "2026-05-19T21:14:08+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Lv": [
+      {
+        "title": "Mach Industries just spent $50M to solve a major defense tech problem",
+        "link": "https://techcrunch.com/2026/05/19/mach-industries-just-spent-50m-to-solve-a-major-defense-tech-problem/",
+        "date": "2026-05-19T21:09:56+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "The Network Security Problem No One Could Solve – Until Now.",
+        "link": "https://blog.checkpoint.com/security/the-network-security-problem-no-one-could-solve-until-now/",
+        "date": "2026-05-19T13:00:16+00:00",
+        "source": "Check Point"
+      },
+      {
+        "title": "Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files",
+        "link": "https://unit42.paloaltonetworks.com/gremlin-stealer-evolution/",
+        "date": "2026-05-15T10:00:52+00:00",
+        "source": "Unit 42"
+      }
+    ],
+    "Solve": [
+      {
+        "title": "Mach Industries just spent $50M to solve a major defense tech problem",
+        "link": "https://techcrunch.com/2026/05/19/mach-industries-just-spent-50m-to-solve-a-major-defense-tech-problem/",
+        "date": "2026-05-19T21:09:56+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "The Network Security Problem No One Could Solve – Until Now.",
+        "link": "https://blog.checkpoint.com/security/the-network-security-problem-no-one-could-solve-until-now/",
+        "date": "2026-05-19T13:00:16+00:00",
+        "source": "Check Point"
+      }
+    ],
+    "Iron": [
+      {
+        "title": "From teen hacker to Iron Dome researcher, this founder raised $28M to fight AI phishing",
+        "link": "https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/",
+        "date": "2026-05-19T21:08:51+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Conti": [
+      {
+        "title": "Windows Zero-Day Barrage Continues After Patch Tuesday",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/windows-zero-day-barrage-continues-after-patch-tuesday",
+        "date": "2026-05-19T21:06:54+00:00",
         "source": "DarkReading"
       }
     ],
+    "DirtyDecrypt": [
+      {
+        "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
+        "link": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
+        "date": "2026-05-19T20:26:26+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "PL": [
+      {
+        "title": "Stealer Spoofs Google, Microsoft &amp; Apple, Then Backdoors macOS",
+        "link": "https://www.darkreading.com/threat-intelligence/stealer-spoofs-google-microsoft-apple-backdoors-macos",
+        "date": "2026-05-19T19:49:40+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "Meta Employees Are Scrambling to Use Up Benefits Ahead of Layoffs",
+        "link": "https://www.wired.com/story/meta-employees-scramble-benefits-layoffs-ai/",
+        "date": "2026-05-19T19:00:46+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "In stunning display of stupid, secret CISA credentials found in public GitHub repo",
+        "link": "https://arstechnica.com/information-technology/2026/05/in-stunning-display-of-stupid-secret-cisa-credentials-found-in-public-github-repo/",
+        "date": "2026-05-19T18:27:08+00:00",
+        "source": "Ars Technica"
+      },
+      {
+        "title": "Cybercrime service disrupted for abusing Microsoft platform to sign malware",
+        "link": "https://www.bleepingcomputer.com/news/security/cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware/",
+        "date": "2026-05-19T17:47:31-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Microsoft plans to improve Windows 11 driver quality in 2026",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-plans-to-improve-windows-11-driver-quality-in-2026/",
+        "date": "2026-05-19T12:22:30-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Play": [
+      {
+        "title": "In stunning display of stupid, secret CISA credentials found in public GitHub repo",
+        "link": "https://arstechnica.com/information-technology/2026/05/in-stunning-display-of-stupid-secret-cisa-credentials-found-in-public-github-repo/",
+        "date": "2026-05-19T18:27:08+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "Stupid": [
+      {
+        "title": "In stunning display of stupid, secret CISA credentials found in public GitHub repo",
+        "link": "https://arstechnica.com/information-technology/2026/05/in-stunning-display-of-stupid-secret-cisa-credentials-found-in-public-github-repo/",
+        "date": "2026-05-19T18:27:08+00:00",
+        "source": "Ars Technica"
+      }
+    ],
     "DN": [
+      {
+        "title": "Google Makes It Easy to Deepfake Yourself",
+        "link": "https://www.wired.com/story/google-makes-it-easy-to-make-a-deepfake-of-yourself/",
+        "date": "2026-05-19T17:45:00+00:00",
+        "source": "Wired"
+      },
       {
         "title": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More",
         "link": "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
@@ -163,18 +409,126 @@
         "source": "DarkReading"
       }
     ],
-    "RNS": [
+    "Lick": [
       {
-        "title": "How to Reduce Phishing Exposure Before It Turns into Business Disruption",
-        "link": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
-        "date": "2026-05-18T18:30:00+05:30",
+        "title": "The New Phishing Click: How OAuth Consent Bypasses MFA",
+        "link": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
+        "date": "2026-05-19T17:00:00+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
-        "link": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
-        "date": "2026-05-15T22:40:25+05:30",
+        "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
+        "link": "https://blog.cloudflare.com/clickhouse-query-plan-contention/",
+        "date": "2026-05-14T13:00:00+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "core": [
+      {
+        "title": "Drupal to Release Urgent Core Security Updates on May 20, Sites Told to Prepare",
+        "link": "https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html",
+        "date": "2026-05-19T16:14:45+05:30",
         "source": "The Hacker News"
+      }
+    ],
+    "Turla": [
+      {
+        "title": "Rapid7’s 2026 Global Cybersecurity Summit: Key Takeaways for Security Leaders",
+        "link": "https://www.rapid7.com/blog/post/it-2026-global-cybersecurity-summit-key-takeaways-security-leaders",
+        "date": "2026-05-19T15:22:16+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "APT41": [
+      {
+        "title": "Rapid7’s 2026 Global Cybersecurity Summit: Key Takeaways for Security Leaders",
+        "link": "https://www.rapid7.com/blog/post/it-2026-global-cybersecurity-summit-key-takeaways-security-leaders",
+        "date": "2026-05-19T15:22:16+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "global": [
+      {
+        "title": "Rapid7’s 2026 Global Cybersecurity Summit: Key Takeaways for Security Leaders",
+        "link": "https://www.rapid7.com/blog/post/it-2026-global-cybersecurity-summit-key-takeaways-security-leaders",
+        "date": "2026-05-19T15:22:16+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "Rapid": [
+      {
+        "title": "Rapid7’s 2026 Global Cybersecurity Summit: Key Takeaways for Security Leaders",
+        "link": "https://www.rapid7.com/blog/post/it-2026-global-cybersecurity-summit-key-takeaways-security-leaders",
+        "date": "2026-05-19T15:22:16+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "Blind": [
+      {
+        "title": "Turn Blind Trust into Verified Control with Prompt Security for Agentic AI",
+        "link": "https://www.sentinelone.com/blog/prompt-security-for-agentic-ai/",
+        "date": "2026-05-19T13:43:37+00:00",
+        "source": "SentinelOne"
+      }
+    ],
+    "Evolution": [
+      {
+        "title": "Looking Back, Looking Forward: Digesting a Dynamic Bouillabaisse of Cyber Evolution",
+        "link": "https://www.darkreading.com/cybersecurity-operations/looking-back-looking-forward-bouillabaisse-cyber-evolution",
+        "date": "2026-05-19T13:28:43+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Hunt": [
+      {
+        "title": "7-Eleven confirms data breach claimed by the ShinyHunters gang",
+        "link": "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/",
+        "date": "2026-05-19T10:16:41-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Hunters": [
+      {
+        "title": "7-Eleven confirms data breach claimed by the ShinyHunters gang",
+        "link": "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/",
+        "date": "2026-05-19T10:16:41-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "ShinyHunters": [
+      {
+        "title": "7-Eleven confirms data breach claimed by the ShinyHunters gang",
+        "link": "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/",
+        "date": "2026-05-19T10:16:41-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "APT5": [
+      {
+        "title": "Webinar: The hidden bottlenecks in network incident response",
+        "link": "https://www.bleepingcomputer.com/news/security/webinar-the-hidden-bottlenecks-in-network-incident-response/",
+        "date": "2026-05-19T08:14:22-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
+        "link": "https://blog.cloudflare.com/clickhouse-query-plan-contention/",
+        "date": "2026-05-14T13:00:00+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "DDE": [
+      {
+        "title": "Webinar: The hidden bottlenecks in network incident response",
+        "link": "https://www.bleepingcomputer.com/news/security/webinar-the-hidden-bottlenecks-in-network-incident-response/",
+        "date": "2026-05-19T08:14:22-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
+        "link": "https://blog.cloudflare.com/clickhouse-query-plan-contention/",
+        "date": "2026-05-14T13:00:00+00:00",
+        "source": "Cloudflare"
       }
     ],
     "Ank": [
@@ -193,38 +547,6 @@
         "source": "DarkReading"
       }
     ],
-    "Shadow": [
-      {
-        "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
-        "link": "https://www.bleepingcomputer.com/news/security/5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees/",
-        "date": "2026-05-18T14:45:35-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Play": [
-      {
-        "title": "Leica Cine Play 1 Review: Pricey but Worth Every Penny",
-        "link": "https://www.wired.com/review/review-leica-cine-play-1/",
-        "date": "2026-05-18T14:33:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Sandworm Team": [
-      {
-        "title": "Four Malicious npm Packages Deliver Infostealers and Phantom Bot DDoS Malware",
-        "link": "https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html",
-        "date": "2026-05-18T14:27:26+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Mars": [
-      {
-        "title": "The Catastrophic Swatch x Audemars Piguet Launch Was Entirely Predictable and Utterly Avoidable",
-        "link": "https://www.wired.com/story/the-catastrophic-swatch-x-audemars-piguet-launch-was-entirely-predictable-and-utterly-avoidable/",
-        "date": "2026-05-18T13:38:01+00:00",
-        "source": "Wired"
-      }
-    ],
     "APT37": [
       {
         "title": "SHub Reaper | macOS Stealer Spoofs Apple, Google, and Microsoft in a Single Attack Chain",
@@ -241,126 +563,12 @@
         "source": "SentinelOne"
       }
     ],
-    "CryLocker": [
-      {
-        "title": "Exploit available for new DirtyDecrypt Linux root escalation flaw",
-        "link": "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
-        "date": "2026-05-18T03:18:33-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "DirtyDecrypt": [
-      {
-        "title": "Exploit available for new DirtyDecrypt Linux root escalation flaw",
-        "link": "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
-        "date": "2026-05-18T03:18:33-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Root": [
-      {
-        "title": "Exploit available for new DirtyDecrypt Linux root escalation flaw",
-        "link": "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
-        "date": "2026-05-18T03:18:33-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Tycoon": [
-      {
-        "title": "Tycoon2FA hijacks Microsoft 365 accounts via device-code phishing",
-        "link": "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
-        "date": "2026-05-17T10:43:10-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Kazu": [
-      {
-        "title": "Russian hackers turn Kazuar backdoor into modular P2P botnet",
-        "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
-        "date": "2026-05-16T10:15:37-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
-        "link": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
-        "date": "2026-05-15T22:40:25+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Zlader": [
-      {
-        "title": "Russian hackers turn Kazuar backdoor into modular P2P botnet",
-        "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
-        "date": "2026-05-16T10:15:37-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Turla": [
-      {
-        "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
-        "link": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
-        "date": "2026-05-15T22:40:25+05:30",
-        "source": "The Hacker News"
-      }
-    ],
     "Metasploit": [
       {
         "title": "Metasploit Wrap-Up 05/15/2026",
         "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-15-2026",
         "date": "2026-05-15T18:54:25+00:00",
         "source": "Rapid7"
-      }
-    ],
-    "Hacked": [
-      {
-        "title": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own",
-        "link": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
-        "date": "2026-05-15T13:47:25-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "When the Ransomware Gang Gets Hacked: What the Gentlemen Leak Reveals About Modern Ransomware Risk",
-        "link": "https://blog.checkpoint.com/research/when-the-ransomware-gang-gets-hacked-what-the-gentlemen-leak-reveals-about-modern-ransomware-risk/",
-        "date": "2026-05-13T12:55:22+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "Darkhotel": [
-      {
-        "title": "Cyber Pioneers Ponder Past as Prologue",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/cybersecurity-pioneers-ponder-past-prologue",
-        "date": "2026-05-15T12:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Lv": [
-      {
-        "title": "Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files",
-        "link": "https://unit42.paloaltonetworks.com/gremlin-stealer-evolution/",
-        "date": "2026-05-15T10:00:52+00:00",
-        "source": "Unit 42"
-      }
-    ],
-    "Light": [
-      {
-        "title": "Taiwan Bullet Train Hack Highlights Cybersecurity Gaps in Rail Systems",
-        "link": "https://www.darkreading.com/ics-ot-security/taiwan-incident-highlights-cybersecurity-gaps",
-        "date": "2026-05-15T01:00:00+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Foxconn Attack Highlights Manufacturing's Cyber Crisis",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/foxconn-attack-manufacturing-cyber-crisis",
-        "date": "2026-05-14T12:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "core": [
-      {
-        "title": "SecurityScorecard Snags Driftnet to Level Up Threat Intelligence",
-        "link": "https://www.darkreading.com/cyber-risk/securityscorecard-snags-driftnet-to-level-up-threat-intelligence",
-        "date": "2026-05-14T20:57:27+00:00",
-        "source": "DarkReading"
       }
     ],
     "Locker": [
@@ -371,99 +579,11 @@
         "source": "Ars Technica"
       }
     ],
-    "FrostyNeighbor": [
-      {
-        "title": "'FrostyNeighbor' APT Carefully Targets Govt Orgs in Poland, Ukraine",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/frostyneighbor-apt-govt-orgs-poland-ukraine",
-        "date": "2026-05-14T16:59:25+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "APT5": [
-      {
-        "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
-        "link": "https://blog.cloudflare.com/clickhouse-query-plan-contention/",
-        "date": "2026-05-14T13:00:00+00:00",
-        "source": "Cloudflare"
-      }
-    ],
-    "DDE": [
-      {
-        "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
-        "link": "https://blog.cloudflare.com/clickhouse-query-plan-contention/",
-        "date": "2026-05-14T13:00:00+00:00",
-        "source": "Cloudflare"
-      }
-    ],
-    "Lick": [
-      {
-        "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
-        "link": "https://blog.cloudflare.com/clickhouse-query-plan-contention/",
-        "date": "2026-05-14T13:00:00+00:00",
-        "source": "Cloudflare"
-      }
-    ],
     "First": [
       {
         "title": "Before the First Whistle: How Cyber Criminals Are Targeting World Cup 2026",
         "link": "https://blog.checkpoint.com/research/before-the-first-whistle-how-cyber-criminals-are-targeting-world-cup-2026/",
         "date": "2026-05-14T12:55:03+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "Cmd Organization": [
-      {
-        "title": "CMD Organization – New Ransomware Operator Moves to Place Public Bidding Wars on Ransomed Data",
-        "link": "https://labs.beazley.security/articles/cmd-organization-new-ransomware-operator-moves-to-place-public-bidding-wars-on-ransomed-data",
-        "date": "2026-05-14T05:00:00.000Z",
-        "source": "Beazley Security Labs Articles"
-      }
-    ],
-    "Cmd": [
-      {
-        "title": "CMD Organization – New Ransomware Operator Moves to Place Public Bidding Wars on Ransomed Data",
-        "link": "https://labs.beazley.security/articles/cmd-organization-new-ransomware-operator-moves-to-place-public-bidding-wars-on-ransomed-data",
-        "date": "2026-05-14T05:00:00.000Z",
-        "source": "Beazley Security Labs Articles"
-      }
-    ],
-    "RansomVC": [
-      {
-        "title": "CMD Organization – New Ransomware Operator Moves to Place Public Bidding Wars on Ransomed Data",
-        "link": "https://labs.beazley.security/articles/cmd-organization-new-ransomware-operator-moves-to-place-public-bidding-wars-on-ransomed-data",
-        "date": "2026-05-14T05:00:00.000Z",
-        "source": "Beazley Security Labs Articles"
-      }
-    ],
-    "Deadeye Jackal": [
-      {
-        "title": "1 year and 1 million messages later: Lessons learned building AI agents on the Elasticsearch Platform",
-        "link": "https://www.elastic.co/blog/building-ai-agents-elasticsearch-platform",
-        "date": "2026-05-14T00:00:00+00:00",
-        "source": "Elastic"
-      }
-    ],
-    "Rapid": [
-      {
-        "title": "Rapid7 Partner Academy: Driving Impact with Gold Stevie Award-Winning Partner Services Certifications",
-        "link": "https://www.rapid7.com/blog/post/c-gold-stevie-award-winning-partner-services-certifications-academy",
-        "date": "2026-05-13T13:54:10+00:00",
-        "source": "Rapid7"
-      }
-    ],
-    "Wheat Tempest": [
-      {
-        "title": "Rapid7 Partner Academy: Driving Impact with Gold Stevie Award-Winning Partner Services Certifications",
-        "link": "https://www.rapid7.com/blog/post/c-gold-stevie-award-winning-partner-services-certifications-academy",
-        "date": "2026-05-13T13:54:10+00:00",
-        "source": "Rapid7"
-      }
-    ],
-    "The Gentlemen": [
-      {
-        "title": "When the Ransomware Gang Gets Hacked: What the Gentlemen Leak Reveals About Modern Ransomware Risk",
-        "link": "https://blog.checkpoint.com/research/when-the-ransomware-gang-gets-hacked-what-the-gentlemen-leak-reveals-about-modern-ransomware-risk/",
-        "date": "2026-05-13T12:55:22+00:00",
         "source": "Check Point"
       }
     ]
