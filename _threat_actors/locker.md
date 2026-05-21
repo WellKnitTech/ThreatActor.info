@@ -33,6 +33,8 @@ Ransomware has GUI
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit](https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html)
+  The Hacker News - 2026-05-20T
 - [Zero-day exploit completely defeats default Windows 11 BitLocker protections](https://arstechnica.com/security/2026/05/zero-day-exploit-completely-defeats-default-windows-11-bitlocker-protections/)
   Ars Technica - 2026-05-14T
 

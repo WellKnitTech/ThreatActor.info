@@ -33,12 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Sony Coupons: 45% Off Sony Headphones, WF-1000XM6 Earbuds, and Sony Cameras for May](https://www.wired.com/story/sony-promo-code/)
-  Wired - 2026-05-20T
-- [Google’s AI Studio now lets anyone build Android apps in minutes](https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/)
-  TechCrunch - 2026-05-19T
+- [Identity Alone Isn't Enough: Why Device Security Has to Share the Load](https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-device-security-has-to-share-the-load/)
+  BleepingComputer - 2026-05-20T
+- [Interpol's 'Operation Ramz' Pioneers Cross-Region Collabs in Middle East](https://www.darkreading.com/cybersecurity-operations/interpol-operation-ramz-cross-region-middle-east)
+  DarkReading - 2026-05-20T
 - [The Network Security Problem No One Could Solve – Until Now.](https://blog.checkpoint.com/security/the-network-security-problem-no-one-could-solve-until-now/)
   Check Point - 2026-05-19T
-- [Shai-Hulud Worm Clones Spread After Code Release](https://www.darkreading.com/application-security/shai-hulud-worm-clones-spread-code-release)
-  DarkReading - 2026-05-18T
 

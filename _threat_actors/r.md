@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Grafana GitHub Breach Exposes Source Code via TanStack npm Attack](https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html)
-  The Hacker News - 2026-05-20T
-- [GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories](https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html)
-  The Hacker News - 2026-05-20T
-- [‘Ask YouTube’ brings AI-powered conversational search to video, adds Gemini Omni to Shorts](https://techcrunch.com/2026/05/19/ask-youtube-brings-ai-powered-conversational-search-to-video-adds-gemini-omni-to-shorts/)
-  TechCrunch - 2026-05-20T
-- [30% VistaPrint Coupon & Promo Codes | May 2026](https://www.wired.com/story/vistaprint-coupon-code/)
-  Wired - 2026-05-20T
-- [Stearns and Foster Promo Codes: $300 Off in May](https://www.wired.com/story/stearns-and-foster-promo-code/)
-  Wired - 2026-05-20T
+- [GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension](https://thehackernews.com/2026/05/github-internal-repositories-breached.html)
+  The Hacker News - 2026-05-21T
+- [Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks](https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html)
+  The Hacker News - 2026-05-21T
+- [The EU Is Going Through a Trump-Fueled Breakup With Big Tech](https://www.wired.com/story/the-eu-is-going-through-a-trump-fueled-breakup-with-big-tech/)
+  Wired - 2026-05-21T
+- [Truecaller gets into the eSIM business to diversify its revenue streams](https://techcrunch.com/2026/05/20/truecaller-gets-into-the-esim-business-to-diversify-its-revenue-streams/)
+  TechCrunch - 2026-05-21T
+- [General Catalyst just led a $63M bet on India’s travel payments market](https://techcrunch.com/2026/05/20/indian-travel-fintech-scapia-more-than-doubles-valuation-to-over-500m-in-a-year/)
+  TechCrunch - 2026-05-21T
 

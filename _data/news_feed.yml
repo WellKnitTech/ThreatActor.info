@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-20T06:06:27Z",
+  "updated": "2026-05-21T06:08:54Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -21,60 +21,198 @@
   "actor_news": {
     "R": [
       {
-        "title": "Grafana GitHub Breach Exposes Source Code via TanStack npm Attack",
-        "link": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
-        "date": "2026-05-20T10:42:06+05:30",
+        "title": "GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension",
+        "link": "https://thehackernews.com/2026/05/github-internal-repositories-breached.html",
+        "date": "2026-05-21T09:57:01+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories",
-        "link": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
-        "date": "2026-05-20T09:31:15+05:30",
+        "title": "Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks",
+        "link": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
+        "date": "2026-05-21T09:14:11+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "‘Ask YouTube’ brings AI-powered conversational search to video, adds Gemini Omni to Shorts",
-        "link": "https://techcrunch.com/2026/05/19/ask-youtube-brings-ai-powered-conversational-search-to-video-adds-gemini-omni-to-shorts/",
-        "date": "2026-05-20T05:45:00+00:00",
+        "title": "The EU Is Going Through a Trump-Fueled Breakup With Big Tech",
+        "link": "https://www.wired.com/story/the-eu-is-going-through-a-trump-fueled-breakup-with-big-tech/",
+        "date": "2026-05-21T06:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Truecaller gets into the eSIM business to diversify its revenue streams",
+        "link": "https://techcrunch.com/2026/05/20/truecaller-gets-into-the-esim-business-to-diversify-its-revenue-streams/",
+        "date": "2026-05-21T06:00:00+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "30% VistaPrint Coupon & Promo Codes | May 2026",
-        "link": "https://www.wired.com/story/vistaprint-coupon-code/",
-        "date": "2026-05-20T05:00:00+00:00",
-        "source": "Wired"
+        "title": "General Catalyst just led a $63M bet on India’s travel payments market",
+        "link": "https://techcrunch.com/2026/05/20/indian-travel-fintech-scapia-more-than-doubles-valuation-to-over-500m-in-a-year/",
+        "date": "2026-05-21T05:52:38+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "core": [
+      {
+        "title": "Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks",
+        "link": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
+        "date": "2026-05-21T09:14:11+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "Stearns and Foster Promo Codes: $300 Off in May",
-        "link": "https://www.wired.com/story/stearns-and-foster-promo-code/",
-        "date": "2026-05-20T05:00:00+00:00",
-        "source": "Wired"
+        "title": "Critical Vulnerability Disclosed in Drupal Core (CVE-2026-9082)",
+        "link": "https://labs.beazley.security/advisories/BSL-A1176",
+        "date": "2026-05-20T05:00:00.000Z",
+        "source": "Beazley Security Labs Advisories"
+      },
+      {
+        "title": "Drupal to Release Urgent Core Security Updates on May 20, Sites Told to Prepare",
+        "link": "https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html",
+        "date": "2026-05-19T16:14:45+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Payment": [
+      {
+        "title": "General Catalyst just led a $63M bet on India’s travel payments market",
+        "link": "https://techcrunch.com/2026/05/20/indian-travel-fintech-scapia-more-than-doubles-valuation-to-over-500m-in-a-year/",
+        "date": "2026-05-21T05:52:38+00:00",
+        "source": "TechCrunch"
       }
     ],
     "Ra": [
       {
-        "title": "Grafana GitHub Breach Exposes Source Code via TanStack npm Attack",
-        "link": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
-        "date": "2026-05-20T10:42:06+05:30",
+        "title": "General Catalyst just led a $63M bet on India’s travel payments market",
+        "link": "https://techcrunch.com/2026/05/20/indian-travel-fintech-scapia-more-than-doubles-valuation-to-over-500m-in-a-year/",
+        "date": "2026-05-21T05:52:38+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Imperagen raises £5 million to use quantum physics, AI on enzyme engineering",
+        "link": "https://techcrunch.com/2026/05/20/imperagen-raises-5-million-to-redefine-enzyme-engineering/",
+        "date": "2026-05-21T04:00:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Jensen Huang says he’s found a ‘brand new’ $200B market for Nvidia",
+        "link": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
+        "date": "2026-05-21T00:28:31+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development",
+        "link": "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html",
+        "date": "2026-05-20T22:36:54+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Sony Coupons: 45% Off Sony Headphones, WF-1000XM6 Earbuds, and Sony Cameras for May",
-        "link": "https://www.wired.com/story/sony-promo-code/",
-        "date": "2026-05-20T05:00:00+00:00",
+        "title": "Clouted wants to take the guesswork out of making short videos go viral",
+        "link": "https://techcrunch.com/2026/05/20/clouted-wants-to-take-the-guesswork-out-of-making-short-videos-go-viral/",
+        "date": "2026-05-20T22:30:45+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Dragonfly": [
+      {
+        "title": "Castlery Promo Codes: 15% Off for May 2026",
+        "link": "https://www.wired.com/story/castlery-promo-code/",
+        "date": "2026-05-21T05:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "ENERGETIC BEAR": [
+      {
+        "title": "Castlery Promo Codes: 15% Off for May 2026",
+        "link": "https://www.wired.com/story/castlery-promo-code/",
+        "date": "2026-05-21T05:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Quantum": [
+      {
+        "title": "Imperagen raises £5 million to use quantum physics, AI on enzyme engineering",
+        "link": "https://techcrunch.com/2026/05/20/imperagen-raises-5-million-to-redefine-enzyme-engineering/",
+        "date": "2026-05-21T04:00:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "First": [
+      {
+        "title": "Anthropic says it’s about to have its first profitable quarter",
+        "link": "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/",
+        "date": "2026-05-21T00:21:21+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Ramp": [
+      {
+        "title": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development",
+        "link": "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html",
+        "date": "2026-05-20T22:36:54+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Deos": [
+      {
+        "title": "Clouted wants to take the guesswork out of making short videos go viral",
+        "link": "https://techcrunch.com/2026/05/20/clouted-wants-to-take-the-guesswork-out-of-making-short-videos-go-viral/",
+        "date": "2026-05-20T22:30:45+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "APT3": [
+      {
+        "title": "Nvidia posts another record quarter, reveals $43B of holdings in startups",
+        "link": "https://techcrunch.com/2026/05/20/nvidia-posts-another-record-quarter-reveals-43-billion-of-holdings-in-startups/",
+        "date": "2026-05-20T22:03:51+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "IPA": [
+      {
+        "title": "A Bipartisan Amendment Would End Police License Plate Tracking Nationwide",
+        "link": "https://www.wired.com/story/a-bipartisan-amendment-would-end-police-license-plate-tracking-nationwide/",
+        "date": "2026-05-20T21:58:06+00:00",
+        "source": "Wired"
+      }
+    ],
+    "PL": [
+      {
+        "title": "A Bipartisan Amendment Would End Police License Plate Tracking Nationwide",
+        "link": "https://www.wired.com/story/a-bipartisan-amendment-would-end-police-license-plate-tracking-nationwide/",
+        "date": "2026-05-20T21:58:06+00:00",
         "source": "Wired"
       },
       {
-        "title": "Literary Prizewinners Are Facing AI Allegations. It Feels Like the New Normal",
-        "link": "https://www.wired.com/story/commonwealth-short-story-prize-ai-allegations/",
-        "date": "2026-05-19T22:53:04+00:00",
-        "source": "Wired"
+        "title": "Microsoft’s carbon-removal plans aren’t dead after all",
+        "link": "https://techcrunch.com/2026/05/20/microsofts-carbon-removal-plans-arent-dead-after-all/",
+        "date": "2026-05-20T20:30:24+00:00",
+        "source": "TechCrunch"
       },
       {
-        "title": "California’s Wildfire Season Is Already Overactive",
-        "link": "https://www.wired.com/story/californias-wildfire-season-already-overactive/",
-        "date": "2026-05-19T22:20:37+00:00",
-        "source": "Wired"
+        "title": "Google publishes exploit code threatening millions of Chromium users",
+        "link": "https://arstechnica.com/security/2026/05/google-publishes-exploit-code-threatening-millions-of-chromium-users/",
+        "date": "2026-05-20T19:10:36+00:00",
+        "source": "Ars Technica"
+      },
+      {
+        "title": "Webworm Deploys EchoCreep and GraphWorm Backdoors Using Discord and MS Graph API",
+        "link": "https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html",
+        "date": "2026-05-20T18:21:43+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Hackers bypass SonicWall VPN MFA due to incomplete patching",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/",
+        "date": "2026-05-20T17:19:17-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "AnDROid": [
+      {
+        "title": "Fake Android Apps Commit Carrier Billing Fraud for Premium Svcs.",
+        "link": "https://www.darkreading.com/mobile-security/fake-android-apps-carrier-billing-fraud",
+        "date": "2026-05-20T20:35:35+00:00",
+        "source": "DarkReading"
       },
       {
         "title": "Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps",
@@ -83,117 +221,19 @@
         "source": "The Hacker News"
       }
     ],
-    "TeamPCP": [
+    "DN": [
       {
-        "title": "GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories",
-        "link": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
-        "date": "2026-05-20T09:31:15+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "GitHub investigates internal repositories breach claimed by TeamPCP",
-        "link": "https://www.bleepingcomputer.com/news/security/github-investigates-internal-repositories-breach-claimed-by-teampcp/",
-        "date": "2026-05-20T01:08:42-04:00",
-        "source": "BleepingComputer"
+        "title": "Fake Android Apps Commit Carrier Billing Fraud for Premium Svcs.",
+        "link": "https://www.darkreading.com/mobile-security/fake-android-apps-carrier-billing-fraud",
+        "date": "2026-05-20T20:35:35+00:00",
+        "source": "DarkReading"
       }
     ],
-    "Deadeye Jackal": [
+    "Lv": [
       {
-        "title": "‘Ask YouTube’ brings AI-powered conversational search to video, adds Gemini Omni to Shorts",
-        "link": "https://techcrunch.com/2026/05/19/ask-youtube-brings-ai-powered-conversational-search-to-video-adds-gemini-omni-to-shorts/",
-        "date": "2026-05-20T05:45:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "California’s Wildfire Season Is Already Overactive",
-        "link": "https://www.wired.com/story/californias-wildfire-season-already-overactive/",
-        "date": "2026-05-19T22:20:37+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "How to use Google’s new AI agents to go beyond your standard searches",
-        "link": "https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/",
-        "date": "2026-05-19T21:16:25+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "From teen hacker to Iron Dome researcher, this founder raised $28M to fight AI phishing",
-        "link": "https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/",
-        "date": "2026-05-19T21:08:51+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Everything Announced at Google I/O 2026: Gemini, Search, Smart Glasses",
-        "link": "https://www.wired.com/story/everything-google-announced-at-google-io-2026/",
-        "date": "2026-05-19T20:00:48+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Mini": [
-      {
-        "title": "‘Ask YouTube’ brings AI-powered conversational search to video, adds Gemini Omni to Shorts",
-        "link": "https://techcrunch.com/2026/05/19/ask-youtube-brings-ai-powered-conversational-search-to-video-adds-gemini-omni-to-shorts/",
-        "date": "2026-05-20T05:45:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Everything Announced at Google I/O 2026: Gemini, Search, Smart Glasses",
-        "link": "https://www.wired.com/story/everything-google-announced-at-google-io-2026/",
-        "date": "2026-05-19T20:00:48+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "With Gemini 3.5 Flash, Google bets its next AI wave on agents, not chatbots",
-        "link": "https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/",
-        "date": "2026-05-19T17:51:30+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Google updates its Gemini app to take on ChatGPT and Claude at IO 2026",
-        "link": "https://techcrunch.com/2026/05/19/google-updates-its-gemini-app-to-take-on-chatgpt-and-claude-at-io-2026/",
-        "date": "2026-05-19T17:45:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Mini Shai-Hulud Pushes Malicious AntV npm Packages via Compromised Maintainer Account",
-        "link": "https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html",
-        "date": "2026-05-19T10:24:17+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "RNS": [
-      {
-        "title": "Stearns and Foster Promo Codes: $300 Off in May",
-        "link": "https://www.wired.com/story/stearns-and-foster-promo-code/",
-        "date": "2026-05-20T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "How to Reduce Phishing Exposure Before It Turns into Business Disruption",
-        "link": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
-        "date": "2026-05-18T18:30:00+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Bud": [
-      {
-        "title": "Sony Coupons: 45% Off Sony Headphones, WF-1000XM6 Earbuds, and Sony Cameras for May",
-        "link": "https://www.wired.com/story/sony-promo-code/",
-        "date": "2026-05-20T05:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "One": [
-      {
-        "title": "Sony Coupons: 45% Off Sony Headphones, WF-1000XM6 Earbuds, and Sony Cameras for May",
-        "link": "https://www.wired.com/story/sony-promo-code/",
-        "date": "2026-05-20T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Google’s AI Studio now lets anyone build Android apps in minutes",
-        "link": "https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/",
-        "date": "2026-05-19T17:45:00+00:00",
+        "title": "OpenAI claims it solved an 80-year-old math problem — for real this time",
+        "link": "https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/",
+        "date": "2026-05-20T20:28:27+00:00",
         "source": "TechCrunch"
       },
       {
@@ -203,45 +243,133 @@
         "source": "Check Point"
       },
       {
-        "title": "Shai-Hulud Worm Clones Spread After Code Release",
-        "link": "https://www.darkreading.com/application-security/shai-hulud-worm-clones-spread-code-release",
-        "date": "2026-05-18T19:53:05+00:00",
-        "source": "DarkReading"
+        "title": "Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files",
+        "link": "https://unit42.paloaltonetworks.com/gremlin-stealer-evolution/",
+        "date": "2026-05-15T10:00:52+00:00",
+        "source": "Unit 42"
       }
     ],
-    "AnDROid": [
+    "Solve": [
       {
-        "title": "Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps",
-        "link": "https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html",
-        "date": "2026-05-19T22:08:12+05:30",
+        "title": "OpenAI claims it solved an 80-year-old math problem — for real this time",
+        "link": "https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/",
+        "date": "2026-05-20T20:28:27+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "The Network Security Problem No One Could Solve – Until Now.",
+        "link": "https://blog.checkpoint.com/security/the-network-security-problem-no-one-could-solve-until-now/",
+        "date": "2026-05-19T13:00:16+00:00",
+        "source": "Check Point"
+      }
+    ],
+    "Earth Lusca": [
+      {
+        "title": "Google publishes exploit code threatening millions of Chromium users",
+        "link": "https://arstechnica.com/security/2026/05/google-publishes-exploit-code-threatening-millions-of-chromium-users/",
+        "date": "2026-05-20T19:10:36+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "Webworm": [
+      {
+        "title": "Webworm Deploys EchoCreep and GraphWorm Backdoors Using Discord and MS Graph API",
+        "link": "https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html",
+        "date": "2026-05-20T18:21:43+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "ONI": [
+      {
+        "title": "Hackers bypass SonicWall VPN MFA due to incomplete patching",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/",
+        "date": "2026-05-20T17:19:17-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Locker": [
+      {
+        "title": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit",
+        "link": "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
+        "date": "2026-05-20T13:58:26+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Hands-On With All of Google’s New Upcoming Android XR Smart Glasses",
-        "link": "https://www.wired.com/story/hands-on-with-all-of-google-new-upcoming-android-xr-smart-glasses/",
-        "date": "2026-05-19T17:45:00+00:00",
-        "source": "Wired"
+        "title": "Zero-day exploit completely defeats default Windows 11 BitLocker protections",
+        "link": "https://arstechnica.com/security/2026/05/zero-day-exploit-completely-defeats-default-windows-11-bitlocker-protections/",
+        "date": "2026-05-14T18:32:01+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "Ank": [
+      {
+        "title": "Sentinels League 2026: Live Rankings for the Threat Hunting World Championship",
+        "link": "https://www.sentinelone.com/blog/sentinels-league-2026-live-rankings-for-the-threat-hunting-world-championship/",
+        "date": "2026-05-20T13:00:44+00:00",
+        "source": "SentinelOne"
+      }
+    ],
+    "Hunt": [
+      {
+        "title": "Sentinels League 2026: Live Rankings for the Threat Hunting World Championship",
+        "link": "https://www.sentinelone.com/blog/sentinels-league-2026-live-rankings-for-the-threat-hunting-world-championship/",
+        "date": "2026-05-20T13:00:44+00:00",
+        "source": "SentinelOne"
+      }
+    ],
+    "One": [
+      {
+        "title": "Identity Alone Isn't Enough: Why Device Security Has to Share the Load",
+        "link": "https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-device-security-has-to-share-the-load/",
+        "date": "2026-05-20T10:02:12-04:00",
+        "source": "BleepingComputer"
       },
       {
-        "title": "Agentic app coding gets an upgrade with Google’s release of Android CLI",
-        "link": "https://techcrunch.com/2026/05/19/agentic-app-coding-gets-an-upgrade-with-googles-release-of-android-cli/",
-        "date": "2026-05-19T17:45:00+00:00",
-        "source": "TechCrunch"
+        "title": "Interpol's 'Operation Ramz' Pioneers Cross-Region Collabs in Middle East",
+        "link": "https://www.darkreading.com/cybersecurity-operations/interpol-operation-ramz-cross-region-middle-east",
+        "date": "2026-05-20T07:00:00+00:00",
+        "source": "DarkReading"
       },
       {
-        "title": "Google’s AI Studio now lets anyone build Android apps in minutes",
-        "link": "https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/",
-        "date": "2026-05-19T17:45:00+00:00",
-        "source": "TechCrunch"
+        "title": "The Network Security Problem No One Could Solve – Until Now.",
+        "link": "https://blog.checkpoint.com/security/the-network-security-problem-no-one-could-solve-until-now/",
+        "date": "2026-05-19T13:00:16+00:00",
+        "source": "Check Point"
+      }
+    ],
+    "Darkhotel": [
+      {
+        "title": "Interpol's 'Operation Ramz' Pioneers Cross-Region Collabs in Middle East",
+        "link": "https://www.darkreading.com/cybersecurity-operations/interpol-operation-ramz-cross-region-middle-east",
+        "date": "2026-05-20T07:00:00+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Root": [
+      {
+        "title": "Exploit released for new PinTheft Arch Linux root escalation flaw",
+        "link": "https://www.bleepingcomputer.com/news/linux/exploit-released-for-new-pintheft-arch-linux-root-escalation-flaw/",
+        "date": "2026-05-20T06:52:31-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "TeamPCP": [
+      {
+        "title": "GitHub investigates internal repositories breach claimed by TeamPCP",
+        "link": "https://www.bleepingcomputer.com/news/security/github-investigates-internal-repositories-breach-claimed-by-teampcp/",
+        "date": "2026-05-20T01:08:42-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Conti": [
+      {
+        "title": "Windows Zero-Day Barrage Continues After Patch Tuesday",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/windows-zero-day-barrage-continues-after-patch-tuesday",
+        "date": "2026-05-19T21:06:54+00:00",
+        "source": "DarkReading"
       }
     ],
     "CryLocker": [
-      {
-        "title": "Discord enables end-to-end encrypted voice and video calling for every user",
-        "link": "https://techcrunch.com/2026/05/19/discord-enables-end-to-end-encrypted-voice-and-video-calling-for-every-user/",
-        "date": "2026-05-19T21:14:08+00:00",
-        "source": "TechCrunch"
-      },
       {
         "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
         "link": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
@@ -261,116 +389,12 @@
         "source": "BleepingComputer"
       }
     ],
-    "EnCrypt": [
-      {
-        "title": "Discord enables end-to-end encrypted voice and video calling for every user",
-        "link": "https://techcrunch.com/2026/05/19/discord-enables-end-to-end-encrypted-voice-and-video-calling-for-every-user/",
-        "date": "2026-05-19T21:14:08+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Discord rolls out end-to-end encryption on voice, video calls",
-        "link": "https://www.bleepingcomputer.com/news/security/discord-rolls-out-end-to-end-encryption-on-voice-video-calls/",
-        "date": "2026-05-19T16:37:45-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "JCrypt": [
-      {
-        "title": "Discord enables end-to-end encrypted voice and video calling for every user",
-        "link": "https://techcrunch.com/2026/05/19/discord-enables-end-to-end-encrypted-voice-and-video-calling-for-every-user/",
-        "date": "2026-05-19T21:14:08+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Lv": [
-      {
-        "title": "Mach Industries just spent $50M to solve a major defense tech problem",
-        "link": "https://techcrunch.com/2026/05/19/mach-industries-just-spent-50m-to-solve-a-major-defense-tech-problem/",
-        "date": "2026-05-19T21:09:56+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "The Network Security Problem No One Could Solve – Until Now.",
-        "link": "https://blog.checkpoint.com/security/the-network-security-problem-no-one-could-solve-until-now/",
-        "date": "2026-05-19T13:00:16+00:00",
-        "source": "Check Point"
-      },
-      {
-        "title": "Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files",
-        "link": "https://unit42.paloaltonetworks.com/gremlin-stealer-evolution/",
-        "date": "2026-05-15T10:00:52+00:00",
-        "source": "Unit 42"
-      }
-    ],
-    "Solve": [
-      {
-        "title": "Mach Industries just spent $50M to solve a major defense tech problem",
-        "link": "https://techcrunch.com/2026/05/19/mach-industries-just-spent-50m-to-solve-a-major-defense-tech-problem/",
-        "date": "2026-05-19T21:09:56+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "The Network Security Problem No One Could Solve – Until Now.",
-        "link": "https://blog.checkpoint.com/security/the-network-security-problem-no-one-could-solve-until-now/",
-        "date": "2026-05-19T13:00:16+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "Iron": [
-      {
-        "title": "From teen hacker to Iron Dome researcher, this founder raised $28M to fight AI phishing",
-        "link": "https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/",
-        "date": "2026-05-19T21:08:51+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Conti": [
-      {
-        "title": "Windows Zero-Day Barrage Continues After Patch Tuesday",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/windows-zero-day-barrage-continues-after-patch-tuesday",
-        "date": "2026-05-19T21:06:54+00:00",
-        "source": "DarkReading"
-      }
-    ],
     "DirtyDecrypt": [
       {
         "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
         "link": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
         "date": "2026-05-19T20:26:26+05:30",
         "source": "The Hacker News"
-      }
-    ],
-    "PL": [
-      {
-        "title": "Stealer Spoofs Google, Microsoft &amp; Apple, Then Backdoors macOS",
-        "link": "https://www.darkreading.com/threat-intelligence/stealer-spoofs-google-microsoft-apple-backdoors-macos",
-        "date": "2026-05-19T19:49:40+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Meta Employees Are Scrambling to Use Up Benefits Ahead of Layoffs",
-        "link": "https://www.wired.com/story/meta-employees-scramble-benefits-layoffs-ai/",
-        "date": "2026-05-19T19:00:46+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "In stunning display of stupid, secret CISA credentials found in public GitHub repo",
-        "link": "https://arstechnica.com/information-technology/2026/05/in-stunning-display-of-stupid-secret-cisa-credentials-found-in-public-github-repo/",
-        "date": "2026-05-19T18:27:08+00:00",
-        "source": "Ars Technica"
-      },
-      {
-        "title": "Cybercrime service disrupted for abusing Microsoft platform to sign malware",
-        "link": "https://www.bleepingcomputer.com/news/security/cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware/",
-        "date": "2026-05-19T17:47:31-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Microsoft plans to improve Windows 11 driver quality in 2026",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-plans-to-improve-windows-11-driver-quality-in-2026/",
-        "date": "2026-05-19T12:22:30-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "Play": [
@@ -389,46 +413,20 @@
         "source": "Ars Technica"
       }
     ],
-    "DN": [
-      {
-        "title": "Google Makes It Easy to Deepfake Yourself",
-        "link": "https://www.wired.com/story/google-makes-it-easy-to-make-a-deepfake-of-yourself/",
-        "date": "2026-05-19T17:45:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More",
-        "link": "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
-        "date": "2026-05-18T19:20:17+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Can Laws Stop Deepfakes? South Korea Aims to Find Out",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/can-laws-stop-deepfakes-south-korea",
-        "date": "2026-05-18T01:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
     "Lick": [
       {
         "title": "The New Phishing Click: How OAuth Consent Bypasses MFA",
         "link": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
         "date": "2026-05-19T17:00:00+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
-        "link": "https://blog.cloudflare.com/clickhouse-query-plan-contention/",
-        "date": "2026-05-14T13:00:00+00:00",
-        "source": "Cloudflare"
       }
     ],
-    "core": [
+    "EnCrypt": [
       {
-        "title": "Drupal to Release Urgent Core Security Updates on May 20, Sites Told to Prepare",
-        "link": "https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html",
-        "date": "2026-05-19T16:14:45+05:30",
-        "source": "The Hacker News"
+        "title": "Discord rolls out end-to-end encryption on voice, video calls",
+        "link": "https://www.bleepingcomputer.com/news/security/discord-rolls-out-end-to-end-encryption-on-voice-video-calls/",
+        "date": "2026-05-19T16:37:45-04:00",
+        "source": "BleepingComputer"
       }
     ],
     "Turla": [
@@ -479,72 +477,12 @@
         "source": "DarkReading"
       }
     ],
-    "Hunt": [
+    "Deadeye Jackal": [
       {
-        "title": "7-Eleven confirms data breach claimed by the ShinyHunters gang",
-        "link": "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/",
-        "date": "2026-05-19T10:16:41-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Hunters": [
-      {
-        "title": "7-Eleven confirms data breach claimed by the ShinyHunters gang",
-        "link": "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/",
-        "date": "2026-05-19T10:16:41-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "ShinyHunters": [
-      {
-        "title": "7-Eleven confirms data breach claimed by the ShinyHunters gang",
-        "link": "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/",
-        "date": "2026-05-19T10:16:41-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "APT5": [
-      {
-        "title": "Webinar: The hidden bottlenecks in network incident response",
-        "link": "https://www.bleepingcomputer.com/news/security/webinar-the-hidden-bottlenecks-in-network-incident-response/",
-        "date": "2026-05-19T08:14:22-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
-        "link": "https://blog.cloudflare.com/clickhouse-query-plan-contention/",
-        "date": "2026-05-14T13:00:00+00:00",
-        "source": "Cloudflare"
-      }
-    ],
-    "DDE": [
-      {
-        "title": "Webinar: The hidden bottlenecks in network incident response",
-        "link": "https://www.bleepingcomputer.com/news/security/webinar-the-hidden-bottlenecks-in-network-incident-response/",
-        "date": "2026-05-19T08:14:22-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
-        "link": "https://blog.cloudflare.com/clickhouse-query-plan-contention/",
-        "date": "2026-05-14T13:00:00+00:00",
-        "source": "Cloudflare"
-      }
-    ],
-    "Ank": [
-      {
-        "title": "Fuel Tank Breaches Expand Scope of Iran's Cyber Offensive",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/fuel-tank-breaches-expand-scope-irans-cyber-offensive",
-        "date": "2026-05-18T15:41:55+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "NMoreira": [
-      {
-        "title": "Fuel Tank Breaches Expand Scope of Iran's Cyber Offensive",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/fuel-tank-breaches-expand-scope-irans-cyber-offensive",
-        "date": "2026-05-18T15:41:55+00:00",
-        "source": "DarkReading"
+        "title": "Why the Elasticsearch Platform is the missing piece in your AI stack",
+        "link": "https://www.elastic.co/blog/elasticsearch-platform-missing-piece-ai-stack",
+        "date": "2026-05-19T00:00:00+00:00",
+        "source": "Elastic"
       }
     ],
     "APT37": [
@@ -569,22 +507,6 @@
         "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-15-2026",
         "date": "2026-05-15T18:54:25+00:00",
         "source": "Rapid7"
-      }
-    ],
-    "Locker": [
-      {
-        "title": "Zero-day exploit completely defeats default Windows 11 BitLocker protections",
-        "link": "https://arstechnica.com/security/2026/05/zero-day-exploit-completely-defeats-default-windows-11-bitlocker-protections/",
-        "date": "2026-05-14T18:32:01+00:00",
-        "source": "Ars Technica"
-      }
-    ],
-    "First": [
-      {
-        "title": "Before the First Whistle: How Cyber Criminals Are Targeting World Cup 2026",
-        "link": "https://blog.checkpoint.com/research/before-the-first-whistle-how-cyber-criminals-are-targeting-world-cup-2026/",
-        "date": "2026-05-14T12:55:03+00:00",
-        "source": "Check Point"
       }
     ]
   }

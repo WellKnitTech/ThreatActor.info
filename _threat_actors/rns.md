@@ -30,11 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Stearns and Foster Promo Codes: $300 Off in May](https://www.wired.com/story/stearns-and-foster-promo-code/)
-  Wired - 2026-05-20T
-- [How to Reduce Phishing Exposure Before It Turns into Business Disruption](https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html)
-  The Hacker News - 2026-05-18T
-

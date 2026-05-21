@@ -33,10 +33,6 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Google Makes It Easy to Deepfake Yourself](https://www.wired.com/story/google-makes-it-easy-to-make-a-deepfake-of-yourself/)
-  Wired - 2026-05-19T
-- [⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More](https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html)
-  The Hacker News - 2026-05-18T
-- [Can Laws Stop Deepfakes? South Korea Aims to Find Out](https://www.darkreading.com/vulnerabilities-threats/can-laws-stop-deepfakes-south-korea)
-  DarkReading - 2026-05-18T
+- [Fake Android Apps Commit Carrier Billing Fraud for Premium Svcs.](https://www.darkreading.com/mobile-security/fake-android-apps-carrier-billing-fraud)
+  DarkReading - 2026-05-20T
 
