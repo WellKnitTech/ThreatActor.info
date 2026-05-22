@@ -33,8 +33,10 @@ Ransomware has GUI
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Mustard Made Storage Lockers Are on a Rare Sale Through May 31](https://www.wired.com/story/mustard-made-sale/)
+  Wired - 2026-05-21T
+- [Trump delays AI security executive order, saying language ‘could have been a blocker’](https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/)
+  TechCrunch - 2026-05-21T
 - [Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit](https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html)
   The Hacker News - 2026-05-20T
-- [Zero-day exploit completely defeats default Windows 11 BitLocker protections](https://arstechnica.com/security/2026/05/zero-day-exploit-completely-defeats-default-windows-11-bitlocker-protections/)
-  Ars Technica - 2026-05-14T
 

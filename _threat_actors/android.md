@@ -33,8 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Fake Android Apps Commit Carrier Billing Fraud for Premium Svcs.](https://www.darkreading.com/mobile-security/fake-android-apps-carrier-billing-fraud)
+- [Fake Android Apps Commit Carrier Billing Fraud for Premium Services](https://www.darkreading.com/mobile-security/fake-android-apps-carrier-billing-fraud)
   DarkReading - 2026-05-20T
-- [Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps](https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html)
-  The Hacker News - 2026-05-19T
 

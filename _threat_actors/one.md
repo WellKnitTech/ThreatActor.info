@@ -33,10 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Waymo halts freeway rides after robotaxis struggle in construction zones](https://techcrunch.com/2026/05/21/waymo-halts-freeway-rides-after-robotaxis-struggle-in-construction-zones/)
+  TechCrunch - 2026-05-21T
+- [Best Window Air Conditioners of 2026: Midea, Zafro, GE](https://www.wired.com/gallery/best-window-air-conditioners/)
+  Wired - 2026-05-21T
+- [Flipper One project needs community help to build open Linux platform](https://www.bleepingcomputer.com/news/hardware/flipper-one-project-needs-community-help-to-build-open-linux-platform/)
+  BleepingComputer - 2026-05-21T
 - [Identity Alone Isn't Enough: Why Device Security Has to Share the Load](https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-device-security-has-to-share-the-load/)
   BleepingComputer - 2026-05-20T
 - [Interpol's 'Operation Ramz' Pioneers Cross-Region Collabs in Middle East](https://www.darkreading.com/cybersecurity-operations/interpol-operation-ramz-cross-region-middle-east)
   DarkReading - 2026-05-20T
-- [The Network Security Problem No One Could Solve – Until Now.](https://blog.checkpoint.com/security/the-network-security-problem-no-one-could-solve-until-now/)
-  Check Point - 2026-05-19T
 

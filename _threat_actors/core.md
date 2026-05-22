@@ -37,6 +37,4 @@ Core ransomware surfaced in early 2025 as a new variant within the broader Makop
   The Hacker News - 2026-05-21T
 - [Critical Vulnerability Disclosed in Drupal Core (CVE-2026-9082)](https://labs.beazley.security/advisories/BSL-A1176)
   Beazley Security Labs Advisories - 2026-05-20T
-- [Drupal to Release Urgent Core Security Updates on May 20, Sites Told to Prepare](https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html)
-  The Hacker News - 2026-05-19T
 

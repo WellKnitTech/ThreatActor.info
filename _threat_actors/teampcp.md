@@ -31,9 +31,3 @@ TeamPCP is a threat actor that has executed a coordinated series of supply chain
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [GitHub investigates internal repositories breach claimed by TeamPCP](https://www.bleepingcomputer.com/news/security/github-investigates-internal-repositories-breach-claimed-by-teampcp/)
-  BleepingComputer - 2026-05-20T
-

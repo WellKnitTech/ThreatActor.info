@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [A Bipartisan Amendment Would End Police License Plate Tracking Nationwide](https://www.wired.com/story/a-bipartisan-amendment-would-end-police-license-plate-tracking-nationwide/)
-  Wired - 2026-05-20T
-

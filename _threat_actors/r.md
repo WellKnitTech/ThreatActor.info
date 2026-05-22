@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension](https://thehackernews.com/2026/05/github-internal-repositories-breached.html)
-  The Hacker News - 2026-05-21T
-- [Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks](https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html)
-  The Hacker News - 2026-05-21T
-- [The EU Is Going Through a Trump-Fueled Breakup With Big Tech](https://www.wired.com/story/the-eu-is-going-through-a-trump-fueled-breakup-with-big-tech/)
-  Wired - 2026-05-21T
-- [Truecaller gets into the eSIM business to diversify its revenue streams](https://techcrunch.com/2026/05/20/truecaller-gets-into-the-esim-business-to-diversify-its-revenue-streams/)
-  TechCrunch - 2026-05-21T
-- [General Catalyst just led a $63M bet on India’s travel payments market](https://techcrunch.com/2026/05/20/indian-travel-fintech-scapia-more-than-doubles-valuation-to-over-500m-in-a-year/)
-  TechCrunch - 2026-05-21T
+- [Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access](https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html)
+  The Hacker News - 2026-05-22T
+- [Dyson Promo Codes: 25% Off in May 2026](https://www.wired.com/story/dyson-cordless-vacuum-promo-code/)
+  Wired - 2026-05-22T
+- [AT&T Promo Codes: $50 Off This May 2026](https://www.wired.com/story/att-promo-code/)
+  Wired - 2026-05-22T
+- [30% Off Samsung Promo Code | May 2026](https://www.wired.com/story/samsung-promo-codes/)
+  Wired - 2026-05-22T
+- [Google Workspace Promo Codes: 14% Off for May](https://www.wired.com/story/google-workspace-promo-code/)
+  Wired - 2026-05-22T
 

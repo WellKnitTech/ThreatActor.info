@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [A Bipartisan Amendment Would End Police License Plate Tracking Nationwide](https://www.wired.com/story/a-bipartisan-amendment-would-end-police-license-plate-tracking-nationwide/)
-  Wired - 2026-05-20T
-- [Microsoft’s carbon-removal plans aren’t dead after all](https://techcrunch.com/2026/05/20/microsofts-carbon-removal-plans-arent-dead-after-all/)
-  TechCrunch - 2026-05-20T
-- [Google publishes exploit code threatening millions of Chromium users](https://arstechnica.com/security/2026/05/google-publishes-exploit-code-threatening-millions-of-chromium-users/)
-  Ars Technica - 2026-05-20T
-- [Webworm Deploys EchoCreep and GraphWorm Backdoors Using Discord and MS Graph API](https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html)
-  The Hacker News - 2026-05-20T
-- [Hackers bypass SonicWall VPN MFA due to incomplete patching](https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/)
-  BleepingComputer - 2026-05-20T
+- [Announcing Claude Compliance API support with Cloudflare CASB](https://blog.cloudflare.com/casb-anthropic-integration/)
+  Cloudflare - 2026-05-21T
+- [Microsoft Warns of Two Actively Exploited Defender Vulnerabilities](https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html)
+  The Hacker News - 2026-05-21T
+- [Content Delivery Exploit Opens Websites to Brand Hijacking](https://www.darkreading.com/cyber-risk/content-delivery-exploit-websites-brand-hijacking)
+  DarkReading - 2026-05-21T
+- [Apple blocked over $11 billion in App Store fraud in 6 years](https://www.bleepingcomputer.com/news/apple/apple-blocked-22-billion-in-fraudulent-app-store-transactions-in-2025/)
+  BleepingComputer - 2026-05-21T
+- [Flipper One project needs community help to build open Linux platform](https://www.bleepingcomputer.com/news/hardware/flipper-one-project-needs-community-help-to-build-open-linux-platform/)
+  BleepingComputer - 2026-05-21T
 

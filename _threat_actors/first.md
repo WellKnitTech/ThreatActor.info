@@ -33,6 +33,8 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Anthropic says it’s about to have its first profitable quarter](https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/)
-  TechCrunch - 2026-05-21T
+- [SpaceX scrubs first Starship V3 launch just before liftoff](https://techcrunch.com/2026/05/21/spacex-scrubs-first-starship-v3-launch-just-before-liftoff/)
+  TechCrunch - 2026-05-22T
+- [Police seize “First VPN” service used in ransomware, data theft attacks](https://www.bleepingcomputer.com/news/security/police-seize-first-vpn-service-used-in-ransomware-data-theft-attacks/)
+  BleepingComputer - 2026-05-21T
 

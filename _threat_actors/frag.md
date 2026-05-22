@@ -30,3 +30,9 @@ Frag is a relatively new ransomware and data extortion group first seen in Febru
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [This young startup is taking on a fragrance industry that hasn’t changed in almost half a century](https://techcrunch.com/2026/05/21/a-new-fragrance-company-raises-2-million-to-find-new-scent-molecules/)
+  TechCrunch - 2026-05-21T
+

@@ -30,3 +30,9 @@ Ransomware written in C#. Fortunately, all current versions of the MafiaWare666 
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Apple blocked over $11 billion in App Store fraud in 6 years](https://www.bleepingcomputer.com/news/apple/apple-blocked-22-billion-in-fraudulent-app-store-transactions-in-2025/)
+  BleepingComputer - 2026-05-21T
+

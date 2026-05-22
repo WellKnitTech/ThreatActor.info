@@ -33,6 +33,6 @@ Quantum is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Imperagen raises £5 million to use quantum physics, AI on enzyme engineering](https://techcrunch.com/2026/05/20/imperagen-raises-5-million-to-redefine-enzyme-engineering/)
-  TechCrunch - 2026-05-21T
+- [US government takes $2 billion equity stake in nine quantum computing firms](https://arstechnica.com/gadgets/2026/05/us-government-takes-2-billion-equity-stake-in-nine-quantum-computing-firms/)
+  Ars Technica - 2026-05-21T
 

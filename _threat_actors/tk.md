@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories](https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html)
+  The Hacker News - 2026-05-21T
+

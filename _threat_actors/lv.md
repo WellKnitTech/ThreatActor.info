@@ -33,10 +33,6 @@ parser needs to be built
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [OpenAI claims it solved an 80-year-old math problem — for real this time](https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/)
-  TechCrunch - 2026-05-20T
 - [The Network Security Problem No One Could Solve – Until Now.](https://blog.checkpoint.com/security/the-network-security-problem-no-one-could-solve-until-now/)
   Check Point - 2026-05-19T
-- [Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files](https://unit42.paloaltonetworks.com/gremlin-stealer-evolution/)
-  Unit 42 - 2026-05-15T
 
