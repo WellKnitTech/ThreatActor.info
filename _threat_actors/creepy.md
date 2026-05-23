@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [‘Creepy’ Listening Tool for Targeted Ads Didn’t Actually Work, FTC Says](https://www.wired.com/story/creepy-listening-tool-for-targeted-ads-didnt-actually-work-ftc-says/)
-  Wired - 2026-05-21T
-

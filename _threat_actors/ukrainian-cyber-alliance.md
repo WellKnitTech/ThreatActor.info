@@ -37,9 +37,3 @@ Cyber Alliance is a hacktivist group that has demonstrated capabilities in explo
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Breaking the Black Box: A Case Study in Red-Teaming a Government Education AI](https://www.sentinelone.com/blog/red-teaming-a-government-edubot/)
-  SentinelOne - 2026-05-18T
-

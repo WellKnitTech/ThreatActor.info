@@ -44,12 +44,6 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Meta Is in Crisis, Google Search’s Makeover, and AI Gets Booed by Graduates](https://www.wired.com/story/uncanny-valley-podcast-meta-in-crisis-google-search-makeover-ai-booed-by-graduates/)
-  Wired - 2026-05-21T
-- [Six search engines worth trying now that Google isn’t really Google anymore](https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/)
-  TechCrunch - 2026-05-21T
-- [Why the 2026 Hurricane Season Might Not Be That Bad](https://www.wired.com/story/why-the-2026-hurricane-season-might-not-be-that-bad/)
-  Wired - 2026-05-21T
-- [Why the Elasticsearch Platform is the missing piece in your AI stack](https://www.elastic.co/blog/elasticsearch-platform-missing-piece-ai-stack)
-  Elastic - 2026-05-19T
+- [Even If You Hate AI, You Will Use Google AI Search](https://www.wired.com/story/even-if-you-hate-ai-you-will-use-google-ai-search/)
+  Wired - 2026-05-22T
 

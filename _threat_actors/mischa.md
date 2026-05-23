@@ -30,3 +30,9 @@ Ransomware Packaged with Petya PDFBewerbungsmappe.exe
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Blue Origin cleared to fly New Glenn mega-rocket after April mishap](https://techcrunch.com/2026/05/22/blue-origin-cleared-to-fly-new-glenn-mega-rocket-after-april-mishap/)
+  TechCrunch - 2026-05-22T
+

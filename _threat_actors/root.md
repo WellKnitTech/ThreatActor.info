@@ -37,6 +37,4 @@ Root is an active extortion or ransomware group tracked by RansomLook.
   The Hacker News - 2026-05-21T
 - [9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros](https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html)
   The Hacker News - 2026-05-21T
-- [Exploit released for new PinTheft Arch Linux root escalation flaw](https://www.bleepingcomputer.com/news/linux/exploit-released-for-new-pintheft-arch-linux-root-escalation-flaw/)
-  BleepingComputer - 2026-05-20T
 

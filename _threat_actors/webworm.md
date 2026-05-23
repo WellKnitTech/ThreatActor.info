@@ -40,6 +40,6 @@ Space Pirates is a cybercrime group that has been active since at least 2017. Th
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Webworm Deploys EchoCreep and GraphWorm Backdoors Using Discord and MS Graph API](https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html)
-  The Hacker News - 2026-05-20T
+- [China's Webworm Uses Discord, Microsoft Graphs to Hack EU Governments](https://www.darkreading.com/endpoint-security/chinas-webworm-discord-microsoft-graphs)
+  DarkReading - 2026-05-22T
 

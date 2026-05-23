@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access](https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html)
-  The Hacker News - 2026-05-22T
-- [Dyson Promo Codes: 25% Off in May 2026](https://www.wired.com/story/dyson-cordless-vacuum-promo-code/)
-  Wired - 2026-05-22T
-- [AT&T Promo Codes: $50 Off This May 2026](https://www.wired.com/story/att-promo-code/)
-  Wired - 2026-05-22T
-- [30% Off Samsung Promo Code | May 2026](https://www.wired.com/story/samsung-promo-codes/)
-  Wired - 2026-05-22T
-- [Google Workspace Promo Codes: 14% Off for May](https://www.wired.com/story/google-workspace-promo-code/)
-  Wired - 2026-05-22T
+- [T-Mobile Promo Codes: 25% Off | May](https://www.wired.com/story/t-mobile-business-promo-code/)
+  Wired - 2026-05-23T
+- [Newegg Promo Code: 10% Off in May 2026](https://www.wired.com/story/newegg-promo-code/)
+  Wired - 2026-05-23T
+- [Squarespace Promo Codes: 20% Off in May 2026](https://www.wired.com/story/squarespace-promo-code/)
+  Wired - 2026-05-23T
+- [Valvoline Coupons & Promo Codes for May 2026](https://www.wired.com/story/valvoline-coupons/)
+  Wired - 2026-05-23T
+- [Ulta Promo Codes: Up to 50% Off in May](https://www.wired.com/story/ulta-coupon/)
+  Wired - 2026-05-23T
 
