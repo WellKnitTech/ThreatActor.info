@@ -46,3 +46,9 @@ OilRig is an Iranian threat group operating primarily in the Middle East by targ
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Best Early Memorial Day Mattress Deals: Helix, Saatva (2026)](https://www.wired.com/story/memorial-day-mattress-deals-2026-1/)
+  Wired - 2026-05-23T
+

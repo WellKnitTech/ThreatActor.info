@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups](https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html)
-  The Hacker News - 2026-05-22T
-- [Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware](https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html)
-  The Hacker News - 2026-05-22T
-- [Metasploit Wrap Up 05/22/2026](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-22-2026)
-  Rapid7 - 2026-05-22T
-- [Memorial Day 2026 Grill and Griddle Deals: Weber, Traeger, Recteq](https://www.wired.com/story/memorial-day-grill-griddle-deals-2026/)
-  Wired - 2026-05-22T
-- [Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective](https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html)
-  The Hacker News - 2026-05-22T
+- [SolarSquare in talks to raise up to $60M as India’s rooftop solar market draws major VC interest](https://techcrunch.com/2026/05/23/solarsquare-in-talks-to-raise-up-to-60m-as-indias-rooftop-solar-market-draws-major-vc-interest/)
+  TechCrunch - 2026-05-23T
+- [Laravel Lang packages hijacked to deploy credential-stealing malware](https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/)
+  BleepingComputer - 2026-05-23T
+- [Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer](https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html)
+  The Hacker News - 2026-05-23T
+- [Ferrari is using IBM’s AI to create F1 superfans](https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/)
+  TechCrunch - 2026-05-23T
+- [Italy disrupts CINEMAGOAL piracy app that stole streaming auth codes](https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/)
+  BleepingComputer - 2026-05-23T
 

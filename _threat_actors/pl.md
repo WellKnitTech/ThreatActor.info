@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Lowe’s Promo Codes and Deals: Up to $300 Off Appliances](https://www.wired.com/story/lowes-promo-code/)
-  Wired - 2026-05-23T
-- [Loop Earplugs Discount Codes: 40% Off](https://www.wired.com/story/loop-earplugs-discount-code/)
-  Wired - 2026-05-23T
-- [Metasploit Wrap Up 05/22/2026](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-22-2026)
-  Rapid7 - 2026-05-22T
-- [Memorial Day Tech Deals: Sony, Apple, Beats (2026)](https://www.wired.com/story/memorial-day-tech-deals-2026-1/)
-  Wired - 2026-05-22T
-- [Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective](https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html)
-  The Hacker News - 2026-05-22T
+- [npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks](https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html)
+  The Hacker News - 2026-05-23T
+- [Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware](https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html)
+  The Hacker News - 2026-05-23T
+- [Laravel Lang packages hijacked to deploy credential-stealing malware](https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/)
+  BleepingComputer - 2026-05-23T
+- [Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer](https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html)
+  The Hacker News - 2026-05-23T
+- [LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root](https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html)
+  The Hacker News - 2026-05-23T
 

@@ -34,6 +34,8 @@ Hunt ransomware is a variant of the Dharma/CrySIS ransomware family. This varian
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [L.L.Bean's Zip Hunter's Tote Is the Only Carryall You Need](https://www.wired.com/story/llbean-zip-hunters-tote-bag/)
+  Wired - 2026-05-23T
 - [Sentinels League 2026: Live Rankings for the Threat Hunting World Championship](https://www.sentinelone.com/blog/sentinels-league-live-rankings/)
   SentinelOne - 2026-05-20T
 

@@ -41,9 +41,3 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Even If You Hate AI, You Will Use Google AI Search](https://www.wired.com/story/even-if-you-hate-ai-you-will-use-google-ai-search/)
-  Wired - 2026-05-22T
-

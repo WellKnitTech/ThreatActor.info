@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T05:38:40Z",
+  "updated": "2026-05-24T06:00:16Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,43 +19,161 @@
     "Rapid7"
   ],
   "actor_news": {
+    "PL": [
+      {
+        "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
+        "link": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
+        "date": "2026-05-23T22:05:10+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware",
+        "link": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
+        "date": "2026-05-23T21:37:51+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
+        "link": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
+        "date": "2026-05-23T16:48:23-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
+        "link": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
+        "date": "2026-05-23T15:21:13+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
+        "link": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
+        "date": "2026-05-23T13:05:13+05:30",
+        "source": "The Hacker News"
+      }
+    ],
     "R": [
       {
-        "title": "T-Mobile Promo Codes: 25% Off | May",
-        "link": "https://www.wired.com/story/t-mobile-business-promo-code/",
-        "date": "2026-05-23T05:00:00+00:00",
+        "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
+        "link": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
+        "date": "2026-05-23T22:05:10+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware",
+        "link": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
+        "date": "2026-05-23T21:37:51+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "SolarSquare in talks to raise up to $60M as India’s rooftop solar market draws major VC interest",
+        "link": "https://techcrunch.com/2026/05/23/solarsquare-in-talks-to-raise-up-to-60m-as-indias-rooftop-solar-market-draws-major-vc-interest/",
+        "date": "2026-05-23T20:03:13+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software",
+        "link": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html",
+        "date": "2026-05-23T17:25:35+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
+        "link": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
+        "date": "2026-05-23T16:48:23-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Ra": [
+      {
+        "title": "SolarSquare in talks to raise up to $60M as India’s rooftop solar market draws major VC interest",
+        "link": "https://techcrunch.com/2026/05/23/solarsquare-in-talks-to-raise-up-to-60m-as-indias-rooftop-solar-market-draws-major-vc-interest/",
+        "date": "2026-05-23T20:03:13+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
+        "link": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
+        "date": "2026-05-23T16:48:23-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
+        "link": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
+        "date": "2026-05-23T15:21:13+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Ferrari is using IBM’s AI to create F1 superfans",
+        "link": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
+        "date": "2026-05-23T15:08:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Italy disrupts CINEMAGOAL piracy app that stole streaming auth codes",
+        "link": "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/",
+        "date": "2026-05-23T10:23:44-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "One": [
+      {
+        "title": "These special phone and app features can help protect you from spyware",
+        "link": "https://techcrunch.com/2026/05/23/you-dont-have-to-click-anything-to-get-hacked-anymore-heres-how-to-fight-back/",
+        "date": "2026-05-23T16:00:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Peec, one of Berlin’s rising startups, more than doubled annualized revenue in months to $10M, sources say",
+        "link": "https://techcrunch.com/2026/05/23/peec-one-of-berlins-rising-startups-more-than-doubled-annualized-revenue-in-months-to-10m-sources-say/",
+        "date": "2026-05-23T07:01:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV",
+        "link": "https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html",
+        "date": "2026-05-22T11:17:33+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Trend Micro warns of Apex One zero-day exploited in the wild",
+        "link": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
+        "date": "2026-05-22T09:39:19-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Why Chargebacks are Just One Piece of the Fraud Puzzle",
+        "link": "https://www.bleepingcomputer.com/news/security/why-chargebacks-are-just-one-piece-of-the-fraud-puzzle/",
+        "date": "2026-05-22T09:09:18-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Ank": [
+      {
+        "title": "Best Power Banks (2026): My Picks After Testing Over 100",
+        "link": "https://www.wired.com/gallery/best-portable-chargers-power-banks/",
+        "date": "2026-05-23T15:30:00+00:00",
         "source": "Wired"
       },
       {
-        "title": "Newegg Promo Code: 10% Off in May 2026",
-        "link": "https://www.wired.com/story/newegg-promo-code/",
-        "date": "2026-05-23T05:00:00+00:00",
-        "source": "Wired"
-      },
+        "title": "Sentinels League 2026: Live Rankings for the Threat Hunting World Championship",
+        "link": "https://www.sentinelone.com/blog/sentinels-league-live-rankings/",
+        "date": "2026-05-20T13:00:44+00:00",
+        "source": "SentinelOne"
+      }
+    ],
+    "PHP": [
       {
-        "title": "Squarespace Promo Codes: 20% Off in May 2026",
-        "link": "https://www.wired.com/story/squarespace-promo-code/",
-        "date": "2026-05-23T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Valvoline Coupons & Promo Codes for May 2026",
-        "link": "https://www.wired.com/story/valvoline-coupons/",
-        "date": "2026-05-23T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Ulta Promo Codes: Up to 50% Off in May",
-        "link": "https://www.wired.com/story/ulta-coupon/",
-        "date": "2026-05-23T05:00:00+00:00",
-        "source": "Wired"
+        "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
+        "link": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
+        "date": "2026-05-23T15:21:13+05:30",
+        "source": "The Hacker News"
       }
     ],
     "Lv": [
       {
-        "title": "Valvoline Coupons & Promo Codes for May 2026",
-        "link": "https://www.wired.com/story/valvoline-coupons/",
-        "date": "2026-05-23T05:00:00+00:00",
+        "title": "Memorial Day Dyson Vacuum Deals: V15 Detect, Gen5Detect, PencilVac On Sale",
+        "link": "https://www.wired.com/story/dyson-vacuum-deals-memorial-day-2026/",
+        "date": "2026-05-23T13:37:45+00:00",
         "source": "Wired"
       },
       {
@@ -65,39 +183,101 @@
         "source": "Check Point"
       }
     ],
-    "PL": [
+    "RIP (Phoenix) Ransomware": [
       {
-        "title": "Lowe’s Promo Codes and Deals: Up to $300 Off Appliances",
-        "link": "https://www.wired.com/story/lowes-promo-code/",
-        "date": "2026-05-23T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Loop Earplugs Discount Codes: 40% Off",
-        "link": "https://www.wired.com/story/loop-earplugs-discount-code/",
-        "date": "2026-05-23T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Metasploit Wrap Up 05/22/2026",
-        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-22-2026",
-        "date": "2026-05-22T19:10:05+00:00",
-        "source": "Rapid7"
-      },
-      {
-        "title": "Memorial Day Tech Deals: Sony, Apple, Beats (2026)",
-        "link": "https://www.wired.com/story/memorial-day-tech-deals-2026-1/",
-        "date": "2026-05-22T18:52:47+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective",
-        "link": "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
-        "date": "2026-05-22T17:08:12+05:30",
+        "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
+        "link": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
+        "date": "2026-05-23T13:05:13+05:30",
         "source": "The Hacker News"
       }
     ],
+    "Root": [
+      {
+        "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
+        "link": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
+        "date": "2026-05-23T13:05:13+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories",
+        "link": "https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html",
+        "date": "2026-05-21T17:22:14+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "core": [
+      {
+        "title": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV",
+        "link": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
+        "date": "2026-05-23T12:53:48+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Critical Vulnerability Disclosed in Drupal Core (CVE-2026-9082)",
+        "link": "https://labs.beazley.security/advisories/BSL-A1176",
+        "date": "2026-05-20T05:00:00.000Z",
+        "source": "Beazley Security Labs Advisories"
+      }
+    ],
+    "DDE": [
+      {
+        "title": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV",
+        "link": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
+        "date": "2026-05-23T12:53:48+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Hunt": [
+      {
+        "title": "L.L.Bean's Zip Hunter's Tote Is the Only Carryall You Need",
+        "link": "https://www.wired.com/story/llbean-zip-hunters-tote-bag/",
+        "date": "2026-05-23T11:01:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Sentinels League 2026: Live Rankings for the Threat Hunting World Championship",
+        "link": "https://www.sentinelone.com/blog/sentinels-league-live-rankings/",
+        "date": "2026-05-20T13:00:44+00:00",
+        "source": "SentinelOne"
+      }
+    ],
+    "Quantum": [
+      {
+        "title": "Quantum ‘Jamming’ Could Help Unlock the Mysteries of Causality",
+        "link": "https://www.wired.com/story/quantum-jamming-could-help-unlock-the-mysteries-of-causality/",
+        "date": "2026-05-23T11:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "US government takes $2 billion equity stake in nine quantum computing firms",
+        "link": "https://arstechnica.com/gadgets/2026/05/us-government-takes-2-billion-equity-stake-in-nine-quantum-computing-firms/",
+        "date": "2026-05-21T13:48:38+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "SALTY SPIDER": [
+      {
+        "title": "Quantum ‘Jamming’ Could Help Unlock the Mysteries of Causality",
+        "link": "https://www.wired.com/story/quantum-jamming-could-help-unlock-the-mysteries-of-causality/",
+        "date": "2026-05-23T11:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Wheat Tempest": [
+      {
+        "title": "A 'Golden Orb' on the Ocean Floor Came From a Mysterious Animal",
+        "link": "https://www.wired.com/story/a-golden-orb-on-the-ocean-floor-came-from-a-mysterious-animal/",
+        "date": "2026-05-23T09:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
     "APT3": [
+      {
+        "title": "Peec, one of Berlin’s rising startups, more than doubled annualized revenue in months to $10M, sources say",
+        "link": "https://techcrunch.com/2026/05/23/peec-one-of-berlins-rising-startups-more-than-doubled-annualized-revenue-in-months-to-10m-sources-say/",
+        "date": "2026-05-23T07:01:00+00:00",
+        "source": "TechCrunch"
+      },
       {
         "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
         "link": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
@@ -109,6 +289,14 @@
         "link": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/",
         "date": "2026-05-22T20:40:48+00:00",
         "source": "TechCrunch"
+      }
+    ],
+    "OilRig": [
+      {
+        "title": "Best Early Memorial Day Mattress Deals: Helix, Saatva (2026)",
+        "link": "https://www.wired.com/story/memorial-day-mattress-deals-2026-1/",
+        "date": "2026-05-23T06:54:00+00:00",
+        "source": "Wired"
       }
     ],
     "First": [
@@ -143,38 +331,6 @@
         "link": "https://www.rapid7.com/blog/post/it-2026-global-cybersecurity-summit-key-takeaways-security-leaders",
         "date": "2026-05-19T15:22:16+00:00",
         "source": "Rapid7"
-      }
-    ],
-    "Ra": [
-      {
-        "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
-        "link": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
-        "date": "2026-05-22T23:05:02+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
-        "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
-        "date": "2026-05-22T21:50:32+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Metasploit Wrap Up 05/22/2026",
-        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-22-2026",
-        "date": "2026-05-22T19:10:05+00:00",
-        "source": "Rapid7"
-      },
-      {
-        "title": "Memorial Day 2026 Grill and Griddle Deals: Weber, Traeger, Recteq",
-        "link": "https://www.wired.com/story/memorial-day-grill-griddle-deals-2026/",
-        "date": "2026-05-22T17:48:45+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective",
-        "link": "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
-        "date": "2026-05-22T17:08:12+05:30",
-        "source": "The Hacker News"
       }
     ],
     "ghost": [
@@ -269,46 +425,6 @@
         "source": "DarkReading"
       }
     ],
-    "Deadeye Jackal": [
-      {
-        "title": "Even If You Hate AI, You Will Use Google AI Search",
-        "link": "https://www.wired.com/story/even-if-you-hate-ai-you-will-use-google-ai-search/",
-        "date": "2026-05-22T15:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "One": [
-      {
-        "title": "Trump Mobile confirms it exposed customers’ personal data, including phone numbers and home addresses",
-        "link": "https://techcrunch.com/2026/05/22/trump-mobile-confirms-it-exposed-customers-personal-data-including-phone-numbers-and-home-addresses/",
-        "date": "2026-05-22T14:30:52+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV",
-        "link": "https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html",
-        "date": "2026-05-22T11:17:33+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Trend Micro warns of Apex One zero-day exploited in the wild",
-        "link": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
-        "date": "2026-05-22T09:39:19-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Why Chargebacks are Just One Piece of the Fraud Puzzle",
-        "link": "https://www.bleepingcomputer.com/news/security/why-chargebacks-are-just-one-piece-of-the-fraud-puzzle/",
-        "date": "2026-05-22T09:09:18-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Flipper One project needs community help to build open Linux platform",
-        "link": "https://www.bleepingcomputer.com/news/hardware/flipper-one-project-needs-community-help-to-build-open-linux-platform/",
-        "date": "2026-05-21T07:00:00-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
     "BRONZE BUTLER": [
       {
         "title": "Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns",
@@ -323,14 +439,6 @@
         "link": "https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/",
         "date": "2026-05-22T13:00:42+00:00",
         "source": "Unit 42"
-      }
-    ],
-    "SunCrypt": [
-      {
-        "title": "Samsung Movingstyle M7 Review: A Screen on Wheels",
-        "link": "https://www.wired.com/review/samsung-movingstyle-32-m7/",
-        "date": "2026-05-22T11:48:00+00:00",
-        "source": "Wired"
       }
     ],
     "APT41": [
@@ -375,18 +483,6 @@
         "link": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
         "date": "2026-05-22T09:39:19-04:00",
         "source": "BleepingComputer"
-      },
-      {
-        "title": "Microsoft Warns of Two Actively Exploited Defender Vulnerabilities",
-        "link": "https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html",
-        "date": "2026-05-21T16:25:57+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Microsoft warns of new Defender zero-days exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-new-defender-zero-days-exploited-in-attacks/",
-        "date": "2026-05-21T03:49:48-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "Webworm": [
@@ -397,40 +493,12 @@
         "source": "DarkReading"
       }
     ],
-    "Root": [
-      {
-        "title": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories",
-        "link": "https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html",
-        "date": "2026-05-21T17:22:14+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros",
-        "link": "https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html",
-        "date": "2026-05-21T13:05:53+05:30",
-        "source": "The Hacker News"
-      }
-    ],
     "Tk": [
       {
         "title": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories",
         "link": "https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html",
         "date": "2026-05-21T17:22:14+05:30",
         "source": "The Hacker News"
-      }
-    ],
-    "Defender": [
-      {
-        "title": "Microsoft Warns of Two Actively Exploited Defender Vulnerabilities",
-        "link": "https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html",
-        "date": "2026-05-21T16:25:57+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Microsoft warns of new Defender zero-days exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-new-defender-zero-days-exploited-in-attacks/",
-        "date": "2026-05-21T03:49:48-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "Bud": [
@@ -455,14 +523,6 @@
         "source": "Ars Technica"
       }
     ],
-    "Quantum": [
-      {
-        "title": "US government takes $2 billion equity stake in nine quantum computing firms",
-        "link": "https://arstechnica.com/gadgets/2026/05/us-government-takes-2-billion-equity-stake-in-nine-quantum-computing-firms/",
-        "date": "2026-05-21T13:48:38+00:00",
-        "source": "Ars Technica"
-      }
-    ],
     "Lick": [
       {
         "title": "Q1 2026 Threat Landscape Report: Zero-clicks, geopolitical tensions, and some wins for law enforcement",
@@ -471,50 +531,12 @@
         "source": "Rapid7"
       }
     ],
-    "core": [
-      {
-        "title": "Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks",
-        "link": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
-        "date": "2026-05-21T09:14:11+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Critical Vulnerability Disclosed in Drupal Core (CVE-2026-9082)",
-        "link": "https://labs.beazley.security/advisories/BSL-A1176",
-        "date": "2026-05-20T05:00:00.000Z",
-        "source": "Beazley Security Labs Advisories"
-      }
-    ],
-    "Ramp": [
-      {
-        "title": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development",
-        "link": "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html",
-        "date": "2026-05-20T22:36:54+05:30",
-        "source": "The Hacker News"
-      }
-    ],
     "AnDROid": [
       {
         "title": "Fake Android Apps Commit Carrier Billing Fraud for Premium Services",
         "link": "https://www.darkreading.com/mobile-security/fake-android-apps-carrier-billing-fraud",
         "date": "2026-05-20T20:35:35+00:00",
         "source": "DarkReading"
-      }
-    ],
-    "Ank": [
-      {
-        "title": "Sentinels League 2026: Live Rankings for the Threat Hunting World Championship",
-        "link": "https://www.sentinelone.com/blog/sentinels-league-live-rankings/",
-        "date": "2026-05-20T13:00:44+00:00",
-        "source": "SentinelOne"
-      }
-    ],
-    "Hunt": [
-      {
-        "title": "Sentinels League 2026: Live Rankings for the Threat Hunting World Championship",
-        "link": "https://www.sentinelone.com/blog/sentinels-league-live-rankings/",
-        "date": "2026-05-20T13:00:44+00:00",
-        "source": "SentinelOne"
       }
     ],
     "Darkhotel": [

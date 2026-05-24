@@ -35,3 +35,9 @@ Beginning in January 2018 and persisting through the first half of the year, Cro
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Quantum ‘Jamming’ Could Help Unlock the Mysteries of Causality](https://www.wired.com/story/quantum-jamming-could-help-unlock-the-mysteries-of-causality/)
+  Wired - 2026-05-23T
+
