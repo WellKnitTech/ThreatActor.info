@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Why Garlic Repels Mosquitoes and Keeps Them From Breeding](https://www.wired.com/story/why-garlic-repels-mosquitoes-and-keeps-them-from-breeding/)
+  Wired - 2026-05-24T
+

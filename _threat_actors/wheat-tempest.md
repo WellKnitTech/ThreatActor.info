@@ -30,9 +30,3 @@ Microsoft threat actor profile. Origin/Threat: Financially motivated.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [A 'Golden Orb' on the Ocean Floor Came From a Mysterious Animal](https://www.wired.com/story/a-golden-orb-on-the-ocean-floor-came-from-a-mysterious-animal/)
-  Wired - 2026-05-23T
-

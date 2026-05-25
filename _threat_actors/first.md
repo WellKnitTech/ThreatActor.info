@@ -37,6 +37,4 @@ It’s directed to English speaking users, therefore is able to infect worldwide
   The Hacker News - 2026-05-22T
 - [SpaceX launches Starship V3 for the first time, but loses booster on return](https://techcrunch.com/2026/05/22/spacex-launches-starship-v3-for-the-first-time-but-loses-booster-on-return/)
   TechCrunch - 2026-05-22T
-- [Police seize “First VPN” service used in ransomware, data theft attacks](https://www.bleepingcomputer.com/news/security/police-seize-first-vpn-service-used-in-ransomware-data-theft-attacks/)
-  BleepingComputer - 2026-05-21T
 

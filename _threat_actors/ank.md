@@ -33,6 +33,8 @@ Ank is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Memorial Day Tech Deals: Sony, Anker, Beats (2026)](https://www.wired.com/story/memorial-day-tech-deals-2026-1/)
+  Wired - 2026-05-24T
 - [Best Power Banks (2026): My Picks After Testing Over 100](https://www.wired.com/gallery/best-portable-chargers-power-banks/)
   Wired - 2026-05-23T
 - [Sentinels League 2026: Live Rankings for the Threat Hunting World Championship](https://www.sentinelone.com/blog/sentinels-league-live-rankings/)

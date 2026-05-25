@@ -33,6 +33,8 @@ Ransomware Variant of Kirk
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign](https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/)
+  BleepingComputer - 2026-05-24T
 - [Q1 2026 Threat Landscape Report: Zero-clicks, geopolitical tensions, and some wins for law enforcement](https://www.rapid7.com/blog/post/tr-q1-2026-threat-landscape-report-geopolitics-ransomware)
   Rapid7 - 2026-05-21T
 
