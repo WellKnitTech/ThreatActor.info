@@ -31,3 +31,9 @@ A criminal group dubbed Cobalt is behind synchronized ATM heists that saw machin
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike](https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html)
+  The Hacker News - 2026-05-26T
+

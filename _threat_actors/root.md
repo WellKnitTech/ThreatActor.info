@@ -35,6 +35,4 @@ Root is an active extortion or ransomware group tracked by RansomLook.
 
 - [LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root](https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html)
   The Hacker News - 2026-05-23T
-- [ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories](https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html)
-  The Hacker News - 2026-05-21T
 

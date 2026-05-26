@@ -41,9 +41,3 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Why the Elasticsearch Platform is the missing piece in your AI stack](https://www.elastic.co/blog/elasticsearch-platform-missing-piece-ai-stack)
-  Elastic - 2026-05-19T
-

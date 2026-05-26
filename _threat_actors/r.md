@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Shark Promo Codes for This May](https://www.wired.com/story/shark-promo-code/)
+- [KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike](https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html)
+  The Hacker News - 2026-05-26T
+- [The Electric Ferrari Luce Is Finally Here](https://www.wired.com/story/ferrari-luce-ev-is-finally-here/)
   Wired - 2026-05-25T
-- [Design Within Reach Promo Codes: 30% Off | 2026](https://www.wired.com/story/design-within-reach-promo-code/)
+- [⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos](https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html)
+  The Hacker News - 2026-05-25T
+- [A Swimmer Broke a World Record at the Enhanced Games](https://www.wired.com/story/a-swimmer-broke-a-world-record-at-the-enhanced-games/)
   Wired - 2026-05-25T
-- [30% Off Canon Promo Codes | May 2026](https://www.wired.com/story/canon-promo-code/)
-  Wired - 2026-05-25T
-- [Everyone is navigating AI security in real time — even Google](https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/)
-  TechCrunch - 2026-05-24T
-- [Xreal, Google’s smartglasses partner, thinks it has finally mastered this notoriously tricky industry](https://techcrunch.com/2026/05/24/xreal-googles-smartglasses-partner-thinks-it-has-finally-mastered-this-notoriously-tricky-industry/)
-  TechCrunch - 2026-05-24T
+- [Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks](https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html)
+  The Hacker News - 2026-05-25T
 

@@ -33,8 +33,6 @@ parser needs to be built
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Memorial Day Dyson Vacuum Deals: V15 Detect, Gen5Detect, PencilVac On Sale](https://www.wired.com/story/dyson-vacuum-deals-memorial-day-2026/)
-  Wired - 2026-05-23T
 - [The Network Security Problem No One Could Solve – Until Now.](https://blog.checkpoint.com/security/the-network-security-problem-no-one-could-solve-until-now/)
   Check Point - 2026-05-19T
 

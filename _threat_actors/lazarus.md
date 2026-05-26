@@ -175,3 +175,9 @@ Lazarus Group is a North Korean state-sponsored cyber threat group attributed to
 [6] [Mandiant DPRK Groups 2023](https://cloud.google.com/blog/topics/threat-intelligence/north-korea-cyber-structure-alignment-2023)
 [7] [JPCert Blog Laz Subgroups 2025](https://blogs.jpcert.or.jp/en/2025/03/classifying-lazaruss-subgroup.html)
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Lazarus Deploys RemotePE Memory-Only RAT Against Financial and Crypto Firms](https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html)
+  The Hacker News - 2026-05-25T
+
