@@ -59,12 +59,19 @@ if report_files.empty?
 end
 
 anomalies = []
+processed = 0
 
 report_files.each do |path|
   payload = JSON.parse(File.read(path))
-  source = payload['source'].to_s.strip
+  unless payload.is_a?(Hash)
+    warn "Skipping non-summary report (array or unexpected shape from ransomlook or similar): #{path}"
+    next
+  end
+
+  source = (payload['source'] || '').to_s.strip
   source = source_key_from_file(path) if source.empty?
 
+  processed += 1
   thresholds = DEFAULT_THRESHOLDS.merge(config.fetch('defaults', {})).merge(config.fetch('sources', {}).fetch(source, {}))
 
   matched = numeric(payload, %w[matched matched_existing_actors]) || 0.0
@@ -93,11 +100,15 @@ report_files.each do |path|
 end
 
 if anomalies.empty?
-  puts "Plan threshold checks passed across #{report_files.length} source report(s)."
+  checked = processed
+  skipped = report_files.length - processed
+  msg = "Plan threshold checks passed across #{checked} source report(s)."
+  msg += " (#{skipped} non-summary reports skipped)" if skipped > 0
+  puts msg
   exit 0
 end
 
-puts 'Plan anomalies detected:'
+puts "Plan anomalies detected (checked #{processed} of #{report_files.length} reports):"
 anomalies.each do |item|
   puts "- #{item['source']}: #{item['summary']}"
   item['issues'].each { |issue| puts "    • #{issue}" }

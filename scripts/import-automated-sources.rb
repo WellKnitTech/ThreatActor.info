@@ -340,7 +340,7 @@ end
 
 def run_command(command)
   puts "\n---"
-  puts "→ #{command.join(' ')}"
+  puts "\u2192 #{command.join(' ')}"
   puts '---'
   stdout, stderr, status = Open3.capture3(*command)
   puts stdout unless stdout.empty?
@@ -389,6 +389,15 @@ def regenerate_outputs
 end
 
 failures = []
+
+# Clean any stale plan/import reports from previous runs so we never mix
+# report shapes (e.g. ransomlook's old array reports with normal object summaries).
+if options[:plan] || options[:apply]
+  FileUtils.mkdir_p(options[:report_dir])
+  Dir[File.join(options[:report_dir], '{plan,import}-*.json')].each do |f|
+    FileUtils.rm_f(f)
+  end
+end
 
 selected_sources(options).each do |source|
   snapshot = snapshot_path(source, options[:date])
