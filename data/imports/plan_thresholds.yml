@@ -14,3 +14,10 @@ sources:
     max_unmatched_ratio: 0.50
   aptnotes:
     max_unmatched_ratio: 0.60
+  ransomlook:
+    # RansomLook is a broad ransomware group matrix with many ambiguous/review cases.
+    # It legitimately produces high "unmatched/review" ratios compared to high-confidence
+    # actor lists (MITRE, etc.). Use very lenient thresholds.
+    min_match_ratio: 0.0
+    max_unmatched_ratio: 0.95
+    max_alias_additions_per_actor: 5
