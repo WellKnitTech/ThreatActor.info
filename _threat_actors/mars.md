@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [A Probe Took Incredible Pictures of Mars on Its Way to a Far-Off Asteroid](https://www.wired.com/story/a-probe-took-incredible-pictures-of-mars-on-its-way-to-a-far-off-asteroid/)
-  Wired - 2026-05-25T
-

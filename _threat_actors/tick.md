@@ -46,6 +46,10 @@ Tick is a cyber espionage group with likely Chinese origins that has been active
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Iranian hackers blamed for breach of Los Angeles transit system that took weeks to recover](https://techcrunch.com/2026/05/26/iranian-hackers-blamed-for-breach-of-los-angeles-transit-system-that-took-weeks-to-recover/)
+  TechCrunch - 2026-05-26T
+- [Iranian Hackers Deploy MiniFast and MiniJunk V2 via Phishing and SEO Poisoning](https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html)
+  The Hacker News - 2026-05-26T
 - [Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns](https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/)
   Unit 42 - 2026-05-22T
 

@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Turn Blind Trust into Verified Control with Prompt Security for Agentic AI](https://www.sentinelone.com/blog/prompt-security-for-agentic-ai/)
-  SentinelOne - 2026-05-19T
-

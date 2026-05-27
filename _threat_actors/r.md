@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike](https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html)
-  The Hacker News - 2026-05-26T
-- [The Electric Ferrari Luce Is Finally Here](https://www.wired.com/story/ferrari-luce-ev-is-finally-here/)
-  Wired - 2026-05-25T
-- [⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos](https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html)
-  The Hacker News - 2026-05-25T
-- [A Swimmer Broke a World Record at the Enhanced Games](https://www.wired.com/story/a-swimmer-broke-a-world-record-at-the-enhanced-games/)
-  Wired - 2026-05-25T
-- [Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks](https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html)
-  The Hacker News - 2026-05-25T
+- [Uplift Promo Codes: $570 Off](https://www.wired.com/story/uplift-desk-coupon-code/)
+  Wired - 2026-05-27T
+- [Hostinger Promo Code: 79% Off for June 2026](https://www.wired.com/story/hostinger-coupon-code/)
+  Wired - 2026-05-27T
+- [Verizon Promo Codes: $200 Verizon Gift Cards | June 2026](https://www.wired.com/story/verizon-promo-code/)
+  Wired - 2026-05-27T
+- [Litter-Robot Promo Codes and Deals: Up to $150 Off](https://www.wired.com/story/litter-robot-promo-code/)
+  Wired - 2026-05-27T
+- [Priceline Promo Codes & Coupons: 10% Off June](https://www.wired.com/story/priceline-promo-code/)
+  Wired - 2026-05-27T
 

@@ -33,6 +33,6 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups](https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html)
-  The Hacker News - 2026-05-22T
+- [Ferrari’s first EV is not for you](https://techcrunch.com/2026/05/26/ferraris-first-ev-is-not-for-you/)
+  TechCrunch - 2026-05-26T
 

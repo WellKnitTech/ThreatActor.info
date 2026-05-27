@@ -30,11 +30,3 @@ Not a RaaS yet.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups](https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html)
-  The Hacker News - 2026-05-22T
-- [Rapid7’s 2026 Global Cybersecurity Summit: Key Takeaways for Security Leaders](https://www.rapid7.com/blog/post/it-2026-global-cybersecurity-summit-key-takeaways-security-leaders)
-  Rapid7 - 2026-05-19T
-

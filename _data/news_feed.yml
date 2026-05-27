@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26T06:05:17Z",
+  "updated": "2026-05-27T06:19:16Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,87 +19,249 @@
     "Rapid7"
   ],
   "actor_news": {
-    "Cobalt": [
+    "PL": [
       {
-        "title": "KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike",
-        "link": "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html",
-        "date": "2026-05-26T10:49:38+05:30",
+        "title": "Uplift Promo Codes: $570 Off",
+        "link": "https://www.wired.com/story/uplift-desk-coupon-code/",
+        "date": "2026-05-27T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "UK Visa Portal spilled thousands of applicants’ passports and selfies online — and hasn’t fixed the leak",
+        "link": "https://techcrunch.com/2026/05/26/uk-visa-portal-spilled-thousands-of-applicants-passports-and-selfies-online-and-hasnt-fixed-the-leak/",
+        "date": "2026-05-26T23:49:05+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "What we’re looking for in Startup Battlefield 2026, and how to apply in time for the May 27 deadline",
+        "link": "https://techcrunch.com/2026/05/26/what-were-looking-for-in-startup-battlefield-2026-and-how-to-apply-in-time-for-the-may-27-deadline/",
+        "date": "2026-05-26T22:55:01+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Trump administration wants nuclear startups to use plutonium for their reactors",
+        "link": "https://techcrunch.com/2026/05/26/trump-administration-wants-nuclear-startups-to-use-plutonium-for-their-reactors/",
+        "date": "2026-05-26T22:37:46+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "KnowledgeDeliver flaw exploited as a zero-day to install web shells",
+        "link": "https://www.bleepingcomputer.com/news/security/knowledgedeliver-flaw-exploited-as-a-zero-day-to-install-web-shells/",
+        "date": "2026-05-26T16:07:31-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "R": [
+      {
+        "title": "Uplift Promo Codes: $570 Off",
+        "link": "https://www.wired.com/story/uplift-desk-coupon-code/",
+        "date": "2026-05-27T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Hostinger Promo Code: 79% Off for June 2026",
+        "link": "https://www.wired.com/story/hostinger-coupon-code/",
+        "date": "2026-05-27T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Verizon Promo Codes: $200 Verizon Gift Cards | June 2026",
+        "link": "https://www.wired.com/story/verizon-promo-code/",
+        "date": "2026-05-27T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Litter-Robot Promo Codes and Deals: Up to $150 Off",
+        "link": "https://www.wired.com/story/litter-robot-promo-code/",
+        "date": "2026-05-27T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Priceline Promo Codes & Coupons: 10% Off June",
+        "link": "https://www.wired.com/story/priceline-promo-code/",
+        "date": "2026-05-27T05:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Stinger": [
+      {
+        "title": "Hostinger Promo Code: 79% Off for June 2026",
+        "link": "https://www.wired.com/story/hostinger-coupon-code/",
+        "date": "2026-05-27T05:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "One": [
+      {
+        "title": "Lovehoney Coupon Offers: Toys, Lingerie, and Gift Set Discounts",
+        "link": "https://www.wired.com/story/lovehoney-discount-code/",
+        "date": "2026-05-27T05:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Ra": [
+      {
+        "title": "Rover Promo Codes and Referral Deals for June 2026",
+        "link": "https://www.wired.com/story/rover-promo-code/",
+        "date": "2026-05-27T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Paramount+ Coupon Codes and Deals for June 2026",
+        "link": "https://www.wired.com/story/paramount-plus-coupon-code/",
+        "date": "2026-05-27T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Trump administration permits Volvo to keep selling connected cars in the US",
+        "link": "https://techcrunch.com/2026/05/26/trump-administration-permits-volvo-to-keep-selling-connected-cars-in-the-us/",
+        "date": "2026-05-26T22:55:01+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Trump administration wants nuclear startups to use plutonium for their reactors",
+        "link": "https://techcrunch.com/2026/05/26/trump-administration-wants-nuclear-startups-to-use-plutonium-for-their-reactors/",
+        "date": "2026-05-26T22:37:46+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Millions of AI agents imperiled by critical vulnerability in open source package",
+        "link": "https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/",
+        "date": "2026-05-26T19:50:33+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "Sport": [
+      {
+        "title": "UK Visa Portal spilled thousands of applicants’ passports and selfies online — and hasn’t fixed the leak",
+        "link": "https://techcrunch.com/2026/05/26/uk-visa-portal-spilled-thousands-of-applicants-passports-and-selfies-online-and-hasnt-fixed-the-leak/",
+        "date": "2026-05-26T23:49:05+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Oled": [
+      {
+        "title": "Pope Leo Schooled the Tech Bros on Tolkien",
+        "link": "https://www.wired.com/story/pope-leo-schooled-the-tech-bros-on-tolkien/",
+        "date": "2026-05-26T23:19:03+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Kee": [
+      {
+        "title": "Trump administration permits Volvo to keep selling connected cars in the US",
+        "link": "https://techcrunch.com/2026/05/26/trump-administration-permits-volvo-to-keep-selling-connected-cars-in-the-us/",
+        "date": "2026-05-26T22:55:01+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Lv": [
+      {
+        "title": "Trump administration permits Volvo to keep selling connected cars in the US",
+        "link": "https://techcrunch.com/2026/05/26/trump-administration-permits-volvo-to-keep-selling-connected-cars-in-the-us/",
+        "date": "2026-05-26T22:55:01+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Ghost hackers: the cybersecurity mystery that nobody has solved",
+        "link": "https://techcrunch.com/2026/05/26/ghost-hackers-the-cybersecurity-mystery-that-nobody-has-solved/",
+        "date": "2026-05-26T15:27:12+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Mini": [
+      {
+        "title": "Trump administration permits Volvo to keep selling connected cars in the US",
+        "link": "https://techcrunch.com/2026/05/26/trump-administration-permits-volvo-to-keep-selling-connected-cars-in-the-us/",
+        "date": "2026-05-26T22:55:01+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Trump administration wants nuclear startups to use plutonium for their reactors",
+        "link": "https://techcrunch.com/2026/05/26/trump-administration-wants-nuclear-startups-to-use-plutonium-for-their-reactors/",
+        "date": "2026-05-26T22:37:46+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Iranian Hackers Deploy MiniFast and MiniJunk V2 via Phishing and SEO Poisoning",
+        "link": "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
+        "date": "2026-05-26T12:43:05+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "APT3": [
+      {
+        "title": "Trump administration wants nuclear startups to use plutonium for their reactors",
+        "link": "https://techcrunch.com/2026/05/26/trump-administration-wants-nuclear-startups-to-use-plutonium-for-their-reactors/",
+        "date": "2026-05-26T22:37:46+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Andariel": [
+      {
+        "title": "Trump administration wants nuclear startups to use plutonium for their reactors",
+        "link": "https://techcrunch.com/2026/05/26/trump-administration-wants-nuclear-startups-to-use-plutonium-for-their-reactors/",
+        "date": "2026-05-26T22:37:46+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "ONI": [
+      {
+        "title": "Trump administration wants nuclear startups to use plutonium for their reactors",
+        "link": "https://techcrunch.com/2026/05/26/trump-administration-wants-nuclear-startups-to-use-plutonium-for-their-reactors/",
+        "date": "2026-05-26T22:37:46+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Iranian Hackers Deploy MiniFast and MiniJunk V2 via Phishing and SEO Poisoning",
+        "link": "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
+        "date": "2026-05-26T12:43:05+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "How Varonis Atlas integrates Claude Compliance API for AI governance",
+        "link": "https://www.bleepingcomputer.com/news/security/how-varonis-atlas-integrates-claude-compliance-api-for-ai-governance/",
+        "date": "2026-05-26T10:01:11-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "A hacker group is poisoning open source code at an unprecedented scale",
+        "link": "https://arstechnica.com/information-technology/2026/05/a-hacker-group-is-poisoning-open-source-code-at-an-unprecedented-scale/",
+        "date": "2026-05-22T10:30:14+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "Silent Chollima": [
+      {
+        "title": "Trump administration wants nuclear startups to use plutonium for their reactors",
+        "link": "https://techcrunch.com/2026/05/26/trump-administration-wants-nuclear-startups-to-use-plutonium-for-their-reactors/",
+        "date": "2026-05-26T22:37:46+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Deadeye Jackal": [
+      {
+        "title": "DuckDuckGo installs are up 30% as users reject being ‘force-fed’ Google’s AI Search",
+        "link": "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/",
+        "date": "2026-05-26T22:32:56+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "MuddyWater": [
+      {
+        "title": "MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries",
+        "link": "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
+        "date": "2026-05-26T21:18:41+05:30",
         "source": "The Hacker News"
       }
     ],
     "Owl": [
       {
-        "title": "KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike",
-        "link": "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html",
-        "date": "2026-05-26T10:49:38+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "PL": [
-      {
-        "title": "KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike",
-        "link": "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html",
-        "date": "2026-05-26T10:49:38+05:30",
-        "source": "The Hacker News"
+        "title": "KnowledgeDeliver flaw exploited as a zero-day to install web shells",
+        "link": "https://www.bleepingcomputer.com/news/security/knowledgedeliver-flaw-exploited-as-a-zero-day-to-install-web-shells/",
+        "date": "2026-05-26T16:07:31-04:00",
+        "source": "BleepingComputer"
       },
-      {
-        "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
-        "link": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
-        "date": "2026-05-25T19:43:27+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks",
-        "link": "https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html",
-        "date": "2026-05-25T17:32:46+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Memorial Day Tech Deals: Sony, Apple, Anker, and More",
-        "link": "https://www.wired.com/story/memorial-day-tech-deals-2026-2/",
-        "date": "2026-05-25T17:23:29+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Lazarus Deploys RemotePE Memory-Only RAT Against Financial and Crypto Firms",
-        "link": "https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html",
-        "date": "2026-05-25T15:02:54+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "R": [
-      {
-        "title": "KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike",
-        "link": "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html",
-        "date": "2026-05-26T10:49:38+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "The Electric Ferrari Luce Is Finally Here",
-        "link": "https://www.wired.com/story/ferrari-luce-ev-is-finally-here/",
-        "date": "2026-05-25T21:03:01+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
-        "link": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
-        "date": "2026-05-25T19:43:27+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "A Swimmer Broke a World Record at the Enhanced Games",
-        "link": "https://www.wired.com/story/a-swimmer-broke-a-world-record-at-the-enhanced-games/",
-        "date": "2026-05-25T17:32:55+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks",
-        "link": "https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html",
-        "date": "2026-05-25T17:32:46+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Zilla": [
       {
         "title": "KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike",
         "link": "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html",
@@ -107,75 +269,43 @@
         "source": "The Hacker News"
       }
     ],
-    "Final": [
+    "Hunt": [
       {
-        "title": "The Electric Ferrari Luce Is Finally Here",
-        "link": "https://www.wired.com/story/ferrari-luce-ev-is-finally-here/",
-        "date": "2026-05-25T21:03:01+00:00",
-        "source": "Wired"
+        "title": "Charter confirms data breach after ShinyHunters extortion threat",
+        "link": "https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/",
+        "date": "2026-05-26T15:46:01-04:00",
+        "source": "BleepingComputer"
       },
       {
-        "title": "The Alert Firehose Finally Meets Its Match",
-        "link": "https://thehackernews.com/2026/05/the-alert-firehose-finally-meets-its.html",
-        "date": "2026-05-25T17:00:00+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Xreal, Google’s smartglasses partner, thinks it has finally mastered this notoriously tricky industry",
-        "link": "https://techcrunch.com/2026/05/24/xreal-googles-smartglasses-partner-thinks-it-has-finally-mastered-this-notoriously-tricky-industry/",
-        "date": "2026-05-24T19:00:00+00:00",
-        "source": "TechCrunch"
+        "title": "Sentinels League 2026: Live Rankings for the Threat Hunting World Championship",
+        "link": "https://www.sentinelone.com/blog/sentinels-league-live-rankings/",
+        "date": "2026-05-20T13:00:44+00:00",
+        "source": "SentinelOne"
       }
     ],
-    "Ra": [
+    "Hunters": [
       {
-        "title": "The Electric Ferrari Luce Is Finally Here",
-        "link": "https://www.wired.com/story/ferrari-luce-ev-is-finally-here/",
-        "date": "2026-05-25T21:03:01+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Lazarus Deploys RemotePE Memory-Only RAT Against Financial and Crypto Firms",
-        "link": "https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html",
-        "date": "2026-05-25T15:02:54+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "The pitch trick that helped an eSports startup raise $20M when VCs only wanted AI",
-        "link": "https://techcrunch.com/2026/05/25/the-pitch-trick-that-helped-an-esports-startup-raise-20m-when-vcs-only-wanted-ai/",
-        "date": "2026-05-25T15:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Best Memorial Day Deals: Garmin, Birdfy, Branch (2026)",
-        "link": "https://www.wired.com/story/best-memorial-day-deals-2026-2/",
-        "date": "2026-05-25T13:38:18+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
-        "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
-        "date": "2026-05-25T13:21:49+00:00",
-        "source": "KrebsOnSecurity"
+        "title": "Charter confirms data breach after ShinyHunters extortion threat",
+        "link": "https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/",
+        "date": "2026-05-26T15:46:01-04:00",
+        "source": "BleepingComputer"
       }
     ],
-    "Chaos": [
+    "ShinyHunters": [
       {
-        "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
-        "link": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
-        "date": "2026-05-25T19:43:27+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Defender": [
-      {
-        "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
-        "link": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
-        "date": "2026-05-25T19:43:27+05:30",
-        "source": "The Hacker News"
+        "title": "Charter confirms data breach after ShinyHunters extortion threat",
+        "link": "https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/",
+        "date": "2026-05-26T15:46:01-04:00",
+        "source": "BleepingComputer"
       }
     ],
     "ghost": [
+      {
+        "title": "Ghost hackers: the cybersecurity mystery that nobody has solved",
+        "link": "https://techcrunch.com/2026/05/26/ghost-hackers-the-cybersecurity-mystery-that-nobody-has-solved/",
+        "date": "2026-05-26T15:27:12+00:00",
+        "source": "TechCrunch"
+      },
       {
         "title": "Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks",
         "link": "https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html",
@@ -187,11 +317,151 @@
         "link": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
         "date": "2026-05-24T10:12:32-04:00",
         "source": "BleepingComputer"
+      }
+    ],
+    "Solve": [
+      {
+        "title": "Ghost hackers: the cybersecurity mystery that nobody has solved",
+        "link": "https://techcrunch.com/2026/05/26/ghost-hackers-the-cybersecurity-mystery-that-nobody-has-solved/",
+        "date": "2026-05-26T15:27:12+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "BRONZE BUTLER": [
+      {
+        "title": "Iranian hackers blamed for breach of Los Angeles transit system that took weeks to recover",
+        "link": "https://techcrunch.com/2026/05/26/iranian-hackers-blamed-for-breach-of-los-angeles-transit-system-that-took-weeks-to-recover/",
+        "date": "2026-05-26T15:26:27+00:00",
+        "source": "TechCrunch"
       },
       {
-        "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
-        "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
-        "date": "2026-05-22T21:50:32+05:30",
+        "title": "Iranian Hackers Deploy MiniFast and MiniJunk V2 via Phishing and SEO Poisoning",
+        "link": "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
+        "date": "2026-05-26T12:43:05+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns",
+        "link": "https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/",
+        "date": "2026-05-22T13:00:42+00:00",
+        "source": "Unit 42"
+      }
+    ],
+    "Tick": [
+      {
+        "title": "Iranian hackers blamed for breach of Los Angeles transit system that took weeks to recover",
+        "link": "https://techcrunch.com/2026/05/26/iranian-hackers-blamed-for-breach-of-los-angeles-transit-system-that-took-weeks-to-recover/",
+        "date": "2026-05-26T15:26:27+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Iranian Hackers Deploy MiniFast and MiniJunk V2 via Phishing and SEO Poisoning",
+        "link": "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
+        "date": "2026-05-26T12:43:05+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns",
+        "link": "https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/",
+        "date": "2026-05-22T13:00:42+00:00",
+        "source": "Unit 42"
+      }
+    ],
+    "First": [
+      {
+        "title": "Ferrari’s first EV is not for you",
+        "link": "https://techcrunch.com/2026/05/26/ferraris-first-ev-is-not-for-you/",
+        "date": "2026-05-26T15:16:34+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Thor": [
+      {
+        "title": "Universal Music Group and TikTok renew agreement to combat unauthorized AI music",
+        "link": "https://techcrunch.com/2026/05/26/universal-music-group-and-tiktok-renew-agreement-to-combat-unauthorized-ai-music/",
+        "date": "2026-05-26T14:55:05+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "APT41": [
+      {
+        "title": "How Security Leaders Cut Through Complexity to Drive Better Outcomes",
+        "link": "https://www.rapid7.com/blog/post/it-security-leaders-cut-through-complexity-driving-stronger-outcomes-webinar",
+        "date": "2026-05-26T12:51:10+00:00",
+        "source": "Rapid7"
+      },
+      {
+        "title": "Former US execs plead guilty to aiding tech support scammers",
+        "link": "https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/",
+        "date": "2026-05-22T11:32:18-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "JCrypt": [
+      {
+        "title": "Iranian Hackers Deploy MiniFast and MiniJunk V2 via Phishing and SEO Poisoning",
+        "link": "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
+        "date": "2026-05-26T12:43:05+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "A hacker group is poisoning open source code at an unprecedented scale",
+        "link": "https://arstechnica.com/information-technology/2026/05/a-hacker-group-is-poisoning-open-source-code-at-an-unprecedented-scale/",
+        "date": "2026-05-22T10:30:14+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "Cobalt": [
+      {
+        "title": "KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike",
+        "link": "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html",
+        "date": "2026-05-26T10:49:38+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Zilla": [
+      {
+        "title": "KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike",
+        "link": "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html",
+        "date": "2026-05-26T10:49:38+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "ATLAS": [
+      {
+        "title": "How Varonis Atlas integrates Claude Compliance API for AI governance",
+        "link": "https://www.bleepingcomputer.com/news/security/how-varonis-atlas-integrates-claude-compliance-api-for-ai-governance/",
+        "date": "2026-05-26T10:01:11-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Defender": [
+      {
+        "title": "Microsoft Defender can now automatically isolate hacked endpoints",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-can-now-automatically-isolate-hacked-endpoints/",
+        "date": "2026-05-26T08:19:43-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
+        "link": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
+        "date": "2026-05-25T19:43:27+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Hacked": [
+      {
+        "title": "Microsoft Defender can now automatically isolate hacked endpoints",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-can-now-automatically-isolate-hacked-endpoints/",
+        "date": "2026-05-26T08:19:43-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Chaos": [
+      {
+        "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
+        "link": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
+        "date": "2026-05-25T19:43:27+05:30",
         "source": "The Hacker News"
       }
     ],
@@ -201,12 +471,6 @@
         "link": "https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html",
         "date": "2026-05-25T17:32:46+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "What ClickUp’s mass layoff tells us about the future of work",
-        "link": "https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/",
-        "date": "2026-05-25T16:00:00+00:00",
-        "source": "TechCrunch"
       },
       {
         "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
@@ -221,26 +485,12 @@
         "source": "Rapid7"
       }
     ],
-    "Ank": [
+    "Final": [
       {
-        "title": "Memorial Day Tech Deals: Sony, Apple, Anker, and More",
-        "link": "https://www.wired.com/story/memorial-day-tech-deals-2026-2/",
-        "date": "2026-05-25T17:23:29+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Sentinels League 2026: Live Rankings for the Threat Hunting World Championship",
-        "link": "https://www.sentinelone.com/blog/sentinels-league-live-rankings/",
-        "date": "2026-05-20T13:00:44+00:00",
-        "source": "SentinelOne"
-      }
-    ],
-    "OilRig": [
-      {
-        "title": "Best Memorial Day Mattress Deals: Helix, Saatva (2026)",
-        "link": "https://www.wired.com/story/memorial-day-mattress-deals-2026-2/",
-        "date": "2026-05-25T17:20:48+00:00",
-        "source": "Wired"
+        "title": "The Alert Firehose Finally Meets Its Match",
+        "link": "https://thehackernews.com/2026/05/the-alert-firehose-finally-meets-its.html",
+        "date": "2026-05-25T17:00:00+05:30",
+        "source": "The Hacker News"
       }
     ],
     "Lazarus": [
@@ -263,12 +513,6 @@
         "link": "https://arstechnica.com/security/2026/05/texas-ag-sues-meta-over-claims-that-whatsapp-doesnt-provide-end-to-end-encryption/",
         "date": "2026-05-22T18:13:05+00:00",
         "source": "Ars Technica"
-      },
-      {
-        "title": "Inside a Crypto Drainer: How to Spot it Before it Empties Your Wallet",
-        "link": "https://www.bleepingcomputer.com/news/security/inside-a-crypto-drainer-how-to-spot-it-before-it-empties-your-wallet/",
-        "date": "2026-05-21T10:00:10-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "Lazarus Group": [
@@ -277,14 +521,6 @@
         "link": "https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html",
         "date": "2026-05-25T15:02:54+05:30",
         "source": "The Hacker News"
-      }
-    ],
-    "Sport": [
-      {
-        "title": "The pitch trick that helped an eSports startup raise $20M when VCs only wanted AI",
-        "link": "https://techcrunch.com/2026/05/25/the-pitch-trick-that-helped-an-esports-startup-raise-20m-when-vcs-only-wanted-ai/",
-        "date": "2026-05-25T15:00:00+00:00",
-        "source": "TechCrunch"
       }
     ],
     "Quantum": [
@@ -301,60 +537,6 @@
         "source": "Ars Technica"
       }
     ],
-    "One": [
-      {
-        "title": "These Privacy-Conscious Gay Dating Apps Want to Dethrone Grindr",
-        "link": "https://www.wired.com/story/these-privacy-conscious-gay-dating-apps-want-to-dethrone-grindr/",
-        "date": "2026-05-25T11:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Everyone is navigating AI security in real time — even Google",
-        "link": "https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/",
-        "date": "2026-05-24T21:39:21+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "The Dreamie alarm clock got me to stop using my phone in bed",
-        "link": "https://techcrunch.com/2026/05/24/the-dreamie-alarm-clock-got-me-to-stop-using-my-phone-in-bed/",
-        "date": "2026-05-24T13:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "These special phone and app features can help protect you from spyware",
-        "link": "https://techcrunch.com/2026/05/23/you-dont-have-to-click-anything-to-get-hacked-anymore-heres-how-to-fight-back/",
-        "date": "2026-05-23T16:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Trend Micro warns of Apex One zero-day exploited in the wild",
-        "link": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
-        "date": "2026-05-22T09:39:19-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Hunt": [
-      {
-        "title": "The AI Era Is Creating a Bug Hunting Arms Race",
-        "link": "https://www.wired.com/story/the-ai-era-is-creating-a-bug-hunting-arms-race/",
-        "date": "2026-05-25T10:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Sentinels League 2026: Live Rankings for the Threat Hunting World Championship",
-        "link": "https://www.sentinelone.com/blog/sentinels-league-live-rankings/",
-        "date": "2026-05-20T13:00:44+00:00",
-        "source": "SentinelOne"
-      }
-    ],
-    "Mars": [
-      {
-        "title": "A Probe Took Incredible Pictures of Mars on Its Way to a Far-Off Asteroid",
-        "link": "https://www.wired.com/story/a-probe-took-incredible-pictures-of-mars-on-its-way-to-a-far-off-asteroid/",
-        "date": "2026-05-25T09:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
     "Kali": [
       {
         "title": "FBI warns of Kali365 phishing service targeting Microsoft 365 accounts",
@@ -369,128 +551,6 @@
         "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-kali365-phishing-service-targeting-microsoft-365-accounts/",
         "date": "2026-05-25T08:45:54-04:00",
         "source": "BleepingComputer"
-      },
-      {
-        "title": "Trend Micro warns of Apex One zero-day exploited in the wild",
-        "link": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
-        "date": "2026-05-22T09:39:19-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Shark": [
-      {
-        "title": "Shark Promo Codes for This May",
-        "link": "https://www.wired.com/story/shark-promo-code/",
-        "date": "2026-05-25T05:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Light": [
-      {
-        "title": "I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out",
-        "link": "https://techcrunch.com/2026/05/24/i-tried-amazons-bee-wearable-and-am-both-intrigued-and-slightly-creeped-out/",
-        "date": "2026-05-24T15:00:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Clock": [
-      {
-        "title": "The Dreamie alarm clock got me to stop using my phone in bed",
-        "link": "https://techcrunch.com/2026/05/24/the-dreamie-alarm-clock-got-me-to-stop-using-my-phone-in-bed/",
-        "date": "2026-05-24T13:00:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "PHP": [
-      {
-        "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
-        "link": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
-        "date": "2026-05-23T15:21:13+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "RIP (Phoenix) Ransomware": [
-      {
-        "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
-        "link": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
-        "date": "2026-05-23T13:05:13+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Root": [
-      {
-        "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
-        "link": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
-        "date": "2026-05-23T13:05:13+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "core": [
-      {
-        "title": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV",
-        "link": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
-        "date": "2026-05-23T12:53:48+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Critical Vulnerability Disclosed in Drupal Core (CVE-2026-9082)",
-        "link": "https://labs.beazley.security/advisories/BSL-A1176",
-        "date": "2026-05-20T05:00:00.000Z",
-        "source": "Beazley Security Labs Advisories"
-      }
-    ],
-    "DDE": [
-      {
-        "title": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV",
-        "link": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
-        "date": "2026-05-23T12:53:48+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "APT3": [
-      {
-        "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
-        "link": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
-        "date": "2026-05-22T23:05:02+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "First": [
-      {
-        "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
-        "link": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
-        "date": "2026-05-22T23:05:02+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "global": [
-      {
-        "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
-        "link": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
-        "date": "2026-05-22T23:05:02+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Rapid7’s 2026 Global Cybersecurity Summit: Key Takeaways for Security Leaders",
-        "link": "https://www.rapid7.com/blog/post/it-2026-global-cybersecurity-summit-key-takeaways-security-leaders",
-        "date": "2026-05-19T15:22:16+00:00",
-        "source": "Rapid7"
-      }
-    ],
-    "Ghostwriter": [
-      {
-        "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
-        "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
-        "date": "2026-05-22T21:50:32+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Prometheus": [
-      {
-        "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
-        "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
-        "date": "2026-05-22T21:50:32+05:30",
-        "source": "The Hacker News"
       }
     ],
     "Metasploit": [
@@ -506,58 +566,6 @@
         "title": "Texas AG sues Meta over claims that WhatsApp doesn't provide end-to-end encryption",
         "link": "https://arstechnica.com/security/2026/05/texas-ag-sues-meta-over-claims-that-whatsapp-doesnt-provide-end-to-end-encryption/",
         "date": "2026-05-22T18:13:05+00:00",
-        "source": "Ars Technica"
-      }
-    ],
-    "BRONZE BUTLER": [
-      {
-        "title": "Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns",
-        "link": "https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/",
-        "date": "2026-05-22T13:00:42+00:00",
-        "source": "Unit 42"
-      }
-    ],
-    "Tick": [
-      {
-        "title": "Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns",
-        "link": "https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/",
-        "date": "2026-05-22T13:00:42+00:00",
-        "source": "Unit 42"
-      }
-    ],
-    "APT41": [
-      {
-        "title": "Former US execs plead guilty to aiding tech support scammers",
-        "link": "https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/",
-        "date": "2026-05-22T11:32:18-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Rapid7’s 2026 Global Cybersecurity Summit: Key Takeaways for Security Leaders",
-        "link": "https://www.rapid7.com/blog/post/it-2026-global-cybersecurity-summit-key-takeaways-security-leaders",
-        "date": "2026-05-19T15:22:16+00:00",
-        "source": "Rapid7"
-      }
-    ],
-    "JCrypt": [
-      {
-        "title": "A hacker group is poisoning open source code at an unprecedented scale",
-        "link": "https://arstechnica.com/information-technology/2026/05/a-hacker-group-is-poisoning-open-source-code-at-an-unprecedented-scale/",
-        "date": "2026-05-22T10:30:14+00:00",
-        "source": "Ars Technica"
-      },
-      {
-        "title": "Apple blocked over $11 billion in App Store fraud in 6 years",
-        "link": "https://www.bleepingcomputer.com/news/apple/apple-blocked-22-billion-in-fraudulent-app-store-transactions-in-2025/",
-        "date": "2026-05-21T11:11:08-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "ONI": [
-      {
-        "title": "A hacker group is poisoning open source code at an unprecedented scale",
-        "link": "https://arstechnica.com/information-technology/2026/05/a-hacker-group-is-poisoning-open-source-code-at-an-unprecedented-scale/",
-        "date": "2026-05-22T10:30:14+00:00",
         "source": "Ars Technica"
       }
     ],
@@ -577,20 +585,6 @@
         "source": "DarkReading"
       }
     ],
-    "Earth Lusca": [
-      {
-        "title": "Google accidentally exposed details of unfixed Chromium flaw",
-        "link": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/",
-        "date": "2026-05-21T14:13:50-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Google publishes exploit code threatening millions of Chromium users",
-        "link": "https://arstechnica.com/security/2026/05/google-publishes-exploit-code-threatening-millions-of-chromium-users/",
-        "date": "2026-05-20T19:10:36+00:00",
-        "source": "Ars Technica"
-      }
-    ],
     "AnDROid": [
       {
         "title": "Fake Android Apps Commit Carrier Billing Fraud for Premium Services",
@@ -607,68 +601,20 @@
         "source": "DarkReading"
       }
     ],
-    "Darkhotel": [
+    "Earth Lusca": [
       {
-        "title": "Interpol's 'Operation Ramz' Pioneers Cross-Region Collabs in Middle East",
-        "link": "https://www.darkreading.com/cybersecurity-operations/interpol-operation-ramz-cross-region-middle-east",
-        "date": "2026-05-20T07:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Play": [
-      {
-        "title": "In stunning display of stupid, secret CISA credentials found in public GitHub repo",
-        "link": "https://arstechnica.com/information-technology/2026/05/in-stunning-display-of-stupid-secret-cisa-credentials-found-in-public-github-repo/",
-        "date": "2026-05-19T18:27:08+00:00",
+        "title": "Google publishes exploit code threatening millions of Chromium users",
+        "link": "https://arstechnica.com/security/2026/05/google-publishes-exploit-code-threatening-millions-of-chromium-users/",
+        "date": "2026-05-20T19:10:36+00:00",
         "source": "Ars Technica"
       }
     ],
-    "Stupid": [
+    "Ank": [
       {
-        "title": "In stunning display of stupid, secret CISA credentials found in public GitHub repo",
-        "link": "https://arstechnica.com/information-technology/2026/05/in-stunning-display-of-stupid-secret-cisa-credentials-found-in-public-github-repo/",
-        "date": "2026-05-19T18:27:08+00:00",
-        "source": "Ars Technica"
-      }
-    ],
-    "Turla": [
-      {
-        "title": "Rapid7’s 2026 Global Cybersecurity Summit: Key Takeaways for Security Leaders",
-        "link": "https://www.rapid7.com/blog/post/it-2026-global-cybersecurity-summit-key-takeaways-security-leaders",
-        "date": "2026-05-19T15:22:16+00:00",
-        "source": "Rapid7"
-      }
-    ],
-    "Rapid": [
-      {
-        "title": "Rapid7’s 2026 Global Cybersecurity Summit: Key Takeaways for Security Leaders",
-        "link": "https://www.rapid7.com/blog/post/it-2026-global-cybersecurity-summit-key-takeaways-security-leaders",
-        "date": "2026-05-19T15:22:16+00:00",
-        "source": "Rapid7"
-      }
-    ],
-    "Blind": [
-      {
-        "title": "Turn Blind Trust into Verified Control with Prompt Security for Agentic AI",
-        "link": "https://www.sentinelone.com/blog/prompt-security-for-agentic-ai/",
-        "date": "2026-05-19T13:43:37+00:00",
+        "title": "Sentinels League 2026: Live Rankings for the Threat Hunting World Championship",
+        "link": "https://www.sentinelone.com/blog/sentinels-league-live-rankings/",
+        "date": "2026-05-20T13:00:44+00:00",
         "source": "SentinelOne"
-      }
-    ],
-    "Lv": [
-      {
-        "title": "The Network Security Problem No One Could Solve – Until Now.",
-        "link": "https://blog.checkpoint.com/security/the-network-security-problem-no-one-could-solve-until-now/",
-        "date": "2026-05-19T13:00:16+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "Solve": [
-      {
-        "title": "The Network Security Problem No One Could Solve – Until Now.",
-        "link": "https://blog.checkpoint.com/security/the-network-security-problem-no-one-could-solve-until-now/",
-        "date": "2026-05-19T13:00:16+00:00",
-        "source": "Check Point"
       }
     ]
   }

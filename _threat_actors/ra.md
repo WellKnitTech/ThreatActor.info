@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The Electric Ferrari Luce Is Finally Here](https://www.wired.com/story/ferrari-luce-ev-is-finally-here/)
-  Wired - 2026-05-25T
-- [Lazarus Deploys RemotePE Memory-Only RAT Against Financial and Crypto Firms](https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html)
-  The Hacker News - 2026-05-25T
-- [The pitch trick that helped an eSports startup raise $20M when VCs only wanted AI](https://techcrunch.com/2026/05/25/the-pitch-trick-that-helped-an-esports-startup-raise-20m-when-vcs-only-wanted-ai/)
-  TechCrunch - 2026-05-25T
-- [Best Memorial Day Deals: Garmin, Birdfy, Branch (2026)](https://www.wired.com/story/best-memorial-day-deals-2026-2/)
-  Wired - 2026-05-25T
-- [Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks](https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/)
-  KrebsOnSecurity - 2026-05-25T
+- [Rover Promo Codes and Referral Deals for June 2026](https://www.wired.com/story/rover-promo-code/)
+  Wired - 2026-05-27T
+- [Paramount+ Coupon Codes and Deals for June 2026](https://www.wired.com/story/paramount-plus-coupon-code/)
+  Wired - 2026-05-27T
+- [Trump administration permits Volvo to keep selling connected cars in the US](https://techcrunch.com/2026/05/26/trump-administration-permits-volvo-to-keep-selling-connected-cars-in-the-us/)
+  TechCrunch - 2026-05-26T
+- [Trump administration wants nuclear startups to use plutonium for their reactors](https://techcrunch.com/2026/05/26/trump-administration-wants-nuclear-startups-to-use-plutonium-for-their-reactors/)
+  TechCrunch - 2026-05-26T
+- [Millions of AI agents imperiled by critical vulnerability in open source package](https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/)
+  Ars Technica - 2026-05-26T
 

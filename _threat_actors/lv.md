@@ -33,6 +33,8 @@ parser needs to be built
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The Network Security Problem No One Could Solve – Until Now.](https://blog.checkpoint.com/security/the-network-security-problem-no-one-could-solve-until-now/)
-  Check Point - 2026-05-19T
+- [Trump administration permits Volvo to keep selling connected cars in the US](https://techcrunch.com/2026/05/26/trump-administration-permits-volvo-to-keep-selling-connected-cars-in-the-us/)
+  TechCrunch - 2026-05-26T
+- [Ghost hackers: the cybersecurity mystery that nobody has solved](https://techcrunch.com/2026/05/26/ghost-hackers-the-cybersecurity-mystery-that-nobody-has-solved/)
+  TechCrunch - 2026-05-26T
 

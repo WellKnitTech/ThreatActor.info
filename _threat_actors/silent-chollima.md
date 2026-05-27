@@ -36,3 +36,9 @@ Andariel is a threat actor that primarily targets South Korean corporations and 
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Trump administration wants nuclear startups to use plutonium for their reactors](https://techcrunch.com/2026/05/26/trump-administration-wants-nuclear-startups-to-use-plutonium-for-their-reactors/)
+  TechCrunch - 2026-05-26T
+

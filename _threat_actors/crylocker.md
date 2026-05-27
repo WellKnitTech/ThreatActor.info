@@ -37,6 +37,4 @@ Ransomware Identifies victim locations w/Google Maps API
   The Hacker News - 2026-05-25T
 - [Texas AG sues Meta over claims that WhatsApp doesn't provide end-to-end encryption](https://arstechnica.com/security/2026/05/texas-ag-sues-meta-over-claims-that-whatsapp-doesnt-provide-end-to-end-encryption/)
   Ars Technica - 2026-05-22T
-- [Inside a Crypto Drainer: How to Spot it Before it Empties Your Wallet](https://www.bleepingcomputer.com/news/security/inside-a-crypto-drainer-how-to-spot-it-before-it-empties-your-wallet/)
-  BleepingComputer - 2026-05-21T
 

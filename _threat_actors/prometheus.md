@@ -30,9 +30,3 @@ Ransomware written in .NET, apparently derived from the codebase of win.hakbit (
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware](https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html)
-  The Hacker News - 2026-05-22T
-
