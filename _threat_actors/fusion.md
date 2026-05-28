@@ -30,3 +30,9 @@ Fusion is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [With a new $100M raise, Princeton’s Thea Energy is now a top-funded fusion startup](https://techcrunch.com/2026/05/27/with-a-new-100m-raise-princetons-thea-energy-is-now-a-top-funded-fusion-startup/)
+  TechCrunch - 2026-05-27T
+

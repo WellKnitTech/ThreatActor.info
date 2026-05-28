@@ -33,6 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Fake Android Apps Commit Carrier Billing Fraud for Premium Services](https://www.darkreading.com/mobile-security/fake-android-apps-carrier-billing-fraud)
-  DarkReading - 2026-05-20T
+- [Grandoreiro Malware and BTMOB RAT Campaigns Target Windows and Android Users](https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html)
+  The Hacker News - 2026-05-27T
 

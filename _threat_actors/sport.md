@@ -33,6 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [UK Visa Portal spilled thousands of applicants’ passports and selfies online — and hasn’t fixed the leak](https://techcrunch.com/2026/05/26/uk-visa-portal-spilled-thousands-of-applicants-passports-and-selfies-online-and-hasnt-fixed-the-leak/)
-  TechCrunch - 2026-05-26T
+- [UK Visa Portal exposed thousands of applicants’ passports and selfies — then called the lawyers on us](https://techcrunch.com/2026/05/27/uk-visa-portal-spilled-thousands-of-applicants-passports-and-selfies-online-and-hasnt-fixed-the-leak/)
+  TechCrunch - 2026-05-27T
 

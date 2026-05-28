@@ -41,9 +41,3 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [DuckDuckGo installs are up 30% as users reject being ‘force-fed’ Google’s AI Search](https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/)
-  TechCrunch - 2026-05-26T
-

@@ -30,9 +30,3 @@ Ank is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Sentinels League 2026: Live Rankings for the Threat Hunting World Championship](https://www.sentinelone.com/blog/sentinels-league-live-rankings/)
-  SentinelOne - 2026-05-20T
-

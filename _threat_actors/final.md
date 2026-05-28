@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [The Alert Firehose Finally Meets Its Match](https://thehackernews.com/2026/05/the-alert-firehose-finally-meets-its.html)
-  The Hacker News - 2026-05-25T
-

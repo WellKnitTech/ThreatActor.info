@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Uplift Promo Codes: $570 Off](https://www.wired.com/story/uplift-desk-coupon-code/)
-  Wired - 2026-05-27T
-- [Hostinger Promo Code: 79% Off for June 2026](https://www.wired.com/story/hostinger-coupon-code/)
-  Wired - 2026-05-27T
-- [Verizon Promo Codes: $200 Verizon Gift Cards | June 2026](https://www.wired.com/story/verizon-promo-code/)
-  Wired - 2026-05-27T
-- [Litter-Robot Promo Codes and Deals: Up to $150 Off](https://www.wired.com/story/litter-robot-promo-code/)
-  Wired - 2026-05-27T
-- [Priceline Promo Codes & Coupons: 10% Off June](https://www.wired.com/story/priceline-promo-code/)
-  Wired - 2026-05-27T
+- [Altra Running Promo Codes June 2026](https://www.wired.com/story/altra-promo-code/)
+  Wired - 2026-05-28T
+- [Herman Miller Promo Codes: 40% Off June](https://www.wired.com/story/herman-miller-promo-code/)
+  Wired - 2026-05-28T
+- [B&H Photo Promo Codes and Deals This June](https://www.wired.com/story/bh-photo-coupon/)
+  Wired - 2026-05-28T
+- [Dell Coupon Codes: 20% Off for June 2026](https://www.wired.com/story/dell-coupon-code/)
+  Wired - 2026-05-28T
+- [20% Off Brooks Promo Code | June 2026](https://www.wired.com/story/brooks-promo-code/)
+  Wired - 2026-05-28T
 

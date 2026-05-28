@@ -30,3 +30,11 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Malicious npm Package Stole Files From Claude AI User Directory via GitHub](https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html)
+  The Hacker News - 2026-05-27T
+- [Can you enforce strong Active Directory password rules without frustrating users?](https://www.bleepingcomputer.com/news/security/can-you-enforce-strong-active-directory-password-rules-without-frustrating-users/)
+  BleepingComputer - 2026-05-27T
+

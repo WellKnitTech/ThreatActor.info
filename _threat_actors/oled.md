@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Pope Leo Schooled the Tech Bros on Tolkien](https://www.wired.com/story/pope-leo-schooled-the-tech-bros-on-tolkien/)
-  Wired - 2026-05-26T
-

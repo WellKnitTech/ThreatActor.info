@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Rover Promo Codes and Referral Deals for June 2026](https://www.wired.com/story/rover-promo-code/)
+- [Altra Running Promo Codes June 2026](https://www.wired.com/story/altra-promo-code/)
+  Wired - 2026-05-28T
+- [Google engineer charged with insider trading after making $1.2M on Polymarket](https://techcrunch.com/2026/05/27/google-engineer-charged-with-insider-trading-after-making-1-2m-on-polymarket/)
+  TechCrunch - 2026-05-28T
+- [Google Security Engineer Arrested in Million-Dollar Polymarket Trading Scheme](https://www.wired.com/story/google-employee-accused-of-polymarket-one-million/)
   Wired - 2026-05-27T
-- [Paramount+ Coupon Codes and Deals for June 2026](https://www.wired.com/story/paramount-plus-coupon-code/)
-  Wired - 2026-05-27T
-- [Trump administration permits Volvo to keep selling connected cars in the US](https://techcrunch.com/2026/05/26/trump-administration-permits-volvo-to-keep-selling-connected-cars-in-the-us/)
-  TechCrunch - 2026-05-26T
-- [Trump administration wants nuclear startups to use plutonium for their reactors](https://techcrunch.com/2026/05/26/trump-administration-wants-nuclear-startups-to-use-plutonium-for-their-reactors/)
-  TechCrunch - 2026-05-26T
-- [Millions of AI agents imperiled by critical vulnerability in open source package](https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/)
-  Ars Technica - 2026-05-26T
+- [Grandoreiro Malware and BTMOB RAT Campaigns Target Windows and Android Users](https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html)
+  The Hacker News - 2026-05-27T
+- [Ransomware Actors Show Up In Person to Steal Law Firm Data](https://www.darkreading.com/cyberattacks-data-breaches/ransomware-actors-steal-law-firm-data)
+  DarkReading - 2026-05-27T
 

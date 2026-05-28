@@ -33,8 +33,6 @@ parser needs to be built
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Trump administration permits Volvo to keep selling connected cars in the US](https://techcrunch.com/2026/05/26/trump-administration-permits-volvo-to-keep-selling-connected-cars-in-the-us/)
-  TechCrunch - 2026-05-26T
-- [Ghost hackers: the cybersecurity mystery that nobody has solved](https://techcrunch.com/2026/05/26/ghost-hackers-the-cybersecurity-mystery-that-nobody-has-solved/)
-  TechCrunch - 2026-05-26T
+- [Out of the Crypt: The Evolving Cyber Extortion Economy](https://unit42.paloaltonetworks.com/cyber-extortion-economy/)
+  Unit 42 - 2026-05-27T
 

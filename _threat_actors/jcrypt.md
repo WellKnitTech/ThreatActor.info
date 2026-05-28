@@ -33,6 +33,8 @@ Ransomware written in C#. Fortunately, all current versions of the MafiaWare666 
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [GPU mining malware spreads via SEO poisoning, AI chatbots](https://www.bleepingcomputer.com/news/security/gpu-mining-malware-spreads-via-seo-poisoning-ai-chatbots/)
+  BleepingComputer - 2026-05-27T
 - [Iranian Hackers Deploy MiniFast and MiniJunk V2 via Phishing and SEO Poisoning](https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html)
   The Hacker News - 2026-05-26T
 - [A hacker group is poisoning open source code at an unprecedented scale](https://arstechnica.com/information-technology/2026/05/a-hacker-group-is-poisoning-open-source-code-at-an-unprecedented-scale/)

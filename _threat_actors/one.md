@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Lovehoney Coupon Offers: Toys, Lingerie, and Gift Set Discounts](https://www.wired.com/story/lovehoney-discount-code/)
+- [AI coding startup Cognition raises $1B at $25B pre-money valuation](https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/)
+  TechCrunch - 2026-05-27T
+- [Drone Ports and Funding Mayhem: Trump's Ballroom Has Turned Toxic](https://www.wired.com/story/drone-ports-and-funding-mayhem-trumps-ballroom-takes-on-congress/)
   Wired - 2026-05-27T
 
