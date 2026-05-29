@@ -30,9 +30,3 @@ Toxic is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Drone Ports and Funding Mayhem: Trump's Ballroom Has Turned Toxic](https://www.wired.com/story/drone-ports-and-funding-mayhem-trumps-ballroom-takes-on-congress/)
-  Wired - 2026-05-27T
-

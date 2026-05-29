@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Oura’s New Ring 5 Is Smaller and Lighter—and Adds an AI Health Coach](https://www.wired.com/story/oura-ring-5/)
+  Wired - 2026-05-28T
+

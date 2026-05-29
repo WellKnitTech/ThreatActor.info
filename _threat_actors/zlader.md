@@ -30,3 +30,9 @@ Ransomware VaultCrypt family
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Dutch Raid Fails to Dent Russian Bulletproof Host](https://www.darkreading.com/cyber-risk/dutch-raid-russian-bulletproof-host)
+  DarkReading - 2026-05-28T
+

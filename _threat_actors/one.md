@@ -33,8 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [AI coding startup Cognition raises $1B at $25B pre-money valuation](https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/)
-  TechCrunch - 2026-05-27T
-- [Drone Ports and Funding Mayhem: Trump's Ballroom Has Turned Toxic](https://www.wired.com/story/drone-ports-and-funding-mayhem-trumps-ballroom-takes-on-congress/)
-  Wired - 2026-05-27T
+- [A security lapse at prison pay phone service Pay Tel publicly exposed over 300K callers’ driver’s licenses](https://techcrunch.com/2026/05/28/a-security-lapse-at-prison-payphone-service-pay-tel-publicly-exposed-over-300000-callers-drivers-licenses/)
+  TechCrunch - 2026-05-28T
+- [The Pentagon Knew Enemies Could Track Troops’ Phones for Years. Now They Are](https://www.wired.com/story/the-pentagon-knew-enemies-could-track-troops-phones-for-years-now-they-are/)
+  Wired - 2026-05-28T
 

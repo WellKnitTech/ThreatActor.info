@@ -33,6 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [AI Agents Are Shifting Identity Security Budget Dynamics](https://www.darkreading.com/identity-access-management-security/shifting-budget-dynamics-identity-security-ai-agents)
-  DarkReading - 2026-05-21T
+- [Glean’s top line crosses $300M as AI budget-cutting becomes its major selling point](https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/)
+  TechCrunch - 2026-05-29T
 

@@ -30,9 +30,3 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Meta launches Instagram, Facebook, and WhatsApp subscriptions, with more to come, including AI plans](https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/)
-  TechCrunch - 2026-05-27T
-

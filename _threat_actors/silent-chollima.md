@@ -36,3 +36,9 @@ Andariel is a threat actor that primarily targets South Korean corporations and 
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [The GOP’s Attacks on James Talarico Are Straight Out of the Incel Handbook](https://www.wired.com/story/gop-attacks-on-james-talarico-incel-handbook/)
+  Wired - 2026-05-28T
+

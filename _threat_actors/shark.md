@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Surfshark Promo Codes: 87% Off | June 2026](https://www.wired.com/story/surfshark-coupon/)
-  Wired - 2026-05-28T
-

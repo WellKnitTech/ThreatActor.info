@@ -30,9 +30,3 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Rivian will deliver the first R2 SUVs on June 9](https://techcrunch.com/2026/05/27/rivian-will-deliver-the-first-r2-suvs-on-june-9/)
-  TechCrunch - 2026-05-27T
-

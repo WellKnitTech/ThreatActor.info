@@ -33,6 +33,8 @@ Ransomware Identifies victim locations w/Google Maps API
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware](https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html)
+  The Hacker News - 2026-05-28T
 - [Out of the Crypt: The Evolving Cyber Extortion Economy](https://unit42.paloaltonetworks.com/cyber-extortion-economy/)
   Unit 42 - 2026-05-27T
 - [AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites](https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html)

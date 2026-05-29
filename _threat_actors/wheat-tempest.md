@@ -30,3 +30,9 @@ Microsoft threat actor profile. Origin/Threat: Financially motivated.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Just like gold and oil, we’ll soon be able to trade AI token futures](https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/)
+  TechCrunch - 2026-05-28T
+

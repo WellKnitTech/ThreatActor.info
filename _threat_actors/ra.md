@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Altra Running Promo Codes June 2026](https://www.wired.com/story/altra-promo-code/)
+- [Waymo dominates autonomous vehicle registrations as Tesla trails behind](https://techcrunch.com/2026/05/28/waymo-dominates-texas-autonomous-vehicle-registrations-as-tesla-trails-behind/)
+  TechCrunch - 2026-05-29T
+- [The GOP’s Attacks on James Talarico Are Straight Out of the Incel Handbook](https://www.wired.com/story/gop-attacks-on-james-talarico-incel-handbook/)
   Wired - 2026-05-28T
-- [Google engineer charged with insider trading after making $1.2M on Polymarket](https://techcrunch.com/2026/05/27/google-engineer-charged-with-insider-trading-after-making-1-2m-on-polymarket/)
+- [Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code](https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html)
+  The Hacker News - 2026-05-28T
+- [Bluesky embraces long-form content to counter X Articles](https://techcrunch.com/2026/05/28/bluesky-embraces-long-form-content-to-counter-x-articles/)
   TechCrunch - 2026-05-28T
-- [Google Security Engineer Arrested in Million-Dollar Polymarket Trading Scheme](https://www.wired.com/story/google-employee-accused-of-polymarket-one-million/)
-  Wired - 2026-05-27T
-- [Grandoreiro Malware and BTMOB RAT Campaigns Target Windows and Android Users](https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html)
-  The Hacker News - 2026-05-27T
-- [Ransomware Actors Show Up In Person to Steal Law Firm Data](https://www.darkreading.com/cyberattacks-data-breaches/ransomware-actors-steal-law-firm-data)
-  DarkReading - 2026-05-27T
+- [Meta Copies Snapchat’s Homework Again With ‘Plus’ Features for Instagram and Facebook](https://www.wired.com/story/meta-copies-snapchats-homework-again/)
+  Wired - 2026-05-28T
 

@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Payroll startup Remote says it grew revenue 50% per employee without adding headcount](https://techcrunch.com/2026/05/27/payroll-startup-remote-says-it-grew-revenue-50-per-employee-without-adding-headcount/)
-  TechCrunch - 2026-05-27T
-- [5 Steps to Managing Shadow AI Tools Without Slowing Down Employees](https://thehackernews.com/2026/05/5-steps-to-managing-shadow-ai-tools.html)
-  The Hacker News - 2026-05-27T
-- [UK Visa Portal exposed thousands of applicants’ passports and selfies — then called the lawyers on us](https://techcrunch.com/2026/05/27/uk-visa-portal-spilled-thousands-of-applicants-passports-and-selfies-online-and-hasnt-fixed-the-leak/)
-  TechCrunch - 2026-05-27T
-- [Meta launches Instagram, Facebook, and WhatsApp subscriptions, with more to come, including AI plans](https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/)
-  TechCrunch - 2026-05-27T
-- [A Dating App Is Giving Away Free Gas to Convince People to Get Out of the House](https://www.wired.com/story/dating-app-blk-is-giving-away-free-gas-to-convince-people-to-get-out-of-the-house/)
-  Wired - 2026-05-27T
+- [Blue Origin’s New Glenn rocket explodes during testing in Florida](https://techcrunch.com/2026/05/28/blue-origins-new-glenn-rocket-explodes-during-testing-in-florida/)
+  TechCrunch - 2026-05-29T
+- [How to apply to Startup Battlefield 2026, what you need ahead of the June 8 deadline](https://techcrunch.com/2026/05/28/how-to-apply-to-startup-battlefield-2026-what-you-need-ahead-of-the-june-8-deadline/)
+  TechCrunch - 2026-05-28T
+- [Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer](https://thehackernews.com/2026/05/threat-actors-exploit-critical.html)
+  The Hacker News - 2026-05-28T
+- [Meta Copies Snapchat’s Homework Again With ‘Plus’ Features for Instagram and Facebook](https://www.wired.com/story/meta-copies-snapchats-homework-again/)
+  Wired - 2026-05-28T
+- [ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More](https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html)
+  The Hacker News - 2026-05-28T
 
