@@ -30,9 +30,3 @@ Ransomware Possible affiliations with RockLoader, Locky and Dridex
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Bartesian Discount Codes: 35% Off](https://www.wired.com/story/bartesian-discount-code/)
-  Wired - 2026-05-29T
-

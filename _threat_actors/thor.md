@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [We Asked the ‘Future of Truth’ Author to Explain How He Used AI. It Didn’t Go Well](https://www.wired.com/story/future-of-truth-ai-interview/)
+  Wired - 2026-05-29T
+

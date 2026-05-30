@@ -33,8 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [A security lapse at prison pay phone service Pay Tel publicly exposed over 300K callers’ driver’s licenses](https://techcrunch.com/2026/05/28/a-security-lapse-at-prison-payphone-service-pay-tel-publicly-exposed-over-300000-callers-drivers-licenses/)
-  TechCrunch - 2026-05-28T
-- [The Pentagon Knew Enemies Could Track Troops’ Phones for Years. Now They Are](https://www.wired.com/story/the-pentagon-knew-enemies-could-track-troops-phones-for-years-now-they-are/)
-  Wired - 2026-05-28T
+- [Hands-On With Gemini Spark: I Gave It Access to My Life and It Friend-Zoned My Boyfriend](https://www.wired.com/story/google-gemini-spark-ai-agent-hands-on/)
+  Wired - 2026-05-29T
 

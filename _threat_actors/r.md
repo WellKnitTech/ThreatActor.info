@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Bartesian Discount Codes: 35% Off](https://www.wired.com/story/bartesian-discount-code/)
+- [Founders seize on Indian court ruling to revive criticism of Google’s ad business](https://techcrunch.com/2026/05/29/founders-seize-on-indian-court-ruling-to-revive-criticism-of-googles-ad-business/)
+  TechCrunch - 2026-05-30T
+- [I went to the so-called ‘steroid Olympics,’ to understand why Silicon Valley is obsessed with peptides](https://techcrunch.com/2026/05/29/i-went-to-the-so-called-steroid-olympics-to-understand-why-silicon-valley-is-obsessed-with-peptides/)
+  TechCrunch - 2026-05-30T
+- [ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface](https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html)
+  The Hacker News - 2026-05-29T
+- [24 Best Father’s Day Gifts for Dads (2026)](https://www.wired.com/story/the-best-gifts-for-dads-2026/)
   Wired - 2026-05-29T
-- [Target Promo Code: $50 Off | June 2026](https://www.wired.com/story/target-promo-code/)
-  Wired - 2026-05-29T
-- [Meta Quest Promo Codes and Coupons for June 2026](https://www.wired.com/story/meta-quest-promo-code/)
-  Wired - 2026-05-29T
-- [AirDoctor Coupon Codes: 40% Off | June 2026](https://www.wired.com/story/airdoctor-coupon-code/)
-  Wired - 2026-05-29T
-- [Blue Origin’s New Glenn rocket explodes during testing in Florida](https://techcrunch.com/2026/05/28/blue-origins-new-glenn-rocket-explodes-during-testing-in-florida/)
+- [SpaceX awarded $6.45B in Space Force contracts ahead of IPO](https://techcrunch.com/2026/05/29/spacex-awarded-6-45b-in-space-force-contracts-ahead-of-ipo/)
   TechCrunch - 2026-05-29T
 

@@ -37,8 +37,4 @@ Ransomware Identifies victim locations w/Google Maps API
   The Hacker News - 2026-05-28T
 - [Out of the Crypt: The Evolving Cyber Extortion Economy](https://unit42.paloaltonetworks.com/cyber-extortion-economy/)
   Unit 42 - 2026-05-27T
-- [AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites](https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html)
-  The Hacker News - 2026-05-27T
-- [Texas AG sues Meta over claims that WhatsApp doesn't provide end-to-end encryption](https://arstechnica.com/security/2026/05/texas-ag-sues-meta-over-claims-that-whatsapp-doesnt-provide-end-to-end-encryption/)
-  Ars Technica - 2026-05-22T
 

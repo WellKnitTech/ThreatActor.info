@@ -44,8 +44,8 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Microsoft under fire for threatening security researcher with criminal investigation](https://techcrunch.com/2026/05/29/microsoft-under-fire-for-threatening-security-researcher-with-criminal-investigation/)
+  TechCrunch - 2026-05-29T
 - [Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal](https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html)
   The Hacker News - 2026-05-28T
-- [These Ebola Researchers Are Stuck in US Due to Trump’s Funding Cuts](https://www.wired.com/story/us-researchers-ebola-trump-cut-their-funding/)
-  Wired - 2026-05-28T
 
