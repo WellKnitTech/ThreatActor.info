@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Do You Actually Need to Pay for Transcription Software?](https://www.wired.com/story/do-you-actually-need-to-pay-for-transcription-software/)
+  Wired - 2026-05-30T
+- [Is the Ferrari Luce’s Design Really That Bad? 3 Italian Auto Experts Weigh In](https://www.wired.com/story/is-the-ferrari-luce-design-really-bad-we-ask-3-italian-auto-experts/)
+  Wired - 2026-05-30T
 - [ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface](https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html)
   The Hacker News - 2026-05-29T
 - [SpaceX awarded $6.45B in Space Force contracts ahead of IPO](https://techcrunch.com/2026/05/29/spacex-awarded-6-45b-in-space-force-contracts-ahead-of-ipo/)
   TechCrunch - 2026-05-29T
 - [The White House’s Aliens.gov Site Brags That ICE Arrested More Than 700 US Citizens](https://www.wired.com/story/white-house-aliens-gov-us-citizens-arrested/)
   Wired - 2026-05-29T
-- [‘We’re Just Getting the Crumbs Here’: Contractors Protest Layoffs at Meta’s European Headquarters](https://www.wired.com/story/meta-covalen-protest-strike-dublin/)
-  Wired - 2026-05-29T
-- [Metasploit Wrap Up 05/29/2026](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-29-2026)
-  Rapid7 - 2026-05-29T
 

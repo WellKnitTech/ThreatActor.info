@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-30T05:46:42Z",
+  "updated": "2026-05-31T06:16:54Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,47 +19,175 @@
     "Rapid7"
   ],
   "actor_news": {
+    "Ank": [
+      {
+        "title": "SoftBank says it will invest up to €75 billion to build French data centers",
+        "link": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+        "date": "2026-05-30T21:45:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets",
+        "link": "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
+        "date": "2026-05-29T14:41:25+05:30",
+        "source": "The Hacker News"
+      }
+    ],
     "R": [
       {
-        "title": "Founders seize on Indian court ruling to revive criticism of Google’s ad business",
-        "link": "https://techcrunch.com/2026/05/29/founders-seize-on-indian-court-ruling-to-revive-criticism-of-googles-ad-business/",
-        "date": "2026-05-30T02:00:00+00:00",
+        "title": "SoftBank says it will invest up to €75 billion to build French data centers",
+        "link": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+        "date": "2026-05-30T21:45:00+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "I went to the so-called ‘steroid Olympics,’ to understand why Silicon Valley is obsessed with peptides",
-        "link": "https://techcrunch.com/2026/05/29/i-went-to-the-so-called-steroid-olympics-to-understand-why-silicon-valley-is-obsessed-with-peptides/",
-        "date": "2026-05-30T00:39:13+00:00",
+        "title": "This weekend’s two biggest movies were both directed by YouTubers",
+        "link": "https://techcrunch.com/2026/05/30/this-weekends-two-biggest-movies-were-both-directed-by-youtubers/",
+        "date": "2026-05-30T21:12:37+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
-        "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
-        "date": "2026-05-29T23:37:12+05:30",
-        "source": "The Hacker News"
+        "title": "‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs",
+        "link": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
+        "date": "2026-05-30T16:30:00+00:00",
+        "source": "TechCrunch"
       },
       {
-        "title": "24 Best Father’s Day Gifts for Dads (2026)",
-        "link": "https://www.wired.com/story/the-best-gifts-for-dads-2026/",
-        "date": "2026-05-29T22:44:00+00:00",
+        "title": "Meta is reportedly developing an AI pendant",
+        "link": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
+        "date": "2026-05-30T15:59:58+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful",
+        "link": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+        "date": "2026-05-30T15:30:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "ghost": [
+      {
+        "title": "Snap alums unveil Ghost Angels fund",
+        "link": "https://techcrunch.com/2026/05/30/snap-alums-unveil-ghost-angels-fund/",
+        "date": "2026-05-30T17:00:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Mini": [
+      {
+        "title": "I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful",
+        "link": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+        "date": "2026-05-30T15:30:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Hands-On With Gemini Spark: I Gave It Access to My Life and It Friend-Zoned My Boyfriend",
+        "link": "https://www.wired.com/story/google-gemini-spark-ai-agent-hands-on/",
+        "date": "2026-05-29T19:07:46+00:00",
         "source": "Wired"
       },
       {
-        "title": "SpaceX awarded $6.45B in Space Force contracts ahead of IPO",
-        "link": "https://techcrunch.com/2026/05/29/spacex-awarded-6-45b-in-space-force-contracts-ahead-of-ipo/",
-        "date": "2026-05-29T22:21:38+00:00",
+        "title": "GreyVibe hackers use ChatGPT, Gemini to power cyberattacks",
+        "link": "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
+        "date": "2026-05-28T18:24:49-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "BooM": [
+      {
+        "title": "The groupthink boom: what three top VCs really think about the AI frenzy",
+        "link": "https://techcrunch.com/2026/05/30/the-groupthink-boom-what-three-top-vcs-really-think-about-the-ai-frenzy/",
+        "date": "2026-05-30T14:49:27+00:00",
         "source": "TechCrunch"
       }
     ],
-    "Sea Turtle": [
+    "global": [
       {
-        "title": "I went to the so-called ‘steroid Olympics,’ to understand why Silicon Valley is obsessed with peptides",
-        "link": "https://techcrunch.com/2026/05/29/i-went-to-the-so-called-steroid-olympics-to-understand-why-silicon-valley-is-obsessed-with-peptides/",
-        "date": "2026-05-30T00:39:13+00:00",
-        "source": "TechCrunch"
+        "title": "Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
+        "date": "2026-05-30T14:02:51-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
+        "link": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
+        "date": "2026-05-30T12:11:26+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Rapid7 Observed Exploitation of PAN-OS GlobalProtect Authentication Bypass Vulnerability (CVE-2026-0257)",
+        "link": "https://www.rapid7.com/blog/post/etr-rapid7-observed-exploitation-of-pan-os-globalprotect-authentication-bypass-vulnerability-cve-2026-0257",
+        "date": "2026-05-29T16:49:40+00:00",
+        "source": "Rapid7"
+      },
+      {
+        "title": "As Global Powers Explore Humanoid Robots, Cyber-Risk Looms",
+        "link": "https://www.darkreading.com/cyber-risk/global-powers-explore-humanoids-cyber-risk",
+        "date": "2026-05-28T23:05:23+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "PL": [
+      {
+        "title": "Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
+        "date": "2026-05-30T14:02:51-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
+        "link": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
+        "date": "2026-05-30T12:11:26+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Tello Mobile Plan Review (2026): Low Cost, Reliable Service",
+        "link": "https://www.wired.com/review/tello-mobile-custom-plans/",
+        "date": "2026-05-30T10:39:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "New CIFSwitch Linux flaw gives root on multiple distributions",
+        "link": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
+        "date": "2026-05-30T10:16:08-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
+        "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
+        "date": "2026-05-29T20:09:56+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Hacked": [
+      {
+        "title": "Cybercrime Crew Claims It Hacked Mike Lindell’s MyPillow",
+        "link": "https://www.wired.com/story/security-news-this-week-cybercrime-crew-claims-it-hacked-mike-lindells-mypillow/",
+        "date": "2026-05-30T10:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Root": [
+      {
+        "title": "New CIFSwitch Linux flaw gives root on multiple distributions",
+        "link": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
+        "date": "2026-05-30T10:16:08-04:00",
+        "source": "BleepingComputer"
       }
     ],
     "Ra": [
+      {
+        "title": "Do You Actually Need to Pay for Transcription Software?",
+        "link": "https://www.wired.com/story/do-you-actually-need-to-pay-for-transcription-software/",
+        "date": "2026-05-30T09:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Is the Ferrari Luce’s Design Really That Bad? 3 Italian Auto Experts Weigh In",
+        "link": "https://www.wired.com/story/is-the-ferrari-luce-design-really-bad-we-ask-3-italian-auto-experts/",
+        "date": "2026-05-30T09:00:00+00:00",
+        "source": "Wired"
+      },
       {
         "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
         "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
@@ -77,18 +205,44 @@
         "link": "https://www.wired.com/story/white-house-aliens-gov-us-citizens-arrested/",
         "date": "2026-05-29T20:53:09+00:00",
         "source": "Wired"
-      },
+      }
+    ],
+    "RIP (Phoenix) Ransomware": [
       {
-        "title": "‘We’re Just Getting the Crumbs Here’: Contractors Protest Layoffs at Meta’s European Headquarters",
-        "link": "https://www.wired.com/story/meta-covalen-protest-strike-dublin/",
-        "date": "2026-05-29T20:18:01+00:00",
+        "title": "Do You Actually Need to Pay for Transcription Software?",
+        "link": "https://www.wired.com/story/do-you-actually-need-to-pay-for-transcription-software/",
+        "date": "2026-05-30T09:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Lv": [
+      {
+        "title": "Nike World Cup Uniforms Made of Recycled Textiles Won’t Solve Fashion Waste",
+        "link": "https://www.wired.com/story/nike-recycled-world-cup-uniforms/",
+        "date": "2026-05-30T08:30:00+00:00",
         "source": "Wired"
       },
       {
-        "title": "Metasploit Wrap Up 05/29/2026",
-        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-29-2026",
-        "date": "2026-05-29T19:34:41+00:00",
-        "source": "Rapid7"
+        "title": "Out of the Crypt: The Evolving Cyber Extortion Economy",
+        "link": "https://unit42.paloaltonetworks.com/cyber-extortion-economy/",
+        "date": "2026-05-27T22:00:46+00:00",
+        "source": "Unit 42"
+      }
+    ],
+    "Solve": [
+      {
+        "title": "Nike World Cup Uniforms Made of Recycled Textiles Won’t Solve Fashion Waste",
+        "link": "https://www.wired.com/story/nike-recycled-world-cup-uniforms/",
+        "date": "2026-05-30T08:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Sea Turtle": [
+      {
+        "title": "I went to the so-called ‘steroid Olympics,’ to understand why Silicon Valley is obsessed with peptides",
+        "link": "https://techcrunch.com/2026/05/29/i-went-to-the-so-called-steroid-olympics-to-understand-why-silicon-valley-is-obsessed-with-peptides/",
+        "date": "2026-05-30T00:39:13+00:00",
+        "source": "TechCrunch"
       }
     ],
     "RNS": [
@@ -113,38 +267,6 @@
         "source": "DarkReading"
       }
     ],
-    "PL": [
-      {
-        "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
-        "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
-        "date": "2026-05-29T20:09:56+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Metasploit Wrap Up 05/29/2026",
-        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-29-2026",
-        "date": "2026-05-29T19:34:41+00:00",
-        "source": "Rapid7"
-      },
-      {
-        "title": "Rapid7 Observed Exploitation of PAN-OS GlobalProtect Authentication Bypass Vulnerability (CVE-2026-0257)",
-        "link": "https://www.rapid7.com/blog/post/etr-rapid7-observed-exploitation-of-pan-os-globalprotect-authentication-bypass-vulnerability-cve-2026-0257",
-        "date": "2026-05-29T16:49:40+00:00",
-        "source": "Rapid7"
-      },
-      {
-        "title": "We Asked the ‘Future of Truth’ Author to Explain How He Used AI. It Didn’t Go Well",
-        "link": "https://www.wired.com/story/future-of-truth-ai-interview/",
-        "date": "2026-05-29T16:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Cognition’s Scott Wu says AI coding agents shouldn’t replace humans",
-        "link": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
-        "date": "2026-05-29T16:13:47+00:00",
-        "source": "TechCrunch"
-      }
-    ],
     "Metasploit": [
       {
         "title": "Metasploit Wrap Up 05/29/2026",
@@ -157,20 +279,6 @@
         "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-22-2026",
         "date": "2026-05-22T19:10:05+00:00",
         "source": "Rapid7"
-      }
-    ],
-    "Mini": [
-      {
-        "title": "Hands-On With Gemini Spark: I Gave It Access to My Life and It Friend-Zoned My Boyfriend",
-        "link": "https://www.wired.com/story/google-gemini-spark-ai-agent-hands-on/",
-        "date": "2026-05-29T19:07:46+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "GreyVibe hackers use ChatGPT, Gemini to power cyberattacks",
-        "link": "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
-        "date": "2026-05-28T18:24:49-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "One": [
@@ -189,48 +297,6 @@
         "source": "TechCrunch"
       }
     ],
-    "Deadeye Jackal": [
-      {
-        "title": "Microsoft under fire for threatening security researcher with criminal investigation",
-        "link": "https://techcrunch.com/2026/05/29/microsoft-under-fire-for-threatening-security-researcher-with-criminal-investigation/",
-        "date": "2026-05-29T17:03:39+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
-        "link": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
-        "date": "2026-05-28T19:23:52+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Zlader": [
-      {
-        "title": "New Russian-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks",
-        "link": "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
-        "date": "2026-05-29T17:01:59+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Dutch Raid Fails to Dent Russian Bulletproof Host",
-        "link": "https://www.darkreading.com/cyber-risk/dutch-raid-russian-bulletproof-host",
-        "date": "2026-05-28T19:04:37+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "global": [
-      {
-        "title": "Rapid7 Observed Exploitation of PAN-OS GlobalProtect Authentication Bypass Vulnerability (CVE-2026-0257)",
-        "link": "https://www.rapid7.com/blog/post/etr-rapid7-observed-exploitation-of-pan-os-globalprotect-authentication-bypass-vulnerability-cve-2026-0257",
-        "date": "2026-05-29T16:49:40+00:00",
-        "source": "Rapid7"
-      },
-      {
-        "title": "As Global Powers Explore Humanoid Robots, Cyber-Risk Looms",
-        "link": "https://www.darkreading.com/cyber-risk/global-powers-explore-humanoids-cyber-risk",
-        "date": "2026-05-28T23:05:23+00:00",
-        "source": "DarkReading"
-      }
-    ],
     "Rapid": [
       {
         "title": "Rapid7 Observed Exploitation of PAN-OS GlobalProtect Authentication Bypass Vulnerability (CVE-2026-0257)",
@@ -240,18 +306,6 @@
       }
     ],
     "DN": [
-      {
-        "title": "We Asked the ‘Future of Truth’ Author to Explain How He Used AI. It Didn’t Go Well",
-        "link": "https://www.wired.com/story/future-of-truth-ai-interview/",
-        "date": "2026-05-29T16:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Cognition’s Scott Wu says AI coding agents shouldn’t replace humans",
-        "link": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
-        "date": "2026-05-29T16:13:47+00:00",
-        "source": "TechCrunch"
-      },
       {
         "title": "ChatGPT share links abused to host fake outage pages to deliver malware",
         "link": "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
@@ -269,68 +323,6 @@
         "link": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
         "date": "2026-05-28T13:24:48+05:30",
         "source": "The Hacker News"
-      }
-    ],
-    "Thor": [
-      {
-        "title": "We Asked the ‘Future of Truth’ Author to Explain How He Used AI. It Didn’t Go Well",
-        "link": "https://www.wired.com/story/future-of-truth-ai-interview/",
-        "date": "2026-05-29T16:30:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "SunCrypt": [
-      {
-        "title": "Samsung Movingstyle Essential Review: A Screen on Wheels",
-        "link": "https://www.wired.com/review/samsung-movingstyle-32-m7/",
-        "date": "2026-05-29T15:52:17+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Ank": [
-      {
-        "title": "Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets",
-        "link": "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
-        "date": "2026-05-29T14:41:25+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "BRONZE BUTLER": [
-      {
-        "title": "Final 24 hours to save up to $410 on your TechCrunch Disrupt 2026 ticket",
-        "link": "https://techcrunch.com/2026/05/29/final-24-hours-to-save-up-to-410-on-your-techcrunch-disrupt-2026-ticket/",
-        "date": "2026-05-29T14:00:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Final": [
-      {
-        "title": "Final 24 hours to save up to $410 on your TechCrunch Disrupt 2026 ticket",
-        "link": "https://techcrunch.com/2026/05/29/final-24-hours-to-save-up-to-410-on-your-techcrunch-disrupt-2026-ticket/",
-        "date": "2026-05-29T14:00:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Tick": [
-      {
-        "title": "Final 24 hours to save up to $410 on your TechCrunch Disrupt 2026 ticket",
-        "link": "https://techcrunch.com/2026/05/29/final-24-hours-to-save-up-to-410-on-your-techcrunch-disrupt-2026-ticket/",
-        "date": "2026-05-29T14:00:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Rocke": [
-      {
-        "title": "Blue Origin Rocket Explodes in Fiery Setback",
-        "link": "https://www.wired.com/story/blue-origin-rocket-explodes-in-major-setback/",
-        "date": "2026-05-29T13:22:27+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Blue Origin’s New Glenn rocket explodes during testing in Florida",
-        "link": "https://techcrunch.com/2026/05/28/blue-origins-new-glenn-rocket-explodes-during-testing-in-florida/",
-        "date": "2026-05-29T01:22:16+00:00",
-        "source": "TechCrunch"
       }
     ],
     "APT41": [
@@ -361,34 +353,6 @@
         "source": "Palo Alto Networks"
       }
     ],
-    "Bud": [
-      {
-        "title": "Kiwibit’s AI-powered bird feeder is my new backyard buddy",
-        "link": "https://techcrunch.com/2026/05/29/kiwibits-ai-powered-bird-feeder-is-my-new-backyard-buddy/",
-        "date": "2026-05-29T13:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "HP Omnibook 3 Review: Redefining the Budget Laptop",
-        "link": "https://www.wired.com/review/hp-omnibook-3/",
-        "date": "2026-05-29T10:32:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Glean’s top line crosses $300M as AI budget cutting becomes its major selling point",
-        "link": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
-        "date": "2026-05-29T00:44:37+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "APT5": [
-      {
-        "title": "This chip startup just raised $135M on a bet that AI’s biggest bottleneck isn’t compute — it’s memory",
-        "link": "https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/",
-        "date": "2026-05-29T12:00:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
     "Kimsuky": [
       {
         "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
@@ -405,12 +369,28 @@
         "source": "The Hacker News"
       }
     ],
+    "Deadeye Jackal": [
+      {
+        "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
+        "link": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
+        "date": "2026-05-28T19:23:52+05:30",
+        "source": "The Hacker News"
+      }
+    ],
     "Slam": [
       {
         "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
         "link": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
         "date": "2026-05-28T19:23:52+05:30",
         "source": "The Hacker News"
+      }
+    ],
+    "Zlader": [
+      {
+        "title": "Dutch Raid Fails to Dent Russian Bulletproof Host",
+        "link": "https://www.darkreading.com/cyber-risk/dutch-raid-russian-bulletproof-host",
+        "date": "2026-05-28T19:04:37+00:00",
+        "source": "DarkReading"
       }
     ],
     "Kali": [
@@ -465,27 +445,11 @@
         "source": "Rapid7"
       }
     ],
-    "Lv": [
-      {
-        "title": "Out of the Crypt: The Evolving Cyber Extortion Economy",
-        "link": "https://unit42.paloaltonetworks.com/cyber-extortion-economy/",
-        "date": "2026-05-27T22:00:46+00:00",
-        "source": "Unit 42"
-      }
-    ],
     "Rector": [
       {
         "title": "Malicious npm Package Stole Files From Claude AI User Directory via GitHub",
         "link": "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html",
         "date": "2026-05-27T21:14:29+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Shadow": [
-      {
-        "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
-        "link": "https://thehackernews.com/2026/05/5-steps-to-managing-shadow-ai-tools.html",
-        "date": "2026-05-27T18:58:48+05:30",
         "source": "The Hacker News"
       }
     ],

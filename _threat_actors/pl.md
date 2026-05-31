@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks](https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/)
+  BleepingComputer - 2026-05-30T
+- [PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation](https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html)
+  The Hacker News - 2026-05-30T
+- [Tello Mobile Plan Review (2026): Low Cost, Reliable Service](https://www.wired.com/review/tello-mobile-custom-plans/)
+  Wired - 2026-05-30T
+- [New CIFSwitch Linux flaw gives root on multiple distributions](https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/)
+  BleepingComputer - 2026-05-30T
 - [Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit](https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html)
   The Hacker News - 2026-05-29T
-- [Metasploit Wrap Up 05/29/2026](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-29-2026)
-  Rapid7 - 2026-05-29T
-- [Rapid7 Observed Exploitation of PAN-OS GlobalProtect Authentication Bypass Vulnerability (CVE-2026-0257)](https://www.rapid7.com/blog/post/etr-rapid7-observed-exploitation-of-pan-os-globalprotect-authentication-bypass-vulnerability-cve-2026-0257)
-  Rapid7 - 2026-05-29T
-- [We Asked the ‘Future of Truth’ Author to Explain How He Used AI. It Didn’t Go Well](https://www.wired.com/story/future-of-truth-ai-interview/)
-  Wired - 2026-05-29T
-- [Cognition’s Scott Wu says AI coding agents shouldn’t replace humans](https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/)
-  TechCrunch - 2026-05-29T
 

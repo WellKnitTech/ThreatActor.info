@@ -34,9 +34,3 @@ SunCrypt ransomware was discovered in October 2019 and in August 2020 it was add
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Samsung Movingstyle Essential Review: A Screen on Wheels](https://www.wired.com/review/samsung-movingstyle-32-m7/)
-  Wired - 2026-05-29T
-

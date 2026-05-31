@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Nike World Cup Uniforms Made of Recycled Textiles Won’t Solve Fashion Waste](https://www.wired.com/story/nike-recycled-world-cup-uniforms/)
+  Wired - 2026-05-30T
+
