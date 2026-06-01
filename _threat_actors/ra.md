@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [TechCrunch Mobility: It doesn’t matter that people hate the Ferrari Luce](https://techcrunch.com/2026/05/31/techcrunch-mobility-it-doesnt-matter-that-people-hate-the-ferrari-luce/)
+  TechCrunch - 2026-05-31T
+- [Black founders raise highest amount of quarterly funding since 2022, but there’s a catch](https://techcrunch.com/2026/05/31/black-founders-raise-highest-amount-of-quarterly-funding-since-2022-but-theres-a-catch/)
+  TechCrunch - 2026-05-31T
+- [M-Audio M Track Duo HD Producer Pack Review: Hot Takes, Cold Opens](https://www.wired.com/review/m-audio-m-track-duo-hd-audio-interface-bundle/)
+  Wired - 2026-05-31T
+- [How Turkey Hacked the Hair Transplant Industry](https://www.wired.com/story/how-turkey-hacked-the-hair-transplant-industry/)
+  Wired - 2026-05-31T
 - [Do You Actually Need to Pay for Transcription Software?](https://www.wired.com/story/do-you-actually-need-to-pay-for-transcription-software/)
   Wired - 2026-05-30T
-- [Is the Ferrari Luce’s Design Really That Bad? 3 Italian Auto Experts Weigh In](https://www.wired.com/story/is-the-ferrari-luce-design-really-bad-we-ask-3-italian-auto-experts/)
-  Wired - 2026-05-30T
-- [ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface](https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html)
-  The Hacker News - 2026-05-29T
-- [SpaceX awarded $6.45B in Space Force contracts ahead of IPO](https://techcrunch.com/2026/05/29/spacex-awarded-6-45b-in-space-force-contracts-ahead-of-ipo/)
-  TechCrunch - 2026-05-29T
-- [The White House’s Aliens.gov Site Brags That ICE Arrested More Than 700 US Citizens](https://www.wired.com/story/white-house-aliens-gov-us-citizens-arrested/)
-  Wired - 2026-05-29T
 

@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Dutch Authorities Dismantle Botnet Linked to 17 Million Infected Devices](https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html)
+  The Hacker News - 2026-05-31T
+

@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [SoftBank says it will invest up to €75 billion to build French data centers](https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/)
-  TechCrunch - 2026-05-30T
-- [This weekend’s two biggest movies were both directed by YouTubers](https://techcrunch.com/2026/05/30/this-weekends-two-biggest-movies-were-both-directed-by-youtubers/)
-  TechCrunch - 2026-05-30T
-- [‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs](https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/)
-  TechCrunch - 2026-05-30T
-- [Meta is reportedly developing an AI pendant](https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/)
-  TechCrunch - 2026-05-30T
-- [I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful](https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/)
-  TechCrunch - 2026-05-30T
+- [Check Point Lays the Groundwork for the Future of AI Factory Security with NVIDIA](https://blog.checkpoint.com/ai-security/check-point-lays-the-groundwork-for-the-future-of-ai-factory-security-with-nvidia/)
+  Check Point - 2026-06-01T
+- [Everyone Has Their Targets Set on the MacBook Neo](https://www.wired.com/story/everyone-has-their-targets-set-on-the-macbook-neo/)
+  Wired - 2026-05-31T
+- [Erin Brockovich takes aim at data center secrecy](https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/)
+  TechCrunch - 2026-05-31T
+- [This weekend’s two biggest movies were both directed by YouTubers](https://techcrunch.com/2026/05/31/this-weekends-two-biggest-movies-were-both-directed-by-youtubers/)
+  TechCrunch - 2026-05-31T
+- [‘This is fine’ artist KC Green reaches agreement with AI startup Artisan](https://techcrunch.com/2026/05/31/this-is-fine-artist-kc-green-reaches-agreement-with-ai-startup-artisan/)
+  TechCrunch - 2026-05-31T
 

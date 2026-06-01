@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks](https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/)
-  BleepingComputer - 2026-05-30T
-- [PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation](https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html)
-  The Hacker News - 2026-05-30T
-- [Tello Mobile Plan Review (2026): Low Cost, Reliable Service](https://www.wired.com/review/tello-mobile-custom-plans/)
-  Wired - 2026-05-30T
-- [New CIFSwitch Linux flaw gives root on multiple distributions](https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/)
-  BleepingComputer - 2026-05-30T
-- [Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit](https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html)
-  The Hacker News - 2026-05-29T
+- [TechCrunch Mobility: It doesn’t matter that people hate the Ferrari Luce](https://techcrunch.com/2026/05/31/techcrunch-mobility-it-doesnt-matter-that-people-hate-the-ferrari-luce/)
+  TechCrunch - 2026-05-31T
+- [WP Maps Pro bug exploited to create admin accounts on WordPress sites](https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/)
+  BleepingComputer - 2026-05-31T
+- [6 Best Prepaid Phone Plans (2026): Tello, Boost, Google Fi, More](https://www.wired.com/gallery/best-prepaid-phone-plans/)
+  Wired - 2026-05-31T
+- [Best Unlimited Phone Plan: T-Mobile, AT&T, Verizon Compared](https://www.wired.com/story/best-unlimited-phone-plans/)
+  Wired - 2026-05-31T
+- [How Turkey Hacked the Hair Transplant Industry](https://www.wired.com/story/how-turkey-hacked-the-hair-transplant-industry/)
+  Wired - 2026-05-31T
 
