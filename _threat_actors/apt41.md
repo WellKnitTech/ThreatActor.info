@@ -113,6 +113,4 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
   Palo Alto Networks - 2026-05-29T
 - [With Complex Cloud Integrations, Small Errors Lead to Major Compromises](https://www.darkreading.com/vulnerabilities-threats/complex-cloud-integrations-small-errors-compromises)
   DarkReading - 2026-05-29T
-- [How Security Leaders Cut Through Complexity to Drive Better Outcomes](https://www.rapid7.com/blog/post/it-security-leaders-cut-through-complexity-driving-stronger-outcomes-webinar)
-  Rapid7 - 2026-05-26T
 

@@ -30,9 +30,3 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Do You Actually Need to Pay for Transcription Software?](https://www.wired.com/story/do-you-actually-need-to-pay-for-transcription-software/)
-  Wired - 2026-05-30T
-

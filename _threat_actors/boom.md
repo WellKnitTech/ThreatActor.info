@@ -33,6 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The groupthink boom: what three top VCs really think about the AI frenzy](https://techcrunch.com/2026/05/30/the-groupthink-boom-what-three-top-vcs-really-think-about-the-ai-frenzy/)
-  TechCrunch - 2026-05-30T
+- [DuckDuckGo makes its ‘no-AI’ search engine easier to access as its traffic booms](https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/)
+  TechCrunch - 2026-06-01T
 

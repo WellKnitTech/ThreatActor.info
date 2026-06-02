@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Check Point Lays the Groundwork for the Future of AI Factory Security with NVIDIA](https://blog.checkpoint.com/ai-security/check-point-lays-the-groundwork-for-the-future-of-ai-factory-security-with-nvidia/)
-  Check Point - 2026-06-01T
-- [Everyone Has Their Targets Set on the MacBook Neo](https://www.wired.com/story/everyone-has-their-targets-set-on-the-macbook-neo/)
-  Wired - 2026-05-31T
-- [Erin Brockovich takes aim at data center secrecy](https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/)
-  TechCrunch - 2026-05-31T
-- [This weekend’s two biggest movies were both directed by YouTubers](https://techcrunch.com/2026/05/31/this-weekends-two-biggest-movies-were-both-directed-by-youtubers/)
-  TechCrunch - 2026-05-31T
-- [‘This is fine’ artist KC Green reaches agreement with AI startup Artisan](https://techcrunch.com/2026/05/31/this-is-fine-artist-kc-green-reaches-agreement-with-ai-startup-artisan/)
-  TechCrunch - 2026-05-31T
+- [Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded](https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html)
+  The Hacker News - 2026-06-02T
+- [Vivid Seats Promo Codes and Deals: Get 10% Off](https://www.wired.com/story/vivid-seats-promo-code/)
+  Wired - 2026-06-02T
+- [Whoop Promo Codes May 2026: 20% Off | June 2026](https://www.wired.com/story/whoop-promo-code/)
+  Wired - 2026-06-02T
+- [Chewy Promo Codes: $20 Off June 2026](https://www.wired.com/story/chewy-promo-code/)
+  Wired - 2026-06-02T
+- [Ulta Promo Codes: Up to 50% Off in June 2026](https://www.wired.com/story/ulta-coupon/)
+  Wired - 2026-06-02T
 

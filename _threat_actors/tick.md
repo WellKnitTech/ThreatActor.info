@@ -43,3 +43,9 @@ Tick is a cyber espionage group with likely Chinese origins that has been active
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Norse Atlantic Airways Offers Dirt-Cheap Tickets. There’s a Catch](https://www.wired.com/story/norse-airlines-ftc-complaints-ai-scams/)
+  Wired - 2026-06-01T
+

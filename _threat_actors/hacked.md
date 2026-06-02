@@ -33,8 +33,6 @@ Ransomware Jigsaw Ransomware variant
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [How Turkey Hacked the Hair Transplant Industry](https://www.wired.com/story/how-turkey-hacked-the-hair-transplant-industry/)
-  Wired - 2026-05-31T
-- [Cybercrime Crew Claims It Hacked Mike Lindell’s MyPillow](https://www.wired.com/story/security-news-this-week-cybercrime-crew-claims-it-hacked-mike-lindells-mypillow/)
-  Wired - 2026-05-30T
+- [Grand Theft Auto V cheat service gets hacked, exposing thousands of gamers](https://techcrunch.com/2026/06/01/grand-theft-auto-v-cheat-service-gets-hacked-exposing-thousands-of-gamers/)
+  TechCrunch - 2026-06-01T
 

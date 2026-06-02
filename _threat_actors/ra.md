@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [TechCrunch Mobility: It doesn’t matter that people hate the Ferrari Luce](https://techcrunch.com/2026/05/31/techcrunch-mobility-it-doesnt-matter-that-people-hate-the-ferrari-luce/)
-  TechCrunch - 2026-05-31T
-- [Black founders raise highest amount of quarterly funding since 2022, but there’s a catch](https://techcrunch.com/2026/05/31/black-founders-raise-highest-amount-of-quarterly-funding-since-2022-but-theres-a-catch/)
-  TechCrunch - 2026-05-31T
-- [M-Audio M Track Duo HD Producer Pack Review: Hot Takes, Cold Opens](https://www.wired.com/review/m-audio-m-track-duo-hd-audio-interface-bundle/)
-  Wired - 2026-05-31T
-- [How Turkey Hacked the Hair Transplant Industry](https://www.wired.com/story/how-turkey-hacked-the-hair-transplant-industry/)
-  Wired - 2026-05-31T
-- [Do You Actually Need to Pay for Transcription Software?](https://www.wired.com/story/do-you-actually-need-to-pay-for-transcription-software/)
-  Wired - 2026-05-30T
+- [20% Off Sephora Promo Code | June 2026](https://www.wired.com/story/sephora-promo-code/)
+  Wired - 2026-06-02T
+- [Alphabet plans to raise $80B to pay for AI buildout](https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/)
+  TechCrunch - 2026-06-01T
+- [Hackers hijacked Instagram accounts by tricking Meta AI support chatbot into granting access](https://techcrunch.com/2026/06/01/hackers-hijacked-instagram-accounts-by-tricking-meta-ai-support-chatbot-into-granting-access/)
+  TechCrunch - 2026-06-01T
+- [Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts](https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/)
+  KrebsOnSecurity - 2026-06-01T
+- [China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan](https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html)
+  The Hacker News - 2026-06-01T
 

@@ -33,6 +33,8 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Rapid7 and Exclusive Networks Expand Partnership Across the Nordics](https://www.rapid7.com/blog/post/c-rapid7-exclusive-networks-expand-nordics-partnership-stronger-cybersecurity-outcomes-together)
+  Rapid7 - 2026-06-01T
 - [Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels](https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html)
   The Hacker News - 2026-05-29T
 

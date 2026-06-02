@@ -33,8 +33,6 @@ parser needs to be built
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Nike World Cup Uniforms Made of Recycled Textiles Won’t Solve Fashion Waste](https://www.wired.com/story/nike-recycled-world-cup-uniforms/)
-  Wired - 2026-05-30T
 - [Out of the Crypt: The Evolving Cyber Extortion Economy](https://unit42.paloaltonetworks.com/cyber-extortion-economy/)
   Unit 42 - 2026-05-27T
 

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-01T06:54:09Z",
+  "updated": "2026-06-02T06:40:54Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,56 +19,312 @@
     "Rapid7"
   ],
   "actor_news": {
-    "R": [
+    "CryLocker": [
       {
-        "title": "Check Point Lays the Groundwork for the Future of AI Factory Security with NVIDIA",
-        "link": "https://blog.checkpoint.com/ai-security/check-point-lays-the-groundwork-for-the-future-of-ai-factory-security-with-nvidia/",
-        "date": "2026-06-01T05:30:21+00:00",
-        "source": "Check Point"
+        "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
+        "link": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
+        "date": "2026-06-02T09:25:25+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "Everyone Has Their Targets Set on the MacBook Neo",
-        "link": "https://www.wired.com/story/everyone-has-their-targets-set-on-the-macbook-neo/",
-        "date": "2026-05-31T23:00:00+00:00",
+        "title": "Out of the Crypt: The Evolving Cyber Extortion Economy",
+        "link": "https://unit42.paloaltonetworks.com/cyber-extortion-economy/",
+        "date": "2026-05-27T22:00:46+00:00",
+        "source": "Unit 42"
+      }
+    ],
+    "EnCrypt": [
+      {
+        "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
+        "link": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
+        "date": "2026-06-02T09:25:25+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "JCrypt": [
+      {
+        "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
+        "link": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
+        "date": "2026-06-02T09:25:25+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Dashlane password manager users locked out by brute force attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/",
+        "date": "2026-06-01T14:17:13-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "R": [
+      {
+        "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
+        "link": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
+        "date": "2026-06-02T09:25:25+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Vivid Seats Promo Codes and Deals: Get 10% Off",
+        "link": "https://www.wired.com/story/vivid-seats-promo-code/",
+        "date": "2026-06-02T05:00:00+00:00",
         "source": "Wired"
       },
       {
-        "title": "Erin Brockovich takes aim at data center secrecy",
-        "link": "https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/",
-        "date": "2026-05-31T21:05:14+00:00",
+        "title": "Whoop Promo Codes May 2026: 20% Off | June 2026",
+        "link": "https://www.wired.com/story/whoop-promo-code/",
+        "date": "2026-06-02T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Chewy Promo Codes: $20 Off June 2026",
+        "link": "https://www.wired.com/story/chewy-promo-code/",
+        "date": "2026-06-02T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Ulta Promo Codes: Up to 50% Off in June 2026",
+        "link": "https://www.wired.com/story/ulta-coupon/",
+        "date": "2026-06-02T05:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Deadeye Jackal": [
+      {
+        "title": "Vivid Seats Promo Codes and Deals: Get 10% Off",
+        "link": "https://www.wired.com/story/vivid-seats-promo-code/",
+        "date": "2026-06-02T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "DuckDuckGo makes its ‘no-AI’ search engine easier to access as its traffic booms",
+        "link": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
+        "date": "2026-06-01T14:49:10+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Skull": [
+      {
+        "title": "Skullcandy Discount Code: 30% Off | June 2026",
+        "link": "https://www.wired.com/story/skullcandy-discount-code/",
+        "date": "2026-06-02T05:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Ra": [
+      {
+        "title": "20% Off Sephora Promo Code | June 2026",
+        "link": "https://www.wired.com/story/sephora-promo-code/",
+        "date": "2026-06-02T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Alphabet plans to raise $80B to pay for AI buildout",
+        "link": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
+        "date": "2026-06-01T22:55:09+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "This weekend’s two biggest movies were both directed by YouTubers",
-        "link": "https://techcrunch.com/2026/05/31/this-weekends-two-biggest-movies-were-both-directed-by-youtubers/",
-        "date": "2026-05-31T18:34:58+00:00",
+        "title": "Hackers hijacked Instagram accounts by tricking Meta AI support chatbot into granting access",
+        "link": "https://techcrunch.com/2026/06/01/hackers-hijacked-instagram-accounts-by-tricking-meta-ai-support-chatbot-into-granting-access/",
+        "date": "2026-06-01T18:34:32+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "‘This is fine’ artist KC Green reaches agreement with AI startup Artisan",
-        "link": "https://techcrunch.com/2026/05/31/this-is-fine-artist-kc-green-reaches-agreement-with-ai-startup-artisan/",
-        "date": "2026-05-31T18:28:17+00:00",
+        "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
+        "link": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+        "date": "2026-06-01T17:32:50+00:00",
+        "source": "KrebsOnSecurity"
+      },
+      {
+        "title": "China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan",
+        "link": "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
+        "date": "2026-06-01T17:24:24+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "PL": [
+      {
+        "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
+        "link": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
+        "date": "2026-06-01T23:10:28+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Alphabet plans to raise $80B to pay for AI buildout",
+        "link": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
+        "date": "2026-06-01T22:55:09+00:00",
         "source": "TechCrunch"
+      },
+      {
+        "title": "⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More",
+        "link": "https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html",
+        "date": "2026-06-01T19:29:54+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Spain arrests doxer leaking sensitive data of govt employees",
+        "link": "https://www.bleepingcomputer.com/news/security/spain-arrests-doxer-leaking-sensitive-data-of-govt-employees/",
+        "date": "2026-06-01T17:28:41-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools",
+        "link": "https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html",
+        "date": "2026-06-01T17:00:00+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "First": [
+      {
+        "title": "Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents",
+        "link": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
+        "date": "2026-06-01T20:03:40+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "DN": [
+      {
+        "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
+        "date": "2026-06-01T18:14:19-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "ChatGPT share links abused to host fake outage pages to deliver malware",
+        "link": "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
+        "date": "2026-05-29T14:21:36-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Lick": [
+      {
+        "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
+        "date": "2026-06-01T18:14:19-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "APT3": [
+      {
+        "title": "China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan",
+        "link": "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
+        "date": "2026-06-01T17:24:24+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Czech": [
+      {
+        "title": "China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan",
+        "link": "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
+        "date": "2026-06-01T17:24:24+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Ramp": [
+      {
+        "title": "China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan",
+        "link": "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
+        "date": "2026-06-01T17:24:24+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Hacked": [
+      {
+        "title": "Grand Theft Auto V cheat service gets hacked, exposing thousands of gamers",
+        "link": "https://techcrunch.com/2026/06/01/grand-theft-auto-v-cheat-service-gets-hacked-exposing-thousands-of-gamers/",
+        "date": "2026-06-01T17:22:46+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "core": [
+      {
+        "title": "How we reduced core unit boot time from hours to minutes",
+        "link": "https://blog.cloudflare.com/optimizing-core-unit-boot-time/",
+        "date": "2026-06-01T16:53:39+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "AnDROid": [
+      {
+        "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
+        "link": "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
+        "date": "2026-06-01T15:01:15+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "BooM": [
+      {
+        "title": "DuckDuckGo makes its ‘no-AI’ search engine easier to access as its traffic booms",
+        "link": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
+        "date": "2026-06-01T14:49:10+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Payload": [
+      {
+        "title": "WordPress malware campaign hides payloads in Steam profiles",
+        "link": "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
+        "date": "2026-06-01T13:04:16-04:00",
+        "source": "BleepingComputer"
       }
     ],
     "One": [
       {
-        "title": "Everyone Has Their Targets Set on the MacBook Neo",
-        "link": "https://www.wired.com/story/everyone-has-their-targets-set-on-the-macbook-neo/",
-        "date": "2026-05-31T23:00:00+00:00",
+        "title": "CVE-2026-0826: Critical unauthenticated stack buffer overflow in HP Poly VVX and Trio VoIP Phones (FIXED)",
+        "link": "https://www.rapid7.com/blog/post/ve-cve-2026-0826-critical-unauthenticated-stack-buffer-overflow-hp-poly-vvx-trio-voip-phones-fixed",
+        "date": "2026-06-01T13:00:00+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "BRONZE BUTLER": [
+      {
+        "title": "Norse Atlantic Airways Offers Dirt-Cheap Tickets. There’s a Catch",
+        "link": "https://www.wired.com/story/norse-airlines-ftc-complaints-ai-scams/",
+        "date": "2026-06-01T11:00:00+00:00",
         "source": "Wired"
+      }
+    ],
+    "Tick": [
+      {
+        "title": "Norse Atlantic Airways Offers Dirt-Cheap Tickets. There’s a Catch",
+        "link": "https://www.wired.com/story/norse-airlines-ftc-complaints-ai-scams/",
+        "date": "2026-06-01T11:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Viagra": [
+      {
+        "title": "‘Sexual Chocolate’ Faces Recalls After FDA Tests Reveal Undisclosed Viagra",
+        "link": "https://www.wired.com/story/sexual-chocolate-recalls-fda-undisclosed-viagra/",
+        "date": "2026-06-01T10:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "NMoreira": [
+      {
+        "title": "Rapid7 and Exclusive Networks Expand Partnership Across the Nordics",
+        "link": "https://www.rapid7.com/blog/post/c-rapid7-exclusive-networks-expand-nordics-partnership-stronger-cybersecurity-outcomes-together",
+        "date": "2026-06-01T08:00:00+00:00",
+        "source": "Rapid7"
       },
       {
-        "title": "6 Best Prepaid Phone Plans (2026): Tello, Boost, Google Fi, More",
-        "link": "https://www.wired.com/gallery/best-prepaid-phone-plans/",
-        "date": "2026-05-31T10:01:00+00:00",
-        "source": "Wired"
+        "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
+        "link": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
+        "date": "2026-05-29T11:27:41+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Rapid": [
+      {
+        "title": "Rapid7 and Exclusive Networks Expand Partnership Across the Nordics",
+        "link": "https://www.rapid7.com/blog/post/c-rapid7-exclusive-networks-expand-nordics-partnership-stronger-cybersecurity-outcomes-together",
+        "date": "2026-06-01T08:00:00+00:00",
+        "source": "Rapid7"
       },
       {
-        "title": "Best Unlimited Phone Plan: T-Mobile, AT&T, Verizon Compared",
-        "link": "https://www.wired.com/story/best-unlimited-phone-plans/",
-        "date": "2026-05-31T09:31:00+00:00",
-        "source": "Wired"
+        "title": "Rapid7 Observed Exploitation of PAN-OS GlobalProtect Authentication Bypass Vulnerability (CVE-2026-0257)",
+        "link": "https://www.rapid7.com/blog/post/etr-rapid7-observed-exploitation-of-pan-os-globalprotect-authentication-bypass-vulnerability-cve-2026-0257",
+        "date": "2026-05-29T16:49:40+00:00",
+        "source": "Rapid7"
       }
     ],
     "Thor": [
@@ -77,128 +333,6 @@
         "link": "https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html",
         "date": "2026-05-31T17:52:12+05:30",
         "source": "The Hacker News"
-      }
-    ],
-    "PL": [
-      {
-        "title": "TechCrunch Mobility: It doesn’t matter that people hate the Ferrari Luce",
-        "link": "https://techcrunch.com/2026/05/31/techcrunch-mobility-it-doesnt-matter-that-people-hate-the-ferrari-luce/",
-        "date": "2026-05-31T16:05:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "WP Maps Pro bug exploited to create admin accounts on WordPress sites",
-        "link": "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/",
-        "date": "2026-05-31T10:06:42-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "6 Best Prepaid Phone Plans (2026): Tello, Boost, Google Fi, More",
-        "link": "https://www.wired.com/gallery/best-prepaid-phone-plans/",
-        "date": "2026-05-31T10:01:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Best Unlimited Phone Plan: T-Mobile, AT&T, Verizon Compared",
-        "link": "https://www.wired.com/story/best-unlimited-phone-plans/",
-        "date": "2026-05-31T09:31:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "How Turkey Hacked the Hair Transplant Industry",
-        "link": "https://www.wired.com/story/how-turkey-hacked-the-hair-transplant-industry/",
-        "date": "2026-05-31T09:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Ra": [
-      {
-        "title": "TechCrunch Mobility: It doesn’t matter that people hate the Ferrari Luce",
-        "link": "https://techcrunch.com/2026/05/31/techcrunch-mobility-it-doesnt-matter-that-people-hate-the-ferrari-luce/",
-        "date": "2026-05-31T16:05:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Black founders raise highest amount of quarterly funding since 2022, but there’s a catch",
-        "link": "https://techcrunch.com/2026/05/31/black-founders-raise-highest-amount-of-quarterly-funding-since-2022-but-theres-a-catch/",
-        "date": "2026-05-31T15:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "M-Audio M Track Duo HD Producer Pack Review: Hot Takes, Cold Opens",
-        "link": "https://www.wired.com/review/m-audio-m-track-duo-hd-audio-interface-bundle/",
-        "date": "2026-05-31T11:01:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "How Turkey Hacked the Hair Transplant Industry",
-        "link": "https://www.wired.com/story/how-turkey-hacked-the-hair-transplant-industry/",
-        "date": "2026-05-31T09:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Do You Actually Need to Pay for Transcription Software?",
-        "link": "https://www.wired.com/story/do-you-actually-need-to-pay-for-transcription-software/",
-        "date": "2026-05-30T09:30:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Hacked": [
-      {
-        "title": "How Turkey Hacked the Hair Transplant Industry",
-        "link": "https://www.wired.com/story/how-turkey-hacked-the-hair-transplant-industry/",
-        "date": "2026-05-31T09:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Cybercrime Crew Claims It Hacked Mike Lindell’s MyPillow",
-        "link": "https://www.wired.com/story/security-news-this-week-cybercrime-crew-claims-it-hacked-mike-lindells-mypillow/",
-        "date": "2026-05-30T10:30:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Ank": [
-      {
-        "title": "SoftBank says it will invest up to €75 billion to build French data centers",
-        "link": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
-        "date": "2026-05-30T21:45:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets",
-        "link": "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
-        "date": "2026-05-29T14:41:25+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "ghost": [
-      {
-        "title": "Snap alums unveil Ghost Angels fund",
-        "link": "https://techcrunch.com/2026/05/30/snap-alums-unveil-ghost-angels-fund/",
-        "date": "2026-05-30T17:00:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Mini": [
-      {
-        "title": "I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful",
-        "link": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
-        "date": "2026-05-30T15:30:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "GreyVibe hackers use ChatGPT, Gemini to power cyberattacks",
-        "link": "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
-        "date": "2026-05-28T18:24:49-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "BooM": [
-      {
-        "title": "The groupthink boom: what three top VCs really think about the AI frenzy",
-        "link": "https://techcrunch.com/2026/05/30/the-groupthink-boom-what-three-top-vcs-really-think-about-the-ai-frenzy/",
-        "date": "2026-05-30T14:49:27+00:00",
-        "source": "TechCrunch"
       }
     ],
     "global": [
@@ -223,7 +357,7 @@
       {
         "title": "As Global Powers Explore Humanoid Robots, Cyber-Risk Looms",
         "link": "https://www.darkreading.com/cyber-risk/global-powers-explore-humanoids-cyber-risk",
-        "date": "2026-05-28T23:05:23+00:00",
+        "date": "2026-05-29T15:56:23+00:00",
         "source": "DarkReading"
       }
     ],
@@ -235,48 +369,12 @@
         "source": "BleepingComputer"
       }
     ],
-    "RIP (Phoenix) Ransomware": [
-      {
-        "title": "Do You Actually Need to Pay for Transcription Software?",
-        "link": "https://www.wired.com/story/do-you-actually-need-to-pay-for-transcription-software/",
-        "date": "2026-05-30T09:30:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Lv": [
-      {
-        "title": "Nike World Cup Uniforms Made of Recycled Textiles Won’t Solve Fashion Waste",
-        "link": "https://www.wired.com/story/nike-recycled-world-cup-uniforms/",
-        "date": "2026-05-30T08:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Out of the Crypt: The Evolving Cyber Extortion Economy",
-        "link": "https://unit42.paloaltonetworks.com/cyber-extortion-economy/",
-        "date": "2026-05-27T22:00:46+00:00",
-        "source": "Unit 42"
-      }
-    ],
-    "Solve": [
-      {
-        "title": "Nike World Cup Uniforms Made of Recycled Textiles Won’t Solve Fashion Waste",
-        "link": "https://www.wired.com/story/nike-recycled-world-cup-uniforms/",
-        "date": "2026-05-30T08:30:00+00:00",
-        "source": "Wired"
-      }
-    ],
     "RNS": [
       {
         "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
         "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
         "date": "2026-05-29T23:37:12+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "FBI warns of fake FIFA websites running World Cup fraud schemes",
-        "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-fake-fifa-websites-running-world-cup-fraud-schemes/",
-        "date": "2026-05-28T15:08:10-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "Ogre": [
@@ -295,31 +393,11 @@
         "source": "Rapid7"
       }
     ],
-    "Rapid": [
+    "Ank": [
       {
-        "title": "Rapid7 Observed Exploitation of PAN-OS GlobalProtect Authentication Bypass Vulnerability (CVE-2026-0257)",
-        "link": "https://www.rapid7.com/blog/post/etr-rapid7-observed-exploitation-of-pan-os-globalprotect-authentication-bypass-vulnerability-cve-2026-0257",
-        "date": "2026-05-29T16:49:40+00:00",
-        "source": "Rapid7"
-      }
-    ],
-    "DN": [
-      {
-        "title": "ChatGPT share links abused to host fake outage pages to deliver malware",
-        "link": "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
-        "date": "2026-05-29T14:21:36-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "FBI warns of fake FIFA websites running World Cup fraud schemes",
-        "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-fake-fifa-websites-running-world-cup-fraud-schemes/",
-        "date": "2026-05-28T15:08:10-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware",
-        "link": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
-        "date": "2026-05-28T13:24:48+05:30",
+        "title": "Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets",
+        "link": "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
+        "date": "2026-05-29T14:41:25+05:30",
         "source": "The Hacker News"
       }
     ],
@@ -335,12 +413,6 @@
         "link": "https://www.darkreading.com/vulnerabilities-threats/complex-cloud-integrations-small-errors-compromises",
         "date": "2026-05-29T13:00:01+00:00",
         "source": "DarkReading"
-      },
-      {
-        "title": "How Security Leaders Cut Through Complexity to Drive Better Outcomes",
-        "link": "https://www.rapid7.com/blog/post/it-security-leaders-cut-through-complexity-driving-stronger-outcomes-webinar",
-        "date": "2026-05-26T12:51:10+00:00",
-        "source": "Rapid7"
       }
     ],
     "Magic": [
@@ -359,80 +431,12 @@
         "source": "The Hacker News"
       }
     ],
-    "NMoreira": [
-      {
-        "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
-        "link": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
-        "date": "2026-05-29T11:27:41+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Deadeye Jackal": [
-      {
-        "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
-        "link": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
-        "date": "2026-05-28T19:23:52+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Slam": [
-      {
-        "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
-        "link": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
-        "date": "2026-05-28T19:23:52+05:30",
-        "source": "The Hacker News"
-      }
-    ],
     "Zlader": [
       {
         "title": "Dutch Raid Fails to Dent Russian Bulletproof Host",
         "link": "https://www.darkreading.com/cyber-risk/dutch-raid-russian-bulletproof-host",
         "date": "2026-05-28T19:04:37+00:00",
         "source": "DarkReading"
-      }
-    ],
-    "Kali": [
-      {
-        "title": "ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More",
-        "link": "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
-        "date": "2026-05-28T19:03:16+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "AnDROid": [
-      {
-        "title": "BTMOB Android malware service generates custom phishing payloads",
-        "link": "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
-        "date": "2026-05-28T17:10:11-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Grandoreiro Malware and BTMOB RAT Campaigns Target Windows and Android Users",
-        "link": "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
-        "date": "2026-05-27T21:40:21+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Payload": [
-      {
-        "title": "BTMOB Android malware service generates custom phishing payloads",
-        "link": "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
-        "date": "2026-05-28T17:10:11-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "CryLocker": [
-      {
-        "title": "JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware",
-        "link": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
-        "date": "2026-05-28T13:24:48+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Out of the Crypt: The Evolving Cyber Extortion Economy",
-        "link": "https://unit42.paloaltonetworks.com/cyber-extortion-economy/",
-        "date": "2026-05-27T22:00:46+00:00",
-        "source": "Unit 42"
       }
     ],
     "Conti": [
@@ -443,28 +447,12 @@
         "source": "Rapid7"
       }
     ],
-    "Radar": [
+    "Lv": [
       {
-        "title": "Iran's Internet is partially restored, Cloudflare Radar data shows",
-        "link": "https://blog.cloudflare.com/iran-internet-partially-restored-may-2026/",
-        "date": "2026-05-27T17:25:00+00:00",
-        "source": "Cloudflare"
-      }
-    ],
-    "Evolution": [
-      {
-        "title": "Cybersecurity Evolution: How We Went From Perimeter Defense to AI-Native Security",
-        "link": "https://www.darkreading.com/cybersecurity-operations/cybersecurity-evolution-perimeter-defense-to-ai-native-security",
-        "date": "2026-05-27T12:11:30+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Quantum": [
-      {
-        "title": "US's big bet on quantum computing may not be entirely legal",
-        "link": "https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/",
-        "date": "2026-05-25T12:00:15+00:00",
-        "source": "Ars Technica"
+        "title": "Out of the Crypt: The Evolving Cyber Extortion Economy",
+        "link": "https://unit42.paloaltonetworks.com/cyber-extortion-economy/",
+        "date": "2026-05-27T22:00:46+00:00",
+        "source": "Unit 42"
       }
     ]
   }

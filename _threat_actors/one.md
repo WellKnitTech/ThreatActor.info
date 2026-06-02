@@ -33,10 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Everyone Has Their Targets Set on the MacBook Neo](https://www.wired.com/story/everyone-has-their-targets-set-on-the-macbook-neo/)
-  Wired - 2026-05-31T
-- [6 Best Prepaid Phone Plans (2026): Tello, Boost, Google Fi, More](https://www.wired.com/gallery/best-prepaid-phone-plans/)
-  Wired - 2026-05-31T
-- [Best Unlimited Phone Plan: T-Mobile, AT&T, Verizon Compared](https://www.wired.com/story/best-unlimited-phone-plans/)
-  Wired - 2026-05-31T
+- [CVE-2026-0826: Critical unauthenticated stack buffer overflow in HP Poly VVX and Trio VoIP Phones (FIXED)](https://www.rapid7.com/blog/post/ve-cve-2026-0826-critical-unauthenticated-stack-buffer-overflow-hp-poly-vvx-trio-voip-phones-fixed)
+  Rapid7 - 2026-06-01T
 
