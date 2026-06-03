@@ -30,3 +30,9 @@ Fusion is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Focused Energy raises whopping $240M Series A for laser-powered fusion tech](https://techcrunch.com/2026/06/02/focused-energy-raises-whopping-240m-series-a-for-laser-powered-fusion-tech/)
+  TechCrunch - 2026-06-02T
+

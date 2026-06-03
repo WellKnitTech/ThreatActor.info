@@ -33,6 +33,8 @@ Ransomware written in C#. Fortunately, all current versions of the MafiaWare666 
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Instagram users locked out after Meta AI abused to steal accounts](https://www.bleepingcomputer.com/news/security/instagram-users-locked-out-after-meta-ai-abused-to-steal-accounts/)
+  BleepingComputer - 2026-06-02T
 - [Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded](https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html)
   The Hacker News - 2026-06-02T
 - [Dashlane password manager users locked out by brute force attacks](https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/)

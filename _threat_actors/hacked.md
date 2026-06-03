@@ -30,9 +30,3 @@ Ransomware Jigsaw Ransomware variant
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Grand Theft Auto V cheat service gets hacked, exposing thousands of gamers](https://techcrunch.com/2026/06/01/grand-theft-auto-v-cheat-service-gets-hacked-exposing-thousands-of-gamers/)
-  TechCrunch - 2026-06-01T
-

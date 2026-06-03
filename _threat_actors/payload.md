@@ -30,9 +30,3 @@ Payload is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [WordPress malware campaign hides payloads in Steam profiles](https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/)
-  BleepingComputer - 2026-06-01T
-

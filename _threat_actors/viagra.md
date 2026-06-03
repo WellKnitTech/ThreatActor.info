@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [‘Sexual Chocolate’ Faces Recalls After FDA Tests Reveal Undisclosed Viagra](https://www.wired.com/story/sexual-chocolate-recalls-fda-undisclosed-viagra/)
-  Wired - 2026-06-01T
-

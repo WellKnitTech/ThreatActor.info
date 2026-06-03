@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-02T06:40:54Z",
+  "updated": "2026-06-03T06:51:57Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,29 +19,371 @@
     "Rapid7"
   ],
   "actor_news": {
-    "CryLocker": [
+    "R": [
       {
-        "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
-        "link": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
-        "date": "2026-06-02T09:25:25+05:30",
-        "source": "The Hacker News"
+        "title": "Squarespace Promo Codes: 20% Off in June 2026",
+        "link": "https://www.wired.com/story/squarespace-promo-code/",
+        "date": "2026-06-03T05:00:00+00:00",
+        "source": "Wired"
       },
       {
-        "title": "Out of the Crypt: The Evolving Cyber Extortion Economy",
-        "link": "https://unit42.paloaltonetworks.com/cyber-extortion-economy/",
-        "date": "2026-05-27T22:00:46+00:00",
+        "title": "AT&T Promo Codes: $50 Off This June 2026",
+        "link": "https://www.wired.com/story/att-promo-code/",
+        "date": "2026-06-03T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "30% Off Samsung Promo Code | June 2026",
+        "link": "https://www.wired.com/story/samsung-promo-codes/",
+        "date": "2026-06-03T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Dyson Promo Codes: 25% Off in June 2026",
+        "link": "https://www.wired.com/story/dyson-cordless-vacuum-promo-code/",
+        "date": "2026-06-03T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Newegg Promo Code: 10% Off in June 2026",
+        "link": "https://www.wired.com/story/newegg-promo-code/",
+        "date": "2026-06-03T05:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "SunCrypt": [
+      {
+        "title": "30% Off Samsung Promo Code | June 2026",
+        "link": "https://www.wired.com/story/samsung-promo-codes/",
+        "date": "2026-06-03T05:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Lv": [
+      {
+        "title": "Valvoline Coupons and Promo Codes for June 2026",
+        "link": "https://www.wired.com/story/valvoline-coupons/",
+        "date": "2026-06-03T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Operation FlutterBridge: macOS Malvertising Campaign Spreads New FlutterShell Backdoor",
+        "link": "https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/",
+        "date": "2026-06-02T10:00:31+00:00",
         "source": "Unit 42"
       }
     ],
-    "EnCrypt": [
+    "Ra": [
       {
-        "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
-        "link": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
-        "date": "2026-06-02T09:25:25+05:30",
+        "title": "Paramount+ Coupon Codes and Deals for June 2026",
+        "link": "https://www.wired.com/story/paramount-plus-coupon-code/",
+        "date": "2026-06-03T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Gamaredon Exploits WinRAR to Deliver GammaWorm and GammaSteel Against Ukraine",
+        "link": "https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html",
+        "date": "2026-06-02T23:51:49+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation",
+        "link": "https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html",
+        "date": "2026-06-02T23:44:42+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Palantir Contracts Have Become ‘An Unacceptable Point of Weakness,’ UK Politicians Warn",
+        "link": "https://www.wired.com/story/uk-government-palantir-warning-report/",
+        "date": "2026-06-02T23:05:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Cyera eyes $12B valuation at 80x ARR multiple despite operating losses",
+        "link": "https://techcrunch.com/2026/06/02/cyera-eyes-12b-valuation-at-80x-arr-multiple-despite-operating-losses/",
+        "date": "2026-06-02T22:50:56+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Lick": [
+      {
+        "title": "VS Code zero-day lets hackers steal GitHub tokens in one click",
+        "link": "https://www.bleepingcomputer.com/news/security/vs-code-zero-day-lets-hackers-steal-github-tokens-in-one-click/",
+        "date": "2026-06-03T02:50:30-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "DriveSurge Hijacks Thousands of Sites for ClickFix, FakeUpdate Attacks",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/drivesurge-hijacks-thousands-sites-clickfix-fakeupdate-attacks",
+        "date": "2026-06-02T20:11:51+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
+        "date": "2026-06-01T18:14:19-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "One": [
+      {
+        "title": "VS Code zero-day lets hackers steal GitHub tokens in one click",
+        "link": "https://www.bleepingcomputer.com/news/security/vs-code-zero-day-lets-hackers-steal-github-tokens-in-one-click/",
+        "date": "2026-06-03T02:50:30-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited",
+        "link": "https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html",
+        "date": "2026-06-03T00:16:00+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Android Is Fighting Phone Scams With a New Feature to Prove Who’s Calling",
+        "link": "https://www.wired.com/story/android-is-fighting-phone-scams-with-a-new-feature-to-prove-whos-calling/",
+        "date": "2026-06-02T18:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Google fixes one actively exploited Android zero-day, 124 flaws",
+        "link": "https://www.bleepingcomputer.com/news/security/google-fixes-one-actively-exploited-android-zero-day-124-flaws/",
+        "date": "2026-06-02T07:10:15-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "CVE-2026-0826: Critical unauthenticated stack buffer overflow in HP Poly VVX and Trio VoIP Phones (FIXED)",
+        "link": "https://www.rapid7.com/blog/post/ve-cve-2026-0826-critical-unauthenticated-stack-buffer-overflow-hp-poly-vvx-trio-voip-phones-fixed",
+        "date": "2026-06-01T13:00:00+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "AnDROid": [
+      {
+        "title": "Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited",
+        "link": "https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html",
+        "date": "2026-06-03T00:16:00+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Android Is Fighting Phone Scams With a New Feature to Prove Who’s Calling",
+        "link": "https://www.wired.com/story/android-is-fighting-phone-scams-with-a-new-feature-to-prove-whos-calling/",
+        "date": "2026-06-02T18:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Google fixes one actively exploited Android zero-day, 124 flaws",
+        "link": "https://www.bleepingcomputer.com/news/security/google-fixes-one-actively-exploited-android-zero-day-124-flaws/",
+        "date": "2026-06-02T07:10:15-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
+        "link": "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
+        "date": "2026-06-01T15:01:15+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "PL": [
+      {
+        "title": "Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited",
+        "link": "https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html",
+        "date": "2026-06-03T00:16:00+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Gamaredon Exploits WinRAR to Deliver GammaWorm and GammaSteel Against Ukraine",
+        "link": "https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html",
+        "date": "2026-06-02T23:51:49+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation",
+        "link": "https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html",
+        "date": "2026-06-02T23:44:42+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Cyera eyes $12B valuation at 80x ARR multiple despite operating losses",
+        "link": "https://techcrunch.com/2026/06/02/cyera-eyes-12b-valuation-at-80x-arr-multiple-despite-operating-losses/",
+        "date": "2026-06-02T22:50:56+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Zoom CISO: AI as Security Enabler, Not Role-Replacer",
+        "link": "https://www.darkreading.com/cybersecurity-operations/zoom-ciso-ai-security-enabler-role-replacer",
+        "date": "2026-06-02T21:51:07+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Gamaredon Group": [
+      {
+        "title": "Gamaredon Exploits WinRAR to Deliver GammaWorm and GammaSteel Against Ukraine",
+        "link": "https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html",
+        "date": "2026-06-02T23:51:49+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "GammA": [
+      {
+        "title": "Gamaredon Exploits WinRAR to Deliver GammaWorm and GammaSteel Against Ukraine",
+        "link": "https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html",
+        "date": "2026-06-02T23:51:49+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Steel": [
+      {
+        "title": "Gamaredon Exploits WinRAR to Deliver GammaWorm and GammaSteel Against Ukraine",
+        "link": "https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html",
+        "date": "2026-06-02T23:51:49+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "DDE": [
+      {
+        "title": "Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation",
+        "link": "https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html",
+        "date": "2026-06-02T23:44:42+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Kali": [
+      {
+        "title": "FBI-Flagged Phishing Kit Kali365 Expands Its Reach",
+        "link": "https://www.darkreading.com/cyber-risk/fbi-flagged-phishing-kit-kali365-expands-its-reach",
+        "date": "2026-06-02T21:32:24+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "NMoreira": [
+      {
+        "title": "FBI-Flagged Phishing Kit Kali365 Expands Its Reach",
+        "link": "https://www.darkreading.com/cyber-risk/fbi-flagged-phishing-kit-kali365-expands-its-reach",
+        "date": "2026-06-02T21:32:24+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "Rapid7 and Exclusive Networks Expand Partnership Across the Nordics",
+        "link": "https://www.rapid7.com/blog/post/c-rapid7-exclusive-networks-expand-nordics-partnership-stronger-cybersecurity-outcomes-together",
+        "date": "2026-06-01T08:00:00+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "DN": [
+      {
+        "title": "DriveSurge Hijacks Thousands of Sites for ClickFix, FakeUpdate Attacks",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/drivesurge-hijacks-thousands-sites-clickfix-fakeupdate-attacks",
+        "date": "2026-06-02T20:11:51+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "Google rolls out fake call detection to protect against AI deepfake impersonation scams",
+        "link": "https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/",
+        "date": "2026-06-02T18:00:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
+        "date": "2026-06-01T18:14:19-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Czech": [
+      {
+        "title": "China Uses Dual-Method Cyberattack on Czech Orgs",
+        "link": "https://www.darkreading.com/threat-intelligence/china-uses-dual-method-attack-czech-taiwan-orgs",
+        "date": "2026-06-02T19:50:53+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan",
+        "link": "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
+        "date": "2026-06-01T17:24:24+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Bud": [
+      {
+        "title": "Uber caps employee AI spending after blowing through budget in 4 months",
+        "link": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/",
+        "date": "2026-06-02T19:11:48+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "RIP (Phoenix) Ransomware": [
+      {
+        "title": "New Microsoft tool lets devs spin up AI behavior tests using text descriptions",
+        "link": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/",
+        "date": "2026-06-02T19:02:21+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "core": [
+      {
+        "title": "Microsoft's Coreutils project brings Linux commands to Windows",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsofts-coreutils-project-brings-linux-commands-to-windows/",
+        "date": "2026-06-02T18:52:40-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "How we reduced core unit boot time from hours to minutes",
+        "link": "https://blog.cloudflare.com/optimizing-core-unit-boot-time/",
+        "date": "2026-06-01T16:53:39+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "Fusion": [
+      {
+        "title": "Focused Energy raises whopping $240M Series A for laser-powered fusion tech",
+        "link": "https://techcrunch.com/2026/06/02/focused-energy-raises-whopping-240m-series-a-for-laser-powered-fusion-tech/",
+        "date": "2026-06-02T17:01:17+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "APT41": [
+      {
+        "title": "How Leading Organizations Are Turning EDR Into Operational Resilience",
+        "link": "https://thehackernews.com/2026/06/how-leading-organizations-are-turning.html",
+        "date": "2026-06-02T16:00:00+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "A 4X Gartner Magic Quadrant for EPP Leader. Built for the Agentic Era.",
+        "link": "https://www.paloaltonetworks.com/blog/2026/05/a-4x-gartner-magic-quadrant-for-epp-leader-built-for-the-agentic-era/",
+        "date": "2026-05-29T13:16:32+00:00",
+        "source": "Palo Alto Networks"
+      },
+      {
+        "title": "With Complex Cloud Integrations, Small Errors Lead to Major Compromises",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/complex-cloud-integrations-small-errors-compromises",
+        "date": "2026-05-29T13:00:01+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "SideCopy": [
+      {
+        "title": "Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT",
+        "link": "https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html",
+        "date": "2026-06-02T14:35:40+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Mini": [
+      {
+        "title": "Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT",
+        "link": "https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html",
+        "date": "2026-06-02T14:35:40+05:30",
         "source": "The Hacker News"
       }
     ],
     "JCrypt": [
+      {
+        "title": "Instagram users locked out after Meta AI abused to steal accounts",
+        "link": "https://www.bleepingcomputer.com/news/security/instagram-users-locked-out-after-meta-ai-abused-to-steal-accounts/",
+        "date": "2026-06-02T11:47:33-04:00",
+        "source": "BleepingComputer"
+      },
       {
         "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
         "link": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
@@ -55,163 +397,23 @@
         "source": "BleepingComputer"
       }
     ],
-    "R": [
+    "CryLocker": [
       {
         "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
         "link": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
         "date": "2026-06-02T09:25:25+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "Vivid Seats Promo Codes and Deals: Get 10% Off",
-        "link": "https://www.wired.com/story/vivid-seats-promo-code/",
-        "date": "2026-06-02T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Whoop Promo Codes May 2026: 20% Off | June 2026",
-        "link": "https://www.wired.com/story/whoop-promo-code/",
-        "date": "2026-06-02T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Chewy Promo Codes: $20 Off June 2026",
-        "link": "https://www.wired.com/story/chewy-promo-code/",
-        "date": "2026-06-02T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Ulta Promo Codes: Up to 50% Off in June 2026",
-        "link": "https://www.wired.com/story/ulta-coupon/",
-        "date": "2026-06-02T05:00:00+00:00",
-        "source": "Wired"
       }
     ],
-    "Deadeye Jackal": [
+    "EnCrypt": [
       {
-        "title": "Vivid Seats Promo Codes and Deals: Get 10% Off",
-        "link": "https://www.wired.com/story/vivid-seats-promo-code/",
-        "date": "2026-06-02T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "DuckDuckGo makes its ‘no-AI’ search engine easier to access as its traffic booms",
-        "link": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
-        "date": "2026-06-01T14:49:10+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Skull": [
-      {
-        "title": "Skullcandy Discount Code: 30% Off | June 2026",
-        "link": "https://www.wired.com/story/skullcandy-discount-code/",
-        "date": "2026-06-02T05:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Ra": [
-      {
-        "title": "20% Off Sephora Promo Code | June 2026",
-        "link": "https://www.wired.com/story/sephora-promo-code/",
-        "date": "2026-06-02T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Alphabet plans to raise $80B to pay for AI buildout",
-        "link": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
-        "date": "2026-06-01T22:55:09+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Hackers hijacked Instagram accounts by tricking Meta AI support chatbot into granting access",
-        "link": "https://techcrunch.com/2026/06/01/hackers-hijacked-instagram-accounts-by-tricking-meta-ai-support-chatbot-into-granting-access/",
-        "date": "2026-06-01T18:34:32+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
-        "link": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
-        "date": "2026-06-01T17:32:50+00:00",
-        "source": "KrebsOnSecurity"
-      },
-      {
-        "title": "China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan",
-        "link": "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
-        "date": "2026-06-01T17:24:24+05:30",
+        "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
+        "link": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
+        "date": "2026-06-02T09:25:25+05:30",
         "source": "The Hacker News"
-      }
-    ],
-    "PL": [
-      {
-        "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
-        "link": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
-        "date": "2026-06-01T23:10:28+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Alphabet plans to raise $80B to pay for AI buildout",
-        "link": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
-        "date": "2026-06-01T22:55:09+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More",
-        "link": "https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html",
-        "date": "2026-06-01T19:29:54+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Spain arrests doxer leaking sensitive data of govt employees",
-        "link": "https://www.bleepingcomputer.com/news/security/spain-arrests-doxer-leaking-sensitive-data-of-govt-employees/",
-        "date": "2026-06-01T17:28:41-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools",
-        "link": "https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html",
-        "date": "2026-06-01T17:00:00+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "First": [
-      {
-        "title": "Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents",
-        "link": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
-        "date": "2026-06-01T20:03:40+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "DN": [
-      {
-        "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
-        "date": "2026-06-01T18:14:19-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "ChatGPT share links abused to host fake outage pages to deliver malware",
-        "link": "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
-        "date": "2026-05-29T14:21:36-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Lick": [
-      {
-        "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
-        "date": "2026-06-01T18:14:19-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "APT3": [
-      {
-        "title": "China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan",
-        "link": "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
-        "date": "2026-06-01T17:24:24+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Czech": [
       {
         "title": "China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan",
         "link": "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
@@ -224,92 +426,6 @@
         "title": "China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan",
         "link": "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
         "date": "2026-06-01T17:24:24+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Hacked": [
-      {
-        "title": "Grand Theft Auto V cheat service gets hacked, exposing thousands of gamers",
-        "link": "https://techcrunch.com/2026/06/01/grand-theft-auto-v-cheat-service-gets-hacked-exposing-thousands-of-gamers/",
-        "date": "2026-06-01T17:22:46+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "core": [
-      {
-        "title": "How we reduced core unit boot time from hours to minutes",
-        "link": "https://blog.cloudflare.com/optimizing-core-unit-boot-time/",
-        "date": "2026-06-01T16:53:39+00:00",
-        "source": "Cloudflare"
-      }
-    ],
-    "AnDROid": [
-      {
-        "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
-        "link": "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
-        "date": "2026-06-01T15:01:15+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "BooM": [
-      {
-        "title": "DuckDuckGo makes its ‘no-AI’ search engine easier to access as its traffic booms",
-        "link": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
-        "date": "2026-06-01T14:49:10+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Payload": [
-      {
-        "title": "WordPress malware campaign hides payloads in Steam profiles",
-        "link": "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
-        "date": "2026-06-01T13:04:16-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "One": [
-      {
-        "title": "CVE-2026-0826: Critical unauthenticated stack buffer overflow in HP Poly VVX and Trio VoIP Phones (FIXED)",
-        "link": "https://www.rapid7.com/blog/post/ve-cve-2026-0826-critical-unauthenticated-stack-buffer-overflow-hp-poly-vvx-trio-voip-phones-fixed",
-        "date": "2026-06-01T13:00:00+00:00",
-        "source": "Rapid7"
-      }
-    ],
-    "BRONZE BUTLER": [
-      {
-        "title": "Norse Atlantic Airways Offers Dirt-Cheap Tickets. There’s a Catch",
-        "link": "https://www.wired.com/story/norse-airlines-ftc-complaints-ai-scams/",
-        "date": "2026-06-01T11:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Tick": [
-      {
-        "title": "Norse Atlantic Airways Offers Dirt-Cheap Tickets. There’s a Catch",
-        "link": "https://www.wired.com/story/norse-airlines-ftc-complaints-ai-scams/",
-        "date": "2026-06-01T11:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Viagra": [
-      {
-        "title": "‘Sexual Chocolate’ Faces Recalls After FDA Tests Reveal Undisclosed Viagra",
-        "link": "https://www.wired.com/story/sexual-chocolate-recalls-fda-undisclosed-viagra/",
-        "date": "2026-06-01T10:30:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "NMoreira": [
-      {
-        "title": "Rapid7 and Exclusive Networks Expand Partnership Across the Nordics",
-        "link": "https://www.rapid7.com/blog/post/c-rapid7-exclusive-networks-expand-nordics-partnership-stronger-cybersecurity-outcomes-together",
-        "date": "2026-06-01T08:00:00+00:00",
-        "source": "Rapid7"
-      },
-      {
-        "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
-        "link": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
-        "date": "2026-05-29T11:27:41+05:30",
         "source": "The Hacker News"
       }
     ],
@@ -337,12 +453,6 @@
     ],
     "global": [
       {
-        "title": "Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
-        "date": "2026-05-30T14:02:51-04:00",
-        "source": "BleepingComputer"
-      },
-      {
         "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
         "link": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
         "date": "2026-05-30T12:11:26+05:30",
@@ -361,22 +471,6 @@
         "source": "DarkReading"
       }
     ],
-    "Root": [
-      {
-        "title": "New CIFSwitch Linux flaw gives root on multiple distributions",
-        "link": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
-        "date": "2026-05-30T10:16:08-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "RNS": [
-      {
-        "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
-        "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
-        "date": "2026-05-29T23:37:12+05:30",
-        "source": "The Hacker News"
-      }
-    ],
     "Ogre": [
       {
         "title": "Name That Toon: Mark of (Cybersecurity) Progress",
@@ -393,42 +487,12 @@
         "source": "Rapid7"
       }
     ],
-    "Ank": [
-      {
-        "title": "Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets",
-        "link": "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
-        "date": "2026-05-29T14:41:25+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "APT41": [
-      {
-        "title": "A 4X Gartner Magic Quadrant for EPP Leader. Built for the Agentic Era.",
-        "link": "https://www.paloaltonetworks.com/blog/2026/05/a-4x-gartner-magic-quadrant-for-epp-leader-built-for-the-agentic-era/",
-        "date": "2026-05-29T13:16:32+00:00",
-        "source": "Palo Alto Networks"
-      },
-      {
-        "title": "With Complex Cloud Integrations, Small Errors Lead to Major Compromises",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/complex-cloud-integrations-small-errors-compromises",
-        "date": "2026-05-29T13:00:01+00:00",
-        "source": "DarkReading"
-      }
-    ],
     "Magic": [
       {
         "title": "A 4X Gartner Magic Quadrant for EPP Leader. Built for the Agentic Era.",
         "link": "https://www.paloaltonetworks.com/blog/2026/05/a-4x-gartner-magic-quadrant-for-epp-leader-built-for-the-agentic-era/",
         "date": "2026-05-29T13:16:32+00:00",
         "source": "Palo Alto Networks"
-      }
-    ],
-    "Kimsuky": [
-      {
-        "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
-        "link": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
-        "date": "2026-05-29T11:27:41+05:30",
-        "source": "The Hacker News"
       }
     ],
     "Zlader": [
@@ -445,14 +509,6 @@
         "link": "https://www.rapid7.com/blog/post/it-cybersecurity-experts-continuous-compliance",
         "date": "2026-05-28T13:00:00+00:00",
         "source": "Rapid7"
-      }
-    ],
-    "Lv": [
-      {
-        "title": "Out of the Crypt: The Evolving Cyber Extortion Economy",
-        "link": "https://unit42.paloaltonetworks.com/cyber-extortion-economy/",
-        "date": "2026-05-27T22:00:46+00:00",
-        "source": "Unit 42"
       }
     ]
   }

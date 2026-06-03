@@ -109,6 +109,8 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [How Leading Organizations Are Turning EDR Into Operational Resilience](https://thehackernews.com/2026/06/how-leading-organizations-are-turning.html)
+  The Hacker News - 2026-06-02T
 - [A 4X Gartner Magic Quadrant for EPP Leader. Built for the Agentic Era.](https://www.paloaltonetworks.com/blog/2026/05/a-4x-gartner-magic-quadrant-for-epp-leader-built-for-the-agentic-era/)
   Palo Alto Networks - 2026-05-29T
 - [With Complex Cloud Integrations, Small Errors Lead to Major Compromises](https://www.darkreading.com/vulnerabilities-threats/complex-cloud-integrations-small-errors-compromises)

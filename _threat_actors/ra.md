@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [20% Off Sephora Promo Code | June 2026](https://www.wired.com/story/sephora-promo-code/)
+- [Paramount+ Coupon Codes and Deals for June 2026](https://www.wired.com/story/paramount-plus-coupon-code/)
+  Wired - 2026-06-03T
+- [Gamaredon Exploits WinRAR to Deliver GammaWorm and GammaSteel Against Ukraine](https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html)
+  The Hacker News - 2026-06-02T
+- [Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation](https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html)
+  The Hacker News - 2026-06-02T
+- [Palantir Contracts Have Become ‘An Unacceptable Point of Weakness,’ UK Politicians Warn](https://www.wired.com/story/uk-government-palantir-warning-report/)
   Wired - 2026-06-02T
-- [Alphabet plans to raise $80B to pay for AI buildout](https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/)
-  TechCrunch - 2026-06-01T
-- [Hackers hijacked Instagram accounts by tricking Meta AI support chatbot into granting access](https://techcrunch.com/2026/06/01/hackers-hijacked-instagram-accounts-by-tricking-meta-ai-support-chatbot-into-granting-access/)
-  TechCrunch - 2026-06-01T
-- [Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts](https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/)
-  KrebsOnSecurity - 2026-06-01T
-- [China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan](https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html)
-  The Hacker News - 2026-06-01T
+- [Cyera eyes $12B valuation at 80x ARR multiple despite operating losses](https://techcrunch.com/2026/06/02/cyera-eyes-12b-valuation-at-80x-arr-multiple-despite-operating-losses/)
+  TechCrunch - 2026-06-02T
 

@@ -35,6 +35,4 @@ Ransomware Identifies victim locations w/Google Maps API
 
 - [Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded](https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html)
   The Hacker News - 2026-06-02T
-- [Out of the Crypt: The Evolving Cyber Extortion Economy](https://unit42.paloaltonetworks.com/cyber-extortion-economy/)
-  Unit 42 - 2026-05-27T
 

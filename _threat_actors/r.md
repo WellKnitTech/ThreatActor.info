@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded](https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html)
-  The Hacker News - 2026-06-02T
-- [Vivid Seats Promo Codes and Deals: Get 10% Off](https://www.wired.com/story/vivid-seats-promo-code/)
-  Wired - 2026-06-02T
-- [Whoop Promo Codes May 2026: 20% Off | June 2026](https://www.wired.com/story/whoop-promo-code/)
-  Wired - 2026-06-02T
-- [Chewy Promo Codes: $20 Off June 2026](https://www.wired.com/story/chewy-promo-code/)
-  Wired - 2026-06-02T
-- [Ulta Promo Codes: Up to 50% Off in June 2026](https://www.wired.com/story/ulta-coupon/)
-  Wired - 2026-06-02T
+- [Squarespace Promo Codes: 20% Off in June 2026](https://www.wired.com/story/squarespace-promo-code/)
+  Wired - 2026-06-03T
+- [AT&T Promo Codes: $50 Off This June 2026](https://www.wired.com/story/att-promo-code/)
+  Wired - 2026-06-03T
+- [30% Off Samsung Promo Code | June 2026](https://www.wired.com/story/samsung-promo-codes/)
+  Wired - 2026-06-03T
+- [Dyson Promo Codes: 25% Off in June 2026](https://www.wired.com/story/dyson-cordless-vacuum-promo-code/)
+  Wired - 2026-06-03T
+- [Newegg Promo Code: 10% Off in June 2026](https://www.wired.com/story/newegg-promo-code/)
+  Wired - 2026-06-03T
 
