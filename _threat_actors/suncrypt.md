@@ -37,6 +37,6 @@ SunCrypt ransomware was discovered in October 2019 and in August 2020 it was add
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [30% Off Samsung Promo Code | June 2026](https://www.wired.com/story/samsung-promo-codes/)
-  Wired - 2026-06-03T
+- [Still facing copyright lawsuits, AI music generator Suno raises another $400M](https://techcrunch.com/2026/06/03/still-facing-copyright-lawsuits-ai-music-generator-suno-raises-another-400m/)
+  TechCrunch - 2026-06-03T
 

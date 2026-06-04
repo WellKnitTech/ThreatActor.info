@@ -33,8 +33,6 @@ parser needs to be built
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Valvoline Coupons and Promo Codes for June 2026](https://www.wired.com/story/valvoline-coupons/)
-  Wired - 2026-06-03T
 - [Operation FlutterBridge: macOS Malvertising Campaign Spreads New FlutterShell Backdoor](https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/)
   Unit 42 - 2026-06-02T
 

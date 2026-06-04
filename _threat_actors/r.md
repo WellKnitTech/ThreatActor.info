@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Squarespace Promo Codes: 20% Off in June 2026](https://www.wired.com/story/squarespace-promo-code/)
-  Wired - 2026-06-03T
-- [AT&T Promo Codes: $50 Off This June 2026](https://www.wired.com/story/att-promo-code/)
-  Wired - 2026-06-03T
-- [30% Off Samsung Promo Code | June 2026](https://www.wired.com/story/samsung-promo-codes/)
-  Wired - 2026-06-03T
-- [Dyson Promo Codes: 25% Off in June 2026](https://www.wired.com/story/dyson-cordless-vacuum-promo-code/)
-  Wired - 2026-06-03T
-- [Newegg Promo Code: 10% Off in June 2026](https://www.wired.com/story/newegg-promo-code/)
-  Wired - 2026-06-03T
+- [Breville Promo Code: $700 Off | June 2026](https://www.wired.com/story/breville-promo-code/)
+  Wired - 2026-06-04T
+- [Pura Promo Codes: $20 Off May 2026](https://www.wired.com/story/pura-promo-code/)
+  Wired - 2026-06-04T
+- [Castlery Promo Codes: 15% Off for June 2026](https://www.wired.com/story/castlery-promo-code/)
+  Wired - 2026-06-04T
+- [Jabra Promo Codes: 30% Off  Headphones, Headsets & More](https://www.wired.com/story/jabra-promo-codes-coupons/)
+  Wired - 2026-06-04T
+- [Groupon Promo Codes: 60% Off in June 2026](https://www.wired.com/story/groupon-promo-code/)
+  Wired - 2026-06-04T
 
