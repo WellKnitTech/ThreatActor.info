@@ -33,8 +33,6 @@ Core ransomware surfaced in early 2025 as a new variant within the broader Makop
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Microsoft's Coreutils project brings Linux commands to Windows](https://www.bleepingcomputer.com/news/microsoft/microsofts-coreutils-project-brings-linux-commands-to-windows/)
-  BleepingComputer - 2026-06-02T
 - [How we reduced core unit boot time from hours to minutes](https://blog.cloudflare.com/optimizing-core-unit-boot-time/)
   Cloudflare - 2026-06-01T
 

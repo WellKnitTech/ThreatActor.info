@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Gamaredon Exploits WinRAR to Deliver GammaWorm and GammaSteel Against Ukraine](https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html)
-  The Hacker News - 2026-06-02T
-

@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Breville Promo Code: $700 Off | June 2026](https://www.wired.com/story/breville-promo-code/)
-  Wired - 2026-06-04T
-- [Pura Promo Codes: $20 Off May 2026](https://www.wired.com/story/pura-promo-code/)
-  Wired - 2026-06-04T
-- [Castlery Promo Codes: 15% Off for June 2026](https://www.wired.com/story/castlery-promo-code/)
-  Wired - 2026-06-04T
-- [Jabra Promo Codes: 30% Off  Headphones, Headsets & More](https://www.wired.com/story/jabra-promo-codes-coupons/)
-  Wired - 2026-06-04T
-- [Groupon Promo Codes: 60% Off in June 2026](https://www.wired.com/story/groupon-promo-code/)
-  Wired - 2026-06-04T
+- [PCPJack Hijacks 230 AWS, Google Cloud, and Azure Servers for Covert SMTP Relay Network](https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html)
+  The Hacker News - 2026-06-05T
+- [Mira Murati steps back into the spotlight, carefully](https://techcrunch.com/2026/06/04/mira-murati-steps-back-into-the-spotlight-carefully/)
+  TechCrunch - 2026-06-05T
+- [Starz Promo Codes: $5 Off for June 2026](https://www.wired.com/story/starz-promo-code/)
+  Wired - 2026-06-05T
+- [Acer Promo Codes: 40% Off](https://www.wired.com/story/acer-promo-code/)
+  Wired - 2026-06-05T
+- [Design Within Reach Promo Codes: 30% Off | June 2026](https://www.wired.com/story/design-within-reach-promo-code/)
+  Wired - 2026-06-05T
 

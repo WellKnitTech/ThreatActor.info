@@ -41,11 +41,3 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Amazon will show AI product images when you search for some reason](https://techcrunch.com/2026/06/03/amazon-will-show-ai-product-images-when-you-search-for-some-reason/)
-  TechCrunch - 2026-06-03T
-- [Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes](https://thehackernews.com/2026/06/unpatched-windows-search-uri.html)
-  The Hacker News - 2026-06-03T
-

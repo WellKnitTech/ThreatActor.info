@@ -30,3 +30,9 @@ Mimic is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS](https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html)
+  The Hacker News - 2026-06-04T
+

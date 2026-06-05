@@ -33,8 +33,8 @@ Ank is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS](https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html)
+  The Hacker News - 2026-06-04T
 - [ CISA warns of cyberattacks targeting fuel tank monitoring systems](https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-targeting-fuel-tank-monitoring-systems/)
-  BleepingComputer - 2026-06-03T
-- [What 345 Days of Untested Exposure Looks Like at a Bank](https://www.bleepingcomputer.com/news/security/what-345-days-of-untested-exposure-looks-like-at-a-bank/)
   BleepingComputer - 2026-06-03T
 

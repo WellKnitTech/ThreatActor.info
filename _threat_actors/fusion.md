@@ -30,3 +30,9 @@ Fusion is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Helion, the Sam Altman-backed fusion startup, raises $465M to build a power plant for Microsoft](https://techcrunch.com/2026/06/04/helion-the-sam-altman-backed-fusion-startup-raises-465m-to-build-a-power-plant-for-microsoft/)
+  TechCrunch - 2026-06-04T
+

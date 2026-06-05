@@ -35,12 +35,6 @@ Ransomware
 
 - [WhatsApp, Slack Notifications Could Hijack Google Gemini on Android](https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html)
   The Hacker News - 2026-06-04T
-- [Microsoft 365 Android Apps Let Any App Steal Account Tokens via Leftover Debug Flag](https://thehackernews.com/2026/06/microsoft-365-android-apps-let-any-app.html)
-  The Hacker News - 2026-06-03T
 - [CISA warns of active attacks exploiting Android, Linux bugs](https://www.bleepingcomputer.com/news/security/cisa-warns-of-active-attacks-exploiting-android-linux-bugs/)
   BleepingComputer - 2026-06-03T
-- [Google adds Android protection against AI deepfake scam calls](https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/)
-  BleepingComputer - 2026-06-03T
-- [Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited](https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html)
-  The Hacker News - 2026-06-03T
 

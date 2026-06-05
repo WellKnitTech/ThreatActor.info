@@ -30,9 +30,3 @@ Microsoft threat actor profile. Origin/Threat: Financially motivated.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [These two founders left Goldman and Meta to build voice AI for markets everyone else overlooked](https://techcrunch.com/2026/06/03/these-two-founders-left-goldman-and-meta-to-build-voice-ai-for-markets-everyone-else-overlooked/)
-  TechCrunch - 2026-06-03T
-

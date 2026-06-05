@@ -63,12 +63,6 @@ REvil is a Russian ransomware-as-a-service operation that has targeted major cor
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Breville Promo Code: $700 Off | June 2026](https://www.wired.com/story/breville-promo-code/)
-  Wired - 2026-06-04T
-
 ## CISA Known Exploited Vulnerabilities (KEV)
 *The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*
 
