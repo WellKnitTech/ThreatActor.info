@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [PCPJack Hijacks 230 AWS, Google Cloud, and Azure Servers for Covert SMTP Relay Network](https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html)
+- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available](https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html)
+  The Hacker News - 2026-06-06T
+- [IronWorm and New Miasma Worm Variant Hit npm in Supply Chain Attacks](https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html)
   The Hacker News - 2026-06-05T
-- [Mira Murati steps back into the spotlight, carefully](https://techcrunch.com/2026/06/04/mira-murati-steps-back-into-the-spotlight-carefully/)
+- [Best Running Shoes, Tested and Reviewed (2026): Saucony, Adidas, Hoka](https://www.wired.com/gallery/best-running-shoes/)
+  Wired - 2026-06-05T
+- [Reid Hoffman is leaving Microsoft’s board to go ‘founder mode’ with  startup Manus](https://techcrunch.com/2026/06/05/reid-hoffman-is-leaving-microsofts-board-to-go-founder-mode-with-startup-manus/)
   TechCrunch - 2026-06-05T
-- [Starz Promo Codes: $5 Off for June 2026](https://www.wired.com/story/starz-promo-code/)
-  Wired - 2026-06-05T
-- [Acer Promo Codes: 40% Off](https://www.wired.com/story/acer-promo-code/)
-  Wired - 2026-06-05T
-- [Design Within Reach Promo Codes: 30% Off | June 2026](https://www.wired.com/story/design-within-reach-promo-code/)
-  Wired - 2026-06-05T
+- [Founders share VC horror stories, and some are naming names](https://techcrunch.com/2026/06/05/founders-share-vc-horror-stories-and-some-are-naming-names/)
+  TechCrunch - 2026-06-05T
 

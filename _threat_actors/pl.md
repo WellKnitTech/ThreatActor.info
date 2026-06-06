@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Uplift Promo Codes: $570 Off](https://www.wired.com/story/uplift-desk-coupon-code/)
+- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available](https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html)
+  The Hacker News - 2026-06-06T
+- [IronWorm and New Miasma Worm Variant Hit npm in Supply Chain Attacks](https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html)
+  The Hacker News - 2026-06-05T
+- [Startup Battlefield 200 applications officially close in 3 days](https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/)
+  TechCrunch - 2026-06-05T
+- [The US Has a Plan to Combat Screwworm. It Involves a Lot More Flies](https://www.wired.com/story/us-plans-to-stop-screwworm-texas-outbreak/)
   Wired - 2026-06-05T
-- [Airbnb’s Brian Chesky plans to launch a new AI lab](https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/)
-  TechCrunch - 2026-06-04T
-- [Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public](https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html)
-  The Hacker News - 2026-06-04T
-- [Rust-Written IronWorm Hits NPM Supply Chain](https://www.darkreading.com/cyberattacks-data-breaches/rust-written-ironworm-npm-supply-chain)
-  DarkReading - 2026-06-04T
-- [Dashlane explains how attackers managed to download encrypted password vaults](https://arstechnica.com/security/2026/06/dashlane-explains-how-attackers-managed-to-download-encrypted-password-vaults/)
-  Ars Technica - 2026-06-04T
+- [Weekly Metasploit Update: Apache ActiveMQ RCE, Gogs Rebase RCE, and Windows Kernel Pointer Enum](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-06-2026)
+  Rapid7 - 2026-06-05T
 

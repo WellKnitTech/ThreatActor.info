@@ -33,6 +33,8 @@ parser needs to be built
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [The US Has a Plan to Combat Screwworm. It Involves a Lot More Flies](https://www.wired.com/story/us-plans-to-stop-screwworm-texas-outbreak/)
+  Wired - 2026-06-05T
 - [Bugcrowd Launches EU Data Residency Option For Evolving Data Sovereignty Needs](https://www.darkreading.com/cyber-risk/bugcrowd-launches-eu-data-residency-option-for-evolving-data-sovereignty-needs)
   DarkReading - 2026-06-04T
 - [Operation FlutterBridge: macOS Malvertising Campaign Spreads New FlutterShell Backdoor](https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/)

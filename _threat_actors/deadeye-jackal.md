@@ -41,3 +41,9 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [This Summer Travel Season Could Forever Alter the Future of Sustainable Aviation Fuel](https://www.wired.com/story/summer-travel-season-sustainable-aviation-fuel/)
+  Wired - 2026-06-05T
+

@@ -37,8 +37,4 @@ Ransomware Identifies victim locations w/Google Maps API
   Ars Technica - 2026-06-04T
 - [Hola Browser for Windows compromised to deliver cryptominer](https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/)
   BleepingComputer - 2026-06-04T
-- [DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets](https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html)
-  The Hacker News - 2026-06-04T
-- [U.S. sanctions Nobitex crypto exchange used by Iranian ransomware actors](https://www.bleepingcomputer.com/news/security/the-us-sanctions-nobitex-crypto-exchange-used-by-ransomware/)
-  BleepingComputer - 2026-06-03T
 

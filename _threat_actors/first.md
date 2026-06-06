@@ -33,8 +33,8 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Apple approves Poke as the first AI agent on its Messages for Business platform](https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/)
-  TechCrunch - 2026-06-04T
+- [GroWell Cap Review: I Have Hair for the First Time in 15 Years](https://www.wired.com/story/growell-cap-rave/)
+  Wired - 2026-06-05T
 - [Enforcing the First AS in BGP AS_PATHs](https://blog.cloudflare.com/enforce-first-as-bgp/)
   Cloudflare - 2026-06-03T
 

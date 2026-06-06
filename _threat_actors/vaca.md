@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [13 Environmentally Conscious Packing Tips for Your Next Vacation](https://www.wired.com/story/environmentally-conscious-packing-tips/)
+  Wired - 2026-06-05T
+
