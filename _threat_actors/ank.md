@@ -41,6 +41,4 @@ Ank is an active extortion or ransomware group tracked by RansomLook.
   The Hacker News - 2026-06-05T
 - [Over 900 US gas station tank gauge systems exposed to attacks](https://www.bleepingcomputer.com/news/security/over-900-us-gas-station-tank-gauge-systems-exposed-to-attacks/)
   BleepingComputer - 2026-06-05T
-- [Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS](https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html)
-  The Hacker News - 2026-06-04T
 

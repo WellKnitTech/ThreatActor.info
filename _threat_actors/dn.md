@@ -39,8 +39,6 @@ It’s directed to English speaking users, therefore is able to infect worldwide
   TechCrunch - 2026-06-05T
 - [FIFA World Cup 2026 Scams Are Already Live: Fake Sites, Banking Malware, and Stolen Logins](https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html)
   The Hacker News - 2026-06-05T
-- [Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS](https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html)
-  The Hacker News - 2026-06-04T
 - [Fraud, Ransomware, and Fake Apps Are Already Targeting FIFA 2026](https://blog.checkpoint.com/exposure-management/fraud-ransomware-and-fake-apps-are-already-targeting-fifa-2026/)
   Check Point - 2026-06-04T
 

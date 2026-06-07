@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-06T05:53:11Z",
+  "updated": "2026-06-07T06:22:48Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,68 +19,198 @@
     "Rapid7"
   ],
   "actor_news": {
-    "PL": [
-      {
-        "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available",
-        "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
-        "date": "2026-06-06T09:49:28+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "IronWorm and New Miasma Worm Variant Hit npm in Supply Chain Attacks",
-        "link": "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html",
-        "date": "2026-06-05T23:35:30+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Startup Battlefield 200 applications officially close in 3 days",
-        "link": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
-        "date": "2026-06-05T20:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "The US Has a Plan to Combat Screwworm. It Involves a Lot More Flies",
-        "link": "https://www.wired.com/story/us-plans-to-stop-screwworm-texas-outbreak/",
-        "date": "2026-06-05T18:16:22+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Weekly Metasploit Update: Apache ActiveMQ RCE, Gogs Rebase RCE, and Windows Kernel Pointer Enum",
-        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-06-2026",
-        "date": "2026-06-05T17:01:48+00:00",
-        "source": "Rapid7"
-      }
-    ],
     "R": [
       {
-        "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available",
-        "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
-        "date": "2026-06-06T09:49:28+05:30",
+        "title": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
+        "link": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+        "date": "2026-06-06T20:32:24+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
+        "link": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
+        "date": "2026-06-06T19:06:57+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "IronWorm and New Miasma Worm Variant Hit npm in Supply Chain Attacks",
-        "link": "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html",
-        "date": "2026-06-05T23:35:30+05:30",
+        "title": "What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates",
+        "link": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+        "date": "2026-06-06T18:13:36+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Sriram Krishnan is leaving his role as White House AI advisor",
+        "link": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
+        "date": "2026-06-06T17:42:15+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "The Trump administration might take an equity stake in OpenAI",
+        "link": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+        "date": "2026-06-06T16:17:21+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Ra": [
+      {
+        "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
+        "link": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
+        "date": "2026-06-06T19:06:57+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Best Running Shoes, Tested and Reviewed (2026): Saucony, Adidas, Hoka",
-        "link": "https://www.wired.com/gallery/best-running-shoes/",
-        "date": "2026-06-05T22:56:37+00:00",
+        "title": "Sriram Krishnan is leaving his role as White House AI advisor",
+        "link": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
+        "date": "2026-06-06T17:42:15+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "The Trump administration might take an equity stake in OpenAI",
+        "link": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+        "date": "2026-06-06T16:17:21+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Beyond Instagram: Introducing the next generation of social apps",
+        "link": "https://techcrunch.com/2026/06/06/beyond-instagram-introducing-the-next-generation-of-social-apps/",
+        "date": "2026-06-06T15:00:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI",
+        "link": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html",
+        "date": "2026-06-06T13:59:05+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "IPA": [
+      {
+        "title": "What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates",
+        "link": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+        "date": "2026-06-06T18:13:36+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "PL": [
+      {
+        "title": "What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates",
+        "link": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+        "date": "2026-06-06T18:13:36+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "The Best 3-in-1 Apple Charging Stations After Testing Top Models",
+        "link": "https://www.wired.com/gallery/best-apple-3-in-1-wireless-chargers/",
+        "date": "2026-06-06T14:00:00+00:00",
         "source": "Wired"
       },
       {
-        "title": "Reid Hoffman is leaving Microsoft’s board to go ‘founder mode’ with  startup Manus",
-        "link": "https://techcrunch.com/2026/06/05/reid-hoffman-is-leaving-microsofts-board-to-go-founder-mode-with-startup-manus/",
-        "date": "2026-06-05T22:35:01+00:00",
+        "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
+        "link": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
+        "date": "2026-06-06T13:44:31+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack",
+        "link": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
+        "date": "2026-06-06T12:28:04+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Anti-Vax Dating Apps Are Going IRL. People Are Mad as Hell About It",
+        "link": "https://www.wired.com/story/anti-vax-dating-apps-are-going-irl-people-are-mad-as-hell-about-it/",
+        "date": "2026-06-06T11:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Mini": [
+      {
+        "title": "The Trump administration might take an equity stake in OpenAI",
+        "link": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+        "date": "2026-06-06T16:17:21+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "Founders share VC horror stories, and some are naming names",
-        "link": "https://techcrunch.com/2026/06/05/founders-share-vc-horror-stories-and-some-are-naming-names/",
-        "date": "2026-06-05T21:47:56+00:00",
-        "source": "TechCrunch"
+        "title": "Pakistan Spies on Afghan Finance Ministry With Xeno RAT",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/pakistan-spies-afghan-finance-ministry-xeno-rat",
+        "date": "2026-06-04T04:01:00+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "Malicious Notifications Could Trick Google Gemini Users",
+        "link": "https://www.darkreading.com/application-security/malicious-notifications-could-trick-google-gemini-users",
+        "date": "2026-06-03T12:01:00+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Honor": [
+      {
+        "title": "2 Best Bluetooth Trackers of 2026, Plus Honorable Mentions",
+        "link": "https://www.wired.com/story/the-best-bluetooth-trackers/",
+        "date": "2026-06-06T10:38:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "BooM": [
+      {
+        "title": "Crypto-Funded Chinese Peptide Labs Are Booming",
+        "link": "https://www.wired.com/story/security-news-this-week-crypto-funded-chinese-peptide-labs-are-booming/",
+        "date": "2026-06-06T10:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "CryLocker": [
+      {
+        "title": "Crypto-Funded Chinese Peptide Labs Are Booming",
+        "link": "https://www.wired.com/story/security-news-this-week-crypto-funded-chinese-peptide-labs-are-booming/",
+        "date": "2026-06-06T10:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Dashlane explains how attackers managed to download encrypted password vaults",
+        "link": "https://arstechnica.com/security/2026/06/dashlane-explains-how-attackers-managed-to-download-encrypted-password-vaults/",
+        "date": "2026-06-04T20:02:04+00:00",
+        "source": "Ars Technica"
+      },
+      {
+        "title": "Hola Browser for Windows compromised to deliver cryptominer",
+        "link": "https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/",
+        "date": "2026-06-04T17:27:25-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Everest": [
+      {
+        "title": "Critical Everest Forms Pro flaw exploited to take over WordPress sites",
+        "link": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
+        "date": "2026-06-06T10:09:26-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites",
+        "link": "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html",
+        "date": "2026-06-05T14:08:59+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "First": [
+      {
+        "title": "‘It’s Not a Joke’: A ‘Simpsons’ Writer Holds His First Presidential Campaign Rally",
+        "link": "https://www.wired.com/story/simpsons-writer-dan-greaney-holds-his-first-presidential-campaign-rally/",
+        "date": "2026-06-06T09:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "GroWell Cap Review: I Have Hair for the First Time in 15 Years",
+        "link": "https://www.wired.com/story/growell-cap-rave/",
+        "date": "2026-06-05T18:16:25+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Enforcing the First AS in BGP AS_PATHs",
+        "link": "https://blog.cloudflare.com/enforce-first-as-bgp/",
+        "date": "2026-06-03T17:00:00+00:00",
+        "source": "Cloudflare"
       }
     ],
     "Iron": [
@@ -109,38 +239,6 @@
         "source": "BleepingComputer"
       }
     ],
-    "Ra": [
-      {
-        "title": "Former cyber executive turned whistleblower accuses IBM of covering up several data breaches",
-        "link": "https://techcrunch.com/2026/06/05/former-cyber-executive-turned-whistleblower-accuses-ibm-of-covering-up-several-data-breaches/",
-        "date": "2026-06-05T20:31:04+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Android Spyware Asin Targets Arabic Users via Fake News, PDF and War Map Apps",
-        "link": "https://thehackernews.com/2026/06/android-spyware-asin-targets-arabic.html",
-        "date": "2026-06-05T20:23:40+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "New Threat Cluster OP-512 Targets Microsoft IIS Servers with Custom Web Shell Framework",
-        "link": "https://thehackernews.com/2026/06/new-threat-cluster-op-512-targets.html",
-        "date": "2026-06-05T18:03:38+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "As VC-backed e-bike startups went bankrupt, bootstrapped Lectric grew",
-        "link": "https://techcrunch.com/2026/06/05/as-vc-backed-e-bike-startups-went-bankrupt-bootstrapped-lectric-grew/",
-        "date": "2026-06-05T17:38:06+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Google and FBI warn of ransomware group that sends fake IT workers to hack victims in person",
-        "link": "https://techcrunch.com/2026/06/05/google-and-fbi-warn-of-ransomware-group-that-sends-fake-it-workers-to-hack-victims-in-person/",
-        "date": "2026-06-05T16:07:46+00:00",
-        "source": "TechCrunch"
-      }
-    ],
     "AnDROid": [
       {
         "title": "Android Spyware Asin Targets Arabic Users via Fake News, PDF and War Map Apps",
@@ -166,12 +264,6 @@
         "title": "FIFA World Cup 2026 Scams Are Already Live: Fake Sites, Banking Malware, and Stolen Logins",
         "link": "https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html",
         "date": "2026-06-05T12:31:41+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS",
-        "link": "https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html",
-        "date": "2026-06-04T15:21:28+05:30",
         "source": "The Hacker News"
       },
       {
@@ -205,26 +297,6 @@
         "link": "https://www.bleepingcomputer.com/news/security/over-900-us-gas-station-tank-gauge-systems-exposed-to-attacks/",
         "date": "2026-06-05T10:50:15-04:00",
         "source": "BleepingComputer"
-      },
-      {
-        "title": "Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS",
-        "link": "https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html",
-        "date": "2026-06-04T15:21:28+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "First": [
-      {
-        "title": "GroWell Cap Review: I Have Hair for the First Time in 15 Years",
-        "link": "https://www.wired.com/story/growell-cap-rave/",
-        "date": "2026-06-05T18:16:25+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Enforcing the First AS in BGP AS_PATHs",
-        "link": "https://blog.cloudflare.com/enforce-first-as-bgp/",
-        "date": "2026-06-03T17:00:00+00:00",
-        "source": "Cloudflare"
       }
     ],
     "Lv": [
@@ -275,12 +347,6 @@
         "source": "The Hacker News"
       },
       {
-        "title": "ThreatsDay Bulletin: AI Agents Gone Wrong, Sketchy C2 Tools, ClickFix Tricks, JS Backdoors & 20+ New Stories",
-        "link": "https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html",
-        "date": "2026-06-04T19:30:49+05:30",
-        "source": "The Hacker News"
-      },
-      {
         "title": "Can't make sense of Dashlane's vault theft notification? You're not alone.",
         "link": "https://arstechnica.com/security/2026/06/dashlane-issues-opaque-advisory-warning-20-encrypted-vaults-were-stolen/",
         "date": "2026-06-03T19:53:14+00:00",
@@ -293,14 +359,6 @@
         "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-06-2026",
         "date": "2026-06-05T17:01:48+00:00",
         "source": "Rapid7"
-      }
-    ],
-    "Deadeye Jackal": [
-      {
-        "title": "This Summer Travel Season Could Forever Alter the Future of Sustainable Aviation Fuel",
-        "link": "https://www.wired.com/story/summer-travel-season-sustainable-aviation-fuel/",
-        "date": "2026-06-05T16:00:00+00:00",
-        "source": "Wired"
       }
     ],
     "Vaca": [
@@ -335,28 +393,12 @@
         "source": "BleepingComputer"
       }
     ],
-    "Everest": [
-      {
-        "title": "Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites",
-        "link": "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html",
-        "date": "2026-06-05T14:08:59+05:30",
-        "source": "The Hacker News"
-      }
-    ],
     "Crypton Ransomware": [
       {
         "title": "Dark web Nemesis Market vendor gets 26 years for selling drugs",
         "link": "https://www.bleepingcomputer.com/news/security/dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs/",
         "date": "2026-06-05T13:50:58-04:00",
         "source": "BleepingComputer"
-      }
-    ],
-    "Light": [
-      {
-        "title": "Mira Murati steps back into the spotlight, carefully",
-        "link": "https://techcrunch.com/2026/06/04/mira-murati-steps-back-into-the-spotlight-carefully/",
-        "date": "2026-06-05T05:06:37+00:00",
-        "source": "TechCrunch"
       }
     ],
     "RNS": [
@@ -387,26 +429,6 @@
         "link": "https://www.darkreading.com/threat-intelligence/china-ta4922-cybercrime-attacks-globally",
         "date": "2026-06-04T21:23:59+00:00",
         "source": "DarkReading"
-      },
-      {
-        "title": "China-Linked TA4922 Expands Phishing Attacks to U.K., Germany, Italy, and South Africa",
-        "link": "https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html",
-        "date": "2026-06-04T17:52:25+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "CryLocker": [
-      {
-        "title": "Dashlane explains how attackers managed to download encrypted password vaults",
-        "link": "https://arstechnica.com/security/2026/06/dashlane-explains-how-attackers-managed-to-download-encrypted-password-vaults/",
-        "date": "2026-06-04T20:02:04+00:00",
-        "source": "Ars Technica"
-      },
-      {
-        "title": "Hola Browser for Windows compromised to deliver cryptominer",
-        "link": "https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/",
-        "date": "2026-06-04T17:27:25-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "EnCrypt": [
@@ -425,14 +447,6 @@
         "source": "Ars Technica"
       }
     ],
-    "Lick": [
-      {
-        "title": "ThreatsDay Bulletin: AI Agents Gone Wrong, Sketchy C2 Tools, ClickFix Tricks, JS Backdoors & 20+ New Stories",
-        "link": "https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html",
-        "date": "2026-06-04T19:30:49+05:30",
-        "source": "The Hacker News"
-      }
-    ],
     "Payment": [
       {
         "title": "Credit card theft campaign abuses Stripe to host stolen payment info",
@@ -449,34 +463,12 @@
         "source": "BleepingComputer"
       }
     ],
-    "Mimic": [
-      {
-        "title": "Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS",
-        "link": "https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html",
-        "date": "2026-06-04T15:21:28+05:30",
-        "source": "The Hacker News"
-      }
-    ],
     "Play": [
       {
         "title": "Hackers Are After the Gaps in Your Vulnerability Program: Here's Their Playbook",
         "link": "https://www.bleepingcomputer.com/news/security/hackers-are-after-the-gaps-in-your-vulnerability-program-heres-their-playbook/",
         "date": "2026-06-04T10:01:11-04:00",
         "source": "BleepingComputer"
-      }
-    ],
-    "Mini": [
-      {
-        "title": "Pakistan Spies on Afghan Finance Ministry With Xeno RAT",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/pakistan-spies-afghan-finance-ministry-xeno-rat",
-        "date": "2026-06-04T04:01:00+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Malicious Notifications Could Trick Google Gemini Users",
-        "link": "https://www.darkreading.com/application-security/malicious-notifications-could-trick-google-gemini-users",
-        "date": "2026-06-03T12:01:00+00:00",
-        "source": "DarkReading"
       }
     ],
     "Ramp": [

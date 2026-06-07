@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Former cyber executive turned whistleblower accuses IBM of covering up several data breaches](https://techcrunch.com/2026/06/05/former-cyber-executive-turned-whistleblower-accuses-ibm-of-covering-up-several-data-breaches/)
-  TechCrunch - 2026-06-05T
-- [Android Spyware Asin Targets Arabic Users via Fake News, PDF and War Map Apps](https://thehackernews.com/2026/06/android-spyware-asin-targets-arabic.html)
-  The Hacker News - 2026-06-05T
-- [New Threat Cluster OP-512 Targets Microsoft IIS Servers with Custom Web Shell Framework](https://thehackernews.com/2026/06/new-threat-cluster-op-512-targets.html)
-  The Hacker News - 2026-06-05T
-- [As VC-backed e-bike startups went bankrupt, bootstrapped Lectric grew](https://techcrunch.com/2026/06/05/as-vc-backed-e-bike-startups-went-bankrupt-bootstrapped-lectric-grew/)
-  TechCrunch - 2026-06-05T
-- [Google and FBI warn of ransomware group that sends fake IT workers to hack victims in person](https://techcrunch.com/2026/06/05/google-and-fbi-warn-of-ransomware-group-that-sends-fake-it-workers-to-hack-victims-in-person/)
-  TechCrunch - 2026-06-05T
+- [New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration](https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html)
+  The Hacker News - 2026-06-06T
+- [Sriram Krishnan is leaving his role as White House AI advisor](https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/)
+  TechCrunch - 2026-06-06T
+- [The Trump administration might take an equity stake in OpenAI](https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/)
+  TechCrunch - 2026-06-06T
+- [Beyond Instagram: Introducing the next generation of social apps](https://techcrunch.com/2026/06/06/beyond-instagram-introducing-the-next-generation-of-social-apps/)
+  TechCrunch - 2026-06-06T
+- [Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI](https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html)
+  The Hacker News - 2026-06-06T
 

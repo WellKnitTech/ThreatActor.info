@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Mira Murati steps back into the spotlight, carefully](https://techcrunch.com/2026/06/04/mira-murati-steps-back-into-the-spotlight-carefully/)
-  TechCrunch - 2026-06-05T
-

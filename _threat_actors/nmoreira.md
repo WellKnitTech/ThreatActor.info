@@ -35,6 +35,4 @@ Ransomware
 
 - [China's TA4922 Expands Cybercrime Attacks Globally](https://www.darkreading.com/threat-intelligence/china-ta4922-cybercrime-attacks-globally)
   DarkReading - 2026-06-04T
-- [China-Linked TA4922 Expands Phishing Attacks to U.K., Germany, Italy, and South Africa](https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html)
-  The Hacker News - 2026-06-04T
 

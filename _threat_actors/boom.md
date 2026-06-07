@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Crypto-Funded Chinese Peptide Labs Are Booming](https://www.wired.com/story/security-news-this-week-crypto-funded-chinese-peptide-labs-are-booming/)
+  Wired - 2026-06-06T
+

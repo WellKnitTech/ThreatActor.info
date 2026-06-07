@@ -33,6 +33,8 @@ Ransomware Identifies victim locations w/Google Maps API
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Crypto-Funded Chinese Peptide Labs Are Booming](https://www.wired.com/story/security-news-this-week-crypto-funded-chinese-peptide-labs-are-booming/)
+  Wired - 2026-06-06T
 - [Dashlane explains how attackers managed to download encrypted password vaults](https://arstechnica.com/security/2026/06/dashlane-explains-how-attackers-managed-to-download-encrypted-password-vaults/)
   Ars Technica - 2026-06-04T
 - [Hola Browser for Windows compromised to deliver cryptominer](https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/)

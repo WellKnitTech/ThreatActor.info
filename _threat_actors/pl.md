@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available](https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html)
+- [What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates](https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/)
+  TechCrunch - 2026-06-06T
+- [The Best 3-in-1 Apple Charging Stations After Testing Top Models](https://www.wired.com/gallery/best-apple-3-in-1-wireless-chargers/)
+  Wired - 2026-06-06T
+- [CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog](https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html)
   The Hacker News - 2026-06-06T
-- [IronWorm and New Miasma Worm Variant Hit npm in Supply Chain Attacks](https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html)
-  The Hacker News - 2026-06-05T
-- [Startup Battlefield 200 applications officially close in 3 days](https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/)
-  TechCrunch - 2026-06-05T
-- [The US Has a Plan to Combat Screwworm. It Involves a Lot More Flies](https://www.wired.com/story/us-plans-to-stop-screwworm-texas-outbreak/)
-  Wired - 2026-06-05T
-- [Weekly Metasploit Update: Apache ActiveMQ RCE, Gogs Rebase RCE, and Windows Kernel Pointer Enum](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-06-2026)
-  Rapid7 - 2026-06-05T
+- [Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack](https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html)
+  The Hacker News - 2026-06-06T
+- [Anti-Vax Dating Apps Are Going IRL. People Are Mad as Hell About It](https://www.wired.com/story/anti-vax-dating-apps-are-going-irl-people-are-mad-as-hell-about-it/)
+  Wired - 2026-06-06T
 

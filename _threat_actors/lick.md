@@ -30,9 +30,3 @@ Ransomware Variant of Kirk
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [ThreatsDay Bulletin: AI Agents Gone Wrong, Sketchy C2 Tools, ClickFix Tricks, JS Backdoors & 20+ New Stories](https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html)
-  The Hacker News - 2026-06-04T
-
