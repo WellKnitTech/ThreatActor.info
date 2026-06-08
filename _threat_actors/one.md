@@ -33,8 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The most interesting startups right now want to get you off your phone](https://techcrunch.com/video/the-most-interesting-startups-right-now-want-to-get-you-off-your-phone/)
-  TechCrunch - 2026-06-05T
 - [Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories](https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html)
   The Hacker News - 2026-06-04T
 - [Can't make sense of Dashlane's vault theft notification? You're not alone.](https://arstechnica.com/security/2026/06/dashlane-issues-opaque-advisory-warning-20-encrypted-vaults-were-stolen/)

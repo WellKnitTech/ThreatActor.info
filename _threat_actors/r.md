@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks](https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/)
-  TechCrunch - 2026-06-06T
-- [New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration](https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html)
-  The Hacker News - 2026-06-06T
-- [What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates](https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/)
-  TechCrunch - 2026-06-06T
-- [Sriram Krishnan is leaving his role as White House AI advisor](https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/)
-  TechCrunch - 2026-06-06T
-- [The Trump administration might take an equity stake in OpenAI](https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/)
-  TechCrunch - 2026-06-06T
+- [All the Ways Europe Is Ditching American Technology](https://www.wired.com/story/all-the-ways-europe-is-ditching-american-technology/)
+  Wired - 2026-06-08T
+- [Over 20,000 Instagram accounts stolen in Meta AI support hack](https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/)
+  BleepingComputer - 2026-06-08T
+- [Hands on with Intelligent Terminal, an AI-powered Windows Terminal](https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/)
+  BleepingComputer - 2026-06-07T
+- [Notion restores access to Anthropic after service disruption](https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/)
+  TechCrunch - 2026-06-07T
+- [OpenAI is still working on that ‘super app’](https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/)
+  TechCrunch - 2026-06-07T
 

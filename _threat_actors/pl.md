@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [How to Watch Apple’s WWDC 2026 Keynote—and What to Expect](https://www.wired.com/story/how-to-watch-apple-wwdc-2026/)
+  Wired - 2026-06-07T
 - [What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates](https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/)
   TechCrunch - 2026-06-06T
 - [The Best 3-in-1 Apple Charging Stations After Testing Top Models](https://www.wired.com/gallery/best-apple-3-in-1-wireless-chargers/)
@@ -41,6 +43,4 @@ ransomware
   The Hacker News - 2026-06-06T
 - [Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack](https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html)
   The Hacker News - 2026-06-06T
-- [Anti-Vax Dating Apps Are Going IRL. People Are Mad as Hell About It](https://www.wired.com/story/anti-vax-dating-apps-are-going-irl-people-are-mad-as-hell-about-it/)
-  Wired - 2026-06-06T
 

@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration](https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html)
-  The Hacker News - 2026-06-06T
-- [Sriram Krishnan is leaving his role as White House AI advisor](https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/)
-  TechCrunch - 2026-06-06T
-- [The Trump administration might take an equity stake in OpenAI](https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/)
-  TechCrunch - 2026-06-06T
-- [Beyond Instagram: Introducing the next generation of social apps](https://techcrunch.com/2026/06/06/beyond-instagram-introducing-the-next-generation-of-social-apps/)
-  TechCrunch - 2026-06-06T
-- [Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI](https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html)
-  The Hacker News - 2026-06-06T
+- [Over 20,000 Instagram accounts stolen in Meta AI support hack](https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/)
+  BleepingComputer - 2026-06-08T
+- [Hacked, leaked, and held for ransom: the worst breaches of 2026 so far](https://techcrunch.com/2026/06/07/the-worst-hacks-and-breaches-of-2026-so-far/)
+  TechCrunch - 2026-06-07T
+- [Sigma BF Review (2026): Eccentric but Strangely Lovable](https://www.wired.com/review/sigma-bf-camera/)
+  Wired - 2026-06-07T
+- [Silent Ransom Group targets law firms with fake IT support calls](https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/)
+  BleepingComputer - 2026-06-07T
+- [Best Red-Light Therapy for Hair Restoration and Regrowth (2026)](https://www.wired.com/story/best-red-light-therapy-for-hair-growth/)
+  Wired - 2026-06-07T
 
