@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Over 20,000 Instagram accounts stolen in Meta AI support hack](https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/)
-  BleepingComputer - 2026-06-08T
-- [Hacked, leaked, and held for ransom: the worst breaches of 2026 so far](https://techcrunch.com/2026/06/07/the-worst-hacks-and-breaches-of-2026-so-far/)
-  TechCrunch - 2026-06-07T
-- [Sigma BF Review (2026): Eccentric but Strangely Lovable](https://www.wired.com/review/sigma-bf-camera/)
-  Wired - 2026-06-07T
-- [Silent Ransom Group targets law firms with fake IT support calls](https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/)
-  BleepingComputer - 2026-06-07T
-- [Best Red-Light Therapy for Hair Restoration and Regrowth (2026)](https://www.wired.com/story/best-red-light-therapy-for-hair-growth/)
-  Wired - 2026-06-07T
+- [Sony Coupons: 45% Off Sony Headphones, WF-1000XM6 Earbuds, and Sony Cameras for June](https://www.wired.com/story/sony-promo-code/)
+  Wired - 2026-06-09T
+- [One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public](https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html)
+  The Hacker News - 2026-06-09T
+- [Silent Ransom Group Hits US Law Firms in Escalating Extortion Attacks](https://www.darkreading.com/cyberattacks-data-breaches/silent-ransom-us-law-firms-extortion-attacks)
+  DarkReading - 2026-06-08T
+- [Iran Signed a Ceasefire — Its Hackers Didn't](https://www.darkreading.com/cyberattacks-data-breaches/iran-signed-ceasefire-hackers)
+  DarkReading - 2026-06-08T
+- [⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More](https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html)
+  The Hacker News - 2026-06-08T
 

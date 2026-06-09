@@ -42,6 +42,4 @@ Everest is a ransomware group active since at least December 2020, known for its
 
 - [Critical Everest Forms Pro flaw exploited to take over WordPress sites](https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/)
   BleepingComputer - 2026-06-06T
-- [Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites](https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html)
-  The Hacker News - 2026-06-05T
 

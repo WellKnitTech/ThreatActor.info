@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [How to Watch Apple’s WWDC 2026 Keynote—and What to Expect](https://www.wired.com/story/how-to-watch-apple-wwdc-2026/)
-  Wired - 2026-06-07T
-- [What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates](https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/)
-  TechCrunch - 2026-06-06T
-- [The Best 3-in-1 Apple Charging Stations After Testing Top Models](https://www.wired.com/gallery/best-apple-3-in-1-wireless-chargers/)
-  Wired - 2026-06-06T
-- [CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog](https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html)
-  The Hacker News - 2026-06-06T
-- [Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack](https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html)
-  The Hacker News - 2026-06-06T
+- [OnePlus Promo Codes: 30% Off June 2026](https://www.wired.com/story/oneplus-promo-code/)
+  Wired - 2026-06-09T
+- [Why Apple’s slow-and-steady AI bet is starting to look pretty smart](https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart/)
+  TechCrunch - 2026-06-09T
+- [One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public](https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html)
+  The Hacker News - 2026-06-09T
+- [Apple’s WWDC AI demos looked more real after $250M false ad settlement](https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/)
+  TechCrunch - 2026-06-08T
+- [Apple plays catch-up at WWDC](https://techcrunch.com/2026/06/08/apple-plays-catch-up-at-wwdc/)
+  TechCrunch - 2026-06-08T
 

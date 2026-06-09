@@ -35,3 +35,9 @@ Microsoft threat actor profile. Origin/Threat: Israel.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order](https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html)
+  The Hacker News - 2026-06-08T
+

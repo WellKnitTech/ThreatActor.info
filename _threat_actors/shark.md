@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Shark Promo Codes for June 2026](https://www.wired.com/story/shark-promo-code/)
+  Wired - 2026-06-09T
+

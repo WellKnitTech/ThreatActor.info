@@ -33,8 +33,6 @@ It is currently unknown if Iron is indeed a new variant by the same creators of 
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [IronWorm and New Miasma Worm Variant Hit npm in Supply Chain Attacks](https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html)
-  The Hacker News - 2026-06-05T
 - [Rust-Written IronWorm Hits NPM Supply Chain](https://www.darkreading.com/cyberattacks-data-breaches/rust-written-ironworm-npm-supply-chain)
   DarkReading - 2026-06-04T
 

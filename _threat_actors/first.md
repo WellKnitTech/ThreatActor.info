@@ -33,8 +33,6 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [‘It’s Not a Joke’: A ‘Simpsons’ Writer Holds His First Presidential Campaign Rally](https://www.wired.com/story/simpsons-writer-dan-greaney-holds-his-first-presidential-campaign-rally/)
-  Wired - 2026-06-06T
 - [Enforcing the First AS in BGP AS_PATHs](https://blog.cloudflare.com/enforce-first-as-bgp/)
   Cloudflare - 2026-06-03T
 

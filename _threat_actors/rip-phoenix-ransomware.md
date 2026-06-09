@@ -30,11 +30,3 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Lauf eElja Electric Mountain Bike Review: Power Trip](https://www.wired.com/review/lauf-eelja-electric-mountain-bike/)
-  Wired - 2026-06-07T
-- [Credit card theft campaign abuses Stripe to host stolen payment info](https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/)
-  BleepingComputer - 2026-06-04T
-

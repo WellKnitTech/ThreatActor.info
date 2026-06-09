@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Best Red-Light Therapy for Hair Restoration and Regrowth (2026)](https://www.wired.com/story/best-red-light-therapy-for-hair-growth/)
-  Wired - 2026-06-07T
-

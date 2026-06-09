@@ -136,3 +136,11 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 [3] [Trend Micro Ransomware Spotlight Play July 2023](https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-play)
    Trend Micro Research. (2023, July 21). Ransomware Spotlight: Play. Retrieved September 24, 2024.
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Apple plays catch-up at WWDC](https://techcrunch.com/2026/06/08/apple-plays-catch-up-at-wwdc/)
+  TechCrunch - 2026-06-08T
+- [Apple’s Image Playground doesn’t suck anymore](https://techcrunch.com/2026/06/08/apples-image-playground-doesnt-suck-anymore/)
+  TechCrunch - 2026-06-08T
+

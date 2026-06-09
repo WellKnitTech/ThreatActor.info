@@ -34,6 +34,8 @@ Luna Moth conducts high-tempo callback phishing campaigns targeting legal and fi
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Silent Ransom Group Hits US Law Firms in Escalating Extortion Attacks](https://www.darkreading.com/cyberattacks-data-breaches/silent-ransom-us-law-firms-extortion-attacks)
+  DarkReading - 2026-06-08T
 - [Silent Ransom Group targets law firms with fake IT support calls](https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/)
   BleepingComputer - 2026-06-07T
 

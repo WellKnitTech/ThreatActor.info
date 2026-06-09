@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [2 Best Bluetooth Trackers of 2026, Plus Honorable Mentions](https://www.wired.com/story/the-best-bluetooth-trackers/)
-  Wired - 2026-06-06T
-

@@ -33,12 +33,12 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Iran Signed a Ceasefire — Its Hackers Didn't](https://www.darkreading.com/cyberattacks-data-breaches/iran-signed-ceasefire-hackers)
+  DarkReading - 2026-06-08T
+- [NFCShare Android malware spreads via fake banking app updates on GitHub](https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/)
+  BleepingComputer - 2026-06-08T
 - [Silent Ransom Group targets law firms with fake IT support calls](https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/)
   BleepingComputer - 2026-06-07T
-- [Android Spyware Asin Targets Arabic Users via Fake News, PDF and War Map Apps](https://thehackernews.com/2026/06/android-spyware-asin-targets-arabic.html)
-  The Hacker News - 2026-06-05T
-- [FIFA World Cup 2026 Scams Are Already Live: Fake Sites, Banking Malware, and Stolen Logins](https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html)
-  The Hacker News - 2026-06-05T
 - [Fraud, Ransomware, and Fake Apps Are Already Targeting FIFA 2026](https://blog.checkpoint.com/exposure-management/fraud-ransomware-and-fake-apps-are-already-targeting-fifa-2026/)
   Check Point - 2026-06-04T
 

@@ -33,10 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The Trump administration might take an equity stake in OpenAI](https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/)
-  TechCrunch - 2026-06-06T
 - [Pakistan Spies on Afghan Finance Ministry With Xeno RAT](https://www.darkreading.com/cyberattacks-data-breaches/pakistan-spies-afghan-finance-ministry-xeno-rat)
   DarkReading - 2026-06-04T
-- [Malicious Notifications Could Trick Google Gemini Users](https://www.darkreading.com/application-security/malicious-notifications-could-trick-google-gemini-users)
-  DarkReading - 2026-06-03T
 
