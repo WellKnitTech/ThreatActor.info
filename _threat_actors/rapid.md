@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Rapid7 Gains Access To Anthropic’s Project Glasswing To Explore Frontier AI For Cybersecurity](https://www.rapid7.com/blog/post/ai-rapid7-accesses-anthropics-project-glasswing-exploring-frontier-artificial-cybersecurity-intelligence)
+  Rapid7 - 2026-06-09T
+

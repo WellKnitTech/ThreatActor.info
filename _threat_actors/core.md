@@ -30,9 +30,3 @@ Core ransomware surfaced in early 2025 as a new variant within the broader Makop
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [1Password Coupon: Score a Free Trial in June 2026](https://www.wired.com/story/1password-coupon/)
-  Wired - 2026-06-09T
-

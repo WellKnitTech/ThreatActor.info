@@ -60,9 +60,3 @@ Qilin is a ransomware group that first appeared in 2022 but had a breakout year 
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Check Point links VPN zero-day attacks to Qilin ransomware gang](https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/)
-  BleepingComputer - 2026-06-08T
-
