@@ -30,11 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Surfshark Promo Codes: 87% Off | June 2026](https://www.wired.com/story/surfshark-coupon/)
-  Wired - 2026-06-10T
-- [Great White Sharks Have Been in the Mediterranean Sea for Millions of Years—but Sightings Are Incredibly Rare](https://www.wired.com/story/great-white-shark-mediterranean-sea-sighting-endangered/)
-  Wired - 2026-06-09T
-

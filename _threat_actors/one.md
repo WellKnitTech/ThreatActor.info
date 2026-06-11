@@ -33,10 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Apple’s foldable iPhone could be just around the corner](https://techcrunch.com/2026/06/09/apples-foldable-iphone-could-be-just-around-the-corner/)
-  TechCrunch - 2026-06-09T
-- [Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer](https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html)
-  The Hacker News - 2026-06-09T
-- [One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public](https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html)
-  The Hacker News - 2026-06-09T
+- [Anthropic’s Dario Amodei has just one direct report](https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report/)
+  TechCrunch - 2026-06-11T
+- [Everyone wants a piece of Tesla’s battery business](https://techcrunch.com/2026/06/10/everyone-wants-a-piece-of-teslas-battery-business/)
+  TechCrunch - 2026-06-10T
+- [Wing drone delivery might not be a novelty anymore](https://techcrunch.com/2026/06/10/wing-drone-delivery-might-not-be-a-novelty-anymore/)
+  TechCrunch - 2026-06-10T
 

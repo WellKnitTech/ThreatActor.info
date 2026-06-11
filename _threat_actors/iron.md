@@ -30,9 +30,3 @@ It is currently unknown if Iron is indeed a new variant by the same creators of 
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Rust-Written IronWorm Hits NPM Supply Chain](https://www.darkreading.com/cyberattacks-data-breaches/rust-written-ironworm-npm-supply-chain)
-  DarkReading - 2026-06-04T
-

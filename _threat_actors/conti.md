@@ -75,6 +75,8 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Fresh off bond sale, Amazon borrows $17.5B from banks as AI spending continues](https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/)
+  TechCrunch - 2026-06-10T
 - [Microsoft Restores Some GitHub Repos, Keeps Others Offline as Miasma Probe Continues](https://thehackernews.com/2026/06/microsoft-restores-some-github-repos.html)
   The Hacker News - 2026-06-09T
 

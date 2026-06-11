@@ -44,12 +44,14 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Great White Sharks Have Been in the Mediterranean Sea for Millions of Years—but Sightings Are Incredibly Rare](https://www.wired.com/story/great-white-shark-mediterranean-sea-sighting-endangered/)
-  Wired - 2026-06-09T
+- [Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude](https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/)
+  Wired - 2026-06-11T
+- [Bug Bounty Research Triggers ServiceNow Security Alert](https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert)
+  DarkReading - 2026-06-10T
+- [Cybersecurity researchers aren’t happy about the guardrails on Anthropic’s Fable](https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/)
+  TechCrunch - 2026-06-10T
 - [Locked in heated rivalry with researcher, Microsoft fixes 0-day they disclosed](https://arstechnica.com/security/2026/06/locked-in-heated-rivalry-with-researcher-microsoft-fixes-0-day-they-disclosed/)
   Ars Technica - 2026-06-09T
 - [Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models](https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html)
   The Hacker News - 2026-06-09T
-- [HNSW vs. LSH: How Elasticsearch hits 0.99 recall@10 at 15,000 QPS — and what it costs](https://www.elastic.co/blog/understanding-approximate-nearest-neighbor-search)
-  Elastic - 2026-06-09T
 

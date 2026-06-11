@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [The Hidden Security Risk in Modern Networks: The Work Between Tools](https://thehackernews.com/2026/06/the-hidden-security-risk-in-modern.html)
-  The Hacker News - 2026-06-09T
-

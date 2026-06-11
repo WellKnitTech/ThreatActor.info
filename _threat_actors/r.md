@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Six Proto6 Vulnerabilities in protobuf.js Expose Node.js Apps to RCE and DoS](https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html)
-  The Hacker News - 2026-06-10T
-- [Litter-Robot Promo Codes: Up to $150 Off](https://www.wired.com/story/litter-robot-promo-code/)
-  Wired - 2026-06-10T
-- [LegalZoom Promo Code: Exclusive 10% Off LLC Formations](https://www.wired.com/story/legalzoom-promo-code/)
-  Wired - 2026-06-10T
-- [Hostinger Promo Code: 79% Off for June 2026](https://www.wired.com/story/hostinger-coupon-code/)
-  Wired - 2026-06-10T
-- [15% Off Adidas Promo Code | June 2026](https://www.wired.com/story/adidas-promo-code/)
-  Wired - 2026-06-10T
+- [Dyson Promo Codes: 25% Off in June 2026](https://www.wired.com/story/dyson-cordless-vacuum-promo-code/)
+  Wired - 2026-06-11T
+- [30% Off Samsung Promo Code | June 2026](https://www.wired.com/story/samsung-promo-codes/)
+  Wired - 2026-06-11T
+- [Squarespace Promo Codes: 20% Off in June 2026](https://www.wired.com/story/squarespace-promo-code/)
+  Wired - 2026-06-11T
+- [AT&T Promo Codes: $50 Off This June 2026](https://www.wired.com/story/att-promo-code/)
+  Wired - 2026-06-11T
+- [Newegg Promo Code: 10% Off in June 2026](https://www.wired.com/story/newegg-promo-code/)
+  Wired - 2026-06-11T
 

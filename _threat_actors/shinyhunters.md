@@ -33,3 +33,9 @@ ShinyHunters is a cybercriminal group of unknown origin that is motivated by fin
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Oracle PeopleSoft servers hacked in ShinyHunters data theft attacks](https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/)
+  BleepingComputer - 2026-06-10T
+

@@ -30,3 +30,11 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Trump Risks Key Surveillance Authority Over ‘Unqualified’ Spy-Chief Pick](https://www.wired.com/story/trump-risks-key-surveillance-authority-over-unqualified-spy-chief-pick/)
+  Wired - 2026-06-10T
+- [ServiceNow Flaw Exploited to Gain Unauthorized Access to Customer Instances](https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html)
+  The Hacker News - 2026-06-10T
+

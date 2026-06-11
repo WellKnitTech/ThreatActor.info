@@ -30,9 +30,3 @@ parser needs to be built
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Bugcrowd Launches EU Data Residency Option For Evolving Data Sovereignty Needs](https://www.darkreading.com/cyber-risk/bugcrowd-launches-eu-data-residency-option-for-evolving-data-sovereignty-needs)
-  DarkReading - 2026-06-04T
-

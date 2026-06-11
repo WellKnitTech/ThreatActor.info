@@ -33,8 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer](https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html)
-  The Hacker News - 2026-06-09T
 - ['Hades' Campaign Against PyPI Puts New Spin on Shai-Hulud](https://www.darkreading.com/application-security/hades-campaign-pypi-shai-hulud)
   DarkReading - 2026-06-08T
 
