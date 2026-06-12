@@ -234,3 +234,9 @@ APT32 is a suspected Vietnam-based threat group that has been active since at le
 [14] [Microsoft Threat Actor Naming July 2023](https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide)
    Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack](https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html)
+  The Hacker News - 2026-06-11T
+

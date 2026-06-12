@@ -35,6 +35,4 @@ Ransomware Based on HiddenTear
 
 - [Chinese, N. Korean Threat Groups Build on Asia-Pacific Success](https://www.darkreading.com/cyberattacks-data-breaches/chinese-korean-threat-groups-asia-pacific-success)
   DarkReading - 2026-06-11T
-- [North Koreans behind nearly half of US tech industry hacks, says CrowdStrike](https://techcrunch.com/2026/06/10/north-koreans-behind-nearly-half-of-us-tech-industry-hacks-says-crowdstrike/)
-  TechCrunch - 2026-06-10T
 

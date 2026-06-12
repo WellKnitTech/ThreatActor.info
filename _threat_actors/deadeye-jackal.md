@@ -44,14 +44,10 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude](https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/)
-  Wired - 2026-06-11T
+- [Coinbase’s new tool can help agents trade and pay for premium research](https://techcrunch.com/2026/06/11/coinbase-debuts-mcp-for-agent-trading/)
+  TechCrunch - 2026-06-11T
 - [Bug Bounty Research Triggers ServiceNow Security Alert](https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert)
   DarkReading - 2026-06-10T
-- [Cybersecurity researchers aren’t happy about the guardrails on Anthropic’s Fable](https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/)
-  TechCrunch - 2026-06-10T
 - [Locked in heated rivalry with researcher, Microsoft fixes 0-day they disclosed](https://arstechnica.com/security/2026/06/locked-in-heated-rivalry-with-researcher-microsoft-fixes-0-day-they-disclosed/)
   Ars Technica - 2026-06-09T
-- [Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models](https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html)
-  The Hacker News - 2026-06-09T
 

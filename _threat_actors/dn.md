@@ -33,6 +33,6 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Iran Signed a Ceasefire — Its Hackers Didn't](https://www.darkreading.com/cyberattacks-data-breaches/iran-signed-ceasefire-hackers)
-  DarkReading - 2026-06-08T
+- [Maine breach portal abused to publish fake data breach disclosures](https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/)
+  BleepingComputer - 2026-06-11T
 

@@ -30,9 +30,3 @@ Ransomware Files might be partially encrypted
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Zest launches a restaurant discovery app powered by where people actually eat](https://techcrunch.com/2026/06/10/zest-launches-a-restaurant-discovery-app-powered-by-where-people-actually-eat/)
-  TechCrunch - 2026-06-10T
-

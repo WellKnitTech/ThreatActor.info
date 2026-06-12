@@ -30,9 +30,3 @@ Silent is an active ransomware-as-a-service operation tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Silent Ransom Group Hits US Law Firms in Escalating Extortion Attacks](https://www.darkreading.com/cyberattacks-data-breaches/silent-ransom-us-law-firms-extortion-attacks)
-  DarkReading - 2026-06-08T
-
