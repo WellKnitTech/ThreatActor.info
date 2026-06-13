@@ -33,6 +33,6 @@ Not a RaaS yet.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Global Cyber Attacks Ease in May 2026, But Ransomware Surges 48% As Threats Reorganize](https://blog.checkpoint.com/research/global-cyber-attacks-ease-in-may-2026-but-ransomware-surges-48-as-threats-reorganize/)
-  Check Point - 2026-06-09T
+- [Scaling Security Insights: how we achieved a 10x increase in global scanning capacity](https://blog.cloudflare.com/scaling-security-scans/)
+  Cloudflare - 2026-06-12T
 

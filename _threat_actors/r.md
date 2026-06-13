@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Altra Running Promo Codes June 2026](https://www.wired.com/story/altra-promo-code/)
-  Wired - 2026-06-12T
-- [Herman Miller Promo Codes: 40% Off June](https://www.wired.com/story/herman-miller-promo-code/)
-  Wired - 2026-06-12T
-- [T-Mobile Promo Codes: 25% Off | June 2026](https://www.wired.com/story/t-mobile-business-promo-code/)
-  Wired - 2026-06-12T
-- [20% Off Brooks Promo Code | June 2026](https://www.wired.com/story/brooks-promo-code/)
-  Wired - 2026-06-12T
-- [30% Off Canon Promo Codes | June 2026](https://www.wired.com/story/canon-promo-code/)
-  Wired - 2026-06-12T
+- [Andrew Yang thinks the next big startup opportunity is lowering the cost of living](https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living/)
+  TechCrunch - 2026-06-13T
+- [Anthropic’s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI](https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/)
+  TechCrunch - 2026-06-13T
+- [Anthropic Says It’s Taking Claude Fable 5 Offline to Comply With US Government Order](https://www.wired.com/story/anthropic-says-us-government-ordered-it-to-shut-down-mythos-models/)
+  Wired - 2026-06-13T
+- [Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit](https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html)
+  The Hacker News - 2026-06-13T
+- [Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing](https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html)
+  The Hacker News - 2026-06-13T
 

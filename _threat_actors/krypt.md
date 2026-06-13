@@ -30,3 +30,9 @@ Krypt is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Crypto Guys Bought the Answer to the CIA’s Mysterious Kryptos Sculpture](https://www.wired.com/story/crypto-guys-bought-the-answer-to-the-cias-mysterious-kryptos-sculpture/)
+  Wired - 2026-06-12T
+

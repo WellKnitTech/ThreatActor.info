@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Russian Attackers Weaponize WinRAR Flaw Against Ukrainian Orgs](https://www.darkreading.com/vulnerabilities-threats/russian-groups-winrar-flaw-ukrainian-orgs)
-  DarkReading - 2026-06-09T
+- [Monitor Claude activity in Elastic Security ](https://www.elastic.co/blog/monitor-claude-activity-in-elastic-security)
+  Elastic - 2026-06-12T
 

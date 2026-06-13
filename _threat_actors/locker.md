@@ -35,6 +35,4 @@ Ransomware has GUI
 
 - [New GreatXML Exploit Bypasses Windows BitLocker via Recovery Partition XML Files](https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html)
   The Hacker News - 2026-06-11T
-- [Microsoft fixes BitLocker recovery bug on Windows Server 2025](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-bug-on-windows-server-2025/)
-  BleepingComputer - 2026-06-11T
 

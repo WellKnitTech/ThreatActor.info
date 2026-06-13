@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-12T06:40:07Z",
+  "updated": "2026-06-13T06:15:36Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -21,85 +21,165 @@
   "actor_news": {
     "R": [
       {
-        "title": "Altra Running Promo Codes June 2026",
-        "link": "https://www.wired.com/story/altra-promo-code/",
-        "date": "2026-06-12T05:00:00+00:00",
+        "title": "Andrew Yang thinks the next big startup opportunity is lowering the cost of living",
+        "link": "https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living/",
+        "date": "2026-06-13T04:14:19+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Anthropic’s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI",
+        "link": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
+        "date": "2026-06-13T02:26:30+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Anthropic Says It’s Taking Claude Fable 5 Offline to Comply With US Government Order",
+        "link": "https://www.wired.com/story/anthropic-says-us-government-ordered-it-to-shut-down-mythos-models/",
+        "date": "2026-06-13T02:26:10+00:00",
         "source": "Wired"
       },
       {
-        "title": "Herman Miller Promo Codes: 40% Off June",
-        "link": "https://www.wired.com/story/herman-miller-promo-code/",
-        "date": "2026-06-12T05:00:00+00:00",
+        "title": "Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit",
+        "link": "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html",
+        "date": "2026-06-13T01:03:25+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing",
+        "link": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
+        "date": "2026-06-13T00:29:32+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "PL": [
+      {
+        "title": "Anthropic’s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI",
+        "link": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
+        "date": "2026-06-13T02:26:30+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Anthropic Says It’s Taking Claude Fable 5 Offline to Comply With US Government Order",
+        "link": "https://www.wired.com/story/anthropic-says-us-government-ordered-it-to-shut-down-mythos-models/",
+        "date": "2026-06-13T02:26:10+00:00",
         "source": "Wired"
       },
       {
-        "title": "T-Mobile Promo Codes: 25% Off | June 2026",
-        "link": "https://www.wired.com/story/t-mobile-business-promo-code/",
-        "date": "2026-06-12T05:00:00+00:00",
-        "source": "Wired"
+        "title": "Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit",
+        "link": "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html",
+        "date": "2026-06-13T01:03:25+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "20% Off Brooks Promo Code | June 2026",
-        "link": "https://www.wired.com/story/brooks-promo-code/",
-        "date": "2026-06-12T05:00:00+00:00",
-        "source": "Wired"
+        "title": "Weekly Metasploit Update: New Kerberos/Certificate tracing options, and multiple new modules",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-13-06-2026",
+        "date": "2026-06-13T00:22:18+00:00",
+        "source": "Rapid7"
       },
       {
-        "title": "30% Off Canon Promo Codes | June 2026",
-        "link": "https://www.wired.com/story/canon-promo-code/",
-        "date": "2026-06-12T05:00:00+00:00",
+        "title": "Meta Employees Absolutely Hate Mark Zuckerberg’s Plan for a Companywide AI Hackathon",
+        "link": "https://www.wired.com/story/meta-employees-absolutely-hate-mark-zuckerbergs-hackathon-idea/",
+        "date": "2026-06-12T23:45:26+00:00",
         "source": "Wired"
+      }
+    ],
+    "Root": [
+      {
+        "title": "Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit",
+        "link": "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html",
+        "date": "2026-06-13T01:03:25+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Over 400 Arch Linux packages compromised to push rootkit, infostealer",
+        "link": "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
+        "date": "2026-06-12T13:03:55-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Tk": [
+      {
+        "title": "Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit",
+        "link": "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html",
+        "date": "2026-06-13T01:03:25+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Over 400 Arch Linux packages compromised to push rootkit, infostealer",
+        "link": "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
+        "date": "2026-06-12T13:03:55-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Mini": [
+      {
+        "title": "Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing",
+        "link": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
+        "date": "2026-06-13T00:29:32+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "INTERPOL Operation Takes Down Sniper Dz Phishing Platform, Arrests Administrator",
+        "link": "https://thehackernews.com/2026/06/interpol-takes-down-sniper-dz-phishing.html",
+        "date": "2026-06-12T14:22:55+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Metasploit": [
+      {
+        "title": "Weekly Metasploit Update: New Kerberos/Certificate tracing options, and multiple new modules",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-13-06-2026",
+        "date": "2026-06-13T00:22:18+00:00",
+        "source": "Rapid7"
       }
     ],
     "Ra": [
       {
-        "title": "Altra Running Promo Codes June 2026",
-        "link": "https://www.wired.com/story/altra-promo-code/",
-        "date": "2026-06-12T05:00:00+00:00",
-        "source": "Wired"
+        "title": "Weekly Metasploit Update: New Kerberos/Certificate tracing options, and multiple new modules",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-13-06-2026",
+        "date": "2026-06-13T00:22:18+00:00",
+        "source": "Rapid7"
       },
       {
-        "title": "20% Off Sephora Promo Code | June 2026",
-        "link": "https://www.wired.com/story/sephora-promo-code/",
-        "date": "2026-06-12T05:00:00+00:00",
-        "source": "Wired"
+        "title": "Tracing Digital Intent: New MacOS Tahoe 26 Artifact Discovered",
+        "link": "https://unit42.paloaltonetworks.com/new-macos-artifact-discovered/",
+        "date": "2026-06-12T22:00:14+00:00",
+        "source": "Unit 42"
       },
       {
-        "title": "Paramount+ Coupon Codes and Deals for June 2026",
-        "link": "https://www.wired.com/story/paramount-plus-coupon-code/",
-        "date": "2026-06-12T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Equal AI raises $30M to screen calls so Indians don’t have to",
-        "link": "https://techcrunch.com/2026/06/11/equal-ai-raises-30m-to-screen-calls-so-indians-dont-have-to/",
-        "date": "2026-06-12T04:30:00+00:00",
+        "title": "Chinese cybercrime operation that used AI to scam ‘hundreds of thousands of victims’ sued by Google",
+        "link": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
+        "date": "2026-06-12T20:38:09+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "Cheaper, faster, and culturally aware, Avataar’s video AI is built for India’s scale",
-        "link": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
-        "date": "2026-06-12T04:30:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Rook": [
+        "title": "ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed",
+        "date": "2026-06-12T20:26:32+00:00",
+        "source": "DarkReading"
+      },
       {
-        "title": "20% Off Brooks Promo Code | June 2026",
-        "link": "https://www.wired.com/story/brooks-promo-code/",
-        "date": "2026-06-12T05:00:00+00:00",
+        "title": "Donald Trump’s White House UFC Event Would Be Embarrassing Anywhere",
+        "link": "https://www.wired.com/story/donald-trumps-white-house-ufc-event-would-be-embarrassing-anywhere/",
+        "date": "2026-06-12T18:03:25+00:00",
         "source": "Wired"
       }
     ],
-    "Aware": [
+    "Rush": [
       {
-        "title": "Cheaper, faster, and culturally aware, Avataar’s video AI is built for India’s scale",
-        "link": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
-        "date": "2026-06-12T04:30:00+00:00",
+        "title": "Meta’s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it",
+        "link": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
+        "date": "2026-06-12T23:00:54+00:00",
         "source": "TechCrunch"
       }
     ],
     "Hunt": [
+      {
+        "title": "ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed",
+        "date": "2026-06-12T20:26:32+00:00",
+        "source": "DarkReading"
+      },
       {
         "title": "ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities",
         "link": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
@@ -111,80 +191,276 @@
         "link": "https://www.rapid7.com/blog/post/ai-automated-threat-hunting-turns-threat-intelligence-into-executable-hunt-plans",
         "date": "2026-06-10T16:26:33+00:00",
         "source": "Rapid7"
-      },
-      {
-        "title": "Oracle PeopleSoft servers hacked in ShinyHunters data theft attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
-        "date": "2026-06-10T14:31:57-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "Hunters": [
       {
-        "title": "ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities",
-        "link": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
-        "date": "2026-06-12T01:59:23+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Oracle PeopleSoft servers hacked in ShinyHunters data theft attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
-        "date": "2026-06-10T14:31:57-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "PL": [
-      {
-        "title": "ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities",
-        "link": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
-        "date": "2026-06-12T01:59:23+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Apple’s Camera Chief Thinks AI Can Give You Superpowers",
-        "link": "https://www.wired.com/story/apple-camera-chief-thinks-ai-can-give-you-superpowers/",
-        "date": "2026-06-12T01:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "New GreatXML Exploit Bypasses Windows BitLocker via Recovery Partition XML Files",
-        "link": "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html",
-        "date": "2026-06-11T23:13:52+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Max-Severity Ivanti Flaw Exploited 24 Hours After Disclosure",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/max-severity-ivanti-sentry-flaw-exploited-24-hours",
-        "date": "2026-06-11T18:43:57+00:00",
+        "title": "ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed",
+        "date": "2026-06-12T20:26:32+00:00",
         "source": "DarkReading"
       },
       {
-        "title": "Deezer’s new tool can identify AI music from Spotify, Apple Music, and others",
-        "link": "https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/",
-        "date": "2026-06-11T16:36:20+00:00",
-        "source": "TechCrunch"
+        "title": "ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities",
+        "link": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
+        "date": "2026-06-12T01:59:23+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Ramp": [
+      {
+        "title": "ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed",
+        "date": "2026-06-12T20:26:32+00:00",
+        "source": "DarkReading"
       }
     ],
     "ShinyHunters": [
       {
+        "title": "ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed",
+        "date": "2026-06-12T20:26:32+00:00",
+        "source": "DarkReading"
+      },
+      {
         "title": "ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities",
         "link": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
         "date": "2026-06-12T01:59:23+05:30",
         "source": "The Hacker News"
+      }
+    ],
+    "First": [
+      {
+        "title": "SpaceX IPO closes up 19% and delivers the world’s first trillionaire",
+        "link": "https://techcrunch.com/2026/06/12/spacex-ipo-closes-up-19-and-delivers-the-worlds-first-trillionaire/",
+        "date": "2026-06-12T20:20:00+00:00",
+        "source": "TechCrunch"
       },
       {
-        "title": "Oracle PeopleSoft servers hacked in ShinyHunters data theft attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
-        "date": "2026-06-10T14:31:57-04:00",
+        "title": "Elon Musk Is the World’s First Trillionaire",
+        "link": "https://www.wired.com/story/elon-musk-is-the-worlds-first-trillionaire-wow/",
+        "date": "2026-06-12T17:54:45+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Elon Musk becomes the world’s first trillionaire after SpaceX’s historic IPO",
+        "link": "https://techcrunch.com/2026/06/12/elon-musk-becomes-the-worlds-first-trillionaire-after-spacexs-historic-ipo/",
+        "date": "2026-06-12T15:55:06+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "US surveillance law to expire for first time after lawmakers reject Trump’s controversial pick to lead spy agencies",
+        "link": "https://techcrunch.com/2026/06/12/us-spy-law-to-expire-for-first-time-after-lawmakers-reject-trumps-controversial-pick-to-lead-spy-agencies/",
+        "date": "2026-06-12T11:43:32+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Donald Trump": [
+      {
+        "title": "Donald Trump’s White House UFC Event Would Be Embarrassing Anywhere",
+        "link": "https://www.wired.com/story/donald-trumps-white-house-ufc-event-would-be-embarrassing-anywhere/",
+        "date": "2026-06-12T18:03:25+00:00",
+        "source": "Wired"
+      }
+    ],
+    "DN": [
+      {
+        "title": "China Didn’t Make Americans Hate Data Centers",
+        "link": "https://www.wired.com/story/china-us-data-center-opposition/",
+        "date": "2026-06-12T17:17:10+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Maine disables data breach notification portal after fake disclosures",
+        "link": "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
+        "date": "2026-06-12T15:33:32-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Maine breach portal abused to publish fake data breach disclosures",
+        "link": "https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/",
+        "date": "2026-06-11T18:44:58-04:00",
         "source": "BleepingComputer"
       }
     ],
-    "Prometheus": [
+    "RobinHood": [
       {
-        "title": "Jeff Bezos’s Prometheus raises $12B to build an ‘artificial general engineer’ for the physical world",
-        "link": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
-        "date": "2026-06-12T01:04:38+00:00",
+        "title": "Robinhood sees ‘record-breaking’ traffic after SpaceX stock debuts",
+        "link": "https://techcrunch.com/2026/06/12/robinhood-sees-record-breaking-traffic-after-spacex-stock-debuts/",
+        "date": "2026-06-12T17:05:06+00:00",
         "source": "TechCrunch"
+      }
+    ],
+    "One": [
+      {
+        "title": "The AI Your Security Team Can’t See Is the One You Should Worry About",
+        "link": "https://blog.checkpoint.com/ai-security/the-ai-your-security-team-cant-see-is-the-one-you-should-worry-about/",
+        "date": "2026-06-12T17:00:32+00:00",
+        "source": "Check Point"
+      },
+      {
+        "title": "Sheeran Loopers Looper X Review: Create Your One-Person Tour",
+        "link": "https://www.wired.com/review/ed-sheeran-looper-x/",
+        "date": "2026-06-12T10:31:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "SentinelOne + Claude: Integrations for AI Visibility, Governance, and Defense",
+        "link": "https://www.sentinelone.com/blog/sentinelone-and-claude-integrations-for-ai-visibility-governance-and-defense/",
+        "date": "2026-06-12T08:59:49+00:00",
+        "source": "SentinelOne"
+      }
+    ],
+    "Defender": [
+      {
+        "title": "Rethinking MDR as Attackers and Defenders Embrace AI",
+        "link": "https://thehackernews.com/2026/06/rethinking-mdr-as-attackers-and.html",
+        "date": "2026-06-12T16:30:00+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "BB": [
+      {
+        "title": "phpBB forum fixes auth bypass bug lurking for a decade",
+        "link": "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/",
+        "date": "2026-06-12T14:19:34-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "PHP": [
+      {
+        "title": "phpBB forum fixes auth bypass bug lurking for a decade",
+        "link": "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/",
+        "date": "2026-06-12T14:19:34-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "CryLocker": [
+      {
+        "title": "Crypto Guys Bought the Answer to the CIA’s Mysterious Kryptos Sculpture",
+        "link": "https://www.wired.com/story/crypto-guys-bought-the-answer-to-the-cias-mysterious-kryptos-sculpture/",
+        "date": "2026-06-12T14:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Europol Disrupts AudiA6 Crypto Laundering Service Used by Ransomware Gangs",
+        "link": "https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html",
+        "date": "2026-06-12T12:08:41+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Authorities dismantle 'AudiA6' ransomware crypto-laundering service",
+        "link": "https://www.bleepingcomputer.com/news/legal/authorities-dismantle-audia6-ransomware-crypto-laundering-service/",
+        "date": "2026-06-11T11:55:41-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Krypt": [
+      {
+        "title": "Crypto Guys Bought the Answer to the CIA’s Mysterious Kryptos Sculpture",
+        "link": "https://www.wired.com/story/crypto-guys-bought-the-answer-to-the-cias-mysterious-kryptos-sculpture/",
+        "date": "2026-06-12T14:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Kryptos": [
+      {
+        "title": "Crypto Guys Bought the Answer to the CIA’s Mysterious Kryptos Sculpture",
+        "link": "https://www.wired.com/story/crypto-guys-bought-the-answer-to-the-cias-mysterious-kryptos-sculpture/",
+        "date": "2026-06-12T14:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "APT41": [
+      {
+        "title": "Ukrainian national pleads guilty to role in Conti ransomware operation",
+        "link": "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
+        "date": "2026-06-12T13:54:28-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "US surveillance law to expire for first time after lawmakers reject Trump’s controversial pick to lead spy agencies",
+        "link": "https://techcrunch.com/2026/06/12/us-spy-law-to-expire-for-first-time-after-lawmakers-reject-trumps-controversial-pick-to-lead-spy-agencies/",
+        "date": "2026-06-12T11:43:32+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Conti": [
+      {
+        "title": "Ukrainian national pleads guilty to role in Conti ransomware operation",
+        "link": "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
+        "date": "2026-06-12T13:54:28-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "BRONZE BUTLER": [
+      {
+        "title": "Ukrainian national pleads guilty to role in Conti ransomware operation",
+        "link": "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
+        "date": "2026-06-12T13:54:28-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Tick": [
+      {
+        "title": "Ukrainian national pleads guilty to role in Conti ransomware operation",
+        "link": "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
+        "date": "2026-06-12T13:54:28-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "global": [
+      {
+        "title": "Scaling Security Insights: how we achieved a 10x increase in global scanning capacity",
+        "link": "https://blog.cloudflare.com/scaling-security-scans/",
+        "date": "2026-06-12T13:00:00+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "Light": [
+      {
+        "title": "4 Best Floodlight Security Cameras (2026) After Thorough Testing",
+        "link": "https://www.wired.com/gallery/best-floodlight-security-cameras/",
+        "date": "2026-06-12T11:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Thor": [
+      {
+        "title": "4 Best Floodlight Security Cameras (2026) After Thorough Testing",
+        "link": "https://www.wired.com/gallery/best-floodlight-security-cameras/",
+        "date": "2026-06-12T11:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Authorities dismantle 'AudiA6' ransomware crypto-laundering service",
+        "link": "https://www.bleepingcomputer.com/news/legal/authorities-dismantle-audia6-ransomware-crypto-laundering-service/",
+        "date": "2026-06-11T11:55:41-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Aware": [
+      {
+        "title": "Cheaper, faster, and culturally aware, Avataar’s video AI is built for India’s scale",
+        "link": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
+        "date": "2026-06-12T04:30:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "SunCrypt": [
+      {
+        "title": "CISA orders feds to patch actively exploited Ivanti flaw by Sunday",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/",
+        "date": "2026-06-12T04:26:55-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "ONI": [
+      {
+        "title": "Monitor Claude activity in Elastic Security ",
+        "link": "https://www.elastic.co/blog/monitor-claude-activity-in-elastic-security",
+        "date": "2026-06-12T00:00:00+00:00",
+        "source": "Elastic"
       }
     ],
     "Locker": [
@@ -193,12 +469,6 @@
         "link": "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html",
         "date": "2026-06-11T23:13:52+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "Microsoft fixes BitLocker recovery bug on Windows Server 2025",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-bug-on-windows-server-2025/",
-        "date": "2026-06-11T04:44:22-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "The Gentlemen": [
@@ -215,66 +485,6 @@
         "source": "KrebsOnSecurity"
       }
     ],
-    "APT41": [
-      {
-        "title": "Meet the OpenAI Engineer Leading ChatGPT’s Biggest Transformation Yet",
-        "link": "https://www.wired.com/story/model-behavior-interview-with-openai-codex-lead-tibo-sottiaux/",
-        "date": "2026-06-11T21:21:04+00:00",
-        "source": "Wired"
-      }
-    ],
-    "RNS": [
-      {
-        "title": "Oracle warns of security bug that hackers abused to breach 100+ companies",
-        "link": "https://techcrunch.com/2026/06/11/oracle-warns-of-security-bug-that-hackers-abused-to-breach-100-companies/",
-        "date": "2026-06-11T20:27:25+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Pool’s new app turns your screenshots into something useful",
-        "link": "https://techcrunch.com/2026/06/11/pools-new-app-turns-your-screenshots-into-a-searchable-memory-bank/",
-        "date": "2026-06-11T15:30:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "APT3": [
-      {
-        "title": "SpaceX SPV investors won’t know their true holdings until post-IPO lock-ups lift",
-        "link": "https://techcrunch.com/2026/06/11/spacex-spv-investors-wont-know-their-true-holdings-until-post-ipo-lock-ups-lift/",
-        "date": "2026-06-11T19:58:01+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Chinese, N. Korean Threat Groups Build on Asia-Pacific Success",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-korean-threat-groups-asia-pacific-success",
-        "date": "2026-06-11T00:01:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Bluesky": [
-      {
-        "title": "Bluesky launches group chats, as company shifts focus to community features",
-        "link": "https://techcrunch.com/2026/06/11/bluesky-launches-group-chats-as-company-shifts-focus-to-community-features/",
-        "date": "2026-06-11T19:41:05+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "DN": [
-      {
-        "title": "Maine breach portal abused to publish fake data breach disclosures",
-        "link": "https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/",
-        "date": "2026-06-11T18:44:58-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Desktop": [
-      {
-        "title": "Meta’s Edits app is getting an AI assistant and a desktop version",
-        "link": "https://techcrunch.com/2026/06/11/metas-edits-app-is-getting-an-ai-assistant-and-a-desktop-version/",
-        "date": "2026-06-11T17:30:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
     "Bud": [
       {
         "title": "AI Broke Vulnerability Management. That's Why CISOs Are Moving Budget to BAS.",
@@ -283,13 +493,31 @@
         "source": "The Hacker News"
       }
     ],
-    "Deadeye Jackal": [
+    "APT3": [
       {
-        "title": "Coinbase’s new tool can help agents trade and pay for premium research",
-        "link": "https://techcrunch.com/2026/06/11/coinbase-debuts-mcp-for-agent-trading/",
-        "date": "2026-06-11T17:00:00+00:00",
-        "source": "TechCrunch"
-      },
+        "title": "Chinese, N. Korean Threat Groups Build on Asia-Pacific Success",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-korean-threat-groups-asia-pacific-success",
+        "date": "2026-06-11T00:01:00+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Korean": [
+      {
+        "title": "Chinese, N. Korean Threat Groups Build on Asia-Pacific Success",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-korean-threat-groups-asia-pacific-success",
+        "date": "2026-06-11T00:01:00+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Quantum": [
+      {
+        "title": "Quantum computing, agentic AI, and the next infrastructure layer in financial services",
+        "link": "https://www.elastic.co/blog/quantum-computing-in-financial-services",
+        "date": "2026-06-11T00:00:00+00:00",
+        "source": "Elastic"
+      }
+    ],
+    "Deadeye Jackal": [
       {
         "title": "Bug Bounty Research Triggers ServiceNow Security Alert",
         "link": "https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert",
@@ -303,112 +531,12 @@
         "source": "Ars Technica"
       }
     ],
-    "Quantum": [
-      {
-        "title": "Quantum Space’s military SPAC is trying to catch SpaceX’s IPO wave",
-        "link": "https://techcrunch.com/2026/06/11/quantum-spaces-military-spac-is-trying-to-catch-spacexs-ipo-wave/",
-        "date": "2026-06-11T16:59:28+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Quantum computing, agentic AI, and the next infrastructure layer in financial services",
-        "link": "https://www.elastic.co/blog/quantum-computing-in-financial-services",
-        "date": "2026-06-11T00:00:00+00:00",
-        "source": "Elastic"
-      }
-    ],
-    "Mustang Panda": [
-      {
-        "title": "OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack",
-        "link": "https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html",
-        "date": "2026-06-11T15:15:58+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "APT32": [
-      {
-        "title": "OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack",
-        "link": "https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html",
-        "date": "2026-06-11T15:15:58+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Lv": [
-      {
-        "title": "OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack",
-        "link": "https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html",
-        "date": "2026-06-11T15:15:58+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Pink Sandstorm": [
-      {
-        "title": "OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack",
-        "link": "https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html",
-        "date": "2026-06-11T15:15:58+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "CryLocker": [
-      {
-        "title": "Authorities dismantle 'AudiA6' ransomware crypto-laundering service",
-        "link": "https://www.bleepingcomputer.com/news/legal/authorities-dismantle-audia6-ransomware-crypto-laundering-service/",
-        "date": "2026-06-11T11:55:41-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Thor": [
-      {
-        "title": "Authorities dismantle 'AudiA6' ransomware crypto-laundering service",
-        "link": "https://www.bleepingcomputer.com/news/legal/authorities-dismantle-audia6-ransomware-crypto-laundering-service/",
-        "date": "2026-06-11T11:55:41-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "RIP (Phoenix) Ransomware": [
-      {
-        "title": "GitHub to Disable npm Install Scripts by Default to Stop Supply Chain Attacks",
-        "link": "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html",
-        "date": "2026-06-11T11:53:03+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Korean": [
-      {
-        "title": "Chinese, N. Korean Threat Groups Build on Asia-Pacific Success",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-korean-threat-groups-asia-pacific-success",
-        "date": "2026-06-11T00:01:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "NMoreira": [
-      {
-        "title": "China-Linked JDY Botnet Expands to 1,500+ Devices for Cyber Reconnaissance",
-        "link": "https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html",
-        "date": "2026-06-10T21:38:42+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "China-linked JDY botnet expands targeting of U.S. military networks",
-        "link": "https://www.bleepingcomputer.com/news/security/china-linked-jdy-botnet-expands-targeting-of-us-military-networks/",
-        "date": "2026-06-10T11:00:00-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
     "Nightmare": [
       {
         "title": "Nightmare-Eclipse Drops Yet Another Microsoft Exploit, RoguePlanet",
         "link": "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-microsoft-exploit-rogueplanet",
         "date": "2026-06-10T16:31:02+00:00",
         "source": "DarkReading"
-      }
-    ],
-    "Hacked": [
-      {
-        "title": "Oracle PeopleSoft servers hacked in ShinyHunters data theft attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
-        "date": "2026-06-10T14:31:57-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "Blind": [
@@ -425,54 +553,6 @@
         "link": "https://arstechnica.com/security/2026/06/locked-in-heated-rivalry-with-researcher-microsoft-fixes-0-day-they-disclosed/",
         "date": "2026-06-09T20:56:52+00:00",
         "source": "Ars Technica"
-      }
-    ],
-    "BRONZE BUTLER": [
-      {
-        "title": "Russian Attackers Weaponize WinRAR Flaw Against Ukrainian Orgs",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/russian-groups-winrar-flaw-ukrainian-orgs",
-        "date": "2026-06-09T15:37:02+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "ONI": [
-      {
-        "title": "Russian Attackers Weaponize WinRAR Flaw Against Ukrainian Orgs",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/russian-groups-winrar-flaw-ukrainian-orgs",
-        "date": "2026-06-09T15:37:02+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Tick": [
-      {
-        "title": "Russian Attackers Weaponize WinRAR Flaw Against Ukrainian Orgs",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/russian-groups-winrar-flaw-ukrainian-orgs",
-        "date": "2026-06-09T15:37:02+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Zlader": [
-      {
-        "title": "Russian Attackers Weaponize WinRAR Flaw Against Ukrainian Orgs",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/russian-groups-winrar-flaw-ukrainian-orgs",
-        "date": "2026-06-09T15:37:02+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "global": [
-      {
-        "title": "Global Cyber Attacks Ease in May 2026, But Ransomware Surges 48% As Threats Reorganize",
-        "link": "https://blog.checkpoint.com/research/global-cyber-attacks-ease-in-may-2026-but-ransomware-surges-48-as-threats-reorganize/",
-        "date": "2026-06-09T13:42:49+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "Rapid": [
-      {
-        "title": "Rapid7 Gains Access To Anthropic’s Project Glasswing To Explore Frontier AI For Cybersecurity",
-        "link": "https://www.rapid7.com/blog/post/ai-rapid7-accesses-anthropics-project-glasswing-exploring-frontier-artificial-cybersecurity-intelligence",
-        "date": "2026-06-09T13:35:36+00:00",
-        "source": "Rapid7"
       }
     ]
   }

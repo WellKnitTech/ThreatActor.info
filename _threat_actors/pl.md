@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities](https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html)
-  The Hacker News - 2026-06-12T
-- [Apple’s Camera Chief Thinks AI Can Give You Superpowers](https://www.wired.com/story/apple-camera-chief-thinks-ai-can-give-you-superpowers/)
+- [Anthropic’s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI](https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/)
+  TechCrunch - 2026-06-13T
+- [Anthropic Says It’s Taking Claude Fable 5 Offline to Comply With US Government Order](https://www.wired.com/story/anthropic-says-us-government-ordered-it-to-shut-down-mythos-models/)
+  Wired - 2026-06-13T
+- [Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit](https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html)
+  The Hacker News - 2026-06-13T
+- [Weekly Metasploit Update: New Kerberos/Certificate tracing options, and multiple new modules](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-13-06-2026)
+  Rapid7 - 2026-06-13T
+- [Meta Employees Absolutely Hate Mark Zuckerberg’s Plan for a Companywide AI Hackathon](https://www.wired.com/story/meta-employees-absolutely-hate-mark-zuckerbergs-hackathon-idea/)
   Wired - 2026-06-12T
-- [New GreatXML Exploit Bypasses Windows BitLocker via Recovery Partition XML Files](https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html)
-  The Hacker News - 2026-06-11T
-- [Max-Severity Ivanti Flaw Exploited 24 Hours After Disclosure](https://www.darkreading.com/vulnerabilities-threats/max-severity-ivanti-sentry-flaw-exploited-24-hours)
-  DarkReading - 2026-06-11T
-- [Deezer’s new tool can identify AI music from Spotify, Apple Music, and others](https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/)
-  TechCrunch - 2026-06-11T
 

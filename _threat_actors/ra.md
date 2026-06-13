@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Altra Running Promo Codes June 2026](https://www.wired.com/story/altra-promo-code/)
-  Wired - 2026-06-12T
-- [20% Off Sephora Promo Code | June 2026](https://www.wired.com/story/sephora-promo-code/)
-  Wired - 2026-06-12T
-- [Paramount+ Coupon Codes and Deals for June 2026](https://www.wired.com/story/paramount-plus-coupon-code/)
-  Wired - 2026-06-12T
-- [Equal AI raises $30M to screen calls so Indians don’t have to](https://techcrunch.com/2026/06/11/equal-ai-raises-30m-to-screen-calls-so-indians-dont-have-to/)
+- [Weekly Metasploit Update: New Kerberos/Certificate tracing options, and multiple new modules](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-13-06-2026)
+  Rapid7 - 2026-06-13T
+- [Tracing Digital Intent: New MacOS Tahoe 26 Artifact Discovered](https://unit42.paloaltonetworks.com/new-macos-artifact-discovered/)
+  Unit 42 - 2026-06-12T
+- [Chinese cybercrime operation that used AI to scam ‘hundreds of thousands of victims’ sued by Google](https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/)
   TechCrunch - 2026-06-12T
-- [Cheaper, faster, and culturally aware, Avataar’s video AI is built for India’s scale](https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/)
-  TechCrunch - 2026-06-12T
+- [ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed](https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed)
+  DarkReading - 2026-06-12T
+- [Donald Trump’s White House UFC Event Would Be Embarrassing Anywhere](https://www.wired.com/story/donald-trumps-white-house-ufc-event-would-be-embarrassing-anywhere/)
+  Wired - 2026-06-12T
 

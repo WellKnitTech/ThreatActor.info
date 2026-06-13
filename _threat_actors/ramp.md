@@ -30,3 +30,9 @@ Ramp is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed](https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed)
+  DarkReading - 2026-06-12T
+

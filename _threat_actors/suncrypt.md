@@ -34,3 +34,9 @@ SunCrypt ransomware was discovered in October 2019 and in August 2020 it was add
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [CISA orders feds to patch actively exploited Ivanti flaw by Sunday](https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/)
+  BleepingComputer - 2026-06-12T
+

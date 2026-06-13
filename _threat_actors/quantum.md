@@ -33,8 +33,6 @@ Quantum is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Quantum Space’s military SPAC is trying to catch SpaceX’s IPO wave](https://techcrunch.com/2026/06/11/quantum-spaces-military-spac-is-trying-to-catch-spacexs-ipo-wave/)
-  TechCrunch - 2026-06-11T
 - [Quantum computing, agentic AI, and the next infrastructure layer in financial services](https://www.elastic.co/blog/quantum-computing-in-financial-services)
   Elastic - 2026-06-11T
 

@@ -33,6 +33,10 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [China Didn’t Make Americans Hate Data Centers](https://www.wired.com/story/china-us-data-center-opposition/)
+  Wired - 2026-06-12T
+- [Maine disables data breach notification portal after fake disclosures](https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/)
+  BleepingComputer - 2026-06-12T
 - [Maine breach portal abused to publish fake data breach disclosures](https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/)
   BleepingComputer - 2026-06-11T
 

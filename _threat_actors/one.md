@@ -30,3 +30,13 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [The AI Your Security Team Can’t See Is the One You Should Worry About](https://blog.checkpoint.com/ai-security/the-ai-your-security-team-cant-see-is-the-one-you-should-worry-about/)
+  Check Point - 2026-06-12T
+- [Sheeran Loopers Looper X Review: Create Your One-Person Tour](https://www.wired.com/review/ed-sheeran-looper-x/)
+  Wired - 2026-06-12T
+- [SentinelOne + Claude: Integrations for AI Visibility, Governance, and Defense](https://www.sentinelone.com/blog/sentinelone-and-claude-integrations-for-ai-visibility-governance-and-defense/)
+  SentinelOne - 2026-06-12T
+

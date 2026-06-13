@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [4 Best Floodlight Security Cameras (2026) After Thorough Testing](https://www.wired.com/gallery/best-floodlight-security-cameras/)
+  Wired - 2026-06-12T
 - [Authorities dismantle 'AudiA6' ransomware crypto-laundering service](https://www.bleepingcomputer.com/news/legal/authorities-dismantle-audia6-ransomware-crypto-laundering-service/)
   BleepingComputer - 2026-06-11T
 
