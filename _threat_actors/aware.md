@@ -30,9 +30,3 @@ Aware is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Cheaper, faster, and culturally aware, Avataar’s video AI is built for India’s scale](https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/)
-  TechCrunch - 2026-06-12T
-

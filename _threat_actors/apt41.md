@@ -111,6 +111,4 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 
 - [Ukrainian national pleads guilty to role in Conti ransomware operation](https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/)
   BleepingComputer - 2026-06-12T
-- [US surveillance law to expire for first time after lawmakers reject Trump’s controversial pick to lead spy agencies](https://techcrunch.com/2026/06/12/us-spy-law-to-expire-for-first-time-after-lawmakers-reject-trumps-controversial-pick-to-lead-spy-agencies/)
-  TechCrunch - 2026-06-12T
 

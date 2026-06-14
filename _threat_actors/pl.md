@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication](https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html)
+  The Hacker News - 2026-06-13T
+- [Ex-school district employee jailed for hacks on former employer](https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/)
+  BleepingComputer - 2026-06-13T
+- [How Can Soccer Players Bend Their Shots in Midair?](https://www.wired.com/story/how-can-soccer-players-bend-their-shots-in-midair/)
+  Wired - 2026-06-13T
+- [The FBI built its own replica small town to simulate real-world cyberattacks](https://techcrunch.com/2026/06/13/the-fbi-built-its-own-replica-small-town-to-simulate-real-world-cyberattacks/)
+  TechCrunch - 2026-06-13T
 - [Anthropic’s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI](https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/)
   TechCrunch - 2026-06-13T
-- [Anthropic Says It’s Taking Claude Fable 5 Offline to Comply With US Government Order](https://www.wired.com/story/anthropic-says-us-government-ordered-it-to-shut-down-mythos-models/)
-  Wired - 2026-06-13T
-- [Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit](https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html)
-  The Hacker News - 2026-06-13T
-- [Weekly Metasploit Update: New Kerberos/Certificate tracing options, and multiple new modules](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-13-06-2026)
-  Rapid7 - 2026-06-13T
-- [Meta Employees Absolutely Hate Mark Zuckerberg’s Plan for a Companywide AI Hackathon](https://www.wired.com/story/meta-employees-absolutely-hate-mark-zuckerbergs-hackathon-idea/)
-  Wired - 2026-06-12T
 

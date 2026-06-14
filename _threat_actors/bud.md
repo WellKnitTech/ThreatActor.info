@@ -33,6 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [AI Broke Vulnerability Management. That's Why CISOs Are Moving Budget to BAS.](https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html)
-  The Hacker News - 2026-06-11T
+- [This thin under-pillow speaker helped me fall asleep without earbuds](https://techcrunch.com/2026/06/13/this-thin-under-pillow-speaker-helped-me-fall-asleep-without-earbuds/)
+  TechCrunch - 2026-06-13T
 

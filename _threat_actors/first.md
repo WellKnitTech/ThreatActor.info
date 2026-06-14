@@ -37,8 +37,4 @@ It’s directed to English speaking users, therefore is able to infect worldwide
   TechCrunch - 2026-06-12T
 - [Elon Musk Is the World’s First Trillionaire](https://www.wired.com/story/elon-musk-is-the-worlds-first-trillionaire-wow/)
   Wired - 2026-06-12T
-- [Elon Musk becomes the world’s first trillionaire after SpaceX’s historic IPO](https://techcrunch.com/2026/06/12/elon-musk-becomes-the-worlds-first-trillionaire-after-spacexs-historic-ipo/)
-  TechCrunch - 2026-06-12T
-- [US surveillance law to expire for first time after lawmakers reject Trump’s controversial pick to lead spy agencies](https://techcrunch.com/2026/06/12/us-spy-law-to-expire-for-first-time-after-lawmakers-reject-trumps-controversial-pick-to-lead-spy-agencies/)
-  TechCrunch - 2026-06-12T
 

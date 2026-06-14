@@ -37,3 +37,9 @@ BERT ransomware (also tracked as Water Pombero) first emerged in April 2025, rap
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Rivian’s CEO on Tesla’s Cybertruck, Ferrari’s Luce, and What Happens If the R2 Fails](https://www.wired.com/story/interview-with-rivian-ceo-rj-scaringe/)
+  Wired - 2026-06-13T
+

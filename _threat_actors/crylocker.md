@@ -37,6 +37,4 @@ Ransomware Identifies victim locations w/Google Maps API
   Wired - 2026-06-12T
 - [Europol Disrupts AudiA6 Crypto Laundering Service Used by Ransomware Gangs](https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html)
   The Hacker News - 2026-06-12T
-- [Authorities dismantle 'AudiA6' ransomware crypto-laundering service](https://www.bleepingcomputer.com/news/legal/authorities-dismantle-audia6-ransomware-crypto-laundering-service/)
-  BleepingComputer - 2026-06-11T
 

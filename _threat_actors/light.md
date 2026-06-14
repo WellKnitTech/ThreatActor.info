@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [4 Best Floodlight Security Cameras (2026) After Thorough Testing](https://www.wired.com/gallery/best-floodlight-security-cameras/)
-  Wired - 2026-06-12T
-
