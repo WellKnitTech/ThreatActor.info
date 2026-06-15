@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T06:38:53Z",
+  "updated": "2026-06-15T07:18:15Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,79 +19,91 @@
     "Rapid7"
   ],
   "actor_news": {
+    "DN": [
+      {
+        "title": "Sniper Dz Scams Target MENA Users via Fake Facebook Offers and Browser Alerts",
+        "link": "https://thehackernews.com/2026/06/sniper-dz-scams-target-mena-users-via.html",
+        "date": "2026-06-15T12:00:22+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Maine disables data breach notification portal after fake disclosures",
+        "link": "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
+        "date": "2026-06-12T15:33:32-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Maine breach portal abused to publish fake data breach disclosures",
+        "link": "https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/",
+        "date": "2026-06-11T18:44:58-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
     "R": [
       {
-        "title": "As Anthropic suspends access to new models, India debates its AI future",
-        "link": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
-        "date": "2026-06-14T03:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand",
-        "link": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
-        "date": "2026-06-14T00:03:49+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "KPMG pulls report on AI usage due to apparent hallucinations",
-        "link": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
-        "date": "2026-06-13T20:42:31+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
-        "link": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
-        "date": "2026-06-13T19:11:41+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
-        "link": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
-        "date": "2026-06-13T18:53:03+05:30",
+        "title": "Sniper Dz Scams Target MENA Users via Fake Facebook Offers and Browser Alerts",
+        "link": "https://thehackernews.com/2026/06/sniper-dz-scams-target-mena-users-via.html",
+        "date": "2026-06-15T12:00:22+05:30",
         "source": "The Hacker News"
+      },
+      {
+        "title": "Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw",
+        "link": "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html",
+        "date": "2026-06-15T11:47:32+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Orbio raises $21 million to automate hiring and onboarding for frontline workers",
+        "link": "https://techcrunch.com/2026/06/14/orbio-raises-21-million-to-automate-hiring-and-onboarding-for-frontline-workers/",
+        "date": "2026-06-15T04:01:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Startup CEO Charlie Javice is reportedly angling for a Trump pardon",
+        "link": "https://techcrunch.com/2026/06/14/startup-ceo-charlie-javice-is-reportedly-angling-for-a-trump-pardon/",
+        "date": "2026-06-14T21:55:34+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "UK may ban social media for children under 16",
+        "link": "https://techcrunch.com/2026/06/14/uk-may-ban-social-media-for-children-under-16/",
+        "date": "2026-06-14T20:17:00+00:00",
+        "source": "TechCrunch"
       }
     ],
-    "Ra": [
+    "global": [
       {
-        "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
-        "link": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
-        "date": "2026-06-13T19:11:41+00:00",
-        "source": "TechCrunch"
+        "title": "Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw",
+        "link": "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html",
+        "date": "2026-06-15T11:47:32+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "OpenAI faces investigation from state attorneys general",
-        "link": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
-        "date": "2026-06-13T16:47:18+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "The FBI built its own replica small town to simulate real-world cyberattacks",
-        "link": "https://techcrunch.com/2026/06/13/the-fbi-built-its-own-replica-small-town-to-simulate-real-world-cyberattacks/",
-        "date": "2026-06-13T11:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Rivian’s CEO on Tesla’s Cybertruck, Ferrari’s Luce, and What Happens If the R2 Fails",
-        "link": "https://www.wired.com/story/interview-with-rivian-ceo-rj-scaringe/",
-        "date": "2026-06-13T10:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "A Court Has Ruled That Google Is Liable for False Statements Generated by AI Overviews",
-        "link": "https://www.wired.com/story/a-court-has-ruled-that-google-is-liable-for-false-statements-generated-by-ai-overviews/",
-        "date": "2026-06-13T09:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "RNS": [
-      {
-        "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
-        "link": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
-        "date": "2026-06-13T19:11:41+00:00",
-        "source": "TechCrunch"
+        "title": "Scaling Security Insights: how we achieved a 10x increase in global scanning capacity",
+        "link": "https://blog.cloudflare.com/scaling-security-scans/",
+        "date": "2026-06-12T13:00:00+00:00",
+        "source": "Cloudflare"
       }
     ],
     "PL": [
+      {
+        "title": "Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw",
+        "link": "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html",
+        "date": "2026-06-15T11:47:32+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "The new Sonos Play has become my go-to desk and kitchen speaker",
+        "link": "https://techcrunch.com/2026/06/14/the-new-sonos-play-has-become-my-go-to-desk-and-kitchen-speaker/",
+        "date": "2026-06-14T14:00:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "19 Best Gifts for Plant Lovers and Gardeners (2026)",
+        "link": "https://www.wired.com/story/the-best-gifts-for-plant-lovers-and-gardeners-2026/",
+        "date": "2026-06-14T11:00:00+00:00",
+        "source": "Wired"
+      },
       {
         "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
         "link": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
@@ -103,24 +115,90 @@
         "link": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
         "date": "2026-06-13T16:53:13-04:00",
         "source": "BleepingComputer"
+      }
+    ],
+    "RNS": [
+      {
+        "title": "Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw",
+        "link": "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html",
+        "date": "2026-06-15T11:47:32+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
+        "link": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+        "date": "2026-06-13T19:11:41+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Ra": [
+      {
+        "title": "Orbio raises $21 million to automate hiring and onboarding for frontline workers",
+        "link": "https://techcrunch.com/2026/06/14/orbio-raises-21-million-to-automate-hiring-and-onboarding-for-frontline-workers/",
+        "date": "2026-06-15T04:01:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "As AI companies race to go public, who else is along for the ride?",
+        "link": "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/",
+        "date": "2026-06-14T16:38:09+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "The Strait of Hormuz Has Been Closed for 100 Days. Why Aren’t Oil Prices Higher?",
+        "link": "https://www.wired.com/story/strait-of-hormuz-closed-100-days-why-arent-oil-prices-higher/",
+        "date": "2026-06-14T10:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Laduora Duo 4-in-1 Red Light Therapy Scalp and Hair Care Device Review: Custom Goals",
+        "link": "https://www.wired.com/review/laduora-duo-4-in-1-pod-based-scalp-and-hair-care-device/",
+        "date": "2026-06-14T09:35:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "7 Best Coffee Makers (2026): Ratio, Fellow, Moccamaster",
+        "link": "https://www.wired.com/gallery/best-coffee-makers/",
+        "date": "2026-06-14T09:01:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Rocke": [
+      {
+        "title": "TechCrunch Mobility: SpaceX rockets past Tesla",
+        "link": "https://techcrunch.com/2026/06/14/techcrunch-mobility-spacex-rockets-past-tesla/",
+        "date": "2026-06-14T16:05:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Play": [
+      {
+        "title": "The new Sonos Play has become my go-to desk and kitchen speaker",
+        "link": "https://techcrunch.com/2026/06/14/the-new-sonos-play-has-become-my-go-to-desk-and-kitchen-speaker/",
+        "date": "2026-06-14T14:00:00+00:00",
+        "source": "TechCrunch"
       },
       {
         "title": "How Can Soccer Players Bend Their Shots in Midair?",
         "link": "https://www.wired.com/story/how-can-soccer-players-bend-their-shots-in-midair/",
         "date": "2026-06-13T11:00:00+00:00",
         "source": "Wired"
-      },
+      }
+    ],
+    "Light": [
       {
-        "title": "The FBI built its own replica small town to simulate real-world cyberattacks",
-        "link": "https://techcrunch.com/2026/06/13/the-fbi-built-its-own-replica-small-town-to-simulate-real-world-cyberattacks/",
-        "date": "2026-06-13T11:00:00+00:00",
-        "source": "TechCrunch"
-      },
+        "title": "Laduora Duo 4-in-1 Red Light Therapy Scalp and Hair Care Device Review: Custom Goals",
+        "link": "https://www.wired.com/review/laduora-duo-4-in-1-pod-based-scalp-and-hair-care-device/",
+        "date": "2026-06-14T09:35:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Cyber Caliphate Army": [
       {
-        "title": "Anthropic’s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI",
-        "link": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
-        "date": "2026-06-13T02:26:30+00:00",
-        "source": "TechCrunch"
+        "title": "7 Best Coffee Makers (2026): Ratio, Fellow, Moccamaster",
+        "link": "https://www.wired.com/gallery/best-coffee-makers/",
+        "date": "2026-06-14T09:01:00+00:00",
+        "source": "Wired"
       }
     ],
     "District": [
@@ -195,14 +273,6 @@
         "source": "Elastic"
       }
     ],
-    "Play": [
-      {
-        "title": "How Can Soccer Players Bend Their Shots in Midair?",
-        "link": "https://www.wired.com/story/how-can-soccer-players-bend-their-shots-in-midair/",
-        "date": "2026-06-13T11:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
     "bert": [
       {
         "title": "Rivian’s CEO on Tesla’s Cybertruck, Ferrari’s Luce, and What Happens If the R2 Fails",
@@ -261,14 +331,6 @@
         "source": "Rapid7"
       }
     ],
-    "Rush": [
-      {
-        "title": "Meta’s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it",
-        "link": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
-        "date": "2026-06-12T23:00:54+00:00",
-        "source": "TechCrunch"
-      }
-    ],
     "Hunt": [
       {
         "title": "ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed",
@@ -325,48 +387,6 @@
         "source": "The Hacker News"
       }
     ],
-    "First": [
-      {
-        "title": "SpaceX IPO closes up 19% and delivers the world’s first trillionaire",
-        "link": "https://techcrunch.com/2026/06/12/spacex-ipo-closes-up-19-and-delivers-the-worlds-first-trillionaire/",
-        "date": "2026-06-12T20:20:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Elon Musk Is the World’s First Trillionaire",
-        "link": "https://www.wired.com/story/elon-musk-is-the-worlds-first-trillionaire-wow/",
-        "date": "2026-06-12T17:54:45+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Donald Trump": [
-      {
-        "title": "Donald Trump’s White House UFC Event Would Be Embarrassing Anywhere",
-        "link": "https://www.wired.com/story/donald-trumps-white-house-ufc-event-would-be-embarrassing-anywhere/",
-        "date": "2026-06-12T18:03:25+00:00",
-        "source": "Wired"
-      }
-    ],
-    "DN": [
-      {
-        "title": "China Didn’t Make Americans Hate Data Centers",
-        "link": "https://www.wired.com/story/china-us-data-center-opposition/",
-        "date": "2026-06-12T17:17:10+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Maine disables data breach notification portal after fake disclosures",
-        "link": "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
-        "date": "2026-06-12T15:33:32-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Maine breach portal abused to publish fake data breach disclosures",
-        "link": "https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/",
-        "date": "2026-06-11T18:44:58-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
     "Defender": [
       {
         "title": "Rethinking MDR as Attackers and Defenders Embrace AI",
@@ -389,36 +409,6 @@
         "link": "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/",
         "date": "2026-06-12T14:19:34-04:00",
         "source": "BleepingComputer"
-      }
-    ],
-    "CryLocker": [
-      {
-        "title": "Crypto Guys Bought the Answer to the CIA’s Mysterious Kryptos Sculpture",
-        "link": "https://www.wired.com/story/crypto-guys-bought-the-answer-to-the-cias-mysterious-kryptos-sculpture/",
-        "date": "2026-06-12T14:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Europol Disrupts AudiA6 Crypto Laundering Service Used by Ransomware Gangs",
-        "link": "https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html",
-        "date": "2026-06-12T12:08:41+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Krypt": [
-      {
-        "title": "Crypto Guys Bought the Answer to the CIA’s Mysterious Kryptos Sculpture",
-        "link": "https://www.wired.com/story/crypto-guys-bought-the-answer-to-the-cias-mysterious-kryptos-sculpture/",
-        "date": "2026-06-12T14:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Kryptos": [
-      {
-        "title": "Crypto Guys Bought the Answer to the CIA’s Mysterious Kryptos Sculpture",
-        "link": "https://www.wired.com/story/crypto-guys-bought-the-answer-to-the-cias-mysterious-kryptos-sculpture/",
-        "date": "2026-06-12T14:00:00+00:00",
-        "source": "Wired"
       }
     ],
     "APT41": [
@@ -453,12 +443,12 @@
         "source": "BleepingComputer"
       }
     ],
-    "global": [
+    "CryLocker": [
       {
-        "title": "Scaling Security Insights: how we achieved a 10x increase in global scanning capacity",
-        "link": "https://blog.cloudflare.com/scaling-security-scans/",
-        "date": "2026-06-12T13:00:00+00:00",
-        "source": "Cloudflare"
+        "title": "Europol Disrupts AudiA6 Crypto Laundering Service Used by Ransomware Gangs",
+        "link": "https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html",
+        "date": "2026-06-12T12:08:41+05:30",
+        "source": "The Hacker News"
       }
     ],
     "SunCrypt": [
@@ -475,20 +465,6 @@
         "link": "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html",
         "date": "2026-06-11T23:13:52+05:30",
         "source": "The Hacker News"
-      }
-    ],
-    "The Gentlemen": [
-      {
-        "title": "The Gentlemen Ransomware Claims 478 Victims, Can Spread Like a Worm",
-        "link": "https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html",
-        "date": "2026-06-11T22:20:47+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
-        "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
-        "date": "2026-06-10T14:03:44+00:00",
-        "source": "KrebsOnSecurity"
       }
     ],
     "APT3": [
@@ -521,12 +497,6 @@
         "link": "https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert",
         "date": "2026-06-10T20:07:53+00:00",
         "source": "DarkReading"
-      },
-      {
-        "title": "Locked in heated rivalry with researcher, Microsoft fixes 0-day they disclosed",
-        "link": "https://arstechnica.com/security/2026/06/locked-in-heated-rivalry-with-researcher-microsoft-fixes-0-day-they-disclosed/",
-        "date": "2026-06-09T20:56:52+00:00",
-        "source": "Ars Technica"
       }
     ],
     "Nightmare": [
@@ -537,20 +507,20 @@
         "source": "DarkReading"
       }
     ],
+    "The Gentlemen": [
+      {
+        "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
+        "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+        "date": "2026-06-10T14:03:44+00:00",
+        "source": "KrebsOnSecurity"
+      }
+    ],
     "Blind": [
       {
         "title": "Blinding the Watchmen: Abusing Cloud Logging Services for Defense Evasion and Visibility",
         "link": "https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/",
         "date": "2026-06-09T22:00:21+00:00",
         "source": "Unit 42"
-      }
-    ],
-    "JCrypt": [
-      {
-        "title": "Locked in heated rivalry with researcher, Microsoft fixes 0-day they disclosed",
-        "link": "https://arstechnica.com/security/2026/06/locked-in-heated-rivalry-with-researcher-microsoft-fixes-0-day-they-disclosed/",
-        "date": "2026-06-09T20:56:52+00:00",
-        "source": "Ars Technica"
       }
     ]
   }

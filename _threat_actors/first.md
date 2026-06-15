@@ -30,11 +30,3 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [SpaceX IPO closes up 19% and delivers the world’s first trillionaire](https://techcrunch.com/2026/06/12/spacex-ipo-closes-up-19-and-delivers-the-worlds-first-trillionaire/)
-  TechCrunch - 2026-06-12T
-- [Elon Musk Is the World’s First Trillionaire](https://www.wired.com/story/elon-musk-is-the-worlds-first-trillionaire-wow/)
-  Wired - 2026-06-12T
-

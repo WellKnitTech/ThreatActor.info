@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Donald Trump’s White House UFC Event Would Be Embarrassing Anywhere](https://www.wired.com/story/donald-trumps-white-house-ufc-event-would-be-embarrassing-anywhere/)
-  Wired - 2026-06-12T
-

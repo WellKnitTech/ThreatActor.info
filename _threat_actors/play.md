@@ -139,6 +139,8 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [The new Sonos Play has become my go-to desk and kitchen speaker](https://techcrunch.com/2026/06/14/the-new-sonos-play-has-become-my-go-to-desk-and-kitchen-speaker/)
+  TechCrunch - 2026-06-14T
 - [How Can Soccer Players Bend Their Shots in Midair?](https://www.wired.com/story/how-can-soccer-players-bend-their-shots-in-midair/)
   Wired - 2026-06-13T
 

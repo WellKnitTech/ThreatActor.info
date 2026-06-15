@@ -46,6 +46,4 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 
 - [Bug Bounty Research Triggers ServiceNow Security Alert](https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert)
   DarkReading - 2026-06-10T
-- [Locked in heated rivalry with researcher, Microsoft fixes 0-day they disclosed](https://arstechnica.com/security/2026/06/locked-in-heated-rivalry-with-researcher-microsoft-fixes-0-day-they-disclosed/)
-  Ars Technica - 2026-06-09T
 

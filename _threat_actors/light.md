@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Laduora Duo 4-in-1 Red Light Therapy Scalp and Hair Care Device Review: Custom Goals](https://www.wired.com/review/laduora-duo-4-in-1-pod-based-scalp-and-hair-care-device/)
+  Wired - 2026-06-14T
+

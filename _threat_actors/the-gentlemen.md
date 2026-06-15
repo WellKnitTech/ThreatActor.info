@@ -38,8 +38,6 @@ The Gentlemen is a ransomware group that employs a dual-extortion strategy, encr
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The Gentlemen Ransomware Claims 478 Victims, Can Spread Like a Worm](https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html)
-  The Hacker News - 2026-06-11T
 - [Who Runs the Ransomware Group ‘The Gentlemen?’](https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/)
   KrebsOnSecurity - 2026-06-10T
 
