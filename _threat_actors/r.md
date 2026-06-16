@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Sniper Dz Scams Target MENA Users via Fake Facebook Offers and Browser Alerts](https://thehackernews.com/2026/06/sniper-dz-scams-target-mena-users-via.html)
-  The Hacker News - 2026-06-15T
-- [Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw](https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html)
-  The Hacker News - 2026-06-15T
-- [Orbio raises $21 million to automate hiring and onboarding for frontline workers](https://techcrunch.com/2026/06/14/orbio-raises-21-million-to-automate-hiring-and-onboarding-for-frontline-workers/)
-  TechCrunch - 2026-06-15T
-- [Startup CEO Charlie Javice is reportedly angling for a Trump pardon](https://techcrunch.com/2026/06/14/startup-ceo-charlie-javice-is-reportedly-angling-for-a-trump-pardon/)
-  TechCrunch - 2026-06-14T
-- [UK may ban social media for children under 16](https://techcrunch.com/2026/06/14/uk-may-ban-social-media-for-children-under-16/)
-  TechCrunch - 2026-06-14T
+- [Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Flaw](https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html)
+  The Hacker News - 2026-06-16T
+- [CISA Flags LiteSpeed cPanel Plugin Flaw Exploited for Root Privilege Escalation](https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html)
+  The Hacker News - 2026-06-16T
+- [Malaysia’s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions](https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/)
+  TechCrunch - 2026-06-16T
+- [Qobuz Is the Anti-Spotify Music Streamer You’ve Been Waiting For](https://www.wired.com/story/qobuz-is-the-anti-spotify-we-need-right-now/)
+  Wired - 2026-06-16T
+- [Home Chef Promo Codes for June 2026](https://www.wired.com/story/home-chef-promo-code/)
+  Wired - 2026-06-16T
 

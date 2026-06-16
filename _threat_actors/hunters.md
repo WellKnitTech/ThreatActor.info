@@ -33,8 +33,8 @@ Hunters International is a ransomware group first identified in October 2023, be
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Council of Europe investigates ShinyHunters data breach claims](https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/)
+  BleepingComputer - 2026-06-15T
 - [ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed](https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed)
   DarkReading - 2026-06-12T
-- [ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities](https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html)
-  The Hacker News - 2026-06-12T
 

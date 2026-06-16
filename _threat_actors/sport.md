@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Sportsman's Warehouse Promo Code: Save in June 2026](https://www.wired.com/story/sportsmans-warehouse-promo-code/)
+  Wired - 2026-06-16T
+

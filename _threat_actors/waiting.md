@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Qobuz Is the Anti-Spotify Music Streamer You’ve Been Waiting For](https://www.wired.com/story/qobuz-is-the-anti-spotify-we-need-right-now/)
+  Wired - 2026-06-16T
+

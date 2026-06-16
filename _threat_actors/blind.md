@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Blinding the Watchmen: Abusing Cloud Logging Services for Defense Evasion and Visibility](https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/)
-  Unit 42 - 2026-06-09T
-

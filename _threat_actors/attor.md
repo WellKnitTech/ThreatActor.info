@@ -35,9 +35,3 @@ Adversary group targeting diplomatic missions and governmental organisations.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [OpenAI faces investigation from state attorneys general](https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/)
-  TechCrunch - 2026-06-13T
-

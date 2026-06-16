@@ -30,9 +30,3 @@ Cyber Caliphate Army is a threat actor tracked by MISP Galaxy. Additional inform
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [7 Best Coffee Makers (2026): Ratio, Fellow, Moccamaster](https://www.wired.com/gallery/best-coffee-makers/)
-  Wired - 2026-06-14T
-

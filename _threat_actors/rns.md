@@ -33,8 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [US Cracks Down on Anthropic AI Models Amid Abuse Concerns](https://www.darkreading.com/cyber-risk/us-cracks-down-anthropic-ai-models-abuse-concerns)
+  DarkReading - 2026-06-15T
 - [Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw](https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html)
   The Hacker News - 2026-06-15T
-- [Amazon CEO reportedly raised Anthropic model concerns before government crackdown](https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/)
-  TechCrunch - 2026-06-13T
 

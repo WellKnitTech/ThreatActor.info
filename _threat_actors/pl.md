@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw](https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html)
+- [Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Flaw](https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html)
+  The Hacker News - 2026-06-16T
+- [CISA Flags LiteSpeed cPanel Plugin Flaw Exploited for Root Privilege Escalation](https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html)
+  The Hacker News - 2026-06-16T
+- [Total Wireless Promo Codes & Deals: 50% Off Select Plans](https://www.wired.com/story/total-wireless-promo-code/)
+  Wired - 2026-06-16T
+- [⚡ Weekly Recap: Chrome 0-Day, UniFi Exploits, macOS Stealers, VPN Flaw and More](https://thehackernews.com/2026/06/weekly-recap-chrome-0-day-unifi.html)
   The Hacker News - 2026-06-15T
-- [The new Sonos Play has become my go-to desk and kitchen speaker](https://techcrunch.com/2026/06/14/the-new-sonos-play-has-become-my-go-to-desk-and-kitchen-speaker/)
-  TechCrunch - 2026-06-14T
-- [19 Best Gifts for Plant Lovers and Gardeners (2026)](https://www.wired.com/story/the-best-gifts-for-plant-lovers-and-gardeners-2026/)
-  Wired - 2026-06-14T
-- [Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication](https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html)
-  The Hacker News - 2026-06-13T
-- [Ex-school district employee jailed for hacks on former employer](https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/)
-  BleepingComputer - 2026-06-13T
+- [Meta’s new ‘AI Mode’ on Facebook pulls from public info across its platforms](https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/)
+  TechCrunch - 2026-06-15T
 

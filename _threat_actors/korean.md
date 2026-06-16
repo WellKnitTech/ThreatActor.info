@@ -33,6 +33,8 @@ Ransomware Based on HiddenTear
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels](https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html)
+  The Hacker News - 2026-06-16T
 - [Chinese, N. Korean Threat Groups Build on Asia-Pacific Success](https://www.darkreading.com/cyberattacks-data-breaches/chinese-korean-threat-groups-asia-pacific-success)
   DarkReading - 2026-06-11T
 

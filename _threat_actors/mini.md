@@ -30,11 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing](https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html)
-  The Hacker News - 2026-06-13T
-- [INTERPOL Operation Takes Down Sniper Dz Phishing Platform, Arrests Administrator](https://thehackernews.com/2026/06/interpol-takes-down-sniper-dz-phishing.html)
-  The Hacker News - 2026-06-12T
-

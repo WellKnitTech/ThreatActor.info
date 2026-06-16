@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Meet the New Dyson Vacuums: V16 Piston Animal, V10 Konical, V8 Cyclone (2026)](https://www.wired.com/story/meet-dysons-new-cordless-vacuum-lineup/)
-  Wired - 2026-06-13T
-

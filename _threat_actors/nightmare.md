@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Nightmare-Eclipse Drops Yet Another Microsoft Exploit, RoguePlanet](https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-microsoft-exploit-rogueplanet)
-  DarkReading - 2026-06-10T
-
