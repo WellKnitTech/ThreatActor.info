@@ -35,8 +35,4 @@ Root is an active extortion or ransomware group tracked by RansomLook.
 
 - [CISA Flags LiteSpeed cPanel Plugin Flaw Exploited for Root Privilege Escalation](https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html)
   The Hacker News - 2026-06-16T
-- [Hungryroot Coupon Codes: 30% Off This June](https://www.wired.com/story/hungryroot-promo-code/)
-  Wired - 2026-06-16T
-- [Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit](https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html)
-  The Hacker News - 2026-06-13T
 

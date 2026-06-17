@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Flaw](https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html)
-  The Hacker News - 2026-06-16T
-- [CISA Flags LiteSpeed cPanel Plugin Flaw Exploited for Root Privilege Escalation](https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html)
-  The Hacker News - 2026-06-16T
-- [Malaysia’s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions](https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/)
-  TechCrunch - 2026-06-16T
-- [Qobuz Is the Anti-Spotify Music Streamer You’ve Been Waiting For](https://www.wired.com/story/qobuz-is-the-anti-spotify-we-need-right-now/)
-  Wired - 2026-06-16T
-- [Home Chef Promo Codes for June 2026](https://www.wired.com/story/home-chef-promo-code/)
-  Wired - 2026-06-16T
+- [CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution](https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html)
+  The Hacker News - 2026-06-17T
+- [Coleman Promo Codes and Deals: Up to 75% Off in June](https://www.wired.com/story/coleman-promo-code/)
+  Wired - 2026-06-17T
+- [Verizon Promo Codes: $200 Verizon Gift Cards | June 2026](https://www.wired.com/story/verizon-promo-code/)
+  Wired - 2026-06-17T
+- [Stearns and Foster Promo Codes: $300 Off in June 2026](https://www.wired.com/story/stearns-and-foster-promo-code/)
+  Wired - 2026-06-17T
+- [30% Off Tempur-Pedic Promo Codes | June 2026](https://www.wired.com/story/tempur-pedic-promo-code/)
+  Wired - 2026-06-17T
 

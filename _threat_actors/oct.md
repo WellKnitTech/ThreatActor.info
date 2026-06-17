@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [AirDoctor Coupon Codes: 40% Off | June 2026](https://www.wired.com/story/airdoctor-coupon-code/)
+  Wired - 2026-06-17T
+

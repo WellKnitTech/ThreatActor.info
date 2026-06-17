@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Malaysia’s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions](https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/)
-  TechCrunch - 2026-06-16T
-- [Shed Rain Coupon: 15% Off](https://www.wired.com/story/shed-rain-coupon/)
+- [Best Handheld Fans and Wearable Fans (2026)](https://www.wired.com/gallery/best-handheld-fans/)
   Wired - 2026-06-16T
-- [Sundar Pichai faces boos, walkout at Stanford graduation ceremony over Google’s Israel, ICE ties](https://techcrunch.com/2026/06/15/sundar-pichai-faces-boos-walkout-at-stanford-graduation-ceremony-over-googles-israel-ice-ties/)
-  TechCrunch - 2026-06-15T
-- [Inside the Modern SOC: The 72-Minute Race](https://unit42.paloaltonetworks.com/soc-72-minute-race/)
-  Unit 42 - 2026-06-15T
-- [LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers](https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html)
-  The Hacker News - 2026-06-15T
+- [Malicious JetBrains Marketplace plugins steal AI API keys from developers](https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/)
+  BleepingComputer - 2026-06-16T
+- [Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive](https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html)
+  The Hacker News - 2026-06-16T
+- [Sixty percent of US consumers say ‘AI’ in brand messaging is a turnoff, survey finds](https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/)
+  TechCrunch - 2026-06-16T
+- [India orders temporary ban on Telegram over exam fraud concerns](https://techcrunch.com/2026/06/16/india-temporarily-blocks-access-to-telegram-over-exam-fraud-concerns/)
+  TechCrunch - 2026-06-16T
 

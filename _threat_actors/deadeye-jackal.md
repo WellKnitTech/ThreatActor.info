@@ -44,14 +44,10 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Sealy Promo Codes: $100 Off](https://www.wired.com/story/sealy-promo-code/)
-  Wired - 2026-06-16T
 - [Chinese Hackers Abused Google Workspace Rules to Steal Research and Defense Emails](https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html)
   The Hacker News - 2026-06-16T
 - [Copilot 'SearchLeak' Attack Allows 1-Click Data Theft](https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft)
   DarkReading - 2026-06-15T
-- [China-Nexus Actor Spy on US Researchers Undetected for a Year](https://www.darkreading.com/threat-intelligence/china-nexus-actor-us-researchers-undetected)
+- [China-Nexus Actor Spies on US Researchers Undetected for a Year](https://www.darkreading.com/threat-intelligence/china-nexus-actor-us-researchers-undetected)
   DarkReading - 2026-06-15T
-- [Chinese hackers breach REDCap servers, steal medical research](https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-redcap-servers-steal-medical-research/)
-  BleepingComputer - 2026-06-15T
 

@@ -35,6 +35,4 @@ Core ransomware surfaced in early 2025 as a new variant within the broader Makop
 
 - [Beyond the Score: Using AI to Translate CVEs into Real-World Business Risk](https://www.rapid7.com/blog/post/ai-beyond-the-score-translating-cves-into-real-business-risk)
   Rapid7 - 2026-06-15T
-- [As AI agents become employees, NewCore emerges with $66M to give them identities](https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/)
-  TechCrunch - 2026-06-15T
 
