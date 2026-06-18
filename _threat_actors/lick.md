@@ -37,8 +37,6 @@ Ransomware Variant of Kirk
   The Hacker News - 2026-06-16T
 - ['Lorem Ipsum' Malware Pivots to ClickFix Delivery](https://www.darkreading.com/cyberattacks-data-breaches/lorem-ipsum-malware-clickfix-delivery)
   DarkReading - 2026-06-16T
-- [One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes](https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html)
-  The Hacker News - 2026-06-15T
 - [Copilot 'SearchLeak' Attack Allows 1-Click Data Theft](https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft)
   DarkReading - 2026-06-15T
 

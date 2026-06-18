@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Monitor Claude activity in Elastic Security ](https://www.elastic.co/blog/monitor-claude-activity-in-elastic-security)
-  Elastic - 2026-06-12T
-

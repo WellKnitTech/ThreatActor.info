@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution](https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html)
-  The Hacker News - 2026-06-17T
-- [Coleman Promo Codes and Deals: Up to 75% Off in June](https://www.wired.com/story/coleman-promo-code/)
-  Wired - 2026-06-17T
-- [Verizon Promo Codes: $200 Verizon Gift Cards | June 2026](https://www.wired.com/story/verizon-promo-code/)
-  Wired - 2026-06-17T
-- [Stearns and Foster Promo Codes: $300 Off in June 2026](https://www.wired.com/story/stearns-and-foster-promo-code/)
-  Wired - 2026-06-17T
-- [30% Off Tempur-Pedic Promo Codes | June 2026](https://www.wired.com/story/tempur-pedic-promo-code/)
-  Wired - 2026-06-17T
+- [NASA picks Eric Schmidt’s rocket company for Mars mission, setting up a race with SpaceX](https://techcrunch.com/2026/06/17/nasa-picks-eric-schmidts-rocket-company-for-mars-mission-setting-up-a-race-with-spacex/)
+  TechCrunch - 2026-06-18T
+- [The UK Will Scan Asylum-Seekers’ Faces for Age Checks—Despite Knowing the Tech Is Flawed](https://www.wired.com/story/facial-age-estimate-uk-asylum-seekers/)
+  Wired - 2026-06-18T
+- [Vitamix Promo Codes and Deals: $25 Off + Free Shipping](https://www.wired.com/story/vitamix-promo-code/)
+  Wired - 2026-06-18T
+- [AT&T Promo Codes: $50 Off This June 2026](https://www.wired.com/story/att-promo-code/)
+  Wired - 2026-06-18T
+- [30% Off Samsung Promo Code | June 2026](https://www.wired.com/story/samsung-promo-codes/)
+  Wired - 2026-06-18T
 
