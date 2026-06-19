@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [NASA picks Eric Schmidt’s rocket company for Mars mission, setting up a race with SpaceX](https://techcrunch.com/2026/06/17/nasa-picks-eric-schmidts-rocket-company-for-mars-mission-setting-up-a-race-with-spacex/)
+- [Therabody Promo Codes: 15% Off June 2026](https://www.wired.com/story/therabody-promo-code/)
+  Wired - 2026-06-19T
+- [Rover Promo Codes and Referral Deals for June 2026](https://www.wired.com/story/rover-promo-code/)
+  Wired - 2026-06-19T
+- [Telegram ban in India sparks a rush to VPNs, rival apps](https://techcrunch.com/2026/06/18/telegram-ban-in-india-sparks-a-rush-to-vpns-rival-apps/)
+  TechCrunch - 2026-06-19T
+- [How the Peter Thiel-Linked Dialog Club Secretly Ranks Its Members](https://www.wired.com/story/how-peter-thiels-private-dialog-club-secretly-ranks-its-members/)
+  Wired - 2026-06-18T
+- [AI inference startup Baseten reportedly raising $1.5B months after its last mega-round](https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/)
   TechCrunch - 2026-06-18T
-- [Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments](https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html)
-  The Hacker News - 2026-06-17T
-- [INC Ransomware Thrives by Mastering the Basics](https://www.darkreading.com/cyberattacks-data-breaches/inc-ransomware-thrives-by-mastering-the-basics)
-  DarkReading - 2026-06-17T
-- [Bringing more agent harnesses and frameworks to Cloudflare, starting with Flue](https://blog.cloudflare.com/agents-platform-flue-sdk/)
-  Cloudflare - 2026-06-17T
-- [Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats](https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html)
-  The Hacker News - 2026-06-17T
 

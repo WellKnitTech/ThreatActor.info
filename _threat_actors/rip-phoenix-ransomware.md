@@ -33,10 +33,8 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [The Scripts on Your Checkout Page Are Now a PCI DSS Problem](https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html)
+  The Hacker News - 2026-06-18T
 - [Leak confirms OpenAI is testing a ChatGPT for Science subscription](https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-testing-a-chatgpt-for-science-subscription/)
   BleepingComputer - 2026-06-17T
-- [FTC lawsuit reveals how subscription scam networks evade app store enforcement](https://techcrunch.com/2026/06/17/ftc-lawsuit-reveals-how-subscription-scam-networks-evade-app-store-enforcement/)
-  TechCrunch - 2026-06-17T
-- [Users cry foul after AMD stripped memory crypto from its consumer CPUs](https://arstechnica.com/security/2026/06/users-cry-foul-after-amd-stripped-memory-crypto-from-its-consumer-cpus/)
-  Ars Technica - 2026-06-15T
 

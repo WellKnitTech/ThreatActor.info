@@ -33,12 +33,10 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Telegram admits it couldn't police exam-leak channels, India tells court](https://www.bleepingcomputer.com/news/security/telegram-admits-it-couldnt-police-exam-leak-channels-india-tells-court/)
+  BleepingComputer - 2026-06-18T
 - [Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments](https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html)
   The Hacker News - 2026-06-17T
 - [From Stars to Upvotes: The Fake Reputation Economy Behind a Crypto Clipboard Hijackers](https://blog.checkpoint.com/research/from-stars-to-upvotes-the-fake-reputation-economy-behind-a-crypto-clipboard-hijackers/)
   Check Point - 2026-06-17T
-- [ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures](https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html)
-  The Hacker News - 2026-06-16T
-- [Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware](https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html)
-  The Hacker News - 2026-06-16T
 

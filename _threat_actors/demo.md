@@ -30,3 +30,9 @@ Ransomware only encrypts .jpg files
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [The 11 standout startups from YC’s Demo Day, according to VCs](https://techcrunch.com/2026/06/18/the-11-standout-startups-from-ycs-demo-day-according-to-vcs/)
+  TechCrunch - 2026-06-18T
+

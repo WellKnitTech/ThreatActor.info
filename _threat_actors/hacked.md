@@ -33,6 +33,6 @@ Ransomware Jigsaw Ransomware variant
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Cybercriminals allegedly hacked tens of thousands of Fortinet firewalls used by major companies all over the world](https://techcrunch.com/2026/06/17/cybercriminals-allegedly-hacked-tens-of-thousands-of-fortinet-firewalls-used-by-major-companies-all-over-the-world/)
-  TechCrunch - 2026-06-17T
+- [ShapedPlugin update flow hacked to infect WordPress sites](https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/)
+  BleepingComputer - 2026-06-18T
 

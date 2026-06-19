@@ -33,6 +33,6 @@ Ank is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [New Rokarolla Android malware targets 217 banking, crypto apps](https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/)
-  BleepingComputer - 2026-06-16T
+- [How the Peter Thiel-Linked Dialog Club Secretly Ranks Its Members](https://www.wired.com/story/how-peter-thiels-private-dialog-club-secretly-ranks-its-members/)
+  Wired - 2026-06-18T
 

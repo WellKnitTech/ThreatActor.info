@@ -47,3 +47,9 @@ DragonForce is a ransomware-as-a-service (RaaS) group first identified in late 2
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic](https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html)
+  The Hacker News - 2026-06-18T
+

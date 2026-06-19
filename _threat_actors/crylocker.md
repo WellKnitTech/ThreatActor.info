@@ -33,14 +33,12 @@ Ransomware Identifies victim locations w/Google Maps API
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Microsoft discovers new lightweight backdoor that steals cryptocurrency](https://arstechnica.com/security/2026/06/microsoft-spots-new-self-propagating-malware-for-stealing-cryptocurrency/)
+  Ars Technica - 2026-06-18T
+- [USB worm spreads crypto-stealing malware via Windows shortcut files](https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/)
+  BleepingComputer - 2026-06-18T
 - [Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments](https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html)
   The Hacker News - 2026-06-17T
 - [From Stars to Upvotes: The Fake Reputation Economy Behind a Crypto Clipboard Hijackers](https://blog.checkpoint.com/research/from-stars-to-upvotes-the-fake-reputation-economy-behind-a-crypto-clipboard-hijackers/)
   Check Point - 2026-06-17T
-- [New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds](https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html)
-  The Hacker News - 2026-06-16T
-- [New Rokarolla Android malware targets 217 banking, crypto apps](https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/)
-  BleepingComputer - 2026-06-16T
-- [Users cry foul after AMD stripped memory crypto from its consumer CPUs](https://arstechnica.com/security/2026/06/users-cry-foul-after-amd-stripped-memory-crypto-from-its-consumer-cpus/)
-  Ars Technica - 2026-06-15T
 

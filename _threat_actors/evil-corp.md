@@ -31,3 +31,9 @@ Evil Corp is an internaltional cybercrime network. In December of 2019 the US Fe
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Police cleans nearly 15,000 SocGholish-infected sites tied to Evil Corp](https://www.bleepingcomputer.com/news/security/law-enforcement-nukes-socgholish-malware-from-nearly-15-000-sites/)
+  BleepingComputer - 2026-06-18T
+

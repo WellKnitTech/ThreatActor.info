@@ -35,9 +35,3 @@ aka Cring / Ghost (Cring) <br/> <br/>Beginning early 2021, Ghost actors began at
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [GhostTree Attack Abused Recursive Windows Junctions to Hide Malware](https://www.bleepingcomputer.com/news/security/ghosttree-attack-abused-recursive-windows-junctions-to-hide-malware/)
-  BleepingComputer - 2026-06-16T
-

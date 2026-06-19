@@ -30,9 +30,3 @@ Core ransomware surfaced in early 2025 as a new variant within the broader Makop
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Beyond the Score: Using AI to Translate CVEs into Real-World Business Risk](https://www.rapid7.com/blog/post/ai-beyond-the-score-translating-cves-into-real-business-risk)
-  Rapid7 - 2026-06-15T
-

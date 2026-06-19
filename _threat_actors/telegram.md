@@ -33,6 +33,8 @@ Telegram is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [India's Telegram ban hit the UAE too. Here's how to get around it](https://www.bleepingcomputer.com/news/security/indias-telegram-ban-hit-the-uae-too-heres-how-to-get-around-it/)
-  BleepingComputer - 2026-06-17T
+- [Telegram ban in India sparks a rush to VPNs, rival apps](https://techcrunch.com/2026/06/18/telegram-ban-in-india-sparks-a-rush-to-vpns-rival-apps/)
+  TechCrunch - 2026-06-19T
+- [Telegram admits it couldn't police exam-leak channels, India tells court](https://www.bleepingcomputer.com/news/security/telegram-admits-it-couldnt-police-exam-leak-channels-india-tells-court/)
+  BleepingComputer - 2026-06-18T
 

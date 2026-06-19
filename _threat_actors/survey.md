@@ -30,9 +30,3 @@ Ransomware Still in development, shows FileIce survey
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive](https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html)
-  The Hacker News - 2026-06-16T
-

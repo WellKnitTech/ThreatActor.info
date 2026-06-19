@@ -33,10 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds](https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html)
-  The Hacker News - 2026-06-16T
 - [Rokarolla Android Trojan Levels Up to Full Device Control, Persistence](https://www.darkreading.com/endpoint-security/rokarolla-android-trojan)
   DarkReading - 2026-06-16T
-- [New Rokarolla Android malware targets 217 banking, crypto apps](https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/)
-  BleepingComputer - 2026-06-16T
 

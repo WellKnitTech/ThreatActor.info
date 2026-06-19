@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Roelof Botha joins SpaceX’s board of directors](https://techcrunch.com/2026/06/17/roelof-botha-joins-spacexs-board-of-directors/)
-  TechCrunch - 2026-06-17T
-

@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Uplift Promo Codes: $570 Off](https://www.wired.com/story/uplift-desk-coupon-code/)
-  Wired - 2026-06-18T
-- [NordVPN Coupons: 75% Off, Plus 3 Months Free in June 2026](https://www.wired.com/story/nordvpn-coupon/)
-  Wired - 2026-06-18T
-- [AI is hurting Apple in more ways than one: it may force iPhone price increases](https://techcrunch.com/2026/06/17/ai-is-hurting-apple-in-more-ways-than-one-it-may-force-iphone-price-increases/)
-  TechCrunch - 2026-06-17T
-- [Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development](https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html)
-  The Hacker News - 2026-06-17T
-- [Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats](https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html)
-  The Hacker News - 2026-06-17T
+- [Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone](https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html)
+  The Hacker News - 2026-06-19T
+- [Apple patches high-severity eavesdropping vulnerability in Beats Studio Buds](https://arstechnica.com/apple/2026/06/apple-patches-high-severity-eavesdropping-vulnerability-in-beats-studio-buds/)
+  Ars Technica - 2026-06-18T
+- [Gentlemen ransomware uses multiple EDR killers to disable defenses](https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/)
+  BleepingComputer - 2026-06-18T
+- [Apple opens up App Store to new competition in Brazil](https://techcrunch.com/2026/06/18/apple-opens-up-app-store-to-new-competition-in-brazil/)
+  TechCrunch - 2026-06-18T
+- [What Successful Exposure Management Deployments Had in Common in 2026](https://blog.checkpoint.com/hybrid-mesh/what-successful-exposure-management-deployments-had-in-common-in-2026/)
+  Check Point - 2026-06-18T
 

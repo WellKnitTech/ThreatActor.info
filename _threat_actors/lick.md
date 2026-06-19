@@ -33,10 +33,6 @@ Ransomware Variant of Kirk
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures](https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html)
-  The Hacker News - 2026-06-16T
 - ['Lorem Ipsum' Malware Pivots to ClickFix Delivery](https://www.darkreading.com/cyberattacks-data-breaches/lorem-ipsum-malware-clickfix-delivery)
   DarkReading - 2026-06-16T
-- [Copilot 'SearchLeak' Attack Allows 1-Click Data Theft](https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft)
-  DarkReading - 2026-06-15T
 

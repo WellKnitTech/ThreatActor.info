@@ -33,10 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures](https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html)
-  The Hacker News - 2026-06-16T
-- [China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth](https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html)
-  The Hacker News - 2026-06-16T
 - [Check Point and Illumio Expand Partnership to Secure Hybrid Environments](https://blog.checkpoint.com/hybrid-mesh/check-point-and-illumio-expand-partnership-to-secure-hybrid-environments/)
   Check Point - 2026-06-16T
 

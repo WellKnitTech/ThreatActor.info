@@ -30,9 +30,3 @@ Hunters International is a ransomware group first identified in October 2023, be
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Kodak confirms data breach claimed by ShinyHunters extortion gang](https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/)
-  BleepingComputer - 2026-06-17T
-
