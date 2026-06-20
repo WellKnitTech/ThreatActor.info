@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone](https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html)
-  The Hacker News - 2026-06-19T
-- [Design Within Reach Promo Codes: 30% Off | June 2026](https://www.wired.com/story/design-within-reach-promo-code/)
-  Wired - 2026-06-19T
-- [Chirp Discount Codes: Save Up to 67%](https://www.wired.com/story/chirp-discount-code/)
-  Wired - 2026-06-19T
-- [Hulu Promo Codes & Discounts: 20% Off in June](https://www.wired.com/story/hulu-promo-code/)
-  Wired - 2026-06-19T
-- [Whoop Promo Codes: 20% Off This June 2026](https://www.wired.com/story/whoop-promo-code/)
-  Wired - 2026-06-19T
+- [Threat Brief: Mitigating Large-Scale Credential Attacks](https://unit42.paloaltonetworks.com/large-scale-credential-attacks/)
+  Unit 42 - 2026-06-20T
+- [He made your free video player run smoothly. Now he’s doing that for robots.](https://techcrunch.com/2026/06/19/he-made-your-free-video-player-run-smoothly-now-hes-doing-that-for-robots/)
+  TechCrunch - 2026-06-20T
+- [Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain](https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html)
+  The Hacker News - 2026-06-20T
+- [The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes](https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html)
+  The Hacker News - 2026-06-20T
+- [From PGP to Mythos: a brief history of export controls that didn’t stop anyone](https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/)
+  TechCrunch - 2026-06-19T
 

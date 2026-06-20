@@ -30,9 +30,3 @@ Ank is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [How the Peter Thiel-Linked Dialog Club Secretly Ranks Its Members](https://www.wired.com/story/how-peter-thiels-private-dialog-club-secretly-ranks-its-members/)
-  Wired - 2026-06-18T
-

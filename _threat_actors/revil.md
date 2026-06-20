@@ -63,12 +63,6 @@ REvil is a Russian ransomware-as-a-service operation that has targeted major cor
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Prime Day Early Deals 2026: Breville and Ninja Espresso Maker Deals](https://www.wired.com/story/early-espresso-machine-deals-prime-day-2026/)
-  Wired - 2026-06-18T
-
 ## CISA Known Exploited Vulnerabilities (KEV)
 *The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*
 

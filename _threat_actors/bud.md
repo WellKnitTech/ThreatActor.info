@@ -37,6 +37,4 @@ Ransomware
   The Hacker News - 2026-06-19T
 - [Apple patches high-severity eavesdropping vulnerability in Beats Studio Buds](https://arstechnica.com/apple/2026/06/apple-patches-high-severity-eavesdropping-vulnerability-in-beats-studio-buds/)
   Ars Technica - 2026-06-18T
-- [Apple fixes Beats Studio Buds flaw that let hackers spy on conversations](https://www.bleepingcomputer.com/news/security/apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations/)
-  BleepingComputer - 2026-06-18T
 

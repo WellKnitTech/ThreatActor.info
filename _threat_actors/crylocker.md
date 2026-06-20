@@ -37,8 +37,6 @@ Ransomware Identifies victim locations w/Google Maps API
   Ars Technica - 2026-06-18T
 - [USB worm spreads crypto-stealing malware via Windows shortcut files](https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/)
   BleepingComputer - 2026-06-18T
-- [Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments](https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html)
-  The Hacker News - 2026-06-17T
 - [From Stars to Upvotes: The Fake Reputation Economy Behind a Crypto Clipboard Hijackers](https://blog.checkpoint.com/research/from-stars-to-upvotes-the-fake-reputation-economy-behind-a-crypto-clipboard-hijackers/)
   Check Point - 2026-06-17T
 

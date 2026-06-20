@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Gen Z Singles Are Trying to Make ‘Solomaxxing’ Aspirational](https://www.wired.com/story/solomaxxing/)
+  Wired - 2026-06-19T
+

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T07:04:42Z",
+  "updated": "2026-06-20T06:19:32Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,6 +19,246 @@
     "Rapid7"
   ],
   "actor_news": {
+    "R": [
+      {
+        "title": "Threat Brief: Mitigating Large-Scale Credential Attacks",
+        "link": "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
+        "date": "2026-06-20T02:05:33+00:00",
+        "source": "Unit 42"
+      },
+      {
+        "title": "He made your free video player run smoothly. Now he’s doing that for robots.",
+        "link": "https://techcrunch.com/2026/06/19/he-made-your-free-video-player-run-smoothly-now-hes-doing-that-for-robots/",
+        "date": "2026-06-20T00:47:44+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain",
+        "link": "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
+        "date": "2026-06-20T00:07:41+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes",
+        "link": "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
+        "date": "2026-06-20T00:03:07+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
+        "link": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+        "date": "2026-06-19T22:40:14+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Play": [
+      {
+        "title": "He made your free video player run smoothly. Now he’s doing that for robots.",
+        "link": "https://techcrunch.com/2026/06/19/he-made-your-free-video-player-run-smoothly-now-hes-doing-that-for-robots/",
+        "date": "2026-06-20T00:47:44+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "PL": [
+      {
+        "title": "He made your free video player run smoothly. Now he’s doing that for robots.",
+        "link": "https://techcrunch.com/2026/06/19/he-made-your-free-video-player-run-smoothly-now-hes-doing-that-for-robots/",
+        "date": "2026-06-20T00:47:44+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain",
+        "link": "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
+        "date": "2026-06-20T00:07:41+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Weekly Metasploit Update: NTLM Relay Priv Esc, MCP Server Integration, Paperclip AI RCE Chain, and more",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-19-06-2026",
+        "date": "2026-06-19T17:08:23+00:00",
+        "source": "Rapid7"
+      },
+      {
+        "title": "Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
+        "date": "2026-06-19T16:25:02-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "The CEO of Allbirds’ new AI biz has a plan, but no team",
+        "link": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/",
+        "date": "2026-06-19T13:00:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Ra": [
+      {
+        "title": "The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes",
+        "link": "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
+        "date": "2026-06-20T00:03:07+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Aura’s impressive e-ink photo frame doesn’t even look digital",
+        "link": "https://techcrunch.com/2026/06/19/auras-impressive-e-ink-photo-frame-doesnt-even-look-digital/",
+        "date": "2026-06-19T21:00:34+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites",
+        "link": "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html",
+        "date": "2026-06-19T20:37:54+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Weekly Metasploit Update: NTLM Relay Priv Esc, MCP Server Integration, Paperclip AI RCE Chain, and more",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-19-06-2026",
+        "date": "2026-06-19T17:08:23+00:00",
+        "source": "Rapid7"
+      },
+      {
+        "title": "Every fusion startup that has raised over $100M",
+        "link": "https://techcrunch.com/2026/06/19/every-fusion-startup-that-has-raised-over-100m/",
+        "date": "2026-06-19T16:50:58+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "RAA encryptor": [
+      {
+        "title": "The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes",
+        "link": "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
+        "date": "2026-06-20T00:03:07+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023",
+        "link": "https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html",
+        "date": "2026-06-18T19:42:48+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "The Gentlemen": [
+      {
+        "title": "The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes",
+        "link": "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
+        "date": "2026-06-20T00:03:07+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "DN": [
+      {
+        "title": "From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
+        "link": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+        "date": "2026-06-19T22:40:14+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "From Stars to Upvotes: The Fake Reputation Economy Behind a Crypto Clipboard Hijackers",
+        "link": "https://blog.checkpoint.com/research/from-stars-to-upvotes-the-fake-reputation-economy-behind-a-crypto-clipboard-hijackers/",
+        "date": "2026-06-17T13:11:44+00:00",
+        "source": "Check Point"
+      }
+    ],
+    "One": [
+      {
+        "title": "From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
+        "link": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+        "date": "2026-06-19T22:40:14+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution",
+        "link": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
+        "date": "2026-06-19T21:00:47+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone",
+        "link": "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html",
+        "date": "2026-06-19T12:06:09+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Try One of macOS 27’s Best Features Right Now",
+        "link": "https://www.wired.com/story/try-one-of-macos-27s-best-features-right-now-shortcuts-playground-agent/",
+        "date": "2026-06-19T10:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Introducing the Cloudflare One stack: agent-powered deployment",
+        "link": "https://blog.cloudflare.com/cloudflare-one-stack/",
+        "date": "2026-06-17T13:00:00+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "Rakhni": [
+      {
+        "title": "Aura’s impressive e-ink photo frame doesn’t even look digital",
+        "link": "https://techcrunch.com/2026/06/19/auras-impressive-e-ink-photo-frame-doesnt-even-look-digital/",
+        "date": "2026-06-19T21:00:34+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "RNS": [
+      {
+        "title": "CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices",
+        "link": "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html",
+        "date": "2026-06-19T19:30:21+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "CISA warns Fortinet users to secure devices after FortiBleed leak",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
+        "date": "2026-06-19T02:47:55-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Icarus": [
+      {
+        "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
+        "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
+        "date": "2026-06-19T18:31:04-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/",
+        "date": "2026-06-18T10:19:50-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Metasploit": [
+      {
+        "title": "Weekly Metasploit Update: NTLM Relay Priv Esc, MCP Server Integration, Paperclip AI RCE Chain, and more",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-19-06-2026",
+        "date": "2026-06-19T17:08:23+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "Fusion": [
+      {
+        "title": "Every fusion startup that has raised over $100M",
+        "link": "https://techcrunch.com/2026/06/19/every-fusion-startup-that-has-raised-over-100m/",
+        "date": "2026-06-19T16:50:58+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Shadow": [
+      {
+        "title": "Forget Data Leakage: Shadow AI's Real Threat Is Access Control",
+        "link": "https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html",
+        "date": "2026-06-19T16:00:00+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "AMBA": [
+      {
+        "title": "Billionaire Ambani wants AI in every call, app, and home",
+        "link": "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/",
+        "date": "2026-06-19T15:23:28+00:00",
+        "source": "TechCrunch"
+      }
+    ],
     "Bud": [
       {
         "title": "Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone",
@@ -31,148 +271,78 @@
         "link": "https://arstechnica.com/apple/2026/06/apple-patches-high-severity-eavesdropping-vulnerability-in-beats-studio-buds/",
         "date": "2026-06-18T19:41:35+00:00",
         "source": "Ars Technica"
-      },
+      }
+    ],
+    "IPA": [
       {
-        "title": "Apple fixes Beats Studio Buds flaw that let hackers spy on conversations",
-        "link": "https://www.bleepingcomputer.com/news/security/apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations/",
-        "date": "2026-06-18T08:23:58-04:00",
+        "title": "The Best iPad to Buy (and Some to Avoid) in 2026: Compare the Air, Pro, Mini",
+        "link": "https://www.wired.com/gallery/the-best-ipad/",
+        "date": "2026-06-19T12:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Mini": [
+      {
+        "title": "The Best iPad to Buy (and Some to Avoid) in 2026: Compare the Air, Pro, Mini",
+        "link": "https://www.wired.com/gallery/the-best-ipad/",
+        "date": "2026-06-19T12:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "SOLO": [
+      {
+        "title": "Gen Z Singles Are Trying to Make ‘Solomaxxing’ Aspirational",
+        "link": "https://www.wired.com/story/solomaxxing/",
+        "date": "2026-06-19T11:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Pump": [
+      {
+        "title": "Pump.Fun’s Bounties Platform Is a Black Hole of Circular Grifting",
+        "link": "https://www.wired.com/story/pumpfuns-bounties-platform-is-a-black-hole-of-circular-grifting/",
+        "date": "2026-06-19T10:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Defender": [
+      {
+        "title": "Webinar: How attackers bypass MFA and how defenders can respond",
+        "link": "https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/",
+        "date": "2026-06-19T08:12:20-04:00",
         "source": "BleepingComputer"
       }
     ],
-    "One": [
+    "Lv": [
       {
-        "title": "Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone",
-        "link": "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html",
-        "date": "2026-06-19T12:06:09+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "The smartphone era created an attention crisis — slow tech is fixing it",
-        "link": "https://techcrunch.com/2026/06/18/the-smartphone-era-created-an-attention-crisis-slowtech-is-fixing-it/",
-        "date": "2026-06-18T17:16:30+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "‘Queer Eye’ life coach Karamo Brown launches Kē, a wellness app featuring his AI digital clone",
-        "link": "https://techcrunch.com/2026/06/18/queer-eyes-life-coach-karamo-brown-launches-ke-a-wellness-app-featuring-his-ai-digital-clone/",
-        "date": "2026-06-18T16:55:04+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Introducing the Cloudflare One stack: agent-powered deployment",
-        "link": "https://blog.cloudflare.com/cloudflare-one-stack/",
-        "date": "2026-06-17T13:00:00+00:00",
-        "source": "Cloudflare"
+        "title": "Pseudoscientific Cancer ‘Treatment’ Involves Gassing Naked People in Plastic Bags With Bleach",
+        "link": "https://www.wired.com/story/pseudoscientific-cancer-treatment-involves-gassing-naked-people-in-plastic-bags-with-bleach/",
+        "date": "2026-06-19T07:00:00+00:00",
+        "source": "Wired"
       }
     ],
-    "PL": [
+    "SunCrypt": [
       {
-        "title": "Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone",
-        "link": "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html",
-        "date": "2026-06-19T12:06:09+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Apple patches high-severity eavesdropping vulnerability in Beats Studio Buds",
-        "link": "https://arstechnica.com/apple/2026/06/apple-patches-high-severity-eavesdropping-vulnerability-in-beats-studio-buds/",
-        "date": "2026-06-18T19:41:35+00:00",
-        "source": "Ars Technica"
-      },
-      {
-        "title": "Gentlemen ransomware uses multiple EDR killers to disable defenses",
-        "link": "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/",
-        "date": "2026-06-18T18:31:52-04:00",
+        "title": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/",
+        "date": "2026-06-19T06:39:58-04:00",
         "source": "BleepingComputer"
-      },
-      {
-        "title": "Apple opens up App Store to new competition in Brazil",
-        "link": "https://techcrunch.com/2026/06/18/apple-opens-up-app-store-to-new-competition-in-brazil/",
-        "date": "2026-06-18T15:48:08+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "What Successful Exposure Management Deployments Had in Common in 2026",
-        "link": "https://blog.checkpoint.com/hybrid-mesh/what-successful-exposure-management-deployments-had-in-common-in-2026/",
-        "date": "2026-06-18T12:00:06+00:00",
-        "source": "Check Point"
       }
     ],
-    "R": [
+    "NMoreira": [
       {
-        "title": "Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone",
-        "link": "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html",
-        "date": "2026-06-19T12:06:09+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Design Within Reach Promo Codes: 30% Off | June 2026",
-        "link": "https://www.wired.com/story/design-within-reach-promo-code/",
-        "date": "2026-06-19T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Chirp Discount Codes: Save Up to 67%",
-        "link": "https://www.wired.com/story/chirp-discount-code/",
-        "date": "2026-06-19T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Hulu Promo Codes & Discounts: 20% Off in June",
-        "link": "https://www.wired.com/story/hulu-promo-code/",
-        "date": "2026-06-19T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Whoop Promo Codes: 20% Off This June 2026",
-        "link": "https://www.wired.com/story/whoop-promo-code/",
-        "date": "2026-06-19T05:00:00+00:00",
-        "source": "Wired"
+        "title": "Expanding Our Footprint: Local Cloud Availability for Prisma AIRS in Japan",
+        "link": "https://www.paloaltonetworks.com/blog/2026/06/prisma-airs-launch-japan/",
+        "date": "2026-06-19T05:26:23+00:00",
+        "source": "Palo Alto Networks"
       }
     ],
-    "Ra": [
+    "PRISM": [
       {
-        "title": "Therabody Promo Codes: 15% Off June 2026",
-        "link": "https://www.wired.com/story/therabody-promo-code/",
-        "date": "2026-06-19T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Rover Promo Codes and Referral Deals for June 2026",
-        "link": "https://www.wired.com/story/rover-promo-code/",
-        "date": "2026-06-19T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Telegram ban in India sparks a rush to VPNs, rival apps",
-        "link": "https://techcrunch.com/2026/06/18/telegram-ban-in-india-sparks-a-rush-to-vpns-rival-apps/",
-        "date": "2026-06-19T01:01:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "How the Peter Thiel-Linked Dialog Club Secretly Ranks Its Members",
-        "link": "https://www.wired.com/story/how-peter-thiels-private-dialog-club-secretly-ranks-its-members/",
-        "date": "2026-06-18T22:12:45+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
-        "link": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
-        "date": "2026-06-18T21:20:13+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "RNS": [
-      {
-        "title": "CISA warns Fortinet users to secure devices after FortiBleed leak",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
-        "date": "2026-06-19T02:47:55-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Adversarial Exposure Validation Turns Security Visibility into Confident Prioritization",
-        "link": "https://thehackernews.com/2026/06/adversarial-exposure-validation-turns.html",
-        "date": "2026-06-17T20:28:00+05:30",
-        "source": "The Hacker News"
+        "title": "Expanding Our Footprint: Local Cloud Availability for Prisma AIRS in Japan",
+        "link": "https://www.paloaltonetworks.com/blog/2026/06/prisma-airs-launch-japan/",
+        "date": "2026-06-19T05:26:23+00:00",
+        "source": "Palo Alto Networks"
       }
     ],
     "Rush": [
@@ -189,12 +359,6 @@
         "link": "https://techcrunch.com/2026/06/18/telegram-ban-in-india-sparks-a-rush-to-vpns-rival-apps/",
         "date": "2026-06-19T01:01:00+00:00",
         "source": "TechCrunch"
-      },
-      {
-        "title": "Telegram admits it couldn't police exam-leak channels, India tells court",
-        "link": "https://www.bleepingcomputer.com/news/security/telegram-admits-it-couldnt-police-exam-leak-channels-india-tells-court/",
-        "date": "2026-06-18T08:18:49-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "CryLocker": [
@@ -211,12 +375,6 @@
         "source": "BleepingComputer"
       },
       {
-        "title": "Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments",
-        "link": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
-        "date": "2026-06-17T23:44:24+05:30",
-        "source": "The Hacker News"
-      },
-      {
         "title": "From Stars to Upvotes: The Fake Reputation Economy Behind a Crypto Clipboard Hijackers",
         "link": "https://blog.checkpoint.com/research/from-stars-to-upvotes-the-fake-reputation-economy-behind-a-crypto-clipboard-hijackers/",
         "date": "2026-06-17T13:11:44+00:00",
@@ -229,22 +387,6 @@
         "link": "https://arstechnica.com/security/2026/06/microsoft-spots-new-self-propagating-malware-for-stealing-cryptocurrency/",
         "date": "2026-06-18T23:28:52+00:00",
         "source": "Ars Technica"
-      }
-    ],
-    "REvil": [
-      {
-        "title": "Prime Day Early Deals 2026: Breville and Ninja Espresso Maker Deals",
-        "link": "https://www.wired.com/story/early-espresso-machine-deals-prime-day-2026/",
-        "date": "2026-06-18T23:03:39+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Ank": [
-      {
-        "title": "How the Peter Thiel-Linked Dialog Club Secretly Ranks Its Members",
-        "link": "https://www.wired.com/story/how-peter-thiels-private-dialog-club-secretly-ranks-its-members/",
-        "date": "2026-06-18T22:12:45+00:00",
-        "source": "Wired"
       }
     ],
     "DDE": [
@@ -299,42 +441,12 @@
         "source": "DarkReading"
       }
     ],
-    "RAA encryptor": [
-      {
-        "title": "INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023",
-        "link": "https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html",
-        "date": "2026-06-18T19:42:48+05:30",
-        "source": "The Hacker News"
-      }
-    ],
     "RIP (Phoenix) Ransomware": [
       {
         "title": "The Scripts on Your Checkout Page Are Now a PCI DSS Problem",
         "link": "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html",
         "date": "2026-06-18T19:28:39+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "Leak confirms OpenAI is testing a ChatGPT for Science subscription",
-        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-testing-a-chatgpt-for-science-subscription/",
-        "date": "2026-06-17T21:30:08-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Dragonforce": [
-      {
-        "title": "DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic",
-        "link": "https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html",
-        "date": "2026-06-18T19:00:07+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Sport": [
-      {
-        "title": "Texas government data breach allowed hackers to steal 3 million driver’s licenses and passports",
-        "link": "https://techcrunch.com/2026/06/18/texas-government-data-breach-allowed-hackers-to-steal-3-million-drivers-licenses-and-passports/",
-        "date": "2026-06-18T17:12:53+00:00",
-        "source": "TechCrunch"
       }
     ],
     "Conti": [
@@ -343,14 +455,6 @@
         "link": "https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise",
         "date": "2026-06-18T16:49:04+00:00",
         "source": "DarkReading"
-      }
-    ],
-    "Icarus": [
-      {
-        "title": "Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/",
-        "date": "2026-06-18T10:19:50-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "Indrik Spider": [
@@ -367,50 +471,6 @@
         "link": "https://www.bleepingcomputer.com/news/security/law-enforcement-nukes-socgholish-malware-from-nearly-15-000-sites/",
         "date": "2026-06-18T09:25:47-04:00",
         "source": "BleepingComputer"
-      }
-    ],
-    "Hacked": [
-      {
-        "title": "ShapedPlugin update flow hacked to infect WordPress sites",
-        "link": "https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/",
-        "date": "2026-06-18T08:55:36-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "DN": [
-      {
-        "title": "Telegram admits it couldn't police exam-leak channels, India tells court",
-        "link": "https://www.bleepingcomputer.com/news/security/telegram-admits-it-couldnt-police-exam-leak-channels-india-tells-court/",
-        "date": "2026-06-18T08:18:49-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments",
-        "link": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
-        "date": "2026-06-17T23:44:24+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "From Stars to Upvotes: The Fake Reputation Economy Behind a Crypto Clipboard Hijackers",
-        "link": "https://blog.checkpoint.com/research/from-stars-to-upvotes-the-fake-reputation-economy-behind-a-crypto-clipboard-hijackers/",
-        "date": "2026-06-17T13:11:44+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "Defender": [
-      {
-        "title": "Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development",
-        "link": "https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html",
-        "date": "2026-06-17T23:06:28+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Kee": [
-      {
-        "title": "Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline",
-        "link": "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
-        "date": "2026-06-17T21:30:56+05:30",
-        "source": "The Hacker News"
       }
     ],
     "Patchwork": [
@@ -451,62 +511,6 @@
         "link": "https://www.darkreading.com/vulnerabilities-threats/security-community-slams-us-ban-on-exporting-mythos-fable",
         "date": "2026-06-16T22:00:06+00:00",
         "source": "DarkReading"
-      }
-    ],
-    "AnDROid": [
-      {
-        "title": "Rokarolla Android Trojan Levels Up to Full Device Control, Persistence",
-        "link": "https://www.darkreading.com/endpoint-security/rokarolla-android-trojan",
-        "date": "2026-06-16T17:32:32+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Karo": [
-      {
-        "title": "Rokarolla Android Trojan Levels Up to Full Device Control, Persistence",
-        "link": "https://www.darkreading.com/endpoint-security/rokarolla-android-trojan",
-        "date": "2026-06-16T17:32:32+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Trojan": [
-      {
-        "title": "Rokarolla Android Trojan Levels Up to Full Device Control, Persistence",
-        "link": "https://www.darkreading.com/endpoint-security/rokarolla-android-trojan",
-        "date": "2026-06-16T17:32:32+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Lick": [
-      {
-        "title": "'Lorem Ipsum' Malware Pivots to ClickFix Delivery",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/lorem-ipsum-malware-clickfix-delivery",
-        "date": "2026-06-16T15:10:48+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Iron": [
-      {
-        "title": "Check Point and Illumio Expand Partnership to Secure Hybrid Environments",
-        "link": "https://blog.checkpoint.com/hybrid-mesh/check-point-and-illumio-expand-partnership-to-secure-hybrid-environments/",
-        "date": "2026-06-16T15:00:00+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "NMoreira": [
-      {
-        "title": "Check Point and Illumio Expand Partnership to Secure Hybrid Environments",
-        "link": "https://blog.checkpoint.com/hybrid-mesh/check-point-and-illumio-expand-partnership-to-secure-hybrid-environments/",
-        "date": "2026-06-16T15:00:00+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "Viro": [
-      {
-        "title": "Check Point and Illumio Expand Partnership to Secure Hybrid Environments",
-        "link": "https://blog.checkpoint.com/hybrid-mesh/check-point-and-illumio-expand-partnership-to-secure-hybrid-environments/",
-        "date": "2026-06-16T15:00:00+00:00",
-        "source": "Check Point"
       }
     ]
   }

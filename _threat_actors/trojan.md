@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Rokarolla Android Trojan Levels Up to Full Device Control, Persistence](https://www.darkreading.com/endpoint-security/rokarolla-android-trojan)
-  DarkReading - 2026-06-16T
-

@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Check Point and Illumio Expand Partnership to Secure Hybrid Environments](https://blog.checkpoint.com/hybrid-mesh/check-point-and-illumio-expand-partnership-to-secure-hybrid-environments/)
-  Check Point - 2026-06-16T
-

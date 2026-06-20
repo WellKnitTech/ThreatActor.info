@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Expanding Our Footprint: Local Cloud Availability for Prisma AIRS in Japan](https://www.paloaltonetworks.com/blog/2026/06/prisma-airs-launch-japan/)
+  Palo Alto Networks - 2026-06-19T
+

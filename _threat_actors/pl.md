@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone](https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html)
-  The Hacker News - 2026-06-19T
-- [Apple patches high-severity eavesdropping vulnerability in Beats Studio Buds](https://arstechnica.com/apple/2026/06/apple-patches-high-severity-eavesdropping-vulnerability-in-beats-studio-buds/)
-  Ars Technica - 2026-06-18T
-- [Gentlemen ransomware uses multiple EDR killers to disable defenses](https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/)
-  BleepingComputer - 2026-06-18T
-- [Apple opens up App Store to new competition in Brazil](https://techcrunch.com/2026/06/18/apple-opens-up-app-store-to-new-competition-in-brazil/)
-  TechCrunch - 2026-06-18T
-- [What Successful Exposure Management Deployments Had in Common in 2026](https://blog.checkpoint.com/hybrid-mesh/what-successful-exposure-management-deployments-had-in-common-in-2026/)
-  Check Point - 2026-06-18T
+- [He made your free video player run smoothly. Now he’s doing that for robots.](https://techcrunch.com/2026/06/19/he-made-your-free-video-player-run-smoothly-now-hes-doing-that-for-robots/)
+  TechCrunch - 2026-06-20T
+- [Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain](https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html)
+  The Hacker News - 2026-06-20T
+- [Weekly Metasploit Update: NTLM Relay Priv Esc, MCP Server Integration, Paperclip AI RCE Chain, and more](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-19-06-2026)
+  Rapid7 - 2026-06-19T
+- [Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin](https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/)
+  BleepingComputer - 2026-06-19T
+- [The CEO of Allbirds’ new AI biz has a plan, but no team](https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/)
+  TechCrunch - 2026-06-19T
 

@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Therabody Promo Codes: 15% Off June 2026](https://www.wired.com/story/therabody-promo-code/)
-  Wired - 2026-06-19T
-- [Rover Promo Codes and Referral Deals for June 2026](https://www.wired.com/story/rover-promo-code/)
-  Wired - 2026-06-19T
-- [Telegram ban in India sparks a rush to VPNs, rival apps](https://techcrunch.com/2026/06/18/telegram-ban-in-india-sparks-a-rush-to-vpns-rival-apps/)
+- [The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes](https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html)
+  The Hacker News - 2026-06-20T
+- [Aura’s impressive e-ink photo frame doesn’t even look digital](https://techcrunch.com/2026/06/19/auras-impressive-e-ink-photo-frame-doesnt-even-look-digital/)
   TechCrunch - 2026-06-19T
-- [How the Peter Thiel-Linked Dialog Club Secretly Ranks Its Members](https://www.wired.com/story/how-peter-thiels-private-dialog-club-secretly-ranks-its-members/)
-  Wired - 2026-06-18T
-- [AI inference startup Baseten reportedly raising $1.5B months after its last mega-round](https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/)
-  TechCrunch - 2026-06-18T
+- [Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites](https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html)
+  The Hacker News - 2026-06-19T
+- [Weekly Metasploit Update: NTLM Relay Priv Esc, MCP Server Integration, Paperclip AI RCE Chain, and more](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-19-06-2026)
+  Rapid7 - 2026-06-19T
+- [Every fusion startup that has raised over $100M](https://techcrunch.com/2026/06/19/every-fusion-startup-that-has-raised-over-100m/)
+  TechCrunch - 2026-06-19T
 
