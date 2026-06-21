@@ -43,3 +43,9 @@ Kaspersky Lab and Seculert worked together to sinkhole the Madi Command & Contro
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Hackers Claim to Leak Stolen Madison Square Garden Data](https://www.wired.com/story/security-news-this-week-hackers-claim-to-leak-stolen-madison-square-garden-data/)
+  Wired - 2026-06-20T
+

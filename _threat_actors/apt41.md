@@ -109,8 +109,6 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [OpenAI is bringing on some big guns in the lead-up to its IPO ](https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/)
-  TechCrunch - 2026-06-18T
 - [Elastic named a Leader in the IDC MarketScape: Worldwide SIEM 2026 Vendor Assessment](https://www.elastic.co/blog/elastic-leader-idc-marketscape-worldwide-siem-2026)
   Elastic - 2026-06-17T
 

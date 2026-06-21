@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys](https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html)
+  The Hacker News - 2026-06-20T
+- [New Prinz Eugen ransomware prioritizes recent files for encryption](https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/)
+  BleepingComputer - 2026-06-20T
+- [Microsoft links Mastra AI supply chain attack to North Korean hackers](https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/)
+  BleepingComputer - 2026-06-20T
+- [Scientists Invent a Way to Brew Espresso With Ultrasonic Waves—No Hot Water Required](https://www.wired.com/story/scientists-brew-espresso-with-ultrasonic-waves/)
+  Wired - 2026-06-20T
 - [The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes](https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html)
   The Hacker News - 2026-06-20T
-- [Aura’s impressive e-ink photo frame doesn’t even look digital](https://techcrunch.com/2026/06/19/auras-impressive-e-ink-photo-frame-doesnt-even-look-digital/)
-  TechCrunch - 2026-06-19T
-- [Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites](https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html)
-  The Hacker News - 2026-06-19T
-- [Weekly Metasploit Update: NTLM Relay Priv Esc, MCP Server Integration, Paperclip AI RCE Chain, and more](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-19-06-2026)
-  Rapid7 - 2026-06-19T
-- [Every fusion startup that has raised over $100M](https://techcrunch.com/2026/06/19/every-fusion-startup-that-has-raised-over-100m/)
-  TechCrunch - 2026-06-19T
 
