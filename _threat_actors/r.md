@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’](https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/)
-  TechCrunch - 2026-06-20T
-- [In the Weights is your new AI-centric vanity search](https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/)
-  TechCrunch - 2026-06-20T
-- [Founders Fund’s outlier bet on humanely killed fish](https://techcrunch.com/2026/06/20/founders-funds-outlier-bet-on-humanely-killed-fish/)
-  TechCrunch - 2026-06-20T
-- [Nobel laureate John Jumper is leaving DeepMind for rival Anthropic](https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/)
-  TechCrunch - 2026-06-20T
-- [Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys](https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html)
-  The Hacker News - 2026-06-20T
+- [INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific](https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html)
+  The Hacker News - 2026-06-22T
+- [Ethan Thornton is trying to do everything all at once](https://techcrunch.com/2026/06/21/ethan-thornton-is-trying-to-do-everything-all-at-once/)
+  TechCrunch - 2026-06-22T
+- [Whoop Promo Codes: 20% Off This June 2026](https://www.wired.com/story/whoop-promo-code/)
+  Wired - 2026-06-22T
+- [Squarespace Promo Codes: 20% Off in June 2026](https://www.wired.com/story/squarespace-promo-code/)
+  Wired - 2026-06-22T
+- [Dyson Promo Codes: 25% Off in June 2026](https://www.wired.com/story/dyson-cordless-vacuum-promo-code/)
+  Wired - 2026-06-22T
 

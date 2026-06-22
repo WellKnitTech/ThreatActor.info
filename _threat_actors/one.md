@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27](https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/)
+  TechCrunch - 2026-06-21T
+- [Buying a Used iPhone Makes More Sense Than Ever](https://www.wired.com/story/buying-a-used-iphone-makes-more-sense-than-ever/)
+  Wired - 2026-06-21T
 - [From PGP to Mythos: a brief history of export controls that didn’t stop anyone](https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/)
   TechCrunch - 2026-06-19T
 - [AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution](https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html)
   The Hacker News - 2026-06-19T
 - [Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone](https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html)
   The Hacker News - 2026-06-19T
-- [Try One of macOS 27’s Best Features Right Now](https://www.wired.com/story/try-one-of-macos-27s-best-features-right-now-shortcuts-playground-agent/)
-  Wired - 2026-06-19T
-- [Introducing the Cloudflare One stack: agent-powered deployment](https://blog.cloudflare.com/cloudflare-one-stack/)
-  Cloudflare - 2026-06-17T
 

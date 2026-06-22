@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [If You’re Searching for a New Skillet, Consider Stainless Steel](https://www.wired.com/story/stainless-steel-skillets-are-great/)
+  Wired - 2026-06-21T
+

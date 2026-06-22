@@ -35,6 +35,4 @@ Ransomware Possible affiliation with Pony
 
 - [The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes](https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html)
   The Hacker News - 2026-06-20T
-- [INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023](https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html)
-  The Hacker News - 2026-06-18T
 

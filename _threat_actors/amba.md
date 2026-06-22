@@ -30,9 +30,3 @@ Ransomware Websites only amba@riseup.net
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Billionaire Ambani wants AI in every call, app, and home](https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/)
-  TechCrunch - 2026-06-19T
-

@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Scientists Invent a Way to Brew Espresso With Ultrasonic Waves—No Hot Water Required](https://www.wired.com/story/scientists-brew-espresso-with-ultrasonic-waves/)
-  Wired - 2026-06-20T
-

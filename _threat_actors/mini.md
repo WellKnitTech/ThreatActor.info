@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The Best iPad to Buy (and Some to Avoid) in 2026: Compare the Air, Pro, Mini](https://www.wired.com/gallery/the-best-ipad/)
-  Wired - 2026-06-19T
+- [When the Trump administration cracks down on Anthropic, who benefits?](https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/)
+  TechCrunch - 2026-06-21T
 
