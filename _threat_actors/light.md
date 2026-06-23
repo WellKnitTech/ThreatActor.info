@@ -35,4 +35,6 @@ ransomware
 
 - [Microsoft discovers new lightweight backdoor that steals cryptocurrency](https://arstechnica.com/security/2026/06/microsoft-spots-new-self-propagating-malware-for-stealing-cryptocurrency/)
   Ars Technica - 2026-06-18T
+- [Novo Nordisk Breach Highlights Software Development Pipeline Risk](https://www.darkreading.com/cyber-risk/novo-nordisk-breach-exposes-dev-pipeline-risk)
+  DarkReading - 2026-06-18T
 

@@ -30,9 +30,3 @@ Slam is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Security Community Slams US Ban on Exporting Mythos, Fable](https://www.darkreading.com/vulnerabilities-threats/security-community-slams-us-ban-on-exporting-mythos-fable)
-  DarkReading - 2026-06-16T
-

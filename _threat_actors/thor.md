@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Ethan Thornton is trying to do everything all at once](https://techcrunch.com/2026/06/21/ethan-thornton-is-trying-to-do-everything-all-at-once/)
-  TechCrunch - 2026-06-22T
-

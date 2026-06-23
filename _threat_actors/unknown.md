@@ -30,9 +30,3 @@ Unknown is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [AI Red Teaming Makes the Unknowns Known](https://blog.checkpoint.com/ai-security/ai-red-teaming-makes-the-unknowns-known/)
-  Check Point - 2026-06-17T
-

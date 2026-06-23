@@ -44,8 +44,8 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [If You’re Searching for a New Skillet, Consider Stainless Steel](https://www.wired.com/story/stainless-steel-skillets-are-great/)
-  Wired - 2026-06-21T
-- [In the Weights is your new AI-centric vanity search](https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/)
-  TechCrunch - 2026-06-20T
+- [Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants](https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html)
+  The Hacker News - 2026-06-22T
+- [A Glimpse into the “Search Your Target” Market for Stolen Credentials](https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/)
+  BleepingComputer - 2026-06-22T
 

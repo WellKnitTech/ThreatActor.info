@@ -33,8 +33,8 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone](https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html)
-  The Hacker News - 2026-06-19T
+- [Sony Coupons: 45% Off Sony Headphones, WF-1000XM6 Earbuds, and Sony Cameras for June](https://www.wired.com/story/sony-promo-code/)
+  Wired - 2026-06-23T
 - [Apple patches high-severity eavesdropping vulnerability in Beats Studio Buds](https://arstechnica.com/apple/2026/06/apple-patches-high-severity-eavesdropping-vulnerability-in-beats-studio-buds/)
   Ars Technica - 2026-06-18T
 

@@ -33,6 +33,6 @@ Core ransomware surfaced in early 2025 as a new variant within the broader Makop
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [TechCrunch Mobility: A new robotaxi scorecard shows China’s dominance](https://techcrunch.com/2026/06/21/techcrunch-mobility-a-new-robotaxi-scorecard-shows-chinas-dominance/)
-  TechCrunch - 2026-06-21T
+- [Securing AI Agent Behavior with Amazon Bedrock AgentCore and CheckPoint AI Security](https://blog.checkpoint.com/ai-security/securing-ai-agent-behavior-with-amazon-bedrock-agentcore-and-checkpoint-ai-security/)
+  Check Point - 2026-06-18T
 

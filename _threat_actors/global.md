@@ -30,3 +30,9 @@ Not a RaaS yet.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration](https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/)
+  Unit 42 - 2026-06-22T
+

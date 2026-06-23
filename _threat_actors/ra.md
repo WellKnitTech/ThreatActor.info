@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific](https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html)
-  The Hacker News - 2026-06-22T
-- [Ubisoft co-founder Claude Guillemot dies in plane crash](https://techcrunch.com/2026/06/21/ubisoft-co-founder-claude-guillemot-dies-in-plane-crash/)
-  TechCrunch - 2026-06-21T
-- [When the Trump administration cracks down on Anthropic, who benefits?](https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/)
-  TechCrunch - 2026-06-21T
-- [Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27](https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/)
-  TechCrunch - 2026-06-21T
-- [Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys](https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html)
-  The Hacker News - 2026-06-20T
+- [Sony Coupons: 45% Off Sony Headphones, WF-1000XM6 Earbuds, and Sony Cameras for June](https://www.wired.com/story/sony-promo-code/)
+  Wired - 2026-06-23T
+- [Paramount+ Coupon Codes and Deals for June 2026](https://www.wired.com/story/paramount-plus-coupon-code/)
+  Wired - 2026-06-23T
+- [Tesla pushes back on Autopilot narrative after fatal Texas crash](https://techcrunch.com/2026/06/22/tesla-pushes-back-on-autopilot-narrative-after-fatal-texas-crash/)
+  TechCrunch - 2026-06-22T
+- [A Source of Mysterious Repeating Radio Signals From Space Has Been Identified](https://www.wired.com/story/a-source-of-mysterious-repeating-radio-signals-from-space-has-been-identified/)
+  Wired - 2026-06-22T
+- [The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration](https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/)
+  Unit 42 - 2026-06-22T
 
