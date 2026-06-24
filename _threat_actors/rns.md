@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific](https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html)
-  The Hacker News - 2026-06-22T
+- [GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns](https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html)
+  The Hacker News - 2026-06-23T
+- [Ribbie turns real-time baseball stats into arcade-like, pixel-art broadcasts](https://techcrunch.com/2026/06/23/ribbie-turns-real-time-baseball-stats-into-arcade-like-pixel-art-broadcasts/)
+  TechCrunch - 2026-06-23T
 

@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws](https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html)
-  The Hacker News - 2026-06-23T
-- [Top Newegg Promo Codes and Coupons for June 2026](https://www.wired.com/story/newegg-promo-code/)
-  Wired - 2026-06-23T
-- [Sony Coupons: 45% Off Sony Headphones, WF-1000XM6 Earbuds, and Sony Cameras for June](https://www.wired.com/story/sony-promo-code/)
-  Wired - 2026-06-23T
-- [30% Off Canon Promo Codes | June 2026](https://www.wired.com/story/canon-promo-code/)
-  Wired - 2026-06-23T
-- [Best Hotels.com Coupon Codes for June 2026](https://www.wired.com/story/hotels-com-coupon/)
-  Wired - 2026-06-23T
+- [Hostinger Promo Code: 79% Off for June 2026](https://www.wired.com/story/hostinger-coupon-code/)
+  Wired - 2026-06-24T
+- [French Startup Uses Special Polymers to Better Help Nerves Heal](https://www.wired.com/story/startup-using-polymers-and-blue-light-to-help-tissue-heal/)
+  Wired - 2026-06-24T
+- [Peacock Promo Codes: 40% Off June 2026](https://www.wired.com/story/peacock-promo-code/)
+  Wired - 2026-06-24T
+- [Booking.com Promo Codes: 20% Off | June 2026](https://www.wired.com/story/booking-com-promo-code/)
+  Wired - 2026-06-24T
+- [Best Dyson Deals for Prime Day: Vacuums, Hair Tools, and More](https://www.wired.com/story/prime-day-dyson-deals-2026/)
+  Wired - 2026-06-24T
 

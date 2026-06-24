@@ -41,9 +41,3 @@ Dropping Elephant (also known as “Chinastrats” and “Patchwork“) is a rel
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Malware à la Mode: Tracking Dropping Elephant Tradecraft Through a China-Themed Loader Chain](https://www.rapid7.com/blog/post/tr-malware-tracking-dropping-elephant-tradecraft-china-themed-loader-chain)
-  Rapid7 - 2026-06-17T
-

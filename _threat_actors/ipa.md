@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [12 Best Prime Day Apple Deals: iPad, Cases, MacBooks, and More](https://www.wired.com/story/best-prime-day-apple-deals-2026/)
+  Wired - 2026-06-23T
+

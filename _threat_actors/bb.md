@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Ribbie turns real-time baseball stats into arcade-like, pixel-art broadcasts](https://techcrunch.com/2026/06/23/ribbie-turns-real-time-baseball-stats-into-arcade-like-pixel-art-broadcasts/)
+  TechCrunch - 2026-06-23T
+

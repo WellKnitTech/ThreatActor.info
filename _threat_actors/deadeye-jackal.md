@@ -46,6 +46,4 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 
 - [Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants](https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html)
   The Hacker News - 2026-06-22T
-- [A Glimpse into the “Search Your Target” Market for Stolen Credentials](https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/)
-  BleepingComputer - 2026-06-22T
 

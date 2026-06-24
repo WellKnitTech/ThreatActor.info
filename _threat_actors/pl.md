@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The running list: major tech layoffs in 2026 where employers cited AI](https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/)
-  TechCrunch - 2026-06-23T
-- [ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack](https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html)
-  The Hacker News - 2026-06-22T
-- [Meta Pauses Employee-Tracking Program Following Internal Data Leak](https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/)
-  Wired - 2026-06-22T
-- [Microsoft and Chevron plan one of the largest gas-powered data center projects in US](https://techcrunch.com/2026/06/22/microsoft-and-chevron-plan-one-of-the-largest-gas-powered-data-center-projects-in-us/)
-  TechCrunch - 2026-06-22T
-- [Meta Exposed Data Internally From Its Controversial Employee-Tracking Program](https://www.wired.com/story/meta-accidentally-let-employees-access-each-others-keystroke-data/)
-  Wired - 2026-06-22T
+- [OpenClaw’s Skill Marketplace and the Emerging AI Supply Chain Threat](https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/)
+  Unit 42 - 2026-06-23T
+- [Best Prime Day Deals on Yoto Players and Accessories](https://www.wired.com/story/yoto-player-prime-day-deal-2026/)
+  Wired - 2026-06-23T
+- [Best Prime Day Streaming Deals I’ve Found (2026): HBO, Paramount Plus](https://www.wired.com/story/best-prime-day-streaming-deals-2026/)
+  Wired - 2026-06-23T
+- [12 Best Prime Day Apple Deals: iPad, Cases, MacBooks, and More](https://www.wired.com/story/best-prime-day-apple-deals-2026/)
+  Wired - 2026-06-23T
+- [The Best Apple Watch Is 30 Percent off Right Now (2026)](https://www.wired.com/story/apple-watch-series-11-deal-apd-2026/)
+  Wired - 2026-06-23T
 

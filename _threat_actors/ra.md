@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Sony Coupons: 45% Off Sony Headphones, WF-1000XM6 Earbuds, and Sony Cameras for June](https://www.wired.com/story/sony-promo-code/)
-  Wired - 2026-06-23T
-- [Paramount+ Coupon Codes and Deals for June 2026](https://www.wired.com/story/paramount-plus-coupon-code/)
-  Wired - 2026-06-23T
-- [Tesla pushes back on Autopilot narrative after fatal Texas crash](https://techcrunch.com/2026/06/22/tesla-pushes-back-on-autopilot-narrative-after-fatal-texas-crash/)
-  TechCrunch - 2026-06-22T
-- [A Source of Mysterious Repeating Radio Signals From Space Has Been Identified](https://www.wired.com/story/a-source-of-mysterious-repeating-radio-signals-from-space-has-been-identified/)
-  Wired - 2026-06-22T
-- [The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration](https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/)
-  Unit 42 - 2026-06-22T
+- [Walmart-backed Flipkart expands quick-commerce push as Amazon ramps up in India](https://techcrunch.com/2026/06/23/walmart-backed-flipkart-expands-quick-commerce-push-as-amazon-ramps-up-in-india/)
+  TechCrunch - 2026-06-24T
+- [FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation](https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html)
+  The Hacker News - 2026-06-23T
+- [New Executive Order Accelerates Post-Quantum Readiness Amid the Cryptographic Reset](https://www.paloaltonetworks.com/blog/2026/06/new-executive-order-accelerates-post-quantum-readiness-amid-the-cryptographic-reset/)
+  Palo Alto Networks - 2026-06-23T
+- [White House drastically shortens deadline for dropping quantum-vulnerable crypto](https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto/)
+  Ars Technica - 2026-06-23T
+- [Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration](https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html)
+  The Hacker News - 2026-06-23T
 

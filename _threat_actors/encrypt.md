@@ -35,6 +35,4 @@ Ransomware
 
 - [Following user outcry, AMD reinstates memory encryption in consumer CPUs](https://arstechnica.com/security/2026/06/following-user-outcry-amd-reinstates-memory-encryption-in-consumer-cpus/)
   Ars Technica - 2026-06-22T
-- [New Prinz Eugen ransomware prioritizes recent files for encryption](https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/)
-  BleepingComputer - 2026-06-20T
 

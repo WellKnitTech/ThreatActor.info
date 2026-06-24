@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Sony Coupons: 45% Off Sony Headphones, WF-1000XM6 Earbuds, and Sony Cameras for June](https://www.wired.com/story/sony-promo-code/)
+- [117 Prime Day Deals on Gear We’ve Tested and Would Spend Our Own Money On](https://www.wired.com/story/amazon-prime-day-absolute-best-deals/)
   Wired - 2026-06-23T
-- [Microsoft and Chevron plan one of the largest gas-powered data center projects in US](https://techcrunch.com/2026/06/22/microsoft-and-chevron-plan-one-of-the-largest-gas-powered-data-center-projects-in-us/)
-  TechCrunch - 2026-06-22T
-- [A new unpatchable flaw in Apple chips opens the door to an iPhone jailbreak ](https://techcrunch.com/2026/06/22/a-new-unpatchable-flaw-in-apple-chips-opens-the-door-to-an-iphone-jailbreak/)
-  TechCrunch - 2026-06-22T
-- [AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution](https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html)
-  The Hacker News - 2026-06-19T
-- [Introducing the Cloudflare One stack: agent-powered deployment](https://blog.cloudflare.com/cloudflare-one-stack/)
-  Cloudflare - 2026-06-17T
+- [The post-quantum EO is an important milestone. Now it’s time to get to work](https://blog.cloudflare.com/post-quantum-eo-2026/)
+  Cloudflare - 2026-06-23T
+- [Anthropic’s Claude Tag is learning your company, one Slack message at a time](https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/)
+  TechCrunch - 2026-06-23T
+- [Built to Last: What Stonehenge Teaches us About IT Architecture & Cyber Resilience](https://www.paloaltonetworks.com/blog/2026/06/built-to-last-what-stonehenge-teaches-us-about-it-architecture-cyber-resilience/)
+  Palo Alto Networks - 2026-06-23T
+- [He Thought He Was Secure; His Phone Number Got Stolen Anyway](https://www.darkreading.com/cyber-risk/how-a-sim-swap-attack-led-to-a-near-account-takeover)
+  DarkReading - 2026-06-22T
 

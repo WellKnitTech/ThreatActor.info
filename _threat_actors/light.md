@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [SocGholish Takedown Highlights Malicious TDS Threats](https://www.darkreading.com/cyber-risk/socgholish-takedown-malicious-tds-threats)
+  DarkReading - 2026-06-23T
 - [Microsoft discovers new lightweight backdoor that steals cryptocurrency](https://arstechnica.com/security/2026/06/microsoft-spots-new-self-propagating-malware-for-stealing-cryptocurrency/)
   Ars Technica - 2026-06-18T
 - [Novo Nordisk Breach Highlights Software Development Pipeline Risk](https://www.darkreading.com/cyber-risk/novo-nordisk-breach-exposes-dev-pipeline-risk)

@@ -33,6 +33,6 @@ Icarus is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Klue OAuth breach victim list grows as Icarus hackers claim attack](https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/)
-  BleepingComputer - 2026-06-19T
+- [Scope of Salesforce Attacks Expands as Icarus Leaks Data](https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data)
+  DarkReading - 2026-06-23T
 

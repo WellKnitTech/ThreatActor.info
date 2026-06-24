@@ -33,14 +33,14 @@ Ransomware Identifies victim locations w/Google Maps API
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [New Executive Order Accelerates Post-Quantum Readiness Amid the Cryptographic Reset](https://www.paloaltonetworks.com/blog/2026/06/new-executive-order-accelerates-post-quantum-readiness-amid-the-cryptographic-reset/)
+  Palo Alto Networks - 2026-06-23T
+- [White House drastically shortens deadline for dropping quantum-vulnerable crypto](https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto/)
+  Ars Technica - 2026-06-23T
+- [Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration](https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html)
+  The Hacker News - 2026-06-23T
 - [Following user outcry, AMD reinstates memory encryption in consumer CPUs](https://arstechnica.com/security/2026/06/following-user-outcry-amd-reinstates-memory-encryption-in-consumer-cpus/)
   Ars Technica - 2026-06-22T
 - [JaredFromSubway MEV bot hacked in $15 million crypto theft](https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/)
   BleepingComputer - 2026-06-22T
-- [Crypto Heist Fueled by Elaborate Fake Reputation-Boosting Campaign](https://www.darkreading.com/cyberattacks-data-breaches/crypto-heist-fake-reputation-boosting-campaign)
-  DarkReading - 2026-06-22T
-- [New Prinz Eugen ransomware prioritizes recent files for encryption](https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/)
-  BleepingComputer - 2026-06-20T
-- [Microsoft discovers new lightweight backdoor that steals cryptocurrency](https://arstechnica.com/security/2026/06/microsoft-spots-new-self-propagating-malware-for-stealing-cryptocurrency/)
-  Ars Technica - 2026-06-18T
 

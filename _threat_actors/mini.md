@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [The UK Just Lost Its Sixth Prime Minister of the Decade](https://www.wired.com/story/uk-loses-its-sixth-prime-minister-keir-starmer/)
-  Wired - 2026-06-22T
-
