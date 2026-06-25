@@ -41,6 +41,6 @@ Ransomware Identifies victim locations w/Google Maps API
   The Hacker News - 2026-06-23T
 - [Following user outcry, AMD reinstates memory encryption in consumer CPUs](https://arstechnica.com/security/2026/06/following-user-outcry-amd-reinstates-memory-encryption-in-consumer-cpus/)
   Ars Technica - 2026-06-22T
-- [JaredFromSubway MEV bot hacked in $15 million crypto theft](https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/)
-  BleepingComputer - 2026-06-22T
+- [Crypto Heist Fueled by Elaborate Fake Reputation-Boosting Campaign](https://www.darkreading.com/cyberattacks-data-breaches/crypto-heist-fake-reputation-boosting-campaign)
+  DarkReading - 2026-06-22T
 

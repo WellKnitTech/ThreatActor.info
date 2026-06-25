@@ -33,6 +33,6 @@ Core ransomware surfaced in early 2025 as a new variant within the broader Makop
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Securing AI Agent Behavior with Amazon Bedrock AgentCore and CheckPoint AI Security](https://blog.checkpoint.com/ai-security/securing-ai-agent-behavior-with-amazon-bedrock-agentcore-and-checkpoint-ai-security/)
+- [Securing AI Agent Behavior with Amazon Bedrock AgentCore and Check Point AI Security](https://blog.checkpoint.com/ai-security/securing-ai-agent-behavior-with-amazon-bedrock-agentcore-and-checkpoint-ai-security/)
   Check Point - 2026-06-23T
 

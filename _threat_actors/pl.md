@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [OpenClaw’s Skill Marketplace and the Emerging AI Supply Chain Threat](https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/)
-  Unit 42 - 2026-06-23T
-- [Best Prime Day Deals on Yoto Players and Accessories](https://www.wired.com/story/yoto-player-prime-day-deal-2026/)
-  Wired - 2026-06-23T
-- [Best Prime Day Streaming Deals I’ve Found (2026): HBO, Paramount Plus](https://www.wired.com/story/best-prime-day-streaming-deals-2026/)
-  Wired - 2026-06-23T
-- [12 Best Prime Day Apple Deals: iPad, Cases, MacBooks, and More](https://www.wired.com/story/best-prime-day-apple-deals-2026/)
-  Wired - 2026-06-23T
-- [The Best Apple Watch Is 30 Percent off Right Now (2026)](https://www.wired.com/story/apple-watch-series-11-deal-apd-2026/)
-  Wired - 2026-06-23T
+- [Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access](https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html)
+  The Hacker News - 2026-06-25T
+- [NordVPN Coupons: 75% Off, Plus 3 Months Free in June 2026](https://www.wired.com/story/nordvpn-coupon/)
+  Wired - 2026-06-25T
+- [CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited](https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html)
+  The Hacker News - 2026-06-24T
+- [Cerebras stock plunges after earnings as CEO says margin outlook was misunderstood](https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/)
+  TechCrunch - 2026-06-24T
+- [Companies are scrambling to stop employees from maxing out AI budgets with small tasks](https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/)
+  TechCrunch - 2026-06-24T
 

@@ -48,3 +48,9 @@ This threat actor targets governments, diplomatic missions, private companies in
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Best Prime Day Deals on LED Masks and Hair Growth Tools That Actually Work](https://www.wired.com/story/best-led-devices-prime-day-deals-2026/)
+  Wired - 2026-06-24T
+

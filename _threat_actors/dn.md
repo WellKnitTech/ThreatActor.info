@@ -37,8 +37,6 @@ It’s directed to English speaking users, therefore is able to infect worldwide
   The Hacker News - 2026-06-23T
 - [WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool](https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html)
   The Hacker News - 2026-06-23T
-- [WhatsApp phishing attack uses fake business docs to hack PCs](https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/)
-  BleepingComputer - 2026-06-22T
 - [Crypto Heist Fueled by Elaborate Fake Reputation-Boosting Campaign](https://www.darkreading.com/cyberattacks-data-breaches/crypto-heist-fake-reputation-boosting-campaign)
   DarkReading - 2026-06-22T
 

@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Hostinger Promo Code: 79% Off for June 2026](https://www.wired.com/story/hostinger-coupon-code/)
-  Wired - 2026-06-24T
-- [French Startup Uses Special Polymers to Better Help Nerves Heal](https://www.wired.com/story/startup-using-polymers-and-blue-light-to-help-tissue-heal/)
-  Wired - 2026-06-24T
-- [Peacock Promo Codes: 40% Off June 2026](https://www.wired.com/story/peacock-promo-code/)
-  Wired - 2026-06-24T
-- [Booking.com Promo Codes: 20% Off | June 2026](https://www.wired.com/story/booking-com-promo-code/)
-  Wired - 2026-06-24T
-- [Best Dyson Deals for Prime Day: Vacuums, Hair Tools, and More](https://www.wired.com/story/prime-day-dyson-deals-2026/)
-  Wired - 2026-06-24T
+- [Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access](https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html)
+  The Hacker News - 2026-06-25T
+- [30% Off Samsung Promo Code | June 2026](https://www.wired.com/story/samsung-promo-codes/)
+  Wired - 2026-06-25T
+- [AT&T Promo Codes: $50 Off This June 2026](https://www.wired.com/story/att-promo-code/)
+  Wired - 2026-06-25T
+- [Google Workspace Promo Codes: 14% Off for June](https://www.wired.com/story/google-workspace-promo-code/)
+  Wired - 2026-06-25T
+- [NordVPN Coupons: 75% Off, Plus 3 Months Free in June 2026](https://www.wired.com/story/nordvpn-coupon/)
+  Wired - 2026-06-25T
 

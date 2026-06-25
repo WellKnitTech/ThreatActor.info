@@ -139,8 +139,6 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Best Prime Day Deals on Yoto Players and Accessories](https://www.wired.com/story/yoto-player-prime-day-deal-2026/)
-  Wired - 2026-06-23T
 - [Why SIEM is Moving Toward Unified Security Operations: Rapid7 Named a Major Player in IDC MarketScape](https://www.rapid7.com/blog/post/dr-siem-moving-toward-unified-security-operations-rapid7-named-idc-marketscape-major-player)
   Rapid7 - 2026-06-23T
 
