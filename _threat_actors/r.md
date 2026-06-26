@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access](https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html)
-  The Hacker News - 2026-06-25T
-- [30% Off Samsung Promo Code | June 2026](https://www.wired.com/story/samsung-promo-codes/)
+- [Anthropic Thinks Its Own Success Is Key to Making AI Safe](https://www.wired.com/story/anthropic-thinks-ai-can-only-be-safe-under-its-control/)
+  Wired - 2026-06-26T
+- [This Is Probably Your Last Chance to Buy a Cheap MacBook for a While](https://www.wired.com/story/apple-price-hikes-on-macbooks-on-prime-day/)
+  Wired - 2026-06-26T
+- [The White House is asking OpenAI to slow roll the release of its new model over safety concerns](https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/)
+  TechCrunch - 2026-06-25T
+- [Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data](https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/)
   Wired - 2026-06-25T
-- [AT&T Promo Codes: $50 Off This June 2026](https://www.wired.com/story/att-promo-code/)
-  Wired - 2026-06-25T
-- [Google Workspace Promo Codes: 14% Off for June](https://www.wired.com/story/google-workspace-promo-code/)
-  Wired - 2026-06-25T
-- [NordVPN Coupons: 75% Off, Plus 3 Months Free in June 2026](https://www.wired.com/story/nordvpn-coupon/)
+- [99 Prime Day Deals That Aren’t For Suckers, Up to 50% Off (2026)](https://www.wired.com/story/amazon-prime-day-absolute-best-deals-06-25-2026/)
   Wired - 2026-06-25T
 

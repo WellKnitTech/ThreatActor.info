@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access](https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html)
-  The Hacker News - 2026-06-25T
-- [NordVPN Coupons: 75% Off, Plus 3 Months Free in June 2026](https://www.wired.com/story/nordvpn-coupon/)
+- [Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data](https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/)
   Wired - 2026-06-25T
-- [CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited](https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html)
-  The Hacker News - 2026-06-24T
-- [Cerebras stock plunges after earnings as CEO says margin outlook was misunderstood](https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/)
-  TechCrunch - 2026-06-24T
-- [Companies are scrambling to stop employees from maxing out AI budgets with small tasks](https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/)
-  TechCrunch - 2026-06-24T
+- [YouTube Shorts are getting even shorter with an update that lets you double the playback speed](https://techcrunch.com/2026/06/25/youtube-shorts-are-getting-even-shorter-with-an-update-that-lets-you-double-the-playback-speed/)
+  TechCrunch - 2026-06-25T
+- [Xbox follows Apple with price increases ](https://techcrunch.com/2026/06/25/xbox-follows-apple-with-price-increases/)
+  TechCrunch - 2026-06-25T
+- [Rippling now wants to be your entire data stack](https://techcrunch.com/2026/06/25/parker-conrad-knows-which-employees-are-worth-their-ai-spend-and-says-rippling-can-help-you-too/)
+  TechCrunch - 2026-06-25T
+- [Experts on Experts: Why AI and Compliance Are Forcing A New Security Operating Model](https://www.rapid7.com/blog/post/it-experts-video-series-ai-compliance-force-new-security-operating-models)
+  Rapid7 - 2026-06-25T
 

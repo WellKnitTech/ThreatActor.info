@@ -33,6 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws](https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html)
-  The Hacker News - 2026-06-23T
+- [Prevention Before the Inbox: Reading the Microsoft Defender Benchmark Report in Context](https://blog.checkpoint.com/securing-user-and-access/prevention-before-the-inbox-reading-the-microsoft-defender-benchmark-report-in-context/)
+  Check Point - 2026-06-25T
 

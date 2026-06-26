@@ -33,10 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Scope of Salesforce Attacks Expands as Icarus Leaks Data](https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data)
-  DarkReading - 2026-06-23T
-- [OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws](https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html)
-  The Hacker News - 2026-06-23T
 - [Expanding Our Footprint: Local Cloud Availability for Prisma AIRS in Japan](https://www.paloaltonetworks.com/blog/2026/06/prisma-airs-launch-japan/)
   Palo Alto Networks - 2026-06-19T
 

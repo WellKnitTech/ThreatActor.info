@@ -39,6 +39,6 @@ Quantum is an active extortion or ransomware group tracked by RansomLook.
   Ars Technica - 2026-06-23T
 - [Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration](https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html)
   The Hacker News - 2026-06-23T
-- [The post-quantum EO is an important milestone. Now it’s time to get to work](https://blog.cloudflare.com/post-quantum-eo-2026/)
+- [The White House's post-quantum executive order is an important milestone. It’s time to get to work](https://blog.cloudflare.com/post-quantum-eo-2026/)
   Cloudflare - 2026-06-23T
 

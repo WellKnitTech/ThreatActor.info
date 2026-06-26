@@ -139,6 +139,8 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [YouTube Shorts are getting even shorter with an update that lets you double the playback speed](https://techcrunch.com/2026/06/25/youtube-shorts-are-getting-even-shorter-with-an-update-that-lets-you-double-the-playback-speed/)
+  TechCrunch - 2026-06-25T
 - [Why SIEM is Moving Toward Unified Security Operations: Rapid7 Named a Major Player in IDC MarketScape](https://www.rapid7.com/blog/post/dr-siem-moving-toward-unified-security-operations-rapid7-named-idc-marketscape-major-player)
   Rapid7 - 2026-06-23T
 

@@ -36,3 +36,9 @@ Andariel is a threat actor that primarily targets South Korean corporations and 
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Best Prime Day Action Cameras Deals I've Found (2026): GoPro, Insta360, DJI](https://www.wired.com/story/prime-day-camera-deals-06-25-2026/)
+  Wired - 2026-06-25T
+

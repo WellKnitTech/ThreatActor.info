@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [I Found the Best iPad Deal for Amazon Prime Day This Year (2026)](https://www.wired.com/story/the-ipad-you-should-buy-on-amazon-prime-day-this-year-2026/)
+  Wired - 2026-06-25T
+

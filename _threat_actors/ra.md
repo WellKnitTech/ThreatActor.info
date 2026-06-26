@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Cerebras stock plunges after earnings as CEO says margin outlook was misunderstood](https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/)
-  TechCrunch - 2026-06-24T
-- [How to Opt Out of Google Search’s New AI Data Training Feature](https://www.wired.com/story/how-to-opt-out-of-google-search-new-ai-data-training/)
-  Wired - 2026-06-24T
-- [One-two punch delivered in global operation disrupts cybercrime "assembly line"](https://arstechnica.com/security/2026/06/one-two-punch-delivered-in-global-operation-disrupts-cybercrime-assembly-line/)
-  Ars Technica - 2026-06-24T
-- [Companies are scrambling to stop employees from maxing out AI budgets with small tasks](https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/)
-  TechCrunch - 2026-06-24T
-- [DraftKings hacker 'Snoopy' sentenced to 18 months in prison](https://www.bleepingcomputer.com/news/security/draftkings-hacker-snoopy-sentenced-to-18-months-in-prison/)
-  BleepingComputer - 2026-06-24T
+- [Venezuela’s Powerful Earthquakes Were a Rare ‘Seismic Doublet’](https://www.wired.com/story/venezuelas-powerful-earthquakes-rare-seismic-doublet/)
+  Wired - 2026-06-25T
+- [CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure](https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/)
+  Unit 42 - 2026-06-25T
+- [Forget Peloton. Race to This 25% Off Deal on Hydrow’s Rowing Machine (2026)](https://www.wired.com/story/hydrow-rowing-machine-deal-amazon-prime-day-2026/)
+  Wired - 2026-06-25T
+- [A Fatal Tesla Crash in Texas Sets Up a Legal Showdown](https://www.wired.com/story/a-fatal-tesla-crash-in-texas-sets-up-a-legal-showdown/)
+  Wired - 2026-06-25T
+- [General Intuition’s $2.3B bet that video games can train AI agents for the real world](https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/)
+  TechCrunch - 2026-06-25T
 

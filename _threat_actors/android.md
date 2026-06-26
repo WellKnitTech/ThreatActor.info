@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Google Finance gets a dedicated app for Android](https://techcrunch.com/2026/06/25/google-finance-gets-a-dedicated-app-for-android/)
+  TechCrunch - 2026-06-25T
+
