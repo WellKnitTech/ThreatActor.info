@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Trump administration bars Polestar from selling its new EVs in the US](https://techcrunch.com/2026/06/25/trump-admin-bars-polestar-from-selling-its-new-evs-in-the-us/)
-  TechCrunch - 2026-06-25T
+- [Trump Administration Allows Anthropic to Release  Mythos to Select US Organizations](https://www.wired.com/story/anthropic-restores-access-to-mythos/)
+  Wired - 2026-06-27T
 

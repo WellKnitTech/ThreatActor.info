@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [I Found the Best iPad Deal for Amazon Prime Day This Year (2026)](https://www.wired.com/story/the-ipad-you-should-buy-on-amazon-prime-day-this-year-2026/)
-  Wired - 2026-06-25T
+- [17 Last Minute Prime Day Apple Deals on iPads, Macs, and More](https://www.wired.com/story/best-prime-day-apple-deals-06-26-2026/)
+  Wired - 2026-06-27T
 

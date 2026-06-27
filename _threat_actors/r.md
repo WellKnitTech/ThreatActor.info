@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Anthropic Thinks Its Own Success Is Key to Making AI Safe](https://www.wired.com/story/anthropic-thinks-ai-can-only-be-safe-under-its-control/)
-  Wired - 2026-06-26T
-- [This Is Probably Your Last Chance to Buy a Cheap MacBook for a While](https://www.wired.com/story/apple-price-hikes-on-macbooks-on-prime-day/)
-  Wired - 2026-06-26T
-- [The White House is asking OpenAI to slow roll the release of its new model over safety concerns](https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/)
-  TechCrunch - 2026-06-25T
-- [Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data](https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/)
-  Wired - 2026-06-25T
-- [99 Prime Day Deals That Aren’t For Suckers, Up to 50% Off (2026)](https://www.wired.com/story/amazon-prime-day-absolute-best-deals-06-25-2026/)
-  Wired - 2026-06-25T
+- [FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys](https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html)
+  The Hacker News - 2026-06-27T
+- [Trump Admin releases Anthropic  Mythos to be used by more than 100 US companies, agencies](https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/)
+  TechCrunch - 2026-06-27T
+- [The 28 Best Deals Under $100 Before Prime Day Ends](https://www.wired.com/story/best-prime-day-deals-under-100-06-26-2026/)
+  Wired - 2026-06-27T
+- [99 Last Minute Prime Day Deals: Up to 50% Off (2026)](https://www.wired.com/story/amazon-prime-day-absolute-best-deals-06-26-2026/)
+  Wired - 2026-06-27T
+- [FTC gives Musk the OK to acquire SpaceX alumni startup Mesh](https://techcrunch.com/2026/06/26/ftc-gives-musk-the-ok-to-acquire-spacex-alumni-startup-mesh/)
+  TechCrunch - 2026-06-27T
 

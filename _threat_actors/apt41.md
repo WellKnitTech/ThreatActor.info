@@ -109,8 +109,8 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [OpenAI poaches Uber India chief to lead its biggest market outside the US](https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/)
+  TechCrunch - 2026-06-26T
 - [Scattered Spider Hackers Plead Guilty on Day 1 of Trial](https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/)
   KrebsOnSecurity - 2026-06-23T
-- [OpenAI Frontier AI Models Powering Check Point’s Leading Cyber Security Solutions](https://blog.checkpoint.com/security/openai-frontier-ai-models-powering-check-points-leading-cyber-security-solutions/)
-  Check Point - 2026-06-22T
 

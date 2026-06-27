@@ -30,3 +30,9 @@ Rebrand of RALord
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Novak Djokovic has a new job —  advisor to private equity firm General Atlantic](https://techcrunch.com/2026/06/26/novak-djokovic-has-a-new-job-advisor-to-private-equity-firm-general-atlantic/)
+  TechCrunch - 2026-06-26T
+

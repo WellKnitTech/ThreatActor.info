@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Venezuela’s Powerful Earthquakes Were a Rare ‘Seismic Doublet’](https://www.wired.com/story/venezuelas-powerful-earthquakes-rare-seismic-doublet/)
-  Wired - 2026-06-25T
-- [CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure](https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/)
-  Unit 42 - 2026-06-25T
-- [Forget Peloton. Race to This 25% Off Deal on Hydrow’s Rowing Machine (2026)](https://www.wired.com/story/hydrow-rowing-machine-deal-amazon-prime-day-2026/)
-  Wired - 2026-06-25T
-- [A Fatal Tesla Crash in Texas Sets Up a Legal Showdown](https://www.wired.com/story/a-fatal-tesla-crash-in-texas-sets-up-a-legal-showdown/)
-  Wired - 2026-06-25T
-- [General Intuition’s $2.3B bet that video games can train AI agents for the real world](https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/)
-  TechCrunch - 2026-06-25T
+- [Trump Administration Allows Anthropic to Release  Mythos to Select US Organizations](https://www.wired.com/story/anthropic-restores-access-to-mythos/)
+  Wired - 2026-06-27T
+- [New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks](https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html)
+  The Hacker News - 2026-06-26T
+- [Corgi, the buzzy Y Combinator-backed insurance tech startup, says it didn’t steal an open source product](https://techcrunch.com/2026/06/26/corgi-the-buzzy-y-combinator-backed-insurance-tech-startup-says-it-didnt-steal-an-open-source-product/)
+  TechCrunch - 2026-06-26T
+- [Novak Djokovic has a new job —  advisor to private equity firm General Atlantic](https://techcrunch.com/2026/06/26/novak-djokovic-has-a-new-job-advisor-to-private-equity-firm-general-atlantic/)
+  TechCrunch - 2026-06-26T
+- [AI Decline? Confidence in Autonomous Penetration Testing Falls](https://www.darkreading.com/cybersecurity-operations/ai-decline-confidence-autonomous-penetration-testing)
+  DarkReading - 2026-06-26T
 

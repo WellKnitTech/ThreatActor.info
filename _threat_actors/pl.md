@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data](https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/)
-  Wired - 2026-06-25T
-- [YouTube Shorts are getting even shorter with an update that lets you double the playback speed](https://techcrunch.com/2026/06/25/youtube-shorts-are-getting-even-shorter-with-an-update-that-lets-you-double-the-playback-speed/)
-  TechCrunch - 2026-06-25T
-- [Xbox follows Apple with price increases ](https://techcrunch.com/2026/06/25/xbox-follows-apple-with-price-increases/)
-  TechCrunch - 2026-06-25T
-- [Rippling now wants to be your entire data stack](https://techcrunch.com/2026/06/25/parker-conrad-knows-which-employees-are-worth-their-ai-spend-and-says-rippling-can-help-you-too/)
-  TechCrunch - 2026-06-25T
-- [Experts on Experts: Why AI and Compliance Are Forcing A New Security Operating Model](https://www.rapid7.com/blog/post/it-experts-video-series-ai-compliance-force-new-security-operating-models)
-  Rapid7 - 2026-06-25T
+- [17 Last Minute Prime Day Apple Deals on iPads, Macs, and More](https://www.wired.com/story/best-prime-day-apple-deals-06-26-2026/)
+  Wired - 2026-06-27T
+- [New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks](https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html)
+  The Hacker News - 2026-06-26T
+- [Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign](https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html)
+  The Hacker News - 2026-06-26T
+- [How People in China Keep Outsmarting Anthropic’s Geolocation Restrictions](https://www.wired.com/story/how-people-in-china-keep-outsmarting-anthropics-geolocation-restrictions/)
+  Wired - 2026-06-26T
+- [Weekly Metasploit Update: Modules for Audiobookshelf, LiteLLM, Next.js, Dalfox and more](https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-modules-for-audiobookshelf-litellm-next-js-dalfox-and-more)
+  Rapid7 - 2026-06-26T
 

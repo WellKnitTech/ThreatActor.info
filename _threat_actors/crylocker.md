@@ -39,8 +39,4 @@ Ransomware Identifies victim locations w/Google Maps API
   Palo Alto Networks - 2026-06-23T
 - [White House drastically shortens deadline for dropping quantum-vulnerable crypto](https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto/)
   Ars Technica - 2026-06-23T
-- [Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration](https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html)
-  The Hacker News - 2026-06-23T
-- [Following user outcry, AMD reinstates memory encryption in consumer CPUs](https://arstechnica.com/security/2026/06/following-user-outcry-amd-reinstates-memory-encryption-in-consumer-cpus/)
-  Ars Technica - 2026-06-22T
 

@@ -30,3 +30,9 @@ Detected in April 2019. Known for paralyzing the cities of Baltimore and Greenvi
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Robinhood Cuts Access Approval Time to Support High-Velocity Development](https://www.darkreading.com/application-security/robinhood-reengineered-access-approvals-for-high-velocity-development)
+  DarkReading - 2026-06-25T
+

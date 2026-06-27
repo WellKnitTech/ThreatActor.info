@@ -30,3 +30,11 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [How People in China Keep Outsmarting Anthropic’s Geolocation Restrictions](https://www.wired.com/story/how-people-in-china-keep-outsmarting-anthropics-geolocation-restrictions/)
+  Wired - 2026-06-26T
+- [Thanks for Crushing the Submissions Inbox. We're Trying to Keep Up](https://www.darkreading.com/cybersecurity-operations/submissions-guidelines-reminder)
+  DarkReading - 2026-06-26T
+

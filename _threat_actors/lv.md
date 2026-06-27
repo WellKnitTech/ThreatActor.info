@@ -30,3 +30,9 @@ parser needs to be built
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Europe Evolves Into Ransomware's Favorite Region](https://www.darkreading.com/cybersecurity-analytics/europe-evolves-ransomware-favorite-region)
+  DarkReading - 2026-06-25T
+

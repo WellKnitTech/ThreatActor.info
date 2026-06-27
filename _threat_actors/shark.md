@@ -30,3 +30,11 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks](https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html)
+  The Hacker News - 2026-06-26T
+- [Best Prime Day Vacuum Deals Offer Up to 42% Off (2026): Shark, Dyson, Bissell](https://www.wired.com/story/prime-day-vacuum-deals-06-26-2026/)
+  Wired - 2026-06-26T
+

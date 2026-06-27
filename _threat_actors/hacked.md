@@ -30,9 +30,3 @@ Ransomware Jigsaw Ransomware variant
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Hacked Klue says criminals are deleting stolen customer data, but now other hackers are making threats](https://techcrunch.com/2026/06/25/hacked-klue-says-criminals-are-deleting-stolen-customer-data-but-now-other-hackers-are-making-threats/)
-  TechCrunch - 2026-06-25T
-

@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The Aerogarden I Recommend to Everyone Is Just $83 Right Now, a 63 Percent Discount](https://www.wired.com/story/amazon-prime-day-aerogarden-deal-2026/)
-  Wired - 2026-06-25T
-- [Stop Mowing Your Grass Forever With One of These Highly Rated Robot Mowers On Sale](https://www.wired.com/story/amazon-prime-day-robot-mower-deals-june-2026/)
-  Wired - 2026-06-25T
+- [I'm Adding These Bose Headphones to My Prime Day Cart (2026)](https://www.wired.com/story/bose-headphones-amazon-prime-day-2026/)
+  Wired - 2026-06-26T
+- [Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)](https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/)
+  TechCrunch - 2026-06-26T
+- [New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets](https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html)
+  The Hacker News - 2026-06-26T
+- [Russia Used Cellebrite on Jailed Activist's iPhone Months After Sales Cutoff ](https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html)
+  The Hacker News - 2026-06-26T
 - [Webinar: Why account takeovers remain one of the hardest threats to stop](https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/)
   BleepingComputer - 2026-06-25T
-- [One-two punch delivered in global operation disrupts cybercrime "assembly line"](https://arstechnica.com/security/2026/06/one-two-punch-delivered-in-global-operation-disrupts-cybercrime-assembly-line/)
-  Ars Technica - 2026-06-24T
-- [DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering](https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html)
-  The Hacker News - 2026-06-24T
 

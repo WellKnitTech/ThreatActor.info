@@ -30,9 +30,3 @@ Ransomware Unlock code is: adam or adamdude9
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [The Aerogarden I Recommend to Everyone Is Just $83 Right Now, a 63 Percent Discount](https://www.wired.com/story/amazon-prime-day-aerogarden-deal-2026/)
-  Wired - 2026-06-25T
-

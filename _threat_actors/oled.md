@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Samsung’s Excellent OLED Monitors Are Up to 36 Percent Off for Prime Day](https://www.wired.com/story/samsungs-odyssey-oled-monitors-prime-day-2026/)
+  Wired - 2026-06-26T
+

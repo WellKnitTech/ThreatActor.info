@@ -33,8 +33,6 @@ Ransomware Variant of Kirk
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns](https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html)
-  The Hacker News - 2026-06-25T
 - [ClickFix: The Attack That Turns Users Into Their Own Attackers](https://blog.checkpoint.com/securing-user-and-access/clickfix-the-attack-that-turns-users-into-their-own-attackers/)
   Check Point - 2026-06-25T
 

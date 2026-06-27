@@ -34,3 +34,9 @@ SunCrypt ransomware was discovered in October 2019 and in August 2020 it was add
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Samsung’s Excellent OLED Monitors Are Up to 36 Percent Off for Prime Day](https://www.wired.com/story/samsungs-odyssey-oled-monitors-prime-day-2026/)
+  Wired - 2026-06-26T
+
