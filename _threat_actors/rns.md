@@ -37,8 +37,6 @@ ransomware
   The Hacker News - 2026-06-27T
 - [Microsoft Warns of Photo ZIP Phishing Campaign Targeting Hotels with Node.js Implant](https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html)
   The Hacker News - 2026-06-26T
-- [The White House is asking OpenAI to slow roll the release of its new model over safety concerns](https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/)
-  TechCrunch - 2026-06-25T
 - [ClickFix: The Attack That Turns Users Into Their Own Attackers](https://blog.checkpoint.com/securing-user-and-access/clickfix-the-attack-that-turns-users-into-their-own-attackers/)
   Check Point - 2026-06-25T
 

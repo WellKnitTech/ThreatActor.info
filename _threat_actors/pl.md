@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Apple Vision Pro exec is reportedly leaving for OpenAI](https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/)
+  TechCrunch - 2026-06-27T
 - [17 Last Minute Prime Day Apple Deals on iPads, Macs, and More](https://www.wired.com/story/best-prime-day-apple-deals-06-26-2026/)
   Wired - 2026-06-27T
 - [New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks](https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html)
@@ -41,6 +43,4 @@ ransomware
   The Hacker News - 2026-06-26T
 - [How People in China Keep Outsmarting Anthropic’s Geolocation Restrictions](https://www.wired.com/story/how-people-in-china-keep-outsmarting-anthropics-geolocation-restrictions/)
   Wired - 2026-06-26T
-- [Weekly Metasploit Update: Modules for Audiobookshelf, LiteLLM, Next.js, Dalfox and more](https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-modules-for-audiobookshelf-litellm-next-js-dalfox-and-more)
-  Rapid7 - 2026-06-26T
 

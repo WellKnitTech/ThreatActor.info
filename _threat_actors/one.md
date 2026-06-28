@@ -33,8 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [I'm Adding These Bose Headphones to My Prime Day Cart (2026)](https://www.wired.com/story/bose-headphones-amazon-prime-day-2026/)
-  Wired - 2026-06-26T
+- [SoftBank’s CEO isn’t the only one with questions about Elon Musk’s orbital data center hype](https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/)
+  TechCrunch - 2026-06-27T
 - [Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)](https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/)
   TechCrunch - 2026-06-26T
 - [New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets](https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html)

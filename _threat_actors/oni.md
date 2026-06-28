@@ -37,8 +37,6 @@ ransomware
   Wired - 2026-06-26T
 - [New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries](https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html)
   The Hacker News - 2026-06-26T
-- [Early Bird pricing ends tonight for TechCrunch Founder Summit](https://techcrunch.com/2026/06/26/early-bird-pricing-ends-tonight-for-techcrunch-founder-summit/)
-  TechCrunch - 2026-06-26T
 - [In Less Than 24 Hours, Attackers Weaponize Cisco CUCM Flaw](https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw)
   DarkReading - 2026-06-25T
 
