@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer](https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html)
+  The Hacker News - 2026-06-29T
 - [Apple Vision Pro exec is reportedly leaving for OpenAI](https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/)
   TechCrunch - 2026-06-27T
 - [17 Last Minute Prime Day Apple Deals on iPads, Macs, and More](https://www.wired.com/story/best-prime-day-apple-deals-06-26-2026/)
@@ -41,6 +43,4 @@ ransomware
   The Hacker News - 2026-06-26T
 - [Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign](https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html)
   The Hacker News - 2026-06-26T
-- [How People in China Keep Outsmarting Anthropic’s Geolocation Restrictions](https://www.wired.com/story/how-people-in-china-keep-outsmarting-anthropics-geolocation-restrictions/)
-  Wired - 2026-06-26T
 

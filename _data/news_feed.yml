@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T06:16:24Z",
+  "updated": "2026-06-29T06:44:57Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,61 +19,85 @@
     "Rapid7"
   ],
   "actor_news": {
-    "Lv": [
+    "PL": [
       {
-        "title": "Indian payments chief thinks AI will be heavily involved in next era of digital payment growth",
-        "link": "https://techcrunch.com/2026/06/27/indian-payments-chief-thinks-ai-will-be-heavily-involved-in-next-era-of-digital-payment-growth/",
-        "date": "2026-06-28T05:00:00+00:00",
+        "title": "Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer",
+        "link": "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html",
+        "date": "2026-06-29T11:06:06+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
+        "link": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+        "date": "2026-06-27T16:45:09+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "Europe Evolves Into Ransomware's Favorite Region",
-        "link": "https://www.darkreading.com/cybersecurity-analytics/europe-evolves-ransomware-favorite-region",
-        "date": "2026-06-25T10:00:00+00:00",
-        "source": "DarkReading"
+        "title": "17 Last Minute Prime Day Apple Deals on iPads, Macs, and More",
+        "link": "https://www.wired.com/story/best-prime-day-apple-deals-06-26-2026/",
+        "date": "2026-06-27T00:12:52+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
+        "link": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
+        "date": "2026-06-26T23:47:46+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
+        "link": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
+        "date": "2026-06-26T21:51:25+05:30",
+        "source": "The Hacker News"
       }
     ],
-    "Payment": [
+    "Python": [
       {
-        "title": "Indian payments chief thinks AI will be heavily involved in next era of digital payment growth",
-        "link": "https://techcrunch.com/2026/06/27/indian-payments-chief-thinks-ai-will-be-heavily-involved-in-next-era-of-digital-payment-growth/",
-        "date": "2026-06-28T05:00:00+00:00",
-        "source": "TechCrunch"
+        "title": "Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer",
+        "link": "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html",
+        "date": "2026-06-29T11:06:06+05:30",
+        "source": "The Hacker News"
       }
     ],
     "R": [
       {
-        "title": "Indian payments chief thinks AI will be heavily involved in next era of digital payment growth",
-        "link": "https://techcrunch.com/2026/06/27/indian-payments-chief-thinks-ai-will-be-heavily-involved-in-next-era-of-digital-payment-growth/",
-        "date": "2026-06-28T05:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
-        "link": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
-        "date": "2026-06-27T22:57:11+05:30",
+        "title": "Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer",
+        "link": "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html",
+        "date": "2026-06-29T11:06:06+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Instagram is testing more ways to customize ‘Your Algorithm’",
-        "link": "https://techcrunch.com/2026/06/27/instagram-is-testing-more-ways-for-users-to-customize-your-algorithm/",
-        "date": "2026-06-27T21:27:37+00:00",
+        "title": "California law targeting loud streaming ads takes effect on July 1",
+        "link": "https://techcrunch.com/2026/06/28/california-law-targeting-loud-streaming-ads-takes-effect-on-july-1/",
+        "date": "2026-06-28T21:34:14+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "SoftBank’s CEO isn’t the only one with questions about Elon Musk’s orbital data center hype",
-        "link": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
-        "date": "2026-06-27T20:42:36+00:00",
+        "title": "Ford rehires ‘gray beard’ engineers after AI falls short",
+        "link": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+        "date": "2026-06-28T19:05:39+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "62 Last Minute Prime Day Weekend Deals: Up to 45% Off (2026)",
-        "link": "https://www.wired.com/story/amazon-prime-day-absolute-best-deals-06-27-2026/",
-        "date": "2026-06-27T18:01:21+00:00",
-        "source": "Wired"
+        "title": "Writer Ian Bogost says ‘The Small Stuff’ can help us reclaim our lives from too much convenience",
+        "link": "https://techcrunch.com/2026/06/28/writer-ian-bogost-says-the-small-stuff-can-help-us-reclaim-our-lives-from-dematerialization/",
+        "date": "2026-06-28T17:03:16+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "TechCrunch Mobility: All eyes on Tesla FSD",
+        "link": "https://techcrunch.com/2026/06/28/techcrunch-mobility-all-eyes-on-tesla-fsd/",
+        "date": "2026-06-28T16:05:00+00:00",
+        "source": "TechCrunch"
       }
     ],
     "Ra": [
+      {
+        "title": "Ford rehires ‘gray beard’ engineers after AI falls short",
+        "link": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+        "date": "2026-06-28T19:05:39+00:00",
+        "source": "TechCrunch"
+      },
       {
         "title": "Indian payments chief thinks AI will be heavily involved in next era of digital payment growth",
         "link": "https://techcrunch.com/2026/06/27/indian-payments-chief-thinks-ai-will-be-heavily-involved-in-next-era-of-digital-payment-growth/",
@@ -97,12 +121,36 @@
         "link": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
         "date": "2026-06-27T12:00:00+00:00",
         "source": "TechCrunch"
+      }
+    ],
+    "SunCrypt": [
+      {
+        "title": "Why Wear Anything Other Than a Sun Hoodie This Summer? Our Picks for the Best",
+        "link": "https://www.wired.com/story/im-addicted-to-sun-hoodies/",
+        "date": "2026-06-28T10:02:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Lv": [
+      {
+        "title": "Indian payments chief thinks AI will be heavily involved in next era of digital payment growth",
+        "link": "https://techcrunch.com/2026/06/27/indian-payments-chief-thinks-ai-will-be-heavily-involved-in-next-era-of-digital-payment-growth/",
+        "date": "2026-06-28T05:00:00+00:00",
+        "source": "TechCrunch"
       },
       {
-        "title": "Trump Administration Allows Anthropic to Release  Mythos to Select US Organizations",
-        "link": "https://www.wired.com/story/anthropic-restores-access-to-mythos/",
-        "date": "2026-06-27T00:26:14+00:00",
-        "source": "Wired"
+        "title": "Europe Evolves Into Ransomware's Favorite Region",
+        "link": "https://www.darkreading.com/cybersecurity-analytics/europe-evolves-ransomware-favorite-region",
+        "date": "2026-06-25T10:00:00+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Payment": [
+      {
+        "title": "Indian payments chief thinks AI will be heavily involved in next era of digital payment growth",
+        "link": "https://techcrunch.com/2026/06/27/indian-payments-chief-thinks-ai-will-be-heavily-involved-in-next-era-of-digital-payment-growth/",
+        "date": "2026-06-28T05:00:00+00:00",
+        "source": "TechCrunch"
       }
     ],
     "DN": [
@@ -116,12 +164,6 @@
         "title": "Corgi, the buzzy Y Combinator-backed insurance tech startup, says it didn’t steal an open source product",
         "link": "https://techcrunch.com/2026/06/26/corgi-the-buzzy-y-combinator-backed-insurance-tech-startup-says-it-didnt-steal-an-open-source-product/",
         "date": "2026-06-26T22:00:37+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
-        "link": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
-        "date": "2026-06-26T18:32:14+00:00",
         "source": "TechCrunch"
       },
       {
@@ -149,12 +191,6 @@
         "link": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
         "date": "2026-06-26T18:06:17-04:00",
         "source": "BleepingComputer"
-      },
-      {
-        "title": "Russian hackers were behind $2.5B hack of Jaguar Land Rover: Report",
-        "link": "https://techcrunch.com/2026/06/26/russian-hackers-were-behind-2-5-billion-hack-of-jaguar-land-rover-report/",
-        "date": "2026-06-26T17:29:29+00:00",
-        "source": "TechCrunch"
       },
       {
         "title": "Russian APT 'Gamaredon' Upgrades Its Arsenal, Requiring New Defenses",
@@ -185,12 +221,6 @@
         "source": "TechCrunch"
       },
       {
-        "title": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
-        "link": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
-        "date": "2026-06-26T17:43:22+00:00",
-        "source": "TechCrunch"
-      },
-      {
         "title": "New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets",
         "link": "https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html",
         "date": "2026-06-26T17:21:35+05:30",
@@ -203,42 +233,16 @@
         "source": "The Hacker News"
       },
       {
-        "title": "Webinar: Why account takeovers remain one of the hardest threats to stop",
-        "link": "https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/",
-        "date": "2026-06-25T08:12:20-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "PL": [
-      {
-        "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
-        "link": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
-        "date": "2026-06-27T16:45:09+00:00",
-        "source": "TechCrunch"
+        "title": "One-two punch delivered in global operation disrupts cybercrime \"assembly line\"",
+        "link": "https://arstechnica.com/security/2026/06/one-two-punch-delivered-in-global-operation-disrupts-cybercrime-assembly-line/",
+        "date": "2026-06-24T21:03:34+00:00",
+        "source": "Ars Technica"
       },
       {
-        "title": "17 Last Minute Prime Day Apple Deals on iPads, Macs, and More",
-        "link": "https://www.wired.com/story/best-prime-day-apple-deals-06-26-2026/",
-        "date": "2026-06-27T00:12:52+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
-        "link": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
-        "date": "2026-06-26T23:47:46+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
-        "link": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
-        "date": "2026-06-26T21:51:25+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "How People in China Keep Outsmarting Anthropic’s Geolocation Restrictions",
-        "link": "https://www.wired.com/story/how-people-in-china-keep-outsmarting-anthropics-geolocation-restrictions/",
-        "date": "2026-06-26T21:02:54+00:00",
-        "source": "Wired"
+        "title": "The White House's post-quantum executive order is an important milestone. It’s time to get to work",
+        "link": "https://blog.cloudflare.com/post-quantum-eo-2026/",
+        "date": "2026-06-23T18:25:18+00:00",
+        "source": "Cloudflare"
       }
     ],
     "APT3": [
@@ -307,62 +311,6 @@
         "link": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
         "date": "2026-06-26T23:47:46+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "Best Prime Day Vacuum Deals Offer Up to 42% Off (2026): Shark, Dyson, Bissell",
-        "link": "https://www.wired.com/story/prime-day-vacuum-deals-06-26-2026/",
-        "date": "2026-06-26T22:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Kee": [
-      {
-        "title": "How People in China Keep Outsmarting Anthropic’s Geolocation Restrictions",
-        "link": "https://www.wired.com/story/how-people-in-china-keep-outsmarting-anthropics-geolocation-restrictions/",
-        "date": "2026-06-26T21:02:54+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Thanks for Crushing the Submissions Inbox. We're Trying to Keep Up",
-        "link": "https://www.darkreading.com/cybersecurity-operations/submissions-guidelines-reminder",
-        "date": "2026-06-26T13:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Oled": [
-      {
-        "title": "Samsung’s Excellent OLED Monitors Are Up to 36 Percent Off for Prime Day",
-        "link": "https://www.wired.com/story/samsungs-odyssey-oled-monitors-prime-day-2026/",
-        "date": "2026-06-26T21:02:31+00:00",
-        "source": "Wired"
-      }
-    ],
-    "ONI": [
-      {
-        "title": "Samsung’s Excellent OLED Monitors Are Up to 36 Percent Off for Prime Day",
-        "link": "https://www.wired.com/story/samsungs-odyssey-oled-monitors-prime-day-2026/",
-        "date": "2026-06-26T21:02:31+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
-        "link": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
-        "date": "2026-06-26T19:27:55+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "In Less Than 24 Hours, Attackers Weaponize Cisco CUCM Flaw",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw",
-        "date": "2026-06-25T21:54:34+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "SunCrypt": [
-      {
-        "title": "Samsung’s Excellent OLED Monitors Are Up to 36 Percent Off for Prime Day",
-        "link": "https://www.wired.com/story/samsungs-odyssey-oled-monitors-prime-day-2026/",
-        "date": "2026-06-26T21:02:31+00:00",
-        "source": "Wired"
       }
     ],
     "Metasploit": [
@@ -381,6 +329,20 @@
         "source": "The Hacker News"
       }
     ],
+    "ONI": [
+      {
+        "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
+        "link": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
+        "date": "2026-06-26T19:27:55+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "In Less Than 24 Hours, Attackers Weaponize Cisco CUCM Flaw",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw",
+        "date": "2026-06-25T21:54:34+00:00",
+        "source": "DarkReading"
+      }
+    ],
     "Root": [
       {
         "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
@@ -395,34 +357,12 @@
         "source": "The Hacker News"
       }
     ],
-    "nova": [
-      {
-        "title": "Novak Djokovic has a new job —  advisor to private equity firm General Atlantic",
-        "link": "https://techcrunch.com/2026/06/26/novak-djokovic-has-a-new-job-advisor-to-private-equity-firm-general-atlantic/",
-        "date": "2026-06-26T19:13:40+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "APT41": [
-      {
-        "title": "OpenAI poaches Uber India chief to lead its biggest market outside the US",
-        "link": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
-        "date": "2026-06-26T18:19:36+00:00",
-        "source": "TechCrunch"
-      }
-    ],
     "Conti": [
       {
         "title": "CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue",
         "link": "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html",
         "date": "2026-06-26T18:01:56+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "Tesla settles FSD crash lawsuit as federal investigations continue",
-        "link": "https://techcrunch.com/2026/06/26/tesla-settles-fsd-crash-lawsuit-as-federal-investigations-continue/",
-        "date": "2026-06-26T16:32:55+00:00",
-        "source": "TechCrunch"
       }
     ],
     "Quantum": [
@@ -449,6 +389,14 @@
         "link": "https://blog.cloudflare.com/post-quantum-eo-2026/",
         "date": "2026-06-23T18:25:18+00:00",
         "source": "Cloudflare"
+      }
+    ],
+    "Kee": [
+      {
+        "title": "Thanks for Crushing the Submissions Inbox. We're Trying to Keep Up",
+        "link": "https://www.darkreading.com/cybersecurity-operations/submissions-guidelines-reminder",
+        "date": "2026-06-26T13:00:00+00:00",
+        "source": "DarkReading"
       }
     ],
     "Rush": [
@@ -489,22 +437,6 @@
         "link": "https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense",
         "date": "2026-06-25T21:12:01+00:00",
         "source": "DarkReading"
-      }
-    ],
-    "Locker": [
-      {
-        "title": "Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability",
-        "link": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
-        "date": "2026-06-25T19:42:52+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "RIP (Phoenix) Ransomware": [
-      {
-        "title": "Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability",
-        "link": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
-        "date": "2026-06-25T19:42:52+05:30",
-        "source": "The Hacker News"
       }
     ],
     "Desktop": [
@@ -581,12 +513,6 @@
         "link": "https://arstechnica.com/security/2026/06/one-two-punch-delivered-in-global-operation-disrupts-cybercrime-assembly-line/",
         "date": "2026-06-24T21:03:34+00:00",
         "source": "Ars Technica"
-      },
-      {
-        "title": "The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration",
-        "link": "https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/",
-        "date": "2026-06-22T22:00:04+00:00",
-        "source": "Unit 42"
       }
     ],
     "Play": [
@@ -611,6 +537,30 @@
         "link": "https://blog.checkpoint.com/ai-security/securing-ai-agent-behavior-with-amazon-bedrock-agentcore-and-checkpoint-ai-security/",
         "date": "2026-06-23T17:00:57+00:00",
         "source": "Check Point"
+      }
+    ],
+    "APT41": [
+      {
+        "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+        "link": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+        "date": "2026-06-23T16:12:49+00:00",
+        "source": "KrebsOnSecurity"
+      }
+    ],
+    "Scattered Spider": [
+      {
+        "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+        "link": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+        "date": "2026-06-23T16:12:49+00:00",
+        "source": "KrebsOnSecurity"
+      }
+    ],
+    "File Spider": [
+      {
+        "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+        "link": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+        "date": "2026-06-23T16:12:49+00:00",
+        "source": "KrebsOnSecurity"
       }
     ]
   }

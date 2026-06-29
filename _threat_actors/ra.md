@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Ford rehires ‘gray beard’ engineers after AI falls short](https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/)
+  TechCrunch - 2026-06-28T
 - [Indian payments chief thinks AI will be heavily involved in next era of digital payment growth](https://techcrunch.com/2026/06/27/indian-payments-chief-thinks-ai-will-be-heavily-involved-in-next-era-of-digital-payment-growth/)
   TechCrunch - 2026-06-28T
 - [Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials](https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html)
@@ -41,6 +43,4 @@ ransomware
   TechCrunch - 2026-06-27T
 - [Asian AI startups launch Mythos-like  models as Anthropic’s export ban drags on](https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/)
   TechCrunch - 2026-06-27T
-- [Trump Administration Allows Anthropic to Release  Mythos to Select US Organizations](https://www.wired.com/story/anthropic-restores-access-to-mythos/)
-  Wired - 2026-06-27T
 
