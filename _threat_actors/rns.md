@@ -35,8 +35,6 @@ ransomware
 
 - [FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys](https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html)
   The Hacker News - 2026-06-27T
-- [Microsoft Warns of Photo ZIP Phishing Campaign Targeting Hotels with Node.js Implant](https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html)
-  The Hacker News - 2026-06-26T
 - [ClickFix: The Attack That Turns Users Into Their Own Attackers](https://blog.checkpoint.com/securing-user-and-access/clickfix-the-attack-that-turns-users-into-their-own-attackers/)
   Check Point - 2026-06-25T
 

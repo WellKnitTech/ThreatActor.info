@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Everyone’s Mad at the World Cup’s New ‘Hydration Breaks’—Except Mr. Moneybags Over Here](https://www.wired.com/story/world-cup-new-hydration-breaks-are-about-more-than-water/)
+  Wired - 2026-06-29T
+

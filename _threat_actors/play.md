@@ -136,9 +136,3 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 [3] [Trend Micro Ransomware Spotlight Play July 2023](https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-play)
    Trend Micro Research. (2023, July 21). Ransomware Spotlight: Play. Retrieved September 24, 2024.
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Why SIEM is Moving Toward Unified Security Operations: Rapid7 Named a Major Player in IDC MarketScape](https://www.rapid7.com/blog/post/dr-siem-moving-toward-unified-security-operations-rapid7-named-idc-marketscape-major-player)
-  Rapid7 - 2026-06-23T
-
