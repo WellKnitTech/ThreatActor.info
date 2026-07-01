@@ -38,9 +38,3 @@ Resecurity’s research indicates that the attack on Parliament is a part of a m
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Rocket Lab continues buying spree by acquiring satellite company Iridium](https://techcrunch.com/2026/06/29/rocket-lab-continues-buying-spree-by-acquiring-satellite-company-iridium/)
-  TechCrunch - 2026-06-29T
-

@@ -30,15 +30,3 @@ Ransomware VaultCrypt family
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials](https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html)
-  The Hacker News - 2026-06-27T
-- [FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys](https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html)
-  The Hacker News - 2026-06-27T
-- [FBI: Russian hackers now target Signal backup recovery keys](https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/)
-  BleepingComputer - 2026-06-26T
-- [Russian APT 'Gamaredon' Upgrades Its Arsenal, Requiring New Defenses](https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense)
-  DarkReading - 2026-06-25T
-

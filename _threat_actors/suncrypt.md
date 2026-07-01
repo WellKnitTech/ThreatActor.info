@@ -34,9 +34,3 @@ SunCrypt ransomware was discovered in October 2019 and in August 2020 it was add
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Why Wear Anything Other Than a Sun Hoodie This Summer? Our Picks for the Best](https://www.wired.com/story/im-addicted-to-sun-hoodies/)
-  Wired - 2026-06-28T
-

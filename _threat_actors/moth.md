@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Robin Byrd, the Sex Godmother of Millennials, Says the Internet Ruined Porn](https://www.wired.com/story/the-robin-byrd-show/)
-  Wired - 2026-06-29T
-

@@ -33,6 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Gamaredon Expands Ukraine Attacks with New Malware and Cloud Service Abuse](https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html)
-  The Hacker News - 2026-06-29T
+- [Threads adds new features to Live Chats as it expands access](https://techcrunch.com/2026/06/30/threads-adds-new-features-to-live-chats-as-it-expands-access/)
+  TechCrunch - 2026-06-30T
 

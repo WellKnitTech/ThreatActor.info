@@ -30,3 +30,11 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Daisy’s First Headphones Are Premium, High-Quality—and Just a Little Bit Cheaper](https://www.wired.com/story/daisy-sound-yet-another-company-is-making-premium-high-end-headphones/)
+  Wired - 2026-06-30T
+- [Realta Fusion generates electricity directly from a fusion reaction, an apparent first](https://techcrunch.com/2026/06/30/realta-fusion-generates-electricity-directly-from-a-fusion-reaction-an-apparent-first/)
+  TechCrunch - 2026-06-30T
+
