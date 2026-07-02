@@ -30,3 +30,9 @@ ABOUT US: <br/> <br/>"Pure Extraction And Ransom (PEAR) Team is the community of
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Goose, a New Gay Dating App, Appears to Be a Psyop](https://www.wired.com/story/goose-a-new-gay-dating-app-appears-to-be-a-psyop/)
+  Wired - 2026-07-01T
+

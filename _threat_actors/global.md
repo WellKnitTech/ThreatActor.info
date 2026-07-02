@@ -35,6 +35,4 @@ Not a RaaS yet.
 
 - [Modernizing Global Vulnerability Standards For The Age Of AI](https://www.rapid7.com/blog/post/ai-modernizing-global-vulnerability-standards)
   Rapid7 - 2026-06-29T
-- [One-two punch delivered in global operation disrupts cybercrime "assembly line"](https://arstechnica.com/security/2026/06/one-two-punch-delivered-in-global-operation-disrupts-cybercrime-assembly-line/)
-  Ars Technica - 2026-06-24T
 

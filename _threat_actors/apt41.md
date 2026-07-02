@@ -109,6 +109,6 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Amazon Q VS Extension Flaw Leads to Cloud Credential Theft](https://www.darkreading.com/cloud-security/amazon-q-vs-extension-flaw-leads-cloud-credential-theft)
-  DarkReading - 2026-06-29T
+- [Elastic named a Leader in the Everest Group Enterprise Search Products PEAK Matrix® Assessment 2026](https://www.elastic.co/blog/elastic-leader-everest-group-enterprise-search-peak-matrix-2026)
+  Elastic - 2026-07-01T
 

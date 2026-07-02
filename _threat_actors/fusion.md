@@ -33,6 +33,8 @@ Fusion is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Realta Fusion generates electricity directly from a fusion reaction, an apparent first](https://techcrunch.com/2026/06/30/realta-fusion-generates-electricity-directly-from-a-fusion-reaction-an-apparent-first/)
-  TechCrunch - 2026-06-30T
+- [Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic](https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html)
+  The Hacker News - 2026-07-01T
+- [Adobe patches seven max severity ColdFusion, Campaign flaws](https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/)
+  BleepingComputer - 2026-07-01T
 

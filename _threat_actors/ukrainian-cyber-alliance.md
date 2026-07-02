@@ -37,9 +37,3 @@ Cyber Alliance is a hacktivist group that has demonstrated capabilities in explo
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Third-Party Breaches Teach Education Sector a Costly Lesson in Vendor Risk](https://www.darkreading.com/cyber-risk/third-party-breaches-teaches-education-lesson-vendor-risk)
-  DarkReading - 2026-06-27T
-

@@ -30,9 +30,3 @@ Blackfield is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Blackfield ransomware asks Nidec Corporation for $2 million ransom](https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/)
-  BleepingComputer - 2026-06-30T
-

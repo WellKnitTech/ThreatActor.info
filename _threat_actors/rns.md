@@ -30,11 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data](https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html)
-  The Hacker News - 2026-06-30T
-- [ClickFix: The Attack That Turns Users Into Their Own Attackers](https://blog.checkpoint.com/securing-user-and-access/clickfix-the-attack-that-turns-users-into-their-own-attackers/)
-  Check Point - 2026-06-25T
-

@@ -33,8 +33,8 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Daisy’s First Headphones Are Premium, High-Quality—and Just a Little Bit Cheaper](https://www.wired.com/story/daisy-sound-yet-another-company-is-making-premium-high-end-headphones/)
-  Wired - 2026-06-30T
-- [Realta Fusion generates electricity directly from a fusion reaction, an apparent first](https://techcrunch.com/2026/06/30/realta-fusion-generates-electricity-directly-from-a-fusion-reaction-an-apparent-first/)
-  TechCrunch - 2026-06-30T
+- [Bending Spoons defies SaaS slump, surges 40% on first day of trading](https://techcrunch.com/2026/07/01/bending-spoons-defies-saas-slump-surges-40-on-first-day-of-trading/)
+  TechCrunch - 2026-07-01T
+- [Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off](https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/)
+  TechCrunch - 2026-07-01T
 

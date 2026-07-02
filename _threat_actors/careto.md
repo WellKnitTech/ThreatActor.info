@@ -48,3 +48,9 @@ This threat actor targets governments, diplomatic missions, private companies in
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Unmasking the crawls with Attribution Business Insights](https://blog.cloudflare.com/attribution-business-insights/)
+  Cloudflare - 2026-07-01T
+

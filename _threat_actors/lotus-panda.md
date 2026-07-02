@@ -41,3 +41,9 @@ Lotus Blossom is a threat group that has targeted government and military organi
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Elastic named a Leader in the Everest Group Enterprise Search Products PEAK Matrix® Assessment 2026](https://www.elastic.co/blog/elastic-leader-everest-group-enterprise-search-peak-matrix-2026)
+  Elastic - 2026-07-01T
+

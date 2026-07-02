@@ -33,6 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [OpenClaw is finally available on Android and iOS](https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/)
-  TechCrunch - 2026-06-30T
+- [AI-Generated Browser Ransomware Abuses Chromium API on Windows and Android](https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html)
+  The Hacker News - 2026-07-01T
 

@@ -30,3 +30,9 @@ A new ransomware called File Spider is being distributed through spam that targe
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges](https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html)
+  The Hacker News - 2026-07-02T
+

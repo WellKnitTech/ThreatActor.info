@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Prevention Before the Inbox: Reading the Microsoft Defender Benchmark Report in Context](https://blog.checkpoint.com/securing-user-and-access/prevention-before-the-inbox-reading-the-microsoft-defender-benchmark-report-in-context/)
-  Check Point - 2026-06-25T
-

@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts](https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html)
-  The Hacker News - 2026-07-01T
-- [Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery](https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html)
-  The Hacker News - 2026-07-01T
-- [Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service](https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html)
-  The Hacker News - 2026-07-01T
-- [30% VistaPrint Coupon & Promo Codes | July 2026](https://www.wired.com/story/vistaprint-coupon-code/)
-  Wired - 2026-07-01T
-- [Dyson Promo Codes: 25% Off in July 2026](https://www.wired.com/story/dyson-cordless-vacuum-promo-code/)
-  Wired - 2026-07-01T
+- [Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office](https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/)
+  TechCrunch - 2026-07-02T
+- [Whoop Promo Codes: 20% Off This July 2026](https://www.wired.com/story/whoop-promo-code/)
+  Wired - 2026-07-02T
+- [Altra Running Promo Codes July 2026](https://www.wired.com/story/altra-promo-code/)
+  Wired - 2026-07-02T
+- [30% Off Samsung Promo Code | July 2026](https://www.wired.com/story/samsung-promo-codes/)
+  Wired - 2026-07-02T
+- [Squarespace Promo Codes: 20% Off in July 2026](https://www.wired.com/story/squarespace-promo-code/)
+  Wired - 2026-07-02T
 

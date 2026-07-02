@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data](https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html)
-  The Hacker News - 2026-06-30T
-- [Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints](https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html)
-  The Hacker News - 2026-06-30T
-- [Daisy’s First Headphones Are Premium, High-Quality—and Just a Little Bit Cheaper](https://www.wired.com/story/daisy-sound-yet-another-company-is-making-premium-high-end-headphones/)
-  Wired - 2026-06-30T
-- [The DeepMind trio who built a poker AI are now making money for quant hedge funds](https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/)
-  TechCrunch - 2026-06-30T
-- [New attack provides one more reason why AI browsers are a bad idea](https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/)
-  Ars Technica - 2026-06-30T
+- [Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office](https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/)
+  TechCrunch - 2026-07-02T
+- [SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT](https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html)
+  The Hacker News - 2026-07-01T
+- [SpaceX has an AI device prototype, and it sure sounds phone-ish](https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/)
+  TechCrunch - 2026-07-01T
+- [Content Independence Day, one year on: building the business model for the agentic Internet](https://blog.cloudflare.com/agentic-internet-bot-report/)
+  Cloudflare - 2026-07-01T
+- [Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402](https://blog.cloudflare.com/monetization-gateway/)
+  Cloudflare - 2026-07-01T
 

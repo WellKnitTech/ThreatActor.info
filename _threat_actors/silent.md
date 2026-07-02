@@ -33,8 +33,6 @@ Silent is an active ransomware-as-a-service operation tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet Addresses](https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html)
-  The Hacker News - 2026-06-30T
 - [AI-Generated Workflows Are a Silent Security Disaster](https://www.darkreading.com/cyber-risk/ai-generated-workflows-silent-security-disaster)
   DarkReading - 2026-06-30T
 

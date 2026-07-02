@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Threads adds new features to Live Chats as it expands access](https://techcrunch.com/2026/06/30/threads-adds-new-features-to-live-chats-as-it-expands-access/)
-  TechCrunch - 2026-06-30T
-

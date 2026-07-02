@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts](https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html)
+- [Altra Running Promo Codes July 2026](https://www.wired.com/story/altra-promo-code/)
+  Wired - 2026-07-02T
+- [Paramount+ Coupon Codes and Deals for July 2026](https://www.wired.com/story/paramount-plus-coupon-code/)
+  Wired - 2026-07-02T
+- [19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges](https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html)
+  The Hacker News - 2026-07-02T
+- [SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT](https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html)
   The Hacker News - 2026-07-01T
-- [The Trump Administration Is Lifting Its Export Controls on Anthropic’s Mythos and Fable AI Models](https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models/)
-  Wired - 2026-06-30T
-- [Startup Battlefield Australia application closes in days: Apply before July 6](https://techcrunch.com/2026/06/30/last-chance-to-apply-startup-battlefield-australia-applications-close-july-6/)
-  TechCrunch - 2026-06-30T
-- [282 iOS AI Apps Leak API Keys and Open AI Proxy Access in Network Traffic Study](https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html)
-  The Hacker News - 2026-06-30T
-- [Realta Fusion generates electricity directly from a fusion reaction, an apparent first](https://techcrunch.com/2026/06/30/realta-fusion-generates-electricity-directly-from-a-fusion-reaction-an-apparent-first/)
-  TechCrunch - 2026-06-30T
+- [The Best July 4 Grill and Griddle Deals: Weber, Traeger, Recteq](https://www.wired.com/story/best-grill-griddle-deals-july-4-2026/)
+  Wired - 2026-07-01T
 

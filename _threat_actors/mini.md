@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The Trump Administration Is Lifting Its Export Controls on Anthropic’s Mythos and Fable AI Models](https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models/)
-  Wired - 2026-06-30T
+- [After $18B IPO, Bending Spoons founder says success comes from minimizing luck](https://techcrunch.com/2026/07/01/after-18b-ipo-bending-spoons-founder-says-success-comes-from-minimizing-luck/)
+  TechCrunch - 2026-07-01T
+- [Gemini Spark, Google’s agentic assistant, is now available on Mac](https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/)
+  TechCrunch - 2026-07-01T
 

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T06:24:53Z",
+  "updated": "2026-07-02T05:57:48Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,102 +19,450 @@
     "Rapid7"
   ],
   "actor_news": {
+    "One": [
+      {
+        "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
+        "link": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+        "date": "2026-07-02T05:30:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
+        "link": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
+        "date": "2026-07-01T23:23:06+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "SpaceX has an AI device prototype, and it sure sounds phone-ish",
+        "link": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+        "date": "2026-07-01T18:54:18+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
+        "link": "https://blog.cloudflare.com/agentic-internet-bot-report/",
+        "date": "2026-07-01T13:00:00+00:00",
+        "source": "Cloudflare"
+      },
+      {
+        "title": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
+        "link": "https://blog.cloudflare.com/monetization-gateway/",
+        "date": "2026-07-01T13:00:00+00:00",
+        "source": "Cloudflare"
+      }
+    ],
     "R": [
       {
-        "title": "Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts",
-        "link": "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
-        "date": "2026-07-01T11:16:03+05:30",
-        "source": "The Hacker News"
+        "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
+        "link": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+        "date": "2026-07-02T05:30:00+00:00",
+        "source": "TechCrunch"
       },
       {
-        "title": "Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery",
-        "link": "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html",
-        "date": "2026-07-01T11:02:12+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service",
-        "link": "https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html",
-        "date": "2026-07-01T09:24:22+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "30% VistaPrint Coupon & Promo Codes | July 2026",
-        "link": "https://www.wired.com/story/vistaprint-coupon-code/",
-        "date": "2026-07-01T05:00:00+00:00",
+        "title": "Whoop Promo Codes: 20% Off This July 2026",
+        "link": "https://www.wired.com/story/whoop-promo-code/",
+        "date": "2026-07-02T05:00:00+00:00",
         "source": "Wired"
       },
       {
-        "title": "Dyson Promo Codes: 25% Off in July 2026",
-        "link": "https://www.wired.com/story/dyson-cordless-vacuum-promo-code/",
-        "date": "2026-07-01T05:00:00+00:00",
+        "title": "Altra Running Promo Codes July 2026",
+        "link": "https://www.wired.com/story/altra-promo-code/",
+        "date": "2026-07-02T05:00:00+00:00",
         "source": "Wired"
+      },
+      {
+        "title": "30% Off Samsung Promo Code | July 2026",
+        "link": "https://www.wired.com/story/samsung-promo-codes/",
+        "date": "2026-07-02T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Squarespace Promo Codes: 20% Off in July 2026",
+        "link": "https://www.wired.com/story/squarespace-promo-code/",
+        "date": "2026-07-02T05:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Tycoon": [
+      {
+        "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
+        "link": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+        "date": "2026-07-02T05:30:00+00:00",
+        "source": "TechCrunch"
       }
     ],
     "Ra": [
       {
-        "title": "Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts",
-        "link": "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
-        "date": "2026-07-01T11:16:03+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "The Trump Administration Is Lifting Its Export Controls on Anthropic’s Mythos and Fable AI Models",
-        "link": "https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models/",
-        "date": "2026-06-30T23:23:04+00:00",
+        "title": "Altra Running Promo Codes July 2026",
+        "link": "https://www.wired.com/story/altra-promo-code/",
+        "date": "2026-07-02T05:00:00+00:00",
         "source": "Wired"
       },
       {
-        "title": "Startup Battlefield Australia application closes in days: Apply before July 6",
-        "link": "https://techcrunch.com/2026/06/30/last-chance-to-apply-startup-battlefield-australia-applications-close-july-6/",
-        "date": "2026-06-30T23:00:00+00:00",
-        "source": "TechCrunch"
+        "title": "Paramount+ Coupon Codes and Deals for July 2026",
+        "link": "https://www.wired.com/story/paramount-plus-coupon-code/",
+        "date": "2026-07-02T05:00:00+00:00",
+        "source": "Wired"
       },
       {
-        "title": "282 iOS AI Apps Leak API Keys and Open AI Proxy Access in Network Traffic Study",
-        "link": "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
-        "date": "2026-06-30T19:19:34+05:30",
+        "title": "19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges",
+        "link": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
+        "date": "2026-07-02T00:58:07+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Realta Fusion generates electricity directly from a fusion reaction, an apparent first",
-        "link": "https://techcrunch.com/2026/06/30/realta-fusion-generates-electricity-directly-from-a-fusion-reaction-an-apparent-first/",
-        "date": "2026-06-30T19:12:43+00:00",
+        "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
+        "link": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
+        "date": "2026-07-01T23:23:06+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "The Best July 4 Grill and Griddle Deals: Weber, Traeger, Recteq",
+        "link": "https://www.wired.com/story/best-grill-griddle-deals-july-4-2026/",
+        "date": "2026-07-01T23:16:11+00:00",
+        "source": "Wired"
+      }
+    ],
+    "SunCrypt": [
+      {
+        "title": "30% Off Samsung Promo Code | July 2026",
+        "link": "https://www.wired.com/story/samsung-promo-codes/",
+        "date": "2026-07-02T05:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Stinger": [
+      {
+        "title": "Hostinger Promo Code: 79% Off for July 2026",
+        "link": "https://www.wired.com/story/hostinger-coupon-code/",
+        "date": "2026-07-02T05:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Scattered Spider": [
+      {
+        "title": "19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges",
+        "link": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
+        "date": "2026-07-02T00:58:07+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "File Spider": [
+      {
+        "title": "19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges",
+        "link": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
+        "date": "2026-07-02T00:58:07+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Hunt": [
+      {
+        "title": "Medtronic notifies customers impacted by ShinyHunters data breach",
+        "link": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
+        "date": "2026-07-02T00:25:42-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Hunters": [
+      {
+        "title": "Medtronic notifies customers impacted by ShinyHunters data breach",
+        "link": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
+        "date": "2026-07-02T00:25:42-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "ONI": [
+      {
+        "title": "Medtronic notifies customers impacted by ShinyHunters data breach",
+        "link": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
+        "date": "2026-07-02T00:25:42-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "ShinyHunters": [
+      {
+        "title": "Medtronic notifies customers impacted by ShinyHunters data breach",
+        "link": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
+        "date": "2026-07-02T00:25:42-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "IPA": [
+      {
+        "title": "Apple is reportedly planning new iPad Pro and MacBook Pro releases early next year",
+        "link": "https://techcrunch.com/2026/07/01/apple-is-reportedly-planning-new-ipad-pro-and-macbook-pro-releases-early-next-year/",
+        "date": "2026-07-01T23:57:55+00:00",
         "source": "TechCrunch"
       }
     ],
-    "Deadeye Jackal": [
+    "PL": [
       {
-        "title": "Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery",
-        "link": "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html",
-        "date": "2026-07-01T11:02:12+05:30",
+        "title": "Apple is reportedly planning new iPad Pro and MacBook Pro releases early next year",
+        "link": "https://techcrunch.com/2026/07/01/apple-is-reportedly-planning-new-ipad-pro-and-macbook-pro-releases-early-next-year/",
+        "date": "2026-07-01T23:57:55+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
+        "link": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
+        "date": "2026-07-01T23:23:06+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Fake Perplexity extension on Chrome Web Store tracked searches",
-        "link": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/",
-        "date": "2026-06-30T11:46:19-04:00",
+        "title": "VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer",
+        "link": "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html",
+        "date": "2026-07-01T22:48:50+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "An Explosion Knocked Out Anduril’s Rocket Motor Test Site in Mississippi",
+        "link": "https://www.wired.com/story/anduril-mississippi-explosion-missiles-rocket-motor/",
+        "date": "2026-07-01T19:29:21+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts",
+        "link": "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html",
+        "date": "2026-07-01T19:26:18+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "JCrypt": [
+      {
+        "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
+        "link": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
+        "date": "2026-07-01T23:23:06+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "First": [
+      {
+        "title": "Bending Spoons defies SaaS slump, surges 40% on first day of trading",
+        "link": "https://techcrunch.com/2026/07/01/bending-spoons-defies-saas-slump-surges-40-on-first-day-of-trading/",
+        "date": "2026-07-01T22:47:04+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off",
+        "link": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+        "date": "2026-07-01T14:25:23+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Mini": [
+      {
+        "title": "After $18B IPO, Bending Spoons founder says success comes from minimizing luck",
+        "link": "https://techcrunch.com/2026/07/01/after-18b-ipo-bending-spoons-founder-says-success-comes-from-minimizing-luck/",
+        "date": "2026-07-01T22:28:35+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Gemini Spark, Google’s agentic assistant, is now available on Mac",
+        "link": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+        "date": "2026-07-01T14:20:19+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Ank": [
+      {
+        "title": "Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures",
+        "link": "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html",
+        "date": "2026-07-01T20:56:55+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "DN": [
+      {
+        "title": "Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures",
+        "link": "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html",
+        "date": "2026-07-01T20:56:55+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Fake Bug Report Hijacks AI Coding Agents at Scale",
+        "link": "https://www.darkreading.com/cyber-risk/fake-bug-report-hijacks-ai-coding-agents",
+        "date": "2026-06-30T21:37:50+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "Anthropic to restore Claude Fable access on Wednesday",
+        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/",
+        "date": "2026-06-30T20:35:14-04:00",
         "source": "BleepingComputer"
+      }
+    ],
+    "Trojan": [
+      {
+        "title": "Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures",
+        "link": "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html",
+        "date": "2026-07-01T20:56:55+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "New ChocoPoC malware targets researchers via trojanized PoC exploits",
+        "link": "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
+        "date": "2026-07-01T16:08:13-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Fusion": [
+      {
+        "title": "Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic",
+        "link": "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html",
+        "date": "2026-07-01T20:55:46+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Adobe patches seven max severity ColdFusion, Campaign flaws",
+        "link": "https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/",
+        "date": "2026-07-01T03:34:52-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "pear": [
+      {
+        "title": "Goose, a New Gay Dating App, Appears to Be a Psyop",
+        "link": "https://www.wired.com/story/goose-a-new-gay-dating-app-appears-to-be-a-psyop/",
+        "date": "2026-07-01T20:28:57+00:00",
+        "source": "Wired"
       }
     ],
     "Lick": [
       {
+        "title": "And the Winner in Dominant Malware Delivery? ClickFix",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/winner-dominant-malware-delivery-clickfix",
+        "date": "2026-07-01T19:46:34+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery",
+        "link": "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html",
+        "date": "2026-07-01T11:02:12+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Rocke": [
+      {
+        "title": "An Explosion Knocked Out Anduril’s Rocket Motor Test Site in Mississippi",
+        "link": "https://www.wired.com/story/anduril-mississippi-explosion-missiles-rocket-motor/",
+        "date": "2026-07-01T19:29:21+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Ogre": [
+      {
+        "title": "Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts",
+        "link": "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html",
+        "date": "2026-07-01T19:26:18+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Deadeye Jackal": [
+      {
+        "title": "Apple’s Hide My Email feature has a bug that’s been exposing real email addresses, researcher claims",
+        "link": "https://techcrunch.com/2026/07/01/apples-hide-my-email-feature-has-a-bug-thats-been-exposing-real-email-addresses-researcher-claims/",
+        "date": "2026-07-01T19:18:07+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "New ChocoPoC malware targets researchers via trojanized PoC exploits",
+        "link": "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
+        "date": "2026-07-01T16:08:13-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Making AI search smarter",
+        "link": "https://blog.cloudflare.com/making-ai-search-smarter/",
+        "date": "2026-07-01T13:00:00+00:00",
+        "source": "Cloudflare"
+      },
+      {
         "title": "Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery",
         "link": "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html",
         "date": "2026-07-01T11:02:12+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Clicks shows off its BlackBerry-inspired phone in a new hands-on video",
-        "link": "https://techcrunch.com/2026/06/30/clicks-shows-off-its-blackberry-inspired-phone-in-a-new-hands-on-video/",
-        "date": "2026-06-30T18:34:22+00:00",
+        "title": "Elastic named a Leader in the Everest Group Enterprise Search Products PEAK Matrix® Assessment 2026",
+        "link": "https://www.elastic.co/blog/elastic-leader-everest-group-enterprise-search-peak-matrix-2026",
+        "date": "2026-07-01T00:00:00+00:00",
+        "source": "Elastic"
+      }
+    ],
+    "AnDROid": [
+      {
+        "title": "AI-Generated Browser Ransomware Abuses Chromium API on Windows and Android",
+        "link": "https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html",
+        "date": "2026-07-01T18:29:19+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Earth Lusca": [
+      {
+        "title": "AI-Generated Browser Ransomware Abuses Chromium API on Windows and Android",
+        "link": "https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html",
+        "date": "2026-07-01T18:29:19+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Lime": [
+      {
+        "title": "Lime begins life as a public company after years of uncertainty",
+        "link": "https://techcrunch.com/2026/07/01/lime-begins-life-as-a-public-company-after-years-of-uncertainty/",
+        "date": "2026-07-01T18:24:00+00:00",
         "source": "TechCrunch"
+      }
+    ],
+    "Lynx": [
+      {
+        "title": "FortiBleed credential-theft campaign linked to Lynx ransomware",
+        "link": "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/",
+        "date": "2026-07-01T17:37:24-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Aware": [
+      {
+        "title": "2026 Cybersecurity Assessment: The Gap Between Awareness and Resilience",
+        "link": "https://thehackernews.com/2026/07/2026-cybersecurity-assessment-gap.html",
+        "date": "2026-07-01T17:00:00+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "CryLocker": [
+      {
+        "title": "Microsoft Accelerates Post-Quantum Cryptography Shift to 2029",
+        "link": "https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html",
+        "date": "2026-07-01T16:11:36+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Quantum": [
+      {
+        "title": "Microsoft Accelerates Post-Quantum Cryptography Shift to 2029",
+        "link": "https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html",
+        "date": "2026-07-01T16:11:36+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Sandworm Team": [
+      {
+        "title": "'Phantom Squatting': An Emerging AI-Driven Supply Chain Threat",
+        "link": "https://www.darkreading.com/endpoint-security/phantom-squatting-ai-driven-supply-chain-threat",
+        "date": "2026-07-01T15:17:14+00:00",
+        "source": "DarkReading"
       },
       {
-        "title": "ClickFix: The Attack That Turns Users Into Their Own Attackers",
-        "link": "https://blog.checkpoint.com/securing-user-and-access/clickfix-the-attack-that-turns-users-into-their-own-attackers/",
-        "date": "2026-06-25T13:00:22+00:00",
-        "source": "Check Point"
+        "title": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware",
+        "link": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
+        "date": "2026-07-01T12:50:51+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Phantom Squatting: AI-Hallucinated Domains as a Software Supply Chain Vector",
+        "link": "https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/",
+        "date": "2026-07-01T01:00:11+00:00",
+        "source": "Unit 42"
       }
     ],
     "Payload": [
@@ -125,66 +473,12 @@
         "source": "The Hacker News"
       }
     ],
-    "Shark": [
+    "Careto": [
       {
-        "title": "Surfshark Promo Codes: 87% Off | July 2026",
-        "link": "https://www.wired.com/story/surfshark-coupon/",
-        "date": "2026-07-01T05:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Final": [
-      {
-        "title": "The ‘Father of the Internet’ is finally retiring",
-        "link": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/",
-        "date": "2026-07-01T03:15:37+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "OpenClaw is finally available on Android and iOS",
-        "link": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
-        "date": "2026-06-30T21:53:28+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "PL": [
-      {
-        "title": "Wayve launches $85M employee tender offer at $8.5B valuation",
-        "link": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
-        "date": "2026-07-01T02:04:40+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Phantom Squatting: AI-Hallucinated Domains as a Software Supply Chain Vector",
-        "link": "https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/",
-        "date": "2026-07-01T01:00:11+00:00",
-        "source": "Unit 42"
-      },
-      {
-        "title": "Startup Battlefield Australia application closes in days: Apply before July 6",
-        "link": "https://techcrunch.com/2026/06/30/last-chance-to-apply-startup-battlefield-australia-applications-close-july-6/",
-        "date": "2026-06-30T23:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints",
-        "link": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
-        "date": "2026-06-30T21:17:20+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet Addresses",
-        "link": "https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html",
-        "date": "2026-06-30T21:10:18+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Sandworm Team": [
-      {
-        "title": "Phantom Squatting: AI-Hallucinated Domains as a Software Supply Chain Vector",
-        "link": "https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/",
-        "date": "2026-07-01T01:00:11+00:00",
-        "source": "Unit 42"
+        "title": "Unmasking the crawls with Attribution Business Insights",
+        "link": "https://blog.cloudflare.com/attribution-business-insights/",
+        "date": "2026-07-01T06:00:00+00:00",
+        "source": "Cloudflare"
       }
     ],
     "Vect": [
@@ -195,200 +489,52 @@
         "source": "Unit 42"
       }
     ],
-    "Mini": [
+    "APT41": [
       {
-        "title": "The Trump Administration Is Lifting Its Export Controls on Anthropic’s Mythos and Fable AI Models",
-        "link": "https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models/",
-        "date": "2026-06-30T23:23:04+00:00",
-        "source": "Wired"
+        "title": "Elastic named a Leader in the Everest Group Enterprise Search Products PEAK Matrix® Assessment 2026",
+        "link": "https://www.elastic.co/blog/elastic-leader-everest-group-enterprise-search-peak-matrix-2026",
+        "date": "2026-07-01T00:00:00+00:00",
+        "source": "Elastic"
       }
     ],
-    "JCrypt": [
+    "APT30": [
       {
-        "title": "Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data",
-        "link": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
-        "date": "2026-06-30T23:16:07+05:30",
-        "source": "The Hacker News"
+        "title": "Elastic named a Leader in the Everest Group Enterprise Search Products PEAK Matrix® Assessment 2026",
+        "link": "https://www.elastic.co/blog/elastic-leader-everest-group-enterprise-search-peak-matrix-2026",
+        "date": "2026-07-01T00:00:00+00:00",
+        "source": "Elastic"
       }
     ],
-    "One": [
+    "Everest": [
       {
-        "title": "Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data",
-        "link": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
-        "date": "2026-06-30T23:16:07+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints",
-        "link": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
-        "date": "2026-06-30T21:17:20+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Daisy’s First Headphones Are Premium, High-Quality—and Just a Little Bit Cheaper",
-        "link": "https://www.wired.com/story/daisy-sound-yet-another-company-is-making-premium-high-end-headphones/",
-        "date": "2026-06-30T21:07:32+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "The DeepMind trio who built a poker AI are now making money for quant hedge funds",
-        "link": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
-        "date": "2026-06-30T20:33:48+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "New attack provides one more reason why AI browsers are a bad idea",
-        "link": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/",
-        "date": "2026-06-30T20:03:14+00:00",
-        "source": "Ars Technica"
+        "title": "Elastic named a Leader in the Everest Group Enterprise Search Products PEAK Matrix® Assessment 2026",
+        "link": "https://www.elastic.co/blog/elastic-leader-everest-group-enterprise-search-peak-matrix-2026",
+        "date": "2026-07-01T00:00:00+00:00",
+        "source": "Elastic"
       }
     ],
-    "RIP (Phoenix) Ransomware": [
+    "LOTUS PANDA": [
       {
-        "title": "Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data",
-        "link": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
-        "date": "2026-06-30T23:16:07+05:30",
-        "source": "The Hacker News"
+        "title": "Elastic named a Leader in the Everest Group Enterprise Search Products PEAK Matrix® Assessment 2026",
+        "link": "https://www.elastic.co/blog/elastic-leader-everest-group-enterprise-search-peak-matrix-2026",
+        "date": "2026-07-01T00:00:00+00:00",
+        "source": "Elastic"
       }
     ],
-    "RNS": [
+    "Matrix": [
       {
-        "title": "Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data",
-        "link": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
-        "date": "2026-06-30T23:16:07+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "ClickFix: The Attack That Turns Users Into Their Own Attackers",
-        "link": "https://blog.checkpoint.com/securing-user-and-access/clickfix-the-attack-that-turns-users-into-their-own-attackers/",
-        "date": "2026-06-25T13:00:22+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "AnDROid": [
-      {
-        "title": "OpenClaw is finally available on Android and iOS",
-        "link": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
-        "date": "2026-06-30T21:53:28+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "DN": [
-      {
-        "title": "Fake Bug Report Hijacks AI Coding Agents at Scale",
-        "link": "https://www.darkreading.com/cyber-risk/fake-bug-report-hijacks-ai-coding-agents",
-        "date": "2026-06-30T21:37:50+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet Addresses",
-        "link": "https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html",
-        "date": "2026-06-30T21:10:18+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Anthropic to restore Claude Fable access on Wednesday",
-        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/",
-        "date": "2026-06-30T20:35:14-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Fake Perplexity extension on Chrome Web Store tracked searches",
-        "link": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/",
-        "date": "2026-06-30T11:46:19-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "CryLocker": [
-      {
-        "title": "Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet Addresses",
-        "link": "https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html",
-        "date": "2026-06-30T21:10:18+05:30",
-        "source": "The Hacker News"
+        "title": "Elastic named a Leader in the Everest Group Enterprise Search Products PEAK Matrix® Assessment 2026",
+        "link": "https://www.elastic.co/blog/elastic-leader-everest-group-enterprise-search-peak-matrix-2026",
+        "date": "2026-07-01T00:00:00+00:00",
+        "source": "Elastic"
       }
     ],
     "Silent": [
-      {
-        "title": "Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet Addresses",
-        "link": "https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html",
-        "date": "2026-06-30T21:10:18+05:30",
-        "source": "The Hacker News"
-      },
       {
         "title": "AI-Generated Workflows Are a Silent Security Disaster",
         "link": "https://www.darkreading.com/cyber-risk/ai-generated-workflows-silent-security-disaster",
         "date": "2026-06-30T13:00:00+00:00",
         "source": "DarkReading"
-      }
-    ],
-    "First": [
-      {
-        "title": "Daisy’s First Headphones Are Premium, High-Quality—and Just a Little Bit Cheaper",
-        "link": "https://www.wired.com/story/daisy-sound-yet-another-company-is-making-premium-high-end-headphones/",
-        "date": "2026-06-30T21:07:32+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Realta Fusion generates electricity directly from a fusion reaction, an apparent first",
-        "link": "https://techcrunch.com/2026/06/30/realta-fusion-generates-electricity-directly-from-a-fusion-reaction-an-apparent-first/",
-        "date": "2026-06-30T19:12:43+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Fusion": [
-      {
-        "title": "Realta Fusion generates electricity directly from a fusion reaction, an apparent first",
-        "link": "https://techcrunch.com/2026/06/30/realta-fusion-generates-electricity-directly-from-a-fusion-reaction-an-apparent-first/",
-        "date": "2026-06-30T19:12:43+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Quantum": [
-      {
-        "title": "Microsoft accelerates quantum-safe roadmap as risks grow",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-accelerates-quantum-safe-roadmap-as-risks-grow/",
-        "date": "2026-06-30T17:20:06-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Telegram": [
-      {
-        "title": "Malicious PyPI packages give hackers control of Telegram bot servers",
-        "link": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/",
-        "date": "2026-06-30T17:02:55-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "NMoreira": [
-      {
-        "title": "Threads adds new features to Live Chats as it expands access",
-        "link": "https://techcrunch.com/2026/06/30/threads-adds-new-features-to-live-chats-as-it-expands-access/",
-        "date": "2026-06-30T17:00:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Rocke": [
-      {
-        "title": "Blue Origin still doesn’t know why its New Glenn rocket blew up last month",
-        "link": "https://techcrunch.com/2026/06/30/blue-origin-still-doesnt-know-why-its-new-glenn-rocket-blew-up-last-month/",
-        "date": "2026-06-30T16:09:57+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Ogre": [
-      {
-        "title": "Progress Kemp LoadMaster Flaw Could Let Attackers Run Root Commands Pre-Auth",
-        "link": "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html",
-        "date": "2026-06-30T13:08:07+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Root": [
-      {
-        "title": "Progress Kemp LoadMaster Flaw Could Let Attackers Run Root Commands Pre-Auth",
-        "link": "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html",
-        "date": "2026-06-30T13:08:07+05:30",
-        "source": "The Hacker News"
       }
     ],
     "Shadow": [
@@ -399,80 +545,12 @@
         "source": "Check Point"
       }
     ],
-    "Hunt": [
-      {
-        "title": "Kali Linux 2026.2 released with 9 new tools, NetHunter updates",
-        "link": "https://www.bleepingcomputer.com/news/linux/kali-linux-20262-released-with-9-new-tools-nethunter-updates/",
-        "date": "2026-06-30T05:46:39-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "NAIC says public data stolen in ShinyHunters' PeopleSoft breach",
-        "link": "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
-        "date": "2026-06-29T16:30:28-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Kali": [
-      {
-        "title": "Kali Linux 2026.2 released with 9 new tools, NetHunter updates",
-        "link": "https://www.bleepingcomputer.com/news/linux/kali-linux-20262-released-with-9-new-tools-nethunter-updates/",
-        "date": "2026-06-30T05:46:39-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Blackfield": [
-      {
-        "title": "Blackfield ransomware asks Nidec Corporation for $2 million ransom",
-        "link": "https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/",
-        "date": "2026-06-30T05:41:05-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Hunters": [
-      {
-        "title": "NAIC says public data stolen in ShinyHunters' PeopleSoft breach",
-        "link": "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
-        "date": "2026-06-29T16:30:28-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "ShinyHunters": [
-      {
-        "title": "NAIC says public data stolen in ShinyHunters' PeopleSoft breach",
-        "link": "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
-        "date": "2026-06-29T16:30:28-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
     "global": [
       {
         "title": "Modernizing Global Vulnerability Standards For The Age Of AI",
         "link": "https://www.rapid7.com/blog/post/ai-modernizing-global-vulnerability-standards",
         "date": "2026-06-29T12:37:04+00:00",
         "source": "Rapid7"
-      },
-      {
-        "title": "One-two punch delivered in global operation disrupts cybercrime \"assembly line\"",
-        "link": "https://arstechnica.com/security/2026/06/one-two-punch-delivered-in-global-operation-disrupts-cybercrime-assembly-line/",
-        "date": "2026-06-24T21:03:34+00:00",
-        "source": "Ars Technica"
-      }
-    ],
-    "APT41": [
-      {
-        "title": "Amazon Q VS Extension Flaw Leads to Cloud Credential Theft",
-        "link": "https://www.darkreading.com/cloud-security/amazon-q-vs-extension-flaw-leads-cloud-credential-theft",
-        "date": "2026-06-29T11:44:42+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Ukrainian Cyber Alliance": [
-      {
-        "title": "Third-Party Breaches Teach Education Sector a Costly Lesson in Vendor Risk",
-        "link": "https://www.darkreading.com/cyber-risk/third-party-breaches-teaches-education-lesson-vendor-risk",
-        "date": "2026-06-27T11:48:05+00:00",
-        "source": "DarkReading"
       }
     ],
     "Metasploit": [
@@ -481,22 +559,6 @@
         "link": "https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-modules-for-audiobookshelf-litellm-next-js-dalfox-and-more",
         "date": "2026-06-26T19:32:52+00:00",
         "source": "Rapid7"
-      }
-    ],
-    "Defender": [
-      {
-        "title": "Prevention Before the Inbox: Reading the Microsoft Defender Benchmark Report in Context",
-        "link": "https://blog.checkpoint.com/securing-user-and-access/prevention-before-the-inbox-reading-the-microsoft-defender-benchmark-report-in-context/",
-        "date": "2026-06-25T13:01:54+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "Assembly": [
-      {
-        "title": "One-two punch delivered in global operation disrupts cybercrime \"assembly line\"",
-        "link": "https://arstechnica.com/security/2026/06/one-two-punch-delivered-in-global-operation-disrupts-cybercrime-assembly-line/",
-        "date": "2026-06-24T21:03:34+00:00",
-        "source": "Ars Technica"
       }
     ]
   }

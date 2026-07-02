@@ -33,12 +33,10 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures](https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html)
+  The Hacker News - 2026-07-01T
 - [Fake Bug Report Hijacks AI Coding Agents at Scale](https://www.darkreading.com/cyber-risk/fake-bug-report-hijacks-ai-coding-agents)
   DarkReading - 2026-06-30T
-- [Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet Addresses](https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html)
-  The Hacker News - 2026-06-30T
 - [Anthropic to restore Claude Fable access on Wednesday](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/)
-  BleepingComputer - 2026-06-30T
-- [Fake Perplexity extension on Chrome Web Store tracked searches](https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/)
   BleepingComputer - 2026-06-30T
 
