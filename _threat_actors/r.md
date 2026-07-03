@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office](https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/)
-  TechCrunch - 2026-07-02T
-- [Whoop Promo Codes: 20% Off This July 2026](https://www.wired.com/story/whoop-promo-code/)
-  Wired - 2026-07-02T
-- [Altra Running Promo Codes July 2026](https://www.wired.com/story/altra-promo-code/)
-  Wired - 2026-07-02T
-- [30% Off Samsung Promo Code | July 2026](https://www.wired.com/story/samsung-promo-codes/)
-  Wired - 2026-07-02T
-- [Squarespace Promo Codes: 20% Off in July 2026](https://www.wired.com/story/squarespace-promo-code/)
-  Wired - 2026-07-02T
+- [Politician who investigated spyware abuses had his phone hacked with Pegasus spyware](https://techcrunch.com/2026/07/02/politician-who-investigated-spyware-abuses-had-his-phone-hacked-with-pegasus-spyware/)
+  TechCrunch - 2026-07-03T
+- [EU Politicians Investigated Pegasus Spyware. Then It Ended Up on One of Their Phones](https://www.wired.com/story/eu-politicians-investigated-pegasus-spyware-then-it-ended-up-on-one-of-their-phones/)
+  Wired - 2026-07-03T
+- [Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices](https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html)
+  The Hacker News - 2026-07-03T
+- [Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials](https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html)
+  The Hacker News - 2026-07-03T
+- [The Onion’s ‘Infowars’ Parody Is Here. Alex Jones Is Going to Hate It](https://www.wired.com/story/the-onions-infowars-parody-is-here-alex-jones-is-going-to-hate-it/)
+  Wired - 2026-07-03T
 

@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Apple is reportedly planning new iPad Pro and MacBook Pro releases early next year](https://techcrunch.com/2026/07/01/apple-is-reportedly-planning-new-ipad-pro-and-macbook-pro-releases-early-next-year/)
-  TechCrunch - 2026-07-01T
-

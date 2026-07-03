@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Apple is reportedly planning new iPad Pro and MacBook Pro releases early next year](https://techcrunch.com/2026/07/01/apple-is-reportedly-planning-new-ipad-pro-and-macbook-pro-releases-early-next-year/)
-  TechCrunch - 2026-07-01T
-- [SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT](https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html)
-  The Hacker News - 2026-07-01T
-- [VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer](https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html)
-  The Hacker News - 2026-07-01T
-- [An Explosion Knocked Out Anduril’s Rocket Motor Test Site in Mississippi](https://www.wired.com/story/anduril-mississippi-explosion-missiles-rocket-motor/)
-  Wired - 2026-07-01T
-- [Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts](https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html)
-  The Hacker News - 2026-07-01T
+- [Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials](https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html)
+  The Hacker News - 2026-07-03T
+- [Last chance to apply — Startup Battlefield Australia applications close July 6](https://techcrunch.com/2026/07/02/last-chance-to-apply-startup-battlefield-australia-applications-close-july-6-2/)
+  TechCrunch - 2026-07-03T
+- [ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories](https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html)
+  The Hacker News - 2026-07-02T
+- [How Big Is ‘Love Island USA’? More Than 10 Million People Are Already on Its App](https://www.wired.com/story/love-island-usa-app/)
+  Wired - 2026-07-02T
+- [Apple Reverses Age-Old Patch Policy to Keep Up With AI](https://www.darkreading.com/cybersecurity-operations/apple-patch-policy-ai)
+  DarkReading - 2026-07-02T
 

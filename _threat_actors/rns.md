@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Boeing-owned Wisk Aero accused of firing manager who raised safety concerns](https://techcrunch.com/2026/07/02/boeing-owned-wisk-aero-accused-of-firing-manager-who-raised-safety-concerns/)
+  TechCrunch - 2026-07-02T
+

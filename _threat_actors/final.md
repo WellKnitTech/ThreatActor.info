@@ -30,3 +30,11 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Google loses final appeal to overturn €4.1 billion EU fine](https://www.bleepingcomputer.com/news/legal/google-loses-final-appeal-to-overturn-41-billion-eu-fine/)
+  BleepingComputer - 2026-07-02T
+- [Cisco finally confirms attackers exploiting Unified CM flaw](https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/)
+  BleepingComputer - 2026-07-02T
+

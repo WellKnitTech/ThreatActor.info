@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Altra Running Promo Codes July 2026](https://www.wired.com/story/altra-promo-code/)
-  Wired - 2026-07-02T
-- [Paramount+ Coupon Codes and Deals for July 2026](https://www.wired.com/story/paramount-plus-coupon-code/)
-  Wired - 2026-07-02T
-- [19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges](https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html)
+- [Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials](https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html)
+  The Hacker News - 2026-07-03T
+- [Last chance to apply — Startup Battlefield Australia applications close July 6](https://techcrunch.com/2026/07/02/last-chance-to-apply-startup-battlefield-australia-applications-close-july-6-2/)
+  TechCrunch - 2026-07-03T
+- [ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories](https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html)
   The Hacker News - 2026-07-02T
-- [SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT](https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html)
-  The Hacker News - 2026-07-01T
-- [The Best July 4 Grill and Griddle Deals: Weber, Traeger, Recteq](https://www.wired.com/story/best-grill-griddle-deals-july-4-2026/)
-  Wired - 2026-07-01T
+- [Jersey Mike’s IPO illustrates how bad the AI hype has become](https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/)
+  TechCrunch - 2026-07-02T
+- [FortiBleed Actors Collaborating With Inc, Lynx Ransomware Gangs](https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs)
+  DarkReading - 2026-07-02T
 

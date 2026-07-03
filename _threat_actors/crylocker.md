@@ -30,9 +30,3 @@ Ransomware Identifies victim locations w/Google Maps API
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Microsoft Accelerates Post-Quantum Cryptography Shift to 2029](https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html)
-  The Hacker News - 2026-07-01T
-

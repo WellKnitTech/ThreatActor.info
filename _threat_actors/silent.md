@@ -30,9 +30,3 @@ Silent is an active ransomware-as-a-service operation tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [AI-Generated Workflows Are a Silent Security Disaster](https://www.darkreading.com/cyber-risk/ai-generated-workflows-silent-security-disaster)
-  DarkReading - 2026-06-30T
-

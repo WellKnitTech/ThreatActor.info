@@ -30,9 +30,3 @@ Aware is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [2026 Cybersecurity Assessment: The Gap Between Awareness and Resilience](https://thehackernews.com/2026/07/2026-cybersecurity-assessment-gap.html)
-  The Hacker News - 2026-07-01T
-

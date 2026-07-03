@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Lime begins life as a public company after years of uncertainty](https://techcrunch.com/2026/07/01/lime-begins-life-as-a-public-company-after-years-of-uncertainty/)
-  TechCrunch - 2026-07-01T
-

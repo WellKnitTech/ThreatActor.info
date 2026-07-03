@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [AI-Generated Browser Ransomware Abuses Chromium API on Windows and Android](https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html)
-  The Hacker News - 2026-07-01T
-

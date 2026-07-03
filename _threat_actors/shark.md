@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [The DEA Plans to Ban Opioid-Like Kratom Compound 7-OH](https://www.wired.com/story/the-dea-plans-to-ban-kratom-compound-7-oh-sold-as-a-gas-station-opioid/)
+  Wired - 2026-07-02T
+

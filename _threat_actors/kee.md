@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Apple Reverses Age-Old Patch Policy to Keep Up With AI](https://www.darkreading.com/cybersecurity-operations/apple-patch-policy-ai)
+  DarkReading - 2026-07-02T
+

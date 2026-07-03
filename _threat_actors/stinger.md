@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Hostinger Promo Code: 79% Off for July 2026](https://www.wired.com/story/hostinger-coupon-code/)
-  Wired - 2026-07-02T
-

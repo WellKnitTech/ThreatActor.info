@@ -33,8 +33,10 @@ Ransomware Variant of Kirk
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [ConsentFix and ClickFix: How Microsoft 365 Accounts are Hijacked in 3 Seconds](https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/)
+  BleepingComputer - 2026-07-02T
+- [Opera rolls out Paste Protect feature to fight ClickFix attacks](https://www.bleepingcomputer.com/news/security/opera-rolls-out-paste-protect-feature-to-fight-clickfix-attacks/)
+  BleepingComputer - 2026-07-02T
 - [And the Winner in Dominant Malware Delivery? ClickFix](https://www.darkreading.com/vulnerabilities-threats/winner-dominant-malware-delivery-clickfix)
   DarkReading - 2026-07-01T
-- [Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery](https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html)
-  The Hacker News - 2026-07-01T
 

@@ -30,3 +30,13 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Claude Fable 5 isn’t permanently leaving subscriptions, Anthropic says](https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/)
+  BleepingComputer - 2026-07-02T
+- [I Tried Rips, the Card-Pack App Where Users Spend Thousands Chasing Pricey Pokémon](https://www.wired.com/story/i-tried-rips-the-card-pack-app-where-users-spend-thousands-chasing-pricey-pokemon/)
+  Wired - 2026-07-02T
+- [Meta Is Charging a Subscription for Smart Glasses Features. Welcome to the New Era of Consumer Tech](https://www.wired.com/story/why-meta-is-charging-a-subscription-for-on-device-smart-glasses-features/)
+  Wired - 2026-07-02T
+

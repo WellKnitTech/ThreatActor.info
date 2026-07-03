@@ -33,8 +33,6 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Bending Spoons defies SaaS slump, surges 40% on first day of trading](https://techcrunch.com/2026/07/01/bending-spoons-defies-saas-slump-surges-40-on-first-day-of-trading/)
-  TechCrunch - 2026-07-01T
-- [Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off](https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/)
-  TechCrunch - 2026-07-01T
+- [IQM, Europe’s first public quantum company, admits the future of the tech is uncertain](https://techcrunch.com/2026/07/02/iqm-europes-first-public-quantum-company-admits-the-future-of-the-tech-is-uncertain/)
+  TechCrunch - 2026-07-02T
 

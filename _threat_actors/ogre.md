@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts](https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html)
-  The Hacker News - 2026-07-01T
+- [Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped](https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/)
+  TechCrunch - 2026-07-02T
 

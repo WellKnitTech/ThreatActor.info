@@ -35,6 +35,4 @@ Fusion is an active extortion or ransomware group tracked by RansomLook.
 
 - [Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic](https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html)
   The Hacker News - 2026-07-01T
-- [Adobe patches seven max severity ColdFusion, Campaign flaws](https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/)
-  BleepingComputer - 2026-07-01T
 
