@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Google DeepMind Unionization Talks Are Off to a Rocky Start](https://www.wired.com/story/google-deepmind-unionization-talks-are-off-to-a-rocky-start/)
+  Wired - 2026-07-03T
 - [The Onion’s ‘Infowars’ Parody Is Here. Alex Jones Is Going to Hate It](https://www.wired.com/story/the-onions-infowars-parody-is-here-alex-jones-is-going-to-hate-it/)
   Wired - 2026-07-03T
 - [Medtronic notifies customers impacted by ShinyHunters data breach](https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/)

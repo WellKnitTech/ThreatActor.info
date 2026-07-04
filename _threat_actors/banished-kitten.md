@@ -41,3 +41,9 @@ BANISHED KITTEN is an Iranian state-nexus adversary active since at least 2008. 
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [The Dune keypad device can be your meeting controller and more](https://techcrunch.com/2026/07/03/the-dune-keypad-device-can-be-your-meeting-controller-and-more/)
+  TechCrunch - 2026-07-03T
+

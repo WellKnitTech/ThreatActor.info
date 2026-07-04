@@ -30,9 +30,3 @@ Not a RaaS yet.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Modernizing Global Vulnerability Standards For The Age Of AI](https://www.rapid7.com/blog/post/ai-modernizing-global-vulnerability-standards)
-  Rapid7 - 2026-06-29T
-

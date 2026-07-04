@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [The Best Ultralight Backpacking Quilts (2026): Zenbivy, REI](https://www.wired.com/story/the-best-ultralight-backpacking-quilts/)
+  Wired - 2026-07-03T
+
