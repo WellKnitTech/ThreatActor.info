@@ -37,6 +37,4 @@ Ransomware
   The Hacker News - 2026-07-04T
 - [How We Added WebAuthn to a Browser-Based RDP Client](https://unit42.paloaltonetworks.com/webauthn-added-to-browser-based-rdp/)
   Unit 42 - 2026-07-02T
-- [Travel app Hopper to pay $35M in FTC settlement over ‘unfairly’ charging hidden fees](https://techcrunch.com/2026/07/02/travel-app-hopper-to-pay-35m-in-ftc-settlement-over-unfairly-charging-hidden-fees/)
-  TechCrunch - 2026-07-02T
 

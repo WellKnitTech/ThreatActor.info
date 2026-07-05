@@ -40,8 +40,6 @@ Lynx is an active ransomware-as-a-service operation tracked by RansomLook.
 
 - [FortiBleed Actors Collaborating With Inc, Lynx Ransomware Gangs](https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs)
   DarkReading - 2026-07-02T
-- [FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations](https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html)
-  The Hacker News - 2026-07-02T
 - [FortiBleed credential-theft campaign linked to Lynx ransomware](https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/)
   BleepingComputer - 2026-07-01T
 

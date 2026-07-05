@@ -32,3 +32,9 @@ Kairos is an extortion group that emerged with a data-leak site on 13 November 2
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case](https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html)
+  The Hacker News - 2026-07-04T
+

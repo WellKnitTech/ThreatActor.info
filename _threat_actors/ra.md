@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [New Google commercial imagines a Declaration of Independence written with help from AI](https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/)
+  TechCrunch - 2026-07-04T
+- [What is Mistral AI? Everything to know about the OpenAI competitor](https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/)
+  TechCrunch - 2026-07-04T
+- [15 Best MagSafe Wireless Chargers (2026): Power Banks, Stands, Pads, and Travel Chargers](https://www.wired.com/gallery/best-magsafe-wireless-chargers/)
+  Wired - 2026-07-04T
+- [JadePuffer ransomware used AI agent to automate entire attack](https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/)
+  BleepingComputer - 2026-07-04T
 - [New Avalon Malware Framework Packs CrownX Ransomware Capabilities](https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html)
   The Hacker News - 2026-07-04T
-- [Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026/)
-  Rapid7 - 2026-07-03T
-- [The Best Ultralight Backpacking Quilts (2026): Zenbivy, REI](https://www.wired.com/story/the-best-ultralight-backpacking-quilts/)
-  Wired - 2026-07-03T
-- [Sony Erases Digital Content From Libraries, a Reminder That You Don’t Own What You Buy](https://www.wired.com/story/sony-erases-digital-content-from-libraries/)
-  Wired - 2026-07-03T
-- [Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials](https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html)
-  The Hacker News - 2026-07-03T
 

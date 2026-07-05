@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T05:44:09Z",
+  "updated": "2026-07-05T06:03:02Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,6 +19,200 @@
     "Rapid7"
   ],
   "actor_news": {
+    "R": [
+      {
+        "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
+        "link": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+        "date": "2026-07-04T20:55:25+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case",
+        "link": "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html",
+        "date": "2026-07-04T18:17:53+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
+        "link": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+        "date": "2026-07-04T18:00:05+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign",
+        "link": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html",
+        "date": "2026-07-04T16:47:24+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Alibaba reportedly bans employees from using Claude Code",
+        "link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+        "date": "2026-07-04T16:32:08+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Ra": [
+      {
+        "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
+        "link": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+        "date": "2026-07-04T20:55:25+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
+        "link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+        "date": "2026-07-04T15:51:32+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "15 Best MagSafe Wireless Chargers (2026): Power Banks, Stands, Pads, and Travel Chargers",
+        "link": "https://www.wired.com/gallery/best-magsafe-wireless-chargers/",
+        "date": "2026-07-04T11:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "JadePuffer ransomware used AI agent to automate entire attack",
+        "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/",
+        "date": "2026-07-04T10:16:38-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
+        "link": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
+        "date": "2026-07-04T00:25:24+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Kairos": [
+      {
+        "title": "U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case",
+        "link": "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html",
+        "date": "2026-07-04T18:17:53+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Korean": [
+      {
+        "title": "North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign",
+        "link": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html",
+        "date": "2026-07-04T16:47:24+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Cleaver": [
+      {
+        "title": "Alibaba reportedly bans employees from using Claude Code",
+        "link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+        "date": "2026-07-04T16:32:08+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "PL": [
+      {
+        "title": "Alibaba reportedly bans employees from using Claude Code",
+        "link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+        "date": "2026-07-04T16:32:08+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Security Roundup: Apple’s Hide My Email Service Fails to Hide Your Email",
+        "link": "https://www.wired.com/story/security-roundup-apples-hide-my-email-service-fails-to-hide-your-email/",
+        "date": "2026-07-04T10:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "This Buried Apple Feature Turns an iPhone Into the Perfect Kids’ Dumb Phone",
+        "link": "https://www.wired.com/story/this-buried-apple-feature-turns-an-iphone-into-the-perfect-kids-dumb-phone/",
+        "date": "2026-07-04T10:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026/",
+        "date": "2026-07-03T22:11:22+00:00",
+        "source": "Rapid7"
+      },
+      {
+        "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
+        "link": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
+        "date": "2026-07-03T00:00:33+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Ank": [
+      {
+        "title": "15 Best MagSafe Wireless Chargers (2026): Power Banks, Stands, Pads, and Travel Chargers",
+        "link": "https://www.wired.com/gallery/best-magsafe-wireless-chargers/",
+        "date": "2026-07-04T11:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "One": [
+      {
+        "title": "This Buried Apple Feature Turns an iPhone Into the Perfect Kids’ Dumb Phone",
+        "link": "https://www.wired.com/story/this-buried-apple-feature-turns-an-iphone-into-the-perfect-kids-dumb-phone/",
+        "date": "2026-07-04T10:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "3 Nuclear Startups Hit a Big Milestone. Why It Matters—and Why It Doesn’t",
+        "link": "https://www.wired.com/story/nuclear-startups-hit-milestone-why-it-matters/",
+        "date": "2026-07-03T18:13:15+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Best Bone Conduction Headphones (2026): Shokz, Suunto, Mojawa",
+        "link": "https://www.wired.com/gallery/best-bone-conduction-headphones/",
+        "date": "2026-07-03T11:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "7 Best Phones You Can’t Buy in the US (2026)",
+        "link": "https://www.wired.com/gallery/best-phones-you-cant-buy-in-the-united-states/",
+        "date": "2026-07-03T10:31:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Politician who investigated spyware abuses had his phone hacked with Pegasus spyware",
+        "link": "https://techcrunch.com/2026/07/02/politician-who-investigated-spyware-abuses-had-his-phone-hacked-with-pegasus-spyware/",
+        "date": "2026-07-03T05:05:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "RNS": [
+      {
+        "title": "This Buried Apple Feature Turns an iPhone Into the Perfect Kids’ Dumb Phone",
+        "link": "https://www.wired.com/story/this-buried-apple-feature-turns-an-iphone-into-the-perfect-kids-dumb-phone/",
+        "date": "2026-07-04T10:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Deadeye Jackal": [
+      {
+        "title": "Food Preservatives May Increase the Risk of High Blood Pressure and Cardiovascular Disease",
+        "link": "https://www.wired.com/story/food-preservatives-may-increase-the-risk-of-high-blood-pressure-and-cardiovascular-disease/",
+        "date": "2026-07-04T09:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
+        "link": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+        "date": "2026-07-03T18:43:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Making AI search smarter",
+        "link": "https://blog.cloudflare.com/making-ai-search-smarter/",
+        "date": "2026-07-01T13:00:00+00:00",
+        "source": "Cloudflare"
+      },
+      {
+        "title": "Elastic named a Leader in the Everest Group Enterprise Search Products PEAK Matrix® Assessment 2026",
+        "link": "https://www.elastic.co/blog/elastic-leader-everest-group-enterprise-search-peak-matrix-2026",
+        "date": "2026-07-01T00:00:00+00:00",
+        "source": "Elastic"
+      }
+    ],
     "DDE": [
       {
         "title": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices",
@@ -31,12 +225,6 @@
         "link": "https://unit42.paloaltonetworks.com/webauthn-added-to-browser-based-rdp/",
         "date": "2026-07-02T22:00:39+00:00",
         "source": "Unit 42"
-      },
-      {
-        "title": "Travel app Hopper to pay $35M in FTC settlement over ‘unfairly’ charging hidden fees",
-        "link": "https://techcrunch.com/2026/07/02/travel-app-hopper-to-pay-35m-in-ftc-settlement-over-unfairly-charging-hidden-fees/",
-        "date": "2026-07-02T18:39:14+00:00",
-        "source": "TechCrunch"
       }
     ],
     "AnDROid": [
@@ -47,75 +235,11 @@
         "source": "The Hacker News"
       }
     ],
-    "R": [
-      {
-        "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
-        "link": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
-        "date": "2026-07-04T01:10:01+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
-        "link": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
-        "date": "2026-07-04T00:25:24+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more",
-        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026/",
-        "date": "2026-07-03T22:11:22+00:00",
-        "source": "Rapid7"
-      },
-      {
-        "title": "North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets",
-        "link": "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html",
-        "date": "2026-07-03T21:37:15+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "The only AI glossary you’ll need this year",
-        "link": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-        "date": "2026-07-03T21:20:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
     "Root": [
       {
         "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
         "link": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
         "date": "2026-07-04T01:10:01+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Ra": [
-      {
-        "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
-        "link": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
-        "date": "2026-07-04T00:25:24+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more",
-        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026/",
-        "date": "2026-07-03T22:11:22+00:00",
-        "source": "Rapid7"
-      },
-      {
-        "title": "The Best Ultralight Backpacking Quilts (2026): Zenbivy, REI",
-        "link": "https://www.wired.com/story/the-best-ultralight-backpacking-quilts/",
-        "date": "2026-07-03T10:06:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Sony Erases Digital Content From Libraries, a Reminder That You Don’t Own What You Buy",
-        "link": "https://www.wired.com/story/sony-erases-digital-content-from-libraries/",
-        "date": "2026-07-03T08:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
-        "link": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
-        "date": "2026-07-03T00:00:33+05:30",
         "source": "The Hacker News"
       }
     ],
@@ -125,38 +249,6 @@
         "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026/",
         "date": "2026-07-03T22:11:22+00:00",
         "source": "Rapid7"
-      }
-    ],
-    "PL": [
-      {
-        "title": "Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more",
-        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026/",
-        "date": "2026-07-03T22:11:22+00:00",
-        "source": "Rapid7"
-      },
-      {
-        "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
-        "link": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
-        "date": "2026-07-03T00:00:33+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Last chance to apply — Startup Battlefield Australia applications close July 6",
-        "link": "https://techcrunch.com/2026/07/02/last-chance-to-apply-startup-battlefield-australia-applications-close-july-6-2/",
-        "date": "2026-07-03T00:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
-        "link": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
-        "date": "2026-07-02T20:54:18+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "How Big Is ‘Love Island USA’? More Than 10 Million People Are Already on Its App",
-        "link": "https://www.wired.com/story/love-island-usa-app/",
-        "date": "2026-07-02T20:47:27+00:00",
-        "source": "Wired"
       }
     ],
     "Mimic": [
@@ -173,38 +265,6 @@
         "link": "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
         "date": "2026-07-03T19:06:33+05:30",
         "source": "The Hacker News"
-      }
-    ],
-    "Deadeye Jackal": [
-      {
-        "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
-        "link": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
-        "date": "2026-07-03T18:43:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
-        "link": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
-        "date": "2026-07-02T12:54:23+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "New ChocoPoC malware targets researchers via trojanized PoC exploits",
-        "link": "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
-        "date": "2026-07-01T16:08:13-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Making AI search smarter",
-        "link": "https://blog.cloudflare.com/making-ai-search-smarter/",
-        "date": "2026-07-01T13:00:00+00:00",
-        "source": "Cloudflare"
-      },
-      {
-        "title": "Elastic named a Leader in the Everest Group Enterprise Search Products PEAK Matrix® Assessment 2026",
-        "link": "https://www.elastic.co/blog/elastic-leader-everest-group-enterprise-search-peak-matrix-2026",
-        "date": "2026-07-01T00:00:00+00:00",
-        "source": "Elastic"
       }
     ],
     "BANISHED KITTEN": [
@@ -235,38 +295,6 @@
         "source": "TechCrunch"
       }
     ],
-    "One": [
-      {
-        "title": "3 Nuclear Startups Hit a Big Milestone. Why It Matters—and Why It Doesn’t",
-        "link": "https://www.wired.com/story/nuclear-startups-hit-milestone-why-it-matters/",
-        "date": "2026-07-03T18:13:15+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Best Bone Conduction Headphones (2026): Shokz, Suunto, Mojawa",
-        "link": "https://www.wired.com/gallery/best-bone-conduction-headphones/",
-        "date": "2026-07-03T11:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "7 Best Phones You Can’t Buy in the US (2026)",
-        "link": "https://www.wired.com/gallery/best-phones-you-cant-buy-in-the-united-states/",
-        "date": "2026-07-03T10:31:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Politician who investigated spyware abuses had his phone hacked with Pegasus spyware",
-        "link": "https://techcrunch.com/2026/07/02/politician-who-investigated-spyware-abuses-had-his-phone-hacked-with-pegasus-spyware/",
-        "date": "2026-07-03T05:05:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "EU Politicians Investigated Pegasus Spyware. Then It Ended Up on One of Their Phones",
-        "link": "https://www.wired.com/story/eu-politicians-investigated-pegasus-spyware-then-it-ended-up-on-one-of-their-phones/",
-        "date": "2026-07-03T05:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
     "Hacked": [
       {
         "title": "European Parliament Member Investigating Spyware Was Hacked With Pegasus",
@@ -289,12 +317,6 @@
         "source": "Wired"
       },
       {
-        "title": "The Onion’s ‘Infowars’ Parody Is Here. Alex Jones Is Going to Hate It",
-        "link": "https://www.wired.com/story/the-onions-infowars-parody-is-here-alex-jones-is-going-to-hate-it/",
-        "date": "2026-07-03T00:00:00+00:00",
-        "source": "Wired"
-      },
-      {
         "title": "Medtronic notifies customers impacted by ShinyHunters data breach",
         "link": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
         "date": "2026-07-02T00:25:42-04:00",
@@ -306,12 +328,6 @@
         "title": "PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords",
         "link": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
         "date": "2026-07-03T13:33:37+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
-        "link": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
-        "date": "2026-07-02T12:54:23+05:30",
         "source": "The Hacker News"
       },
       {
@@ -385,12 +401,6 @@
         "source": "DarkReading"
       },
       {
-        "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations",
-        "link": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
-        "date": "2026-07-02T13:30:49+05:30",
-        "source": "The Hacker News"
-      },
-      {
         "title": "FortiBleed credential-theft campaign linked to Lynx ransomware",
         "link": "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/",
         "date": "2026-07-01T17:37:24-04:00",
@@ -403,14 +413,6 @@
         "link": "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
         "date": "2026-07-02T18:34:13+05:30",
         "source": "The Hacker News"
-      }
-    ],
-    "SunCrypt": [
-      {
-        "title": "Anthropic is discussing a new custom chip with Samsung",
-        "link": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
-        "date": "2026-07-02T18:31:09+00:00",
-        "source": "TechCrunch"
       }
     ],
     "Final": [
@@ -484,14 +486,6 @@
         "title": "Medtronic notifies customers impacted by ShinyHunters data breach",
         "link": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
         "date": "2026-07-02T00:25:42-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Trojan": [
-      {
-        "title": "New ChocoPoC malware targets researchers via trojanized PoC exploits",
-        "link": "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
-        "date": "2026-07-01T16:08:13-04:00",
         "source": "BleepingComputer"
       }
     ],
