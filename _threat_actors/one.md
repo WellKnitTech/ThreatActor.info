@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Best Wi-Fi Routers (2026): My Honest Picks After Testing 40+](https://www.wired.com/gallery/best-wifi-routers/)
+  Wired - 2026-07-05T
 - [This Buried Apple Feature Turns an iPhone Into the Perfect Kids’ Dumb Phone](https://www.wired.com/story/this-buried-apple-feature-turns-an-iphone-into-the-perfect-kids-dumb-phone/)
   Wired - 2026-07-04T
-- [3 Nuclear Startups Hit a Big Milestone. Why It Matters—and Why It Doesn’t](https://www.wired.com/story/nuclear-startups-hit-milestone-why-it-matters/)
-  Wired - 2026-07-03T
-- [Best Bone Conduction Headphones (2026): Shokz, Suunto, Mojawa](https://www.wired.com/gallery/best-bone-conduction-headphones/)
-  Wired - 2026-07-03T
-- [7 Best Phones You Can’t Buy in the US (2026)](https://www.wired.com/gallery/best-phones-you-cant-buy-in-the-united-states/)
-  Wired - 2026-07-03T
-- [Politician who investigated spyware abuses had his phone hacked with Pegasus spyware](https://techcrunch.com/2026/07/02/politician-who-investigated-spyware-abuses-had-his-phone-hacked-with-pegasus-spyware/)
-  TechCrunch - 2026-07-03T
+- [Content Independence Day, one year on: building the business model for the agentic Internet](https://blog.cloudflare.com/agentic-internet-bot-report/)
+  Cloudflare - 2026-07-01T
+- [Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402](https://blog.cloudflare.com/monetization-gateway/)
+  Cloudflare - 2026-07-01T
+- [New attack provides one more reason why AI browsers are a bad idea](https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/)
+  Ars Technica - 2026-06-30T
 

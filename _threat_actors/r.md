@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [New Google commercial imagines a Declaration of Independence written with help from AI](https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/)
-  TechCrunch - 2026-07-04T
-- [U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case](https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html)
-  The Hacker News - 2026-07-04T
-- [Midjourney wants Hollywood studios to reveal the details of their AI usage](https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/)
-  TechCrunch - 2026-07-04T
-- [North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign](https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html)
-  The Hacker News - 2026-07-04T
-- [Alibaba reportedly bans employees from using Claude Code](https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/)
-  TechCrunch - 2026-07-04T
+- [This humanoid robotics company is going public, but its CEO isn’t promising a robot in your home anytime soon](https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/)
+  TechCrunch - 2026-07-06T
+- [Uber’s European expansion plans may have hit a speed bump](https://techcrunch.com/2026/07/05/ubers-european-expansion-plans-may-have-hit-a-speed-bump/)
+  TechCrunch - 2026-07-05T
+- [Trump memecoin investors lost $3.8 billion, analysis finds](https://techcrunch.com/2026/07/05/trump-memecoin-investors-lost-3-8-billion-analysis-finds/)
+  TechCrunch - 2026-07-05T
+- [Amazon will stop accepting new customers for Mechanical Turk](https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/)
+  TechCrunch - 2026-07-05T
+- [5 desk gadgets that can make your workday better](https://techcrunch.com/2026/07/05/5-desk-gadgets-that-can-make-your-workday-better/)
+  TechCrunch - 2026-07-05T
 

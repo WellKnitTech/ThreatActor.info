@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [What Are Fish Oil Supplements Good For? Here’s Your Crash Course](https://www.wired.com/story/what-are-fish-oil-supplements-good-for-heres-your-crash-course/)
+  Wired - 2026-07-05T
 - [New Google commercial imagines a Declaration of Independence written with help from AI](https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/)
   TechCrunch - 2026-07-04T
 - [What is Mistral AI? Everything to know about the OpenAI competitor](https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/)
@@ -41,6 +43,4 @@ ransomware
   Wired - 2026-07-04T
 - [JadePuffer ransomware used AI agent to automate entire attack](https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/)
   BleepingComputer - 2026-07-04T
-- [New Avalon Malware Framework Packs CrownX Ransomware Capabilities](https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html)
-  The Hacker News - 2026-07-04T
 

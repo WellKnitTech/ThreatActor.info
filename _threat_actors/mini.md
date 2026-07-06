@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Review: TCL RM9L RGB-Mini LED (2026)](https://www.wired.com/review/tcl-rm9l/)
+  Wired - 2026-07-05T
+

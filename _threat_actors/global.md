@@ -30,3 +30,9 @@ Not a RaaS yet.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [There’s a Global Network of Fungi Under Your Feet. This Is the First Complete Map](https://www.wired.com/story/theres-a-global-network-of-fungi-under-your-feet-this-is-the-first-complete-map/)
+  Wired - 2026-07-05T
+
