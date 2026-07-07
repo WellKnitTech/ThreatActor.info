@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [This humanoid robotics company is going public, but its CEO isn’t promising a robot in your home anytime soon](https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/)
-  TechCrunch - 2026-07-06T
-- [Uber’s European expansion plans may have hit a speed bump](https://techcrunch.com/2026/07/05/ubers-european-expansion-plans-may-have-hit-a-speed-bump/)
-  TechCrunch - 2026-07-05T
-- [Trump memecoin investors lost $3.8 billion, analysis finds](https://techcrunch.com/2026/07/05/trump-memecoin-investors-lost-3-8-billion-analysis-finds/)
-  TechCrunch - 2026-07-05T
-- [Amazon will stop accepting new customers for Mechanical Turk](https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/)
-  TechCrunch - 2026-07-05T
-- [5 desk gadgets that can make your workday better](https://techcrunch.com/2026/07/05/5-desk-gadgets-that-can-make-your-workday-better/)
-  TechCrunch - 2026-07-05T
+- [Target Promo Code: $50 Off | July 2026](https://www.wired.com/story/target-promo-code/)
+  Wired - 2026-07-07T
+- [Bartesian Discount Codes: 35% Off](https://www.wired.com/story/bartesian-discount-code/)
+  Wired - 2026-07-07T
+- [15% Off Adidas Promo Code | July 2026](https://www.wired.com/story/adidas-promo-code/)
+  Wired - 2026-07-07T
+- [Starz Promo Codes: $5 Off for July 2026](https://www.wired.com/story/starz-promo-code/)
+  Wired - 2026-07-07T
+- [Maytag Promo Codes: 15% Off Appliances](https://www.wired.com/story/maytag-promo-code/)
+  Wired - 2026-07-07T
 

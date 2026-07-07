@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [What Are Fish Oil Supplements Good For? Here’s Your Crash Course](https://www.wired.com/story/what-are-fish-oil-supplements-good-for-heres-your-crash-course/)
-  Wired - 2026-07-05T
-- [New Google commercial imagines a Declaration of Independence written with help from AI](https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/)
-  TechCrunch - 2026-07-04T
-- [What is Mistral AI? Everything to know about the OpenAI competitor](https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/)
-  TechCrunch - 2026-07-04T
-- [15 Best MagSafe Wireless Chargers (2026): Power Banks, Stands, Pads, and Travel Chargers](https://www.wired.com/gallery/best-magsafe-wireless-chargers/)
-  Wired - 2026-07-04T
-- [JadePuffer ransomware used AI agent to automate entire attack](https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/)
-  BleepingComputer - 2026-07-04T
+- [Pura Promo Codes: $20 Off July 2026](https://www.wired.com/story/pura-promo-code/)
+  Wired - 2026-07-07T
+- [20% Off Sephora Promo Code | July 2026](https://www.wired.com/story/sephora-promo-code/)
+  Wired - 2026-07-07T
+- [Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations](https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html)
+  The Hacker News - 2026-07-07T
+- [The ‘first’ AI-run ransomware attack still needed a human](https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/)
+  TechCrunch - 2026-07-06T
+- ['BusySnake' Infostealer Slithers into Critical Infrastructure Networks](https://www.darkreading.com/cyberattacks-data-breaches/busysnake-infostealer-critical-infrastructure-networks)
+  DarkReading - 2026-07-06T
 

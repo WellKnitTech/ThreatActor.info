@@ -30,3 +30,9 @@ Cloak is a cybercriminal ransomware group that first appeared publicly in mid-20
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing](https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html)
+  The Hacker News - 2026-07-06T
+

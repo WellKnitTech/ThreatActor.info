@@ -30,9 +30,3 @@ A new ransomware called File Spider is being distributed through spam that targe
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Alleged Scattered Spider hacker extradited to the United States](https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/)
-  BleepingComputer - 2026-07-02T
-
