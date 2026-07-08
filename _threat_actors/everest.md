@@ -37,9 +37,3 @@ Everest is a ransomware group active since at least December 2020, known for its
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Elastic named a Leader in the Everest Group Enterprise Search Products PEAK Matrix® Assessment 2026](https://www.elastic.co/blog/elastic-leader-everest-group-enterprise-search-peak-matrix-2026)
-  Elastic - 2026-07-01T
-

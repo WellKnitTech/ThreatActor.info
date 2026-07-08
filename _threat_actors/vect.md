@@ -35,6 +35,4 @@ Vect is an active extortion or ransomware group tracked by RansomLook.
 
 - [A Day With Your Vector Command Red Team Pod](https://www.rapid7.com/blog/post/so-ditl-day-with-your-vector-command-red-team-pod)
   Rapid7 - 2026-07-06T
-- [Phantom Squatting: AI-Hallucinated Domains as a Software Supply Chain Vector](https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/)
-  Unit 42 - 2026-07-01T
 

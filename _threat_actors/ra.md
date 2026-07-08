@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Pura Promo Codes: $20 Off July 2026](https://www.wired.com/story/pura-promo-code/)
-  Wired - 2026-07-07T
-- [20% Off Sephora Promo Code | July 2026](https://www.wired.com/story/sephora-promo-code/)
-  Wired - 2026-07-07T
-- [Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations](https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html)
+- [RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service](https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html)
   The Hacker News - 2026-07-07T
-- [The ‘first’ AI-run ransomware attack still needed a human](https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/)
-  TechCrunch - 2026-07-06T
-- ['BusySnake' Infostealer Slithers into Critical Infrastructure Networks](https://www.darkreading.com/cyberattacks-data-breaches/busysnake-infostealer-critical-infrastructure-networks)
-  DarkReading - 2026-07-06T
+- [Final extension: Startup Battlefield Australia applications now close July 20](https://techcrunch.com/2026/07/07/final-extension-startup-battlefield-australia-applications-now-close-july-20/)
+  TechCrunch - 2026-07-07T
+- [Meta just launched a new AI generator, Muse Image, and users are already pushing back over use of their photos](https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/)
+  TechCrunch - 2026-07-07T
+- [Meta Now Lets Anyone Use Your Instagram Photos in AI Images—Unless You Opt Out](https://www.wired.com/story/meta-now-lets-anyone-use-your-instagram-photos-in-ai-images-unless-you-opt-out/)
+  Wired - 2026-07-07T
+- [Big Brand Jobs Scam Targets Marketing Pros' Google Accounts](https://www.darkreading.com/cyberattacks-data-breaches/big-brand-jobs-scam-marketing-pros-google-accounts)
+  DarkReading - 2026-07-07T
 

@@ -111,6 +111,4 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 
 - [How to Evaluate an AI SOC Platform in 2026: 6 Capabilities That Separate Leaders from Bolt-On AI solutions](https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html)
   The Hacker News - 2026-07-06T
-- [Elastic named a Leader in the Everest Group Enterprise Search Products PEAK Matrix® Assessment 2026](https://www.elastic.co/blog/elastic-leader-everest-group-enterprise-search-peak-matrix-2026)
-  Elastic - 2026-07-01T
 

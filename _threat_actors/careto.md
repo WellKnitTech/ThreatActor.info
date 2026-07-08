@@ -51,6 +51,6 @@ This threat actor targets governments, diplomatic missions, private companies in
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Unmasking the crawls with Attribution Business Insights](https://blog.cloudflare.com/attribution-business-insights/)
-  Cloudflare - 2026-07-01T
+- [Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation](https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis/)
+  Unit 42 - 2026-07-07T
 

@@ -33,6 +33,6 @@ parser needs to be built
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Reddit is using LLMs to solve a problem LLMs largely created](https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/)
-  TechCrunch - 2026-07-06T
+- [Valvoline Coupons and Promo Codes for July 2026](https://www.wired.com/story/valvoline-coupons/)
+  Wired - 2026-07-08T
 

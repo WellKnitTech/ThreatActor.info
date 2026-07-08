@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Target Promo Code: $50 Off | July 2026](https://www.wired.com/story/target-promo-code/)
-  Wired - 2026-07-07T
-- [Bartesian Discount Codes: 35% Off](https://www.wired.com/story/bartesian-discount-code/)
-  Wired - 2026-07-07T
-- [15% Off Adidas Promo Code | July 2026](https://www.wired.com/story/adidas-promo-code/)
-  Wired - 2026-07-07T
-- [Starz Promo Codes: $5 Off for July 2026](https://www.wired.com/story/starz-promo-code/)
-  Wired - 2026-07-07T
-- [Maytag Promo Codes: 15% Off Appliances](https://www.wired.com/story/maytag-promo-code/)
-  Wired - 2026-07-07T
+- [Tuft & Needle Promo Codes: 30% Off | July 2026](https://www.wired.com/story/tuft-and-needle-promo-code/)
+  Wired - 2026-07-08T
+- [Litter-Robot Promo Codes: Up to $150 Off](https://www.wired.com/story/litter-robot-promo-code/)
+  Wired - 2026-07-08T
+- [KitchenAid Promo Codes: Save Up to 20%](https://www.wired.com/story/exclusive-kitchenaid-promo-code/)
+  Wired - 2026-07-08T
+- [LegalZoom Promo Code: Exclusive 10% Off LLC Formations](https://www.wired.com/story/legalzoom-promo-code/)
+  Wired - 2026-07-08T
+- [H&R Block Coupon: 25% Off DIY + Tax Pro Assist](https://www.wired.com/story/hr-block-coupon/)
+  Wired - 2026-07-08T
 

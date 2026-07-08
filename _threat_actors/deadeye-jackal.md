@@ -46,6 +46,4 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 
 - [Making AI search smarter](https://blog.cloudflare.com/making-ai-search-smarter/)
   Cloudflare - 2026-07-01T
-- [Elastic named a Leader in the Everest Group Enterprise Search Products PEAK Matrix® Assessment 2026](https://www.elastic.co/blog/elastic-leader-everest-group-enterprise-search-peak-matrix-2026)
-  Elastic - 2026-07-01T
 

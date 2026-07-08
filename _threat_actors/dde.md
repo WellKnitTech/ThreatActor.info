@@ -33,8 +33,10 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices](https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html)
-  The Hacker News - 2026-07-04T
+- [Hidden backdoor in Tenda router firmware grants admin access](https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/)
+  BleepingComputer - 2026-07-07T
+- [CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware](https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html)
+  The Hacker News - 2026-07-07T
 - [How We Added WebAuthn to a Browser-Based RDP Client](https://unit42.paloaltonetworks.com/webauthn-added-to-browser-based-rdp/)
   Unit 42 - 2026-07-02T
 
