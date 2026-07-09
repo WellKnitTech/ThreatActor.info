@@ -33,6 +33,6 @@ Ransomware Variant of Kirk
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [And the Winner in Dominant Malware Delivery? ClickFix](https://www.darkreading.com/vulnerabilities-threats/winner-dominant-malware-delivery-clickfix)
-  DarkReading - 2026-07-01T
+- [SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users](https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html)
+  The Hacker News - 2026-07-08T
 

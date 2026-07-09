@@ -33,6 +33,6 @@ Fusion is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Max severity Adobe ColdFusion flaw now exploited in attacks](https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/)
-  BleepingComputer - 2026-07-06T
+- [CISA orders feds to patch max severity ColdFusion flaw by Friday](https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/)
+  BleepingComputer - 2026-07-08T
 

@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service](https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html)
-  The Hacker News - 2026-07-07T
-- [Final extension: Startup Battlefield Australia applications now close July 20](https://techcrunch.com/2026/07/07/final-extension-startup-battlefield-australia-applications-now-close-july-20/)
-  TechCrunch - 2026-07-07T
-- [Meta just launched a new AI generator, Muse Image, and users are already pushing back over use of their photos](https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/)
-  TechCrunch - 2026-07-07T
-- [Meta Now Lets Anyone Use Your Instagram Photos in AI Images—Unless You Opt Out](https://www.wired.com/story/meta-now-lets-anyone-use-your-instagram-photos-in-ai-images-unless-you-opt-out/)
-  Wired - 2026-07-07T
-- [Big Brand Jobs Scam Targets Marketing Pros' Google Accounts](https://www.darkreading.com/cyberattacks-data-breaches/big-brand-jobs-scam-marketing-pros-google-accounts)
-  DarkReading - 2026-07-07T
+- [Jabra Promo Codes: 30% Off  Headphones, Headsets & More](https://www.wired.com/story/jabra-promo-codes-coupons/)
+  Wired - 2026-07-09T
+- [Microsoft patches RoguePlanet Defender zero-day vulnerability](https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/)
+  BleepingComputer - 2026-07-09T
+- [Google pays $250K for Linux vulnerability allowing guest VM escapes](https://arstechnica.com/security/2026/07/high-severity-guest-vm-escape-is-1-of-2-linux-vulnerabilities-to-surface-this-week/)
+  Ars Technica - 2026-07-08T
+- [New Ghost Phishing Wave Is Breaking Traditional Email Security](https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html)
+  The Hacker News - 2026-07-08T
+- [Why this CEO thinks video games make better training data than the internet](https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/)
+  TechCrunch - 2026-07-08T
 

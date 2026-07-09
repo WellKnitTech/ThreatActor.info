@@ -33,6 +33,10 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Feds demand autonomous vehicle companies stop interfering with first responders](https://techcrunch.com/2026/07/08/feds-demand-autonomous-vehicle-companies-stop-interfering-with-first-responders/)
+  TechCrunch - 2026-07-08T
+- [Mexico's New Cyber Plan Faces Its First Real Test](https://www.darkreading.com/cyber-risk/mexicos-cyber-plan-first-real-test)
+  DarkReading - 2026-07-08T
 - [JadePuffer: The First Complete LLM-Driven Ransomware Attack](https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack)
   DarkReading - 2026-07-06T
 

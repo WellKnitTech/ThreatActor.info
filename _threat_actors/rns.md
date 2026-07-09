@@ -33,8 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware](https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html)
-  The Hacker News - 2026-07-07T
-- [BeyondTrust warns of critical flaws in remote access software](https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/)
-  BleepingComputer - 2026-07-07T
+- [Ubiquiti warns of new max severity  UniFi OS vulnerability](https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/)
+  BleepingComputer - 2026-07-08T
 

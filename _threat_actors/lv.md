@@ -33,6 +33,6 @@ parser needs to be built
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Valvoline Coupons and Promo Codes for July 2026](https://www.wired.com/story/valvoline-coupons/)
-  Wired - 2026-07-08T
+- [Vidar Infostealer Hammers SMBs via Malvertising Campaign](https://www.darkreading.com/cyberattacks-data-breaches/vidar-infostealer-smb-malvertising-campaign)
+  DarkReading - 2026-07-08T
 

@@ -33,6 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Netflix dabbles in shorter video content with its new set of publisher deals with Variety, others](https://techcrunch.com/2026/07/07/netflix-dabbles-in-shorter-video-content-with-its-new-set-of-publisher-deals-with-variety-others/)
-  TechCrunch - 2026-07-07T
+- [Babbel Promo Code: Up to 65% Off in July 2026](https://www.wired.com/story/babbel-promo-code/)
+  Wired - 2026-07-09T
 

@@ -33,10 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Meta Now Lets Anyone Use Your Instagram Photos in AI Images—Unless You Opt Out](https://www.wired.com/story/meta-now-lets-anyone-use-your-instagram-photos-in-ai-images-unless-you-opt-out/)
-  Wired - 2026-07-07T
-- [Content Independence Day, one year on: building the business model for the agentic Internet](https://blog.cloudflare.com/agentic-internet-bot-report/)
-  Cloudflare - 2026-07-01T
-- [Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402](https://blog.cloudflare.com/monetization-gateway/)
-  Cloudflare - 2026-07-01T
+- [Jabra Promo Codes: 30% Off  Headphones, Headsets & More](https://www.wired.com/story/jabra-promo-codes-coupons/)
+  Wired - 2026-07-09T
+- [Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours](https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment)
+  DarkReading - 2026-07-08T
+- [Autonomous drone delivery startup Manna plots major US expansion](https://techcrunch.com/2026/07/08/autonomous-drone-delivery-startup-manna-plots-major-u-s-expansion/)
+  TechCrunch - 2026-07-08T
 

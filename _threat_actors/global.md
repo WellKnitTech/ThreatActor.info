@@ -30,3 +30,9 @@ Not a RaaS yet.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Introducing Meerkat: an experiment in global consensus](https://blog.cloudflare.com/meerkat-introduction/)
+  Cloudflare - 2026-07-08T
+

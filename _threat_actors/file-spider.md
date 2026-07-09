@@ -30,9 +30,3 @@ A new ransomware called File Spider is being distributed through spam that targe
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker](https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html)
-  The Hacker News - 2026-07-07T
-

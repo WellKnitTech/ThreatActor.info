@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Lowe’s Promo Codes and Deals: Up to $300 Off Appliances](https://www.wired.com/story/lowes-promo-code/)
-  Wired - 2026-07-08T
-- [Final extension: Startup Battlefield Australia applications now close July 20](https://techcrunch.com/2026/07/07/final-extension-startup-battlefield-australia-applications-now-close-july-20/)
-  TechCrunch - 2026-07-07T
-- [What Changes When Your Software Supply Chain Includes AI Writing Your Code?](https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html)
-  The Hacker News - 2026-07-07T
-- [Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities](https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html)
-  The Hacker News - 2026-07-07T
-- [Cloudflare proudly joins the UK government's Cyber Resilience Pledge](https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/)
-  Cloudflare - 2026-07-07T
+- [Microsoft patches RoguePlanet Defender zero-day vulnerability](https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/)
+  BleepingComputer - 2026-07-09T
+- [Mexico's New Cyber Plan Faces Its First Real Test](https://www.darkreading.com/cyber-risk/mexicos-cyber-plan-first-real-test)
+  DarkReading - 2026-07-08T
+- [Autonomous drone delivery startup Manna plots major US expansion](https://techcrunch.com/2026/07/08/autonomous-drone-delivery-startup-manna-plots-major-u-s-expansion/)
+  TechCrunch - 2026-07-08T
+- [Hackers exploit Roundcube flaw to spy on academic researchers](https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/)
+  BleepingComputer - 2026-07-08T
+- [CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV](https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html)
+  The Hacker News - 2026-07-08T
 

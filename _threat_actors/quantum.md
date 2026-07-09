@@ -30,3 +30,9 @@ Quantum is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [With EU backing, QuantumDiamonds aims to speed up chip manufacturing](https://techcrunch.com/2026/07/08/with-eu-backing-quantumdiamonds-aims-to-speed-up-chip-manufacturing/)
+  TechCrunch - 2026-07-08T
+

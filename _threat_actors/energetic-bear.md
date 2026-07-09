@@ -41,3 +41,9 @@ A Russian group that collects intelligence on the energy industry.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Castlery Promo Codes: 15% Off for July 2026](https://www.wired.com/story/castlery-promo-code/)
+  Wired - 2026-07-09T
+
