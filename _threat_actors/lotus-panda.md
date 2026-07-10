@@ -41,9 +41,3 @@ Lotus Blossom is a threat group that has targeted government and military organi
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Spain arrests suspected member of pro-Russian hacktivist groups](https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-member-of-pro-russian-hacktivist-groups/)
-  BleepingComputer - 2026-07-07T
-

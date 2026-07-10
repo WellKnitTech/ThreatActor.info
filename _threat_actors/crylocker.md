@@ -30,3 +30,9 @@ Ransomware Identifies victim locations w/Google Maps API
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Injective SDK on npm infected with cryptocurrency wallet stealer](https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/)
+  BleepingComputer - 2026-07-09T
+

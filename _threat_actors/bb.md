@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Babbel Promo Code: Up to 65% Off in July 2026](https://www.wired.com/story/babbel-promo-code/)
-  Wired - 2026-07-09T
-

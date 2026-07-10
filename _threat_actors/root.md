@@ -30,9 +30,3 @@ Root is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros](https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html)
-  The Hacker News - 2026-07-08T
-

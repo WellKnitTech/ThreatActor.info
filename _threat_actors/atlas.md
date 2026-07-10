@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [OpenAI is shutting down Atlas, but its AI browser ambitions are still growing](https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/)
+  TechCrunch - 2026-07-09T
+

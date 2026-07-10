@@ -33,10 +33,10 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware](https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html)
+  The Hacker News - 2026-07-09T
 - [Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes](https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html)
   The Hacker News - 2026-07-09T
-- [Google’s deepfake detector system used to debunk McConnell hoax pic](https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/)
-  TechCrunch - 2026-07-08T
 - [Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials](https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/)
   BleepingComputer - 2026-07-08T
 

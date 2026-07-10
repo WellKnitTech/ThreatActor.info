@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Ubiquiti warns of new max severity  UniFi OS vulnerability](https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/)
-  BleepingComputer - 2026-07-08T
-

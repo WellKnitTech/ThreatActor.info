@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Apple Reverses Age-Old Patch Policy to Keep Up With AI](https://www.darkreading.com/cybersecurity-operations/apple-patch-policy-ai)
-  DarkReading - 2026-07-02T
+- [AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up](https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html)
+  The Hacker News - 2026-07-09T
 

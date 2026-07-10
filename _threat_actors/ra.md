@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Jabra Promo Codes: 30% Off  Headphones, Headsets & More](https://www.wired.com/story/jabra-promo-codes-coupons/)
+- [Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs](https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html)
+  The Hacker News - 2026-07-10T
+- [New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware](https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html)
+  The Hacker News - 2026-07-09T
+- [An AI agent startup just let its agent run its $100M fundraise](https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/)
+  TechCrunch - 2026-07-09T
+- [Elon Musk praises Mythos/Fable, promises not to ‘cut off’ Anthropic](https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/)
+  TechCrunch - 2026-07-09T
+- [Maine’s Senate Race Implodes, Meta’s Threads Rivals Musk’s X, and the Trump Phone Arrives](https://www.wired.com/story/uncanny-valley-podcast-maine-senate-race-implodes-meta-threads-trump-phone-arrives/)
   Wired - 2026-07-09T
-- [Microsoft patches RoguePlanet Defender zero-day vulnerability](https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/)
-  BleepingComputer - 2026-07-09T
-- [Google pays $250K for Linux vulnerability allowing guest VM escapes](https://arstechnica.com/security/2026/07/high-severity-guest-vm-escape-is-1-of-2-linux-vulnerabilities-to-surface-this-week/)
-  Ars Technica - 2026-07-08T
-- [New Ghost Phishing Wave Is Breaking Traditional Email Security](https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html)
-  The Hacker News - 2026-07-08T
-- [Why this CEO thinks video games make better training data than the internet](https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/)
-  TechCrunch - 2026-07-08T
 

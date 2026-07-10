@@ -30,3 +30,9 @@ Ransomware written in C#. Fortunately, all current versions of the MafiaWare666 
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses](https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html)
+  The Hacker News - 2026-07-09T
+

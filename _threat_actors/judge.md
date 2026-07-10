@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Despite ‘misgivings,’ judge approves Elon Musk’s $1.5M SEC settlement](https://techcrunch.com/2026/07/08/despite-misgivings-judge-approves-elon-musks-1-5-million-sec-settlement/)
-  TechCrunch - 2026-07-08T
-

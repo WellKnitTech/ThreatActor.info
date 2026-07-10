@@ -30,9 +30,3 @@ Ransomware Variant of Kirk
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users](https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html)
-  The Hacker News - 2026-07-08T
-

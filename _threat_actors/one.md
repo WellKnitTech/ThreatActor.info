@@ -33,10 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Jabra Promo Codes: 30% Off  Headphones, Headsets & More](https://www.wired.com/story/jabra-promo-codes-coupons/)
+- [After Apple, India’s smartphone manufacturing boom enters new phase with Vivo JV](https://techcrunch.com/2026/07/09/after-apple-indias-smartphone-manufacturing-boom-enters-new-phase-with-vivo-jv/)
+  TechCrunch - 2026-07-10T
+- [Maine’s Senate Race Implodes, Meta’s Threads Rivals Musk’s X, and the Trump Phone Arrives](https://www.wired.com/story/uncanny-valley-podcast-maine-senate-race-implodes-meta-threads-trump-phone-arrives/)
   Wired - 2026-07-09T
 - [Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours](https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment)
   DarkReading - 2026-07-08T
-- [Autonomous drone delivery startup Manna plots major US expansion](https://techcrunch.com/2026/07/08/autonomous-drone-delivery-startup-manna-plots-major-u-s-expansion/)
-  TechCrunch - 2026-07-08T
 

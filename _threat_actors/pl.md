@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Microsoft patches RoguePlanet Defender zero-day vulnerability](https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/)
-  BleepingComputer - 2026-07-09T
-- [Mexico's New Cyber Plan Faces Its First Real Test](https://www.darkreading.com/cyber-risk/mexicos-cyber-plan-first-real-test)
-  DarkReading - 2026-07-08T
-- [Autonomous drone delivery startup Manna plots major US expansion](https://techcrunch.com/2026/07/08/autonomous-drone-delivery-startup-manna-plots-major-u-s-expansion/)
-  TechCrunch - 2026-07-08T
-- [Hackers exploit Roundcube flaw to spy on academic researchers](https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/)
-  BleepingComputer - 2026-07-08T
-- [CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV](https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html)
-  The Hacker News - 2026-07-08T
+- [NordVPN Coupons: 75% Off, Plus 3 Months Free in July 2026](https://www.wired.com/story/nordvpn-coupon/)
+  Wired - 2026-07-10T
+- [After Apple, India’s smartphone manufacturing boom enters new phase with Vivo JV](https://techcrunch.com/2026/07/09/after-apple-indias-smartphone-manufacturing-boom-enters-new-phase-with-vivo-jv/)
+  TechCrunch - 2026-07-10T
+- [More Than a Thousand ‘Pokémon Go’ Players Descend on Times Square to Defeat Mewtwo](https://www.wired.com/story/thousands-of-pokemon-go-players-descend-on-times-square-to-defeat-mewtwo/)
+  Wired - 2026-07-10T
+- [Don’t want to invest in Elon Musk? Two new ETFs explicitly exclude him](https://techcrunch.com/2026/07/09/dont-want-to-invest-in-elon-musk-two-new-etfs-explicitly-exclude-him/)
+  TechCrunch - 2026-07-10T
+- [OpenAI’s CEO of AGI Deployment, Fidji Simo, Is Stepping Down](https://www.wired.com/story/fidji-simo-ceo-agi-deployment-openai/)
+  Wired - 2026-07-09T
 

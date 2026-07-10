@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Microsoft to retire the OWA Light client in Exchange Server](https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/)
+  BleepingComputer - 2026-07-09T
+

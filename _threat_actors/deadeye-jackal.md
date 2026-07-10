@@ -44,8 +44,6 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Vivid Seats Promo Codes and Deals: Get 10% Off](https://www.wired.com/story/vivid-seats-promo-code/)
-  Wired - 2026-07-09T
 - [Hackers exploit Roundcube flaw to spy on academic researchers](https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/)
   BleepingComputer - 2026-07-08T
 
