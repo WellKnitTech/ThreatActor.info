@@ -33,8 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Bluesky’s interim CEO, Toni Schneider, drops the ‘interim’](https://techcrunch.com/2026/07/10/blueskys-interim-ceo-toni-schneider-drops-the-interim/)
+  TechCrunch - 2026-07-10T
 - [Aussie gov't tells volunteers to throw out thousands of functioning test routers](https://arstechnica.com/gadgets/2026/07/thousands-of-routers-bricked-after-government-program-concludes-in-australia/)
   Ars Technica - 2026-07-08T
-- [State IDs for AI Agents: Will Estonia Set a Precedent?](https://www.darkreading.com/cybersecurity-operations/state-ids-ai-agents-estonia)
-  DarkReading - 2026-07-08T
 

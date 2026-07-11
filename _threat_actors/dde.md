@@ -35,6 +35,4 @@ Ransomware
 
 - [The Hidden Security Risks of Reduced Summer IT Coverage](https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/)
   BleepingComputer - 2026-07-09T
-- [How We Added WebAuthn to a Browser-Based RDP Client](https://unit42.paloaltonetworks.com/webauthn-added-to-browser-based-rdp/)
-  Unit 42 - 2026-07-02T
 

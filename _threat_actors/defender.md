@@ -35,8 +35,4 @@ Ransomware
 
 - [Patch for Windows Defender 0-day could allow attackers to fill hard disk](https://arstechnica.com/security/2026/07/patch-for-windows-defender-0-day-could-allow-attackers-to-fill-hard-disk/)
   Ars Technica - 2026-07-09T
-- [Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges](https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html)
-  The Hacker News - 2026-07-09T
-- [Microsoft patches RoguePlanet Defender zero-day vulnerability](https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/)
-  BleepingComputer - 2026-07-09T
 

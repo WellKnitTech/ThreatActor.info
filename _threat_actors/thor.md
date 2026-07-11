@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Meta’s Pursuit of the 'Careless People' Author Is Relentless and Self-Defeating](https://www.wired.com/story/metas-pursuit-of-the-careless-people-author-is-relentless-and-self-defeating/)
+  Wired - 2026-07-10T
+
