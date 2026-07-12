@@ -37,6 +37,4 @@ It’s directed to English speaking users, therefore is able to infect worldwide
   TechCrunch - 2026-07-11T
 - [Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access](https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html)
   The Hacker News - 2026-07-10T
-- [New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware](https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html)
-  The Hacker News - 2026-07-09T
 

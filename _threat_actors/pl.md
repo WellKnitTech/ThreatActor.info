@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Australia warns of global campaign targeting vulnerable CMS platforms](https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/)
+  BleepingComputer - 2026-07-11T
 - [US cybersecurity agency CISA had to build its incident playbook during the incident, agency reveals](https://techcrunch.com/2026/07/10/us-cyber-agency-cisa-had-to-build-its-incident-playbook-during-the-incident-agency-reveals/)
   TechCrunch - 2026-07-11T
 - [Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit](https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit)
@@ -40,7 +42,5 @@ ransomware
 - [Apple sues OpenAI over alleged trade secret theft](https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/)
   TechCrunch - 2026-07-10T
 - [Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets](https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/)
-  Wired - 2026-07-10T
-- [Meta’s Pursuit of the 'Careless People' Author Is Relentless and Self-Defeating](https://www.wired.com/story/metas-pursuit-of-the-careless-people-author-is-relentless-and-self-defeating/)
   Wired - 2026-07-10T
 

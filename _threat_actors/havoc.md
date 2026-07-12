@@ -30,3 +30,9 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [El Niño Is Already Wreaking Havoc on Pacific Fisheries](https://www.wired.com/story/el-nino-wreaking-havoc-on-pacific-fisheries/)
+  Wired - 2026-07-11T
+

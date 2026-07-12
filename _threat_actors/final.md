@@ -35,6 +35,4 @@ ransomware
 
 - [What Watching a Soccer Final Does to Your Body, According to Science](https://www.wired.com/story/what-watching-soccer-final-does-to-your-body/)
   Wired - 2026-07-10T
-- [Sunshine and Saharan Dust Make Miami’s World Cup Quarter-Final a Dangerous Game for England Norway](https://www.wired.com/story/sunshine-and-saharan-dust-make-miamis-world-cup-quarter-final-a-dangerous-game-for-england-norway/)
-  Wired - 2026-07-10T
 

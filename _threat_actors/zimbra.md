@@ -33,6 +33,8 @@ Ransomware mpritsken@priest.com
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions](https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html)
+  The Hacker News - 2026-07-11T
 - [Zimbra urges customers to patch critical web client XSS flaw](https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/)
   BleepingComputer - 2026-07-10T
 

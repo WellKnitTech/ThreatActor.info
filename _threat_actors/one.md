@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Smart glasses without a camera? Even Realities bets productivity beats recording everyone](https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/)
+  TechCrunch - 2026-07-11T
+- [AI Found a Root Bug in Linux That Everyone Missed for 15 Years](https://www.wired.com/story/security-news-this-week-ai-found-a-root-bug-in-linux-that-everyone-missed-for-15-years/)
+  Wired - 2026-07-11T
 - [URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat](https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html)
   The Hacker News - 2026-07-10T
 - [Dumb Co dared me to trade my iPhone for a hacked flip phone](https://techcrunch.com/2026/07/10/dumb-co-dared-me-to-trade-my-iphone-for-a-hacked-flip-phone/)
   TechCrunch - 2026-07-10T
-- [How to Share Your Location on an iPhone or Android Phone (2026)](https://www.wired.com/story/how-to-share-your-location-android-ios/)
-  Wired - 2026-07-10T
-- [Which MacBook to Buy (2026): My Honest Advice on Which to Buy](https://www.wired.com/story/which-macbook-should-you-buy/)
-  Wired - 2026-07-10T
 - [Money launderer accused of stealing seized crypto while in prison](https://www.bleepingcomputer.com/news/security/money-launderer-accused-of-stealing-seized-crypto-while-in-prison/)
   BleepingComputer - 2026-07-10T
 

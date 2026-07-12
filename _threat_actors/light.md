@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Skylight’s Touchscreen Calendar Got my Whole Family on the Same Page](https://www.wired.com/story/skylight-digital-calendar-for-kids-who-are-touchscreen-natives/)
+  Wired - 2026-07-11T
+
