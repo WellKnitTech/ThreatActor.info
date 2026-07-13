@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Here’s How Apple Is Updating Its Child Safety Features in iOS 27](https://www.wired.com/story/apple-child-safety-ios-27/)
+  Wired - 2026-07-12T
 - [Australia warns of global campaign targeting vulnerable CMS platforms](https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/)
   BleepingComputer - 2026-07-11T
 - [US cybersecurity agency CISA had to build its incident playbook during the incident, agency reveals](https://techcrunch.com/2026/07/10/us-cyber-agency-cisa-had-to-build-its-incident-playbook-during-the-incident-agency-reveals/)
@@ -41,6 +43,4 @@ ransomware
   Rapid7 - 2026-07-11T
 - [Apple sues OpenAI over alleged trade secret theft](https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/)
   TechCrunch - 2026-07-10T
-- [Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets](https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/)
-  Wired - 2026-07-10T
 

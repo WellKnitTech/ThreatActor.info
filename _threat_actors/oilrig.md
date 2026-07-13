@@ -46,9 +46,3 @@ OilRig is an Iranian threat group operating primarily in the Middle East by targ
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [New Helix vishing group emerges in SharePoint data theft attacks](https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/)
-  BleepingComputer - 2026-07-09T
-

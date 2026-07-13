@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [What Watching a Soccer Final Does to Your Body, According to Science](https://www.wired.com/story/what-watching-soccer-final-does-to-your-body/)
-  Wired - 2026-07-10T
-

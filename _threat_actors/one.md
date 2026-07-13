@@ -39,8 +39,8 @@ ransomware
   Wired - 2026-07-11T
 - [URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat](https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html)
   The Hacker News - 2026-07-10T
-- [Dumb Co dared me to trade my iPhone for a hacked flip phone](https://techcrunch.com/2026/07/10/dumb-co-dared-me-to-trade-my-iphone-for-a-hacked-flip-phone/)
-  TechCrunch - 2026-07-10T
 - [Money launderer accused of stealing seized crypto while in prison](https://www.bleepingcomputer.com/news/security/money-launderer-accused-of-stealing-seized-crypto-while-in-prison/)
   BleepingComputer - 2026-07-10T
+- [Emerging Threat: Progress Customers Instructed to Shut Down Storage Zone Controllers](https://labs.beazley.security/advisories/BSL-A1188)
+  Beazley Security Labs Advisories - 2026-07-10T
 
