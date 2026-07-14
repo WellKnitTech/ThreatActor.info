@@ -30,9 +30,3 @@ It is currently unknown if Iron is indeed a new variant by the same creators of 
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours](https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment)
-  DarkReading - 2026-07-08T
-

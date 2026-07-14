@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [OpenAI temporarily relaxes GPT-5.6 Sol usage limits](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/)
-  BleepingComputer - 2026-07-12T
-- [Uber’s Autonomous Vehicle Strategy: Slow Their Adoption](https://www.wired.com/story/ubers-autonomous-vehicle-strategy-slow-their-adoption/)
-  Wired - 2026-07-12T
-- [TechCrunch Mobility: A robotaxi ultimatum](https://techcrunch.com/2026/07/12/techcrunch-mobility-a-robotaxi-ultimatum/)
-  TechCrunch - 2026-07-12T
-- [Claude Fable 5 stays free for paid users until July 19 as Anthropic buys more time](https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/)
-  BleepingComputer - 2026-07-12T
-- [The Best Robotic Pool Cleaners of 2026: Beatbot, iGarden, Dreame](https://www.wired.com/story/best-pool-cleaning-robots/)
-  Wired - 2026-07-12T
+- [Already rich, already successful, why the last wave of tech winners is grinding again](https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again/)
+  TechCrunch - 2026-07-14T
+- [AI Security Threats in 2026: Annual Insights from Check Point Research](https://blog.checkpoint.com/ai-security/ai-security-threats-in-2026-insights-from-check-point-research/)
+  Check Point - 2026-07-14T
+- [Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”](https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/)
+  TechCrunch - 2026-07-14T
+- [Video-generation startup PixVerse raises $439M, valuation soars past $2B](https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/)
+  TechCrunch - 2026-07-14T
+- [X just tweaked its algorithm to make it more friendly, less battleground](https://techcrunch.com/2026/07/13/x-just-tweaked-its-algorithm-to-make-it-more-friendly-less-battleground/)
+  TechCrunch - 2026-07-13T
 

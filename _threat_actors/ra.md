@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [OpenAI temporarily relaxes GPT-5.6 Sol usage limits](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/)
-  BleepingComputer - 2026-07-12T
-- [Uber’s Autonomous Vehicle Strategy: Slow Their Adoption](https://www.wired.com/story/ubers-autonomous-vehicle-strategy-slow-their-adoption/)
-  Wired - 2026-07-12T
-- [Scientists’ Side Hustle? Using AI and Quantum Computing to Generate New Peptides](https://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides/)
-  Wired - 2026-07-12T
-- [The 10 Best Pet Cameras of 2026: Furbo, Petcube, and Enabot](https://www.wired.com/gallery/best-pet-cameras/)
-  Wired - 2026-07-12T
-- [Reed Jobs would rather talk about curing cancer than his last name](https://techcrunch.com/2026/07/11/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name/)
-  TechCrunch - 2026-07-12T
+- [Video-generation startup PixVerse raises $439M, valuation soars past $2B](https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/)
+  TechCrunch - 2026-07-14T
+- [CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks](https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html)
+  The Hacker News - 2026-07-13T
+- [Sam Neill Inspired a Generation of Scientists](https://www.wired.com/story/sam-neill-inspired-a-generation-of-scientists/)
+  Wired - 2026-07-13T
+- [Weak Security Continues to Fuel Russian Cyberattacks](https://www.darkreading.com/endpoint-security/weak-security-fuel-russian-cyberattacks)
+  DarkReading - 2026-07-13T
+- [⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More](https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html)
+  The Hacker News - 2026-07-13T
 

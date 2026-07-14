@@ -139,6 +139,6 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [US cybersecurity agency CISA had to build its incident playbook during the incident, agency reveals](https://techcrunch.com/2026/07/10/us-cyber-agency-cisa-had-to-build-its-incident-playbook-during-the-incident-agency-reveals/)
-  TechCrunch - 2026-07-11T
+- [Breach at the Beach: Play the Ultimate Entra ID CTF](https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/)
+  BleepingComputer - 2026-07-13T
 

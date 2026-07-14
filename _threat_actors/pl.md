@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Here’s How Apple Is Updating Its Child Safety Features in iOS 27](https://www.wired.com/story/apple-child-safety-ios-27/)
-  Wired - 2026-07-12T
-- [Australia warns of global campaign targeting vulnerable CMS platforms](https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/)
-  BleepingComputer - 2026-07-11T
-- [US cybersecurity agency CISA had to build its incident playbook during the incident, agency reveals](https://techcrunch.com/2026/07/10/us-cyber-agency-cisa-had-to-build-its-incident-playbook-during-the-incident-agency-reveals/)
-  TechCrunch - 2026-07-11T
-- [Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit](https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit)
-  Rapid7 - 2026-07-11T
-- [Apple sues OpenAI over alleged trade secret theft](https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/)
-  TechCrunch - 2026-07-10T
+- [Siri AI Is Becoming Apple’s Everything Tool](https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/)
+  Wired - 2026-07-13T
+- [Apple says former employee exploited ‘rare’ bug to download confidential files after leaving for OpenAI](https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/)
+  TechCrunch - 2026-07-13T
+- [New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email](https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html)
+  The Hacker News - 2026-07-13T
+- [The wildest allegations in Apple’s trade secrets lawsuit against OpenAI](https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/)
+  TechCrunch - 2026-07-13T
+- [Wi-Fi 8 Explained: Features, Release Date, and More](https://www.wired.com/story/what-is-wi-fi-8/)
+  Wired - 2026-07-13T
 

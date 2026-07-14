@@ -33,14 +33,6 @@ Ransomware Identifies victim locations w/Google Maps API
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic](https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html)
-  The Hacker News - 2026-07-10T
-- [Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking](https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html)
-  The Hacker News - 2026-07-10T
-- [Attackers Exploit 'Ill Bloom' Vulnerability to Drain Over $5 Million From Cryptocurrency Wallets](https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html)
-  The Hacker News - 2026-07-10T
 - [Fresh ATM Crypto Software Bugs: Jackpot or Bust?](https://www.darkreading.com/vulnerabilities-threats/atm-crypto-software-bugs-jackpot-bust)
   DarkReading - 2026-07-10T
-- [Money launderer accused of stealing seized crypto while in prison](https://www.bleepingcomputer.com/news/security/money-launderer-accused-of-stealing-seized-crypto-while-in-prison/)
-  BleepingComputer - 2026-07-10T
 

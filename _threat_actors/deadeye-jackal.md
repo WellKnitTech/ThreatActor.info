@@ -44,8 +44,10 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [AI Security Threats in 2026: Annual Insights from Check Point Research](https://blog.checkpoint.com/ai-security/ai-security-threats-in-2026-insights-from-check-point-research/)
+  Check Point - 2026-07-14T
+- [Hermes agent maker Nous Research in talks for new funding at $1.5B valuation](https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/)
+  TechCrunch - 2026-07-13T
 - [Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit](https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit)
   Rapid7 - 2026-07-11T
-- [Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws](https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html)
-  The Hacker News - 2026-07-10T
 

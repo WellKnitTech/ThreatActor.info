@@ -33,10 +33,6 @@ parser needs to be built
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [We Make Lovely Home-Cooked Meals for Ourselves. Why Not Do the Same for Our Dogs?](https://www.wired.com/story/gourmet-dog-food/)
-  Wired - 2026-07-11T
-- [Police suspects Dutch hackers were involved in Odido breach](https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/)
-  BleepingComputer - 2026-07-10T
-- [Vidar Infostealer Hammers SMBs via Malvertising Campaign](https://www.darkreading.com/cyberattacks-data-breaches/vidar-infostealer-smb-malvertising-campaign)
-  DarkReading - 2026-07-08T
+- [Python Is So Slow. Can Julia Solve the Two-Language Problem?](https://www.wired.com/story/python-is-so-slow-can-julia-solve-the-two-language-problem/)
+  Wired - 2026-07-13T
 

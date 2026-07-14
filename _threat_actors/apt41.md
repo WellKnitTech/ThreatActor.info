@@ -109,8 +109,6 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Ryuk ransomware member pleads guilty in the US, faces 15 years in prison](https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/)
-  BleepingComputer - 2026-07-10T
 - [A New Ransomware Leader Emerges as June 2026 Attack Volumes Climb Worldwide](https://blog.checkpoint.com/research/a-new-ransomware-leader-emerges-as-june-2026-attack-volumes-climb-worldwide/)
   Check Point - 2026-07-09T
 

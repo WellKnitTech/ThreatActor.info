@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Smart glasses without a camera? Even Realities bets productivity beats recording everyone](https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/)
-  TechCrunch - 2026-07-11T
-- [AI Found a Root Bug in Linux That Everyone Missed for 15 Years](https://www.wired.com/story/security-news-this-week-ai-found-a-root-bug-in-linux-that-everyone-missed-for-15-years/)
-  Wired - 2026-07-11T
+- [Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”](https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/)
+  TechCrunch - 2026-07-14T
+- [New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email](https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html)
+  The Hacker News - 2026-07-13T
+- [A Leak of San Francisco Police Drone Footage Exposes the New Reality of Urban Surveillance](https://www.wired.com/story/sfpd-drone-video-leak-surveillance/)
+  Wired - 2026-07-13T
 - [URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat](https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html)
   The Hacker News - 2026-07-10T
-- [Money launderer accused of stealing seized crypto while in prison](https://www.bleepingcomputer.com/news/security/money-launderer-accused-of-stealing-seized-crypto-while-in-prison/)
-  BleepingComputer - 2026-07-10T
 - [Emerging Threat: Progress Customers Instructed to Shut Down Storage Zone Controllers](https://labs.beazley.security/advisories/BSL-A1188)
   Beazley Security Labs Advisories - 2026-07-10T
 

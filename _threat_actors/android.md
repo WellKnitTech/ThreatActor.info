@@ -35,6 +35,4 @@ Ransomware
 
 - [RedHook Android malware now uses Wireless ADB for shell access](https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/)
   BleepingComputer - 2026-07-12T
-- [Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking](https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html)
-  The Hacker News - 2026-07-10T
 

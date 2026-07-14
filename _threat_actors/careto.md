@@ -48,9 +48,3 @@ This threat actor targets governments, diplomatic missions, private companies in
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation](https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis/)
-  Unit 42 - 2026-07-07T
-

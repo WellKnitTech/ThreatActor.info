@@ -30,3 +30,9 @@ Ransomware Based on HiddenTear, but heavily modified keygen
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [EU sanctions Russian GRU military hackers over cyberattacks](https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/)
+  BleepingComputer - 2026-07-13T
+

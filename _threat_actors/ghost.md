@@ -38,6 +38,8 @@ aka Cring / Ghost (Cring) <br/> <br/>Beginning early 2021, Ghost actors began at
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email](https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html)
+  The Hacker News - 2026-07-13T
 - ['Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets](https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/)
   BleepingComputer - 2026-07-11T
 

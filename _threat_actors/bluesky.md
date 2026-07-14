@@ -30,9 +30,3 @@ Ransomware.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Bluesky’s interim CEO, Toni Schneider, drops the ‘interim’](https://techcrunch.com/2026/07/10/blueskys-interim-ceo-toni-schneider-drops-the-interim/)
-  TechCrunch - 2026-07-10T
-

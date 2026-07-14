@@ -75,8 +75,10 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Ryuk ransomware member pleads guilty in the US, faces 15 years in prison](https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/)
-  BleepingComputer - 2026-07-10T
+- [Weak Security Continues to Fuel Russian Cyberattacks](https://www.darkreading.com/endpoint-security/weak-security-fuel-russian-cyberattacks)
+  DarkReading - 2026-07-13T
+- [Introducing Precursor: detecting agentic behavior with continuous client-side signals](https://blog.cloudflare.com/introducing-precursor/)
+  Cloudflare - 2026-07-13T
 
 ## CISA Known Exploited Vulnerabilities (KEV)
 *The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*

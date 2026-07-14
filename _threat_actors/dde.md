@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Email Agent Hijacking: The Hidden Threat That Breaks Post-Delivery Security](https://blog.checkpoint.com/email-security/email-agent-hijacking-the-hidden-threat-that-breaks-post-delivery-security/)
+  Check Point - 2026-07-13T
+
