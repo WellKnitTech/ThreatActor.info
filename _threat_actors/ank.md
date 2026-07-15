@@ -30,3 +30,9 @@ Ank is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Lucid Motors denies report it’s considering bankruptcy](https://techcrunch.com/2026/07/14/lucid-motors-denies-report-its-considering-bankruptcy/)
+  TechCrunch - 2026-07-14T
+

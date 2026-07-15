@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T04:49:49Z",
+  "updated": "2026-07-15T04:50:14Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -21,48 +21,60 @@
   "actor_news": {
     "R": [
       {
-        "title": "Already rich, already successful, why the last wave of tech winners is grinding again",
-        "link": "https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again/",
-        "date": "2026-07-14T02:46:42+00:00",
+        "title": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack",
+        "link": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
+        "date": "2026-07-15T01:55:47+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+        "link": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+        "date": "2026-07-15T00:27:04+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "AI Security Threats in 2026: Annual Insights from Check Point Research",
-        "link": "https://blog.checkpoint.com/ai-security/ai-security-threats-in-2026-insights-from-check-point-research/",
-        "date": "2026-07-14T01:00:42+00:00",
-        "source": "Check Point"
+        "title": "SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data",
+        "link": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
+        "date": "2026-07-14T23:47:57+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
-        "link": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
-        "date": "2026-07-14T00:45:00+00:00",
+        "title": "Lorde says AI glasses are ‘not sexy’",
+        "link": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/",
+        "date": "2026-07-14T23:10:02+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
-        "link": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
-        "date": "2026-07-14T00:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "X just tweaked its algorithm to make it more friendly, less battleground",
-        "link": "https://techcrunch.com/2026/07/13/x-just-tweaked-its-algorithm-to-make-it-more-friendly-less-battleground/",
-        "date": "2026-07-13T23:58:27+00:00",
-        "source": "TechCrunch"
+        "title": "Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads",
+        "link": "https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html",
+        "date": "2026-07-14T22:57:23+05:30",
+        "source": "The Hacker News"
       }
     ],
     "Deadeye Jackal": [
       {
+        "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+        "link": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+        "date": "2026-07-15T00:27:04+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads",
+        "link": "https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html",
+        "date": "2026-07-14T22:57:23+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Microsoft starts testing cleaner Windows Search without ads",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-testing-cleaner-windows-search-without-ads/",
+        "date": "2026-07-14T06:47:23-04:00",
+        "source": "BleepingComputer"
+      },
+      {
         "title": "AI Security Threats in 2026: Annual Insights from Check Point Research",
         "link": "https://blog.checkpoint.com/ai-security/ai-security-threats-in-2026-insights-from-check-point-research/",
         "date": "2026-07-14T01:00:42+00:00",
         "source": "Check Point"
-      },
-      {
-        "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
-        "link": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
-        "date": "2026-07-13T23:31:18+00:00",
-        "source": "TechCrunch"
       },
       {
         "title": "Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit",
@@ -71,30 +83,304 @@
         "source": "Rapid7"
       }
     ],
-    "One": [
+    "Ra": [
       {
-        "title": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
-        "link": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
-        "date": "2026-07-14T00:45:00+00:00",
+        "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
+        "link": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
+        "date": "2026-07-14T22:22:37+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "OpenAI pushes back on Apple trade secret lawsuit",
+        "link": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/",
+        "date": "2026-07-14T22:07:42+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
-        "link": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
-        "date": "2026-07-13T19:19:48+05:30",
-        "source": "The Hacker News"
+        "title": "Records Are Made to Be Broken: Patch Tuesday Raises Triage Stakes",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/records-broken-patch-tuesday-raises-triage-stakes",
+        "date": "2026-07-14T21:50:56+00:00",
+        "source": "DarkReading"
       },
       {
-        "title": "A Leak of San Francisco Police Drone Footage Exposes the New Reality of Urban Surveillance",
-        "link": "https://www.wired.com/story/sfpd-drone-video-leak-surveillance/",
-        "date": "2026-07-13T10:00:00+00:00",
+        "title": "The founder of Hinge raised $18M to build a new AI dating service, Overtone",
+        "link": "https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/",
+        "date": "2026-07-14T19:39:39+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
+        "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+        "date": "2026-07-14T19:18:07+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "First": [
+      {
+        "title": "OpenAI’s first hardware device is reportedly a screenless speaker that can move",
+        "link": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
+        "date": "2026-07-14T22:22:24+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "New York Governor Signs First Statewide Data Center Moratorium",
+        "link": "https://www.wired.com/story/new-york-governor-signs-first-statewide-data-center-moratorium/",
+        "date": "2026-07-14T14:54:41+00:00",
         "source": "Wired"
       },
       {
-        "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
-        "link": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
-        "date": "2026-07-10T22:00:00+05:30",
+        "title": "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support",
+        "link": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html",
+        "date": "2026-07-14T13:32:33+05:30",
         "source": "The Hacker News"
+      }
+    ],
+    "One": [
+      {
+        "title": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
+        "link": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
+        "date": "2026-07-14T22:20:48+00:00",
+        "source": "Ars Technica"
+      },
+      {
+        "title": "Apple opens its new Siri AI to everyone with the iOS 27 public beta",
+        "link": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
+        "date": "2026-07-14T19:42:27+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "The founder of Hinge raised $18M to build a new AI dating service, Overtone",
+        "link": "https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/",
+        "date": "2026-07-14T19:39:39+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Cursor IDE Auto-Executes Malicious Code in Poisoned Repos",
+        "link": "https://www.darkreading.com/application-security/cursor-ide-malicious-code-poisoned-repos",
+        "date": "2026-07-14T13:00:00+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown",
+        "link": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/",
+        "date": "2026-07-14T12:08:47-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "PL": [
+      {
+        "title": "The UK Is Planning a Social Media Curfew for 16- and 17-Year-Olds",
+        "link": "https://www.wired.com/story/the-uk-is-planning-a-social-media-curfew-for-16-and-17-year-olds/",
+        "date": "2026-07-14T22:08:30+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "OpenAI pushes back on Apple trade secret lawsuit",
+        "link": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/",
+        "date": "2026-07-14T22:07:42+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "OpenAI’s new flagship model deletes files on its own, people keep warning",
+        "link": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
+        "date": "2026-07-14T21:50:11+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Apple opens its new Siri AI to everyone with the iOS 27 public beta",
+        "link": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
+        "date": "2026-07-14T19:42:27+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Anthropic’s newest ad is creeping people out",
+        "link": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out/",
+        "date": "2026-07-14T19:41:27+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Kee": [
+      {
+        "title": "OpenAI’s new flagship model deletes files on its own, people keep warning",
+        "link": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
+        "date": "2026-07-14T21:50:11+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Plex Keeps Getting Worse. Is Jellyfin a Decent Replacement?",
+        "link": "https://www.wired.com/story/plex-keeps-getting-worse-is-jellyfin-a-decent-replacement/",
+        "date": "2026-07-14T12:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
+        "link": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
+        "date": "2026-07-13T23:06:12+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "BB": [
+      {
+        "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
+        "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+        "date": "2026-07-14T19:18:07+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Ank": [
+      {
+        "title": "Lucid Motors denies report it’s considering bankruptcy",
+        "link": "https://techcrunch.com/2026/07/14/lucid-motors-denies-report-its-considering-bankruptcy/",
+        "date": "2026-07-14T18:47:14+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "CryLocker": [
+      {
+        "title": "Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks",
+        "link": "https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html",
+        "date": "2026-07-14T17:25:00+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support",
+        "link": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html",
+        "date": "2026-07-14T13:32:33+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Fresh ATM Crypto Software Bugs: Jackpot or Bust?",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/atm-crypto-software-bugs-jackpot-bust",
+        "date": "2026-07-10T14:00:00+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "ONI": [
+      {
+        "title": "SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now",
+        "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
+        "date": "2026-07-14T17:23:24-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Critical Vulnerability in SonicWall SMA1000 Appliances Under Active Exploitation (CVE-2026-15409)",
+        "link": "https://labs.beazley.security/advisories/BSL-A1189",
+        "date": "2026-07-14T05:00:00.000Z",
+        "source": "Beazley Security Labs Advisories"
+      }
+    ],
+    "RNS": [
+      {
+        "title": "SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now",
+        "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
+        "date": "2026-07-14T17:23:24-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "How Pentera Turns AI Security Workflows into Validation Engines",
+        "link": "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
+        "date": "2026-07-14T17:00:00+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Sotheby’s Big T. Rex Auction Raises Concerns Hype and Wealth Are Upending Science",
+        "link": "https://www.wired.com/story/sothebys-t-rex-auction-shows-wealth-upending-science/",
+        "date": "2026-07-14T09:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "SAP warns of critical flaws in NetWeaver and Commerce Cloud",
+        "link": "https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud/",
+        "date": "2026-07-14T07:42:21-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "The US government warns that Russia state hackers are coming after your router",
+        "link": "https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router/",
+        "date": "2026-07-13T21:03:07+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "Bud": [
+      {
+        "title": "Meta’s Adam Mosseri says AI token budgets could soon be capped per engineer",
+        "link": "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/",
+        "date": "2026-07-14T16:22:15+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "APT5": [
+      {
+        "title": "Frontier AI: The Genie's Out of the Bottle, but Where's the Rulebook?",
+        "link": "https://www.darkreading.com/cybersecurity-operations/frontier-ai-genie-out-of-bottle-where-rulebook",
+        "date": "2026-07-14T16:02:39+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Lick": [
+      {
+        "title": "ClickFix's Mushrooming Ecosystem Demands New Defense Tactics",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/clickfixs-ecosystem-demands-new-defense",
+        "date": "2026-07-14T15:53:54+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Sanction": [
+      {
+        "title": "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support",
+        "link": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html",
+        "date": "2026-07-14T13:32:33+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "US sanctions VPN, malware providers for enabling ransomware attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/us-sanctions-vpn-malware-providers-linked-to-ransomware-gangs/",
+        "date": "2026-07-14T05:40:13-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Sanctions": [
+      {
+        "title": "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support",
+        "link": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html",
+        "date": "2026-07-14T13:32:33+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "US sanctions VPN, malware providers for enabling ransomware attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/us-sanctions-vpn-malware-providers-linked-to-ransomware-gangs/",
+        "date": "2026-07-14T05:40:13-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "DN": [
+      {
+        "title": "A broken DNSSEC rollover took down .AL. Now 1.1.1.1 tells you when validation is bypassed",
+        "link": "https://blog.cloudflare.com/dnssec-nta-ede-33/",
+        "date": "2026-07-14T13:00:00+00:00",
+        "source": "Cloudflare"
+      },
+      {
+        "title": "LastPass, Bitwarden users targeted with fake security alerts",
+        "link": "https://www.bleepingcomputer.com/news/security/lastpass-bitwarden-users-targeted-with-fake-security-alerts/",
+        "date": "2026-07-14T11:31:52-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "JCrypt": [
+      {
+        "title": "Cursor IDE Auto-Executes Malicious Code in Poisoned Repos",
+        "link": "https://www.darkreading.com/application-security/cursor-ide-malicious-code-poisoned-repos",
+        "date": "2026-07-14T13:00:00+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Ogre": [
+      {
+        "title": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown",
+        "link": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/",
+        "date": "2026-07-14T12:08:47-04:00",
+        "source": "BleepingComputer"
       },
       {
         "title": "Emerging Threat: Progress Customers Instructed to Shut Down Storage Zone Controllers",
@@ -103,84 +389,52 @@
         "source": "Beazley Security Labs Advisories"
       }
     ],
-    "Ra": [
+    "Hunt": [
       {
-        "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
-        "link": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
-        "date": "2026-07-14T00:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
-        "link": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
-        "date": "2026-07-13T23:06:12+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Sam Neill Inspired a Generation of Scientists",
-        "link": "https://www.wired.com/story/sam-neill-inspired-a-generation-of-scientists/",
-        "date": "2026-07-13T22:26:22+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Weak Security Continues to Fuel Russian Cyberattacks",
-        "link": "https://www.darkreading.com/endpoint-security/weak-security-fuel-russian-cyberattacks",
-        "date": "2026-07-13T21:24:59+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
-        "link": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
-        "date": "2026-07-13T20:35:57+05:30",
+        "title": "Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity",
+        "link": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
+        "date": "2026-07-14T11:49:24+05:30",
         "source": "The Hacker News"
       }
     ],
-    "hermes": [
+    "Hunters": [
       {
-        "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
-        "link": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
-        "date": "2026-07-13T23:31:18+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Kee": [
-      {
-        "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
-        "link": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
-        "date": "2026-07-13T23:06:12+05:30",
+        "title": "Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity",
+        "link": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
+        "date": "2026-07-14T11:49:24+05:30",
         "source": "The Hacker News"
       }
     ],
-    "PL": [
+    "ShinyHunters": [
       {
-        "title": "Siri AI Is Becoming Apple’s Everything Tool",
-        "link": "https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/",
-        "date": "2026-07-13T21:39:09+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Apple says former employee exploited ‘rare’ bug to download confidential files after leaving for OpenAI",
-        "link": "https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/",
-        "date": "2026-07-13T20:00:17+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
-        "link": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
-        "date": "2026-07-13T19:19:48+05:30",
+        "title": "Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity",
+        "link": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
+        "date": "2026-07-14T11:49:24+05:30",
         "source": "The Hacker News"
-      },
+      }
+    ],
+    "Light": [
       {
-        "title": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
-        "link": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
-        "date": "2026-07-13T18:22:10+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Wi-Fi 8 Explained: Features, Release Date, and More",
-        "link": "https://www.wired.com/story/what-is-wi-fi-8/",
-        "date": "2026-07-13T18:05:25+00:00",
+        "title": "The US Approves Launch of Mirror Satellite That Can Reflect Sunlight and Illuminate the Earth at Night",
+        "link": "https://www.wired.com/story/reflect-orbital-earendil-mirror-satellite-fcc/",
+        "date": "2026-07-14T08:30:00+00:00",
         "source": "Wired"
+      }
+    ],
+    "SunCrypt": [
+      {
+        "title": "The US Approves Launch of Mirror Satellite That Can Reflect Sunlight and Illuminate the Earth at Night",
+        "link": "https://www.wired.com/story/reflect-orbital-earendil-mirror-satellite-fcc/",
+        "date": "2026-07-14T08:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Rapid": [
+      {
+        "title": "Rapid7 and Mindshare Partner to Accelerate Cyber Resilience Across the Middle East",
+        "link": "https://www.rapid7.com/blog/post/c-rapid7-mindware-middle-east-cybersecurity-partnership",
+        "date": "2026-07-14T08:00:00+00:00",
+        "source": "Rapid7"
       }
     ],
     "Conti": [
@@ -203,90 +457,6 @@
         "link": "https://www.darkreading.com/endpoint-security/weak-security-fuel-russian-cyberattacks",
         "date": "2026-07-13T21:24:59+00:00",
         "source": "DarkReading"
-      },
-      {
-        "title": "UK charges suspects linked to Russian Coms call spoofing platform",
-        "link": "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
-        "date": "2026-07-13T09:23:30-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "EU sanctions Russian GRU military hackers over cyberattacks",
-        "link": "https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/",
-        "date": "2026-07-13T07:19:05-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "US and allies warn of Russian critical infrastructure attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/",
-        "date": "2026-07-13T05:32:23-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "RNS": [
-      {
-        "title": "The US government warns that Russia state hackers are coming after your router",
-        "link": "https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router/",
-        "date": "2026-07-13T21:03:07+00:00",
-        "source": "Ars Technica"
-      },
-      {
-        "title": "CISA warns of actively exploited RCE flaws in Joomla extensions",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/",
-        "date": "2026-07-13T11:20:16-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
-        "link": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
-        "date": "2026-07-11T10:18:23-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "ghost": [
-      {
-        "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
-        "link": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
-        "date": "2026-07-13T19:19:48+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
-        "link": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
-        "date": "2026-07-11T05:03:57-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "First": [
-      {
-        "title": "Investors send General Fusion soaring in debut as first publicly traded fusion company",
-        "link": "https://techcrunch.com/2026/07/13/investors-send-general-fusion-soaring-in-debut-as-first-publicly-traded-fusion-company/",
-        "date": "2026-07-13T17:03:11+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Fusion": [
-      {
-        "title": "Investors send General Fusion soaring in debut as first publicly traded fusion company",
-        "link": "https://techcrunch.com/2026/07/13/investors-send-general-fusion-soaring-in-debut-as-first-publicly-traded-fusion-company/",
-        "date": "2026-07-13T17:03:11+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Rector": [
-      {
-        "title": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
-        "link": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
-        "date": "2026-07-13T16:32:33+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "RIP (Phoenix) Ransomware": [
-      {
-        "title": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
-        "link": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
-        "date": "2026-07-13T16:32:33+05:30",
-        "source": "The Hacker News"
       }
     ],
     "Defender": [
@@ -311,112 +481,6 @@
         "source": "Check Point"
       }
     ],
-    "Lv": [
-      {
-        "title": "Python Is So Slow. Can Julia Solve the Two-Language Problem?",
-        "link": "https://www.wired.com/story/python-is-so-slow-can-julia-solve-the-two-language-problem/",
-        "date": "2026-07-13T11:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Python": [
-      {
-        "title": "Python Is So Slow. Can Julia Solve the Two-Language Problem?",
-        "link": "https://www.wired.com/story/python-is-so-slow-can-julia-solve-the-two-language-problem/",
-        "date": "2026-07-13T11:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Solve": [
-      {
-        "title": "Python Is So Slow. Can Julia Solve the Two-Language Problem?",
-        "link": "https://www.wired.com/story/python-is-so-slow-can-julia-solve-the-two-language-problem/",
-        "date": "2026-07-13T11:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Play": [
-      {
-        "title": "Breach at the Beach: Play the Ultimate Entra ID CTF",
-        "link": "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/",
-        "date": "2026-07-13T10:01:11-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "CTF": [
-      {
-        "title": "Breach at the Beach: Play the Ultimate Entra ID CTF",
-        "link": "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/",
-        "date": "2026-07-13T10:01:11-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Sanction": [
-      {
-        "title": "EU sanctions Russian GRU military hackers over cyberattacks",
-        "link": "https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/",
-        "date": "2026-07-13T07:19:05-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Sanctions": [
-      {
-        "title": "EU sanctions Russian GRU military hackers over cyberattacks",
-        "link": "https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/",
-        "date": "2026-07-13T07:19:05-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "AnDROid": [
-      {
-        "title": "RedHook Android malware now uses Wireless ADB for shell access",
-        "link": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
-        "date": "2026-07-12T10:27:32-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "ONI": [
-      {
-        "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
-        "link": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
-        "date": "2026-07-11T23:19:31+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Aussie gov't tells volunteers to throw out thousands of functioning test routers",
-        "link": "https://arstechnica.com/gadgets/2026/07/thousands-of-routers-bricked-after-government-program-concludes-in-australia/",
-        "date": "2026-07-08T18:10:16+00:00",
-        "source": "Ars Technica"
-      }
-    ],
-    "Zimbra": [
-      {
-        "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
-        "link": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
-        "date": "2026-07-11T12:15:55+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "global": [
-      {
-        "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
-        "link": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
-        "date": "2026-07-11T10:18:23-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "As Global Conflicts Go Digital, Businesses Need Wartime Game Plans",
-        "link": "https://www.darkreading.com/cybersecurity-operations/businesses-wartime-cybersecurity-gameplans",
-        "date": "2026-07-09T14:31:20+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Introducing Meerkat: an experiment in global consensus",
-        "link": "https://blog.cloudflare.com/meerkat-introduction/",
-        "date": "2026-07-08T13:00:00+00:00",
-        "source": "Cloudflare"
-      }
-    ],
     "Metasploit": [
       {
         "title": "Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit",
@@ -433,42 +497,12 @@
         "source": "Unit 42"
       }
     ],
-    "Ogre": [
-      {
-        "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
-        "link": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
-        "date": "2026-07-10T22:00:00+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Emerging Threat: Progress Customers Instructed to Shut Down Storage Zone Controllers",
-        "link": "https://labs.beazley.security/advisories/BSL-A1188",
-        "date": "2026-07-10T05:00:00.000Z",
-        "source": "Beazley Security Labs Advisories"
-      }
-    ],
-    "CryLocker": [
-      {
-        "title": "Fresh ATM Crypto Software Bugs: Jackpot or Bust?",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/atm-crypto-software-bugs-jackpot-bust",
-        "date": "2026-07-10T14:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
     "Quantum": [
       {
         "title": "Why we cannot wait for better post-quantum signature algorithms",
         "link": "https://blog.cloudflare.com/ml-dsa-will-have-to-do/",
         "date": "2026-07-09T14:00:00+00:00",
         "source": "Cloudflare"
-      }
-    ],
-    "APT41": [
-      {
-        "title": "A New Ransomware Leader Emerges as June 2026 Attack Volumes Climb Worldwide",
-        "link": "https://blog.checkpoint.com/research/a-new-ransomware-leader-emerges-as-june-2026-attack-volumes-climb-worldwide/",
-        "date": "2026-07-09T13:00:57+00:00",
-        "source": "Check Point"
       }
     ]
   }

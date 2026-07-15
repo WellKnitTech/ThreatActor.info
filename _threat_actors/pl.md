@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Siri AI Is Becoming Apple’s Everything Tool](https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/)
-  Wired - 2026-07-13T
-- [Apple says former employee exploited ‘rare’ bug to download confidential files after leaving for OpenAI](https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/)
-  TechCrunch - 2026-07-13T
-- [New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email](https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html)
-  The Hacker News - 2026-07-13T
-- [The wildest allegations in Apple’s trade secrets lawsuit against OpenAI](https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/)
-  TechCrunch - 2026-07-13T
-- [Wi-Fi 8 Explained: Features, Release Date, and More](https://www.wired.com/story/what-is-wi-fi-8/)
-  Wired - 2026-07-13T
+- [The UK Is Planning a Social Media Curfew for 16- and 17-Year-Olds](https://www.wired.com/story/the-uk-is-planning-a-social-media-curfew-for-16-and-17-year-olds/)
+  Wired - 2026-07-14T
+- [OpenAI pushes back on Apple trade secret lawsuit](https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/)
+  TechCrunch - 2026-07-14T
+- [OpenAI’s new flagship model deletes files on its own, people keep warning](https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/)
+  TechCrunch - 2026-07-14T
+- [Apple opens its new Siri AI to everyone with the iOS 27 public beta](https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/)
+  TechCrunch - 2026-07-14T
+- [Anthropic’s newest ad is creeping people out](https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out/)
+  TechCrunch - 2026-07-14T
 

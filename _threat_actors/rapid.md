@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Rapid7 and Mindshare Partner to Accelerate Cyber Resilience Across the Middle East](https://www.rapid7.com/blog/post/c-rapid7-mindware-middle-east-cybersecurity-partnership)
+  Rapid7 - 2026-07-14T
+

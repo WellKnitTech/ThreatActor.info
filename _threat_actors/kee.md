@@ -33,6 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [OpenAI’s new flagship model deletes files on its own, people keep warning](https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/)
+  TechCrunch - 2026-07-14T
+- [Plex Keeps Getting Worse. Is Jellyfin a Decent Replacement?](https://www.wired.com/story/plex-keeps-getting-worse-is-jellyfin-a-decent-replacement/)
+  Wired - 2026-07-14T
 - [CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks](https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html)
   The Hacker News - 2026-07-13T
 

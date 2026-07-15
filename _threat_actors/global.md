@@ -30,13 +30,3 @@ Not a RaaS yet.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Australia warns of global campaign targeting vulnerable CMS platforms](https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/)
-  BleepingComputer - 2026-07-11T
-- [As Global Conflicts Go Digital, Businesses Need Wartime Game Plans](https://www.darkreading.com/cybersecurity-operations/businesses-wartime-cybersecurity-gameplans)
-  DarkReading - 2026-07-09T
-- [Introducing Meerkat: an experiment in global consensus](https://blog.cloudflare.com/meerkat-introduction/)
-  Cloudflare - 2026-07-08T
-

@@ -30,3 +30,9 @@ Ransomware Variant of Kirk
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [ClickFix's Mushrooming Ecosystem Demands New Defense Tactics](https://www.darkreading.com/cyberattacks-data-breaches/clickfixs-ecosystem-demands-new-defense)
+  DarkReading - 2026-07-14T
+

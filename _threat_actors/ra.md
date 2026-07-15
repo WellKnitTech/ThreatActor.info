@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Video-generation startup PixVerse raises $439M, valuation soars past $2B](https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/)
+- [LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts](https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html)
+  The Hacker News - 2026-07-14T
+- [OpenAI pushes back on Apple trade secret lawsuit](https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/)
   TechCrunch - 2026-07-14T
-- [CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks](https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html)
-  The Hacker News - 2026-07-13T
-- [Sam Neill Inspired a Generation of Scientists](https://www.wired.com/story/sam-neill-inspired-a-generation-of-scientists/)
-  Wired - 2026-07-13T
-- [Weak Security Continues to Fuel Russian Cyberattacks](https://www.darkreading.com/endpoint-security/weak-security-fuel-russian-cyberattacks)
-  DarkReading - 2026-07-13T
-- [⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More](https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html)
-  The Hacker News - 2026-07-13T
+- [Records Are Made to Be Broken: Patch Tuesday Raises Triage Stakes](https://www.darkreading.com/vulnerabilities-threats/records-broken-patch-tuesday-raises-triage-stakes)
+  DarkReading - 2026-07-14T
+- [The founder of Hinge raised $18M to build a new AI dating service, Overtone](https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/)
+  TechCrunch - 2026-07-14T
+- [RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata](https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html)
+  The Hacker News - 2026-07-14T
 

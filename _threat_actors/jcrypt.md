@@ -30,3 +30,9 @@ Ransomware written in C#. Fortunately, all current versions of the MafiaWare666 
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Cursor IDE Auto-Executes Malicious Code in Poisoned Repos](https://www.darkreading.com/application-security/cursor-ide-malicious-code-poisoned-repos)
+  DarkReading - 2026-07-14T
+

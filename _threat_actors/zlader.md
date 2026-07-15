@@ -35,10 +35,4 @@ Ransomware VaultCrypt family
 
 - [Weak Security Continues to Fuel Russian Cyberattacks](https://www.darkreading.com/endpoint-security/weak-security-fuel-russian-cyberattacks)
   DarkReading - 2026-07-13T
-- [UK charges suspects linked to Russian Coms call spoofing platform](https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/)
-  BleepingComputer - 2026-07-13T
-- [EU sanctions Russian GRU military hackers over cyberattacks](https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/)
-  BleepingComputer - 2026-07-13T
-- [US and allies warn of Russian critical infrastructure attacks](https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/)
-  BleepingComputer - 2026-07-13T
 

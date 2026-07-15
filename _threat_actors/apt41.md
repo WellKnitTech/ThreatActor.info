@@ -106,9 +106,3 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 [17] [Kaspersky Winnti June 2015](https://securelist.com/games-are-over/70991/)
    Tarakanov, D. (2015, June 22). Games are over: Winnti is now targeting pharmaceutical companies. Retrieved January 14, 2016.
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [A New Ransomware Leader Emerges as June 2026 Attack Volumes Climb Worldwide](https://blog.checkpoint.com/research/a-new-ransomware-leader-emerges-as-june-2026-attack-volumes-climb-worldwide/)
-  Check Point - 2026-07-09T
-

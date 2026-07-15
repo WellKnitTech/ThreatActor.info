@@ -31,9 +31,3 @@ Hermes is a ransomware family first observed in the wild in February 2017, belie
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Hermes agent maker Nous Research in talks for new funding at $1.5B valuation](https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/)
-  TechCrunch - 2026-07-13T
-

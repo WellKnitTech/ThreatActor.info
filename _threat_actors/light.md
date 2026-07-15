@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [The US Approves Launch of Mirror Satellite That Can Reflect Sunlight and Illuminate the Earth at Night](https://www.wired.com/story/reflect-orbital-earendil-mirror-satellite-fcc/)
+  Wired - 2026-07-14T
+

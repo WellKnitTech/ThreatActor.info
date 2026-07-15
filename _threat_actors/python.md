@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Python Is So Slow. Can Julia Solve the Two-Language Problem?](https://www.wired.com/story/python-is-so-slow-can-julia-solve-the-two-language-problem/)
-  Wired - 2026-07-13T
-

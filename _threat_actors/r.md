@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Already rich, already successful, why the last wave of tech winners is grinding again](https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again/)
+- [Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack](https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html)
+  The Hacker News - 2026-07-15T
+- [OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B](https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/)
+  TechCrunch - 2026-07-15T
+- [SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data](https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html)
+  The Hacker News - 2026-07-14T
+- [Lorde says AI glasses are ‘not sexy’](https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/)
   TechCrunch - 2026-07-14T
-- [AI Security Threats in 2026: Annual Insights from Check Point Research](https://blog.checkpoint.com/ai-security/ai-security-threats-in-2026-insights-from-check-point-research/)
-  Check Point - 2026-07-14T
-- [Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”](https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/)
-  TechCrunch - 2026-07-14T
-- [Video-generation startup PixVerse raises $439M, valuation soars past $2B](https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/)
-  TechCrunch - 2026-07-14T
-- [X just tweaked its algorithm to make it more friendly, less battleground](https://techcrunch.com/2026/07/13/x-just-tweaked-its-algorithm-to-make-it-more-friendly-less-battleground/)
-  TechCrunch - 2026-07-13T
+- [Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads](https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html)
+  The Hacker News - 2026-07-14T
 

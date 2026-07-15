@@ -33,8 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns](https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html)
-  The Hacker News - 2026-07-11T
-- [Aussie gov't tells volunteers to throw out thousands of functioning test routers](https://arstechnica.com/gadgets/2026/07/thousands-of-routers-bricked-after-government-program-concludes-in-australia/)
-  Ars Technica - 2026-07-08T
+- [SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now](https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/)
+  BleepingComputer - 2026-07-14T
+- [Critical Vulnerability in SonicWall SMA1000 Appliances Under Active Exploitation (CVE-2026-15409)](https://labs.beazley.security/advisories/BSL-A1189)
+  Beazley Security Labs Advisories - 2026-07-14T
 
