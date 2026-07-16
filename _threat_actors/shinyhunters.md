@@ -33,9 +33,3 @@ ShinyHunters is a cybercriminal group of unknown origin that is motivated by fin
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity](https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html)
-  The Hacker News - 2026-07-14T
-

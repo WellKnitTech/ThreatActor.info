@@ -33,6 +33,8 @@ Ransomware Variant of Kirk
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [2-Click Cursor Exploit Enables Dev Environment Takeover](https://www.darkreading.com/application-security/2-click-cursor-exploit-dev-environment-takeover)
+  DarkReading - 2026-07-15T
 - [ClickFix's Mushrooming Ecosystem Demands New Defense Tactics](https://www.darkreading.com/cyberattacks-data-breaches/clickfixs-ecosystem-demands-new-defense)
   DarkReading - 2026-07-14T
 

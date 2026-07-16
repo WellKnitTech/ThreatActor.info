@@ -75,10 +75,10 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [AI Security Is Never Finished: Building the Continuous Red Teaming Loop ](https://blog.checkpoint.com/ai-security/ai-security-is-never-finished-building-the-continuous-red-teaming-loop/)
+  Check Point - 2026-07-15T
 - [Weak Security Continues to Fuel Russian Cyberattacks](https://www.darkreading.com/endpoint-security/weak-security-fuel-russian-cyberattacks)
   DarkReading - 2026-07-13T
-- [Introducing Precursor: detecting agentic behavior with continuous client-side signals](https://blog.cloudflare.com/introducing-precursor/)
-  Cloudflare - 2026-07-13T
 
 ## CISA Known Exploited Vulnerabilities (KEV)
 *The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*

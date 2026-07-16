@@ -37,6 +37,6 @@ SunCrypt ransomware was discovered in October 2019 and in August 2020 it was add
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The US Approves Launch of Mirror Satellite That Can Reflect Sunlight and Illuminate the Earth at Night](https://www.wired.com/story/reflect-orbital-earendil-mirror-satellite-fcc/)
-  Wired - 2026-07-14T
+- [Hack suggests AI music generator Suno scraped YouTube for training data](https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/)
+  TechCrunch - 2026-07-15T
 

@@ -33,6 +33,8 @@ Ransomware VaultCrypt family
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [US charges alleged operators of Russian bulletproof hosting service](https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/)
+  BleepingComputer - 2026-07-15T
 - [Weak Security Continues to Fuel Russian Cyberattacks](https://www.darkreading.com/endpoint-security/weak-security-fuel-russian-cyberattacks)
   DarkReading - 2026-07-13T
 

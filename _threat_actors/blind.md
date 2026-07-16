@@ -30,3 +30,11 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Forgotten Bootloaders Expose Secure Boot Blind Spot](https://www.darkreading.com/cyber-risk/forgotten-bootloaders-expose-secure-boot-blind-spot)
+  DarkReading - 2026-07-15T
+- [SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.](https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html)
+  The Hacker News - 2026-07-15T
+

@@ -32,3 +32,9 @@ The Shadow Brokers (TSB) is a hacker group who first appeared in the summer of 2
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Tesla driver in fatal Texas crash pressed accelerator 100%, NTSB confirms](https://techcrunch.com/2026/07/15/tesla-driver-in-fatal-texas-crash-pressed-accelerator-100-ntsb-confirms/)
+  TechCrunch - 2026-07-15T
+

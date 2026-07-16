@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack](https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html)
-  The Hacker News - 2026-07-15T
-- [OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B](https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/)
+- [Applied Computing wants to give oil and gas operators an AI model for the entire plant](https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/)
+  TechCrunch - 2026-07-16T
+- [Lululemon backs nylon recycling startup Syntetica in $30M Series A](https://techcrunch.com/2026/07/15/lululemon-backs-nylon-recycling-startup-syntetica-in-30m-series-a/)
+  TechCrunch - 2026-07-16T
+- [Why Greylock capped its new fund at $1.5B when it says it could have raised more](https://techcrunch.com/2026/07/15/why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more/)
+  TechCrunch - 2026-07-16T
+- [Can Bose Help Skullcandy Shake Its Bargain-Bin Reputation?](https://www.wired.com/story/can-bose-help-skullcandy-shake-its-bargain-bin-reputation/)
+  Wired - 2026-07-16T
+- [Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic](https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/)
   TechCrunch - 2026-07-15T
-- [SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data](https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html)
-  The Hacker News - 2026-07-14T
-- [Lorde says AI glasses are ‘not sexy’](https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/)
-  TechCrunch - 2026-07-14T
-- [Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads](https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html)
-  The Hacker News - 2026-07-14T
 

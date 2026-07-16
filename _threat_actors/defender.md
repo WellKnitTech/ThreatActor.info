@@ -33,8 +33,8 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Guten Tag, Bonjour, Hola to Our European Cyber Defenders!](https://www.darkreading.com/threat-intelligence/guten-tag-bonjour-hola-european-cyber-defenders)
+  DarkReading - 2026-07-15T
 - [Now, defenders are embracing the prompt injection, too](https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/)
   Ars Technica - 2026-07-13T
-- [Patch for Windows Defender 0-day could allow attackers to fill hard disk](https://arstechnica.com/security/2026/07/patch-for-windows-defender-0-day-could-allow-attackers-to-fill-hard-disk/)
-  Ars Technica - 2026-07-09T
 

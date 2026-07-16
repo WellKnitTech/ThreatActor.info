@@ -30,11 +30,3 @@ Ransomware Based on HiddenTear, but heavily modified keygen
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support](https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html)
-  The Hacker News - 2026-07-14T
-- [US sanctions VPN, malware providers for enabling ransomware attacks](https://www.bleepingcomputer.com/news/security/us-sanctions-vpn-malware-providers-linked-to-ransomware-gangs/)
-  BleepingComputer - 2026-07-14T
-

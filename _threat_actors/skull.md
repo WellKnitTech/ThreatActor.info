@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Can Bose Help Skullcandy Shake Its Bargain-Bin Reputation?](https://www.wired.com/story/can-bose-help-skullcandy-shake-its-bargain-bin-reputation/)
+  Wired - 2026-07-16T
+

@@ -35,9 +35,3 @@ The Gentlemen is a ransomware group that employs a dual-extortion strategy, encr
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [No Manners Here: The Ruthless Rise of The Gentlemen Ransomware](https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/)
-  Unit 42 - 2026-07-10T
-

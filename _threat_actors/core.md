@@ -30,3 +30,9 @@ Core ransomware surfaced in early 2025 as a new variant within the broader Makop
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Elastic leads the latest AV-Comparatives Malware Protection Test with a perfect score](https://www.elastic.co/blog/av-comparatives-business-security-test-2026)
+  Elastic - 2026-07-15T
+

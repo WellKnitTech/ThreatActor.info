@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Microsoft’s Secure Boot has been broken for a decade and no one noticed until now](https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/)
-  Ars Technica - 2026-07-14T
-- [Apple opens its new Siri AI to everyone with the iOS 27 public beta](https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/)
-  TechCrunch - 2026-07-14T
-- [The founder of Hinge raised $18M to build a new AI dating service, Overtone](https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/)
-  TechCrunch - 2026-07-14T
-- [Cursor IDE Auto-Executes Malicious Code in Poisoned Repos](https://www.darkreading.com/application-security/cursor-ide-malicious-code-poisoned-repos)
-  DarkReading - 2026-07-14T
-- [Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown](https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/)
-  BleepingComputer - 2026-07-14T
+- [Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling](https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/)
+  TechCrunch - 2026-07-15T
+- [Phone maker OnePlus reportedly plans to wind down US and Europe operations](https://techcrunch.com/2026/07/15/phone-maker-oneplus-reportedly-plans-to-wind-down-us-and-europe-operations/)
+  TechCrunch - 2026-07-15T
+- [Lionel Messi’s Final World Cup—and the Death of Early Retirement](https://www.wired.com/story/lionel-messis-final-world-cup-and-the-death-of-early-retirement/)
+  Wired - 2026-07-15T
+- [Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution](https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html)
+  The Hacker News - 2026-07-15T
+- [Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands](https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html)
+  The Hacker News - 2026-07-15T
 

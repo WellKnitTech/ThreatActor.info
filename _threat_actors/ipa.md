@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [The Best iPad to Buy (and Some to Avoid) in 2026: Air, Pro, Mini](https://www.wired.com/gallery/the-best-ipad/)
+  Wired - 2026-07-15T
+

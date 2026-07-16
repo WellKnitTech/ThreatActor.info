@@ -35,6 +35,4 @@ ransomware
 
 - [Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown](https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/)
   BleepingComputer - 2026-07-14T
-- [Emerging Threat: Progress Customers Instructed to Shut Down Storage Zone Controllers](https://labs.beazley.security/advisories/BSL-A1188)
-  Beazley Security Labs Advisories - 2026-07-10T
 
