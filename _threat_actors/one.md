@@ -33,14 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling](https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/)
-  TechCrunch - 2026-07-15T
-- [Phone maker OnePlus reportedly plans to wind down US and Europe operations](https://techcrunch.com/2026/07/15/phone-maker-oneplus-reportedly-plans-to-wind-down-us-and-europe-operations/)
-  TechCrunch - 2026-07-15T
-- [Lionel Messi’s Final World Cup—and the Death of Early Retirement](https://www.wired.com/story/lionel-messis-final-world-cup-and-the-death-of-early-retirement/)
-  Wired - 2026-07-15T
-- [Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution](https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html)
-  The Hacker News - 2026-07-15T
-- [Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands](https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html)
-  The Hacker News - 2026-07-15T
+- [HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs](https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/)
+  Ars Technica - 2026-07-16T
+- [AI Appreciation Day: Let’s Be Honest About What We’re Appreciating](https://blog.checkpoint.com/ai-security/ai-appreciation-day-lets-be-honest-about-what-were-appreciating/)
+  Check Point - 2026-07-16T
+- [Microsoft’s Secure Boot has been broken for a decade and no one noticed until now](https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/)
+  Ars Technica - 2026-07-14T
 

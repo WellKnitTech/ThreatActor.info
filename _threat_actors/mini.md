@@ -33,8 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Google continues its renaming streak by turning NotebookLM to Gemini Notebook](https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/)
+  TechCrunch - 2026-07-16T
 - [Google Gemini CLI abused as a hacking agent, malware botnet operator](https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/)
   BleepingComputer - 2026-07-15T
-- [The Best iPad to Buy (and Some to Avoid) in 2026: Air, Pro, Mini](https://www.wired.com/gallery/the-best-ipad/)
-  Wired - 2026-07-15T
 

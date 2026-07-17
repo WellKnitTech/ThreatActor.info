@@ -30,3 +30,9 @@ Quantum is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Palo Alto Networks and AT&T - Delivering Quantum-Resilient SASE Fabric](https://www.paloaltonetworks.com/blog/2026/07/palo-alto-networks-and-att-delivering-quantum-resilient-sase-fabric/)
+  Palo Alto Networks - 2026-07-16T
+

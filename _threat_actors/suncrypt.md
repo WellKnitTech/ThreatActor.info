@@ -37,6 +37,6 @@ SunCrypt ransomware was discovered in October 2019 and in August 2020 it was add
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Hack suggests AI music generator Suno scraped YouTube for training data](https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/)
-  TechCrunch - 2026-07-15T
+- [Sunsetting the Public AttackerKB Platform](https://www.rapid7.com/blog/post/ve-sunsetting-public-attackerkb-platform)
+  Rapid7 - 2026-07-16T
 

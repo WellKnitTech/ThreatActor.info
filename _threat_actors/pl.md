@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Applied Computing wants to give oil and gas operators an AI model for the entire plant](https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/)
+- [Pete Hegseth’s Plan for ‘High T’ Troops Is a Junk-Science Fever Dream](https://www.wired.com/story/pete-hegseths-plan-for-high-t-troops-is-a-junk-science-fever-dream/)
+  Wired - 2026-07-17T
+- [Newsletter platform Beehiiv now lets subscribers chat with each other, adds AI](https://techcrunch.com/2026/07/16/newsletter-platform-beehiiv-now-lets-subscribers-chat-with-each-other-adds-ai/)
   TechCrunch - 2026-07-16T
-- [Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic](https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/)
-  TechCrunch - 2026-07-15T
-- [Identity Attacks Overtake Exploits as Top Ransomware Cause](https://www.darkreading.com/identity-access-management-security/identity-attacks-overtake-exploits-top-ransomware-cause)
-  DarkReading - 2026-07-15T
-- [Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws](https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html)
-  The Hacker News - 2026-07-15T
-- [Apple bans home services from its upcoming Maps ads](https://techcrunch.com/2026/07/15/apple-quietly-reveals-how-its-maps-ads-will-differ-from-googles/)
-  TechCrunch - 2026-07-15T
+- [Energy IPOs surge as investors hunt for ways to play AI boom](https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/)
+  Ars Technica - 2026-07-16T
+- [New OkoBot framework deploys 20 payloads to steal data, crypto](https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/)
+  BleepingComputer - 2026-07-16T
+- [Sunsetting the Public AttackerKB Platform](https://www.rapid7.com/blog/post/ve-sunsetting-public-attackerkb-platform)
+  Rapid7 - 2026-07-16T
 

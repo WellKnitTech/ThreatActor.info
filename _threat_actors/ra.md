@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Applied Computing wants to give oil and gas operators an AI model for the entire plant](https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/)
+- [Paramount+ Coupon Codes and Deals for July 2026](https://www.wired.com/story/paramount-plus-coupon-code/)
+  Wired - 2026-07-17T
+- [San Francisco mayor pushes for tougher rules after the Waymo traffic fiasco](https://techcrunch.com/2026/07/16/san-francisco-mayor-pushes-for-tougher-rules-after-the-waymo-traffic-fiasco/)
   TechCrunch - 2026-07-16T
-- [Why Greylock capped its new fund at $1.5B when it says it could have raised more](https://techcrunch.com/2026/07/15/why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more/)
+- [Coca-Cola suspended production at its Fairlife dairy after a ransomware attack](https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/)
   TechCrunch - 2026-07-16T
-- [Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic](https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/)
-  TechCrunch - 2026-07-15T
-- [Smoke From Canada's Wildfires Turns Skies Sickly Orange Across the Eastern US](https://www.wired.com/story/northeast-us-blanketed-in-canadian-wildfire-smoke/)
-  Wired - 2026-07-15T
-- [Sheetz is quitting VMware, migrating 11,000 virtual machines](https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/)
-  Ars Technica - 2026-07-15T
+- [ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories](https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html)
+  The Hacker News - 2026-07-16T
+- [New ClickLock macOS malware traps users into revealing login password](https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/)
+  BleepingComputer - 2026-07-16T
 

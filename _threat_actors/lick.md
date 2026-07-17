@@ -33,8 +33,14 @@ Ransomware Variant of Kirk
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [2-Click Cursor Exploit Enables Dev Environment Takeover](https://www.darkreading.com/application-security/2-click-cursor-exploit-dev-environment-takeover)
-  DarkReading - 2026-07-15T
-- [ClickFix's Mushrooming Ecosystem Demands New Defense Tactics](https://www.darkreading.com/cyberattacks-data-breaches/clickfixs-ecosystem-demands-new-defense)
-  DarkReading - 2026-07-14T
+- [Now, even Russia's most elite hackers are using Clickfix to infect devices](https://arstechnica.com/security/2026/07/now-even-russias-most-elite-hackers-are-using-clickfix-to-infect-devices/)
+  Ars Technica - 2026-07-16T
+- [New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands](https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html)
+  The Hacker News - 2026-07-16T
+- [New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password](https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html)
+  The Hacker News - 2026-07-16T
+- [New ClickLock macOS malware traps users into revealing login password](https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/)
+  BleepingComputer - 2026-07-16T
+- [New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands](https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html)
+  The Hacker News - 2026-07-16T
 

@@ -109,8 +109,8 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Elastic named a Leader in the 2026 Gartner® Magic Quadrant™ for Observability Platforms](https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-observability-platforms-2026)
-  Elastic - 2026-07-15T
 - [Elastic leads the latest AV-Comparatives Malware Protection Test with a perfect score](https://www.elastic.co/blog/av-comparatives-business-security-test-2026)
+  Elastic - 2026-07-15T
+- [Elastic named a Leader in the 2026 Gartner® Magic Quadrant™ for Observability Platforms](https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-observability-platforms-2026)
   Elastic - 2026-07-15T
 
