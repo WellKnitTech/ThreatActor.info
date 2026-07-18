@@ -75,8 +75,6 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Google continues its renaming streak by turning NotebookLM to Gemini Notebook](https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/)
-  TechCrunch - 2026-07-16T
 - [AI Security Is Never Finished: Building the Continuous Red Teaming Loop ](https://blog.checkpoint.com/ai-security/ai-security-is-never-finished-building-the-continuous-red-teaming-loop/)
   Check Point - 2026-07-15T
 

@@ -30,3 +30,9 @@ Ank is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [What Cities From Chicago to Washington, DC, Look Like Under a Blanket of Wildfire Smoke](https://www.wired.com/story/cities-from-chicago-to-washington-dc-look-like-wildfire-smoke/)
+  Wired - 2026-07-17T
+

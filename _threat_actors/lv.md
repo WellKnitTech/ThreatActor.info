@@ -30,3 +30,9 @@ parser needs to be built
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Valve Steam Machine Review: A Compromised Console](https://www.wired.com/review/valve-steam-machine/)
+  Wired - 2026-07-17T
+

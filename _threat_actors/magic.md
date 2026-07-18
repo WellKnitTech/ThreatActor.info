@@ -30,9 +30,3 @@ Ransomware Based on EDA2
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Elastic named a Leader in the 2026 Gartner® Magic Quadrant™ for Observability Platforms](https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-observability-platforms-2026)
-  Elastic - 2026-07-15T
-

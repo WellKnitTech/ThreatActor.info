@@ -33,6 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Inc Ransomware Exploits SonicWall SMA Zero-Days](https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days)
+  DarkReading - 2026-07-17T
+- [Panasonic Japanese Microwave Review (2026): True 1-Button Cooking](https://www.wired.com/review/panasonic-japanese-microwave/)
+  Wired - 2026-07-17T
 - [Elastic and Axonius integrate to deliver unified asset intelligence for security teams](https://www.elastic.co/blog/axonius-integration)
   Elastic - 2026-07-16T
 - [Rapid7 MDR Team Discovers New SonicWall SMA1000 Zero Days being Actively Exploited (CVE-2026-15409, CVE-2026-15410)](https://www.rapid7.com/blog/post/etr-rapid7-mdr-team-discovers-new-sonicwall-sma1000-zero-days-being-actively-exploited-cve-2026-15409-cve-2026-15410)

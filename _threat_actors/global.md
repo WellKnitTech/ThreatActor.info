@@ -35,6 +35,4 @@ Not a RaaS yet.
 
 - [AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report](https://unit42.paloaltonetworks.com/ai-incident-response-report/)
   Unit 42 - 2026-07-16T
-- [Uber’s $14.8B Delivery Hero deal would nearly double its global footprint](https://techcrunch.com/2026/07/16/ubers-14-8b-delivery-hero-deal-would-nearly-double-its-global-footprint/)
-  TechCrunch - 2026-07-16T
 

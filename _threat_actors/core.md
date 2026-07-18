@@ -33,6 +33,8 @@ Core ransomware surfaced in early 2025 as a new variant within the broader Makop
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Elastic leads the latest AV-Comparatives Malware Protection Test with a perfect score](https://www.elastic.co/blog/av-comparatives-business-security-test-2026)
-  Elastic - 2026-07-15T
+- [New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code](https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html)
+  The Hacker News - 2026-07-18T
+- [CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core](https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core)
+  Rapid7 - 2026-07-17T
 

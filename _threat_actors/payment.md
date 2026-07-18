@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Critical Vulnerability in Oracle EBS Payments Product Under Active Exploitation (CVE-2026-46817)](https://labs.beazley.security/advisories/BSL-A1191)
-  Beazley Security Labs Advisories - 2026-07-15T
-

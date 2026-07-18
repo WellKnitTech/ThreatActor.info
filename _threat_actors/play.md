@@ -139,6 +139,8 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [A $10K Bounty Aims to Make Sony’s PlayStation 5 a Computer Again](https://www.wired.com/story/a-10k-bounty-aims-to-make-the-ps5-a-computer-again/)
+  Wired - 2026-07-17T
 - [Energy IPOs surge as investors hunt for ways to play AI boom](https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/)
   Ars Technica - 2026-07-16T
 - [AI Agents Broke the Security Playbook. Here's What Replaces It.](https://www.bleepingcomputer.com/news/security/ai-agents-broke-the-security-playbook-heres-what-replaces-it/)

@@ -33,6 +33,6 @@ Ransomware VaultCrypt family
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Russian hackers trojanize WebEx, Zoom apps to push Starland malware](https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/)
-  BleepingComputer - 2026-07-16T
+- [Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man](https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html)
+  The Hacker News - 2026-07-17T
 
