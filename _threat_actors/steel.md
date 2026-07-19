@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [SteelSeries Coupon Codes: 15% Off in July 2026](https://www.wired.com/story/steelseries-coupon-code/)
+  Wired - 2026-07-18T
+

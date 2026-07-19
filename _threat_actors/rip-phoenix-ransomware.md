@@ -33,6 +33,8 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [A 600-mile road trip (and data) proves EV charging doesn’t suck anymore](https://techcrunch.com/2026/07/18/a-600-mile-road-trip-and-data-proves-ev-charging-doesnt-suck-anymore/)
+  TechCrunch - 2026-07-18T
 - [Applications close in 48 hours — here’s everything Australian founders need to know about Stripe x Startup Battlefield](https://techcrunch.com/2026/07/17/applications-close-in-48-hours-heres-everything-australian-founders-need-to-know-about-stripe-x-startup-battlefield/)
   TechCrunch - 2026-07-17T
 

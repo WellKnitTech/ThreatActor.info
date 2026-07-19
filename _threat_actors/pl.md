@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Federal employees can download TikTok on their work phones again](https://techcrunch.com/2026/07/18/federal-employees-can-download-tiktok-on-their-work-phones-again/)
+  TechCrunch - 2026-07-18T
+- [Update now: 7-Zip fixes RCE flaw exploitable with malicious archives](https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/)
+  BleepingComputer - 2026-07-18T
+- [WordPress Core "wp2shell" RCE flaws get public exploits, patch now](https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/)
+  BleepingComputer - 2026-07-18T
+- [FIFA Doesn’t Have a Plan to Deal With Climate Change](https://www.wired.com/story/fifa-doesnt-have-plan-to-deal-with-climate-change/)
+  Wired - 2026-07-18T
 - [Applications close in 48 hours — here’s everything Australian founders need to know about Stripe x Startup Battlefield](https://techcrunch.com/2026/07/17/applications-close-in-48-hours-heres-everything-australian-founders-need-to-know-about-stripe-x-startup-battlefield/)
-  TechCrunch - 2026-07-17T
-- [Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities ](https://blog.cloudflare.com/wordpress-vulnerabilities/)
-  Cloudflare - 2026-07-17T
-- [Agility Robotics plants its flag in Tesla’s backyard](https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/)
-  TechCrunch - 2026-07-17T
-- [Inc Ransomware Exploits SonicWall SMA Zero-Days](https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days)
-  DarkReading - 2026-07-17T
-- [Apple and Google ordered to purge ‘nudify’ apps from App Stores](https://techcrunch.com/2026/07/17/apple-and-google-ordered-to-purge-nudify-apps-from-app-stores/)
   TechCrunch - 2026-07-17T
 

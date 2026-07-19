@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [How Google’s New Gemini Rates Work and How to Track Your Usage](https://www.wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage/)
+  Wired - 2026-07-18T
+

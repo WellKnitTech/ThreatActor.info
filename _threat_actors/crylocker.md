@@ -30,11 +30,3 @@ Ransomware Identifies victim locations w/Google Maps API
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [FBI arrests man accused of using Steam games to drain victims’ crypto wallets](https://techcrunch.com/2026/07/17/fbi-arrests-man-accused-of-using-steam-games-to-drain-victims-crypto-wallets/)
-  TechCrunch - 2026-07-17T
-- [New OkoBot framework deploys 20 payloads to steal data, crypto](https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/)
-  BleepingComputer - 2026-07-16T
-

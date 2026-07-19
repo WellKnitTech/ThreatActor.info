@@ -35,6 +35,4 @@ A new ransomware called File Spider is being distributed through spam that targe
 
 - [Two Scattered Spider Hackers Get 5.5 Years Each for £29 Million TfL Hack](https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html)
   The Hacker News - 2026-07-16T
-- [Scattered Spider members behind TfL hack get five years in prison](https://www.bleepingcomputer.com/news/security/scattered-spider-members-behind-transport-for-london-hack-get-five-years-in-prison/)
-  BleepingComputer - 2026-07-16T
 

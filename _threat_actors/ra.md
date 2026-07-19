@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT](https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html)
-  The Hacker News - 2026-07-18T
-- [Applications close in 48 hours — here’s everything Australian founders need to know about Stripe x Startup Battlefield](https://techcrunch.com/2026/07/17/applications-close-in-48-hours-heres-everything-australian-founders-need-to-know-about-stripe-x-startup-battlefield/)
-  TechCrunch - 2026-07-17T
-- [CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core](https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core)
-  Rapid7 - 2026-07-17T
-- [Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities ](https://blog.cloudflare.com/wordpress-vulnerabilities/)
-  Cloudflare - 2026-07-17T
-- [Inc Ransomware Exploits SonicWall SMA Zero-Days](https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days)
-  DarkReading - 2026-07-17T
+- [Waymo says San Francisco service has resumed after one-hour pause](https://techcrunch.com/2026/07/18/waymo-appears-to-pause-san-francisco-service-amidst-power-outage/)
+  TechCrunch - 2026-07-18T
+- [Federal employees can download TikTok on their work phones again](https://techcrunch.com/2026/07/18/federal-employees-can-download-tiktok-on-their-work-phones-again/)
+  TechCrunch - 2026-07-18T
+- [Your Period Tracker Is (Probably) Spying on You](https://www.wired.com/story/security-news-this-week-your-period-tracker-is-probably-spying-on-you/)
+  Wired - 2026-07-18T
+- [The Best Motion Sensors and Home Security Gadgets Without Cameras](https://www.wired.com/story/best-motion-sensors-private-alternatives-security/)
+  Wired - 2026-07-18T
+- [How Google’s New Gemini Rates Work and How to Track Your Usage](https://www.wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage/)
+  Wired - 2026-07-18T
 

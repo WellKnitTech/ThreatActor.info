@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code](https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html)
-  The Hacker News - 2026-07-18T
-- [OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests](https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html)
-  The Hacker News - 2026-07-18T
-- [Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT](https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html)
-  The Hacker News - 2026-07-18T
-- [Applications close in 48 hours — here’s everything Australian founders need to know about Stripe x Startup Battlefield](https://techcrunch.com/2026/07/17/applications-close-in-48-hours-heres-everything-australian-founders-need-to-know-about-stripe-x-startup-battlefield/)
-  TechCrunch - 2026-07-17T
-- [Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs](https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/)
-  TechCrunch - 2026-07-17T
+- [Waymo says San Francisco service has resumed after one-hour pause](https://techcrunch.com/2026/07/18/waymo-appears-to-pause-san-francisco-service-amidst-power-outage/)
+  TechCrunch - 2026-07-18T
+- [Kimi: Threat or menace?](https://techcrunch.com/2026/07/18/kimi-threat-or-menace/)
+  TechCrunch - 2026-07-18T
+- [All the EVs that were discontinued or killed off in the U.S. this year](https://techcrunch.com/2026/07/18/all-the-evs-that-were-discontinued-or-killed-off-in-the-u-s-this-year/)
+  TechCrunch - 2026-07-18T
+- [Federal employees can download TikTok on their work phones again](https://techcrunch.com/2026/07/18/federal-employees-can-download-tiktok-on-their-work-phones-again/)
+  TechCrunch - 2026-07-18T
+- [Update now: 7-Zip fixes RCE flaw exploitable with malicious archives](https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/)
+  BleepingComputer - 2026-07-18T
 
