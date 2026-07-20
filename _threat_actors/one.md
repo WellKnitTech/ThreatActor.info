@@ -39,8 +39,8 @@ ransomware
   TechCrunch - 2026-07-18T
 - [Neil Rimer thinks the AI money is coming back out](https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/)
   TechCrunch - 2026-07-18T
-- [AI-driven memory crunch jolts India’s smartphone market](https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/)
-  TechCrunch - 2026-07-17T
-- [I replaced my space heater and ceiling fan with one Dyson appliance](https://techcrunch.com/2026/07/17/i-replaced-my-space-heater-and-ceiling-fan-with-one-dyson-appliance/)
-  TechCrunch - 2026-07-17T
+- [HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs](https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/)
+  Ars Technica - 2026-07-16T
+- [AI Appreciation Day: Let’s Be Honest About What We’re Appreciating](https://blog.checkpoint.com/ai-security/ai-appreciation-day-lets-be-honest-about-what-were-appreciating/)
+  Check Point - 2026-07-16T
 

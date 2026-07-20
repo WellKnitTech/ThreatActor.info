@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [How to Disable Music Videos in Spotify](https://www.wired.com/story/how-to-disable-all-the-music-videos-in-spotify/)
+  Wired - 2026-07-19T
+

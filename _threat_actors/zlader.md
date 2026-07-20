@@ -33,6 +33,8 @@ Ransomware VaultCrypt family
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Hackers abuse ViPNet software to target Russian govt agencies](https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/)
+  BleepingComputer - 2026-07-19T
 - [Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man](https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html)
   The Hacker News - 2026-07-17T
 

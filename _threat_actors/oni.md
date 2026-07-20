@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access](https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html)
+  The Hacker News - 2026-07-19T
 - [Inc Ransomware Exploits SonicWall SMA Zero-Days](https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days)
   DarkReading - 2026-07-17T
 - [Elastic and Axonius integrate to deliver unified asset intelligence for security teams](https://www.elastic.co/blog/axonius-integration)
