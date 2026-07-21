@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [How To Watch the 2026 FIFA World Cup Finals: Spain vs. Argentina](https://www.wired.com/story/how-to-watch-the-fifa-2026-world-cup-07-19-2026/)
-  Wired - 2026-07-19T
-

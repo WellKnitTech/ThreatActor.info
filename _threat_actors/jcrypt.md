@@ -30,3 +30,9 @@ Ransomware written in C#. Fortunately, all current versions of the MafiaWare666 
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Fans Flocked to World Cup Host Cities—Causing 80 Percent of the Tournament’s Emissions](https://www.wired.com/story/new-research-estimates-most-emissions-came-from-fan-travel/)
+  Wired - 2026-07-20T
+

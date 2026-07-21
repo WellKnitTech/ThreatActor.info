@@ -30,9 +30,3 @@ Ransomware encrypts disk partitions PDFBewerbungsmappe.exe
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft](https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html)
-  The Hacker News - 2026-07-17T
-

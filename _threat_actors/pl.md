@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Can an Apple lawsuit derail OpenAI’s hardware plans?](https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/)
-  TechCrunch - 2026-07-19T
-- [SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access](https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html)
-  The Hacker News - 2026-07-19T
-- [The Search for Another Earth-Like Planet Just Took a Big Step Forward](https://www.wired.com/story/search-for-earth-like-planet-step-forward/)
-  Wired - 2026-07-19T
-- [Federal employees can download TikTok on their work phones again](https://techcrunch.com/2026/07/18/federal-employees-can-download-tiktok-on-their-work-phones-again/)
-  TechCrunch - 2026-07-18T
-- [Update now: 7-Zip fixes RCE flaw exploitable with malicious archives](https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/)
-  BleepingComputer - 2026-07-18T
+- [The Galaxy Card Is Samsung’s Answer to the Apple Card](https://www.wired.com/story/galaxy-card-is-samsung-answer-to-the-apple-card/)
+  Wired - 2026-07-20T
+- [The FDA Says It Didn't Apologize to Supplier Linked to Diarrhea Outbreak, Actually](https://www.wired.com/story/taylor-farms-fda-explosive-diarrhea-tweets/)
+  Wired - 2026-07-20T
+- [SonicWall SMA1000 flaws exploited as zero-days to push custom malware](https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/)
+  BleepingComputer - 2026-07-20T
+- [Hackers are exploiting recently patched WordPress bugs, putting millions of websites at risk](https://techcrunch.com/2026/07/20/hackers-are-exploiting-recently-patched-wordpress-bugs-putting-millions-of-websites-at-risk/)
+  TechCrunch - 2026-07-20T
+- [Critical ServiceNow code execution flaw now exploited in attacks](https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/)
+  BleepingComputer - 2026-07-20T
 

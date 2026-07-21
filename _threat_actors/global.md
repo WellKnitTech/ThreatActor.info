@@ -33,6 +33,6 @@ Not a RaaS yet.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report](https://unit42.paloaltonetworks.com/ai-incident-response-report/)
+- [AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report](https://unit42.paloaltonetworks.com/ai-insights-incident-response-report/)
   Unit 42 - 2026-07-16T
 

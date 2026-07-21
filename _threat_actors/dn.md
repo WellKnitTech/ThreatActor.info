@@ -33,6 +33,12 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images](https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html)
-  The Hacker News - 2026-07-17T
+- [FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware](https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html)
+  The Hacker News - 2026-07-20T
+- [Cloudflare Internal DNS is now generally available](https://blog.cloudflare.com/internal-dns/)
+  Cloudflare - 2026-07-20T
+- [The FDA Says It Didn't Apologize to Supplier Linked to Diarrhea Outbreak, Actually](https://www.wired.com/story/taylor-farms-fda-explosive-diarrhea-tweets/)
+  Wired - 2026-07-20T
+- [Mythos Didn't Break Your Security Program. Your Exposure Window Could.](https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html)
+  The Hacker News - 2026-07-20T
 

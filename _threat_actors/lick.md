@@ -35,12 +35,6 @@ Ransomware Variant of Kirk
 
 - [UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware](https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html)
   The Hacker News - 2026-07-19T
-- [ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files](https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html)
-  The Hacker News - 2026-07-17T
 - [Now, even Russia's most elite hackers are using Clickfix to infect devices](https://arstechnica.com/security/2026/07/now-even-russias-most-elite-hackers-are-using-clickfix-to-infect-devices/)
   Ars Technica - 2026-07-16T
-- [New ClickLock macOS malware traps users into revealing login password](https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/)
-  BleepingComputer - 2026-07-16T
-- [2-Click Cursor Exploit Enables Dev Environment Takeover](https://www.darkreading.com/application-security/2-click-cursor-exploit-dev-environment-takeover)
-  DarkReading - 2026-07-15T
 
