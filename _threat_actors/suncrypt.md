@@ -37,8 +37,8 @@ SunCrypt ransomware was discovered in October 2019 and in August 2020 it was add
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The Galaxy Card Is Samsung’s Answer to the Apple Card](https://www.wired.com/story/galaxy-card-is-samsung-answer-to-the-apple-card/)
-  Wired - 2026-07-20T
+- [‘It’s a Modern-Day Draft’: Why Stanford Students Walked Out on Sundar Pichai’s Commencement Speech](https://www.wired.com/story/big-interview-stanford-students-booing-sundar-pichai/)
+  Wired - 2026-07-21T
 - [Sunsetting the Public AttackerKB Platform](https://www.rapid7.com/blog/post/ve-sunsetting-public-attackerkb-platform)
   Rapid7 - 2026-07-16T
 

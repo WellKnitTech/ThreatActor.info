@@ -33,12 +33,10 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [FakeGit campaign uses 7,600 GitHub repos to push SmartLoader malware](https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/)
+  BleepingComputer - 2026-07-21T
 - [FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware](https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html)
   The Hacker News - 2026-07-20T
 - [Cloudflare Internal DNS is now generally available](https://blog.cloudflare.com/internal-dns/)
   Cloudflare - 2026-07-20T
-- [The FDA Says It Didn't Apologize to Supplier Linked to Diarrhea Outbreak, Actually](https://www.wired.com/story/taylor-farms-fda-explosive-diarrhea-tweets/)
-  Wired - 2026-07-20T
-- [Mythos Didn't Break Your Security Program. Your Exposure Window Could.](https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html)
-  The Hacker News - 2026-07-20T
 

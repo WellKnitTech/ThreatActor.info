@@ -30,3 +30,11 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [This Former Intel CEO Wants to Jumpstart Moore’s Law With Light](https://www.wired.com/story/pat-gelsinger-moores-law-light-chips/)
+  Wired - 2026-07-21T
+- [The Light Flip Is the Stylish Dumb Flip Phone of Your Dreams](https://www.wired.com/story/light-flip-is-the-modern-stylish-dumb-flip-phone-of-your-luddite-dreams/)
+  Wired - 2026-07-21T
+

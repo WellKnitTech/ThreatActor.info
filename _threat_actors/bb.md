@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Taylor Farms Spent Big on MAGA and Anti-Regulatory Lobbying Before Diarrhea Outbreak](https://www.wired.com/story/diarrhea-outbreak-taylor-farms-maga-donations-lobbying/)
+  Wired - 2026-07-21T
+

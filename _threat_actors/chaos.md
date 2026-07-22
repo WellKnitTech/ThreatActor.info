@@ -30,3 +30,9 @@ Chaos is a rapidly evolving Ransomware-as-a-Service (RaaS) group first observed 
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Shop Best Buy’s Black Friday in July Sale 2026 Before Fall Chaos](https://www.wired.com/story/best-buy-black-friday-in-july-2026/)
+  Wired - 2026-07-21T
+

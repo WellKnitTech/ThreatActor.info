@@ -37,3 +37,9 @@ Cyber Alliance is a hacktivist group that has demonstrated capabilities in explo
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Higher education analytics for the ultra-intelligent university](https://www.elastic.co/blog/higher-education-analytics-ultra-intelligent-university)
+  Elastic - 2026-07-21T
+

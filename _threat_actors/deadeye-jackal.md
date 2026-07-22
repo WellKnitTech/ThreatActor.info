@@ -41,11 +41,3 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Inference startup Infinity raises $15M from Touring Capital, OpenAI and Anthropic researchers](https://techcrunch.com/2026/07/20/inference-startup-infinity-raises-15m-from-touring-capital-openai-and-athropic-researchers/)
-  TechCrunch - 2026-07-20T
-- [The Search for Another Earth-Like Planet Just Took a Big Step Forward](https://www.wired.com/story/search-for-earth-like-planet-step-forward/)
-  Wired - 2026-07-19T
-
