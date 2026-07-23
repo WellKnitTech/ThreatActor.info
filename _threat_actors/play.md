@@ -139,6 +139,6 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Energy IPOs surge as investors hunt for ways to play AI boom](https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/)
-  Ars Technica - 2026-07-16T
+- [China’s Open AI Models Are Challenging Silicon Valley’s Playbook](https://www.wired.com/story/chinas-open-ai-models-are-challenging-silicon-valleys-playbook/)
+  Wired - 2026-07-22T
 

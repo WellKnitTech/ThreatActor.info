@@ -30,3 +30,9 @@ Frozen is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Ransomware Attack Puts a Chill On Japanese Frozen-Food Chain](https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain)
+  DarkReading - 2026-07-23T
+

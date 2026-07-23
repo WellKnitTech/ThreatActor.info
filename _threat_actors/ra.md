@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Is the All-New Range Rover GT Stepping on Jaguar’s Tail?](https://www.wired.com/story/range-rover-has-an-entirely-new-electric-car-range-rover-gt/)
-  Wired - 2026-07-21T
-- [Ransomware Is Accelerating, But It's Not Because of AI](https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai)
-  DarkReading - 2026-07-21T
-- [Using LLMs to Find and Prioritize Vulnerabilities Is No Easy Task](https://www.darkreading.com/application-security/finding-and-prioritizing-vulnerabilities-no-easy-task)
-  DarkReading - 2026-07-21T
-- [Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities](https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html)
-  The Hacker News - 2026-07-21T
-- [Inline Email Security and Microsoft 365: A Practical View of Mail Routing, Risk, and Prevention](https://blog.checkpoint.com/email-security/inline-email-security-and-microsoft-365-a-practical-view-of-mail-routing-risk-and-prevention/)
-  Check Point - 2026-07-21T
+- [Ransomware Attack Puts a Chill On Japanese Frozen-Food Chain](https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain)
+  DarkReading - 2026-07-23T
+- [After shocking quarter, IBM insists that AI isn’t killing the mainframe](https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/)
+  TechCrunch - 2026-07-22T
+- [Top Red-Light Therapy Deals at Nordstrom’s Anniversary Sale (2026)](https://www.wired.com/story/red-light-device-deals-from-nordstroms-anniversary-sale-2026/)
+  Wired - 2026-07-22T
+- [SoundCloud acquires decentralized music platform Nina Protocol months after its shutdown](https://techcrunch.com/2026/07/22/soundcloud-acquires-decentralized-music-platform-nina-protocol-months-after-its-shutdown/)
+  TechCrunch - 2026-07-22T
+- [Fake Bahrain Alert App Deploys Android Surveillance Malware](https://www.darkreading.com/mobile-security/fake-bahrain-alert-apps-android-surveillance-malware)
+  DarkReading - 2026-07-22T
 

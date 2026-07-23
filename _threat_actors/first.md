@@ -30,3 +30,9 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [New InfraTrust report reveals infrastructure flaws admins should patch first](https://www.bleepingcomputer.com/news/security/new-infratrust-report-reveals-infrastructure-flaws-admins-should-patch-first/)
+  BleepingComputer - 2026-07-22T
+

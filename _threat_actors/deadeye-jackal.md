@@ -41,3 +41,9 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [A Teen Reporter Searched for His Community in the Epstein Files. Adults Freaked Out](https://www.wired.com/story/epstein-files-redwood-bark-school-newspaper/)
+  Wired - 2026-07-22T
+

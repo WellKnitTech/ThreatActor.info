@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The Anthropic-Physical Intelligence rumor roiling AI Twitter](https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/)
+- [Ransomware Attack Puts a Chill On Japanese Frozen-Food Chain](https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain)
+  DarkReading - 2026-07-23T
+- [GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier](https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html)
+  The Hacker News - 2026-07-23T
+- [After shocking quarter, IBM insists that AI isn’t killing the mainframe](https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/)
   TechCrunch - 2026-07-22T
-- [Dimension Capital’s $800M third fund shows the intersection of science and compute is booming](https://techcrunch.com/2026/07/21/dimension-capitals-800m-third-fund-shows-the-intersection-of-science-and-compute-is-booming/)
-  TechCrunch - 2026-07-22T
-- [LG to Ban Residential Proxies from Smart TV Apps](https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/)
-  KrebsOnSecurity - 2026-07-22T
-- [Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs](https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html)
+- [Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs](https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html)
   The Hacker News - 2026-07-22T
-- [Meta is testing an AI bedtime story app for people with no imagination](https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/)
-  TechCrunch - 2026-07-21T
+- [Attackers Are Learning to Live Off the AI Toolchain](https://www.darkreading.com/cyber-risk/attackers-live-off-ai-toolchain)
+  DarkReading - 2026-07-22T
 

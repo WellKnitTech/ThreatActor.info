@@ -30,9 +30,3 @@ First observed in June 2021, Hive ransomware was originally written in GoLang bu
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Windows LegacyHive zero-day flaw gets free, unofficial patches](https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/)
-  BleepingComputer - 2026-07-21T
-

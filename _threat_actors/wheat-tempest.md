@@ -30,9 +30,3 @@ Microsoft threat actor profile. Origin/Threat: Financially motivated.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Gold Eagle Clearinghouse Targets Security Gap, But How Is Unclear](https://www.darkreading.com/vulnerabilities-threats/gold-eagle-clearinghouse-targets-security-gap)
-  DarkReading - 2026-07-17T
-

@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs](https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html)
+  The Hacker News - 2026-07-22T
+

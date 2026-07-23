@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Apple teams up with Klarna to launch a lease-to-own program for iPhones, iPads, and Macs](https://techcrunch.com/2026/07/21/apple-teams-up-with-klarna-to-launch-a-lease-to-own-program-for-iphones-ipads-and-macs/)
-  TechCrunch - 2026-07-21T
-

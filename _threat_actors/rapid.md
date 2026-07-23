@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [What’s New in Rapid7 Products and Services: Q2 2026 in Review](https://www.rapid7.com/blog/post/pt-new-products-services-q2-2026-mdr)
+  Rapid7 - 2026-07-22T
+

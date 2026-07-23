@@ -33,8 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [SonicWall SMA1000 flaws exploited as zero-days to push custom malware](https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/)
-  BleepingComputer - 2026-07-20T
-- [Inc Ransomware Exploits SonicWall SMA Zero-Days](https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days)
-  DarkReading - 2026-07-17T
+- [Dyson V10 Konical Review (2026): Affordable and Solid](https://www.wired.com/review/dyson-v10-konical-2026/)
+  Wired - 2026-07-22T
 

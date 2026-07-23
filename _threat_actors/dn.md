@@ -33,10 +33,10 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Fake Bahrain Alert App Deploys Android Surveillance Malware](https://www.darkreading.com/mobile-security/fake-bahrain-alert-apps-android-surveillance-malware)
+  DarkReading - 2026-07-22T
 - [FakeGit campaign uses 7,600 GitHub repos to push SmartLoader malware](https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/)
   BleepingComputer - 2026-07-21T
-- [FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware](https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html)
-  The Hacker News - 2026-07-20T
 - [Cloudflare Internal DNS is now generally available](https://blog.cloudflare.com/internal-dns/)
   Cloudflare - 2026-07-20T
 

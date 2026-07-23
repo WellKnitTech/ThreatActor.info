@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Microsoft to stop Exchange 2016 / 2019 security updates in October](https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-esu-program-ends-in-october/)
+  BleepingComputer - 2026-07-22T
+

@@ -37,8 +37,8 @@ SunCrypt ransomware was discovered in October 2019 and in August 2020 it was add
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [‘It’s a Modern-Day Draft’: Why Stanford Students Walked Out on Sundar Pichai’s Commencement Speech](https://www.wired.com/story/big-interview-stanford-students-booing-sundar-pichai/)
-  Wired - 2026-07-21T
-- [Sunsetting the Public AttackerKB Platform](https://www.rapid7.com/blog/post/ve-sunsetting-public-attackerkb-platform)
-  Rapid7 - 2026-07-16T
+- [Which New Samsung Foldable Phone Should You Buy? Fold8 Ultra, Fold8, or Flip8?](https://www.wired.com/story/which-samsung-galaxy-z-fold8-to-buy/)
+  Wired - 2026-07-22T
+- [Why Samsung Gave Its Next Folding Phone a New Shape](https://www.wired.com/story/why-samsung-gave-its-next-folding-phone-a-new-shape-galaxy-z-fold8/)
+  Wired - 2026-07-22T
 

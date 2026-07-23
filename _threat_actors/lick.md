@@ -30,9 +30,3 @@ Ransomware Variant of Kirk
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Now, even Russia's most elite hackers are using Clickfix to infect devices](https://arstechnica.com/security/2026/07/now-even-russias-most-elite-hackers-are-using-clickfix-to-infect-devices/)
-  Ars Technica - 2026-07-16T
-

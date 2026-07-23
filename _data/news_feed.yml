@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T05:18:09Z",
+  "updated": "2026-07-23T05:23:17Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,117 +19,339 @@
     "Rapid7"
   ],
   "actor_news": {
+    "Frozen": [
+      {
+        "title": "Ransomware Attack Puts a Chill On Japanese Frozen-Food Chain",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain",
+        "date": "2026-07-23T01:00:00+00:00",
+        "source": "DarkReading"
+      }
+    ],
     "R": [
       {
-        "title": "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
-        "link": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
-        "date": "2026-07-22T03:20:57+00:00",
-        "source": "TechCrunch"
+        "title": "Ransomware Attack Puts a Chill On Japanese Frozen-Food Chain",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain",
+        "date": "2026-07-23T01:00:00+00:00",
+        "source": "DarkReading"
       },
       {
-        "title": "Dimension Capital’s $800M third fund shows the intersection of science and compute is booming",
-        "link": "https://techcrunch.com/2026/07/21/dimension-capitals-800m-third-fund-shows-the-intersection-of-science-and-compute-is-booming/",
-        "date": "2026-07-22T01:27:58+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "LG to Ban Residential Proxies from Smart TV Apps",
-        "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
-        "date": "2026-07-22T01:10:38+00:00",
-        "source": "KrebsOnSecurity"
-      },
-      {
-        "title": "Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs",
-        "link": "https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html",
-        "date": "2026-07-22T00:16:32+05:30",
+        "title": "GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier",
+        "link": "https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html",
+        "date": "2026-07-23T00:07:42+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Meta is testing an AI bedtime story app for people with no imagination",
-        "link": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/",
-        "date": "2026-07-21T23:55:10+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "BooM": [
-      {
-        "title": "Dimension Capital’s $800M third fund shows the intersection of science and compute is booming",
-        "link": "https://techcrunch.com/2026/07/21/dimension-capitals-800m-third-fund-shows-the-intersection-of-science-and-compute-is-booming/",
-        "date": "2026-07-22T01:27:58+00:00",
+        "title": "After shocking quarter, IBM insists that AI isn’t killing the mainframe",
+        "link": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
+        "date": "2026-07-22T23:47:54+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "Energy IPOs surge as investors hunt for ways to play AI boom",
-        "link": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
-        "date": "2026-07-16T15:48:21+00:00",
-        "source": "Ars Technica"
-      }
-    ],
-    "PL": [
-      {
-        "title": "Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs",
-        "link": "https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html",
-        "date": "2026-07-22T00:16:32+05:30",
+        "title": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
+        "link": "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html",
+        "date": "2026-07-22T23:37:16+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Meta is testing an AI bedtime story app for people with no imagination",
-        "link": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/",
-        "date": "2026-07-21T23:55:10+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
-        "link": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
-        "date": "2026-07-21T20:27:51+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents",
-        "link": "https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/",
-        "date": "2026-07-21T19:43:41+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
-        "link": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
-        "date": "2026-07-21T19:34:57+05:30",
-        "source": "The Hacker News"
+        "title": "Attackers Are Learning to Live Off the AI Toolchain",
+        "link": "https://www.darkreading.com/cyber-risk/attackers-live-off-ai-toolchain",
+        "date": "2026-07-22T21:29:01+00:00",
+        "source": "DarkReading"
       }
     ],
     "Ra": [
       {
-        "title": "Is the All-New Range Rover GT Stepping on Jaguar’s Tail?",
-        "link": "https://www.wired.com/story/range-rover-has-an-entirely-new-electric-car-range-rover-gt/",
-        "date": "2026-07-21T23:01:00+00:00",
+        "title": "Ransomware Attack Puts a Chill On Japanese Frozen-Food Chain",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain",
+        "date": "2026-07-23T01:00:00+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "After shocking quarter, IBM insists that AI isn’t killing the mainframe",
+        "link": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
+        "date": "2026-07-22T23:47:54+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Top Red-Light Therapy Deals at Nordstrom’s Anniversary Sale (2026)",
+        "link": "https://www.wired.com/story/red-light-device-deals-from-nordstroms-anniversary-sale-2026/",
+        "date": "2026-07-22T20:40:12+00:00",
         "source": "Wired"
       },
       {
-        "title": "Ransomware Is Accelerating, But It's Not Because of AI",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai",
-        "date": "2026-07-21T21:48:05+00:00",
+        "title": "SoundCloud acquires decentralized music platform Nina Protocol months after its shutdown",
+        "link": "https://techcrunch.com/2026/07/22/soundcloud-acquires-decentralized-music-platform-nina-protocol-months-after-its-shutdown/",
+        "date": "2026-07-22T19:42:56+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Fake Bahrain Alert App Deploys Android Surveillance Malware",
+        "link": "https://www.darkreading.com/mobile-security/fake-bahrain-alert-apps-android-surveillance-malware",
+        "date": "2026-07-22T19:42:42+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Desktop": [
+      {
+        "title": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
+        "link": "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html",
+        "date": "2026-07-22T23:37:16+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Root": [
+      {
+        "title": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
+        "link": "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html",
+        "date": "2026-07-22T23:37:16+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "BooM": [
+      {
+        "title": "Google justifies its massive AI spending with a booming cloud business",
+        "link": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
+        "date": "2026-07-22T22:01:52+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "PL": [
+      {
+        "title": "Why Lettuce Is Always Making People Sick",
+        "link": "https://www.wired.com/story/why-lettuce-always-making-people-sick/",
+        "date": "2026-07-22T21:41:29+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "SoundCloud acquires decentralized music platform Nina Protocol months after its shutdown",
+        "link": "https://techcrunch.com/2026/07/22/soundcloud-acquires-decentralized-music-platform-nina-protocol-months-after-its-shutdown/",
+        "date": "2026-07-22T19:42:56+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Fake Bahrain Alert App Deploys Android Surveillance Malware",
+        "link": "https://www.darkreading.com/mobile-security/fake-bahrain-alert-apps-android-surveillance-malware",
+        "date": "2026-07-22T19:42:42+00:00",
         "source": "DarkReading"
       },
       {
-        "title": "Using LLMs to Find and Prioritize Vulnerabilities Is No Easy Task",
-        "link": "https://www.darkreading.com/application-security/finding-and-prioritizing-vulnerabilities-no-easy-task",
-        "date": "2026-07-21T21:27:37+00:00",
+        "title": "China’s Open AI Models Are Challenging Silicon Valley’s Playbook",
+        "link": "https://www.wired.com/story/chinas-open-ai-models-are-challenging-silicon-valleys-playbook/",
+        "date": "2026-07-22T19:01:38+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication",
+        "link": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
+        "date": "2026-07-22T18:06:36+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Sanction": [
+      {
+        "title": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable",
+        "link": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+        "date": "2026-07-22T20:49:03+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Sanctions": [
+      {
+        "title": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable",
+        "link": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+        "date": "2026-07-22T20:49:03+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Rocke": [
+      {
+        "title": "Tesla spending skyrockets as Cybercab, Semi, Megapack production timeline slips",
+        "link": "https://techcrunch.com/2026/07/22/tesla-spending-skyrockets-as-cybercab-semi-megapack-production-timeline-slips/",
+        "date": "2026-07-22T20:43:38+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Light": [
+      {
+        "title": "Top Red-Light Therapy Deals at Nordstrom’s Anniversary Sale (2026)",
+        "link": "https://www.wired.com/story/red-light-device-deals-from-nordstroms-anniversary-sale-2026/",
+        "date": "2026-07-22T20:40:12+00:00",
+        "source": "Wired"
+      }
+    ],
+    "AnDROid": [
+      {
+        "title": "Fake Bahrain Alert App Deploys Android Surveillance Malware",
+        "link": "https://www.darkreading.com/mobile-security/fake-bahrain-alert-apps-android-surveillance-malware",
+        "date": "2026-07-22T19:42:42+00:00",
         "source": "DarkReading"
+      },
+      {
+        "title": "Google is making it easier to switch from iPhone to Android",
+        "link": "https://techcrunch.com/2026/07/22/google-is-making-it-easier-to-switch-from-iphone-to-android/",
+        "date": "2026-07-22T17:08:03+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "DN": [
+      {
+        "title": "Fake Bahrain Alert App Deploys Android Surveillance Malware",
+        "link": "https://www.darkreading.com/mobile-security/fake-bahrain-alert-apps-android-surveillance-malware",
+        "date": "2026-07-22T19:42:42+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "FakeGit campaign uses 7,600 GitHub repos to push SmartLoader malware",
+        "link": "https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/",
+        "date": "2026-07-21T18:34:17-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Cloudflare Internal DNS is now generally available",
+        "link": "https://blog.cloudflare.com/internal-dns/",
+        "date": "2026-07-20T20:59:31+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "Play": [
+      {
+        "title": "China’s Open AI Models Are Challenging Silicon Valley’s Playbook",
+        "link": "https://www.wired.com/story/chinas-open-ai-models-are-challenging-silicon-valleys-playbook/",
+        "date": "2026-07-22T19:01:38+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Sea Turtle": [
+      {
+        "title": "China’s Open AI Models Are Challenging Silicon Valley’s Playbook",
+        "link": "https://www.wired.com/story/chinas-open-ai-models-are-challenging-silicon-valleys-playbook/",
+        "date": "2026-07-22T19:01:38+00:00",
+        "source": "Wired"
+      }
+    ],
+    "ONI": [
+      {
+        "title": "Dyson V10 Konical Review (2026): Affordable and Solid",
+        "link": "https://www.wired.com/review/dyson-v10-konical-2026/",
+        "date": "2026-07-22T17:53:48+00:00",
+        "source": "Wired"
+      }
+    ],
+    "One": [
+      {
+        "title": "Google is making it easier to switch from iPhone to Android",
+        "link": "https://techcrunch.com/2026/07/22/google-is-making-it-easier-to-switch-from-iphone-to-android/",
+        "date": "2026-07-22T17:08:03+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Which New Samsung Foldable Phone Should You Buy? Fold8 Ultra, Fold8, or Flip8?",
+        "link": "https://www.wired.com/story/which-samsung-galaxy-z-fold8-to-buy/",
+        "date": "2026-07-22T13:01:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Why Samsung Gave Its Next Folding Phone a New Shape",
+        "link": "https://www.wired.com/story/why-samsung-gave-its-next-folding-phone-a-new-shape-galaxy-z-fold8/",
+        "date": "2026-07-22T13:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code",
+        "link": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
+        "date": "2026-07-21T21:36:12+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs",
+        "link": "https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/",
+        "date": "2026-07-16T22:02:31+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "Rapid": [
+      {
+        "title": "What’s New in Rapid7 Products and Services: Q2 2026 in Review",
+        "link": "https://www.rapid7.com/blog/post/pt-new-products-services-q2-2026-mdr",
+        "date": "2026-07-22T13:28:02+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "SunCrypt": [
+      {
+        "title": "Which New Samsung Foldable Phone Should You Buy? Fold8 Ultra, Fold8, or Flip8?",
+        "link": "https://www.wired.com/story/which-samsung-galaxy-z-fold8-to-buy/",
+        "date": "2026-07-22T13:01:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Why Samsung Gave Its Next Folding Phone a New Shape",
+        "link": "https://www.wired.com/story/why-samsung-gave-its-next-folding-phone-a-new-shape-galaxy-z-fold8/",
+        "date": "2026-07-22T13:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Trojan": [
+      {
+        "title": "Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library",
+        "link": "https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html",
+        "date": "2026-07-22T11:30:06+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Mini": [
+      {
+        "title": "States Want ICE Agents to Show Their Faces. The Trump Administration Is Blocking Them",
+        "link": "https://www.wired.com/story/states-want-ice-agents-to-show-their-faces-the-trump-administration-is-blocking-them/",
+        "date": "2026-07-22T10:30:00+00:00",
+        "source": "Wired"
       },
       {
         "title": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities",
         "link": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html",
         "date": "2026-07-21T20:39:28+05:30",
         "source": "The Hacker News"
-      },
+      }
+    ],
+    "DDE": [
       {
-        "title": "Inline Email Security and Microsoft 365: A Practical View of Mail Routing, Risk, and Prevention",
-        "link": "https://blog.checkpoint.com/email-security/inline-email-security-and-microsoft-365-a-practical-view-of-mail-routing-risk-and-prevention/",
-        "date": "2026-07-21T20:30:09+00:00",
-        "source": "Check Point"
+        "title": "Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents",
+        "link": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html",
+        "date": "2026-07-22T10:27:52+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "First": [
+      {
+        "title": "New InfraTrust report reveals infrastructure flaws admins should patch first",
+        "link": "https://www.bleepingcomputer.com/news/security/new-infratrust-report-reveals-infrastructure-flaws-admins-should-patch-first/",
+        "date": "2026-07-22T10:15:00-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Deadeye Jackal": [
+      {
+        "title": "A Teen Reporter Searched for His Community in the Epstein Files. Adults Freaked Out",
+        "link": "https://www.wired.com/story/epstein-files-redwood-bark-school-newspaper/",
+        "date": "2026-07-22T10:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "OCT": [
+      {
+        "title": "Microsoft to stop Exchange 2016 / 2019 security updates in October",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-esu-program-ends-in-october/",
+        "date": "2026-07-22T06:44:52-04:00",
+        "source": "BleepingComputer"
       }
     ],
     "Hacked": [
+      {
+        "title": "OpenAI says its AI models hacked Hugging Face during testing",
+        "link": "https://www.bleepingcomputer.com/news/security/openai-says-its-ai-models-hacked-hugging-face-during-testing/",
+        "date": "2026-07-22T01:19:20-04:00",
+        "source": "BleepingComputer"
+      },
       {
         "title": "OpenAI Models Escaped Containment and Hacked Hugging Face",
         "link": "https://www.wired.com/story/openai-models-escaped-containment-and-hacked-huggingface/",
@@ -145,115 +367,11 @@
         "source": "The Hacker News"
       }
     ],
-    "One": [
-      {
-        "title": "AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code",
-        "link": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
-        "date": "2026-07-21T21:36:12+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Apple teams up with Klarna to launch a lease-to-own program for iPhones, iPads, and Macs",
-        "link": "https://techcrunch.com/2026/07/21/apple-teams-up-with-klarna-to-launch-a-lease-to-own-program-for-iphones-ipads-and-macs/",
-        "date": "2026-07-21T18:18:43+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "The Light Flip Is the Stylish Dumb Flip Phone of Your Dreams",
-        "link": "https://www.wired.com/story/light-flip-is-the-modern-stylish-dumb-flip-phone-of-your-luddite-dreams/",
-        "date": "2026-07-21T15:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs",
-        "link": "https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/",
-        "date": "2026-07-16T22:02:31+00:00",
-        "source": "Ars Technica"
-      },
-      {
-        "title": "AI Appreciation Day: Let’s Be Honest About What We’re Appreciating",
-        "link": "https://blog.checkpoint.com/ai-security/ai-appreciation-day-lets-be-honest-about-what-were-appreciating/",
-        "date": "2026-07-16T14:46:52+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "Mini": [
-      {
-        "title": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities",
-        "link": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html",
-        "date": "2026-07-21T20:39:28+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Google releases three new Gemini models — but no 3.5 Pro",
-        "link": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
-        "date": "2026-07-21T17:11:50+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes",
-        "link": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/",
-        "date": "2026-07-20T17:14:42-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Chaos": [
-      {
-        "title": "Shop Best Buy’s Black Friday in July Sale 2026 Before Fall Chaos",
-        "link": "https://www.wired.com/story/best-buy-black-friday-in-july-2026/",
-        "date": "2026-07-21T20:39:06+00:00",
-        "source": "Wired"
-      }
-    ],
-    "NMoreira": [
-      {
-        "title": "Bucking EV slowdown, Sila raises $300M to expand battery materials factory",
-        "link": "https://techcrunch.com/2026/07/21/bucking-ev-slowdown-sila-raises-300m-to-expand-battery-materials-factory/",
-        "date": "2026-07-21T19:36:35+00:00",
-        "source": "TechCrunch"
-      }
-    ],
     "Qilin": [
       {
         "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
         "link": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
         "date": "2026-07-21T19:34:57+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Critical Palo Alto VPN bug now exploited by Qilin ransomware gang",
-        "link": "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/",
-        "date": "2026-07-21T06:12:24-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "BB": [
-      {
-        "title": "Taylor Farms Spent Big on MAGA and Anti-Regulatory Lobbying Before Diarrhea Outbreak",
-        "link": "https://www.wired.com/story/diarrhea-outbreak-taylor-farms-maga-donations-lobbying/",
-        "date": "2026-07-21T19:10:35+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Light": [
-      {
-        "title": "This Former Intel CEO Wants to Jumpstart Moore’s Law With Light",
-        "link": "https://www.wired.com/story/pat-gelsinger-moores-law-light-chips/",
-        "date": "2026-07-21T19:05:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "The Light Flip Is the Stylish Dumb Flip Phone of Your Dreams",
-        "link": "https://www.wired.com/story/light-flip-is-the-modern-stylish-dumb-flip-phone-of-your-luddite-dreams/",
-        "date": "2026-07-21T15:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Zimbra": [
-      {
-        "title": "Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities",
-        "link": "https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html",
-        "date": "2026-07-21T18:48:31+05:30",
         "source": "The Hacker News"
       }
     ],
@@ -262,56 +380,6 @@
         "title": "Hacker Turns AI Jailbreaks Into Offensive Attack Platform",
         "link": "https://www.darkreading.com/cyber-risk/hacker-ai-jailbreaks-offensive-attack-platform",
         "date": "2026-07-21T18:38:52+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "DN": [
-      {
-        "title": "FakeGit campaign uses 7,600 GitHub repos to push SmartLoader malware",
-        "link": "https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/",
-        "date": "2026-07-21T18:34:17-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
-        "link": "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html",
-        "date": "2026-07-20T23:53:03+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Cloudflare Internal DNS is now generally available",
-        "link": "https://blog.cloudflare.com/internal-dns/",
-        "date": "2026-07-20T20:59:31+00:00",
-        "source": "Cloudflare"
-      }
-    ],
-    "IPA": [
-      {
-        "title": "Apple teams up with Klarna to launch a lease-to-own program for iPhones, iPads, and Macs",
-        "link": "https://techcrunch.com/2026/07/21/apple-teams-up-with-klarna-to-launch-a-lease-to-own-program-for-iphones-ipads-and-macs/",
-        "date": "2026-07-21T18:18:43+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "AnDROid": [
-      {
-        "title": "Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs",
-        "link": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html",
-        "date": "2026-07-21T17:28:00+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Blind": [
-      {
-        "title": "A Sneaky Hacking Tool Targeting AI Infrastructure Is Lurking in Victims’ Blind Spots",
-        "link": "https://www.wired.com/story/a-sneaky-hacking-tool-targeting-ai-infrastructure-is-lurking-in-victims-blind-spots/",
-        "date": "2026-07-21T16:08:44+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "The Real AI Threat Is Blind Trust",
-        "link": "https://www.darkreading.com/application-security/real-ai-threat-blind-trust",
-        "date": "2026-07-17T16:43:13+00:00",
         "source": "DarkReading"
       }
     ],
@@ -331,20 +399,6 @@
         "source": "BleepingComputer"
       }
     ],
-    "SunCrypt": [
-      {
-        "title": "‘It’s a Modern-Day Draft’: Why Stanford Students Walked Out on Sundar Pichai’s Commencement Speech",
-        "link": "https://www.wired.com/story/big-interview-stanford-students-booing-sundar-pichai/",
-        "date": "2026-07-21T10:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Sunsetting the Public AttackerKB Platform",
-        "link": "https://www.rapid7.com/blog/post/ve-sunsetting-public-attackerkb-platform",
-        "date": "2026-07-16T13:00:00+00:00",
-        "source": "Rapid7"
-      }
-    ],
     "global": [
       {
         "title": "Critical Vulnerability in Palo Alto Global Protect Under Active Exploitation (CVE-2026-0257)",
@@ -359,42 +413,12 @@
         "source": "Unit 42"
       }
     ],
-    "Hive": [
-      {
-        "title": "Windows LegacyHive zero-day flaw gets free, unofficial patches",
-        "link": "https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/",
-        "date": "2026-07-21T04:06:26-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
     "Ukrainian Cyber Alliance": [
       {
         "title": "Higher education analytics for the ultra-intelligent university",
         "link": "https://www.elastic.co/blog/higher-education-analytics-ultra-intelligent-university",
         "date": "2026-07-21T00:00:00+00:00",
         "source": "Elastic"
-      }
-    ],
-    "ONI": [
-      {
-        "title": "SonicWall SMA1000 flaws exploited as zero-days to push custom malware",
-        "link": "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/",
-        "date": "2026-07-20T18:23:23-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Inc Ransomware Exploits SonicWall SMA Zero-Days",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days",
-        "date": "2026-07-17T20:01:13+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "CryLocker": [
-      {
-        "title": "Hackers steal $23.7 million in crypto from Ostium in off-chain attack",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-steal-237-million-in-crypto-from-ostium-in-off-chain-attack/",
-        "date": "2026-07-20T18:22:56-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "Kee": [
@@ -413,14 +437,6 @@
         "source": "Rapid7"
       }
     ],
-    "INC Ransom": [
-      {
-        "title": "Inc Ransomware Exploits SonicWall SMA Zero-Days",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days",
-        "date": "2026-07-17T20:01:13+00:00",
-        "source": "DarkReading"
-      }
-    ],
     "Metasploit": [
       {
         "title": "Metasploit Wrap Up: An HTTP to SMB relay plus Payload Improvements",
@@ -435,54 +451,6 @@
         "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-an-http-to-smb-relay-plus-payload-improvements",
         "date": "2026-07-17T19:30:44+00:00",
         "source": "Rapid7"
-      }
-    ],
-    "Wheat Tempest": [
-      {
-        "title": "Gold Eagle Clearinghouse Targets Security Gap, But How Is Unclear",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/gold-eagle-clearinghouse-targets-security-gap",
-        "date": "2026-07-17T13:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Lick": [
-      {
-        "title": "Now, even Russia's most elite hackers are using Clickfix to infect devices",
-        "link": "https://arstechnica.com/security/2026/07/now-even-russias-most-elite-hackers-are-using-clickfix-to-infect-devices/",
-        "date": "2026-07-16T19:28:33+00:00",
-        "source": "Ars Technica"
-      }
-    ],
-    "Play": [
-      {
-        "title": "Energy IPOs surge as investors hunt for ways to play AI boom",
-        "link": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
-        "date": "2026-07-16T15:48:21+00:00",
-        "source": "Ars Technica"
-      }
-    ],
-    "Hunt": [
-      {
-        "title": "Energy IPOs surge as investors hunt for ways to play AI boom",
-        "link": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
-        "date": "2026-07-16T15:48:21+00:00",
-        "source": "Ars Technica"
-      }
-    ],
-    "PRISM": [
-      {
-        "title": "Announcing the General Availability of Prisma AIRS AI Gateway",
-        "link": "https://www.paloaltonetworks.com/blog/2026/07/announcing-general-availability-of-prisma-airs-ai-gateway/",
-        "date": "2026-07-16T14:50:53+00:00",
-        "source": "Palo Alto Networks"
-      }
-    ],
-    "Quantum": [
-      {
-        "title": "Palo Alto Networks and AT&T - Delivering Quantum-Resilient SASE Fabric",
-        "link": "https://www.paloaltonetworks.com/blog/2026/07/palo-alto-networks-and-att-delivering-quantum-resilient-sase-fabric/",
-        "date": "2026-07-16T14:00:54+00:00",
-        "source": "Palo Alto Networks"
       }
     ]
   }

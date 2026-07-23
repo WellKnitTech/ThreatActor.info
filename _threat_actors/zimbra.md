@@ -30,9 +30,3 @@ Ransomware mpritsken@priest.com
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities](https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html)
-  The Hacker News - 2026-07-21T
-
