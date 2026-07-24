@@ -30,3 +30,9 @@ Chaos is a rapidly evolving Ransomware-as-a-Service (RaaS) group first observed 
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge](https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html)
+  The Hacker News - 2026-07-23T
+

@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Why Lettuce Is Always Making People Sick](https://www.wired.com/story/why-lettuce-always-making-people-sick/)
-  Wired - 2026-07-22T
-- [SoundCloud acquires decentralized music platform Nina Protocol months after its shutdown](https://techcrunch.com/2026/07/22/soundcloud-acquires-decentralized-music-platform-nina-protocol-months-after-its-shutdown/)
-  TechCrunch - 2026-07-22T
-- [Fake Bahrain Alert App Deploys Android Surveillance Malware](https://www.darkreading.com/mobile-security/fake-bahrain-alert-apps-android-surveillance-malware)
-  DarkReading - 2026-07-22T
-- [China’s Open AI Models Are Challenging Silicon Valley’s Playbook](https://www.wired.com/story/chinas-open-ai-models-are-challenging-silicon-valleys-playbook/)
-  Wired - 2026-07-22T
-- [Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication](https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html)
-  The Hacker News - 2026-07-22T
+- [Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes](https://thehackernews.com/2026/07/russian-espionage-group-exploited.html)
+  The Hacker News - 2026-07-24T
+- [Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets](https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets)
+  DarkReading - 2026-07-23T
+- [ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories](https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html)
+  The Hacker News - 2026-07-23T
+- [Russian hackers exploit Zimbra zero-click flaw for email theft](https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/)
+  BleepingComputer - 2026-07-23T
+- [Hackers abuse Notepad++ plugins to stealthily install malware](https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/)
+  BleepingComputer - 2026-07-23T
 

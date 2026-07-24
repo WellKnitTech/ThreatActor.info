@@ -44,6 +44,10 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [A Teen Reporter Searched for His Community in the Epstein Files. Adults Freaked Out](https://www.wired.com/story/epstein-files-redwood-bark-school-newspaper/)
-  Wired - 2026-07-22T
+- [How AI guardrails are impeding the work of offensive cybersecurity researchers](https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/)
+  TechCrunch - 2026-07-24T
+- [The EU Fines Google $1 Billion for Prioritizing Its Own Services in Search](https://www.wired.com/story/eu-fines-google-billion-prioritizing-own-services-in-search/)
+  Wired - 2026-07-23T
+- [EU fines Google $1 billion for search, app store antitrust violations](https://www.bleepingcomputer.com/news/google/eu-fines-google-1-billion-for-digital-markets-act-breaches-in-search-and-play-store/)
+  BleepingComputer - 2026-07-23T
 

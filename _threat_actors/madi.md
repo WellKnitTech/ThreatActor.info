@@ -43,3 +43,9 @@ Kaspersky Lab and Seculert worked together to sinkhole the Madi Command & Contro
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [For Taylor Swift, Madison Square Garden’s Controversial Cameras Briefly Went Dark](https://www.wired.com/story/for-taylor-swift-madison-square-gardens-controversial-cameras-briefly-went-dark/)
+  Wired - 2026-07-23T
+

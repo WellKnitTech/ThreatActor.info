@@ -34,11 +34,3 @@ SunCrypt ransomware was discovered in October 2019 and in August 2020 it was add
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Which New Samsung Foldable Phone Should You Buy? Fold8 Ultra, Fold8, or Flip8?](https://www.wired.com/story/which-samsung-galaxy-z-fold8-to-buy/)
-  Wired - 2026-07-22T
-- [Why Samsung Gave Its Next Folding Phone a New Shape](https://www.wired.com/story/why-samsung-gave-its-next-folding-phone-a-new-shape-galaxy-z-fold8/)
-  Wired - 2026-07-22T
-

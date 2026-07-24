@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Top Red-Light Therapy Deals at Nordstrom’s Anniversary Sale (2026)](https://www.wired.com/story/red-light-device-deals-from-nordstroms-anniversary-sale-2026/)
-  Wired - 2026-07-22T
-

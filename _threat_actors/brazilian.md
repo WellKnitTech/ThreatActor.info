@@ -30,3 +30,9 @@ Ransomware Based on EDA2
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Brazilian Banking Trojan Actively Spreading in Portugal](https://www.darkreading.com/cyberattacks-data-breaches/brazilian-banking-trojan-spreading-portugal)
+  DarkReading - 2026-07-23T
+

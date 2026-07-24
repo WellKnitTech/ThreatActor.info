@@ -30,9 +30,3 @@ Anubis is a financially motivated cybercrime group primarily known for its banki
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak](https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/)
-  BleepingComputer - 2026-07-21T
-

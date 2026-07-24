@@ -30,11 +30,3 @@ Ransomware Jigsaw Ransomware variant
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [OpenAI says its AI models hacked Hugging Face during testing](https://www.bleepingcomputer.com/news/security/openai-says-its-ai-models-hacked-hugging-face-during-testing/)
-  BleepingComputer - 2026-07-22T
-- [OpenAI Models Escaped Containment and Hacked Hugging Face](https://www.wired.com/story/openai-models-escaped-containment-and-hacked-huggingface/)
-  Wired - 2026-07-21T
-

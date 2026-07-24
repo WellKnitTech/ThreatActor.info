@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Ransomware Attack Puts a Chill On Japanese Frozen-Food Chain](https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain)
-  DarkReading - 2026-07-23T
-- [GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier](https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html)
-  The Hacker News - 2026-07-23T
-- [After shocking quarter, IBM insists that AI isn’t killing the mainframe](https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/)
-  TechCrunch - 2026-07-22T
-- [Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs](https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html)
-  The Hacker News - 2026-07-22T
-- [Attackers Are Learning to Live Off the AI Toolchain](https://www.darkreading.com/cyber-risk/attackers-live-off-ai-toolchain)
-  DarkReading - 2026-07-22T
+- [How AI guardrails are impeding the work of offensive cybersecurity researchers](https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/)
+  TechCrunch - 2026-07-24T
+- [Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes](https://thehackernews.com/2026/07/russian-espionage-group-exploited.html)
+  The Hacker News - 2026-07-24T
+- [Meet the judges who will crown Australia’s next breakout startup](https://techcrunch.com/2026/07/23/meet-the-judges-who-will-crown-australias-next-breakout-startup/)
+  TechCrunch - 2026-07-24T
+- [An FDA Panel Just Endorsed These Unproven Peptides](https://www.wired.com/story/fda-panel-endorses-unproven-peptides/)
+  Wired - 2026-07-23T
+- [Mobileye CEO Amnon Shashua to step aside as company pushes into robotaxis, robotics](https://techcrunch.com/2026/07/23/mobileye-ceo-amnon-shashua-to-step-aside-as-company-pushes-into-robotaxis-robotics/)
+  TechCrunch - 2026-07-23T
 

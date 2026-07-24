@@ -33,6 +33,6 @@ Ransomware written in C#. Fortunately, all current versions of the MafiaWare666 
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code](https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html)
-  The Hacker News - 2026-07-21T
+- [Google Adds Selfie Video Recovery for Users Locked Out of Their Accounts](https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html)
+  The Hacker News - 2026-07-23T
 

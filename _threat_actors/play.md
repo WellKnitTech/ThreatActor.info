@@ -136,9 +136,3 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 [3] [Trend Micro Ransomware Spotlight Play July 2023](https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-play)
    Trend Micro Research. (2023, July 21). Ransomware Spotlight: Play. Retrieved September 24, 2024.
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [China’s Open AI Models Are Challenging Silicon Valley’s Playbook](https://www.wired.com/story/chinas-open-ai-models-are-challenging-silicon-valleys-playbook/)
-  Wired - 2026-07-22T
-

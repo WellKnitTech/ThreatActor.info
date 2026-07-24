@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Cybersecurity Keeps Events 'Uneventful'](https://www.darkreading.com/cyber-risk/cybersecurity-keeps-events-uneventful)
-  DarkReading - 2026-07-20T
-

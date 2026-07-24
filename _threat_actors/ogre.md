@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Agentic AI Challenges Progress in Confidential Computing](https://www.darkreading.com/endpoint-security/agentic-ai-challenges-progress-in-confidential-computing)
+  DarkReading - 2026-07-23T
+

@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Dyson V10 Konical Review (2026): Affordable and Solid](https://www.wired.com/review/dyson-v10-konical-2026/)
-  Wired - 2026-07-22T
+- [Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers](https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html)
+  The Hacker News - 2026-07-23T
 

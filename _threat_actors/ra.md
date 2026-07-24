@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Ransomware Attack Puts a Chill On Japanese Frozen-Food Chain](https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain)
+- [How AI guardrails are impeding the work of offensive cybersecurity researchers](https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/)
+  TechCrunch - 2026-07-24T
+- [Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes](https://thehackernews.com/2026/07/russian-espionage-group-exploited.html)
+  The Hacker News - 2026-07-24T
+- [Meet the judges who will crown Australia’s next breakout startup](https://techcrunch.com/2026/07/23/meet-the-judges-who-will-crown-australias-next-breakout-startup/)
+  TechCrunch - 2026-07-24T
+- [Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets](https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets)
   DarkReading - 2026-07-23T
-- [After shocking quarter, IBM insists that AI isn’t killing the mainframe](https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/)
-  TechCrunch - 2026-07-22T
-- [Top Red-Light Therapy Deals at Nordstrom’s Anniversary Sale (2026)](https://www.wired.com/story/red-light-device-deals-from-nordstroms-anniversary-sale-2026/)
-  Wired - 2026-07-22T
-- [SoundCloud acquires decentralized music platform Nina Protocol months after its shutdown](https://techcrunch.com/2026/07/22/soundcloud-acquires-decentralized-music-platform-nina-protocol-months-after-its-shutdown/)
-  TechCrunch - 2026-07-22T
-- [Fake Bahrain Alert App Deploys Android Surveillance Malware](https://www.darkreading.com/mobile-security/fake-bahrain-alert-apps-android-surveillance-malware)
-  DarkReading - 2026-07-22T
+- [AMD takes on Nvidia with its Helios AI rack-scale system](https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/)
+  TechCrunch - 2026-07-23T
 
