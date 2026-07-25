@@ -33,6 +33,6 @@ ABOUT US: <br/> <br/>"Pure Extraction And Ransom (PEAR) Team is the community of
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing](https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/)
-  TechCrunch - 2026-07-23T
+- [Satellite Images Reveal How Suspected Scam Compounds Appear Out of Nowhere](https://www.wired.com/story/satellite-images-reveal-how-giant-scam-compounds-keep-on-expanding/)
+  Wired - 2026-07-24T
 

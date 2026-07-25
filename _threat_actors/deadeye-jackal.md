@@ -44,10 +44,12 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [How AI guardrails are impeding the work of offensive cybersecurity researchers](https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/)
+- [US accuses American of allegedly wiping his phone using a ‘duress’ password during border search](https://techcrunch.com/2026/07/24/us-accuses-american-of-allegedly-wiping-his-phone-using-a-duress-password-during-border-search/)
   TechCrunch - 2026-07-24T
-- [The EU Fines Google $1 Billion for Prioritizing Its Own Services in Search](https://www.wired.com/story/eu-fines-google-billion-prioritizing-own-services-in-search/)
-  Wired - 2026-07-23T
-- [EU fines Google $1 billion for search, app store antitrust violations](https://www.bleepingcomputer.com/news/google/eu-fines-google-1-billion-for-digital-markets-act-breaches-in-search-and-play-store/)
-  BleepingComputer - 2026-07-23T
+- [Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say](https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html)
+  The Hacker News - 2026-07-24T
+- [Kagi Brings Back Old-School Search, One Human-Made Website at a Time](https://www.wired.com/story/kagi-brings-back-old-school-search-one-human-made-website-at-a-time/)
+  Wired - 2026-07-24T
+- [European Researchers Say Big Tech Is Blocking Access to Their Data](https://www.wired.com/story/european-researchers-want-to-study-social-medias-harms-but-cant-get-the-data/)
+  Wired - 2026-07-24T
 

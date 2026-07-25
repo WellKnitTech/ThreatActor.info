@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [How AI guardrails are impeding the work of offensive cybersecurity researchers](https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/)
+- [Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M](https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/)
   TechCrunch - 2026-07-24T
-- [Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes](https://thehackernews.com/2026/07/russian-espionage-group-exploited.html)
-  The Hacker News - 2026-07-24T
-- [Meet the judges who will crown Australia’s next breakout startup](https://techcrunch.com/2026/07/23/meet-the-judges-who-will-crown-australias-next-breakout-startup/)
+- [Volkswagen engineers charged with insider trading tied to Rivian joint venture](https://techcrunch.com/2026/07/24/volkswagen-engineers-charged-with-insider-trading-tied-to-rivian-joint-venture/)
   TechCrunch - 2026-07-24T
-- [Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets](https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets)
-  DarkReading - 2026-07-23T
-- [AMD takes on Nvidia with its Helios AI rack-scale system](https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/)
-  TechCrunch - 2026-07-23T
+- [The 2026 El Niño Is on Track to Be the Strongest on Record](https://www.wired.com/story/2026-el-nino-the-strongest-in-150-years/)
+  Wired - 2026-07-24T
+- [China-US AI Race Escalates, OpenAI Models Break Free, and Why You Should Check Your Car Alarm](https://www.wired.com/story/uncanny-valley-podcast/)
+  Wired - 2026-07-24T
+- [Anduril reportedly in talks to raise funding at $100B valuation, more than 3x last year’s mark](https://techcrunch.com/2026/07/24/anduril-reportedly-in-talks-to-raise-funding-at-100b-valuation-more-than-3x-last-years-mark/)
+  TechCrunch - 2026-07-24T
 

@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [How AI guardrails are impeding the work of offensive cybersecurity researchers](https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/)
+- [I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else](https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/)
+  TechCrunch - 2026-07-25T
+- [SpaceX launches new V3 Starlink satellites but suffers another booster failure](https://techcrunch.com/2026/07/24/spacex-launches-new-v3-starlink-satellites-but-suffers-another-booster-failure/)
   TechCrunch - 2026-07-24T
-- [Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes](https://thehackernews.com/2026/07/russian-espionage-group-exploited.html)
-  The Hacker News - 2026-07-24T
-- [Meet the judges who will crown Australia’s next breakout startup](https://techcrunch.com/2026/07/23/meet-the-judges-who-will-crown-australias-next-breakout-startup/)
+- [One of NASA’s Most Important Deep Space Observatories Hit by Spanish Wildfires](https://www.wired.com/story/spanish-wildfires-nasa-deep-space-observatory/)
+  Wired - 2026-07-24T
+- [Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M](https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/)
   TechCrunch - 2026-07-24T
-- [An FDA Panel Just Endorsed These Unproven Peptides](https://www.wired.com/story/fda-panel-endorses-unproven-peptides/)
-  Wired - 2026-07-23T
-- [Mobileye CEO Amnon Shashua to step aside as company pushes into robotaxis, robotics](https://techcrunch.com/2026/07/23/mobileye-ceo-amnon-shashua-to-step-aside-as-company-pushes-into-robotaxis-robotics/)
-  TechCrunch - 2026-07-23T
+- [TechCrunch Disrupt 2026’s new Smart Money Stage explores fintech, payments, AI, and everything between ](https://techcrunch.com/2026/07/24/techcrunch-disrupt-2026s-new-smart-money-stage-explores-fintech-payments-ai-and-everything-between/)
+  TechCrunch - 2026-07-24T
 
