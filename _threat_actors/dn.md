@@ -35,10 +35,6 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 
 - [Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts](https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/)
   BleepingComputer - 2026-07-24T
-- [Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks](https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html)
-  The Hacker News - 2026-07-24T
-- [Fake Claude app promoted by Bing ads pushes SectopRAT malware](https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/)
-  BleepingComputer - 2026-07-23T
 - [Fake Bahrain Alert App Deploys Android Surveillance Malware](https://www.darkreading.com/mobile-security/fake-bahrain-alert-apps-android-surveillance-malware)
   DarkReading - 2026-07-22T
 - [Cloudflare Internal DNS is now generally available](https://blog.cloudflare.com/internal-dns/)

@@ -30,9 +30,3 @@ Entropy is a ransomware first seen in 1st quarter of 2022, is being used in conj
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [What Is Entropy, Really?](https://www.wired.com/story/what-is-entropy-really/)
-  Wired - 2026-07-24T
-

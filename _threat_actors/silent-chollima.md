@@ -39,6 +39,6 @@ Andariel is a threat actor that primarily targets South Korean corporations and 
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Trump Endorsed the MyPillow Guy as Minnesota Governor. The State GOP Isn’t Buying It](https://www.wired.com/story/trump-endorsed-the-mypillow-guy-as-minnesota-governor-the-state-gop-isnt-buying-it/)
-  Wired - 2026-07-24T
+- [GoPro Mission 1 Pro Review: The Best Action Camera You Can Buy](https://www.wired.com/review/gopro-mission-1-pro/)
+  Wired - 2026-07-25T
 

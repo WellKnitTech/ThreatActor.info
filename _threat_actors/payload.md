@@ -33,6 +33,8 @@ Payload is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts](https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html)
+  The Hacker News - 2026-07-25T
 - [Metasploit Wrap Up: An HTTP to SMB relay plus Payload Improvements](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-an-http-to-smb-relay-plus-payload-improvements)
   Rapid7 - 2026-07-17T
 

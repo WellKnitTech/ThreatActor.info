@@ -44,12 +44,10 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [US accuses American of allegedly wiping his phone using a ‘duress’ password during border search](https://techcrunch.com/2026/07/24/us-accuses-american-of-allegedly-wiping-his-phone-using-a-duress-password-during-border-search/)
-  TechCrunch - 2026-07-24T
+- [Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git](https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html)
+  The Hacker News - 2026-07-25T
+- [CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking](https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html)
+  The Hacker News - 2026-07-25T
 - [Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say](https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html)
   The Hacker News - 2026-07-24T
-- [Kagi Brings Back Old-School Search, One Human-Made Website at a Time](https://www.wired.com/story/kagi-brings-back-old-school-search-one-human-made-website-at-a-time/)
-  Wired - 2026-07-24T
-- [European Researchers Say Big Tech Is Blocking Access to Their Data](https://www.wired.com/story/european-researchers-want-to-study-social-medias-harms-but-cant-get-the-data/)
-  Wired - 2026-07-24T
 

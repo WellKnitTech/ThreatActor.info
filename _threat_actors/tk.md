@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [BenQ TK705STi 4K Projector Review: A Midrange Pick for Gamers](https://www.wired.com/review/benq-tk705sti-4k-projector/)
-  Wired - 2026-07-24T
-
