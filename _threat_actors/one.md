@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Inside one London founder house rewriting the founder-house rules ](https://techcrunch.com/2026/07/26/inside-one-london-founder-house-rewriting-the-founder-house-rules/)
+  TechCrunch - 2026-07-26T
+- [All the Ways You Can Make Reading on Your Phone Easier](https://www.wired.com/story/all-the-ways-you-can-make-reading-easier-on-your-phone/)
+  Wired - 2026-07-26T
+- [The Best Motorola Phones, From Razr to Moto G (2026)](https://www.wired.com/story/best-motorola-phones/)
+  Wired - 2026-07-26T
 - [One fallen power line exposed a growing AI data center problem. Here’s how to fix it.](https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/)
   TechCrunch - 2026-07-25T
 - [I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else](https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/)
   TechCrunch - 2026-07-25T
-- [One of NASA’s Most Important Deep Space Observatories Hit by Spanish Wildfires](https://www.wired.com/story/spanish-wildfires-nasa-deep-space-observatory/)
-  Wired - 2026-07-24T
-- [TechCrunch Disrupt 2026’s new Smart Money Stage explores fintech, payments, AI, and everything between ](https://techcrunch.com/2026/07/24/techcrunch-disrupt-2026s-new-smart-money-stage-explores-fintech-payments-ai-and-everything-between/)
-  TechCrunch - 2026-07-24T
-- [Best Window Air Conditioners of 2026: Midea, Zafro, GE](https://www.wired.com/gallery/best-window-air-conditioners/)
-  Wired - 2026-07-24T
 

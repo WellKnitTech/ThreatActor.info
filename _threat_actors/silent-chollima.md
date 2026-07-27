@@ -39,6 +39,8 @@ Andariel is a threat actor that primarily targets South Korean corporations and 
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Best GoPro Camera (2026): Compact, Budget, Accessories](https://www.wired.com/gallery/best-gopro-hero-camera/)
+  Wired - 2026-07-26T
 - [GoPro Mission 1 Pro Review: The Best Action Camera You Can Buy](https://www.wired.com/review/gopro-mission-1-pro/)
   Wired - 2026-07-25T
 
