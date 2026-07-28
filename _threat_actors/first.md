@@ -30,3 +30,11 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system](https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/)
+  TechCrunch - 2026-07-27T
+- [Power up your AI infrastructure! A first look at the Smart Systems Stage agenda at TechCrunch Disrupt 2026 ](https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026/)
+  TechCrunch - 2026-07-27T
+

@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Are brain waves the next unlock for physical AI?](https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/)
+- [Altra Running Promo Codes: 10% Off July 2026](https://www.wired.com/story/altra-promo-code/)
+  Wired - 2026-07-28T
+- [Ray-Ban Promo Codes: Save 50% in July 2026](https://www.wired.com/story/ray-ban-promo-code/)
+  Wired - 2026-07-28T
+- [NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework](https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html)
+  The Hacker News - 2026-07-27T
+- [Thea Energy lands $20M federal grant to build its magnets for fusion reactors](https://techcrunch.com/2026/07/27/thea-energy-lands-20m-federal-grant-to-build-its-magnets-for-fusion-reactors/)
   TechCrunch - 2026-07-27T
-- [Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack](https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/)
-  TechCrunch - 2026-07-26T
-- [The Best Backpacking Sleeping Pads, Tested on the Trail (2026)](https://www.wired.com/gallery/best-backpacking-sleeping-pad/)
-  Wired - 2026-07-26T
-- [The Best Motorola Phones, From Razr to Moto G (2026)](https://www.wired.com/story/best-motorola-phones/)
-  Wired - 2026-07-26T
-- [The Best Subscription-Free Home Security Cameras I’ve Tried](https://www.wired.com/story/best-subscription-free-security-cameras/)
-  Wired - 2026-07-26T
+- [Arista patches VeloCloud Orchestrator zero-day exploited in attacks](https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/)
+  BleepingComputer - 2026-07-27T
 

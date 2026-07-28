@@ -33,8 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry](https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html)
-  The Hacker News - 2026-07-24T
+- [AI Agent Drives Espionage Attack on Thai Ministry of Finance](https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance)
+  DarkReading - 2026-07-28T
 - [Hermes AI agent used to automate attack on Thai Finance Ministry](https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/)
   BleepingComputer - 2026-07-24T
 

@@ -30,3 +30,9 @@ Ransomware written in C#. Fortunately, all current versions of the MafiaWare666 
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption](https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html)
+  The Hacker News - 2026-07-27T
+

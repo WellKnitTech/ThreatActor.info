@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Are brain waves the next unlock for physical AI?](https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/)
-  TechCrunch - 2026-07-27T
-- [Can Apple make smart glasses that aren’t a constant privacy threat?](https://techcrunch.com/2026/07/26/can-apple-make-smart-glasses-that-arent-a-constant-privacy-threat/)
-  TechCrunch - 2026-07-26T
-- [Making sense of the panic over Chinese AI](https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/)
-  TechCrunch - 2026-07-26T
-- [Inside one London founder house rewriting the founder-house rules ](https://techcrunch.com/2026/07/26/inside-one-london-founder-house-rewriting-the-founder-house-rules/)
-  TechCrunch - 2026-07-26T
-- [Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack](https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/)
-  TechCrunch - 2026-07-26T
+- [Ulta Promo Codes: Up to 50% Off in July 2026](https://www.wired.com/story/ulta-coupon/)
+  Wired - 2026-07-28T
+- [30% Off Samsung Promo Code | July 2026](https://www.wired.com/story/samsung-promo-codes/)
+  Wired - 2026-07-28T
+- [Newegg Promo Codes and Coupons for July 2026](https://www.wired.com/story/newegg-promo-code/)
+  Wired - 2026-07-28T
+- [Altra Running Promo Codes: 10% Off July 2026](https://www.wired.com/story/altra-promo-code/)
+  Wired - 2026-07-28T
+- [Herman Miller Promo Codes: 40% Off July 2026](https://www.wired.com/story/herman-miller-promo-code/)
+  Wired - 2026-07-28T
 

@@ -33,14 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Inside one London founder house rewriting the founder-house rules ](https://techcrunch.com/2026/07/26/inside-one-london-founder-house-rewriting-the-founder-house-rules/)
-  TechCrunch - 2026-07-26T
-- [All the Ways You Can Make Reading on Your Phone Easier](https://www.wired.com/story/all-the-ways-you-can-make-reading-easier-on-your-phone/)
-  Wired - 2026-07-26T
-- [The Best Motorola Phones, From Razr to Moto G (2026)](https://www.wired.com/story/best-motorola-phones/)
-  Wired - 2026-07-26T
-- [One fallen power line exposed a growing AI data center problem. Here’s how to fix it.](https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/)
-  TechCrunch - 2026-07-25T
-- [I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else](https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/)
-  TechCrunch - 2026-07-25T
+- [Satya Nadella says companies that trust one AI for everything may not survive](https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/)
+  TechCrunch - 2026-07-27T
+- [Amazon’s new satellite network for mobile phones could turn up the heat on SpaceX](https://techcrunch.com/2026/07/27/amazons-new-satellite-network-for-mobile-phones-could-turn-up-the-heat-on-spacex/)
+  TechCrunch - 2026-07-27T
+- [GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption](https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html)
+  The Hacker News - 2026-07-27T
 

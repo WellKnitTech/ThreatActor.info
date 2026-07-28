@@ -33,8 +33,12 @@ Ransomware Identifies victim locations w/Google Maps API
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Apple sued after alleged App Store crypto scam cost users $1.8M](https://techcrunch.com/2026/07/27/apple-sued-after-alleged-app-store-crypto-scam-cost-users-1-8m/)
+  TechCrunch - 2026-07-27T
+- [Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware](https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html)
+  The Hacker News - 2026-07-27T
+- [Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin](https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/)
+  BleepingComputer - 2026-07-27T
 - [Steam forum ClickFix attacks infect gamers with XMRig cryptominers](https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/)
   BleepingComputer - 2026-07-25T
-- [BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery](https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html)
-  The Hacker News - 2026-07-24T
 

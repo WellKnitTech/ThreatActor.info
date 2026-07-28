@@ -36,6 +36,8 @@ ShinyHunters is a cybercriminal group of unknown origin that is motivated by fin
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Ernst & Young data breach claimed by ShinyHunters extortion gang](https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/)
+  BleepingComputer - 2026-07-27T
 - [ShinyHunters data leaks fuel $2,000 sextortion email scam](https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/)
   BleepingComputer - 2026-07-25T
 

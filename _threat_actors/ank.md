@@ -33,8 +33,6 @@ Ank is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [New Dolphin X malware uses AI to rank high-value targets](https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/)
-  BleepingComputer - 2026-07-23T
 - [Brazilian Banking Trojan Actively Spreading in Portugal](https://www.darkreading.com/cyberattacks-data-breaches/brazilian-banking-trojan-spreading-portugal)
   DarkReading - 2026-07-23T
 

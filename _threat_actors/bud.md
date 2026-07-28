@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Best GoPro Camera (2026): Compact, Budget, Accessories](https://www.wired.com/gallery/best-gopro-hero-camera/)
-  Wired - 2026-07-26T
-

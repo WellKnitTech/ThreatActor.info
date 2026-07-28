@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Can Apple make smart glasses that aren’t a constant privacy threat?](https://techcrunch.com/2026/07/26/can-apple-make-smart-glasses-that-arent-a-constant-privacy-threat/)
-  TechCrunch - 2026-07-26T
-- [GitHub, PyPI add time-based defenses against supply chain attacks](https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/)
-  BleepingComputer - 2026-07-26T
-- [Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech](https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/)
-  TechCrunch - 2026-07-25T
-- [Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE](https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html)
-  The Hacker News - 2026-07-25T
-- [Cricut Explore 5 vs. Siser Romeo: Choosing the Right Smart Cutting Machine (2026)](https://www.wired.com/story/cricut-explore-5-vs-siser-romeo/)
-  Wired - 2026-07-25T
+- [Microsoft unveils AI security tools it says outperform competing platforms](https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/)
+  Ars Technica - 2026-07-27T
+- [Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw](https://thehackernews.com/2026/07/public-exploit-released-for-patched.html)
+  The Hacker News - 2026-07-27T
+- [⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More](https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html)
+  The Hacker News - 2026-07-27T
+- [Arista patches VeloCloud Orchestrator zero-day exploited in attacks](https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/)
+  BleepingComputer - 2026-07-27T
+- [Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system](https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/)
+  TechCrunch - 2026-07-27T
 

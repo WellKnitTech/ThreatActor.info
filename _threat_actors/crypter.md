@@ -30,3 +30,9 @@ Ransomware Does not actually encrypt the files, but simply renames them
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware](https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html)
+  The Hacker News - 2026-07-27T
+

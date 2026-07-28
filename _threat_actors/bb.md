@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats](https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html)
-  The Hacker News - 2026-07-24T
-

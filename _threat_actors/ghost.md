@@ -38,6 +38,8 @@ aka Cring / Ghost (Cring) <br/> <br/>Beginning early 2021, Ghost actors began at
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller](https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html)
-  The Hacker News - 2026-07-24T
+- [New Certighost PoC exploit lets attackers hijack Windows domains](https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/)
+  BleepingComputer - 2026-07-27T
+- [Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware](https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html)
+  The Hacker News - 2026-07-27T
 

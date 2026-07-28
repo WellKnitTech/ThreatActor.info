@@ -30,3 +30,9 @@ Fusion is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Thea Energy lands $20M federal grant to build its magnets for fusion reactors](https://techcrunch.com/2026/07/27/thea-energy-lands-20m-federal-grant-to-build-its-magnets-for-fusion-reactors/)
+  TechCrunch - 2026-07-27T
+

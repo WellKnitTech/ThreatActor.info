@@ -146,6 +146,4 @@ Curated Intelligence MOVEit Transfer Tracking tracks 74 public events for the 20
 
 - [Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE](https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html)
   The Hacker News - 2026-07-25T
-- [Clop ransomware targets Windchill, FlexPLM in data theft attacks](https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/)
-  BleepingComputer - 2026-07-24T
 
