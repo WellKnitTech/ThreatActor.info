@@ -141,9 +141,3 @@ Curated Intelligence MOVEit Transfer Tracking tracks 74 public events for the 20
 [5] [NCC Group TA505](https://research.nccgroup.com/2020/11/18/ta505-a-brief-history-of-their-time/)
 [6] [Korean FSI TA505 2020](https://www.fsec.or.kr/user/bbs/fsec/163/344/bbsDataView/1382.do?page=1&column=&search=&searchSDate=&searchEDate=&bbsDataCategory=)
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE](https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html)
-  The Hacker News - 2026-07-25T
-

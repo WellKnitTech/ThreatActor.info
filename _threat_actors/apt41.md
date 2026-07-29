@@ -109,6 +109,8 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Former Citigroup CISO Blauner on What Makes A Great Security Leader](https://www.darkreading.com/cybersecurity-operations/former-citigroup-ciso-blauner-great-security-leader)
+  DarkReading - 2026-07-28T
 - [Elastic joins NVIDIA and industry leaders as inaugural member of the Open Secure AI Alliance for AI safety and security](https://www.elastic.co/blog/elastic-nvidia-inaugural-partner-osaia)
   Elastic - 2026-07-27T
 

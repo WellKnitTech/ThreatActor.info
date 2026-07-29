@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Ulta Promo Codes: Up to 50% Off in July 2026](https://www.wired.com/story/ulta-coupon/)
-  Wired - 2026-07-28T
-- [30% Off Samsung Promo Code | July 2026](https://www.wired.com/story/samsung-promo-codes/)
-  Wired - 2026-07-28T
-- [Newegg Promo Codes and Coupons for July 2026](https://www.wired.com/story/newegg-promo-code/)
-  Wired - 2026-07-28T
-- [Altra Running Promo Codes: 10% Off July 2026](https://www.wired.com/story/altra-promo-code/)
-  Wired - 2026-07-28T
-- [Herman Miller Promo Codes: 40% Off July 2026](https://www.wired.com/story/herman-miller-promo-code/)
-  Wired - 2026-07-28T
+- [How AI is Rewriting the Zero-Day Playbook for Preemptive Security](https://www.rapid7.com/blog/post/ai-rewriting-zero-day-playbook-for-preemptive-security)
+  Rapid7 - 2026-07-29T
+- [Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js](https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html)
+  The Hacker News - 2026-07-29T
+- [Hostinger Promo Code: 79% Off for August 2026](https://www.wired.com/story/hostinger-coupon-code/)
+  Wired - 2026-07-29T
+- [Braun Promo Codes: 15% Off July](https://www.wired.com/story/braun-promo-code/)
+  Wired - 2026-07-29T
+- [LegalZoom Promo Code: Exclusive 10% Off LLC Formations](https://www.wired.com/story/legalzoom-promo-code/)
+  Wired - 2026-07-29T
 

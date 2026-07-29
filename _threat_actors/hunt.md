@@ -36,6 +36,4 @@ Hunt ransomware is a variant of the Dharma/CrySIS ransomware family. This varian
 
 - [Ernst & Young data breach claimed by ShinyHunters extortion gang](https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/)
   BleepingComputer - 2026-07-27T
-- [ShinyHunters data leaks fuel $2,000 sextortion email scam](https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/)
-  BleepingComputer - 2026-07-25T
 

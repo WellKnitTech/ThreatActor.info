@@ -37,6 +37,4 @@ Not a RaaS yet.
   DarkReading - 2026-07-24T
 - [Russian Global Webmail Espionage](https://unit42.paloaltonetworks.com/russian-webmail-espionage/)
   Unit 42 - 2026-07-23T
-- [Critical Vulnerability in Palo Alto Global Protect Under Active Exploitation (CVE-2026-0257)](https://labs.beazley.security/advisories/BSL-A1194)
-  Beazley Security Labs Advisories - 2026-07-21T
 

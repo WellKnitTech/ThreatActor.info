@@ -33,8 +33,6 @@ Ransomware VaultCrypt family
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets](https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets)
-  DarkReading - 2026-07-23T
 - [Russian Global Webmail Espionage](https://unit42.paloaltonetworks.com/russian-webmail-espionage/)
   Unit 42 - 2026-07-23T
 
