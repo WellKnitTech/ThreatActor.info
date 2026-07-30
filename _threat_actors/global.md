@@ -33,8 +33,8 @@ Not a RaaS yet.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Vatican's Official Prayer App Leaks 700K+ Global Users' PII](https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii)
-  DarkReading - 2026-07-24T
+- [SE Asian Cybercriminal Syndicates Become a Global Power](https://www.darkreading.com/threat-intelligence/se-asian-cybercriminal-syndicates-global-power)
+  DarkReading - 2026-07-30T
 - [Russian Global Webmail Espionage](https://unit42.paloaltonetworks.com/russian-webmail-espionage/)
   Unit 42 - 2026-07-23T
 

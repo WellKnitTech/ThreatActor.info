@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [How AI is Rewriting the Zero-Day Playbook for Preemptive Security](https://www.rapid7.com/blog/post/ai-rewriting-zero-day-playbook-for-preemptive-security)
-  Rapid7 - 2026-07-29T
-- [Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js](https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html)
+- [SE Asian Cybercriminal Syndicates Become a Global Power](https://www.darkreading.com/threat-intelligence/se-asian-cybercriminal-syndicates-global-power)
+  DarkReading - 2026-07-30T
+- ['Flying Eagle' Full-Service Mobile RAT Builder Wings Across China](https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china)
+  DarkReading - 2026-07-30T
+- [Microsoft is openly competing with OpenAI, Anthropic more than ever](https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/)
+  TechCrunch - 2026-07-30T
+- [Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads](https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html)
   The Hacker News - 2026-07-29T
-- [Hostinger Promo Code: 79% Off for August 2026](https://www.wired.com/story/hostinger-coupon-code/)
-  Wired - 2026-07-29T
-- [Braun Promo Codes: 15% Off July](https://www.wired.com/story/braun-promo-code/)
-  Wired - 2026-07-29T
-- [LegalZoom Promo Code: Exclusive 10% Off LLC Formations](https://www.wired.com/story/legalzoom-promo-code/)
-  Wired - 2026-07-29T
+- [Mark Zuckerberg predicts that billions of people will have personal AI agents in five years](https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/)
+  TechCrunch - 2026-07-29T
 

@@ -35,6 +35,4 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 
 - [CubePilot drone software dev hit by DNS hijacking to intercept traffic](https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/)
   BleepingComputer - 2026-07-28T
-- [Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin](https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/)
-  BleepingComputer - 2026-07-27T
 

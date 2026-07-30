@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [How AI is Rewriting the Zero-Day Playbook for Preemptive Security](https://www.rapid7.com/blog/post/ai-rewriting-zero-day-playbook-for-preemptive-security)
-  Rapid7 - 2026-07-29T
-- [MCP startup Runlayer accuses Rippling of stealing its product idea](https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/)
-  TechCrunch - 2026-07-28T
-- [When AI Agents Escape Sandboxes, Old Security Rules Apply](https://www.darkreading.com/application-security/ai-agents-escape-sandboxes-old-security-rules-apply)
-  DarkReading - 2026-07-28T
-- [JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach](https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html)
-  The Hacker News - 2026-07-28T
-- [Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays](https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html)
-  The Hacker News - 2026-07-28T
+- [Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads](https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html)
+  The Hacker News - 2026-07-29T
+- [Mark Zuckerberg predicts that billions of people will have personal AI agents in five years](https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/)
+  TechCrunch - 2026-07-29T
+- [Winamp aims for a comeback with a new music player powered by Deezer](https://techcrunch.com/2026/07/29/winamp-aims-for-a-comeback-with-a-new-music-player-powered-by-deezer/)
+  TechCrunch - 2026-07-29T
+- [Save Up to $100 on Apple’s Newest AirPods (2026)](https://www.wired.com/story/apple-airpods-deal-july-2026/)
+  Wired - 2026-07-29T
+- [The Hugging Face AI break-in explained](https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor/)
+  TechCrunch - 2026-07-29T
 

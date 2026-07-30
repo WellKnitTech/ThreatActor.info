@@ -63,12 +63,6 @@ LockBit is a ransomware-as-a-service operation known for its fast encryption and
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [FBI: Breaking Affiliate Trust Sped Along LockBit's Takedown](https://www.darkreading.com/cybersecurity-operations/fbi-breaking-affiliate-trust-lockbit-takedown)
-  DarkReading - 2026-07-27T
-
 ## CISA Known Exploited Vulnerabilities (KEV)
 *The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*
 

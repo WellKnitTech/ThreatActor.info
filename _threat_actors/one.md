@@ -33,8 +33,12 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline](https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html)
+  The Hacker News - 2026-07-29T
+- [Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments](https://thehackernews.com/2026/07/nine-year-fraud-campaign.html)
+  The Hacker News - 2026-07-29T
+- [Apple Upgrade Isn’t the Best Way to Buy an iPhone](https://www.wired.com/story/apple-products-are-all-just-subscription-services-now/)
+  Wired - 2026-07-29T
 - [CubePilot drone software dev hit by DNS hijacking to intercept traffic](https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/)
   BleepingComputer - 2026-07-28T
-- [Elon Musk’s X Money app is rolling out in the US](https://techcrunch.com/2026/07/28/elon-musks-x-money-app-is-rolling-out-in-the-u-s/)
-  TechCrunch - 2026-07-28T
 

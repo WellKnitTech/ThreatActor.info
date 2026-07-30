@@ -30,3 +30,9 @@ Vect is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [When AppSec Scanners Become a Supply Chain Attack Vector](https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector)
+  DarkReading - 2026-07-29T
+

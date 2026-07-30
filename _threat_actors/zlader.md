@@ -33,6 +33,10 @@ Ransomware VaultCrypt family
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Russian hackers exploit Exchange OWA zero-day for long-term mailbox access](https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/)
+  BleepingComputer - 2026-07-29T
+- [Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments](https://thehackernews.com/2026/07/nine-year-fraud-campaign.html)
+  The Hacker News - 2026-07-29T
 - [Russian Global Webmail Espionage](https://unit42.paloaltonetworks.com/russian-webmail-espionage/)
   Unit 42 - 2026-07-23T
 

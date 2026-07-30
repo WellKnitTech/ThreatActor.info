@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js](https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html)
+- ['Flying Eagle' Full-Service Mobile RAT Builder Wings Across China](https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china)
+  DarkReading - 2026-07-30T
+- [Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads](https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html)
   The Hacker News - 2026-07-29T
-- [Braun Promo Codes: 15% Off July](https://www.wired.com/story/braun-promo-code/)
-  Wired - 2026-07-29T
-- [Therabody Promo Codes: 15% Off July 2026](https://www.wired.com/story/therabody-promo-code/)
-  Wired - 2026-07-29T
-- [Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack](https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html)
+- [Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline](https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html)
   The Hacker News - 2026-07-29T
-- [Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents](https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/)
+- [Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments](https://thehackernews.com/2026/07/nine-year-fraud-campaign.html)
+  The Hacker News - 2026-07-29T
+- [Sorry, haters. Ferrari’s first EV is doing just fine](https://techcrunch.com/2026/07/29/sorry-haters-ferraris-first-ev-is-doing-just-fine/)
   TechCrunch - 2026-07-29T
 

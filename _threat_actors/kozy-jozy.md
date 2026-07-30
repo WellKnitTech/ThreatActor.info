@@ -30,3 +30,9 @@ Ransomware Potential Kit selectedkozy.jozy@yahoo.com kozy.jozy@yahoo.com unlock9
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission](https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/)
+  Ars Technica - 2026-07-29T
+

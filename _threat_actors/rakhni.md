@@ -30,9 +30,3 @@ Ransomware Files might be partially encrypted
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Laura Loomer’s Reversal on Ukraine Stirs Up the MAGA Civil War](https://www.wired.com/story/laura-loomer-ukraine/)
-  Wired - 2026-07-28T
-
