@@ -195,7 +195,7 @@
     "url"
   ],
   "counts": {
-    "threat_actors": 3613,
+    "threat_actors": 3614,
     "iocs": 9,
     "techniques": 918,
     "tactics": 39,
@@ -209,16 +209,16 @@
     "North Korea": 31,
     "United States": 24,
     "Pakistan": 20,
+    "India": 17,
     "Turkey": 17,
     "Thailand": 17,
-    "India": 17,
     "Argentina": 15
   },
   "risk_counts": {
     "High": 161,
     "Critical": 14,
-    "Low": 2,
-    "Medium": 1
+    "Medium": 2,
+    "Low": 2
   },
   "sector_counts": {
     "Government": 115,
@@ -228,8 +228,8 @@
     "Defense": 29,
     "Education": 28,
     "Energy": 28,
-    "Healthcare": 23,
     "Technology": 23,
+    "Healthcare": 23,
     "Finance": 22
   },
   "malware_counts": {
