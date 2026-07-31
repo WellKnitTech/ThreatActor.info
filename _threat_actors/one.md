@@ -33,12 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Everyone Is Freaking Out About OpenAI and Anthropic’s Race for Dominance](https://www.wired.com/story/everyone-is-freaking-out-about-openai-and-anthropics-race-for-dominance/)
+  Wired - 2026-07-30T
+- [Friend, the lonely AI wearable, returns with a new voice and a much bigger price tag](https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag/)
+  TechCrunch - 2026-07-30T
 - [Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline](https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html)
   The Hacker News - 2026-07-29T
-- [Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments](https://thehackernews.com/2026/07/nine-year-fraud-campaign.html)
-  The Hacker News - 2026-07-29T
-- [Apple Upgrade Isn’t the Best Way to Buy an iPhone](https://www.wired.com/story/apple-products-are-all-just-subscription-services-now/)
-  Wired - 2026-07-29T
-- [CubePilot drone software dev hit by DNS hijacking to intercept traffic](https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/)
-  BleepingComputer - 2026-07-28T
 

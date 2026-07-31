@@ -34,6 +34,12 @@ Hunt ransomware is a variant of the Dharma/CrySIS ransomware family. This varian
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Chrome Needs Twice-a-Week Patching Thanks to AI Bug Hunting](https://www.wired.com/story/chrome-needs-twice-a-week-patching-thanks-to-ai-bug-hunting-for-now/)
+  Wired - 2026-07-30T
+- [Razer Huntsman V3 HE Review: Jumping on the Bandwagon](https://www.wired.com/review/razer-huntsman-v3-hall-effect-keyboard/)
+  Wired - 2026-07-30T
+- [ShinyHunters claims Brinks Home breach, threatens to leak stolen data](https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/)
+  BleepingComputer - 2026-07-30T
 - [Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare](https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/)
   BleepingComputer - 2026-07-29T
 

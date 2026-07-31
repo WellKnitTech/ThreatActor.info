@@ -35,6 +35,4 @@ Quantum is an active extortion or ransomware group tracked by RansomLook.
 
 - [Post-quantum authentication to origins is now supported](https://blog.cloudflare.com/post-quantum-authentication-to-origins/)
   Cloudflare - 2026-07-29T
-- [Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack](https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html)
-  The Hacker News - 2026-07-29T
 

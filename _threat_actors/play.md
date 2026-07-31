@@ -139,8 +139,6 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Winamp aims for a comeback with a new music player powered by Deezer](https://techcrunch.com/2026/07/29/winamp-aims-for-a-comeback-with-a-new-music-player-powered-by-deezer/)
-  TechCrunch - 2026-07-29T
 - [How AI is Rewriting the Zero-Day Playbook for Preemptive Security](https://www.rapid7.com/blog/post/ai-rewriting-zero-day-playbook-for-preemptive-security)
   Rapid7 - 2026-07-29T
 

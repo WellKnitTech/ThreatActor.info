@@ -33,10 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Mac Mini Availability: Long Waits and Higher Prices](https://www.wired.com/story/mac-mini-availability/)
-  Wired - 2026-07-29T
+- [Gemini Robotics 2 Brings Google's AI Into the Physical World](https://www.wired.com/story/google-gemini-can-control-humanoid-robots/)
+  Wired - 2026-07-30T
 - [Natural disasters and government interference: examining Q2 2026’s major Internet disruption events](https://blog.cloudflare.com/q2-2026-internet-disruption-summary/)
   Cloudflare - 2026-07-28T
-- [AI Agent Drives Espionage Attack on Thai Ministry of Finance](https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance)
-  DarkReading - 2026-07-28T
 

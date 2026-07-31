@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Rapid7 named a Leader in the IDC MarketScape: Worldwide MDR Service for Midmarket 2026 Vendor Assessment](https://www.rapid7.com/blog/post/dr-idc-marketscape-leader-worldwide-mdr-service-midmarket-2026-vendor-assessment)
+  Rapid7 - 2026-07-30T
 - [Rapid7 Cyber GRC is now available: Turn security action into compliance proof](https://www.rapid7.com/blog/post/pt-cyber-grc-available-prove-compliance-security)
   Rapid7 - 2026-07-28T
 - [Rapid7 and Exclusive Networks expand partnership to modernize security operations and accelerate customer success](https://www.rapid7.com/blog/post/c-exclusive-networks-partnership-accelerating-customer-success)

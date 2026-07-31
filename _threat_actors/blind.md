@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [SelectBlinds Promo Codes & Coupons: Save on Custom Window Treatments](https://www.wired.com/story/select-blinds-promo-code/)
+  Wired - 2026-07-31T
+

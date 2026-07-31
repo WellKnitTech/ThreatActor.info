@@ -109,8 +109,8 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Former Citigroup CISO Blauner on What Makes A Great Security Leader](https://www.darkreading.com/cybersecurity-operations/former-citigroup-ciso-blauner-great-security-leader)
-  DarkReading - 2026-07-28T
-- [Elastic joins NVIDIA and industry leaders as inaugural member of the Open Secure AI Alliance for AI safety and security](https://www.elastic.co/blog/elastic-nvidia-inaugural-partner-osaia)
-  Elastic - 2026-07-27T
+- [Rapid7 named a Leader in the IDC MarketScape: Worldwide MDR Service for Midmarket 2026 Vendor Assessment](https://www.rapid7.com/blog/post/dr-idc-marketscape-leader-worldwide-mdr-service-midmarket-2026-vendor-assessment)
+  Rapid7 - 2026-07-30T
+- [Microsoft Teams vishing attacks lead to Chaos ransomware attacks](https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/)
+  BleepingComputer - 2026-07-30T
 

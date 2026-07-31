@@ -33,6 +33,8 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Sorry, haters. Ferrari’s first EV is doing just fine](https://techcrunch.com/2026/07/29/sorry-haters-ferraris-first-ev-is-doing-just-fine/)
-  TechCrunch - 2026-07-29T
+- [For the First Time, Zoox Can Charge People for Rides in Its Steering-Wheel-Free Robotaxis](https://www.wired.com/story/zoox-becomes-the-first-steering-wheel-free-robotaxi-to-charge-for-rides-in-the-us/)
+  Wired - 2026-07-30T
+- [Introducing the Industry’s First AI Network Firewall](https://blog.checkpoint.com/security/introducing-the-industrys-first-ai-network-firewall/)
+  Check Point - 2026-07-30T
 

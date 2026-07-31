@@ -35,6 +35,4 @@ Not a RaaS yet.
 
 - [SE Asian Cybercriminal Syndicates Become a Global Power](https://www.darkreading.com/threat-intelligence/se-asian-cybercriminal-syndicates-global-power)
   DarkReading - 2026-07-30T
-- [Russian Global Webmail Espionage](https://unit42.paloaltonetworks.com/russian-webmail-espionage/)
-  Unit 42 - 2026-07-23T
 

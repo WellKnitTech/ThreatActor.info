@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [SE Asian Cybercriminal Syndicates Become a Global Power](https://www.darkreading.com/threat-intelligence/se-asian-cybercriminal-syndicates-global-power)
-  DarkReading - 2026-07-30T
-- ['Flying Eagle' Full-Service Mobile RAT Builder Wings Across China](https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china)
-  DarkReading - 2026-07-30T
-- [Microsoft is openly competing with OpenAI, Anthropic more than ever](https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/)
-  TechCrunch - 2026-07-30T
-- [Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads](https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html)
-  The Hacker News - 2026-07-29T
-- [Mark Zuckerberg predicts that billions of people will have personal AI agents in five years](https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/)
-  TechCrunch - 2026-07-29T
+- [Alo Discount Code: Save on Activewear August 2026](https://www.wired.com/story/alo-yoga-discount-code/)
+  Wired - 2026-07-31T
+- [SelectBlinds Promo Codes & Coupons: Save on Custom Window Treatments](https://www.wired.com/story/select-blinds-promo-code/)
+  Wired - 2026-07-31T
+- [Mattress Firm Coupons: Save up to $700 |](https://www.wired.com/story/mattress-firm-coupon/)
+  Wired - 2026-07-31T
+- [AI Escaped a Sandbox. That is Not What Should Worry You](https://blog.checkpoint.com/security/ai-escaped-a-sandbox-that-is-not-what-should-worry-you/)
+  Check Point - 2026-07-31T
+- [Anthropic Says Claude Hacked 3 Organizations During Cybersecurity Tests](https://www.wired.com/story/anthropic-says-claude-hacked-real-systems-during-cybersecurity-tests/)
+  Wired - 2026-07-31T
 
