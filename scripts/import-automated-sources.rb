@@ -360,19 +360,19 @@ def report_path(options, source, mode)
 end
 
 def fetch_source(source, snapshot, options)
-  command = ['ruby', source.script, 'fetch', '--output', snapshot]
+  command = ['bundle', 'exec', 'ruby', source.script, 'fetch', '--output', snapshot]
   command += Array(source.fetch_args)
   command += ['--limit', options[:limit].to_s] if options[:limit] && source.fetch_limit
   run_command(command)
 end
 
 def plan_source(source, snapshot, options)
-  command = ['ruby', source.script, 'plan', '--snapshot', snapshot, '--report-json', report_path(options, source, 'plan')]
+  command = ['bundle', 'exec', 'ruby', source.script, 'plan', '--snapshot', snapshot, '--report-json', report_path(options, source, 'plan')]
   run_command(command)
 end
 
 def import_source(source, snapshot, options)
-  command = ['ruby', source.script, 'import', '--snapshot', snapshot, '--report-json', report_path(options, source, 'import')]
+  command = ['bundle', 'exec', 'ruby', source.script, 'import', '--snapshot', snapshot, '--report-json', report_path(options, source, 'import')]
   run_command(command)
 end
 

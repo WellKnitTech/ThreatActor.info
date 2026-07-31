@@ -10,3 +10,6 @@ gem "jekyll-paginate"
 gem "json"
 
 gem "json_schemer", "~> 2.5"
+
+# Importer dependencies (HTML/XML parsing for threat group sources)
+gem "nokogiri"
