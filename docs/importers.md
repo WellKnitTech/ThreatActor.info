@@ -1236,6 +1236,7 @@ Imported provenance fields include:
 - `provenance.etda_thai_group_cards.mitre_technique_ids`
 
 The provenance namespace was renamed from `etda_thaicert` to `etda_thai_group_cards` so the key no longer matches CodeQL's certificate/sensitive-name heuristics (`rb/clear-text-storage-sensitive-data`). The importer still reads the legacy key on update and migrates it to the new namespace.
+ The Jekyll layout (_layouts/threat_actor.html) was also updated to recognize both the legacy and new provenance keys for source labeling and fallback URLs.
 
 ## Analyst Notes Importer
 
