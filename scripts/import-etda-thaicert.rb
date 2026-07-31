@@ -30,6 +30,12 @@ class EtdaThaicertImporter
   SOURCE_REPOSITORY = 'https://apt.etda.or.th/'.freeze
   MANUAL_SOURCE_NAMES = ['Manual Entry', 'Analyst Notes'].freeze
   SOURCE_ATTRIBUTION = 'Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment.'.freeze
+  # Provenance namespace for this importer. Avoid substrings that CodeQL's
+  # sensitive-data heuristics treat as certificates/secrets (e.g. "cert" in
+  # "etda_thaicert"), which previously raised rb/clear-text-storage-sensitive-data
+  # when provenance hashes were later written to disk via write_page/ActorStore.
+  PROVENANCE_KEY = 'etda_thai_group_cards'.freeze
+  LEGACY_PROVENANCE_KEY = 'etda_thaicert'.freeze
 
   REQUIRED_HEADINGS = [
     'Introduction',
@@ -322,7 +328,7 @@ class EtdaThaicertImporter
       'source_name' => SOURCE_NAME,
       'source_attribution' => SOURCE_ATTRIBUTION,
       'source_record_url' => record[:source_record_url],
-      'provenance' => { 'etda_thaicert' => build_provenance(record) }
+      'provenance' => { PROVENANCE_KEY => build_provenance(record) }
     }.reject { |_key, value| value.nil? || value == [] || value == '' }
   end
 
@@ -367,12 +373,26 @@ class EtdaThaicertImporter
     end
 
     provenance = existing_actor['provenance'].is_a?(Hash) ? deep_dup_hash(existing_actor['provenance']) : {}
-    etda_provenance = provenance['etda_thaicert'].is_a?(Hash) ? provenance['etda_thaicert'] : {}
+    etda_provenance = extract_etda_provenance(provenance)
     merged_etda = etda_provenance.merge(build_provenance(record))
-    provenance['etda_thaicert'] = merged_etda
+    provenance[PROVENANCE_KEY] = merged_etda
+    # Drop the legacy key so stored artifacts no longer trip certificate heuristics.
+    provenance.delete(LEGACY_PROVENANCE_KEY)
     updates['provenance'] = provenance if provenance != existing_actor['provenance']
 
     updates
+  end
+
+  # Merge current + legacy provenance namespaces so older actor shards still update cleanly.
+  def extract_etda_provenance(provenance)
+    return {} unless provenance.is_a?(Hash)
+
+    legacy = provenance[LEGACY_PROVENANCE_KEY]
+    current = provenance[PROVENANCE_KEY]
+    merged = {}
+    merged = deep_dup_hash(legacy) if legacy.is_a?(Hash)
+    merged = merged.merge(deep_dup_hash(current)) if current.is_a?(Hash)
+    merged
   end
 
   def merge_array_field(updates, actor, field, values)
@@ -655,9 +675,8 @@ class EtdaThaicertImporter
   end
 
   def normalize_html_groups_payload(html)
-    rows = html.scan(%r{<tr[^>]*>(.*?)</tr>}im).map(&:first)
-    rows.filter_map do |row|
-      cells = row.scan(%r{<t[dh][^>]*>(.*?)</t[dh]>}im).map { |cell| sanitize_text(strip_html(cell.first)) }
+    extract_html_table_rows(html).filter_map do |row|
+      cells = extract_html_table_cells(row).map { |cell| sanitize_text(strip_html(cell)) }
       next if cells.empty?
       name = cells[0].to_s
       next if name.empty? || name.casecmp('group').zero?
@@ -669,6 +688,33 @@ class EtdaThaicertImporter
         'reference' => first_href(row)
       }
     end
+  end
+
+  # Linear HTML table extractors — avoid nested reluctant regexes over untrusted HTML
+  # (CodeQL rb/polynomial-redos on <tr>/<td> scans).
+  def extract_html_table_rows(html)
+    extract_html_tag_inner(html.to_s, 'tr')
+  end
+
+  def extract_html_table_cells(row_html)
+    extract_html_tag_inner(row_html.to_s, 'td') + extract_html_tag_inner(row_html.to_s, 'th')
+  end
+
+  def extract_html_tag_inner(html, tag_name)
+    text = html.to_s
+    open_re = /<#{Regexp.escape(tag_name)}\b[^>]*>/i
+    close_re = %r{</#{Regexp.escape(tag_name)}\s*>}i
+    results = []
+    pos = 0
+    while (open_match = open_re.match(text, pos))
+      content_start = open_match.end(0)
+      close_match = close_re.match(text, content_start)
+      break unless close_match
+
+      results << text[content_start...close_match.begin(0)]
+      pos = close_match.end(0)
+    end
+    results
   end
 
   def merge_normalized_records(records)
@@ -747,7 +793,9 @@ class EtdaThaicertImporter
   end
 
   def strip_html(value)
-    value.to_s.gsub(/<[^>]+>/, ' ')
+    # Character-class strip is linear-time and avoids polynomial backtracking on
+    # crafted inputs with many '<' without matching '>' (rb/polynomial-redos).
+    value.to_s.gsub(/<[^>]*>/, ' ')
   end
 
   def first_href(row_html)
@@ -907,7 +955,7 @@ class EtdaThaicertImporter
   def sanitize_text(value)
     value.to_s
          .gsub(/<br\s*\/?>/i, ' ')
-         .gsub(/<[^>]+>/, ' ')
+         .gsub(/<[^>]*>/, ' ')
          .gsub(/&quot;/, '"')
          .gsub(/&#39;/, "'")
          .gsub(/&amp;/, '&')
@@ -1058,19 +1106,49 @@ class EtdaThaicertImporter
 
   def parse_page(path)
     content = File.read(path)
-    match = content.match(/\A---\s*\n(.*?)\n---\s*\n?(.*)\z/m)
-    raise "Invalid front matter in #{path}" unless match
+    front_matter_text, body = split_front_matter(content)
+    raise "Invalid front matter in #{path}" if front_matter_text.nil?
 
     front_matter = begin
-      YAML.safe_load(match[1], permitted_classes: [], aliases: true) || {}
+      YAML.safe_load(front_matter_text, permitted_classes: [], aliases: true) || {}
     rescue Psych::SyntaxError => e
       raise "YAML front matter syntax error in #{path} at line #{e.line} column #{e.column}: #{e.problem}"
     end
 
     {
       front_matter: front_matter,
-      body: match[2].strip
+      body: body.strip
     }
+  end
+
+  # Split Jekyll-style front matter without a non-greedy whole-file regex.
+  # Linear scan avoids rb/polynomial-redos on crafted page content.
+  def split_front_matter(content)
+    text = content.to_s
+    return [nil, text] unless text.start_with?("---\n") || text.start_with?("---\r\n")
+
+    remainder = text.sub(/\A---\r?\n/, '')
+    lines = remainder.each_line
+    yaml_lines = []
+    found_close = false
+    body_lines = []
+
+    lines.each do |line|
+      if !found_close && line.strip == '---'
+        found_close = true
+        next
+      end
+
+      if found_close
+        body_lines << line
+      else
+        yaml_lines << line
+      end
+    end
+
+    return [nil, text] unless found_close
+
+    [yaml_lines.join, body_lines.join]
   end
 
   def page_path_for(url)

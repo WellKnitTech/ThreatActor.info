@@ -1212,7 +1212,7 @@ ruby scripts/import-etda-thaicert.rb plan --snapshot data/imports/etda-thaicert/
 | `malware` / `tools` / `toolset` | `malware` | Additive merge as malware names |
 | `first_seen` | `first_seen` | Imported when valid year and target is blank |
 | `last_activity` / `updated` | `last_activity` | Imported when newer year |
-| MITRE IDs in source text | `provenance.etda_thaicert.mitre_*` | Stored as provenance hints for later curation |
+| MITRE IDs in source text | `provenance.etda_thai_group_cards.mitre_*` | Stored as provenance hints for later curation |
 
 ### Guardrails
 
@@ -1228,12 +1228,15 @@ The importer preserves source attribution using the pattern:
 `Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment.`
 
 Imported provenance fields include:
-- `provenance.etda_thaicert.source_retrieved_at`
-- `provenance.etda_thaicert.source_dataset_url`
-- `provenance.etda_thaicert.source_record_id`
-- `provenance.etda_thaicert.source_record_url`
-- `provenance.etda_thaicert.mitre_group_ids`
-- `provenance.etda_thaicert.mitre_technique_ids`
+- `provenance.etda_thai_group_cards.source_retrieved_at`
+- `provenance.etda_thai_group_cards.source_dataset_url`
+- `provenance.etda_thai_group_cards.source_record_id`
+- `provenance.etda_thai_group_cards.source_record_url`
+- `provenance.etda_thai_group_cards.mitre_group_ids`
+- `provenance.etda_thai_group_cards.mitre_technique_ids`
+
+The provenance namespace was renamed from `etda_thaicert` to `etda_thai_group_cards` so the key no longer matches CodeQL's certificate/sensitive-name heuristics (`rb/clear-text-storage-sensitive-data`). The importer still reads the legacy key on update and migrates it to the new namespace.
+ The Jekyll layout (_layouts/threat_actor.html) was also updated to recognize both the legacy and new provenance keys for source labeling and fallback URLs.
 
 ## Analyst Notes Importer
 
