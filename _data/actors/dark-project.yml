@@ -1,0 +1,16 @@
+name: "Dark Project"
+aliases: ["Dark Project"]
+description: "Dark Project is a ransomware and extortion group active as of 2026. The group has claimed several known victims, though cataloging by major ransomware monitoring sites has not yet occurred at time of initial entry. It appears in listings of recent ransomware variants alongside groups such as Kyber, Akira, and Qilin."
+url: "/dark-project"
+country: "Unknown"
+first_seen: "2026"
+last_activity: "2026"
+risk_level: "Medium"
+sector_focus: []
+source_attribution: "Reported via GitHub issue; referenced in public threat reports (e.g. IronGate Security, April 2026)."
+provenance:
+  manual:
+    source: "GitHub issue #99"
+    source_url: "https://github.com/WellKnitTech/ThreatActor.info/issues/99"
+    source_record_id: "99"
+    source_retrieved_at: "2026-07-31T22:22:48Z"
