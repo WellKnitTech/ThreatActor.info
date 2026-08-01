@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Alo Discount Code: Save on Activewear August 2026](https://www.wired.com/story/alo-yoga-discount-code/)
-  Wired - 2026-07-31T
-- [SelectBlinds Promo Codes & Coupons: Save on Custom Window Treatments](https://www.wired.com/story/select-blinds-promo-code/)
-  Wired - 2026-07-31T
-- [Mattress Firm Coupons: Save up to $700 |](https://www.wired.com/story/mattress-firm-coupon/)
-  Wired - 2026-07-31T
-- [AI Escaped a Sandbox. That is Not What Should Worry You](https://blog.checkpoint.com/security/ai-escaped-a-sandbox-that-is-not-what-should-worry-you/)
-  Check Point - 2026-07-31T
-- [Anthropic Says Claude Hacked 3 Organizations During Cybersecurity Tests](https://www.wired.com/story/anthropic-says-claude-hacked-real-systems-during-cybersecurity-tests/)
-  Wired - 2026-07-31T
+- [AT&T Promo Codes: $50 Off This August 2026](https://www.wired.com/story/att-promo-code/)
+  Wired - 2026-08-01T
+- [Design Within Reach Promo Codes: 30% Off | August 2026](https://www.wired.com/story/design-within-reach-promo-code/)
+  Wired - 2026-08-01T
+- [Squarespace Promo Codes: 20% Off in August 2026](https://www.wired.com/story/squarespace-promo-code/)
+  Wired - 2026-08-01T
+- [H&R Block Coupon: 25% Off DIY + Tax Pro Assist](https://www.wired.com/story/hr-block-coupon/)
+  Wired - 2026-08-01T
+- [Dell Coupon Codes: 20% Off for August 2026](https://www.wired.com/story/dell-coupon-code/)
+  Wired - 2026-08-01T
 

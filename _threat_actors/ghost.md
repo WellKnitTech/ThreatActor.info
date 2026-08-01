@@ -35,9 +35,3 @@ aka Cring / Ghost (Cring) <br/> <br/>Beginning early 2021, Ghost actors began at
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Ghost Credentials Expose Cloud Systems to Hidden Identity Risks](https://www.darkreading.com/cloud-security/non-human-identity-sprawl-creates-a-new-cloud-attack-path)
-  DarkReading - 2026-07-28T
-

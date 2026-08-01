@@ -33,10 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Everyone Is Freaking Out About OpenAI and Anthropic’s Race for Dominance](https://www.wired.com/story/everyone-is-freaking-out-about-openai-and-anthropics-race-for-dominance/)
-  Wired - 2026-07-30T
-- [Friend, the lonely AI wearable, returns with a new voice and a much bigger price tag](https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag/)
-  TechCrunch - 2026-07-30T
-- [Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline](https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html)
-  The Hacker News - 2026-07-29T
+- [Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies](https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html)
+  The Hacker News - 2026-07-31T
+- [Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation](https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/)
+  TechCrunch - 2026-07-31T
+- [Sam Altman isn’t the only one who wants to pump the brakes on AI](https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/)
+  TechCrunch - 2026-07-31T
 

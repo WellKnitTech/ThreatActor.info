@@ -30,9 +30,3 @@ Open-source reporting has claimed that the Hermes ransomware was developed by th
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet](https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html)
-  The Hacker News - 2026-07-30T
-

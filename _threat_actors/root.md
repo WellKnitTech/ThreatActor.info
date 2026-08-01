@@ -33,6 +33,6 @@ Root is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Patch-Resistant 'RufRoot' Flaw Can Unleash Malicious AI Agent Swarms](https://www.darkreading.com/cyber-risk/patch-resistant-rufroot-flaw-malicious-ai-agent-swarms)
-  DarkReading - 2026-07-29T
+- [The Morning After We Pull a Root of Trust, Nobody Owns It](https://www.darkreading.com/cyber-risk/morning-after-we-pull-root-of-trust-nobody-owns-it)
+  DarkReading - 2026-07-31T
 

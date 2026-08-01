@@ -46,6 +46,8 @@ Tick is a cyber espionage group with likely Chinese origins that has been active
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [DROP Platform Lets Californians Reduce Digital Footprint](https://www.darkreading.com/data-privacy/drop-platform-lets-californians-ditch-their-data)
+  DarkReading - 2026-07-31T
 - [Read This Before You Buy That TV Streaming Stick](https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/)
   KrebsOnSecurity - 2026-07-30T
 

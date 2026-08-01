@@ -33,12 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Friend, the lonely AI wearable, returns with a new voice and a much bigger price tag](https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag/)
-  TechCrunch - 2026-07-30T
+- [CISA warns of cyberattacks disrupting U.S. water utilities](https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/)
+  BleepingComputer - 2026-07-31T
+- [The Xcode Assassin Returns: A Deep Dive Into the Latest XCSSET Version](https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/)
+  Unit 42 - 2026-07-31T
 - [JetBrains warns of critical TeamCity remote code execution flaw](https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/)
   BleepingComputer - 2026-07-30T
-- [Cisco warns of FMC static credential flaw exploited in zero-day attacks](https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/)
-  BleepingComputer - 2026-07-29T
-- [Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare](https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/)
-  BleepingComputer - 2026-07-29T
 

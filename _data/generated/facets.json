@@ -209,10 +209,10 @@
     "North Korea": 31,
     "United States": 24,
     "Pakistan": 20,
-    "India": 17,
     "Turkey": 17,
     "Thailand": 17,
-    "Argentina": 15
+    "India": 17,
+    "Unknown": 15
   },
   "risk_counts": {
     "High": 161,
@@ -228,8 +228,8 @@
     "Defense": 29,
     "Education": 28,
     "Energy": 28,
-    "Technology": 23,
     "Healthcare": 23,
+    "Technology": 23,
     "Finance": 22
   },
   "malware_counts": {

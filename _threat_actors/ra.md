@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Apple stockpiles inventory as it braces for ‘significant supply constraints’](https://techcrunch.com/2026/07/30/apple-stockpiles-inventory-as-it-braces-for-significant-supply-constraints/)
-  TechCrunch - 2026-07-30T
-- [A Leaked Memo Ties Cyberattacks on Minnesota Water Utilities to Iran](https://www.wired.com/story/a-leaked-memo-ties-cyberattacks-on-minnesota-water-utilities-to-iran/)
-  Wired - 2026-07-30T
-- [Everyone Is Freaking Out About OpenAI and Anthropic’s Race for Dominance](https://www.wired.com/story/everyone-is-freaking-out-about-openai-and-anthropics-race-for-dominance/)
-  Wired - 2026-07-30T
-- [Friend, the lonely AI wearable, returns with a new voice and a much bigger price tag](https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag/)
-  TechCrunch - 2026-07-30T
-- [LinkedIn adds a button to report AI-generated ‘slop’](https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/)
-  TechCrunch - 2026-07-30T
+- [Paramount+ Coupon Codes and Deals for August 2026](https://www.wired.com/story/paramount-plus-coupon-code/)
+  Wired - 2026-08-01T
+- [Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk](https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html)
+  The Hacker News - 2026-08-01T
+- [SpaceX’s Falcon 9 Rocket Is About to Crash Into the Moon—and It Could Be Visible From Earth](https://www.wired.com/story/spacex-falcon-9-rocket-crash-into-moon/)
+  Wired - 2026-07-31T
+- [OpenAI reportedly finds evidence that more of its agents ran amok](https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/)
+  TechCrunch - 2026-07-31T
+- [HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm](https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html)
+  The Hacker News - 2026-07-31T
 

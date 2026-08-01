@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Apple stockpiles inventory as it braces for ‘significant supply constraints’](https://techcrunch.com/2026/07/30/apple-stockpiles-inventory-as-it-braces-for-significant-supply-constraints/)
-  TechCrunch - 2026-07-30T
-- [Apple says gaming slowdown and App Store changes hurt services growth](https://techcrunch.com/2026/07/30/apple-says-gaming-slowdown-and-app-store-changes-hurt-services-growth/)
-  TechCrunch - 2026-07-30T
+- [HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm](https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html)
+  The Hacker News - 2026-07-31T
+- [DROP Platform Lets Californians Reduce Digital Footprint](https://www.darkreading.com/data-privacy/drop-platform-lets-californians-ditch-their-data)
+  DarkReading - 2026-07-31T
 - [Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests](https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/)
   BleepingComputer - 2026-07-30T
-- [Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label](https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/)
-  TechCrunch - 2026-07-30T
+- [Max-severity Exchange server flaw under active exploitation by Kremlin hackers](https://arstechnica.com/security/2026/07/kremlin-hackers-are-exploiting-exchange-flaw-to-backdoor-unpatched-networks/)
+  Ars Technica - 2026-07-30T
 - [AI Harnesses Burst With Potential Exploit Opps](https://www.darkreading.com/application-security/ai-harnesses-potential-exploit-opps)
   DarkReading - 2026-07-30T
 
