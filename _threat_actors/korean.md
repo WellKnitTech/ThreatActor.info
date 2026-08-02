@@ -33,8 +33,6 @@ Ransomware Based on HiddenTear
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts](https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html)
-  The Hacker News - 2026-07-30T
 - [Amazon links Debug, Chalk NPM supply-chain attacks to North Korean hackers](https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/)
   BleepingComputer - 2026-07-30T
 

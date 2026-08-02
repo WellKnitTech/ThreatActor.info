@@ -111,6 +111,4 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 
 - [Rapid7 named a Leader in the IDC MarketScape: Worldwide MDR Service for Midmarket 2026 Vendor Assessment](https://www.rapid7.com/blog/post/dr-idc-marketscape-leader-worldwide-mdr-service-midmarket-2026-vendor-assessment)
   Rapid7 - 2026-07-30T
-- [Microsoft Teams vishing attacks lead to Chaos ransomware attacks](https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/)
-  BleepingComputer - 2026-07-30T
 

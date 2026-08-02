@@ -44,10 +44,6 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [VC-backed startups commit more fraud, and researchers think they know why  ](https://techcrunch.com/2026/07/31/vc-backed-startups-commit-more-fraud-and-researchers-think-they-know-why/)
-  TechCrunch - 2026-07-31T
-- [Chinese AI Researchers Are Finding Their Voice on X](https://www.wired.com/story/chinese-ai-researchers-are-finding-their-voice-on-x/)
-  Wired - 2026-07-31T
 - [Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw](https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html)
   The Hacker News - 2026-07-31T
 

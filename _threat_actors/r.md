@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [AT&T Promo Codes: $50 Off This August 2026](https://www.wired.com/story/att-promo-code/)
-  Wired - 2026-08-01T
-- [Design Within Reach Promo Codes: 30% Off | August 2026](https://www.wired.com/story/design-within-reach-promo-code/)
-  Wired - 2026-08-01T
-- [Squarespace Promo Codes: 20% Off in August 2026](https://www.wired.com/story/squarespace-promo-code/)
-  Wired - 2026-08-01T
-- [H&R Block Coupon: 25% Off DIY + Tax Pro Assist](https://www.wired.com/story/hr-block-coupon/)
-  Wired - 2026-08-01T
-- [Dell Coupon Codes: 20% Off for August 2026](https://www.wired.com/story/dell-coupon-code/)
-  Wired - 2026-08-01T
+- [Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes](https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html)
+  The Hacker News - 2026-08-01T
+- [Inside the London hacker house taking a stand against founder burnout](https://techcrunch.com/2026/08/01/inside-one-london-founder-house-rewriting-the-founder-house-rules/)
+  TechCrunch - 2026-08-01T
+- [Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps](https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/)
+  TechCrunch - 2026-08-01T
+- [YouTuber Hank Green says his AI usage is ‘not healthy’](https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/)
+  TechCrunch - 2026-08-01T
+- [Should you still buy your next smartphone — or subscribe to it instead?](https://techcrunch.com/2026/08/01/should-you-still-buy-your-next-smartphone-or-subscribe-to-it-instead/)
+  TechCrunch - 2026-08-01T
 

@@ -30,3 +30,9 @@ Toxic is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Best Organic Mattresses (2026): Certified Nontoxic, Natural Sleep](https://www.wired.com/story/best-organic-mattress/)
+  Wired - 2026-08-01T
+

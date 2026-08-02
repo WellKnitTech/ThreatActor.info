@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Paramount+ Coupon Codes and Deals for August 2026](https://www.wired.com/story/paramount-plus-coupon-code/)
-  Wired - 2026-08-01T
-- [Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk](https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html)
+- [Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction](https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html)
   The Hacker News - 2026-08-01T
-- [SpaceX’s Falcon 9 Rocket Is About to Crash Into the Moon—and It Could Be Visible From Earth](https://www.wired.com/story/spacex-falcon-9-rocket-crash-into-moon/)
-  Wired - 2026-07-31T
-- [OpenAI reportedly finds evidence that more of its agents ran amok](https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/)
-  TechCrunch - 2026-07-31T
-- [HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm](https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html)
-  The Hacker News - 2026-07-31T
+- [Best Organic Mattresses (2026): Certified Nontoxic, Natural Sleep](https://www.wired.com/story/best-organic-mattress/)
+  Wired - 2026-08-01T
+- [Boroux vs. Rorra vs. Culligan: Water Filters, Tested Head to Head](https://www.wired.com/story/steel-water-filters-head-to-head/)
+  Wired - 2026-08-01T
+- [7 States’ Water Systems Hit by Cyberattacks Likely Tied to Iran](https://www.wired.com/story/security-news-this-week-7-states-water-systems-hit-by-cyberattacks-likely-tied-to-iran/)
+  Wired - 2026-08-01T
+- [Rails patches critical Active Storage flaw with RCE potential](https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/)
+  BleepingComputer - 2026-08-01T
 
