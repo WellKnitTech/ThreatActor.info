@@ -33,9 +33,3 @@ ShinyHunters is a cybercriminal group of unknown origin that is motivated by fin
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [ShinyHunters claims Brinks Home breach, threatens to leak stolen data](https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/)
-  BleepingComputer - 2026-07-30T
-

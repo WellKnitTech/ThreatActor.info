@@ -33,8 +33,6 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Astronomers Have Detected an Exomoon for the First Time](https://www.wired.com/story/astronomer-detect-exomoon-for-first-time/)
-  Wired - 2026-08-01T
 - [Introducing the Industry’s First AI Network Firewall](https://blog.checkpoint.com/security/introducing-the-industrys-first-ai-network-firewall/)
   Check Point - 2026-07-30T
 

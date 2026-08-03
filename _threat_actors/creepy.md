@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Is It Possible to Make Smart Glasses That Aren’t Creepy?](https://www.wired.com/story/is-it-possible-to-make-privacy-friendly-smart-glasses/)
+  Wired - 2026-08-02T
+

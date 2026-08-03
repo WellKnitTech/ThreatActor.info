@@ -33,8 +33,8 @@ parser needs to be built
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Valvoline Coupons and Promo Codes for August 2026](https://www.wired.com/story/valvoline-coupons/)
-  Wired - 2026-08-01T
+- [OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/)
+  BleepingComputer - 2026-08-02T
 - [DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware](https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html)
   The Hacker News - 2026-07-30T
 
