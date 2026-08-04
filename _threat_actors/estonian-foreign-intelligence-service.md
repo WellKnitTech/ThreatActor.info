@@ -30,3 +30,9 @@ Estonian Foreign Intelligence Service (VLA) (Välisluureamet)
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Your VLAN Isn’t an Air Gap: Six Hard Truths From the New CI Fortify Guidance](https://blog.checkpoint.com/usa/your-vlan-isnt-an-air-gap-six-hard-truths-from-the-new-ci-fortify-guidance/)
+  Check Point - 2026-08-03T
+

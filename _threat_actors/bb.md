@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [The James Webb Telescope Is Changing Astronomers’ Understanding of the Ancient Cosmos](https://www.wired.com/story/james-webb-space-telescope-changing-astronomers-universe/)
-  Wired - 2026-08-02T
-

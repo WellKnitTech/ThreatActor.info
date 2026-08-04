@@ -33,6 +33,8 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Influencers draw backlash for attending OpenAI’s first luxury trip](https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/)
+  TechCrunch - 2026-08-03T
 - [Introducing the Industry’s First AI Network Firewall](https://blog.checkpoint.com/security/introducing-the-industrys-first-ai-network-firewall/)
   Check Point - 2026-07-30T
 

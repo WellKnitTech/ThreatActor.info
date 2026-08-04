@@ -109,6 +109,10 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Sequoia’s Shaun Maguire leads $1B round for nuclear startup Valar Atomics](https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/)
+  TechCrunch - 2026-08-03T
+- [Check Point Named a Visionary Leader in the 2026 Frost Radar™ for Enterprise Risk Mitigation and Management Platforms](https://blog.checkpoint.com/exposure-management/check-point-named-a-visionary-leader-in-the-2026-frost-radar-for-enterprise-risk-mitigation-and-management-platforms/)
+  Check Point - 2026-08-03T
 - [Rapid7 named a Leader in the IDC MarketScape: Worldwide MDR Service for Midmarket 2026 Vendor Assessment](https://www.rapid7.com/blog/post/dr-idc-marketscape-leader-worldwide-mdr-service-midmarket-2026-vendor-assessment)
   Rapid7 - 2026-07-30T
 

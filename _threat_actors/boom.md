@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [China’s EV Market Is Booming. There’s Just One Problem](https://www.wired.com/story/china-millions-of-evs-battery-recycling/)
-  Wired - 2026-08-01T
-

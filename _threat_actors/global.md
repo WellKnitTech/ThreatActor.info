@@ -33,12 +33,6 @@ Not a RaaS yet.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The global memory shortage hits the MacBook Air](https://techcrunch.com/2026/08/02/the-global-memory-shortage-hits-the-macbook-air/)
-  TechCrunch - 2026-08-02T
 - [Interpol Leverages Global System to Curtail Fraud Payments](https://www.darkreading.com/cybersecurity-operations/interpol-leverages-global-system-curtail-fraud-payments)
   DarkReading - 2026-07-31T
-- [SE Asian Cybercriminal Syndicates Become a Global Power](https://www.darkreading.com/threat-intelligence/se-asian-cybercriminal-syndicates-global-power)
-  DarkReading - 2026-07-30T
-- [Palo Alto Networks Achieves Global CBPR and PRP Certifications](https://www.paloaltonetworks.com/blog/2026/07/palo-alto-networks-achieves-global-cbpr-and-prp-certifications/)
-  Palo Alto Networks - 2026-07-28T
 

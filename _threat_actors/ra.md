@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/)
-  BleepingComputer - 2026-08-02T
-- [These App Store hidden gems prove there’s still room for great software in the AI era](https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/)
-  TechCrunch - 2026-08-02T
-- [Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction](https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html)
-  The Hacker News - 2026-08-01T
-- [Best Organic Mattresses (2026): Certified Nontoxic, Natural Sleep](https://www.wired.com/story/best-organic-mattress/)
-  Wired - 2026-08-01T
-- [Boroux vs. Rorra vs. Culligan: Water Filters, Tested Head to Head](https://www.wired.com/story/steel-water-filters-head-to-head/)
-  Wired - 2026-08-01T
+- [20% Off Sephora Promo Code | August 2026](https://www.wired.com/story/sephora-promo-code/)
+  Wired - 2026-08-04T
+- [18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users](https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html)
+  The Hacker News - 2026-08-04T
+- [INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws](https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html)
+  The Hacker News - 2026-08-03T
+- [New Tool Traces AI Videos Back to Their Source](https://www.darkreading.com/cyber-risk/new-tool-advances-ai-generated-video-detection)
+  DarkReading - 2026-08-03T
+- [Design Arena creators raise $7.9 million to bring taste to AI models](https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/)
+  TechCrunch - 2026-08-03T
 

@@ -30,3 +30,9 @@ Radar is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Check Point Named a Visionary Leader in the 2026 Frost Radar™ for Enterprise Risk Mitigation and Management Platforms](https://blog.checkpoint.com/exposure-management/check-point-named-a-visionary-leader-in-the-2026-frost-radar-for-enterprise-risk-mitigation-and-management-platforms/)
+  Check Point - 2026-08-03T
+

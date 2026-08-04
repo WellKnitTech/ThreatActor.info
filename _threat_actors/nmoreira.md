@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Rapid7 Expands UK and Ireland Channel Presence Through Strategic Partnership with Exclusive Networks](https://www.rapid7.com/blog/post/c-rapid7-exclusive-networks-expand-uk-ireland-partnership)
+  Rapid7 - 2026-08-03T
+

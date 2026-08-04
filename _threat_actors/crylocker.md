@@ -37,6 +37,4 @@ Ransomware Identifies victim locations w/Google Maps API
   The Hacker News - 2026-08-01T
 - [Online ad firm Adform’s script compromised to steal cryptocurrency](https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/)
   BleepingComputer - 2026-07-31T
-- [DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware](https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html)
-  The Hacker News - 2026-07-30T
 

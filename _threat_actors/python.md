@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Workers RPC now works across Python and JavaScript](https://blog.cloudflare.com/python-workers-rpc/)
+  Cloudflare - 2026-08-03T
+
