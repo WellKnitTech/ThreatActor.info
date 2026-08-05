@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Litter-Robot Promo Codes: Up to $150 Off](https://www.wired.com/story/litter-robot-promo-code/)
-  Wired - 2026-08-04T
-- [Uplift Promo Codes: $570 Off](https://www.wired.com/story/uplift-desk-coupon-code/)
-  Wired - 2026-08-04T
-- [Target Promo Code: $50 Off | August 2026](https://www.wired.com/story/target-promo-code/)
-  Wired - 2026-08-04T
-- [Maytag Promo Codes: 15% Off Appliances](https://www.wired.com/story/maytag-promo-code/)
-  Wired - 2026-08-04T
-- [Lowe’s Promo Codes and Deals: Up to $300 Off Appliances](https://www.wired.com/story/lowes-promo-code/)
-  Wired - 2026-08-04T
+- [Tuft & Needle Promo Codes: 30% Off | August 2026](https://www.wired.com/story/tuft-and-needle-promo-code/)
+  Wired - 2026-08-05T
+- [KitchenAid Promo Codes: Save Up to 20%](https://www.wired.com/story/exclusive-kitchenaid-promo-code/)
+  Wired - 2026-08-05T
+- [Purple Promo Codes and Deals: Up to 30% Off](https://www.wired.com/story/purple-promo-code/)
+  Wired - 2026-08-05T
+- [Dermstore Coupons: 25% Off for August 2026](https://www.wired.com/story/dermstore-promo-code/)
+  Wired - 2026-08-05T
+- [Petlibro Offers: 60% Off in August 2026](https://www.wired.com/story/petlibro-discount-code/)
+  Wired - 2026-08-05T
 

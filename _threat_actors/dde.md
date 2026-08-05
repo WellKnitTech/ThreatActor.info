@@ -33,6 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [USA Fencing Lunges Into the Hidden Identity Challenge in Amateur Sports](https://www.darkreading.com/identity-access-management-security/usa-fencing-hidden-identity-challenge-amateur-sports)
-  DarkReading - 2026-07-31T
+- [Meet Wrinkles, an app that uncovers the hidden stories of the places around you](https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/)
+  TechCrunch - 2026-08-04T
 

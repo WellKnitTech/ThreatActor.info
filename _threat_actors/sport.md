@@ -33,6 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [USA Fencing Lunges Into the Hidden Identity Challenge in Amateur Sports](https://www.darkreading.com/identity-access-management-security/usa-fencing-hidden-identity-challenge-amateur-sports)
-  DarkReading - 2026-07-31T
+- [Sportsman's Warehouse Promo Code: Save in August 2026](https://www.wired.com/story/sportsmans-warehouse-promo-code/)
+  Wired - 2026-08-05T
 

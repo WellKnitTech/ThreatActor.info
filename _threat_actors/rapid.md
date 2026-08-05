@@ -37,8 +37,4 @@ ransomware
   Rapid7 - 2026-08-03T
 - [Rapid7 Expands UK and Ireland Channel Presence Through Strategic Partnership with Exclusive Networks](https://www.rapid7.com/blog/post/c-rapid7-exclusive-networks-expand-uk-ireland-partnership)
   Rapid7 - 2026-08-03T
-- [Rapid7 at Black Hat USA 2026: See preemptive security in action](https://www.rapid7.com/blog/post/dr-black-hat-usa-2026-preemptive-security-in-action)
-  Rapid7 - 2026-07-31T
-- [Rapid7 named a Leader in the IDC MarketScape: Worldwide MDR Service for Midmarket 2026 Vendor Assessment](https://www.rapid7.com/blog/post/dr-idc-marketscape-leader-worldwide-mdr-service-midmarket-2026-vendor-assessment)
-  Rapid7 - 2026-07-30T
 

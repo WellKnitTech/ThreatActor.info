@@ -30,3 +30,9 @@ Vect is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Elastic 9.5: Columnar, VectorDB index mode & auto-calibration, and AI-driven alert triage](https://www.elastic.co/blog/whats-new-elastic-9-5-0)
+  Elastic - 2026-08-04T
+

@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [20% Off Sephora Promo Code | August 2026](https://www.wired.com/story/sephora-promo-code/)
+- [The White House Is Keeping Its AI Cybersecurity Framework Secret](https://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret/)
   Wired - 2026-08-04T
-- [18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users](https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html)
+- [Phishing service spoofs RingCentral to steal Microsoft 365 accounts](https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/)
+  BleepingComputer - 2026-08-04T
+- [Take an extra $100 off your TechCrunch Disrupt 2026 pass: This week only!](https://techcrunch.com/2026/08/04/take-an-extra-100-off-your-techcrunch-disrupt-2026-pass-this-week-only/)
+  TechCrunch - 2026-08-04T
+- [TV Time co-founder launches Bingers to revive the beloved TV-tracking app](https://techcrunch.com/2026/08/04/tv-time-co-founder-launches-bingers-to-revive-the-beloved-tv-tracking-app/)
+  TechCrunch - 2026-08-04T
+- [DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT](https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html)
   The Hacker News - 2026-08-04T
-- [INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws](https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html)
-  The Hacker News - 2026-08-03T
-- [New Tool Traces AI Videos Back to Their Source](https://www.darkreading.com/cyber-risk/new-tool-advances-ai-generated-video-detection)
-  DarkReading - 2026-08-03T
-- [Design Arena creators raise $7.9 million to bring taste to AI models](https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/)
-  TechCrunch - 2026-08-03T
 

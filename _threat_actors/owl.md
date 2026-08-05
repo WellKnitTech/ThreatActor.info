@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Closing the AI gap: How next-generation knowledge access unlocks mission outcomes for government](https://www.elastic.co/blog/closing-ai-gap-government-knowledge-access)
-  Elastic - 2026-07-31T
-

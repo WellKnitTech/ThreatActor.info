@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Uplift Promo Codes: $570 Off](https://www.wired.com/story/uplift-desk-coupon-code/)
-  Wired - 2026-08-04T
-- [Maytag Promo Codes: 15% Off Appliances](https://www.wired.com/story/maytag-promo-code/)
-  Wired - 2026-08-04T
-- [Lowe’s Promo Codes and Deals: Up to $300 Off Appliances](https://www.wired.com/story/lowes-promo-code/)
-  Wired - 2026-08-04T
-- [Loop Earplugs Discount Codes: 40% Off](https://www.wired.com/story/loop-earplugs-discount-code/)
-  Wired - 2026-08-04T
-- [18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users](https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html)
-  The Hacker News - 2026-08-04T
+- [Purple Promo Codes and Deals: Up to 30% Off](https://www.wired.com/story/purple-promo-code/)
+  Wired - 2026-08-05T
+- [NordVPN Coupons: 75% Off, Plus 3 Months Free in August 2026](https://www.wired.com/story/nordvpn-coupon/)
+  Wired - 2026-08-05T
+- [Lucid’s turnaround plan hinges on $1.4B in cash savings, robotaxis](https://techcrunch.com/2026/08/04/lucids-turnaround-plan-hinges-on-1-4b-in-cash-savings-robotaxis/)
+  TechCrunch - 2026-08-04T
+- [OpenAI, Anthropic AI agents targeted real people and systems in cyber tests](https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/)
+  BleepingComputer - 2026-08-04T
+- [Meet Wrinkles, an app that uncovers the hidden stories of the places around you](https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/)
+  TechCrunch - 2026-08-04T
 

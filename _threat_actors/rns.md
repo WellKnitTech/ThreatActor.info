@@ -33,10 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Outernet turns your saved posts into real-world adventures](https://techcrunch.com/2026/08/03/outernet-turns-your-saved-posts-into-real-world-adventures/)
-  TechCrunch - 2026-08-03T
+- [When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted](https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html)
+  The Hacker News - 2026-08-04T
 - [N-able warns of N-central auth bypass flaw exploited in attacks](https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/)
   BleepingComputer - 2026-08-03T
-- [The Xcode Assassin Returns: A Deep Dive Into the Latest XCSSET Version](https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/)
-  Unit 42 - 2026-07-31T
 

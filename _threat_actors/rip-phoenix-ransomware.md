@@ -33,14 +33,8 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Influencers draw backlash for attending OpenAI’s first luxury trip](https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/)
-  TechCrunch - 2026-08-03T
 - [Fake Roblox Xeno script launcher pushes infostealer, RAT malware](https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/)
   BleepingComputer - 2026-08-03T
 - [Workers RPC now works across Python and JavaScript](https://blog.cloudflare.com/python-workers-rpc/)
   Cloudflare - 2026-08-03T
-- [Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites](https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html)
-  The Hacker News - 2026-08-01T
-- [Online ad firm Adform’s script compromised to steal cryptocurrency](https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/)
-  BleepingComputer - 2026-07-31T
 
