@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Tuft & Needle Promo Codes: 30% Off | August 2026](https://www.wired.com/story/tuft-and-needle-promo-code/)
-  Wired - 2026-08-05T
-- [KitchenAid Promo Codes: Save Up to 20%](https://www.wired.com/story/exclusive-kitchenaid-promo-code/)
-  Wired - 2026-08-05T
-- [Purple Promo Codes and Deals: Up to 30% Off](https://www.wired.com/story/purple-promo-code/)
-  Wired - 2026-08-05T
-- [Dermstore Coupons: 25% Off for August 2026](https://www.wired.com/story/dermstore-promo-code/)
-  Wired - 2026-08-05T
-- [Petlibro Offers: 60% Off in August 2026](https://www.wired.com/story/petlibro-discount-code/)
-  Wired - 2026-08-05T
+- [Stearns and Foster Promo Codes: $300 Off in August 2026](https://www.wired.com/story/stearns-and-foster-promo-code/)
+  Wired - 2026-08-06T
+- [Barkbox Promo Codes and Discounts: Up to 50% Off](https://www.wired.com/story/barkbox-promo-code/)
+  Wired - 2026-08-06T
+- [30% Off Tempur-Pedic Promo Codes | August 2026](https://www.wired.com/story/tempur-pedic-promo-code/)
+  Wired - 2026-08-06T
+- [Home Chef Promo Codes for August 2026](https://www.wired.com/story/home-chef-promo-code/)
+  Wired - 2026-08-06T
+- [Whoop Promo Codes: 20% Off This August 2026](https://www.wired.com/story/whoop-promo-code/)
+  Wired - 2026-08-06T
 

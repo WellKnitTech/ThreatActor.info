@@ -219,8 +219,11 @@ ahnlab_systembc_apr2022: https://asec.ahnlab.com/en/33600/
   domain generation algorithms with long short-term memory networks. retrieved april
   26, 2019.
 : https://arxiv.org/pdf/1611.00791.pdf
+aikido canisterworm mar 2026: https://www.aikido.dev/blog/teampcp-stage-payload-canisterworm-iran
 aikido glassworm october 2025: https://www.aikido.dev/blog/the-return-of-the-invisible-threat-hidden-pua-unicode-hits-github-repositorties
 aikido shai-hulud september 2025: https://www.aikido.dev/blog/s1ngularity-nx-attackers-strike-again
+aikido teampcp telnyx mar 2026: https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm
+aikido teampcp trivy mar 2026: https://www.aikido.dev/blog/teampcp-deploys-worm-npm-trivy-compromise
 airbus security kovter analysis: https://airbus-cyber-security.com/fileless-malware-behavioural-analysis-kovter-persistence/
 airwalk backdoor unix systems: http://www.ouah.org/backdoors.html
 airwalk. (2023, january 1). a guide to backdooring unix systems. retrieved may 31, 2023.: http://www.ouah.org/backdoors.html
@@ -616,7 +619,11 @@ apt41_mandiant: https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-du
 : https://www.lookout.com/blog/lookout-discovers-novel-confucius-apt-android-spyware-linked-to-india-pakistan-conflict
 aqua build images on hosts: https://blog.aquasec.com/malicious-container-image-docker-container-host
 aqua kinsing april 2020: https://blog.aquasec.com/threat-alert-kinsing-malware-container-vulnerability
+aqua security . (2026, march 21). trivy ecosystem supply chain temporarily compromised. retrieved july 1, 2026.: https://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23
+aqua security blog trivy compromise apr 2026: https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know
 aqua security cloud native threat report june 2021: https://info.aquasec.com/hubfs/Threat%20reports/AquaSecurity_Cloud_Native_Threat_Report_2021.pdf?utm_campaign=WP%20-%20Jun2021%20Nautilus%202021%20Threat%20Research%20Report&utm_medium=email&_hsmi=132931006&_hsenc=p2ANqtz-_8oopT5Uhqab8B7kE0l3iFo1koirxtyfTehxF7N-EdGYrwk30gfiwp5SiNlW3G0TNKZxUcDkYOtwQ9S6nNVNyEO-Dgrw&utm_content=132931006&utm_source=hs_automation
+aqua security trivy compromise mar 2026: https://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23
+'aqua team. (2026, april 1). update: ongoing investigation and continued remediation. retrieved july 1, 2026.': https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know
 aqua teamtnt august 2020: https://blog.aquasec.com/container-security-tnt-container-attack
 aquasec: https://www.aquasec.com/blog/teamtnt-reemerged-with-new-aggressive-cloud-campaign/
 aquasec kinsing 2020: https://www.aquasec.com/blog/threat-alert-kinsing-malware-container-vulnerability/
@@ -674,6 +681,10 @@ arstechnica-poisontap: http://arstechnica.com/security/2016/11/meet-poisontap-th
 ? 'arthur vaiselbuh, peleg cabra. (2024, november 7). evasive zip concatenation: trojan
   targets windows users. retrieved march 3, 2025.'
 : https://perception-point.io/blog/evasive-concatenated-zip-trojan-targets-windows-users/
+artic wolf kali365 device code oauth june 2026: https://arcticwolf.com/resources/blog/kali365-expands-into-aws-microsoft-okta-xerox-max-messenger/
+artic wolf labs kali365 device code april 2026: https://arcticwolf.com/resources/blog/token-bingo-dont-let-your-code-be-the-winner/
+'artic wolf labs. (2026, april 24). token bingo: don’t let your code be the winner. retrieved july 30, 2026.': https://arcticwolf.com/resources/blog/token-bingo-dont-let-your-code-be-the-winner/
+artic wolf labs. (2026, june 2). retrieved july 30, 2026.: https://arcticwolf.com/resources/blog/kali365-expands-into-aws-microsoft-okta-xerox-max-messenger/
 arxiv avaddon feb 2021: https://arxiv.org/pdf/2102.04796.pdf
 asert donot march 2018: https://www.arbornetworks.com/blog/asert/donot-team-leverages-new-modular-malware-framework-south-asia/
 asert innaputrat april 2018: https://asert.arbornetworks.com/innaput-actors-utilize-remote-access-trojan-since-2016-presumably-targeting-victim-files/
@@ -1320,6 +1331,10 @@ bypassing cloudtrail in aws service catalog: https://securitylabs.datadoghq.com/
 bypassing gatekeeper: https://blog.malwarebytes.com/cybercrime/2015/10/bypassing-apples-gatekeeper/
 byt3bl33d3r ntlm relaying: https://byt3bl33d3r.github.io/practical-guide-to-ntlm-relaying-in-2017-aka-getting-a-foothold-in-under-5-minutes.html
 'byt3bl33d3r. (2018, september 8). smb: command reference. retrieved july 17, 2020.': https://github.com/byt3bl33d3r/CrackMapExec/wiki/SMB-Command-Reference
+? 'büyükkaya, a. (2025, september 22). shinyhunters calling: financially motivated
+  data extortion group targeting enterprise cloud applications. retrieved may 18,
+  2026.'
+: https://blog.eclecticiq.com/shinyhunters-calling-financially-motivated-data-extortion-group-targeting-enterprise-cloud-applications
 caban, d. and hirani, m. (2018, october 3). you’ve got mail! enterprise email compromise. retrieved november 17, 2024.: https://web.archive.org/web/20190508170121/https://summit.fireeye.com/content/dam/fireeye-www/summit/cds-2018/presentations/cds18-technical-s03-youve-got-mail.pdf
 cadet blizzard emerges as novel threat actor: https://www.microsoft.com/en-us/security/blog/2023/06/14/cadet-blizzard-emerges-as-a-novel-and-distinct-russian-threat-actor/
 cadieux, p, et al (2019, april 30). sodinokibi ransomware exploits weblogic server vulnerability. retrieved august 4, 2020.: https://blog.talosintelligence.com/2019/04/sodinokibi-ransomware-exploits-weblogic.html
@@ -3014,6 +3029,7 @@ elcomsoft-eppb: https://www.elcomsoft.com/eppb.html
 elcomsoft-whatsapp: https://blog.elcomsoft.com/2017/07/extract-and-decrypt-whatsapp-backups-from-icloud/
 elcomsoft. (n.d.). elcomsoft phone breaker. retrieved december 29, 2016.: https://www.elcomsoft.com/eppb.html
 eldos rawdisk itpro: https://www.itprotoday.com/windows-78/eldos-provides-raw-disk-access-vista-and-xp
+electiciq buyukkaya_shinyhunters_sept2025: https://blog.eclecticiq.com/shinyhunters-calling-financially-motivated-data-extortion-group-targeting-enterprise-cloud-applications
 ? 'electricity information sharing and analysis center; sans industrial control systems
   2016, march 18 analysis of the cyber attack on the ukranian power grid: defense
   use case retrieved. 2018/03/27'
@@ -3099,6 +3115,9 @@ eric saraga. (2022, february 2). using power automate for covert data exfiltrati
   leveraging shim databases for persistence. retrieved july 18, 2017.'
 : https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html
 'erika noerenberg. (2020, june 29). tau threat analysis: bundlore (macos) mm-install-macos. retrieved october 12, 2021.': https://blogs.vmware.com/security/2020/06/tau-threat-analysis-bundlore-macos-mm-install-macos.html
+eriksen, c. (2026, march 20). teampcp deploys canisterworm on npm following trivy compromise. retrieved july 27, 2026.: https://www.aikido.dev/blog/teampcp-deploys-worm-npm-trivy-compromise
+'eriksen, c. (2026, march 22). canisterworm gets teeth: teampcp''s kubernetes wiper targets iran. retrieved july 27, 2026.': https://www.aikido.dev/blog/teampcp-stage-payload-canisterworm-iran
+eriksen, c. (2026, march 27). popular telnyx package compromised on pypi by teampcp. retrieved july 16, 2026.: https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm
 ? 'erlich, c. (2020, april 3). the avast abuser: metamorfo banking malware hides by
   abusing avast executable. retrieved may 26, 2020.'
 : https://medium.com/@chenerlich/the-avast-abuser-metamorfo-banking-malware-hides-by-abusing-avast-executable-ac9b8b392767
@@ -3419,10 +3438,12 @@ fbi et al. (2023, may 9). hunting russian intelligence “snake” malware. retr
 fbi flash apt39 september 2020: https://www.iranwatch.org/sites/default/files/public-intelligence-alert.pdf
 fbi flash diavol january 2022: https://www.ic3.gov/CSA/2022/220120.pdf
 fbi flash fin7 usb: https://therecord.media/fbi-fin7-hackers-target-us-companies-with-badusb-devices-to-install-ransomware/
+fbi ic3 alert i-052126 kali365 may 2026: https://www.ic3.gov/PSA/2026/PSA260521
 fbi lockbit 2.0 feb 2022: https://www.ic3.gov/CSA/2022/220204.pdf
 fbi proxies credential stuffing: https://www.ic3.gov/Media/News/2022/220818.pdf
 fbi ragnar locker 2020: https://s3.documentcloud.org/documents/20413525/fbi-flash-indicators-of-compromise-ragnar-locker-ransomware-11192020-bc.pdf
 fbi salesforce data theft sep 2025: https://www.ic3.gov/CSA/2025/250912.pdf
+fbi teampcp jul 2026: https://www.ic3.gov/CSA/2026/260702.pdf
 ? fbi, cisa, cnmf, ncsc-uk. (2022, february 24). iranian government-sponsored actors
   conduct cyber operations against global government and commercial networks. retrieved
   september 27, 2022.
@@ -3455,7 +3476,16 @@ fbi. (2022). fbi 2022 congressional report on bec and real estate wire fraud. re
 : https://www.ic3.gov/Media/Y2022/PSA221221
 fbi. (2022, february 4). indicators of compromise associated with lockbit 2.0 ransomware. retrieved january 24, 2025.: https://www.ic3.gov/CSA/2022/220204.pdf
 fbi. (2022, january 19). indicators of compromise associated with diavol. retrieved november 17, 2024.: https://www.ic3.gov/CSA/2022/220120.pdf
+fbi. (2026, july 2). cyber criminal group teampcp. retrieved july 7, 2026.: https://www.ic3.gov/CSA/2026/260702.pdf
 fbi. (n.d.). ransomware. retrieved august 18, 2023.: https://www.cisa.gov/sites/default/files/Ransomware_Trifold_e-version.pdf
+fbi_shlms_may2026: https://www.ic3.gov/PSA/2026/PSA260515
+? 'federal bureau of investigation. (2026, may 15). shinyhunters: cyber criminal group
+  attacks learning management system. retrieved july 1, 2026.'
+: https://www.ic3.gov/PSA/2026/PSA260515
+? 'federal bureau of investigation. (2026, may 21). alert number: i-052126-psa: kali365
+  phishing-as-a-service kit hijacks microsoft 365 access tokens. retrieved july 30,
+  2026.'
+: https://www.ic3.gov/PSA/2026/PSA260521
 ? 'federico quattrin, nick desler, tin tam, & matthew rutkoske. (2023, march 16).
   hiding in plain sight: monitoring and testing for living-off-the-land binaries.
   retrieved july 15, 2024.'
@@ -3685,6 +3715,8 @@ fisher, d. (2012, october 31). final report on diginotar hack shows total compro
 fitzl, c. (2019, july 9). dyld_insert_libraries dylib injection in macos / osx. retrieved march 26, 2020.: https://theevilbit.github.io/posts/dyld_insert_libraries_dylib_injection_in_macos_osx_deep_dive/
 'flare. (2023, june 6). dissecting the dark web supply chain: stealer logs in context. retrieved october 10, 2024.': https://www.bleepingcomputer.com/news/security/dissecting-the-dark-web-supply-chain-stealer-logs-in-context/
 flashpoint fin 7 march 2019: https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware/
+flashpoint mini shai-hulud may 2026: https://flashpoint.io/blog/mini-shai-hulud-worm-new-era-ci-cd-exploitation/
+flashpoint. (2026, may 28). the mini shai-hulud worm and the new era of ci/cd exploitation. retrieved july 16, 2026.: https://flashpoint.io/blog/mini-shai-hulud-worm-new-era-ci-cd-exploitation/
 flathers, r. (2018, february 19). creddump7. retrieved april 11, 2018.: https://github.com/Neohapsis/creddump7
 flexispy-website: https://www.flexispy.com/
 flexispy. (n.d.). flexispy. retrieved september 4, 2019.: https://www.flexispy.com/
@@ -4010,6 +4042,7 @@ goodin, d.. (2015, march 31). massive denial-of-service attack on github tied to
   to business disruption. retrieved may 12, 2020.'
 : https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html
 google - restore cloud snapshot: https://cloud.google.com/compute/docs/disks/restore-and-delete-snapshots
+google ai threat tracker may 2026: https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access
 google bread: https://security.googleblog.com/2020/01/pha-family-highlights-bread-and-friends.html
 google brickstorm grimbolt unc5221 unc6201 february 2026: https://cloud.google.com/blog/topics/threat-intelligence/unc6201-exploiting-dell-recoverpoint-zero-day
 google brickstorm september 2025: https://cloud.google.com/blog/topics/threat-intelligence/brickstorm-espionage-campaign
@@ -4070,6 +4103,10 @@ google threat intelligence group mustang panda plugx august 2025: https://cloud.
 ? 'google threat intelligence group. (2025, november 5). gtig ai threat tracker: advances
   in threat actor usage of ai tools. retrieved march 31, 2026.'
 : https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools
+? 'google threat intelligence group. (2026, may 11). gtig ai threat tracker: adversaries
+  leverage ai for vulnerability exploitation, augmented operations, and initial access.
+  retrieved july 7, 2026.'
+: https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access
 google triada june 2019: https://security.googleblog.com/2019/06/pha-family-highlights-triada.html
 google unc5221 brickstorm spawnchimera april 2024: https://cloud.google.com/blog/topics/threat-intelligence/ivanti-post-exploitation-lateral-movement
 google unc5221 ivanti april 2025: https://cloud.google.com/blog/topics/threat-intelligence/china-nexus-exploiting-critical-ivanti-vulnerability
@@ -4110,6 +4147,7 @@ google. (n.d.). services overview. retrieved november 19, 2019.: https://develop
 google. (n.d.). smsprovider.java. retrieved september 11, 2020.: https://android.googlesource.com/platform/packages/providers/TelephonyProvider/+/7e7c274/src/com/android/providers/telephony/SmsProvider.java
 google. (n.d.). turn gmail delegation on or off. retrieved april 1, 2022.: https://support.google.com/a/answer/7223765?hl=en
 google_androidacsoverview: https://support.google.com/accessibility/android/answer/6006564?hl=en&ref_topic=6007234&sjid=9936713164149272548-NA
+google_shoracle_jun2026: https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit
 googleprojectzero-oatmeal: https://googleprojectzero.blogspot.com/2018/09/oatmeal-on-universal-cereal-bus.html
 gooligan citation: http://blog.checkpoint.com/2016/11/30/1-million-google-accounts-breached-gooligan/
 gorelik, m. (2018, october 08). cobalt group 2.0. retrieved november 5, 2018.: https://blog.morphisec.com/cobalt-gang-2.0
@@ -4483,15 +4521,20 @@ hultquist, j. (2022, january 20). anticipating cyber threats as the ukraine cris
 hultquist, j.. (2016, january 7). sandworm team and the ukrainian power authority attacks. retrieved october 6, 2017.: https://www.fireeye.com/blog/threat-research/2016/01/ukraine-and-sandworm-team.html
 hunt & hackett research team. (2024, january 5). turkish espionage campaigns in the netherlands. retrieved november 20, 2024.: https://www.huntandhackett.com/blog/turkish-espionage-campaigns
 hunt sea turtle 2024: https://www.huntandhackett.com/blog/turkish-espionage-campaigns
+hunt.io teampcp toolkit may 2026: https://hunt.io/blog/teampcp-python-toolkit-firescale-github-c2-takedown
 ? 'hunt.io. (2026, march 4). iranian apt infrastructure in focus: mapping state-aligned
   clusters during geopolitical escalation. retrieved april 16, 2026.'
 : https://hunt.io/blog/iranian-apt-infrastructure-state-aligned-clusters
+? 'hunt.io. (2026, may 14). how teampcp''s python toolkit survives a c2 takedown:
+  firescale, github, and the victim''s own account. retrieved july 16, 2026.'
+: https://hunt.io/blog/teampcp-python-toolkit-firescale-github-c2-takedown
 hunters domain wide delegation google workspace 2023: https://www.hunters.security/en/blog/delefriend-a-newly-discovered-design-flaw-in-domain-wide-delegation-could-leave-google-workspace-vulnerable-for-takeover
 huntio_iraninfra_mar2026: https://hunt.io/blog/iranian-apt-infrastructure-state-aligned-clusters
 huntress api hash: https://www.huntress.com/blog/hackers-no-hashing-randomizing-api-hashes-to-evade-cobalt-strike-shellcode-detection
 huntress blackcat: https://www.huntress.com/blog/blackcat-ransomware-affiliate-ttps
 huntress html smuggling 2024: https://www.huntress.com/blog/smugglers-gambit-uncovering-html-smuggling-adversary-in-the-middle-tradecraft
 huntress inc ransom group august 2023: https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity
+huntress kali365 device code june 2026: https://www.huntress.com/blog/kali365-device-code-phishing-kit
 huntress moveit 2023: https://www.huntress.com/blog/moveit-transfer-critical-vulnerability-rapid-response
 huntress nppspy 2022: https://www.huntress.com/blog/cleartext-shenanigans-gifting-user-passwords-to-adversaries-with-nppspy
 huntress persistence microsoft 365 compromise 2024: https://www.huntress.com/blog/legitimate-apps-as-traitorware-for-persistent-microsoft-365-compromise
@@ -4669,11 +4712,13 @@ intego shlayer feb 2018: https://www.intego.com/mac-security-blog/osxshlayer-new
   – an analysis of a ransomware affiliate operation. retrieved august 4, 2020.
 : https://intel471.com/blog/revil-ransomware-as-a-service-an-analysis-of-a-ransomware-affiliate-operation/
 intel 471 revil march 2020: https://intel471.com/blog/revil-ransomware-as-a-service-an-analysis-of-a-ransomware-affiliate-operation/
+intel 471. (2021, august 23). here’s how to guard your enterprise against shinyhunters. retrieved july 29, 2026.: https://www.intel471.com/blog/shinyhunters-data-breach-mitre-attack
 intel hackingteam uefi rootkit: http://www.intelsecurity.com/advanced-threat-research/content/data/HT-UEFI-rootkit.html
 intel security. (2005, july 16). hackingteam's uefi rootkit details. retrieved march 20, 2017.: http://www.intelsecurity.com/advanced-threat-research/content/data/HT-UEFI-rootkit.html
 intel. (2017, march 18). chipsec platform security assessment framework. retrieved march 20, 2017.: https://github.com/chipsec/chipsec
 intel471 medusa ransomware may 2025: https://www.intel471.com/blog/threat-hunting-case-study-medusa-ransomware
 'intel471. (2025, may 14). threat hunting case study: medusa ransomware. retrieved october 15, 2025.': https://www.intel471.com/blog/threat-hunting-case-study-medusa-ransomware
+intel471_sh_aug2021: https://www.intel471.com/blog/shinyhunters-data-breach-mitre-attack
 ? intel_acquisition_team. (2018, march 1). credential harvesting and malicious file
   delivery using microsoft office template injection. retrieved july 20, 2018.
 : https://forum.anomali.com/t/credential-harvesting-and-malicious-file-delivery-using-microsoft-office-template-injection/2104
@@ -5200,6 +5245,9 @@ keith stouffer may 2015: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/N
 keith stouffer. (2015, may). guide to industrial control systems (ics) security. retrieved march 28, 2018.: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r2.pdf
 keith stouffer. (2023, september). guide to operational technology (ot) security. retrieved april 22, 2026.: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf
 kekeo: https://github.com/gentilkiwi/kekeo
+? 'kelley, m., vaya, c. (2024, august 23). bling libra’s tactical evolution: the threat
+  actor group behind shinyhunters ransomware. retrieved may 18, 2026.'
+: https://unit42.paloaltonetworks.com/shinyhunters-ransomware-extortion/
 ? 'kellie eickmeyer. (2022, february 7). helping users stay safe: blocking internet
   macros by default in office. retrieved february 7, 2022.'
 : https://techcommunity.microsoft.com/t5/microsoft-365-blog/helping-users-stay-safe-blocking-internet-macros-by-default-in/ba-p/3071805
@@ -6026,6 +6074,9 @@ mandiant unc3944 sms phishing 2023: https://www.mandiant.com/resources/blog/unc3
 mandiant url obfuscation 2023: https://www.mandiant.com/resources/blog/url-obfuscation-schema-abuse
 mandiant vmware vsphere jul 2025: https://cloud.google.com/blog/topics/threat-intelligence/defending-vsphere-from-unc3944
 mandiant wmi: https://www.mandiant.com/resources/reports
+? mandiant, google threat intelligence group. (2026, june 11). shinyhunters targets
+  education sector with oracle peoplesoft exploit. retrieved june 11, 2026.
+: https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit
 mandiant-iab-control: https://cloud.google.com/blog/topics/threat-intelligence/initial-access-brokers-exploit-f5-screenconnect
 mandiant-leaks: https://www.mandiant.com/resources/blog/ransomware-extortion-ot-docs
 mandiant-masking: https://www.mandiant.com/resources/blog/url-obfuscation-schema-abuse
@@ -6045,6 +6096,9 @@ mandiant. (2020, february). m-trends 2020. retrieved november 17, 2024.: https:/
 'mandiant. (2022, may 2). unc3524: eye spy on your email. retrieved august 17, 2023.': https://www.mandiant.com/resources/blog/unc3524-eye-spy-email
 mandiant. (2024, june 10). unc5537 targets snowflake customer instances for data theft and extortion. retrieved may 22, 2025.: https://cloud.google.com/blog/topics/threat-intelligence/unc5537-snowflake-data-theft-extortion
 'mandiant. (2024, march 14). apt43: north korean group uses cybercrime to fund espionage operations. retrieved may 3, 2024.': https://services.google.com/fh/files/misc/apt43-report-en.pdf
+? 'mandiant. (2026, january 30). vishing for access: tracking the expansion of shinyhunters-branded
+  saas data theft. retrieved june 16, 2026.'
+: https://cloud.google.com/blog/topics/threat-intelligence/expansion-shinyhunters-saas-data-theft
 mandiant. (n.d.). advanced persistent threats (apts). retrieved february 14, 2024.: https://www.mandiant.com/resources/insights/apt-groups
 mandiant. (n.d.). appendix c (digital) - the malware arsenal. retrieved july 18, 2016.: https://www.mandiant.com/sites/default/files/2021-09/mandiant-apt1-report.pdf
 mandiant. (n.d.). apt1 exposing one of china’s cyber espionage units. retrieved july 18, 2016.: https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf
@@ -6053,6 +6107,7 @@ mandiant. (n.d.). apt41, a dual espionage and cyber crime operation. retrieved j
 'mandiant. (n.d.). apt42: crooked charms, cons and compromises. retrieved october 9, 2024.': https://services.google.com/fh/files/misc/apt42-crooked-charms-cons-and-compromises.pdf
 mandiant. (n.d.). retrieved february 13, 2024.: https://www.mandiant.com/resources/reports
 mandiant_apt44_unearthing_sandworm: https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf
+mandiant_shdatatheft_jan2026: https://cloud.google.com/blog/topics/threat-intelligence/expansion-shinyhunters-saas-data-theft
 mandiant_unc2165: https://cloud.google.com/blog/topics/threat-intelligence/unc2165-shifts-to-evade-sanctions/
 mandvi malicious npm and pypi packages disguised: https://cyberpress.org/malicious-npm-and-pypi-packages-disguised-as-dev-tools
 ? mandvi. (2025, april 22). malicious npm and pypi packages disguised as dev tools
@@ -6220,6 +6275,15 @@ mccarthy, j et al. july 2018: https://doi.org/10.6028/NIST.SP.1800-2
 ? mccarthy, k. (2015, february 28). fork me! uber hauls github into court to find
   who hacked database of 50,000 drivers. retrieved october 19, 2020.
 : https://www.theregister.com/2015/02/28/uber_subpoenas_github_for_hacker_details/
+? 'mccarthy, r. (2026, march 20). trivy compromised: everything you need to know about
+  the latest supply chain attack. retrieved july 1, 2026.'
+: https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack
+? 'mccarthy, r., cohen, a., and read, b. (2026, may 12). mini shai-hulud strikes again:
+  tanstack + more npm packages compromised. retrieved july 16, 2026.'
+: https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised
+? 'mccarthy, r., haughom, j., read, b. (2026, march 23). kics github action compromised:
+  teampcp strikes again in supply chain attack. retrieved july 1, 2026.'
+: https://www.wiz.io/blog/teampcp-attack-kics-github-action
 mcfarland, r. (2018, january 26). windows privilege escalation guide. retrieved august 10, 2018.: https://www.sploitspren.com/2018-01-26-Windows-Privilege-Escalation-Guide/
 ? 'mckeague, b. et al. (2019, april 5). pick-six: intercepting a fin6 intrusion, an
   actor recently tied to ryuk and lockergoga ransomware. retrieved april 17, 2019.'
@@ -8093,6 +8157,7 @@ palo alto shamoon nov 2016: http://researchcenter.paloaltonetworks.com/2016/11/u
 palo alto sharepoint vulnerabilities jul 2025: https://unit42.paloaltonetworks.com/microsoft-sharepoint-cve-2025-49704-cve-2025-49706-cve-2025-53770/
 palo alto sofacy 06-2018: https://researchcenter.paloaltonetworks.com/2018/06/unit42-sofacy-groups-parallel-attacks/
 palo alto t9000 feb 2016: http://researchcenter.paloaltonetworks.com/2016/02/t9000-advanced-modular-backdoor-uses-complex-anti-analysis-techniques/
+palo alto teampcp mar 2026: https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/
 palo alto unit 42 compromised cloud compute credentials 2022: https://unit42.paloaltonetworks.com/compromised-cloud-compute-credentials/
 palo alto unit 42 domain shadowing 2022: https://unit42.paloaltonetworks.com/domain-shadowing/
 palo alto unit 42 ekans: https://unit42.paloaltonetworks.com/threat-assessment-ekans-ransomware/
@@ -8301,6 +8366,7 @@ phish labs silent librarian: https://info.phishlabs.com/blog/silent-librarian-mo
 phishing-krebs: https://krebsonsecurity.com/2024/03/thread-hijacking-phishes-that-prey-on-your-curiosity/
 phobos ransomware. (2020, december 30). phobos ransomware, fast.exe. retrieved september 20, 2021.: https://www.virustotal.com/gui/file/0b4c743246478a6a8c9fa3ff8e04f297507c2f0ea5d61a1284fe65387d172f81/detection
 phobos_virustotal: https://www.virustotal.com/gui/file/0b4c743246478a6a8c9fa3ff8e04f297507c2f0ea5d61a1284fe65387d172f81/detection
+phoenix teampcp 20 may 2026: https://phoenix.security/teampcp-github-breach-durabletask-pypi-supply-chain-wave-four-2026/
 picus blackbyte 2022: https://www.picussecurity.com/resource/ttps-used-by-blackbyte-ransomware-targeting-critical-infrastructure
 picus emotet dec 2018: https://www.picussecurity.com/blog/the-christmas-card-you-never-wanted-a-new-wave-of-emotet-is-back-to-wreak-havoc.html
 picus labs proc cump 2022: https://www.picussecurity.com/resource/the-mitre-attck-t1003-os-credential-dumping-technique-and-its-adversary-use
@@ -9013,6 +9079,10 @@ sans uac bypass: http://pen-testing.sans.org/blog/pen-testing/2013/08/08/psexec-
 sans virtual jan 2016: https://www.sans.org/reading-room/whitepapers/forensics/detecting-malware-sandbox-evasion-techniques-36667
 sans windshift august 2018: https://www.scribd.com/document/661837258/WINDSHIFT-summit-archive-1554718868
 'santos, d. (2021, april 13). threat assessment: clop ransomware. retrieved july 30, 2021.': https://unit42.paloaltonetworks.com/clop-ransomware/
+? 'santos, j. and navato, j.r. (2026, may 13). analyzing teampcp’s supply chain attacks:
+  checkmarx kics and elementary-data in ci/cd credential theft. retrieved july 16,
+  2026.'
+: https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html
 'santos, r. (2014, august 1). poweliks: malware hides in windows registry. retrieved august 9, 2018.': https://blog.trendmicro.com/trendlabs-security-intelligence/poweliks-malware-hides-in-windows-registry/
 'sanyal, m.. (2014, march 18). kerberos pre-authentication: why it should not be disabled. retrieved august 25, 2020.': https://social.technet.microsoft.com/wiki/contents/articles/23559.kerberos-pre-authentication-why-it-should-not-be-disabled.aspx
 ? 'sarah edwards. (2020, april 30). analysis of apple unified logs: quarantine edition
@@ -9575,8 +9645,10 @@ socket research team. (2025, november 24). shai hulud strikes again (v2). retrie
 socket shai-hulud november 2025: https://socket.dev/blog/shai-hulud-strikes-again-v2
 socket shai-hulud trufflehog september 2025: https://socket.dev/blog/tinycolor-supply-chain-attack-affects-40-packages
 socprime doubleextension: https://socprime.com/blog/rule-of-the-week-possible-malicious-file-double-extension/
+'socradar. (2024, march 18). dark web profile: shinyhunters. retrieved may 18, 2026.': https://socradar.io/dark-web-profile-shinyhunters/
 socradar. (2026, march 9). muddywater uses dindoor malware targeting u.s. networks. retrieved march 12, 2026.: https://socradar.io/blog/iran-muddywater-dindoor-malware-us-networks/
 socradar_muddywaterdindoor_mar2026: https://socradar.io/blog/iran-muddywater-dindoor-malware-us-networks/
+socradar_shinyhunters_mar2024: https://socradar.io/dark-web-profile-shinyhunters/
 sofacy dealerschoice: https://researchcenter.paloaltonetworks.com/2018/03/unit42-sofacy-uses-dealerschoice-target-european-government-agency/
 sofacy komplex trojan: https://researchcenter.paloaltonetworks.com/2016/09/unit42-sofacys-komplex-os-x-trojan/
 softpedia minerc: https://news.softpedia.com/news/cryptocurrency-mining-malware-discovered-targeting-seagate-nas-hard-drives-508119.shtml
@@ -9690,6 +9762,7 @@ spoofing credential dialogs: https://embracethered.com/blog/posts/2021/spoofing-
 spotheplanet. (n.d.). windows api hashing in malware. retrieved august 22, 2022.: https://www.ired.team/offensive-security/defense-evasion/windows-api-hashing-in-malware
 spring dragon jun 2015: https://securelist.com/the-spring-dragon-apt/70726/
 spyboy. (2023). facad1ng. retrieved february 13, 2024.: https://github.com/spyboy-productions/Facad1ng
+spycloud kali365 june 2026: https://spycloud.com/blog/kali365-anatomy-of-a-microsoft365-phishing-as-a-service-kit/
 sqlmap introduction: http://sqlmap.org/
 ? 'srachui. (2012, february 13). group policy basics – part 1: understanding the structure
   of a group policy object. retrieved march 5, 2019.'
@@ -10060,6 +10133,10 @@ sysdig llmjacking 2024: https://sysdig.com/blog/llmjacking-stolen-cloud-credenti
 sysdig proxyjacking: https://sysdig.com/blog/proxyjacking-attackers-log4j-exploited/
 sysdig scarleteel 2.0: https://sysdig.com/blog/scarleteel-2-0/
 sysdig scarleteel 2.0 2023: https://sysdig.com/blog/scarleteel-2-0/
+sysdig teampcp mar 2026: https://www.sysdig.com/blog/teampcp-expands-supply-chain-compromise-spreads-from-trivy-to-checkmarx-github-actions
+? 'sysdig threat research team. (2026, march 23). teampcp expands: supply chain compromise
+  spreads from trivy to checkmarx github actions. retrieved july 1, 2026.'
+: https://www.sysdig.com/blog/teampcp-expands-supply-chain-compromise-spreads-from-trivy-to-checkmarx-github-actions
 sysdig. (2023). sysdig global cloud threat report. retrieved march 1, 2024.: https://sysdig.com/content/c/pf-2023-global-cloud-threat-report?x=u_WFRi&xs=524303#page=1
 sysinternals appcertdlls oct 2007: https://web.archive.org/web/20130401232752/https://forum.sysinternals.com/appcertdlls_topic12546.html
 system and kernel extensions in macos: https://support.apple.com/guide/deployment/system-and-kernel-extensions-in-macos-depa5fb8376f/web
@@ -10134,6 +10211,9 @@ talos zxshell oct 2014: https://blogs.cisco.com/security/talos/opening-zxshell
 talos-mdm: https://blog.talosintelligence.com/2018/07/Mobile-Malware-Campaign-uses-Malicious-MDM.html
 talos-wolfrat: https://blog.talosintelligence.com/2020/05/the-wolf-is-back.html
 tan: http://www.blackhat.com/us-16/briefings.html#bad-for-enterprise-attacking-byod-enterprise-mobile-security-solutions
+? 'tanner flip. (2026, june 11). hook, line, and token: anatomy of the kali365 / octopi365
+  phishing-as-a-service kit. retrieved july 30, 2026.'
+: https://www.huntress.com/blog/kali365-device-code-phishing-kit
 'tarakanov , d.. (2013, september 11). the “kimsuky” operation: a north korean apt?. retrieved august 13, 2019.': https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/
 'tarakanov, d. (2015, june 22). games are over: winnti is now targeting pharmaceutical companies. retrieved january 14, 2016.': https://securelist.com/games-are-over/70991/
 targeted ssl stripping attacks are real: https://blog.checkpoint.com/research/targeted-ssl-stripping-attacks-are-real/amp/
@@ -10531,6 +10611,7 @@ trend micro s3 exposed pii, 2017: https://www.trendmicro.com/vinfo/us/security/n
 trend micro screencap july 2015: https://blog.trendmicro.com/trendlabs-security-intelligence/hacking-team-rcsandroid-spying-tool-listens-to-calls-roots-devices-to-get-in/
 trend micro sharepoint attacks jul 2025: https://www.trendmicro.com/en_us/research/25/g/cve-2025-53770-and-cve-2025-53771-sharepoint-attacks.html
 trend micro skidmap: https://blog.trendmicro.com/trendlabs-security-intelligence/skidmap-linux-malware-uses-rootkit-capabilities-to-hide-cryptocurrency-mining-payload/
+trend micro teampcp may 2026: https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html
 trend micro teamtnt: https://documents.trendmicro.com/assets/white_papers/wp-tracking-the-activities-of-teamTNT.pdf
 trend micro tick november 2019: https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf
 trend micro totbrick oct 2016: https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/tspy_trickload.n
@@ -10624,6 +10705,9 @@ trendmicro_tianyspy_0122: https://www.trendmicro.com/en_us/research/22/a/tianysp
 trendmicrohideoutslease: https://documents.trendmicro.com/assets/wp/wp-criminal-hideouts-for-lease.pdf
 trendmictro phishing: https://www.trendmicro.com/en_us/research/20/i/tricky-forms-of-phishing.html
 trevor haskell. (2020, april 1). kerberos tickets on linux red teams. retrieved october 4, 2021.: https://www.fireeye.com/blog/threat-research/2020/04/kerberos-tickets-on-linux-red-teams.html
+? 'trevor hilligoss. (2026, june 11). kali365: anatomy of a microsoft 365 phishing-as-a-service
+  kit – from telegram hype to fbi takedown theater. retrieved july 30, 2026.'
+: https://spycloud.com/blog/kali365-anatomy-of-a-microsoft365-phishing-as-a-service-kit/
 ? trevor mogg. (2015, june 5). florida teacher punished after signal-jamming his students’
   cell phones. retrieved november 8, 2018.
 : https://www.digitaltrends.com/mobile/florida-teacher-punished-after-signal-jamming-his-students-cell-phones/
@@ -10815,6 +10899,9 @@ unit 42. (2020, december 23). solarstorm supply chain attack timeline. retrieved
 ? 'unit 42. (2025, july 31). active exploitation of microsoft sharepoint vulnerabilities:
   threat brief (updated). retrieved october 15, 2025.'
 : https://unit42.paloaltonetworks.com/microsoft-sharepoint-cve-2025-49704-cve-2025-49706-cve-2025-53770/
+? 'unit 42. (2026, march 31). weaponizing the protectors: teampcp’s multi-stage supply
+  chain attack on security infrastructure. retrieved july 1, 2026.'
+: https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/
 unit42 acidbox june 2020: https://unit42.paloaltonetworks.com/acidbox-rare-malware/
 unit42 agrius 2023: https://unit42.paloaltonetworks.com/agonizing-serpens-targets-israeli-tech-higher-ed-sectors/
 unit42 azorult nov 2018: https://researchcenter.paloaltonetworks.com/2018/11/unit42-new-wine-old-bottle-new-azorult-variant-found-findmyname-campaign-using-fallout-exploit-kit/
@@ -10850,6 +10937,7 @@ unit42. (2016, may 1). evasive serpens unit 42 playbook viewer. retrieved februa
   job seekers to install new variants of beavertail and invisibleferret malware. retrieved
   october 17, 2025.'
 : https://unit42.paloaltonetworks.com/north-korean-threat-actors-lure-tech-job-seekers-as-fake-recruiters/
+unit42kelleyvaya_blinglibra_aug2024: https://unit42.paloaltonetworks.com/shinyhunters-ransomware-extortion/
 ? united states district court southern district of new york (usdc sdny) . (2018,
   december 17). united states of america v. zhu hua and zhang shilong. retrieved april
   17, 2019.
@@ -11180,6 +11268,10 @@ warren, j. (2019, february 26). how to detect overpass-the-hash attacks. retriev
 warren, r. (2017, august 8). smuggling hta files in internet explorer/edge. retrieved november 17, 2024.: http://web.archive.org/web/20200608093807/https://www.nccgroup.com/uk/about-us/newsroom-and-events/blogs/2017/august/smuggling-hta-files-in-internet-exploreredge/
 warren, r. (2017, august 8). smuggling hta files in internet explorer/edge. retrieved september 12, 2024.: https://www.nccgroup.com/us/research-blog/smuggling-hta-files-in-internet-exploreredge/
 washington post wannacry 2017: https://www.washingtonpost.com/business/economy/more-than-150-countries-affected-by-massive-cyberattack-europol-says/2017/05/14/5091465e-3899-11e7-9e48-c4f199710b69_story.html?utm_term=.7fa16b41cad4
+? 'webb, m. (2026, may 20). teampcp wave four: github breach via poisoned vs code
+  extension, durabletask pypi worm, and ~4,000 internal repositories exfiltrated.
+  retrieved july 16, 2026.'
+: https://phoenix.security/teampcp-github-breach-durabletask-pypi-supply-chain-wave-four-2026/
 webroot php 2011: https://www.webroot.com/blog/2011/02/22/malicious-php-scripts-on-the-rise/
 weinmann-baseband: https://www.usenix.org/system/files/conference/woot12/woot12-final24.pdf
 weizman, y. (2020, april 2). threat matrix for kubernetes. retrieved march 30, 2021.: https://www.microsoft.com/security/blog/2020/04/02/attack-matrix-kubernetes/
@@ -11363,9 +11455,14 @@ withsecure kapeka 2024: https://labs.withsecure.com/content/dam/labs/docs/WithSe
 withsecure lazarus-nopineapple threat intel report 2023: https://labs.withsecure.com/content/dam/labs/docs/WithSecure-Lazarus-No-Pineapple-Threat-Intelligence-Report-2023.pdf
 wits end and shady powershell profiles: https://witsendandshady.blogspot.com/2019/06/lab-notes-persistence-and-privilege.html
 wiz midnight blizzard 2024: https://www.wiz.io/blog/midnight-blizzard-microsoft-breach-analysis-and-best-practices
+wiz mini shai-hulud may 2026: https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised
 wiz shai-hulud september 2025: https://www.wiz.io/blog/shai-hulud-npm-supply-chain-attack
+wiz teampcp kics mar 2026: https://www.wiz.io/blog/teampcp-attack-kics-github-action
+wiz teampcp profile may 2026: https://threats.wiz.io/all-actors/teampcp
 wiz threat research. (2024, december 9). ultralytics ai library hacked via github for cryptomining. retrieved may 22, 2025.: https://www.wiz.io/blog/ultralytics-ai-library-hacked-via-github-for-cryptomining
+wiz trivy compromise mar 2026: https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack
 wiz ultralytics ai library hijack 2024: https://www.wiz.io/blog/ultralytics-ai-library-hacked-via-github-for-cryptomining
+wiz. (2026, may 20). teampcp. retrieved july 16, 2026.: https://threats.wiz.io/all-actors/teampcp
 wmi 1-3: https://learn.microsoft.com/en-us/windows/win32/wmisdk/wmi-start-page?redirectedfrom=MSDN
 wmi 6: https://www.microsoft.com/en-us/security/blog/2022/06/13/the-many-lives-of-blackcat-ransomware/
 wmi 7,8: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/wmi-command-line-wmic-utility-deprecation-next-steps/ba-p/4039242

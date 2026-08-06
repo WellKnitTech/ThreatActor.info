@@ -30,3 +30,11 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [How Lightspeed found its newest hire … via Instagram DM](https://techcrunch.com/2026/08/05/how-lightspeed-found-its-newest-hire-via-instagram-dm/)
+  TechCrunch - 2026-08-05T
+- [Why Lightspeed is going all-in on creator-led venture capital](https://techcrunch.com/video/why-lightspeed-is-going-all-in-on-creator-led-venture-capital/)
+  TechCrunch - 2026-08-05T
+

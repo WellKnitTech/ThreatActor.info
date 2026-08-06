@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [20% Off Brooks Promo Code | August 2026](https://www.wired.com/story/brooks-promo-code/)
+  Wired - 2026-08-06T
+

@@ -30,11 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Rapid7 Analysis: KindaRails2Shell (CVE-2026-66066)](https://www.rapid7.com/blog/post/ra-kindarails2shell-technical-analysis-cve-2026-66066)
-  Rapid7 - 2026-08-03T
-- [Rapid7 Expands UK and Ireland Channel Presence Through Strategic Partnership with Exclusive Networks](https://www.rapid7.com/blog/post/c-rapid7-exclusive-networks-expand-uk-ireland-partnership)
-  Rapid7 - 2026-08-03T
-

@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Workers RPC now works across Python and JavaScript](https://blog.cloudflare.com/python-workers-rpc/)
-  Cloudflare - 2026-08-03T
+- [Flaws in Google APK for Python Unlock Agent-to-Agent Attack](https://www.darkreading.com/vulnerabilities-threats/flaws-google-apk-python-agent-to-agent-attack)
+  DarkReading - 2026-08-05T
 

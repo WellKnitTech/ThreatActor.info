@@ -30,11 +30,3 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Fake Roblox Xeno script launcher pushes infostealer, RAT malware](https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/)
-  BleepingComputer - 2026-08-03T
-- [Workers RPC now works across Python and JavaScript](https://blog.cloudflare.com/python-workers-rpc/)
-  Cloudflare - 2026-08-03T
-

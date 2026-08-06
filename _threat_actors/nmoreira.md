@@ -30,11 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Spotify expands AI remix and covers project with Merlin partnership](https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/)
-  TechCrunch - 2026-08-04T
-- [Rapid7 Expands UK and Ireland Channel Presence Through Strategic Partnership with Exclusive Networks](https://www.rapid7.com/blog/post/c-rapid7-exclusive-networks-expand-uk-ireland-partnership)
-  Rapid7 - 2026-08-03T
-
