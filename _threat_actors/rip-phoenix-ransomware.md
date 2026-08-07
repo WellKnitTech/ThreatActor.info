@@ -30,3 +30,9 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [12 Best Coffee Subscriptions (2026), Tested by Caffeine Hounds](https://www.wired.com/gallery/best-coffee-subscriptions/)
+  Wired - 2026-08-06T
+

@@ -30,3 +30,9 @@ Ank is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [From ranking to recommended: get your site ready to thrive in the age of AI agents](https://blog.cloudflare.com/aeo/)
+  Cloudflare - 2026-08-06T
+

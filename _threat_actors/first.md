@@ -33,6 +33,8 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Reddit aims to make ‘karma’ less important for first-time posters with shift to AI moderation tools](https://techcrunch.com/2026/08/05/reddit-aims-to-make-karma-less-important-for-first-time-posters-with-shift-to-ai-moderation-tools/)
-  TechCrunch - 2026-08-05T
+- [From Bobmojis to Bobbleheads: How the Democratic Party Built a Security-First Culture](https://www.darkreading.com/cybersecurity-operations/from-bobmojis-to-bobbleheads-how-the-democratic-party-built-a-security-first-culture)
+  DarkReading - 2026-08-06T
+- [Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers](https://blog.cloudflare.com/kitesurf/)
+  Cloudflare - 2026-08-06T
 

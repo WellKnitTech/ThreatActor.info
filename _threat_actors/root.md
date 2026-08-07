@@ -33,8 +33,6 @@ Root is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Hungryroot Coupon Codes: 30% Off This August](https://www.wired.com/story/hungryroot-promo-code/)
-  Wired - 2026-08-06T
-- [New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch](https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html)
-  The Hacker News - 2026-08-05T
+- [Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells](https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html)
+  The Hacker News - 2026-08-06T
 

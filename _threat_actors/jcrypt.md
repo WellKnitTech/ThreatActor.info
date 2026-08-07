@@ -33,6 +33,6 @@ Ransomware written in C#. Fortunately, all current versions of the MafiaWare666 
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt](https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html)
-  The Hacker News - 2026-08-05T
+- [AI Recommendation Poisoning: How "Ask AI" Buttons Silently Alter LLM Memory](https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html)
+  The Hacker News - 2026-08-06T
 

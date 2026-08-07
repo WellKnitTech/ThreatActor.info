@@ -33,8 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Stearns and Foster Promo Codes: $300 Off in August 2026](https://www.wired.com/story/stearns-and-foster-promo-code/)
-  Wired - 2026-08-06T
 - [CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws](https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/)
   BleepingComputer - 2026-08-05T
 

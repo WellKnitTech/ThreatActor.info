@@ -30,3 +30,9 @@ Core ransomware surfaced in early 2025 as a new variant within the broader Makop
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs](https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html)
+  The Hacker News - 2026-08-06T
+

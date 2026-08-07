@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [N-central Authorization Bypass exploited in the wild (CVE-2026-18577)](https://labs.beazley.security/advisories/BSL-A1196)
-  Beazley Security Labs Advisories - 2026-08-03T
-

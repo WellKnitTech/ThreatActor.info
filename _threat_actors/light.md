@@ -33,8 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [How Lightspeed found its newest hire … via Instagram DM](https://techcrunch.com/2026/08/05/how-lightspeed-found-its-newest-hire-via-instagram-dm/)
-  TechCrunch - 2026-08-05T
-- [Why Lightspeed is going all-in on creator-led venture capital](https://techcrunch.com/video/why-lightspeed-is-going-all-in-on-creator-led-venture-capital/)
-  TechCrunch - 2026-08-05T
+- [Flock Highlighted Police Departments Using Its Tech. Now 4 Face Allegations of Misuse](https://www.wired.com/story/flock-videos-highlighted-police-departments-that-face-misuse/)
+  Wired - 2026-08-06T
+- [China-linked LightSpy spyware caught targeting victims in 13 countries, including the US](https://techcrunch.com/2026/08/06/china-linked-lightspy-spyware-caught-targeting-victims-in-13-countries-including-the-us/)
+  TechCrunch - 2026-08-06T
+- [Shark PowerDetect Speed Review (2026): Light and Powerful](https://www.wired.com/review/shark-powerdetect-speed/)
+  Wired - 2026-08-06T
 

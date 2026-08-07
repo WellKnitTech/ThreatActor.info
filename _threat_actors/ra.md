@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes](https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html)
-  The Hacker News - 2026-08-06T
-- [AI Sends Global Crime Syndicates Into Fraud Nirvana](https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana)
-  DarkReading - 2026-08-05T
-- [AI Browsers Vulnerable to 'PleaseFix' Zero-Click Agent Hijacking](https://www.darkreading.com/cyber-risk/ai-browsers-zero-click-agent-hijacking)
-  DarkReading - 2026-08-05T
-- [Travis Kalanick’s robotics startup Atoms taps former Uber finance chief as CFO](https://techcrunch.com/2026/08/05/travis-kalanicks-robotics-startup-atoms-taps-former-uber-finance-chief-as-cfo/)
-  TechCrunch - 2026-08-05T
-- [Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt](https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html)
-  The Hacker News - 2026-08-05T
+- [ICE’s DNA Collection Increases, SpaceX’s Rocket Crashes Into the Moon, and the AI Backlash Grows](https://www.wired.com/story/ice-dna-collection-increases-spacex-rocket-crashes-into-the-moon-and-the-ai-backlash-grows/)
+  Wired - 2026-08-06T
+- [Defense tech Hadrian raises $1.37B at $8B valuation](https://techcrunch.com/2026/08/06/defense-tech-hadrian-raises-1-37b-at-8b-valuation/)
+  TechCrunch - 2026-08-06T
+- [Check Point Joins the Open Secure AI Alliance to Advance Open, Measurable and Enterprise-Ready AI Security](https://blog.checkpoint.com/ai-security/check-point-joins-the-open-secure-ai-alliance-to-advance-open-measurable-and-enterprise-ready-ai-security/)
+  Check Point - 2026-08-06T
+- [From Bobmojis to Bobbleheads: How the Democratic Party Built a Security-First Culture](https://www.darkreading.com/cybersecurity-operations/from-bobmojis-to-bobbleheads-how-the-democratic-party-built-a-security-first-culture)
+  DarkReading - 2026-08-06T
+- [OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/)
+  BleepingComputer - 2026-08-06T
 

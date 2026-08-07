@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Total Wireless Promo Codes & Deals: 50% Off Select Plans](https://www.wired.com/story/total-wireless-promo-code/)
+- [Why Normal People Aren’t Using AI Agents](https://www.wired.com/story/why-normal-people-arent-using-ai-agents/)
   Wired - 2026-08-06T
-- [OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes](https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html)
+- [Google says hackers are calling financial firm employees to hack and extort victims](https://techcrunch.com/2026/08/06/google-says-hackers-are-calling-financial-firm-employees-to-hack-and-extort-victims/)
+  TechCrunch - 2026-08-06T
+- [Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities](https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html)
   The Hacker News - 2026-08-06T
-- [AI Browsers Vulnerable to 'PleaseFix' Zero-Click Agent Hijacking](https://www.darkreading.com/cyber-risk/ai-browsers-zero-click-agent-hijacking)
-  DarkReading - 2026-08-05T
-- [Thousands of servers can be backdoored by exploiting buggy motherboard controllers](https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/)
-  Ars Technica - 2026-08-05T
-- [Trump’s DOJ gains oversight of OpenAI’s green-card employee sponsorships](https://techcrunch.com/2026/08/05/trumps-doj-gains-oversight-of-openais-green-card-employee-sponsorships/)
-  TechCrunch - 2026-08-05T
+- [Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses](https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html)
+  The Hacker News - 2026-08-06T
+- [Canadian Man Pleads Guilty in Snowflake Extortions](https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/)
+  KrebsOnSecurity - 2026-08-06T
 

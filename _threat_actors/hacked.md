@@ -30,3 +30,9 @@ Ransomware Jigsaw Ransomware variant
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Meta AI model hacked a company during misconfigured cyber test](https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/)
+  BleepingComputer - 2026-08-06T
+

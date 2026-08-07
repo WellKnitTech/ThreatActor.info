@@ -33,6 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Moove raises $250M to become the backbone of the robotaxi industry](https://techcrunch.com/2026/08/05/moove-raises-250m-to-become-the-backbone-of-the-robotaxi-industry/)
-  TechCrunch - 2026-08-05T
+- [One of China’s Most Powerful AI Models Has Also Escaped Containment](https://www.wired.com/story/moonshot-kimi-k3-ai-model-escape-sandbox/)
+  Wired - 2026-08-07T
+- [ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories](https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html)
+  The Hacker News - 2026-08-06T
+- [DeepMind Says Its AI Can Predict Hurricanes Earlier Than Everyone Else](https://www.wired.com/story/deepmind-ai-model-can-predict-hurricanes-earlier/)
+  Wired - 2026-08-06T
 

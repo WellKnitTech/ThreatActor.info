@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Stearns and Foster Promo Codes: $300 Off in August 2026](https://www.wired.com/story/stearns-and-foster-promo-code/)
-  Wired - 2026-08-06T
-- [Barkbox Promo Codes and Discounts: Up to 50% Off](https://www.wired.com/story/barkbox-promo-code/)
-  Wired - 2026-08-06T
-- [30% Off Tempur-Pedic Promo Codes | August 2026](https://www.wired.com/story/tempur-pedic-promo-code/)
-  Wired - 2026-08-06T
-- [Home Chef Promo Codes for August 2026](https://www.wired.com/story/home-chef-promo-code/)
-  Wired - 2026-08-06T
-- [Whoop Promo Codes: 20% Off This August 2026](https://www.wired.com/story/whoop-promo-code/)
-  Wired - 2026-08-06T
+- [One of China’s Most Powerful AI Models Has Also Escaped Containment](https://www.wired.com/story/moonshot-kimi-k3-ai-model-escape-sandbox/)
+  Wired - 2026-08-07T
+- [New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts](https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html)
+  The Hacker News - 2026-08-06T
+- [Black Hat 2026: Check Point Research Takes the Stage](https://blog.checkpoint.com/research/black-hat-2026-check-point-research-takes-the-stage/)
+  Check Point - 2026-08-06T
+- [OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400](https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/)
+  TechCrunch - 2026-08-06T
+- [Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs](https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html)
+  The Hacker News - 2026-08-06T
 
