@@ -33,8 +33,8 @@ Ransomware Identifies victim locations w/Google Maps API
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets](https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html)
+  The Hacker News - 2026-08-07T
 - [ClickFix attack pushes macOS infostealer for crypto theft attacks](https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/)
   BleepingComputer - 2026-08-06T
-- [CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps](https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html)
-  The Hacker News - 2026-08-06T
 

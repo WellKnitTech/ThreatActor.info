@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [ICE’s DNA Collection Increases, SpaceX’s Rocket Crashes Into the Moon, and the AI Backlash Grows](https://www.wired.com/story/ice-dna-collection-increases-spacex-rocket-crashes-into-the-moon-and-the-ai-backlash-grows/)
-  Wired - 2026-08-06T
-- [Defense tech Hadrian raises $1.37B at $8B valuation](https://techcrunch.com/2026/08/06/defense-tech-hadrian-raises-1-37b-at-8b-valuation/)
-  TechCrunch - 2026-08-06T
-- [Check Point Joins the Open Secure AI Alliance to Advance Open, Measurable and Enterprise-Ready AI Security](https://blog.checkpoint.com/ai-security/check-point-joins-the-open-secure-ai-alliance-to-advance-open-measurable-and-enterprise-ready-ai-security/)
-  Check Point - 2026-08-06T
-- [From Bobmojis to Bobbleheads: How the Democratic Party Built a Security-First Culture](https://www.darkreading.com/cybersecurity-operations/from-bobmojis-to-bobbleheads-how-the-democratic-party-built-a-security-first-culture)
-  DarkReading - 2026-08-06T
-- [OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/)
-  BleepingComputer - 2026-08-06T
+- [Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer](https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html)
+  The Hacker News - 2026-08-08T
+- [ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets](https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html)
+  The Hacker News - 2026-08-07T
+- [OpenAI says it slowed Astra model development over security concerns](https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/)
+  TechCrunch - 2026-08-07T
+- [AI-Generated Patches Fail Half the Time](https://www.darkreading.com/application-security/ai-generated-patches-fail-half-time)
+  DarkReading - 2026-08-07T
+- [Computer maker Framework notifies ‘all customers’ of a data breach](https://techcrunch.com/2026/08/07/computer-maker-framework-notifies-all-customers-of-a-data-breach/)
+  TechCrunch - 2026-08-07T
 

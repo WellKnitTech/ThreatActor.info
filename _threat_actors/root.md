@@ -33,6 +33,6 @@ Root is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells](https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html)
-  The Hacker News - 2026-08-06T
+- [18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers](https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html)
+  The Hacker News - 2026-08-07T
 

@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Why Normal People Aren’t Using AI Agents](https://www.wired.com/story/why-normal-people-arent-using-ai-agents/)
-  Wired - 2026-08-06T
-- [Google says hackers are calling financial firm employees to hack and extort victims](https://techcrunch.com/2026/08/06/google-says-hackers-are-calling-financial-firm-employees-to-hack-and-extort-victims/)
-  TechCrunch - 2026-08-06T
-- [Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities](https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html)
-  The Hacker News - 2026-08-06T
-- [Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses](https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html)
-  The Hacker News - 2026-08-06T
-- [Canadian Man Pleads Guilty in Snowflake Extortions](https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/)
-  KrebsOnSecurity - 2026-08-06T
+- [Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer](https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html)
+  The Hacker News - 2026-08-08T
+- [After Rippling blew millions on AI in months, it built an employee ROI tool](https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/)
+  TechCrunch - 2026-08-07T
+- [Metabase SQLi zero-day exploited in customer data-theft attacks](https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/)
+  BleepingComputer - 2026-08-07T
+- [Unlimited Technology Systems breach impacts 3.8 million people](https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/)
+  BleepingComputer - 2026-08-07T
+- [Host your own piece of Disrupt: Apply to run a Side Event at TechCrunch Disrupt 2026](https://techcrunch.com/2026/08/07/host-your-own-piece-of-disrupt-apply-to-run-a-side-event-at-techcrunch-disrupt-2026/)
+  TechCrunch - 2026-08-07T
 

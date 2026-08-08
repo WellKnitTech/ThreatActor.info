@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Best Android Charger: Wireless, Portable, Cable (2026)](https://www.wired.com/story/best-android-charger/)
-  Wired - 2026-08-06T
-

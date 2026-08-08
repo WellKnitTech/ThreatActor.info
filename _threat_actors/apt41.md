@@ -109,12 +109,12 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP](https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html)
+  The Hacker News - 2026-08-07T
+- [The Top Exposure Management Questions Security Leaders Ask (Part 1)](https://blog.checkpoint.com/exposure-management/the-top-exposure-management-questions-security-leaders-ask-part-1/)
+  Check Point - 2026-08-07T
 - [Canadian Man Pleads Guilty in Snowflake Extortions](https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/)
   KrebsOnSecurity - 2026-08-06T
-- [Hacker pleads guilty to stealing data from more than 165 Snowflake customers](https://techcrunch.com/2026/08/06/hacker-pleads-guilty-to-stealing-data-from-more-than-165-snowflake-customers/)
-  TechCrunch - 2026-08-06T
-- [Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People](https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html)
-  The Hacker News - 2026-08-06T
 - [Canadian pleads guilty to Snowflake cloud data-theft attacks](https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/)
   BleepingComputer - 2026-08-05T
 

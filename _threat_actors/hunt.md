@@ -34,8 +34,6 @@ Hunt ransomware is a variant of the Dharma/CrySIS ransomware family. This varian
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access](https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html)
-  The Hacker News - 2026-08-06T
 - [Hackers run khunt post-exploitation toolkit from Oracle database](https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/)
   BleepingComputer - 2026-08-05T
 

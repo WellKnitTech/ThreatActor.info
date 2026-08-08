@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws](https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/)
-  BleepingComputer - 2026-08-05T
+- [OpenAI says it slowed Astra model development over security concerns](https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/)
+  TechCrunch - 2026-08-07T
 

@@ -31,3 +31,9 @@ TeamPCP is a threat actor that has executed a coordinated series of supply chain
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign](https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html)
+  The Hacker News - 2026-08-07T
+

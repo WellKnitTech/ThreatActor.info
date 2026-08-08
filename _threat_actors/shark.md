@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Shark PowerDetect Speed Review (2026): Light and Powerful](https://www.wired.com/review/shark-powerdetect-speed/)
-  Wired - 2026-08-06T
-

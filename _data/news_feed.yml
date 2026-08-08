@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T04:24:23Z",
+  "updated": "2026-08-08T03:23:02Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,81 +19,387 @@
     "Rapid7"
   ],
   "actor_news": {
-    "One": [
+    "PL": [
       {
-        "title": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
-        "link": "https://www.wired.com/story/moonshot-kimi-k3-ai-model-escape-sandbox/",
-        "date": "2026-08-07T01:16:55+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
-        "link": "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html",
-        "date": "2026-08-06T20:54:31+05:30",
+        "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
+        "link": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
+        "date": "2026-08-08T00:18:17+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "DeepMind Says Its AI Can Predict Hurricanes Earlier Than Everyone Else",
-        "link": "https://www.wired.com/story/deepmind-ai-model-can-predict-hurricanes-earlier/",
-        "date": "2026-08-06T16:23:04+00:00",
-        "source": "Wired"
+        "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+        "link": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+        "date": "2026-08-07T21:30:11+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
+        "date": "2026-08-07T16:14:46-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Unlimited Technology Systems breach impacts 3.8 million people",
+        "link": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
+        "date": "2026-08-07T15:30:41-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Host your own piece of Disrupt: Apply to run a Side Event at TechCrunch Disrupt 2026",
+        "link": "https://techcrunch.com/2026/08/07/host-your-own-piece-of-disrupt-apply-to-run-a-side-event-at-techcrunch-disrupt-2026/",
+        "date": "2026-08-07T14:30:00+00:00",
+        "source": "TechCrunch"
       }
     ],
     "R": [
       {
-        "title": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
-        "link": "https://www.wired.com/story/moonshot-kimi-k3-ai-model-escape-sandbox/",
-        "date": "2026-08-07T01:16:55+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
-        "link": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
-        "date": "2026-08-06T23:28:30+05:30",
+        "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
+        "link": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
+        "date": "2026-08-08T00:18:17+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Black Hat 2026: Check Point Research Takes the Stage",
-        "link": "https://blog.checkpoint.com/research/black-hat-2026-check-point-research-takes-the-stage/",
-        "date": "2026-08-06T23:00:06+00:00",
-        "source": "Check Point"
+        "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
+        "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
+        "date": "2026-08-07T23:59:08+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
-        "link": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
-        "date": "2026-08-06T22:43:53+00:00",
+        "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
+        "link": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
+        "date": "2026-08-07T23:46:13+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Inside the Modern SOC: The Identity Front Door",
+        "link": "https://unit42.paloaltonetworks.com/soc-identity-front-door/",
+        "date": "2026-08-07T23:00:01+00:00",
+        "source": "Unit 42"
+      },
+      {
+        "title": "OpenAI says it slowed Astra model development over security concerns",
+        "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+        "date": "2026-08-07T22:48:24+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Ra": [
+      {
+        "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
+        "link": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
+        "date": "2026-08-08T00:18:17+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
+        "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
+        "date": "2026-08-07T23:59:08+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "OpenAI says it slowed Astra model development over security concerns",
+        "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+        "date": "2026-08-07T22:48:24+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs",
-        "link": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
-        "date": "2026-08-06T22:43:15+05:30",
+        "title": "AI-Generated Patches Fail Half the Time",
+        "link": "https://www.darkreading.com/application-security/ai-generated-patches-fail-half-time",
+        "date": "2026-08-07T16:47:43+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "Computer maker Framework notifies ‘all customers’ of a data breach",
+        "link": "https://techcrunch.com/2026/08/07/computer-maker-framework-notifies-all-customers-of-a-data-breach/",
+        "date": "2026-08-07T16:09:04+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "CryLocker": [
+      {
+        "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
+        "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
+        "date": "2026-08-07T23:59:08+05:30",
         "source": "The Hacker News"
+      },
+      {
+        "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
+        "date": "2026-08-06T18:37:17-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Lick": [
+      {
+        "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
+        "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
+        "date": "2026-08-07T23:59:08+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
+        "date": "2026-08-06T18:37:17-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "AI Browsers Vulnerable to 'PleaseFix' Zero-Click Agent Hijacking",
+        "link": "https://www.darkreading.com/cyber-risk/ai-browsers-zero-click-agent-hijacking",
+        "date": "2026-08-05T23:30:00+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "One": [
+      {
+        "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
+        "link": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
+        "date": "2026-08-07T23:46:13+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Best Webcams (2026): My Honest Take After Testing the Best",
+        "link": "https://www.wired.com/story/best-webcams/",
+        "date": "2026-08-07T11:32:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "UNC6671": [
+      {
+        "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
+        "link": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
+        "date": "2026-08-07T23:46:13+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
+        "link": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
+        "date": "2026-08-06T16:07:24-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "RNS": [
+      {
+        "title": "OpenAI says it slowed Astra model development over security concerns",
+        "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+        "date": "2026-08-07T22:48:24+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "RIP (Phoenix) Ransomware": [
+      {
+        "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+        "link": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+        "date": "2026-08-07T21:30:11+00:00",
+        "source": "TechCrunch"
       }
     ],
     "Deadeye Jackal": [
       {
+        "title": "Security researchers scanned the Polish web and found courts, hospitals, and airports at risk of hacks",
+        "link": "https://techcrunch.com/2026/08/07/security-researchers-scanned-the-polish-web-and-found-courts-hospitals-and-airports-at-risk-of-hacks/",
+        "date": "2026-08-07T21:00:08+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
+        "link": "https://techcrunch.com/2026/08/07/chinese-ai-model-kimi-escaped-its-cybersecurity-testing-environment-researchers-say/",
+        "date": "2026-08-07T14:28:31+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
+        "link": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+        "date": "2026-08-07T14:22:49+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
+        "link": "https://blog.cloudflare.com/introducing-radar-researcher/",
+        "date": "2026-08-07T13:00:00+00:00",
+        "source": "Cloudflare"
+      },
+      {
         "title": "Black Hat 2026: Check Point Research Takes the Stage",
         "link": "https://blog.checkpoint.com/research/black-hat-2026-check-point-research-takes-the-stage/",
         "date": "2026-08-06T23:00:06+00:00",
         "source": "Check Point"
+      }
+    ],
+    "APT41": [
+      {
+        "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
+        "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
+        "date": "2026-08-07T18:26:23+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "Researcher Claims Control of ChatGPT Secure Sandbox",
-        "link": "https://www.darkreading.com/cloud-security/researcher-claims-control-chatgpt-secure-sandbox",
-        "date": "2026-08-06T20:38:51+00:00",
-        "source": "DarkReading"
+        "title": "The Top Exposure Management Questions Security Leaders Ask (Part 1)",
+        "link": "https://blog.checkpoint.com/exposure-management/the-top-exposure-management-questions-security-leaders-ask-part-1/",
+        "date": "2026-08-07T13:00:28+00:00",
+        "source": "Check Point"
       },
       {
-        "title": "Cloudflare AI Search: give your agents a search engine for your data ",
-        "link": "https://blog.cloudflare.com/ai-search-easier/",
+        "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+        "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+        "date": "2026-08-06T17:00:56+00:00",
+        "source": "KrebsOnSecurity"
+      },
+      {
+        "title": "Canadian pleads guilty to Snowflake cloud data-theft attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
+        "date": "2026-08-05T17:53:26-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "PHP": [
+      {
+        "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
+        "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
+        "date": "2026-08-07T18:26:23+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Root": [
+      {
+        "title": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers",
+        "link": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
+        "date": "2026-08-07T16:40:33+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "DN": [
+      {
+        "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
+        "link": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
+        "date": "2026-08-07T16:28:38+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "BRONZE BUTLER": [
+      {
+        "title": "Today’s the last day to get up to $400 off your TechCrunch Disrupt 2026 ticket",
+        "link": "https://techcrunch.com/2026/08/07/todays-the-last-day-to-get-up-to-400-off-your-techcrunch-disrupt-2026-ticket/",
+        "date": "2026-08-07T15:52:33+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Tick": [
+      {
+        "title": "Today’s the last day to get up to $400 off your TechCrunch Disrupt 2026 ticket",
+        "link": "https://techcrunch.com/2026/08/07/todays-the-last-day-to-get-up-to-400-off-your-techcrunch-disrupt-2026-ticket/",
+        "date": "2026-08-07T15:52:33+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Desync": [
+      {
+        "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
+        "link": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
+        "date": "2026-08-07T15:39:54+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Mini": [
+      {
+        "title": "Trump administration has spent nearly $4B to cancel offshore wind farms",
+        "link": "https://techcrunch.com/2026/08/07/trump-administration-has-spent-nearly-4b-to-cancel-offshore-wind-farms/",
+        "date": "2026-08-07T15:11:03+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
+        "link": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
+        "date": "2026-08-07T13:48:35+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Rapid": [
+      {
+        "title": "Rapid7 Analysis: Unauthenticated Remote Code Execution in JetBrains TeamCity (CVE-2026-63077)",
+        "link": "https://www.rapid7.com/blog/post/ra-unauthenticated-rce-in-jetbrains-teamcity-cve-2026-63077",
+        "date": "2026-08-07T14:32:47+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "Iron": [
+      {
+        "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
+        "link": "https://techcrunch.com/2026/08/07/chinese-ai-model-kimi-escaped-its-cybersecurity-testing-environment-researchers-say/",
+        "date": "2026-08-07T14:28:31+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Viro": [
+      {
+        "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
+        "link": "https://techcrunch.com/2026/08/07/chinese-ai-model-kimi-escaped-its-cybersecurity-testing-environment-researchers-say/",
+        "date": "2026-08-07T14:28:31+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "AMBA": [
+      {
+        "title": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
+        "link": "https://blog.cloudflare.com/community-program-refresh/",
+        "date": "2026-08-07T13:00:00+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "SAD": [
+      {
+        "title": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
+        "link": "https://blog.cloudflare.com/community-program-refresh/",
+        "date": "2026-08-07T13:00:00+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "Radar": [
+      {
+        "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
+        "link": "https://blog.cloudflare.com/introducing-radar-researcher/",
+        "date": "2026-08-07T13:00:00+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "TeamPCP": [
+      {
+        "title": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
+        "link": "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
+        "date": "2026-08-07T12:20:05+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Ank": [
+      {
+        "title": "The 5 Best Laptop Power Banks I've Personally Tested (2026)",
+        "link": "https://www.wired.com/story/best-laptop-power-banks/",
+        "date": "2026-08-07T11:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Ranking the Best Smart Glasses: Meta, Viture, & More (2026)",
+        "link": "https://www.wired.com/gallery/best-smart-glasses/",
+        "date": "2026-08-07T10:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "From ranking to recommended: get your site ready to thrive in the age of AI agents",
+        "link": "https://blog.cloudflare.com/aeo/",
         "date": "2026-08-06T13:00:00+00:00",
         "source": "Cloudflare"
       }
     ],
+    "Payment": [
+      {
+        "title": "Real emails, hijacked payments: Two H1 2026 attack chains ",
+        "link": "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
+        "date": "2026-08-07T10:00:10-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
     "core": [
       {
-        "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs",
+        "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.9 CVSS Score Bugs",
         "link": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
         "date": "2026-08-06T22:43:15+05:30",
         "source": "The Hacker News"
@@ -110,154 +416,6 @@
         "title": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes",
         "link": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
         "date": "2026-08-06T14:03:45-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Lick": [
-      {
-        "title": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
-        "link": "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html",
-        "date": "2026-08-06T20:54:31+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
-        "date": "2026-08-06T18:37:17-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
-        "link": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
-        "date": "2026-08-06T00:14:31+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "AI Browsers Vulnerable to 'PleaseFix' Zero-Click Agent Hijacking",
-        "link": "https://www.darkreading.com/cyber-risk/ai-browsers-zero-click-agent-hijacking",
-        "date": "2026-08-05T23:30:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "SunCrypt": [
-      {
-        "title": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
-        "link": "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html",
-        "date": "2026-08-06T20:54:31+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Samsung Odyssey G8 6K Review: Pixel Overdose",
-        "link": "https://www.wired.com/review/samsung-g8-g80hs/",
-        "date": "2026-08-06T11:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "PL": [
-      {
-        "title": "Why Normal People Aren’t Using AI Agents",
-        "link": "https://www.wired.com/story/why-normal-people-arent-using-ai-agents/",
-        "date": "2026-08-06T19:55:45+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Google says hackers are calling financial firm employees to hack and extort victims",
-        "link": "https://techcrunch.com/2026/08/06/google-says-hackers-are-calling-financial-firm-employees-to-hack-and-extort-victims/",
-        "date": "2026-08-06T19:40:46+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
-        "link": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
-        "date": "2026-08-06T17:46:58+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
-        "link": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
-        "date": "2026-08-06T17:03:08+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-        "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-        "date": "2026-08-06T17:00:56+00:00",
-        "source": "KrebsOnSecurity"
-      }
-    ],
-    "RTM": [
-      {
-        "title": "Flock Highlighted Police Departments Using Its Tech. Now 4 Face Allegations of Misuse",
-        "link": "https://www.wired.com/story/flock-videos-highlighted-police-departments-that-face-misuse/",
-        "date": "2026-08-06T19:31:07+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Light": [
-      {
-        "title": "Flock Highlighted Police Departments Using Its Tech. Now 4 Face Allegations of Misuse",
-        "link": "https://www.wired.com/story/flock-videos-highlighted-police-departments-that-face-misuse/",
-        "date": "2026-08-06T19:31:07+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "China-linked LightSpy spyware caught targeting victims in 13 countries, including the US",
-        "link": "https://techcrunch.com/2026/08/06/china-linked-lightspy-spyware-caught-targeting-victims-in-13-countries-including-the-us/",
-        "date": "2026-08-06T19:22:30+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Shark PowerDetect Speed Review (2026): Light and Powerful",
-        "link": "https://www.wired.com/review/shark-powerdetect-speed/",
-        "date": "2026-08-06T10:30:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Rocke": [
-      {
-        "title": "ICE’s DNA Collection Increases, SpaceX’s Rocket Crashes Into the Moon, and the AI Backlash Grows",
-        "link": "https://www.wired.com/story/ice-dna-collection-increases-spacex-rocket-crashes-into-the-moon-and-the-ai-backlash-grows/",
-        "date": "2026-08-06T19:30:46+00:00",
-        "source": "Wired"
-      }
-    ],
-    "DN": [
-      {
-        "title": "ICE’s DNA Collection Increases, SpaceX’s Rocket Crashes Into the Moon, and the AI Backlash Grows",
-        "link": "https://www.wired.com/story/ice-dna-collection-increases-spacex-rocket-crashes-into-the-moon-and-the-ai-backlash-grows/",
-        "date": "2026-08-06T19:30:46+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Ra": [
-      {
-        "title": "ICE’s DNA Collection Increases, SpaceX’s Rocket Crashes Into the Moon, and the AI Backlash Grows",
-        "link": "https://www.wired.com/story/ice-dna-collection-increases-spacex-rocket-crashes-into-the-moon-and-the-ai-backlash-grows/",
-        "date": "2026-08-06T19:30:46+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Defense tech Hadrian raises $1.37B at $8B valuation",
-        "link": "https://techcrunch.com/2026/08/06/defense-tech-hadrian-raises-1-37b-at-8b-valuation/",
-        "date": "2026-08-06T19:02:57+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Check Point Joins the Open Secure AI Alliance to Advance Open, Measurable and Enterprise-Ready AI Security",
-        "link": "https://blog.checkpoint.com/ai-security/check-point-joins-the-open-secure-ai-alliance-to-advance-open-measurable-and-enterprise-ready-ai-security/",
-        "date": "2026-08-06T19:01:50+00:00",
-        "source": "Check Point"
-      },
-      {
-        "title": "From Bobmojis to Bobbleheads: How the Democratic Party Built a Security-First Culture",
-        "link": "https://www.darkreading.com/cybersecurity-operations/from-bobmojis-to-bobbleheads-how-the-democratic-party-built-a-security-first-culture",
-        "date": "2026-08-06T19:00:11+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
-        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
-        "date": "2026-08-06T18:48:22-04:00",
         "source": "BleepingComputer"
       }
     ],
@@ -291,160 +449,12 @@
         "source": "Cloudflare"
       }
     ],
-    "CryLocker": [
-      {
-        "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
-        "date": "2026-08-06T18:37:17-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps",
-        "link": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
-        "date": "2026-08-06T17:19:48+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "APT3": [
-      {
-        "title": "Bumble teases a swipe-free future as it doubles down on IRL meetups",
-        "link": "https://techcrunch.com/2026/08/06/bumble-teases-a-swipe-free-future-as-it-doubles-down-on-irl-meetups/",
-        "date": "2026-08-06T17:39:47+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "APT41": [
-      {
-        "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-        "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-        "date": "2026-08-06T17:00:56+00:00",
-        "source": "KrebsOnSecurity"
-      },
-      {
-        "title": "Hacker pleads guilty to stealing data from more than 165 Snowflake customers",
-        "link": "https://techcrunch.com/2026/08/06/hacker-pleads-guilty-to-stealing-data-from-more-than-165-snowflake-customers/",
-        "date": "2026-08-06T16:42:40+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
-        "link": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
-        "date": "2026-08-06T11:34:30+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Canadian pleads guilty to Snowflake cloud data-theft attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
-        "date": "2026-08-05T17:53:26-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "JCrypt": [
-      {
-        "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
-        "link": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
-        "date": "2026-08-06T17:00:00+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "ONI": [
-      {
-        "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
-        "link": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
-        "date": "2026-08-06T17:00:00+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "15 TP-Link Bugs Expose Risks in Zero-Trust Provisioning",
-        "link": "https://www.darkreading.com/endpoint-security/15-tp-link-bugs-risks-zero-trust-provisioning",
-        "date": "2026-08-05T19:08:36+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Silent": [
-      {
-        "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
-        "link": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
-        "date": "2026-08-06T17:00:00+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "UNC6671": [
-      {
-        "title": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
-        "link": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
-        "date": "2026-08-06T16:07:24-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Hunt": [
-      {
-        "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
-        "link": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
-        "date": "2026-08-06T14:49:23+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Hackers run khunt post-exploitation toolkit from Oracle database",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
-        "date": "2026-08-05T15:55:25-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Root": [
-      {
-        "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
-        "link": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
-        "date": "2026-08-06T13:35:22+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Ank": [
-      {
-        "title": "From ranking to recommended: get your site ready to thrive in the age of AI agents",
-        "link": "https://blog.cloudflare.com/aeo/",
-        "date": "2026-08-06T13:00:00+00:00",
-        "source": "Cloudflare"
-      }
-    ],
     "Hacked": [
       {
         "title": "Meta AI model hacked a company during misconfigured cyber test",
         "link": "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/",
         "date": "2026-08-06T12:11:39-04:00",
         "source": "BleepingComputer"
-      }
-    ],
-    "AnDROid": [
-      {
-        "title": "Best Android Charger: Wireless, Portable, Cable (2026)",
-        "link": "https://www.wired.com/story/best-android-charger/",
-        "date": "2026-08-06T11:34:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Quantum": [
-      {
-        "title": "Microsoft’s Quantum Chief Doesn’t Care That Scientists Don’t Believe His Results",
-        "link": "https://www.wired.com/story/microsoft-quantum-chief-majorana-results/",
-        "date": "2026-08-06T11:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Shark": [
-      {
-        "title": "Shark PowerDetect Speed Review (2026): Light and Powerful",
-        "link": "https://www.wired.com/review/shark-powerdetect-speed/",
-        "date": "2026-08-06T10:30:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "RIP (Phoenix) Ransomware": [
-      {
-        "title": "12 Best Coffee Subscriptions (2026), Tested by Caffeine Hounds",
-        "link": "https://www.wired.com/gallery/best-coffee-subscriptions/",
-        "date": "2026-08-06T10:02:00+00:00",
-        "source": "Wired"
       }
     ],
     "global": [
@@ -471,6 +481,14 @@
         "source": "DarkReading"
       }
     ],
+    "ONI": [
+      {
+        "title": "15 TP-Link Bugs Expose Risks in Zero-Trust Provisioning",
+        "link": "https://www.darkreading.com/endpoint-security/15-tp-link-bugs-risks-zero-trust-provisioning",
+        "date": "2026-08-05T19:08:36+00:00",
+        "source": "DarkReading"
+      }
+    ],
     "Python": [
       {
         "title": "Flaws in Google APK for Python Unlock Agent-to-Agent Attack",
@@ -487,19 +505,11 @@
         "source": "Palo Alto Networks"
       }
     ],
-    "Aware": [
+    "Hunt": [
       {
-        "title": "Catching rogue AI behavior with identity-aware analytics",
-        "link": "https://blog.cloudflare.com/identity-aware-ai-gateway/",
-        "date": "2026-08-05T13:00:00+00:00",
-        "source": "Cloudflare"
-      }
-    ],
-    "RNS": [
-      {
-        "title": "CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
-        "date": "2026-08-05T11:51:33-04:00",
+        "title": "Hackers run khunt post-exploitation toolkit from Oracle database",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
+        "date": "2026-08-05T15:55:25-04:00",
         "source": "BleepingComputer"
       }
     ],

@@ -33,8 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [AI Recommendation Poisoning: How "Ask AI" Buttons Silently Alter LLM Memory](https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html)
-  The Hacker News - 2026-08-06T
 - [15 TP-Link Bugs Expose Risks in Zero-Trust Provisioning](https://www.darkreading.com/endpoint-security/15-tp-link-bugs-risks-zero-trust-provisioning)
   DarkReading - 2026-08-05T
 

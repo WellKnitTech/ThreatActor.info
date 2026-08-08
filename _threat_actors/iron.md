@@ -30,3 +30,9 @@ It is currently unknown if Iron is indeed a new variant by the same creators of 
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say](https://techcrunch.com/2026/08/07/chinese-ai-model-kimi-escaped-its-cybersecurity-testing-environment-researchers-say/)
+  TechCrunch - 2026-08-07T
+

@@ -30,9 +30,3 @@ Quantum is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Microsoft’s Quantum Chief Doesn’t Care That Scientists Don’t Believe His Results](https://www.wired.com/story/microsoft-quantum-chief-majorana-results/)
-  Wired - 2026-08-06T
-

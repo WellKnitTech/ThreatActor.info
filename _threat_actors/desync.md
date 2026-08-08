@@ -30,3 +30,9 @@ This crypto ransomware encrypts enterprise LAN data with AES (ECB mode), and the
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day](https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html)
+  The Hacker News - 2026-08-07T
+
