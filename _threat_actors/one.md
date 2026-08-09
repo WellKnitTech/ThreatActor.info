@@ -35,6 +35,4 @@ ransomware
 
 - [UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data](https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html)
   The Hacker News - 2026-08-07T
-- [Best Webcams (2026): My Honest Take After Testing the Best](https://www.wired.com/story/best-webcams/)
-  Wired - 2026-08-07T
 

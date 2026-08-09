@@ -48,10 +48,10 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
   TechCrunch - 2026-08-07T
 - [Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say](https://techcrunch.com/2026/08/07/chinese-ai-model-kimi-escaped-its-cybersecurity-testing-environment-researchers-say/)
   TechCrunch - 2026-08-07T
-- [Airbnb says AI is helping it ship features faster as it tests a new search function](https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/)
-  TechCrunch - 2026-08-07T
 - [Introducing Radar Researcher: An AI tool for exploring Internet data in plain language](https://blog.cloudflare.com/introducing-radar-researcher/)
   Cloudflare - 2026-08-07T
 - [Black Hat 2026: Check Point Research Takes the Stage](https://blog.checkpoint.com/research/black-hat-2026-check-point-research-takes-the-stage/)
   Check Point - 2026-08-06T
+- [Researcher Claims Control of ChatGPT Secure Sandbox](https://www.darkreading.com/cloud-security/researcher-claims-control-chatgpt-secure-sandbox)
+  DarkReading - 2026-08-06T
 
