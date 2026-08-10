@@ -44,14 +44,12 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Security researchers scanned the Polish web and found courts, hospitals, and airports at risk of hacks](https://techcrunch.com/2026/08/07/security-researchers-scanned-the-polish-web-and-found-courts-hospitals-and-airports-at-risk-of-hacks/)
-  TechCrunch - 2026-08-07T
-- [Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say](https://techcrunch.com/2026/08/07/chinese-ai-model-kimi-escaped-its-cybersecurity-testing-environment-researchers-say/)
-  TechCrunch - 2026-08-07T
 - [Introducing Radar Researcher: An AI tool for exploring Internet data in plain language](https://blog.cloudflare.com/introducing-radar-researcher/)
   Cloudflare - 2026-08-07T
 - [Black Hat 2026: Check Point Research Takes the Stage](https://blog.checkpoint.com/research/black-hat-2026-check-point-research-takes-the-stage/)
   Check Point - 2026-08-06T
 - [Researcher Claims Control of ChatGPT Secure Sandbox](https://www.darkreading.com/cloud-security/researcher-claims-control-chatgpt-secure-sandbox)
   DarkReading - 2026-08-06T
+- [Cloudflare AI Search: give your agents a search engine for your data ](https://blog.cloudflare.com/ai-search-easier/)
+  Cloudflare - 2026-08-06T
 

@@ -33,8 +33,8 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Best Solar Generators for Off-Grid Trips, RVs, and Home Backup](https://www.wired.com/story/best-solar-generators/)
-  Wired - 2026-08-08T
+- [Meetily Lets You Transcribe and Summarize Meetings Without a Subscription—Here’s How](https://www.wired.com/story/meetily-lets-you-transcribe-and-summarize-meetings-without-a-subscription-heres-how/)
+  Wired - 2026-08-09T
 - [After Rippling blew millions on AI in months, it built an employee ROI tool](https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/)
   TechCrunch - 2026-08-07T
 

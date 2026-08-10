@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [The Complicated Case of Passing On Your Digital Estate](https://www.wired.com/story/digital-estate-planning-tips/)
+  Wired - 2026-08-09T
+- [8 Best Workout Headphones & Earbuds: Beats, Bose, Apple (2026)](https://www.wired.com/story/the-best-workout-headphones-and-earbuds/)
+  Wired - 2026-08-09T
 - [Planned Amazon data center could become the biggest climate polluter in the U.S.](https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/)
   TechCrunch - 2026-08-08T
 - [X replaces ‘misaligned’ revenue sharing program with Original Content Rewards](https://techcrunch.com/2026/08/08/x-replaces-misaligned-revenue-sharing-program-with-original-content-rewards/)
   TechCrunch - 2026-08-08T
 - [Google’s top hacker hunter explains why hacking groups get codenames](https://techcrunch.com/2026/08/08/googles-top-hacker-hunter-explains-why-hacking-groups-get-codenames/)
   TechCrunch - 2026-08-08T
-- [Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication](https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html)
-  The Hacker News - 2026-08-08T
-- [Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts](https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html)
-  The Hacker News - 2026-08-08T
 

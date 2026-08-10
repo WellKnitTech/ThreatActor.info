@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Planned Amazon data center could become the biggest climate polluter in the U.S.](https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/)
-  TechCrunch - 2026-08-08T
-- [OpenAI acquires presentation startup NextSlide](https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/)
-  TechCrunch - 2026-08-08T
-- [X replaces ‘misaligned’ revenue sharing program with Original Content Rewards](https://techcrunch.com/2026/08/08/x-replaces-misaligned-revenue-sharing-program-with-original-content-rewards/)
-  TechCrunch - 2026-08-08T
-- [The Kindle Scribe Colorsoft is a lot of fun, but it’s not a must-have](https://techcrunch.com/2026/08/08/the-kindle-scribe-colorsoft-is-a-lot-of-fun-but-its-not-a-must-have/)
-  TechCrunch - 2026-08-08T
-- [Google’s top hacker hunter explains why hacking groups get codenames](https://techcrunch.com/2026/08/08/googles-top-hacker-hunter-explains-why-hacking-groups-get-codenames/)
-  TechCrunch - 2026-08-08T
+- [Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry](https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/)
+  TechCrunch - 2026-08-09T
+- [Anthropic is turning Claude Code’s auto mode on by default](https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/)
+  TechCrunch - 2026-08-09T
+- [TechCrunch Mobility: Zoox prepares for launch and Uber’s AV empire](https://techcrunch.com/2026/08/09/techcrunch-mobility-zoox-prepares-for-launch-and-ubers-av-empire/)
+  TechCrunch - 2026-08-09T
+- [Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy](https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/)
+  TechCrunch - 2026-08-09T
+- [The AI safety test is becoming a safety risk](https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/)
+  TechCrunch - 2026-08-09T
 

@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy](https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/)
+  TechCrunch - 2026-08-09T
+- [This ‘adversarial’ pattern can prevent surveillance cameras from detecting you](https://techcrunch.com/2026/08/09/this-adversarial-pattern-can-prevent-surveillance-cameras-from-detecting-you/)
+  TechCrunch - 2026-08-09T
+- [4 Best Compression Boots: Therabody, Hyperice, and More (2026)](https://www.wired.com/story/best-compression-boots/)
+  Wired - 2026-08-09T
+- [Meetily Lets You Transcribe and Summarize Meetings Without a Subscription—Here’s How](https://www.wired.com/story/meetily-lets-you-transcribe-and-summarize-meetings-without-a-subscription-heres-how/)
+  Wired - 2026-08-09T
 - [X replaces ‘misaligned’ revenue sharing program with Original Content Rewards](https://techcrunch.com/2026/08/08/x-replaces-misaligned-revenue-sharing-program-with-original-content-rewards/)
   TechCrunch - 2026-08-08T
-- [Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers](https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html)
-  The Hacker News - 2026-08-08T
-- [Census Proposal Would Stop Counting Undocumented Immigrants—and Ignore Race and Sexual Orientation](https://www.wired.com/story/census-proposal-would-stop-counting-undocumented-immigrants-and-ignore-race-and-sexual-orientation/)
-  Wired - 2026-08-08T
-- [N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist](https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html)
-  The Hacker News - 2026-08-08T
-- [Here Are the First Images of the Crater Left on the Moon by SpaceX’s Rocket](https://www.wired.com/story/first-images-spacex-rocket-moon-crater/)
-  Wired - 2026-08-08T
 

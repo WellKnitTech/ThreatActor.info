@@ -33,6 +33,8 @@ Ransomware only encrypts .jpg files
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy](https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/)
+  TechCrunch - 2026-08-09T
 - [From Bobmojis to Bobbleheads: How the Democratic Party Built a Security-First Culture](https://www.darkreading.com/cybersecurity-operations/from-bobmojis-to-bobbleheads-how-the-democratic-party-built-a-security-first-culture)
   DarkReading - 2026-08-06T
 

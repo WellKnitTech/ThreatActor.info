@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [8 Best Workout Headphones & Earbuds: Beats, Bose, Apple (2026)](https://www.wired.com/story/the-best-workout-headphones-and-earbuds/)
+  Wired - 2026-08-09T
+

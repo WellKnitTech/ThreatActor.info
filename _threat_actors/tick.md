@@ -43,9 +43,3 @@ Tick is a cyber espionage group with likely Chinese origins that has been active
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Today’s the last day to get up to $400 off your TechCrunch Disrupt 2026 ticket](https://techcrunch.com/2026/08/07/todays-the-last-day-to-get-up-to-400-off-your-techcrunch-disrupt-2026-ticket/)
-  TechCrunch - 2026-08-07T
-
