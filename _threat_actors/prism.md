@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Prisma AIRS - Unified Data Protection for Claude](https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/)
-  Palo Alto Networks - 2026-08-05T
-

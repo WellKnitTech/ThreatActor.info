@@ -35,3 +35,9 @@ aka Cring / Ghost (Cring) <br/> <br/>Beginning early 2021, Ghost actors began at
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- ['GhostJacking' Exposes Identity Governance Gaps in AI Agents](https://www.darkreading.com/cyber-risk/ghostjacking-identity-governance-gaps-ai-agents)
+  DarkReading - 2026-08-10T
+

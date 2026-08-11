@@ -33,10 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [This former notorious red-light district is now one of the world’s top AI hubs](https://techcrunch.com/2026/08/09/this-former-notorious-red-light-district-is-now-one-of-the-worlds-top-ai-hubs/)
-  TechCrunch - 2026-08-09T
-- [8 Best Workout Headphones & Earbuds: Beats, Bose, Apple (2026)](https://www.wired.com/story/the-best-workout-headphones-and-earbuds/)
-  Wired - 2026-08-09T
-- [UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data](https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html)
-  The Hacker News - 2026-08-07T
+- [YouTube now requires creators to have twice as many watch hours to start earning money](https://techcrunch.com/2026/08/10/youtube-now-requires-creators-to-have-twice-as-many-watch-hours-to-start-earning-money/)
+  TechCrunch - 2026-08-10T
+- [Clicks’ Power Keyboard brings BlackBerry-style typing to any phone — with some compromises](https://techcrunch.com/2026/08/10/clicks-power-keyboard-brings-blackberry-style-typing-to-any-phone-with-some-compromises/)
+  TechCrunch - 2026-08-10T
 

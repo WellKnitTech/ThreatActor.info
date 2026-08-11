@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Orange Crush: TAG Heuer Drops a Bright Revamp of the Original Metal F1 Watch](https://www.wired.com/story/orange-crush-tag-heuer-drops-a-bright-revamp-of-the-original-metal-f1-watch/)
+  Wired - 2026-08-10T
+

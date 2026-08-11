@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The Complicated Case of Passing On Your Digital Estate](https://www.wired.com/story/digital-estate-planning-tips/)
-  Wired - 2026-08-09T
-- [8 Best Workout Headphones & Earbuds: Beats, Bose, Apple (2026)](https://www.wired.com/story/the-best-workout-headphones-and-earbuds/)
-  Wired - 2026-08-09T
-- [Planned Amazon data center could become the biggest climate polluter in the U.S.](https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/)
-  TechCrunch - 2026-08-08T
-- [X replaces ‘misaligned’ revenue sharing program with Original Content Rewards](https://techcrunch.com/2026/08/08/x-replaces-misaligned-revenue-sharing-program-with-original-content-rewards/)
-  TechCrunch - 2026-08-08T
-- [Google’s top hacker hunter explains why hacking groups get codenames](https://techcrunch.com/2026/08/08/googles-top-hacker-hunter-explains-why-hacking-groups-get-codenames/)
-  TechCrunch - 2026-08-08T
+- [OpenAI reportedly completed a $7 billion employee tender offer](https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/)
+  TechCrunch - 2026-08-11T
+- [As AI-led attacks multiply, OpenAI launches a new cyber model](https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/)
+  TechCrunch - 2026-08-10T
+- [Now Rippling is counter-suing tiny startup Runlayer](https://techcrunch.com/2026/08/10/now-rippling-is-counter-suing-tiny-startup-runlayer/)
+  TechCrunch - 2026-08-10T
+- [China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw](https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html)
+  The Hacker News - 2026-08-10T
+- [Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI](https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/)
+  TechCrunch - 2026-08-10T
 

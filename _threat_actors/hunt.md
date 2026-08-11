@@ -31,9 +31,3 @@ Hunt ransomware is a variant of the Dharma/CrySIS ransomware family. This varian
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Google’s top hacker hunter explains why hacking groups get codenames](https://techcrunch.com/2026/08/08/googles-top-hacker-hunter-explains-why-hacking-groups-get-codenames/)
-  TechCrunch - 2026-08-08T
-

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T03:51:28Z",
+  "updated": "2026-08-11T03:41:24Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,258 +19,230 @@
     "Rapid7"
   ],
   "actor_news": {
-    "Aware": [
+    "PL": [
       {
-        "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
-        "link": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
-        "date": "2026-08-09T20:35:17+00:00",
+        "title": "OpenAI reportedly completed a $7 billion employee tender offer",
+        "link": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
+        "date": "2026-08-11T00:03:18+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
+        "link": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
+        "date": "2026-08-10T23:56:15+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Now Rippling is counter-suing tiny startup Runlayer",
+        "link": "https://techcrunch.com/2026/08/10/now-rippling-is-counter-suing-tiny-startup-runlayer/",
+        "date": "2026-08-10T22:26:54+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
+        "link": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
+        "date": "2026-08-10T22:08:37+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI",
+        "link": "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/",
+        "date": "2026-08-10T20:53:02+00:00",
         "source": "TechCrunch"
       }
     ],
     "R": [
       {
-        "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
-        "link": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
-        "date": "2026-08-09T20:35:17+00:00",
+        "title": "OpenAI reportedly completed a $7 billion employee tender offer",
+        "link": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
+        "date": "2026-08-11T00:03:18+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "Anthropic is turning Claude Code’s auto mode on by default",
-        "link": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
-        "date": "2026-08-09T19:20:32+00:00",
+        "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
+        "link": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
+        "date": "2026-08-10T23:56:15+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "TechCrunch Mobility: Zoox prepares for launch and Uber’s AV empire",
-        "link": "https://techcrunch.com/2026/08/09/techcrunch-mobility-zoox-prepares-for-launch-and-ubers-av-empire/",
-        "date": "2026-08-09T16:05:00+00:00",
+        "title": "Jeff Bezos might finally get his hands on a sports team",
+        "link": "https://techcrunch.com/2026/08/10/jeff-bezos-might-finally-get-his-hands-on-a-sports-team/",
+        "date": "2026-08-10T23:16:44+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
-        "link": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
-        "date": "2026-08-09T15:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "The AI safety test is becoming a safety risk",
-        "link": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
-        "date": "2026-08-09T14:30:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Sea Turtle": [
-      {
-        "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
-        "link": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
-        "date": "2026-08-09T15:00:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Demo": [
-      {
-        "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
-        "link": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
-        "date": "2026-08-09T15:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "From Bobmojis to Bobbleheads: How the Democratic Party Built a Security-First Culture",
-        "link": "https://www.darkreading.com/cybersecurity-operations/from-bobmojis-to-bobbleheads-how-the-democratic-party-built-a-security-first-culture",
-        "date": "2026-08-06T19:00:11+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Ra": [
-      {
-        "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
-        "link": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
-        "date": "2026-08-09T15:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "This ‘adversarial’ pattern can prevent surveillance cameras from detecting you",
-        "link": "https://techcrunch.com/2026/08/09/this-adversarial-pattern-can-prevent-surveillance-cameras-from-detecting-you/",
-        "date": "2026-08-09T14:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "4 Best Compression Boots: Therabody, Hyperice, and More (2026)",
-        "link": "https://www.wired.com/story/best-compression-boots/",
-        "date": "2026-08-09T11:04:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Meetily Lets You Transcribe and Summarize Meetings Without a Subscription—Here’s How",
-        "link": "https://www.wired.com/story/meetily-lets-you-transcribe-and-summarize-meetings-without-a-subscription-heres-how/",
-        "date": "2026-08-09T10:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "X replaces ‘misaligned’ revenue sharing program with Original Content Rewards",
-        "link": "https://techcrunch.com/2026/08/08/x-replaces-misaligned-revenue-sharing-program-with-original-content-rewards/",
-        "date": "2026-08-08T16:34:22+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "District": [
-      {
-        "title": "This former notorious red-light district is now one of the world’s top AI hubs",
-        "link": "https://techcrunch.com/2026/08/09/this-former-notorious-red-light-district-is-now-one-of-the-worlds-top-ai-hubs/",
-        "date": "2026-08-09T13:00:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Light": [
-      {
-        "title": "This former notorious red-light district is now one of the world’s top AI hubs",
-        "link": "https://techcrunch.com/2026/08/09/this-former-notorious-red-light-district-is-now-one-of-the-worlds-top-ai-hubs/",
-        "date": "2026-08-09T13:00:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "One": [
-      {
-        "title": "This former notorious red-light district is now one of the world’s top AI hubs",
-        "link": "https://techcrunch.com/2026/08/09/this-former-notorious-red-light-district-is-now-one-of-the-worlds-top-ai-hubs/",
-        "date": "2026-08-09T13:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "8 Best Workout Headphones & Earbuds: Beats, Bose, Apple (2026)",
-        "link": "https://www.wired.com/story/the-best-workout-headphones-and-earbuds/",
-        "date": "2026-08-09T09:37:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
-        "link": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
-        "date": "2026-08-07T23:46:13+05:30",
+        "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
+        "link": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
+        "date": "2026-08-10T22:59:17+05:30",
         "source": "The Hacker News"
+      },
+      {
+        "title": "Now Rippling is counter-suing tiny startup Runlayer",
+        "link": "https://techcrunch.com/2026/08/10/now-rippling-is-counter-suing-tiny-startup-runlayer/",
+        "date": "2026-08-10T22:26:54+00:00",
+        "source": "TechCrunch"
       }
     ],
-    "PL": [
+    "Final": [
       {
-        "title": "The Complicated Case of Passing On Your Digital Estate",
-        "link": "https://www.wired.com/story/digital-estate-planning-tips/",
-        "date": "2026-08-09T11:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "8 Best Workout Headphones & Earbuds: Beats, Bose, Apple (2026)",
-        "link": "https://www.wired.com/story/the-best-workout-headphones-and-earbuds/",
-        "date": "2026-08-09T09:37:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
-        "link": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
-        "date": "2026-08-08T21:24:02+00:00",
+        "title": "Jeff Bezos might finally get his hands on a sports team",
+        "link": "https://techcrunch.com/2026/08/10/jeff-bezos-might-finally-get-his-hands-on-a-sports-team/",
+        "date": "2026-08-10T23:16:44+00:00",
         "source": "TechCrunch"
-      },
+      }
+    ],
+    "Sport": [
       {
-        "title": "X replaces ‘misaligned’ revenue sharing program with Original Content Rewards",
-        "link": "https://techcrunch.com/2026/08/08/x-replaces-misaligned-revenue-sharing-program-with-original-content-rewards/",
-        "date": "2026-08-08T16:34:22+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Google’s top hacker hunter explains why hacking groups get codenames",
-        "link": "https://techcrunch.com/2026/08/08/googles-top-hacker-hunter-explains-why-hacking-groups-get-codenames/",
-        "date": "2026-08-08T15:00:00+00:00",
+        "title": "Jeff Bezos might finally get his hands on a sports team",
+        "link": "https://techcrunch.com/2026/08/10/jeff-bezos-might-finally-get-his-hands-on-a-sports-team/",
+        "date": "2026-08-10T23:16:44+00:00",
         "source": "TechCrunch"
       }
     ],
     "RIP (Phoenix) Ransomware": [
       {
+        "title": "Now Rippling is counter-suing tiny startup Runlayer",
+        "link": "https://techcrunch.com/2026/08/10/now-rippling-is-counter-suing-tiny-startup-runlayer/",
+        "date": "2026-08-10T22:26:54+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "A data breach at shipping giant Ceva Logistics is rippling across banks, retailers, Steam gamers, and beyond",
+        "link": "https://techcrunch.com/2026/08/10/a-data-breach-at-shipping-giant-ceva-logistics-is-rippling-across-banks-retailers-steam-gamers-and-beyond/",
+        "date": "2026-08-10T14:20:19+00:00",
+        "source": "TechCrunch"
+      },
+      {
         "title": "Meetily Lets You Transcribe and Summarize Meetings Without a Subscription—Here’s How",
         "link": "https://www.wired.com/story/meetily-lets-you-transcribe-and-summarize-meetings-without-a-subscription-heres-how/",
         "date": "2026-08-09T10:30:00+00:00",
         "source": "Wired"
+      }
+    ],
+    "CryLocker": [
+      {
+        "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
+        "link": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
+        "date": "2026-08-10T22:08:37+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
-        "link": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
-        "date": "2026-08-07T21:30:11+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Bud": [
+        "title": "New StormEncryptor ransomware used by former Medusa affiliate",
+        "link": "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
+        "date": "2026-08-10T13:42:00-04:00",
+        "source": "BleepingComputer"
+      },
       {
-        "title": "8 Best Workout Headphones & Earbuds: Beats, Bose, Apple (2026)",
-        "link": "https://www.wired.com/story/the-best-workout-headphones-and-earbuds/",
-        "date": "2026-08-09T09:37:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "APT3": [
+        "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
+        "link": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html",
+        "date": "2026-08-10T13:08:23+05:30",
+        "source": "The Hacker News"
+      },
       {
-        "title": "Google’s top hacker hunter explains why hacking groups get codenames",
-        "link": "https://techcrunch.com/2026/08/08/googles-top-hacker-hunter-explains-why-hacking-groups-get-codenames/",
-        "date": "2026-08-08T15:00:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Hunt": [
-      {
-        "title": "Google’s top hacker hunter explains why hacking groups get codenames",
-        "link": "https://techcrunch.com/2026/08/08/googles-top-hacker-hunter-explains-why-hacking-groups-get-codenames/",
-        "date": "2026-08-08T15:00:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "ATLAS": [
-      {
-        "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
-        "link": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
-        "date": "2026-08-08T14:24:50+05:30",
+        "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
+        "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
+        "date": "2026-08-07T23:59:08+05:30",
         "source": "The Hacker News"
       }
     ],
-    "DDE": [
+    "EnCrypt": [
       {
-        "title": "The Sharpest Image Ever Taken of the Sun Reveals a Hidden Phenomenon",
-        "link": "https://www.wired.com/story/the-sharpest-image-ever-taken-of-the-sun-reveals-a-beautiful-hidden-phenomenon/",
-        "date": "2026-08-08T13:00:00+00:00",
-        "source": "Wired"
+        "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
+        "link": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
+        "date": "2026-08-10T22:08:37+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "CSS: The Hidden Threat Lurking in Your Inbox",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/css-hidden-threat-lurking-inbox",
-        "date": "2026-08-05T19:47:55+00:00",
+        "title": "New StormEncryptor ransomware used by former Medusa affiliate",
+        "link": "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
+        "date": "2026-08-10T13:42:00-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Ra": [
+      {
+        "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
+        "link": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
+        "date": "2026-08-10T22:08:37+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "The Permanent Threat: Analyzing Aeternum’s Blockchain-Based C2 Operations and Communications",
+        "link": "https://unit42.paloaltonetworks.com/aeternum-blockchain-c2-analysis/",
+        "date": "2026-08-10T22:00:02+00:00",
+        "source": "Unit 42"
+      },
+      {
+        "title": "Multistate Water System Attacks Widen, Iran Suspected",
+        "link": "https://www.darkreading.com/ics-ot-security/multistate-water-system-attacks-widen-iran-suspected",
+        "date": "2026-08-10T21:34:38+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius",
+        "date": "2026-08-10T21:02:23+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "Coruna, DarkSword iOS Exploits Proliferate Globally",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/coruna-darksword-ios-exploits-proliferate-globally",
+        "date": "2026-08-10T17:09:20+00:00",
         "source": "DarkReading"
       }
     ],
-    "SunCrypt": [
+    "Storm": [
       {
-        "title": "The Sharpest Image Ever Taken of the Sun Reveals a Hidden Phenomenon",
-        "link": "https://www.wired.com/story/the-sharpest-image-ever-taken-of-the-sun-reveals-a-beautiful-hidden-phenomenon/",
-        "date": "2026-08-08T13:00:00+00:00",
-        "source": "Wired"
+        "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
+        "link": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
+        "date": "2026-08-10T22:08:37+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "New StormEncryptor ransomware used by former Medusa affiliate",
+        "link": "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
+        "date": "2026-08-10T13:42:00-04:00",
+        "source": "BleepingComputer"
       }
     ],
-    "Ogre": [
+    "ghost": [
       {
-        "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
-        "link": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
-        "date": "2026-08-08T12:22:16+05:30",
+        "title": "'GhostJacking' Exposes Identity Governance Gaps in AI Agents",
+        "link": "https://www.darkreading.com/cyber-risk/ghostjacking-identity-governance-gaps-ai-agents",
+        "date": "2026-08-10T21:54:22+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Hacked": [
+      {
+        "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
+        "link": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
+        "date": "2026-08-10T20:04:24+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Kimsuky": [
+      {
+        "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
+        "link": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
+        "date": "2026-08-10T18:49:58+05:30",
         "source": "The Hacker News"
       }
     ],
-    "Rocke": [
+    "Play": [
       {
-        "title": "Here Are the First Images of the Crater Left on the Moon by SpaceX’s Rocket",
-        "link": "https://www.wired.com/story/first-images-spacex-rocket-moon-crater/",
-        "date": "2026-08-08T12:00:00+00:00",
-        "source": "Wired"
+        "title": "Aptoide becomes the first rival app store to return to Google Play in the US",
+        "link": "https://techcrunch.com/2026/08/10/aptoide-becomes-the-first-rival-app-store-to-return-to-google-play-in-the-us/",
+        "date": "2026-08-10T18:31:54+00:00",
+        "source": "TechCrunch"
       }
     ],
     "First": [
       {
-        "title": "Here Are the First Images of the Crater Left on the Moon by SpaceX’s Rocket",
-        "link": "https://www.wired.com/story/first-images-spacex-rocket-moon-crater/",
-        "date": "2026-08-08T12:00:00+00:00",
-        "source": "Wired"
+        "title": "Aptoide becomes the first rival app store to return to Google Play in the US",
+        "link": "https://techcrunch.com/2026/08/10/aptoide-becomes-the-first-rival-app-store-to-return-to-google-play-in-the-us/",
+        "date": "2026-08-10T18:31:54+00:00",
+        "source": "TechCrunch"
       },
       {
         "title": "From Bobmojis to Bobbleheads: How the Democratic Party Built a Security-First Culture",
@@ -285,48 +257,32 @@
         "source": "Cloudflare"
       }
     ],
-    "Trojan": [
+    "One": [
       {
-        "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
-        "date": "2026-08-08T10:16:23-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Mini": [
-      {
-        "title": "How to Disable Gemini in Gmail and Google Docs",
-        "link": "https://www.wired.com/story/how-to-disable-the-gemini-ai-features-in-gmail-and-google-docs/",
-        "date": "2026-08-08T10:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "CryLocker": [
-      {
-        "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
-        "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
-        "date": "2026-08-07T23:59:08+05:30",
-        "source": "The Hacker News"
+        "title": "YouTube now requires creators to have twice as many watch hours to start earning money",
+        "link": "https://techcrunch.com/2026/08/10/youtube-now-requires-creators-to-have-twice-as-many-watch-hours-to-start-earning-money/",
+        "date": "2026-08-10T18:27:44+00:00",
+        "source": "TechCrunch"
       },
       {
-        "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
-        "date": "2026-08-06T18:37:17-04:00",
-        "source": "BleepingComputer"
+        "title": "Clicks’ Power Keyboard brings BlackBerry-style typing to any phone — with some compromises",
+        "link": "https://techcrunch.com/2026/08/10/clicks-power-keyboard-brings-blackberry-style-typing-to-any-phone-with-some-compromises/",
+        "date": "2026-08-10T18:00:39+00:00",
+        "source": "TechCrunch"
       }
     ],
     "Lick": [
       {
+        "title": "Clicks’ Power Keyboard brings BlackBerry-style typing to any phone — with some compromises",
+        "link": "https://techcrunch.com/2026/08/10/clicks-power-keyboard-brings-blackberry-style-typing-to-any-phone-with-some-compromises/",
+        "date": "2026-08-10T18:00:39+00:00",
+        "source": "TechCrunch"
+      },
+      {
         "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
         "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
         "date": "2026-08-07T23:59:08+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
-        "date": "2026-08-06T18:37:17-04:00",
-        "source": "BleepingComputer"
       },
       {
         "title": "AI Browsers Vulnerable to 'PleaseFix' Zero-Click Agent Hijacking",
@@ -335,111 +291,51 @@
         "source": "DarkReading"
       }
     ],
-    "UNC6671": [
+    "Defender": [
       {
-        "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
-        "link": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
-        "date": "2026-08-07T23:46:13+05:30",
-        "source": "The Hacker News"
+        "title": "The Patch Gap: Why Defenders Need to Think in Chains, Not Checklists",
+        "link": "https://www.darkreading.com/cybersecurity-operations/patch-gap-defenders-chains-not-checklists",
+        "date": "2026-08-10T17:56:34+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "global": [
+      {
+        "title": "Coruna, DarkSword iOS Exploits Proliferate Globally",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/coruna-darksword-ios-exploits-proliferate-globally",
+        "date": "2026-08-10T17:09:20+00:00",
+        "source": "DarkReading"
       },
       {
-        "title": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
-        "link": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
-        "date": "2026-08-06T16:07:24-04:00",
-        "source": "BleepingComputer"
+        "title": "AI Sends Global Crime Syndicates Into Fraud Nirvana",
+        "link": "https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana",
+        "date": "2026-08-05T23:35:28+00:00",
+        "source": "DarkReading"
       }
     ],
-    "RNS": [
+    "Sandworm Team": [
       {
-        "title": "OpenAI says it slowed Astra model development over security concerns",
-        "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
-        "date": "2026-08-07T22:48:24+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "APT41": [
-      {
-        "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
-        "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
-        "date": "2026-08-07T18:26:23+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "The Top Exposure Management Questions Security Leaders Ask (Part 1)",
-        "link": "https://blog.checkpoint.com/exposure-management/the-top-exposure-management-questions-security-leaders-ask-part-1/",
-        "date": "2026-08-07T13:00:28+00:00",
-        "source": "Check Point"
-      },
-      {
-        "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-        "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-        "date": "2026-08-06T17:00:56+00:00",
-        "source": "KrebsOnSecurity"
-      },
-      {
-        "title": "Canadian pleads guilty to Snowflake cloud data-theft attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
-        "date": "2026-08-05T17:53:26-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "PHP": [
-      {
-        "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
-        "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
-        "date": "2026-08-07T18:26:23+05:30",
+        "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
+        "link": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
+        "date": "2026-08-10T17:03:41+05:30",
         "source": "The Hacker News"
       }
     ],
-    "Root": [
+    "core": [
       {
-        "title": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers",
-        "link": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
-        "date": "2026-08-07T16:40:33+05:30",
+        "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
+        "link": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
+        "date": "2026-08-10T17:03:41+05:30",
         "source": "The Hacker News"
-      }
-    ],
-    "DN": [
-      {
-        "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
-        "link": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
-        "date": "2026-08-07T16:28:38+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Desync": [
-      {
-        "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
-        "link": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
-        "date": "2026-08-07T15:39:54+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Rapid": [
-      {
-        "title": "Rapid7 Analysis: Unauthenticated Remote Code Execution in JetBrains TeamCity (CVE-2026-63077)",
-        "link": "https://www.rapid7.com/blog/post/ra-unauthenticated-rce-in-jetbrains-teamcity-cve-2026-63077",
-        "date": "2026-08-07T14:32:47+00:00",
-        "source": "Rapid7"
-      }
-    ],
-    "AMBA": [
-      {
-        "title": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
-        "link": "https://blog.cloudflare.com/community-program-refresh/",
-        "date": "2026-08-07T13:00:00+00:00",
-        "source": "Cloudflare"
-      }
-    ],
-    "SAD": [
-      {
-        "title": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
-        "link": "https://blog.cloudflare.com/community-program-refresh/",
-        "date": "2026-08-07T13:00:00+00:00",
-        "source": "Cloudflare"
       }
     ],
     "Deadeye Jackal": [
+      {
+        "title": "Outdated Cybercrime Laws Put Security Researchers at Risk",
+        "link": "https://www.darkreading.com/application-security/outdated-cybercrime-laws-security-researchers-risk",
+        "date": "2026-08-10T16:25:22+00:00",
+        "source": "DarkReading"
+      },
       {
         "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
         "link": "https://blog.cloudflare.com/introducing-radar-researcher/",
@@ -462,6 +358,160 @@
         "title": "Cloudflare AI Search: give your agents a search engine for your data ",
         "link": "https://blog.cloudflare.com/ai-search-easier/",
         "date": "2026-08-06T13:00:00+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "Rush": [
+      {
+        "title": "Orange Crush: TAG Heuer Drops a Bright Revamp of the Original Metal F1 Watch",
+        "link": "https://www.wired.com/story/orange-crush-tag-heuer-drops-a-bright-revamp-of-the-original-metal-f1-watch/",
+        "date": "2026-08-10T14:47:52+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Ank": [
+      {
+        "title": "A data breach at shipping giant Ceva Logistics is rippling across banks, retailers, Steam gamers, and beyond",
+        "link": "https://techcrunch.com/2026/08/10/a-data-breach-at-shipping-giant-ceva-logistics-is-rippling-across-banks-retailers-steam-gamers-and-beyond/",
+        "date": "2026-08-10T14:20:19+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "From ranking to recommended: get your site ready to thrive in the age of AI agents",
+        "link": "https://blog.cloudflare.com/aeo/",
+        "date": "2026-08-06T13:00:00+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "Medusa": [
+      {
+        "title": "New StormEncryptor ransomware used by former Medusa affiliate",
+        "link": "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
+        "date": "2026-08-10T13:42:00-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Ramp": [
+      {
+        "title": "Serving the most critical missions: Cloudflare for Government achieves FedRAMP Class D (High) Certified status",
+        "link": "https://blog.cloudflare.com/fedramp-class-d-certification/",
+        "date": "2026-08-10T13:00:00+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "Pump": [
+      {
+        "title": "A California Program Is Bringing Down the Cost of Heat Pumps by Buying Bulk",
+        "link": "https://www.wired.com/story/california-group-buy-bringing-down-heat-pump-costs/",
+        "date": "2026-08-10T11:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "ONI": [
+      {
+        "title": "CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/",
+        "date": "2026-08-10T10:34:32-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Bud": [
+      {
+        "title": "Best Wireless Earbuds We’d Buy Right Now (2026): Apple, Sony, Bose, and More",
+        "link": "https://www.wired.com/story/best-wireless-earbuds/",
+        "date": "2026-08-10T10:04:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "OCT": [
+      {
+        "title": "Why Each Octopus Arm Has a Mind of Its Own",
+        "link": "https://www.wired.com/story/octopus-arms-distributed-intelligence-nine-brains/",
+        "date": "2026-08-10T10:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Lv": [
+      {
+        "title": "Valve notifies Steam hardware customers of a data breach",
+        "link": "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/",
+        "date": "2026-08-10T07:47:55-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Kee": [
+      {
+        "title": "Space Agencies Are Trying to Keep Astronauts From Losing Their Sight",
+        "link": "https://www.wired.com/story/space-agencies-trying-stop-astronauts-losing-sight/",
+        "date": "2026-08-10T06:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Ogre": [
+      {
+        "title": "Critical Progress LoadMaster flaw now actively exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
+        "date": "2026-08-10T05:49:37-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
+        "link": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
+        "date": "2026-08-08T12:22:16+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "ATLAS": [
+      {
+        "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
+        "link": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
+        "date": "2026-08-08T14:24:50+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Trojan": [
+      {
+        "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
+        "date": "2026-08-08T10:16:23-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Rapid": [
+      {
+        "title": "Rapid7 Analysis: Unauthenticated Remote Code Execution in JetBrains TeamCity (CVE-2026-63077)",
+        "link": "https://www.rapid7.com/blog/post/ra-unauthenticated-rce-in-jetbrains-teamcity-cve-2026-63077",
+        "date": "2026-08-07T14:32:47+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "APT41": [
+      {
+        "title": "The Top Exposure Management Questions Security Leaders Ask (Part 1)",
+        "link": "https://blog.checkpoint.com/exposure-management/the-top-exposure-management-questions-security-leaders-ask-part-1/",
+        "date": "2026-08-07T13:00:28+00:00",
+        "source": "Check Point"
+      },
+      {
+        "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+        "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+        "date": "2026-08-06T17:00:56+00:00",
+        "source": "KrebsOnSecurity"
+      }
+    ],
+    "AMBA": [
+      {
+        "title": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
+        "link": "https://blog.cloudflare.com/community-program-refresh/",
+        "date": "2026-08-07T13:00:00+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "SAD": [
+      {
+        "title": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
+        "link": "https://blog.cloudflare.com/community-program-refresh/",
+        "date": "2026-08-07T13:00:00+00:00",
         "source": "Cloudflare"
       }
     ],
@@ -489,35 +539,11 @@
         "source": "DarkReading"
       }
     ],
-    "Spectre": [
+    "Demo": [
       {
-        "title": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes",
-        "link": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
-        "date": "2026-08-06T14:03:45-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Ank": [
-      {
-        "title": "From ranking to recommended: get your site ready to thrive in the age of AI agents",
-        "link": "https://blog.cloudflare.com/aeo/",
-        "date": "2026-08-06T13:00:00+00:00",
-        "source": "Cloudflare"
-      }
-    ],
-    "Hacked": [
-      {
-        "title": "Meta AI model hacked a company during misconfigured cyber test",
-        "link": "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/",
-        "date": "2026-08-06T12:11:39-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "global": [
-      {
-        "title": "AI Sends Global Crime Syndicates Into Fraud Nirvana",
-        "link": "https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana",
-        "date": "2026-08-05T23:35:28+00:00",
+        "title": "From Bobmojis to Bobbleheads: How the Democratic Party Built a Security-First Culture",
+        "link": "https://www.darkreading.com/cybersecurity-operations/from-bobmojis-to-bobbleheads-how-the-democratic-party-built-a-security-first-culture",
+        "date": "2026-08-06T19:00:11+00:00",
         "source": "DarkReading"
       }
     ],
@@ -527,38 +553,6 @@
         "link": "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/",
         "date": "2026-08-05T22:35:20+00:00",
         "source": "Ars Technica"
-      }
-    ],
-    "ONI": [
-      {
-        "title": "15 TP-Link Bugs Expose Risks in Zero-Trust Provisioning",
-        "link": "https://www.darkreading.com/endpoint-security/15-tp-link-bugs-risks-zero-trust-provisioning",
-        "date": "2026-08-05T19:08:36+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Python": [
-      {
-        "title": "Flaws in Google APK for Python Unlock Agent-to-Agent Attack",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/flaws-google-apk-python-agent-to-agent-attack",
-        "date": "2026-08-05T18:03:31+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "PRISM": [
-      {
-        "title": "Prisma AIRS - Unified Data Protection for Claude",
-        "link": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
-        "date": "2026-08-05T16:35:03+00:00",
-        "source": "Palo Alto Networks"
-      }
-    ],
-    "Play": [
-      {
-        "title": "Smoke#Screen RMM Takeover Gambit Exposes Threat Actor Playbook",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook",
-        "date": "2026-08-04T18:37:35+00:00",
-        "source": "DarkReading"
       }
     ]
   }

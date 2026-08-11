@@ -139,6 +139,6 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Smoke#Screen RMM Takeover Gambit Exposes Threat Actor Playbook](https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook)
-  DarkReading - 2026-08-04T
+- [Aptoide becomes the first rival app store to return to Google Play in the US](https://techcrunch.com/2026/08/10/aptoide-becomes-the-first-rival-app-store-to-return-to-google-play-in-the-us/)
+  TechCrunch - 2026-08-10T
 
