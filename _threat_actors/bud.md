@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Best Wireless Earbuds We’d Buy Right Now (2026): Apple, Sony, Bose, and More](https://www.wired.com/story/best-wireless-earbuds/)
-  Wired - 2026-08-10T
-

@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [A California Program Is Bringing Down the Cost of Heat Pumps by Buying Bulk](https://www.wired.com/story/california-group-buy-bringing-down-heat-pump-costs/)
-  Wired - 2026-08-10T
-

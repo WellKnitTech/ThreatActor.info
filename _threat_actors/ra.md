@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw](https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html)
-  The Hacker News - 2026-08-10T
-- [The Permanent Threat: Analyzing Aeternum’s Blockchain-Based C2 Operations and Communications](https://unit42.paloaltonetworks.com/aeternum-blockchain-c2-analysis/)
-  Unit 42 - 2026-08-10T
-- [Multistate Water System Attacks Widen, Iran Suspected](https://www.darkreading.com/ics-ot-security/multistate-water-system-attacks-widen-iran-suspected)
-  DarkReading - 2026-08-10T
-- [Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius](https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius)
-  DarkReading - 2026-08-10T
-- [Coruna, DarkSword iOS Exploits Proliferate Globally](https://www.darkreading.com/vulnerabilities-threats/coruna-darksword-ios-exploits-proliferate-globally)
-  DarkReading - 2026-08-10T
+- [Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing](https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html)
+  The Hacker News - 2026-08-12T
+- [DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt](https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html)
+  The Hacker News - 2026-08-11T
+- [Gunra Ransomware Gang Exploits Fortinet Flaws, Bypasses MFA](https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-fortinet-flaws-bypasses-mfa)
+  DarkReading - 2026-08-11T
+- [DeadLock ransomware uses blockchain to resist infrastructure takedown](https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/)
+  BleepingComputer - 2026-08-11T
+- [Brad Lightcap, OpenAI’s longtime COO, is leaving to ‘start something new’](https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/)
+  TechCrunch - 2026-08-11T
 

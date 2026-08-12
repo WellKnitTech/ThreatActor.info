@@ -35,6 +35,4 @@ Not a RaaS yet.
 
 - [Coruna, DarkSword iOS Exploits Proliferate Globally](https://www.darkreading.com/vulnerabilities-threats/coruna-darksword-ios-exploits-proliferate-globally)
   DarkReading - 2026-08-10T
-- [AI Sends Global Crime Syndicates Into Fraud Nirvana](https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana)
-  DarkReading - 2026-08-05T
 

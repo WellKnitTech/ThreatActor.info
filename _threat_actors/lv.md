@@ -33,6 +33,8 @@ parser needs to be built
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Valve notifies Steam hardware customers of a data breach](https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/)
-  BleepingComputer - 2026-08-10T
+- [An unreleased Anthropic model made progress on one of math’s biggest unsolved problems](https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/)
+  TechCrunch - 2026-08-11T
+- [AI Is Helping Solve the Intricate Genetic Puzzle of Schizophrenia](https://www.wired.com/story/ai-helping-solve-intricate-genetic-puzzle-schizophrenia/)
+  Wired - 2026-08-11T
 

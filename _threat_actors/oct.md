@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Why Each Octopus Arm Has a Mind of Its Own](https://www.wired.com/story/octopus-arms-distributed-intelligence-nine-brains/)
-  Wired - 2026-08-10T
-

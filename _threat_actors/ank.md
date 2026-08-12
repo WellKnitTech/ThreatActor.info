@@ -33,8 +33,6 @@ Ank is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [A data breach at shipping giant Ceva Logistics is rippling across banks, retailers, Steam gamers, and beyond](https://techcrunch.com/2026/08/10/a-data-breach-at-shipping-giant-ceva-logistics-is-rippling-across-banks-retailers-steam-gamers-and-beyond/)
-  TechCrunch - 2026-08-10T
-- [From ranking to recommended: get your site ready to thrive in the age of AI agents](https://blog.cloudflare.com/aeo/)
-  Cloudflare - 2026-08-06T
+- [Ranking the Best Red-Light Therapy Masks and LED Devices of 2026](https://www.wired.com/story/led-face-masks-and-red-light-therapy/)
+  Wired - 2026-08-11T
 
