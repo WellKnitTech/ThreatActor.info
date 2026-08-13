@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing](https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html)
+- [Terabytes of credentials leaked in massive supply-chain attack](https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/)
+  Ars Technica - 2026-08-12T
+- [Amazon will train on Twitch streamers’ content by default, unless they opt out](https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/)
+  TechCrunch - 2026-08-12T
+- [737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One](https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html)
   The Hacker News - 2026-08-12T
-- [DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt](https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html)
-  The Hacker News - 2026-08-11T
-- [Gunra Ransomware Gang Exploits Fortinet Flaws, Bypasses MFA](https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-fortinet-flaws-bypasses-mfa)
-  DarkReading - 2026-08-11T
-- [DeadLock ransomware uses blockchain to resist infrastructure takedown](https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/)
-  BleepingComputer - 2026-08-11T
-- [Brad Lightcap, OpenAI’s longtime COO, is leaving to ‘start something new’](https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/)
-  TechCrunch - 2026-08-11T
+- [AI coding startup Cognition reportedly already in talks to raise at $40B valuation](https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/)
+  TechCrunch - 2026-08-12T
+- [OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise](https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/)
+  TechCrunch - 2026-08-12T
 

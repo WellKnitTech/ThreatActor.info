@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Honor’s Robot Phone Has a Gimbal-Powered Camera for Vloggers](https://www.wired.com/story/honor-robot-phone/)
+  Wired - 2026-08-12T
+

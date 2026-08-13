@@ -46,12 +46,10 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 
 - [Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE](https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html)
   The Hacker News - 2026-08-11T
-- [Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers](https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html)
-  The Hacker News - 2026-08-11T
-- [Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11](https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html)
-  The Hacker News - 2026-08-11T
 - [Outdated Cybercrime Laws Put Security Researchers at Risk](https://www.darkreading.com/application-security/outdated-cybercrime-laws-security-researchers-risk)
   DarkReading - 2026-08-10T
 - [Introducing Radar Researcher: An AI tool for exploring Internet data in plain language](https://blog.cloudflare.com/introducing-radar-researcher/)
   Cloudflare - 2026-08-07T
+- [Black Hat 2026: Check Point Research Takes the Stage](https://blog.checkpoint.com/research/black-hat-2026-check-point-research-takes-the-stage/)
+  Check Point - 2026-08-06T
 

@@ -35,8 +35,4 @@ Delta is an active extortion or ransomware group tracked by RansomLook.
 
 - [DEF CON crowd suspected in fake-hotspot attack on Delta flight](https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/)
   Ars Technica - 2026-08-12T
-- [Delta investigating after someone set up fake Wi-Fi network mid-flight](https://techcrunch.com/2026/08/11/delta-investigating-after-someone-set-up-fake-wi-fi-network-mid-flight/)
-  TechCrunch - 2026-08-11T
-- [Delta probes Wi-Fi deauth attack on flight carrying DEF CON attendees](https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees/)
-  BleepingComputer - 2026-08-11T
 

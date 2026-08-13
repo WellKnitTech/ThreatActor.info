@@ -30,9 +30,3 @@ Ank is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Ranking the Best Red-Light Therapy Masks and LED Devices of 2026](https://www.wired.com/story/led-face-masks-and-red-light-therapy/)
-  Wired - 2026-08-11T
-

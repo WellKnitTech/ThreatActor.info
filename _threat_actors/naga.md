@@ -30,9 +30,3 @@ Naga is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Razer Naga V3 Pro Review: Buttons Galore](https://www.wired.com/review/razer-naga-v3-pro/)
-  Wired - 2026-08-11T
-

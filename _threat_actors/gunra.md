@@ -35,8 +35,4 @@ Gunra is an emerging ransomware group first identified in April 2025. It employs
 
 - [Gunra Ransomware Gang Exploits Fortinet Flaws, Bypasses MFA](https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-fortinet-flaws-bypasses-mfa)
   DarkReading - 2026-08-11T
-- [Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach Networks](https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html)
-  The Hacker News - 2026-08-11T
-- [US and South Korea warn of Gunra ransomware targeting govt agencies](https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/)
-  BleepingComputer - 2026-08-11T
 

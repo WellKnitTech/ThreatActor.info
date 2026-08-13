@@ -30,9 +30,3 @@ Ransomware only encrypts .jpg files
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [From Bobmojis to Bobbleheads: How the Democratic Party Built a Security-First Culture](https://www.darkreading.com/cybersecurity-operations/from-bobmojis-to-bobbleheads-how-the-democratic-party-built-a-security-first-culture)
-  DarkReading - 2026-08-06T
-

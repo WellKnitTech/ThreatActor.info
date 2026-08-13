@@ -33,8 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [As AI safety concerns mount, three pioneers make the case for staying open](https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/)
+  TechCrunch - 2026-08-12T
 - [Cisco warns of ASA and FTD VPN flaw exploited to crash devices](https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/)
-  BleepingComputer - 2026-08-11T
-- [Cisco warns of high-severity ClamAV flaws with public exploits](https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/)
   BleepingComputer - 2026-08-11T
 

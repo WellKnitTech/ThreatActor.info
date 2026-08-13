@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack](https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html)
+- [Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor](https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html)
   The Hacker News - 2026-08-12T
-- [Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing](https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html)
-  The Hacker News - 2026-08-12T
-- [Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client](https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html)
-  The Hacker News - 2026-08-12T
-- [DEF CON crowd suspected in fake-hotspot attack on Delta flight](https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/)
+- [The Best Photos of the Big August Solar Eclipse](https://www.wired.com/story/best-photos-august-solar-eclipse-spain/)
+  Wired - 2026-08-12T
+- [Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes](https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/)
+  TechCrunch - 2026-08-12T
+- [AI nuclear power firm Fermi finally has a new CEO](https://techcrunch.com/2026/08/12/ai-nuclear-power-firm-fermi-finally-has-a-new-ceo/)
+  TechCrunch - 2026-08-12T
+- [Terabytes of credentials leaked in massive supply-chain attack](https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/)
   Ars Technica - 2026-08-12T
-- [Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands](https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html)
-  The Hacker News - 2026-08-12T
 

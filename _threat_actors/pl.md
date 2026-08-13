@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE](https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html)
-  The Hacker News - 2026-08-11T
-- [Microsoft Plugs Nearly 400 Security Holes](https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/)
-  KrebsOnSecurity - 2026-08-11T
-- [Gunra Ransomware Gang Exploits Fortinet Flaws, Bypasses MFA](https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-fortinet-flaws-bypasses-mfa)
-  DarkReading - 2026-08-11T
-- [OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development](https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html)
-  The Hacker News - 2026-08-11T
-- [State Sponsored Hackers Use Fake Job Offers to Deliver New Zero Day Exploit](https://blog.checkpoint.com/research/state-sponsored-hackers-use-fake-job-offers-to-deliver-new-zero-day-exploit/)
-  Check Point - 2026-08-11T
+- [Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor](https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html)
+  The Hacker News - 2026-08-12T
+- [Terabytes of credentials leaked in massive supply-chain attack](https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/)
+  Ars Technica - 2026-08-12T
+- [Rogue AI Agents Aren’t Evil. They’re Just Eager to Please](https://www.wired.com/story/rogue-ai-is-just-misunderstood/)
+  Wired - 2026-08-12T
+- [Hackers exploit critical Adobe Commerce flaw to hijack customer accounts](https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/)
+  BleepingComputer - 2026-08-12T
+- [Walmart's &quot;Trusted Agent&quot; Approach to Purple Teaming](https://www.darkreading.com/cybersecurity-operations/walmart-trusted-agent-approach-purple-teaming)
+  DarkReading - 2026-08-12T
 

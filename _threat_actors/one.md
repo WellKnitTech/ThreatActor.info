@@ -33,10 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [An unreleased Anthropic model made progress on one of math’s biggest unsolved problems](https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/)
-  TechCrunch - 2026-08-11T
-- [Delta investigating after someone set up fake Wi-Fi network mid-flight](https://techcrunch.com/2026/08/11/delta-investigating-after-someone-set-up-fake-wi-fi-network-mid-flight/)
-  TechCrunch - 2026-08-11T
-- [A Zoom Screen-Sharing Bug Let Anyone Take Over Other Devices on a Call](https://www.wired.com/story/a-zoom-screen-sharing-bug-let-anyone-take-over-other-devices-on-a-call/)
-  Wired - 2026-08-11T
+- [737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One](https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html)
+  The Hacker News - 2026-08-12T
+- [As AI safety concerns mount, three pioneers make the case for staying open](https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/)
+  TechCrunch - 2026-08-12T
+- [Mesh, Automattic’s CRM for everyone, comes to Android](https://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android/)
+  TechCrunch - 2026-08-12T
+- [Facebook officially rolls out its stand-alone Creator Studio app with AI tools for creators](https://techcrunch.com/2026/08/12/facebook-officially-rolls-out-its-standalone-creator-studio-app-with-ai-tools-for-creators/)
+  TechCrunch - 2026-08-12T
+- [4 New Camera Tricks on Google’s Latest Pixel 11 Smartphones](https://www.wired.com/story/new-camera-tricks-on-google-latest-pixel-11-smartphones/)
+  Wired - 2026-08-12T
 

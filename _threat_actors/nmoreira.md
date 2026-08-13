@@ -33,6 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Bluesky’s active user base is shrinking as its focus expands beyond the app](https://techcrunch.com/2026/08/11/blueskys-active-user-base-is-shrinking-as-its-focus-expands-beyond-the-app/)
-  TechCrunch - 2026-08-11T
+- [The White House Is Going to Expand Its AI Policy](https://www.wired.com/story/the-white-house-is-going-to-expand-its-ai-policy/)
+  Wired - 2026-08-12T
 

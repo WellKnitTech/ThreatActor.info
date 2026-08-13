@@ -30,9 +30,3 @@ Ransomware Based on HiddenTear
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers](https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html)
-  The Hacker News - 2026-08-11T
-

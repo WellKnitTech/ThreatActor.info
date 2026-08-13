@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Google’s Gemini app surges to 1 billion users](https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/)
-  TechCrunch - 2026-08-11T
+- [Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition](https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition)
+  DarkReading - 2026-08-12T
 

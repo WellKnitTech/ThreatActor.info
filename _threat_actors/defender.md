@@ -33,6 +33,10 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access](https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html)
+  The Hacker News - 2026-08-12T
+- [New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges](https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/)
+  BleepingComputer - 2026-08-12T
 - [The Patch Gap: Why Defenders Need to Think in Chains, Not Checklists](https://www.darkreading.com/cybersecurity-operations/patch-gap-defenders-chains-not-checklists)
   DarkReading - 2026-08-10T
 

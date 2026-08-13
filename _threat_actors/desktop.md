@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [OpenAI launches ChatGPT desktop app for Linux](https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/)
-  TechCrunch - 2026-08-11T
-
