@@ -30,3 +30,13 @@ Ransomware Identifies victim locations w/Google Maps API
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt](https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/)
+  BleepingComputer - 2026-08-13T
+- [Hackers breach govt webmail while running parallel crypto fraud](https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/)
+  BleepingComputer - 2026-08-13T
+- ['Jewelbug' APT Balances State Espionage &amp; Cryptocurrency Theft](https://www.darkreading.com/threat-intelligence/jewelbug-apt-state-espionage-cryptocurrency-theft)
+  DarkReading - 2026-08-13T
+

@@ -79,6 +79,12 @@ Akira is a ransomware variant and ransomware deployment entity active since at l
 [5] [CISA Akira Ransomware APR 2024](https://www.cisa.gov/sites/default/files/2024-04/aa24-109a-stopransomware-akira-ransomware_2.pdf)
 [6] [Cisco Akira Ransomware OCT 2024](https://blog.talosintelligence.com/akira-ransomware-continues-to-evolve/)
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt](https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/)
+  BleepingComputer - 2026-08-13T
+
 ## CISA Known Exploited Vulnerabilities (KEV)
 *The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*
 

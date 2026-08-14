@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [The White House Is Going to Expand Its AI Policy](https://www.wired.com/story/the-white-house-is-going-to-expand-its-ai-policy/)
-  Wired - 2026-08-12T
-

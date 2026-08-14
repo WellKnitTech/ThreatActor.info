@@ -33,12 +33,10 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [5 Best Android Tablets in 2026: Samsung, TCL, Amazon, and More](https://www.wired.com/story/the-best-android-tablets/)
+  Wired - 2026-08-13T
 - [Android malware combo takes out loans and relays victims' credit cards](https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/)
   BleepingComputer - 2026-08-12T
-- [Mesh, Automattic’s CRM for everyone, comes to Android](https://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android/)
-  TechCrunch - 2026-08-12T
 - [Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing](https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html)
   The Hacker News - 2026-08-12T
-- [Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse](https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/)
-  BleepingComputer - 2026-08-11T
 

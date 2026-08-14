@@ -33,14 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [AI 'watermark removers' flood the web. Almost none can prove they work.](https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work/)
+  BleepingComputer - 2026-08-13T
 - [737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One](https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html)
   The Hacker News - 2026-08-12T
-- [As AI safety concerns mount, three pioneers make the case for staying open](https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/)
-  TechCrunch - 2026-08-12T
-- [Mesh, Automattic’s CRM for everyone, comes to Android](https://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android/)
-  TechCrunch - 2026-08-12T
-- [Facebook officially rolls out its stand-alone Creator Studio app with AI tools for creators](https://techcrunch.com/2026/08/12/facebook-officially-rolls-out-its-standalone-creator-studio-app-with-ai-tools-for-creators/)
-  TechCrunch - 2026-08-12T
-- [4 New Camera Tricks on Google’s Latest Pixel 11 Smartphones](https://www.wired.com/story/new-camera-tricks-on-google-latest-pixel-11-smartphones/)
-  Wired - 2026-08-12T
 

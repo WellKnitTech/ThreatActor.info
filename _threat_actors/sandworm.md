@@ -66,6 +66,4 @@ This threat actor targets industrial control systems, using a tool called Black 
 
 - [Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands](https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html)
   The Hacker News - 2026-08-12T
-- [Sandworm hackers target IT pros with trojanized WireGuard VPN client](https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/)
-  BleepingComputer - 2026-08-11T
 

@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor](https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html)
-  The Hacker News - 2026-08-12T
-- [Terabytes of credentials leaked in massive supply-chain attack](https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/)
-  Ars Technica - 2026-08-12T
-- [Rogue AI Agents Aren’t Evil. They’re Just Eager to Please](https://www.wired.com/story/rogue-ai-is-just-misunderstood/)
-  Wired - 2026-08-12T
-- [Hackers exploit critical Adobe Commerce flaw to hijack customer accounts](https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/)
-  BleepingComputer - 2026-08-12T
-- [Walmart's &quot;Trusted Agent&quot; Approach to Purple Teaming](https://www.darkreading.com/cybersecurity-operations/walmart-trusted-agent-approach-purple-teaming)
-  DarkReading - 2026-08-12T
+- [Flock says its new tool will help identify police abuse, but hasn’t explained how it works](https://techcrunch.com/2026/08/13/flock-says-its-new-tool-will-help-identify-police-abuse-but-hasnt-explained-how-it-works/)
+  TechCrunch - 2026-08-13T
+- [If Apple sends you a push notification alerting you to a spyware attack, take it seriously](https://techcrunch.com/2026/08/13/if-apple-sends-you-a-push-notification-alerting-you-to-a-spyware-attack-take-it-seriously/)
+  TechCrunch - 2026-08-13T
+- [Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks](https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/)
+  BleepingComputer - 2026-08-13T
+- [Ford on track to complete $2B factory overhaul for Fathom EV truck](https://techcrunch.com/2026/08/13/ford-on-track-to-complete-2b-factory-overhaul-for-fathom-ev-truck/)
+  TechCrunch - 2026-08-13T
+- [Nvidia’s new $500B plan is risky but brilliant, especially for aging GPUs](https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/)
+  TechCrunch - 2026-08-13T
 

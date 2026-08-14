@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor](https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html)
-  The Hacker News - 2026-08-12T
-- [The Best Photos of the Big August Solar Eclipse](https://www.wired.com/story/best-photos-august-solar-eclipse-spain/)
-  Wired - 2026-08-12T
-- [Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes](https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/)
-  TechCrunch - 2026-08-12T
-- [AI nuclear power firm Fermi finally has a new CEO](https://techcrunch.com/2026/08/12/ai-nuclear-power-firm-fermi-finally-has-a-new-ceo/)
-  TechCrunch - 2026-08-12T
-- [Terabytes of credentials leaked in massive supply-chain attack](https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/)
-  Ars Technica - 2026-08-12T
+- [The Safety Reckoning Inside OpenAI](https://www.wired.com/story/openai-safety-security-ai-agents-culture/)
+  Wired - 2026-08-13T
+- [Investors sue Selena Gomez alleging fraud tied to her mental health startup](https://techcrunch.com/2026/08/13/investors-sue-selena-gomez-alleging-fraud-tied-to-her-mental-health-startup/)
+  TechCrunch - 2026-08-13T
+- [Flock says its new tool will help identify police abuse, but hasn’t explained how it works](https://techcrunch.com/2026/08/13/flock-says-its-new-tool-will-help-identify-police-abuse-but-hasnt-explained-how-it-works/)
+  TechCrunch - 2026-08-13T
+- [If Apple sends you a push notification alerting you to a spyware attack, take it seriously](https://techcrunch.com/2026/08/13/if-apple-sends-you-a-push-notification-alerting-you-to-a-spyware-attack-take-it-seriously/)
+  TechCrunch - 2026-08-13T
+- [Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks](https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/)
+  BleepingComputer - 2026-08-13T
 

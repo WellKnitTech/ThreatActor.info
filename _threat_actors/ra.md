@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Terabytes of credentials leaked in massive supply-chain attack](https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/)
-  Ars Technica - 2026-08-12T
-- [Amazon will train on Twitch streamers’ content by default, unless they opt out](https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/)
-  TechCrunch - 2026-08-12T
-- [737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One](https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html)
-  The Hacker News - 2026-08-12T
-- [AI coding startup Cognition reportedly already in talks to raise at $40B valuation](https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/)
-  TechCrunch - 2026-08-12T
-- [OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise](https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/)
-  TechCrunch - 2026-08-12T
+- [Investors sue Selena Gomez alleging fraud tied to her mental health startup](https://techcrunch.com/2026/08/13/investors-sue-selena-gomez-alleging-fraud-tied-to-her-mental-health-startup/)
+  TechCrunch - 2026-08-13T
+- [Writer introduces new AI model and upgraded harness to contain token costs](https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/)
+  TechCrunch - 2026-08-13T
+- [Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.](https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/)
+  TechCrunch - 2026-08-13T
+- [Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal](https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/)
+  Cloudflare - 2026-08-13T
+- [OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed](https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/)
+  TechCrunch - 2026-08-13T
 

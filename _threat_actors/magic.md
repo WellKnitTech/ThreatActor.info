@@ -30,3 +30,9 @@ Ransomware Based on EDA2
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Palo Alto Networks Recognized as the Only Vendor to be Named a 4X Leader in SASE and SSE Gartner Magic Quadrant Reports](https://www.paloaltonetworks.com/blog/2026/08/palo-alto-networks-recognized-as-the-only-4x-leader-in-sase-and-sse-gartner-magic-quadrants/)
+  Palo Alto Networks - 2026-08-10T
+

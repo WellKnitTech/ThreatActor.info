@@ -33,6 +33,8 @@ Not a RaaS yet.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Global Threat Campaign Hits Critical VMware vCenter Flaw](https://www.darkreading.com/vulnerabilities-threats/global-threat-campaign-critical-vmware-vcenter-flaw)
+  DarkReading - 2026-08-13T
 - [Coruna, DarkSword iOS Exploits Proliferate Globally](https://www.darkreading.com/vulnerabilities-threats/coruna-darksword-ios-exploits-proliferate-globally)
   DarkReading - 2026-08-10T
 

@@ -30,3 +30,9 @@ Ank is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [X open sources its ranking algorithm, letting users see if they’ve been ‘shadowbanned’](https://techcrunch.com/2026/08/13/x-open-sources-its-ranking-algorithm-letting-users-see-if-theyve-been-shadowbanned/)
+  TechCrunch - 2026-08-13T
+

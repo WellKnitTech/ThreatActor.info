@@ -33,6 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [The Safety Reckoning Inside OpenAI](https://www.wired.com/story/openai-safety-security-ai-agents-culture/)
+  Wired - 2026-08-13T
+- [Certificate Transparency Monitoring is now generally available](https://blog.cloudflare.com/certificate-transparency-monitoring-ga/)
+  Cloudflare - 2026-08-13T
 - [OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning](https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html)
   The Hacker News - 2026-08-12T
 

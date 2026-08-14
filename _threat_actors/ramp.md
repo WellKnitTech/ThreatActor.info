@@ -30,9 +30,3 @@ Ramp is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Serving the most critical missions: Cloudflare for Government achieves FedRAMP Class D (High) Certified status](https://blog.cloudflare.com/fedramp-class-d-certification/)
-  Cloudflare - 2026-08-10T
-
