@@ -37,8 +37,6 @@ SunCrypt ransomware was discovered in October 2019 and in August 2020 it was add
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The Best Samsung Galaxy S26 Cases (2026): S26, S26+, and S26 Ultra](https://www.wired.com/gallery/best-samsung-s26-cases-and-accessories/)
-  Wired - 2026-08-13T
-- [5 Best Android Tablets in 2026: Samsung, TCL, Amazon, and More](https://www.wired.com/story/the-best-android-tablets/)
-  Wired - 2026-08-13T
+- [Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI](https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai)
+  DarkReading - 2026-08-14T
 

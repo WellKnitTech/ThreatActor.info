@@ -111,6 +111,4 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 
 - [Walmart Leaders Transform Security Operations Without Going Bananas](https://www.darkreading.com/cybersecurity-operations/walmart-leaders-transform-security-operations-without-going-bananas)
   DarkReading - 2026-08-12T
-- [Palo Alto Networks Recognized as the Only Vendor to be Named a 4X Leader in SASE and SSE Gartner Magic Quadrant Reports](https://www.paloaltonetworks.com/blog/2026/08/palo-alto-networks-recognized-as-the-only-4x-leader-in-sase-and-sse-gartner-magic-quadrants/)
-  Palo Alto Networks - 2026-08-10T
 

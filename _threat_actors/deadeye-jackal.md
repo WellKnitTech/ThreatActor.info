@@ -46,6 +46,4 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 
 - [Private security firms will soon be allowed to hack overseas cybercriminals](https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/)
   Ars Technica - 2026-08-13T
-- [Outdated Cybercrime Laws Put Security Researchers at Risk](https://www.darkreading.com/application-security/outdated-cybercrime-laws-security-researchers-risk)
-  DarkReading - 2026-08-10T
 

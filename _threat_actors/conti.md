@@ -75,8 +75,6 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [OpenAI hires new CRO as executive shake-up continues](https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/)
-  TechCrunch - 2026-08-13T
 - [Microsoft's Patch Tuesday Deluge Continues With August Updates](https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues)
   DarkReading - 2026-08-11T
 

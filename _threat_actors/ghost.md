@@ -38,6 +38,6 @@ aka Cring / Ghost (Cring) <br/> <br/>Beginning early 2021, Ghost actors began at
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- ['GhostJacking' Exposes Identity Governance Gaps in AI Agents](https://www.darkreading.com/cyber-risk/ghostjacking-identity-governance-gaps-ai-agents)
-  DarkReading - 2026-08-10T
+- [PBS station fears losing 50TB of data after being ghosted by cloud storage provider](https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/)
+  Ars Technica - 2026-08-14T
 
