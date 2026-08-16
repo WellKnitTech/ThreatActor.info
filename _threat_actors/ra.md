@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Metasploit Wrap Up: Lot of summer shells and fit http profiles](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-lot-of-summer-shells-and-fit-http-profiles)
-  Rapid7 - 2026-08-14T
-- [How Anthropic plans to watermark Claude's AI-generated text](https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/)
-  BleepingComputer - 2026-08-14T
-- [What we know about the alleged Iranian hacks on US water utilities](https://techcrunch.com/2026/08/14/what-we-know-about-the-alleged-iranian-hacks-on-u-s-water-utilities/)
-  TechCrunch - 2026-08-14T
-- [Vulnerability giving attackers full control of Macs is under active exploitation](https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/)
-  Ars Technica - 2026-08-14T
-- [PBS station fears losing 50TB of data after being ghosted by cloud storage provider](https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/)
-  Ars Technica - 2026-08-14T
+- [Woman claims her stepfather used Grok to transform childhood photo into explicit imagery](https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/)
+  TechCrunch - 2026-08-15T
+- [Every fusion startup that has raised over $100M](https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/)
+  TechCrunch - 2026-08-15T
+- [6 Best Apple Watch Accessories to Upgrade Your Watch (2026)](https://www.wired.com/story/best-apple-watch-accessories/)
+  Wired - 2026-08-15T
+- [Instapaper, the Original Read-It-Later App, Just Got a Huge Upgrade](https://www.wired.com/story/instapaper-the-original-read-it-later-app-just-got-a-huge-upgrade/)
+  Wired - 2026-08-15T
+- [New Evooo1Bot Linux botnet turns routers into traffic relay nodes](https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/)
+  BleepingComputer - 2026-08-15T
 

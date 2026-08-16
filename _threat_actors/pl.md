@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Woman claims her stepfather used Grok to transform childhood photo into explicit imagery](https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/)
+  TechCrunch - 2026-08-15T
+- [How to tell if your AI platforms’ accounts have been hacked](https://techcrunch.com/2026/08/15/how-to-tell-if-your-ai-platforms-accounts-have-been-hacked/)
+  TechCrunch - 2026-08-15T
+- [6 Best Apple Watch Accessories to Upgrade Your Watch (2026)](https://www.wired.com/story/best-apple-watch-accessories/)
+  Wired - 2026-08-15T
+- [5 Best Apple Watch Bands: Nike, Nomad, and Hermés (2026)](https://www.wired.com/story/best-apple-watch-bands/)
+  Wired - 2026-08-15T
 - [Metasploit Wrap Up: Lot of summer shells and fit http profiles](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-lot-of-summer-shells-and-fit-http-profiles)
   Rapid7 - 2026-08-14T
-- [How Anthropic plans to watermark Claude's AI-generated text](https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/)
-  BleepingComputer - 2026-08-14T
-- [Vulnerability giving attackers full control of Macs is under active exploitation](https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/)
-  Ars Technica - 2026-08-14T
-- [Unforgetful is a new reminders app for people who can’t stop hitting snooze](https://techcrunch.com/2026/08/14/unforgetful-is-a-new-reminders-app-for-people-who-cant-stop-hitting-snooze/)
-  TechCrunch - 2026-08-14T
-- [Tech Visionary Says the Big AI Labs Don’t Get What People Want](https://www.wired.com/story/tech-visionary-says-the-big-ai-labs-dont-get-what-people-want/)
-  Wired - 2026-08-14T
 
