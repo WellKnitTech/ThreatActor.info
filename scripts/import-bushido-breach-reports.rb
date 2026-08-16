@@ -175,8 +175,15 @@ class BushidoBreachReportsImporter
     end.reject { |link| link['url'].empty? }
   end
 
+  ALLOWED_ARCHIVE_HOSTS = %w[web.archive.org archive.is].freeze
+
   def archive_link?(url)
-    url.include?('web.archive.org') || url.include?('archive.is')
+    begin
+      uri = URI.parse(url)
+      ALLOWED_ARCHIVE_HOSTS.include?(uri.host)
+    rescue URI::InvalidURIError
+      false
+    end
   end
 
   def load_actors

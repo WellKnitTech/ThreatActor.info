@@ -42,7 +42,11 @@ jobs:
         env:
           THREATFOX_API_KEY: ${{ secrets.THREATFOX_API_KEY }}
         run: |
-          ruby scripts/import-automated-sources.rb --apply --date "$(date -u +%F)"
+          # Keep processing independent sources when one upstream feed is
+          # unavailable. The importer records each failure and regenerates
+          # the remaining outputs; delta and validation gates still run
+          # before any pull request is opened.
+          ruby scripts/import-automated-sources.rb --continue-on-error --apply --date "$(date -u +%F)"
 
       - name: Evaluate source deltas
         run: |

@@ -52,7 +52,12 @@ module MitreAttackGroupEnrichment
       raw_url = ref['url'].to_s
       next if raw_url.empty? && ref['external_id'].to_s.empty?
 
-      next unless MITRE_REF_SOURCES.include?(source) || raw_url.include?('attack.mitre.org')
+      next unless MITRE_REF_SOURCES.include?(source) || begin
+        uri = URI.parse(raw_url)
+        uri.host&.end_with?('.attack.mitre.org') || uri.host == 'attack.mitre.org'
+      rescue URI::InvalidURIError
+        false
+      end
 
       row = {
         'source' => ref['source_name'] || ref['source'] || 'mitre-attack',
