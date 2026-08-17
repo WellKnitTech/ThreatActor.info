@@ -215,4 +215,4 @@ class Unit42ThreatActorGroupsImporter
   end
 end
 
-Unit42ThreatActorGroupsImporter.new(ARGV).run
+Unit42ThreatActorGroupsImporter.new(ARGV).run if $PROGRAM_NAME == __FILE__

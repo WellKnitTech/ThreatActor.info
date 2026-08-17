@@ -240,4 +240,4 @@ class DragosThreatGroupsImporter
   end
 end
 
-DragosThreatGroupsImporter.new(ARGV).run
+DragosThreatGroupsImporter.new(ARGV).run if $PROGRAM_NAME == __FILE__

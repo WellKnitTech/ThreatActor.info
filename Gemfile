@@ -11,5 +11,7 @@ gem "json"
 
 gem "json_schemer", "~> 2.5"
 
+gem "minitest", "~> 5.0"
+
 # Importer dependencies (HTML/XML parsing for threat group sources)
 gem "nokogiri"
