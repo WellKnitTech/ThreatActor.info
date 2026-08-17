@@ -22,7 +22,8 @@ rows = reports.map do |filename, payload|
   status = payload['status'] || (payload['quarantined'] ? 'quarantined' : 'completed')
   count = payload['record_count'] || payload['records'] || payload['count'] || '-'
   diagnostic = payload['diagnostic'] || payload['error'] || payload['reason'] || ''
-  "| `#{source}` | #{status} | #{count} | #{diagnostic.to_s.gsub('|', '\\|').gsub(/\s+/, ' ').strip} |"
+  escaped_diagnostic = diagnostic.to_s.gsub('\\', '\\\\').gsub('|', '\\|').gsub(/\s+/, ' ').strip
+  "| `#{source}` | #{status} | #{count} | #{escaped_diagnostic} |"
 end
 
 quarantined = reports.count { |_filename, payload| payload['quarantined'] == true || payload['status'].to_s == 'quarantined' }

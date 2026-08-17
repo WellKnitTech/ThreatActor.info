@@ -58,7 +58,7 @@ class SourceImportFixtureContractTest < Minitest::Test
 
       records = importer.send(:parse_actors, document, pages)
       assert_contract self, 'dragos', 'canonical', contract('dragos', records, pages.length)
-      assert_equal %w[APT29 Bronze Butler], records.map { |row| row['name'] }
+      assert_equal ['APT29', 'Bronze Butler'], records.map { |row| row['name'] }
     end
   end
 
