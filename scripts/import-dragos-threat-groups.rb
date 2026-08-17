@@ -14,6 +14,7 @@ require 'yaml'
 
 require_relative 'actor_store'
 require_relative 'import_utils'
+require_relative 'snapshot_quality_gate'
 
 class DragosThreatGroupsImporter
   DEFAULT_SNAPSHOT_ROOT = 'data/imports/dragos-threat-groups'.freeze
@@ -103,6 +104,8 @@ class DragosThreatGroupsImporter
       'source_checksum_sha256' => Digest::SHA256.hexdigest(root_html),
       'detail_page_count' => pages.length,
       'record_count' => actors.length,
+      'source_empty' => actors.empty? && links.empty?,
+      'empty_reason' => (actors.empty? && links.empty? ? 'upstream catalog contains no threat-group profiles' : nil),
       'detail_pages' => pages
     }
     File.write(File.join(@options[:output], 'manifest.yml'), YAML.dump(manifest))
@@ -160,6 +163,7 @@ class DragosThreatGroupsImporter
   end
 
   def plan_or_import
+    SnapshotQualityGate.validate!(@options[:snapshot], source: 'dragos', report_path: @options[:report_json] && "#{@options[:report_json]}.quality.json")
     manifest = load_manifest
     entries = load_entries
     existing = ActorStore.load_all

@@ -399,14 +399,17 @@ if options[:plan] || options[:apply]
   end
 end
 
-selected_sources(options).each do |source|
+selected = selected_sources(options)
+
+# Fetch and plan every source first. No importer is allowed to write until all
+# selected plans and their snapshot gates have passed.
+selected.each do |source|
   snapshot = snapshot_path(source, options[:date])
   puts "\n== #{source.label} =="
 
   begin
     fetch_source(source, snapshot, options) if options[:fetch]
     plan_source(source, snapshot, options) if options[:plan]
-    import_source(source, snapshot, options) if options[:apply]
   rescue StandardError => e
     failures << "#{source.key}: #{e.message}"
     raise unless options[:continue_on_error]
@@ -416,6 +419,20 @@ selected_sources(options).each do |source|
 end
 
 validate_plan_reports(options) if options[:apply] && options[:plan] && (failures.empty? || options[:continue_on_error])
+
+if options[:apply] && (failures.empty? || options[:continue_on_error])
+  selected.each do |source|
+    snapshot = snapshot_path(source, options[:date])
+    begin
+      import_source(source, snapshot, options)
+    rescue StandardError => e
+      failures << "#{source.key}: #{e.message}"
+      raise unless options[:continue_on_error]
+
+      warn "Continuing after #{source.key} failure: #{e.message}"
+    end
+  end
+end
 
 regenerate_outputs if options[:apply] && options[:regenerate] && (failures.empty? || options[:continue_on_error])
 
