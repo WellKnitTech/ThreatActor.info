@@ -30,3 +30,20 @@ cp .github/workflows/weekly-data.yml /tmp/weekly-data-unsafe.yml
 sed -i 's/--auto --squash/--admin --squash/' /tmp/weekly-data-unsafe.yml
 ruby scripts/verify-weekly-data-workflow.rb /tmp/weekly-data-unsafe.yml
 ```
+
+## Run evidence and targeted reruns
+
+Every scheduled or manual run uploads the source snapshots under
+`data/imports/`, importer reports, the human-readable health summary, the run
+log, and failure diagnostics. The artifact is uploaded even when a fetch,
+plan, validation, or build step fails. The summary is also written to the job
+summary and used as the pull-request body.
+
+`workflow_dispatch` accepts a source key and a phase (`all`, `fetch`, `plan`,
+or `import`). `fetch` creates or refreshes a snapshot, `plan` evaluates an
+existing snapshot without applying it, and `import` applies an existing plan
+without fetching. The import step retries the complete requested operation at
+most three times with 1-second and 2-second backoff, then returns the final
+failure. It does not use `continue-on-error`, and it never passes
+`--allow-plan-anomalies`; quarantined or anomalous sources therefore remain
+diagnostic-only.
