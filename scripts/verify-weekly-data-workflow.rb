@@ -12,6 +12,7 @@ failures << "workflow must not contain an admin merge bypass" if workflow.match?
 failures << "workflow must queue a normal protected auto-merge" unless workflow.match?(/gh\s+pr\s+merge\s+\"\$branch\"\s+--auto\s+--squash\s+--delete-branch/)
 failures << "workflow default permissions must be read-only for repository contents" unless workflow.match?(/^permissions:\s*\n\s+contents:\s+read\s*$/)
 failures << "write permissions must be scoped to the update-data job" unless workflow.match?(/update-data:\s*\n(?:\s+[^\n]+\n)*?\s+permissions:\s*\n\s+contents:\s+write\s*\n\s+pull-requests:\s+write/)
+failures << "weekly imports must continue past an unavailable source" unless workflow.match?(/import-automated-sources\.rb\s+--continue-on-error\s+--apply/)
 failures << "workflow must validate before opening the pull request" unless workflow.index("- name: Validate JSON schemas") && workflow.index("- name: Open weekly data pull request") && workflow.index("- name: Validate JSON schemas") < workflow.index("- name: Open weekly data pull request")
 
 if failures.empty?

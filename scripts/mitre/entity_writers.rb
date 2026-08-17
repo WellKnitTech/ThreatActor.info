@@ -155,7 +155,7 @@ class MitreEntityWriters
 
     fm = {
       'layout' => 'technique',
-      'title' => obj['name'].to_s.gsub('"', '\"'),
+      'title' => obj['name'].to_s.gsub('\\', '\\\\').gsub('"', '\\"'),
       'mitre_id' => eid.upcase,
       'permalink' => permalink_technique(eid.upcase),
       'mitre_url' => url,
@@ -165,7 +165,7 @@ class MitreEntityWriters
       'is_subtechnique' => is_sub,
       'parent_mitre_id' => parent_eid&.upcase,
       'source_attribution' => MitreCommon::SOURCE_ATTRIBUTION,
-      'description_excerpt' => desc.to_s[0..280].gsub('"', '\"')
+      'description_excerpt' => desc.to_s[0..280].gsub("\\", "\\\\").gsub('"', '\\"')
     }
     av = attack_version_for_stix(stix_id)
     fm['attack_version'] = av if av && !av.to_s.empty?
@@ -227,7 +227,7 @@ BODY
 
     fm = {
       'layout' => 'tactic',
-      'title' => obj['name'].to_s.gsub('"', '\"'),
+      'title' => obj['name'].to_s.gsub('\\', '\\\\').gsub('"', '\\"'),
       'mitre_id' => eid.upcase,
       'permalink' => "/tactics/#{eid.upcase}/",
       'mitre_url' => url,
@@ -261,7 +261,7 @@ BODY
 
     fm = {
       'layout' => 'campaign',
-      'title' => obj['name'].to_s.gsub('"', '\"'),
+      'title' => obj['name'].to_s.gsub('\\', '\\\\').gsub('"', '\\"'),
       'mitre_id' => eid.upcase,
       'permalink' => "/campaigns/#{eid.upcase}/",
       'mitre_url' => url,
@@ -294,7 +294,7 @@ BODY
 
     fm = {
       'layout' => 'mitigation',
-      'title' => obj['name'].to_s.gsub('"', '\"'),
+      'title' => obj['name'].to_s.gsub('\\', '\\\\').gsub('"', '\\"'),
       'mitre_id' => eid.upcase,
       'permalink' => "/mitigations/#{eid.upcase}/",
       'mitre_url' => url,
@@ -342,7 +342,7 @@ BODY
     else
       fm = {
         'layout' => 'malware',
-        'title' => name.gsub('"', '\"'),
+        'title' => name.gsub("\\", "\\\\").gsub('"', '\\"'),
         'category' => obj['type'] == 'tool' ? 'Tool' : 'Malware',
         'mitre_id' => eid.upcase,
         'mitre_url' => url,
@@ -352,7 +352,7 @@ BODY
         'actor_count' => groups.size,
         'actors' => groups.map { |g| { 'name' => g['name'], 'url' => g['url'] } },
         'source_attribution' => MitreCommon::SOURCE_ATTRIBUTION,
-        'summary' => desc[0..400].gsub('"', '\"')
+        'summary' => desc[0..400].gsub("\\", "\\\\").gsub('"', '\\"')
       }
       av = attack_version_for_stix(stix_id)
       fm['attack_version'] = av if av && !av.to_s.empty?
