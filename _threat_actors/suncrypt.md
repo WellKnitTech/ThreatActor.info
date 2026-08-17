@@ -37,6 +37,8 @@ SunCrypt ransomware was discovered in October 2019 and in August 2020 it was add
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Samsung Galaxy Z Fold8 and Galaxy Z Fold8 Ultra Review: The Right Shape](https://www.wired.com/review/samsung-galaxy-z-fold8-and-z-fold8-ultra/)
+  Wired - 2026-08-16T
 - [Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI](https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai)
   DarkReading - 2026-08-14T
 

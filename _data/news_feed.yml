@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T02:57:04Z",
+  "updated": "2026-08-17T02:56:47Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,55 +19,75 @@
     "Rapid7"
   ],
   "actor_news": {
-    "PL": [
-      {
-        "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
-        "link": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
-        "date": "2026-08-15T21:29:19+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "How to tell if your AI platforms’ accounts have been hacked",
-        "link": "https://techcrunch.com/2026/08/15/how-to-tell-if-your-ai-platforms-accounts-have-been-hacked/",
-        "date": "2026-08-15T16:10:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "6 Best Apple Watch Accessories to Upgrade Your Watch (2026)",
-        "link": "https://www.wired.com/story/best-apple-watch-accessories/",
-        "date": "2026-08-15T10:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "5 Best Apple Watch Bands: Nike, Nomad, and Hermés (2026)",
-        "link": "https://www.wired.com/story/best-apple-watch-bands/",
-        "date": "2026-08-15T09:33:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Metasploit Wrap Up: Lot of summer shells and fit http profiles",
-        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-lot-of-summer-shells-and-fit-http-profiles",
-        "date": "2026-08-14T21:27:45+00:00",
-        "source": "Rapid7"
-      }
-    ],
     "R": [
       {
+        "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+        "link": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+        "date": "2026-08-16T20:57:04+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Why people aren’t buying Mark Zuckerberg’s AI future",
+        "link": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+        "date": "2026-08-16T20:32:01+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
+        "link": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
+        "date": "2026-08-16T19:47:06-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Anthropic confirms Claude is down in major outage affecting multiple services",
+        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
+        "date": "2026-08-16T18:28:57-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+        "link": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+        "date": "2026-08-16T16:53:51+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "RIP (Phoenix) Ransomware": [
+      {
+        "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+        "link": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+        "date": "2026-08-16T20:57:04+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Talks to sell PayPal to Stripe and Advent are heating up",
+        "link": "https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/",
+        "date": "2026-08-14T22:43:24+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "PL": [
+      {
+        "title": "Why people aren’t buying Mark Zuckerberg’s AI future",
+        "link": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+        "date": "2026-08-16T20:32:01+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Anthropic confirms Claude is down in major outage affecting multiple services",
+        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
+        "date": "2026-08-16T18:28:57-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "It’s Never Too Early to Start Planning for the Next Two Solar Eclipses",
+        "link": "https://www.wired.com/story/its-never-too-early-to-start-planning-for-the-next-two-solar-eclipses/",
+        "date": "2026-08-16T10:30:00+00:00",
+        "source": "Wired"
+      },
+      {
         "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
         "link": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
         "date": "2026-08-15T21:29:19+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Anthropic shares more details about how Claude’s new watermarks will work",
-        "link": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
-        "date": "2026-08-15T18:58:39+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "SpaceX officially closes its Cursor acquisition",
-        "link": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
-        "date": "2026-08-15T16:30:00+00:00",
         "source": "TechCrunch"
       },
       {
@@ -75,16 +95,50 @@
         "link": "https://techcrunch.com/2026/08/15/how-to-tell-if-your-ai-platforms-accounts-have-been-hacked/",
         "date": "2026-08-15T16:10:00+00:00",
         "source": "TechCrunch"
+      }
+    ],
+    "Light": [
+      {
+        "title": "TechCrunch Mobility: The shifting flight path of electric air taxis",
+        "link": "https://techcrunch.com/2026/08/16/techcrunch-mobility-the-shifting-flight-path-of-electric-air-taxis/",
+        "date": "2026-08-16T16:04:00+00:00",
+        "source": "TechCrunch"
       },
       {
-        "title": "Every fusion startup that has raised over $100M",
-        "link": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/",
-        "date": "2026-08-15T13:15:20+00:00",
-        "source": "TechCrunch"
+        "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
+        "link": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
+        "date": "2026-08-12T00:08:40+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "Amnesia": [
+      {
+        "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
+        "link": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
+        "date": "2026-08-16T11:07:44-04:00",
+        "source": "BleepingComputer"
       }
     ],
     "Ra": [
       {
+        "title": "Samsung Galaxy Z Fold8 and Galaxy Z Fold8 Ultra Review: The Right Shape",
+        "link": "https://www.wired.com/review/samsung-galaxy-z-fold8-and-z-fold8-ultra/",
+        "date": "2026-08-16T11:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "TerraMow V1000 Review: Show Your Lawn Some Love",
+        "link": "https://www.wired.com/review/terramow-v1000/",
+        "date": "2026-08-16T10:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Inside the Experimental Traps Scientists Set for Ghostly Neutrinos",
+        "link": "https://www.wired.com/story/inside-experimental-traps-scientists-set-for-neutrinos/",
+        "date": "2026-08-16T10:00:00+00:00",
+        "source": "Wired"
+      },
+      {
         "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
         "link": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
         "date": "2026-08-15T21:29:19+00:00",
@@ -95,24 +149,82 @@
         "link": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/",
         "date": "2026-08-15T13:15:20+00:00",
         "source": "TechCrunch"
-      },
+      }
+    ],
+    "SunCrypt": [
       {
-        "title": "6 Best Apple Watch Accessories to Upgrade Your Watch (2026)",
-        "link": "https://www.wired.com/story/best-apple-watch-accessories/",
-        "date": "2026-08-15T10:30:00+00:00",
+        "title": "Samsung Galaxy Z Fold8 and Galaxy Z Fold8 Ultra Review: The Right Shape",
+        "link": "https://www.wired.com/review/samsung-galaxy-z-fold8-and-z-fold8-ultra/",
+        "date": "2026-08-16T11:00:00+00:00",
         "source": "Wired"
       },
       {
-        "title": "Instapaper, the Original Read-It-Later App, Just Got a Huge Upgrade",
-        "link": "https://www.wired.com/story/instapaper-the-original-read-it-later-app-just-got-a-huge-upgrade/",
-        "date": "2026-08-15T10:30:00+00:00",
+        "title": "Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai",
+        "date": "2026-08-14T17:32:46+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Final": [
+      {
+        "title": "Someone Finally Fixed Installing Apps on a Mac",
+        "link": "https://www.wired.com/story/easydmg-finally-fixed-installing-apps-on-a-mac/",
+        "date": "2026-08-16T10:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "One": [
+      {
+        "title": "Someone Finally Fixed Installing Apps on a Mac",
+        "link": "https://www.wired.com/story/easydmg-finally-fixed-installing-apps-on-a-mac/",
+        "date": "2026-08-16T10:30:00+00:00",
         "source": "Wired"
       },
       {
-        "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
-        "link": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
-        "date": "2026-08-15T10:14:38-04:00",
+        "title": "The Best Cat Water Fountains of 2026: Petlibro, Petkit, Oneisall",
+        "link": "https://www.wired.com/gallery/best-cat-water-fountains/",
+        "date": "2026-08-16T09:33:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Secure all your internal vibe-coded applications — in one click",
+        "link": "https://blog.cloudflare.com/workers-protected-by-access/",
+        "date": "2026-08-14T13:00:00+00:00",
+        "source": "Cloudflare"
+      },
+      {
+        "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
+        "date": "2026-08-14T10:59:55-04:00",
         "source": "BleepingComputer"
+      },
+      {
+        "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
+        "link": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
+        "date": "2026-08-12T19:39:50+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "ghost": [
+      {
+        "title": "Inside the Experimental Traps Scientists Set for Ghostly Neutrinos",
+        "link": "https://www.wired.com/story/inside-experimental-traps-scientists-set-for-neutrinos/",
+        "date": "2026-08-16T10:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "PBS station fears losing 50TB of data after being ghosted by cloud storage provider",
+        "link": "https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/",
+        "date": "2026-08-14T17:03:54+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "Tk": [
+      {
+        "title": "The Best Cat Water Fountains of 2026: Petlibro, Petkit, Oneisall",
+        "link": "https://www.wired.com/gallery/best-cat-water-fountains/",
+        "date": "2026-08-16T09:33:00+00:00",
+        "source": "Wired"
       }
     ],
     "Hacked": [
@@ -177,14 +289,6 @@
         "link": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
         "date": "2026-08-12T17:17:38+05:30",
         "source": "The Hacker News"
-      }
-    ],
-    "RIP (Phoenix) Ransomware": [
-      {
-        "title": "Talks to sell PayPal to Stripe and Advent are heating up",
-        "link": "https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/",
-        "date": "2026-08-14T22:43:24+00:00",
-        "source": "TechCrunch"
       }
     ],
     "Metasploit": [
@@ -255,54 +359,6 @@
         "source": "DarkReading"
       }
     ],
-    "SunCrypt": [
-      {
-        "title": "Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai",
-        "date": "2026-08-14T17:32:46+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "ghost": [
-      {
-        "title": "PBS station fears losing 50TB of data after being ghosted by cloud storage provider",
-        "link": "https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/",
-        "date": "2026-08-14T17:03:54+00:00",
-        "source": "Ars Technica"
-      }
-    ],
-    "One": [
-      {
-        "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
-        "link": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
-        "date": "2026-08-14T15:43:28+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Secure all your internal vibe-coded applications — in one click",
-        "link": "https://blog.cloudflare.com/workers-protected-by-access/",
-        "date": "2026-08-14T13:00:00+00:00",
-        "source": "Cloudflare"
-      },
-      {
-        "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
-        "date": "2026-08-14T10:59:55-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "AI 'watermark removers' flood the web. Almost none can prove they work.",
-        "link": "https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work/",
-        "date": "2026-08-13T13:33:28-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
-        "link": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
-        "date": "2026-08-12T19:39:50+05:30",
-        "source": "The Hacker News"
-      }
-    ],
     "Lick": [
       {
         "title": "Secure all your internal vibe-coded applications — in one click",
@@ -333,58 +389,6 @@
         "link": "https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/",
         "date": "2026-08-13T19:38:58+00:00",
         "source": "Ars Technica"
-      }
-    ],
-    "Akira": [
-      {
-        "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
-        "link": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
-        "date": "2026-08-13T16:47:02-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "CryLocker": [
-      {
-        "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
-        "link": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
-        "date": "2026-08-13T16:47:02-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Hackers breach govt webmail while running parallel crypto fraud",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/",
-        "date": "2026-08-13T14:15:19-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "'Jewelbug' APT Balances State Espionage &amp; Cryptocurrency Theft",
-        "link": "https://www.darkreading.com/threat-intelligence/jewelbug-apt-state-espionage-cryptocurrency-theft",
-        "date": "2026-08-13T10:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "EnCrypt": [
-      {
-        "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
-        "link": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
-        "date": "2026-08-13T16:47:02-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Storm-1567": [
-      {
-        "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
-        "link": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
-        "date": "2026-08-13T16:47:02-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Hive": [
-      {
-        "title": "Microsoft patches LegacyHive Windows zero-day vulnerability",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/",
-        "date": "2026-08-13T13:46:20-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "DN": [
@@ -419,6 +423,14 @@
         "source": "Cloudflare"
       }
     ],
+    "CryLocker": [
+      {
+        "title": "'Jewelbug' APT Balances State Espionage &amp; Cryptocurrency Theft",
+        "link": "https://www.darkreading.com/threat-intelligence/jewelbug-apt-state-espionage-cryptocurrency-theft",
+        "date": "2026-08-13T10:00:00+00:00",
+        "source": "DarkReading"
+      }
+    ],
     "REF7707": [
       {
         "title": "'Jewelbug' APT Balances State Espionage &amp; Cryptocurrency Theft",
@@ -443,20 +455,26 @@
         "source": "The Hacker News"
       }
     ],
+    "Defender": [
+      {
+        "title": "Putting OpenAI Cyber Models to Work for Defenders",
+        "link": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+        "date": "2026-08-12T14:00:18+00:00",
+        "source": "Palo Alto Networks"
+      },
+      {
+        "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
+        "link": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
+        "date": "2026-08-12T12:11:38+05:30",
+        "source": "The Hacker News"
+      }
+    ],
     "APT41": [
       {
         "title": "Walmart Leaders Transform Security Operations Without Going Bananas",
         "link": "https://www.darkreading.com/cybersecurity-operations/walmart-leaders-transform-security-operations-without-going-bananas",
         "date": "2026-08-12T12:41:03+00:00",
         "source": "DarkReading"
-      }
-    ],
-    "Defender": [
-      {
-        "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
-        "link": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
-        "date": "2026-08-12T12:11:38+05:30",
-        "source": "The Hacker News"
       }
     ],
     "AnDROid": [
@@ -476,14 +494,6 @@
       }
     ],
     "Delta": [
-      {
-        "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
-        "link": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
-        "date": "2026-08-12T00:08:40+00:00",
-        "source": "Ars Technica"
-      }
-    ],
-    "Light": [
       {
         "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
         "link": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
