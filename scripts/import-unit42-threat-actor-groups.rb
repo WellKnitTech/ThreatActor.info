@@ -143,8 +143,10 @@ class Unit42ThreatActorGroupsImporter
     alias_index = ImportUtils.build_alias_index(existing)
 
     updates = entries.filter_map do |entry|
-      actor = ImportUtils.find_actor_by_names(alias_index, [entry['name'], *Array(entry['aliases'])])
-      next unless actor
+      match = ImportUtils.find_match(entry['name'], Array(entry['aliases']), alias_index)
+      next unless match && match[:confidence] == :high
+
+      actor = existing[match[:position]]
 
       {
         actor_name: actor['name'],

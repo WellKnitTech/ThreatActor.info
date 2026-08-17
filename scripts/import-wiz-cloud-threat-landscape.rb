@@ -129,8 +129,10 @@ class WizCloudThreatLandscapeImporter
 
     intrusion_sets.filter_map do |entry|
       names = [entry['name'], *Array(entry['aliases'])].compact
-      actor = ImportUtils.find_actor_by_names(alias_index, names)
-      next unless actor
+      match = ImportUtils.find_match(entry['name'], Array(entry['aliases']), alias_index)
+      next unless match && match[:confidence] == :high
+
+      actor = existing[match[:position]]
 
       actor_relationships = relationships.select do |rel|
         rel['source_ref'] == entry['id'] && %w[uses attributed-to].include?(rel['relationship_type'])
