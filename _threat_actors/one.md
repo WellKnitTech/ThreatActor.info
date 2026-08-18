@@ -37,10 +37,8 @@ ransomware
   Wired - 2026-08-16T
 - [The Best Cat Water Fountains of 2026: Petlibro, Petkit, Oneisall](https://www.wired.com/gallery/best-cat-water-fountains/)
   Wired - 2026-08-16T
+- [Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner](https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html)
+  The Hacker News - 2026-08-15T
 - [Secure all your internal vibe-coded applications — in one click](https://blog.cloudflare.com/workers-protected-by-access/)
   Cloudflare - 2026-08-14T
-- [Hackers exploit macOS Screen Sharing flaw to deploy Monero miner](https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/)
-  BleepingComputer - 2026-08-14T
-- [737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One](https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html)
-  The Hacker News - 2026-08-12T
 

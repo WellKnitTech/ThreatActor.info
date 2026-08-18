@@ -33,6 +33,8 @@ Ransomware Identifies victim locations w/Google Maps API
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Operation ASTERIX: Anatomy of a Crypto Fraud Pipeline](https://www.rapid7.com/blog/post/tr-operation-asterix-crypto-fraud-vishing-phishing)
+  Rapid7 - 2026-08-17T
 - ['Jewelbug' APT Balances State Espionage &amp; Cryptocurrency Theft](https://www.darkreading.com/threat-intelligence/jewelbug-apt-state-espionage-cryptocurrency-theft)
   DarkReading - 2026-08-13T
 

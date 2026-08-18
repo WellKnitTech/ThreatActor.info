@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Samsung Galaxy Z Fold8 and Galaxy Z Fold8 Ultra Review: The Right Shape](https://www.wired.com/review/samsung-galaxy-z-fold8-and-z-fold8-ultra/)
-  Wired - 2026-08-16T
-- [TerraMow V1000 Review: Show Your Lawn Some Love](https://www.wired.com/review/terramow-v1000/)
-  Wired - 2026-08-16T
-- [Inside the Experimental Traps Scientists Set for Ghostly Neutrinos](https://www.wired.com/story/inside-experimental-traps-scientists-set-for-neutrinos/)
-  Wired - 2026-08-16T
-- [Woman claims her stepfather used Grok to transform childhood photo into explicit imagery](https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/)
-  TechCrunch - 2026-08-15T
-- [Every fusion startup that has raised over $100M](https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/)
-  TechCrunch - 2026-08-15T
+- [Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects](https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html)
+  The Hacker News - 2026-08-18T
+- [Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection](https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html)
+  The Hacker News - 2026-08-18T
+- [Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic](https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html)
+  The Hacker News - 2026-08-17T
+- [This R-Rated Film Studio Wants to Be the HBO of AI](https://www.wired.com/story/this-r-rated-film-studio-wants-to-be-the-hbo-of-ai/)
+  Wired - 2026-08-17T
+- [Higgsfield raises $400M Series B, quadrupling its valuation in 8 months to $5.4B](https://techcrunch.com/2026/08/17/higgsfield-raises-400m-series-b-quadrupling-its-valuation-in-8-months-to-5-4b/)
+  TechCrunch - 2026-08-17T
 

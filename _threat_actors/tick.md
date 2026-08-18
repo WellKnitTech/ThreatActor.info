@@ -43,9 +43,3 @@ Tick is a cyber espionage group with likely Chinese origins that has been active
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [What we know about the alleged Iranian hacks on US water utilities](https://techcrunch.com/2026/08/14/what-we-know-about-the-alleged-iranian-hacks-on-u-s-water-utilities/)
-  TechCrunch - 2026-08-14T
-

@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+](https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/)
-  TechCrunch - 2026-08-16T
-- [Why people aren’t buying Mark Zuckerberg’s AI future](https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/)
-  TechCrunch - 2026-08-16T
-- [SafePal data breach impacts 39,798 customers, stolen info for sale](https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/)
-  BleepingComputer - 2026-08-16T
-- [Anthropic confirms Claude is down in major outage affecting multiple services](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/)
-  BleepingComputer - 2026-08-16T
-- [Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’](https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/)
-  TechCrunch - 2026-08-16T
+- [Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects](https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html)
+  The Hacker News - 2026-08-18T
+- [Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection](https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html)
+  The Hacker News - 2026-08-18T
+- [Anthropic’s annualized revenue surges to $65B](https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/)
+  TechCrunch - 2026-08-17T
+- [Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads](https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html)
+  The Hacker News - 2026-08-17T
+- [Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic](https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html)
+  The Hacker News - 2026-08-17T
 

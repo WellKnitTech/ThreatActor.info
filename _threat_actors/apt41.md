@@ -109,6 +109,6 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Walmart Leaders Transform Security Operations Without Going Bananas](https://www.darkreading.com/cybersecurity-operations/walmart-leaders-transform-security-operations-without-going-bananas)
-  DarkReading - 2026-08-12T
+- ['Turf War' Between Claude Agents Leads to Self-Replicating Malware](https://www.darkreading.com/threat-intelligence/turf-war-claude-agents-self-replicating-malware)
+  DarkReading - 2026-08-17T
 

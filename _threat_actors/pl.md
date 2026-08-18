@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Why people aren’t buying Mark Zuckerberg’s AI future](https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/)
-  TechCrunch - 2026-08-16T
-- [Anthropic confirms Claude is down in major outage affecting multiple services](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/)
-  BleepingComputer - 2026-08-16T
-- [It’s Never Too Early to Start Planning for the Next Two Solar Eclipses](https://www.wired.com/story/its-never-too-early-to-start-planning-for-the-next-two-solar-eclipses/)
-  Wired - 2026-08-16T
-- [Woman claims her stepfather used Grok to transform childhood photo into explicit imagery](https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/)
-  TechCrunch - 2026-08-15T
-- [How to tell if your AI platforms’ accounts have been hacked](https://techcrunch.com/2026/08/15/how-to-tell-if-your-ai-platforms-accounts-have-been-hacked/)
-  TechCrunch - 2026-08-15T
+- [Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads](https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html)
+  The Hacker News - 2026-08-17T
+- [Video Call Exploit Chains Two Flaws in Unisoc Modems](https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems)
+  DarkReading - 2026-08-17T
+- ['Turf War' Between Claude Agents Leads to Self-Replicating Malware](https://www.darkreading.com/threat-intelligence/turf-war-claude-agents-self-replicating-malware)
+  DarkReading - 2026-08-17T
+- [‘Unprecedented’ number of Apple users received recent spyware alert, say investigators](https://techcrunch.com/2026/08/17/unprecedented-number-of-apple-users-received-recent-spyware-alert-say-investigators/)
+  TechCrunch - 2026-08-17T
+- [Spotify’s new Playlist Notes let users and editors explain their song picks](https://techcrunch.com/2026/08/17/spotifys-new-playlist-notes-let-users-and-editors-explain-their-song-picks/)
+  TechCrunch - 2026-08-17T
 

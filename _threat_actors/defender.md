@@ -33,8 +33,8 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Microsoft working on Defender patch for ShieldBreak zero-day](https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/)
+  BleepingComputer - 2026-08-17T
 - [Putting OpenAI Cyber Models to Work for Defenders](https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/)
   Palo Alto Networks - 2026-08-12T
-- [ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access](https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html)
-  The Hacker News - 2026-08-12T
 

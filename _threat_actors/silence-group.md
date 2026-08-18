@@ -37,3 +37,9 @@ a relatively new threat actor that’s been operating since mid-2016 Group-IB ha
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [El Niño and Saharan Dust Silence Atlantic Hurricane Season](https://www.wired.com/story/el-nino-quiets-atlantic-hurricane-season/)
+  Wired - 2026-08-17T
+

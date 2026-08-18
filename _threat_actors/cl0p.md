@@ -144,6 +144,6 @@ Curated Intelligence MOVEit Transfer Tracking tracks 74 public events for the 20
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Shell investigates 'potential incident' after Clop data theft claims](https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/)
-  BleepingComputer - 2026-08-14T
+- [Philips and GE investigating Clop ransomware data theft claims](https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/)
+  BleepingComputer - 2026-08-17T
 
