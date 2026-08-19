@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T02:52:42Z",
+  "updated": "2026-08-19T02:54:40Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -21,66 +21,342 @@
   "actor_news": {
     "R": [
       {
-        "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
-        "link": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
-        "date": "2026-08-18T02:33:04+05:30",
+        "title": "China-Linked Hacker Shows AI Capabilities in APAC Attack",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack",
+        "date": "2026-08-19T01:00:00+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
+        "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
+        "date": "2026-08-18T23:17:22+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
-        "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
-        "date": "2026-08-18T00:14:17+05:30",
+        "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
+        "link": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
+        "date": "2026-08-18T23:14:05+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Anthropic’s annualized revenue surges to $65B",
-        "link": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
-        "date": "2026-08-17T23:56:26+00:00",
+        "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
+        "link": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
+        "date": "2026-08-18T22:28:16+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+        "link": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
+        "date": "2026-08-18T22:14:25+00:00",
         "source": "TechCrunch"
-      },
+      }
+    ],
+    "Lick": [
       {
-        "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
-        "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-        "date": "2026-08-17T23:52:09+05:30",
+        "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
+        "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
+        "date": "2026-08-18T23:17:22+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
-        "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
-        "date": "2026-08-17T23:11:06+05:30",
+        "title": "Critical GitLab Zero-Click Flaw Poses Mitigation Challenges",
+        "link": "https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges",
+        "date": "2026-08-18T21:25:58+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "Secure all your internal vibe-coded applications — in one click",
+        "link": "https://blog.cloudflare.com/workers-protected-by-access/",
+        "date": "2026-08-14T13:00:00+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "One": [
+      {
+        "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
+        "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
+        "date": "2026-08-18T23:17:22+05:30",
         "source": "The Hacker News"
+      },
+      {
+        "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
+        "link": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
+        "date": "2026-08-18T17:00:00+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US",
+        "link": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
+        "date": "2026-08-18T10:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Secure all your internal vibe-coded applications — in one click",
+        "link": "https://blog.cloudflare.com/workers-protected-by-access/",
+        "date": "2026-08-14T13:00:00+00:00",
+        "source": "Cloudflare"
       }
     ],
     "Ra": [
       {
-        "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
-        "link": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
-        "date": "2026-08-18T02:33:04+05:30",
+        "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
+        "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
+        "date": "2026-08-18T23:17:22+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
-        "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
-        "date": "2026-08-18T00:14:17+05:30",
+        "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
+        "link": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
+        "date": "2026-08-18T22:28:16+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
-        "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
-        "date": "2026-08-17T23:11:06+05:30",
+        "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+        "link": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
+        "date": "2026-08-18T22:14:25+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
+        "link": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
+        "date": "2026-08-18T17:00:00+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "This R-Rated Film Studio Wants to Be the HBO of AI",
-        "link": "https://www.wired.com/story/this-r-rated-film-studio-wants-to-be-the-hbo-of-ai/",
-        "date": "2026-08-17T20:18:17+00:00",
+        "title": "Why Apple’s camera-equipped AirPods may not be the ‘pervert pods’ consumers fear",
+        "link": "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/",
+        "date": "2026-08-18T16:19:10+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "PL": [
+      {
+        "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
+        "link": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
+        "date": "2026-08-18T23:14:05+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+        "link": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
+        "date": "2026-08-18T22:14:25+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "TikTok explores peer-to-peer payments via DMs, report says",
+        "link": "https://techcrunch.com/2026/08/18/tiktok-explores-peer-to-peer-payments-via-dms-report-says/",
+        "date": "2026-08-18T20:03:56+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Apple overhauls its EU App Store fees, loosens rules for alternative app stores",
+        "link": "https://techcrunch.com/2026/08/18/apple-overhauls-its-eu-app-store-fees-loosens-rules-for-alternative-app-stores/",
+        "date": "2026-08-18T17:12:13+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Why Apple’s camera-equipped AirPods may not be the ‘pervert pods’ consumers fear",
+        "link": "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/",
+        "date": "2026-08-18T16:19:10+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Hacked": [
+      {
+        "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
+        "link": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
+        "date": "2026-08-18T22:28:16+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
+        "link": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
+        "date": "2026-08-18T13:00:04+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "Deadeye Jackal": [
+      {
+        "title": "DOJ’s probe into Andreessen Horowitz over board seats baffles VCs",
+        "link": "https://techcrunch.com/2026/08/18/dojs-probe-into-andreessen-horowitz-over-board-seats-baffles-vcs/",
+        "date": "2026-08-18T20:36:20+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Microsoft confirms outage affecting search in Microsoft 365 apps",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-bug-behind-microsoft-365-search-issues/",
+        "date": "2026-08-18T05:24:49-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Agentic treasury runs on searchable, observable context",
+        "link": "https://www.elastic.co/blog/agentic-treasury",
+        "date": "2026-08-18T00:00:00+00:00",
+        "source": "Elastic"
+      },
+      {
+        "title": "Private security firms will soon be allowed to hack overseas cybercriminals",
+        "link": "https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/",
+        "date": "2026-08-13T19:38:58+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "Payment": [
+      {
+        "title": "TikTok explores peer-to-peer payments via DMs, report says",
+        "link": "https://techcrunch.com/2026/08/18/tiktok-explores-peer-to-peer-payments-via-dms-report-says/",
+        "date": "2026-08-18T20:03:56+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Silence": [
+      {
+        "title": "CISOs Break Their Silence in 'Declassified' Docuseries",
+        "link": "https://www.darkreading.com/cyber-risk/cisos-break-their-silence-in-declassified-docuseries",
+        "date": "2026-08-18T18:32:01+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Silence group": [
+      {
+        "title": "CISOs Break Their Silence in 'Declassified' Docuseries",
+        "link": "https://www.darkreading.com/cyber-risk/cisos-break-their-silence-in-declassified-docuseries",
+        "date": "2026-08-18T18:32:01+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "CryLocker": [
+      {
+        "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
+        "link": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+        "date": "2026-08-18T16:50:00+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Operation ASTERIX: Anatomy of a Crypto Fraud Pipeline",
+        "link": "https://www.rapid7.com/blog/post/tr-operation-asterix-crypto-fraud-vishing-phishing",
+        "date": "2026-08-17T11:29:31+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "Ruby": [
+      {
+        "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
+        "link": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+        "date": "2026-08-18T16:50:00+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "RNS": [
+      {
+        "title": "Comcast turns your Xfinity WiFi into a home motion detector",
+        "link": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
+        "date": "2026-08-18T16:14:58-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Bluesky": [
+      {
+        "title": "Bluesky says its recent outage was caused by another DDoS attack",
+        "link": "https://techcrunch.com/2026/08/18/bluesky-says-its-recent-outage-was-caused-by-another-ddos-attack/",
+        "date": "2026-08-18T15:59:48+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Clop": [
+      {
+        "title": "Clop created custom web shell for Windchill data theft attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
+        "date": "2026-08-18T13:29:51-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Philips and GE investigating Clop ransomware data theft claims",
+        "link": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
+        "date": "2026-08-17T07:25:02-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Cl0p": [
+      {
+        "title": "Clop created custom web shell for Windchill data theft attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
+        "date": "2026-08-18T13:29:51-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Philips and GE investigating Clop ransomware data theft claims",
+        "link": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
+        "date": "2026-08-17T07:25:02-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "global": [
+      {
+        "title": "The Mistake That Exposed a Global Cyber Crime Operation",
+        "link": "https://blog.checkpoint.com/research/the-mistake-that-exposed-a-global-cyber-crime-operation/",
+        "date": "2026-08-18T13:00:03+00:00",
+        "source": "Check Point"
+      },
+      {
+        "title": "Mission-Driven Security: Inside a Global Bank's Defense",
+        "link": "https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense",
+        "date": "2026-08-14T19:24:18+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "NMoreira": [
+      {
+        "title": "Can the Upcoming ‘Expanse’ Game Avoid the Biggest Mistake of ‘Mass Effect’?",
+        "link": "https://www.wired.com/story/the-upcoming-expanse-game-has-to-make-some-hard-choices/",
+        "date": "2026-08-18T13:00:00+00:00",
         "source": "Wired"
       },
       {
-        "title": "Higgsfield raises $400M Series B, quadrupling its valuation in 8 months to $5.4B",
-        "link": "https://techcrunch.com/2026/08/17/higgsfield-raises-400m-series-b-quadrupling-its-valuation-in-8-months-to-5-4b/",
-        "date": "2026-08-17T19:04:27+00:00",
-        "source": "TechCrunch"
+        "title": "Linux Botnet Evooo1Bot Expands Mirai Capabilities Well Beyond DDoS",
+        "link": "https://www.darkreading.com/cyber-risk/linux-botnet-evooo1bot-mirai-capabilities-beyond-ddos",
+        "date": "2026-08-17T15:44:34+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Silent": [
+      {
+        "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
+        "link": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud",
+        "date": "2026-08-18T13:00:00+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Proton": [
+      {
+        "title": "Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To",
+        "link": "https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/",
+        "date": "2026-08-18T10:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Final": [
+      {
+        "title": "Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US",
+        "link": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
+        "date": "2026-08-18T10:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Explorer": [
+      {
+        "title": "Microsoft tests faster Windows File Explorer, new context menu",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/",
+        "date": "2026-08-18T07:14:28-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Steel": [
+      {
+        "title": "SteelSeries Coupon Codes: 15% Off in August 2026",
+        "link": "https://www.wired.com/story/steelseries-coupon-code/",
+        "date": "2026-08-18T05:00:00+00:00",
+        "source": "Wired"
       }
     ],
     "PHP": [
@@ -89,38 +365,6 @@
         "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
         "date": "2026-08-17T23:52:09+05:30",
         "source": "The Hacker News"
-      }
-    ],
-    "PL": [
-      {
-        "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
-        "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-        "date": "2026-08-17T23:52:09+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Video Call Exploit Chains Two Flaws in Unisoc Modems",
-        "link": "https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems",
-        "date": "2026-08-17T21:37:23+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "'Turf War' Between Claude Agents Leads to Self-Replicating Malware",
-        "link": "https://www.darkreading.com/threat-intelligence/turf-war-claude-agents-self-replicating-malware",
-        "date": "2026-08-17T20:26:34+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "‘Unprecedented’ number of Apple users received recent spyware alert, say investigators",
-        "link": "https://techcrunch.com/2026/08/17/unprecedented-number-of-apple-users-received-recent-spyware-alert-say-investigators/",
-        "date": "2026-08-17T20:18:35+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Spotify’s new Playlist Notes let users and editors explain their song picks",
-        "link": "https://techcrunch.com/2026/08/17/spotifys-new-playlist-notes-let-users-and-editors-explain-their-song-picks/",
-        "date": "2026-08-17T19:24:43+00:00",
-        "source": "TechCrunch"
       }
     ],
     "DN": [
@@ -135,12 +379,6 @@
         "link": "https://blog.checkpoint.com/security/ransomware-didnt-slow-down-in-q2-2026-it-just-spread-out/",
         "date": "2026-08-13T13:00:42+00:00",
         "source": "Check Point"
-      },
-      {
-        "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
-        "link": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
-        "date": "2026-08-12T00:08:40+00:00",
-        "source": "Ars Technica"
       }
     ],
     "RIP (Phoenix) Ransomware": [
@@ -151,117 +389,11 @@
         "source": "The Hacker News"
       }
     ],
-    "global": [
-      {
-        "title": "What Is El Niño, and What Does It Mean for Weather, Water, and the Global Economy?",
-        "link": "https://www.wired.com/story/what-el-nino-means-weather-water-global-economy/",
-        "date": "2026-08-17T21:28:42+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Terra Industries closes $52M seed round to build defense infrastructure for the Global South",
-        "link": "https://techcrunch.com/2026/08/17/terra-industries-closes-52m-seed-round-to-build-defense-infrastructure-for-the-global-south/",
-        "date": "2026-08-17T15:06:07+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Mission-Driven Security: Inside a Global Bank's Defense",
-        "link": "https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense",
-        "date": "2026-08-14T19:24:18+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Global Threat Campaign Hits Critical VMware vCenter Flaw",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/global-threat-campaign-critical-vmware-vcenter-flaw",
-        "date": "2026-08-13T20:45:17+00:00",
-        "source": "DarkReading"
-      }
-    ],
     "APT41": [
       {
         "title": "'Turf War' Between Claude Agents Leads to Self-Replicating Malware",
         "link": "https://www.darkreading.com/threat-intelligence/turf-war-claude-agents-self-replicating-malware",
         "date": "2026-08-17T20:26:34+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Play": [
-      {
-        "title": "Spotify’s new Playlist Notes let users and editors explain their song picks",
-        "link": "https://techcrunch.com/2026/08/17/spotifys-new-playlist-notes-let-users-and-editors-explain-their-song-picks/",
-        "date": "2026-08-17T19:24:43+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "YouTube will now count a view as soon as a video starts playing",
-        "link": "https://techcrunch.com/2026/08/17/youtube-will-now-count-a-view-as-soon-as-a-video-starts-playing/",
-        "date": "2026-08-17T18:09:33+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Sandworm Team": [
-      {
-        "title": "Adam Shostack Talks Hugging Face &amp; PHANTOM-B",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b",
-        "date": "2026-08-17T19:22:56+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Deos": [
-      {
-        "title": "Reddit begins testing a new audio and video experience, similar to popular TikTok videos",
-        "link": "https://techcrunch.com/2026/08/17/reddit-begins-testing-a-new-audio-and-video-experience-similar-to-popular-tiktok-videos/",
-        "date": "2026-08-17T18:42:30+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "AnDROid": [
-      {
-        "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
-        "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
-        "date": "2026-08-17T16:22:34+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "NMoreira": [
-      {
-        "title": "Linux Botnet Evooo1Bot Expands Mirai Capabilities Well Beyond DDoS",
-        "link": "https://www.darkreading.com/cyber-risk/linux-botnet-evooo1bot-mirai-capabilities-beyond-ddos",
-        "date": "2026-08-17T15:44:34+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Ank": [
-      {
-        "title": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
-        "link": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
-        "date": "2026-08-17T15:16:24+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Mission-Driven Security: Inside a Global Bank's Defense",
-        "link": "https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense",
-        "date": "2026-08-14T19:24:18+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
-        "date": "2026-08-14T14:04:26-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "CryLocker": [
-      {
-        "title": "Operation ASTERIX: Anatomy of a Crypto Fraud Pipeline",
-        "link": "https://www.rapid7.com/blog/post/tr-operation-asterix-crypto-fraud-vishing-phishing",
-        "date": "2026-08-17T11:29:31+00:00",
-        "source": "Rapid7"
-      },
-      {
-        "title": "'Jewelbug' APT Balances State Espionage &amp; Cryptocurrency Theft",
-        "link": "https://www.darkreading.com/threat-intelligence/jewelbug-apt-state-espionage-cryptocurrency-theft",
-        "date": "2026-08-13T10:00:00+00:00",
         "source": "DarkReading"
       }
     ],
@@ -273,40 +405,12 @@
         "source": "Rapid7"
       }
     ],
-    "Bud": [
-      {
-        "title": "Skylight Buddy Review (2026): Kid Routines Just Got Easy",
-        "link": "https://www.wired.com/review/skylight-buddy/",
-        "date": "2026-08-17T10:31:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Light": [
-      {
-        "title": "Skylight Buddy Review (2026): Kid Routines Just Got Easy",
-        "link": "https://www.wired.com/review/skylight-buddy/",
-        "date": "2026-08-17T10:31:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
-        "link": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
-        "date": "2026-08-12T00:08:40+00:00",
-        "source": "Ars Technica"
-      }
-    ],
     "ghost": [
       {
         "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
         "link": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
         "date": "2026-08-17T10:00:10-04:00",
         "source": "BleepingComputer"
-      },
-      {
-        "title": "Inside the Experimental Traps Scientists Set for Ghostly Neutrinos",
-        "link": "https://www.wired.com/story/inside-experimental-traps-scientists-set-for-neutrinos/",
-        "date": "2026-08-16T10:00:00+00:00",
-        "source": "Wired"
       },
       {
         "title": "PBS station fears losing 50TB of data after being ghosted by cloud storage provider",
@@ -329,155 +433,11 @@
         "source": "BleepingComputer"
       }
     ],
-    "Silence": [
-      {
-        "title": "El Niño and Saharan Dust Silence Atlantic Hurricane Season",
-        "link": "https://www.wired.com/story/el-nino-quiets-atlantic-hurricane-season/",
-        "date": "2026-08-17T10:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Deadeye Jackal": [
-      {
-        "title": "El Niño and Saharan Dust Silence Atlantic Hurricane Season",
-        "link": "https://www.wired.com/story/el-nino-quiets-atlantic-hurricane-season/",
-        "date": "2026-08-17T10:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "There’s a New Link Between Gut Health and Alzheimer’s Disease",
-        "link": "https://www.wired.com/story/new-link-between-gut-health-and-alzheimers/",
-        "date": "2026-08-17T09:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Private security firms will soon be allowed to hack overseas cybercriminals",
-        "link": "https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/",
-        "date": "2026-08-13T19:38:58+00:00",
-        "source": "Ars Technica"
-      }
-    ],
-    "Silence group": [
-      {
-        "title": "El Niño and Saharan Dust Silence Atlantic Hurricane Season",
-        "link": "https://www.wired.com/story/el-nino-quiets-atlantic-hurricane-season/",
-        "date": "2026-08-17T10:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Chaos": [
-      {
-        "title": "Election Officials Are Preparing for Prediction Markets to Sow Chaos in the Midterms",
-        "link": "https://www.wired.com/story/election-officials-are-preparing-for-prediction-markets-to-sow-chaos-in-the-midterms/",
-        "date": "2026-08-17T09:30:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Clop": [
-      {
-        "title": "Philips and GE investigating Clop ransomware data theft claims",
-        "link": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
-        "date": "2026-08-17T07:25:02-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Cl0p": [
-      {
-        "title": "Philips and GE investigating Clop ransomware data theft claims",
-        "link": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
-        "date": "2026-08-17T07:25:02-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
     "Defender": [
       {
         "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
         "link": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
         "date": "2026-08-17T05:05:33-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Putting OpenAI Cyber Models to Work for Defenders",
-        "link": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
-        "date": "2026-08-12T14:00:18+00:00",
-        "source": "Palo Alto Networks"
-      }
-    ],
-    "Amnesia": [
-      {
-        "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
-        "link": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
-        "date": "2026-08-16T11:07:44-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "SunCrypt": [
-      {
-        "title": "Samsung Galaxy Z Fold8 and Galaxy Z Fold8 Ultra Review: The Right Shape",
-        "link": "https://www.wired.com/review/samsung-galaxy-z-fold8-and-z-fold8-ultra/",
-        "date": "2026-08-16T11:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai",
-        "date": "2026-08-14T17:32:46+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Final": [
-      {
-        "title": "Someone Finally Fixed Installing Apps on a Mac",
-        "link": "https://www.wired.com/story/easydmg-finally-fixed-installing-apps-on-a-mac/",
-        "date": "2026-08-16T10:30:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "One": [
-      {
-        "title": "Someone Finally Fixed Installing Apps on a Mac",
-        "link": "https://www.wired.com/story/easydmg-finally-fixed-installing-apps-on-a-mac/",
-        "date": "2026-08-16T10:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "The Best Cat Water Fountains of 2026: Petlibro, Petkit, Oneisall",
-        "link": "https://www.wired.com/gallery/best-cat-water-fountains/",
-        "date": "2026-08-16T09:33:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner",
-        "link": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
-        "date": "2026-08-15T12:54:04+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Secure all your internal vibe-coded applications — in one click",
-        "link": "https://blog.cloudflare.com/workers-protected-by-access/",
-        "date": "2026-08-14T13:00:00+00:00",
-        "source": "Cloudflare"
-      }
-    ],
-    "Tk": [
-      {
-        "title": "The Best Cat Water Fountains of 2026: Petlibro, Petkit, Oneisall",
-        "link": "https://www.wired.com/gallery/best-cat-water-fountains/",
-        "date": "2026-08-16T09:33:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Mustang Panda Adds Signed Windows Rootkit to CoolClient Backdoor for Stealth",
-        "link": "https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html",
-        "date": "2026-08-14T18:38:56+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "RNS": [
-      {
-        "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
-        "link": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
-        "date": "2026-08-15T10:14:38-04:00",
         "source": "BleepingComputer"
       }
     ],
@@ -489,20 +449,12 @@
         "source": "Rapid7"
       }
     ],
-    "Mustang Panda": [
+    "Ank": [
       {
-        "title": "Mustang Panda Adds Signed Windows Rootkit to CoolClient Backdoor for Stealth",
-        "link": "https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html",
-        "date": "2026-08-14T18:38:56+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Root": [
-      {
-        "title": "Mustang Panda Adds Signed Windows Rootkit to CoolClient Backdoor for Stealth",
-        "link": "https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html",
-        "date": "2026-08-14T18:38:56+05:30",
-        "source": "The Hacker News"
+        "title": "Mission-Driven Security: Inside a Global Bank's Defense",
+        "link": "https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense",
+        "date": "2026-08-14T19:24:18+00:00",
+        "source": "DarkReading"
       }
     ],
     "Hunt": [
@@ -513,12 +465,12 @@
         "source": "DarkReading"
       }
     ],
-    "Lick": [
+    "SunCrypt": [
       {
-        "title": "Secure all your internal vibe-coded applications — in one click",
-        "link": "https://blog.cloudflare.com/workers-protected-by-access/",
-        "date": "2026-08-14T13:00:00+00:00",
-        "source": "Cloudflare"
+        "title": "Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai",
+        "date": "2026-08-14T17:32:46+00:00",
+        "source": "DarkReading"
       }
     ],
     "ONI": [
@@ -527,30 +479,6 @@
         "link": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
         "date": "2026-08-13T13:00:00+00:00",
         "source": "Cloudflare"
-      }
-    ],
-    "REF7707": [
-      {
-        "title": "'Jewelbug' APT Balances State Espionage &amp; Cryptocurrency Theft",
-        "link": "https://www.darkreading.com/threat-intelligence/jewelbug-apt-state-espionage-cryptocurrency-theft",
-        "date": "2026-08-13T10:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Mini": [
-      {
-        "title": "Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition",
-        "date": "2026-08-12T14:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Delta": [
-      {
-        "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
-        "link": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
-        "date": "2026-08-12T00:08:40+00:00",
-        "source": "Ars Technica"
       }
     ]
   }

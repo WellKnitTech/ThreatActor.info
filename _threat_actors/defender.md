@@ -35,6 +35,4 @@ Ransomware
 
 - [Microsoft working on Defender patch for ShieldBreak zero-day](https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/)
   BleepingComputer - 2026-08-17T
-- [Putting OpenAI Cyber Models to Work for Defenders](https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/)
-  Palo Alto Networks - 2026-08-12T
 

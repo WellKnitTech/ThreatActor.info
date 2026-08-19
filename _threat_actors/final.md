@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Someone Finally Fixed Installing Apps on a Mac](https://www.wired.com/story/easydmg-finally-fixed-installing-apps-on-a-mac/)
-  Wired - 2026-08-16T
+- [Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US](https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/)
+  Wired - 2026-08-18T
 

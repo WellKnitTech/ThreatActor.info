@@ -40,8 +40,6 @@ aka Cring / Ghost (Cring) <br/> <br/>Beginning early 2021, Ghost actors began at
 
 - [Certighost and the Privilege Hiding in Your Certificate Authority](https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/)
   BleepingComputer - 2026-08-17T
-- [Inside the Experimental Traps Scientists Set for Ghostly Neutrinos](https://www.wired.com/story/inside-experimental-traps-scientists-set-for-neutrinos/)
-  Wired - 2026-08-16T
 - [PBS station fears losing 50TB of data after being ghosted by cloud storage provider](https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/)
   Ars Technica - 2026-08-14T
 

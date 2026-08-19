@@ -30,11 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Skylight Buddy Review (2026): Kid Routines Just Got Easy](https://www.wired.com/review/skylight-buddy/)
-  Wired - 2026-08-17T
-- [DEF CON crowd suspected in fake-hotspot attack on Delta flight](https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/)
-  Ars Technica - 2026-08-12T
-

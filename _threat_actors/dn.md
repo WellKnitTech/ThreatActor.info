@@ -37,6 +37,4 @@ It’s directed to English speaking users, therefore is able to infect worldwide
   The Hacker News - 2026-08-17T
 - [Ransomware Didn’t Slow Down in Q2 2026. It Just Spread Out.](https://blog.checkpoint.com/security/ransomware-didnt-slow-down-in-q2-2026-it-just-spread-out/)
   Check Point - 2026-08-13T
-- [DEF CON crowd suspected in fake-hotspot attack on Delta flight](https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/)
-  Ars Technica - 2026-08-12T
 

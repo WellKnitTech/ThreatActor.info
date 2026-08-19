@@ -30,11 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [The Best Cat Water Fountains of 2026: Petlibro, Petkit, Oneisall](https://www.wired.com/gallery/best-cat-water-fountains/)
-  Wired - 2026-08-16T
-- [Mustang Panda Adds Signed Windows Rootkit to CoolClient Backdoor for Stealth](https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html)
-  The Hacker News - 2026-08-14T
-
