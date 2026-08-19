@@ -1,0 +1,13 @@
+source_key: ocd-ransomware-map
+source_name: Orange Cyberdefense Ransomware Ecosystem Map
+source_url: fixture://ocd-ransomware-map
+readme_url: fixture://ocd-ransomware-map/README.md
+source_commit: 9f3715b623f7270bf1df13f2d10eb5dcd32bef1e
+claimed_map_version: 29
+retrieved_at: '2026-08-19T00:00:00Z'
+pdf_path: source.pdf
+readme_path: README.md
+pdf_sha256: 6d54da7c21a660509ccbb36c506dcc98cb1466f2ef5a5f34e3acde0cf3100b65
+readme_sha256: cd49c7e3829a4acd62f3a435b815f0cd4a2dee9476b698583d61d33a8f01157f
+pdf_bytes: 609
+license_verified: true

@@ -69,6 +69,23 @@ Reviewed name and rename handling lives in `data/imports/ransomlook/mapping_over
 - See [Keeping actor pages current](keeping-actor-pages-current.md) for committing regenerated `_threat_actors/*.md`, `_data/generated/*`, and `api/*` together with `_data/actors/*.yml` after imports.
 - See `docs/data-flows.md` for the source-of-truth map and the analyst-note supersession policy.
 
+## Orange Cyberdefense Ransomware Ecosystem Map extractor
+
+`scripts/import-ocd-ransomware-map.rb` is a bounded, research-only extractor for the OCD visual map. It is deliberately not an actor importer: it never edits `_data/actors`, and its candidate JSON must be manually adjudicated before any relationship, alias, entity-type, timeline, or actor-page change.
+
+- `fetch --output PATH` downloads the pinned v29 PDF and README with HTTPS timeouts and a 10 MiB response limit, verifies the pinned SHA-256 values and rights marker, and writes a local snapshot under `data/imports/ocd-ransomware-map/...`.
+- `plan --snapshot PATH --output PATH` verifies manifest paths, version, license marker, hashes, and PDF structure; runs deterministic `pdftotext -layout -nopgbrk`; and emits `report.json` plus `candidates.json` in the report output directory. Extracted PDF text remains temporary and is not written to the output.
+- Raw PDFs remain local snapshot artifacts outside publishable generated data. The site must store only source URL, commit/version, hashes, and derived review candidates; do not redistribute the upstream PDF.
+- A changed source format, license marker, version, manifest, checksum, or PDF extraction failure quarantines the run and emits no candidates. Missing or ambiguous changelog labels are diagnostics, not automatic actor updates.
+- PDF text/layout extraction is a weak evidence signal and is not authoritative for graph edges or timeline placement.
+
+Example:
+
+```bash
+ruby scripts/import-ocd-ransomware-map.rb fetch --output data/imports/ocd-ransomware-map/2026-08-19-v29
+ruby scripts/import-ocd-ransomware-map.rb plan --snapshot data/imports/ocd-ransomware-map/2026-08-19-v29 --output tmp/ocd-ransomware-map
+```
+
 - **`--source attack`** is accepted as an alias for **`mitre-attack`** in `import-automated-sources.rb` (same script: `scripts/import-mitre.rb`).
 
 ## abuse.ch ThreatFox importer

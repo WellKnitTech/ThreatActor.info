@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "provenance": {
+    "ocd_ransomware_map": {
+      "source_key": "ocd-ransomware-map",
+      "publisher": "Orange Cyberdefense CERT - World Watch",
+      "product": "Ransomware Ecosystem Map",
+      "map_version": null,
+      "git_commit": null,
+      "sha256": null,
+      "retrieved_at": null,
+      "artifact_url": null,
+      "license_note": "all_rights_reserved",
+      "disclaimer_ref": "ocd-ransomware-map-secondary-source-v1"
+    }
+  },
+  "actors": {
+  },
+  "ecosystem_links": [
+
+  ],
+  "ecosystem_events": [
+
+  ],
+  "source_disclaimer": "Secondary, non-exhaustive reference; relationship and attribution claims remain uncertain unless marked analyst-confirmed."
+}
