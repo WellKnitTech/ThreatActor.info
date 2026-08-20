@@ -27,6 +27,12 @@ class ThreatActorIndexGenerator
   API_TYPE_SHARDS_DIR = File.join(API_DIR, 'iocs', 'by-type').freeze
   ACTOR_IOCS_DIR = File.join(OUTPUT_DIR, 'iocs_by_actor').freeze
   API_ACTOR_IOCS_DIR = File.join(API_DIR, 'iocs', 'by-actor').freeze
+  OCD_ECOSYSTEM_INPUT = File.join('data', 'imports', 'ocd-ransomware-map', 'accepted.yml').freeze
+  OCD_ECOSYSTEM_OUTPUT = 'ocd_ransomware_ecosystem.json'.freeze
+  OCD_ECOSYSTEM_API_DIR = File.join(API_DIR, 'ransomware-ecosystem').freeze
+  OCD_PROVENANCE_KEYS = %i[source_key publisher product map_version git_commit sha256 retrieved_at artifact_url license_note disclaimer_ref].freeze
+  OCD_ALLOWED_EVIDENCE_KINDS = %w[plate_text source_changelog].freeze
+  OCD_CITATION_PREFIX = 'https://github.com/cert-orangecyberdefense/ransomware_map/'.freeze
   REQUIRED_IOC_HEADING = 'Notable Indicators of Compromise (IOCs)'.freeze
   SKIPPED_IOC_HEADINGS = ['Sources'].freeze
   IPV4_PATTERN = /\b(?:\d{1,3}\.){3}\d{1,3}\b/.freeze
@@ -150,6 +156,7 @@ class ThreatActorIndexGenerator
     FileUtils.mkdir_p(TYPE_SHARDS_DIR)
     FileUtils.mkdir_p(API_DIR)
     FileUtils.mkdir_p(API_TYPE_SHARDS_DIR)
+    FileUtils.mkdir_p(OCD_ECOSYSTEM_API_DIR)
 
     actor_documents = []
     ioc_documents = []
@@ -275,6 +282,14 @@ class ThreatActorIndexGenerator
     write_json('ioc_summary.json', ioc_summary)
     write_ioc_type_shards(ioc_documents)
     write_ioc_actor_shards(ioc_documents)
+
+    # OCD-derived relationships/events are optional and review-gated. Publish
+    # accepted summaries only; never embed or redistribute the upstream PDF.
+    ocd_ecosystem = build_ocd_ecosystem(actor_documents)
+    write_json(OCD_ECOSYSTEM_OUTPUT, ocd_ecosystem)
+    write_api_json(OCD_ECOSYSTEM_OUTPUT, ocd_ecosystem)
+    remove_obsolete_ocd_actor_shards
+    write_ocd_actor_shards(ocd_ecosystem)
     
     # Generate malware pages from extracted data
     write_malware_pages(malware_documents, actor_documents)
@@ -466,6 +481,125 @@ class ThreatActorIndexGenerator
       targeted_sectors: actor['targeted_sectors'] || [],
       iocs_count_yaml: actor['iocs_count']
     }
+  end
+
+  def build_ocd_ecosystem(actor_documents)
+    snapshot = {
+      source_key: 'ocd-ransomware-map',
+      publisher: 'Orange Cyberdefense CERT - World Watch',
+      product: 'Ransomware Ecosystem Map',
+      map_version: nil,
+      git_commit: nil,
+      sha256: nil,
+      retrieved_at: nil,
+      artifact_url: nil,
+      license_note: 'all_rights_reserved',
+      disclaimer_ref: 'ocd-ransomware-map-secondary-source-v1'
+    }
+    records = []
+    if File.file?(OCD_ECOSYSTEM_INPUT)
+      raw = YAML.safe_load(File.read(OCD_ECOSYSTEM_INPUT), permitted_classes: [Time], aliases: false) || {}
+      source_snapshot = raw['source_snapshot'].is_a?(Hash) ? raw['source_snapshot'] : {}
+      permitted_snapshot = source_snapshot.each_with_object({}) do |(key, value), out|
+        symbol = key.to_sym
+        out[symbol] = value if OCD_PROVENANCE_KEYS.include?(symbol)
+      end
+      snapshot.merge!(permitted_snapshot)
+      snapshot[:license_note] = 'all_rights_reserved'
+      required_pins = %i[map_version git_commit sha256 retrieved_at artifact_url]
+      return empty_ocd_ecosystem unless required_pins.all? { |key| snapshot[key].to_s != '' }
+      return empty_ocd_ecosystem unless snapshot[:artifact_url].to_s.start_with?(OCD_CITATION_PREFIX)
+      records = Array(raw['records']).filter_map { |record| normalize_ocd_record(record) }
+    end
+
+    actor_slugs = actor_documents.each_with_object({}) do |actor, index|
+      slug = actor[:url].to_s.sub(%r{^/}, '')
+      index["actor:#{slug}"] = slug
+    end
+
+    by_actor = Hash.new { |hash, key| hash[key] = { relationships: [], events: [], mentions: [] } }
+    records.each do |record|
+      refs = [record[:src_ref], record[:dst_ref], record[:subject_ref]].compact
+      slugs = refs.filter_map { |ref| actor_slugs[ref[:canonical_id].to_s] }.uniq
+      next if slugs.empty?
+      slugs.each do |slug|
+        if record[:kind] == 'timeline_event_proposal'
+          by_actor[slug][:events] << record
+        elsif record[:kind] == 'mention'
+          by_actor[slug][:mentions] << record
+        else
+          by_actor[slug][:relationships] << record
+        end
+      end
+    end
+
+    {
+      schema_version: '1.0',
+      provenance: { ocd_ransomware_map: snapshot },
+      actors: by_actor.sort.to_h,
+      ecosystem_links: records.select { |record| !%w[timeline_event_proposal mention].include?(record[:kind]) },
+      ecosystem_events: records.select { |record| record[:kind] == 'timeline_event_proposal' },
+      source_disclaimer: 'Secondary, non-exhaustive reference; relationship and attribution claims remain uncertain unless marked analyst-confirmed.'
+    }
+  end
+
+  def normalize_ocd_record(record)
+    return unless record.is_a?(Hash) && record['review_status'].to_s == 'accepted'
+    evidence = record['evidence'] || {}
+    return if evidence['citation_url'].to_s.empty? || evidence['source_snapshot_ref'].to_s.empty?
+    return unless evidence['citation_url'].to_s.start_with?(OCD_CITATION_PREFIX)
+    return unless OCD_ALLOWED_EVIDENCE_KINDS.include?(evidence['evidence_kind'].to_s)
+    return if record['uncertainty_label'].to_s == 'layout_inferred' || evidence['evidence_kind'].to_s == 'layout_inferred'
+    return if evidence['evidence_quote'].to_s.bytesize > 500
+    if record['confidence'].to_s == 'high'
+      review = record['review'] || {}
+      return unless %w[reviewed_by reviewed_at decision_note].all? { |key| review[key].to_s != '' }
+      return unless record['uncertainty_label'].to_s == 'analyst_confirmed'
+    end
+
+    normalized = record.transform_keys(&:to_sym)
+    %i[src_ref dst_ref subject_ref].each do |key|
+      normalized[key] = symbolize_keys(normalized[key]) if normalized[key]
+    end
+    normalized[:evidence] = symbolize_keys(evidence)
+    normalized[:kind] ||= normalized[:event_id] ? 'timeline_event_proposal' : 'relationship_proposal'
+    normalized
+  end
+
+  def empty_ocd_ecosystem
+    {
+      schema_version: '1.0',
+      provenance: { ocd_ransomware_map: {
+        source_key: 'ocd-ransomware-map', publisher: 'Orange Cyberdefense CERT - World Watch',
+        product: 'Ransomware Ecosystem Map', map_version: nil, git_commit: nil, sha256: nil,
+        retrieved_at: nil, artifact_url: nil, license_note: 'all_rights_reserved',
+        disclaimer_ref: 'ocd-ransomware-map-secondary-source-v1'
+      } }, actors: {}, ecosystem_links: [], ecosystem_events: [],
+      source_disclaimer: 'Secondary, non-exhaustive reference; relationship and attribution claims remain uncertain unless marked analyst-confirmed.'
+    }
+  end
+
+  def symbolize_keys(value)
+    return value unless value.is_a?(Hash)
+    value.each_with_object({}) { |(key, item), out| out[key.to_sym] = symbolize_keys(item) }
+  end
+
+  def write_ocd_actor_shards(ecosystem)
+    ecosystem[:actors].each do |slug, payload|
+      write_api_json(File.join('ransomware-ecosystem', "#{slug}.json"), {
+        schema_version: ecosystem[:schema_version],
+        actor_slug: slug,
+        provenance: ecosystem[:provenance],
+        relationships: payload[:relationships],
+        events: payload[:events],
+        mentions: payload[:mentions],
+        source_disclaimer: ecosystem[:source_disclaimer]
+      })
+    end
+  end
+
+  def remove_obsolete_ocd_actor_shards
+    Dir.glob(File.join(OCD_ECOSYSTEM_API_DIR, '*.json')).each { |path| FileUtils.rm_f(path) }
   end
 
   def build_facets(actors, iocs)

@@ -1,0 +1,71 @@
+# OCD ransomware-map → ThreatActor.info entity reconciliation overrides.
+# Analyst-curated. Exact automated matches do not need entries here.
+# Schema per entry:
+#   target_slug: actor url slug without leading slash
+#   target_malware_slug: optional malware slug
+#   confidence: high|medium|low
+#   entity_type: operation|ransomware_family|affiliate_group|malware_strain|unknown
+#   reason: free text
+#   allow_merge: false by default; only meaningful for accepted+high
+
+accepted:
+  # Editorial alias already common in RansomLook overrides.
+  "ALPHV":
+    target_slug: blackcat
+    confidence: high
+    entity_type: operation
+    reason: "Well-known ALPHV ≡ BlackCat operation alias"
+  "lockbit3":
+    target_slug: lockbit
+    confidence: high
+    entity_type: operation
+    reason: "RansomLook-style lockbit3 key maps to LockBit operation (provenance only)"
+  "lockbit4":
+    target_slug: lockbit
+    confidence: high
+    entity_type: operation
+    reason: "RansomLook-style lockbit4 key maps to LockBit operation (provenance only)"
+
+rejected:
+  "affiliation":
+    confidence: low
+    reason: "Plate chrome / English word, not an entity"
+  "collaboration":
+    confidence: low
+    reason: "Plate chrome / English word, not an entity"
+  "Decryptor released":
+    confidence: low
+    reason: "Event phrase, not an actor label"
+
+needs_review:
+  "Nitro Spider":
+    target_slug: null
+    confidence: medium
+    entity_type: affiliate_group
+    reason: "CrowdStrike-style affiliate cluster name; must not collapse into APT Nitro"
+  "LockBit Green":
+    target_slug: lockbit
+    target_malware_slug: null
+    confidence: medium
+    entity_type: ransomware_family
+    reason: "Conti-code LockBit Green lineage node; family variant, not auto-merge"
+  "Black Basta":
+    target_slug: blackbasta
+    confidence: medium
+    entity_type: operation
+    reason: "Conti-derived successor narrative requires analyst confirmation of identity continuity"
+
+deprecated:
+  "ABCD":
+    target_slug: lockbit
+    confidence: medium
+    entity_type: ransomware_family
+    reason: "Historical LockBit predecessor brand; keep as deprecated alias evidence, do not revive page"
+  "ABCD Ransomware":
+    target_slug: lockbit
+    confidence: medium
+    entity_type: ransomware_family
+    reason: "Historical predecessor name present on some actor alias lists; treat as deprecated brand"
+
+# Optional ransomlook-compatible forced keys (accepted/high, provenance only)
+match_overrides: {}

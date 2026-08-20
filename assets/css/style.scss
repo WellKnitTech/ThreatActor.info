@@ -936,6 +936,33 @@ a:hover {
   margin-bottom: 0;
 }
 
+.ocd-ecosystem-panel {
+  margin-top: 2rem;
+  padding: 1.25rem;
+  border: 1px solid #d2875d;
+  border-left: 4px solid #d2875d;
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--section-bg) 88%, #d2875d 12%);
+}
+
+.ocd-ecosystem-panel h2 { margin-top: 0.25rem; }
+.ocd-ecosystem-kicker, .ocd-entity-type, .ocd-uncertainty, .ocd-disclaimer, .ocd-coverage, .ocd-record small {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+.ocd-record-list { display: grid; gap: 0.75rem; }
+.ocd-record { padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 4px; background: var(--bg-secondary); }
+.ocd-record p { margin: 0.45rem 0; }
+.ocd-record-heading { display: flex; gap: 0.45rem; align-items: center; flex-wrap: wrap; }
+.ocd-badge { display: inline-block; padding: 0.15rem 0.4rem; border-radius: 999px; font-size: 0.7rem; border: 1px solid var(--border-color); }
+.ocd-badge.confidence-high { color: var(--risk-high); }
+.ocd-badge.confidence-medium { color: var(--risk-medium); }
+.ocd-badge.confidence-low, .ocd-badge.review-needs_review { color: #d2875d; }
+.ocd-timeline-list { margin: 0.5rem 0 1rem; padding-left: 1.25rem; }
+.ocd-timeline-list li { display: flex; gap: 0.8rem; margin-bottom: 0.65rem; }
+.ocd-timeline-list time { min-width: 7rem; color: var(--text-primary); font-weight: 600; }
+.ocd-disclaimer { margin-bottom: 0; padding-top: 0.75rem; border-top: 1px solid var(--border-color); }
+
 /* Enhanced Search Styles */
 .search-container {
   background: var(--bg-secondary);

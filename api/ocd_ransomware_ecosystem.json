@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "provenance": {
+    "ocd_ransomware_map": {
+      "source_key": "ocd-ransomware-map",
+      "publisher": "Orange Cyberdefense CERT - World Watch",
+      "product": "Ransomware Ecosystem Map",
+      "map_version": 29,
+      "git_commit": "9f3715b623f7270bf1df13f2d10eb5dcd32bef1e",
+      "sha256": "af80618bd85dc6924bad6df24a6f9818eb658274fa4c5f75ef2bd3583e6fd4a1",
+      "retrieved_at": "2026-08-19 17:00:00 UTC",
+      "artifact_url": "https://github.com/cert-orangecyberdefense/ransomware_map/blob/9f3715b623f7270bf1df13f2d10eb5dcd32bef1e/OCD_WorldWatch_Ransomware-ecosystem-map.pdf",
+      "license_note": "all_rights_reserved",
+      "disclaimer_ref": "ocd-ransomware-map-secondary-source-v1"
+    }
+  },
+  "actors": {
+    "lockbit": {
+      "relationships": [
+        {
+          "relationship_id": "ocd:rel:v29:fixture-affiliate",
+          "kind": "relationship_proposal",
+          "src_ref": {
+            "canonical_id": "actor:nitro-spider",
+            "entity_type": "affiliate_group",
+            "display_name": "Nitro Spider"
+          },
+          "dst_ref": {
+            "canonical_id": "actor:lockbit",
+            "entity_type": "operation",
+            "display_name": "LockBit"
+          },
+          "rel_type": "affiliate_of",
+          "evidence": {
+            "evidence_kind": "plate_text",
+            "evidence_quote": "Nitro Spider is described as an affiliate of LockBit.",
+            "citation_url": "https://github.com/cert-orangecyberdefense/ransomware_map/blob/9f3715b623f7270bf1df13f2d10eb5dcd32bef1e/OCD_WorldWatch_Ransomware-ecosystem-map.pdf",
+            "source_snapshot_ref": "ocd:snapshot:v29:fixture"
+          },
+          "confidence": "medium",
+          "uncertainty_label": "source_hedged",
+          "review_status": "accepted"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "ocd:event:v29:fixture-disruption",
+          "kind": "timeline_event_proposal",
+          "subject_ref": {
+            "canonical_id": "actor:lockbit",
+            "entity_type": "operation",
+            "display_name": "LockBit"
+          },
+          "event_type": "disrupted_by_le",
+          "when": {
+            "text": "February 2024",
+            "normalized_start": "2024-02",
+            "precision": "month"
+          },
+          "evidence": {
+            "evidence_kind": "plate_text",
+            "evidence_quote": "Law enforcement disruption is shown for LockBit in February 2024.",
+            "citation_url": "https://github.com/cert-orangecyberdefense/ransomware_map/blob/9f3715b623f7270bf1df13f2d10eb5dcd32bef1e/OCD_WorldWatch_Ransomware-ecosystem-map.pdf",
+            "source_snapshot_ref": "ocd:snapshot:v29:fixture"
+          },
+          "confidence": "low",
+          "uncertainty_label": "source_asserted",
+          "review_status": "accepted"
+        }
+      ],
+      "mentions": [
+
+      ]
+    }
+  },
+  "ecosystem_links": [
+    {
+      "relationship_id": "ocd:rel:v29:fixture-affiliate",
+      "kind": "relationship_proposal",
+      "src_ref": {
+        "canonical_id": "actor:nitro-spider",
+        "entity_type": "affiliate_group",
+        "display_name": "Nitro Spider"
+      },
+      "dst_ref": {
+        "canonical_id": "actor:lockbit",
+        "entity_type": "operation",
+        "display_name": "LockBit"
+      },
+      "rel_type": "affiliate_of",
+      "evidence": {
+        "evidence_kind": "plate_text",
+        "evidence_quote": "Nitro Spider is described as an affiliate of LockBit.",
+        "citation_url": "https://github.com/cert-orangecyberdefense/ransomware_map/blob/9f3715b623f7270bf1df13f2d10eb5dcd32bef1e/OCD_WorldWatch_Ransomware-ecosystem-map.pdf",
+        "source_snapshot_ref": "ocd:snapshot:v29:fixture"
+      },
+      "confidence": "medium",
+      "uncertainty_label": "source_hedged",
+      "review_status": "accepted"
+    }
+  ],
+  "ecosystem_events": [
+    {
+      "event_id": "ocd:event:v29:fixture-disruption",
+      "kind": "timeline_event_proposal",
+      "subject_ref": {
+        "canonical_id": "actor:lockbit",
+        "entity_type": "operation",
+        "display_name": "LockBit"
+      },
+      "event_type": "disrupted_by_le",
+      "when": {
+        "text": "February 2024",
+        "normalized_start": "2024-02",
+        "precision": "month"
+      },
+      "evidence": {
+        "evidence_kind": "plate_text",
+        "evidence_quote": "Law enforcement disruption is shown for LockBit in February 2024.",
+        "citation_url": "https://github.com/cert-orangecyberdefense/ransomware_map/blob/9f3715b623f7270bf1df13f2d10eb5dcd32bef1e/OCD_WorldWatch_Ransomware-ecosystem-map.pdf",
+        "source_snapshot_ref": "ocd:snapshot:v29:fixture"
+      },
+      "confidence": "low",
+      "uncertainty_label": "source_asserted",
+      "review_status": "accepted"
+    }
+  ],
+  "source_disclaimer": "Secondary, non-exhaustive reference; relationship and attribution claims remain uncertain unless marked analyst-confirmed."
+}
