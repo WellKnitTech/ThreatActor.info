@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America](https://www.rapid7.com/blog/post/c-licencias-online-partnership-accelerates-latam-cybersecurity-maturity-latin-america)
+  Rapid7 - 2026-08-19T
+

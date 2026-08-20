@@ -30,9 +30,3 @@ Proton is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To](https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/)
-  Wired - 2026-08-18T
-

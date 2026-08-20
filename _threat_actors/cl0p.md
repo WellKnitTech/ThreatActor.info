@@ -144,8 +144,8 @@ Curated Intelligence MOVEit Transfer Tracking tracks 74 public events for the 20
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data](https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html)
+  The Hacker News - 2026-08-19T
 - [Clop created custom web shell for Windchill data theft attacks](https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/)
   BleepingComputer - 2026-08-18T
-- [Philips and GE investigating Clop ransomware data theft claims](https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/)
-  BleepingComputer - 2026-08-17T
 

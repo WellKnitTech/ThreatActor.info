@@ -37,3 +37,9 @@ Cyber Alliance is a hacktivist group that has demonstrated capabilities in explo
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Back-to-School Cyber Risks Surge as Education Remains the World’s Most Attacked Sector](https://blog.checkpoint.com/research/back-to-school-cyber-risks-surge-as-education-remains-the-worlds-most-attacked-sector/)
+  Check Point - 2026-08-19T
+

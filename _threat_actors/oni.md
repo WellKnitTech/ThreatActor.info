@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Certificate Transparency Monitoring is now generally available](https://blog.cloudflare.com/certificate-transparency-monitoring-ga/)
-  Cloudflare - 2026-08-13T
+- [7 lessons for IT leaders on using observability to monitor AI applications ](https://www.elastic.co/blog/monitor-ai-applications-llm-observability)
+  Elastic - 2026-08-19T
 

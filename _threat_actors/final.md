@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US](https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/)
-  Wired - 2026-08-18T
-

@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [The Best Digital Wall Calendar (2026): Skylight, Everblog, Apolosign](https://www.wired.com/story/are-digital-wall-calendars-worth-it/)
+  Wired - 2026-08-19T
+

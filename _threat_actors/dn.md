@@ -33,8 +33,8 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic](https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html)
-  The Hacker News - 2026-08-17T
-- [Ransomware Didn’t Slow Down in Q2 2026. It Just Spread Out.](https://blog.checkpoint.com/security/ransomware-didnt-slow-down-in-q2-2026-it-just-spread-out/)
-  Check Point - 2026-08-13T
+- [Stripe didn’t really buy OpenRouter because of the ‘singularity’](https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/)
+  TechCrunch - 2026-08-19T
+- [We Bought a $500 Counterfeit Rolex So Good, Even Rolex Didn’t Spot It](https://www.wired.com/story/we-bought-a-counterfeit-rolex-so-good-even-rolex-didnt-spot-it/)
+  Wired - 2026-08-19T
 

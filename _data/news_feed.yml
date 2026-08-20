@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T02:54:40Z",
+  "updated": "2026-08-20T02:54:05Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -21,10 +21,130 @@
   "actor_news": {
     "R": [
       {
-        "title": "China-Linked Hacker Shows AI Capabilities in APAC Attack",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack",
-        "date": "2026-08-19T01:00:00+00:00",
+        "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
+        "link": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
+        "date": "2026-08-20T00:32:40+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
+        "link": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
+        "date": "2026-08-19T23:36:44+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Stripe didn’t really buy OpenRouter because of the ‘singularity’",
+        "link": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
+        "date": "2026-08-19T23:32:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Waymo’s cheaper, next-gen robotaxi is now open to all riders in these three cities",
+        "link": "https://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities/",
+        "date": "2026-08-19T22:25:01+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+        "link": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
+        "date": "2026-08-19T22:10:46+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Spectre": [
+      {
+        "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
+        "link": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
+        "date": "2026-08-20T00:32:40+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
+        "link": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
+        "date": "2026-08-19T16:00:28+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "Ra": [
+      {
+        "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
+        "link": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
+        "date": "2026-08-19T23:36:44+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Travis Kalanick kicks off another round of VC bashing: ‘1% are helpful’",
+        "link": "https://techcrunch.com/2026/08/19/travis-kalanick-kicks-off-another-round-of-vc-bashing-1-are-helpful/",
+        "date": "2026-08-19T21:48:24+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "No-Filter 'Kriminal' AI Platform Raises Cybercrime Concerns",
+        "link": "https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns",
+        "date": "2026-08-19T20:32:09+00:00",
         "source": "DarkReading"
+      },
+      {
+        "title": "Rillet raises $100M Series C at $1B valuation — 2 years after emerging from stealth",
+        "link": "https://techcrunch.com/2026/08/19/rillet-raises-100m-series-c-at-1b-valuation-2-years-after-emerging-from-stealth/",
+        "date": "2026-08-19T20:12:33+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Researchers say OpenAI revoked their access to limited cyber program",
+        "link": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
+        "date": "2026-08-19T18:46:14+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Unsafe": [
+      {
+        "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
+        "link": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
+        "date": "2026-08-19T23:36:44+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "DN": [
+      {
+        "title": "Stripe didn’t really buy OpenRouter because of the ‘singularity’",
+        "link": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
+        "date": "2026-08-19T23:32:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "We Bought a $500 Counterfeit Rolex So Good, Even Rolex Didn’t Spot It",
+        "link": "https://www.wired.com/story/we-bought-a-counterfeit-rolex-so-good-even-rolex-didnt-spot-it/",
+        "date": "2026-08-19T10:45:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "RIP (Phoenix) Ransomware": [
+      {
+        "title": "Stripe didn’t really buy OpenRouter because of the ‘singularity’",
+        "link": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
+        "date": "2026-08-19T23:32:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "One": [
+      {
+        "title": "Elon Musk Is Expected to Point His Money Machine at Texas Politics",
+        "link": "https://www.wired.com/story/elon-musk-is-expected-to-point-his-money-machine-at-texas/",
+        "date": "2026-08-19T23:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+        "link": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
+        "date": "2026-08-19T22:10:46+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Gambling on the Little League World Series? Sports bettors have gone too far",
+        "link": "https://techcrunch.com/2026/08/19/gambling-on-the-little-league-world-series-sports-bettors-have-gone-too-far/",
+        "date": "2026-08-19T20:01:02+00:00",
+        "source": "TechCrunch"
       },
       {
         "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
@@ -33,9 +153,169 @@
         "source": "The Hacker News"
       },
       {
-        "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
-        "link": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
-        "date": "2026-08-18T23:14:05+05:30",
+        "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
+        "link": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
+        "date": "2026-08-18T17:00:00+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "PL": [
+      {
+        "title": "No-Filter 'Kriminal' AI Platform Raises Cybercrime Concerns",
+        "link": "https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns",
+        "date": "2026-08-19T20:32:09+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "AI was supposed to win people over by now — it hasn’t",
+        "link": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
+        "date": "2026-08-19T19:11:40+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation",
+        "link": "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
+        "date": "2026-08-19T16:31:48+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "US warns of AI-powered attacks on Siemens PLCs in critical infrastructure",
+        "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
+        "date": "2026-08-19T13:50:01-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "There’s a Very Simple Reason Why You Love the Slate Truck",
+        "link": "https://www.wired.com/story/theres-a-very-simple-reason-why-you-love-the-slate-truck/",
+        "date": "2026-08-19T10:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "RNS": [
+      {
+        "title": "No-Filter 'Kriminal' AI Platform Raises Cybercrime Concerns",
+        "link": "https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns",
+        "date": "2026-08-19T20:32:09+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "US warns of AI-powered attacks on Siemens PLCs in critical infrastructure",
+        "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
+        "date": "2026-08-19T13:50:01-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Comcast turns your Xfinity WiFi into a home motion detector",
+        "link": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
+        "date": "2026-08-18T16:14:58-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "APT3": [
+      {
+        "title": "OpenAI confirms ChatGPT is down as logins and signups fail",
+        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/",
+        "date": "2026-08-19T20:20:55-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Dell XPS 13 vs. MacBook Neo: A Surprising Upset",
+        "link": "https://www.wired.com/story/macbook-neo-vs-dell-xps-13/",
+        "date": "2026-08-19T10:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Honor": [
+      {
+        "title": "Gwyneth Paltrow allegedly set to throw dinner in honor of Sam Altman",
+        "link": "https://techcrunch.com/2026/08/19/gwyneth-paltrow-allegedly-set-to-throw-dinner-in-honor-of-sam-altman/",
+        "date": "2026-08-19T20:04:12+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Sport": [
+      {
+        "title": "Gambling on the Little League World Series? Sports bettors have gone too far",
+        "link": "https://techcrunch.com/2026/08/19/gambling-on-the-little-league-world-series-sports-bettors-have-gone-too-far/",
+        "date": "2026-08-19T20:01:02+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "‘Your Excel Skills Suck’: The Power Users Turning Spreadsheets Into a Spectator Sport",
+        "link": "https://www.wired.com/story/your-excel-skills-suck-the-power-users-turning-spreadsheets-into-a-spectator-sport/",
+        "date": "2026-08-19T11:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Deadeye Jackal": [
+      {
+        "title": "Google packs Search and Gemini with new AI study tools",
+        "link": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+        "date": "2026-08-19T19:00:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Researchers say OpenAI revoked their access to limited cyber program",
+        "link": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
+        "date": "2026-08-19T18:46:14+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Agentic treasury runs on searchable, observable context",
+        "link": "https://www.elastic.co/blog/agentic-treasury",
+        "date": "2026-08-18T00:00:00+00:00",
+        "source": "Elastic"
+      }
+    ],
+    "Mini": [
+      {
+        "title": "Google packs Search and Gemini with new AI study tools",
+        "link": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+        "date": "2026-08-19T19:00:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "PLATINUM": [
+      {
+        "title": "SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs",
+        "link": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
+        "date": "2026-08-19T18:42:17+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "SilkParasite Threatens Central Asian Orgs With Flurry of RATs",
+        "link": "https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats",
+        "date": "2026-08-19T16:58:23+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Parasite": [
+      {
+        "title": "SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs",
+        "link": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
+        "date": "2026-08-19T18:42:17+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "SilkParasite Threatens Central Asian Orgs With Flurry of RATs",
+        "link": "https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats",
+        "date": "2026-08-19T16:58:23+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Payment": [
+      {
+        "title": "Rogue ransomware affiliate poses as recovery firm to steal payments",
+        "link": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
+        "date": "2026-08-19T16:59:58-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Hacked": [
+      {
+        "title": "StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data",
+        "link": "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
+        "date": "2026-08-19T16:55:28+05:30",
         "source": "The Hacker News"
       },
       {
@@ -45,10 +325,166 @@
         "source": "The Hacker News"
       },
       {
-        "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
-        "link": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
-        "date": "2026-08-18T22:14:25+00:00",
-        "source": "TechCrunch"
+        "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
+        "link": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
+        "date": "2026-08-18T13:00:04+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "Karo": [
+      {
+        "title": "Coders Say They Already Found Workarounds to Claude’s Invisible Watermarks",
+        "link": "https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/",
+        "date": "2026-08-19T16:44:07+00:00",
+        "source": "Wired"
+      }
+    ],
+    "THT": [
+      {
+        "title": "Healthtech firm CareCloud data breach impacts 3.7 million patients",
+        "link": "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/",
+        "date": "2026-08-19T16:07:12-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "BRONZE BUTLER": [
+      {
+        "title": "Why Is It Absolute Hell to Buy a Movie Ticket Now?",
+        "link": "https://www.wired.com/story/why-is-it-absolute-hell-to-buy-a-movie-ticket-now/",
+        "date": "2026-08-19T14:33:04+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "US charges Iranian hackers over $3.4 billion intellectual property theft",
+        "link": "https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/",
+        "date": "2026-08-19T11:56:09-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Tick": [
+      {
+        "title": "Why Is It Absolute Hell to Buy a Movie Ticket Now?",
+        "link": "https://www.wired.com/story/why-is-it-absolute-hell-to-buy-a-movie-ticket-now/",
+        "date": "2026-08-19T14:33:04+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "US charges Iranian hackers over $3.4 billion intellectual property theft",
+        "link": "https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/",
+        "date": "2026-08-19T11:56:09-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Ukrainian Cyber Alliance": [
+      {
+        "title": "Back-to-School Cyber Risks Surge as Education Remains the World’s Most Attacked Sector",
+        "link": "https://blog.checkpoint.com/research/back-to-school-cyber-risks-surge-as-education-remains-the-worlds-most-attacked-sector/",
+        "date": "2026-08-19T13:00:52+00:00",
+        "source": "Check Point"
+      }
+    ],
+    "Rapid": [
+      {
+        "title": "Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America",
+        "link": "https://www.rapid7.com/blog/post/c-licencias-online-partnership-accelerates-latam-cybersecurity-maturity-latin-america",
+        "date": "2026-08-19T12:00:00+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "Light": [
+      {
+        "title": "The Best Digital Wall Calendar (2026): Skylight, Everblog, Apolosign",
+        "link": "https://www.wired.com/story/are-digital-wall-calendars-worth-it/",
+        "date": "2026-08-19T11:31:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Clop": [
+      {
+        "title": "Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data",
+        "link": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
+        "date": "2026-08-19T11:09:25+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Clop created custom web shell for Windchill data theft attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
+        "date": "2026-08-18T13:29:51-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Cl0p": [
+      {
+        "title": "Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data",
+        "link": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
+        "date": "2026-08-19T11:09:25+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Clop created custom web shell for Windchill data theft attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
+        "date": "2026-08-18T13:29:51-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "CryLocker": [
+      {
+        "title": "Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data",
+        "link": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
+        "date": "2026-08-19T11:09:25+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Operation ASTERIX: Anatomy of a Crypto Fraud Pipeline",
+        "link": "https://www.rapid7.com/blog/post/tr-operation-asterix-crypto-fraud-vishing-phishing",
+        "date": "2026-08-17T11:29:31+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "Defender": [
+      {
+        "title": "Microsoft fixes known issue causing Windows Defender crashes",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-causing-windows-defender-crashes/",
+        "date": "2026-08-19T07:14:28-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "24H": [
+      {
+        "title": "Windows 11 24H2 Home and Pro reach end of support in 2 months",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-2-months/",
+        "date": "2026-08-19T05:10:20-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Medusa": [
+      {
+        "title": "CISA: Medusa ransomware hit over 500 critical infrastructure orgs",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
+        "date": "2026-08-19T04:00:48-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "APT41": [
+      {
+        "title": "7 lessons for IT leaders on using observability to monitor AI applications ",
+        "link": "https://www.elastic.co/blog/monitor-ai-applications-llm-observability",
+        "date": "2026-08-19T00:00:00+00:00",
+        "source": "Elastic"
+      },
+      {
+        "title": "'Turf War' Between Claude Agents Leads to Self-Replicating Malware",
+        "link": "https://www.darkreading.com/threat-intelligence/turf-war-claude-agents-self-replicating-malware",
+        "date": "2026-08-17T20:26:34+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "ONI": [
+      {
+        "title": "7 lessons for IT leaders on using observability to monitor AI applications ",
+        "link": "https://www.elastic.co/blog/monitor-ai-applications-llm-observability",
+        "date": "2026-08-19T00:00:00+00:00",
+        "source": "Elastic"
       }
     ],
     "Lick": [
@@ -71,144 +507,6 @@
         "source": "Cloudflare"
       }
     ],
-    "One": [
-      {
-        "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
-        "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
-        "date": "2026-08-18T23:17:22+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
-        "link": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
-        "date": "2026-08-18T17:00:00+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US",
-        "link": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
-        "date": "2026-08-18T10:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Secure all your internal vibe-coded applications — in one click",
-        "link": "https://blog.cloudflare.com/workers-protected-by-access/",
-        "date": "2026-08-14T13:00:00+00:00",
-        "source": "Cloudflare"
-      }
-    ],
-    "Ra": [
-      {
-        "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
-        "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
-        "date": "2026-08-18T23:17:22+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
-        "link": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
-        "date": "2026-08-18T22:28:16+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
-        "link": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
-        "date": "2026-08-18T22:14:25+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
-        "link": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
-        "date": "2026-08-18T17:00:00+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Why Apple’s camera-equipped AirPods may not be the ‘pervert pods’ consumers fear",
-        "link": "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/",
-        "date": "2026-08-18T16:19:10+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "PL": [
-      {
-        "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
-        "link": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
-        "date": "2026-08-18T23:14:05+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
-        "link": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
-        "date": "2026-08-18T22:14:25+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "TikTok explores peer-to-peer payments via DMs, report says",
-        "link": "https://techcrunch.com/2026/08/18/tiktok-explores-peer-to-peer-payments-via-dms-report-says/",
-        "date": "2026-08-18T20:03:56+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Apple overhauls its EU App Store fees, loosens rules for alternative app stores",
-        "link": "https://techcrunch.com/2026/08/18/apple-overhauls-its-eu-app-store-fees-loosens-rules-for-alternative-app-stores/",
-        "date": "2026-08-18T17:12:13+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Why Apple’s camera-equipped AirPods may not be the ‘pervert pods’ consumers fear",
-        "link": "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/",
-        "date": "2026-08-18T16:19:10+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Hacked": [
-      {
-        "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
-        "link": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
-        "date": "2026-08-18T22:28:16+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
-        "link": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
-        "date": "2026-08-18T13:00:04+00:00",
-        "source": "Ars Technica"
-      }
-    ],
-    "Deadeye Jackal": [
-      {
-        "title": "DOJ’s probe into Andreessen Horowitz over board seats baffles VCs",
-        "link": "https://techcrunch.com/2026/08/18/dojs-probe-into-andreessen-horowitz-over-board-seats-baffles-vcs/",
-        "date": "2026-08-18T20:36:20+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Microsoft confirms outage affecting search in Microsoft 365 apps",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-bug-behind-microsoft-365-search-issues/",
-        "date": "2026-08-18T05:24:49-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Agentic treasury runs on searchable, observable context",
-        "link": "https://www.elastic.co/blog/agentic-treasury",
-        "date": "2026-08-18T00:00:00+00:00",
-        "source": "Elastic"
-      },
-      {
-        "title": "Private security firms will soon be allowed to hack overseas cybercriminals",
-        "link": "https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/",
-        "date": "2026-08-13T19:38:58+00:00",
-        "source": "Ars Technica"
-      }
-    ],
-    "Payment": [
-      {
-        "title": "TikTok explores peer-to-peer payments via DMs, report says",
-        "link": "https://techcrunch.com/2026/08/18/tiktok-explores-peer-to-peer-payments-via-dms-report-says/",
-        "date": "2026-08-18T20:03:56+00:00",
-        "source": "TechCrunch"
-      }
-    ],
     "Silence": [
       {
         "title": "CISOs Break Their Silence in 'Declassified' Docuseries",
@@ -225,72 +523,6 @@
         "source": "DarkReading"
       }
     ],
-    "CryLocker": [
-      {
-        "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
-        "link": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
-        "date": "2026-08-18T16:50:00+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Operation ASTERIX: Anatomy of a Crypto Fraud Pipeline",
-        "link": "https://www.rapid7.com/blog/post/tr-operation-asterix-crypto-fraud-vishing-phishing",
-        "date": "2026-08-17T11:29:31+00:00",
-        "source": "Rapid7"
-      }
-    ],
-    "Ruby": [
-      {
-        "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
-        "link": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
-        "date": "2026-08-18T16:50:00+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "RNS": [
-      {
-        "title": "Comcast turns your Xfinity WiFi into a home motion detector",
-        "link": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
-        "date": "2026-08-18T16:14:58-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Bluesky": [
-      {
-        "title": "Bluesky says its recent outage was caused by another DDoS attack",
-        "link": "https://techcrunch.com/2026/08/18/bluesky-says-its-recent-outage-was-caused-by-another-ddos-attack/",
-        "date": "2026-08-18T15:59:48+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Clop": [
-      {
-        "title": "Clop created custom web shell for Windchill data theft attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
-        "date": "2026-08-18T13:29:51-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Philips and GE investigating Clop ransomware data theft claims",
-        "link": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
-        "date": "2026-08-17T07:25:02-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Cl0p": [
-      {
-        "title": "Clop created custom web shell for Windchill data theft attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
-        "date": "2026-08-18T13:29:51-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Philips and GE investigating Clop ransomware data theft claims",
-        "link": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
-        "date": "2026-08-17T07:25:02-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
     "global": [
       {
         "title": "The Mistake That Exposed a Global Cyber Crime Operation",
@@ -305,20 +537,6 @@
         "source": "DarkReading"
       }
     ],
-    "NMoreira": [
-      {
-        "title": "Can the Upcoming ‘Expanse’ Game Avoid the Biggest Mistake of ‘Mass Effect’?",
-        "link": "https://www.wired.com/story/the-upcoming-expanse-game-has-to-make-some-hard-choices/",
-        "date": "2026-08-18T13:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Linux Botnet Evooo1Bot Expands Mirai Capabilities Well Beyond DDoS",
-        "link": "https://www.darkreading.com/cyber-risk/linux-botnet-evooo1bot-mirai-capabilities-beyond-ddos",
-        "date": "2026-08-17T15:44:34+00:00",
-        "source": "DarkReading"
-      }
-    ],
     "Silent": [
       {
         "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
@@ -327,73 +545,11 @@
         "source": "DarkReading"
       }
     ],
-    "Proton": [
+    "NMoreira": [
       {
-        "title": "Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To",
-        "link": "https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/",
-        "date": "2026-08-18T10:30:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Final": [
-      {
-        "title": "Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US",
-        "link": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
-        "date": "2026-08-18T10:30:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Explorer": [
-      {
-        "title": "Microsoft tests faster Windows File Explorer, new context menu",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/",
-        "date": "2026-08-18T07:14:28-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Steel": [
-      {
-        "title": "SteelSeries Coupon Codes: 15% Off in August 2026",
-        "link": "https://www.wired.com/story/steelseries-coupon-code/",
-        "date": "2026-08-18T05:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "PHP": [
-      {
-        "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
-        "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-        "date": "2026-08-17T23:52:09+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "DN": [
-      {
-        "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
-        "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
-        "date": "2026-08-17T23:11:06+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Ransomware Didn’t Slow Down in Q2 2026. It Just Spread Out.",
-        "link": "https://blog.checkpoint.com/security/ransomware-didnt-slow-down-in-q2-2026-it-just-spread-out/",
-        "date": "2026-08-13T13:00:42+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "RIP (Phoenix) Ransomware": [
-      {
-        "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
-        "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
-        "date": "2026-08-17T23:11:06+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "APT41": [
-      {
-        "title": "'Turf War' Between Claude Agents Leads to Self-Replicating Malware",
-        "link": "https://www.darkreading.com/threat-intelligence/turf-war-claude-agents-self-replicating-malware",
-        "date": "2026-08-17T20:26:34+00:00",
+        "title": "Linux Botnet Evooo1Bot Expands Mirai Capabilities Well Beyond DDoS",
+        "link": "https://www.darkreading.com/cyber-risk/linux-botnet-evooo1bot-mirai-capabilities-beyond-ddos",
+        "date": "2026-08-17T15:44:34+00:00",
         "source": "DarkReading"
       }
     ],
@@ -403,42 +559,6 @@
         "link": "https://www.rapid7.com/blog/post/tr-operation-asterix-crypto-fraud-vishing-phishing",
         "date": "2026-08-17T11:29:31+00:00",
         "source": "Rapid7"
-      }
-    ],
-    "ghost": [
-      {
-        "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
-        "link": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
-        "date": "2026-08-17T10:00:10-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "PBS station fears losing 50TB of data after being ghosted by cloud storage provider",
-        "link": "https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/",
-        "date": "2026-08-14T17:03:54+00:00",
-        "source": "Ars Technica"
-      }
-    ],
-    "Thor": [
-      {
-        "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
-        "link": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
-        "date": "2026-08-17T10:00:10-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "French tax authority data breach affects 678,000 individuals",
-        "link": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
-        "date": "2026-08-17T06:09:48-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Defender": [
-      {
-        "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
-        "link": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
-        "date": "2026-08-17T05:05:33-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "Metasploit": [
@@ -473,12 +593,12 @@
         "source": "DarkReading"
       }
     ],
-    "ONI": [
+    "ghost": [
       {
-        "title": "Certificate Transparency Monitoring is now generally available",
-        "link": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
-        "date": "2026-08-13T13:00:00+00:00",
-        "source": "Cloudflare"
+        "title": "PBS station fears losing 50TB of data after being ghosted by cloud storage provider",
+        "link": "https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/",
+        "date": "2026-08-14T17:03:54+00:00",
+        "source": "Ars Technica"
       }
     ]
   }

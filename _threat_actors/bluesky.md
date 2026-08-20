@@ -30,9 +30,3 @@ Ransomware.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Bluesky says its recent outage was caused by another DDoS attack](https://techcrunch.com/2026/08/18/bluesky-says-its-recent-outage-was-caused-by-another-ddos-attack/)
-  TechCrunch - 2026-08-18T
-
