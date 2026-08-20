@@ -73,6 +73,21 @@ Reviewed name and rename handling lives in `data/imports/ransomlook/mapping_over
 
 `scripts/import-ocd-ransomware-map.rb` is a bounded, research-only extractor for the OCD visual map. It is deliberately not an actor importer: it never edits `_data/actors`, and its candidate JSON must be manually adjudicated before any relationship, alias, entity-type, timeline, or actor-page change.
 
+### Supported local setup
+
+The reconciler is Python 3 and uses the pinned dependency in `requirements-importers.txt`:
+
+```bash
+python3 -m venv .venv-importers
+. .venv-importers/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements-importers.txt
+sudo apt-get install poppler-utils
+python -m unittest discover -s test -p 'test_ocd_entity_reconciler.py' -v
+```
+
+The `poppler-utils` package provides `pdftotext`, which is required by the `plan` path. The importer checks for it before extraction and quarantines the run with an actionable diagnostic instead of silently producing an incomplete plan. The canonical accepted input is committed at `data/imports/ocd-ransomware-map/accepted.yml`; it is intentionally exempted from the general snapshot-cache ignore rule so Pages and automated commits use the same review-gated data.
+
 - `fetch --output PATH` downloads the pinned v29 PDF and README with HTTPS timeouts and a 10 MiB response limit, verifies the pinned SHA-256 values and rights marker, and writes a local snapshot under `data/imports/ocd-ransomware-map/...`.
 - `plan --snapshot PATH --output PATH` verifies manifest paths, version, license marker, hashes, and PDF structure; runs deterministic `pdftotext -layout -nopgbrk`; and emits `report.json` plus `candidates.json` in the report output directory. Extracted PDF text remains temporary and is not written to the output.
 - Raw PDFs remain local snapshot artifacts outside publishable generated data. The site must store only source URL, commit/version, hashes, and derived review candidates; do not redistribute the upstream PDF.

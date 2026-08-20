@@ -527,6 +527,18 @@ class OcdEntityReconciler:
             base.reasons = reasons
             return base
 
+        # An explicit malware type cannot be accepted as actor provenance when
+        # the only exact match is an actor and no malware catalog entry exists.
+        if entity_type_hint == "malware_strain" and len(unique_exact_actors) == 1 and not unique_mal:
+            base.match_kind = "typed_actor_collision"
+            base.confidence = "medium"
+            base.review_status = "needs_review"
+            base.auto_merge = False
+            base.auto_attach_provenance = False
+            reasons.append("explicit malware_strain type conflicts with actor-only exact match; analyst review required")
+            base.reasons = reasons
+            return base
+
         # Exact single actor, no malware collision
         if len(unique_exact_actors) == 1 and not unique_mal:
             base.match_kind = "exact_alias" if raw.lower() != str(self.actors[unique_exact_actors[0]].get("name")).lower() else "exact_name"

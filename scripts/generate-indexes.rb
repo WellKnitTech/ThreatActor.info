@@ -288,6 +288,7 @@ class ThreatActorIndexGenerator
     ocd_ecosystem = build_ocd_ecosystem(actor_documents)
     write_json(OCD_ECOSYSTEM_OUTPUT, ocd_ecosystem)
     write_api_json(OCD_ECOSYSTEM_OUTPUT, ocd_ecosystem)
+    remove_obsolete_ocd_actor_shards
     write_ocd_actor_shards(ocd_ecosystem)
     
     # Generate malware pages from extracted data
@@ -595,6 +596,10 @@ class ThreatActorIndexGenerator
         source_disclaimer: ecosystem[:source_disclaimer]
       })
     end
+  end
+
+  def remove_obsolete_ocd_actor_shards
+    Dir.glob(File.join(OCD_ECOSYSTEM_API_DIR, '*.json')).each { |path| FileUtils.rm_f(path) }
   end
 
   def build_facets(actors, iocs)

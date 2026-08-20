@@ -63,6 +63,18 @@ class OcdRansomwareMapImporterTest < Minitest::Test
     assert_empty report.fetch('candidates')
   end
 
+  def test_missing_pdftotext_reports_installable_prerequisite
+    importer = OcdRansomwareMapImporter.new(snapshot: fixture('current'), output: Dir.mktmpdir,
+                                              expected_pdf_sha256: fixture_pdf_sha256, expected_readme_sha256: fixture_readme_sha256,
+                                              pdftotext_bin: '/definitely/missing/pdftotext')
+
+    report = importer.plan
+
+    assert_equal 'quarantined', report.fetch('status')
+    assert_equal 'missing_pdf_text_extractor', report.fetch('diagnostics').first.fetch('code')
+    assert_includes report.fetch('diagnostics').first.fetch('message'), 'poppler-utils'
+  end
+
   private
 
   def fixture(name)

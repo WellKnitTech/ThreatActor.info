@@ -56,13 +56,15 @@ class OcdRansomwareMapImporter
   end
 
   def initialize(snapshot:, output:, expected_pdf_sha256: EXPECTED_PDF_SHA256,
-                 expected_readme_sha256: EXPECTED_README_SHA256, pdf_url: PDF_URL, readme_url: README_URL)
+                 expected_readme_sha256: EXPECTED_README_SHA256, pdf_url: PDF_URL, readme_url: README_URL,
+                 pdftotext_bin: 'pdftotext')
     @snapshot = snapshot
     @output = output
     @expected_pdf_sha256 = expected_pdf_sha256
     @expected_readme_sha256 = expected_readme_sha256
     @pdf_url = pdf_url
     @readme_url = readme_url
+    @pdftotext_bin = pdftotext_bin
   end
 
   def fetch
@@ -149,11 +151,12 @@ class OcdRansomwareMapImporter
   end
 
   def extract_pdf(pdf)
+    ensure_pdftotext_available!
     Dir.mktmpdir('ocd-pdf') do |directory|
       input = File.join(directory, 'source.pdf')
       text_path = File.join(directory, 'extracted.txt')
       File.binwrite(input, pdf)
-      command = ['pdftotext', '-layout', '-nopgbrk', input, text_path]
+      command = [@pdftotext_bin, '-layout', '-nopgbrk', input, text_path]
       _stdout, stderr, status = Open3.capture3(*command)
       raise "PDF structure invalid: #{stderr.strip}" unless status.success?
       text = normalize_text(File.read(text_path))
@@ -189,6 +192,19 @@ class OcdRansomwareMapImporter
       }
     end
     [candidates.sort_by { |candidate| [candidate['event_type'], candidate['source_label'].downcase] }, diagnostics]
+  end
+
+  def ensure_pdftotext_available!
+    executable = if @pdftotext_bin.include?(File::SEPARATOR)
+                   File.executable?(@pdftotext_bin)
+                 else
+                   ENV.fetch('PATH', '').split(File::PATH_SEPARATOR).any? do |directory|
+                     File.executable?(File.join(directory, @pdftotext_bin))
+                   end
+                 end
+    return if executable
+
+    raise 'pdftotext prerequisite missing: install poppler-utils and ensure pdftotext is on PATH'
   end
 
   def manifest_for(pdf, readme)
@@ -239,6 +255,7 @@ class OcdRansomwareMapImporter
   end
 
   def error_code(message)
+    return 'missing_pdf_text_extractor' if message.include?('pdftotext prerequisite missing')
     return 'pdf_structure_invalid' if message.start_with?('PDF structure invalid')
     return 'license_verification_failed' if message.include?('license')
     return 'source_format_changed' if message.include?('version') || message.include?('path')

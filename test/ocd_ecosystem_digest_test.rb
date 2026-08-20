@@ -37,6 +37,31 @@ class OcdEcosystemDigestTest < Minitest::Test
     end
   end
 
+  def test_generation_removes_obsolete_actor_shards
+    Dir.mktmpdir do |dir|
+      Dir.chdir(dir) do
+        shard_dir = File.join('api', 'ransomware-ecosystem')
+        FileUtils.mkdir_p(shard_dir)
+        stale = File.join(shard_dir, 'retracted-actor.json')
+        File.write(stale, '{}')
+
+        generator = ThreatActorIndexGenerator.allocate
+        generator.send(:remove_obsolete_ocd_actor_shards)
+        generator.send(:write_ocd_actor_shards, {
+                         schema_version: '1.0',
+                         provenance: {},
+                         source_disclaimer: 'test',
+                         actors: {
+                           'current-actor' => { relationships: [], events: [], mentions: [] }
+                         }
+                       })
+
+        refute File.exist?(stale)
+        assert File.exist?(File.join(shard_dir, 'current-actor.json'))
+      end
+    end
+  end
+
   def test_publish_gate_rejects_visual_evidence_high_confidence_and_unsafe_citations
     generator = ThreatActorIndexGenerator.allocate
     base = {

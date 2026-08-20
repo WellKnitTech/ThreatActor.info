@@ -125,6 +125,13 @@ class OcdReconcilerTests(unittest.TestCase):
         self.assertFalse(r.auto_merge)
         self.assertTrue(all(c.ref_kind == "canonical_malware" for c in r.candidates))
 
+    def test_explicit_malware_strain_exact_actor_match_stays_under_review(self) -> None:
+        r = self.reconciler.reconcile_label({"name": "LockBit", "entity_type": "malware_strain"})
+        self.assertEqual(r.match_kind, "typed_actor_collision")
+        self.assertEqual(r.review_status, "needs_review")
+        self.assertFalse(r.auto_attach_provenance)
+        self.assertFalse(r.auto_merge)
+
     def test_hive_actor_malware_overlap(self) -> None:
         r = self.by_name["Hive"]
         self.assertEqual(r.review_status, "needs_review")
