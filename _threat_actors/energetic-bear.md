@@ -41,3 +41,9 @@ A Russian group that collects intelligence on the energy industry.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Mark buys a castle](https://techcrunch.com/2026/08/20/mark-buys-a-castle/)
+  TechCrunch - 2026-08-20T
+

@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Elon Musk Is Expected to Point His Money Machine at Texas Politics](https://www.wired.com/story/elon-musk-is-expected-to-point-his-money-machine-at-texas/)
-  Wired - 2026-08-19T
-- [OpenAI seeks to one-up Anthropic with new customer privacy protections](https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/)
-  TechCrunch - 2026-08-19T
-- [Gambling on the Little League World Series? Sports bettors have gone too far](https://techcrunch.com/2026/08/19/gambling-on-the-little-league-world-series-sports-bettors-have-gone-too-far/)
-  TechCrunch - 2026-08-19T
-- [Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps](https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html)
-  The Hacker News - 2026-08-18T
-- [One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025](https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html)
-  The Hacker News - 2026-08-18T
+- [Someone targeted security researchers using a fake crypto conference as a lure](https://techcrunch.com/2026/08/20/someone-targeted-security-researchers-using-a-fake-crypto-conference-as-a-lure/)
+  TechCrunch - 2026-08-20T
+- [Money and Mindset: The Two Biggest Roadblocks to Cyber Policing](https://www.darkreading.com/cybersecurity-operations/money-and-mindset-the-two-biggest-roadblocks-to-cyber-policing)
+  DarkReading - 2026-08-20T
+- [Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices](https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html)
+  The Hacker News - 2026-08-20T
+- [The 3 Best USB Car Chargers for Phones (2026): Anker, DeWalt](https://www.wired.com/story/best-usb-car-chargers/)
+  Wired - 2026-08-20T
+- [How Teen ‘After-Prom’ Kings in LA Monetized the High School Rager](https://www.wired.com/story/myplots-jack-schwartz-zane-harwin-teen-parties-after-prom/)
+  Wired - 2026-08-20T
 

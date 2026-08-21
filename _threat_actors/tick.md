@@ -46,8 +46,6 @@ Tick is a cyber espionage group with likely Chinese origins that has been active
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Why Is It Absolute Hell to Buy a Movie Ticket Now?](https://www.wired.com/story/why-is-it-absolute-hell-to-buy-a-movie-ticket-now/)
-  Wired - 2026-08-19T
 - [US charges Iranian hackers over $3.4 billion intellectual property theft](https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/)
   BleepingComputer - 2026-08-19T
 

@@ -64,9 +64,3 @@ Medusa is a long-time presence in the ransomware scene that stepped up its activ
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [CISA: Medusa ransomware hit over 500 critical infrastructure orgs](https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/)
-  BleepingComputer - 2026-08-19T
-

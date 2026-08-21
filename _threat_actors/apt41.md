@@ -111,6 +111,4 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 
 - [7 lessons for IT leaders on using observability to monitor AI applications ](https://www.elastic.co/blog/monitor-ai-applications-llm-observability)
   Elastic - 2026-08-19T
-- ['Turf War' Between Claude Agents Leads to Self-Replicating Malware](https://www.darkreading.com/threat-intelligence/turf-war-claude-agents-self-replicating-malware)
-  DarkReading - 2026-08-17T
 

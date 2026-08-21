@@ -44,10 +44,10 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Google packs Search and Gemini with new AI study tools](https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/)
-  TechCrunch - 2026-08-19T
-- [Researchers say OpenAI revoked their access to limited cyber program](https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/)
-  TechCrunch - 2026-08-19T
+- [Someone targeted security researchers using a fake crypto conference as a lure](https://techcrunch.com/2026/08/20/someone-targeted-security-researchers-using-a-fake-crypto-conference-as-a-lure/)
+  TechCrunch - 2026-08-20T
+- [The search multiplier: Driving revenue, productivity, and AI at scale](https://www.elastic.co/blog/the-search-multiplier)
+  Elastic - 2026-08-20T
 - [Agentic treasury runs on searchable, observable context](https://www.elastic.co/blog/agentic-treasury)
   Elastic - 2026-08-18T
 

@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Castelion hits $13B valuation to mass-produce hypersonic missiles](https://techcrunch.com/2026/08/20/castelion-hits-13b-valuation-to-mass-produce-hypersonic-missiles/)
+  TechCrunch - 2026-08-20T
 - [7 lessons for IT leaders on using observability to monitor AI applications ](https://www.elastic.co/blog/monitor-ai-applications-llm-observability)
   Elastic - 2026-08-19T
 

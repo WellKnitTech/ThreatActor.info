@@ -141,11 +141,3 @@ Curated Intelligence MOVEit Transfer Tracking tracks 74 public events for the 20
 [5] [NCC Group TA505](https://research.nccgroup.com/2020/11/18/ta505-a-brief-history-of-their-time/)
 [6] [Korean FSI TA505 2020](https://www.fsec.or.kr/user/bbs/fsec/163/344/bbsDataView/1382.do?page=1&column=&search=&searchSDate=&searchEDate=&bbsDataCategory=)
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data](https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html)
-  The Hacker News - 2026-08-19T
-- [Clop created custom web shell for Windchill data theft attacks](https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/)
-  BleepingComputer - 2026-08-18T
-

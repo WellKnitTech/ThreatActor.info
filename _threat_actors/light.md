@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The Best Digital Wall Calendar (2026): Skylight, Everblog, Apolosign](https://www.wired.com/story/are-digital-wall-calendars-worth-it/)
-  Wired - 2026-08-19T
+- [What We Missed: Delta Flight Disrupted With Wi-Fi Hack](https://www.darkreading.com/cyber-risk/delta-flight-disrupted-wi-fi-hack)
+  DarkReading - 2026-08-20T
 

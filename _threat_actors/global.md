@@ -35,6 +35,4 @@ Not a RaaS yet.
 
 - [The Mistake That Exposed a Global Cyber Crime Operation](https://blog.checkpoint.com/research/the-mistake-that-exposed-a-global-cyber-crime-operation/)
   Check Point - 2026-08-18T
-- [Mission-Driven Security: Inside a Global Bank's Defense](https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense)
-  DarkReading - 2026-08-14T
 
