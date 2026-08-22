@@ -33,8 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Castelion hits $13B valuation to mass-produce hypersonic missiles](https://techcrunch.com/2026/08/20/castelion-hits-13b-valuation-to-mass-produce-hypersonic-missiles/)
-  TechCrunch - 2026-08-20T
+- [Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot](https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html)
+  The Hacker News - 2026-08-21T
+- [Meta’s Big Reckoning Is Here](https://www.wired.com/story/metas-big-reckoning-is-here/)
+  Wired - 2026-08-21T
 - [7 lessons for IT leaders on using observability to monitor AI applications ](https://www.elastic.co/blog/monitor-ai-applications-llm-observability)
   Elastic - 2026-08-19T
 

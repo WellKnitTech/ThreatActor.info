@@ -46,6 +46,6 @@ Tick is a cyber espionage group with likely Chinese origins that has been active
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [US charges Iranian hackers over $3.4 billion intellectual property theft](https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/)
-  BleepingComputer - 2026-08-19T
+- [Last chance: Save up to $300 on your TechCrunch Disrupt 2026 ticket today ](https://techcrunch.com/2026/08/21/last-chance-save-up-to-300-on-your-techcrunch-disrupt-2026-ticket-today/)
+  TechCrunch - 2026-08-21T
 

@@ -37,9 +37,3 @@ a relatively new threat actor that’s been operating since mid-2016 Group-IB ha
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [CISOs Break Their Silence in 'Declassified' Docuseries](https://www.darkreading.com/cyber-risk/cisos-break-their-silence-in-declassified-docuseries)
-  DarkReading - 2026-08-18T
-

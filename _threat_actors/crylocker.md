@@ -35,10 +35,6 @@ Ransomware Identifies victim locations w/Google Maps API
 
 - [New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data](https://thehackernews.com/2026/08/new-cryptographic-context-injection.html)
   The Hacker News - 2026-08-20T
-- [Someone targeted security researchers using a fake crypto conference as a lure](https://techcrunch.com/2026/08/20/someone-targeted-security-researchers-using-a-fake-crypto-conference-as-a-lure/)
-  TechCrunch - 2026-08-20T
 - [Grok exfiltrates user data when malicious instructions are encrypted](https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/)
   Ars Technica - 2026-08-20T
-- [Operation ASTERIX: Anatomy of a Crypto Fraud Pipeline](https://www.rapid7.com/blog/post/tr-operation-asterix-crypto-fraud-vishing-phishing)
-  Rapid7 - 2026-08-17T
 
