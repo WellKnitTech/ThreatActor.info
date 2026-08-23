@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Set Up a Separate Work Profile on Your Android Phone](https://www.wired.com/story/set-up-a-separate-work-profile-on-your-android-phone/)
+  Wired - 2026-08-22T
 - [Money and Mindset: The Two Biggest Roadblocks to Cyber Policing](https://www.darkreading.com/cybersecurity-operations/money-and-mindset-the-two-biggest-roadblocks-to-cyber-policing)
   DarkReading - 2026-08-20T
 - [The Approved-App Blind Spot: When Sanctioned AI Becomes Shadow AI](https://blog.checkpoint.com/ai-security/approved-app-shadow-ai-blind-spot/)

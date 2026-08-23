@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T02:51:41Z",
+  "updated": "2026-08-23T02:59:27Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -21,22 +21,82 @@
   "actor_news": {
     "R": [
       {
-        "title": "Michael Polansky is training an AI model on skin that’s still alive",
-        "link": "https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/",
-        "date": "2026-08-22T01:31:04+00:00",
+        "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+        "link": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+        "date": "2026-08-22T21:46:56+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "Japanese space tech startup Letara expands beyond satellite thrusters with $16M",
-        "link": "https://techcrunch.com/2026/08/21/japanese-space-tech-startup-letara-expands-beyond-satellite-thrusters-with-16m/",
-        "date": "2026-08-22T01:03:06+00:00",
+        "title": "Will the DOJ’s investigation into a16z spook other VCs?",
+        "link": "https://techcrunch.com/2026/08/22/will-the-dojs-investigation-into-a16z-spook-other-vcs/",
+        "date": "2026-08-22T20:24:20+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
-        "link": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
-        "date": "2026-08-22T00:23:00+05:30",
+        "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
+        "link": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
+        "date": "2026-08-22T20:02:41+05:30",
         "source": "The Hacker News"
+      },
+      {
+        "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+        "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+        "date": "2026-08-22T19:00:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "OpenAI says California should strengthen its AI safety bill",
+        "link": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+        "date": "2026-08-22T16:30:34+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Spook": [
+      {
+        "title": "Will the DOJ’s investigation into a16z spook other VCs?",
+        "link": "https://techcrunch.com/2026/08/22/will-the-dojs-investigation-into-a16z-spook-other-vcs/",
+        "date": "2026-08-22T20:24:20+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Deadeye Jackal": [
+      {
+        "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+        "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+        "date": "2026-08-22T19:00:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "The search multiplier: Driving revenue, productivity, and AI at scale",
+        "link": "https://www.elastic.co/blog/the-search-multiplier",
+        "date": "2026-08-20T00:00:00+00:00",
+        "source": "Elastic"
+      },
+      {
+        "title": "Agentic treasury runs on searchable, observable context",
+        "link": "https://www.elastic.co/blog/agentic-treasury",
+        "date": "2026-08-18T00:00:00+00:00",
+        "source": "Elastic"
+      }
+    ],
+    "PL": [
+      {
+        "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+        "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+        "date": "2026-08-22T19:00:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Saily Ultra eSIM Premum Plan Review: Packed With Perks",
+        "link": "https://www.wired.com/review/saily-ultra-esim/",
+        "date": "2026-08-22T13:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "The Best Mattress Toppers I've Tried (2026): Supportive, Plush, Memory Foam",
+        "link": "https://www.wired.com/gallery/the-best-mattress-toppers/",
+        "date": "2026-08-22T10:32:00+00:00",
+        "source": "Wired"
       },
       {
         "title": "The Unlikely Place at the Center of China’s AI Boom",
@@ -45,13 +105,39 @@
         "source": "Wired"
       },
       {
-        "title": "Say it once: introducing Bot Preference Sync",
-        "link": "https://blog.cloudflare.com/bot-preference-sync/",
-        "date": "2026-08-21T23:19:57+00:00",
-        "source": "Cloudflare"
+        "title": "Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain",
+        "link": "https://unit42.paloaltonetworks.com/sdlc-supply-chain/",
+        "date": "2026-08-21T23:00:21+00:00",
+        "source": "Unit 42"
+      }
+    ],
+    "APT3": [
+      {
+        "title": "US battery startups have found a lifeline in defense",
+        "link": "https://techcrunch.com/2026/08/22/us-battery-startups-have-found-a-lifeline-in-defense/",
+        "date": "2026-08-22T15:20:00+00:00",
+        "source": "TechCrunch"
       }
     ],
     "Ra": [
+      {
+        "title": "Pixel 11 Pro XL review: Snappier cameras can’t hide an iterative upgrade",
+        "link": "https://techcrunch.com/2026/08/22/pixel-11-pro-xl-review-snappier-cameras-cant-hide-an-iterative-upgrade/",
+        "date": "2026-08-22T14:00:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Saily Ultra eSIM Premum Plan Review: Packed With Perks",
+        "link": "https://www.wired.com/review/saily-ultra-esim/",
+        "date": "2026-08-22T13:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Set Up a Separate Work Profile on Your Android Phone",
+        "link": "https://www.wired.com/story/set-up-a-separate-work-profile-on-your-android-phone/",
+        "date": "2026-08-22T11:00:00+00:00",
+        "source": "Wired"
+      },
       {
         "title": "Michael Polansky is training an AI model on skin that’s still alive",
         "link": "https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/",
@@ -63,24 +149,80 @@
         "link": "https://techcrunch.com/2026/08/21/japanese-space-tech-startup-letara-expands-beyond-satellite-thrusters-with-16m/",
         "date": "2026-08-22T01:03:06+00:00",
         "source": "TechCrunch"
+      }
+    ],
+    "ONI": [
+      {
+        "title": "The 4 Best Monitor Arms to Clear Up Your Desk Space (2026)",
+        "link": "https://www.wired.com/gallery/best-monitor-arms/",
+        "date": "2026-08-22T11:01:00+00:00",
+        "source": "Wired"
       },
       {
-        "title": "How AI accounting startup Rillet raised $100M and became a unicorn in 48 hours",
-        "link": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
-        "date": "2026-08-21T22:10:01+00:00",
-        "source": "TechCrunch"
+        "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
+        "link": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
+        "date": "2026-08-21T21:22:10+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Meta’s Big Reckoning Is Here",
+        "link": "https://www.wired.com/story/metas-big-reckoning-is-here/",
+        "date": "2026-08-21T15:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "7 lessons for IT leaders on using observability to monitor AI applications ",
+        "link": "https://www.elastic.co/blog/monitor-ai-applications-llm-observability",
+        "date": "2026-08-19T00:00:00+00:00",
+        "source": "Elastic"
+      }
+    ],
+    "AnDROid": [
+      {
+        "title": "Set Up a Separate Work Profile on Your Android Phone",
+        "link": "https://www.wired.com/story/set-up-a-separate-work-profile-on-your-android-phone/",
+        "date": "2026-08-22T11:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Hackers infect Android car head units with proxy botnet malware",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
+        "date": "2026-08-22T10:14:24-04:00",
+        "source": "BleepingComputer"
       },
       {
         "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
         "link": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
         "date": "2026-08-21T21:11:44+05:30",
         "source": "The Hacker News"
+      }
+    ],
+    "One": [
+      {
+        "title": "Set Up a Separate Work Profile on Your Android Phone",
+        "link": "https://www.wired.com/story/set-up-a-separate-work-profile-on-your-android-phone/",
+        "date": "2026-08-22T11:00:00+00:00",
+        "source": "Wired"
       },
       {
-        "title": "US government lab is probing Chinese lidar for security vulnerabilities",
-        "link": "https://techcrunch.com/2026/08/21/us-government-lab-is-probing-chinese-lidar-for-security-vulnerabilities/",
-        "date": "2026-08-21T16:01:54+00:00",
-        "source": "TechCrunch"
+        "title": "Money and Mindset: The Two Biggest Roadblocks to Cyber Policing",
+        "link": "https://www.darkreading.com/cybersecurity-operations/money-and-mindset-the-two-biggest-roadblocks-to-cyber-policing",
+        "date": "2026-08-20T17:32:51+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "The Approved-App Blind Spot: When Sanctioned AI Becomes Shadow AI",
+        "link": "https://blog.checkpoint.com/ai-security/approved-app-shadow-ai-blind-spot/",
+        "date": "2026-08-20T09:00:31+00:00",
+        "source": "Check Point"
+      }
+    ],
+    "Payment": [
+      {
+        "title": "Your Expired Visa Card Could Be ‘Zombified’ to Make Contactless Payments",
+        "link": "https://www.wired.com/story/security-news-this-week-your-expired-visa-card-could-be-zombiefied-to-make-contactless-payments/",
+        "date": "2026-08-22T10:30:00+00:00",
+        "source": "Wired"
       }
     ],
     "NMoreira": [
@@ -107,50 +249,12 @@
         "source": "Wired"
       }
     ],
-    "PL": [
-      {
-        "title": "The Unlikely Place at the Center of China’s AI Boom",
-        "link": "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/",
-        "date": "2026-08-21T23:25:32+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain",
-        "link": "https://unit42.paloaltonetworks.com/sdlc-supply-chain/",
-        "date": "2026-08-21T23:00:21+00:00",
-        "source": "Unit 42"
-      },
-      {
-        "title": "Apple is reportedly cutting hundreds of jobs from Siri, Vision Pro teams",
-        "link": "https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/",
-        "date": "2026-08-21T20:58:07+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
-        "link": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
-        "date": "2026-08-21T12:34:25+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
-        "date": "2026-08-21T08:25:33-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
     "APT41": [
       {
         "title": "Tesla’s Door Handles Lead to Its Biggest Recall Yet",
         "link": "https://www.wired.com/story/teslas-door-handles-lead-to-its-biggest-recall-yet/",
         "date": "2026-08-21T23:10:00+00:00",
         "source": "Wired"
-      },
-      {
-        "title": "Oura faces lawsuit accusing it of misleading consumers about sleep-tracking accuracy",
-        "link": "https://techcrunch.com/2026/08/21/oura-faces-lawsuit-accusing-it-of-misleading-consumers-about-sleep-tracking-accuracy/",
-        "date": "2026-08-21T14:39:24+00:00",
-        "source": "TechCrunch"
       },
       {
         "title": "7 lessons for IT leaders on using observability to monitor AI applications ",
@@ -167,40 +271,6 @@
         "source": "The Hacker News"
       }
     ],
-    "ONI": [
-      {
-        "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
-        "link": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
-        "date": "2026-08-21T21:22:10+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Meta’s Big Reckoning Is Here",
-        "link": "https://www.wired.com/story/metas-big-reckoning-is-here/",
-        "date": "2026-08-21T15:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "7 lessons for IT leaders on using observability to monitor AI applications ",
-        "link": "https://www.elastic.co/blog/monitor-ai-applications-llm-observability",
-        "date": "2026-08-19T00:00:00+00:00",
-        "source": "Elastic"
-      }
-    ],
-    "AnDROid": [
-      {
-        "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
-        "link": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
-        "date": "2026-08-21T21:11:44+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "New Manic Android malware can exfiltrate data through nearby devices",
-        "link": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
-        "date": "2026-08-20T06:02:02-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
     "BB": [
       {
         "title": "The $225 Pebble Time 2 is a refreshingly fun smartwatch",
@@ -213,42 +283,6 @@
         "link": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/",
         "date": "2026-08-21T13:11:35+00:00",
         "source": "Ars Technica"
-      }
-    ],
-    "BRONZE BUTLER": [
-      {
-        "title": "Last chance: Save up to $300 on your TechCrunch Disrupt 2026 ticket today ",
-        "link": "https://techcrunch.com/2026/08/21/last-chance-save-up-to-300-on-your-techcrunch-disrupt-2026-ticket-today/",
-        "date": "2026-08-21T19:16:15+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Tick": [
-      {
-        "title": "Last chance: Save up to $300 on your TechCrunch Disrupt 2026 ticket today ",
-        "link": "https://techcrunch.com/2026/08/21/last-chance-save-up-to-300-on-your-techcrunch-disrupt-2026-ticket-today/",
-        "date": "2026-08-21T19:16:15+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Deadeye Jackal": [
-      {
-        "title": "Why is the DOJ investigating Andreessen Horowitz’s board seats?",
-        "link": "https://techcrunch.com/video/why-is-the-doj-investigating-andreessen-horowitzs-board-seats/",
-        "date": "2026-08-21T16:53:39+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "The search multiplier: Driving revenue, productivity, and AI at scale",
-        "link": "https://www.elastic.co/blog/the-search-multiplier",
-        "date": "2026-08-20T00:00:00+00:00",
-        "source": "Elastic"
-      },
-      {
-        "title": "Agentic treasury runs on searchable, observable context",
-        "link": "https://www.elastic.co/blog/agentic-treasury",
-        "date": "2026-08-18T00:00:00+00:00",
-        "source": "Elastic"
       }
     ],
     "Moth": [
@@ -309,26 +343,6 @@
         "source": "Wired"
       }
     ],
-    "RNS": [
-      {
-        "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
-        "date": "2026-08-21T07:04:10-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
-        "date": "2026-08-20T07:06:14-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "No-Filter 'Kriminal' AI Platform Raises Cybercrime Concerns",
-        "link": "https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns",
-        "date": "2026-08-19T20:32:09+00:00",
-        "source": "DarkReading"
-      }
-    ],
     "Zlader": [
       {
         "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
@@ -357,28 +371,6 @@
         "link": "https://www.darkreading.com/cyber-risk/delta-flight-disrupted-wi-fi-hack",
         "date": "2026-08-20T19:11:15+00:00",
         "source": "DarkReading"
-      }
-    ],
-    "Zimbra": [
-      {
-        "title": "Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution",
-        "link": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
-        "date": "2026-08-20T18:54:28+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "One": [
-      {
-        "title": "Money and Mindset: The Two Biggest Roadblocks to Cyber Policing",
-        "link": "https://www.darkreading.com/cybersecurity-operations/money-and-mindset-the-two-biggest-roadblocks-to-cyber-policing",
-        "date": "2026-08-20T17:32:51+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "The Approved-App Blind Spot: When Sanctioned AI Becomes Shadow AI",
-        "link": "https://blog.checkpoint.com/ai-security/approved-app-shadow-ai-blind-spot/",
-        "date": "2026-08-20T09:00:31+00:00",
-        "source": "Check Point"
       }
     ],
     "Transparent Tribe": [
@@ -441,6 +433,14 @@
         "link": "https://blog.checkpoint.com/ai-security/approved-app-shadow-ai-blind-spot/",
         "date": "2026-08-20T09:00:31+00:00",
         "source": "Check Point"
+      }
+    ],
+    "RNS": [
+      {
+        "title": "No-Filter 'Kriminal' AI Platform Raises Cybercrime Concerns",
+        "link": "https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns",
+        "date": "2026-08-19T20:32:09+00:00",
+        "source": "DarkReading"
       }
     ],
     "PLATINUM": [

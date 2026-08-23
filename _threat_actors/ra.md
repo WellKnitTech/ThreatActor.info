@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Pixel 11 Pro XL review: Snappier cameras can’t hide an iterative upgrade](https://techcrunch.com/2026/08/22/pixel-11-pro-xl-review-snappier-cameras-cant-hide-an-iterative-upgrade/)
+  TechCrunch - 2026-08-22T
+- [Saily Ultra eSIM Premum Plan Review: Packed With Perks](https://www.wired.com/review/saily-ultra-esim/)
+  Wired - 2026-08-22T
+- [Set Up a Separate Work Profile on Your Android Phone](https://www.wired.com/story/set-up-a-separate-work-profile-on-your-android-phone/)
+  Wired - 2026-08-22T
 - [Michael Polansky is training an AI model on skin that’s still alive](https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/)
   TechCrunch - 2026-08-22T
 - [Japanese space tech startup Letara expands beyond satellite thrusters with $16M](https://techcrunch.com/2026/08/21/japanese-space-tech-startup-letara-expands-beyond-satellite-thrusters-with-16m/)
   TechCrunch - 2026-08-22T
-- [How AI accounting startup Rillet raised $100M and became a unicorn in 48 hours](https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/)
-  TechCrunch - 2026-08-21T
-- [Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet](https://thehackernews.com/2026/08/android-car-malware-spreads-through.html)
-  The Hacker News - 2026-08-21T
-- [US government lab is probing Chinese lidar for security vulnerabilities](https://techcrunch.com/2026/08/21/us-government-lab-is-probing-chinese-lidar-for-security-vulnerabilities/)
-  TechCrunch - 2026-08-21T
 
