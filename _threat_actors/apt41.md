@@ -109,6 +109,8 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders](https://techcrunch.com/2026/08/22/two-years-after-launch-walmarts-flipkart-is-closing-in-on-indias-quick-commerce-leaders/)
+  TechCrunch - 2026-08-23T
 - [Tesla’s Door Handles Lead to Its Biggest Recall Yet](https://www.wired.com/story/teslas-door-handles-lead-to-its-biggest-recall-yet/)
   Wired - 2026-08-21T
 - [7 lessons for IT leaders on using observability to monitor AI applications ](https://www.elastic.co/blog/monitor-ai-applications-llm-observability)

@@ -33,8 +33,8 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Nyrius Phoenix Home True 4K60 (2026): A Solution for Cord Clutter](https://www.wired.com/review/nyrius-phoenix-home-true-4k60/)
-  Wired - 2026-08-21T
+- [Asus ROG Swift RGB Stripe OLED Review: Clarity King](https://www.wired.com/review/asus-rog-swift-rgb-stripe-oled-pg27ucwm/)
+  Wired - 2026-08-23T
 - [AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure](https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html)
   The Hacker News - 2026-08-20T
 - [Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE](https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html)

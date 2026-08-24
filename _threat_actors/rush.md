@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [5 Best Electric Toothbrushes (2026): Philips, Oral-B, Quip, More](https://www.wired.com/story/the-best-electric-toothbrush-for-healthier-teeth-and-gums/)
-  Wired - 2026-08-21T
-

@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Linkdaze’s smart calendar is built to run a household, not just track a schedule](https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/)
+  TechCrunch - 2026-08-23T
+- [Is it legal to train AI models on copyrighted books? It’s complicated](https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/)
+  TechCrunch - 2026-08-23T
+- [Transistors Changed Everything. Here’s How They Work](https://www.wired.com/story/transistors-changed-everything-heres-how-they-work/)
+  Wired - 2026-08-23T
 - [Pixel 11 Pro XL review: Snappier cameras can’t hide an iterative upgrade](https://techcrunch.com/2026/08/22/pixel-11-pro-xl-review-snappier-cameras-cant-hide-an-iterative-upgrade/)
   TechCrunch - 2026-08-22T
 - [Saily Ultra eSIM Premum Plan Review: Packed With Perks](https://www.wired.com/review/saily-ultra-esim/)
   Wired - 2026-08-22T
-- [Set Up a Separate Work Profile on Your Android Phone](https://www.wired.com/story/set-up-a-separate-work-profile-on-your-android-phone/)
-  Wired - 2026-08-22T
-- [Michael Polansky is training an AI model on skin that’s still alive](https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/)
-  TechCrunch - 2026-08-22T
-- [Japanese space tech startup Letara expands beyond satellite thrusters with $16M](https://techcrunch.com/2026/08/21/japanese-space-tech-startup-letara-expands-beyond-satellite-thrusters-with-16m/)
-  TechCrunch - 2026-08-22T
 

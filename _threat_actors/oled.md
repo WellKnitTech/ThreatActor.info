@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Asus ROG Swift RGB Stripe OLED Review: Clarity King](https://www.wired.com/review/asus-rog-swift-rgb-stripe-oled-pg27ucwm/)
+  Wired - 2026-08-23T
+
