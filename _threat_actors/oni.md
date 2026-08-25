@@ -33,12 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The 4 Best Monitor Arms to Clear Up Your Desk Space (2026)](https://www.wired.com/gallery/best-monitor-arms/)
-  Wired - 2026-08-22T
+- [Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning](https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html)
+  The Hacker News - 2026-08-24T
 - [Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot](https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html)
   The Hacker News - 2026-08-21T
-- [Meta’s Big Reckoning Is Here](https://www.wired.com/story/metas-big-reckoning-is-here/)
-  Wired - 2026-08-21T
 - [7 lessons for IT leaders on using observability to monitor AI applications ](https://www.elastic.co/blog/monitor-ai-applications-llm-observability)
   Elastic - 2026-08-19T
 

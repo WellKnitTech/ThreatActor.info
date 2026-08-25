@@ -33,6 +33,8 @@ Shadow is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk](https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html)
+  The Hacker News - 2026-08-24T
 - [The Approved-App Blind Spot: When Sanctioned AI Becomes Shadow AI](https://blog.checkpoint.com/ai-security/approved-app-shadow-ai-blind-spot/)
   Check Point - 2026-08-20T
 

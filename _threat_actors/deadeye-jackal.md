@@ -44,10 +44,6 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research](https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/)
-  TechCrunch - 2026-08-22T
 - [The search multiplier: Driving revenue, productivity, and AI at scale](https://www.elastic.co/blog/the-search-multiplier)
   Elastic - 2026-08-20T
-- [Agentic treasury runs on searchable, observable context](https://www.elastic.co/blog/agentic-treasury)
-  Elastic - 2026-08-18T
 

@@ -139,6 +139,8 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Forget Meta Ray-Bans. These Dorky-Looking Virtual Display Glasses Are Way More Useful](https://www.wired.com/story/all-work-and-some-play-in-a-virtual-display/)
+  Wired - 2026-08-24T
 - [ToxicPanda Android malware uses VPN permissions to block Google Play](https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/)
   BleepingComputer - 2026-08-23T
 
