@@ -33,8 +33,12 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages](https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html)
+  The Hacker News - 2026-08-25T
+- [That fake Grand Theft Auto VI demo is actually just malware](https://techcrunch.com/2026/08/25/that-fake-grand-theft-auto-vi-demo-is-actually-just-malware/)
+  TechCrunch - 2026-08-25T
+- [From Fake Workers to Account Recovery: The Growing Identity Verification Risk](https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/)
+  BleepingComputer - 2026-08-25T
 - [Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning](https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html)
   The Hacker News - 2026-08-24T
-- [They Dedicated Their Lives to Teaching. Then the Deepfakes Started](https://www.wired.com/story/teachers-deepfake-ai-students-content/)
-  Wired - 2026-08-24T
 

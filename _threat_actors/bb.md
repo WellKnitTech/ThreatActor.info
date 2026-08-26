@@ -33,8 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The Best Multiuse Air Purifier for Home in 2026: BlueAir, Rabbit Air, Dreame](https://www.wired.com/story/best-multi-use-air-purifiers/)
-  Wired - 2026-08-24T
 - [Waymo doubles spending on lobbying in robotaxi battle with Uber](https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/)
   Ars Technica - 2026-08-21T
 

@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning](https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html)
-  The Hacker News - 2026-08-24T
-- [Oura is reportedly eyeing a September IPO that could value it at more than $16B](https://techcrunch.com/2026/08/24/oura-is-reportedly-eyeing-a-september-ipo-that-could-value-it-at-more-than-16b/)
-  TechCrunch - 2026-08-24T
-- [Exploited Zimbra Flaw Highlights Shrinking Window to Patch](https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch)
-  DarkReading - 2026-08-24T
-- [WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords](https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html)
-  The Hacker News - 2026-08-24T
-- [Instinct’s powerful AI assistant is raising privacy and security concerns](https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/)
-  TechCrunch - 2026-08-24T
+- [Robotics startup Generalist reaches $3B valuation, sources say](https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/)
+  TechCrunch - 2026-08-26T
+- [U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches](https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html)
+  The Hacker News - 2026-08-25T
+- [X sends cease-and-desist to open source project Nitter over alleged scraping](https://techcrunch.com/2026/08/25/x-sends-cease-and-desist-to-open-source-project-nitter-over-alleged-scraping/)
+  TechCrunch - 2026-08-25T
+- [Instagram’s ‘First Draft’ feature aims to make editing Reels less tedious](https://techcrunch.com/2026/08/25/instagrams-first-draft-feature-aims-to-make-editing-reels-less-tedious/)
+  TechCrunch - 2026-08-25T
+- [Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding](https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/)
+  TechCrunch - 2026-08-25T
 

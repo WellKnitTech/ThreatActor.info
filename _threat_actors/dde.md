@@ -33,6 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [NASA’s New Space Telescope Is Poised to Discover Hidden Facets of the Universe](https://www.wired.com/story/nasa-nancy-grace-roman-space-telescope-hidden-facets-of-universe/)
-  Wired - 2026-08-24T
+- [Hidden Prompts Trick AI Into False Email Summaries](https://www.darkreading.com/cyber-risk/hidden-prompts-trick-ai-false-email-summaries)
+  DarkReading - 2026-08-25T
 

@@ -35,6 +35,4 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 
 - [⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More](https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html)
   The Hacker News - 2026-08-24T
-- [Asus ROG Swift RGB Stripe OLED Review: Clarity King](https://www.wired.com/review/asus-rog-swift-rgb-stripe-oled-pg27ucwm/)
-  Wired - 2026-08-23T
 

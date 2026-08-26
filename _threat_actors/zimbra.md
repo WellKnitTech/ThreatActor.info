@@ -33,8 +33,8 @@ Ransomware mpritsken@priest.com
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Hackers breached over 270 Zimbra servers in ongoing attacks](https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/)
+  BleepingComputer - 2026-08-25T
 - [Exploited Zimbra Flaw Highlights Shrinking Window to Patch](https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch)
   DarkReading - 2026-08-24T
-- [CISA orders urgent patching of actively exploited Zimbra flaw](https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/)
-  BleepingComputer - 2026-08-24T
 

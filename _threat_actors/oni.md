@@ -33,10 +33,12 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw](https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw)
+  DarkReading - 2026-08-25T
+- [Tonight marks your last chance to save up to $300 on a TechCrunch Disrupt 2026 pass](https://techcrunch.com/2026/08/25/tonight-marks-your-last-chance-to-save-up-to-300-on-a-techcrunch-disrupt-2026-pass/)
+  TechCrunch - 2026-08-25T
 - [Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning](https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html)
   The Hacker News - 2026-08-24T
-- [Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot](https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html)
-  The Hacker News - 2026-08-21T
 - [7 lessons for IT leaders on using observability to monitor AI applications ](https://www.elastic.co/blog/monitor-ai-applications-llm-observability)
   Elastic - 2026-08-19T
 

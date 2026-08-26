@@ -33,14 +33,12 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Can You Kill Salmonella in Eggs Without Cooking Them? I Tried It](https://www.wired.com/story/sous-vide-salmonella-eggs/)
-  Wired - 2026-08-24T
-- [The Best Kitchen Gadget to Prevent Salmonella Is a Good Meat Probe](https://www.wired.com/story/food-safety-gear-salmonella/)
-  Wired - 2026-08-24T
-- [OpenAI is building AI agents for everything. Will everyone use them?](https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/)
-  TechCrunch - 2026-08-24T
-- [Money and Mindset: The Two Biggest Roadblocks to Cyber Policing](https://www.darkreading.com/cybersecurity-operations/money-and-mindset-the-two-biggest-roadblocks-to-cyber-policing)
-  DarkReading - 2026-08-20T
+- [AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes](https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/)
+  BleepingComputer - 2026-08-25T
+- [I Tested Kitchen Composters for 2 Years. These Are the Ones I’d Buy (2026)](https://www.wired.com/story/home-composters-buying-guide/)
+  Wired - 2026-08-25T
+- [The 4 Best Car Phone Mounts I’ve Tried (2026): Belkin, Andery, Andobil](https://www.wired.com/story/best-car-phone-mounts-and-holders/)
+  Wired - 2026-08-25T
 - [The Approved-App Blind Spot: When Sanctioned AI Becomes Shadow AI](https://blog.checkpoint.com/ai-security/approved-app-shadow-ai-blind-spot/)
   Check Point - 2026-08-20T
 

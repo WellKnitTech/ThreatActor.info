@@ -33,10 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [ToxicPanda Android malware uses VPN permissions to block Google Play](https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/)
-  BleepingComputer - 2026-08-23T
-- [Hackers infect Android car head units with proxy botnet malware](https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/)
-  BleepingComputer - 2026-08-22T
-- [Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet](https://thehackernews.com/2026/08/android-car-malware-spreads-through.html)
-  The Hacker News - 2026-08-21T
+- [WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android](https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html)
+  The Hacker News - 2026-08-25T
 

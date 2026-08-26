@@ -38,9 +38,3 @@ Group targeting Indian Army or related assets in India, as well as activists and
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks](https://www.darkreading.com/cyberattacks-data-breaches/pakistan-transparent-tribe-afghan-cyberattacks)
-  DarkReading - 2026-08-20T
-

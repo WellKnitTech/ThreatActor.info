@@ -30,9 +30,3 @@ Ransomware Based on HiddenTear
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [South Korean startup platform breach exposes key management failures](https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/)
-  BleepingComputer - 2026-08-24T
-

@@ -33,6 +33,10 @@ Ransomware written in C#. Fortunately, all current versions of the MafiaWare666 
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw](https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw)
+  DarkReading - 2026-08-25T
+- [A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw](https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html)
+  The Hacker News - 2026-08-25T
 - [Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning](https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html)
   The Hacker News - 2026-08-24T
 - [Grok exfiltrates user data when malicious instructions are encrypted](https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/)

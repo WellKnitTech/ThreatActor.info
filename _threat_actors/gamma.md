@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Gamma acquires Accel-backed design startup Lica](https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/)
+  TechCrunch - 2026-08-25T
+

@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC](https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/)
+- [WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android](https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html)
+  The Hacker News - 2026-08-25T
+- [Apple rescues Hide My Email feature from the privacy scrap heap](https://techcrunch.com/2026/08/25/apple-rescues-hide-my-email-feature-from-the-privacy-scrap-heap/)
   TechCrunch - 2026-08-25T
-- [Exploited Zimbra Flaw Highlights Shrinking Window to Patch](https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch)
-  DarkReading - 2026-08-24T
-- [⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More](https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html)
-  The Hacker News - 2026-08-24T
-- [Amjad Masad, CEO and co-founder of Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026 ](https://techcrunch.com/2026/08/24/amjad-masad-ceo-and-co-founder-of-replit-joins-the-disrupt-stage-at-techcrunch-disrupt-2026/)
-  TechCrunch - 2026-08-24T
-- [Apply now to host a Side Event at TechCrunch Disrupt 2026](https://techcrunch.com/2026/08/24/apply-now-to-host-a-side-event-at-techcrunch-disrupt-2026/)
-  TechCrunch - 2026-08-24T
+- [Apple Mac Mini M6 and Mac Studio M5 Ultra: Specs, Price, Release Date](https://www.wired.com/story/apple-announces-m6-and-m5-ultra-mac-mini-mac-studio/)
+  Wired - 2026-08-25T
+- [Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data](https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html)
+  The Hacker News - 2026-08-25T
+- [It Should Be Harder to Apply for a Job. No, Really](https://www.wired.com/story/applying-for-a-job-is-too-damn-easy/)
+  Wired - 2026-08-25T
 

@@ -30,9 +30,3 @@ Ransomware Jigsaw Ransomware variant
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Microsoft Copilot reveals secret input that allowed it to be hacked](https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/)
-  Ars Technica - 2026-08-18T
-

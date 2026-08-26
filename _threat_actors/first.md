@@ -30,3 +30,11 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Instagram’s ‘First Draft’ feature aims to make editing Reels less tedious](https://techcrunch.com/2026/08/25/instagrams-first-draft-feature-aims-to-make-editing-reels-less-tedious/)
+  TechCrunch - 2026-08-25T
+- [The US Just Recorded Its First 2 Measles Deaths This Year](https://www.wired.com/story/us-recorded-first-measles-deaths-2026/)
+  Wired - 2026-08-25T
+

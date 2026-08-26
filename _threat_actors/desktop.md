@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [The 6 Best Laptop Docking Stations to Unlock the Full Desktop Experience (2026)](https://www.wired.com/gallery/best-laptop-docking-stations/)
-  Wired - 2026-08-23T
-

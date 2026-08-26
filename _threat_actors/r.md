@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC](https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/)
-  TechCrunch - 2026-08-25T
-- [Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt](https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html)
-  The Hacker News - 2026-08-24T
-- [Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning](https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html)
-  The Hacker News - 2026-08-24T
-- [Oura is reportedly eyeing a September IPO that could value it at more than $16B](https://techcrunch.com/2026/08/24/oura-is-reportedly-eyeing-a-september-ipo-that-could-value-it-at-more-than-16b/)
-  TechCrunch - 2026-08-24T
-- [Exploited Zimbra Flaw Highlights Shrinking Window to Patch](https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch)
-  DarkReading - 2026-08-24T
+- [Robotics startup Generalist reaches $3B valuation, sources say](https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/)
+  TechCrunch - 2026-08-26T
+- [OpenAI loses a top data center exec, as stream of high-profile departures continues](https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/)
+  TechCrunch - 2026-08-26T
+- [Machine vs. machine: The new reality of cybersecurity in ANZ](https://www.elastic.co/blog/cybersecurity-in-australia-new-zealand)
+  Elastic - 2026-08-26T
+- [U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches](https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html)
+  The Hacker News - 2026-08-25T
+- [‘Darth Vader’ Wants You to Know He Definitely Supports Flock Surveillance](https://www.wired.com/story/darth-vader-wants-you-to-know-he-definitely-supports-flock-surveillance/)
+  Wired - 2026-08-25T
 

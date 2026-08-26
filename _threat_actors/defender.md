@@ -30,11 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Bitdefender VPN Review: Fast and Affordable Privacy](https://www.wired.com/review/bitdefender-vpn/)
-  Wired - 2026-08-24T
-- [Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot](https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html)
-  The Hacker News - 2026-08-21T
-

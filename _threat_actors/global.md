@@ -33,6 +33,6 @@ Not a RaaS yet.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The Mistake That Exposed a Global Cyber Crime Operation](https://blog.checkpoint.com/research/the-mistake-that-exposed-a-global-cyber-crime-operation/)
-  Check Point - 2026-08-18T
+- [Police arrests dozens of suspects in global cybercrime crackdown](https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/)
+  BleepingComputer - 2026-08-25T
 

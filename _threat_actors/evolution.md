@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Frontier AI: Vulnerability Management's Systemic Revolution](https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html)
+  The Hacker News - 2026-08-25T
+
