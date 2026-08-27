@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android](https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html)
-  The Hacker News - 2026-08-25T
-- [Apple rescues Hide My Email feature from the privacy scrap heap](https://techcrunch.com/2026/08/25/apple-rescues-hide-my-email-feature-from-the-privacy-scrap-heap/)
-  TechCrunch - 2026-08-25T
-- [Apple Mac Mini M6 and Mac Studio M5 Ultra: Specs, Price, Release Date](https://www.wired.com/story/apple-announces-m6-and-m5-ultra-mac-mini-mac-studio/)
-  Wired - 2026-08-25T
-- [Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data](https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html)
-  The Hacker News - 2026-08-25T
-- [It Should Be Harder to Apply for a Job. No, Really](https://www.wired.com/story/applying-for-a-job-is-too-damn-easy/)
-  Wired - 2026-08-25T
+- [GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address](https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html)
+  The Hacker News - 2026-08-27T
+- [CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs](https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html)
+  The Hacker News - 2026-08-27T
+- [Amazon just tripled its order of Nvidia chips over ‘surging demand’](https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/)
+  TechCrunch - 2026-08-26T
+- [AI agents meant to replace Meta workers made “large-scale, disruptive actions”](https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/)
+  Ars Technica - 2026-08-26T
+- [How do we explain OpenAI’s executive exodus?](https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/)
+  TechCrunch - 2026-08-26T
 

@@ -33,12 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes](https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/)
-  BleepingComputer - 2026-08-25T
-- [I Tested Kitchen Composters for 2 Years. These Are the Ones I’d Buy (2026)](https://www.wired.com/story/home-composters-buying-guide/)
-  Wired - 2026-08-25T
-- [The 4 Best Car Phone Mounts I’ve Tried (2026): Belkin, Andery, Andobil](https://www.wired.com/story/best-car-phone-mounts-and-holders/)
-  Wired - 2026-08-25T
-- [The Approved-App Blind Spot: When Sanctioned AI Becomes Shadow AI](https://blog.checkpoint.com/ai-security/approved-app-shadow-ai-blind-spot/)
-  Check Point - 2026-08-20T
+- [Stop Touching Your Keyboard. Use This AI-Powered Microphone Instead](https://www.wired.com/story/relay-q-voice-to-text-ai-app/)
+  Wired - 2026-08-27T
+- [The Best Google Pixel Phones of 2026: Comparison, Features, and Accessories](https://www.wired.com/story/best-google-pixel-phone/)
+  Wired - 2026-08-27T
+- [CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing](https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html)
+  The Hacker News - 2026-08-26T
+- [Flipboard acquires Graze, the feed builder working to monetize the open social web](https://techcrunch.com/2026/08/26/flipboard-acquires-graze-the-feed-builder-working-to-monetize-the-open-social-web/)
+  TechCrunch - 2026-08-26T
+- [Apple is holding its iPhone launch event on September 9](https://techcrunch.com/2026/08/26/apple-is-holding-its-iphone-launch-event-on-september-9/)
+  TechCrunch - 2026-08-26T
 

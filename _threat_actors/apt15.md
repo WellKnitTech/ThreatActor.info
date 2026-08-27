@@ -41,9 +41,3 @@ This threat actor uses phishing techniques to compromise the networks of foreign
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows](https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html)
-  The Hacker News - 2026-08-25T
-

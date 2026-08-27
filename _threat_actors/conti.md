@@ -75,7 +75,7 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [OpenAI loses a top data center exec, as stream of high-profile departures continues](https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/)
+- [Anthropic continues compute-gobbling streak in $45B deal with Nscale](https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/)
   TechCrunch - 2026-08-26T
 
 ## CISA Known Exploited Vulnerabilities (KEV)

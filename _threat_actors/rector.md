@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Best Posture Correctors for Better Body Alignment (2026)](https://www.wired.com/gallery/posture-correctors/)
+  Wired - 2026-08-27T
+

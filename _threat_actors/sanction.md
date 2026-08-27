@@ -33,8 +33,6 @@ Ransomware Based on HiddenTear, but heavily modified keygen
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches](https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html)
-  The Hacker News - 2026-08-25T
 - [The Approved-App Blind Spot: When Sanctioned AI Becomes Shadow AI](https://blog.checkpoint.com/ai-security/approved-app-shadow-ai-blind-spot/)
   Check Point - 2026-08-20T
 

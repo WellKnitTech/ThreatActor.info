@@ -30,9 +30,3 @@ Chaos is a rapidly evolving Ransomware-as-a-Service (RaaS) group first observed 
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [The Supreme Court’s Mail-In Ballot Ruling Is a Step Toward Chaos in the Midterms](https://www.wired.com/story/the-supreme-courts-mail-in-ballot-ruling-is-a-step-toward-chaos-in-the-midterms/)
-  Wired - 2026-08-25T
-

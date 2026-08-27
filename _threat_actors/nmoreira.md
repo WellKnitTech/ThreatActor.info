@@ -33,8 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Life360 expands pet tracking with new $8 scannable tags and zoomie alerts](https://techcrunch.com/2026/08/25/life360-expands-pet-tracking-with-new-8-scannable-tags-and-zoomie-alerts/)
-  TechCrunch - 2026-08-25T
-- [Data Centers Are Driving an Alarming Gas Power Expansion in the US](https://www.wired.com/story/us-data-centers-drive-gas-power-expansion/)
-  Wired - 2026-08-25T
+- [Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler](https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html)
+  The Hacker News - 2026-08-26T
 

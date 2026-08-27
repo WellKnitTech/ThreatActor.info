@@ -30,9 +30,3 @@ Cloak is a cybercriminal ransomware group that first appeared publicly in mid-20
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account](https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html)
-  The Hacker News - 2026-08-24T
-

@@ -30,9 +30,3 @@ Ransomware only encrypts .jpg files
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [That fake Grand Theft Auto VI demo is actually just malware](https://techcrunch.com/2026/08/25/that-fake-grand-theft-auto-vi-demo-is-actually-just-malware/)
-  TechCrunch - 2026-08-25T
-

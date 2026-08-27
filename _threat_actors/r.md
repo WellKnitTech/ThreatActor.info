@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Robotics startup Generalist reaches $3B valuation, sources say](https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/)
-  TechCrunch - 2026-08-26T
-- [OpenAI loses a top data center exec, as stream of high-profile departures continues](https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/)
-  TechCrunch - 2026-08-26T
-- [Machine vs. machine: The new reality of cybersecurity in ANZ](https://www.elastic.co/blog/cybersecurity-in-australia-new-zealand)
-  Elastic - 2026-08-26T
-- [U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches](https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html)
-  The Hacker News - 2026-08-25T
-- [‘Darth Vader’ Wants You to Know He Definitely Supports Flock Surveillance](https://www.wired.com/story/darth-vader-wants-you-to-know-he-definitely-supports-flock-surveillance/)
-  Wired - 2026-08-25T
+- [Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools](https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html)
+  The Hacker News - 2026-08-27T
+- [GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address](https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html)
+  The Hacker News - 2026-08-27T
+- [New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access](https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html)
+  The Hacker News - 2026-08-27T
+- [CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs](https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html)
+  The Hacker News - 2026-08-27T
+- [OpenAI to start showing ads on ChatGPT’s free and Go tiers in India](https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/)
+  TechCrunch - 2026-08-27T
 

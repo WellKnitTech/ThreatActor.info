@@ -35,6 +35,4 @@ ransomware
 
 - [Rapid7 Analysis: Microsoft SharePoint Remote Code Execution (CVE-2026-63520)](https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-remote-code-execution-cve-2026-63520)
   Rapid7 - 2026-08-24T
-- [Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America](https://www.rapid7.com/blog/post/c-licencias-online-partnership-accelerates-latam-cybersecurity-maturity-latin-america)
-  Rapid7 - 2026-08-19T
 

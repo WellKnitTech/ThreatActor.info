@@ -30,9 +30,3 @@ Delta is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [What We Missed: Delta Flight Disrupted With Wi-Fi Hack](https://www.darkreading.com/cyber-risk/delta-flight-disrupted-wi-fi-hack)
-  DarkReading - 2026-08-20T
-

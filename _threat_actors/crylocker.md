@@ -33,8 +33,6 @@ Ransomware Identifies victim locations w/Google Maps API
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Hardware Makers Implement Post-Quantum Cryptography as Security Threats Near](https://www.darkreading.com/cyber-risk/hardware-makers-implement-post-quantum-cryptography)
-  DarkReading - 2026-08-21T
 - [Grok exfiltrates user data when malicious instructions are encrypted](https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/)
   Ars Technica - 2026-08-20T
 
