@@ -35,6 +35,4 @@ Ransomware written in C#. Fortunately, all current versions of the MafiaWare666 
 
 - [Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw](https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw)
   DarkReading - 2026-08-25T
-- [Grok exfiltrates user data when malicious instructions are encrypted](https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/)
-  Ars Technica - 2026-08-20T
 

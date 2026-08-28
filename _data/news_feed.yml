@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T12:19:51Z",
+  "updated": "2026-08-28T13:45:44Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,49 +19,193 @@
     "Rapid7"
   ],
   "actor_news": {
+    "One": [
+      {
+        "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
+        "link": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
+        "date": "2026-08-28T17:37:24+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
+        "link": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
+        "date": "2026-08-28T15:15:15+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "XGIMI Vibe One Battery-Powered Projector Review (2026)",
+        "link": "https://www.wired.com/review/xgimi-vibe-one-battery-powered-projector/",
+        "date": "2026-08-28T10:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
     "R": [
       {
-        "title": "Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools",
-        "link": "https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html",
-        "date": "2026-08-27T16:30:57+05:30",
+        "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
+        "link": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
+        "date": "2026-08-28T17:37:24+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address",
-        "link": "https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html",
-        "date": "2026-08-27T15:03:38+05:30",
+        "title": "Key Reasons Why Identity Fabric Matters in 2026",
+        "link": "https://thehackernews.com/2026/08/key-reasons-why-identity-fabric-matters.html",
+        "date": "2026-08-28T17:00:00+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access",
-        "link": "https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html",
-        "date": "2026-08-27T13:43:11+05:30",
+        "title": "Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL",
+        "link": "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html",
+        "date": "2026-08-28T16:50:32+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
-        "link": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
-        "date": "2026-08-27T12:35:28+05:30",
+        "title": "China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access",
+        "link": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
+        "date": "2026-08-28T16:28:29+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "OpenAI to start showing ads on ChatGPT’s free and Go tiers in India",
-        "link": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
-        "date": "2026-08-27T11:35:59+00:00",
+        "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
+        "link": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
+        "date": "2026-08-28T15:15:15+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Root": [
+      {
+        "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
+        "link": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
+        "date": "2026-08-28T17:37:24+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access",
+        "link": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
+        "date": "2026-08-28T16:28:29+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
+        "link": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
+        "date": "2026-08-28T15:15:15+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "PL": [
+      {
+        "title": "China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access",
+        "link": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
+        "date": "2026-08-28T16:28:29+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions",
+        "link": "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
+        "date": "2026-08-28T13:55:36+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations",
+        "link": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html",
+        "date": "2026-08-28T13:50:59+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Anthropic gets its first court win over the Pentagon’s supply chain risk label",
+        "link": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+        "date": "2026-08-28T12:46:12+00:00",
         "source": "TechCrunch"
+      },
+      {
+        "title": "PaperCut NG/MF Critical Zero-Day Exploited in the Wild",
+        "link": "https://www.rapid7.com/blog/post/etr-papercut-ng-mf-critical-zero-day-exploited-in-the-wild",
+        "date": "2026-08-28T10:09:12+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "APT28": [
+      {
+        "title": "APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations",
+        "link": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html",
+        "date": "2026-08-28T13:50:59+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Putter Panda": [
+      {
+        "title": "APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations",
+        "link": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html",
+        "date": "2026-08-28T13:50:59+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "APT2": [
+      {
+        "title": "APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations",
+        "link": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html",
+        "date": "2026-08-28T13:50:59+05:30",
+        "source": "The Hacker News"
       }
     ],
     "Ra": [
       {
-        "title": "Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools",
-        "link": "https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html",
-        "date": "2026-08-27T16:30:57+05:30",
-        "source": "The Hacker News"
+        "title": "a16z creates a $1.1B ‘Machine Age’ fund to ‘accelerate the physical buildout of AI’",
+        "link": "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/",
+        "date": "2026-08-28T13:24:43+00:00",
+        "source": "TechCrunch"
       },
       {
-        "title": "GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address",
-        "link": "https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html",
-        "date": "2026-08-27T15:03:38+05:30",
+        "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
+        "link": "https://blog.cloudflare.com/botbase-for-operators/",
+        "date": "2026-08-28T12:59:44+00:00",
+        "source": "Cloudflare"
+      },
+      {
+        "title": "He Scraped All of Their Art for AI. Now He’s Collaborating on a Tool to Help Them",
+        "link": "https://www.wired.com/story/he-scraped-art-from-cara-for-ai-now-he-is-collaborating-on-a-tool-to-help-them/",
+        "date": "2026-08-28T11:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "There Are So Many Conspiracy Theories About Dolly Parton and Vaccines",
+        "link": "https://www.wired.com/story/there-are-so-many-conspiracy-theories-about-dolly-parton-and-vaccines/",
+        "date": "2026-08-28T09:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Over 8,300 Gitea servers vulnerable to code execution attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/",
+        "date": "2026-08-28T08:58:43-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Rector": [
+      {
+        "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
+        "link": "https://blog.cloudflare.com/botbase-for-operators/",
+        "date": "2026-08-28T12:59:44+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "First": [
+      {
+        "title": "Anthropic gets its first court win over the Pentagon’s supply chain risk label",
+        "link": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+        "date": "2026-08-28T12:46:12+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "TeamPCP": [
+      {
+        "title": "Authorities arrest 2 alleged members of prolific hacking group TeamPCP",
+        "link": "https://arstechnica.com/security/2026/08/authorities-arrest-2-alleged-members-of-prolific-hacking-group-teampcp/",
+        "date": "2026-08-28T11:15:05+00:00",
+        "source": "Ars Technica"
+      },
+      {
+        "title": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
+        "link": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
+        "date": "2026-08-27T17:26:26+05:30",
         "source": "The Hacker News"
       },
       {
@@ -71,76 +215,112 @@
         "source": "KrebsOnSecurity"
       },
       {
-        "title": "Microsoft rolls out fix for Windows 11 crashes, gaming issues",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-windows-11-crashes-gaming-issues/",
-        "date": "2026-08-27T08:16:32-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Therabody Promo Codes: 15% Off September 2026",
-        "link": "https://www.wired.com/story/therabody-promo-code/",
-        "date": "2026-08-27T05:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "PL": [
-      {
-        "title": "GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address",
-        "link": "https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html",
-        "date": "2026-08-27T15:03:38+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
-        "link": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
-        "date": "2026-08-27T12:35:28+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
-        "link": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
-        "date": "2026-08-26T23:47:18+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
-        "link": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/",
-        "date": "2026-08-26T21:25:27+00:00",
-        "source": "Ars Technica"
-      },
-      {
-        "title": "How do we explain OpenAI’s executive exodus?",
-        "link": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
-        "date": "2026-08-26T19:34:04+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Root": [
-      {
-        "title": "New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access",
-        "link": "https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html",
-        "date": "2026-08-27T13:43:11+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "New GPUThor attack defeats NVIDIA ECC protection for root access",
-        "link": "https://www.bleepingcomputer.com/news/security/new-gputhor-attack-defeats-nvidia-ecc-protection-for-root-access/",
-        "date": "2026-08-26T14:48:24-04:00",
+        "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
+        "date": "2026-08-27T09:31:13-04:00",
         "source": "BleepingComputer"
       }
     ],
     "Thor": [
       {
-        "title": "New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access",
-        "link": "https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html",
-        "date": "2026-08-27T13:43:11+05:30",
-        "source": "The Hacker News"
+        "title": "Authorities arrest 2 alleged members of prolific hacking group TeamPCP",
+        "link": "https://arstechnica.com/security/2026/08/authorities-arrest-2-alleged-members-of-prolific-hacking-group-teampcp/",
+        "date": "2026-08-28T11:15:05+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "AnDROid": [
+      {
+        "title": "The Easiest Ways to Share Anything Between Android and iOS",
+        "link": "https://www.wired.com/story/how-to-share-anything-between-android-and-ios/",
+        "date": "2026-08-28T10:45:00+00:00",
+        "source": "Wired"
       },
       {
-        "title": "New GPUThor attack defeats NVIDIA ECC protection for root access",
-        "link": "https://www.bleepingcomputer.com/news/security/new-gputhor-attack-defeats-nvidia-ecc-protection-for-root-access/",
-        "date": "2026-08-26T14:48:24-04:00",
+        "title": "Android 17 adds ECH support to make web browsing harder to track",
+        "link": "https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/",
+        "date": "2026-08-27T10:00:00-04:00",
         "source": "BleepingComputer"
+      },
+      {
+        "title": "Android Malware Hijacks Update System for Car Head Units",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/android-malware-hijacks-update-system-car-head-units",
+        "date": "2026-08-26T17:33:45+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "RNS": [
+      {
+        "title": "ServiceNow warns of three max severity security vulnerabilities",
+        "link": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
+        "date": "2026-08-28T06:29:42-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Agentic AI Risks, CVE Program Concerns Permeate Black Hat USA 2026",
+        "link": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-risks-cve-program-concerns-black-hat-usa-2026",
+        "date": "2026-08-27T17:25:09+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
+        "date": "2026-08-27T12:31:53-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "BRONZE BUTLER": [
+      {
+        "title": "Gametime Promo Code: Save on Tickets in September 2026",
+        "link": "https://www.wired.com/story/gametime-promo-code/",
+        "date": "2026-08-28T05:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Tick": [
+      {
+        "title": "Gametime Promo Code: Save on Tickets in September 2026",
+        "link": "https://www.wired.com/story/gametime-promo-code/",
+        "date": "2026-08-28T05:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "BOK": [
+      {
+        "title": "Reebok Discount Code: Save 15%+ in September 2026",
+        "link": "https://www.wired.com/story/reebok-discount-code/",
+        "date": "2026-08-28T05:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Bluesky": [
+      {
+        "title": "Bluesky adds an ‘algorithmic opt-out’ feature for those who don’t want to go viral",
+        "link": "https://techcrunch.com/2026/08/27/bluesky-adds-an-algorithmic-opt-out-feature-for-those-who-dont-want-to-go-viral/",
+        "date": "2026-08-27T20:15:26+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "DN": [
+      {
+        "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
+        "link": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+        "date": "2026-08-27T17:02:35+00:00",
+        "source": "Cloudflare"
+      },
+      {
+        "title": "Red Flags That Expose Fake North Korean IT Workers",
+        "link": "https://www.darkreading.com/insider-threats/red-flags-expose-fake-north-korean-it-workers",
+        "date": "2026-08-26T19:21:24+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "hermes": [
+      {
+        "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
+        "link": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
+        "date": "2026-08-27T14:00:13+00:00",
+        "source": "Ars Technica"
       }
     ],
     "Zlader": [
@@ -149,76 +329,14 @@
         "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-phish-eu-officials-messaging-apps",
         "date": "2026-08-27T11:16:01+00:00",
         "source": "DarkReading"
-      },
-      {
-        "title": "OpenAI Bans Russian ChatGPT Accounts Used to Run Influence Operation",
-        "link": "https://thehackernews.com/2026/08/openai-bans-russian-chatgpt-accounts.html",
-        "date": "2026-08-26T15:08:45+05:30",
-        "source": "The Hacker News"
       }
     ],
-    "Rector": [
+    "Deadeye Jackal": [
       {
-        "title": "Best Posture Correctors for Better Body Alignment (2026)",
-        "link": "https://www.wired.com/gallery/posture-correctors/",
-        "date": "2026-08-27T11:05:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "TeamPCP": [
-      {
-        "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
-        "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-        "date": "2026-08-27T11:04:15+00:00",
-        "source": "KrebsOnSecurity"
-      }
-    ],
-    "One": [
-      {
-        "title": "Stop Touching Your Keyboard. Use This AI-Powered Microphone Instead",
-        "link": "https://www.wired.com/story/relay-q-voice-to-text-ai-app/",
-        "date": "2026-08-27T10:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "The Best Google Pixel Phones of 2026: Comparison, Features, and Accessories",
-        "link": "https://www.wired.com/story/best-google-pixel-phone/",
-        "date": "2026-08-27T10:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing",
-        "link": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html",
-        "date": "2026-08-26T18:37:02+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Flipboard acquires Graze, the feed builder working to monetize the open social web",
-        "link": "https://techcrunch.com/2026/08/26/flipboard-acquires-graze-the-feed-builder-working-to-monetize-the-open-social-web/",
-        "date": "2026-08-26T18:35:40+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Apple is holding its iPhone launch event on September 9",
-        "link": "https://techcrunch.com/2026/08/26/apple-is-holding-its-iphone-launch-event-on-september-9/",
-        "date": "2026-08-26T16:53:07+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Sandworm Team": [
-      {
-        "title": "The UK Power Grid Has a Phantom Data Center Problem",
-        "link": "https://www.wired.com/story/uk-data-centers-logjam-ofgem-regulations/",
-        "date": "2026-08-27T06:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Stinger": [
-      {
-        "title": "Hostinger Promo Code: 79% Off for September 2026",
-        "link": "https://www.wired.com/story/hostinger-coupon-code/",
-        "date": "2026-08-27T05:00:00+00:00",
-        "source": "Wired"
+        "title": "How Threat Research and MDR Help SMBs Build a Defensive Edge",
+        "link": "https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/",
+        "date": "2026-08-27T10:00:10-04:00",
+        "source": "BleepingComputer"
       }
     ],
     "Qilin": [
@@ -229,36 +347,6 @@
         "source": "BleepingComputer"
       }
     ],
-    "RIP (Phoenix) Ransomware": [
-      {
-        "title": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
-        "link": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
-        "date": "2026-08-26T23:47:18+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Conti": [
-      {
-        "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
-        "link": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
-        "date": "2026-08-26T21:37:39+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "BB": [
-      {
-        "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
-        "link": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
-        "date": "2026-08-26T21:37:39+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
-        "link": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/",
-        "date": "2026-08-21T13:11:35+00:00",
-        "source": "Ars Technica"
-      }
-    ],
     "Dark Caracal": [
       {
         "title": "Dark Caracal Adds New Malware to Cyber Espionage Arsenal",
@@ -267,43 +355,19 @@
         "source": "DarkReading"
       }
     ],
-    "core": [
+    "Desync": [
       {
-        "title": "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler",
-        "link": "https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html",
-        "date": "2026-08-26T21:05:05+05:30",
-        "source": "The Hacker News"
+        "title": "'HTTP Terminator' Hunts for Novel Desync Attacks",
+        "link": "https://www.darkreading.com/application-security/http-terminator-hunts-novel-desync-attacks",
+        "date": "2026-08-26T19:54:34+00:00",
+        "source": "DarkReading"
       }
     ],
-    "NMoreira": [
+    "Hunt": [
       {
-        "title": "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler",
-        "link": "https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html",
-        "date": "2026-08-26T21:05:05+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "UNC1549": [
-      {
-        "title": "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler",
-        "link": "https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html",
-        "date": "2026-08-26T21:05:05+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Mini": [
-      {
-        "title": "Google’s Gemini has a branding problem, and so does the rest of AI",
-        "link": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
-        "date": "2026-08-26T19:37:34+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "DN": [
-      {
-        "title": "Red Flags That Expose Fake North Korean IT Workers",
-        "link": "https://www.darkreading.com/insider-threats/red-flags-expose-fake-north-korean-it-workers",
-        "date": "2026-08-26T19:21:24+00:00",
+        "title": "'HTTP Terminator' Hunts for Novel Desync Attacks",
+        "link": "https://www.darkreading.com/application-security/http-terminator-hunts-novel-desync-attacks",
+        "date": "2026-08-26T19:54:34+00:00",
         "source": "DarkReading"
       }
     ],
@@ -317,76 +381,10 @@
     ],
     "nova": [
       {
-        "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
-        "link": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
-        "date": "2026-08-26T19:14:31+05:30",
-        "source": "The Hacker News"
-      },
-      {
         "title": "'NovaCookies' Kit Steals Microsoft 365 Sessions for $320 a Month",
         "link": "https://www.darkreading.com/endpoint-security/novacookies-steals-microsoft-365-sessions-320-a-month",
         "date": "2026-08-26T11:33:40+00:00",
         "source": "DarkReading"
-      }
-    ],
-    "global": [
-      {
-        "title": "Medical device maker Boston Scientific says a cyberattack is causing a ‘global disruption’ to its operations",
-        "link": "https://techcrunch.com/2026/08/26/medical-device-maker-boston-scientific-says-a-cyberattack-is-causing-a-global-disruption-to-its-operations/",
-        "date": "2026-08-26T18:23:09+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
-        "link": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
-        "date": "2026-08-26T13:24:12+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Boston Scientific says cyberattack disrupted operations globally",
-        "link": "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/",
-        "date": "2026-08-26T11:19:21-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "AnDROid": [
-      {
-        "title": "Android Malware Hijacks Update System for Car Head Units",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/android-malware-hijacks-update-system-car-head-units",
-        "date": "2026-08-26T17:33:45+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Lick": [
-      {
-        "title": "Critical Avada WordPress theme flaw enables zero-click RCE",
-        "link": "https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/",
-        "date": "2026-08-26T17:33:20-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "RTM": [
-      {
-        "title": "US seizes domains of Chinese botnet used to hack NASA, Justice Department, and the Senate",
-        "link": "https://techcrunch.com/2026/08/26/us-seizes-domains-of-chinese-botnet-used-to-hack-nasa-justice-department-and-the-senate/",
-        "date": "2026-08-26T17:01:05+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Payload": [
-      {
-        "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
-        "link": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
-        "date": "2026-08-26T11:57:07+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Desktop": [
-      {
-        "title": "Microsoft tests new privacy controls for Windows 11 desktop apps",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-privacy-controls-for-windows-11-desktop-apps/",
-        "date": "2026-08-26T08:06:28-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "DDE": [
@@ -403,12 +401,6 @@
         "link": "https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw",
         "date": "2026-08-25T19:50:16+00:00",
         "source": "DarkReading"
-      },
-      {
-        "title": "Grok exfiltrates user data when malicious instructions are encrypted",
-        "link": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
-        "date": "2026-08-20T13:00:35+00:00",
-        "source": "Ars Technica"
       }
     ],
     "ONI": [
@@ -416,22 +408,6 @@
         "title": "Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw",
         "link": "https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw",
         "date": "2026-08-25T19:50:16+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Light": [
-      {
-        "title": "Exploited Zimbra Flaw Highlights Shrinking Window to Patch",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch",
-        "date": "2026-08-24T21:46:55+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Zimbra": [
-      {
-        "title": "Exploited Zimbra Flaw Highlights Shrinking Window to Patch",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch",
-        "date": "2026-08-24T21:46:55+00:00",
         "source": "DarkReading"
       }
     ],
@@ -443,84 +419,12 @@
         "source": "Rapid7"
       }
     ],
-    "Ank": [
+    "BB": [
       {
-        "title": "ToxicPanda Banking Trojan Matures Into Enterprise Threat",
-        "link": "https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat",
-        "date": "2026-08-24T14:34:59+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Toxic": [
-      {
-        "title": "ToxicPanda Banking Trojan Matures Into Enterprise Threat",
-        "link": "https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat",
-        "date": "2026-08-24T14:34:59+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Trojan": [
-      {
-        "title": "ToxicPanda Banking Trojan Matures Into Enterprise Threat",
-        "link": "https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat",
-        "date": "2026-08-24T14:34:59+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "CryLocker": [
-      {
-        "title": "Grok exfiltrates user data when malicious instructions are encrypted",
-        "link": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
-        "date": "2026-08-20T13:00:35+00:00",
+        "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
+        "link": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/",
+        "date": "2026-08-21T13:11:35+00:00",
         "source": "Ars Technica"
-      }
-    ],
-    "EnCrypt": [
-      {
-        "title": "Grok exfiltrates user data when malicious instructions are encrypted",
-        "link": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
-        "date": "2026-08-20T13:00:35+00:00",
-        "source": "Ars Technica"
-      }
-    ],
-    "Blind": [
-      {
-        "title": "The Approved-App Blind Spot: When Sanctioned AI Becomes Shadow AI",
-        "link": "https://blog.checkpoint.com/ai-security/approved-app-shadow-ai-blind-spot/",
-        "date": "2026-08-20T09:00:31+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "Sanction": [
-      {
-        "title": "The Approved-App Blind Spot: When Sanctioned AI Becomes Shadow AI",
-        "link": "https://blog.checkpoint.com/ai-security/approved-app-shadow-ai-blind-spot/",
-        "date": "2026-08-20T09:00:31+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "Shadow": [
-      {
-        "title": "The Approved-App Blind Spot: When Sanctioned AI Becomes Shadow AI",
-        "link": "https://blog.checkpoint.com/ai-security/approved-app-shadow-ai-blind-spot/",
-        "date": "2026-08-20T09:00:31+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "Deadeye Jackal": [
-      {
-        "title": "The search multiplier: Driving revenue, productivity, and AI at scale",
-        "link": "https://www.elastic.co/blog/the-search-multiplier",
-        "date": "2026-08-20T00:00:00+00:00",
-        "source": "Elastic"
-      }
-    ],
-    "Spectre": [
-      {
-        "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
-        "link": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
-        "date": "2026-08-19T16:00:28+00:00",
-        "source": "Cloudflare"
       }
     ]
   }

@@ -44,6 +44,6 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The search multiplier: Driving revenue, productivity, and AI at scale](https://www.elastic.co/blog/the-search-multiplier)
-  Elastic - 2026-08-20T
+- [How Threat Research and MDR Help SMBs Build a Defensive Edge](https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/)
+  BleepingComputer - 2026-08-27T
 
