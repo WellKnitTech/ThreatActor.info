@@ -43,9 +43,3 @@ Tick is a cyber espionage group with likely Chinese origins that has been active
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Gametime Promo Code: Save on Tickets in September 2026](https://www.wired.com/story/gametime-promo-code/)
-  Wired - 2026-08-28T
-

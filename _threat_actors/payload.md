@@ -30,3 +30,9 @@ Payload is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Metasploit Wrap Up: Payloads and Exploits, and Scanners, Oh my!](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-payloads-exploits-scanners)
+  Rapid7 - 2026-08-28T
+

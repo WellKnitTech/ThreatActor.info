@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T13:45:44Z",
+  "updated": "2026-08-29T08:36:42Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,43 +19,49 @@
     "Rapid7"
   ],
   "actor_news": {
-    "One": [
-      {
-        "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
-        "link": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
-        "date": "2026-08-28T17:37:24+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
-        "link": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
-        "date": "2026-08-28T15:15:15+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "XGIMI Vibe One Battery-Powered Projector Review (2026)",
-        "link": "https://www.wired.com/review/xgimi-vibe-one-battery-powered-projector/",
-        "date": "2026-08-28T10:30:00+00:00",
-        "source": "Wired"
-      }
-    ],
     "R": [
       {
-        "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
-        "link": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
-        "date": "2026-08-28T17:37:24+05:30",
+        "title": "Motorola Coupon Code for September 2026",
+        "link": "https://www.wired.com/story/motorola-coupon-code/",
+        "date": "2026-08-29T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
+        "link": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
+        "date": "2026-08-29T03:00:52+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Key Reasons Why Identity Fabric Matters in 2026",
-        "link": "https://thehackernews.com/2026/08/key-reasons-why-identity-fabric-matters.html",
-        "date": "2026-08-28T17:00:00+05:30",
+        "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
+        "link": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
+        "date": "2026-08-29T02:08:47+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL",
-        "link": "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html",
-        "date": "2026-08-28T16:50:32+05:30",
+        "title": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
+        "link": "https://techcrunch.com/2026/08/28/chinese-automakers-are-following-teslas-bet-that-robots-are-the-next-big-profit-machine/",
+        "date": "2026-08-28T23:24:27+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Is the best way to watch a movie on a pair of sunglasses?",
+        "link": "https://techcrunch.com/2026/08/28/is-the-best-way-to-watch-a-movie-on-a-pair-of-sunglasses/",
+        "date": "2026-08-28T22:42:48+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "PL": [
+      {
+        "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
+        "link": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
+        "date": "2026-08-29T02:08:47+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
+        "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
+        "date": "2026-08-28T21:26:55+05:30",
         "source": "The Hacker News"
       },
       {
@@ -65,10 +71,204 @@
         "source": "The Hacker News"
       },
       {
+        "title": "More Americans oppose police license plate cameras than support them: survey",
+        "link": "https://techcrunch.com/2026/08/28/more-americans-oppose-police-license-plate-cameras-than-support-them-survey/",
+        "date": "2026-08-28T15:57:58+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "PaperCut releases second emergency patch for exploited flaws",
+        "link": "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
+        "date": "2026-08-28T15:08:26-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Ra": [
+      {
+        "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
+        "link": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
+        "date": "2026-08-29T02:08:47+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Perturbation Probing: A New Diagnostic for the Fragility of LLM Safety",
+        "link": "https://unit42.paloaltonetworks.com/perturbation-probing-llm-safety/",
+        "date": "2026-08-28T22:00:07+00:00",
+        "source": "Unit 42"
+      },
+      {
+        "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
+        "link": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
+        "date": "2026-08-28T20:57:26+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Brave’s browser one-ups Chrome with its new support for email aliases",
+        "link": "https://techcrunch.com/2026/08/28/braves-browser-one-ups-chrome-with-its-new-support-for-email-aliases/",
+        "date": "2026-08-28T18:50:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "More Americans oppose police license plate cameras than support them: survey",
+        "link": "https://techcrunch.com/2026/08/28/more-americans-oppose-police-license-plate-cameras-than-support-them-survey/",
+        "date": "2026-08-28T15:57:58+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "SunCrypt": [
+      {
+        "title": "Is the best way to watch a movie on a pair of sunglasses?",
+        "link": "https://techcrunch.com/2026/08/28/is-the-best-way-to-watch-a-movie-on-a-pair-of-sunglasses/",
+        "date": "2026-08-28T22:42:48+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Donald Trump": [
+      {
+        "title": "Nvidia CEO Jensen Huang Took a Call From Donald Trump in the Middle of an All-Hands",
+        "link": "https://www.wired.com/story/nvidia-ceo-jensen-huang-took-a-call-from-donald-trump-in-the-middle-of-an-all-hands/",
+        "date": "2026-08-28T22:29:13+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Frag": [
+      {
+        "title": "Perturbation Probing: A New Diagnostic for the Fragility of LLM Safety",
+        "link": "https://unit42.paloaltonetworks.com/perturbation-probing-llm-safety/",
+        "date": "2026-08-28T22:00:07+00:00",
+        "source": "Unit 42"
+      }
+    ],
+    "AnDROid": [
+      {
+        "title": "Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers",
+        "link": "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html",
+        "date": "2026-08-28T21:50:46+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "The Easiest Ways to Share Anything Between Android and iOS",
+        "link": "https://www.wired.com/story/how-to-share-anything-between-android-and-ios/",
+        "date": "2026-08-28T10:45:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Android 17 adds ECH support to make web browsing harder to track",
+        "link": "https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/",
+        "date": "2026-08-27T10:00:00-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Android Malware Hijacks Update System for Car Head Units",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/android-malware-hijacks-update-system-car-head-units",
+        "date": "2026-08-26T17:33:45+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Deadeye Jackal": [
+      {
+        "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
+        "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
+        "date": "2026-08-28T21:26:55+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+        "link": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+        "date": "2026-08-28T19:30:38+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "How Threat Research and MDR Help SMBs Build a Defensive Edge",
+        "link": "https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/",
+        "date": "2026-08-27T10:00:10-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "CryLocker": [
+      {
+        "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
+        "link": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
+        "date": "2026-08-28T20:57:26+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Lambda": [
+      {
+        "title": "Neocloud Lambda secures $1B in debt to buy more chips",
+        "link": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+        "date": "2026-08-28T20:24:11+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "APT3": [
+      {
+        "title": "Brave’s browser one-ups Chrome with its new support for email aliases",
+        "link": "https://techcrunch.com/2026/08/28/braves-browser-one-ups-chrome-with-its-new-support-for-email-aliases/",
+        "date": "2026-08-28T18:50:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "One": [
+      {
+        "title": "Brave’s browser one-ups Chrome with its new support for email aliases",
+        "link": "https://techcrunch.com/2026/08/28/braves-browser-one-ups-chrome-with-its-new-support-for-email-aliases/",
+        "date": "2026-08-28T18:50:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
+        "link": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
+        "date": "2026-08-28T17:37:24+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "How Sweden built one of Europe’s hottest startup ecosystems ",
+        "link": "https://techcrunch.com/2026/08/28/how-sweden-built-one-of-europes-hottest-startup-ecosystems/",
+        "date": "2026-08-28T17:09:05+00:00",
+        "source": "TechCrunch"
+      },
+      {
         "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
         "link": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
         "date": "2026-08-28T15:15:15+05:30",
         "source": "The Hacker News"
+      },
+      {
+        "title": "68-year-old imprisoned after making $1.3 million by pirating IPTV services",
+        "link": "https://www.bleepingcomputer.com/news/security/68-year-old-imprisoned-after-making-13-million-by-pirating-iptv-services/",
+        "date": "2026-08-28T12:36:47-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Hunt": [
+      {
+        "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
+        "link": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
+        "date": "2026-08-28T18:40:17-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "'HTTP Terminator' Hunts for Novel Desync Attacks",
+        "link": "https://www.darkreading.com/application-security/http-terminator-hunts-novel-desync-attacks",
+        "date": "2026-08-26T19:54:34+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Hunters": [
+      {
+        "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
+        "link": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
+        "date": "2026-08-28T18:40:17-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "ShinyHunters": [
+      {
+        "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
+        "link": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
+        "date": "2026-08-28T18:40:17-04:00",
+        "source": "BleepingComputer"
       }
     ],
     "Root": [
@@ -91,36 +291,44 @@
         "source": "The Hacker News"
       }
     ],
-    "PL": [
+    "Survey": [
       {
-        "title": "China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access",
-        "link": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
-        "date": "2026-08-28T16:28:29+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions",
-        "link": "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
-        "date": "2026-08-28T13:55:36+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations",
-        "link": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html",
-        "date": "2026-08-28T13:50:59+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Anthropic gets its first court win over the Pentagon’s supply chain risk label",
-        "link": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
-        "date": "2026-08-28T12:46:12+00:00",
+        "title": "More Americans oppose police license plate cameras than support them: survey",
+        "link": "https://techcrunch.com/2026/08/28/more-americans-oppose-police-license-plate-cameras-than-support-them-survey/",
+        "date": "2026-08-28T15:57:58+00:00",
         "source": "TechCrunch"
-      },
+      }
+    ],
+    "OCT": [
       {
-        "title": "PaperCut NG/MF Critical Zero-Day Exploited in the Wild",
-        "link": "https://www.rapid7.com/blog/post/etr-papercut-ng-mf-critical-zero-day-exploited-in-the-wild",
-        "date": "2026-08-28T10:09:12+00:00",
+        "title": "AI Has Human Doctors Asking: What’s Left for Us?",
+        "link": "https://www.wired.com/story/ai-has-human-doctors-asking-whats-left-for-us/",
+        "date": "2026-08-28T15:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Metasploit": [
+      {
+        "title": "Metasploit Wrap Up: Payloads and Exploits, and Scanners, Oh my!",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-payloads-exploits-scanners",
+        "date": "2026-08-28T14:57:18+00:00",
         "source": "Rapid7"
+      }
+    ],
+    "Payload": [
+      {
+        "title": "Metasploit Wrap Up: Payloads and Exploits, and Scanners, Oh my!",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-payloads-exploits-scanners",
+        "date": "2026-08-28T14:57:18+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "RIP (Phoenix) Ransomware": [
+      {
+        "title": "Apple TV is raising its subscription prices again",
+        "link": "https://techcrunch.com/2026/08/28/apple-tv-is-raising-its-subscription-prices-again/",
+        "date": "2026-08-28T14:36:48+00:00",
+        "source": "TechCrunch"
       }
     ],
     "APT28": [
@@ -147,38 +355,6 @@
         "source": "The Hacker News"
       }
     ],
-    "Ra": [
-      {
-        "title": "a16z creates a $1.1B ‘Machine Age’ fund to ‘accelerate the physical buildout of AI’",
-        "link": "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/",
-        "date": "2026-08-28T13:24:43+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
-        "link": "https://blog.cloudflare.com/botbase-for-operators/",
-        "date": "2026-08-28T12:59:44+00:00",
-        "source": "Cloudflare"
-      },
-      {
-        "title": "He Scraped All of Their Art for AI. Now He’s Collaborating on a Tool to Help Them",
-        "link": "https://www.wired.com/story/he-scraped-art-from-cara-for-ai-now-he-is-collaborating-on-a-tool-to-help-them/",
-        "date": "2026-08-28T11:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "There Are So Many Conspiracy Theories About Dolly Parton and Vaccines",
-        "link": "https://www.wired.com/story/there-are-so-many-conspiracy-theories-about-dolly-parton-and-vaccines/",
-        "date": "2026-08-28T09:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Over 8,300 Gitea servers vulnerable to code execution attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/",
-        "date": "2026-08-28T08:58:43-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
     "Rector": [
       {
         "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
@@ -189,7 +365,7 @@
     ],
     "First": [
       {
-        "title": "Anthropic gets its first court win over the Pentagon’s supply chain risk label",
+        "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
         "link": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
         "date": "2026-08-28T12:46:12+00:00",
         "source": "TechCrunch"
@@ -201,12 +377,6 @@
         "link": "https://arstechnica.com/security/2026/08/authorities-arrest-2-alleged-members-of-prolific-hacking-group-teampcp/",
         "date": "2026-08-28T11:15:05+00:00",
         "source": "Ars Technica"
-      },
-      {
-        "title": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
-        "link": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
-        "date": "2026-08-27T17:26:26+05:30",
-        "source": "The Hacker News"
       },
       {
         "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
@@ -229,24 +399,20 @@
         "source": "Ars Technica"
       }
     ],
-    "AnDROid": [
+    "Defender": [
       {
-        "title": "The Easiest Ways to Share Anything Between Android and iOS",
-        "link": "https://www.wired.com/story/how-to-share-anything-between-android-and-ios/",
-        "date": "2026-08-28T10:45:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Android 17 adds ECH support to make web browsing harder to track",
-        "link": "https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/",
-        "date": "2026-08-27T10:00:00-04:00",
+        "title": "AI Is Accelerating Vulnerability Discovery. Can Defenders Keep Up?",
+        "link": "https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up/",
+        "date": "2026-08-28T10:00:10-04:00",
         "source": "BleepingComputer"
-      },
+      }
+    ],
+    "Kee": [
       {
-        "title": "Android Malware Hijacks Update System for Car Head Units",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/android-malware-hijacks-update-system-car-head-units",
-        "date": "2026-08-26T17:33:45+00:00",
-        "source": "DarkReading"
+        "title": "AI Is Accelerating Vulnerability Discovery. Can Defenders Keep Up?",
+        "link": "https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up/",
+        "date": "2026-08-28T10:00:10-04:00",
+        "source": "BleepingComputer"
       }
     ],
     "RNS": [
@@ -267,38 +433,6 @@
         "link": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
         "date": "2026-08-27T12:31:53-04:00",
         "source": "BleepingComputer"
-      }
-    ],
-    "BRONZE BUTLER": [
-      {
-        "title": "Gametime Promo Code: Save on Tickets in September 2026",
-        "link": "https://www.wired.com/story/gametime-promo-code/",
-        "date": "2026-08-28T05:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Tick": [
-      {
-        "title": "Gametime Promo Code: Save on Tickets in September 2026",
-        "link": "https://www.wired.com/story/gametime-promo-code/",
-        "date": "2026-08-28T05:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "BOK": [
-      {
-        "title": "Reebok Discount Code: Save 15%+ in September 2026",
-        "link": "https://www.wired.com/story/reebok-discount-code/",
-        "date": "2026-08-28T05:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Bluesky": [
-      {
-        "title": "Bluesky adds an ‘algorithmic opt-out’ feature for those who don’t want to go viral",
-        "link": "https://techcrunch.com/2026/08/27/bluesky-adds-an-algorithmic-opt-out-feature-for-those-who-dont-want-to-go-viral/",
-        "date": "2026-08-27T20:15:26+00:00",
-        "source": "TechCrunch"
       }
     ],
     "DN": [
@@ -331,22 +465,6 @@
         "source": "DarkReading"
       }
     ],
-    "Deadeye Jackal": [
-      {
-        "title": "How Threat Research and MDR Help SMBs Build a Defensive Edge",
-        "link": "https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/",
-        "date": "2026-08-27T10:00:10-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Qilin": [
-      {
-        "title": "ATF confirms “major incident” after recent Qilin breach claims",
-        "link": "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/",
-        "date": "2026-08-27T04:13:50-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
     "Dark Caracal": [
       {
         "title": "Dark Caracal Adds New Malware to Cyber Espionage Arsenal",
@@ -356,14 +474,6 @@
       }
     ],
     "Desync": [
-      {
-        "title": "'HTTP Terminator' Hunts for Novel Desync Attacks",
-        "link": "https://www.darkreading.com/application-security/http-terminator-hunts-novel-desync-attacks",
-        "date": "2026-08-26T19:54:34+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Hunt": [
       {
         "title": "'HTTP Terminator' Hunts for Novel Desync Attacks",
         "link": "https://www.darkreading.com/application-security/http-terminator-hunts-novel-desync-attacks",
@@ -384,30 +494,6 @@
         "title": "'NovaCookies' Kit Steals Microsoft 365 Sessions for $320 a Month",
         "link": "https://www.darkreading.com/endpoint-security/novacookies-steals-microsoft-365-sessions-320-a-month",
         "date": "2026-08-26T11:33:40+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "DDE": [
-      {
-        "title": "Hidden Prompts Trick AI Into False Email Summaries",
-        "link": "https://www.darkreading.com/cyber-risk/hidden-prompts-trick-ai-false-email-summaries",
-        "date": "2026-08-25T21:08:55+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "JCrypt": [
-      {
-        "title": "Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw",
-        "link": "https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw",
-        "date": "2026-08-25T19:50:16+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "ONI": [
-      {
-        "title": "Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw",
-        "link": "https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw",
-        "date": "2026-08-25T19:50:16+00:00",
         "source": "DarkReading"
       }
     ],

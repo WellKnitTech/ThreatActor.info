@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Reebok Discount Code: Save 15%+ in September 2026](https://www.wired.com/story/reebok-discount-code/)
-  Wired - 2026-08-28T
-

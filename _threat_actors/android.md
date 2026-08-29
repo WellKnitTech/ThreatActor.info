@@ -33,6 +33,8 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers](https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html)
+  The Hacker News - 2026-08-28T
 - [The Easiest Ways to Share Anything Between Android and iOS](https://www.wired.com/story/how-to-share-anything-between-android-and-ios/)
   Wired - 2026-08-28T
 - [Android 17 adds ECH support to make web browsing harder to track](https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/)
