@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T08:36:42Z",
+  "updated": "2026-08-30T07:50:03Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,39 +19,13 @@
     "Rapid7"
   ],
   "actor_news": {
-    "R": [
-      {
-        "title": "Motorola Coupon Code for September 2026",
-        "link": "https://www.wired.com/story/motorola-coupon-code/",
-        "date": "2026-08-29T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
-        "link": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
-        "date": "2026-08-29T03:00:52+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
-        "link": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
-        "date": "2026-08-29T02:08:47+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
-        "link": "https://techcrunch.com/2026/08/28/chinese-automakers-are-following-teslas-bet-that-robots-are-the-next-big-profit-machine/",
-        "date": "2026-08-28T23:24:27+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Is the best way to watch a movie on a pair of sunglasses?",
-        "link": "https://techcrunch.com/2026/08/28/is-the-best-way-to-watch-a-movie-on-a-pair-of-sunglasses/",
-        "date": "2026-08-28T22:42:48+00:00",
-        "source": "TechCrunch"
-      }
-    ],
     "PL": [
+      {
+        "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+        "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+        "date": "2026-08-29T21:55:03+05:30",
+        "source": "The Hacker News"
+      },
       {
         "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
         "link": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
@@ -75,32 +49,108 @@
         "link": "https://techcrunch.com/2026/08/28/more-americans-oppose-police-license-plate-cameras-than-support-them-survey/",
         "date": "2026-08-28T15:57:58+00:00",
         "source": "TechCrunch"
+      }
+    ],
+    "R": [
+      {
+        "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+        "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+        "date": "2026-08-29T21:55:03+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "PaperCut releases second emergency patch for exploited flaws",
-        "link": "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
-        "date": "2026-08-28T15:08:26-04:00",
+        "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
+        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
+        "date": "2026-08-29T19:11:51-04:00",
         "source": "BleepingComputer"
+      },
+      {
+        "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
+        "link": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+        "date": "2026-08-29T18:41:59+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "At TechBBQ, Europe’s AI conversations kept coming back to: Who’s actually in control?",
+        "link": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
+        "date": "2026-08-29T17:51:10+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z",
+        "link": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
+        "date": "2026-08-29T17:36:47+00:00",
+        "source": "TechCrunch"
       }
     ],
     "Ra": [
       {
-        "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
-        "link": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
-        "date": "2026-08-29T02:08:47+05:30",
-        "source": "The Hacker News"
+        "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
+        "link": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+        "date": "2026-08-29T18:41:59+00:00",
+        "source": "TechCrunch"
       },
       {
-        "title": "Perturbation Probing: A New Diagnostic for the Fragility of LLM Safety",
-        "link": "https://unit42.paloaltonetworks.com/perturbation-probing-llm-safety/",
-        "date": "2026-08-28T22:00:07+00:00",
-        "source": "Unit 42"
+        "title": "Hollywood celebs are getting into microdrama apps",
+        "link": "https://techcrunch.com/2026/08/29/hollywood-celebs-are-getting-into-microdrama-apps/",
+        "date": "2026-08-29T16:10:00+00:00",
+        "source": "TechCrunch"
       },
       {
-        "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
-        "link": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
-        "date": "2026-08-28T20:57:26+05:30",
-        "source": "The Hacker News"
+        "title": "The Theragun Sense makes everyday recovery surprisingly easy",
+        "link": "https://techcrunch.com/2026/08/29/the-theragun-sense-makes-everyday-recovery-surprisingly-easy/",
+        "date": "2026-08-29T14:00:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "NASA’s Nancy Grace Roman Space Telescope Has a Hidden Technological Leap",
+        "link": "https://www.wired.com/story/nasas-nancy-grace-roman-space-telescope-coronagraph-leap/",
+        "date": "2026-08-29T10:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Brave browser adds email aliases to help users evade tracking",
+        "link": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
+        "date": "2026-08-29T10:19:23-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "BB": [
+      {
+        "title": "At TechBBQ, Europe’s AI conversations kept coming back to: Who’s actually in control?",
+        "link": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
+        "date": "2026-08-29T17:51:10+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
+        "link": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/",
+        "date": "2026-08-21T13:11:35+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "bert": [
+      {
+        "title": "Soundcore Liberty 5 Pro Review: Master of Phone Calls",
+        "link": "https://www.wired.com/review/soundcore-liberty-5-pro/",
+        "date": "2026-08-29T11:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "core": [
+      {
+        "title": "Soundcore Liberty 5 Pro Review: Master of Phone Calls",
+        "link": "https://www.wired.com/review/soundcore-liberty-5-pro/",
+        "date": "2026-08-29T11:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "One": [
+      {
+        "title": "Soundcore Liberty 5 Pro Review: Master of Phone Calls",
+        "link": "https://www.wired.com/review/soundcore-liberty-5-pro/",
+        "date": "2026-08-29T11:00:00+00:00",
+        "source": "Wired"
       },
       {
         "title": "Brave’s browser one-ups Chrome with its new support for email aliases",
@@ -109,10 +159,38 @@
         "source": "TechCrunch"
       },
       {
-        "title": "More Americans oppose police license plate cameras than support them: survey",
-        "link": "https://techcrunch.com/2026/08/28/more-americans-oppose-police-license-plate-cameras-than-support-them-survey/",
-        "date": "2026-08-28T15:57:58+00:00",
+        "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
+        "link": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
+        "date": "2026-08-28T17:37:24+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "How Sweden built one of Europe’s hottest startup ecosystems ",
+        "link": "https://techcrunch.com/2026/08/28/how-sweden-built-one-of-europes-hottest-startup-ecosystems/",
+        "date": "2026-08-28T17:09:05+00:00",
         "source": "TechCrunch"
+      },
+      {
+        "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
+        "link": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
+        "date": "2026-08-28T15:15:15+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Apocalypse": [
+      {
+        "title": "The Cybersecurity Apocalypse Is Coming in ‘Months,’ AI Giants Warn",
+        "link": "https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn/",
+        "date": "2026-08-29T10:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "DDE": [
+      {
+        "title": "NASA’s Nancy Grace Roman Space Telescope Has a Hidden Technological Leap",
+        "link": "https://www.wired.com/story/nasas-nancy-grace-roman-space-telescope-coronagraph-leap/",
+        "date": "2026-08-29T10:30:00+00:00",
+        "source": "Wired"
       }
     ],
     "SunCrypt": [
@@ -145,18 +223,6 @@
         "link": "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html",
         "date": "2026-08-28T21:50:46+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "The Easiest Ways to Share Anything Between Android and iOS",
-        "link": "https://www.wired.com/story/how-to-share-anything-between-android-and-ios/",
-        "date": "2026-08-28T10:45:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Android 17 adds ECH support to make web browsing harder to track",
-        "link": "https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/",
-        "date": "2026-08-27T10:00:00-04:00",
-        "source": "BleepingComputer"
       },
       {
         "title": "Android Malware Hijacks Update System for Car Head Units",
@@ -207,38 +273,6 @@
         "link": "https://techcrunch.com/2026/08/28/braves-browser-one-ups-chrome-with-its-new-support-for-email-aliases/",
         "date": "2026-08-28T18:50:00+00:00",
         "source": "TechCrunch"
-      }
-    ],
-    "One": [
-      {
-        "title": "Brave’s browser one-ups Chrome with its new support for email aliases",
-        "link": "https://techcrunch.com/2026/08/28/braves-browser-one-ups-chrome-with-its-new-support-for-email-aliases/",
-        "date": "2026-08-28T18:50:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
-        "link": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
-        "date": "2026-08-28T17:37:24+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "How Sweden built one of Europe’s hottest startup ecosystems ",
-        "link": "https://techcrunch.com/2026/08/28/how-sweden-built-one-of-europes-hottest-startup-ecosystems/",
-        "date": "2026-08-28T17:09:05+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
-        "link": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
-        "date": "2026-08-28T15:15:15+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "68-year-old imprisoned after making $1.3 million by pirating IPTV services",
-        "link": "https://www.bleepingcomputer.com/news/security/68-year-old-imprisoned-after-making-13-million-by-pirating-iptv-services/",
-        "date": "2026-08-28T12:36:47-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "Hunt": [
@@ -323,14 +357,6 @@
         "source": "Rapid7"
       }
     ],
-    "RIP (Phoenix) Ransomware": [
-      {
-        "title": "Apple TV is raising its subscription prices again",
-        "link": "https://techcrunch.com/2026/08/28/apple-tv-is-raising-its-subscription-prices-again/",
-        "date": "2026-08-28T14:36:48+00:00",
-        "source": "TechCrunch"
-      }
-    ],
     "APT28": [
       {
         "title": "APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations",
@@ -363,14 +389,6 @@
         "source": "Cloudflare"
       }
     ],
-    "First": [
-      {
-        "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
-        "link": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
-        "date": "2026-08-28T12:46:12+00:00",
-        "source": "TechCrunch"
-      }
-    ],
     "TeamPCP": [
       {
         "title": "Authorities arrest 2 alleged members of prolific hacking group TeamPCP",
@@ -383,12 +401,6 @@
         "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
         "date": "2026-08-27T11:04:15+00:00",
         "source": "KrebsOnSecurity"
-      },
-      {
-        "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
-        "date": "2026-08-27T09:31:13-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "Thor": [
@@ -503,14 +515,6 @@
         "link": "https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-remote-code-execution-cve-2026-63520",
         "date": "2026-08-24T16:18:05+00:00",
         "source": "Rapid7"
-      }
-    ],
-    "BB": [
-      {
-        "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
-        "link": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/",
-        "date": "2026-08-21T13:11:35+00:00",
-        "source": "Ars Technica"
       }
     ]
   }

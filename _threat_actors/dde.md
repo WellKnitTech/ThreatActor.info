@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [NASA’s Nancy Grace Roman Space Telescope Has a Hidden Technological Leap](https://www.wired.com/story/nasas-nancy-grace-roman-space-telescope-coronagraph-leap/)
+  Wired - 2026-08-29T
+
