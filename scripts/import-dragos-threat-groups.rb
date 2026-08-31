@@ -112,12 +112,11 @@ class DragosThreatGroupsImporter
   def extract_profile_links(doc)
     hrefs = doc.css('a[href]').map { |a| a['href'] }.compact
     hrefs.filter_map do |href|
-      next unless href.include?('/threat-groups/')
+      next unless profile_link?(href)
 
       absolute = URI.join(SOURCE_URL + '/', href).to_s
       uri = URI.parse(absolute)
       next unless uri.host == URI.parse(SOURCE_URL).host
-      next if uri.path == '/threat-groups' || uri.path == '/threat-groups/'
 
       absolute
     rescue URI::InvalidURIError
@@ -131,7 +130,7 @@ class DragosThreatGroupsImporter
       href = link['href'].to_s
       text = normalize_name(link.text)
       next if text.empty? || href.empty?
-      next unless href.include?('/threat-groups/')
+      next unless profile_link?(href)
 
       rows << { 'name' => text, 'source_url' => URI.join(SOURCE_URL + '/', href).to_s }
     end
@@ -157,6 +156,17 @@ class DragosThreatGroupsImporter
 
   def normalize_name(value)
     value.to_s.gsub(/[\u2018\u2019]/, "'").gsub(/[\u201C\u201D]/, '"').gsub(/\s+/, ' ').strip
+  end
+
+  def profile_link?(href)
+    uri = URI.parse(URI.join(SOURCE_URL + '/', href).to_s)
+    return false unless uri.host == URI.parse(SOURCE_URL).host
+
+    ['/threat-groups/', '/threat/'].any? do |prefix|
+      uri.path.start_with?(prefix) && uri.path.length > prefix.length
+    end
+  rescue URI::InvalidURIError
+    false
   end
 
   def plan_or_import

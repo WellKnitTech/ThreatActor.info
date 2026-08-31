@@ -62,6 +62,18 @@ class SourceImportFixtureContractTest < Minitest::Test
     end
   end
 
+  def test_dragos_changed_layout_discovers_threat_profile_links
+    importer = DragosThreatGroupsImporter.new([])
+    document = Nokogiri::HTML(html('dragos', 'changed-layout'))
+
+    links = importer.send(:extract_profile_links, document)
+    assert_equal ['https://www.dragos.com/threat/apt29'], links
+
+    records = importer.send(:parse_actors, document, [])
+    assert_equal ['APT29'], records.map { |row| row['name'] }
+    assert_equal ['https://www.dragos.com/threat/apt29'], records.first['source_urls']
+  end
+
   def test_timeout_and_http_error_cases_are_retry_or_quarantine_not_empty_success
     %w[timeout http-error].each do |case_name|
       contract_data = expected('dragos', case_name)
