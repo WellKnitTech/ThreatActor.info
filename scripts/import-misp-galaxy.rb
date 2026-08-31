@@ -877,14 +877,16 @@ class MispGalaxyImporter
   def create_page_file(candidate)
     filename = File.join(PAGE_DIR, "#{candidate[:url].gsub(/^\//, '')}.md")
 
-    page_content = <<~YAML
-      ---
-      layout: threat_actor
-      title: "#{candidate[:name]}"
-      aliases: #{candidate[:aliases].inspect}
-      description: "#{candidate[:description].gsub('"', '\\"')}"
-      permalink: #{candidate[:url]}/
-      ---
+    front_matter = YAML.dump(
+      'layout' => 'threat_actor',
+      'title' => candidate[:name],
+      'aliases' => candidate[:aliases],
+      'description' => candidate[:description],
+      'permalink' => "#{candidate[:url]}/"
+    ).sub(/\A---\n/, '')
+
+    page_content = "---\n#{front_matter}---\n\n"
+    page_content += <<~MARKDOWN
 
       ## Introduction
 
@@ -910,7 +912,7 @@ class MispGalaxyImporter
 
       ## References
 
-YAML
+    MARKDOWN
 
     # Add references
     if candidate[:refs] && !candidate[:refs].empty?
