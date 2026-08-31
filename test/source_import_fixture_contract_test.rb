@@ -74,6 +74,27 @@ class SourceImportFixtureContractTest < Minitest::Test
     assert_equal ['https://www.dragos.com/threat/apt29'], records.first['source_urls']
   end
 
+  def test_dragos_fetch_writes_nonempty_manifest_for_threat_profile_layout
+    Dir.mktmpdir('dragos-fetch') do |tmpdir|
+      importer = DragosThreatGroupsImporter.new([])
+      importer.instance_variable_set(:@options, { output: tmpdir })
+      root = html('dragos', 'changed-layout')
+      detail = html('dragos', 'changed-layout', 'pages/apt29.html')
+      importer.define_singleton_method(:http_get) do |url|
+        url.end_with?('/apt29') ? detail : root
+      end
+
+      importer.send(:fetch_snapshot)
+      manifest = YAML.safe_load(File.read(File.join(tmpdir, 'manifest.yml')))
+      records = JSON.parse(File.read(File.join(tmpdir, 'actors.json')))
+
+      assert_equal false, manifest['source_empty']
+      assert_equal 1, manifest['record_count']
+      assert_equal 1, records.length
+      assert_equal 'APT29', records.first['name']
+    end
+  end
+
   def test_timeout_and_http_error_cases_are_retry_or_quarantine_not_empty_success
     %w[timeout http-error].each do |case_name|
       contract_data = expected('dragos', case_name)

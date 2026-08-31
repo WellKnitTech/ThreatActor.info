@@ -101,6 +101,9 @@ class DragosThreatGroupsImporter
       'source_url' => SOURCE_URL,
       'retrieved_at' => Time.now.utc.iso8601,
       'source_checksum_sha256' => Digest::SHA256.hexdigest(root_html),
+      # An empty result is never inferred as a valid catalog.  The quality gate
+      # requires an explicit, evidence-backed source_empty classification.
+      'source_empty' => false,
       'detail_page_count' => pages.length,
       'record_count' => actors.length,
       'detail_pages' => pages
