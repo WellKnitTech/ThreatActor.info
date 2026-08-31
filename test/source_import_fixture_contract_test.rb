@@ -82,7 +82,7 @@ class SourceImportFixtureContractTest < Minitest::Test
   end
 
   def test_dragos_fetch_does_not_classify_parser_failure_as_source_empty
-    root_html = html('dragos', 'malformed')
+    root_html = '<html><body><main><a href="/other">Blocked page</a></main></body></html>'
     importer_class = Class.new(DragosThreatGroupsImporter) do
       define_method(:http_get) { |url| url == DragosThreatGroupsImporter::SOURCE_URL ? root_html : '<html></html>' }
       define_method(:parse_actors) { |_root_doc, _pages| [] }

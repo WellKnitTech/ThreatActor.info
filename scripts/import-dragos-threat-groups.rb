@@ -107,7 +107,7 @@ class DragosThreatGroupsImporter
       'record_count' => actors.length,
       'detail_pages' => pages
     }
-    if actors.empty? && links.empty?
+    if actors.empty? && links.empty? && root_doc.css('a[href]').empty?
       manifest['source_empty'] = true
       manifest['empty_reason'] = EMPTY_SOURCE_REASON
     end
