@@ -154,6 +154,8 @@ class ThreatFoxImporter
   def run_plan_or_import(write:)
     path = snapshot_data_path
     payload = JSON.parse(File.read(path))
+    status = payload['query_status'].to_s
+    abort "ThreatFox snapshot cannot be imported (status=#{status})" if write && !status.empty? && status != 'ok'
     rows = Array(payload['data'])
     rows = rows.first(@options[:limit]) if @options[:limit]
     actors = ActorStore.load_all
@@ -173,6 +175,7 @@ class ThreatFoxImporter
     report = {
       'mode' => write ? 'import' : 'plan',
       'snapshot' => @options[:snapshot],
+      'query_status' => payload['query_status'],
       'ioc_rows' => plan_rows.size,
       'matched_actors' => matched,
       'unmatched' => unmatched
