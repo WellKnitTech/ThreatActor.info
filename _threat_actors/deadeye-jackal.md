@@ -46,8 +46,4 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 
 - [ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body](https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html)
   The Hacker News - 2026-08-28T
-- [An Anthropic researcher just gave us a peek at self-improving AI](https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/)
-  TechCrunch - 2026-08-28T
-- [How Threat Research and MDR Help SMBs Build a Defensive Edge](https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/)
-  BleepingComputer - 2026-08-27T
 

@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [AI Has Human Doctors Asking: What’s Left for Us?](https://www.wired.com/story/ai-has-human-doctors-asking-whats-left-for-us/)
-  Wired - 2026-08-28T
-

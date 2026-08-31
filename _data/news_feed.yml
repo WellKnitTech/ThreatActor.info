@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T07:50:03Z",
+  "updated": "2026-08-31T08:04:51Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,7 +19,105 @@
     "Rapid7"
   ],
   "actor_news": {
+    "One": [
+      {
+        "title": "The U.S. is building barriers around drones and robots, but China has scale to get around them",
+        "link": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
+        "date": "2026-08-31T02:34:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Soundcore Liberty 5 Pro Review: Master of Phone Calls",
+        "link": "https://www.wired.com/review/soundcore-liberty-5-pro/",
+        "date": "2026-08-29T11:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
+        "link": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
+        "date": "2026-08-28T17:37:24+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
+        "link": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
+        "date": "2026-08-28T15:15:15+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "68-year-old imprisoned after making $1.3 million by pirating IPTV services",
+        "link": "https://www.bleepingcomputer.com/news/security/68-year-old-imprisoned-after-making-13-million-by-pirating-iptv-services/",
+        "date": "2026-08-28T12:36:47-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "R": [
+      {
+        "title": "The U.S. is building barriers around drones and robots, but China has scale to get around them",
+        "link": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
+        "date": "2026-08-31T02:34:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Grindr wants to be the everything app for gay men; investors are still deciding whether it can pull it off",
+        "link": "https://techcrunch.com/2026/08/30/grindr-wants-to-be-the-everything-app-for-gay-men-investors-are-still-deciding-whether-it-can-pull-it-off/",
+        "date": "2026-08-31T02:18:57+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Liux’s Big microcar bets on sustainability to take on Chinese rivals",
+        "link": "https://techcrunch.com/2026/08/30/liuxs-big-microcar-bets-on-sustainability-to-take-on-chinese-rivals/",
+        "date": "2026-08-30T18:33:44+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Musk’s faster path to more gas turbines comes with pollution problem",
+        "link": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
+        "date": "2026-08-30T16:54:25+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Google Maps Now Shows ‘Lake America’ Instead of Lake Ontario",
+        "link": "https://www.wired.com/story/google-maps-now-shows-lake-america-instead-of-lake-ontario/",
+        "date": "2026-08-30T16:16:24+00:00",
+        "source": "Wired"
+      }
+    ],
+    "DDE": [
+      {
+        "title": "TechCrunch Mobility: The hidden human cost of robotaxis",
+        "link": "https://techcrunch.com/2026/08/30/techcrunch-mobility-the-hidden-human-cost-of-robotaxis/",
+        "date": "2026-08-30T16:03:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "NASA’s Nancy Grace Roman Space Telescope Has a Hidden Technological Leap",
+        "link": "https://www.wired.com/story/nasas-nancy-grace-roman-space-telescope-coronagraph-leap/",
+        "date": "2026-08-29T10:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Mini": [
+      {
+        "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
+        "link": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+        "date": "2026-08-30T15:00:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
     "PL": [
+      {
+        "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
+        "link": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+        "date": "2026-08-30T15:00:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
+        "link": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+        "date": "2026-08-30T13:06:33+05:30",
+        "source": "The Hacker News"
+      },
       {
         "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
         "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
@@ -37,53 +135,49 @@
         "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
         "date": "2026-08-28T21:26:55+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access",
-        "link": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
-        "date": "2026-08-28T16:28:29+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "More Americans oppose police license plate cameras than support them: survey",
-        "link": "https://techcrunch.com/2026/08/28/more-americans-oppose-police-license-plate-cameras-than-support-them-survey/",
-        "date": "2026-08-28T15:57:58+00:00",
-        "source": "TechCrunch"
       }
     ],
-    "R": [
+    "DN": [
       {
-        "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
-        "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
-        "date": "2026-08-29T21:55:03+05:30",
+        "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
+        "link": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+        "date": "2026-08-30T13:06:33+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
-        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
-        "date": "2026-08-29T19:11:51-04:00",
+        "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
+        "link": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+        "date": "2026-08-27T17:02:35+00:00",
+        "source": "Cloudflare"
+      },
+      {
+        "title": "Red Flags That Expose Fake North Korean IT Workers",
+        "link": "https://www.darkreading.com/insider-threats/red-flags-expose-fake-north-korean-it-workers",
+        "date": "2026-08-26T19:21:24+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Fulcrumsec": [
+      {
+        "title": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
+        "link": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
+        "date": "2026-08-30T11:00:21-04:00",
         "source": "BleepingComputer"
-      },
-      {
-        "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
-        "link": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
-        "date": "2026-08-29T18:41:59+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "At TechBBQ, Europe’s AI conversations kept coming back to: Who’s actually in control?",
-        "link": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
-        "date": "2026-08-29T17:51:10+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z",
-        "link": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
-        "date": "2026-08-29T17:36:47+00:00",
-        "source": "TechCrunch"
       }
     ],
     "Ra": [
+      {
+        "title": "Anthropic warns infostealer malware is hijacking Claude sessions to drain usage",
+        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
+        "date": "2026-08-30T10:30:25-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Why the Hottest New Wearables Want to Be Ignored",
+        "link": "https://www.wired.com/story/why-the-hottest-new-wearables-want-to-be-ignored/",
+        "date": "2026-08-30T10:30:00+00:00",
+        "source": "Wired"
+      },
       {
         "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
         "link": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
@@ -101,18 +195,40 @@
         "link": "https://techcrunch.com/2026/08/29/the-theragun-sense-makes-everyday-recovery-surprisingly-easy/",
         "date": "2026-08-29T14:00:00+00:00",
         "source": "TechCrunch"
-      },
+      }
+    ],
+    "RNS": [
       {
-        "title": "NASA’s Nancy Grace Roman Space Telescope Has a Hidden Technological Leap",
-        "link": "https://www.wired.com/story/nasas-nancy-grace-roman-space-telescope-coronagraph-leap/",
-        "date": "2026-08-29T10:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Brave browser adds email aliases to help users evade tracking",
-        "link": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
-        "date": "2026-08-29T10:19:23-04:00",
+        "title": "Anthropic warns infostealer malware is hijacking Claude sessions to drain usage",
+        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
+        "date": "2026-08-30T10:30:25-04:00",
         "source": "BleepingComputer"
+      },
+      {
+        "title": "ServiceNow warns of three max severity security vulnerabilities",
+        "link": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
+        "date": "2026-08-28T06:29:42-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Agentic AI Risks, CVE Program Concerns Permeate Black Hat USA 2026",
+        "link": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-risks-cve-program-concerns-black-hat-usa-2026",
+        "date": "2026-08-27T17:25:09+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "CryLocker": [
+      {
+        "title": "Chrome Web Store extensions caught stealing crypto, browser data",
+        "link": "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/",
+        "date": "2026-08-30T10:17:44-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
+        "link": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
+        "date": "2026-08-28T20:57:26+05:30",
+        "source": "The Hacker News"
       }
     ],
     "BB": [
@@ -145,50 +261,10 @@
         "source": "Wired"
       }
     ],
-    "One": [
-      {
-        "title": "Soundcore Liberty 5 Pro Review: Master of Phone Calls",
-        "link": "https://www.wired.com/review/soundcore-liberty-5-pro/",
-        "date": "2026-08-29T11:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Brave’s browser one-ups Chrome with its new support for email aliases",
-        "link": "https://techcrunch.com/2026/08/28/braves-browser-one-ups-chrome-with-its-new-support-for-email-aliases/",
-        "date": "2026-08-28T18:50:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
-        "link": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
-        "date": "2026-08-28T17:37:24+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "How Sweden built one of Europe’s hottest startup ecosystems ",
-        "link": "https://techcrunch.com/2026/08/28/how-sweden-built-one-of-europes-hottest-startup-ecosystems/",
-        "date": "2026-08-28T17:09:05+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
-        "link": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
-        "date": "2026-08-28T15:15:15+05:30",
-        "source": "The Hacker News"
-      }
-    ],
     "Apocalypse": [
       {
         "title": "The Cybersecurity Apocalypse Is Coming in ‘Months,’ AI Giants Warn",
         "link": "https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn/",
-        "date": "2026-08-29T10:30:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "DDE": [
-      {
-        "title": "NASA’s Nancy Grace Roman Space Telescope Has a Hidden Technological Leap",
-        "link": "https://www.wired.com/story/nasas-nancy-grace-roman-space-telescope-coronagraph-leap/",
         "date": "2026-08-29T10:30:00+00:00",
         "source": "Wired"
       }
@@ -237,26 +313,6 @@
         "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
         "date": "2026-08-28T21:26:55+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "An Anthropic researcher just gave us a peek at self-improving AI",
-        "link": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
-        "date": "2026-08-28T19:30:38+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "How Threat Research and MDR Help SMBs Build a Defensive Edge",
-        "link": "https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/",
-        "date": "2026-08-27T10:00:10-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "CryLocker": [
-      {
-        "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
-        "link": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
-        "date": "2026-08-28T20:57:26+05:30",
-        "source": "The Hacker News"
       }
     ],
     "Lambda": [
@@ -264,14 +320,6 @@
         "title": "Neocloud Lambda secures $1B in debt to buy more chips",
         "link": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
         "date": "2026-08-28T20:24:11+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "APT3": [
-      {
-        "title": "Brave’s browser one-ups Chrome with its new support for email aliases",
-        "link": "https://techcrunch.com/2026/08/28/braves-browser-one-ups-chrome-with-its-new-support-for-email-aliases/",
-        "date": "2026-08-28T18:50:00+00:00",
         "source": "TechCrunch"
       }
     ],
@@ -323,22 +371,6 @@
         "link": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
         "date": "2026-08-28T15:15:15+05:30",
         "source": "The Hacker News"
-      }
-    ],
-    "Survey": [
-      {
-        "title": "More Americans oppose police license plate cameras than support them: survey",
-        "link": "https://techcrunch.com/2026/08/28/more-americans-oppose-police-license-plate-cameras-than-support-them-survey/",
-        "date": "2026-08-28T15:57:58+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "OCT": [
-      {
-        "title": "AI Has Human Doctors Asking: What’s Left for Us?",
-        "link": "https://www.wired.com/story/ai-has-human-doctors-asking-whats-left-for-us/",
-        "date": "2026-08-28T15:00:00+00:00",
-        "source": "Wired"
       }
     ],
     "Metasploit": [
@@ -425,40 +457,6 @@
         "link": "https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up/",
         "date": "2026-08-28T10:00:10-04:00",
         "source": "BleepingComputer"
-      }
-    ],
-    "RNS": [
-      {
-        "title": "ServiceNow warns of three max severity security vulnerabilities",
-        "link": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
-        "date": "2026-08-28T06:29:42-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Agentic AI Risks, CVE Program Concerns Permeate Black Hat USA 2026",
-        "link": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-risks-cve-program-concerns-black-hat-usa-2026",
-        "date": "2026-08-27T17:25:09+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
-        "date": "2026-08-27T12:31:53-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "DN": [
-      {
-        "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
-        "link": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
-        "date": "2026-08-27T17:02:35+00:00",
-        "source": "Cloudflare"
-      },
-      {
-        "title": "Red Flags That Expose Fake North Korean IT Workers",
-        "link": "https://www.darkreading.com/insider-threats/red-flags-expose-fake-north-korean-it-workers",
-        "date": "2026-08-26T19:21:24+00:00",
-        "source": "DarkReading"
       }
     ],
     "hermes": [
