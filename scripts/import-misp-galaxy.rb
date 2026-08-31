@@ -134,6 +134,7 @@ class MispGalaxyImporter
       country_overrides: {},
       alias_drop_list: []
     }
+    @skipped_records = []
   end
 
   def run
@@ -417,8 +418,15 @@ class MispGalaxyImporter
     meta_keys = meta.keys.map(&:to_s).uniq.sort
     inferred_gid = infer_mitre_group_id(meta, refs, misp['description'])
 
-    # Build URL slug
-    url = "/#{name.downcase.gsub(/[^a-z0-9]/, '-').squeeze('-').gsub(/^-|-$/, '')}"
+    # Build URL slug. A symbol with no URL-safe characters cannot be published
+    # without colliding at the site root, so quarantine it for analyst review.
+    slug = name.downcase.gsub(/[^a-z0-9]/, '-').squeeze('-').gsub(/^-|-$/, '')
+    if slug.empty?
+      @skipped_records << { name: name, reason: 'empty_url_slug' }
+      return nil
+    end
+
+    url = "/#{slug}"
 
     {
       name: name,
@@ -682,6 +690,7 @@ class MispGalaxyImporter
       creates: candidates.count { |c| c[:action] == 'create' },
       updates: candidates.count { |c| c[:action] == 'update' },
       review: candidates.count { |c| c[:action] == 'review' },
+      skipped: @skipped_records,
       actions: candidates.map do |c|
         {
           name: c[:name],
