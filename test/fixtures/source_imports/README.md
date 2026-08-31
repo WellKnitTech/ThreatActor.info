@@ -6,7 +6,7 @@ The fixture contract suite exercises the source parser boundary without contacti
 ruby scripts/test-source-import-fixtures.sh
 ```
 
-It is intentionally standard Minitest and runs under Ruby 3.2 with the normal `Gemfile` dependencies. Each source has canonical, changed-layout, malformed, and empty snapshots. Dragos also includes timeout and HTTP-error contract cases.
+It is intentionally standard Minitest and runs under Ruby 3.2 with the normal `Gemfile` dependencies. Each source has canonical, changed-layout, malformed, and empty snapshots. Dragos also includes blocked, timeout, and HTTP-error contract cases.
 
 Fixture directories contain source HTML and an `expected.json` contract with:
 

@@ -7,7 +7,9 @@
 require 'fileutils'
 require 'open3'
 require 'optparse'
+require 'set'
 require 'time'
+require_relative 'snapshot_quality_gate'
 
 Source = Struct.new(
   :priority,
@@ -367,6 +369,14 @@ def fetch_source(source, snapshot, options)
 end
 
 def plan_source(source, snapshot, options)
+  quality_source = {
+    'dragos-threat-groups' => 'dragos',
+    'unit42-threat-actor-groups' => 'unit42'
+  }[source.key]
+  if quality_source
+    SnapshotQualityGate.validate!(snapshot, source: quality_source,
+                                  report_path: File.join(options[:report_dir], "quality-#{source.key}.json"))
+  end
   command = ['bundle', 'exec', 'ruby', source.script, 'plan', '--snapshot', snapshot, '--report-json', report_path(options, source, 'plan')]
   run_command(command)
 end
@@ -389,6 +399,7 @@ def regenerate_outputs
 end
 
 failures = []
+failed_sources = Set.new
 
 # Clean any stale plan/import reports from previous runs so we never mix
 # report shapes (e.g. ransomlook's old array reports with normal object summaries).
@@ -412,6 +423,7 @@ selected.each do |source|
     plan_source(source, snapshot, options) if options[:plan]
   rescue StandardError => e
     failures << "#{source.key}: #{e.message}"
+    failed_sources << source.key
     raise unless options[:continue_on_error]
 
     warn "Continuing after #{source.key} failure: #{e.message}"
@@ -421,7 +433,7 @@ end
 validate_plan_reports(options) if options[:apply] && options[:plan] && (failures.empty? || options[:continue_on_error])
 
 if options[:apply] && (failures.empty? || options[:continue_on_error])
-  selected.each do |source|
+  selected.reject { |source| failed_sources.include?(source.key) }.each do |source|
     snapshot = snapshot_path(source, options[:date])
     begin
       import_source(source, snapshot, options)

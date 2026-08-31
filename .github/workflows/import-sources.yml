@@ -55,10 +55,15 @@ jobs:
         if [ -n "$LIMIT" ]; then
           args+=(--limit "$LIMIT")
         fi
-        ruby scripts/import-automated-sources.rb --continue-on-error "${args[@]}"
+        mkdir -p tmp/import-reports
+        bundle exec ruby scripts/import-automated-sources.rb --report-dir tmp/import-reports "${args[@]}"
 
     - name: Check source freshness
       run: ruby scripts/check-source-freshness.rb --mode warn --report-json tmp/source-freshness-report.json
+
+    - name: Verify import workflow safety
+      if: always()
+      run: ruby scripts/verify-import-sources-workflow.rb
 
     - name: Build site
       run: bundle exec jekyll build --safe
@@ -71,6 +76,7 @@ jobs:
         path: |
           tmp/source-freshness-report.json
           _data/generated/source_freshness.json
+          tmp/import-reports/**
 
     - name: Open import pull request
       if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
