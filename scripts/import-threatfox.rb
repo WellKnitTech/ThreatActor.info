@@ -154,6 +154,11 @@ class ThreatFoxImporter
   def run_plan_or_import(write:)
     path = snapshot_data_path
     payload = JSON.parse(File.read(path))
+    query_status = payload['query_status'].to_s.strip.downcase
+    unless query_status.empty? || %w[completed ok success].include?(query_status)
+      raise "ThreatFox query failed with status #{payload['query_status'].inspect}"
+    end
+
     rows = Array(payload['data'])
     rows = rows.first(@options[:limit]) if @options[:limit]
     actors = ActorStore.load_all
