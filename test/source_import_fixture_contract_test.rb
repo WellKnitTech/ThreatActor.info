@@ -81,10 +81,29 @@ class SourceImportFixtureContractTest < Minitest::Test
     end
   end
 
-  def test_dragos_fetch_does_not_classify_parser_failure_as_source_empty
-    root_html = '<html><body><main><a href="/other">Blocked page</a></main></body></html>'
+  def test_dragos_changed_layout_and_blocked_responses_are_quarantined
+    %w[changed-layout blocked].each do |case_name|
+      root_html = html('dragos', case_name)
+      importer_class = Class.new(DragosThreatGroupsImporter) do
+        define_method(:http_get) { |url| url == DragosThreatGroupsImporter::SOURCE_URL ? root_html : '<html></html>' }
+      end
+
+      Dir.mktmpdir("dragos-#{case_name}") do |tmpdir|
+        importer = importer_class.new([])
+        importer.instance_variable_set(:@options, { output: tmpdir })
+        importer.send(:fetch_snapshot)
+
+        error = assert_raises(SnapshotQualityGate::Rejected) { SnapshotQualityGate.validate!(tmpdir, source: 'dragos') }
+        assert_equal 'parser_empty', error.diagnostics['classification']
+      end
+    end
+  end
+
+  def test_dragos_parser_failure_with_zero_links_is_not_source_empty
+    root_html = html('dragos', 'malformed')
     importer_class = Class.new(DragosThreatGroupsImporter) do
-      define_method(:http_get) { |url| url == DragosThreatGroupsImporter::SOURCE_URL ? root_html : '<html></html>' }
+      define_method(:http_get) { |_url| root_html }
+
       define_method(:parse_actors) { |_root_doc, _pages| [] }
     end
 

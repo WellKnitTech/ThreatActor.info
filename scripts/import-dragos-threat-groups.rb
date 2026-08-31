@@ -22,6 +22,7 @@ class DragosThreatGroupsImporter
   SOURCE_URL = 'https://www.dragos.com/threat-groups'.freeze
   SOURCE_ATTRIBUTION = 'Aliases were reviewed from the Dragos threat-groups catalog and preserved with source provenance.'.freeze
   EMPTY_SOURCE_REASON = 'upstream catalog contains no threat-group profiles'.freeze
+  EMPTY_CATALOG_PATTERN = /no\s+(?:threat\s+)?groups?\s+(?:currently\s+)?found/i
 
   def initialize(argv)
     @argv = argv.dup
@@ -107,7 +108,7 @@ class DragosThreatGroupsImporter
       'record_count' => actors.length,
       'detail_pages' => pages
     }
-    if actors.empty? && links.empty? && root_doc.css('a[href]').empty?
+    if actors.empty? && links.empty? && legitimate_empty_catalog?(root_doc)
       manifest['source_empty'] = true
       manifest['empty_reason'] = EMPTY_SOURCE_REASON
     end
@@ -129,6 +130,12 @@ class DragosThreatGroupsImporter
     rescue URI::InvalidURIError
       nil
     end.uniq.sort
+  end
+
+  def legitimate_empty_catalog?(doc)
+    return false unless doc.at_css('main')
+
+    normalize_name(doc.at_css('main').text).match?(EMPTY_CATALOG_PATTERN)
   end
 
   def parse_actors(root_doc, pages)
