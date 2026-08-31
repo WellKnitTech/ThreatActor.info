@@ -30,11 +30,28 @@ config = if File.exist?(options[:config])
            {}
          end
 
+FAILURE_STATUSES = %w[
+  auth_missing auth_required error failed failure fatal_error http_error
+  invalid_auth_key malformed_response no_auth no_auth_key query_error query_failed
+  rate_limited rejected retryable_error timeout unauthenticated unauthorized unavailable
+].freeze
+
 def numeric(payload, keys)
-  keys.each do |key|
-    value = payload[key]
-    return value.to_f if value.is_a?(Numeric)
+  values = keys.filter_map { |key| payload[key].to_f if payload[key].is_a?(Numeric) }
+  # Some importers emit both canonical and legacy/action counters. A zero
+  # canonical value must not hide a nonzero alias emitted by the same run.
+  values.find(&:positive?) || values.first
+end
+
+def failure_issue(payload)
+  statuses = %w[status query_status].filter_map do |key|
+    value = payload[key].to_s.strip.downcase
+    value unless value.empty?
   end
+  return "source report has failure metadata" if %w[failure failed query_failed].any? { |key| payload[key] == true }
+  return "source report has failure status #{statuses.join(', ').inspect}" if (statuses & FAILURE_STATUSES).any?
+  return 'source report has failure metadata' if payload['error'].to_s.strip != ''
+
   nil
 end
 
@@ -52,6 +69,41 @@ def source_key_from_file(path)
   File.basename(path).sub(/^plan-/, '').sub(/-report\.json$/, '').sub(/\.json$/, '')
 end
 
+def report_counts(payload)
+  return [nil, false, 'report must be a JSON object'] unless payload.is_a?(Hash)
+  if (issue = failure_issue(payload))
+    return [nil, false, issue]
+  end
+
+  explicit_empty = payload['status'].to_s == 'source_empty' || payload['source_empty'] == true
+  if explicit_empty
+    reason = payload['empty_reason'].to_s.strip
+    return [nil, false, 'source-empty report requires a non-empty empty_reason'] if reason.empty?
+
+    return [{ 'total_records' => 0, 'matched' => 0, 'unmatched' => 0, 'new_candidates' => 0 }, false, nil]
+  end
+
+  matched = numeric(payload, %w[matched matched_existing_actors matched_actors updates actors_with_updates])
+  unmatched = numeric(payload, %w[unmatched unmatched_actors unmatched_reports review skipped])
+  new_candidates = numeric(payload, %w[new_candidates creates])
+  total = numeric(payload, %w[total_records total_candidates apt_records records_count record_count ioc_rows])
+  if payload['actions'].is_a?(Array)
+    actions = payload['actions'].filter_map { |action| action.is_a?(Hash) ? action['action'].to_s : action.to_s }
+    matched ||= actions.count { |action| %w[add create update updated].include?(action) }
+    unmatched ||= actions.count { |action| %w[review skip skipped unmatched].include?(action) }
+    new_candidates ||= actions.count { |action| %w[new_candidate new candidates].include?(action) }
+    total ||= actions.length
+  end
+  measurable = [matched, unmatched, new_candidates, total].any?
+  return [nil, false, 'report has no supported counters or explicit empty status'] unless measurable
+
+  unmatched ||= [total - matched - (new_candidates || 0), 0].max if total && matched
+  counts = payload.merge('matched' => matched, 'unmatched' => unmatched,
+                         'new_candidates' => new_candidates, 'total_records' => total)
+  no_op = [matched, unmatched, new_candidates, total].compact.all?(&:zero?)
+  [counts, !no_op, nil]
+end
+
 report_files = Dir.glob(File.join(options[:report_dir], 'plan-*.json')).sort
 if report_files.empty?
   puts "No plan reports found in #{options[:report_dir]}; skipping anomaly checks."
@@ -60,6 +112,7 @@ end
 
 anomalies = []
 processed = 0
+no_ops = 0
 
 report_files.each do |path|
   payload = JSON.parse(File.read(path))
@@ -68,27 +121,35 @@ report_files.each do |path|
     next
   end
 
-  source = (payload['source'] || '').to_s.strip
-  source = source_key_from_file(path) if source.empty?
+  source = source_key_from_file(path)
 
   processed += 1
   thresholds = DEFAULT_THRESHOLDS.merge(config.fetch('defaults', {})).merge(config.fetch('sources', {}).fetch(source, {}))
 
-  matched = numeric(payload, %w[matched matched_existing_actors]) || 0.0
-  unmatched = numeric(payload, %w[unmatched unmatched_actors unmatched_reports]) || 0.0
-  new_candidates = numeric(payload, %w[new_candidates]) || 0.0
-  total = numeric(payload, %w[total_records total_candidates apt_records records_count record_count]) || (matched + unmatched + new_candidates)
+  counts, metrics_applicable, shape_error = report_counts(payload)
+  if shape_error
+    anomalies << { 'source' => source, 'issues' => [shape_error], 'summary' => 'invalid report shape' }
+    next
+  end
+
+  no_ops += 1 unless metrics_applicable
+  matched = numeric(counts, %w[matched matched_existing_actors matched_actors updates actors_with_updates]) || 0.0
+  unmatched = numeric(counts, %w[unmatched unmatched_actors unmatched_reports review skipped]) || 0.0
+  new_candidates = numeric(counts, %w[new_candidates creates]) || 0.0
+  total = numeric(counts, %w[total_records total_candidates apt_records records_count record_count ioc_rows]) || (matched + unmatched + new_candidates)
   denominator = [total, matched + unmatched + new_candidates].max
   denominator = 1.0 if denominator <= 0
 
   match_ratio = matched / denominator
   unmatched_ratio = (unmatched + new_candidates) / denominator
-  alias_max = max_alias_additions(payload) || 0
+  alias_max = max_alias_additions(counts) || 0
 
   source_issues = []
-  source_issues << format('match ratio %.2f < %.2f', match_ratio, thresholds['min_match_ratio']) if match_ratio < thresholds['min_match_ratio']
-  source_issues << format('unmatched/new ratio %.2f > %.2f', unmatched_ratio, thresholds['max_unmatched_ratio']) if unmatched_ratio > thresholds['max_unmatched_ratio']
-  source_issues << format('max alias additions/actor %d > %d', alias_max, thresholds['max_alias_additions_per_actor']) if alias_max > thresholds['max_alias_additions_per_actor']
+  if metrics_applicable
+    source_issues << format('match ratio %.2f < %.2f', match_ratio, thresholds['min_match_ratio']) if match_ratio < thresholds['min_match_ratio']
+    source_issues << format('unmatched/new ratio %.2f > %.2f', unmatched_ratio, thresholds['max_unmatched_ratio']) if unmatched_ratio > thresholds['max_unmatched_ratio']
+    source_issues << format('max alias additions/actor %d > %d', alias_max, thresholds['max_alias_additions_per_actor']) if alias_max > thresholds['max_alias_additions_per_actor']
+  end
 
   next if source_issues.empty?
 
@@ -103,6 +164,7 @@ if anomalies.empty?
   checked = processed
   skipped = report_files.length - processed
   msg = "Plan threshold checks passed across #{checked} source report(s)."
+  msg += " (#{no_ops} legitimate no-op report(s))" if no_ops.positive?
   msg += " (#{skipped} non-summary reports skipped)" if skipped > 0
   puts msg
   exit 0
