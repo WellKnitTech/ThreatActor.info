@@ -91,10 +91,40 @@ class Unit42ThreatActorGroupsImporter
 
   def parse_actors_from_html(html)
     doc = Nokogiri::HTML(html)
+    structured_records = parse_structured_actor_headings(doc)
+    return normalize_records(structured_records) unless structured_records.empty?
+
     text_lines = doc.css('article p, article li, article td, article th, main p, main li, main td, main th').map { |n| n.text.strip }.reject(&:empty?)
 
     records = text_lines.flat_map { |line| extract_names_from_line(line) }
     normalize_records(records)
+  end
+
+  def parse_structured_actor_headings(doc)
+    headings = doc.css('article h3')
+    headings = doc.css('main h3') if headings.empty?
+
+    headings.filter_map do |heading|
+      name = normalize_name(heading.text)
+      next if name.empty?
+
+      aliases = []
+      in_aliases = false
+      siblings = heading.parent.children
+      siblings[(siblings.index(heading) + 1)..].each do |sibling|
+        break if sibling.element? && sibling.name == 'h3'
+
+        if sibling.element? && sibling.name == 'h4'
+          in_aliases = sibling.text.strip.casecmp?('Also Known As')
+          next
+        end
+        next unless in_aliases
+
+        aliases.concat(sibling.css('li').map(&:text))
+        aliases << sibling.text if sibling.name == 'p'
+      end
+      { 'name' => name, 'aliases' => aliases.flat_map { |value| value.split(/[\/,;]|\bor\b/i) } }
+    end
   end
 
   def extract_names_from_line(line)
