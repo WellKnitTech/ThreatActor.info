@@ -81,17 +81,26 @@ def report_counts(payload, source)
   end
 
   status = payload['status'].to_s
+  candidates = payload['candidates']
+  if candidates && (!candidates.is_a?(Array) || candidates.any? { |candidate| !candidate.is_a?(Hash) })
+    return [nil, false, 'report candidates must be an array of objects']
+  end
+  if candidates&.any? { |candidate| candidate.key?('changes') && !candidate['changes'].is_a?(Hash) }
+    return [nil, false, 'report candidate changes must be an object']
+  end
+
   failure_signal = payload['error'].to_s.strip
   failure_signal = 'unavailable' if payload['available'] == false || payload['outage'] == true || payload['authenticated'] == false
-  if %w[retryable_error fatal_error rejected quarantine quarantined error failed no_auth unauthorized unauthenticated auth_required unavailable outage].include?(status) || !failure_signal.empty?
+  if %w[retryable_error fatal_error rejected quarantine quarantined error failed no_auth no_auth_key auth_missing unauthorized unauthenticated auth_required unavailable outage source_unavailable upstream_unavailable].include?(status) || !failure_signal.empty?
     detail = status.empty? ? failure_signal : "failure status #{status.inspect}"
     return [nil, false, "source report has #{detail}"]
   end
 
   if status == 'source_empty' || payload['source_empty'] == true
-    return [{ 'total_records' => 0, 'matched' => 0, 'unmatched' => 0, 'new_candidates' => 0 }, false, nil] unless payload['empty_reason'].to_s.strip.empty?
+    reason = payload['empty_reason']
+    return [{ 'total_records' => 0, 'matched' => 0, 'unmatched' => 0, 'new_candidates' => 0 }, false, nil] if reason.is_a?(String) && !reason.strip.empty?
 
-    return [nil, false, 'source-empty report requires a non-empty empty_reason']
+    return [nil, false, 'source-empty report requires a non-empty string empty_reason']
   end
 
   [payload, true, nil]
@@ -107,7 +116,13 @@ anomalies = []
 processed = 0
 
 report_files.each do |path|
-  payload = JSON.parse(File.read(path))
+  begin
+    payload = JSON.parse(File.read(path))
+  rescue JSON::ParserError => e
+    processed += 1
+    anomalies << { 'source' => source_key_from_file(path), 'issues' => ["malformed JSON: #{e.message}"], 'summary' => 'invalid report JSON' }
+    next
+  end
   source = report_source(payload, path)
   counts, metrics_applicable, shape_error = report_counts(payload, source)
 

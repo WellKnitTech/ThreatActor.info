@@ -19,6 +19,13 @@ class ValidateImportPlansTest < Minitest::Test
     end
   end
 
+  def run_raw_validator(files)
+    Dir.mktmpdir('plan-reports') do |dir|
+      files.each { |name, content| File.write(File.join(dir, "plan-#{name}-report.json"), content) }
+      Open3.capture3('ruby', VALIDATOR, '--report-dir', dir, '--config', CONFIG)
+    end
+  end
+
   def test_ransomlook_evaluation_array_is_normalized_without_actor_thresholds
     stdout, stderr, status = run_validator(
       'ransomlook' => [
@@ -88,6 +95,15 @@ class ValidateImportPlansTest < Minitest::Test
     assert_includes stdout, 'empty_reason'
   end
 
+  def test_source_empty_reason_must_be_a_non_empty_string
+    stdout, _stderr, status = run_validator(
+      'dragos' => { 'source' => 'dragos', 'status' => 'source_empty', 'empty_reason' => [] }
+    )
+
+    refute status.success?
+    assert_includes stdout, 'non-empty string empty_reason'
+  end
+
   def test_source_failure_status_is_not_treated_as_an_empty_success
     stdout, stderr, status = run_validator(
       'ransomlook' => {
@@ -108,5 +124,31 @@ class ValidateImportPlansTest < Minitest::Test
     refute status.success?
     assert_includes stdout, 'unknown action'
     assert_includes stderr, 'Threshold violations found'
+  end
+
+  def test_malformed_candidate_is_rejected_with_source_diagnostic
+    stdout, _stderr, status = run_validator(
+      'unit42' => { 'source' => 'unit42', 'total_records' => 1, 'matched' => 1, 'candidates' => ['bad'] }
+    )
+
+    refute status.success?
+    assert_includes stdout, 'candidates must be an array of objects'
+  end
+
+  def test_malformed_json_is_rejected_with_source_diagnostic
+    stdout, _stderr, status = run_raw_validator('unit42' => '{"source":"unit42",')
+
+    refute status.success?
+    assert_includes stdout, 'unit42'
+    assert_includes stdout, 'malformed JSON'
+  end
+
+  def test_no_auth_key_status_is_not_treated_as_success
+    stdout, _stderr, status = run_validator(
+      'threatfox' => { 'source' => 'threatfox', 'status' => 'no_auth_key' }
+    )
+
+    refute status.success?
+    assert_includes stdout, 'failure status'
   end
 end
