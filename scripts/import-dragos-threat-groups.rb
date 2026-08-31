@@ -14,6 +14,7 @@ require 'yaml'
 
 require_relative 'actor_store'
 require_relative 'import_utils'
+require_relative 'snapshot_quality_gate'
 
 class DragosThreatGroupsImporter
   DEFAULT_SNAPSHOT_ROOT = 'data/imports/dragos-threat-groups'.freeze
@@ -160,6 +161,7 @@ class DragosThreatGroupsImporter
   end
 
   def plan_or_import
+    SnapshotQualityGate.validate!(@options[:snapshot], source: 'dragos')
     manifest = load_manifest
     entries = load_entries
     existing = ActorStore.load_all
