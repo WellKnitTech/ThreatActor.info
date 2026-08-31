@@ -7,6 +7,7 @@ require 'yaml'
 require_relative 'support/source_fixture_harness'
 require_relative '../scripts/import-unit42-threat-actor-groups'
 require_relative '../scripts/import-dragos-threat-groups'
+require_relative '../scripts/snapshot_quality_gate'
 
 class SourceImportFixtureContractTest < Minitest::Test
   include SourceFixtureHarness
@@ -59,6 +60,43 @@ class SourceImportFixtureContractTest < Minitest::Test
       records = importer.send(:parse_actors, document, pages)
       assert_contract self, 'dragos', 'canonical', contract('dragos', records, pages.length)
       assert_equal ['APT29', 'Bronze Butler'], records.map { |row| row['name'] }
+    end
+  end
+
+  def test_dragos_fetch_classifies_upstream_empty_catalog_in_manifest
+    root_html = html('dragos', 'empty')
+    importer_class = Class.new(DragosThreatGroupsImporter) do
+      define_method(:http_get) { |_url| root_html }
+    end
+
+    Dir.mktmpdir('dragos-empty-fetch') do |tmpdir|
+      importer = importer_class.new([])
+      importer.instance_variable_set(:@options, { output: tmpdir })
+      importer.send(:fetch_snapshot)
+
+      manifest = YAML.safe_load(File.read(File.join(tmpdir, 'manifest.yml')))
+      assert_equal true, manifest['source_empty']
+      refute_empty manifest['empty_reason'].to_s.strip
+      assert_equal 'source_empty', SnapshotQualityGate.validate!(tmpdir, source: 'dragos')['classification']
+    end
+  end
+
+  def test_dragos_fetch_does_not_classify_parser_failure_as_source_empty
+    root_html = html('dragos', 'malformed')
+    importer_class = Class.new(DragosThreatGroupsImporter) do
+      define_method(:http_get) { |url| url == DragosThreatGroupsImporter::SOURCE_URL ? root_html : '<html></html>' }
+      define_method(:parse_actors) { |_root_doc, _pages| [] }
+    end
+
+    Dir.mktmpdir('dragos-parser-failure') do |tmpdir|
+      importer = importer_class.new([])
+      importer.instance_variable_set(:@options, { output: tmpdir })
+      importer.send(:fetch_snapshot)
+
+      manifest = YAML.safe_load(File.read(File.join(tmpdir, 'manifest.yml')))
+      refute manifest.key?('source_empty')
+      error = assert_raises(SnapshotQualityGate::Rejected) { SnapshotQualityGate.validate!(tmpdir, source: 'dragos') }
+      assert_equal 'parser_empty', error.diagnostics['classification']
     end
   end
 

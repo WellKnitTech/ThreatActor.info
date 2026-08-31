@@ -21,6 +21,7 @@ class DragosThreatGroupsImporter
   SOURCE_NAME = 'Dragos Threat Groups'.freeze
   SOURCE_URL = 'https://www.dragos.com/threat-groups'.freeze
   SOURCE_ATTRIBUTION = 'Aliases were reviewed from the Dragos threat-groups catalog and preserved with source provenance.'.freeze
+  EMPTY_SOURCE_REASON = 'upstream catalog contains no threat-group profiles'.freeze
 
   def initialize(argv)
     @argv = argv.dup
@@ -106,6 +107,10 @@ class DragosThreatGroupsImporter
       'record_count' => actors.length,
       'detail_pages' => pages
     }
+    if actors.empty? && links.empty?
+      manifest['source_empty'] = true
+      manifest['empty_reason'] = EMPTY_SOURCE_REASON
+    end
     File.write(File.join(@options[:output], 'manifest.yml'), YAML.dump(manifest))
     puts "Wrote snapshot to #{@options[:output]} (#{actors.length} parsed records, #{pages.length} detail pages)"
   end
