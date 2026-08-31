@@ -63,6 +63,39 @@ class SourceImportFixtureContractTest < Minitest::Test
     end
   end
 
+  def test_dragos_changed_layout_discovers_threat_profile_links
+    importer = DragosThreatGroupsImporter.new([])
+    document = Nokogiri::HTML(html('dragos', 'changed-layout'))
+
+    links = importer.send(:extract_profile_links, document)
+    assert_equal ['https://www.dragos.com/threat/apt29'], links
+
+    records = importer.send(:parse_actors, document, [])
+    assert_equal ['APT29'], records.map { |row| row['name'] }
+    assert_equal ['https://www.dragos.com/threat/apt29'], records.first['source_urls']
+  end
+
+  def test_dragos_fetch_writes_nonempty_manifest_for_threat_profile_layout
+    Dir.mktmpdir('dragos-fetch') do |tmpdir|
+      importer = DragosThreatGroupsImporter.new([])
+      importer.instance_variable_set(:@options, { output: tmpdir })
+      root = html('dragos', 'changed-layout')
+      detail = html('dragos', 'changed-layout', 'pages/apt29.html')
+      importer.define_singleton_method(:http_get) do |url|
+        url.end_with?('/apt29') ? detail : root
+      end
+
+      importer.send(:fetch_snapshot)
+      manifest = YAML.safe_load(File.read(File.join(tmpdir, 'manifest.yml')))
+      records = JSON.parse(File.read(File.join(tmpdir, 'actors.json')))
+
+      assert_equal false, manifest['source_empty']
+      assert_equal 1, manifest['record_count']
+      assert_equal 1, records.length
+      assert_equal 'APT29', records.first['name']
+    end
+  end
+
   def test_dragos_fetch_classifies_upstream_empty_catalog_in_manifest
     root_html = html('dragos', 'empty')
     importer_class = Class.new(DragosThreatGroupsImporter) do
@@ -81,8 +114,8 @@ class SourceImportFixtureContractTest < Minitest::Test
     end
   end
 
-  def test_dragos_changed_layout_and_blocked_responses_are_quarantined
-    %w[changed-layout blocked].each do |case_name|
+  def test_dragos_blocked_responses_are_quarantined
+    %w[blocked].each do |case_name|
       root_html = html('dragos', case_name)
       importer_class = Class.new(DragosThreatGroupsImporter) do
         define_method(:http_get) { |url| url == DragosThreatGroupsImporter::SOURCE_URL ? root_html : '<html></html>' }
@@ -113,7 +146,7 @@ class SourceImportFixtureContractTest < Minitest::Test
       importer.send(:fetch_snapshot)
 
       manifest = YAML.safe_load(File.read(File.join(tmpdir, 'manifest.yml')))
-      refute manifest.key?('source_empty')
+      assert_equal false, manifest['source_empty']
       error = assert_raises(SnapshotQualityGate::Rejected) { SnapshotQualityGate.validate!(tmpdir, source: 'dragos') }
       assert_equal 'parser_empty', error.diagnostics['classification']
     end

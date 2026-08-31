@@ -104,6 +104,9 @@ class DragosThreatGroupsImporter
       'source_url' => SOURCE_URL,
       'retrieved_at' => Time.now.utc.iso8601,
       'source_checksum_sha256' => Digest::SHA256.hexdigest(root_html),
+      # An empty result is never inferred as a valid catalog.  The quality gate
+      # requires an explicit, evidence-backed source_empty classification.
+      'source_empty' => false,
       'detail_page_count' => pages.length,
       'record_count' => actors.length,
       'detail_pages' => pages
@@ -119,12 +122,11 @@ class DragosThreatGroupsImporter
   def extract_profile_links(doc)
     hrefs = doc.css('a[href]').map { |a| a['href'] }.compact
     hrefs.filter_map do |href|
-      next unless href.include?('/threat-groups/')
+      next unless profile_link?(href)
 
       absolute = URI.join(SOURCE_URL + '/', href).to_s
       uri = URI.parse(absolute)
       next unless uri.host == URI.parse(SOURCE_URL).host
-      next if uri.path == '/threat-groups' || uri.path == '/threat-groups/'
 
       absolute
     rescue URI::InvalidURIError
@@ -144,7 +146,7 @@ class DragosThreatGroupsImporter
       href = link['href'].to_s
       text = normalize_name(link.text)
       next if text.empty? || href.empty?
-      next unless href.include?('/threat-groups/')
+      next unless profile_link?(href)
 
       rows << { 'name' => text, 'source_url' => URI.join(SOURCE_URL + '/', href).to_s }
     end
@@ -170,6 +172,17 @@ class DragosThreatGroupsImporter
 
   def normalize_name(value)
     value.to_s.gsub(/[\u2018\u2019]/, "'").gsub(/[\u201C\u201D]/, '"').gsub(/\s+/, ' ').strip
+  end
+
+  def profile_link?(href)
+    uri = URI.parse(URI.join(SOURCE_URL + '/', href).to_s)
+    return false unless uri.host == URI.parse(SOURCE_URL).host
+
+    ['/threat-groups/', '/threat/'].any? do |prefix|
+      uri.path.start_with?(prefix) && uri.path.length > prefix.length
+    end
+  rescue URI::InvalidURIError
+    false
   end
 
   def plan_or_import
