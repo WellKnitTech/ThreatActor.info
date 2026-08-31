@@ -1,12 +1,14 @@
 # frozen_string_literal: true
 
 require 'minitest/autorun'
+require 'digest'
 require 'nokogiri'
 require 'tmpdir'
 require 'yaml'
 require_relative 'support/source_fixture_harness'
 require_relative '../scripts/import-unit42-threat-actor-groups'
 require_relative '../scripts/import-dragos-threat-groups'
+require_relative '../scripts/snapshot_quality_gate'
 
 class SourceImportFixtureContractTest < Minitest::Test
   include SourceFixtureHarness
@@ -34,6 +36,24 @@ class SourceImportFixtureContractTest < Minitest::Test
     assert_equal 'accepted', expected_contract['status']
     assert_equal 2, expected_contract.dig('counts', 'records')
     assert_equal 'Palo Alto Networks Unit 42 Threat Actor Groups', expected_contract.dig('provenance', 'source_name')
+  end
+
+  def test_unit42_changed_layout_uses_headings_and_passes_quality_gate
+    importer = Unit42ThreatActorGroupsImporter.new([])
+    records = importer.send(:parse_actors_from_html, html('unit42', 'changed-layout'))
+
+    assert_equal %w[APT29 Cozy\ Bear Tick], records.flat_map { |row| row['aliases'] }.sort
+    assert_equal ['Bronze Butler', 'SilverTerrier'], records.map { |row| row['name'] }
+
+    Dir.mktmpdir('unit42-quality-gate') do |snapshot_dir|
+      File.write(File.join(snapshot_dir, 'page.html'), html('unit42', 'changed-layout'))
+      File.write(File.join(snapshot_dir, 'actors.json'), JSON.generate(records))
+      File.write(File.join(snapshot_dir, 'manifest.yml'), YAML.dump(
+        'source_checksum_sha256' => Digest::SHA256.hexdigest(html('unit42', 'changed-layout'))
+      ))
+      result = SnapshotQualityGate.validate!(snapshot_dir, source: 'unit42')
+      assert_equal 'accepted', result['status']
+    end
   end
 
   def test_unit42_empty_and_malformed_snapshots_quarantine
