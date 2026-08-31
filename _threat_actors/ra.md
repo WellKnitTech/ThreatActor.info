@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Woman claims her stepfather used Grok to transform childhood photo into explicit imagery](https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/)
-  TechCrunch - 2026-08-15T
-- [Every fusion startup that has raised over $100M](https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/)
-  TechCrunch - 2026-08-15T
-- [6 Best Apple Watch Accessories to Upgrade Your Watch (2026)](https://www.wired.com/story/best-apple-watch-accessories/)
-  Wired - 2026-08-15T
-- [Instapaper, the Original Read-It-Later App, Just Got a Huge Upgrade](https://www.wired.com/story/instapaper-the-original-read-it-later-app-just-got-a-huge-upgrade/)
-  Wired - 2026-08-15T
-- [New Evooo1Bot Linux botnet turns routers into traffic relay nodes](https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/)
-  BleepingComputer - 2026-08-15T
+- [Anthropic warns infostealer malware is hijacking Claude sessions to drain usage](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/)
+  BleepingComputer - 2026-08-30T
+- [Why the Hottest New Wearables Want to Be Ignored](https://www.wired.com/story/why-the-hottest-new-wearables-want-to-be-ignored/)
+  Wired - 2026-08-30T
+- [Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft](https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/)
+  TechCrunch - 2026-08-29T
+- [Hollywood celebs are getting into microdrama apps](https://techcrunch.com/2026/08/29/hollywood-celebs-are-getting-into-microdrama-apps/)
+  TechCrunch - 2026-08-29T
+- [The Theragun Sense makes everyday recovery surprisingly easy](https://techcrunch.com/2026/08/29/the-theragun-sense-makes-everyday-recovery-surprisingly-easy/)
+  TechCrunch - 2026-08-29T
 

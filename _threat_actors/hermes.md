@@ -31,3 +31,9 @@ Hermes is a ransomware family first observed in the wild in February 2017, belie
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Claude, Codex, and Hermes installed unowned code inside corporate networks](https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/)
+  Ars Technica - 2026-08-27T
+

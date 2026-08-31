@@ -186,6 +186,40 @@ layout: default
         </dl>
       </section>
       {% endif %}
+
+      {% assign ocd_ecosystem = site.data.generated.ocd_ransomware_ecosystem %}
+      {% assign ocd_actor_digest = ocd_ecosystem.actors[actor_page_slug] %}
+      {% if ocd_actor_digest %}
+      {% if ocd_actor_digest.relationships.size > 0 or ocd_actor_digest.events.size > 0 or ocd_actor_digest.mentions.size > 0 %}
+      <section class="ocd-ecosystem-panel" aria-labelledby="ocd-ecosystem-heading">
+        <div class="ocd-ecosystem-kicker">Secondary map context · v{{ ocd_ecosystem.provenance.ocd_ransomware_map.map_version }}</div>
+        <h2 id="ocd-ecosystem-heading">Ransomware ecosystem context</h2>
+        <p class="panel-lead">Orange Cyberdefense CERT World Watch presents the following accepted derived records for this actor. They are not independent confirmation.</p>
+        {% if ocd_actor_digest.relationships.size > 0 %}
+        <div class="ocd-record-list">
+          {% for relationship in ocd_actor_digest.relationships %}
+          <article class="ocd-record">
+            <div class="ocd-record-heading"><strong>{{ relationship.rel_type | replace: '_', ' ' }}</strong><span class="ocd-badge confidence-{{ relationship.confidence }}">{{ relationship.confidence }} confidence</span><span class="ocd-badge review-{{ relationship.review_status }}">{{ relationship.review_status | replace: '_', ' ' }}</span></div>
+            <p>{{ relationship.src_ref.display_name }} <span class="ocd-entity-type">{{ relationship.src_ref.entity_type | replace: '_', ' ' }}</span> → {{ relationship.dst_ref.display_name }} <span class="ocd-entity-type">{{ relationship.dst_ref.entity_type | replace: '_', ' ' }}</span></p>
+            {% if relationship.uncertainty_label %}<p class="ocd-uncertainty">Uncertainty: {{ relationship.uncertainty_label | replace: '_', ' ' }}</p>{% endif %}
+            <small>Source v{{ ocd_ecosystem.provenance.ocd_ransomware_map.map_version }} · {{ ocd_ecosystem.provenance.ocd_ransomware_map.retrieved_at | date: "%b %-d, %Y" }} · {% if relationship.evidence.citation_url contains 'https://github.com/cert-orangecyberdefense/ransomware_map/' %}<a href="{{ relationship.evidence.citation_url }}" rel="noopener">pinned reference</a>{% else %}pinned reference{% endif %}</small>
+          </article>
+          {% endfor %}
+        </div>
+        {% endif %}
+        {% if ocd_actor_digest.events.size > 0 %}
+        <h3>Timeline signals</h3>
+        <ol class="ocd-timeline-list">
+          {% for event in ocd_actor_digest.events %}
+          <li><time>{{ event.when.text }}</time><span><strong>{{ event.event_type | replace: '_', ' ' }}</strong> <span class="ocd-badge confidence-{{ event.confidence }}">{{ event.confidence }} confidence</span><br>{{ event.uncertainty_label | replace: '_', ' ' }} · {% if event.evidence.citation_url contains 'https://github.com/cert-orangecyberdefense/ransomware_map/' %}<a href="{{ event.evidence.citation_url }}" rel="noopener">source</a>{% else %}source{% endif %}</span></li>
+          {% endfor %}
+        </ol>
+        {% endif %}
+        {% if ocd_actor_digest.mentions.size > 0 %}<p class="ocd-coverage"><strong>Map coverage:</strong> named in the pinned map; a mention is not an attribution claim.</p>{% endif %}
+        <p class="ocd-disclaimer">Non-exhaustive secondary reference. Aliases are editorial and attribution can be uncertain. Publisher: Orange Cyberdefense CERT World Watch; all rights reserved. {% if ocd_ecosystem.provenance.ocd_ransomware_map.artifact_url contains 'https://github.com/cert-orangecyberdefense/ransomware_map/' %}<a href="{{ ocd_ecosystem.provenance.ocd_ransomware_map.artifact_url }}" rel="noopener">View pinned upstream reference</a>{% else %}Pinned upstream reference unavailable{% endif %}.</p>
+      </section>
+      {% endif %}
+      {% endif %}
     </div>
 
     <div class="content">

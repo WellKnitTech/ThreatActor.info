@@ -33,6 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access](https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html)
-  The Hacker News - 2026-08-12T
+- [AI Is Accelerating Vulnerability Discovery. Can Defenders Keep Up?](https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up/)
+  BleepingComputer - 2026-08-28T
 

@@ -33,8 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Auk Mini 2 Indoor Smart Garden Review: Better Where It Counts](https://www.wired.com/review/auk-mini-2-indoor-smart-garden/)
-  Wired - 2026-08-15T
-- [Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition](https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition)
-  DarkReading - 2026-08-12T
+- [Caterpillar is bringing to AI deployment what it learned from automating mining](https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/)
+  TechCrunch - 2026-08-30T
 

@@ -61,9 +61,3 @@ This threat actor targets industrial control systems, using a tool called Black 
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands](https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html)
-  The Hacker News - 2026-08-12T
-

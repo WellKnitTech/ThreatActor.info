@@ -30,3 +30,9 @@ Rebrand of RALord
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- ['NovaCookies' Kit Steals Microsoft 365 Sessions for $320 a Month](https://www.darkreading.com/endpoint-security/novacookies-steals-microsoft-365-sessions-320-a-month)
+  DarkReading - 2026-08-26T
+

@@ -30,3 +30,9 @@ Ransomware decryptionservice@mail.ru recoveryhelp@bk.ru ransomware.attack@list.r
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [The Cybersecurity Apocalypse Is Coming in ‘Months,’ AI Giants Warn](https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn/)
+  Wired - 2026-08-29T
+

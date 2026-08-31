@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Woman claims her stepfather used Grok to transform childhood photo into explicit imagery](https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/)
-  TechCrunch - 2026-08-15T
-- [Anthropic shares more details about how Claude’s new watermarks will work](https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/)
-  TechCrunch - 2026-08-15T
-- [SpaceX officially closes its Cursor acquisition](https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/)
-  TechCrunch - 2026-08-15T
-- [How to tell if your AI platforms’ accounts have been hacked](https://techcrunch.com/2026/08/15/how-to-tell-if-your-ai-platforms-accounts-have-been-hacked/)
-  TechCrunch - 2026-08-15T
-- [Every fusion startup that has raised over $100M](https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/)
-  TechCrunch - 2026-08-15T
+- [The U.S. is building barriers around drones and robots, but China has scale to get around them](https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/)
+  TechCrunch - 2026-08-31T
+- [Grindr wants to be the everything app for gay men; investors are still deciding whether it can pull it off](https://techcrunch.com/2026/08/30/grindr-wants-to-be-the-everything-app-for-gay-men-investors-are-still-deciding-whether-it-can-pull-it-off/)
+  TechCrunch - 2026-08-31T
+- [Liux’s Big microcar bets on sustainability to take on Chinese rivals](https://techcrunch.com/2026/08/30/liuxs-big-microcar-bets-on-sustainability-to-take-on-chinese-rivals/)
+  TechCrunch - 2026-08-30T
+- [Musk’s faster path to more gas turbines comes with pollution problem](https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/)
+  TechCrunch - 2026-08-30T
+- [Google Maps Now Shows ‘Lake America’ Instead of Lake Ontario](https://www.wired.com/story/google-maps-now-shows-lake-america-instead-of-lake-ontario/)
+  Wired - 2026-08-30T
 

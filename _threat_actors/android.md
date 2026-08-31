@@ -33,6 +33,8 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing](https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html)
-  The Hacker News - 2026-08-12T
+- [Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers](https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html)
+  The Hacker News - 2026-08-28T
+- [Android Malware Hijacks Update System for Car Head Units](https://www.darkreading.com/cyberattacks-data-breaches/android-malware-hijacks-update-system-car-head-units)
+  DarkReading - 2026-08-26T
 

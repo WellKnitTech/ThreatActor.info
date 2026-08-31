@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents](https://blog.cloudflare.com/botbase-for-operators/)
+  Cloudflare - 2026-08-28T
+

@@ -33,6 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [New Evooo1Bot Linux botnet turns routers into traffic relay nodes](https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/)
-  BleepingComputer - 2026-08-15T
+- [Anthropic warns infostealer malware is hijacking Claude sessions to drain usage](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/)
+  BleepingComputer - 2026-08-30T
+- [ServiceNow warns of three max severity security vulnerabilities](https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/)
+  BleepingComputer - 2026-08-28T
+- [Agentic AI Risks, CVE Program Concerns Permeate Black Hat USA 2026](https://www.darkreading.com/cybersecurity-operations/agentic-ai-risks-cve-program-concerns-black-hat-usa-2026)
+  DarkReading - 2026-08-27T
 

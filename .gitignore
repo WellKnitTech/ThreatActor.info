@@ -84,4 +84,8 @@ vendor/
 # MITRE Enterprise bundle cache (downloaded by scripts/generate-indexes.rb when no snapshot exists)
 /data/mitre-cache/
 
+!data/imports/ocd-ransomware-map/
+data/imports/ocd-ransomware-map/*
+!data/imports/ocd-ransomware-map/mapping_overrides.yml
+!data/imports/ocd-ransomware-map/accepted.yml
 !data/imports/source_freshness.yml

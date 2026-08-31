@@ -30,3 +30,9 @@ Core ransomware surfaced in early 2025 as a new variant within the broader Makop
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Soundcore Liberty 5 Pro Review: Master of Phone Calls](https://www.wired.com/review/soundcore-liberty-5-pro/)
+  Wired - 2026-08-29T
+

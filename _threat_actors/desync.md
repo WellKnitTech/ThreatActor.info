@@ -30,3 +30,9 @@ This crypto ransomware encrypts enterprise LAN data with AES (ECB mode), and the
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- ['HTTP Terminator' Hunts for Novel Desync Attacks](https://www.darkreading.com/application-security/http-terminator-hunts-novel-desync-attacks)
+  DarkReading - 2026-08-26T
+

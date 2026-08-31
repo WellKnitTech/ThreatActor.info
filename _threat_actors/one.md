@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Does Mark Zuckerberg really believe AI is ‘for everyone’?](https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/)
-  TechCrunch - 2026-08-14T
-- [Secure all your internal vibe-coded applications — in one click](https://blog.cloudflare.com/workers-protected-by-access/)
-  Cloudflare - 2026-08-14T
-- [Hackers exploit macOS Screen Sharing flaw to deploy Monero miner](https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/)
-  BleepingComputer - 2026-08-14T
-- [AI 'watermark removers' flood the web. Almost none can prove they work.](https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work/)
-  BleepingComputer - 2026-08-13T
-- [737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One](https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html)
-  The Hacker News - 2026-08-12T
+- [The U.S. is building barriers around drones and robots, but China has scale to get around them](https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/)
+  TechCrunch - 2026-08-31T
+- [Soundcore Liberty 5 Pro Review: Master of Phone Calls](https://www.wired.com/review/soundcore-liberty-5-pro/)
+  Wired - 2026-08-29T
+- [Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth](https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html)
+  The Hacker News - 2026-08-28T
+- [Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server](https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html)
+  The Hacker News - 2026-08-28T
+- [68-year-old imprisoned after making $1.3 million by pirating IPTV services](https://www.bleepingcomputer.com/news/security/68-year-old-imprisoned-after-making-13-million-by-pirating-iptv-services/)
+  BleepingComputer - 2026-08-28T
 

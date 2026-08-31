@@ -44,6 +44,6 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Private security firms will soon be allowed to hack overseas cybercriminals](https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/)
-  Ars Technica - 2026-08-13T
+- [ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body](https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html)
+  The Hacker News - 2026-08-28T
 

@@ -37,3 +37,9 @@ BERT ransomware (also tracked as Water Pombero) first emerged in April 2025, rap
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Soundcore Liberty 5 Pro Review: Master of Phone Calls](https://www.wired.com/review/soundcore-liberty-5-pro/)
+  Wired - 2026-08-29T
+

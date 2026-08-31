@@ -30,3 +30,9 @@ Lambda is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Neocloud Lambda secures $1B in debt to buy more chips](https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/)
+  TechCrunch - 2026-08-28T
+

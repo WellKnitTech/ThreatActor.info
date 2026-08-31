@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Nvidia CEO Jensen Huang Took a Call From Donald Trump in the Middle of an All-Hands](https://www.wired.com/story/nvidia-ceo-jensen-huang-took-a-call-from-donald-trump-in-the-middle-of-an-all-hands/)
+  Wired - 2026-08-28T
+

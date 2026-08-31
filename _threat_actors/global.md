@@ -30,11 +30,3 @@ Not a RaaS yet.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Mission-Driven Security: Inside a Global Bank's Defense](https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense)
-  DarkReading - 2026-08-14T
-- [Global Threat Campaign Hits Critical VMware vCenter Flaw](https://www.darkreading.com/vulnerabilities-threats/global-threat-campaign-critical-vmware-vcenter-flaw)
-  DarkReading - 2026-08-13T
-
