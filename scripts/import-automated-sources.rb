@@ -5,6 +5,7 @@
 # _threat_actors, _data/generated, api, and _malware when touched. See docs/keeping-actor-pages-current.md.
 
 require 'fileutils'
+require 'json'
 require 'open3'
 require 'optparse'
 require 'time'
@@ -376,6 +377,17 @@ def import_source(source, snapshot, options)
   run_command(command)
 end
 
+def write_failure_report(options, source, phase, error)
+  path = report_path(options, source, "failure-#{phase}")
+  File.write(path, JSON.generate(
+    'source' => source.key,
+    'status' => 'failed',
+    'phase' => phase,
+    'error' => error.message,
+    'error_class' => error.class.name
+  ))
+end
+
 def validate_plan_reports(options)
   command = ['ruby', 'scripts/validate-import-plans.rb', '--report-dir', options[:report_dir], '--config', 'data/imports/plan_thresholds.yml']
   command << '--allow-anomalies' if options[:allow_plan_anomalies]
@@ -411,6 +423,7 @@ selected.each do |source|
     fetch_source(source, snapshot, options) if options[:fetch]
     plan_source(source, snapshot, options) if options[:plan]
   rescue StandardError => e
+    write_failure_report(options, source, options[:fetch] ? 'fetch' : 'plan', e)
     failures << "#{source.key}: #{e.message}"
     raise unless options[:continue_on_error]
 
@@ -426,6 +439,7 @@ if options[:apply] && (failures.empty? || options[:continue_on_error])
     begin
       import_source(source, snapshot, options)
     rescue StandardError => e
+      write_failure_report(options, source, 'import', e)
       failures << "#{source.key}: #{e.message}"
       raise unless options[:continue_on_error]
 
