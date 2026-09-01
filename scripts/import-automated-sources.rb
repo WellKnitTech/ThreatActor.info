@@ -5,6 +5,7 @@
 # _threat_actors, _data/generated, api, and _malware when touched. See docs/keeping-actor-pages-current.md.
 
 require 'fileutils'
+require 'json'
 require 'open3'
 require 'optparse'
 require 'set'
@@ -276,7 +277,8 @@ options = {
   report_dir: 'tmp/import-reports',
   limit: nil,
   continue_on_error: false,
-  allow_plan_anomalies: false
+  allow_plan_anomalies: false,
+  metrics_json: nil
 }
 
 parser = OptionParser.new do |opts|
@@ -306,6 +308,7 @@ See docs/keeping-actor-pages-current.md.'
   opts.on('--limit N', Integer, 'Pass a record limit to source fetchers that support it') { |value| options[:limit] = value }
   opts.on('--continue-on-error', 'Continue with later sources after a failure') { options[:continue_on_error] = true }
   opts.on('--allow-plan-anomalies', 'Proceed with --apply even if plan threshold checks fail') { options[:allow_plan_anomalies] = true }
+  opts.on('--metrics-json PATH', 'Write phase timing and payload metrics to PATH') { |value| options[:metrics_json] = value }
   opts.on('--list-sources', 'List automated sources and exit') do
     SOURCES.each { |source| puts "#{source.key}\t#{source.label}" }
     puts "attack\t(alias for mitre-attack)"
@@ -340,11 +343,22 @@ def selected_sources(options)
   selected
 end
 
-def run_command(command)
+def run_command(command, metrics:, phase:, source_key: nil)
+  started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
   puts "\n---"
   puts "\u2192 #{command.join(' ')}"
   puts '---'
   stdout, stderr, status = Open3.capture3(*command)
+  metrics << {
+    'phase' => phase,
+    'source' => source_key,
+    'command' => command,
+    'duration_ms' => ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - started) * 1000).round(1),
+    'exit_code' => status.exitstatus,
+    'stdout_bytes' => stdout.bytesize,
+    'stderr_bytes' => stderr.bytesize,
+    'bundle_exec' => command[0, 3] == ['bundle', 'exec', 'ruby']
+  }
   puts stdout unless stdout.empty?
   warn stderr unless stderr.empty?
   return if status.success?
@@ -361,45 +375,78 @@ def report_path(options, source, mode)
   File.join(options[:report_dir], "#{mode}-#{source.report_name}")
 end
 
-def fetch_source(source, snapshot, options)
+def fetch_source(source, snapshot, options, metrics)
   command = ['bundle', 'exec', 'ruby', source.script, 'fetch', '--output', snapshot]
   command += Array(source.fetch_args)
   command += ['--limit', options[:limit].to_s] if options[:limit] && source.fetch_limit
-  run_command(command)
+  run_command(command, metrics: metrics, phase: 'fetch', source_key: source.key)
 end
 
-def plan_source(source, snapshot, options)
+def plan_source(source, snapshot, options, metrics)
   quality_source = {
     'dragos-threat-groups' => 'dragos',
     'unit42-threat-actor-groups' => 'unit42'
   }[source.key]
   if quality_source
+    started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
     SnapshotQualityGate.validate!(snapshot, source: quality_source,
                                   report_path: File.join(options[:report_dir], "quality-#{source.key}.json"))
+    metrics << { 'phase' => 'validation', 'source' => source.key,
+                 'duration_ms' => ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - started) * 1000).round(1),
+                 'snapshot_bytes' => snapshot_bytes(snapshot) }
   end
   command = ['bundle', 'exec', 'ruby', source.script, 'plan', '--snapshot', snapshot, '--report-json', report_path(options, source, 'plan')]
-  run_command(command)
+  run_command(command, metrics: metrics, phase: 'plan', source_key: source.key)
 end
 
-def import_source(source, snapshot, options)
+def import_source(source, snapshot, options, metrics)
   command = ['bundle', 'exec', 'ruby', source.script, 'import', '--snapshot', snapshot, '--report-json', report_path(options, source, 'import')]
-  run_command(command)
+  run_command(command, metrics: metrics, phase: 'import', source_key: source.key)
 end
 
-def validate_plan_reports(options)
+def validate_plan_reports(options, metrics)
   command = ['ruby', 'scripts/validate-import-plans.rb', '--report-dir', options[:report_dir], '--config', 'data/imports/plan_thresholds.yml']
   command << '--allow-anomalies' if options[:allow_plan_anomalies]
-  run_command(command)
+  run_command(command, metrics: metrics, phase: 'validation')
 end
 
-def regenerate_outputs
-  run_command(['ruby', 'scripts/generate-pages.rb', '--force'])
-  run_command(['ruby', 'scripts/generate-indexes.rb'])
-  run_command(['ruby', 'scripts/validate-content.rb'])
+def regenerate_outputs(metrics)
+  run_command(['ruby', 'scripts/generate-pages.rb', '--force'], metrics: metrics, phase: 'regeneration')
+  run_command(['ruby', 'scripts/generate-indexes.rb'], metrics: metrics, phase: 'regeneration')
+  run_command(['ruby', 'scripts/validate-content.rb'], metrics: metrics, phase: 'regeneration')
+end
+
+def snapshot_bytes(path)
+  return 0 unless File.exist?(path)
+  return File.size(path) unless File.directory?(path)
+  Dir[File.join(path, '**', '*')].select { |entry| File.file?(entry) }.sum { |entry| File.size(entry) }
+end
+
+def write_metrics(path, metrics, started, date)
+  return unless path
+
+  payload = {
+    'schema_version' => 1,
+    'started_at' => Time.now.utc.iso8601,
+    'duration_ms' => ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - started) * 1000).round(1),
+    # The workflow retries the whole process; source-level retries are zero here.
+    'retries' => 0,
+    # Subprocess instrumentation cannot observe HTTP clients inside importers.
+    'request_count' => nil,
+    'events' => metrics.map do |event|
+      source = SOURCES.find { |candidate| candidate.key == event['source'] }
+      source ? event.merge('snapshot_bytes' => snapshot_bytes(snapshot_path(source, date))) : event
+    end
+  }
+  FileUtils.mkdir_p(File.dirname(path))
+  File.write(path, JSON.pretty_generate(payload))
 end
 
 failures = []
 failed_sources = Set.new
+metrics = []
+run_started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+at_exit { write_metrics(options[:metrics_json], metrics, run_started, options[:date]) }
 
 # Clean any stale plan/import reports from previous runs so we never mix
 # report shapes (e.g. ransomlook's old array reports with normal object summaries).
@@ -419,8 +466,8 @@ selected.each do |source|
   puts "\n== #{source.label} =="
 
   begin
-    fetch_source(source, snapshot, options) if options[:fetch]
-    plan_source(source, snapshot, options) if options[:plan]
+    fetch_source(source, snapshot, options, metrics) if options[:fetch]
+    plan_source(source, snapshot, options, metrics) if options[:plan]
   rescue StandardError => e
     failures << "#{source.key}: #{e.message}"
     failed_sources << source.key
@@ -430,13 +477,13 @@ selected.each do |source|
   end
 end
 
-validate_plan_reports(options) if options[:apply] && options[:plan] && (failures.empty? || options[:continue_on_error])
+validate_plan_reports(options, metrics) if options[:apply] && options[:plan] && (failures.empty? || options[:continue_on_error])
 
 if options[:apply] && (failures.empty? || options[:continue_on_error])
   selected.reject { |source| failed_sources.include?(source.key) }.each do |source|
     snapshot = snapshot_path(source, options[:date])
     begin
-      import_source(source, snapshot, options)
+      import_source(source, snapshot, options, metrics)
     rescue StandardError => e
       failures << "#{source.key}: #{e.message}"
       raise unless options[:continue_on_error]
@@ -446,7 +493,7 @@ if options[:apply] && (failures.empty? || options[:continue_on_error])
   end
 end
 
-regenerate_outputs if options[:apply] && options[:regenerate] && (failures.empty? || options[:continue_on_error])
+regenerate_outputs(metrics) if options[:apply] && options[:regenerate] && (failures.empty? || options[:continue_on_error])
 
 unless failures.empty?
   warn "\nImport run completed with failures:"

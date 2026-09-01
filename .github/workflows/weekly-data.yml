@@ -65,7 +65,7 @@ jobs:
         run: |
           set -u
           mkdir -p "$IMPORT_REPORT_DIR" "$FAILURE_DIAGNOSTICS_DIR" data/imports
-          args=(--report-dir "$IMPORT_REPORT_DIR" --date "$(date -u +%F)")
+          args=(--report-dir "$IMPORT_REPORT_DIR" --metrics-json "$IMPORT_REPORT_DIR/performance-metrics.json" --date "$(date -u +%F)")
           if [[ -n "$REQUESTED_SOURCE" ]]; then
             args+=(--source "$REQUESTED_SOURCE")
           fi

@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-09-01T13:25:32Z",
+  "duration_ms": 6862.6,
+  "retries": 0,
+  "request_count": null,
+  "events": [
+    {
+      "phase": "fetch",
+      "source": "mitre-attack",
+      "command": [
+        "bundle",
+        "exec",
+        "ruby",
+        "scripts/import-mitre.rb",
+        "fetch",
+        "--output",
+        "data/imports/mitre-attack/2026-09-01"
+      ],
+      "duration_ms": 1558.2,
+      "exit_code": 0,
+      "stdout_bytes": 456,
+      "stderr_bytes": 4912,
+      "bundle_exec": true,
+      "snapshot_bytes": 63644456
+    },
+    {
+      "phase": "plan",
+      "source": "mitre-attack",
+      "command": [
+        "bundle",
+        "exec",
+        "ruby",
+        "scripts/import-mitre.rb",
+        "plan",
+        "--snapshot",
+        "data/imports/mitre-attack/2026-09-01",
+        "--report-json",
+        "tmp/baseline-reports-2/plan-mitre-attack-report.json"
+      ],
+      "duration_ms": 1496.3,
+      "exit_code": 0,
+      "stdout_bytes": 391,
+      "stderr_bytes": 4912,
+      "bundle_exec": true,
+      "snapshot_bytes": 63644456
+    },
+    {
+      "phase": "fetch",
+      "source": "wiz-cloud-threat-landscape",
+      "command": [
+        "bundle",
+        "exec",
+        "ruby",
+        "scripts/import-wiz-cloud-threat-landscape.rb",
+        "fetch",
+        "--output",
+        "data/imports/wiz-cloud-threat-landscape/2026-09-01"
+      ],
+      "duration_ms": 624.9,
+      "exit_code": 0,
+      "stdout_bytes": 69,
+      "stderr_bytes": 4912,
+      "bundle_exec": true,
+      "snapshot_bytes": 994958
+    },
+    {
+      "phase": "plan",
+      "source": "wiz-cloud-threat-landscape",
+      "command": [
+        "bundle",
+        "exec",
+        "ruby",
+        "scripts/import-wiz-cloud-threat-landscape.rb",
+        "plan",
+        "--snapshot",
+        "data/imports/wiz-cloud-threat-landscape/2026-09-01",
+        "--report-json",
+        "tmp/baseline-reports-2/plan-wiz-cloud-threat-landscape-report.json"
+      ],
+      "duration_ms": 916.0,
+      "exit_code": 0,
+      "stdout_bytes": 213,
+      "stderr_bytes": 4912,
+      "bundle_exec": true,
+      "snapshot_bytes": 994958
+    },
+    {
+      "phase": "fetch",
+      "source": "misp-galaxy",
+      "command": [
+        "bundle",
+        "exec",
+        "ruby",
+        "scripts/import-misp-galaxy.rb",
+        "fetch",
+        "--output",
+        "data/imports/misp-galaxy/2026-09-01",
+        "--cluster",
+        "threat-actor",
+        "--cluster",
+        "360net",
+        "--cluster",
+        "microsoft-activity-group",
+        "--cluster",
+        "tidal-groups",
+        "--cluster",
+        "ransomware",
+        "--cluster",
+        "intelligence-agencies",
+        "--cluster",
+        "mitre-ics-groups",
+        "--limit",
+        "50"
+      ],
+      "duration_ms": 865.5,
+      "exit_code": 0,
+      "stdout_bytes": 1297,
+      "stderr_bytes": 4912,
+      "bundle_exec": true,
+      "snapshot_bytes": 406764
+    },
+    {
+      "phase": "plan",
+      "source": "misp-galaxy",
+      "command": [
+        "bundle",
+        "exec",
+        "ruby",
+        "scripts/import-misp-galaxy.rb",
+        "plan",
+        "--snapshot",
+        "data/imports/misp-galaxy/2026-09-01",
+        "--report-json",
+        "tmp/baseline-reports-2/plan-misp-galaxy-report.json"
+      ],
+      "duration_ms": 1400.9,
+      "exit_code": 0,
+      "stdout_bytes": 78485,
+      "stderr_bytes": 4912,
+      "bundle_exec": true,
+      "snapshot_bytes": 406764
+    }
+  ]
+}
