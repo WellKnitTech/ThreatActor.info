@@ -30,6 +30,8 @@ failures << "workflow must expose source-level manual reruns" unless workflow.ma
 failures << "workflow must expose phase-level manual reruns" unless workflow.match?(/phase:/) && workflow.match?(/fetch\) args\+=\(--fetch-only\)/) && workflow.match?(/plan\) args\+=\(--plan-only\)/)
 failures << "workflow must always upload source evidence" unless workflow.match?(/Upload source snapshots, reports, and diagnostics/) && workflow.match?(/if: \$\{\{ always\(\) \}\}/) && workflow.match?(/actions\/upload-artifact@v4/)
 failures << "workflow must summarize source health" unless workflow.match?(/summarize-import-health\.rb/) && workflow.match?(/GITHUB_STEP_SUMMARY/)
+failures << "performance metrics must be outside the source-health report glob" if workflow.match?(/--metrics-json\s+\"?\$IMPORT_REPORT_DIR/)
+failures << "workflow must upload performance metrics" unless workflow.match?(/tmp\/performance-metrics\.json/)
 failures << "workflow must validate before opening the pull request" unless workflow.index("- name: Validate JSON schemas") && workflow.index("- name: Open weekly data pull request") && workflow.index("- name: Validate JSON schemas") < workflow.index("- name: Open weekly data pull request")
 failures << "workflow must not allow quarantined/anomalous plans to be applied" if workflow.match?(/--allow-plan-anomalies/)
 
