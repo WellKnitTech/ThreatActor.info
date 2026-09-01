@@ -8,6 +8,8 @@ Raw per-run evidence is kept in `docs/import-performance-baseline/run-{1,2,3}.js
 BUNDLE_PATH=/tmp/threatactor-bundle BUNDLE_APP_CONFIG=/tmp/threatactor-bundle-config bundle exec ruby scripts/import-automated-sources.rb --source mitre-attack --source misp-galaxy --source wiz-cloud-threat-landscape --limit 50 --metrics-json tmp/baseline-run-N.json --report-dir tmp/baseline-reports-N --date 2026-09-01
 ```
 
+The importer now accepts `--workers N` to bound concurrent fetch/plan jobs (default `1`, preserving the historical serial behavior). Source selection and result reporting remain priority-ordered; each source uses its own snapshot and report paths. Apply/import and regeneration stay ordered and transactional after the complete-plan validation gate.
+
 ## Observed timings
 
 | Source / phase | Run 1 (ms) | Run 2 (ms) | Run 3 (ms) | Mean (ms) | Snapshot bytes |

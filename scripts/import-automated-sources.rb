@@ -11,6 +11,7 @@ require 'optparse'
 require 'set'
 require 'time'
 require_relative 'snapshot_quality_gate'
+require_relative 'lib/import/bounded_source_runner'
 
 Source = Struct.new(
   :priority,
@@ -278,7 +279,8 @@ options = {
   limit: nil,
   continue_on_error: false,
   allow_plan_anomalies: false,
-  metrics_json: nil
+  metrics_json: nil,
+  workers: 1
 }
 
 parser = OptionParser.new do |opts|
@@ -309,6 +311,10 @@ See docs/keeping-actor-pages-current.md.'
   opts.on('--continue-on-error', 'Continue with later sources after a failure') { options[:continue_on_error] = true }
   opts.on('--allow-plan-anomalies', 'Proceed with --apply even if plan threshold checks fail') { options[:allow_plan_anomalies] = true }
   opts.on('--metrics-json PATH', 'Write phase timing and payload metrics to PATH') { |value| options[:metrics_json] = value }
+  opts.on('--workers N', Integer, 'Bound concurrent fetch/plan workers (default: 1)') do |value|
+    abort '--workers must be positive' unless value.positive?
+    options[:workers] = value
+  end
   opts.on('--list-sources', 'List automated sources and exit') do
     SOURCES.each { |source| puts "#{source.key}\t#{source.label}" }
     puts "attack\t(alias for mitre-attack)"
@@ -343,13 +349,18 @@ def selected_sources(options)
   selected
 end
 
+IMPORT_OUTPUT_MUTEX = Mutex.new
+IMPORT_METRICS_MUTEX = Mutex.new
+
 def run_command(command, metrics:, phase:, source_key: nil)
   started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
-  puts "\n---"
-  puts "\u2192 #{command.join(' ')}"
-  puts '---'
+  IMPORT_OUTPUT_MUTEX.synchronize do
+    puts "\n---"
+    puts "→ #{command.join(' ')}"
+    puts '---'
+  end
   stdout, stderr, status = Open3.capture3(*command)
-  metrics << {
+  event = {
     'phase' => phase,
     'source' => source_key,
     'command' => command,
@@ -359,8 +370,11 @@ def run_command(command, metrics:, phase:, source_key: nil)
     'stderr_bytes' => stderr.bytesize,
     'bundle_exec' => command[0, 3] == ['bundle', 'exec', 'ruby']
   }
-  puts stdout unless stdout.empty?
-  warn stderr unless stderr.empty?
+  IMPORT_METRICS_MUTEX.synchronize { metrics << event }
+  IMPORT_OUTPUT_MUTEX.synchronize do
+    puts stdout unless stdout.empty?
+    warn stderr unless stderr.empty?
+  end
   return if status.success?
 
   raise "Command failed with exit #{status.exitstatus}: #{command.join(' ')}"
@@ -391,9 +405,11 @@ def plan_source(source, snapshot, options, metrics)
     started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
     SnapshotQualityGate.validate!(snapshot, source: quality_source,
                                   report_path: File.join(options[:report_dir], "quality-#{source.key}.json"))
-    metrics << { 'phase' => 'validation', 'source' => source.key,
-                 'duration_ms' => ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - started) * 1000).round(1),
-                 'snapshot_bytes' => snapshot_bytes(snapshot) }
+    IMPORT_METRICS_MUTEX.synchronize do
+      metrics << { 'phase' => 'validation', 'source' => source.key,
+                   'duration_ms' => ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - started) * 1000).round(1),
+                   'snapshot_bytes' => snapshot_bytes(snapshot) }
+    end
   end
   command = ['bundle', 'exec', 'ruby', source.script, 'plan', '--snapshot', snapshot, '--report-json', report_path(options, source, 'plan')]
   run_command(command, metrics: metrics, phase: 'plan', source_key: source.key)
@@ -461,20 +477,25 @@ end
 selected = selected_sources(options)
 
 # Fetch and plan every source first. No importer is allowed to write until all
-# selected plans and their snapshot gates have passed.
-selected.each do |source|
+# selected plans and their snapshot gates have passed. Each source owns its
+# snapshot and report paths, so these phases can safely overlap.
+puts "\nFetch/plan workers: #{options[:workers]}"
+runner = SourceImport::BoundedSourceRunner.new(selected, workers: options[:workers],
+                                               fail_fast: !options[:continue_on_error])
+runner.run do |source|
   snapshot = snapshot_path(source, options[:date])
-  puts "\n== #{source.label} =="
-
-  begin
-    fetch_source(source, snapshot, options, metrics) if options[:fetch]
-    plan_source(source, snapshot, options, metrics) if options[:plan]
-  rescue StandardError => e
-    failures << "#{source.key}: #{e.message}"
+  IMPORT_OUTPUT_MUTEX.synchronize { puts "\n== #{source.label} (#{source.key}) ==" }
+  fetch_source(source, snapshot, options, metrics) if options[:fetch]
+  plan_source(source, snapshot, options, metrics) if options[:plan]
+end.each do |result|
+  source = result.item
+  if result.error
+    failures << "#{source.key}: #{result.error.message}"
     failed_sources << source.key
-    raise unless options[:continue_on_error]
-
-    warn "Continuing after #{source.key} failure: #{e.message}"
+    warn "Continuing after #{source.key} failure: #{result.error.message}" if options[:continue_on_error]
+  elsif result.skipped
+    failures << "#{source.key}: skipped after an earlier source failure"
+    failed_sources << source.key
   end
 end
 
