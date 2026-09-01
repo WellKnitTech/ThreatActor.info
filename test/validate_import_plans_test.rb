@@ -25,6 +25,21 @@ class ValidateImportPlansTest < Minitest::Test
     assert status.success?, output
   end
 
+  def test_mitre_plan_counters_are_supported
+    output, _error, status = run_validator('mitre-attack' => {
+      'intrusion_sets' => 10, 'actors_merge' => 8, 'actors_create' => 1, 'actors_review' => 1
+    })
+    assert status.success?, output
+  end
+
+  def test_mitre_plan_counters_still_enforce_thresholds
+    output, _error, status = run_validator('mitre-attack' => {
+      'intrusion_sets' => 10, 'actors_merge' => 1, 'actors_create' => 8, 'actors_review' => 1
+    })
+    refute status.success?
+    assert_includes output, 'match ratio'
+  end
+
   def test_action_style_report_uses_updates_as_matches
     output, _error, status = run_validator('generic' => { 'total_candidates' => 4, 'updates' => 4, 'creates' => 0 })
     assert status.success?, output
