@@ -42,23 +42,33 @@ class StagedRunnerTest < Minitest::Test
     FileUtils.remove_entry(@dir)
   end
 
-  def test_failed_source_cannot_contaminate_accepted_source_and_regeneration_runs_once
+  def test_failed_source_fails_closed_without_fallback
     good = Source.new(key: 'good', events: @events)
     bad = Source.new(key: 'bad', events: @events, failure: :quarantine)
-    regenerated = 0
-    runner = SourceImport::StagedRunner.new(
-      sources: [good, bad], root: @dir,
-      regenerate: -> { regenerated += 1 }
-    )
+    runner = SourceImport::StagedRunner.new(sources: [good, bad], root: @dir)
+
+    assert_raises(RuntimeError) { runner.run }
+    assert_equal :failed, runner.states.fetch('bad').status
+    refute File.exist?(File.join(@dir, 'output', 'good.txt'))
+    assert Dir.glob(File.join(@dir, 'quarantine', 'bad', '*')).any?
+  end
+
+  def test_failed_source_uses_verified_fallback_and_reports_degraded_provenance
+    good = Source.new(key: 'good', events: @events)
+    bad = Source.new(key: 'bad', events: @events, failure: :quarantine)
+    fallback = { source_key: 'bad', snapshot: { observed_at: (Time.now.utc - 60).iso8601 },
+                 plan: { operations: [{ 'file' => 'bad.txt', 'content' => 'old' }] },
+                 observed_at: (Time.now.utc - 60).iso8601, snapshot_id: 'bad-old' }
+    bad.define_singleton_method(:last_known_good) { |**_| fallback }
+    runner = SourceImport::StagedRunner.new(sources: [good, bad], root: @dir,
+                                             max_fallback_age: 3600)
 
     result = runner.run
 
-    assert_equal :quarantined, result.fetch('bad').status
+    assert_equal :fallback, result.fetch('bad').status
+    assert_equal 'bad-old', result.fetch('bad').metadata.fetch('provenance').fetch('snapshot_origin')
+    assert_equal 'old', File.read(File.join(@dir, 'output', 'bad.txt'))
     assert_equal :accepted, result.fetch('good').status
-    assert File.exist?(File.join(@dir, 'output', 'good.txt'))
-    refute File.exist?(File.join(@dir, 'output', 'bad.txt'))
-    assert_equal 1, regenerated
-    assert_equal 1, @events.count { |event| event == :apply }
   end
 
   def test_retry_and_rerun_do_not_repeat_successful_source
