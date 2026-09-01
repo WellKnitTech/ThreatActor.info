@@ -25,8 +25,6 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
     
     - name: Clean stale threat-actor markdown files
       run: |
@@ -38,9 +36,6 @@ jobs:
       with:
         ruby-version: '3.2.5'
         bundler-cache: true
-
-    - name: Install dependencies
-      run: bundle install
 
     - name: Run automated source imports
       env:

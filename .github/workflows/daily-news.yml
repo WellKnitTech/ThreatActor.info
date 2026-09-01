@@ -26,9 +26,6 @@ jobs:
           ruby-version: '3.2.5'
           bundler-cache: true
           
-      - name: Install dependencies
-        run: bundle install
-          
       - name: Capture actor baseline
         run: |
           mkdir -p tmp/delta-baseline
