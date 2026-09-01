@@ -388,9 +388,3 @@ APT28 is a threat group that has been attributed to Russia's General Staff Main 
 [42] [Symantec APT28 Oct 2018](https://www.symantec.com/blogs/election-security/apt28-espionage-military-government)
    Symantec Security Response. (2018, October 04). APT28: New Espionage Operations Target Military and Government Organizations. Retrieved November 14, 2018.
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations](https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html)
-  The Hacker News - 2026-08-28T
-

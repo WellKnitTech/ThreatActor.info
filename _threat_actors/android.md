@@ -35,6 +35,4 @@ Ransomware
 
 - [Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers](https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html)
   The Hacker News - 2026-08-28T
-- [Android Malware Hijacks Update System for Car Head Units](https://www.darkreading.com/cyberattacks-data-breaches/android-malware-hijacks-update-system-car-head-units)
-  DarkReading - 2026-08-26T
 

@@ -33,6 +33,6 @@ Ransomware Based on HiddenTear
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Red Flags That Expose Fake North Korean IT Workers](https://www.darkreading.com/insider-threats/red-flags-expose-fake-north-korean-it-workers)
-  DarkReading - 2026-08-26T
+- [North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales](https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html)
+  The Hacker News - 2026-08-31T
 

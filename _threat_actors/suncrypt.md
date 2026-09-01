@@ -37,6 +37,6 @@ SunCrypt ransomware was discovered in October 2019 and in August 2020 it was add
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Is the best way to watch a movie on a pair of sunglasses?](https://techcrunch.com/2026/08/28/is-the-best-way-to-watch-a-movie-on-a-pair-of-sunglasses/)
-  TechCrunch - 2026-08-28T
+- [20% Off Samsung Promo Code | September 2026](https://www.wired.com/story/samsung-promo-codes/)
+  Wired - 2026-09-01T
 

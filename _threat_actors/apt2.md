@@ -42,9 +42,3 @@ Putter Panda were the subject of an extensive report by CrowdStrike, which state
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations](https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html)
-  The Hacker News - 2026-08-28T
-
