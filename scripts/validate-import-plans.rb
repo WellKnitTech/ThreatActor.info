@@ -83,10 +83,10 @@ def report_counts(payload)
     return [{ 'total_records' => 0, 'matched' => 0, 'unmatched' => 0, 'new_candidates' => 0 }, false, nil]
   end
 
-  matched = numeric(payload, %w[matched matched_existing_actors matched_actors updates actors_with_updates])
-  unmatched = numeric(payload, %w[unmatched unmatched_actors unmatched_reports review skipped])
-  new_candidates = numeric(payload, %w[new_candidates creates])
-  total = numeric(payload, %w[total_records total_candidates apt_records records_count record_count ioc_rows])
+  matched = numeric(payload, %w[matched matched_existing_actors matched_actors updates actors_with_updates actors_merge])
+  unmatched = numeric(payload, %w[unmatched unmatched_actors unmatched_reports review skipped actors_review])
+  new_candidates = numeric(payload, %w[new_candidates creates actors_create])
+  total = numeric(payload, %w[total_records total_candidates apt_records records_count record_count ioc_rows intrusion_sets])
   if payload['actions'].is_a?(Array)
     actions = payload['actions'].filter_map { |action| action.is_a?(Hash) ? action['action'].to_s : action.to_s }
     matched ||= actions.count { |action| %w[add create update updated].include?(action) }
@@ -133,10 +133,10 @@ report_files.each do |path|
   end
 
   no_ops += 1 unless metrics_applicable
-  matched = numeric(counts, %w[matched matched_existing_actors matched_actors updates actors_with_updates]) || 0.0
-  unmatched = numeric(counts, %w[unmatched unmatched_actors unmatched_reports review skipped]) || 0.0
-  new_candidates = numeric(counts, %w[new_candidates creates]) || 0.0
-  total = numeric(counts, %w[total_records total_candidates apt_records records_count record_count ioc_rows]) || (matched + unmatched + new_candidates)
+  matched = numeric(counts, %w[matched matched_existing_actors matched_actors updates actors_with_updates actors_merge]) || 0.0
+  unmatched = numeric(counts, %w[unmatched unmatched_actors unmatched_reports review skipped actors_review]) || 0.0
+  new_candidates = numeric(counts, %w[new_candidates creates actors_create]) || 0.0
+  total = numeric(counts, %w[total_records total_candidates apt_records records_count record_count ioc_rows intrusion_sets]) || (matched + unmatched + new_candidates)
   denominator = [total, matched + unmatched + new_candidates].max
   denominator = 1.0 if denominator <= 0
 
