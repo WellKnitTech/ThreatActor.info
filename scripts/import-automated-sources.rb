@@ -422,13 +422,13 @@ def snapshot_bytes(path)
   Dir[File.join(path, '**', '*')].select { |entry| File.file?(entry) }.sum { |entry| File.size(entry) }
 end
 
-def write_metrics(path, metrics, started, date)
+def write_metrics(path, metrics, started_at, started_monotonic, date)
   return unless path
 
   payload = {
     'schema_version' => 1,
-    'started_at' => Time.now.utc.iso8601,
-    'duration_ms' => ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - started) * 1000).round(1),
+    'started_at' => started_at,
+    'duration_ms' => ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - started_monotonic) * 1000).round(1),
     # The workflow retries the whole process; source-level retries are zero here.
     'retries' => 0,
     # Subprocess instrumentation cannot observe HTTP clients inside importers.
@@ -445,8 +445,9 @@ end
 failures = []
 failed_sources = Set.new
 metrics = []
+run_started_at = Time.now.utc.iso8601
 run_started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
-at_exit { write_metrics(options[:metrics_json], metrics, run_started, options[:date]) }
+at_exit { write_metrics(options[:metrics_json], metrics, run_started_at, run_started, options[:date]) }
 
 # Clean any stale plan/import reports from previous runs so we never mix
 # report shapes (e.g. ransomlook's old array reports with normal object summaries).

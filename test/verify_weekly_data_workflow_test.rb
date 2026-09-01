@@ -24,6 +24,14 @@ class VerifyWeeklyDataWorkflowTest < Minitest::Test
     assert status.success?, stderr
   end
 
+  def test_performance_metrics_are_not_mistaken_for_a_source_health_report
+    workflow = File.read(WORKFLOW)
+
+    refute_match(/--metrics-json\s+\"?\$IMPORT_REPORT_DIR/, workflow)
+    assert_match(/--metrics-json\s+tmp\/performance-metrics\.json/, workflow)
+    assert_match(/tmp\/performance-metrics\.json/, workflow)
+  end
+
   def test_malformed_permissions_input_is_rejected_without_backtracking
     workflow = "jobs:\n  update-data:\n    runs-on: ubuntu-latest\n" + ("\t\t\n" * 10_000)
 
