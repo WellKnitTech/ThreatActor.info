@@ -208,7 +208,7 @@ class MitreAttackImporter
       if res.is_a?(Net::HTTPNotModified)
         raise "HTTP 304 without verified prior snapshot for #{url}" unless prior_path && File.file?(prior_path)
 
-        FileUtils.cp(prior_path, path)
+        FileUtils.cp(prior_path, path) unless File.expand_path(prior_path) == File.expand_path(path)
         return { 'status' => 'not_modified', 'etag' => prior_info['etag'],
                  'last_modified' => prior_info['last_modified'],
                  'source_retrieved_at' => prior_info['prior_retrieved_at'],

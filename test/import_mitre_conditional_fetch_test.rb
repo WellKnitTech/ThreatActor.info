@@ -67,4 +67,32 @@ class MitreConditionalFetchTest < Minitest::Test
       end
     end
   end
+
+  def test_304_reuse_does_not_copy_snapshot_onto_itself
+    Dir.mktmpdir do |dir|
+      snapshot = File.join(dir, 'snapshot.json')
+      File.binwrite(snapshot, 'stable snapshot')
+      response = Net::HTTPNotModified.new('1.1', '304', 'Not Modified')
+      fake_http = Object.new
+      fake_http.define_singleton_method(:request) { |_request| response }
+      singleton = Net::HTTP.singleton_class
+      singleton.class_eval do
+        alias_method :__conditional_same_path_test_start, :start
+        define_method(:start) { |_host, _port, **_kwargs, &block| block.call(fake_http) }
+      end
+
+      importer = MitreAttackImporter.new([])
+      result = importer.send(:download, URL, snapshot,
+                             prior_info: { 'etag' => '"v1"' }, prior_path: snapshot)
+
+      assert_equal 'not_modified', result['status']
+      assert_equal 'stable snapshot', File.binread(snapshot)
+    ensure
+      singleton.class_eval do
+        remove_method :start
+        alias_method :start, :__conditional_same_path_test_start
+        remove_method :__conditional_same_path_test_start
+      end
+    end
+  end
 end
