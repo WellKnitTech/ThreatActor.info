@@ -19,6 +19,12 @@ The failure-mode regression test is intentionally static and local:
 ruby scripts/verify-weekly-data-workflow.rb
 ```
 
+Both automated import workflows use the shared GitHub Actions concurrency
+group `threat-data-import` with `cancel-in-progress: false`. A scheduled or
+manual run waits for another import instead of creating a concurrent source
+fetch. See [Automated import operations](import-operations.md) for the
+operator runbook, secret handling, and source-specific rate-limit policy.
+
 It fails if `--admin` returns, if the workflow stops queueing a protected
 auto-merge, if the default token becomes write-capable, if write permissions
 escape the update job, or if validation is moved after pull-request creation.
@@ -42,8 +48,10 @@ summary and used as the pull-request body.
 `workflow_dispatch` accepts a source key and a phase (`all`, `fetch`, `plan`,
 or `import`). `fetch` creates or refreshes a snapshot, `plan` evaluates an
 existing snapshot without applying it, and `import` applies an existing plan
-without fetching. The import step retries the complete requested operation at
-most three times with 1-second and 2-second backoff, then returns the final
-failure. It does not use `continue-on-error`, and it never passes
+without fetching. The import step retries ordinary failures at most three
+times with 1-second and 2-second backoff, but does **not** retry an upstream
+HTTP 429. In particular, the Malpedia importer spaces requests by 2 seconds
+and stops at the first 429 rather than continuing through the actor list.
+The workflow does not use `continue-on-error`, and it never passes
 `--allow-plan-anomalies`; quarantined or anomalous sources therefore remain
 diagnostic-only.

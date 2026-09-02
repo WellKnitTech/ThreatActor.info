@@ -193,8 +193,15 @@ ruby scripts/import-etda-thaicert.rb import --snapshot data/imports/etda-thaicer
 
 Import Malpedia malware/enrichment data.
 
+The fetcher is intentionally polite to the public API: requests are serialized
+with a 2-second interval, and the first HTTP 429 stops the fetch rather than
+continuing through the actor list. The weekly workflow does not retry a
+rate-limited run. See [`docs/import-operations.md`](../docs/import-operations.md)
+for the operator response procedure.
+
 ```bash
 ruby scripts/import-malpedia.rb fetch --output data/imports/malpedia/$(date +%F)
+ruby scripts/import-malpedia.rb plan --snapshot data/imports/malpedia/DATE
 ruby scripts/import-malpedia.rb import --snapshot data/imports/malpedia/DATE
 ```
 

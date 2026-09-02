@@ -119,6 +119,33 @@ ruby scripts/import-automated-sources.rb --source threatfox --apply
 
 Scheduled GitHub Actions can pass **`THREATFOX_API_KEY`** from a repository secret so `fetch` returns live IOCs.
 
+## Malpedia importer
+
+`scripts/import-malpedia.rb` imports Malpedia (Fraunhofer FKIE) metadata as
+existing-actor enrichment. It writes dated snapshots under
+`data/imports/malpedia/<YYYY-MM-DD>/` and does not create new actors.
+
+The fetch path reads the actor list and aggregate metadata, then optionally
+retrieves per-actor detail payloads for malware-family relationships. Because
+that detail path can require hundreds of requests, the importer deliberately
+uses a 2-second interval between requests. HTTP 429 is a terminal rate-limit
+signal for the fetch: the importer stops immediately, preserves the upstream
+`Retry-After` value in the error message when provided, and does not continue
+requesting actor details. The weekly workflow also suppresses its normal
+failure retry after a 429. Do not parallelize Malpedia requests or repeatedly
+manually dispatch the workflow.
+
+```bash
+ruby scripts/import-malpedia.rb fetch --output data/imports/malpedia/$(date -u +%F)
+ruby scripts/import-malpedia.rb plan --snapshot data/imports/malpedia/DATE \
+  --report-json tmp/malpedia-plan.json
+ruby scripts/import-malpedia.rb import --snapshot data/imports/malpedia/DATE \
+  --report-json tmp/malpedia-import.json
+```
+
+For incident response and GitHub environment guidance, see
+[Automated import operations](import-operations.md).
+
 
 
 ## RedDrip7 APT_Digital_Weapon importer
