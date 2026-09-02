@@ -99,4 +99,35 @@ class ThreatFoxFallbackTest < Minitest::Test
       ENV.delete('THREATFOX_API_KEY')
     end
   end
+
+  def test_retry_preserves_valid_current_snapshot
+    Dir.mktmpdir do |root|
+      payload = { 'query_status' => 'ok', 'data' => [{ 'id' => 10 }] }
+      output = write_snapshot(root, '2026-09-01', payload)
+
+      importer(output: output).send(:fetch_snapshot)
+
+      assert_equal payload, JSON.parse(File.read(File.join(output, 'get_iocs.json')))
+      manifest = YAML.safe_load(File.read(File.join(output, 'manifest.yml')), permitted_classes: [], aliases: false)
+      assert_equal output, manifest['fallback_snapshot']
+    end
+  end
+
+  def test_malformed_newer_manifest_is_skipped
+    Dir.mktmpdir do |root|
+      payload = { 'query_status' => 'ok', 'data' => [{ 'id' => 11 }] }
+      valid = write_snapshot(root, '2026-08-30', payload)
+      malformed = File.join(root, '2026-08-31')
+      Dir.mkdir(malformed)
+      File.write(File.join(malformed, 'get_iocs.json'), JSON.pretty_generate({ 'data' => [] }))
+      File.write(File.join(malformed, 'manifest.yml'), "---\n- malformed\n")
+      File.utime(Time.now, Time.now + 1, malformed)
+      output = File.join(root, '2026-09-01')
+
+      importer(output: output).send(:fetch_snapshot)
+
+      manifest = YAML.safe_load(File.read(File.join(output, 'manifest.yml')), permitted_classes: [], aliases: false)
+      assert_equal valid, manifest['fallback_snapshot']
+    end
+  end
 end

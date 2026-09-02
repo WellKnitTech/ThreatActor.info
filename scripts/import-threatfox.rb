@@ -126,7 +126,7 @@ class ThreatFoxImporter
     rescue StandardError => error
       reason = if key.empty?
                 'no_auth_key'
-              elsif error.message.match?(/HTTP (401|403)|no_auth_key/i)
+              elsif error.message.match?(/HTTP (401|403)|(?:no_auth_key|invalid_auth_key|unauthorized)/i)
                 'auth_failed'
               else
                 'fetch_failed'
@@ -180,7 +180,7 @@ class ThreatFoxImporter
   def latest_known_good_snapshot
     root = File.dirname(@options[:output])
     current = File.expand_path(@options[:output])
-    candidates = Dir.children(root).map { |name| File.join(root, name) }
+    candidates = [@options[:output]] + Dir.children(root).map { |name| File.join(root, name) }
                    .select { |path| File.directory?(path) && File.expand_path(path) != current }
                    .sort_by { |path| -File.mtime(path).to_f }
 
@@ -191,7 +191,7 @@ class ThreatFoxImporter
 
       payload = JSON.parse(File.read(data_path))
       manifest = YAML.safe_load(File.read(manifest_path), permitted_classes: [], aliases: false) || {}
-      next unless manifest['query_status'].to_s == 'ok' && payload.is_a?(Hash) && payload['data'].is_a?(Array)
+      next unless manifest.is_a?(Hash) && manifest['query_status'].to_s == 'ok' && payload.is_a?(Hash) && payload['data'].is_a?(Array)
 
       return { path: path, payload: payload, manifest: manifest }
     rescue JSON::ParserError, Psych::Exception
@@ -256,7 +256,7 @@ class ThreatFoxImporter
 
     return unless write
 
-    apply_matches(rows, plan_rows, actors, path)
+    apply_matches(rows, plan_rows, actors, path, manifest)
     puts 'ThreatFox import complete.'
   end
 
@@ -310,7 +310,7 @@ class ThreatFoxImporter
     keys.compact.uniq.reject(&:empty?)
   end
 
-  def apply_matches(rows, plan_rows, actors, snapshot_path)
+  def apply_matches(rows, plan_rows, actors, snapshot_path, manifest = {})
     by_position = Hash.new { |h, k| h[k] = [] }
     rows.each_with_index do |ioc, idx|
       next unless ioc.is_a?(Hash)
@@ -334,10 +334,12 @@ class ThreatFoxImporter
       tf = {
         'source_name' => 'abuse.ch ThreatFox',
         'source_dataset_url' => API_URL,
-        'source_retrieved_at' => Time.now.utc.iso8601,
+        'source_retrieved_at' => manifest['source_retrieved_at'] || manifest['retrieved_at'] || Time.now.utc.iso8601,
         'snapshot_path' => snapshot_path,
         'iocs_merged' => added
       }
+      tf['source_status'] = manifest['query_status'] if manifest['query_status']
+      tf['fallback_reason'] = manifest['fallback_reason'] if manifest['fallback_reason']
       tf['unmapped_ioc_types'] = unmapped_types.uniq if unmapped_types.any?
       actor['provenance']['threatfox'] = tf
 
