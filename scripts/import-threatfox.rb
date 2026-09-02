@@ -132,7 +132,19 @@ class ThreatFoxImporter
                 'fetch_failed'
               end
       prior = latest_known_good_snapshot
-      raise error unless prior
+      unless prior
+        warn "ThreatFox fetch failed (#{reason}); no last known good snapshot exists"
+        write_snapshot({ 'query_status' => 'source_unavailable', 'data' => [] }, {
+                         'retrieved_at' => Time.now.utc.iso8601,
+                         'api_url' => API_URL,
+                         'query' => 'get_iocs',
+                         'days' => days,
+                         'query_status' => 'source_unavailable',
+                         'fallback_reason' => reason,
+                         'record_count' => 0
+                       })
+        return
+      end
 
       warn "ThreatFox fetch failed (#{reason}); reusing last known good snapshot #{prior[:path]}"
       write_snapshot(prior[:payload], {
