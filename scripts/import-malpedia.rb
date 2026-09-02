@@ -17,6 +17,9 @@ class MalpediaImporter
   DEFAULT_BASE_URL = 'https://malpedia.caad.fkie.fraunhofer.de'.freeze
   DEFAULT_SNAPSHOT_ROOT = 'data/imports/malpedia'.freeze
   DEFAULT_OVERRIDES_FILE = 'data/imports/malpedia/mapping_overrides.yml'.freeze
+  REQUEST_INTERVAL_SECONDS = 2.0
+  class RateLimitError < StandardError; end
+
   SOURCE_NAME = 'Malpedia (Fraunhofer FKIE)'.freeze
   SOURCE_SITE = 'https://malpedia.caad.fkie.fraunhofer.de/'.freeze
   LICENSE_NAME = 'CC BY-NC-SA 3.0'.freeze
@@ -134,6 +137,7 @@ class MalpediaImporter
       match_overrides: {},
       actor_id_overrides: {}
     }
+    @last_request_at = nil
   end
 
   def run
@@ -226,6 +230,8 @@ class MalpediaImporter
         meta_record = all_actor_meta[actor_name] || {}
         selected_actors[actor_name] = deep_merge(meta_record, detail)
       rescue StandardError => e
+        raise if e.is_a?(RateLimitError)
+
         warn "Skipping detail for #{actor_id}: #{e.message}"
       end
     else
@@ -573,13 +579,28 @@ class MalpediaImporter
   end
 
   def http_get_json(uri)
+    wait_for_request_slot
     response = Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == 'https') do |http|
       http.request(Net::HTTP::Get.new(uri))
+    end
+
+    if response.code == '429'
+      retry_after = response['retry-after']
+      suffix = retry_after ? "; Retry-After=#{retry_after}" : ''
+      raise RateLimitError, "HTTP 429 for #{uri}#{suffix}"
     end
 
     raise "HTTP #{response.code} for #{uri}" unless response.is_a?(Net::HTTPSuccess)
 
     JSON.parse(response.body)
+  end
+
+  def wait_for_request_slot
+    now = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+    if @last_request_at
+      sleep([REQUEST_INTERVAL_SECONDS - (now - @last_request_at), 0].max)
+    end
+    @last_request_at = Process.clock_gettime(Process::CLOCK_MONOTONIC)
   end
 
   def safe_load_yaml_file(path)
