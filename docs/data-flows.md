@@ -4,6 +4,9 @@ This project is a static Jekyll knowledge base. Runtime pages and JSON APIs are 
 
 For a concise maintainer checklist (commands, what to commit, and which workflows refresh what), see **[Keeping actor pages current](keeping-actor-pages-current.md)**.
 
+Field-level provenance, confidence, freshness, conflict, and supersession rules are defined in
+the [Provenance and data-quality policy](provenance-quality-policy.md).
+
 ## Current data flow
 
 1. Automated source importers fetch operational snapshots into ignored `data/imports/<source>/<date>/` cache paths (including MITRE STIX bundles and optional ThreatFox `get_iocs.json` snapshots).
