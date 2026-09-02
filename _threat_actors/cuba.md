@@ -38,3 +38,9 @@ The Cuba Ransomware, also known as Colddraw Ransomware, was first identified in 
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Sequoia-incubated Empirik launches with $21M to predict outages before they happen](https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/)
+  TechCrunch - 2026-09-01T
+

@@ -30,3 +30,9 @@ Ransomware Variant of Kirk
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain](https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain)
+  DarkReading - 2026-09-01T
+

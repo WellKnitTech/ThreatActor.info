@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Dyson Promo Codes: 25% Off in September 2026](https://www.wired.com/story/dyson-cordless-vacuum-promo-code/)
-  Wired - 2026-09-01T
-- [20% Off Samsung Promo Code | September 2026](https://www.wired.com/story/samsung-promo-codes/)
-  Wired - 2026-09-01T
-- [Squarespace Promo Codes: 30% Off in September 2026](https://www.wired.com/story/squarespace-promo-code/)
-  Wired - 2026-09-01T
-- [50% Off Blue Apron Promo Codes | September 2026](https://www.wired.com/story/blue-apron-coupon/)
-  Wired - 2026-09-01T
-- [Newegg Promo Codes and Coupons for September 2026](https://www.wired.com/story/newegg-promo-code/)
-  Wired - 2026-09-01T
+- [eBay Coupons: 20% Off in September 2026](https://www.wired.com/story/ebay-coupon-code/)
+  Wired - 2026-09-02T
+- [Uplift Promo Codes: $300 Off](https://www.wired.com/story/uplift-desk-coupon-code/)
+  Wired - 2026-09-02T
+- [Whoop Promo Codes: 20% Off This September 2026](https://www.wired.com/story/whoop-promo-code/)
+  Wired - 2026-09-02T
+- [Verizon Promo Codes: $200 Verizon Gift Cards | September 2026](https://www.wired.com/story/verizon-promo-code/)
+  Wired - 2026-09-02T
+- [Altra Running Promo Codes: 10% Off September 2026](https://www.wired.com/story/altra-promo-code/)
+  Wired - 2026-09-02T
 

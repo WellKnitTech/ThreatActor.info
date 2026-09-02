@@ -30,3 +30,11 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities](https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities/)
+  Wired - 2026-09-01T
+- [John Ternus hypes ‘huge launch next week’ in first memo as Apple CEO](https://techcrunch.com/2026/09/01/john-ternus-hypes-huge-launch-next-week-in-first-memo-as-apple-ceo/)
+  TechCrunch - 2026-09-01T
+
