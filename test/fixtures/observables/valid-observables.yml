@@ -9,8 +9,8 @@ observations:
   - type: domain
     value: "c2[.]example.com"
     defanged: true
-    first_seen: "2024-01-02T03:04:05Z"
-    last_seen: "2024-02-03T04:05:06Z"
+    first_seen: "2024-01-02T00:00:00Z"
+    last_seen: "2024-02-03T00:00:00Z"
     precision: day
     confidence:
       score: 0.8

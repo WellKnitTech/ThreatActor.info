@@ -19,7 +19,7 @@ The first contract supports these atomic types:
 | `registry_key` | Windows registry key; uppercase hive (`HKLM`, `HKCU`, `HKCR`, `HKU`, `HKCC`), normalized separators, no value data |
 | `mutex` | Non-empty mutex name; trim Unicode whitespace and preserve case unless source explicitly says it is case-insensitive |
 | `certificate` | Certificate fingerprint only, with `algorithm` (`sha1` or `sha256`) and hex digest; PEM/DER payloads are not public observables |
-| `vulnerability` | CVE identifier (`CVE-YYYY-N…`) or a future explicitly registered identifier; CVEs normalize uppercase |
+| `cve` | CVE identifier (`CVE-YYYY-N…`) or a future explicitly registered identifier; CVEs normalize uppercase. Input `vulnerability` is an alias for `cve` before identity and deduplication. |
 | `attack_technique` | MITRE technique ID (`T####` or `T####.###`), uppercase |
 
 `other` is not a free pass: it requires a registered `subtype`, a documented validator, and is non-atomic until that validator exists. Initial implementation should reject unregistered subtypes. File names, user agents, autonomous-system numbers, and cryptocurrency addresses remain deferred rather than being silently stuffed into `other`.
@@ -52,14 +52,16 @@ sources:
     retrieved_at: "2024-02-04T00:00:00Z"
     transform: "domain-lowercase-v1"
     license_url: "https://example.com/terms"
+    status: "active"              # status is scoped to this source observation
 relationships:
   - target_kind: "actor"         # actor | malware | campaign | operation | report
     target_id: "apt28"
     role: "reported_by"
     confidence: "medium"
+    status: "active"              # status is scoped to this relationship
 ```
 
-`type`, `value`, `atomic`, `status`, and at least one `sources` entry are required at publication time; relationships are optional but required for any published attribution pivot. `normalized_value` equals the canonical value for v1 but is retained as a named field so lookup behavior is explicit. `display_value` is the only value intended for ordinary HTML; API consumers may receive `value` only for approved publishable atomic records. Never include source secrets, credentials, malware payloads, private keys, or raw certificate material.
+`type`, `value`, `atomic`, `status`, and at least one `sources` entry are required at publication time; relationships are optional but required for any published attribution pivot. Relationships and source entries may carry their own review `status`. The observation-level status is an aggregate publication state: it is `active` when at least one source observation and each published relationship are eligible; it is `false_positive` only when all source observations supporting publication are false positives (and no eligible corroborating source remains); and it is `quarantined` when ambiguity, sensitivity, licensing, or validation prevents publication. A source-scoped false positive therefore suppresses only that source's contribution and does not erase an independently active source. `normalized_value` equals the canonical value for v1 but is retained as a named field so lookup behavior is explicit. `display_value` is the only value intended for ordinary HTML; API consumers may receive `value` only for approved publishable atomic records. Never include source secrets, credentials, malware payloads, private keys, or raw certificate material.
 
 `first_seen`/`last_seen` are observation bounds, not page or importer timestamps. `retrieved_at` records collection time. `last_updated` remains editorial actor metadata and must not be substituted for either field. Dates must be RFC 3339 UTC; date-only source data may use midnight UTC only when `precision: day` is also retained.
 
@@ -74,11 +76,12 @@ Normalization is type-specific and deterministic:
 * URLs use parsed components; fragments and default ports are removed, credentials rejected;
 * emails are lowercased for v1 (provider-specific case rules are not inferred);
 * hashes, certificate digests, CVEs, and ATT&CK IDs are uppercase/lowercase as specified above;
+* `cve` and `vulnerability` inputs canonicalize to `cve` before normalization and deduplication;
 * file paths, registry keys, and mutexes do not receive destructive case folding.
 
-The deduplication key is `(type, normalized_value)`; source, dates, confidence, status, and relationships are merged into the one observation. Preserve every distinct source record rather than choosing an arbitrary winner. Conflicting values or attribution are separate source observations in one record, not evidence for a stronger score. A false-positive status is scoped to the observation and source/relationship when known; it must not erase a corroborating source. `deprecated` means superseded or no longer preferred, not false.
+The deduplication key is `(canonical_type, normalized_value)`; source, dates, confidence, status, and relationships are merged into the one observation. Preserve every distinct source record rather than choosing an arbitrary winner. Conflicting values or attribution are separate source observations in one record, not evidence for a stronger score. A false-positive status is scoped to the observation and to the source/relationship when known; it must not erase a corroborating source. `deprecated` means superseded or no longer preferred, not false.
 
-Stable IDs are `obs_v1_` plus a deterministic digest of the type and normalized value (the exact digest encoding is an implementation decision, but must be documented and immutable). Actor/malware/campaign IDs are relationship targets, not part of the observable ID, so the same domain can pivot across entities without duplicate values.
+Stable IDs are `obs_v1_` plus a deterministic digest of the canonical type and normalized value (the exact digest encoding is an implementation decision, but must be documented and immutable). Actor/malware/campaign IDs are relationship targets, not part of the observable ID, so the same domain can pivot across entities without duplicate values.
 
 ## 4. Safe sharing and review states
 
@@ -102,7 +105,7 @@ The current reader (`scripts/ioc_yaml_reader.rb`) merges nested `iocs` with lega
 * `/api/iocs.json` remains an array; existing row keys remain present. New rows add `id`, `status`, `display_value`, dates, confidence, sources, and relationships.
 * `/api/ioc-lookup.json` continues to map approved atomic normalized lookup keys to rows. False-positive and quarantined records are excluded.
 * `/api/ioc-types.json`, `/api/iocs/by-type/<type>.json`, and `/api/iocs/by-actor/<slug>.json` remain available, with `schema_version`, `generated_at`, and source-manifest metadata added.
-* Existing type keys (`ip_address`, `domain`, `url`, `email`, `md5`, `sha1`, `sha256`, `cve`, `attack_technique`) and page URLs are not renamed. New types get their own shards only after validation exists.
+* Existing type keys (`ip_address`, `domain`, `url`, `email`, `md5`, `sha1`, `sha256`, `cve`, `attack_technique`) and page URLs are not renamed. The input alias `vulnerability` canonicalizes to `cve`; new types get their own shards only after validation exists.
 * Legacy lists map one string to one observation with `source.kind: legacy_actor_yaml`, `status: active` only if validation passes, and no invented dates/confidence/relationship. Markdown-only rows remain `atomic: false` until lifted into canonical YAML.
 
 YAML remains backward compatible during migration: old lists are read; canonical observation objects are preferred; duplicate legacy/canonical values collapse by the key above. No generator may silently drop an invalid canonical object—report and quarantine it.
@@ -126,4 +129,4 @@ Implementation acceptance criteria:
 6. False-positive and quarantined observations are retained for audit but excluded from public exact lookup, pages, and published counts.
 7. A schema version and generated/source-manifest reference appear in each new/changed public payload, and deterministic generation produces byte-stable output.
 
-See the parent audit in [data-sharing-audit.md](data-sharing-audit.md) for current measured coverage and the dependency order. This contract must be synthesized with provenance/safe-sharing and API/search contracts before implementation.
+See the existing [actor deduplication audit](actor-deduplication-audit.md) for the current identity baseline. This contract must be synthesized with provenance/safe-sharing and API/search contracts before implementation.

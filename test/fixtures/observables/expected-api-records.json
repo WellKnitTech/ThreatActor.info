@@ -4,13 +4,13 @@
     {
       "id": "obs_v1_<deterministic-type-value-digest>",
       "type": "domain",
-      "value": "example.com",
-      "normalized_value": "example.com",
-      "canonical_value": "example.com",
-      "display_value": "example[.]com",
+      "value": "c2.example.com",
+      "normalized_value": "c2.example.com",
+      "canonical_value": "c2.example.com",
+      "display_value": "c2[.]example.com",
       "atomic": true,
       "status": "active",
-      "lookup_keys": ["example.com"],
+      "lookup_keys": ["c2.example.com"],
       "source_observation_count": 2,
       "relationship_count": 1
     },
