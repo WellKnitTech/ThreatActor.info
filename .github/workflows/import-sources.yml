@@ -21,6 +21,7 @@ on:
 jobs:
   import:
     runs-on: ubuntu-latest
+    environment: data-import
 
     steps:
     - name: Checkout code
