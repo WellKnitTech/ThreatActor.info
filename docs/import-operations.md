@@ -118,11 +118,20 @@ ruby scripts/verify-weekly-data-workflow.rb
 git diff --check
 ```
 
-For a normal local import, prefer a source-only plan before applying anything:
+For a normal local import, fetch and review a dated snapshot before applying
+anything. Apply with `--no-fetch` so the reviewed snapshot is exactly the one
+that gets imported:
 
 ```bash
-ruby scripts/import-automated-sources.rb --source malpedia --plan-only
-ruby scripts/import-automated-sources.rb --source malpedia --apply
+snapshot_date=$(date -u +%F)
+ruby scripts/import-automated-sources.rb --source malpedia --date "$snapshot_date"
+ruby scripts/import-automated-sources.rb --source malpedia --date "$snapshot_date" --no-fetch --apply
+```
+
+For a plan-only review of an already-existing snapshot, use:
+
+```bash
+ruby scripts/import-automated-sources.rb --source malpedia --date "$snapshot_date" --plan-only
 ```
 
 Review generated actor, page, API, and snapshot changes together. See
