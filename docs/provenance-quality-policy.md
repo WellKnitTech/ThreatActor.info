@@ -71,7 +71,7 @@ Use `data/imports/source_freshness.yml` as the operational default for snapshot 
 6. `superseded` means replaced for primary display, not disproven. `rejected` means failed validation or policy and is excluded from public canonical output. `quarantined` means the source/run is held out pending review; it must never mutate generated artifacts.
 7. An ambiguous actor/IOC match is not merged. Keep it as `disputed` or `quarantined` with candidate IDs and require review.
 
-These rules close SB-1 through SB-3 in [supersession-backlog.md](supersession-backlog.md); one-off sources must adopt the same snapshot/plan/apply gates before being promoted.
+These rules define the contract and acceptance criteria for SB-1 through SB-3 in [supersession-backlog.md](supersession-backlog.md); they do not close the implementation work. One-off sources must adopt the same snapshot/plan/apply gates before being promoted.
 
 ## Publication rules
 
@@ -85,15 +85,15 @@ These rules close SB-1 through SB-3 in [supersession-backlog.md](supersession-ba
 
 ### API and lookup indexes
 
-- Public records include quality metadata for each published observation (at minimum source, confidence, status, and available timestamps); top-level convenience fields remain backward compatible.
-- `/api/iocs.json` and IOC shards preserve `source_text`, `source_file`, source lineage, and quality status. Non-atomic rows remain excluded from exact-match lookup, as today; `disputed`/`stale` rows may be returned but clients must filter by status for current use.
+- Public records are expected to include quality metadata for each published observation (at minimum source, confidence, status, and available timestamps) after the planned field-level-quality rollout; current records may omit these fields and clients must not assume their presence. Top-level convenience fields remain backward compatible.
+- `/api/iocs.json` and IOC shards currently preserve `source_text` and `source_file`; future field-level-quality output should additionally preserve source lineage and quality status. Non-atomic rows remain excluded from exact-match lookup, as today. Clients may filter by `status` once that field is present; until rollout, absence of `status` means quality metadata is unavailable, not that the observation is active.
 - `/api/ioc-lookup.json` indexes only atomic, non-rejected, non-quarantined values. A lookup match must return all eligible observations, not whichever source was generated first.
 - Counts and facets state whether they include historical, stale, or disputed rows. Never imply that a count is a count of currently valid indicators without saying so.
 - Quarantined input and rejected values are absent from public API artifacts and retained only in run diagnostics/quarantine storage.
 
 ### Generated artifacts and build safety
 
-The pipeline remains snapshot -> fetch -> validate -> plan -> apply -> generate. Only accepted plans may write `_data/actors`, `_data/generated`, `api`, or collection pages. Generation is deterministic from committed canonical data; it never fetches live sources. A failed, stale, anomalous, or quarantined plan leaves the prior generated artifacts unchanged and reports the degraded state.
+The pipeline remains fetch snapshot -> plan -> validate plans -> apply -> generate. Only accepted plans may write `_data/actors`, `_data/generated`, `api`, or collection pages. Generation is deterministic from committed canonical data; it never fetches live sources. A failed, stale, anomalous, or quarantined plan leaves the prior generated artifacts unchanged and reports the degraded state.
 
 ## Regression scenarios (acceptance tests)
 

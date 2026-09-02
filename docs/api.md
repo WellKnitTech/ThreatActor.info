@@ -401,9 +401,10 @@ Object keyed by **victim country** name. Values are technique ID → count maps 
 - There is no server-side query language, pagination, or prefix search in `v1`.
 
 Field-level provenance, confidence, freshness, conflict, and supersession publication rules are
-defined in [Provenance and data-quality policy](provenance-quality-policy.md). In particular,
-clients must not treat `last_updated` as an IOC observation timestamp, and should filter stale or
-disputed observations for current-use workflows.
+planned in [Provenance and data-quality policy](provenance-quality-policy.md). Current IOC rows do
+not yet guarantee those fields; clients must treat missing quality metadata as unavailable and must
+not assume missing `status` means `active`. `last_updated` remains editorial metadata and is not an
+IOC observation timestamp.
 
 ## Future Improvements
 
