@@ -27,8 +27,9 @@ rows = reports.map do |filename, payload|
 end
 
 quarantined = reports.count { |_filename, payload| payload['quarantined'] == true || payload['status'].to_s == 'quarantined' }
+degraded = reports.count { |_filename, payload| payload['status'].to_s == 'stale_fallback' }
 failed = reports.count { |_filename, payload| %w[failed error invalid].include?(payload['status'].to_s) }
-healthy = reports.length - quarantined - failed
+healthy = reports.length - quarantined - failed - degraded
 
 body = <<~MARKDOWN
   ## Automated source health
@@ -37,10 +38,10 @@ body = <<~MARKDOWN
   | --- | --- | ---: | --- |
   #{rows.empty? ? '| _No reports produced_ | - | - | Check the workflow diagnostics artifact. |' : rows.join("\n  ")}
 
-  Summary: **#{healthy} healthy**, **#{quarantined} quarantined**, **#{failed} failed**.
+  Summary: **#{healthy} healthy**, **#{degraded} degraded**, **#{quarantined} quarantined**, **#{failed} failed**.
 
   Quarantined sources are diagnostic-only and are not applied automatically. A failed
-  workflow remains failed even when diagnostics and artifacts are uploaded.
+  workflow remains failed; a stale fallback is applied with degraded health and visible provenance.
 MARKDOWN
 
 FileUtils.mkdir_p(File.dirname(output_path))
