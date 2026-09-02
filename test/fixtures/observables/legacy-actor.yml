@@ -1,0 +1,15 @@
+name: "Fixture Legacy Actor"
+aliases: []
+url: "/fixture-legacy-actor"
+description: "Compatibility fixture."
+iocs:
+  domains:
+    - "example.com"
+  md5_hashes:
+    - "00000000000000000000000000000000"
+domains:
+  - "example.com"
+hashes:
+  - "00000000000000000000000000000000"
+ips:
+  - "192.0.2.10"

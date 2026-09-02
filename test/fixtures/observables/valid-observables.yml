@@ -1,0 +1,104 @@
+# Normative contract fixtures; values use reserved/example data only.
+observations:
+  - type: ip_address
+    value: "192.0.2.10"
+    sources:
+      - source: "example-feed"
+        record_id: "row-ip-1"
+        retrieved_at: "2024-02-04T00:00:00Z"
+  - type: domain
+    value: "c2[.]example.com"
+    defanged: true
+    first_seen: "2024-01-02T00:00:00Z"
+    last_seen: "2024-02-03T00:00:00Z"
+    precision: day
+    confidence:
+      score: 0.8
+      rating: medium
+      scope: observation
+      rationale: "Two independent reports"
+    sources:
+      - source: "example-feed"
+        record_id: "row-domain-1"
+        record_url: "https://example.com/reports/17"
+        retrieved_at: "2024-02-04T00:00:00Z"
+        transform: "domain-lowercase-v1"
+        license_url: "https://example.com/terms"
+      - source: "example-report"
+        record_id: "report-17"
+        retrieved_at: "2024-02-05T00:00:00Z"
+    relationships:
+      - target_kind: actor
+        target_id: apt28
+        role: reported_by
+        confidence: medium
+  - type: url
+    value: "HTTPS://Example.com:443/path?q=1#tracking"
+    sources:
+      - source: "example-fixture"
+        retrieved_at: "2024-02-04T00:00:00Z"
+  - type: email
+    value: "Analyst@Example.com"
+    sources:
+      - source: "example-fixture"
+        retrieved_at: "2024-02-04T00:00:00Z"
+  - type: md5
+    value: "00000000000000000000000000000000"
+    sources:
+      - source: "example-fixture"
+        retrieved_at: "2024-02-04T00:00:00Z"
+  - type: sha1
+    value: "0000000000000000000000000000000000000000"
+    sources:
+      - source: "example-fixture"
+        retrieved_at: "2024-02-04T00:00:00Z"
+  - type: sha256
+    value: "0000000000000000000000000000000000000000000000000000000000000000"
+    sources:
+      - source: "example-fixture"
+        retrieved_at: "2024-02-04T00:00:00Z"
+  - type: sha512
+    value: "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    sources:
+      - source: "example-fixture"
+        retrieved_at: "2024-02-04T00:00:00Z"
+  - type: file_path
+    value: "C:\\Users\\Public\\..\\Public\\payload.exe"
+    sources:
+      - source: "example-fixture"
+        retrieved_at: "2024-02-04T00:00:00Z"
+  - type: registry_key
+    value: "hklm\\Software\\Example\\Run"
+    sources:
+      - source: "example-fixture"
+        retrieved_at: "2024-02-04T00:00:00Z"
+  - type: mutex
+    value: "ExampleMutex"
+    sources:
+      - source: "example-fixture"
+        retrieved_at: "2024-02-04T00:00:00Z"
+  - type: certificate
+    algorithm: sha256
+    value: "1111111111111111111111111111111111111111111111111111111111111111"
+    sources:
+      - source: "example-fixture"
+        retrieved_at: "2024-02-04T00:00:00Z"
+  - type: vulnerability
+    value: "cve-2024-12345"
+    sources:
+      - source: "example-fixture"
+        retrieved_at: "2024-02-04T00:00:00Z"
+  - type: attack_technique
+    value: "t1059.001"
+    sources:
+      - source: "example-fixture"
+        retrieved_at: "2024-02-04T00:00:00Z"
+  - type: domain
+    value: "benign.example"
+    status: false_positive
+    sources:
+      - source: "example-feed"
+        retrieved_at: "2024-02-04T00:00:00Z"
+    false_positive:
+      reason: "Publisher confirmed shared hosting false positive"
+      source: "example-feed"
