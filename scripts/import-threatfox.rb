@@ -115,26 +115,78 @@ class ThreatFoxImporter
     FileUtils.mkdir_p(@options[:output])
     days = @options[:days].to_i.clamp(1, 7)
     key = ENV['THREATFOX_API_KEY'].to_s.strip
-    payload = if key.empty?
-                warn 'THREATFOX_API_KEY unset; writing empty snapshot (no API call). See https://auth.abuse.ch/'
-                { 'query_status' => 'no_auth_key', 'data' => [] }
+    begin
+      raise 'ThreatFox query failed with status "no_auth_key"' if key.empty?
+
+      body = JSON.generate('query' => 'get_iocs', 'days' => days)
+      payload = http_post_json(API_URL, body, 'Auth-Key' => key)
+      if payload['query_status'].to_s.match?(/\A(?:no_auth_key|invalid_auth_key|unauthorized)\z/i)
+        raise "ThreatFox query failed with status \"#{payload['query_status']}\""
+      end
+    rescue StandardError => error
+      reason = if key.empty?
+                'no_auth_key'
+              elsif error.message.match?(/HTTP (401|403)|no_auth_key/i)
+                'auth_failed'
               else
-                body = JSON.generate('query' => 'get_iocs', 'days' => days)
-                http_post_json(API_URL, body, 'Auth-Key' => key)
+                'fetch_failed'
               end
+      prior = latest_known_good_snapshot
+      raise error unless prior
 
-    manifest = {
-      'retrieved_at' => Time.now.utc.iso8601,
-      'api_url' => API_URL,
-      'query' => 'get_iocs',
-      'days' => days,
-      'query_status' => payload['query_status'],
-      'record_count' => Array(payload['data']).size
-    }
+      warn "ThreatFox fetch failed (#{reason}); reusing last known good snapshot #{prior[:path]}"
+      write_snapshot(prior[:payload], {
+                       'retrieved_at' => Time.now.utc.iso8601,
+                       'source_retrieved_at' => prior[:manifest]['retrieved_at'],
+                       'api_url' => API_URL,
+                       'query' => 'get_iocs',
+                       'days' => days,
+                       'query_status' => 'stale_fallback',
+                       'fallback_reason' => reason,
+                       'fallback_snapshot' => prior[:path],
+                       'record_count' => Array(prior[:payload]['data']).size
+                     })
+      return
+    end
 
+    write_snapshot(payload, {
+                     'retrieved_at' => Time.now.utc.iso8601,
+                     'api_url' => API_URL,
+                     'query' => 'get_iocs',
+                     'days' => days,
+                     'query_status' => payload['query_status'],
+                     'record_count' => Array(payload['data']).size
+                   })
+  end
+
+  def write_snapshot(payload, manifest)
     File.write(File.join(@options[:output], 'get_iocs.json'), JSON.pretty_generate(payload) + "\n")
     File.write(File.join(@options[:output], 'manifest.yml'), YAML.dump(manifest))
     puts "Wrote ThreatFox snapshot to #{@options[:output]} (#{manifest['record_count']} IOCs, status=#{manifest['query_status']})"
+  end
+
+  def latest_known_good_snapshot
+    root = File.dirname(@options[:output])
+    current = File.expand_path(@options[:output])
+    candidates = Dir.children(root).map { |name| File.join(root, name) }
+                   .select { |path| File.directory?(path) && File.expand_path(path) != current }
+                   .sort_by { |path| -File.mtime(path).to_f }
+
+    candidates.each do |path|
+      data_path = File.join(path, 'get_iocs.json')
+      manifest_path = File.join(path, 'manifest.yml')
+      next unless File.file?(data_path) && File.file?(manifest_path)
+
+      payload = JSON.parse(File.read(data_path))
+      manifest = YAML.safe_load(File.read(manifest_path), permitted_classes: [], aliases: false) || {}
+      next unless manifest['query_status'].to_s == 'ok' && payload.is_a?(Hash) && payload['data'].is_a?(Array)
+
+      return { path: path, payload: payload, manifest: manifest }
+    rescue JSON::ParserError, Psych::Exception
+      next
+    end
+
+    nil
   end
 
   def http_post_json(url, body, extra_headers = {})
@@ -177,6 +229,10 @@ class ThreatFoxImporter
       'matched_actors' => matched,
       'unmatched' => unmatched
     }
+    manifest = load_snapshot_manifest
+    report['status'] = manifest['query_status'] if manifest['query_status']
+    report['fallback_reason'] = manifest['fallback_reason'] if manifest['fallback_reason']
+    report['source_retrieved_at'] = manifest['source_retrieved_at'] || manifest['retrieved_at'] if manifest
     write_report_file(report)
 
     puts "[ThreatFox #{write ? 'IMPORT' : 'PLAN'}] IOC rows=#{plan_rows.size} matched_to_actor=#{matched} unmatched=#{unmatched}"
@@ -190,6 +246,16 @@ class ThreatFoxImporter
   def snapshot_data_path
     snap = @options[:snapshot]
     File.file?(snap) ? snap : File.join(snap, 'get_iocs.json')
+  end
+
+  def load_snapshot_manifest
+    snap = @options[:snapshot]
+    path = File.file?(snap) ? File.join(File.dirname(snap), 'manifest.yml') : File.join(snap, 'manifest.yml')
+    return {} unless File.file?(path)
+
+    YAML.safe_load(File.read(path), permitted_classes: [], aliases: false) || {}
+  rescue Psych::Exception
+    {}
   end
 
   def match_ioc_to_actor(ioc, actors, alias_index)
