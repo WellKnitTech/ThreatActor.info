@@ -1,6 +1,10 @@
 ---
 name: Weekly Threat Data
 
+concurrency:
+  group: threat-data-import
+  cancel-in-progress: false
+
 on:
   schedule:
     - cron: '0 3 * * 0'
@@ -88,6 +92,10 @@ jobs:
               break
             fi
             if (( attempt < max_attempts )); then
+              if grep -q 'HTTP 429' tmp/import-run.log; then
+                printf 'Rate limited by an upstream source; not retrying automatically.\n' | tee -a tmp/import-run.log
+                break
+              fi
               delay=$((2 ** (attempt - 1)))
               printf 'Attempt %d failed (exit %d); retrying in %ds.\n' "$attempt" "$status" "$delay" | tee -a tmp/import-run.log
               sleep "$delay"

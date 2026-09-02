@@ -1,5 +1,9 @@
 name: Automated Source Imports
 
+concurrency:
+  group: threat-data-import
+  cancel-in-progress: false
+
 permissions:
   contents: write
   pull-requests: write
