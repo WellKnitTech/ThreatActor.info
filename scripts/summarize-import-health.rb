@@ -27,7 +27,7 @@ rows = reports.map do |filename, payload|
 end
 
 quarantined = reports.count { |_filename, payload| payload['quarantined'] == true || payload['status'].to_s == 'quarantined' }
-degraded = reports.count { |_filename, payload| %w[stale_fallback source_unavailable].include?(payload['status'].to_s) }
+degraded = reports.count { |_filename, payload| payload['status'].to_s == 'stale_fallback' }
 failed = reports.count { |_filename, payload| %w[failed error invalid].include?(payload['status'].to_s) }
 healthy = reports.length - quarantined - failed - degraded
 
