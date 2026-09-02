@@ -400,6 +400,12 @@ Object keyed by **victim country** name. Values are technique ID → count maps 
 - Some records in IOC sections are descriptive only; those are preserved with `atomic: false` and excluded from exact-match lookup indexes.
 - There is no server-side query language, pagination, or prefix search in `v1`.
 
+Field-level provenance, confidence, freshness, conflict, and supersession publication rules are
+planned in [Provenance and data-quality policy](provenance-quality-policy.md). Current IOC rows do
+not yet guarantee those fields; clients must treat missing quality metadata as unavailable and must
+not assume missing `status` means `active`. `last_updated` remains editorial metadata and is not an
+IOC observation timestamp.
+
 ## Future Improvements
 
 - Add versioned API paths such as `/api/v1/`.
