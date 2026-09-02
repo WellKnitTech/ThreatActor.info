@@ -1,0 +1,35 @@
+# Each case must be rejected or quarantined; this fixture is intentionally invalid.
+cases:
+  - name: bad-ip
+    type: ip_address
+    value: "999.1.1.1"
+    reason: invalid_ip_address
+  - name: cidr-is-not-atomic-ip
+    type: ip_address
+    value: "192.0.2.0/24"
+    reason: cidr_not_atomic
+  - name: bad-url
+    type: url
+    value: "https://user:password@example.com/a"
+    reason: url_credentials_forbidden
+  - name: bad-email
+    type: email
+    value: "not-an-email"
+    reason: invalid_email
+  - name: bad-sha256
+    type: sha256
+    value: "deadbeef"
+    reason: invalid_hash_length
+  - name: missing-source
+    type: domain
+    value: "example.com"
+    reason: source_required
+  - name: unregistered-other
+    type: other
+    subtype: "future_type"
+    value: "opaque"
+    reason: unregistered_subtype
+  - name: raw-certificate
+    type: certificate
+    value: "-----BEGIN CERTIFICATE-----raw-material-----END CERTIFICATE-----"
+    reason: certificate_material_forbidden
