@@ -109,6 +109,14 @@ class ValidateImportPlansTest < Minitest::Test
     assert_includes output, 'match ratio'
   end
 
+  def test_parsed_records_prevent_zero_match_collapse_from_being_a_no_op
+    output, _error, status = run_validator('generic' => {
+      'parsed_records' => 100, 'actors_with_updates' => 0
+    })
+    refute status.success?
+    assert_includes output, 'match ratio'
+  end
+
   def test_label_arrays_override_stale_scalar_unmatched_count
     output, _error, status = run_validator('generic' => {
       'total_candidates' => 100, 'updates' => 60, 'unmatched' => 1,
