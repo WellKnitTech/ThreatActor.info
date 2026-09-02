@@ -95,6 +95,12 @@ def report_counts(payload)
   end
   new_candidates = numeric(payload, %w[new_candidates creates actors_create])
   total = numeric(payload, %w[total_records total_candidates apt_records records_count record_count ioc_rows intrusion_sets source_records])
+  if payload['actor_updates'].is_a?(Array)
+    matched_labels = payload['actor_updates'].sum do |entry|
+      entry.is_a?(Hash) ? Array(entry['source_labels']).length : 0
+    end
+    matched = matched_labels.to_f if matched_labels.positive?
+  end
   if payload['unmatched_labels'].is_a?(Array) || payload['review_labels'].is_a?(Array)
     label_unmatched = Array(payload['unmatched_labels']).length + Array(payload['review_labels']).length
     unmatched = label_unmatched.to_f
@@ -157,6 +163,12 @@ report_files.each do |path|
   end
   new_candidates = numeric(counts, %w[new_candidates creates actors_create]) || 0.0
   total = numeric(counts, %w[total_records total_candidates apt_records records_count record_count ioc_rows intrusion_sets source_records]) || (matched + unmatched + new_candidates)
+  if counts['actor_updates'].is_a?(Array)
+    matched_labels = counts['actor_updates'].sum do |entry|
+      entry.is_a?(Hash) ? Array(entry['source_labels']).length : 0
+    end
+    matched = matched_labels.to_f if matched_labels.positive?
+  end
   denominator = [total, matched + unmatched + new_candidates].max
   denominator = 1.0 if denominator <= 0
 

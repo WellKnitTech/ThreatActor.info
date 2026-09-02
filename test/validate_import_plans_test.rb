@@ -119,6 +119,15 @@ class ValidateImportPlansTest < Minitest::Test
     assert_includes output, 'unmatched/new ratio'
   end
 
+  def test_matrix_source_labels_count_as_matches_after_actor_deduplication
+    output, _error, status = run_validator('generic' => {
+      'source_records' => 100, 'actors_with_updates' => 1,
+      'actor_updates' => [{ 'source_labels' => Array.new(99, 'label') }],
+      'unmatched_labels' => ['unmatched']
+    })
+    assert status.success?, output
+  end
+
   def test_threatfox_import_rejects_failed_query_before_reading_rows
     Dir.mktmpdir do |dir|
       snapshot = File.join(dir, 'get_iocs.json')
