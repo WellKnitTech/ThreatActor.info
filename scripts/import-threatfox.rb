@@ -206,7 +206,8 @@ class ThreatFoxImporter
   def valid_known_good_snapshot?(payload, manifest, path)
     return false unless manifest.is_a?(Hash) && manifest['query_status'].to_s == 'ok'
     return false unless payload.is_a?(Hash) && payload['data'].is_a?(Array)
-    return false unless manifest['record_count'].to_i == payload['data'].length
+    return false unless manifest.key?('record_count') && manifest['record_count'].is_a?(Numeric)
+    return false unless manifest['record_count'] == payload['data'].length
 
     expected = manifest['record_hashes']
     cache_path = File.join(path, manifest['cache_manifest'].to_s)
