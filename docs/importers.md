@@ -32,6 +32,8 @@ Use these canonical upstream links when documenting imports, provenance blocks, 
 | `unit42-threat-actor-groups` | Unit 42 Threat Actor Groups | https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/ |
 | `mitre-attack` | MITRE ATT&CK | https://attack.mitre.org/ ; https://github.com/mitre-attack/attack-stix-data |
 | `threatfox` | abuse.ch ThreatFox | https://threatfox.abuse.ch/ ; https://threatfox.abuse.ch/api/ |
+| `malwarebazaar` | abuse.ch MalwareBazaar | https://bazaar.abuse.ch/ ; https://mb-api.abuse.ch/api/ |
+| `urlhaus` | abuse.ch URLhaus | https://urlhaus.abuse.ch/ ; https://urlhaus-api.abuse.ch/api/ |
 
 When adding or updating importers:
 
@@ -86,6 +88,18 @@ ruby scripts/import-automated-sources.rb --source threatfox --apply
 ```
 
 Scheduled GitHub Actions can pass **`THREATFOX_API_KEY`** from a repository secret so `fetch` returns live IOCs.
+
+## abuse.ch MalwareBazaar and URLhaus observable importers
+
+`scripts/import-malwarebazaar.rb` and `scripts/import-urlhaus.rb` snapshot recent hashes and URLs respectively. Fetches are bounded to 5 MiB and 10,000 records, reject non-success responses (including explicit rate-limit errors), and write a manifest with a SHA-256 checksum. `plan` and `import` deduplicate observables, preserve source IDs, source URLs, tags/signatures, malware or threat metadata, timestamps, confidence, and emit a JSON report.
+
+Neither importer infers actor ownership from a malware family, signature, or tag. Rows without an explicit actor field matching an existing actor are quarantined in the report. Only explicit, unambiguous actor matches are merged into `iocs.sha256_hashes` or `iocs.urls`, with source-specific provenance and abuse.ch attribution.
+
+```bash
+ruby scripts/import-malwarebazaar.rb plan --snapshot data/imports/malwarebazaar/2026-09-03 --report-json tmp/malwarebazaar-report.json
+ruby scripts/import-urlhaus.rb plan --snapshot data/imports/urlhaus/2026-09-03 --report-json tmp/urlhaus-report.json
+ruby scripts/import-automated-sources.rb --source malwarebazaar --source urlhaus --apply
+```
 
 
 
