@@ -127,8 +127,8 @@ class MitreAttackImporter
       end
 
       path = File.join(@options[:output], filename)
-      puts "Fetching #{domain}: #{url}"
       cached = reusable_bundle(domain, filename)
+      puts "Fetching #{domain}: #{url}" unless cached
       if cached
         FileUtils.cp(cached[:path], path)
         fetch_info = { 'status' => 'reused', 'bytes' => File.size(path) }
