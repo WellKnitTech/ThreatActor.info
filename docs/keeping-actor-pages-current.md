@@ -48,6 +48,12 @@ Without `--force`, [`scripts/generate-pages.rb`](../scripts/generate-pages.rb) m
 
 Do not assume weekly pushes alone cover the same surface as **Automated Source Imports**; use the right workflow for the sources you care about.
 
+Both import workflows share the `threat-data-import` concurrency group and do
+not cancel an active run. This prevents overlapping source fetches. Malpedia
+also enforces a 2-second request interval and stops on HTTP 429; see
+[Automated import operations](import-operations.md) before manually rerunning a
+rate-limited source.
+
 ## GitHub repository settings (manual)
 
 Configure in the GitHub UI (org/repo **Settings**):
@@ -60,3 +66,7 @@ Configure in the GitHub UI (org/repo **Settings**):
 1. Locally: `bash scripts/validate.sh` exits 0 (Ruby 3.2.5, `bundle install` first per [AGENTS.md](../AGENTS.md)).
 2. After doc or workflow edits: open a PR to `main` and confirm **Content Validation** passes.
 3. Optional: **Actions → Automated Source Imports → Run workflow** (optionally set `source` / `limit`); merge the opened PR and spot-check an actor’s page for expected `provenance`-driven sections.
+
+For live ThreatFox access, configure `THREATFOX_API_KEY` as a secret in the
+GitHub `data-import` environment and keep that environment restricted to
+`main`. Do not put API keys in repository files or workflow literals.

@@ -14,12 +14,15 @@ require 'yaml'
 
 require_relative 'actor_store'
 require_relative 'import_utils'
+require_relative 'snapshot_quality_gate'
 
 class DragosThreatGroupsImporter
   DEFAULT_SNAPSHOT_ROOT = 'data/imports/dragos-threat-groups'.freeze
   SOURCE_NAME = 'Dragos Threat Groups'.freeze
   SOURCE_URL = 'https://www.dragos.com/threat-groups'.freeze
   SOURCE_ATTRIBUTION = 'Aliases were reviewed from the Dragos threat-groups catalog and preserved with source provenance.'.freeze
+  EMPTY_SOURCE_REASON = 'upstream catalog contains no threat-group profiles'.freeze
+  EMPTY_CATALOG_PATTERN = /no\s+(?:threat\s+)?groups?\s+(?:currently\s+)?found/i
 
   def initialize(argv)
     @argv = argv.dup
@@ -101,10 +104,17 @@ class DragosThreatGroupsImporter
       'source_url' => SOURCE_URL,
       'retrieved_at' => Time.now.utc.iso8601,
       'source_checksum_sha256' => Digest::SHA256.hexdigest(root_html),
+      # An empty result is never inferred as a valid catalog.  The quality gate
+      # requires an explicit, evidence-backed source_empty classification.
+      'source_empty' => false,
       'detail_page_count' => pages.length,
       'record_count' => actors.length,
       'detail_pages' => pages
     }
+    if actors.empty? && links.empty? && legitimate_empty_catalog?(root_doc)
+      manifest['source_empty'] = true
+      manifest['empty_reason'] = EMPTY_SOURCE_REASON
+    end
     File.write(File.join(@options[:output], 'manifest.yml'), YAML.dump(manifest))
     puts "Wrote snapshot to #{@options[:output]} (#{actors.length} parsed records, #{pages.length} detail pages)"
   end
@@ -112,17 +122,22 @@ class DragosThreatGroupsImporter
   def extract_profile_links(doc)
     hrefs = doc.css('a[href]').map { |a| a['href'] }.compact
     hrefs.filter_map do |href|
-      next unless href.include?('/threat-groups/')
+      next unless profile_link?(href)
 
       absolute = URI.join(SOURCE_URL + '/', href).to_s
       uri = URI.parse(absolute)
       next unless uri.host == URI.parse(SOURCE_URL).host
-      next if uri.path == '/threat-groups' || uri.path == '/threat-groups/'
 
       absolute
     rescue URI::InvalidURIError
       nil
     end.uniq.sort
+  end
+
+  def legitimate_empty_catalog?(doc)
+    return false unless doc.at_css('main')
+
+    normalize_name(doc.at_css('main').text).match?(EMPTY_CATALOG_PATTERN)
   end
 
   def parse_actors(root_doc, pages)
@@ -131,7 +146,7 @@ class DragosThreatGroupsImporter
       href = link['href'].to_s
       text = normalize_name(link.text)
       next if text.empty? || href.empty?
-      next unless href.include?('/threat-groups/')
+      next unless profile_link?(href)
 
       rows << { 'name' => text, 'source_url' => URI.join(SOURCE_URL + '/', href).to_s }
     end
@@ -159,7 +174,19 @@ class DragosThreatGroupsImporter
     value.to_s.gsub(/[\u2018\u2019]/, "'").gsub(/[\u201C\u201D]/, '"').gsub(/\s+/, ' ').strip
   end
 
+  def profile_link?(href)
+    uri = URI.parse(URI.join(SOURCE_URL + '/', href).to_s)
+    return false unless uri.host == URI.parse(SOURCE_URL).host
+
+    ['/threat-groups/', '/threat/'].any? do |prefix|
+      uri.path.start_with?(prefix) && uri.path.length > prefix.length
+    end
+  rescue URI::InvalidURIError
+    false
+  end
+
   def plan_or_import
+    SnapshotQualityGate.validate!(@options[:snapshot], source: 'dragos')
     manifest = load_manifest
     entries = load_entries
     existing = ActorStore.load_all

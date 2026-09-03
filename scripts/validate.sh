@@ -42,17 +42,23 @@ check_file "scripts/generate-indexes.rb"
 check_file "scripts/evaluate-source-deltas.rb"
 check_file "scripts/validate-content.rb"
 check_file "scripts/validate-json-schemas.rb"
+check_file "scripts/check-persona-content.rb"
 
 check_file "scripts/check-source-freshness.rb"
 check_file "scripts/verify-weekly-data-workflow.rb"
-check_file "scripts/verify-import-workflow-contract.rb"
+check_file "scripts/verify-import-sources-workflow.rb"
+check_file "scripts/test-import-runner-contract.rb"
 
 echo "Running source freshness check (warning mode for local validation)..."
 ruby scripts/check-source-freshness.rb --mode warn --report-json tmp/source-freshness-report.json
 
 echo "Checking scheduled workflow merge safety..."
-ruby scripts/verify-weekly-data-workflow.rb .github/workflows/import-pipeline.yml
-ruby scripts/verify-import-workflow-contract.rb
+ruby scripts/verify-weekly-data-workflow.rb
+ruby scripts/verify-import-sources-workflow.rb
+ruby scripts/test-import-runner-contract.rb
+
+echo "Checking for removed persona content..."
+ruby scripts/check-persona-content.rb
 
 echo "Running page and index generators..."
 echo "(Indexes are regenerated here so _data/generated/ and api/ stay aligned before validation and build.)"

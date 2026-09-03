@@ -30,3 +30,9 @@ ABOUT US: <br/> <br/>"Pure Extraction And Ransom (PEAR) Team is the community of
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [The Inbox Is Disappearing. Why Security Must Follow the Workspace](https://blog.checkpoint.com/securing-user-and-access/the-inbox-is-disappearing-why-security-must-follow-the-workspace/)
+  Check Point - 2026-09-01T
+

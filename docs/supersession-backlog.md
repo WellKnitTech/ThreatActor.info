@@ -18,3 +18,6 @@ This document tracks engineering follow-ups called out in [Data flow assessment]
 - [Contributing](../CONTRIBUTING.md)
 
 Progress on these items should update this table and [data-flows.md](data-flows.md) assessment language.
+
+The field-level quality contract and publication/regression rules for these items are defined in
+[Provenance and data-quality policy](provenance-quality-policy.md).

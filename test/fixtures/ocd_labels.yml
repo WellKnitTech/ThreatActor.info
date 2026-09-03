@@ -1,0 +1,74 @@
+# Synthetic OCD labels covering required collision classes for unit tests.
+# Not a full v29 dump.
+
+map_version: 29
+source_snapshot_id: ocd:snapshot:v29:fixture
+
+labels:
+  # Exact operation name
+  - name: LockBit
+    entity_type: operation
+    changelog_section: edit
+
+  # Family version vs operator vs malware strain
+  - name: LockBit 3.0
+    entity_type: ransomware_family
+    changelog_section: edit
+  - name: LockBit 2.0
+    entity_type: ransomware_family
+  - name: LockBit Green
+    entity_type: ransomware_family
+
+  # Conti cluster / derived operations
+  - name: Conti
+    entity_type: operation
+  - name: Wizard Spider
+    entity_type: affiliate_group
+  - name: Ryuk
+    entity_type: operation
+  - name: Black Basta
+    entity_type: operation
+  - name: Royal
+    entity_type: operation
+  - name: Karakurt
+    entity_type: operation
+
+  # Alias exact to BlackCat
+  - name: ALPHV
+    entity_type: operation
+  - name: BlackCat
+    entity_type: operation
+
+  # Malware-only style label (fixture malware has this strain, no actor)
+  - name: Conti Strain X
+    entity_type: malware_strain
+
+  # Actor/group name that is also malware in fixture
+  - name: Hive
+    entity_type: operation
+
+  # New candidate
+  - name: CompletelyUnknownRaaS
+    entity_type: unknown
+    first_seen_hint: January 2026
+    changelog_section: add
+
+  # Noise
+  - name: collaboration
+  - name: Decryptor released
+
+  # Deprecated predecessor
+  - name: ABCD
+    entity_type: ransomware_family
+
+  # Must not collapse into APT Nitro
+  - name: Nitro Spider
+    entity_type: affiliate_group
+
+  # Qilin multi-actor risk if affiliates objects exist
+  - name: Qilin
+    entity_type: operation
+
+  # Low-confidence partial (should never auto-merge)
+  - name: Lock
+    entity_type: unknown

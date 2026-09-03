@@ -186,6 +186,10 @@ Every actor should make its source lineage clear enough for readers and maintain
 
 ### provenance
 
+For field-level source lineage, confidence, freshness, conflict, and supersession semantics, see
+[Provenance and data-quality policy](provenance-quality-policy.md). New observations should carry
+the policy's quality dimensions rather than relying on the actor-level `confidence` value alone.
+
 Use `provenance` for additional source-specific data that supplements the primary actor record. Each nested source key should preserve enough metadata to audit where the imported observations came from.
 
 ```yaml

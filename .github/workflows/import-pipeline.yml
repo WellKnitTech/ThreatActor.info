@@ -33,6 +33,7 @@ jobs:
   update-data:
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    environment: data-import
     permissions:
       contents: write
       pull-requests: write
@@ -70,7 +71,7 @@ jobs:
         run: |
           set -u
           mkdir -p "$IMPORT_REPORT_DIR" "$FAILURE_DIAGNOSTICS_DIR" data/imports
-          args=(--report-dir "$IMPORT_REPORT_DIR" --date "$(date -u +%F)")
+          args=(--report-dir "$IMPORT_REPORT_DIR" --metrics-json tmp/performance-metrics.json --date "$(date -u +%F)")
           if [[ -n "$REQUESTED_SOURCE" ]]; then
             args+=(--source "$REQUESTED_SOURCE")
           fi
@@ -110,6 +111,10 @@ jobs:
           ATTEMPT="$attempt" EXIT_CODE="$status" DIAGNOSTIC_PATH="$FAILURE_DIAGNOSTICS_DIR/import-run.json" REQUESTED_PHASE="$REQUESTED_PHASE" REQUESTED_SOURCE="$REQUESTED_SOURCE" \
             ruby -rjson -e 'payload = { phase: ENV.fetch("REQUESTED_PHASE"), source: ENV.fetch("REQUESTED_SOURCE", ""), attempts: ENV.fetch("ATTEMPT", "unknown"), exit_code: ENV.fetch("EXIT_CODE") }; File.write(ENV.fetch("DIAGNOSTIC_PATH"), JSON.pretty_generate(payload))'
           exit "$status"
+
+      - name: Check source freshness
+        if: ${{ success() }}
+        run: ruby scripts/check-source-freshness.rb --mode warn --report-json tmp/source-freshness-report.json
 
       - name: Summarize source health
         if: ${{ always() }}
@@ -158,6 +163,9 @@ jobs:
             tmp/import-run.log
             tmp/import-health.md
             tmp/source-delta-report.json
+            tmp/performance-metrics.json
+            tmp/source-freshness-report.json
+            _data/generated/source_freshness.json
 
       - name: Open weekly data pull request
         if: ${{ success() && (inputs.phase == '' || inputs.phase == 'all' || inputs.phase == 'import') }}

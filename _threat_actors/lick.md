@@ -33,6 +33,6 @@ Ransomware Variant of Kirk
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Secure all your internal vibe-coded applications — in one click](https://blog.cloudflare.com/workers-protected-by-access/)
-  Cloudflare - 2026-08-14T
+- [ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain](https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain)
+  DarkReading - 2026-09-01T
 

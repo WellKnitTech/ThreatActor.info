@@ -27,6 +27,9 @@ permissions:
 
 jobs:
   import:
+    permissions:
+      contents: write
+      pull-requests: write
     uses: ./.github/workflows/import-pipeline.yml
     with:
       source: ${{ inputs.source || '' }}

@@ -55,7 +55,7 @@ module SnapshotQualityGate
       diagnostics['issues'] << "missing #{rules['data_file']}"
     end
 
-    manifest = load_yaml(manifest_path)
+    manifest = load_yaml(manifest_path, diagnostics)
     records = load_json(data_path)
     diagnostics['record_count'] = records.length if records.is_a?(Array)
     diagnostics['raw_files'] = Dir.glob(File.join(snapshot_dir, '**', '*')).select { |p| File.file?(p) }.sort.map { |p| p.delete_prefix("#{snapshot_dir}/") }
@@ -69,6 +69,7 @@ module SnapshotQualityGate
     end
 
     validate_checksum(snapshot_dir, manifest, diagnostics)
+    validate_detail_page_checksums(snapshot_dir, manifest, diagnostics)
     if diagnostics['record_count'] == 0
       empty_classified = manifest['source_empty'] == true && !manifest['empty_reason'].to_s.strip.empty?
       diagnostics['classification'] = empty_classified ? 'source_empty' : 'parser_empty'
@@ -124,10 +125,46 @@ module SnapshotQualityGate
     diagnostics['issues'] << "checksum mismatch for #{raw_name}" unless actual == expected
   end
 
-  def load_yaml(path)
+  def validate_detail_page_checksums(snapshot_dir, manifest, diagnostics)
+    pages = manifest['detail_pages']
+    return if pages.nil?
+    unless pages.is_a?(Array)
+      diagnostics['issues'] << "manifest detail_pages must be an array, got #{pages.class}"
+      return
+    end
+
+    pages.each_with_index do |page, index|
+      unless page.is_a?(Hash)
+        diagnostics['issues'] << "detail page #{index} must be a mapping"
+        next
+      end
+      file = page['file'].to_s
+      expected = page['sha256'].to_s
+      if file.empty? || expected.empty?
+        diagnostics['issues'] << "detail page #{index} is missing file or sha256"
+        next
+      end
+      root = File.expand_path(snapshot_dir)
+      path = File.expand_path(file, root)
+      unless path.start_with?(root + File::SEPARATOR) && File.file?(path)
+        diagnostics['issues'] << "detail page #{index} file is missing or escapes snapshot"
+        next
+      end
+      actual = Digest::SHA256.file(path).hexdigest
+      diagnostics['issues'] << "checksum mismatch for #{file}" unless actual == expected
+    end
+  end
+
+  def load_yaml(path, diagnostics)
     return {} unless File.file?(path)
-    YAML.safe_load(File.read(path), permitted_classes: [Time], aliases: false) || {}
-  rescue Psych::Exception
+    value = YAML.safe_load(File.read(path), permitted_classes: [Time], aliases: false)
+    unless value.is_a?(Hash)
+      diagnostics['issues'] << "manifest must contain a mapping, got #{value.class}"
+      return {}
+    end
+    value
+  rescue Psych::Exception => error
+    diagnostics['issues'] << "manifest is invalid YAML: #{error.message.lines.first.to_s.strip}"
     {}
   end
 

@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Woman claims her stepfather used Grok to transform childhood photo into explicit imagery](https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/)
-  TechCrunch - 2026-08-15T
-- [How to tell if your AI platforms’ accounts have been hacked](https://techcrunch.com/2026/08/15/how-to-tell-if-your-ai-platforms-accounts-have-been-hacked/)
-  TechCrunch - 2026-08-15T
-- [6 Best Apple Watch Accessories to Upgrade Your Watch (2026)](https://www.wired.com/story/best-apple-watch-accessories/)
-  Wired - 2026-08-15T
-- [5 Best Apple Watch Bands: Nike, Nomad, and Hermés (2026)](https://www.wired.com/story/best-apple-watch-bands/)
-  Wired - 2026-08-15T
-- [Metasploit Wrap Up: Lot of summer shells and fit http profiles](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-lot-of-summer-shells-and-fit-http-profiles)
-  Rapid7 - 2026-08-14T
+- [CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners](https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html)
+  The Hacker News - 2026-09-03T
+- [Total Wireless Promo Codes & Deals: 50% Off Select Plans](https://www.wired.com/story/total-wireless-promo-code/)
+  Wired - 2026-09-03T
+- [Lowe’s Promo Codes and Deals: Up to $300 Off Appliances](https://www.wired.com/story/lowes-promo-code/)
+  Wired - 2026-09-03T
+- [Meta Pushes Its New AI Agent on Employees—but Eases Off on Tokenmaxxing](https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing/)
+  Wired - 2026-09-03T
+- [Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control](https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html)
+  The Hacker News - 2026-09-02T
 

@@ -5,6 +5,7 @@
 # Source: https://github.com/mitre-attack/attack-stix-data
 
 require 'fileutils'
+require 'digest'
 require 'json'
 require 'net/http'
 require 'optparse'
@@ -42,7 +43,8 @@ class MitreAttackImporter
       write: false,
       report_json: nil,
       verbose: false,
-      write_active: true
+      write_active: true,
+      prior_snapshot: nil
     }
   end
 
@@ -69,7 +71,7 @@ class MitreAttackImporter
   def usage
     <<~TEXT
       Usage:
-        ruby scripts/import-mitre.rb fetch --output DIR [--domain enterprise] [--domain mobile] [--domain ics] [--version X.Y]
+        ruby scripts/import-mitre.rb fetch --output DIR [--prior-snapshot DIR] [--domain enterprise] [--domain mobile] [--domain ics] [--version X.Y]
         ruby scripts/import-mitre.rb plan --snapshot DIR [--report-json PATH]
         ruby scripts/import-mitre.rb import --snapshot DIR [--report-json PATH] [--new-only] [--force] [--no-write-active]
 
@@ -85,6 +87,7 @@ class MitreAttackImporter
       opts.on('--output DIR', 'Snapshot directory') { |v| @options[:output] = v }
       opts.on('--domain NAME', 'enterprise | mobile | ics (repeatable)') { |v| @options[:domains] << v }
       opts.on('--version VER', 'Pin ATT&CK version (e.g. 19.0); uses versioned JSON filenames') { |v| @options[:version] = v }
+      opts.on('--prior-snapshot DIR', 'Reuse a prior snapshot with HTTP validators when the source returns 304') { |v| @options[:prior_snapshot] = v }
       opts.on('--write-active', 'Copy bundles to data/mitre-cache/ and write active.yml (default)') { @options[:write_active] = true }
       opts.on('--no-write-active', 'Skip updating data/mitre-cache/ after fetch') { @options[:write_active] = false }
     end
@@ -112,7 +115,7 @@ class MitreAttackImporter
 
   def fetch_snapshot
     FileUtils.mkdir_p(@options[:output])
-    manifest = { 'retrieved_at' => Time.now.utc.iso8601, 'bundles' => {} }
+    manifest = { 'retrieved_at' => Time.now.utc.iso8601, 'bundles' => {}, 'conditional_fetch' => true }
 
     @options[:domains].each do |domain|
       filename = MitreCommon.versioned_bundle_filename(domain, @options[:version])
@@ -124,7 +127,8 @@ class MitreAttackImporter
 
       path = File.join(@options[:output], filename)
       puts "Fetching #{domain}: #{url}"
-      download(url, path)
+      prior_info, prior_path = prior_bundle(domain, url)
+      fetch_info = download(url, path, prior_info: prior_info, prior_path: prior_path)
 
       attack_version = begin
         MitreCommon.attack_version_from_bundle(JSON.parse(File.read(path)))
@@ -135,8 +139,10 @@ class MitreAttackImporter
       manifest['bundles'][domain] = {
         'url' => url,
         'filename' => filename,
-        'attack_version' => attack_version
-      }
+        'attack_version' => attack_version,
+        'sha256' => Digest::SHA256.file(path).hexdigest,
+        'response' => fetch_info
+      }.compact
     end
 
     File.write(File.join(@options[:output], 'manifest.yml'), YAML.dump(manifest))
@@ -172,14 +178,53 @@ class MitreAttackImporter
     puts "Wrote #{MitreVersionResolver::ACTIVE_FILE}"
   end
 
-  def download(url, path)
+  def prior_bundle(domain, url)
+    root = @options[:prior_snapshot]
+    return [nil, nil] if root.to_s.empty?
+
+    manifest_path = File.join(root, 'manifest.yml')
+    return [nil, nil] unless File.file?(manifest_path)
+
+    prior = YAML.safe_load(File.read(manifest_path), permitted_classes: [Time, Date], aliases: true) || {}
+    info = (prior['bundles'] || {})[domain]
+    return [nil, nil] unless info.is_a?(Hash) && info['url'].to_s == url
+
+    candidate = File.join(root, info['filename'].to_s)
+    return [nil, nil] unless File.file?(candidate)
+    return [nil, nil] if info['sha256'].to_s.empty? || Digest::SHA256.file(candidate).hexdigest != info['sha256']
+
+    [info.merge(info['response'] || {}).merge('prior_retrieved_at' => prior['retrieved_at']), candidate]
+  rescue Psych::Exception, Errno::ENOENT
+    [nil, nil]
+  end
+
+  def download(url, path, prior_info: nil, prior_path: nil)
     uri = URI.parse(url)
     Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == 'https') do |http|
       req = Net::HTTP::Get.new(uri)
+      req['If-None-Match'] = prior_info['etag'] if prior_info && prior_info['etag']
+      req['If-Modified-Since'] = prior_info['last_modified'] if prior_info && prior_info['last_modified']
       res = http.request(req)
+      if res.is_a?(Net::HTTPNotModified)
+        raise "HTTP 304 without verified prior snapshot for #{url}" unless prior_path && File.file?(prior_path)
+
+        FileUtils.cp(prior_path, path) unless File.expand_path(prior_path) == File.expand_path(path)
+        return { 'status' => 'not_modified', 'etag' => prior_info['etag'],
+                 'last_modified' => prior_info['last_modified'],
+                 'source_retrieved_at' => prior_info['prior_retrieved_at'],
+                 'bytes' => File.size(path) }.compact
+      end
       raise "HTTP #{res.code} for #{url}" unless res.is_a?(Net::HTTPSuccess)
 
-      File.binwrite(path, res.body)
+      temporary = "#{path}.part-#{Process.pid}"
+      begin
+        File.binwrite(temporary, res.body)
+        File.rename(temporary, path)
+      ensure
+        FileUtils.rm_f(temporary)
+      end
+      { 'status' => 'modified', 'etag' => res['etag'], 'last_modified' => res['last-modified'],
+        'bytes' => res.body.bytesize }.compact
     end
   end
 

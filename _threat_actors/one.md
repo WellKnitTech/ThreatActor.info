@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Does Mark Zuckerberg really believe AI is ‘for everyone’?](https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/)
-  TechCrunch - 2026-08-14T
-- [Secure all your internal vibe-coded applications — in one click](https://blog.cloudflare.com/workers-protected-by-access/)
-  Cloudflare - 2026-08-14T
-- [Hackers exploit macOS Screen Sharing flaw to deploy Monero miner](https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/)
-  BleepingComputer - 2026-08-14T
-- [AI 'watermark removers' flood the web. Almost none can prove they work.](https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work/)
-  BleepingComputer - 2026-08-13T
-- [737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One](https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html)
-  The Hacker News - 2026-08-12T
+- [Lovehoney Coupon Offers: Toys, Lingerie, and Gift Set Discounts](https://www.wired.com/story/lovehoney-discount-code/)
+  Wired - 2026-09-03T
+- [X shifts US creator payouts from Stripe to X Money](https://techcrunch.com/2026/09/02/x-shifts-us-creator-payouts-from-stripe-to-x-money/)
+  TechCrunch - 2026-09-02T
+- [Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program](https://www.paloaltonetworks.com/blog/2026/09/building-securely-from-day-one-palo-alto-networks-partners-with-the-zendesk-startup-program/)
+  Palo Alto Networks - 2026-09-02T
+- [GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends](https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html)
+  The Hacker News - 2026-09-02T
+- [Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another](https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html)
+  The Hacker News - 2026-09-02T
 

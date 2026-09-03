@@ -18,6 +18,23 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
+
+    - name: Verify workflow dependency policy
+      run: ruby scripts/verify-workflow-dependency-policy.rb
+
+    - name: Set up importer prerequisites
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Install importer prerequisites
+      run: |
+        sudo apt-get update
+        sudo apt-get install --yes poppler-utils
+        python -m pip install --requirement requirements-importers.txt
+
+    - name: Run Python importer tests
+      run: python -m unittest discover -s test -p 'test_ocd_entity_reconciler.py' -v
       
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
@@ -25,10 +42,6 @@ jobs:
         ruby-version: '3.2.5'
         bundler-cache: true
         
-    - name: Install dependencies
-      run: |
-        bundle install
-
     - name: Check source freshness
       run: ruby scripts/check-source-freshness.rb --mode warn --report-json tmp/source-freshness-report.json
 
