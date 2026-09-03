@@ -123,7 +123,8 @@ def report_counts(payload)
   unmatched ||= [total - matched - (new_candidates || 0), 0].max if total && matched
   counts = payload.merge('matched' => matched, 'unmatched' => unmatched,
                          'new_candidates' => new_candidates, 'total_records' => total)
-  no_op = [matched, unmatched, new_candidates, total].compact.all?(&:zero?)
+  # Zero counters are only safe when the source explicitly says it was empty.
+  no_op = false
   [counts, !no_op, nil]
 end
 

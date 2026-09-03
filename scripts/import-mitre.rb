@@ -131,7 +131,7 @@ class MitreAttackImporter
       puts "Fetching #{domain}: #{url}" unless cached
       if cached
         FileUtils.cp(cached[:path], path)
-        fetch_info = { 'status' => 'reused', 'bytes' => File.size(path) }
+        fetch_info = { 'status' => 'reused', 'bytes' => 0, 'copied_bytes' => File.size(path) }
         puts "Reusing unchanged #{domain} bundle (ATT&CK #{cached[:version]})"
       else
         puts "Fetching #{domain}: #{url}"
@@ -257,7 +257,7 @@ class MitreAttackImporter
         return { 'status' => 'not_modified', 'etag' => prior_info['etag'],
                  'last_modified' => prior_info['last_modified'],
                  'source_retrieved_at' => prior_info['prior_retrieved_at'],
-                 'bytes' => File.size(path) }.compact
+                 'bytes' => 0, 'copied_bytes' => File.size(path) }.compact
       end
       raise "HTTP #{res.code} for #{url}" unless res.is_a?(Net::HTTPSuccess)
 

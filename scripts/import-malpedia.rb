@@ -137,6 +137,7 @@ class MalpediaImporter
       report_json: nil
     }
     @request_metrics = { 'request_count' => 0, 'response_bytes' => 0 }
+    @metrics_mutex = Mutex.new
     @overrides = {
       excluded_actor_ids: [],
       match_overrides: {},
@@ -260,7 +261,8 @@ class MalpediaImporter
       File.join(@options[:output], 'cache-manifest.yml'),
       SourceImport::CacheManifest.build(
         source_key: 'malpedia', retrieved_at: manifest['retrieved_at'],
-        source_version: nil, validators: {}, records: selected_actors.values,
+        source_version: nil, validators: {},
+        records: selected_actors.map { |source_record_id, record| record.merge('source_record_id' => source_record_id) },
         freshness: 'fresh', metrics: @request_metrics,
         detail_count: actor_details.length, details_included: @options[:include_details]
       )
@@ -623,14 +625,16 @@ class MalpediaImporter
       http.request(Net::HTTP::Get.new(uri))
     end
 
+    @metrics_mutex.synchronize do
+      @request_metrics['request_count'] += 1
+      @request_metrics['response_bytes'] += response_body_bytes(response)
+    end
     if response.code == '429'
       retry_after = response['retry-after']
       suffix = retry_after ? "; Retry-After=#{retry_after}" : ''
       raise RateLimitError, "HTTP 429 for #{uri}#{suffix}"
     end
 
-    @request_metrics['request_count'] += 1
-    @request_metrics['response_bytes'] += response.body.to_s.bytesize
     raise "HTTP #{response.code} for #{uri}" unless response.is_a?(Net::HTTPSuccess)
 
     JSON.parse(response.body)
@@ -642,6 +646,12 @@ class MalpediaImporter
       sleep([REQUEST_INTERVAL_SECONDS - (now - @last_request_at), 0].max)
     end
     @last_request_at = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+  end
+
+  def response_body_bytes(response)
+    response.body.to_s.bytesize
+  rescue IOError
+    response['content-length'].to_i
   end
 
   def safe_load_yaml_file(path)

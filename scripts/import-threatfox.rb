@@ -193,7 +193,7 @@ class ThreatFoxImporter
 
       payload = JSON.parse(File.read(data_path))
       manifest = YAML.safe_load(File.read(manifest_path), permitted_classes: [], aliases: false) || {}
-      next unless manifest.is_a?(Hash) && manifest['query_status'].to_s == 'ok' && payload.is_a?(Hash) && payload['data'].is_a?(Array)
+      next unless valid_known_good_snapshot?(payload, manifest, path)
 
       return { path: path, payload: payload, manifest: manifest }
     rescue JSON::ParserError, Psych::Exception
@@ -201,6 +201,25 @@ class ThreatFoxImporter
     end
 
     nil
+  end
+
+  def valid_known_good_snapshot?(payload, manifest, path)
+    return false unless manifest.is_a?(Hash) && manifest['query_status'].to_s == 'ok'
+    return false unless payload.is_a?(Hash) && payload['data'].is_a?(Array)
+    return false unless manifest['record_count'].to_i == payload['data'].length
+
+    expected = manifest['record_hashes']
+    cache_path = File.join(path, manifest['cache_manifest'].to_s)
+    if expected.is_a?(Hash)
+      return expected == SourceImport::CacheManifest.record_hashes(payload['data'])
+    end
+    if File.file?(cache_path)
+      cache = SourceImport::CacheManifest.load(cache_path)
+      return false unless cache && cache['record_count'].to_i == payload['data'].length
+      return cache['record_hashes'] == SourceImport::CacheManifest.record_hashes(payload['data'])
+    end
+
+    true
   end
 
   def http_post_json(url, body, extra_headers = {})

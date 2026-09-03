@@ -64,4 +64,11 @@ class CacheManifestTest < Minitest::Test
       assert_nil importer.send(:reusable_bundle, 'enterprise', 'enterprise-attack.json')
     end
   end
+
+  def test_malpedia_record_hashes_use_source_actor_id
+    records = [{ 'source_record_id' => 'actor-b', 'value' => 'B' }, { 'source_record_id' => 'actor-a', 'value' => 'A' }]
+    hashes = SourceImport::CacheManifest.record_hashes(records)
+    assert_equal %w[actor-a actor-b], hashes.keys.sort
+    refute hashes.keys.any? { |key| key.start_with?('index:') }
+  end
 end

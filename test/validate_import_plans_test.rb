@@ -89,14 +89,22 @@ class ValidateImportPlansTest < Minitest::Test
     assert_includes output, 'no-op'
   end
 
-  def test_zero_candidate_report_is_a_no_op
+  def test_zero_candidate_report_requires_explicit_empty_metadata
     output, _error, status = run_validator('generic' => { 'total_candidates' => 0, 'updates' => 0, 'creates' => 0 })
-    assert status.success?, output
-    assert_includes output, 'no-op'
+    refute status.success?
+    assert_includes output, 'match ratio'
   end
 
-  def test_empty_action_list_is_a_no_op
+  def test_explicit_empty_report_is_a_no_op
     output, _error, status = run_validator('generic' => { 'actions' => [] })
+    refute status.success?
+    assert_includes output, 'match ratio'
+  end
+
+  def test_empty_action_list_with_reason_is_a_no_op
+    output, _error, status = run_validator('generic' => {
+      'status' => 'source_empty', 'empty_reason' => 'No records published today', 'actions' => []
+    })
     assert status.success?, output
     assert_includes output, 'no-op'
   end

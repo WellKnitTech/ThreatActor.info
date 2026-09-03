@@ -81,6 +81,22 @@ class ThreatFoxFallbackTest < Minitest::Test
     end
   end
 
+  def test_count_mismatch_rejects_prior_snapshot
+    Dir.mktmpdir do |root|
+      payload = { 'query_status' => 'ok', 'data' => [{ 'id' => 10 }] }
+      prior = write_snapshot(root, '2026-08-31', payload)
+      File.write(File.join(prior, 'manifest.yml'), <<~YAML)
+        query_status: ok
+        retrieved_at: '2026-08-31T03:00:00Z'
+        record_count: 99
+      YAML
+      error = assert_raises(RuntimeError) do
+        importer(output: File.join(root, '2026-09-01')).send(:fetch_snapshot)
+      end
+      assert_includes error.message, 'no_auth_key'
+    end
+  end
+
   def test_auth_failure_payload_reuses_last_known_good_snapshot
     Dir.mktmpdir do |root|
       payload = { 'query_status' => 'ok', 'data' => [{ 'id' => 9 }] }
