@@ -181,9 +181,8 @@ class ThreatFoxImporter
 
   def latest_known_good_snapshot
     root = File.dirname(@options[:output])
-    current = File.expand_path(@options[:output])
     candidates = Dir.children(root).map { |name| File.join(root, name) }
-                   .select { |path| File.directory?(path) && File.expand_path(path) != current }
+                   .select { |path| File.directory?(path) }
                    .sort_by { |path| -File.mtime(path).to_f }
 
     candidates.each do |path|
