@@ -27,6 +27,7 @@ observations:
       - source: "example-report"
         record_id: "report-17"
         retrieved_at: "2024-02-05T00:00:00Z"
+        status: false_positive
     relationships:
       - target_kind: actor
         target_id: apt28
@@ -102,3 +103,22 @@ observations:
     false_positive:
       reason: "Publisher confirmed shared hosting false positive"
       source: "example-feed"
+  - type: domain
+    value: "stale.example"
+    status: deprecated
+    sources:
+      - source: "example-feed"
+        retrieved_at: "2020-01-01T00:00:00Z"
+        status: deprecated
+  - type: domain
+    value: "conflict.example"
+    sources:
+      - source: "example-feed"
+        retrieved_at: "2024-02-04T00:00:00Z"
+    relationships:
+      - target_kind: actor
+        target_id: apt28
+        role: reported_by
+      - target_kind: actor
+        target_id: apt29
+        role: reported_by
