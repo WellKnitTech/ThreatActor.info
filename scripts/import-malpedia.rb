@@ -15,8 +15,14 @@ require_relative 'actor_store'
 
 class MalpediaImporter
   DEFAULT_BASE_URL = 'https://malpedia.caad.fkie.fraunhofer.de'.freeze
+  DETAIL_WORKERS = 4
+  HTTP_OPEN_TIMEOUT = 15
+  HTTP_READ_TIMEOUT = 10
   DEFAULT_SNAPSHOT_ROOT = 'data/imports/malpedia'.freeze
   DEFAULT_OVERRIDES_FILE = 'data/imports/malpedia/mapping_overrides.yml'.freeze
+  REQUEST_INTERVAL_SECONDS = 2.0
+  class RateLimitError < StandardError; end
+
   SOURCE_NAME = 'Malpedia (Fraunhofer FKIE)'.freeze
   SOURCE_SITE = 'https://malpedia.caad.fkie.fraunhofer.de/'.freeze
   LICENSE_NAME = 'CC BY-NC-SA 3.0'.freeze
@@ -134,6 +140,7 @@ class MalpediaImporter
       match_overrides: {},
       actor_id_overrides: {}
     }
+    @last_request_at = nil
   end
 
   def run
@@ -213,20 +220,19 @@ class MalpediaImporter
     actor_ids = actor_ids.first(@options[:limit]) if @options[:limit]
 
     all_actor_meta = http_get_json(build_uri('/api/get/actors'))
-    actor_details = {}
+    actor_details = fetch_actor_details(actor_ids)
     selected_actors = {}
 
     if @options[:include_details]
       actor_ids.each do |actor_id|
-        detail = http_get_json(build_uri("/api/get/actor/#{URI.encode_www_form_component(actor_id)}"))
-        actor_details[actor_id] = detail
+        detail = actor_details[actor_id]
+        next unless detail
+
         actor_name = detail['value']
         next if actor_name.to_s.empty?
 
         meta_record = all_actor_meta[actor_name] || {}
         selected_actors[actor_name] = deep_merge(meta_record, detail)
-      rescue StandardError => e
-        warn "Skipping detail for #{actor_id}: #{e.message}"
       end
     else
       selected_actors = filter_actor_meta_without_details(all_actor_meta, actor_ids)
@@ -262,6 +268,32 @@ class MalpediaImporter
 
     filters = @options[:actor_filters].map { |value| normalize_key(value) }
     selected.select { |actor_id| filters.include?(normalize_key(actor_id)) }
+  end
+
+  def fetch_actor_details(actor_ids)
+    return {} unless @options[:include_details]
+
+    queue = Queue.new
+    actor_ids.each { |actor_id| queue << actor_id }
+    details = {}
+    mutex = Mutex.new
+    workers = Array.new([DETAIL_WORKERS, actor_ids.length].min) do
+      Thread.new do
+        loop do
+          actor_id = queue.pop(true)
+          detail = http_get_json(build_uri("/api/get/actor/#{URI.encode_www_form_component(actor_id)}"))
+          mutex.synchronize { details[actor_id] = detail }
+        rescue ThreadError
+          break
+        rescue StandardError => e
+          warn "Skipping detail for #{actor_id}: #{e.message}"
+        end
+      end
+    end
+    workers.each(&:join)
+    actor_ids.each_with_object({}) do |actor_id, ordered|
+      ordered[actor_id] = details[actor_id] if details.key?(actor_id)
+    end
   end
 
   def filter_actor_meta_without_details(all_actor_meta, actor_ids)
@@ -573,13 +605,29 @@ class MalpediaImporter
   end
 
   def http_get_json(uri)
-    response = Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == 'https') do |http|
+    wait_for_request_slot
+    response = Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == 'https',
+                               open_timeout: HTTP_OPEN_TIMEOUT, read_timeout: HTTP_READ_TIMEOUT) do |http|
       http.request(Net::HTTP::Get.new(uri))
+    end
+
+    if response.code == '429'
+      retry_after = response['retry-after']
+      suffix = retry_after ? "; Retry-After=#{retry_after}" : ''
+      raise RateLimitError, "HTTP 429 for #{uri}#{suffix}"
     end
 
     raise "HTTP #{response.code} for #{uri}" unless response.is_a?(Net::HTTPSuccess)
 
     JSON.parse(response.body)
+  end
+
+  def wait_for_request_slot
+    now = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+    if @last_request_at
+      sleep([REQUEST_INTERVAL_SECONDS - (now - @last_request_at), 0].max)
+    end
+    @last_request_at = Process.clock_gettime(Process::CLOCK_MONOTONIC)
   end
 
   def safe_load_yaml_file(path)

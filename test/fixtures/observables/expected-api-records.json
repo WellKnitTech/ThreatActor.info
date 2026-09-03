@@ -1,0 +1,40 @@
+{
+  "schema_version": "ioc-observable-v1",
+  "records": [
+    {
+      "id": "obs_v1_<deterministic-type-value-digest>",
+      "type": "domain",
+      "value": "c2.example.com",
+      "normalized_value": "c2.example.com",
+      "canonical_value": "c2.example.com",
+      "display_value": "c2[.]example.com",
+      "atomic": true,
+      "status": "active",
+      "lookup_keys": ["c2.example.com"],
+      "source_observation_count": 2,
+      "relationship_count": 1
+    },
+    {
+      "type": "md5",
+      "value": "00000000000000000000000000000000",
+      "normalized_value": "00000000000000000000000000000000",
+      "canonical_value": "00000000000000000000000000000000",
+      "atomic": true,
+      "status": "active",
+      "lookup_keys": ["00000000000000000000000000000000"]
+    },
+    {
+      "type": "ip_address",
+      "value": "192.0.2.10",
+      "normalized_value": "192.0.2.10",
+      "canonical_value": "192.0.2.10",
+      "atomic": true,
+      "status": "active",
+      "lookup_keys": ["192.0.2.10"]
+    }
+  ],
+  "excluded": [
+    {"value": "benign.example", "status": "false_positive"},
+    {"value": "malformed.example", "status": "quarantined"}
+  ]
+}

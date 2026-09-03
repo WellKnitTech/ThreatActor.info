@@ -34,9 +34,3 @@ SunCrypt ransomware was discovered in October 2019 and in August 2020 it was add
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI](https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai)
-  DarkReading - 2026-08-14T
-

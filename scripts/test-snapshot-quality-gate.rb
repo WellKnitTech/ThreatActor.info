@@ -47,6 +47,36 @@ Dir.mktmpdir('snapshot-gate-test') do |root|
   rescue SnapshotQualityGate::Rejected => error
     abort 'checksum diagnostic missing' unless error.diagnostics['issues'].any? { |issue| issue.include?('checksum mismatch') }
   end
+
+  %w[scalar array].each do |shape|
+    malformed = File.join(root, shape)
+    FileUtils.mkdir_p(malformed)
+    File.write(File.join(malformed, 'actors.json'), JSON.generate([{ 'name' => 'APT29' }]))
+    File.write(File.join(malformed, 'manifest.yml'), shape == 'scalar' ? "broken\n" : "- broken\n")
+    begin
+      SnapshotQualityGate.validate!(malformed, source: 'unit42')
+      abort "#{shape} manifest was accepted"
+    rescue SnapshotQualityGate::Rejected => error
+      abort "#{shape} manifest diagnostic missing" unless error.diagnostics['issues'].any? { |issue| issue.include?('manifest must contain a mapping') }
+    end
+  end
+
+  detail = File.join(root, 'detail')
+  FileUtils.mkdir_p(File.join(detail, 'pages'))
+  detail_page = '<html>detail</html>'
+  File.write(File.join(detail, 'page.html'), raw)
+  File.write(File.join(detail, 'pages', 'apt29.html'), detail_page)
+  File.write(File.join(detail, 'actors.json'), JSON.generate([{ 'name' => 'APT29' }]))
+  File.write(File.join(detail, 'manifest.yml'), YAML.dump(
+    'source_checksum_sha256' => Digest::SHA256.hexdigest(raw),
+    'detail_pages' => [{ 'file' => 'pages/apt29.html', 'sha256' => '0' * 64 }]
+  ))
+  begin
+    SnapshotQualityGate.validate!(detail, source: 'unit42')
+    abort 'detail-page checksum mismatch was accepted'
+  rescue SnapshotQualityGate::Rejected => error
+    abort 'detail-page checksum diagnostic missing' unless error.diagnostics['issues'].any? { |issue| issue.include?('pages/apt29.html') }
+  end
 end
 
 puts 'snapshot quality gate tests passed'

@@ -46,12 +46,16 @@ check_file "scripts/check-persona-content.rb"
 
 check_file "scripts/check-source-freshness.rb"
 check_file "scripts/verify-weekly-data-workflow.rb"
+check_file "scripts/verify-import-sources-workflow.rb"
+check_file "scripts/test-import-runner-contract.rb"
 
 echo "Running source freshness check (warning mode for local validation)..."
 ruby scripts/check-source-freshness.rb --mode warn --report-json tmp/source-freshness-report.json
 
 echo "Checking scheduled workflow merge safety..."
 ruby scripts/verify-weekly-data-workflow.rb
+ruby scripts/verify-import-sources-workflow.rb
+ruby scripts/test-import-runner-contract.rb
 
 echo "Checking for removed persona content..."
 ruby scripts/check-persona-content.rb

@@ -58,6 +58,8 @@ Reviewed name and rename handling lives in `data/imports/ransomlook/mapping_over
 
 ## Automation Policy
 
+The normative observable source and actor-linkage decisions are in the [Observable source and attribution policy](source-policy.md), with the machine-readable register at `data/observable-source-policy.yml` and regression scenarios at `data/observable-policy-scenarios.yml`. No importer may publish an observable or actor link outside that register.
+
 - Treat importer snapshots in `data/imports/*` as the operational cache layer.
 - Run public, machine-consumable source imports through `ruby scripts/import-automated-sources.rb`; analyst notes are intentionally excluded from this runner.
 - **`import-automated-sources.rb` source order:** Each entry in `SOURCES_UNSORTED` in [`scripts/import-automated-sources.rb`](../scripts/import-automated-sources.rb) sets a **`priority` integer** (lower runs first); at load time the runner builds **`SOURCES`** as `SOURCES_UNSORTED.sort_by(&:priority)` and aborts if priorities collide or if `mitre-attack` is not priority `1`. Policy: **MITRE ATT&CK first** (canonical STIX backbone), then other **STIX/JSON/static feeds** (for example Wiz, MISP Galaxy, ETDA JSON, Malpedia, APTmap, EternalLiberty), then **tabular sources** (XLSX, CSV, Google Sheets export), then **JSON APIs** used as enrichment (RansomLook, RedDrip7 GitHub API), then **markdown-derived** snapshots (Bushido matrices and README indexes), and **HTML scrapers last** so brittle site parsing does not block structured pipelines. When adding a new automated source, add a `Source.new` with a unique `priority` in the appropriate tier.
@@ -68,6 +70,38 @@ Reviewed name and rename handling lives in `data/imports/ransomlook/mapping_over
 - Use `ruby scripts/evaluate-source-deltas.rb` to enforce update thresholds before publishing large changes.
 - See [Keeping actor pages current](keeping-actor-pages-current.md) for committing regenerated `_threat_actors/*.md`, `_data/generated/*`, and `api/*` together with `_data/actors/*.yml` after imports.
 - See `docs/data-flows.md` for the source-of-truth map and the analyst-note supersession policy.
+
+## Orange Cyberdefense Ransomware Ecosystem Map extractor
+
+`scripts/import-ocd-ransomware-map.rb` is a bounded, research-only extractor for the OCD visual map. It is deliberately not an actor importer: it never edits `_data/actors`, and its candidate JSON must be manually adjudicated before any relationship, alias, entity-type, timeline, or actor-page change.
+
+### Supported local setup
+
+The reconciler is Python 3 and uses the pinned dependency in `requirements-importers.txt`:
+
+```bash
+python3 -m venv .venv-importers
+. .venv-importers/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements-importers.txt
+sudo apt-get install poppler-utils
+python -m unittest discover -s test -p 'test_ocd_entity_reconciler.py' -v
+```
+
+The `poppler-utils` package provides `pdftotext`, which is required by the `plan` path. The importer checks for it before extraction and quarantines the run with an actionable diagnostic instead of silently producing an incomplete plan. The canonical accepted input is committed at `data/imports/ocd-ransomware-map/accepted.yml`; it is intentionally exempted from the general snapshot-cache ignore rule so Pages and automated commits use the same review-gated data.
+
+- `fetch --output PATH` downloads the pinned v29 PDF and README with HTTPS timeouts and a 10 MiB response limit, verifies the pinned SHA-256 values and rights marker, and writes a local snapshot under `data/imports/ocd-ransomware-map/...`.
+- `plan --snapshot PATH --output PATH` verifies manifest paths, version, license marker, hashes, and PDF structure; runs deterministic `pdftotext -layout -nopgbrk`; and emits `report.json` plus `candidates.json` in the report output directory. Extracted PDF text remains temporary and is not written to the output.
+- Raw PDFs remain local snapshot artifacts outside publishable generated data. The site must store only source URL, commit/version, hashes, and derived review candidates; do not redistribute the upstream PDF.
+- A changed source format, license marker, version, manifest, checksum, or PDF extraction failure quarantines the run and emits no candidates. Missing or ambiguous changelog labels are diagnostics, not automatic actor updates.
+- PDF text/layout extraction is a weak evidence signal and is not authoritative for graph edges or timeline placement.
+
+Example:
+
+```bash
+ruby scripts/import-ocd-ransomware-map.rb fetch --output data/imports/ocd-ransomware-map/2026-08-19-v29
+ruby scripts/import-ocd-ransomware-map.rb plan --snapshot data/imports/ocd-ransomware-map/2026-08-19-v29 --output tmp/ocd-ransomware-map
+```
 
 - **`--source attack`** is accepted as an alias for **`mitre-attack`** in `import-automated-sources.rb` (same script: `scripts/import-mitre.rb`).
 
@@ -86,6 +120,33 @@ ruby scripts/import-automated-sources.rb --source threatfox --apply
 ```
 
 Scheduled GitHub Actions can pass **`THREATFOX_API_KEY`** from a repository secret so `fetch` returns live IOCs.
+
+## Malpedia importer
+
+`scripts/import-malpedia.rb` imports Malpedia (Fraunhofer FKIE) metadata as
+existing-actor enrichment. It writes dated snapshots under
+`data/imports/malpedia/<YYYY-MM-DD>/` and does not create new actors.
+
+The fetch path reads the actor list and aggregate metadata, then optionally
+retrieves per-actor detail payloads for malware-family relationships. Because
+that detail path can require hundreds of requests, the importer deliberately
+uses a 2-second interval between requests. HTTP 429 is a terminal rate-limit
+signal for the fetch: the importer stops immediately, preserves the upstream
+`Retry-After` value in the error message when provided, and does not continue
+requesting actor details. The weekly workflow also suppresses its normal
+failure retry after a 429. Do not parallelize Malpedia requests or repeatedly
+manually dispatch the workflow.
+
+```bash
+ruby scripts/import-malpedia.rb fetch --output data/imports/malpedia/$(date -u +%F)
+ruby scripts/import-malpedia.rb plan --snapshot data/imports/malpedia/DATE \
+  --report-json tmp/malpedia-plan.json
+ruby scripts/import-malpedia.rb import --snapshot data/imports/malpedia/DATE \
+  --report-json tmp/malpedia-import.json
+```
+
+For incident response and GitHub environment guidance, see
+[Automated import operations](import-operations.md).
 
 
 

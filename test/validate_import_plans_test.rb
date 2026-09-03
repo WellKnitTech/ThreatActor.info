@@ -5,6 +5,7 @@ require 'json'
 require 'minitest/autorun'
 require 'open3'
 require 'tmpdir'
+require_relative '../scripts/import-threatfox'
 class ValidateImportPlansTest < Minitest::Test
   VALIDATOR = File.expand_path('../scripts/validate-import-plans.rb', __dir__)
   CONFIG = File.expand_path('../data/imports/plan_thresholds.yml', __dir__)
@@ -90,4 +91,60 @@ class ValidateImportPlansTest < Minitest::Test
     assert_includes output, 'unmatched/new ratio'
   end
 
+
+  def test_disjoint_review_and_skipped_counters_are_both_counted
+    output, _error, status = run_validator('generic' => {
+      'total_candidates' => 100, 'updates' => 60, 'review' => 1, 'skipped' => 39
+    })
+    refute status.success?
+    assert_includes output, 'unmatched/new ratio'
+  end
+
+  def test_source_records_and_label_arrays_bound_matching_ratio
+    output, _error, status = run_validator('generic' => {
+      'source_records' => 100, 'actors_with_updates' => 1,
+      'unmatched_labels' => Array.new(99, 'unmatched')
+    })
+    refute status.success?
+    assert_includes output, 'match ratio'
+  end
+
+  def test_parsed_records_prevent_zero_match_collapse_from_being_a_no_op
+    output, _error, status = run_validator('generic' => {
+      'parsed_records' => 100, 'actors_with_updates' => 0
+    })
+    refute status.success?
+    assert_includes output, 'match ratio'
+  end
+
+  def test_label_arrays_override_stale_scalar_unmatched_count
+    output, _error, status = run_validator('generic' => {
+      'total_candidates' => 100, 'updates' => 60, 'unmatched' => 1,
+      'unmatched_labels' => Array.new(39, 'unmatched'),
+      'review_labels' => []
+    })
+    refute status.success?
+    assert_includes output, 'unmatched/new ratio'
+  end
+
+  def test_matrix_source_labels_count_as_matches_after_actor_deduplication
+    output, _error, status = run_validator('generic' => {
+      'source_records' => 100, 'actors_with_updates' => 1,
+      'actor_updates' => [{ 'source_labels' => Array.new(99, 'label') }],
+      'unmatched_labels' => ['unmatched']
+    })
+    assert status.success?, output
+  end
+
+  def test_threatfox_import_rejects_failed_query_before_reading_rows
+    Dir.mktmpdir do |dir|
+      snapshot = File.join(dir, 'get_iocs.json')
+      File.write(snapshot, JSON.generate('query_status' => 'query_failed', 'data' => []))
+      importer = ThreatFoxImporter.new([])
+      importer.instance_variable_set(:@options, snapshot: snapshot, limit: nil, report_json: nil)
+
+      error = assert_raises(RuntimeError) { importer.send(:run_plan_or_import, write: true) }
+      assert_includes error.message, 'query_failed'
+    end
+  end
 end

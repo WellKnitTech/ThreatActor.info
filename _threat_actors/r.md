@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Woman claims her stepfather used Grok to transform childhood photo into explicit imagery](https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/)
-  TechCrunch - 2026-08-15T
-- [Anthropic shares more details about how Claude’s new watermarks will work](https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/)
-  TechCrunch - 2026-08-15T
-- [SpaceX officially closes its Cursor acquisition](https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/)
-  TechCrunch - 2026-08-15T
-- [How to tell if your AI platforms’ accounts have been hacked](https://techcrunch.com/2026/08/15/how-to-tell-if-your-ai-platforms-accounts-have-been-hacked/)
-  TechCrunch - 2026-08-15T
-- [Every fusion startup that has raised over $100M](https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/)
-  TechCrunch - 2026-08-15T
+- [eBay Coupons: 20% Off in September 2026](https://www.wired.com/story/ebay-coupon-code/)
+  Wired - 2026-09-02T
+- [Uplift Promo Codes: $300 Off](https://www.wired.com/story/uplift-desk-coupon-code/)
+  Wired - 2026-09-02T
+- [Whoop Promo Codes: 20% Off This September 2026](https://www.wired.com/story/whoop-promo-code/)
+  Wired - 2026-09-02T
+- [Verizon Promo Codes: $200 Verizon Gift Cards | September 2026](https://www.wired.com/story/verizon-promo-code/)
+  Wired - 2026-09-02T
+- [Altra Running Promo Codes: 10% Off September 2026](https://www.wired.com/story/altra-promo-code/)
+  Wired - 2026-09-02T
 

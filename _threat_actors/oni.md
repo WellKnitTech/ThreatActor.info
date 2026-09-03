@@ -33,10 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Puerto Rico Is Rationing Water. It Could’ve Avoided It by Harvesting Rainwater](https://www.wired.com/story/puerto-rico-is-rationing-water-it-could-avoid-it-by-harvesting-rainwater/)
-  Wired - 2026-08-15T
-- [Certificate Transparency Monitoring is now generally available](https://blog.cloudflare.com/certificate-transparency-monitoring-ga/)
-  Cloudflare - 2026-08-13T
-- [OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning](https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html)
-  The Hacker News - 2026-08-12T
+- [SonicWall warns of actively exploited SMA1000 zero-day flaws](https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/)
+  BleepingComputer - 2026-09-02T
+- [Hackers abuse Faronics Deploy admin tool to install ScreenConnect](https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/)
+  BleepingComputer - 2026-09-01T
+- [Critical Vulnerabilities in SonicWall SMA1000 Series Appliances Under Active Exploitation (CVE-2026-83548, CVE-2026-83549)](https://labs.beazley.security/advisories/BSL-A1201)
+  Beazley Security Labs Advisories - 2026-09-01T
+- ['TerminalFix' Campaign Weaponizes PowerShell for Enterprise Attacks](https://www.darkreading.com/threat-intelligence/terminalfix-campaign-weaponizes-powershell-enterprise-attacks)
+  DarkReading - 2026-08-31T
+- [Cronos blockchain restarts after $74 million Tectonic exploit](https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/)
+  BleepingComputer - 2026-08-31T
 

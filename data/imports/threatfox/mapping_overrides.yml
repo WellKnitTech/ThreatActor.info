@@ -1,5 +1,9 @@
-# Optional ThreatFox malware / tag -> actor url slug overrides (slug only, no slashes).
+# Optional reviewed ThreatFox malware/tag -> actor mappings. A string slug is
+# intentionally ignored; every mapping needs explicit review evidence.
 # Example:
 # malware_slug_overrides:
-#   win.lockbit: lockbit
+#   win.lockbit:
+#     actor_slug: lockbit
+#     reviewed_by: analyst
+#     reviewed_at: "2026-09-02"
 malware_slug_overrides: {}

@@ -175,6 +175,7 @@ CI workflows also regenerate pages and indexes, parse built API JSON, and check 
 - `docs/api.md` - static API endpoints and fields
 - `docs/data-flows.md` - canonical source layers and importer flow
 - `docs/importers.md` - importer-specific behavior and guardrails
+- `docs/import-operations.md` - scheduled imports, secrets, rate limits, and operator response
 - `docs/schema.md` - actor schema notes
 - `scripts/README.md` - script quick reference and usage examples
 - `AGENTS.md` - repository-specific guidance for coding agents

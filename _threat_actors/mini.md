@@ -33,8 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Auk Mini 2 Indoor Smart Garden Review: Better Where It Counts](https://www.wired.com/review/auk-mini-2-indoor-smart-garden/)
-  Wired - 2026-08-15T
-- [Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition](https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition)
-  DarkReading - 2026-08-12T
+- [Introducing Adaptive Intelligence: Undermining the economics of every bot attack](https://blog.cloudflare.com/introducing-adaptive-intelligence/)
+  Cloudflare - 2026-08-31T
 

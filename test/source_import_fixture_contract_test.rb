@@ -1,12 +1,14 @@
 # frozen_string_literal: true
 
 require 'minitest/autorun'
+require 'digest'
 require 'nokogiri'
 require 'tmpdir'
 require 'yaml'
 require_relative 'support/source_fixture_harness'
 require_relative '../scripts/import-unit42-threat-actor-groups'
 require_relative '../scripts/import-dragos-threat-groups'
+require_relative '../scripts/snapshot_quality_gate'
 
 class SourceImportFixtureContractTest < Minitest::Test
   include SourceFixtureHarness
@@ -36,6 +38,24 @@ class SourceImportFixtureContractTest < Minitest::Test
     assert_equal 'Palo Alto Networks Unit 42 Threat Actor Groups', expected_contract.dig('provenance', 'source_name')
   end
 
+  def test_unit42_changed_layout_uses_headings_and_passes_quality_gate
+    importer = Unit42ThreatActorGroupsImporter.new([])
+    records = importer.send(:parse_actors_from_html, html('unit42', 'changed-layout'))
+
+    assert_equal %w[APT29 Cozy\ Bear Tick], records.flat_map { |row| row['aliases'] }.sort
+    assert_equal ['Bronze Butler', 'SilverTerrier'], records.map { |row| row['name'] }
+
+    Dir.mktmpdir('unit42-quality-gate') do |snapshot_dir|
+      File.write(File.join(snapshot_dir, 'page.html'), html('unit42', 'changed-layout'))
+      File.write(File.join(snapshot_dir, 'actors.json'), JSON.generate(records))
+      File.write(File.join(snapshot_dir, 'manifest.yml'), YAML.dump(
+        'source_checksum_sha256' => Digest::SHA256.hexdigest(html('unit42', 'changed-layout'))
+      ))
+      result = SnapshotQualityGate.validate!(snapshot_dir, source: 'unit42')
+      assert_equal 'accepted', result['status']
+    end
+  end
+
   def test_unit42_empty_and_malformed_snapshots_quarantine
     importer = Unit42ThreatActorGroupsImporter.new([])
 
@@ -59,6 +79,95 @@ class SourceImportFixtureContractTest < Minitest::Test
       records = importer.send(:parse_actors, document, pages)
       assert_contract self, 'dragos', 'canonical', contract('dragos', records, pages.length)
       assert_equal ['APT29', 'Bronze Butler'], records.map { |row| row['name'] }
+    end
+  end
+
+  def test_dragos_changed_layout_discovers_threat_profile_links
+    importer = DragosThreatGroupsImporter.new([])
+    document = Nokogiri::HTML(html('dragos', 'changed-layout'))
+
+    links = importer.send(:extract_profile_links, document)
+    assert_equal ['https://www.dragos.com/threat/apt29'], links
+
+    records = importer.send(:parse_actors, document, [])
+    assert_equal ['APT29'], records.map { |row| row['name'] }
+    assert_equal ['https://www.dragos.com/threat/apt29'], records.first['source_urls']
+  end
+
+  def test_dragos_fetch_writes_nonempty_manifest_for_threat_profile_layout
+    Dir.mktmpdir('dragos-fetch') do |tmpdir|
+      importer = DragosThreatGroupsImporter.new([])
+      importer.instance_variable_set(:@options, { output: tmpdir })
+      root = html('dragos', 'changed-layout')
+      detail = html('dragos', 'changed-layout', 'pages/apt29.html')
+      importer.define_singleton_method(:http_get) do |url|
+        url.end_with?('/apt29') ? detail : root
+      end
+
+      importer.send(:fetch_snapshot)
+      manifest = YAML.safe_load(File.read(File.join(tmpdir, 'manifest.yml')))
+      records = JSON.parse(File.read(File.join(tmpdir, 'actors.json')))
+
+      assert_equal false, manifest['source_empty']
+      assert_equal 1, manifest['record_count']
+      assert_equal 1, records.length
+      assert_equal 'APT29', records.first['name']
+    end
+  end
+
+  def test_dragos_fetch_classifies_upstream_empty_catalog_in_manifest
+    root_html = html('dragos', 'empty')
+    importer_class = Class.new(DragosThreatGroupsImporter) do
+      define_method(:http_get) { |_url| root_html }
+    end
+
+    Dir.mktmpdir('dragos-empty-fetch') do |tmpdir|
+      importer = importer_class.new([])
+      importer.instance_variable_set(:@options, { output: tmpdir })
+      importer.send(:fetch_snapshot)
+
+      manifest = YAML.safe_load(File.read(File.join(tmpdir, 'manifest.yml')))
+      assert_equal true, manifest['source_empty']
+      refute_empty manifest['empty_reason'].to_s.strip
+      assert_equal 'source_empty', SnapshotQualityGate.validate!(tmpdir, source: 'dragos')['classification']
+    end
+  end
+
+  def test_dragos_blocked_responses_are_quarantined
+    %w[blocked].each do |case_name|
+      root_html = html('dragos', case_name)
+      importer_class = Class.new(DragosThreatGroupsImporter) do
+        define_method(:http_get) { |url| url == DragosThreatGroupsImporter::SOURCE_URL ? root_html : '<html></html>' }
+      end
+
+      Dir.mktmpdir("dragos-#{case_name}") do |tmpdir|
+        importer = importer_class.new([])
+        importer.instance_variable_set(:@options, { output: tmpdir })
+        importer.send(:fetch_snapshot)
+
+        error = assert_raises(SnapshotQualityGate::Rejected) { SnapshotQualityGate.validate!(tmpdir, source: 'dragos') }
+        assert_equal 'parser_empty', error.diagnostics['classification']
+      end
+    end
+  end
+
+  def test_dragos_parser_failure_with_zero_links_is_not_source_empty
+    root_html = html('dragos', 'malformed')
+    importer_class = Class.new(DragosThreatGroupsImporter) do
+      define_method(:http_get) { |_url| root_html }
+
+      define_method(:parse_actors) { |_root_doc, _pages| [] }
+    end
+
+    Dir.mktmpdir('dragos-parser-failure') do |tmpdir|
+      importer = importer_class.new([])
+      importer.instance_variable_set(:@options, { output: tmpdir })
+      importer.send(:fetch_snapshot)
+
+      manifest = YAML.safe_load(File.read(File.join(tmpdir, 'manifest.yml')))
+      assert_equal false, manifest['source_empty']
+      error = assert_raises(SnapshotQualityGate::Rejected) { SnapshotQualityGate.validate!(tmpdir, source: 'dragos') }
+      assert_equal 'parser_empty', error.diagnostics['classification']
     end
   end
 

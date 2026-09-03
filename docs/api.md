@@ -75,6 +75,24 @@ When a snapshot of [tropChaud/Categorized-Adversary-TTPs](https://github.com/tro
 
 - `categorized_adversary_ttps` — compact ETDA/ThaiCERT pivot metadata (`motivation`, `victim_industries`, `victim_countries`, `technique_count`, `etda_url`, etc.) keyed from the merged MITRE group ID.
 
+When a reviewed snapshot is present, the generator also publishes the review-gated OCD ransomware ecosystem digest. It is intentionally empty when no accepted input is staged.
+
+### `/api/ocd_ransomware_ecosystem.json`
+
+Stable schema (`schema_version: "1.0"`) for accepted derived OCD records:
+
+- `provenance.ocd_ransomware_map` — publisher, map version, pinned commit/hash, retrieval date, outbound artifact URL, and `all_rights_reserved` license note.
+- `ecosystem_links` — accepted relationship records retaining typed endpoints, confidence, uncertainty, review status, and evidence citation.
+- `ecosystem_events` — accepted timeline records retaining `when.text`, normalized precision when supplied, and evidence citation.
+- `actors` — actor-slug keyed digest containing `relationships`, `events`, and `mentions`.
+- `source_disclaimer` — non-exhaustive secondary-source warning.
+
+Per-actor shards are available at `/api/ransomware-ecosystem/<actor-slug>.json`. Rejected, unreviewed, or citation-incomplete records are omitted from both shapes. The upstream PDF is never stored in the repository or returned by the API.
+
+## OCD ransomware ecosystem digest
+
+The actor page displays this data only as secondary context: accepted derived records are marked with confidence/review badges, endpoint entity types, source version/date, Orange Cyberdefense CERT World Watch attribution, and an uncertainty/non-exhaustive disclaimer. Actors with no accepted records render no panel.
+
 ### `/api/recently-updated.json`
 
 Array of actor records with `last_updated` values, sorted newest first for homepage freshness cards.
@@ -381,6 +399,12 @@ Object keyed by **victim country** name. Values are technique ID → count maps 
 - IOC extraction is currently heuristic and driven by page headings and bullet formatting.
 - Some records in IOC sections are descriptive only; those are preserved with `atomic: false` and excluded from exact-match lookup indexes.
 - There is no server-side query language, pagination, or prefix search in `v1`.
+
+Field-level provenance, confidence, freshness, conflict, and supersession publication rules are
+planned in [Provenance and data-quality policy](provenance-quality-policy.md). Current IOC rows do
+not yet guarantee those fields; clients must treat missing quality metadata as unavailable and must
+not assume missing `status` means `active`. `last_updated` remains editorial metadata and is not an
+IOC observation timestamp.
 
 ## Future Improvements
 
