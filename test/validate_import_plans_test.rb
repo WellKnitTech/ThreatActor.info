@@ -92,13 +92,13 @@ class ValidateImportPlansTest < Minitest::Test
   def test_zero_candidate_report_requires_explicit_empty_metadata
     output, _error, status = run_validator('generic' => { 'total_candidates' => 0, 'updates' => 0, 'creates' => 0 })
     refute status.success?
-    assert_includes output, 'match ratio'
+    assert_includes output, 'all-zero report'
   end
 
   def test_explicit_empty_report_is_a_no_op
     output, _error, status = run_validator('generic' => { 'actions' => [] })
     refute status.success?
-    assert_includes output, 'match ratio'
+    assert_includes output, 'all-zero report'
   end
 
   def test_empty_action_list_with_reason_is_a_no_op

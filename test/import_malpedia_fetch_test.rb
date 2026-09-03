@@ -3,6 +3,7 @@
 require 'json'
 require 'minitest/autorun'
 require 'tmpdir'
+require 'yaml'
 require_relative '../scripts/import-malpedia'
 
 class MalpediaFetchTest < Minitest::Test
@@ -42,6 +43,8 @@ class MalpediaFetchTest < Minitest::Test
       assert_equal %w[actor-a actor-b actor-c], importer.requested_ids.sort
       assert_equal %w[actor-b actor-a actor-c], JSON.parse(File.read(File.join(dir, 'actor_ids.json')))
       assert_equal %w[actor-b actor-a actor-c], JSON.parse(File.read(File.join(dir, 'actor_details.json'))).keys
+      cache = YAML.safe_load(File.read(File.join(dir, 'cache-manifest.yml')), permitted_classes: [], aliases: false)
+      assert_equal %w[actor-a actor-b actor-c], cache['record_hashes'].keys.sort
     end
   end
 end

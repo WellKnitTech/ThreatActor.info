@@ -152,7 +152,7 @@ class MitreAttackImporter
         'sha256' => Digest::SHA256.file(path).hexdigest,
         'content_sha256' => Digest::SHA256.file(path).hexdigest,
         'response' => fetch_info,
-        'response_bytes' => fetch_info['bytes'] || File.size(path),
+        'response_bytes' => %w[reused not_modified].include?(fetch_info['status']) ? 0 : fetch_info['bytes'].to_i,
         'request_count' => cached ? 0 : 1,
         'freshness' => cached ? 'reused' : fetch_info['status']
       }.compact

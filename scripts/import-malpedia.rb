@@ -235,7 +235,7 @@ class MalpediaImporter
         next if actor_name.to_s.empty?
 
         meta_record = all_actor_meta[actor_name] || {}
-        selected_actors[actor_name] = deep_merge(meta_record, detail)
+        selected_actors[actor_name] = deep_merge(meta_record, detail).merge('source_actor_id' => actor_id)
       end
     else
       selected_actors = filter_actor_meta_without_details(all_actor_meta, actor_ids)
@@ -262,7 +262,7 @@ class MalpediaImporter
       SourceImport::CacheManifest.build(
         source_key: 'malpedia', retrieved_at: manifest['retrieved_at'],
         source_version: nil, validators: {},
-        records: selected_actors.map { |source_record_id, record| record.merge('source_record_id' => source_record_id) },
+        records: selected_actors.values.map { |record| record.merge('source_record_id' => record['source_actor_id']) },
         freshness: 'fresh', metrics: @request_metrics,
         detail_count: actor_details.length, details_included: @options[:include_details]
       )

@@ -123,9 +123,10 @@ def report_counts(payload)
   unmatched ||= [total - matched - (new_candidates || 0), 0].max if total && matched
   counts = payload.merge('matched' => matched, 'unmatched' => unmatched,
                          'new_candidates' => new_candidates, 'total_records' => total)
-  # Zero counters are only safe when the source explicitly says it was empty.
-  no_op = false
-  [counts, !no_op, nil]
+  return [nil, false, 'all-zero report requires explicit source_empty metadata'] if
+    [matched, unmatched, new_candidates, total].compact.all?(&:zero?)
+
+  [counts, true, nil]
 end
 
 report_files = Dir.glob(File.join(options[:report_dir], 'plan-*.json')).sort
