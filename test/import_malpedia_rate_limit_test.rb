@@ -25,6 +25,9 @@ class MalpediaRateLimitTest < Minitest::Test
     end
 
     assert_equal 'HTTP 429 for https://example.test/api/get/actor/example; Retry-After=120', error.message
+    metrics = importer.instance_variable_get(:@request_metrics)
+    assert_equal 1, metrics['request_count']
+    assert_equal 0, metrics['response_bytes']
   ensure
     singleton.class_eval do
       remove_method :start

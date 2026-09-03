@@ -12,6 +12,7 @@ require 'time'
 require 'uri'
 require 'yaml'
 require_relative 'actor_store'
+require_relative 'lib/import/cache_manifest'
 
 class MalpediaImporter
   DEFAULT_BASE_URL = 'https://malpedia.caad.fkie.fraunhofer.de'.freeze
@@ -135,6 +136,8 @@ class MalpediaImporter
       write: false,
       report_json: nil
     }
+    @request_metrics = { 'request_count' => 0, 'response_bytes' => 0 }
+    @metrics_mutex = Mutex.new
     @overrides = {
       excluded_actor_ids: [],
       match_overrides: {},
@@ -232,7 +235,7 @@ class MalpediaImporter
         next if actor_name.to_s.empty?
 
         meta_record = all_actor_meta[actor_name] || {}
-        selected_actors[actor_name] = deep_merge(meta_record, detail)
+        selected_actors[actor_name] = deep_merge(meta_record, detail).merge('source_actor_id' => actor_id)
       end
     else
       selected_actors = filter_actor_meta_without_details(all_actor_meta, actor_ids)
@@ -253,6 +256,22 @@ class MalpediaImporter
       'actor_ids_file' => 'actor_ids.json',
       'actor_details_file' => 'actor_details.json'
     }
+
+    records_by_source_id = selected_actors.values.to_h { |record| [record['source_actor_id'], record] }
+    cache_records = actor_ids.filter_map do |source_actor_id|
+      record = records_by_source_id[source_actor_id]
+      record&.merge('id' => source_actor_id)
+    end
+    SourceImport::CacheManifest.write_atomic(
+      File.join(@options[:output], 'cache-manifest.yml'),
+      SourceImport::CacheManifest.build(
+        source_key: 'malpedia', retrieved_at: manifest['retrieved_at'],
+        source_version: nil, validators: {},
+        records: cache_records,
+        freshness: 'fresh', metrics: @request_metrics,
+        detail_count: actor_details.length, details_included: @options[:include_details]
+      )
+    )
 
     File.write(File.join(@options[:output], 'actor_ids.json'), JSON.pretty_generate(actor_ids) + "\n")
     File.write(File.join(@options[:output], 'actors.json'), JSON.pretty_generate(selected_actors) + "\n")
@@ -611,6 +630,10 @@ class MalpediaImporter
       http.request(Net::HTTP::Get.new(uri))
     end
 
+    @metrics_mutex.synchronize do
+      @request_metrics['request_count'] += 1
+      @request_metrics['response_bytes'] += response_body_bytes(response)
+    end
     if response.code == '429'
       retry_after = response['retry-after']
       suffix = retry_after ? "; Retry-After=#{retry_after}" : ''
@@ -628,6 +651,12 @@ class MalpediaImporter
       sleep([REQUEST_INTERVAL_SECONDS - (now - @last_request_at), 0].max)
     end
     @last_request_at = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+  end
+
+  def response_body_bytes(response)
+    response.body.to_s.bytesize
+  rescue IOError
+    response['content-length'].to_i
   end
 
   def safe_load_yaml_file(path)

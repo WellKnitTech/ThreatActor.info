@@ -17,6 +17,7 @@ require_relative 'actor_store'
 require_relative 'import_utils'
 require_relative 'importers/attack'
 require_relative 'ioc_yaml_reader'
+require_relative 'lib/import/cache_manifest'
 
 class ThreatFoxImporter
   DEFAULT_SNAPSHOT_ROOT = 'data/imports/threatfox'.freeze
@@ -45,6 +46,7 @@ class ThreatFoxImporter
       overrides_file: File.join(DEFAULT_SNAPSHOT_ROOT, 'mapping_overrides.yml')
     }
     @overrides = { 'malware_slug_overrides' => {} }
+    @request_metrics = { 'request_count' => 0, 'response_bytes' => 0 }
   end
 
   def run
@@ -161,13 +163,25 @@ class ThreatFoxImporter
 
   def write_snapshot(payload, manifest)
     File.write(File.join(@options[:output], 'get_iocs.json'), JSON.pretty_generate(payload) + "\n")
-    File.write(File.join(@options[:output], 'manifest.yml'), YAML.dump(manifest))
+    records = Array(payload['data'])
+    cache_manifest = SourceImport::CacheManifest.build(
+      source_key: 'threatfox', retrieved_at: manifest['retrieved_at'], records: records,
+      freshness: manifest['query_status'].to_s == 'stale_fallback' ? 'stale' : 'fresh',
+      metrics: @request_metrics, query_status: manifest['query_status'],
+      fallback_reason: manifest['fallback_reason'], fallback_snapshot: manifest['fallback_snapshot']
+    )
+    SourceImport::CacheManifest.write_atomic(File.join(@options[:output], 'cache-manifest.yml'), cache_manifest)
+    File.write(File.join(@options[:output], 'manifest.yml'), YAML.dump(manifest.merge(
+      'cache_manifest' => 'cache-manifest.yml',
+      'record_hashes' => cache_manifest['record_hashes'],
+      'metrics' => cache_manifest['metrics']
+    )))
     puts "Wrote ThreatFox snapshot to #{@options[:output]} (#{manifest['record_count']} IOCs, status=#{manifest['query_status']})"
   end
 
   def latest_known_good_snapshot
     root = File.dirname(@options[:output])
-    candidates = [@options[:output]] + Dir.children(root).map { |name| File.join(root, name) }
+    candidates = Dir.children(root).map { |name| File.join(root, name) }
                    .select { |path| File.directory?(path) }
                    .sort_by { |path| -File.mtime(path).to_f }
 
@@ -178,7 +192,7 @@ class ThreatFoxImporter
 
       payload = JSON.parse(File.read(data_path))
       manifest = YAML.safe_load(File.read(manifest_path), permitted_classes: [], aliases: false) || {}
-      next unless manifest.is_a?(Hash) && manifest['query_status'].to_s == 'ok' && payload.is_a?(Hash) && payload['data'].is_a?(Array)
+      next unless valid_known_good_snapshot?(payload, manifest, path)
 
       return { path: path, payload: payload, manifest: manifest }
     rescue JSON::ParserError, Psych::Exception
@@ -186,6 +200,26 @@ class ThreatFoxImporter
     end
 
     nil
+  end
+
+  def valid_known_good_snapshot?(payload, manifest, path)
+    return false unless manifest.is_a?(Hash) && manifest['query_status'].to_s == 'ok'
+    return false unless payload.is_a?(Hash) && payload['data'].is_a?(Array)
+    return false unless manifest.key?('record_count') && manifest['record_count'].is_a?(Numeric)
+    return false unless manifest['record_count'] == payload['data'].length
+
+    expected = manifest['record_hashes']
+    cache_path = File.join(path, manifest['cache_manifest'].to_s)
+    if expected.is_a?(Hash)
+      return expected == SourceImport::CacheManifest.record_hashes(payload['data'])
+    end
+    if File.file?(cache_path)
+      cache = SourceImport::CacheManifest.load(cache_path)
+      return false unless cache && cache['record_count'].to_i == payload['data'].length
+      return cache['record_hashes'] == SourceImport::CacheManifest.record_hashes(payload['data'])
+    end
+
+    true
   end
 
   def http_post_json(url, body, extra_headers = {})
@@ -196,6 +230,8 @@ class ThreatFoxImporter
       extra_headers.each { |k, v| req[k] = v }
       req.body = body
       res = http.request(req)
+      @request_metrics['request_count'] += 1
+      @request_metrics['response_bytes'] += res.body.to_s.bytesize
       raise "HTTP #{res.code} for #{url}" unless res.is_a?(Net::HTTPSuccess)
 
       JSON.parse(res.body)

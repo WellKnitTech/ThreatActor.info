@@ -56,6 +56,8 @@ class MitreConditionalFetchTest < Minitest::Test
                               prior_path: prior)
 
       assert_equal 'not_modified', result['status']
+      assert_equal 0, result['bytes']
+      assert_equal File.size(prior), result['copied_bytes']
       assert_equal File.binread(prior), File.binread(output)
       assert_equal '"v1"', requests.first['If-None-Match']
       assert_equal 'yesterday', requests.first['If-Modified-Since']
@@ -86,6 +88,7 @@ class MitreConditionalFetchTest < Minitest::Test
                              prior_info: { 'etag' => '"v1"' }, prior_path: snapshot)
 
       assert_equal 'not_modified', result['status']
+      assert_equal 0, result['bytes']
       assert_equal 'stable snapshot', File.binread(snapshot)
     ensure
       singleton.class_eval do
