@@ -254,6 +254,24 @@ SOURCES_UNSORTED = [
     snapshot_root: 'data/imports/threatfox',
     report_name: 'threatfox-report.json',
     fetch_limit: true
+  ),
+  Source.new(
+    priority: 25,
+    key: 'malwarebazaar',
+    label: 'abuse.ch MalwareBazaar',
+    script: 'scripts/import-malwarebazaar.rb',
+    snapshot_root: 'data/imports/malwarebazaar',
+    report_name: 'malwarebazaar-report.json',
+    fetch_limit: true
+  ),
+  Source.new(
+    priority: 26,
+    key: 'urlhaus',
+    label: 'abuse.ch URLhaus',
+    script: 'scripts/import-urlhaus.rb',
+    snapshot_root: 'data/imports/urlhaus',
+    report_name: 'urlhaus-report.json',
+    fetch_limit: true
   )
 ].freeze
 
@@ -346,6 +364,14 @@ def selected_sources(options)
     selected = selected.reject { |source| skipped.include?(source.key) }
   end
 
+  if ENV['MALWAREBAZAAR_API_KEY'].to_s.strip.empty?
+    selected = selected.reject do |source|
+      next false unless source.key == 'malwarebazaar'
+
+      warn 'Skipping malwarebazaar: MALWAREBAZAAR_API_KEY is not configured (report-only source)'
+      true
+    end
+  end
   selected
 end
 
