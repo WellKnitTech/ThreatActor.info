@@ -197,6 +197,12 @@ class CuratedIntelMoveitTransferImporter
       source: SOURCE_NAME,
       repository: SOURCE_REPOSITORY,
       target_actor: TARGET_ACTOR_NAME,
+      # This source is a fixed, reviewed event timeline for Cl0p rather than
+      # an actor-discovery feed: every parsed event is an accepted update.
+      total_records: records.length,
+      matched: records.length,
+      unmatched: 0,
+      new_candidates: 0,
       event_count: records.length,
       event_types: records.map { |record| record['event_type'] }.tally.sort.to_h,
       unique_sources: records.map { |record| record['source_url'] }.reject(&:empty?).uniq.length

@@ -236,15 +236,25 @@ class ThreatFoxImporter
       plan_rows << { ioc_id: ioc['id'], malware: ioc['malware'], match: match }
     end
 
-    matched = plan_rows.count { |r| r[:match] && r[:match][:position] }
-    unmatched = plan_rows.size - matched
+    matched = plan_rows.count { |r| r[:match] && r[:match][:confidence] == :high }
+    ambiguous = plan_rows.count { |r| r[:match] && r[:match][:confidence] == :ambiguous }
+    unknown = plan_rows.count { |r| r[:match] && r[:match][:confidence] == :none }
+    unmatched = ambiguous + unknown
 
     report = {
       'mode' => write ? 'import' : 'plan',
       'snapshot' => @options[:snapshot],
       'ioc_rows' => plan_rows.size,
+      'matched_iocs' => matched,
       'matched_actors' => matched,
-      'unmatched' => unmatched
+      'ambiguous_iocs' => ambiguous,
+      'unknown_iocs' => unknown,
+      'unmatched' => unmatched,
+      'attribution' => {
+        'matched' => matched,
+        'ambiguous' => ambiguous,
+        'unknown' => unknown
+      }
     }
     manifest = load_snapshot_manifest
     report['status'] = manifest['query_status'] if manifest['query_status']
