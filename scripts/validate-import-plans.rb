@@ -99,7 +99,7 @@ def report_counts(payload)
     unmatched = disjoint_unmatched
   end
   new_candidates = numeric(payload, %w[new_candidates creates actors_create])
-  total = numeric(payload, %w[total_records total_candidates total_rows event_count apt_records records_count record_count ioc_rows parsed_records intrusion_sets source_records])
+  total = numeric(payload, %w[total_records total_candidates total_rows total_detections event_count apt_records records_count record_count ioc_rows parsed_records intrusion_sets source_records])
   if payload['actor_updates'].is_a?(Array)
     matched_labels = payload['actor_updates'].sum do |entry|
       entry.is_a?(Hash) ? Array(entry['source_labels']).length : 0
@@ -167,7 +167,7 @@ report_files.each do |path|
     unmatched = label_unmatched.to_f
   end
   new_candidates = numeric(counts, %w[new_candidates creates actors_create]) || 0.0
-  total = numeric(counts, %w[total_records total_candidates total_rows event_count apt_records records_count record_count ioc_rows parsed_records intrusion_sets source_records]) || (matched + unmatched + new_candidates)
+  total = numeric(counts, %w[total_records total_candidates total_rows total_detections event_count apt_records records_count record_count ioc_rows parsed_records intrusion_sets source_records]) || (matched + unmatched + new_candidates)
   if counts['actor_updates'].is_a?(Array)
     matched_labels = counts['actor_updates'].sum do |entry|
       entry.is_a?(Hash) ? Array(entry['source_labels']).length : 0

@@ -9,6 +9,7 @@ require 'timeout'
 class VerifyWeeklyDataWorkflowTest < Minitest::Test
   SCRIPT = File.expand_path('../scripts/verify-weekly-data-workflow.rb', __dir__)
   WORKFLOW = File.expand_path('../.github/workflows/weekly-data.yml', __dir__)
+  PIPELINE = File.expand_path('../.github/workflows/import-pipeline.yml', __dir__)
 
   def run_checker(contents)
     Tempfile.create(['weekly-data', '.yml']) do |file|
@@ -25,7 +26,7 @@ class VerifyWeeklyDataWorkflowTest < Minitest::Test
   end
 
   def test_performance_metrics_are_not_mistaken_for_a_source_health_report
-    workflow = File.read(WORKFLOW)
+    workflow = File.read(PIPELINE)
 
     refute_match(/--metrics-json\s+\"?\$IMPORT_REPORT_DIR/, workflow)
     assert_match(/--metrics-json\s+tmp\/performance-metrics\.json/, workflow)

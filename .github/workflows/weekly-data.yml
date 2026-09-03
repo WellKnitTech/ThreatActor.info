@@ -1,10 +1,6 @@
 ---
 name: Weekly Threat Data
 
-concurrency:
-  group: threat-data-import
-  cancel-in-progress: false
-
 on:
   schedule:
     - cron: '0 3 * * 0'
@@ -20,179 +16,18 @@ on:
         required: false
         default: all
         type: choice
-        options:
-          - all
-          - fetch
-          - plan
-          - import
+        options: [all, fetch, plan, import]
 
 permissions:
   contents: read
 
-env:
-  IMPORT_REPORT_DIR: tmp/import-reports
-  FAILURE_DIAGNOSTICS_DIR: tmp/failure-diagnostics
-
 jobs:
   update-data:
-    runs-on: ubuntu-latest
-    environment: data-import
     permissions:
       contents: write
       pull-requests: write
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.2.5'
-          bundler-cache: true
-
-      - name: Capture actor baseline
-        run: |
-          mkdir -p tmp/delta-baseline
-          cp -R _data/actors tmp/delta-baseline/actors
-
-      - name: Restore ThreatFox snapshot cache
-        uses: actions/cache/restore@v4
-        with:
-          path: data/imports/threatfox
-          key: threatfox-snapshot-${{ github.repository }}-${{ github.run_id }}
-          restore-keys: |
-            threatfox-snapshot-${{ github.repository }}-
-
-      - name: Run automated source imports with bounded retries
-        id: imports
-        env:
-          THREATFOX_API_KEY: ${{ secrets.THREATFOX_API_KEY }}
-          REQUESTED_SOURCE: ${{ inputs.source }}
-          REQUESTED_PHASE: ${{ inputs.phase || 'all' }}
-        run: |
-          set -u
-          mkdir -p "$IMPORT_REPORT_DIR" "$FAILURE_DIAGNOSTICS_DIR" data/imports
-          args=(--report-dir "$IMPORT_REPORT_DIR" --metrics-json tmp/performance-metrics.json --date "$(date -u +%F)")
-          if [[ -n "$REQUESTED_SOURCE" ]]; then
-            args+=(--source "$REQUESTED_SOURCE")
-          fi
-          case "$REQUESTED_PHASE" in
-            all) args+=(--apply) ;;
-            fetch) args+=(--fetch-only) ;;
-            plan) args+=(--plan-only) ;;
-            import) args+=(--no-fetch --apply) ;;
-            *)
-              printf '{"error":"invalid phase","phase":"%s"}\n' "$REQUESTED_PHASE" > "$FAILURE_DIAGNOSTICS_DIR/invalid-input.json"
-              exit 2
-              ;;
-          esac
-
-          max_attempts=3
-          attempt=1
-          status=1
-          : > tmp/import-run.log
-          while (( attempt <= max_attempts )); do
-            printf '\n=== import attempt %d/%d ===\n' "$attempt" "$max_attempts" | tee -a tmp/import-run.log
-            bundle exec ruby scripts/import-automated-sources.rb "${args[@]}" 2>&1 | tee -a tmp/import-run.log
-            status=${PIPESTATUS[0]}
-            if (( status == 0 )); then
-              break
-            fi
-            if (( attempt < max_attempts )); then
-              if grep -q 'HTTP 429' tmp/import-run.log; then
-                printf 'Rate limited by an upstream source; not retrying automatically.\n' | tee -a tmp/import-run.log
-                break
-              fi
-              delay=$((2 ** (attempt - 1)))
-              printf 'Attempt %d failed (exit %d); retrying in %ds.\n' "$attempt" "$status" "$delay" | tee -a tmp/import-run.log
-              sleep "$delay"
-            fi
-            ((attempt++))
-          done
-
-          ATTEMPT="$attempt" EXIT_CODE="$status" DIAGNOSTIC_PATH="$FAILURE_DIAGNOSTICS_DIR/import-run.json" REQUESTED_PHASE="$REQUESTED_PHASE" REQUESTED_SOURCE="$REQUESTED_SOURCE" \
-            ruby -rjson -e 'payload = { phase: ENV.fetch("REQUESTED_PHASE"), source: ENV.fetch("REQUESTED_SOURCE", ""), attempts: ENV.fetch("ATTEMPT", "unknown"), exit_code: ENV.fetch("EXIT_CODE") }; File.write(ENV.fetch("DIAGNOSTIC_PATH"), JSON.pretty_generate(payload))'
-          exit "$status"
-
-      - name: Save ThreatFox snapshot cache
-        if: ${{ always() }}
-        uses: actions/cache/save@v4
-        with:
-          path: data/imports/threatfox
-          key: threatfox-snapshot-${{ github.repository }}-${{ github.run_id }}
-
-      - name: Summarize source health
-        if: ${{ always() }}
-        env:
-          FAIL_ON_SOURCE_FAILURE: '0'
-        run: |
-          ruby scripts/summarize-import-health.rb "$IMPORT_REPORT_DIR" tmp/import-health.md | tee -a "$GITHUB_STEP_SUMMARY"
-
-      - name: Evaluate source deltas
-        if: ${{ success() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && (inputs.phase == '' || inputs.phase == 'all' || inputs.phase == 'import') }}
-        run: |
-          ruby scripts/evaluate-source-deltas.rb \
-            --current _data/actors \
-            --previous tmp/delta-baseline/actors \
-            --report-json tmp/source-delta-report.json \
-            --max-change-ratio 4.00 \
-            --max-identity-change-ratio 0.02
-
-      - name: Validate JSON schemas
-        if: ${{ success() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && (inputs.phase == '' || inputs.phase == 'all' || inputs.phase == 'import') }}
-        run: ruby scripts/validate-json-schemas.rb
-
-      - name: Validate content
-        if: ${{ success() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && (inputs.phase == '' || inputs.phase == 'all' || inputs.phase == 'import') }}
-        run: ruby scripts/validate-content.rb
-
-      - name: Build site
-        if: ${{ success() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && (inputs.phase == '' || inputs.phase == 'all' || inputs.phase == 'import') }}
-        run: bundle exec jekyll build --safe
-
-      - name: Verify workflow merge safety
-        if: ${{ always() }}
-        run: ruby scripts/verify-weekly-data-workflow.rb
-
-      - name: Upload source snapshots, reports, and diagnostics
-        if: ${{ always() }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: weekly-source-run-${{ github.run_id }}
-          if-no-files-found: warn
-          retention-days: 30
-          path: |
-            data/imports/**
-            ${{ env.IMPORT_REPORT_DIR }}/**
-            ${{ env.FAILURE_DIAGNOSTICS_DIR }}/**
-            tmp/performance-metrics.json
-            tmp/import-run.log
-            tmp/import-health.md
-            tmp/source-delta-report.json
-
-      - name: Open weekly data pull request
-        if: ${{ success() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && (inputs.phase == '' || inputs.phase == 'all' || inputs.phase == 'import') }}
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          if git diff --quiet; then
-            echo "No weekly data changes detected."
-            exit 0
-          fi
-
-          branch="automated/weekly-data-${GITHUB_RUN_ID}"
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout -b "$branch"
-          git add _data/actors _threat_actors _data/generated _malware api data/imports tmp/source-delta-report.json
-          git commit -m "Weekly threat data refresh"
-          git push -u origin "$branch"
-          gh pr create \
-            --base main \
-            --head "$branch" \
-            --title "Weekly threat data refresh" \
-            --body-file tmp/import-health.md
-
-          # Queue normal protected auto-merge; never bypass branch rules.
-          gh pr merge "$branch" --auto --squash --delete-branch
+    uses: ./.github/workflows/import-pipeline.yml
+    with:
+      source: ${{ inputs.source || '' }}
+      phase: ${{ inputs.phase || 'all' }}
+    secrets: inherit

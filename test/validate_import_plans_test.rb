@@ -46,6 +46,13 @@ class ValidateImportPlansTest < Minitest::Test
     assert status.success?, output
   end
 
+  def test_all_importer_total_field_variants_are_supported
+    %w[total_rows source_records total_detections parsed_records].each do |total_key|
+      output, _error, status = run_validator('generic' => { total_key => 4, 'matched' => 4 })
+      assert status.success?, "#{total_key}: #{output}"
+    end
+  end
+
   def test_mitre_plan_counters_still_enforce_thresholds
     output, _error, status = run_validator('mitre-attack' => {
       'intrusion_sets' => 10, 'actors_merge' => 1, 'actors_create' => 8, 'actors_review' => 1
