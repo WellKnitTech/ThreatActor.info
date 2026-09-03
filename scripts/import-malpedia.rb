@@ -12,6 +12,7 @@ require 'time'
 require 'uri'
 require 'yaml'
 require_relative 'actor_store'
+require_relative 'lib/import/cache_manifest'
 
 class MalpediaImporter
   DEFAULT_BASE_URL = 'https://malpedia.caad.fkie.fraunhofer.de'.freeze
@@ -135,6 +136,7 @@ class MalpediaImporter
       write: false,
       report_json: nil
     }
+    @request_metrics = { 'request_count' => 0, 'response_bytes' => 0 }
     @overrides = {
       excluded_actor_ids: [],
       match_overrides: {},
@@ -253,6 +255,16 @@ class MalpediaImporter
       'actor_ids_file' => 'actor_ids.json',
       'actor_details_file' => 'actor_details.json'
     }
+
+    SourceImport::CacheManifest.write_atomic(
+      File.join(@options[:output], 'cache-manifest.yml'),
+      SourceImport::CacheManifest.build(
+        source_key: 'malpedia', retrieved_at: manifest['retrieved_at'],
+        source_version: nil, validators: {}, records: selected_actors.values,
+        freshness: 'fresh', metrics: @request_metrics,
+        detail_count: actor_details.length, details_included: @options[:include_details]
+      )
+    )
 
     File.write(File.join(@options[:output], 'actor_ids.json'), JSON.pretty_generate(actor_ids) + "\n")
     File.write(File.join(@options[:output], 'actors.json'), JSON.pretty_generate(selected_actors) + "\n")
@@ -617,6 +629,8 @@ class MalpediaImporter
       raise RateLimitError, "HTTP 429 for #{uri}#{suffix}"
     end
 
+    @request_metrics['request_count'] += 1
+    @request_metrics['response_bytes'] += response.body.to_s.bytesize
     raise "HTTP #{response.code} for #{uri}" unless response.is_a?(Net::HTTPSuccess)
 
     JSON.parse(response.body)

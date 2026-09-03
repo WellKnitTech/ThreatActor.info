@@ -23,6 +23,7 @@ require_relative 'mitre/entity_writers'
 require_relative 'mitre/version_resolver'
 require_relative 'importers/attack'
 require_relative 'lib/alias_resolver'
+require_relative 'lib/import/cache_manifest'
 
 class MitreAttackImporter
   DEFAULT_SNAPSHOT_ROOT = 'data/imports/mitre-attack'.freeze
@@ -127,8 +128,16 @@ class MitreAttackImporter
 
       path = File.join(@options[:output], filename)
       puts "Fetching #{domain}: #{url}"
-      prior_info, prior_path = prior_bundle(domain, url)
-      fetch_info = download(url, path, prior_info: prior_info, prior_path: prior_path)
+      cached = reusable_bundle(domain, filename)
+      if cached
+        FileUtils.cp(cached[:path], path)
+        fetch_info = { 'status' => 'reused', 'bytes' => File.size(path) }
+        puts "Reusing unchanged #{domain} bundle (ATT&CK #{cached[:version]})"
+      else
+        puts "Fetching #{domain}: #{url}"
+        prior_info, prior_path = prior_bundle(domain, url)
+        fetch_info = download(url, path, prior_info: prior_info, prior_path: prior_path)
+      end
 
       attack_version = begin
         MitreCommon.attack_version_from_bundle(JSON.parse(File.read(path)))
@@ -141,11 +150,25 @@ class MitreAttackImporter
         'filename' => filename,
         'attack_version' => attack_version,
         'sha256' => Digest::SHA256.file(path).hexdigest,
-        'response' => fetch_info
+        'content_sha256' => Digest::SHA256.file(path).hexdigest,
+        'response' => fetch_info,
+        'response_bytes' => fetch_info['bytes'] || File.size(path),
+        'request_count' => cached ? 0 : 1,
+        'freshness' => cached ? 'reused' : fetch_info['status']
       }.compact
     end
 
-    File.write(File.join(@options[:output], 'manifest.yml'), YAML.dump(manifest))
+    SourceImport::CacheManifest.write_atomic(
+      File.join(@options[:output], 'cache-manifest.yml'),
+      SourceImport::CacheManifest.build(
+        source_key: 'mitre-attack', retrieved_at: manifest['retrieved_at'],
+        source_version: @options[:version], validators: {}, freshness: 'fresh',
+        metrics: { 'request_count' => manifest['bundles'].values.sum { |entry| entry['request_count'].to_i },
+                   'response_bytes' => manifest['bundles'].values.sum { |entry| entry['response_bytes'].to_i } },
+        bundles: manifest['bundles']
+      )
+    )
+    SourceImport::CacheManifest.write_atomic(File.join(@options[:output], 'manifest.yml'), manifest)
     puts "Wrote #{File.join(@options[:output], 'manifest.yml')}"
 
     copy_snapshot_to_mitre_cache(@options[:output], manifest) if @options[:write_active]
@@ -199,6 +222,28 @@ class MitreAttackImporter
   end
 
   def download(url, path, prior_info: nil, prior_path: nil)
+
+  def reusable_bundle(domain, filename)
+    return nil if @options[:version].to_s.empty?
+
+    root = File.dirname(@options[:output])
+    current = File.expand_path(@options[:output])
+    Dir.glob(File.join(root, '*', 'cache-manifest.yml')).sort.reverse_each do |manifest_path|
+      snapshot = File.dirname(manifest_path)
+      next if File.expand_path(snapshot) == current
+
+      cache = SourceImport::CacheManifest.load(manifest_path)
+      next unless cache && cache['source_key'] == 'mitre-attack' && cache['source_version'].to_s == @options[:version].to_s
+
+      bundle = cache.dig('bundles', domain.to_s)
+      bundle_path = File.join(snapshot, filename)
+      next unless bundle.is_a?(Hash) && File.file?(bundle_path)
+      next unless bundle['content_sha256'].to_s == Digest::SHA256.file(bundle_path).hexdigest
+
+      return { path: bundle_path, version: @options[:version] }
+    end
+    nil
+  end
     uri = URI.parse(url)
     Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == 'https') do |http|
       req = Net::HTTP::Get.new(uri)

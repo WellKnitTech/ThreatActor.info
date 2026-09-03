@@ -17,6 +17,7 @@ require_relative 'actor_store'
 require_relative 'import_utils'
 require_relative 'importers/attack'
 require_relative 'ioc_yaml_reader'
+require_relative 'lib/import/cache_manifest'
 
 class ThreatFoxImporter
   DEFAULT_SNAPSHOT_ROOT = 'data/imports/threatfox'.freeze
@@ -45,6 +46,7 @@ class ThreatFoxImporter
       overrides_file: File.join(DEFAULT_SNAPSHOT_ROOT, 'mapping_overrides.yml')
     }
     @overrides = { 'malware_slug_overrides' => {} }
+    @request_metrics = { 'request_count' => 0, 'response_bytes' => 0 }
   end
 
   def run
@@ -161,7 +163,19 @@ class ThreatFoxImporter
 
   def write_snapshot(payload, manifest)
     File.write(File.join(@options[:output], 'get_iocs.json'), JSON.pretty_generate(payload) + "\n")
-    File.write(File.join(@options[:output], 'manifest.yml'), YAML.dump(manifest))
+    records = Array(payload['data'])
+    cache_manifest = SourceImport::CacheManifest.build(
+      source_key: 'threatfox', retrieved_at: manifest['retrieved_at'], records: records,
+      freshness: manifest['query_status'].to_s == 'stale_fallback' ? 'stale' : 'fresh',
+      metrics: @request_metrics, query_status: manifest['query_status'],
+      fallback_reason: manifest['fallback_reason'], fallback_snapshot: manifest['fallback_snapshot']
+    )
+    SourceImport::CacheManifest.write_atomic(File.join(@options[:output], 'cache-manifest.yml'), cache_manifest)
+    File.write(File.join(@options[:output], 'manifest.yml'), YAML.dump(manifest.merge(
+      'cache_manifest' => 'cache-manifest.yml',
+      'record_hashes' => cache_manifest['record_hashes'],
+      'metrics' => cache_manifest['metrics']
+    )))
     puts "Wrote ThreatFox snapshot to #{@options[:output]} (#{manifest['record_count']} IOCs, status=#{manifest['query_status']})"
   end
 
@@ -197,6 +211,8 @@ class ThreatFoxImporter
       extra_headers.each { |k, v| req[k] = v }
       req.body = body
       res = http.request(req)
+      @request_metrics['request_count'] += 1
+      @request_metrics['response_bytes'] += res.body.to_s.bytesize
       raise "HTTP #{res.code} for #{url}" unless res.is_a?(Net::HTTPSuccess)
 
       JSON.parse(res.body)

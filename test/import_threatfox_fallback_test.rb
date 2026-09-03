@@ -52,6 +52,9 @@ class ThreatFoxFallbackTest < Minitest::Test
       assert_equal 'stale_fallback', manifest['query_status']
       assert_equal 'no_auth_key', manifest['fallback_reason']
       assert_equal prior, manifest['fallback_snapshot']
+      cache = YAML.safe_load(File.read(File.join(output, 'cache-manifest.yml')), permitted_classes: [], aliases: false)
+      assert_equal 'stale', cache['freshness']
+      assert_equal 0, cache.dig('metrics', 'request_count')
     end
   end
 
