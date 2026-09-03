@@ -195,8 +195,9 @@ Import Malpedia malware/enrichment data.
 
 The fetcher is intentionally polite to the public API: requests are serialized
 with a 2-second interval, and the first HTTP 429 stops the fetch rather than
-continuing through the actor list. The weekly workflow does not retry a
-rate-limited run. See [`docs/import-operations.md`](../docs/import-operations.md)
+continuing through the actor list. The weekly workflow retries a rate-limited
+source only after a capped Retry-After wait and never replays successful
+sources. See [`docs/import-operations.md`](../docs/import-operations.md)
 for the operator response procedure.
 
 ```bash

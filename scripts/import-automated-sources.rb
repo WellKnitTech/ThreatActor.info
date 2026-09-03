@@ -6,12 +6,12 @@
 
 require 'fileutils'
 require 'json'
-require 'open3'
 require 'optparse'
 require 'set'
 require 'time'
 require_relative 'snapshot_quality_gate'
 require_relative 'lib/import/bounded_source_runner'
+require_relative 'lib/import/source_execution'
 
 Source = Struct.new(
   :priority,
@@ -342,6 +342,11 @@ end
 
 parser.parse!
 
+SourceImport::SourceExecution.install_signal_traps!
+SourceImport::SourceExecution.arm_job_deadline!(
+  Integer(ENV.fetch('IMPORT_JOB_DEADLINE_SECONDS', SourceImport::SourceExecution::DEFAULT_JOB_DEADLINE))
+)
+
 SOURCE_KEY_ALIASES = {
   'attack' => 'mitre-attack'
 }.freeze
@@ -377,33 +382,79 @@ end
 
 IMPORT_OUTPUT_MUTEX = Mutex.new
 IMPORT_METRICS_MUTEX = Mutex.new
+SOURCE_STATS_MUTEX = Mutex.new
+SOURCE_STATS = Hash.new do |hash, key|
+  hash[key] = { 'attempts' => 0, 'request_count' => 0, 'status' => nil, 'elapsed_ms' => 0, 'started' => nil }
+end
+
+def source_stats(key)
+  SOURCE_STATS_MUTEX.synchronize { SOURCE_STATS[key] }
+end
+
+def bump_source_stat(key, field, amount = 1)
+  SOURCE_STATS_MUTEX.synchronize { SOURCE_STATS[key][field] += amount }
+end
+
+def set_source_stat(key, field, value)
+  SOURCE_STATS_MUTEX.synchronize { SOURCE_STATS[key][field] = value }
+end
+
+def with_source_retry(source_key)
+  stats = source_stats(source_key)
+  SOURCE_STATS_MUTEX.synchronize { stats['started'] ||= Process.clock_gettime(Process::CLOCK_MONOTONIC) }
+  SourceImport::SourceExecution.retry(max_attempts: SourceImport::SourceExecution.max_attempts) do
+    bump_source_stat(source_key, 'attempts')
+    yield
+  end
+  set_source_stat(source_key, 'status', 'ok') if source_stats(source_key)['status'].nil?
+rescue SourceImport::SourceExecution::RetryExhausted => error
+  set_source_stat(source_key, 'status', error.status)
+  raise error
+rescue SourceImport::SourceExecution::JobDeadlineExceeded, SourceImport::SourceExecution::Cancelled
+  set_source_stat(source_key, 'status', 'cancelled')
+  raise
+rescue SourceImport::SourceExecution::DeadlineExceeded
+  set_source_stat(source_key, 'status', 'timeout')
+  raise
+rescue SourceImport::SourceExecution::CommandFailed => error
+  set_source_stat(source_key, 'status', SourceImport::SourceExecution.classify(error.message).status)
+  raise
+ensure
+  started = source_stats(source_key)['started']
+  if started
+    set_source_stat(source_key, 'elapsed_ms',
+                    ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - started) * 1000).round(1))
+  end
+end
 
 def run_command(command, metrics:, phase:, source_key: nil)
+  SourceImport::SourceExecution.raise_if_cancelled!
   started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
   IMPORT_OUTPUT_MUTEX.synchronize do
     puts "\n---"
     puts "→ #{command.join(' ')}"
     puts '---'
   end
-  stdout, stderr, status = Open3.capture3(*command)
+  result = SourceImport::SourceExecution.run_process(command, timeout: SourceImport::SourceExecution.command_timeout)
   event = {
     'phase' => phase,
     'source' => source_key,
     'command' => command,
     'duration_ms' => ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - started) * 1000).round(1),
-    'exit_code' => status.exitstatus,
-    'stdout_bytes' => stdout.bytesize,
-    'stderr_bytes' => stderr.bytesize,
+    'exit_code' => result.exit_code,
+    'stdout_bytes' => result.stdout.bytesize,
+    'stderr_bytes' => result.stderr.bytesize,
     'bundle_exec' => command[0, 3] == ['bundle', 'exec', 'ruby']
   }
   IMPORT_METRICS_MUTEX.synchronize { metrics << event }
+  bump_source_stat(source_key, 'request_count') if source_key
   IMPORT_OUTPUT_MUTEX.synchronize do
-    puts stdout unless stdout.empty?
-    warn stderr unless stderr.empty?
+    puts result.stdout unless result.stdout.empty?
+    warn result.stderr unless result.stderr.empty?
   end
-  return if status.success?
+  return if result.success?
 
-  raise "Command failed with exit #{status.exitstatus}: #{command.join(' ')}"
+  raise SourceImport::SourceExecution.command_error(result, command)
 end
 
 def snapshot_path(source, date)
@@ -416,34 +467,40 @@ def report_path(options, source, mode)
 end
 
 def fetch_source(source, snapshot, options, metrics)
-  command = ['bundle', 'exec', 'ruby', source.script, 'fetch', '--output', snapshot]
-  command += Array(source.fetch_args)
-  command += ['--limit', options[:limit].to_s] if options[:limit] && source.fetch_limit
-  run_command(command, metrics: metrics, phase: 'fetch', source_key: source.key)
+  with_source_retry(source.key) do
+    command = ['bundle', 'exec', 'ruby', source.script, 'fetch', '--output', snapshot]
+    command += Array(source.fetch_args)
+    command += ['--limit', options[:limit].to_s] if options[:limit] && source.fetch_limit
+    run_command(command, metrics: metrics, phase: 'fetch', source_key: source.key)
+  end
 end
 
 def plan_source(source, snapshot, options, metrics)
-  quality_source = {
-    'dragos-threat-groups' => 'dragos',
-    'unit42-threat-actor-groups' => 'unit42'
-  }[source.key]
-  if quality_source
-    started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
-    SnapshotQualityGate.validate!(snapshot, source: quality_source,
-                                  report_path: File.join(options[:report_dir], "quality-#{source.key}.json"))
-    IMPORT_METRICS_MUTEX.synchronize do
-      metrics << { 'phase' => 'validation', 'source' => source.key,
-                   'duration_ms' => ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - started) * 1000).round(1),
-                   'snapshot_bytes' => snapshot_bytes(snapshot) }
+  with_source_retry(source.key) do
+    quality_source = {
+      'dragos-threat-groups' => 'dragos',
+      'unit42-threat-actor-groups' => 'unit42'
+    }[source.key]
+    if quality_source
+      started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+      SnapshotQualityGate.validate!(snapshot, source: quality_source,
+                                    report_path: File.join(options[:report_dir], "quality-#{source.key}.json"))
+      IMPORT_METRICS_MUTEX.synchronize do
+        metrics << { 'phase' => 'validation', 'source' => source.key,
+                     'duration_ms' => ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - started) * 1000).round(1),
+                     'snapshot_bytes' => snapshot_bytes(snapshot) }
+      end
     end
+    command = ['bundle', 'exec', 'ruby', source.script, 'plan', '--snapshot', snapshot, '--report-json', report_path(options, source, 'plan')]
+    run_command(command, metrics: metrics, phase: 'plan', source_key: source.key)
   end
-  command = ['bundle', 'exec', 'ruby', source.script, 'plan', '--snapshot', snapshot, '--report-json', report_path(options, source, 'plan')]
-  run_command(command, metrics: metrics, phase: 'plan', source_key: source.key)
 end
 
 def import_source(source, snapshot, options, metrics)
-  command = ['bundle', 'exec', 'ruby', source.script, 'import', '--snapshot', snapshot, '--report-json', report_path(options, source, 'import')]
-  run_command(command, metrics: metrics, phase: 'import', source_key: source.key)
+  with_source_retry(source.key) do
+    command = ['bundle', 'exec', 'ruby', source.script, 'import', '--snapshot', snapshot, '--report-json', report_path(options, source, 'import')]
+    run_command(command, metrics: metrics, phase: 'import', source_key: source.key)
+  end
 end
 
 def validate_plan_reports(options, metrics)
@@ -467,14 +524,19 @@ end
 def write_metrics(path, metrics, started_at, started_monotonic, date)
   return unless path
 
+  sources = SOURCE_STATS_MUTEX.synchronize do
+    SOURCE_STATS.transform_values do |stats|
+      stats.reject { |field, _| field == 'started' }
+    end
+  end
   payload = {
     'schema_version' => 1,
     'started_at' => started_at,
     'duration_ms' => ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - started_monotonic) * 1000).round(1),
-    # The workflow retries the whole process; source-level retries are zero here.
-    'retries' => 0,
-    # Subprocess instrumentation cannot observe HTTP clients inside importers.
-    'request_count' => nil,
+    'retries' => sources.values.sum { |stats| [Integer(stats['attempts']) - 1, 0].max },
+    # Runner-visible subprocess invocations, not provider HTTP requests.
+    'request_count' => sources.values.sum { |stats| Integer(stats['request_count']) },
+    'sources' => sources,
     'events' => metrics.map do |event|
       source = SOURCES.find { |candidate| candidate.key == event['source'] }
       source ? event.merge('snapshot_bytes' => snapshot_bytes(snapshot_path(source, date))) : event
@@ -522,6 +584,7 @@ end.each do |result|
   elsif result.skipped
     failures << "#{source.key}: skipped after an earlier source failure"
     failed_sources << source.key
+    set_source_stat(source.key, 'status', 'skipped')
   end
 end
 

@@ -33,6 +33,14 @@ class VerifyWeeklyDataWorkflowTest < Minitest::Test
     assert_match(/tmp\/performance-metrics\.json/, workflow)
   end
 
+  def test_pipeline_does_not_retry_the_full_import_universe
+    workflow = File.read(PIPELINE)
+
+    refute_match(/while \(\( attempt <= max_attempts \)\)/, workflow)
+    assert_match(/IMPORT_SOURCE_MAX_ATTEMPTS:\s*'3'/, workflow)
+    assert_match(/IMPORT_SOURCE_DEADLINE_SECONDS:/, workflow)
+  end
+
   def test_malformed_permissions_input_is_rejected_without_backtracking
     workflow = "jobs:\n  update-data:\n    runs-on: ubuntu-latest\n" + ("\t\t\n" * 10_000)
 
