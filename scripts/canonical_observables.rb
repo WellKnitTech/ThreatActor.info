@@ -1,15 +1,16 @@
 # frozen_string_literal: true
 
+require 'date'
 require 'digest'
 require 'ipaddr'
+require 'time'
 require 'uri'
 
-# Canonical, fail-closed Observable v1 implementation. Legacy readers remain
-# separate; this module is the migration seam used by importers and fixtures.
 module CanonicalObservables
   VERSION = 'ioc-observable-v1'
   TYPES = %w[ip_address domain url email md5 sha1 sha256 sha512 file_path registry_key mutex certificate cve attack_technique].freeze
   STATUSES = %w[active deprecated false_positive quarantined].freeze
+  RELATIONSHIP_KINDS = %w[actor malware campaign operation report].freeze
   HASH_LENGTHS = { 'md5' => 32, 'sha1' => 40, 'sha256' => 64, 'sha512' => 128 }.freeze
   TYPE_ALIASES = { 'vulnerability' => 'cve' }.freeze
 
@@ -23,13 +24,11 @@ module CanonicalObservables
     output = input.merge('type' => type, 'value' => value, 'normalized_value' => value,
                          'canonical_value' => value, 'atomic' => true,
                          'status' => input.fetch('status', 'active'),
+                         'status_evidence' => [input.fetch('status', 'active')],
                          'id' => "obs_v1_#{Digest::SHA256.hexdigest([type, value].join("\0"))}")
+    output['relationships'] = validate_relationships!(input['relationships']) if input.key?('relationships')
     output['display_value'] ||= display_value(type, value)
-    if conflicting_attribution?(output['relationships'])
-      output['status'] = 'quarantined'
-      output['quarantine_reason'] = 'conflicting_attribution'
-    end
-    output
+    apply_aggregate_status(output)
   rescue KeyError => e
     raise ArgumentError, "missing_required_field: #{e.key}"
   end
@@ -41,6 +40,8 @@ module CanonicalObservables
       if grouped[key]
         grouped[key]['sources'] = (grouped[key]['sources'] + record['sources']).uniq
         grouped[key]['relationships'] = (Array(grouped[key]['relationships']) + Array(record['relationships'])).uniq
+        grouped[key]['status_evidence'] = (grouped[key]['status_evidence'] + record['status_evidence']).uniq
+        apply_aggregate_status(grouped[key])
       else
         grouped[key] = record
       end
@@ -49,7 +50,8 @@ module CanonicalObservables
 
   def public?(record)
     record['atomic'] == true && %w[active deprecated].include?(record['status']) &&
-      Array(record['sources']).any? { |source| source.fetch('status', 'active') == 'active' }
+      Array(record['sources']).any? { |source| source.fetch('status', 'active') == 'active' } &&
+      Array(record['relationships']).all? { |relationship| %w[active deprecated].include?(relationship['status']) }
   end
 
   def normalize(type, raw, input = {})
@@ -77,16 +79,49 @@ module CanonicalObservables
     input['sources'].each do |source|
       raise ArgumentError, 'source_required' unless source.is_a?(Hash) && source['source'].to_s != '' && source['retrieved_at'].to_s != ''
       raise ArgumentError, 'invalid_retrieved_at' unless rfc3339?(source['retrieved_at'])
+      raise ArgumentError, 'invalid_source_status' unless STATUSES.include?(source.fetch('status', 'active'))
     end
     %w[first_seen last_seen].each do |field|
       next unless input[field]
-
       raise ArgumentError, "invalid_#{field}" unless rfc3339?(input[field])
     end
     raise ArgumentError, 'invalid_status' unless STATUSES.include?(input.fetch('status', 'active'))
-    if input['status'] == 'false_positive' && !input['false_positive'].is_a?(Hash)
-      raise ArgumentError, 'false_positive_reason_required'
+    raise ArgumentError, 'false_positive_reason_required' if input['status'] == 'false_positive' && !input['false_positive'].is_a?(Hash)
+  end
+
+  def validate_relationships!(relationships)
+    return [] unless relationships
+    raise ArgumentError, 'invalid_relationships' unless relationships.is_a?(Array)
+    relationships.map do |relationship|
+      row = stringify(relationship)
+      valid_kind = RELATIONSHIP_KINDS.include?(row['target_kind'])
+      valid_ids = row['target_id'].is_a?(String) && !row['target_id'].empty? && row['role'].is_a?(String) && !row['role'].empty?
+      raise ArgumentError, 'invalid_relationship' unless valid_kind && valid_ids
+      raise ArgumentError, 'invalid_relationship_status' unless STATUSES.include?(row.fetch('status', 'active'))
+      row
     end
+  end
+
+  def apply_aggregate_status(record)
+    if conflicting_attribution?(record['relationships'])
+      record['status'] = 'quarantined'
+      record['quarantine_reason'] = 'conflicting_attribution'
+    else
+      record['status'] = aggregate_status(record)
+      record.delete('quarantine_reason')
+    end
+    record
+  end
+
+  def aggregate_status(record)
+    evidence = Array(record['status_evidence'])
+    related_statuses = Array(record['sources']).map { |source| source.fetch('status', 'active') }
+    related_statuses += Array(record['relationships']).map { |relationship| relationship.fetch('status', 'active') }
+    return 'quarantined' if related_statuses.include?('quarantined')
+    return 'active' if evidence.include?('active')
+    return 'false_positive' if evidence.include?('false_positive')
+    return 'deprecated' if evidence.include?('deprecated')
+    'active'
   end
 
   def conflicting_attribution?(relationships)
@@ -129,17 +164,40 @@ module CanonicalObservables
   end
 
   def normalize_path(value)
-    prefix = value.match?(/\A[A-Za-z]:[\\\/]/) ? value[0, 3] : ''
-    parts = value.delete_prefix(prefix).split(/[\\\/]/)
+    kind, prefix, remainder = if value.match?(/\A[A-Za-z]:[\\\/]/)
+                                [:windows, value[0, 3], value[3..]]
+                              elsif value.match?(/\A(?:\\\\|\/\/)/)
+                                [:unc, '\\\\', value.sub(/\A(?:\\\\|\/\/)/, '')]
+                              elsif value.start_with?('/')
+                                [:posix, '/', value[1..]]
+                              else
+                                raise ArgumentError, 'relative_path_forbidden'
+                              end
+    parts = remainder.split(/[\\\/]/)
     clean = parts.each_with_object([]) do |part, out|
       next if part.empty? || part == '.'
-      part == '..' ? out.pop : out << part
+      out << part unless part == '..' && !out.empty?
+      out.pop if part == '..' && out.any?
     end
-    prefix + clean.join('\\')
+    separator = kind == :posix ? '/' : '\\'
+    if kind == :unc
+      server, share, *tail = clean
+      raise ArgumentError, 'invalid_unc_path' unless server && share
+      prefix + [server, share, *tail].join(separator)
+    else
+      prefix + clean.join(separator)
+    end
   end
 
   def rfc3339?(value)
-    value.to_s.match?(/\A\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z\z/)
+    match = value.to_s.match(/\A(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})(?:\.\d+)?Z\z/)
+    return false unless match
+
+    Date.new(*match.captures.first(3).map(&:to_i))
+    Time.iso8601(value.to_s)
+    true
+  rescue ArgumentError
+    false
   end
 
   def defang(value)
@@ -160,6 +218,7 @@ module CanonicalObservables
   end
 
   def stringify(value)
+    raise ArgumentError, 'invalid_observation' unless value.is_a?(Hash)
     value.each_with_object({}) { |(key, item), out| out[key.to_s] = item }
   end
 end

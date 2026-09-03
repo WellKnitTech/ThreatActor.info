@@ -47,4 +47,44 @@ class CanonicalObservablesTest < Minitest::Test
     assert_equal 1, rows.count { |row| row[:inferred_type] == 'domain' }
     assert_equal 1, rows.count { |row| row[:inferred_type] == 'md5' }
   end
+
+  def test_duplicate_merge_rechecks_conflicting_attribution
+    rows = @valid.select { |row| row['value'] == 'conflict.example' }
+    rows[1] = Marshal.load(Marshal.dump(rows[0]))
+    rows[1]['relationships'] = [{ 'target_kind' => 'actor', 'target_id' => 'apt29', 'role' => 'reported_by' }]
+    assert_equal 'quarantined', CanonicalObservables.canonicalize_all(rows).first['status']
+  end
+
+  def test_public_requires_every_relationship_to_be_eligible
+    record = CanonicalObservables.canonicalize(@valid.first.merge(
+      'relationships' => [{ 'target_kind' => 'actor', 'target_id' => 'apt28', 'role' => 'reported_by', 'status' => 'false_positive' }]
+    ))
+    refute CanonicalObservables.public?(record)
+  end
+
+  def test_paths_require_root_and_preserve_posix_and_unc_roots
+    base = @valid.find { |row| row['type'] == 'file_path' }
+    assert_equal 'C:\\Users\\Public\\payload.exe', CanonicalObservables.canonicalize(base)['value']
+    assert_equal '/var/lib/payload.exe', CanonicalObservables.normalize('file_path', '/var/lib/./tmp/../payload.exe')
+    assert_equal '\\\\server\\share\\payload.exe', CanonicalObservables.normalize('file_path', '\\\\server\\share\\dir\\..\\payload.exe')
+    error = assert_raises(ArgumentError) { CanonicalObservables.normalize('file_path', 'var/lib/payload.exe') }
+    assert_equal 'relative_path_forbidden', error.message
+  end
+
+  def test_impossible_timestamp_is_rejected
+    error = assert_raises(ArgumentError) { CanonicalObservables.canonicalize(@valid.first.merge('first_seen' => '2024-02-30T00:00:00Z')) }
+    assert_equal 'invalid_first_seen', error.message
+  end
+
+  def test_aggregate_status_is_independent_of_duplicate_input_order
+    active = @valid.find { |row| row['value'] == 'c2[.]example.com' }
+    deprecated = Marshal.load(Marshal.dump(active)).merge('status' => 'deprecated')
+    assert_equal CanonicalObservables.canonicalize_all([active, deprecated]).first['status'],
+                 CanonicalObservables.canonicalize_all([deprecated, active]).first['status']
+  end
+
+  def test_malformed_relationship_fails_closed
+    error = assert_raises(ArgumentError) { CanonicalObservables.canonicalize(@valid.first.merge('relationships' => [{ 'target_kind' => 'unknown' }])) }
+    assert_equal 'invalid_relationship', error.message
+  end
 end
