@@ -63,6 +63,11 @@ jobs:
           REQUESTED_SOURCE: ${{ inputs.source }}
           REQUESTED_PHASE: ${{ inputs.phase || 'all' }}
           REQUESTED_LIMIT: ${{ inputs.limit || '' }}
+          IMPORT_JOB_DEADLINE_SECONDS: '2400'
+          IMPORT_SOURCE_DEADLINE_SECONDS: '600'
+          IMPORT_DETAIL_DEADLINE_SECONDS: '10'
+          IMPORT_SOURCE_MAX_ATTEMPTS: '3'
+          IMPORT_RETRY_SLEEP_CAP_SECONDS: '30'
         run: |
           set -u
           mkdir -p "$IMPORT_REPORT_DIR" "$FAILURE_DIAGNOSTICS_DIR" data/imports
@@ -84,27 +89,14 @@ jobs:
               ;;
           esac
 
-          max_attempts=3
-          attempt=1
-          status=1
           : > tmp/import-run.log
-          while (( attempt <= max_attempts )); do
-            printf '\n=== import attempt %d/%d ===\n' "$attempt" "$max_attempts" | tee -a tmp/import-run.log
-            bundle exec ruby scripts/import-automated-sources.rb "${args[@]}" 2>&1 | tee -a tmp/import-run.log
-            status=${PIPESTATUS[0]}
-            if (( status == 0 )); then
-              break
-            fi
-            if (( attempt < max_attempts )); then
-              delay=$((2 ** (attempt - 1)))
-              printf 'Attempt %d failed (exit %d); retrying in %ds.\n' "$attempt" "$status" "$delay" | tee -a tmp/import-run.log
-              sleep "$delay"
-            fi
-            ((attempt++))
-          done
+          set +e
+          bundle exec ruby scripts/import-automated-sources.rb "${args[@]}" 2>&1 | tee -a tmp/import-run.log
+          status=${PIPESTATUS[0]}
+          set -e
 
-          ATTEMPT="$attempt" EXIT_CODE="$status" DIAGNOSTIC_PATH="$FAILURE_DIAGNOSTICS_DIR/import-run.json" REQUESTED_PHASE="$REQUESTED_PHASE" REQUESTED_SOURCE="$REQUESTED_SOURCE" \
-            ruby -rjson -e 'payload = { phase: ENV.fetch("REQUESTED_PHASE"), source: ENV.fetch("REQUESTED_SOURCE", ""), attempts: ENV.fetch("ATTEMPT", "unknown"), exit_code: ENV.fetch("EXIT_CODE") }; File.write(ENV.fetch("DIAGNOSTIC_PATH"), JSON.pretty_generate(payload))'
+          EXIT_CODE="$status" DIAGNOSTIC_PATH="$FAILURE_DIAGNOSTICS_DIR/import-run.json" REQUESTED_PHASE="$REQUESTED_PHASE" REQUESTED_SOURCE="$REQUESTED_SOURCE" \
+            ruby -rjson -e 'payload = { phase: ENV.fetch("REQUESTED_PHASE"), source: ENV.fetch("REQUESTED_SOURCE", ""), retry_scope: "per-source", attempts: 1, exit_code: ENV.fetch("EXIT_CODE") }; File.write(ENV.fetch("DIAGNOSTIC_PATH"), JSON.pretty_generate(payload))'
           exit "$status"
 
       - name: Check source freshness

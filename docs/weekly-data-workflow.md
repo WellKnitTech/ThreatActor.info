@@ -48,9 +48,11 @@ summary and used as the pull-request body.
 `workflow_dispatch` accepts a source key and a phase (`all`, `fetch`, `plan`,
 or `import`). `fetch` creates or refreshes a snapshot, `plan` evaluates an
 existing snapshot without applying it, and `import` applies an existing plan
-without fetching. The import step retries ordinary failures at most three
-times with 1-second and 2-second backoff, but does **not** retry an upstream
-HTTP 429. In particular, the Malpedia importer spaces requests by 2 seconds
+without fetching. Failed sources retry at most three times at source scope
+with a per-source deadline; authentication, licensing, schema, and validation
+failures are never retried, and the workflow does not replay the full source
+universe. HTTP 429 waits for a capped `Retry-After` before retrying that
+source only. In particular, the Malpedia importer spaces requests by 2 seconds
 and stops at the first 429 rather than continuing through the actor list.
 The workflow does not use `continue-on-error`, and it never passes
 `--allow-plan-anomalies`; quarantined or anomalous sources therefore remain

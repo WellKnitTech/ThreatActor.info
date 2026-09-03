@@ -64,8 +64,9 @@ enabled, one detail request per actor. It therefore uses the following guardrail
 - The first HTTP 429 raises a typed rate-limit error and stops the actor loop;
   it is not swallowed and followed by more requests.
 - The response's `Retry-After` value is included in diagnostics when supplied.
-- The weekly workflow does not retry a run after an HTTP 429. Retrying the full
-  source immediately would amplify the upstream rate limit.
+- The weekly workflow does not retry the full import universe after an HTTP 429.
+  A capped `Retry-After` wait may retry that source only; other sources are not
+  replayed.
 - The two import workflows cannot overlap because of the shared concurrency
   group.
 

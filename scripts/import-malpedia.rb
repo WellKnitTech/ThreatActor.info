@@ -17,7 +17,7 @@ class MalpediaImporter
   DEFAULT_BASE_URL = 'https://malpedia.caad.fkie.fraunhofer.de'.freeze
   DETAIL_WORKERS = 4
   HTTP_OPEN_TIMEOUT = 15
-  HTTP_READ_TIMEOUT = 10
+  HTTP_READ_TIMEOUT = Integer(ENV.fetch('IMPORT_DETAIL_DEADLINE_SECONDS', '10'))
   DEFAULT_SNAPSHOT_ROOT = 'data/imports/malpedia'.freeze
   DEFAULT_OVERRIDES_FILE = 'data/imports/malpedia/mapping_overrides.yml'.freeze
   REQUEST_INTERVAL_SECONDS = 2.0
