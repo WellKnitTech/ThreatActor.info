@@ -126,7 +126,7 @@ class ThreatFoxImporter
     rescue StandardError => error
       reason = if key.empty?
                 'no_auth_key'
-              elsif error.message.match?(/HTTP (401|403)|no_auth_key/i)
+              elsif error.message.match?(/HTTP (401|403)|(?:no_auth_key|invalid_auth_key|unauthorized)/i)
                 'auth_failed'
               else
                 'fetch_failed'
@@ -167,9 +167,8 @@ class ThreatFoxImporter
 
   def latest_known_good_snapshot
     root = File.dirname(@options[:output])
-    current = File.expand_path(@options[:output])
-    candidates = Dir.children(root).map { |name| File.join(root, name) }
-                   .select { |path| File.directory?(path) && File.expand_path(path) != current }
+    candidates = [@options[:output]] + Dir.children(root).map { |name| File.join(root, name) }
+                   .select { |path| File.directory?(path) }
                    .sort_by { |path| -File.mtime(path).to_f }
 
     candidates.each do |path|
@@ -179,7 +178,7 @@ class ThreatFoxImporter
 
       payload = JSON.parse(File.read(data_path))
       manifest = YAML.safe_load(File.read(manifest_path), permitted_classes: [], aliases: false) || {}
-      next unless manifest['query_status'].to_s == 'ok' && payload.is_a?(Hash) && payload['data'].is_a?(Array)
+      next unless manifest.is_a?(Hash) && manifest['query_status'].to_s == 'ok' && payload.is_a?(Hash) && payload['data'].is_a?(Array)
 
       return { path: path, payload: payload, manifest: manifest }
     rescue JSON::ParserError, Psych::Exception
@@ -206,6 +205,11 @@ class ThreatFoxImporter
   def run_plan_or_import(write:)
     path = snapshot_data_path
     payload = JSON.parse(File.read(path))
+    query_status = payload['query_status'].to_s.strip.downcase
+    unless query_status.empty? || %w[completed ok success].include?(query_status)
+      raise "ThreatFox query failed with status #{payload['query_status'].inspect}"
+    end
+
     rows = Array(payload['data'])
     rows = rows.first(@options[:limit]) if @options[:limit]
     actors = ActorStore.load_all
@@ -219,15 +223,25 @@ class ThreatFoxImporter
       plan_rows << { ioc_id: ioc['id'], malware: ioc['malware'], match: match }
     end
 
-    matched = plan_rows.count { |r| r[:match] && r[:match][:position] }
-    unmatched = plan_rows.size - matched
+    matched = plan_rows.count { |r| r[:match] && r[:match][:confidence] == :high }
+    ambiguous = plan_rows.count { |r| r[:match] && r[:match][:confidence] == :ambiguous }
+    unknown = plan_rows.count { |r| r[:match] && r[:match][:confidence] == :none }
+    unmatched = ambiguous + unknown
 
     report = {
       'mode' => write ? 'import' : 'plan',
       'snapshot' => @options[:snapshot],
       'ioc_rows' => plan_rows.size,
+      'matched_iocs' => matched,
       'matched_actors' => matched,
-      'unmatched' => unmatched
+      'ambiguous_iocs' => ambiguous,
+      'unknown_iocs' => unknown,
+      'unmatched' => unmatched,
+      'attribution' => {
+        'matched' => matched,
+        'ambiguous' => ambiguous,
+        'unknown' => unknown
+      }
     }
     manifest = load_snapshot_manifest
     report['status'] = manifest['query_status'] if manifest['query_status']
@@ -239,7 +253,7 @@ class ThreatFoxImporter
 
     return unless write
 
-    apply_matches(rows, plan_rows, actors, path)
+    apply_matches(rows, plan_rows, actors, path, manifest)
     puts 'ThreatFox import complete.'
   end
 
@@ -271,35 +285,40 @@ class ThreatFoxImporter
   end
 
   def candidate_keys_for_ioc(ioc, actors)
-    keys = []
-    mal = ioc['malware'].to_s.strip
-    slug = mal.split('.').last.to_s
-    ov = @overrides['malware_slug_overrides'][mal] || @overrides['malware_slug_overrides'][slug]
-    slug = ov.to_s.strip unless ov.to_s.strip.empty?
+    # ponytail: actor publication stops here; unreviewed feed coincidences stay unassigned.
+    reviewed = reviewed_actor_slug(ioc)
+    return [] if reviewed.empty?
 
-    keys << ImportUtils.canonical_key(ioc['malware_printable']) if ioc['malware_printable']
-    keys << ImportUtils.canonical_key(slug) unless slug.empty?
-    keys << ImportUtils.canonical_key(mal) unless mal.empty?
-    Array(ioc['tags']).each { |t| keys << ImportUtils.canonical_key(t) }
+    keys = [ImportUtils.canonical_key(reviewed)]
+    return keys if actors.any? { |actor| ImportUtils.canonical_key(actor['url'].to_s.sub(%r{\A/}, '')) == keys.first }
 
-    actors.each do |actor|
-      Array(actor['malware']).each do |m|
-        name = m.is_a?(Hash) ? m['name'] : m.to_s
-        k = ImportUtils.canonical_key(name)
-        keys << k if k && !k.empty?
-      end
-    end
-
-    keys.compact.uniq.reject(&:empty?)
+    []
   end
 
-  def apply_matches(rows, plan_rows, actors, snapshot_path)
+  def reviewed_actor_slug(ioc)
+    mal = ioc['malware'].to_s.strip
+    slug = mal.split('.').last.to_s
+    candidates = [mal, slug, ioc['malware_printable'], *Array(ioc['tags'])].map { |value| value.to_s.strip }.reject(&:empty?)
+    mapping = @overrides['malware_slug_overrides']
+    candidates.each do |candidate|
+      evidence = mapping[candidate]
+      next unless evidence.is_a?(Hash)
+      next unless evidence['actor_slug'].to_s.match?(/\A[a-z0-9][a-z0-9-]*\z/)
+      next unless evidence['reviewed_by'].to_s.strip != ''
+      next unless evidence['reviewed_at'].to_s.match?(/\A\d{4}-\d{2}-\d{2}\z/)
+      return evidence['actor_slug'].to_s
+    end
+    ''
+  end
+
+  def apply_matches(rows, plan_rows, actors, snapshot_path, manifest = {})
     by_position = Hash.new { |h, k| h[k] = [] }
     rows.each_with_index do |ioc, idx|
       next unless ioc.is_a?(Hash)
 
       m = plan_rows[idx][:match]
       next unless m && m[:confidence] == :high && m[:position]
+      next if reviewed_actor_slug(ioc).empty?
 
       by_position[m[:position]] << ioc
     end
@@ -317,10 +336,13 @@ class ThreatFoxImporter
       tf = {
         'source_name' => 'abuse.ch ThreatFox',
         'source_dataset_url' => API_URL,
-        'source_retrieved_at' => Time.now.utc.iso8601,
+        'source_retrieved_at' => manifest['source_retrieved_at'] || manifest['retrieved_at'],
         'snapshot_path' => snapshot_path,
         'iocs_merged' => added
       }
+      tf['source_status'] = manifest['query_status'] if manifest['query_status']
+      tf['fallback_reason'] = manifest['fallback_reason'] if manifest['fallback_reason']
+      tf['fallback_snapshot'] = manifest['fallback_snapshot'] if manifest['fallback_snapshot']
       tf['unmapped_ioc_types'] = unmapped_types.uniq if unmapped_types.any?
       actor['provenance']['threatfox'] = tf
 

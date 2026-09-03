@@ -29,8 +29,9 @@ module ObservableFeed
     payload = JSON.parse(response.body)
     raise 'response must be a JSON object or array' unless payload.is_a?(Hash) || payload.is_a?(Array)
     FileUtils.mkdir_p(output)
-    File.write(File.join(output, 'data.json'), JSON.pretty_generate(payload) + "\n")
-    checksum = Digest::SHA256.hexdigest(response.body)
+    data = JSON.pretty_generate(payload) + "\n"
+    File.write(File.join(output, 'data.json'), data)
+    checksum = Digest::SHA256.hexdigest(data)
     manifest.merge!('retrieved_at' => Time.now.utc.iso8601, 'record_count' => Array(payload.is_a?(Hash) ? payload['data'] : payload).length,
                     'source_checksum_sha256' => checksum, 'data_file' => 'data.json', 'query_status' => 'ok')
     File.write(File.join(output, 'manifest.yml'), YAML.dump(manifest))
@@ -40,8 +41,9 @@ module ObservableFeed
   end
 
   def process_snapshot(snapshot, report_path:, write: false, limit: nil)
+    snapshot_root = File.directory?(snapshot) ? snapshot : File.dirname(snapshot)
     path = File.directory?(snapshot) ? File.join(snapshot, 'data.json') : snapshot
-    validate_snapshot!(snapshot) if File.directory?(snapshot)
+    validate_snapshot!(snapshot_root) if write || File.directory?(snapshot)
     payload = JSON.parse(File.read(path))
     rows = Array(payload.is_a?(Hash) ? payload['data'] : payload)
     total_rows = rows.length
@@ -116,6 +118,7 @@ module ObservableFeed
     max_age = YAML.safe_load(File.read(SOURCE_POLICY), permitted_classes: [], aliases: false).fetch('sources').fetch(source_key).fetch('max_age_days', 30).to_i
     raise 'snapshot is too old' if retrieved < Time.now.utc - (max_age * 86_400)
     license_status = manifest['license_status'].to_s.downcase
+    raise 'snapshot terms are missing' if license_status.empty?
     raise 'snapshot terms are not approved' if license_status.match?(/verify|unknown|pending/)
   rescue Psych::Exception, KeyError, ArgumentError => error
     raise "snapshot validation failed: #{error.message}"

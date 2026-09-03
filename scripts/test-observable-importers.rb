@@ -69,6 +69,18 @@ class ObservableImportersTest < Minitest::Test
     end
   end
 
+  def test_snapshot_file_argument_still_validates_manifest
+    Dir.mktmpdir do |dir|
+      path = File.join(dir, 'data.json')
+      File.write(path, JSON.generate([]))
+      File.write(File.join(dir, 'manifest.yml'), YAML.dump('retrieved_at' => Time.now.utc.iso8601,
+                                                            'source_checksum_sha256' => Digest::SHA256.file(path).hexdigest,
+                                                            'data_file' => 'data.json', 'query_status' => 'ok'))
+      error = assert_raises(RuntimeError) { MalwareBazaarImporter.new.send(:process_snapshot, path, report_path: nil, write: true) }
+      assert_match(/terms/, error.message)
+    end
+  end
+
   private
 
   def assert_report(source, snapshot, expected_records, expected_quarantined)
