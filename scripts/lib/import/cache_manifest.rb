@@ -15,6 +15,11 @@ module SourceImport
     module_function
 
     def record_hashes(records, id_keys: %w[id uuid source_record_id url name])
+      return records.each_with_object({}) do |(id, record), result|
+        value = record.is_a?(Hash) ? record : { 'value' => record }
+        result[id.to_s] = Digest::SHA256.hexdigest(JSON.generate(canonical(value)))
+      end if records.is_a?(Hash)
+
       Array(records).each_with_index.each_with_object({}) do |(record, index), result|
         value = record.is_a?(Hash) ? record : { 'value' => record }
         id = id_keys.map { |key| value[key] || value[key.to_sym] }.find { |candidate| !candidate.to_s.empty? }
