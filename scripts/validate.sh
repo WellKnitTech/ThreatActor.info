@@ -42,6 +42,7 @@ check_file "scripts/generate-indexes.rb"
 check_file "scripts/evaluate-source-deltas.rb"
 check_file "scripts/validate-content.rb"
 check_file "scripts/validate-json-schemas.rb"
+check_file "scripts/check-persona-content.rb"
 
 check_file "scripts/check-source-freshness.rb"
 check_file "scripts/verify-weekly-data-workflow.rb"
@@ -51,6 +52,9 @@ ruby scripts/check-source-freshness.rb --mode warn --report-json tmp/source-fres
 
 echo "Checking scheduled workflow merge safety..."
 ruby scripts/verify-weekly-data-workflow.rb
+
+echo "Checking for removed persona content..."
+ruby scripts/check-persona-content.rb
 
 echo "Running page and index generators..."
 echo "(Indexes are regenerated here so _data/generated/ and api/ stay aligned before validation and build.)"
