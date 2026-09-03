@@ -113,6 +113,35 @@ class ThreatFoxFallbackTest < Minitest::Test
     end
   end
 
+  def test_import_provenance_preserves_stale_retrieval_metadata
+    importer = ThreatFoxImporter.new(['import', '--snapshot', '/tmp/snapshot'])
+    actor = { 'name' => 'Example', 'malware' => ['Example'], 'iocs' => {} }
+    rows = [{ 'id' => 12, 'ioc' => 'example.test', 'ioc_type' => 'domain', 'malware' => 'Example' }]
+    plan = [{ match: { position: 0, confidence: :high } }]
+    manifest = {
+      'retrieved_at' => '2026-09-02T04:00:00Z',
+      'source_retrieved_at' => '2026-08-31T03:00:00Z',
+      'query_status' => 'stale_fallback',
+      'fallback_reason' => 'auth_failed',
+      'fallback_snapshot' => '/tmp/snapshot/2026-08-31'
+    }
+
+    actor_store = ActorStore.method(:save_all)
+    enrichment = MitreAttackGroupEnrichment.method(:append_source!)
+    ActorStore.define_singleton_method(:save_all) { |_actors| nil }
+    MitreAttackGroupEnrichment.define_singleton_method(:append_source!) { |_actor, _source, **_options| nil }
+    importer.send(:apply_matches, rows, plan, [actor], '/tmp/snapshot/2026-09-02', manifest)
+
+    provenance = actor.dig('provenance', 'threatfox')
+    assert_equal '2026-08-31T03:00:00Z', provenance['source_retrieved_at']
+    assert_equal 'stale_fallback', provenance['source_status']
+    assert_equal 'auth_failed', provenance['fallback_reason']
+    assert_equal '/tmp/snapshot/2026-08-31', provenance['fallback_snapshot']
+  ensure
+    ActorStore.define_singleton_method(:save_all, actor_store) if actor_store
+    MitreAttackGroupEnrichment.define_singleton_method(:append_source!, enrichment) if enrichment
+  end
+
   def test_malformed_newer_manifest_is_skipped
     Dir.mktmpdir do |root|
       payload = { 'query_status' => 'ok', 'data' => [{ 'id' => 11 }] }

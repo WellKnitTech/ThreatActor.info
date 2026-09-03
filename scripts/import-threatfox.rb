@@ -236,15 +236,25 @@ class ThreatFoxImporter
       plan_rows << { ioc_id: ioc['id'], malware: ioc['malware'], match: match }
     end
 
-    matched = plan_rows.count { |r| r[:match] && r[:match][:position] }
-    unmatched = plan_rows.size - matched
+    matched = plan_rows.count { |r| r[:match] && r[:match][:confidence] == :high }
+    ambiguous = plan_rows.count { |r| r[:match] && r[:match][:confidence] == :ambiguous }
+    unknown = plan_rows.count { |r| r[:match] && r[:match][:confidence] == :none }
+    unmatched = ambiguous + unknown
 
     report = {
       'mode' => write ? 'import' : 'plan',
       'snapshot' => @options[:snapshot],
       'ioc_rows' => plan_rows.size,
+      'matched_iocs' => matched,
       'matched_actors' => matched,
-      'unmatched' => unmatched
+      'ambiguous_iocs' => ambiguous,
+      'unknown_iocs' => unknown,
+      'unmatched' => unmatched,
+      'attribution' => {
+        'matched' => matched,
+        'ambiguous' => ambiguous,
+        'unknown' => unknown
+      }
     }
     manifest = load_snapshot_manifest
     report['status'] = manifest['query_status'] if manifest['query_status']
@@ -339,12 +349,13 @@ class ThreatFoxImporter
       tf = {
         'source_name' => 'abuse.ch ThreatFox',
         'source_dataset_url' => API_URL,
-        'source_retrieved_at' => manifest['source_retrieved_at'] || manifest['retrieved_at'] || Time.now.utc.iso8601,
+        'source_retrieved_at' => manifest['source_retrieved_at'] || manifest['retrieved_at'],
         'snapshot_path' => snapshot_path,
         'iocs_merged' => added
       }
       tf['source_status'] = manifest['query_status'] if manifest['query_status']
       tf['fallback_reason'] = manifest['fallback_reason'] if manifest['fallback_reason']
+      tf['fallback_snapshot'] = manifest['fallback_snapshot'] if manifest['fallback_snapshot']
       tf['unmapped_ioc_types'] = unmapped_types.uniq if unmapped_types.any?
       actor['provenance']['threatfox'] = tf
 
