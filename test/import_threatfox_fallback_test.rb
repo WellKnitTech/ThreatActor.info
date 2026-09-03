@@ -130,4 +130,40 @@ class ThreatFoxFallbackTest < Minitest::Test
       assert_equal valid, manifest['fallback_snapshot']
     end
   end
+
+  def test_name_and_tag_coincidence_cannot_create_actor_match
+    instance = importer(output: Dir.mktmpdir)
+    actors = [{ 'name' => 'LockBit', 'url' => '/lockbit', 'malware' => [{ 'name' => 'LockBit' }] }]
+    ioc = { 'malware' => 'win.lockbit', 'malware_printable' => 'LockBit', 'tags' => ['lockbit'] }
+
+    assert_empty instance.send(:candidate_keys_for_ioc, ioc, actors)
+    assert_nil instance.send(:match_ioc_to_actor, ioc, actors, { 'lockbit' => [0] })[:position]
+  end
+
+  def test_only_explicit_reviewed_mapping_can_create_actor_match
+    instance = importer(output: Dir.mktmpdir)
+    instance.instance_variable_set(:@overrides, {
+      'malware_slug_overrides' => {
+        'win.lockbit' => { 'actor_slug' => 'lockbit', 'reviewed_by' => 'analyst', 'reviewed_at' => '2026-09-02' }
+      }
+    })
+    actors = [{ 'name' => 'LockBit', 'url' => '/lockbit' }]
+
+    match = instance.send(:match_ioc_to_actor, { 'malware' => 'win.lockbit' }, actors, { 'lockbit' => [0] })
+    assert_equal 0, match[:position]
+  end
+
+  def test_apply_matches_rechecks_review_gate_before_publishing
+    instance = importer(output: Dir.mktmpdir)
+    actors = [{ 'name' => 'LockBit', 'url' => '/lockbit', 'iocs' => {} }]
+    rows = [{ 'id' => 1, 'ioc' => '198.51.100.10', 'ioc_type' => 'ipv4', 'malware' => 'win.lockbit' }]
+    plan_rows = [{ match: { position: 0, confidence: :high } }]
+    saved = nil
+
+    ActorStore.stub(:save_all, ->(value) { saved = value }) do
+      instance.send(:apply_matches, rows, plan_rows, actors, '/tmp/snapshot')
+    end
+
+    assert_equal({}, saved.first['iocs'])
+  end
 end
