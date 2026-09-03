@@ -288,26 +288,30 @@ class ThreatFoxImporter
   end
 
   def candidate_keys_for_ioc(ioc, actors)
-    keys = []
+    # ponytail: actor publication stops here; unreviewed feed coincidences stay unassigned.
+    reviewed = reviewed_actor_slug(ioc)
+    return [] if reviewed.empty?
+
+    keys = [ImportUtils.canonical_key(reviewed)]
+    return keys if actors.any? { |actor| ImportUtils.canonical_key(actor['url'].to_s.sub(%r{\A/}, '')) == keys.first }
+
+    []
+  end
+
+  def reviewed_actor_slug(ioc)
     mal = ioc['malware'].to_s.strip
     slug = mal.split('.').last.to_s
-    ov = @overrides['malware_slug_overrides'][mal] || @overrides['malware_slug_overrides'][slug]
-    slug = ov.to_s.strip unless ov.to_s.strip.empty?
-
-    keys << ImportUtils.canonical_key(ioc['malware_printable']) if ioc['malware_printable']
-    keys << ImportUtils.canonical_key(slug) unless slug.empty?
-    keys << ImportUtils.canonical_key(mal) unless mal.empty?
-    Array(ioc['tags']).each { |t| keys << ImportUtils.canonical_key(t) }
-
-    actors.each do |actor|
-      Array(actor['malware']).each do |m|
-        name = m.is_a?(Hash) ? m['name'] : m.to_s
-        k = ImportUtils.canonical_key(name)
-        keys << k if k && !k.empty?
-      end
+    candidates = [mal, slug, ioc['malware_printable'], *Array(ioc['tags'])].map { |value| value.to_s.strip }.reject(&:empty?)
+    mapping = @overrides['malware_slug_overrides']
+    candidates.each do |candidate|
+      evidence = mapping[candidate]
+      next unless evidence.is_a?(Hash)
+      next unless evidence['actor_slug'].to_s.match?(/\A[a-z0-9][a-z0-9-]*\z/)
+      next unless evidence['reviewed_by'].to_s.strip != ''
+      next unless evidence['reviewed_at'].to_s.match?(/\A\d{4}-\d{2}-\d{2}\z/)
+      return evidence['actor_slug'].to_s
     end
-
-    keys.compact.uniq.reject(&:empty?)
+    ''
   end
 
   def apply_matches(rows, plan_rows, actors, snapshot_path, manifest = {})
@@ -317,6 +321,7 @@ class ThreatFoxImporter
 
       m = plan_rows[idx][:match]
       next unless m && m[:confidence] == :high && m[:position]
+      next if reviewed_actor_slug(ioc).empty?
 
       by_position[m[:position]] << ioc
     end

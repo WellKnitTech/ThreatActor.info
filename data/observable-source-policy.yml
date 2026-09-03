@@ -11,25 +11,30 @@ defaults:
 # prose or links only; they cannot publish an observable or actor relationship.
 excluded_inputs:
   analyst-notes:
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "prohibited_as_automatic_observable_source"
     reason: "manual context requires separate review and must not overwrite source evidence"
   security-news-and-reference-fetchers:
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "prohibited_as_automatic_observable_source"
     reason: "article discovery and report indexes are not indicator evidence"
   raw-malware-samples:
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "prohibited"
     reason: "samples, payloads, and download material are outside the public defensive minimum"
 sources:
   threatfox:
     name: "abuse.ch ThreatFox"
     url: "https://threatfox.abuse.ch/api/"
-    supported_types: ["ipv4", "ipv6", "domain", "url", "md5", "sha1", "sha256"]
+    supported_types: ["ip_address", "domain", "url", "md5", "sha1", "sha256"]
     terms: "abuse.ch terms; Auth-Key required for live API"
     license: "abuse.ch community data; verify current terms before redistribution"
     rate_limits: "API bounded to get_iocs days 1..7; honor HTTP 429 and documented limits"
     attribution_strength: "record-level IOC and malware references; actor is not asserted by default"
     normalization: "observable-v1; preserve ThreatFox IOC ID and report URL"
     freshness: "7 days"
+    max_age_days: 7
+    correction_contact: "https://threatfox.abuse.ch/contact/"
     retention: "dated snapshot and manifest; no raw payloads"
     false_positive: "quarantine source record; never delete corroborating evidence"
     actor_linkage: "malware-mediated or direct only with explicit reviewed mapping; name/tag coincidence prohibited"
@@ -37,7 +42,7 @@ sources:
   urlhaus:
     name: "abuse.ch URLhaus"
     url: "https://urlhaus.abuse.ch/"
-    supported_types: ["url", "domain", "ipv4", "ipv6", "sha256"]
+    supported_types: ["url", "domain", "ip_address", "sha256"]
     terms: "verify current abuse.ch terms and redistribution conditions"
     license: "verify before publication"
     rate_limits: "bulk export or documented API limits; bounded age window"
@@ -47,11 +52,12 @@ sources:
     retention: "snapshot-only until terms review"
     false_positive: "quarantine and preserve source record"
     actor_linkage: "unassigned or malware-mediated; actor ownership prohibited"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "quarantine_deferred"
   malwarebazaar:
     name: "abuse.ch MalwareBazaar"
     url: "https://bazaar.abuse.ch/"
-    supported_types: ["md5", "sha1", "sha256", "domain", "url", "ipv4", "ipv6"]
+    supported_types: ["md5", "sha1", "sha256", "domain", "url", "ip_address"]
     terms: "verify fair-use, authentication, and redistribution terms"
     license: "verify before publication"
     rate_limits: "document API limits; bounded metadata queries only"
@@ -61,11 +67,12 @@ sources:
     retention: "metadata snapshot; never retain or publish samples"
     false_positive: "quarantine disputed hash"
     actor_linkage: "malware-mediated only after independently reviewed relationship; otherwise unassigned"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "quarantine_deferred"
   feodo-tracker:
     name: "abuse.ch Feodo Tracker"
     url: "https://feodotracker.abuse.ch/"
-    supported_types: ["ipv4", "ipv6", "domain", "url"]
+    supported_types: ["ip_address", "domain", "url"]
     terms: "verify current abuse.ch terms"
     license: "verify before publication"
     rate_limits: "bulk export with bounded polling"
@@ -75,6 +82,7 @@ sources:
     retention: "dated snapshot and expiry metadata"
     false_positive: "quarantine until source correction/review"
     actor_linkage: "unassigned or malware-mediated; actor ownership prohibited"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "quarantine_deferred"
   mitre-attack:
     name: "MITRE ATT&CK"
@@ -89,6 +97,7 @@ sources:
     retention: "versioned snapshot/cache"
     false_positive: "revoke/deprecate STIX object; quarantine conflicting mapping"
     actor_linkage: "direct for explicit STIX relationships only"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_metadata_only"
   misp-galaxy:
     name: "MISP Galaxy"
@@ -103,6 +112,7 @@ sources:
     retention: "snapshot and provenance"
     false_positive: "quarantine conflicting cluster/member"
     actor_linkage: "direct identity only; IOC linkage requires record evidence"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_metadata_only"
   malpedia:
     name: "Malpedia / Fraunhofer FKIE"
@@ -117,6 +127,7 @@ sources:
     retention: "metadata snapshot"
     false_positive: "quarantine disputed family mapping"
     actor_linkage: "malware-mediated only; never automatic actor ownership"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_metadata_only"
   etda-thaicert:
     name: "ETDA / ThaiCERT Threat Group Cards"
@@ -131,6 +142,7 @@ sources:
     retention: "snapshot and cited card"
     false_positive: "quarantine conflicting card claim"
     actor_linkage: "report-mediated/direct for explicit card claims; co-occurrence prohibited"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_metadata_only"
   aptnotes:
     name: "APTnotes"
@@ -145,6 +157,7 @@ sources:
     retention: "index metadata only"
     false_positive: "remove/quarantine broken or misindexed citation"
     actor_linkage: "report-mediated only after reading cited report"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_metadata_only"
   ransomware-tool-matrix:
     name: "BushidoUK Ransomware Tool Matrix"
@@ -159,6 +172,7 @@ sources:
     retention: "snapshot metadata"
     false_positive: "quarantine uncorroborated observation"
     actor_linkage: "prohibited from IOC actor ownership; report-mediated review only"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_metadata_only"
   ransomware-vulnerability-matrix:
     name: "BushidoUK Ransomware Vulnerability Matrix"
@@ -173,6 +187,7 @@ sources:
     retention: "snapshot metadata"
     false_positive: "quarantine disputed CVE relation"
     actor_linkage: "prohibited; vulnerability context is not actor IOC evidence"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "quarantine_actor_linkage"
   cisa-kev:
     name: "CISA Known Exploited Vulnerabilities Catalog"
@@ -187,6 +202,7 @@ sources:
     retention: "dated catalog snapshot"
     false_positive: "quarantine corrected CVE row"
     actor_linkage: "prohibited"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_enrichment_only"
   first-epss:
     name: "FIRST EPSS"
@@ -201,11 +217,12 @@ sources:
     retention: "dated score snapshot"
     false_positive: "quarantine malformed/stale score"
     actor_linkage: "prohibited"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "quarantine_deferred"
   otx:
     name: "AlienVault OTX"
     url: "https://otx.alienvault.com/"
-    supported_types: ["ipv4", "ipv6", "domain", "url", "email", "md5", "sha1", "sha256"]
+    supported_types: ["ip_address", "domain", "url", "email", "md5", "sha1", "sha256"]
     terms: "verify quotas, terms, and redistribution rights"
     license: "unknown until feed-specific review"
     rate_limits: "quotas and API limits must be documented"
@@ -215,6 +232,7 @@ sources:
     retention: "quarantine snapshot"
     false_positive: "quarantine source assertion"
     actor_linkage: "unassigned; actor ownership prohibited"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "research_only"
   opencti:
     name: "OpenCTI/community feeds"
@@ -229,6 +247,7 @@ sources:
     retention: "quarantine only"
     false_positive: "quarantine"
     actor_linkage: "prohibited until feed review"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "research_only"
   wiz-cloud-threat-landscape:
     name: "Wiz Cloud Threat Landscape"
@@ -243,6 +262,7 @@ sources:
     retention: "snapshot and provenance"
     false_positive: "quarantine disputed relationship"
     actor_linkage: "direct STIX relationship only; co-occurrence prohibited"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_metadata_only"
   aptmap:
     name: "APTmap"
@@ -257,6 +277,7 @@ sources:
     retention: "snapshot metadata"
     false_positive: "quarantine unmatched or conflicting relation"
     actor_linkage: "reviewed crosswalk only; report-mediated otherwise"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_metadata_only"
   eternal-liberty:
     name: "EternalLiberty"
@@ -271,6 +292,7 @@ sources:
     retention: "snapshot metadata"
     false_positive: "quarantine disputed alias"
     actor_linkage: "identity crosswalk only; no IOC ownership"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_metadata_only"
   microsoft-threat-actor-list:
     name: "Microsoft Threat Actor List"
@@ -285,6 +307,7 @@ sources:
     retention: "snapshot metadata"
     false_positive: "quarantine naming conflict"
     actor_linkage: "direct naming reference only; no IOC ownership"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_metadata_only"
   apt-groups-operations:
     name: "APT Groups & Operations"
@@ -299,6 +322,7 @@ sources:
     retention: "snapshot metadata"
     false_positive: "quarantine disputed crosswalk"
     actor_linkage: "reviewed crosswalk only; co-occurrence prohibited"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_metadata_only"
   rapid7-aba-detections:
     name: "Rapid7 ABA Detections"
@@ -313,6 +337,7 @@ sources:
     retention: "snapshot metadata"
     false_positive: "quarantine uncorroborated detection"
     actor_linkage: "prohibited from actor IOC ownership"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_metadata_only"
   reddrip7-apt-digital-weapon:
     name: "RedDrip7 APT_Digital_Weapon"
@@ -327,6 +352,7 @@ sources:
     retention: "hash metadata only"
     false_positive: "quarantine disputed hash"
     actor_linkage: "unassigned or reviewed report-mediated; folder name is not proof"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "quarantine_actor_linkage"
   russian-apt-tool-matrix:
     name: "BushidoUK Russian APT Tool Matrix"
@@ -341,6 +367,7 @@ sources:
     retention: "snapshot metadata"
     false_positive: "quarantine uncorroborated observation"
     actor_linkage: "prohibited from IOC actor ownership"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_metadata_only"
   bushido-breach-reports:
     name: "BushidoToken Breach Report Collection"
@@ -355,6 +382,7 @@ sources:
     retention: "index metadata only"
     false_positive: "quarantine broken/misindexed citation"
     actor_linkage: "report-mediated only after reviewing linked report"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_metadata_only"
   curated-intel-moveit-transfer:
     name: "Curated Intelligence MOVEit Transfer Tracking"
@@ -369,6 +397,7 @@ sources:
     retention: "index metadata"
     false_positive: "quarantine disputed event"
     actor_linkage: "report-mediated review only; no IOC inference"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_metadata_only"
   sophos-threat-profiles:
     name: "Sophos Threat Profiles"
@@ -383,6 +412,7 @@ sources:
     retention: "snapshot metadata"
     false_positive: "quarantine parser/profile conflict"
     actor_linkage: "direct profile identity only; no IOC ownership"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_metadata_only"
   google-cloud-apt-groups:
     name: "Google Cloud APT Groups"
@@ -397,6 +427,7 @@ sources:
     retention: "snapshot metadata"
     false_positive: "quarantine profile conflict"
     actor_linkage: "report/profile-mediated only; co-occurrence prohibited"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_metadata_only"
   breach-hq-threat-actors:
     name: "BreachHQ Threat Actors"
@@ -411,6 +442,7 @@ sources:
     retention: "snapshot metadata"
     false_positive: "quarantine name/alias mismatch"
     actor_linkage: "identity matching only; no IOC ownership"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_metadata_only"
   dragos-threat-groups:
     name: "Dragos Threat Groups"
@@ -425,6 +457,7 @@ sources:
     retention: "snapshot metadata"
     false_positive: "quarantine parser/profile conflict"
     actor_linkage: "direct profile identity only; no IOC ownership"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_metadata_only"
   unit42-threat-actor-groups:
     name: "Unit 42 Threat Actor Groups"
@@ -439,4 +472,5 @@ sources:
     retention: "snapshot metadata"
     false_positive: "quarantine alias conflict"
     actor_linkage: "identity matching only; no IOC ownership"
+    correction_contact: "https://github.com/WellKnitTech/ThreatActor.info/issues"
     decision: "publish_metadata_only"
