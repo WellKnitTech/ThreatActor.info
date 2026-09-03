@@ -42,6 +42,16 @@ class SourceExecutionTest < Minitest::Test
     assert elapsed < 2.0, "child was not killed promptly (#{elapsed}s)"
   end
 
+  def test_large_stdout_and_stderr_are_drained_while_child_runs
+    result = run_fixture('large_output.rb', timeout: 5)
+
+    assert result.success?
+    assert_operator result.stdout.bytesize, :>, 100_000
+    assert_operator result.stderr.bytesize, :>, 100_000
+    assert_includes result.stdout, 'stdout-9999'
+    assert_includes result.stderr, 'stderr-9999'
+  end
+
   def test_timeout_kills_child_that_ignores_term
     started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
     assert_raises(SourceImport::SourceExecution::DeadlineExceeded) do
@@ -209,5 +219,23 @@ class SourceExecutionTest < Minitest::Test
     end
 
     assert_empty started
+  end
+
+  def test_source_deadline_covers_retries_and_backoff
+    attempts = 0
+    started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+
+    error = assert_raises(SourceImport::SourceExecution::SourceDeadlineExceeded) do
+      SourceImport::SourceExecution.with_source_deadline(0.12) do
+        retrying(max_attempts: 3, sleeper: ->(_delay) { sleep 0.08 }) do
+          attempts += 1
+          raise SourceImport::SourceExecution::CommandFailed, 'HTTP 503 unavailable'
+        end
+      end
+    end
+
+    assert_equal 2, attempts
+    assert_match(/source deadline exceeded/, error.message)
+    assert_operator Process.clock_gettime(Process::CLOCK_MONOTONIC) - started, :<, 1.0
   end
 end

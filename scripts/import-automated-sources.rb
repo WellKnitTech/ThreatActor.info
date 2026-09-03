@@ -383,8 +383,18 @@ end
 IMPORT_OUTPUT_MUTEX = Mutex.new
 IMPORT_METRICS_MUTEX = Mutex.new
 SOURCE_STATS_MUTEX = Mutex.new
+SOURCE_DEADLINES_MUTEX = Mutex.new
 SOURCE_STATS = Hash.new do |hash, key|
   hash[key] = { 'attempts' => 0, 'request_count' => 0, 'status' => nil, 'elapsed_ms' => 0, 'started' => nil }
+end
+SOURCE_DEADLINES = {}
+
+def with_source_deadline(source_key)
+  deadline = SOURCE_DEADLINES_MUTEX.synchronize do
+    SOURCE_DEADLINES[source_key] ||= Process.clock_gettime(Process::CLOCK_MONOTONIC) +
+                                     SourceImport::SourceExecution.source_deadline_seconds
+  end
+  SourceImport::SourceExecution.with_source_deadline(deadline_at: deadline) { yield }
 end
 
 def source_stats(key)
@@ -402,8 +412,8 @@ end
 def with_source_retry(source_key)
   stats = source_stats(source_key)
   SOURCE_STATS_MUTEX.synchronize { stats['started'] ||= Process.clock_gettime(Process::CLOCK_MONOTONIC) }
-  SourceImport::SourceExecution.retry(max_attempts: SourceImport::SourceExecution.max_attempts) do
-    bump_source_stat(source_key, 'attempts')
+  SourceImport::SourceExecution.retry(max_attempts: SourceImport::SourceExecution.max_attempts) do |attempt|
+    bump_source_stat(source_key, 'attempts') if attempt > 1
     yield
   end
   set_source_stat(source_key, 'status', 'ok') if source_stats(source_key)['status'].nil?
@@ -573,8 +583,10 @@ runner = SourceImport::BoundedSourceRunner.new(selected, workers: options[:worke
 runner.run do |source|
   snapshot = snapshot_path(source, options[:date])
   IMPORT_OUTPUT_MUTEX.synchronize { puts "\n== #{source.label} (#{source.key}) ==" }
-  fetch_source(source, snapshot, options, metrics) if options[:fetch]
-  plan_source(source, snapshot, options, metrics) if options[:plan]
+  with_source_deadline(source.key) do
+    fetch_source(source, snapshot, options, metrics) if options[:fetch]
+    plan_source(source, snapshot, options, metrics) if options[:plan]
+  end
 end.each do |result|
   source = result.item
   if result.error
@@ -594,7 +606,9 @@ if options[:apply] && (failures.empty? || options[:continue_on_error])
   selected.reject { |source| failed_sources.include?(source.key) }.each do |source|
     snapshot = snapshot_path(source, options[:date])
     begin
-      import_source(source, snapshot, options, metrics)
+      with_source_deadline(source.key) do
+        import_source(source, snapshot, options, metrics)
+      end
     rescue StandardError => e
       failures << "#{source.key}: #{e.message}"
       raise unless options[:continue_on_error]

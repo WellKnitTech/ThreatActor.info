@@ -13,6 +13,7 @@ module SourceImport
     DEFAULT_SLEEP_CAP = 30
 
     class DeadlineExceeded < StandardError; end
+    class SourceDeadlineExceeded < DeadlineExceeded; end
     class JobDeadlineExceeded < DeadlineExceeded; end
     class Cancelled < StandardError; end
     class CommandFailed < StandardError
@@ -52,6 +53,7 @@ module SourceImport
       @clock = nil
       @active_pgids = Set.new
       @mutex = Mutex.new
+      Thread.current[:source_deadline_at] = nil
     end
 
     def cancelled?
@@ -61,6 +63,14 @@ module SourceImport
     def cancel!
       @cancelled = true
       kill_active
+    end
+
+    def with_source_deadline(seconds = source_deadline_seconds, deadline_at: nil)
+      previous = Thread.current[:source_deadline_at]
+      Thread.current[:source_deadline_at] = deadline_at || now + Float(seconds)
+      yield
+    ensure
+      Thread.current[:source_deadline_at] = previous
     end
 
     def arm_job_deadline!(seconds, clock: nil)
@@ -81,11 +91,13 @@ module SourceImport
     def raise_if_cancelled!
       raise Cancelled, 'import cancelled' if @cancelled
       raise JobDeadlineExceeded, 'job deadline exceeded' if job_expired?
+      raise SourceDeadlineExceeded, 'source deadline exceeded' if source_expired?
     end
 
     def install_signal_traps!
       %w[INT TERM].each do |name|
-        Signal.trap(name) { cancel! }
+        # Signal handlers must not acquire locks or kill processes.
+        Signal.trap(name) { @cancelled = true }
       end
     end
 
@@ -151,6 +163,8 @@ module SourceImport
           return yield(attempts)
         rescue Cancelled, JobDeadlineExceeded
           raise
+        rescue SourceDeadlineExceeded
+          raise
         rescue DeadlineExceeded, CommandFailed, StandardError => error
           last_error = error
           info = classify(error.message)
@@ -172,6 +186,7 @@ module SourceImport
 
       stdout_r, stdout_w = IO.pipe
       stderr_r, stderr_w = IO.pipe
+      readers = []
       pid = nil
       pgid = nil
       begin
@@ -181,9 +196,11 @@ module SourceImport
         stderr_w.close
         pgid = Process.getpgid(pid)
         register(pgid)
+        # Drain both pipes while the child runs; waiting first can deadlock on
+        # the kernel pipe buffer when a canonical report is large.
+        readers = [stdout_r, stderr_r].map { |io| Thread.new { io.read } }
         exit_code = wait_pid(pid, timeout)
-        stdout = stdout_r.read
-        stderr = stderr_r.read
+        stdout, stderr = readers.map(&:value)
         ProcessResult.new(exit_code: exit_code, stdout: stdout, stderr: stderr,
                           timed_out: false, cancelled: false)
       rescue Cancelled, JobDeadlineExceeded
@@ -195,6 +212,7 @@ module SourceImport
         reap(pid) if pid
         raise DeadlineExceeded, "deadline exceeded after #{timeout}s: #{Array(command).join(' ')}"
       ensure
+        readers.each(&:join)
         unregister(pgid) if pgid
         [stdout_w, stderr_w, stdout_r, stderr_r].each { |io| io.close unless io.closed? }
       end
@@ -220,7 +238,18 @@ module SourceImport
     end
 
     def command_timeout(limit = source_deadline_seconds)
-      [Float(limit), remaining_job_seconds].min
+      [Float(limit), remaining_job_seconds, remaining_source_seconds].min
+    end
+
+    def remaining_source_seconds
+      deadline = Thread.current[:source_deadline_at]
+      return Float::INFINITY unless deadline
+
+      [deadline - now, 0.0].max
+    end
+
+    def source_expired?
+      remaining_source_seconds <= 0
     end
 
     def now
