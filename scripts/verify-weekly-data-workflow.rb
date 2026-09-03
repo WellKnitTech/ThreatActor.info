@@ -41,6 +41,8 @@ failures << "workflow must always upload source evidence" unless pipeline.match?
 failures << "workflow must summarize source health" unless pipeline.match?(/summarize-import-health\.rb/) && pipeline.match?(/GITHUB_STEP_SUMMARY/)
 failures << "performance metrics must be outside the source-health report glob" if pipeline.match?(/--metrics-json\s+\"?\$IMPORT_REPORT_DIR/)
 failures << "workflow must upload performance metrics" unless pipeline.match?(/tmp\/performance-metrics\.json/)
+failures << "workflow must write standardized evidence before upload" unless pipeline.match?(/Write standardized import evidence/) && pipeline.match?(/write-import-evidence\.rb tmp\/import-evidence\.json/) && pipeline.match?(/job\.status == 'failure'/) && pipeline.match?(/tmp\/(?:cache-manifest|performance-metrics)\.json/)
+failures << "workflow artifacts must fail when required evidence is absent" unless pipeline.match?(/if-no-files-found: error/) && pipeline.match?(/retention-days: 90/)
 failures << "workflow must validate before opening the pull request" unless pipeline.index("- name: Validate JSON schemas") && pipeline.index("- name: Open weekly data pull request") && pipeline.index("- name: Validate JSON schemas") < pipeline.index("- name: Open weekly data pull request")
 failures << "workflow must not allow quarantined/anomalous plans to be applied" if combined.match?(/--allow-plan-anomalies/)
 

@@ -70,6 +70,8 @@ jobs:
           IMPORT_RETRY_SLEEP_CAP_SECONDS: '30'
         run: |
           set -u
+          export IMPORT_STARTED_AT="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          echo "IMPORT_STARTED_AT=$IMPORT_STARTED_AT" >> "$GITHUB_ENV"
           mkdir -p "$IMPORT_REPORT_DIR" "$FAILURE_DIAGNOSTICS_DIR" data/imports
           args=(--report-dir "$IMPORT_REPORT_DIR" --metrics-json tmp/performance-metrics.json --date "$(date -u +%F)")
           if [[ -n "$REQUESTED_SOURCE" ]]; then
@@ -97,6 +99,8 @@ jobs:
 
           EXIT_CODE="$status" DIAGNOSTIC_PATH="$FAILURE_DIAGNOSTICS_DIR/import-run.json" REQUESTED_PHASE="$REQUESTED_PHASE" REQUESTED_SOURCE="$REQUESTED_SOURCE" \
             ruby -rjson -e 'payload = { phase: ENV.fetch("REQUESTED_PHASE"), source: ENV.fetch("REQUESTED_SOURCE", ""), retry_scope: "per-source", attempts: 1, exit_code: ENV.fetch("EXIT_CODE") }; File.write(ENV.fetch("DIAGNOSTIC_PATH"), JSON.pretty_generate(payload))'
+          echo "IMPORT_ATTEMPTS=1" >> "$GITHUB_ENV"
+          echo "IMPORT_FINISHED_AT=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_ENV"
           exit "$status"
 
       - name: Check source freshness
@@ -106,7 +110,7 @@ jobs:
       - name: Summarize source health
         if: ${{ always() }}
         env:
-          FAIL_ON_SOURCE_FAILURE: '0'
+          FAIL_ON_SOURCE_FAILURE: '1'
         run: |
           ruby scripts/summarize-import-health.rb "$IMPORT_REPORT_DIR" tmp/import-health.md | tee -a "$GITHUB_STEP_SUMMARY"
 
@@ -136,13 +140,27 @@ jobs:
         if: ${{ always() }}
         run: ruby scripts/verify-weekly-data-workflow.rb .github/workflows/import-pipeline.yml
 
+      - name: Write standardized import evidence
+        if: ${{ always() }}
+        env:
+          REQUESTED_SOURCE: ${{ inputs.source }}
+          REQUESTED_PHASE: ${{ inputs.phase || 'all' }}
+          IMPORT_STATUS: ${{ job.status == 'cancelled' && 'cancelled' || job.status == 'failure' && 'failed' || 'completed' }}
+          IMPORT_ERROR_CLASS: ${{ job.status }}
+          GITHUB_JOB_STATUS: ${{ job.status }}
+          SOURCE_VERSION: ${{ github.sha }}
+          CACHE_DECISION: 'bundler-cache-configured'
+          REQUEST_COUNT: ${{ env.REQUEST_COUNT || '0' }}
+          FALLBACK_STATUS: 'not_used'
+        run: ruby scripts/write-import-evidence.rb tmp/import-evidence.json
+
       - name: Upload source snapshots, reports, and diagnostics
         if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
           name: weekly-source-run-${{ github.run_id }}
-          if-no-files-found: warn
-          retention-days: 30
+          if-no-files-found: error
+          retention-days: 90
           path: |
             data/imports/**
             ${{ env.IMPORT_REPORT_DIR }}/**
@@ -151,6 +169,8 @@ jobs:
             tmp/import-health.md
             tmp/source-delta-report.json
             tmp/performance-metrics.json
+            tmp/import-evidence.json
+            tmp/cache-manifest.json
             tmp/source-freshness-report.json
             _data/generated/source_freshness.json
 
