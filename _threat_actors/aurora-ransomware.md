@@ -35,9 +35,3 @@ Typical ransom software, Aurora virus plays the role of blackmailing PC operator
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets](https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html)
-  The Hacker News - 2026-08-31T
-

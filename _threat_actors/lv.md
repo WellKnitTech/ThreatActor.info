@@ -33,6 +33,6 @@ parser needs to be built
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Thrive’s Kushner defends involvement in FIFA mess, hires Elon’s go-to lawyer](https://techcrunch.com/2026/09/01/thrives-kushner-defends-involvement-in-fifa-mess-hires-elons-go-to-lawyer/)
-  TechCrunch - 2026-09-01T
+- [AI Observability Must Evolve for the Agentic Era](https://blog.checkpoint.com/ai-security/ai-observability-must-evolve-for-the-agentic-era/)
+  Check Point - 2026-09-02T
 

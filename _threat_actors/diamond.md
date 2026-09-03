@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [The Diamond Moon and Other Astronomical Events to See in September 2026](https://www.wired.com/story/diamond-moon-and-other-astronomical-events-september-2026/)
-  Wired - 2026-09-01T
-

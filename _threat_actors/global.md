@@ -33,6 +33,8 @@ Not a RaaS yet.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Reliance’s JioHotstar takes its streaming empire global — without sports](https://techcrunch.com/2026/09/01/reliances-jiohotstar-takes-its-streaming-empire-global-without-sports/)
-  TechCrunch - 2026-09-01T
+- [Gambling Goblin: A Chinese-Speaking Actor Hijacks Brazilian Government Sites to Fuel a Global SEO Fraud Machine](https://blog.checkpoint.com/research/gambling-goblin-a-chinese-speaking-actor-hijacks-brazilian-government-sites-to-fuel-a-global-seo-fraud-machine/)
+  Check Point - 2026-09-02T
+- [Sality botnet infrastructure dismantled in joint global takedown](https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/)
+  BleepingComputer - 2026-09-02T
 
