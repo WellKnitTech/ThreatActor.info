@@ -1,6 +1,8 @@
 # IOC and Observable Contract (proposal)
 
-**Status:** design only. This document defines the smallest publishable contract for the next implementation; it does not change importers, schemas, or generated artifacts.
+**Status:** Observable v1 migration contract. The implementation lives in
+`scripts/canonical_observables.rb`; importers may adopt it without changing the
+legacy actor lists or generated compatibility views.
 
 **Decision:** keep actor YAML as the authoring boundary, but represent each observable as a typed observation object. Existing lists and generated row/API shapes remain compatibility views until a later migration. Never publish a raw source payload merely because it contains an indicator.
 
@@ -130,3 +132,13 @@ Implementation acceptance criteria:
 7. A schema version and generated/source-manifest reference appear in each new/changed public payload, and deterministic generation produces byte-stable output.
 
 See the existing [actor deduplication audit](actor-deduplication-audit.md) for the current identity baseline. This contract must be synthesized with provenance/safe-sharing and API/search contracts before implementation.
+
+## 8. Migration implementation
+
+During migration, callers should pass canonical observation hashes to
+`CanonicalObservables.canonicalize` and use `canonicalize_all` to merge records
+by `(type, normalized_value)`. The resulting `id` is immutable and independent
+of actor attribution. `CanonicalObservables.public?` is the fail-closed gate for
+lookup and publication: only active/deprecated records with an active source
+are eligible. Existing `IocYamlReader` behavior remains unchanged for legacy
+lists, so production data is not bulk-converted by this contract card.
