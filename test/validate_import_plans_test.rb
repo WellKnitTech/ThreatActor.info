@@ -25,6 +25,21 @@ class ValidateImportPlansTest < Minitest::Test
     assert status.success?, output
   end
 
+  def test_threatfox_unknown_and_ambiguous_iocs_are_unmatched
+    output, _error, status = run_validator('threatfox' => {
+      'ioc_rows' => 10, 'matched_iocs' => 8, 'unknown_iocs' => 1, 'ambiguous_iocs' => 1
+    })
+    assert status.success?, output
+  end
+
+  def test_threatfox_zero_attribution_is_not_accepted_as_a_no_op
+    output, _error, status = run_validator('threatfox' => {
+      'ioc_rows' => 10, 'matched_iocs' => 0, 'unknown_iocs' => 10
+    })
+    refute status.success?
+    assert_includes output, 'match ratio'
+  end
+
   def test_mitre_plan_counters_are_supported
     output, _error, status = run_validator('mitre-attack' => {
       'intrusion_sets' => 10, 'actors_merge' => 8, 'actors_create' => 1, 'actors_review' => 1

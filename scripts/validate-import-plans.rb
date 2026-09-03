@@ -43,6 +43,12 @@ def numeric(payload, keys)
   values.find(&:positive?) || values.first
 end
 
+def outcome_count(payload, canonical_keys, fallback_keys)
+  return canonical_keys.sum { |key| payload[key].is_a?(Numeric) ? payload[key].to_f : 0.0 } if canonical_keys.any? { |key| payload[key].is_a?(Numeric) }
+
+  numeric(payload, fallback_keys)
+end
+
 def numeric_sum(payload, keys)
   keys.sum { |key| payload[key].is_a?(Numeric) ? payload[key].to_f : 0.0 }
 end
@@ -87,14 +93,14 @@ def report_counts(payload)
     return [{ 'total_records' => 0, 'matched' => 0, 'unmatched' => 0, 'new_candidates' => 0 }, false, nil]
   end
 
-  matched = numeric(payload, %w[matched matched_existing_actors matched_actors updates actors_with_updates actors_merge])
-  unmatched = numeric(payload, %w[unmatched unmatched_actors unmatched_reports])
+  matched = numeric(payload, %w[matched matched_iocs matched_existing_actors matched_actors matched_reports updates actors_merge])
+  unmatched = outcome_count(payload, %w[ambiguous_reports unmatched_reports ambiguous_iocs unknown_iocs], %w[unmatched unmatched_actors unmatched_reports review skipped actors_review])
   disjoint_unmatched = numeric_sum(payload, %w[review skipped actors_review])
   if %w[review skipped actors_review].any? { |key| payload[key].is_a?(Numeric) }
     unmatched = disjoint_unmatched
   end
   new_candidates = numeric(payload, %w[new_candidates creates actors_create])
-  total = numeric(payload, %w[total_records total_candidates apt_records records_count record_count ioc_rows parsed_records intrusion_sets source_records])
+  total = numeric(payload, %w[total_records total_candidates total_rows event_count apt_records records_count record_count ioc_rows parsed_records intrusion_sets source_records])
   if payload['actor_updates'].is_a?(Array)
     matched_labels = payload['actor_updates'].sum do |entry|
       entry.is_a?(Hash) ? Array(entry['source_labels']).length : 0
@@ -151,8 +157,8 @@ report_files.each do |path|
   end
 
   no_ops += 1 unless metrics_applicable
-  matched = numeric(counts, %w[matched matched_existing_actors matched_actors updates actors_with_updates actors_merge]) || 0.0
-  unmatched = numeric(counts, %w[unmatched unmatched_actors unmatched_reports]) || 0.0
+  matched = numeric(counts, %w[matched matched_iocs matched_existing_actors matched_actors matched_reports updates actors_merge]) || 0.0
+  unmatched = outcome_count(counts, %w[ambiguous_reports unmatched_reports ambiguous_iocs unknown_iocs], %w[unmatched unmatched_actors unmatched_reports review skipped actors_review]) || 0.0
   disjoint_unmatched = numeric_sum(counts, %w[review skipped actors_review])
   if %w[review skipped actors_review].any? { |key| counts[key].is_a?(Numeric) }
     unmatched = disjoint_unmatched
@@ -162,7 +168,7 @@ report_files.each do |path|
     unmatched = label_unmatched.to_f
   end
   new_candidates = numeric(counts, %w[new_candidates creates actors_create]) || 0.0
-  total = numeric(counts, %w[total_records total_candidates apt_records records_count record_count ioc_rows parsed_records intrusion_sets source_records]) || (matched + unmatched + new_candidates)
+  total = numeric(counts, %w[total_records total_candidates total_rows event_count apt_records records_count record_count ioc_rows parsed_records intrusion_sets source_records]) || (matched + unmatched + new_candidates)
   if counts['actor_updates'].is_a?(Array)
     matched_labels = counts['actor_updates'].sum do |entry|
       entry.is_a?(Hash) ? Array(entry['source_labels']).length : 0
