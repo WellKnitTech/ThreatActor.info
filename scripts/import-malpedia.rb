@@ -257,8 +257,10 @@ class MalpediaImporter
       'actor_details_file' => 'actor_details.json'
     }
 
-    cache_records = selected_actors.values.map do |record|
-      record.merge('id' => record['source_actor_id'])
+    records_by_source_id = selected_actors.values.to_h { |record| [record['source_actor_id'], record] }
+    cache_records = actor_ids.filter_map do |source_actor_id|
+      record = records_by_source_id[source_actor_id]
+      record&.merge('id' => source_actor_id)
     end
     SourceImport::CacheManifest.write_atomic(
       File.join(@options[:output], 'cache-manifest.yml'),
