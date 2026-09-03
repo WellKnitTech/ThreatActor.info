@@ -344,12 +344,13 @@ class ThreatFoxImporter
       tf = {
         'source_name' => 'abuse.ch ThreatFox',
         'source_dataset_url' => API_URL,
-        'source_retrieved_at' => manifest['source_retrieved_at'] || manifest['retrieved_at'] || Time.now.utc.iso8601,
+        'source_retrieved_at' => manifest['source_retrieved_at'] || manifest['retrieved_at'],
         'snapshot_path' => snapshot_path,
         'iocs_merged' => added
       }
       tf['source_status'] = manifest['query_status'] if manifest['query_status']
       tf['fallback_reason'] = manifest['fallback_reason'] if manifest['fallback_reason']
+      tf['fallback_snapshot'] = manifest['fallback_snapshot'] if manifest['fallback_snapshot']
       tf['unmapped_ioc_types'] = unmapped_types.uniq if unmapped_types.any?
       actor['provenance']['threatfox'] = tf
 

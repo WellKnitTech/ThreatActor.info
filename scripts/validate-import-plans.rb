@@ -113,7 +113,7 @@ def report_counts(payload)
   end
   if payload['actions'].is_a?(Array)
     actions = payload['actions'].filter_map { |action| action.is_a?(Hash) ? action['action'].to_s : action.to_s }
-    matched ||= actions.count { |action| %w[add create update updated].include?(action) }
+    matched ||= actions.count { |action| %w[add update updated].include?(action) }
     unmatched ||= actions.count { |action| %w[review skip skipped unmatched].include?(action) }
     new_candidates ||= actions.count { |action| %w[new_candidate new candidates].include?(action) }
     total ||= actions.length

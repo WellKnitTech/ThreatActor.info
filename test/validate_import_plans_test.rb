@@ -60,6 +60,14 @@ class ValidateImportPlansTest < Minitest::Test
     assert status.success?, output
   end
 
+  def test_create_only_actions_are_new_candidates
+    output, _error, status = run_validator('generic' => {
+      'actions' => [{ 'action' => 'create' }]
+    })
+    refute status.success?
+    assert_includes output, 'match ratio'
+  end
+
   def test_zero_canonical_counter_does_not_mask_nonzero_action
     output, _error, status = run_validator('generic' => {
       'total_candidates' => 4, 'matched' => 0, 'updates' => 4
