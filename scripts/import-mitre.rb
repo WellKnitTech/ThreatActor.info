@@ -237,6 +237,12 @@ class MitreAttackImporter
       bundle_path = File.join(snapshot, filename)
       next unless bundle.is_a?(Hash) && File.file?(bundle_path)
       next unless bundle['content_sha256'].to_s == Digest::SHA256.file(bundle_path).hexdigest
+      begin
+        actual_version = MitreCommon.attack_version_from_bundle(JSON.parse(File.read(bundle_path)))
+      rescue StandardError
+        next
+      end
+      next unless actual_version.to_s == @options[:version].to_s
 
       return { path: bundle_path, version: @options[:version] }
     end

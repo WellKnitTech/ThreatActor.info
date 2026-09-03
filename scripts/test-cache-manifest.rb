@@ -47,7 +47,7 @@ class CacheManifestTest < Minitest::Test
       current = File.join(root, '2026-09-03')
       FileUtils.mkdir_p(previous)
       bundle = File.join(previous, 'enterprise-attack.json')
-      File.write(bundle, '{"objects":[]}')
+      File.write(bundle, '{"objects":[{"type":"x-mitre-collection","x_mitre_version":"15.0"}]}')
       SourceImport::CacheManifest.write_atomic(
         File.join(previous, 'cache-manifest.yml'),
         SourceImport::CacheManifest.build(
