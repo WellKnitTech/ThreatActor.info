@@ -1,0 +1,48 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'json'
+require 'fileutils'
+require 'time'
+
+output = ARGV.fetch(0, 'tmp/import-evidence.json')
+started_at = ENV['IMPORT_STARTED_AT']
+finished_at = ENV.fetch('IMPORT_FINISHED_AT', Time.now.utc.iso8601)
+elapsed = started_at ? [Time.parse(finished_at) - Time.parse(started_at), 0].max.round(3) : nil
+status = ENV.fetch('IMPORT_STATUS', 'unknown')
+status = 'cancelled' if ENV['GITHUB_JOB_STATUS'] == 'cancelled'
+safe_error = ENV['IMPORT_ERROR_CLASS'].to_s.split('::').last.to_s
+safe_error = 'unknown' unless safe_error.match?(/\A[A-Za-z][A-Za-z0-9_]*\z/)
+
+evidence = {
+  'schema_version' => 1,
+  'requested_source' => ENV.fetch('REQUESTED_SOURCE', ''),
+  'requested_phase' => ENV.fetch('REQUESTED_PHASE', 'all'),
+  'source_version' => ENV.fetch('SOURCE_VERSION', ENV.fetch('GITHUB_SHA', 'unknown')),
+  'cache_decision' => ENV.fetch('CACHE_DECISION', 'unknown'),
+  'attempts' => Integer(ENV.fetch('IMPORT_ATTEMPTS', '0'), 10),
+  'status' => status,
+  'started_at' => started_at,
+  'finished_at' => finished_at,
+  'elapsed_seconds' => elapsed,
+  'request_count' => Integer(ENV.fetch('REQUEST_COUNT', '0'), 10),
+  'fallback_status' => ENV.fetch('FALLBACK_STATUS', 'not_used'),
+  'error_classification' => safe_error,
+  'run_id' => ENV.fetch('GITHUB_RUN_ID', 'local')
+}
+
+FileUtils.mkdir_p(File.dirname(output))
+File.write(output, JSON.pretty_generate(evidence) + "\n")
+File.write(File.join(File.dirname(output), 'cache-manifest.json'), JSON.pretty_generate(
+  'schema_version' => 1,
+  'source_version' => evidence['source_version'],
+  'cache_decision' => evidence['cache_decision'],
+  'fallback_status' => evidence['fallback_status']
+) + "\n")
+File.write(File.join(File.dirname(output), 'performance-metrics.json'), JSON.pretty_generate(
+  'schema_version' => 1,
+  'attempts' => evidence['attempts'],
+  'elapsed_seconds' => evidence['elapsed_seconds'],
+  'request_count' => evidence['request_count']
+) + "\n")
+puts "Import evidence written to #{output}"
