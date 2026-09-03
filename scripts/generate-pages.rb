@@ -643,7 +643,7 @@ def build_body(actor)
         desc = m['description'] || ''
         sections << "- **#{name}**: #{desc}"
       else
-        # String format: "ZackStealer - Custom info-stealer"
+        # String format: "Tool name - description"
         sections << "- **#{m}**"
       end
     end

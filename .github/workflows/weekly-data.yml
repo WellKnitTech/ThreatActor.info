@@ -56,6 +56,14 @@ jobs:
           mkdir -p tmp/delta-baseline
           cp -R _data/actors tmp/delta-baseline/actors
 
+      - name: Restore ThreatFox snapshot cache
+        uses: actions/cache/restore@v4
+        with:
+          path: data/imports/threatfox
+          key: threatfox-snapshot-${{ github.repository }}-${{ github.run_id }}
+          restore-keys: |
+            threatfox-snapshot-${{ github.repository }}-
+
       - name: Run automated source imports with bounded retries
         id: imports
         env:
@@ -106,6 +114,13 @@ jobs:
           ATTEMPT="$attempt" EXIT_CODE="$status" DIAGNOSTIC_PATH="$FAILURE_DIAGNOSTICS_DIR/import-run.json" REQUESTED_PHASE="$REQUESTED_PHASE" REQUESTED_SOURCE="$REQUESTED_SOURCE" \
             ruby -rjson -e 'payload = { phase: ENV.fetch("REQUESTED_PHASE"), source: ENV.fetch("REQUESTED_SOURCE", ""), attempts: ENV.fetch("ATTEMPT", "unknown"), exit_code: ENV.fetch("EXIT_CODE") }; File.write(ENV.fetch("DIAGNOSTIC_PATH"), JSON.pretty_generate(payload))'
           exit "$status"
+
+      - name: Save ThreatFox snapshot cache
+        if: ${{ always() }}
+        uses: actions/cache/save@v4
+        with:
+          path: data/imports/threatfox
+          key: threatfox-snapshot-${{ github.repository }}-${{ github.run_id }}
 
       - name: Summarize source health
         if: ${{ always() }}

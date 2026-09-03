@@ -132,19 +132,7 @@ class ThreatFoxImporter
                 'fetch_failed'
               end
       prior = latest_known_good_snapshot
-      unless prior
-        warn "ThreatFox fetch failed (#{reason}); no last known good snapshot exists"
-        write_snapshot({ 'query_status' => 'source_unavailable', 'data' => [] }, {
-                         'retrieved_at' => Time.now.utc.iso8601,
-                         'api_url' => API_URL,
-                         'query' => 'get_iocs',
-                         'days' => days,
-                         'query_status' => 'source_unavailable',
-                         'fallback_reason' => reason,
-                         'record_count' => 0
-                       })
-        return
-      end
+      raise error unless prior
 
       warn "ThreatFox fetch failed (#{reason}); reusing last known good snapshot #{prior[:path]}"
       write_snapshot(prior[:payload], {
@@ -179,9 +167,8 @@ class ThreatFoxImporter
 
   def latest_known_good_snapshot
     root = File.dirname(@options[:output])
-    current = File.expand_path(@options[:output])
     candidates = [@options[:output]] + Dir.children(root).map { |name| File.join(root, name) }
-                   .select { |path| File.directory?(path) && File.expand_path(path) != current }
+                   .select { |path| File.directory?(path) }
                    .sort_by { |path| -File.mtime(path).to_f }
 
     candidates.each do |path|

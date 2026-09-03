@@ -52,7 +52,6 @@ end
 def numeric_sum(payload, keys)
   keys.sum { |key| payload[key].is_a?(Numeric) ? payload[key].to_f : 0.0 }
 end
-
 def failure_issue(payload)
   statuses = %w[status query_status].filter_map do |key|
     value = payload[key].to_s.strip.downcase

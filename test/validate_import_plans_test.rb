@@ -6,7 +6,6 @@ require 'minitest/autorun'
 require 'open3'
 require 'tmpdir'
 require_relative '../scripts/import-threatfox'
-
 class ValidateImportPlansTest < Minitest::Test
   VALIDATOR = File.expand_path('../scripts/validate-import-plans.rb', __dir__)
   CONFIG = File.expand_path('../data/imports/plan_thresholds.yml', __dir__)
@@ -114,6 +113,7 @@ class ValidateImportPlansTest < Minitest::Test
     refute status.success?
     assert_includes output, 'unmatched/new ratio'
   end
+
 
   def test_disjoint_review_and_skipped_counters_are_both_counted
     output, _error, status = run_validator('generic' => {

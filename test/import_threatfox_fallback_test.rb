@@ -71,17 +71,10 @@ class ThreatFoxFallbackTest < Minitest::Test
     end
   end
 
-  def test_missing_key_without_prior_snapshot_marks_source_unavailable
+  def test_missing_key_without_prior_snapshot_still_fails_closed
     Dir.mktmpdir do |root|
-      output = File.join(root, '2026-09-01')
-      importer(output: output).send(:fetch_snapshot)
-
-      assert_equal({ 'query_status' => 'source_unavailable', 'data' => [] },
-                   JSON.parse(File.read(File.join(output, 'get_iocs.json'))))
-      manifest = YAML.safe_load(File.read(File.join(output, 'manifest.yml')), permitted_classes: [], aliases: false)
-      assert_equal 'source_unavailable', manifest['query_status']
-      assert_equal 'no_auth_key', manifest['fallback_reason']
-      assert_equal 0, manifest['record_count']
+      error = assert_raises(RuntimeError) { importer(output: File.join(root, '2026-09-01')).send(:fetch_snapshot) }
+      assert_includes error.message, 'no_auth_key'
     end
   end
 
@@ -189,10 +182,11 @@ class ThreatFoxFallbackTest < Minitest::Test
     plan_rows = [{ match: { position: 0, confidence: :high } }]
     saved = nil
 
-    ActorStore.stub(:save_all, ->(value) { saved = value }) do
-      instance.send(:apply_matches, rows, plan_rows, actors, '/tmp/snapshot')
-    end
-
+    original_save_all = ActorStore.method(:save_all)
+    ActorStore.define_singleton_method(:save_all) { |value| saved = value }
+    instance.send(:apply_matches, rows, plan_rows, actors, '/tmp/snapshot')
     assert_equal({}, saved.first['iocs'])
+  ensure
+    ActorStore.define_singleton_method(:save_all, original_save_all) if original_save_all
   end
 end
