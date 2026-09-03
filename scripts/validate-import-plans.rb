@@ -92,7 +92,7 @@ def report_counts(payload)
     return [{ 'total_records' => 0, 'matched' => 0, 'unmatched' => 0, 'new_candidates' => 0 }, false, nil]
   end
 
-  matched = numeric(payload, %w[matched matched_iocs matched_existing_actors matched_actors actors_with_updates matched_reports updates actors_merge])
+  matched = numeric(payload, %w[matched matched_iocs matched_existing_actors matched_actors matched_reports actors_with_updates updates actors_merge])
   unmatched = outcome_count(payload, %w[ambiguous_reports unmatched_reports ambiguous_iocs unknown_iocs], %w[unmatched unmatched_actors unmatched_reports review skipped actors_review])
   disjoint_unmatched = numeric_sum(payload, %w[review skipped actors_review])
   if %w[review skipped actors_review].any? { |key| payload[key].is_a?(Numeric) }
@@ -158,7 +158,7 @@ report_files.each do |path|
   end
 
   no_ops += 1 unless metrics_applicable
-  matched = numeric(counts, %w[matched matched_iocs matched_existing_actors matched_actors matched_reports updates actors_merge]) || 0.0
+  matched = numeric(counts, %w[matched matched_iocs matched_existing_actors matched_actors matched_reports actors_with_updates updates actors_merge]) || 0.0
   unmatched = outcome_count(counts, %w[ambiguous_reports unmatched_reports ambiguous_iocs unknown_iocs], %w[unmatched unmatched_actors unmatched_reports review skipped actors_review]) || 0.0
   disjoint_unmatched = numeric_sum(counts, %w[review skipped actors_review])
   if %w[review skipped actors_review].any? { |key| counts[key].is_a?(Numeric) }

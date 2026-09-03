@@ -236,17 +236,20 @@ class MitreAttackImporter
       bundle = cache.dig('bundles', domain.to_s)
       bundle_path = File.join(snapshot, filename)
       next unless bundle.is_a?(Hash) && File.file?(bundle_path)
-      next unless bundle['content_sha256'].to_s == Digest::SHA256.file(bundle_path).hexdigest
-      begin
-        actual_version = MitreCommon.attack_version_from_bundle(JSON.parse(File.read(bundle_path)))
-      rescue StandardError
-        next
-      end
-      next unless actual_version.to_s == @options[:version].to_s
+      next unless valid_reusable_bundle?(bundle_path, bundle, @options[:version])
 
       return { path: bundle_path, version: @options[:version] }
     end
     nil
+  end
+
+  def valid_reusable_bundle?(path, metadata, expected_version)
+    return false unless metadata['content_sha256'].to_s == Digest::SHA256.file(path).hexdigest
+
+    data = JSON.parse(File.read(path))
+    MitreCommon.attack_version_from_bundle(data).to_s == expected_version.to_s
+  rescue StandardError
+    false
   end
 
   def download(url, path, prior_info: nil, prior_path: nil)
