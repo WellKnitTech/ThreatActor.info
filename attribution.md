@@ -8,6 +8,8 @@ permalink: /attribution/
 
 ThreatActor.info is a research index built from public, attributed sources plus analyst-reviewed enrichment. This page summarizes the source families used by the site, how we use them, and where source-specific attribution appears.
 
+Observable publication and actor-linkage decisions are governed by the [Observable source and attribution policy](/docs/source-policy.html) and its [source register](/data/observable-source-policy.yml).
+
 ## How attribution is handled
 
 - Actor and malware pages show a **Source Attribution** panel when structured source metadata is available.

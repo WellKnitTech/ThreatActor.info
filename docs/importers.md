@@ -58,6 +58,8 @@ Reviewed name and rename handling lives in `data/imports/ransomlook/mapping_over
 
 ## Automation Policy
 
+The normative observable source and actor-linkage decisions are in the [Observable source and attribution policy](source-policy.md), with the machine-readable register at `data/observable-source-policy.yml` and regression scenarios at `data/observable-policy-scenarios.yml`. No importer may publish an observable or actor link outside that register.
+
 - Treat importer snapshots in `data/imports/*` as the operational cache layer.
 - Run public, machine-consumable source imports through `ruby scripts/import-automated-sources.rb`; analyst notes are intentionally excluded from this runner.
 - **`import-automated-sources.rb` source order:** Each entry in `SOURCES_UNSORTED` in [`scripts/import-automated-sources.rb`](../scripts/import-automated-sources.rb) sets a **`priority` integer** (lower runs first); at load time the runner builds **`SOURCES`** as `SOURCES_UNSORTED.sort_by(&:priority)` and aborts if priorities collide or if `mitre-attack` is not priority `1`. Policy: **MITRE ATT&CK first** (canonical STIX backbone), then other **STIX/JSON/static feeds** (for example Wiz, MISP Galaxy, ETDA JSON, Malpedia, APTmap, EternalLiberty), then **tabular sources** (XLSX, CSV, Google Sheets export), then **JSON APIs** used as enrichment (RansomLook, RedDrip7 GitHub API), then **markdown-derived** snapshots (Bushido matrices and README indexes), and **HTML scrapers last** so brittle site parsing does not block structured pipelines. When adding a new automated source, add a `Source.new` with a unique `priority` in the appropriate tier.
