@@ -221,8 +221,6 @@ class MitreAttackImporter
     [nil, nil]
   end
 
-  def download(url, path, prior_info: nil, prior_path: nil)
-
   def reusable_bundle(domain, filename)
     return nil if @options[:version].to_s.empty?
 
@@ -244,6 +242,8 @@ class MitreAttackImporter
     end
     nil
   end
+
+  def download(url, path, prior_info: nil, prior_path: nil)
     uri = URI.parse(url)
     Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == 'https') do |http|
       req = Net::HTTP::Get.new(uri)
