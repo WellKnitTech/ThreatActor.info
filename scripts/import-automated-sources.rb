@@ -364,6 +364,14 @@ def selected_sources(options)
     selected = selected.reject { |source| skipped.include?(source.key) }
   end
 
+  if ENV['MALWAREBAZAAR_API_KEY'].to_s.strip.empty?
+    selected = selected.reject do |source|
+      next false unless source.key == 'malwarebazaar'
+
+      warn 'Skipping malwarebazaar: MALWAREBAZAAR_API_KEY is not configured (report-only source)'
+      true
+    end
+  end
   selected
 end
 
