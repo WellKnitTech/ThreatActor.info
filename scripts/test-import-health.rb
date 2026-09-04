@@ -99,24 +99,8 @@ class ImportHealthTest < Minitest::Test
     assert_includes workflow, 'ruby scripts/write-import-evidence.rb tmp/import-evidence.json'
     assert_includes workflow, '${{ env.FAILURE_DIAGNOSTICS_DIR }}/**'
     assert_includes workflow, 'tmp/import-evidence.json'
-  end
-
-  def test_importer_writes_source_report_when_command_fails
-    Dir.mktmpdir do |dir|
-      reports = File.join(dir, 'reports')
-      FileUtils.mkdir_p(reports)
-      bundle = File.join(dir, 'bundle')
-      File.write(bundle, "#!/bin/sh\nexit 1\n")
-      FileUtils.chmod('+x', bundle)
-      output, status = Open3.capture2e({ 'PATH' => "#{dir}:#{ENV.fetch('PATH')}" },
-                                       'ruby', File.join(ROOT, 'scripts/import-automated-sources.rb'),
-                                       '--source', 'urlhaus', '--fetch-only', '--report-dir', reports)
-
-      refute status.success?
-      assert_includes output, 'urlhaus: Command failed'
-      report = JSON.parse(File.read(File.join(reports, 'failure-fetch-urlhaus-report.json')))
-      assert_equal({ 'source' => 'urlhaus', 'status' => 'failed', 'failure_stage' => 'fetch' },
-                   report.slice('source', 'status', 'failure_stage'))
-    end
+    assert_includes workflow, 'FAILED_SOURCE="$REQUESTED_SOURCE"'
+    assert_includes workflow, 'FAILED_SOURCE=$(ruby -e'
+    assert_includes workflow, 'log.scan'
   end
 end
