@@ -13,6 +13,53 @@ status = ENV.fetch('IMPORT_STATUS', 'unknown')
 status = 'cancelled' if ENV['GITHUB_JOB_STATUS'] == 'cancelled'
 safe_error = ENV['IMPORT_ERROR_CLASS'].to_s.split('::').last.to_s
 safe_error = 'unknown' unless safe_error.match?(/\A[A-Za-z][A-Za-z0-9_]*\z/)
+report_dir = ENV['IMPORT_REPORT_DIR']
+failure_reports = report_dir ? Dir[File.join(report_dir, '*.json')].sort.filter_map do |path|
+  payload = JSON.parse(File.read(path))
+  payload = payload.first if payload.is_a?(Array)
+  next unless payload.is_a?(Hash)
+  next unless %w[failed error invalid].include?(payload['status'].to_s)
+
+  source = payload['source'] || payload['source_key'] ||
+           File.basename(path).sub(/^(?:failure-(?:fetch|plan|import)|(?:fetch|plan|import))-/, '')
+           .sub(/-report\.json\z/, '')
+  diagnostic = payload['diagnostic'] || payload['error'] || payload['reason']
+  {
+    'source' => source,
+    'failure_stage' => payload['failure_stage'],
+    'diagnostic' => diagnostic.to_s
+  }.compact
+rescue JSON::ParserError
+  {
+    'source' => File.basename(path).sub(/-report\.json\z/, ''),
+    'diagnostic' => 'invalid JSON report'
+  }
+end : []
+failed_sources = failure_reports.map { |failure| failure['source'] }.compact.uniq.sort
+diagnostics_dir = ENV['FAILURE_DIAGNOSTICS_DIR']
+if diagnostics_dir
+  Dir[File.join(diagnostics_dir, '*.json')].sort.each do |path|
+    begin
+      payload = JSON.parse(File.read(path))
+      next unless payload.is_a?(Hash) && payload['exit_code'].to_i.nonzero?
+
+      source = payload['source'].to_s
+      source = payload['requested_source'].to_s if source.empty?
+      source = ENV.fetch('REQUESTED_SOURCE', '') if source.empty?
+      source = 'import-run' if source.empty?
+      next if failed_sources.include?(source)
+
+      failure_reports << {
+        'source' => source,
+        'diagnostic' => payload['error'] || "import command exited with #{payload['exit_code']}"
+      }
+      failed_sources << source
+    rescue JSON::ParserError
+      next
+    end
+  end
+  failed_sources = failed_sources.uniq.sort
+end
 
 evidence = {
   'schema_version' => 1,
@@ -28,6 +75,8 @@ evidence = {
   'request_count' => Integer(ENV.fetch('REQUEST_COUNT', '0'), 10),
   'fallback_status' => ENV.fetch('FALLBACK_STATUS', 'not_used'),
   'error_classification' => safe_error,
+  'failed_sources' => failed_sources,
+  'failure_diagnostics' => failure_reports,
   'run_id' => ENV.fetch('GITHUB_RUN_ID', 'local')
 }
 
