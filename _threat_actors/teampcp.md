@@ -31,9 +31,3 @@ TeamPCP is a threat actor that has executed a coordinated series of supply chain
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Authorities arrest 2 alleged members of prolific hacking group TeamPCP](https://arstechnica.com/security/2026/08/authorities-arrest-2-alleged-members-of-prolific-hacking-group-teampcp/)
-  Ars Technica - 2026-08-28T
-

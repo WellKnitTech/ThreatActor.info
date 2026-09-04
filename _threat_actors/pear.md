@@ -33,6 +33,8 @@ ABOUT US: <br/> <br/>"Pure Extraction And Ransom (PEAR) Team is the community of
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Your Employee’s Password Appeared in an Infostealer Log. Now What?](https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/)
+  BleepingComputer - 2026-09-03T
 - [The Inbox Is Disappearing. Why Security Must Follow the Workspace](https://blog.checkpoint.com/securing-user-and-access/the-inbox-is-disappearing-why-security-must-follow-the-workspace/)
   Check Point - 2026-09-01T
 

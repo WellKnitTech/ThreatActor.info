@@ -35,11 +35,3 @@ Beginning in January 2018 and persisting through the first half of the year, Cro
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads](https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html)
-  The Hacker News - 2026-09-02T
-- [Sality botnet infrastructure dismantled in joint global takedown](https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/)
-  BleepingComputer - 2026-09-02T
-

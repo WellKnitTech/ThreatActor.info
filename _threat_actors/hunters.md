@@ -30,3 +30,9 @@ Hunters International is a ransomware group first identified in October 2023, be
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [What We Missed: Did ShinyHunters 'Breach' ReliaQuest?](https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest)
+  DarkReading - 2026-09-03T
+

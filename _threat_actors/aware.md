@@ -30,3 +30,9 @@ Aware is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models](https://blog.cloudflare.com/vulnerability-discovery-remediation/)
+  Cloudflare - 2026-09-03T
+

@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [SonicWall warns of actively exploited SMA1000 zero-day flaws](https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/)
-  BleepingComputer - 2026-09-02T
+- [BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory](https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html)
+  The Hacker News - 2026-09-03T
+- [Plex warns users to patch security vulnerabilities immediately](https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/)
+  BleepingComputer - 2026-09-03T
 

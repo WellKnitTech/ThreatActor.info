@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners](https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html)
+- [Purple Promo Codes and Deals: Up to 30% Off](https://www.wired.com/story/purple-promo-code/)
+  Wired - 2026-09-04T
+- [Transplanted Pig Kidney Still Working After a Record-Setting 9 Months in a Patient](https://www.wired.com/story/pig-kidney-transplant-working-after-record-setting-9-months/)
+  Wired - 2026-09-03T
+- [Tesla is asking people if they want to buy and run Cybercab fleets](https://techcrunch.com/2026/09/03/tesla-is-asking-people-if-they-want-to-buy-and-run-cybercab-fleets/)
+  TechCrunch - 2026-09-03T
+- [Check Point Brings OpenAI Daybreak Models Across Its Security Platform to Help Defenders Find, Validate, and Remediate Risk](https://blog.checkpoint.com/ai-security/check-point-brings-openai-daybreak-models-across-its-security-platform-to-help-defenders-find-validate-and-remediate-risk/)
+  Check Point - 2026-09-03T
+- [BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory](https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html)
   The Hacker News - 2026-09-03T
-- [Total Wireless Promo Codes & Deals: 50% Off Select Plans](https://www.wired.com/story/total-wireless-promo-code/)
-  Wired - 2026-09-03T
-- [Lowe’s Promo Codes and Deals: Up to $300 Off Appliances](https://www.wired.com/story/lowes-promo-code/)
-  Wired - 2026-09-03T
-- [Meta Pushes Its New AI Agent on Employees—but Eases Off on Tokenmaxxing](https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing/)
-  Wired - 2026-09-03T
-- [Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control](https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html)
-  The Hacker News - 2026-09-02T
 

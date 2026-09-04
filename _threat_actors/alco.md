@@ -33,6 +33,8 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Qualcomm backs Ultrahuman in $70M round on bet to turn smart rings into computers](https://techcrunch.com/2026/09/03/qualcomm-backs-ultrahuman-in-70m-round-on-bet-to-turn-smart-rings-into-computers/)
+  TechCrunch - 2026-09-03T
 - [Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon](https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html)
   The Hacker News - 2026-09-03T
 

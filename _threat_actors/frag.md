@@ -30,9 +30,3 @@ Frag is a relatively new ransomware and data extortion group first seen in Febru
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Perturbation Probing: A New Diagnostic for the Fragility of LLM Safety](https://unit42.paloaltonetworks.com/perturbation-probing-llm-safety/)
-  Unit 42 - 2026-08-28T
-

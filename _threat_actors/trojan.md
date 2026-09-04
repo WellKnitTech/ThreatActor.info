@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control](https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html)
-  The Hacker News - 2026-09-02T
-

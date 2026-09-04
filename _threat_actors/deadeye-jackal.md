@@ -44,12 +44,12 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Startup ARR is less secure than ever, new research shows](https://techcrunch.com/2026/09/03/startup-arr-is-less-secure-than-ever-new-research-shows/)
+  TechCrunch - 2026-09-03T
+- [Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data](https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html)
+  The Hacker News - 2026-09-03T
 - [Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon](https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html)
   The Hacker News - 2026-09-03T
-- [Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another](https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html)
-  The Hacker News - 2026-09-02T
-- [Microsoft Defender flags legitimate Google search links as malicious](https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/)
-  BleepingComputer - 2026-09-02T
-- [The Guardrails Debate: Security Researcher Changes His Mind](https://www.darkreading.com/cyber-risk/the-guardrails-debate-security-researcher-changes-his-mind)
-  DarkReading - 2026-08-31T
+- [Elastic and Tencent Cloud deepen strategic partnership to power AI-era search foundation](https://www.elastic.co/blog/elastic-and-tencent-cloud)
+  Elastic - 2026-09-03T
 

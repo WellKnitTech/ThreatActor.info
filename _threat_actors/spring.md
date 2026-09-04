@@ -35,6 +35,4 @@ Spring is an active extortion or ransomware group tracked by RansomLook.
 
 - [Threat Gang 'Springs' Vishing Attacks on Microsoft Teams Users](https://www.darkreading.com/cyberattacks-data-breaches/threat-gang-springs-vishing-attacks-microsoft-teams-users)
   DarkReading - 2026-09-02T
-- [Spring Ring: An Inside Look at Voice Phishing Campaigns in Microsoft Teams](https://unit42.paloaltonetworks.com/spring-ring-voice-phishing-campaigns/)
-  Unit 42 - 2026-08-31T
 

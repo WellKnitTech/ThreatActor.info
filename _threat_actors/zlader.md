@@ -30,11 +30,3 @@ Ransomware VaultCrypt family
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands](https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html)
-  The Hacker News - 2026-09-02T
-- [US charges Russian for infecting 80,000 freelancers with malware](https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/)
-  BleepingComputer - 2026-09-02T
-

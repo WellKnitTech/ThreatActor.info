@@ -62,7 +62,6 @@
     "Trinidad and Tobago",
     "Tunisia",
     "Turkey",
-    "US",
     "Ukraine",
     "United Arab Emirates",
     "United Kingdom",
@@ -78,7 +77,6 @@
     "Low"
   ],
   "sectors": [
-    "AI/ML Platforms",
     "Academia",
     "Academia - University",
     "Activists",
@@ -93,7 +91,6 @@
     "Civil Society",
     "Civil engineering",
     "Civil society",
-    "Cloud Infrastructure",
     "Construction",
     "Country",
     "Covid-19 research organizations",
@@ -173,7 +170,6 @@
     "Research - Innovation",
     "Retail",
     "Scientific Research",
-    "Security Awareness Vendors",
     "Security Service",
     "Semiconductor Industry",
     "Separatists",
@@ -191,12 +187,11 @@
     "Universities"
   ],
   "ioc_types": [
-    "domain",
-    "url"
+
   ],
   "counts": {
-    "threat_actors": 3614,
-    "iocs": 9,
+    "threat_actors": 3613,
+    "iocs": 0,
     "techniques": 918,
     "tactics": 39,
     "campaigns_mitre": 59,
@@ -217,7 +212,7 @@
   "risk_counts": {
     "High": 161,
     "Critical": 14,
-    "Medium": 2,
+    "Medium": 1,
     "Low": 2
   },
   "sector_counts": {
@@ -226,10 +221,10 @@
     "Military": 44,
     "Government, Administration": 35,
     "Defense": 29,
-    "Education": 28,
     "Energy": 28,
+    "Education": 27,
     "Healthcare": 23,
-    "Technology": 23,
+    "Technology": 22,
     "Finance": 22
   },
   "malware_counts": {
