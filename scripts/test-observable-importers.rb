@@ -38,7 +38,7 @@ class ObservableImportersTest < Minitest::Test
         define_method(:start) { |_host, _port, **_kwargs, &block| block.call(fake_http) }
       end
       previous = ENV['THREATFOX_API_KEY']
-      ENV['THREATFOX_API_KEY'] = 'shared-test-key'
+      ENV['THREATFOX_API_KEY'] = "shared-test-key\n"
       UrlhausImporter.new.run(['fetch', '--output', dir])
       assert_equal 'shared-test-key', requests.fetch(0)['Auth-Key']
     ensure
