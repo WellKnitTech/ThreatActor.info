@@ -27,7 +27,7 @@ class ImportEvidenceTest < Minitest::Test
 
     expected = %w[requested_source requested_phase source_version cache_decision attempts status
                   started_at finished_at elapsed_seconds request_count fallback_status
-                  error_classification run_id schema_version]
+                  error_classification failed_sources failure_diagnostics run_id schema_version]
     assert_equal expected.sort, evidence.keys.sort
     assert_equal 'failed', evidence['status']
     assert_equal 'Status', evidence['error_classification']

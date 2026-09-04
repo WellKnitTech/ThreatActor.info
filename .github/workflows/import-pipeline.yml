@@ -97,8 +97,12 @@ jobs:
           status=${PIPESTATUS[0]}
           set -e
 
-          EXIT_CODE="$status" DIAGNOSTIC_PATH="$FAILURE_DIAGNOSTICS_DIR/import-run.json" REQUESTED_PHASE="$REQUESTED_PHASE" REQUESTED_SOURCE="$REQUESTED_SOURCE" \
-            ruby -rjson -e 'payload = { phase: ENV.fetch("REQUESTED_PHASE"), source: ENV.fetch("REQUESTED_SOURCE", ""), retry_scope: "per-source", attempts: 1, exit_code: ENV.fetch("EXIT_CODE") }; File.write(ENV.fetch("DIAGNOSTIC_PATH"), JSON.pretty_generate(payload))'
+          FAILED_SOURCE="$REQUESTED_SOURCE"
+          if [[ "$status" != "0" && -z "$FAILED_SOURCE" ]]; then
+            FAILED_SOURCE=$(ruby -e 'log = File.exist?("tmp/import-run.log") ? File.read("tmp/import-run.log") : ""; print log.scan(/^== .* \(([^)]+)\) ==$/).flatten.last.to_s')
+          fi
+          EXIT_CODE="$status" DIAGNOSTIC_PATH="$FAILURE_DIAGNOSTICS_DIR/import-run.json" REQUESTED_PHASE="$REQUESTED_PHASE" REQUESTED_SOURCE="$FAILED_SOURCE" \
+            ruby -rjson -e 'log = File.exist?("tmp/import-run.log") ? File.read("tmp/import-run.log").strip : nil; payload = { phase: ENV.fetch("REQUESTED_PHASE"), source: ENV.fetch("REQUESTED_SOURCE", ""), retry_scope: "per-source", attempts: 1, exit_code: ENV.fetch("EXIT_CODE") }; payload[:error] = log if ENV.fetch("EXIT_CODE") != "0" && !log.nil? && !log.empty?; File.write(ENV.fetch("DIAGNOSTIC_PATH"), JSON.pretty_generate(payload))'
           echo "IMPORT_ATTEMPTS=1" >> "$GITHUB_ENV"
           echo "IMPORT_FINISHED_AT=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_ENV"
           exit "$status"
@@ -112,7 +116,7 @@ jobs:
         env:
           FAIL_ON_SOURCE_FAILURE: '1'
         run: |
-          ruby scripts/summarize-import-health.rb "$IMPORT_REPORT_DIR" tmp/import-health.md | tee -a "$GITHUB_STEP_SUMMARY"
+          ruby scripts/summarize-import-health.rb "$IMPORT_REPORT_DIR" tmp/import-health.md "$FAILURE_DIAGNOSTICS_DIR" | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Evaluate source deltas
         if: ${{ success() && (inputs.phase == '' || inputs.phase == 'all' || inputs.phase == 'import') }}
@@ -152,6 +156,8 @@ jobs:
           CACHE_DECISION: 'bundler-cache-configured'
           REQUEST_COUNT: ${{ env.REQUEST_COUNT || '0' }}
           FALLBACK_STATUS: 'not_used'
+          IMPORT_REPORT_DIR: ${{ env.IMPORT_REPORT_DIR }}
+          FAILURE_DIAGNOSTICS_DIR: ${{ env.FAILURE_DIAGNOSTICS_DIR }}
         run: ruby scripts/write-import-evidence.rb tmp/import-evidence.json
 
       - name: Upload source snapshots, reports, and diagnostics
