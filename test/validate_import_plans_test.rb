@@ -89,6 +89,18 @@ class ValidateImportPlansTest < Minitest::Test
     assert_includes output, 'no-op'
   end
 
+  def test_urlhaus_empty_shape_is_an_explicit_no_op
+    output, _error, status = run_validator('urlhaus' => {
+      'source' => 'urlhaus', 'snapshot' => 'data/imports/urlhaus/2026-09-04',
+      'mode' => 'plan', 'total_records' => 0, 'records' => 0,
+      'deduplicated' => 0, 'matched' => 0, 'unmatched' => 0,
+      'matched_actors' => 0, 'quarantined' => 0, 'records_detail' => [],
+      'status' => 'source_empty', 'empty_reason' => 'Upstream returned no records'
+    })
+    assert status.success?, output
+    assert_includes output, 'no-op'
+  end
+
   def test_zero_candidate_report_requires_explicit_empty_metadata
     output, _error, status = run_validator('generic' => { 'total_candidates' => 0, 'updates' => 0, 'creates' => 0 })
     refute status.success?

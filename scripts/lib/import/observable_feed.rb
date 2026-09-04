@@ -28,12 +28,17 @@ module ObservableFeed
 
     payload = JSON.parse(response.body)
     raise 'response must be a JSON object or array' unless payload.is_a?(Hash) || payload.is_a?(Array)
+    if payload.is_a?(Hash) && !payload['data'].is_a?(Array)
+      raise 'response data must be an array'
+    end
     FileUtils.mkdir_p(output)
     data = JSON.pretty_generate(payload) + "\n"
     File.write(File.join(output, 'data.json'), data)
     checksum = Digest::SHA256.hexdigest(data)
+    query_status = payload.is_a?(Hash) ? payload['query_status'].to_s.strip : ''
+    query_status = 'ok' if query_status.empty?
     manifest.merge!('retrieved_at' => Time.now.utc.iso8601, 'record_count' => Array(payload.is_a?(Hash) ? payload['data'] : payload).length,
-                    'source_checksum_sha256' => checksum, 'data_file' => 'data.json', 'query_status' => 'ok')
+                    'source_checksum_sha256' => checksum, 'data_file' => 'data.json', 'query_status' => query_status)
     File.write(File.join(output, 'manifest.yml'), YAML.dump(manifest))
     puts "Fetched #{manifest['record_count']} records into #{output}"
   rescue JSON::ParserError => error
@@ -81,6 +86,10 @@ module ObservableFeed
                'matched_actors' => records.count { |r| r['matched_actor'] },
                'quarantined' => records.count { |r| r['attribution_status'].start_with?('quarantined') },
                'records_detail' => records.first(500) }
+    if total_rows.zero?
+      report['status'] = 'source_empty'
+      report['empty_reason'] = 'Upstream returned no records'
+    end
     # Deferred sources are report-only until the source register is explicitly approved.
     write_matches(records, actors) if write && publication_allowed?
     if report_path
@@ -113,7 +122,7 @@ module ObservableFeed
     raise 'snapshot manifest missing checksum' unless expected.match?(/\A[a-f0-9]{64}\z/i)
     raise 'snapshot checksum mismatch' unless Digest::SHA256.file(data_path).hexdigest.casecmp?(expected)
     status = (manifest['query_status'] || manifest['status']).to_s
-    raise "snapshot source status is #{status}" unless status.empty? || %w[ok healthy].include?(status)
+    raise "snapshot source status is #{status}" unless status.empty? || %w[ok healthy no_results].include?(status)
     retrieved = Time.parse(manifest.fetch('retrieved_at').to_s)
     max_age = YAML.safe_load(File.read(SOURCE_POLICY), permitted_classes: [], aliases: false).fetch('sources').fetch(source_key).fetch('max_age_days', 30).to_i
     raise 'snapshot is too old' if retrieved < Time.now.utc - (max_age * 86_400)
