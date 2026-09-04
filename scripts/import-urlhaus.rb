@@ -29,8 +29,7 @@ class UrlhausImporter
       output = options[:output] || "data/imports/#{SOURCE_KEY}/#{Time.now.utc.strftime('%Y-%m-%d')}"
       fetch_json(SOURCE_URL, output: output, manifest: { 'source_name' => 'URLhaus', 'source_dataset_url' => SOURCE_URL,
                                                           'license_status' => 'abuse.ch terms and fair-use limits apply' },
-                 headers: { 'Content-Type' => 'application/x-www-form-urlencoded',
-                            'Auth-Key' => ENV['THREATFOX_API_KEY'].to_s.strip }, body: '')
+                 headers: { 'Auth-Key' => ENV['THREATFOX_API_KEY'].to_s.strip })
     when 'plan', 'import'
       abort 'Missing --snapshot PATH' unless options[:snapshot]
       process_snapshot(options[:snapshot], report_path: options[:report], write: command == 'import', limit: options[:limit])

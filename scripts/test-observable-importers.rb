@@ -40,7 +40,9 @@ class ObservableImportersTest < Minitest::Test
       previous = ENV['THREATFOX_API_KEY']
       ENV['THREATFOX_API_KEY'] = "shared-test-key\n"
       UrlhausImporter.new.run(['fetch', '--output', dir])
-      assert_equal 'shared-test-key', requests.fetch(0)['Auth-Key']
+      request = requests.fetch(0)
+      assert_instance_of Net::HTTP::Get, request
+      assert_equal 'shared-test-key', request['Auth-Key']
     ensure
       ENV['THREATFOX_API_KEY'] = previous
       singleton.class_eval do
