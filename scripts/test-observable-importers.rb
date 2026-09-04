@@ -22,6 +22,34 @@ class ObservableImportersTest < Minitest::Test
     assert_report('urlhaus', File.join(ROOT, 'urlhaus', 'partial.json'), 1, 1)
   end
 
+  def test_urlhaus_fetch_sends_shared_abusech_auth_key
+    Dir.mktmpdir do |dir|
+      requests = []
+      response = Net::HTTPOK.new('1.1', '200', 'OK')
+      response.define_singleton_method(:body) { '{"query_status":"no_results","data":[]}' }
+      fake_http = Object.new
+      fake_http.define_singleton_method(:request) do |request|
+        requests << request
+        response
+      end
+      singleton = Net::HTTP.singleton_class
+      singleton.class_eval do
+        alias_method :__urlhaus_auth_test_start, :start
+        define_method(:start) { |_host, _port, **_kwargs, &block| block.call(fake_http) }
+      end
+      previous = ENV['THREATFOX_API_KEY']
+      ENV['THREATFOX_API_KEY'] = 'shared-test-key'
+      UrlhausImporter.new.run(['fetch', '--output', dir])
+      assert_equal 'shared-test-key', requests.fetch(0)['Auth-Key']
+    ensure
+      ENV['THREATFOX_API_KEY'] = previous
+      singleton.class_eval do
+        alias_method :start, :__urlhaus_auth_test_start
+        remove_method :__urlhaus_auth_test_start
+      end
+    end
+  end
+
   def test_malformed_snapshots_fail_closed
     [
       [MalwareBazaarImporter, File.join(ROOT, 'malwarebazaar', 'malformed.payload')],
