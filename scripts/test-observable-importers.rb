@@ -43,11 +43,58 @@ class ObservableImportersTest < Minitest::Test
       request = requests.fetch(0)
       assert_instance_of Net::HTTP::Get, request
       assert_equal 'shared-test-key', request['Auth-Key']
+      manifest = YAML.safe_load(File.read(File.join(dir, 'manifest.yml')), permitted_classes: [], aliases: false)
+      assert_equal 'no_results', manifest['query_status']
     ensure
       ENV['THREATFOX_API_KEY'] = previous
       singleton.class_eval do
         alias_method :start, :__urlhaus_auth_test_start
         remove_method :__urlhaus_auth_test_start
+      end
+    end
+  end
+
+  def test_urlhaus_http_200_auth_error_is_preserved_and_rejected
+    Dir.mktmpdir do |dir|
+      response = Net::HTTPOK.new('1.1', '200', 'OK')
+      response.define_singleton_method(:body) { '{"query_status":"no_auth_key","data":[]}' }
+      fake_http = Object.new
+      fake_http.define_singleton_method(:request) { |_request| response }
+      singleton = Net::HTTP.singleton_class
+      singleton.class_eval do
+        alias_method :__urlhaus_status_test_start, :start
+        define_method(:start) { |_host, _port, **_kwargs, &block| block.call(fake_http) }
+      end
+      UrlhausImporter.new.run(['fetch', '--output', dir])
+      manifest = YAML.safe_load(File.read(File.join(dir, 'manifest.yml')), permitted_classes: [], aliases: false)
+      assert_equal 'no_auth_key', manifest['query_status']
+      error = assert_raises(RuntimeError) { UrlhausImporter.new.send(:process_snapshot, dir, report_path: nil) }
+      assert_includes error.message, 'source status is no_auth_key'
+    ensure
+      singleton.class_eval do
+        alias_method :start, :__urlhaus_status_test_start
+        remove_method :__urlhaus_status_test_start
+      end
+    end
+  end
+
+  def test_urlhaus_http_200_missing_data_fails_closed
+    Dir.mktmpdir do |dir|
+      response = Net::HTTPOK.new('1.1', '200', 'OK')
+      response.define_singleton_method(:body) { '{"query_status":"ok"}' }
+      fake_http = Object.new
+      fake_http.define_singleton_method(:request) { |_request| response }
+      singleton = Net::HTTP.singleton_class
+      singleton.class_eval do
+        alias_method :__urlhaus_shape_test_start, :start
+        define_method(:start) { |_host, _port, **_kwargs, &block| block.call(fake_http) }
+      end
+      error = assert_raises(RuntimeError) { UrlhausImporter.new.run(['fetch', '--output', dir]) }
+      assert_includes error.message, 'response data must be an array'
+    ensure
+      singleton.class_eval do
+        alias_method :start, :__urlhaus_shape_test_start
+        remove_method :__urlhaus_shape_test_start
       end
     end
   end
