@@ -35,6 +35,4 @@ Ransomware Variant of Kirk
 
 - [Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone](https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html)
   The Hacker News - 2026-09-03T
-- [ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain](https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain)
-  DarkReading - 2026-09-01T
 

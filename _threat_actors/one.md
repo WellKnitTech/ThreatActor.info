@@ -33,8 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [ICE Wants to Know Everyone Who Bought a Certain Green Beanie From REI in the Last 2 Years](https://www.wired.com/story/ice-wants-to-know-who-bought-a-certain-green-beanie-from-rei-in-the-last-2-years/)
+  Wired - 2026-09-04T
 - [Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone](https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html)
   The Hacker News - 2026-09-03T
-- [Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program](https://www.paloaltonetworks.com/blog/2026/09/building-securely-from-day-one-palo-alto-networks-partners-with-the-zendesk-startup-program/)
-  Palo Alto Networks - 2026-09-02T
 

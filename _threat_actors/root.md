@@ -35,6 +35,4 @@ Root is an active extortion or ransomware group tracked by RansomLook.
 
 - [Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root](https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html)
   The Hacker News - 2026-09-03T
-- [BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access](https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html)
-  The Hacker News - 2026-09-02T
 

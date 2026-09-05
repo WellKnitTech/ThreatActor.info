@@ -33,6 +33,6 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [5 Best Video Doorbell Cameras (2026): Subscription-Free, Video, and More](https://www.wired.com/gallery/best-video-doorbells/)
-  Wired - 2026-09-03T
+- [Why your AI bill tripled while token prices fell 75%](https://www.elastic.co/blog/token-costs-ai-bills)
+  Elastic - 2026-09-04T
 

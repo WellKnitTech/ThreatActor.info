@@ -30,3 +30,11 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [CD sales are making an unexpected comeback amid a retro tech boom](https://techcrunch.com/2026/09/04/cd-sales-are-making-an-unexpected-comeback-amid-a-retro-tech-boom/)
+  TechCrunch - 2026-09-04T
+- [How a Secret Orangutan Breeding Program Is Creating a Baby Boom](https://www.wired.com/story/secret-orangutan-breeding-program-creating-baby-boom/)
+  Wired - 2026-09-04T
+

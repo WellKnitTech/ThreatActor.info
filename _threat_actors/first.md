@@ -33,7 +33,7 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Wikipedia Workers Unionize for the First Time](https://www.wired.com/story/wikipedia-workers-vote-on-whether-to-unionize/)
+- [Japan Is Launching a Probe to Collect the First-Ever Samples From a Martian Moon](https://www.wired.com/story/japan-launching-probe-to-collect-first-ever-samples-martian-moon/)
   Wired - 2026-09-04T
 - [AI's Vulnerability Surge May Be More Manageable Than First Feared](https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared)
   DarkReading - 2026-09-02T

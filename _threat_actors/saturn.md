@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [What the Heck? Another Perfect Geometric Shape Has Been Detected on Saturn](https://www.wired.com/story/another-perfect-geometric-shape-detected-on-saturn/)
+  Wired - 2026-09-04T
+

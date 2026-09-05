@@ -35,8 +35,6 @@ Ransomware Based on EDA2
 
 - ['Breeze Comet' Tears Into Brazilian &amp; Global Financial Systems](https://www.darkreading.com/threat-intelligence/breeze-comet-brazilian-global-financial-systems)
   DarkReading - 2026-09-03T
-- [Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages](https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html)
-  The Hacker News - 2026-09-02T
 - [Gambling Goblin: A Chinese-Speaking Actor Hijacks Brazilian Government Sites to Fuel a Global SEO Fraud Machine](https://blog.checkpoint.com/research/gambling-goblin-a-chinese-speaking-actor-hijacks-brazilian-government-sites-to-fuel-a-global-seo-fraud-machine/)
   Check Point - 2026-09-02T
 
