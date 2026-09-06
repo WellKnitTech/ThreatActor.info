@@ -54,6 +54,39 @@ class ObservableImportersTest < Minitest::Test
     end
   end
 
+  def test_malwarebazaar_fetch_accepts_shared_threatfox_auth_key
+    Dir.mktmpdir do |dir|
+      requests = []
+      response = Net::HTTPOK.new('1.1', '200', 'OK')
+      response.define_singleton_method(:body) { '{"query_status":"no_results","data":[]}' }
+      fake_http = Object.new
+      fake_http.define_singleton_method(:request) do |request|
+        requests << request
+        response
+      end
+      singleton = Net::HTTP.singleton_class
+      singleton.class_eval do
+        alias_method :__malwarebazaar_auth_test_start, :start
+        define_method(:start) { |_host, _port, **_kwargs, &block| block.call(fake_http) }
+      end
+      previous_threatfox = ENV['THREATFOX_API_KEY']
+      previous_malwarebazaar = ENV['MALWAREBAZAAR_API_KEY']
+      ENV['THREATFOX_API_KEY'] = 'shared-test-key'
+      ENV.delete('MALWAREBAZAAR_API_KEY')
+      MalwareBazaarImporter.new.run(['fetch', '--output', dir])
+      request = requests.fetch(0)
+      assert_equal 'shared-test-key', request['Auth-Key']
+      assert_equal 'query=get_recent&selector=time', request.body
+    ensure
+      ENV['THREATFOX_API_KEY'] = previous_threatfox
+      ENV['MALWAREBAZAAR_API_KEY'] = previous_malwarebazaar
+      singleton.class_eval do
+        alias_method :start, :__malwarebazaar_auth_test_start
+        remove_method :__malwarebazaar_auth_test_start
+      end
+    end
+  end
+
   def test_urlhaus_http_200_auth_error_is_preserved_and_rejected
     Dir.mktmpdir do |dir|
       response = Net::HTTPOK.new('1.1', '200', 'OK')

@@ -8,6 +8,11 @@ sources:
     min_match_ratio: 0.35
     max_unmatched_ratio: 0.55
     max_alias_additions_per_actor: 20
+  malwarebazaar:
+    # Deferred quarantine source: actor matching is informative, not a gate.
+    min_match_ratio: 0.0
+    max_unmatched_ratio: 1.0
+    max_alias_additions_per_actor: 20
   misp-galaxy:
     max_alias_additions_per_actor: 30
   etda-thaicert:

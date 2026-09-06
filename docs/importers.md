@@ -152,7 +152,7 @@ For incident response and GitHub environment guidance, see
 
 ## abuse.ch MalwareBazaar and URLhaus observable importers
 
-`scripts/import-malwarebazaar.rb` and `scripts/import-urlhaus.rb` snapshot recent hashes and URLs respectively. Fetches are bounded to 5 MiB and 10,000 records, reject non-success responses (including explicit rate-limit errors), and write a manifest with a SHA-256 checksum. `plan` and `import` deduplicate observables, preserve source IDs, source URLs, tags/signatures, malware or threat metadata, timestamps, confidence, and emit a JSON report.
+`scripts/import-malwarebazaar.rb` and `scripts/import-urlhaus.rb` snapshot recent hashes and URLs respectively. Fetches are bounded to 5 MiB and 10,000 records, reject non-success responses (including explicit rate-limit errors), and write a manifest with a SHA-256 checksum. MalwareBazaar uses `MALWAREBAZAAR_API_KEY` when set and otherwise accepts the shared abuse.ch `THREATFOX_API_KEY` Auth-Key. `plan` and `import` deduplicate observables, preserve source IDs, source URLs, tags/signatures, malware or threat metadata, timestamps, confidence, and emit a JSON report.
 
 Neither importer infers actor ownership from a malware family, signature, or tag. Rows without an explicit actor field matching an existing actor are quarantined in the report. Only explicit, unambiguous actor matches are merged into `iocs.sha256_hashes` or `iocs.urls`, with source-specific provenance and abuse.ch attribution.
 
