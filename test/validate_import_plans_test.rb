@@ -39,6 +39,14 @@ class ValidateImportPlansTest < Minitest::Test
     assert_includes output, 'match ratio'
   end
 
+  def test_deferred_malwarebazaar_reports_do_not_require_actor_matches
+    output, _error, status = run_validator('malwarebazaar' => {
+      'total_records' => 4, 'records' => 4, 'matched' => 0, 'unmatched' => 4,
+      'quarantined' => 4
+    })
+    assert status.success?, output
+  end
+
   def test_mitre_plan_counters_are_supported
     output, _error, status = run_validator('mitre-attack' => {
       'intrusion_sets' => 10, 'actors_merge' => 8, 'actors_create' => 1, 'actors_review' => 1
