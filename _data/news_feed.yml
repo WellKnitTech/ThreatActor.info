@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T06:40:02Z",
+  "updated": "2026-09-07T06:59:14Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -21,34 +21,260 @@
   "actor_news": {
     "R": [
       {
-        "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
-        "link": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
-        "date": "2026-09-04T23:36:14+00:00",
+        "title": "N-able patches max severity N-central flaw amid ongoing attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/",
+        "date": "2026-09-07T02:17:41-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Phil Schiller’s App Store exit reportedly driven by wariness over future plans",
+        "link": "https://techcrunch.com/2026/09/06/phil-schillers-app-store-exit-reportedly-driven-by-wariness-over-future-plans/",
+        "date": "2026-09-06T21:41:06+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
-        "link": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
-        "date": "2026-09-04T23:15:11+00:00",
+        "title": "ChatGPT Astra is now rolling out to $20 Plus subscription ",
+        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/",
+        "date": "2026-09-06T21:15:43-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
+        "link": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+        "date": "2026-09-06T20:47:37+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
-        "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
-        "date": "2026-09-04T22:17:36+00:00",
-        "source": "Ars Technica"
+        "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+        "link": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+        "date": "2026-09-06T16:45:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Ra": [
+      {
+        "title": "N-able patches max severity N-central flaw amid ongoing attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/",
+        "date": "2026-09-07T02:17:41-04:00",
+        "source": "BleepingComputer"
       },
       {
-        "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
-        "link": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
-        "date": "2026-09-04T21:27:15+05:30",
+        "title": "ChatGPT Astra is now rolling out to $20 Plus subscription ",
+        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/",
+        "date": "2026-09-06T21:15:43-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+        "link": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+        "date": "2026-09-06T16:45:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "The Best Laptop Backpacks for Work, Travel, and Everything Between (2026)",
+        "link": "https://www.wired.com/story/best-laptop-backpacks/",
+        "date": "2026-09-06T11:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Attackers conceal phishing lures using invisible Unicode characters",
+        "link": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
+        "date": "2026-09-06T10:23:46-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "PL": [
+      {
+        "title": "Phil Schiller’s App Store exit reportedly driven by wariness over future plans",
+        "link": "https://techcrunch.com/2026/09/06/phil-schillers-app-store-exit-reportedly-driven-by-wariness-over-future-plans/",
+        "date": "2026-09-06T21:41:06+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "ChatGPT Astra is now rolling out to $20 Plus subscription ",
+        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/",
+        "date": "2026-09-06T21:15:43-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+        "link": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+        "date": "2026-09-06T01:44:47+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
-        "link": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
-        "date": "2026-09-04T21:12:11+00:00",
+        "title": "Hikers rescued after using Google Gemini for planning",
+        "link": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+        "date": "2026-09-05T19:35:24+00:00",
         "source": "TechCrunch"
+      },
+      {
+        "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
+        "link": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
+        "date": "2026-09-05T13:01:53+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "RIP (Phoenix) Ransomware": [
+      {
+        "title": "ChatGPT Astra is now rolling out to $20 Plus subscription ",
+        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/",
+        "date": "2026-09-06T21:15:43-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Why your AI bill tripled while token prices fell 75%",
+        "link": "https://www.elastic.co/blog/token-costs-ai-bills",
+        "date": "2026-09-04T00:00:00+00:00",
+        "source": "Elastic"
+      }
+    ],
+    "Thor": [
+      {
+        "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
+        "link": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+        "date": "2026-09-06T20:47:37+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Shark": [
+      {
+        "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+        "link": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+        "date": "2026-09-06T16:45:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "CryLocker": [
+      {
+        "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
+        "link": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
+        "date": "2026-09-06T14:04:20+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Defender": [
+      {
+        "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
+        "link": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
+        "date": "2026-09-06T14:04:20+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Check Point Brings OpenAI Daybreak Models Across Its Security Platform to Help Defenders Find, Validate, and Remediate Risk",
+        "link": "https://blog.checkpoint.com/ai-security/check-point-brings-openai-daybreak-models-across-its-security-platform-to-help-defenders-find-validate-and-remediate-risk/",
+        "date": "2026-09-03T21:00:10+00:00",
+        "source": "Check Point"
+      }
+    ],
+    "Deadeye Jackal": [
+      {
+        "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+        "link": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+        "date": "2026-09-05T22:49:55+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Insurers Search for Answers to Rein in Rogue AI",
+        "link": "https://www.darkreading.com/cyber-risk/insurers-search-answers-rogue-ai",
+        "date": "2026-09-04T12:15:03+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "Elastic and Tencent Cloud deepen strategic partnership to power AI-era search foundation",
+        "link": "https://www.elastic.co/blog/elastic-and-tencent-cloud",
+        "date": "2026-09-03T00:00:00+00:00",
+        "source": "Elastic"
+      }
+    ],
+    "Fusion": [
+      {
+        "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
+        "link": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
+        "date": "2026-09-05T21:35:08+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Mini": [
+      {
+        "title": "Hikers rescued after using Google Gemini for planning",
+        "link": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+        "date": "2026-09-05T19:35:24+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Done": [
+      {
+        "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
+        "link": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
+        "date": "2026-09-05T13:25:10+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "One": [
+      {
+        "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
+        "link": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
+        "date": "2026-09-05T13:25:10+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "There May Not Be an iPhone 18 This Year",
+        "link": "https://www.wired.com/story/there-may-not-be-an-iphone-18-this-year/",
+        "date": "2026-09-05T10:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Hacked": [
+      {
+        "title": "OpenAI Agents Hacked Another Website",
+        "link": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/",
+        "date": "2026-09-05T10:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
+        "link": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
+        "date": "2026-09-05T10:29:13-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Lick": [
+      {
+        "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
+        "link": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
+        "date": "2026-09-05T10:29:13-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Payload": [
+      {
+        "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
+        "link": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
+        "date": "2026-09-05T10:29:13-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Razy": [
+      {
+        "title": "The Watch World Went Crazy This Week. Here Are the 10 You Need to See",
+        "link": "https://www.wired.com/story/the-watch-world-went-crazy-this-week-here-are-the-10-you-need-to-see/",
+        "date": "2026-09-05T09:45:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "DN": [
+      {
+        "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
+        "link": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
+        "date": "2026-09-05T07:11:50-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Large Enterprises Targeted in Fake Merger &amp; Acquisition Scams",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams",
+        "date": "2026-09-03T20:18:14+00:00",
+        "source": "DarkReading"
       }
     ],
     "XD": [
@@ -67,105 +293,11 @@
         "source": "TechCrunch"
       }
     ],
-    "PL": [
-      {
-        "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
-        "link": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
-        "date": "2026-09-04T20:50:19+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "What will Apple’s John Ternus era look like?",
-        "link": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
-        "date": "2026-09-04T17:18:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
-        "link": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
-        "date": "2026-09-04T14:18:45+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Less than 24 hours to apply for your TechCrunch Disrupt 2026 Side Event",
-        "link": "https://techcrunch.com/2026/09/04/less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event/",
-        "date": "2026-09-04T14:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
-        "link": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
-        "date": "2026-09-04T13:05:14+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Ra": [
-      {
-        "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
-        "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
-        "date": "2026-09-04T20:21:13+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
-        "link": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
-        "date": "2026-09-04T17:18:12+00:00",
-        "source": "Ars Technica"
-      },
-      {
-        "title": "What will Apple’s John Ternus era look like?",
-        "link": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
-        "date": "2026-09-04T17:18:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Krafton doubles down on India with another $250M bet beyond gaming",
-        "link": "https://techcrunch.com/2026/09/04/krafton-doubles-down-on-india-with-another-250m-bet-beyond-gaming/",
-        "date": "2026-09-04T14:47:20+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Google’s Gemini Spark can now manage your Google Photos library",
-        "link": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-        "date": "2026-09-04T14:47:11+00:00",
-        "source": "TechCrunch"
-      }
-    ],
     "Judge": [
       {
         "title": "Judge blocks X rival from using Twitter name, but allows ‘Tweet’ for now",
         "link": "https://techcrunch.com/2026/09/04/judge-blocks-x-rival-from-using-twitter-name-but-allows-tweet-for-now/",
         "date": "2026-09-04T17:52:05+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Owl": [
-      {
-        "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
-        "link": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
-        "date": "2026-09-04T16:21:11+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "BooM": [
-      {
-        "title": "CD sales are making an unexpected comeback amid a retro tech boom",
-        "link": "https://techcrunch.com/2026/09/04/cd-sales-are-making-an-unexpected-comeback-amid-a-retro-tech-boom/",
-        "date": "2026-09-04T15:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "How a Secret Orangutan Breeding Program Is Creating a Baby Boom",
-        "link": "https://www.wired.com/story/secret-orangutan-breeding-program-creating-baby-boom/",
-        "date": "2026-09-04T11:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Mini": [
-      {
-        "title": "Google’s Gemini Spark can now manage your Google Photos library",
-        "link": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-        "date": "2026-09-04T14:47:11+00:00",
         "source": "TechCrunch"
       }
     ],
@@ -185,26 +317,6 @@
         "source": "The Hacker News"
       }
     ],
-    "Deadeye Jackal": [
-      {
-        "title": "Insurers Search for Answers to Rein in Rogue AI",
-        "link": "https://www.darkreading.com/cyber-risk/insurers-search-answers-rogue-ai",
-        "date": "2026-09-04T12:15:03+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
-        "link": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
-        "date": "2026-09-03T20:09:05+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Elastic and Tencent Cloud deepen strategic partnership to power AI-era search foundation",
-        "link": "https://www.elastic.co/blog/elastic-and-tencent-cloud",
-        "date": "2026-09-03T00:00:00+00:00",
-        "source": "Elastic"
-      }
-    ],
     "Korean": [
       {
         "title": "DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors",
@@ -213,76 +325,12 @@
         "source": "Rapid7"
       }
     ],
-    "First": [
-      {
-        "title": "Japan Is Launching a Probe to Collect the First-Ever Samples From a Martian Moon",
-        "link": "https://www.wired.com/story/japan-launching-probe-to-collect-first-ever-samples-martian-moon/",
-        "date": "2026-09-04T12:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "AI's Vulnerability Surge May Be More Manageable Than First Feared",
-        "link": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared",
-        "date": "2026-09-02T21:14:06+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Tk": [
-      {
-        "title": "The Best Automatic Litter Box of 2026: Petkit and Litter-Robot",
-        "link": "https://www.wired.com/gallery/best-automatic-cat-litter-boxes/",
-        "date": "2026-09-04T11:08:00+00:00",
-        "source": "Wired"
-      }
-    ],
     "Desktop": [
       {
         "title": "Microsoft says some users can’t open the Teams desktop client",
         "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
         "date": "2026-09-04T10:30:15-04:00",
         "source": "BleepingComputer"
-      }
-    ],
-    "One": [
-      {
-        "title": "ICE Wants to Know Everyone Who Bought a Certain Green Beanie From REI in the Last 2 Years",
-        "link": "https://www.wired.com/story/ice-wants-to-know-who-bought-a-certain-green-beanie-from-rei-in-the-last-2-years/",
-        "date": "2026-09-04T10:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
-        "link": "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
-        "date": "2026-09-03T14:13:17+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "ONI": [
-      {
-        "title": "The 6 Best Monitors That Actually Work Well With Macs",
-        "link": "https://www.wired.com/gallery/best-monitors-for-mac/",
-        "date": "2026-09-04T10:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce",
-        "date": "2026-09-02T20:43:59+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Critical SonicWall SMA1000 Vulnerabilities CVE-2026-83548, CVE-2026-83549 Exploited in the Wild",
-        "link": "https://www.rapid7.com/blog/post/etr-critical-sonicwall-sma1000-vulnerabilities-cve-2026-83548-cve-2026-83549-exploited-in-the-wild",
-        "date": "2026-09-02T16:58:45+00:00",
-        "source": "Rapid7"
-      }
-    ],
-    "Saturn": [
-      {
-        "title": "What the Heck? Another Perfect Geometric Shape Has Been Detected on Saturn",
-        "link": "https://www.wired.com/story/another-perfect-geometric-shape-detected-on-saturn/",
-        "date": "2026-09-04T09:30:00+00:00",
-        "source": "Wired"
       }
     ],
     "Alco": [
@@ -301,42 +349,12 @@
         "source": "BleepingComputer"
       }
     ],
-    "Sea Turtle": [
-      {
-        "title": "Silicon Valley Is Having a ‘Hot Girl Renaissance’",
-        "link": "https://www.wired.com/story/silicon-valley-is-having-a-hot-girl-renaissance/",
-        "date": "2026-09-04T09:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
     "RNS": [
       {
         "title": "Google warns of new Chrome zero-day flaw exploited in attacks",
         "link": "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/",
         "date": "2026-09-04T07:48:17-04:00",
         "source": "BleepingComputer"
-      },
-      {
-        "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
-        "link": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
-        "date": "2026-09-03T20:56:47+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "RIP (Phoenix) Ransomware": [
-      {
-        "title": "Why your AI bill tripled while token prices fell 75%",
-        "link": "https://www.elastic.co/blog/token-costs-ai-bills",
-        "date": "2026-09-04T00:00:00+00:00",
-        "source": "Elastic"
-      }
-    ],
-    "Root": [
-      {
-        "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
-        "link": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
-        "date": "2026-09-03T21:22:07+05:30",
-        "source": "The Hacker News"
       }
     ],
     "Aware": [
@@ -345,22 +363,6 @@
         "link": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
         "date": "2026-09-03T21:03:02+00:00",
         "source": "Cloudflare"
-      }
-    ],
-    "Defender": [
-      {
-        "title": "Check Point Brings OpenAI Daybreak Models Across Its Security Platform to Help Defenders Find, Validate, and Remediate Risk",
-        "link": "https://blog.checkpoint.com/ai-security/check-point-brings-openai-daybreak-models-across-its-security-platform-to-help-defenders-find-validate-and-remediate-risk/",
-        "date": "2026-09-03T21:00:10+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "DN": [
-      {
-        "title": "Large Enterprises Targeted in Fake Merger &amp; Acquisition Scams",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams",
-        "date": "2026-09-03T20:18:14+00:00",
-        "source": "DarkReading"
       }
     ],
     "Hunt": [
@@ -385,14 +387,6 @@
         "link": "https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest",
         "date": "2026-09-03T19:42:39+00:00",
         "source": "DarkReading"
-      }
-    ],
-    "Lick": [
-      {
-        "title": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
-        "link": "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
-        "date": "2026-09-03T14:13:17+05:30",
-        "source": "The Hacker News"
       }
     ],
     "Brazilian": [
@@ -423,18 +417,26 @@
         "source": "Check Point"
       }
     ],
-    "pear": [
+    "First": [
       {
-        "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
-        "link": "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/",
-        "date": "2026-09-03T09:50:59-04:00",
-        "source": "BleepingComputer"
+        "title": "AI's Vulnerability Surge May Be More Manageable Than First Feared",
+        "link": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared",
+        "date": "2026-09-02T21:14:06+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "ONI": [
+      {
+        "title": "SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce",
+        "date": "2026-09-02T20:43:59+00:00",
+        "source": "DarkReading"
       },
       {
-        "title": "The Inbox Is Disappearing. Why Security Must Follow the Workspace",
-        "link": "https://blog.checkpoint.com/securing-user-and-access/the-inbox-is-disappearing-why-security-must-follow-the-workspace/",
-        "date": "2026-09-01T16:45:58+00:00",
-        "source": "Check Point"
+        "title": "Critical SonicWall SMA1000 Vulnerabilities CVE-2026-83548, CVE-2026-83549 Exploited in the Wild",
+        "link": "https://www.rapid7.com/blog/post/etr-critical-sonicwall-sma1000-vulnerabilities-cve-2026-83548-cve-2026-83549-exploited-in-the-wild",
+        "date": "2026-09-02T16:58:45+00:00",
+        "source": "Rapid7"
       }
     ],
     "Spring": [
@@ -459,6 +461,14 @@
         "link": "https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within",
         "date": "2026-09-01T21:03:19+00:00",
         "source": "DarkReading"
+      }
+    ],
+    "pear": [
+      {
+        "title": "The Inbox Is Disappearing. Why Security Must Follow the Workspace",
+        "link": "https://blog.checkpoint.com/securing-user-and-access/the-inbox-is-disappearing-why-security-must-follow-the-workspace/",
+        "date": "2026-09-01T16:45:58+00:00",
+        "source": "Check Point"
       }
     ]
   }

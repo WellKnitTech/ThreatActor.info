@@ -44,10 +44,10 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft](https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/)
+  TechCrunch - 2026-09-05T
 - [Insurers Search for Answers to Rein in Rogue AI](https://www.darkreading.com/cyber-risk/insurers-search-answers-rogue-ai)
   DarkReading - 2026-09-04T
-- [Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data](https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html)
-  The Hacker News - 2026-09-03T
 - [Elastic and Tencent Cloud deepen strategic partnership to power AI-era search foundation](https://www.elastic.co/blog/elastic-and-tencent-cloud)
   Elastic - 2026-09-03T
 

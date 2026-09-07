@@ -30,3 +30,11 @@ Ransomware Jigsaw Ransomware variant
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [OpenAI Agents Hacked Another Website](https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/)
+  Wired - 2026-09-05T
+- [Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain](https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/)
+  BleepingComputer - 2026-09-05T
+
