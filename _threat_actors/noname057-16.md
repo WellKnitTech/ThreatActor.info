@@ -40,3 +40,9 @@ NoName057(16) is performing DDoS attacks on websites belonging to governments, n
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [NoName057(16) Renews #OpJapan](https://blog.checkpoint.com/exposure-management/noname05716-renews-opjapan/)
+  Check Point - 2026-09-07T
+

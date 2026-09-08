@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [The Watch World Went Crazy This Week. Here Are the 10 You Need to See](https://www.wired.com/story/the-watch-world-went-crazy-this-week-here-are-the-10-you-need-to-see/)
-  Wired - 2026-09-05T
-
