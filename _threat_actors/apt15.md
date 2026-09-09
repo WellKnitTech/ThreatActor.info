@@ -41,9 +41,3 @@ This threat actor uses phishing techniques to compromise the networks of foreign
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [A secret new Elizabeth Holmes documentary stuns Telluride](https://techcrunch.com/2026/09/07/a-secret-new-elizabeth-holmes-documentary-stuns-telluride/)
-  TechCrunch - 2026-09-07T
-

@@ -33,6 +33,6 @@ parser needs to be built
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [AI Observability Must Evolve for the Agentic Era](https://blog.checkpoint.com/ai-security/ai-observability-must-evolve-for-the-agentic-era/)
-  Check Point - 2026-09-02T
+- [Valvoline Coupons and Promo Codes for September 2026](https://www.wired.com/story/valvoline-coupons/)
+  Wired - 2026-09-09T
 

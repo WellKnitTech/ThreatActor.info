@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Best Tech Labor Day Sales I’d Shop Myself (2026): Vacuums, Headphones, and More](https://www.wired.com/story/tech-labor-day-sales-2026/)
-  Wired - 2026-09-07T
-- [Every Samsung Galaxy Phone Comes With This Unique Add-On](https://www.wired.com/story/every-samsung-galaxy-phone-comes-with-this-unique-add-on/)
-  Wired - 2026-09-07T
-- [Whispering Complaints Into Your Phone May Be the Future of Customer Feedback](https://www.wired.com/story/whispering-complaints-into-your-phone-may-be-the-future-of-customer-feedback/)
-  Wired - 2026-09-07T
-- [Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel](https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html)
-  The Hacker News - 2026-09-05T
+- [Sony Coupons: 45% Off Sony Headphones and Sony Cameras September 2026](https://www.wired.com/story/sony-promo-code/)
+  Wired - 2026-09-09T
+- [Apple and Google Miss Deadline to Block Child Nudity on Their Phones in the UK](https://www.wired.com/story/apple-and-google-miss-deadline-to-block-child-nudity-on-their-phones-in-the-uk/)
+  Wired - 2026-09-08T
+- [How to watch Apple’s foldable iPhone announcement](https://techcrunch.com/2026/09/08/how-to-watch-apples-foldable-iphone-announcement/)
+  TechCrunch - 2026-09-08T
+- [WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls](https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html)
+  The Hacker News - 2026-09-08T
 - [Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program](https://www.paloaltonetworks.com/blog/2026/09/building-securely-from-day-one-palo-alto-networks-partners-with-the-zendesk-startup-program/)
   Palo Alto Networks - 2026-09-02T
 

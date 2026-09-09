@@ -30,3 +30,9 @@ A new ransomware called File Spider is being distributed through spam that targe
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution](https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html)
+  The Hacker News - 2026-09-08T
+
