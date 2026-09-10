@@ -30,9 +30,3 @@ Not a RaaS yet.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- ['Breeze Comet' Tears Into Brazilian &amp; Global Financial Systems](https://www.darkreading.com/threat-intelligence/breeze-comet-brazilian-global-financial-systems)
-  DarkReading - 2026-09-03T
-

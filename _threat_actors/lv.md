@@ -30,9 +30,3 @@ parser needs to be built
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Valvoline Coupons and Promo Codes for September 2026](https://www.wired.com/story/valvoline-coupons/)
-  Wired - 2026-09-09T
-

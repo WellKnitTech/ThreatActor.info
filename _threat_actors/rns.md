@@ -33,10 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Trezor warns users of email provider breach, phishing attacks](https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/)
+  BleepingComputer - 2026-09-10T
+- [Veradigm warns of patient data breach after ransomware gang claims attack](https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/)
+  BleepingComputer - 2026-09-09T
 - [Google warns of new Chrome zero-day bug exploited in attacks](https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/)
   BleepingComputer - 2026-09-09T
-- [SAP warns of maximum severity 'OVERPASS' kernel vulnerability](https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/)
-  BleepingComputer - 2026-09-08T
-- [PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution](https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html)
-  The Hacker News - 2026-09-07T
 

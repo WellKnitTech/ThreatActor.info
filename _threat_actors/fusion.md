@@ -30,9 +30,3 @@ Fusion is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Google DeepMind alumni are building tools to accelerate fusion power for the grid](https://techcrunch.com/2026/09/08/google-deepmind-alumni-are-building-tools-to-accelerate-fusion-power-for-the-grid/)
-  TechCrunch - 2026-09-09T
-

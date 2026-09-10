@@ -136,3 +136,9 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 [3] [Trend Micro Ransomware Spotlight Play July 2023](https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-play)
    Trend Micro Research. (2023, July 21). Ransomware Spotlight: Play. Retrieved September 24, 2024.
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA](https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html)
+  The Hacker News - 2026-09-09T
+

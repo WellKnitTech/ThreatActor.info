@@ -35,6 +35,4 @@ Ransomware Variant of Kirk
 
 - [ClickFix Campaigns Abuse Legitimate Services for Persistent Access](https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access)
   DarkReading - 2026-09-08T
-- [WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls](https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html)
-  The Hacker News - 2026-09-08T
 

@@ -34,8 +34,6 @@ Hunt ransomware is a variant of the Dharma/CrySIS ransomware family. This varian
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [ShinyHunters hackers claim breach of Florida "DAVID" DMV database](https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/)
-  BleepingComputer - 2026-09-08T
 - [What We Missed: Did ShinyHunters 'Breach' ReliaQuest?](https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest)
   DarkReading - 2026-09-03T
 

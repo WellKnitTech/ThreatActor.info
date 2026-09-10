@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T07:03:13Z",
+  "updated": "2026-09-10T06:59:36Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,94 +19,118 @@
     "Rapid7"
   ],
   "actor_news": {
-    "PL": [
+    "R": [
       {
-        "title": "Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days",
-        "link": "https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html",
-        "date": "2026-09-09T10:11:29+05:30",
+        "title": "Trump offers every American $5,000 If Republicans Win The Midterms",
+        "link": "https://www.wired.com/story/trump-offers-every-american-dollar5000-if-republicans-win-the-midterms/",
+        "date": "2026-09-10T06:30:32+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Coleman Promo Codes and Deals: Up to 75% Off in September 2026",
+        "link": "https://www.wired.com/story/coleman-promo-code/",
+        "date": "2026-09-10T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Herman Miller Promo Codes: 40% Off September 2026",
+        "link": "https://www.wired.com/story/herman-miller-promo-code/",
+        "date": "2026-09-10T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "NZXT Discount Codes: 50% Off in September 2026",
+        "link": "https://www.wired.com/story/nzxt-discount-code/",
+        "date": "2026-09-10T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Norton Coupon Codes: Up to 58% Off",
+        "link": "https://www.wired.com/story/norton-coupon-code/",
+        "date": "2026-09-10T05:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Root": [
+      {
+        "title": "Hungryroot Coupon Codes: 30% Off This September 2026",
+        "link": "https://www.wired.com/story/hungryroot-promo-code/",
+        "date": "2026-09-10T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
+        "link": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
+        "date": "2026-09-09T13:49:32+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
-        "link": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
-        "date": "2026-09-09T09:57:51+05:30",
-        "source": "The Hacker News"
+        "title": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/",
+        "date": "2026-09-08T16:08:55-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "RNS": [
+      {
+        "title": "Trezor warns users of email provider breach, phishing attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/",
+        "date": "2026-09-10T02:56:33-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
+        "link": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
+        "date": "2026-09-09T11:31:23-04:00",
+        "source": "BleepingComputer"
       },
       {
         "title": "Google warns of new Chrome zero-day bug exploited in attacks",
         "link": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
         "date": "2026-09-09T02:25:48-04:00",
         "source": "BleepingComputer"
-      },
-      {
-        "title": "White House takes down ‘Build the Wall’ game after the Tetris Company complains",
-        "link": "https://techcrunch.com/2026/09/08/white-house-takes-down-build-the-wall-game-after-the-tetris-company-complains/",
-        "date": "2026-09-08T23:23:23+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Microsoft Plugs Nearly 1,000 Security Holes",
-        "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
-        "date": "2026-09-08T21:44:22+00:00",
-        "source": "KrebsOnSecurity"
       }
     ],
-    "R": [
+    "BB": [
       {
-        "title": "Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days",
-        "link": "https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html",
-        "date": "2026-09-09T10:11:29+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
-        "link": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
-        "date": "2026-09-09T09:57:51+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Google DeepMind alumni are building tools to accelerate fusion power for the grid",
-        "link": "https://techcrunch.com/2026/09/08/google-deepmind-alumni-are-building-tools-to-accelerate-fusion-power-for-the-grid/",
-        "date": "2026-09-09T06:00:00+00:00",
+        "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
+        "link": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
+        "date": "2026-09-10T00:00:37+00:00",
         "source": "TechCrunch"
-      },
-      {
-        "title": "Sony Coupons: 45% Off Sony Headphones and Sony Cameras September 2026",
-        "link": "https://www.wired.com/story/sony-promo-code/",
-        "date": "2026-09-09T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "LegalZoom Promo Code: Exclusive 10% Off LLC Formations",
-        "link": "https://www.wired.com/story/legalzoom-promo-code/",
-        "date": "2026-09-09T05:00:00+00:00",
-        "source": "Wired"
       }
     ],
-    "Ra": [
+    "Deadeye Jackal": [
       {
-        "title": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
-        "link": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
-        "date": "2026-09-09T09:57:51+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Google DeepMind alumni are building tools to accelerate fusion power for the grid",
-        "link": "https://techcrunch.com/2026/09/08/google-deepmind-alumni-are-building-tools-to-accelerate-fusion-power-for-the-grid/",
-        "date": "2026-09-09T06:00:00+00:00",
+        "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
+        "link": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
+        "date": "2026-09-10T00:00:37+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "Sony Coupons: 45% Off Sony Headphones and Sony Cameras September 2026",
-        "link": "https://www.wired.com/story/sony-promo-code/",
-        "date": "2026-09-09T05:00:00+00:00",
+        "title": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’",
+        "link": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/",
+        "date": "2026-09-09T22:11:55+00:00",
         "source": "Wired"
       },
       {
-        "title": "CloudNC raises $20M to automate manufacturing’s most pressing bottlenecks",
-        "link": "https://techcrunch.com/2026/09/08/cloudnc-raises-20m-to-automate-manufacturings-most-pressing-bottlenecks/",
-        "date": "2026-09-09T04:01:00+00:00",
-        "source": "TechCrunch"
+        "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+        "link": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
+        "date": "2026-09-09T12:17:27+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Insurers Search for Answers to Rein in Rogue AI",
+        "link": "https://www.darkreading.com/cyber-risk/insurers-search-answers-rogue-ai",
+        "date": "2026-09-04T12:15:03+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "CryLocker": [
+      {
+        "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
+        "link": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
+        "date": "2026-09-09T23:56:05+05:30",
+        "source": "The Hacker News"
       },
       {
         "title": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution",
@@ -115,114 +139,244 @@
         "source": "The Hacker News"
       }
     ],
-    "Fusion": [
+    "PL": [
       {
-        "title": "Google DeepMind alumni are building tools to accelerate fusion power for the grid",
-        "link": "https://techcrunch.com/2026/09/08/google-deepmind-alumni-are-building-tools-to-accelerate-fusion-power-for-the-grid/",
-        "date": "2026-09-09T06:00:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "One": [
-      {
-        "title": "Sony Coupons: 45% Off Sony Headphones and Sony Cameras September 2026",
-        "link": "https://www.wired.com/story/sony-promo-code/",
-        "date": "2026-09-09T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Apple and Google Miss Deadline to Block Child Nudity on Their Phones in the UK",
-        "link": "https://www.wired.com/story/apple-and-google-miss-deadline-to-block-child-nudity-on-their-phones-in-the-uk/",
-        "date": "2026-09-08T18:13:26+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "How to watch Apple’s foldable iPhone announcement",
-        "link": "https://techcrunch.com/2026/09/08/how-to-watch-apples-foldable-iphone-announcement/",
-        "date": "2026-09-08T17:46:53+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls",
-        "link": "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html",
-        "date": "2026-09-08T17:24:29+05:30",
+        "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
+        "link": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
+        "date": "2026-09-09T23:56:05+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program",
-        "link": "https://www.paloaltonetworks.com/blog/2026/09/building-securely-from-day-one-palo-alto-networks-partners-with-the-zendesk-startup-program/",
-        "date": "2026-09-02T14:59:56+00:00",
-        "source": "Palo Alto Networks"
+        "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
+        "link": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
+        "date": "2026-09-09T22:04:05+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "A Year After Charlie Kirk’s Death, Turning Point Plans to Spend Big on the Midterms",
+        "link": "https://www.wired.com/story/a-year-after-charlie-kirks-death-turning-point-plans-to-spend-big-on-the-midterms/",
+        "date": "2026-09-09T21:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Apple’s new CEO is reviving a Steve Jobs strategy from 25 years ago",
+        "link": "https://techcrunch.com/2026/09/09/apples-new-ceo-is-reviving-a-steve-jobs-strategy-from-25-years-ago/",
+        "date": "2026-09-09T20:58:09+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "4 groups caught using the same Chrome and Windows exploit kit",
+        "link": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
+        "date": "2026-09-09T20:55:02+00:00",
+        "source": "Ars Technica"
       }
     ],
-    "Lv": [
+    "Ra": [
       {
-        "title": "Valvoline Coupons and Promo Codes for September 2026",
-        "link": "https://www.wired.com/story/valvoline-coupons/",
-        "date": "2026-09-09T05:00:00+00:00",
+        "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
+        "link": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
+        "date": "2026-09-09T23:56:05+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
+        "link": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
+        "date": "2026-09-09T21:19:55+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "San Francisco Orders Meta to Stop ‘Allowing’ AI Child Abuse Ads",
+        "link": "https://www.wired.com/story/san-francisco-orders-meta-to-stop-allowing-ai-child-abuse-ads/",
+        "date": "2026-09-09T21:15:27+00:00",
         "source": "Wired"
+      },
+      {
+        "title": "Apple’s new CEO is reviving a Steve Jobs strategy from 25 years ago",
+        "link": "https://techcrunch.com/2026/09/09/apples-new-ceo-is-reviving-a-steve-jobs-strategy-from-25-years-ago/",
+        "date": "2026-09-09T20:58:09+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "August 2026 Cyber Threat Landscape: GenAI Data Exposure Emerges as a New Enterprise Risk as Attacks, Phishing, and Ransomware Accelerate",
+        "link": "https://blog.checkpoint.com/security/august-2026-cyber-threat-landscape-genai-data-exposure-emerges-as-a-new-enterprise-risk-as-attacks-phishing-and-ransomware-accelerate/",
+        "date": "2026-09-09T18:09:36+00:00",
+        "source": "Check Point"
       }
     ],
-    "Rook": [
+    "Rector": [
       {
-        "title": "20% Off Brooks Promo Code | September 2026",
-        "link": "https://www.wired.com/story/brooks-promo-code/",
-        "date": "2026-09-09T05:00:00+00:00",
-        "source": "Wired"
+        "title": "OpenAI adds a prominent AI doomer to its board of directors",
+        "link": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
+        "date": "2026-09-09T22:25:22+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "APT3": [
+      {
+        "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
+        "link": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
+        "date": "2026-09-09T22:04:05+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "4 groups caught using the same Chrome and Windows exploit kit",
+        "link": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
+        "date": "2026-09-09T20:55:02+00:00",
+        "source": "Ars Technica"
       }
     ],
     "APT5": [
       {
-        "title": "CloudNC raises $20M to automate manufacturing’s most pressing bottlenecks",
-        "link": "https://techcrunch.com/2026/09/08/cloudnc-raises-20m-to-automate-manufacturings-most-pressing-bottlenecks/",
-        "date": "2026-09-09T04:01:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "DN": [
-      {
-        "title": "CloudNC raises $20M to automate manufacturing’s most pressing bottlenecks",
-        "link": "https://techcrunch.com/2026/09/08/cloudnc-raises-20m-to-automate-manufacturings-most-pressing-bottlenecks/",
-        "date": "2026-09-09T04:01:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "DoppelCart fraud network uses 119,000 fake shops to steal credit cards",
-        "link": "https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/",
-        "date": "2026-09-08T16:35:14-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
-        "link": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
-        "date": "2026-09-07T21:21:56+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Large Enterprises Targeted in Fake Merger &amp; Acquisition Scams",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams",
-        "date": "2026-09-03T20:18:14+00:00",
+        "title": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
+        "link": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
+        "date": "2026-09-09T21:19:55+00:00",
         "source": "DarkReading"
       }
     ],
-    "RNS": [
+    "One": [
       {
-        "title": "Google warns of new Chrome zero-day bug exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
-        "date": "2026-09-09T02:25:48-04:00",
-        "source": "BleepingComputer"
+        "title": "Everything Apple announced at its fall iPhone event, from the foldable iPhone Duo to an always-listening Apple Watch",
+        "link": "https://techcrunch.com/2026/09/09/everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo-to-an-always-listening-apple-watch/",
+        "date": "2026-09-09T20:03:43+00:00",
+        "source": "TechCrunch"
       },
       {
-        "title": "SAP warns of maximum severity 'OVERPASS' kernel vulnerability",
-        "link": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/",
-        "date": "2026-09-08T10:55:20-04:00",
-        "source": "BleepingComputer"
+        "title": "There are new shiny iPhones, so Apple is making you pay more for older models ",
+        "link": "https://techcrunch.com/2026/09/09/there-are-new-shiny-iphones-so-apple-is-making-you-pay-more-for-older-models/",
+        "date": "2026-09-09T19:56:18+00:00",
+        "source": "TechCrunch"
       },
       {
-        "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
-        "link": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
-        "date": "2026-09-07T23:42:09+05:30",
+        "title": "The hinge for Apple’s new foldable phone was built with AI",
+        "link": "https://techcrunch.com/2026/09/09/the-hinge-for-apples-new-foldable-phone-was-built-with-ai/",
+        "date": "2026-09-09T19:21:48+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Everything Apple Announced: iPhone Duo, iPhone 18 Pro, Apple Watch, AirPods 5",
+        "link": "https://www.wired.com/story/everything-apple-announced-september-2026/",
+        "date": "2026-09-09T19:21:18+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Apple has a new way to prove your iPhone photos aren’t AI slop",
+        "link": "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/",
+        "date": "2026-09-09T18:08:35+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Play": [
+      {
+        "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
+        "link": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
+        "date": "2026-09-09T19:53:55+05:30",
         "source": "The Hacker News"
+      }
+    ],
+    "Chaos": [
+      {
+        "title": "UK Lawmakers Are Freaking Out Over AI’s Summer of Chaos",
+        "link": "https://www.wired.com/story/uk-lawmakers-are-scrambling-in-response-to-ai-summer-of-chaos/",
+        "date": "2026-09-09T19:07:42+00:00",
+        "source": "Wired"
+      }
+    ],
+    "core": [
+      {
+        "title": "Apple’s revamped Health app will calculate your ‘health age’ and readiness score",
+        "link": "https://techcrunch.com/2026/09/09/apples-revamped-health-app-will-calculate-your-health-age-and-readiness-score/",
+        "date": "2026-09-09T18:16:29+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "First": [
+      {
+        "title": "Apple Debuts the iPhone Duo, Its First Folding iPhone",
+        "link": "https://www.wired.com/story/apple-debuts-the-iphone-duo-its-first-folding-iphone/",
+        "date": "2026-09-09T17:57:45+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Bud": [
+      {
+        "title": "Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking",
+        "link": "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/",
+        "date": "2026-09-09T17:02:14-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Skull": [
+      {
+        "title": "Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking",
+        "link": "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/",
+        "date": "2026-09-09T17:02:14-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Mini": [
+      {
+        "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
+        "link": "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html",
+        "date": "2026-09-09T15:02:26+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "PHP": [
+      {
+        "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
+        "link": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
+        "date": "2026-09-09T13:06:49+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Defender": [
+      {
+        "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+        "link": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
+        "date": "2026-09-09T12:17:27+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
+        "link": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
+        "date": "2026-09-09T03:30:15-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Check Point Brings OpenAI Daybreak Models Across Its Security Platform to Help Defenders Find, Validate, and Remediate Risk",
+        "link": "https://blog.checkpoint.com/ai-security/check-point-brings-openai-daybreak-models-across-its-security-platform-to-help-defenders-find-validate-and-remediate-risk/",
+        "date": "2026-09-03T21:00:10+00:00",
+        "source": "Check Point"
+      }
+    ],
+    "Nightmare": [
+      {
+        "title": "Untracked Nightmares: The Threats Hiding Behind Commodity Infrastructure",
+        "link": "https://unit42.paloaltonetworks.com/ppi-network-malware-campaign-analysis/",
+        "date": "2026-09-09T10:00:55+00:00",
+        "source": "Unit 42"
+      }
+    ],
+    "Quantum": [
+      {
+        "title": "Critical Remote Code Execution Vulnerabilities in Check Point Quantum Security Gateway and Security Management (CVE-2026-85102, CVE-2026-85103)",
+        "link": "https://labs.beazley.security/advisories/BSL-A1203",
+        "date": "2026-09-09T05:00:00.000Z",
+        "source": "Beazley Security Labs Advisories"
+      },
+      {
+        "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
+        "link": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
+        "date": "2026-09-08T13:10:00+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "Deos": [
+      {
+        "title": "Man gets 15 years for extorting women with AI-generated porn videos",
+        "link": "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
+        "date": "2026-09-09T04:44:22-04:00",
+        "source": "BleepingComputer"
       }
     ],
     "Brazilian": [
@@ -233,24 +387,10 @@
         "source": "The Hacker News"
       },
       {
-        "title": "'Breeze Comet' Tears Into Brazilian &amp; Global Financial Systems",
-        "link": "https://www.darkreading.com/threat-intelligence/breeze-comet-brazilian-global-financial-systems",
-        "date": "2026-09-03T12:00:00+00:00",
+        "title": "Cybercriminals Hack Brazilian Government Servers to Host Phishing Sites",
+        "link": "https://www.darkreading.com/threat-intelligence/cybercriminals-hack-brazilian-government-servers-host-phishing-sites",
+        "date": "2026-09-08T12:00:00+00:00",
         "source": "DarkReading"
-      }
-    ],
-    "CryLocker": [
-      {
-        "title": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution",
-        "link": "https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html",
-        "date": "2026-09-08T21:50:23+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "A hacker stole $340M in a crypto heist, then returned most of it",
-        "link": "https://techcrunch.com/2026/09/08/a-hacker-stole-340m-in-a-crypto-heist-then-returned-most-of-it/",
-        "date": "2026-09-08T14:11:29+00:00",
-        "source": "TechCrunch"
       }
     ],
     "File Spider": [
@@ -281,52 +421,20 @@
         "link": "https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access",
         "date": "2026-09-08T17:25:37+00:00",
         "source": "DarkReading"
+      }
+    ],
+    "DN": [
+      {
+        "title": "DoppelCart fraud network uses 119,000 fake shops to steal credit cards",
+        "link": "https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/",
+        "date": "2026-09-08T16:35:14-04:00",
+        "source": "BleepingComputer"
       },
       {
-        "title": "WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls",
-        "link": "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html",
-        "date": "2026-09-08T17:24:29+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "AnDROid": [
-      {
-        "title": "WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls",
-        "link": "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html",
-        "date": "2026-09-08T17:24:29+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Anony": [
-      {
-        "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
-        "link": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
-        "date": "2026-09-08T16:52:07+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "IPA": [
-      {
-        "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
-        "link": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
-        "date": "2026-09-08T16:52:07+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Mini": [
-      {
-        "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
-        "link": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
-        "date": "2026-09-08T16:52:07+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Root": [
-      {
-        "title": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/",
-        "date": "2026-09-08T16:08:55-04:00",
-        "source": "BleepingComputer"
+        "title": "Large Enterprises Targeted in Fake Merger &amp; Acquisition Scams",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams",
+        "date": "2026-09-03T20:18:14+00:00",
+        "source": "DarkReading"
       }
     ],
     "Tk": [
@@ -335,58 +443,6 @@
         "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/",
         "date": "2026-09-08T16:08:55-04:00",
         "source": "BleepingComputer"
-      }
-    ],
-    "PHP": [
-      {
-        "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
-        "link": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
-        "date": "2026-09-08T14:43:47+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Deadeye Jackal": [
-      {
-        "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
-        "link": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
-        "date": "2026-09-08T14:13:51+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Insurers Search for Answers to Rein in Rogue AI",
-        "link": "https://www.darkreading.com/cyber-risk/insurers-search-answers-rogue-ai",
-        "date": "2026-09-04T12:15:03+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Elastic and Tencent Cloud deepen strategic partnership to power AI-era search foundation",
-        "link": "https://www.elastic.co/blog/elastic-and-tencent-cloud",
-        "date": "2026-09-03T00:00:00+00:00",
-        "source": "Elastic"
-      }
-    ],
-    "JCrypt": [
-      {
-        "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
-        "link": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
-        "date": "2026-09-08T14:13:51+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "core": [
-      {
-        "title": "Nuclear startup Bluecore Energy raises $50M seed round, just two months after launch",
-        "link": "https://techcrunch.com/2026/09/08/nuclear-startup-bluecore-energy-raises-50m-seed-round-just-two-months-after-launch/",
-        "date": "2026-09-08T14:10:17+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Quantum": [
-      {
-        "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
-        "link": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
-        "date": "2026-09-08T13:10:00+00:00",
-        "source": "Cloudflare"
       }
     ],
     "DDE": [
@@ -401,76 +457,6 @@
         "link": "https://www.darkreading.com/vulnerabilities-threats/ai-ending-era-hidden-vulnerabilities-are-vendors-ready",
         "date": "2026-09-04T13:00:00+00:00",
         "source": "DarkReading"
-      }
-    ],
-    "Hunt": [
-      {
-        "title": "ShinyHunters hackers claim breach of Florida \"DAVID\" DMV database",
-        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/",
-        "date": "2026-09-08T12:35:47-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "What We Missed: Did ShinyHunters 'Breach' ReliaQuest?",
-        "link": "https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest",
-        "date": "2026-09-03T19:42:39+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Hunters": [
-      {
-        "title": "ShinyHunters hackers claim breach of Florida \"DAVID\" DMV database",
-        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/",
-        "date": "2026-09-08T12:35:47-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "What We Missed: Did ShinyHunters 'Breach' ReliaQuest?",
-        "link": "https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest",
-        "date": "2026-09-03T19:42:39+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "ShinyHunters": [
-      {
-        "title": "ShinyHunters hackers claim breach of Florida \"DAVID\" DMV database",
-        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/",
-        "date": "2026-09-08T12:35:47-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "What We Missed: Did ShinyHunters 'Breach' ReliaQuest?",
-        "link": "https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest",
-        "date": "2026-09-03T19:42:39+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "ONI": [
-      {
-        "title": "OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor",
-        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/",
-        "date": "2026-09-08T10:40:32-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce",
-        "date": "2026-09-02T20:43:59+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Critical SonicWall SMA1000 Vulnerabilities CVE-2026-83548, CVE-2026-83549 Exploited in the Wild",
-        "link": "https://www.rapid7.com/blog/post/etr-critical-sonicwall-sma1000-vulnerabilities-cve-2026-83548-cve-2026-83549-exploited-in-the-wild",
-        "date": "2026-09-02T16:58:45+00:00",
-        "source": "Rapid7"
-      }
-    ],
-    "APT41": [
-      {
-        "title": "Webinar: The forgotten Google Workspace access that can lead to a breach",
-        "link": "https://www.bleepingcomputer.com/news/security/webinar-the-forgotten-google-workspace-access-that-can-lead-to-a-breach/",
-        "date": "2026-09-08T08:40:48-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "NoName057(16)": [
@@ -497,27 +483,27 @@
         "source": "Elastic"
       }
     ],
-    "Defender": [
+    "Hunt": [
       {
-        "title": "Check Point Brings OpenAI Daybreak Models Across Its Security Platform to Help Defenders Find, Validate, and Remediate Risk",
-        "link": "https://blog.checkpoint.com/ai-security/check-point-brings-openai-daybreak-models-across-its-security-platform-to-help-defenders-find-validate-and-remediate-risk/",
-        "date": "2026-09-03T21:00:10+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "global": [
-      {
-        "title": "'Breeze Comet' Tears Into Brazilian &amp; Global Financial Systems",
-        "link": "https://www.darkreading.com/threat-intelligence/breeze-comet-brazilian-global-financial-systems",
-        "date": "2026-09-03T12:00:00+00:00",
+        "title": "What We Missed: Did ShinyHunters 'Breach' ReliaQuest?",
+        "link": "https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest",
+        "date": "2026-09-03T19:42:39+00:00",
         "source": "DarkReading"
       }
     ],
-    "First": [
+    "Hunters": [
       {
-        "title": "AI's Vulnerability Surge May Be More Manageable Than First Feared",
-        "link": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared",
-        "date": "2026-09-02T21:14:06+00:00",
+        "title": "What We Missed: Did ShinyHunters 'Breach' ReliaQuest?",
+        "link": "https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest",
+        "date": "2026-09-03T19:42:39+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "ShinyHunters": [
+      {
+        "title": "What We Missed: Did ShinyHunters 'Breach' ReliaQuest?",
+        "link": "https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest",
+        "date": "2026-09-03T19:42:39+00:00",
         "source": "DarkReading"
       }
     ]

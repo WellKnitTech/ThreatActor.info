@@ -33,6 +33,6 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [AI's Vulnerability Surge May Be More Manageable Than First Feared](https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared)
-  DarkReading - 2026-09-02T
+- [Apple Debuts the iPhone Duo, Its First Folding iPhone](https://www.wired.com/story/apple-debuts-the-iphone-duo-its-first-folding-iphone/)
+  Wired - 2026-09-09T
 

@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [N-able N-central Pre-Auth RCE Flaw Exploited in the Wild](https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html)
+- [U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto](https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html)
   The Hacker News - 2026-09-09T
-- [Google DeepMind alumni are building tools to accelerate fusion power for the grid](https://techcrunch.com/2026/09/08/google-deepmind-alumni-are-building-tools-to-accelerate-fusion-power-for-the-grid/)
-  TechCrunch - 2026-09-09T
-- [Sony Coupons: 45% Off Sony Headphones and Sony Cameras September 2026](https://www.wired.com/story/sony-promo-code/)
+- [Mythos Vulnerability Firehose Hits a Human Bottleneck](https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck)
+  DarkReading - 2026-09-09T
+- [San Francisco Orders Meta to Stop ‘Allowing’ AI Child Abuse Ads](https://www.wired.com/story/san-francisco-orders-meta-to-stop-allowing-ai-child-abuse-ads/)
   Wired - 2026-09-09T
-- [CloudNC raises $20M to automate manufacturing’s most pressing bottlenecks](https://techcrunch.com/2026/09/08/cloudnc-raises-20m-to-automate-manufacturings-most-pressing-bottlenecks/)
+- [Apple’s new CEO is reviving a Steve Jobs strategy from 25 years ago](https://techcrunch.com/2026/09/09/apples-new-ceo-is-reviving-a-steve-jobs-strategy-from-25-years-ago/)
   TechCrunch - 2026-09-09T
-- [Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution](https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html)
-  The Hacker News - 2026-09-08T
+- [August 2026 Cyber Threat Landscape: GenAI Data Exposure Emerges as a New Enterprise Risk as Attacks, Phishing, and Ransomware Accelerate](https://blog.checkpoint.com/security/august-2026-cyber-threat-landscape-genai-data-exposure-emerges-as-a-new-enterprise-risk-as-attacks-phishing-and-ransomware-accelerate/)
+  Check Point - 2026-09-09T
 

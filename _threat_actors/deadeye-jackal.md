@@ -44,10 +44,12 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams](https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html)
-  The Hacker News - 2026-09-08T
+- [AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks](https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/)
+  TechCrunch - 2026-09-10T
+- [The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’](https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/)
+  Wired - 2026-09-09T
+- [Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed](https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html)
+  The Hacker News - 2026-09-09T
 - [Insurers Search for Answers to Rein in Rogue AI](https://www.darkreading.com/cyber-risk/insurers-search-answers-rogue-ai)
   DarkReading - 2026-09-04T
-- [Elastic and Tencent Cloud deepen strategic partnership to power AI-era search foundation](https://www.elastic.co/blog/elastic-and-tencent-cloud)
-  Elastic - 2026-09-03T
 

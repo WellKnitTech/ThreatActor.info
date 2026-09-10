@@ -30,3 +30,9 @@ Chaos is a rapidly evolving Ransomware-as-a-Service (RaaS) group first observed 
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [UK Lawmakers Are Freaking Out Over AI’s Summer of Chaos](https://www.wired.com/story/uk-lawmakers-are-scrambling-in-response-to-ai-summer-of-chaos/)
+  Wired - 2026-09-09T
+

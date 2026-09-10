@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials](https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html)
-  The Hacker News - 2026-09-08T
+- [U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok](https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html)
+  The Hacker News - 2026-09-09T
 
