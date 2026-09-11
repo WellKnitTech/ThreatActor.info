@@ -30,11 +30,3 @@ Aware is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Microsoft adds age-awareness APIs that can tell if users are children, teens, or adults](https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/)
-  BleepingComputer - 2026-09-08T
-- [Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models](https://blog.cloudflare.com/vulnerability-discovery-remediation/)
-  Cloudflare - 2026-09-03T
-

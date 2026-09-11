@@ -72,6 +72,12 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Conti ransomware gang member sentenced to 4 years in prison](https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/)
+  BleepingComputer - 2026-09-11T
+
 ## CISA Known Exploited Vulnerabilities (KEV)
 *The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*
 

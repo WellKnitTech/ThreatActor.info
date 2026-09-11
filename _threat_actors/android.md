@@ -30,3 +30,17 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Indonesia Hit by Android Banking App-Cloning Campaign](https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign)
+  DarkReading - 2026-09-11T
+- [ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories](https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html)
+  The Hacker News - 2026-09-10T
+- [Google Play Early Access Abused to Push Thousands of Deceptive Android Apps](https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html)
+  The Hacker News - 2026-09-10T
+- [New Android malware encrypts files, steals data, and harasses victims](https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/)
+  BleepingComputer - 2026-09-10T
+- [Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks](https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html)
+  The Hacker News - 2026-09-10T
+

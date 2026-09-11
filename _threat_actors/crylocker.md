@@ -33,8 +33,8 @@ Ransomware Identifies victim locations w/Google Maps API
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [New Android malware encrypts files, steals data, and harasses victims](https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/)
+  BleepingComputer - 2026-09-10T
 - [U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto](https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html)
   The Hacker News - 2026-09-09T
-- [Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution](https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html)
-  The Hacker News - 2026-09-08T
 

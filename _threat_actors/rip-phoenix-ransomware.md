@@ -33,6 +33,6 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Why your AI bill tripled while token prices fell 75%](https://www.elastic.co/blog/token-costs-ai-bills)
-  Elastic - 2026-09-04T
+- [OpenAI puts Pro subscriptions on hold due to Astra demand](https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/)
+  TechCrunch - 2026-09-10T
 

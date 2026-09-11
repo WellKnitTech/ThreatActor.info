@@ -48,3 +48,9 @@ This threat actor targets governments, diplomatic missions, private companies in
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [PuzzleMask: The Prompt Injection Hiding in Plain Sight](https://blog.checkpoint.com/security/puzzlemask-the-prompt-injection-hiding-in-plain-sight/)
+  Check Point - 2026-09-10T
+

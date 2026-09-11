@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit](https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit)
+  DarkReading - 2026-09-10T
 - [Untracked Nightmares: The Threats Hiding Behind Commodity Infrastructure](https://unit42.paloaltonetworks.com/ppi-network-malware-campaign-analysis/)
   Unit 42 - 2026-09-09T
 

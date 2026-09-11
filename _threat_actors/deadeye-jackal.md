@@ -44,12 +44,8 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks](https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/)
-  TechCrunch - 2026-09-10T
-- [The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’](https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/)
-  Wired - 2026-09-09T
-- [Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed](https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html)
-  The Hacker News - 2026-09-09T
+- [Sealy Promo Codes: $100 Off](https://www.wired.com/story/sealy-promo-code/)
+  Wired - 2026-09-11T
 - [Insurers Search for Answers to Rein in Rogue AI](https://www.darkreading.com/cyber-risk/insurers-search-answers-rogue-ai)
   DarkReading - 2026-09-04T
 

@@ -33,10 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Stearns and Foster Promo Codes: $300 Off in September 2026](https://www.wired.com/story/stearns-and-foster-promo-code/)
+  Wired - 2026-09-11T
 - [Trezor warns users of email provider breach, phishing attacks](https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/)
   BleepingComputer - 2026-09-10T
-- [Veradigm warns of patient data breach after ransomware gang claims attack](https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/)
-  BleepingComputer - 2026-09-09T
-- [Google warns of new Chrome zero-day bug exploited in attacks](https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/)
-  BleepingComputer - 2026-09-09T
 

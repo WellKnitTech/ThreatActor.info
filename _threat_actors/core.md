@@ -30,9 +30,3 @@ Core ransomware surfaced in early 2025 as a new variant within the broader Makop
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Apple’s revamped Health app will calculate your ‘health age’ and readiness score](https://techcrunch.com/2026/09/09/apples-revamped-health-app-will-calculate-your-health-age-and-readiness-score/)
-  TechCrunch - 2026-09-09T
-

@@ -33,8 +33,6 @@ Ransomware Based on EDA2
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution](https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html)
-  The Hacker News - 2026-09-08T
 - [Cybercriminals Hack Brazilian Government Servers to Host Phishing Sites](https://www.darkreading.com/threat-intelligence/cybercriminals-hack-brazilian-government-servers-host-phishing-sites)
   DarkReading - 2026-09-08T
 

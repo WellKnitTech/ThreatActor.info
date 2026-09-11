@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Indonesia Hit by Android Banking App-Cloning Campaign](https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign)
+  DarkReading - 2026-09-11T
+

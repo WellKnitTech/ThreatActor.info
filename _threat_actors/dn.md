@@ -33,8 +33,6 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [DoppelCart fraud network uses 119,000 fake shops to steal credit cards](https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/)
-  BleepingComputer - 2026-09-08T
-- [Large Enterprises Targeted in Fake Merger &amp; Acquisition Scams](https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams)
-  DarkReading - 2026-09-03T
+- [1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it](https://blog.cloudflare.com/post-quantum-dnssec-1111/)
+  Cloudflare - 2026-09-10T
 

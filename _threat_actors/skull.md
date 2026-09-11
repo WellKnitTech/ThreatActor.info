@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking](https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/)
-  BleepingComputer - 2026-09-09T
+- [Skullcandy Discount Code: 30% Off | September 2026](https://www.wired.com/story/skullcandy-discount-code/)
+  Wired - 2026-09-11T
 

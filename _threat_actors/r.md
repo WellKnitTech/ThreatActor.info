@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Trump offers every American $5,000 If Republicans Win The Midterms](https://www.wired.com/story/trump-offers-every-american-dollar5000-if-republicans-win-the-midterms/)
-  Wired - 2026-09-10T
-- [Coleman Promo Codes and Deals: Up to 75% Off in September 2026](https://www.wired.com/story/coleman-promo-code/)
-  Wired - 2026-09-10T
-- [Herman Miller Promo Codes: 40% Off September 2026](https://www.wired.com/story/herman-miller-promo-code/)
-  Wired - 2026-09-10T
-- [NZXT Discount Codes: 50% Off in September 2026](https://www.wired.com/story/nzxt-discount-code/)
-  Wired - 2026-09-10T
-- [Norton Coupon Codes: Up to 58% Off](https://www.wired.com/story/norton-coupon-code/)
-  Wired - 2026-09-10T
+- [20% Off Samsung Promo Code | September 2026](https://www.wired.com/story/samsung-promo-codes/)
+  Wired - 2026-09-11T
+- [Skullcandy Discount Code: 30% Off | September 2026](https://www.wired.com/story/skullcandy-discount-code/)
+  Wired - 2026-09-11T
+- [Castlery Promo Codes: 15% Off for September 2026](https://www.wired.com/story/castlery-promo-code/)
+  Wired - 2026-09-11T
+- [AT&T Promo Codes: $50 Off This September 2026](https://www.wired.com/story/att-promo-code/)
+  Wired - 2026-09-11T
+- [Sealy Promo Codes: $100 Off](https://www.wired.com/story/sealy-promo-code/)
+  Wired - 2026-09-11T
 

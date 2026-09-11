@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans](https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html)
-  The Hacker News - 2026-09-09T
-

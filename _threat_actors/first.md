@@ -30,9 +30,3 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Apple Debuts the iPhone Duo, Its First Folding iPhone](https://www.wired.com/story/apple-debuts-the-iphone-duo-its-first-folding-iphone/)
-  Wired - 2026-09-09T
-

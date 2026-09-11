@@ -30,3 +30,9 @@ Fusion is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Proxima Fusion bets €140M on a critical fusion ingredient dominated by Asian suppliers](https://techcrunch.com/2026/09/10/proxima-fusion-bets-e140m-on-a-critical-fusion-ingredient-dominated-by-asian-suppliers/)
+  TechCrunch - 2026-09-10T
+

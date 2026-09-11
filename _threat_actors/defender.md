@@ -30,13 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed](https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html)
-  The Hacker News - 2026-09-09T
-- [New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access](https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/)
-  BleepingComputer - 2026-09-09T
-- [Check Point Brings OpenAI Daybreak Models Across Its Security Platform to Help Defenders Find, Validate, and Remediate Risk](https://blog.checkpoint.com/ai-security/check-point-brings-openai-daybreak-models-across-its-security-platform-to-help-defenders-find-validate-and-remediate-risk/)
-  Check Point - 2026-09-03T
-

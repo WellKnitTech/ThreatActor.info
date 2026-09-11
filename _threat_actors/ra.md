@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto](https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html)
-  The Hacker News - 2026-09-09T
-- [Mythos Vulnerability Firehose Hits a Human Bottleneck](https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck)
-  DarkReading - 2026-09-09T
-- [San Francisco Orders Meta to Stop ‘Allowing’ AI Child Abuse Ads](https://www.wired.com/story/san-francisco-orders-meta-to-stop-allowing-ai-child-abuse-ads/)
-  Wired - 2026-09-09T
-- [Apple’s new CEO is reviving a Steve Jobs strategy from 25 years ago](https://techcrunch.com/2026/09/09/apples-new-ceo-is-reviving-a-steve-jobs-strategy-from-25-years-ago/)
-  TechCrunch - 2026-09-09T
-- [August 2026 Cyber Threat Landscape: GenAI Data Exposure Emerges as a New Enterprise Risk as Attacks, Phishing, and Ransomware Accelerate](https://blog.checkpoint.com/security/august-2026-cyber-threat-landscape-genai-data-exposure-emerges-as-a-new-enterprise-risk-as-attacks-phishing-and-ransomware-accelerate/)
-  Check Point - 2026-09-09T
+- [Conti ransomware gang member sentenced to 4 years in prison](https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/)
+  BleepingComputer - 2026-09-11T
+- [Thrive Capital led VCs into pro sports ownership; Collaborative Fund just upped that play](https://techcrunch.com/2026/09/10/thrive-capital-showed-vcs-the-way-into-pro-sports-ownership-collaborative-fund-is-now-trying-its-own-version-of-the-same-play/)
+  TechCrunch - 2026-09-10T
+- [OpenAI puts Pro subscriptions on hold due to Astra demand](https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/)
+  TechCrunch - 2026-09-10T
+- [Voice Callers Exploit BYOD to Reach Microsoft 365, Corporate Data](https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data)
+  DarkReading - 2026-09-10T
+- [India’s Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content](https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content/)
+  TechCrunch - 2026-09-10T
 

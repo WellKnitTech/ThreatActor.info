@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto](https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html)
-  The Hacker News - 2026-09-09T
-- [Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week](https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html)
-  The Hacker News - 2026-09-09T
-- [A Year After Charlie Kirk’s Death, Turning Point Plans to Spend Big on the Midterms](https://www.wired.com/story/a-year-after-charlie-kirks-death-turning-point-plans-to-spend-big-on-the-midterms/)
-  Wired - 2026-09-09T
-- [Apple’s new CEO is reviving a Steve Jobs strategy from 25 years ago](https://techcrunch.com/2026/09/09/apples-new-ceo-is-reviving-a-steve-jobs-strategy-from-25-years-ago/)
-  TechCrunch - 2026-09-09T
-- [4 groups caught using the same Chrome and Windows exploit kit](https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/)
-  Ars Technica - 2026-09-09T
+- [Thrive Capital led VCs into pro sports ownership; Collaborative Fund just upped that play](https://techcrunch.com/2026/09/10/thrive-capital-showed-vcs-the-way-into-pro-sports-ownership-collaborative-fund-is-now-trying-its-own-version-of-the-same-play/)
+  TechCrunch - 2026-09-10T
+- [Jensen Huang explains why Nvidia will grow an astounding 70% next year](https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/)
+  TechCrunch - 2026-09-10T
+- [Voice Callers Exploit BYOD to Reach Microsoft 365, Corporate Data](https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data)
+  DarkReading - 2026-09-10T
+- [Google Play Early Access Abused to Push Thousands of Deceptive Android Apps](https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html)
+  The Hacker News - 2026-09-10T
+- [Proxima Fusion bets €140M on a critical fusion ingredient dominated by Asian suppliers](https://techcrunch.com/2026/09/10/proxima-fusion-bets-e140m-on-a-critical-fusion-ingredient-dominated-by-asian-suppliers/)
+  TechCrunch - 2026-09-10T
 
