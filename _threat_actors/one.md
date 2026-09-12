@@ -33,6 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Indonesia Hit by Android Banking App-Cloning Campaign](https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign)
-  DarkReading - 2026-09-11T
+- [One week left to book your exhibit table at TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/11/one-week-left-to-book-your-exhibit-table-at-techcrunch-disrupt-2026/)
+  TechCrunch - 2026-09-11T
+- [One of AI’s Fiercest Critics Says All the Doom Talk Is ‘Meant to Distract Us’](https://www.wired.com/story/one-of-ais-fiercest-critics-says-all-the-doom-talk-is-meant-to-distract-us/)
+  Wired - 2026-09-11T
+- [Metasploit Wrap Up: This One Goes to Sixteen!](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-goes-to-sixteen)
+  Rapid7 - 2026-09-11T
+- [How 9/11 Made Everyone a Conspiracy Theorist](https://www.wired.com/story/conspiracy-how-9-11-broke-americas-brain/)
+  Wired - 2026-09-11T
+- [The US and Mexico Announce They’re Teaming Up Against Drones](https://www.wired.com/story/us-and-mexico-announce-teaming-up-against-drones/)
+  Wired - 2026-09-11T
 

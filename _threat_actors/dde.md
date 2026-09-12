@@ -35,6 +35,4 @@ Ransomware
 
 - [ChatGPT Let Attackers Read Victims’ Gmail Through a Hidden Channel Between Accounts](https://blog.checkpoint.com/research/chatgpt-let-attackers-read-victims-gmail-through-a-hidden-channel-between-accounts/)
   Check Point - 2026-09-08T
-- [AI Is Ending the Era of Hidden Vulnerabilities — Are Vendors Ready?](https://www.darkreading.com/vulnerabilities-threats/ai-ending-era-hidden-vulnerabilities-are-vendors-ready)
-  DarkReading - 2026-09-04T
 

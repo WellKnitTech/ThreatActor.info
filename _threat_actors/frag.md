@@ -30,3 +30,9 @@ Frag is a relatively new ransomware and data extortion group first seen in Febru
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [The Fraud Ecosystem: A Transition From Known Marketplaces to a Fragmented Environment](https://www.rapid7.com/blog/post/tr-fraud-ecosystem-fragmenting-marketplaces)
+  Rapid7 - 2026-09-11T
+

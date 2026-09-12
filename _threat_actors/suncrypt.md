@@ -37,6 +37,6 @@ SunCrypt ransomware was discovered in October 2019 and in August 2020 it was add
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [20% Off Samsung Promo Code | September 2026](https://www.wired.com/story/samsung-promo-codes/)
+- [Samsung Galaxy S26 FE Review: Same as Before, but for More Money](https://www.wired.com/review/samsung-galaxy-s26-fe/)
   Wired - 2026-09-11T
 

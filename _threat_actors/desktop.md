@@ -35,6 +35,4 @@ Ransomware
 
 - [September Windows Server updates break Remote Desktop Services](https://www.bleepingcomputer.com/news/microsoft/september-windows-server-updates-break-remote-desktop-services/)
   BleepingComputer - 2026-09-10T
-- [Microsoft fixes bug that wiped Windows desktop settings](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-wiped-windows-desktop-settings/)
-  BleepingComputer - 2026-09-10T
 

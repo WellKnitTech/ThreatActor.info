@@ -30,11 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Stearns and Foster Promo Codes: $300 Off in September 2026](https://www.wired.com/story/stearns-and-foster-promo-code/)
-  Wired - 2026-09-11T
-- [Trezor warns users of email provider breach, phishing attacks](https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/)
-  BleepingComputer - 2026-09-10T
-

@@ -44,8 +44,6 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Sealy Promo Codes: $100 Off](https://www.wired.com/story/sealy-promo-code/)
+- [Why So Many AI Researchers Think the Machines Could Kill Everyone](https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/)
   Wired - 2026-09-11T
-- [Insurers Search for Answers to Rein in Rogue AI](https://www.darkreading.com/cyber-risk/insurers-search-answers-rogue-ai)
-  DarkReading - 2026-09-04T
 

@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Skullcandy Discount Code: 30% Off | September 2026](https://www.wired.com/story/skullcandy-discount-code/)
-  Wired - 2026-09-11T
-
