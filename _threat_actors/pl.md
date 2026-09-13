@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Claude Used to Automate Exploitation and Data Theft Across Multiple Victims](https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html)
-  The Hacker News - 2026-09-11T
-- [Roblox is making it easier to build games with AI — and play them outside Roblox](https://techcrunch.com/2026/09/11/roblox-is-making-it-easier-to-build-games-with-ai-and-play-them-outside-roblox/)
-  TechCrunch - 2026-09-11T
-- [Metasploit Wrap Up: This One Goes to Sixteen!](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-goes-to-sixteen)
-  Rapid7 - 2026-09-11T
-- [The Fraud Ecosystem: A Transition From Known Marketplaces to a Fragmented Environment](https://www.rapid7.com/blog/post/tr-fraud-ecosystem-fragmenting-marketplaces)
-  Rapid7 - 2026-09-11T
-- [Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors](https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html)
-  The Hacker News - 2026-09-11T
+- [CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV](https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html)
+  The Hacker News - 2026-09-12T
+- [Anthropic CEO outlines plan to slow AI development](https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/)
+  TechCrunch - 2026-09-12T
+- [The Best 3-in-1 Apple Charging Stations After Testing 30+ Models](https://www.wired.com/gallery/best-apple-3-in-1-wireless-chargers/)
+  Wired - 2026-09-12T
+- [Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent](https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/)
+  BleepingComputer - 2026-09-12T
+- [‘I’m Really Terrified’: A Mathematician Grapples With AI’s Recent Breakthroughs](https://www.wired.com/story/mathematician-steven-strogatz-grapples-with-ai-recent-breakthroughs/)
+  Wired - 2026-09-12T
 

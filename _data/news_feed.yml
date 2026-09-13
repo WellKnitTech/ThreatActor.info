@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T06:50:46Z",
+  "updated": "2026-09-13T07:08:44Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -21,66 +21,150 @@
   "actor_news": {
     "R": [
       {
-        "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
-        "link": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
-        "date": "2026-09-11T22:58:17+00:00",
+        "title": "Automattic confirms Mullenweg has returned as CEO after attempted ouster by board",
+        "link": "https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/",
+        "date": "2026-09-12T23:25:38+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
-        "link": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
-        "date": "2026-09-11T22:00:18+05:30",
+        "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
+        "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
+        "date": "2026-09-12T21:24:45+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
-        "link": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
-        "date": "2026-09-11T21:45:29+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Khosla Ventures is opening a New York office this fall — its first outpost outside Sand Hill Road",
-        "link": "https://techcrunch.com/2026/09/11/khosla-ventures-is-opening-a-new-york-office-this-fall-its-first-outpost-outside-sand-hill-road/",
-        "date": "2026-09-11T21:19:05+00:00",
+        "title": "Anthropic CEO outlines plan to slow AI development",
+        "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+        "date": "2026-09-12T19:34:44+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
-        "link": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
-        "date": "2026-09-11T20:59:47+00:00",
+        "title": "Tesla says it will finally unveil the second generation Roadster on October 1",
+        "link": "https://techcrunch.com/2026/09/12/tesla-says-it-will-finally-unveil-the-second-generation-roadster-on-october-1/",
+        "date": "2026-09-12T19:21:19+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
+        "link": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+        "date": "2026-09-12T15:54:44+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "PL": [
+      {
+        "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
+        "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
+        "date": "2026-09-12T21:24:45+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Anthropic CEO outlines plan to slow AI development",
+        "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+        "date": "2026-09-12T19:34:44+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "The Best 3-in-1 Apple Charging Stations After Testing 30+ Models",
+        "link": "https://www.wired.com/gallery/best-apple-3-in-1-wireless-chargers/",
+        "date": "2026-09-12T10:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
+        "link": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
+        "date": "2026-09-12T10:14:32-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "‘I’m Really Terrified’: A Mathematician Grapples With AI’s Recent Breakthroughs",
+        "link": "https://www.wired.com/story/mathematician-steven-strogatz-grapples-with-ai-recent-breakthroughs/",
+        "date": "2026-09-12T10:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Final": [
+      {
+        "title": "Tesla says it will finally unveil the second generation Roadster on October 1",
+        "link": "https://techcrunch.com/2026/09/12/tesla-says-it-will-finally-unveil-the-second-generation-roadster-on-october-1/",
+        "date": "2026-09-12T19:21:19+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Final, final, final call for TechCrunch Disrupt 2026 Side Events",
+        "link": "https://techcrunch.com/2026/09/11/final-final-final-call-for-techcrunch-disrupt-2026-side-events/",
+        "date": "2026-09-11T20:30:17+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "OCT": [
+      {
+        "title": "Tesla says it will finally unveil the second generation Roadster on October 1",
+        "link": "https://techcrunch.com/2026/09/12/tesla-says-it-will-finally-unveil-the-second-generation-roadster-on-october-1/",
+        "date": "2026-09-12T19:21:19+00:00",
         "source": "TechCrunch"
       }
     ],
     "Ra": [
       {
+        "title": "Tesla says it will finally unveil the second generation Roadster on October 1",
+        "link": "https://techcrunch.com/2026/09/12/tesla-says-it-will-finally-unveil-the-second-generation-roadster-on-october-1/",
+        "date": "2026-09-12T19:21:19+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "The Anti-Woke Right Can’t Figure Out How to Stop ‘Grand Theft Auto VI’",
+        "link": "https://www.wired.com/story/the-anti-woke-right-cant-figure-out-how-to-stop-grand-theft-auto-vi/",
+        "date": "2026-09-12T11:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "‘I’m Really Terrified’: A Mathematician Grapples With AI’s Recent Breakthroughs",
+        "link": "https://www.wired.com/story/mathematician-steven-strogatz-grapples-with-ai-recent-breakthroughs/",
+        "date": "2026-09-12T10:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Branch Ergonomic Chair Pro (Sega Edition) Review: Comfy, Not Boring",
+        "link": "https://www.wired.com/review/branch-ergonomic-chair-pro-sega-edition/",
+        "date": "2026-09-12T10:00:00+00:00",
+        "source": "Wired"
+      },
+      {
         "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
         "link": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
         "date": "2026-09-11T22:58:17+00:00",
         "source": "TechCrunch"
+      }
+    ],
+    "DN": [
+      {
+        "title": "Revolut confirms customer data breach through fake government requests",
+        "link": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+        "date": "2026-09-12T14:40:00+00:00",
+        "source": "TechCrunch"
       },
       {
-        "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
-        "link": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
-        "date": "2026-09-11T22:00:18+05:30",
+        "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
+        "link": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
+        "date": "2026-09-10T13:00:00+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "Ruby": [
+      {
+        "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+        "link": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+        "date": "2026-09-12T14:37:56+05:30",
         "source": "The Hacker News"
-      },
+      }
+    ],
+    "Judge": [
       {
-        "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
-        "link": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
-        "date": "2026-09-11T21:45:29+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "The US Government Launched 3 Previously Unreported Investigations of Polymarket Trades",
-        "link": "https://www.wired.com/story/polymarket-investigations-iran-biden-google-foia/",
-        "date": "2026-09-11T19:21:34+00:00",
+        "title": "You Don’t Have a Right to Safe Drinking Water, Trump-Appointed Judge Rules",
+        "link": "https://www.wired.com/story/you-dont-have-right-to-safe-drinking-water-trump-appointed-judge-rules/",
+        "date": "2026-09-12T09:30:00+00:00",
         "source": "Wired"
-      },
-      {
-        "title": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/1m-personalized-fraud-emails-3-days",
-        "date": "2026-09-11T19:21:08+00:00",
-        "source": "DarkReading"
       }
     ],
     "Rush": [
@@ -119,56 +203,10 @@
         "source": "Rapid7"
       },
       {
-        "title": "How 9/11 Made Everyone a Conspiracy Theorist",
-        "link": "https://www.wired.com/story/conspiracy-how-9-11-broke-americas-brain/",
-        "date": "2026-09-11T10:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "The US and Mexico Announce They’re Teaming Up Against Drones",
-        "link": "https://www.wired.com/story/us-and-mexico-announce-teaming-up-against-drones/",
-        "date": "2026-09-11T09:15:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Final": [
-      {
-        "title": "Final, final, final call for TechCrunch Disrupt 2026 Side Events",
-        "link": "https://techcrunch.com/2026/09/11/final-final-final-call-for-techcrunch-disrupt-2026-side-events/",
-        "date": "2026-09-11T20:30:17+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "PL": [
-      {
-        "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
-        "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
-        "date": "2026-09-11T19:59:47+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Roblox is making it easier to build games with AI — and play them outside Roblox",
-        "link": "https://techcrunch.com/2026/09/11/roblox-is-making-it-easier-to-build-games-with-ai-and-play-them-outside-roblox/",
-        "date": "2026-09-11T19:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Metasploit Wrap Up: This One Goes to Sixteen!",
-        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-goes-to-sixteen",
-        "date": "2026-09-11T13:35:11+00:00",
-        "source": "Rapid7"
-      },
-      {
-        "title": "The Fraud Ecosystem: A Transition From Known Marketplaces to a Fragmented Environment",
-        "link": "https://www.rapid7.com/blog/post/tr-fraud-ecosystem-fragmenting-marketplaces",
-        "date": "2026-09-11T13:33:33+00:00",
-        "source": "Rapid7"
-      },
-      {
-        "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
-        "link": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
-        "date": "2026-09-11T13:01:05+05:30",
-        "source": "The Hacker News"
+        "title": "Indonesia Hit by Android Banking App-Cloning Campaign",
+        "link": "https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign",
+        "date": "2026-09-11T01:00:00+00:00",
+        "source": "DarkReading"
       }
     ],
     "Zlader": [
@@ -184,12 +222,6 @@
         "title": "Roblox is making it easier to build games with AI — and play them outside Roblox",
         "link": "https://techcrunch.com/2026/09/11/roblox-is-making-it-easier-to-build-games-with-ai-and-play-them-outside-roblox/",
         "date": "2026-09-11T19:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Thrive Capital led VCs into pro sports ownership; Collaborative Fund just upped that play",
-        "link": "https://techcrunch.com/2026/09/10/thrive-capital-showed-vcs-the-way-into-pro-sports-ownership-collaborative-fund-is-now-trying-its-own-version-of-the-same-play/",
-        "date": "2026-09-10T22:30:00+00:00",
         "source": "TechCrunch"
       },
       {
@@ -279,26 +311,18 @@
         "source": "Rapid7"
       }
     ],
-    "CryLocker": [
-      {
-        "title": "Scammers target hundreds of thousands of crypto owners after Trezor confirms data breach of email provider",
-        "link": "https://techcrunch.com/2026/09/11/scammers-target-hundreds-of-thousands-of-crypto-owners-after-trezor-confirms-data-breach-of-email-provider/",
-        "date": "2026-09-11T13:32:54+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "New Android malware encrypts files, steals data, and harasses victims",
-        "link": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
-        "date": "2026-09-10T17:40:43-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
     "APT41": [
       {
         "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
         "link": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
         "date": "2026-09-11T13:26:50-04:00",
         "source": "BleepingComputer"
+      },
+      {
+        "title": "Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant™ for Hybrid Mesh Firewall",
+        "link": "https://www.paloaltonetworks.com/blog/2026/09/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall-securing-every-environment-at-the-speed-of-frontier-ai/",
+        "date": "2026-09-10T19:00:03+00:00",
+        "source": "Palo Alto Networks"
       },
       {
         "title": "Check Point is a Leader in the 2026 Gartner® Magic Quadrant™ for Hybrid Mesh Firewall",
@@ -347,22 +371,6 @@
         "source": "Ars Technica"
       }
     ],
-    "SunCrypt": [
-      {
-        "title": "Samsung Galaxy S26 FE Review: Same as Before, but for More Money",
-        "link": "https://www.wired.com/review/samsung-galaxy-s26-fe/",
-        "date": "2026-09-11T09:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Deadeye Jackal": [
-      {
-        "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
-        "link": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/",
-        "date": "2026-09-11T09:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
     "Conti": [
       {
         "title": "Conti ransomware gang member sentenced to 4 years in prison",
@@ -377,12 +385,6 @@
         "link": "https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign",
         "date": "2026-09-11T01:00:00+00:00",
         "source": "DarkReading"
-      },
-      {
-        "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
-        "link": "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html",
-        "date": "2026-09-10T17:03:43+05:30",
-        "source": "The Hacker News"
       }
     ],
     "Done": [
@@ -401,12 +403,26 @@
         "source": "DarkReading"
       }
     ],
-    "Sport": [
+    "Magic": [
       {
-        "title": "Thrive Capital led VCs into pro sports ownership; Collaborative Fund just upped that play",
-        "link": "https://techcrunch.com/2026/09/10/thrive-capital-showed-vcs-the-way-into-pro-sports-ownership-collaborative-fund-is-now-trying-its-own-version-of-the-same-play/",
-        "date": "2026-09-10T22:30:00+00:00",
-        "source": "TechCrunch"
+        "title": "Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant™ for Hybrid Mesh Firewall",
+        "link": "https://www.paloaltonetworks.com/blog/2026/09/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall-securing-every-environment-at-the-speed-of-frontier-ai/",
+        "date": "2026-09-10T19:00:03+00:00",
+        "source": "Palo Alto Networks"
+      },
+      {
+        "title": "Check Point is a Leader in the 2026 Gartner® Magic Quadrant™ for Hybrid Mesh Firewall",
+        "link": "https://blog.checkpoint.com/security/check-point-is-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall/",
+        "date": "2026-09-10T15:18:54+00:00",
+        "source": "Check Point"
+      }
+    ],
+    "CryLocker": [
+      {
+        "title": "New Android malware encrypts files, steals data, and harasses victims",
+        "link": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
+        "date": "2026-09-10T17:40:43-04:00",
+        "source": "BleepingComputer"
       }
     ],
     "EnCrypt": [
@@ -415,14 +431,6 @@
         "link": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
         "date": "2026-09-10T17:40:43-04:00",
         "source": "BleepingComputer"
-      }
-    ],
-    "Bud": [
-      {
-        "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
-        "link": "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html",
-        "date": "2026-09-10T17:03:43+05:30",
-        "source": "The Hacker News"
       }
     ],
     "Desktop": [
@@ -455,28 +463,12 @@
         "source": "Unit 42"
       }
     ],
-    "Magic": [
-      {
-        "title": "Check Point is a Leader in the 2026 Gartner® Magic Quadrant™ for Hybrid Mesh Firewall",
-        "link": "https://blog.checkpoint.com/security/check-point-is-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall/",
-        "date": "2026-09-10T15:18:54+00:00",
-        "source": "Check Point"
-      }
-    ],
     "Shark": [
       {
         "title": "Surfshark VPN says hackers breached internal testing, proxy servers",
         "link": "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
         "date": "2026-09-10T15:15:07-04:00",
         "source": "BleepingComputer"
-      }
-    ],
-    "DN": [
-      {
-        "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
-        "link": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
-        "date": "2026-09-10T13:00:00+00:00",
-        "source": "Cloudflare"
       }
     ],
     "Quantum": [
@@ -520,14 +512,6 @@
         "title": "ChatGPT Let Attackers Read Victims’ Gmail Through a Hidden Channel Between Accounts",
         "link": "https://blog.checkpoint.com/research/chatgpt-let-attackers-read-victims-gmail-through-a-hidden-channel-between-accounts/",
         "date": "2026-09-08T13:00:50+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "NoName057(16)": [
-      {
-        "title": "NoName057(16) Renews #OpJapan",
-        "link": "https://blog.checkpoint.com/exposure-management/noname05716-renews-opjapan/",
-        "date": "2026-09-07T13:00:21+00:00",
         "source": "Check Point"
       }
     ]

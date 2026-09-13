@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [You Don’t Have a Right to Safe Drinking Water, Trump-Appointed Judge Rules](https://www.wired.com/story/you-dont-have-right-to-safe-drinking-water-trump-appointed-judge-rules/)
+  Wired - 2026-09-12T
+

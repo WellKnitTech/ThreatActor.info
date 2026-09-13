@@ -39,8 +39,6 @@ ransomware
   Wired - 2026-09-11T
 - [Metasploit Wrap Up: This One Goes to Sixteen!](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-goes-to-sixteen)
   Rapid7 - 2026-09-11T
-- [How 9/11 Made Everyone a Conspiracy Theorist](https://www.wired.com/story/conspiracy-how-9-11-broke-americas-brain/)
-  Wired - 2026-09-11T
-- [The US and Mexico Announce They’re Teaming Up Against Drones](https://www.wired.com/story/us-and-mexico-announce-teaming-up-against-drones/)
-  Wired - 2026-09-11T
+- [Indonesia Hit by Android Banking App-Cloning Campaign](https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign)
+  DarkReading - 2026-09-11T
 
