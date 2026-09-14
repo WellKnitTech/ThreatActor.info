@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T07:08:44Z",
+  "updated": "2026-09-14T07:32:20Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,67 +19,189 @@
     "Rapid7"
   ],
   "actor_news": {
-    "R": [
+    "PL": [
       {
-        "title": "Automattic confirms Mullenweg has returned as CEO after attempted ouster by board",
-        "link": "https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/",
-        "date": "2026-09-12T23:25:38+00:00",
+        "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
+        "date": "2026-09-14T03:06:27-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+        "link": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+        "date": "2026-09-13T16:30:00+00:00",
         "source": "TechCrunch"
+      },
+      {
+        "title": "Try These 3 iOS 27 Safari Settings to Get More Out of Apple’s Browser",
+        "link": "https://www.wired.com/story/iphone-settings-ios-27-safari-browser/",
+        "date": "2026-09-13T10:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+        "date": "2026-09-13T10:26:32-04:00",
+        "source": "BleepingComputer"
       },
       {
         "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
         "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
         "date": "2026-09-12T21:24:45+05:30",
         "source": "The Hacker News"
+      }
+    ],
+    "R": [
+      {
+        "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
+        "date": "2026-09-14T03:06:27-04:00",
+        "source": "BleepingComputer"
       },
       {
-        "title": "Anthropic CEO outlines plan to slow AI development",
-        "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
-        "date": "2026-09-12T19:34:44+00:00",
+        "title": "Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
+        "link": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/",
+        "date": "2026-09-13T21:30:00+00:00",
         "source": "TechCrunch"
+      },
+      {
+        "title": "Larry Ellison cancels $7.5 billion sale of Oracle stock",
+        "link": "https://techcrunch.com/2026/09/13/larry-ellison-cancels-7-5-billion-sale-of-oracle-stock/",
+        "date": "2026-09-13T20:49:38+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "The 9 buzziest startups from Y Combinator’s latest Demo Day, according to VCs",
+        "link": "https://techcrunch.com/2026/09/13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs/",
+        "date": "2026-09-13T20:28:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "What’s behind the AI industry’s latest warnings of doom?",
+        "link": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+        "date": "2026-09-13T19:40:15+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "One": [
+      {
+        "title": "Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
+        "link": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/",
+        "date": "2026-09-13T21:30:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "The Smart Bird Feeders Everyone’s Talking About (and Actually Buying) (2026)",
+        "link": "https://www.wired.com/story/best-smart-bird-feeders/",
+        "date": "2026-09-13T11:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Metasploit Wrap Up: This One Goes to Sixteen!",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-goes-to-sixteen",
+        "date": "2026-09-11T13:35:11+00:00",
+        "source": "Rapid7"
+      },
+      {
+        "title": "Indonesia Hit by Android Banking App-Cloning Campaign",
+        "link": "https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign",
+        "date": "2026-09-11T01:00:00+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Ra": [
+      {
+        "title": "Larry Ellison cancels $7.5 billion sale of Oracle stock",
+        "link": "https://techcrunch.com/2026/09/13/larry-ellison-cancels-7-5-billion-sale-of-oracle-stock/",
+        "date": "2026-09-13T20:49:38+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+        "link": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+        "date": "2026-09-13T16:30:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
+        "link": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+        "date": "2026-09-13T15:41:48+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+        "date": "2026-09-13T10:26:32-04:00",
+        "source": "BleepingComputer"
       },
       {
         "title": "Tesla says it will finally unveil the second generation Roadster on October 1",
         "link": "https://techcrunch.com/2026/09/12/tesla-says-it-will-finally-unveil-the-second-generation-roadster-on-october-1/",
         "date": "2026-09-12T19:21:19+00:00",
         "source": "TechCrunch"
-      },
-      {
-        "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
-        "link": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
-        "date": "2026-09-12T15:54:44+05:30",
-        "source": "The Hacker News"
       }
     ],
-    "PL": [
+    "APT3": [
       {
-        "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
-        "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
-        "date": "2026-09-12T21:24:45+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Anthropic CEO outlines plan to slow AI development",
-        "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
-        "date": "2026-09-12T19:34:44+00:00",
+        "title": "The 9 buzziest startups from Y Combinator’s latest Demo Day, according to VCs",
+        "link": "https://techcrunch.com/2026/09/13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs/",
+        "date": "2026-09-13T20:28:00+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "The Best 3-in-1 Apple Charging Stations After Testing 30+ Models",
-        "link": "https://www.wired.com/gallery/best-apple-3-in-1-wireless-chargers/",
-        "date": "2026-09-12T10:30:00+00:00",
-        "source": "Wired"
+        "title": "Fusion power startups find new partners in the defense world",
+        "link": "https://techcrunch.com/2026/09/13/fusion-power-startups-find-new-partners-in-the-defense-world/",
+        "date": "2026-09-13T13:15:00+00:00",
+        "source": "TechCrunch"
       },
       {
-        "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
-        "link": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
-        "date": "2026-09-12T10:14:32-04:00",
+        "title": "Four groups caught using the same Chrome and Windows exploit kit",
+        "link": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
+        "date": "2026-09-09T20:55:02+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "Demo": [
+      {
+        "title": "The 9 buzziest startups from Y Combinator’s latest Demo Day, according to VCs",
+        "link": "https://techcrunch.com/2026/09/13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs/",
+        "date": "2026-09-13T20:28:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+        "link": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+        "date": "2026-09-13T16:30:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Fusion": [
+      {
+        "title": "Fusion power startups find new partners in the defense world",
+        "link": "https://techcrunch.com/2026/09/13/fusion-power-startups-find-new-partners-in-the-defense-world/",
+        "date": "2026-09-13T13:15:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "BB": [
+      {
+        "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+        "date": "2026-09-13T10:26:32-04:00",
         "source": "BleepingComputer"
       },
       {
-        "title": "‘I’m Really Terrified’: A Mathematician Grapples With AI’s Recent Breakthroughs",
-        "link": "https://www.wired.com/story/mathematician-steven-strogatz-grapples-with-ai-recent-breakthroughs/",
-        "date": "2026-09-12T10:00:00+00:00",
+        "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
+        "link": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
+        "date": "2026-09-11T12:44:09+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "eruption": [
+      {
+        "title": "With a Better Understanding of Physics, We Could Predict Volcanic Eruptions",
+        "link": "https://www.wired.com/story/physics-predict-volcanic-eruptions/",
+        "date": "2026-09-13T09:30:00+00:00",
         "source": "Wired"
       }
     ],
@@ -89,12 +211,6 @@
         "link": "https://techcrunch.com/2026/09/12/tesla-says-it-will-finally-unveil-the-second-generation-roadster-on-october-1/",
         "date": "2026-09-12T19:21:19+00:00",
         "source": "TechCrunch"
-      },
-      {
-        "title": "Final, final, final call for TechCrunch Disrupt 2026 Side Events",
-        "link": "https://techcrunch.com/2026/09/11/final-final-final-call-for-techcrunch-disrupt-2026-side-events/",
-        "date": "2026-09-11T20:30:17+00:00",
-        "source": "TechCrunch"
       }
     ],
     "OCT": [
@@ -102,38 +218,6 @@
         "title": "Tesla says it will finally unveil the second generation Roadster on October 1",
         "link": "https://techcrunch.com/2026/09/12/tesla-says-it-will-finally-unveil-the-second-generation-roadster-on-october-1/",
         "date": "2026-09-12T19:21:19+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Ra": [
-      {
-        "title": "Tesla says it will finally unveil the second generation Roadster on October 1",
-        "link": "https://techcrunch.com/2026/09/12/tesla-says-it-will-finally-unveil-the-second-generation-roadster-on-october-1/",
-        "date": "2026-09-12T19:21:19+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "The Anti-Woke Right Can’t Figure Out How to Stop ‘Grand Theft Auto VI’",
-        "link": "https://www.wired.com/story/the-anti-woke-right-cant-figure-out-how-to-stop-grand-theft-auto-vi/",
-        "date": "2026-09-12T11:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "‘I’m Really Terrified’: A Mathematician Grapples With AI’s Recent Breakthroughs",
-        "link": "https://www.wired.com/story/mathematician-steven-strogatz-grapples-with-ai-recent-breakthroughs/",
-        "date": "2026-09-12T10:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Branch Ergonomic Chair Pro (Sega Edition) Review: Comfy, Not Boring",
-        "link": "https://www.wired.com/review/branch-ergonomic-chair-pro-sega-edition/",
-        "date": "2026-09-12T10:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
-        "link": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
-        "date": "2026-09-11T22:58:17+00:00",
         "source": "TechCrunch"
       }
     ],
@@ -183,68 +267,12 @@
         "source": "TechCrunch"
       }
     ],
-    "One": [
-      {
-        "title": "One week left to book your exhibit table at TechCrunch Disrupt 2026",
-        "link": "https://techcrunch.com/2026/09/11/one-week-left-to-book-your-exhibit-table-at-techcrunch-disrupt-2026/",
-        "date": "2026-09-11T20:33:18+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "One of AI’s Fiercest Critics Says All the Doom Talk Is ‘Meant to Distract Us’",
-        "link": "https://www.wired.com/story/one-of-ais-fiercest-critics-says-all-the-doom-talk-is-meant-to-distract-us/",
-        "date": "2026-09-11T15:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Metasploit Wrap Up: This One Goes to Sixteen!",
-        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-goes-to-sixteen",
-        "date": "2026-09-11T13:35:11+00:00",
-        "source": "Rapid7"
-      },
-      {
-        "title": "Indonesia Hit by Android Banking App-Cloning Campaign",
-        "link": "https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign",
-        "date": "2026-09-11T01:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
     "Zlader": [
       {
         "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
         "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
         "date": "2026-09-11T19:40:20+05:30",
         "source": "The Hacker News"
-      }
-    ],
-    "Play": [
-      {
-        "title": "Roblox is making it easier to build games with AI — and play them outside Roblox",
-        "link": "https://techcrunch.com/2026/09/11/roblox-is-making-it-easier-to-build-games-with-ai-and-play-them-outside-roblox/",
-        "date": "2026-09-11T19:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps",
-        "link": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
-        "date": "2026-09-10T20:06:47+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Cerber": [
-      {
-        "title": "Central Eurasia names its 2026 Road to Battlefield winners: Cerberus, WeGlobal AI, and LOOQ",
-        "link": "https://techcrunch.com/2026/09/11/central-eurasia-names-its-2026-road-to-battlefield-winners-cerberus-weglobal-ai-and-looq/",
-        "date": "2026-09-11T18:58:01+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "global": [
-      {
-        "title": "Central Eurasia names its 2026 Road to Battlefield winners: Cerberus, WeGlobal AI, and LOOQ",
-        "link": "https://techcrunch.com/2026/09/11/central-eurasia-names-its-2026-road-to-battlefield-winners-cerberus-weglobal-ai-and-looq/",
-        "date": "2026-09-11T18:58:01+00:00",
-        "source": "TechCrunch"
       }
     ],
     "AnDROid": [
@@ -339,14 +367,6 @@
         "source": "The Hacker News"
       }
     ],
-    "BB": [
-      {
-        "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
-        "link": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
-        "date": "2026-09-11T12:44:09+05:30",
-        "source": "The Hacker News"
-      }
-    ],
     "UNC3569": [
       {
         "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
@@ -401,6 +421,14 @@
         "link": "https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign",
         "date": "2026-09-11T01:00:00+00:00",
         "source": "DarkReading"
+      }
+    ],
+    "Play": [
+      {
+        "title": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps",
+        "link": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
+        "date": "2026-09-10T20:06:47+05:30",
+        "source": "The Hacker News"
       }
     ],
     "Magic": [
@@ -497,14 +525,6 @@
         "link": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
         "date": "2026-09-09T21:19:55+00:00",
         "source": "DarkReading"
-      }
-    ],
-    "APT3": [
-      {
-        "title": "Four groups caught using the same Chrome and Windows exploit kit",
-        "link": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
-        "date": "2026-09-09T20:55:02+00:00",
-        "source": "Ars Technica"
       }
     ],
     "DDE": [

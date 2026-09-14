@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Larry Ellison cancels $7.5 billion sale of Oracle stock](https://techcrunch.com/2026/09/13/larry-ellison-cancels-7-5-billion-sale-of-oracle-stock/)
+  TechCrunch - 2026-09-13T
+- [Obama urges Democrats to have a ‘clear plan’ for AI safeguards](https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/)
+  TechCrunch - 2026-09-13T
+- [Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data](https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html)
+  The Hacker News - 2026-09-13T
+- [Hackers exploit Tencent app flaw to deploy GrayRabbit malware](https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/)
+  BleepingComputer - 2026-09-13T
 - [Tesla says it will finally unveil the second generation Roadster on October 1](https://techcrunch.com/2026/09/12/tesla-says-it-will-finally-unveil-the-second-generation-roadster-on-october-1/)
   TechCrunch - 2026-09-12T
-- [The Anti-Woke Right Can’t Figure Out How to Stop ‘Grand Theft Auto VI’](https://www.wired.com/story/the-anti-woke-right-cant-figure-out-how-to-stop-grand-theft-auto-vi/)
-  Wired - 2026-09-12T
-- [‘I’m Really Terrified’: A Mathematician Grapples With AI’s Recent Breakthroughs](https://www.wired.com/story/mathematician-steven-strogatz-grapples-with-ai-recent-breakthroughs/)
-  Wired - 2026-09-12T
-- [Branch Ergonomic Chair Pro (Sega Edition) Review: Comfy, Not Boring](https://www.wired.com/review/branch-ergonomic-chair-pro-sega-edition/)
-  Wired - 2026-09-12T
-- [Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data](https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/)
-  TechCrunch - 2026-09-11T
 
