@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [CISA: Hackers now exploit max severity GitLab flaw in attacks](https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/)
-  BleepingComputer - 2026-09-14T
-- [Obama urges Democrats to have a ‘clear plan’ for AI safeguards](https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/)
-  TechCrunch - 2026-09-13T
-- [Try These 3 iOS 27 Safari Settings to Get More Out of Apple’s Browser](https://www.wired.com/story/iphone-settings-ios-27-safari-browser/)
-  Wired - 2026-09-13T
-- [Hackers exploit Tencent app flaw to deploy GrayRabbit malware](https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/)
-  BleepingComputer - 2026-09-13T
-- [CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV](https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html)
-  The Hacker News - 2026-09-12T
+- [Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution](https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html)
+  The Hacker News - 2026-09-15T
+- [China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE](https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html)
+  The Hacker News - 2026-09-15T
+- [Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries](https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html)
+  The Hacker News - 2026-09-14T
+- ['Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink](https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink)
+  DarkReading - 2026-09-14T
+- [WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution](https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html)
+  The Hacker News - 2026-09-14T
 

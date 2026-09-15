@@ -30,3 +30,11 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports](https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html)
+  The Hacker News - 2026-09-14T
+- [Fake Voicemail Transcript Emails Target 7,800+ Organizations in Large-Scale Credential Phishing](https://blog.checkpoint.com/security/fake-voicemail-transcript-emails-target-7800-organizations-in-large-scale-credential-phishing/)
+  Check Point - 2026-09-14T
+

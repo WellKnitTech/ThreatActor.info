@@ -34,3 +34,9 @@ SunCrypt ransomware was discovered in October 2019 and in August 2020 it was add
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Best Noise-Canceling Earbuds (2026): Bose, Apple, Samsung, Beats, and More](https://www.wired.com/story/best-noise-canceling-earbuds/)
+  Wired - 2026-09-14T
+

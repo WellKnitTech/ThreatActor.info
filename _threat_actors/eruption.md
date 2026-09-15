@@ -30,9 +30,3 @@ Rebranded to Sabbath.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [With a Better Understanding of Physics, We Could Predict Volcanic Eruptions](https://www.wired.com/story/physics-predict-volcanic-eruptions/)
-  Wired - 2026-09-13T
-

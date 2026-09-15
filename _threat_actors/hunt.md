@@ -31,3 +31,9 @@ Hunt ransomware is a variant of the Dharma/CrySIS ransomware family. This varian
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [SpiderSilk Hunts External Threats With AI-Based Scanner](https://www.darkreading.com/endpoint-security/spidersilk-hunts-external-threats-ai-scanning)
+  DarkReading - 2026-09-11T
+

@@ -30,3 +30,9 @@ Ransomware Based on HiddenTear
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [A College Girl Was Exploited on Camera. A Network of Anonymous Men Got to Work](https://www.wired.com/story/burnerverse-maddie-kowalski/)
+  Wired - 2026-09-14T
+

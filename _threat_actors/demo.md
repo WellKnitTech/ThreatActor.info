@@ -30,11 +30,3 @@ Ransomware only encrypts .jpg files
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [The 9 buzziest startups from Y Combinator’s latest Demo Day, according to VCs](https://techcrunch.com/2026/09/13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs/)
-  TechCrunch - 2026-09-13T
-- [Obama urges Democrats to have a ‘clear plan’ for AI safeguards](https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/)
-  TechCrunch - 2026-09-13T
-

@@ -31,3 +31,9 @@ Cyclops ransomware was rebranded as Knight around mid‑2023, emerging initially
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- ['Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink](https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink)
+  DarkReading - 2026-09-14T
+

@@ -51,6 +51,8 @@ This threat actor targets governments, diplomatic missions, private companies in
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Unmasking Cloud Identities: From Behavioral Clustering to Automated Detection](https://unit42.paloaltonetworks.com/behavioral-clustering-map-to-cloud-identities/)
+  Unit 42 - 2026-09-14T
 - [PuzzleMask: The Prompt Injection Hiding in Plain Sight](https://blog.checkpoint.com/security/puzzlemask-the-prompt-injection-hiding-in-plain-sight/)
   Check Point - 2026-09-10T
 

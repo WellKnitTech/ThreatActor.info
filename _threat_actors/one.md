@@ -33,8 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic](https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/)
-  TechCrunch - 2026-09-13T
+- [OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says](https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/)
+  TechCrunch - 2026-09-14T
 - [The Smart Bird Feeders Everyone’s Talking About (and Actually Buying) (2026)](https://www.wired.com/story/best-smart-bird-feeders/)
   Wired - 2026-09-13T
 - [Metasploit Wrap Up: This One Goes to Sixteen!](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-goes-to-sixteen)

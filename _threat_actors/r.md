@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [CISA: Hackers now exploit max severity GitLab flaw in attacks](https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/)
-  BleepingComputer - 2026-09-14T
-- [Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic](https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/)
-  TechCrunch - 2026-09-13T
-- [Larry Ellison cancels $7.5 billion sale of Oracle stock](https://techcrunch.com/2026/09/13/larry-ellison-cancels-7-5-billion-sale-of-oracle-stock/)
-  TechCrunch - 2026-09-13T
-- [The 9 buzziest startups from Y Combinator’s latest Demo Day, according to VCs](https://techcrunch.com/2026/09/13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs/)
-  TechCrunch - 2026-09-13T
-- [What’s behind the AI industry’s latest warnings of doom?](https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/)
-  TechCrunch - 2026-09-13T
+- [Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution](https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html)
+  The Hacker News - 2026-09-15T
+- [China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE](https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html)
+  The Hacker News - 2026-09-15T
+- [Jensen Huang took a call from Trump, and showed off something else, too](https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/)
+  TechCrunch - 2026-09-15T
+- [The Supreme Court Just Blocked Trump’s Efforts to Control Mail-In Voting for the Midterms](https://www.wired.com/story/the-supreme-court-just-blocked-trumps-efforts-to-control-mail-in-voting-for-the-midterms/)
+  Wired - 2026-09-15T
+- [New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing](https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html)
+  The Hacker News - 2026-09-14T
 

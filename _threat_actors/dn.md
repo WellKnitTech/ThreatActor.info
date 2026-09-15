@@ -33,8 +33,12 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Revolut confirms customer data breach through fake government requests](https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/)
-  TechCrunch - 2026-09-12T
+- [New York Seizes a Dozen Celebrity Deepfake Websites](https://www.wired.com/story/new-york-seizes-a-dozen-celebrity-deepfake-websites/)
+  Wired - 2026-09-14T
+- [Fake Voicemail Transcript Emails Target 7,800+ Organizations in Large-Scale Credential Phishing](https://blog.checkpoint.com/security/fake-voicemail-transcript-emails-target-7800-organizations-in-large-scale-credential-phishing/)
+  Check Point - 2026-09-14T
+- [Sexually Explicit Deepfake Sites Target 100-Plus Politicians in Europe](https://www.wired.com/story/sexually-explicit-deepfake-sites-target-100-plus-politicians-in-europe/)
+  Wired - 2026-09-14T
 - [1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it](https://blog.cloudflare.com/post-quantum-dnssec-1111/)
   Cloudflare - 2026-09-10T
 

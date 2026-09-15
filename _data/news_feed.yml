@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T07:32:20Z",
+  "updated": "2026-09-15T07:09:55Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -21,73 +21,233 @@
   "actor_news": {
     "PL": [
       {
-        "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
-        "date": "2026-09-14T03:06:27-04:00",
-        "source": "BleepingComputer"
+        "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+        "link": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+        "date": "2026-09-15T11:41:11+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
-        "link": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
-        "date": "2026-09-13T16:30:00+00:00",
+        "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
+        "link": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
+        "date": "2026-09-15T11:01:05+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
+        "link": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+        "date": "2026-09-14T22:26:30+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink",
+        "date": "2026-09-14T21:37:28+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution",
+        "link": "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html",
+        "date": "2026-09-14T21:30:04+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "R": [
+      {
+        "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+        "link": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+        "date": "2026-09-15T11:41:11+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
+        "link": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
+        "date": "2026-09-15T11:01:05+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Jensen Huang took a call from Trump, and showed off something else, too",
+        "link": "https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/",
+        "date": "2026-09-15T01:50:48+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "Try These 3 iOS 27 Safari Settings to Get More Out of Apple’s Browser",
-        "link": "https://www.wired.com/story/iphone-settings-ios-27-safari-browser/",
-        "date": "2026-09-13T10:30:00+00:00",
+        "title": "The Supreme Court Just Blocked Trump’s Efforts to Control Mail-In Voting for the Midterms",
+        "link": "https://www.wired.com/story/the-supreme-court-just-blocked-trumps-efforts-to-control-mail-in-voting-for-the-midterms/",
+        "date": "2026-09-15T00:23:42+00:00",
         "source": "Wired"
+      },
+      {
+        "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
+        "link": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
+        "date": "2026-09-14T23:32:13+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Root": [
+      {
+        "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+        "link": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+        "date": "2026-09-15T11:41:11+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
+        "link": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+        "date": "2026-09-14T23:31:49+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
+        "link": "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
+        "date": "2026-09-14T20:10:34+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "JCrypt": [
+      {
+        "title": "The Supreme Court Just Blocked Trump’s Efforts to Control Mail-In Voting for the Midterms",
+        "link": "https://www.wired.com/story/the-supreme-court-just-blocked-trumps-efforts-to-control-mail-in-voting-for-the-midterms/",
+        "date": "2026-09-15T00:23:42+00:00",
+        "source": "Wired"
+      }
+    ],
+    "BB": [
+      {
+        "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
+        "link": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+        "date": "2026-09-14T23:31:49+05:30",
+        "source": "The Hacker News"
       },
       {
         "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
         "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
         "date": "2026-09-13T10:26:32-04:00",
         "source": "BleepingComputer"
+      }
+    ],
+    "Ra": [
+      {
+        "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
+        "link": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+        "date": "2026-09-14T23:31:49+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
-        "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
-        "date": "2026-09-12T21:24:45+05:30",
+        "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
+        "link": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
+        "date": "2026-09-14T23:28:16+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink",
+        "date": "2026-09-14T21:37:28+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+        "link": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+        "date": "2026-09-14T20:44:14+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "AI infrastructure company Cornelis raises $205M to chip away at Nvidia’s dominance",
+        "link": "https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/",
+        "date": "2026-09-14T20:07:37+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "DDE": [
+      {
+        "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
+        "link": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
+        "date": "2026-09-14T23:28:16+05:30",
         "source": "The Hacker News"
       }
     ],
-    "R": [
+    "Desktop": [
       {
-        "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
-        "date": "2026-09-14T03:06:27-04:00",
-        "source": "BleepingComputer"
+        "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
+        "link": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
+        "date": "2026-09-14T23:28:16+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "RIP (Phoenix) Ransomware": [
+      {
+        "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
+        "link": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
+        "date": "2026-09-14T23:28:16+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
-        "link": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/",
-        "date": "2026-09-13T21:30:00+00:00",
-        "source": "TechCrunch"
-      },
+        "title": "Fake Voicemail Transcript Emails Target 7,800+ Organizations in Large-Scale Credential Phishing",
+        "link": "https://blog.checkpoint.com/security/fake-voicemail-transcript-emails-target-7800-organizations-in-large-scale-credential-phishing/",
+        "date": "2026-09-14T13:00:00+00:00",
+        "source": "Check Point"
+      }
+    ],
+    "Telegram": [
       {
-        "title": "Larry Ellison cancels $7.5 billion sale of Oracle stock",
-        "link": "https://techcrunch.com/2026/09/13/larry-ellison-cancels-7-5-billion-sale-of-oracle-stock/",
-        "date": "2026-09-13T20:49:38+00:00",
-        "source": "TechCrunch"
-      },
+        "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
+        "link": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
+        "date": "2026-09-14T23:28:16+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Sandworm": [
       {
-        "title": "The 9 buzziest startups from Y Combinator’s latest Demo Day, according to VCs",
-        "link": "https://techcrunch.com/2026/09/13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs/",
-        "date": "2026-09-13T20:28:00+00:00",
-        "source": "TechCrunch"
-      },
+        "title": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink",
+        "date": "2026-09-14T21:37:28+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Clop": [
       {
-        "title": "What’s behind the AI industry’s latest warnings of doom?",
-        "link": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
-        "date": "2026-09-13T19:40:15+00:00",
-        "source": "TechCrunch"
+        "title": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink",
+        "date": "2026-09-14T21:37:28+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Sandworm Team": [
+      {
+        "title": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink",
+        "date": "2026-09-14T21:37:28+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Cl0p": [
+      {
+        "title": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink",
+        "date": "2026-09-14T21:37:28+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "cyclops": [
+      {
+        "title": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink",
+        "date": "2026-09-14T21:37:28+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "HAFNIUM": [
+      {
+        "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
+        "link": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
+        "date": "2026-09-14T21:04:32+00:00",
+        "source": "Ars Technica"
       }
     ],
     "One": [
       {
-        "title": "Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
-        "link": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/",
-        "date": "2026-09-13T21:30:00+00:00",
+        "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+        "link": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+        "date": "2026-09-14T20:44:14+00:00",
         "source": "TechCrunch"
       },
       {
@@ -109,130 +269,168 @@
         "source": "DarkReading"
       }
     ],
-    "Ra": [
+    "Tk": [
       {
-        "title": "Larry Ellison cancels $7.5 billion sale of Oracle stock",
-        "link": "https://techcrunch.com/2026/09/13/larry-ellison-cancels-7-5-billion-sale-of-oracle-stock/",
-        "date": "2026-09-13T20:49:38+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
-        "link": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
-        "date": "2026-09-13T16:30:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
-        "link": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
-        "date": "2026-09-13T15:41:48+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
-        "date": "2026-09-13T10:26:32-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Tesla says it will finally unveil the second generation Roadster on October 1",
-        "link": "https://techcrunch.com/2026/09/12/tesla-says-it-will-finally-unveil-the-second-generation-roadster-on-october-1/",
-        "date": "2026-09-12T19:21:19+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "APT3": [
-      {
-        "title": "The 9 buzziest startups from Y Combinator’s latest Demo Day, according to VCs",
-        "link": "https://techcrunch.com/2026/09/13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs/",
-        "date": "2026-09-13T20:28:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Fusion power startups find new partners in the defense world",
-        "link": "https://techcrunch.com/2026/09/13/fusion-power-startups-find-new-partners-in-the-defense-world/",
-        "date": "2026-09-13T13:15:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Four groups caught using the same Chrome and Windows exploit kit",
-        "link": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
-        "date": "2026-09-09T20:55:02+00:00",
-        "source": "Ars Technica"
-      }
-    ],
-    "Demo": [
-      {
-        "title": "The 9 buzziest startups from Y Combinator’s latest Demo Day, according to VCs",
-        "link": "https://techcrunch.com/2026/09/13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs/",
-        "date": "2026-09-13T20:28:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
-        "link": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
-        "date": "2026-09-13T16:30:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Fusion": [
-      {
-        "title": "Fusion power startups find new partners in the defense world",
-        "link": "https://techcrunch.com/2026/09/13/fusion-power-startups-find-new-partners-in-the-defense-world/",
-        "date": "2026-09-13T13:15:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "BB": [
-      {
-        "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
-        "date": "2026-09-13T10:26:32-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
-        "link": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
-        "date": "2026-09-11T12:44:09+05:30",
+        "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
+        "link": "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
+        "date": "2026-09-14T20:10:34+05:30",
         "source": "The Hacker News"
       }
     ],
-    "eruption": [
+    "IPA": [
       {
-        "title": "With a Better Understanding of Physics, We Could Predict Volcanic Eruptions",
-        "link": "https://www.wired.com/story/physics-predict-volcanic-eruptions/",
-        "date": "2026-09-13T09:30:00+00:00",
+        "title": "The Top New Features in Apple’s iOS 27 and iPadOS 27",
+        "link": "https://www.wired.com/story/top-new-features-in-apple-ios-27-and-ipados-27-launching-september-14/",
+        "date": "2026-09-14T18:44:44+00:00",
         "source": "Wired"
       }
     ],
-    "Final": [
+    "Lick": [
       {
-        "title": "Tesla says it will finally unveil the second generation Roadster on October 1",
-        "link": "https://techcrunch.com/2026/09/12/tesla-says-it-will-finally-unveil-the-second-generation-roadster-on-october-1/",
-        "date": "2026-09-12T19:21:19+00:00",
+        "title": "ClickFix attacks are tricking Mac and Windows users into hacking themselves",
+        "link": "https://techcrunch.com/2026/09/14/clickfix-attacks-are-tricking-mac-and-windows-users-into-hacking-themselves/",
+        "date": "2026-09-14T18:08:43+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
+        "date": "2026-09-14T14:34:16-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "ClickFix attacks infecting PCs and Macs are going viral",
+        "link": "https://arstechnica.com/security/2026/09/clickfix-attacks-infecting-pcs-and-macs-are-going-viral/",
+        "date": "2026-09-11T11:30:58+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "Lv": [
+      {
+        "title": "ClickFix attacks are tricking Mac and Windows users into hacking themselves",
+        "link": "https://techcrunch.com/2026/09/14/clickfix-attacks-are-tricking-mac-and-windows-users-into-hacking-themselves/",
+        "date": "2026-09-14T18:08:43+00:00",
         "source": "TechCrunch"
       }
     ],
-    "OCT": [
+    "Razy": [
       {
-        "title": "Tesla says it will finally unveil the second generation Roadster on October 1",
-        "link": "https://techcrunch.com/2026/09/12/tesla-says-it-will-finally-unveil-the-second-generation-roadster-on-october-1/",
-        "date": "2026-09-12T19:21:19+00:00",
+        "title": "Volkswagen’s crazy-efficient EV borrows an idea from Slate",
+        "link": "https://techcrunch.com/2026/09/14/volkswagens-crazy-efficient-ev-borrows-an-idea-from-slate/",
+        "date": "2026-09-14T17:41:20+00:00",
         "source": "TechCrunch"
       }
     ],
     "DN": [
       {
-        "title": "Revolut confirms customer data breach through fake government requests",
-        "link": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
-        "date": "2026-09-12T14:40:00+00:00",
-        "source": "TechCrunch"
+        "title": "New York Seizes a Dozen Celebrity Deepfake Websites",
+        "link": "https://www.wired.com/story/new-york-seizes-a-dozen-celebrity-deepfake-websites/",
+        "date": "2026-09-14T16:50:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Fake Voicemail Transcript Emails Target 7,800+ Organizations in Large-Scale Credential Phishing",
+        "link": "https://blog.checkpoint.com/security/fake-voicemail-transcript-emails-target-7800-organizations-in-large-scale-credential-phishing/",
+        "date": "2026-09-14T13:00:00+00:00",
+        "source": "Check Point"
+      },
+      {
+        "title": "Sexually Explicit Deepfake Sites Target 100-Plus Politicians in Europe",
+        "link": "https://www.wired.com/story/sexually-explicit-deepfake-sites-target-100-plus-politicians-in-europe/",
+        "date": "2026-09-14T11:00:00+00:00",
+        "source": "Wired"
       },
       {
         "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
         "link": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
         "date": "2026-09-10T13:00:00+00:00",
         "source": "Cloudflare"
+      }
+    ],
+    "Rapid": [
+      {
+        "title": "Rapid7 Named Among Notable Vendors in Forrester MDR Landscape: Why the Future is Exposure-informed, Preemptive MDR",
+        "link": "https://www.rapid7.com/blog/post/dr-forrester-mdr-landscape-notable-vendor-preemptive",
+        "date": "2026-09-14T14:51:07+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "APT41": [
+      {
+        "title": "The Top Exposure Management Questions Security Leaders Ask: Insights from Customer Conversations (Part 2)",
+        "link": "https://blog.checkpoint.com/security/the-top-exposure-management-questions-security-leaders-ask-insights-from-customer-conversations-part-2/",
+        "date": "2026-09-14T12:55:43+00:00",
+        "source": "Check Point"
+      },
+      {
+        "title": "AI Leaders Are Calling for a Slowdown. Trump’s Team Says It’s on Them",
+        "link": "https://www.wired.com/story/ai-leaders-are-calling-for-a-slowdown-trumps-team-says-its-on-them/",
+        "date": "2026-09-14T11:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Webinar: How malicious OAuth apps can lead to Google Workspace breaches",
+        "link": "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/",
+        "date": "2026-09-14T08:15:23-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Check Point is a Leader in the 2026 Gartner® Magic Quadrant™ for Hybrid Mesh Firewall",
+        "link": "https://blog.checkpoint.com/security/check-point-is-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall/",
+        "date": "2026-09-10T15:18:54+00:00",
+        "source": "Check Point"
+      }
+    ],
+    "Bud": [
+      {
+        "title": "Roborock Qrevo 2 Review (2026): A New Budget Vacuum King?",
+        "link": "https://www.wired.com/review/roborock-qrevo-2-pro/",
+        "date": "2026-09-14T10:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Best Noise-Canceling Earbuds (2026): Bose, Apple, Samsung, Beats, and More",
+        "link": "https://www.wired.com/story/best-noise-canceling-earbuds/",
+        "date": "2026-09-14T10:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Careto": [
+      {
+        "title": "Unmasking Cloud Identities: From Behavioral Clustering to Automated Detection",
+        "link": "https://unit42.paloaltonetworks.com/behavioral-clustering-map-to-cloud-identities/",
+        "date": "2026-09-14T10:00:01+00:00",
+        "source": "Unit 42"
+      },
+      {
+        "title": "PuzzleMask: The Prompt Injection Hiding in Plain Sight",
+        "link": "https://blog.checkpoint.com/security/puzzlemask-the-prompt-injection-hiding-in-plain-sight/",
+        "date": "2026-09-10T15:59:34+00:00",
+        "source": "Check Point"
+      }
+    ],
+    "Anony": [
+      {
+        "title": "A College Girl Was Exploited on Camera. A Network of Anonymous Men Got to Work",
+        "link": "https://www.wired.com/story/burnerverse-maddie-kowalski/",
+        "date": "2026-09-14T10:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "SunCrypt": [
+      {
+        "title": "Best Noise-Canceling Earbuds (2026): Bose, Apple, Samsung, Beats, and More",
+        "link": "https://www.wired.com/story/best-noise-canceling-earbuds/",
+        "date": "2026-09-14T10:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Sport": [
+      {
+        "title": "Revolut discloses data breach exposing financial info, passports",
+        "link": "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/",
+        "date": "2026-09-14T04:48:24-04:00",
+        "source": "BleepingComputer"
       }
     ],
     "Ruby": [
@@ -243,36 +441,20 @@
         "source": "The Hacker News"
       }
     ],
-    "Judge": [
+    "File Spider": [
       {
-        "title": "You Don’t Have a Right to Safe Drinking Water, Trump-Appointed Judge Rules",
-        "link": "https://www.wired.com/story/you-dont-have-right-to-safe-drinking-water-trump-appointed-judge-rules/",
-        "date": "2026-09-12T09:30:00+00:00",
-        "source": "Wired"
+        "title": "SpiderSilk Hunts External Threats With AI-Based Scanner",
+        "link": "https://www.darkreading.com/endpoint-security/spidersilk-hunts-external-threats-ai-scanning",
+        "date": "2026-09-11T18:27:28+00:00",
+        "source": "DarkReading"
       }
     ],
-    "Rush": [
+    "Hunt": [
       {
-        "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
-        "link": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
-        "date": "2026-09-11T22:58:17+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "First": [
-      {
-        "title": "Khosla Ventures is opening a New York office this fall — its first outpost outside Sand Hill Road",
-        "link": "https://techcrunch.com/2026/09/11/khosla-ventures-is-opening-a-new-york-office-this-fall-its-first-outpost-outside-sand-hill-road/",
-        "date": "2026-09-11T21:19:05+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Zlader": [
-      {
-        "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
-        "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
-        "date": "2026-09-11T19:40:20+05:30",
-        "source": "The Hacker News"
+        "title": "SpiderSilk Hunts External Threats With AI-Based Scanner",
+        "link": "https://www.darkreading.com/endpoint-security/spidersilk-hunts-external-threats-ai-scanning",
+        "date": "2026-09-11T18:27:28+00:00",
+        "source": "DarkReading"
       }
     ],
     "AnDROid": [
@@ -287,24 +469,6 @@
         "link": "https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign",
         "date": "2026-09-11T01:00:00+00:00",
         "source": "DarkReading"
-      },
-      {
-        "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
-        "link": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
-        "date": "2026-09-10T23:17:38+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps",
-        "link": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
-        "date": "2026-09-10T20:06:47+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "New Android malware encrypts files, steals data, and harasses victims",
-        "link": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
-        "date": "2026-09-10T17:40:43-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "Metasploit": [
@@ -339,66 +503,6 @@
         "source": "Rapid7"
       }
     ],
-    "APT41": [
-      {
-        "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
-        "link": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
-        "date": "2026-09-11T13:26:50-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant™ for Hybrid Mesh Firewall",
-        "link": "https://www.paloaltonetworks.com/blog/2026/09/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall-securing-every-environment-at-the-speed-of-frontier-ai/",
-        "date": "2026-09-10T19:00:03+00:00",
-        "source": "Palo Alto Networks"
-      },
-      {
-        "title": "Check Point is a Leader in the 2026 Gartner® Magic Quadrant™ for Hybrid Mesh Firewall",
-        "link": "https://blog.checkpoint.com/security/check-point-is-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall/",
-        "date": "2026-09-10T15:18:54+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "Frog": [
-      {
-        "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
-        "link": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
-        "date": "2026-09-11T13:01:05+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "UNC3569": [
-      {
-        "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
-        "link": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
-        "date": "2026-09-11T12:44:09+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Qilin": [
-      {
-        "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
-        "link": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
-        "date": "2026-09-11T11:49:59+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Lick": [
-      {
-        "title": "ClickFix attacks infecting PCs and Macs are going viral",
-        "link": "https://arstechnica.com/security/2026/09/clickfix-attacks-infecting-pcs-and-macs-are-going-viral/",
-        "date": "2026-09-11T11:30:58+00:00",
-        "source": "Ars Technica"
-      }
-    ],
-    "Conti": [
-      {
-        "title": "Conti ransomware gang member sentenced to 4 years in prison",
-        "link": "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/",
-        "date": "2026-09-11T02:48:37-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
     "Ank": [
       {
         "title": "Indonesia Hit by Android Banking App-Cloning Campaign",
@@ -423,60 +527,6 @@
         "source": "DarkReading"
       }
     ],
-    "Play": [
-      {
-        "title": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps",
-        "link": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
-        "date": "2026-09-10T20:06:47+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Magic": [
-      {
-        "title": "Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant™ for Hybrid Mesh Firewall",
-        "link": "https://www.paloaltonetworks.com/blog/2026/09/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall-securing-every-environment-at-the-speed-of-frontier-ai/",
-        "date": "2026-09-10T19:00:03+00:00",
-        "source": "Palo Alto Networks"
-      },
-      {
-        "title": "Check Point is a Leader in the 2026 Gartner® Magic Quadrant™ for Hybrid Mesh Firewall",
-        "link": "https://blog.checkpoint.com/security/check-point-is-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall/",
-        "date": "2026-09-10T15:18:54+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "CryLocker": [
-      {
-        "title": "New Android malware encrypts files, steals data, and harasses victims",
-        "link": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
-        "date": "2026-09-10T17:40:43-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "EnCrypt": [
-      {
-        "title": "New Android malware encrypts files, steals data, and harasses victims",
-        "link": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
-        "date": "2026-09-10T17:40:43-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Desktop": [
-      {
-        "title": "September Windows Server updates break Remote Desktop Services",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/september-windows-server-updates-break-remote-desktop-services/",
-        "date": "2026-09-10T16:34:37-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Careto": [
-      {
-        "title": "PuzzleMask: The Prompt Injection Hiding in Plain Sight",
-        "link": "https://blog.checkpoint.com/security/puzzlemask-the-prompt-injection-hiding-in-plain-sight/",
-        "date": "2026-09-10T15:59:34+00:00",
-        "source": "Check Point"
-      }
-    ],
     "Nightmare": [
       {
         "title": "Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit",
@@ -491,12 +541,12 @@
         "source": "Unit 42"
       }
     ],
-    "Shark": [
+    "Magic": [
       {
-        "title": "Surfshark VPN says hackers breached internal testing, proxy servers",
-        "link": "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
-        "date": "2026-09-10T15:15:07-04:00",
-        "source": "BleepingComputer"
+        "title": "Check Point is a Leader in the 2026 Gartner® Magic Quadrant™ for Hybrid Mesh Firewall",
+        "link": "https://blog.checkpoint.com/security/check-point-is-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall/",
+        "date": "2026-09-10T15:18:54+00:00",
+        "source": "Check Point"
       }
     ],
     "Quantum": [
@@ -511,12 +561,6 @@
         "link": "https://labs.beazley.security/advisories/BSL-A1203",
         "date": "2026-09-09T05:00:00.000Z",
         "source": "Beazley Security Labs Advisories"
-      },
-      {
-        "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
-        "link": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
-        "date": "2026-09-08T13:10:00+00:00",
-        "source": "Cloudflare"
       }
     ],
     "APT5": [
@@ -527,12 +571,12 @@
         "source": "DarkReading"
       }
     ],
-    "DDE": [
+    "APT3": [
       {
-        "title": "ChatGPT Let Attackers Read Victims’ Gmail Through a Hidden Channel Between Accounts",
-        "link": "https://blog.checkpoint.com/research/chatgpt-let-attackers-read-victims-gmail-through-a-hidden-channel-between-accounts/",
-        "date": "2026-09-08T13:00:50+00:00",
-        "source": "Check Point"
+        "title": "Four groups caught using the same Chrome and Windows exploit kit",
+        "link": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
+        "date": "2026-09-09T20:55:02+00:00",
+        "source": "Ars Technica"
       }
     ]
   }

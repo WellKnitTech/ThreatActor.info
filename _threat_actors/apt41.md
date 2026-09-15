@@ -109,10 +109,12 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Passkey-themed phishing attacks lead to Microsoft 365 data theft](https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/)
-  BleepingComputer - 2026-09-11T
-- [Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant™ for Hybrid Mesh Firewall](https://www.paloaltonetworks.com/blog/2026/09/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall-securing-every-environment-at-the-speed-of-frontier-ai/)
-  Palo Alto Networks - 2026-09-10T
+- [The Top Exposure Management Questions Security Leaders Ask: Insights from Customer Conversations (Part 2)](https://blog.checkpoint.com/security/the-top-exposure-management-questions-security-leaders-ask-insights-from-customer-conversations-part-2/)
+  Check Point - 2026-09-14T
+- [AI Leaders Are Calling for a Slowdown. Trump’s Team Says It’s on Them](https://www.wired.com/story/ai-leaders-are-calling-for-a-slowdown-trumps-team-says-its-on-them/)
+  Wired - 2026-09-14T
+- [Webinar: How malicious OAuth apps can lead to Google Workspace breaches](https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/)
+  BleepingComputer - 2026-09-14T
 - [Check Point is a Leader in the 2026 Gartner® Magic Quadrant™ for Hybrid Mesh Firewall](https://blog.checkpoint.com/security/check-point-is-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall/)
   Check Point - 2026-09-10T
 
