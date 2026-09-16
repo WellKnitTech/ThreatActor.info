@@ -33,8 +33,6 @@ Quantum is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it](https://blog.cloudflare.com/post-quantum-dnssec-1111/)
-  Cloudflare - 2026-09-10T
-- [Critical Remote Code Execution Vulnerabilities in Check Point Quantum Security Gateway and Security Management (CVE-2026-85102, CVE-2026-85103)](https://labs.beazley.security/advisories/BSL-A1203)
-  Beazley Security Labs Advisories - 2026-09-09T
+- [FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security](https://www.paloaltonetworks.com/blog/2026/09/fedramp-moderate-authorization-for-palo-alto-networks-quantum-safe-security/)
+  Palo Alto Networks - 2026-09-14T
 

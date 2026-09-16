@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Meta expands subscription push with new AI-focused plans](https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/)
+  TechCrunch - 2026-09-15T
+

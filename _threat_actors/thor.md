@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security](https://www.paloaltonetworks.com/blog/2026/09/fedramp-moderate-authorization-for-palo-alto-networks-quantum-safe-security/)
+  Palo Alto Networks - 2026-09-14T
+

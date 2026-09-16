@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials](https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html)
-  The Hacker News - 2026-09-14T
-- [Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports](https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html)
-  The Hacker News - 2026-09-14T
-- ['Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink](https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink)
-  DarkReading - 2026-09-14T
-- [OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says](https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/)
-  TechCrunch - 2026-09-14T
-- [AI infrastructure company Cornelis raises $205M to chip away at Nvidia’s dominance](https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/)
-  TechCrunch - 2026-09-14T
+- [Pura Promo Codes: $20 Off September 2026](https://www.wired.com/story/pura-promo-code/)
+  Wired - 2026-09-16T
+- [Braun Promo Codes: 15% Off September 2026](https://www.wired.com/story/braun-promo-code/)
+  Wired - 2026-09-16T
+- [Rover Promo Codes and Referral Deals for 2026](https://www.wired.com/story/rover-promo-code/)
+  Wired - 2026-09-16T
+- [Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists](https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html)
+  The Hacker News - 2026-09-15T
+- [The AI graveyard: a running list of projects and startups that didn’t make it](https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/)
+  TechCrunch - 2026-09-15T
 

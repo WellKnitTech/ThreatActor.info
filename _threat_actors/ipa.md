@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [The Top New Features in Apple’s iOS 27 and iPadOS 27](https://www.wired.com/story/top-new-features-in-apple-ios-27-and-ipados-27-launching-september-14/)
-  Wired - 2026-09-14T
-

@@ -33,8 +33,8 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Babbel Promo Code: Up to 65% Off in September 2026](https://www.wired.com/story/babbel-promo-code/)
+  Wired - 2026-09-16T
 - [3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials](https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html)
   The Hacker News - 2026-09-14T
-- [Hackers exploit Tencent app flaw to deploy GrayRabbit malware](https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/)
-  BleepingComputer - 2026-09-13T
 

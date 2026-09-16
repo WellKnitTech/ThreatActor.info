@@ -30,11 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Roborock Qrevo 2 Review (2026): A New Budget Vacuum King?](https://www.wired.com/review/roborock-qrevo-2-pro/)
-  Wired - 2026-09-14T
-- [Best Noise-Canceling Earbuds (2026): Bose, Apple, Samsung, Beats, and More](https://www.wired.com/story/best-noise-canceling-earbuds/)
-  Wired - 2026-09-14T
-
