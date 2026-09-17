@@ -33,8 +33,6 @@ Core ransomware surfaced in early 2025 as a new variant within the broader Makop
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Wonder scores a $425 million partnership with DoorDash as it builds its food empire](https://techcrunch.com/2026/09/15/wonder-scores-a-425-million-partnership-with-doordash-as-it-builds-its-food-empire/)
-  TechCrunch - 2026-09-15T
 - [The only perfect Endpoint Prevention and Response (EPR) score in 2026 belongs to Elastic](https://www.elastic.co/blog/av-comparatives-epr-test-2026)
   Elastic - 2026-09-15T
 

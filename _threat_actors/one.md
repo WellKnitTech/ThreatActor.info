@@ -33,12 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [OnePlus Promo Codes: 30% Off September 2026](https://www.wired.com/story/oneplus-promo-code/)
-  Wired - 2026-09-16T
-- [LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server](https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html)
-  The Hacker News - 2026-09-15T
+- [One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude](https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html)
+  The Hacker News - 2026-09-16T
+- [Threat Intelligence Alone Won't Close the Exploitation Gap](https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html)
+  The Hacker News - 2026-09-16T
 - [Metasploit Wrap Up: This One Goes to Sixteen!](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-goes-to-sixteen)
   Rapid7 - 2026-09-11T
-- [Indonesia Hit by Android Banking App-Cloning Campaign](https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign)
-  DarkReading - 2026-09-11T
 

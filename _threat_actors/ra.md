@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Pura Promo Codes: $20 Off September 2026](https://www.wired.com/story/pura-promo-code/)
+- [Iceland-based Treble raises $18 million for its voice simulation platform](https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/)
+  TechCrunch - 2026-09-17T
+- [Australia's AI opportunity starts with data](https://www.elastic.co/blog/australia-parliamentary-ai-showcase)
+  Elastic - 2026-09-17T
+- [US automakers could soon be forced to include AM radio for free](https://techcrunch.com/2026/09/16/us-automakers-could-soon-be-forced-to-include-am-radio-for-free/)
+  TechCrunch - 2026-09-16T
+- [OpenAI Creates a New Framework to Disclose Bad AI Behavior](https://www.wired.com/story/openai-releases-new-policy-for-reporting-incidents-of-model-misalignment/)
   Wired - 2026-09-16T
-- [Braun Promo Codes: 15% Off September 2026](https://www.wired.com/story/braun-promo-code/)
-  Wired - 2026-09-16T
-- [Rover Promo Codes and Referral Deals for 2026](https://www.wired.com/story/rover-promo-code/)
-  Wired - 2026-09-16T
-- [Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists](https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html)
-  The Hacker News - 2026-09-15T
-- [The AI graveyard: a running list of projects and startups that didn’t make it](https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/)
-  TechCrunch - 2026-09-15T
+- [Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution](https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html)
+  The Hacker News - 2026-09-16T
 

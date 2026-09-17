@@ -30,11 +30,3 @@ Ransomware Based on EDA2
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant™ for Hybrid Mesh Firewall](https://www.paloaltonetworks.com/blog/2026/09/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall-securing-every-environment-at-the-speed-of-frontier-ai/)
-  Palo Alto Networks - 2026-09-10T
-- [Check Point is a Leader in the 2026 Gartner® Magic Quadrant™ for Hybrid Mesh Firewall](https://blog.checkpoint.com/security/check-point-is-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall/)
-  Check Point - 2026-09-10T
-

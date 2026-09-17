@@ -30,3 +30,9 @@ Microsoft threat actor profile. Origin/Threat: Financially motivated.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [MacOS 27 Golden Gate: Top New Features](https://www.wired.com/story/macos-27-golden-gate-top-features/)
+  Wired - 2026-09-16T
+

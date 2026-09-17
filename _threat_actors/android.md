@@ -35,6 +35,4 @@ Ransomware
 
 - [Google fixes actively exploited Android zero-day on Pixel devices](https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/)
   BleepingComputer - 2026-09-16T
-- [Indonesia Hit by Android Banking App-Cloning Campaign](https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign)
-  DarkReading - 2026-09-11T
 

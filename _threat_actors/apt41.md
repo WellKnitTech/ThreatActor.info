@@ -111,12 +111,6 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 
 - [Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells](https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html)
   The Hacker News - 2026-09-16T
-- [Suspected Black Axe gang leaders face cybercrime charges in the US](https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/)
-  BleepingComputer - 2026-09-15T
 - [The Top Exposure Management Questions Security Leaders Ask: Insights from Customer Conversations (Part 2)](https://blog.checkpoint.com/security/the-top-exposure-management-questions-security-leaders-ask-insights-from-customer-conversations-part-2/)
   Check Point - 2026-09-14T
-- [Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant™ for Hybrid Mesh Firewall](https://www.paloaltonetworks.com/blog/2026/09/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall-securing-every-environment-at-the-speed-of-frontier-ai/)
-  Palo Alto Networks - 2026-09-10T
-- [Check Point is a Leader in the 2026 Gartner® Magic Quadrant™ for Hybrid Mesh Firewall](https://blog.checkpoint.com/security/check-point-is-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall/)
-  Check Point - 2026-09-10T
 
