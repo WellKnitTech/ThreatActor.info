@@ -33,10 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude](https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html)
-  The Hacker News - 2026-09-16T
-- [Threat Intelligence Alone Won't Close the Exploitation Gap](https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html)
-  The Hacker News - 2026-09-16T
-- [Metasploit Wrap Up: This One Goes to Sixteen!](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-goes-to-sixteen)
-  Rapid7 - 2026-09-11T
+- [Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone](https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html)
+  The Hacker News - 2026-09-17T
+- [What’s the Best iPhone to Buy or Avoid Right Now? (2026)](https://www.wired.com/gallery/iphone-buying-guide/)
+  Wired - 2026-09-17T
 

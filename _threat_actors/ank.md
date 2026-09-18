@@ -35,6 +35,4 @@ Ank is an active extortion or ransomware group tracked by RansomLook.
 
 - [Anthropic wants Claude to analyze your bank account and financial data](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-wants-claude-to-analyze-your-bank-account-and-financial-data/)
   BleepingComputer - 2026-09-16T
-- [KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens](https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html)
-  The Hacker News - 2026-09-16T
 

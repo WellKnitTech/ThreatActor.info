@@ -30,3 +30,9 @@ Ransomware decryptionservice@mail.ru recoveryhelp@bk.ru ransomware.attack@list.r
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Here’s What the AI Apocalypse Could Look Like](https://www.wired.com/story/uncanny-valley-podcast-heres-what-the-ai-apocalypse-could-look-like/)
+  Wired - 2026-09-17T
+

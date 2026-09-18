@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Iceland-based Treble raises $18 million for its voice simulation platform](https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/)
+- [NordVPN Coupons: 75% Off, Plus 3 Months Free in September 2026](https://www.wired.com/story/nordvpn-coupon/)
+  Wired - 2026-09-18T
+- [The FAA’s plan to fix air traffic? $875M worth of AI](https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/)
   TechCrunch - 2026-09-17T
-- [Your startup’s next teammate might be an AI agent: Gusto, Insight Partners, and Leland explain what that changes at TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026/)
-  TechCrunch - 2026-09-17T
-- [Noise wants to help everyday people  become paid content creators](https://techcrunch.com/2026/09/16/noise-wants-to-help-everyday-people-become-paid-content-creators/)
-  TechCrunch - 2026-09-16T
-- [Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution](https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html)
-  The Hacker News - 2026-09-16T
-- [Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation](https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html)
-  The Hacker News - 2026-09-16T
+- [Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar](https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html)
+  The Hacker News - 2026-09-17T
+- [China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America](https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html)
+  The Hacker News - 2026-09-17T
+- [OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads](https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html)
+  The Hacker News - 2026-09-17T
 

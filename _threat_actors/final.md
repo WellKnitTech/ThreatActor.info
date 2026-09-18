@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Apple Watch Series 12 Review: Finally, a Readiness Score (2026)](https://www.wired.com/review/apple-watch-series-12/)
+  Wired - 2026-09-17T
+

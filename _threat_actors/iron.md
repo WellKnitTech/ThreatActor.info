@@ -30,3 +30,9 @@ It is currently unknown if Iron is indeed a new variant by the same creators of 
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Inside the Modern SOC: Defending the Cross-Environment Pivot](https://unit42.paloaltonetworks.com/soc-cross-environment-pivot/)
+  Unit 42 - 2026-09-17T
+

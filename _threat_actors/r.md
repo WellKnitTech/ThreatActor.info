@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Ring Promo Code: 50% Off](https://www.wired.com/story/ring-promo-code/)
-  Wired - 2026-09-17T
-- [Vivid Seats Promo Codes and Deals: Get 10% Off](https://www.wired.com/story/vivid-seats-promo-code/)
-  Wired - 2026-09-17T
-- [L.L.Bean Promo Codes and Coupons: 75% Off](https://www.wired.com/story/ll-bean-promo-code/)
-  Wired - 2026-09-17T
-- [HelloFresh Promo Codes: 55% Off for September 2026](https://www.wired.com/story/hellofresh-coupon/)
-  Wired - 2026-09-17T
-- [Hydrow Discount Code: Save Up to $150 | September 2026](https://www.wired.com/story/hydrow-discount-code/)
-  Wired - 2026-09-17T
+- [RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall](https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html)
+  The Hacker News - 2026-09-18T
+- [25% Off Adidas Promo Code | September 2026](https://www.wired.com/story/adidas-promo-code/)
+  Wired - 2026-09-18T
+- [Dyson Promo Codes: 25% Off in September 2026](https://www.wired.com/story/dyson-cordless-vacuum-promo-code/)
+  Wired - 2026-09-18T
+- [iRobot Promo Code: 15% Off](https://www.wired.com/story/irobot-promo-code/)
+  Wired - 2026-09-18T
+- [Design Within Reach Promo Codes: 30% Off | September 2026](https://www.wired.com/story/design-within-reach-promo-code/)
+  Wired - 2026-09-18T
 

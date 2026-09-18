@@ -33,6 +33,8 @@ Core ransomware surfaced in early 2025 as a new variant within the broader Makop
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Apple Watch Series 12 Review: Finally, a Readiness Score (2026)](https://www.wired.com/review/apple-watch-series-12/)
+  Wired - 2026-09-17T
 - [The only perfect Endpoint Prevention and Response (EPR) score in 2026 belongs to Elastic](https://www.elastic.co/blog/av-comparatives-epr-test-2026)
   Elastic - 2026-09-15T
 

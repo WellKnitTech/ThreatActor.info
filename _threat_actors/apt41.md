@@ -109,8 +109,6 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells](https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html)
-  The Hacker News - 2026-09-16T
 - [The Top Exposure Management Questions Security Leaders Ask: Insights from Customer Conversations (Part 2)](https://blog.checkpoint.com/security/the-top-exposure-management-questions-security-leaders-ask-insights-from-customer-conversations-part-2/)
   Check Point - 2026-09-14T
 

@@ -33,3 +33,9 @@ Handala is a pro-Palestinian hacktivist group that targets Israeli organizations
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords](https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html)
+  The Hacker News - 2026-09-17T
+

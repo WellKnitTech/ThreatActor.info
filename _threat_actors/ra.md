@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Iceland-based Treble raises $18 million for its voice simulation platform](https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/)
+- [RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall](https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html)
+  The Hacker News - 2026-09-18T
+- [Khosla-backed Mazama Energy just raised $135M to drill deeper into super-hot-rock geothermal](https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/)
+  TechCrunch - 2026-09-18T
+- [Crusoe raises $3.9B to build massive data centers and small modular ‘AI factories’](https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/)
   TechCrunch - 2026-09-17T
-- [Australia's AI opportunity starts with data](https://www.elastic.co/blog/australia-parliamentary-ai-showcase)
-  Elastic - 2026-09-17T
-- [US automakers could soon be forced to include AM radio for free](https://techcrunch.com/2026/09/16/us-automakers-could-soon-be-forced-to-include-am-radio-for-free/)
-  TechCrunch - 2026-09-16T
-- [OpenAI Creates a New Framework to Disclose Bad AI Behavior](https://www.wired.com/story/openai-releases-new-policy-for-reporting-incidents-of-model-misalignment/)
-  Wired - 2026-09-16T
-- [Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution](https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html)
-  The Hacker News - 2026-09-16T
+- [The FAA’s plan to fix air traffic? $875M worth of AI](https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/)
+  TechCrunch - 2026-09-17T
+- [CISA Ditches Weekly Vulnerability Roundups for Risk-Based Focus](https://www.darkreading.com/cyber-risk/cisa-ditches-weekly-vuln-roundups-risk-based-focus)
+  DarkReading - 2026-09-17T
 

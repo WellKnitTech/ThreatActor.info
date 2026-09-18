@@ -48,6 +48,4 @@ Tick is a cyber espionage group with likely Chinese origins that has been active
 
 - [Iranian hackers use CHOSEN BRICK Windows malware to spy on targets](https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets/)
   BleepingComputer - 2026-09-16T
-- [Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists](https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html)
-  The Hacker News - 2026-09-15T
 

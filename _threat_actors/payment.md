@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [SNAP payment error detection: how Elastic helps US states beat the FY2028 penalty](https://www.elastic.co/blog/snap-error-fy2028-penalty)
+  Elastic - 2026-09-18T
+
