@@ -35,6 +35,4 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 
 - [Brevo supply-chain attack injected ClickFix scripts on customer sites](https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/)
   BleepingComputer - 2026-09-17T
-- [Fake Voicemail Transcript Emails Target 7,800+ Organizations in Large-Scale Credential Phishing](https://blog.checkpoint.com/security/fake-voicemail-transcript-emails-target-7800-organizations-in-large-scale-credential-phishing/)
-  Check Point - 2026-09-14T
 

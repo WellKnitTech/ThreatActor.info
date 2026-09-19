@@ -44,6 +44,4 @@ GhostEmperor is a Chinese-speaking threat actor that targets government entities
 
 - [China's FamousSparrow APT Spies on US Politics in Latin America](https://www.darkreading.com/cyberattacks-data-breaches/china-famoussparrow-spies-latin-america)
   DarkReading - 2026-09-17T
-- [China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America](https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html)
-  The Hacker News - 2026-09-17T
 

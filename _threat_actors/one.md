@@ -33,8 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [In India, the new iPhone can arrive faster than a pizza](https://techcrunch.com/2026/09/18/in-india-the-new-iphone-can-arrive-faster-than-a-pizza/)
+  TechCrunch - 2026-09-18T
+- [An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.](https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html)
+  The Hacker News - 2026-09-18T
 - [Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone](https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html)
   The Hacker News - 2026-09-17T
-- [What’s the Best iPhone to Buy or Avoid Right Now? (2026)](https://www.wired.com/gallery/iphone-buying-guide/)
-  Wired - 2026-09-17T
 

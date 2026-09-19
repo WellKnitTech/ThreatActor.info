@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall](https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html)
-  The Hacker News - 2026-09-18T
-- [25% Off Adidas Promo Code | September 2026](https://www.wired.com/story/adidas-promo-code/)
-  Wired - 2026-09-18T
-- [Dyson Promo Codes: 25% Off in September 2026](https://www.wired.com/story/dyson-cordless-vacuum-promo-code/)
-  Wired - 2026-09-18T
-- [iRobot Promo Code: 15% Off](https://www.wired.com/story/irobot-promo-code/)
-  Wired - 2026-09-18T
-- [Design Within Reach Promo Codes: 30% Off | September 2026](https://www.wired.com/story/design-within-reach-promo-code/)
-  Wired - 2026-09-18T
+- [Xiaomi Has a Luxury SUV for $31,000 That All Western Brands Should Fear](https://www.wired.com/story/xiaomi-has-a-luxury-suv-all-western-brands-should-fear/)
+  Wired - 2026-09-19T
+- [20% Off Samsung Promo Code | September 2026](https://www.wired.com/story/samsung-promo-codes/)
+  Wired - 2026-09-19T
+- [eBay Coupons: 20% Off in September 2026](https://www.wired.com/story/ebay-coupon-code/)
+  Wired - 2026-09-19T
+- [Whoop Promo Codes: 20% Off This September 2026](https://www.wired.com/story/whoop-promo-code/)
+  Wired - 2026-09-19T
+- [Newegg Promo Codes and Coupons for September 2026](https://www.wired.com/story/newegg-promo-code/)
+  Wired - 2026-09-19T
 
