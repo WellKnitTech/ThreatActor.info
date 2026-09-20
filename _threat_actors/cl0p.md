@@ -141,3 +141,9 @@ Curated Intelligence MOVEit Transfer Tracking tracks 74 public events for the 20
 [5] [NCC Group TA505](https://research.nccgroup.com/2020/11/18/ta505-a-brief-history-of-their-time/)
 [6] [Korean FSI TA505 2020](https://www.fsec.or.kr/user/bbs/fsec/163/344/bbsDataView/1382.do?page=1&column=&search=&searchSDate=&searchEDate=&bbsDataCategory=)
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [ShinyHunters hacks Clop leak site, threatens to extort ransomware gang](https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/)
+  BleepingComputer - 2026-09-19T
+

@@ -35,6 +35,4 @@ ransomware
 
 - [Cisco Zero-Day Highlights API Endpoint Authentication Issues](https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues)
   DarkReading - 2026-09-18T
-- [Joby Aviation’s 3,100-mile autonomous flight signals its push beyond electric air taxis](https://techcrunch.com/2026/09/18/joby-aviations-3100-mile-autonomous-flight-signals-its-push-beyond-electric-air-taxis/)
-  TechCrunch - 2026-09-18T
 

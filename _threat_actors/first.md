@@ -35,6 +35,4 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 
 - [Anthropic’s first embedded evaluator is … Accenture?](https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/)
   TechCrunch - 2026-09-18T
-- [Disney’s first CTO led an AI startup it once accused of copying its characters](https://techcrunch.com/2026/09/18/disneys-first-cto-led-an-ai-startup-it-once-accused-of-copying-its-characters/)
-  TechCrunch - 2026-09-18T
 

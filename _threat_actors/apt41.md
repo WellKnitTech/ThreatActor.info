@@ -106,9 +106,3 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 [17] [Kaspersky Winnti June 2015](https://securelist.com/games-are-over/70991/)
    Tarakanov, D. (2015, June 22). Games are over: Winnti is now targeting pharmaceutical companies. Retrieved January 14, 2016.
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Dario Amodei and other AI leaders want to ‘Pace the Frontier’ but…how?](https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/)
-  TechCrunch - 2026-09-18T
-

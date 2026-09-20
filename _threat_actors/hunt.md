@@ -34,6 +34,6 @@ Hunt ransomware is a variant of the Dharma/CrySIS ransomware family. This varian
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer](https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html)
-  The Hacker News - 2026-09-18T
+- [ShinyHunters hacks Clop leak site, threatens to extort ransomware gang](https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/)
+  BleepingComputer - 2026-09-19T
 

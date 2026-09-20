@@ -33,6 +33,8 @@ Ransomware Based on HiddenTear
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [North Korean WaterPlum hackers infected 30,000 devices worldwide](https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/)
+  BleepingComputer - 2026-09-19T
 - [Cyber Op Targets South Korean Media &amp; Automotive Sectors](https://www.darkreading.com/cyberattacks-data-breaches/cyber-south-korean-media-automotive)
   DarkReading - 2026-09-16T
 

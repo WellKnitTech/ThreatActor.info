@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Xiaomi Has a Luxury SUV for $31,000 That All Western Brands Should Fear](https://www.wired.com/story/xiaomi-has-a-luxury-suv-all-western-brands-should-fear/)
+- [Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force](https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/)
+  TechCrunch - 2026-09-19T
+- [The US Navy just told us what’s on its tech wish list for the next several years](https://techcrunch.com/2026/09/19/even-mid-sprint-to-a-secret-flight-the-navys-tech-chief-had-a-pitch-for-investors/)
+  TechCrunch - 2026-09-19T
+- [CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild](https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html)
+  The Hacker News - 2026-09-19T
+- [Forget the AI Slowdown—the Vulnerability Explosion Is Already Happening](https://www.wired.com/story/kernel-panic-ai-vulnerability-explosion/)
   Wired - 2026-09-19T
-- [Paramount+ Coupon Codes and Deals for September 2026](https://www.wired.com/story/paramount-plus-coupon-code/)
-  Wired - 2026-09-19T
-- [A startup that builds other startups raised $100M and is all-in on physical AI](https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/)
-  TechCrunch - 2026-09-18T
-- [Anthropic is operating a lab that conducts biology experiments](https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/)
-  TechCrunch - 2026-09-18T
-- [AI hallucination nearly triggers US military operation](https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/)
-  TechCrunch - 2026-09-18T
+- [BragJack attacks hijack AI browser agents through malicious extensions](https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/)
+  BleepingComputer - 2026-09-19T
 

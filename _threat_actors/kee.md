@@ -33,8 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [World model companies are keeping a lot of secrets](https://techcrunch.com/2026/09/18/world-model-companies-are-keeping-a-lot-of-secrets/)
-  TechCrunch - 2026-09-18T
 - [When Security Operations Can’t Keep Up:  4 Ways Agentic Network Security Management Improves Security Operations](https://blog.checkpoint.com/hybrid-mesh/when-security-operations-cant-keep-up-4-ways-agentic-network-security-management-improves-security-operations/)
   Check Point - 2026-09-18T
 

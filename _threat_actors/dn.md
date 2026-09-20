@@ -37,6 +37,4 @@ It’s directed to English speaking users, therefore is able to infect worldwide
   The Hacker News - 2026-09-18T
 - [Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer](https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/)
   BleepingComputer - 2026-09-18T
-- [Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone](https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html)
-  The Hacker News - 2026-09-17T
 

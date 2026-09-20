@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Flock Offers Employees Buyouts as Customers Flee](https://www.wired.com/story/flock-is-offering-voluntary-buyouts-to-employees/)
+- [Flock reportedly tries to shrink workforce with employee buyouts](https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/)
+  TechCrunch - 2026-09-19T
+- [Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar](https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html)
+  The Hacker News - 2026-09-19T
+- [Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild](https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html)
+  The Hacker News - 2026-09-19T
+- [CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild](https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html)
+  The Hacker News - 2026-09-19T
+- [Forget the AI Slowdown—the Vulnerability Explosion Is Already Happening](https://www.wired.com/story/kernel-panic-ai-vulnerability-explosion/)
   Wired - 2026-09-19T
-- [Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root](https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html)
-  The Hacker News - 2026-09-18T
-- [Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2](https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html)
-  The Hacker News - 2026-09-18T
-- [Apple Watch Ultra 4 Review: The Series 12 Is Closing the Gap](https://www.wired.com/review/apple-watch-ultra-4/)
-  Wired - 2026-09-18T
-- [EY Survey Finds Autonomous AI Implementation Outpaces Oversight](https://www.darkreading.com/cyberattacks-data-breaches/ey-survey-autonomous-ai-implementation-outpaces-oversight)
-  DarkReading - 2026-09-18T
 

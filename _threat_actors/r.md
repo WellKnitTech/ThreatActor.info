@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Xiaomi Has a Luxury SUV for $31,000 That All Western Brands Should Fear](https://www.wired.com/story/xiaomi-has-a-luxury-suv-all-western-brands-should-fear/)
-  Wired - 2026-09-19T
-- [20% Off Samsung Promo Code | September 2026](https://www.wired.com/story/samsung-promo-codes/)
-  Wired - 2026-09-19T
-- [eBay Coupons: 20% Off in September 2026](https://www.wired.com/story/ebay-coupon-code/)
-  Wired - 2026-09-19T
-- [Whoop Promo Codes: 20% Off This September 2026](https://www.wired.com/story/whoop-promo-code/)
-  Wired - 2026-09-19T
-- [Newegg Promo Codes and Coupons for September 2026](https://www.wired.com/story/newegg-promo-code/)
-  Wired - 2026-09-19T
+- [Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws](https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html)
+  The Hacker News - 2026-09-20T
+- [Flock reportedly tries to shrink workforce with employee buyouts](https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/)
+  TechCrunch - 2026-09-19T
+- [Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force](https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/)
+  TechCrunch - 2026-09-19T
+- [Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar](https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html)
+  The Hacker News - 2026-09-19T
+- [Identity Visibility in 2026: The Foundation of Identity Security](https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html)
+  The Hacker News - 2026-09-19T
 

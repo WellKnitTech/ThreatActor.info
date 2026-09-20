@@ -33,3 +33,9 @@ ShinyHunters is a cybercriminal group of unknown origin that is motivated by fin
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [ShinyHunters hacks Clop leak site, threatens to extort ransomware gang](https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/)
+  BleepingComputer - 2026-09-19T
+
