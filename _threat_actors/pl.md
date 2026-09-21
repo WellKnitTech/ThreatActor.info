@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [A small but growing number of founders are betting on bringing people together offline](https://techcrunch.com/2026/09/20/a-small-but-growing-number-of-founders-are-betting-that-bringing-people-together-is-its-own-industry/)
+  TechCrunch - 2026-09-20T
+- [An undercover Google analyst infiltrated a notorious supply-chain hacking gang](https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/)
+  Ars Technica - 2026-09-20T
+- [Welcome to Dogs Anonymous, the Online Support Group for People With Difficult Dogs](https://www.wired.com/story/inside-dogs-anonymous-the-online-support-group-for-people-with-difficult-dogs/)
+  Wired - 2026-09-20T
 - [Flock reportedly tries to shrink workforce with employee buyouts](https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/)
   TechCrunch - 2026-09-19T
 - [Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar](https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html)
   The Hacker News - 2026-09-19T
-- [Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild](https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html)
-  The Hacker News - 2026-09-19T
-- [CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild](https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html)
-  The Hacker News - 2026-09-19T
-- [Forget the AI Slowdown—the Vulnerability Explosion Is Already Happening](https://www.wired.com/story/kernel-panic-ai-vulnerability-explosion/)
-  Wired - 2026-09-19T
 

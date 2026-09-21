@@ -36,3 +36,9 @@ TraderTraitor targets blockchain companies through spear-phishing messages. The 
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors](https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html)
+  The Hacker News - 2026-09-21T
+

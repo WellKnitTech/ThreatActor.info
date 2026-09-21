@@ -35,6 +35,4 @@ Ransomware Variant of Kirk
 
 - [New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution](https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html)
   The Hacker News - 2026-09-18T
-- [Brevo supply-chain attack injected ClickFix scripts on customer sites](https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/)
-  BleepingComputer - 2026-09-17T
 

@@ -30,3 +30,9 @@ Oceans is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Tiny Hairs That Help Corals Breathe May Malfunction in Warming Oceans](https://www.wired.com/story/tiny-hairs-that-help-corals-breathe-may-malfunction-in-warming-oceans/)
+  Wired - 2026-09-20T
+

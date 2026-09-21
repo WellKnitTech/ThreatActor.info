@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Anthropic’s first embedded evaluator is … Accenture?](https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/)
-  TechCrunch - 2026-09-18T
-

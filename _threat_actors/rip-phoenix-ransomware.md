@@ -33,6 +33,6 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Brevo supply-chain attack injected ClickFix scripts on customer sites](https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/)
-  BleepingComputer - 2026-09-17T
+- [Malicious npm packages evade install-script defenses at runtime](https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/)
+  BleepingComputer - 2026-09-20T
 

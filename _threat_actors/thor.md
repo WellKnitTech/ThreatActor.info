@@ -35,6 +35,4 @@ ransomware
 
 - [Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation](https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html)
   The Hacker News - 2026-09-18T
-- [OpenAI details more cases of AI agents taking unauthorized actions](https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/)
-  BleepingComputer - 2026-09-17T
 
