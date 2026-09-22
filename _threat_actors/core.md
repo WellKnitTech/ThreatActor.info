@@ -33,10 +33,8 @@ Core ransomware surfaced in early 2025 as a new variant within the broader Makop
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Samsung Galaxy Watch9 Review: I Don’t Need Another Health Score](https://www.wired.com/review/samsung-galaxy-watch9/)
-  Wired - 2026-09-19T
+- [1Password Coupon: Score a Free Trial in September 2026](https://www.wired.com/story/1password-coupon/)
+  Wired - 2026-09-22T
 - [A Vault with a Heap-View: The Uncomfortable Space Between AgentCore Harness and Identity](https://unit42.paloaltonetworks.com/securing-aws-agentcore-harness-credentials/)
   Unit 42 - 2026-09-18T
-- [The only perfect Endpoint Prevention and Response (EPR) score in 2026 belongs to Elastic](https://www.elastic.co/blog/av-comparatives-epr-test-2026)
-  Elastic - 2026-09-15T
 

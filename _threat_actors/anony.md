@@ -33,6 +33,6 @@ Ransomware Based on HiddenTear
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Welcome to Dogs Anonymous, the Online Support Group for People With Difficult Dogs](https://www.wired.com/story/inside-dogs-anonymous-the-online-support-group-for-people-with-difficult-dogs/)
-  Wired - 2026-09-20T
+- [WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session](https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html)
+  The Hacker News - 2026-09-22T
 

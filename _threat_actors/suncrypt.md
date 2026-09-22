@@ -37,6 +37,6 @@ SunCrypt ransomware was discovered in October 2019 and in August 2020 it was add
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Samsung Galaxy Watch9 Review: I Don’t Need Another Health Score](https://www.wired.com/review/samsung-galaxy-watch9/)
-  Wired - 2026-09-19T
+- [Kairos Power gets up to $100M from Samsung group to build nuclear reactor for Google](https://techcrunch.com/2026/09/21/kairos-power-gets-up-to-100m-from-samsung-group-to-build-nuclear-reactor-for-google/)
+  TechCrunch - 2026-09-21T
 

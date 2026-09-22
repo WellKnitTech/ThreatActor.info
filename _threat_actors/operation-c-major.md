@@ -38,9 +38,3 @@ Group targeting Indian Army or related assets in India, as well as activists and
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2](https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html)
-  The Hacker News - 2026-09-18T
-

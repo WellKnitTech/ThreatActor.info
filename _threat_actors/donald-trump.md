@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [It’s Donald Trump Versus MAGA on Data Centers](https://www.wired.com/story/donald-trump-versus-maga-on-data-centers/)
-  Wired - 2026-09-20T
-

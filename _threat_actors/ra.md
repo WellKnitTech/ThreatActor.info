@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [An undercover Google analyst infiltrated a notorious supply-chain hacking gang](https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/)
-  Ars Technica - 2026-09-20T
-- [Tiny Hairs That Help Corals Breathe May Malfunction in Warming Oceans](https://www.wired.com/story/tiny-hairs-that-help-corals-breathe-may-malfunction-in-warming-oceans/)
-  Wired - 2026-09-20T
-- [Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force](https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/)
-  TechCrunch - 2026-09-19T
-- [The US Navy just told us what’s on its tech wish list for the next several years](https://techcrunch.com/2026/09/19/even-mid-sprint-to-a-secret-flight-the-navys-tech-chief-had-a-pitch-for-investors/)
-  TechCrunch - 2026-09-19T
-- [CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild](https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html)
-  The Hacker News - 2026-09-19T
+- [Morphotonics raises €40M to expand its display tech into data centers](https://techcrunch.com/2026/09/21/morphotonics-raises-e40m-as-it-tk-tk-tk-t/)
+  TechCrunch - 2026-09-22T
+- [Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day](https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/)
+  Ars Technica - 2026-09-21T
+- [AI, Tariffs, Rare Minerals: What to Expect From Trump’s Upcoming Summit With Xi Jinping](https://www.wired.com/story/ai-tariffs-rare-minerals-what-to-expect-from-trumps-upcoming-summit-with-xi-jinping/)
+  Wired - 2026-09-21T
+- [Dyson Won’t Say What’s Wrong With Its CameraJet Toothbrush](https://www.wired.com/story/dyson-wont-say-whats-wrong-with-the-camerajet-toothbrush/)
+  Wired - 2026-09-21T
+- [Oura’s $2.2B IPO is mostly a payday for existing shareholders](https://techcrunch.com/2026/09/21/ouras-2-2b-ipo-is-mostly-a-payday-for-existing-shareholders/)
+  TechCrunch - 2026-09-21T
 

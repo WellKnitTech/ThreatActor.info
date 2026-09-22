@@ -33,6 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [New RatHat Android malware uses AI to automate device control](https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/)
-  BleepingComputer - 2026-09-17T
+- [Got an Android Phone? Google Thinks You’ll Probably Want a Googlebook Laptop](https://www.wired.com/story/google-launches-googlebook-laptops/)
+  Wired - 2026-09-21T
 

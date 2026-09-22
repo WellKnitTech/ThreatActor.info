@@ -32,3 +32,9 @@ Kairos is an extortion group that emerged with a data-leak site on 13 November 2
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Kairos Power gets up to $100M from Samsung group to build nuclear reactor for Google](https://techcrunch.com/2026/09/21/kairos-power-gets-up-to-100m-from-samsung-group-to-build-nuclear-reactor-for-google/)
+  TechCrunch - 2026-09-21T
+
