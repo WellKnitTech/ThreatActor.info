@@ -33,6 +33,6 @@ Ransomware Jigsaw Ransomware variant
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [ShinyHunters Hacked Clop. Now What About Clop's Victims?](https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-hacked-clop-what-about-clops-victims)
+- [ShinyHunters Hacked Cl0p. Now What About Cl0p's Victims?](https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-hacked-clop-what-about-clops-victims)
   DarkReading - 2026-09-21T
 

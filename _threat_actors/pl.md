@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access](https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html)
+- [ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants](https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html)
+  The Hacker News - 2026-09-23T
+- [PlayStation Discount Code: Save on PS5 Games September 2026](https://www.wired.com/story/playstation-discount-code/)
+  Wired - 2026-09-23T
+- [F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks](https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/)
+  BleepingComputer - 2026-09-23T
+- [Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks](https://thehackernews.com/2026/09/check-point-warns-of-management-server.html)
   The Hacker News - 2026-09-22T
-- [Morphotonics raises €40M to expand its display tech into data centers](https://techcrunch.com/2026/09/21/morphotonics-raises-e40m-as-it-tk-tk-tk-t/)
+- [Snorkel AI triples valuation to $3.5B as demand for AI training data booms](https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/)
   TechCrunch - 2026-09-22T
-- [Loop Earplugs Discount Codes: 40% Off](https://www.wired.com/story/loop-earplugs-discount-code/)
-  Wired - 2026-09-22T
-- [The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping](https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/)
-  TechCrunch - 2026-09-21T
-- [CISA alerts of active exploitation of three Linux kernel flaws](https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/)
-  BleepingComputer - 2026-09-21T
 

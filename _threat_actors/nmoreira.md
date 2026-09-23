@@ -33,6 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Morphotonics raises €40M to expand its display tech into data centers](https://techcrunch.com/2026/09/21/morphotonics-raises-e40m-as-it-tk-tk-tk-t/)
+- [Waymo’s latest expansion strategy: teenagers](https://techcrunch.com/2026/09/22/waymos-latest-expansion-strategy-teenagers/)
   TechCrunch - 2026-09-22T
 

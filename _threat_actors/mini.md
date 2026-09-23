@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini](https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/)
-  TechCrunch - 2026-09-21T
+- [‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI](https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/)
+  TechCrunch - 2026-09-23T
 

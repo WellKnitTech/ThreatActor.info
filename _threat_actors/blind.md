@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [SelectBlinds Promo Codes & Coupons: 10% Off](https://www.wired.com/story/select-blinds-promo-code/)
-  Wired - 2026-09-22T
-

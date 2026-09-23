@@ -30,3 +30,9 @@ Shadow is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Reducing shadow IT visibility gaps with Wazuh](https://www.bleepingcomputer.com/news/security/reducing-shadow-it-visibility-gaps-with-wazuh/)
+  BleepingComputer - 2026-09-22T
+

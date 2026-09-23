@@ -33,10 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Qualcomm launches two new smartphone chips with emphasis on AI](https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/)
+  TechCrunch - 2026-09-22T
 - [One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor](https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html)
   The Hacker News - 2026-09-22T
-- [Here’s the iFixit Repairability Rating for the iPhone 18 Pro](https://www.wired.com/story/ifixit-rating-for-the-iphone-18-pro-repairability/)
-  Wired - 2026-09-21T
-- [Got an Android Phone? Google Thinks You’ll Probably Want a Googlebook Laptop](https://www.wired.com/story/google-launches-googlebook-laptops/)
-  Wired - 2026-09-21T
 

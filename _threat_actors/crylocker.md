@@ -30,9 +30,3 @@ Ransomware Identifies victim locations w/Google Maps API
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto](https://thehackernews.com/2026/09/contagious-interview-campaign.html)
-  The Hacker News - 2026-09-21T
-

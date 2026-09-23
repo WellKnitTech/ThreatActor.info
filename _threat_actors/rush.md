@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Dyson Won’t Say What’s Wrong With Its CameraJet Toothbrush](https://www.wired.com/story/dyson-wont-say-whats-wrong-with-the-camerajet-toothbrush/)
-  Wired - 2026-09-21T
-

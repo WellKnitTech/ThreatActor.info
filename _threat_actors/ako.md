@@ -30,9 +30,3 @@ Once installed, Ako will attempt to delete Volume Shadow Copies and disable reco
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/)
-  TechCrunch - 2026-09-21T
-

@@ -139,6 +139,6 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Morphotonics raises €40M to expand its display tech into data centers](https://techcrunch.com/2026/09/21/morphotonics-raises-e40m-as-it-tk-tk-tk-t/)
-  TechCrunch - 2026-09-22T
+- [PlayStation Discount Code: Save on PS5 Games September 2026](https://www.wired.com/story/playstation-discount-code/)
+  Wired - 2026-09-23T
 

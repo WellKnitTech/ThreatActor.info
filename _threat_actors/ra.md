@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Morphotonics raises €40M to expand its display tech into data centers](https://techcrunch.com/2026/09/21/morphotonics-raises-e40m-as-it-tk-tk-tk-t/)
+- [20% Off Sephora Promo Code | September 2026](https://www.wired.com/story/sephora-promo-code/)
+  Wired - 2026-09-23T
+- [Ray-Ban Promo Codes: Save 50% in September 2026](https://www.wired.com/story/ray-ban-promo-code/)
+  Wired - 2026-09-23T
+- [Discord’s age verification era is upon us, despite community backlash](https://techcrunch.com/2026/09/22/discords-age-verification-era-is-upon-us-despite-community-backlash/)
+  TechCrunch - 2026-09-23T
+- [Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials](https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html)
+  The Hacker News - 2026-09-22T
+- [TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4](https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/)
   TechCrunch - 2026-09-22T
-- [Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day](https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/)
-  Ars Technica - 2026-09-21T
-- [AI, Tariffs, Rare Minerals: What to Expect From Trump’s Upcoming Summit With Xi Jinping](https://www.wired.com/story/ai-tariffs-rare-minerals-what-to-expect-from-trumps-upcoming-summit-with-xi-jinping/)
-  Wired - 2026-09-21T
-- [Dyson Won’t Say What’s Wrong With Its CameraJet Toothbrush](https://www.wired.com/story/dyson-wont-say-whats-wrong-with-the-camerajet-toothbrush/)
-  Wired - 2026-09-21T
-- [Oura’s $2.2B IPO is mostly a payday for existing shareholders](https://techcrunch.com/2026/09/21/ouras-2-2b-ipo-is-mostly-a-payday-for-existing-shareholders/)
-  TechCrunch - 2026-09-21T
 

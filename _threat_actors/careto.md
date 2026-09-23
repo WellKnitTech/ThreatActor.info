@@ -48,3 +48,9 @@ This threat actor targets governments, diplomatic missions, private companies in
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Relays Are Masking Chinese Access to Frontier AI Models in the US](https://www.darkreading.com/cyber-risk/relays-masking-chinese-access-frontier-ai-models)
+  DarkReading - 2026-09-22T
+

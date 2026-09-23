@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Got an Android Phone? Google Thinks You’ll Probably Want a Googlebook Laptop](https://www.wired.com/story/google-launches-googlebook-laptops/)
-  Wired - 2026-09-21T
-

@@ -33,6 +33,6 @@ parser needs to be built
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [OpenAI forms math advisory group as its AI resolves more than 100 open problems](https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/)
-  TechCrunch - 2026-09-21T
+- [Valvoline Coupons and Promo Codes for September 2026](https://www.wired.com/story/valvoline-coupons/)
+  Wired - 2026-09-23T
 

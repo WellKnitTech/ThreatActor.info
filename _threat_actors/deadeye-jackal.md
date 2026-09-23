@@ -44,12 +44,6 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Researchers escape OpenAI Codex sandbox to run commands on host](https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/)
-  BleepingComputer - 2026-09-20T
-- [Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws](https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html)
-  The Hacker News - 2026-09-20T
-- [Elastic announces GA of cross-project search on Serverless, enabling teams to query across all linked projects without moving a byte](https://www.elastic.co/blog/cross-project-search-elastic-serverless-ga)
-  Elastic - 2026-09-16T
-- [Have it both ways: stay discoverable in search while disallowing AI training](https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/)
-  Cloudflare - 2026-09-15T
+- [Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates](https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html)
+  The Hacker News - 2026-09-22T
 

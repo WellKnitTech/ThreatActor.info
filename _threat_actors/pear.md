@@ -30,3 +30,9 @@ ABOUT US: <br/> <br/>"Pure Extraction And Ransom (PEAR) Team is the community of
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing](https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html)
+  The Hacker News - 2026-09-22T
+
