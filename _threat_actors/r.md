@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants](https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html)
-  The Hacker News - 2026-09-23T
-- [PlayStation Discount Code: Save on PS5 Games September 2026](https://www.wired.com/story/playstation-discount-code/)
-  Wired - 2026-09-23T
-- [HP Coupon Codes and Deals September 2026](https://www.wired.com/story/hp-coupon-code/)
-  Wired - 2026-09-23T
-- [AT&T Promo Codes: $50 Off This September 2026](https://www.wired.com/story/att-promo-code/)
-  Wired - 2026-09-23T
-- [Squarespace Promo Codes: 20% Off in September 2026](https://www.wired.com/story/squarespace-promo-code/)
-  Wired - 2026-09-23T
+- [Vitamix Promo Codes and Deals: $25 Off + Free Shipping](https://www.wired.com/story/vitamix-promo-code/)
+  Wired - 2026-09-24T
+- [Starz Promo Codes: $5 Off for September 2026](https://www.wired.com/story/starz-promo-code/)
+  Wired - 2026-09-24T
+- [H&R Block Coupon: 25% Off DIY + Tax Pro Assist](https://www.wired.com/story/hr-block-coupon/)
+  Wired - 2026-09-24T
+- [Wayfair Coupons: Up to 80% Off September 2026](https://www.wired.com/story/wayfair-promo-code/)
+  Wired - 2026-09-24T
+- [50% Off DoorDash Promo Code | September 2026](https://www.wired.com/story/doordash-promo-code/)
+  Wired - 2026-09-24T
 
