@@ -33,8 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You](https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html)
-  The Hacker News - 2026-09-23T
-- [How One Kubernetes YAML Can Hand Over a GCP Organization](https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/)
-  BleepingComputer - 2026-09-23T
+- [Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data](https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html)
+  The Hacker News - 2026-09-25T
+- [Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions](https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html)
+  The Hacker News - 2026-09-24T
+- [ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories](https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html)
+  The Hacker News - 2026-09-24T
+- [Anonymous Men Have Turned Cyberharassment Into a Group Sport—Here’s One Woman’s Side of the Story](https://www.wired.com/story/uncanny-valley-podcast-anonymous-men-turned-cyberharassment-into-group-sport-heres-one-womans-side/)
+  Wired - 2026-09-24T
+- [SASE Converges Network &amp; Security Into One Cloud Solution](https://www.darkreading.com/cloud-security/sase-converges-network-security-one-cloud)
+  DarkReading - 2026-09-23T
 

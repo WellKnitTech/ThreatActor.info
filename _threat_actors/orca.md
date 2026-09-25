@@ -30,9 +30,3 @@ Orca is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Bentley Wants Its Torcal SUV to Break the Curse of the Luxury EV](https://www.wired.com/story/bentley-wants-its-torcal-suv-to-break-the-curse-of-the-luxury-ev/)
-  Wired - 2026-09-23T
-

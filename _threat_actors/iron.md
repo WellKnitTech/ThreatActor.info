@@ -35,6 +35,4 @@ It is currently unknown if Iron is indeed a new variant by the same creators of 
 
 - [Introducing Worker Previews: Isolated preview environments for every change your agent makes](https://blog.cloudflare.com/worker-previews/)
   Cloudflare - 2026-09-22T
-- [Inside the Modern SOC: Defending the Cross-Environment Pivot](https://unit42.paloaltonetworks.com/soc-cross-environment-pivot/)
-  Unit 42 - 2026-09-17T
 

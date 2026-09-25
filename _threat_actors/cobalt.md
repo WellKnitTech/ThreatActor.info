@@ -31,3 +31,9 @@ A criminal group dubbed Cobalt is behind synchronized ATM heists that saw machin
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Elastic Cloud on Azure gets a speed boost: Compute-optimized instances on Azure Cobalt ARM](https://www.elastic.co/blog/elastic-cloud-azure-cobalt-arm)
+  Elastic - 2026-09-24T
+

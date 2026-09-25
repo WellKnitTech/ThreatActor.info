@@ -30,9 +30,3 @@ Toxic is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Zoox grounds Atlanta test fleet after workers report toxic gas exposure symptoms](https://techcrunch.com/2026/09/23/zoox-grounds-atlanta-test-fleet-after-workers-report-toxic-gas-exposure-symptoms/)
-  TechCrunch - 2026-09-23T
-

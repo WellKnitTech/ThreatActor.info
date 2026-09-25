@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Meta made a Tamagotchi-like wearable for its Muse AI agent](https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/)
-  TechCrunch - 2026-09-24T
-- [Meta VR Glasses, Ray-Ban Meta Audio, Ray-Ban Meta Gen 3: Specs, Features, Prices](https://www.wired.com/story/metas-answer-to-the-meta-creep-camera-free-smart-glasses/)
-  Wired - 2026-09-23T
-- [Meta introduces camera-free AI glasses](https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/)
-  TechCrunch - 2026-09-23T
-- [Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry](https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html)
-  The Hacker News - 2026-09-23T
-- [545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent](https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html)
-  The Hacker News - 2026-09-23T
+- [Altra Running Promo Codes: 10% Off September 2026](https://www.wired.com/story/altra-promo-code/)
+  Wired - 2026-09-25T
+- [Therabody Promo Codes: 15% Off September 2026](https://www.wired.com/story/therabody-promo-code/)
+  Wired - 2026-09-25T
+- [Anonymous Men Have Turned Cyberharassment Into a Group Sport—Here’s One Woman’s Side of the Story](https://www.wired.com/story/uncanny-valley-podcast-anonymous-men-turned-cyberharassment-into-group-sport-heres-one-womans-side/)
+  Wired - 2026-09-24T
+- [SectopRAT Returns, Hiding Inside a Legitimate Application](https://www.darkreading.com/cyberattacks-data-breaches/sectoprat-returns-hiding-inside-legitimate-application)
+  DarkReading - 2026-09-24T
+- [Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer](https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html)
+  The Hacker News - 2026-09-24T
 

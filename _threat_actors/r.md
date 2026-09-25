@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Vitamix Promo Codes and Deals: $25 Off + Free Shipping](https://www.wired.com/story/vitamix-promo-code/)
-  Wired - 2026-09-24T
-- [Starz Promo Codes: $5 Off for September 2026](https://www.wired.com/story/starz-promo-code/)
-  Wired - 2026-09-24T
-- [H&R Block Coupon: 25% Off DIY + Tax Pro Assist](https://www.wired.com/story/hr-block-coupon/)
-  Wired - 2026-09-24T
-- [Wayfair Coupons: Up to 80% Off September 2026](https://www.wired.com/story/wayfair-promo-code/)
-  Wired - 2026-09-24T
-- [50% Off DoorDash Promo Code | September 2026](https://www.wired.com/story/doordash-promo-code/)
-  Wired - 2026-09-24T
+- [Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data](https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html)
+  The Hacker News - 2026-09-25T
+- [WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV](https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html)
+  The Hacker News - 2026-09-25T
+- [Russia's Hybrid Cyber-Physical War in Europe Heats Up](https://www.darkreading.com/physical-security/russia-hybrid-cyber-physical-war-europe)
+  DarkReading - 2026-09-25T
+- [Altra Running Promo Codes: 10% Off September 2026](https://www.wired.com/story/altra-promo-code/)
+  Wired - 2026-09-25T
+- [Litter-Robot Promo Codes: Up to $150 Off](https://www.wired.com/story/litter-robot-promo-code/)
+  Wired - 2026-09-25T
 

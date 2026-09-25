@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Trust, but verify: Atomic claim checking against LLM hallucinations](https://www.elastic.co/blog/atomic-claim-checking-against-llm-hallucinations)
+  Elastic - 2026-09-24T
+

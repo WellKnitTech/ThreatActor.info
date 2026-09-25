@@ -41,9 +41,3 @@ Blackjack, a threat actor linked to Ukraine's security apparatus, has targeted c
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [AI Agents Teamed Up to Cheat at Blackjack. Their Collusion Is Getting Harder to Spot](https://www.wired.com/story/ai-agent-collusion-card-counting-secrets/)
-  Wired - 2026-09-23T
-
